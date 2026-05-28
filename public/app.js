@@ -5,7 +5,11 @@ const CYR2LAT = {
   'а':'a','б':'b','в':'v','г':'g','д':'d','ђ':'đ','е':'e','ж':'ž','з':'z',
   'и':'i','ј':'j','к':'k','л':'l','љ':'lj','м':'m','н':'n','њ':'nj','о':'o',
   'п':'p','р':'r','с':'s','т':'t','ћ':'ć','у':'u','ф':'f','х':'h','ц':'c',
-  'ч':'č','џ':'dž','ш':'š'
+  'ч':'č','џ':'dž','ш':'š',
+  'А':'A','Б':'B','В':'V','Г':'G','Д':'D','Ђ':'Đ','Е':'E','Ж':'Ž','З':'Z',
+  'И':'I','Ј':'J','К':'K','Л':'L','Љ':'Lj','М':'M','Н':'N','Њ':'Nj','О':'O',
+  'П':'P','Р':'R','С':'S','Т':'T','Ћ':'Ć','У':'U','Ф':'F','Х':'H','Ц':'C',
+  'Ч':'Č','Џ':'Dž','Ш':'Š'
 };
 const LAT2CYR = {
   'a':'а','b':'б','v':'в','g':'г','d':'д','đ':'ђ','e':'е','ž':'ж','z':'з',
@@ -63,7 +67,7 @@ function commonSuffix(a,b){
   while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
   return n;
 }
-function syllables(w){
+function countSyl(w){
   let c=0;
   for(let i=0;i<w.length;i++){
     const ch=w[i];
@@ -74,8 +78,10 @@ function syllables(w){
       if(!prevV && !nextV) c++;        // slogotvorno r (prst, srce, vrt)
     }
   }
-  return c || 1;
+  return c;
 }
+// Prikaz pojedinačne reči: bar 1 slog. Usamljeni suglasnički predlog (s, k, z) = 0.
+function syllables(w){ return countSyl(w) || 1; }
 
 /* ====================== Učitavanje ====================== */
 async function loadDict(){
@@ -277,7 +283,7 @@ function lineSyllables(line){
   let total=0;
   for(const t of tokens){
     const w = toLatin(t.toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
-    if(w) total += syllables(w);
+    if(w) total += countSyl(w);
   }
   return total;
 }
@@ -377,6 +383,7 @@ document.getElementById('scriptToggle').addEventListener('click', e=>{
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
   renderFavorites();
+  renderKlasici();
 });
 
 let toastTimer;
@@ -471,10 +478,191 @@ document.addEventListener('click', e=>{
   }
 });
 
+/* ====================== KLASICI (javno vlasništvo) ====================== */
+const POEMS = [
+  { title:'Емина', author:'Алекса Шантић', years:'1868–1924',
+    text:`Синоћ, кад се вратих из топла хамама,
+Прођох покрај баште старога имама;
+Кад тамо, у башти, у хладу јасмина,
+С ибриком у руци стајаше Емина.
+
+Ја каква је, пуста! Тако ми имана,
+Стид је не би било да је код султана!
+Па још кад се шеће и плећима креће...
+- Ни хоџин ми запис више помоћ неће!...
+
+Ја јој назвах селам. Ал' мога ми дина,
+Не шће ни да чује лијепа Емина,
+Но у сребрен ибрик захитила воде
+Па по башти ђуле заливати оде;
+
+С грана вјетар духну па низ плећи пусте
+Расплете јој оне плетенице густе,
+Замириса коса ко зумбули плави,
+А мени се крену бурурет у глави!
+
+Мало не посрнух, мојега ми дина,
+Но мени не дође лијепа Емина.
+Само ме је једном погледала мрко,
+Нити хаје, алчак, што за њоме црко'!...` },
+
+  { title:'Међу јавом и мед сном', author:'Лаза Костић', years:'1841–1910',
+    text:`Срце моје самохрано,
+ко те дозва у мој дом?
+Неуморна плетисанко,
+што плетиво плетеш танко
+међу јавом и мед сном.
+
+Срце моје, срце лудо,
+шта ти мислиш са плетивом?
+К'о плетиља она стара,
+дан што плете, ноћ опара,
+међу јавом и мед сном.
+
+Срце моје, срце кивно,
+убио те живи гром!
+Што се не даш мени живу
+разабрати у плетиву
+међу јавом и мед сном!` },
+
+  { title:'Вече', author:'Ђура Јакшић', years:'1832–1878',
+    text:`Као златне токе, крвљу покапане,
+Доле пада сунце за гору, за гране.
+
+И све немо ћути, не миче се ништа,
+Та најбољи витез паде са бојишта!
+
+У срцу се живот застрашеном таји,
+Само ветар хуји... То су уздисаји...
+
+А славуји тихо уз песмицу жале,
+Не би ли им хладне стене заплакале.
+
+Немо поток бежи — ко зна куда тежи!
+Можда гробу своме — мору хлађаноме?
+
+Све у мртвом сану мрка поноћ нађе;
+Све је изумрло. Сад месец изађе...
+
+Смртно бледа лица, горе небу лети:
+Погинули витез ено се посвети!...` },
+
+  { title:'Пачија школа', author:'Јован Јовановић Змај', years:'1833–1904',
+    text:`Јесте л' чули, кумо,
+Верујте, без шале -
+Отвара се школа
+За пачиће мале.
+
+Тако је и било,
+Верујте, без шале -
+Отворила се школа
+За пачиће мале.
+
+Сви пачићи дошли,
+На скамијам' стоје;
+Стари патак метно
+Наочаре своје.
+
+Све их је уписо
+У каталог, мале,
+Па их је прозиво -
+Верујте, без шале.
+
+Па се онда шето
+С озбиљношћу крутом;
+Учио их, учио
+И књигом и прутом.
+
+Учио их, учио
+Од среде до петка,
+Ал' се нису одмакли
+Даље од почетка.
+
+Није било успеха
+Учитељском труду,
+Цела мука његова
+Остаде залуду.
+
+Ништа више не научи
+Пачурлија та,
+Него што је и пре знала:
+Га, га, га, га, га!` }
+];
+
+const SCHEME_NAMES = {
+  'AA':'parna (kupletna) rima',
+  'AABB':'parna (kupletna) rima',
+  'ABAB':'ukrštena rima',
+  'ABBA':'obgrljena rima',
+  'AAAA':'monorima'
+};
+
+function dispPoem(cyrText){ return script==='cyr' ? cyrText : toLatin(cyrText); }
+function poemLastWord(line){
+  const toks = toLatin(line.toLowerCase()).replace(/[^a-zčćžšđ\s]/g,' ').split(/\s+/).filter(Boolean);
+  return toks.length ? toks[toks.length-1] : '';
+}
+
+function renderKlasici(){
+  const box = document.getElementById('klasiciList');
+  if(!box) return;
+  box.innerHTML='';
+  POEMS.forEach(p=>{
+    const card = document.createElement('div');
+    card.className='poem-card';
+    card.innerHTML =
+      `<div class="poem-head">`
+      + `<span class="poem-title">${escapeHtml(dispPoem(p.title))}</span>`
+      + `<span class="poem-meta">${escapeHtml(dispPoem(p.author))} · ${p.years}</span>`
+      + `<span class="pd-badge" title="slobodno za objavljivanje — autor preminuo pre više od 70 godina">javno vlasništvo</span>`
+      + `</div>`;
+    const body = document.createElement('div'); body.className='poem-body';
+    let firstScheme = '';
+    p.text.split(/\n\s*\n/).forEach(st=>{
+      const lines = st.split('\n').filter(l=>l.length);
+      const keyToLetter = new Map(); let next=0;
+      const letters = lines.map(l=>{
+        const word = poemLastWord(l);
+        if(!word) return '';
+        const k = rhymeKey(word);
+        if(!keyToLetter.has(k)) keyToLetter.set(k, String.fromCharCode(65 + (next++ % 26)));
+        return keyToLetter.get(k);
+      });
+      if(!firstScheme) firstScheme = letters.join('');
+      const stanza = document.createElement('div'); stanza.className='stanza';
+      lines.forEach((l,idx)=>{
+        const word = poemLastWord(l);
+        const v = document.createElement('div'); v.className='verse';
+        v.innerHTML =
+          `<span class="vsyl" title="slogova u stihu">${lineSyllables(l)}</span>`
+          + `<span class="vtext">${escapeHtml(dispPoem(l))}</span>`
+          + `<span class="vrhyme" data-w="${escapeHtml(word)}" title="nađi rime za „${escapeHtml(word)}“">${letters[idx]||''}</span>`;
+        stanza.appendChild(v);
+      });
+      body.appendChild(stanza);
+    });
+    card.appendChild(body);
+    const foot = document.createElement('div'); foot.className='poem-foot';
+    const nm = SCHEME_NAMES[firstScheme];
+    foot.innerHTML = `<span class="poem-scheme">Šema rime (1. strofa): <b>${firstScheme||'—'}</b>${nm?' · '+nm:''}</span> · `;
+    const btn = document.createElement('button'); btn.className='link-btn'; btn.textContent='prebaci u brojač slogova';
+    btn.onclick = ()=>{ sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'}); };
+    foot.appendChild(btn);
+    card.appendChild(foot);
+    box.appendChild(card);
+  });
+  box.querySelectorAll('.vrhyme').forEach(b=>{
+    if(!b.dataset.w) return;
+    b.style.cursor='pointer';
+    b.onclick = ()=>{ rimeInput.value = disp(b.dataset.w); switchTab('rime'); window.scrollTo({top:0,behavior:'smooth'}); doRhymes(); };
+  });
+}
+
 /* ====================== START ====================== */
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
 updateFavCount();
 renderFavorites();
 renderGutter();
 updateNoteStats();
+renderKlasici();
 loadDict().then(()=>{ rimeInput.focus(); });

@@ -13,7 +13,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="style.css?v=20260528b">
+<link rel="stylesheet" href="style.css?v=20260528d">
 </head>
 <body>
 <header class="site-header">
@@ -32,6 +32,7 @@
   <button data-tab="pretraga">Pretraga reči</button>
   <button data-tab="slogovi">Slogovi i znakovi</button>
   <button data-tab="beleznica">Beležnica</button>
+  <button data-tab="klasici">Klasici</button>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
 
@@ -101,6 +102,12 @@
     <div id="noteStats" class="note-stats"></div>
   </section>
 
+  <!-- KLASICI -->
+  <section class="tab-panel" id="panel-klasici">
+    <p class="hint">Poznate pesme iz <b>javnog vlasništva</b> (autori preminuli pre više od 70 godina). Pored svakog stiha piše broj slogova, a slovo (A, B, C…) označava koje se rime poklapaju — da vidiš šemu rime i ritam velikih pesnika. Klikni na završnu reč stiha da joj nađeš rime.</p>
+    <div id="klasiciList"></div>
+  </section>
+
   <!-- OMILJENE -->
   <section class="tab-panel" id="panel-omiljene">
     <p class="hint">Reči sačuvane klikom na ♥ skupljaju se ovde, na jednom mestu — pri ruci dok pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve</button></p>
@@ -123,6 +130,6 @@
   </div>
 </footer>
 
-<script src="app.js?v=20260528b"></script>
+<script src="app.js?v=20260528d"></script>
 </body>
 </html>

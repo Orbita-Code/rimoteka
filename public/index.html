@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rimoteka — alat za pesnike</title>
+<title>Rimoteka — alat za pesnike i tekstopisce</title>
 <meta name="description" content="Rimoteka: pronalaženje rime, brojač slogova, beležnica i rečnik srpskog jezika za pisanje pesama.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,9 @@
 </head>
 <body>
 <header class="site-header">
-  <div class="brand">
+  <div class="brand" id="brandHome" role="button" tabindex="0" title="Početak — nazad na rime">
     <h1>Rimoteka</h1>
-    <p class="tagline">tvoj radni sto za pisanje pesama</p>
+    <p class="tagline">mesto gde se rađaju inspiracija i stihovi</p>
   </div>
   <div class="script-toggle" id="scriptToggle" title="Prebaci pismo">
     <button data-script="lat" class="active">latinica</button>
@@ -106,7 +106,7 @@
 <div id="loading" class="loading">Učitavanje rečnika…</div>
 <div id="toast" class="toast"></div>
 
-<footer class="site-footer">Pravljeno s ljubavlju za sve pesnike · Powered by Orbita Code</footer>
+<footer class="site-footer">Pravljeno s ljubavlju za sve pesnike i tekstopisce · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></footer>
 
 <script src="app.js"></script>
 </body>

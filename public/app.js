@@ -363,6 +363,11 @@ document.getElementById('tabs').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(b) switchTab(b.dataset.tab);
 });
 
+const brandHome=document.getElementById('brandHome');
+function goHome(){ switchTab('rime'); window.scrollTo({top:0, behavior:'smooth'}); }
+brandHome.addEventListener('click', goHome);
+brandHome.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); goHome(); } });
+
 document.getElementById('scriptToggle').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   script=b.dataset.script;

@@ -279,17 +279,23 @@ sylInput.addEventListener('input', ()=>{
   const out = document.getElementById('sylOutput');
   const lines = sylInput.value.split('\n');
   out.innerHTML='';
-  let total=0, nonEmpty=0;
+  let totalSyl=0, nonEmpty=0;
   lines.forEach(line=>{
-    const c = lineSyllables(line);
-    if(line.trim()){ total+=c; nonEmpty++; }
+    const s = lineSyllables(line);
+    if(line.trim()){ totalSyl+=s; nonEmpty++; }
     const div=document.createElement('div'); div.className='syl-line';
-    div.innerHTML = `<span class="count">${line.trim()?c:''}</span><span class="txt">${escapeHtml(line)||'&nbsp;'}</span>`;
+    div.innerHTML = `<span class="count">${line.trim()?s:''}</span>`
+      + `<span class="txt">${escapeHtml(line)||'&nbsp;'}</span>`
+      + `<span class="chcount">${line.trim()? line.length+' zn.' : ''}</span>`;
     out.appendChild(div);
   });
   if(nonEmpty){
+    const text = sylInput.value;
+    const chars = text.length;
+    const noSpace = text.replace(/\s/g,'').length;
+    const words = (text.trim().match(/\S+/g)||[]).length;
     const t=document.createElement('div'); t.className='syl-total';
-    t.textContent = `Ukupno: ${total} slogova u ${nonEmpty} ${nonEmpty===1?'redu':'reda/redova'}`;
+    t.innerHTML = `Ukupno: <b>${totalSyl}</b> slogova · <b>${words}</b> reči · <b>${chars}</b> znakova (${noSpace} bez razmaka) · ${nonEmpty} ${nonEmpty===1?'red':'redova'}`;
     out.appendChild(t);
   }
 });
@@ -303,9 +309,20 @@ function renderGutter(){
   const lines = noteInput.value.split('\n');
   noteGutter.textContent = lines.map(l => l.trim() ? lineSyllables(l) : '·').join('\n');
 }
+function updateNoteStats(){
+  const text = noteInput.value;
+  const stats = document.getElementById('noteStats');
+  if(!text.trim()){ stats.textContent = ''; return; }
+  const lines = text.split('\n').filter(l=>l.trim()).length;
+  const words = (text.trim().match(/\S+/g)||[]).length;
+  const chars = text.length;
+  let syl=0; text.split('\n').forEach(l=>{ if(l.trim()) syl += lineSyllables(l); });
+  stats.textContent = `${lines} ${lines===1?'red':'redova'} · ${words} reči · ${chars} znakova · ${syl} slogova`;
+}
 noteInput.addEventListener('input', ()=>{
   localStorage.setItem('rimoteka_notes', noteInput.value);
   renderGutter();
+  updateNoteStats();
 });
 noteInput.addEventListener('scroll', ()=>{ noteGutter.scrollTop = noteInput.scrollTop; });
 document.getElementById('clearNotes').onclick = ()=>{
@@ -411,7 +428,7 @@ async function fetchDefinition(word){
       }
     }catch(e){}
   }
-  if(!result) result = { text:'(nema u rečniku — uskoro objašnjenje na srpskom)', src:'' };
+  if(!result) result = { text:'Nema objašnjenja za ovu reč.', src:'' };
   defCache.set(word, result);
   return result;
 }
@@ -428,7 +445,7 @@ function positionTip(anchor){
 
 async function showDefAt(word, anchor, pinned){
   defWord = word; defPinned = pinned;
-  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">tražim objašnjenje…</div>`;
+  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">učitavanje…</div>`;
   positionTip(anchor);
   const res = await fetchDefinition(word);
   if(defWord !== word) return;
@@ -447,4 +464,5 @@ document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle(
 updateFavCount();
 renderFavorites();
 renderGutter();
+updateNoteStats();
 loadDict().then(()=>{ rimeInput.focus(); });

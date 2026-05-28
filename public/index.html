@@ -25,7 +25,7 @@
 <nav class="tabs" id="tabs">
   <button data-tab="rime" class="active">Rime</button>
   <button data-tab="pretraga">Pretraga reči</button>
-  <button data-tab="slogovi">Brojač slogova</button>
+  <button data-tab="slogovi">Slogovi i znakovi</button>
   <button data-tab="beleznica">Beležnica</button>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
@@ -81,28 +81,29 @@
 
   <!-- SLOGOVI -->
   <section class="tab-panel" id="panel-slogovi">
-    <p class="hint">Nalepi stihove — pokazaću broj slogova za svaki red. Korisno za proveru ritma i metra.</p>
+    <p class="hint">Upiši ili nalepi stihove. Pored svakog reda piše koliko ima slogova i znakova, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma — da se pesma lepo peva i lako pamti.</p>
     <textarea id="sylInput" class="big-text" placeholder="Imam jednu lepoticu,&#10;slatku malu musavicu."></textarea>
     <div id="sylOutput" class="syl-lines"></div>
   </section>
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint">Tvoja pesma se sama čuva u ovom pregledaču. Broj slogova svakog reda vidiš sa strane. <button id="clearNotes" class="link-btn">obriši sve</button></p>
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a na dnu ukupno reči, znakova i slogova. <button id="clearNotes" class="link-btn">obriši sve</button></p>
     <div class="notepad">
       <div id="noteGutter" class="gutter"></div>
       <textarea id="noteInput" class="notepad-text" placeholder="Ovde piši svoju pesmu…"></textarea>
     </div>
+    <div id="noteStats" class="note-stats"></div>
   </section>
 
   <!-- OMILJENE -->
   <section class="tab-panel" id="panel-omiljene">
-    <p class="hint">Reči koje si sačuvala (klikni ♥ na bilo kojoj reči). <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve</button></p>
+    <p class="hint">Reči sačuvane klikom na ♥ skupljaju se ovde, na jednom mestu — pri ruci dok pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve</button></p>
     <div id="favResults" class="results"></div>
   </section>
 </main>
 
-<div id="loading" class="loading">Učitavam rečnik…</div>
+<div id="loading" class="loading">Učitavanje rečnika…</div>
 <div id="toast" class="toast"></div>
 
 <footer class="site-footer">Pravljeno s ljubavlju za sve pesnike · Powered by Orbita Code</footer>

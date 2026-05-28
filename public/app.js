@@ -258,6 +258,13 @@ function doSearch(){
 }
 document.getElementById('searchBtn').onclick = doSearch;
 searchInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
+const searchMode = document.getElementById('searchMode');
+function updateSearchPlaceholder(){
+  const ph = { ends:'npr. ica, ama, ost', starts:'npr. cvet, svet, mesec', contains:'npr. cvet, zvezd, ljub' };
+  searchInput.placeholder = ph[searchMode.value] || '';
+}
+searchMode.addEventListener('change', ()=>{ updateSearchPlaceholder(); if(searchInput.value.trim()) doSearch(); });
+updateSearchPlaceholder();
 document.getElementById('searchSyl').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   document.querySelectorAll('#searchSyl button').forEach(x=>x.classList.remove('active'));

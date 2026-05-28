@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rimoteka — alat za pesnike</title>
+<meta name="description" content="Rimoteka: pronalaženje rime, brojač slogova, beležnica i rečnik srpskog jezika za pisanje pesama.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <h1>Rimoteka</h1>
+    <p class="tagline">tvoj radni sto za pisanje pesama</p>
+  </div>
+  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo">
+    <button data-script="lat" class="active">latinica</button>
+    <button data-script="cyr">ћирилица</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="rime" class="active">Rime</button>
+  <button data-tab="pretraga">Pretraga reči</button>
+  <button data-tab="slogovi">Brojač slogova</button>
+  <button data-tab="beleznica">Beležnica</button>
+  <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
+</nav>
+
+<main>
+  <!-- RIME -->
+  <section class="tab-panel active" id="panel-rime">
+    <div class="search-row">
+      <input type="text" id="rimeInput" placeholder="upiši reč (npr. devojčica)" autocomplete="off" spellcheck="false">
+      <button id="rimeBtn" class="primary">Nađi rime</button>
+      <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju">🎲</button>
+    </div>
+    <div class="filters">
+      <span class="flabel">Slogova:</span>
+      <div class="syl-filter" id="rimeSyl">
+        <button data-syl="0" class="active">sve</button>
+        <button data-syl="1">1</button>
+        <button data-syl="2">2</button>
+        <button data-syl="3">3</button>
+        <button data-syl="4">4</button>
+        <button data-syl="5">5+</button>
+      </div>
+      <label class="loose-toggle"><input type="checkbox" id="looseToggle"> i šire (slabije) rime</label>
+      <label class="loose-toggle"><input type="checkbox" id="jekToggle"> uključi ijekavicu</label>
+    </div>
+    <div id="rimeResults" class="results"></div>
+  </section>
+
+  <!-- PRETRAGA -->
+  <section class="tab-panel" id="panel-pretraga">
+    <div class="search-row">
+      <select id="searchMode">
+        <option value="ends">završava se na…</option>
+        <option value="starts">počinje na…</option>
+        <option value="contains">sadrži…</option>
+      </select>
+      <input type="text" id="searchInput" placeholder="npr. -ica, ljub-, -cvet-" autocomplete="off" spellcheck="false">
+      <button id="searchBtn" class="primary">Traži</button>
+    </div>
+    <div class="filters">
+      <span class="flabel">Slogova:</span>
+      <div class="syl-filter" id="searchSyl">
+        <button data-syl="0" class="active">sve</button>
+        <button data-syl="1">1</button>
+        <button data-syl="2">2</button>
+        <button data-syl="3">3</button>
+        <button data-syl="4">4</button>
+        <button data-syl="5">5+</button>
+      </div>
+    </div>
+    <div id="searchResults" class="results"></div>
+  </section>
+
+  <!-- SLOGOVI -->
+  <section class="tab-panel" id="panel-slogovi">
+    <p class="hint">Nalepi stihove — pokazaću broj slogova za svaki red. Korisno za proveru ritma i metra.</p>
+    <textarea id="sylInput" class="big-text" placeholder="Imam jednu lepoticu,&#10;slatku malu musavicu."></textarea>
+    <div id="sylOutput" class="syl-lines"></div>
+  </section>
+
+  <!-- BELEZNICA -->
+  <section class="tab-panel" id="panel-beleznica">
+    <p class="hint">Tvoja pesma se sama čuva u ovom pregledaču. Broj slogova svakog reda vidiš sa strane. <button id="clearNotes" class="link-btn">obriši sve</button></p>
+    <div class="notepad">
+      <div id="noteGutter" class="gutter"></div>
+      <textarea id="noteInput" class="notepad-text" placeholder="Ovde piši svoju pesmu…"></textarea>
+    </div>
+  </section>
+
+  <!-- OMILJENE -->
+  <section class="tab-panel" id="panel-omiljene">
+    <p class="hint">Reči koje si sačuvala (klikni ♥ na bilo kojoj reči). <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve</button></p>
+    <div id="favResults" class="results"></div>
+  </section>
+</main>
+
+<div id="loading" class="loading">Učitavam rečnik…</div>
+<div id="toast" class="toast"></div>
+
+<footer class="site-footer">Pravljeno s ljubavlju za sve pesnike · Powered by Orbita Code</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

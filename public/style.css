@@ -1,20 +1,20 @@
 :root{
-  --lavender:#b9a3e3;
-  --lavender-deep:#9678d4;
-  --rose:#f4a9c7;
-  --rose-deep:#e87aa6;
-  --mint:#9adcc6;
-  --mint-deep:#5fc1a3;
-  --peach:#ffc9a3;
-  --sky:#a9d4f2;
-  --butter:#ffe6a7;
-  --ink:#5a4f72;
-  --ink-soft:#7e7396;
-  --muted:#a89dc0;
-  --paper:#fffdfb;
-  --line:#ece4f6;
-  --shadow:0 8px 24px rgba(150,120,212,.14);
-  --shadow-sm:0 4px 12px rgba(150,120,212,.12);
+  --lavender:#9b86e6;
+  --lavender-deep:#5a3fd0;
+  --rose:#8aa0f5;
+  --rose-deep:#4f63e0;
+  --mint:#7cc3f6;
+  --mint-deep:#26a2f8;
+  --peach:#a99cf0;
+  --sky:#9ecbf7;
+  --butter:#c3aef0;
+  --ink:#393257;
+  --ink-soft:#5d5685;
+  --muted:#9a93b8;
+  --paper:#fdfcff;
+  --line:#e8e4f7;
+  --shadow:0 8px 24px rgba(90,63,208,.16);
+  --shadow-sm:0 4px 12px rgba(90,63,208,.13);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -26,11 +26,11 @@ body{
   min-height:100vh;
   -webkit-font-smoothing:antialiased;
   background:
-    radial-gradient(circle at 12% 8%, #f7e6fb 0%, transparent 42%),
-    radial-gradient(circle at 88% 12%, #e3f0fd 0%, transparent 45%),
-    radial-gradient(circle at 78% 88%, #e2f9ee 0%, transparent 45%),
-    radial-gradient(circle at 18% 92%, #ffeede 0%, transparent 42%),
-    linear-gradient(180deg,#fdf6fb,#f4f1fc 55%,#eef8f4);
+    radial-gradient(circle at 12% 8%, #efe6fb 0%, transparent 42%),
+    radial-gradient(circle at 88% 12%, #e3effd 0%, transparent 45%),
+    radial-gradient(circle at 78% 88%, #e6ecff 0%, transparent 45%),
+    radial-gradient(circle at 18% 92%, #ece6fb 0%, transparent 42%),
+    linear-gradient(180deg,#faf7fe,#f1f0fc 55%,#eef4fd);
   background-attachment:fixed;
 }
 h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
@@ -52,9 +52,16 @@ h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
 .brand:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px}
 .brand h1{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
+  display:inline-flex;align-items:center;gap:.04em;
   background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
 }
+.logo-r{
+  height:1.45em;width:auto;display:block;
+  filter:drop-shadow(0 3px 7px rgba(90,63,208,.28));
+  transition:transform .15s ease;
+}
+.brand:hover .logo-r{transform:rotate(-3deg) scale(1.04)}
 .tagline{margin:.05rem 0 0;color:var(--ink-soft);font-size:1rem}
 .tagline::before{content:"✿ ";color:var(--rose)}
 .script-toggle{display:flex;border-radius:999px;overflow:hidden;background:#fff;box-shadow:var(--shadow-sm);padding:.2rem}

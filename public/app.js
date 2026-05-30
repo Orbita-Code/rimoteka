@@ -88,7 +88,7 @@ async function loadDict(){
   const [ek, jek, defs] = await Promise.all([
     fetch('reci.txt').then(r=>r.text()),
     fetch('reci_jekavica.txt').then(r=>r.text()).catch(()=> ''),
-    fetch('definicije.json?v=79').then(r=>r.ok?r.json():{}).catch(()=> ({}))
+    fetch('definicije.json?v=80').then(r=>r.ok?r.json():{}).catch(()=> ({}))
   ]);
   for(const k in defs) DEFS.set(k, defs[k]);
   const ekWords = ek.split('\n').filter(Boolean);

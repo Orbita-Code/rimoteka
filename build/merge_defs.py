@@ -12,7 +12,10 @@ DEFS = os.path.join(ROOT, "public", "definicije.json")
 RECI = os.path.join(ROOT, "public", "reci.txt")
 
 new = json.load(sys.stdin)
-defs = json.load(open(DEFS, encoding="utf-8"))
+# Tolerantno čitanje: ako uhvatimo fajl usred upisa druge sesije (rep-smeće),
+# raw_decode uzima prvi validan JSON objekat i odbacuje ostatak.
+_raw = open(DEFS, encoding="utf-8").read()
+defs, _end = json.JSONDecoder().raw_decode(_raw)
 words = set(l.strip() for l in open(RECI, encoding="utf-8"))
 
 added, skipped, not_in_dict = 0, 0, []
@@ -25,9 +28,13 @@ for k, v in new.items():
     if k not in words:
         not_in_dict.append(k)
 
-with open(DEFS, "w", encoding="utf-8") as f:
+# Atomičan upis: piši u privremeni fajl pa ga preimenuj (os.replace je atomično).
+# Sprečava korupciju kad dve sesije istovremeno pišu u definicije.json.
+TMP = DEFS + f".tmp.{os.getpid()}"
+with open(TMP, "w", encoding="utf-8") as f:
     json.dump(defs, f, ensure_ascii=False, indent=2)
     f.write("\n")
+os.replace(TMP, DEFS)
 
 print(f"+{added} novih | preskočeno {skipped} (već postoje) | ukupno sada: {len(defs)}")
 if not_in_dict:

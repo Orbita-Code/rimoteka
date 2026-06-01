@@ -21,12 +21,36 @@ und = sorted(set(w for w in words if w not in defs))
 
 dia = re.compile(r'[čćžšđ]')
 foreign = re.compile(r'[wxyq]')
-cand = [w for w in und if len(dia.findall(w)) >= 2 and not foreign.search(w) and 5 <= len(w) <= 12]
+cand = [w for w in und if dia.search(w) and not foreign.search(w) and 4 <= len(w) <= 16]
 
 prisv = re.compile(r'^(.*ić)(ev|eva|eve|evi|evih|evim|evom|evog|evu|evoj|evo)$')
 obl = re.compile(r'^(.*ić)(a|u|em|e|i|ima|ka|ki|kom)$')
 
+# reči koje obrazac lažno hvata kao prezime — NIKAD ne definisati kao prezime
+NON_SURNAME = {
+    'cigančići', 'jevrejčić', 'dedčić', 'džigeričić', 'madžarčić', 'pičić',
+    'amerića', 'amerićki', 'beatriće', 'bići', 'blagobiće', 'svastičić',
+}
+# deminutivi/glagolski oblici koje treba preusmeriti na pravu definiciju
+DEM = {
+    'autiće': 'Oblik reči autić (mali automobil, igračka).',
+    'autiću': 'Oblik reči autić (mali automobil, igračka).',
+    'bića': 'Oblik reči biće (stvorenje, živo biće).',
+    'baviće': 'Oblik glagola baviti se (budući: baviće se).',
+    'baviću': 'Oblik glagola baviti se (budući: baviću se).',
+    'boraviće': 'Oblik glagola boraviti (budući: boraviće).',
+    'braniće': 'Oblik glagola braniti (budući: braniće).',
+    'magarčić': 'Oblik reči magarčić (mladi magarac, magare).',
+    'oblačići': 'Oblik reči oblačić (mali oblak).',
+    'lančića': 'Oblik reči lančić (mali lanac, ogrlica).',
+    'lončića': 'Oblik reči lončić (mali lonac, posuda).',
+}
+
 def classify(w):
+    if w in NON_SURNAME:
+        return None
+    if w in DEM:
+        return DEM[w]
     cap = w[0].upper() + w[1:]
     if w.endswith('ić'):
         return 'Prezime (' + cap + ').'

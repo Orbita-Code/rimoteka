@@ -70228,7 +70228,6 @@ zaostalo
 zapovedio
 zapušen
 zaručnice
-zaručnici
 zaseni
 zaslepljena
 zatreskala
@@ -276723,7 +276722,6 @@ zabeležava
 zabeležba
 zabeležilo
 zabeležiće
-zabeležno
 zabeli
 zabelila
 zabeliti
@@ -277479,7 +277477,6 @@ zagorskim
 zagorsko
 zagorskog
 zagorsku
-zagorćao
 zagorčaju
 zagorčali
 zagorčan
@@ -277863,10 +277860,7 @@ zajedljivica
 zajedljivim
 zajedljivom
 zajedljivu
-zajednićke
 zajednićki
-zajednićko
-zajednićku
 zajedničar
 zajelo
 zajemčen
@@ -277881,11 +277875,6 @@ zajemčio
 zajemčiti
 zajemčuje
 zajesti
-zajećaraca
-zajećarce
-zajećarci
-zajećarsko
-zajećarsku
 zaječa
 zaječar
 zaječara
@@ -278198,7 +278187,6 @@ zakovrčen
 zakovrči
 zakovrčiti
 zakoće
-zakoč
 zakoče
 zakočile
 zakočilo
@@ -278674,7 +278662,6 @@ zamenicama
 zamenicom
 zamenismo
 zamenivši
-zamenićke
 zamenička
 zameničke
 zamenički
@@ -279465,8 +279452,6 @@ zapevke
 zapevku
 zapevuši
 zapećaćen
-zapećaćena
-zapećaćene
 zapećaćeni
 zapeći
 zapeću
@@ -279732,7 +279717,6 @@ zapoveđen
 zapoveđena
 zapovešću
 zapovijeđu
-zapoćeće
 započe
 započeh
 započesmo
@@ -280982,7 +280966,6 @@ zavađenoj
 zavađenom
 zavađenošću
 zavađenu
-zavađil
 zavedenih
 zavedenim
 zavedenog
@@ -281316,7 +281299,6 @@ zavrzenoj
 zavrzenu
 zavrćete
 zavrći
-zavrćio
 zavrćući
 završavan
 završavaće
@@ -281597,7 +281579,6 @@ zaštićavati
 zaštićivao
 zaštićuje
 zaštićuju
-zaštičene
 zaštičenih
 zašumi
 zašumori

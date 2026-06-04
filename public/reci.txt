@@ -14139,7 +14139,6 @@ kuhati
 petlje
 policajcu
 pomaknuti
-porše
 ustanova
 zaklela
 bubrega
@@ -21597,7 +21596,6 @@ natalija
 oglase
 optuži
 poljsku
-pomoč
 potpisano
 priznajte
 priznanicu
@@ -24059,7 +24057,6 @@ oduzmeš
 pasoša
 poremećena
 posrednika
-počinitelj
 prepoznaš
 prikladan
 prodata
@@ -35891,7 +35888,6 @@ posavetujem
 pospremiti
 potomke
 povratna
-počinitelja
 praćen
 previsok
 preživljavanju
@@ -48611,7 +48607,6 @@ platile
 pljunuta
 ploviš
 podložan
-poduzeće
 pokretljivost
 postojeći
 postupite
@@ -51270,7 +51265,6 @@ plešimo
 pločom
 podova
 podsmeva
-poduzeća
 pojedinim
 pokazite
 pokore
@@ -55490,7 +55484,6 @@ potcenjujte
 poteškoćama
 potopa
 pozivnici
-poči
 pravilom
 praćeni
 prdnula
@@ -56430,7 +56423,6 @@ pokretan
 pomazem
 popo
 potpori
-potrešen
 povlačio
 prebegao
 preduzetnika
@@ -76512,7 +76504,6 @@ potiskuju
 potisnut
 potonuće
 povećavao
-povjesničar
 pozadinski
 pozvaćete
 počinioce
@@ -79783,7 +79774,6 @@ poveravaju
 pozajmljen
 pozdravom
 pozivnicom
-poćeo
 početnim
 pravosudnom
 predradnika
@@ -81586,7 +81576,6 @@ postavši
 postrojili
 posut
 posvađaju
-potječu
 potpisite
 poverioci
 poveznice
@@ -103270,7 +103259,6 @@ poziranja
 pozitivnije
 pozitivniji
 pozvanih
-poćela
 počinile
 počinjale
 požive
@@ -115206,7 +115194,6 @@ podjednaki
 podkast
 podmazujem
 podnevna
-podsječa
 podvornika
 poetsko
 poganih
@@ -115268,7 +115255,6 @@ pozadinac
 pozajmljivač
 pozivanju
 pozivnog
-poć
 početniku
 poštedeće
 prebegli
@@ -118447,7 +118433,6 @@ podrignuti
 podrugljiv
 podsmehu
 podupirali
-poduzimaš
 podvodi
 podvrgnu
 pogaziš
@@ -118522,7 +118507,6 @@ površnih
 površnost
 pozdravile
 pozivanjem
-poćetak
 počekaj
 pošizeti
 poželjniji
@@ -129892,7 +129876,6 @@ pozajmljivači
 pozlaćenom
 poznavaoca
 pozvanog
-poćetka
 počasnoj
 počinjenim
 poželeh
@@ -224839,7 +224822,6 @@ područnog
 područnoj
 područnom
 podruštvljavanje
-podrćku
 podrškama
 podrški
 podrško
@@ -225052,14 +225034,10 @@ poduzetna
 poduzetne
 poduzeto
 poduzetog
-poduzećem
-poduzećima
-poduzeše
 poduzimala
 poduzimani
 poduzimanje
 poduzimao
-poduzimača
 poduzorak
 poduzorka
 podučavale
@@ -228172,7 +228150,6 @@ popovićevo
 popovićevu
 popovići
 popoviću
-popovičem
 popovo
 popovog
 popovoj
@@ -228396,13 +228373,11 @@ porekavši
 porekle
 poreknuto
 poremećuje
-poremečen
 porenović
 poretke
 porezana
 poreznikom
 poreće
-poreč
 poreča
 poreče
 porečena
@@ -228548,10 +228523,7 @@ portirove
 portirska
 portirski
 portić
-portiš
 portom
-portorož
-portorožu
 portova
 portove
 portovi

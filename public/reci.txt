@@ -4129,7 +4129,6 @@ oprezno
 kasni
 pomoćnik
 otpušten
-platili
 pokupiti
 povedi
 kanal
@@ -10304,7 +10303,6 @@ trudila
 hard
 legende
 ostajete
-pirs
 plavom
 plin
 slepo
@@ -17033,7 +17031,6 @@ had
 instituta
 izgledaće
 komadi
-pip
 poremećaja
 povežemo
 rivers
@@ -19401,7 +19398,6 @@ neznanje
 oruđe
 panda
 pilote
-ping
 pizze
 plivaj
 primećuješ
@@ -23890,7 +23886,6 @@ naručiš
 oblaku
 odbacite
 otvorilo
-pin
 platnu
 potpune
 proizvođač
@@ -26658,7 +26653,6 @@ nevreme
 obučene
 partnerica
 perja
-piters
 plakanja
 ponižena
 provinciji
@@ -31395,7 +31389,6 @@ okači
 opra
 paste
 pecam
-pipe
 pominju
 postajalo
 prebijen
@@ -36332,7 +36325,6 @@ parket
 patroliraju
 pe
 penkalo
-pine
 pohađa
 pomišljala
 pomišljam
@@ -38082,7 +38074,6 @@ palermo
 pande
 parcela
 peščani
-pilu
 pojedine
 pokajanja
 poretku
@@ -39108,7 +39099,6 @@ označili
 paketom
 parni
 pijanca
-pivi
 poduhvata
 pokvarenim
 ponije
@@ -43549,7 +43539,6 @@ pehara
 perverzna
 pečeš
 pijanim
-plat
 plišane
 pobesni
 podlegao
@@ -60480,7 +60469,6 @@ paranoidni
 penzionisanja
 perverznjače
 pijuk
-plahtama
 plaćaj
 pljuvaču
 poboljšavaju
@@ -66375,7 +66363,6 @@ pepeljari
 pilanu
 pilećim
 pivaru
-pk
 plam
 planinara
 pljuj
@@ -70447,7 +70434,6 @@ peškiru
 piratska
 pitomac
 pišljivih
-plejbek
 plemkinja
 plotun
 pobrinućeš
@@ -82532,7 +82518,6 @@ pesniče
 pijaću
 pisaćoj
 piskav
-pisni
 plamenik
 plavušama
 plemenskih
@@ -85992,7 +85977,6 @@ pećinske
 peš
 pilav
 pilje
-pinkija
 piskarala
 pismenost
 pivska
@@ -101228,8 +101212,6 @@ petroviću
 pevačka
 pečenica
 pikapu
-pima
-pini
 pirsinge
 piruetu
 pistaće
@@ -103572,7 +103554,6 @@ pisaćeg
 pitbule
 pivovare
 pivovari
-plant
 planše
 pleve
 plićaka
@@ -106054,7 +106035,6 @@ pilić
 piraterija
 pitoni
 piđama
-pjerino
 plahovit
 plastelin
 plastičar
@@ -113000,7 +112980,6 @@ pione
 piskavi
 pišljive
 platnenu
-pleja
 plejeru
 pljuskom
 pobite
@@ -121321,7 +121300,6 @@ pijuci
 pijune
 pikavce
 pingvinski
-pinku
 piraterije
 pirotehniku
 pitomca
@@ -123158,7 +123136,6 @@ plazmene
 plaćeniče
 plačljive
 plačljivka
-ple
 plesalo
 pletenu
 plije
@@ -127245,7 +127222,6 @@ pirinejima
 piromane
 pistaćima
 pitano
-pjaci
 plagijatora
 plahovita
 plamteća
@@ -129493,8 +129469,6 @@ plakarima
 planetarnoj
 planetarnom
 platana
-platnih
-platnima
 plaćenički
 plebejac
 plemenskoj
@@ -136723,7 +136697,6 @@ pitomom
 piškilo
 piščev
 plame
-platnim
 plavojka
 plaćaćete
 pleven
@@ -212646,7 +212619,6 @@ piladi
 pilama
 pilanama
 pilara
-pilarovim
 pilava
 piletić
 piletića
@@ -212657,7 +212629,6 @@ piletićevu
 pilež
 pilicama
 pilila
-pilipenko
 pilipić
 pilipović
 pilipovića
@@ -212693,30 +212664,22 @@ pilotaža
 pilotaže
 pilotaži
 pilotina
-pilotinom
 pilotirana
 pilotskih
 pilsen
 pilsena
 pilulicama
-pimenta
 pimić
 pinakoteci
 pinakoteka
 pinakoteke
-pinci
 pindovića
-pinea
-pineu
 pinija
 pinije
-pinijom
 piniju
-pinjada
 pinjola
 pinjole
 pinka
-pinkas
 pinokiju
 pinosava
 pintarić
@@ -212744,7 +212707,6 @@ piperski
 piperskom
 pipeta
 pipetom
-pipina
 pipirevku
 pipkale
 pipkamo
@@ -212766,16 +212728,10 @@ pirateriji
 pirateriju
 pirej
 pireja
-pirejska
-pirejskoj
 pireju
 pirenja
 pirevine
-pirga
-pirgom
-pirgu
 pirilo
-pirineje
 pirineji
 pirinejsko
 pirinčanoj
@@ -212829,7 +212785,6 @@ pirove
 pirovi
 pirovima
 pirović
-pirozi
 piroćanac
 piroćanaca
 piroćanca
@@ -212887,7 +212842,6 @@ piskavih
 piskavo
 piskavom
 piske
-piskela
 piskom
 piskova
 pisku
@@ -212904,8 +212858,6 @@ pismenima
 pismenoj
 pismenome
 pismenošću
-pismokako
-pismovia
 pisnu
 pistola
 pitagorine
@@ -212925,7 +212877,6 @@ pitača
 pitače
 pitaše
 pitašević
-pithart
 pitije
 pitiji
 pitijom
@@ -212964,7 +212915,6 @@ pitoreskno
 pitović
 pitulić
 pitulića
-piv
 pivarska
 pivarske
 pivarskih
@@ -213032,23 +212982,14 @@ pižamama
 pižon
 pižona
 pižurica
-pjacetu
-pjacola
-pjacole
 pjanić
-pjanoj
-pjanom
 pjanović
 pjanovića
 pjanovićem
 pjanoviću
-pjastera
 pjongjanga
 pjongjangu
-pjp
 pkb
-pkj
-pks
 placentama
 placeve
 placevi
@@ -213087,8 +213028,6 @@ plakavši
 plakaše
 plaketom
 plaknuti
-plakvan
-plama
 plamenac
 plamenca
 plamencu
@@ -213129,7 +213068,6 @@ plamtećoj
 plamtimo
 plamtio
 plamtiš
-plamu
 plandišta
 plandište
 plandištu
@@ -213149,7 +213087,6 @@ plani
 planika
 planike
 planimetrija
-planin
 planinac
 planinaca
 planinarka
@@ -213184,7 +213121,6 @@ plantažera
 plantažom
 planuh
 planule
-planum
 planuvši
 planuće
 planuše
@@ -213283,9 +213219,6 @@ platonizam
 platonizma
 platonizmu
 platonove
-platonovog
-platonovoj
-platonovom
 platonovu
 platonskih
 platonskim
@@ -213307,7 +213240,6 @@ plavetnilom
 plavetnim
 plavetnog
 plavetnu
-plavevski
 plaveći
 plavila
 plavile
@@ -213506,7 +213438,6 @@ plesnivih
 plesnivim
 plesniviti
 plesnivo
-plet
 pletar
 pletara
 pletare
@@ -213533,18 +213464,15 @@ pletite
 pletiva
 pletivom
 pletući
-pleure
 pleuritis
 pleuritično
 pleva
-plevara
 plevač
 plevi
 pleviti
 plevljenja
 plevljenjem
 plevom
-plevu
 plećat
 plećata
 plećate

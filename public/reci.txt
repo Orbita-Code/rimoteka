@@ -7584,7 +7584,6 @@ batlerom
 batleru
 batlija
 bato
-batokljun
 batom
 batova
 batove
@@ -14576,7 +14575,6 @@ brežuljkast
 brežuljkaste
 brežuljke
 brežuljku
-brgljez
 brica
 brid
 bridak
@@ -71821,11 +71819,8 @@ komarnica
 komarnik
 komarnike
 komarnikom
-komarča
-komarče
 komarčić
 komarčića
-komarču
 komasacije
 komati
 komatina
@@ -73284,7 +73279,6 @@ konopcu
 konope
 konoplja
 konopljana
-konopljarka
 konoplje
 konopljište
 konoplju
@@ -88470,9 +88464,6 @@ mapu
 mar
 mara
 marabu
-maracuja
-maracuje
-maracuju
 maradika
 maradona
 maradone
@@ -88486,6 +88477,9 @@ marakeš
 marakeša
 marakešu
 maraković
+marakuja
+marakuje
+marakuju
 marama
 maramama
 marame
@@ -261715,7 +261709,6 @@ zviznuti
 zviznuću
 zvižd
 zviždahu
-zviždak
 zviždala
 zviždali
 zviždaljka

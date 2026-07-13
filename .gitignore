@@ -2,4 +2,6 @@
 node_modules/
 *.log
 .playwright-mcp/
-public/reci.txt.bak3
+# iCloud/OneDrive konflikt-kopije i backup-i (Frankenštajn fajlovi)
+*.bak*
+* [0-9].*

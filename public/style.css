@@ -214,6 +214,33 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .faq details[open] summary::before{content:"−"}
 .faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem}
 
+/* LANDING (rime-za) */
+.brand{text-decoration:none;color:inherit}
+main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3rem}
+.crumbs{font-size:.85rem;color:var(--muted);font-weight:600;margin-bottom:.8rem}
+.crumbs a{color:var(--lavender-deep);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+.landing-h1{font-size:clamp(1.5rem,4vw,2.1rem);font-weight:600;color:var(--lavender-deep);margin:.2rem 0 .5rem}
+.landing-lead{color:var(--ink-soft);font-size:1rem;max-width:720px;margin:0 0 1rem}
+.landing-def{background:#faf6fe;border-radius:14px;padding:.7rem 1rem;color:var(--ink);font-size:.95rem;margin:0 0 1.1rem;border:1px solid var(--line)}
+.landing-def strong{color:var(--lavender-deep);font-family:'Fredoka',sans-serif}
+.landing-cta{display:inline-block;margin:0 0 1.6rem;padding:.8rem 1.5rem;border-radius:18px;font-weight:700;text-decoration:none;color:#fff;background:linear-gradient(95deg,var(--rose),var(--rose-deep));box-shadow:0 6px 16px rgba(232,122,166,.35);transition:.18s}
+.landing-cta:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(232,122,166,.42)}
+.chip{text-decoration:none}
+.landing-faq{margin-top:2rem}
+.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
+.landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
+.landing-faq details[open]{border-color:var(--lavender)}
+.landing-faq summary{font-family:'Fredoka',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
+.landing-faq summary::-webkit-details-marker{display:none}
+.landing-faq summary::before{content:"＋";color:var(--rose-deep);font-weight:700}
+.landing-faq details[open] summary::before{content:"−"}
+.landing-faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem}
+
+/* FOOTER POPULARNE RIME */
+.footer-rimes{max-width:760px;margin:.4rem 0 0;font-size:.82rem;line-height:1.9;color:var(--muted)}
+.footer-rimes-label{font-weight:700;color:var(--ink-soft);margin-right:.3rem}
+
 /* FOOTER */
 .site-footer{margin-top:auto;border-top:1px solid var(--line);background:#fff;padding:2.2rem 1.5rem}
 .footer-inner{max-width:940px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem}

@@ -1,0 +1,382 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Rimoteka — generator statičkih SEO landing strana /rime-za/[rec]/.
+Replicira algoritam rime iz public/app.js (rhymeKey, commonSuffix, countSyl),
+pravi pun statični HTML (bez JS-a, indeksira se odmah), auto-sitemap i footer linkove.
+
+Pokretanje:  cd build && python3 gen_pages.py
+"""
+import os, re, json, html
+from collections import defaultdict
+from urllib.parse import quote
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+PUB = os.path.join(HERE, '..', 'public')
+BASE = 'https://rimoteka.com'
+
+VOWELS = set('aeiou')
+
+# ---------------- Lingvistika (1:1 sa app.js) ----------------
+def vowel_positions(w):
+    # 1:1 sa app.js: samoglasnici + slogotvorno „r" (nosilac sloga: srce, vrt)
+    p = []
+    for i, ch in enumerate(w):
+        if ch in VOWELS:
+            p.append(i)
+        elif ch == 'r':
+            prevV = i > 0 and w[i-1] in VOWELS
+            nextV = i < len(w)-1 and w[i+1] in VOWELS
+            if not prevV and not nextV:
+                p.append(i)
+    return p
+
+def rhyme_key(w):
+    vp = vowel_positions(w)
+    if not vp:
+        return w
+    last = vp[-1]
+    if last < len(w) - 1:
+        return w[last:]
+    if len(vp) >= 2:
+        return w[vp[-2]:]
+    return w[last:]
+
+def loose_key(w):
+    # Širi ključ (asonanca): od poslednjeg nosioca sloga — 1:1 sa app.js looseKey
+    vp = vowel_positions(w)
+    if not vp:
+        return w
+    return w[vp[-1]:]
+
+def final_syl_key(w):
+    # 1:1 sa app.js finalSylKey — poslednji slog sa onset suglasnikom (srce -> "ce")
+    vp = vowel_positions(w)
+    if not vp:
+        return w
+    last = vp[-1]
+    start = last
+    if last > 0 and (last - 1) not in vp:
+        start = last - 1
+    return w[start:]
+
+def common_suffix(a, b):
+    n = 0
+    while n < len(a) and n < len(b) and a[len(a)-1-n] == b[len(b)-1-n]:
+        n += 1
+    return n
+
+def count_syl(w):
+    c = 0
+    for i, ch in enumerate(w):
+        if ch in VOWELS:
+            c += 1
+        elif ch == 'r':
+            prevV = i > 0 and w[i-1] in VOWELS
+            nextV = i < len(w)-1 and w[i+1] in VOWELS
+            if not prevV and not nextV:
+                c += 1
+    return c
+
+def syllables(w):
+    return count_syl(w) or 1
+
+def syl_word(n):
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'slog'
+    if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        return 'sloga'
+    return 'slogova'
+
+def rima_word(n):
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'rima'          # 1, 21, 31 rima
+    if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        return 'rime'          # 2-4, 22-24 rime
+    return 'rima'              # 5+, 11-14 rima
+
+# ---------------- Slug (transliteracija po pravilu) ----------------
+TRANS = {'š': 's', 'š'.upper(): 's', 'č': 'c', 'ć': 'c', 'ž': 'z', 'đ': 'dj'}
+def slugify(w):
+    out = []
+    for ch in w:
+        out.append(TRANS.get(ch, ch))
+    return ''.join(out)
+
+# ---------------- Kurirana lista tema (ekavica) ----------------
+TARGETS = """
+ljubav srce duša sreća tuga bol radost nada strast čežnja samoća osećaj
+zagrljaj poljubac nežnost želja sanjarenje ljubomora ljubomora
+sunce mesec zvezda nebo oblak kiša sneg vetar munja more reka jezero
+planina šuma drvo cvet ruža list trava zemlja vatra voda vazduh kamen
+pesak talas zora sumrak noć dan jutro veče senka svetlost mrak duga
+proleće leto jesen zima vreme godina vek trenutak večnost prošlost
+budućnost sadašnjost mladost starost
+majka otac sin ćerka brat sestra dete prijatelj dragi draga žena
+muškarac devojka momak čovek narod porodica komšija
+oči ruka usne kosa lice osmeh suza dlan prst glas dah korak grlo
+sloboda istina laž san java misao reč pesma stih priča put cilj
+snaga mir rat život smrt sudbina čast ponos vera greh duh um razum
+zlato srebro biser dijamant kruna
+grad selo kuća dom sokak ulica prozor vrata most zid krov
+novac ekipa kralj car borba igra muzika ritam glas droga
+anđeo đavo raj pakao molitva krst
+vino pesma gitara truba bubanj
+strah nada sumnja krivica kajanje oprost
+lepota mladost ljubav osmeh
+put daljina povratak rastanak susret
+oko uho nos jezik zub
+konj pas mačka ptica vuk lav orao golub leptir pčela riba zmija
+jabuka kruška šljiva grožđe malina jagoda breskva
+hleb so med mleko kafa čaj
+kralj kraljica princ princeza vitez
+ljubavnik voljena
+mir sreća zdravlje
+""".split()
+
+# ---------------- Učitavanje rečnika ----------------
+def load():
+    with open(os.path.join(PUB, 'reci.txt'), encoding='utf-8') as f:
+        words = [w for w in f.read().split('\n') if w]
+    try:
+        with open(os.path.join(PUB, 'definicije.json'), encoding='utf-8') as f:
+            defs = json.load(f)
+    except Exception:
+        defs = {}
+    return words, defs
+
+# ---------------- HTML delovi (deljeni) ----------------
+HEAD_TMPL = """<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F88VM8CWBQ"></script>
+<script src="/ga-init.js?v=1"></script>
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="{canonical}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rimoteka">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:url" content="{canonical}">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{ogdesc}">
+<meta property="og:image" content="{base}/logo-icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#5a3fd0">
+<link rel="stylesheet" href="/style.css?v=20260714e">
+<script type="application/ld+json">
+{schema}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
+    <h1 class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="Rimoteka" width="512" height="512"><span class="brand-word">imoteka</span></h1>
+  </a>
+</header>
+"""
+
+FOOTER_TMPL = """<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+    </div>
+    <p class="footer-desc">Besplatan alat za pronalaženje rime, brojanje slogova i pisanje pesama i tekstova na srpskom jeziku.</p>
+    <nav class="footer-rimes" aria-label="Popularne rime">
+      <span class="footer-rimes-label">Popularne rime:</span>
+      {poprime}
+    </nav>
+    <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+  </div>
+</footer>
+</body>
+</html>
+"""
+
+def esc(s):
+    return html.escape(s, quote=True)
+
+def chip(rword, syl, href):
+    return (f'<a class="chip" href="{href}"><span class="word">{esc(rword)}</span>'
+            f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span></a>')
+
+def rhyme_link(rword, target_slugs):
+    sl = slugify(rword)
+    if sl in target_slugs:
+        return f'/rime-za/{quote(sl)}/'
+    return f'/?rec={quote(rword)}'
+
+def main():
+    words, defs = load()
+    rank = {w: i for i, w in enumerate(words)}
+    keygroup = defaultdict(list)
+    finalgroup = defaultdict(list)
+    for i, w in enumerate(words):
+        keygroup[rhyme_key(w)].append(w)        # već rangirano (index raste)
+        finalgroup[final_syl_key(w)].append(w)  # za fallback „isti završni slog"
+
+    wset = set(words)
+
+    # 1) finalna lista meta-reči: postoje u rečniku, jedinstven slug
+    targets, seen_slug = [], {}
+    for t in TARGETS:
+        if t not in wset:
+            continue
+        sl = slugify(t)
+        if sl in seen_slug:
+            continue
+        seen_slug[sl] = t
+        targets.append(t)
+    target_slugs = set(seen_slug.keys())
+
+    # popularne (footer) — prvih 30 iz liste koje postoje
+    popular = targets[:30]
+    poprime_html = ' · '.join(
+        f'<a href="/rime-za/{quote(slugify(w))}/" class="footer-link">{esc(w)}</a>' for w in popular
+    )
+    footer = FOOTER_TMPL.format(poprime=poprime_html)
+
+    # 2) generisanje strana — prvo obriši stare (bez siročića/stale strana)
+    import shutil
+    outdir = os.path.join(PUB, 'rime-za')
+    if os.path.isdir(outdir):
+        shutil.rmtree(outdir)
+    os.makedirs(outdir, exist_ok=True)
+    sitemap_urls = [(BASE + '/', '1.0'), (BASE + '/', None)]  # placeholder; homepage dodajemo posebno
+    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
+
+    generated = 0
+    for t in targets:
+        key = rhyme_key(t)
+        klen = len(key)
+        cands = [w for w in keygroup[key] if w != t]
+        cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
+        best = [w for w in cands if common_suffix(t, w) > klen][:50]
+        good = [w for w in cands if common_suffix(t, w) == klen][:36]
+
+        # Fallback (kao doRhymes): reči sa malo savršenih rima -> „isti završni slog"
+        final_extra = []
+        if len(best) + len(good) < 6:
+            fk = final_syl_key(t)
+            strong_set = set(keygroup[key]); strong_set.add(t)
+            fin = [w for w in finalgroup[fk] if w not in strong_set]
+            fin.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
+            final_extra = fin[:40]
+
+        all_r = best + good + final_extra
+        if len(all_r) < 3:
+            continue  # premalo rima — preskoči (da ne pravimo prazne strane)
+
+        sl = slugify(t)
+        tsyl = syllables(t)
+        first_list = ', '.join(all_r[:10])
+
+        # groups HTML
+        def group_html(title, arr, strong):
+            if not arr:
+                return ''
+            chips = ''.join(chip(w, syllables(w), rhyme_link(w, target_slugs)) for w in arr)
+            cls = 'res-group strong-tier' if strong else 'res-group'
+            return f'<div class="{cls}"><h3>{title}</h3><div class="results">{chips}</div></div>'
+
+        groups = (group_html('Najbolje rime', best, True)
+                  + group_html('Dobre rime', good, False)
+                  + group_html('Dobre rime (isti završni slog)', final_extra, False))
+
+        # meaning
+        mean = ''
+        if t in defs:
+            mean = f'<p class="landing-def"><strong>{esc(t)}</strong> — {esc(defs[t])}</p>'
+
+        title = f'Rime za reč „{t}“ — {len(all_r)} {rima_word(len(all_r))} | Rimoteka'
+        desc = (f'Rimovanje reči „{t}“: sve reči koje se rimuju sa {t} — {first_list}. '
+                f'Besplatan rečnik rima za pisanje rime, pesama, repovanje i dečje pesmice.')
+        ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
+        canonical = f'{BASE}/rime-za/{quote(sl)}/'
+
+        schema = json.dumps({
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
+                        {"@type": "ListItem", "position": 2, "name": f"Rime za {t}", "item": canonical}
+                    ]
+                },
+                {
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {"@type": "Question", "name": f"Koje se reči rimuju sa „{t}“?",
+                         "acceptedAnswer": {"@type": "Answer",
+                            "text": f"Sa rečju {t} rimuju se, između ostalog: {', '.join(all_r[:14])}."}},
+                        {"@type": "Question", "name": f"Koliko slogova ima reč „{t}“?",
+                         "acceptedAnswer": {"@type": "Answer",
+                            "text": f"Reč {t} ima {tsyl} {syl_word(tsyl)}."}}
+                    ]
+                }
+            ]
+        }, ensure_ascii=False, indent=1)
+
+        head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(ogdesc),
+                                canonical=canonical, base=BASE, schema=schema)
+
+        body = f"""<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za „{esc(t)}“</span></nav>
+  <h2 class="landing-h1">Rime za reč „{esc(t)}“</h2>
+  <p class="landing-lead">Rimovanje reči „{esc(t)}“ — pronađeno <strong>{len(all_r)}</strong> {rima_word(len(all_r))} koje se rimuju sa <strong>„{esc(t)}“</strong> ({tsyl} {syl_word(tsyl)}), rangirano po kvalitetu rime. Iskoristi ih za pisanje rime, pesme, repovanje ili dečje pesmice. Klikni reč da otvoriš još rima.</p>
+  {mean}
+  <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši pesmu →</a>
+  {groups}
+  <section class="landing-faq">
+    <h3>Česta pitanja</h3>
+    <details><summary>Koje se reči rimuju sa „{esc(t)}“?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
+    <details><summary>Koliko slogova ima reč „{esc(t)}“?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
+    <details><summary>Kako da nađem još rima?</summary><p>Klikni „Otvori Rimoteku“ pa u alatu upiši bilo koju reč — dobićeš proširenu listu rima, šire (asonantne) rime i filter po broju slogova.</p></details>
+  </section>
+</main>
+"""
+        page = head + body + footer
+        pdir = os.path.join(outdir, sl)
+        os.makedirs(pdir, exist_ok=True)
+        with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
+            f.write(page)
+        sitemap_entries.append(
+            f'  <url><loc>{canonical}</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+        generated += 1
+
+    # 3) sitemap
+    sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          + '\n'.join(sitemap_entries) + '\n</urlset>\n')
+    with open(os.path.join(PUB, 'sitemap.xml'), 'w', encoding='utf-8') as f:
+        f.write(sm)
+
+    # 4) footer linkovi u index.html
+    idx_path = os.path.join(PUB, 'index.html')
+    with open(idx_path, encoding='utf-8') as f:
+        idx = f.read()
+    new_idx = re.sub(r'<!--POPRIME_START-->.*?<!--POPRIME_END-->',
+                     '<!--POPRIME_START-->' + poprime_html + '<!--POPRIME_END-->',
+                     idx, flags=re.S)
+    if new_idx != idx:
+        with open(idx_path, 'w', encoding='utf-8') as f:
+            f.write(new_idx)
+
+    print(f"Generisano strana: {generated}")
+    print(f"Sitemap URL-ova: {len(sitemap_entries)}")
+    print(f"Footer popularnih linkova: {len(popular)}")
+
+if __name__ == '__main__':
+    main()

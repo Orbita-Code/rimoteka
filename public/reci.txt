@@ -38389,7 +38389,6 @@ sportaš
 strelicu
 suvim
 suzdržati
-tačer
 tragali
 trkati
 ukazali
@@ -42840,7 +42839,6 @@ strune
 sudili
 supermene
 suprotstave
-suđa
 taština
 teleport
 tennessee
@@ -66819,7 +66817,6 @@ suđenjima
 svakodnevnu
 svestran
 tanu
-tačci
 tektonske
 termini
 trkačkom
@@ -71325,7 +71322,6 @@ tabakeru
 talijana
 taloga
 tave
-taćno
 teretna
 testni
 tinja
@@ -90683,7 +90679,6 @@ stanci
 stario
 statuama
 stažistkinja
-stepanovič
 sterilne
 stiropor
 stiskom
@@ -94148,7 +94143,6 @@ taknete
 takosima
 tatama
 tatjanu
-tač
 tekstualne
 teleskopu
 tikvo
@@ -255946,7 +255940,6 @@ stankoviće
 stankovićem
 stankovići
 stankoviću
-stankovič
 stankovom
 stankovski
 stankovu
@@ -255988,7 +255981,6 @@ stanulović
 stanče
 stančev
 stančića
-stančul
 stapahu
 stapajući
 stapala
@@ -256236,7 +256228,6 @@ stazo
 staša
 staše
 stašević
-stašicu
 stašić
 stašu
 stažer
@@ -256255,7 +256246,6 @@ stefanovih
 stefanovim
 stefanović
 stefanovića
-stefanovič
 stefanovo
 stefanovog
 stefanovoj
@@ -256713,7 +256703,6 @@ stišljivog
 stište
 stižući
 stjecanjem
-stjecaće
 stjepiću
 stjepko
 stjepčević
@@ -256761,7 +256750,6 @@ stojadinu
 stojahu
 stojakov
 stojaković
-stojakovič
 stojan
 stojana
 stojane
@@ -256876,7 +256864,6 @@ stolećem
 stolico
 stolićem
 stolićeva
-stolič
 stoličica
 stoličice
 stoličici
@@ -256891,8 +256878,6 @@ stolovali
 stolovanja
 stolovao
 stolovati
-stoložan
-stoložana
 stolpnik
 stoluj
 stoluje
@@ -257125,7 +257110,6 @@ strazbur
 strazbura
 strazburom
 straćarom
-straće
 straćene
 straćili
 straćiti
@@ -257832,10 +257816,8 @@ sudelovala
 sudelovale
 sudelovalo
 sudelovanja
-sudelovaću
 sudelujemo
 sudeluju
-sudelujući
 sudeonica
 sudeonici
 sudeonik
@@ -257901,7 +257883,6 @@ sugerirale
 sugeriralo
 sugerirana
 sugerirano
-sugeriraće
 sugerisale
 sugerisana
 sugerisane
@@ -258703,7 +258684,6 @@ suštastven
 suštastveno
 suštastvenost
 suštastvo
-suštatstvu
 sušte
 sušti
 suštim
@@ -258854,7 +258834,6 @@ svarljivost
 svarog
 svastici
 svastikin
-svastičić
 svata
 svate
 svatima
@@ -258871,13 +258850,8 @@ svatski
 svatu
 svazilend
 svazilendu
-svaće
-svaći
-svača
-svače
 svačeg
 svačem
-svači
 svađalačka
 svađalački
 svađalačkim
@@ -258969,7 +258943,6 @@ sveopštoj
 sveopštom
 sveopštu
 sveprisutnošću
-sveračunarski
 svere
 sveslovenske
 svesnija
@@ -259139,7 +259112,6 @@ svetoliko
 svetomir
 svetomira
 svetomirom
-svetomržnju
 svetonazor
 svetopismo
 svetorodna
@@ -259149,7 +259121,6 @@ svetorodnu
 svetosavka
 svetoslava
 svetoslavu
-svetotačko
 svetovali
 svetovanja
 svetovanje
@@ -259185,7 +259156,6 @@ svetozvanje
 svetskoga
 svetskome
 svetuju
-svetuškin
 sveukupan
 sveukupna
 sveukupnih
@@ -259234,7 +259204,6 @@ svezne
 svezom
 svezuje
 svezuju
-svećanim
 svećano
 svećanost
 svećar
@@ -259274,7 +259243,6 @@ svečevom
 svečevu
 svečnosti
 sveđ
-svešta
 sveštena
 sveštene
 svešteni
@@ -259289,7 +259257,6 @@ sveštenoga
 sveštenoj
 sveštenom
 sveštenu
-svešće
 svežega
 svežete
 svežijom
@@ -259454,7 +259421,6 @@ svodnu
 svodove
 svodovima
 svojakati
-svojakaš
 svojata
 svojataju
 svojatala
@@ -259484,7 +259450,6 @@ svojevrsnim
 svojevrsnoj
 svojevrtan
 svojezemlje
-svoježivot
 svojinom
 svojinska
 svojinske
@@ -259610,7 +259575,6 @@ svrstavši
 svrstaće
 svrstaše
 svrziću
-svrću
 svršavaj
 svršavali
 svršavalo
@@ -259633,7 +259597,6 @@ svršiste
 svršivši
 svršiće
 svršiše
-svrže
 svudi
 svukavši
 svukle
@@ -259647,7 +259610,6 @@ svučene
 svučeno
 svučenu
 szup
-sžs
 taba
 tabacima
 tabaju
@@ -260265,8 +260227,6 @@ tarifnom
 tarifnu
 tarifom
 tarkanom
-tarlać
-tarlaća
 tarnice
 tarno
 tarpoš
@@ -260275,9 +260235,6 @@ tartanske
 tarući
 tarzanski
 tarčina
-tarčinu
-tarčug
-tarčužak
 tase
 tasev
 taseva
@@ -260386,24 +260343,6 @@ tazbine
 tazbini
 tazbinom
 tazbinstvu
-taćaka
-taćija
-taćijem
-taćiju
-taćka
-taćkama
-taćke
-taćki
-taćku
-tače
-tači
-tačija
-tačijem
-tačijeve
-tačijevi
-tačijevih
-tačijevom
-tačiju
 tačkana
 tačkasta
 tačkastih

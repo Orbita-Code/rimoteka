@@ -70,6 +70,16 @@ function looseKey(w){
   if(vp.length === 0) return w;
   return w.slice(vp[vp.length-1]);
 }
+// Ključ završnog sloga: jedan onset suglasnik + poslednje jezgro + rep
+// (za reči sa malo savršenih rima, npr. srce -> "ce": borce, dvorce, jezerce...)
+function finalSylKey(w){
+  const vp = vowelPositions(w);
+  if(vp.length === 0) return w;
+  const last = vp[vp.length-1];
+  let start = last;
+  if(last > 0 && vp.indexOf(last-1) === -1) start = last-1;
+  return w.slice(start);
+}
 function commonSuffix(a,b){
   let n=0; const la=a.length, lb=b.length;
   while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
@@ -96,7 +106,7 @@ async function loadDict(){
   const [ek, jek, defs] = await Promise.all([
     fetch('reci.txt').then(r=>r.text()),
     fetch('reci_jekavica.txt').then(r=>r.text()).catch(()=> ''),
-    fetch('definicije.json?v=226').then(r=>r.ok?r.json():{}).catch(()=> ({}))
+    fetch('definicije.json?v=227').then(r=>r.ok?r.json():{}).catch(()=> ({}))
   ]);
   for(const k in defs) DEFS.set(k, defs[k]);
   const ekWords = ek.split('\n').filter(Boolean);
@@ -196,15 +206,36 @@ function doRhymes(){
   const best = strongFiltered.filter(w=>commonSuffix(q,w) > keyLen).slice(0,90);
   const good = strongFiltered.filter(w=>commonSuffix(q,w) === keyLen).slice(0,90);
 
-  if(!best.length && !good.length && !loose){
+  // Fallback za reči sa malo savršenih rima (npr. srce, srp): isti završni slog
+  let finalExtra = [];
+  if(best.length + good.length < 6){
+    const fk = finalSylKey(q);
+    const seen = new Set(strong); seen.add(q);
+    const fin = [];
+    for(let i=0;i<limit;i++){
+      const w = WORDS[i];
+      if(seen.has(w)) continue;
+      if(finalSylKey(w)===fk) fin.push(w);
+    }
+    fin.sort((a,b)=>{
+      const d = commonSuffix(q,b)-commonSuffix(q,a);
+      if(d) return d;
+      return RANK.get(a)-RANK.get(b);
+    });
+    finalExtra = filterSyl(fin).slice(0,90);
+  }
+
+  if(!best.length && !good.length && !finalExtra.length && !loose){
     box.innerHTML = '<p class="empty">Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod.</p>';
   }
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
   renderGroup(box, good.length?'Dobre rime':'', good, false);
+  renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
   if(loose){
     const lk = looseKey(q);
     const seen = new Set(strong);
+    finalExtra.forEach(w=>seen.add(w));
     const wide = [];
     for(let i=0;i<limit;i++){
       const w = WORDS[i];

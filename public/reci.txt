@@ -35056,6 +35056,9 @@ federalnu
 federativna
 federativnim
 federe
+federer
+federera
+federerom
 federi
 federiko
 federirati
@@ -66306,6 +66309,8 @@ karavanskih
 karavanu
 karavađa
 karavađo
+karavađom
+karavađu
 karavela
 karavelić
 karavidić
@@ -98828,11 +98833,13 @@ nadajte
 nadaju
 nadajući
 nadajućih
+nadal
 nadala
 nadaleko
 nadali
 nadalje
 nadalo
+nadalom
 nadam
 nadama
 nadamnom
@@ -125637,6 +125644,9 @@ ojeden
 ojedina
 ojedine
 ojesti
+ojler
+ojlera
+ojlerov
 ok
 oka
 okaca

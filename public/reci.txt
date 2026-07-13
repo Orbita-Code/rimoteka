@@ -4213,6 +4213,9 @@ arondacija
 arondacije
 arondirati
 arondismanu
+aronija
+aronije
+aroniju
 aronov
 aronova
 arpada
@@ -16896,6 +16899,7 @@ cecin
 cecić
 cecom
 cecu
+cedar
 cedeći
 cedi
 cedila
@@ -16913,6 +16917,9 @@ cedio
 cediti
 cedićeš
 cediš
+cedra
+cedrom
+cedru
 cedulja
 ceduljama
 cedulje
@@ -30300,6 +30307,9 @@ durenja
 durenje
 dureći
 duri
+durijan
+durijana
+durijanom
 durim
 durio
 durite
@@ -61624,6 +61634,9 @@ jarebicama
 jarebice
 jarebicom
 jarebicu
+jarebika
+jarebike
+jarebiku
 jarebičije
 jaredić
 jaredića
@@ -63487,6 +63500,7 @@ jogurte
 jogurtima
 jogurtom
 jogurtu
+joha
 johan
 johana
 johanes
@@ -63494,6 +63508,8 @@ johanesa
 johanom
 johansen
 johanu
+johe
+johu
 joj
 jojić
 jojića
@@ -66241,7 +66257,9 @@ karaman
 karamazova
 karamazovi
 karambol
+karambola
 karambole
+karambolu
 karamel
 karamela
 karamele
@@ -71781,9 +71799,11 @@ komarnica
 komarnik
 komarnike
 komarnikom
+komarča
 komarče
 komarčić
 komarčića
+komarču
 komasacije
 komati
 komatina
@@ -79911,6 +79931,9 @@ kurjački
 kurjačkih
 kurjačkog
 kurje
+kurkuma
+kurkume
+kurkumu
 kurosava
 kurosave
 kurs
@@ -88423,6 +88446,9 @@ mapu
 mar
 mara
 marabu
+maracuja
+maracuje
+maracuju
 maradika
 maradona
 maradone
@@ -90571,6 +90597,7 @@ mejlovi
 mejlovima
 mejlu
 mejn
+mejnkun
 mejnstrim
 mejnstrima
 mejru
@@ -109649,6 +109676,8 @@ nekrštenu
 nekst
 nektar
 nektara
+nektarine
+nektarinu
 nektarom
 nektaru
 neku
@@ -115335,6 +115364,9 @@ nešović
 nešovića
 nešovićem
 nešoviću
+nešpula
+nešpule
+nešpulu
 nešta
 neštampana
 neštedimice
@@ -130334,7 +130366,10 @@ opštu
 or
 oracija
 oracle
+orada
+orade
 oradea
+oradu
 orah
 oraha
 orahe
@@ -141134,6 +141169,7 @@ perzijanka
 perzije
 perziji
 perzijom
+perzijska
 perzijski
 perzijsko
 perzijskog
@@ -181884,6 +181920,7 @@ ragbiju
 ragbista
 ragbiste
 ragbisti
+ragdol
 ragip
 ragnarok
 ragu
@@ -192916,7 +192953,10 @@ rukohvata
 rukohvate
 rukohvati
 rukohvatom
+rukola
+rukole
 rukoljub
+rukolu
 rukom
 rukomet
 rukometa

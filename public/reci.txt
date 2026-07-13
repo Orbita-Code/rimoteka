@@ -93135,7 +93135,6 @@ preduhitrimo
 predvidiva
 predviđate
 pregovor
-preključe
 prekratke
 prenagljujemo
 prepoznajte
@@ -121982,7 +121981,6 @@ punile
 pupa
 puteljkom
 putić
-puđa
 puškomitraljez
 rabote
 racionalizuješ
@@ -229698,7 +229696,6 @@ potvrđivanju
 potvrđivao
 potvrđivati
 potvrđujte
-potvršen
 potčinila
 potčinile
 potčinili
@@ -229954,7 +229951,6 @@ povešani
 povešanih
 povešao
 povešati
-povešom
 povh
 povi
 povicima
@@ -230369,10 +230365,6 @@ pozvanosti
 pozvanu
 pozvavši
 pozvaše
-poće
-poćerkom
-poćev
-poćto
 poćuta
 poćutala
 poćutao
@@ -230380,7 +230372,6 @@ poćutati
 poćutavši
 poćutaše
 poćute
-poćuti
 počaditi
 počam
 počasnica
@@ -230404,18 +230395,15 @@ počekam
 počekati
 počekavši
 počekom
-počeku
 počelu
 počep
 počesmo
 počesti
-počestima
 počesto
 početa
 početan
 počete
 početim
-početko
 početničko
 početničkom
 početo
@@ -230426,12 +230414,8 @@ početu
 počeša
 počešala
 počešali
-počešku
 počešu
 počešće
-počešćih
-počija
-počina
 počinem
 počinemo
 počinete
@@ -230465,8 +230449,6 @@ počinuću
 počinuše
 počistilo
 počistivši
-počisto
-počitanja
 počivahu
 počivajući
 počivale
@@ -230483,7 +230465,6 @@ počivši
 počišćena
 počišćene
 počišćeni
-počto
 poču
 počuje
 počuo
@@ -230495,7 +230476,6 @@ počupaš
 počupaše
 počuti
 počuvši
-počuča
 pođednako
 pođoh
 pođosmo
@@ -231057,7 +231037,6 @@ praćkati
 praćki
 praćnuti
 prače
-pračet
 pračeta
 pračovek
 pračoveka
@@ -231449,10 +231428,8 @@ predlagač
 predlagača
 predlagači
 predlagaču
-predlaži
 predled
 predlenog
-predležeće
 predlošci
 predloška
 predloške
@@ -231593,7 +231570,6 @@ predrimske
 predrimski
 predrimsko
 predromantizmu
-predručnom
 predsabor
 predsabora
 predseda
@@ -231641,7 +231617,6 @@ predstavnička
 predstavničkih
 predstavničko
 predstavo
-predstaše
 predstoj
 predstojao
 predstojati
@@ -231781,11 +231756,8 @@ predznanja
 predznanje
 predznanjem
 predznanju
-predčulna
-predčulne
 predškolca
 predškolci
-predživot
 prefarba
 prefarban
 prefekata
@@ -231947,7 +231919,6 @@ pregrmeli
 pregrmeo
 pregrmeti
 pregrupisavanje
-pregrčke
 pregršti
 pregrštima
 pregusto
@@ -232223,9 +232194,6 @@ prekraćeno
 prekraćivati
 prekraćuje
 prekraćuju
-prekrađa
-prekrađe
-prekrađu
 prekrcavanje
 prekrenuti
 prekretati
@@ -232912,7 +232880,6 @@ preovlađivali
 preovlađivati
 preozarena
 preozbiljni
-preočani
 preoštre
 preoštrom
 prepadaju
@@ -234518,7 +234485,6 @@ prečasnim
 prečasno
 prečasnoga
 prečasnu
-prečati
 prečeg
 prečestim
 prečeta
@@ -235307,8 +235273,6 @@ prilaganjem
 prilagao
 prilagati
 prilagač
-prilagači
-prilagaše
 prilagođavali
 prilagođavalo
 prilagođavana
@@ -235460,7 +235424,6 @@ priložnik
 priložnika
 priložnike
 priložniku
-prilučka
 prilužje
 primadoni
 primah
@@ -235794,7 +235757,6 @@ prinuđuješ
 prinuđuju
 prinčevski
 prinčipina
-prinčipino
 priobaljima
 priobalna
 priobalno
@@ -236687,7 +236649,6 @@ priviđaš
 priviđaše
 priviđenjem
 priviđenju
-privjenčasmo
 privlačaše
 privlačen
 privlačene
@@ -236768,7 +236729,6 @@ prizemnom
 prizemnost
 prizemnu
 prizetiti
-prizećen
 prizidano
 prizivahu
 prizivajmo
@@ -236862,7 +236822,6 @@ prizvaću
 prizvaše
 prizvuka
 prizvuke
-prićutala
 pričahu
 pričalom
 pričane
@@ -236948,7 +236907,6 @@ pričinjenog
 pričinjenoj
 pričinjenu
 pričinu
-pričitan
 pričljivim
 pričljivoga
 pričljivost
@@ -237075,8 +237033,6 @@ probavna
 probavši
 probač
 probača
-probače
-probaču
 probdela
 probdeli
 probdelo
@@ -237539,7 +237495,6 @@ progrizli
 progrizu
 progroma
 progruša
-progrušale
 progrušali
 progrušan
 progrušane
@@ -237565,7 +237520,6 @@ progutano
 progutasmo
 progutaše
 prohanova
-prohaški
 prohi
 prohić
 prohlada
@@ -237641,7 +237595,6 @@ proishod
 proishode
 proishodeći
 proishodi
-proishođen
 proistekao
 proistekle
 proistekli
@@ -237657,7 +237610,6 @@ proisticalo
 proisticao
 proisticati
 proistiću
-proistočne
 proizađoše
 proizašli
 proizašlih
@@ -237861,7 +237813,6 @@ prokopijević
 prokopiju
 prokopović
 proković
-prokoševa
 prokrada
 prokradaju
 prokradam
@@ -238092,7 +238043,6 @@ prometnuo
 prometnut
 prometnuti
 promeće
-promećemo
 promeću
 promeša
 promešaju
@@ -238297,7 +238247,6 @@ pronošena
 pronošeni
 pronošenje
 pronošeno
-pronuđena
 proorane
 propadaj
 propadale
@@ -238485,7 +238434,6 @@ proračunamo
 proračunasmo
 proračunavši
 proračunski
-prorašća
 proreci
 prored
 proreda
@@ -238626,7 +238574,6 @@ prosečeni
 prosečenim
 prosečenog
 prosečenom
-prosečkom
 prosečniji
 prosečnoga
 prosečnomu
@@ -238955,7 +238902,6 @@ proteku
 protepa
 protepam
 protepao
-protepaš
 proterajmo
 proterajte
 proterale
@@ -238998,13 +238944,11 @@ protezanju
 protezati
 protezaće
 proteče
-protežei
 proteži
 protežira
 protežiranje
 protežirao
 protežirati
-protežno
 protežući
 proticahu
 proticale
@@ -239207,7 +239151,6 @@ proučene
 proučeni
 proučenih
 proučenim
-proučenja
 proučeno
 proučenog
 proučilo
@@ -239234,7 +239177,6 @@ provalnički
 provalnom
 provansa
 provati
-provađa
 provedba
 provedenu
 provedosmo
@@ -239367,7 +239309,6 @@ provođen
 provođena
 provođenjem
 provođeno
-provoždu
 provrela
 provrelo
 provreloj
@@ -239852,7 +239793,6 @@ prvanovim
 prvanović
 prvanovića
 prvanoviću
-prvačiti
 prvačić
 prvački
 prvašnja
@@ -239873,7 +239813,6 @@ prvine
 prvini
 prvinom
 prvinu
-prvoanđela
 prvoborac
 prvoboraca
 prvoborca
@@ -239919,7 +239858,6 @@ prvostepena
 prvostepene
 prvostepenih
 prvostepenom
-prvosuđa
 prvosvet
 prvotimac
 prvotimaca
@@ -240018,7 +239956,6 @@ psovački
 psovkom
 psujući
 psv
-psž
 ptiću
 ptičari
 ptičarom
@@ -240028,7 +239965,6 @@ ptičjom
 ptolemeja
 ptolomeja
 ptuj
-puača
 pubertetska
 pubertetske
 pubertetski
@@ -240520,8 +240456,6 @@ pušačkim
 pušačko
 pušačkog
 pušaše
-pušina
-pušini
 pušionica
 pušić
 pušića

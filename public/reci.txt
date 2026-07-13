@@ -5702,7 +5702,6 @@ sid
 rock
 plačem
 pobediš
-šarlot
 las
 kamena
 pijani
@@ -9471,7 +9470,6 @@ pokrivaj
 samoubojstvo
 suprugom
 zatvorila
-šeri
 desnom
 instrument
 mirisa
@@ -9630,7 +9628,6 @@ uzmimo
 zabavni
 mrtvim
 tečnost
-šeron
 detinjstvo
 imanju
 treću
@@ -10705,7 +10702,6 @@ padala
 paradajz
 postojalo
 talentovan
-šatl
 domaće
 kampanja
 nastavljaju
@@ -14533,7 +14529,6 @@ porukom
 posadi
 prenose
 vukodlaka
-šarp
 greše
 jašem
 koješta
@@ -15987,7 +15982,6 @@ vinom
 zapitao
 zvanični
 čuvate
-šerlok
 žestok
 arogantan
 fonda
@@ -16668,7 +16662,6 @@ tražiće
 uložiti
 upotrebimo
 upravljaš
-šarlota
 blizanac
 bruse
 donjeg
@@ -19479,7 +19472,6 @@ poslodavac
 prikupljanje
 tvojeg
 viziji
-ša
 automat
 autora
 govorilo
@@ -27438,7 +27430,6 @@ učionice
 vajs
 vulf
 zadržavanje
-šej
 šimpanze
 španac
 apsolutni
@@ -28979,7 +28970,6 @@ zmijo
 šakama
 šapa
 šav
-šeridan
 bizon
 bliskost
 bušenje
@@ -30548,7 +30538,6 @@ vermontu
 vikende
 zdravstvenih
 čeljust
-šarl
 šiframa
 žrtvina
 arhitekt
@@ -30830,7 +30819,6 @@ upucani
 uranijum
 vilama
 šangaju
-šer
 atine
 atlantis
 božanstvena
@@ -33668,7 +33656,6 @@ zateknem
 začine
 zmajem
 čvrstog
-šel
 šećerne
 štitova
 afro
@@ -39490,7 +39477,6 @@ zasmejavaš
 zlostavljanju
 zvučali
 čun
-šaron
 šesticu
 advokatskoj
 aerobik
@@ -44947,7 +44933,6 @@ zovimo
 zubu
 zvonilo
 zvonjava
-šeparda
 štićenika
 šupa
 šuplja
@@ -46025,7 +46010,6 @@ zgazila
 čuči
 šampona
 šarene
-šefild
 školjkama
 šmokljana
 špic
@@ -46900,7 +46884,6 @@ zimskom
 zlostavljane
 ćiro
 šapućete
-šarla
 šašave
 šibicama
 španskim
@@ -47871,7 +47854,6 @@ zračnih
 zvečarka
 čeda
 čuveno
-šao
 šetača
 šrapnela
 ženskama
@@ -48222,7 +48204,6 @@ zemaljskim
 časnim
 čipka
 čudnovato
-šarlotu
 štedjeti
 štence
 živećete
@@ -49921,7 +49902,6 @@ zubari
 đon
 šasija
 šatorima
-šefer
 šišam
 žarulja
 žoze
@@ -51053,7 +51033,6 @@ zvonik
 ćerkicu
 čedna
 čeku
-še
 šeširić
 šutiram
 ženicu
@@ -51236,7 +51215,6 @@ zbori
 čijom
 čokoladnih
 čuh
-šana
 šiješ
 šizofrenije
 šljamu
@@ -54343,7 +54321,6 @@ zapisane
 zlatare
 češnjak
 šardone
-šarif
 šišaš
 šoljom
 špijunke
@@ -54789,7 +54766,6 @@ zmijska
 zvaničnom
 ćorku
 čvorovi
-šarki
 šuter
 abnormalno
 amerikanku
@@ -55008,7 +54984,6 @@ zmijsko
 čeoni
 češeš
 čudesnom
-šar
 škaklja
 šorcu
 špila
@@ -57152,7 +57127,6 @@ zvučimo
 čikaški
 čvoruga
 šareno
-šari
 šerifove
 šifrovane
 šoguna
@@ -63048,7 +63022,6 @@ zvučnu
 čestitost
 čunjeve
 šarmiraš
-šeridana
 šveđanine
 željezni
 aleja
@@ -69655,7 +69628,6 @@ zvanice
 čike
 čvrstoj
 šapatom
-šat
 šifrovanu
 šilja
 švaler
@@ -76029,7 +76001,6 @@ zrakama
 đubretari
 šamarčinu
 šampionka
-šarlote
 šegrta
 šekela
 šifrirana
@@ -91564,7 +91535,6 @@ zvučnicima
 članicu
 čuperak
 šamaram
-šarlotom
 šatlovi
 šekspirov
 šibaju
@@ -94197,9 +94167,7 @@ zvonko
 đenove
 đonom
 đulijeta
-šane
 šaptao
-šelton
 šipražju
 šiš
 šiškama
@@ -96062,7 +96030,6 @@ zvončićima
 đavoljoj
 šahtu
 šapica
-šefildu
 šekspirove
 škodila
 šlemu
@@ -104624,7 +104591,6 @@ zvrčku
 čistunica
 čovečuljku
 šamane
-šanu
 šaram
 šemom
 šetale
@@ -108421,7 +108387,6 @@ zvezdicama
 šamaraju
 šapicu
 šekspirovo
-šene
 šećernog
 šibati
 šivanja
@@ -111172,7 +111137,6 @@ zvonjenja
 đokice
 đubretaru
 šašavom
-šefera
 šestogodišnja
 šikaniranje
 šintere
@@ -115648,10 +115612,8 @@ zvonimo
 đuskam
 đuveč
 šagal
-šani
 šaptača
 šefujem
-šegu
 šematski
 šepava
 šes
@@ -117197,7 +117159,6 @@ zvoniće
 šampionskog
 šarkama
 šefko
-šeja
 šeprtlje
 šepureći
 šerifska
@@ -118864,7 +118825,6 @@ zviždućem
 šabane
 šatlovima
 šeikom
-šeni
 šestogodišnjakinja
 šestomesečnu
 šijemo
@@ -124207,7 +124167,6 @@ zvoncetom
 đavolka
 đevreka
 đumbirov
-šanta
 šaptanje
 šaptačica
 šaraf
@@ -130433,8 +130392,6 @@ zvučiti
 šablonski
 šalova
 šamanu
-šarku
-šarona
 šenula
 šesnaestogodišnjak
 šetačima
@@ -143279,7 +143236,6 @@ zvučaću
 šasijom
 šašavica
 šegrte
-šeki
 šesnaestogodišnja
 šestoprsti
 šeširiće
@@ -285002,14 +284958,7 @@ zđelarević
 šablonskoga
 šabotić
 šabotiću
-šabrola
-šacuju
-šaf
 šafarik
-šafolj
-šafolja
-šafolju
-šafovci
 šafrane
 šafranove
 šafranske
@@ -285020,7 +284969,6 @@ zđelarević
 šahiste
 šahistima
 šahistkinja
-šahmatik
 šahović
 šahovića
 šahovići
@@ -285034,11 +284982,7 @@ zđelarević
 šainovića
 šainovićem
 šainoviću
-šaip
-šaipa
 šajak
-šajber
-šajin
 šajka
 šajkača
 šajkačama
@@ -285065,14 +285009,10 @@ zđelarević
 šajku
 šajnović
 šajnovića
-šajtinac
-šajtinca
 šakalu
 šakanje
 šakački
-šaker
 šaketati
-šakina
 šakića
 šakićem
 šakićev
@@ -285082,23 +285022,18 @@ zđelarević
 šakićevih
 šakiću
 šako
-šakota
 šakotić
 šalabajzeri
 šalabazala
 šalajić
 šalajića
-šalajki
-šalamov
 šaldžije
 šaletić
 šaleći
-šalgo
 šalinić
 šalitra
 šalitre
 šalitri
-šalja
 šaljaše
 šaljenja
 šaljivca
@@ -285138,7 +285073,6 @@ zđelarević
 šamarčinom
 šamca
 šamcu
-šami
 šamija
 šamijama
 šamije
@@ -285166,18 +285100,14 @@ zđelarević
 šampionsko
 šamponima
 šampončiće
-šamšula
 šanca
 šancem
 šancu
 šandora
-šandorov
-šandorove
 šandoru
 šangajske
 šangajskog
 šangajsku
-šanom
 šansona
 šansone
 šansonijer
@@ -285201,7 +285131,6 @@ zđelarević
 šantićevu
 šantiću
 šanuti
-šanuv
 šanuše
 šančeva
 šančevima
@@ -285211,8 +285140,6 @@ zđelarević
 šapca
 šapcem
 šapcu
-šaper
-šapera
 šapicom
 šapić
 šapića
@@ -285238,7 +285165,6 @@ zđelarević
 šaptaćemo
 šaptači
 šaptaše
-šapuiza
 šapurić
 šapurićem
 šaputahu
@@ -285280,7 +285206,6 @@ zđelarević
 šarcem
 šarcu
 šarenac
-šarenela
 šarenica
 šarenice
 šarenici
@@ -285303,7 +285228,6 @@ zđelarević
 šarenolike
 šarenoliki
 šarenome
-šaret
 šargan
 šargana
 šarganske
@@ -285311,10 +285235,6 @@ zđelarević
 šargarepi
 šargija
 šargić
-šargor
-šarik
-šarina
-šarinu
 šarić
 šarića
 šariće
@@ -285325,16 +285245,13 @@ zđelarević
 šarkamenac
 šarkić
 šarkićevu
-šarkoa
 šarković
 šarlatanski
 šarlatanstvo
-šarloa
 šarmantnost
 šarmiranje
 šarmiranjem
 šarmirate
-šarnu
 šaro
 šarolik
 šarolike
@@ -285347,10 +285264,6 @@ zđelarević
 šaroliku
 šaronja
 šaronjić
-šaronom
-šaronov
-šaronove
-šaronu
 šarov
 šarova
 šarović
@@ -285360,9 +285273,6 @@ zđelarević
 šarovićevo
 šarovićevu
 šaroviću
-šarping
-šarpinga
-šarpingu
 šarplaninac
 šarplanine
 šarplaninka
@@ -285372,17 +285282,14 @@ zđelarević
 šarskim
 šarskom
 šarsku
-šartije
 šarulja
 šaruljo
 šaruljom
 šarčević
 šarčevići
-šarčevu
 šarže
 šarži
 šasijama
-šatelo
 šatiranje
 šatiranu
 šatirati
@@ -285404,11 +285311,8 @@ zđelarević
 šatrom
 šatrovac
 šatrovci
-šaubine
 šaulić
 šaulića
-šaum
-šavija
 šavnik
 šaćir
 šaćirbej
@@ -285417,15 +285321,12 @@ zđelarević
 šaćirom
 šaćirović
 šačića
-šačni
 šaša
 šašavka
 šašavoj
 šašavost
 šaše
 šašić
-šaški
-šaškom
 šašu
 šeboj
 šedrvan
@@ -285470,26 +285371,21 @@ zđelarević
 šehit
 šehić
 šehović
-šehu
 šeicima
 šeić
-šejler
 šejtani
 šejtanića
 šejtanluk
-šekara
 šekarić
 šekarićeva
 šekeljić
 šekovići
-šeks
 šekspirovi
 šekspirovu
 šekularac
 šekularca
 šekularcu
 šelak
-šelinga
 šelića
 šelmić
 šematizam
@@ -285507,8 +285403,6 @@ zđelarević
 šemsine
 šemsu
 šemsudin
-šenborn
-šeneve
 šengen
 šengena
 šengenska
@@ -285520,7 +285414,6 @@ zđelarević
 šengenskom
 šengensku
 šengenu
-šenim
 šenluk
 šenluka
 šenluče
@@ -285546,7 +285439,6 @@ zđelarević
 šeprtljiti
 šepurile
 šepurili
-šeput
 šerban
 šerbana
 šerbanović
@@ -285566,8 +285458,6 @@ zđelarević
 šerijatski
 šerijatsko
 šerijatu
-šerilin
-šering
 šerići
 šerović
 šerpenja

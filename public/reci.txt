@@ -4233,7 +4233,6 @@ eni
 pričekaj
 bezbednost
 podaci
-br
 treće
 menjaju
 vojni
@@ -12227,7 +12226,6 @@ odlepio
 počiva
 privlače
 vojnog
-bouns
 curice
 morgana
 osuđujem
@@ -24564,7 +24562,6 @@ zbližili
 šniclu
 šoljica
 blokiraju
-borg
 izvršimo
 krupno
 kube
@@ -33219,7 +33216,6 @@ arhitekturu
 aura
 bebina
 bombon
-bp
 brijanja
 cimetom
 detaljne
@@ -34534,7 +34530,6 @@ avanturama
 bankarski
 bejbe
 bolničkom
-bou
 branč
 civilizaciji
 deblja
@@ -34995,7 +34990,6 @@ bide
 blagajni
 blede
 bolničare
-born
 braneći
 bundevice
 cinkario
@@ -41215,7 +41209,6 @@ blagosloveno
 blažena
 bolnička
 bolničkoj
-brajanom
 brbljati
 brišu
 californiji
@@ -44258,7 +44251,6 @@ zrnce
 žanr
 autoceste
 bakina
-bouvi
 budžetom
 celibat
 dempsi
@@ -48104,7 +48096,6 @@ amatere
 azbest
 balkanu
 banalno
-bouman
 braune
 butinama
 cake
@@ -54876,7 +54867,6 @@ biskvita
 bombaja
 bombaju
 bosonogi
-bova
 bravom
 buldoga
 bučne
@@ -59151,7 +59141,6 @@ bespomoćnu
 biranja
 bliznakinjama
 boljega
-borman
 boru
 bosonoga
 božijih
@@ -66294,7 +66283,6 @@ bezbolna
 blaža
 bližnjima
 boki
-bovi
 brajtonu
 bronza
 buketa
@@ -79070,7 +79058,6 @@ bereš
 blagodat
 bojlera
 bombaškom
-bosko
 brauni
 brazilsku
 brižnog
@@ -81434,9 +81421,7 @@ bolero
 bolesniče
 bolonju
 bombaških
-borda
 bota
-braga
 brala
 bremen
 brlje
@@ -84616,7 +84601,6 @@ bojica
 boleštine
 bombonima
 bonovi
-bordu
 bosnu
 brisača
 brižnu
@@ -86817,7 +86801,6 @@ bodlji
 bogatstvima
 boksački
 botičeli
-bouvija
 brinimo
 brzam
 bubamare
@@ -88285,7 +88268,6 @@ bombonjera
 bosiljkom
 božanskih
 bradama
-braders
 brbljamo
 brdašce
 bresta
@@ -92221,7 +92203,6 @@ blistaj
 boljševicima
 boravištu
 botaničku
-bouen
 bočnu
 branioce
 bratovljevu
@@ -95842,7 +95823,6 @@ blatiti
 blaženom
 blizanku
 bljuvanje
-boven
 božanstava
 branilaca
 braniča
@@ -98868,7 +98848,6 @@ bogataški
 bolesnikom
 boljševike
 borilačku
-bouls
 bočnim
 bočnom
 božanstvima
@@ -99932,7 +99911,6 @@ bolničarko
 bombaškim
 boravišnu
 borin
-borou
 bril
 brižljiv
 brucošu
@@ -102083,7 +102061,6 @@ boksovati
 bombaška
 borovima
 botanika
-brajanta
 branitelju
 braniće
 bratovljeve
@@ -113816,7 +113793,6 @@ boranije
 bosfora
 boće
 bočnih
-brajanove
 brajenu
 bratimljenje
 bratićem
@@ -118622,7 +118598,6 @@ bolus
 boraveći
 border
 borisov
-bosini
 bostonac
 brakorazvodnu
 branile
@@ -125898,7 +125873,6 @@ bojat
 bolesničke
 bolešljivo
 borilačkog
-bozi
 božanstvenim
 božanstvenog
 božura
@@ -128011,7 +127985,6 @@ bolivijski
 bonusu
 borovinu
 borovoj
-bote
 brahmin
 brajko
 bratanicom
@@ -130220,11 +130193,9 @@ bojažljiva
 bojili
 boksujemo
 bolesnice
-boreli
 borodin
 bosanske
 bosonoge
-bounsa
 božur
 brajenom
 braman
@@ -132532,10 +132503,8 @@ bokale
 bokserskih
 bolidi
 bombončić
-borgeze
 borovog
 botanici
-boto
 botulizma
 božana
 božićnicu
@@ -134874,10 +134843,8 @@ boksovima
 bolivijska
 bombarderske
 bombardovaće
-bornu
 bosanskim
 bosim
-bosove
 bostonom
 bostonskih
 botaničara
@@ -137409,7 +137376,6 @@ bolesnicu
 bolničarem
 bolničarkama
 bosforu
-bov
 bradat
 bradavičasta
 brazgotine
@@ -143064,7 +143030,6 @@ borilištu
 bostonsko
 boža
 božanstvenih
-bradersa
 bradfordu
 brakorazvodni
 braniocima
@@ -152501,14 +152466,8 @@ borbenija
 borbenije
 borbeniji
 borbenošću
-borbinih
 borbo
-bordom
 bordurama
-borejn
-borejna
-borela
-borelom
 borenja
 borenje
 borenjem
@@ -152516,8 +152475,6 @@ borenju
 borhes
 borhesa
 borhesov
-borhesove
-borhesu
 borica
 borih
 borik
@@ -152529,7 +152486,6 @@ borina
 borine
 borini
 borino
-borinog
 borinoj
 borisav
 borisava
@@ -152546,7 +152502,6 @@ borisovi
 borisovim
 borisovoj
 borisovu
-boriste
 borivoj
 borivoja
 borivoje
@@ -152580,26 +152535,14 @@ borko
 borkom
 borković
 borku
-bormanu
-bormiju
-borne
 borni
-bornih
-bornim
 bornirala
-borno
-bornom
 bornost
 bornosti
-bornov
-bornova
 borodina
-borodinu
 borojević
 borojevića
-bororo
 borota
-borote
 borovac
 borovca
 borovcu
@@ -152627,11 +152570,8 @@ borskog
 borskoj
 borskom
 borsku
-borstin
-borstina
 borusija
 borut
-boruta
 borćić
 borča
 borčanska
@@ -152649,7 +152589,6 @@ bosanka
 bosankama
 bosanki
 bosankom
-bosanovu
 bosanska
 bosansko
 bosanskodubički
@@ -152673,10 +152612,7 @@ bosforske
 bosforski
 bosforskog
 bosforskom
-bosija
-bosije
 bosilegrad
-bosilja
 bosilje
 bosiljgrad
 bosiljke
@@ -152687,9 +152623,6 @@ bosiljčić
 bosiljčića
 bosić
 bosića
-boske
-boski
-bosman
 bosnić
 bosnom
 boso
@@ -152718,33 +152651,21 @@ botaničarski
 botaničkih
 botaničkim
 botaničkom
-boti
-botici
 botića
 botićeva
-botom
 botorić
 botorića
 botoš
 botoša
 botošu
-botu
 boturića
 boturići
 botvinik
-bouena
-boui
-bouiju
-bovan
-bovena
 bović
 bovića
-bovo
-bovom
 bozadžiju
 bozalo
 bozanić
-bozima
 bozom
 bozu
 boćar
@@ -152875,8 +152796,6 @@ božurima
 božurin
 božurov
 božuru
-bpc
-bpi
 brabonjaj
 brabonjak
 brabonjke
@@ -152894,7 +152813,6 @@ bradić
 bradića
 bradonji
 bradonjine
-bradonjinog
 bradonjić
 bradva
 bradve
@@ -152903,16 +152821,13 @@ brahe
 brahijalno
 brahim
 brahima
-brahimi
 brahman
 brahmana
 brahmanama
 brahmani
 brahmanski
 braila
-brailo
 braićima
-brajanovih
 brajantom
 brajantu
 brajenov

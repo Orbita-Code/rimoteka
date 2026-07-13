@@ -12972,7 +12972,6 @@ bogatih
 dopustiš
 gotovini
 grofe
-kane
 marinci
 pauka
 spomenuti
@@ -19456,7 +19455,6 @@ zeznuto
 žmurke
 gaze
 inženjera
-karev
 ključne
 menjaj
 negativni
@@ -35953,7 +35951,6 @@ intimna
 istraživačkog
 izazivanje
 kajzer
-kani
 kantinu
 keniji
 kiri
@@ -37572,7 +37569,6 @@ izraelski
 jahanju
 juta
 kalifornijski
-kanda
 kapijom
 karolinu
 kasting
@@ -41650,7 +41646,6 @@ jugoslavije
 kanabis
 karakterom
 karamela
-karao
 kardio
 kontrolisala
 laseri
@@ -46688,7 +46683,6 @@ izvolte
 jakuze
 junače
 kanila
-karam
 kašičica
 kidnapovani
 koba
@@ -52008,7 +52002,6 @@ izolovali
 izumrle
 janus
 kamikaza
-kaningem
 kazniće
 kladionicu
 kongresnik
@@ -60220,7 +60213,6 @@ kafica
 kampovi
 kanadskih
 kanuu
-karija
 kastilji
 klimatskim
 klinta
@@ -60507,7 +60499,6 @@ ječma
 juriša
 jutrošnji
 kalvina
-kano
 kapacitetom
 karfiol
 katastrofalni
@@ -63179,7 +63170,6 @@ jedinstvenih
 jugozapada
 jutar
 kalibrom
-kanili
 karaktere
 karanfil
 karbon
@@ -72513,7 +72503,6 @@ jurisdikciju
 kajao
 kajzera
 kalež
-karana
 kavijarom
 keramika
 kevlar
@@ -78043,7 +78032,6 @@ kafileriju
 kaldere
 kapcima
 karibu
-karijem
 karolj
 kartanja
 kastinga
@@ -78612,7 +78600,6 @@ jonu
 jurisdikcije
 kampiranju
 kankunu
-kareva
 kartuš
 kašnjenjem
 kikotanje
@@ -79206,7 +79193,6 @@ jetrica
 junica
 kameleona
 kantica
-karakasu
 karanfili
 karantena
 karltonu
@@ -90863,7 +90849,6 @@ kamelije
 kamenovali
 kameruna
 kanađanima
-kanje
 kanjone
 kapelane
 karirano
@@ -93497,7 +93482,6 @@ kalema
 kamenujte
 kampanjama
 kandinski
-kanije
 kapilari
 karbonskih
 karlova
@@ -95367,7 +95351,6 @@ kanalizacione
 kanibalizmu
 kapiteni
 karabinjere
-karaj
 karinu
 kasnijih
 kaspijskog
@@ -99460,7 +99443,6 @@ kapala
 kapitalističkog
 kapitalu
 kapiš
-karamo
 kardigan
 karterov
 kartoteke
@@ -103931,7 +103913,6 @@ kaljugu
 kapanje
 kapitenom
 karbonata
-kard
 kardifu
 karnevalski
 kartoteka
@@ -111874,7 +111855,6 @@ kapitalist
 karafa
 karakterima
 karfiola
-kariju
 kariranoj
 karlove
 kasniće
@@ -121654,8 +121634,6 @@ kantautor
 kapitalne
 kapljicama
 kapljicom
-karala
-karanja
 kardiomiopatiju
 kardiovaskularne
 karipskih
@@ -125397,7 +125375,6 @@ kanonik
 kapelo
 kapitaliste
 kaprice
-karadin
 karakterističnih
 karamazovi
 kardiogram
@@ -127515,7 +127492,6 @@ kapetanija
 kapetanski
 kapitalac
 kapitulirala
-karingtona
 karipskim
 kartonskih
 kasaba
@@ -134411,7 +134387,6 @@ kapelanu
 kapetanske
 kapitalističku
 kapitalizmom
-kapkom
 karpalni
 kartagenu
 kasapinov
@@ -176482,17 +176457,10 @@ kandidacija
 kandidatska
 kandidatske
 kandidatski
-kandide
 kandido
-kandidom
 kandidovan
-kandidu
 kandija
-kandiji
 kandijski
-kandijskog
-kandijskom
-kandiju
 kandila
 kandilce
 kandilima
@@ -176514,18 +176482,11 @@ kandžija
 kandžije
 kandžijom
 kandžiju
-kaneti
-kanetija
-kaneva
 kanibalske
 kanibalski
 kanibalstvo
 kanic
 kanica
-kanijama
-kaniju
-kaningam
-kaningama
 kanistrima
 kaniti
 kanjiža
@@ -176536,7 +176497,6 @@ kankan
 kankana
 kankaraš
 kankaraša
-kankom
 kanlić
 kanlićem
 kanoe
@@ -176584,7 +176544,6 @@ kanske
 kanski
 kanskog
 kanskom
-kantakuzin
 kantanje
 kantar
 kantara
@@ -176603,7 +176562,6 @@ kantate
 kantati
 kantatu
 kantautora
-kantela
 kantilena
 kantinama
 kantonalna
@@ -176612,31 +176570,24 @@ kantonalni
 kantonalnu
 kantoni
 kantonima
-kantorovo
 kantova
 kantove
 kantovo
-kantovoj
 kantovom
-kantrimen
 kanula
 kanulo
 kanura
-kanuru
 kanuta
 kanuti
 kančići
 kaolin
 kaolina
 kaona
-kaone
-kaoni
 kapadokiji
 kapadžija
 kapaju
 kapale
 kapana
-kapane
 kapanju
 kapao
 kaparama
@@ -176659,7 +176610,6 @@ kapetanijom
 kapetaniju
 kapetansko
 kapetanskog
-kapetine
 kapidžik
 kapijo
 kapilarna
@@ -176674,9 +176624,6 @@ kapilarnu
 kapiraj
 kapisla
 kapislom
-kapisoda
-kapisode
-kapisodu
 kapitalaca
 kapitalan
 kapitalci
@@ -176702,8 +176649,6 @@ kapitulirati
 kapić
 kapičić
 kapičića
-kapju
-kapku
 kaplanović
 kaplareva
 kaplarević
@@ -176720,10 +176665,7 @@ kapljo
 kapljom
 kapnica
 kapnuti
-kapoi
-kapoima
 kapon
-kaponeu
 kapor
 kapora
 kaporu
@@ -176733,11 +176675,8 @@ kapriciozne
 kapricirao
 kapricirati
 kapricu
-kaprijati
 kapričos
 kaprom
-kapsarev
-kapsi
 kaptira
 kaptirali
 kaptol
@@ -176745,9 +176684,7 @@ kaptola
 kaptolu
 kapuciner
 kapucinski
-kapustin
 kaputaše
-kaputinom
 kaputinu
 kaputića
 kaputiće
@@ -176766,7 +176703,6 @@ karaburma
 karaburme
 karaburmi
 karaburmu
-karadaku
 karadačkom
 karadžić
 karadžića
@@ -176785,10 +176721,8 @@ karadžićevskog
 karadžićevu
 karadžiću
 karagić
-karaice
 karaičić
 karaičiću
-karajica
 karajić
 karajlić
 karajović
@@ -176796,7 +176730,6 @@ karajući
 karajuću
 karakaš
 karaklajić
-karako
 karakterisanje
 karakterisanju
 karakterisati
@@ -176810,10 +176743,7 @@ karalazić
 karalić
 karalića
 karalići
-karama
 karaman
-karamana
-karamanke
 karamazova
 karambol
 karambole
@@ -176821,20 +176751,15 @@ karamelo
 karanfilić
 karanfilom
 karanjem
-karanjima
-karanju
 karanova
 karanovac
 karanović
 karanovića
 karanoviću
 karanovo
-karanovu
 karantini
-karanu
 karapandžić
 karapešića
-karasin
 karataš
 karatašu
 karatiste
@@ -176886,9 +176811,6 @@ kardelj
 kardelja
 kardeljem
 kardeljeva
-kardeljeve
-kardeljevo
-kardeljovim
 kardijalne
 kardinalan
 kardinalna
@@ -176900,15 +176822,11 @@ kardiogene
 kardiogeni
 kardiografskoj
 kardiologe
-karea
 kareji
 karela
-kareli
 karelin
-karelom
 karena
 karenjine
-karere
 karfiolu
 karici
 kariere

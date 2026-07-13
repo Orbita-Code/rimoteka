@@ -14510,6 +14510,9 @@ bresaka
 breskovača
 breskva
 breskvama
+breskvast
+breskvasta
+breskvasto
 breskve
 breskvi
 breskvica
@@ -19623,6 +19626,7 @@ dapčeviću
 dar
 dara
 darak
+darbuka
 dare
 darezljiv
 darežljiv
@@ -46743,6 +46747,8 @@ hormonskom
 hormonsku
 hormonu
 horn
+horna
+horne
 hornista
 horo
 horom
@@ -63632,6 +63638,8 @@ jorgo
 jorgos
 jorgovan
 jorgovana
+jorgovanast
+jorgovanasta
 jorgovane
 jorgovani
 jorgovanka
@@ -83851,6 +83859,9 @@ limunska
 limunske
 limunski
 limunu
+limunžut
+limunžuta
+limunžuto
 limuzina
 limuzinama
 limuzine
@@ -88637,6 +88648,7 @@ marijom
 mariju
 marika
 marim
+marimba
 marin
 marina
 marinac
@@ -89593,6 +89605,7 @@ matineju
 matineu
 matira
 matiran
+matirana
 matirano
 matirao
 matirati
@@ -108123,6 +108136,9 @@ nebeskoga
 nebeskoj
 nebeskom
 nebeskome
+nebeskoplav
+nebeskoplava
+nebeskoplavo
 nebesku
 nebesna
 nebesne
@@ -125853,6 +125869,9 @@ okeansku
 okeanu
 okej
 oker
+okeran
+okerna
+okerno
 okica
 okicama
 okice
@@ -193661,6 +193680,9 @@ rđala
 rđali
 rđama
 rđanja
+rđast
+rđasta
+rđasto
 rđav
 rđava
 rđave
@@ -197719,9 +197741,12 @@ sedaš
 sede
 sedef
 sedefa
+sedefast
+sedefasta
 sedefaste
 sedefasti
 sedefastim
+sedefasto
 sedefna
 sedefne
 sedefnih
@@ -209634,6 +209659,9 @@ srebrnjaci
 srebrnjak
 srebrnjaka
 srebrnjake
+srebrnkast
+srebrnkasta
+srebrnkasto
 srebrno
 srebrnobeo
 srebrnog
@@ -244186,6 +244214,7 @@ vibracijom
 vibraciju
 vibraciona
 vibracioni
+vibrafon
 vibrantnih
 vibrantnoj
 vibrato
@@ -262212,6 +262241,9 @@ zđelarević
 ćilerdžić
 ćilibar
 ćilibara
+ćilibaran
+ćilibarna
+ćilibarno
 ćilibarom
 ćilibarska
 ćilibarske
@@ -268605,11 +268637,13 @@ zđelarević
 šljivić
 šljivića
 šljivom
+šljivova
 šljivove
 šljivovica
 šljivovice
 šljivovici
 šljivovicu
+šljivovo
 šljivovog
 šljivovu
 šljivu

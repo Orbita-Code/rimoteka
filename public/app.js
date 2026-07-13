@@ -43,7 +43,15 @@ const VOWELS = new Set(['a','e','i','o','u']);
 /* ====================== Lingvistika ====================== */
 function vowelPositions(w){
   const p = [];
-  for(let i=0;i<w.length;i++) if(VOWELS.has(w[i])) p.push(i);
+  for(let i=0;i<w.length;i++){
+    const ch = w[i];
+    if(VOWELS.has(ch)){ p.push(i); continue; }
+    if(ch==='r'){                        // slogotvorno r je nosilac sloga (srce, vrt, srve)
+      const prevV = i>0 && VOWELS.has(w[i-1]);
+      const nextV = i<w.length-1 && VOWELS.has(w[i+1]);
+      if(!prevV && !nextV) p.push(i);
+    }
+  }
   return p;
 }
 // Jak ključ: ako se reč završava suglasnikom -> od poslednjeg samoglasnika;
@@ -88,7 +96,7 @@ async function loadDict(){
   const [ek, jek, defs] = await Promise.all([
     fetch('reci.txt').then(r=>r.text()),
     fetch('reci_jekavica.txt').then(r=>r.text()).catch(()=> ''),
-    fetch('definicije.json?v=225').then(r=>r.ok?r.json():{}).catch(()=> ({}))
+    fetch('definicije.json?v=226').then(r=>r.ok?r.json():{}).catch(()=> ({}))
   ]);
   for(const k in defs) DEFS.set(k, defs[k]);
   const ekWords = ek.split('\n').filter(Boolean);

@@ -770,11 +770,14 @@ agronomija
 agronomije
 agronomski
 agrotehnika
+agrum
 agruma
 agrumi
 agu
 ah
 aha
+ahat
+ahata
 ahil
 ahilov
 ahilova
@@ -7502,6 +7505,8 @@ bataljun
 bataljuna
 batalo
 batanović
+batat
+batata
 bataveljić
 batačić
 bate
@@ -7579,6 +7584,7 @@ batlerom
 batleru
 batlija
 bato
+batokljun
 batom
 batova
 batove
@@ -14569,6 +14575,7 @@ brežuljkast
 brežuljkaste
 brežuljke
 brežuljku
+brgljez
 brica
 brid
 bridak
@@ -33090,6 +33097,8 @@ endemska
 endemske
 endemskih
 endi
+endivija
+endivije
 endokarditis
 endokrine
 endokrini
@@ -47265,6 +47274,7 @@ hrskavu
 hrt
 hrta
 hrte
+hrtica
 hrtove
 hrtovi
 hrtovima
@@ -68741,6 +68751,8 @@ kitić
 kitića
 kitiš
 kitke
+kitnjak
+kitnjaka
 kitnjast
 kitnjasta
 kitnjaste
@@ -71307,6 +71319,8 @@ kolenovići
 kolenu
 koler
 kolera
+koleraba
+kolerabe
 kolere
 koleri
 kolerik
@@ -73262,6 +73276,7 @@ konopcu
 konope
 konoplja
 konopljana
+konopljarka
 konoplje
 konopljište
 konoplju
@@ -89659,6 +89674,8 @@ matoru
 matorče
 matorčević
 matova
+matovilac
+matovilca
 matović
 matovića
 matoviću
@@ -109676,6 +109693,7 @@ nekrštenu
 nekst
 nektar
 nektara
+nektarina
 nektarine
 nektarinu
 nektarom
@@ -125757,6 +125775,7 @@ okapam
 okapanja
 okapanje
 okapati
+okapi
 okarakterisali
 okarakterisao
 okarakterisati
@@ -126211,6 +126230,7 @@ okošti
 okoštih
 okoštog
 okoštost
+okra
 okrajak
 okrajaka
 okrajci
@@ -126222,6 +126242,7 @@ okratiti
 okratko
 okraćale
 okraćati
+okre
 okrene
 okrenem
 okrenemo
@@ -195020,6 +195041,8 @@ samoindukcija
 samoinicijativno
 samoispitivanja
 samoj
+samojed
+samojeda
 samokontrola
 samokontrole
 samokontroli
@@ -206549,6 +206572,7 @@ snužditi
 snuždiše
 so
 soave
+sob
 soba
 sobama
 sobar
@@ -218771,6 +218795,8 @@ tamare
 tamari
 tamarin
 tamarina
+tamarind
+tamarinda
 tamaru
 tamaš
 tambur
@@ -222599,6 +222625,8 @@ tornik
 tornja
 tornjaj
 tornjajte
+tornjak
+tornjaka
 tornjaš
 tornjem
 tornjeva
@@ -246048,6 +246076,7 @@ vodenasta
 vodenaste
 vodenastih
 vodenasto
+vodencvet
 vodene
 vodeni
 vodenica
@@ -261668,6 +261697,7 @@ zviznuti
 zviznuću
 zvižd
 zviždahu
+zviždak
 zviždala
 zviždali
 zviždaljka

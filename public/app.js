@@ -190,6 +190,9 @@ function doRhymes(){
   box.innerHTML='';
   if(q.length<2){ box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
 
+  // sinhronizuj URL sa trenutnom pretragom (deljiv link, konzistentno sa landing stranicama)
+  try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+
   const key = rhymeKey(q);
   const keyLen = key.length;
   const limit = includeJek ? WORDS.length : jekStart;
@@ -775,4 +778,16 @@ renderFavorites();
 renderGutter();
 updateNoteStats();
 renderKlasici();
-loadDict().then(()=>{ rimeInput.focus(); });
+function initFromURL(){
+  try{
+    const p = new URLSearchParams(window.location.search).get('rec');
+    if(p && p.trim()){
+      rimeInput.value = disp(p.trim().toLowerCase());
+      switchTab('rime');
+      doRhymes();
+      return true;
+    }
+  }catch(e){}
+  return false;
+}
+loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); });

@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260715a">
+<link rel="stylesheet" href="/style.css?v=20260715b">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -197,6 +197,10 @@ FOOTER_TMPL = """<footer class="site-footer">
       <span class="footer-rimes-label">Popularne rime:</span>
       {poprime}
     </nav>
+    <nav class="footer-guides" aria-label="Vodiči">
+      <span class="footer-rimes-label">Vodiči:</span>
+      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rime-za-decu/" class="footer-link">Rime za decu</a>
+    </nav>
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
@@ -216,6 +220,38 @@ def rhyme_link(rword, target_slugs):
     if sl in target_slugs:
         return f'/rime-za/{quote(sl)}/'
     return f'/?rec={quote(rword)}'
+
+def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text):
+    # Statička tematska strana (autoritet). lead_html/sekcije = sirov HTML; faq = plain tekst.
+    canon = f'{BASE}/{slug}/'
+    schema = json.dumps({
+        "@context": "https://schema.org", "@graph": [
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
+                {"@type": "ListItem", "position": 2, "name": h1, "item": canon}]},
+            {"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                for q, a in faqs]}]
+    }, ensure_ascii=False, indent=1)
+    head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(desc),
+                            canonical=canon, base=BASE, schema=schema)
+    secs = ''.join(f'<div class="res-group"><h3>{esc(st)}</h3><p class="seo-p">{sb}</p></div>'
+                   for st, sb in sections)
+    faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
+    body = f"""<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>{esc(h1)}</span></nav>
+  <h2 class="landing-h1">{esc(h1)}</h2>
+  <p class="landing-lead">{lead_html}</p>
+  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>
+  {secs}
+  <section class="landing-faq"><h3>Česta pitanja</h3>{faq_html}</section>
+</main>
+"""
+    d = os.path.join(PUB, slug)
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(head + body + footer)
+    return canon
 
 def main():
     words, defs = load()
@@ -425,6 +461,65 @@ def main():
         f.write(slog_head + slog_body + footer)
     sitemap_entries.append(
         f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
+
+    # 2c) tematske strane (autoritet + niše)
+    content_defs = [
+        dict(slug='vrste-rima',
+             title='Vrste rima u poeziji — parna, ukrštena, obgrljena | Rimoteka',
+             desc='Vrste rima u poeziji: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i asonanca. Objašnjenje šema rime sa primerima — za pisanje pesama i tekstova.',
+             h1='Vrste rima u poeziji',
+             lead='Rima je poklapanje glasova na kraju stihova. Po rasporedu razlikujemo nekoliko <strong>vrsta rima</strong> — evo najčešćih šema sa primerima kod velikih pesnika.',
+             cta_href='/?tab=klasici', cta_text='📖 Vidi šeme rime kod klasika →',
+             sections=[
+                 ('Parna rima (AABB)', 'Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u dečjim pesmama i repu.'),
+                 ('Ukrštena rima (ABAB)', 'Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.'),
+                 ('Obgrljena rima (ABBA)', 'Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje" unutrašnji. Zvuči svečano i zaokruženo.'),
+                 ('Čista rima i asonanca', 'Čista (savršena) rima poklapa sve glasove od naglašenog samoglasnika (ruka — luka). Asonanca poklapa samo samoglasnike (more — kose) i daje slobodniji, moderniji zvuk čest u repu.'),
+             ],
+             faqs=[
+                 ('Koje su glavne vrste rima?', 'Po rasporedu: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i nagomilana (AAAA). Po kvalitetu: čista rima i asonanca.'),
+                 ('Šta je asonanca?', 'Asonanca je nesavršena rima u kojoj se poklapaju samo samoglasnici, a ne i svi suglasnici (npr. more — kose). Česta je u modernoj poeziji i repu.'),
+                 ('Kako da vidim šemu rime u pesmi?', 'U Rimoteci, u tabu „Klasici", pored svakog stiha stoji slovo (A, B, C…) koje pokazuje koje se rime poklapaju — tako vidiš šemu rime velikih pesnika.'),
+             ]),
+        dict(slug='kako-napisati-pesmu',
+             title='Kako napisati pesmu — koraci, rima i ritam | Rimoteka',
+             desc='Kako napisati pesmu ili tekst: izbor teme, rima, ritam i broj slogova, refren. Praktični koraci i besplatan alat za rime i brojanje slogova.',
+             h1='Kako napisati pesmu',
+             lead='Pisanje pesme je veština koja se uči. Evo jednostavnih koraka — od ideje do gotovog stiha — uz alat koji ti pomaže oko <strong>rime</strong> i <strong>ritma</strong>.',
+             cta_href='/', cta_text='✍️ Otvori Rimoteku i počni da pišeš →',
+             sections=[
+                 ('1. Izaberi temu i osećaj', 'Odluči o čemu pišeš i koje osećanje želiš da preneseš — ljubav, tuga, radost, sećanje. Jasna tema drži pesmu na okupu.'),
+                 ('2. Pronađi rime', 'Za ključne reči na kraju stihova potraži rime. U Rimoteci upišeš reč i odmah dobiješ najbolje rime, rangirane po kvalitetu.'),
+                 ('3. Uskladi ritam i slogove', 'Da se pesma lepo peva, stihovi treba da imaju sličan broj slogova. Brojač slogova ti pomaže da uskladiš ritam red po red.'),
+                 ('4. Dodaj refren', 'Refren je deo koji se ponavlja i najlakše se pamti. Neka bude kratak, melodičan i emotivno jak.'),
+             ],
+             faqs=[
+                 ('Kako da počnem da pišem pesmu?', 'Počni od teme i jednog osećaja, pa napiši prvi stih. Zatim za završnu reč potraži rimu i nastavi red po red, pazeći na ritam i broj slogova.'),
+                 ('Da li pesma mora da se rimuje?', 'Ne mora — postoji i slobodni stih. Ali rima i ujednačen ritam čine pesmu pevljivijom i lakšom za pamćenje, što je posebno važno za dečje pesme i rep.'),
+                 ('Koji alat pomaže kod pisanja pesme?', 'Rimoteka: nalazi rime za svaku reč, broji slogove u stihovima i ima beležnicu u kojoj pišeš i čuvaš pesmu.'),
+             ]),
+        dict(slug='rime-za-decu',
+             title='Rime za decu — dečje pesmice i brojalice | Rimoteka',
+             desc='Rime za decu i pisanje dečjih pesmica i brojalica. Bezbedan rečnik rima filtriran od ružnih reči — za roditelje, vaspitače i sve koji pišu za decu.',
+             h1='Rime za decu i dečje pesmice',
+             lead='<strong>Rime za decu</strong> pomažu razvoju govora, pamćenja i osećaja za ritam. Rimoteka je bezbedna za najmlađe — rečnik je <strong>filtriran od ružnih i vulgarnih reči</strong>, pa je idealna za pisanje dečjih pesmica i brojalica.',
+             cta_href='/?rec=maca', cta_text='✍️ Napiši dečju pesmicu — otvori rime →',
+             sections=[
+                 ('Zašto su rime važne za decu', 'Rime i brojalice razvijaju govor, bogate rečnik i vežbaju pamćenje. Deci je lakše da zapamte tekst koji se rimuje i ima jasan ritam.'),
+                 ('Kako napisati dečju pesmicu', 'Biraj kratke, poznate reči i jednostavnu parnu rimu (AABB). Neka stihovi budu kratki i slični po broju slogova — tako se pesmica lako peva i pamti.'),
+                 ('Bezbedno za najmlađe', 'Rečnik Rimoteke je pročišćen od psovki i neprimerenih reči, pa možeš mirno da tražiš rime za dečje pesme, uspavanke i brojalice.'),
+             ],
+             faqs=[
+                 ('Da li je Rimoteka bezbedna za decu?', 'Jeste. Rečnik je filtriran od vulgarnih i neprimerenih reči, pa je bezbedan za pisanje pesama i pesmica za decu.'),
+                 ('Kako da napišem dečju pesmicu koja se rimuje?', 'Koristi kratke poznate reči i parnu rimu (prvi stih sa drugim). U Rimoteci upiši završnu reč stiha i izaberi jednostavnu, poznatu rimu.'),
+                 ('Šta su brojalice?', 'Brojalice su kratke ritmične pesmice sa izraženom rimom koje deca govore u igri. Lako se pamte baš zbog rime i ritma.'),
+             ]),
+    ]
+    for cd in content_defs:
+        c = content_page(footer, cd['slug'], cd['title'], cd['desc'], cd['h1'],
+                         cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'])
+        sitemap_entries.append(
+            f'  <url><loc>{c}</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

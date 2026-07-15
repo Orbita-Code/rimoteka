@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260714e">
+<link rel="stylesheet" href="/style.css?v=20260715a">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -229,15 +229,36 @@ def main():
     wset = set(words)
 
     # 1) finalna lista meta-reči: postoje u rečniku, jedinstven slug
-    targets, seen_slug = [], {}
-    for t in TARGETS:
-        if t not in wset:
-            continue
+    TARGET_COUNT = 500
+    targets, seen_slug, chosen = [], {}, set()
+
+    def add_target(t):
+        if t not in wset or t in chosen:
+            return
         sl = slugify(t)
         if sl in seen_slug:
-            continue
+            return
         seen_slug[sl] = t
+        chosen.add(t)
         targets.append(t)
+
+    # a) kurirane teme (prioritet — idu prve, u footer „Popularne rime")
+    for t in TARGETS:
+        add_target(t)
+    curated_count = len(targets)
+
+    # b) auto-dopuna do TARGET_COUNT: frekvencijski rangirane sadržajne reči
+    #    (imaju definiciju = realna leksika; preskačemo promenjene oblike „Oblik reči…")
+    for w in words:  # rank redosled
+        if len(targets) >= TARGET_COUNT:
+            break
+        if w in chosen or len(w) < 3 or not w.isalpha():
+            continue
+        d = defs.get(w)
+        if not d or d.startswith('Oblik'):
+            continue
+        add_target(w)
+
     target_slugs = set(seen_slug.keys())
 
     # popularne (footer) — prvih 30 iz liste koje postoje
@@ -355,6 +376,55 @@ def main():
         sitemap_entries.append(
             f'  <url><loc>{canonical}</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
         generated += 1
+
+    # 2b) statička strana /slogovi/ — keyword „brojanje slogova"
+    slog_canon = f'{BASE}/slogovi/'
+    slog_title = 'Brojanje slogova — broj slogova u reči i stihu | Rimoteka'
+    slog_desc = ('Brojanje slogova onlajn: prebroj slogove u reči, stihu ili celoj pesmi. '
+                 'Kako se broje slogovi u srpskom jeziku (sa slogotvornim „r") — pravila, primeri i besplatan alat.')
+    slog_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
+                {"@type": "ListItem", "position": 2, "name": "Brojanje slogova", "item": slog_canon}]},
+            {"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": "Kako se broje slogovi u reči?",
+                 "acceptedAnswer": {"@type": "Answer", "text": "Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r“ koje je i samo nosilac sloga (npr. vrt = 1 slog, srce = 2 sloga)."}},
+                {"@type": "Question", "name": "Zašto je bitno brojati slogove u pesmi?",
+                 "acceptedAnswer": {"@type": "Answer", "text": "Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu."}}]}]
+    }, ensure_ascii=False, indent=1)
+    slog_head = HEAD_TMPL.format(title=esc(slog_title), desc=esc(slog_desc), ogdesc=esc(slog_desc),
+                                 canonical=slog_canon, base=BASE, schema=slog_schema)
+    slog_examples = [('vrt', 1), ('prst', 1), ('srce', 2), ('ljubav', 2), ('pesma', 2),
+                     ('jabuka', 3), ('rimovanje', 4), ('devojčica', 4)]
+    ex_rows = ''.join(
+        f'<tr><td>{esc(w)}</td><td>{n} {syl_word(n)}</td></tr>' for w, n in slog_examples)
+    slog_body = f"""<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Brojanje slogova</span></nav>
+  <h2 class="landing-h1">Brojanje slogova online</h2>
+  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. U Rimoteci možeš da prebrojiš slogove u pojedinačnoj reči, u stihu ili u celoj pesmi, red po red.</p>
+  <a class="landing-cta" href="/?tab=slogovi">✍️ Otvori Brojač slogova u alatu →</a>
+  <div class="res-group"><h3>Kako se broje slogovi</h3>
+    <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r"</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
+  </div>
+  <div class="res-group"><h3>Primeri broja slogova</h3>
+    <table class="slog-table"><thead><tr><th>Reč</th><th>Broj slogova</th></tr></thead><tbody>{ex_rows}</tbody></table>
+  </div>
+  <section class="landing-faq">
+    <h3>Česta pitanja</h3>
+    <details><summary>Kako se broje slogovi u reči?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r" koje je i samo nosilac sloga (vrt = 1 slog, srce = 2 sloga).</p></details>
+    <details><summary>Zašto je bitno brojati slogove u pesmi?</summary><p>Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu.</p></details>
+    <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. U tabu „Slogovi i znakovi" nalepi ceo tekst — Rimoteka pored svakog reda ispisuje broj slogova, a na dnu ukupan zbir.</p></details>
+  </section>
+</main>
+"""
+    slog_dir = os.path.join(PUB, 'slogovi')
+    os.makedirs(slog_dir, exist_ok=True)
+    with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(slog_head + slog_body + footer)
+    sitemap_entries.append(
+        f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

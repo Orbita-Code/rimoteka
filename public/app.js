@@ -780,11 +780,17 @@ updateNoteStats();
 renderKlasici();
 function initFromURL(){
   try{
-    const p = new URLSearchParams(window.location.search).get('rec');
+    const params = new URLSearchParams(window.location.search);
+    const p = params.get('rec');
     if(p && p.trim()){
       rimeInput.value = disp(p.trim().toLowerCase());
       switchTab('rime');
       doRhymes();
+      return true;
+    }
+    const tab = params.get('tab');
+    if(tab && ['rime','pretraga','slogovi','beleznica','klasici','omiljene'].includes(tab)){
+      switchTab(tab);
       return true;
     }
   }catch(e){}

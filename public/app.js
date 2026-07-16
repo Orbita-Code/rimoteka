@@ -176,6 +176,7 @@ function renderGroup(container, title, words, strong){
 const rimeInput = document.getElementById('rimeInput');
 let rimeSyl = 0;
 let loose = false;
+let lastTrackedRhyme = '';   // GA4: da isti pojam ne šalje event na svaki filter-klik
 
 function filterSyl(arr){
   if(!rimeSyl) return arr;
@@ -234,6 +235,14 @@ function doRhymes(){
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
   renderGroup(box, good.length?'Dobre rime':'', good, false);
   renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
+
+  // GA4: zabeleži jedinstvenu pretragu rime (koje reči ljudi traže -> nove landing strane)
+  if(q !== lastTrackedRhyme){
+    lastTrackedRhyme = q;
+    if(typeof gtag === 'function'){
+      try{ gtag('event','rhyme_search',{ search_term: q, results_count: best.length + good.length + finalExtra.length }); }catch(e){}
+    }
+  }
 
   if(loose){
     const lk = looseKey(q);

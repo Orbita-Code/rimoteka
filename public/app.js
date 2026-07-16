@@ -104,8 +104,8 @@ function syllables(w){ return countSyl(w) || 1; }
 /* ====================== Učitavanje ====================== */
 async function loadDict(){
   const [ek, jek, defs] = await Promise.all([
-    fetch('reci.txt').then(r=>r.text()),
-    fetch('reci_jekavica.txt').then(r=>r.text()).catch(()=> ''),
+    fetch('reci.txt?v=20260717').then(r=>r.text()),
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
     fetch('definicije.json?v=228').then(r=>r.ok?r.json():{}).catch(()=> ({}))
   ]);
   for(const k in defs) DEFS.set(k, defs[k]);

@@ -199,7 +199,7 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">
       <span class="footer-rimes-label">Vodiči:</span>
-      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rime-za-decu/" class="footer-link">Rime za decu</a>
+      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a>
     </nav>
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
@@ -358,7 +358,7 @@ def main():
 
         title = f'Rime za reč „{t}“ — {len(all_r)} {rima_word(len(all_r))} | Rimoteka'
         desc = (f'Rimovanje reči „{t}“: sve reči koje se rimuju sa {t} — {first_list}. '
-                f'Besplatan rečnik rima za pisanje rime, pesama, repovanje i dečje pesmice.')
+                f'Besplatan rečnik rima za pisanje pesama, tekstova i repa.')
         ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 
@@ -392,7 +392,7 @@ def main():
         body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za „{esc(t)}“</span></nav>
   <h2 class="landing-h1">Rime za reč „{esc(t)}“</h2>
-  <p class="landing-lead">Rimovanje reči „{esc(t)}“ — pronađeno <strong>{len(all_r)}</strong> {rima_word(len(all_r))} koje se rimuju sa <strong>„{esc(t)}“</strong> ({tsyl} {syl_word(tsyl)}), rangirano po kvalitetu rime. Iskoristi ih za pisanje rime, pesme, repovanje ili dečje pesmice. Klikni reč da otvoriš još rima.</p>
+  <p class="landing-lead">Rimovanje reči „{esc(t)}“ — pronađeno <strong>{len(all_r)}</strong> {rima_word(len(all_r))} koje se rimuju sa <strong>„{esc(t)}“</strong> ({tsyl} {syl_word(tsyl)}), rangirano po kvalitetu rime. Iskoristi ih za pisanje pesme, teksta ili repa. Klikni reč da otvoriš još rima.</p>
   {mean}
   <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši pesmu →</a>
   {groups}
@@ -471,7 +471,7 @@ def main():
              lead='Rima je poklapanje glasova na kraju stihova. Po rasporedu razlikujemo nekoliko <strong>vrsta rima</strong> — evo najčešćih šema sa primerima kod velikih pesnika.',
              cta_href='/?tab=klasici', cta_text='📖 Vidi šeme rime kod klasika →',
              sections=[
-                 ('Parna rima (AABB)', 'Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u dečjim pesmama i repu.'),
+                 ('Parna rima (AABB)', 'Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u pesmama i repu.'),
                  ('Ukrštena rima (ABAB)', 'Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.'),
                  ('Obgrljena rima (ABBA)', 'Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje" unutrašnji. Zvuči svečano i zaokruženo.'),
                  ('Čista rima i asonanca', 'Čista (savršena) rima poklapa sve glasove od naglašenog samoglasnika (ruka — luka). Asonanca poklapa samo samoglasnike (more — kose) i daje slobodniji, moderniji zvuk čest u repu.'),
@@ -495,24 +495,8 @@ def main():
              ],
              faqs=[
                  ('Kako da počnem da pišem pesmu?', 'Počni od teme i jednog osećaja, pa napiši prvi stih. Zatim za završnu reč potraži rimu i nastavi red po red, pazeći na ritam i broj slogova.'),
-                 ('Da li pesma mora da se rimuje?', 'Ne mora — postoji i slobodni stih. Ali rima i ujednačen ritam čine pesmu pevljivijom i lakšom za pamćenje, što je posebno važno za dečje pesme i rep.'),
+                 ('Da li pesma mora da se rimuje?', 'Ne mora — postoji i slobodni stih. Ali rima i ujednačen ritam čine pesmu pevljivijom i lakšom za pamćenje, što je posebno važno za pesme i rep.'),
                  ('Koji alat pomaže kod pisanja pesme?', 'Rimoteka: nalazi rime za svaku reč, broji slogove u stihovima i ima beležnicu u kojoj pišeš i čuvaš pesmu.'),
-             ]),
-        dict(slug='rime-za-decu',
-             title='Rime za decu — dečje pesmice i brojalice | Rimoteka',
-             desc='Rime za decu i pisanje dečjih pesmica i brojalica. Bezbedan rečnik rima filtriran od ružnih reči — za roditelje, vaspitače i sve koji pišu za decu.',
-             h1='Rime za decu i dečje pesmice',
-             lead='<strong>Rime za decu</strong> pomažu razvoju govora, pamćenja i osećaja za ritam. Rimoteka je bezbedna za najmlađe — rečnik je <strong>filtriran od ružnih i vulgarnih reči</strong>, pa je idealna za pisanje dečjih pesmica i brojalica.',
-             cta_href='/?rec=maca', cta_text='✍️ Napiši dečju pesmicu — otvori rime →',
-             sections=[
-                 ('Zašto su rime važne za decu', 'Rime i brojalice razvijaju govor, bogate rečnik i vežbaju pamćenje. Deci je lakše da zapamte tekst koji se rimuje i ima jasan ritam.'),
-                 ('Kako napisati dečju pesmicu', 'Biraj kratke, poznate reči i jednostavnu parnu rimu (AABB). Neka stihovi budu kratki i slični po broju slogova — tako se pesmica lako peva i pamti.'),
-                 ('Bezbedno za najmlađe', 'Rečnik Rimoteke je pročišćen od psovki i neprimerenih reči, pa možeš mirno da tražiš rime za dečje pesme, uspavanke i brojalice.'),
-             ],
-             faqs=[
-                 ('Da li je Rimoteka bezbedna za decu?', 'Jeste. Rečnik je filtriran od vulgarnih i neprimerenih reči, pa je bezbedan za pisanje pesama i pesmica za decu.'),
-                 ('Kako da napišem dečju pesmicu koja se rimuje?', 'Koristi kratke poznate reči i parnu rimu (prvi stih sa drugim). U Rimoteci upiši završnu reč stiha i izaberi jednostavnu, poznatu rimu.'),
-                 ('Šta su brojalice?', 'Brojalice su kratke ritmične pesmice sa izraženom rimom koje deca govore u igri. Lako se pamte baš zbog rime i ritma.'),
              ]),
     ]
     for cd in content_defs:

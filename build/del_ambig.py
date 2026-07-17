@@ -25,5 +25,5 @@ with open("/tmp/ambig_keep.txt", "a", encoding="utf-8") as f:
         f.write(w + "\n")
 print(f"batch [{start}:{end}] | obrisano {len(todel)} | zadržano (srpski) {len(keep)} | reci.txt sada {len(kept)}")
 print(f"KEEPERI: {sorted(keep)}")
-print(f"\n=== SLEDEĆIH 300 [{end}:{end+700}] za klasifikaciju ===")
-print("  ".join(ambig[end:end+700]))
+print(f"\n=== SLEDEĆIH 300 [{end}:{end+1200}] za klasifikaciju ===")
+print("  ".join(ambig[end:end+1200]))

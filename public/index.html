@@ -28,6 +28,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
+<link rel="manifest" href="/manifest.json">
 <link rel="stylesheet" href="style.css?v=20260724b">
 <script type="application/ld+json">
 {
@@ -162,12 +163,13 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a na dnu ukupno reči, znakova i slogova. <button id="clearNotes" class="link-btn">obriši sve</button></p>
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a na dnu ukupno reči, znakova i slogova. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button></p>
     <div class="notepad">
       <div id="noteGutter" class="gutter"></div>
       <textarea id="noteInput" class="notepad-text" placeholder="Ovde piši svoju pesmu…"></textarea>
     </div>
     <div id="noteStats" class="note-stats"></div>
+    <div id="noteRhymes" class="note-rhymes" aria-live="polite"></div>
   </section>
 
   <!-- KLASICI -->
@@ -242,5 +244,12 @@
 </footer>
 
 <script src="app.js?v=20260724b"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
+  });
+}
+</script>
 </body>
 </html>

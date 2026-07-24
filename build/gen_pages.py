@@ -354,6 +354,11 @@ def main():
     os.makedirs(outdir, exist_ok=True)
     sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
 
+    # Grupe po rhyme_key, final_syl_key i loose_key (asonanca)
+    loosegroup = defaultdict(list)
+    for w in words:
+        loosegroup[loose_key(w)].append(w)
+
     generated = 0
     for t in targets:
         key = rhyme_key(t)
@@ -372,6 +377,13 @@ def main():
             fin.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
             final_extra = fin[:40]
 
+        # Bliske rime (asonanca) — reči sa istim završnim samoglasnikom
+        lk = loose_key(t)
+        seen_loose = set(best + good + final_extra)
+        loose_cands = [w for w in loosegroup[lk] if w != t and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w)]
+        loose_cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
+        loose = loose_cands[:30]
+
         all_r = best + good + final_extra
         if len(all_r) < 3:
             continue  # premalo rima — preskoči (da ne pravimo prazne strane)
@@ -388,9 +400,21 @@ def main():
             cls = 'res-group strong-tier' if strong else 'res-group'
             return f'<div class="{cls}"><h3>{title}</h3><div class="results">{chips}</div></div>'
 
-        groups = (group_html('Najbolje rime', best, True)
-                  + group_html('Dobre rime', good, False)
-                  + group_html('Dobre rime (isti završni slog)', final_extra, False))
+        # grupe po broju slogova (sve rime, sortirane po kvalitetu)
+        by_syl = defaultdict(list)
+        for w in all_r:
+            by_syl[syllables(w)].append(w)
+
+        syl_groups_html = ''
+        for n in sorted(by_syl.keys()):
+            arr = by_syl[n]
+            syl_groups_html += group_html(f'Rime sa {n} {syl_word(n)}', arr, False)
+
+        loose_html = group_html('Bliske rime (asonanca)', loose, False)
+
+        groups = (group_html('Najbolje rime', best[:20], True)
+                  + syl_groups_html
+                  + loose_html)
 
         # copy-all reči (za lakše korišćenje)
         copy_words = ', '.join(all_r[:60])

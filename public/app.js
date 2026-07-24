@@ -465,10 +465,113 @@ noteInput.addEventListener('input', ()=>{
   localStorage.setItem('rimoteka_notes', noteInput.value);
   renderGutter();
   updateNoteStats();
+  renderNoteRhymes();
 });
 noteInput.addEventListener('scroll', ()=>{ noteGutter.scrollTop = noteInput.scrollTop; });
 document.getElementById('clearNotes').onclick = ()=>{
-  if(confirm('Obrisati celu belešku?')){ noteInput.value=''; localStorage.removeItem('rimoteka_notes'); renderGutter(); }
+  if(confirm('Obrisati celu belešku?')){ noteInput.value=''; localStorage.removeItem('rimoteka_notes'); renderGutter(); renderNoteRhymes(); }
+};
+
+// Rime za poslednju reč u beležnici
+function getLastWordInLine(line){
+  const toks = toLatin(line.toLowerCase()).replace(/[^a-zčćžšđ\s]/g,' ').split(/\s+/).filter(Boolean);
+  return toks.length ? toks[toks.length-1] : '';
+}
+function renderNoteRhymes(){
+  const box = document.getElementById('noteRhymes');
+  if(!box) return;
+  const lines = noteInput.value.split('\n');
+  // nađi poslednji neprazan red
+  let lastLine = '';
+  for(let i = lines.length - 1; i >= 0; i--){
+    if(lines[i].trim()){ lastLine = lines[i]; break; }
+  }
+  const word = getLastWordInLine(lastLine);
+  if(!word || word.length < 2){
+    box.innerHTML = '';
+    return;
+  }
+  // privremeno postavi input i pozovi doRhymes, pa vrati
+  const savedVal = rimeInput.value;
+  rimeInput.value = word;
+  doRhymes();
+  rimeInput.value = savedVal;
+  // pokupi rezultate iz #rimeResults
+  const src = document.getElementById('rimeResults');
+  const chips = src.querySelectorAll('.chip');
+  if(!chips.length){
+    box.innerHTML = `<h4>Rime za <span class="nr-word">${escapeHtml(disp(word))}</span></h4><p class="nr-empty">Nema pronađenih rima.</p>`;
+    return;
+  }
+  box.innerHTML = `<h4>Rime za <span class="nr-word">${escapeHtml(disp(word))}</span></h4>`;
+  const rdiv = document.createElement('div');
+  rdiv.className = 'results';
+  // kopiraj do 16 čipova da ne guši beležnicu
+  let count = 0;
+  chips.forEach(chip => {
+    if(count >= 16) return;
+    const clone = chip.cloneNode(true);
+    // zameni onclick da ubacuje reč u beležnicu
+    clone.onclick = ()=>{
+      const w = clone.querySelector('.word').textContent;
+      const cur = noteInput.value;
+      const pos = noteInput.selectionStart;
+      const before = cur.slice(0, pos);
+      const after = cur.slice(pos);
+      noteInput.value = before + w + after;
+      noteInput.selectionStart = noteInput.selectionEnd = pos + w.length;
+      noteInput.focus();
+      localStorage.setItem('rimoteka_notes', noteInput.value);
+      renderGutter();
+      updateNoteStats();
+      renderNoteRhymes();
+    };
+    rdiv.appendChild(clone);
+    count++;
+  });
+  box.appendChild(rdiv);
+}
+renderNoteRhymes();
+
+// Čuvanje liste rima za poslednju reč
+function getRhymeListForLastWord(){
+  const lines = noteInput.value.split('\n');
+  let lastLine = '';
+  for(let i = lines.length - 1; i >= 0; i--){
+    if(lines[i].trim()){ lastLine = lines[i]; break; }
+  }
+  const word = getLastWordInLine(lastLine);
+  if(!word || word.length < 2) return { word: '', rhymes: [] };
+  const savedVal = rimeInput.value;
+  rimeInput.value = word;
+  doRhymes();
+  rimeInput.value = savedVal;
+  const src = document.getElementById('rimeResults');
+  const chips = src.querySelectorAll('.chip .word');
+  const rhymes = [];
+  chips.forEach(c => { const t = c.textContent.trim(); if(t) rhymes.push(t); });
+  return { word, rhymes };
+}
+document.getElementById('saveRhymeList').onclick = ()=>{
+  const { word, rhymes } = getRhymeListForLastWord();
+  if(!word || !rhymes.length){ toast('Nema rima za čuvanje'); return; }
+  const lists = JSON.parse(localStorage.getItem('rimoteka_lists') || '[]');
+  lists.unshift({ word, rhymes, date: new Date().toISOString() });
+  localStorage.setItem('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
+  toast(`Sačuvano ${rhymes.length} rima za „${word}"`);
+};
+document.getElementById('exportRhymeList').onclick = ()=>{
+  const { word, rhymes } = getRhymeListForLastWord();
+  if(!word || !rhymes.length){ toast('Nema rima za preuzimanje'); return; }
+  const text = `Rime za „${word}"\n${'='.repeat(30)}\n${rhymes.join(', ')}\n\nGenerisano: Rimoteka.com`;
+  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `rime-za-${word}.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast(`Preuzeta lista za „${word}"`);
 };
 
 /* ====================== OMILJENE ====================== */

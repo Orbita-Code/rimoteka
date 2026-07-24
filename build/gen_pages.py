@@ -199,7 +199,11 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">
       <span class="footer-rimes-label">Vodiči:</span>
-      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a>
+      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
+    </nav>
+    <nav class="footer-guides" aria-label="Namene">
+      <span class="footer-rimes-label">Namene:</span>
+      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a>
     </nav>
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
@@ -291,12 +295,23 @@ def main():
 
     wset = set(words)
 
+    # Reči koje se nikad ne prikazuju kao rime (neprikladne, vulgarnosti)
+    BLOCKED = {'dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','kura','dupeta','dubre','dubretar','pisaju','pisao','pisa','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','krvavo','krvavi','krvava','govnar','govnari','smece','smetlar','smetlarka'}
+    # Kontekstualna isključenja: za određenu reč NE prikazuj određene rime
+    RHYME_EXCLUSIONS = {
+        'dete': {'bidete','bide','bidi'}
+    }
+    def is_blocked(w):
+        return w in BLOCKED
+    def is_excluded(target, w):
+        return target in RHYME_EXCLUSIONS and w in RHYME_EXCLUSIONS[target]
+
     # 1) finalna lista meta-reči: postoje u rečniku, jedinstven slug
-    TARGET_COUNT = 500
+    TARGET_COUNT = 2000
     targets, seen_slug, chosen = [], {}, set()
 
     def add_target(t):
-        if t not in wset or t in chosen:
+        if t not in wset or t in chosen or is_blocked(t):
             return
         sl = slugify(t)
         if sl in seen_slug:
@@ -343,7 +358,7 @@ def main():
     for t in targets:
         key = rhyme_key(t)
         klen = len(key)
-        cands = [w for w in keygroup[key] if w != t]
+        cands = [w for w in keygroup[key] if w != t and not is_blocked(w) and not is_excluded(t, w)]
         cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
         best = [w for w in cands if common_suffix(t, w) > klen][:50]
         good = [w for w in cands if common_suffix(t, w) == klen][:36]
@@ -353,7 +368,7 @@ def main():
         if len(best) + len(good) < 6:
             fk = final_syl_key(t)
             strong_set = set(keygroup[key]); strong_set.add(t)
-            fin = [w for w in finalgroup[fk] if w not in strong_set]
+            fin = [w for w in finalgroup[fk] if w not in strong_set and not is_blocked(w) and not is_excluded(t, w)]
             fin.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
             final_extra = fin[:40]
 
@@ -557,13 +572,20 @@ def main():
                  ('Koji alat pomaže kod pisanja pesme?', 'Rimoteka: nalazi rime za svaku reč, broji slogove u stihovima i ima beležnicu u kojoj pišeš i čuvaš pesmu.'),
              ]),
     ]
+    # primer reči kao čipovi za stranu /rime-za-decu/
+    decije_reci = ['mama','tata','dete','igra','sreća','radost','prijatelj','škola','knjiga','lopta','mačka','pas','ptica','cvet','sunce','mesec','zvezda','kiša','sneg']
+    deciji_chips = ''.join(
+        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/"><span class="word">{esc(w)}</span><span class="syl" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
+        for w in decije_reci
+    )
+
     # 2d) nišne autoritet strane — deca, pesme, rep
     niche_defs = [
         dict(slug='rime-za-decu',
              title='Rime za decu — bezbedne i lepe reči za dečje pesmice | Rimoteka',
              desc='Rime za decu: bezbedne, lepe i razumljive reči za dečje pesmice, igre i učenje. Filtrirano od neprikladnih reči — besplatan alat.',
              h1='Rime za decu',
-             lead='Rimoteka je <strong>filtrirana od neprikladnih reči</strong>, pa je idealna za pravljenje dečjih pesmica. Evo popularnih, bezbednih reči koje se lepo rimuju i koje deca lako pamte.',
+             lead=f'Rimoteka je <strong>filtrirana od neprikladnih reči</strong>, pa je idealna za pravljenje dečjih pesmica. Evo popularnih, bezbednih reči koje se lepo rimuju i koje deca lako pamte: {deciji_chips}',
              cta_href='/?rec=dete', cta_text='🧸 Pronađi još rima za decu →',
              sections=[
                  ('Zašto Rimoteka za decu?', 'Rečnik je pročišćen od psovki, vulgarnosti i reči koje nisu primerene za decu. Roditelji i učitelji mogu slobodno da traže rime za pesmice i igre.'),
@@ -608,6 +630,170 @@ def main():
                  ('Da li Rimoteka nudi asonantne rime?', 'Da. Uključi opciju „šire rime" da vidiš asonantne rime koje se poklapaju po samoglasnicima.'),
              ]),
     ]
+    # 2e) tematske autoritet stranice — prilike, emocije, teme
+    topic_defs = [
+        dict(slug='rime-za-ljubavne-pesme',
+             title='Rime za ljubavne pesme — reči koje se rimuju za ljubav | Rimoteka',
+             desc='Rime za ljubavne pesme: najlepše reči koje se rimuju sa ljubav, srce, duša, sreća i druge. Ideje i alat za pisanje ljubavne poezije.',
+             h1='Rime za ljubavne pesme',
+             lead='Ljubavna poezija je večita tema. Bilo da pišeš pesmu za voljenu osobu, godišnjicu ili samo za sebe, ovde ćeš pronaći <strong>reči koje se rimuju</strong> i inspiraciju za svaki stih.',
+             cta_href='/?rec=ljubav', cta_text='❤️ Nađi rime za „ljubav" →',
+             sections=[
+                 ('Najčešće reči u ljubavnim pesmama', 'ljubav, srce, duša, sreća, tuga, bol, radost, nada, strast, čežnja, samoća, osećaj, poljubac, zagrljaj, nežnost.'),
+                 ('Kako napisati ljubavnu pesmu?', 'Počni od jedne slike ili trenutka. Nemoj se bojati jednostavnosti — najlepše ljubavne pesme su iskrene i direktne.'),
+                 ('Šema rime za ljubavnu pesmu', 'Parna rima (AABB) je najjednostavnija za početnike. Ukrštena rima (ABAB) daje lepšu, melodičniju dinamiku.'),
+             ],
+             faqs=[
+                 ('Koje rime najčešće idu sa „ljubav"?', 'Najbolje rime sa ljubav su srce, duša, tuga, radost, čežnja, strast, nežnost i mnoge druge emotivne reči.'),
+                 ('Kako da pesma zvuči iskreno?', 'Piši o konkretnim detaljima — osećajima, mirisima, trenucima. Izbegavaj klisheeve koji ne zvuče kao tvoji.'),
+                 ('Da li ljubavna pesma mora da se rimuje?', 'Ne mora, ali rima pomaže da pesma bude pevljiva i da se bolje pamti. Slobodni stih je takođe validan izbor.'),
+             ]),
+        dict(slug='rime-za-rodjendanske-pesmice',
+             title='Rime za rođendanske pesmice — za odrasle i decu | Rimoteka',
+             desc='Rime za rođendanske pesmice: smešne, slatke i emotivne reči za rođendan. Brzo pronađi rime i napiši jedinstvenu čestitku.',
+             h1='Rime za rođendanske pesmice',
+             lead='Umesto kupovne čestitke, napiši <strong>svoju rođendansku pesmicu</strong>. Rimoteka ti pomaže da pronađeš rime za srećan, dar, radost, prijatelj i druge ključne reči.',
+             cta_href='/?rec=rodjendan', cta_text='🎂 Nađi rime za „rođendan" →',
+             sections=[
+                 ('Ideje za rođendanske pesmice', 'srećan rođendan, puno zdravlja, želje ti ispunim, dar ti spremim, prijatelj si dragi, još mnogo godina.'),
+                 ('Pesmica za decu', 'Koristi kratke stihove, brojanje slogova i jednostavne rime. Deca vole ponavljanje i vesele reči kao što su lopta, torta, sveća, poklon.'),
+                 ('Pesmica za odrasle', 'Dodaj humor ili dirljivu notu. Uzmi u obzir odnos sa osobom i zajednička sećanja.'),
+             ],
+             faqs=[
+                 ('Kako napisati kratku rođendansku pesmicu?', 'Drži se 4–8 stihova. Počni sa čestitkom, dodaj ličnu poruku i završi sa željom.'),
+                 ('Koje reči se najčešće rimuju sa rođendan?', 'Puno, zdravlje, sreća, dar, radost, slavlje, godina, prijatelj, porodica, ljubav.'),
+                 ('Da li mogu da iskoristim pesmicu za čestitku?', 'Naravno. Možeš je prepisati na čestitku, poslati porukom ili objaviti na društvenim mrežama.'),
+             ]),
+        dict(slug='rime-za-svadbu',
+             title='Rime za svadbu — čestitke, pesme i toastovi | Rimoteka',
+             desc='Rime za svadbu: lepe reči za mladence, čestitke, pesme i toastove. Pronađi rime za ljubav, sreća, prsten, dom i zajednička putovanja.',
+             h1='Rime za svadbu',
+             lead='Svadba je jedan od najlepših dana u životu. Bilo da pišeš <strong>čestitku, pesmu ili toast</strong>, ovde ćeš pronaći rime koje će dirnuti mladence.',
+             cta_href='/?rec=svadba', cta_text='💍 Nađi rime za „svadba" →',
+             sections=[
+                 ('Ključne reči za svadbu', 'ljubav, sreća, prsten, dom, porodica, prijatelj, put, život, radost, vernost, zaverno, sadašnjost, budućnost.'),
+                 ('Kako napisati svadbeni toast?', 'Budan kratak, iskren i malo duhovit. Završi podizanjem čaše i željom za sreću mladenaca.'),
+                 ('Pesma za mladence', 'Koristi rime koje govore o zajedničkom putu, podršci i ljubavi. Izbegavaj previše slatko — iskrenost je važnija.'),
+             ],
+             faqs=[
+                 ('Šta napisati u svadbenoj čestitci?', 'Čestitka treba da bude kratka, topla i lična. Poželi im sreću, ljubav i lep zajednički život.'),
+                 ('Koje rime idu sa „ljubav" za svadbu?', 'srce, sreća, lepota, nežnost, čežnja, radost, sigurnost, večnost, blizina, jedinstvo.'),
+                 ('Koliko treba da traje svadbeni toast?', 'Najbolje je da toast traje 1–2 minute. Dovoljno da kažeš nekoliko lepih reči, ne predugo.'),
+             ]),
+        dict(slug='rime-za-decu-o-zivotinjama',
+             title='Rime za decu o životinjama — vesele dečje pesmice | Rimoteka',
+             desc='Rime za decu o životinjama: mačka, pas, ptica, konj, lav i druge. Bezbedne i razumljive reči za dečje pesmice i igre.',
+             h1='Rime za decu o životinjama',
+             lead='Deca obožavaju životinje. Ovde ćeš pronaći <strong>bezbedne rime</strong> za mačku, psa, pticu, konja, lava i druge životinje — idealno za pesmice i učenje.',
+             cta_href='/?rec=macka', cta_text='🐱 Nađi rime za „mačka" →',
+             sections=[
+                 ('Popularne životinje u dečjim pesmicama', 'mačka, pas, ptica, konj, lav, golub, leptir, pčela, riba, zmija, vuk, orao.'),
+                 ('Kako napisati pesmicu o životinji?', 'Opiši kako izgleda, šta voli da radi i kakav zvuk proizvodi. Koristi ponavljanje i jednostavne rime.'),
+                 ('Učenje kroz pesmu', 'Pesmice o životinjama pomažu deci da zapamte nazive, zvukove i karakteristike životinja na zabavan način.'),
+             ],
+             faqs=[
+                 ('Koje životinje su najbolje za dečje pesmice?', 'Mačke, psi, ptice, konji, lavovi i pčele su klasici jer su deci bliski i lako se opisuju.'),
+                 ('Da li su rime bezbedne za najmlađu decu?', 'Da. Rimoteka je filtrirana od neprikladnih reči, pa je pogodna i za vrtićku decu.'),
+                 ('Kako deca najbolje uče pesmice napamet?', 'Kroz ponavljanje, pokrete i igru. Što je pesma kraća i melodičnija, brže će je zapamtiti.'),
+             ]),
+        dict(slug='rime-za-decu-o-prirodi',
+             title='Rime za decu o prirodi — sunce, mesec, kiša, sneg | Rimoteka',
+             desc='Rime za decu o prirodi: sunce, mesec, zvezda, oblak, kiša, sneg, cvet i druge reči. Bezbedne pesmice za decu i učitelje.',
+             h1='Rime za decu o prirodi',
+             lead='Priroda je najlepša inspiracija za dečje pesmice. Pronađi bezbedne rime za <strong>sunce, mesec, zvezde, kišu, sneg, cvetove</strong> i piši pesmice koje deca vole.',
+             cta_href='/?rec=sunce', cta_text='☀️ Nađi rime za „sunce" →',
+             sections=[
+                 ('Teme iz prirode za decu', 'sunce, mesec, zvezda, nebo, oblak, kiša, sneg, vetar, more, reka, planina, šuma, drvo, cvet, trava.'),
+                 ('Sezonske pesmice', 'Proleće — cvetovi i povratak toplote. Leto — sunce i more. Jesen — kiša i opalo lišće. Zima — sneg i novogodišnja čarolija.'),
+                 ('Kako povezati prirodu i osećanja?', 'Sunce može da bude srećno, kiša tužna, a vetar slobodan. Priroda uči decu da prepoznaju emocije.'),
+             ],
+             faqs=[
+                 ('Koje reči iz prirode se najčešće rimuju?', 'sunce — mesece, zvezda — nebesa, kiša — bliza, sneg — beg, cvet — svet, reka — čeka.'),
+                 ('Kako deca uče o prirodi kroz pesme?', 'Pesmice pomažu deci da zapamte nazive pojava, boje, zvukove i sezone na zabavan način.'),
+                 ('Da li mogu koristiti ove pesmice u vrtiću?', 'Da, sve reči su bezbedne i primerene za decu, vrtiće i škole.'),
+             ]),
+        dict(slug='rime-za-novu-godinu',
+             title='Rime za Novu godinu — čestitke, pesmice i želje | Rimoteka',
+             desc='Rime za Novu godinu: čestitke, pesmice i želje za sreću, zdravlje, ljubav i uspeh. Pronađi reči koje se rimuju i napiši jedinstvenu čestitku.',
+             h1='Rime za Novu godinu',
+             lead='Nova godina donosi novu nadu. Bilo da pišeš <strong>čestitku, pesmicu ili poruku</strong>, ovde ćeš pronaći rime za srećan, zdravlje, uspeh, ljubav i nova početka.',
+             cta_href='/?rec=novagodina', cta_text='🎆 Nađi rime za „nova godina" →',
+             sections=[
+                 ('Ključne reči za Novu godinu', 'srećna Nova godina, zdravlje, radost, uspeh, ljubav, sreća, mir, želje, početak, budućnost, porodica, prijatelj.'),
+                 ('Kratke novogodišnje poruke', 'Neka ti Nova bude ispunjena smehom, toplinom i trenucima koji se pamte.'),
+                 ('Novogodišnja pesmica za decu', 'Koristi reči kao što su sneg, dar, svetlo, kalendar, petarda, žurka. Deca vole ritam i ponavljanje.'),
+             ],
+             faqs=[
+                 ('Kako napisati novogodišnju čestitku?', 'Budi kratak, topao i iskren. Poželi zdravlje, sreću i nekoliko ličnih želja koje odgovaraju osobi.'),
+                 ('Koje rime idu sa „godina"?', 'Neka rime za godina su: radost, sreća, ljubav, prijatelj, početak, trenutak, čarolija, porodica.'),
+                 ('Da li mogu poslati pesmicu umesto čestitke?', 'Naravno. Personalizovana pesma često ostavlja jači utisak od univerzalne čestitke.'),
+             ]),
+        dict(slug='rime-za-roditelje',
+             title='Rime za roditelje — pesme za majku, oca i porodicu | Rimoteka',
+             desc='Rime za roditelje: reči koje se rimuju za majku, oca, baku, dedu i celu porodicu. Ideje za pesme, čestitke i poklon poruke.',
+             h1='Rime za roditelje',
+             lead='Za roditelje nikad nije dovoljno reći hvala. Bilo da pišeš <strong>pesmu za majku, oca, baku ili dedu</strong>, ovde ćeš pronaći rime koje izražavaju ljubav i zahvalnost.',
+             cta_href='/?rec=majka', cta_text='👩 Nađi rime za „majka" →',
+             sections=[
+                 ('Ključne reči za roditelje', 'majka, otac, mama, tata, baka, deda, porodica, dom, ljubav, briga, zahvalnost, sećanje, detinjstvo.'),
+                 ('Pesma za majku', 'Fokusiraj se na njezinu brigu, toplinu i žrtvu. Najlepše pesme su one koje govore o konkretnim trenucima.'),
+                 ('Pesma za oca', 'Naglasite snagu, podršku i sigurnost. Čak i kratka pesma može mnogo značiti.'),
+             ],
+             faqs=[
+                 ('Kako napisati dirljivu pesmu za roditelje?', 'Počni od jednog secanja ili osobine. Piši iskreno i ne boj se emocija.'),
+                 ('Koje rime idu sa „majka"?', 'Neka rime za majka su: reka, čeka, njega, lepa, neba, svega, greha, snega.'),
+                 ('Da li kratak stih može biti dovoljan?', 'Da. Ponekad je najjača poruka ona najkraća — samo nekoliko stihova punih značenja.'),
+             ]),
+        dict(slug='rime-za-prijatelje',
+             title='Rime za prijatelje — pesme i čestitke za najbolje društvo | Rimoteka',
+             desc='Rime za prijatelje: reči koje se rimuju za prijateljstvo, vernost, podršku i zajednička sećanja. Napiši pesmu ili čestitku za prijatelja.',
+             h1='Rime za prijatelje',
+             lead='Pravo prijateljstvo je retko i dragoceno. Bilo da pišeš <strong>pesmu za rođendan prijatelja</strong> ili samo želiš da mu se zahvališ, ovde ćeš pronaći inspiraciju.',
+             cta_href='/?rec=prijatelj', cta_text='🤝 Nađi rime za „prijatelj" →',
+             sections=[
+                 ('Ključne reči za prijatelje', 'prijatelj, prijateljstvo, vernost, podrška, razumevanje, smeh, tuga, radost, put, sećanje, poverenje.'),
+                 ('Kako napisati pesmu za prijatelja?', 'Pomislite na zajedničke avanture, smešne trenutke i trenutke kada vam je bio uz vas.'),
+                 ('Čestitka umesto pesme', 'Čak i nekoliko stihova mogu pokazati da ceniš prijateljstvo. Dodaš lični detalj — pesma postaje nezaboravna.'),
+             ],
+             faqs=[
+                 ('Koje rime idu sa „prijatelj"?', 'Neka rime za prijatelj su: smeh, dnevnik, željeznički, najbolji, srećan, vredan. Bolje je koristiti Rimoteku za sve opcije.'),
+                 ('Da li pesma mora biti ozbiljna?', 'Ne mora. Prijatelji često vole humor i zajebanciju u pesmama.'),
+                 ('Kako završiti pesmu za prijatelja?', 'Završi sa željom, zahvalnošću ili unutrašnjom šalom koja je samo vaša.'),
+             ]),
+        dict(slug='rime-za-tugu-i-secanje',
+             title='Rime za tugu i sećanje — pesme za teške trenutke | Rimoteka',
+             desc='Rime za tugu, bol, sećanje i oproštaj. Reči koje pomažu da se izrazi tuga, poštovanje prema preminulima ili bol rastanka.',
+             h1='Rime za tugu i sećanje',
+             lead='U teškim trenucima reči ponekad najteže dolaze. Ovde ćeš pronaći <strong>rime za tugu, bol, sećanje, oproštaj i smrt</strong> — da napišeš ono što nosiš u sebi.',
+             cta_href='/?rec=tuga', cta_text='🕯️ Nađi rime za „tuga" →',
+             sections=[
+                 ('Ključne reči u teškim trenucima', 'tuga, bol, sećanje, oproštaj, suza, tišina, noć, san, daljina, rastanak, nedostaješ, mir, večnost.'),
+                 ('Pesma za preminulog', 'Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i secanje, a ne savršenu formu.'),
+                 ('Pesma o rastanku', 'Dozvolite si tugu. Rastanci su deo života, a pesma može pomoći da se osećanja barem malo razbistre.'),
+             ],
+             faqs=[
+                 ('Kako napisati pesmu za nekog ko je preminuo?', 'Počni od jednog secanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.'),
+                 ('Koje rime idu sa „tuga"?', 'Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.'),
+                 ('Da li je u redu napisati pesmu o tuzi?', 'Apsolutno. Poezija je jedan od najstarijih načina da se izraze emocije i pronađe olakšanje.'),
+             ]),
+        dict(slug='rimovanje-za-pocetnike',
+             title='Rimovanje za početnike — kako pronaći i koristiti rime | Rimoteka',
+             desc='Rimovanje za početnike: osnovni pojmovi, vrste rima, kako pronaći rime i pisati stihove. Besplatan vodič za sve koji žele da počnu.',
+             h1='Rimovanje za početnike',
+             lead='Rimovanje nije magija — to je veština koju svako može da nauči. Ovaj vodič objašnjava <strong>osnove rimovanja</strong> i pokazuje kako Rimoteka može da ti bude prvi saveznik.',
+             cta_href='/?rec=rima', cta_text='🚀 Pronađi rime u alatu →',
+             sections=[
+                 ('Šta je rima?', 'Rima je poklapanje glasova na kraju stihova. Najčešće se rimuju poslednji naglašeni slogovi dve ili više reči.'),
+                 ('Osnovne vrste rima', 'Parna rima (AABB), ukrštena rima (ABAB) i obgrljena rima (ABBA) su najčešće šeme za početnike.'),
+                 ('Kako koristiti Rimoteku?', 'Unesi reč u polje za pretragu, klikni „Nađi rime" i biraj najbolju rimu po kvalitetu i broju slogova.'),
+             ],
+             faqs=[
+                 ('Da li moram da znam metriku da bih pisao pesme?', 'Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.'),
+                 ('Kako da znam koja rima je bolja?', 'Čista rima je jača od asonance. Rimoteka ti pokazuje kvalitet svake rime — odaberim one koje najbolje zvuče.'),
+                 ('Odakle da počnem da pišem?', 'Počni od jedne ideje ili osećanja. Napiši prvi stih, pa potraži rimu za poslednju reč i nastavi.'),
+             ]),
+    ]
+    niche_defs.extend(topic_defs)
     content_defs.extend(niche_defs)
 
     for cd in content_defs:

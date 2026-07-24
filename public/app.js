@@ -40,6 +40,14 @@ let favorites = JSON.parse(localStorage.getItem('rimoteka_favorites') || '[]');
 
 const VOWELS = new Set(['a','e','i','o','u']);
 
+/* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
+const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','kura','dupeta','dubre','dubretar','pisaju','pisao','pisa','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','krvavo','krvavi','krvava','govnar','govnari','smece','smetlar','smetlarka']);
+
+/* Kontekstualna isključenja: za određenu reč NE prikazuj određene rime (semantika, a ne vulgarnost) */
+const RHYME_EXCLUSIONS = {
+  'dete': new Set(['bidete','bide','bidi'])
+};
+
 /* ====================== Lingvistika ====================== */
 function vowelPositions(w){
   const p = [];
@@ -207,10 +215,12 @@ function doRhymes(){
 
   const key = rhymeKey(q);
   const keyLen = key.length;
+  const excluded = RHYME_EXCLUSIONS[q] || new Set();
   const limit = includeJek ? WORDS.length : jekStart;
   const strong = [];
   for(let i=0;i<limit;i++){
-    if(KEYS[i]===key && WORDS[i]!==q) strong.push(WORDS[i]);
+    const w = WORDS[i];
+    if(!BLOCKED.has(w) && !excluded.has(w) && KEYS[i]===key && w!==q) strong.push(w);
   }
   strong.sort((a,b)=>{
     const d = commonSuffix(q,b)-commonSuffix(q,a);
@@ -229,7 +239,7 @@ function doRhymes(){
     const fin = [];
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(seen.has(w)) continue;
+      if(BLOCKED.has(w) || excluded.has(w) || seen.has(w)) continue;
       if(finalSylKey(w)===fk) fin.push(w);
     }
     fin.sort((a,b)=>{
@@ -262,7 +272,7 @@ function doRhymes(){
     const wide = [];
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(w===q || seen.has(w)) continue;
+      if(BLOCKED.has(w) || excluded.has(w) || w===q || seen.has(w)) continue;
       if(looseKey(w)===lk) wide.push(w);
     }
     wide.sort((a,b)=>{
@@ -318,6 +328,7 @@ function updateAutocomplete(){
   const out = [];
   for(let i=0;i<limit && out.length<8;i++){
     const w = WORDS[i];
+    if(BLOCKED.has(w)) continue;
     if(w.startsWith(q) && w !== q) out.push(w);
   }
   if(!out.length){ acWrap.style.display='none'; return; }
@@ -368,6 +379,7 @@ function doSearch(){
   const limit = includeJek ? WORDS.length : jekStart;
   for(let i=0;i<limit && out.length<600;i++){
     const w=WORDS[i];
+    if(BLOCKED.has(w)) continue;
     if(mode==='ends'   && w.endsWith(q))   out.push(w);
     else if(mode==='starts' && w.startsWith(q)) out.push(w);
     else if(mode==='contains' && w.includes(q)) out.push(w);

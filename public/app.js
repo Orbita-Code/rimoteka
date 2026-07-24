@@ -102,13 +102,24 @@ function countSyl(w){
 function syllables(w){ return countSyl(w) || 1; }
 
 /* ====================== Učitavanje ====================== */
+let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
+async function loadLocalDefs(){
+  if(DEFS.size) return;
+  if(defsPromise) return defsPromise;
+  defsPromise = fetch('definicije.json?v=228')
+    .then(r => r.ok ? r.json() : {})
+    .then(defs => {
+      for(const k in defs) DEFS.set(k, defs[k]);
+    })
+    .catch(() => {});
+  return defsPromise;
+}
+
 async function loadDict(){
-  const [ek, jek, defs] = await Promise.all([
+  const [ek, jek] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
-    fetch('definicije.json?v=228').then(r=>r.ok?r.json():{}).catch(()=> ({}))
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
   ]);
-  for(const k in defs) DEFS.set(k, defs[k]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
@@ -288,6 +299,61 @@ document.getElementById('randomBtn').onclick = ()=>{
   }
   rimeInput.value=disp(WORDS[500]); doRhymes();
 };
+
+/* ====================== AUTOCOMPLETE ZA RIME ====================== */
+const acWrap = document.createElement('div');
+acWrap.className = 'autocomplete';
+acWrap.style.display = 'none';
+rimeInput.parentNode.style.position = 'relative';
+rimeInput.parentNode.appendChild(acWrap);
+let acIndex = -1, acItems = [];
+
+function updateAutocomplete(){
+  const raw = rimeInput.value.trim().toLowerCase();
+  const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
+  acWrap.innerHTML = '';
+  acIndex = -1; acItems = [];
+  if(q.length < 2 || WORDS.length === 0){ acWrap.style.display='none'; return; }
+  const limit = includeJek ? WORDS.length : jekStart;
+  const out = [];
+  for(let i=0;i<limit && out.length<8;i++){
+    const w = WORDS[i];
+    if(w.startsWith(q) && w !== q) out.push(w);
+  }
+  if(!out.length){ acWrap.style.display='none'; return; }
+  acItems = out;
+  out.forEach((w,idx)=>{
+    const div = document.createElement('div');
+    div.className = 'ac-item';
+    div.textContent = disp(w);
+    div.dataset.idx = idx;
+    div.dataset.w = w;
+    div.onclick = ()=>{ rimeInput.value = disp(w); hideAutocomplete(); doRhymes(); };
+    acWrap.appendChild(div);
+  });
+  acWrap.style.display = 'block';
+}
+function hideAutocomplete(){ acWrap.style.display='none'; acIndex=-1; acItems=[]; }
+function moveAutocomplete(dir){
+  if(!acItems.length) return;
+  acIndex += dir;
+  if(acIndex < 0) acIndex = acItems.length - 1;
+  if(acIndex >= acItems.length) acIndex = 0;
+  acWrap.querySelectorAll('.ac-item').forEach((el,i)=>el.classList.toggle('active', i===acIndex));
+}
+rimeInput.addEventListener('input', updateAutocomplete);
+rimeInput.addEventListener('keydown', e=>{
+  if(e.key === 'ArrowDown'){ e.preventDefault(); moveAutocomplete(1); }
+  else if(e.key === 'ArrowUp'){ e.preventDefault(); moveAutocomplete(-1); }
+  else if(e.key === 'Escape'){ hideAutocomplete(); }
+  else if(e.key === 'Enter' && acIndex >= 0){
+    e.preventDefault();
+    rimeInput.value = disp(acItems[acIndex]);
+    hideAutocomplete();
+    doRhymes();
+  }
+});
+document.addEventListener('click', e=>{ if(!rimeInput.parentNode.contains(e.target)) hideAutocomplete(); });
 
 /* ====================== PRETRAGA ====================== */
 const searchInput = document.getElementById('searchInput');
@@ -482,6 +548,7 @@ function parseSrMeaning(ext){
 
 async function fetchDefinition(word){
   if(defCache.has(word)) return defCache.get(word);
+  await loadLocalDefs();  // učitaj lokalni rečnik definicija tek kada zatreba
   if(DEFS.has(word)){ const r = { text: DEFS.get(word), src:'Rimoteka' }; defCache.set(word, r); return r; }
   let result = null;
   try{

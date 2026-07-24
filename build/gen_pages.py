@@ -92,10 +92,10 @@ def syl_word(n):
 def rima_word(n):
     n = abs(n)
     if n % 10 == 1 and n % 100 != 11:
-        return 'rima'          # 1, 21, 31 rima
+        return 'rima'
     if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
-        return 'rime'          # 2-4, 22-24 rime
-    return 'rima'              # 5+, 11-14 rima
+        return 'rime'
+    return 'rima'
 
 # ---------------- Slug (transliteracija po pravilu) ----------------
 TRANS = {'š': 's', 'š'.upper(): 's', 'č': 'c', 'ć': 'c', 'ž': 'z', 'đ': 'dj'}
@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260715b">
+<link rel="stylesheet" href="/style.css?v=20260724b">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -199,7 +199,7 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">
       <span class="footer-rimes-label">Vodiči:</span>
-      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a>
+      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a>
     </nav>
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
@@ -240,7 +240,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
     body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>{esc(h1)}</span></nav>
-  <h2 class="landing-h1">{esc(h1)}</h2>
+  <h1 class="landing-h1">{esc(h1)}</h1>
   <p class="landing-lead">{lead_html}</p>
   <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>
   {secs}
@@ -252,6 +252,33 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(head + body + footer)
     return canon
+
+def related_targets(t, targets, target_slugs, n=10):
+    # Daj n drugih popularnih meta-reči kao interne linkove
+    out = []
+    for w in targets:
+        if w == t:
+            continue
+        if slugify(w) in target_slugs:
+            out.append(w)
+        if len(out) >= n:
+            break
+    return out
+
+def syl_distribution(words):
+    dist = defaultdict(int)
+    for w in words:
+        dist[syllables(w)] += 1
+    return sorted(dist.items())
+
+def mini_tool_form(prefill=''):
+    return f"""<section class="mini-tool" aria-label="Pronađi rime">
+  <h3>Pronađi rime za bilo koju reč</h3>
+  <form class="search-row" action="/" method="get">
+    <input type="text" name="rec" placeholder="upiši reč (npr. pesma)" value="{esc(prefill)}" autocomplete="off" spellcheck="false">
+    <button type="submit" class="primary">Nađi rime</button>
+  </form>
+</section>"""
 
 def main():
     words, defs = load()
@@ -310,8 +337,7 @@ def main():
     if os.path.isdir(outdir):
         shutil.rmtree(outdir)
     os.makedirs(outdir, exist_ok=True)
-    sitemap_urls = [(BASE + '/', '1.0'), (BASE + '/', None)]  # placeholder; homepage dodajemo posebno
-    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
+    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
 
     generated = 0
     for t in targets:
@@ -351,15 +377,36 @@ def main():
                   + group_html('Dobre rime', good, False)
                   + group_html('Dobre rime (isti završni slog)', final_extra, False))
 
+        # copy-all reči (za lakše korišćenje)
+        copy_words = ', '.join(all_r[:60])
+
+        # raspodela po broju slogova
+        syl_dist = syl_distribution(all_r)
+        syl_badges = ''.join(
+            f'<span class="syl-badge"><b>{n}</b> {syl_word(n)} · {cnt} {rima_word(cnt)}</span>'
+            for n, cnt in syl_dist[:6]
+        )
+        syl_html = f'<div class="syl-groups"><h3>Rime po broju slogova</h3><div class="related-list">{syl_badges}</div></div>' if syl_badges else ''
+
+        # srodne popularne reči (interni linkovi)
+        rel = related_targets(t, popular, target_slugs, n=8)
+        rel_html = ''
+        if rel:
+            rel_chips = ''.join(
+                chip(w, syllables(w), f'/rime-za/{quote(slugify(w))}/') for w in rel
+            )
+            rel_html = f'<div class="related-rimes"><h3>Još popularnih rima</h3><div class="related-list">{rel_chips}</div></div>'
+
         # meaning
         mean = ''
         if t in defs:
             mean = f'<p class="landing-def"><strong>{esc(t)}</strong> — {esc(defs[t])}</p>'
 
-        title = f'Rime za reč „{t}“ — {len(all_r)} {rima_word(len(all_r))} | Rimoteka'
-        desc = (f'Rimovanje reči „{t}“: sve reči koje se rimuju sa {t} — {first_list}. '
-                f'Besplatan rečnik rima za pisanje pesama, tekstova i repa.')
-        ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
+        # bolji title/description koji ciljaju više varijanti pretrage
+        title = f'Rime za {t}: {len(all_r)} reči koje se rimuju | Rimoteka'
+        desc = (f'Pronađi reči koje se rimuju sa „{t}". Rimoteka nudi {len(all_r)} {rima_word(len(all_r))} '
+                f'za pisanje pesama, tekstova i repa. Primeri: {first_list}.')
+        ogdesc = f'Reči koje se rimuju sa „{t}": {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 
         schema = json.dumps({
@@ -375,10 +422,13 @@ def main():
                 {
                     "@type": "FAQPage",
                     "mainEntity": [
-                        {"@type": "Question", "name": f"Koje se reči rimuju sa „{t}“?",
+                        {"@type": "Question", "name": f'Šta se rimuje sa „{t}"?',
                          "acceptedAnswer": {"@type": "Answer",
                             "text": f"Sa rečju {t} rimuju se, između ostalog: {', '.join(all_r[:14])}."}},
-                        {"@type": "Question", "name": f"Koliko slogova ima reč „{t}“?",
+                        {"@type": "Question", "name": f'Koje se reči rimuju sa „{t}"?',
+                         "acceptedAnswer": {"@type": "Answer",
+                            "text": f"Najbolje rime za reč {t} su: {', '.join(all_r[:10])}."}},
+                        {"@type": "Question", "name": f'Koliko slogova ima reč „{t}"?',
                          "acceptedAnswer": {"@type": "Answer",
                             "text": f"Reč {t} ima {tsyl} {syl_word(tsyl)}."}}
                     ]
@@ -390,17 +440,25 @@ def main():
                                 canonical=canonical, base=BASE, schema=schema)
 
         body = f"""<main class="landing">
-  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za „{esc(t)}“</span></nav>
-  <h2 class="landing-h1">Rime za reč „{esc(t)}“</h2>
-  <p class="landing-lead">Rimovanje reči „{esc(t)}“ — pronađeno <strong>{len(all_r)}</strong> {rima_word(len(all_r))} koje se rimuju sa <strong>„{esc(t)}“</strong> ({tsyl} {syl_word(tsyl)}), rangirano po kvalitetu rime. Iskoristi ih za pisanje pesme, teksta ili repa. Klikni reč da otvoriš još rima.</p>
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za „{esc(t)}"</span></nav>
+  <h1 class="landing-h1">Rime za reč „{esc(t)}"</h1>
+  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))} · {tsyl} {syl_word(tsyl)} · rangirano po kvalitetu</p>
+  <p class="landing-lead">Pronađene su <strong>{len(all_r)}</strong> reči koje se rimuju sa <strong>„{esc(t)}"</strong>. Iskoristi ih za pisanje pesme, teksta ili repa. Klikni na reč da otvoriš još rima, ili kopiraj celu listu.</p>
   {mean}
-  <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši pesmu →</a>
+  <div class="copy-bar">
+    <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši →</a>
+    <button class="copy-all-btn" data-words="{esc(copy_words)}" onclick="navigator.clipboard.writeText(this.dataset.words).then(()=>{{this.textContent='Kopirano!';this.classList.add('copied');setTimeout(()=>{{this.textContent='Kopiraj sve rime';this.classList.remove('copied')}},1600)}}).catch(()=>{{this.textContent='Greška'}})">Kopiraj sve rime</button>
+  </div>
   {groups}
+  {syl_html}
+  {rel_html}
+  {mini_tool_form(t)}
   <section class="landing-faq">
     <h3>Česta pitanja</h3>
-    <details><summary>Koje se reči rimuju sa „{esc(t)}“?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
-    <details><summary>Koliko slogova ima reč „{esc(t)}“?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
-    <details><summary>Kako da nađem još rima?</summary><p>Klikni „Otvori Rimoteku“ pa u alatu upiši bilo koju reč — dobićeš proširenu listu rima, šire (asonantne) rime i filter po broju slogova.</p></details>
+    <details><summary>Šta se rimuje sa „{esc(t)}"?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
+    <details><summary>Koje se reči rimuju sa „{esc(t)}"?</summary><p>Najbolje rime za reč {esc(t)} su: {esc(', '.join(all_r[:10]))}.</p></details>
+    <details><summary>Koliko slogova ima reč „{esc(t)}"?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
+    <details><summary>Kako da nađem još rima?</summary><p>U mini-alatu iznad upiši bilo koju reč — dobićeš proširenu listu rima, šire (asonantne) rime i filter po broju slogova.</p></details>
   </section>
 </main>
 """
@@ -410,7 +468,7 @@ def main():
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(page)
         sitemap_entries.append(
-            f'  <url><loc>{canonical}</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+            f'  <url><loc>{canonical}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
         generated += 1
 
     # 2b) statička strana /slogovi/ — keyword „brojanje slogova"
@@ -438,7 +496,7 @@ def main():
         f'<tr><td>{esc(w)}</td><td>{n} {syl_word(n)}</td></tr>' for w, n in slog_examples)
     slog_body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Brojanje slogova</span></nav>
-  <h2 class="landing-h1">Brojanje slogova online</h2>
+  <h1 class="landing-h1">Brojanje slogova online</h1>
   <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. U Rimoteci možeš da prebrojiš slogove u pojedinačnoj reči, u stihu ili u celoj pesmi, red po red.</p>
   <a class="landing-cta" href="/?tab=slogovi">✍️ Otvori Brojač slogova u alatu →</a>
   <div class="res-group"><h3>Kako se broje slogovi</h3>
@@ -460,7 +518,7 @@ def main():
     with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(slog_head + slog_body + footer)
     sitemap_entries.append(
-        f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
+        f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
 
     # 2c) tematske strane (autoritet + niše)
     content_defs = [
@@ -499,11 +557,64 @@ def main():
                  ('Koji alat pomaže kod pisanja pesme?', 'Rimoteka: nalazi rime za svaku reč, broji slogove u stihovima i ima beležnicu u kojoj pišeš i čuvaš pesmu.'),
              ]),
     ]
+    # 2d) nišne autoritet strane — deca, pesme, rep
+    niche_defs = [
+        dict(slug='rime-za-decu',
+             title='Rime za decu — bezbedne i lepe reči za dečje pesmice | Rimoteka',
+             desc='Rime za decu: bezbedne, lepe i razumljive reči za dečje pesmice, igre i učenje. Filtrirano od neprikladnih reči — besplatan alat.',
+             h1='Rime za decu',
+             lead='Rimoteka je <strong>filtrirana od neprikladnih reči</strong>, pa je idealna za pravljenje dečjih pesmica. Evo popularnih, bezbednih reči koje se lepo rimuju i koje deca lako pamte.',
+             cta_href='/?rec=dete', cta_text='🧸 Pronađi još rima za decu →',
+             sections=[
+                 ('Zašto Rimoteka za decu?', 'Rečnik je pročišćen od psovki, vulgarnosti i reči koje nisu primerene za decu. Roditelji i učitelji mogu slobodno da traže rime za pesmice i igre.'),
+                 ('Popularne reči za dečje pesmice', 'mama, tata, dete, igra, sreća, radost, prijatelj, škola, knjiga, lopta, mačka, pas, ptica, cvet, sunce, mesec, zvezda, kiša, sneg.'),
+                 ('Kako napisati dečju pesmicu?', 'Koristi kratak stih, ponavljanje i jednostavne reči. Rime koje deca lako pamte čine pesmicu zabavnom i pevljivom.'),
+             ],
+             faqs=[
+                 ('Da li su rime na Rimoteci bezbedne za decu?', 'Da. Rimoteka je filtrirana od neprikladnih reči i pogrdnih izraza, pa je pogodna za decu, roditelje i učitelje.'),
+                 ('Koje reči su dobre za dečje pesmice?', 'Jednostavne, slikovite reči kao što su dete, igra, sreća, sunce, mesec, zvezda, cvet, mama, tata, prijatelj.'),
+                 ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime". Rezultati su filtrirani i bezbedni.'),
+             ]),
+        dict(slug='rime-za-pesmu',
+             title='Rime za pesmu — reči koje se rimuju za pisanje poezije | Rimoteka',
+             desc='Rime za pesmu: pronađi reči koje se rimuju i piši lirike, ljubavne i druge pesme. Besplatan rečnik rima sa brojačem slogova.',
+             h1='Rime za pesmu',
+             lead='Svaka pesma počinje od ideje, a <strong>rima</strong> joj daje zvuk. Rimoteka pomaže pesnicima i tekstopiscima da brzo pronađu reči koje se rimuju i usklade ritam.',
+             cta_href='/?rec=pesma', cta_text='✍️ Nađi rime za „pesma" →',
+             sections=[
+                 ('Kako koristiti Rimoteku za pisanje pesme?', 'Upiši ključnu reč na kraju stiha. Rimoteka će odmah izlistati najbolje rime, koje možeš filtrirati po broju slogova.'),
+                 ('Ljubavne i emotivne rime', 'Za pesme o ljubavi često traže se rime za ljubav, srce, duša, sreća, tuga, bol, radost, nada, sanjarenje.'),
+                 ('Priroda i svakodnevica', 'sunce, mesec, zvezda, nebo, oblak, kiša, sneg, vetar, more, reka, planina, šuma, cvet, dan, noć.'),
+             ],
+             faqs=[
+                 ('Kako da brzo napišem pesmu?', 'Izaberi temu, napiši prvi stih, pa za poslednju reč potraži rimu u Rimoteci. Nastavi red po red i proveri broj slogova.'),
+                 ('Da li moram da znam pravila poezije?', 'Ne moraš. Rima i sličan broj slogova su dovoljni da pesma lepo zvuči. Rimoteka ti pomaže sa oba.'),
+                 ('Gde mogu da sačuvam pesmu?', 'U Rimoteci postoji Beležnica — tekst se čuva na tvom uređaju i ostaje i kad zatvoriš stranicu.'),
+             ]),
+        dict(slug='rime-za-rep',
+             title='Rime za rep — reči koje se rimuju za rap tekstove | Rimoteka',
+             desc='Rime za rep i rap tekstove: pronađi čiste i asonantne rime, filtriraj po broju slogova i piši tekstove. Besplatan alat za repera.',
+             h1='Rime za rep',
+             lead='U repu je <strong>ritam</strong> sve. Rimoteka daje rime koje se uklapaju u beat, uz filter po broju slogova — da svaka reč „sedi" tamo gde treba.',
+             cta_href='/?rec=rep', cta_text='🎤 Nađi rime za „rep" →',
+             sections=[
+                 ('Kako odabrati rimu za rep?', 'Poslušaj beat i odredi gde pada naglasak. Zatim potraži rimu sa odgovarajućim brojem slogova da stih bude ritmički ispravan.'),
+                 ('Asonanca u repu', 'Reperi često koriste asonantu — poklapanje samoglasnika — jer daje slobodniji i moderniji zvuk. U Rimoteci uključi „šire rime" da je pronađeš.'),
+                 ('Interna rima i multi-slog rime', 'Pored krajnje rime, pokušaj da rimuješ i reči unutar stiha. Dugi, višesložni parovi zvuče tehnički impresivno.'),
+             ],
+             faqs=[
+                 ('Šta su dobre rime za rep?', 'Rime koje imaju jasan ritam, odgovaraju beatu i nose značenje. Često se koriste asonantne rime i višesložni parovi.'),
+                 ('Kako da uklopim rimu u beat?', 'Prebroj slogove u stihu i podesi rimu tako da naglasak pada na pravo mesto. Rimoteka prikazuje broj slogova za svaku reč.'),
+                 ('Da li Rimoteka nudi asonantne rime?', 'Da. Uključi opciju „šire rime" da vidiš asonantne rime koje se poklapaju po samoglasnicima.'),
+             ]),
+    ]
+    content_defs.extend(niche_defs)
+
     for cd in content_defs:
         c = content_page(footer, cd['slug'], cd['title'], cd['desc'], cd['h1'],
                          cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'])
         sitemap_entries.append(
-            f'  <url><loc>{c}</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>')
+            f'  <url><loc>{c}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

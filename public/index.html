@@ -29,6 +29,13 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
+<script>
+// Dark mode — primeni odmah da nema "flash" svetle teme
+(function(){
+  const dark = localStorage.getItem('rimoteka_dark') === '1';
+  if(dark) document.body.classList.add('dark-mode');
+})();
+</script>
 <link rel="stylesheet" href="style.css?v=20260724b">
 <script type="application/ld+json">
 {
@@ -89,6 +96,8 @@
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
+  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
+  <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button>
 </header>
 
 <nav class="tabs" id="tabs">
@@ -163,10 +172,11 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a na dnu ukupno reči, znakova i slogova. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button></p>
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a reči koje se rimuju su obojene istom bojom. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button></p>
     <div class="notepad">
       <div id="noteGutter" class="gutter"></div>
-      <textarea id="noteInput" class="notepad-text" placeholder="Ovde piši svoju pesmu…"></textarea>
+      <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
+      <textarea id="noteInput" style="display:none" aria-hidden="true"></textarea>
     </div>
     <div id="noteStats" class="note-stats"></div>
     <div id="noteRhymes" class="note-rhymes" aria-live="polite"></div>
@@ -185,7 +195,6 @@
   </section>
 </main>
 
-<div id="loading" class="loading">Učitavanje rečnika…</div>
 <div id="toast" class="toast"></div>
 
 <section class="seo-content" aria-label="O Rimoteci">
@@ -242,6 +251,28 @@
     <p class="footer-legal">© 2026 Rimoteka · Sva prava zadržana · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
+
+<!-- PRO MODAL -->
+<div class="pro-modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
+  <div class="pro-modal-content">
+    <button class="close" id="proClose" aria-label="Zatvori">×</button>
+    <h2 id="proTitle">Rimoteka Pro</h2>
+    <p>Otključaj pun potencijal Rimoteke — bez reklama, sa naprednim alatima za pisanje.</p>
+
+    <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> — čisto okruženje za pisanje</span></div>
+    <div class="pro-feature"><span class="icon">📊</span><span><strong>Napredna analiza</strong> — metar, ritam, rhyme scheme</span></div>
+    <div class="pro-feature"><span class="icon">💾</span><span><strong>Cloud čuvanje</strong> — tvoje pesme na svim uređajima</span></div>
+    <div class="pro-feature"><span class="icon">📤</span><span><strong>Export u PDF/DOCX</strong> — profesionalni format</span></div>
+    <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> — odgovor u roku od 24h</span></div>
+
+    <div class="pro-price">2,99 € <small>/ mesečno</small></div>
+
+    <button class="pro-btn" id="proSubscribe">Aktiviraj Pro</button>
+    <button class="donate-btn" id="proDonate">Podrži jednokratno</button>
+
+    <p class="pro-note">Otkaži kad god. Sredstva idu na održavanje i razvoj Rimoteke.</p>
+  </div>
+</div>
 
 <script src="app.js?v=20260724b"></script>
 <script>

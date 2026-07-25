@@ -124,19 +124,23 @@ async function loadLocalDefs(){
 }
 
 async function loadDict(){
-  const [ek, jek] = await Promise.all([
+  const [ek, jek, defsRes] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
+    fetch('definicije.json?v=228').then(r=>r.json()).catch(()=> ({}))
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
   WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
   KEYS = new Array(WORDS.length);
+  // Rangiranje: reči sa definicijom su češće → bolji rang (manji broj = bolji)
   for(let i=0;i<WORDS.length;i++){
     const w = WORDS[i];
     KEYS[i] = rhymeKey(w);
-    RANK.set(w, i);
+    const hasDef = defsRes[w] && !defsRes[w].startsWith('Oblik');
+    // ako ima definiciju → rang i (alfabetski), ako nema → rang i + veliki offset
+    RANK.set(w, hasDef ? i : i + 1000000);
     SET.add(w);
   }
 }
@@ -202,15 +206,19 @@ function filterSyl(arr){
   return arr.filter(w=>syllables(w)===rimeSyl);
 }
 
-function doRhymes(){
+function doRhymes(silent){
+  hideAutocomplete();
   const raw = rimeInput.value.trim().toLowerCase();
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
   const box = document.getElementById('rimeResults');
   box.innerHTML='';
   if(q.length<2){ box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
+  if(WORDS.length === 0){ box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
 
-  // sinhronizuj URL sa trenutnom pretragom (deljiv link, konzistentno sa landing stranicama)
-  try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+  // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
+  if(!silent){
+    try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+  }
 
   const key = rhymeKey(q);
   const keyLen = key.length;
@@ -256,8 +264,8 @@ function doRhymes(){
   renderGroup(box, good.length?'Dobre rime':'', good, false);
   renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
-  // GA4: zabeleži jedinstvenu pretragu rime (koje reči ljudi traže -> nove landing strane)
-  if(q !== lastTrackedRhyme){
+  // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
+  if(!silent && q !== lastTrackedRhyme){
     lastTrackedRhyme = q;
     if(typeof gtag === 'function'){
       try{ gtag('event','rhyme_search',{ search_term: q, results_count: best.length + good.length + finalExtra.length }); }catch(e){}
@@ -300,13 +308,13 @@ jekToggle.addEventListener('change', e=>{
   if(searchInput.value.trim()) doSearch();
 });
 document.getElementById('randomBtn').onclick = ()=>{
-  // lepa, sadržajna reč: iz srednjeg opsega frekvencije, bar 2 sloga
+  // nasumična reč iz celog rečnika, bar 2 sloga
   for(let t=0;t<40;t++){
-    const i = 250 + Math.floor(Math.random()*9000);
+    const i = Math.floor(Math.random()*WORDS.length);
     const w = WORDS[i];
     if(w && syllables(w)>=2){ rimeInput.value=disp(w); doRhymes(); return; }
   }
-  rimeInput.value=disp(WORDS[500]); doRhymes();
+  rimeInput.value=disp(WORDS[Math.floor(Math.random()*WORDS.length)]); doRhymes();
 };
 
 /* ====================== AUTOCOMPLETE ZA RIME ====================== */
@@ -607,6 +615,30 @@ noteEditor.addEventListener('paste', (e) => {
   document.execCommand('insertText', false, text);
 });
 
+// iOS Safari fix — Enter ne radi u contenteditable nakon renderovanja HTML-a
+noteEditor.addEventListener('keydown', (e) => {
+  if(e.key === 'Enter'){
+    e.preventDefault();
+    // Ručno insertujemo <br> da bi Enter radio na iOS
+    const sel = window.getSelection();
+    if(sel.rangeCount > 0){
+      const range = sel.getRangeAt(0);
+      range.deleteContents();
+      const br = document.createElement('br');
+      range.insertNode(br);
+      // dodaj još jedan <br> ako je na kraju, da bi kursor imao gde da stane
+      if(range.startContainer === noteEditor && range.startOffset === noteEditor.childNodes.length){
+        range.insertNode(document.createElement('br'));
+      }
+      range.setStartAfter(br);
+      range.collapse(true);
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+    scheduleEditorUpdate();
+  }
+});
+
 document.getElementById('clearNotes').onclick = () => {
   if(confirm('Obrisati celu belešku?')){
     setEditorText('');
@@ -656,7 +688,7 @@ function renderNoteRhymes(){
   }
   const savedVal = rimeInput.value;
   rimeInput.value = word;
-  doRhymes();
+  doRhymes(true);
   rimeInput.value = savedVal;
   const src = document.getElementById('rimeResults');
   const chips = src.querySelectorAll('.chip');
@@ -707,7 +739,7 @@ function getRhymeListForLastWord(){
   if(!word || word.length < 2) return { word: '', rhymes: [] };
   const savedVal = rimeInput.value;
   rimeInput.value = word;
-  doRhymes();
+  doRhymes(true);
   rimeInput.value = savedVal;
   const src = document.getElementById('rimeResults');
   const chips = src.querySelectorAll('.chip .word');
@@ -1180,15 +1212,189 @@ proClose.onclick = () => { proModal.classList.remove('show'); };
 proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
 document.addEventListener('keydown', (e) => { if(e.key === 'Escape') proModal.classList.remove('show'); });
 
-proSubscribe.onclick = () => {
-  // TODO: povezati sa Stripe/PayPal kada bude spremno
-  toast('Pro uskoro dostupan — prijavi se za raniji pristup!');
-  proModal.classList.remove('show');
-};
 proDonate.onclick = () => {
-  // TODO: povezati sa Buy Me a Coffee / PayPal
   window.open('https://buymeacoffee.com/rimoteka', '_blank');
   proModal.classList.remove('show');
 };
+
+/* ====================== PRO PRETPLATA (Stripe) ======================
+ * VAŽNO: localStorage je ovde SAMO keš da stranica ne trepne pri učitavanju.
+ * O tome ko je zaista Pro odlučuje isključivo server (GET /api/status).
+ * Izmena keša u DevTools ne otključava ništa — sve Pro funkcije koje nešto
+ * koštaju moraju se proveravati na serveru.
+ * ==================================================================== */
+const PRO_CACHE_KEY = 'rimoteka_pro_cache';
+
+const stepLogin   = document.getElementById('proStepLogin');
+const stepPlan    = document.getElementById('proStepPlan');
+const stepActive  = document.getElementById('proStepActive');
+const loginForm   = document.getElementById('proLoginForm');
+const loginInput  = document.getElementById('proEmail');
+const loginBtn    = document.getElementById('proLoginBtn');
+const loginHint   = document.getElementById('proLoginHint');
+const planHint    = document.getElementById('proPlanHint');
+const activeInfo  = document.getElementById('proActiveInfo');
+const portalBtn   = document.getElementById('proPortal');
+
+let proState = { authenticated: false, pro: false };
+
+async function api(path, options = {}) {
+  const res = await fetch(`/api${path}`, {
+    credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    ...options,
+  });
+  let data = null;
+  try { data = await res.json(); } catch (e) {}
+  if (!res.ok) throw new Error(data?.error || `Greška ${res.status}`);
+  return data;
+}
+
+function renderPro(state) {
+  proState = state || { authenticated: false, pro: false };
+
+  // Reklame i Pro oznaka — CSS reaguje na klasu na <body>
+  document.body.classList.toggle('is-pro', !!proState.pro);
+  proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
+  proToggle.title = proState.pro ? 'Rimoteka Pro je aktivan' : 'Rimoteka Pro';
+
+  stepLogin.hidden  = proState.authenticated;
+  stepPlan.hidden   = !proState.authenticated || proState.pro;
+  stepActive.hidden = !proState.pro;
+
+  if (proState.pro && proState.currentPeriodEnd) {
+    const datum = new Date(proState.currentPeriodEnd).toLocaleDateString('sr-RS');
+    activeInfo.textContent = proState.cancelAtPeriodEnd
+      ? `Pretplata je otkazana i važi do ${datum}.`
+      : `Sledeća naplata: ${datum}.`;
+  }
+  if (proState.authenticated && !proState.pro) {
+    planHint.textContent = `Prijavljena/prijavljen kao ${proState.email}.`;
+  }
+
+  try {
+    localStorage.setItem(PRO_CACHE_KEY, JSON.stringify({ pro: !!proState.pro }));
+  } catch (e) {}
+}
+
+// Keš primenjujemo odmah da reklamni prostor ne bljesne Pro korisniku
+try {
+  const cached = JSON.parse(localStorage.getItem(PRO_CACHE_KEY) || 'null');
+  if (cached?.pro) document.body.classList.add('is-pro');
+} catch (e) {}
+
+async function refreshPro() {
+  try {
+    renderPro(await api('/status'));
+  } catch (e) {
+    // Backend nedostupan — ostavljamo besplatnu verziju, alat i dalje radi
+    console.warn('[pro] Status nije dostupan:', e.message);
+  }
+}
+
+/* Povratak sa magic-link mejla: Supabase vrati #access_token=... */
+async function handleAuthRedirect() {
+  if (!location.hash.includes('access_token')) return false;
+
+  const token = new URLSearchParams(location.hash.slice(1)).get('access_token');
+  history.replaceState(null, '', location.pathname + location.search);
+  if (!token) return false;
+
+  try {
+    await api('/auth/session', {
+      method: 'POST',
+      body: JSON.stringify({ access_token: token }),
+    });
+    await refreshPro();
+    proModal.classList.add('show');
+    toast('Prijava uspešna.');
+  } catch (e) {
+    toast(e.message);
+  }
+  return true;
+}
+
+/* Povratak sa Stripe Checkout-a */
+async function handleProReturn() {
+  const params = new URLSearchParams(location.search);
+  const status = params.get('pro');
+  if (!status) return;
+
+  params.delete('pro');
+  params.delete('session_id');
+  const rest = params.toString();
+  history.replaceState(null, '', location.pathname + (rest ? `?${rest}` : ''));
+
+  if (status === 'cancel') {
+    toast('Plaćanje je otkazano.');
+    return;
+  }
+  if (status !== 'success') return;
+
+  // Webhook ume da stigne koji trenutak posle povratka korisnika,
+  // pa proveravamo nekoliko puta pre nego što odustanemo.
+  toast('Plaćanje primljeno — aktiviram Pro…');
+  for (let i = 0; i < 6; i++) {
+    await refreshPro();
+    if (proState.pro) {
+      toast('Pro je aktivan. Hvala! 🎉');
+      proModal.classList.add('show');
+      return;
+    }
+    await new Promise((r) => setTimeout(r, 1500));
+  }
+  toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak — osveži stranicu.');
+}
+
+loginForm.onsubmit = async (e) => {
+  e.preventDefault();
+  const email = loginInput.value.trim();
+  if (!email) return;
+
+  loginBtn.disabled = true;
+  loginBtn.textContent = 'Šaljem…';
+  try {
+    await api('/auth/request', { method: 'POST', body: JSON.stringify({ email }) });
+    loginHint.hidden = false;
+    loginHint.textContent = `Poslali smo link na ${email}. Otvori mejl i klikni na njega.`;
+    loginForm.hidden = true;
+  } catch (err) {
+    loginHint.hidden = false;
+    loginHint.textContent = err.message;
+  } finally {
+    loginBtn.disabled = false;
+    loginBtn.textContent = 'Pošalji mi link';
+  }
+};
+
+proSubscribe.onclick = async () => {
+  const plan = document.querySelector('input[name="proPlan"]:checked')?.value || 'monthly';
+  proSubscribe.disabled = true;
+  proSubscribe.textContent = 'Otvaram plaćanje…';
+  try {
+    const { url } = await api('/checkout', { method: 'POST', body: JSON.stringify({ plan }) });
+    location.href = url;
+  } catch (e) {
+    toast(e.message);
+    proSubscribe.disabled = false;
+    proSubscribe.textContent = 'Aktiviraj Pro';
+  }
+};
+
+portalBtn.onclick = async () => {
+  portalBtn.disabled = true;
+  try {
+    const { url } = await api('/portal', { method: 'POST' });
+    location.href = url;
+  } catch (e) {
+    toast(e.message);
+    portalBtn.disabled = false;
+  }
+};
+
+handleAuthRedirect().then((handled) => {
+  handleProReturn();
+  if (!handled) refreshPro();
+});
 
 loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); });

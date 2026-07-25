@@ -6,6 +6,8 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F88VM8CWBQ"></script>
 <script src="ga-init.js?v=1"></script>
+<!-- Google AdSense — ZAMENI ca-pub-XXXXXXXXXXXXXXXX sa svojim ID-jem kada bude odobreno -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
 <title>Rimoteka — rimovanje reči, rečnik rima i brojanje slogova</title>
 <meta name="description" content="Besplatan alat za rimovanje reči na srpskom — unesi reč i pronađi sve rime, prebroj slogove i piši pesme i tekstove. Rečnik rima za pesnike, tekstopisce i repere.">
 <link rel="canonical" href="https://rimoteka.com/">
@@ -29,14 +31,8 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
-<script>
-// Dark mode — primeni odmah da nema "flash" svetle teme
-(function(){
-  const dark = localStorage.getItem('rimoteka_dark') === '1';
-  if(dark) document.body.classList.add('dark-mode');
-})();
-</script>
-<link rel="stylesheet" href="style.css?v=20260724b">
+<script src="/dark-mode-init.js?v=1"></script>
+<link rel="stylesheet" href="style.css?v=20260726a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -97,7 +93,8 @@
     <button data-script="cyr">ћирилица</button>
   </div>
   <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
-  <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button>
+  <!-- Pro dugme je sakriveno dok backend ne bude deployovan -->
+  <!-- <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button> -->
 </header>
 
 <nav class="tabs" id="tabs">
@@ -236,6 +233,21 @@
     <p class="footer-desc">Besplatan alat za pronalaženje rime, brojanje slogova i pisanje pesama i tekstova na srpskom jeziku.</p>
     <p class="footer-contact">Za saradnju: <a href="mailto:info@rimoteka.com" class="footer-link">info@rimoteka.com</a></p>
     <p class="footer-keys">Rimovanje reči · Rime · Rečnik srpskog jezika · Brojač slogova · Beležnica za pesme · Pisanje poezije i tekstova</p>
+
+    <!-- Google AdSense ad unit — ZAMENI data-ad-client i data-ad-slot sa svojim ID-jevima kada bude odobreno -->
+    <div class="adsense-placeholder" style="min-height:100px;margin:1.5rem 0;text-align:center;opacity:0.5;border:2px dashed var(--line);border-radius:16px;display:flex;align-items:center;justify-content:center;color:var(--muted)">
+      <span>Reklamni prostor — AdSense čeka odobrenje</span>
+      <!--
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+    </div>
+
     <nav class="footer-rimes" aria-label="Popularne rime">
       <span class="footer-rimes-label">Popularne rime:</span>
       <!--POPRIME_START--><a href="/rime-za/ljubav/" class="footer-link">ljubav</a> · <a href="/rime-za/srce/" class="footer-link">srce</a> · <a href="/rime-za/dusa/" class="footer-link">duša</a> · <a href="/rime-za/sreca/" class="footer-link">sreća</a> · <a href="/rime-za/tuga/" class="footer-link">tuga</a> · <a href="/rime-za/bol/" class="footer-link">bol</a> · <a href="/rime-za/radost/" class="footer-link">radost</a> · <a href="/rime-za/nada/" class="footer-link">nada</a> · <a href="/rime-za/strast/" class="footer-link">strast</a> · <a href="/rime-za/ceznja/" class="footer-link">čežnja</a> · <a href="/rime-za/samoca/" class="footer-link">samoća</a> · <a href="/rime-za/osecaj/" class="footer-link">osećaj</a> · <a href="/rime-za/zagrljaj/" class="footer-link">zagrljaj</a> · <a href="/rime-za/poljubac/" class="footer-link">poljubac</a> · <a href="/rime-za/neznost/" class="footer-link">nežnost</a> · <a href="/rime-za/zelja/" class="footer-link">želja</a> · <a href="/rime-za/sanjarenje/" class="footer-link">sanjarenje</a> · <a href="/rime-za/ljubomora/" class="footer-link">ljubomora</a> · <a href="/rime-za/sunce/" class="footer-link">sunce</a> · <a href="/rime-za/mesec/" class="footer-link">mesec</a> · <a href="/rime-za/zvezda/" class="footer-link">zvezda</a> · <a href="/rime-za/nebo/" class="footer-link">nebo</a> · <a href="/rime-za/oblak/" class="footer-link">oblak</a> · <a href="/rime-za/kisa/" class="footer-link">kiša</a> · <a href="/rime-za/sneg/" class="footer-link">sneg</a> · <a href="/rime-za/vetar/" class="footer-link">vetar</a> · <a href="/rime-za/munja/" class="footer-link">munja</a> · <a href="/rime-za/more/" class="footer-link">more</a> · <a href="/rime-za/reka/" class="footer-link">reka</a> · <a href="/rime-za/jezero/" class="footer-link">jezero</a><!--POPRIME_END-->
@@ -260,27 +272,55 @@
     <p>Otključaj pun potencijal Rimoteke — bez reklama, sa naprednim alatima za pisanje.</p>
 
     <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> — čisto okruženje za pisanje</span></div>
-    <div class="pro-feature"><span class="icon">📊</span><span><strong>Napredna analiza</strong> — metar, ritam, rhyme scheme</span></div>
-    <div class="pro-feature"><span class="icon">💾</span><span><strong>Cloud čuvanje</strong> — tvoje pesme na svim uređajima</span></div>
-    <div class="pro-feature"><span class="icon">📤</span><span><strong>Export u PDF/DOCX</strong> — profesionalni format</span></div>
     <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> — odgovor u roku od 24h</span></div>
+    <div class="pro-feature"><span class="icon">⭐</span><span><strong>Pro oznaka</strong> — podržavaš razvoj Rimoteke</span></div>
+    <div class="pro-feature soon"><span class="icon">📊</span><span><strong>Napredna analiza</strong> — metar, ritam, shema rime <em>uskoro</em></span></div>
+    <div class="pro-feature soon"><span class="icon">💾</span><span><strong>Čuvanje u oblaku</strong> — pesme na svim uređajima <em>uskoro</em></span></div>
+    <div class="pro-feature soon"><span class="icon">📤</span><span><strong>Izvoz u PDF/DOCX</strong> — profesionalni format <em>uskoro</em></span></div>
 
-    <div class="pro-price">2,99 € <small>/ mesečno</small></div>
+    <!-- KORAK 1 — prijava (vidljivo kad korisnik nije prijavljen) -->
+    <div class="pro-step" id="proStepLogin">
+      <p class="pro-step-label">Upiši email — poslaćemo ti link za prijavu.</p>
+      <form class="pro-form" id="proLoginForm">
+        <input type="email" id="proEmail" placeholder="tvoj@email.com" autocomplete="email" required>
+        <button type="submit" class="pro-btn" id="proLoginBtn">Pošalji mi link</button>
+      </form>
+      <p class="pro-hint" id="proLoginHint" hidden></p>
+    </div>
 
-    <button class="pro-btn" id="proSubscribe">Aktiviraj Pro</button>
+    <!-- KORAK 2 — izbor plana (vidljivo kad je prijavljen, a nije Pro) -->
+    <div class="pro-step" id="proStepPlan" hidden>
+      <div class="pro-plans">
+        <label class="pro-plan">
+          <input type="radio" name="proPlan" value="monthly" checked>
+          <span class="pro-plan-name">Mesečno</span>
+          <span class="pro-plan-price">3 €<small>/mes</small></span>
+        </label>
+        <label class="pro-plan">
+          <input type="radio" name="proPlan" value="yearly">
+          <span class="pro-plan-name">Godišnje</span>
+          <span class="pro-plan-price">30 €<small>/god</small></span>
+          <span class="pro-plan-badge">2 meseca gratis</span>
+        </label>
+      </div>
+      <button class="pro-btn" id="proSubscribe">Aktiviraj Pro</button>
+      <p class="pro-hint" id="proPlanHint"></p>
+    </div>
+
+    <!-- KORAK 3 — aktivan Pro -->
+    <div class="pro-step" id="proStepActive" hidden>
+      <p class="pro-active-msg">✅ <strong>Pro je aktivan.</strong> Hvala što podržavaš Rimoteku!</p>
+      <p class="pro-hint" id="proActiveInfo"></p>
+      <button class="pro-btn" id="proPortal">Upravljaj pretplatom</button>
+    </div>
+
     <button class="donate-btn" id="proDonate">Podrži jednokratno</button>
 
-    <p class="pro-note">Otkaži kad god. Sredstva idu na održavanje i razvoj Rimoteke.</p>
+    <p class="pro-note">Cena uključuje PDV. Otkaži kad god. Sredstva idu na održavanje i razvoj Rimoteke.</p>
   </div>
 </div>
 
-<script src="app.js?v=20260724b"></script>
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
-  });
-}
-</script>
+<script src="app.js?v=20260726a"></script>
+<script src="/sw-register.js?v=1"></script>
 </body>
 </html>

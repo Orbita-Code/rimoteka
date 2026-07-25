@@ -124,19 +124,23 @@ async function loadLocalDefs(){
 }
 
 async function loadDict(){
-  const [ek, jek] = await Promise.all([
+  const [ek, jek, defsRes] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
+    fetch('definicije.json?v=228').then(r=>r.json()).catch(()=> ({}))
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
   WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
   KEYS = new Array(WORDS.length);
+  // Rangiranje: reči sa definicijom su češće → bolji rang (manji broj = bolji)
   for(let i=0;i<WORDS.length;i++){
     const w = WORDS[i];
     KEYS[i] = rhymeKey(w);
-    RANK.set(w, i);
+    const hasDef = defsRes[w] && !defsRes[w].startsWith('Oblik');
+    // ako ima definiciju → rang i (alfabetski), ako nema → rang i + veliki offset
+    RANK.set(w, hasDef ? i : i + 1000000);
     SET.add(w);
   }
 }
@@ -202,15 +206,19 @@ function filterSyl(arr){
   return arr.filter(w=>syllables(w)===rimeSyl);
 }
 
-function doRhymes(){
+function doRhymes(silent){
+  hideAutocomplete();
   const raw = rimeInput.value.trim().toLowerCase();
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
   const box = document.getElementById('rimeResults');
   box.innerHTML='';
   if(q.length<2){ box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
+  if(WORDS.length === 0){ box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
 
-  // sinhronizuj URL sa trenutnom pretragom (deljiv link, konzistentno sa landing stranicama)
-  try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+  // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
+  if(!silent){
+    try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+  }
 
   const key = rhymeKey(q);
   const keyLen = key.length;
@@ -256,8 +264,8 @@ function doRhymes(){
   renderGroup(box, good.length?'Dobre rime':'', good, false);
   renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
-  // GA4: zabeleži jedinstvenu pretragu rime (koje reči ljudi traže -> nove landing strane)
-  if(q !== lastTrackedRhyme){
+  // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
+  if(!silent && q !== lastTrackedRhyme){
     lastTrackedRhyme = q;
     if(typeof gtag === 'function'){
       try{ gtag('event','rhyme_search',{ search_term: q, results_count: best.length + good.length + finalExtra.length }); }catch(e){}
@@ -300,13 +308,13 @@ jekToggle.addEventListener('change', e=>{
   if(searchInput.value.trim()) doSearch();
 });
 document.getElementById('randomBtn').onclick = ()=>{
-  // lepa, sadržajna reč: iz srednjeg opsega frekvencije, bar 2 sloga
+  // nasumična reč iz celog rečnika, bar 2 sloga
   for(let t=0;t<40;t++){
-    const i = 250 + Math.floor(Math.random()*9000);
+    const i = Math.floor(Math.random()*WORDS.length);
     const w = WORDS[i];
     if(w && syllables(w)>=2){ rimeInput.value=disp(w); doRhymes(); return; }
   }
-  rimeInput.value=disp(WORDS[500]); doRhymes();
+  rimeInput.value=disp(WORDS[Math.floor(Math.random()*WORDS.length)]); doRhymes();
 };
 
 /* ====================== AUTOCOMPLETE ZA RIME ====================== */
@@ -607,6 +615,30 @@ noteEditor.addEventListener('paste', (e) => {
   document.execCommand('insertText', false, text);
 });
 
+// iOS Safari fix — Enter ne radi u contenteditable nakon renderovanja HTML-a
+noteEditor.addEventListener('keydown', (e) => {
+  if(e.key === 'Enter'){
+    e.preventDefault();
+    // Ručno insertujemo <br> da bi Enter radio na iOS
+    const sel = window.getSelection();
+    if(sel.rangeCount > 0){
+      const range = sel.getRangeAt(0);
+      range.deleteContents();
+      const br = document.createElement('br');
+      range.insertNode(br);
+      // dodaj još jedan <br> ako je na kraju, da bi kursor imao gde da stane
+      if(range.startContainer === noteEditor && range.startOffset === noteEditor.childNodes.length){
+        range.insertNode(document.createElement('br'));
+      }
+      range.setStartAfter(br);
+      range.collapse(true);
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+    scheduleEditorUpdate();
+  }
+});
+
 document.getElementById('clearNotes').onclick = () => {
   if(confirm('Obrisati celu belešku?')){
     setEditorText('');
@@ -656,7 +688,7 @@ function renderNoteRhymes(){
   }
   const savedVal = rimeInput.value;
   rimeInput.value = word;
-  doRhymes();
+  doRhymes(true);
   rimeInput.value = savedVal;
   const src = document.getElementById('rimeResults');
   const chips = src.querySelectorAll('.chip');
@@ -707,7 +739,7 @@ function getRhymeListForLastWord(){
   if(!word || word.length < 2) return { word: '', rhymes: [] };
   const savedVal = rimeInput.value;
   rimeInput.value = word;
-  doRhymes();
+  doRhymes(true);
   rimeInput.value = savedVal;
   const src = document.getElementById('rimeResults');
   const chips = src.querySelectorAll('.chip .word');

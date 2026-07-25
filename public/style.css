@@ -129,7 +129,8 @@ body.dark-mode .donate-btn:hover{
   color:#fff;
 }
 body.dark-mode input,
-body.dark-mode textarea{
+body.dark-mode textarea,
+body.dark-mode select{
   background:#2a2440;
   color:var(--ink);
   border-color:var(--line);
@@ -137,6 +138,17 @@ body.dark-mode textarea{
 body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder{
   color:var(--muted);
+}
+body.dark-mode select{
+  background:#2a2440;
+  color:var(--ink);
+  border:2px solid var(--line);
+  border-radius:12px;
+  padding:.5rem .8rem;
+}
+body.dark-mode select:focus{
+  outline:0;
+  border-color:var(--lavender);
 }
 body.dark-mode .empty{
   color:var(--muted);
@@ -562,6 +574,38 @@ main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3
 
 @media(max-width:560px){
   .search-row input[type=text]{min-width:100%}
+
+  /* Tabovi — scrollable na mobilnom */
+  .tabs{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:.4rem 1rem;-webkit-overflow-scrolling:touch}
+  .tabs button{flex-shrink:0;white-space:nowrap}
+
+  /* Autocomplete — ne prekriva dugme */
+  .autocomplete{max-height:200px;z-index:80}
+
+  /* Beležnica — veći font za mobilni */
+  .notepad-text{font-size:1rem;line-height:1.8}
+  .gutter{font-size:.85rem}
+
+  /* Pro modal — responzivan */
+  .pro-modal-content{padding:1.5rem;margin:1rem}
+  .pro-plans{grid-template-columns:1fr}
+
+  /* Footer — pregledan */
+  .footer-inner{padding:1rem}
+  .footer-rimes,.footer-guides{flex-wrap:wrap;gap:.5rem}
+
+  /* Rezultati — veći touch targeti */
+  .chip{padding:.6rem 1rem;font-size:.95rem}
+
+  /* Rime na klik u beležnici — veći touch targeti */
+  .note-rhymes .chip{padding:.7rem 1.1rem;font-size:1rem}
+}
+
+@media(max-width:380px){
+  /* Mali ekrani — još veći font */
+  .brand h1{font-size:1.8rem}
+  .notepad-text{font-size:1.05rem}
+  .chip{font-size:.9rem}
 }
 
 /* ====================== PRO PRETPLATA ====================== */

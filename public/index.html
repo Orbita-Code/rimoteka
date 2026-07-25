@@ -31,13 +31,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
-<script>
-// Dark mode — primeni odmah da nema "flash" svetle teme
-(function(){
-  const dark = localStorage.getItem('rimoteka_dark') === '1';
-  if(dark) document.body.classList.add('dark-mode');
-})();
-</script>
+<script src="/dark-mode-init.js?v=1"></script>
 <link rel="stylesheet" href="style.css?v=20260726a">
 <script type="application/ld+json">
 {
@@ -99,7 +93,8 @@
     <button data-script="cyr">ћирилица</button>
   </div>
   <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
-  <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button>
+  <!-- Pro dugme je sakriveno dok backend ne bude deployovan -->
+  <!-- <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button> -->
 </header>
 
 <nav class="tabs" id="tabs">
@@ -326,12 +321,6 @@
 </div>
 
 <script src="app.js?v=20260726a"></script>
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
-  });
-}
-</script>
+<script src="/sw-register.js?v=1"></script>
 </body>
 </html>

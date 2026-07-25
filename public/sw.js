@@ -1,4 +1,4 @@
-const CACHE = 'rimoteka-v1';
+const CACHE = 'rimoteka-v2';
 const ASSETS = [
   '/',
   '/index.html',
@@ -25,15 +25,37 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  // Network-first za API/pretrage, cache-first za statičke fajlove
-  if (e.request.url.includes('/api/') || e.request.method !== 'GET') {
+  const url = new URL(e.request.url);
+  // Ne keširaj stranice sa query parametrima niti rime-za stranice
+  const isStaticAsset = ASSETS.some(a => url.pathname === a || url.pathname.startsWith('/assets/'));
+  const isApi = url.pathname.includes('/api/');
+  const hasQuery = url.search.length > 0;
+  const isRimePage = url.pathname.startsWith('/rime-za/');
+
+  if (isApi || e.request.method !== 'GET') {
     e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
     return;
   }
+
+  if (hasQuery || isRimePage) {
+    // Network-first za dinamičke stranice
+    e.respondWith(
+      fetch(e.request).then(response => {
+        if (response.ok && url.origin === self.location.origin) {
+          const clone = response.clone();
+          caches.open(CACHE).then(cache => cache.put(e.request, clone));
+        }
+        return response;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // Cache-first samo za statičke fajlove
   e.respondWith(
     caches.match(e.request).then(cached => {
       const fetched = fetch(e.request).then(response => {
-        if (response.ok && e.request.url.startsWith(self.location.origin)) {
+        if (response.ok && url.origin === self.location.origin) {
           const clone = response.clone();
           caches.open(CACHE).then(cache => cache.put(e.request, clone));
         }

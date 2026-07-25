@@ -281,7 +281,8 @@ h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
 .brand{cursor:pointer;border-radius:14px;padding:.2rem .4rem;transition:transform .15s ease,opacity .15s ease;user-select:none}
 .brand:hover{transform:translateY(-1px);opacity:.92}
 .brand:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px}
-.brand h1{
+.brand h1,
+.brand-logo{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
   display:inline-flex;align-items:center;gap:.04em;
 }
@@ -603,7 +604,7 @@ main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3
 
 @media(max-width:380px){
   /* Mali ekrani — još veći font */
-  .brand h1{font-size:1.8rem}
+  .brand h1,.brand-logo{font-size:1.8rem}
   .notepad-text{font-size:1.05rem}
   .chip{font-size:.9rem}
 }

@@ -89,11 +89,24 @@ body.dark-mode { background:#121018; }
 ## Šta još nije urađeno (bitno)
 
 1. **Stripe/PayPal integracija** — Pro modal je samo struktura
-2. **AdSense** — čeka Google odobrenje
-3. **Cloud čuvanje** — pesme se čuvaju samo lokalno (localStorage)
-4. **Export u PDF/DOCX** — samo TXT za sada
-5. **Dečji režim** — toggle koji filtrira neprikladne rime
-6. **Mobilna aplikacija** — PWA je prvi korak
+2. **Cloud čuvanje** — pesme se čuvaju samo lokalno (localStorage)
+3. **Export u PDF/DOCX** — samo TXT za sada
+4. **Dečji režim** — toggle koji filtrira neprikladne rime
+5. **Mobilna aplikacija** — PWA je prvi korak
+
+---
+
+## Budući koraci (čekaju eksterno odobrenje)
+
+### AdSense — čeka Google odobrenje
+- **Status:** Nismo ni prijavili — sajt je previše nov (6 nedelja, ~20 klikova)
+- **Kada se prijaviti:** Kada dostignemo ~1.000 poseta/mesec (realno: 2-3 meseca)
+- **Šta uraditi kada bude odobreno:**
+  1. Dodati AdSense script u `<head>` sa pravim `ca-pub-...` ID-jem
+  2. Dodati `<ins class="adsbygoogle">` elemente u footer i/ili sidebar
+  3. Dodati `ads.txt` fajl u root
+  4. Proveriti da reklame ne krše Google-ova pravila (bez klikanja na vlastite reklame)
+- **Napomena:** Ne dodajemo AdSense kod u produkciju dok ne bude odobreno — placeholder izgleda neprofesionalno
 
 ---
 

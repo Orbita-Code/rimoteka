@@ -1180,15 +1180,189 @@ proClose.onclick = () => { proModal.classList.remove('show'); };
 proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
 document.addEventListener('keydown', (e) => { if(e.key === 'Escape') proModal.classList.remove('show'); });
 
-proSubscribe.onclick = () => {
-  // TODO: povezati sa Stripe/PayPal kada bude spremno
-  toast('Pro uskoro dostupan — prijavi se za raniji pristup!');
-  proModal.classList.remove('show');
-};
 proDonate.onclick = () => {
-  // TODO: povezati sa Buy Me a Coffee / PayPal
   window.open('https://buymeacoffee.com/rimoteka', '_blank');
   proModal.classList.remove('show');
 };
+
+/* ====================== PRO PRETPLATA (Stripe) ======================
+ * VAŽNO: localStorage je ovde SAMO keš da stranica ne trepne pri učitavanju.
+ * O tome ko je zaista Pro odlučuje isključivo server (GET /api/status).
+ * Izmena keša u DevTools ne otključava ništa — sve Pro funkcije koje nešto
+ * koštaju moraju se proveravati na serveru.
+ * ==================================================================== */
+const PRO_CACHE_KEY = 'rimoteka_pro_cache';
+
+const stepLogin   = document.getElementById('proStepLogin');
+const stepPlan    = document.getElementById('proStepPlan');
+const stepActive  = document.getElementById('proStepActive');
+const loginForm   = document.getElementById('proLoginForm');
+const loginInput  = document.getElementById('proEmail');
+const loginBtn    = document.getElementById('proLoginBtn');
+const loginHint   = document.getElementById('proLoginHint');
+const planHint    = document.getElementById('proPlanHint');
+const activeInfo  = document.getElementById('proActiveInfo');
+const portalBtn   = document.getElementById('proPortal');
+
+let proState = { authenticated: false, pro: false };
+
+async function api(path, options = {}) {
+  const res = await fetch(`/api${path}`, {
+    credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    ...options,
+  });
+  let data = null;
+  try { data = await res.json(); } catch (e) {}
+  if (!res.ok) throw new Error(data?.error || `Greška ${res.status}`);
+  return data;
+}
+
+function renderPro(state) {
+  proState = state || { authenticated: false, pro: false };
+
+  // Reklame i Pro oznaka — CSS reaguje na klasu na <body>
+  document.body.classList.toggle('is-pro', !!proState.pro);
+  proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
+  proToggle.title = proState.pro ? 'Rimoteka Pro je aktivan' : 'Rimoteka Pro';
+
+  stepLogin.hidden  = proState.authenticated;
+  stepPlan.hidden   = !proState.authenticated || proState.pro;
+  stepActive.hidden = !proState.pro;
+
+  if (proState.pro && proState.currentPeriodEnd) {
+    const datum = new Date(proState.currentPeriodEnd).toLocaleDateString('sr-RS');
+    activeInfo.textContent = proState.cancelAtPeriodEnd
+      ? `Pretplata je otkazana i važi do ${datum}.`
+      : `Sledeća naplata: ${datum}.`;
+  }
+  if (proState.authenticated && !proState.pro) {
+    planHint.textContent = `Prijavljena/prijavljen kao ${proState.email}.`;
+  }
+
+  try {
+    localStorage.setItem(PRO_CACHE_KEY, JSON.stringify({ pro: !!proState.pro }));
+  } catch (e) {}
+}
+
+// Keš primenjujemo odmah da reklamni prostor ne bljesne Pro korisniku
+try {
+  const cached = JSON.parse(localStorage.getItem(PRO_CACHE_KEY) || 'null');
+  if (cached?.pro) document.body.classList.add('is-pro');
+} catch (e) {}
+
+async function refreshPro() {
+  try {
+    renderPro(await api('/status'));
+  } catch (e) {
+    // Backend nedostupan — ostavljamo besplatnu verziju, alat i dalje radi
+    console.warn('[pro] Status nije dostupan:', e.message);
+  }
+}
+
+/* Povratak sa magic-link mejla: Supabase vrati #access_token=... */
+async function handleAuthRedirect() {
+  if (!location.hash.includes('access_token')) return false;
+
+  const token = new URLSearchParams(location.hash.slice(1)).get('access_token');
+  history.replaceState(null, '', location.pathname + location.search);
+  if (!token) return false;
+
+  try {
+    await api('/auth/session', {
+      method: 'POST',
+      body: JSON.stringify({ access_token: token }),
+    });
+    await refreshPro();
+    proModal.classList.add('show');
+    toast('Prijava uspešna.');
+  } catch (e) {
+    toast(e.message);
+  }
+  return true;
+}
+
+/* Povratak sa Stripe Checkout-a */
+async function handleProReturn() {
+  const params = new URLSearchParams(location.search);
+  const status = params.get('pro');
+  if (!status) return;
+
+  params.delete('pro');
+  params.delete('session_id');
+  const rest = params.toString();
+  history.replaceState(null, '', location.pathname + (rest ? `?${rest}` : ''));
+
+  if (status === 'cancel') {
+    toast('Plaćanje je otkazano.');
+    return;
+  }
+  if (status !== 'success') return;
+
+  // Webhook ume da stigne koji trenutak posle povratka korisnika,
+  // pa proveravamo nekoliko puta pre nego što odustanemo.
+  toast('Plaćanje primljeno — aktiviram Pro…');
+  for (let i = 0; i < 6; i++) {
+    await refreshPro();
+    if (proState.pro) {
+      toast('Pro je aktivan. Hvala! 🎉');
+      proModal.classList.add('show');
+      return;
+    }
+    await new Promise((r) => setTimeout(r, 1500));
+  }
+  toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak — osveži stranicu.');
+}
+
+loginForm.onsubmit = async (e) => {
+  e.preventDefault();
+  const email = loginInput.value.trim();
+  if (!email) return;
+
+  loginBtn.disabled = true;
+  loginBtn.textContent = 'Šaljem…';
+  try {
+    await api('/auth/request', { method: 'POST', body: JSON.stringify({ email }) });
+    loginHint.hidden = false;
+    loginHint.textContent = `Poslali smo link na ${email}. Otvori mejl i klikni na njega.`;
+    loginForm.hidden = true;
+  } catch (err) {
+    loginHint.hidden = false;
+    loginHint.textContent = err.message;
+  } finally {
+    loginBtn.disabled = false;
+    loginBtn.textContent = 'Pošalji mi link';
+  }
+};
+
+proSubscribe.onclick = async () => {
+  const plan = document.querySelector('input[name="proPlan"]:checked')?.value || 'monthly';
+  proSubscribe.disabled = true;
+  proSubscribe.textContent = 'Otvaram plaćanje…';
+  try {
+    const { url } = await api('/checkout', { method: 'POST', body: JSON.stringify({ plan }) });
+    location.href = url;
+  } catch (e) {
+    toast(e.message);
+    proSubscribe.disabled = false;
+    proSubscribe.textContent = 'Aktiviraj Pro';
+  }
+};
+
+portalBtn.onclick = async () => {
+  portalBtn.disabled = true;
+  try {
+    const { url } = await api('/portal', { method: 'POST' });
+    location.href = url;
+  } catch (e) {
+    toast(e.message);
+    portalBtn.disabled = false;
+  }
+};
+
+handleAuthRedirect().then((handled) => {
+  handleProReturn();
+  if (!handled) refreshPro();
+});
 
 loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); });

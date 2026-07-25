@@ -1415,4 +1415,8 @@ handleAuthRedirect().then((handled) => {
   if (!handled) refreshPro();
 });
 
-loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); });
+loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
+  console.error('Greška pri učitavanju rečnika:', e);
+  const box = document.getElementById('rimeResults');
+  if(box) box.innerHTML='<p class="empty">Greška pri učitavanju rečnika. Osveži stranicu.</p>';
+});

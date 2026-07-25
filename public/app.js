@@ -786,6 +786,18 @@ document.getElementById('exportRhymeList').onclick = () => {
   URL.revokeObjectURL(url);
   toast(`Preuzeta lista za „${word}"`);
 };
+document.getElementById('exportPoem').onclick = () => {
+  const text = getEditorText();
+  if(!text.trim()){ toast('Nema teksta za preuzimanje'); return; }
+  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `pesma-${new Date().toISOString().slice(0,10)}.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('Preuzeta pesma');
+};
 
 // Inicijalno renderovanje
 renderGutter();

@@ -124,24 +124,42 @@ async function loadLocalDefs(){
 }
 
 async function loadDict(){
-  const [ek, jek, defsRes] = await Promise.all([
+  // Prvo učitaj samo rečnik (mali, brz) — rime rade bez definicija
+  const [ek, jek] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
-    fetch('definicije.json?v=228').then(r=>r.json()).catch(()=> ({}))
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
   WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
   KEYS = new Array(WORDS.length);
-  // Rangiranje: reči sa definicijom su češće → bolji rang (manji broj = bolji)
   for(let i=0;i<WORDS.length;i++){
     const w = WORDS[i];
     KEYS[i] = rhymeKey(w);
-    const hasDef = defsRes[w] && !defsRes[w].startsWith('Oblik');
-    // ako ima definiciju → rang i (alfabetski), ako nema → rang i + veliki offset
-    RANK.set(w, hasDef ? i : i + 1000000);
+    RANK.set(w, i);
     SET.add(w);
+  }
+  // Zatim učitaj definicije u pozadini (veliko, sporo) — za rangiranje
+  loadDefs();
+}
+
+// Lazy load definicija — ne blokira učitavanje stranice
+let defsLoaded = false;
+async function loadDefs(){
+  if(defsLoaded) return;
+  defsLoaded = true;
+  try{
+    const res = await fetch('definicije.json?v=228');
+    const defs = await res.json();
+    // Ažuriraj rangiranje sa definicijama
+    for(let i=0;i<WORDS.length;i++){
+      const w = WORDS[i];
+      const hasDef = defs[w] && !defs[w].startsWith('Oblik');
+      if(hasDef) RANK.set(w, i);
+    }
+  }catch(e){
+    console.warn('Definicije nisu učitane:', e);
   }
 }
 

@@ -1,4 +1,4 @@
-const CACHE = 'rimoteka-v2';
+const CACHE = 'rimoteka-v3';
 const ASSETS = [
   '/',
   '/index.html',

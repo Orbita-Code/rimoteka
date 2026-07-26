@@ -1,5 +1,21 @@
 'use strict';
 
+/* ============ SIGURNOSNA MREŽA ZA UČITAVANJE REČNIKA ============
+ * Ako bilo koja UI sekcija ispod pukne (npr. dugme obrisano iz HTML-a, a
+ * kod ga i dalje traži), izvršavanje skripte se prekida i bootstrap na
+ * kraju fajla se NIKAD ne pozove — rečnik ostane prazan i sajt "visi" na
+ * "Učitavam rečnik...". Tako je 26.07.2026. ceo sajt bio oboren jednom
+ * jedinom greškom (proToggle je bio zakomentarisan u index.html).
+ * Ovaj tajmer se izvršava iz event petlje, dakle i kad skripta pukne,
+ * pa rime rade čak i ako je nešto drugo polomljeno.
+ * ================================================================ */
+let BOOTED = false;
+setTimeout(() => {
+  if (BOOTED) return;
+  console.warn('[Rimoteka] Bootstrap nije stigao do kraja skripte — pokrećem rečnik iz sigurnosne mreže.');
+  try { bootstrap(); } catch (e) { console.error('[Rimoteka] Sigurnosna mreža nije uspela:', e); }
+}, 0);
+
 /* ====================== Transliteracija ====================== */
 const CYR2LAT = {
   'а':'a','б':'b','в':'v','г':'g','д':'d','ђ':'đ','е':'e','ж':'ž','з':'z',
@@ -33,6 +49,7 @@ let KEYS = [];           // jak ključ rime za svaku reč
 let RANK = new Map();    // reč -> indeks (manji = češća)
 let SET = new Set();     // za brzu proveru postojanja
 let jekStart = 0;        // indeks od kog počinju ijekavske reči
+let SYNONYMS = {};       // sinonimi iz sinonimi.json (učitavaju se u pozadini)
 const DEFS = new Map();  // ručno pisana srpska objašnjenja (Rimoteka)
 let includeJek = localStorage.getItem('rimoteka_jekavica') === '1';
 let script = localStorage.getItem('rimoteka_script') || 'lat';
@@ -165,12 +182,18 @@ async function loadExtras(){
       fetch('sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
     ]);
     SYNONYMS = synRes;
-    // Ažuriraj rangiranje sa frekvencijom
-    const maxFreq = Math.max(...Object.values(freqRes), 1);
+    // Ažuriraj rangiranje sa frekvencijom.
+    // NAPOMENA: NE koristiti Math.max(...Object.values(freqRes)) — frekvencija.json
+    // ima ~435.000 reči, a spread toliko argumenata obara stek
+    // (RangeError: Maximum call stack size exceeded) i ceo blok padne u catch,
+    // pa rangiranje i sinonimi tiho prestanu da rade. Zato obična petlja.
     for(let i=0;i<WORDS.length;i++){
       const w = WORDS[i];
       const freq = freqRes[w] || 0;
-      RANK.set(w, freq > 0 ? -freq : maxFreq + 1);
+      // Reči sa frekvencijom idu prve (negativan rang, češće = manje).
+      // Reči bez frekvencije zadržavaju originalni redosled iz reci.txt (rang i >= 0),
+      // pa ijekavske ostaju na kraju kao i do sada.
+      RANK.set(w, freq > 0 ? -freq : i);
     }
   }catch(e){
     console.warn('Extras nisu učitani:', e);
@@ -375,14 +398,41 @@ kidsToggle.addEventListener('change', e=>{
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
-document.getElementById('randomBtn').onclick = ()=>{
-  // nasumična reč iz celog rečnika, bar 2 sloga
-  for(let t=0;t<40;t++){
-    const i = Math.floor(Math.random()*WORDS.length);
-    const w = WORDS[i];
-    if(w && syllables(w)>=2){ rimeInput.value=disp(w); doRhymes(); return; }
+/* ============ POZNATE REČI (za kockicu i igru) ============
+ * Nasumičan izbor iz celog rečnika daje uglavnom arhaične i nepoznate
+ * oblike ("praotaca") — kockica i igra su zbog toga bile neupotrebljive.
+ * Kad se frekvencija učita (RANK < 0 = reč ima frekvenciju), gradimo
+ * bazen najčešćih reči i biramo iz njega. Dok frekvencija ne stigne,
+ * fallback je ceo rečnik, pa ništa ne čeka.
+ * ========================================================== */
+const COMMON_POOL_SIZE = 8000;
+let commonPool = null;
+function getCommonPool(){
+  if(commonPool) return commonPool;
+  const sa = [];
+  for(const w of WORDS){
+    const r = RANK.get(w);
+    if(r !== undefined && r < 0 && syllables(w) >= 2 && w.length >= 3) sa.push(w);
   }
-  rimeInput.value=disp(WORDS[Math.floor(Math.random()*WORDS.length)]); doRhymes();
+  if(sa.length < 500) return null;          // frekvencija još nije učitana
+  sa.sort((a,b) => RANK.get(a) - RANK.get(b));
+  commonPool = sa.slice(0, COMMON_POOL_SIZE);
+  return commonPool;
+}
+function randomCommonWord(extraFilter){
+  const pool = getCommonPool() || WORDS;
+  for(let t=0;t<60;t++){
+    const w = pool[Math.floor(Math.random()*pool.length)];
+    if(!w || syllables(w) < 2 || w.length < 3) continue;
+    if(extraFilter && !extraFilter(w)) continue;
+    return w;
+  }
+  return null;
+}
+
+document.getElementById('randomBtn').onclick = ()=>{
+  const w = randomCommonWord();
+  if(w){ rimeInput.value = disp(w); doRhymes(); }
 };
 
 /* ====================== AUTOCOMPLETE ZA RIME ====================== */
@@ -1247,9 +1297,10 @@ function renderKlasici(){
 /* ====================== DARK MODE ====================== */
 const darkToggle = document.getElementById('darkToggle');
 function applyDarkIcon(){
+  if(!darkToggle) return;
   darkToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
 }
-darkToggle.onclick = ()=>{
+if(darkToggle) darkToggle.onclick = ()=>{
   document.body.classList.toggle('dark-mode');
   const dark = document.body.classList.contains('dark-mode');
   localStorage.setItem('rimoteka_dark', dark ? '1' : '0');
@@ -1289,12 +1340,13 @@ const proClose = document.getElementById('proClose');
 const proSubscribe = document.getElementById('proSubscribe');
 const proDonate = document.getElementById('proDonate');
 
-proToggle.onclick = () => { proModal.classList.add('show'); };
-proClose.onclick = () => { proModal.classList.remove('show'); };
-proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
-document.addEventListener('keydown', (e) => { if(e.key === 'Escape') proModal.classList.remove('show'); });
+// Pro dugme je privremeno sakriveno u HTML-u (backend nije deployovan) — zato guard
+if (proToggle) proToggle.onclick = () => { proModal.classList.add('show'); };
+if (proClose) proClose.onclick = () => { proModal.classList.remove('show'); };
+if (proModal) proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
+document.addEventListener('keydown', (e) => { if(e.key === 'Escape' && proModal) proModal.classList.remove('show'); });
 
-proDonate.onclick = () => {
+if (proDonate) proDonate.onclick = () => {
   window.open('https://buymeacoffee.com/rimoteka', '_blank');
   proModal.classList.remove('show');
 };
@@ -1337,8 +1389,10 @@ function renderPro(state) {
 
   // Reklame i Pro oznaka — CSS reaguje na klasu na <body>
   document.body.classList.toggle('is-pro', !!proState.pro);
-  proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
-  proToggle.title = proState.pro ? 'Rimoteka Pro je aktivan' : 'Rimoteka Pro';
+  if (proToggle) {
+    proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
+    proToggle.title = proState.pro ? 'Rimoteka Pro je aktivan' : 'Rimoteka Pro';
+  }
 
   stepLogin.hidden  = proState.authenticated;
   stepPlan.hidden   = !proState.authenticated || proState.pro;
@@ -1428,7 +1482,7 @@ async function handleProReturn() {
   toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak — osveži stranicu.');
 }
 
-loginForm.onsubmit = async (e) => {
+if (loginForm) loginForm.onsubmit = async (e) => {
   e.preventDefault();
   const email = loginInput.value.trim();
   if (!email) return;
@@ -1449,7 +1503,7 @@ loginForm.onsubmit = async (e) => {
   }
 };
 
-proSubscribe.onclick = async () => {
+if (proSubscribe) proSubscribe.onclick = async () => {
   const plan = document.querySelector('input[name="proPlan"]:checked')?.value || 'monthly';
   proSubscribe.disabled = true;
   proSubscribe.textContent = 'Otvaram plaćanje…';
@@ -1463,7 +1517,7 @@ proSubscribe.onclick = async () => {
   }
 };
 
-portalBtn.onclick = async () => {
+if (portalBtn) portalBtn.onclick = async () => {
   portalBtn.disabled = true;
   try {
     const { url } = await api('/portal', { method: 'POST' });
@@ -1474,10 +1528,16 @@ portalBtn.onclick = async () => {
   }
 };
 
-handleAuthRedirect().then((handled) => {
-  handleProReturn();
-  if (!handled) refreshPro();
-});
+/* Pro backend još nije deployovan i Pro dugme je sakriveno u index.html.
+   Zato NE zovemo /api/status pri svakom učitavanju — to je bio 404 zahtev
+   na svakoj poseti (usporava i zagađuje konzolu). Kad se Pro uključi
+   (proToggle se odkomentariše u HTML-u), provera se sama vraća. */
+if (proToggle) {
+  handleAuthRedirect().then((handled) => {
+    handleProReturn();
+    if (!handled) refreshPro();
+  });
+}
 
 /* ====================== IGRA RIMA — zarazna verzija ====================== */
 let gamePlayers = 1;
@@ -1556,7 +1616,8 @@ document.querySelectorAll('.game-setup-options').forEach(group => {
   });
 });
 
-document.getElementById('gameStart').onclick = () => {
+const gameStartBtn = document.getElementById('gameStart');
+if (gameStartBtn) gameStartBtn.onclick = () => {
   const playersBtn = document.querySelector('#gamePlayers .game-option.active');
   const wordsBtn = document.querySelector('#gameWords .game-option.active');
   const timeBtn = document.querySelector('#gameTime .game-option.active');
@@ -1597,9 +1658,9 @@ function nextWord(){
   }
 
   for(let t = 0; t < 50; t++){
-    const i = Math.floor(Math.random() * WORDS.length);
-    const w = WORDS[i];
-    if(w && syllables(w) >= 2 && w.length >= 3 && !BLOCKED.has(w) && !(kidsMode && isKidsBlocked(w))){
+    // biramo iz bazena poznatih reči — igra sa arhaizmima nije igra
+    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)));
+    if(w){
       gameCurrentWord = w;
       gameWordEl.textContent = disp(w);
       gameInput.value = '';
@@ -1751,12 +1812,13 @@ function showResults(){
   }
 }
 
-document.getElementById('gameAgain').onclick = () => {
+const gameAgainBtn = document.getElementById('gameAgain');
+if (gameAgainBtn) gameAgainBtn.onclick = () => {
   gameSetup.style.display = 'block';
   gameResults.style.display = 'none';
 };
 
-gameSubmit.onclick = checkGameAnswer;
+if (gameSubmit) gameSubmit.onclick = checkGameAnswer;
 gameInput.addEventListener('keydown', e => {
   if(e.key === 'Enter' && !gameSubmit.disabled) checkGameAnswer();
 });
@@ -1780,8 +1842,17 @@ function initGame(){
   }
 }
 
-loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
-  console.error('Greška pri učitavanju rečnika:', e);
-  const box = document.getElementById('rimeResults');
-  if(box) box.innerHTML='<p class="empty">Greška pri učitavanju rečnika. Osveži stranicu.</p>';
-});
+/* Bootstrap — poziva se odavde u normalnom toku, a iz sigurnosne mreže
+   na vrhu fajla ako skripta pukne pre ove linije. Funkcija je deklarativna
+   (hoisted) baš zato da bude dostupna i u tom slučaju. */
+function bootstrap(){
+  if(BOOTED) return;
+  BOOTED = true;
+  loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
+    console.error('Greška pri učitavanju rečnika:', e);
+    const box = document.getElementById('rimeResults');
+    if(box) box.innerHTML='<p class="empty">Greška pri učitavanju rečnika. Osveži stranicu.</p>';
+  });
+}
+
+bootstrap();

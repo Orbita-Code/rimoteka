@@ -176,7 +176,7 @@ let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
 async function loadLocalDefs(){
   if(DEFS.size) return;
   if(defsPromise) return defsPromise;
-  defsPromise = fetch('/definicije.json?v=229')
+  defsPromise = fetch('/definicije.json?v=230')
     .then(r => r.ok ? r.json() : {})
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -188,7 +188,7 @@ async function loadLocalDefs(){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    fetch('/reci.txt?v=20260726').then(r=>r.text()),
+    fetch('/reci.txt?v=20260727').then(r=>r.text()),
     fetch('/reci_jekavica.txt?v=20260726').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
@@ -238,7 +238,7 @@ async function loadDefs(){
   if(defsLoaded) return;
   defsLoaded = true;
   try{
-    const res = await fetch('/definicije.json?v=229');
+    const res = await fetch('/definicije.json?v=230');
     const defs = await res.json();
     // Ažuriraj rangiranje sa definicijama
     for(let i=0;i<WORDS.length;i++){

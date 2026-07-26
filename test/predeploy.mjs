@@ -305,14 +305,19 @@ async function main() {
     console.log('\n8c) NOVE REČI U REČNIKU (brst / brstiti / njakati)');
     const noveReci = await page.evaluate(() => {
       // Reči koje je korisnica našla da igra ne prihvata (26.07.2026).
-      const trazene = ['brstu','brsta','brstom','brstiš','brstile',
-                       'obrstim','obrste','njači','njače','njačem','njakam'];
-      const nema = trazene.filter(w => !SET.has(w));
-      const bezObjasnjenja = [];
-      return { nema, ukupno: trazene.length, recnik: WORDS.length };
+      const trazene = ['brstu','brsta','brstom','brstiš','brstile','brstenje',
+                       'obrstim','obrste','njači','njače','njačem','njaču'];
+      // Ovi oblici NE SMEJU da postoje — vlasnica je potvrdila da u srpskom
+      // „njakati" ima samo palatalizovani prezent (njačem/njače), ne „njakam".
+      const nesmeju = ['njakam','njakaš','njakamo','njakate','njakaju','njakaj','njakajte'];
+      return { nema: trazene.filter(w => !SET.has(w)),
+               visak: nesmeju.filter(w => SET.has(w)),
+               recnik: WORDS.length };
     });
     ok('nove reči su u rečniku (brstu, njači, njače…)', noveReci.nema.length === 0,
        `fali: ${noveReci.nema.join(', ')}`);
+    ok('nepostojeći oblici („njakam/njakaš") NISU u rečniku', noveReci.visak.length === 0,
+       `višak: ${noveReci.visak.join(', ')}`);
 
     console.log('\n9) Kockica bira POZNATU reč (ne arhaizam)');
     const kockica = await page.evaluate(async () => {

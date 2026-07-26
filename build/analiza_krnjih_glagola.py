@@ -31,6 +31,9 @@ PALAT = {'k':'č', 'g':'ž', 'h':'š', 's':'š', 'z':'ž', 'c':'č'}
 def predlog(inf):
     """Vrati (tip, sigurnost, [oblici]). sigurnost: 'visoka' | 'proveri'."""
     o = []
+    # NAPOMENA: glagolske imenice (-anje/-enje) se NE generišu. Obrazac varira
+    # od glagola do glagola (brstiti -> brstenje, ali čistiti -> čišćenje), pa
+    # ih nije bezbedno praviti automatski.
     # -irati / -isati / -ovati -> najpravilniji, visoka sigurnost
     if inf.endswith('irati'):
         k = inf[:-3]                       # deducirati -> deducira?
@@ -71,9 +74,13 @@ def predlog(inf):
         proslo = [st+'ao', st+'ala', st+'alo', st+'ali', st+'ale']
         zadnje = st[-1]
         if zadnje in PALAT:
+            # Koren na k/g/h/s/z: prezent ide SAMO sa palatalizacijom.
+            # Ranije su se predlagala oba obrasca (i „njakam" i „njačem"), pa je
+            # u rečnik ušlo „njakam/njakaš" — vlasnica je potvrdila da ti oblici
+            # ne postoje. Sada se pravilan (-am) obrazac uopšte ne predlaže.
             p = st[:-1] + PALAT[zadnje]    # njak- -> njač-
             palat = [p+'em', p+'eš', p+'e', p+'emo', p+'ete', p+'u', p+'i', p+'ite']
-            return ('-ati (palatalizacija?)', 'proveri', pravilan + palat + proslo)
+            return ('-ati (palatalizacija)', 'proveri', palat + proslo)
         return ('-ati', 'visoka', pravilan + proslo)
     return ('nepoznat', 'proveri', [])
 

@@ -1555,6 +1555,8 @@ let gameMaxCombo = 0;
 const gameSetup = document.getElementById('gameSetup');
 const gamePlay = document.getElementById('gamePlay');
 const gameResults = document.getElementById('gameResults');
+const gameHandoff = document.getElementById('gameHandoff');
+const gameHandoffStart = document.getElementById('gameHandoffStart');
 const gameWordEl = document.getElementById('gameWord');
 const gameInput = document.getElementById('gameInput');
 const gameSubmit = document.getElementById('gameSubmit');
@@ -1642,11 +1644,55 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   gameSetup.style.display = 'none';
   gamePlay.style.display = 'block';
   gameResults.style.display = 'none';
+  if(gameHandoff) gameHandoff.style.display = 'none';
+  clearTimeout(gameNextTimeout);
+  gameState = 'play';
 
   nextWord();
 };
 
+/* Zakazani prelaz na sledeću reč i stanje igre.
+   `setTimeout(nextWord, 1500)` se zvao i posle odgovora i posle isteka vremena,
+   pa su se zakazani pozivi nagomilavali i utrkivali sa ekranom predaje
+   (igra bi se sama nastavila i pustila tajmer dok predaja još stoji).
+   Zato: pamtimo zakazani prelaz da ga možemo otkazati, i držimo stanje igre
+   pa nextWord() ne radi ništa ako igra nije u toku. */
+let gameNextTimeout = null;
+let gameState = 'setup';   // 'setup' | 'play' | 'handoff' | 'results'
+
+function zakaziSledecuRec(ms){
+  clearTimeout(gameNextTimeout);
+  gameNextTimeout = setTimeout(nextWord, ms);
+}
+
+/* Predaja uređaja između igrača.
+   Bez ovog ekrana se smena igrača nije videla: nextWord() bi samo povećao
+   igrača i ODMAH pustio tajmer, pa je drugom igraču vreme već otkucavalo
+   dok je uređaj još bio u ruci prvog. Sada igra stane i čeka klik. */
+function showHandoff(){
+  clearInterval(gameTimer);
+  clearTimeout(gameNextTimeout);
+  gameState = 'handoff';
+  const badge = document.getElementById('gameHandoffBadge');
+  const title = document.getElementById('gameHandoffTitle');
+  const sub   = document.getElementById('gameHandoffSub');
+  const broj  = gameCurrentPlayerIdx + 1;
+  if(badge) badge.textContent = broj;
+  if(title) title.textContent = `Vreme je za igrača ${broj}`;
+  if(sub){
+    const pret = gamePlayersData[gameCurrentPlayerIdx - 1];
+    sub.textContent = pret
+      ? `Igrač ${gameCurrentPlayerIdx} je osvojio ${pret.score} ${pret.score === 1 ? 'poen' : 'poena'} (${pret.correct} od ${gameWordsPerPlayer} tačno).`
+      : '';
+  }
+  if(gamePlay) gamePlay.style.display = 'none';
+  if(gameResults) gameResults.style.display = 'none';
+  if(gameHandoff) gameHandoff.style.display = 'block';
+  if(gameHandoffStart) gameHandoffStart.focus();
+}
+
 function nextWord(){
+  if(gameState !== 'play') return;   // predaja ili rezultati su u toku
   if(gameCurrentWordIdx >= gameWordsPerPlayer){
     gameCurrentPlayerIdx++;
     gameCurrentWordIdx = 0;
@@ -1655,6 +1701,9 @@ function nextWord(){
       showResults();
       return;
     }
+    // Ima još igrača — stani i čekaj da se zamene.
+    showHandoff();
+    return;
   }
 
   for(let t = 0; t < 50; t++){
@@ -1707,7 +1756,7 @@ function timeUp(){
   gameCombo = 0;
   gameCurrentWordIdx++;
   gameSubmit.disabled = true;
-  setTimeout(nextWord, 1500);
+  zakaziSledecuRec(1500);
 }
 
 function checkGameAnswer(){
@@ -1767,7 +1816,7 @@ function checkGameAnswer(){
   gameCurrentWordIdx++;
   gameSubmit.disabled = true;
   renderProgress();
-  setTimeout(nextWord, 1500);
+  zakaziSledecuRec(1500);
 }
 
 function renderProgress(){
@@ -1782,7 +1831,11 @@ function renderProgress(){
 }
 
 function showResults(){
+  clearInterval(gameTimer);
+  clearTimeout(gameNextTimeout);
+  gameState = 'results';
   gamePlay.style.display = 'none';
+  if(gameHandoff) gameHandoff.style.display = 'none';
   gameResults.style.display = 'block';
 
   const sorted = gamePlayersData.map((p, i) => ({ ...p, idx: i })).sort((a, b) => b.score - a.score);
@@ -1812,10 +1865,18 @@ function showResults(){
   }
 }
 
+if (gameHandoffStart) gameHandoffStart.onclick = () => {
+  gameHandoff.style.display = 'none';
+  gamePlay.style.display = 'block';
+  gameState = 'play';
+  nextWord();          // gameCurrentWordIdx je 0, pa ovo samo daje reč
+};
+
 const gameAgainBtn = document.getElementById('gameAgain');
 if (gameAgainBtn) gameAgainBtn.onclick = () => {
   gameSetup.style.display = 'block';
   gameResults.style.display = 'none';
+  if(gameHandoff) gameHandoff.style.display = 'none';
 };
 
 if (gameSubmit) gameSubmit.onclick = checkGameAnswer;
@@ -1829,6 +1890,7 @@ function initGame(){
     gameSetup.style.display = 'block';
     gamePlay.style.display = 'none';
     gameResults.style.display = 'none';
+    if(gameHandoff) gameHandoff.style.display = 'none';
   } else {
     // rečnik još nije učitan — prikaži poruku ispod setup-a, ne uništavaj ga
     if(!document.getElementById('gameLoading')){

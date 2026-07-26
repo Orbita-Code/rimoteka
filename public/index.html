@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260726b">
+<link rel="stylesheet" href="style.css?v=20260726c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -225,6 +225,15 @@
       <button class="game-start-btn" id="gameStart">Start igre</button>
     </div>
 
+    <!-- PREDAJA IGRAČA — pauza da se igrači zamene -->
+    <div class="game-handoff" id="gameHandoff" style="display:none">
+      <div class="game-handoff-badge" id="gameHandoffBadge">2</div>
+      <h3 class="game-handoff-title" id="gameHandoffTitle">Vreme je za igrača 2</h3>
+      <p class="game-handoff-sub" id="gameHandoffSub"></p>
+      <button class="game-start-btn" id="gameHandoffStart">Spreman sam — počni</button>
+      <p class="game-handoff-hint">Predaj uređaj sledećem igraču. Vreme počinje kad klikneš.</p>
+    </div>
+
     <!-- IGra -->
     <div class="game-play" id="gamePlay" style="display:none">
       <div class="game-header">
@@ -379,7 +388,7 @@
   </div>
 </div>
 
-<script src="app.js?v=20260726h"></script>
+<script src="app.js?v=20260726j"></script>
 <script src="/sw-register.js?v=2"></script>
 </body>
 </html>

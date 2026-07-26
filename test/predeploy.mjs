@@ -215,6 +215,77 @@ async function main() {
     ok('igra PRIZNAJE tačnu rimu', /✓|Bravo|Tačno|tačn/i.test(igra.fbTacna),
        `rima „${igra.rima}" za „${igra.rec}" → „${igra.fbTacna}"`);
 
+    console.log('\n8b) PREDAJA IGRAČA — igra mora da stane između igrača');
+    const predaja = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      // 2 igrača, 5 reči po igraču — pa odigraj prvog do kraja
+      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'igra').click();
+      await w(250);
+      document.querySelector('#gamePlayers .game-option[data-value="2"]').click();
+      document.querySelector('#gameWords .game-option[data-value="5"]').click();
+      document.getElementById('gameStart').click();
+      await w(500);
+
+      // odigraj 5 reči prvog igrača (namerno pogrešnim odgovorom, brzo)
+      for (let i = 0; i < 5; i++) {
+        const inp = document.getElementById('gameInput');
+        const sub = document.getElementById('gameSubmit');
+        if (!inp || !sub) break;
+        // dugme je onemoguceno ~1,5s posle odgovora — cekaj da se otkoci
+        for (let t = 0; t < 40 && sub.disabled; t++) await w(100);
+        if (document.getElementById('gameHandoff') &&
+            getComputedStyle(document.getElementById('gameHandoff')).display !== 'none') break;
+        // Reč koja POSTOJI u rečniku ali se NE rimuje — samo takav odgovor
+        // troši reč i pomera igru. Nepostojeća reč se odbija ("probaj drugu")
+        // i wordIdx ostaje isti, pa se do predaje nikad ne bi stiglo.
+        const cilj = gameCurrentWord;
+        const k = rhymeKey(cilj);
+        let ne = null;
+        for (const kand of WORDS) {
+          if (kand !== cilj && kand.length > 2 && rhymeKey(kand) !== k) { ne = kand; break; }
+        }
+        inp.value = ne || 'kuca';
+        sub.click();
+        await w(300);
+      }
+      // sacekaj da prelaz na predaju stigne
+      for (let t = 0; t < 40; t++) {
+        const h = document.getElementById('gameHandoff');
+        if (h && getComputedStyle(h).display !== 'none') break;
+        await w(200);
+      }
+
+      const hand = document.getElementById('gameHandoff');
+      const play = document.getElementById('gamePlay');
+      return {
+        postoji: !!hand,
+        predajaVidljiva: hand ? getComputedStyle(hand).display !== 'none' : false,
+        igraSakrivena: play ? getComputedStyle(play).display === 'none' : false,
+        naslov: (document.getElementById('gameHandoffTitle') || {}).textContent || '',
+        tajmerStao: (document.getElementById('gameTimer') || {}).textContent || ''
+      };
+    });
+    ok('ekran za predaju igrača postoji', predaja.postoji, JSON.stringify(predaja).slice(0, 140));
+    ok('igra STAJE posle zadnje reči prvog igrača', predaja.predajaVidljiva && predaja.igraSakrivena,
+       JSON.stringify(predaja).slice(0, 160));
+    ok('piše čiji je red', /igra[čc]a 2/i.test(predaja.naslov), `naslov: „${predaja.naslov}"`);
+
+    const nastavak = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      document.getElementById('gameHandoffStart').click();
+      await w(700);
+      return {
+        igraNastavlja: getComputedStyle(document.getElementById('gamePlay')).display !== 'none',
+        predajaSakrivena: getComputedStyle(document.getElementById('gameHandoff')).display === 'none',
+        igrac: (document.getElementById('gameCurrentPlayer') || {}).textContent || '',
+        rec: (document.getElementById('gameWord') || {}).textContent || ''
+      };
+    });
+    ok('dugme „počni" nastavlja igru za igrača 2', nastavak.igraNastavlja && nastavak.predajaSakrivena,
+       JSON.stringify(nastavak).slice(0, 140));
+    ok('brojač igrača pokazuje 2', nastavak.igrac.trim() === '2', `pokazuje „${nastavak.igrac}"`);
+    ok('drugi igrač je dobio reč', nastavak.rec.length > 0, `reč: „${nastavak.rec}"`);
+
     console.log('\n9) Kockica bira POZNATU reč (ne arhaizam)');
     const kockica = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));

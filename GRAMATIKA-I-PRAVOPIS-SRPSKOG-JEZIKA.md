@@ -431,6 +431,26 @@ citiraju:**
 - Imenice koje postoje samo u množini (*akne*, *Alpe*) nemaju punu paradigmu,
   pa izgledaju krnje iako nisu.
 
+## 9b. Imenice srednjeg roda — greške uhvaćene u izradi predloga (27.07.2026)
+
+Pet grešaka koje je moj kod napravio dok je pravio predlog padeža za srednji
+rod. Sve su iste porodice: **pogađanje umesto čitanja.**
+
+1. **Osnova uzeta iz nominativa** → od *ime* ispalo *ima, imu, imom*.
+   Ispravno: osnova se čita iz **genitiva** (*imena* → osnova *imen-*).
+2. **Homograf pri konstruisanju genitiva** → *tele* se zakačilo za *tela*
+   (genitiv od **telo**), *prezime* za *prezima* (od glagola **prezimiti**).
+3. **Homograf i u obrnutom redosledu** → kad je proširena osnova tražena prva,
+   *more* se zakačilo za *morena* (nanos lednika).
+4. **Dativ množine primljen kao genitiv** → uslov „završava se na *a*" hvata i
+   nastavak *-ima*, pa je od *morima* ispalo *morimu, morimom*.
+5. **Proširena množina** → od *nebo* ispalo *nebima* umesto *nebesima*
+   (*nebo → nebesa*, *čudo → čudesa*, *telo → telesa*).
+
+**Pravilo koje iz svega sledi:** ni oblik ni objašnjenje sami nisu dovoljni.
+Kandidat mora **istovremeno** da ima dozvoljen oblik traženog padeža **i** da
+ga objašnjenje u `definicije.json` veže baš za tu reč.
+
 ## 10. Dnevnik ispravki od vlasnice
 
 Zapisivati svaku ispravku — to je najpouzdaniji izvor u ovom dokumentu.

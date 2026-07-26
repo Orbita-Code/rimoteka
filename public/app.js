@@ -137,31 +137,44 @@ async function loadLocalDefs(){
 }
 
 async function loadDict(){
-  // Prvo učitaj rečnik, frekvenciju i sinonime (mali, brzi) — rime rade odmah
-  const [ek, jek, freqRes, synRes] = await Promise.all([
+  // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
+  const [ek, jek] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
-    fetch('frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
-    fetch('sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
   WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
   KEYS = new Array(WORDS.length);
-  SYNONYMS = synRes;
-  // Rangiranje: frekvencija (manji broj = češća reč = bolji rang)
-  const maxFreq = Math.max(...Object.values(freqRes), 1);
   for(let i=0;i<WORDS.length;i++){
     const w = WORDS[i];
     KEYS[i] = rhymeKey(w);
-    const freq = freqRes[w] || 0;
-    // ako ima frekvenciju → rang 0 (najbolji), ako nema → rang maxFreq+1 (najgori)
-    RANK.set(w, freq > 0 ? -freq : maxFreq + 1);
+    RANK.set(w, i);
     SET.add(w);
   }
-  // Zatim učitaj definicije u pozadini (veliko, sporo) — za rangiranje
-  loadDefs();
+  // Zatim učitaj frekvenciju i sinonime u pozadini — ne blokiraju rime
+  loadExtras();
+}
+
+// Lazy load frekvencije i sinonima — ne blokira rime
+async function loadExtras(){
+  try{
+    const [freqRes, synRes] = await Promise.all([
+      fetch('frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
+      fetch('sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
+    ]);
+    SYNONYMS = synRes;
+    // Ažuriraj rangiranje sa frekvencijom
+    const maxFreq = Math.max(...Object.values(freqRes), 1);
+    for(let i=0;i<WORDS.length;i++){
+      const w = WORDS[i];
+      const freq = freqRes[w] || 0;
+      RANK.set(w, freq > 0 ? -freq : maxFreq + 1);
+    }
+  }catch(e){
+    console.warn('Extras nisu učitani:', e);
+  }
 }
 
 // Lazy load definicija — ne blokira učitavanje stranice

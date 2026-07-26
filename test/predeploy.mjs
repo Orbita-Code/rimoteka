@@ -60,8 +60,24 @@ async function main() {
 
     console.log('1) Učitavanje i rečnik');
     await page.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
-    await page.waitForFunction('typeof WORDS !== "undefined" && WORDS.length > 0', { timeout: 60000 })
-      .catch(() => {});
+    // Na produkciji reci.txt (2,5 MB) ide bez keša pa je učitavanje sporije od
+    // lokalnog. Timeout je zato izdašan, a istek NE gutamo tiho — ako rečnik ne
+    // stigne, to je nalaz i test mora da padne sa jasnom porukom.
+    // Kod PRVE posete service worker preuzme kontrolu i strana se jednom osveži
+    // (to je namerno — tako se zaglavljeni korisnici sami odglave). Testu to
+    // obriše izvršni kontekst usred čekanja, pa čekanje ponavljamo.
+    let recnikStigao = false;
+    for (let pokusaj = 0; pokusaj < 3 && !recnikStigao; pokusaj++) {
+      try {
+        await page.waitForFunction('typeof WORDS !== "undefined" && WORDS.length > 0', { timeout: 120000 });
+        recnikStigao = true;
+      } catch (e) {
+        if (pokusaj === 2) break;
+        await page.waitForLoadState('domcontentloaded').catch(() => {});
+        await pauza(1000);
+      }
+    }
+    ok('rečnik je stigao (uz toleranciju na osvežavanje od SW-a)', recnikStigao, 'nije stigao ni posle 3 pokušaja');
     const brojReci = await page.evaluate('typeof WORDS !== "undefined" ? WORDS.length : 0');
     ok('rečnik se učitao (>250.000 reči)', brojReci > 250000, `učitano ${brojReci}`);
     ok('konzola bez grešaka', konzolaGreske.length === 0, konzolaGreske.slice(0, 3).join(' | '));
@@ -89,7 +105,7 @@ async function main() {
     ok('rime za „nada" postoje', rimeNada.length > 5, `nađeno ${rimeNada.length}`);
 
     console.log('\n3) Frekvencijsko rangiranje i SINONIMI');
-    await page.waitForFunction('typeof SYNONYMS !== "undefined" && Object.keys(SYNONYMS).length > 0', { timeout: 90000 })
+    await page.waitForFunction('typeof SYNONYMS !== "undefined" && Object.keys(SYNONYMS).length > 0', { timeout: 180000 })
       .catch(() => {});
     const extras = await page.evaluate(() => {
       let neg = 0;

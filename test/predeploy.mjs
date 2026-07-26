@@ -306,10 +306,12 @@ async function main() {
     const noveReci = await page.evaluate(() => {
       // Reči koje je korisnica našla da igra ne prihvata (26.07.2026).
       const trazene = ['brstu','brsta','brstom','brstiš','brstile','brstenje',
-                       'obrstim','obrste','njači','njače','njačem','njaču'];
+                       'obrstim','obrste','njači','njačite','njače','njačem','njaču',
+                       'amin','aminati','aminovati'];
       // Ovi oblici NE SMEJU da postoje — vlasnica je potvrdila da u srpskom
       // „njakati" ima samo palatalizovani prezent (njačem/njače), ne „njakam".
-      const nesmeju = ['njakam','njakaš','njakamo','njakate','njakaju','njakaj','njakajte'];
+      const nesmeju = ['njakam','njakaš','njakamo','njakate','njakaju','njakaj','njakajte',
+                       'njaka','obrstenje'];
       return { nema: trazene.filter(w => !SET.has(w)),
                visak: nesmeju.filter(w => SET.has(w)),
                recnik: WORDS.length };

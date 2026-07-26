@@ -161,6 +161,29 @@
 
 ---
 
+## 5a. GRAMATIKA SRPSKOG JEZIKA — OBAVEZNO PRE RADA SA REČNIKOM
+
+> **Pre bilo kakvog dodavanja reči u `reci.txt`/`definicije.json`, i pre pisanja
+> koda koji generiše oblike reči, pročitati `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`.**
+
+Taj dokument postoji zato što je automatski generator ubacio u predlog rečnika
+oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
+`dreždam`). Tri pravila koja su iz toga izvedena:
+
+1. **Završetak reči nije dokaz vrste reči.** `bankomati`, `akrobati`, `aparati`
+   završavaju se na `-ati` ali su imenice u množini. Reč se tretira kao glagol
+   samo ako rečnik već sadrži njen radni pridev (`-ao/-io/-eo`) ili prvo lice
+   prezenta.
+2. **Glagol ima DVE osnove** — infinitivnu i prezentsku — i jedna se ne izvodi
+   iz druge (*pisati → pišem*, *šaptati → šapćem*, *dreždati → dreždim*).
+   Obrazac prezenta se ČITA iz oblika koji već postoje u rečniku, i to samo iz
+   prvog i drugog lica. Ako ga nema — ne izmišljati.
+3. **Pogrešna reč u rečniku je gora od reči koja fali.** Kad nisi siguran,
+   napravi listu i pitaj vlasnicu. Ona je izvorni govornik i konačni autoritet;
+   svaka njena ispravka se upisuje u dnevnik u tom dokumentu.
+
+---
+
 ## 6. REČNIK I RIME — PRAVILA
 
 ### 6.1 Izvori reči

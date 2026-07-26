@@ -69,7 +69,7 @@ async function main() {
     let recnikStigao = false;
     for (let pokusaj = 0; pokusaj < 3 && !recnikStigao; pokusaj++) {
       try {
-        await page.waitForFunction('typeof WORDS !== "undefined" && WORDS.length > 0', { timeout: 120000 });
+        await page.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0, { timeout: 120000 });
         recnikStigao = true;
       } catch (e) {
         if (pokusaj === 2) break;
@@ -78,7 +78,7 @@ async function main() {
       }
     }
     ok('rečnik je stigao (uz toleranciju na osvežavanje od SW-a)', recnikStigao, 'nije stigao ni posle 3 pokušaja');
-    const brojReci = await page.evaluate('typeof WORDS !== "undefined" ? WORDS.length : 0');
+    const brojReci = await page.evaluate(() => (typeof WORDS !== 'undefined' ? WORDS.length : 0));
     ok('rečnik se učitao (>250.000 reči)', brojReci > 250000, `učitano ${brojReci}`);
     ok('konzola bez grešaka', konzolaGreske.length === 0, konzolaGreske.slice(0, 3).join(' | '));
 
@@ -105,7 +105,7 @@ async function main() {
     ok('rime za „nada" postoje', rimeNada.length > 5, `nađeno ${rimeNada.length}`);
 
     console.log('\n3) Frekvencijsko rangiranje i SINONIMI');
-    await page.waitForFunction('typeof SYNONYMS !== "undefined" && Object.keys(SYNONYMS).length > 0', { timeout: 180000 })
+    await page.waitForFunction(() => typeof SYNONYMS !== 'undefined' && Object.keys(SYNONYMS).length > 0, { timeout: 180000 })
       .catch(() => {});
     const extras = await page.evaluate(() => {
       let neg = 0;
@@ -361,7 +361,7 @@ async function main() {
     for (const put of ['/', '/rimovanje-reci/', '/rime-za/ljubav/']) {
       const p2 = await browser.newPage();
       const resp = await p2.goto(BASE + put, { waitUntil: 'domcontentloaded' });
-      const h1 = await p2.evaluate('document.querySelectorAll("h1").length');
+      const h1 = await p2.evaluate(() => document.querySelectorAll('h1').length);
       ok(`${put} → HTTP 200`, resp && resp.status() === 200, `status ${resp && resp.status()}`);
       ok(`${put} → tačno jedan h1`, h1 === 1, `nađeno ${h1}`);
       await p2.close();
@@ -381,7 +381,7 @@ async function main() {
     let alatRecnik = false;
     for (let pokusaj = 0; pokusaj < 3 && !alatRecnik; pokusaj++) {
       try {
-        await pAlat.waitForFunction('typeof WORDS !== "undefined" && WORDS.length > 0', { timeout: 120000 });
+        await pAlat.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0, { timeout: 120000 });
         alatRecnik = true;
       } catch (e) {
         if (pokusaj === 2) break;
@@ -392,7 +392,7 @@ async function main() {
     ok('/rimovanje-reci/ → rečnik se učitao u alatu', alatRecnik, 'nije stigao');
     // sinonimi.json (2 MB) se učitava u pozadini — na produkciji stigne posle
     // rečnika, pa ga sačekamo pre provere grupe „Sinonimi"
-    await pAlat.waitForFunction('typeof SYNONYMS !== "undefined" && Object.keys(SYNONYMS).length > 0',
+    await pAlat.waitForFunction(() => typeof SYNONYMS !== 'undefined' && Object.keys(SYNONYMS).length > 0,
                                 { timeout: 180000 }).catch(() => {});
     const alat = await pAlat.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));

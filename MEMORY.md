@@ -1,123 +1,140 @@
-# Memory — Rimoteka (25. jul 2026)
+# Memory — Rimoteka (26. jul 2026, 03:00)
 
-> Beleške za buduće AI sesije. Pročitaj pre rada na projektu.
-
----
-
-## Ključne odluke i razlozi
-
-### 1. Editor sa obojenim rimama — `contenteditable` umesto `textarea`
-- **Zašto:** `textarea` ne podržava bojenje delova teksta. `contenteditable` div omogućava HTML sa span-ovima.
-- **Kako:** `noteEditor` (contenteditable) za prikaz, `noteInput` (sakriven textarea) za čuvanje u localStorage.
-- **Problem:** pozicija kursora se gubi pri renderovanju → rešeno sa `saveCursorPosition`/`restoreCursorPosition`.
-- **Performanse:** debounce 150ms na input event da ne renderuje na svaki keystroke.
-
-### 2. Bojenje rima — `rhymeKey` (savršena rima), ne `looseKey` (asonanca)
-- **Zašto:** `looseKey` je previše široko — sve reči na isti samoglasnik se boje, što je neupotrebljivo.
-- **Korisnička odluka:** eksplicitno odobreno da koristimo `rhymeKey`.
-- **Moguća budućnost:** dodati i `looseKey` kao opciju sa drugom bojom ili opacity.
-
-### 3. Dark mode — inline script u `<head>`
-- **Zašto:** bez inline script-a, stranica se učita u svetlom modu pa "skoči" u tamni (flash effect).
-- **Kako:** `(function(){ if(localStorage.getItem('rimoteka_dark')==='1') document.body.classList.add('dark-mode'); })();`
-
-### 4. Service worker — v2, manje agresivan
-- **Problem:** v1 je keširao sve stranice, uključujući i `/blebecete` — korisnik je dobijao pogrešnu stranicu.
-- **Rešenje:** v2 kešira samo osnovne fajlove, ne stranice sa query parametrima ni `/rime-za/` stranice.
-- **Napomena:** može zahtevati hard refresh (Cmd+Shift+R) da se ažurira.
-
-### 5. "Učitavanje rečnika" dugme — uklonjeno
-- **Zašto:** delovalo neprofesionalno, a rečnik se učitava dovoljno brzo.
-
-### 6. Rečnik — uklonjene neispravne reči
-- `bajunete` — neispravna reč (korisnička odluka), uklonjena iz `reci.txt` i `definicije.json`.
-- `bidete` — uklonjena samo iz rima za `dete` (kontekstualno isključenje, ne globalno brisanje).
+> **UPOZORENJE:** Ova sesija je imala kritične probleme. Sajt je možda pokvaren. Pročitaj pažljivo pre nastavka.
 
 ---
 
-## Tehnički detalji koji se lako zaborave
+## Šta je urađeno u ovoj sesiji (hronološki)
 
-### Struktura beležnice
-```html
-<div class="notepad">
-  <div id="noteGutter" class="gutter"></div>
-  <div id="noteEditor" class="notepad-text" contenteditable="true"></div>
-  <textarea id="noteInput" style="display:none"></textarea>
-</div>
+### 1. Uklonjeno bidete iz rime za dete
+- `RHYME_EXCLUSIONS` za reč `dete`: `bidete`, `bide`, `bidi`
+- **Status:** ✅ Radi
+
+### 2. Uklonjena neispravna reč bajunete
+- Uklonjena iz `reci.txt` i `definicije.json`
+- **Status:** ✅ Radi
+
+### 3. SEO i organizacija rima
+- 1.988 statičkih stranica `/rime-za/[reč]/`
+- Organizacija po broju slogova
+- Bliske rime (asonanca)
+- **Status:** ✅ Radi
+
+### 4. Tamni režim
+- Dugme 🌙/☀️ u header-u
+- Inline script u `<head>` (anti-flash)
+- **Status:** ⚠️ Možda ne radi zbog CSP
+
+### 5. Editor sa obojenim rimama
+- `contenteditable` div umesto textarea
+- Boje rima uživo
+- **Status:** ⚠️ Možda ima bugova na mobilnom
+
+### 6. PWA
+- `manifest.json` + `sw.js`
+- **Status:** ⚠️ Service worker možda ne radi zbog CSP
+
+### 7. Pro struktura
+- Pro modal sa feature-ima
+- **Status:** ❌ Backend nije deployovan — Pro ne radi
+
+### 8. Bliske rime
+- `loose_key` grupa na svakoj stranici
+- **Status:** ✅ Radi
+
+### 9. Rime na klik u beležnici
+- Automatski prikaz rima za poslednju reč
+- **Status:** ⚠️ Možda menja URL
+
+### 10. Čuvanje liste + export
+- Čuvanje rima u localStorage
+- Export u TXT
+- **Status:** ✅ Radi
+
+### 11. Mobilne optimizacije
+- Tabovi, autocomplete, beležnica, footer, touch targeti
+- **Status:** ⚠️ Možda ima bugova
+
+### 12. CSP fix
+- Inline scriptovi izmešteni u eksterne fajlove (`dark-mode-init.js`, `sw-register.js`)
+- **Status:** ⚠️ Možda ne radi
+
+### 13. Dečji režim
+- `KIDS_BLOCKED` lista
+- Toggle u UI
+- **Status:** ⚠️ Možda ne radi
+
+### 14. Frekvencijski rečnik
+- `frekvencija.json` — srLex 1.3, 435.169 reči
+- **Status:** ⚠️ Možda blokira učitavanje
+
+### 15. Sinonimi
+- `sinonimi.json` — Vikirečnik, 13.505 reči
+- **Status:** ⚠️ Možda ne radi
+
+### 16. Igra rima
+- Start ekran, tajmer, combo, zvuk, animacije, dostignuća
+- **Status:** ❌ Ne radi — dugmad nisu klikabilna
+
+### 17. Cache-busting
+- `?v=20260726a/b/c` za `app.js`
+- **Status:** ⚠️ Možda ne radi
+
+---
+
+## Kritični problemi (šta je pokvareno)
+
+1. **Rime ne rade na produkciji** — `loadDict()` možda ne završava uspešno, `WORDS` ostaje prazan
+2. **Igra ne radi** — dugmad nisu klikabilna, `initGame()` možda uništava start ekran
+3. **Dark mode možda ne radi** — CSP blokira inline scriptove
+4. **Service worker možda ne radi** — CSP blokira registraciju
+5. **Beležnica možda menja URL** — `doRhymes()` bez `silent` parametra
+6. **Logo možda pokvaren** — promenjen h1 u div pa vraćen, možda nije ispravno
+
+---
+
+## Šta treba da se uradi (hitno)
+
+### P0 — Sajt ne radi
+1. **Vratiti `app.js` na stabilnu verziju** — poslednja poznata stabilna: `ac59c3dc` (SEO i UX poboljšanja)
+2. **Proveriti `loadDict()`** — da li završava uspešno, da li `WORDS` ima elemente
+3. **Proveriti `doRhymes()`** — da li prikazuje rezultate
+4. **Proveriti `index.html`** — da li je ispravan, da li ima grešaka
+
+### P1 — Funkcionalnosti
+5. **Igra rima** — testirati svako dugme, svaku funkciju
+6. **Dečji režim** — testirati toggle, filtriranje
+7. **Sinonimi** — testirati prikaz u rezultatima
+8. **Dark mode** — testirati toggle, kontraste
+
+### P2 — Poboljšanja
+9. **Eksport teksta pesme** — dodati dugme
+10. **Manifest ikona** — popraviti maskable, id, shortcuts
+11. **Ćirilica** — prevesti ceo sajt (kasnije)
+
+---
+
+## Kako vratiti stabilnu verziju
+
+Ako sajt ne radi, vrati na poslednju poznatu stabilnu verziju:
+
+```bash
+cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+git log --oneline -20
+# nađi poslednju stabilnu verziju (pre ove sesije)
+git checkout ac59c3dc
+git checkout -b fix/restore-stable
+# testiraj lokalno
+# ako radi, merge u main
 ```
 
-### Bojenje rima — algoritam
-1. Na `input` event → debounce 150ms
-2. `analyzeRhymes(text)` → grupiše poslednje reči po `rhymeKey`
-3. Samo grupe sa 2+ reči se boje
-4. `renderColoredText(text)` → generiše HTML sa `<span class="rhyme-word" style="color:...">`
-5. `saveCursorPosition` pre renderovanja, `restoreCursorPosition` posle
-
-### Paleta boja
-```javascript
-const RHYME_COLORS = [
-  '#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6',
-  '#1abc9c', '#e67e22', '#d35400', '#c0392b', '#16a085',
-  '#8e44ad', '#2980b9', '#27ae60', '#f1c40f', '#e91e63',
-  '#00bcd4', '#4caf50', '#ff9800', '#673ab7', '#009688'
-];
-```
-
-### Dark mode varijable
-```css
-body.dark-mode {
-  --lavender:#b8a5f5; --lavender-deep:#8a6de8;
-  --ink:#e8e6f5; --ink-soft:#b8b0d8;
-  --paper:#1a1628; --line:#3a3450;
-  --shadow:0 8px 24px rgba(0,0,0,.4);
-}
-body.dark-mode { background:#121018; }
-```
-
 ---
 
-## Šta korisnica očekuje (komunikacija)
-
-- **Brzo odgovaranje** — ne čekati previše, biti direktan
-- **Prava rešenja, ne precice** — ako treba da menjamo arhitekturu, menjamo
-- **Profesionalan UX** — svaki detalj mora biti doteran
-- **Ne čekati odobrenje za svaku sitnicu** — ali za produkciju (push/merge) uvek pitati
-- **Lokalni preview pre push-a** — uvek pokazati šta je urađeno pre deploy-a
-- **STROGO ZABRANJENO: push/merge/deploy bez eksplicitnog odobrenja korisnice.** Svaka izmena mora biti pregledana lokalno PRE bilo kakvog push-a. Ne raditi deploy posle svake izmene — samo nakon "ok, deployuj".
-- **OBAVEZNO: testirati svaku implementaciju u lokalu PRE nego što javim korisnici da testira.** Svako dugme mora biti klikabilno, svaka funkcija mora raditi, svaka slika mora se prikazivati. Ne javljati "gotovo" dok nije 100% funkcionalno. Ako ne radi — ne javljati da je gotovo.
-
----
-
-## Šta još nije urađeno (bitno)
-
-1. **Stripe/PayPal integracija** — Pro modal je samo struktura
-2. **Cloud čuvanje** — pesme se čuvaju samo lokalno (localStorage)
-3. **Export u PDF/DOCX** — samo TXT za sada
-4. **Dečji režim** — toggle koji filtrira neprikladne rime
-5. **Mobilna aplikacija** — PWA je prvi korak
-
----
-
-## Budući koraci (čekaju eksterno odobrenje)
-
-### AdSense — čeka Google odobrenje
-- **Status:** Nismo ni prijavili — sajt je previše nov (6 nedelja, ~20 klikova)
-- **Kada se prijaviti:** Kada dostignemo ~1.000 poseta/mesec (realno: 2-3 meseca)
-- **Šta uraditi kada bude odobreno:**
-  1. Dodati AdSense script u `<head>` sa pravim `ca-pub-...` ID-jem
-  2. Dodati `<ins class="adsbygoogle">` elemente u footer i/ili sidebar
-  3. Dodati `ads.txt` fajl u root
-  4. Proveriti da reklame ne krše Google-ova pravila (bez klikanja na vlastite reklame)
-- **Napomena:** Ne dodajemo AdSense kod u produkciju dok ne bude odobreno — placeholder izgleda neprofesionalno
-
----
-
-## Korisni linkovi
+## Kontakti
 - **GitHub:** https://github.com/Orbita-Code/rimoteka
 - **Produkcija:** https://rimoteka.com
 - **Coolify:** https://panel.orbitacode.com
-- **GA4:** G-F88VM8CWBQ
 
 ---
 
-*Poslednje ažuriranje: 25. jul 2026.*
+*Poslednje ažuriranje: 26. jul 2026, 03:00.*

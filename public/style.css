@@ -888,5 +888,3 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 .notepad-title:focus{outline:0;border-color:var(--lavender)}
 body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:var(--line)}
 
-/* Fusnota (npr. javno vlasništvo u Klasici) — sitna, nenametljiva */
-.footnote{font-size:.78rem;color:var(--muted);text-align:center;margin:1.4rem 0 .3rem;font-weight:400}

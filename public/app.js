@@ -1218,7 +1218,7 @@ const UI_SCRIPT_SELS = [
   '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
   '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
   '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',
-  '.landing h2', '.landing-faq summary', '.footnote'
+  '.landing h2', '.landing-faq summary'
 ];
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
 function convertTextNodes(root, fn){

@@ -1218,7 +1218,7 @@ const UI_SCRIPT_SELS = [
   '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
   '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
   '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',
-  '.landing h2', '.landing-faq summary'
+  '.landing h2', '.landing-faq summary', '.footnote'
 ];
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
 function convertTextNodes(root, fn){
@@ -1539,7 +1539,6 @@ function renderKlasici(){
       `<div class="poem-head">`
       + `<span class="poem-title">${escapeHtml(dispPoem(p.title))}</span>`
       + `<span class="poem-meta">${escapeHtml(dispPoem(p.author))} · ${p.years}</span>`
-      + `<span class="pd-badge" title="slobodno za objavljivanje — autor preminuo pre više od 70 godina">javno vlasništvo</span>`
       + `</div>`;
     const body = document.createElement('div'); body.className='poem-body';
     let firstScheme = '';

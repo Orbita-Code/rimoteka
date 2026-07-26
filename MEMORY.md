@@ -138,3 +138,50 @@ git checkout -b fix/restore-stable
 ---
 
 *Poslednje ažuriranje: 26. jul 2026, 03:00.*
+
+---
+
+# Runde popravki #2 — 26. jul 2026 (beležnica + UI, sesija "rečnik hrane")
+
+> Lokalno završeno i E2E testirano (headless Chromium, `/tmp/rimoteka-debug/test_fixes.js` — sve PASS, 0 pageerrora).
+> **NIJE pushovano — čeka testiranje korisnice.**
+
+## Šta je popravljeno (public/app.js, public/index.html, public/style.css)
+
+### 1. P0: Beležnica je guta Entere — REŠENO
+- **Pravi uzrok:** kursor ne ume da stoji posle završnog `<br>`-a u contenteditable (Chrome ga klampuje ISPREd preloma). Stari "iOS fix" je proveravao `range.startContainer === noteEditor` što je gotovo nikad tačno (insertNode podeli text node), pa pomoćni `<br>` nikad nije dodat → tekst se kucao PRE preloma → redovi se spajaju.
+- **Fix:** (a) pomoćni `<br class="cursor-br">` se dodaje kad god posle novog preloma nema sadržaja; (b) `getEditorText()` je sada deterministički DOM serializer (innerText gubi `<br>` na kraju — Chrome quirk) i preskače `cursor-br`; (c) bojenje rima ide na poseban, sporiji debounce (500ms) od ostatka UI-ja (150ms) — re-render samo kad korisnik zastane; (d) `restoreCursorPosition` za poziciju na kraju teksta obezbeđuje `cursor-br` i stavlja kursor između dva `<br>`-a, a pozicija tačno na kraju text node-a ide u sledeći (posle preloma).
+
+### 2. Rime u beležnici prate kursor — NOVO
+- `getCaretTextPos()` + `getWordAtLineCol()` — rime se prikazuju za reč na kojoj je kursor (ili poslednju pre njega u tom redu), ne uvek za poslednju reč pesme. `selectionchange` listener sa 120ms debounce-om.
+
+### 3. Toggle-i sa vizuelnim stanjem
+- CSS `:has(input:checked)` na `.loose-toggle` — pill sa gradijentom kad je uključen (šire rime, ijekavica, dečji režim). Bez JS-a.
+
+### 4. Ćirilica za CEO UI
+- `toCyr` proširen na velika slova i digrafe Dž/Lj/Nj (ranije: "Rime"→"Rиме"). `applyScriptToUI()` konvertuje tabove, dugmad, labele, option-e, placeholdere, hint tekstove — dvosmerno, bez čuvanja originala. Poziva se na toggle i na load ako je sačuvana ćirilica.
+
+### 5. Sonantnosna tolerancija u bojenju (sat/grad)
+- `lenientRhymeKey()` — rhymeKey sa mapiranjem završnog suglasnika (d→t, b→p, g→k, z→s, ž→š). Koristi se SAMO u analyzeRhymes (bojenje u beležnici), ne u pretrazi/gen_pages. Nije looseKey — i dalje savršena rima po izgovoru.
+- **PAŽNJA:** mora biti deklarisano IZNAD init bloka beležnice (TDZ — init poziva analyzeRhymes pri loadu; prva verzija je zbog toga oborila ceo script kad localStorage ima pesmu).
+
+### 6. Definicije bez čekanja
+- `loadLocalDefs()` se poziva iz `bootstrap()` preko `requestIdleCallback` (preskače se na Save-Data/2g). Prvi hover na ⓘ je trenutan.
+
+### 7. Štampaj / PDF
+- Dugme "štampaj / PDF" u beležnici: popuni `#printArea` (naslov = prvi red) i pozove `window.print()`; `@media print` CSS prikazuje samo pesmu.
+
+### 8. Podeli pesmu linkom
+- Dugme "podeli link": tekst → base64url u `?pesma=` parametar, kopira u clipboard. `initFromURL` otvara podeljenu pesmu u beležnicu **bez upisivanja u localStorage** (tuđa pesma ne briše tvoju dok ne počneš da kucaš) i sklanja parametar iz URL-a. Limit ~1800 znakova.
+
+## Lekcije
+- Contenteditable + ručni `<br>` + re-render = minsko polje. Pravila: serializer umesto innerText; marker klasa za pomoćne elemente; re-render samo na pauzu; kursor posle preloma uvek "sidriti" pomoćnim `<br>`.
+- `const` u top-level scope-u koji koriste funkcije pozvane iz init koda = TDZ zamka. Funkcije hoist-uju, const ne.
+- Testiraj share-linkove u ZASEBNOM browser kontekstu — isti kontekst deli localStorage i test laže.
+
+## Naslov pesme — posebno polje (26. jul 2026, nastavak)
+- Novo opciono polje `#noteTitle` iznad beležnice (`localStorage: rimoteka_notes_title`).
+- PDF: naslov dolazi ISKLJUČIVO iz polja — prazno polje = PDF bez naslova (više se ne nagađa prvi red).
+- Share link: `&naslov=` parametar pored `?pesma=`. TXT export: naslov + prazan red + pesma.
+- "obriši sve" briše i naslov. Placeholder se prevodi ćirilicom (u UI_SCRIPT_INPUTS).
+- Gutter poravnanje: `.gutter` mora imati ISTI font-size i line-height kao `.notepad-text` (line-height je relativan na font-size — različiti font-size uz isti line-height = drift koji raste niz stranu). Popravljeno i u mobilnom CSS-u.

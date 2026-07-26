@@ -560,7 +560,6 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .poem-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:.4rem .8rem;margin-bottom:.9rem;padding-bottom:.7rem;border-bottom:1px solid var(--line)}
 .poem-title{font-family:'Fredoka',sans-serif;font-weight:600;font-size:1.25rem;color:var(--lavender-deep)}
 .poem-meta{color:var(--ink-soft);font-size:.9rem;font-weight:600}
-.pd-badge{margin-left:auto;font-size:.7rem;font-weight:700;color:var(--mint-deep);background:#eaf3fd;border-radius:999px;padding:.14rem .6rem;white-space:nowrap}
 .poem-body{display:flex;flex-direction:column;gap:.9rem}
 .stanza{display:flex;flex-direction:column;gap:.1rem}
 .verse{display:flex;align-items:baseline;gap:.7rem}
@@ -888,3 +887,6 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 .notepad-title::placeholder{color:var(--muted);font-weight:500}
 .notepad-title:focus{outline:0;border-color:var(--lavender)}
 body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:var(--line)}
+
+/* Fusnota (npr. javno vlasništvo u Klasici) — sitna, nenametljiva */
+.footnote{font-size:.78rem;color:var(--muted);text-align:center;margin:1.4rem 0 .3rem;font-weight:400}

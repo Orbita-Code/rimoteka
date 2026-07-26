@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260724b">
+<link rel="stylesheet" href="/style.css?v=20260726b">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -347,10 +347,32 @@ def main():
     footer = FOOTER_TMPL.format(poprime=poprime_html)
 
     # 2) generisanje strana — prvo obriši stare (bez siročića/stale strana)
-    import shutil
+    #
+    # rmtree bez zaštite je pucao sa "Directory not empty" kad neko drugi čita
+    # iz foldera (npr. lokalni `python3 -m http.server` u public/), i tada je
+    # ostavljao folder POLA obrisan. Zato: nekoliko pokušaja, pa čišćenje
+    # sadržaja stavku po stavku kao rezerva.
+    import shutil, time
     outdir = os.path.join(PUB, 'rime-za')
     if os.path.isdir(outdir):
-        shutil.rmtree(outdir)
+        for _ in range(3):
+            shutil.rmtree(outdir, ignore_errors=True)
+            if not os.path.isdir(outdir):
+                break
+            time.sleep(0.5)
+    if os.path.isdir(outdir):
+        for name in os.listdir(outdir):
+            p = os.path.join(outdir, name)
+            if os.path.isdir(p):
+                shutil.rmtree(p, ignore_errors=True)
+            else:
+                try:
+                    os.remove(p)
+                except OSError:
+                    pass
+        if os.listdir(outdir):
+            raise SystemExit(f'GRESKA: ne mogu da ispraznim {outdir}. '
+                             'Ugasi lokalni server (pkill -f http.server) pa probaj ponovo.')
     os.makedirs(outdir, exist_ok=True)
     sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
 

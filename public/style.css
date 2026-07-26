@@ -281,10 +281,15 @@ h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
 .brand{cursor:pointer;border-radius:14px;padding:.2rem .4rem;transition:transform .15s ease,opacity .15s ease;user-select:none}
 .brand:hover{transform:translateY(-1px);opacity:.92}
 .brand:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px}
+/* LOGO — NE DIRATI, NE SMANJIVATI.
+   font-family MORA biti eksplicitno naveden: logo NIJE <h1> (jedan h1 po
+   strani je SEO pravilo), pa ga globalno pravilo `h1,h2,h3{font-family:Fredoka}`
+   ne pokriva. Bez ove linije logo pada na Quicksand i deluje manji i tanji. */
 .brand h1,
 .brand-logo{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
   display:inline-flex;align-items:center;gap:.04em;
+  font-family:'Fredoka',system-ui,sans-serif;
 }
 .logo-r{
   height:1.45em;width:auto;display:block;

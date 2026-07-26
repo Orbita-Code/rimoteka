@@ -1845,13 +1845,43 @@ function initGame(){
 /* Bootstrap — poziva se odavde u normalnom toku, a iz sigurnosne mreže
    na vrhu fajla ako skripta pukne pre ove linije. Funkcija je deklarativna
    (hoisted) baš zato da bude dostupna i u tom slučaju. */
+/* Poslednja linija odbrane: ako rečnik ipak ne uspe da se učita, korisnik NE
+   sme da ostane pred mrtvom stranom. Ne može da zna da je problem u kešu na
+   njegovom uređaju, pa mu dajemo dugme koje očisti keš, odjavi service worker
+   i ponovo učita stranu. */
+async function ocistiKesIOsvezi(){
+  try {
+    if ('caches' in window) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+    }
+    if ('serviceWorker' in navigator) {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+    }
+  } catch(e) {}
+  location.reload();
+}
+window.ocistiKesIOsvezi = ocistiKesIOsvezi;
+
 function bootstrap(){
   if(BOOTED) return;
   BOOTED = true;
   loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
     console.error('Greška pri učitavanju rečnika:', e);
     const box = document.getElementById('rimeResults');
-    if(box) box.innerHTML='<p class="empty">Greška pri učitavanju rečnika. Osveži stranicu.</p>';
+    if(box){
+      box.innerHTML = '';
+      const p = document.createElement('p');
+      p.className = 'empty';
+      p.textContent = 'Rečnik nije uspeo da se učita. Najčešće pomogne da očistimo memoriju pregledača:';
+      const btn = document.createElement('button');
+      btn.className = 'primary';
+      btn.textContent = 'Očisti i probaj ponovo';
+      btn.onclick = ocistiKesIOsvezi;
+      box.appendChild(p);
+      box.appendChild(btn);
+    }
   });
 }
 

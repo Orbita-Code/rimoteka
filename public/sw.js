@@ -14,7 +14,7 @@
  * 4. Pri svakoj promeni ovog fajla podigni CACHE verziju — `activate`
  *    briše sve keševe koji nisu tekući.
  * ============================================================ */
-const CACHE = 'rimoteka-v4';
+const CACHE = 'rimoteka-v5';
 
 // Samo mali fajlovi ljuske. BEZ definicije.json i reci.txt (preveliki),
 // bez verzionisanih ?v= putanja (menjaju se pri svakom deployu).
@@ -35,8 +35,23 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => {
   e.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
+    const stari = keys.filter(k => k !== CACHE);
+    await Promise.all(stari.map(k => caches.delete(k)));
     await self.clients.claim();
+
+    // Ako smo zamenili STARIJU verziju, sami osveži otvorene strane.
+    // Ovo mora da radi SW, ne skripta na strani: zaglavljeni korisnik učitava
+    // stari index.html, pa i stari sw-register.js — dakle na njega se ne može
+    // računati. `client.navigate()` radi odavde i ne zavisi ni od čega na strani.
+    // Uslov `stari.length` znači da ovo NIJE prva instalacija (tada nema šta da
+    // se osvežava), pa nema nepotrebnog reload-a ni petlje: nova verzija se
+    // aktivira samo jednom.
+    if (stari.length) {
+      const clients = await self.clients.matchAll({ type: 'window' });
+      for (const c of clients) {
+        try { await c.navigate(c.url); } catch (err) {}
+      }
+    }
   })());
 });
 

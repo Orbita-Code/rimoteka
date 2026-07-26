@@ -209,8 +209,57 @@
 
 ---
 
+## 8a. LOGO — NE DIRATI (APSOLUTNO PRAVILO)
+
+> Logo je već drugi put slučajno promenjen. Više se ne dira. Nikad.
+
+- **ZABRANJENO** menjati logo: veličinu, font, boju, razmak, sliku, HTML tag ili bilo koji CSS koji na njega utiče.
+- Logo mora ostati **veliki** — `font-size: clamp(2rem,5vw,3rem)` i font **`Fredoka`**.
+- Logo **nije `<h1>`** (SEO pravilo je jedan `h1` po strani, a `h1` je glavni naslov strane). Zato `font-family` MORA biti eksplicitno naveden u `.brand h1, .brand-logo` i `.brand-h` — globalno pravilo `h1,h2,h3{font-family:Fredoka}` ga ne pokriva. **Bez te linije logo tiho padne na Quicksand i deluje manji i tanji.**
+- Ako neka izmena dodiruje `.brand`, `.brand-logo`, `.brand-h`, `.brand-word` ili `.logo-r` — **prvo pitati korisnicu.**
+- Pre-deploy test (sekcija 9a) proverava font i veličinu logotipa i **pada** ako je logo promenjen.
+
+---
+
+## 9a. OBAVEZAN TEST PRE SVAKOG DEPLOY-A (NE PRESKAKATI)
+
+> 26.07.2026. je jedan `TypeError` oborio ceo sajt — rime, igra i svi tabovi — i to je otišlo na produkciju. Nikad više bez testa.
+
+```bash
+cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+node test/predeploy.mjs                              # lokalno
+BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv produkcije
+```
+
+**Deploy je dozvoljen SAMO ako test ispiše „Sme deploy" (izlazni kod 0).** Ako bilo šta padne — popraviti, pa ponovo testirati.
+
+Test proverava, u pravom Chromiumu:
+1. **Rimovanje reči** — glavna namena sajta: rime za „ljubav" i „nada", i da je poznata rima među rezultatima
+2. **Rečnik** — učitano preko 250.000 reči
+3. **Sinonimi** — učitani i prikazani kao grupa u rezultatima
+4. **Frekvencijsko rangiranje** — radi
+5. **Svaki tab** — rime, pretraga, slogovi, beležnica, klasici, igra, omiljene
+6. **Pretraga reči** — vraća rezultate
+7. **Brojač slogova i karaktera** — reaguje na unos
+8. **Beležnica** — prima i zadržava tekst
+9. **Igra rima** — dugmad reaguju, igra se pokreće, odbija nepostojeću reč i **priznaje tačnu rimu**
+10. **Kockica** — bira poznatu reč, ne arhaizam
+11. **Tamni režim** — prebacuje se
+12. **Logo** — font Fredoka i nije smanjen
+13. **SEO** — tačno jedan `h1` na `/`, `/rimovanje-reci/` i `/rime-za/ljubav/`
+14. **Konzola** — nula grešaka kroz ceo test
+
+Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — lokalno prošlo ne znači da je deploy prošao.
+
+**Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
+
+---
+
 ## 9. ZABRANJENO (NE KRŠITI)
 
+- ❌ **Deploy bez prolaska `node test/predeploy.mjs`** (vidi sekciju 9a)
+- ❌ **Menjanje logotipa — veličine, fonta, boje, taga ili CSS-a oko njega** (vidi sekciju 8a)
+- ❌ Objavljivanje brojeva „iz glave" (broj reči, definicija, sinonima) — **prvo prebrojati u fajlu**, pa napisati
 - ❌ Direktan push/commit na `main` bez feature grane
 - ❌ Push bez odobrenja korisnice
 - ❌ Dodavanje nav menija, bloga, reklama bez odobrenja

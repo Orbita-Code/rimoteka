@@ -2980,6 +2980,7 @@ antinaučno
 antinomija
 antiohije
 antiohiji
+antipasti
 antipatija
 antipatije
 antipatiju
@@ -15329,6 +15330,7 @@ brusilica
 brusilicu
 brusio
 brusiti
+bruskete
 brusne
 brusni
 brusnica
@@ -15937,6 +15939,7 @@ bukagijama
 bukagije
 bukariti
 bukati
+bukatini
 bukava
 bukavac
 bukavci
@@ -16704,6 +16707,7 @@ bžežinski
 bžežinskog
 ca
 caca
+caciki
 cadik
 cadika
 cafe
@@ -26281,6 +26285,7 @@ donele
 doneli
 donelo
 doneo
+doner
 donese
 donesem
 donesemo
@@ -33048,6 +33053,7 @@ emotivnom
 emotivnost
 emotivnu
 empajer
+empanada
 empatija
 empatije
 empatiju
@@ -33286,6 +33292,7 @@ enzime
 enzimi
 enzimima
 enzimska
+enćilada
 enčilada
 enčilade
 eolov
@@ -34362,6 +34369,7 @@ fajde
 fajervol
 fajfer
 fajfrić
+fajita
 fajl
 fajla
 fajlom
@@ -34752,6 +34760,7 @@ farbu
 fare
 farenhajt
 farenhajta
+farfale
 farisej
 fariseja
 fariseje
@@ -35342,6 +35351,7 @@ fetusa
 fetuse
 fetusom
 fetusu
+fetućine
 feud
 feuda
 feudalac
@@ -36284,6 +36294,7 @@ fojerbah
 fojerbaha
 foka
 fokama
+fokača
 foke
 foker
 foki
@@ -37465,6 +37476,7 @@ fuziji
 fuzijom
 fuzijski
 fuziju
+fuzili
 fuzionirati
 fuzionisan
 fuzionisanje
@@ -44336,6 +44348,7 @@ gužvu
 gvadalupe
 gvajana
 gvajane
+gvakamole
 gvarnerius
 gvatemala
 gvatemalac
@@ -65715,6 +65728,7 @@ kandžo
 kandžom
 kandžu
 kanelone
+kaneloni
 kanibal
 kanibala
 kanibale
@@ -66126,6 +66140,7 @@ kapora
 kaporu
 kapra
 kapre
+kapreze
 kapri
 kapric
 kaprica
@@ -66654,6 +66669,7 @@ karotidu
 karotin
 karotina
 karović
+karpacio
 karpalni
 karpalnog
 karpata
@@ -68069,6 +68085,7 @@ kertis
 keruša
 kerčeta
 kesa
+kesadilja
 kesama
 kesar
 kesaroš
@@ -68474,6 +68491,7 @@ kimom
 kimona
 kimono
 kimonu
+kimči
 kin
 kina
 kinder
@@ -83891,6 +83909,7 @@ linearnoj
 linearnom
 linearnost
 linearnu
+lingvine
 lingvist
 lingvista
 lingviste
@@ -85008,6 +85027,7 @@ ljuspice
 ljut
 ljuta
 ljute
+ljutenica
 ljuteći
 ljuti
 ljutica
@@ -97747,6 +97767,7 @@ murtića
 murtićem
 murva
 murvom
+mus
 musa
 musafir
 musafire
@@ -107773,6 +107794,7 @@ naćićemo
 naćićete
 naćićeš
 naćiću
+naćos
 naćulim
 naćuliti
 naćvama
@@ -131145,6 +131167,7 @@ orvelovska
 orvelovske
 orvelovski
 orvelovsko
+orzo
 oršolić
 os
 osa
@@ -137895,6 +137918,7 @@ panika
 panike
 panikom
 paniku
+panini
 paniraju
 panirani
 paniranje
@@ -191131,6 +191155,7 @@ rifata
 riga
 riganje
 rigati
+rigatoni
 rige
 rigi
 rigidan
@@ -210062,6 +210087,7 @@ sricanju
 sricao
 sricati
 srinuo
+srirača
 sriče
 sričem
 sriču
@@ -218778,6 +218804,7 @@ taličan
 talična
 talični
 talište
+taljatele
 taljenje
 taljigama
 taljiganje
@@ -219195,6 +219222,7 @@ taokinju
 tapacirana
 tapacirane
 tapacirung
+tapas
 tapecirana
 tapeta
 tapetama
@@ -219300,6 +219328,7 @@ tarpoš
 tart
 tartanska
 tartanske
+tartar
 tartuf
 tartufa
 tartufe
@@ -220699,6 +220728,7 @@ terezija
 terezije
 tereziju
 terećenje
+terijaki
 terijem
 terijer
 terijera
@@ -222711,6 +222741,7 @@ torpiljer
 torta
 tortama
 torte
+tortelini
 torti
 tortica
 torticama
@@ -228020,6 +228051,7 @@ udomiteljima
 udomiti
 udomljavanje
 udomljenje
+udon
 udostojava
 udostoje
 udostoji
@@ -246557,6 +246589,7 @@ vojvođanski
 vojvođansku
 vojćić
 vojčić
+vok
 vokabular
 vokabulara
 vokabularu
@@ -261962,6 +261995,7 @@ zvučnošću
 zvučnu
 zđelarević
 ćaba
+ćabata
 ćabe
 ćabo
 ćabu

@@ -306,6 +306,60 @@ h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
 .pro-toggle{border:0;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;box-shadow:var(--shadow-sm);padding:.45rem 1rem;cursor:pointer;font:inherit;font-weight:700;font-size:.85rem;border-radius:999px;transition:.2s;margin-left:.5rem}
 .pro-toggle:hover{transform:translateY(-1px);opacity:.92}
 
+/* IGRA RIMA — setup */
+.game-setup{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
+.game-setup-group{margin-bottom:1.5rem}
+.game-setup-label{display:block;font-weight:600;color:var(--ink);margin-bottom:.6rem;font-family:'Fredoka',sans-serif}
+.game-setup-options{display:flex;gap:.5rem;flex-wrap:wrap}
+.game-option{padding:.6rem 1.2rem;border:2px solid var(--line);background:#fff;border-radius:12px;font:inherit;font-weight:600;cursor:pointer;transition:.2s}
+.game-option:hover{border-color:var(--lavender)}
+.game-option.active{background:var(--lavender);color:#fff;border-color:var(--lavender)}
+.game-custom-input{width:80px;padding:.5rem;border:2px solid var(--line);border-radius:12px;font:inherit;margin-top:.5rem}
+.game-start-btn{display:block;width:100%;padding:1rem;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;border:0;border-radius:16px;font:inherit;font-weight:700;font-size:1.1rem;cursor:pointer;margin-top:1.5rem;transition:.2s}
+.game-start-btn:hover{opacity:.92}
+
+/* IGRA RIMA — play */
+.game-play{background:#fff;border-radius:24px;padding:1.5rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
+.game-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
+.game-player-info{display:flex;gap:1rem;font-family:'Fredoka',sans-serif}
+.game-timer{font-family:'Fredoka',sans-serif;font-size:2.5rem;font-weight:700;color:var(--rose-deep);min-width:60px;text-align:center}
+.game-timer.low{color:#e74c3c;animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.game-progress{display:flex;gap:.4rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
+.game-progress-dot{width:12px;height:12px;border-radius:50%;background:var(--line)}
+.game-progress-dot.current{background:var(--lavender)}
+.game-progress-dot.correct{background:#2ecc71}
+.game-progress-dot.wrong{background:#e74c3c}
+
+/* IGRA RIMA — results */
+.game-results{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto;text-align:center}
+.game-results-title{font-family:'Fredoka',sans-serif;font-size:1.8rem;color:var(--lavender-deep);margin:0 0 1.5rem}
+.game-results-list{display:flex;flex-direction:column;gap:.8rem;margin-bottom:1.5rem}
+.game-result-item{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:#f8f0fe;border-radius:14px}
+.game-result-item.winner{background:linear-gradient(95deg,var(--lavender),var(--rose));color:#fff}
+.game-result-player{font-weight:600}
+.game-result-score{font-family:'Fredoka',sans-serif;font-weight:700;font-size:1.2rem}
+.game-result-details{font-size:.85rem;opacity:.8}
+
+@media(max-width:560px){
+  .game-setup,.game-play,.game-results{padding:1rem;margin:0 .5rem}
+  .game-header{flex-direction:column;align-items:flex-start}
+  .game-timer{font-size:2rem;align-self:center}
+  .game-option{padding:.5rem 1rem;font-size:.9rem}
+}
+
+/* IGRA RIMA — animacije */
+@keyframes confetti-fall{
+  to{transform:translateY(100vh) rotate(720deg);opacity:0}
+}
+@keyframes shake{
+  0%,100%{transform:translateX(0)}
+  20%{transform:translateX(-10px)}
+  40%{transform:translateX(10px)}
+  60%{transform:translateX(-10px)}
+  80%{transform:translateX(10px)}
+}
+
 /* PRO MODAL */
 .pro-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:center;justify-content:center;padding:1rem}
 .pro-modal.show{display:flex}

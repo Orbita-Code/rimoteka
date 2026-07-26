@@ -83,6 +83,8 @@ body.dark-mode { background:#121018; }
 - **Profesionalan UX** — svaki detalj mora biti doteran
 - **Ne čekati odobrenje za svaku sitnicu** — ali za produkciju (push/merge) uvek pitati
 - **Lokalni preview pre push-a** — uvek pokazati šta je urađeno pre deploy-a
+- **STROGO ZABRANJENO: push/merge/deploy bez eksplicitnog odobrenja korisnice.** Svaka izmena mora biti pregledana lokalno PRE bilo kakvog push-a. Ne raditi deploy posle svake izmene — samo nakon "ok, deployuj".
+- **OBAVEZNO: testirati svaku implementaciju u lokalu PRE nego što javim korisnici da testira.** Svako dugme mora biti klikabilno, svaka funkcija mora raditi, svaka slika mora se prikazivati. Ne javljati "gotovo" dok nije 100% funkcionalno. Ako ne radi — ne javljati da je gotovo.
 
 ---
 

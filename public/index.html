@@ -83,10 +83,10 @@
 <body>
 <header class="site-header">
   <div class="brand" id="brandHome" role="button" tabindex="0" title="Početak — nazad na rime">
-    <div class="brand-logo"><img src="logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
+    <h1><img src="logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></h1>
     <p class="tagline">rimovanje za lakše štimovanje</p>
   </div>
-  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo">
+  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo — prikaz reči u rezultatima (latinica/ćirilica)">
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
@@ -101,6 +101,7 @@
   <button data-tab="slogovi">Slogovi i znakovi</button>
   <button data-tab="beleznica">Beležnica</button>
   <button data-tab="klasici">Klasici</button>
+  <button data-tab="igra">Igra</button>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
 
@@ -129,6 +130,7 @@
       </div>
       <label class="loose-toggle"><input type="checkbox" id="looseToggle"> i šire (slabije) rime</label>
       <label class="loose-toggle"><input type="checkbox" id="jekToggle"> uključi ijekavicu</label>
+      <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
     </div>
     <div id="rimeResults" class="results"></div>
   </section>
@@ -181,6 +183,79 @@
   <section class="tab-panel" id="panel-klasici">
     <p class="hint">Poznate pesme iz <b>javnog vlasništva</b> (autori preminuli pre više od 70 godina). Pored svakog stiha piše broj slogova, a slovo (A, B, C…) označava koje se rime poklapaju — da vidiš šemu rime i ritam velikih pesnika. Klikni na završnu reč stiha da joj nađeš rime.</p>
     <div id="klasiciList"></div>
+  </section>
+
+  <!-- IGRA -->
+  <section class="tab-panel" id="panel-igra">
+    <p class="hint">Igra rima — na vreme, sa prijateljima, za poene. Koliko dug niz možeš da napraviš?</p>
+
+    <!-- START EKRAN -->
+    <div class="game-setup" id="gameSetup">
+      <div class="game-setup-group">
+        <label class="game-setup-label">Broj igrača:</label>
+        <div class="game-setup-options" id="gamePlayers">
+          <button class="game-option active" data-value="1">1</button>
+          <button class="game-option" data-value="2">2</button>
+          <button class="game-option" data-value="3">3</button>
+          <button class="game-option" data-value="custom">custom</button>
+        </div>
+        <input type="number" id="gamePlayersCustom" class="game-custom-input" placeholder="broj" min="1" max="10" style="display:none">
+      </div>
+
+      <div class="game-setup-group">
+        <label class="game-setup-label">Broj reči po igraču:</label>
+        <div class="game-setup-options" id="gameWords">
+          <button class="game-option" data-value="5">5</button>
+          <button class="game-option active" data-value="10">10</button>
+          <button class="game-option" data-value="15">15</button>
+          <button class="game-option" data-value="20">20</button>
+        </div>
+      </div>
+
+      <div class="game-setup-group">
+        <label class="game-setup-label">Vreme po reči (sekunde):</label>
+        <div class="game-setup-options" id="gameTime">
+          <button class="game-option" data-value="10">10s</button>
+          <button class="game-option active" data-value="15">15s</button>
+          <button class="game-option" data-value="20">20s</button>
+          <button class="game-option" data-value="30">30s</button>
+        </div>
+      </div>
+
+      <button class="game-start-btn" id="gameStart">Start igre</button>
+    </div>
+
+    <!-- IGra -->
+    <div class="game-play" id="gamePlay" style="display:none">
+      <div class="game-header">
+        <div class="game-player-info">
+          <span class="game-label">Igrač:</span> <span id="gameCurrentPlayer" class="game-value">1</span>
+          <span class="game-label">Reč:</span> <span id="gameWordCount" class="game-value">1/10</span>
+        </div>
+        <div class="game-timer" id="gameTimer">15</div>
+      </div>
+
+      <div class="game-word-box">
+        <p class="game-instruction">Nađi rimu za reč:</p>
+        <p id="gameWord" class="game-word">...</p>
+      </div>
+
+      <div class="game-input-row">
+        <input type="text" id="gameInput" placeholder="upiši rimu..." autocomplete="off" spellcheck="false">
+        <button id="gameSubmit" class="primary">Proveri</button>
+      </div>
+
+      <p id="gameFeedback" class="game-feedback"></p>
+
+      <div class="game-progress" id="gameProgress"></div>
+    </div>
+
+    <!-- REZULTATI -->
+    <div class="game-results" id="gameResults" style="display:none">
+      <h3 class="game-results-title">Rezultati</h3>
+      <div class="game-results-list" id="gameResultsList"></div>
+      <button class="game-start-btn" id="gameAgain">Igraj ponovo</button>
+    </div>
   </section>
 
   <!-- OMILJENE -->

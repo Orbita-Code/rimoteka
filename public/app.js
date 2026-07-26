@@ -43,10 +43,23 @@ const VOWELS = new Set(['a','e','i','o','u']);
 /* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
 const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','kura','dupeta','dubre','dubretar','pisaju','pisao','pisa','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','krvavo','krvavi','krvava','govnar','govnari','smece','smetlar','smetlarka']);
 
+/* Dečji režim — dodatne reči koje nisu pogodne za decu (seksualne, nasilne, psihološki teške) */
+const KIDS_BLOCKED = new Set([
+  // seksualne
+  'seks','seksualan','seksualnost','erotika','erotičan','pornografija','pornografski','orgazam','orgazmičan','masturbacija','masturbirati','prostitucija','prostituirati','bordel','bordeli','kurva','kurve','kurvati','jebačina','jebačine','jebački','jebačkima','sperma','spermijum','vagina','vagine','vaginalan','penis','penisi','penisalan','klitoris','klitorisi','testis','testisi','skrotum','skrotumi','anus','anusi','analni','fela','felacija','felacije','kondom','kondomi','kontracepcija','kontraceptiv','abortus','abortirati','abortirano','silovanje','silovati','silovano','nasilje','nasilnik','nasilnici','pedofilija','pedofil','pedofili','incest','incestalan','bestijalnost','bestijalan','nekrofilija','nekrofil','nekrofili',
+  // nasilne / psihološki teške
+  'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','rat','ratovi','ratni','ratnik','ratnici','ratovanje','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno'
+]);
+
 /* Kontekstualna isključenja: za određenu reč NE prikazuj određene rime (semantika, a ne vulgarnost) */
 const RHYME_EXCLUSIONS = {
   'dete': new Set(['bidete','bide','bidi'])
 };
+
+// Provera da li je reč neprikladna za decu
+function isKidsBlocked(w){
+  return KIDS_BLOCKED.has(w);
+}
 
 /* ====================== Lingvistika ====================== */
 function vowelPositions(w){
@@ -124,20 +137,27 @@ async function loadLocalDefs(){
 }
 
 async function loadDict(){
-  // Prvo učitaj samo rečnik (mali, brz) — rime rade bez definicija
-  const [ek, jek] = await Promise.all([
+  // Prvo učitaj rečnik, frekvenciju i sinonime (mali, brzi) — rime rade odmah
+  const [ek, jek, freqRes, synRes] = await Promise.all([
     fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
+    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> ''),
+    fetch('frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
+    fetch('sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
   WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
   KEYS = new Array(WORDS.length);
+  SYNONYMS = synRes;
+  // Rangiranje: frekvencija (manji broj = češća reč = bolji rang)
+  const maxFreq = Math.max(...Object.values(freqRes), 1);
   for(let i=0;i<WORDS.length;i++){
     const w = WORDS[i];
     KEYS[i] = rhymeKey(w);
-    RANK.set(w, i);
+    const freq = freqRes[w] || 0;
+    // ako ima frekvenciju → rang 0 (najbolji), ako nema → rang maxFreq+1 (najgori)
+    RANK.set(w, freq > 0 ? -freq : maxFreq + 1);
     SET.add(w);
   }
   // Zatim učitaj definicije u pozadini (veliko, sporo) — za rangiranje
@@ -245,7 +265,8 @@ function doRhymes(silent){
   const strong = [];
   for(let i=0;i<limit;i++){
     const w = WORDS[i];
-    if(!BLOCKED.has(w) && !excluded.has(w) && KEYS[i]===key && w!==q) strong.push(w);
+    if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w))) continue;
+    if(KEYS[i]===key && w!==q) strong.push(w);
   }
   strong.sort((a,b)=>{
     const d = commonSuffix(q,b)-commonSuffix(q,a);
@@ -264,7 +285,7 @@ function doRhymes(silent){
     const fin = [];
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(BLOCKED.has(w) || excluded.has(w) || seen.has(w)) continue;
+      if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w)) || seen.has(w)) continue;
       if(finalSylKey(w)===fk) fin.push(w);
     }
     fin.sort((a,b)=>{
@@ -282,6 +303,12 @@ function doRhymes(silent){
   renderGroup(box, good.length?'Dobre rime':'', good, false);
   renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
+  // Sinonimi — prikaži ako postoje
+  const syns = SYNONYMS[q] || [];
+  if(syns.length > 0){
+    renderGroup(box, 'Sinonimi', syns.slice(0, 20), false);
+  }
+
   // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
   if(!silent && q !== lastTrackedRhyme){
     lastTrackedRhyme = q;
@@ -297,7 +324,7 @@ function doRhymes(silent){
     const wide = [];
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(BLOCKED.has(w) || excluded.has(w) || w===q || seen.has(w)) continue;
+      if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w)) || w===q || seen.has(w)) continue;
       if(looseKey(w)===lk) wide.push(w);
     }
     wide.sort((a,b)=>{
@@ -322,6 +349,16 @@ jekToggle.checked = includeJek;
 jekToggle.addEventListener('change', e=>{
   includeJek = e.target.checked;
   localStorage.setItem('rimoteka_jekavica', includeJek ? '1' : '0');
+  if(rimeInput.value.trim()) doRhymes();
+  if(searchInput.value.trim()) doSearch();
+});
+// Dečji režim — filtrira neprikladne reči za decu
+let kidsMode = localStorage.getItem('rimoteka_kids') === '1';
+const kidsToggle = document.getElementById('kidsToggle');
+kidsToggle.checked = kidsMode;
+kidsToggle.addEventListener('change', e=>{
+  kidsMode = e.target.checked;
+  localStorage.setItem('rimoteka_kids', kidsMode ? '1' : '0');
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
@@ -826,6 +863,7 @@ document.getElementById('clearFavs').onclick = ()=>{
 function switchTab(name){
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('active', b.dataset.tab===name));
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
+  if(name === 'igra') initGame();
 }
 document.getElementById('tabs').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(b) switchTab(b.dataset.tab);
@@ -846,6 +884,7 @@ document.getElementById('scriptToggle').addEventListener('click', e=>{
   if(searchInput.value.trim()) doSearch();
   renderFavorites();
   renderKlasici();
+  toast(script === 'cyr' ? 'Reči se prikazuju ćirilicom' : 'Reči se prikazuju latinicom');
 });
 
 let toastTimer;
@@ -1426,6 +1465,307 @@ handleAuthRedirect().then((handled) => {
   handleProReturn();
   if (!handled) refreshPro();
 });
+
+/* ====================== IGRA RIMA — zarazna verzija ====================== */
+let gamePlayers = 1;
+let gameWordsPerPlayer = 10;
+let gameTimePerWord = 15;
+let gameCurrentPlayerIdx = 0;
+let gameCurrentWordIdx = 0;
+let gamePlayersData = [];
+let gameTimer = null;
+let gameTimeLeft = 0;
+let gameCurrentWord = '';
+let gameCombo = 0;
+let gameMaxCombo = 0;
+
+const gameSetup = document.getElementById('gameSetup');
+const gamePlay = document.getElementById('gamePlay');
+const gameResults = document.getElementById('gameResults');
+const gameWordEl = document.getElementById('gameWord');
+const gameInput = document.getElementById('gameInput');
+const gameSubmit = document.getElementById('gameSubmit');
+const gameFeedback = document.getElementById('gameFeedback');
+const gameTimerEl = document.getElementById('gameTimer');
+const gameCurrentPlayerEl = document.getElementById('gameCurrentPlayer');
+const gameWordCountEl = document.getElementById('gameWordCount');
+const gameProgress = document.getElementById('gameProgress');
+const gameResultsList = document.getElementById('gameResultsList');
+
+// Zvuk — Web Audio API
+let audioCtx = null;
+function playSound(freq, duration, type = 'sine'){
+  try{
+    if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.frequency.value = freq;
+    osc.type = type;
+    gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + duration);
+    osc.start(audioCtx.currentTime);
+    osc.stop(audioCtx.currentTime + duration);
+  }catch(e){}
+}
+function playCorrect(){ playSound(523, 0.15); setTimeout(()=>playSound(659, 0.15), 100); setTimeout(()=>playSound(784, 0.3), 200); }
+function playWrong(){ playSound(200, 0.3, 'sawtooth'); }
+function playTick(){ playSound(800, 0.05, 'square'); }
+function playCombo(n){ playSound(400 + n * 100, 0.2); }
+
+// Confetti
+function confetti(){
+  const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c'];
+  for(let i = 0; i < 50; i++){
+    const div = document.createElement('div');
+    div.style.cssText = `position:fixed;left:${Math.random()*100}%;top:-10px;width:${5+Math.random()*10}px;height:${5+Math.random()*10}px;background:${colors[Math.floor(Math.random()*colors.length)]};border-radius:${Math.random()>0.5?'50%':'0'};z-index:9999;pointer-events:none;animation:confetti-fall ${1+Math.random()*2}s ease-out forwards`;
+    document.body.appendChild(div);
+    setTimeout(()=>div.remove(), 3000);
+  }
+}
+
+// Setup — izbor opcija
+document.querySelectorAll('.game-setup-options').forEach(group => {
+  group.addEventListener('click', e => {
+    const btn = e.target.closest('.game-option');
+    if(!btn) return;
+    const value = btn.dataset.value;
+    const customInput = group.parentElement.querySelector('.game-custom-input');
+    group.querySelectorAll('.game-option').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if(value === 'custom' && customInput){
+      customInput.style.display = 'block';
+      customInput.focus();
+    } else if(customInput){
+      customInput.style.display = 'none';
+    }
+  });
+});
+
+document.getElementById('gameStart').onclick = () => {
+  const playersBtn = document.querySelector('#gamePlayers .game-option.active');
+  const wordsBtn = document.querySelector('#gameWords .game-option.active');
+  const timeBtn = document.querySelector('#gameTime .game-option.active');
+  const customInput = document.getElementById('gamePlayersCustom');
+
+  gamePlayers = playersBtn.dataset.value === 'custom'
+    ? Math.min(10, Math.max(1, parseInt(customInput.value) || 1))
+    : parseInt(playersBtn.dataset.value);
+  gameWordsPerPlayer = parseInt(wordsBtn.dataset.value);
+  gameTimePerWord = parseInt(timeBtn.dataset.value);
+
+  gamePlayersData = [];
+  for(let i = 0; i < gamePlayers; i++){
+    gamePlayersData.push({ score: 0, correct: 0, wrong: 0, streak: 0, bestStreak: 0, maxCombo: 0 });
+  }
+
+  gameCurrentPlayerIdx = 0;
+  gameCurrentWordIdx = 0;
+  gameCombo = 0;
+  gameMaxCombo = 0;
+
+  gameSetup.style.display = 'none';
+  gamePlay.style.display = 'block';
+  gameResults.style.display = 'none';
+
+  nextWord();
+};
+
+function nextWord(){
+  if(gameCurrentWordIdx >= gameWordsPerPlayer){
+    gameCurrentPlayerIdx++;
+    gameCurrentWordIdx = 0;
+    gameCombo = 0;
+    if(gameCurrentPlayerIdx >= gamePlayers){
+      showResults();
+      return;
+    }
+  }
+
+  for(let t = 0; t < 50; t++){
+    const i = Math.floor(Math.random() * WORDS.length);
+    const w = WORDS[i];
+    if(w && syllables(w) >= 2 && w.length >= 3 && !BLOCKED.has(w) && !(kidsMode && isKidsBlocked(w))){
+      gameCurrentWord = w;
+      gameWordEl.textContent = disp(w);
+      gameInput.value = '';
+      gameInput.focus();
+      gameFeedback.textContent = '';
+      gameFeedback.className = 'game-feedback';
+      gameSubmit.disabled = false;
+
+      gameCurrentPlayerEl.textContent = gameCurrentPlayerIdx + 1;
+      gameWordCountEl.textContent = `${gameCurrentWordIdx + 1}/${gameWordsPerPlayer}`;
+      renderProgress();
+      startTimer();
+      return;
+    }
+  }
+  gameWordEl.textContent = '...';
+}
+
+function startTimer(){
+  clearInterval(gameTimer);
+  gameTimeLeft = gameTimePerWord;
+  gameTimerEl.textContent = gameTimeLeft;
+  gameTimerEl.classList.remove('low');
+
+  gameTimer = setInterval(() => {
+    gameTimeLeft--;
+    gameTimerEl.textContent = gameTimeLeft;
+    if(gameTimeLeft <= 5){
+      gameTimerEl.classList.add('low');
+      if(gameTimeLeft > 0) playTick();
+    }
+    if(gameTimeLeft <= 0){
+      clearInterval(gameTimer);
+      timeUp();
+    }
+  }, 1000);
+}
+
+function timeUp(){
+  gameFeedback.textContent = `⏰ Vreme isteklo! Rima za "${disp(gameCurrentWord)}" nije uneta.`;
+  gameFeedback.className = 'game-feedback wrong';
+  gamePlayersData[gameCurrentPlayerIdx].wrong++;
+  gamePlayersData[gameCurrentPlayerIdx].streak = 0;
+  gameCombo = 0;
+  gameCurrentWordIdx++;
+  gameSubmit.disabled = true;
+  setTimeout(nextWord, 1500);
+}
+
+function checkGameAnswer(){
+  const answer = toLatin(gameInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
+  if(!answer || answer.length < 2){
+    gameFeedback.textContent = 'Upiši rimu (bar 2 slova)';
+    gameFeedback.className = 'game-feedback hint';
+    return;
+  }
+  if(answer === gameCurrentWord){
+    gameFeedback.textContent = 'To je ista reč — probaj drugu';
+    gameFeedback.className = 'game-feedback hint';
+    return;
+  }
+  if(!SET.has(answer)){
+    gameFeedback.textContent = 'Ta reč nije u rečniku — probaj drugu';
+    gameFeedback.className = 'game-feedback hint';
+    return;
+  }
+
+  clearInterval(gameTimer);
+  const player = gamePlayersData[gameCurrentPlayerIdx];
+  const qKey = rhymeKey(gameCurrentWord);
+  const aKey = rhymeKey(answer);
+  const isRhyme = qKey === aKey || looseKey(gameCurrentWord) === looseKey(answer);
+
+  if(isRhyme){
+    gameCombo++;
+    if(gameCombo > gameMaxCombo) gameMaxCombo = gameCombo;
+    if(gameCombo > player.maxCombo) player.maxCombo = gameCombo;
+
+    const timeBonus = Math.max(0, gameTimeLeft);
+    const comboBonus = Math.min(50, gameCombo * 5);
+    const points = 10 + timeBonus + comboBonus;
+    player.score += points;
+    player.correct++;
+    player.streak++;
+    if(player.streak > player.bestStreak) player.bestStreak = player.streak;
+
+    gameFeedback.textContent = `✓ Tačno! +${points} poena (${gameTimeLeft}s + ${gameCombo}x combo)`;
+    gameFeedback.className = 'game-feedback correct';
+
+    playCorrect();
+    if(gameCombo >= 3) playCombo(gameCombo);
+    confetti();
+  } else {
+    player.wrong++;
+    player.streak = 0;
+    gameCombo = 0;
+    gameFeedback.textContent = `✗ "${disp(answer)}" se ne rimuje sa "${disp(gameCurrentWord)}"`;
+    gameFeedback.className = 'game-feedback wrong';
+    playWrong();
+    gameWordEl.style.animation = 'shake 0.5s';
+    setTimeout(() => gameWordEl.style.animation = '', 500);
+  }
+
+  gameCurrentWordIdx++;
+  gameSubmit.disabled = true;
+  renderProgress();
+  setTimeout(nextWord, 1500);
+}
+
+function renderProgress(){
+  gameProgress.innerHTML = '';
+  for(let i = 0; i < gameWordsPerPlayer; i++){
+    const dot = document.createElement('span');
+    dot.className = 'game-progress-dot';
+    if(i < gameCurrentWordIdx) dot.classList.add(gamePlayersData[gameCurrentPlayerIdx].correct > i ? 'correct' : 'wrong');
+    else if(i === gameCurrentWordIdx) dot.classList.add('current');
+    gameProgress.appendChild(dot);
+  }
+}
+
+function showResults(){
+  gamePlay.style.display = 'none';
+  gameResults.style.display = 'block';
+
+  const sorted = gamePlayersData.map((p, i) => ({ ...p, idx: i })).sort((a, b) => b.score - a.score);
+
+  gameResultsList.innerHTML = '';
+  sorted.forEach((p, rank) => {
+    const div = document.createElement('div');
+    div.className = 'game-result-item' + (rank === 0 ? ' winner' : '');
+    div.innerHTML = `
+      <span class="game-result-player">${rank === 0 ? '🏆 ' : ''}Igrač ${p.idx + 1}</span>
+      <span class="game-result-score">${p.score}</span>
+      <span class="game-result-details">${p.correct}✓ ${p.wrong}✗ combo:${p.maxCombo}x</span>
+    `;
+    gameResultsList.appendChild(div);
+  });
+
+  // Dostignuća
+  const achievements = [];
+  if(gameMaxCombo >= 5) achievements.push('🔥 Combo master (5x+)');
+  if(gameMaxCombo >= 10) achievements.push('⚡ Combo legend (10x+)');
+  if(sorted[0].correct === gameWordsPerPlayer) achievements.push('🎯 Perfect score');
+  if(achievements.length > 0){
+    const div = document.createElement('div');
+    div.style.cssText = 'margin-top:1rem;padding:1rem;background:#f8f0fe;border-radius:14px;font-weight:600';
+    div.innerHTML = achievements.map(a => `<p style="margin:.3rem 0">${a}</p>`).join('');
+    gameResultsList.appendChild(div);
+  }
+}
+
+document.getElementById('gameAgain').onclick = () => {
+  gameSetup.style.display = 'block';
+  gameResults.style.display = 'none';
+};
+
+gameSubmit.onclick = checkGameAnswer;
+gameInput.addEventListener('keydown', e => {
+  if(e.key === 'Enter' && !gameSubmit.disabled) checkGameAnswer();
+});
+
+// pokreni igru kad se otvori tab
+function initGame(){
+  if(WORDS.length > 0){
+    gameSetup.style.display = 'block';
+    gamePlay.style.display = 'none';
+    gameResults.style.display = 'none';
+  } else {
+    // rečnik još nije učitan — prikaži poruku ispod setup-a, ne uništavaj ga
+    if(!document.getElementById('gameLoading')){
+      const loading = document.createElement('p');
+      loading.id = 'gameLoading';
+      loading.className = 'empty';
+      loading.textContent = 'Učitavam rečnik...';
+      gameSetup.appendChild(loading);
+    }
+    setTimeout(initGame, 1000);
+  }
+}
 
 loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
   console.error('Greška pri učitavanju rečnika:', e);

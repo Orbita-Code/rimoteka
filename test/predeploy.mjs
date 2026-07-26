@@ -371,11 +371,18 @@ async function main() {
       }
     }
     ok('/rimovanje-reci/ → rečnik se učitao u alatu', alatRecnik, 'nije stigao');
+    // sinonimi.json (2 MB) se učitava u pozadini — na produkciji stigne posle
+    // rečnika, pa ga sačekamo pre provere grupe „Sinonimi"
+    await pAlat.waitForFunction('typeof SYNONYMS !== "undefined" && Object.keys(SYNONYMS).length > 0',
+                                { timeout: 180000 }).catch(() => {});
     const alat = await pAlat.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       const inp = document.getElementById('rimeInput');
       const btn = document.getElementById('rimeBtn');
       if (!inp || !btn) return { greska: 'nema polje ili dugme na strani' };
+      // Cekamo UNUTAR strane: SW pri prvoj poseti osvezi stranu i resetuje
+      // SYNONYMS, pa cekanje sa spoljne strane moze da promasi.
+      for (let i = 0; i < 120 && (typeof SYNONYMS === 'undefined' || Object.keys(SYNONYMS).length === 0); i++) await w(500);
       inp.value = 'ljubav';
       btn.click();
       await w(1000);

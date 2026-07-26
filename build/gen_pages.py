@@ -182,7 +182,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <body>
 <header class="site-header">
   <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
-    <h1 class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="Rimoteka" width="512" height="512"><span class="brand-word">imoteka</span></h1>
+    <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
   </a>
 </header>
 """
@@ -199,7 +199,7 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">
       <span class="footer-rimes-label">Vodiči:</span>
-      <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
+      <a href="/rimovanje-reci/" class="footer-link">Rimovanje reči</a> · <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
     </nav>
     <nav class="footer-guides" aria-label="Namene">
       <span class="footer-rimes-label">Namene:</span>
@@ -603,8 +603,88 @@ def main():
         for w in decije_reci
     )
 
+    # čipovi najtraženijih reči — interni linkovi za /rimovanje-reci/
+    rimovanje_reci_primeri = ['ljubav','srce','duša','sreća','tuga','nada','more','nebo','sunce',
+                              'mesec','zvezda','kiša','cvet','oči','ruka','put','noć','dan',
+                              'vetar','reka','pesma','život','san','svet']
+    rimovanje_chips = ''.join(
+        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/"><span class="word">{esc(w)}</span><span class="syl" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
+        for w in rimovanje_reci_primeri
+    )
+
     # 2d) nišne autoritet strane — deca, pesme, rep
     niche_defs = [
+        # Glavna strana za ciljanu frazu „rimovanje reči" (exact-match slug).
+        # Konkurencija (igrarecima.com/rimovanje-reci, rimovanje.com) rangira upravo
+        # na exact-match putanji — homepage sam nije dovoljan.
+        dict(slug='rimovanje-reci',
+             priority='0.9',
+             title='Rimovanje reči — pronađi rimu za svaku srpsku reč | Rimoteka',
+             desc='Rimovanje reči na srpskom: unesi reč i odmah dobij sve rime, sortirane po kvalitetu i broju slogova. Besplatno, bez reklama i registracije.',
+             h1='Rimovanje reči',
+             lead=('<strong>Rimovanje reči</strong> je traženje reči koje se na kraju zvučno poklapaju — '
+                   'osnova svake pesme, rep numere, slogana i rođendanske čestitke. '
+                   'Rimoteka pretražuje rečnik od <strong>preko 278.000 srpskih reči</strong> i '
+                   'izlista rime u trenutku, poređane od najčešćih ka manje poznatim. '
+                   'Evo reči za koje se rime najviše traže: ' + rimovanje_chips),
+             cta_href='/', cta_text='🔍 Rimuj svoju reč →',
+             sections=[
+                 ('Zašto Rimoteka, a ne bilo koji rimer?',
+                  'Rimoteka je pravljena <strong>za srpski jezik</strong>, a ne prevedena sa engleskog — '
+                  'zato prepoznaje ćirilicu i latinicu, ijekavicu i naše nastavke. '
+                  'Uz rime dobijaš i ono što drugi rimeri ne daju: '
+                  '<strong>značenje svake reči</strong> (preko 280.000 objašnjenja — nema ga nijedan rimer u svetu), '
+                  '<strong>sinonime</strong> kad ti rima ne odgovara po smislu, '
+                  '<strong>bliske rime</strong> za slobodniji zvuk, '
+                  '<strong>brojač slogova i karaktera</strong>, '
+                  '<strong>beležnicu</strong> u kojoj pišeš pesmu i vidiš rime u boji, '
+                  'i <strong>igru rima</strong> za uvežbavanje. '
+                  'Sve besplatno, bez registracije i bez reklama.'),
+                 ('Šta znači rimovanje reči?',
+                  'Dve reči se rimuju kada im se poklapaju glasovi počevši od poslednjeg naglašenog samoglasnika — '
+                  'na primer <em>nada</em> i <em>livada</em>, ili <em>srce</em> i <em>lice</em>. '
+                  'Što je poklapanje duže, rima je čistija i jače zvuči u stihu.'),
+                 ('Kako rimovati reč u tri koraka',
+                  '<strong>1.</strong> Upiši reč u polje na <a href="/">početnoj strani</a> — može latinicom ili ćirilicom. '
+                  '<strong>2.</strong> Klikni „Nađi rime" i dobićeš sve rime iz rečnika. '
+                  '<strong>3.</strong> Filtriraj po broju slogova da rima stane u ritam tvog stiha.'),
+                 ('Čiste rime i bliske rime',
+                  'Čista rima se poklapa u potpunosti (<em>ljubav — nesloga</em> nije, <em>ljubav — grbav</em> jeste). '
+                  'Bliska rima, ili asonanca, poklapa se samo u samoglasnicima i zvuči slobodnije — '
+                  'često se koristi u repu. Rimoteka prikazuje i jedne i druge, pa biraš šta ti treba. '
+                  'Više o šemama rima ima na strani <a href="/vrste-rima/">vrste rima</a>.'),
+                 ('Rimovanje reči i broj slogova',
+                  'Rima sama nije dovoljna — stihovi zvuče dobro kad imaju sličan broj slogova. '
+                  'Zato svaka rima u Rimoteci pored sebe ima broj slogova, a postoji i poseban '
+                  '<a href="/slogovi/">brojač slogova</a> za cele stihove.'),
+                 ('Rimovanje reči za decu',
+                  'Za dečje pesmice rečnik se može uključiti u <strong>dečji režim</strong>, koji izbacuje '
+                  'neprikladne reči. Detaljnije na strani <a href="/rime-za-decu/">rime za decu</a>.'),
+                 ('Ćirilica i ijekavica',
+                  'Reč možeš upisati ćirilicom ili latinicom — Rimoteka sama prepoznaje pismo. '
+                  'Postoji i opcija da se u rime uključi ijekavica (<em>mlijeko</em>, <em>lijep</em>), '
+                  'ako pišeš na tom izgovoru.'),
+             ],
+             faqs=[
+                 ('Šta je rimovanje reči?',
+                  'Rimovanje reči je traženje reči kojima se poklapaju glasovi na kraju, počevši od poslednjeg naglašenog samoglasnika. Koristi se u poeziji, repu, sloganima i čestitkama.'),
+                 ('Kako da rimujem reč koja nema rimu?',
+                  'Ako nema čiste rime, uključi opciju za bliske (slabije) rime — dobićeš asonance koje se poklapaju u samoglasnicima. Druga opcija je da preformulišeš stih tako da se rima traži za neku drugu reč na kraju.'),
+                 ('Koliko slogova treba da se poklapa?',
+                  'Za čistu rimu dovoljno je da se poklapa poslednji naglašeni slog i sve posle njega. Za jaču, bogatiju rimu poklapaju se dva ili više slogova.'),
+                 ('Da li rimovanje reči radi za ćirilicu?',
+                  'Da. Reč možeš upisati i ćirilicom i latinicom, a rezultate možeš prikazati u pismu koje izabereš gore na strani.'),
+                 ('Da li je alat za rimovanje reči besplatan?',
+                  'Da. Rimovanje reči na Rimoteci je potpuno besplatno, bez registracije i bez ograničenja broja pretraga.'),
+                 ('Koliko reči ima u rečniku?',
+                  'Rečnik ima preko 278.000 srpskih reči, uz frekvencijske podatke koji najčešće i najkorisnije rime stavljaju na vrh liste.'),
+                 ('Mogu li da vidim šta rima znači?',
+                  'Da. Rimoteka pored rime pokazuje i objašnjenje reči — ima preko 280.000 definicija na srpskom. To nema nijedan drugi rimer, pa nećeš staviti u pesmu reč čije značenje ne znaš.'),
+                 ('Šta ako se reč rimuje, ali mi ne odgovara po smislu?',
+                  'Za takve slučajeve postoje sinonimi — Rimoteka predlaže reči istog značenja, pa možeš da zameniš reč na kraju stiha i potražiš rime za nju.'),
+                 ('Postoji li brojač slogova i karaktera?',
+                  'Da, u posebnom tabu. Slogovi su važni za ritam stiha, a broj karaktera za tekstove gde postoji ograničenje — na primer slogane i čestitke.'),
+             ]),
         dict(slug='rime-za-decu',
              title='Rime za decu — bezbedne i lepe reči za dečje pesmice | Rimoteka',
              desc='Rime za decu: bezbedne, lepe i razumljive reči za dečje pesmice, igre i učenje. Filtrirano od neprikladnih reči — besplatan alat.',
@@ -824,7 +904,8 @@ def main():
         c = content_page(footer, cd['slug'], cd['title'], cd['desc'], cd['h1'],
                          cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'])
         sitemap_entries.append(
-            f'  <url><loc>{c}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>')
+            f'  <url><loc>{c}</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq>'
+            f'<priority>{cd.get("priority", "0.6")}</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

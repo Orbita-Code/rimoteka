@@ -1,0 +1,2720 @@
+# Predlog dopune rečnika — glagoli sa krnjom paradigmom
+
+> Automatski izveštaj. **NIŠTA nije upisano u `reci.txt`.**
+
+- Glagola sa krnjom paradigmom: **1827**
+- Predloženih novih oblika: **13827**
+- Svaki novi oblik bi dobio objašnjenje u `definicije.json` (pravilo projekta).
+
+## Kako čitati
+
+- **sigurnost: visoka** — tip glagola je pravilan, oblici su predvidivi. Može se odobriti grupno.
+- **sigurnost: proveri** — postoji više mogućih obrazaca, treba tvoja odluka. Npr. `njakati` ide ili `njakam, njaka` ili `njačem, njače` — oba se sreću, a u rečniku već postoji `njaka`, pa treba odlučiti da li dodajemo i „č" oblike.
+
+
+---
+
+# SIGURNOST: VISOKA — 1215 glagola, 11009 oblika
+
+
+## Tip `-ati/-eti (obrazac -am, pročitan iz rečnika)` — 167 glagola
+
+- **bubati** — *Udarati tupo; učiti napamet bez razumevanja, bubati lekciju; bubati.*
+  - predlog: bubaš, bubamo, bubate, bubaju, bubaj, bubajte, bubao, bubali, bubale
+- **cenkati** — *Pogađati se oko cene (cenkati se).*
+  - predlog: cenkate, cenkaju, cenkaj, cenkajte, cenkao, cenkala, cenkalo, cenkali, cenkale
+- **cinkati** — *Potkazivati, prijavljivati nekoga (žargon).*
+  - predlog: cinkaš, cinkamo, cinkate, cinkaju, cinkaj, cinkajte, cinkalo, cinkali, cinkale
+- **cugati** — *Piti alkohol (žargonski).*
+  - predlog: cugamo, cugate, cugaju, cugajte, cugao, cugala, cugalo, cugali, cugale
+- **dadiljati** — *Čuvati decu kao dadilja, baviti se čuvanjem dece.*
+  - predlog: dadiljamo, dadiljate, dadiljaju, dadiljaj, dadiljajte, dadiljao, dadiljala, dadiljalo, dadiljali, dadiljale
+- **dilati** — *Prodavati, preprodavati drogu (žargonski).*
+  - predlog: dilam, dilamo, dilate, dilaju, dilaj, dilajte, dilao, dilala, dilalo, dilali, dilale
+- **dodvoravati** — *Dodvoravati se — ulagivati se da bi se umililo.*
+  - predlog: dodvoravaš, dodvoravamo, dodvoravate, dodvoravaju, dodvoravaj, dodvoravajte, dodvoravao, dodvoravala, dodvoravalo, dodvoravali, dodvoravale
+- **dopunjavati** — *Dodavati ono što nedostaje, upotpunjavati; dopunjavati.*
+  - predlog: dopunjavaš, dopunjavamo, dopunjavate, dopunjavaj, dopunjavajte, dopunjavalo, dopunjavali, dopunjavale
+- **dovijati** — *Dovijati se — snalaziti se domišljato.*
+  - predlog: dovijam, dovijamo, dovijate, dovijaju, dovijaj, dovijajte, dovijala, dovijalo, dovijali, dovijale
+- **džonjati** — *Dremati, čamiti besposlen i pospan; džonjati.*
+  - predlog: džonjaš, džonjamo, džonjate, džonjaj, džonjajte, džonjao, džonjala, džonjalo, džonjale
+- **fućkati** — *Zviždati usnama ili zviždaljkom; fućkati.*
+  - predlog: fućkamo, fućkate, fućkaju, fućkaj, fućkajte, fućkao, fućkala, fućkalo, fućkali, fućkale
+- **gacati** — *Gaziti kroz vodu ili blato.*
+  - predlog: gaca, gacamo, gacate, gacaju, gacaj, gacajte, gacao, gacala, gacalo, gacale
+- **gnjurati** — *Roniti, zaranjati pod vodu.*
+  - predlog: gnjuraš, gnjuramo, gnjurate, gnjuraj, gnjurajte, gnjurala, gnjuralo, gnjurale
+- **gonetati** — *Oblik reči gonetati (odgonetati, rešavati zagonetku).*
+  - predlog: gonetaš, gonetamo, gonetate, gonetaju, gonetaj, gonetajte, gonetao, gonetala, gonetale
+- **gužvati** — *Gnječiti i nabirati u bore; stvarati gužvu i nered; gužvati.*
+  - predlog: gužvam, gužvamo, gužvate, gužvaj, gužvajte, gužvala, gužvalo, gužvali, gužvale
+- **heklati** — *Plesti pomoću jedne kukice.*
+  - predlog: heklaš, heklamo, heklate, heklaju, heklaj, heklajte, heklao, heklala, heklalo, heklali, heklale
+- **iscepkati** — *Isitniti cepanjem na male komadiće; izdrobiti i rasparčati.*
+  - predlog: iscepkaš, iscepka, iscepkamo, iscepkate, iscepkaju, iscepkaj, iscepkajte, iscepkao, iscepkalo, iscepkali, iscepkale
+- **isijavati** — *Zračiti, isijavati svetlost ili toplotu; isijavati.*
+  - predlog: isijavaš, isijavamo, isijavate, isijavaj, isijavajte, isijavalo, isijavali, isijavale
+- **isisavati** — *Izvlačiti sisanjem ili usisavanjem, isisavati; isisavati.*
+  - predlog: isisavamo, isisavate, isisavaj, isisavajte, isisavala, isisavalo, isisavali, isisavale
+- **iskati** — *Oblik glagola „iskati“; tražiti i moliti, iskati; zahtevati (počeo iskati pomoć)*
+  - predlog: iskaš, iskamo, iskate, iskaju, iskaj, iskajte, iskalo, iskale
+- **iskijati** — *Izbaciti kijanjem, iskijati nešto iz nosa; iskijati.*
+  - predlog: iskijam, iskija, iskijamo, iskijate, iskijaju, iskijaj, iskijajte, iskijala, iskijalo, iskijali, iskijale
+- **iskobeljati** — *Izvući se iz teškoće ili neprilike s naporom, iskobeljati se; iskobeljati se.*
+  - predlog: iskobeljaš, iskobeljamo, iskobeljate, iskobeljaju, iskobeljaj, iskobeljajte, iskobeljalo, iskobeljali, iskobeljale
+- **iskupljati** — *Otkupljivati krivicu; sakupljati; iskupljati.*
+  - predlog: iskupljaš, iskupljamo, iskupljate, iskupljaj, iskupljajte, iskupljao, iskupljala, iskupljalo, iskupljale
+- **ispavati** — *Naspavati se do mile volje, dovoljno se odmoriti spavanjem; ispavati se.*
+  - predlog: ispavamo, ispavate, ispavajte, ispavao, ispavala, ispavalo, ispavali, ispavale
+- **ispipati** — *Oblik glagola „ispipati“; pipanjem pretražiti i ispitati; preneseno: oprezno pro*
+  - predlog: ispipaš, ispipamo, ispipate, ispipaju, ispipajte, ispipala, ispipalo, ispipali, ispipale
+- **ispovraćati** — *Oblik reči ispovraćati (izbljuvati sve, povratiti).*
+  - predlog: ispovraćamo, ispovraćate, ispovraćaju, ispovraćaj, ispovraćajte, ispovraćalo, ispovraćali, ispovraćale
+- **ispripovedati** — *Ispričati pripovedajući, izložiti u celini pripovedanjem; ispripovedati.*
+  - predlog: ispripovedaš, ispripovedamo, ispripovedate, ispripovedaju, ispripovedaj, ispripovedajte, ispripovedalo, ispripovedali, ispripovedale
+- **izbrbljati** — *Odati brbljanjem; izlanuti.*
+  - predlog: izbrbljamo, izbrbljate, izbrbljaju, izbrbljaj, izbrbljajte, izbrbljalo, izbrbljali, izbrbljale
+- **izglancati** — *Trljanjem učiniti da nešto sija.*
+  - predlog: izglancaš, izglancamo, izglancate, izglancaju, izglancajte, izglancala, izglancalo, izglancali, izglancale
+- **izlupati** — *Izudarati; istući lupanjem.*
+  - predlog: izlupaš, izlupamo, izlupate, izlupaju, izlupaj, izlupala, izlupalo, izlupali, izlupale
+- **iznuđavati** — *Silom ili pretnjom izvlačiti i dobijati; iznuđavati novac, ucenjivati.*
+  - predlog: iznuđavaš, iznuđava, iznuđavamo, iznuđavate, iznuđavaju, iznuđavaj, iznuđavajte, iznuđavao, iznuđavala, iznuđavalo, iznuđavali, iznuđavale
+- **izračunavati** — *Oblik reči izračunavati (računati, dolaziti do rezultata).*
+  - predlog: izračunavaš, izračunavamo, izračunavate, izračunavaju, izračunavaj, izračunavajte, izračunavao, izračunavala, izračunavalo, izračunavali, izračunavale
+- **izuvati** — *Skidati obuću s nogu; izuvati se.*
+  - predlog: izuvaš, izuvamo, izuvate, izuvaj, izuvajte, izuvala, izuvalo, izuvali, izuvale
+- **izuzimati** — *Izdvajati i ne uračunavati, izostavljati; izuzimati.*
+  - predlog: izuzimaš, izuzimate, izuzimaj, izuzimajte, izuzimao, izuzimala, izuzimalo, izuzimale
+- **išamarati** — *Izudarati šamarima.*
+  - predlog: išamaraš, išamaramo, išamarate, išamaraju, išamaraj, išamarajte, išamarala, išamaralo, išamarali, išamarale
+- **išibati** — *Izbičevati, izudarati šibom; išibati.*
+  - predlog: išibamo, išibate, išibaj, išibajte, išibala, išibalo, išibali, išibale
+- **kaljati** — *Prljati blatom; (preneseno) ljagati čast.*
+  - predlog: kaljam, kaljamo, kaljaj, kaljajte, kaljala, kaljalo, kaljali, kaljale
+- **kolutati** — *Kotrljati u krug; prevrtati (očima); kolutati.*
+  - predlog: kolutamo, kolutate, kolutaj, kolutajte, kolutao, kolutala, kolutalo, kolutali
+- **kopkati** — *Pomalo kopati; mučiti, ne davati mira.*
+  - predlog: kopkaš, kopkamo, kopkate, kopkaju, kopkajte, kopkao, kopkala, kopkale
+- **krcati** — *Puniti do vrha, nakrcavati, tovariti; krcati.*
+  - predlog: krcaš, krcamo, krcaj, krcajte, krcao, krcala, krcalo, krcali, krcale
+- **kuckati** — *Lagano i ponovljeno kucati.*
+  - predlog: kuckam, kucka, kuckamo, kuckate, kuckajte, kuckala, kuckali, kuckale
+- **lemati** — *Tući i mlatiti, udarati; biti i prebijati.*
+  - predlog: lemaš, lemamo, lemate, lemaju, lemaj, lemajte, lemao, lemala, lemalo, lemale
+- **ljuljuškati** — *Nežno ljuljati, najčešće bebu.*
+  - predlog: ljuljuškaš, ljuljuškamo, ljuljuškate, ljuljuškaju, ljuljuškaj, ljuljuškajte, ljuljuškao, ljuljuškala, ljuljuškalo, ljuljuškali, ljuljuškale
+- **merkati** — *Pažljivo posmatrati, osmatrati, vrebati (razgovorno); merkati.*
+  - predlog: merkamo, merkate, merkaju, merkaj, merkajte, merkala, merkalo, merkali, merkale
+- **moljakati** — *Uporno i ponizno moliti.*
+  - predlog: moljakaš, moljakate, moljakaju, moljakaj, moljakajte, moljakala, moljakalo, moljakale
+- **nabubati** — *Naučiti napamet bez razumevanja (žargonski); nabubati.*
+  - predlog: nabubaš, nabuba, nabubamo, nabubate, nabubaju, nabubaj, nabubajte, nabubao, nabubalo, nabubali, nabubale
+- **nadevati** — *Davati ime; takođe puniti nadevom.*
+  - predlog: nadevaš, nadevamo, nadevate, nadevaj, nadevao, nadevala, nadevalo, nadevale
+- **nagizdati** — *Lepo nakititi i doterati.*
+  - predlog: nagizdaš, nagizda, nagizdamo, nagizdate, nagizdaju, nagizdaj, nagizdajte, nagizdao, nagizdala, nagizdalo, nagizdali, nagizdale
+- **naklapati** — *Pričati gluposti, brbljati.*
+  - predlog: naklapaš, naklapa, naklapamo, naklapate, naklapaju, naklapaj, naklapajte, naklapao, naklapala, naklapale
+- **nalupati** — *Glagol: mnogo izlupati i izudarati; u izrazu nalupati gluposti, napričati besmis*
+  - predlog: nalupaš, nalupamo, nalupate, nalupaju, nalupaj, nalupajte, nalupala, nalupalo, nalupali, nalupale
+- **namorati** — *Primorati, naterati nekoga na nešto (narodski); namorati.*
+  - predlog: namoram, namora, namoramo, namorate, namoraju, namoraj, namorajte, namorala, namoralo, namorali, namorale
+- **naoružavati** — *Snabdevati oružjem, opremati za borbu; naoružavati.*
+  - predlog: naoružavam, naoružavamo, naoružavate, naoružavajte, naoružavala, naoružavalo, naoružavali, naoružavale
+- **napipati** — *Pipajući naći; napipati u mraku.*
+  - predlog: napipaš, napipamo, napipate, napipaj, napipajte, napipalo, napipali, napipale
+- **naslušati** — *Naslušati se dovoljno, mnogo slušati; naslušati se.*
+  - predlog: naslušaš, nasluša, naslušamo, naslušate, naslušaju, naslušaj, naslušajte, naslušalo, naslušale
+- **nauživati** — *Uživati dovoljno, nauživati se; nauživati se.*
+  - predlog: nauživaš, nauživamo, nauživate, nauživaj, nauživajte, nauživala, nauživalo, nauživali, nauživale
+- **navodnjavati** — *Dovoditi vodu na njivu; zalivati.*
+  - predlog: navodnjavaš, navodnjavamo, navodnjavate, navodnjavaju, navodnjavaj, navodnjavajte, navodnjavao, navodnjavala, navodnjavalo, navodnjavali, navodnjavale
+- **navršavati** — *Ispunjavati određen broj godina ili meru; navršavati.*
+  - predlog: navršavaš, navršavamo, navršavate, navršavaj, navršavajte, navršavao, navršavala, navršavali, navršavale
+- **nećkati** — *Nećkati se — ustručavati se, oklevati da pristane.*
+  - predlog: nećkamo, nećkate, nećkaj, nećkajte, nećkala, nećkalo, nećkali, nećkale
+- **obračunavati** — *Svoditi račun, izračunavati iznose; obračunavati.*
+  - predlog: obračunavaš, obračunavamo, obračunavate, obračunavaj, obračunavajte, obračunavao, obračunavala, obračunavalo, obračunavali, obračunavale
+- **obustavljati** — *Prekidati i zaustavljati; obustavljati rad.*
+  - predlog: obustavljaš, obustavljate, obustavljaj, obustavljajte, obustavljao, obustavljala, obustavljalo, obustavljali, obustavljale
+- **odlepršati** — *Odleteti lepršajući; odlepršati na vetru.*
+  - predlog: odlepršam, odlepršamo, odlepršate, odlepršaju, odlepršajte, odlepršalo, odlepršali, odlepršale
+- **odučavati** — *Odvikavati od navike, navikavati na suprotno; odučavati.*
+  - predlog: odučavaš, odučavamo, odučavate, odučavaju, odučavaj, odučavajte, odučavao, odučavala, odučavalo, odučavali, odučavale
+- **odvikavati** — *Odvikavati od navike, navikavati na suprotno; odvikavati.*
+  - predlog: odvikavaš, odvikavamo, odvikavate, odvikavaj, odvikavajte, odvikavala, odvikavalo, odvikavali, odvikavale
+- **okajavati** — *Ispaštati, iskupljivati grehe pokajanjem; okajavati.*
+  - predlog: okajavaš, okajavamo, okajavate, okajavaj, okajavajte, okajavala, okajavalo, okajavali, okajavale
+- **okaljati** — *Uprljati, okaljati čast ili dobro ime; okaljati.*
+  - predlog: okaljam, okaljamo, okaljate, okaljaj, okaljajte, okaljala, okaljalo, okaljale
+- **okapati** — *Mučiti se i dangubiti čekajući, propadati od muke; okapati.*
+  - predlog: okapaš, okapa, okapamo, okapate, okapaju, okapaj, okapajte, okapao, okapala, okapalo, okapali, okapale
+- **okidati** — *Povlačiti obarač, pokretati naglim pokretom; okidati.*
+  - predlog: okidaš, okidamo, okidate, okidaju, okidaj, okidajte, okidao, okidala, okidalo, okidali, okidale
+- **opovrgavati** — *Dokazivati da nešto nije tačno; pobijati.*
+  - predlog: opovrgavaš, opovrgavamo, opovrgavate, opovrgavaju, opovrgavaj, opovrgavajte, opovrgavao, opovrgavala, opovrgavalo, opovrgavali, opovrgavale
+- **opozivati** — *Povlačiti naredbu, odluku ili imenovanje; opozivati.*
+  - predlog: opozivamo, opozivate, opozivaju, opozivaj, opozivajte, opozivala, opozivalo, opozivali, opozivale
+- **oribati** — *Snažno istrljati da se očisti.*
+  - predlog: oriba, oribamo, oribate, oribaju, oribajte, oribalo, oribali, oribale
+- **osipati** — *Osipati se — opadati u zrnima; gubiti dlaku ili boju.*
+  - predlog: osipaš, osipamo, osipate, osipaj, osipajte, osipao, osipalo, osipali, osipale
+- **otkopčavati** — *Razdvajati otkopčavanjem; otkopčavati dugmad.*
+  - predlog: otkopčavaš, otkopčavamo, otkopčavate, otkopčavaj, otkopčavajte, otkopčavalo, otkopčavali, otkopčavale
+- **očijukati** — *Koketirati pogledima, flertovati; očijukati.*
+  - predlog: očijukam, očijukamo, očijukate, očijukaj, očijukajte, očijukalo, očijukali, očijukale
+- **palacati** — *Brzo isturati i uvlačiti jezik (kao zmija); palacati.*
+  - predlog: palacaš, palaca, palacamo, palacate, palacaj, palacajte, palacao, palacala, palacalo, palacali, palacale
+- **pačati** — *Mešati se u tuđe poslove; pačati se.*
+  - predlog: pačaš, pačamo, pačate, pačaju, pačaj, pačajte, pačao, pačala, pačalo, pačali, pačale
+- **pobojavati** — *Pobojavati se, pomalo strepeti; pobojavati se.*
+  - predlog: pobojavaš, pobojava, pobojavamo, pobojavate, pobojavaju, pobojavaj, pobojavajte, pobojavao, pobojavala, pobojavalo, pobojavali, pobojavale
+- **podebljati** — *Učiniti debljim; istaći tekst masnim slovima; podebljati.*
+  - predlog: podebljaš, podeblja, podebljamo, podebljate, podebljaju, podebljaj, podebljajte, podebljala, podebljalo, podebljali
+- **podražavati** — *Oponašati, ugledati se i ponavljati tuđe postupke; podražavati.*
+  - predlog: podražavamo, podražavate, podražavaju, podražavajte, podražavala, podražavalo, podražavali, podražavale
+- **podšišati** — *Skratiti šišanjem; potkratiti kosu.*
+  - predlog: podšiša, podšišamo, podšišate, podšišajte, podšišala, podšišalo, podšišali, podšišale
+- **pokarati** — *Ukoriti, izgrditi, kazniti; pokarati.*
+  - predlog: pokaram, pokaramo, pokarate, pokaraju, pokarajte, pokarala, pokaralo, pokarali, pokarale
+- **popevati** — *Pevušiti, popevati; popevati.*
+  - predlog: popevaš, popevamo, popevate, popevajte, popevala, popevalo, popevali, popevale
+- **posisati** — *Isisati, posisati; posisati.*
+  - predlog: posisam, posisamo, posisate, posisaju, posisajte, posisala, posisali, posisale
+- **potkivati** — *Pribijati potkovice, potkivati konje; potkivati.*
+  - predlog: potkivaš, potkivamo, potkivate, potkivaju, potkivaj, potkivajte, potkivala, potkivalo, potkivali, potkivale
+- **potkopavati** — *Kopati ispod; (preneseno) tajno rušiti ugled.*
+  - predlog: potkopavam, potkopavamo, potkopavate, potkopavaj, potkopavajte, potkopavala, potkopavalo, potkopavali, potkopavale
+- **povešati** — *Obesiti više njih, povešati u nizu; povešati.*
+  - predlog: povešaš, povešamo, povešate, povešaju, povešaj, povešajte, povešala, povešalo, povešali, povešale
+- **počekati** — *Oblik reči počekati (sačekati neko vreme).*
+  - predlog: počekaš, počekamo, počekate, počekao, počekala, počekalo, počekali, počekale
+- **precrtavati** — *Crtati preko gotovog crteža; brisati crtom.*
+  - predlog: precrtavaš, precrtavamo, precrtavaju, precrtavaj, precrtavajte, precrtavala, precrtavalo, precrtavali, precrtavale
+- **predočavati** — *Jasno pokazivati, iznositi pred oči; predočavati.*
+  - predlog: predočavaš, predočavamo, predočavate, predočavaju, predočavaj, predočavajte, predočavala, predočavali, predočavale
+- **predsedavati** — *Voditi sednicu kao predsedavajući; predsedavati.*
+  - predlog: predsedavaš, predsedavamo, predsedavate, predsedavaju, predsedavaj, predsedavajte, predsedavala, predsedavalo, predsedavali, predsedavale
+- **prekucati** — *Pisati i prepisivati na pisaćoj mašini ili tastaturi; prekucati.*
+  - predlog: prekucaš, prekucamo, prekucate, prekucaju, prekucaj, prekucajte, prekucala, prekucalo, prekucali, prekucale
+- **prelistavati** — *Listati i površno pregledati knjigu ili spise; prelistavati.*
+  - predlog: prelistavaš, prelistavamo, prelistavate, prelistavaju, prelistavaj, prelistavajte, prelistavalo, prelistavale
+- **prepravljati** — *Menjati i preinačavati, prerađivati; popravljati menjajući oblik.*
+  - predlog: prepravljamo, prepravljate, prepravljaj, prepravljajte, prepravljala, prepravljalo, prepravljali, prepravljale
+- **preslušavati** — *Saslušavati, preslušavati; preslušavati.*
+  - predlog: preslušavamo, preslušavate, preslušavaju, preslušavaj, preslušavajte, preslušavala, preslušavalo, preslušavali, preslušavale
+- **preusmeravati** — *Menjati pravac, usmeravati drugamo; preusmeravati.*
+  - predlog: preusmeravaš, preusmeravate, preusmeravaj, preusmeravajte, preusmeravao, preusmeravala, preusmeravalo, preusmeravali, preusmeravale
+- **preznojavati** — *Oblivati znojem, preznojavati; preznojavati.*
+  - predlog: preznojavamo, preznojavate, preznojavaju, preznojavaj, preznojavajte, preznojavala, preznojavalo, preznojavali, preznojavale
+- **pribavljati** — *Nabavljati, obezbeđivati, dolaziti do nečega; pribavljati.*
+  - predlog: pribavljamo, pribavljate, pribavljaj, pribavljajte, pribavljao, pribavljala, pribavljalo, pribavljale
+- **pribojavati** — *Pribojavati se — pomalo se bojati.*
+  - predlog: pribojavaš, pribojavamo, pribojavate, pribojavaj, pribojavajte, pribojavalo, pribojavali, pribojavale
+- **privikavati** — *Oblik glagola „privikavati“; postepeno navikavati i prilagođavati na nešto, učit*
+  - predlog: privikavate, privikavaj, privikavajte, privikavao, privikavala, privikavalo, privikavali, privikavale
+- **pričinjavati** — *Privlačiti se kao priviđenje, činiti se; pričinjavati se.*
+  - predlog: pričinjavaš, pričinjavamo, pričinjavate, pričinjavaj, pričinjavajte, pričinjavala, pričinjavali, pričinjavale
+- **prospavati** — *Provesti vreme spavajući.*
+  - predlog: prospavaš, prospavamo, prospavate, prospavaju, prospavaj, prospavajte, prospavala, prospavalo, prospavali, prospavale
+- **pročačkati** — *Pročeprkati, prečačkati, prokopati radi čišćenja; pročačkati.*
+  - predlog: pročačkaš, pročačkamo, pročačkate, pročačkaj, pročačkajte, pročačkao, pročačkala, pročačkalo, pročačkali, pročačkale
+- **pročitavati** — *Čitati u celosti i redom, iščitavati; pročitavati.*
+  - predlog: pročitavaš, pročitavamo, pročitavate, pročitavaju, pročitavajte, pročitavala, pročitavalo, pročitavali, pročitavale
+- **pročišćavati** — *Čistiti do kraja, uklanjati nečistoće; pročišćavati.*
+  - predlog: pročišćavaš, pročišćavamo, pročišćavate, pročišćavaj, pročišćavajte, pročišćavao, pročišćavala, pročišćavalo, pročišćavali, pročišćavale
+- **puškarati** — *Pucati povremeno, prepucavati se; puškarati.*
+  - predlog: puškaraš, puškaramo, puškarate, puškaraj, puškarajte, puškarao, puškarala, puškaralo, puškarali, puškarale
+- **ratosiljati** — *Otarasiti se, osloboditi se nečega; ratosiljati se.*
+  - predlog: ratosilja, ratosiljamo, ratosiljate, ratosiljaju, ratosiljaj, ratosiljajte, ratosiljala, ratosiljalo, ratosiljali, ratosiljale
+- **razgledavati** — *Oblik reči razgledavati (obilaziti i posmatrati, razgledati).*
+  - predlog: razgledavaš, razgledava, razgledavate, razgledavaju, razgledavaj, razgledavajte, razgledavala, razgledavalo, razgledavali, razgledavale
+- **razmnožavati** — *Povećavati broj rađanjem ili sađenjem.*
+  - predlog: razmnožavaš, razmnožavate, razmnožavaj, razmnožavajte, razmnožavao, razmnožavala, razmnožavalo, razmnožavale
+- **razmotavati** — *Odmotavati, razvijati ono što je smotano; razmotavati.*
+  - predlog: razmotavaš, razmotavamo, razmotavate, razmotavaju, razmotavaj, razmotavajte, razmotavala, razmotavalo, razmotavali, razmotavale
+- **razočaravati** — *Izazivati razočaranje; razočaravati.*
+  - predlog: razočaravamo, razočaravate, razočaravaj, razočaravajte, razočaravao, razočaravala, razočaravalo, razočaravali, razočaravale
+- **razračunati** — *Obračunati se, svesti račune; razračunati se.*
+  - predlog: razračunaš, razračunamo, razračunate, razračunaju, razračunaj, razračunajte, razračunao, razračunala, razračunalo, razračunali, razračunale
+- **razrešavati** — *Rešavati, otklanjati; razrešavati.*
+  - predlog: razrešavamo, razrešavate, razrešavaju, razrešavaj, razrešavajte, razrešavala, razrešavalo, razrešavali, razrešavale
+- **razvrstavati** — *Ređati po vrstama, klasifikovati po grupama; razvrstavati.*
+  - predlog: razvrstavaš, razvrstavamo, razvrstavate, razvrstavaju, razvrstavaj, razvrstavajte, razvrstavao, razvrstavala, razvrstavalo, razvrstavali, razvrstavale
+- **raščišćavati** — *Uklanjati nered, raščišćavati; raščišćavati.*
+  - predlog: raščišćavaš, raščišćavamo, raščišćavate, raščišćavaj, raščišćavajte, raščišćavao, raščišćavala, raščišćavalo, raščišćavali, raščišćavale
+- **rintati** — *Naporno raditi, rintati; rintati.*
+  - predlog: rinta, rintamo, rintate, rintaju, rintajte, rintala, rintalo, rintali, rintale
+- **ritati** — *Oblik reči ritati se (udarati nogama, ritati se kao konj).*
+  - predlog: ritaš, ritamo, ritate, ritaj, ritajte, ritalo, ritali, ritale
+- **rolati** — *Glagol: motati u rolnu ili valjak; razgovorno: voziti se na rolerima (rolati tes*
+  - predlog: rolaš, rolaju, rolaj, rolajte, rolao, rolala, rolalo, rolali, rolale
+- **rominjati** — *Sitno i tiho padati (kiša rominja).*
+  - predlog: rominjaš, rominjamo, rominjate, rominjaju, rominjaj, rominjajte, rominjao, rominjalo, rominjali, rominjale
+- **sagibati** — *Savijati, pregibati; saginjati se; sagibati.*
+  - predlog: sagibaš, sagibamo, sagibate, sagibaju, sagibaj, sagibajte, sagibao, sagibala, sagibalo, sagibale
+- **salati** — *Oblik reči „salata“; jelo od povrća (u salati).*
+  - predlog: salam, salamo, salaju, salaj, salajte, salao, salala, salalo, salali, salale
+- **skapati** — *Uginuti, skapati od gladi; skapati.*
+  - predlog: skapam, skapa, skapamo, skapate, skapaju, skapaj, skapajte, skapala, skapale
+- **sklepati** — *Na brzinu i nemarno sastaviti.*
+  - predlog: sklepaš, sklepate, sklepaju, sklepaj, sklepajte, sklepala, sklepalo, sklepale
+- **skotrljati** — *Kotrljajući spustiti niz nešto; otkotrljati nadole.*
+  - predlog: skotrljaš, skotrljamo, skotrljate, skotrljaju, skotrljaj, skotrljajte, skotrljalo, skotrljali
+- **smandrljati** — *Izvesti aljkavo i na brzinu, sklepati; smandrljati.*
+  - predlog: smandrljaš, smandrlja, smandrljamo, smandrljate, smandrljaju, smandrljaj, smandrljajte, smandrljala, smandrljalo, smandrljali, smandrljale
+- **spetljati** — *Oblik reči spetljati (zamrsiti; uvaliti u nevolju).*
+  - predlog: spetlja, spetljamo, spetljate, spetljaju, spetljaj, spetljajte, spetljalo, spetljale
+- **spopadati** — *Obuzimati, navaljivati; spopadati.*
+  - predlog: spopadam, spopadamo, spopadate, spopadaj, spopadajte, spopadalo, spopadali, spopadale
+- **sprati** — *Glagol: vodom ukloniti, isprati.*
+  - predlog: spraš, spra, spramo, sprate, spraju, spraj, sprajte, spralo
+- **stropoštati** — *Survati se, naglo se srušiti; stropoštati se.*
+  - predlog: stropoštaš, stropoštamo, stropoštate, stropoštaju, stropoštaj, stropoštajte, stropoštala, stropoštalo, stropoštali, stropoštale
+- **suljati** — *Vući noge klizajući po podu, suljati se; suljati.*
+  - predlog: suljaš, sulja, suljamo, suljate, suljaju, suljaj, suljajte, suljalo, suljali, suljale
+- **surfati** — *Oblik reči surfovati (kliziti po talasima; pretraživati internet).*
+  - predlog: surfamo, surfate, surfaju, surfaj, surfajte, surfala, surfalo, surfali, surfale
+- **trućati** — *Pričati gluposti; trućati.*
+  - predlog: trućam, truća, trućamo, trućate, trućaju, trućaj, trućajte, trućala, trućalo, trućali, trućale
+- **udovoljavati** — *Oblik reči udovoljavati (zadovoljavati želje, ispunjavati).*
+  - predlog: udovoljavamo, udovoljavate, udovoljavaj, udovoljavajte, udovoljavala, udovoljavalo, udovoljavali, udovoljavale
+- **ukopavati** — *Zakopavati, ukopavati.*
+  - predlog: ukopavamo, ukopavate, ukopavaj, ukopavajte, ukopavao, ukopavalo, ukopavali, ukopavale
+- **uljuljati** — *Uspavati ljuljanjem.*
+  - predlog: uljuljaš, uljulja, uljuljamo, uljuljate, uljuljaju, uljuljaj, uljuljajte, uljuljao, uljuljala, uljuljalo, uljuljali, uljuljale
+- **uobražavati** — *Umišljati; zamišljati nešto čega nema.*
+  - predlog: uobražavamo, uobražavate, uobražavaju, uobražavaj, uobražavajte, uobražavala, uobražavalo, uobražavali, uobražavale
+- **usecati** — *Usecati, urezivati.*
+  - predlog: usecaš, usecamo, usecate, usecaj, usecajte, usecao, usecala, usecalo, usecali, usecale
+- **uspostavljati** — *Oblik glagola uspostavljati (zasnivati, obnavljati).*
+  - predlog: uspostavljate, uspostavljaj, uspostavljajte, uspostavljao, uspostavljala, uspostavljalo, uspostavljali, uspostavljale
+- **utopljavati** — *Daviti u vodi, gušiti vodom; utopljavati.*
+  - predlog: utopljavaš, utopljavamo, utopljavate, utopljavaju, utopljavaj, utopljavajte, utopljavao, utopljavalo, utopljavali, utopljavale
+- **učitavati** — *Unositi podatke u računar ili memoriju; učitavati.*
+  - predlog: učitavaš, učitavamo, učitavajte, učitavao, učitavala, učitavalo, učitavali, učitavale
+- **uživljavati** — *Uživljavati se — unositi se u nečije stanje, suosećati.*
+  - predlog: uživljavaš, uživljavamo, uživljavate, uživljavaju, uživljavaj, uživljavajte, uživljavao, uživljavalo, uživljavali, uživljavale
+- **varakati** — *Varati pomalo; mamiti.*
+  - predlog: varakaš, varakate, varakaju, varakaj, varakajte, varakao, varakala, varakalo, varakali, varakale
+- **vatati** — *Hvatati (narodski); vatati.*
+  - predlog: vatam, vatamo, vatate, vataju, vataj, vatajte, vatala, vatalo, vatali, vatale
+- **vrdati** — *Izbegavati odgovor; okolišati.*
+  - predlog: vrda, vrdamo, vrdate, vrdaju, vrdajte, vrdao, vrdalo, vrdali, vrdale
+- **vucarati** — *Vući tamo-amo; tegliti okolo.*
+  - predlog: vucaram, vucaramo, vucarate, vucaraj, vucarajte, vucaralo, vucarali, vucarale
+- **zakerati** — *Cepidlačiti; prigovarati sitnicama.*
+  - predlog: zakera, zakeramo, zakerate, zakeraj, zakerajte, zakerao, zakerali, zakerale
+- **zaklapati** — *Zatvarati nešto što se sklapa; sklapati.*
+  - predlog: zaklapaš, zaklapamo, zaklapate, zaklapaj, zaklapajte, zaklapao, zaklapala, zaklapalo, zaklapali, zaklapale
+- **zakopčavati** — *Spajati kopčanjem; zakopčavati dugmad.*
+  - predlog: zakopčavaš, zakopčavamo, zakopčavate, zakopčavaj, zakopčavajte, zakopčavao, zakopčavala, zakopčavalo, zakopčavale
+- **zakucavati** — *Udarcima zabijati ekser; prikivati.*
+  - predlog: zakucavamo, zakucavate, zakucavaju, zakucavaj, zakucavajte, zakucavala, zakucavalo, zakucavale
+- **zakunjati** — *Zadremati, nakratko zaspati sedeći; zakunjati.*
+  - predlog: zakunjaš, zakunja, zakunjamo, zakunjate, zakunjaju, zakunjaj, zakunjajte, zakunjao, zakunjala, zakunjalo, zakunjali, zakunjale
+- **zaoštravati** — *Činiti oštrijim; pooštravati.*
+  - predlog: zaoštravaš, zaoštravamo, zaoštravate, zaoštravaju, zaoštravajte, zaoštravala, zaoštravalo, zaoštravali, zaoštravale
+- **zaplivati** — *Početi plivati.*
+  - predlog: zaplivaš, zaplivamo, zaplivate, zaplivaju, zaplivaj, zaplivajte, zaplivalo, zaplivale
+- **zapodevati** — *Započinjati (razgovor, svađu).*
+  - predlog: zapodevaš, zapodeva, zapodevamo, zapodevate, zapodevaj, zapodevajte, zapodevala, zapodevalo, zapodevali, zapodevale
+- **zapostavljati** — *Zanemarivati; zapostavljati.*
+  - predlog: zapostavljamo, zapostavljate, zapostavljaj, zapostavljajte, zapostavljala, zapostavljalo, zapostavljali, zapostavljale
+- **zaridati** — *Naglo i glasno zaplakati.*
+  - predlog: zaridaš, zaridamo, zaridate, zaridaju, zaridaj, zaridao, zaridalo, zaridale
+- **zatrčavati** — *Zaletati se; ishitreno postupati.*
+  - predlog: zatrčavaš, zatrčava, zatrčavamo, zatrčavate, zatrčavaju, zatrčavaj, zatrčavajte, zatrčavao, zatrčavala, zatrčavalo, zatrčavali, zatrčavale
+- **zavađati** — *Posvađati; izazivati svađu.*
+  - predlog: zavađam, zavađamo, zavađate, zavađaj, zavađajte, zavađala, zavađalo, zavađale
+- **zaveštavati** — *Ostavljati u nasleđe.*
+  - predlog: zaveštavaš, zaveštavamo, zaveštavate, zaveštavaju, zaveštavaj, zaveštavajte, zaveštavala, zaveštavalo, zaveštavali, zaveštavale
+- **zašivati** — *Šivenjem zatvarati; zašivati.*
+  - predlog: zašivaš, zašivamo, zašivate, zašivaju, zašivaj, zašivajte, zašivao, zašivala, zašivalo, zašivali, zašivale
+- **ćarlijati** — *Lagano duvati; pirkati (o vetru).*
+  - predlog: ćarlijam, ćarlijamo, ćarlijate, ćarlijaju, ćarlijaj, ćarlijajte, ćarlijala, ćarlijalo, ćarlijali, ćarlijale
+- **četkati** — *Čistiti ili glačati četkom.*
+  - predlog: četkaš, četkamo, četkate, četkaju, četkaj, četkajte, četkala, četkali, četkale
+- **čupkati** — *Čupati pomalo; otkidati u sitno.*
+  - predlog: čupkaš, čupkamo, čupkate, čupkaj, čupkajte, čupkao, čupkalo, čupkali, čupkale
+- **šepati** — *Hodati nejednako, hramati.*
+  - predlog: šepamo, šepate, šepaju, šepaj, šepajte, šepala, šepalo, šepali, šepale
+- **šivati** — *Spajati iglom i koncem; šiti.*
+  - predlog: šivaš, šiva, šivamo, šivate, šivaju, šivajte, šivala, šivalo, šivali, šivale
+- **šljakati** — *Naporno raditi, rintati (žargon).*
+  - predlog: šljakaš, šljakate, šljakaj, šljakajte, šljakala, šljakalo, šljakali, šljakale
+- **šljapati** — *Hodati gazeći po vodi ili blatu uz pljuskav zvuk.*
+  - predlog: šljapaš, šljapa, šljapamo, šljapate, šljapaju, šljapaj, šljapajte, šljapao, šljapala, šljapalo, šljapali, šljapale
+- **špartati** — *Okopavati međuredni prostor; krstariti tamo-amo.*
+  - predlog: špartaš, špartamo, špartate, špartaj, špartajte, špartao, špartalo, špartale
+- **štrecati** — *Osećati nagle probadajuće bolove (štreca me).*
+  - predlog: štrecaš, štreca, štrecamo, štrecate, štrecaju, štrecaj, štrecajte, štrecala, štrecalo, štrecali, štrecale
+- **štucati** — *Imati štucavicu, isprekidano ikati.*
+  - predlog: štucamo, štucate, štucaju, štucaj, štucajte, štucao, štucala, štucalo, štucali, štucale
+
+## Tip `-ati/-eti (obrazac -em, pročitan iz rečnika)` — 18 glagola
+
+- **bubnjati** — *Udarati u bubanj; lupkati.*
+  - predlog: bubnješ, bubnjemo, bubnjete, bubnjite, bubnjala, bubnjalo, bubnjali, bubnjale
+- **dirkati** — *Dodirivati dirke; zadirkivati i peckati nekoga; dirkati.*
+  - predlog: dirkeš, dirkemo, dirkete, dirku, dirki, dirkite, dirkao, dirkala, dirkalo, dirkali, dirkale
+- **hajati** — *Mariti, brinuti se, obraćati pažnju (obično uz odričnu rečcu); hajati.*
+  - predlog: hajem, haje, hajemo, hajete, haju, haji, hajite, hajala, hajalo, hajale
+- **ismejati** — *Podsmehnuti se i izrugati; napraviti smešnim.*
+  - predlog: ismeješ, ismeje, ismejemo, ismejete, ismeji, ismejite, ismejalo, ismejale
+- **jedincati** — *Oblik reči jedincat (jedini, jedinstven).*
+  - predlog: jedinceš, jedince, jedincemo, jedincete, jedincite, jedincao, jedincala, jedincalo, jedincali, jedincale
+- **novcati** — *Oblik reči novcat.*
+  - predlog: novceš, novcemo, novcete, novcite, novcao, novcala, novcalo, novcali, novcale
+- **odapinjati** — *Ispuštati strelu sa zategnutog luka.*
+  - predlog: odapinješ, odapinjemo, odapinjete, odapinji, odapinjite, odapinjao, odapinjala, odapinjalo, odapinjali, odapinjale
+- **pravcati** — *Oblik prideva „pravcat“; pravi pravcati, sasvim pravi.*
+  - predlog: pravceš, pravcemo, pravcete, pravcite, pravcao, pravcala, pravcalo, pravcali, pravcale
+- **prućati** — *Prućati — pružati, protezati (dijalekatski).*
+  - predlog: prućeš, prućemo, prućete, pruću, prućite, prućao, prućala, prućalo, prućali, prućale
+- **sabijati** — *Zbijati, stiskati; sabijati.*
+  - predlog: sabiješ, sabijete, sabiji, sabijite, sabijala, sabijalo, sabijali, sabijale
+- **tračati** — *Glagol: prenositi tračeve, ogovarati i širiti glasine o drugima (tračati po komš*
+  - predlog: tračeš, trače, tračemo, tračete, traču, trači, tračite, tračao, tračala, tračalo, tračale
+- **ugrijati** — *Ijekavski oblik glagola ugrejati (zagrejati, učiniti toplim).*
+  - predlog: ugriješ, ugrijemo, ugrijete, ugriju, ugriji, ugrijite, ugrijala, ugrijalo, ugrijali, ugrijale
+- **vrčati** — *Režati, mumlati (o psu); vrčati.*
+  - predlog: vrčeš, vrče, vrčemo, vrčete, vrču, vrči, vrčite, vrčao, vrčala, vrčalo, vrčali, vrčale
+- **zagrijati** — *Zagrijati — zagrejati (ijekavski).*
+  - predlog: zagrijem, zagrijemo, zagrijete, zagriji, zagrijite, zagrijala, zagrijalo, zagrijali, zagrijale
+- **zastenjati** — *Zaječati od bola; zastenjati.*
+  - predlog: zastenješ, zastenjete, zastenju, zastenjite, zastenjala, zastenjalo, zastenjali, zastenjale
+- **začinjati** — *Začinjati život; takođe dodavati začine jelu.*
+  - predlog: začinjem, začinjemo, začinjete, začinji, začinjite, začinjala, začinjalo, začinjale
+- **špricati** — *Prskati u sitnim mlazevima; štrcati.*
+  - predlog: špriceš, špricemo, špricete, špricite, špricao, špricala, špricalo, špricali, špricale
+- **švercati** — *Oblik glagola „švercati“; tajno i nezakonito prenositi robu preko granice, kriju*
+  - predlog: šverceš, šverce, švercemo, švercete, šverci, švercite, švercala, švercalo, švercali, švercale
+
+## Tip `-ati/-eti (obrazac -im, pročitan iz rečnika)` — 20 glagola
+
+- **devetati** — *Tući, mlatiti, izudarati; devetati.*
+  - predlog: devetiš, devetimo, devetite, devetao, devetala, devetalo, devetali, devetale
+- **dokonati** — *Oblik glagola „dokonati“; dovršiti i okončati, privesti kraju; dokrajčiti (uspel*
+  - predlog: dokoniš, dokonimo, dokonite, dokonao, dokonala, dokonalo, dokonale
+- **doturati** — *Dodavati, dometati, prikriveno dostavljati; doturati.*
+  - predlog: doturiš, doturimo, doturite, doturala, doturalo, doturali, doturale
+- **duljati** — *Produžavati, oduživati, otezati u trajanju; duljati.*
+  - predlog: duljiš, duljimo, duljite, duljao, duljala, duljalo, duljali, duljale
+- **kakati** — *Glagol: dečje za vršenje velike nužde, prazniti creva (učiti dete da kaka).*
+  - predlog: kakiš, kakimo, kakite, kakala, kakalo, kakali, kakale
+- **klepati** — *Otkivati i oštriti kosu udaranjem; lupkati; klepati.*
+  - predlog: klepiš, klepi, klepimo, klepite, klepe, klepali, klepale
+- **kraljevati** — *Vladati kao kralj, biti kralj; kraljevati.*
+  - predlog: kraljeviš, kraljevimo, kraljevite, kraljevao, kraljevala, kraljevalo, kraljevali, kraljevale
+- **mesnati** — *Oblik prideva „mesnat“; pun mesa, mesnat (mesnati plod).*
+  - predlog: mesniš, mesnimo, mesnite, mesnao, mesnala, mesnalo, mesnali, mesnale
+- **njištati** — *Glasno se glasati kao konj.*
+  - predlog: njištiš, njištimo, njištite, njištao, njištala, njištalo, njištali, njištale
+- **otpremati** — *Slati na put; otpravljati pošiljku.*
+  - predlog: otpremiš, otpremimo, otpremite, otpremao, otpremala, otpremalo, otpremali, otpremale
+- **papirnati** — *Oblik prideva „papirnat“; načinjen od papira (papirnati tanjir).*
+  - predlog: papirniš, papirnimo, papirnite, papirnao, papirnala, papirnalo, papirnali, papirnale
+- **pernati** — *Oblik prideva „pernat“; prekriven perjem (pernati svet — ptice).*
+  - predlog: perniš, pernimo, pernite, pernao, pernala, pernalo, pernali, pernale
+- **primamljivati** — *Privlačiti, mamiti; primamljivati.*
+  - predlog: primamljiviš, primamljivimo, primamljivite, primamljivao, primamljivala, primamljivalo, primamljivali, primamljivale
+- **prostati** — *Oblik reči prostata (žlezda kod muškaraca).*
+  - predlog: prostiš, prostimo, prostao, prostala, prostalo, prostali, prostale
+- **rascepati** — *Iscepati, rascepati na delove; rascepati.*
+  - predlog: rascepim, rascepimo, rascepite, rascepao, rascepala, rascepalo, rascepali, rascepale
+- **skičati** — *Ispuštati visok prodoran zvuk; cičati.*
+  - predlog: skičim, skičimo, skičite, skiče, skičala, skičali, skičale
+- **slamnati** — *Napravljen od slame.*
+  - predlog: slamniš, slamnimo, slamnite, slamnao, slamnala, slamnalo, slamnali, slamnale
+- **suvati** — *Oblik reči suvat (planinski pašnjak).*
+  - predlog: suviš, suvimo, suvite, suvao, suvala, suvalo, suvali, suvale
+- **travnati** — *Oblik reči travnat (obrastao travom).*
+  - predlog: travniš, travnimo, travnite, travnao, travnala, travnalo, travnali, travnale
+- **turati** — *Naglo gurati, trpati.*
+  - predlog: turiš, turite, turao, turala, turalo, turali, turale
+
+## Tip `-ati/-eti (obrazac -pal, pročitan iz rečnika)` — 23 glagola
+
+- **izmanipulisati** — *Vešto i podmuklo navesti nekoga da postupi po tuđoj volji.*
+  - predlog: izmanipulišem, izmanipulišemo, izmanipulišete, izmanipulišu, izmanipuliši, izmanipulišite, izmanipulisalo, izmanipulisale
+- **konstruisati** — *Sklapati i graditi po nacrtu; sastavljati.*
+  - predlog: konstruišeš, konstruišemo, konstruišete, konstruiši, konstruišite, konstruisala, konstruisalo, konstruisale
+- **kultivisati** — *Obrađivati zemlju; oplemenjivati, negovati i razvijati; kultivisati.*
+  - predlog: kultivišem, kultivišemo, kultivišete, kultiviši, kultivišite, kultivisala, kultivisalo, kultivisali, kultivisale
+- **legitimisati** — *Utvrditi identitet legitimacijom; opravdati; legitimisati.*
+  - predlog: legitimišeš, legitimišemo, legitimišete, legitimiši, legitimišite, legitimisala, legitimisalo, legitimisale
+- **namicati** — *Primicati, dovlačiti bliže; pribavljati; namicati.*
+  - predlog: namičemo, namičete, namiči, namičite, namicala, namicalo, namicali, namicale
+- **obrazlagati** — *Iznositi razloge; potkrepljivati objašnjenjem.*
+  - predlog: obrazlažem, obrazlažemo, obrazlažete, obrazlaži, obrazlažite, obrazlagala, obrazlagalo, obrazlagale
+- **olizati** — *Jezikom očistiti, polizati; olizati.*
+  - predlog: oližemo, oližete, oližu, oliži, oližite, olizala, olizalo, olizali, olizale
+- **otplesati** — *Glagol: odigrati ples do kraja, otplesati igru.*
+  - predlog: otpleše, otplešemo, otplešete, otplešu, otpleši, otplešite, otplesala, otplesalo, otplesali, otplesale
+- **podvezati** — *Vezati ispod, stegnuti vezivanjem; podvezati.*
+  - predlog: podvežem, podveže, podvežemo, podvežete, podvežu, podvezala, podvezalo, podvezali, podvezale
+- **porezati** — *Iseći na komade, porezati; porezati.*
+  - predlog: porežeš, poreže, porežemo, porežete, porežu, poreži, porežite, porezalo, porezale
+- **premetati** — *Prebacivati i preturati s mesta na mesto.*
+  - predlog: premećeš, premećemo, premećete, premeći, premećite, premetalo, premetali, premetale
+- **preokretati** — *Obrtati naopako, preokretati; menjati iz osnova; preokretati.*
+  - predlog: preokrećem, preokrećemo, preokrećete, preokrećite, preokretala, preokretalo, preokretali, preokretale
+- **pridizati** — *Pridizati, podizati malo; pridizati.*
+  - predlog: pridižeš, pridižemo, pridižete, pridiži, pridižite, pridizalo, pridizali, pridizale
+- **prokomentarisati** — *Oblik glagola „prokomentarisati“; dati komentar i osvrt, izneti mišljenje o neče*
+  - predlog: prokomentarišeš, prokomentarišemo, prokomentarišu, prokomentariši, prokomentarišite, prokomentarisala, prokomentarisalo, prokomentarisali, prokomentarisale
+- **raspasati** — *Skinuti pojas i razvezati opasač, opustiti; preneseno: raspasati se, razuzdati s*
+  - predlog: raspašeš, raspaše, raspašemo, raspašete, raspašu, raspaši, raspašite, raspasalo, raspasali, raspasale
+- **siktati** — *Oglašavati se siktavim glasom (o zmiji).*
+  - predlog: sikćem, sikće, sikćemo, sikćete, sikći, sikćite, siktalo, siktali, siktale
+- **simpatisati** — *Gajiti simpatije; voleti nekoga.*
+  - predlog: simpatišeš, simpatišemo, simpatišete, simpatiši, simpatišite, simpatisala, simpatisalo, simpatisali, simpatisale
+- **smazati** — *Smazati — halapljivo pojesti (žargonski).*
+  - predlog: smažeš, smažemo, smažete, smažu, smaži, smažite, smazalo, smazale
+- **spekulisati** — *Nagađati o ishodu; trgovati radi brze zarade na razlici u ceni; spekulisati.*
+  - predlog: spekulišeš, spekulišemo, spekulišete, spekuliši, spekulišite, spekulisala, spekulisalo, spekulisali, spekulisale
+- **sricati** — *Izgovarati reč slovo po slovo.*
+  - predlog: sričeš, sričemo, sričete, sriči, sričite, sricala, sricalo, sricale
+- **stucati** — *Satucati, izgnječiti (u avanu).*
+  - predlog: stučemo, stučete, stuču, stuči, stučite, stucala, stucalo, stucale
+- **ujdurisati** — *Smutiti, smisliti spletku.*
+  - predlog: ujdurišem, ujdurišemo, ujdurišete, ujdurišu, ujduriši, ujdurišite, ujdurisala, ujdurisalo, ujdurisali, ujdurisale
+- **zamakati** — *Umakati, kratko uranjati u tečnost; zamakati.*
+  - predlog: zamačeš, zamačemo, zamačete, zamači, zamačite, zamakala, zamakalo, zamakali, zamakale
+
+## Tip `-irati` — 215 glagola
+
+- **abdicirati** — *Odreći se prestola ili visokog položaja; abdicirati.*
+  - predlog: abdiciram, abdiciraš, abdiciramo, abdicirate, abdiciraju, abdicirala, abdiciralo, abdicirale, abdiciraj, abdicirajte
+- **abortirati** — *Izvršiti ili pretrpeti pobačaj; prekinuti i obustaviti započeti postupak; aborti*
+  - predlog: abortiramo, abortirate, abortiraju, abortirao, abortiralo, abortirali, abortirale, abortirajte
+- **adresirati** — *Upisivati adresu i upućivati pošiljku; usmeravati ka primaocu; adresirati.*
+  - predlog: adresiraš, adresiramo, adresirate, adresiraju, adresirala, adresiralo, adresirale, adresiraj
+- **afirmirati** — *Potvrđivati i isticati vrednost, afirmisati; afirmirati.*
+  - predlog: afirmiram, afirmiraš, afirmiramo, afirmirate, afirmiraju, afirmirao, afirmirala, afirmiralo, afirmirali, afirmirale, afirmiraj, afirmirajte
+- **amnestirati** — *Osloboditi kazne aktom amnestije, pomilovati grupu osuđenih; amnestirati.*
+  - predlog: amnestiram, amnestiraš, amnestiramo, amnestirate, amnestiraju, amnestirala, amnestiralo, amnestirali, amnestirale, amnestiraj, amnestirajte
+- **anketirati** — *Ispitivati anketom, prikupljati mišljenja postavljanjem pitanja; anketirati.*
+  - predlog: anketiram, anketiraš, anketira, anketiramo, anketirate, anketiraju, anketiralo, anketirale, anketiraj, anketirajte
+- **anulirati** — *Poništiti, ukinuti, učiniti nevažećim; anulirati.*
+  - predlog: anuliram, anuliraš, anuliramo, anulirate, anulirala, anulirale, anuliraj, anulirajte
+- **aplicirati** — *Nanositi, naneti i pričvrstiti; podnositi molbu, prijaviti se; aplicirati.*
+  - predlog: apliciram, apliciraš, aplicira, apliciramo, aplicirate, aplicirala, apliciralo, aplicirali, aplicirale, apliciraj, aplicirajte
+- **apsolvirati** — *Položiti i odslušati sve ispite pre diplomiranja; savladati i okončati; apsolvir*
+  - predlog: apsolviram, apsolviraš, apsolvira, apsolviramo, apsolvirate, apsolviraju, apsolvirala, apsolviralo, apsolvirali, apsolvirale, apsolviraj, apsolvirajte
+- **apstinirati** — *Uzdržavati se, naročito od alkohola ili od glasanja; apstinirati.*
+  - predlog: apstiniraš, apstiniramo, apstinirate, apstiniraju, apstinirao, apstinirala, apstiniralo, apstinirali, apstinirale, apstiniraj, apstinirajte
+- **aranžirati** — *Obraditi kompoziciju za izvođenje; rasporediti.*
+  - predlog: aranžiraš, aranžiramo, aranžirate, aranžirala, aranžiralo, aranžirale, aranžiraj, aranžirajte
+- **arhivirati** — *Smestiti u arhivu; trajno sačuvati.*
+  - predlog: arhiviraš, arhiviramo, arhivirao, arhivirala, arhiviralo, arhivirali, arhivirale, arhivirajte
+- **asfaltirati** — *Prevlačiti i pokrivati asfaltom (put, površinu); asfaltirati.*
+  - predlog: asfaltiram, asfaltiraš, asfaltira, asfaltiramo, asfaltirate, asfaltiraju, asfaltirala, asfaltiralo, asfaltirali, asfaltirale, asfaltiraj, asfaltirajte
+- **asimilirati** — *Glagol: stopiti s okolinom, poistovetiti; usvojiti i uklopiti u sebe (asimilirat*
+  - predlog: asimiliram, asimiliraš, asimiliramo, asimilirate, asimilirao, asimilirala, asimiliralo, asimilirale, asimiliraj, asimilirajte
+- **balansirati** — *Glagol: održavati ravnotežu; vagati i uravnotežavati suprotne strane (balansirat*
+  - predlog: balansiramo, balansirate, balansiraju, balansirala, balansiralo, balansirali, balansirale, balansirajte
+- **bilansirati** — *Oblik reči bilansirati (praviti bilans, sravnjivati).*
+  - predlog: bilansiram, bilansiraš, bilansiramo, bilansirate, bilansiraju, bilansirao, bilansirala, bilansiralo, bilansirali, bilansirale, bilansiraj, bilansirajte
+- **cementirati** — *Vezivati i učvršćivati cementom; učvršćivati i utvrđivati; cementirati.*
+  - predlog: cementiram, cementiraš, cementiramo, cementirate, cementiraju, cementirao, cementirala, cementiralo, cementirali, cementirale, cementiraj, cementirajte
+- **centrirati** — *Postavljati u središte, usredsređivati i poravnavati; centrirati.*
+  - predlog: centriram, centriraš, centriramo, centrirate, centriraju, centrirala, centriralo, centrirali, centrirale, centrirajte
+- **datirati** — *Odrediti i staviti datum; poticati iz nekog vremena; datirati.*
+  - predlog: datiram, datiraš, datiramo, datirao, datirala, datiralo, datiraj, datirajte
+- **definirati** — *Odrediti i jasno izložiti suštinu pojma, dati definiciju; definirati.*
+  - predlog: definiram, definiraš, definiramo, definirate, definiraju, definirao, definirala, definiralo, definirali, definirale, definiraj, definirajte
+- **dekodirati** — *Glagol: razrešiti šifru i prevesti kodiranu poruku u razumljiv oblik (dekodirati*
+  - predlog: dekodiraš, dekodirate, dekodiraju, dekodirala, dekodiralo, dekodirale, dekodiraj, dekodirajte
+- **delegirati** — *Preneti ovlašćenje; poveriti zadatak.*
+  - predlog: delegiram, delegiraš, delegiramo, delegiraju, delegirala, delegiralo, delegirali, delegirale, delegiraj, delegirajte
+- **demaskirati** — *Skinuti masku, raskrinkati i razotkriti pravu prirodu; demaskirati.*
+  - predlog: demaskiram, demaskiraš, demaskiramo, demaskirate, demaskiraju, demaskirao, demaskirala, demaskiralo, demaskirali, demaskirale, demaskiraj, demaskirajte
+- **demolirati** — *Razbiti, razlupati, opustošiti i razoriti; demolirati.*
+  - predlog: demoliram, demoliraš, demoliramo, demolirate, demoliraju, demoliralo, demoliraj, demolirajte
+- **denuncirati** — *Potkazati, tajno prijaviti vlastima; denuncirati.*
+  - predlog: denunciram, denunciraš, denuncira, denunciramo, denuncirate, denunciraju, denuncirala, denunciralo, denuncirali, denuncirale, denunciraj, denuncirajte
+- **deprimirati** — *Obeshrabriti i utući; izazvati potištenost i tugu.*
+  - predlog: deprimiramo, deprimirate, deprimirao, deprimirala, deprimirali, deprimirale, deprimiraj, deprimirajte
+- **devalvirati** — *Smanjiti zvaničnu vrednost domaće valute; devalvirati.*
+  - predlog: devalviram, devalviraš, devalviramo, devalvirate, devalviraju, devalvirao, devalvirala, devalviralo, devalvirali, devalvirale, devalviraj, devalvirajte
+- **distancirati** — *Odmaknuti, držati na odstojanju, ograditi se; distancirati.*
+  - predlog: distanciramo, distancirate, distanciraju, distancirala, distanciralo, distancirali, distancirale, distanciraj, distancirajte
+- **distribuirati** — *Glagol: raspodeljivati i raznositi robu do korisnika, deliti i isporučivati (dis*
+  - predlog: distribuiram, distribuiraš, distribuirate, distribuirao, distribuirala, distribuiralo, distribuirali, distribuirale, distribuiraj, distribuirajte
+- **doktorirati** — *Steći doktorat odbranom doktorske disertacije; doktorirati.*
+  - predlog: doktoriram, doktoriraš, doktoriramo, doktorirate, doktoriraju, doktoriralo, doktorirale, doktoriraj, doktorirajte
+- **dopirati** — *Stizati, dosezati (npr. zvuk dopire).*
+  - predlog: dopiram, dopiraš, dopira, dopiramo, dopirate, dopiraju, dopiraj, dopirajte
+- **dotirati** — *Dodavati novčana sredstva radi podrške, subvencionisati; dotirati.*
+  - predlog: dotiram, dotiraš, dotiramo, dotirate, dotiraju, dotirao, dotirala, dotiralo, dotirali, dotirale, dotiraj, dotirajte
+- **dozirati** — *Odmeravati i davati u tačno određenim dozama; dozirati.*
+  - predlog: doziram, doziraš, doziramo, doziraju, dozirala, doziralo, dozirali, dozirale, doziraj, dozirajte
+- **egzistirati** — *Postojati; živeti.*
+  - predlog: egzistiram, egzistiraš, egzistiramo, egzistirate, egzistiraju, egzistirala, egzistiralo, egzistirali, egzistirale, egzistiraj, egzistirajte
+- **ekshumirati** — *Iskopati i izvaditi telo iz groba; ekshumirati.*
+  - predlog: ekshumiram, ekshumiraš, ekshumirate, ekshumiraju, ekshumirala, ekshumiralo, ekshumirale, ekshumiraj, ekshumirajte
+- **ekspedirati** — *Otpremati, slati robu ili pošiljku na odredište; ekspedirati.*
+  - predlog: ekspediram, ekspediraš, ekspediramo, ekspedirate, ekspediraju, ekspedirao, ekspedirala, ekspediralo, ekspedirali, ekspedirale, ekspediraj, ekspedirajte
+- **elektrizirati** — *Naelektrisati; preneti uzbuđenje i napetost na druge; elektrizirati.*
+  - predlog: elektriziram, elektriziraš, elektriziramo, elektrizirate, elektriziraju, elektrizirao, elektrizirala, elektriziralo, elektrizirali, elektrizirale, elektriziraj, elektrizirajte
+- **emirati** — *Oblik reči emirat (države pod upravom emira).*
+  - predlog: emiram, emiraš, emiramo, emiraju, emirao, emirala, emiralo, emirali, emirale, emiraj, emirajte
+- **erodirati** — *Nagrizati i odnositi tlo i stene pod dejstvom vode i vetra; erodirati.*
+  - predlog: erodiram, erodiraš, erodiramo, erodirate, erodiraju, erodirao, erodirala, erodiralo, erodirale, erodiraj, erodirajte
+- **eruptirati** — *Naglo izbiti i provaliti napolje (o vulkanu); eruptirati.*
+  - predlog: eruptiram, eruptiraš, eruptiramo, eruptirate, eruptirala, eruptiralo, eruptirali, eruptirale, eruptiraj, eruptirajte
+- **etiketirati** — *Staviti etiketu; označiti nalepnicom.*
+  - predlog: etiketiram, etiketiraš, etiketiramo, etiketirate, etiketirao, etiketirala, etiketiralo, etiketirali, etiketirale, etiketiraj, etiketirajte
+- **evidentirati** — *Voditi evidenciju; beležiti i registrovati.*
+  - predlog: evidentiram, evidentiraš, evidentiramo, evidentirate, evidentiraju, evidentirao, evidentirala, evidentiralo, evidentirali, evidentirale, evidentiraj, evidentirajte
+- **evocirati** — *Prizivati u sećanje, dočaravati prošle slike i osećanja; evocirati.*
+  - predlog: evociram, evociraš, evociramo, evocirate, evociralo, evocirali, evocirale, evociraj, evocirajte
+- **faksirati** — *Glagol: slati pisani dokument preko faks-uređaja, telefonskom vezom (faksirati u*
+  - predlog: faksiram, faksiraš, faksiramo, faksirate, faksiraju, faksiralo, faksirali, faksirale, faksirajte
+- **falsificirati** — *Krivotvoriti, lažirati, izrađivati lažne kopije; falsificirati.*
+  - predlog: falsificiram, falsificiraš, falsificiramo, falsificirate, falsificiraju, falsificirao, falsificirala, falsificiralo, falsificirali, falsificirale, falsificiraj, falsificirajte
+- **faulirati** — *Napraviti prekršaj nad protivnikom u sportskoj igri; faulirati.*
+  - predlog: fauliram, fauliraš, faulira, fauliramo, faulirate, fauliraju, faulirala, fauliralo, faulirali, faulirale, fauliraj, faulirajte
+- **filozofirati** — *Razmišljati o dubokim pitanjima; mudrovati.*
+  - predlog: filozofiram, filozofiramo, filozofirate, filozofiraju, filozofirao, filozofirala, filozofiralo, filozofirali, filozofirale, filozofiraj, filozofirajte
+- **filtrirati** — *Propuštati kroz filter radi prečišćavanja, cediti; filtrirati.*
+  - predlog: filtriraš, filtriramo, filtrirao, filtrirala, filtriralo, filtrirali, filtrirale, filtrirajte
+- **formulirati** — *Oblik reči formulirati (sažeto izraziti rečima).*
+  - predlog: formuliram, formuliraš, formuliramo, formulirate, formuliraju, formulirao, formulirala, formuliralo, formulirali, formulirale, formuliraj, formulirajte
+- **fotokopirati** — *Napraviti vernu kopiju dokumenta na fotokopir-aparatu; fotokopirati.*
+  - predlog: fotokopiraš, fotokopiramo, fotokopirate, fotokopiraju, fotokopirala, fotokopiralo, fotokopirali, fotokopirale, fotokopiraj, fotokopirajte
+- **frizirati** — *Uređivati i oblikovati kosu; doterivati i ulepšavati (podatke, izveštaj); frizir*
+  - predlog: friziram, friziramo, frizirate, friziraju, frizirala, friziralo, frizirali, frizirale, friziraj, frizirajte
+- **fundirati** — *Temeljiti, zasnivati, postavljati na čvrstu osnovu; fundirati.*
+  - predlog: fundiram, fundiraš, fundiramo, fundirate, fundirao, fundirala, fundiralo, fundirali, fundirale, fundiraj, fundirajte
+- **galopirati** — *Juriti u galopu (o konju); brzo trčati.*
+  - predlog: galopiraš, galopiramo, galopirate, galopirao, galopirala, galopiralo, galopirale, galopiraj, galopirajte
+- **garnirati** — *Ukrašavati i dopunjavati jelo prilogom i dodacima; garnirati.*
+  - predlog: garniram, garniraš, garniramo, garnirate, garniraju, garnirao, garnirala, garniralo, garnirali, garnirale, garniraj
+- **gravirati** — *Urezivati crtež ili natpis u metal, staklo ili drvo; gravirati.*
+  - predlog: graviram, graviraš, graviramo, gravirate, graviraju, gravirao, gravirala, graviralo, gravirali, gravirale, graviraj, gravirajte
+- **harangirati** — *Držati vatren, huškački govor, podsticati masu govorom; harangirati.*
+  - predlog: harangiram, harangiramo, harangirate, harangiraju, harangirao, harangirala, harangiralo, harangirali, harangirale, harangiraj, harangirajte
+- **implodirati** — *Urušiti se naglo ka unutra; implodirati.*
+  - predlog: implodiram, implodiraš, implodiramo, implodirate, implodiraju, implodirao, implodirala, implodiralo, implodirali, implodirale, implodiraj, implodirajte
+- **impregnirati** — *Natopiti zaštitnim sredstvom radi otpornosti na vlagu; impregnirati.*
+  - predlog: impregniram, impregniraš, impregniramo, impregnirate, impregniraju, impregnirao, impregnirala, impregniralo, impregnirali, impregnirale, impregniraj, impregnirajte
+- **indicirati** — *Ukazivati na nešto, biti pokazatelj ili znak; indicirati.*
+  - predlog: indiciram, indiciraš, indiciramo, indicirate, indicirao, indicirala, indiciralo, indicirale, indiciraj, indicirajte
+- **inkasirati** — *Oblik reči inkasirati (naplaćivati novac).*
+  - predlog: inkasiram, inkasiraš, inkasira, inkasiramo, inkasirate, inkasiraju, inkasirala, inkasirale, inkasiraj, inkasirajte
+- **inovirati** — *Uvoditi novine, obnavljati i unapređivati; inovirati.*
+  - predlog: inoviram, inoviraš, inoviramo, inovirate, inovirao, inovirala, inoviralo, inovirali, inovirale, inoviraj, inovirajte
+- **insinuirati** — *Podmuklo nagoveštavati nešto loše o nekome; insinuirati.*
+  - predlog: insinuiramo, insinuiraju, insinuirala, insinuiralo, insinuirali, insinuirale, insinuiraj, insinuirajte
+- **interpretirati** — *Izvoditi i tumačiti delo; protumačiti.*
+  - predlog: interpretiram, interpretiraš, interpretiramo, interpretirate, interpretirao, interpretirala, interpretiralo, interpretirale, interpretiraj, interpretirajte
+- **intervjuirati** — *Postavljati pitanja u intervjuu.*
+  - predlog: intervjuiraš, intervjuira, intervjuiramo, intervjuirate, intervjuiraju, intervjuirala, intervjuiralo, intervjuirali, intervjuirale, intervjuiraj, intervjuirajte
+- **intonirati** — *Pevati ili svirati u određenom tonu; dati ton iskazu; intonirati.*
+  - predlog: intoniram, intoniraš, intoniramo, intonirate, intonirao, intoniralo, intonirali, intonirale, intoniraj, intonirajte
+- **intrigirati** — *Pobuđivati radoznalost; voditi spletke, smišljati podvale; intrigirati.*
+  - predlog: intrigiram, intrigiraš, intrigiramo, intrigirate, intrigirala, intrigiralo, intrigirali, intrigirale, intrigiraj, intrigirajte
+- **intubirati** — *Uvesti cev u dušnik radi održavanja disanja; intubirati.*
+  - predlog: intubiraš, intubira, intubirate, intubiraju, intubirao, intubirala, intubiralo, intubirale, intubiraj
+- **ispolirati** — *Uglačati do sjaja, polirati.*
+  - predlog: ispoliramo, ispolirate, ispoliraju, ispolirala, ispoliralo, ispolirali, ispolirale, ispolirajte
+- **istetovirati** — *Oblik reči istetovirati (urezati šaru bojom na kožu).*
+  - predlog: istetovira, istetoviramo, istetovirate, istetoviraju, istetoviralo, istetovirali, istetovirale, istetoviraj, istetovirajte
+- **izabirati** — *Birati, odabirati.*
+  - predlog: izabiram, izabiraš, izabiramo, izabirate, izabiraju, izabiralo, izabirali, izabirale, izabiraj, izabirajte
+- **izbalansirati** — *Uravnotežiti, dovesti u ravnotežu.*
+  - predlog: izbalansiraš, izbalansiramo, izbalansirate, izbalansiraju, izbalansirao, izbalansirala, izbalansiralo, izbalansirali, izbalansirale, izbalansiraj, izbalansirajte
+- **izbirati** — *Oblik reči izbirati (birati, probirati).*
+  - predlog: izbiram, izbiraš, izbiramo, izbirate, izbirao, izbiralo, izbirale, izbiraj, izbirajte
+- **izblamirati** — *Oblik reči izblamirati (osramotiti, obrukati — kolokvijalno).*
+  - predlog: izblamira, izblamiramo, izblamirate, izblamiraju, izblamiralo, izblamirali, izblamirale, izblamiraj, izblamirajte
+- **izdiktirati** — *Izdiktirati, kazati nekome da zapiše, izgovoriti u pero; izdiktirati.*
+  - predlog: izdiktiraš, izdiktiramo, izdiktirate, izdiktiraju, izdiktirala, izdiktiralo, izdiktirali, izdiktirale, izdiktirajte
+- **izdirati** — *Grditi i prekorevati, izdirati se na nekoga; izdirati.*
+  - predlog: izdiram, izdiraš, izdira, izdiramo, izdirate, izdiraju, izdirala, izdiralo, izdirale, izdiraj, izdirajte
+- **izdresirati** — *Izvežbati dresurom, naučiti životinju da izvršava komande; izdresirati.*
+  - predlog: izdresiram, izdresiraš, izdresira, izdresiramo, izdresirate, izdresiraju, izdresirala, izdresiralo, izdresirali, izdresirale, izdresiraj, izdresirajte
+- **izmanipulirati** — *Oblik reči izmanipulisati (vešto navesti na nešto).*
+  - predlog: izmanipuliram, izmanipuliraš, izmanipulira, izmanipuliramo, izmanipulirate, izmanipuliraju, izmanipulirala, izmanipuliralo, izmanipulirali, izmanipulirale, izmanipuliraj, izmanipulirajte
+- **izmasakrirati** — *Masakrirati, izmrcvariti, surovo poklati ili unakaziti; izmasakrirati.*
+  - predlog: izmasakriram, izmasakriraš, izmasakrira, izmasakriramo, izmasakrirate, izmasakriraju, izmasakrirala, izmasakriralo, izmasakrirale, izmasakriraj, izmasakrirajte
+- **izrežirati** — *Postaviti i izvesti režijom; smišljeno udesiti; izrežirati.*
+  - predlog: izrežiram, izrežiraš, izrežiramo, izrežirate, izrežiraju, izrežirala, izrežiralo, izrežirali, izrežirale, izrežiraj, izrežirajte
+- **izumirati** — *Postepeno nestajati kao vrsta ili loza; izumirati.*
+  - predlog: izumiram, izumiraš, izumira, izumiramo, izumirate, izumiraju, izumirale, izumiraj, izumirajte
+- **kampirati** — *Glagol: boraviti pod šatorom u prirodi, logorovati.*
+  - predlog: kampiram, kampiraš, kampira, kampiramo, kampirate, kampiraju, kampirala, kampiralo, kampirale, kampiraj, kampirajte
+- **kamuflirati** — *Maskirati radi prikrivanja; sakriti uklapanjem.*
+  - predlog: kamufliram, kamufliraš, kamuflirate, kamuflirao, kamuflirala, kamufliralo, kamuflirali, kamuflirale, kamufliraj, kamuflirajte
+- **kapitulirati** — *Predati se neprijatelju; priznati poraz.*
+  - predlog: kapituliram, kapituliraš, kapituliramo, kapitulirate, kapituliraju, kapitulirao, kapituliralo, kapitulirali, kapitulirale, kapituliraj, kapitulirajte
+- **kapricirati** — *Inatiti se, hirovito se ponašati, biti tvrdoglav; kapricirati se.*
+  - predlog: kapriciram, kapriciraš, kapricira, kapriciramo, kapricirate, kapriciraju, kapricirala, kapriciralo, kapricirali, kapricirale, kapriciraj, kapricirajte
+- **karikirati** — *Prikazivati preuveličano i izobličeno radi poruge, praviti karikaturu; ismejavat*
+  - predlog: karikiram, karikiramo, karikirate, karikiraju, karikirao, karikirala, karikiralo, karikirali, karikirale, karikiraj, karikirajte
+- **kasirati** — *Naplaćivati i primati novac na kasi; kasirati.*
+  - predlog: kasiram, kasiraš, kasiramo, kasirate, kasiraju, kasirao, kasirala, kasiralo, kasirali, kasirale, kasiraj, kasirajte
+- **katapultirati** — *Izbaciti pomoću katapulta, naglo izbaciti; katapultirati.*
+  - predlog: katapultiram, katapultiraš, katapultira, katapultiramo, katapultirate, katapultiraju, katapultirala, katapultiralo, katapultirali, katapultirale, katapultirajte
+- **klasirati** — *Razvrstavati, svrstavati u razrede ili kategorije; klasirati.*
+  - predlog: klasiram, klasiraš, klasiramo, klasirate, klasiraju, klasirao, klasirala, klasiralo, klasirali, klasirale, klasiraj, klasirajte
+- **klistirati** — *Ispirati debelo crevo klistirom; klistirati.*
+  - predlog: klistiram, klistiraš, klistiramo, klistirate, klistiraju, klistirao, klistirala, klistiralo, klistirali, klistirale, klistiraj, klistirajte
+- **kodirati** — *Pretvarati poruku u kod, šifrovati; kodirati.*
+  - predlog: kodiram, kodiraš, kodiramo, kodirate, kodirala, kodiralo, kodirale, kodiraj, kodirajte
+- **kolabirati** — *Naglo se srušiti i pasti; potpuno se raspasti (o sistemu); kolabirati.*
+  - predlog: kolabiram, kolabiraš, kolabiramo, kolabirate, kolabirali, kolabirale, kolabiraj, kolabirajte
+- **komandirati** — *Izdavati komande, zapovedati jedinicom; komandirati.*
+  - predlog: komandiram, komandiraš, komandiramo, komandirate, komandiraju, komandirala, komandiralo, komandirali, komandirale, komandiraj, komandirajte
+- **komparirati** — *Upoređivati, dovoditi u poređenje; komparirati.*
+  - predlog: kompariram, kompariraš, kompariramo, komparirate, kompariraju, komparirao, komparirala, kompariralo, komparirali, komparirale, komparirajte
+- **konstatirati** — *Utvrditi, ustanoviti, zaključiti; konstatirati.*
+  - predlog: konstatiraš, konstatirate, konstatiraju, konstatirao, konstatirala, konstatiralo, konstatirali, konstatirale, konstatiraj, konstatirajte
+- **kontaminirati** — *Zagaditi, zaraziti štetnim materijama.*
+  - predlog: kontaminiram, kontaminiraš, kontaminiramo, kontaminirate, kontaminiralo, kontaminirale, kontaminiraj, kontaminirajte
+- **konvenirati** — *Odgovarati, biti po volji, prijati; konvenirati.*
+  - predlog: konveniram, konveniraš, konveniramo, konvenirate, konveniraju, konvenirao, konvenirala, konveniralo, konvenirali, konvenirale, konveniraj, konvenirajte
+- **konzervirati** — *Čuvati od kvarenja i propadanja, konzervisati; konzervirati.*
+  - predlog: konzerviram, konzerviraš, konzerviramo, konzervirate, konzerviraju, konzervirao, konzerviralo, konzervirali, konzervirale, konzerviraj, konzervirajte
+- **koordinirati** — *Usklađivati rad više strana; usaglašavati.*
+  - predlog: koordinirate, koordiniraju, koordinirao, koordinirala, koordiniralo, koordinirali, koordinirale, koordiniraj
+- **korespondirati** — *Dopisivati se; biti u skladu, odgovarati; korespondirati.*
+  - predlog: korespondiram, korespondiraš, korespondiramo, korespondirate, korespondirao, korespondirala, korespondiralo, korespondirali, korespondirale, korespondiraj, korespondirajte
+- **kreditirati** — *Davati kredit, finansirati pozajmicom; kreditirati.*
+  - predlog: kreditiram, kreditiraš, kreditiramo, kreditirate, kreditiraju, kreditirala, kreditiralo, kreditirali, kreditirale, kreditiraj, kreditirajte
+- **kulirati** — *Ostati hladan, ne obazirati se (žargon).*
+  - predlog: kulirate, kuliraju, kulirao, kulirala, kuliralo, kulirali, kulirale, kulirajte
+- **limitirati** — *Ograničiti, postaviti granicu; limitirati.*
+  - predlog: limitiram, limitiraš, limitiramo, limitirate, limitirala, limitiralo, limitirali, limitirale, limitiraj, limitirajte
+- **manikirati** — *Negovati i uređivati nokte na rukama; manikirati.*
+  - predlog: manikiram, manikiraš, manikiramo, manikirate, manikiraju, manikirao, manikirala, manikiralo, manikirali, manikirale, manikiraj, manikirajte
+- **manipulirati** — *Glagol: vešto i prikriveno upravljati drugima; baratati.*
+  - predlog: manipuliram, manipuliraš, manipuliramo, manipulirate, manipuliraju, manipulirala, manipuliralo, manipulirali, manipulirale, manipuliraj, manipulirajte
+- **mapirati** — *Praviti mapu i prikazati raspored nečega; mapirati.*
+  - predlog: mapiraš, mapirate, mapiraju, mapirala, mapiralo, mapirale, mapiraj, mapirajte
+- **marinirati** — *Potapati hranu u začinjenu tečnost radi ukusa i čuvanja; marinirati.*
+  - predlog: mariniram, mariniraš, mariniramo, marinirate, marinirao, marinirala, mariniralo, marinirali, marinirale, mariniraj, marinirajte
+- **masturbirati** — *Polno zadovoljavati samog sebe; masturbirati.*
+  - predlog: masturbiramo, masturbiraju, masturbirao, masturbiralo, masturbirali, masturbirale, masturbiraj, masturbirajte
+- **matirati** — *Učiniti šah-mat; učiniti površinu bez sjaja, mutnom; matirati.*
+  - predlog: matiram, matiraš, matiramo, matirate, matiraju, matirala, matiralo, matirali, matirale, matiraj, matirajte
+- **mistificirati** — *Obmanjivati, podmetati lažno kao istinito; mistificirati.*
+  - predlog: mistificiram, mistificiraš, mistificiramo, mistificirate, mistificiraju, mistificirao, mistificirala, mistificiralo, mistificirali, mistificirale, mistificiraj, mistificirajte
+- **modelirati** — *Oblikovati prema modelu, vajati; modelirati.*
+  - predlog: modeliraš, modeliramo, modelirate, modeliralo, modelirali, modelirale, modeliraj, modelirajte
+- **muzicirati** — *Svirati muziku, izvoditi muzičko delo; muzicirati.*
+  - predlog: muziciram, muziciraš, muziciramo, muzicirate, muziciraju, muzicirala, muzicirali, muzicirale, muziciraj, muzicirajte
+- **nabirati** — *Skupljati u nabore; nabirati tkaninu.*
+  - predlog: nabiram, nabiraš, nabiramo, nabirate, nabiraju, nabirao, nabirala, nabiralo, nabirale, nabiraj, nabirajte
+- **nadrogirati** — *Oblik glagola „nadrogirati“; napuniti drogom i omamiti narkoticima (pokušali nad*
+  - predlog: nadrogiram, nadrogiraš, nadrogiramo, nadrogirate, nadrogiraju, nadrogiralo, nadrogirale, nadrogiraj, nadrogirajte
+- **nadzirati** — *Pratiti i kontrolisati; nadgledati.*
+  - predlog: nadziram, nadziraš, nadzira, nadziramo, nadzirate, nadziraju, nadziralo, nadziraj, nadzirajte
+- **nasekirati** — *Nasekirati se — jako se rastužiti i uznemiriti.*
+  - predlog: nasekiram, nasekiraš, nasekira, nasekiramo, nasekirate, nasekiraju, nasekirala, nasekiralo, nasekirali, nasekirale, nasekiraj, nasekirajte
+- **normirati** — *Utvrditi normu, propisati meru ili pravilo; normirati.*
+  - predlog: normiram, normiraš, normirate, normirao, normiralo, normirali, normirale, normiraj, normirajte
+- **notirati** — *Zabeležiti, zapisati notama ili u beleške; notirati.*
+  - predlog: notiram, notiraš, notiramo, notirate, notiraju, notirala, notiralo, notirali, notirale, notiraj, notirajte
+- **obazirati** — *Osvrtati se, obazirati se, voditi računa; obazirati se.*
+  - predlog: obaziram, obaziraš, obazira, obaziramo, obazirate, obaziraju, obaziraj, obazirajte
+- **obzirati** — *Osvrtati se, obazirati se, voditi računa; obzirati se.*
+  - predlog: obziram, obziraš, obziramo, obzirate, obziraju, obzirao, obziralo, obzirali, obzirale, obziraj, obzirajte
+- **odupirati** — *Odupirati se — pružati otpor; opirati se.*
+  - predlog: odupiram, odupiraš, odupira, odupiramo, odupirate, odupiraju, odupiralo, odupirale, odupiraj, odupirajte
+- **oksidirati** — *Spajati se s kiseonikom, rđati; oksidirati.*
+  - predlog: oksidiram, oksidiraš, oksidiramo, oksidirate, oksidirala, oksidiralo, oksidirali, oksidirale, oksidiraj, oksidirajte
+- **ondulirati** — *Talasati i kovrdžati kosu; ondulirati.*
+  - predlog: onduliram, onduliraš, onduliramo, ondulirate, onduliraju, ondulirao, ondulirala, onduliralo, ondulirali, ondulirale, onduliraj, ondulirajte
+- **opirati** — *Opirati se — pružati otpor; protiviti se.*
+  - predlog: opiram, opiraš, opira, opiramo, opirate, opiraju, opiraj, opirajte
+- **oponirati** — *Suprotstavljati se, protiviti se, iznositi protivargumente; oponirati.*
+  - predlog: oponiram, oponiramo, oponirate, oponirala, oponiralo, oponirali, oponirale, oponiraj, oponirajte
+- **oscilirati** — *Kolebati se, treperiti, menjati se naizmenično; oscilirati.*
+  - predlog: osciliram, osciliraš, osciliramo, oscilirate, oscilirao, osciliralo, oscilirali, oscilirale, osciliraj, oscilirajte
+- **otuširati** — *Oblik glagola „otuširati se“; okupati se pod tušem.*
+  - predlog: otuširam, otušira, otuširamo, otuširate, otuširaju, otuširala, otuširalo, otuširali, otuširale, otuširajte
+- **paktirati** — *Sklapati savez, dogovarati se (često sa neprijateljem); paktirati.*
+  - predlog: paktiram, paktiraš, paktiramo, paktirate, paktirala, paktiralo, paktirali, paktirale, paktiraj, paktirajte
+- **parafirati** — *Potpisati inicijalima u znak saglasnosti, overiti; parafirati.*
+  - predlog: parafiram, parafiraš, parafiramo, parafirate, parafiraju, parafiralo, parafiraj, parafirajte
+- **pardonirati** — *Oprostiti, pomilovati, propustiti grešku; pardonirati.*
+  - predlog: pardoniraš, pardoniramo, pardonirate, pardoniraju, pardonirao, pardonirala, pardoniralo, pardonirali, pardonirale, pardoniraj, pardonirajte
+- **parodirati** — *Izrugivati podrugljivim oponašanjem; parodirati.*
+  - predlog: parodiram, parodiraš, parodiramo, parodirate, parodirala, parodiralo, parodirali, parodirale, parodiraj, parodirajte
+- **patentirati** — *Zaštititi pronalazak patentom; patentirati.*
+  - predlog: patentiram, patentiraš, patentiramo, patentirate, patentiraju, patentiralo, patentirale, patentiraj, patentirajte
+- **pedikirati** — *Negovati i sređivati nokte i kožu na stopalima; pedikirati.*
+  - predlog: pedikiram, pedikiraš, pedikiramo, pedikirate, pedikiraju, pedikirao, pedikirala, pedikiralo, pedikirali, pedikirale, pedikiraj, pedikirajte
+- **percipirati** — *Opažati, primati čulima i shvatati; percipirati.*
+  - predlog: percipiram, percipiraš, percipirate, percipiraju, percipirao, percipirala, percipiralo, percipirali, percipirale, percipiraj, percipirajte
+- **pilotirati** — *Glagol: upravljati letelicom.*
+  - predlog: pilotiramo, pilotirate, pilotiraju, pilotirala, pilotiralo, pilotirali, pilotirale, pilotiraj, pilotirajte
+- **pirati** — *Oblik reči pirat (morski razbojnik, gusar).*
+  - predlog: piram, piraš, piramo, piraju, pirao, pirala, piralo, pirali, pirale, piraj, pirajte
+- **pledirati** — *Zastupati, zalagati se za nešto; pledirati.*
+  - predlog: plediram, plediraš, plediramo, pledirate, pledirala, plediralo, pledirali, pledirale, plediraj, pledirajte
+- **plombirati** — *Staviti plombu (u zub ili na pošiljku); plombirati.*
+  - predlog: plombiraš, plombiramo, plombiraju, plombirao, plombiralo, plombirali, plombirale, plombiraj, plombirajte
+- **politizirati** — *Oblik reči politizovati (davati politički karakter, baviti se politikom).*
+  - predlog: politiziram, politiziraš, politiziramo, politizirate, politiziraju, politizirao, politizirala, politiziralo, politizirali, politizirale, politiziraj, politizirajte
+- **ponirati** — *Tonuti pod zemlju, ponirati (o reci); ponirati.*
+  - predlog: poniram, poniraš, ponira, poniramo, ponirate, poniraju, poniralo, ponirali, ponirale, poniraj, ponirajte
+- **potirati** — *Brisati, uništavati, poništavati; potirati.*
+  - predlog: potiram, potiraš, potira, potiramo, potirate, potiraju, potiralo, potiraj, potirajte
+- **prakticirati** — *Primenjivati u praksi, redovno vršiti; prakticirati.*
+  - predlog: prakticiram, prakticiraš, prakticira, prakticiramo, prakticirate, prakticiraju, prakticirala, prakticiralo, prakticirali, prakticirale, prakticiraj, prakticirajte
+- **precizirati** — *Tačno odrediti, učiniti preciznim i jasnim; precizirati.*
+  - predlog: preciziraš, preciziramo, precizirate, preciziraju, precizirala, preciziralo, precizirali, precizirale, preciziraj, precizirajte
+- **preparirati** — *Obraditi i sačuvati mrtvu životinju; preparirati.*
+  - predlog: prepariraš, prepariramo, preparirate, prepariraju, preparirala, prepariralo, preparirali, preparirale, prepariraj, preparirajte
+- **prepirati** — *Svađati se rečima (prepirati se).*
+  - predlog: prepiram, prepiraš, prepira, prepiramo, prepirate, prepiraju, prepiraj, prepirajte
+- **pretendirati** — *Oblik reči pretendovati (polagati pravo, težiti nečemu).*
+  - predlog: pretendiram, pretendiraš, pretendiramo, pretendirate, pretendiraju, pretendirao, pretendirala, pretendiralo, pretendirali, pretendirale, pretendiraj, pretendirajte
+- **procesuirati** — *Voditi sudski postupak protiv nekoga, gonjati; procesuirati.*
+  - predlog: procesuiraš, procesuirate, procesuirao, procesuirala, procesuiralo, procesuirali, procesuirale, procesuiraj, procesuirajte
+- **prodirati** — *Probijati se unutra; ulaziti kroz prepreku.*
+  - predlog: prodiram, prodiraš, prodira, prodiramo, prodirate, prodiraju, prodiraj, prodirajte
+- **producirati** — *Glagol: proizvoditi; voditi i finansirati izradu filma ili muzike.*
+  - predlog: produciraš, produciramo, producirate, produciraju, producirao, producirala, produciralo, producirali, producirale, produciraj, producirajte
+- **prognozirati** — *Predviđati budući tok; davati prognozu.*
+  - predlog: prognoziram, prognoziraš, prognoziramo, prognozirate, prognozirao, prognozirala, prognoziralo, prognozirale, prognoziraj, prognozirajte
+- **projicirati** — *Oblik reči projicirati (prikazivati na platnu; predviđati).*
+  - predlog: projiciram, projiciramo, projicirate, projiciraju, projicirao, projicirala, projiciralo, projicirali, projicirale, projiciraj, projicirajte
+- **prolongirati** — *Odložiti, produžiti rok ili trajanje; prolongirati.*
+  - predlog: prolongiram, prolongiraš, prolongiramo, prolongirate, prolongiraju, prolongirao, prolongirala, prolongiralo, prolongirali, prolongirale, prolongiraj, prolongirajte
+- **propagirati** — *Širiti i zastupati neku ideju; propagirati.*
+  - predlog: propagiram, propagiramo, propagirate, propagirala, propagiralo, propagirali, propagirale, propagiraj, propagirajte
+- **prosperirati** — *Napredovati, uspevati; prosperirati.*
+  - predlog: prosperiram, prosperiraš, prosperiramo, prosperirate, prosperiraju, prosperirao, prosperirala, prosperiralo, prosperirali, prosperirale, prosperiraj, prosperirajte
+- **prostirati** — *Razastirati (veš); prostirati se — pružati se.*
+  - predlog: prostiram, prostiraš, prostira, prostiramo, prostirate, prostiraju, prostiraj, prostirajte
+- **prostudirati** — *Temeljno proučiti; prostudirati.*
+  - predlog: prostudiraš, prostudiramo, prostudirate, prostudiraju, prostudirala, prostudiralo, prostudirali, prostudirale, prostudiraj, prostudirajte
+- **prosvirati** — *Probiti hicem; odsvirati do kraja.*
+  - predlog: prosviramo, prosvirate, prosviraju, prosvirala, prosviralo, prosvirali, prosvirale, prosviraj, prosvirajte
+- **protežirati** — *Pogodovati nekome i gurati ga, favorizovati; protežirati.*
+  - predlog: protežiram, protežiraš, protežiramo, protežirate, protežiraju, protežirala, protežiralo, protežirali, protežirale, protežiraj, protežirajte
+- **prozirati** — *Providati, gledati kroz nešto providno; prozirati.*
+  - predlog: proziram, proziraš, prozira, proziramo, prozirate, proziraju, prozirala, prozirale, proziraj, prozirajte
+- **proždirati** — *Halapljivo jesti, gutati; proždirati.*
+  - predlog: proždiram, proždiraš, proždira, proždiramo, proždirate, proždiraju, proždiralo, proždirale, proždiraj, proždirajte
+- **rangirati** — *Razvrstavati po redosledu vrednosti; svrstavati.*
+  - predlog: rangiram, rangiraš, rangiramo, rangirate, rangirao, rangiralo, rangirali, rangiraj, rangirajte
+- **raportirati** — *Podnositi raport, javljati izveštaj pretpostavljenom; raportirati.*
+  - predlog: raportiram, raportiramo, raportirate, raportiraju, raportirala, raportiralo, raportirali, raportirale
+- **rasformirati** — *Raspustiti i ukinuti formaciju ili sastav; rasformirati.*
+  - predlog: rasformiram, rasformiraš, rasformiramo, rasformirate, rasformiraju, rasformirao, rasformirala, rasformiralo, rasformirali, rasformirale, rasformiraj, rasformirajte
+- **rasprostirati** — *Razastirati, širiti po površini; rasprostirati.*
+  - predlog: rasprostiram, rasprostiraš, rasprostira, rasprostiramo, rasprostirate, rasprostiraju, rasprostiralo, rasprostirali, rasprostiraj, rasprostirajte
+- **razabirati** — *Razaznavati, raspoznavati; razabirati.*
+  - predlog: razabiram, razabiraš, razabirate, razabiraju, razabirala, razabiralo, razabirali, razabirale, razabiraj, razabirajte
+- **razastirati** — *Prostirati i širiti po površini; razastirati.*
+  - predlog: razastiram, razastiraš, razastira, razastiramo, razastirate, razastiraju, razastirala, razastiralo, razastirale, razastiraj, razastirajte
+- **razdirati** — *Cepati, kidati; mučiti (osećanja); razdirati.*
+  - predlog: razdiram, razdiraš, razdira, razdiramo, razdirate, razdiraju, razdiraj, razdirajte
+- **razmontirati** — *Rastaviti na delove.*
+  - predlog: razmontiraš, razmontiramo, razmontirate, razmontiraju, razmontirao, razmontirala, razmontiralo, razmontirali, razmontirale, razmontiraj, razmontirajte
+- **reaktivirati** — *Ponovo aktivirati, vratiti u dejstvo ili upotrebu; reaktivirati.*
+  - predlog: reaktiviram, reaktiviraš, reaktiviramo, reaktivirate, reaktiviraju, reaktivirao, reaktivirala, reaktiviralo, reaktivirale, reaktiviraj, reaktivirajte
+- **reducirati** — *Smanjivati, svoditi na manju meru, ograničavati; reducirati.*
+  - predlog: reduciram, reduciraš, reduciramo, reduciralo, reducirali, reducirale, reduciraj, reducirajte
+- **refundirati** — *Vraćati uplaćeni novac, nadoknađivati; refundirati.*
+  - predlog: refundiram, refundiraš, refundiramo, refundirate, refundiraju, refundirao, refundirala, refundiralo, refundirali, refundirale, refundiraj, refundirajte
+- **rehabilitirati** — *Oblik reči rehabilitovati (vratiti ugled; osposobiti posle bolesti).*
+  - predlog: rehabilitiram, rehabilitiraš, rehabilitiramo, rehabilitirate, rehabilitiraju, rehabilitirao, rehabilitirala, rehabilitiralo, rehabilitirali, rehabilitirale, rehabilitiraj, rehabilitirajte
+- **reinkarnirati** — *Ponovo se roditi u drugom telu (u verovanju o seobi duša); reinkarnirati.*
+  - predlog: reinkarniram, reinkarniraš, reinkarnira, reinkarniramo, reinkarnirate, reinkarniraju, reinkarnirala, reinkarniralo, reinkarnirali, reinkarnirale, reinkarniraj, reinkarnirajte
+- **remizirati** — *Završiti igru nerešeno.*
+  - predlog: remiziram, remiziraš, remiziramo, remizirate, remiziraju, remiziralo, remiziraj, remizirajte
+- **reparirati** — *Popravljati, opravljati; reparirati.*
+  - predlog: repariram, repariraš, repariramo, reparirate, repariraju, reparirao, reparirala, repariralo, reparirali, reparirale, repariraj, reparirajte
+- **repetirati** — *Ponavljati; repetirati.*
+  - predlog: repetiraš, repetiramo, repetirate, repetirala, repetiralo, repetirali, repetirale, repetiraj, repetirajte
+- **replicirati** — *Odgovarati, uzvraćati u razgovoru; replicirati.*
+  - predlog: repliciraš, repliciramo, replicirate, replicirala, repliciralo, replicirali, replicirale, repliciraj, replicirajte
+- **restaurirati** — *Obnoviti i vratiti u prvobitno stanje (delo, građevinu); restaurirati.*
+  - predlog: restauriraš, restauriramo, restaurirate, restaurirala, restauriralo, restaurirali, restaurirale, restauriraj, restaurirajte
+- **retuširati** — *Doterivati i ispravljati fotografiju ili crtež; retuširati.*
+  - predlog: retuširam, retuširaš, retuširamo, retuširaju, retuširao, retuširala, retuširalo, retuširale, retuširaj, retuširajte
+- **revanširati** — *Revanširati se — uzvratiti istom merom.*
+  - predlog: revanširaš, revanširamo, revanširate, revanširala, revanširalo, revanširali, revanširale, revanširaj, revanširajte
+- **revidirati** — *Ponovo pregledati i izmeniti, preispitati odluku ili tekst; revidirati.*
+  - predlog: revidiram, revidirate, revidirao, revidiralo, revidirali, revidirale, revidiraj, revidirajte
+- **revoltirati** — *Pobuniti, ozlojediti; revoltirati.*
+  - predlog: revoltiram, revoltiramo, revoltirate, revoltiraju, revoltirala, revoltiralo, revoltirali, revoltirale, revoltirajte
+- **rotirati** — *Okretati oko ose; smenjivati po redu; rotirati.*
+  - predlog: rotiram, rotiraš, rotirao, rotirala, rotiralo, rotirali, rotirale, rotirajte
+- **satirati** — *Uništavati, satirati; mučiti.*
+  - predlog: satiram, satiraš, satiramo, satirate, satiraju, satiralo, satirale, satiraj, satirajte
+- **servisirati** — *Održavati i popravljati uređaj.*
+  - predlog: servisiram, servisiraš, servisiramo, servisirate, servisiraju, servisirala, servisiralo, servisirali, servisirale, servisiraj, servisirajte
+- **skalpirati** — *Oderati kožu s glave s kosom, naročito kao ratni trofej.*
+  - predlog: skalpiram, skalpiraš, skalpira, skalpiramo, skalpirate, skalpirala, skalpiralo, skalpirale, skalpiraj, skalpirajte
+- **sondirati** — *Ispitivati, sondirati teren; sondirati.*
+  - predlog: sondiram, sondiraš, sondiramo, sondirate, sondirao, sondirala, sondiralo, sondirali, sondirale, sondiraj, sondirajte
+- **spirati** — *Ispirati vodom; spirati.*
+  - predlog: spiram, spiraš, spira, spiramo, spirate, spiralo, spiraj, spirajte
+- **stažirati** — *Oblik glagola „stažirati“; obavljati pripravnički staž i učiti radeći u struci (*
+  - predlog: stažiramo, stažirate, stažiraju, stažiralo, stažirali, stažirale, stažiraj, stažirajte
+- **stipendirati** — *Davati stipendiju; stipendirati.*
+  - predlog: stipendiram, stipendiraš, stipendiramo, stipendirate, stipendiraju, stipendirao, stipendirala, stipendiralo, stipendirali, stipendirale, stipendiraj, stipendirajte
+- **stornirati** — *Poništiti već izvršeno knjiženje ili narudžbinu; stornirati.*
+  - predlog: storniram, storniraš, storniramo, stornirate, stornirao, stornirala, storniralo, stornirali, stornirale, storniraj, stornirajte
+- **suflirati** — *Šaputati glumcu tekst sa strane.*
+  - predlog: sufliram, sufliraš, sufliramo, suflirate, sufliraju, suflirao, suflirala, sufliralo, suflirali, suflirale, sufliraj, suflirajte
+- **tempirati** — *Podesiti na određeno vreme; tempirati.*
+  - predlog: tempiram, tempiraš, tempira, tempiramo, tempirate, tempiraju, tempirala, tempiralo, tempirali, tempirale, tempiraj, tempirajte
+- **trasirati** — *Obeležiti trasu; ucrtati pravac.*
+  - predlog: trasiram, trasiraš, trasiramo, trasirate, trasiralo, trasirale, trasiraj, trasirajte
+- **ugravirati** — *Urezati šaru ili slova u materijal.*
+  - predlog: ugraviram, ugraviraš, ugravira, ugraviramo, ugravirate, ugraviraju, ugravirala, ugraviralo, ugravirali, ugravirale, ugraviraj, ugravirajte
+- **umirati** — *Glagol: gubiti život, prestajati živeti.*
+  - predlog: umiram, umiraš, umira, umiramo, umirate, umiraju, umiraj, umirajte
+- **upirati** — *Glagol: upinjati se, ulagati snagu; usmeravati pogled ili oslonac u nešto.*
+  - predlog: upiram, upiraš, upira, upiramo, upirate, upiraju, upirale, upiraj, upirajte
+- **urgirati** — *Požurivati, navaljivati na nešto.*
+  - predlog: urgiraš, urgiramo, urgirate, urgiraju, urgirala, urgiralo, urgirale, urgiraj, urgirajte
+- **utirati** — *Brisati, otirati; krčiti (put).*
+  - predlog: utiram, utiraš, utira, utiramo, utirate, utiraju, utirala, utirale, utiraj, utirajte
+- **uvirati** — *Ulivati se (o reci, vodi); uvirati.*
+  - predlog: uviram, uviraš, uvira, uviramo, uvirate, uviraju, uvirala, uviralo, uvirali, uvirale, uviraj, uvirajte
+- **vegetirati** — *Životariti, sporo i bez smisla provoditi život; vegetirati.*
+  - predlog: vegetiram, vegetiramo, vegetirate, vegetiraju, vegetirao, vegetirala, vegetiralo, vegetirali, vegetirale, vegetiraj, vegetirajte
+- **vibrirati** — *Treperiti, vibrirati.*
+  - predlog: vibriramo, vibrirate, vibrirala, vibriralo, vibrirali, vibrirale, vibriraj, vibrirajte
+- **vizirati** — *Nišaniti; overiti vizu.*
+  - predlog: viziram, viziraš, viziramo, vizirate, viziraju, vizirao, vizirala, viziralo, vizirali, vizirale, viziraj, vizirajte
+- **vizitirati** — *Obilaziti bolesnike; obavljati viziti.*
+  - predlog: vizitiram, vizitiraš, vizitiramo, vizitirate, vizitiraju, vizitirao, vizitirala, vizitiralo, vizitirali, vizitirale, vizitiraj, vizitirajte
+- **zabarikadirati** — *Oblik glagola „zabarikadirati“; zagraditi barikadom i preprečiti; zabarikadirati*
+  - predlog: zabarikadiram, zabarikadiraš, zabarikadira, zabarikadirate, zabarikadiraju, zabarikadiralo, zabarikadirale, zabarikadiraj
+- **zamaskirati** — *Prikriti maskom ili rušenjem izgleda, prerušiti; zamaskirati.*
+  - predlog: zamaskiram, zamaskiraš, zamaskiramo, zamaskirate, zamaskiraju, zamaskirala, zamaskiralo, zamaskirali, zamaskirale, zamaskiraj, zamaskirajte
+- **zastirati** — *Prekrivati, prostirati preko nečega.*
+  - predlog: zastiram, zastiraš, zastira, zastiramo, zastirate, zastiraju, zastirala, zastiralo, zastirali, zastirale, zastiraj, zastirajte
+- **zatirati** — *Uništavati, istrebljivati.*
+  - predlog: zatiram, zatiraš, zatiramo, zatirate, zatiraju, zatirao, zatirala, zatiralo, zatirale, zatiraj, zatirajte
+- **zazirati** — *Pribojavati se i kloniti se; bojati se nekoga.*
+  - predlog: zaziram, zaziraš, zazira, zaziramo, zazirate, zaziraju, zaziraj, zazirajte
+- **zbirati** — *Skupljati, sabirati; zbirati zajedno.*
+  - predlog: zbiram, zbiraš, zbiramo, zbirate, zbirao, zbiralo, zbirale, zbiraj, zbirajte
+- **šikanirati** — *Maltretirati; zlonamerno gnjaviti.*
+  - predlog: šikaniram, šikaniraš, šikaniramo, šikanirate, šikanirala, šikaniralo, šikaniraj, šikanirajte
+- **šlogirati** — *Doživeti moždani udar (šlog); ukočiti se.*
+  - predlog: šlogiram, šlogiraš, šlogiramo, šlogirate, šlogiralo, šlogirale, šlogiraj, šlogirajte
+- **šofirati** — *Voziti, upravljati vozilom.*
+  - predlog: šofiram, šofiraš, šofiramo, šofirate, šofiraju, šofirao, šofirala, šofiralo, šofirali, šofirale, šofiraj, šofirajte
+- **špekulirati** — *Mešetariti; nagađati radi dobiti.*
+  - predlog: špekuliraš, špekulira, špekuliramo, špekulirate, špekuliraju, špekulirao, špekulirala, špekuliralo, špekulirali, špekulirale, špekuliraj, špekulirajte
+- **ženirati** — *Ustručavati se, stideti se.*
+  - predlog: ženiram, ženiramo, ženirate, ženiraju, ženirao, ženirala, ženiralo, ženirali, ženirale, ženiraj, ženirajte
+- **žonglirati** — *Glagol: veštim bacanjem održavati više predmeta u vazduhu odjednom; preneseno: s*
+  - predlog: žongliramo, žonglirate, žongliraju, žonglirala, žongliralo, žonglirali, žonglirale, žongliraj, žonglirajte
+
+## Tip `-iti` — 521 glagola
+
+- **bariti** — *Kuvati u ključaloj vodi.*
+  - predlog: barim, bariš, barimo, bario, barila, barilo, barili, barile
+- **bediti** — *Oblik glagola „bediti“; optuživati i okrivljavati, pripisivati krivicu; klevetat*
+  - predlog: bedim, bediš, bedi, bedimo, bedite, bedio, bedila, bedilo, bedili, bedile
+- **besposličiti** — *Lenčariti, dangubiti, provoditi vreme u nečinjenju; besposličiti.*
+  - predlog: besposličiš, besposličimo, besposličite, besposliče, besposličila, besposličilo, besposličili, besposličile
+- **bečiti** — *Izbuljivati i razrogačivati oči, bečiti se; bečiti.*
+  - predlog: bečim, bečimo, bečite, beče, bečila, bečilo, bečili, bečile
+- **bilježiti** — *Beležiti, zapisivati (ijekavski).*
+  - predlog: bilježiš, bilježimo, bilježite, bilježio, bilježila, bilježilo, bilježile
+- **bogaljiti** — *Oblik reči bogaljiti (sakatiti, činiti bogaljem).*
+  - predlog: bogaljim, bogaljiš, bogaljimo, bogaljite, bogaljio, bogaljila, bogaljilo, bogaljili, bogaljile
+- **boksiti** — *Oblik reči boksit (ruda iz koje se dobija aluminijum).*
+  - predlog: boksim, boksiš, boksi, boksimo, boksite, bokse, boksio, boksila, boksilo, boksili, boksile
+- **boliti** — *Oblik reči boleti (osećati bol).*
+  - predlog: bolim, bolimo, bolite, bolila, bolilo, bolili, bolile
+- **broditi** — *Ploviti, kretati se vodom; gaziti i probijati se; broditi.*
+  - predlog: brodim, brodiš, brodimo, brodite, brodilo, brodili, brodile
+- **brusiti** — *Glačati i oštriti trenjem.*
+  - predlog: brusim, brusiš, brusimo, brusite, brusila, brusilo, brusili, brusile
+- **buriti** — *Oblik glagola buriti se (buniti se, ljutiti se — dijalekatski).*
+  - predlog: buriš, burimo, burite, burio, burila, burili, burile
+- **cariniti** — *Naplaćivati carinu, podvrgavati robu carinjenju; cariniti.*
+  - predlog: carinim, cariniš, carinimo, carinite, carinila, carinilo, carinili, carinile
+- **cepiti** — *Kalemiti; takođe davati cepivo, vakcinisati.*
+  - predlog: cepim, cepiš, cepi, cepimo, cepite, cepe, cepio, cepila, cepilo, cepili, cepile
+- **ceriti** — *Ceriti se — široko se smejati pokazujući zube.*
+  - predlog: cerim, ceri, cerimo, cerite, cerila, cerili, cerile
+- **daroviti** — *Oblik prideva „darovit“; obdaren talentom i sposobnošću, nadaren (daroviti učeni*
+  - predlog: darovim, daroviš, darovimo, darovio, darovila, darovilo, darovili, darovile
+- **detinjiti** — *Ponašati se detinjasto; postajati nezreo ili senilan; detinjiti.*
+  - predlog: detinjiš, detinjimo, detinjio, detinjila, detinjilo, detinjili, detinjile
+- **dodvoriti** — *Ulagivati se, umiljavati se da bi se zadobila naklonost; dodvoriti se.*
+  - predlog: dodvorim, dodvoriš, dodvorimo, dodvorite, dodvorila, dodvorilo, dodvorile
+- **dogoniti** — *Doterivati gonjenjem, dogoniti stoku; dogoniti.*
+  - predlog: dogoniš, dogoni, dogonimo, dogonite, dogonila, dogonilo, dogonile
+- **dokupiti** — *Dodatno kupiti, kupiti još do potrebne količine; dokupiti.*
+  - predlog: dokupim, dokupiš, dokupi, dokupimo, dokupite, dokupe, dokupila, dokupilo, dokupili, dokupile
+- **dokusuriti** — *Dokrajčiti, dotući, dovršiti potpuno; dokusuriti.*
+  - predlog: dokusuriš, dokusuri, dokusurite, dokusure, dokusurio, dokusurila, dokusurilo, dokusurile
+- **doliti** — *Dodati još tečnosti; naliti dopune.*
+  - predlog: dolim, doliš, doli, dolimo, dolite, dolila, dolilo, dolili, dolile
+- **domamiti** — *Mamljenjem dovesti; izmamiti i privući.*
+  - predlog: domamim, domamiš, domamimo, domamite, domame, domamila, domamile
+- **domašiti** — *Dosegnuti rukom; dohvatiti.*
+  - predlog: domašim, domašiš, domašimo, domašite, domaše, domašila, domašilo, domašili, domašile
+- **domisliti** — *Dosetiti se, smisliti rešenje.*
+  - predlog: domislim, domisliš, domislimo, domisle, domislila, domislilo, domislili, domislile
+- **dosuditi** — *Presudom dodeliti; dosuditi pravo.*
+  - predlog: dosudim, dosudiš, dosudimo, dosudite, dosude, dosudilo, dosudile
+- **doturiti** — *Diskretno dodati, doturiti u ruke.*
+  - predlog: doturiš, doturimo, doturite, doturila, doturilo, doturili, doturile
+- **doviti** — *Oblik glagola „doviti se“; dosetiti se i snaći se, naći rešenje lukavstvom (uspe*
+  - predlog: dovim, doviš, dovi, dovimo, dovite, dove, dovio, dovila, dovilo, dovili, dovile
+- **dozlogrditi** — *Dosaditi do gađenja, postati nepodnošljiv; dozlogrditi.*
+  - predlog: dozlogrdim, dozlogrdiš, dozlogrdi, dozlogrdimo, dozlogrdite, dozlogrde, dozlogrdila, dozlogrdili, dozlogrdile
+- **drešiti** — *Razvezivati, odrešivati, odvezivati; drešiti.*
+  - predlog: drešim, drešiš, drešimo, drešite, dreše, drešila, drešilo, drešili
+- **duljiti** — *Produžavati, činiti dužim, oduživati; duljiti.*
+  - predlog: duljiš, duljimo, duljite, duljio, duljila, duljilo, duljili, duljile
+- **dvojiti** — *Deliti na dvoje, razdvajati; razlikovati; dvojiti.*
+  - predlog: dvojiš, dvojimo, dvojite, dvojio, dvojila, dvojili, dvojile
+- **garaviti** — *Prljati garom i čađi; crniti.*
+  - predlog: garaviš, garavimo, garavite, garavio, garavila, garavilo, garavili, garavile
+- **glasoviti** — *Oblik reči glasovit (čuven, slavan, na glasu).*
+  - predlog: glasovim, glasoviš, glasovimo, glasovio, glasovila, glasovilo, glasovili, glasovile
+- **gnezditi** — *Gnezditi se — smeštati se kao u gnezdu; udomljavati se.*
+  - predlog: gnezdim, gnezdiš, gnezdimo, gnezdite, gnezdila, gnezdilo, gnezdili
+- **gnjuriti** — *Zaranjati pod vodu; roniti.*
+  - predlog: gnjurim, gnjuriš, gnjuri, gnjurimo, gnjurite, gnjure, gnjurio, gnjurila, gnjurilo, gnjurili, gnjurile
+- **gnojiti** — *Izlučivati gnoj, gnojiti se; đubriti zemlju stajskim đubretom; gnojiti.*
+  - predlog: gnojim, gnojiš, gnojimo, gnojite, gnoje, gnojio, gnojila, gnojilo, gnojili, gnojile
+- **grbaviti** — *Činiti grbavim, povijati i pogrbljivati; grbaviti.*
+  - predlog: grbaviš, grbavimo, grbavite, grbavio, grbavila, grbavilo, grbavili, grbavile
+- **grbiti** — *Savijati u grbu, povijati leđa; grbiti se; grbiti.*
+  - predlog: grbim, grbiš, grbimo, grbite, grbila, grbilo, grbili, grbile
+- **guriti** — *Oblik glagola „guriti se“; skupljati se i savijati od hladnoće ili straha, šćuću*
+  - predlog: gurim, guriš, guri, gurimo, gurite, gure, gurila, gurilo, gurili, gurile
+- **haliti** — *Oblik glagola „haliti“; žudeti i čeznuti za nečim; razg. halapljivo jesti i guta*
+  - predlog: hališ, hali, halimo, halite, halio, halilo, halili
+- **huditi** — *Oblik reči huditi (kuditi, koriti; činiti zlo).*
+  - predlog: hudiš, hudi, hudimo, hudite, hude, hudio, hudila, hudilo, hudili, hudile
+- **isitniti** — *Usitniti, izdeliti na sitne delove; isitniti.*
+  - predlog: isitnim, isitniš, isitnimo, isitne, isitnila, isitnilo, isitnili, isitnile
+- **iskapiti** — *Ispiti do poslednje kapi, iskapiti čašu; iskapiti.*
+  - predlog: iskapim, iskapiš, iskapimo, iskapite, iskape, iskapila, iskapilo, iskapile
+- **iskeziti** — *Iskeziti zube, pokazati zube u pretnji ili podsmehu; iskeziti se.*
+  - predlog: iskezim, iskeziš, iskezimo, iskezite, iskeze, iskezila, iskezilo, iskezili, iskezile
+- **iskiti** — *Oblik reči iskititi (ukrasiti, nakititi).*
+  - predlog: iskim, iskiš, iski, iskimo, iske, iskio, iskila, iskilo, iskili, iskile
+- **iskititi** — *Ukrasiti, okititi, doterati; iskititi.*
+  - predlog: iskitim, iskitiš, iskitimo, iskitite, iskitilo, iskitili, iskitile
+- **iskositi** — *Postaviti koso; nakriviti.*
+  - predlog: iskosim, iskosiš, iskosimo, iskosite, iskose, iskosilo, iskosili, iskosile
+- **iskrpiti** — *Oblik reči iskrpiti (popraviti krpljenjem).*
+  - predlog: iskrpiš, iskrpi, iskrpimo, iskrpite, iskrpe, iskrpio, iskrpila, iskrpilo, iskrpili, iskrpile
+- **iskrvaviti** — *Oblik reči iskrvaviti (izgubiti mnogo krvi; krvariti).*
+  - predlog: iskrvavim, iskrvaviš, iskrvavimo, iskrvavite, iskrvave, iskrvavilo, iskrvavile
+- **iskrčiti** — *Oblik reči iskrčiti (raščistiti zemljište od šume i šiblja).*
+  - predlog: iskrčim, iskrčiš, iskrči, iskrčimo, iskrčite, iskrče, iskrčila, iskrčilo, iskrčile
+- **ispizmiti** — *Navući na sebe nečiju mržnju i pizmu; rasrditi se i zlopamtiti; ispizmiti se.*
+  - predlog: ispizmim, ispizmiš, ispizmi, ispizmimo, ispizmite, ispizme, ispizmila, ispizmilo, ispizmili, ispizmile
+- **ispostiti** — *Oblik reči ispostiti (izdržati post do kraja).*
+  - predlog: ispostim, ispostiš, ispostimo, ispostite, isposte, ispostila, ispostilo, ispostili, ispostile
+- **izbečiti** — *Oblik reči izbečiti (raširiti, izbuljiti oči).*
+  - predlog: izbečim, izbečiš, izbečimo, izbečite, izbeče, izbečilo, izbečili, izbečile
+- **izblijediti** — *Ijekavski oblik glagola izbledeti (postati bled, izgubiti boju).*
+  - predlog: izblijedim, izblijediš, izblijedi, izblijedimo, izblijedite, izblijede, izblijedila, izblijedilo, izblijedili, izblijedile
+- **izbrusiti** — *Izglačati i oblikovati brušenjem; doterati do savršenstva; izbrusiti.*
+  - predlog: izbrusim, izbrusiš, izbrusi, izbrusimo, izbrusite, izbruse, izbrusila, izbrusilo, izbrusili
+- **izdubiti** — *Dubljenjem napraviti šupljinu.*
+  - predlog: izdubim, izdubiš, izdubimo, izdube, izdubilo, izdubili, izdubile
+- **izdužiti** — *Učiniti dužim i tanjim.*
+  - predlog: izdužim, izdužiš, izdužimo, izdužite, izduže, izdužila, izdužile
+- **izmrviti** — *Smrviti, izlomiti u sitne mrve; izmrviti.*
+  - predlog: izmrvim, izmrviš, izmrvi, izmrvimo, izmrve, izmrvila, izmrvilo, izmrvili, izmrvile
+- **izmršaviti** — *Oblik reči izmršaviti (omršaveti).*
+  - predlog: izmršavim, izmršaviš, izmršavi, izmršavimo, izmršavite, izmršave, izmršavio, izmršavila, izmršavilo, izmršavili, izmršavile
+- **iznakaziti** — *Unakaziti, izobličiti, ružno izmeniti izgled; iznakaziti.*
+  - predlog: iznakazim, iznakaziš, iznakazi, iznakazimo, iznakazite, iznakaze, iznakazila, iznakazilo, iznakazili, iznakazile
+- **izobičajiti** — *Ukinuti običaj, izbaciti iz upotrebe, učiniti neuobičajenim; izobičajiti.*
+  - predlog: izobičajim, izobičajiš, izobičaji, izobičajimo, izobičajite, izobičaje, izobičajila, izobičajilo, izobičajili, izobičajile
+- **izobraziti** — *Obrazovati, izučiti, prosvetiti; izobraziti.*
+  - predlog: izobraziš, izobrazimo, izobrazite, izobraze, izobrazila, izobrazilo, izobrazile
+- **izraniti** — *Glagol: naneti mnoge rane po celom telu; izranjaviti i izgrebati.*
+  - predlog: izranim, izraniš, izrani, izranimo, izranite, izrane, izranila, izranilo, izranile
+- **izranjaviti** — *Oblik reči izranjaviti (naneti rane, izraniti).*
+  - predlog: izranjavim, izranjaviš, izranjavimo, izranjavite, izranjave, izranjavila, izranjavilo, izranjavile
+- **izravniti** — *Oblik reči izravnati (učiniti ravnim; poravnati).*
+  - predlog: izravnim, izravniš, izravnimo, izravnite, izravne, izravnio, izravnila, izravnili, izravnile
+- **izrediti** — *Poređati jedno po jedno i nabrojati redom; postaviti po redu.*
+  - predlog: izrediš, izredi, izredimo, izredite, izrede, izredila, izredilo, izredile
+- **izrezbariti** — *Urezati ukrase u drvo.*
+  - predlog: izrezbariš, izrezbarimo, izrezbarite, izrezbare, izrezbarilo, izrezbarili, izrezbarile
+- **izričiti** — *Oblik prideva „izričit“; jasan i nedvosmislen, izrečen otvoreno bez dvosmislenos*
+  - predlog: izričim, izričiš, izričimo, izričio, izričila, izričilo, izričili, izričile
+- **izružiti** — *Izgrditi, ispsovati, izružiti; izružiti.*
+  - predlog: izružim, izružiš, izružimo, izružite, izruže, izružilo, izružile
+- **izvetriti** — *Izgubiti miris i svežinu na vazduhu, ishlapeti; izvetriti.*
+  - predlog: izvetrim, izvetriš, izvetrimo, izvetrite, izvetre, izvetrila, izvetrili, izvetrile
+- **izveštiti** — *Učiniti veštim ili izveštačenim; izveštiti.*
+  - predlog: izveštim, izveštiš, izveštimo, izveštite, izvešte, izveštila, izveštilo, izveštile
+- **izviriti** — *Proviriti napolje; pojaviti se delom.*
+  - predlog: izvirim, izviriš, izvirimo, izvirite, izvirila, izvirilo, izvirili
+- **izviti** — *Oblik reči izviti (saviti, uviti).*
+  - predlog: izvim, izviš, izvi, izvimo, izvite, izve, izvilo, izvili
+- **iščašiti** — *Izvrnuti zglob iz ležišta, uganuti; iščašiti.*
+  - predlog: iščašim, iščašiš, iščašimo, iščašite, iščaše, iščašilo, iščašili, iščašile
+- **jaloviti** — *Činiti jalovim, neplodnim; osujećivati; jaloviti.*
+  - predlog: jaloviš, jalovimo, jalovite, jalovio, jalovila, jalovilo, jalovili, jalovile
+- **jariti** — *Pariti se (o kozama); buktati, plamteti (o vatri); jariti se.*
+  - predlog: jarim, jariš, jarimo, jarite, jario, jarili, jarile
+- **jediniti** — *Spajati, sjedinjavati u celinu; jediniti.*
+  - predlog: jediniš, jedinimo, jedinite, jedinio, jedinila, jedinilo, jedinili, jedinile
+- **junačiti** — *Praviti se junak, hvalisati se hrabrošću; junačiti se.*
+  - predlog: junačim, junačimo, junačite, junačila, junačilo, junačili, junačile
+- **kasapiti** — *Klati i seći meso; surovo postupati, sakatiti; kasapiti.*
+  - predlog: kasapim, kasapiš, kasapimo, kasapite, kasapila, kasapilo, kasapili, kasapile
+- **koračiti** — *Ići korakom, koračati; koračiti.*
+  - predlog: koračim, koračiš, koračimo, koračite, korače, koračila, koračilo, koračili, koračile
+- **kotiti** — *Rađati mlade (o životinjama), okotiti se; kotiti se.*
+  - predlog: kotim, kotiš, koti, kotimo, kotio, kotila, kotilo, kotili, kotile
+- **kočijašiti** — *Terati i upravljati kočijom, baviti se kočijaškim poslom; kočijašiti.*
+  - predlog: kočijašim, kočijašiš, kočijašimo, kočijašite, kočijašio, kočijašila, kočijašilo, kočijašili, kočijašile
+- **kočoperiti** — *Kočoperiti se — šepuriti se, praviti se važan.*
+  - predlog: kočoperim, kočoperiš, kočoperimo, kočoperite, kočopere, kočoperila, kočoperilo, kočoperili, kočoperile
+- **krepiti** — *Jačati, davati snagu, okrepljivati; krepiti.*
+  - predlog: krepim, krepiš, krepimo, krepite, krepio, krepila, krepilo, krepile
+- **krmaniti** — *Upravljati brodom pomoću krme, kormilariti; krmaniti.*
+  - predlog: krmanim, krmaniš, krmanimo, krmanite, krmane, krmanila, krmanilo, krmanili, krmanile
+- **krpariti** — *Krpiti, slabo i s mukom sastavljati kraj s krajem; krpariti.*
+  - predlog: krpariš, krpari, krparimo, krparite, krpario, krparila, krparilo, krparili, krparile
+- **krutiti** — *Činiti krutim, ukrućivati; krutiti.*
+  - predlog: krutiš, krutimo, krutite, krutio, krutilo, krutili, krutile
+- **labaviti** — *Činiti labavim; popuštati zategnutost.*
+  - predlog: labaviš, labavimo, labavite, labavio, labavila, labavilo, labavili, labavile
+- **latiti** — *Poduhvatiti se, prihvatiti se nečega; latiti se.*
+  - predlog: latiš, lati, latimo, late, latilo, latili, latile
+- **laziti** — *Puzati, gmizati; sporo se kretati; laziti.*
+  - predlog: lazim, laziš, lazimo, lazite, lazila, lazilo, lazile
+- **lemiti** — *Spajati metal rastopljenim lemom.*
+  - predlog: lemim, lemiš, lemi, lemimo, lemite, leme, lemio, lemila, lemilo, lemili, lemile
+- **leniti** — *Oblik reči leniti se (lenčariti, lenstvovati).*
+  - predlog: leniš, lenimo, lenite, lenio, lenila, lenilo, lenili, lenile
+- **leškariti** — *Ležati besposleno, izležavati se, dremati; leškariti.*
+  - predlog: leškarim, leškariš, leškarimo, leškarite, leškarila, leškarilo, leškarile
+- **libiti** — *Libiti se — ustručavati se, snebivati se.*
+  - predlog: libim, libiš, libi, libimo, libe, libila, libilo, libile
+- **lukaviti** — *Postupati lukavo; spletkariti.*
+  - predlog: lukaviš, lukavimo, lukavite, lukavio, lukavila, lukavilo, lukavili, lukavile
+- **lučiti** — *Odvajati, razlikovati; izlučivati, lučiti; lučiti.*
+  - predlog: lučim, lučiš, lučimo, lučite, lučilo, lučili, lučile
+- **maciti** — *Maciti — mamiti mačku; mjaukati (dijalekatski).*
+  - predlog: macim, maciš, macimo, macite, macio, macila, macilo, macili, macile
+- **mahniti** — *Oblik prideva „mahnit“; pomaman i besomučan, izbezumljen (mahniti pogled).*
+  - predlog: mahnim, mahniš, mahnimo, mahnio, mahnila, mahnilo, mahnili, mahnile
+- **maliti** — *Umanjivati, smanjivati, činiti manjim; maliti.*
+  - predlog: mališ, malimo, malite, malio, malila, malilo, malili, malile
+- **manjiti** — *Umanjivati, smanjivati; manjiti.*
+  - predlog: manjiš, manjimo, manjite, manjio, manjila, manjilo, manjili, manjile
+- **mastiti** — *Premazivati mašću; dodavati mast.*
+  - predlog: mastim, mastiš, mastimo, mastite, maste, mastili, mastile
+- **matoriti** — *Stariti, postajati mator; matoriti.*
+  - predlog: matoriš, matorimo, matorite, matorio, matorila, matorilo, matorili, matorile
+- **militi** — *Biti ili postajati mio, prijati, goditi; militi.*
+  - predlog: miliš, milimo, milite, milio, milila, mililo, milile
+- **mimoilaziti** — *Prolaziti jedan pored drugog; (preneseno) izbegavati.*
+  - predlog: mimoilaziš, mimoilazite, mimoilazio, mimoilazila, mimoilazilo, mimoilazili, mimoilazile
+- **mladiti** — *Činiti mladim, podmlađivati; mladiti.*
+  - predlog: mladiš, mladimo, mladite, mladio, mladila, mladilo, mladili, mladile
+- **modriti** — *Bojiti u modro, plaviti; modriti.*
+  - predlog: modriš, modrimo, modrite, modrio, modrila, modrilo, modrili
+- **mrcvariti** — *Mučiti, kinjiti, izmrcvariti; mrcvariti.*
+  - predlog: mrcvarim, mrcvariš, mrcvari, mrcvarimo, mrcvarite, mrcvare, mrcvarila, mrcvarilo, mrcvarili, mrcvarile
+- **mrgoditi** — *Mrgoditi se — mrštiti se, biti natmuren.*
+  - predlog: mrgodim, mrgodiš, mrgodimo, mrgodite, mrgodila, mrgodilo, mrgodili, mrgodile
+- **mrmoljiti** — *Mrmljati nerazgovetno, gunđati ispod glasa; mrmoljiti.*
+  - predlog: mrmoljim, mrmoljiš, mrmoljite, mrmoljila, mrmoljilo, mrmoljili, mrmoljile
+- **nabiti** — *Sabiti udaranjem; čvrsto zbiti.*
+  - predlog: nabim, nabiš, nabi, nabimo, nabite, nabe, nabilo, nabile
+- **nadgovoriti** — *Nadmašiti u govoru, nadbrbljati; nadgovoriti.*
+  - predlog: nadgovorim, nadgovoriš, nadgovorimo, nadgovorite, nadgovore, nadgovorila, nadgovorilo, nadgovorili, nadgovorile
+- **nadgraditi** — *Dograditi naviše, podići iznad postojećeg; nadgraditi.*
+  - predlog: nadgradim, nadgradiš, nadgradimo, nadgrade, nadgradila, nadgradilo, nadgradile
+- **nadimiti** — *Ispuniti dimom, zadimiti; nadimiti.*
+  - predlog: nadimim, nadimiš, nadimi, nadimimo, nadimite, nadime, nadimio, nadimila, nadimilo, nadimili, nadimile
+- **nadomestiti** — *Zameniti, nadoknaditi nedostatak; nadomestiti.*
+  - predlog: nadomestim, nadomestiš, nadomestimo, nadomestite, nadomestila, nadomestilo, nadomestili, nadomestile
+- **nadopuniti** — *Dodatno dopuniti, upotpuniti; nadopuniti.*
+  - predlog: nadopunim, nadopuniš, nadopunimo, nadopunite, nadopunila, nadopunilo, nadopunili, nadopunile
+- **nadražiti** — *Izazvati nadraženost, podstaći čula ili nerve; nadražiti.*
+  - predlog: nadražim, nadražiš, nadražimo, nadražite, nadraže, nadražila, nadražilo, nadražili, nadražile
+- **nagliti** — *Žuriti, postupati naglo i nepromišljeno; nagliti.*
+  - predlog: nagliš, naglimo, naglite, naglio, naglila, naglilo, naglili, naglile
+- **nagrabusiti** — *Loše proći, nastradati i nadrljati; nagrabusiti.*
+  - predlog: nagrabusim, nagrabusiš, nagrabusi, nagrabusimo, nagrabusite, nagrabuse, nagrabusilo, nagrabusile
+- **nahvaliti** — *Nahvaliti se — mnogo pohvaliti; nahvaliti nekoga.*
+  - predlog: nahvališ, nahvalimo, nahvalite, nahvale, nahvalilo, nahvalili, nahvalile
+- **najediti** — *Naljutiti, razgneviti, ozlovoljiti; najediti.*
+  - predlog: najedim, najediš, najedimo, najedila, najedilo, najedili, najedile
+- **najmiti** — *Uzeti u najam, unajmiti; najmiti.*
+  - predlog: najmiš, najmimo, najmite, najme, najmila, najmilo, najmile
+- **nakaniti** — *Nameriti, odlučiti se na nešto.*
+  - predlog: nakanim, nakaniš, nakanimo, nakanite, nakanila, nakanilo, nakanile
+- **nakaziti** — *Učiniti nakaznim; unakaziti.*
+  - predlog: nakazim, nakaziš, nakazimo, nakazite, nakazila, nakazilo, nakazili, nakazile
+- **nakinđuriti** — *Preterano nakititi, nagizdati; nakinđuriti.*
+  - predlog: nakinđurim, nakinđuriš, nakinđuri, nakinđurimo, nakinđurite, nakinđure, nakinđurila, nakinđurilo, nakinđurile
+- **nakriviti** — *Nagnuti u stranu, postaviti koso; nakriviti.*
+  - predlog: nakrivim, nakrivimo, nakrivite, nakrive, nakrivila, nakrivilo, nakrivili, nakrivile
+- **nalaktiti** — *Osloniti se na lakat, nalaktiti se; nalaktiti se.*
+  - predlog: nalaktiš, nalaktimo, nalaktite, nalakte, nalaktila, nalaktilo, nalaktili, nalaktile
+- **naliti** — *Sipati tečnost u sud.*
+  - predlog: nalim, nališ, nali, nalimo, nalite, nale, nalilo, nalili
+- **naličiti** — *Biti sličan, ličiti na nešto; naličiti.*
+  - predlog: naličim, naličiš, naličimo, naličite, naličila, naličilo, naličili, naličile
+- **namlatiti** — *Istući, namlatiti batinama.*
+  - predlog: namlatimo, namlatite, namlate, namlatila, namlatilo, namlatili, namlatile
+- **namračiti** — *Smrknuti se, namrgoditi se, naoblačiti; namračiti se.*
+  - predlog: namračim, namračiš, namrači, namračimo, namračite, namrače, namračila, namračilo, namračili, namračile
+- **namrgoditi** — *Napraviti ljutit izraz lica (namrgoditi se).*
+  - predlog: namrgodim, namrgodiš, namrgodimo, namrgodite, namrgodila, namrgodilo, namrgodili, namrgodile
+- **namrštiti** — *Nabrati čelo, namrgoditi se, smrknuti se; namrštiti se.*
+  - predlog: namrštim, namrštimo, namrštite, namršte, namrštilo, namrštili, namrštile
+- **napatiti** — *Mnogo se napatiti, izmučiti se; napatiti se.*
+  - predlog: napatiš, napati, napatimo, napatite, napate, napatilo, napatile
+- **naperiti** — *Uperiti, usmeriti ka cilju (pogled, oružje); naperiti.*
+  - predlog: naperim, naperiš, naperimo, naperite, napere, naperila, naperilo, naperili, naperile
+- **napiti** — *Napiti se — opiti se; takođe napojiti.*
+  - predlog: napim, napiš, napi, napimo, napite, nape, napilo
+- **naprćiti** — *Isturiti, naprćiti (usne, nos); naprćiti.*
+  - predlog: naprćiš, naprći, naprćimo, naprćite, naprće, naprćio, naprćila, naprćilo, naprćili, naprćile
+- **naraditi** — *Oblik reči naraditi se (mnogo raditi, izraditi se).*
+  - predlog: naradim, naradiš, naradi, naradite, narade, naradilo, naradile
+- **narogušiti** — *Nakostrešiti se, naljutiti se, postati prkosan; narogušiti se.*
+  - predlog: narogušim, narogušiš, narogušimo, narogušite, narogušila, narogušilo, narogušili, narogušile
+- **nasiti** — *Oblik reči nasititi (utoliti glad, zadovoljiti).*
+  - predlog: nasim, nasiš, nasi, nasimo, nase, nasio, nasila, nasilo, nasili, nasile
+- **natkriliti** — *Nadvisiti, prevazići, nadmašiti; natkriliti.*
+  - predlog: natkrilim, natkriliš, natkrilimo, natkrilite, natkrile, natkrililo, natkrilili, natkrilile
+- **naturiti** — *Nametnuti, nasilno dati protiv volje; naturiti.*
+  - predlog: naturim, naturiš, naturimo, naturite, nature, naturilo, naturile
+- **natuštiti** — *Natuštiti se — namrgoditi se; (o nebu) naoblačiti se.*
+  - predlog: natuštim, natuštiš, natuštimo, natuštite, natušte, natuštila, natuštili, natuštile
+- **navaditi** — *Naviknuti se (najčešće na loše), navaditi se; navaditi.*
+  - predlog: navadim, navadiš, navadimo, navadite, navade, navadilo, navadili, navadile
+- **navestiti** — *Najaviti, nagovestiti, dati na znanje (zastarelo); navestiti.*
+  - predlog: navestim, navestiš, navestimo, navestite, naveste, navestilo, navestile
+- **naviti** — *Namotati; takođe naviti sat ili kosu.*
+  - predlog: navim, naviš, navi, navimo, navite, nave, navilo, navili, navile
+- **naćuliti** — *Naćuliti uši — napregnuto oslušnuti.*
+  - predlog: naćuliš, naćuli, naćulimo, naćulite, naćule, naćulio, naćulila, naćulilo, naćulili, naćulile
+- **načuditi** — *Jako se začuditi, mnogo se začuditi; načuditi se.*
+  - predlog: načudiš, načudimo, načudite, načudio, načudila, načudilo, načudili, načudile
+- **načuljiti** — *Naćuliti uši, osluškivati pažljivo; načuljiti.*
+  - predlog: načuljim, načuljiš, načuljimo, načulje, načuljila, načuljilo, načuljile
+- **naštetiti** — *Glagol: naneti štetu, naškoditi.*
+  - predlog: naštetim, naštetiš, našteti, naštetimo, naštetite, naštete, naštetile
+- **nažuljiti** — *Napraviti žulj trljanjem ili pritiskom; nažuljiti.*
+  - predlog: nažuljim, nažuljiš, nažulji, nažuljimo, nažuljite, nažuljio, nažuljila, nažuljilo, nažuljili, nažuljile
+- **obaliti** — *Oboriti, srušiti, baciti na zemlju; obaliti.*
+  - predlog: obalim, obališ, obalimo, obalite, obalila, obalilo, obalili, obalile
+- **obariti** — *Prekuvati nakratko u vreloj vodi, blanširati; obariti.*
+  - predlog: obarim, obariš, obari, obarimo, obarite, obario, obarila, obarilo, obarili, obarile
+- **obediti** — *Optužiti, oklevetati, potvoriti (zastarelo); obediti.*
+  - predlog: obedim, obediš, obedimo, obedite, obedio, obedilo, obedile
+- **obesnažiti** — *Lišiti snage; oslabiti.*
+  - predlog: obesnažim, obesnažiš, obesnažimo, obesnažite, obesnažila, obesnažilo, obesnažili, obesnažile
+- **obezglaviti** — *Odrubiti glavu; lišiti vođe ili rukovodstva; obezglaviti.*
+  - predlog: obezglavim, obezglaviš, obezglavimo, obezglavite, obezglavila, obezglavilo, obezglavile
+- **obeznaniti** — *Onesvestiti, dovesti do gubitka svesti; obeznaniti.*
+  - predlog: obeznanim, obeznaniš, obeznanimo, obeznanite, obeznane, obeznanilo, obeznanili, obeznanile
+- **obezvrediti** — *Učiniti bezvrednim, oduzeti vrednost; obezvrediti.*
+  - predlog: obezvredim, obezvrediš, obezvredimo, obezvredite, obezvredila, obezvredilo, obezvredili, obezvredile
+- **obeščastiti** — *Oskvrnuti čast, obrukati i osramotiti; obeščastiti.*
+  - predlog: obeščastim, obeščastiš, obeščastimo, obeščastite, obeščaste, obeščastilo, obeščastile
+- **oblaziti** — *Obilaziti, obići redom više mesta; oblaziti.*
+  - predlog: oblaziš, oblazite, oblazio, oblazila, oblazilo, oblazili, oblazile
+- **obrubiti** — *Načiniti rub; opšiti ivicu.*
+  - predlog: obrubim, obrubiš, obrubi, obrubimo, obrubite, obrube, obrubila, obrubili, obrubile
+- **odbrojiti** — *Izbrojati i odvojiti, odbrojati određen broj; odbrojiti.*
+  - predlog: odbrojiš, odbrojimo, odbrojite, odbroje, odbrojio, odbrojila, odbrojilo, odbrojili, odbrojile
+- **odbrusiti** — *Oštro i naprasno odgovoriti, odbrusiti; odbrusiti.*
+  - predlog: odbrusim, odbrusiš, odbrusimo, odbrusite, odbruse, odbrusila, odbrusilo, odbrusili, odbrusile
+- **odlomiti** — *Otkinuti komad odvajanjem, odvaliti deo; odlomiti.*
+  - predlog: odlomim, odlomiš, odlomimo, odlomite, odlome, odlomili, odlomile
+- **odmeniti** — *Zameniti, smeniti, zauzeti tuđe mesto; odmeniti.*
+  - predlog: odmeniš, odmenimo, odmenite, odmene, odmenio, odmenila, odmenilo, odmenili
+- **odobrovoljiti** — *Dovesti u dobro raspoloženje, odobrovoljiti; odobrovoljiti.*
+  - predlog: odobrovoljiš, odobrovoljimo, odobrovoljite, odobrovoljio, odobrovoljilo, odobrovoljili, odobrovoljile
+- **odstreliti** — *Ubiti hicem iz vatrenog oružja (divljač); odstreliti.*
+  - predlog: odstreliš, odstreli, odstrelimo, odstrelite, odstrelila, odstrelilo, odstrelili, odstrelile
+- **odviti** — *Odmotati, razmotati ono što je uvijeno; odviti.*
+  - predlog: odvim, odviš, odvi, odvimo, odvite, odve, odvili, odvile
+- **odšrafiti** — *Odvrtanjem skinuti šraf; odvrnuti.*
+  - predlog: odšrafim, odšrafiš, odšrafi, odšrafimo, odšrafite, odšrafe, odšrafila, odšrafilo, odšrafili, odšrafile
+- **oglobiti** — *Kazniti novčanom kaznom, naplatiti globu; oglobiti.*
+  - predlog: oglobim, oglobiš, oglobi, oglobimo, oglobite, oglobe, oglobila, oglobilo, oglobili, oglobile
+- **oholiti** — *Ponašati se oholo, uznositi se nad drugima; oholiti se.*
+  - predlog: oholiš, oholimo, oholite, oholio, oholila, oholilo, oholili, oholile
+- **okladiti** — *Glagol: kladiti se, uložiti novac ili reč na ishod nečega (okladiti se u pobedu)*
+  - predlog: okladim, okladiš, okladimo, okladite, okladila, okladilo, okladili, okladile
+- **okolišiti** — *Govoriti zaobilazno, izvrdavati, ne reći otvoreno; okolišiti.*
+  - predlog: okolišim, okolišimo, okolišite, okoliše, okolišio, okolišila, okolišilo, okolišili, okolišile
+- **okotiti** — *Okotiti se — doneti mladunce (o životinji).*
+  - predlog: okotim, okotiš, okotimo, okotite, okote, okotilo, okotili, okotile
+- **okrnjiti** — *Odlomiti deo; oštetiti ivicu.*
+  - predlog: okrnjim, okrnjiš, okrnjite, okrnjila, okrnjilo, okrnjili, okrnjile
+- **okrpiti** — *Zakrpiti, popraviti krpljenjem; okrpiti.*
+  - predlog: okrpiš, okrpimo, okrpite, okrpe, okrpio, okrpila, okrpilo, okrpili, okrpile
+- **okruniti** — *Staviti krunu, krunisati za vladara; okruniti.*
+  - predlog: okrunim, okruniš, okrunimo, okrunite, okrunilo, okrunili, okrunile
+- **okumiti** — *Postati kum, sklopiti kumstvo s nekim; okumiti se.*
+  - predlog: okumim, okumiš, okumi, okumite, okume, okumilo, okumile
+- **okuražiti** — *Ohrabriti, dati hrabrosti i smelosti; okuražiti.*
+  - predlog: okuražim, okuražiš, okuražimo, okuražite, okuraže, okuražila, okuražilo, okuražili, okuražile
+- **okućiti** — *Zasnovati dom, steći kuću i porodicu; okućiti se.*
+  - predlog: okućim, okućiš, okućimo, okućite, okućila, okućilo, okućili, okućile
+- **okvasiti** — *Ovlažiti, pokvasiti vodom ili tečnošću; okvasiti.*
+  - predlog: okvasiš, okvasimo, okvasite, okvase, okvasilo, okvasili, okvasile
+- **omasoviti** — *Učiniti masovnim, proširiti na mnoštvo ljudi; omasoviti.*
+  - predlog: omasovim, omasoviš, omasovi, omasovimo, omasovite, omasove, omasovila, omasovilo, omasovili, omasovile
+- **omatoriti** — *Ostariti, postati star (razgovorno); omatoriti.*
+  - predlog: omatorim, omatoriš, omatorimo, omatorite, omatorila, omatorilo, omatorili, omatorile
+- **omiliti** — *Postati mio, omiljen.*
+  - predlog: omilim, omiliš, omilimo, omilite, omililo, omilili, omilile
+- **onjušiti** — *Pomirisati njuškom, kao pas.*
+  - predlog: onjušiš, onjušimo, onjušite, onjuše, onjušila, onjušilo, onjušili, onjušile
+- **opaučiti** — *Snažno udariti, opaliti.*
+  - predlog: opaučiš, opaučimo, opaučite, opauče, opaučila, opaučilo, opaučili, opaučile
+- **opepeliti** — *Pretvoriti u pepeo, spaliti do pepela; opepeliti.*
+  - predlog: opepeliš, opepeli, opepelimo, opepelite, opepele, opepelio, opepelila, opepelilo, opepelili, opepelile
+- **opismeniti** — *Naučiti nekoga čitanju i pisanju; opismeniti.*
+  - predlog: opismenim, opismeniš, opismenimo, opismenite, opismene, opismenila, opismenilo, opismenili, opismenile
+- **opkoračiti** — *Stati raskoračeno nad nečim; prekoračiti.*
+  - predlog: opkoračim, opkoračiš, opkoračimo, opkorače, opkoračila, opkoračilo, opkoračili, opkoračile
+- **oploviti** — *Ploveći obići oko nečega; oploviti.*
+  - predlog: oplovim, oploviš, oplovi, oplovimo, oplovite, oplove, oplovila, oplovilo, oplovili, oplovile
+- **opoganiti** — *Oskrnaviti, učiniti nečistim i poganim; opoganiti.*
+  - predlog: opoganim, opoganiš, opoganimo, opoganite, opoganila, opoganilo, opoganili, opoganile
+- **oprljiti** — *Opaliti, oprljiti vatrom ili vrelinom; oprljiti.*
+  - predlog: oprljiš, oprljimo, oprljite, oprlje, oprljila, oprljilo, oprljili, oprljile
+- **opružiti** — *Ispružiti, opustiti telo (opružiti se).*
+  - predlog: opružim, opružiš, opružimo, opružite, opruže, opružili, opružile
+- **opunomoćiti** — *Dati punomoć; ovlastiti za zastupanje.*
+  - predlog: opunomoćim, opunomoćiš, opunomoći, opunomoćimo, opunomoćite, opunomoće, opunomoćila, opunomoćilo, opunomoćili, opunomoćile
+- **orobiti** — *Opljačkati, oduzeti sve.*
+  - predlog: orobim, orobiš, orobi, orobimo, orobite, orobila, orobilo, orobile
+- **oslijepiti** — *Ijekavski oblik glagola oslepeti (izgubiti vid).*
+  - predlog: oslijepim, oslijepiš, oslijepi, oslijepimo, oslijepite, oslijepe, oslijepilo, oslijepili, oslijepile
+- **osokoliti** — *Ohrabriti, podstaći na smelost.*
+  - predlog: osokolim, osokoliš, osokolimo, osokolite, osokole, osokolilo, osokolili, osokolile
+- **osoliti** — *Posoliti, dodati so; osoliti.*
+  - predlog: osoliš, osolimo, osolite, osole, osolila, osolilo, osolile
+- **ostrviti** — *Razjariti se i besno navaliti, ostrviti se na nekoga; ostrviti.*
+  - predlog: ostrvim, ostrviš, ostrvi, ostrvimo, ostrvite, ostrvila, ostrvilo
+- **oteliti** — *Oteliti se — doneti tele (o kravi).*
+  - predlog: otelim, oteliš, otelimo, otelite, otelilo, otelili, otelile
+- **oteloviti** — *Glagol: dati telesni, opipljiv oblik nečemu nestvarnom; oličiti i ovaplotiti (ot*
+  - predlog: otelovim, oteloviš, otelovi, otelovimo, otelovite, otelove, otelovilo, otelovili, otelovile
+- **otfikariti** — *Otfikariti — odseći, otkinuti naglo (žargonski).*
+  - predlog: otfikariš, otfikarimo, otfikarite, otfikare, otfikarila, otfikarilo, otfikarili, otfikarile
+- **otpaditi** — *Oblik reči otpasti (odvojiti se i pasti; izgubiti važnost).*
+  - predlog: otpadiš, otpadimo, otpadite, otpadila, otpadilo, otpadili, otpadile
+- **otpečatiti** — *Skinuti pečat, raspečatiti i otvoriti; otpečatiti.*
+  - predlog: otpečatim, otpečatiš, otpečatimo, otpečatite, otpečate, otpečatilo, otpečatile
+- **otpiliti** — *Glagol: testerom odseći; razg. otarasiti se i ukloniti nekoga (otpiliti granu).*
+  - predlog: otpilim, otpiliš, otpilimo, otpilite, otpile, otpililo, otpilili, otpilile
+- **otpiti** — *Popiti malo; otpiti gutljaj.*
+  - predlog: otpim, otpiš, otpi, otpimo, otpite, otpe, otpila, otpilo, otpile
+- **otpozdraviti** — *Uzvratiti pozdrav, odzdraviti; otpozdraviti.*
+  - predlog: otpozdraviš, otpozdravimo, otpozdravite, otpozdravio, otpozdravila, otpozdravili, otpozdravile
+- **otresiti** — *Oblik reči otresit (odrešit, okretan, snalažljiv).*
+  - predlog: otresim, otresiš, otresio, otresila, otresilo, otresili, otresile
+- **otčepiti** — *Osloboditi začepljen otvor, odčepiti; otčepiti.*
+  - predlog: otčepim, otčepiš, otčepimo, otčepite, otčepe, otčepila, otčepilo, otčepili, otčepile
+- **ozlovoljiti** — *Pokvariti raspoloženje, naljutiti; ozlovoljiti.*
+  - predlog: ozlovoljim, ozlovoljiš, ozlovolji, ozlovoljimo, ozlovoljite, ozlovoljila, ozlovoljilo, ozlovoljili, ozlovoljile
+- **oćelaviti** — *Ostati bez kose; postati ćelav.*
+  - predlog: oćelavim, oćelavimo, oćelavite, oćelave, oćelavila, oćelavilo, oćelavili, oćelavile
+- **očeličiti** — *Učiniti čvrstim kao čelik; ojačati.*
+  - predlog: očeličim, očeličiš, očeličite, očeliče, očeličila, očeličili, očeličile
+- **ošuriti** — *Opariti vrelom vodom (da bi se skinula dlaka ili perje); ošuriti.*
+  - predlog: ošurim, ošuriš, ošuri, ošurimo, ošurite, ošure, ošurila, ošurilo, ošurili, ošurile
+- **oždrebiti** — *Oždrebiti se — doneti ždrebe (o kobili).*
+  - predlog: oždrebim, oždrebiš, oždrebimo, oždrebite, oždrebe, oždrebila, oždrebilo, oždrebili
+- **peniti** — *Stvarati penu; peniti se.*
+  - predlog: penim, peniš, penimo, penite, penila, penilo, penili, penile
+- **pečatiti** — *Udarati pečat, overavati pečatom; pečatiti.*
+  - predlog: pečatim, pečatiš, pečatimo, pečatite, pečatila, pečatilo, pečatile
+- **pijančiti** — *Odavati se piću, često i mnogo piti; pijančiti.*
+  - predlog: pijančim, pijančimo, pijančite, pijančila, pijančilo, pijančili, pijančile
+- **pitomiti** — *Pripitomljavati, krotiti; pitomiti.*
+  - predlog: pitomiš, pitomimo, pitomite, pitomio, pitomila, pitomilo, pitomili, pitomile
+- **plaziti** — *Plaziti jezik — pokazivati jezik; takođe puzati.*
+  - predlog: plazim, plaziš, plazi, plazimo, plazite, plazila, plazilo, plazile
+- **plesniviti** — *Hvatati plesan; buđati.*
+  - predlog: plesniviš, plesnivi, plesnivimo, plesnivite, plesnivio, plesnivila, plesnivilo, plesnivili, plesnivile
+- **pobrojiti** — *Nabrojati, prebrojati jedno za drugim; pobrojiti.*
+  - predlog: pobrojiš, pobrojite, pobrojio, pobrojila, pobrojilo, pobrojili, pobrojile
+- **pobudaliti** — *Poludeti, poblesaviti, izgubiti razum; pobudaliti.*
+  - predlog: pobudalim, pobudališ, pobudali, pobudalimo, pobudalite, pobudale, pobudalila, pobudalilo, pobudalili, pobudalile
+- **podbočiti** — *Uperiti ruke u bokove, podbočiti se; podbočiti se.*
+  - predlog: podbočim, podbočiš, podbočimo, podbočite, podbočilo, podbočili, podbočile
+- **podbuniti** — *Nahuškati na pobunu, podstaći; podbuniti.*
+  - predlog: podbunim, podbuniš, podbunimo, podbunite, podbune, podbunila, podbunilo, podbunili, podbunile
+- **podceniti** — *Potceniti, oceniti nižom vrednošću; podceniti.*
+  - predlog: podcenim, podceniš, podceni, podcenimo, podcenite, podcene, podcenilo, podcenile
+- **podgovoriti** — *Oblik reči podgovoriti (nagovoriti, podstaći na nešto).*
+  - predlog: podgovorim, podgovoriš, podgovorimo, podgovorite, podgovore, podgovorila, podgovorilo, podgovorili, podgovorile
+- **podjariti** — *Oblik reči podjariti (raspaliti vatru; podstaći svađu).*
+  - predlog: podjarim, podjariš, podjarimo, podjarite, podjare, podjario, podjarila, podjarilo, podjarili, podjarile
+- **podnapiti** — *Malo se napiti, podnapiti se; podnapiti se.*
+  - predlog: podnapim, podnapiš, podnapi, podnapimo, podnapite, podnape, podnapila, podnapilo, podnapili, podnapile
+- **podojiti** — *Nahraniti dojenjem; podojiti dete.*
+  - predlog: podojiš, podojimo, podojite, podoje, podojio, podojila, podojilo, podojili, podojile
+- **podraniti** — *Poraniti, ustati ili stići vrlo rano; podraniti.*
+  - predlog: podranim, podraniš, podranimo, podranite, podrane, podranilo, podranili, podranile
+- **podriti** — *Oblik reči podriti (potkopati, podriti temelje).*
+  - predlog: podrim, podriš, podri, podrimo, podrite, podre, podrila, podrilo, podrili, podrile
+- **podužiti** — *Produžiti, učiniti dužim; podužiti.*
+  - predlog: podužiš, podužimo, podužite, podužio, podužila, podužilo, podužili, podužile
+- **podviti** — *Saviti pod nešto, podviti; podviti.*
+  - predlog: podvim, podviš, podvimo, podvite, podve, podvilo, podvile
+- **podvoditi** — *Posredovati u nemoralnim odnosima, svoditi; podvoditi.*
+  - predlog: podvodim, podvodimo, podvodite, podvodila, podvodilo, podvodili, podvodile
+- **podvoriti** — *Poslužiti i ugostiti, uslužiti goste; podvoriti.*
+  - predlog: podvorim, podvoriš, podvorimo, podvorite, podvore, podvorila, podvorilo, podvorili, podvorile
+- **podčiniti** — *Oblik reči podčiniti (potčiniti, pokoriti).*
+  - predlog: podčinim, podčiniš, podčinimo, podčinite, podčine, podčinila, podčinilo, podčinili, podčinile
+- **pogladiti** — *Lagano preći rukom; pomilovati.*
+  - predlog: pogladim, pogladiš, pogladimo, pogladite, poglade, pogladila, pogladilo, pogladili, pogladile
+- **pogorditi** — *Postati gord, uzoholiti se; pogorditi se.*
+  - predlog: pogordiš, pogordimo, pogordite, pogordio, pogordila, pogordilo, pogordili, pogordile
+- **pogospoditi** — *Postati gospodin, uzdići se u staležu; pogospoditi se.*
+  - predlog: pogospodim, pogospodiš, pogospodi, pogospodimo, pogospodite, pogospode, pogospodila, pogospodili, pogospodile
+- **pograbiti** — *Naglo zgrabiti, ščepati; pograbiti.*
+  - predlog: pograbim, pograbiš, pograbimo, pograbite, pograbe, pograbila, pograbilo, pograbile
+- **poguriti** — *Pogrbiti, poviti leđa; poguriti se.*
+  - predlog: pogurim, poguriš, pogurimo, pogurite, pogure, pogurila, pogurilo, pogurili, pogurile
+- **poharčiti** — *Potrošiti, proćerdati novac ili imovinu; poharčiti.*
+  - predlog: poharčim, poharčiš, poharči, poharčimo, poharčite, poharče, poharčila, poharčilo, poharčili, poharčile
+- **pohuliti** — *Izgovoriti hulu, pogrditi i izvređati svetinju; pohuliti.*
+  - predlog: pohulim, pohuliš, pohulimo, pohulite, pohule, pohulila, pohulilo, pohulile
+- **poistovetiti** — *Izjednačiti, smatrati istim; poistovetiti.*
+  - predlog: poistovetiš, poistovetimo, poistovetite, poistovetila, poistovetilo, poistovetili, poistovetile
+- **pokunjiti** — *Postati setan i potišten, pokunjiti se; pokunjiti se.*
+  - predlog: pokunjim, pokunjiš, pokunjimo, pokunjite, pokunjila, pokunjilo, pokunjili, pokunjile
+- **poloviti** — *Prepoloviti, podeliti na pola; poloviti.*
+  - predlog: polovim, poloviš, polovimo, polovite, polovila, polovilo, polovili, polovile
+- **pomamiti** — *Pomamiti se — pobesneti od strasti; izludeti.*
+  - predlog: pomamim, pomamiš, pomamimo, pomamite, pomamilo, pomamili, pomamile
+- **pomokriti** — *Pomokriti se, izmokriti se; pomokriti.*
+  - predlog: pomokrim, pomokriš, pomokrimo, pomokrite, pomokre, pomokrilo, pomokrili, pomokrile
+- **pomrsiti** — *Pobrkati i zamrsiti; pomrsiti konce.*
+  - predlog: pomrsim, pomrsiš, pomrsimo, pomrsite, pomrse, pomrsilo, pomrsile
+- **ponapiti** — *Opiti, napiti više njih; ponapiti.*
+  - predlog: ponapim, ponapiš, ponapi, ponapimo, ponapite, ponape, ponapila, ponapilo, ponapile
+- **popretiti** — *Zapretiti, uputiti pretnju; popretiti.*
+  - predlog: popretim, popretiš, popretimo, popretite, poprete, popretila, popretilo, popretili, popretile
+- **poravniti** — *Učiniti ravnim, poravniti; poravniti.*
+  - predlog: poravnim, poravniš, poravni, poravnimo, poravnite, poravne, poravnio, poravnila, poravnilo, poravnili, poravnile
+- **posiniti** — *Usvojiti dečaka za sina, posiniti; posiniti.*
+  - predlog: posinim, posiniš, posinimo, posinite, posine, posinilo, posinili, posinile
+- **posiviti** — *Postati siv, dobiti sivu boju; posiviti.*
+  - predlog: posivim, posiviš, posivi, posivimo, posivite, posive, posivio, posivila, posivilo, posivili, posivile
+- **poskupiti** — *Postati skuplji, podići cenu; poskupiti.*
+  - predlog: poskupim, poskupiš, poskupimo, poskupite, poskupio, poskupila, poskupilo, poskupili, poskupile
+- **posložiti** — *Glagol: poređati po redu, uredno složiti jedno do drugog.*
+  - predlog: posložim, posložiš, posložimo, posložite, poslože, posložila, posložili, posložile
+- **postariti** — *Učiniti starijim, postariti; postariti se.*
+  - predlog: postarim, postariš, postarimo, postarite, postare, postarila, postarilo, postarili, postarile
+- **posuvratiti** — *Zavrnuti i podviti naviše (rukav, okovratnik); posuvratiti.*
+  - predlog: posuvratim, posuvratiš, posuvrati, posuvratimo, posuvratite, posuvrate, posuvratila, posuvratilo, posuvratili, posuvratile
+- **posvaditi** — *Izazvati svađu između dvoje ili više njih, zavaditi; posvaditi.*
+  - predlog: posvadim, posvadiš, posvadi, posvadimo, posvadite, posvadila, posvadile
+- **posvojiti** — *Glagol: uzeti tuđe dete za svoje; usvojiti.*
+  - predlog: posvojim, posvojiš, posvojimo, posvojite, posvoje, posvojila, posvojilo, posvojile
+- **potamaniti** — *Oblik glagola „potamaniti“; potpuno istrebiti i uništiti, pobiti sve (potamaniti*
+  - predlog: potamaniš, potamanite, potamane, potamanio, potamanila, potamanilo, potamanile
+- **potkačiti** — *Zakačiti odozdo, potkačiti; potkačiti.*
+  - predlog: potkačim, potkačiš, potkačimo, potkačite, potkačila, potkačilo, potkačili, potkačile
+- **potratiti** — *Glagol: uludo potrošiti, straćiti vreme ili novac (potratiti ceo dan).*
+  - predlog: potratim, potratiš, potrati, potratimo, potratite, potrate, potratilo, potratile
+- **potužiti** — *Požaliti se, podneti tužbu; potužiti se.*
+  - predlog: potužim, potužiš, potužimo, potužite, potuže, potužilo, potužile
+- **povampiriti** — *Pretvoriti se u vampira; postati zao i pokvaren, izopačiti se; povampiriti se.*
+  - predlog: povampirim, povampiriš, povampirimo, povampirite, povampirilo, povampirili, povampirile
+- **poviriti** — *Proviriti krišom i baciti pogled, izviriti; pogledati na trenutak.*
+  - predlog: povirim, poviriš, poviri, povirimo, povirite, povire, povirila, povirilo, povirili, povirile
+- **poviti** — *Uviti, obaviti zavojem ili pelenama; saviti; poviti.*
+  - predlog: povim, poviš, povi, povimo, povite, pove, povilo, povile
+- **pošaliti** — *Našaliti se, zbiti šalu; pošaliti se.*
+  - predlog: pošalim, pošališ, pošalimo, pošalite, pošalila, pošalilo, pošalili, pošalile
+- **poškropiti** — *Poprskati, pokvasiti kapljicama; poškropiti.*
+  - predlog: poškropim, poškropiš, poškropimo, poškropite, poškropila, poškropilo, poškropile
+- **pošumiti** — *Zasaditi šumom, pošumiti; pošumiti.*
+  - predlog: pošumim, pošumiš, pošumi, pošumimo, pošumite, pošume, pošumila, pošumilo, pošumili, pošumile
+- **precepiti** — *Rascepiti, razdvojiti cepanjem; precepiti.*
+  - predlog: precepim, precepiš, precepi, precepimo, precepite, precepe, precepila, precepilo, precepili, precepile
+- **predaniti** — *Oblik reči predaniti (provesti dan, prenoćiti dan).*
+  - predlog: predaniš, predanite, predanio, predanila, predanilo, predanili, predanile
+- **predosetiti** — *Osetiti nešto pre nego što se dogodi.*
+  - predlog: predosetim, predosetiš, predoseti, predosetimo, predosetite, predosete, predosetilo, predosetili, predosetile
+- **pregoniti** — *Progoniti, ganjati; nadmetati se; pregoniti.*
+  - predlog: pregoniš, pregonimo, pregonite, pregone, pregonio, pregonila, pregonilo, pregonili, pregonile
+- **prekardašiti** — *Preterati, prevršiti meru; prekardašiti.*
+  - predlog: prekardašiš, prekardaši, prekardašimo, prekardašite, prekardaše, prekardašila, prekardašilo, prekardašile
+- **prekiniti** — *Oblik reči prekinuti (zaustaviti, preseći radnju).*
+  - predlog: prekinim, prekiniš, prekinio, prekinila, prekinilo, prekinili, prekinile
+- **preložiti** — *Premestiti, presložiti; preložiti.*
+  - predlog: preložiš, preložimo, preložite, prelože, preložio, preložila, preložilo, preložili, preložile
+- **premeriti** — *Pažljivo izmeriti.*
+  - predlog: premeriš, premerimo, premerite, premerila, premerilo, premerili, premerile
+- **premrežiti** — *Prekriti mrežom, premrežiti; premrežiti.*
+  - predlog: premrežim, premrežiš, premreži, premrežimo, premrežite, premrežilo, premrežile
+- **preneraziti** — *Veoma zaprepastiti; preneraziti se — zgranuti se.*
+  - predlog: prenerazim, preneraziš, prenerazimo, prenerazite, prenerazila, prenerazilo, prenerazile
+- **preniti** — *Oblik reči preneti (premestiti; preneti vest, bolest).*
+  - predlog: prenim, preniš, preni, prenite, prenila, prenilo, prenili, prenile
+- **preoblačiti** — *Oblik reči preoblačiti (presvlačiti, menjati odeću).*
+  - predlog: preoblačiš, preoblačimo, preoblačite, preoblačio, preoblačila, preoblačilo, preoblačili, preoblačile
+- **prepešačiti** — *Preći neki put pešice; prepešačiti.*
+  - predlog: prepešačim, prepešačiš, prepešači, prepešačimo, prepešačite, prepešače, prepešačila, prepešačilo, prepešačile
+- **preplatiti** — *Platiti više nego što treba, preplatiti; preplatiti.*
+  - predlog: preplatim, preplatiš, preplati, preplatimo, preplatite, preplate, preplatila, preplatilo, preplatili, preplatile
+- **preploviti** — *Preći vodu plovilom, preploviti; preploviti.*
+  - predlog: preplovim, preploviš, preplovi, preplovimo, preplovite, preplove, preplovilo, preplovili, preplovile
+- **presamititi** — *Presaviti se napola od smeha ili bola, pregnuti se; presamititi se.*
+  - predlog: presamitim, presamitiš, presamitimo, presamitite, presamitila, presamitilo, presamitili, presamitile
+- **presaviti** — *Saviti na pola.*
+  - predlog: presavim, presaviš, presavimo, presavite, presave, presavilo, presavili, presavile
+- **presiti** — *Oblik reči presit (previše sit, zasićen do odvratnosti).*
+  - predlog: presim, presiš, presi, presimo, presio, presila, presilo, presili, presile
+- **presnimiti** — *Oblik reči presnimiti (ponovo snimiti; prekopirati).*
+  - predlog: presnimim, presnimiš, presnimi, presnimimo, presnimite, presnime, presnimila, presnimilo, presnimili, presnimile
+- **prespojiti** — *Oblik reči prespojiti (ponovo spojiti drugačije, premostiti).*
+  - predlog: prespojiš, prespojimo, prespojite, prespoje, prespojila, prespojilo, prespojili, prespojile
+- **previti** — *Glagol: saviti; zaviti ranu zavojem.*
+  - predlog: previm, previš, previmo, previte, preve, previlo, previle
+- **prevlačiti** — *Prevlačiti preko nečega, navlačiti; prevlačiti.*
+  - predlog: prevlačim, prevlačiš, prevlačimo, prevlačila, prevlačilo, prevlačili, prevlačile
+- **prezdraviti** — *Ozdraviti, povratiti zdravlje; prezdraviti.*
+  - predlog: prezdravim, prezdraviš, prezdravimo, prezdravite, prezdravila, prezdravilo, prezdravili, prezdravile
+- **prečiti** — *Smetati, stajati na putu, prečiti; prečiti.*
+  - predlog: prečiš, prečimo, prečite, prečio, prečilo, prečili, prečile
+- **pribiti** — *Oblik glagola „pribiti“; pričvrstiti ekserom; pribiti uza zid, priterati i sater*
+  - predlog: pribim, pribiš, pribimo, pribite, pribe, pribilo, pribile
+- **pribrojiti** — *Dodati u zbir, uračunati, priključiti zbiru; pribrojiti.*
+  - predlog: pribrojim, pribrojiš, pribrojite, pribrojila, pribrojilo, pribrojili, pribrojile
+- **pridaviti** — *Delimično zadaviti, pridušiti, stegnuti za grlo; pridaviti.*
+  - predlog: pridavim, pridaviš, pridavi, pridavimo, pridavite, pridave, pridavio, pridavila, pridavilo, pridavili, pridavile
+- **prijateljiti** — *Družiti se, biti u prijateljstvu; prijateljiti se.*
+  - predlog: prijateljim, prijateljiš, prijateljimo, prijateljite, prijateljio, prijateljila, prijateljilo, prijateljili, prijateljile
+- **priklopiti** — *Poklopiti, pritvoriti, prisloniti poklopac; priklopiti.*
+  - predlog: priklopim, priklopiš, priklopimo, priklopite, priklope, priklopila, priklopilo, priklopile
+- **primamiti** — *Privući, namamiti, dovabiti; primamiti.*
+  - predlog: primamim, primamiš, primamimo, primamite, primame, primamilo, primamili
+- **primeriti** — *Uporediti, prilagoditi po meri; primeriti.*
+  - predlog: primeriš, primerimo, primerite, primerio, primerila, primerilo, primerili, primerile
+- **pripustiti** — *Dopustiti pristup; pustiti mužjaka radi parenja; pripustiti.*
+  - predlog: pripustim, pripustiš, pripustimo, pripustite, pripuste, pripustila, pripustilo, pripustile
+- **priskrbiti** — *Pribaviti, obezbediti, nabaviti.*
+  - predlog: priskrbim, priskrbiš, priskrbi, priskrbimo, priskrbite, priskrbe, priskrbila, priskrbilo, priskrbili, priskrbile
+- **pristaviti** — *Staviti na šporet da se kuva.*
+  - predlog: pristaviš, pristavimo, pristavite, pristave, pristavilo, pristavili, pristavile
+- **pritvrditi** — *Pričvrstiti, učvrstiti uz nešto; pritvrditi.*
+  - predlog: pritvrdim, pritvrdiš, pritvrdi, pritvrdimo, pritvrdite, pritvrdila, pritvrdilo, pritvrdili, pritvrdile
+- **priviti** — *Oblik reči priviti (privući uz sebe; poviti).*
+  - predlog: privim, priviš, privi, privimo, privite, prive, privilo, privile
+- **prišiti** — *Glagol: zašiti, prikačiti koncem (prišiti dugme).*
+  - predlog: prišim, prišiš, priši, prišimo, prišite, priše, prišilo, prišile
+- **proburaziti** — *Probiti i probosti naskroz, proburaziti telo; proburaziti.*
+  - predlog: proburaziš, proburazimo, proburazite, proburaze, proburazila, proburazilo, proburazili, proburazile
+- **procediti** — *Jedva i nevoljno izgovoriti kroz zube; (o tečnosti) propustiti kroz cediljku.*
+  - predlog: procedim, procediš, procedimo, procedite, procede, procedila, procedilo, procedili, procedile
+- **proizlaziti** — *Oblik reči proizlaziti (slediti, proisticati).*
+  - predlog: proizlazim, proizlaziš, proizlazimo, proizlazite, proizlazila, proizlazilo, proizlazili, proizlazile
+- **prokrstariti** — *Proputovati krstareći, obići; prokrstariti.*
+  - predlog: prokrstarim, prokrstariš, prokrstarimo, prokrstarite, prokrstarila, prokrstarilo, prokrstarili, prokrstarile
+- **prokrvariti** — *Početi krvariti; prokrvariti ranu.*
+  - predlog: prokrvarim, prokrvariš, prokrvarimo, prokrvarite, prokrvarilo, prokrvarili, prokrvarile
+- **prokužiti** — *Oblik reči prokužiti (provaliti, shvatiti — žargonski).*
+  - predlog: prokužiš, prokuži, prokužimo, prokužite, prokuže, prokužilo, prokužile
+- **promeriti** — *Izmeriti, premeriti od kraja do kraja; promeriti.*
+  - predlog: promerim, promeriš, promerimo, promere, promerila, promerilo, promerili, promerile
+- **promeškoljiti** — *Promeniti položaj telom, promigoljiti se; promeškoljiti se.*
+  - predlog: promeškoljim, promeškoljiš, promeškoljimo, promeškoljite, promeškolje, promeškoljila, promeškoljilo, promeškoljili, promeškoljile
+- **proneveriti** — *Utajiti i prisvojiti poverena tuđa sredstva; proneveriti.*
+  - predlog: proneverim, proneveriš, proneverimo, proneverite, proneverila, proneverilo, proneverili, proneverile
+- **propiti** — *Potrošiti na piće, propiti imanje; propiti.*
+  - predlog: propim, propiš, propimo, propite, propilo, propili, propile
+- **propušiti** — *Provesti vreme pušeći, potrošiti na pušenje; propušiti.*
+  - predlog: propušim, propušiš, propuši, propušimo, propušite, propuše, propušilo, propušile
+- **prosjediti** — *Ijekavski oblik: prosediti (provesti vreme sedeći).*
+  - predlog: prosjedim, prosjediš, prosjedi, prosjedimo, prosjedite, prosjede, prosjedila, prosjedilo, prosjedili, prosjedile
+- **prosloviti** — *Progovoriti, izustiti; prosloviti.*
+  - predlog: proslovim, prosloviš, proslovimo, proslovite, proslovila, proslovilo, proslovili, proslovile
+- **prostreliti** — *Probiti hicem, prostreliti; prostreliti.*
+  - predlog: prostrelim, prostreliš, prostrelimo, prostrelite, prostrele, prostrelila, prostrelilo, prostrelili, prostrelile
+- **protivurečiti** — *Oblik reči protivurečiti (protivrečiti, suprotstavljati se rečima).*
+  - predlog: protivurečimo, protivurečite, protivureče, protivurečio, protivurečila, protivurečilo, protivurečili, protivurečile
+- **protratiti** — *Oblik reči protratiti (uludo potrošiti, proćerdati).*
+  - predlog: protratim, protratiš, protrati, protratimo, protratite, protrate, protratila, protratilo, protratili, protratile
+- **proveseliti** — *Razveseliti, oraspoložiti; proveseliti.*
+  - predlog: proveselim, proveseliš, proveselimo, proveselite, proveselila, proveselilo, proveselili, proveselile
+- **prošiti** — *Provući šav kroz tkaninu; prošiti uzduž.*
+  - predlog: prošim, prošiš, proši, prošimo, prošite, proše, prošilo, prošili, prošile
+- **prtiti** — *Gaziti i krčiti put kroz sneg ili šipražje.*
+  - predlog: prtiš, prtimo, prtite, prtila, prtilo, prtili, prtile
+- **prućiti** — *Pružiti, ispružiti; prućiti.*
+  - predlog: prućim, prućiš, prućimo, prućite, prućila, prućilo, prućili, prućile
+- **rakoliti** — *Komešati se i gmizati u mnoštvu, vrveti; rakoliti se.*
+  - predlog: rakolim, rakoliš, rakolimo, rakolite, rakole, rakolila, rakolilo, rakolili, rakolile
+- **raseliti** — *Preseliti stanovništvo na razne strane, rasporediti seljenjem; raseliti.*
+  - predlog: raselim, raseliš, raselimo, raselite, rasele, raselila, raselile
+- **raskraviti** — *Raskraviti se — omekšati, popustiti u srdžbi.*
+  - predlog: raskravim, raskraviš, raskravimo, raskravite, raskrave, raskravila, raskravile
+- **raskrečiti** — *Raširiti noge, raskrečiti; raskrečiti se.*
+  - predlog: raskrečim, raskrečiš, raskrečimo, raskrečite, raskreče, raskrečila, raskrečilo, raskrečili, raskrečile
+- **raskriliti** — *Raširiti krila; raskriliti ruke.*
+  - predlog: raskrilim, raskriliš, raskrilimo, raskrilite, raskrile, raskrililo, raskrilili, raskrilile
+- **raskrvaviti** — *Razbiti do krvi, raskrvaviti; raskrvaviti.*
+  - predlog: raskrvavim, raskrvaviš, raskrvavi, raskrvavimo, raskrvavite, raskrvave, raskrvavila, raskrvavile
+- **raskućiti** — *Upropastiti dom i imanje; raskućiti.*
+  - predlog: raskućim, raskućiš, raskućimo, raskućite, raskuće, raskućila, raskućilo, raskućili, raskućile
+- **raskvasiti** — *Dobro nakvasiti, omekšati vlagom.*
+  - predlog: raskvasim, raskvasiš, raskvasi, raskvasimo, raskvasite, raskvase, raskvasila, raskvasili, raskvasile
+- **raspametiti** — *Sasvim zaneti, oduzeti razum od ushićenja ili ljubavi.*
+  - predlog: raspametim, raspametiš, raspametimo, raspametite, raspamete, raspametilo, raspametili, raspametile
+- **raspariti** — *Razdvojiti par, učiniti neparnim, razdvojiti spojeno dvoje; raspariti.*
+  - predlog: rasparim, raspariš, raspari, rasparimo, rasparite, raspare, raspario, rasparila, rasparilo, rasparili, rasparile
+- **raspiriti** — *Oblik reči raspiriti (raspaliti vatru; raspaliti strast).*
+  - predlog: raspiriš, raspirimo, raspirite, raspire, raspirio, raspirila, raspirilo, raspirili
+- **raspoloviti** — *Prepoloviti, podeliti na pola; raspoloviti.*
+  - predlog: raspolovim, raspoloviš, raspolovimo, raspolovite, raspolove, raspolovila, raspolovilo, raspolovili, raspolovile
+- **raspoložiti** — *Učiniti raspoloženim; oraspoložiti.*
+  - predlog: raspoložimo, raspoložite, raspolože, raspoložila, raspoložilo, raspoložili, raspoložile
+- **raspolutiti** — *Podeliti na pola; prepoloviti.*
+  - predlog: raspolutim, raspolutiš, raspolutimo, raspolutite, raspolutila, raspolutilo, raspolutile
+- **raspomamiti** — *Razbesneti, raspomamiti; raspomamiti se.*
+  - predlog: raspomamim, raspomamiš, raspomami, raspomamimo, raspomamite, raspomame, raspomamila, raspomamilo, raspomamili, raspomamile
+- **raspremiti** — *Pospremiti, raščistiti.*
+  - predlog: raspremimo, raspremite, raspreme, raspremio, raspremila, raspremilo, raspremile
+- **rastovariti** — *Istovariti teret s vozila ili tovara; rastovariti.*
+  - predlog: rastovariš, rastovarimo, rastovarite, rastovare, rastovario, rastovarila, rastovarilo, rastovarili, rastovarile
+- **rastrezniti** — *Otrezniti, vratiti iz pijanstva ili zanosa u trezveno stanje; rastrezniti.*
+  - predlog: rastreznim, rastrezniš, rastreznimo, rastreznite, rastrezne, rastreznila, rastreznilo, rastreznili, rastreznile
+- **rastumačiti** — *Objasniti, protumačiti, učiniti razumljivim; rastumačiti.*
+  - predlog: rastumačiš, rastumačimo, rastumačite, rastumačila, rastumačilo, rastumačili, rastumačile
+- **razbaštiniti** — *Lišiti naslednika prava na nasledstvo; razbaštiniti.*
+  - predlog: razbaštinim, razbaštiniš, razbaštini, razbaštinimo, razbaštinite, razbaštine, razbaštinila, razbaštinilo, razbaštinili, razbaštinile
+- **razbjesniti** — *Ijekavski oblik glagola razbesneti (jako se naljutiti, pobesneti).*
+  - predlog: razbjesnim, razbjesniš, razbjesni, razbjesnimo, razbjesnite, razbjesne, razbjesnilo, razbjesnili, razbjesnile
+- **razdrobiti** — *Smrviti, razdrobiti; razdrobiti.*
+  - predlog: razdrobim, razdrobimo, razdrobite, razdrobila, razdrobilo, razdrobili, razdrobile
+- **razdužiti** — *Vratiti dug, osloboditi zaduženja; razdužiti.*
+  - predlog: razdužiš, razdužimo, razdužite, razdužila, razdužilo, razdužili, razdužile
+- **razglaviti** — *Rasklimati, razglaviti; razglaviti.*
+  - predlog: razglavim, razglaviš, razglavimo, razglavite, razglave, razglavila, razglavilo, razglavili, razglavile
+- **razgolititi** — *Ogoliti, otkriti telo.*
+  - predlog: razgolitim, razgolitiš, razgolitimo, razgolitite, razgolite, razgolitila, razgolitilo, razgolitili, razgolitile
+- **razgoropaditi** — *Jako se razbesneti i pomahnitati, izgubiti kontrolu od besa; pobesneti.*
+  - predlog: razgoropadim, razgoropadiš, razgoropadi, razgoropadimo, razgoropadite, razgoropade, razgoropadilo, razgoropadili, razgoropadile
+- **razlabaviti** — *Učiniti labavim; olabaviti.*
+  - predlog: razlabavim, razlabaviš, razlabavi, razlabavimo, razlabavite, razlabave, razlabavila, razlabavilo, razlabavili, razlabavile
+- **razliti** — *Proliti na više strana (razliti se).*
+  - predlog: razlim, razliš, razli, razlimo, razlite, razle, razlile
+- **razlomiti** — *Slomiti na delove; prelomiti.*
+  - predlog: razlomim, razlomiš, razlomimo, razlome, razlomila, razlomilo, razlomile
+- **razmrsiti** — *Razdvojiti zamršeno; raspetljati.*
+  - predlog: razmrsiš, razmrsite, razmrsio, razmrsila, razmrsilo, razmrsili, razmrsile
+- **razrogačiti** — *Širom otvoriti (oči), razrogačiti; razrogačiti.*
+  - predlog: razrogačim, razrogačiš, razrogačimo, razrogačite, razrogače, razrogačila, razrogačilo, razrogačili, razrogačile
+- **razulariti** — *Skinuti ular; raspustiti, učiniti neobuzdanim.*
+  - predlog: razularim, razulariš, razulari, razularimo, razularite, razulare, razularila, razularilo, razularili, razularile
+- **razvratiti** — *Oblik reči razvratiti (povesti u razvrat, iskvariti).*
+  - predlog: razvratim, razvratiš, razvratimo, razvratite, razvratila, razvratilo, razvratili, razvratile
+- **rašiti** — *Rasparati, rašiti šav; rašiti.*
+  - predlog: rašim, rašiš, rašimo, rašite, rašila, rašilo, rašile
+- **ražaliti** — *Rastužiti, sažaliti se; ražaliti.*
+  - predlog: ražalim, ražališ, ražalimo, ražalite, ražale, ražalila, ražalili, ražalile
+- **ražalostiti** — *Naterati na tugu, jako rastužiti.*
+  - predlog: ražalostim, ražalostiš, ražalostimo, ražalostite, ražaloste, ražalostili, ražalostile
+- **rezbariti** — *Urezivati ukrase u drvo.*
+  - predlog: rezbariš, rezbarimo, rezbarite, rezbare, rezbarila, rezbarilo, rezbarili, rezbarile
+- **rečiti** — *Oblik reči rečit (koji lepo i tečno govori, govorljiv).*
+  - predlog: rečim, rečiš, rečimo, rečio, rečila, rečilo, rečili, rečile
+- **rovašiti** — *Urezivati zareze na rovašu radi računanja; obeležavati; rovašiti.*
+  - predlog: rovašim, rovašiš, rovaši, rovašimo, rovašite, rovaše, rovašila, rovašilo, rovašili, rovašile
+- **ručiti** — *Oblik reči ručati (jesti ručak).*
+  - predlog: ručim, ručiš, ruči, ručimo, ručite, ruče, ručio, ručila, ručilo, ručili, ručile
+- **saliti** — *Izliti, sliti u kalup; saliti.*
+  - predlog: salim, sališ, sali, salimo, salite, salila, salilo, salili, salile
+- **samiti** — *Oblik reči samit (sastanak najviših čelnika, sastanak na vrhu).*
+  - predlog: samiš, samimo, samite, same, samio, samila, samilo, samili, samile
+- **saobraziti** — *Prilagoditi, dovesti u sklad s nečim; saobraziti.*
+  - predlog: saobrazim, saobraziš, saobrazimo, saobrazite, saobrazilo, saobrazili, saobrazile
+- **saopćiti** — *Saopćiti — saopštiti, obznaniti (varijanta).*
+  - predlog: saopćim, saopćiš, saopćimo, saopćite, saopćila, saopćilo, saopćili, saopćile
+- **sapuniti** — *Trljati sapunom, sapuniti; sapuniti.*
+  - predlog: sapunim, sapuniš, sapunimo, sapunite, sapunio, sapunila, sapunilo, sapunili, sapunile
+- **sašiti** — *Spojiti šivenjem; sašiti odeću.*
+  - predlog: sašim, sašiš, sašimo, sašite, saše, sašilo, sašile
+- **senčiti** — *Davati senku na crtežu, tamniti delove.*
+  - predlog: senčim, senčiš, senčimo, senčite, senčilo, senčili, senčile
+- **siloviti** — *Oblik prideva „silovit“; pun sile i žestine, žestok i nagao; bujan i snažan (sil*
+  - predlog: silovim, siloviš, silovi, silovimo, silove, silovio, silovila, silovilo, silovili, silovile
+- **sipiti** — *Sitno i tiho padati (o kiši); rominjati.*
+  - predlog: sipim, sipiš, sipi, sipimo, sipite, sipio, sipili, sipile
+- **siriti** — *Praviti sir zgrušavanjem mleka; siriti.*
+  - predlog: siri, sirimo, sirite, sire, sirila, sirilo, sirili, sirile
+- **sitniti** — *Usitnjavati, deliti na sitno; sitniti.*
+  - predlog: sitnimo, sitnite, sitnio, sitnila, sitnilo, sitnili, sitnile
+- **sjediti** — *Sjediti — sedeti (ijekavski).*
+  - predlog: sjedim, sjediš, sjedi, sjedimo, sjedite, sjede, sjedilo
+- **skladištiti** — *Oblik reči skladištiti (čuvati u skladištu).*
+  - predlog: skladištiš, skladištite, skladištio, skladištila, skladištilo, skladištili, skladištile
+- **skoriti** — *Hvatati koru ili skramu, stvarati tvrd sloj; skoriti se.*
+  - predlog: skoriš, skorimo, skorite, skorio, skorila, skorilo, skorili
+- **skriti** — *Glagol: sakriti, prikriti.*
+  - predlog: skrim, skriš, skri, skrimo, skrite, skre, skrile
+- **skrojiti** — *Iskrojiti, oblikovati sečenjem; skrojiti.*
+  - predlog: skrojiš, skrojimo, skrojite, skroje, skrojila, skrojilo, skrojili, skrojile
+- **skrpiti** — *Pokrpiti, sastaviti s mukom; skrpiti.*
+  - predlog: skrpi, skrpimo, skrpite, skrpe, skrpila, skrpilo, skrpile
+- **slaziti** — *Silaziti, spuštati se; slaziti.*
+  - predlog: slazim, slaziš, slazimo, slazite, slaze, slazilo, slazili, slazile
+- **slijediti** — *Ijekavski oblik glagola slediti (pratiti; doći posle).*
+  - predlog: slijedim, slijediš, slijedi, slijedimo, slijedite, slijede, slijedila, slijedilo, slijedili, slijedile
+- **slinaviti** — *Ispuštati sline, balaviti; slinaviti.*
+  - predlog: slinaviš, slinavimo, slinavite, slinavio, slinavila, slinavilo, slinavili, slinavile
+- **slistiti** — *Uništiti, satrti, pojesti ili potrošiti sve do kraja; slistiti.*
+  - predlog: slistim, slistiš, slistimo, sliste, slistila, slistilo, slistili, slistile
+- **sloviti** — *Važiti za nešto, biti poznat kao; sloviti.*
+  - predlog: slovim, sloviš, slovimo, slovite, slove, slovilo, slovile
+- **sluditi** — *Izludeti, zbuniti, smesti; sluditi.*
+  - predlog: sludim, sludiš, sludimo, sludite, slude, sludio, sludila, sludilo, sludili, sludile
+- **smejuljiti** — *Smejuljiti se — tiho i prikriveno se smejati.*
+  - predlog: smejuljim, smejuljiš, smejulji, smejuljimo, smejuljite, smejulje, smejuljila, smejuljilo, smejuljili, smejuljile
+- **smiješiti** — *Oblik glagola smiješiti se (smešiti se — ijekavski).*
+  - predlog: smiješim, smiješiš, smiješi, smiješimo, smiješite, smiješe, smiješio, smiješila, smiješilo, smiješili, smiješile
+- **smlaviti** — *Smrviti, satrti udarcem; smlaviti.*
+  - predlog: smlavim, smlaviš, smlavimo, smlavite, smlave, smlavila, smlavilo, smlavili, smlavile
+- **smotriti** — *Osmotriti, pregledati; smotriti.*
+  - predlog: smotrim, smotriš, smotrite, smotrila, smotrilo, smotrili, smotrile
+- **smočiti** — *Nakvasiti, pokvasiti; namočiti.*
+  - predlog: smočim, smočimo, smočite, smoče, smočilo, smočili, smočile
+- **smračiti** — *Smračiti se — pasti mrak; (preneseno) namrgoditi se.*
+  - predlog: smračim, smračiš, smračimo, smračite, smrače, smračila, smračili, smračile
+- **sneveseliti** — *Rastužiti, sneveseliti; sneveseliti.*
+  - predlog: sneveselim, sneveseliš, sneveselimo, sneveselite, snevesele, sneveselila, sneveselilo, sneveselili, sneveselile
+- **snužditi** — *Postati tužan, snužden; snužditi se.*
+  - predlog: snuždim, snuždiš, snuždimo, snuždite, snužde, snuždili, snuždile
+- **sokoliti** — *Bodriti i hrabriti; podizati duh.*
+  - predlog: sokolim, sokoliš, sokolimo, sokolite, sokolila, sokolilo, sokolile
+- **spečaliti** — *Ražalostiti, zabrinuti; spečaliti.*
+  - predlog: spečalim, spečališ, spečali, spečalimo, spečalite, spečale, spečalila, spečalilo, spečalili, spečalile
+- **splavariti** — *Voziti splav niz reku; splavariti.*
+  - predlog: splavarim, splavariš, splavari, splavarimo, splavarite, splavare, splavarila, splavarilo, splavarili, splavarile
+- **spljoštiti** — *Učiniti pljosnatim, zgnječiti.*
+  - predlog: spljoštim, spljoštiš, spljoštimo, spljošte, spljoštila, spljoštilo, spljoštili, spljoštile
+- **stanoviti** — *Oblik reči stanovit (izvestan, neki, određen).*
+  - predlog: stanovim, stanoviš, stanovimo, stanovio, stanovila, stanovilo, stanovili, stanovile
+- **stasiti** — *Oblik reči stasit (lepog rasta, stamen, naočit).*
+  - predlog: stasim, stasiš, stasi, stasimo, stase, stasio, stasila, stasilo, stasili, stasile
+- **strahoviti** — *Oblik prideva „strahovit“; veoma velik i silan, koji izaziva strah i divljenje; *
+  - predlog: strahovim, strahoviš, strahovimo, strahovio, strahovila, strahovilo, strahovili, strahovile
+- **straćiti** — *Uzaludno potrošiti; protraćiti.*
+  - predlog: straćim, straćiš, straći, straćimo, straćite, straće, straćila, straćilo, straćile
+- **strefiti** — *Glagol, razg.: pogoditi i zadesiti; u izrazu da ga strefi — da ga iznenada snađe*
+  - predlog: strefim, strefiš, strefimo, strefite, strefe, strefilo, strefili, strefile
+- **strmoglaviti** — *Strmoglaviti se — naglavačke pasti.*
+  - predlog: strmoglavim, strmoglaviš, strmoglavimo, strmoglavite, strmoglavila, strmoglavilo, strmoglavili, strmoglavile
+- **strovaliti** — *Survati, strmoglaviti; strovaliti.*
+  - predlog: strovalim, strovališ, strovalimo, strovalite, strovalila, strovalilo, strovalili, strovalile
+- **stuštiti** — *Naglo se sjuriti naniže; sručiti se.*
+  - predlog: stuštim, stuštiš, stuštimo, stuštite, stušte, stuštila, stuštilo, stuštili, stuštile
+- **teliti** — *Donositi tele na svet (o kravi).*
+  - predlog: telim, teli, telimo, telite, telilo, telili, telile
+- **tetošiti** — *Preterano maziti i paziti; razmazivati.*
+  - predlog: tetoši, tetošimo, tetošite, tetošio, tetošila, tetošilo, tetošili
+- **topliti** — *Grejati, zagrevati.*
+  - predlog: topliš, toplimo, toplite, toplio, toplila, toplilo, toplili, toplile
+- **toviti** — *Hraniti da se ugoji.*
+  - predlog: tovim, toviš, tovi, tovimo, tovite, tove, tovila, tovilo, tovile
+- **trebiti** — *Čistiti (perje, lišće); pleti.*
+  - predlog: trebim, trebiš, trebi, trebimo, trebe, trebio, trebila, trebilo, trebile
+- **trnoviti** — *Oblik reči trnovit (pun trnja, težak i mukotrpan).*
+  - predlog: trnoviš, trnovimo, trnovite, trnovio, trnovila, trnovilo, trnovili, trnovile
+- **truniti** — *Trunuti, propadati; raspadati se.*
+  - predlog: trunim, truniš, trunimo, trunio, trunila, trunilo, trunile
+- **tulumariti** — *Glagol: razgovorno: provoditi se na žurkama, slaviti.*
+  - predlog: tulumarim, tulumariš, tulumarimo, tulumarite, tulumare, tulumarilo, tulumarile
+- **tutnjiti** — *Proizvoditi dubok potmuo zvuk, tutnjati.*
+  - predlog: tutnjim, tutnjiš, tutnjimo, tutnjite, tutnjio, tutnjila, tutnjilo, tutnjili, tutnjile
+- **tuviti** — *Pamtiti, utuviti.*
+  - predlog: tuviš, tuvi, tuvimo, tuvite, tuve, tuvio, tuvilo, tuvili, tuvile
+- **ucveliti** — *Ražalostiti, ucveliti; ucveliti.*
+  - predlog: ucvelim, ucveliš, ucvelimo, ucvelite, ucvele, ucvelila, ucvelilo, ucvelile
+- **udiviti** — *Zadiviti; ushititi.*
+  - predlog: udivim, udiviš, udivimo, udivite, udive, udivila, udivilo, udivili, udivile
+- **udrobiti** — *Udrobiti (hleb u mleko); usitniti.*
+  - predlog: udrobim, udrobiš, udrobimo, udrobite, udrobe, udrobila, udrobilo, udrobili, udrobile
+- **udvojiti** — *Udvostručiti; razdvojiti na dvoje, podvojiti; udvojiti.*
+  - predlog: udvojim, udvojiš, udvojimo, udvojite, udvojila, udvojilo, udvojili, udvojile
+- **ufitiljiti** — *Pripaliti fitilj; naljutiti se i planuti; ufitiljiti.*
+  - predlog: ufitiljim, ufitiljiš, ufitilji, ufitiljimo, ufitiljite, ufitilje, ufitiljila, ufitiljilo, ufitiljili, ufitiljile
+- **ugnjaviti** — *Dosaditi, dodijati.*
+  - predlog: ugnjavim, ugnjaviš, ugnjavi, ugnjavimo, ugnjavite, ugnjave, ugnjavila, ugnjavilo, ugnjavili, ugnjavile
+- **uhljebiti** — *Obezbediti zaposlenje ili hleb.*
+  - predlog: uhljebim, uhljebiš, uhljebi, uhljebimo, uhljebite, uhljebe, uhljebila, uhljebilo, uhljebili, uhljebile
+- **uhraniti** — *Nahraniti, ugojiti.*
+  - predlog: uhranim, uhraniš, uhrani, uhranite, uhrane, uhranila, uhranilo, uhranile
+- **ukiseliti** — *Učiniti kiselim; staviti u turšiju.*
+  - predlog: ukiselim, ukiseliš, ukiselimo, ukiselite, ukiselila, ukiselili, ukiselile
+- **ukopistiti** — *Oblik reči ukopistiti se (uinatiti se, tvrdoglavo ostati pri svome).*
+  - predlog: ukopistim, ukopistiš, ukopisti, ukopistimo, ukopistite, ukopiste, ukopistila, ukopistilo, ukopistili, ukopistile
+- **ukoričiti** — *Povezati u korice (knjigu).*
+  - predlog: ukoričim, ukoričiš, ukoriči, ukoričimo, ukoričite, ukoriče, ukoričila, ukoričilo, ukoričili, ukoričile
+- **ulepiti** — *Zalepiti, ulepiti; ulepiti.*
+  - predlog: ulepim, ulepiš, ulepi, ulepimo, ulepite, ulepe, ulepila, ulepilo, ulepili, ulepile
+- **ulogoriti** — *Postaviti logor; ulogoriti se.*
+  - predlog: ulogorim, ulogoriš, ulogorite, ulogore, ulogorila, ulogorilo, ulogorile
+- **ulubiti** — *Udubiti, ulubiti (lim).*
+  - predlog: ulubim, ulubiš, ulubi, ulubimo, ulubite, ulube, ulubila, ulubilo, ulubili, ulubile
+- **umaliti** — *Umanjiti, smanjiti.*
+  - predlog: umalim, umališ, umalimo, umalite, umale, umalila, umalilo, umalili, umalile
+- **umeriti** — *Usmeriti; umeriti.*
+  - predlog: umerim, umeriš, umerimo, umerite, umerila, umerilo, umerile
+- **umilostiviti** — *Umekšati nečiju srdžbu; pridobiti milost.*
+  - predlog: umilostivim, umilostiviš, umilostivimo, umilostivite, umilostivilo, umilostivili, umilostivile
+- **umlatiti** — *Ubiti udarcima; umlatiti.*
+  - predlog: umlatim, umlatiš, umlatimo, umlatite, umlatila, umlatilo, umlatili, umlatile
+- **umokriti** — *Pomokriti se; umokriti (u krevet).*
+  - predlog: umokrim, umokriš, umokri, umokrimo, umokrite, umokre, umokrilo, umokrili, umokrile
+- **unezveriti** — *Uznemiriti, zbuniti; razrogačiti od straha.*
+  - predlog: unezverim, unezveriš, unezveri, unezverimo, unezverite, unezvere, unezverila, unezverilo, unezverili, unezverile
+- **unovačiti** — *Oblik glagola „unovačiti“; regrutovati u vojsku i uvrstiti u vojnike; pretvoriti*
+  - predlog: unovačim, unovačiš, unovači, unovačimo, unovačite, unovače, unovačila, unovačilo, unovačile
+- **uortačiti** — *Udružiti u ortakluk; uortačiti se.*
+  - predlog: uortačim, uortačiš, uortači, uortačite, uortače, uortačila, uortačilo, uortačili, uortačile
+- **upiljiti** — *Upiljiti pogled; zagledati se ukočeno.*
+  - predlog: upiljim, upiljiš, upiljimo, upiljite, upilje, upiljila, upiljilo, upiljili, upiljile
+- **uprtiti** — *Natovariti teret na leđa, uprtiti na sebe; uprtiti.*
+  - predlog: uprtiš, uprti, uprtimo, uprtite, uprtilo, uprtili, uprtile
+- **uramiti** — *Staviti u ram, uokviriti; uramiti.*
+  - predlog: uramiš, urami, uramimo, uramite, urame, uramilo, uramili, uramile
+- **uraniti** — *Oblik glagola „uraniti“; rano ustati i poraniti, doći pre vremena (uraniti na po*
+  - predlog: uranim, uraniš, uranimo, uranite, urane, uranilo, uranile
+- **usiniti** — *Usvojiti kao sina.*
+  - predlog: usinim, usiniš, usini, usinimo, usinite, usine, usinila, usinilo, usinili, usinile
+- **utažiti** — *Utoliti (glad, žeđ); ublažiti.*
+  - predlog: utažim, utažiš, utaži, utažimo, utažite, utaže, utažila, utažilo, utažili, utažile
+- **utrapiti** — *Podvaliti, uvaliti nekome; utrapiti.*
+  - predlog: utrapim, utrapiš, utrapimo, utrapite, utrape, utrapilo, utrapili, utrapile
+- **utuliti** — *Ugasiti ili prigušiti (vatru, svetlo, zvuk).*
+  - predlog: utulim, utuliš, utulimo, utulite, utulila, utulili, utulile
+- **uturiti** — *Ugurati, uturiti.*
+  - predlog: uturim, uturiš, uturi, uturimo, uturite, uture, uturilo, uturili, uturile
+- **uveštiti** — *Učiniti veštim, izvežbati; uveštiti.*
+  - predlog: uveštim, uveštiš, uvešti, uveštimo, uveštite, uvešte, uveštila, uveštilo, uveštili, uveštile
+- **uvratiti** — *Vratiti unutra; svratiti.*
+  - predlog: uvratiš, uvratimo, uvratite, uvrate, uvratio, uvratila, uvratilo, uvratile
+- **uvrtiti** — *Zavrteti; uvrtiti sebi u glavu.*
+  - predlog: uvrtim, uvrtiš, uvrti, uvrtite, uvrtilo, uvrtili, uvrtile
+- **uzoriti** — *Oblik reči uzorit (ugledan, čestit).*
+  - predlog: uzorim, uzoriš, uzorimo, uzorio, uzorila, uzorilo, uzorili, uzorile
+- **uzvrpoljiti** — *Postati nemiran; vrpoljiti se.*
+  - predlog: uzvrpoljim, uzvrpoljiš, uzvrpoljimo, uzvrpoljite, uzvrpolje, uzvrpoljilo, uzvrpoljili, uzvrpoljile
+- **učauriti** — *Uvući se u čauru; zatvoriti se u sebe.*
+  - predlog: učaurim, učauriš, učauri, učaurimo, učaurite, učaure, učaurila, učaurilo, učaurili, učaurile
+- **ušančiti** — *Utvrditi se u šancu; ušančiti.*
+  - predlog: ušančim, ušančiš, ušanči, ušančimo, ušančite, ušanče, ušančila, ušančilo, ušančile
+- **ušeprtljiti** — *Uplesti se nespretno; zbuniti se.*
+  - predlog: ušeprtljim, ušeprtljiš, ušeprtlji, ušeprtljimo, ušeprtljite, ušeprtlje, ušeprtljio, ušeprtljila, ušeprtljilo, ušeprtljili, ušeprtljile
+- **ušiljiti** — *Zašiljiti, naoštriti u vrh.*
+  - predlog: ušiljim, ušiljiš, ušilji, ušiljimo, ušiljite, ušilje, ušiljila, ušiljilo, ušiljili, ušiljile
+- **uškopiti** — *Kastrirati, uškopiti.*
+  - predlog: uškopim, uškopiš, uškopimo, uškopite, uškope, uškopila, uškopilo, uškopile
+- **vlažiti** — *Činiti vlažnim, kvasiti.*
+  - predlog: vlažim, vlažiš, vlažimo, vlažite, vlažilo, vlažili, vlažile
+- **vrijediti** — *Vrijediti — vredeti, imati vrednost (ijekavski).*
+  - predlog: vrijedim, vrijediš, vrijedi, vrijedimo, vrijedite, vrijede, vrijedile
+- **zabataliti** — *Napustiti, zapustiti; zabataliti.*
+  - predlog: zabatalim, zabatališ, zabatali, zabatalimo, zabatalite, zabatale, zabatalila, zabatalilo, zabatalili, zabatalile
+- **zabašuriti** — *Zataškati, prikriti i zamutiti istinu.*
+  - predlog: zabašuriš, zabašurimo, zabašurite, zabašurio, zabašurila, zabašurilo, zabašurile
+- **zabeliti** — *Dodati mleko ili zaprške jelu; zabeliti.*
+  - predlog: zabelim, zabeliš, zabelimo, zabelite, zabelio, zabelilo, zabelili, zabelile
+- **zabiberiti** — *Začiniti biberom.*
+  - predlog: zabiberim, zabiberiš, zabiberimo, zabiberite, zabibere, zabiberilo, zabiberili, zabiberile
+- **zabiti** — *Udarcima zariti; takođe zabiti gol.*
+  - predlog: zabim, zabiš, zabi, zabimo, zabite, zabe, zabilo, zabile
+- **zabraviti** — *Zatvoriti bravom; zaključati.*
+  - predlog: zabravim, zabraviš, zabravi, zabravimo, zabrave, zabravila, zabravilo, zabravili, zabravile
+- **zabrazditi** — *Zaći u brazdu; otići predaleko u priči.*
+  - predlog: zabrazdim, zabrazdiš, zabrazdi, zabrazdimo, zabrazdite, zabrazdilo, zabrazdili, zabrazdile
+- **zacrveniti** — *Pocrveneti; obojiti u crveno.*
+  - predlog: zacrvenim, zacrveniš, zacrvenimo, zacrvenite, zacrvenila, zacrvenilo, zacrvenili, zacrvenile
+- **zadaniti** — *Osvanuti; zadaniti (dan).*
+  - predlog: zadaniš, zadanimo, zadanite, zadanio, zadanila, zadanilo, zadanili, zadanile
+- **zadimiti** — *Početi dimiti; ispuniti dimom.*
+  - predlog: zadimim, zadimiš, zadimimo, zadimite, zadimila, zadimilo, zadimili, zadimile
+- **zadubiti** — *Udubiti se, zadubiti se u nešto.*
+  - predlog: zadubim, zadubiš, zadubimo, zadubite, zadube, zadubilo, zadubili, zadubile
+- **zagasiti** — *Ugasiti.*
+  - predlog: zagasimo, zagase, zagasio, zagasila, zagasilo, zagasili, zagasile
+- **zagorčiti** — *Učiniti gorkim; otežati i ogorčiti život; zagorčiti.*
+  - predlog: zagorčim, zagorčiš, zagorči, zagorčimo, zagorčite, zagorče, zagorčio, zagorčila, zagorčilo, zagorčili, zagorčile
+- **zagovoriti** — *Obratiti se nekome, zametnuti razgovor; nagovoriti; zagovoriti.*
+  - predlog: zagovorim, zagovoriš, zagovorimo, zagovorite, zagovore, zagovorila, zagovorilo, zagovorili, zagovorile
+- **zagrabiti** — *Naglo uhvatiti šakom; zahvatiti vodu ili hranu.*
+  - predlog: zagrabim, zagrabiš, zagrabimo, zagrabite, zagrabilo, zagrabili, zagrabile
+- **zagustiti** — *Učiniti gustim; zakomplikovati (situaciju).*
+  - predlog: zagustim, zagustiš, zagustimo, zagustite, zaguste, zagustila, zagustili, zagustile
+- **zagušiti** — *Sprečiti disanje; ugušiti; zagušiti kanal.*
+  - predlog: zagušim, zagušiš, zagušimo, zagušite, zaguše, zagušilo, zagušile
+- **zaintačiti** — *Uporno navaljivati; zapeti za nešto.*
+  - predlog: zaintačim, zaintačiš, zaintačimo, zaintačite, zaintače, zaintačilo, zaintačili, zaintačile
+- **zajašiti** — *Oblik reči zajahati (popeti se na konja).*
+  - predlog: zajašim, zajašiš, zajašimo, zajašio, zajašila, zajašilo, zajašili, zajašile
+- **zajemčiti** — *Garantovati, jemčiti; zajemčiti.*
+  - predlog: zajemčim, zajemčiš, zajemčimo, zajemčite, zajemče, zajemčila, zajemčilo, zajemčili, zajemčile
+- **zakuniti** — *Oblik glagola „zakuniti se“; svečano se obavezati zakletvom, zavetovati se (hteo*
+  - predlog: zakunim, zakuniš, zakunio, zakunila, zakunilo, zakunili, zakunile
+- **zalomiti** — *Naglo se savijati; zalomiti rukama.*
+  - predlog: zalomim, zalomiš, zalomimo, zalomite, zalome, zalomilo, zalomili, zalomile
+- **zaluditi** — *Zaludeti, omađijati; izludeti.*
+  - predlog: zaludim, zaludiš, zaludimo, zaludite, zaludila, zaludilo, zaludili, zaludile
+- **zamandaliti** — *Zatvoriti mandalom; zabraviti rezom.*
+  - predlog: zamandalim, zamandališ, zamandali, zamandalimo, zamandalite, zamandale, zamandalila, zamandalilo, zamandalili, zamandalile
+- **zamijetiti** — *Ijekavski oblik glagola zametiti (zapaziti, opaziti).*
+  - predlog: zamijetim, zamijetiš, zamijeti, zamijetimo, zamijetite, zamijete, zamijetila, zamijetilo, zamijetili, zamijetile
+- **zamiriti** — *Početi mirisati; zamirisati.*
+  - predlog: zamirim, zamiriš, zamirimo, zamirite, zamirio, zamirila, zamirilo, zamirili, zamirile
+- **zamočiti** — *Umočiti; zaroniti u tečnost.*
+  - predlog: zamočiš, zamočimo, zamoče, zamočila, zamočilo, zamočili, zamočile
+- **zaokrugliti** — *Učiniti okruglim; zaokružiti.*
+  - predlog: zaokruglim, zaokrugliš, zaokrugli, zaokruglimo, zaokruglite, zaokruglila, zaokruglilo, zaokruglili
+- **zaoriti** — *Snažno odjeknuti (zaoriti se).*
+  - predlog: zaorim, zaoriš, zaorimo, zaorite, zaore, zaorio, zaorila, zaorilo, zaorili
+- **zapapriti** — *Začiniti biberom; zakuvati nevolju, zagorčati; zapapriti.*
+  - predlog: zapapriš, zapapri, zapaprimo, zapaprite, zapapre, zapaprio, zapaprila, zapaprilo, zapaprili, zapaprile
+- **zapeniti** — *Stvoriti penu; zapeniti se.*
+  - predlog: zapenim, zapeniš, zapenimo, zapenite, zapenilo, zapenili, zapenile
+- **zapiti** — *Početi piti preterano; propiti.*
+  - predlog: zapim, zapiš, zapi, zapimo, zapite, zape, zapila, zapilo, zapili, zapile
+- **zapojiti** — *Napojiti, dati nekome da pije; zapojiti.*
+  - predlog: zapojim, zapojiš, zapoji, zapojimo, zapojite, zapojio, zapojila, zapojilo, zapojili, zapojile
+- **zapovjediti** — *Ijekavski oblik glagola zapovediti (narediti).*
+  - predlog: zapovjedim, zapovjediš, zapovjedimo, zapovjedite, zapovjede, zapovjedila, zapovjedilo, zapovjedili, zapovjedile
+- **zaprašiti** — *Posuti prašinom ili preparatom; zaprašiti.*
+  - predlog: zaprašimo, zaprašite, zapraše, zaprašio, zaprašila, zaprašilo, zaprašile
+- **zapržiti** — *Napraviti zapršku prženjem brašna.*
+  - predlog: zapržim, zapržiš, zaprži, zapržimo, zaprže, zapržila, zapržilo, zapržili, zapržile
+- **zasiti** — *Oblik glagola „zasititi“.*
+  - predlog: zasim, zasiš, zasi, zasimo, zase, zasio, zasila, zasilo, zasili, zasile
+- **zastrepiti** — *Oblik reči zastrepeti (uplašiti se, osetiti strah).*
+  - predlog: zastrepiš, zastrepimo, zastrepite, zastrepila, zastrepilo, zastrepili, zastrepile
+- **zasvetliti** — *Oblik reči zasvetleti (zasijati, zablistati).*
+  - predlog: zasvetlim, zasvetliš, zasvetlimo, zasvetlite, zasvetlio, zasvetlila, zasvetlilo
+- **zatreperiti** — *Početi treperiti, zatitrati.*
+  - predlog: zatreperim, zatreperiš, zatreperimo, zatreperite, zatrepere, zatreperilo, zatreperili, zatreperile
+- **zaustiti** — *Spremiti se da se nešto kaže; zaustiti.*
+  - predlog: zaustiš, zaustimo, zaustite, zaustila, zaustilo, zaustili, zaustile
+- **zaviti** — *Umotati u nešto; takođe zaurlati otegnuto.*
+  - predlog: zavim, zaviš, zavi, zavimo, zavite, zave, zavile
+- **zašiti** — *Spojiti šivenjem; zatvoriti šavom.*
+  - predlog: zašim, zašiš, zaši, zašimo, zašite, zaše, zašilo, zašile
+- **zašrafiti** — *Zavrtanjem pričvrstiti šrafom; zavrnuti.*
+  - predlog: zašrafiš, zašrafi, zašrafimo, zašrafite, zašrafe, zašrafio, zašrafila, zašrafilo, zašrafili, zašrafile
+- **zažmiriti** — *Zatvoriti oči, žmureći ih stisnuti; zažmiriti.*
+  - predlog: zažmiriš, zažmirite, zažmire, zažmirila, zažmirilo, zažmirili, zažmirile
+- **zbratimiti** — *Sprijateljiti kao braću; ujediniti.*
+  - predlog: zbratimim, zbratimiš, zbratimimo, zbratimite, zbratime, zbratimila, zbratimilo, zbratimili, zbratimile
+- **zgoditi** — *Zgoditi se — slučajno se desiti; takođe pogoditi.*
+  - predlog: zgodim, zgodiš, zgodi, zgodimo, zgodite, zgodila, zgodili, zgodile
+- **zgromiti** — *Smrviti, uništiti kao gromom; zgromiti.*
+  - predlog: zgromiš, zgromimo, zgromite, zgrome, zgromilo, zgromili, zgromile
+- **zguliti** — *Oguliti; skinuti koru ili kožu.*
+  - predlog: zguliš, zguli, zgulimo, zgule, zgulio, zgulila, zgulilo, zgulili, zgulile
+- **zimiti** — *Provoditi zimu; mrznuti.*
+  - predlog: zimim, zimiš, zimimo, zimite, zimila, zimilo, zimili, zimile
+- **ćariti** — *Sticati dobit; zarađivati.*
+  - predlog: ćarim, ćariš, ćarimo, ćarite, ćare, ćarila, ćarilo, ćarili, ćarile
+- **čestiti** — *Oblik reči čestit (pošten, valjan, ispravan).*
+  - predlog: čestiš, čestimo, čestio, čestila, čestilo, čestili, čestile
+- **šiziti** — *Glagol, razgovorno: gubiti živce, ludeti od besa ili uzbuđenja.*
+  - predlog: šizim, šizi, šizimo, šizite, šize, šizilo, šizili, šizile
+- **škripiti** — *Proizvoditi oštar zvuk trenja; škripati.*
+  - predlog: škripim, škripimo, škripite, škripio, škripila, škripilo, škripili, škripile
+- **šćućuriti** — *Zgrčiti se da bi se sklonio (šćućuriti se).*
+  - predlog: šćućurim, šćućuriš, šćućuri, šćućurimo, šćućurite, šćućure, šćućurilo, šćućurili
+- **ždrebiti** — *Donositi ždrebe na svet (o kobili).*
+  - predlog: ždrebim, ždrebiš, ždrebi, ždrebimo, ždrebite, ždrebila, ždrebilo, ždrebili, ždrebile
+- **žuboriti** — *Proizvoditi tih zvuk vode koja teče.*
+  - predlog: žuborim, žuboriš, žuborimo, žuborite, žuborila, žuborilo, žuborile
+- **žuljiti** — *Stvarati žulj; trenjem nadraživati kožu.*
+  - predlog: žuljiš, žuljimo, žuljite, žuljio, žuljila, žuljili, žuljile
+- **žutiti** — *Bojiti u žuto; činiti nešto žutim.*
+  - predlog: žutiš, žutimo, žutite, žutio, žutila, žutili, žutile
+
+## Tip `-nuti` — 112 glagola
+
+- **beknuti** — *Muknuti, oglasiti se kao ovca; nakratko progovoriti; beknuti.*
+  - predlog: bekneš, bekne, beknemo, beknete, beknu, beknuo, beknula, beknulo, beknuli, beknule, bekni, beknite
+- **bućnuti** — *Naglo pasti u vodu uz pljusak.*
+  - predlog: bućneš, bućnemo, bućnete, bućnuo, bućnulo, bućnuli, bućnule, bućni, bućnite
+- **ciknuti** — *Tanko i kratko vrisnuti; ciknuti od straha.*
+  - predlog: ciknem, cikneš, ciknemo, ciknete, ciknulo, ciknuli, ciknule, cikni, ciknite
+- **cimnuti** — *Oblik reči cimnuti (lako povući, trznuti; kratko pozvati telefonom).*
+  - predlog: cimneš, cimnemo, cimnete, cimnula, cimnulo, cimnuli, cimnule, cimnite
+- **cmoknuti** — *Glasno poljubiti uz cmokav zvuk; cmoknuti.*
+  - predlog: cmokneš, cmoknemo, cmoknete, cmoknu, cmoknuo, cmoknula, cmoknulo, cmoknuli, cmoknule, cmokni, cmoknite
+- **dometnuti** — *Dodati uz rečeno; nadovezati.*
+  - predlog: dometnem, dometneš, dometnemo, dometnete, dometnula, dometnulo, dometnuli, dometnule, dometnite
+- **doviknuti** — *Glasno nekome nešto reći iz daljine.*
+  - predlog: doviknem, dovikneš, doviknemo, doviknete, doviknulo, doviknuli, doviknule, dovikni, doviknite
+- **došapnuti** — *Tiho šapnuti nekome na uho.*
+  - predlog: došapneš, došapne, došapnemo, došapnete, došapnu, došapnula, došapnulo, došapnuli, došapnule, došapni, došapnite
+- **ganuti** — *Dirnuti u dušu; raznežiti.*
+  - predlog: ganem, ganeš, gane, ganemo, ganete, ganu, ganuli, ganule, gani, ganite
+- **gucnuti** — *Otpiti mali gutljaj; srknuti.*
+  - predlog: gucneš, gucnemo, gucnete, gucnu, gucnula, gucnulo, gucnuli, gucnule, gucnite
+- **haknuti** — *Oblik reči haknuti (provaliti u računarski sistem - žargon).*
+  - predlog: hakneš, hakne, haknemo, haknete, haknu, haknuo, haknula, haknulo, haknuli, haknule, hakni, haknite
+- **iskrsnuti** — *Iznenada se pojaviti; nenadano nastati.*
+  - predlog: iskrsnem, iskrsneš, iskrsnemo, iskrsnete, iskrsnuli, iskrsnule, iskrsni, iskrsnite
+- **izvrgnuti** — *Izvrgnuti ruglu — izložiti podsmehu.*
+  - predlog: izvrgnem, izvrgneš, izvrgnemo, izvrgnete, izvrgnula, izvrgnule, izvrgni, izvrgnite
+- **jauknuti** — *Kratko jauknuti od bola; kriknuti.*
+  - predlog: jauknem, jaukneš, jauknemo, jauknete, jauknula, jauknulo, jauknuli, jauknule, jaukni, jauknite
+- **jeknuti** — *Kratko i bolno jauknuti; zaječati.*
+  - predlog: jeknem, jekneš, jeknemo, jeknete, jeknulo, jeknuli, jeknule, jekni, jeknite
+- **kidnuti** — *Oblik reči kidnuti (pobeći, zbrisati - žargon).*
+  - predlog: kidnem, kidneš, kidne, kidnete, kidnu, kidnulo, kidnuli, kidnule, kidni, kidnite
+- **kihnuti** — *Jednom kinuti, izbaciti vazduh kroz nos uz refleks; kihnuti.*
+  - predlog: kihnem, kihneš, kihnemo, kihnete, kihnulo, kihnuli, kihnule, kihni, kihnite
+- **kinuti** — *Naglo izbaciti vazduh kroz nos.*
+  - predlog: kinem, kineš, kinemo, kinete, kinulo, kinuli, kinule, kinite
+- **klisnuti** — *Pobeći, šmugnuti, izmaći se; klisnuti.*
+  - predlog: klisnem, klisneš, klisnete, klisnula, klisnulo, klisnuli, klisnule, klisni, klisnite
+- **koraknuti** — *Načiniti korak, zakoračiti; koraknuti.*
+  - predlog: korakneš, koraknemo, koraknete, koraknulo, koraknuli, koraknule, korakni, koraknite
+- **kriknuti** — *Naglo i oštro viknuti; vrisnuti.*
+  - predlog: kriknem, krikneš, kriknemo, kriknete, kriknulo, kriknule, krikni, kriknite
+- **kvrcnuti** — *Lako udariti prstom, čvrgnuti.*
+  - predlog: kvrcnem, kvrcneš, kvrcnemo, kvrcnete, kvrcnu, kvrcnula, kvrcnulo, kvrcnuli, kvrcnule, kvrcni, kvrcnite
+- **laknuti** — *Osetiti olakšanje, odlanuti; laknuti.*
+  - predlog: laknem, lakneš, laknemo, laknete, laknula, laknuli, laknule, lakni, laknite
+- **ljosnuti** — *Pasti, tresnuti, srušiti se uz udarac; ljosnuti.*
+  - predlog: ljosnem, ljosneš, ljosne, ljosnemo, ljosnete, ljosnula, ljosnulo, ljosnule, ljosni, ljosnite
+- **ljuljnuti** — *Jednom zaljuljati, dati zamah; ljuljnuti.*
+  - predlog: ljuljneš, ljuljnemo, ljuljnete, ljuljnuo, ljuljnula, ljuljnulo, ljuljnuli, ljuljnule, ljuljni, ljuljnite
+- **lupnuti** — *Udariti uz tup zvuk, lupnuti; lupnuti.*
+  - predlog: lupneš, lupnemo, lupnete, lupnula, lupnulo, lupnuli, lupnule, lupnite
+- **mignuti** — *Dati znak treptajem oka, namignuti; mignuti.*
+  - predlog: mignem, migneš, migne, mignemo, mignete, mignula, mignulo, mignuli, mignule, migni, mignite
+- **mlatnuti** — *Zamahnuti i udariti.*
+  - predlog: mlatneš, mlatnemo, mlatnete, mlatnu, mlatnulo, mlatnuli, mlatnule, mlatnite
+- **nakrenuti** — *Nagnuti, naheriti, postaviti koso; nakrenuti.*
+  - predlog: nakrenem, nakreneš, nakrene, nakrenemo, nakrenete, nakrenu, nakrenula, nakrenulo, nakrenuli, nakrenule, nakreni, nakrenite
+- **namaknuti** — *Pribaviti, doći do nečega; primaći, navući; namaknuti.*
+  - predlog: namakneš, namaknete, namaknuo, namaknula, namaknulo, namaknuli, namaknule, namakni, namaknite
+- **napuknuti** — *Pući delimično, dobiti pukotinu; napuknuti.*
+  - predlog: napuknem, napukneš, napuknemo, napuknete, napuknu, napuknula, napuknulo, napuknuli, napuknule, napukni, napuknite
+- **nataknuti** — *Navući na nešto; nabosti, nasaditi.*
+  - predlog: nataknem, nataknemo, nataknete, nataknula, nataknulo, nataknuli, nataknule, nataknite
+- **natuknuti** — *Nagovestiti, ovlaš pomenuti, dati znak; natuknuti.*
+  - predlog: natuknem, natukneš, natukne, natuknemo, natuknete, natuknulo, natuknuli, natuknule, natuknite
+- **obrecnuti** — *Osorno i naprasno odgovoriti, oseći se na nekoga; obrecnuti se.*
+  - predlog: obrecnem, obrecneš, obrecnemo, obrecnete, obrecnulo, obrecnuli, obrecnule, obrecni, obrecnite
+- **odgrnuti** — *Ukloniti grnući, razgrnuti i otkriti; odgrnuti.*
+  - predlog: odgrnem, odgrneš, odgrne, odgrnemo, odgrnete, odgrnulo, odgrnuli, odgrnule, odgrni, odgrnite
+- **odjenuti** — *Odjenuti — odenuti, obući (ijekavski).*
+  - predlog: odjenem, odjeneš, odjenete, odjenu, odjenula, odjenulo, odjenuli, odjenule
+- **odmahnuti** — *Mahnuti rukom u znak odbijanja ili pozdrava.*
+  - predlog: odmahneš, odmahnemo, odmahnete, odmahnulo, odmahnuli, odmahnule, odmahni, odmahnite
+- **odmrznuti** — *Otopiti zamrznuto; odlediti.*
+  - predlog: odmrzneš, odmrznemo, odmrznete, odmrznuo, odmrznula, odmrznulo, odmrznuli, odmrznule, odmrzni, odmrznite
+- **odviknuti** — *Osloboditi se navike; odučiti.*
+  - predlog: odviknete, odviknuo, odviknula, odviknulo, odviknuli, odviknule, odvikni, odviknite
+- **ogreznuti** — *Utonuti, zaglibiti, ogrezti u greh ili blato; ogreznuti.*
+  - predlog: ogreznem, ogrezneš, ogreznemo, ogreznete, ogreznulo, ogreznuli, ogreznule, ogrezni, ogreznite
+- **okinuti** — *Povući obarač, pokrenuti naglim pokretom; okinuti.*
+  - predlog: okinem, okineš, okinemo, okinete, okinulo, okinuli, okinule, okini, okinite
+- **okrznuti** — *Ovlaš dodirnuti u prolazu; lako zakačiti.*
+  - predlog: okrznem, okrzneš, okrznemo, okrznete, okrznu, okrznule, okrzni, okrznite
+- **opljunuti** — *Pljunuti po nečemu, popljuvati; opljunuti.*
+  - predlog: opljuneš, opljune, opljunemo, opljunete, opljunu, opljunuo, opljunula, opljunulo, opljunuli, opljunule, opljuni, opljunite
+- **opsednuti** — *Okružiti i odseći grad; (preneseno) obuzeti.*
+  - predlog: opsednem, opsedneš, opsednemo, opsednete, opsednula, opsednulo, opsednuli, opsednule, opsedni, opsednite
+- **oskvrnuti** — *Oskrnaviti, obeščastiti svetinju; oskvrnuti.*
+  - predlog: oskvrnem, oskvrneš, oskvrnemo, oskvrnete, oskvrnula, oskvrnulo, oskvrnule, oskvrnite
+- **otegnuti** — *Glagol: razvući u dužinu ili trajanju; otegnuti glas, razvući ga; razg. otegnuti*
+  - predlog: otegneš, otegnemo, otegnete, otegnu, otegnuo, otegnula, otegnulo, otegnuli, otegnule, otegni, otegnite
+- **pecnuti** — *Bocnuti rečju, zadirkivati; pecnuti.*
+  - predlog: pecneš, pecnemo, pecnete, pecnu, pecnula, pecnulo, pecnuli, pecnule, pecni, pecnite
+- **pirnuti** — *Lako dunuti, dahnuti; pirnuti.*
+  - predlog: pirnem, pirneš, pirnemo, pirnete, pirnu, pirnula, pirnulo, pirnuli, pirnule, pirni, pirnite
+- **podsmehnuti** — *Podsmehnuti se — narugati se smejući.*
+  - predlog: podsmehnem, podsmehneš, podsmehnemo, podsmehnete, podsmehnula, podsmehnulo, podsmehnuli, podsmehnule, podsmehni, podsmehnite
+- **pokisnuti** — *Pokvasiti se na kiši.*
+  - predlog: pokisnete, pokisnu, pokisnuo, pokisnula, pokisnulo, pokisnule, pokisni, pokisnite
+- **posednuti** — *Glagol: opseliti i obuzeti o zlom duhu; zaposesti i zauzeti (posednuti zamak).*
+  - predlog: posedneš, posednete, posednuo, posednula, posednulo, posednuli, posednule, posedni, posednite
+- **prasnuti** — *Naglo prsnuti uz prasak; (preneseno) prasnuti u smeh ili plač.*
+  - predlog: prasneš, prasnemo, prasnete, prasnulo, prasnuli, prasnule, prasni, prasnite
+- **prdnuti** — *Ispustiti vetrove iz creva uz zvuk; prdnuti.*
+  - predlog: prdnem, prdneš, prdne, prdnemo, prdnete, prdnu, prdnulo, prdnule, prdni, prdnite
+- **prebrinuti** — *Izdržati i savladati brigu, prebrinuti se; prebrinuti.*
+  - predlog: prebrine, prebrinemo, prebrinete, prebrinu, prebrinulo, prebrinuli, prebrinule, prebrini, prebrinite
+- **premetnuti** — *Premestiti, prevrnuti; premetnuti po džepovima.*
+  - predlog: premetnem, premetneš, premetne, premetnemo, premetnete, premetnuli, premetnule, premetni, premetnite
+- **prepadnuti** — *Iznenada napasti; uplašiti naglim pojavljivanjem; prepadnuti.*
+  - predlog: prepadnete, prepadnuo, prepadnula, prepadnulo, prepadnuli, prepadnule, prepadni, prepadnite
+- **preplanuti** — *Pocrneti od sunca, preplanuti; preplanuti.*
+  - predlog: preplanem, preplaneš, preplane, preplanemo, preplanete, preplanu, preplani, preplanite
+- **presvisnuti** — *Skapati od bola ili tuge, presvisnuti; presvisnuti.*
+  - predlog: presvisnem, presvisneš, presvisnemo, presvisnete, presvisnula, presvisnulo, presvisnuli, presvisnule, presvisni, presvisnite
+- **prhnuti** — *Naglo poleteti, vinuti se uz lepet krila; prhnuti.*
+  - predlog: prhnem, prhneš, prhne, prhnemo, prhnete, prhnula, prhnulo, prhnuli, prhni, prhnite
+- **pridenuti** — *Dodati, prikačiti uz nešto; pridenuti.*
+  - predlog: pridenem, prideneš, pridene, pridenemo, pridenete, pridenulo, pridenuli, pridenule, prideni, pridenite
+- **pridignuti** — *Podignuti malo, pridignuti; pridignuti.*
+  - predlog: pridigneš, pridignemo, pridignete, pridignuo, pridignula, pridignulo, pridignuli, pridignule, pridignite
+- **prignuti** — *Saviti, sagnuti, prignuti; prignuti.*
+  - predlog: prignem, prigneš, prignemo, prignete, prignula, prignulo, prignuli, prignule
+- **prigrnuti** — *Ogrnuti, privući uza se; prigrnuti.*
+  - predlog: prigrnem, prigrneš, prigrne, prigrnemo, prigrnete, prigrnula, prigrnulo, prigrnuli, prigrnule, prigrni, prigrnite
+- **prisegnuti** — *Položiti zakletvu; svečano se zakleti.*
+  - predlog: prisegnem, prisegneš, prisegne, prisegnemo, prisegnete, prisegnu, prisegnula, prisegnulo, prisegnule, prisegnite
+- **pucnuti** — *Naglo proizvesti zvuk pucanja, puknuti.*
+  - predlog: pucnemo, pucnete, pucnu, pucnula, pucnulo, pucnuli, pucnule, pucnite
+- **puhnuti** — *Naglo dunuti, oduvati; puhnuti.*
+  - predlog: puhneš, puhnemo, puhnete, puhnuo, puhnula, puhnulo, puhnuli, puhnule, puhnite
+- **raspadnuti** — *Oblik glagola „raspasti se“; razdvojiti se na komade i propasti, istruliti; pren*
+  - predlog: raspadnemo, raspadnete, raspadnuo, raspadnula, raspadnulo, raspadnuli, raspadnule, raspadni, raspadnite
+- **rasprsnuti** — *Oblik reči rasprsnuti se (raspuknuti se, razleteti se).*
+  - predlog: rasprsnem, rasprsneš, rasprsnemo, rasprsnete, rasprsnula, rasprsnulo, rasprsnuli, rasprsnule, rasprsni, rasprsnite
+- **ritnuti** — *Udariti nogom, ritnuti; ritnuti.*
+  - predlog: ritnem, ritneš, ritnemo, ritnete, ritnuli, ritnule, ritni, ritnite
+- **sevnuti** — *Naglo bljesnuti (o munji).*
+  - predlog: sevnem, sevneš, sevnemo, sevnete, sevnulo, sevnuli, sevni, sevnite
+- **skiknuti** — *Kratko kriknuti, ciknuti; skiknuti.*
+  - predlog: skiknem, skikneš, skiknemo, skiknete, skiknu, skiknula, skiknulo, skiknuli, skiknule, skikni, skiknite
+- **sklonuti** — *Skloniti, ukloniti; sklonuti.*
+  - predlog: sklonem, skloneš, sklonemo, sklonete, sklonula, sklonulo, sklonuli, sklonule
+- **strgnuti** — *Naglo skinuti, strgnuti; strgnuti.*
+  - predlog: strgnem, strgneš, strgnemo, strgnete, strgnu, strgnula, strgnulo, strgnuli, strgnule, strgni, strgnite
+- **strmeknuti** — *Survati, strmoglaviti; strmeknuti.*
+  - predlog: strmeknem, strmekneš, strmekne, strmeknemo, strmeknete, strmeknu, strmeknula, strmeknulo, strmeknuli, strmeknule, strmekni, strmeknite
+- **strugnuti** — *Naglo i potajno pobeći, kliznuti; strugnuti.*
+  - predlog: strugnem, strugneš, strugnemo, strugnete, strugnula, strugnuli, strugnule, strugni, strugnite
+- **stvrdnuti** — *Postati tvrd (stvrdnuti se).*
+  - predlog: stvrdnem, stvrdneš, stvrdnemo, stvrdnete, stvrdnulo, stvrdnuli, stvrdnule, stvrdni, stvrdnite
+- **suknuti** — *Naglo briznuti, šiknuti (plamen, voda); suknuti.*
+  - predlog: suknem, sukneš, suknemo, suknete, suknula, suknulo, suknuli, suknule, sukni, suknite
+- **svirnuti** — *Kratko zasvirati; zviznuti.*
+  - predlog: svirneš, svirnemo, svirnete, svirnu, svirnuo, svirnula, svirnulo, svirnuli, svirnule, svirnite
+- **svisnuti** — *Umreti od bola ili tuge; svisnuti.*
+  - predlog: svisnem, svisneš, svisnemo, svisnete, svisnula, svisnulo, svisnuli, svisnule, svisni, svisnite
+- **trenuti** — *Zadremati; trepnuti; trenuti.*
+  - predlog: treneš, trene, trenemo, trenete, trenulo, trenuli, trenule, treni, trenite
+- **tutnuti** — *Naglo gurnuti; tutnuti u ruku.*
+  - predlog: tutnem, tutnemo, tutnete, tutnulo, tutnuli, tutnule, tutni, tutnite
+- **uganuti** — *Iščašiti zglob naglim pokretom, uganuti nogu ili ruku; uganuti.*
+  - predlog: uganem, ugane, uganemo, uganete, uganu, uganulo, uganule, ugani, uganite
+- **umaknuti** — *Izmaći, umaknuti; pobeći.*
+  - predlog: umaknete, umaknuo, umaknula, umaknulo, umaknuli, umaknule, umakni, umaknite
+- **usahnuti** — *Sasvim usahnuti; presušiti, uvenuti.*
+  - predlog: usahnem, usahneš, usahnemo, usahnete, usahnulo, usahnuli, usahni, usahnite
+- **useknuti** — *Useknuti nos; izduvati nos.*
+  - predlog: useknem, usekneš, usekne, useknemo, useknete, useknula, useknulo, useknuli, useknule, usekni, useknite
+- **uskliknuti** — *Glasno uzviknuti od uzbuđenja ili oduševljenja; uskliknuti.*
+  - predlog: uskliknem, usklikneš, uskliknemo, uskliknete, uskliknulo, uskliknuli, uskliknule, usklikni
+- **uvrnuti** — *Oblik prideva „uvrnut“, muški rod ili množina; čudni, neobični.*
+  - predlog: uvrnem, uvrneš, uvrnemo, uvrnete, uvrnu, uvrnulo, uvrnuli, uvrnule, uvrnite
+- **uzmaknuti** — *Povući se unazad; ustuknuti.*
+  - predlog: uzmakneš, uzmaknemo, uzmaknete, uzmaknu, uzmaknuo, uzmaknula, uzmaknulo, uzmaknule, uzmaknite
+- **ušinuti** — *Povrediti, uganuti (kičmu).*
+  - predlog: ušinem, ušineš, ušine, ušinemo, ušinete, ušinu, ušinula, ušinulo, ušinuli, ušinule, ušini, ušinite
+- **uštipnuti** — *Oblik glagola „uštinuti“; prstima stisnuti kožu i izazvati bol; preneseno: zadir*
+  - predlog: uštipnem, uštipneš, uštipne, uštipnemo, uštipnete, uštipnu, uštipnula, uštipnulo, uštipnuli, uštipnule, uštipnite
+- **vinuti** — *Vinuti se — naglo se podići uvis, poleteti.*
+  - predlog: vinem, vine, vinemo, vinete, vinulo, vinuli, vinule, vini, vinite
+- **vrnuti** — *Vratiti (narodski); vrnuti.*
+  - predlog: vrnemo, vrnete, vrnula, vrnulo, vrnuli, vrnule, vrni, vrnite
+- **zabezeknuti** — *Sasvim zaprepastiti, ostaviti bez reči.*
+  - predlog: zabezeknem, zabezekneš, zabezeknemo, zabezeknete, zabezeknulo, zabezeknuli, zabezeknule, zabezekni, zabezeknite
+- **zadahnuti** — *Udahnuti, nadahnuti; zaudarati.*
+  - predlog: zadahnem, zadahnemo, zadahnete, zadahnula, zadahnulo, zadahnuli, zadahnule, zadahni, zadahnite
+- **zadenuti** — *Zataknuti (cvet); zadenuti.*
+  - predlog: zadenem, zadeneš, zadenemo, zadenete, zadenula, zadenulo, zadenuli, zadenule, zadenite
+- **zadignuti** — *Podići, zadignuti.*
+  - predlog: zadigneš, zadignemo, zadignete, zadignu, zadignuo, zadignula, zadignulo, zadignuli, zadignule, zadignite
+- **zagrcnuti** — *Zagušiti se zalogajem ili plačem (zagrcnuti se).*
+  - predlog: zagrcnem, zagrcneš, zagrcnemo, zagrcnete, zagrcnulo, zagrcnule, zagrcni, zagrcnite
+- **zakinuti** — *Uskratiti deo; oštetiti.*
+  - predlog: zakinem, zakinemo, zakinete, zakinu, zakinulo, zakinule, zakini, zakinite
+- **zapahnuti** — *Zapljusnuti dahom, mirisom ili toplotom; zapahnuti.*
+  - predlog: zapahnem, zapahneš, zapahnemo, zapahnete, zapahnulo, zapahnuli, zapahnule, zapahni, zapahnite
+- **zatisnuti** — *Zapušiti, zatisnuti otvor.*
+  - predlog: zatisneš, zatisnemo, zatisnete, zatisnula, zatisnulo, zatisnuli, zatisnule, zatisni, zatisnite
+- **zevnuti** — *Jednom zinuti od pospanosti.*
+  - predlog: zevnem, zevneš, zevnemo, zevnete, zevnulo, zevnuli, zevnule, zevni, zevnite
+- **zgasnuti** — *Ugasiti se, utrnuti; zgasnuti.*
+  - predlog: zgasnem, zgasneš, zgasnemo, zgasnete, zgasnulo, zgasnuli, zgasnule, zgasni, zgasnite
+- **zgranuti** — *Krajnje zaprepastiti, zapanjiti.*
+  - predlog: zgranem, zgraneš, zgranemo, zgranete, zgranulo, zgranule, zgrani, zgranite
+- **zgrnuti** — *Skupiti na gomilu; prigrabiti.*
+  - predlog: zgrnem, zgrneš, zgrnemo, zgrnete, zgrnula, zgrnule, zgrni, zgrnite
+- **ćušnuti** — *Lako udariti ili gurnuti dlanom.*
+  - predlog: ćušnem, ćušneš, ćušnemo, ćušnete, ćušnulo, ćušnuli, ćušnule, ćušni, ćušnite
+- **čuknuti** — *Lako udariti, kucnuti.*
+  - predlog: čukneš, čukne, čuknemo, čuknete, čuknuo, čuknula, čuknulo, čuknuli, čuknule, čukni
+- **šenuti** — *Pomeriti pameću, poludeti.*
+  - predlog: šenem, šeneš, šene, šenemo, šenete, šenu, šenulo, šenuli, šenule, šeni, šenite
+- **šiknuti** — *Naglo šiknuti u mlazu; briznuti.*
+  - predlog: šiknem, šikneš, šiknemo, šiknete, šiknulo, šiknuli, šiknule, šikni, šiknite
+- **šiznuti** — *Poludeti, izgubiti živce (žargon).*
+  - predlog: šiznem, šizneš, šiznemo, šiznete, šiznu, šiznulo, šiznuli, šiznule, šizni, šiznite
+- **škljocnuti** — *Jednom oštro škljocnuti (metalni zvuk).*
+  - predlog: škljocnem, škljocneš, škljocnemo, škljocnete, škljocnula, škljocnulo, škljocnuli, škljocni, škljocnite
+- **šmugnuti** — *Brzo i neprimetno se izgubiti; šmugnuti u stranu.*
+  - predlog: šmugnem, šmugneš, šmugnemo, šmugnete, šmugnulo, šmugnule, šmugni, šmugnite
+- **šušnuti** — *Jednom tiho šumnuti.*
+  - predlog: šušneš, šušnemo, šušnete, šušnuo, šušnula, šušnuli, šušnule, šušni, šušnite
+
+## Tip `-ovati` — 139 glagola
+
+- **akcentovati** — *Naglašavati i isticati akcentom; isticati po važnosti; akcentovati.*
+  - predlog: akcentujem, akcentuješ, akcentujemo, akcentujete, akcentovao, akcentovala, akcentovalo, akcentovali, akcentovale, akcentuj, akcentujte
+- **akreditovati** — *Ovlastiti predstavnika; zvanično potvrditi ispunjenost standarda; akreditovati.*
+  - predlog: akreditujem, akredituješ, akreditujemo, akreditujete, akredituju, akreditovao, akreditovala, akreditovalo, akreditovali, akreditovale, akredituj, akreditujte
+- **aminovati** — *Aminovati — odobriti, potvrditi (izvorno: reći amin).*
+  - predlog: aminujem, aminuješ, aminujemo, aminujete, aminuju, aminovala, aminovalo, aminovali, aminovale, aminuj, aminujte
+- **apsorbovati** — *Glagol: upijati i usisavati u sebe; preneseno: potpuno zaokupiti (apsorbovati vl*
+  - predlog: apsorbuješ, apsorbujemo, apsorbujete, apsorbovalo, apsorbovali, apsorbovale, apsorbuj, apsorbujte
+- **apstrahovati** — *Odvajati bitno od nebitnog i uopštavati; zanemarivati pojedinosti; apstrahovati.*
+  - predlog: apstrahujem, apstrahuješ, apstrahujemo, apstrahujete, apstrahovao, apstrahovala, apstrahovalo, apstrahovali, apstrahovale, apstrahuj, apstrahujte
+- **argatovati** — *Teško raditi za nadnicu, kuluariti i nadničariti (tursko); argatovati.*
+  - predlog: argatujem, argatujemo, argatujete, argatuju, argatovao, argatovala, argatovalo, argatovali, argatovale, argatuj, argatujte
+- **asimilovati** — *Prisvajati i stapati u sebe, izjednačavati sa sredinom; asimilovati.*
+  - predlog: asimilujem, asimiluješ, asimilujemo, asimilujete, asimilovala, asimilovalo, asimilovali, asimilovale, asimiluj, asimilujte
+- **autorizovati** — *Dati ovlašćenje i autorovo odobrenje, ovlastiti; autorizovati.*
+  - predlog: autorizujem, autorizuješ, autorizujemo, autorizujete, autorizovao, autorizovala, autorizovalo, autorizovali, autorizovale, autorizuj, autorizujte
+- **avanzovati** — *Napredovati i biti unapređen u službi ili činu; avanzovati.*
+  - predlog: avanzujem, avanzujemo, avanzujete, avanzovala, avanzovalo, avanzovali, avanzovale, avanzuj, avanzujte
+- **ašikovati** — *Udvarati se, ljubakati i očijukati (tursko); ašikovati.*
+  - predlog: ašikujem, ašikuješ, ašikujete, ašikuju, ašikovala, ašikovalo, ašikovali, ašikovale, ašikuj, ašikujte
+- **bivakovati** — *Logorovati i prenoćiti pod vedrim nebom, bivakovati; bivakovati.*
+  - predlog: bivakujem, bivakuješ, bivakujemo, bivakujete, bivakuju, bivakovao, bivakovala, bivakovalo, bivakovale, bivakuj, bivakujte
+- **bivstvovati** — *Postojati, opstojati, imati biće; bivstvovati.*
+  - predlog: bivstvujem, bivstvuješ, bivstvujemo, bivstvujete, bivstvuju, bivstvovao, bivstvovala, bivstvovalo, bivstvovali, bivstvovale, bivstvuj, bivstvujte
+- **blagovati** — *Oblik glagola „blagovati“; jesti i obedovati, naročito svečano; uzimati hranu (i*
+  - predlog: blagujem, blaguješ, blagujemo, blagujete, blagovao, blagovala, blagovalo, blagovali, blagovale, blaguj, blagujte
+- **bodovati** — *Davati bodove, ocenjivati i rangirati bodovima; bodovati.*
+  - predlog: bodujem, boduješ, bodujemo, bodujete, bodovao, bodovala, bodovalo, bodovali, bodovale, boduj, bodujte
+- **bogovati** — *Živeti kao bog, uživati u izobilju i moći; bogovati.*
+  - predlog: bogujem, boguješ, bogujemo, bogujete, boguju, bogovao, bogovala, bogovalo, bogovali, bogovale, boguj, bogujte
+- **carstvovati** — *Vladati kao car i držati vrhovnu vlast; preneseno: vladati i preovladavati.*
+  - predlog: carstvujem, carstvuješ, carstvujemo, carstvujete, carstvovao, carstvovala, carstvovalo, carstvovali, carstvovale, carstvuj, carstvujte
+- **civilizovati** — *Oplemenjivati i uvoditi u civilizaciju; opismenjavati i kulturno uzdizati.*
+  - predlog: civilizujem, civilizuješ, civilizujemo, civilizujete, civilizovao, civilizovala, civilizovalo, civilizovali, civilizovale, civilizuj, civilizujte
+- **debatovati** — *Raspravljati uz suprotstavljanje mišljenja, voditi debatu; debatovati.*
+  - predlog: debatujem, debatuješ, debatujete, debatuju, debatovao, debatovala, debatovali, debatovale, debatuj, debatujte
+- **debitovati** — *Prvi put javno nastupiti u nekom poslu ili na sceni; debitovati.*
+  - predlog: debitujem, debituješ, debitujemo, debitujete, debituju, debitovalo, debitovale, debituj, debitujte
+- **defilovati** — *Prolaziti u svečanom mimohodu, defilovati pred publikom; defilovati.*
+  - predlog: defilujem, defiluješ, defilujemo, defilujete, defilovalo, defilovale, defiluj, defilujte
+- **deklamovati** — *Glasno i s patosom recitovati pesmu ili govor; deklamovati.*
+  - predlog: deklamujem, deklamuješ, deklamujemo, deklamujete, deklamovala, deklamovalo, deklamovali, deklamovale, deklamuj, deklamujte
+- **demantovati** — *Javno poreći i opovrgnuti tvrdnju ili vest; demantovati.*
+  - predlog: demantuješ, demantujemo, demantujete, demantovala, demantovalo, demantovali, demantovale, demantuj, demantujte
+- **deportovati** — *Glagol: prisilno proterati iz zemlje.*
+  - predlog: deportujem, deportuješ, deportujete, deportovala, deportovalo, deportovale, deportuj, deportujte
+- **desetkovati** — *Glagol: znatno proređivati i uništavati u velikom broju, prepoloviti gubicima (d*
+  - predlog: desetkujem, desetkuješ, desetkujemo, desetkujete, desetkuju, desetkovalo, desetkovali, desetkovale, desetkuj, desetkujte
+- **dezinfikovati** — *Uništiti klice i mikrobe; učiniti higijenski čistim i bezbednim.*
+  - predlog: dezinfikuješ, dezinfikujete, dezinfikuju, dezinfikovala, dezinfikovalo, dezinfikovali, dezinfikovale, dezinfikujte
+- **dezorganizovati** — *Narušiti red i organizaciju, unositi nered i raspad; dezorganizovati.*
+  - predlog: dezorganizujem, dezorganizuješ, dezorganizujemo, dezorganizujete, dezorganizuju, dezorganizovao, dezorganizovala, dezorganizovalo, dezorganizovali, dezorganizovale, dezorganizuj, dezorganizujte
+- **disciplinovati** — *Navikavati na red i poslušnost; kažnjavati radi održavanja reda.*
+  - predlog: disciplinuješ, disciplinuje, disciplinujemo, disciplinujete, disciplinuju, disciplinovao, disciplinovala, disciplinovalo, disciplinovali, disciplinovale, disciplinuj, disciplinujte
+- **diskvalifikovati** — *Isključiti iz takmičenja zbog kršenja pravila; obezvrediti; diskvalifikovati.*
+  - predlog: diskvalifikujem, diskvalifikuješ, diskvalifikujemo, diskvalifikujete, diskvalifikovao, diskvalifikovala, diskvalifikovalo, diskvalifikovale, diskvalifikuj, diskvalifikujte
+- **dobovati** — *Udarati u doboš, bubnjati.*
+  - predlog: dobujem, dobuješ, dobujemo, dobujete, dobovala, dobovalo, dobovali, dobovale, dobuj, dobujte
+- **dolikovati** — *Priličiti, biti dostojan i prikladan, dolikovati nekome; dolikovati.*
+  - predlog: dolikujem, dolikuješ, dolikujemo, dolikujete, dolikovali, dolikovale, dolikuj, dolikujte
+- **dramatizovati** — *Preraditi delo u dramski oblik; pojačavati napetost i naglašavati; dramatizovati*
+  - predlog: dramatizujem, dramatizujete, dramatizovao, dramatizovala, dramatizovalo, dramatizovali, dramatizovale, dramatizujte
+- **drugovati** — *Biti drugovi i prijatelji; družiti se prijateljski.*
+  - predlog: drugujem, druguješ, drugujete, drugovala, drugovalo, drugovale, druguj, drugujte
+- **edukovati** — *Obrazovati, vaspitavati, podučavati; edukovati.*
+  - predlog: edukuješ, edukujemo, edukujete, edukovao, edukovala, edukovalo, edukovali, edukovale, edukuj, edukujte
+- **ekspedovati** — *Otpremati i slati pošiljku ili robu; ekspedovati.*
+  - predlog: ekspedujem, ekspeduješ, ekspedujemo, ekspedujete, ekspeduju, ekspedovao, ekspedovala, ekspedovalo, ekspedovali, ekspedovale, ekspeduj, ekspedujte
+- **fabrikovati** — *Proizvoditi fabrički i izrađivati masovno; preneseno: izmišljati i lažirati, smi*
+  - predlog: fabrikujem, fabrikujemo, fabrikujete, fabrikovao, fabrikovala, fabrikovalo, fabrikovali, fabrikovale, fabrikuj, fabrikujte
+- **favorizovati** — *Davati prednost i pogodovati, povlašćivati; favorizovati.*
+  - predlog: favorizuješ, favorizujemo, favorizujete, favorizovao, favorizovala, favorizovalo, favorizovali, favorizovale, favorizuj, favorizujte
+- **hajdukovati** — *Živeti kao hajduk, biti odmetnik i napadati po drumovima; hajdukovati.*
+  - predlog: hajdukujem, hajdukujemo, hajdukujete, hajdukovala, hajdukovalo, hajdukovali, hajdukovale, hajdukuj, hajdukujte
+- **heklovati** — *Plesti pomoću igle sa kukicom, kukičati; heklovati.*
+  - predlog: heklujem, hekluješ, heklujemo, heklujete, hekluju, heklovao, heklovala, heklovalo, heklovali, heklovale, hekluj, heklujte
+- **humanizovati** — *Učiniti humanijim, čovečnijim, oplemeniti; humanizovati.*
+  - predlog: humanizujem, humanizuješ, humanizujemo, humanizujete, humanizuju, humanizovao, humanizovala, humanizovalo, humanizovali, humanizovale, humanizuj, humanizujte
+- **indukovati** — *Izazvati indukcijom, navesti, prouzrokovati; indukovati.*
+  - predlog: indukujem, indukuješ, indukujemo, indukujete, indukuju, indukovao, indukovala, indukovalo, indukovali, indukovale, indukuj, indukujte
+- **iskovati** — *Oblik glagola „iskovati“; kovanjem napraviti i oblikovati metal; preneseno: smis*
+  - predlog: iskujem, iskuješ, iskujemo, iskujete, iskovala, iskovalo, iskovale, iskuj, iskujte
+- **isposlovati** — *Glagol: zalaganjem i molbama postići i izdejstvovati ono što se traži (isposlova*
+  - predlog: isposlujem, isposluješ, isposlujemo, isposlujete, isposluju, isposlovala, isposlovalo, isposlovali, isposlovale, isposluj, isposlujte
+- **ispsovati** — *Izgrditi psovkama.*
+  - predlog: ispsujem, ispsuješ, ispsujemo, ispsujete, ispsovala, ispsovalo, ispsovali, ispsovale, ispsuj, ispsujte
+- **izdejstvovati** — *Izboriti se i ostvariti nešto upornim zalaganjem; izdejstvovati.*
+  - predlog: izdejstvuješ, izdejstvujemo, izdejstvujete, izdejstvuju, izdejstvovala, izdejstvovalo, izdejstvovali, izdejstvovale, izdejstvuj, izdejstvujte
+- **izrecitovati** — *Oblik reči izrecitovati (kazati napamet, deklamovati).*
+  - predlog: izrecituje, izrecitujemo, izrecitujete, izrecituju, izrecitovao, izrecitovalo, izrecitovali, izrecitovale, izrecitujte
+- **iškolovati** — *Izučiti, školovati do kraja, izobraziti; iškolovati.*
+  - predlog: iškolujem, iškoluješ, iškoluje, iškolujemo, iškolujete, iškoluju, iškolovala, iškolovalo, iškolovali, iškolovale, iškoluj, iškolujte
+- **jatakovati** — *Oblik reči jatakovati (skrivati i pomagati odmetnika).*
+  - predlog: jatakujem, jatakuješ, jatakuje, jatakujemo, jatakujete, jatakuju, jatakovala, jatakovalo, jatakovali, jatakovale, jatakuj, jatakujte
+- **klasifikovati** — *Razvrstati po razredima; sistematizovati.*
+  - predlog: klasifikujem, klasifikuješ, klasifikujemo, klasifikujete, klasifikovao, klasifikovala, klasifikovalo, klasifikovali, klasifikovale, klasifikuj, klasifikujte
+- **klikovati** — *Pritiskati dugme miša na računaru; klikovati.*
+  - predlog: klikujem, klikuješ, klikujemo, klikujete, klikovao, klikovala, klikovalo, klikovali, klikovale, klikuj, klikujte
+- **kmetovati** — *Biti kmet, živeti i raditi u kmetskom položaju; kmetovati.*
+  - predlog: kmetujem, kmetuješ, kmetujemo, kmetujete, kmetovala, kmetovalo, kmetovali, kmetovale
+- **kolonizovati** — *Naseljavati kolonistima i osvajati novu zemlju; kolonizovati.*
+  - predlog: kolonizujem, kolonizuješ, kolonizujemo, kolonizujete, kolonizovao, kolonizovala, kolonizovalo, kolonizovale, kolonizuj, kolonizujte
+- **kompenzovati** — *Glagol: nadoknađivati nedostatak ili gubitak, izravnavati nečim drugim.*
+  - predlog: kompenzujemo, kompenzujete, kompenzovala, kompenzovalo, kompenzovali, kompenzovale, kompenzuj, kompenzujte
+- **kondenzovati** — *Pretvarati paru u tečnost; zgušnjavati.*
+  - predlog: kondenzujem, kondenzuješ, kondenzujemo, kondenzujete, kondenzovao, kondenzovala, kondenzovalo, kondenzovali, kondenzovale, kondenzuj, kondenzujte
+- **legalizovati** — *Učiniti zakonitim, ozakoniti; legalizovati.*
+  - predlog: legalizujem, legalizuješ, legalizujete, legalizovao, legalizovala, legalizovalo, legalizovale, legalizuj, legalizujte
+- **lenstvovati** — *Lenčariti, biti lenj, dangubiti (zastarelo); lenstvovati.*
+  - predlog: lenstvujem, lenstvujemo, lenstvujete, lenstvuju, lenstvovao, lenstvovala, lenstvovalo, lenstvovali, lenstvovale, lenstvuj, lenstvujte
+- **liferovati** — *Isporučivati, dobavljati robu (zastarelo); liferovati.*
+  - predlog: liferujem, liferuješ, liferuje, liferujemo, liferujete, liferovala, liferovalo, liferovali, liferovale, liferuj, liferujte
+- **linčovati** — *Izvršiti linč, ubiti nekoga bez suđenja, samovoljno; linčovati.*
+  - predlog: linčujem, linčuješ, linčujemo, linčujete, linčovao, linčovalo, linčovale, linčuj, linčujte
+- **lobovati** — *Zalagati se i vršiti uticaj radi nekog interesa, lobirati; lobovati.*
+  - predlog: lobujem, lobuješ, lobujemo, lobujete, lobuju, lobovala, lobovalo, lobovali, lobovale, lobuj, lobujte
+- **lumpovati** — *Provoditi se uz piće i veselje, terevenčiti; lumpovati.*
+  - predlog: lumpujem, lumpuješ, lumpujete, lumpuju, lumpovala, lumpovalo, lumpovale, lumpuj, lumpujte
+- **manifestovati** — *Ispoljiti, jasno iskazati, pokazati; manifestovati.*
+  - predlog: manifestujem, manifestuješ, manifestujemo, manifestujete, manifestovala, manifestovali, manifestovale, manifestuj, manifestujte
+- **materijalizovati** — *Ostvariti, učiniti opipljivim i stvarnim; materijalizovati.*
+  - predlog: materijalizujem, materijalizuješ, materijalizujemo, materijalizujete, materijalizovao, materijalizovala, materijalizovalo, materijalizovale, materijalizuj, materijalizujte
+- **mehanizovati** — *Uvoditi mašine umesto ručnog rada, automatizovati; mehanizovati.*
+  - predlog: mehanizujem, mehanizuješ, mehanizujemo, mehanizujete, mehanizuju, mehanizovao, mehanizovala, mehanizovalo, mehanizovali, mehanizovale, mehanizuj, mehanizujte
+- **mitingovati** — *Održavati mitinge, okupljati se na mitinzima; mitingovati.*
+  - predlog: mitingujem, mitinguješ, mitingujemo, mitingujete, mitinguju, mitingovao, mitingovala, mitingovalo, mitingovali, mitingovale, mitinguj, mitingujte
+- **mobilizovati** — *Pozvati u vojsku; pokrenuti i okupiti snage; mobilizovati.*
+  - predlog: mobilizujem, mobilizuješ, mobilizujemo, mobilizujete, mobilizovao, mobilizovala, mobilizovalo, mobilizovali, mobilizovale, mobilizuj, mobilizujte
+- **molovati** — *Krečiti, bojiti zidove (razgovorno, germanizam); molovati.*
+  - predlog: molujem, moluje, molujemo, molujete, moluju, molovala, molovalo, molovali, molovale, moluj, molujte
+- **momkovati** — *Živeti kao momak, biti neženja; momkovati.*
+  - predlog: momkujem, momkuješ, momkuje, momkujemo, momkujete, momkuju, momkovala, momkovalo, momkovali, momkovale, momkuj, momkujte
+- **naimenovati** — *Postaviti na položaj, imenovati za neku dužnost; naimenovati.*
+  - predlog: naimenuješ, naimenujemo, naimenujete, naimenovala, naimenovalo, naimenovali, naimenovale, naimenuj, naimenujte
+- **nakupovati** — *Nakupiti kupovinom, nabaviti u količini; nakupovati.*
+  - predlog: nakupuješ, nakupuje, nakupujemo, nakupujete, nakupovala, nakupovalo, nakupovali, nakupovale, nakupuj, nakupujte
+- **napastovati** — *Nasrtati, zlostavljati, nasilno dosađivati; napastovati.*
+  - predlog: napastujem, napastuješ, napastujemo, napastujete, napastuju, napastovala, napastovalo, napastovali, napastovale, napastuj, napastujte
+- **napastvovati** — *Nasrtati, zlostavljati, nasilno dosađivati; napastvovati.*
+  - predlog: napastvujem, napastvuješ, napastvujemo, napastvujete, napastvovala, napastvovalo, napastvovale, napastvuj, napastvujte
+- **neutralizovati** — *Poništiti dejstvo, učiniti bezopasnim, neutralisati; neutralizovati.*
+  - predlog: neutralizujem, neutralizuješ, neutralizujemo, neutralizujete, neutralizuju, neutralizovala, neutralizovalo, neutralizovali, neutralizovale, neutralizuj, neutralizujte
+- **normalizovati** — *Uspostaviti normalno stanje, dovesti u red; normalizovati.*
+  - predlog: normalizujem, normalizuješ, normalizujemo, normalizujete, normalizuju, normalizovao, normalizovala, normalizovalo, normalizovali, normalizovale, normalizuj, normalizujte
+- **obnarodovati** — *Javno objaviti narodu; proglasiti.*
+  - predlog: obnarodujem, obnaroduješ, obnarodujemo, obnarodujete, obnarodovao, obnarodovala, obnarodovalo, obnarodovali, obnarodovale, obnaroduj, obnarodujte
+- **odnegovati** — *Othraniti i podići brižnom negom; odnegovati.*
+  - predlog: odneguješ, odnegujemo, odnegujete, odneguju, odnegovalo, odnegovale, odneguj, odnegujte
+- **opetovati** — *Ponavljati iznova, opetovati rečeno; činiti ponovo.*
+  - predlog: opetujem, opetuješ, opetujemo, opetujete, opetuju, opetovao, opetovala, opetovalo, opetovali, opetovale, opetuj, opetujte
+- **oporezovati** — *Nametnuti porez na nešto, propisati dažbinu; oporezovati.*
+  - predlog: oporezujem, oporezuješ, oporezujemo, oporezujete, oporezovao, oporezovala, oporezovalo, oporezovali, oporezovale, oporezuj, oporezujte
+- **otpakovati** — *Raspakovati, izvaditi iz pakovanja; otpakovati.*
+  - predlog: otpakuje, otpakujemo, otpakujete, otpakuju, otpakovao, otpakovala, otpakovalo, otpakovali, otpakovale, otpakujte
+- **paralizovati** — *Oduzeti sposobnost kretanja ili delovanja, ukočiti; paralizovati.*
+  - predlog: paralizujem, paralizuješ, paralizujemo, paralizujete, paralizovalo, paralizovali, paralizovale, paralizuj, paralizujte
+- **pašovati** — *Oblik glagola pašovati (vladati kao paša, gospodariti).*
+  - predlog: pašujem, pašuješ, pašujemo, pašujete, pašuju, pašovala, pašovalo, pašovali, pašovale, pašuj, pašujte
+- **pirovati** — *Gostiti se i veseliti na piru.*
+  - predlog: pirujem, piruješ, pirujemo, pirujete, pirovao, pirovala, pirovalo, piruj, pirujte
+- **pokupovati** — *Kupiti sve redom, pokupovati; pokupovati.*
+  - predlog: pokupuješ, pokupujemo, pokupujete, pokupuju, pokupovalo, pokupovale, pokupuj, pokupujte
+- **polarizovati** — *Razdvojiti na suprotne polove, polarizovati; polarizovati.*
+  - predlog: polarizujem, polarizuješ, polarizujemo, polarizujete, polarizovao, polarizovala, polarizovalo, polarizovali, polarizovale, polarizuj, polarizujte
+- **popovati** — *Oblik reči popovati (držati pridike, moralisati - šaljivo).*
+  - predlog: popujemo, popuju, popovao, popovala, popovalo, popovali, popovale, popujte
+- **potkovati** — *Pribiti potkovice na kopita; potkovati.*
+  - predlog: potkujem, potkujete, potkuju, potkovala, potkovalo, potkovali, potkovale, potkuj, potkujte
+- **potrebovati** — *Imati potrebu za nečim, trebati; potrebovati.*
+  - predlog: potrebujem, potrebuješ, potrebujete, potrebovala, potrebovalo, potrebovali, potrebovale, potrebuj, potrebujte
+- **potrovati** — *Otrovati, potrovati; potrovati.*
+  - predlog: potruješ, potrujemo, potrujete, potruju, potrovala, potrovalo, potrovali, potrovale, potruj, potrujte
+- **počastvovati** — *Ukazati čast; počastiti uvažavanjem.*
+  - predlog: počastvujem, počastvuješ, počastvuje, počastvujemo, počastvujete, počastvuju, počastvovalo, počastvovale, počastvuj, počastvujte
+- **preimenovati** — *Dati novo ime, preimenovati; preimenovati.*
+  - predlog: preimenujem, preimenuješ, preimenujemo, preimenujete, preimenovala, preimenovalo, preimenovale, preimenujte
+- **preoblikovati** — *Dati novi oblik; preinačiti i preraditi formu nečega.*
+  - predlog: preoblikujem, preoblikuješ, preoblikujemo, preoblikujete, preoblikuju, preoblikovao, preoblikovala, preoblikovalo, preoblikovali, preoblikovale, preoblikuj, preoblikujte
+- **pretendovati** — *Polagati pravo na nešto, težiti nečemu; pretendovati.*
+  - predlog: pretendujem, pretenduješ, pretendujemo, pretendujete, pretendovao, pretendovala, pretendovalo, pretendovali, pretendovale, pretenduj, pretendujte
+- **prezentovati** — *Prikazati, predstaviti; prezentovati.*
+  - predlog: prezentuješ, prezentujete, prezentovala, prezentovalo, prezentovali, prezentovale, prezentuj, prezentujte
+- **prodiskutovati** — *Glagol: raspraviti i razmotriti u razgovoru, pretresti pitanje sa svih strana (p*
+  - predlog: prodiskutuješ, prodiskutujete, prodiskutuju, prodiskutovao, prodiskutovala, prodiskutovalo, prodiskutovale, prodiskutuj, prodiskutujte
+- **proklamovati** — *Svečano objaviti, proglasiti; proklamovati.*
+  - predlog: proklamujem, proklamuješ, proklamujemo, proklamujete, proklamovao, proklamovala, proklamovalo, proklamovali, proklamovale, proklamuj, proklamujte
+- **prstenovati** — *Staviti prsten, obeležiti prstenom; prstenovati.*
+  - predlog: prstenuje, prstenujemo, prstenujete, prstenovala, prstenovalo, prstenovali, prstenovale, prstenuj, prstenujte
+- **publikovati** — *Objaviti, izdati; publikovati.*
+  - predlog: publikujem, publikuješ, publikujemo, publikujete, publikovala, publikovalo, publikovali, publikovale, publikuj, publikujte
+- **rashodovati** — *Izbaciti iz upotrebe i otpisati dotrajalo sredstvo; rashodovati.*
+  - predlog: rashoduješ, rashodujemo, rashodujete, rashoduju, rashodovao, rashodovala, rashodovalo, rashodovali, rashodovale, rashoduj, rashodujte
+- **raskovati** — *Skinuti okove; osloboditi okova.*
+  - predlog: raskujem, raskuješ, raskuje, raskujemo, raskujete, raskuju, raskovala, raskovalo, raskovale, raskujte
+- **ratifikovati** — *Zvanično potvrditi sporazum; ratifikovati.*
+  - predlog: ratifikujem, ratifikuješ, ratifikujemo, ratifikujete, ratifikovao, ratifikovalo, ratifikovali, ratifikovale, ratifikuj, ratifikujte
+- **reflektovati** — *Odražavati, reflektovati; razmišljati; reflektovati.*
+  - predlog: reflektujem, reflektuješ, reflektujemo, reflektujete, reflektovao, reflektovala, reflektovalo, reflektovali, reflektovale, reflektuj, reflektujte
+- **repovati** — *Oblik reči repovati (izvoditi rep muziku).*
+  - predlog: repujemo, repujete, repuju, repovala, repovalo, repovali, repovale, repuj, repujte
+- **reprodukovati** — *Ponovo stvarati, umnožavati, prikazivati; reprodukovati.*
+  - predlog: reprodukujem, reprodukuješ, reprodukujemo, reprodukujete, reprodukovao, reprodukovala, reprodukovalo, reprodukovali, reprodukovale, reprodukujte
+- **restartovati** — *Ponovo pokrenuti uređaj ili program; restartovati.*
+  - predlog: restartuješ, restartujete, restartuju, restartovao, restartovala, restartovalo, restartovali, restartovale, restartujte
+- **rezultovati** — *Imati za rezultat, ishoditi; rezultovati.*
+  - predlog: rezultujem, rezultuješ, rezultujemo, rezultujete, rezultovala, rezultovali, rezultovale, rezultuj, rezultujte
+- **rimovati** — *Slagati reči u rime; rimovati.*
+  - predlog: rimujemo, rimujete, rimovao, rimovala, rimovali, rimovale, rimuj, rimujte
+- **samovati** — *Živeti sam, samovati; samovati.*
+  - predlog: samujemo, samujete, samovala, samovalo, samovali, samovale, samuj, samujte
+- **saučestvovati** — *Učestvovati zajedno; deliti tugu, saosećati.*
+  - predlog: saučestvujem, saučestvuješ, saučestvujemo, saučestvujete, saučestvovao, saučestvovala, saučestvovalo, saučestvovali, saučestvovale, saučestvujte
+- **sirotovati** — *Živeti u siromaštvu, sirotovati; sirotovati.*
+  - predlog: sirotujem, sirotuješ, sirotujemo, sirotujete, sirotuju, sirotovao, sirotovala, sirotovalo, sirotovali, sirotovale, sirotuj, sirotujte
+- **sludovati** — *Poludeti, zaludeti; sludovati.*
+  - predlog: sludujem, sluduješ, sluduje, sludujemo, sludujete, sluduju, sludovalo, sludovali, sludovale, sluduj, sludujte
+- **službovati** — *Vršiti službu, biti u službi; službovati.*
+  - predlog: službujem, službuješ, službujemo, službujete, službuju, službovalo, službovale, službuj, službujte
+- **specijalizovati** — *Osposobiti i usavršiti za određenu užu oblast; specijalizovati.*
+  - predlog: specijalizujem, specijalizuješ, specijalizuje, specijalizujemo, specijalizujete, specijalizuju, specijalizovalo, specijalizovale, specijalizuj, specijalizujte
+- **srbovati** — *Ponašati se kao Srbin, isticati svoje srpstvo; srbovati.*
+  - predlog: srbujem, srbuješ, srbujete, srbovao, srbovala, srbovali, srbovale, srbuj, srbujte
+- **stilizovati** — *Dati stilski oblik, pojednostaviti i ukrasiti prema stilu; stilizovati.*
+  - predlog: stilizujem, stilizuješ, stilizujemo, stilizujete, stilizovala, stilizovalo, stilizovali, stilizovale, stilizuj, stilizujte
+- **sudjelovati** — *Sudjelovati — učestvovati (ijekavski/hrvatski).*
+  - predlog: sudjelujem, sudjeluješ, sudjeluje, sudjelujemo, sudjelujete, sudjeluju, sudjelovala, sudjelovalo, sudjelovali, sudjelovale, sudjeluj, sudjelujte
+- **svadbovati** — *Slaviti svadbu; svadbovati.*
+  - predlog: svadbujem, svadbuješ, svadbujemo, svadbujete, svadbuju, svadbovao, svadbovala, svadbovali, svadbovale, svadbuj, svadbujte
+- **svetovati** — *Savetovati, davati savete (arhaično); svetovati.*
+  - predlog: svetujem, svetuješ, svetuje, svetujemo, svetujete, svetuju, svetovala, svetovalo, svetovale, svetuj, svetujte
+- **tamnovati** — *Biti u tamnici; čamiti, venuti.*
+  - predlog: tamnujem, tamnuješ, tamnujemo, tamnujete, tamnuju, tamnovala, tamnovalo, tamnovale, tamnuj, tamnujte
+- **tipovati** — *Predviđati ishod; kladiti se.*
+  - predlog: tipuješ, tipuje, tipujemo, tipujete, tipuju, tipovala, tipovalo, tipovale, tipuj, tipujte
+- **titlovati** — *Dodavati prevod ili tekst u dnu slike (titlove); titlovati.*
+  - predlog: titlujem, titluješ, titluje, titlujemo, titlujete, titlovala, titlovalo, titlovali, titlovale, titluj, titlujte
+- **transkribovati** — *Preneti izgovor u pismo, zapisati prema izgovoru; transkribovati.*
+  - predlog: transkribujem, transkribuješ, transkribujemo, transkribujete, transkribuju, transkribovao, transkribovala, transkribovalo, transkribovali, transkribovale, transkribuj, transkribujte
+- **trijumfovati** — *Slaviti pobedu; likovati.*
+  - predlog: trijumfujem, trijumfuješ, trijumfujemo, trijumfujete, trijumfovalo, trijumfovali, trijumfovale, trijumfuj, trijumfujte
+- **tvitovati** — *Oblik glagola „tvitovati“; objavljivati kratke poruke na društvenoj mreži Tviter*
+  - predlog: tvituješ, tvitujemo, tvitujete, tvitovalo, tvitovali, tvitovale, tvituj, tvitujte
+- **ukovati** — *Pričvrstiti kovanjem; okovati.*
+  - predlog: ukujem, ukuje, ukujemo, ukujete, ukuju, ukovala, ukovalo, ukovali, ukovale, ukuj, ukujte
+- **umovati** — *Mudrovati, baviti se mislima; razmišljati i zaključivati.*
+  - predlog: umujem, umujemo, umujete, umovala, umovalo, umovali, umovale, umujte
+- **urbanizovati** — *Pretvarati u grad; urbanizovati.*
+  - predlog: urbanizujem, urbanizuješ, urbanizujemo, urbanizujete, urbanizovao, urbanizovala, urbanizovalo, urbanizovali, urbanizovale, urbanizuj, urbanizujte
+- **uznapredovati** — *Napredovati, postići napredak; uznapredovati.*
+  - predlog: uznapredujem, uznapreduješ, uznapreduje, uznapredujemo, uznapredujete, uznapreduju, uznapredovale, uznapreduj, uznapredujte
+- **verifikovati** — *Proveriti i potvrditi tačnost.*
+  - predlog: verifikujem, verifikuješ, verifikujemo, verifikujete, verifikovao, verifikovala, verifikovalo, verifikovali, verifikovale, verifikuj, verifikujte
+- **zakovati** — *Pričvrstiti ekserima ili zakovicama.*
+  - predlog: zakujem, zakuješ, zakuje, zakujemo, zakujete, zakuju, zakovalo, zakovale, zakuj, zakujte
+- **zamilovati** — *Zavoleti; početi milovati.*
+  - predlog: zamilujem, zamiluješ, zamilujemo, zamilujete, zamilovala, zamilovalo, zamilovali, zamilovale, zamiluj, zamilujte
+- **zimovati** — *Provoditi zimu negde; prezimljavati.*
+  - predlog: zimujem, zimuješ, zimujemo, zimujete, zimovala, zimovalo, zimovale, zimuj, zimujte
+- **čuvstvovati** — *Osećati.*
+  - predlog: čuvstvujemo, čuvstvujete, čuvstvovala, čuvstvovalo, čuvstvovali, čuvstvovale, čuvstvuj, čuvstvujte
+- **đakovati** — *Biti đak, učiti i pohađati školu; đakovati.*
+  - predlog: đakujem, đakuješ, đakuje, đakujemo, đakujete, đakuju, đakovala, đakovalo, đakovali, đakovale, đakuj, đakujte
+- **šefovati** — *Glagol: biti šef, rukovoditi i izdavati naređenja drugima (voli da šefuje).*
+  - predlog: šefujemo, šefujete, šefuju, šefovao, šefovala, šefovalo, šefovali, šefovale, šefuj, šefujte
+- **šegrtovati** — *Učiti zanat kod majstora.*
+  - predlog: šegrtuješ, šegrtujemo, šegrtujete, šegrtuju, šegrtovala, šegrtovalo, šegrtovali, šegrtovale, šegrtuj, šegrtujte
+- **šifrovati** — *Pretvarati poruku u tajne znake (šifru).*
+  - predlog: šifrujem, šifruješ, šifrujemo, šifrujete, šifruju, šifrovala, šifrovalo, šifrovali, šifrovale, šifruj, šifrujte
+- **štetovati** — *Trpeti štetu; gubiti.*
+  - predlog: štetujem, štetuje, štetujemo, štetujete, štetuju, štetovala, štetovalo, štetovali, štetovale, štetuj, štetujte
+- **štimovati** — *Usklađivati tonove instrumenta.*
+  - predlog: štimujem, štimuješ, štimujemo, štimujete, štimuju, štimovao, štimovala, štimovalo, štimovale, štimuj, štimujte
+- **šurovati** — *Tajno sarađivati; biti u dosluhu.*
+  - predlog: šurujem, šuruješ, šurujemo, šurujete, šuruju, šurovala, šurovalo, šurovali, šurovale, šurujte
+- **željkovati** — *Žudeti, silno želeti.*
+  - predlog: željkujem, željkuješ, željkujemo, željkujete, željkuju, željkovao, željkovala, željkovalo, željkovali, željkovale, željkuj, željkujte
+- **živovati** — *Živeti, provoditi život.*
+  - predlog: živujem, živuješ, živujemo, živujete, živovao, živovala, živovalo, živovali, živuj, živujte
+
+---
+
+# SIGURNOST: PROVERI — 120 glagola, 1011 oblika
+
+
+## Tip `-eti` — 120 glagola
+
+- **bazdeti** — *Zaudarati, jako i neprijatno smrdeti; bazdeti.*
+  - predlog: bazdim, bazdimo, bazdite, bazdeo, bazdela, bazdelo, bazdeli, bazdele
+- **bukteti** — *Oblik reči bukteti (jako goreti, plamteti).*
+  - predlog: buktim, buktiš, buktimo, buktite, bukteo, buktela, buktelo, bukteli, buktele
+- **deseti** — *Redni broj: po redu deset.*
+  - predlog: desiš, desimo, dese, deseo, desela, deselo, deseli, desele
+- **doleti** — *Oblik reči doleteti (stići leteći).*
+  - predlog: dolim, doliš, doli, dolimo, dolite, doleo, dolela, dolelo, doleli, dolele
+- **dopreti** — *Glagol: stići, doći do nečega.*
+  - predlog: doprim, dopriš, doprimo, doprite, doprelo, dopreli, doprele
+- **doseti** — *Oblik reči dosetiti se (setiti se, doći na ideju).*
+  - predlog: dosim, dosiš, dosi, dosimo, dosite, dose, doseo, dosela, doselo
+- **dozreti** — *Postati sasvim zreo; sazreti.*
+  - predlog: dozrim, dozriš, dozri, dozrimo, dozrite, dozre, dozrelo
+- **gladneti** — *Postajati gladan; osećati glad.*
+  - predlog: gladniš, gladnimo, gladnite, gladnela, gladnelo, gladneli, gladnele
+- **glupeti** — *Postajati glup, umno otupljivati; glupeti.*
+  - predlog: glupiš, glupimo, glupite, glupeo, glupela, glupelo, glupeli, glupele
+- **gluveti** — *Postepeno gubiti sluh, postajati gluv; gluveti.*
+  - predlog: gluviš, gluvimo, gluvite, gluveo, gluvela, gluvelo, gluveli, gluvele
+- **gnjileti** — *Truliti, smekšavati se i raspadati se; gnjileti.*
+  - predlog: gnjiliš, gnjilimo, gnjilite, gnjileo, gnjilela, gnjilelo, gnjileli, gnjilele
+- **goleti** — *Oblik reči golet (gola, neplodna površina).*
+  - predlog: goliš, golimo, golite, goleo, golela, golelo, goleli, golele
+- **grubeti** — *Postajati grub, ogrubljivati telom ili u ophođenju; grubeti.*
+  - predlog: grubiš, grubimo, grubite, grubeo, grubelo, grubeli, grubele
+- **ishlapeti** — *Izgubiti svojstva isparavanjem, izvetriti; ishlapeti.*
+  - predlog: ishlapim, ishlapiš, ishlapi, ishlapimo, ishlapite, ishlape, ishlapeo, ishlapela, ishlapelo, ishlapeli, ishlapele
+- **ispeti** — *Uspeti se, popeti se uvis; ispeti se.*
+  - predlog: ispim, ispiš, ispi, ispimo, ispe, ispelo, ispele
+- **izleti** — *Kraći odlasci u prirodu radi odmora (množina od izlet).*
+  - predlog: izlim, izliš, izli, izlimo, izlite, izle, izleo, izlela, izlelo, izleli, izlele
+- **izmileti** — *Glagol: polako, mileći izaći iz nečega; ispuzati napolje (izmileti iz jazbine).*
+  - predlog: izmilim, izmiliš, izmili, izmilimo, izmilite, izmilelo, izmilele
+- **izumreti** — *Nestati kao vrsta ili loza, izumreti; izumreti.*
+  - predlog: izumrim, izumriš, izumri, izumrimo, izumrite, izumreo, izumrela, izumrelo, izumreli, izumrele
+- **izuzeti** — *Glagol: izdvojiti, ne uračunati; osloboditi obaveze.*
+  - predlog: izuzim, izuziš, izuzi, izuzimo, izuzite, izuzelo, izuzele
+- **išteti** — *Oblik reči ištetiti (oštetiti, naneti štetu).*
+  - predlog: ištim, ištiš, išteo, ištela, ištelo, išteli, ištele
+- **kadeti** — *Oblik reči kadet (pitomac vojne škole).*
+  - predlog: kadimo, kadite, kadeo, kadela, kadelo, kadeli, kadele
+- **kaseti** — *Oblik reči „kaseta“; kutija s trakom za snimanje (na kaseti).*
+  - predlog: kasiš, kasi, kasimo, kasite, kaseo, kasela, kaselo, kaseli, kasele
+- **kazeti** — *Oblik reči „kaseta“; kutijica s magnetnom trakom za zvuk ili sliku; mala pregrad*
+  - predlog: kazim, kaziš, kazi, kazimo, kaze, kazeo, kazela, kazelo, kazeli, kazele
+- **kopneti** — *Topiti se i nestajati (o snegu).*
+  - predlog: kopnim, kopnimo, kopnite, kopneo, kopnela, kopnelo, kopneli, kopnele
+- **mljeti** — *Mljeti — mleti (ijekavski).*
+  - predlog: mljim, mljiš, mlji, mljimo, mljite, mljela, mljelo, mljeli, mljele
+- **modreti** — *Postajati modar, plaviti se; modreti.*
+  - predlog: modriš, modrimo, modrite, modreo, modrela, modrelo, modreli, modrele
+- **nadneti** — *Nadviti, nagnuti nad nečim, držati iznad; nadneti.*
+  - predlog: nadnim, nadniš, nadni, nadnimo, nadnite, nadne, nadnele
+- **naleti** — *Oblik glagola „naleteti“ (da naleti); takođe reč „nalet“.*
+  - predlog: nalim, nališ, nali, nalimo, nalite, nale, naleo, nalela, nalelo, naleli, nalele
+- **napeti** — *Zategnuti do krajnosti; nategnuti.*
+  - predlog: napim, napiš, napi, napimo, napite, nape, napela, napelo
+- **naspeti** — *Naspeti — nasuti, naspeti (dijalekatski).*
+  - predlog: naspim, naspiš, naspimo, naspeo, naspela, naspelo, naspeli, naspele
+- **nazreti** — *Jedva razaznati; naslutiti.*
+  - predlog: nazrim, nazriš, nazri, nazrimo, nazrite, nazrela, nazrelo, nazreli, nazrele
+- **odapeti** — *Naglo ispustiti zategnuto, odapeti strelu sa luka.*
+  - predlog: odapim, odapiš, odapi, odapimo, odapite, odapelo, odapeli, odapele
+- **odreti** — *Odrati, oguliti kožu ili koru; odreti.*
+  - predlog: odrim, odriš, odri, odrimo, odrite, odre, odreo, odrela, odrelo, odreli, odrele
+- **odupreti** — *Glagol: pružiti otpor, suprotstaviti se.*
+  - predlog: oduprim, odupriš, oduprimo, oduprela, oduprelo, odupreli, oduprele
+- **odživeti** — *Proživeti vek do kraja, doživeti svoj kraj; odživeti.*
+  - predlog: odživim, odživiš, odživi, odživimo, odživite, odžive, odživelo, odživeli, odživele
+- **ogoreti** — *Izgoreti spolja, opaliti se vatrom; ogoreti.*
+  - predlog: ogorim, ogoriš, ogori, ogorimo, ogorite, ogore, ogorelo, ogorele
+- **okopneti** — *Otopiti se, nestati topljenjem (o snegu); okopneti.*
+  - predlog: okopnim, okopniš, okopni, okopnimo, okopnite, okopne, okopnelo, okopneli, okopnele
+- **omršaveti** — *Postati mršav, smršati.*
+  - predlog: omršavim, omršaviš, omršavi, omršavimo, omršavite, omršave, omršaveli, omršavele
+- **onemeti** — *Izgubiti moć govora; zanemeti od čuda.*
+  - predlog: onemim, onemiš, onemi, onemimo, onemite, oneme, onemela, onemelo, onemeli
+- **opereti** — *Oblik reči opereta (vesela muzičko-scenska igra).*
+  - predlog: operim, operiš, opereo, operela, operelo, opereli, operele
+- **opleti** — *Oblik glagola „oplesti“.*
+  - predlog: oplim, opliš, opli, oplimo, oplite, ople, oplelo, opleli, oplele
+- **opreti** — *Odupreti se, suprotstaviti se; opreti se.*
+  - predlog: oprim, opriš, opri, oprimo, oprite, opre, opreo, oprela, oprelo, opreli, oprele
+- **osedeti** — *Postati sed; osiveti u kosi.*
+  - predlog: osedim, osediš, osedi, osedimo, osedite, osede, osedele
+- **ožednjeti** — *Oblik glagola ožednjeti (ožedneti — ijekavski).*
+  - predlog: ožednjim, ožednjiš, ožednji, ožednjimo, ožednjite, ožednje, ožednjela, ožednjelo, ožednjeli, ožednjele
+- **paketi** — *Upakovane pošiljke (množina od paket).*
+  - predlog: pakim, pakiš, paki, pakimo, pakite, pake, pakeo, pakela, pakelo, pakeli, pakele
+- **pačeti** — *Oblik reči pače (mladunče patke).*
+  - predlog: pačim, pačiš, pači, pačimo, pačite, pačeo, pačela, pačelo, pačeli, pačele
+- **plaketi** — *Oblik reči plaketa (pločica sa natpisom kao priznanje).*
+  - predlog: plakim, plakiš, plaki, plakimo, plakite, plake, plakeo, plakela, plakelo, plakeli, plakele
+- **planeti** — *Oblik reči planeta (nebesko telo koje kruži oko zvezde).*
+  - predlog: planim, planiš, planimo, planite, planeo, planela, planelo, planeli, planele
+- **plaveti** — *Oblik reči plavet (plava boja, plavetnilo).*
+  - predlog: plaviš, plavimo, plavite, plaveo, plavela, plavelo, plaveli, plavele
+- **podastreti** — *Prostreti, raširiti ispod; podastreti.*
+  - predlog: podastrim, podastriš, podastri, podastrimo, podastrite, podastreo, podastrela, podastrelo, podastreli, podastrele
+- **podupreti** — *Postaviti oslonac da nešto stoji.*
+  - predlog: poduprim, podupriš, poduprimo, podupreo, poduprela, poduprelo, podupreli, poduprele
+- **poduzeti** — *Poduzeti — preduzeti (varijanta).*
+  - predlog: poduzim, poduziš, poduzi, poduzimo, poduzite, poduze, poduzelo, poduzeli, poduzele
+- **pokreti** — *Organizovana društvena nastojanja; takođe kretanja (množina od pokret).*
+  - predlog: pokrim, pokriš, pokrimo, pokre, pokreo, pokrela, pokrelo, pokreli, pokrele
+- **poleti** — *Snažni zanosi i uzbuđenja koja pokreću (množina od polet).*
+  - predlog: polim, poliš, polimo, polite, poleo, polela, polelo, poleli, polele
+- **ponjeti** — *Ijekavski oblik glagola poneti (uzeti sa sobom).*
+  - predlog: ponjim, ponjiš, ponji, ponjimo, ponjite, ponje, ponjelo, ponjeli, ponjele
+- **poružneti** — *Postati ružan.*
+  - predlog: poružnim, poružniš, poružnimo, poružnite, poružne, poružnelo, poružneli, poružnele
+- **posiveti** — *Postati siv.*
+  - predlog: posivim, posiviš, posivi, posivimo, posivite, posive, posivele
+- **postareti** — *Ostariti, postati star; postareti.*
+  - predlog: postarim, postariš, postarimo, postarite, postare, postarela, postarelo, postareli, postarele
+- **požnjeti** — *Požeti, sažeti zrelo žito.*
+  - predlog: požnjim, požnjiš, požnji, požnjimo, požnjite, požnjela, požnjelo, požnjele
+- **pregladneti** — *Veoma ogladneti, postati vrlo gladan; pregladneti.*
+  - predlog: pregladnim, pregladniš, pregladnimo, pregladnite, pregladne, pregladnela, pregladnelo, pregladneli, pregladnele
+- **pregrmeti** — *Preživeti teškoću, izdržati buru; pregrmeti.*
+  - predlog: pregrmim, pregrmiš, pregrmi, pregrmimo, pregrmite, pregrme, pregrmela, pregrmelo, pregrmele
+- **prekipeti** — *Preliti se ključajući, prekipeti; prekipeti.*
+  - predlog: prekipim, prekipiš, prekipimo, prekipite, prekipela, prekipeli, prekipele
+- **preleti** — *Oblik reči preleteti (preći leteći).*
+  - predlog: prelim, preliš, preli, prelimo, prelite, preleo, prelela, prelelo, preleli, prelele
+- **preoteti** — *Glagol: silom oteti od drugoga, prisvojiti.*
+  - predlog: preotim, preotiš, preoti, preotimo, preotite, preote, preotele
+- **prepeti** — *Oblik glagola prepeti se (previše se penjati; napregnuti se).*
+  - predlog: prepim, prepiš, prepi, prepimo, prepite, prepe, prepeo, prepela, prepelo, prepeli, prepele
+- **pridoneti** — *Doprineti, dati svoj udeo; pridoneti.*
+  - predlog: pridonim, pridoniš, pridoni, pridonimo, pridonite, pridone, pridonela, pridonelo, pridoneli
+- **prineti** — *Doneti i prineti; prineti žrtvu ili dar; prineti.*
+  - predlog: prinim, priniš, prini, prinimo, prinite, prine, prinele
+- **priseti** — *Oblik glagola „prisetiti se“ (priseti se; setiš se).*
+  - predlog: prisim, prisiš, prisi, prisimo, prisite, prise, priseo, priseli, prisele
+- **privideti** — *Oblik reči privideti se (učiniti se da se vidi).*
+  - predlog: prividim, prividiš, prividimo, prividite, prividela, privideli, prividele
+- **probdeti** — *Provesti budan, ne spavajući (noć); probdeti.*
+  - predlog: probdim, probdiš, probdi, probdimo, probdite, probde, probdele
+- **prodreti** — *Probiti se unutra; prodreti kroz nešto.*
+  - predlog: prodrim, prodriš, prodrimo, prodrite, prodreo, prodrela, prodrelo, prodreli, prodrele
+- **progoreti** — *Izgoreti naskroz, progoreti; progoreti.*
+  - predlog: progoriš, progorimo, progorite, progore, progoreo, progoreli, progorele
+- **prokleti** — *Baciti kletvu, prokleti; prokleti.*
+  - predlog: proklim, prokliš, prokli, proklimo, proklite, proklelo, proklele
+- **proleti** — *Oblik glagola „proleteti“.*
+  - predlog: prolim, proliš, prolimo, prolite, prole, proleo, prolela, prolelo, proleli, prolele
+- **prostreti** — *Raširiti, prostrti po površini; prostreti.*
+  - predlog: prostrim, prostriš, prostrite, prostreo, prostrela, prostrelo, prostrele
+- **provideti** — *Predvideti, jasno sagledati; provideti.*
+  - predlog: providim, providiš, providimo, providite, providela, providelo, providele
+- **provrteti** — *Probušiti vrtenjem, izbušiti; provrteti.*
+  - predlog: provrtim, provrtiš, provrtimo, provrtite, provrtela, provrtelo, provrteli, provrtele
+- **prozreti** — *Proniknuti u suštinu; prozreti nečiju nameru.*
+  - predlog: prozrim, prozriš, prozri, prozrimo, prozrite, prozrelo, prozrele
+- **proždreti** — *Halapljivo pojesti, progutati; proždreti.*
+  - predlog: proždrim, proždriš, proždri, proždrimo, proždrite, proždreo, proždrela, proždrelo, proždreli, proždrele
+- **rasplamteti** — *Oblik reči rasplamteti (rasplamsati se, jako se razgoreti).*
+  - predlog: rasplamtim, rasplamtiš, rasplamtimo, rasplamtite, rasplamte, rasplamtela, rasplamtelo, rasplamteli, rasplamtele
+- **rasprostreti** — *Razastrti, raširiti po površini; rasprostreti.*
+  - predlog: rasprostrim, rasprostriš, rasprostri, rasprostrimo, rasprostrite, rasprostreo, rasprostrela, rasprostrelo, rasprostreli, rasprostrele
+- **rastereti** — *Oblik glagola „rasteretiti“.*
+  - predlog: rasterim, rasteriš, rasteri, rasterimo, rasterite, rastere, rastereo, rasterela, rasterelo, rastereli, rasterele
+- **razastreti** — *Prostreti i raširiti po površini, razastrti; razastreti.*
+  - predlog: razastrim, razastriš, razastri, razastrimo, razastrite, razastreo, razastrela, razastrelo, razastreli, razastrele
+- **razdreti** — *Razderati, pocepati; razdreti.*
+  - predlog: razdrim, razdriš, razdri, razdrimo, razdrite, razdre, razdreo, razdrela, razdrelo, razdreli, razdrele
+- **razleti** — *Oblik reči razleteti se (raspršiti se leteći na sve strane).*
+  - predlog: razlim, razliš, razli, razlimo, razlite, razle, razleo, razlela, razlelo, razleli, razlele
+- **reketi** — *Naprave sa mrežom za udaranje loptice (množina od reket).*
+  - predlog: rekim, rekiš, reki, rekimo, rekite, rekeo, rekela, rekelo, rekeli, rekele
+- **rukoveti** — *Snopovi koliko stane u ruku pri žetvi (množina od rukovet).*
+  - predlog: rukovim, rukoviš, rukovi, rukovimo, rukovite, rukove, rukoveo, rukovela, rukovelo, rukoveli, rukovele
+- **rumeneti** — *Postajati rumen; crveneti se.*
+  - predlog: rumeniš, rumenimo, rumenite, rumeneo, rumenela, rumenelo, rumeneli, rumenele
+- **samleti** — *Mlevenjem usitniti.*
+  - predlog: samlim, samliš, samli, samlimo, samlite, samle, samlelo, samlele
+- **sapleti** — *Oblik glagola „saplesti“.*
+  - predlog: saplim, sapliš, sapli, saplimo, saplite, saple, saplelo
+- **saveti** — *Mišljenja kako bi trebalo postupiti (množina od savet).*
+  - predlog: saviš, savimo, savite, saveo, savela, savelo, saveli, savele
+- **sažeti** — *Skratiti na bitno; sabiti.*
+  - predlog: sažim, sažiš, saži, sažimo, sažite, saželo, sažele
+- **saživeti** — *Saživeti se — sasvim se sroditi, prilagoditi.*
+  - predlog: saživim, saživiš, saživite, sažive, saživela, saživelo, saživele
+- **skoreti** — *Stvrdnuti se na površini, uhvatiti koru (skoreti se).*
+  - predlog: skoriš, skorimo, skorite, skoreo, skorelo, skoreli, skorele
+- **slepeti** — *Gubiti vid, postajati slep; slepeti.*
+  - predlog: slepiš, slepimo, slepite, slepeo, slepela, slepelo, slepeli, slepele
+- **sporazumeti** — *Postići dogovor, razumeti se s nekim; sporazumeti se.*
+  - predlog: sporazumim, sporazumiš, sporazumimo, sporazumite, sporazumela, sporazumelo, sporazumele
+- **tereti** — *Oblik glagola „teretiti“.*
+  - predlog: terim, teriš, teri, terimo, terite, tere, tereo, terela, terelo, tereli, terele
+- **ukleti** — *Oblik reči uklet (proklet, opčinjen).*
+  - predlog: uklim, ukliš, ukli, uklimo, uklite, ukle, uklelo, ukleli
+- **upreti** — *Oblik glagola „upreti“; snažno gurnuti i pritisnuti; upreti pogled, netremice gl*
+  - predlog: uprim, upriš, uprimo, upreo, uprela, uprelo, upreli, uprele
+- **ushteti** — *Zaželeti, ushteti.*
+  - predlog: ushtim, ushtiš, ushti, ushtimo, ushtite, ushtelo, ushtele
+- **uskipeti** — *Prokuvati, uzavreti; uzbuditi se od besa.*
+  - predlog: uskipim, uskipiš, uskipimo, uskipite, uskipela, uskipeli, uskipele
+- **usplamteti** — *Buknuti plamenom; (preneseno) uzavreti od osećanja.*
+  - predlog: usplamtim, usplamtiš, usplamtimo, usplamtite, usplamte, usplamtela, usplamtelo, usplamteli
+- **uvreti** — *Smanjiti se kuvanjem; ispariti deo tečnosti.*
+  - predlog: uvrim, uvriš, uvrimo, uvrite, uvre, uvreo, uvrela, uvrelo, uvreli, uvrele
+- **uvrteti** — *Zavrteti; uvrteti sebi u glavu.*
+  - predlog: uvrtim, uvrtiš, uvrti, uvrtite, uvrtelo, uvrteli, uvrtele
+- **uzneti** — *Uzdići, uzneti naviše; uzneti.*
+  - predlog: uznim, uzniš, uzni, uznimo, uznite, uzne, uznele
+- **uzreti** — *Sazreti; ugledati; uzreti.*
+  - predlog: uzrim, uzriš, uzri, uzrimo, uzrite, uzrela, uzreli, uzrele
+- **uželeti** — *Zaželeti, poželeti.*
+  - predlog: uželim, uželiš, uželi, uželimo, užele, uželelo, uželele
+- **viseti** — *Oblik reči viseti (biti obešen, visiti).*
+  - predlog: visite, vise, viseo, visela, viselo, viseli, visele
+- **viđeti** — *Opaziti očima i ugledati; sagledati i uvideti; videti.*
+  - predlog: viđim, viđiš, viđi, viđimo, viđite, viđelo, viđele
+- **vladeti** — *Oblik reči vladati (upravljati, gospodariti).*
+  - predlog: vladim, vladiš, vladimo, vladite, vladeo, vladela, vladelo, vladeli, vladele
+- **vrleti** — *Strme, teško prohodne stenovite kosine; divlji, neravni kraj.*
+  - predlog: vrliš, vrlimo, vrlite, vrleo, vrlela, vrlelo, vrleli, vrlele
+- **vučeti** — *Oblik imena Vučeta.*
+  - predlog: vučim, vučiš, vučimo, vučite, vučeo, vučela, vučelo, vučeli, vučele
+- **zacrveneti** — *Postati crven, porumeneti (zacrveneti se).*
+  - predlog: zacrvenim, zacrveniš, zacrvenimo, zacrvenite, zacrvenela, zacrvenelo, zacrveneli
+- **zacvileti** — *Tiho zaplakati od bola.*
+  - predlog: zacvilim, zacviliš, zacvilimo, zacvilite, zacvileo, zacvilela, zacvilelo, zacvileli, zacvilele
+- **zaleti** — *Zatrčavanja radi skoka ili udara (množina od zalet).*
+  - predlog: zališ, zali, zalimo, zalite, zale, zaleo, zalela, zalelo, zaleli, zalele
+- **zaneti** — *Sasvim obuzeti pažnju; zaokupiti maštom ili osećanjem.*
+  - predlog: zanim, zaniš, zani, zanimo, zanite, zane, zanele
+- **zarumeneti** — *Postati rumen; zacrveneti se.*
+  - predlog: zarumenim, zarumeniš, zarumenimo, zarumenite, zarumeneo, zarumenelo, zarumeneli
+- **zasedeti** — *Dugo sedeti; zaostati u devojkama.*
+  - predlog: zasedim, zasediš, zasedimo, zasedite, zasedeo, zasedela, zasedelo, zasedeli, zasedele
+- **zasvetleti** — *Početi svetleti, zasijati.*
+  - predlog: zasvetlim, zasvetliš, zasvetlimo, zasvetlite, zasvetlelo, zasvetleli, zasvetlele
+- **zeleneti** — *Postajati zelen; zeleniti se.*
+  - predlog: zelenimo, zelenite, zeleneo, zelenela, zelenelo, zeleneli, zelenele

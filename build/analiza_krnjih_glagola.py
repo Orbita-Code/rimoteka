@@ -22,11 +22,33 @@ defs = json.load(open(os.path.join(PUB, 'definicije.json'), encoding='utf-8'))
 # promašivala baš prave primere: `njakati` ima 9 srodnih oblika i `brstiti` 7,
 # pa su ispadali iz liste iako im fali skoro cela paradigma. Sada se za SVAKI
 # glagol generiše očekivana paradigma i broji koliko oblika stvarno fali.
-infinitivi = [w for w in reci if len(w) >= 6 and (w[-3:] in ('ati','iti','eti') or w.endswith('uti'))]
+# PAŽNJA: završetak na -ati/-iti/-eti NIJE dokaz da je reč glagol.
+# „bankomati", „akrobati", „aparati" su imenice u MNOŽINI, a raniji kod ih je
+# tretirao kao infinitive i pravio „bankomam, akrobaš, aparate" — oblike kojih
+# u srpskom nema. Zato reč prihvatamo kao glagol SAMO ako rečnik već sadrži
+# njen nesumnjiv glagolski oblik (radni pridev ili prvo lice prezenta).
+def je_glagol(w):
+    if w.endswith('uti'):
+        st = w[:-3]
+        potvrde = (st+'uo', st+'em', st+'nuo', st+'nem')
+    elif w.endswith('ovati'):
+        st = w[:-5]
+        potvrde = (st+'ovao', st+'ujem', st+'uje')
+    elif w.endswith('irati'):
+        st = w[:-2]
+        potvrde = (w[:-2]+'o', st+'m', st+'')
+    else:
+        st = w[:-3]
+        potvrde = (st+'ao', st+'io', st+'eo', st+'im', st+'am', st+'em', st+'ujem')
+    return any(f in S for f in potvrde if f and f != w)
+
+kandidati = [w for w in reci if len(w) >= 6 and (w[-3:] in ('ati','iti','eti') or w.endswith('uti'))]
+infinitivi = [w for w in kandidati if je_glagol(w)]
+odbaceno = len(kandidati) - len(infinitivi)
 
 # ---- 2) klasifikacija i predlog oblika -------------------------------------
 # Palatalizacija kod -ati glagola: k->č, g->ž, h->š, s->š, z->ž, t->ć, d->đ
-PALAT = {'k':'č', 'g':'ž', 'h':'š', 's':'š', 'z':'ž', 'c':'č'}
+PALAT = {'k':'č', 'g':'ž', 'h':'š', 's':'š', 'z':'ž', 'c':'č', 't':'ć', 'd':'đ'}
 
 def predlog(inf):
     """Vrati (tip, sigurnost, [oblici]). sigurnost: 'visoka' | 'proveri'."""
@@ -66,22 +88,42 @@ def predlog(inf):
         o = [st+'im', st+'iš', st+'i', st+'imo', st+'ite', st+'e',
              st+'eo', st+'ela', st+'elo', st+'eli', st+'ele']
         return ('-eti', 'proveri', o)      # -eti je najnepravilniji tip
-    if inf.endswith('ati'):
-        st = inf[:-3]                      # njakati -> njak-
-        # pravilan tip: -am
-        pravilan = [st+'am', st+'aš', st+'a', st+'amo', st+'ate', st+'aju',
-                    st+'aj', st+'ajte']
-        proslo = [st+'ao', st+'ala', st+'alo', st+'ali', st+'ale']
-        zadnje = st[-1]
-        if zadnje in PALAT:
-            # Koren na k/g/h/s/z: prezent ide SAMO sa palatalizacijom.
-            # Ranije su se predlagala oba obrasca (i „njakam" i „njačem"), pa je
-            # u rečnik ušlo „njakam/njakaš" — vlasnica je potvrdila da ti oblici
-            # ne postoje. Sada se pravilan (-am) obrazac uopšte ne predlaže.
-            p = st[:-1] + PALAT[zadnje]    # njak- -> njač-
-            palat = [p+'em', p+'eš', p+'e', p+'emo', p+'ete', p+'u', p+'i', p+'ite']
-            return ('-ati (palatalizacija)', 'proveri', palat + proslo)
-        return ('-ati', 'visoka', pravilan + proslo)
+    if inf.endswith('ati') or inf.endswith('eti'):
+        # Glagoli na -ati/-eti imaju više obrazaca prezenta (-am, -em, -im i
+        # palatalizovani -em). Nastavak infinitiva NE govori koji je — zato se
+        # obrazac ČITA iz rečnika, iz oblika koji već postoje.
+        # Gledamo samo PRVO i DRUGO lice; treće lice (-a/-e/-i) se prečesto
+        # poklapa sa imenicama („plesa/plesi" je od ples, „sezam" je susam),
+        # pa bi vodilo u pogrešan zaključak.
+        st = inf[:-3]
+        pal = st[:-1] + PALAT[st[-1]] if st and st[-1] in PALAT else None
+
+        glasovi = []
+        if (st+'am') in S or (st+'aš') in S: glasovi.append('am')
+        if (st+'em') in S or (st+'eš') in S: glasovi.append('em')
+        if (st+'im') in S or (st+'iš') in S: glasovi.append('im')
+        if pal and ((pal+'em') in S or (pal+'eš') in S): glasovi.append('pal')
+
+        proslo = ([st+'ao', st+'ala', st+'alo', st+'ali', st+'ale'] if inf.endswith('ati')
+                  else [st+'eo', st+'ela', st+'elo', st+'eli', st+'ele'])
+
+        if len(glasovi) != 1:
+            # Ili nema nijednog pouzdanog oblika, ili se protivreče —
+            # ne izmišljamo prezent, nudimo samo prošlo vreme (uvek pravilno).
+            razlog = 'nema oblika prezenta u rečniku' if not glasovi else 'protivrečni oblici: ' + '/'.join(glasovi)
+            return ('-ati/-eti (obrazac NEPOZNAT: %s)' % razlog, 'odluči ti', proslo)
+
+        k = glasovi[0]
+        if k == 'am':
+            pre = [st+'am', st+'aš', st+'a', st+'amo', st+'ate', st+'aju', st+'aj', st+'ajte']
+        elif k == 'em':
+            pre = [st+'em', st+'eš', st+'e', st+'emo', st+'ete', st+'u', st+'i', st+'ite']
+        elif k == 'im':
+            pre = [st+'im', st+'iš', st+'i', st+'imo', st+'ite', st+'e', st+'i', st+'ite']
+        else:
+            pre = [pal+'em', pal+'eš', pal+'e', pal+'emo', pal+'ete', pal+'u', pal+'i', pal+'ite']
+        return ('-ati/-eti (obrazac -%s, pročitan iz rečnika)' % k, 'visoka', pre + proslo)
+
     return ('nepoznat', 'proveri', [])
 
 # ---- 3) izveštaj ----------------------------------------------------------
@@ -141,6 +183,9 @@ for sig in ('visoka', 'proveri'):
             md.append(f"  - predlog: {', '.join(novi)}")
 
 open(os.path.join(ROOT, 'RECNIK-PREDLOG.md'), 'w', encoding='utf-8').write("\n".join(md) + "\n")
+print(f"kandidata (-ati/-iti/-eti/-uti): {len(kandidati)}")
+print(f"odbačeno kao NE-glagoli:         {odbaceno}")
+print(f"pravih glagola:                  {len(infinitivi)}")
 print(f"krnjih glagola:      {len(krnji)}")
 print(f"predloženih oblika:  {ukupno_novih}")
 print("izveštaj:            RECNIK-PREDLOG.md")

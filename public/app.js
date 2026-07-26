@@ -16,6 +16,32 @@ setTimeout(() => {
   try { bootstrap(); } catch (e) { console.error('[Rimoteka] Sigurnosna mreža nije uspela:', e); }
 }, 0);
 
+/* ============ BEZBEDAN PRAZAN ELEMENT ============
+ * `app.js` se koristi i na stranama koje NEMAJU sve elemente (npr.
+ * /rimovanje-reci/ ima samo alat za rime, bez tabova, beležnice i igre).
+ * Bez ovoga bi prvi nedostajući element oborio celu skriptu — tačno ono što
+ * je 26.07.2026. oborilo sajt. `el('id')` vraća pravi element ako postoji, a
+ * inače bezopasan objekat nad kojim sve operacije prolaze bez efekta.
+ * VAŽNO: `el()` NIKAD ne vraća null, pa se ne sme koristiti tamo gde kod
+ * proverava `if (element)` da bi odlučio da li nešto uraditi — za takva
+ * mesta ostaje običan `document.getElementById`.
+ * ================================================== */
+const NOOP_EL = {
+  addEventListener(){}, removeEventListener(){}, click(){}, focus(){}, blur(){},
+  appendChild(x){ return x; }, removeChild(x){ return x; }, remove(){},
+  querySelector(){ return null; }, querySelectorAll(){ return []; },
+  closest(){ return null; }, contains(){ return false; },
+  getBoundingClientRect(){ return {width:0,height:0,top:0,left:0,right:0,bottom:0}; },
+  scrollIntoView(){}, setAttribute(){}, getAttribute(){ return null; },
+  classList:{ add(){}, remove(){}, toggle(){}, contains(){ return false; } },
+  style:{}, dataset:{},
+  value:'', textContent:'', innerText:'', innerHTML:'', placeholder:'', title:'',
+  checked:false, disabled:false, hidden:false, scrollTop:0, scrollHeight:0,
+  isContentEditable:false, parentNode:null, onclick:null, oninput:null, onchange:null,
+  __noop:true
+};
+function el(id){ return document.getElementById(id) || NOOP_EL; }
+
 /* ====================== Transliteracija ====================== */
 const CYR2LAT = {
   'а':'a','б':'b','в':'v','г':'g','д':'d','ђ':'đ','е':'e','ж':'ž','з':'z',
@@ -144,7 +170,7 @@ let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
 async function loadLocalDefs(){
   if(DEFS.size) return;
   if(defsPromise) return defsPromise;
-  defsPromise = fetch('definicije.json?v=228')
+  defsPromise = fetch('/definicije.json?v=228')
     .then(r => r.ok ? r.json() : {})
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -156,8 +182,8 @@ async function loadLocalDefs(){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    fetch('reci.txt?v=20260717').then(r=>r.text()),
-    fetch('reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
+    fetch('/reci.txt?v=20260717').then(r=>r.text()),
+    fetch('/reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
@@ -178,8 +204,8 @@ async function loadDict(){
 async function loadExtras(){
   try{
     const [freqRes, synRes] = await Promise.all([
-      fetch('frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
-      fetch('sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
+      fetch('/frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
     ]);
     SYNONYMS = synRes;
     // Ažuriraj rangiranje sa frekvencijom.
@@ -206,7 +232,7 @@ async function loadDefs(){
   if(defsLoaded) return;
   defsLoaded = true;
   try{
-    const res = await fetch('definicije.json?v=228');
+    const res = await fetch('/definicije.json?v=228');
     const defs = await res.json();
     // Ažuriraj rangiranje sa definicijama
     for(let i=0;i<WORDS.length;i++){
@@ -269,7 +295,7 @@ function renderGroup(container, title, words, strong){
 }
 
 /* ====================== RIME ====================== */
-const rimeInput = document.getElementById('rimeInput');
+const rimeInput = el('rimeInput');
 let rimeSyl = 0;
 let loose = false;
 let lastTrackedRhyme = '';   // GA4: da isti pojam ne šalje event na svaki filter-klik
@@ -284,7 +310,7 @@ function doRhymes(silent){
   hideAutocomplete();
   const raw = rimeInput.value.trim().toLowerCase();
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
-  const box = document.getElementById('rimeResults');
+  const box = el('rimeResults');
   box.innerHTML='';
   if(q.length<2){ box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
   if(WORDS.length === 0){ box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
@@ -372,15 +398,15 @@ function doRhymes(silent){
   }
 }
 
-document.getElementById('rimeBtn').onclick = doRhymes;
+el('rimeBtn').onclick = doRhymes;
 rimeInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doRhymes(); });
-document.getElementById('rimeSyl').addEventListener('click', e=>{
+el('rimeSyl').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   document.querySelectorAll('#rimeSyl button').forEach(x=>x.classList.remove('active'));
   b.classList.add('active'); rimeSyl=+b.dataset.syl; if(rimeInput.value.trim()) doRhymes();
 });
-document.getElementById('looseToggle').addEventListener('change', e=>{ loose=e.target.checked; if(rimeInput.value.trim()) doRhymes(); });
-const jekToggle = document.getElementById('jekToggle');
+el('looseToggle').addEventListener('change', e=>{ loose=e.target.checked; if(rimeInput.value.trim()) doRhymes(); });
+const jekToggle = el('jekToggle');
 jekToggle.checked = includeJek;
 jekToggle.addEventListener('change', e=>{
   includeJek = e.target.checked;
@@ -390,7 +416,7 @@ jekToggle.addEventListener('change', e=>{
 });
 // Dečji režim — filtrira neprikladne reči za decu
 let kidsMode = localStorage.getItem('rimoteka_kids') === '1';
-const kidsToggle = document.getElementById('kidsToggle');
+const kidsToggle = el('kidsToggle');
 kidsToggle.checked = kidsMode;
 kidsToggle.addEventListener('change', e=>{
   kidsMode = e.target.checked;
@@ -430,7 +456,7 @@ function randomCommonWord(extraFilter){
   return null;
 }
 
-document.getElementById('randomBtn').onclick = ()=>{
+el('randomBtn').onclick = ()=>{
   const w = randomCommonWord();
   if(w){ rimeInput.value = disp(w); doRhymes(); }
 };
@@ -492,12 +518,12 @@ rimeInput.addEventListener('keydown', e=>{
 document.addEventListener('click', e=>{ if(!rimeInput.parentNode.contains(e.target)) hideAutocomplete(); });
 
 /* ====================== PRETRAGA ====================== */
-const searchInput = document.getElementById('searchInput');
+const searchInput = el('searchInput');
 let searchSyl = 0;
 function doSearch(){
-  const mode = document.getElementById('searchMode').value;
+  const mode = el('searchMode').value;
   const q = toLatin(searchInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
-  const box = document.getElementById('searchResults');
+  const box = el('searchResults');
   box.innerHTML='';
   if(q.length<2){ box.innerHTML='<p class="empty">Upiši bar dva slova.</p>'; return; }
   const out=[];
@@ -516,16 +542,16 @@ function doSearch(){
   if(!arr.length){ box.innerHTML='<p class="empty">Nema reči koje odgovaraju.</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
 }
-document.getElementById('searchBtn').onclick = doSearch;
+el('searchBtn').onclick = doSearch;
 searchInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
-const searchMode = document.getElementById('searchMode');
+const searchMode = el('searchMode');
 function updateSearchPlaceholder(){
   const ph = { ends:'npr. ica, ama, ost', starts:'npr. cvet, svet, mesec', contains:'npr. cvet, zvezd, ljub' };
   searchInput.placeholder = ph[searchMode.value] || '';
 }
 searchMode.addEventListener('change', ()=>{ updateSearchPlaceholder(); if(searchInput.value.trim()) doSearch(); });
 updateSearchPlaceholder();
-document.getElementById('searchSyl').addEventListener('click', e=>{
+el('searchSyl').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   document.querySelectorAll('#searchSyl button').forEach(x=>x.classList.remove('active'));
   b.classList.add('active'); searchSyl=+b.dataset.syl; if(searchInput.value.trim()) doSearch();
@@ -541,9 +567,9 @@ function lineSyllables(line){
   }
   return total;
 }
-const sylInput = document.getElementById('sylInput');
+const sylInput = el('sylInput');
 sylInput.addEventListener('input', ()=>{
-  const out = document.getElementById('sylOutput');
+  const out = el('sylOutput');
   const lines = sylInput.value.split('\n');
   out.innerHTML='';
   let totalSyl=0, nonEmpty=0;
@@ -569,9 +595,9 @@ sylInput.addEventListener('input', ()=>{
 function escapeHtml(s){ return s.replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 
 /* ====================== BELEŽNICA — Editor sa obojenim rimama ====================== */
-const noteInput = document.getElementById('noteInput');
-const noteEditor = document.getElementById('noteEditor');
-const noteGutter = document.getElementById('noteGutter');
+const noteInput = el('noteInput');
+const noteEditor = el('noteEditor');
+const noteGutter = el('noteGutter');
 
 // Paleta boja za rimske grupe (dovoljno različite, čitljive na svetloj i tamnoj pozadini)
 const RHYME_COLORS = [
@@ -757,7 +783,7 @@ noteEditor.addEventListener('keydown', (e) => {
   }
 });
 
-document.getElementById('clearNotes').onclick = () => {
+el('clearNotes').onclick = () => {
   if(confirm('Obrisati celu belešku?')){
     setEditorText('');
     noteInput.value = '';
@@ -777,7 +803,7 @@ function renderGutter(){
 // Statistika
 function updateNoteStats(){
   const text = getEditorText();
-  const stats = document.getElementById('noteStats');
+  const stats = el('noteStats');
   if(!text.trim()){ stats.textContent = ''; return; }
   const lines = text.split('\n').filter(l=>l.trim()).length;
   const words = (text.trim().match(/\S+/g)||[]).length;
@@ -792,7 +818,7 @@ function getLastWordInLine(line){
   return toks.length ? toks[toks.length-1] : '';
 }
 function renderNoteRhymes(){
-  const box = document.getElementById('noteRhymes');
+  const box = el('noteRhymes');
   if(!box) return;
   const lines = getEditorText().split('\n');
   let lastLine = '';
@@ -808,7 +834,7 @@ function renderNoteRhymes(){
   rimeInput.value = word;
   doRhymes(true);
   rimeInput.value = savedVal;
-  const src = document.getElementById('rimeResults');
+  const src = el('rimeResults');
   const chips = src.querySelectorAll('.chip');
   if(!chips.length){
     box.innerHTML = `<h4>Rime za <span class="nr-word">${escapeHtml(disp(word))}</span></h4><p class="nr-empty">Nema pronađenih rima.</p>`;
@@ -859,13 +885,13 @@ function getRhymeListForLastWord(){
   rimeInput.value = word;
   doRhymes(true);
   rimeInput.value = savedVal;
-  const src = document.getElementById('rimeResults');
+  const src = el('rimeResults');
   const chips = src.querySelectorAll('.chip .word');
   const rhymes = [];
   chips.forEach(c => { const t = c.textContent.trim(); if(t) rhymes.push(t); });
   return { word, rhymes };
 }
-document.getElementById('saveRhymeList').onclick = () => {
+el('saveRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
   if(!word || !rhymes.length){ toast('Nema rima za čuvanje'); return; }
   const lists = JSON.parse(localStorage.getItem('rimoteka_lists') || '[]');
@@ -873,7 +899,7 @@ document.getElementById('saveRhymeList').onclick = () => {
   localStorage.setItem('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
   toast(`Sačuvano ${rhymes.length} rima za „${word}"`);
 };
-document.getElementById('exportRhymeList').onclick = () => {
+el('exportRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
   if(!word || !rhymes.length){ toast('Nema rima za preuzimanje'); return; }
   const text = `Rime za „${word}"\n${'='.repeat(30)}\n${rhymes.join(', ')}\n\nGenerisano: Rimoteka.com`;
@@ -886,7 +912,7 @@ document.getElementById('exportRhymeList').onclick = () => {
   URL.revokeObjectURL(url);
   toast(`Preuzeta lista za „${word}"`);
 };
-document.getElementById('exportPoem').onclick = () => {
+el('exportPoem').onclick = () => {
   const text = getEditorText();
   if(!text.trim()){ toast('Nema teksta za preuzimanje'); return; }
   const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
@@ -905,18 +931,18 @@ updateNoteStats();
 renderNoteRhymes();
 
 /* ====================== OMILJENE ====================== */
-function updateFavCount(){ document.getElementById('favCount').textContent = favorites.length; }
+function updateFavCount(){ el('favCount').textContent = favorites.length; }
 function renderFavorites(){
-  const box=document.getElementById('favResults');
+  const box=el('favResults');
   box.innerHTML='';
   if(!favorites.length){ box.innerHTML='<p class="empty">Još nemaš sačuvane reči. Klikni ♥ na bilo kojoj reči.</p>'; return; }
   renderGroup(box, `Tvoje reči (${favorites.length})`, favorites.slice(), false);
 }
-document.getElementById('copyFavs').onclick = ()=>{
+el('copyFavs').onclick = ()=>{
   if(!favorites.length) return;
   copy(favorites.map(disp).join(', '));
 };
-document.getElementById('clearFavs').onclick = ()=>{
+el('clearFavs').onclick = ()=>{
   if(favorites.length && confirm('Obrisati sve omiljene reči?')){
     favorites=[]; localStorage.setItem('rimoteka_favorites','[]'); updateFavCount(); renderFavorites();
   }
@@ -928,16 +954,16 @@ function switchTab(name){
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
 }
-document.getElementById('tabs').addEventListener('click', e=>{
+el('tabs').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(b) switchTab(b.dataset.tab);
 });
 
-const brandHome=document.getElementById('brandHome');
+const brandHome = el('brandHome');
 function goHome(){ switchTab('rime'); window.scrollTo({top:0, behavior:'smooth'}); }
 brandHome.addEventListener('click', goHome);
 brandHome.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); goHome(); } });
 
-document.getElementById('scriptToggle').addEventListener('click', e=>{
+el('scriptToggle').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   script=b.dataset.script;
   localStorage.setItem('rimoteka_script', script);
@@ -952,7 +978,7 @@ document.getElementById('scriptToggle').addEventListener('click', e=>{
 
 let toastTimer;
 function toast(msg){
-  const t=document.getElementById('toast');
+  const t=el('toast');
   t.textContent=msg; t.classList.add('show');
   clearTimeout(toastTimer);
   toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
@@ -1240,7 +1266,7 @@ function poemLastWord(line){
 }
 
 function renderKlasici(){
-  const box = document.getElementById('klasiciList');
+  const box = el('klasiciList');
   if(!box) return;
   box.innerHTML='';
   POEMS.forEach(p=>{
@@ -1557,15 +1583,15 @@ const gamePlay = document.getElementById('gamePlay');
 const gameResults = document.getElementById('gameResults');
 const gameHandoff = document.getElementById('gameHandoff');
 const gameHandoffStart = document.getElementById('gameHandoffStart');
-const gameWordEl = document.getElementById('gameWord');
-const gameInput = document.getElementById('gameInput');
+const gameWordEl = el('gameWord');
+const gameInput = el('gameInput');
 const gameSubmit = document.getElementById('gameSubmit');
-const gameFeedback = document.getElementById('gameFeedback');
-const gameTimerEl = document.getElementById('gameTimer');
-const gameCurrentPlayerEl = document.getElementById('gameCurrentPlayer');
-const gameWordCountEl = document.getElementById('gameWordCount');
-const gameProgress = document.getElementById('gameProgress');
-const gameResultsList = document.getElementById('gameResultsList');
+const gameFeedback = el('gameFeedback');
+const gameTimerEl = el('gameTimer');
+const gameCurrentPlayerEl = el('gameCurrentPlayer');
+const gameWordCountEl = el('gameWordCount');
+const gameProgress = el('gameProgress');
+const gameResultsList = el('gameResultsList');
 
 // Zvuk — Web Audio API
 let audioCtx = null;
@@ -1623,7 +1649,7 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   const playersBtn = document.querySelector('#gamePlayers .game-option.active');
   const wordsBtn = document.querySelector('#gameWords .game-option.active');
   const timeBtn = document.querySelector('#gameTime .game-option.active');
-  const customInput = document.getElementById('gamePlayersCustom');
+  const customInput = el('gamePlayersCustom');
 
   gamePlayers = playersBtn.dataset.value === 'custom'
     ? Math.min(10, Math.max(1, parseInt(customInput.value) || 1))
@@ -1931,7 +1957,7 @@ function bootstrap(){
   BOOTED = true;
   loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
     console.error('Greška pri učitavanju rečnika:', e);
-    const box = document.getElementById('rimeResults');
+    const box = el('rimeResults');
     if(box){
       box.innerHTML = '';
       const p = document.createElement('p');

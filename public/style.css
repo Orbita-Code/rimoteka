@@ -594,6 +594,15 @@ main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3
 .crumbs a{color:var(--lavender-deep);text-decoration:none}
 .crumbs a:hover{text-decoration:underline}
 .landing-h1{font-size:clamp(1.7rem,4.5vw,2.4rem);font-weight:600;color:var(--lavender-deep);margin:.2rem 0 .5rem;line-height:1.2}
+/* Živi alat za rime na tematskoj strani (/rimovanje-reci/) */
+.landing-tool{
+  background:#fff;border-radius:20px;padding:1.3rem;margin:.2rem 0 1.4rem;
+  box-shadow:var(--shadow-sm);
+}
+.landing-tool .results{margin-top:.9rem}
+.landing-tool .results:empty{margin-top:0}
+body.dark-mode .landing-tool{background:var(--card-dark,#241f3a)}
+
 .landing-lead{color:var(--ink-soft);font-size:1rem;max-width:720px;margin:0 0 1rem}
 .landing-meta{color:var(--muted);font-size:.88rem;margin:-.3rem 0 .9rem;font-weight:600}
 .landing-def{background:#faf6fe;border-radius:14px;padding:.7rem 1rem;color:var(--ink);font-size:.95rem;margin:0 0 1.1rem;border:1px solid var(--line)}

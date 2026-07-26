@@ -348,6 +348,61 @@ async function main() {
       await p2.close();
     }
 
+    console.log('\n12b) ŽIVI ALAT na /rimovanje-reci/');
+    const pAlat = await browser.newPage();
+    const alatGreske = [];
+    pAlat.on('console', m => {
+      if (m.type() !== 'error') return;
+      const t = m.text();
+      if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      alatGreske.push(t);
+    });
+    pAlat.on('pageerror', e => alatGreske.push('pageerror: ' + e.message));
+    await pAlat.goto(BASE + '/rimovanje-reci/', { waitUntil: 'domcontentloaded' });
+    let alatRecnik = false;
+    for (let pokusaj = 0; pokusaj < 3 && !alatRecnik; pokusaj++) {
+      try {
+        await pAlat.waitForFunction('typeof WORDS !== "undefined" && WORDS.length > 0', { timeout: 120000 });
+        alatRecnik = true;
+      } catch (e) {
+        if (pokusaj === 2) break;
+        await pAlat.waitForLoadState('domcontentloaded').catch(() => {});
+        await pauza(1000);
+      }
+    }
+    ok('/rimovanje-reci/ → rečnik se učitao u alatu', alatRecnik, 'nije stigao');
+    const alat = await pAlat.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const inp = document.getElementById('rimeInput');
+      const btn = document.getElementById('rimeBtn');
+      if (!inp || !btn) return { greska: 'nema polje ili dugme na strani' };
+      inp.value = 'ljubav';
+      btn.click();
+      await w(1000);
+      const box = document.getElementById('rimeResults');
+      const reci = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
+      const grupe = [...box.querySelectorAll('h3')].map(e => e.textContent.trim());
+      // filter po slogovima
+      const f = document.querySelector('#rimeSyl button[data-syl="2"]');
+      if (f) f.click();
+      await w(800);
+      const posle = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
+      return {
+        broj: reci.length, imaGrbav: reci.includes('grbav'), grupe,
+        filterRadi: posle.length > 0 && posle.length !== reci.length,
+        kockica: !!document.getElementById('randomBtn')
+      };
+    });
+    ok('/rimovanje-reci/ → rime za „ljubav" rade NA STRANI', (alat.broj || 0) > 5,
+       JSON.stringify(alat).slice(0, 140));
+    ok('/rimovanje-reci/ → poznata rima „grbav" je tu', alat.imaGrbav === true, `dobio ${alat.broj} rima`);
+    ok('/rimovanje-reci/ → sinonimi se prikazuju', (alat.grupe || []).some(g => /Sinonimi/i.test(g)),
+       (alat.grupe || []).join(' / '));
+    ok('/rimovanje-reci/ → filter po slogovima radi', alat.filterRadi === true, 'filter nije promenio listu');
+    ok('/rimovanje-reci/ → kockica postoji', alat.kockica === true);
+    ok('/rimovanje-reci/ → nula grešaka u konzoli', alatGreske.length === 0, alatGreske.slice(0, 3).join(' | '));
+    await pAlat.close();
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

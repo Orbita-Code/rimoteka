@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260726c">
+<link rel="stylesheet" href="/style.css?v=20260726d">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -225,7 +225,39 @@ def rhyme_link(rword, target_slugs):
         return f'/rime-za/{quote(sl)}/'
     return f'/?rec={quote(rword)}'
 
-def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text):
+# Živi alat za rime na tematskoj strani (za sada samo /rimovanje-reci/).
+# Koristi ISTI app.js kao početna — namerno, da se dva algoritma za rime nikad
+# ne raziđu i da korisnik na obe strane dobije iste rezultate. Bezbedno je jer
+# app.js pristupa elementima kroz `el()`, pa elementi koje ova strana nema
+# (tabovi, beležnica, igra) samo tiho ne rade.
+TOOL_HTML = """  <div class="landing-tool">
+    <div class="search-row">
+      <input type="text" id="rimeInput" placeholder="upiši reč (npr. ljubav)" autocomplete="off" spellcheck="false">
+      <button id="rimeBtn" class="primary">Nađi rime</button>
+      <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju">🎲</button>
+    </div>
+    <div class="filters">
+      <span class="flabel">Slogova:</span>
+      <div class="syl-filter" id="rimeSyl">
+        <button data-syl="0" class="active">sve</button>
+        <button data-syl="1">1</button>
+        <button data-syl="2">2</button>
+        <button data-syl="3">3</button>
+        <button data-syl="4">4</button>
+        <button data-syl="5">5+</button>
+      </div>
+      <label class="loose-toggle"><input type="checkbox" id="looseToggle"> i šire (slabije) rime</label>
+      <label class="loose-toggle"><input type="checkbox" id="jekToggle"> uključi ijekavicu</label>
+      <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
+    </div>
+    <div id="rimeResults" class="results"></div>
+  </div>
+"""
+TOOL_SCRIPT = '<script src="/app.js?v=20260726k"></script>\n'
+
+
+def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,
+                 tool=False):
     # Statička tematska strana (autoritet). lead_html/sekcije = sirov HTML; faq = plain tekst.
     canon = f'{BASE}/{slug}/'
     schema = json.dumps({
@@ -242,19 +274,25 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     secs = ''.join(f'<div class="res-group"><h3>{esc(st)}</h3><p class="seo-p">{sb}</p></div>'
                    for st, sb in sections)
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
+    # Kad strana ima živi alat, on ide ODMAH ispod naslova (to je ono zbog čega
+    # je korisnik došao), a dugme „idi na početnu" nema smisla — alat je tu.
+    alat = TOOL_HTML if tool else ''
+    cta = '' if tool else f'  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>\n'
     body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>{esc(h1)}</span></nav>
   <h1 class="landing-h1">{esc(h1)}</h1>
-  <p class="landing-lead">{lead_html}</p>
-  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>
-  {secs}
+{alat}  <p class="landing-lead">{lead_html}</p>
+{cta}  {secs}
   <section class="landing-faq"><h3>Česta pitanja</h3>{faq_html}</section>
 </main>
 """
     d = os.path.join(PUB, slug)
     os.makedirs(d, exist_ok=True)
+    izlaz = head + body + footer
+    if tool:
+        izlaz = izlaz.replace('</body>', TOOL_SCRIPT + '</body>', 1)
     with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(head + body + footer)
+        f.write(izlaz)
     return canon
 
 def related_targets(t, targets, target_slugs, n=10):
@@ -641,6 +679,7 @@ def main():
         # na exact-match putanji — homepage sam nije dovoljan.
         dict(slug='rimovanje-reci',
              priority='0.9',
+             tool=True,          # živi alat za rime na samoj strani
              title='Rimovanje reči — pronađi rimu za svaku srpsku reč | Rimoteka',
              desc='Rimovanje reči na srpskom: unesi reč i odmah dobij sve rime, sortirane po kvalitetu i broju slogova. Besplatno, bez reklama i registracije.',
              h1='Rimovanje reči',
@@ -924,7 +963,8 @@ def main():
 
     for cd in content_defs:
         c = content_page(footer, cd['slug'], cd['title'], cd['desc'], cd['h1'],
-                         cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'])
+                         cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'],
+                         tool=cd.get('tool', False))
         sitemap_entries.append(
             f'  <url><loc>{c}</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq>'
             f'<priority>{cd.get("priority", "0.6")}</priority></url>')

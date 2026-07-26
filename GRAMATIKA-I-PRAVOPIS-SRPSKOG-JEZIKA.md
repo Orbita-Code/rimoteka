@@ -344,8 +344,15 @@ množini**. Reč se sme tretirati kao glagol **samo ako rečnik već sadrži nje
 nesumnjiv glagolski oblik**: radni pridev (`-ao`, `-io`, `-eo`) ili prvo lice
 prezenta (`-im`, `-am`, `-em`, `-ujem`).
 
-Provera: postoji li i jednina (*bankomat*)? Ako da, a nema glagolskih oblika —
-to je imenica.
+Provera je namenjena PROGRAMU, ne čoveku — reč *bankomat* naravno postoji i
+svakodnevna je. Pitanje je samo kako kod da razlikuje imenicu od glagola kad
+oboje mogu da se završe na `-ati`. Kriterijum: ako postoji jednina (*bankomat*)
+a nema nijednog glagolskog oblika (*bankomao*, *bankomam*) — reč je imenica.
+
+**I imenice se moraju menjati** — po rodu, broju i padežu. To što je *bankomati*
+imenica ne znači da za nju nema posla, nego da joj trebaju **padeži**
+(*bankomata, bankomatu, bankomatom, bankomate, bankomatima*), a ne konjugacija.
+Stanje imenica u rečniku izmereno je u poglavlju 9a.
 
 ### Pravilo 2 — Prezent se ČITA, ne izvodi
 Obrazac prezenta se utvrđuje iz oblika koji **već postoje u rečniku**, i to
@@ -366,6 +373,20 @@ za odluku vlasnice.
 | imperativ iz **potvrđene** prezentske osnove | trpni pridev (jotovanje varira) |
 | padeži imenice **samo** uz proveru osnove | bilo šta kod `-ći` glagola |
 
+### Pravilo 3a — Osnova imenice se ČITA iz potvrđenog padeža, ne iz nominativa
+
+Isti princip kao kod glagola. Nominativ ne otkriva osnovu jer se osnova menja:
+
+- **nepostojano A**: *žižak → žiška* (ne *žižaka*), *borac → borca*, *pas → psa*
+- **sibilarizacija** u D/L ženskih: *knjiga → knjizi* (ne *knjigi*), *ruka → ruci*
+- **palatalizacija** u vokativu muških: *junak → junače*
+- **umetak `-ov-`/`-ev-`** samo kod **jednosložnih** muških: *zid → zidovi*, ali
+  *bankomat → bankomati*, *prozor → prozori* (ne *bankomatovi*)
+- **`-ev-`** posle mekih suglasnika: *nož → noževi*, *muž → mužem*
+
+Zato: ako u rečniku već postoji genitiv, iz njega se čita prava osnova i tek
+onda grade ostali padeži. Ako genitiva nema — ne izmišljati osnovu.
+
 ### Pravilo 4 — Svaka nova reč dobija objašnjenje
 Nijedna reč ne ulazi u `reci.txt` bez unosa u `definicije.json`. Stil postojećih
 objašnjenja: *„Oblik reči brstiti (gristi lišće i mlade grane — o stoci)."*
@@ -379,6 +400,36 @@ Kod svake sumnje: napravi listu i pitaj. **Ne upisuj u rečnik da bi „pokrio"
 slučaj.** Bolje 100 reči koje fale nego 1 koja ne postoji.
 
 ---
+
+## 9a. Izmereno stanje rečnika (27.07.2026)
+
+Mereno na osnovu `definicije.json`, gde 63% unosa kaže „Oblik reči X" — odatle
+se dobija veza oblik → osnovna reč, pa se **broje postojeći oblici** umesto da
+se grade novi (brojanje ne može da pogreši).
+
+**Glagoli:** od 6.120 potvrđenih glagola, **1.827 ima krnju paradigmu**
+(nedostaje im 60% i više oblika). Predlog dopune: 13.827 oblika.
+
+**Imenice:** prepoznato **23.907** imenica (12.946 muških, 6.948 ženskih,
+4.013 srednjeg roda). Prosečna pokrivenost paradigme:
+
+| Rod | Prosečno oblika | Puna paradigma |
+|---|---|---|
+| muški | 4,8 | 9 |
+| ženski | 3,9 | 9 |
+| srednji | 3,3 | 7 |
+
+**Imenicama u proseku nedostaje oko polovine padeža.** To je veći posao od
+glagola.
+
+**Ograničenja ovog merenja — obavezno pročitati pre nego što se brojevi
+citiraju:**
+- Pokriva samo reči čije objašnjenje ima šablon „Oblik reči X". Reči sa
+  opisnim objašnjenjem (35%) nisu obuhvaćene.
+- Razvrstavanje nije savršeno: trpni pridevi (*adoptiran*, *adresiran*) mogu
+  biti svrstani među imenice.
+- Imenice koje postoje samo u množini (*akne*, *Alpe*) nemaju punu paradigmu,
+  pa izgledaju krnje iako nisu.
 
 ## 10. Dnevnik ispravki od vlasnice
 

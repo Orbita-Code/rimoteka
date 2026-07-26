@@ -38,6 +38,7 @@ const NOOP_EL = {
   value:'', textContent:'', innerText:'', innerHTML:'', placeholder:'', title:'',
   checked:false, disabled:false, hidden:false, scrollTop:0, scrollHeight:0,
   isContentEditable:false, parentNode:null, onclick:null, oninput:null, onchange:null,
+  childNodes:[], children:[], firstChild:null, lastChild:null, nodeType:1, nodeName:'DIV',
   __noop:true
 };
 function el(id){ return document.getElementById(id) || NOOP_EL; }
@@ -63,10 +64,15 @@ function toLatin(s){
   for(const ch of s){ out += (CYR2LAT[ch] !== undefined ? CYR2LAT[ch] : ch); }
   return out;
 }
+const LAT2CYR_U = {};
+for(const k in LAT2CYR) LAT2CYR_U[k.toUpperCase()] = LAT2CYR[k].toUpperCase();
+const DIGRAPH2CYR = { 'dž':'џ','Dž':'Џ','DŽ':'Џ','lj':'љ','Lj':'Љ','LJ':'Љ','nj':'њ','Nj':'Њ','NJ':'Њ' };
 function toCyr(s){
   return s
-    .replace(/dž/g,'џ').replace(/lj/g,'љ').replace(/nj/g,'њ')
-    .replace(/[a-zđžćčš]/g, ch => LAT2CYR[ch] !== undefined ? LAT2CYR[ch] : ch);
+    .replace(/dž|Dž|DŽ|lj|Lj|LJ|nj|Nj|NJ/g, m => DIGRAPH2CYR[m])
+    .replace(/[a-zA-ZđžćčšĐŽĆČŠ]/g, ch =>
+      LAT2CYR[ch] !== undefined ? LAT2CYR[ch] :
+      (LAT2CYR_U[ch] !== undefined ? LAT2CYR_U[ch] : ch));
 }
 
 /* ====================== Stanje ====================== */
@@ -170,7 +176,7 @@ let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
 async function loadLocalDefs(){
   if(DEFS.size) return;
   if(defsPromise) return defsPromise;
-  defsPromise = fetch('/definicije.json?v=228')
+  defsPromise = fetch('/definicije.json?v=229')
     .then(r => r.ok ? r.json() : {})
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -182,8 +188,8 @@ async function loadLocalDefs(){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    fetch('/reci.txt?v=20260717').then(r=>r.text()),
-    fetch('/reci_jekavica.txt?v=20260717').then(r=>r.text()).catch(()=> '')
+    fetch('/reci.txt?v=20260726').then(r=>r.text()),
+    fetch('/reci_jekavica.txt?v=20260726').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
@@ -232,7 +238,7 @@ async function loadDefs(){
   if(defsLoaded) return;
   defsLoaded = true;
   try{
-    const res = await fetch('/definicije.json?v=228');
+    const res = await fetch('/definicije.json?v=229');
     const defs = await res.json();
     // Ažuriraj rangiranje sa definicijama
     for(let i=0;i<WORDS.length;i++){
@@ -281,6 +287,51 @@ function makeChip(word){
   el.querySelector('.fav').onclick = () => toggleFav(word);
   el.querySelector('.rh').onclick = () => { rimeInput.value = disp(word); switchTab('rime'); doRhymes(); };
   return el;
+}
+
+/* Legenda — objašnjava šta znače broj i ikonice na svakoj rimi.
+   Bez nje korisnik vidi „usvajanje (4)" i tri sitne ikonice bez objašnjenja.
+   Na telefonu nema prelaska mišem, pa `title` atributi ne pomažu — jedini
+   način je da bude napisano. Prikazuje se samo kad ima rezultata. */
+function renderLegend(container){
+  const l = document.createElement('div');
+  l.className = 'res-legend';
+  l.innerHTML =
+    '<span class="legend-item"><span class="syl">2</span> broj slogova</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u24D8</span> zna\u010denje re\u010di</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u2661</span> sa\u010duvaj u \u201eOmiljene\u201c</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> na\u0111i rime za tu re\u010d</span>' +
+    '<span class="legend-item legend-tap">klikni na re\u010d da je kopira\u0161</span>';
+  container.appendChild(l);
+}
+
+/* Sinonimi — zasebna, vizuelno izdvojena kartica.
+   Ranije su bili obična grupa na DNU liste, ispod stotinu rima, pa se
+   praktično nisu videli. Sinonimi su prednost koju konkurencija nema, zato
+   idu odmah ispod najboljih rima, jasno označeni. */
+function renderSynonyms(container, word, syns){
+  if(!syns.length) return;
+  const card = document.createElement('section');
+  card.className = 'syn-card';
+  const h = document.createElement('h3');
+  h.className = 'syn-title';
+  h.innerHTML = '<span class="syn-badge">sinonimi</span> Druge re\u010di za \u201e' + disp(word) + '\u201c';
+  const hint = document.createElement('p');
+  hint.className = 'syn-hint';
+  hint.textContent = 'Kad rima ne odgovara po smislu \u2014 zameni re\u010d na kraju stiha i potra\u017ei rime za nju.';
+  const wrap = document.createElement('div');
+  wrap.className = 'results';
+  syns.forEach(w => wrap.appendChild(makeChip(w)));
+  card.appendChild(h); card.appendChild(hint); card.appendChild(wrap);
+  container.appendChild(card);
+}
+
+/* Bedž sa nizom tačnih odgovora u igri — vizuelna nagrada. */
+function renderCombo(){
+  const b = el('gameComboBadge');
+  if(b.__noop) return;
+  if(gameCombo >= 2){ b.hidden = false; b.textContent = '\u{1F525} ' + gameCombo + ' u nizu'; }
+  else { b.hidden = true; }
 }
 
 function renderGroup(container, title, words, strong){
@@ -361,15 +412,17 @@ function doRhymes(silent){
   if(!best.length && !good.length && !finalExtra.length && !loose){
     box.innerHTML = '<p class="empty">Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod.</p>';
   }
+  if(best.length || good.length || finalExtra.length) renderLegend(box);
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
-  renderGroup(box, good.length?'Dobre rime':'', good, false);
-  renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
-  // Sinonimi — prikaži ako postoje
+  // Sinonimi idu ODMAH ispod najboljih rima — vidljivo, a rime i dalje prve.
   const syns = SYNONYMS[q] || [];
   if(syns.length > 0){
-    renderGroup(box, 'Sinonimi', syns.slice(0, 20), false);
+    renderSynonyms(box, q, syns.slice(0, 20));
   }
+
+  renderGroup(box, good.length?'Dobre rime':'', good, false);
+  renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
 
   // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
   if(!silent && q !== lastTrackedRhyme){
@@ -598,6 +651,14 @@ function escapeHtml(s){ return s.replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','
 const noteInput = el('noteInput');
 const noteEditor = el('noteEditor');
 const noteGutter = el('noteGutter');
+const noteTitle = el('noteTitle');
+
+// Naslov pesme — opciono, čuva se uz pesmu; koristi se u PDF/TXT/deljenju
+noteTitle.value = localStorage.getItem('rimoteka_notes_title') || '';
+noteTitle.addEventListener('input', () => {
+  localStorage.setItem('rimoteka_notes_title', noteTitle.value);
+});
+function getPoemTitle(){ return noteTitle.value.trim(); }
 
 // Paleta boja za rimske grupe (dovoljno različite, čitljive na svetloj i tamnoj pozadini)
 const RHYME_COLORS = [
@@ -606,6 +667,17 @@ const RHYME_COLORS = [
   '#8e44ad', '#2980b9', '#27ae60', '#f1c40f', '#e91e63',
   '#00bcd4', '#4caf50', '#ff9800', '#673ab7', '#009688'
 ];
+
+// Sonantnosna tolerancija za bojenje: završni suglasnik se pred izgovorom
+// ogusi (grad izgovaramo "grat"), pa bojimo i takve parove — i dalje savršena
+// rima za uho, samo tolerantna na pravopis. NE looseKey (asonanca) — odobreno.
+// (Mora biti IZNAD init bloka — init odmah poziva analyzeRhymes.)
+const DEVOICED = { 'd':'t','b':'p','g':'k','z':'s','ž':'š' };
+function lenientRhymeKey(w){
+  const k = rhymeKey(w);
+  const last = k[k.length-1];
+  return DEVOICED[last] ? k.slice(0,-1) + DEVOICED[last] : k;
+}
 
 // Inicijalizacija — učitaj tekst iz localStorage i oboji rime
 const savedText = localStorage.getItem('rimoteka_notes') || '';
@@ -622,8 +694,22 @@ if(savedText.trim()){
 }
 
 // Dobij plain text iz contenteditable div-a
+// Deterministička serijalizacija: innerText gubi <br> na kraju (Chrome quirk),
+// pa bi re-render "pojeo" prelom reda — zato sami hodamo po DOM-u.
 function getEditorText(){
-  return noteEditor.innerText || '';
+  let out = '';
+  const walk = (node) => {
+    node.childNodes.forEach(child => {
+      if(child.nodeType === Node.TEXT_NODE) out += child.data;
+      else if(child.nodeName === 'BR'){
+        // pomoćni <br> za kursor (iOS fix) nije deo teksta
+        if(!child.classList.contains('cursor-br')) out += '\n';
+      }
+      else walk(child);
+    });
+  };
+  walk(noteEditor);
+  return out;
 }
 
 // Postavi plain text u editor (bez boja)
@@ -652,7 +738,9 @@ function restoreCursorPosition(pos){
   let node;
   while(node = walker.nextNode()){
     const nextCount = charCount + node.textContent.length;
-    if(pos <= nextCount){
+    // strogo <: pozicija tačno na kraju text node-a ide u SLEDEĆI text node
+    // (offset 0) — inače bi kursor ostao ispred <br> preloma i unos bi se spajao
+    if(pos < nextCount){
       range.setStart(node, pos - charCount);
       range.collapse(true);
       sel.removeAllRanges();
@@ -661,9 +749,30 @@ function restoreCursorPosition(pos){
     }
     charCount = nextCount;
   }
-  // ako nismo našli, stavi na kraj
-  range.selectNodeContents(noteEditor);
-  range.collapse(false);
+  // ako nismo našli, kursor je na kraju teksta
+  // Ako se editor završava na <br>, kursor ne sme direktno posle njega
+  // (browser ga klampuje ispred preloma → sledeći unos se spaja u prethodni red).
+  // Rešenje: pomoćni <br> za kursor, pa kursor između njih dvaju.
+  let last = null;
+  for(let i = noteEditor.childNodes.length - 1; i >= 0; i--){
+    const c = noteEditor.childNodes[i];
+    if(c.nodeType === Node.TEXT_NODE && c.data === '') continue;
+    if(c.nodeName === 'BR' && c.classList.contains('cursor-br')) continue;
+    last = c; break;
+  }
+  if(last && last.nodeName === 'BR'){
+    let cb = last.nextSibling;
+    if(!(cb && cb.nodeName === 'BR' && cb.classList.contains('cursor-br'))){
+      cb = document.createElement('br');
+      cb.className = 'cursor-br';
+      last.after(cb);
+    }
+    range.setStartBefore(cb);
+  } else {
+    range.selectNodeContents(noteEditor);
+    range.collapse(false);
+  }
+  range.collapse(true);
   sel.removeAllRanges();
   sel.addRange(range);
 }
@@ -675,11 +784,11 @@ function analyzeRhymes(text){
     const toks = toLatin(line.toLowerCase()).replace(/[^a-zčćžšđ\s]/g,' ').split(/\s+/).filter(Boolean);
     return toks.length ? toks[toks.length-1] : '';
   });
-  // grupiši po loose_key (asonanca) — širi pojam rime, pokriva i savršene i bliske
+  // grupiši po rhymeKey uz sonantnosnu toleranciju — savršena rima po izgovoru
   const groups = new Map();
   lastWords.forEach((word, idx) => {
     if(!word || word.length < 2) return;
-    const key = rhymeKey(word);
+    const key = lenientRhymeKey(word);
     if(!groups.has(key)) groups.set(key, []);
     groups.get(key).push(idx);
   });
@@ -729,25 +838,32 @@ function updateEditor(){
   renderNoteRhymes();
 }
 
-// Debounce da ne renderujemo na svaki keystroke
-let editorTimer = null;
+// Dva debounce-a: brzi (čuvanje/gutter/statistika/rime — ne dira DOM editora)
+// i sporiji (bojenje rima — innerHTML rewrite tek kad korisnik zastane sa kucanjem,
+// da re-render ne jede prelome redova usred kucanja)
+let editorUiTimer = null;
+let editorColorTimer = null;
 function scheduleEditorUpdate(){
-  clearTimeout(editorTimer);
-  editorTimer = setTimeout(() => {
-    const pos = saveCursorPosition();
+  clearTimeout(editorUiTimer);
+  editorUiTimer = setTimeout(() => {
     const text = getEditorText();
     noteInput.value = text;
     localStorage.setItem('rimoteka_notes', text);
+    renderGutter();
+    updateNoteStats();
+    renderNoteRhymes();
+  }, 150);
+  clearTimeout(editorColorTimer);
+  editorColorTimer = setTimeout(() => {
+    const pos = saveCursorPosition();
+    const text = getEditorText();
     // renderuj sa bojama samo ako ima rimskih grupa
     const { colorMap } = analyzeRhymes(text);
     if(colorMap.size > 0){
       noteEditor.innerHTML = renderColoredText(text);
       restoreCursorPosition(pos);
     }
-    renderGutter();
-    updateNoteStats();
-    renderNoteRhymes();
-  }, 150);
+  }, 500);
 }
 
 // Event listeneri
@@ -770,9 +886,18 @@ noteEditor.addEventListener('keydown', (e) => {
       range.deleteContents();
       const br = document.createElement('br');
       range.insertNode(br);
-      // dodaj još jedan <br> ako je na kraju, da bi kursor imao gde da stane
-      if(range.startContainer === noteEditor && range.startOffset === noteEditor.childNodes.length){
-        range.insertNode(document.createElement('br'));
+      // Kursor ne ume da stoji posle ZAVRŠNOG <br>-a — browser ga vrati ispred,
+      // pa bi sledeće kucanje i sledeći Enter išli PRE preloma (redovi se spajaju).
+      // Napomena: insertNode podeli text node, pa iza br često ostane prazan
+      // text node — zato proveravamo da iza br nema SADRŽAJA, ne lastChild.
+      let atEnd = true;
+      for(let n = br.nextSibling; n; n = n.nextSibling){
+        if(n.nodeType !== Node.TEXT_NODE || n.data !== ''){ atEnd = false; break; }
+      }
+      if(atEnd){
+        const cursorBr = document.createElement('br');
+        cursorBr.className = 'cursor-br';
+        br.after(cursorBr);
       }
       range.setStartAfter(br);
       range.collapse(true);
@@ -783,14 +908,59 @@ noteEditor.addEventListener('keydown', (e) => {
   }
 });
 
+// Rime prate kursor — klik mišem ili strelice prebacuju ciljnu reč
+let caretTimer = null;
+document.addEventListener('selectionchange', () => {
+  const sel = window.getSelection();
+  if(sel.rangeCount === 0 || !noteEditor.contains(sel.getRangeAt(0).startContainer)) return;
+  clearTimeout(caretTimer);
+  caretTimer = setTimeout(renderNoteRhymes, 120);
+});
+
 el('clearNotes').onclick = () => {
   if(confirm('Obrisati celu belešku?')){
     setEditorText('');
     noteInput.value = '';
+    noteTitle.value = '';
     localStorage.removeItem('rimoteka_notes');
+    localStorage.removeItem('rimoteka_notes_title');
     renderGutter();
     updateNoteStats();
     renderNoteRhymes();
+  }
+};
+
+/* Štampa / PDF — browser-ov print dijalog uz print CSS koji prikazuje samo pesmu.
+   Naslov dolazi iz opcionog polja; ako je prazno, štampamo bez naslova (bez nagađanja). */
+el('printPoem').onclick = () => {
+  const text = getEditorText();
+  if(!text.trim()){ toast('Beležnica je prazna.'); return; }
+  const title = getPoemTitle();
+  el('printArea').innerHTML =
+    (title ? `<h1>${escapeHtml(title)}</h1>` : '') +
+    text.split('\n').map(l => `<p>${escapeHtml(l) || '&nbsp;'}</p>`).join('');
+  window.print();
+};
+
+/* Deljenje pesme linkom — tekst se kodira u ?pesma= parametar (base64url) */
+function encodePoem(text){
+  return btoa(unescape(encodeURIComponent(text))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+}
+function decodePoem(s){
+  s = s.replace(/-/g,'+').replace(/_/g,'/');
+  while(s.length % 4) s += '=';
+  return decodeURIComponent(escape(atob(s)));
+}
+el('sharePoem').onclick = () => {
+  const text = getEditorText();
+  if(!text.trim()){ toast('Beležnica je prazna.'); return; }
+  if(text.length > 1800){ toast('Pesma je predugačka za link (do ~1800 znakova).'); return; }
+  const url = location.origin + location.pathname + '?pesma=' + encodePoem(text) +
+    (getPoemTitle() ? '&naslov=' + encodeURIComponent(getPoemTitle()) : '');
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(url).then(()=>toast('Link kopiran — slobodno ga podeli!')).catch(()=>prompt('Kopiraj link:', url));
+  } else {
+    prompt('Kopiraj link:', url);
   }
 };
 
@@ -812,20 +982,82 @@ function updateNoteStats(){
   stats.textContent = `${lines} ${lines===1?'red':'redova'} · ${words} reči · ${chars} znakova · ${syl} slogova`;
 }
 
-// Rime za poslednju reč u beležnici
+// Rime za reč na kojoj je kursor u beležnici (ranije: uvek poslednja reč)
 function getLastWordInLine(line){
   const toks = toLatin(line.toLowerCase()).replace(/[^a-zčćžšđ\s]/g,' ').split(/\s+/).filter(Boolean);
   return toks.length ? toks[toks.length-1] : '';
 }
+
+// Pozicija kursora u istim koordinatama kao getEditorText (računajući i <br>)
+function getCaretTextPos(){
+  const sel = window.getSelection();
+  if(sel.rangeCount === 0) return null;
+  const range = sel.getRangeAt(0);
+  if(!noteEditor.contains(range.startContainer)) return null;
+  let pos = 0, done = false;
+  const subtreeLen = (node) => {
+    if(node.nodeType === Node.TEXT_NODE) return node.data.length;
+    if(node.nodeName === 'BR') return node.classList.contains('cursor-br') ? 0 : 1;
+    let n = 0;
+    node.childNodes.forEach(c => n += subtreeLen(c));
+    return n;
+  };
+  const walk = (node) => {
+    for(let i = 0; i < node.childNodes.length && !done; i++){
+      const child = node.childNodes[i];
+      if(node === range.startContainer && i === range.startOffset){ done = true; return; }
+      if(child === range.startContainer && child.nodeType === Node.TEXT_NODE){
+        pos += range.startOffset; done = true; return;
+      }
+      if(child.contains(range.startContainer)) walk(child);
+      else pos += subtreeLen(child);
+    }
+    if(node === range.startContainer && range.startOffset >= node.childNodes.length) done = true;
+  };
+  walk(noteEditor);
+  return done ? pos : null;
+}
+
+// Reč na kojoj stoji kursor, ili poslednja reč pre njega u tom redu
+function getWordAtLineCol(line, col){
+  const latin = toLatin(line.toLowerCase());
+  const re = /[a-zčćžšđ]+/g;
+  let m, best = '';
+  while((m = re.exec(latin)) !== null){
+    if(m.index <= col && col <= m.index + m[0].length) return m[0];
+    if(m.index + m[0].length <= col) best = m[0];
+    if(m.index > col) break;
+  }
+  return best;
+}
+
 function renderNoteRhymes(){
   const box = el('noteRhymes');
   if(!box) return;
-  const lines = getEditorText().split('\n');
-  let lastLine = '';
-  for(let i = lines.length - 1; i >= 0; i--){
-    if(lines[i].trim()){ lastLine = lines[i]; break; }
+  const text = getEditorText();
+  const caret = getCaretTextPos();
+  let word = '';
+  if(caret != null){
+    // linija u kojoj je kursor + kolona
+    const before = text.slice(0, caret);
+    const ls = before.lastIndexOf('\n') + 1;
+    const le = text.indexOf('\n', caret);
+    const line = text.slice(ls, le === -1 ? text.length : le);
+    word = getWordAtLineCol(line, caret - ls);
+    // nema reči u redu pre kursora → poslednja reč prethodne neprazne linije
+    if(!word){
+      const prev = text.slice(0, ls).split('\n');
+      for(let i = prev.length - 1; i >= 0; i--){
+        if(prev[i].trim()){ word = getLastWordInLine(prev[i]); break; }
+      }
+    }
+  } else {
+    // kursor van editora — stara logika: poslednja neprazna linija
+    const lines = text.split('\n');
+    for(let i = lines.length - 1; i >= 0; i--){
+      if(lines[i].trim()){ word = getLastWordInLine(lines[i]); break; }
+    }
   }
-  const word = getLastWordInLine(lastLine);
   if(!word || word.length < 2){
     box.innerHTML = '';
     return;
@@ -915,7 +1147,8 @@ el('exportRhymeList').onclick = () => {
 el('exportPoem').onclick = () => {
   const text = getEditorText();
   if(!text.trim()){ toast('Nema teksta za preuzimanje'); return; }
-  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const full = getPoemTitle() ? getPoemTitle() + '\n\n' + text : text;
+  const blob = new Blob([full], { type: 'text/plain;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
@@ -968,13 +1201,43 @@ el('scriptToggle').addEventListener('click', e=>{
   script=b.dataset.script;
   localStorage.setItem('rimoteka_script', script);
   document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
+  applyScriptToUI();
   // ponovo iscrtaj sve što je prikazano
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
   renderFavorites();
   renderKlasici();
-  toast(script === 'cyr' ? 'Reči se prikazuju ćirilicom' : 'Reči se prikazuju latinicom');
+  toast(script === 'cyr' ? 'Све се приказује ћирилицом' : 'Sve se prikazuje latinicom');
 });
+
+/* Ćirilica/latinica za CEO interfejs (tabovi, dugmad, labele, placeholderi).
+   Konverzija je dvosmerna (toCyr/toLatin sa digrafima lj/nj/dž), pa se
+   primenjuje direktno na tekst nodove — bez čuvanja originala. */
+const UI_SCRIPT_SELS = [
+  '#tabs button', '.flabel', '.syl-filter button', '.loose-toggle',
+  '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
+  '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
+  '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',
+  '.landing h2', '.landing-faq summary'
+];
+const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
+function convertTextNodes(root, fn){
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+  const nodes = [];
+  let n; while((n = walker.nextNode())) nodes.push(n);
+  nodes.forEach(t => { if(t.textContent.trim()) t.textContent = fn(t.textContent); });
+}
+function applyScriptToUI(){
+  const fn = script === 'cyr' ? toCyr : toLatin;
+  UI_SCRIPT_SELS.forEach(sel => document.querySelectorAll(sel).forEach(elm => convertTextNodes(elm, fn)));
+  UI_SCRIPT_INPUTS.forEach(id => {
+    const i = el(id); if(i && i.placeholder) i.placeholder = fn(i.placeholder);
+  });
+  const ne = el('noteEditor');
+  if(ne && ne.dataset.placeholder) ne.dataset.placeholder = fn(ne.dataset.placeholder);
+  const rb = el('randomBtn');
+  if(rb && rb.title) rb.title = fn(rb.title);
+}
 
 let toastTimer;
 function toast(msg){
@@ -1336,6 +1599,7 @@ applyDarkIcon();
 
 /* ====================== START ====================== */
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
+if(script === 'cyr') applyScriptToUI();
 updateFavCount();
 renderFavorites();
 renderGutter();
@@ -1350,6 +1614,28 @@ function initFromURL(){
       switchTab('rime');
       doRhymes();
       return true;
+    }
+    // Podeljena pesma — otvori u beležnicu BEZ brisanja postojeće beleške
+    // (localStorage se ne dira dok korisnik sam ne počne da kuca)
+    const pesma = params.get('pesma');
+    if(pesma){
+      const text = decodePoem(pesma);
+      if(text && text.trim()){
+        noteInput.value = text;
+        const naslov = params.get('naslov');
+        if(naslov) noteTitle.value = naslov;
+        const { colorMap } = analyzeRhymes(text);
+        if(colorMap.size > 0) noteEditor.innerHTML = renderColoredText(text);
+        else setEditorText(text);
+        switchTab('beleznica');
+        renderGutter();
+        updateNoteStats();
+        renderNoteRhymes();
+        // skloni parametar da refresh ne bi uvek vraćao podeljenu pesmu
+        history.replaceState(null, '', location.pathname);
+        toast('Pesma je otvorena — tvoja sačuvana beleška je netaknuta dok ne počneš da kucaš.');
+        return true;
+      }
     }
     const tab = params.get('tab');
     if(tab && ['rime','pretraga','slogovi','beleznica','klasici','omiljene'].includes(tab)){
@@ -1665,6 +1951,7 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   gameCurrentPlayerIdx = 0;
   gameCurrentWordIdx = 0;
   gameCombo = 0;
+  renderCombo();
   gameMaxCombo = 0;
 
   gameSetup.style.display = 'none';
@@ -1723,6 +2010,8 @@ function nextWord(){
     gameCurrentPlayerIdx++;
     gameCurrentWordIdx = 0;
     gameCombo = 0;
+    renderCombo();
+  renderCombo();
     if(gameCurrentPlayerIdx >= gamePlayers){
       showResults();
       return;
@@ -1780,6 +2069,7 @@ function timeUp(){
   gamePlayersData[gameCurrentPlayerIdx].wrong++;
   gamePlayersData[gameCurrentPlayerIdx].streak = 0;
   gameCombo = 0;
+  renderCombo();
   gameCurrentWordIdx++;
   gameSubmit.disabled = true;
   zakaziSledecuRec(1500);
@@ -1812,6 +2102,7 @@ function checkGameAnswer(){
   if(isRhyme){
     gameCombo++;
     if(gameCombo > gameMaxCombo) gameMaxCombo = gameCombo;
+    renderCombo();
     if(gameCombo > player.maxCombo) player.maxCombo = gameCombo;
 
     const timeBonus = Math.max(0, gameTimeLeft);
@@ -1832,6 +2123,8 @@ function checkGameAnswer(){
     player.wrong++;
     player.streak = 0;
     gameCombo = 0;
+    renderCombo();
+  renderCombo();
     gameFeedback.textContent = `✗ "${disp(answer)}" se ne rimuje sa "${disp(gameCurrentWord)}"`;
     gameFeedback.className = 'game-feedback wrong';
     playWrong();
@@ -1967,10 +2260,17 @@ function bootstrap(){
       btn.className = 'primary';
       btn.textContent = 'Očisti i probaj ponovo';
       btn.onclick = ocistiKesIOsvezi;
-      box.appendChild(p);
-      box.appendChild(btn);
+      box.appendChild(p);      box.appendChild(btn);
     }
   });
+  // Definicije učitaj u pozadini čim browser bude slobodan — da prvi hover na ⓘ
+  // bude trenutan. Preskačemo na Save-Data / 2g vezama (fajl je velik).
+  const conn = navigator.connection;
+  const slow = conn && (conn.saveData || /2g/.test(conn.effectiveType || ''));
+  if(!slow){
+    if('requestIdleCallback' in window) requestIdleCallback(() => loadLocalDefs(), { timeout: 5000 });
+    else setTimeout(() => loadLocalDefs(), 3000);
+  }
 }
 
 bootstrap();

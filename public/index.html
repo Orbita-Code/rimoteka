@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260726d">
+<link rel="stylesheet" href="style.css?v=20260726h">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -169,7 +169,8 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a reči koje se rimuju su obojene istom bojom. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button></p>
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a reči koje se rimuju su obojene istom bojom. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button></p>
+    <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
     <div class="notepad">
       <div id="noteGutter" class="gutter"></div>
       <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
@@ -240,6 +241,7 @@
         <div class="game-player-info">
           <span class="game-label">Igrač:</span> <span id="gameCurrentPlayer" class="game-value">1</span>
           <span class="game-label">Reč:</span> <span id="gameWordCount" class="game-value">1/10</span>
+          <span id="gameComboBadge" class="game-combo" hidden></span>
         </div>
         <div class="game-timer" id="gameTimer">15</div>
       </div>
@@ -388,7 +390,9 @@
   </div>
 </div>
 
-<script src="app.js?v=20260726k"></script>
-<script src="/sw-register.js?v=2"></script>
+<div id="printArea" aria-hidden="true"></div>
+
+<script src="app.js?v=20260726o"></script>
+<script src="/sw-register.js?v=4"></script>
 </body>
 </html>

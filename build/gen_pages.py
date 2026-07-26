@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260726d">
+<link rel="stylesheet" href="/style.css?v=20260726h">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -253,7 +253,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260726k"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260726o"></script>\n'
 
 
 def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,

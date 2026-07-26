@@ -343,8 +343,8 @@ h1,h2,h3,.disp{font-family:'Fredoka',system-ui,sans-serif}
 }
 .game-handoff-sub{color:var(--ink-soft);font-size:.98rem;margin:0}
 .game-handoff-hint{color:var(--muted);font-size:.86rem;margin:.7rem 0 0}
-body.dark-mode .game-handoff{background:var(--card-dark,#241f3a)}
-body.dark-mode .game-handoff-title{color:#c9b8ff}
+body.dark-mode .game-handoff{background:#1e1a2e}
+body.dark-mode .game-handoff-title{color:var(--lavender)}
 
 /* IGRA RIMA — play */
 .game-play{background:#fff;border-radius:24px;padding:1.5rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
@@ -463,8 +463,11 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 }
 .syl-filter button:hover{transform:translateY(-1px)}
 .syl-filter button.active{background:linear-gradient(95deg,var(--mint),var(--mint-deep));color:#fff}
-.loose-toggle{color:var(--ink-soft);font-size:.9rem;font-weight:600;display:flex;align-items:center;gap:.4rem;cursor:pointer}
-.loose-toggle input{accent-color:var(--lavender-deep);width:1.05rem;height:1.05rem}
+.loose-toggle{color:var(--ink-soft);font-size:.9rem;font-weight:600;display:flex;align-items:center;gap:.4rem;cursor:pointer;padding:.35rem .75rem;border:1.5px solid var(--line);border-radius:999px;transition:.2s;user-select:none}
+.loose-toggle:hover{border-color:var(--lavender);transform:translateY(-1px)}
+.loose-toggle:has(input:checked){background:linear-gradient(95deg,var(--lavender),var(--rose));color:#fff;border-color:transparent;box-shadow:var(--shadow-sm)}
+.loose-toggle:has(input:checked) input{accent-color:#fff}
+.loose-toggle input{accent-color:var(--lavender-deep);width:1.05rem;height:1.05rem;margin:0}
 
 /* RESULTS */
 .results{display:flex;flex-wrap:wrap;gap:.55rem;align-content:flex-start}
@@ -528,7 +531,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* NOTEPAD */
 .notepad{display:flex;border-radius:20px;overflow:hidden;background:#fff;line-height:1.95;box-shadow:var(--shadow-sm);border:2px solid #fff}
 .notepad:focus-within{border-color:var(--lavender)}
-.gutter{padding:1.1rem .65rem;background:linear-gradient(180deg,#f8f0fe,#eef6fb);color:var(--lavender-deep);text-align:right;font-family:'Fredoka',sans-serif;font-size:.95rem;font-variant-numeric:tabular-nums;white-space:pre;min-width:2.8rem;user-select:none}
+.gutter{padding:1.1rem .65rem;background:linear-gradient(180deg,#f8f0fe,#eef6fb);color:var(--lavender-deep);text-align:right;font-family:'Fredoka',sans-serif;font-size:1.08rem;line-height:1.95;font-variant-numeric:tabular-nums;white-space:pre;min-width:2.8rem;user-select:none}
 .notepad-text{border:0;border-radius:0;min-height:360px;box-shadow:none}
 .notepad-text:focus{outline:0}
 .link-btn{border:0;background:transparent;color:var(--rose-deep);cursor:pointer;font:inherit;font-weight:700;text-decoration:underline;padding:0;margin:0 .15rem}
@@ -601,7 +604,7 @@ main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3
 }
 .landing-tool .results{margin-top:.9rem}
 .landing-tool .results:empty{margin-top:0}
-body.dark-mode .landing-tool{background:var(--card-dark,#241f3a)}
+body.dark-mode .landing-tool{background:#1e1a2e}
 
 .landing-lead{color:var(--ink-soft);font-size:1rem;max-width:720px;margin:0 0 1rem}
 .landing-meta{color:var(--muted);font-size:.88rem;margin:-.3rem 0 .9rem;font-weight:600}
@@ -676,7 +679,7 @@ body.dark-mode .landing-tool{background:var(--card-dark,#241f3a)}
 
   /* Beležnica — veći font za mobilni */
   .notepad-text{font-size:1rem;line-height:1.8}
-  .gutter{font-size:.85rem}
+  .gutter{font-size:1rem;line-height:1.8}
 
   /* Pro modal — responzivan */
   .pro-modal-content{padding:1.5rem;margin:1rem}
@@ -725,3 +728,163 @@ body.is-pro .adsbygoogle{display:none!important}
 body.dark-mode .pro-form input[type=email]{background:#2a2a35;border-color:#3a3a48;color:#eee}
 body.dark-mode .pro-plan{border-color:#3a3a48}
 body.dark-mode .pro-plan:has(input:checked){border-color:var(--lavender-deep)}
+
+
+/* ========== LEGENDA ISPOD PRETRAGE ==========
+   Korisnik je video „usvajanje (4)" i tri sitne ikonice bez objašnjenja.
+   Na telefonu nema prelaska mišem, pa `title` atributi ne pomažu. */
+.res-legend{
+  display:flex;flex-wrap:wrap;gap:.35rem .95rem;align-items:center;
+  margin:0 0 1rem;padding:.6rem .8rem;border-radius:12px;
+  background:#faf8ff;border:1px solid var(--line);
+  font-size:.82rem;color:var(--ink-soft);line-height:1.4;
+}
+.res-legend .legend-item{display:inline-flex;align-items:center;gap:.32rem;white-space:nowrap}
+.res-legend .syl{
+  font-size:.7rem;font-weight:700;color:var(--mint-deep);background:#eafaf4;
+  border-radius:999px;padding:.08rem .45rem;
+}
+body.dark-mode .res-legend .syl{background:#2a2440}
+.res-legend .legend-ic{
+  font-size:1rem;color:var(--lavender-deep);
+  min-width:1.15rem;text-align:center;
+}
+.res-legend .legend-tap{color:var(--muted);font-style:italic}
+body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var(--ink-soft)}
+
+/* Dugmići na rimi — veći cilj za prst na telefonu i jasnija ikonica značenja */
+.chip .mini{min-width:1.9rem;min-height:1.9rem;display:inline-flex;align-items:center;justify-content:center}
+.chip .info{font-size:1.05rem;color:var(--lavender-deep);font-weight:700}
+
+/* ========== SINONIMI — zasebna kartica ==========
+   Prednost koju konkurencija nema. Vizuelno se razlikuje od grupa rima
+   (mint akcent, obojena leva ivica), da se odmah vidi da to nisu rime. */
+.syn-card{
+  margin:1.1rem 0;padding:1rem 1.15rem;border-radius:18px;
+  background:linear-gradient(180deg,rgba(38,162,248,.07),rgba(38,162,248,.02));
+  border:1px solid rgba(38,162,248,.24);
+  border-left:4px solid var(--mint-deep);
+}
+.syn-title{
+  display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;
+  margin:0 0 .3rem;font-size:1.02rem;font-weight:600;color:var(--ink);
+  font-family:'Fredoka',system-ui,sans-serif;
+}
+.syn-badge{
+  background:var(--mint-deep);color:#fff;font-size:.68rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;
+  padding:.2rem .5rem;border-radius:999px;font-family:'Quicksand',sans-serif;
+}
+.syn-hint{margin:0 0 .7rem;color:var(--ink-soft);font-size:.88rem;line-height:1.45}
+.syn-card .chip{border-color:rgba(38,162,248,.35)}
+body.dark-mode .syn-card{
+  background:linear-gradient(180deg,rgba(38,162,248,.13),rgba(38,162,248,.04));
+  border-color:rgba(38,162,248,.34);
+}
+body.dark-mode .syn-title{color:var(--ink)}
+body.dark-mode .syn-hint{color:var(--ink-soft)}
+
+/* ========== IGRA — dizajn ==========
+   Klase .game-word-box, .game-instruction, .game-word, .game-input-row,
+   .game-feedback, .game-label i .game-value su postojale u HTML-u ali NISU
+   imale nijednu liniju CSS-a — zato je reč koju treba rimovati bila običan
+   sivi tekst, a polje za unos golo. */
+.game-label{color:var(--muted);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.game-value{
+  font-family:'Fredoka',sans-serif;font-weight:700;font-size:1.05rem;color:var(--lavender-deep);
+  background:rgba(90,63,208,.09);padding:.1rem .5rem;border-radius:8px;
+}
+.game-player-info{flex-wrap:wrap;align-items:center}
+
+/* Tajmer — prsten, ne samo broj */
+.game-timer{
+  font-size:1.6rem;width:58px;height:58px;flex:0 0 58px;
+  display:flex;align-items:center;justify-content:center;border-radius:50%;
+  background:#fff;border:4px solid var(--mint);color:var(--lavender-deep);
+  box-shadow:0 3px 10px rgba(90,63,208,.14);transition:border-color .3s,color .3s;
+}
+.game-timer.low{color:#e0364f;border-color:#e0364f;animation:timer-pulse .9s ease-in-out infinite}
+@keyframes timer-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.09)}}
+
+/* Reč koju treba rimovati — glavni junak ekrana */
+.game-word-box{
+  text-align:center;padding:1.4rem 1rem 1.5rem;border-radius:20px;margin-bottom:1.1rem;
+  background:linear-gradient(140deg,#efeaff,#e6f2fe 55%,#eafaf4);
+  border:1px solid rgba(90,63,208,.13);
+}
+.game-instruction{
+  margin:0 0 .35rem;color:var(--ink-soft);font-size:.84rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.game-word{
+  margin:0;font-family:'Fredoka',sans-serif;font-weight:700;line-height:1.1;
+  font-size:clamp(2rem,7vw,2.9rem);
+  background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  animation:word-in .32s cubic-bezier(.2,.9,.3,1.3);
+}
+@keyframes word-in{from{opacity:0;transform:translateY(10px) scale(.94)}to{opacity:1;transform:none}}
+
+.game-input-row{display:flex;gap:.6rem;align-items:stretch}
+.game-input-row input{
+  flex:1;min-width:0;padding:.85rem 1rem;border:2px solid var(--line);border-radius:14px;
+  font:inherit;font-size:1.05rem;background:var(--paper);color:var(--ink);transition:.18s;
+}
+.game-input-row input:focus{outline:none;border-color:var(--lavender-deep);box-shadow:0 0 0 4px rgba(90,63,208,.13)}
+.game-input-row button{padding:.85rem 1.4rem;border-radius:14px;white-space:nowrap}
+
+.game-feedback{margin:.85rem 0 0;min-height:1.5rem;text-align:center;font-weight:600;font-size:.98rem}
+.game-feedback.correct{color:#0f9b63;animation:fb-in .25s ease-out}
+.game-feedback.wrong{color:#e0364f;animation:fb-shake .32s ease-out}
+.game-feedback.hint{color:var(--ink-soft);font-weight:500}
+@keyframes fb-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+@keyframes fb-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+
+/* Niz tačnih odgovora */
+.game-combo{
+  display:inline-block;padding:.15rem .55rem;border-radius:999px;
+  background:linear-gradient(95deg,#ff9a3c,#ff6b6b);color:#fff;
+  font-family:'Fredoka',sans-serif;font-weight:700;font-size:.85rem;
+  animation:combo-pop .3s cubic-bezier(.2,.9,.3,1.4);
+}
+.game-combo[hidden]{display:none}
+@keyframes combo-pop{from{transform:scale(.5);opacity:0}to{transform:scale(1);opacity:1}}
+
+.game-progress-dot{transition:.25s}
+.game-progress-dot.current{background:var(--lavender-deep);transform:scale(1.35);box-shadow:0 0 0 4px rgba(90,63,208,.16)}
+.game-progress-dot.wrong{background:#e0364f}
+
+/* Setup — neizabrana dugmad su bila skroz bezbojna */
+.game-option:hover{border-color:var(--lavender);background:#faf8ff}
+.game-option.active{
+  border-color:transparent;color:#fff;
+  background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));
+  box-shadow:0 4px 12px rgba(90,63,208,.28);
+}
+
+body.dark-mode .game-play,
+body.dark-mode .game-setup,
+body.dark-mode .game-results{background:#1e1a2e}
+body.dark-mode .game-word-box{
+  background:linear-gradient(140deg,rgba(90,63,208,.24),rgba(38,162,248,.16));
+  border-color:rgba(155,134,230,.26);
+}
+body.dark-mode .game-timer{background:#1e1a2e}
+body.dark-mode .game-input-row input{background:#2a2440;border-color:var(--line);color:var(--ink)}
+body.dark-mode .game-option{background:#2a2440;border-color:var(--line);color:var(--ink)}
+body.dark-mode .game-instruction{color:var(--ink-soft)}
+
+/* PRINT — samo pesma (štampaj / PDF iz beležnice) */
+#printArea{display:none}
+@media print{
+  body>*:not(#printArea){display:none !important}
+  #printArea{display:block !important;font-family:'Quicksand',sans-serif;color:#000;padding:2.5rem}
+  #printArea h1{font-size:1.35rem;margin:0 0 1.4rem;font-weight:700}
+  #printArea p{margin:.15rem 0;font-size:1.05rem;line-height:1.55;white-space:pre-wrap}
+}
+
+/* Naslov pesme — opciono polje iznad beležnice */
+.notepad-title{width:100%;box-sizing:border-box;font:inherit;font-size:1.15rem;font-weight:700;text-align:center;padding:.7rem 1rem;margin-bottom:.55rem;border:2px solid #fff;border-radius:14px;background:#fff;color:var(--ink);box-shadow:var(--shadow-sm)}
+.notepad-title::placeholder{color:var(--muted);font-weight:500}
+.notepad-title:focus{outline:0;border-color:var(--lavender)}
+body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:var(--line)}

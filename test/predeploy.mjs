@@ -302,6 +302,18 @@ async function main() {
     ok('brojač igrača pokazuje 2', nastavak.igrac.trim() === '2', `pokazuje „${nastavak.igrac}"`);
     ok('drugi igrač je dobio reč', nastavak.rec.length > 0, `reč: „${nastavak.rec}"`);
 
+    console.log('\n8c) NOVE REČI U REČNIKU (brst / brstiti / njakati)');
+    const noveReci = await page.evaluate(() => {
+      // Reči koje je korisnica našla da igra ne prihvata (26.07.2026).
+      const trazene = ['brstu','brsta','brstom','brstiš','brstile',
+                       'obrstim','obrste','njači','njače','njačem','njakam'];
+      const nema = trazene.filter(w => !SET.has(w));
+      const bezObjasnjenja = [];
+      return { nema, ukupno: trazene.length, recnik: WORDS.length };
+    });
+    ok('nove reči su u rečniku (brstu, njači, njače…)', noveReci.nema.length === 0,
+       `fali: ${noveReci.nema.join(', ')}`);
+
     console.log('\n9) Kockica bira POZNATU reč (ne arhaizam)');
     const kockica = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));

@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260726i">
+<link rel="stylesheet" href="style.css?v=20260727a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -169,15 +169,26 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Pored svakog reda piše broj slogova, a reči koje se rimuju su obojene istom bojom. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button></p>
-    <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
-    <div class="notepad">
-      <div id="noteGutter" class="gutter"></div>
-      <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
-      <textarea id="noteInput" style="display:none" aria-hidden="true"></textarea>
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni da je ubaciš u stih. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button> <button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></p>
+    <div class="notepad-layout">
+      <div class="notepad-main">
+        <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
+        <div class="notepad">
+          <div id="noteGutter" class="gutter"><div id="noteGutterInner" class="gutter-inner"></div></div>
+          <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
+          <textarea id="noteInput" style="display:none" aria-hidden="true"></textarea>
+        </div>
+        <p class="notepad-legend">
+          <span><b class="lg-drag">⠿</b> prevuci da premestiš stih</span>
+          <span><b class="lg-letter">A</b> šema rime — isto slovo, ista rima</span>
+          <span><b class="lg-num">7</b> slogova u stihu</span>
+          <span><b class="lg-word">reč</b> obojene reči se rimuju</span>
+        </p>
+        <div id="noteMeter" class="note-meter" hidden></div>
+        <div id="noteStats" class="note-stats"></div>
+      </div>
+      <aside id="noteRhymes" class="note-rhymes" aria-live="polite"></aside>
     </div>
-    <div id="noteStats" class="note-stats"></div>
-    <div id="noteRhymes" class="note-rhymes" aria-live="polite"></div>
   </section>
 
   <!-- KLASICI -->
@@ -392,7 +403,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260726p"></script>
+<script src="app.js?v=20260727a"></script>
 <script src="/sw-register.js?v=4"></script>
 </body>
 </html>

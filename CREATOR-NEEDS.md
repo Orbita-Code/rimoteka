@@ -56,14 +56,15 @@
 - **Rime na klik** u bočnom panelu bez napuštanja editora.
 - **Preslagivanje linija** — drag & drop redosleda stihova.
 
-### Što mi već imamo
-- ✅ Beležnica (`app.js` ima `textarea` za pisanje)
-- ⚠️ Ali beležnica nije integrisana sa pretragom rima.
-
-### Preporuka
-- **Faza 1:** Dodati "Rime uz belešku" — dok pišeš u beležnicu, automatski prikaži rime za poslednju reč.
-- **Faza 2:** Obojene rime uživo (kao Rhymer's Block).
-- **Faza 3:** Drag & drop stihova.
+### Što mi već imamo — ZAVRŠENO (27. jul 2026)
+- ✅ **Faza 1 — rime uz belešku:** rime se prikazuju za reč **na kojoj stoji kursor**
+  (ne samo za poslednju reč pesme), klik na rimu je ubacuje u stih.
+- ✅ **Faza 2 — obojene rime uživo**, sa sonantnosnom tolerancijom (*sat/grad*).
+- ✅ **Faza 3 — drag & drop stihova:** hvataljka `⠿` u gutteru, radi mišem i prstom,
+  sa linijom koja pokazuje gde stih pada; posle premeštanja se sve preračuna.
+- ✅ **Panel rima uz editor:** bočno na desktopu, prikačen za dno ekrana na telefonu.
+  (Ranije je panel počinjao ~170 px ispod pregiba na 390×844, pa se u praksi nikad
+  nije video — funkcija je postojala, ali je bila nevidljiva.)
 
 ---
 
@@ -77,12 +78,21 @@
 ### Što mi već imamo
 - ✅ Brojač slogova po reči (`count_syl`)
 - ✅ Grupisanje rima po broju slogova
-- ⚠️ Ali nema brojača po celom stihu, nema metra, nema rhyme-scheme.
+- ✅ **Faza 1 — brojač slogova po stihu** u gutteru beležnice (poravnat i kad se stih prelomi)
+- ✅ **Faza 3 — šema rime** (27. jul 2026): slovo A/B/C pored svakog stiha u beležnici,
+  bledo za stih koji se ni sa čim ne rimuje; u statistici piše šema prve strofe
+  sa nazivom (npr. „ABAB (ukrštena rima)").
+- ✅ **Faza 2 — metar** (27. jul 2026): dugme „prikaži metar" u beležnici crta ritam
+  svakog stiha — naglašen / nenaglašen / **nepoznat** slog, plus cezura kod
+  deseterca (4+6) i dvanaesterca (6+6), naziv stiha (osmerac, deseterac…) i
+  koliko stihova odstupa od preovlađujuće dužine.
 
-### Preporuka
-- **Faza 1:** Brojač slogova po liniji u beležnici (zbroj reči u redu).
-- **Faza 2:** Vizuelni prikaz metra (naglašeni/nenaglašeni slogovi).
-- **Faza 3:** Rhyme-scheme analiza (ABAB, AABB, itd.).
+> **Zašto postoji oznaka „ne znamo":** iz oblika reči sigurno se zna samo da
+> poslednji slog nikad nije naglašen, da jednosložna reč (osim klitika) nosi
+> akcenat i da je kod dvosložne akcenat na prvom slogu. Kod reči od tri i više
+> slogova mesto akcenta se ne može izvesti bez akcentovanog rečnika — pa se ti
+> slogovi prikazuju kao nepoznati umesto da se nagađaju.
+> Sledeći korak ako se nabavi akcentovani rečnik: zameniti „nepoznato" tačnim akcentom.
 
 ---
 
@@ -205,24 +215,20 @@
 
 ## Preporučeni redosled implementacije
 
-### Kratkoročno (sledeće 1-2 sesije)
-1. **Bliske rime grupa** — asonanca sa filterom za česte reči.
-2. **Brojač slogova po liniji u beležnici** — zbroj reči u redu.
-3. **PWA** — instalacija na telefon, offline keširanje.
+### Urađeno
+- ✅ Bliske rime (asonanca) · ✅ brojač slogova po stihu · ✅ PWA · ✅ dečji režim
+- ✅ Editor sa rimama na klik · ✅ obojene rime uživo · ✅ čuvanje listi + export
+- ✅ Sinonimi (`sinonimi.json`) · ✅ drag & drop stihova · ✅ šema rime u beležnici
 
-### Srednjoročno (1-3 meseca)
-4. **Editor sa rimama na klik** — rime za poslednju reč u beležnici.
-5. **Čuvanje listi + export** — projekti sa imenima.
-6. **Dečji režim** — toggle koji filtrira neprikladne rime.
+- ✅ Metar (ritam stiha, cezura, vrsta stiha)
 
-### Dugoročno (3+ meseca)
-7. **Obojene rime uživo** — kao Rhymer's Block.
-8. **Multi-word rime** — fraze koje se rimuju.
-9. **Fonetske porodice** — grupisanje po suglasničkim porodicama.
-10. **Sinonimi** — integracija tezaurusa.
-11. **Mobilna aplikacija** — React Native / Flutter.
-12. **Engleski jezik** — zaseo domen ili poddomen.
+### Sledeće
+1. **Akcentovani rečnik** — da metar zameni „ne znamo" tačnim akcentom kod reči od 3+ sloga.
+2. **Multi-word rime** — fraze koje se rimuju.
+3. **Fonetske porodice** — grupisanje po suglasničkim porodicama.
+4. **Mobilna aplikacija** — React Native / Flutter.
+5. **Engleski jezik** — zaseban domen ili poddomen.
 
 ---
 
-*Analiza ažurirana: 25. jul 2026.*
+*Analiza ažurirana: 27. jul 2026.*

@@ -180,6 +180,210 @@ async function main() {
     });
     ok('beležnica prima tekst', beleznica === 'ok', beleznica);
 
+    console.log('\n7a) BELEŽNICA — gutter, šema rime i panel sa rimama');
+    // Pesma sa ukrštenom rimom: gutter mora dati red po stihu, slogove,
+    // slova šeme (ABAB) i rime za reč pod kursorom — sve bez menjanja taba.
+    await page.evaluate(() => {
+      const ed = document.getElementById('noteEditor');
+      ed.innerHTML = 'Volim te ko nada<br>zvezda sja u tami<br>u srcu mom je mlada<br>i sanjamo je sami';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+      // kursor na kraj poslednjeg stiha (rime prate kursor)
+      const sel = getSelection(), r = document.createRange();
+      r.selectNodeContents(ed); r.collapse(false);
+      sel.removeAllRanges(); sel.addRange(r);
+      document.dispatchEvent(new Event('selectionchange'));
+    });
+    await pauza(1200);
+    const gutter = await page.evaluate(() => {
+      const rows = [...document.querySelectorAll('.gutter-row')];
+      const ed = document.getElementById('noteEditor');
+      // Poravnanje se meri na OTISKU slova (ne na okviru reda): broj u gutteru
+      // i stih moraju sedeti na istoj osnovnoj liniji.
+      const otisak = (node) => {
+        const rr = document.createRange(); rr.setStart(node, 0); rr.setEnd(node, node.data.length);
+        const rects = [...rr.getClientRects()].filter(x => x.height > 0);
+        return rects.length ? Math.round(rects[0].bottom * 10) / 10 : null;
+      };
+      const walker = document.createTreeWalker(ed, NodeFilter.SHOW_TEXT, null);
+      const stihovi = []; const vidjeni = new Set(); let n;
+      while ((n = walker.nextNode())) {
+        if (!n.data.trim()) continue;
+        const b = otisak(n);
+        if (b != null && !vidjeni.has(b)) { vidjeni.add(b); stihovi.push(b); }
+      }
+      return {
+        redova: rows.length,
+        slova: rows.map(r => r.querySelector('.g-letter').textContent).join(''),
+        slogovi: rows.map(r => r.querySelector('.g-syl').textContent).join(','),
+        hvataljki: rows.filter(r => r.querySelector('.g-drag')).length,
+        brojevi: rows.map(r => otisak(r.querySelector('.g-syl').firstChild)),
+        stihovi,
+        stats: document.getElementById('noteStats').textContent,
+        rime: document.querySelectorAll('#noteRhymes .chip').length,
+        mrtvaDugmad: document.querySelectorAll('#noteRhymes .mini').length,
+        legenda: document.querySelectorAll('.notepad-legend span').length,
+      };
+    });
+    ok('gutter ima red po stihu', gutter.redova === 4, `redova=${gutter.redova}`);
+    ok('gutter broji slogove po stihu', gutter.slogovi === '6,6,7,7', gutter.slogovi);
+    ok('šema rime ABAB u gutteru', gutter.slova === 'ABAB', gutter.slova);
+    ok('svaki stih ima hvataljku za premeštanje', gutter.hvataljki === 4, `${gutter.hvataljki}`);
+    ok('broj slogova sedi u istom redu kao stih',
+      gutter.brojevi.length === gutter.stihovi.length &&
+      gutter.brojevi.every((v, i) => v != null && Math.abs(v - gutter.stihovi[i]) <= 1),
+      `${gutter.brojevi} vs ${gutter.stihovi}`);
+    ok('beležnica ima legendu oznaka', gutter.legenda === 4, `${gutter.legenda}`);
+    ok('šema rime piše i u statistici', /ABAB \(ukrštena rima\)/.test(gutter.stats), gutter.stats);
+    ok('rime za reč pod kursorom stoje uz beležnicu', gutter.rime > 3, `rima=${gutter.rime}`);
+    ok('u panelu sa rimama nema mrtvih dugmića', gutter.mrtvaDugmad === 0, `${gutter.mrtvaDugmad}`);
+
+    // Sinonimi NE smeju u panel uz stih: „naći" ima sinonime (izumeti, otkriti,
+    // stvoriti) koji se ne rimuju, pa uz stih izgledaju kao greška u alatu.
+    const bezSinonima = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const ed = document.getElementById('noteEditor');
+      ed.innerHTML = 'nikako ne mogu naći';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+      const sel = getSelection(), r = document.createRange();
+      r.selectNodeContents(ed); r.collapse(false);
+      sel.removeAllRanges(); sel.addRange(r);
+      document.dispatchEvent(new Event('selectionchange'));
+      await w(900);
+      return {
+        reci: [...document.querySelectorAll('#noteRhymes .chip .word')].map(x => x.textContent.trim()),
+        imaSinonimaUGlavnom: document.querySelectorAll('#rimeResults .syn-card .chip').length,
+      };
+    });
+    const sinonimiUPanelu = ['izumeti', 'otkriti', 'stvoriti', 'iskopati', 'konstruisati']
+      .filter(w => bezSinonima.reci.includes(w));
+    ok('„naći" uopšte ima sinonime u glavnim rezultatima', bezSinonima.imaSinonimaUGlavnom > 0,
+      'nema sinonima — provera je bezvredna');
+    ok('sinonimi NE ulaze u panel uz stih', sinonimiUPanelu.length === 0, sinonimiUPanelu.join(', '));
+    ok('panel uz stih i dalje ima prave rime', bezSinonima.reci.some(w => /aći$/.test(w)),
+      bezSinonima.reci.slice(0, 8).join(', '));
+
+    // Klik na rimu: ubacuje je SA RAZMAKOM, panel ostaje usidren za reč sa
+    // kojom se rimuje i čipovi se ne precrtavaju (inače okvir „trepne").
+    await page.evaluate(() => {
+      document.querySelector('#noteRhymes .chip').dataset.proba = '1';
+    });
+    await page.click('#noteRhymes .chip');
+    await pauza(800);
+    const posleKlika = await page.evaluate(() => ({
+      probaOstala: !!document.querySelector('#noteRhymes .chip[data-proba="1"]'),
+      tekst: document.getElementById('noteEditor').innerText,
+      naslov: document.querySelector('#noteRhymes .nr-word').textContent,
+    }));
+    ok('klik na rimu ubacuje reč sa razmakom', / \S+$/.test(posleKlika.tekst) && !/naćip/i.test(posleKlika.tekst),
+      JSON.stringify(posleKlika.tekst));
+    ok('panel ostaje usidren za reč sa kojom se rimuje', posleKlika.naslov === 'naći', posleKlika.naslov);
+    ok('čipovi se ne precrtavaju posle klika (nema treperenja)', posleKlika.probaOstala);
+
+    const jos = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const btn = document.querySelector('.nr-more');
+      if (!btn) return { ima: false };
+      const pre = document.querySelectorAll('#noteRhymes .chip').length;
+      const tekst = btn.textContent;
+      btn.click(); await w(400);
+      const posle = document.querySelectorAll('#noteRhymes .chip').length;
+      document.querySelector('.nr-more').click(); await w(400);
+      return { ima: true, tekst, pre, posle, nazad: document.querySelectorAll('#noteRhymes .chip').length };
+    });
+    ok('panel nudi „još N rima"', jos.ima && /još \d+ rim/.test(jos.tekst), jos.tekst || 'nema dugmeta');
+    ok('„još N rima" otvara ostatak u samom panelu', jos.posle > jos.pre, `${jos.pre} → ${jos.posle}`);
+    ok('lista se može skupiti nazad', jos.nazad === jos.pre, `${jos.nazad}`);
+
+    console.log('\n7b) BELEŽNICA — premeštanje stihova (drag & drop)');
+    await page.evaluate(() => {
+      const ed = document.getElementById('noteEditor');
+      ed.innerHTML = 'prvi stih<br>drugi stih<br>treci stih';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    await pauza(900);
+    const hvataljka = await page.locator('.gutter-row[data-line="0"] .g-drag').boundingBox();
+    const cilj = await page.locator('.gutter-row[data-line="2"]').boundingBox();
+    let linijaVidljiva = false;
+    if (hvataljka && cilj) {
+      await page.mouse.move(hvataljka.x + hvataljka.width / 2, hvataljka.y + hvataljka.height / 2);
+      await page.mouse.down();
+      await page.mouse.move(hvataljka.x + hvataljka.width / 2, cilj.y + cilj.height * 0.9, { steps: 10 });
+      await pauza(150);
+      linijaVidljiva = await page.evaluate(() => {
+        const d = document.getElementById('noteDropLine');
+        return !!d && d.classList.contains('show');
+      });
+      await page.mouse.up();
+      await pauza(700);
+    }
+    const posle = await page.evaluate(() => ({
+      tekst: document.getElementById('noteEditor').innerText,
+      sacuvano: localStorage.getItem('rimoteka_notes'),
+    }));
+    ok('linija za ispuštanje se vidi tokom prevlačenja', linijaVidljiva);
+    ok('stih se premešta prevlačenjem', posle.tekst === 'drugi stih\ntreci stih\nprvi stih', JSON.stringify(posle.tekst));
+    ok('novi redosled stihova je sačuvan', posle.sacuvano === 'drugi stih\ntreci stih\nprvi stih', JSON.stringify(posle.sacuvano));
+
+    // Enter posle premeštanja i dalje pravi novi red (contenteditable je osetljiv)
+    await page.click('#noteEditor');
+    await page.keyboard.press('Control+End');
+    await page.keyboard.press('Enter');
+    await page.keyboard.type('cetvrti stih');
+    await pauza(800);
+    const posleKucanja = await page.evaluate(() => document.getElementById('noteEditor').innerText);
+    ok('Enter posle premeštanja pravi novi red', posleKucanja.split('\n').length === 4, JSON.stringify(posleKucanja));
+
+    console.log('\n7c) BELEŽNICA — metar (ritam stiha)');
+    // Metar sme da tvrdi samo ono što je sigurno po akcenatskim pravilima:
+    // dvosložna reč = naglašen + nenaglašen, klitika = nenaglašena,
+    // reč od 3+ sloga = poslednji nenaglašen, ostali NEPOZNATI (ne nagađamo).
+    const metarSkriven = await page.evaluate(() => document.getElementById('noteMeter').hidden);
+    ok('metar je podrazumevano skriven', metarSkriven === true);
+    await page.click('#toggleMeter');
+    await page.evaluate(() => {
+      const ed = document.getElementById('noteEditor');
+      ed.innerHTML = 'Vino pije Musa Arbanasa<br>u Stambolu među Turcima<br>kad se Musa nakitio vina<br>onda poče govoriti tiho';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    await pauza(900);
+    const metar = await page.evaluate(() => {
+      const box = document.getElementById('noteMeter');
+      const red = [...box.querySelectorAll('.meter-line')].filter(l => !l.classList.contains('meter-gap'));
+      const znak = s => s.classList.contains('m-s') ? 'S' : s.classList.contains('m-u') ? 'U' : '?';
+      return {
+        hidden: box.hidden,
+        head: box.querySelector('.meter-head').textContent,
+        redova: red.length,
+        ritam1: [...red[0].querySelectorAll('.m-syl')].map(znak).join(''),
+        odstupa: red.filter(l => l.querySelector('.m-count.off')).length,
+        cezure: box.querySelectorAll('.m-cez').length,
+        legenda: !!box.querySelector('.meter-legend'),
+      };
+    });
+    ok('metar se prikazuje na dugme', metar.hidden === false);
+    ok('metar ima red po stihu', metar.redova === 4, `${metar.redova}`);
+    ok('prepoznat deseterac sa cezurom 4+6', /deseterac/.test(metar.head) && /cezura posle 4/.test(metar.head), metar.head);
+    // „Vino pije Musa Arbanasa": vi-no pi-je mu-sa ar-ba-na-sa
+    ok('dvosložne reči: naglašen pa nenaglašen', metar.ritam1.startsWith('SUSUSU'), metar.ritam1);
+    ok('reč od 4 sloga: poslednji nenaglašen, ostali nepoznati', metar.ritam1.endsWith('???U'), metar.ritam1);
+    ok('cezura ucrtana u stih od 10 slogova', metar.cezure >= 3, `${metar.cezure}`);
+    ok('stih koji odstupa od metra je označen', metar.odstupa === 1, `${metar.odstupa}`);
+    ok('metar ima legendu', metar.legenda);
+
+    const klitike = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const ed = document.getElementById('noteEditor');
+      ed.innerHTML = 'ja sam na putu';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+      await w(700);
+      const red = [...document.querySelectorAll('.meter-line')].filter(l => !l.classList.contains('meter-gap'));
+      return [...red[0].querySelectorAll('.m-syl')]
+        .map(s => s.classList.contains('m-s') ? 'S' : s.classList.contains('m-u') ? 'U' : '?').join('');
+    });
+    ok('klitike („sam", „na") nisu naglašene', klitike === 'SUUSU', klitike);
+    await page.click('#toggleMeter');   // vrati u pređašnje stanje
+    await pauza(300);
+
     console.log('\n8) IGRA RIMA — ceo krug');
     const igra = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));

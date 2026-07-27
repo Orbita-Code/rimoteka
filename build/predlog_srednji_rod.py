@@ -24,6 +24,11 @@ PUB = os.path.join(ROOT, 'public')
 reci = [l.strip() for l in open(os.path.join(PUB,'reci.txt'), encoding='utf-8') if l.strip()]
 S = set(reci)
 defs = json.load(open(os.path.join(PUB,'definicije.json'), encoding='utf-8'))
+# Frekvencija iz srLex korpusa — jedini objektivan pokazatelj da li se reč
+# stvarno koristi. Predlog nasleđuje kvalitet osnovnog rečnika: ako je osnovna
+# reč sumnjiva, njeni padeži su takođe sumnjivi. Zato se predlog sortira po
+# frekvenciji, a reči bez ijedne pojave u korpusu izdvajaju na kraj.
+frek = json.load(open(os.path.join(PUB,'frekvencija.json'), encoding='utf-8'))
 
 # Objašnjenja vezuju oblik za osnovnu reč na DVA načina:
 #   „Oblik reči „tele“; …"           -> OBLIK
@@ -90,7 +95,14 @@ for b in sorted(srednji):
     # osnove „neb" ispalo „nebima" umesto „nebesima". Ako u rečniku postoji
     # proširen oblik, množinu uopšte ne predlažemo.
     prosirena_mnozina = any((b[:-1]+x) in S for x in ('esa','ena','eta'))
-    if not b.endswith('nje') and not st.endswith('et') and not prosirena_mnozina:
+    # MNOŽINU predlažemo samo ako je već POTVRĐENA u rečniku. Mnoge imenice
+    # srednjeg roda su apstraktne ili zbirne i množinu nemaju: zdravlje, povrće,
+    # mleko, stanovništvo, osoblje, članstvo. Ranije je od njih ispadalo
+    # „zdravljima, povrćima, mlekima" — oblici koji se ne koriste.
+    # Potvrda = neki oblik ove reči je u objašnjenju označen kao množina.
+    ima_mnozinu = any(re.search(r'\(množina od ' + re.escape(b) + r'\)', defs.get(f,''), re.I)
+                      for f in oblici_od[b])
+    if ima_mnozinu and not b.endswith('nje') and not st.endswith('et') and not prosirena_mnozina:
         ob['N/A/G mn'] = st+'a'
         ob['D/I/L mn'] = st+'ima'
 
@@ -100,9 +112,11 @@ for b in sorted(srednji):
     for k, v in novi.items():
         redovi.append((b, g, k, v, napomena))
 
+redovi.sort(key=lambda r: (-(frek.get(r[0]) or 0), r[0]))
 with open(os.path.join(ROOT,'build','predlog_srednji_rod.tsv'),'w',encoding='utf-8') as f:
-    f.write("imenica\tpotvrđen_genitiv\tpadež\tpredlog\tnapomena\n")
-    for r in redovi: f.write('\t'.join(r)+'\n')
+    f.write("imenica\tfrekvencija\tpotvrđen_genitiv\tpadež\tpredlog\tnapomena\n")
+    for r in redovi:
+        f.write('\t'.join([r[0], str(frek.get(r[0]) or 0), r[1], r[2], r[3], r[4]])+'\n')
 
 print(f"imenica srednjeg roda:            {len(srednji)}")
 print(f"sa potvrđenim genitivom:          {len(srednji)-len(bez_genitiva)}")

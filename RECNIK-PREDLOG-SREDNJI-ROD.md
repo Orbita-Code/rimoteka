@@ -1,4236 +1,3990 @@
 # Predlog dopune padeža — IMENICE SREDNJEG RODA
 
-> **NIŠTA nije upisano u `reci.txt`.** Ovo je lista za tvoj pregled.
+> **NIŠTA nije upisano u `reci.txt`.**
 
-- Imenica srednjeg roda prepoznato: **4.151**
-- Sa potvrđenim genitivom u rečniku: **3.372**
-- Bez genitiva (ne diramo ih): **779**
-- Imenica koje dobijaju bar jedan oblik: **2092**
-- Ukupno predloženih oblika: **3364**
+Sortirano po **frekvenciji u srLex korpusu** (435.000 reči). Razlog: predlog
+nasleđuje kvalitet osnovnog rečnika — ako je osnovna reč sumnjiva, i njeni
+padeži su sumnjivi. Zato prvo idu reči za koje nema dileme.
 
-## Kako je pravljeno
+**Oprez kod grupe E:** frekvencija 0 ne znači automatski da reč ne postoji —
+vlastita imena (*Arilje*, *Barajevo*) legitimno ne postoje u korpusu malih
+slova. Ali tu su i pravi sumnjivi unosi: *podosoje* i *osoje* imaju obe 0.
 
-Osnova se **čita iz potvrđenog genitiva**, ne izvodi iz nominativa — jer
-nominativ ne otkriva proširenu osnovu (*ime → imena*, *tele → teleta*).
-Genitiv mora da zadovolji **dva uslova**: da ima dozvoljen oblik genitiva
-srednjeg roda i da ga **objašnjenje veže baš za tu reč**. Nijedan uslov sam
-nije bio dovoljan — razlog je na dnu dokumenta.
+## Šta se NE predlaže
 
-Množina se **ne predlaže** kod glagolskih imenica na `-nje` (nemaju je), kod
-tipa *tele* (množina je zbirna: *telad*) i kod imenica sa proširenom množinom
-(*nebo → nebesa*, ne *neba*).
+- **Množina**, osim ako je već potvrđena u rečniku. Mnoge imenice srednjeg roda
+  su apstraktne ili zbirne i množinu nemaju: *zdravlje, povrće, stanovništvo,
+  osoblje, članstvo*. Ranije je od njih ispadalo *zdravljima, povrćima*.
+- Množina kod glagolskih imenica na `-nje`, kod tipa *tele* (zbirna: *telad*)
+  i kod imenica sa proširenom množinom (*nebo → nebesa*).
+- Bilo šta kod 779 imenica kojima genitiv nije potvrđen u rečniku.
 
+
+## Množinski oblici — pogledaj ove posebno
+
+Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vinima*, *pivima*). Ukupno **110** imenica:
+
+- **vino** *(frek. 10506)*: vinima
+- **mleko** *(frek. 8790)*: mlekima
+- **pivo** *(frek. 4383)*: pivima
+- **proleće** *(frek. 4122)*: prolećima
+- **prijateljstvo** *(frek. 3240)*: prijateljstvima
+- **slatko** *(frek. 3138)*: slatkima
+- **finale** *(frek. 2671)*: finalima
+- **siromaštvo** *(frek. 2381)*: siromaštvima
+- **tempo** *(frek. 2201)*: tempima
+- **detinjstvo** *(frek. 2055)*: detinjstvima
+- **grožđe** *(frek. 1884)*: grožđima
+- **testo** *(frek. 1597)*: testima
+- **tango** *(frek. 1374)*: tangima
+- **obilje** *(frek. 1232)*: obiljima
+- **gazdinstvo** *(frek. 953)*: gazdinstvima
+- **blato** *(frek. 933)*: blatima
+- **odredište** *(frek. 889)*: odredištima
+- **prebivalište** *(frek. 873)*: prebivalištima
+- **bekstvo** *(frek. 847)*: bekstvima
+- **polufinale** *(frek. 827)*: polufinalima
+- **ropstvo** *(frek. 808)*: ropstvima
+- **olovo** *(frek. 801)*: olovima
+- **prokletstvo** *(frek. 777)*: prokletstvima
+- **saučešće** *(frek. 693)*: saučešćima
+- **stepenište** *(frek. 674)*: stepeništima
+- **šetalište** *(frek. 665)*: šetalištima
+- **poluostrvo** *(frek. 626)*: poluostrvima
+- **roditeljstvo** *(frek. 602)*: roditeljstvima
+- **ustrojstvo** *(frek. 567)*: ustrojstvima
+- **primirje** *(frek. 511)*: primirjima
+- **beznađe** *(frek. 486)*: beznađima
+- **boravište** *(frek. 477)*: boravištima
+- **neprijateljstvo** *(frek. 470)*: neprijateljstvima
+- **klupko** *(frek. 435)*: klupkima
+- **rumenilo** *(frek. 421)*: rumenilima
+- **blaženstvo** *(frek. 404)*: blaženstvima
+- **prenoćište** *(frek. 347)*: prenoćištima
+- **savezništvo** *(frek. 334)*: savezništvima
+- **nadahnuće** *(frek. 333)*: nadahnućima
+- **punomoćje** *(frek. 331)*: punomoćjima
+- … i još 70
 
 ---
 
-## Obične imenice — 721 imenica, 1359 oblika
+## Grupa A — česte reči (1000+) — bez dileme
 
-- **akušerstvo** (potvrđen genitiv: *akušerstva*) — Grana medicine o porođaju; babičluk.
-  - D/L jd = **akušerstvu**, I jd = **akušerstvom**, D/I/L mn = **akušerstvima**
-- **antitelo** (potvrđen genitiv: *antitela*) — Odbrambena belančevina koju organizam stvara protiv stranih tela; anti
-  - D/L jd = **antitelu**, I jd = **antitelom**
-- **arilje** (potvrđen genitiv: *arilja*) — Arilje (grad u zapadnoj Srbiji).
-  - I jd = **ariljem**, D/I/L mn = **ariljima**
-- **armadilo** (potvrđen genitiv: *armadila*) — Sisar Južne Amerike prekriven koštanim oklopom, oklopnik; armadilo.
-  - D/L jd = **armadilu**, I jd = **armadilom**, D/I/L mn = **armadilima**
-- **autorstvo** (potvrđen genitiv: *autorstva*) — Svojstvo i pravo onoga ko je delo stvorio.
-  - I jd = **autorstvom**, D/I/L mn = **autorstvima**
-- **bankarstvo** (potvrđen genitiv: *bankarstva*) — Delatnost poslovanja bankama.
-  - D/I/L mn = **bankarstvima**
-- **bankrotstvo** (potvrđen genitiv: *bankrotstva*) — Potpuna poslovna propast; stečaj.
-  - D/L jd = **bankrotstvu**, I jd = **bankrotstvom**, D/I/L mn = **bankrotstvima**
-- **barajevo** (potvrđen genitiv: *barajeva*) — Barajevo — gradska opština Beograda.
-  - I jd = **barajevom**, D/I/L mn = **barajevima**
-- **barbarstvo** (potvrđen genitiv: *barbarstva*) — Surovost i nekultura; varvarstvo.
-  - D/L jd = **barbarstvu**, I jd = **barbarstvom**, D/I/L mn = **barbarstvima**
-- **baštovanstvo** (potvrđen genitiv: *baštovanstva*) — Gajenje povrća i cveća u bašti.
-  - D/I/L mn = **baštovanstvima**
-- **bdenije** (potvrđen genitiv: *bdenija*) — Noćno bogosluženje i molitva bez spavanja; budno čuvanje noću.
-  - I jd = **bdenijem**, D/I/L mn = **bdenijima**
-- **bekstvo** (potvrđen genitiv: *bekstva*) — Bežanje; beg od opasnosti.
-  - D/I/L mn = **bekstvima**
-- **belance** (potvrđen genitiv: *belanca*) — Beli deo jajeta oko žumanca; belance.
-  - D/L jd = **belancu**, I jd = **belancem**
-- **belilo** (potvrđen genitiv: *belila*) — Belo sredstvo za bojenje ili beljenje.
-  - D/L jd = **belilu**, D/I/L mn = **belilima**
-- **belkanto** (potvrđen genitiv: *belkanta*) — Lepo, virtuozno opersko pevanje sa naglaskom na lepoti tona; belkanto.
-  - D/L jd = **belkantu**, I jd = **belkantom**, D/I/L mn = **belkantima**
-- **besnilo** (potvrđen genitiv: *besnila*) — Opasna zarazna bolest životinja i ljudi.
-  - D/I/L mn = **besnilima**
-- **bezboštvo** (potvrđen genitiv: *bezboštva*) — Bezbožnost, nepostojanje vere u boga; bezboštvo.
-  - D/I/L mn = **bezboštvima**
-- **bezbožje** (potvrđen genitiv: *bezbožja*) — Bezbožnost, odsustvo vere i poricanje boga; bezbožje.
-  - D/L jd = **bezbožju**, D/I/L mn = **bezbožjima**
-- **beznađe** (potvrđen genitiv: *beznađa*) — Stanje bez nade.
-  - D/I/L mn = **beznađima**
-- **bezumlje** (potvrđen genitiv: *bezumlja*) — Ludilo i pomračenje razuma, bezumno i besmisleno stanje.
-  - D/I/L mn = **bezumljima**
-- **bezvlašće** (potvrđen genitiv: *bezvlašća*) — Stanje bez vlasti i reda; anarhija.
-  - I jd = **bezvlašćem**, D/I/L mn = **bezvlašćima**
-- **bijenale** (potvrđen genitiv: *bijenala*) — Smotra ili izložba koja se priređuje svake druge godine; bijenale.
-  - I jd = **bijenalem**, D/I/L mn = **bijenalima**
-- **bilje** (potvrđen genitiv: *bilja*) — Skup biljaka, naročito lekovitih; rastinje.
-  - D/I/L mn = **biljima**
-- **biralište** (potvrđen genitiv: *birališta*) — Mesto na kome se glasa na izborima, glasačko mesto; biralište.
-  - I jd = **biralištem**, D/I/L mn = **biralištima**
-- **bisage** (potvrđen genitiv: *bisaga*) — Dvostruka torba koja se prebacuje preko sedla ili ramena.
-  - D/L jd = **bisagu**, I jd = **bisagem**, D/I/L mn = **bisagima**
-- **bivstvo** (potvrđen genitiv: *bivstva*) — Postojanje; biće.
-  - I jd = **bivstvom**, D/I/L mn = **bivstvima**
-- **blagočešće** (potvrđen genitiv: *blagočešća*) — Reč „blagočešće“; pobožnost i poštovanje vere, bogobojaznost (živeli u
-  - D/L jd = **blagočešću**, I jd = **blagočešćem**, D/I/L mn = **blagočešćima**
-- **blatište** (potvrđen genitiv: *blatišta*) — Blatnjavo mesto, kaljuga, glib; blatište.
-  - I jd = **blatištem**, D/I/L mn = **blatištima**
-- **blato** (potvrđen genitiv: *blata*) — Mešavina zemlje i vode, kal.
-  - D/I/L mn = **blatima**
-- **blaženstvo** (potvrđen genitiv: *blaženstva*) — Najveća sreća i spokoj.
-  - D/I/L mn = **blaženstvima**
-- **bledilo** (potvrđen genitiv: *bledila*) — Bezbojnost, slabo rumenilo; bleda boja lica.
-  - D/I/L mn = **bledilima**
-- **blještavilo** (potvrđen genitiv: *blještavila*) — Oblik reči „blještavilo“; jak zaslepljujući sjaj, blesak; raskoš i sja
-  - D/L jd = **blještavilu**, I jd = **blještavilom**, D/I/L mn = **blještavilima**
-- **bogoljublje** (potvrđen genitiv: *bogoljublja*) — Ljubav prema bogu, pobožnost.
-  - D/I/L mn = **bogoljubljima**
-- **boravište** (potvrđen genitiv: *boravišta*) — Mesto gde neko boravi, prebivalište.
-  - D/I/L mn = **boravištima**
-- **borilište** (potvrđen genitiv: *borilišta*) — Mesto na kome se vodi borba, arena; borilište.
-  - I jd = **borilištem**, D/I/L mn = **borilištima**
-- **bratimstvo** (potvrđen genitiv: *bratimstva*) — Pobratimstvo, zajednica pobratima i bliskost kao među braćom; bratimst
-  - D/L jd = **bratimstvu**, I jd = **bratimstvom**, D/I/L mn = **bratimstvima**
-- **bratoljublje** (potvrđen genitiv: *bratoljublja*) — Ljubav prema bratu, sloga među braćom.
-  - I jd = **bratoljubljem**, D/I/L mn = **bratoljubljima**
-- **brdašce** (potvrđen genitiv: *brdašca*) — Malo brdo.
-  - I jd = **brdašcem**
-- **brodarstvo** (potvrđen genitiv: *brodarstva*) — Delatnost prevoza brodovima.
-  - I jd = **brodarstvom**, D/I/L mn = **brodarstvima**
-- **brodogradilište** (potvrđen genitiv: *brodogradilišta*) — Mesto gde se grade i popravljaju brodovi.
-  - I jd = **brodogradilištem**, D/I/L mn = **brodogradilištima**
-- **brojilo** (potvrđen genitiv: *brojila*) — Sprava koja broji i meri potrošnju (struje, vode).
-  - D/L jd = **brojilu**, I jd = **brojilom**
-- **brvno** (potvrđen genitiv: *brvna*) — Debela tesana greda; balvan preko reke kao most.
-  - D/L jd = **brvnu**, D/I/L mn = **brvnima**
-- **bugojno** (potvrđen genitiv: *bugojna*) — Bugojno (grad u središnjoj Bosni).
-  - I jd = **bugojnom**, D/I/L mn = **bugojnima**
-- **bunilo** (potvrđen genitiv: *bunila*) — Stanje pomućene svesti s nesuvislim govorom, naročito u groznici; deli
-  - I jd = **bunilom**, D/I/L mn = **bunilima**
-- **bunjište** (potvrđen genitiv: *bunjišta*) — Đubrište, smetlište, gomila otpadaka; bunjište.
-  - D/L jd = **bunjištu**, I jd = **bunjištem**, D/I/L mn = **bunjištima**
-- **buntovništvo** (potvrđen genitiv: *buntovništva*) — Sklonost pobuni i otporu protiv vlasti i pravila; buntovništvo.
-  - D/L jd = **buntovništvu**, I jd = **buntovništvom**, D/I/L mn = **buntovništvima**
-- **crevce** (potvrđen genitiv: *crevca*) — Malo crevo; tanko crevo za kobasice; crevce.
-  - D/L jd = **crevcu**, I jd = **crevcem**, D/I/L mn = **crevcima**
-- **crkvište** (potvrđen genitiv: *crkvišta*) — Mesto gde je bila crkva, ostaci i ruševine crkve; crkvište.
-  - I jd = **crkvištem**, D/I/L mn = **crkvištima**
-- **crnilo** (potvrđen genitiv: *crnila*) — Crna boja, mastilo.
-  - D/I/L mn = **crnilima**
-- **crvenilo** (potvrđen genitiv: *crvenila*) — Crvena boja; rumenilo na licu; sredstvo za bojenje u crveno; crvenilo.
-  - D/I/L mn = **crvenilima**
-- **cveće** (potvrđen genitiv: *cveća*) — Više cvetova zajedno; biljke koje cvetaju.
-  - D/I/L mn = **cvećima**
-- **desetleće** (potvrđen genitiv: *desetleća*) — Razdoblje od deset godina, decenija; desetleće.
-  - D/L jd = **desetleću**, I jd = **desetlećem**, D/I/L mn = **desetlećima**
-- **desetljeće** (potvrđen genitiv: *desetljeća*) — Oblik reči desetljeće (decenija — ijekavski).
-  - I jd = **desetljećem**, D/I/L mn = **desetljećima**
-- **detelište** (potvrđen genitiv: *detelišta*) — Reč „detelište“; njiva ili livada zasejana detelinom (pasli po deteliš
-  - I jd = **detelištem**, D/I/L mn = **detelištima**
-- **detinjstvo** (potvrđen genitiv: *detinjstva*) — Doba dok smo deca.
-  - D/I/L mn = **detinjstvima**
-- **devetoro** (potvrđen genitiv: *devetora*) — Zbirni broj: devet osoba mešovitog pola.
-  - D/L jd = **devetoru**, I jd = **devetorom**, D/I/L mn = **devetorima**
-- **devičanstvo** (potvrđen genitiv: *devičanstva*) — Stanje neokrnjene polne nevinosti.
-  - D/L jd = **devičanstvu**, I jd = **devičanstvom**, D/I/L mn = **devičanstvima**
-- **devojaštvo** (potvrđen genitiv: *devojaštva*) — Devojačko doba, stanje neudate devojke; devojaštvo.
-  - D/L jd = **devojaštvu**, I jd = **devojaštvom**, D/I/L mn = **devojaštvima**
-- **dezerterstvo** (potvrđen genitiv: *dezerterstva*) — Bekstvo iz vojske; napuštanje dužnosti.
-  - D/L jd = **dezerterstvu**, I jd = **dezerterstvom**, D/I/L mn = **dezerterstvima**
-- **dečaštvo** (potvrđen genitiv: *dečaštva*) — Dečje doba, period dečaka; dečaštvo.
-  - I jd = **dečaštvom**, D/I/L mn = **dečaštvima**
-- **dežurstvo** (potvrđen genitiv: *dežurstva*) — Služba u određeno vreme po rasporedu.
-  - I jd = **dežurstvom**, D/I/L mn = **dežurstvima**
-- **dinamo** (potvrđen genitiv: *dinama*) — Uređaj koji pokretom proizvodi struju; generator.
-  - D/I/L mn = **dinamima**
-- **dingo** (potvrđen genitiv: *dinga*) — Australijski divlji pas.
-  - D/L jd = **dingu**, I jd = **dingom**, D/I/L mn = **dingima**
-- **divljaštvo** (potvrđen genitiv: *divljaštva*) — Surovo, neobuzdano i necivilizovano ponašanje.
-  - D/L jd = **divljaštvu**, D/I/L mn = **divljaštvima**
-- **dleto** (potvrđen genitiv: *dleta*) — Alatka za rezbarenje drveta ili kamena.
-  - D/L jd = **dletu**
-- **dobročinstvo** (potvrđen genitiv: *dobročinstva*) — Činjenje dobrih dela i pomoć drugima.
-  - I jd = **dobročinstvom**
-- **dospeće** (potvrđen genitiv: *dospeća*) — Reč „dospeće“; dolazak u rok, naročito za plaćanje; rok kada nešto sti
-  - I jd = **dospećem**, D/I/L mn = **dospećima**
-- **drugarstvo** (potvrđen genitiv: *drugarstva*) — Druženje i sloga među drugovima.
-  - I jd = **drugarstvom**, D/I/L mn = **drugarstvima**
-- **držalje** (potvrđen genitiv: *držalja*) — Drška, ručica alata ili oruđa; držalje.
-  - I jd = **držaljem**, D/I/L mn = **držaljima**
-- **državljanstvo** (potvrđen genitiv: *državljanstva*) — Pravna pripadnost nekoj državi.
-  - I jd = **državljanstvom**, D/I/L mn = **državljanstvima**
-- **dvojstvo** (potvrđen genitiv: *dvojstva*) — Dvostrukost; postojanje u dva oblika.
-  - I jd = **dvojstvom**
-- **dvovlašće** (potvrđen genitiv: *dvovlašća*) — Istovremeno postojanje dve vlasti koje se takmiče; dvovlašće.
-  - D/L jd = **dvovlašću**, I jd = **dvovlašćem**, D/I/L mn = **dvovlašćima**
-- **eldorado** (potvrđen genitiv: *eldorada*) — Eldorado — bajkovita zemlja zlata i obilja.
-  - I jd = **eldoradom**, D/I/L mn = **eldoradima**
-- **embargo** (potvrđen genitiv: *embarga*) — Zabrana trgovine i poslovanja sa nekom državom; embargo.
-  - D/I/L mn = **embargima**
-- **esperanto** (potvrđen genitiv: *esperanta*) — Veštački stvoren međunarodni pomoćni jezik; esperanto.
-  - I jd = **esperantom**, D/I/L mn = **esperantima**
-- **espreso** (potvrđen genitiv: *espresa*) — Jaka kafa pripremljena pod pritiskom pare.
-  - D/L jd = **espresu**, I jd = **espresom**, D/I/L mn = **espresima**
-- **farmerstvo** (potvrđen genitiv: *farmerstva*) — Bavljenje farmom i poljoprivredom.
-  - D/L jd = **farmerstvu**, I jd = **farmerstvom**, D/I/L mn = **farmerstvima**
-- **fekalije** (potvrđen genitiv: *fekalija*) — Telesni otpad, izmet, ljudske ili životinjske nečistoće.
-  - D/L jd = **fekaliju**, I jd = **fekalijem**, D/I/L mn = **fekalijima**
-- **figaro** (potvrđen genitiv: *figara*) — Figaro — junak Bomaršeovih komedija (Figarova ženidba); berberin.
-  - D/L jd = **figaru**, I jd = **figarom**, D/I/L mn = **figarima**
-- **fijasko** (potvrđen genitiv: *fijaska*) — Potpun neuspeh, propast.
-  - D/L jd = **fijasku**, D/I/L mn = **fijaskima**
-- **finale** (potvrđen genitiv: *finala*) — Završni deo takmičenja ili dela; završnica.
-  - I jd = **finalem**, D/I/L mn = **finalima**
-- **finansije** (potvrđen genitiv: *finansija*) — Novčana sredstva i poslovi sa novcem.
-  - D/L jd = **finansiju**, I jd = **finansijem**, D/I/L mn = **finansijima**
-- **flamenko** (potvrđen genitiv: *flamenka*) — Vatreni španski ples i muzika sa gitarom i pljeskanjem; flamenko.
-  - D/L jd = **flamenku**, I jd = **flamenkom**, D/I/L mn = **flamenkima**
-- **flamingo** (potvrđen genitiv: *flaminga*) — Visoka ružičasta ptica dugih nogu i savijenog kljuna.
-  - I jd = **flamingom**, D/I/L mn = **flamingima**
-- **gajde** (potvrđen genitiv: *gajda*) — Duvački instrument sa mehom.
-  - D/L jd = **gajdu**, I jd = **gajdem**, D/I/L mn = **gajdima**
-- **ganuće** (potvrđen genitiv: *ganuća*) — Dirnutost, kad nas nešto gane.
-  - D/I/L mn = **ganućima**
-- **garište** (potvrđen genitiv: *garišta*) — Zgarište, mesto na kome je nešto izgorelo; garište.
-  - I jd = **garištem**, D/I/L mn = **garištima**
-- **gatarstvo** (potvrđen genitiv: *gatarstva*) — Bavljenje gatanjem i proricanjem.
-  - D/L jd = **gatarstvu**, I jd = **gatarstvom**, D/I/L mn = **gatarstvima**
-- **gazdinstvo** (potvrđen genitiv: *gazdinstva*) — Domaćinstvo i imanje na kome se privređuje.
-  - I jd = **gazdinstvom**, D/I/L mn = **gazdinstvima**
-- **gaće** (potvrđen genitiv: *gaća*) — Donji veš; donje rublje.
-  - D/L jd = **gaću**, I jd = **gaćem**, D/I/L mn = **gaćima**
-- **gaćice** (potvrđen genitiv: *gaćica*) — Donji veš, male gaće.
-  - D/L jd = **gaćicu**, I jd = **gaćicem**, D/I/L mn = **gaćicima**
-- **genitalije** (potvrđen genitiv: *genitalija*) — Polni organi.
-  - D/L jd = **genitaliju**, I jd = **genitalijem**, D/I/L mn = **genitalijima**
-- **geslo** (potvrđen genitiv: *gesla*) — Lozinka, parola; vodeća misao po kojoj se neko upravlja.
-  - D/L jd = **geslu**, D/I/L mn = **geslima**
-- **gestapo** (potvrđen genitiv: *gestapa*) — Tajna policija nacističke Nemačke.
-  - I jd = **gestapom**, D/I/L mn = **gestapima**
-- **geto** (potvrđen genitiv: *geta*) — Siromašni, izolovani deo grada.
-  - I jd = **getom**
-- **gledalište** (potvrđen genitiv: *gledališta*) — Prostor sa sedištima za gledaoce.
-  - I jd = **gledalištem**, D/I/L mn = **gledalištima**
-- **glumište** (potvrđen genitiv: *glumišta*) — Pozorište, mesto gde se glumi.
-  - I jd = **glumištem**, D/I/L mn = **glumištima**
-- **gnezdašce** (potvrđen genitiv: *gnezdašca*) — Malo gnezdo.
-  - D/L jd = **gnezdašcu**, I jd = **gnezdašcem**, D/I/L mn = **gnezdašcima**
-- **gnjilane** (potvrđen genitiv: *gnjilana*) — Gnjilane — grad na Kosovu i Metohiji.
-  - I jd = **gnjilanem**, D/I/L mn = **gnjilanima**
-- **gnojivo** (potvrđen genitiv: *gnojiva*) — Sredstvo za đubrenje zemlje; đubrivo.
-  - D/L jd = **gnojivu**, D/I/L mn = **gnojivima**
-- **godište** (potvrđen genitiv: *godišta*) — Godina rođenja; svi rođeni iste godine.
-  - I jd = **godištem**
-- **goražde** (potvrđen genitiv: *goražda*) — Goražde — grad u Bosni i Hercegovini.
-  - D/I/L mn = **goraždima**
-- **gospodstvo** (potvrđen genitiv: *gospodstva*) — Otmenost i gospodsko držanje.
-  - D/I/L mn = **gospodstvima**
-- **gostoljublje** (potvrđen genitiv: *gostoljublja*) — Lepo primanje i ugošćavanje gostiju.
-  - I jd = **gostoljubljem**, D/I/L mn = **gostoljubljima**
-- **gostoprimstvo** (potvrđen genitiv: *gostoprimstva*) — Lepo primanje i ugošćavanje gostiju.
-  - D/I/L mn = **gostoprimstvima**
-- **govedo** (potvrđen genitiv: *goveda*) — Krupna domaća životinja; pogrdno za glupavog čoveka.
-  - I jd = **govedom**
-- **gradilište** (potvrđen genitiv: *gradilišta*) — Mesto gde se gradi.
-  - I jd = **gradilištem**
-- **gradivo** (potvrđen genitiv: *gradiva*) — Ono što se uči; nastavna materija.
-  - D/I/L mn = **gradivima**
-- **gradište** (potvrđen genitiv: *gradišta*) — Oblik reči gradište (ostaci starog utvrđenja, gradina).
-  - D/I/L mn = **gradištima**
-- **građanstvo** (potvrđen genitiv: *građanstva*) — Svi građani neke zemlje ili grada.
-  - I jd = **građanstvom**, D/I/L mn = **građanstvima**
-- **grizodušje** (potvrđen genitiv: *grizodušja*) — Griža savesti, mučno kajanje; grizodušje.
-  - D/L jd = **grizodušju**, D/I/L mn = **grizodušjima**
-- **grmlje** (potvrđen genitiv: *grmlja*) — Niske razgranate biljke (množina od grm).
-  - D/I/L mn = **grmljima**
-- **grnčarstvo** (potvrđen genitiv: *grnčarstva*) — Zanat izrade posuđa od gline; lončarstvo.
-  - D/L jd = **grnčarstvu**, I jd = **grnčarstvom**, D/I/L mn = **grnčarstvima**
-- **grotlo** (potvrđen genitiv: *grotla*) — Otvor, ždrelo (vulkana, topa, peći); grotlo.
-  - I jd = **grotlom**, D/I/L mn = **grotlima**
-- **grožđe** (potvrđen genitiv: *grožđa*) — Voće u grozdovima od kog se pravi i sok i vino.
-  - D/I/L mn = **grožđima**
-- **guano** (potvrđen genitiv: *guana*) — Đubrivo od ptičjeg ili šišmišjeg izmeta.
-  - D/L jd = **guanu**, I jd = **guanom**, D/I/L mn = **guanima**
-- **gubilište** (potvrđen genitiv: *gubilišta*) — Mesto gde se izvršavaju smrtne kazne; stratište.
-  - I jd = **gubilištem**, D/I/L mn = **gubilištima**
-- **gudalo** (potvrđen genitiv: *gudala*) — Štap sa strunama kojim se svira violina.
-  - D/L jd = **gudalu**
-- **gumno** (potvrđen genitiv: *gumna*) — Poravnan, utaban prostor na kome se vrše žito; gumno.
-  - I jd = **gumnom**, D/I/L mn = **gumnima**
-- **gusle** (potvrđen genitiv: *gusla*) — Narodni instrument sa jednom žicom uz koji se peva.
-  - D/L jd = **guslu**, I jd = **guslem**, D/I/L mn = **guslima**
-- **guvno** (potvrđen genitiv: *guvna*) — Oblik reči guvno (utabani prostor za vršidbu žita).
-  - I jd = **guvnom**
-- **gučevo** (potvrđen genitiv: *gučeva*) — Gučevo (planina kod Loznice).
-  - I jd = **gučevom**, D/I/L mn = **gučevima**
-- **herojstvo** (potvrđen genitiv: *herojstva*) — Junaštvo; herojski podvig.
-  - D/I/L mn = **herojstvima**
-- **hodočašće** (potvrđen genitiv: *hodočašća*) — Putovanje na sveto mesto.
-  - D/I/L mn = **hodočašćima**
-- **homolje** (potvrđen genitiv: *homolja*) — Homolje — planinski predeo u istočnoj Srbiji.
-  - I jd = **homoljem**, D/I/L mn = **homoljima**
-- **hranilište** (potvrđen genitiv: *hranilišta*) — Mesto na kome se hrani divljač ili stoka; hranilište.
-  - I jd = **hranilištem**, D/I/L mn = **hranilištima**
-- **hraniteljstvo** (potvrđen genitiv: *hraniteljstva*) — Brižno staranje o tuđem detetu kao o svom.
-  - D/L jd = **hraniteljstvu**, I jd = **hraniteljstvom**, D/I/L mn = **hraniteljstvima**
-- **hrišćanstvo** (potvrđen genitiv: *hrišćanstva*) — Vera zasnovana na učenju Isusa Hrista.
-  - D/I/L mn = **hrišćanstvima**
-- **hrvatstvo** (potvrđen genitiv: *hrvatstva*) — Hrvatska nacionalna pripadnost i svest; hrvatstvo.
-  - D/I/L mn = **hrvatstvima**
-- **idolopoklonstvo** (potvrđen genitiv: *idolopoklonstva*) — Obožavanje idola; preterano klanjanje nekome.
-  - D/L jd = **idolopoklonstvu**, I jd = **idolopoklonstvom**, D/I/L mn = **idolopoklonstvima**
-- **ilirstvo** (potvrđen genitiv: *ilirstva*) — Reč „ilirstvo“; pripadnost ilirskom pokretu i ideji; ilirizam (zastupa
-  - I jd = **ilirstvom**, D/I/L mn = **ilirstvima**
-- **inostranstvo** (potvrđen genitiv: *inostranstva*) — Strane zemlje; svet van domovine.
-  - D/I/L mn = **inostranstvima**
-- **inozemstvo** (potvrđen genitiv: *inozemstva*) — Inozemstvo — inostranstvo (varijanta).
-  - I jd = **inozemstvom**, D/I/L mn = **inozemstvima**
-- **intermeco** (potvrđen genitiv: *intermeca*) — Kratak umetnut muzički ili scenski deo, međuigra; intermeco.
-  - I jd = **intermecem**, D/I/L mn = **intermecima**
-- **inženjerstvo** (potvrđen genitiv: *inženjerstva*) — Struka i delatnost inženjera.
-  - I jd = **inženjerstvom**, D/I/L mn = **inženjerstvima**
-- **inžinjerstvo** (potvrđen genitiv: *inžinjerstva*) — Inženjerstvo, struka i delatnost inženjera.
-  - D/L jd = **inžinjerstvu**, I jd = **inžinjerstvom**, D/I/L mn = **inžinjerstvima**
-- **ishodište** (potvrđen genitiv: *ishodišta*) — Polazna tačka; izvor i početak.
-  - D/I/L mn = **ishodištima**
-- **iskliznuće** (potvrđen genitiv: *iskliznuća*) — Izmicanje, klizanje u stranu, iskliznuće s pravog mesta; iskliznuće.
-  - D/L jd = **iskliznuću**, I jd = **iskliznućem**, D/I/L mn = **iskliznućima**
-- **izaslanstvo** (potvrđen genitiv: *izaslanstva*) — Grupa poslanih predstavnika; delegacija.
-  - D/L jd = **izaslanstvu**, I jd = **izaslanstvom**, D/I/L mn = **izaslanstvima**
-- **izdajstvo** (potvrđen genitiv: *izdajstva*) — Izneveravanje poverenja; izdaja.
-  - D/I/L mn = **izdajstvima**
-- **izdavaštvo** (potvrđen genitiv: *izdavaštva*) — Delatnost objavljivanja i štampanja knjiga, novina i časopisa.
-  - D/I/L mn = **izdavaštvima**
-- **izgnanstvo** (potvrđen genitiv: *izgnanstva*) — Prinudni boravak van domovine; progonstvo.
-  - I jd = **izgnanstvom**, D/I/L mn = **izgnanstvima**
-- **izletište** (potvrđen genitiv: *izletišta*) — Mesto pogodno za izlete.
-  - I jd = **izletištem**
-- **izobilje** (potvrđen genitiv: *izobilja*) — Velika obilnost svega.
-  - D/I/L mn = **izobiljima**
-- **izvorište** (potvrđen genitiv: *izvorišta*) — Mesto gde reka izvire.
-  - I jd = **izvorištem**, D/I/L mn = **izvorištima**
-- **iščeznuće** (potvrđen genitiv: *iščeznuća*) — Oblik reči iščeznuti (nestajanje, gubljenje bez traga).
-  - D/I/L mn = **iščeznućima**
-- **jajašce** (potvrđen genitiv: *jajašca*) — Malo jaje.
-  - D/L jd = **jajašcu**, I jd = **jajašcem**
-- **jajce** (potvrđen genitiv: *jajca*) — Jajce — grad u centralnoj Bosni (vodopad; AVNOJ).
-  - I jd = **jajcem**, D/I/L mn = **jajcima**
-- **jaje** (potvrđen genitiv: *jaja*) — Ovalni plod kokoške od kog se izleže pile.
-  - D/L jd = **jaju**
-- **jastvo** (potvrđen genitiv: *jastva*) — Oblik reči jastvo (svest o sopstvenom ja, vlastita ličnost).
-  - D/L jd = **jastvu**, I jd = **jastvom**, D/I/L mn = **jastvima**
-- **jednoumlje** (potvrđen genitiv: *jednoumlja*) — Jednostrano, ograničeno mišljenje; nametnuto jedinstvo mišljenja; jedn
-  - I jd = **jednoumljem**, D/I/L mn = **jednoumljima**
-- **jevanđelje** (potvrđen genitiv: *jevanđelja*) — Sveta knjiga o Hristovom životu i učenju.
-  - I jd = **jevanđeljem**
-- **jevrejstvo** (potvrđen genitiv: *jevrejstva*) — Jevreji kao narod i zajednica; jevrejska vera i tradicija; jevrejstvo.
-  - I jd = **jevrejstvom**, D/I/L mn = **jevrejstvima**
-- **jezerce** (potvrđen genitiv: *jezerca*) — Malo jezero.
-  - I jd = **jezercem**
-- **jurke** (potvrđen genitiv: *jurka*) — Dečja igra jurenja i hvatanja.
-  - D/L jd = **jurku**, I jd = **jurkem**, D/I/L mn = **jurkima**
-- **kairo** (potvrđen genitiv: *kaira*) — Glavni grad Egipta.
-  - I jd = **kairom**, D/I/L mn = **kairima**
-- **kakao** (potvrđen genitiv: *kakaa*) — Smeđi prah od kog se prave čokolada i topli napitak.
-  - D/I/L mn = **kakaima**
-- **kapućino** (potvrđen genitiv: *kapućina*) — Vrsta kafe sa zapenjenim mlekom.
-  - D/L jd = **kapućinu**, I jd = **kapućinom**, D/I/L mn = **kapućinima**
-- **karanovo** (potvrđen genitiv: *karanova*) — Karanovo (arheološko nalazište; naselje).
-  - D/L jd = **karanovu**, I jd = **karanovom**, D/I/L mn = **karanovima**
-- **karaoke** (potvrđen genitiv: *karaoka*) — Pevanje uz snimljenu muziku radi zabave.
-  - D/L jd = **karaoku**, I jd = **karaokem**, D/I/L mn = **karaokima**
-- **karavađo** (potvrđen genitiv: *karavađa*) — Karavađo — čuveni italijanski slikar baroka (Mikelanđelo Merizi da Kar
-  - I jd = **karavađem**, D/I/L mn = **karavađima**
-- **katoličanstvo** (potvrđen genitiv: *katoličanstva*) — Katolička grana hrišćanske vere.
-  - D/L jd = **katoličanstvu**, I jd = **katoličanstvom**, D/I/L mn = **katoličanstvima**
-- **kimono** (potvrđen genitiv: *kimona*) — Tradicionalna japanska odeća dugih rukava.
-  - I jd = **kimonom**, D/I/L mn = **kimonima**
-- **kjoto** (potvrđen genitiv: *kjota*) — Drevni grad u Japanu, nekadašnja prestonica.
-  - I jd = **kjotom**, D/I/L mn = **kjotima**
-- **kladivo** (potvrđen genitiv: *kladiva*) — Kladivo — čekić, malj (varijanta/dijalekatski).
-  - D/L jd = **kladivu**, I jd = **kladivom**, D/I/L mn = **kladivima**
-- **kladovo** (potvrđen genitiv: *kladova*) — Kladovo — grad na Dunavu (istočna Srbija, Đerdap).
-  - I jd = **kladovom**, D/I/L mn = **kladovima**
-- **klatno** (potvrđen genitiv: *klatna*) — Visak koji se njiše na satu.
-  - D/I/L mn = **klatnima**
-- **klizalište** (potvrđen genitiv: *klizališta*) — Uređena ledena površina za klizanje.
-  - I jd = **klizalištem**, D/I/L mn = **klizalištima**
-- **klizište** (potvrđen genitiv: *klizišta*) — Klizanje zemljišta niz padinu.
-  - D/L jd = **klizištu**, I jd = **klizištem**, D/I/L mn = **klizištima**
-- **kljuse** (potvrđen genitiv: *kljusa*) — Mršav, slab konj.
-  - D/L jd = **kljusu**, I jd = **kljusem**, D/I/L mn = **kljusima**
-- **klonuće** (potvrđen genitiv: *klonuća*) — Gubitak snage i volje; malaksalost.
-  - D/L jd = **klonuću**, I jd = **klonućem**, D/I/L mn = **klonućima**
-- **klupko** (potvrđen genitiv: *klupka*) — Smotana pređa u loptu.
-  - D/I/L mn = **klupkima**
-- **koeljo** (potvrđen genitiv: *koelja*) — Koeljo — Paulo Koeljo, brazilski pisac (Alhemičar).
-  - D/L jd = **koelju**, I jd = **koeljem**, D/I/L mn = **koeljima**
-- **kolence** (potvrđen genitiv: *kolenca*) — Malo koleno; takođe čvor na stabljici biljke.
-  - D/L jd = **kolencu**, I jd = **kolencem**
-- **koljivo** (potvrđen genitiv: *koljiva*) — Kuvano žito sa orasima koje se sprema na pomenu, žito.
-  - D/I/L mn = **koljivima**
-- **kolorado** (potvrđen genitiv: *kolorada*) — Savezna država u SAD; reka.
-  - I jd = **koloradom**, D/I/L mn = **koloradima**
-- **kolumbo** (potvrđen genitiv: *kolumba*) — Kolumbo — Kristofor Kolumbo, otkrivač Amerike; TV detektiv.
-  - D/L jd = **kolumbu**, I jd = **kolumbom**, D/I/L mn = **kolumbima**
-- **komunalije** (potvrđen genitiv: *komunalija*) — Oblik reči „komunalije“; komunalne usluge i naknade za vodu, struju, s
-  - D/L jd = **komunaliju**, I jd = **komunalijem**, D/I/L mn = **komunalijima**
-- **konjarstvo** (potvrđen genitiv: *konjarstva*) — Gajenje konja.
-  - I jd = **konjarstvom**, D/I/L mn = **konjarstvima**
-- **kopile** (potvrđen genitiv: *kopila*) — Dete rođeno van braka, vanbračno dete; pogrdno: hulja i nitkov.
-  - D/L jd = **kopilu**, I jd = **kopilem**
-- **koristoljublje** (potvrđen genitiv: *koristoljublja*) — Sebičnost, žudnja za sopstvenom koristi, gramzivost; koristoljublje.
-  - D/L jd = **koristoljublju**, D/I/L mn = **koristoljubljima**
-- **kormilo** (potvrđen genitiv: *kormila*) — Sprava kojom se upravlja brodom ili kolima.
-  - D/I/L mn = **kormilima**
-- **korzo** (potvrđen genitiv: *korza*) — Glavna ulica i šetalište u gradu; večernja šetnja; korzo.
-  - D/I/L mn = **korzima**
-- **kovilje** (potvrđen genitiv: *kovilja*) — Stepska trava sa srebrnastim klasovima; kovilje.
-  - I jd = **koviljem**, D/I/L mn = **koviljima**
-- **kresivo** (potvrđen genitiv: *kresiva*) — Pribor za kresanje vatre, kremen i čelik; kresivo.
-  - D/L jd = **kresivu**, D/I/L mn = **kresivima**
-- **krilce** (potvrđen genitiv: *krilca*) — Malo krilo.
-  - D/L jd = **krilcu**, I jd = **krilcem**
-- **krivokletstvo** (potvrđen genitiv: *krivokletstva*) — Lažna zakletva pred sudom.
-  - D/L jd = **krivokletstvu**, I jd = **krivokletstvom**, D/I/L mn = **krivokletstvima**
-- **krivoverje** (potvrđen genitiv: *krivoverja*) — Jeres, lažno verovanje; krivoverje.
-  - D/L jd = **krivoverju**, I jd = **krivoverjem**, D/I/L mn = **krivoverjima**
-- **krvoproliće** (potvrđen genitiv: *krvoprolića*) — Masovno prolivanje krvi, pokolj; krvoproliće.
-  - D/I/L mn = **krvoprolićima**
-- **kulinarstvo** (potvrđen genitiv: *kulinarstva*) — Veština i umetnost spremanja jela.
-  - I jd = **kulinarstvom**, D/I/L mn = **kulinarstvima**
-- **kumstvo** (potvrđen genitiv: *kumstva*) — Odnos i obaveza kuma.
-  - D/I/L mn = **kumstvima**
-- **kupalište** (potvrđen genitiv: *kupališta*) — Uređeno mesto za kupanje na vodi; kupalište.
-  - I jd = **kupalištem**, D/I/L mn = **kupalištima**
-- **kućište** (potvrđen genitiv: *kućišta*) — Spoljni omotač uređaja koji štiti unutrašnje delove.
-  - D/I/L mn = **kućištima**
-- **kvačilo** (potvrđen genitiv: *kvačila*) — Mehanizam koji spaja motor i menjač u vozilu.
-  - D/L jd = **kvačilu**, D/I/L mn = **kvačilima**
-- **ladino** (potvrđen genitiv: *ladina*) — Jevrejsko-španski jezik sefardskih Jevreja; ladino.
-  - D/L jd = **ladinu**, I jd = **ladinom**, D/I/L mn = **ladinima**
-- **lakomstvo** (potvrđen genitiv: *lakomstva*) — Pohlepa, nezasitost; lakomost.
-  - D/L jd = **lakomstvu**, D/I/L mn = **lakomstvima**
-- **lebane** (potvrđen genitiv: *lebana*) — Lebane — varošica u južnoj Srbiji (Jablanica).
-  - I jd = **lebanem**, D/I/L mn = **lebanima**
-- **leglo** (potvrđen genitiv: *legla*) — Mesto gde životinja koti mladunce; mladunci iz jednog kotenja.
-  - I jd = **leglom**
-- **lekarstvo** (potvrđen genitiv: *lekarstva*) — Lekarska struka; medicina.
-  - D/L jd = **lekarstvu**, I jd = **lekarstvom**, D/I/L mn = **lekarstvima**
-- **letovalište** (potvrđen genitiv: *letovališta*) — Mesto gde se provodi letnji odmor.
-  - D/L jd = **letovalištu**, I jd = **letovalištem**, D/I/L mn = **letovalištima**
-- **lečilište** (potvrđen genitiv: *lečilišta*) — Mesto i ustanova za lečenje i oporavak; lečilište.
-  - I jd = **lečilištem**, D/I/L mn = **lečilištima**
-- **ležište** (potvrđen genitiv: *ležišta*) — Mesto gde nešto leži; nalazište rude.
-  - I jd = **ležištem**
-- **libero** (potvrđen genitiv: *libera*) — Slobodni igrač u odbojci ili fudbalu, bez napadačke obaveze.
-  - D/L jd = **liberu**, I jd = **liberom**, D/I/L mn = **liberima**
-- **libido** (potvrđen genitiv: *libida*) — Polni nagon, seksualna želja.
-  - D/I/L mn = **libidima**
-- **lice** (potvrđen genitiv: *lica*) — Prednji deo glave.
+**63 imenica, 79 oblika**
+
+- **lice** *(frek. 28781, gen. lica)* — Prednji deo glave.
   - D/L jd = **licu**
-- **licemerje** (potvrđen genitiv: *licemerja*) — Pretvaranje, dvoličnost; glumljenje vrline.
-  - D/I/L mn = **licemerjima**
-- **liderstvo** (potvrđen genitiv: *liderstva*) — Svojstvo i uloga vođe.
-  - D/I/L mn = **liderstvima**
-- **lišće** (potvrđen genitiv: *lišća*) — Svi listovi zajedno na biljci.
-  - D/I/L mn = **lišćima**
-- **ljepilo** (potvrđen genitiv: *ljepila*) — Ljepilo — lepak (ijekavski).
-  - D/L jd = **ljepilu**, I jd = **ljepilom**, D/I/L mn = **ljepilima**
-- **ljudstvo** (potvrđen genitiv: *ljudstva*) — Skup ljudi; osoblje.
-  - D/I/L mn = **ljudstvima**
-- **lordstvo** (potvrđen genitiv: *lordstva*) — Plemićka titula i položaj lorda.
-  - D/L jd = **lordstvu**, I jd = **lordstvom**, D/I/L mn = **lordstvima**
-- **lovište** (potvrđen genitiv: *lovišta*) — Područje na kome je dozvoljen i uređen lov.
-  - I jd = **lovištem**
-- **lovstvo** (potvrđen genitiv: *lovstva*) — Delatnost lova i uzgoja divljači.
-  - I jd = **lovstvom**, D/I/L mn = **lovstvima**
-- **ložište** (potvrđen genitiv: *ložišta*) — Mesto u peći ili kotlu gde gori vatra; ložište.
-  - D/I/L mn = **ložištima**
-- **ludilo** (potvrđen genitiv: *ludila*) — Stanje bezumlja; nešto vrlo uzbudljivo ili haotično.
-  - D/I/L mn = **ludilima**
-- **majčinstvo** (potvrđen genitiv: *majčinstva*) — Svojstvo i uloga majke.
-  - I jd = **majčinstvom**, D/I/L mn = **majčinstvima**
-- **makaze** (potvrđen genitiv: *makaza*) — Alatka sa dva sečiva za sečenje.
-  - D/L jd = **makazu**, I jd = **makazem**, D/I/L mn = **makazima**
-- **malje** (potvrđen genitiv: *malja*) — Sitne mekane dlačice.
-  - D/L jd = **malju**, D/I/L mn = **maljima**
-- **manekenstvo** (potvrđen genitiv: *manekenstva*) — Zanimanje predstavljanja odeće na modnoj pisti.
-  - D/I/L mn = **manekenstvima**
-- **maraskino** (potvrđen genitiv: *maraskina*) — Liker od maraske, vrste višnje; maraskino.
-  - D/L jd = **maraskinu**, I jd = **maraskinom**, D/I/L mn = **maraskinima**
-- **maroko** (potvrđen genitiv: *maroka*) — Država u severnoj Africi (Maroko).
-  - I jd = **marokom**, D/I/L mn = **marokima**
-- **maslo** (potvrđen genitiv: *masla*) — Prečišćen topljeni maslac.
-  - D/L jd = **maslu**, D/I/L mn = **maslima**
-- **masonstvo** (potvrđen genitiv: *masonstva*) — Tajno bratstvo slobodnih zidara.
-  - D/I/L mn = **masonstvima**
-- **materinstvo** (potvrđen genitiv: *materinstva*) — Stanje i osećaj majke prema detetu.
-  - D/L jd = **materinstvu**, I jd = **materinstvom**, D/I/L mn = **materinstvima**
-- **mazivo** (potvrđen genitiv: *maziva*) — Mast ili ulje za podmazivanje; lubrikant.
-  - D/L jd = **mazivu**
-- **mašinstvo** (potvrđen genitiv: *mašinstva*) — Tehnička struka o mašinama.
-  - D/I/L mn = **mašinstvima**
-- **maštanije** (potvrđen genitiv: *maštanija*) — Sanjarenje, izmišljotina, maštarija; maštanije.
-  - D/L jd = **maštaniju**, I jd = **maštanijem**, D/I/L mn = **maštanijima**
-- **mefisto** (potvrđen genitiv: *mefista*) — Mefisto — Mefistofel, đavo iz legende o Faustu.
-  - D/L jd = **mefistu**, I jd = **mefistom**, D/I/L mn = **mefistima**
-- **meksiko** (potvrđen genitiv: *meksika*) — Država u Severnoj Americi.
-  - D/I/L mn = **meksikima**
-- **mekuštvo** (potvrđen genitiv: *mekuštva*) — Mlitavost, razmaženost, slabost karaktera; mekuštvo.
-  - D/L jd = **mekuštvu**, I jd = **mekuštvom**, D/I/L mn = **mekuštvima**
-- **mentorstvo** (potvrđen genitiv: *mentorstva*) — Vođenje i savetovanje mlađih.
-  - D/L jd = **mentorstvu**, I jd = **mentorstvom**, D/I/L mn = **mentorstvima**
-- **merdare** (potvrđen genitiv: *merdara*) — Merdare — mesto i prevoj u Srbiji, kod Kuršumlije.
-  - I jd = **merdarem**, D/I/L mn = **merdarima**
-- **merdevine** (potvrđen genitiv: *merdevina*) — Prenosive lestve za penjanje.
-  - D/L jd = **merdevinu**, I jd = **merdevinem**, D/I/L mn = **merdevinima**
-- **mesojeđe** (potvrđen genitiv: *mesojeđa*) — Razdoblje kada se po verskim pravilima sme jesti meso; mesojeđe.
-  - D/L jd = **mesojeđu**, I jd = **mesojeđem**, D/I/L mn = **mesojeđima**
-- **mestašce** (potvrđen genitiv: *mestašca*) — Malo mesto; mestance.
-  - I jd = **mestašcem**, D/I/L mn = **mestašcima**
-- **međunožje** (potvrđen genitiv: *međunožja*) — Predeo između nogu; prepone.
-  - I jd = **međunožjem**, D/I/L mn = **međunožjima**
-- **međurečje** (potvrđen genitiv: *međurečja*) — Oblik reči međurečje (oblast između dve reke).
-  - I jd = **međurečjem**, D/I/L mn = **međurečjima**
-- **mikado** (potvrđen genitiv: *mikada*) — Mikado — japanski car (mikado); igra štapićima mikado.
-  - D/L jd = **mikadu**, I jd = **mikadom**, D/I/L mn = **mikadima**
-- **minare** (potvrđen genitiv: *minara*) — Visoki toranj uz džamiju, minaret; minare.
-  - D/L jd = **minaru**, I jd = **minarem**
-- **mito** (potvrđen genitiv: *mita*) — Novac ili dar dat da bi se neko podmitio; potkupljivanje.
-  - D/I/L mn = **mitima**
-- **mlekarstvo** (potvrđen genitiv: *mlekarstva*) — Prerada mleka i mlečnih proizvoda.
-  - I jd = **mlekarstvom**, D/I/L mn = **mlekarstvima**
-- **mleko** (potvrđen genitiv: *mleka*) — Bela tečnost kojom se hrane bebe i mladunci; daju je krave.
-  - D/I/L mn = **mlekima**
-- **mogućstvo** (potvrđen genitiv: *mogućstva*) — Mogućnost, prilika da se nešto učini; mogućstvo.
-  - I jd = **mogućstvom**, D/I/L mn = **mogućstvima**
-- **monako** (potvrđen genitiv: *monaka*) — Monako — mala kneževina na francuskoj rivijeri.
-  - D/I/L mn = **monakima**
-- **monaštvo** (potvrđen genitiv: *monaštva*) — Monaški, kaluđerski život i red; monaštvo.
-  - D/I/L mn = **monaštvima**
-- **močilo** (potvrđen genitiv: *močila*) — Mesto gde se nešto natapa u vodi (lan, konoplja); močilo.
-  - I jd = **močilom**, D/I/L mn = **močilima**
-- **mračnjaštvo** (potvrđen genitiv: *mračnjaštva*) — Nazadnjaštvo, neprijateljstvo prema prosveti, opskurantizam; mračnjašt
-  - D/L jd = **mračnjaštvu**, I jd = **mračnjaštvom**, D/I/L mn = **mračnjaštvima**
-- **mrtvilo** (potvrđen genitiv: *mrtvila*) — Obamrlost, nepokretnost, učmalost, zatišje; mrtvilo.
-  - D/I/L mn = **mrtvilima**
-- **mučeništvo** (potvrđen genitiv: *mučeništva*) — Trpljenje velikih muka, stradanje za uverenje; mučeništvo.
-  - I jd = **mučeništvom**, D/I/L mn = **mučeništvima**
-- **mučilište** (potvrđen genitiv: *mučilišta*) — Mesto gde se zadaju muke, stratište; mučilište.
-  - I jd = **mučilištem**, D/I/L mn = **mučilištima**
-- **nadahnuće** (potvrđen genitiv: *nadahnuća*) — Stvaralački zanos; inspiracija.
-  - D/I/L mn = **nadahnućima**
-- **nadleštvo** (potvrđen genitiv: *nadleštva*) — Državna ustanova, ured, kancelarija; nadleštvo.
-  - I jd = **nadleštvom**
-- **nalivpero** (potvrđen genitiv: *nalivpera*) — Pisaljka koja se puni mastilom.
-  - D/L jd = **nalivperu**, I jd = **nalivperom**, D/I/L mn = **nalivperima**
-- **naočare** (potvrđen genitiv: *naočara*) — Stakla u okviru koja pomažu da se bolje vidi.
-  - D/L jd = **naočaru**, I jd = **naočarem**
-- **napregnuće** (potvrđen genitiv: *napregnuća*) — Oblik reči napregnuće (napor, naprezanje snaga).
-  - D/L jd = **napregnuću**, I jd = **napregnućem**, D/I/L mn = **napregnućima**
-- **naručje** (potvrđen genitiv: *naručja*) — Prostor između raširenih ruku.
-  - D/I/L mn = **naručjima**
-- **nasilništvo** (potvrđen genitiv: *nasilništva*) — Nasilno i grubo ponašanje, primena sile; nasilništvo.
-  - D/L jd = **nasilništvu**, I jd = **nasilništvom**, D/I/L mn = **nasilništvima**
-- **nasledstvo** (potvrđen genitiv: *nasledstva*) — Imovina koja se prenosi na naslednike.
-  - D/I/L mn = **nasledstvima**
-- **nazivlje** (potvrđen genitiv: *nazivlja*) — Skup naziva u nekoj oblasti, terminologija; nazivlje.
-  - I jd = **nazivljem**, D/I/L mn = **nazivljima**
-- **načelstvo** (potvrđen genitiv: *načelstva*) — Načelništvo, uprava, starešinstvo; načelstvo.
-  - D/I/L mn = **načelstvima**
-- **neimarstvo** (potvrđen genitiv: *neimarstva*) — Graditeljstvo, arhitektura, umeće građenja; neimarstvo.
-  - D/L jd = **neimarstvu**, I jd = **neimarstvom**, D/I/L mn = **neimarstvima**
-- **neiskustvo** (potvrđen genitiv: *neiskustva*) — Nedostatak iskustva.
-  - I jd = **neiskustvom**, D/I/L mn = **neiskustvima**
-- **nemilosrđe** (potvrđen genitiv: *nemilosrđa*) — Surovost, bezdušnost, odsustvo milosti; nemilosrđe.
-  - I jd = **nemilosrđem**, D/I/L mn = **nemilosrđima**
-- **nenasilje** (potvrđen genitiv: *nenasilja*) — Delovanje bez nasilja i sile; miran otpor i odbijanje da se primeni si
-  - I jd = **nenasiljem**, D/I/L mn = **nenasiljima**
-- **nepce** (potvrđen genitiv: *nepca*) — Gornji svod usne duplje.
-  - I jd = **nepcem**
-- **neprijateljstvo** (potvrđen genitiv: *neprijateljstva*) — Stanje neprijatelja; mržnja i sukob.
-  - D/I/L mn = **neprijateljstvima**
-- **nespokojstvo** (potvrđen genitiv: *nespokojstva*) — Stanje nemira i uznemirenosti.
-  - D/L jd = **nespokojstvu**, D/I/L mn = **nespokojstvima**
-- **neutrino** (potvrđen genitiv: *neutrina*) — Sićušna čestica bez naelektrisanja koja gotovo bez prepreke prolazi kr
-  - D/L jd = **neutrinu**, I jd = **neutrinom**, D/I/L mn = **neutrinima**
-- **nevaljalstvo** (potvrđen genitiv: *nevaljalstva*) — Pokvarenost, loše delo, nevaljalstvo; nevaljalstvo.
-  - D/L jd = **nevaljalstvu**, I jd = **nevaljalstvom**
-- **neverstvo** (potvrđen genitiv: *neverstva*) — Bračna nevera; izneverenje.
-  - I jd = **neverstvom**, D/I/L mn = **neverstvima**
-- **nevinašce** (potvrđen genitiv: *nevinašca*) — Nevino, bezazleno biće, obično dete (često ironično).
-  - D/L jd = **nevinašcu**, I jd = **nevinašcem**, D/I/L mn = **nevinašcima**
-- **nezadovoljstvo** (potvrđen genitiv: *nezadovoljstva*) — Osećaj da nešto nije dobro, nemir i ljutnja.
-  - D/I/L mn = **nezadovoljstvima**
-- **nečoveštvo** (potvrđen genitiv: *nečoveštva*) — Nečovečnost, surovost, nehumano ponašanje; nečoveštvo.
-  - D/I/L mn = **nečoveštvima**
-- **ništavilo** (potvrđen genitiv: *ništavila*) — Praznina, nepostojanje; potpuna ništavnost.
-  - D/I/L mn = **ništavilima**
-- **njihalo** (potvrđen genitiv: *njihala*) — Klatno, deo koji se njiše tamo-amo; njihalo.
-  - D/L jd = **njihalu**, I jd = **njihalom**, D/I/L mn = **njihalima**
-- **nokturno** (potvrđen genitiv: *nokturna*) — Mirna, sanjalačka lirska muzička kompozicija; nokturno.
-  - I jd = **nokturnom**, D/I/L mn = **nokturnima**
-- **novinarstvo** (potvrđen genitiv: *novinarstva*) — Delatnost prikupljanja i objavljivanja vesti.
-  - D/I/L mn = **novinarstvima**
-- **noćište** (potvrđen genitiv: *noćišta*) — Mesto za prenoćište, konačište; noćište.
-  - I jd = **noćištem**, D/I/L mn = **noćištima**
-- **obdanište** (potvrđen genitiv: *obdaništa*) — Ustanova za boravak i čuvanje dece; vrtić.
-  - I jd = **obdaništem**, D/I/L mn = **obdaništima**
-- **obilje** (potvrđen genitiv: *obilja*) — Velika količina, izobilje.
-  - D/I/L mn = **obiljima**
-- **obilježje** (potvrđen genitiv: *obilježja*) — Obeležje, znak, karakteristika (ijekavski).
-  - D/L jd = **obilježju**
-- **obitavalište** (potvrđen genitiv: *obitavališta*) — Mesto gde neko obitava, prebiva.
-  - D/L jd = **obitavalištu**, I jd = **obitavalištem**, D/I/L mn = **obitavalištima**
-- **obzorje** (potvrđen genitiv: *obzorja*) — Daljina gde se nebo spaja sa zemljom, horizont.
-  - I jd = **obzorjem**, D/I/L mn = **obzorjima**
-- **ocilo** (potvrđen genitiv: *ocila*) — Kresivo, čelik za kresanje vatre o kremen; ocilo.
-  - D/L jd = **ocilu**, I jd = **ocilom**
-- **odelce** (potvrđen genitiv: *odelca*) — Oblik reči „odelce“; malo odelo, najčešće dečje (obukla odelce).
-  - D/L jd = **odelcu**, I jd = **odelcem**, D/I/L mn = **odelcima**
-- **odlagalište** (potvrđen genitiv: *odlagališta*) — Mesto gde se odlaže otpad ili materijal; deponija.
-  - I jd = **odlagalištem**, D/I/L mn = **odlagalištima**
-- **odličje** (potvrđen genitiv: *odličja*) — Znak priznanja; odlikovanje, orden.
-  - D/L jd = **odličju**
-- **odmaralište** (potvrđen genitiv: *odmarališta*) — Mesto za odmor i oporavak.
-  - I jd = **odmaralištem**
-- **odmorište** (potvrđen genitiv: *odmorišta*) — Ravan deo stepeništa za predah; mesto za odmor.
-  - I jd = **odmorištem**
-- **odredište** (potvrđen genitiv: *odredišta*) — Mesto do kojeg se putuje; cilj puta.
-  - D/I/L mn = **odredištima**
-- **oglavlje** (potvrđen genitiv: *oglavlja*) — Deo konjske opreme za glavu, ular; oglavlje.
-  - D/L jd = **oglavlju**, I jd = **oglavljem**, D/I/L mn = **oglavljima**
-- **ogledalce** (potvrđen genitiv: *ogledalca*) — Malo ogledalo.
-  - D/L jd = **ogledalcu**, I jd = **ogledalcem**, D/I/L mn = **ogledalcima**
-- **ognjilo** (potvrđen genitiv: *ognjila*) — Kresivo, pomagalo za kresanje vatre; ognjilo.
-  - I jd = **ognjilom**, D/I/L mn = **ognjilima**
-- **ohajo** (potvrđen genitiv: *ohaja*) — Oblik reči „Ohajo“; država u Americi.
-  - D/L jd = **ohaju**, I jd = **ohajem**, D/I/L mn = **ohajima**
-- **okance** (potvrđen genitiv: *okanca*) — Malo okno, prozorčić.
-  - D/L jd = **okancu**, I jd = **okancem**, D/I/L mn = **okancima**
-- **okrilje** (potvrđen genitiv: *okrilja*) — Zaštita, okrilje; pod nečijim okriljem znači pod zaštitom.
-  - D/I/L mn = **okriljima**
-- **olovo** (potvrđen genitiv: *olova*) — Mek, težak sivi metal.
-  - D/I/L mn = **olovima**
-- **opovo** (potvrđen genitiv: *opova*) — Opovo — naselje u južnom Banatu.
-  - I jd = **opovom**, D/I/L mn = **opovima**
-- **orašje** (potvrđen genitiv: *orašja*) — Orašje (grad u Bosni; naselje).
-  - I jd = **orašjem**, D/I/L mn = **orašjima**
-- **orgulje** (potvrđen genitiv: *orgulja*) — Veliki instrument sa cevima i dirkama, u crkvama.
-  - D/L jd = **orgulju**, I jd = **orguljem**, D/I/L mn = **orguljima**
-- **origano** (potvrđen genitiv: *origana*) — Mirisni začin, vranilovka.
-  - D/L jd = **origanu**, D/I/L mn = **origanima**
-- **orlando** (potvrđen genitiv: *orlanda*) — Grad u SAD; muško ime (Orlando).
-  - D/L jd = **orlandu**, I jd = **orlandom**, D/I/L mn = **orlandima**
-- **osoblje** (potvrđen genitiv: *osoblja*) — Osoblje — zaposleni, personal.
-  - D/I/L mn = **osobljima**
-- **ospice** (potvrđen genitiv: *ospica*) — Dečja zarazna bolest sa crvenim pegama po koži.
-  - D/L jd = **ospicu**, I jd = **ospicem**, D/I/L mn = **ospicima**
-- **ostrvce** (potvrđen genitiv: *ostrvca*) — Malo ostrvo.
-  - I jd = **ostrvcem**
-- **ostrvlje** (potvrđen genitiv: *ostrvlja*) — Ostrvlje — skup ostrva, arhipelag.
-  - D/L jd = **ostrvlju**, I jd = **ostrvljem**, D/I/L mn = **ostrvljima**
-- **otačastvo** (potvrđen genitiv: *otačastva*) — Otadžbina, rodna zemlja (svečano i crkvenoslovenski); otačastvo.
-  - I jd = **otačastvom**, D/I/L mn = **otačastvima**
-- **otečestvo** (potvrđen genitiv: *otečestva*) — Otečestvo — otadžbina, domovina (arhaično, crkvenoslovenski).
-  - I jd = **otečestvom**, D/I/L mn = **otečestvima**
-- **ovčarstvo** (potvrđen genitiv: *ovčarstva*) — Gajenje ovaca.
-  - I jd = **ovčarstvom**, D/I/L mn = **ovčarstvima**
-- **očice** (potvrđen genitiv: *očica*) — Oblik reči očice (male oči, okca).
-  - D/L jd = **očicu**, I jd = **očicem**, D/I/L mn = **očicima**
-- **očinstvo** (potvrđen genitiv: *očinstva*) — Svojstvo i uloga oca.
-  - D/I/L mn = **očinstvima**
-- **oštroumlje** (potvrđen genitiv: *oštroumlja*) — Bistrina uma, pronicljivost, oštrina razuma; oštroumlje.
-  - D/L jd = **oštroumlju**, D/I/L mn = **oštroumljima**
-- **padavine** (potvrđen genitiv: *padavina*) — Atmosferska voda koja pada: kiša, sneg, grad.
-  - D/L jd = **padavinu**, I jd = **padavinem**, D/I/L mn = **padavinima**
-- **padobranstvo** (potvrđen genitiv: *padobranstva*) — Sport i veština skakanja padobranom.
-  - D/L jd = **padobranstvu**, I jd = **padobranstvom**, D/I/L mn = **padobranstvima**
-- **paganstvo** (potvrđen genitiv: *paganstva*) — Mnogobožačka vera pre hrišćanstva.
-  - D/L jd = **paganstvu**, I jd = **paganstvom**, D/I/L mn = **paganstvima**
-- **palermo** (potvrđen genitiv: *palerma*) — Grad na Siciliji, u Italiji (Palermo).
-  - I jd = **palermom**, D/I/L mn = **palermima**
-- **palidrvce** (potvrđen genitiv: *palidrvca*) — Drvce sa zapaljivom glavicom, šibica, žigica; palidrvce.
-  - D/L jd = **palidrvcu**, I jd = **palidrvcem**
-- **pantalone** (potvrđen genitiv: *pantalona*) — Odevni komad za noge.
-  - D/L jd = **pantalonu**, I jd = **pantalonem**, D/I/L mn = **pantalonima**
-- **paparaco** (potvrđen genitiv: *paparaca*) — Nametljiv fotograf koji vreba i snima poznate ličnosti.
-  - D/L jd = **paparacu**, I jd = **paparacem**
-- **paperje** (potvrđen genitiv: *paperja*) — Sitno meko perje ptića.
-  - D/L jd = **paperju**, D/I/L mn = **paperjima**
-- **parkiralište** (potvrđen genitiv: *parkirališta*) — Mesto za parkiranje vozila.
-  - I jd = **parkiralištem**
-- **partnerstvo** (potvrđen genitiv: *partnerstva*) — Odnos zajedničkog rada i saradnje.
-  - D/I/L mn = **partnerstvima**
-- **penkalo** (potvrđen genitiv: *penkala*) — Nalivpero.
-  - D/I/L mn = **penkalima**
-- **pepelište** (potvrđen genitiv: *pepelišta*) — Mesto na kome je nešto izgorelo, zgarište; pepelište.
-  - D/L jd = **pepelištu**, I jd = **pepelištem**, D/I/L mn = **pepelištima**
-- **perce** (potvrđen genitiv: *perca*) — Malo pero.
-  - D/L jd = **percu**, I jd = **percem**, D/I/L mn = **percima**
-- **perikle** (potvrđen genitiv: *perikla*) — Perikle — atinski državnik (zlatno doba Atine).
-  - D/L jd = **periklu**, I jd = **periklem**, D/I/L mn = **periklima**
-- **petoknjižje** (potvrđen genitiv: *petoknjižja*) — Prvih pet knjiga Starog zaveta, Mojsijevo petoknjižje; petoknjižje.
-  - D/L jd = **petoknjižju**, I jd = **petoknjižjem**, D/I/L mn = **petoknjižjima**
-- **petoro** (potvrđen genitiv: *petora*) — Zbirni broj: pet osoba.
-  - D/L jd = **petoru**, I jd = **petorom**, D/I/L mn = **petorima**
-- **pijanstvo** (potvrđen genitiv: *pijanstva*) — Stanje opijenosti alkoholom.
-  - D/I/L mn = **pijanstvima**
-- **pikado** (potvrđen genitiv: *pikada*) — Igra gađanja strelicama u metu.
-  - I jd = **pikadom**, D/I/L mn = **pikadima**
-- **pikaso** (potvrđen genitiv: *pikasa*) — Čuveni španski slikar (Pablo Pikaso).
-  - I jd = **pikasom**, D/I/L mn = **pikasima**
-- **piratstvo** (potvrđen genitiv: *piratstva*) — Razbojništvo na moru; gusarenje.
-  - D/L jd = **piratstvu**, I jd = **piratstvom**, D/I/L mn = **piratstvima**
-- **pisamce** (potvrđen genitiv: *pisamca*) — Oblik reči „pisamce“; pismo umanjeno i odmilja; ceduljica (kratko pisa
-  - D/L jd = **pisamcu**, I jd = **pisamcem**
-- **pisanije** (potvrđen genitiv: *pisanija*) — Spis, sastav, pisanije; pisanije.
-  - I jd = **pisanijem**, D/I/L mn = **pisanijima**
-- **pitanjce** (potvrđen genitiv: *pitanjca*) — Oblik reči „pitanjce“; malo, sitno pitanje (jedno pitanjce).
-  - D/L jd = **pitanjcu**, I jd = **pitanjcem**, D/I/L mn = **pitanjcima**
-- **pivarstvo** (potvrđen genitiv: *pivarstva*) — Proizvodnja piva.
-  - D/L jd = **pivarstvu**, I jd = **pivarstvom**, D/I/L mn = **pivarstvima**
-- **pivo** (potvrđen genitiv: *piva*) — Penušavo alkoholno piće od ječmenog slada i hmelja.
-  - D/I/L mn = **pivima**
-- **pješaštvo** (potvrđen genitiv: *pješaštva*) — Oblik reči pješaštvo (pešadija — ijekavski).
-  - D/L jd = **pješaštvu**, I jd = **pješaštvom**, D/I/L mn = **pješaštvima**
-- **plandište** (potvrđen genitiv: *plandišta*) — Zaklonjeno mesto gde stoka odmara u podnevnoj vrućini; plandište.
-  - I jd = **plandištem**, D/I/L mn = **plandištima**
-- **plavetnilo** (potvrđen genitiv: *plavetnila*) — Plava boja neba ili mora.
-  - D/I/L mn = **plavetnilima**
-- **plemstvo** (potvrđen genitiv: *plemstva*) — Plemići kao stalež; plemenitost.
-  - D/I/L mn = **plemstvima**
-- **pletivo** (potvrđen genitiv: *pletiva*) — Ono što je ispleteno; rad u pletenju; pletivo.
-  - D/L jd = **pletivu**, D/I/L mn = **pletivima**
-- **pleće** (potvrđen genitiv: *pleća*) — Oblik reči pleće (rame, deo leđa).
-  - D/L jd = **pleću**, I jd = **plećem**
-- **pobrđe** (potvrđen genitiv: *pobrđa*) — Brdoviti kraj, predeo pun brda.
-  - D/L jd = **pobrđu**
-- **podaništvo** (potvrđen genitiv: *podaništva*) — Stanje podanika, potčinjenost vlasti; podaništvo.
-  - D/L jd = **podaništvu**, I jd = **podaništvom**, D/I/L mn = **podaništvima**
-- **podanstvo** (potvrđen genitiv: *podanstva*) — Pripadnost državi kao podanik.
-  - I jd = **podanstvom**, D/I/L mn = **podanstvima**
-- **podgorje** (potvrđen genitiv: *podgorja*) — Predeo u podnožju planine, podnožje gore; podgorje.
-  - D/I/L mn = **podgorjima**
-- **podgrađe** (potvrđen genitiv: *podgrađa*) — Oblik reči podgrađe (naselje ispod tvrđave, varoš pod gradom).
-  - I jd = **podgrađem**, D/I/L mn = **podgrađima**
-- **podignuće** (potvrđen genitiv: *podignuća*) — Dizanje i uzdizanje, podizanje uvis; preneseno: uspon i napredak.
-  - I jd = **podignućem**, D/I/L mn = **podignućima**
-- **podnožje** (potvrđen genitiv: *podnožja*) — Donji deo brda ili planine.
-  - D/I/L mn = **podnožjima**
-- **podosoje** (potvrđen genitiv: *podosoja*) — Strana okrenuta od sunca, osoje, hlad; podosoje.
-  - I jd = **podosojem**, D/I/L mn = **podosojima**
-- **podujevo** (potvrđen genitiv: *podujeva*) — Podujevo — grad na severu Kosova i Metohije.
-  - I jd = **podujevom**, D/I/L mn = **podujevima**
-- **podunavlje** (potvrđen genitiv: *podunavlja*) — Oblast uz tok reke Dunav; Podunavlje.
-  - D/I/L mn = **podunavljima**
-- **podušje** (potvrđen genitiv: *podušja*) — Daća, pomen umrlome; podušje.
-  - I jd = **podušjem**, D/I/L mn = **podušjima**
-- **pojilište** (potvrđen genitiv: *pojilišta*) — Mesto gde se napaja stoka, korito ili izvor za pojenje životinja.
-  - D/L jd = **pojilištu**, I jd = **pojilištem**, D/I/L mn = **pojilištima**
-- **pojilo** (potvrđen genitiv: *pojila*) — Posuda ili mesto gde se poji stoka.
-  - I jd = **pojilom**, D/I/L mn = **pojilima**
-- **pokriće** (potvrđen genitiv: *pokrića*) — Ono čime se nešto obezbeđuje (npr. finansijsko pokriće).
-  - D/I/L mn = **pokrićima**
-- **pokućanstvo** (potvrđen genitiv: *pokućanstva*) — Domaćinstvo, kućni pribor; pokućanstvo.
-  - D/L jd = **pokućanstvu**, I jd = **pokućanstvom**, D/I/L mn = **pokućanstvima**
-- **pokućstvo** (potvrđen genitiv: *pokućstva*) — Pokretne stvari i nameštaj u kući.
-  - D/L jd = **pokućstvu**, D/I/L mn = **pokućstvima**
-- **polazište** (potvrđen genitiv: *polazišta*) — Mesto polaska; početna tačka.
-  - D/I/L mn = **polazištima**
-- **polibije** (potvrđen genitiv: *polibija*) — Polibije — starogrčki istoričar.
-  - D/L jd = **polibiju**, I jd = **polibijem**, D/I/L mn = **polibijima**
-- **polimlje** (potvrđen genitiv: *polimlja*) — Polimlje — oblast oko reke Lim.
-  - I jd = **polimljem**, D/I/L mn = **polimljima**
-- **polufinale** (potvrđen genitiv: *polufinala*) — Pretposlednje kolo takmičenja pred finale.
-  - I jd = **polufinalem**, D/I/L mn = **polufinalima**
-- **polugodište** (potvrđen genitiv: *polugodišta*) — Polovina školske ili poslovne godine.
-  - I jd = **polugodištem**, D/I/L mn = **polugodištima**
-- **polugođe** (potvrđen genitiv: *polugođa*) — Oblik reči polugođe (polovina godine, semestar).
-  - I jd = **polugođem**, D/I/L mn = **polugođima**
-- **poluostrvo** (potvrđen genitiv: *poluostrva*) — Kopno okruženo vodom sa tri strane.
-  - I jd = **poluostrvom**, D/I/L mn = **poluostrvima**
-- **pomagalo** (potvrđen genitiv: *pomagala*) — Sprava koja pomaže pri radu.
-  - D/L jd = **pomagalu**, I jd = **pomagalom**
-- **pomije** (potvrđen genitiv: *pomija*) — Prljava voda od pranja sudova s ostacima hrane; splačine za stoku.
-  - D/L jd = **pomiju**, I jd = **pomijem**, D/I/L mn = **pomijima**
-- **pomodarstvo** (potvrđen genitiv: *pomodarstva*) — Robovsko praćenje mode.
-  - D/L jd = **pomodarstvu**, D/I/L mn = **pomodarstvima**
-- **pomoravlje** (potvrđen genitiv: *pomoravlja*) — Kraj oko reke Morave; Pomoravlje.
-  - D/I/L mn = **pomoravljima**
-- **pomorstvo** (potvrđen genitiv: *pomorstva*) — Delatnost i nauka o plovidbi morem.
-  - I jd = **pomorstvom**, D/I/L mn = **pomorstvima**
-- **poreklo** (potvrđen genitiv: *porekla*) — Ono od čega ili od koga neko potiče.
-  - D/I/L mn = **poreklima**
-- **porečje** (potvrđen genitiv: *porečja*) — Oblast oko toka reke, sliv; porečje.
-  - I jd = **porečjem**, D/I/L mn = **porečjima**
-- **porodilište** (potvrđen genitiv: *porodilišta*) — Bolnica ili odeljenje u kojem se žene porađaju.
-  - I jd = **porodilištem**, D/I/L mn = **porodilištima**
-- **portfolio** (potvrđen genitiv: *portfolia*) — Zbirka radova ili ulaganja koja predstavlja nekoga.
-  - D/L jd = **portfoliu**, I jd = **portfoliom**, D/I/L mn = **portfoliima**
-- **portoriko** (potvrđen genitiv: *portorika*) — Ostrvo i teritorija u Karibima pod upravom SAD.
-  - I jd = **portorikom**, D/I/L mn = **portorikima**
-- **poselo** (potvrđen genitiv: *posela*) — Večernje druženje uz pesmu i igru.
-  - I jd = **poselom**
-- **poslanstvo** (potvrđen genitiv: *poslanstva*) — Diplomatsko predstavništvo; misija.
-  - I jd = **poslanstvom**, D/I/L mn = **poslanstvima**
-- **posredništvo** (potvrđen genitiv: *posredništva*) — Posredovanje, veza između dveju strana; posredništvo.
-  - D/L jd = **posredništvu**, I jd = **posredništvom**, D/I/L mn = **posredništvima**
-- **posredstvo** (potvrđen genitiv: *posredstva*) — Posredovanje između strana.
-  - D/L jd = **posredstvu**, D/I/L mn = **posredstvima**
-- **posrnuće** (potvrđen genitiv: *posrnuća*) — Gubitak ravnoteže; (preneseno) moralni pad.
-  - I jd = **posrnućem**, D/I/L mn = **posrnućima**
-- **postignuće** (potvrđen genitiv: *postignuća*) — Ono što je postignuto; dostignuće.
-  - I jd = **postignućem**
-- **potisje** (potvrđen genitiv: *potisja*) — Kraj uz reku Tisu; Potisje.
-  - I jd = **potisjem**, D/I/L mn = **potisjima**
-- **potkrovlje** (potvrđen genitiv: *potkrovlja*) — Prostor ili stan odmah ispod krova.
-  - D/I/L mn = **potkrovljima**
-- **potomstvo** (potvrđen genitiv: *potomstva*) — Deca i unuci, naslednici.
-  - D/I/L mn = **potomstvima**
-- **potonuće** (potvrđen genitiv: *potonuća*) — Tonjenje broda pod vodu.
-  - I jd = **potonućem**, D/I/L mn = **potonućima**
-- **povesmo** (potvrđen genitiv: *povesma*) — Pramen očešljane vune ili kudelje za predenje.
-  - D/L jd = **povesmu**, D/I/L mn = **povesmima**
-- **povečerje** (potvrđen genitiv: *povečerja*) — Kasno veče, doba posle večeri; večernja crkvena služba; povečerje.
-  - D/L jd = **povečerju**, I jd = **povečerjem**, D/I/L mn = **povečerjima**
-- **povrće** (potvrđen genitiv: *povrća*) — Jestive biljke, npr. krompir i šargarepa.
-  - D/I/L mn = **povrćima**
-- **pozorje** (potvrđen genitiv: *pozorja*) — Pozorište, scenska umetnost (stariji naziv, npr. Srpsko narodno pozorj
-  - I jd = **pozorjem**, D/I/L mn = **pozorjima**
-- **praskozorje** (potvrđen genitiv: *praskozorja*) — Prvo svitanje, rano jutro.
-  - D/L jd = **praskozorju**, I jd = **praskozorjem**, D/I/L mn = **praskozorjima**
-- **pravoslavlje** (potvrđen genitiv: *pravoslavlja*) — Pravoslavna grana hrišćanstva; pravoslavlje.
-  - I jd = **pravoslavljem**, D/I/L mn = **pravoslavljima**
-- **pravosuđe** (potvrđen genitiv: *pravosuđa*) — Sudski sistem; sudstvo.
-  - D/I/L mn = **pravosuđima**
-- **praznoverje** (potvrđen genitiv: *praznoverja*) — Sujeverje; verovanje bez osnova.
-  - D/L jd = **praznoverju**, D/I/L mn = **praznoverjima**
-- **prebivalište** (potvrđen genitiv: *prebivališta*) — Mesto gde neko stalno živi.
-  - I jd = **prebivalištem**, D/I/L mn = **prebivalištima**
-- **predivo** (potvrđen genitiv: *prediva*) — Ispredene niti, pređa.
-  - D/L jd = **predivu**, I jd = **predivom**, D/I/L mn = **predivima**
-- **predjelo** (potvrđen genitiv: *predjela*) — Lagano jelo koje se služi pre glavnog jela.
-  - D/L jd = **predjelu**, D/I/L mn = **predjelima**
-- **predsedništvo** (potvrđen genitiv: *predsedništva*) — Oblik reči „predsedništvo“; organ na čelu neke celine; predsednička fu
-  - D/L jd = **predsedništvu**, I jd = **predsedništvom**, D/I/L mn = **predsedništvima**
-- **predsoblje** (potvrđen genitiv: *predsoblja*) — Prostorija odmah iza ulaznih vrata, hodnik.
-  - D/I/L mn = **predsobljima**
-- **predstavništvo** (potvrđen genitiv: *predstavništva*) — Ustanova ili kancelarija koja zastupa nečije interese na nekom mestu (
-  - I jd = **predstavništvom**, D/I/L mn = **predstavništvima**
-- **preduzetništvo** (potvrđen genitiv: *preduzetništva*) — Vođenje sopstvenog posla i preuzimanje poslovnog rizika radi dobiti.
-  - D/L jd = **preduzetništvu**, I jd = **preduzetništvom**, D/I/L mn = **preduzetništvima**
-- **predvečerje** (potvrđen genitiv: *predvečerja*) — Vreme pred veče.
-  - D/I/L mn = **predvečerjima**
-- **predvorje** (potvrđen genitiv: *predvorja*) — Prostor pred ulazom; ulazni hol.
-  - D/I/L mn = **predvorjima**
-- **preimućstvo** (potvrđen genitiv: *preimućstva*) — Prednost, povlastica, preimućstvo; preimućstvo.
-  - D/I/L mn = **preimućstvima**
-- **prejemstvo** (potvrđen genitiv: *prejemstva*) — Nasleđe, pravo nasleđivanja; prejemstvo.
-  - I jd = **prejemstvom**, D/I/L mn = **prejemstvima**
-- **prenoćište** (potvrđen genitiv: *prenoćišta*) — Mesto gde se može prenoćiti.
-  - D/I/L mn = **prenoćištima**
-- **preobilje** (potvrđen genitiv: *preobilja*) — Oblik reči preobilje (preterano obilje, izobilje).
-  - D/I/L mn = **preobiljima**
-- **prestolje** (potvrđen genitiv: *prestolja*) — Vladarska stolica, presto; preneseno: vladarska vlast i položaj (zaseo
-  - D/L jd = **prestolju**, I jd = **prestoljem**, D/I/L mn = **prestoljima**
-- **preuzeće** (potvrđen genitiv: *preuzeća*) — Preuzimanje, ovladavanje preduzećem; preuzeće.
-  - I jd = **preuzećem**
-- **prezle** (potvrđen genitiv: *prezla*) — Mrvice od suvog hleba za pohovanje.
-  - I jd = **prezlem**, D/I/L mn = **prezlima**
-- **preševo** (potvrđen genitiv: *preševa*) — Preševo (grad na jugu Srbije).
-  - I jd = **preševom**, D/I/L mn = **preševima**
-- **pribežište** (potvrđen genitiv: *pribežišta*) — Mesto kuda se beži radi zaštite; utočište.
-  - I jd = **pribežištem**, D/I/L mn = **pribežištima**
-- **prihvatilište** (potvrđen genitiv: *prihvatilišta*) — Sklonište, mesto privremenog boravka.
-  - I jd = **prihvatilištem**, D/I/L mn = **prihvatilištima**
-- **prijateljstvo** (potvrđen genitiv: *prijateljstva*) — Topao odnos između prijatelja.
-  - D/I/L mn = **prijateljstvima**
-- **prijepolje** (potvrđen genitiv: *prijepolja*) — Prijepolje — grad u jugozapadnoj Srbiji.
-  - D/I/L mn = **prijepoljima**
-- **priključenije** (potvrđen genitiv: *priključenija*) — Oblik reči priključenije (zgoda, pustolovina — arhaično).
-  - D/L jd = **priključeniju**, I jd = **priključenijem**, D/I/L mn = **priključenijima**
-- **primirje** (potvrđen genitiv: *primirja*) — Privremeni prekid borbi.
-  - D/I/L mn = **primirjima**
-- **primorje** (potvrđen genitiv: *primorja*) — Obalski pojas uz more, primorski kraj; oblast uz morsku obalu.
-  - D/I/L mn = **primorjima**
-- **priobalje** (potvrđen genitiv: *priobalja*) — Pojas uz obalu.
-  - I jd = **priobaljem**
-- **prisoje** (potvrđen genitiv: *prisoja*) — Strana okrenuta suncu, osunčana strana brda; prisoje.
-  - I jd = **prisojem**, D/I/L mn = **prisojima**
-- **prispeće** (potvrđen genitiv: *prispeća*) — Oblik imenice „prispeće“: dolaska, stizanja na odredište (prispeće poš
-  - I jd = **prispećem**, D/I/L mn = **prispećima**
-- **prisustvo** (potvrđen genitiv: *prisustva*) — Stanje kad je neko ili nešto prisutno.
-  - D/I/L mn = **prisustvima**
-- **prizemlje** (potvrđen genitiv: *prizemlja*) — Najniži sprat zgrade, u ravni zemlje.
-  - I jd = **prizemljem**
-- **pričešće** (potvrđen genitiv: *pričešća*) — Verski obred uzimanja hleba i vina.
-  - D/I/L mn = **pričešćima**
-- **progonstvo** (potvrđen genitiv: *progonstva*) — Izgnanstvo; prinudno udaljavanje iz zemlje.
-  - D/I/L mn = **progonstvima**
-- **prokletstvo** (potvrđen genitiv: *prokletstva*) — Kletva; stanje proklete sudbine.
-  - D/I/L mn = **prokletstvima**
-- **prokuplje** (potvrđen genitiv: *prokuplja*) — Prokuplje — grad u Srbiji.
-  - I jd = **prokupljem**, D/I/L mn = **prokupljima**
-- **proleće** (potvrđen genitiv: *proleća*) — Godišnje doba kad priroda procveta.
-  - D/I/L mn = **prolećima**
-- **proljeće** (potvrđen genitiv: *proljeća*) — Oblik reči proljeće (proleće — ijekavski).
-  - I jd = **proljećem**, D/I/L mn = **proljećima**
-- **promaknuće** (potvrđen genitiv: *promaknuća*) — Unapređenje, napredovanje na položaju.
-  - I jd = **promaknućem**, D/I/L mn = **promaknućima**
-- **proročište** (potvrđen genitiv: *proročišta*) — Mesto gde se objavljuju proročanstva; veće starina.
-  - I jd = **proročištem**, D/I/L mn = **proročištima**
-- **proroštvo** (potvrđen genitiv: *proroštva*) — Predskazivanje budućnosti; ono što je prorečeno; proroštvo.
-  - D/I/L mn = **proroštvima**
-- **proso** (potvrđen genitiv: *prosa*) — Sitnozrna žitarica za kašu i hleb.
-  - D/I/L mn = **prosima**
-- **prostaštvo** (potvrđen genitiv: *prostaštva*) — Prostakluk, grubost, neotesanost; prostaštvo.
-  - D/L jd = **prostaštvu**, I jd = **prostaštvom**, D/I/L mn = **prostaštvima**
-- **pročelje** (potvrđen genitiv: *pročelja*) — Prednja strana zgrade, fasada; čelno mesto; pročelje.
-  - D/I/L mn = **pročeljima**
-- **pruće** (potvrđen genitiv: *pruća*) — Tanke savitljive grane, šiblje.
-  - D/L jd = **pruću**, D/I/L mn = **prućima**
-- **pseto** (potvrđen genitiv: *pseta*) — Pas (često pogrdno ili sažaljivo).
-  - D/L jd = **psetu**
-- **puknuće** (potvrđen genitiv: *puknuća*) — Oblik glagola „puknuti“, buduće vreme (puknuće; pući, rasprsnuti se uz
-  - D/L jd = **puknuću**, I jd = **puknućem**, D/I/L mn = **puknućima**
-- **punilo** (potvrđen genitiv: *punila*) — Materijal kojim se nešto puni; ispuna.
-  - D/L jd = **punilu**, I jd = **punilom**, D/I/L mn = **punilima**
-- **punoletstvo** (potvrđen genitiv: *punoletstva*) — Uzrast sa punom poslovnom sposobnošću.
-  - D/L jd = **punoletstvu**, I jd = **punoletstvom**, D/I/L mn = **punoletstvima**
-- **punomoćje** (potvrđen genitiv: *punomoćja*) — Ovlašćenje za zastupanje; punomoćje.
-  - D/L jd = **punomoćju**, D/I/L mn = **punomoćjima**
-- **punomoćstvo** (potvrđen genitiv: *punomoćstva*) — Pisano ovlašćenje za zastupanje; punomoćstvo.
-  - I jd = **punomoćstvom**, D/I/L mn = **punomoćstvima**
-- **putešestvije** (potvrđen genitiv: *putešestvija*) — Dugo, zanimljivo putovanje; pustolovina.
-  - D/L jd = **putešestviju**, I jd = **putešestvijem**, D/I/L mn = **putešestvijima**
-- **pučanstvo** (potvrđen genitiv: *pučanstva*) — Pučanstvo — stanovništvo, narod (varijanta).
-  - I jd = **pučanstvom**, D/I/L mn = **pučanstvima**
-- **pčelarstvo** (potvrđen genitiv: *pčelarstva*) — Gajenje pčela.
-  - D/I/L mn = **pčelarstvima**
-- **radilište** (potvrđen genitiv: *radilišta*) — Radno mesto, gradilište; radilište.
-  - I jd = **radilištem**, D/I/L mn = **radilištima**
-- **radništvo** (potvrđen genitiv: *radništva*) — Radnička klasa, radnici; radništvo.
-  - I jd = **radništvom**, D/I/L mn = **radništvima**
-- **raklje** (potvrđen genitiv: *raklja*) — Rašlje, rogljasti štap; raklje.
-  - D/L jd = **raklju**, I jd = **rakljem**, D/I/L mn = **rakljima**
-- **ralje** (potvrđen genitiv: *ralja*) — Široko otvorena čeljust, ždrelo (ralje ajkule).
-  - D/L jd = **ralju**, I jd = **raljem**, D/I/L mn = **raljima**
-- **rambo** (potvrđen genitiv: *ramba*) — Rambo — junak akcionih filmova (Silvester Stalone).
-  - D/L jd = **rambu**, I jd = **rambom**, D/I/L mn = **rambima**
-- **rasipništvo** (potvrđen genitiv: *rasipništva*) — Sklonost rasipanju; preterano razbacivanje.
-  - D/L jd = **rasipništvu**, I jd = **rasipništvom**, D/I/L mn = **rasipništvima**
-- **raspeće** (potvrđen genitiv: *raspeća*) — Krst sa likom raspetog Hrista.
-  - D/I/L mn = **raspećima**
-- **raspuće** (potvrđen genitiv: *raspuća*) — Raskršće, mesto razdvajanja puteva; raspuće.
-  - I jd = **raspućem**
-- **rastrojstvo** (potvrđen genitiv: *rastrojstva*) — Poremećaj, rasulo, neuređeno stanje; rastrojstvo.
-  - I jd = **rastrojstvom**, D/I/L mn = **rastrojstvima**
-- **ratarstvo** (potvrđen genitiv: *ratarstva*) — Gajenje ratarskih kultura na njivama.
-  - D/I/L mn = **ratarstvima**
-- **ratište** (potvrđen genitiv: *ratišta*) — Bojište, ratno poprište; ratište.
-  - I jd = **ratištem**
-- **razbojište** (potvrđen genitiv: *razbojišta*) — Oblik reči razbojište (mesto razbojništva; bojište).
-  - I jd = **razbojištem**
-- **razbojništvo** (potvrđen genitiv: *razbojništva*) — Pljačka uz nasilje; razbojnička dela.
-  - D/L jd = **razbojništvu**, I jd = **razbojništvom**, D/I/L mn = **razbojništvima**
-- **računalo** (potvrđen genitiv: *računala*) — Računalo — računar (varijanta).
-  - I jd = **računalom**, D/I/L mn = **računalima**
-- **računovodstvo** (potvrđen genitiv: *računovodstva*) — Vođenje finansijskih računa preduzeća.
-  - D/I/L mn = **računovodstvima**
-- **realije** (potvrđen genitiv: *realija*) — Stvarne pojedinosti i predmeti iz života i kulture; realije.
-  - D/L jd = **realiju**, I jd = **realijem**, D/I/L mn = **realijima**
-- **rebarce** (potvrđen genitiv: *rebarca*) — Komad mesa sa rebara.
-  - D/L jd = **rebarcu**, I jd = **rebarcem**
-- **rezbarstvo** (potvrđen genitiv: *rezbarstva*) — Umetnost rezbarenja u drvetu.
-  - D/L jd = **rezbarstvu**, I jd = **rezbarstvom**, D/I/L mn = **rezbarstvima**
-- **ribarstvo** (potvrđen genitiv: *ribarstva*) — Lov i uzgoj ribe.
-  - D/I/L mn = **ribarstvima**
-- **rilo** (potvrđen genitiv: *rila*) — Njuška, surla kod životinje; rilo.
-  - I jd = **rilom**, D/I/L mn = **rilima**
-- **rivalstvo** (potvrđen genitiv: *rivalstva*) — Suparništvo; nadmetanje sa protivnikom.
-  - I jd = **rivalstvom**, D/I/L mn = **rivalstvima**
-- **rižoto** (potvrđen genitiv: *rižota*) — Jelo od pirinča kuvanog sa dodacima.
-  - D/L jd = **rižotu**, I jd = **rižotom**, D/I/L mn = **rižotima**
-- **rodeo** (potvrđen genitiv: *rodea*) — Takmičenje kauboja u jahanju i hvatanju stoke.
-  - D/I/L mn = **rodeima**
-- **roditeljstvo** (potvrđen genitiv: *roditeljstva*) — Svojstvo i uloga roditelja.
-  - D/I/L mn = **roditeljstvima**
-- **rodoljublje** (potvrđen genitiv: *rodoljublja*) — Ljubav prema otadžbini, domoljublje, patriotizam; rodoljublje.
-  - D/I/L mn = **rodoljubljima**
-- **rodoskvrnuće** (potvrđen genitiv: *rodoskvrnuća*) — Polni odnos među bliskim srodnicima, incest; rodoskvrnuće.
-  - D/L jd = **rodoskvrnuću**, I jd = **rodoskvrnućem**, D/I/L mn = **rodoskvrnućima**
-- **rogulje** (potvrđen genitiv: *rogulja*) — Vile, oruđe sa krakovima; rogulje.
-  - D/L jd = **rogulju**, I jd = **roguljem**, D/I/L mn = **roguljima**
-- **ropstvo** (potvrđen genitiv: *ropstva*) — Stanje roba; potpuna nesloboda.
-  - D/I/L mn = **ropstvima**
-- **ročište** (potvrđen genitiv: *ročišta*) — Zakazano sudsko zasedanje.
-  - I jd = **ročištem**
-- **rožaje** (potvrđen genitiv: *rožaja*) — Rožaje (grad na severu Crne Gore).
-  - D/L jd = **rožaju**, I jd = **rožajem**, D/I/L mn = **rožajima**
-- **roždestvo** (potvrđen genitiv: *roždestva*) — Rođenje; praznik Hristovog rođenja, Božić (crkvenoslovenski); roždestv
-  - D/L jd = **roždestvu**, I jd = **roždestvom**, D/I/L mn = **roždestvima**
-- **rudarstvo** (potvrđen genitiv: *rudarstva*) — Delatnost vađenja rude.
-  - D/I/L mn = **rudarstvima**
-- **ruglo** (potvrđen genitiv: *rugla*) — Predmet poruge, sramota; ruglo.
-  - D/I/L mn = **ruglima**
-- **ruho** (potvrđen genitiv: *ruha*) — Odeća, odelo, ruho; ruho.
-  - D/I/L mn = **ruhima**
-- **rukovodstvo** (potvrđen genitiv: *rukovodstva*) — Oni koji rukovode organizacijom.
-  - D/I/L mn = **rukovodstvima**
-- **rumenilo** (potvrđen genitiv: *rumenila*) — Crvenilo na obrazima.
-  - D/I/L mn = **rumenilima**
-- **sadejstvo** (potvrđen genitiv: *sadejstva*) — Saradnja, zajedničko delovanje; sadejstvo.
-  - D/I/L mn = **sadejstvima**
-- **sajmište** (potvrđen genitiv: *sajmišta*) — Prostor za sajmove i vašare; vašarište.
-  - I jd = **sajmištem**, D/I/L mn = **sajmištima**
-- **saldo** (potvrđen genitiv: *salda*) — Razlika između prihoda i rashoda; saldo.
-  - D/I/L mn = **saldima**
-- **salto** (potvrđen genitiv: *salta*) — Akrobatski preokret tela u vazduhu; premet.
-  - D/L jd = **saltu**, I jd = **saltom**, D/I/L mn = **saltima**
-- **samoljublje** (potvrđen genitiv: *samoljublja*) — Preterana ljubav prema sebi; sujeta.
-  - D/I/L mn = **samoljubljima**
-- **samozadovoljstvo** (potvrđen genitiv: *samozadovoljstva*) — Preterana zadovoljnost sobom; samodopadljivost.
-  - D/L jd = **samozadovoljstvu**, I jd = **samozadovoljstvom**, D/I/L mn = **samozadovoljstvima**
-- **santjago** (potvrđen genitiv: *santjaga*) — Glavni grad Čilea; muško ime (Santjago).
-  - I jd = **santjagom**, D/I/L mn = **santjagima**
-- **saučesništvo** (potvrđen genitiv: *saučesništva*) — Učešće u zločinu; saučesništvo.
-  - D/L jd = **saučesništvu**, I jd = **saučesništvom**, D/I/L mn = **saučesništvima**
-- **saučešće** (potvrđen genitiv: *saučešća*) — Saosećanje sa tuđom tugom; saosećajnost.
-  - D/I/L mn = **saučešćima**
-- **savetovalište** (potvrđen genitiv: *savetovališta*) — Ustanova u kojoj se daju stručni saveti; savetovalište.
-  - I jd = **savetovalištem**, D/I/L mn = **savetovalištima**
-- **savezništvo** (potvrđen genitiv: *savezništva*) — Odnos saveznika; savez.
-  - I jd = **savezništvom**, D/I/L mn = **savezništvima**
-- **savršenstvo** (potvrđen genitiv: *savršenstva*) — Stanje potpune dovršenosti bez mane.
-  - D/I/L mn = **savršenstvima**
-- **sazvučje** (potvrđen genitiv: *sazvučja*) — Sklad zvukova, harmonija; sazvučje.
-  - I jd = **sazvučjem**, D/I/L mn = **sazvučjima**
-- **saće** (potvrđen genitiv: *saća*) — Voštane ćelije u kojima pčele drže med.
-  - D/I/L mn = **saćima**
-- **sedalo** (potvrđen genitiv: *sedala*) — Mesto za sedenje, sedište.
-  - I jd = **sedalom**, D/I/L mn = **sedalima**
-- **sektaštvo** (potvrđen genitiv: *sektaštva*) — Sektaško, isključivo ponašanje; sektaštvo.
-  - D/L jd = **sektaštvu**, I jd = **sektaštvom**, D/I/L mn = **sektaštvima**
-- **selce** (potvrđen genitiv: *selca*) — Malo selo; seoce.
-  - D/L jd = **selcu**, I jd = **selcem**, D/I/L mn = **selcima**
-- **selište** (potvrđen genitiv: *selišta*) — Mesto na kome je nekad bilo selo ili naselje, naseobina; selište.
-  - I jd = **selištem**, D/I/L mn = **selištima**
-- **seljaštvo** (potvrđen genitiv: *seljaštva*) — Seljaci kao društveni sloj, seljački stalež; seljaštvo.
-  - D/I/L mn = **seljaštvima**
-- **seoce** (potvrđen genitiv: *seoca*) — Malo selo; seoce.
-  - I jd = **seocem**
-- **sestrinstvo** (potvrđen genitiv: *sestrinstva*) — Sestrinska bliskost i zajedništvo.
-  - D/I/L mn = **sestrinstvima**
-- **sevojno** (potvrđen genitiv: *sevojna*) — Sevojno — naselje kod Užica (industrijska zona).
-  - D/L jd = **sevojnu**, I jd = **sevojnom**, D/I/L mn = **sevojnima**
-- **sidrište** (potvrđen genitiv: *sidrišta*) — Mesto pogodno za sidrenje i pristajanje brodova; sidrište.
-  - D/L jd = **sidrištu**, I jd = **sidrištem**, D/I/L mn = **sidrištima**
-- **sirište** (potvrđen genitiv: *sirišta*) — Enzim za zgrušavanje mleka u sir; sirište.
-  - D/L jd = **sirištu**, I jd = **sirištem**, D/I/L mn = **sirištima**
-- **sirogojno** (potvrđen genitiv: *sirogojna*) — Sirogojno — etno-selo na Zlatiboru (muzej na otvorenom).
-  - I jd = **sirogojnom**, D/I/L mn = **sirogojnima**
-- **siromaštvo** (potvrđen genitiv: *siromaštva*) — Stanje oskudice; nemaština.
-  - D/I/L mn = **siromaštvima**
-- **sivilo** (potvrđen genitiv: *sivila*) — Siva, dosadna jednoličnost.
-  - D/I/L mn = **sivilima**
-- **skijalište** (potvrđen genitiv: *skijališta*) — Uređen teren za skijanje sa stazama i žičarama; ski-centar.
-  - I jd = **skijalištem**, D/I/L mn = **skijalištima**
-- **skrovište** (potvrđen genitiv: *skrovišta*) — Skriveno mesto gde se neko ili nešto krije.
-  - I jd = **skrovištem**, D/I/L mn = **skrovištima**
-- **sladostrašće** (potvrđen genitiv: *sladostrašća*) — Čulna naslada, pohotljivo uživanje; sladostrašće.
-  - D/L jd = **sladostrašću**, I jd = **sladostrašćem**, D/I/L mn = **sladostrašćima**
-- **slagalište** (potvrđen genitiv: *slagališta*) — Mesto gde se slaže i odlaže roba, skladište; slagalište.
-  - D/L jd = **slagalištu**, I jd = **slagalištem**, D/I/L mn = **slagalištima**
-- **slatko** (potvrđen genitiv: *slatka*) — Poslastica od ukuvanog voća u gustom sirupu.
-  - D/I/L mn = **slatkima**
-- **sledstvo** (potvrđen genitiv: *sledstva*) — Posledica, ono što sledi; sledstvo.
-  - D/L jd = **sledstvu**, I jd = **sledstvom**, D/I/L mn = **sledstvima**
-- **slepilo** (potvrđen genitiv: *slepila*) — Oblik reči slepilo (gubitak vida; nemogućnost uviđanja).
-  - D/I/L mn = **slepilima**
-- **slikarstvo** (potvrđen genitiv: *slikarstva*) — Umetnost slikanja.
-  - D/I/L mn = **slikarstvima**
-- **slovce** (potvrđen genitiv: *slovca*) — Malo slovo, slovce; slovce.
-  - I jd = **slovcem**, D/I/L mn = **slovcima**
-- **slovenstvo** (potvrđen genitiv: *slovenstva*) — Slovenski svet i pripadnost Slovenima; slovenstvo.
-  - D/I/L mn = **slovenstvima**
-- **smaknuće** (potvrđen genitiv: *smaknuća*) — Pogubljenje; izvršenje smrtne kazne.
-  - I jd = **smaknućem**, D/I/L mn = **smaknućima**
-- **smetlište** (potvrđen genitiv: *smetlišta*) — Mesto gde se odlaže smeće.
-  - D/I/L mn = **smetlištima**
-- **smeće** (potvrđen genitiv: *smeća*) — Otpaci i nečistoća; đubre.
-  - D/I/L mn = **smećima**
-- **smilje** (potvrđen genitiv: *smilja*) — Lekovita žuta poljska biljka; smilje.
-  - I jd = **smiljem**, D/I/L mn = **smiljima**
-- **sneško** (potvrđen genitiv: *sneška*) — Figura od snega koju deca prave, Sneško Belić.
-  - D/L jd = **snešku**, I jd = **sneškom**, D/I/L mn = **sneškima**
-- **snješko** (potvrđen genitiv: *snješka*) — Snješko — sneško (belić), figura od snega (ijekavski).
-  - D/L jd = **snješku**, I jd = **snješkom**, D/I/L mn = **snješkima**
-- **sokoćalo** (potvrđen genitiv: *sokoćala*) — Naprava, sprava, mehanizam (često šaljivo); sokoćalo.
-  - D/L jd = **sokoćalu**, D/I/L mn = **sokoćalima**
-- **sopstvo** (potvrđen genitiv: *sopstva*) — Sopstvenost, vlastitost, lično ja; sopstvo.
-  - I jd = **sopstvom**
-- **spasenije** (potvrđen genitiv: *spasenija*) — Spasenije — spasenje (crkveno); žensko ime.
-  - D/L jd = **spaseniju**, I jd = **spasenijem**, D/I/L mn = **spasenijima**
-- **spokojstvo** (potvrđen genitiv: *spokojstva*) — Mir i spokoj duše.
-  - D/I/L mn = **spokojstvima**
-- **sponzorstvo** (potvrđen genitiv: *sponzorstva*) — Novčana podrška uz reklamu.
-  - I jd = **sponzorstvom**, D/I/L mn = **sponzorstvima**
-- **spremište** (potvrđen genitiv: *spremišta*) — Mesto za odlaganje stvari; ostava.
-  - I jd = **spremištem**, D/I/L mn = **spremištima**
-- **srculence** (potvrđen genitiv: *srculenca*) — Oblik reči „srce“ od milja.
-  - D/L jd = **srculencu**, I jd = **srculencem**, D/I/L mn = **srculencima**
-- **srdašce** (potvrđen genitiv: *srdašca*) — Malo srce (umiljato); drago, milo srce.
-  - I jd = **srdašcem**, D/I/L mn = **srdašcima**
-- **sredozemlje** (potvrđen genitiv: *sredozemlja*) — Oblast oko Sredozemnog mora; sredozemlje.
-  - I jd = **sredozemljem**, D/I/L mn = **sredozemljima**
-- **srodstvo** (potvrđen genitiv: *srodstva*) — Rodbinska veza; srodnost.
-  - D/I/L mn = **srodstvima**
-- **srpstvo** (potvrđen genitiv: *srpstva*) — Srpski narod i njegove osobenosti; srpstvo.
-  - D/I/L mn = **srpstvima**
-- **stajalište** (potvrđen genitiv: *stajališta*) — Mesto gde staje autobus ili tramvaj.
-  - I jd = **stajalištem**
-- **stakalce** (potvrđen genitiv: *stakalca*) — Mali komad stakla, parče stakla; stakalce.
-  - D/L jd = **stakalcu**, I jd = **stakalcem**, D/I/L mn = **stakalcima**
-- **stampedo** (potvrđen genitiv: *stampeda*) — Bezglavo bežanje krda; navala mase.
-  - I jd = **stampedom**, D/I/L mn = **stampedima**
-- **stanovište** (potvrđen genitiv: *stanovišta*) — Gledište, stav, tačka gledanja; stanovište.
-  - I jd = **stanovištem**, D/I/L mn = **stanovištima**
-- **stanovništvo** (potvrđen genitiv: *stanovništva*) — Svi ljudi koji žive na nekom području; žitelji.
-  - D/I/L mn = **stanovništvima**
-- **starateljstvo** (potvrđen genitiv: *starateljstva*) — Briga i zaštita nad nemoćnom osobom.
-  - D/I/L mn = **starateljstvima**
-- **starešinstvo** (potvrđen genitiv: *starešinstva*) — Položaj i uloga starešine.
-  - I jd = **starešinstvom**, D/I/L mn = **starešinstvima**
-- **stecište** (potvrđen genitiv: *stecišta*) — Mesto okupljanja; stecište.
-  - D/L jd = **stecištu**, I jd = **stecištem**
-- **stegno** (potvrđen genitiv: *stegna*) — Butina, gornji deo noge; stegno.
-  - I jd = **stegnom**, D/I/L mn = **stegnima**
-- **stepenište** (potvrđen genitiv: *stepeništa*) — Niz stepenika, basamaci.
-  - D/I/L mn = **stepeništima**
-- **stovarište** (potvrđen genitiv: *stovarišta*) — Mesto gde se istovaruje i čuva roba.
-  - I jd = **stovarištem**
-- **stočarstvo** (potvrđen genitiv: *stočarstva*) — Gajenje stoke.
-  - I jd = **stočarstvom**, D/I/L mn = **stočarstvima**
-- **stratište** (potvrđen genitiv: *stratišta*) — Mesto na kome se izvršavaju smrtne kazne, gubilište; stratište.
-  - D/I/L mn = **stratištima**
-- **stražilovo** (potvrđen genitiv: *stražilova*) — Stražilovo (mesto na Fruškoj gori, grob Branka Radičevića).
-  - I jd = **stražilovom**, D/I/L mn = **stražilovima**
-- **strelište** (potvrđen genitiv: *strelišta*) — Mesto uređeno za vežbanje gađanja iz oružja ili luka.
-  - I jd = **strelištem**, D/I/L mn = **strelištima**
-- **streljaštvo** (potvrđen genitiv: *streljaštva*) — Sport gađanja iz oružja u metu.
-  - I jd = **streljaštvom**, D/I/L mn = **streljaštvima**
-- **streljivo** (potvrđen genitiv: *streljiva*) — Meci, municija.
-  - D/L jd = **streljivu**, D/I/L mn = **streljivima**
-- **strnište** (potvrđen genitiv: *strništa*) — Njiva sa ostacima stabljika posle žetve; strnište.
-  - D/L jd = **strništu**, I jd = **strništem**, D/I/L mn = **strništima**
-- **stubište** (potvrđen genitiv: *stubišta*) — Niz stepenica; stepenište.
-  - D/I/L mn = **stubištima**
-- **stvaralaštvo** (potvrđen genitiv: *stvaralaštva*) — Stvaranje dela; umetnička delatnost.
-  - D/I/L mn = **stvaralaštvima**
-- **stvorenjce** (potvrđen genitiv: *stvorenjca*) — Oblik reči „stvorenjce“; malo stvorenje, deminutiv; sitno i nežno biće
-  - D/L jd = **stvorenjcu**, I jd = **stvorenjcem**, D/I/L mn = **stvorenjcima**
-- **sudište** (potvrđen genitiv: *sudišta*) — Mesto suđenja; sudnica.
-  - D/I/L mn = **sudištima**
-- **sudstvo** (potvrđen genitiv: *sudstva*) — Sistem sudova i sudija.
-  - D/I/L mn = **sudstvima**
-- **sujeverje** (potvrđen genitiv: *sujeverja*) — Verovanje u zle znake i čari; praznoverje.
-  - D/I/L mn = **sujeverjima**
-- **sukno** (potvrđen genitiv: *sukna*) — Gusta vunena tkanina.
-  - D/I/L mn = **suknima**
-- **sumračje** (potvrđen genitiv: *sumračja*) — Vreme sumraka, polutama.
-  - I jd = **sumračjem**, D/I/L mn = **sumračjima**
-- **sunašce** (potvrđen genitiv: *sunašca*) — Odmilica za sunce.
-  - D/L jd = **sunašcu**, D/I/L mn = **sunašcima**
-- **suparništvo** (potvrđen genitiv: *suparništva*) — Nadmetanje sa protivnikom oko istog cilja.
-  - D/L jd = **suparništvu**, I jd = **suparništvom**, D/I/L mn = **suparništvima**
-- **superauto** (potvrđen genitiv: *superauta*) — Vrhunski sportski automobil.
-  - D/L jd = **superautu**, I jd = **superautom**, D/I/L mn = **superautima**
-- **susedstvo** (potvrđen genitiv: *susedstva*) — Odnos suseda; okolina u kojoj se živi.
-  - D/I/L mn = **susedstvima**
-- **sučelje** (potvrđen genitiv: *sučelja*) — Sučelje — interfejs, dodirna površina (varijanta).
-  - I jd = **sučeljem**
-- **svanuće** (potvrđen genitiv: *svanuća*) — Trenutak kad svane, zora.
-  - I jd = **svanućem**, D/I/L mn = **svanućima**
-- **svedočanstvo** (potvrđen genitiv: *svedočanstva*) — Školska isprava sa ocenama.
-  - D/L jd = **svedočanstvu**, I jd = **svedočanstvom**
-- **svetilište** (potvrđen genitiv: *svetilišta*) — Sveto mesto; mesto bogosluženja.
-  - I jd = **svetilištem**, D/I/L mn = **svetilištima**
-- **svetište** (potvrđen genitiv: *svetišta*) — Sveto mesto; hram ili mesto bogosluženja.
-  - I jd = **svetištem**, D/I/L mn = **svetištima**
-- **svetogrđe** (potvrđen genitiv: *svetogrđa*) — Skrnavljenje svetinje; bogohuljenje.
-  - D/L jd = **svetogrđu**, D/I/L mn = **svetogrđima**
-- **sveštenstvo** (potvrđen genitiv: *sveštenstva*) — Sveštenici kao stalež.
-  - I jd = **sveštenstvom**, D/I/L mn = **sveštenstvima**
-- **svinjarstvo** (potvrđen genitiv: *svinjarstva*) — Gajenje svinja.
-  - I jd = **svinjarstvom**, D/I/L mn = **svinjarstvima**
-- **svojeumlje** (potvrđen genitiv: *svojeumlja*) — Tvrdoglavost, svojeglavost; svojeumlje.
-  - D/L jd = **svojeumlju**, D/I/L mn = **svojeumljima**
-- **svratište** (potvrđen genitiv: *svratišta*) — Gostionica sa prenoćištem pored puta.
-  - I jd = **svratištem**
-- **svrdlo** (potvrđen genitiv: *svrdla*) — Šiljati alat za bušenje rupa.
-  - D/L jd = **svrdlu**, D/I/L mn = **svrdlima**
-- **tango** (potvrđen genitiv: *tanga*) — Strastveni latinoamerički ples u paru.
-  - D/I/L mn = **tangima**
-- **telašce** (potvrđen genitiv: *telašca*) — Malo telo; telašce.
-  - D/L jd = **telašcu**, I jd = **telašcem**, D/I/L mn = **telašcima**
-- **tempo** (potvrđen genitiv: *tempa*) — Brzina kojom nešto teče ili se izvodi.
-  - D/I/L mn = **tempima**
-- **testo** (potvrđen genitiv: *testa*) — Smesa od brašna i vode za hleb i kolače.
-  - D/I/L mn = **testima**
-- **težište** (potvrđen genitiv: *težišta*) — Centar mase tela; središte; težište.
-  - D/L jd = **težištu**, D/I/L mn = **težištima**
-- **ticalo** (potvrđen genitiv: *ticala*) — Izduženi osetljivi pipak insekta na glavi, antena.
-  - D/L jd = **ticalu**, I jd = **ticalom**, D/I/L mn = **ticalima**
-- **tocilo** (potvrđen genitiv: *tocila*) — Okrugli kamen koji se okreće za oštrenje alata.
-  - D/I/L mn = **tocilima**
-- **topništvo** (potvrđen genitiv: *topništva*) — Topništvo — artiljerija (varijanta).
-  - D/L jd = **topništvu**, I jd = **topništvom**, D/I/L mn = **topništvima**
-- **tornado** (potvrđen genitiv: *tornada*) — Vrtložna oluja u obliku levka.
-  - D/I/L mn = **tornadima**
-- **toronto** (potvrđen genitiv: *toronta*) — Najveći grad Kanade.
-  - I jd = **torontom**, D/I/L mn = **torontima**
-- **torzo** (potvrđen genitiv: *torza*) — Trup tela bez glave i udova; gornji deo tela.
-  - I jd = **torzom**, D/I/L mn = **torzima**
-- **tremolo** (potvrđen genitiv: *tremola*) — Brzo treperenje tona u muzici.
-  - D/L jd = **tremolu**, I jd = **tremolom**, D/I/L mn = **tremolima**
-- **trgovište** (potvrđen genitiv: *trgovišta*) — Trg, pijaca; trgovački gradić.
-  - I jd = **trgovištem**, D/I/L mn = **trgovištima**
-- **trijenale** (potvrđen genitiv: *trijenala*) — Izložba ili manifestacija koja se održava svake tri godine.
-  - I jd = **trijenalem**, D/I/L mn = **trijenalima**
-- **trkalište** (potvrđen genitiv: *trkališta*) — Uređeni prostor ili staza za trke.
-  - D/I/L mn = **trkalištima**
-- **trojstvo** (potvrđen genitiv: *trojstva*) — Jedinstvo troga; sveto trojstvo u veri.
-  - I jd = **trojstvom**, D/I/L mn = **trojstvima**
-- **tromesečje** (potvrđen genitiv: *tromesečja*) — Razdoblje od tri meseca, kvartal.
-  - I jd = **tromesečjem**, D/I/L mn = **tromesečjima**
-- **tutkalo** (potvrđen genitiv: *tutkala*) — Lepak od životinjskih sastojaka; stolarski lepak.
-  - D/L jd = **tutkalu**, D/I/L mn = **tutkalima**
-- **tutorstvo** (potvrđen genitiv: *tutorstva*) — Staranje i nadzor nad maloletnikom.
-  - D/I/L mn = **tutorstvima**
-- **tužilaštvo** (potvrđen genitiv: *tužilaštva*) — Državni organ koji goni počinioce krivičnih dela.
-  - D/I/L mn = **tužilaštvima**
-- **uboštvo** (potvrđen genitiv: *uboštva*) — Siromaštvo, beda.
-  - D/L jd = **uboštvu**, D/I/L mn = **uboštvima**
-- **udovištvo** (potvrđen genitiv: *udovištva*) — Stanje udovca ili udovice.
-  - I jd = **udovištvom**, D/I/L mn = **udovištvima**
-- **uginuće** (potvrđen genitiv: *uginuća*) — Oblik reči uginuće (smrt životinje).
-  - D/L jd = **uginuću**, I jd = **uginućem**, D/I/L mn = **uginućima**
-- **ugljevlje** (potvrđen genitiv: *ugljevlja*) — Žar, užareni ugalj.
-  - I jd = **ugljevljem**, D/I/L mn = **ugljevljima**
-- **ugostiteljstvo** (potvrđen genitiv: *ugostiteljstva*) — Delatnost pružanja hrane i smeštaja gostima.
-  - I jd = **ugostiteljstvom**, D/I/L mn = **ugostiteljstvima**
-- **ukinuće** (potvrđen genitiv: *ukinuća*) — Oblik reči ukinuće (ukidanje, poništavanje).
-  - I jd = **ukinućem**, D/I/L mn = **ukinućima**
-- **ulegnuće** (potvrđen genitiv: *ulegnuća*) — Udubljenje i ugnuto mesto na površini, uleglina (ulegnuće na putu).
-  - D/L jd = **ulegnuću**, I jd = **ulegnućem**
-- **umlje** (potvrđen genitiv: *umlja*) — Um, razum.
-  - D/L jd = **umlju**, I jd = **umljem**, D/I/L mn = **umljima**
-- **umorstvo** (potvrđen genitiv: *umorstva*) — Ubistvo; lišavanje života.
-  - I jd = **umorstvom**, D/I/L mn = **umorstvima**
-- **unesko** (potvrđen genitiv: *uneska*) — Unesko — Organizacija UN za obrazovanje, nauku i kulturu (UNESCO).
-  - I jd = **uneskom**, D/I/L mn = **uneskima**
-- **uredništvo** (potvrđen genitiv: *uredništva*) — Redakcija, telo i prostor u kome se uređuju novine, časopis ili izdanj
-  - I jd = **uredništvom**, D/I/L mn = **uredništvima**
-- **uskrsnuće** (potvrđen genitiv: *uskrsnuća*) — Vaskrsenje; vraćanje u život posle smrti.
-  - D/I/L mn = **uskrsnućima**
-- **uspenije** (potvrđen genitiv: *uspenija*) — Oblik reči Uspenije (praznik Uspenja Presvete Bogorodice).
-  - D/L jd = **uspeniju**, I jd = **uspenijem**, D/I/L mn = **uspenijima**
-- **ustaštvo** (potvrđen genitiv: *ustaštva*) — Ustaški fašistički pokret.
-  - D/L jd = **ustaštvu**, I jd = **ustaštvom**, D/I/L mn = **ustaštvima**
-- **ustrojstvo** (potvrđen genitiv: *ustrojstva*) — Unutrašnje uređenje; poredak i sklop.
-  - D/I/L mn = **ustrojstvima**
-- **utrnuće** (potvrđen genitiv: *utrnuća*) — Oblik reči utrnuti (obamreti; ugasiti se).
-  - D/L jd = **utrnuću**, I jd = **utrnućem**, D/I/L mn = **utrnućima**
-- **uzdarje** (potvrđen genitiv: *uzdarja*) — Uzvratni dar, poklon kojim se uzvraća na dar; uzdarje.
-  - D/I/L mn = **uzdarjima**
-- **uzdignuće** (potvrđen genitiv: *uzdignuća*) — Oblik reči „uzdignuće“; dizanje uvis; uzvišeno mesto; preneseno: uznes
-  - D/I/L mn = **uzdignućima**
-- **uzgajalište** (potvrđen genitiv: *uzgajališta*) — Mesto za uzgoj (životinja, biljaka).
-  - I jd = **uzgajalištem**, D/I/L mn = **uzgajalištima**
-- **uzletište** (potvrđen genitiv: *uzletišta*) — Mesto odakle poleću avioni; pista.
-  - I jd = **uzletištem**, D/I/L mn = **uzletištima**
-- **učiteljstvo** (potvrđen genitiv: *učiteljstva*) — Učiteljski poziv i svi učitelji kao stalež; učiteljstvo.
-  - I jd = **učiteljstvom**, D/I/L mn = **učiteljstvima**
-- **vajarstvo** (potvrđen genitiv: *vajarstva*) — Umetnost vajanja kipova.
-  - D/I/L mn = **vajarstvima**
-- **valjevo** (potvrđen genitiv: *valjeva*) — Valjevo — grad u zapadnoj Srbiji (Kolubarski okrug).
-  - I jd = **valjevom**, D/I/L mn = **valjevima**
-- **varivo** (potvrđen genitiv: *variva*) — Kuvano jelo od povrća.
-  - D/I/L mn = **varivima**
-- **varvarstvo** (potvrđen genitiv: *varvarstva*) — Surovo i necivilizovano ponašanje.
-  - D/I/L mn = **varvarstvima**
-- **vaskrsnuće** (potvrđen genitiv: *vaskrsnuća*) — Vraćanje iz mrtvih u život; uskrsnuće.
-  - I jd = **vaskrsnućem**, D/I/L mn = **vaskrsnućima**
-- **vaterpolo** (potvrđen genitiv: *vaterpola*) — Timski sport sa loptom koji se igra u vodi.
-  - D/I/L mn = **vaterpolima**
-- **vatrište** (potvrđen genitiv: *vatrišta*) — Mesto vatre; ognjište, žarište.
-  - I jd = **vatrištem**, D/I/L mn = **vatrištima**
-- **vazalstvo** (potvrđen genitiv: *vazalstva*) — Odnos potčinjenosti vazala gospodaru.
-  - D/L jd = **vazalstvu**, D/I/L mn = **vazalstvima**
-- **vazduhoplovstvo** (potvrđen genitiv: *vazduhoplovstva*) — Oblast letenja i vazdušnog saobraćaja.
-  - D/I/L mn = **vazduhoplovstvima**
-- **vašarište** (potvrđen genitiv: *vašarišta*) — Mesto gde se održava vašar; sajmište.
-  - I jd = **vašarištem**, D/I/L mn = **vašarištima**
-- **velebilje** (potvrđen genitiv: *velebilja*) — Otrovna biljka; beladona.
-  - D/L jd = **velebilju**, I jd = **velebiljem**, D/I/L mn = **velebiljima**
-- **velegošće** (potvrđen genitiv: *velegošća*) — Oblik reči velegošće (velika gozba, svečanost).
-  - I jd = **velegošćem**, D/I/L mn = **velegošćima**
-- **veto** (potvrđen genitiv: *veta*) — Pravo da se zabrani ili spreči odluka.
-  - D/L jd = **vetu**, I jd = **vetom**
-- **vetrilo** (potvrđen genitiv: *vetrila*) — Lepeza; jedro na brodu; vetrilo.
-  - D/L jd = **vetrilu**, I jd = **vetrilom**, D/I/L mn = **vetrilima**
-- **video** (potvrđen genitiv: *videa*) — Snimljena pokretna slika; videozapis.
-  - D/I/L mn = **videima**
-- **vino** (potvrđen genitiv: *vina*) — Alkoholno piće od grožđa.
+- **vino** *(frek. 10506, gen. vina)* — Alkoholno piće od grožđa.
   - D/I/L mn = **vinima**
-- **vinogorje** (potvrđen genitiv: *vinogorja*) — Vinorodni kraj; oblast vinograda.
-  - I jd = **vinogorjem**, D/I/L mn = **vinogorjima**
-- **vinogradarstvo** (potvrđen genitiv: *vinogradarstva*) — Gajenje vinove loze.
-  - D/L jd = **vinogradarstvu**, I jd = **vinogradarstvom**, D/I/L mn = **vinogradarstvima**
-- **violončelo** (potvrđen genitiv: *violončela*) — Veliki gudački instrument koji se drži među kolenima.
-  - I jd = **violončelom**, D/I/L mn = **violončelima**
-- **visokoumlje** (potvrđen genitiv: *visokoumlja*) — Umnost, veliko znanje; uobraženost uma, oholost; visokoumlje.
-  - I jd = **visokoumljem**, D/I/L mn = **visokoumljima**
-- **visočanstvo** (potvrđen genitiv: *visočanstva*) — Titula za člana vladarske porodice (Vaše visočanstvo).
-  - D/I/L mn = **visočanstvima**
-- **viteštvo** (potvrđen genitiv: *viteštva*) — Časno i hrabro ponašanje vitezova.
-  - D/I/L mn = **viteštvima**
-- **višeglasje** (potvrđen genitiv: *višeglasja*) — Pevanje ili muzika sa više glasova; višeglasje.
-  - D/L jd = **višeglasju**, I jd = **višeglasjem**, D/I/L mn = **višeglasjima**
-- **vlasništvo** (potvrđen genitiv: *vlasništva*) — Ono što nekome pripada; imovina, posed.
-  - D/I/L mn = **vlasništvima**
-- **vlasotince** (potvrđen genitiv: *vlasotinca*) — Vlasotince — grad u južnoj Srbiji (Jablanički okrug).
-  - I jd = **vlasotincem**, D/I/L mn = **vlasotincima**
-- **vodstvo** (potvrđen genitiv: *vodstva*) — Vođenje i upravljanje; prednost u igri.
-  - D/I/L mn = **vodstvima**
-- **vojvodstvo** (potvrđen genitiv: *vojvodstva*) — Oblast kojom upravlja vojvoda.
-  - I jd = **vojvodstvom**, D/I/L mn = **vojvodstvima**
-- **voćarstvo** (potvrđen genitiv: *voćarstva*) — Gajenje voća.
-  - I jd = **voćarstvom**, D/I/L mn = **voćarstvima**
-- **voće** (potvrđen genitiv: *voća*) — Slatki plodovi biljaka, npr. jabuka i grožđe.
-  - D/I/L mn = **voćima**
-- **vođstvo** (potvrđen genitiv: *vođstva*) — Oni koji vode; takođe prednost u rezultatu.
-  - D/I/L mn = **vođstvima**
-- **vresište** (potvrđen genitiv: *vresišta*) — Oblik reči vresište (predeo obrastao vresom).
-  - I jd = **vresištem**, D/I/L mn = **vresištima**
-- **vreteno** (potvrđen genitiv: *vretena*) — Štapić na koji se namotava ispredena nit.
-  - D/L jd = **vretenu**, D/I/L mn = **vretenima**
-- **zabavište** (potvrđen genitiv: *zabavišta*) — Predškolska ustanova za malu decu, obdanište.
-  - I jd = **zabavištem**, D/I/L mn = **zabavištima**
-- **zabrežje** (potvrđen genitiv: *zabrežja*) — Predeo iza brežuljaka; zabrežje.
-  - I jd = **zabrežjem**, D/I/L mn = **zabrežjima**
-- **zabrđe** (potvrđen genitiv: *zabrđa*) — Predeo iza brda; zabrđe.
-  - D/L jd = **zabrđu**, I jd = **zabrđem**, D/I/L mn = **zabrđima**
-- **zadrugarstvo** (potvrđen genitiv: *zadrugarstva*) — Udruživanje u zadruge.
-  - D/L jd = **zadrugarstvu**, I jd = **zadrugarstvom**, D/I/L mn = **zadrugarstvima**
-- **zajedništvo** (potvrđen genitiv: *zajedništva*) — Osećaj pripadnosti i zajedničkog života; sloga.
-  - I jd = **zajedništvom**, D/I/L mn = **zajedništvima**
-- **zakonodavstvo** (potvrđen genitiv: *zakonodavstva*) — Donošenje zakona; ukupnost zakona.
-  - D/I/L mn = **zakonodavstvima**
-- **zanatstvo** (potvrđen genitiv: *zanatstva*) — Bavljenje zanatima.
-  - D/I/L mn = **zanatstvima**
-- **zapešće** (potvrđen genitiv: *zapešća*) — Mesto gde se šaka spaja sa rukom, ručni zglob.
-  - I jd = **zapešćem**
-- **zapovedništvo** (potvrđen genitiv: *zapovedništva*) — Oblik reči zapovedništvo (komanda, vrhovno vođstvo).
-  - D/I/L mn = **zapovedništvima**
-- **zapovjedništvo** (potvrđen genitiv: *zapovjedništva*) — Oblik reči zapovjedništvo (zapovedništvo, komanda — ijekavski).
-  - D/I/L mn = **zapovjedništvima**
-- **zarobljeništvo** (potvrđen genitiv: *zarobljeništva*) — Stanje zarobljenika; sužanjstvo.
-  - I jd = **zarobljeništvom**, D/I/L mn = **zarobljeništvima**
-- **zaruke** (potvrđen genitiv: *zaruka*) — Svečano obećanje braka; veridba.
-  - D/L jd = **zaruku**, I jd = **zarukem**, D/I/L mn = **zarukima**
-- **zastupništvo** (potvrđen genitiv: *zastupništva*) — Služba i ovlašćenje zastupnika, predstavljanje; zastupništvo.
-  - I jd = **zastupništvom**, D/I/L mn = **zastupništvima**
-- **zatišje** (potvrđen genitiv: *zatišja*) — Mir posle nevremena, bez vetra.
-  - I jd = **zatišjem**
-- **zatočeništvo** (potvrđen genitiv: *zatočeništva*) — Zatvor, zarobljeništvo, sužanjstvo.
-  - I jd = **zatočeništvom**, D/I/L mn = **zatočeništvima**
-- **zauzeće** (potvrđen genitiv: *zauzeća*) — Oblik glagola „zauzeti“, buduće vreme (on će zauzeti; osvojiti, popuni
-  - D/I/L mn = **zauzećima**
-- **zavojište** (potvrđen genitiv: *zavojišta*) — Mesto gde se ranjenicima previjaju rane; zavojište.
-  - I jd = **zavojištem**, D/I/L mn = **zavojištima**
-- **začelje** (potvrđen genitiv: *začelja*) — Oblik reči „začelje“; gornji, počasni deo stola; zadnji deo (sedeo u z
-  - D/I/L mn = **začeljima**
-- **začeće** (potvrđen genitiv: *začeća*) — Začinjanje novog života; početak trudnoće.
-  - D/I/L mn = **začećima**
-- **zdravlje** (potvrđen genitiv: *zdravlja*) — Stanje kad smo zdravi.
-  - D/I/L mn = **zdravljima**
-- **zdravoumlje** (potvrđen genitiv: *zdravoumlja*) — Zdrav razum; trezvenost.
-  - I jd = **zdravoumljem**, D/I/L mn = **zdravoumljima**
-- **zelenaštvo** (potvrđen genitiv: *zelenaštva*) — Pozajmljivanje novca uz preteranu kamatu, lihvarstvo; zelenaštvo.
-  - D/L jd = **zelenaštvu**, I jd = **zelenaštvom**, D/I/L mn = **zelenaštvima**
-- **zgarište** (potvrđen genitiv: *zgarišta*) — Mesto gde je nešto izgorelo; ostaci požara.
-  - I jd = **zgarištem**
-- **zidarstvo** (potvrđen genitiv: *zidarstva*) — Zanat zidanja kuća.
-  - I jd = **zidarstvom**, D/I/L mn = **zidarstvima**
-- **zlatarstvo** (potvrđen genitiv: *zlatarstva*) — Izrada zlatnog nakita.
-  - I jd = **zlatarstvom**, D/I/L mn = **zlatarstvima**
-- **zlato** (potvrđen genitiv: *zlata*) — Skupocen sjajan žut metal.
-  - D/I/L mn = **zlatima**
-- **zlodejstvo** (potvrđen genitiv: *zlodejstva*) — Zao i opak postupak.
-  - D/L jd = **zlodejstvu**, I jd = **zlodejstvom**, D/I/L mn = **zlodejstvima**
-- **zlopogleđe** (potvrđen genitiv: *zlopogleđa*) — Zao, opak pogled; urok.
-  - D/L jd = **zlopogleđu**, I jd = **zlopogleđem**, D/I/L mn = **zlopogleđima**
-- **zloumlje** (potvrđen genitiv: *zloumlja*) — Zloba; zlonamernost.
-  - D/I/L mn = **zloumljima**
-- **zločinstvo** (potvrđen genitiv: *zločinstva*) — Težak zločin; zlodelo.
-  - D/I/L mn = **zločinstvima**
-- **zrnce** (potvrđen genitiv: *zrnca*) — Vrlo malo zrno.
-  - D/L jd = **zrncu**
-- **zrnevlje** (potvrđen genitiv: *zrnevlja*) — Mnoštvo zrna, zrnje.
-  - D/L jd = **zrnevlju**, I jd = **zrnevljem**, D/I/L mn = **zrnevljima**
-- **zubalo** (potvrđen genitiv: *zubala*) — Veštačka vilica sa zubima; proteza.
-  - D/L jd = **zubalu**, D/I/L mn = **zubalima**
-- **zverstvo** (potvrđen genitiv: *zverstva*) — Surovo i nečovečno delo.
-  - D/L jd = **zverstvu**, I jd = **zverstvom**
-- **zvonce** (potvrđen genitiv: *zvonca*) — Malo zvono.
-  - D/L jd = **zvoncu**
-- **ćemane** (potvrđen genitiv: *ćemana*) — Violina; ćemane.
-  - D/L jd = **ćemanu**, I jd = **ćemanem**
-- **čajniče** (potvrđen genitiv: *čajniča*) — Čajniče — grad u Bosni i Hercegovini.
-  - I jd = **čajničem**, D/I/L mn = **čajničima**
-- **čakšire** (potvrđen genitiv: *čakšira*) — Stare uske pantalone od sukna.
-  - I jd = **čakširem**, D/I/L mn = **čakširima**
-- **čarobnjaštvo** (potvrđen genitiv: *čarobnjaštva*) — Oblik reči čarobnjaštvo (čaranje, magija, veštičarenje).
-  - D/L jd = **čarobnjaštvu**, I jd = **čarobnjaštvom**, D/I/L mn = **čarobnjaštvima**
-- **časništvo** (potvrđen genitiv: *časništva*) — Časništvo — oficirski čin i zvanje (varijanta).
-  - D/L jd = **časništvu**, I jd = **časništvom**, D/I/L mn = **časništvima**
-- **četništvo** (potvrđen genitiv: *četništva*) — Oblik reči četništvo (četnički pokret).
-  - I jd = **četništvom**, D/I/L mn = **četništvima**
-- **čifte** (potvrđen genitiv: *čifta*) — Puška dvocevka; čifte.
-  - D/L jd = **čiftu**, I jd = **čiftem**, D/I/L mn = **čiftima**
-- **čikago** (potvrđen genitiv: *čikaga*) — Oblik reči „Čikago“; grad u Americi.
-  - D/I/L mn = **čikagima**
-- **činovništvo** (potvrđen genitiv: *činovništva*) — Sloj činovnika; činovništvo.
-  - D/I/L mn = **činovništvima**
-- **čistilište** (potvrđen genitiv: *čistilišta*) — U hrišćanstvu mesto privremenog čišćenja duša.
-  - I jd = **čistilištem**, D/I/L mn = **čistilištima**
-- **čistunstvo** (potvrđen genitiv: *čistunstva*) — Preterana sklonost ka čistoći i redu.
-  - I jd = **čistunstvom**, D/I/L mn = **čistunstvima**
-- **čitalište** (potvrđen genitiv: *čitališta*) — Čitaonica.
-  - I jd = **čitalištem**, D/I/L mn = **čitalištima**
-- **članstvo** (potvrđen genitiv: *članstva*) — Pripadnost organizaciji; svi članovi.
-  - D/I/L mn = **članstvima**
-- **čojstvo** (potvrđen genitiv: *čojstva*) — Čovečnost, plemenitost u ophođenju.
-  - D/I/L mn = **čojstvima**
-- **čovečanstvo** (potvrđen genitiv: *čovečanstva*) — Svi ljudi zajedno; ljudski rod.
-  - D/I/L mn = **čovečanstvima**
-- **čoveštvo** (potvrđen genitiv: *čoveštva*) — Čovečnost, ljudskost; čoveštvo.
-  - D/I/L mn = **čoveštvima**
-- **čvorište** (potvrđen genitiv: *čvorišta*) — Mesto ukrštanja puteva ili linija; čvorište.
-  - I jd = **čvorištem**
-- **đogo** (potvrđen genitiv: *đoga*) — Konj bele dlake; belac.
-  - D/I/L mn = **đogima**
-- **đubre** (potvrđen genitiv: *đubra*) — Smeće, otpaci; takođe stajsko đubrivo.
-  - D/L jd = **đubru**, I jd = **đubrem**
-- **đubrište** (potvrđen genitiv: *đubrišta*) — Mesto gde se baca smeće; smetlište.
-  - I jd = **đubrištem**
-- **šalvare** (potvrđen genitiv: *šalvara*) — Široke nabrane pantalone; dimije.
-  - D/L jd = **šalvaru**, I jd = **šalvarem**, D/I/L mn = **šalvarima**
-- **šetalište** (potvrđen genitiv: *šetališta*) — Uređena staza za šetnju.
-  - D/I/L mn = **šetalištima**
-- **šiblje** (potvrđen genitiv: *šiblja*) — Mnoštvo tankih grana i niskog žbunja.
-  - D/I/L mn = **šibljima**
-- **šilo** (potvrđen genitiv: *šila*) — Šiljat alat za bušenje rupa u koži.
-  - D/L jd = **šilu**, D/I/L mn = **šilima**
-- **šipražje** (potvrđen genitiv: *šipražja*) — Gusto nisko rastinje i grmlje (množina od šipraga).
-  - D/I/L mn = **šipražjima**
-- **školstvo** (potvrđen genitiv: *školstva*) — Sistem škola i obrazovanja.
-  - D/I/L mn = **školstvima**
-- **štivo** (potvrđen genitiv: *štiva*) — Tekst namenjen čitanju; štivo.
-  - D/I/L mn = **štivima**
-- **šumarstvo** (potvrđen genitiv: *šumarstva*) — Privredna grana o gajenju i iskorišćavanju šuma.
-  - D/I/L mn = **šumarstvima**
-- **žalo** (potvrđen genitiv: *žala*) — Šljunkovita ili peskovita morska obala.
-  - D/I/L mn = **žalima**
-- **žaluzije** (potvrđen genitiv: *žaluzija*) — Pokretni zastor od letvica na prozoru.
-  - D/L jd = **žaluziju**, I jd = **žaluzijem**, D/I/L mn = **žaluzijima**
-- **ždrelo** (potvrđen genitiv: *ždrela*) — Uzan ulaz u klisuru; zadnji deo grla.
-  - D/I/L mn = **ždrelima**
-- **železo** (potvrđen genitiv: *železa*) — Gvožđe (sivi metal).
-  - D/L jd = **železu**
-- **željezo** (potvrđen genitiv: *željeza*) — Oblik reči željezo (gvožđe — ijekavski).
-  - D/L jd = **željezu**, D/I/L mn = **željezima**
-- **žigolo** (potvrđen genitiv: *žigola*) — Muškarac koga izdržavaju žene zauzvrat za društvo.
-  - D/L jd = **žigolu**, D/I/L mn = **žigolima**
-- **žiteljstvo** (potvrđen genitiv: *žiteljstva*) — Stanovništvo.
-  - D/I/L mn = **žiteljstvima**
-- **žitije** (potvrđen genitiv: *žitija*) — Opis života svetitelja.
-  - I jd = **žitijem**, D/I/L mn = **žitijima**
-- **žumance** (potvrđen genitiv: *žumanca*) — Žuti deo jajeta.
-  - D/L jd = **žumancu**
-
----
-
-## Proširena osnova — 36 imenica, 56 oblika
-
-- **bube** (potvrđen genitiv: *bubeta*) — Sitni insekti tvrdih krila (množina od buba).
-  - D/L jd = **bubetu**, I jd = **bubetom**
-- **devojče** (potvrđen genitiv: *devojčeta*) — Mlada devojka; devojčica.
-  - D/L jd = **devojčetu**
-- **dojenče** (potvrđen genitiv: *dojenčeta*) — Odojče, beba koja sisa.
-  - I jd = **dojenčetom**
-- **dupence** (potvrđen genitiv: *dupenceta*) — Oblik reči „dupe“ od milja; mala zadnjica.
-  - D/L jd = **dupencetu**, I jd = **dupencetom**
-- **file** (potvrđen genitiv: *fileta*) — Komad mesa ili ribe bez kostiju.
-  - D/L jd = **filetu**, I jd = **filetom**
-- **govance** (potvrđen genitiv: *govanceta*) — Oblik reči govance (komad izmeta; pogrdno za osobu).
-  - D/L jd = **govancetu**, I jd = **govancetom**
-- **goveče** (potvrđen genitiv: *govečeta*) — Grlo krupne rogate stoke, govedo; goveče.
-  - D/L jd = **govečetu**
-- **gušče** (potvrđen genitiv: *guščeta*) — Mladunče guske, guščić; gušče.
-  - D/L jd = **guščetu**, I jd = **guščetom**
-- **jare** (potvrđen genitiv: *jareta*) — Mladunče koze.
-  - D/L jd = **jaretu**
-- **kumče** (potvrđen genitiv: *kumčeta*) — Dete kome je neko kum.
-  - I jd = **kumčetom**
-- **kučence** (potvrđen genitiv: *kučenceta*) — Mladunče psa; štene (od milja).
-  - D/L jd = **kučencetu**
-- **lale** (potvrđen genitiv: *laleta*) — Prolećni čašasti cvetovi (množina od lala).
-  - D/L jd = **laletu**, I jd = **laletom**
-- **lane** (potvrđen genitiv: *laneta*) — Mladunče jelena ili srne.
-  - D/L jd = **lanetu**, I jd = **lanetom**
-- **magare** (potvrđen genitiv: *magareta*) — Mlado magarca; takođe umiljat naziv za magarca.
-  - I jd = **magaretom**
-- **marvinče** (potvrđen genitiv: *marvinčeta*) — Grlo krupne stoke, govedo; marvinče.
-  - D/L jd = **marvinčetu**, I jd = **marvinčetom**
-- **mezimče** (potvrđen genitiv: *mezimčeta*) — Najmlađe i najmilije dete, mezimac.
-  - D/L jd = **mezimčetu**, I jd = **mezimčetom**
-- **nazime** (potvrđen genitiv: *nazimeta*) — Mlado prase od oko godinu dana.
-  - D/L jd = **nazimetu**, I jd = **nazimetom**
-- **novorođenče** (potvrđen genitiv: *novorođenčeta*) — Tek rođena beba.
-  - I jd = **novorođenčetom**
-- **odojče** (potvrđen genitiv: *odojčeta*) — Beba koja se još doji.
-  - I jd = **odojčetom**
-- **pače** (potvrđen genitiv: *pačeta*) — Mladunče patke.
-  - I jd = **pačetom**
-- **pendže** (potvrđen genitiv: *pendžeta*) — Oblik reči pendže (donji deo cipele, potplat — turcizam).
-  - D/L jd = **pendžetu**, I jd = **pendžetom**
-- **poluvreme** (potvrđen genitiv: *poluvremena*) — Polovina utakmice; pauza na sredini.
-  - I jd = **poluvremenom**
-- **prle** (potvrđen genitiv: *prleta*) — Prle — nadimak (junak filma Otpisani; Prleta).
-  - D/L jd = **prletu**, I jd = **prletom**
-- **prozorče** (potvrđen genitiv: *prozorčeta*) — Mali prozor.
-  - D/L jd = **prozorčetu**, I jd = **prozorčetom**
-- **prvenče** (potvrđen genitiv: *prvenčeta*) — Prvorođeno dete; prvenče.
-  - D/L jd = **prvenčetu**, I jd = **prvenčetom**
-- **puce** (potvrđen genitiv: *puceta*) — Dugme; mali okrugli predmet.
-  - D/L jd = **pucetu**, I jd = **pucetom**
-- **rende** (potvrđen genitiv: *rendeta*) — Sprava sa oštrim rupicama za rendanje.
-  - D/L jd = **rendetu**, I jd = **rendetom**
-- **ribarče** (potvrđen genitiv: *ribarčeta*) — Ribarevo dete, mladi ribar; ribarče.
-  - D/L jd = **ribarčetu**, I jd = **ribarčetom**
-- **sleme** (potvrđen genitiv: *slemena*) — Najviši, gornji rub krova ili brda.
-  - D/L jd = **slemenu**, I jd = **slemenom**
-- **svinjče** (potvrđen genitiv: *svinjčeta*) — Prase; mladunče svinje.
-  - D/L jd = **svinjčetu**
-- **tele** (potvrđen genitiv: *teleta*) — Mladunče krave.
-  - I jd = **teletom**
-- **tuce** (potvrđen genitiv: *tuceta*) — Količina od dvanaest komada.
-  - D/L jd = **tucetu**
-- **tuče** (potvrđen genitiv: *tučeta*) — Padavine od ledenih zrna; grad (množina od tuča).
-  - D/L jd = **tučetu**, I jd = **tučetom**
-- **vime** (potvrđen genitiv: *vimena*) — Mlečna žlezda kod krave, koze ili ovce.
-  - D/L jd = **vimenu**
-- **škembe** (potvrđen genitiv: *škembeta*) — Stomak, trbuh; goveđa creva kao jelo.
-  - D/L jd = **škembetu**, I jd = **škembetom**
-- **živinče** (potvrđen genitiv: *živinčeta*) — Domaća životinja (perad ili stoka); pogrdno za čoveka.
-  - I jd = **živinčetom**
-
----
-
-## Glagolske imenice (-nje) — 1335 imenica, 1949 oblika
-
-- **adaptiranje** (potvrđen genitiv: *adaptiranja*) — Oblik reči adaptiranje (prilagođavanje, preuređivanje).
-  - D/L jd = **adaptiranju**, I jd = **adaptiranjem**
-- **administriranje** (potvrđen genitiv: *administriranja*) — Oblik reči administrirati (upravljati, voditi poslove).
-  - I jd = **administriranjem**
-- **adresiranje** (potvrđen genitiv: *adresiranja*) — Reč „adresiranje“; upisivanje adrese na pošiljku; usmeravanje poruke n
-  - I jd = **adresiranjem**
-- **afektiranje** (potvrđen genitiv: *afektiranja*) — Oblik reči afektirati (izveštačeno se ponašati, glumiti osećanja).
-  - D/L jd = **afektiranju**, I jd = **afektiranjem**
-- **afirmisanje** (potvrđen genitiv: *afirmisanja*) — Potvrđivanje i isticanje vrednosti.
-  - I jd = **afirmisanjem**
-- **agitovanje** (potvrđen genitiv: *agitovanja*) — Nagovaranje i pridobijanje za neku ideju.
-  - I jd = **agitovanjem**
-- **analiziranje** (potvrđen genitiv: *analiziranja*) — Oblik reči analiziranje (raščlanjivanje, ispitivanje).
-  - D/L jd = **analiziranju**, I jd = **analiziranjem**
-- **anektiranje** (potvrđen genitiv: *anektiranja*) — Oblik reči anektiranje (prisilno pripajanje teritorije).
-  - I jd = **anektiranjem**
-- **angažovanje** (potvrđen genitiv: *angažovanja*) — Uključivanje u posao ili zadatak.
-  - I jd = **angažovanjem**
-- **animiranje** (potvrđen genitiv: *animiranja*) — Oblik reči animiranje (oživljavanje slika; podsticanje).
-  - I jd = **animiranjem**
-- **anketiranje** (potvrđen genitiv: *anketiranja*) — Prikupljanje mišljenja pomoću pitanja, sprovođenje ankete; anketiranje
-  - D/L jd = **anketiranju**, I jd = **anketiranjem**
-- **aranžiranje** (potvrđen genitiv: *aranžiranja*) — Uređivanje i raspoređivanje radi lepog izgleda; obrada muzičkog dela z
-  - I jd = **aranžiranjem**
-- **arhiviranje** (potvrđen genitiv: *arhiviranja*) — Sređivanje i čuvanje dokumenata u arhivi; arhiviranje.
-  - D/L jd = **arhiviranju**, I jd = **arhiviranjem**
-- **asociranje** (potvrđen genitiv: *asociranja*) — Oblik reči asocirati (dovoditi u vezu, podsećati).
-  - D/L jd = **asociranju**, I jd = **asociranjem**
-- **ažuriranje** (potvrđen genitiv: *ažuriranja*) — Osvežavanje podataka na najnovije stanje.
-  - I jd = **ažuriranjem**
-- **bacakanje** (potvrđen genitiv: *bacakanja*) — Oblik reči bacakanje (nekontrolisano mlataranje udovima).
-  - D/L jd = **bacakanju**, I jd = **bacakanjem**
-- **balansiranje** (potvrđen genitiv: *balansiranja*) — Održavanje ravnoteže.
-  - D/L jd = **balansiranju**, I jd = **balansiranjem**
-- **balavljenje** (potvrđen genitiv: *balavljenja*) — Curenje bale i pljuvačke.
-  - D/L jd = **balavljenju**, I jd = **balavljenjem**
-- **baljezganje** (potvrđen genitiv: *baljezganja*) — Besmisleno, prazno pričanje, naklapanje.
-  - D/L jd = **baljezganju**, I jd = **baljezganjem**
-- **balsamovanje** (potvrđen genitiv: *balsamovanja*) — Postupak očuvanja tela od raspadanja.
-  - D/L jd = **balsamovanju**, I jd = **balsamovanjem**
-- **balzamiranje** (potvrđen genitiv: *balzamiranja*) — Postupak čuvanja mrtvog tela od raspadanja, balzamovanje; balzamiranje
-  - D/L jd = **balzamiranju**, I jd = **balzamiranjem**
-- **balzamovanje** (potvrđen genitiv: *balzamovanja*) — Postupak čuvanja tela od raspadanja.
-  - D/L jd = **balzamovanju**, I jd = **balzamovanjem**
-- **batrganje** (potvrđen genitiv: *batrganja*) — Nespretno mlataranje rukama i nogama (glagolska imenica).
-  - D/L jd = **batrganju**
-- **bazanje** (potvrđen genitiv: *bazanja*) — Reč „bazanje“; lutanje i tumaranje bez cilja, skitanje (besciljno baza
-  - I jd = **bazanjem**
-- **baždarenje** (potvrđen genitiv: *baždarenja*) — Podešavanje mernog instrumenta na tačnu vrednost.
-  - I jd = **baždarenjem**
-- **bekrijanje** (potvrđen genitiv: *bekrijanja*) — Oblik reči bekrijanje (pijančenje, lumpovanje).
-  - D/L jd = **bekrijanju**, I jd = **bekrijanjem**
-- **betoniranje** (potvrđen genitiv: *betoniranja*) — Izlivanje i ojačavanje betonom.
-  - D/L jd = **betoniranju**, I jd = **betoniranjem**
-- **bivanje** (potvrđen genitiv: *bivanja*) — Oblik reči bivanje (postojanje, boravak).
-  - D/L jd = **bivanju**, I jd = **bivanjem**
-- **bivstvovanje** (potvrđen genitiv: *bivstvovanja*) — Postojanje; življenje, bitisanje.
-  - I jd = **bivstvovanjem**
-- **blagosiljanje** (potvrđen genitiv: *blagosiljanja*) — Izricanje blagoslova.
-  - D/L jd = **blagosiljanju**, I jd = **blagosiljanjem**
-- **blagostanje** (potvrđen genitiv: *blagostanja*) — Stanje udobnog i sigurnog života.
-  - I jd = **blagostanjem**
-- **blaćenje** (potvrđen genitiv: *blaćenja*) — Oblik reči „blaćenje“; kaljanje nečijeg ugleda, klevetanje i ocrnjivan
-  - D/L jd = **blaćenju**, I jd = **blaćenjem**
-- **blefiranje** (potvrđen genitiv: *blefiranja*) — Pretvaranje i obmanjivanje radi prevare.
-  - D/L jd = **blefiranju**, I jd = **blefiranjem**
-- **bljuvanje** (potvrđen genitiv: *bljuvanja*) — Izbacivanje sadržaja želuca; povraćanje.
-  - D/L jd = **bljuvanju**, I jd = **bljuvanjem**
-- **bludničenje** (potvrđen genitiv: *bludničenja*) — Oblik reči bludničenje (razvratno, nemoralno ponašanje).
-  - D/L jd = **bludničenju**, I jd = **bludničenjem**
-- **bluđenje** (potvrđen genitiv: *bluđenja*) — Oblik reči bluđenje (lutanje, tumaranje).
-  - D/L jd = **bluđenju**, I jd = **bluđenjem**
-- **bockanje** (potvrđen genitiv: *bockanja*) — Lako ubadanje; takođe zadirkivanje.
-  - D/L jd = **bockanju**
-- **bodovanje** (potvrđen genitiv: *bodovanja*) — Dodeljivanje bodova ili poena.
-  - D/L jd = **bodovanju**, I jd = **bodovanjem**
-- **bodrenje** (potvrđen genitiv: *bodrenja*) — Hrabrenje i podsticanje; sokoljenje.
-  - D/L jd = **bodrenju**
-- **bogosluženje** (potvrđen genitiv: *bogosluženja*) — Verski obred i služba u crkvi.
-  - I jd = **bogosluženjem**
-- **bojenje** (potvrđen genitiv: *bojenja*) — Davanje boje nečemu.
-  - D/L jd = **bojenju**
-- **boksovanje** (potvrđen genitiv: *boksovanja*) — Borba pesnicama po pravilima boksa.
-  - D/L jd = **boksovanju**, I jd = **boksovanjem**
-- **boravljenje** (potvrđen genitiv: *boravljenja*) — Zadržavanje i boravak negde.
-  - D/L jd = **boravljenju**, I jd = **boravljenjem**
-- **branje** (potvrđen genitiv: *branja*) — Skupljanje plodova ili cveća.
-  - I jd = **branjem**
-- **branjenje** (potvrđen genitiv: *branjenja*) — Odbrana i zaštita od napada.
-  - I jd = **branjenjem**
-- **bratimljenje** (potvrđen genitiv: *bratimljenja*) — Sklapanje pobratimstva i zbližavanje.
-  - I jd = **bratimljenjem**
-- **brkanje** (potvrđen genitiv: *brkanja*) — Mešanje i zamenjivanje jednog s drugim.
-  - I jd = **brkanjem**
-- **brušenje** (potvrđen genitiv: *brušenja*) — Glačanje i oštrenje trljanjem o tvrdu površinu.
-  - D/L jd = **brušenju**
-- **buktanje** (potvrđen genitiv: *buktanja*) — Snažno gorenje velikim plamenom.
-  - D/L jd = **buktanju**, I jd = **buktanjem**
-- **bulažnjenje** (potvrđen genitiv: *bulažnjenja*) — Buncanje i govorenje u bunilu.
-  - D/L jd = **bulažnjenju**, I jd = **bulažnjenjem**
-- **buljenje** (potvrđen genitiv: *buljenja*) — Ukočeno i dugo gledanje.
-  - I jd = **buljenjem**
-- **bunjenje** (potvrđen genitiv: *bunjenja*) — Reč „bunjenje“; dizanje bune i pobune, pobuna; protest (pozivali na bu
-  - D/L jd = **bunjenju**, I jd = **bunjenjem**
-- **carevanje** (potvrđen genitiv: *carevanja*) — Vladanje u svojstvu cara.
-  - I jd = **carevanjem**
-- **cerekanje** (potvrđen genitiv: *cerekanja*) — Glasno, podrugljivo smejanje.
-  - D/L jd = **cerekanju**
-- **cerenje** (potvrđen genitiv: *cerenja*) — Razvlačenje usana u podrugljiv osmeh.
-  - D/L jd = **cerenju**, I jd = **cerenjem**
-- **ceđenje** (potvrđen genitiv: *ceđenja*) — Istiskivanje tečnosti, ceđenje soka.
-  - I jd = **ceđenjem**
-- **cifranje** (potvrđen genitiv: *cifranja*) — Kićenje i ukrašavanje; prenemaganje i preterano doterivanje; cifranje.
-  - D/L jd = **cifranju**, I jd = **cifranjem**
-- **ciljanje** (potvrđen genitiv: *ciljanja*) — Usmeravanje ka meti; težnja ka cilju.
-  - I jd = **ciljanjem**
-- **cimanje** (potvrđen genitiv: *cimanja*) — Naglo trzanje i potezanje (glagolska imenica).
-  - D/L jd = **cimanju**, I jd = **cimanjem**
-- **cmakanje** (potvrđen genitiv: *cmakanja*) — Oblik reči „cmakanje“; glasno ljubljenje uz zvuk; mljackanje pri jelu 
-  - D/L jd = **cmakanju**, I jd = **cmakanjem**
-- **cmizdrenje** (potvrđen genitiv: *cmizdrenja*) — Tiho, dosadno plakanje.
-  - D/L jd = **cmizdrenju**
-- **cuganje** (potvrđen genitiv: *cuganja*) — Pijančenje, opijanje (žargonski).
-  - D/L jd = **cuganju**, I jd = **cuganjem**
-- **cupkanje** (potvrđen genitiv: *cupkanja*) — Sitno poskakivanje na mestu.
-  - D/L jd = **cupkanju**, I jd = **cupkanjem**
-- **cviljenje** (potvrđen genitiv: *cviljenja*) — Tanak, otegnut bolan zvuk; cika.
-  - D/L jd = **cviljenju**, I jd = **cviljenjem**
-- **dahtanje** (potvrđen genitiv: *dahtanja*) — Ubrzano i teško disanje.
-  - I jd = **dahtanjem**
-- **dangubljenje** (potvrđen genitiv: *dangubljenja*) — Gubljenje vremena u besposlici.
-  - D/L jd = **dangubljenju**, I jd = **dangubljenjem**
-- **datiranje** (potvrđen genitiv: *datiranja*) — Određivanje vremena nastanka.
-  - I jd = **datiranjem**
-- **dedinje** (potvrđen genitiv: *dedinja*) — Dedinje — elitna rezidencijalna četvrt Beograda.
-  - I jd = **dedinjem**
-- **definisanje** (potvrđen genitiv: *definisanja*) — Tačno određivanje značenja ili granica.
-  - I jd = **definisanjem**
-- **dekodiranje** (potvrđen genitiv: *dekodiranja*) — Razrešavanje zapisa iz koda.
-  - I jd = **dekodiranjem**
-- **dekorisanje** (potvrđen genitiv: *dekorisanja*) — Ukrašavanje prostora ili predmeta.
-  - D/L jd = **dekorisanju**, I jd = **dekorisanjem**
-- **demoliranje** (potvrđen genitiv: *demoliranja*) — Razbijanje i razlupavanje; pustošenje i uništavanje.
-  - D/L jd = **demoliranju**, I jd = **demoliranjem**
-- **deponovanje** (potvrđen genitiv: *deponovanja*) — Polaganje sredstava ili odlaganje robe.
-  - I jd = **deponovanjem**
-- **deranje** (potvrđen genitiv: *deranja*) — Skidanje kože; takođe glasno vikanje.
-  - D/L jd = **deranju**, I jd = **deranjem**
-- **dezertiranje** (potvrđen genitiv: *dezertiranja*) — Samovoljno bekstvo iz vojske i napuštanje dužnosti.
-  - D/L jd = **dezertiranju**, I jd = **dezertiranjem**
-- **dešavanje** (potvrđen genitiv: *dešavanja*) — Ono što se dešava; zbivanje.
-  - I jd = **dešavanjem**
-- **dešifrovanje** (potvrđen genitiv: *dešifrovanja*) — Odgonetanje tajnog zapisa ili šifre.
-  - I jd = **dešifrovanjem**
-- **dimljenje** (potvrđen genitiv: *dimljenja*) — Sušenje i konzervisanje hrane dimom (glagolska imenica).
-  - D/L jd = **dimljenju**
-- **dinstanje** (potvrđen genitiv: *dinstanja*) — Lagano krčkanje jela u malo tečnosti (glagolska imenica).
-  - D/L jd = **dinstanju**
-- **diplomiranje** (potvrđen genitiv: *diplomiranja*) — Sticanje diplome završetkom studija.
-  - I jd = **diplomiranjem**
-- **diranje** (potvrđen genitiv: *diranja*) — Oblik reči „diranje“; dodirivanje, pipanje (zabranjeno diranje izložak
-  - D/L jd = **diranju**, I jd = **diranjem**
-- **dirigovanje** (potvrđen genitiv: *dirigovanja*) — Upravljanje orkestrom ili horom.
-  - I jd = **dirigovanjem**
-- **dobacivanje** (potvrđen genitiv: *dobacivanja*) — Upućivanje doviknutih primedaba.
-  - D/L jd = **dobacivanju**, I jd = **dobacivanjem**
-- **dobavljanje** (potvrđen genitiv: *dobavljanja*) — Pribavljanje i isporuka robe.
-  - I jd = **dobavljanjem**
-- **dodeljivanje** (potvrđen genitiv: *dodeljivanja*) — Davanje onoga što nekome pripada.
-  - I jd = **dodeljivanjem**
-- **dogovaranje** (potvrđen genitiv: *dogovaranja*) — Usaglašavanje oko nečega; dogovor.
-  - I jd = **dogovaranjem**
-- **doigravanje** (potvrđen genitiv: *doigravanja*) — Dodatne utakmice za konačan plasman.
-  - I jd = **doigravanjem**
-- **dokidanje** (potvrđen genitiv: *dokidanja*) — Ukidanje i poništavanje.
-  - D/L jd = **dokidanju**, I jd = **dokidanjem**
-- **doniranje** (potvrđen genitiv: *doniranja*) — Davanje priloga ili organa na poklon.
-  - D/L jd = **doniranju**, I jd = **doniranjem**
-- **dopadanje** (potvrđen genitiv: *dopadanja*) — Sviđanje; osećaj da se nešto dopada.
-  - D/L jd = **dopadanju**
-- **dopiranje** (potvrđen genitiv: *dopiranja*) — Stizanje i prodiranje do nečega.
-  - D/L jd = **dopiranju**, I jd = **dopiranjem**
-- **dopisivanje** (potvrđen genitiv: *dopisivanja*) — Razmena pisama; korespondencija.
-  - I jd = **dopisivanjem**
-- **dopunjavanje** (potvrđen genitiv: *dopunjavanja*) — Dodavanje radi popune; dopuna.
-  - I jd = **dopunjavanjem**
-- **dopuštanje** (potvrđen genitiv: *dopuštanja*) — Davanje dozvole; dozvoljavanje.
-  - I jd = **dopuštanjem**
-- **dosađivanje** (potvrđen genitiv: *dosađivanja*) — Dosadno dodijavanje i gnjavljenje.
-  - I jd = **dosađivanjem**
-- **doseljavanje** (potvrđen genitiv: *doseljavanja*) — Dolazak da se negde nastani.
-  - I jd = **doseljavanjem**
-- **dosezanje** (potvrđen genitiv: *dosezanja*) — Dostizanje i dohvatanje.
-  - D/L jd = **dosezanju**, I jd = **dosezanjem**
-- **dosluženje** (potvrđen genitiv: *dosluženja*) — Odsluženje do kraja predviđenog roka; dosluženje.
-  - I jd = **dosluženjem**
-- **doterivanje** (potvrđen genitiv: *doterivanja*) — Sređivanje izgleda; uređivanje do tančina.
-  - I jd = **doterivanjem**
-- **dovlačenje** (potvrđen genitiv: *dovlačenja*) — Vučenje nečega do određenog mesta.
-  - I jd = **dovlačenjem**
-- **dovršavanje** (potvrđen genitiv: *dovršavanja*) — Privođenje kraju; dovršetak.
-  - I jd = **dovršavanjem**
-- **doziranje** (potvrđen genitiv: *doziranja*) — Određivanje odmerene količine.
-  - D/L jd = **doziranju**, I jd = **doziranjem**
-- **dozivanje** (potvrđen genitiv: *dozivanja*) — Pozivanje glasom; sazivanje.
-  - D/L jd = **dozivanju**, I jd = **dozivanjem**
-- **doziđivanje** (potvrđen genitiv: *doziđivanja*) — Dograđivanje zida; proširivanje zidanjem.
-  - D/L jd = **doziđivanju**, I jd = **doziđivanjem**
-- **dočaravanje** (potvrđen genitiv: *dočaravanja*) — Živo predstavljanje rečima ili slikom.
-  - I jd = **dočaravanjem**
-- **dočekanje** (potvrđen genitiv: *dočekanja*) — Oblik reči dočekanje (doček, primanje gosta).
-  - D/L jd = **dočekanju**
-- **dremanje** (potvrđen genitiv: *dremanja*) — Lagano i površno spavanje.
-  - I jd = **dremanjem**
-- **drhtanje** (potvrđen genitiv: *drhtanja*) — Sitno i brzo treperenje tela; podrhtavanje.
-  - D/L jd = **drhtanju**, I jd = **drhtanjem**
-- **drmusanje** (potvrđen genitiv: *drmusanja*) — Snažno i naglo treskanje.
-  - D/L jd = **drmusanju**, I jd = **drmusanjem**
-- **drobljenje** (potvrđen genitiv: *drobljenja*) — Razbijanje na sitne komadiće.
-  - D/L jd = **drobljenju**, I jd = **drobljenjem**
-- **drugovanje** (potvrđen genitiv: *drugovanja*) — Provođenje vremena sa drugovima; druženje.
-  - D/L jd = **drugovanju**, I jd = **drugovanjem**
-- **dugovanje** (potvrđen genitiv: *dugovanja*) — Iznos koji se duguje.
-  - I jd = **dugovanjem**
-- **durenje** (potvrđen genitiv: *durenja*) — Mrgođenje i ljutito ćutanje.
-  - D/L jd = **durenju**, I jd = **durenjem**
-- **džeparenje** (potvrđen genitiv: *džeparenja*) — Krađa iz tuđih džepova.
-  - D/L jd = **džeparenju**, I jd = **džeparenjem**
-- **džonjanje** (potvrđen genitiv: *džonjanja*) — Besposleno stajanje i dangubljenje.
-  - D/L jd = **džonjanju**, I jd = **džonjanjem**
-- **eksperimentisanje** (potvrđen genitiv: *eksperimentisanja*) — Oblik reči „eksperimentisanje“; izvođenje ogleda, isprobavanje.
-  - I jd = **eksperimentisanjem**
-- **eksploatisanje** (potvrđen genitiv: *eksploatisanja*) — Iskorišćavanje rada ili bogatstava.
-  - D/L jd = **eksploatisanju**, I jd = **eksploatisanjem**
-- **etiketiranje** (potvrđen genitiv: *etiketiranja*) — Oblik reči etiketiranje (lepljenje etiketa; obeležavanje, žigosanje).
-  - D/L jd = **etiketiranju**, I jd = **etiketiranjem**
-- **evoluiranje** (potvrđen genitiv: *evoluiranja*) — Postepeno razvijanje i menjanje, evolucija; evoluiranje.
-  - D/L jd = **evoluiranju**, I jd = **evoluiranjem**
-- **fiksiranje** (potvrđen genitiv: *fiksiranja*) — Učvršćivanje i utvrđivanje na mestu.
-  - D/L jd = **fiksiranju**, I jd = **fiksiranjem**
-- **filtriranje** (potvrđen genitiv: *filtriranja*) — Proceđivanje kroz filter; prečišćavanje.
-  - D/L jd = **filtriranju**
-- **fokusiranje** (potvrđen genitiv: *fokusiranja*) — Usredsređivanje pažnje ili izoštravanje slike.
-  - I jd = **fokusiranjem**
-- **foliranje** (potvrđen genitiv: *foliranja*) — Obmanjivanje i pretvaranje.
-  - D/L jd = **foliranju**, I jd = **foliranjem**
-- **formatiranje** (potvrđen genitiv: *formatiranja*) — Određivanje oblika; brisanje i priprema diska.
-  - D/L jd = **formatiranju**, I jd = **formatiranjem**
-- **forsiranje** (potvrđen genitiv: *forsiranja*) — Uporno nametanje i ubrzavanje.
-  - D/L jd = **forsiranju**, I jd = **forsiranjem**
-- **friziranje** (potvrđen genitiv: *friziranja*) — Uređivanje i oblikovanje kose.
-  - D/L jd = **friziranju**, I jd = **friziranjem**
-- **gakanje** (potvrđen genitiv: *gakanja*) — Glasanje gusaka i pataka.
-  - D/L jd = **gakanju**
-- **garniranje** (potvrđen genitiv: *garniranja*) — Ukrašavanje jela prilozima.
-  - I jd = **garniranjem**
-- **generisanje** (potvrđen genitiv: *generisanja*) — Stvaranje i proizvođenje nečega.
-  - D/L jd = **generisanju**, I jd = **generisanjem**
-- **gibanje** (potvrđen genitiv: *gibanja*) — Kretanje, pokretanje; gibanje tela.
-  - D/L jd = **gibanju**
-- **gizdanje** (potvrđen genitiv: *gizdanja*) — Kićenje i doterivanje; ulepšavanje.
-  - I jd = **gizdanjem**
-- **glačanje** (potvrđen genitiv: *glačanja*) — Činjenje glatkim, uglačavanje.
-  - D/L jd = **glačanju**
-- **gloženje** (potvrđen genitiv: *gloženja*) — Stalno svađanje i međusobno zadevanje.
-  - D/L jd = **gloženju**, I jd = **gloženjem**
-- **glumatanje** (potvrđen genitiv: *glumatanja*) — Loše glumljenje; pretvaranje.
-  - D/L jd = **glumatanju**
-- **glumljenje** (potvrđen genitiv: *glumljenja*) — Pretvaranje, hinjenje; igranje uloge.
-  - D/L jd = **glumljenju**, I jd = **glumljenjem**
-- **glupiranje** (potvrđen genitiv: *glupiranja*) — Praviti se lud; budalisanje.
-  - D/L jd = **glupiranju**
-- **gluvarenje** (potvrđen genitiv: *gluvarenja*) — Besciljno tumaranje i dangubljenje.
-  - I jd = **gluvarenjem**
-- **gnušanje** (potvrđen genitiv: *gnušanja*) — Jaka odvratnost, gađenje.
-  - D/L jd = **gnušanju**
-- **gojenje** (potvrđen genitiv: *gojenja*) — Hranjenje radi debljanja; uzgajanje.
-  - I jd = **gojenjem**
-- **golicanje** (potvrđen genitiv: *golicanja*) — Izazivanje smeha laganim dodirom; škakljanje.
-  - D/L jd = **golicanju**
-- **gorđenje** (potvrđen genitiv: *gorđenja*) — Ponošenje i dičenje, oholost; ponos.
-  - D/L jd = **gorđenju**, I jd = **gorđenjem**
-- **gotovljenje** (potvrđen genitiv: *gotovljenja*) — Spremanje i kuvanje jela.
-  - I jd = **gotovljenjem**
-- **govorkanje** (potvrđen genitiv: *govorkanja*) — Širenje glasina i ogovaranja.
-  - D/L jd = **govorkanju**, I jd = **govorkanjem**
-- **grabljenje** (potvrđen genitiv: *grabljenja*) — Pohlepno hvatanje i prisvajanje.
-  - D/L jd = **grabljenju**
-- **grananje** (potvrđen genitiv: *grananja*) — Širenje u grane; razdvajanje na ogranke.
-  - D/L jd = **grananju**, I jd = **grananjem**
-- **granatiranje** (potvrđen genitiv: *granatiranja*) — Zasipanje granatama; bombardovanje.
-  - D/L jd = **granatiranju**
-- **granje** (potvrđen genitiv: *granja*) — Sve grane zajedno.
-  - D/L jd = **granju**
-- **grcanje** (potvrđen genitiv: *grcanja*) — Grčevito jecanje; gutanje vazduha u plaču.
-  - D/L jd = **grcanju**, I jd = **grcanjem**
-- **grešenje** (potvrđen genitiv: *grešenja*) — Činjenje grešaka i grehova; pogrešno postupanje; ogrešenje.
-  - D/L jd = **grešenju**
-- **grgutanje** (potvrđen genitiv: *grgutanja*) — Nežni glasovi golubova.
-  - D/L jd = **grgutanju**, I jd = **grgutanjem**
-- **grickanje** (potvrđen genitiv: *grickanja*) — Jedenje sitnim zalogajima, malo po malo.
-  - D/L jd = **grickanju**, I jd = **grickanjem**
-- **grizenje** (potvrđen genitiv: *grizenja*) — Stezanje i sečenje zubima (glagolska imenica od gristi).
-  - D/L jd = **grizenju**
-- **grumenje** (potvrđen genitiv: *grumenja*) — Zgrudvani komadi zemlje ili rude (zbirno od grumen).
-  - D/L jd = **grumenju**, I jd = **grumenjem**
-- **gruvanje** (potvrđen genitiv: *gruvanja*) — Jaki potmuli udari i pucnji.
-  - D/L jd = **gruvanju**, I jd = **gruvanjem**
-- **guljenje** (potvrđen genitiv: *guljenja*) — Skidanje kore ili kože; ljuštenje.
-  - D/L jd = **guljenju**, I jd = **guljenjem**
-- **gunđanje** (potvrđen genitiv: *gunđanja*) — Tiho i nezadovoljno mrmljanje.
-  - I jd = **gunđanjem**
-- **gurkanje** (potvrđen genitiv: *gurkanja*) — Lagano i učestalo guranje.
-  - D/L jd = **gurkanju**, I jd = **gurkanjem**
-- **gusarenje** (potvrđen genitiv: *gusarenja*) — Pljačka na moru; piratstvo.
-  - D/L jd = **gusarenju**, I jd = **gusarenjem**
-- **gusinje** (potvrđen genitiv: *gusinja*) — Gusinje (grad na severoistoku Crne Gore).
-  - I jd = **gusinjem**
-- **gušanje** (potvrđen genitiv: *gušanja*) — Rvanje i hvatanje u koštac.
-  - I jd = **gušanjem**
-- **gužvanje** (potvrđen genitiv: *gužvanja*) — Nabiranje i drobljenje u gužvu.
-  - D/L jd = **gužvanju**, I jd = **gužvanjem**
-- **habanje** (potvrđen genitiv: *habanja*) — Trošenje od upotrebe.
-  - D/L jd = **habanju**, I jd = **habanjem**
-- **hajdukovanje** (potvrđen genitiv: *hajdukovanja*) — Život i delovanje hajduka u odmetništvu.
-  - I jd = **hajdukovanjem**
-- **haranje** (potvrđen genitiv: *haranja*) — Pustošenje i pljačkanje; opustošavanje.
-  - I jd = **haranjem**
-- **hlorisanje** (potvrđen genitiv: *hlorisanja*) — Prečišćavanje vode hlorom.
-  - D/L jd = **hlorisanju**, I jd = **hlorisanjem**
-- **hukanje** (potvrđen genitiv: *hukanja*) — Glasanje sove (hu-hu); jako duvanje.
-  - D/L jd = **hukanju**, I jd = **hukanjem**
-- **hučanje** (potvrđen genitiv: *hučanja*) — Snažan potmuo šum vetra ili vode.
-  - D/L jd = **hučanju**, I jd = **hučanjem**
-- **huškanje** (potvrđen genitiv: *huškanja*) — Podsticanje na svađu ili napad.
-  - D/L jd = **huškanju**
-- **informisanje** (potvrđen genitiv: *informisanja*) — Obaveštavanje i prikupljanje vesti.
-  - D/L jd = **informisanju**
-- **iniciranje** (potvrđen genitiv: *iniciranja*) — Oblik reči „iniciranje“; pokretanje i započinjanje; davanje podsticaja
-  - I jd = **iniciranjem**
-- **insistiranje** (potvrđen genitiv: *insistiranja*) — Uporno zahtevanje i navaljivanje.
-  - I jd = **insistiranjem**
-- **intoniranje** (potvrđen genitiv: *intoniranja*) — Oblik reči intoniranje (davanje tona, otpočinjanje pesme).
-  - I jd = **intoniranjem**
-- **intrigiranje** (potvrđen genitiv: *intrigiranja*) — Oblik reči intrigiranje (pobuđivanje radoznalosti; spletkarenje).
-  - D/L jd = **intrigiranju**, I jd = **intrigiranjem**
-- **investiranje** (potvrđen genitiv: *investiranja*) — Ulaganje novca radi dobiti.
-  - I jd = **investiranjem**
-- **isceljivanje** (potvrđen genitiv: *isceljivanja*) — Lečenje i vraćanje zdravlja.
-  - I jd = **isceljivanjem**
-- **iscrpljenje** (potvrđen genitiv: *iscrpljenja*) — Stanje potpune iznemoglosti.
-  - I jd = **iscrpljenjem**
-- **iscrpljivanje** (potvrđen genitiv: *iscrpljivanja*) — Dovođenje do potpune iznemoglosti.
-  - D/L jd = **iscrpljivanju**, I jd = **iscrpljivanjem**
-- **iscrtavanje** (potvrđen genitiv: *iscrtavanja*) — Crtanje linija i oblika.
-  - I jd = **iscrtavanjem**
-- **isecanje** (potvrđen genitiv: *isecanja*) — Sečenje i odvajanje delova.
-  - D/L jd = **isecanju**, I jd = **isecanjem**
-- **isijavanje** (potvrđen genitiv: *isijavanja*) — Zračenje toplote ili svetlosti.
-  - I jd = **isijavanjem**
-- **iskakanje** (potvrđen genitiv: *iskakanja*) — Naglo izlaženje skokom.
-  - D/L jd = **iskakanju**
-- **iskazivanje** (potvrđen genitiv: *iskazivanja*) — Izražavanje misli i osećanja.
-  - I jd = **iskazivanjem**
-- **isključivanje** (potvrđen genitiv: *isključivanja*) — Prekidanje rada ili uklanjanje iz celine.
-  - D/L jd = **isključivanju**
-- **iskorišćavanje** (potvrđen genitiv: *iskorišćavanja*) — Nepravedno korišćenje tuđeg rada.
-  - I jd = **iskorišćavanjem**
-- **iskradanje** (potvrđen genitiv: *iskradanja*) — Tajno i tiho izlaženje.
-  - D/L jd = **iskradanju**, I jd = **iskradanjem**
-- **iskrcavanje** (potvrđen genitiv: *iskrcavanja*) — Izlazak iz prevoznog sredstva ili istovar.
-  - I jd = **iskrcavanjem**
-- **iskrivljenje** (potvrđen genitiv: *iskrivljenja*) — Savijanje u krivo; izobličenje.
-  - D/L jd = **iskrivljenju**, I jd = **iskrivljenjem**
-- **iskušavanje** (potvrđen genitiv: *iskušavanja*) — Stavljanje na probu; izlaganje iskušenju.
-  - D/L jd = **iskušavanju**, I jd = **iskušavanjem**
-- **isleđenje** (potvrđen genitiv: *isleđenja*) — Oblik reči isleđenje (istraga, ispitivanje).
-  - I jd = **isleđenjem**
-- **isleđivanje** (potvrđen genitiv: *isleđivanja*) — Vođenje istrage, ispitivanje u istrazi; isleđivanje.
-  - I jd = **isleđivanjem**
-- **ismejavanje** (potvrđen genitiv: *ismejavanja*) — Izrugivanje i podsmevanje.
-  - I jd = **ismejavanjem**
-- **ispaljivanje** (potvrđen genitiv: *ispaljivanja*) — Izbacivanje hica iz oružja.
-  - D/L jd = **ispaljivanju**
-- **isparavanje** (potvrđen genitiv: *isparavanja*) — Pretvaranje tečnosti u paru.
-  - I jd = **isparavanjem**
-- **isparenje** (potvrđen genitiv: *isparenja*) — Para koja se diže kad tečnost isparava.
-  - D/L jd = **isparenju**
-- **ispaštanje** (potvrđen genitiv: *ispaštanja*) — Trpljenje kazne za greh ili tuđu krivicu.
-  - I jd = **ispaštanjem**
-- **ispisivanje** (potvrđen genitiv: *ispisivanja*) — Pisanje teksta; brisanje iz evidencije.
-  - D/L jd = **ispisivanju**, I jd = **ispisivanjem**
-- **isplovljavanje** (potvrđen genitiv: *isplovljavanja*) — Polazak broda iz luke.
-  - D/L jd = **isplovljavanju**, I jd = **isplovljavanjem**
-- **ispovedanje** (potvrđen genitiv: *ispovedanja*) — Iznošenje grehova svešteniku; poveravanje.
-  - D/L jd = **ispovedanju**, I jd = **ispovedanjem**
-- **ispravljanje** (potvrđen genitiv: *ispravljanja*) — Vraćanje u uspravan ili pravilan oblik.
-  - I jd = **ispravljanjem**
-- **ispričavanje** (potvrđen genitiv: *ispričavanja*) — Izvinjavanje i pravdanje.
-  - D/L jd = **ispričavanju**, I jd = **ispričavanjem**
-- **isprobavanje** (potvrđen genitiv: *isprobavanja*) — Provera u upotrebi; probanje.
-  - D/L jd = **isprobavanju**, I jd = **isprobavanjem**
-- **ispupčenje** (potvrđen genitiv: *ispupčenja*) — Izbočeni deo površine.
-  - D/L jd = **ispupčenju**
-- **ispuštanje** (potvrđen genitiv: *ispuštanja*) — Puštanje da izađe; izostavljanje.
-  - D/L jd = **ispuštanju**
-- **isterivanje** (potvrđen genitiv: *isterivanja*) — Teranje napolje; isterivanje dugova.
-  - I jd = **isterivanjem**
-- **istezanje** (potvrđen genitiv: *istezanja*) — Vežbe rastezanja mišića radi gipkosti.
-  - D/L jd = **istezanju**, I jd = **istezanjem**
-- **istrebljivanje** (potvrđen genitiv: *istrebljivanja*) — Potpuno uništavanje i istrebljenje.
-  - D/L jd = **istrebljivanju**, I jd = **istrebljivanjem**
-- **isušivanje** (potvrđen genitiv: *isušivanja*) — Uklanjanje vlage; isparavanje vode.
-  - D/L jd = **isušivanju**, I jd = **isušivanjem**
-- **izbavljanje** (potvrđen genitiv: *izbavljanja*) — Spasavanje iz nevolje.
-  - I jd = **izbavljanjem**
-- **izdizanje** (potvrđen genitiv: *izdizanja*) — Podizanje uvis i uzdizanje.
-  - D/L jd = **izdizanju**, I jd = **izdizanjem**
-- **izdržavanje** (potvrđen genitiv: *izdržavanja*) — Snabdevanje sredstvima za život; takođe trpljenje.
-  - I jd = **izdržavanjem**
-- **izgladnjivanje** (potvrđen genitiv: *izgladnjivanja*) — Dovođenje do gladi uskraćivanjem hrane.
-  - D/L jd = **izgladnjivanju**
-- **izgonjenje** (potvrđen genitiv: *izgonjenja*) — Teranje napolje; proterivanje.
-  - D/L jd = **izgonjenju**, I jd = **izgonjenjem**
-- **izjašnjavanje** (potvrđen genitiv: *izjašnjavanja*) — Iznošenje svog stava i mišljenja.
-  - D/L jd = **izjašnjavanju**, I jd = **izjašnjavanjem**
-- **izjednačavanje** (potvrđen genitiv: *izjednačavanja*) — Dovođenje na istu meru i nivo.
-  - I jd = **izjednačavanjem**
-- **izleganje** (potvrđen genitiv: *izleganja*) — Izvođenje mladunaca iz jaja.
-  - D/L jd = **izleganju**, I jd = **izleganjem**
-- **izležavanje** (potvrđen genitiv: *izležavanja*) — Lenjo provođenje vremena u ležanju.
-  - I jd = **izležavanjem**
-- **izlivanje** (potvrđen genitiv: *izlivanja*) — Oticanje preko ivica; livenje u kalup.
-  - D/L jd = **izlivanju**
-- **izlječenje** (potvrđen genitiv: *izlječenja*) — Ijekavski oblik: izlečenje (ozdravljenje, vraćanje zdravlja).
-  - I jd = **izlječenjem**
-- **izlučivanje** (potvrđen genitiv: *izlučivanja*) — Odvajanje i izbacivanje iz organizma.
-  - D/L jd = **izlučivanju**, I jd = **izlučivanjem**
-- **izmenjivanje** (potvrđen genitiv: *izmenjivanja*) — Uzajamna razmena; smenjivanje.
-  - I jd = **izmenjivanjem**
-- **izmicanje** (potvrđen genitiv: *izmicanja*) — Izvlačenje i izbegavanje.
-  - I jd = **izmicanjem**
-- **izmirivanje** (potvrđen genitiv: *izmirivanja*) — Plaćanje dugova; mirenje zavađenih.
-  - I jd = **izmirivanjem**
-- **izmotavanje** (potvrđen genitiv: *izmotavanja*) — Odugovlačenje i pravljenje budale.
-  - D/L jd = **izmotavanju**
-- **iznurivanje** (potvrđen genitiv: *iznurivanja*) — Iscrpljivanje i premaranje.
-  - D/L jd = **iznurivanju**, I jd = **iznurivanjem**
-- **izobličenje** (potvrđen genitiv: *izobličenja*) — Iskrivljenje pravog oblika.
-  - D/L jd = **izobličenju**, I jd = **izobličenjem**
-- **izolovanje** (potvrđen genitiv: *izolovanja*) — Odvajanje od okoline; usamljivanje.
-  - D/L jd = **izolovanju**, I jd = **izolovanjem**
-- **izostajanje** (potvrđen genitiv: *izostajanja*) — Odsustvovanje i izbivanje.
-  - I jd = **izostajanjem**
-- **izračunavanje** (potvrđen genitiv: *izračunavanja*) — Računsko utvrđivanje; proračun.
-  - D/L jd = **izračunavanju**, I jd = **izračunavanjem**
-- **izrađivanje** (potvrđen genitiv: *izrađivanja*) — Pravljenje i proizvodnja.
-  - I jd = **izrađivanjem**
-- **izronjavanje** (potvrđen genitiv: *izronjavanja*) — Izranjanje i pomaljanje na površinu.
-  - D/L jd = **izronjavanju**, I jd = **izronjavanjem**
-- **izrugivanje** (potvrđen genitiv: *izrugivanja*) — Podsmevanje i ismevanje.
-  - I jd = **izrugivanjem**
-- **izručivanje** (potvrđen genitiv: *izručivanja*) — Predavanje nekoga ili nečega; ekstradicija.
-  - I jd = **izručivanjem**
-- **izuzimanje** (potvrđen genitiv: *izuzimanja*) — Izdvajanje i oslobađanje od pravila.
-  - I jd = **izuzimanjem**
-- **izvrdavanje** (potvrđen genitiv: *izvrdavanja*) — Izbegavanje obaveze okolišanjem.
-  - I jd = **izvrdavanjem**
-- **izvršavanje** (potvrđen genitiv: *izvršavanja*) — Sprovođenje i obavljanje naloga.
-  - I jd = **izvršavanjem**
-- **iščašenje** (potvrđen genitiv: *iščašenja*) — Iskliznuće kosti iz zgloba; uganuće.
-  - D/L jd = **iščašenju**, I jd = **iščašenjem**
-- **iščezavanje** (potvrđen genitiv: *iščezavanja*) — Postepeno nestajanje.
-  - I jd = **iščezavanjem**
-- **iščitavanje** (potvrđen genitiv: *iščitavanja*) — Pažljivo čitanje i razabiranje.
-  - I jd = **iščitavanjem**
-- **iživljavanje** (potvrđen genitiv: *iživljavanja*) — Iskaljivanje besa na drugima.
-  - D/L jd = **iživljavanju**, I jd = **iživljavanjem**
-- **jadanje** (potvrđen genitiv: *jadanja*) — Žaljenje na nevolje, jadikovanje.
-  - D/L jd = **jadanju**, I jd = **jadanjem**
-- **jadikovanje** (potvrđen genitiv: *jadikovanja*) — Glasno žaljenje i kukanje.
-  - I jd = **jadikovanjem**
-- **janje** (potvrđen genitiv: *janjeta*) — Mlado ovce; jagnje.
-  - D/L jd = **janjetu**, I jd = **janjetom**
-- **jarinje** (potvrđen genitiv: *jarinja*) — Jarinje — granični prelaz na severu Kosova i Metohije.
-  - I jd = **jarinjem**
-- **jaukanje** (potvrđen genitiv: *jaukanja*) — Bolno jecanje i zapomaganje.
-  - D/L jd = **jaukanju**
-- **jednačenje** (potvrđen genitiv: *jednačenja*) — Izjednačavanje; svođenje na isto.
-  - D/L jd = **jednačenju**, I jd = **jednačenjem**
-- **jedrenje** (potvrđen genitiv: *jedrenja*) — Plovidba pomoću jedara.
-  - I jd = **jedrenjem**
-- **jenjavanje** (potvrđen genitiv: *jenjavanja*) — Postepeno slabljenje i stišavanje.
-  - D/L jd = **jenjavanju**, I jd = **jenjavanjem**
-- **jeđenje** (potvrđen genitiv: *jeđenja*) — Jelo, uzimanje hrane, hranjenje; jeđenje.
-  - D/L jd = **jeđenju**
-- **jotovanje** (potvrđen genitiv: *jotovanja*) — Glasovna promena u kojoj se suglasnik stapa sa glasom j u novi glas; j
-  - I jd = **jotovanjem**
-- **junačenje** (potvrđen genitiv: *junačenja*) — Hvalisavo pokazivanje hrabrosti.
-  - D/L jd = **junačenju**, I jd = **junačenjem**
-- **jurcanje** (potvrđen genitiv: *jurcanja*) — Brzo trčkaranje tamo-amo.
-  - D/L jd = **jurcanju**, I jd = **jurcanjem**
-- **jurenje** (potvrđen genitiv: *jurenja*) — Brzo kretanje; gonjenje.
-  - D/L jd = **jurenju**, I jd = **jurenjem**
-- **jutrenje** (potvrđen genitiv: *jutrenja*) — Jutarnja crkvena služba.
-  - I jd = **jutrenjem**
-- **kadriranje** (potvrđen genitiv: *kadriranja*) — Oblik reči kadriranje (uokvirivanje kadra pri snimanju).
-  - D/L jd = **kadriranju**, I jd = **kadriranjem**
-- **kalemljenje** (potvrđen genitiv: *kalemljenja*) — Spajanje grančice jedne biljke na drugu da sraste.
-  - D/L jd = **kalemljenju**
-- **kampiranje** (potvrđen genitiv: *kampiranja*) — Boravak u šatorima u prirodi.
-  - I jd = **kampiranjem**
-- **kampovanje** (potvrđen genitiv: *kampovanja*) — Boravak u prirodi pod šatorom.
-  - I jd = **kampovanjem**
-- **kanalisanje** (potvrđen genitiv: *kanalisanja*) — Usmeravanje toka ili energije; izgradnja kanala.
-  - I jd = **kanalisanjem**
-- **kapanje** (potvrđen genitiv: *kapanja*) — Padanje kapljica jedna po jedna.
-  - I jd = **kapanjem**
-- **karikiranje** (potvrđen genitiv: *karikiranja*) — Smešno preuveličavanje osobina.
-  - D/L jd = **karikiranju**, I jd = **karikiranjem**
-- **kasapljenje** (potvrđen genitiv: *kasapljenja*) — Surovo komadanje i ubijanje.
-  - D/L jd = **kasapljenju**, I jd = **kasapljenjem**
-- **kastriranje** (potvrđen genitiv: *kastriranja*) — Uklanjanje polnih žlezda; štrojenje.
-  - D/L jd = **kastriranju**, I jd = **kastriranjem**
-- **katoličenje** (potvrđen genitiv: *katoličenja*) — Oblik reči katoličenje (prevođenje u katoličku veru).
-  - I jd = **katoličenjem**
-- **kibicovanje** (potvrđen genitiv: *kibicovanja*) — Posmatranje tuđe igre i dobacivanje saveta.
-  - D/L jd = **kibicovanju**, I jd = **kibicovanjem**
-- **kijanje** (potvrđen genitiv: *kijanja*) — Naglo izbacivanje vazduha kroz nos uz zvuk.
-  - D/L jd = **kijanju**
-- **kikotanje** (potvrđen genitiv: *kikotanja*) — Tiho, isprekidano smejanje; kikot.
-  - D/L jd = **kikotanju**, I jd = **kikotanjem**
-- **kinjenje** (potvrđen genitiv: *kinjenja*) — Mučenje i zlostavljanje.
-  - I jd = **kinjenjem**
-- **kinđurenje** (potvrđen genitiv: *kinđurenja*) — Preterano kićenje i doterivanje.
-  - I jd = **kinđurenjem**
-- **kiseljenje** (potvrđen genitiv: *kiseljenja*) — Konzervisanje hrane u kiseloj tečnosti (glagolska imenica).
-  - D/L jd = **kiseljenju**, I jd = **kiseljenjem**
-- **klaćenje** (potvrđen genitiv: *klaćenja*) — Klatarenje, ljuljanje tamo-amo.
-  - D/L jd = **klaćenju**, I jd = **klaćenjem**
-- **klecanje** (potvrđen genitiv: *klecanja*) — Popuštanje kolena pri slabosti.
-  - D/L jd = **klecanju**, I jd = **klecanjem**
-- **klesanje** (potvrđen genitiv: *klesanja*) — Obrada kamena dletom; vajanje u kamenu.
-  - D/L jd = **klesanju**, I jd = **klesanjem**
-- **klečanje** (potvrđen genitiv: *klečanja*) — Stajanje na kolenima.
-  - D/L jd = **klečanju**, I jd = **klečanjem**
-- **klijanje** (potvrđen genitiv: *klijanja*) — Nicanje biljke iz semena.
-  - D/L jd = **klijanju**
-- **klimanje** (potvrđen genitiv: *klimanja*) — Pokreti glavom gore-dole.
-  - D/L jd = **klimanju**
-- **ključanje** (potvrđen genitiv: *ključanja*) — Vrenje tečnosti uz mehuriće na visokoj temperaturi.
-  - I jd = **ključanjem**
-- **knjiženje** (potvrđen genitiv: *knjiženja*) — Upisivanje u poslovne knjige.
-  - I jd = **knjiženjem**
-- **komandovanje** (potvrđen genitiv: *komandovanja*) — Izdavanje komandi; zapovedanje.
-  - I jd = **komandovanjem**
-- **kombinovanje** (potvrđen genitiv: *kombinovanja*) — Spajanje više elemenata u celinu.
-  - D/L jd = **kombinovanju**
-- **komuniciranje** (potvrđen genitiv: *komuniciranja*) — Razmena poruka i sporazumevanje.
-  - D/L jd = **komuniciranju**, I jd = **komuniciranjem**
-- **konačenje** (potvrđen genitiv: *konačenja*) — Prenoćište i boravak preko noći.
-  - D/L jd = **konačenju**, I jd = **konačenjem**
-- **kondenzovanje** (potvrđen genitiv: *kondenzovanja*) — Pretvaranje pare u tečnost; sažimanje.
-  - D/L jd = **kondenzovanju**, I jd = **kondenzovanjem**
-- **konfiskovanje** (potvrđen genitiv: *konfiskovanja*) — Oduzimanje imovine u korist države.
-  - D/L jd = **konfiskovanju**, I jd = **konfiskovanjem**
-- **konobarisanje** (potvrđen genitiv: *konobarisanja*) — Posluživanje gostiju u ugostiteljstvu.
-  - D/L jd = **konobarisanju**, I jd = **konobarisanjem**
-- **konstituisanje** (potvrđen genitiv: *konstituisanja*) — Zvanično osnivanje i ustanovljavanje.
-  - D/L jd = **konstituisanju**, I jd = **konstituisanjem**
-- **konsultovanje** (potvrđen genitiv: *konsultovanja*) — Traženje saveta i mišljenja stručnjaka.
-  - D/L jd = **konsultovanju**, I jd = **konsultovanjem**
-- **kontaktiranje** (potvrđen genitiv: *kontaktiranja*) — Stupanje u vezu sa nekim.
-  - D/L jd = **kontaktiranju**, I jd = **kontaktiranjem**
-- **kontrastiranje** (potvrđen genitiv: *kontrastiranja*) — Oblik reči kontrastiranje (isticanje suprotnosti).
-  - D/L jd = **kontrastiranju**
-- **konzumiranje** (potvrđen genitiv: *konzumiranja*) — Trošenje i uzimanje, npr. hrane.
-  - I jd = **konzumiranjem**
-- **kopkanje** (potvrđen genitiv: *kopkanja*) — Uporno čeprkanje; neprijatna sumnja.
-  - D/L jd = **kopkanju**, I jd = **kopkanjem**
-- **koračanje** (potvrđen genitiv: *koračanja*) — Hodanje korakom; stupanje.
-  - I jd = **koračanjem**
-- **korigovanje** (potvrđen genitiv: *korigovanja*) — Ispravljanje grešaka.
-  - I jd = **korigovanjem**
-- **kotiranje** (potvrđen genitiv: *kotiranja*) — Oblik reči kotiranje (određivanje cene na berzi; vrednovanje).
-  - D/L jd = **kotiranju**, I jd = **kotiranjem**
-- **kotrljanje** (potvrđen genitiv: *kotrljanja*) — Kretanje okretanjem u krug; valjanje.
-  - D/L jd = **kotrljanju**
-- **kovitlanje** (potvrđen genitiv: *kovitlanja*) — Vrtložno kovitlanje u krug.
-  - D/L jd = **kovitlanju**, I jd = **kovitlanjem**
-- **košenje** (potvrđen genitiv: *košenja*) — Sečenje trave ili žita kosom.
-  - I jd = **košenjem**
-- **koškanje** (potvrđen genitiv: *koškanja*) — Lagano sukobljavanje i guranje.
-  - I jd = **koškanjem**
-- **krckanje** (potvrđen genitiv: *krckanja*) — Zvuk lomljenja tvrdog, krckanje.
-  - D/L jd = **krckanju**
-- **kreketanje** (potvrđen genitiv: *kreketanja*) — Glasanje žabe.
-  - D/L jd = **kreketanju**, I jd = **kreketanjem**
-- **kremiranje** (potvrđen genitiv: *kremiranja*) — Spaljivanje tela umrlog.
-  - D/L jd = **kremiranju**, I jd = **kremiranjem**
-- **kreveljenje** (potvrđen genitiv: *kreveljenja*) — Pravljenje smešnih grimasa.
-  - I jd = **kreveljenjem**
-- **kreštanje** (potvrđen genitiv: *kreštanja*) — Oštro, neprijatno glasanje ptice.
-  - D/L jd = **kreštanju**
-- **kristalizovanje** (potvrđen genitiv: *kristalizovanja*) — Obrazovanje kristala iz rastvora.
-  - D/L jd = **kristalizovanju**, I jd = **kristalizovanjem**
-- **kritikovanje** (potvrđen genitiv: *kritikovanja*) — Iznošenje kritike; ukazivanje na mane.
-  - D/L jd = **kritikovanju**, I jd = **kritikovanjem**
-- **krivljenje** (potvrđen genitiv: *krivljenja*) — Savijanje u krivo.
-  - I jd = **krivljenjem**
-- **krivotvorenje** (potvrđen genitiv: *krivotvorenja*) — Pravljenje lažne kopije; falsifikovanje.
-  - D/L jd = **krivotvorenju**, I jd = **krivotvorenjem**
-- **krivudanje** (potvrđen genitiv: *krivudanja*) — Vijugavo kretanje; ne ide pravo.
-  - D/L jd = **krivudanju**, I jd = **krivudanjem**
-- **krkljanje** (potvrđen genitiv: *krkljanja*) — Oblik reči krkljanje (hroptanje, krkljanje grlom).
-  - D/L jd = **krkljanju**, I jd = **krkljanjem**
-- **kroćenje** (potvrđen genitiv: *kroćenja*) — Pripitomljavanje i savladavanje divljeg.
-  - I jd = **kroćenjem**
-- **krpljenje** (potvrđen genitiv: *krpljenja*) — Zašivanje rupa i poderotina.
-  - I jd = **krpljenjem**
-- **krvavljenje** (potvrđen genitiv: *krvavljenja*) — Krvarenje i kvašenje krvlju.
-  - D/L jd = **krvavljenju**, I jd = **krvavljenjem**
-- **kukurikanje** (potvrđen genitiv: *kukurikanja*) — Glasanje petla.
-  - I jd = **kukurikanjem**
-- **kupljenje** (potvrđen genitiv: *kupljenja*) — Skupljanje i prikupljanje.
-  - I jd = **kupljenjem**
-- **kućenje** (potvrđen genitiv: *kućenja*) — Zasnivanje doma i domaćinstva.
-  - I jd = **kućenjem**
-- **kuđenje** (potvrđen genitiv: *kuđenja*) — Pokuda; isticanje mana, grdnja.
-  - D/L jd = **kuđenju**, I jd = **kuđenjem**
-- **kvarenje** (potvrđen genitiv: *kvarenja*) — Dovođenje u neispravno stanje.
-  - I jd = **kvarenjem**
-- **lajanje** (potvrđen genitiv: *lajanja*) — Glasanje psa.
-  - D/L jd = **lajanju**
-- **laviranje** (potvrđen genitiv: *laviranja*) — Vešto izbegavanje i manevrisanje.
-  - I jd = **laviranjem**
-- **lažiranje** (potvrđen genitiv: *lažiranja*) — Krivotvorenje, namerno izvrtanje ili podešavanje ishoda.
-  - I jd = **lažiranjem**
-- **lebdenje** (potvrđen genitiv: *lebdenja*) — Stajanje ili kretanje u vazduhu bez oslonca.
-  - D/L jd = **lebdenju**, I jd = **lebdenjem**
-- **leganje** (potvrđen genitiv: *leganja*) — Spuštanje na ležaj; leganje na počinak.
-  - I jd = **leganjem**
-- **lenčarenje** (potvrđen genitiv: *lenčarenja*) — Provođenje vremena u lenstvovanju; dangubljenje.
-  - I jd = **lenčarenjem**
-- **ležanje** (potvrđen genitiv: *ležanja*) — Boravljenje u ležećem položaju.
-  - D/L jd = **ležanju**
-- **licitiranje** (potvrđen genitiv: *licitiranja*) — Nadmetanje u ceni na javnoj prodaji.
-  - I jd = **licitiranjem**
-- **lickanje** (potvrđen genitiv: *lickanja*) — Oblik reči lickanje (čišćenje lizanjem; doterivanje).
-  - D/L jd = **lickanju**, I jd = **lickanjem**
-- **limitiranje** (potvrđen genitiv: *limitiranja*) — Oblik reči limitiranje (ograničavanje, postavljanje granice).
-  - D/L jd = **limitiranju**, I jd = **limitiranjem**
-- **linčovanje** (potvrđen genitiv: *linčovanja*) — Samovoljno ubijanje osumnjičenog bez suda.
-  - I jd = **linčovanjem**
-- **lipsavanje** (potvrđen genitiv: *lipsavanja*) — Oblik reči lipsavanje (postepeno uginjavanje).
-  - D/L jd = **lipsavanju**, I jd = **lipsavanjem**
-- **ljubakanje** (potvrđen genitiv: *ljubakanja*) — Nežno ljubljenje i maženje.
-  - D/L jd = **ljubakanju**, I jd = **ljubakanjem**
-- **ljuljanje** (potvrđen genitiv: *ljuljanja*) — Pokretanje napred-nazad; njihanje.
-  - I jd = **ljuljanjem**
-- **logorovanje** (potvrđen genitiv: *logorovanja*) — Boravak u logoru, kampu, pod šatorima.
-  - I jd = **logorovanjem**
-- **loptanje** (potvrđen genitiv: *loptanja*) — Igra dobacivanja lopte.
-  - D/L jd = **loptanju**
-- **loženje** (potvrđen genitiv: *loženja*) — Potpaljivanje vatre radi grejanja.
-  - D/L jd = **loženju**, I jd = **loženjem**
-- **ludiranje** (potvrđen genitiv: *ludiranja*) — Šaljivo i obesno ponašanje; zabavljanje uz nestašluke i ludorije.
-  - D/L jd = **ludiranju**, I jd = **ludiranjem**
-- **ludovanje** (potvrđen genitiv: *ludovanja*) — Bezbrižno i razuzdano veselje.
-  - D/L jd = **ludovanju**
-- **lumpovanje** (potvrđen genitiv: *lumpovanja*) — Bučno provođenje uz piće i veselje.
-  - I jd = **lumpovanjem**
-- **lupetanje** (potvrđen genitiv: *lupetanja*) — Govorenje gluposti i koještarija.
-  - D/L jd = **lupetanju**, I jd = **lupetanjem**
-- **lupkanje** (potvrđen genitiv: *lupkanja*) — Lako, ponavljano kuckanje prstima ili predmetom (nervozno lupkanje).
-  - D/L jd = **lupkanju**
-- **majmunisanje** (potvrđen genitiv: *majmunisanja*) — Bezumno oponašanje drugih.
-  - D/L jd = **majmunisanju**, I jd = **majmunisanjem**
-- **manevrisanje** (potvrđen genitiv: *manevrisanja*) — Vešto izvođenje pokreta i poteza.
-  - I jd = **manevrisanjem**
-- **manipulisanje** (potvrđen genitiv: *manipulisanja*) — Vešto upravljanje; obmanjivanje radi koristi.
-  - D/L jd = **manipulisanju**, I jd = **manipulisanjem**
-- **mapiranje** (potvrđen genitiv: *mapiranja*) — Izrada mape; utvrđivanje i beleženje rasporeda nečega.
-  - I jd = **mapiranjem**
-- **markiranje** (potvrđen genitiv: *markiranja*) — Oblik reči markiranje (obeležavanje; izbegavanje obaveze).
-  - D/L jd = **markiranju**, I jd = **markiranjem**
-- **marširanje** (potvrđen genitiv: *marširanja*) — Kretanje u ujednačenom vojnom koraku (glagolska imenica).
-  - D/L jd = **marširanju**, I jd = **marširanjem**
-- **masiranje** (potvrđen genitiv: *masiranja*) — Gnječenje i trljanje tela radi opuštanja mišića i bolja prokrvljenosti
-  - I jd = **masiranjem**
-- **masturbiranje** (potvrđen genitiv: *masturbiranja*) — Samozadovoljavanje, draženje sopstvenih polnih organa, masturbacija.
-  - D/L jd = **masturbiranju**, I jd = **masturbiranjem**
-- **maturiranje** (potvrđen genitiv: *maturiranja*) — Polaganje završnog ispita, mature; sazrevanje; maturiranje.
-  - D/L jd = **maturiranju**, I jd = **maturiranjem**
-- **mazanje** (potvrđen genitiv: *mazanja*) — Premazivanje mašću ili kremom; podmazivanje.
-  - D/L jd = **mazanju**
-- **meditiranje** (potvrđen genitiv: *meditiranja*) — Oblik reči meditiranje (udubljeno razmišljanje, meditacija).
-  - D/L jd = **meditiranju**, I jd = **meditiranjem**
-- **mekinje** (potvrđen genitiv: *mekinja*) — Ljuspice koje ostaju pri mlevenju žita, trice.
-  - D/L jd = **mekinju**, I jd = **mekinjem**
-- **memorisanje** (potvrđen genitiv: *memorisanja*) — Pamćenje i čuvanje u memoriji.
-  - D/L jd = **memorisanju**, I jd = **memorisanjem**
-- **mesečarenje** (potvrđen genitiv: *mesečarenja*) — Hodanje i radnje u snu; somnambulizam.
-  - D/L jd = **mesečarenju**, I jd = **mesečarenjem**
-- **mešetarenje** (potvrđen genitiv: *mešetarenja*) — Posredovanje u trgovini radi zarade.
-  - D/L jd = **mešetarenju**, I jd = **mešetarenjem**
-- **micanje** (potvrđen genitiv: *micanja*) — Pomeranje, kretanje s mesta.
-  - I jd = **micanjem**
-- **mirovanje** (potvrđen genitiv: *mirovanja*) — Stanje bez kretanja i aktivnosti.
-  - I jd = **mirovanjem**
-- **mićenje** (potvrđen genitiv: *mićenja*) — Oblik reči mićenje (podmićivanje, mito).
-  - D/L jd = **mićenju**, I jd = **mićenjem**
-- **mlaćenje** (potvrđen genitiv: *mlaćenja*) — Snažno udaranje; takođe izdvajanje zrna iz klasja (glagolska imenica).
-  - D/L jd = **mlaćenju**
-- **mobilisanje** (potvrđen genitiv: *mobilisanja*) — Pozivanje pod oružje; pokretanje snaga.
-  - I jd = **mobilisanjem**
-- **modeliranje** (potvrđen genitiv: *modeliranja*) — Oblikovanje modela; pravljenje uzora ili nacrta.
-  - I jd = **modeliranjem**
-- **moljakanje** (potvrđen genitiv: *moljakanja*) — Uporno i dosadno moljenje.
-  - D/L jd = **moljakanju**
-- **moralisanje** (potvrđen genitiv: *moralisanja*) — Držanje pridika o moralu.
-  - D/L jd = **moralisanju**, I jd = **moralisanjem**
-- **motivisanje** (potvrđen genitiv: *motivisanja*) — Podsticanje na delovanje.
-  - D/L jd = **motivisanju**, I jd = **motivisanjem**
-- **motrenje** (potvrđen genitiv: *motrenja*) — Pažljivo posmatranje; osmatranje.
-  - I jd = **motrenjem**
-- **mozganje** (potvrđen genitiv: *mozganja*) — Naporno razmišljanje i premišljanje.
-  - D/L jd = **mozganju**, I jd = **mozganjem**
-- **mrdanje** (potvrđen genitiv: *mrdanja*) — Sitno pomeranje i micanje.
-  - D/L jd = **mrdanju**, I jd = **mrdanjem**
-- **mreškanje** (potvrđen genitiv: *mreškanja*) — Stvaranje sitnih talasića na površini.
-  - D/L jd = **mreškanju**, I jd = **mreškanjem**
-- **mrmljanje** (potvrđen genitiv: *mrmljanja*) — Govorenje nejasno i tiho.
-  - D/L jd = **mrmljanju**, I jd = **mrmljanjem**
-- **mršavljenje** (potvrđen genitiv: *mršavljenja*) — Gubljenje telesne težine.
-  - D/L jd = **mršavljenju**, I jd = **mršavljenjem**
-- **mrštenje** (potvrđen genitiv: *mrštenja*) — Skupljanje obrva od ljutnje ili brige.
-  - D/L jd = **mrštenju**
-- **mržnjenje** (potvrđen genitiv: *mržnjenja*) — Pretvaranje tečnosti u led; smrzavanje.
-  - D/L jd = **mržnjenju**, I jd = **mržnjenjem**
-- **mucanje** (potvrđen genitiv: *mucanja*) — Govor sa zastajkivanjem i ponavljanjem glasova.
-  - D/L jd = **mucanju**
-- **muljanje** (potvrđen genitiv: *muljanja*) — Nepošteno postupanje; varanje.
-  - D/L jd = **muljanju**, I jd = **muljanjem**
-- **mumlanje** (potvrđen genitiv: *mumlanja*) — Nerazgovetno govorenje kroza zube.
-  - D/L jd = **mumlanju**, I jd = **mumlanjem**
-- **mutiranje** (potvrđen genitiv: *mutiranja*) — Menjanje; promena glasa u pubertetu.
-  - D/L jd = **mutiranju**, I jd = **mutiranjem**
-- **muziciranje** (potvrđen genitiv: *muziciranja*) — Bavljenje muzikom; sviranje i pevanje.
-  - I jd = **muziciranjem**
-- **mućenje** (potvrđen genitiv: *mućenja*) — Mešanje da se zapeni ili sjedini; mućkanje.
-  - D/L jd = **mućenju**
-- **nabacivanje** (potvrđen genitiv: *nabacivanja*) — Bacanje nečega na gomilu; udvaranje.
-  - D/L jd = **nabacivanju**, I jd = **nabacivanjem**
-- **nabijanje** (potvrđen genitiv: *nabijanja*) — Sabijanje i utiskivanje silom.
-  - D/L jd = **nabijanju**
-- **nabiranje** (potvrđen genitiv: *nabiranja*) — Stvaranje nabora na tkanini.
-  - D/L jd = **nabiranju**, I jd = **nabiranjem**
-- **nadevanje** (potvrđen genitiv: *nadevanja*) — Punjenje jela nadevom.
-  - D/L jd = **nadevanju**
-- **nadilaženje** (potvrđen genitiv: *nadilaženja*) — Prevazilaženje i savladavanje.
-  - D/L jd = **nadilaženju**, I jd = **nadilaženjem**
-- **nadolaženje** (potvrđen genitiv: *nadolaženja*) — Postepeno dolaženje i približavanje.
-  - D/L jd = **nadolaženju**
-- **nadvikivanje** (potvrđen genitiv: *nadvikivanja*) — Nadmetanje u jačini vikanja.
-  - I jd = **nadvikivanjem**
-- **nadziranje** (potvrđen genitiv: *nadziranja*) — Praćenje i kontrola rada.
-  - I jd = **nadziranjem**
-- **naelektrisanje** (potvrđen genitiv: *naelektrisanja*) — Punjenje elektricitetom; napetost u odnosima.
-  - D/L jd = **naelektrisanju**, I jd = **naelektrisanjem**
-- **naginjanje** (potvrđen genitiv: *naginjanja*) — Koso pomeranje ka jednoj strani.
-  - D/L jd = **naginjanju**, I jd = **naginjanjem**
-- **nagnječenje** (potvrđen genitiv: *nagnječenja*) — Povreda od pritiska bez rane.
-  - D/L jd = **nagnječenju**
-- **nagomilavanje** (potvrđen genitiv: *nagomilavanja*) — Stvaranje velikih gomila.
-  - D/L jd = **nagomilavanju**, I jd = **nagomilavanjem**
-- **nagovaranje** (potvrđen genitiv: *nagovaranja*) — Privoljavanje rečima; navođenje na nešto.
-  - I jd = **nagovaranjem**
-- **nagrađivanje** (potvrđen genitiv: *nagrađivanja*) — Davanje nagrada za zasluge.
-  - D/L jd = **nagrađivanju**, I jd = **nagrađivanjem**
-- **nagrizanje** (potvrđen genitiv: *nagrizanja*) — Postepeno izjedanje i oštećivanje.
-  - D/L jd = **nagrizanju**
-- **najedanje** (potvrđen genitiv: *najedanja*) — Jedenje do sitosti.
-  - D/L jd = **najedanju**, I jd = **najedanjem**
-- **naklapanje** (potvrđen genitiv: *naklapanja*) — Pričanje koješta, brbljanje.
-  - D/L jd = **naklapanju**, I jd = **naklapanjem**
-- **nakupljanje** (potvrđen genitiv: *nakupljanja*) — Skupljanje u veće količine.
-  - D/L jd = **nakupljanju**, I jd = **nakupljanjem**
-- **nalaganje** (potvrđen genitiv: *nalaganja*) — Naređivanje; potpaljivanje vatre.
-  - I jd = **nalaganjem**
-- **nalivanje** (potvrđen genitiv: *nalivanja*) — Sipanje tečnosti do vrha.
-  - D/L jd = **nalivanju**, I jd = **nalivanjem**
-- **nameštenje** (potvrđen genitiv: *nameštenja*) — Postavljanje na radno mesto; služba.
-  - D/L jd = **nameštenju**, I jd = **nameštenjem**
-- **namigivanje** (potvrđen genitiv: *namigivanja*) — Davanje znaka jednim okom, žmirkanje.
-  - D/L jd = **namigivanju**
-- **namirenje** (potvrđen genitiv: *namirenja*) — Izmirenje duga ili računa.
-  - I jd = **namirenjem**
-- **namirivanje** (potvrđen genitiv: *namirivanja*) — Izmirivanje računa; davanje hrane stoci.
-  - I jd = **namirivanjem**
-- **naoružavanje** (potvrđen genitiv: *naoružavanja*) — Opremanje oružjem.
-  - D/L jd = **naoružavanju**, I jd = **naoružavanjem**
-- **napasanje** (potvrđen genitiv: *napasanja*) — Vođenje stoke na pašu.
-  - I jd = **napasanjem**
-- **napastvovanje** (potvrđen genitiv: *napastvovanja*) — Napadanje i mučenje; salećanje.
-  - D/L jd = **napastvovanju**, I jd = **napastvovanjem**
-- **napijanje** (potvrđen genitiv: *napijanja*) — Nazdravljanje; prekomerno pijenje.
-  - D/L jd = **napijanju**, I jd = **napijanjem**
-- **naplaćivanje** (potvrđen genitiv: *naplaćivanja*) — Uzimanje novca za robu ili dug.
-  - D/L jd = **naplaćivanju**, I jd = **naplaćivanjem**
-- **napominjanje** (potvrđen genitiv: *napominjanja*) — Skretanje pažnje napomenom.
-  - I jd = **napominjanjem**
-- **narastanje** (potvrđen genitiv: *narastanja*) — Postepeno povećavanje i rast.
-  - D/L jd = **narastanju**
-- **narezivanje** (potvrđen genitiv: *narezivanja*) — Sečenje na kriške; urezivanje navoja.
-  - I jd = **narezivanjem**
-- **naređivanje** (potvrđen genitiv: *naređivanja*) — Davanje naredbi; zapovedanje.
-  - I jd = **naređivanjem**
-- **naručivanje** (potvrđen genitiv: *naručivanja*) — Traženje robe ili usluge da se isporuči.
-  - I jd = **naručivanjem**
-- **narušavanje** (potvrđen genitiv: *narušavanja*) — Kvarenje reda ili sklada.
-  - I jd = **narušavanjem**
-- **naseljavanje** (potvrđen genitiv: *naseljavanja*) — Nastanjivanje ljudi na nekom prostoru.
-  - I jd = **naseljavanjem**
-- **naseljenje** (potvrđen genitiv: *naseljenja*) — Nastanjivanje ljudi na nekom prostoru.
-  - D/L jd = **naseljenju**, I jd = **naseljenjem**
-- **naslanjanje** (potvrđen genitiv: *naslanjanja*) — Prislanjanje uz nešto radi oslonca.
-  - D/L jd = **naslanjanju**
-- **nasleđivanje** (potvrđen genitiv: *nasleđivanja*) — Dobijanje u nasleđe; baštinjenje.
-  - I jd = **nasleđivanjem**
-- **naslućivanje** (potvrđen genitiv: *naslućivanja*) — Nejasno osećanje ili pretpostavljanje nečega.
-  - D/L jd = **naslućivanju**, I jd = **naslućivanjem**
-- **nasrtanje** (potvrđen genitiv: *nasrtanja*) — Naglo i silovito napadanje.
-  - D/L jd = **nasrtanju**
-- **nastanjenje** (potvrđen genitiv: *nastanjenja*) — Naseljavanje i boravak na nekom mestu.
-  - I jd = **nastanjenjem**
-- **nastanjivanje** (potvrđen genitiv: *nastanjivanja*) — Naseljavanje i boravak na nekom mestu.
-  - D/L jd = **nastanjivanju**, I jd = **nastanjivanjem**
-- **nastavljanje** (potvrđen genitiv: *nastavljanja*) — Produžavanje započetog.
-  - I jd = **nastavljanjem**
-- **naturanje** (potvrđen genitiv: *naturanja*) — Nasilno nametanje.
-  - D/L jd = **naturanju**, I jd = **naturanjem**
-- **naukovanje** (potvrđen genitiv: *naukovanja*) — Učenje zanata kod majstora.
-  - D/L jd = **naukovanju**, I jd = **naukovanjem**
-- **navaljivanje** (potvrđen genitiv: *navaljivanja*) — Uporno nasrtanje i navale.
-  - I jd = **navaljivanjem**
-- **navikavanje** (potvrđen genitiv: *navikavanja*) — Sticanje navike; privikavanje.
-  - I jd = **navikavanjem**
-- **navodnjavanje** (potvrđen genitiv: *navodnjavanja*) — Dovođenje vode na useve.
-  - D/L jd = **navodnjavanju**
-- **navršenje** (potvrđen genitiv: *navršenja*) — Dostizanje punog broja, npr. godina.
-  - D/L jd = **navršenju**, I jd = **navršenjem**
-- **nazadovanje** (potvrđen genitiv: *nazadovanja*) — Kretanje ka gorem, opadanje.
-  - I jd = **nazadovanjem**
-- **nedavanje** (potvrđen genitiv: *nedavanja*) — Izostanak davanja, uskraćivanje; nedavanje.
-  - D/L jd = **nedavanju**
-- **nedonošenje** (potvrđen genitiv: *nedonošenja*) — Prevremeno rođenje, donošenje pre roka; nedonošenje.
-  - D/L jd = **nedonošenju**, I jd = **nedonošenjem**
-- **negovanje** (potvrđen genitiv: *negovanja*) — Brižna briga; održavanje i nega.
-  - D/L jd = **negovanju**
-- **nehtenje** (potvrđen genitiv: *nehtenja*) — Nedostatak volje, nehtenje, nevoljnost; nehtenje.
-  - D/L jd = **nehtenju**, I jd = **nehtenjem**
-- **neigranje** (potvrđen genitiv: *neigranja*) — Izostanak igranja, neigranje; neigranje.
-  - D/L jd = **neigranju**
-- **neispunjenje** (potvrđen genitiv: *neispunjenja*) — Izostanak ispunjenja, neostvarenje; neispunjenje.
-  - D/L jd = **neispunjenju**, I jd = **neispunjenjem**
-- **neizdavanje** (potvrđen genitiv: *neizdavanja*) — Izostanak izdavanja, neobjavljivanje; neizdavanje.
-  - D/L jd = **neizdavanju**, I jd = **neizdavanjem**
-- **neiznošenje** (potvrđen genitiv: *neiznošenja*) — Izostanak iznošenja, neiznošenje; neiznošenje.
-  - D/L jd = **neiznošenju**, I jd = **neiznošenjem**
-- **neizvršenje** (potvrđen genitiv: *neizvršenja*) — Izostanak izvršenja, neobavljanje; neizvršenje.
-  - I jd = **neizvršenjem**
-- **nekupanje** (potvrđen genitiv: *nekupanja*) — Izostanak kupanja, neumivanje; nekupanje.
-  - D/L jd = **nekupanju**, I jd = **nekupanjem**
-- **nemešanje** (potvrđen genitiv: *nemešanja*) — Izostanak mešanja, neuplitanje; nemešanje.
-  - I jd = **nemešanjem**
-- **nemirenje** (potvrđen genitiv: *nemirenja*) — Izostanak mirenja, nepomirljivost; nemirenje.
-  - D/L jd = **nemirenju**, I jd = **nemirenjem**
-- **nenadanje** (potvrđen genitiv: *nenadanja*) — Oblik reči nenadanje (neočekivanost, iznenadnost).
-  - D/L jd = **nenadanju**, I jd = **nenadanjem**
-- **neobraćanje** (potvrđen genitiv: *neobraćanja*) — Izostanak obraćanja, neobraćanje; neobraćanje.
-  - D/L jd = **neobraćanju**, I jd = **neobraćanjem**
-- **neodobravanje** (potvrđen genitiv: *neodobravanja*) — Izražavanje neslaganja i osude; neprihvatanje i protivljenje.
-  - D/L jd = **neodobravanju**
-- **nepamćenje** (potvrđen genitiv: *nepamćenja*) — Izostanak pamćenja, zaborav; nepamćenje.
-  - D/L jd = **nepamćenju**, I jd = **nepamćenjem**
-- **neprimanje** (potvrđen genitiv: *neprimanja*) — Izostanak primanja, neprijem; neprimanje.
-  - D/L jd = **neprimanju**, I jd = **neprimanjem**
-- **nepružanje** (potvrđen genitiv: *nepružanja*) — Izostanak pružanja, uskraćivanje; nepružanje.
-  - I jd = **nepružanjem**
-- **neraspoloženje** (potvrđen genitiv: *neraspoloženja*) — Loše raspoloženje, zlovolja; neraspoloženje.
-  - D/L jd = **neraspoloženju**, I jd = **neraspoloženjem**
-- **nerazumevanje** (potvrđen genitiv: *nerazumevanja*) — Nedostatak razumevanja i sporazumevanja; nerazumevanje.
-  - I jd = **nerazumevanjem**
-- **nerešavanje** (potvrđen genitiv: *nerešavanja*) — Izostanak rešavanja, odlaganje rešenja; nerešavanje.
-  - I jd = **nerešavanjem**
-- **nerviranje** (potvrđen genitiv: *nerviranja*) — Razdraženost i ljutnja, gubitak živaca; nerviranje.
-  - I jd = **nerviranjem**
-- **neshvatanje** (potvrđen genitiv: *neshvatanja*) — Nerazumevanje, izostanak shvatanja; neshvatanje.
-  - I jd = **neshvatanjem**
-- **neulaganje** (potvrđen genitiv: *neulaganja*) — Izostanak ulaganja, neulaganje sredstava; neulaganje.
-  - D/L jd = **neulaganju**, I jd = **neulaganjem**
-- **neusvajanje** (potvrđen genitiv: *neusvajanja*) — Izostanak usvajanja, neprihvatanje; neusvajanje.
-  - I jd = **neusvajanjem**
-- **neuzimanje** (potvrđen genitiv: *neuzimanja*) — Izostanak uzimanja, uzdržavanje od uzimanja; neuzimanje.
-  - I jd = **neuzimanjem**
-- **neučestvovanje** (potvrđen genitiv: *neučestvovanja*) — Izostanak učešća, neučešće; neučestvovanje.
-  - D/L jd = **neučestvovanju**, I jd = **neučestvovanjem**
-- **nevaspitanje** (potvrđen genitiv: *nevaspitanja*) — Loše vaspitanje i neuljudno ponašanje; nevaspitanje.
-  - D/L jd = **nevaspitanju**, I jd = **nevaspitanjem**
-- **neverovanje** (potvrđen genitiv: *neverovanja*) — Neverica, sumnja, odsustvo verovanja; neverovanje.
-  - I jd = **neverovanjem**
-- **nevesinje** (potvrđen genitiv: *nevesinja*) — Nevesinje — grad u istočnoj Hercegovini (Nevesinjska puška).
-  - I jd = **nevesinjem**
-- **neviđenje** (potvrđen genitiv: *neviđenja*) — Oblik reči neviđenje (izostanak viđanja, neviđanje).
-  - D/L jd = **neviđenju**, I jd = **neviđenjem**
-- **nevraćanje** (potvrđen genitiv: *nevraćanja*) — Izostanak vraćanja, nevraćanje; nevraćanje.
-  - D/L jd = **nevraćanju**, I jd = **nevraćanjem**
-- **nećkanje** (potvrđen genitiv: *nećkanja*) — Ustručavanje, oklevanje da se pristane.
-  - D/L jd = **nećkanju**, I jd = **nećkanjem**
-- **neželjenje** (potvrđen genitiv: *neželjenja*) — Oblik reči neželjenje (izostanak želje, neželjenje).
-  - I jd = **neželjenjem**
-- **njegovanje** (potvrđen genitiv: *njegovanja*) — Brižno staranje o nekome; negovanje.
-  - I jd = **njegovanjem**
-- **njihanje** (potvrđen genitiv: *njihanja*) — Lagano ljuljanje tamo-amo.
-  - D/L jd = **njihanju**, I jd = **njihanjem**
-- **nominovanje** (potvrđen genitiv: *nominovanja*) — Predlaganje nekoga za izbor ili nagradu.
-  - D/L jd = **nominovanju**, I jd = **nominovanjem**
-- **novačenje** (potvrđen genitiv: *novačenja*) — Pozivanje i uzimanje u vojsku.
-  - I jd = **novačenjem**
-- **nutkanje** (potvrđen genitiv: *nutkanja*) — Uporno nuđenje, naročito hrane.
-  - D/L jd = **nutkanju**, I jd = **nutkanjem**
-- **obavezivanje** (potvrđen genitiv: *obavezivanja*) — Preuzimanje i nametanje obaveze.
-  - D/L jd = **obavezivanju**, I jd = **obavezivanjem**
-- **obaveštavanje** (potvrđen genitiv: *obaveštavanja*) — Davanje obaveštenja; izveštavanje.
-  - D/L jd = **obaveštavanju**, I jd = **obaveštavanjem**
-- **obaziranje** (potvrđen genitiv: *obaziranja*) — Osvrtanje; obraćanje pažnje na nešto.
-  - D/L jd = **obaziranju**, I jd = **obaziranjem**
-- **obedovanje** (potvrđen genitiv: *obedovanja*) — Uzimanje obroka.
-  - I jd = **obedovanjem**
-- **obeležavanje** (potvrđen genitiv: *obeležavanja*) — Stavljanje oznaka; svečano obeležavanje datuma.
-  - D/L jd = **obeležavanju**, I jd = **obeležavanjem**
-- **obezbeđivanje** (potvrđen genitiv: *obezbeđivanja*) — Oblik reči obezbeđivanje (osiguravanje, zaštita).
-  - I jd = **obezbeđivanjem**
-- **obećavanje** (potvrđen genitiv: *obećavanja*) — Davanje obećanja.
-  - D/L jd = **obećavanju**
-- **obeštećenje** (potvrđen genitiv: *obeštećenja*) — Naknada za pretrpljenu štetu.
-  - I jd = **obeštećenjem**
-- **obilaženje** (potvrđen genitiv: *obilaženja*) — Kretanje oko nečega ili posećivanje redom (glagolska imenica).
-  - D/L jd = **obilaženju**
-- **oblaganje** (potvrđen genitiv: *oblaganja*) — Prekrivanje slojem; postavljanje obloge.
-  - I jd = **oblaganjem**
-- **oblikovanje** (potvrđen genitiv: *oblikovanja*) — Davanje oblika i forme.
-  - I jd = **oblikovanjem**
-- **obmanjivanje** (potvrđen genitiv: *obmanjivanja*) — Namerno dovođenje u zabludu; varanje.
-  - I jd = **obmanjivanjem**
-- **obolenje** (potvrđen genitiv: *obolenja*) — Pojava bolesti; oboljenje.
-  - D/L jd = **obolenju**
-- **obolevanje** (potvrđen genitiv: *obolevanja*) — Razbolevanje i obolevanje od bolesti.
-  - I jd = **obolevanjem**
-- **obrazlaganje** (potvrđen genitiv: *obrazlaganja*) — Iznošenje razloga; objašnjavanje.
-  - D/L jd = **obrazlaganju**, I jd = **obrazlaganjem**
-- **obrazloženje** (potvrđen genitiv: *obrazloženja*) — Iznošenje razloga; objašnjenje odluke.
-  - D/L jd = **obrazloženju**
-- **obračunavanje** (potvrđen genitiv: *obračunavanja*) — Sravnjivanje računa; svođenje računa.
-  - D/L jd = **obračunavanju**, I jd = **obračunavanjem**
-- **obrezivanje** (potvrđen genitiv: *obrezivanja*) — Sečenje suvišnog; verski obred kod muškaraca.
-  - I jd = **obrezivanjem**
-- **obrušavanje** (potvrđen genitiv: *obrušavanja*) — Naglo rušenje i padanje nadole; survavanje.
-  - D/L jd = **obrušavanju**
-- **obuzdavanje** (potvrđen genitiv: *obuzdavanja*) — Držanje pod kontrolom; savladavanje.
-  - I jd = **obuzdavanjem**
-- **ocrtavanje** (potvrđen genitiv: *ocrtavanja*) — Iscrtavanje obrisa i konture.
-  - D/L jd = **ocrtavanju**, I jd = **ocrtavanjem**
-- **odcepljenje** (potvrđen genitiv: *odcepljenja*) — Otcepljenje i izdvajanje iz celine.
-  - D/L jd = **odcepljenju**, I jd = **odcepljenjem**
-- **odeljivanje** (potvrđen genitiv: *odeljivanja*) — Razdvajanje i odvajanje.
-  - D/L jd = **odeljivanju**, I jd = **odeljivanjem**
-- **odgađanje** (potvrđen genitiv: *odgađanja*) — Pomeranje na kasniji rok; odlaganje.
-  - D/L jd = **odgađanju**, I jd = **odgađanjem**
-- **odgonetanje** (potvrđen genitiv: *odgonetanja*) — Rešavanje zagonetke; pronicanje u tajnu.
-  - I jd = **odgonetanjem**
-- **odigravanje** (potvrđen genitiv: *odigravanja*) — Oblik reči odigravanje (izvođenje, odvijanje).
-  - I jd = **odigravanjem**
-- **odlikovanje** (potvrđen genitiv: *odlikovanja*) — Zvanično priznanje; orden, medalja.
-  - I jd = **odlikovanjem**
-- **odlučivanje** (potvrđen genitiv: *odlučivanja*) — Donošenje odluka.
-  - I jd = **odlučivanjem**
-- **odmahivanje** (potvrđen genitiv: *odmahivanja*) — Pokret rukom u znak odbijanja.
-  - D/L jd = **odmahivanju**, I jd = **odmahivanjem**
-- **odmaranje** (potvrđen genitiv: *odmaranja*) — Predah, sticanje snage; odmor.
-  - I jd = **odmaranjem**
-- **odmeravanje** (potvrđen genitiv: *odmeravanja*) — Pažljivo merenje; takođe odmeravanje pogledom.
-  - I jd = **odmeravanjem**
-- **odmotavanje** (potvrđen genitiv: *odmotavanja*) — Razvijanje onoga što je smotano.
-  - D/L jd = **odmotavanju**
-- **odmrzavanje** (potvrđen genitiv: *odmrzavanja*) — Topljenje leda; vraćanje iz zamrznutog stanja.
-  - I jd = **odmrzavanjem**
-- **odolevanje** (potvrđen genitiv: *odolevanja*) — Pružanje otpora i istrajavanje.
-  - D/L jd = **odolevanju**, I jd = **odolevanjem**
-- **odražavanje** (potvrđen genitiv: *odražavanja*) — Vraćanje slike ili svetlosti; odraz.
-  - I jd = **odražavanjem**
-- **odrešenje** (potvrđen genitiv: *odrešenja*) — Oslobađanje od greha ili obaveze.
-  - I jd = **odrešenjem**
-- **odronjavanje** (potvrđen genitiv: *odronjavanja*) — Obrušavanje zemlje ili kamenja niz padinu.
-  - D/L jd = **odronjavanju**, I jd = **odronjavanjem**
-- **odrubljivanje** (potvrđen genitiv: *odrubljivanja*) — Sečenje i odsecanje, naročito glave.
-  - D/L jd = **odrubljivanju**, I jd = **odrubljivanjem**
-- **odseljavanje** (potvrđen genitiv: *odseljavanja*) — Odlazak iz mesta stanovanja.
-  - D/L jd = **odseljavanju**, I jd = **odseljavanjem**
-- **odsluženje** (potvrđen genitiv: *odsluženja*) — Završetak obavezne službe ili roka.
-  - I jd = **odsluženjem**
-- **odstranjivanje** (potvrđen genitiv: *odstranjivanja*) — Uklanjanje i izbacivanje.
-  - D/L jd = **odstranjivanju**, I jd = **odstranjivanjem**
-- **odugovlačenje** (potvrđen genitiv: *odugovlačenja*) — Namerno otezanje i odlaganje.
-  - D/L jd = **odugovlačenju**
-- **odupiranje** (potvrđen genitiv: *odupiranja*) — Pružanje otpora.
-  - I jd = **odupiranjem**
-- **oduživanje** (potvrđen genitiv: *oduživanja*) — Vraćanje duga i uzvraćanje.
-  - D/L jd = **oduživanju**, I jd = **oduživanjem**
-- **odvikavanje** (potvrđen genitiv: *odvikavanja*) — Oslobađanje od navike; odučavanje.
-  - I jd = **odvikavanjem**
-- **odvodnjavanje** (potvrđen genitiv: *odvodnjavanja*) — Odvođenje suvišne vode iz tla.
-  - D/L jd = **odvodnjavanju**, I jd = **odvodnjavanjem**
-- **oglašavanje** (potvrđen genitiv: *oglašavanja*) — Javno objavljivanje; reklamiranje.
-  - I jd = **oglašavanjem**
-- **ogledavanje** (potvrđen genitiv: *ogledavanja*) — Posmatranje svog odraza u ogledalu.
-  - D/L jd = **ogledavanju**, I jd = **ogledavanjem**
-- **ograničavanje** (potvrđen genitiv: *ograničavanja*) — Postavljanje granica i sužavanje.
-  - I jd = **ograničavanjem**
-- **ograđivanje** (potvrđen genitiv: *ograđivanja*) — Postavljanje ograde; distanciranje.
-  - D/L jd = **ograđivanju**, I jd = **ograđivanjem**
-- **ogrešenje** (potvrđen genitiv: *ogrešenja*) — Prekršaj; greh prema nekome.
-  - I jd = **ogrešenjem**
-- **ohrabrivanje** (potvrđen genitiv: *ohrabrivanja*) — Davanje hrabrosti; bodrenje.
-  - D/L jd = **ohrabrivanju**, I jd = **ohrabrivanjem**
-- **ojačanje** (potvrđen genitiv: *ojačanja*) — Pojačavanje čvrstine i otpornosti.
-  - D/L jd = **ojačanju**, I jd = **ojačanjem**
-- **ojačavanje** (potvrđen genitiv: *ojačavanja*) — Davanje veće čvrstine i snage.
-  - I jd = **ojačavanjem**
-- **okapanje** (potvrđen genitiv: *okapanja*) — Oblik reči okapanje (mučenje, dangubljenje u čekanju).
-  - D/L jd = **okapanju**, I jd = **okapanjem**
-- **okivanje** (potvrđen genitiv: *okivanja*) — Stavljanje okova; ukrašavanje metalom.
-  - I jd = **okivanjem**
-- **okolišanje** (potvrđen genitiv: *okolišanja*) — Govorenje zaobilazno, bez suštine.
-  - D/L jd = **okolišanju**
-- **okolišenje** (potvrđen genitiv: *okolišenja*) — Govorenje zaobilazno, bez suštine.
-  - D/L jd = **okolišenju**, I jd = **okolišenjem**
-- **okončavanje** (potvrđen genitiv: *okončavanja*) — Privođenje kraju.
-  - D/L jd = **okončavanju**, I jd = **okončavanjem**
-- **okrepljenje** (potvrđen genitiv: *okrepljenja*) — Osveženje i vraćanje snage.
-  - D/L jd = **okrepljenju**, I jd = **okrepljenjem**
-- **okresivanje** (potvrđen genitiv: *okresivanja*) — Sečenje suvišnih grana; potkresivanje.
-  - D/L jd = **okresivanju**, I jd = **okresivanjem**
-- **okupiranje** (potvrđen genitiv: *okupiranja*) — Vojno zaposedanje tuđe teritorije.
-  - D/L jd = **okupiranju**, I jd = **okupiranjem**
-- **olakšanje** (potvrđen genitiv: *olakšanja*) — Prijatan osećaj kad prođe briga.
-  - D/L jd = **olakšanju**
-- **olakšavanje** (potvrđen genitiv: *olakšavanja*) — Činjenje lakšim; ublažavanje.
-  - I jd = **olakšavanjem**
-- **oličenje** (potvrđen genitiv: *oličenja*) — Otelovljenje i savršen primer nečega.
-  - D/L jd = **oličenju**
-- **omalovažavanje** (potvrđen genitiv: *omalovažavanja*) — Smatranje nevažnim; potcenjivanje.
-  - D/L jd = **omalovažavanju**
-- **omekšavanje** (potvrđen genitiv: *omekšavanja*) — Činjenje mekšim.
-  - I jd = **omekšavanjem**
-- **onesvešćivanje** (potvrđen genitiv: *onesvešćivanja*) — Dovođenje do gubitka svesti.
-  - D/L jd = **onesvešćivanju**, I jd = **onesvešćivanjem**
-- **opanjkavanje** (potvrđen genitiv: *opanjkavanja*) — Klevetanje i ogovaranje iza leđa.
-  - D/L jd = **opanjkavanju**, I jd = **opanjkavanjem**
-- **opevanje** (potvrđen genitiv: *opevanja*) — Slavljenje i opisivanje u pesmi.
-  - D/L jd = **opevanju**
-- **opipavanje** (potvrđen genitiv: *opipavanja*) — Dodirivanje prstima radi osećaja.
-  - D/L jd = **opipavanju**, I jd = **opipavanjem**
-- **opkoljavanje** (potvrđen genitiv: *opkoljavanja*) — Okruživanje neprijatelja sa svih strana.
-  - D/L jd = **opkoljavanju**
-- **opkoračenje** (potvrđen genitiv: *opkoračenja*) — Stajanje raskoračeno preko nečega.
-  - D/L jd = **opkoračenju**, I jd = **opkoračenjem**
-- **oplakivanje** (potvrđen genitiv: *oplakivanja*) — Plakanje i tugovanje za nekim.
-  - I jd = **oplakivanjem**
-- **oplođenje** (potvrđen genitiv: *oplođenja*) — Spajanje polnih ćelija; začeće.
-  - D/L jd = **oplođenju**, I jd = **oplođenjem**
-- **oplođivanje** (potvrđen genitiv: *oplođivanja*) — Oblik reči oplođivanje (omogućavanje začeća).
-  - D/L jd = **oplođivanju**, I jd = **oplođivanjem**
-- **opominjanje** (potvrđen genitiv: *opominjanja*) — Davanje opomena; podsećanje na obavezu.
-  - D/L jd = **opominjanju**
-- **oponiranje** (potvrđen genitiv: *oponiranja*) — Oblik reči oponiranje (suprotstavljanje, protivljenje).
-  - D/L jd = **oponiranju**, I jd = **oponiranjem**
-- **oporavljanje** (potvrđen genitiv: *oporavljanja*) — Vraćanje snage posle bolesti.
-  - D/L jd = **oporavljanju**, I jd = **oporavljanjem**
-- **oporezivanje** (potvrđen genitiv: *oporezivanja*) — Uvođenje i naplata poreza.
-  - I jd = **oporezivanjem**
-- **opozivanje** (potvrđen genitiv: *opozivanja*) — Povlačenje i poništavanje odluke ili predstavnika.
-  - I jd = **opozivanjem**
-- **opredeljenje** (potvrđen genitiv: *opredeljenja*) — Svesno opredeljivanje i izbor.
-  - I jd = **opredeljenjem**
-- **oproštenje** (potvrđen genitiv: *oproštenja*) — Opraštanje krivice ili duga.
-  - D/L jd = **oproštenju**
-- **opsedanje** (potvrđen genitiv: *opsedanja*) — Vojno okruživanje grada radi osvajanja.
-  - D/L jd = **opsedanju**, I jd = **opsedanjem**
-- **opstajanje** (potvrđen genitiv: *opstajanja*) — Održavanje u postojanju; opstanak.
-  - I jd = **opstajanjem**
-- **optiranje** (potvrđen genitiv: *optiranja*) — Oblik reči optiranje (opredeljivanje za državljanstvo).
-  - D/L jd = **optiranju**, I jd = **optiranjem**
-- **optrčavanje** (potvrđen genitiv: *optrčavanja*) — Oblik reči „optrčavanje“; trčanje oko nečega, obilaženje (umoran od op
-  - D/L jd = **optrčavanju**, I jd = **optrčavanjem**
-- **optuživanje** (potvrđen genitiv: *optuživanja*) — Iznošenje optužbi protiv nekoga.
-  - I jd = **optuživanjem**
-- **opustošenje** (potvrđen genitiv: *opustošenja*) — Razaranje i pretvaranje u pustoš.
-  - I jd = **opustošenjem**
-- **opčinjavanje** (potvrđen genitiv: *opčinjavanja*) — Očaravanje i zanošenje.
-  - D/L jd = **opčinjavanju**, I jd = **opčinjavanjem**
-- **opšivanje** (potvrđen genitiv: *opšivanja*) — Obrubljivanje ivice šivenjem.
-  - D/L jd = **opšivanju**
-- **orezivanje** (potvrđen genitiv: *orezivanja*) — Skraćivanje grana biljke makazama.
-  - D/L jd = **orezivanju**
-- **orgijanje** (potvrđen genitiv: *orgijanja*) — Razuzdano veselje i provod.
-  - D/L jd = **orgijanju**, I jd = **orgijanjem**
-- **orođavanje** (potvrđen genitiv: *orođavanja*) — Oblik reči orođavanje (stvaranje srodstva).
-  - I jd = **orođavanjem**
-- **oružanje** (potvrđen genitiv: *oružanja*) — Snabdevanje oružjem; naoružavanje.
-  - D/L jd = **oružanju**, I jd = **oružanjem**
-- **osamljenje** (potvrđen genitiv: *osamljenja*) — Stanje usamljenosti i izdvojenosti.
-  - I jd = **osamljenjem**
-- **osamljivanje** (potvrđen genitiv: *osamljivanja*) — Povlačenje u samoću i izolaciju.
-  - I jd = **osamljivanjem**
-- **osamostaljivanje** (potvrđen genitiv: *osamostaljivanja*) — Oblik reči osamostaljivanje (sticanje samostalnosti).
-  - I jd = **osamostaljivanjem**
-- **oscilovanje** (potvrđen genitiv: *oscilovanja*) — Pravilno njihanje oko sredine; kolebanje.
-  - D/L jd = **oscilovanju**, I jd = **oscilovanjem**
-- **osiguravanje** (potvrđen genitiv: *osiguravanja*) — Obezbeđivanje od štete i opasnosti.
-  - D/L jd = **osiguravanju**, I jd = **osiguravanjem**
-- **osiromašenje** (potvrđen genitiv: *osiromašenja*) — Postajanje siromašnim.
-  - D/L jd = **osiromašenju**, I jd = **osiromašenjem**
-- **osmehivanje** (potvrđen genitiv: *osmehivanja*) — Blago smešenje; osmeh.
-  - D/L jd = **osmehivanju**, I jd = **osmehivanjem**
-- **osnaženje** (potvrđen genitiv: *osnaženja*) — Davanje snage i jačanje.
-  - I jd = **osnaženjem**
-- **osnaživanje** (potvrđen genitiv: *osnaživanja*) — Davanje snage i jačanje.
-  - D/L jd = **osnaživanju**, I jd = **osnaživanjem**
-- **osposobljavanje** (potvrđen genitiv: *osposobljavanja*) — Obuka kojom se neko osposobljava.
-  - D/L jd = **osposobljavanju**, I jd = **osposobljavanjem**
-- **osramoćenje** (potvrđen genitiv: *osramoćenja*) — Nanošenje sramote.
-  - D/L jd = **osramoćenju**, I jd = **osramoćenjem**
-- **ostajanje** (potvrđen genitiv: *ostajanja*) — Zadržavanje na istom mestu ili u istom stanju.
-  - I jd = **ostajanjem**
-- **ostvarenje** (potvrđen genitiv: *ostvarenja*) — Pretvaranje zamisli u stvarnost.
-  - I jd = **ostvarenjem**
-- **osujećivanje** (potvrđen genitiv: *osujećivanja*) — Onemogućavanje i sprečavanje namere.
-  - I jd = **osujećivanjem**
-- **osvedočenje** (potvrđen genitiv: *osvedočenja*) — Lično uveravanje u istinitost.
-  - I jd = **osvedočenjem**
-- **osvećenje** (potvrđen genitiv: *osvećenja*) — Posvećivanje verskim obredom.
-  - D/L jd = **osvećenju**, I jd = **osvećenjem**
-- **osvećivanje** (potvrđen genitiv: *osvećivanja*) — Oblik reči osvećivanje (osvećivanje; posvećivanje).
-  - D/L jd = **osvećivanju**, I jd = **osvećivanjem**
-- **osvežavanje** (potvrđen genitiv: *osvežavanja*) — Vraćanje svežine i snage.
-  - I jd = **osvežavanjem**
-- **osveženje** (potvrđen genitiv: *osveženja*) — Ono što osvežava, npr. hladno piće.
-  - D/L jd = **osveženju**
-- **osvojenje** (potvrđen genitiv: *osvojenja*) — Zauzimanje i osvajanje.
-  - D/L jd = **osvojenju**, I jd = **osvojenjem**
-- **osvrtanje** (potvrđen genitiv: *osvrtanja*) — Okretanje glave unazad; kratko komentarisanje.
-  - I jd = **osvrtanjem**
-- **otaljavanje** (potvrđen genitiv: *otaljavanja*) — Aljkavo i nemarno obavljanje posla.
-  - D/L jd = **otaljavanju**, I jd = **otaljavanjem**
-- **otapanje** (potvrđen genitiv: *otapanja*) — Pretvaranje čvrstog u tečno topljenjem.
-  - D/L jd = **otapanju**
-- **otezanje** (potvrđen genitiv: *otezanja*) — Razvlačenje vremena; odugovlačenje.
-  - D/L jd = **otezanju**
-- **oticanje** (potvrđen genitiv: *oticanja*) — Tečenje i odlaženje vode.
-  - D/L jd = **oticanju**
-- **otkidanje** (potvrđen genitiv: *otkidanja*) — Naglo odvajanje kidanjem.
-  - D/L jd = **otkidanju**, I jd = **otkidanjem**
-- **otkopavanje** (potvrđen genitiv: *otkopavanja*) — Vađenje iz zemlje kopanjem.
-  - I jd = **otkopavanjem**
-- **otkrivenje** (potvrđen genitiv: *otkrivenja*) — Iznenadno duboko saznanje; objava.
-  - I jd = **otkrivenjem**
-- **otkrovenje** (potvrđen genitiv: *otkrovenja*) — Iznenadno otkrivanje skrivene istine.
-  - I jd = **otkrovenjem**
-- **otopljavanje** (potvrđen genitiv: *otopljavanja*) — Topljenje leda i snega; jenjavanje napetosti.
-  - I jd = **otopljavanjem**
-- **otopljenje** (potvrđen genitiv: *otopljenja*) — Topljenje leda i snega; jenjavanje napetosti.
-  - D/L jd = **otopljenju**, I jd = **otopljenjem**
-- **otpisivanje** (potvrđen genitiv: *otpisivanja*) — Brisanje iz evidencije; odustajanje od duga.
-  - I jd = **otpisivanjem**
-- **otpočinjanje** (potvrđen genitiv: *otpočinjanja*) — Započinjanje neke radnje.
-  - D/L jd = **otpočinjanju**, I jd = **otpočinjanjem**
-- **otpremanje** (potvrđen genitiv: *otpremanja*) — Slanje robe ili ljudi na odredište.
-  - D/L jd = **otpremanju**, I jd = **otpremanjem**
-- **otrovanje** (potvrđen genitiv: *otrovanja*) — Trovanje organizma otrovom.
-  - D/L jd = **otrovanju**, I jd = **otrovanjem**
-- **otvorenje** (potvrđen genitiv: *otvorenja*) — Svečano otvaranje ustanove ili izložbe.
-  - I jd = **otvorenjem**
-- **ovaploćenje** (potvrđen genitiv: *ovaploćenja*) — Dobijanje telesnog oblika; otelovljenje.
-  - I jd = **ovaploćenjem**
-- **ovenčavanje** (potvrđen genitiv: *ovenčavanja*) — Kićenje vencem; ovenčavanje slavom.
-  - D/L jd = **ovenčavanju**, I jd = **ovenčavanjem**
-- **ovladavanje** (potvrđen genitiv: *ovladavanja*) — Sticanje vlasti ili veštine nad nečim.
-  - I jd = **ovladavanjem**
-- **ovlaštenje** (potvrđen genitiv: *ovlaštenja*) — Ovlaštenje — ovlašćenje, punomoć (varijanta).
-  - D/L jd = **ovlaštenju**, I jd = **ovlaštenjem**
-- **ozarenje** (potvrđen genitiv: *ozarenja*) — Sjaj sreće na licu; stanje ozarenosti.
-  - D/L jd = **ozarenju**, I jd = **ozarenjem**
-- **označavanje** (potvrđen genitiv: *označavanja*) — Stavljanje oznaka i obeležavanje.
-  - I jd = **označavanjem**
-- **ozračenje** (potvrđen genitiv: *ozračenja*) — Izlaganje zračenju; opšta atmosfera nekog mesta.
-  - D/L jd = **ozračenju**, I jd = **ozračenjem**
-- **ozvaničenje** (potvrđen genitiv: *ozvaničenja*) — Davanje zvaničnog i službenog karaktera.
-  - I jd = **ozvaničenjem**
-- **ozvučavanje** (potvrđen genitiv: *ozvučavanja*) — Opremanje prostora zvučnom opremom.
-  - D/L jd = **ozvučavanju**, I jd = **ozvučavanjem**
-- **očajavanje** (potvrđen genitiv: *očajavanja*) — Padanje u očaj i beznađe.
-  - D/L jd = **očajavanju**, I jd = **očajavanjem**
-- **očaravanje** (potvrđen genitiv: *očaravanja*) — Zanošenje i oduševljavanje.
-  - D/L jd = **očaravanju**, I jd = **očaravanjem**
-- **očijukanje** (potvrđen genitiv: *očijukanja*) — Koketno gledanje i flertovanje.
-  - D/L jd = **očijukanju**, I jd = **očijukanjem**
-- **očitanje** (potvrđen genitiv: *očitanja*) — Oblik reči „očitanje“; čitanje vrednosti s mernog uređaja (zabeležio o
-  - D/L jd = **očitanju**, I jd = **očitanjem**
-- **očitovanje** (potvrđen genitiv: *očitovanja*) — Oblik reči očitovanje (ispoljavanje, izjašnjavanje).
-  - D/L jd = **očitovanju**, I jd = **očitovanjem**
-- **očišćenje** (potvrđen genitiv: *očišćenja*) — Oslobađanje od prljavštine i greha.
-  - D/L jd = **očišćenju**
-- **očvršćavanje** (potvrđen genitiv: *očvršćavanja*) — Postajanje čvrstim i tvrdim; stezanje.
-  - D/L jd = **očvršćavanju**, I jd = **očvršćavanjem**
-- **oštećivanje** (potvrđen genitiv: *oštećivanja*) — Nanošenje štete i kvara.
-  - I jd = **oštećivanjem**
-- **oživljenje** (potvrđen genitiv: *oživljenja*) — Vraćanje u život ili u dejstvo.
-  - I jd = **oživljenjem**
-- **pabirčenje** (potvrđen genitiv: *pabirčenja*) — Skupljanje preostalih klasova posle žetve.
-  - D/L jd = **pabirčenju**, I jd = **pabirčenjem**
-- **pametovanje** (potvrđen genitiv: *pametovanja*) — Mudrovanje, soljenje pameti (žargon).
-  - D/L jd = **pametovanju**, I jd = **pametovanjem**
-- **paradiranje** (potvrđen genitiv: *paradiranja*) — Svečano defilovanje; razmetljivo isticanje.
-  - D/L jd = **paradiranju**, I jd = **paradiranjem**
-- **parničenje** (potvrđen genitiv: *parničenja*) — Vođenje sudskog spora.
-  - D/L jd = **parničenju**
-- **parodiranje** (potvrđen genitiv: *parodiranja*) — Podrugljivo oponašanje radi smeha.
-  - D/L jd = **parodiranju**, I jd = **parodiranjem**
-- **pasiranje** (potvrđen genitiv: *pasiranja*) — Protiskivanje kuvane hrane kroz sito; pretvaranje u kašu.
-  - D/L jd = **pasiranju**, I jd = **pasiranjem**
-- **paženje** (potvrđen genitiv: *paženja*) — Brižna nega i pažnja.
-  - I jd = **paženjem**
-- **peckanje** (potvrđen genitiv: *peckanja*) — Blago bockanje; sitno peckavo žarenje.
-  - D/L jd = **peckanju**
-- **peglanje** (potvrđen genitiv: *peglanja*) — Ravnanje izgužvane odeće toplom peglom.
-  - D/L jd = **peglanju**, I jd = **peglanjem**
-- **pesničenje** (potvrđen genitiv: *pesničenja*) — Tučnjava pesnicama; udaranje pesnicama.
-  - I jd = **pesničenjem**
-- **petljanje** (potvrđen genitiv: *petljanja*) — Nespretno baratanje; mešanje u nešto.
-  - I jd = **petljanjem**
-- **pečaćenje** (potvrđen genitiv: *pečaćenja*) — Stavljanje pečata; zatvaranje pečatom.
-  - D/L jd = **pečaćenju**, I jd = **pečaćenjem**
-- **pijuckanje** (potvrđen genitiv: *pijuckanja*) — Polako pijenje u malim gutljajima.
-  - D/L jd = **pijuckanju**, I jd = **pijuckanjem**
-- **pipanje** (potvrđen genitiv: *pipanja*) — Dodirivanje prstima radi opipa (glagolska imenica).
-  - D/L jd = **pipanju**
-- **pipkanje** (potvrđen genitiv: *pipkanja*) — Opipavanje i pipkanje rukama.
-  - D/L jd = **pipkanju**, I jd = **pipkanjem**
-- **pirovanje** (potvrđen genitiv: *pirovanja*) — Veselo gošćenje i slavlje.
-  - I jd = **pirovanjem**
-- **piskaranje** (potvrđen genitiv: *piskaranja*) — Površno i loše pisanje.
-  - I jd = **piskaranjem**
-- **pišanje** (potvrđen genitiv: *pišanja*) — Mokrenje; izbacivanje mokraće.
-  - D/L jd = **pišanju**, I jd = **pišanjem**
-- **plagiranje** (potvrđen genitiv: *plagiranja*) — Prisvajanje tuđeg dela kao svog.
-  - D/L jd = **plagiranju**, I jd = **plagiranjem**
-- **planinarenje** (potvrđen genitiv: *planinarenja*) — Pešačenje po planinama.
-  - I jd = **planinarenjem**
-- **plavljenje** (potvrđen genitiv: *plavljenja*) — Prekrivanje vodom pri izlivanju.
-  - D/L jd = **plavljenju**, I jd = **plavljenjem**
-- **plenjenje** (potvrđen genitiv: *plenjenja*) — Otimanje plena; zaplenjivanje.
-  - D/L jd = **plenjenju**, I jd = **plenjenjem**
-- **pljeskanje** (potvrđen genitiv: *pljeskanja*) — Udaranje dlanom o dlan; aplaudiranje.
-  - D/L jd = **pljeskanju**
-- **pljuskanje** (potvrđen genitiv: *pljuskanja*) — Udaranje vode uz zvuk.
-  - D/L jd = **pljuskanju**
-- **plutanje** (potvrđen genitiv: *plutanja*) — Lebdenje na površini vode.
-  - D/L jd = **plutanju**, I jd = **plutanjem**
-- **pobeđivanje** (potvrđen genitiv: *pobeđivanja*) — Odnošenje pobeda; nadvladavanje.
-  - I jd = **pobeđivanjem**
-- **pobijanje** (potvrđen genitiv: *pobijanja*) — Opovrgavanje tvrdnji; ubijanje u velikom broju.
-  - I jd = **pobijanjem**
-- **pobuđivanje** (potvrđen genitiv: *pobuđivanja*) — Izazivanje i podsticanje na delovanje.
-  - I jd = **pobuđivanjem**
-- **podbadanje** (potvrđen genitiv: *podbadanja*) — Zadirkivanje i izazivanje.
-  - I jd = **podbadanjem**
-- **podgrevanje** (potvrđen genitiv: *podgrevanja*) — Ponovno zagrevanje već skuvanog jela (glagolska imenica).
-  - D/L jd = **podgrevanju**, I jd = **podgrevanjem**
-- **podilaženje** (potvrđen genitiv: *podilaženja*) — Prilaženje s donje strane; dodvoravanje.
-  - I jd = **podilaženjem**
-- **podleganje** (potvrđen genitiv: *podleganja*) — Popuštanje pod pritiskom; podlegavanje.
-  - D/L jd = **podleganju**, I jd = **podleganjem**
-- **podmazivanje** (potvrđen genitiv: *podmazivanja*) — Premazivanje mašću radi lakšeg rada; potplaćivanje.
-  - D/L jd = **podmazivanju**, I jd = **podmazivanjem**
-- **podmlađivanje** (potvrđen genitiv: *podmlađivanja*) — Vraćanje mladalačkog izgleda ili snage.
-  - D/L jd = **podmlađivanju**, I jd = **podmlađivanjem**
-- **podrhtavanje** (potvrđen genitiv: *podrhtavanja*) — Lako, ponavljano drhtanje.
-  - D/L jd = **podrhtavanju**, I jd = **podrhtavanjem**
-- **podrigivanje** (potvrđen genitiv: *podrigivanja*) — Glasno ispuštanje vazduha iz stomaka na usta.
-  - I jd = **podrigivanjem**
-- **podržavanje** (potvrđen genitiv: *podržavanja*) — Pružanje podrške; pridržavanje.
-  - I jd = **podržavanjem**
-- **podsmevanje** (potvrđen genitiv: *podsmevanja*) — Rugajuće smejanje nekome.
-  - I jd = **podsmevanjem**
-- **podsticanje** (potvrđen genitiv: *podsticanja*) — Podstrekivanje i ohrabrivanje na nešto.
-  - I jd = **podsticanjem**
-- **podudaranje** (potvrđen genitiv: *podudaranja*) — Slaganje i poklapanje nečega.
-  - D/L jd = **podudaranju**, I jd = **podudaranjem**
-- **podupiranje** (potvrđen genitiv: *podupiranja*) — Pridržavanje osloncem; podpiranje.
-  - D/L jd = **podupiranju**, I jd = **podupiranjem**
-- **podvajanje** (potvrđen genitiv: *podvajanja*) — Razdvajanje na suprotstavljene strane.
-  - I jd = **podvajanjem**
-- **podvlačenje** (potvrđen genitiv: *podvlačenja*) — Povlačenje crte ispod teksta.
-  - I jd = **podvlačenjem**
-- **podvođenje** (potvrđen genitiv: *podvođenja*) — Posredovanje u nemoralu; svođenje.
-  - D/L jd = **podvođenju**, I jd = **podvođenjem**
-- **pogrebenje** (potvrđen genitiv: *pogrebenja*) — Sahranjivanje umrlog; pogreb.
-  - I jd = **pogrebenjem**
-- **pohovanje** (potvrđen genitiv: *pohovanja*) — Prženje umotano u jaja i mrvice.
-  - D/L jd = **pohovanju**, I jd = **pohovanjem**
-- **poigravanje** (potvrđen genitiv: *poigravanja*) — Lako i prezrivo postupanje s nekim.
-  - I jd = **poigravanjem**
-- **pojašnjenje** (potvrđen genitiv: *pojašnjenja*) — Dodatno objašnjenje radi jasnoće.
-  - D/L jd = **pojašnjenju**, I jd = **pojašnjenjem**
-- **poklanjanje** (potvrđen genitiv: *poklanjanja*) — Davanje na poklon; darivanje.
-  - D/L jd = **poklanjanju**
-- **pokoravanje** (potvrđen genitiv: *pokoravanja*) — Potčinjavanje svojoj vlasti.
-  - I jd = **pokoravanjem**
-- **pokušavanje** (potvrđen genitiv: *pokušavanja*) — Nastojanje da se nešto učini.
-  - D/L jd = **pokušavanju**
-- **poletanje** (potvrđen genitiv: *poletanja*) — Trenutak kad se avion ili ptica odvoji od tla i digne u vazduh.
-  - I jd = **poletanjem**
-- **poliranje** (potvrđen genitiv: *poliranja*) — Glačanje do sjaja.
-  - I jd = **poliranjem**
-- **polivanje** (potvrđen genitiv: *polivanja*) — Sipanje tečnosti po nečemu.
-  - D/L jd = **polivanju**, I jd = **polivanjem**
-- **položenje** (potvrđen genitiv: *položenja*) — Smeštaj i mesto na kome se nešto nalazi.
-  - I jd = **položenjem**
-- **pomazivanje** (potvrđen genitiv: *pomazivanja*) — Mazanje uljem pri verskom obredu.
-  - D/L jd = **pomazivanju**, I jd = **pomazivanjem**
-- **pomicanje** (potvrđen genitiv: *pomicanja*) — Lagano pomeranje; pomeranje za malo.
-  - D/L jd = **pomicanju**
-- **pomišljanje** (potvrđen genitiv: *pomišljanja*) — Padanje na pamet; pomisao.
-  - D/L jd = **pomišljanju**
-- **poništavanje** (potvrđen genitiv: *poništavanja*) — Stavljanje van snage.
-  - D/L jd = **poništavanju**, I jd = **poništavanjem**
-- **ponošenje** (potvrđen genitiv: *ponošenja*) — Dostojanstveno držanje; takođe izlizanost odeće.
-  - D/L jd = **ponošenju**, I jd = **ponošenjem**
-- **popisivanje** (potvrđen genitiv: *popisivanja*) — Pravljenje spiska; popis.
-  - I jd = **popisivanjem**
-- **porađanje** (potvrđen genitiv: *porađanja*) — Donošenje deteta na svet.
-  - I jd = **porađanjem**
-- **porobljavanje** (potvrđen genitiv: *porobljavanja*) — Pretvaranje ljudi u robove.
-  - D/L jd = **porobljavanju**, I jd = **porobljavanjem**
-- **porobljenje** (potvrđen genitiv: *porobljenja*) — Pretvaranje u robove; pokoravanje.
-  - D/L jd = **porobljenju**
-- **poruganje** (potvrđen genitiv: *poruganja*) — Izrugivanje i ismevanje.
-  - D/L jd = **poruganju**, I jd = **poruganjem**
-- **posećivanje** (potvrđen genitiv: *posećivanja*) — Dolaženje u posetu.
-  - I jd = **posećivanjem**
-- **posečenje** (potvrđen genitiv: *posečenja*) — Sečenje i obaranje, npr. drveća.
-  - I jd = **posečenjem**
-- **posipanje** (potvrđen genitiv: *posipanja*) — Prosipanje praha ili zrnaca po površini.
-  - I jd = **posipanjem**
-- **poskakivanje** (potvrđen genitiv: *poskakivanja*) — Učestalo lako skakanje; skakutanje.
-  - D/L jd = **poskakivanju**, I jd = **poskakivanjem**
-- **poskupljenje** (potvrđen genitiv: *poskupljenja*) — Povećanje cene.
-  - I jd = **poskupljenjem**
-- **poslanje** (potvrđen genitiv: *poslanja*) — Uzvišen zadatak i misija.
-  - I jd = **poslanjem**
-- **posluživanje** (potvrđen genitiv: *posluživanja*) — Iznošenje jela i pića gostima.
-  - D/L jd = **posluživanju**, I jd = **posluživanjem**
-- **pospremanje** (potvrđen genitiv: *pospremanja*) — Dovođenje prostora u red, sređivanje.
-  - D/L jd = **pospremanju**, I jd = **pospremanjem**
-- **posramljenje** (potvrđen genitiv: *posramljenja*) — Dovođenje u stid; sramoćenje.
-  - I jd = **posramljenjem**
-- **posredovanje** (potvrđen genitiv: *posredovanja*) — Posredno delovanje između dve strane.
-  - I jd = **posredovanjem**
-- **postajanje** (potvrđen genitiv: *postajanja*) — Proces u kome nešto postaje drugačije.
-  - I jd = **postajanjem**
-- **postanje** (potvrđen genitiv: *postanja*) — Nastanak i poreklo.
-  - I jd = **postanjem**
-- **postponiranje** (potvrđen genitiv: *postponiranja*) — Oblik reči postponiranje (odlaganje, odgađanje).
-  - D/L jd = **postponiranju**, I jd = **postponiranjem**
-- **postradanje** (potvrđen genitiv: *postradanja*) — Oblik reči postradanje (stradanje, propast).
-  - I jd = **postradanjem**
-- **postrojavanje** (potvrđen genitiv: *postrojavanja*) — Svrstavanje u redove.
-  - I jd = **postrojavanjem**
-- **poticanje** (potvrđen genitiv: *poticanja*) — Podsticanje, nagonjenje na neku radnju; takođe vođenje porekla odnekud
-  - D/L jd = **poticanju**, I jd = **poticanjem**
-- **potiranje** (potvrđen genitiv: *potiranja*) — Brisanje i poništavanje.
-  - I jd = **potiranjem**
-- **potkradanje** (potvrđen genitiv: *potkradanja*) — Sitno krađe; potajno potkradanje.
-  - I jd = **potkradanjem**
-- **potpitanje** (potvrđen genitiv: *potpitanja*) — Sporedno pitanje koje proizlazi iz glavnog; potpitanje.
-  - I jd = **potpitanjem**
-- **poturanje** (potvrđen genitiv: *poturanja*) — Podmetanje i krišom guranje nečega.
-  - D/L jd = **poturanju**
-- **poveravanje** (potvrđen genitiv: *poveravanja*) — Saopštavanje u poverenju; predavanje na čuvanje.
-  - I jd = **poveravanjem**
-- **povećavanje** (potvrđen genitiv: *povećavanja*) — Činjenje većim po broju ili veličini.
-  - I jd = **povećavanjem**
-- **povinovanje** (potvrđen genitiv: *povinovanja*) — Pokoravanje pravilima i naredbama.
-  - I jd = **povinovanjem**
-- **povlađivanje** (potvrđen genitiv: *povlađivanja*) — Popustljivo slaganje sa nečijim željama.
-  - D/L jd = **povlađivanju**, I jd = **povlađivanjem**
-- **povlašćenje** (potvrđen genitiv: *povlašćenja*) — Davanje povlastica i prednosti.
-  - D/L jd = **povlašćenju**
-- **povlašćivanje** (potvrđen genitiv: *povlašćivanja*) — Davanje povlastica i prednosti.
-  - D/L jd = **povlašćivanju**, I jd = **povlašćivanjem**
-- **povođenje** (potvrđen genitiv: *povođenja*) — Ugledanje, povođenje za nečim; povođenje.
-  - D/L jd = **povođenju**, I jd = **povođenjem**
-- **pozajmljivanje** (potvrđen genitiv: *pozajmljivanja*) — Davanje ili uzimanje na zajam.
-  - D/L jd = **pozajmljivanju**
-- **pozdravljanje** (potvrđen genitiv: *pozdravljanja*) — Izmena pozdrava pri susretu.
-  - D/L jd = **pozdravljanju**, I jd = **pozdravljanjem**
-- **poziranje** (potvrđen genitiv: *poziranja*) — Zauzimanje poze pred slikarom ili objektivom.
-  - D/L jd = **poziranju**
-- **počinjenje** (potvrđen genitiv: *počinjenja*) — Izvršenje nekog dela, najčešće nedela.
-  - D/L jd = **počinjenju**, I jd = **počinjenjem**
-- **počivanje** (potvrđen genitiv: *počivanja*) — Odmaranje; mirovanje.
-  - D/L jd = **počivanju**
-- **požrtvovanje** (potvrđen genitiv: *požrtvovanja*) — Žrtvovanje sebe za druge; samoodricanje.
-  - I jd = **požrtvovanjem**
-- **praznovanje** (potvrđen genitiv: *praznovanja*) — Svečano obeležavanje praznika.
-  - I jd = **praznovanjem**
-- **prebiranje** (potvrđen genitiv: *prebiranja*) — Pažljivo biranje; prebiranje po žicama.
-  - D/L jd = **prebiranju**
-- **prebrojavanje** (potvrđen genitiv: *prebrojavanja*) — Ponovno brojanje radi provere.
-  - D/L jd = **prebrojavanju**
-- **predlaganje** (potvrđen genitiv: *predlaganja*) — Iznošenje predloga.
-  - I jd = **predlaganjem**
-- **predloženje** (potvrđen genitiv: *predloženja*) — Iznošenje predloga; ponuda.
-  - I jd = **predloženjem**
-- **predomišljanje** (potvrđen genitiv: *predomišljanja*) — Menjanje odluke, ponovno razmišljanje.
-  - D/L jd = **predomišljanju**, I jd = **predomišljanjem**
-- **predosećanje** (potvrđen genitiv: *predosećanja*) — Slutnja onoga što će biti; predosećaj.
-  - D/L jd = **predosećanju**
-- **predskazanje** (potvrđen genitiv: *predskazanja*) — Unapred kazivanje budućnosti; proricanje.
-  - I jd = **predskazanjem**
-- **predubeđenje** (potvrđen genitiv: *predubeđenja*) — Unapred stvoreno mišljenje; predrasuda.
-  - D/L jd = **predubeđenju**, I jd = **predubeđenjem**
-- **predviđanje** (potvrđen genitiv: *predviđanja*) — Unapred sagledavanje onoga što će biti.
-  - I jd = **predviđanjem**
-- **predviđenje** (potvrđen genitiv: *predviđenja*) — Predviđanje i pretkazivanje budućeg toka; unapred sagledan ishod.
-  - D/L jd = **predviđenju**, I jd = **predviđenjem**
-- **preganjanje** (potvrđen genitiv: *preganjanja*) — Stalno nadmudrivanje i sporenje.
-  - D/L jd = **preganjanju**
-- **pregledanje** (potvrđen genitiv: *pregledanja*) — Pažljivo razgledanje i provera.
-  - I jd = **pregledanjem**
-- **pregledavanje** (potvrđen genitiv: *pregledavanja*) — Oblik reči pregledavanje (pregled, kontrola).
-  - D/L jd = **pregledavanju**, I jd = **pregledavanjem**
-- **pregrešenje** (potvrđen genitiv: *pregrešenja*) — Lakši prestup i greh.
-  - D/L jd = **pregrešenju**, I jd = **pregrešenjem**
-- **preispitivanje** (potvrđen genitiv: *preispitivanja*) — Ponovno ispitivanje; preispitivanje odluke.
-  - D/L jd = **preispitivanju**
-- **preklapanje** (potvrđen genitiv: *preklapanja*) — Savijanje jednog dela preko drugog.
-  - I jd = **preklapanjem**
-- **preklinjanje** (potvrđen genitiv: *preklinjanja*) — Usrdno i ponizno moljenje.
-  - D/L jd = **preklinjanju**, I jd = **preklinjanjem**
-- **prekoračenje** (potvrđen genitiv: *prekoračenja*) — Prelaženje dozvoljene granice.
-  - D/L jd = **prekoračenju**, I jd = **prekoračenjem**
-- **prekrajanje** (potvrđen genitiv: *prekrajanja*) — Ponovno sečenje i preoblikovanje.
-  - I jd = **prekrajanjem**
-- **prekraćenje** (potvrđen genitiv: *prekraćenja*) — Skraćivanje i smanjivanje dužine.
-  - D/L jd = **prekraćenju**, I jd = **prekraćenjem**
-- **prelamanje** (potvrđen genitiv: *prelamanja*) — Skretanje svetlosti pri prelasku u drugu sredinu.
-  - I jd = **prelamanjem**
-- **preletanje** (potvrđen genitiv: *preletanja*) — Letenje preko nečega.
-  - I jd = **preletanjem**
-- **premetanje** (potvrđen genitiv: *premetanja*) — Pretraživanje i prevrtanje stvari.
-  - D/L jd = **premetanju**, I jd = **premetanjem**
-- **premiranje** (potvrđen genitiv: *premiranja*) — Oblik reči premiranje (zamiranje, gubljenje svesti).
-  - I jd = **premiranjem**
-- **premlaćivanje** (potvrđen genitiv: *premlaćivanja*) — Surovo i ponovljeno udaranje.
-  - D/L jd = **premlaćivanju**, I jd = **premlaćivanjem**
-- **premotavanje** (potvrđen genitiv: *premotavanja*) — Vraćanje trake ili konca unazad ili napred.
-  - D/L jd = **premotavanju**, I jd = **premotavanjem**
-- **prenemaganje** (potvrđen genitiv: *prenemaganja*) — Izveštačeno pretvaranje i ponašanje.
-  - I jd = **prenemaganjem**
-- **preoblikovanje** (potvrđen genitiv: *preoblikovanja*) — Davanje novog oblika.
-  - D/L jd = **preoblikovanju**
-- **preobraćanje** (potvrđen genitiv: *preobraćanja*) — Prevođenje u drugu veru ili stav.
-  - D/L jd = **preobraćanju**, I jd = **preobraćanjem**
-- **preobraćenje** (potvrđen genitiv: *preobraćenja*) — Prelazak u drugu veru.
-  - D/L jd = **preobraćenju**, I jd = **preobraćenjem**
-- **preobraženje** (potvrđen genitiv: *preobraženja*) — Potpuna promena izgleda ili suštine.
-  - I jd = **preobraženjem**
-- **preokretanje** (potvrđen genitiv: *preokretanja*) — Naglo menjanje toka ili pravca.
-  - D/L jd = **preokretanju**, I jd = **preokretanjem**
-- **preopterećenje** (potvrđen genitiv: *preopterećenja*) — Prekomerno opterećenje preko granice.
-  - D/L jd = **preopterećenju**, I jd = **preopterećenjem**
-- **preoravanje** (potvrđen genitiv: *preoravanja*) — Ponovno oranje zemlje.
-  - D/L jd = **preoravanju**, I jd = **preoravanjem**
-- **preotimanje** (potvrđen genitiv: *preotimanja*) — Otimanje nečega od drugog.
-  - I jd = **preotimanjem**
-- **prepadanje** (potvrđen genitiv: *prepadanja*) — Iznenadno napadanje; zastrašivanje.
-  - D/L jd = **prepadanju**, I jd = **prepadanjem**
-- **prepisivanje** (potvrđen genitiv: *prepisivanja*) — Ponovno pisanje teksta; nedozvoljeno gledanje tuđeg rada.
-  - I jd = **prepisivanjem**
-- **prepucavanje** (potvrđen genitiv: *prepucavanja*) — Uzajamno dobacivanje oštrih reči; čarkanje rečima.
-  - D/L jd = **prepucavanju**, I jd = **prepucavanjem**
-- **prepuštanje** (potvrđen genitiv: *prepuštanja*) — Predavanje nečega drugome.
-  - I jd = **prepuštanjem**
-- **prerastanje** (potvrđen genitiv: *prerastanja*) — Premašivanje rastom; prelaženje u drugo stanje.
-  - I jd = **prerastanjem**
-- **prerušavanje** (potvrđen genitiv: *prerušavanja*) — Menjanje izgleda radi prikrivanja.
-  - I jd = **prerušavanjem**
-- **presađivanje** (potvrđen genitiv: *presađivanja*) — Premeštanje biljke ili organa na drugo mesto.
-  - D/L jd = **presađivanju**
-- **presecanje** (potvrđen genitiv: *presecanja*) — Sečenje popreko; razdvajanje.
-  - I jd = **presecanjem**
-- **presedanje** (potvrđen genitiv: *presedanja*) — Prelazak iz jednog prevoza u drugi.
-  - D/L jd = **presedanju**
-- **preslikavanje** (potvrđen genitiv: *preslikavanja*) — Verno prenošenje slike ili oblika.
-  - I jd = **preslikavanjem**
-- **preslovljavanje** (potvrđen genitiv: *preslovljavanja*) — Prenošenje teksta iz jednog pisma u drugo.
-  - D/L jd = **preslovljavanju**, I jd = **preslovljavanjem**
-- **preslušanje** (potvrđen genitiv: *preslušanja*) — Saslušanje; ponovno preslušavanje snimka.
-  - D/L jd = **preslušanju**, I jd = **preslušanjem**
-- **presovanje** (potvrđen genitiv: *presovanja*) — Sabijanje pod pritiskom prese.
-  - D/L jd = **presovanju**
-- **presretanje** (potvrđen genitiv: *presretanja*) — Zaustavljanje nekoga na putu.
-  - I jd = **presretanjem**
-- **prestizanje** (potvrđen genitiv: *prestizanja*) — Prolaženje ispred sporijeg.
-  - D/L jd = **prestizanju**, I jd = **prestizanjem**
-- **prestupanje** (potvrđen genitiv: *prestupanja*) — Kršenje pravila ili zakona.
-  - I jd = **prestupanjem**
-- **presvlačenje** (potvrđen genitiv: *presvlačenja*) — Promena odeće.
-  - D/L jd = **presvlačenju**
-- **pretakanje** (potvrđen genitiv: *pretakanja*) — Presipanje tečnosti iz suda u sud.
-  - D/L jd = **pretakanju**
-- **preticanje** (potvrđen genitiv: *preticanja*) — Prolaženje pored sporijeg vozila.
-  - D/L jd = **preticanju**, I jd = **preticanjem**
-- **pretresanje** (potvrđen genitiv: *pretresanja*) — Temeljno pregledanje; razmatranje.
-  - I jd = **pretresanjem**
-- **preturanje** (potvrđen genitiv: *preturanja*) — Premetanje i prevrtanje stvari.
-  - D/L jd = **preturanju**, I jd = **preturanjem**
-- **preuređenje** (potvrđen genitiv: *preuređenja*) — Ponovno uređivanje i preraspoređivanje.
-  - I jd = **preuređenjem**
-- **preuveličavanje** (potvrđen genitiv: *preuveličavanja*) — Prikazivanje većim nego što jeste.
-  - D/L jd = **preuveličavanju**
-- **previjanje** (potvrđen genitiv: *previjanja*) — Stavljanje zavoja na ranu.
-  - I jd = **previjanjem**
-- **previranje** (potvrđen genitiv: *previranja*) — Vrenje; unutrašnji nemir i kretanje.
-  - I jd = **previranjem**
-- **prevlačenje** (potvrđen genitiv: *prevlačenja*) — Vučenje preko nečega; prevlaka slojem.
-  - I jd = **prevlačenjem**
-- **prežderavanje** (potvrđen genitiv: *prežderavanja*) — Preterano i halapljivo jedenje.
-  - D/L jd = **prežderavanju**, I jd = **prežderavanjem**
-- **prianjanje** (potvrđen genitiv: *prianjanja*) — Čvrsto pripijanje uz površinu.
-  - D/L jd = **prianjanju**, I jd = **prianjanjem**
-- **približenje** (potvrđen genitiv: *približenja*) — Dolaženje bliže; zbližavanje.
-  - I jd = **približenjem**
-- **pridavanje** (potvrđen genitiv: *pridavanja*) — Pripisivanje značaja; dodavanje.
-  - I jd = **pridavanjem**
-- **pridruživanje** (potvrđen genitiv: *pridruživanja*) — Priključivanje grupi ili pokretu.
-  - I jd = **pridruživanjem**
-- **prigovaranje** (potvrđen genitiv: *prigovaranja*) — Iznošenje prigovora i zamerki.
-  - I jd = **prigovaranjem**
-- **prijavljivanje** (potvrđen genitiv: *prijavljivanja*) — Podnošenje prijave; javljanje vlasti.
-  - I jd = **prijavljivanjem**
-- **prikazanje** (potvrđen genitiv: *prikazanja*) — Pojava utvare; prikazivanje na sceni.
-  - D/L jd = **prikazanju**, I jd = **prikazanjem**
-- **priklanjanje** (potvrđen genitiv: *priklanjanja*) — Naginjanje na nečiju stranu.
-  - D/L jd = **priklanjanju**, I jd = **priklanjanjem**
-- **priključenje** (potvrđen genitiv: *priključenja*) — Spajanje i povezivanje na nešto.
-  - I jd = **priključenjem**
-- **prikradanje** (potvrđen genitiv: *prikradanja*) — Tiho i neopaženo približavanje.
-  - D/L jd = **prikradanju**
-- **prilagođenje** (potvrđen genitiv: *prilagođenja*) — Usklađivanje sa novim uslovima.
-  - D/L jd = **prilagođenju**, I jd = **prilagođenjem**
-- **prilaženje** (potvrđen genitiv: *prilaženja*) — Oblik reči prilaženje (približavanje).
-  - I jd = **prilaženjem**
-- **primirenje** (potvrđen genitiv: *primirenja*) — Privremeni prekid neprijateljstava.
-  - I jd = **primirenjem**
-- **priopštenje** (potvrđen genitiv: *priopštenja*) — Priopštenje — saopštenje, obaveštenje (varijanta).
-  - I jd = **priopštenjem**
-- **pripitomljavanje** (potvrđen genitiv: *pripitomljavanja*) — Postepeno navikavanje divlje životinje na čoveka, kroćenje; pripitomlj
-  - D/L jd = **pripitomljavanju**, I jd = **pripitomljavanjem**
-- **pripojenje** (potvrđen genitiv: *pripojenja*) — Spajanje i sjedinjavanje s nečim.
-  - D/L jd = **pripojenju**, I jd = **pripojenjem**
-- **prirođenje** (potvrđen genitiv: *prirođenja*) — Srastanje, prianjanje uz nešto; prirođenje.
-  - D/L jd = **prirođenju**
-- **prisiljavanje** (potvrđen genitiv: *prisiljavanja*) — Primoravanje protiv volje.
-  - D/L jd = **prisiljavanju**, I jd = **prisiljavanjem**
-- **pristajanje** (potvrđen genitiv: *pristajanja*) — Privezivanje broda uz obalu.
-  - I jd = **pristajanjem**
-- **pristizanje** (potvrđen genitiv: *pristizanja*) — Dolaženje i dospevanje.
-  - I jd = **pristizanjem**
-- **pristupanje** (potvrđen genitiv: *pristupanja*) — Stupanje u članstvo; pristup nečemu.
-  - I jd = **pristupanjem**
-- **prisustvovanje** (potvrđen genitiv: *prisustvovanja*) — Lično biti prisutan na nečemu.
-  - D/L jd = **prisustvovanju**, I jd = **prisustvovanjem**
-- **pritvaranje** (potvrđen genitiv: *pritvaranja*) — Lišavanje slobode u pritvoru; odškrinjavanje.
-  - D/L jd = **pritvaranju**, I jd = **pritvaranjem**
-- **privoljenje** (potvrđen genitiv: *privoljenja*) — Nagovaranje i pridobijanje za nešto.
-  - D/L jd = **privoljenju**, I jd = **privoljenjem**
-- **prizemljenje** (potvrđen genitiv: *prizemljenja*) — Spuštanje na zemlju; sletanje.
-  - I jd = **prizemljenjem**
-- **pričešćivanje** (potvrđen genitiv: *pričešćivanja*) — Primanje pričesti u crkvi.
-  - D/L jd = **pričešćivanju**, I jd = **pričešćivanjem**
-- **prkošenje** (potvrđen genitiv: *prkošenja*) — Inaćenje i suprotstavljanje iz prkosa.
-  - D/L jd = **prkošenju**, I jd = **prkošenjem**
-- **prljanje** (potvrđen genitiv: *prljanja*) — Zaprljavanje i uprljavanje.
-  - I jd = **prljanjem**
-- **probadanje** (potvrđen genitiv: *probadanja*) — Oštar bol kao od uboda.
-  - D/L jd = **probadanju**
-- **probanje** (potvrđen genitiv: *probanja*) — Oblik reči probanje (isprobavanje, proba).
-  - D/L jd = **probanju**, I jd = **probanjem**
-- **probuđenje** (potvrđen genitiv: *probuđenja*) — Buđenje iz sna; oživljavanje.
-  - D/L jd = **probuđenju**, I jd = **probuđenjem**
-- **produbljivanje** (potvrđen genitiv: *produbljivanja*) — Pravljenje dubljim; jačanje nečega.
-  - D/L jd = **produbljivanju**, I jd = **produbljivanjem**
-- **profilisanje** (potvrđen genitiv: *profilisanja*) — Oblikovanje prepoznatljivog profila.
-  - D/L jd = **profilisanju**, I jd = **profilisanjem**
-- **proklinjanje** (potvrđen genitiv: *proklinjanja*) — Oblik reči proklinjanje (bacanje kletvi).
-  - D/L jd = **proklinjanju**, I jd = **proklinjanjem**
-- **proklizavanje** (potvrđen genitiv: *proklizavanja*) — Klizanje bez prijanjanja; proklizavanje točka.
-  - D/L jd = **proklizavanju**
-- **prolaženje** (potvrđen genitiv: *prolaženja*) — Kretanje pored ili kroz nešto.
-  - I jd = **prolaženjem**
-- **prolijevanje** (potvrđen genitiv: *prolijevanja*) — Oblik reči prolijevanje (prolivanje — ijekavski).
-  - D/L jd = **prolijevanju**, I jd = **prolijevanjem**
-- **prolivanje** (potvrđen genitiv: *prolivanja*) — Prosipanje tečnosti; prolivanje krvi.
-  - D/L jd = **prolivanju**
-- **promicanje** (potvrđen genitiv: *promicanja*) — Brzo prolaženje mimo nečega (glagolska imenica).
-  - D/L jd = **promicanju**, I jd = **promicanjem**
-- **promišljanje** (potvrđen genitiv: *promišljanja*) — Pažljivo razmišljanje pre odluke.
-  - I jd = **promišljanjem**
-- **propovedanje** (potvrđen genitiv: *propovedanja*) — Iznošenje verskih pouka; držanje propovedi.
-  - D/L jd = **propovedanju**, I jd = **propovedanjem**
-- **propuštanje** (potvrđen genitiv: *propuštanja*) — Dopuštanje prolaza; izostavljanje prilike.
-  - D/L jd = **propuštanju**, I jd = **propuštanjem**
-- **prosecanje** (potvrđen genitiv: *prosecanja*) — Sečenje radi otvaranja prolaza.
-  - I jd = **prosecanjem**
-- **prosipanje** (potvrđen genitiv: *prosipanja*) — Izlivanje ili rasipanje (tečnosti, zrna).
-  - D/L jd = **prosipanju**, I jd = **prosipanjem**
-- **prosjačenje** (potvrđen genitiv: *prosjačenja*) — Prošnja milostinje.
-  - D/L jd = **prosjačenju**, I jd = **prosjačenjem**
-- **prostiranje** (potvrđen genitiv: *prostiranja*) — Razastiranje (veša, stolnjaka); pružanje u prostoru.
-  - I jd = **prostiranjem**
-- **prosuđivanje** (potvrđen genitiv: *prosuđivanja*) — Rasuđivanje i donošenje suda.
-  - I jd = **prosuđivanjem**
-- **proterivanje** (potvrđen genitiv: *proterivanja*) — Isterivanje i progon iz zemlje.
-  - I jd = **proterivanjem**
-- **protezanje** (potvrđen genitiv: *protezanja*) — Istezanje tela i udova, npr. posle buđenja.
-  - I jd = **protezanjem**
-- **protivljenje** (potvrđen genitiv: *protivljenja*) — Suprotstavljanje; opiranje.
-  - I jd = **protivljenjem**
-- **provaljivanje** (potvrđen genitiv: *provaljivanja*) — Nasilno upadanje; naglo izbijanje.
-  - I jd = **provaljivanjem**
-- **proveravanje** (potvrđen genitiv: *proveravanja*) — Utvrđivanje tačnosti; provera.
-  - I jd = **proveravanjem**
-- **provlačenje** (potvrđen genitiv: *provlačenja*) — Provođenje kroz uzan prolaz (glagolska imenica).
-  - I jd = **provlačenjem**
-- **proziranje** (potvrđen genitiv: *proziranja*) — Oblik reči proziranje (providanje, gledanje kroz).
-  - D/L jd = **proziranju**, I jd = **proziranjem**
-- **prozivanje** (potvrđen genitiv: *prozivanja*) — Pozivanje po imenu; prigovaranje.
-  - D/L jd = **prozivanju**
-- **pročišćavanje** (potvrđen genitiv: *pročišćavanja*) — Uklanjanje nečistoća; čišćenje.
-  - D/L jd = **pročišćavanju**, I jd = **pročišćavanjem**
-- **pročišćenje** (potvrđen genitiv: *pročišćenja*) — Čišćenje od nečistoća; duhovno očišćenje.
-  - I jd = **pročišćenjem**
-- **prošenje** (potvrđen genitiv: *prošenja*) — Traženje milostinje ili devojke za udaju.
-  - D/L jd = **prošenju**
-- **proširivanje** (potvrđen genitiv: *proširivanja*) — Činjenje širim i obuhvatnijim.
-  - I jd = **proširivanjem**
-- **proštenje** (potvrđen genitiv: *proštenja*) — Oprost, oproštaj; crkveni vašar i sabor kod hrama; proštenje.
-  - D/L jd = **proštenju**, I jd = **proštenjem**
-- **psovanje** (potvrđen genitiv: *psovanja*) — Izgovaranje psovki, ružnih reči.
-  - D/L jd = **psovanju**
-- **puckaranje** (potvrđen genitiv: *puckaranja*) — Oblik reči puckaranje (povremeno pucanje).
-  - D/L jd = **puckaranju**, I jd = **puckaranjem**
-- **pulsiranje** (potvrđen genitiv: *pulsiranja*) — Ritmično kucanje, kao bilo; damaranje.
-  - D/L jd = **pulsiranju**, I jd = **pulsiranjem**
-- **pumpanje** (potvrđen genitiv: *pumpanja*) — Ubacivanje vazduha ili tečnosti pumpom.
-  - D/L jd = **pumpanju**
-- **puzanje** (potvrđen genitiv: *puzanja*) — Kretanje vukući telo po podlozi.
-  - I jd = **puzanjem**
-- **puškaranje** (potvrđen genitiv: *puškaranja*) — Sitno puškaranje i razmena vatre.
-  - I jd = **puškaranjem**
-- **radovanje** (potvrđen genitiv: *radovanja*) — Osećanje radosti.
-  - D/L jd = **radovanju**, I jd = **radovanjem**
-- **raketiranje** (potvrđen genitiv: *raketiranja*) — Oblik reči raketiranje (gađanje raketama).
-  - I jd = **raketiranjem**
-- **ranjavanje** (potvrđen genitiv: *ranjavanja*) — Nanošenje rana.
-  - I jd = **ranjavanjem**
-- **rasedanje** (potvrđen genitiv: *rasedanja*) — Pomeranje slojeva zemljine kore duž raseda; rasedanje.
-  - I jd = **rasedanjem**
-- **raseljavanje** (potvrđen genitiv: *raseljavanja*) — Premeštanje stanovništva na druga mesta.
-  - I jd = **raseljavanjem**
-- **raspakivanje** (potvrđen genitiv: *raspakivanja*) — Vađenje iz pakovanja; otpakivanje.
-  - D/L jd = **raspakivanju**
-- **raspoređivanje** (potvrđen genitiv: *raspoređivanja*) — Razmeštanje po redu.
-  - I jd = **raspoređivanjem**
-- **raspoznavanje** (potvrđen genitiv: *raspoznavanja*) — Razaznavanje i razlikovanje.
-  - D/L jd = **raspoznavanju**, I jd = **raspoznavanjem**
-- **raspravljanje** (potvrđen genitiv: *raspravljanja*) — Razmena mišljenja; rasprava.
-  - I jd = **raspravljanjem**
-- **rasprskavanje** (potvrđen genitiv: *rasprskavanja*) — Prskanje na sve strane; rasipanje u kapljicama.
-  - D/L jd = **rasprskavanju**, I jd = **rasprskavanjem**
-- **raspuštanje** (potvrđen genitiv: *raspuštanja*) — Puštanje da se raziđe; razvod braka.
-  - I jd = **raspuštanjem**
-- **rastajanje** (potvrđen genitiv: *rastajanja*) — Razilaženje i rastanak.
-  - D/L jd = **rastajanju**, I jd = **rastajanjem**
-- **rastavljanje** (potvrđen genitiv: *rastavljanja*) — Razdvajanje na delove; demontaža.
-  - I jd = **rastavljanjem**
-- **rastezanje** (potvrđen genitiv: *rastezanja*) — Razvlačenje na veću dužinu.
-  - D/L jd = **rastezanju**, I jd = **rastezanjem**
-- **rastvaranje** (potvrđen genitiv: *rastvaranja*) — Razlaganje u tečnosti; otapanje.
-  - D/L jd = **rastvaranju**, I jd = **rastvaranjem**
-- **rasvetljenje** (potvrđen genitiv: *rasvetljenja*) — Razjašnjenje i objašnjenje nečega.
-  - D/L jd = **rasvetljenju**, I jd = **rasvetljenjem**
-- **ravnanje** (potvrđen genitiv: *ravnanja*) — Izravnavanje i poravnavanje.
-  - I jd = **ravnanjem**
-- **razapinjanje** (potvrđen genitiv: *razapinjanja*) — Zatezanje i razvlačenje; raspinjanje.
-  - D/L jd = **razapinjanju**, I jd = **razapinjanjem**
-- **razdiranje** (potvrđen genitiv: *razdiranja*) — Cepanje i kidanje na komade.
-  - I jd = **razdiranjem**
-- **razgledavanje** (potvrđen genitiv: *razgledavanja*) — Obilazak i posmatranje znamenitosti.
-  - I jd = **razgledavanjem**
-- **razgraničenje** (potvrđen genitiv: *razgraničenja*) — Određivanje granica; razdvajanje.
-  - D/L jd = **razgraničenju**, I jd = **razgraničenjem**
-- **razilaženje** (potvrđen genitiv: *razilaženja*) — Rastajanje; nesaglasnost u mišljenju.
-  - I jd = **razilaženjem**
-- **razjašnjenje** (potvrđen genitiv: *razjašnjenja*) — Činjenje nečega jasnim.
-  - I jd = **razjašnjenjem**
-- **razlikovanje** (potvrđen genitiv: *razlikovanja*) — Uočavanje razlika; raspoznavanje.
-  - D/L jd = **razlikovanju**, I jd = **razlikovanjem**
-- **razlivanje** (potvrđen genitiv: *razlivanja*) — Izlivanje tečnosti po površini.
-  - D/L jd = **razlivanju**, I jd = **razlivanjem**
-- **razlučivanje** (potvrđen genitiv: *razlučivanja*) — Razdvajanje i razlikovanje.
-  - D/L jd = **razlučivanju**, I jd = **razlučivanjem**
-- **razmetanje** (potvrđen genitiv: *razmetanja*) — Hvalisavo razbacivanje i pokazivanje.
-  - I jd = **razmetanjem**
-- **razmeštanje** (potvrđen genitiv: *razmeštanja*) — Razmeštanje po mestima.
-  - I jd = **razmeštanjem**
-- **razmimoilaženje** (potvrđen genitiv: *razmimoilaženja*) — Neslaganje i razlika u stavovima.
-  - D/L jd = **razmimoilaženju**, I jd = **razmimoilaženjem**
-- **raznošenje** (potvrđen genitiv: *raznošenja*) — Nošenje na razne strane.
-  - D/L jd = **raznošenju**
-- **razoružanje** (potvrđen genitiv: *razoružanja*) — Oduzimanje ili odlaganje oružja.
-  - I jd = **razoružanjem**
-- **razrastanje** (potvrđen genitiv: *razrastanja*) — Bujno širenje i rast.
-  - I jd = **razrastanjem**
-- **razuđivanje** (potvrđen genitiv: *razuđivanja*) — Razgranavanje i isprekidanost obale ili reljefa.
-  - D/L jd = **razuđivanju**, I jd = **razuđivanjem**
-- **razvezivanje** (potvrđen genitiv: *razvezivanja*) — Odvezivanje čvora.
-  - D/L jd = **razvezivanju**, I jd = **razvezivanjem**
-- **razvlačenje** (potvrđen genitiv: *razvlačenja*) — Rastezanje; odugovlačenje.
-  - I jd = **razvlačenjem**
-- **račvanje** (potvrđen genitiv: *račvanja*) — Razdvajanje na dva kraka; grananje.
-  - D/L jd = **račvanju**, I jd = **račvanjem**
-- **raščišćavanje** (potvrđen genitiv: *raščišćavanja*) — Uklanjanje nereda i prepreka.
-  - D/L jd = **raščišćavanju**, I jd = **raščišćavanjem**
-- **recitovanje** (potvrđen genitiv: *recitovanja*) — Kazivanje pesme napamet.
-  - I jd = **recitovanjem**
-- **redigovanje** (potvrđen genitiv: *redigovanja*) — Uređivanje i doterivanje teksta.
-  - I jd = **redigovanjem**
-- **redukovanje** (potvrđen genitiv: *redukovanja*) — Smanjivanje i svođenje na manju meru.
-  - D/L jd = **redukovanju**, I jd = **redukovanjem**
-- **regrutovanje** (potvrđen genitiv: *regrutovanja*) — Pozivanje i prikupljanje novih ljudi.
-  - I jd = **regrutovanjem**
-- **regulisanje** (potvrđen genitiv: *regulisanja*) — Uređivanje i dovođenje u red.
-  - D/L jd = **regulisanju**, I jd = **regulisanjem**
-- **reketiranje** (potvrđen genitiv: *reketiranja*) — Iznuđivanje novca pretnjom; reket.
-  - I jd = **reketiranjem**
-- **remenje** (potvrđen genitiv: *remenja*) — Kožne trake za vezivanje i prenos (zbirno od remen).
-  - D/L jd = **remenju**, I jd = **remenjem**
-- **reprogramiranje** (potvrđen genitiv: *reprogramiranja*) — Ponovno i drugačije programiranje, izmena unetog programa.
-  - D/L jd = **reprogramiranju**, I jd = **reprogramiranjem**
-- **restaurisanje** (potvrđen genitiv: *restaurisanja*) — Obnavljanje i vraćanje u prvobitno stanje.
-  - D/L jd = **restaurisanju**, I jd = **restaurisanjem**
-- **retuširanje** (potvrđen genitiv: *retuširanja*) — Oblik reči retuširanje (doterivanje i ispravljanje slike).
-  - D/L jd = **retuširanju**, I jd = **retuširanjem**
-- **revidiranje** (potvrđen genitiv: *revidiranja*) — Oblik reči revidiranje (preispitivanje, ponovni pregled).
-  - I jd = **revidiranjem**
-- **revnovanje** (potvrđen genitiv: *revnovanja*) — Oblik reči revnovanje (marljiv trud, predanost).
-  - I jd = **revnovanjem**
-- **rezbarenje** (potvrđen genitiv: *rezbarenja*) — Urezivanje ukrasa u drvo.
-  - D/L jd = **rezbarenju**, I jd = **rezbarenjem**
-- **rezimiranje** (potvrđen genitiv: *rezimiranja*) — Oblik reči rezimiranje (sažimanje, kratko izlaganje).
-  - D/L jd = **rezimiranju**, I jd = **rezimiranjem**
-- **rezonovanje** (potvrđen genitiv: *rezonovanja*) — Razložno rasuđivanje i zaključivanje.
-  - I jd = **rezonovanjem**
-- **rimovanje** (potvrđen genitiv: *rimovanja*) — Slaganje stihova sa rimom.
-  - D/L jd = **rimovanju**, I jd = **rimovanjem**
-- **riskiranje** (potvrđen genitiv: *riskiranja*) — Izlaganje opasnosti zarad dobiti.
-  - D/L jd = **riskiranju**, I jd = **riskiranjem**
-- **rizikovanje** (potvrđen genitiv: *rizikovanja*) — Izlaganje opasnosti i riziku.
-  - D/L jd = **rizikovanju**, I jd = **rizikovanjem**
-- **robijanje** (potvrđen genitiv: *robijanja*) — Izdržavanje zatvorske kazne.
-  - I jd = **robijanjem**
-- **roktanje** (potvrđen genitiv: *roktanja*) — Glasanje svinje.
-  - I jd = **roktanjem**
-- **rotiranje** (potvrđen genitiv: *rotiranja*) — Oblik reči rotiranje (okretanje oko ose; smenjivanje po redu).
-  - I jd = **rotiranjem**
-- **rovarenje** (potvrđen genitiv: *rovarenja*) — Potajno spletkarenje.
-  - D/L jd = **rovarenju**
-- **roštiljanje** (potvrđen genitiv: *roštiljanja*) — Pečenje mesa na roštilju.
-  - I jd = **roštiljanjem**
-- **ruiniranje** (potvrđen genitiv: *ruiniranja*) — Oblik reči ruiniranje (upropašćivanje).
-  - D/L jd = **ruiniranju**, I jd = **ruiniranjem**
-- **rukovođenje** (potvrđen genitiv: *rukovođenja*) — Vođenje posla ili grupe; upravljanje.
-  - I jd = **rukovođenjem**
-- **ruženje** (potvrđen genitiv: *ruženja*) — Grdnja i kuđenje.
-  - D/L jd = **ruženju**
-- **saborovanje** (potvrđen genitiv: *saborovanja*) — Okupljanje na saboru, narodno veselje.
-  - I jd = **saborovanjem**
-- **sabotiranje** (potvrđen genitiv: *sabotiranja*) — Namerno ometanje i kvarenje rada ili poduhvata; sabotiranje.
-  - D/L jd = **sabotiranju**, I jd = **sabotiranjem**
-- **sagibanje** (potvrđen genitiv: *sagibanja*) — Savijanje i naginjanje tela.
-  - D/L jd = **sagibanju**, I jd = **sagibanjem**
-- **saginjanje** (potvrđen genitiv: *saginjanja*) — Spuštanje gornjeg dela tela nadole.
-  - D/L jd = **saginjanju**
-- **sagledanje** (potvrđen genitiv: *sagledanja*) — Oblik imenice „sagledanje“: obuhvatnog uviđanja i razumevanja celine; 
-  - D/L jd = **sagledanju**, I jd = **sagledanjem**
-- **sagledavanje** (potvrđen genitiv: *sagledavanja*) — Celovito uočavanje i razmatranje.
-  - I jd = **sagledavanjem**
-- **sahranjivanje** (potvrđen genitiv: *sahranjivanja*) — Obred polaganja umrlog u grob; pogreb.
-  - D/L jd = **sahranjivanju**, I jd = **sahranjivanjem**
-- **saldiranje** (potvrđen genitiv: *saldiranja*) — Izravnavanje računa; saldiranje.
-  - D/L jd = **saldiranju**, I jd = **saldiranjem**
-- **samoodržanje** (potvrđen genitiv: *samoodržanja*) — Održavanje sopstvenog opstanka.
-  - D/L jd = **samoodržanju**
-- **samoodržavanje** (potvrđen genitiv: *samoodržavanja*) — Održavanje i opstanak sopstvenim sredstvima bez tuđe pomoći; nagon za 
-  - D/L jd = **samoodržavanju**, I jd = **samoodržavanjem**
-- **samoopredeljenje** (potvrđen genitiv: *samoopredeljenja*) — Pravo naroda da sam odlučuje o svom statusu; samoopredeljenje.
-  - D/L jd = **samoopredeljenju**, I jd = **samoopredeljenjem**
-- **samoočuvanje** (potvrđen genitiv: *samoočuvanja*) — Nagon da se sačuva sopstveni život.
-  - I jd = **samoočuvanjem**
-- **samosažaljenje** (potvrđen genitiv: *samosažaljenja*) — Sažaljevanje samog sebe.
-  - I jd = **samosažaljenjem**
-- **samouništenje** (potvrđen genitiv: *samouništenja*) — Uništavanje samog sebe.
-  - I jd = **samouništenjem**
-- **samoupravljanje** (potvrđen genitiv: *samoupravljanja*) — Upravljanje radnika i građana sopstvenim poslovima.
-  - I jd = **samoupravljanjem**
-- **samožaljenje** (potvrđen genitiv: *samožaljenja*) — Sažaljevanje samog sebe.
-  - D/L jd = **samožaljenju**, I jd = **samožaljenjem**
-- **sanjanje** (potvrđen genitiv: *sanjanja*) — Doživljavanje snova; takođe maštanje.
-  - I jd = **sanjanjem**
-- **saobraćanje** (potvrđen genitiv: *saobraćanja*) — Odvijanje saobraćaja; opštenje i razmena.
-  - I jd = **saobraćanjem**
-- **saopštavanje** (potvrđen genitiv: *saopštavanja*) — Prenošenje vesti; obaveštavanje.
-  - D/L jd = **saopštavanju**, I jd = **saopštavanjem**
-- **saplitanje** (potvrđen genitiv: *saplitanja*) — Sapinjanje nogu i posrtanje.
-  - D/L jd = **saplitanju**
-- **sasecanje** (potvrđen genitiv: *sasecanja*) — Sečenje i obaranje udarcima.
-  - D/L jd = **sasecanju**, I jd = **sasecanjem**
-- **sastajanje** (potvrđen genitiv: *sastajanja*) — Skupljanje i susretanje na jednom mestu.
-  - D/L jd = **sastajanju**, I jd = **sastajanjem**
-- **sastavljanje** (potvrđen genitiv: *sastavljanja*) — Spajanje delova u celinu; sklapanje.
-  - I jd = **sastavljanjem**
-- **savladavanje** (potvrđen genitiv: *savladavanja*) — Pobeđivanje prepreka; ovladavanje.
-  - I jd = **savladavanjem**
-- **sačinjavanje** (potvrđen genitiv: *sačinjavanja*) — Sastavljanje i izrada, npr. dokumenta.
-  - I jd = **sačinjavanjem**
-- **sađenje** (potvrđen genitiv: *sađenja*) — Stavljanje biljaka u zemlju da rastu.
-  - I jd = **sađenjem**
-- **seciranje** (potvrđen genitiv: *seciranja*) — Rasecanje tela radi proučavanja; temeljna analiza.
-  - D/L jd = **seciranju**, I jd = **seciranjem**
-- **sedanje** (potvrđen genitiv: *sedanja*) — Spuštanje na sedište; zauzimanje sedećeg položaja.
-  - D/L jd = **sedanju**, I jd = **sedanjem**
-- **sektašenje** (potvrđen genitiv: *sektašenja*) — Zatvaranje u uske grupe i netrpeljivost prema drugima.
-  - D/L jd = **sektašenju**, I jd = **sektašenjem**
-- **seljakanje** (potvrđen genitiv: *seljakanja*) — Učestalo seljenje s mesta na mesto.
-  - I jd = **seljakanjem**
-- **seljenje** (potvrđen genitiv: *seljenja*) — Preseljavanje na drugo mesto.
-  - I jd = **seljenjem**
-- **sevanje** (potvrđen genitiv: *sevanja*) — Bljeskanje munje na nebu.
-  - D/L jd = **sevanju**
-- **shvaćanje** (potvrđen genitiv: *shvaćanja*) — Oblik reči shvaćanje (shvatanje — varijanta).
-  - I jd = **shvaćanjem**
-- **silaženje** (potvrđen genitiv: *silaženja*) — Kretanje nadole, spuštanje.
-  - I jd = **silaženjem**
-- **simuliranje** (potvrđen genitiv: *simuliranja*) — Pretvaranje; oponašanje stvarnih uslova.
-  - I jd = **simuliranjem**
-- **siromašenje** (potvrđen genitiv: *siromašenja*) — Postajanje siromašnim.
-  - D/L jd = **siromašenju**, I jd = **siromašenjem**
-- **sirotovanje** (potvrđen genitiv: *sirotovanja*) — Život u sirotinji i oskudici.
-  - D/L jd = **sirotovanju**, I jd = **sirotovanjem**
-- **sisanje** (potvrđen genitiv: *sisanja*) — Uvlačenje tečnosti ustima.
-  - D/L jd = **sisanju**
-- **sjedinjavanje** (potvrđen genitiv: *sjedinjavanja*) — Spajanje u celinu; ujedinjavanje.
-  - I jd = **sjedinjavanjem**
-- **skandiranje** (potvrđen genitiv: *skandiranja*) — Glasno ritmično ponavljanje u horu.
-  - D/L jd = **skandiranju**, I jd = **skandiranjem**
-- **skitanje** (potvrđen genitiv: *skitanja*) — Lutanje bez cilja; potucanje.
-  - D/L jd = **skitanju**, I jd = **skitanjem**
-- **skladištenje** (potvrđen genitiv: *skladištenja*) — Čuvanje robe u skladištu.
-  - D/L jd = **skladištenju**, I jd = **skladištenjem**
-- **skončanje** (potvrđen genitiv: *skončanja*) — Završetak; smrt.
-  - I jd = **skončanjem**
-- **skrnavljenje** (potvrđen genitiv: *skrnavljenja*) — Oskvrnjivanje svetinje ili groba.
-  - I jd = **skrnavljenjem**
-- **sleganje** (potvrđen genitiv: *sleganja*) — Spuštanje i sabijanje; sleganje tla.
-  - D/L jd = **sleganju**, I jd = **sleganjem**
-- **sleđenje** (potvrđen genitiv: *sleđenja*) — Smrzavanje i pretvaranje u led.
-  - D/L jd = **sleđenju**, I jd = **sleđenjem**
-- **službovanje** (potvrđen genitiv: *službovanja*) — Obavljanje službe.
-  - I jd = **službovanjem**
-- **smaranje** (potvrđen genitiv: *smaranja*) — Dosađivanje, gnjavaža (žargonski).
-  - D/L jd = **smaranju**, I jd = **smaranjem**
-- **smetanje** (potvrđen genitiv: *smetanja*) — Ometanje i pravljenje smetnji.
-  - D/L jd = **smetanju**, I jd = **smetanjem**
-- **smicanje** (potvrđen genitiv: *smicanja*) — Pomeranje u stranu; uklanjanje.
-  - D/L jd = **smicanju**, I jd = **smicanjem**
-- **smućivanje** (potvrđen genitiv: *smućivanja*) — Mešanje koje zamućuje; izazivanje smutnje.
-  - D/L jd = **smućivanju**, I jd = **smućivanjem**
-- **snalaženje** (potvrđen genitiv: *snalaženja*) — Sposobnost da se snađe u prilikama.
-  - I jd = **snalaženjem**
-- **snebivanje** (potvrđen genitiv: *snebivanja*) — Stidljivo ustručavanje; libljenje.
-  - D/L jd = **snebivanju**
-- **snevanje** (potvrđen genitiv: *snevanja*) — Doživljavanje snova; sanjanje.
-  - I jd = **snevanjem**
-- **snovanje** (potvrđen genitiv: *snovanja*) — Smišljanje planova; postavljanje osnove tkanja.
-  - I jd = **snovanjem**
-- **sobranje** (potvrđen genitiv: *sobranja*) — Narodna skupština; sobranje.
-  - I jd = **sobranjem**
-- **soliranje** (potvrđen genitiv: *soliranja*) — Samostalan nastup; sviranje sola.
-  - D/L jd = **soliranju**
-- **soljenje** (potvrđen genitiv: *soljenja*) — Dodavanje soli ili konzervisanje solju (glagolska imenica).
-  - D/L jd = **soljenju**
-- **sondiranje** (potvrđen genitiv: *sondiranja*) — Ispitivanje dubine ili javnog mnjenja.
-  - D/L jd = **sondiranju**
-- **sortiranje** (potvrđen genitiv: *sortiranja*) — Razvrstavanje po redu ili vrsti.
-  - I jd = **sortiranjem**
-- **spelovanje** (potvrđen genitiv: *spelovanja*) — Izgovaranje reči slovo po slovo.
-  - I jd = **spelovanjem**
-- **spiranje** (potvrđen genitiv: *spiranja*) — Uklanjanje vodom; ispiranje.
-  - I jd = **spiranjem**
-- **spletkarenje** (potvrđen genitiv: *spletkarenja*) — Pletenje spletki i intriga.
-  - D/L jd = **spletkarenju**, I jd = **spletkarenjem**
-- **sporazumevanje** (potvrđen genitiv: *sporazumevanja*) — Međusobno razumevanje i dogovaranje.
-  - D/L jd = **sporazumevanju**, I jd = **sporazumevanjem**
-- **sporenje** (potvrđen genitiv: *sporenja*) — Vođenje spora; prepiranje.
-  - I jd = **sporenjem**
-- **sprezanje** (potvrđen genitiv: *sprezanja*) — Spajanje glagola po licima; povezivanje.
-  - D/L jd = **sprezanju**, I jd = **sprezanjem**
-- **sputavanje** (potvrđen genitiv: *sputavanja*) — Vezivanje radi ograničavanja; sprečavanje.
-  - I jd = **sputavanjem**
-- **sramoćenje** (potvrđen genitiv: *sramoćenja*) — Izlaganje sramoti i ruglu.
-  - I jd = **sramoćenjem**
-- **srastanje** (potvrđen genitiv: *srastanja*) — Spajanje rastom u celinu; zarastanje.
-  - D/L jd = **srastanju**
-- **sravnjivanje** (potvrđen genitiv: *sravnjivanja*) — Poravnavanje sa zemljom; izjednačavanje.
-  - D/L jd = **sravnjivanju**, I jd = **sravnjivanjem**
-- **srbovanje** (potvrđen genitiv: *srbovanja*) — Naglašeno isticanje srpstva.
-  - D/L jd = **srbovanju**, I jd = **srbovanjem**
-- **sretanje** (potvrđen genitiv: *sretanja*) — Susretanje sa nekim.
-  - I jd = **sretanjem**
-- **sretenje** (potvrđen genitiv: *sretenja*) — Susret; pravoslavni praznik susreta.
-  - D/L jd = **sretenju**, I jd = **sretenjem**
-- **srljanje** (potvrđen genitiv: *srljanja*) — Nepromišljeno jurišanje u opasnost.
-  - I jd = **srljanjem**
-- **srozavanje** (potvrđen genitiv: *srozavanja*) — Klizanje nadole; postepeno opadanje i propadanje.
-  - I jd = **srozavanjem**
-- **srubljivanje** (potvrđen genitiv: *srubljivanja*) — Sečenje i odsecanje uz površinu.
-  - D/L jd = **srubljivanju**, I jd = **srubljivanjem**
-- **startovanje** (potvrđen genitiv: *startovanja*) — Pokretanje i polazak.
-  - I jd = **startovanjem**
-- **stepenovanje** (potvrđen genitiv: *stepenovanja*) — Poređenje po stepenima; gradiranje.
-  - D/L jd = **stepenovanju**, I jd = **stepenovanjem**
-- **stepovanje** (potvrđen genitiv: *stepovanja*) — Igra ritmičkog udaranja petama i prstima.
-  - D/L jd = **stepovanju**, I jd = **stepovanjem**
-- **stezanje** (potvrđen genitiv: *stezanja*) — Čvrsto pritiskanje; sužavanje.
-  - I jd = **stezanjem**
-- **stiskanje** (potvrđen genitiv: *stiskanja*) — Čvrsto pritiskanje; stezanje.
-  - D/L jd = **stiskanju**, I jd = **stiskanjem**
-- **stizanje** (potvrđen genitiv: *stizanja*) — Dolaženje na cilj; dospevanje.
-  - I jd = **stizanjem**
-- **stišavanje** (potvrđen genitiv: *stišavanja*) — Smanjivanje jačine; umirivanje.
-  - I jd = **stišavanjem**
-- **stopiranje** (potvrđen genitiv: *stopiranja*) — Oblik reči „stopiranje“; zaustavljanje kola podizanjem ruke radi bespl
-  - I jd = **stopiranjem**
-- **stočarenje** (potvrđen genitiv: *stočarenja*) — Bavljenje gajenjem stoke.
-  - I jd = **stočarenjem**
-- **strahopoštovanje** (potvrđen genitiv: *strahopoštovanja*) — Poštovanje pomešano sa strahom.
-  - D/L jd = **strahopoštovanju**
-- **struganje** (potvrđen genitiv: *struganja*) — Skidanje sloja oštrom ivicom.
-  - I jd = **struganjem**
-- **sudaranje** (potvrđen genitiv: *sudaranja*) — Naletanje jednog tela na drugo.
-  - D/L jd = **sudaranju**
-- **sumiranje** (potvrđen genitiv: *sumiranja*) — Sabiranje i sažeto izlaganje ukupnog.
-  - I jd = **sumiranjem**
-- **sumnjanje** (potvrđen genitiv: *sumnjanja*) — Oblik reči sumnjanje (nepoverenje, nedoumica).
-  - I jd = **sumnjanjem**
-- **suočenje** (potvrđen genitiv: *suočenja*) — Stavljanje licem u lice radi razjašnjenja.
-  - I jd = **suočenjem**
-- **suprotstavljanje** (potvrđen genitiv: *suprotstavljanja*) — Oblik reči „suprotstavljanje“; opiranje, izlaženje nasuprot i pružanje
-  - I jd = **suprotstavljanjem**
-- **surfanje** (potvrđen genitiv: *surfanja*) — Klizanje na dasci po talasima; pregledanje interneta.
-  - I jd = **surfanjem**
-- **surfovanje** (potvrđen genitiv: *surfovanja*) — Jahanje talasa na dasci; pretraživanje interneta.
-  - I jd = **surfovanjem**
-- **survavanje** (potvrđen genitiv: *survavanja*) — Naglo rušenje i obrušavanje nadole.
-  - D/L jd = **survavanju**
-- **susretanje** (potvrđen genitiv: *susretanja*) — Sretanje i nailaženje jednog na drugo.
-  - D/L jd = **susretanju**, I jd = **susretanjem**
-- **sustizanje** (potvrđen genitiv: *sustizanja*) — Dostizanje onoga ko je napred.
-  - I jd = **sustizanjem**
-- **suzdržavanje** (potvrđen genitiv: *suzdržavanja*) — Obuzdavanje sebe; uzdržavanje.
-  - D/L jd = **suzdržavanju**, I jd = **suzdržavanjem**
-- **sučeljavanje** (potvrđen genitiv: *sučeljavanja*) — Oblik reči sučeljavanje (suočavanje, suprotstavljanje).
-  - I jd = **sučeljavanjem**
-- **suženje** (potvrđen genitiv: *suženja*) — Smanjivanje širine.
-  - D/L jd = **suženju**, I jd = **suženjem**
-- **svadbovanje** (potvrđen genitiv: *svadbovanja*) — Slavljenje svadbe.
-  - D/L jd = **svadbovanju**, I jd = **svadbovanjem**
-- **svaljivanje** (potvrđen genitiv: *svaljivanja*) — Prebacivanje tereta ili krivice na drugog.
-  - D/L jd = **svaljivanju**, I jd = **svaljivanjem**
-- **svađanje** (potvrđen genitiv: *svađanja*) — Vođenje svađe i prepiranje.
-  - D/L jd = **svađanju**
-- **svetkovanje** (potvrđen genitiv: *svetkovanja*) — Svečano obeležavanje praznika.
-  - I jd = **svetkovanjem**
-- **svetlucanje** (potvrđen genitiv: *svetlucanja*) — Treperavo, isprekidano svetljenje.
-  - I jd = **svetlucanjem**
-- **svetovanje** (potvrđen genitiv: *svetovanja*) — Davanje saveta; savetovanje.
-  - D/L jd = **svetovanju**, I jd = **svetovanjem**
-- **sviđanje** (potvrđen genitiv: *sviđanja*) — Osećaj dopadanja nečega.
-  - I jd = **sviđanjem**
-- **svlačenje** (potvrđen genitiv: *svlačenja*) — Skidanje odeće.
-  - I jd = **svlačenjem**
-- **svrstavanje** (potvrđen genitiv: *svrstavanja*) — Razvrstavanje i raspoređivanje u redove.
-  - I jd = **svrstavanjem**
-- **svršavanje** (potvrđen genitiv: *svršavanja*) — Privođenje kraju; završavanje.
-  - I jd = **svršavanjem**
-- **tabanje** (potvrđen genitiv: *tabanja*) — Naporno gaženje i pešačenje.
-  - D/L jd = **tabanju**, I jd = **tabanjem**
-- **talasanje** (potvrđen genitiv: *talasanja*) — Kretanje u talasima; ljuljanje površine.
-  - I jd = **talasanjem**
-- **taloženje** (potvrđen genitiv: *taloženja*) — Sleganje taloga na dno.
-  - D/L jd = **taloženju**
-- **tandrkanje** (potvrđen genitiv: *tandrkanja*) — Zveckav zvuk kola po neravnom putu.
-  - D/L jd = **tandrkanju**, I jd = **tandrkanjem**
-- **tapšanje** (potvrđen genitiv: *tapšanja*) — Lako udaranje dlanom u znak pohvale ili tešenja.
-  - D/L jd = **tapšanju**
-- **tavorenje** (potvrđen genitiv: *tavorenja*) — Životarenje u bedi i jednoličnosti.
-  - I jd = **tavorenjem**
-- **tegljenje** (potvrđen genitiv: *tegljenja*) — Vučenje tereta ili vozila.
-  - D/L jd = **tegljenju**, I jd = **tegljenjem**
-- **telefoniranje** (potvrđen genitiv: *telefoniranja*) — Razgovaranje putem telefona.
-  - D/L jd = **telefoniranju**, I jd = **telefoniranjem**
-- **tempiranje** (potvrđen genitiv: *tempiranja*) — Određivanje pravog trenutka i ritma.
-  - D/L jd = **tempiranju**, I jd = **tempiranjem**
-- **tepanje** (potvrđen genitiv: *tepanja*) — Govorenje nežnih, umiljatih reči.
-  - D/L jd = **tepanju**
-- **terorisanje** (potvrđen genitiv: *terorisanja*) — Zastrašivanje i mučenje nasiljem.
-  - I jd = **terorisanjem**
-- **tesanje** (potvrđen genitiv: *tesanja*) — Obrada drveta ili kamena sekirom; deljanje.
-  - I jd = **tesanjem**
-- **tetoviranje** (potvrđen genitiv: *tetoviranja*) — Trajno urezivanje crteža u kožu.
-  - D/L jd = **tetoviranju**, I jd = **tetoviranjem**
-- **teturanje** (potvrđen genitiv: *teturanja*) — Posrtanje u hodu; klaćenje.
-  - D/L jd = **teturanju**, I jd = **teturanjem**
-- **tihovanje** (potvrđen genitiv: *tihovanja*) — Boravak u tišini i ćutanju.
-  - I jd = **tihovanjem**
-- **tipkanje** (potvrđen genitiv: *tipkanja*) — Oblik reči „tipkanje“; kucanje po tipkama tastature ili telefona (čulo
-  - D/L jd = **tipkanju**, I jd = **tipkanjem**
-- **tipovanje** (potvrđen genitiv: *tipovanja*) — Klađenje i nagađanje ishoda.
-  - D/L jd = **tipovanju**, I jd = **tipovanjem**
-- **tiskanje** (potvrđen genitiv: *tiskanja*) — Guranje u gomili, gužvanje.
-  - D/L jd = **tiskanju**, I jd = **tiskanjem**
-- **titlovanje** (potvrđen genitiv: *titlovanja*) — Dodavanje titlova ispod slike.
-  - D/L jd = **titlovanju**, I jd = **titlovanjem**
-- **tištanje** (potvrđen genitiv: *tištanja*) — Pritiskanje i morenje, naročito duše.
-  - D/L jd = **tištanju**, I jd = **tištanjem**
-- **tlačenje** (potvrđen genitiv: *tlačenja*) — Ugnjetavanje i tlačenje slabijih.
-  - I jd = **tlačenjem**
-- **tolerisanje** (potvrđen genitiv: *tolerisanja*) — Trpljenje i podnošenje tuđeg ponašanja.
-  - D/L jd = **tolerisanju**, I jd = **tolerisanjem**
-- **tonjenje** (potvrđen genitiv: *tonjenja*) — Spuštanje na dno; potanjanje.
-  - D/L jd = **tonjenju**
-- **toptanje** (potvrđen genitiv: *toptanja*) — Udaranje nogama o tlo; topot.
-  - D/L jd = **toptanju**, I jd = **toptanjem**
-- **tovljenje** (potvrđen genitiv: *tovljenja*) — Hranjenje životinja radi gojenja.
-  - D/L jd = **tovljenju**, I jd = **tovljenjem**
-- **točenje** (potvrđen genitiv: *točenja*) — Istakanje tečnosti kroz otvor; sipanje pića.
-  - I jd = **točenjem**
-- **trabunjanje** (potvrđen genitiv: *trabunjanja*) — Govorenje koješta i besmislica.
-  - I jd = **trabunjanjem**
-- **trajanje** (potvrđen genitiv: *trajanja*) — Koliko dugo nešto traje.
+- **mleko** *(frek. 8790, gen. mleka)* — Bela tečnost kojom se hrane bebe i mladunci; daju je krave.
+  - D/I/L mn = **mlekima**
+- **trajanje** *(frek. 4717, gen. trajanja)* — Koliko dugo nešto traje.
   - I jd = **trajanjem**
-- **traćenje** (potvrđen genitiv: *traćenja*) — Nepotrebno trošenje; rasipanje.
-  - I jd = **traćenjem**
-- **tračanje** (potvrđen genitiv: *tračanja*) — Pričanje tračeva i ogovaranje.
-  - D/L jd = **tračanju**, I jd = **tračanjem**
-- **tračarenje** (potvrđen genitiv: *tračarenja*) — Širenje tračeva i ogovaranje.
-  - D/L jd = **tračarenju**, I jd = **tračarenjem**
-- **trebovanje** (potvrđen genitiv: *trebovanja*) — Zvanično traženje potrebnog materijala.
-  - I jd = **trebovanjem**
-- **treperenje** (potvrđen genitiv: *treperenja*) — Brzo, nemirno titranje svetlosti ili lišća.
-  - D/L jd = **treperenju**
-- **treptanje** (potvrđen genitiv: *treptanja*) — Brzo otvaranje i zatvaranje očiju; treperenje.
-  - I jd = **treptanjem**
-- **tresenje** (potvrđen genitiv: *tresenja*) — Naglo potresanje i drmanje (glagolska imenica).
-  - D/L jd = **tresenju**
-- **treskanje** (potvrđen genitiv: *treskanja*) — Glasno udaranje i bacanje; lupanje.
-  - D/L jd = **treskanju**, I jd = **treskanjem**
-- **trgovanje** (potvrđen genitiv: *trgovanja*) — Bavljenje kupovinom i prodajom.
-  - I jd = **trgovanjem**
-- **trkanje** (potvrđen genitiv: *trkanja*) — Takmičenje u brzini trčanja.
-  - I jd = **trkanjem**
-- **trljanje** (potvrđen genitiv: *trljanja*) — Trvenje površine rukom ili krpom.
-  - D/L jd = **trljanju**
-- **trpanje** (potvrđen genitiv: *trpanja*) — Nabacivanje i guranje u gomilu.
-  - D/L jd = **trpanju**, I jd = **trpanjem**
-- **trtljanje** (potvrđen genitiv: *trtljanja*) — Brbljanje koještarija.
-  - D/L jd = **trtljanju**, I jd = **trtljanjem**
-- **trubljenje** (potvrđen genitiv: *trubljenja*) — Sviranje na trubi; oglašavanje sirenom.
-  - D/L jd = **trubljenju**
-- **tucanje** (potvrđen genitiv: *tucanja*) — Drobljenje udaranjem u avanu.
-  - D/L jd = **tucanju**, I jd = **tucanjem**
-- **tužakanje** (potvrđen genitiv: *tužakanja*) — Žaljenje i prijavljivanje drugima.
-  - D/L jd = **tužakanju**, I jd = **tužakanjem**
-- **ubadanje** (potvrđen genitiv: *ubadanja*) — Zabadanje šiljkom; ubod.
-  - D/L jd = **ubadanju**
-- **ubiranje** (potvrđen genitiv: *ubiranja*) — Skupljanje plodova ili prihoda.
-  - I jd = **ubiranjem**
-- **ublažavanje** (potvrđen genitiv: *ublažavanja*) — Činjenje blažim; umanjivanje oštrine.
-  - I jd = **ublažavanjem**
-- **ubrizgavanje** (potvrđen genitiv: *ubrizgavanja*) — Unošenje tečnosti pod pritiskom.
-  - D/L jd = **ubrizgavanju**
-- **ucenjivanje** (potvrđen genitiv: *ucenjivanja*) — Iznuđivanje pretnjom otkrivanja.
-  - I jd = **ucenjivanjem**
-- **udisanje** (potvrđen genitiv: *udisanja*) — Uvlačenje vazduha u pluća.
-  - D/L jd = **udisanju**
-- **udivljenje** (potvrđen genitiv: *udivljenja*) — Veliko divljenje; ushićeno poštovanje.
-  - D/L jd = **udivljenju**
-- **udovoljenje** (potvrđen genitiv: *udovoljenja*) — Ispunjenje nečije želje ili zahteva.
-  - D/L jd = **udovoljenju**, I jd = **udovoljenjem**
-- **udubljivanje** (potvrđen genitiv: *udubljivanja*) — Usredsređivanje na nešto.
-  - I jd = **udubljivanjem**
-- **udvostručavanje** (potvrđen genitiv: *udvostručavanja*) — Povećavanje na dvostruku vrednost.
-  - D/L jd = **udvostručavanju**, I jd = **udvostručavanjem**
-- **ugibanje** (potvrđen genitiv: *ugibanja*) — Savijanje i ulegnuće pod teretom.
-  - D/L jd = **ugibanju**, I jd = **ugibanjem**
-- **ugledanje** (potvrđen genitiv: *ugledanja*) — Uzimanje za uzor; ugledanje na primer.
-  - D/L jd = **ugledanju**, I jd = **ugledanjem**
-- **ugnjetavanje** (potvrđen genitiv: *ugnjetavanja*) — Tlačenje i potčinjavanje.
-  - I jd = **ugnjetavanjem**
-- **ugovaranje** (potvrđen genitiv: *ugovaranja*) — Dogovaranje uslova; sklapanje dogovora.
-  - I jd = **ugovaranjem**
-- **ugošćavanje** (potvrđen genitiv: *ugošćavanja*) — Primanje i posluživanje gostiju.
-  - I jd = **ugošćavanjem**
-- **ugrožavanje** (potvrđen genitiv: *ugrožavanja*) — Dovođenje u opasnost.
-  - I jd = **ugrožavanjem**
-- **uhlebljenje** (potvrđen genitiv: *uhlebljenja*) — Obezbeđeno zaposlenje; izvor prihoda.
-  - D/L jd = **uhlebljenju**, I jd = **uhlebljenjem**
-- **uigravanje** (potvrđen genitiv: *uigravanja*) — Uvežbavanje radi sklada u radu; uhodavanje.
-  - I jd = **uigravanjem**
-- **ujedanje** (potvrđen genitiv: *ujedanja*) — Grizanje zubima.
-  - I jd = **ujedanjem**
-- **ujednačavanje** (potvrđen genitiv: *ujednačavanja*) — Dovođenje na isti nivo; izjednačavanje.
-  - D/L jd = **ujednačavanju**, I jd = **ujednačavanjem**
-- **uknjižavanje** (potvrđen genitiv: *uknjižavanja*) — Upisivanje prava u zemljišne knjige.
-  - D/L jd = **uknjižavanju**, I jd = **uknjižavanjem**
-- **ukrašavanje** (potvrđen genitiv: *ukrašavanja*) — Lepšanje dodavanjem ukrasa.
-  - I jd = **ukrašavanjem**
-- **ulagivanje** (potvrđen genitiv: *ulagivanja*) — Dodvoravanje radi koristi.
-  - D/L jd = **ulagivanju**
-- **ulepšavanje** (potvrđen genitiv: *ulepšavanja*) — Činjenje lepšim; doterivanje.
-  - I jd = **ulepšavanjem**
-- **ulivanje** (potvrđen genitiv: *ulivanja*) — Sipanje tečnosti; uticanje reke u more.
-  - D/L jd = **ulivanju**
-- **ulizivanje** (potvrđen genitiv: *ulizivanja*) — Dodvoravanje i laskanje radi koristi.
-  - D/L jd = **ulizivanju**
-- **ulubljenje** (potvrđen genitiv: *ulubljenja*) — Udubljenje nastalo udarcem; deformacija.
-  - D/L jd = **ulubljenju**, I jd = **ulubljenjem**
-- **umaranje** (potvrđen genitiv: *umaranja*) — Postajanje umornim.
-  - I jd = **umaranjem**
-- **umišljanje** (potvrđen genitiv: *umišljanja*) — Pogrešno verovanje u nešto; uobraženost.
-  - D/L jd = **umišljanju**, I jd = **umišljanjem**
-- **umnožavanje** (potvrđen genitiv: *umnožavanja*) — Pravljenje više primeraka; razmnožavanje.
-  - I jd = **umnožavanjem**
-- **umoljavanje** (potvrđen genitiv: *umoljavanja*) — Usrdno moljenje i preklinjanje.
-  - D/L jd = **umoljavanju**, I jd = **umoljavanjem**
-- **umrežavanje** (potvrđen genitiv: *umrežavanja*) — Povezivanje u mrežu.
-  - I jd = **umrežavanjem**
-- **unajmljivanje** (potvrđen genitiv: *unajmljivanja*) — Uzimanje pod zakup ili u službu.
-  - I jd = **unajmljivanjem**
-- **uniženje** (potvrđen genitiv: *uniženja*) — Snižavanje dostojanstva; poniženje.
-  - D/L jd = **uniženju**
-- **uobličenje** (potvrđen genitiv: *uobličenja*) — Davanje oblika i forme.
-  - D/L jd = **uobličenju**, I jd = **uobličenjem**
-- **uokviravanje** (potvrđen genitiv: *uokviravanja*) — Stavljanje u okvir.
-  - D/L jd = **uokviravanju**
-- **uparivanje** (potvrđen genitiv: *uparivanja*) — Spajanje u parove; usklađivanje uređaja.
-  - D/L jd = **uparivanju**, I jd = **uparivanjem**
-- **upijanje** (potvrđen genitiv: *upijanja*) — Usisavanje i primanje tečnosti.
-  - D/L jd = **upijanju**, I jd = **upijanjem**
-- **upinjanje** (potvrđen genitiv: *upinjanja*) — Naprezanje svom snagom da se uspe.
-  - D/L jd = **upinjanju**, I jd = **upinjanjem**
-- **upiranje** (potvrđen genitiv: *upiranja*) — Naprezanje i guranje; usmeravanje pogleda.
-  - D/L jd = **upiranju**, I jd = **upiranjem**
-- **uplaćivanje** (potvrđen genitiv: *uplaćivanja*) — Uplata novca na račun.
-  - D/L jd = **uplaćivanju**, I jd = **uplaćivanjem**
-- **upletanje** (potvrđen genitiv: *upletanja*) — Uplitanje; mešanje u tuđe poslove.
-  - D/L jd = **upletanju**, I jd = **upletanjem**
-- **upoređivanje** (potvrđen genitiv: *upoređivanja*) — Gledanje sličnosti i razlika; poređenje.
-  - D/L jd = **upoređivanju**
-- **uposlenje** (potvrđen genitiv: *uposlenja*) — Stupanje na posao; zaposlenje.
-  - D/L jd = **uposlenju**, I jd = **uposlenjem**
-- **upozoravanje** (potvrđen genitiv: *upozoravanja*) — Skretanje pažnje na opasnost.
-  - D/L jd = **upozoravanju**, I jd = **upozoravanjem**
-- **upošljavanje** (potvrđen genitiv: *upošljavanja*) — Davanje posla i zapošljavanje.
-  - I jd = **upošljavanjem**
-- **uprezanje** (potvrđen genitiv: *uprezanja*) — Vezivanje životinja u zapregu.
-  - I jd = **uprezanjem**
-- **upucavanje** (potvrđen genitiv: *upucavanja*) — Podešavanje nišana; ranjavanje hicem.
-  - D/L jd = **upucavanju**, I jd = **upucavanjem**
-- **upuštanje** (potvrđen genitiv: *upuštanja*) — Ulaženje u nešto; udubljivanje rupe.
-  - D/L jd = **upuštanju**
-- **uravnoteženje** (potvrđen genitiv: *uravnoteženja*) — Dovođenje u ravnotežu.
-  - D/L jd = **uravnoteženju**, I jd = **uravnoteženjem**
-- **uračunavanje** (potvrđen genitiv: *uračunavanja*) — Uključivanje u ukupan zbir.
-  - D/L jd = **uračunavanju**, I jd = **uračunavanjem**
-- **urezivanje** (potvrđen genitiv: *urezivanja*) — Usecanje žleba ili crteža u tvrdu površinu.
-  - D/L jd = **urezivanju**
-- **urlanje** (potvrđen genitiv: *urlanja*) — Snažno i otegnuto zavijanje; vika.
-  - D/L jd = **urlanju**
-- **uručivanje** (potvrđen genitiv: *uručivanja*) — Predavanje nečega u ruke.
-  - I jd = **uručivanjem**
-- **usamljivanje** (potvrđen genitiv: *usamljivanja*) — Povlačenje u samoću.
-  - I jd = **usamljivanjem**
-- **usavršavanje** (potvrđen genitiv: *usavršavanja*) — Postizanje veće veštine; unapređivanje.
+- **pivo** *(frek. 4383, gen. piva)* — Penušavo alkoholno piće od ječmenog slada i hmelja.
+  - D/I/L mn = **pivima**
+- **proleće** *(frek. 4122, gen. proleća)* — Godišnje doba kad priroda procveta.
+  - D/I/L mn = **prolećima**
+- **obrazloženje** *(frek. 3873, gen. obrazloženja)* — Iznošenje razloga; objašnjenje odluke.
+  - D/L jd = **obrazloženju**
+- **petoro** *(frek. 3782, gen. petora)* — Zbirni broj: pet osoba.
+  - D/L jd = **petoru**, I jd = **petorom**
+- **ostvarenje** *(frek. 3496, gen. ostvarenja)* — Pretvaranje zamisli u stvarnost.
+  - I jd = **ostvarenjem**
+- **predsedništvo** *(frek. 3376, gen. predsedništva)* — Oblik reči „predsedništvo“; organ na čelu neke celine; preds
+  - D/L jd = **predsedništvu**, I jd = **predsedništvom**
+- **finansije** *(frek. 3273, gen. finansija)* — Novčana sredstva i poslovi sa novcem.
+  - D/L jd = **finansiju**, I jd = **finansijem**
+- **prijateljstvo** *(frek. 3240, gen. prijateljstva)* — Topao odnos između prijatelja.
+  - D/I/L mn = **prijateljstvima**
+- **slatko** *(frek. 3138, gen. slatka)* — Poslastica od ukuvanog voća u gustom sirupu.
+  - D/I/L mn = **slatkima**
+- **angažovanje** *(frek. 3120, gen. angažovanja)* — Uključivanje u posao ili zadatak.
+  - I jd = **angažovanjem**
+- **opredeljenje** *(frek. 2984, gen. opredeljenja)* — Svesno opredeljivanje i izbor.
+  - I jd = **opredeljenjem**
+- **finale** *(frek. 2671, gen. finala)* — Završni deo takmičenja ili dela; završnica.
+  - I jd = **finalem**, D/I/L mn = **finalima**
+- **poluvreme** *(frek. 2470, gen. poluvremena)* — Polovina utakmice; pauza na sredini.
+  - I jd = **poluvremenom**
+- **siromaštvo** *(frek. 2381, gen. siromaštva)* — Stanje oskudice; nemaština.
+  - D/I/L mn = **siromaštvima**
+- **prijavljivanje** *(frek. 2348, gen. prijavljivanja)* — Podnošenje prijave; javljanje vlasti.
+  - I jd = **prijavljivanjem**
+- **naočare** *(frek. 2331, gen. naočara)* — Stakla u okviru koja pomažu da se bolje vidi.
+  - D/L jd = **naočaru**, I jd = **naočarem**
+- **jaje** *(frek. 2311, gen. jaja)* — Ovalni plod kokoške od kog se izleže pile.
+  - D/L jd = **jaju**
+- **obeležavanje** *(frek. 2309, gen. obeležavanja)* — Stavljanje oznaka; svečano obeležavanje datuma.
+  - D/L jd = **obeležavanju**, I jd = **obeležavanjem**
+- **podsticanje** *(frek. 2212, gen. podsticanja)* — Podstrekivanje i ohrabrivanje na nešto.
+  - I jd = **podsticanjem**
+- **tempo** *(frek. 2201, gen. tempa)* — Brzina kojom nešto teče ili se izvodi.
+  - D/I/L mn = **tempima**
+- **poskupljenje** *(frek. 2193, gen. poskupljenja)* — Povećanje cene.
+  - I jd = **poskupljenjem**
+- **informisanje** *(frek. 2132, gen. informisanja)* — Obaveštavanje i prikupljanje vesti.
+  - D/L jd = **informisanju**
+- **definisanje** *(frek. 2128, gen. definisanja)* — Tačno određivanje značenja ili granica.
+  - I jd = **definisanjem**
+- **pravoslavlje** *(frek. 2084, gen. pravoslavlja)* — Pravoslavna grana hrišćanstva; pravoslavlje.
+  - I jd = **pravoslavljem**
+- **detinjstvo** *(frek. 2055, gen. detinjstva)* — Doba dok smo deca.
+  - D/I/L mn = **detinjstvima**
+- **obezbeđivanje** *(frek. 2047, gen. obezbeđivanja)* — Oblik reči obezbeđivanje (osiguravanje, zaštita).
+  - I jd = **obezbeđivanjem**
+- **usavršavanje** *(frek. 2024, gen. usavršavanja)* — Postizanje veće veštine; unapređivanje.
   - I jd = **usavršavanjem**
-- **usađivanje** (potvrđen genitiv: *usađivanja*) — Sađenje; usađivanje navika i vrednosti.
-  - D/L jd = **usađivanju**, I jd = **usađivanjem**
-- **useljavanje** (potvrđen genitiv: *useljavanja*) — Naseljavanje u novi prostor; doseljavanje.
-  - D/L jd = **useljavanju**
-- **useljenje** (potvrđen genitiv: *useljenja*) — Ulazak u novi stan da se u njemu živi.
-  - I jd = **useljenjem**
-- **usijanje** (potvrđen genitiv: *usijanja*) — Zagrevanje do crvenog sjaja; usijano stanje.
-  - D/L jd = **usijanju**, I jd = **usijanjem**
-- **usisavanje** (potvrđen genitiv: *usisavanja*) — Skupljanje prašine usisivačem.
-  - D/L jd = **usisavanju**
-- **usitnjavanje** (potvrđen genitiv: *usitnjavanja*) — Sečenje ili drobljenje na sitne delove.
-  - I jd = **usitnjavanjem**
-- **uskakanje** (potvrđen genitiv: *uskakanja*) — Naglo uskakanje; priskakanje u pomoć.
-  - D/L jd = **uskakanju**, I jd = **uskakanjem**
-- **usklađivanje** (potvrđen genitiv: *usklađivanja*) — Dovođenje u sklad i ravnotežu.
+- **godište** *(frek. 1920, gen. godišta)* — Godina rođenja; svi rođeni iste godine.
+  - I jd = **godištem**
+- **svedočanstvo** *(frek. 1898, gen. svedočanstva)* — Školska isprava sa ocenama.
+  - D/L jd = **svedočanstvu**, I jd = **svedočanstvom**
+- **grožđe** *(frek. 1884, gen. grožđa)* — Voće u grozdovima od kog se pravi i sok i vino.
+  - D/I/L mn = **grožđima**
+- **usklađivanje** *(frek. 1832, gen. usklađivanja)* — Dovođenje u sklad i ravnotežu.
   - D/L jd = **usklađivanju**, I jd = **usklađivanjem**
-- **uskraćivanje** (potvrđen genitiv: *uskraćivanja*) — Odbijanje da se nešto da ili pruži.
-  - D/L jd = **uskraćivanju**, I jd = **uskraćivanjem**
-- **uslojavanje** (potvrđen genitiv: *uslojavanja*) — Razdvajanje na slojeve.
-  - D/L jd = **uslojavanju**, I jd = **uslojavanjem**
-- **uslovljavanje** (potvrđen genitiv: *uslovljavanja*) — Postavljanje uslova; navikavanje na reakciju.
-  - D/L jd = **uslovljavanju**, I jd = **uslovljavanjem**
-- **usmeravanje** (potvrđen genitiv: *usmeravanja*) — Davanje pravca i upravljanje tokom.
-  - I jd = **usmeravanjem**
-- **usmrćivanje** (potvrđen genitiv: *usmrćivanja*) — Lišavanje života; ubijanje.
-  - D/L jd = **usmrćivanju**, I jd = **usmrćivanjem**
-- **uspavljivanje** (potvrđen genitiv: *uspavljivanja*) — Dovođenje u san; uspavljivanje deteta.
-  - D/L jd = **uspavljivanju**
-- **uspevanje** (potvrđen genitiv: *uspevanja*) — Postizanje uspeha; dobro napredovanje.
-  - D/L jd = **uspevanju**, I jd = **uspevanjem**
-- **usporavanje** (potvrđen genitiv: *usporavanja*) — Smanjivanje brzine; oduzimanje tempa.
-  - I jd = **usporavanjem**
-- **usporenje** (potvrđen genitiv: *usporenja*) — Smanjenje brzine.
-  - D/L jd = **usporenju**, I jd = **usporenjem**
-- **uspravljanje** (potvrđen genitiv: *uspravljanja*) — Dizanje u uspravan položaj.
-  - D/L jd = **uspravljanju**, I jd = **uspravljanjem**
-- **ustanovljenje** (potvrđen genitiv: *ustanovljenja*) — Utvrđivanje i osnivanje.
-  - D/L jd = **ustanovljenju**
-- **ustoličenje** (potvrđen genitiv: *ustoličenja*) — Svečano postavljanje na presto ili položaj.
-  - I jd = **ustoličenjem**
-- **ustručavanje** (potvrđen genitiv: *ustručavanja*) — Ustezanje, snebivanje.
-  - D/L jd = **ustručavanju**
-- **utamničenje** (potvrđen genitiv: *utamničenja*) — Zatvaranje u tamnicu.
-  - D/L jd = **utamničenju**, I jd = **utamničenjem**
-- **utelovljenje** (potvrđen genitiv: *utelovljenja*) — Dobijanje telesnog oblika; oličenje.
-  - D/L jd = **utelovljenju**, I jd = **utelovljenjem**
-- **uterivanje** (potvrđen genitiv: *uterivanja*) — Naplata duga prisilom; gonjenje unutra.
-  - I jd = **uterivanjem**
-- **utiskivanje** (potvrđen genitiv: *utiskivanja*) — Pritiskanje radi ostavljanja traga.
-  - D/L jd = **utiskivanju**, I jd = **utiskivanjem**
-- **utoljavanje** (potvrđen genitiv: *utoljavanja*) — Gašenje žeđi i gladi; smirivanje.
-  - I jd = **utoljavanjem**
-- **utvrđenje** (potvrđen genitiv: *utvrđenja*) — Odbrambeni objekat; tvrđava.
-  - I jd = **utvrđenjem**
-- **uvaženje** (potvrđen genitiv: *uvaženja*) — Poštovanje i uvažavanje.
-  - D/L jd = **uvaženju**
-- **uveličavanje** (potvrđen genitiv: *uveličavanja*) — Prikazivanje većim; preuveličavanje.
-  - D/L jd = **uveličavanju**, I jd = **uveličavanjem**
-- **uvezivanje** (potvrđen genitiv: *uvezivanja*) — Vezivanje i povezivanje u celinu.
-  - D/L jd = **uvezivanju**, I jd = **uvezivanjem**
-- **uvežbavanje** (potvrđen genitiv: *uvežbavanja*) — Vežbanjem usavršavanje; uigravanje.
-  - I jd = **uvežbavanjem**
-- **uvijanje** (potvrđen genitiv: *uvijanja*) — Motanje i obavijanje oko nečega.
-  - I jd = **uvijanjem**
-- **uvrtanje** (potvrđen genitiv: *uvrtanja*) — Zavrtanje na navoj; uvrtanje u glavu.
-  - D/L jd = **uvrtanju**
-- **uvrštavanje** (potvrđen genitiv: *uvrštavanja*) — Stavljanje u red; uvrštenje u spisak.
-  - D/L jd = **uvrštavanju**, I jd = **uvrštavanjem**
-- **uzbunjivanje** (potvrđen genitiv: *uzbunjivanja*) — Izazivanje uzbune i nemira.
-  - D/L jd = **uzbunjivanju**, I jd = **uzbunjivanjem**
-- **uzbuđivanje** (potvrđen genitiv: *uzbuđivanja*) — Izazivanje uzbuđenja i napetosti.
-  - D/L jd = **uzbuđivanju**, I jd = **uzbuđivanjem**
-- **uzdržavanje** (potvrđen genitiv: *uzdržavanja*) — Suzdržavanje; takođe izdržavanje nekoga.
-  - I jd = **uzdržavanjem**
-- **uzemljenje** (potvrđen genitiv: *uzemljenja*) — Povezivanje uređaja sa zemljom radi bezbednosti.
-  - D/L jd = **uzemljenju**
-- **uziđivanje** (potvrđen genitiv: *uziđivanja*) — Ugrađivanje u zid; zaziđivanje.
-  - D/L jd = **uziđivanju**, I jd = **uziđivanjem**
-- **uzlaženje** (potvrđen genitiv: *uzlaženja*) — Penjanje i dizanje uvis.
-  - I jd = **uzlaženjem**
-- **uzletanje** (potvrđen genitiv: *uzletanja*) — Dizanje u let; poletanje.
-  - D/L jd = **uzletanju**
-- **uznemirenje** (potvrđen genitiv: *uznemirenja*) — Stanje nemira i uzbuđenosti.
-  - I jd = **uznemirenjem**
-- **uznesenje** (potvrđen genitiv: *uznesenja*) — Uzdizanje na nebo; verski praznik.
-  - D/L jd = **uznesenju**, I jd = **uznesenjem**
-- **uzrujavanje** (potvrđen genitiv: *uzrujavanja*) — Uznemiravanje i nerviranje.
-  - D/L jd = **uzrujavanju**, I jd = **uzrujavanjem**
-- **uzurpiranje** (potvrđen genitiv: *uzurpiranja*) — Nasilno prisvajanje.
-  - I jd = **uzurpiranjem**
-- **uzvišenje** (potvrđen genitiv: *uzvišenja*) — Uzdignut deo zemljišta; brežuljak.
-  - I jd = **uzvišenjem**
-- **uzvraćanje** (potvrđen genitiv: *uzvraćanja*) — Vraćanje istom merom; odgovaranje.
-  - D/L jd = **uzvraćanju**
-- **ućutkivanje** (potvrđen genitiv: *ućutkivanja*) — Primoravanje na ćutanje.
-  - D/L jd = **ućutkivanju**, I jd = **ućutkivanjem**
-- **učestvovanje** (potvrđen genitiv: *učestvovanja*) — Uzimanje učešća u nečemu.
-  - I jd = **učestvovanjem**
-- **učitavanje** (potvrđen genitiv: *učitavanja*) — Unošenje podataka u uređaj.
-  - D/L jd = **učitavanju**, I jd = **učitavanjem**
-- **učvršćenje** (potvrđen genitiv: *učvršćenja*) — Pojačavanje i utvrđivanje.
-  - I jd = **učvršćenjem**
-- **ušivanje** (potvrđen genitiv: *ušivanja*) — Ugrađivanje šivenjem u odeću.
-  - D/L jd = **ušivanju**, I jd = **ušivanjem**
-- **varakanje** (potvrđen genitiv: *varakanja*) — Obmanjivanje i zavaravanje.
-  - D/L jd = **varakanju**, I jd = **varakanjem**
-- **varničenje** (potvrđen genitiv: *varničenja*) — Sevanje varnica, prskanje iskri.
-  - D/L jd = **varničenju**, I jd = **varničenjem**
-- **vaskresenje** (potvrđen genitiv: *vaskresenja*) — Vraćanje iz mrtvih u život; vaskrs.
-  - I jd = **vaskresenjem**
-- **vavedenje** (potvrđen genitiv: *vavedenja*) — Praznik uvođenja Bogorodice u hram.
-  - I jd = **vavedenjem**
-- **vaznesenje** (potvrđen genitiv: *vaznesenja*) — Uznošenje na nebo; verski praznik.
-  - I jd = **vaznesenjem**
-- **većanje** (potvrđen genitiv: *većanja*) — Razmatranje i savetovanje radi odluke.
-  - I jd = **većanjem**
-- **veštačenje** (potvrđen genitiv: *veštačenja*) — Stručno ispitivanje i mišljenje veštaka.
-  - D/L jd = **veštačenju**
-- **vibriranje** (potvrđen genitiv: *vibriranja*) — Oblik reči „vibriranje“; treperenje i podrhtavanje brzim sitnim pokret
-  - D/L jd = **vibriranju**, I jd = **vibriranjem**
-- **vijuganje** (potvrđen genitiv: *vijuganja*) — Kretanje u krivinama; krivudanje.
-  - D/L jd = **vijuganju**, I jd = **vijuganjem**
-- **viđanje** (potvrđen genitiv: *viđanja*) — Povremeno susretanje i viđenje.
-  - I jd = **viđanjem**
-- **voljenje** (potvrđen genitiv: *voljenja*) — Osećanje ljubavi prema nekome.
-  - D/L jd = **voljenju**, I jd = **voljenjem**
-- **volontiranje** (potvrđen genitiv: *volontiranja*) — Dobrovoljan i neplaćen rad.
-  - I jd = **volontiranjem**
-- **vozikanje** (potvrđen genitiv: *vozikanja*) — Lagana vožnja unaokolo.
-  - D/L jd = **vozikanju**, I jd = **vozikanjem**
-- **vrbovanje** (potvrđen genitiv: *vrbovanja*) — Pridobijanje i nagovaranje za saradnju.
-  - D/L jd = **vrbovanju**, I jd = **vrbovanjem**
-- **vrdanje** (potvrđen genitiv: *vrdanja*) — Izbegavanje i izvrdavanje obaveze.
-  - D/L jd = **vrdanju**, I jd = **vrdanjem**
-- **vrednovanje** (potvrđen genitiv: *vrednovanja*) — Određivanje vrednosti; ocenjivanje.
-  - I jd = **vrednovanjem**
-- **vrenje** (potvrđen genitiv: *vrenja*) — Ključanje; takođe previranje, fermentacija.
-  - I jd = **vrenjem**
-- **vrhnje** (potvrđen genitiv: *vrhnja*) — Masni gornji sloj mleka; pavlaka.
-  - D/L jd = **vrhnju**
-- **vrludanje** (potvrđen genitiv: *vrludanja*) — Kretanje krivudavo, bez prave linije (glagolska imenica).
-  - D/L jd = **vrludanju**, I jd = **vrludanjem**
-- **vrpoljenje** (potvrđen genitiv: *vrpoljenja*) — Nemirno meškoljenje na mestu (glagolska imenica).
-  - D/L jd = **vrpoljenju**
-- **vrtenje** (potvrđen genitiv: *vrtenja*) — Okretanje u krug; obrtanje.
-  - D/L jd = **vrtenju**, I jd = **vrtenjem**
-- **vrćenje** (potvrđen genitiv: *vrćenja*) — Okretanje u krug; obrtanje (glagolska imenica).
-  - D/L jd = **vrćenju**, I jd = **vrćenjem**
-- **vršljanje** (potvrđen genitiv: *vršljanja*) — Preturanje i pravljenje nereda.
-  - I jd = **vršljanjem**
-- **vucaranje** (potvrđen genitiv: *vucaranja*) — Bezglavo vučenje i nošenje tamo-amo.
-  - D/L jd = **vucaranju**, I jd = **vucaranjem**
-- **vučenje** (potvrđen genitiv: *vučenja*) — Povlačenje za sobom (glagolska imenica).
-  - D/L jd = **vučenju**, I jd = **vučenjem**
-- **zabijanje** (potvrđen genitiv: *zabijanja*) — Zarivanje udarcima; postizanje gola.
-  - D/L jd = **zabijanju**, I jd = **zabijanjem**
-- **zabušavanje** (potvrđen genitiv: *zabušavanja*) — Izbegavanje posla i zabušantstvo.
-  - D/L jd = **zabušavanju**, I jd = **zabušavanjem**
-- **zaceljivanje** (potvrđen genitiv: *zaceljivanja*) — Zatvaranje i zarastanje rane.
-  - I jd = **zaceljivanjem**
-- **zadebljanje** (potvrđen genitiv: *zadebljanja*) — Mesto gde je nešto deblje; otok.
-  - D/L jd = **zadebljanju**
-- **zadiranje** (potvrđen genitiv: *zadiranja*) — Ulaženje u suštinu; zalaženje u tuđe.
-  - D/L jd = **zadiranju**, I jd = **zadiranjem**
-- **zadirkivanje** (potvrđen genitiv: *zadirkivanja*) — Šaljivo izazivanje i bockanje.
-  - D/L jd = **zadirkivanju**, I jd = **zadirkivanjem**
-- **zadovoljavanje** (potvrđen genitiv: *zadovoljavanja*) — Ispunjavanje potreba i zahteva.
-  - I jd = **zadovoljavanjem**
-- **zaduživanje** (potvrđen genitiv: *zaduživanja*) — Uzimanje na dug.
+- **konzumiranje** *(frek. 1814, gen. konzumiranja)* — Trošenje i uzimanje, npr. hrane.
+  - I jd = **konzumiranjem**
+- **tuče** *(frek. 1752, gen. tučeta)* — Padavine od ledenih zrna; grad (množina od tuča).
+  - D/L jd = **tučetu**, I jd = **tučetom**
+- **pantalone** *(frek. 1747, gen. pantalona)* — Odevni komad za noge.
+  - D/L jd = **pantalonu**, I jd = **pantalonem**
+- **jevanđelje** *(frek. 1742, gen. jevanđelja)* — Sveta knjiga o Hristovom životu i učenju.
+  - I jd = **jevanđeljem**
+- **zaduživanje** *(frek. 1654, gen. zaduživanja)* — Uzimanje na dug.
   - I jd = **zaduživanjem**
-- **zafrkavanje** (potvrđen genitiv: *zafrkavanja*) — Šaljivo podsmevanje i izazivanje.
-  - D/L jd = **zafrkavanju**, I jd = **zafrkavanjem**
-- **zagađivanje** (potvrđen genitiv: *zagađivanja*) — Prljanje okoline štetnim materijama.
-  - I jd = **zagađivanjem**
-- **zaglupljivanje** (potvrđen genitiv: *zaglupljivanja*) — Otupljivanje pameti i zaglupljivanje.
-  - D/L jd = **zaglupljivanju**, I jd = **zaglupljivanjem**
-- **zagovaranje** (potvrđen genitiv: *zagovaranja*) — Zastupanje i podržavanje ideje.
-  - D/L jd = **zagovaranju**, I jd = **zagovaranjem**
-- **zagušenje** (potvrđen genitiv: *zagušenja*) — Onemogućavanje protoka; gušenje.
-  - D/L jd = **zagušenju**, I jd = **zagušenjem**
-- **zahlađenje** (potvrđen genitiv: *zahlađenja*) — Naglo zahlađenje vremena.
-  - D/L jd = **zahlađenju**
-- **zahvaljivanje** (potvrđen genitiv: *zahvaljivanja*) — Izražavanje zahvalnosti.
-  - D/L jd = **zahvaljivanju**
-- **zahvatanje** (potvrđen genitiv: *zahvatanja*) — Uzimanje šakom ili posudom; obuhvatanje.
-  - D/L jd = **zahvatanju**, I jd = **zahvatanjem**
-- **zajedanje** (potvrđen genitiv: *zajedanja*) — Sitno prepiranje i bockanje rečima.
-  - D/L jd = **zajedanju**, I jd = **zajedanjem**
-- **zakazivanje** (potvrđen genitiv: *zakazivanja*) — Određivanje termina; otkazivanje rada.
-  - I jd = **zakazivanjem**
-- **zaklinjanje** (potvrđen genitiv: *zaklinjanja*) — Davanje zakletvi; preklinjanje.
-  - I jd = **zaklinjanjem**
-- **zaključivanje** (potvrđen genitiv: *zaključivanja*) — Izvođenje zaključka rasuđivanjem.
-  - I jd = **zaključivanjem**
-- **zakopavanje** (potvrđen genitiv: *zakopavanja*) — Sahranjivanje; zatrpavanje u zemlju.
-  - I jd = **zakopavanjem**
-- **zakrivljenje** (potvrđen genitiv: *zakrivljenja*) — Savijanje u krivu liniju.
-  - D/L jd = **zakrivljenju**, I jd = **zakrivljenjem**
-- **zakrčenje** (potvrđen genitiv: *zakrčenja*) — Zatrpavanje i ometanje prolaza.
-  - D/L jd = **zakrčenju**, I jd = **zakrčenjem**
-- **zakucavanje** (potvrđen genitiv: *zakucavanja*) — Pričvršćivanje ekserima.
-  - D/L jd = **zakucavanju**, I jd = **zakucavanjem**
-- **zaletanje** (potvrđen genitiv: *zaletanja*) — Zatrčavanje radi skoka; nalet.
-  - D/L jd = **zaletanju**, I jd = **zaletanjem**
-- **zalečenje** (potvrđen genitiv: *zalečenja*) — Delimično ozdravljenje rane.
-  - D/L jd = **zalečenju**, I jd = **zalečenjem**
-- **zaleđivanje** (potvrđen genitiv: *zaleđivanja*) — Pretvaranje vode u led; smrzavanje.
-  - D/L jd = **zaleđivanju**, I jd = **zaleđivanjem**
-- **zalivanje** (potvrđen genitiv: *zalivanja*) — Polivanje biljaka vodom.
-  - D/L jd = **zalivanju**, I jd = **zalivanjem**
-- **zaljubljivanje** (potvrđen genitiv: *zaljubljivanja*) — Buđenje ljubavnih osećanja.
-  - I jd = **zaljubljivanjem**
-- **zamajavanje** (potvrđen genitiv: *zamajavanja*) — Odvraćanje pažnje praznim poslom.
-  - D/L jd = **zamajavanju**, I jd = **zamajavanjem**
-- **zamaranje** (potvrđen genitiv: *zamaranja*) — Izazivanje umora.
-  - D/L jd = **zamaranju**, I jd = **zamaranjem**
-- **zamenjivanje** (potvrđen genitiv: *zamenjivanja*) — Stavljanje jednog umesto drugog.
-  - I jd = **zamenjivanjem**
-- **zameranje** (potvrđen genitiv: *zameranja*) — Izricanje zamerki.
-  - D/L jd = **zameranju**, I jd = **zameranjem**
-- **zametanje** (potvrđen genitiv: *zametanja*) — Zaturanje; začinjanje, npr. svađe.
-  - D/L jd = **zametanju**, I jd = **zametanjem**
-- **zamiranje** (potvrđen genitiv: *zamiranja*) — Postepeno slabljenje i gašenje.
-  - D/L jd = **zamiranju**, I jd = **zamiranjem**
-- **zamračenje** (potvrđen genitiv: *zamračenja*) — Smanjenje ili gubitak svetlosti.
-  - I jd = **zamračenjem**
-- **zanemarivanje** (potvrđen genitiv: *zanemarivanja*) — Nedovoljno brižan odnos; zapostavljanje.
-  - I jd = **zanemarivanjem**
-- **zanovetanje** (potvrđen genitiv: *zanovetanja*) — Dosadno prigovaranje i gunđanje.
-  - D/L jd = **zanovetanju**, I jd = **zanovetanjem**
-- **zaobilaženje** (potvrđen genitiv: *zaobilaženja*) — Kretanje okolnim putem da se nešto izbegne (glagolska imenica).
-  - D/L jd = **zaobilaženju**
-- **zaostajanje** (potvrđen genitiv: *zaostajanja*) — Ostajanje iza drugih.
-  - I jd = **zaostajanjem**
-- **zapadanje** (potvrđen genitiv: *zapadanja*) — Upadanje u nešto; zalaženje za horizont.
-  - I jd = **zapadanjem**
-- **zapevanje** (potvrđen genitiv: *zapevanja*) — Naglo otpočinjanje pesme.
-  - D/L jd = **zapevanju**, I jd = **zapevanjem**
-- **zapinjanje** (potvrđen genitiv: *zapinjanja*) — Zaglavljivanje i zastajanje.
-  - D/L jd = **zapinjanju**
-- **zapisivanje** (potvrđen genitiv: *zapisivanja*) — Beleženje i pribeležavanje.
-  - I jd = **zapisivanjem**
-- **zapitkivanje** (potvrđen genitiv: *zapitkivanja*) — Uporno postavljanje pitanja.
-  - D/L jd = **zapitkivanju**
-- **zapomaganje** (potvrđen genitiv: *zapomaganja*) — Glasno dozivanje u pomoć.
-  - D/L jd = **zapomaganju**, I jd = **zapomaganjem**
-- **zaposedanje** (potvrđen genitiv: *zaposedanja*) — Zauzimanje i osvajanje položaja.
-  - D/L jd = **zaposedanju**, I jd = **zaposedanjem**
-- **zapovedanje** (potvrđen genitiv: *zapovedanja*) — Izdavanje zapovesti; naređivanje.
-  - I jd = **zapovedanjem**
-- **zaptivanje** (potvrđen genitiv: *zaptivanja*) — Zatvaranje radi sprečavanja propuštanja.
-  - D/L jd = **zaptivanju**, I jd = **zaptivanjem**
-- **zapuštanje** (potvrđen genitiv: *zapuštanja*) — Prepuštanje propadanju; nemarno ostavljanje.
-  - D/L jd = **zapuštanju**, I jd = **zapuštanjem**
-- **zaranjanje** (potvrđen genitiv: *zaranjanja*) — Uranjanje pod vodu; ronjenje.
-  - D/L jd = **zaranjanju**, I jd = **zaranjanjem**
-- **zarastanje** (potvrđen genitiv: *zarastanja*) — Zatvaranje rane; obrastanje korovom.
-  - I jd = **zarastanjem**
-- **zaražavanje** (potvrđen genitiv: *zaražavanja*) — Prenošenje zaraze i inficiranje.
-  - I jd = **zaražavanjem**
-- **zarobljavanje** (potvrđen genitiv: *zarobljavanja*) — Hvatanje i zatvaranje neprijatelja.
-  - I jd = **zarobljavanjem**
-- **zasipanje** (potvrđen genitiv: *zasipanja*) — Zatrpavanje i obasipanje.
-  - D/L jd = **zasipanju**, I jd = **zasipanjem**
-- **zastajanje** (potvrđen genitiv: *zastajanja*) — Zaustavljanje i zadržavanje u hodu.
-  - D/L jd = **zastajanju**, I jd = **zastajanjem**
-- **zastajkivanje** (potvrđen genitiv: *zastajkivanja*) — Često i kratko zastajanje.
-  - D/L jd = **zastajkivanju**, I jd = **zastajkivanjem**
-- **zastarevanje** (potvrđen genitiv: *zastarevanja*) — Postajanje zastarelim i prevaziđenim.
-  - D/L jd = **zastarevanju**, I jd = **zastarevanjem**
-- **zatajenje** (potvrđen genitiv: *zatajenja*) — Prikrivanje; otkazivanje rada organa.
-  - D/L jd = **zatajenju**, I jd = **zatajenjem**
-- **zatajivanje** (potvrđen genitiv: *zatajivanja*) — Prikrivanje; otkazivanje poslušnosti.
-  - D/L jd = **zatajivanju**, I jd = **zatajivanjem**
-- **zatamnjenje** (potvrđen genitiv: *zatamnjenja*) — Postajanje tamnim; smanjenje svetla.
-  - D/L jd = **zatamnjenju**, I jd = **zatamnjenjem**
-- **zataškavanje** (potvrđen genitiv: *zataškavanja*) — Prikrivanje neugodne istine.
-  - I jd = **zataškavanjem**
-- **zatezanje** (potvrđen genitiv: *zatezanja*) — Vučenje da bude zategnuto.
-  - D/L jd = **zatezanju**
-- **zatiranje** (potvrđen genitiv: *zatiranja*) — Uništavanje i iskorenjivanje.
-  - I jd = **zatiranjem**
-- **zatočenje** (potvrđen genitiv: *zatočenja*) — Zatvaranje i lišavanje slobode.
-  - D/L jd = **zatočenju**, I jd = **zatočenjem**
-- **zatrpavanje** (potvrđen genitiv: *zatrpavanja*) — Pokrivanje gomilom; pretrpavanje.
-  - D/L jd = **zatrpavanju**, I jd = **zatrpavanjem**
-- **zavaravanje** (potvrđen genitiv: *zavaravanja*) — Obmanjivanje, dovođenje u zabludu.
-  - I jd = **zavaravanjem**
-- **zavarivanje** (potvrđen genitiv: *zavarivanja*) — Spajanje metala topljenjem; varenje.
-  - D/L jd = **zavarivanju**, I jd = **zavarivanjem**
-- **zavađanje** (potvrđen genitiv: *zavađanja*) — Izazivanje svađe i razdora.
-  - D/L jd = **zavađanju**, I jd = **zavađanjem**
-- **zavijanje** (potvrđen genitiv: *zavijanja*) — Otegnuto glasanje vuka ili psa.
-  - D/L jd = **zavijanju**
-- **zavlačenje** (potvrđen genitiv: *zavlačenja*) — Guranje unutra; odugovlačenje.
-  - D/L jd = **zavlačenju**, I jd = **zavlačenjem**
-- **zavrtanje** (potvrđen genitiv: *zavrtanja*) — Pritezanje navrtanjem u krug (glagolska imenica).
-  - D/L jd = **zavrtanju**, I jd = **zavrtanjem**
-- **završavanje** (potvrđen genitiv: *završavanja*) — Privođenje kraju; dovršavanje.
-  - I jd = **završavanjem**
-- **začepljenje** (potvrđen genitiv: *začepljenja*) — Zatvaranje otvora; zapušenje.
-  - D/L jd = **začepljenju**, I jd = **začepljenjem**
-- **zbiranje** (potvrđen genitiv: *zbiranja*) — Skupljanje i sakupljanje.
-  - D/L jd = **zbiranju**, I jd = **zbiranjem**
-- **zborovanje** (potvrđen genitiv: *zborovanja*) — Održavanje skupa i veća.
-  - D/L jd = **zborovanju**, I jd = **zborovanjem**
-- **zbrajanje** (potvrđen genitiv: *zbrajanja*) — Zbrajanje — sabiranje (ijekavski/hrvatski).
-  - D/L jd = **zbrajanju**
-- **zbrinjavanje** (potvrđen genitiv: *zbrinjavanja*) — Staranje i obezbeđivanje nekome.
-  - I jd = **zbrinjavanjem**
-- **zbunjivanje** (potvrđen genitiv: *zbunjivanja*) — Dovođenje u zabunu i pometnju.
-  - D/L jd = **zbunjivanju**, I jd = **zbunjivanjem**
-- **združivanje** (potvrđen genitiv: *združivanja*) — Udruživanje i povezivanje u celinu.
-  - D/L jd = **združivanju**, I jd = **združivanjem**
-- **zevanje** (potvrđen genitiv: *zevanja*) — Otvaranje usta od pospanosti.
-  - D/L jd = **zevanju**
-- **zgrtanje** (potvrđen genitiv: *zgrtanja*) — Grabljenje i gomilanje, naročito novca.
-  - D/L jd = **zgrtanju**, I jd = **zgrtanjem**
-- **zgrušavanje** (potvrđen genitiv: *zgrušavanja*) — Pretvaranje tečne mase u guste grudve.
-  - I jd = **zgrušavanjem**
-- **zgušnjavanje** (potvrđen genitiv: *zgušnjavanja*) — Postajanje gušćim; sažimanje.
-  - I jd = **zgušnjavanjem**
-- **zimovanje** (potvrđen genitiv: *zimovanja*) — Odmor preko zime, najčešće na planini.
-  - I jd = **zimovanjem**
-- **zlopamćenje** (potvrđen genitiv: *zlopamćenja*) — Sklonost pamćenju i osvećivanju uvreda.
-  - I jd = **zlopamćenjem**
-- **znojenje** (potvrđen genitiv: *znojenja*) — Izlučivanje znoja kroz kožu.
-  - D/L jd = **znojenju**
-- **zorenje** (potvrđen genitiv: *zorenja*) — Sazrevanje; dozrevanje plodova.
-  - D/L jd = **zorenju**, I jd = **zorenjem**
-- **zrenje** (potvrđen genitiv: *zrenja*) — Sazrevanje; postajanje zrelim.
-  - D/L jd = **zrenju**, I jd = **zrenjem**
-- **zurenje** (potvrđen genitiv: *zurenja*) — Uporno, netremice gledanje; buljenje.
-  - I jd = **zurenjem**
-- **zveketanje** (potvrđen genitiv: *zveketanja*) — Oštro zvonko udaranje metala.
-  - D/L jd = **zveketanju**, I jd = **zveketanjem**
-- **zvonjenje** (potvrđen genitiv: *zvonjenja*) — Zvuci zvona koja zvone.
-  - D/L jd = **zvonjenju**
-- **ćarlijanje** (potvrđen genitiv: *ćarlijanja*) — Lagano i prijatno duvanje povetarca.
-  - D/L jd = **ćarlijanju**, I jd = **ćarlijanjem**
-- **čaranje** (potvrđen genitiv: *čaranja*) — Vradžbine, bavljenje magijom; opčinjavanje.
-  - D/L jd = **čaranju**, I jd = **čaranjem**
-- **čarkanje** (potvrđen genitiv: *čarkanja*) — Manji okršaji; zadirkivanje koje vodi sukobu.
-  - D/L jd = **čarkanju**, I jd = **čarkanjem**
-- **čegrtanje** (potvrđen genitiv: *čegrtanja*) — Suvo zveckanje i klepet.
-  - D/L jd = **čegrtanju**, I jd = **čegrtanjem**
-- **čeprkanje** (potvrđen genitiv: *čeprkanja*) — Kopkanje i preturanje po nečemu.
-  - D/L jd = **čeprkanju**, I jd = **čeprkanjem**
-- **čerupanje** (potvrđen genitiv: *čerupanja*) — Skidanje perja; čupanje.
-  - D/L jd = **čerupanju**, I jd = **čerupanjem**
-- **čestitanje** (potvrđen genitiv: *čestitanja*) — Izricanje čestitki povodom radosnog događaja.
-  - I jd = **čestitanjem**
-- **češanje** (potvrđen genitiv: *češanja*) — Grebanje kože radi ublažavanja svraba.
-  - D/L jd = **češanju**, I jd = **češanjem**
-- **češljanje** (potvrđen genitiv: *češljanja*) — Sređivanje kose češljem.
-  - I jd = **češljanjem**
-- **čupanje** (potvrđen genitiv: *čupanja*) — Vučenje da bi se izvuklo iz korena.
-  - D/L jd = **čupanju**, I jd = **čupanjem**
-- **čuvstvovanje** (potvrđen genitiv: *čuvstvovanja*) — Osećanje, doživljavanje.
-  - D/L jd = **čuvstvovanju**
-- **đakovanje** (potvrđen genitiv: *đakovanja*) — Pohađanje škole; đačko doba.
-  - D/L jd = **đakovanju**, I jd = **đakovanjem**
-- **đubrenje** (potvrđen genitiv: *đubrenja*) — Dodavanje hraniva zemlji.
-  - D/L jd = **đubrenju**, I jd = **đubrenjem**
-- **šamaranje** (potvrđen genitiv: *šamaranja*) — Udaranje dlanom po obrazu.
-  - D/L jd = **šamaranju**
-- **šaptanje** (potvrđen genitiv: *šaptanja*) — Tihi govor bez glasa.
-  - D/L jd = **šaptanju**, I jd = **šaptanjem**
-- **šaputanje** (potvrđen genitiv: *šaputanja*) — Govorenje veoma tiho, šapatom.
-  - D/L jd = **šaputanju**
-- **šegrtovanje** (potvrđen genitiv: *šegrtovanja*) — Učenje zanata kod majstora.
-  - D/L jd = **šegrtovanju**, I jd = **šegrtovanjem**
-- **šepurenje** (potvrđen genitiv: *šepurenja*) — Gordo, naduveno hodanje i pokazivanje.
-  - D/L jd = **šepurenju**, I jd = **šepurenjem**
-- **šetanje** (potvrđen genitiv: *šetanja*) — Lagano hodanje radi razonode.
-  - I jd = **šetanjem**
-- **šibanje** (potvrđen genitiv: *šibanja*) — Udaranje šibom ili prutom.
-  - D/L jd = **šibanju**, I jd = **šibanjem**
-- **šikaniranje** (potvrđen genitiv: *šikaniranja*) — Maltretiranje i ponižavanje.
-  - I jd = **šikaniranjem**
-- **šivanje** (potvrđen genitiv: *šivanja*) — Spajanje tkanine koncem.
-  - D/L jd = **šivanju**, I jd = **šivanjem**
-- **šivenje** (potvrđen genitiv: *šivenja*) — Spajanje delova tkanine iglom i koncem.
-  - I jd = **šivenjem**
-- **šišanje** (potvrđen genitiv: *šišanja*) — Skraćivanje kose ili vune makazama.
-  - I jd = **šišanjem**
-- **šištanje** (potvrđen genitiv: *šištanja*) — Oštri zvuk poput sikanja.
-  - D/L jd = **šištanju**
-- **škrgutanje** (potvrđen genitiv: *škrgutanja*) — Trljanje zuba uz oštar zvuk.
-  - D/L jd = **škrgutanju**, I jd = **škrgutanjem**
-- **šrafiranje** (potvrđen genitiv: *šrafiranja*) — Senčenje crtanjem paralelnih linija.
-  - D/L jd = **šrafiranju**, I jd = **šrafiranjem**
-- **štipanje** (potvrđen genitiv: *štipanja*) — Stezanje kože prstima.
-  - D/L jd = **štipanju**
-- **štipkanje** (potvrđen genitiv: *štipkanja*) — Učestalo lagano štipanje.
-  - D/L jd = **štipkanju**, I jd = **štipkanjem**
-- **štovanje** (potvrđen genitiv: *štovanja*) — Štovanje — poštovanje, štovanje (varijanta).
-  - I jd = **štovanjem**
-- **štucanje** (potvrđen genitiv: *štucanja*) — Naglo isprekidano glasanje iz grla, štucavica.
-  - D/L jd = **štucanju**, I jd = **štucanjem**
-- **šuljanje** (potvrđen genitiv: *šuljanja*) — Tiho i prikriveno kretanje.
-  - D/L jd = **šuljanju**, I jd = **šuljanjem**
-- **šunjanje** (potvrđen genitiv: *šunjanja*) — Neprimetno prikradanje.
-  - D/L jd = **šunjanju**, I jd = **šunjanjem**
-- **šurovanje** (potvrđen genitiv: *šurovanja*) — Tajno sadejstvo i ortakluk u nečem nepoštenom.
-  - I jd = **šurovanjem**
-- **šuškanje** (potvrđen genitiv: *šuškanja*) — Tih, mek zvuk trljanja; šuštanje.
-  - I jd = **šuškanjem**
-- **švercovanje** (potvrđen genitiv: *švercovanja*) — Nedozvoljeno prenošenje robe; krijumčarenje.
-  - D/L jd = **švercovanju**, I jd = **švercovanjem**
-- **švrljanje** (potvrđen genitiv: *švrljanja*) — Tumaranje i švrljanje; nemarno pisanje.
-  - D/L jd = **švrljanju**, I jd = **švrljanjem**
-- **žalovanje** (potvrđen genitiv: *žalovanja*) — Tugovanje za umrlim.
-  - D/L jd = **žalovanju**
-- **žalošćenje** (potvrđen genitiv: *žalošćenja*) — Izazivanje žalosti i tuge.
-  - D/L jd = **žalošćenju**, I jd = **žalošćenjem**
-- **ždranje** (potvrđen genitiv: *ždranja*) — Proždrljivo i halapljivo jedenje.
-  - D/L jd = **ždranju**, I jd = **ždranjem**
-- **željenje** (potvrđen genitiv: *željenja*) — Osećanje želje za nečim.
-  - D/L jd = **željenju**
-- **ženskinje** (potvrđen genitiv: *ženskinja*) — Žene, ženski svet (zbirno).
-  - D/L jd = **ženskinju**
-- **živopisanje** (potvrđen genitiv: *živopisanja*) — Oslikavanje crkve freskama.
-  - I jd = **živopisanjem**
-- **životarenje** (potvrđen genitiv: *životarenja*) — Bedan život na granici opstanka.
-  - D/L jd = **životarenju**, I jd = **životarenjem**
-- **živovanje** (potvrđen genitiv: *živovanja*) — Življenje i provođenje života.
-  - I jd = **živovanjem**
-- **žmirkanje** (potvrđen genitiv: *žmirkanja*) — Treperavo paljenje i gašenje svetla; treptanje očiju.
-  - D/L jd = **žmirkanju**, I jd = **žmirkanjem**
-- **žongliranje** (potvrđen genitiv: *žongliranja*) — Veština bacanja i hvatanja više predmeta u vazduhu odjednom.
-  - D/L jd = **žongliranju**, I jd = **žongliranjem**
-- **žrebanje** (potvrđen genitiv: *žrebanja*) — Određivanje žrebom; izvlačenje kocke.
-  - D/L jd = **žrebanju**
-- **žuborenje** (potvrđen genitiv: *žuborenja*) — Tih, prijatan zvuk vode koja teče; žubor.
-  - D/L jd = **žuborenju**
-- **žurenje** (potvrđen genitiv: *žurenja*) — Brzo i hitno postupanje.
-  - D/L jd = **žurenju**, I jd = **žurenjem**
-- **žvakanje** (potvrđen genitiv: *žvakanja*) — Drobljenje hrane zubima u ustima.
-  - D/L jd = **žvakanju**
+- **testo** *(frek. 1597, gen. testa)* — Smesa od brašna i vode za hleb i kolače.
+  - D/I/L mn = **testima**
+- **preduzetništvo** *(frek. 1580, gen. preduzetništva)* — Vođenje sopstvenog posla i preuzimanje poslovnog rizika radi
+  - D/L jd = **preduzetništvu**, I jd = **preduzetništvom**
+- **insistiranje** *(frek. 1538, gen. insistiranja)* — Uporno zahtevanje i navaljivanje.
+  - I jd = **insistiranjem**
+- **težište** *(frek. 1519, gen. težišta)* — Centar mase tela; središte; težište.
+  - D/L jd = **težištu**
+- **osveženje** *(frek. 1505, gen. osveženja)* — Ono što osvežava, npr. hladno piće.
+  - D/L jd = **osveženju**
+- **državljanstvo** *(frek. 1504, gen. državljanstva)* — Pravna pripadnost nekoj državi.
+  - I jd = **državljanstvom**
+- **sveštenstvo** *(frek. 1468, gen. sveštenstva)* — Sveštenici kao stalež.
+  - I jd = **sveštenstvom**
+- **osposobljavanje** *(frek. 1439, gen. osposobljavanja)* — Obuka kojom se neko osposobljava.
+  - D/L jd = **osposobljavanju**, I jd = **osposobljavanjem**
+- **učestvovanje** *(frek. 1423, gen. učestvovanja)* — Uzimanje učešća u nečemu.
+  - I jd = **učestvovanjem**
+- **tango** *(frek. 1374, gen. tanga)* — Strastveni latinoamerički ples u paru.
+  - D/I/L mn = **tangima**
+- **skladištenje** *(frek. 1345, gen. skladištenja)* — Čuvanje robe u skladištu.
+  - D/L jd = **skladištenju**, I jd = **skladištenjem**
+- **portfolio** *(frek. 1300, gen. portfolia)* — Zbirka radova ili ulaganja koja predstavlja nekoga.
+  - D/L jd = **portfoliu**, I jd = **portfoliom**
+- **obilje** *(frek. 1232, gen. obilja)* — Velika količina, izobilje.
+  - D/I/L mn = **obiljima**
+- **đubre** *(frek. 1220, gen. đubra)* — Smeće, otpaci; takođe stajsko đubrivo.
+  - D/L jd = **đubru**, I jd = **đubrem**
+- **stanovište** *(frek. 1199, gen. stanovišta)* — Gledište, stav, tačka gledanja; stanovište.
+  - I jd = **stanovištem**
+- **oglašavanje** *(frek. 1191, gen. oglašavanja)* — Javno objavljivanje; reklamiranje.
+  - I jd = **oglašavanjem**
+- **skijalište** *(frek. 1170, gen. skijališta)* — Uređen teren za skijanje sa stazama i žičarama; ski-centar.
+  - I jd = **skijalištem**
+- **oličenje** *(frek. 1166, gen. oličenja)* — Otelovljenje i savršen primer nečega.
+  - D/L jd = **oličenju**
+- **ažuriranje** *(frek. 1139, gen. ažuriranja)* — Osvežavanje podataka na najnovije stanje.
+  - I jd = **ažuriranjem**
+- **savetovalište** *(frek. 1111, gen. savetovališta)* — Ustanova u kojoj se daju stručni saveti; savetovalište.
+  - I jd = **savetovalištem**
+- **lane** *(frek. 1110, gen. laneta)* — Mladunče jelena ili srne.
+  - D/L jd = **lanetu**, I jd = **lanetom**
+- **predstavništvo** *(frek. 1109, gen. predstavništva)* — Ustanova ili kancelarija koja zastupa nečije interese na nek
+  - I jd = **predstavništvom**
+- **sagledavanje** *(frek. 1099, gen. sagledavanja)* — Celovito uočavanje i razmatranje.
+  - I jd = **sagledavanjem**
 
 ---
 
-## Greške uhvaćene u izradi (i ispravljene)
+## Grupa B — uobičajene (100–999)
 
-Zapisano da se ne ponove:
+**573 imenica, 754 oblika**
 
-1. **Osnova iz nominativa** — od *ime* je pravilo *ima, imu, imom*. Ispravka: osnova se čita iz genitiva.
-2. **Homograf pri konstruisanju genitiva** — *tele* se zakačilo za *tela* (genitiv od **telo**), *prezime* za *prezima* (od glagola **prezimiti**).
-3. **Homograf i u drugom smeru** — kad je prvo tražena proširena osnova, *more* se zakačilo za *morena* (nanos lednika).
-4. **Dativ množine primljen kao genitiv** — uslov „završava se na *a*" hvata i nastavak *-ima*, pa je ispalo *morima → morimu, morimom*.
-5. **Proširena množina** — od *nebo* je pravilo *nebima* umesto *nebesima*.
+- **inženjerstvo** *(frek. 998, gen. inženjerstva)* — Struka i delatnost inženjera.
+  - I jd = **inženjerstvom**
+- **trgovanje** *(frek. 998, gen. trgovanja)* — Bavljenje kupovinom i prodajom.
+  - I jd = **trgovanjem**
+- **olakšanje** *(frek. 995, gen. olakšanja)* — Prijatan osećaj kad prođe briga.
+  - D/L jd = **olakšanju**
+- **gazdinstvo** *(frek. 953, gen. gazdinstva)* — Domaćinstvo i imanje na kome se privređuje.
+  - I jd = **gazdinstvom**, D/I/L mn = **gazdinstvima**
+- **žitije** *(frek. 949, gen. žitija)* — Opis života svetitelja.
+  - I jd = **žitijem**
+- **utvrđenje** *(frek. 945, gen. utvrđenja)* — Odbrambeni objekat; tvrđava.
+  - I jd = **utvrđenjem**
+- **umrežavanje** *(frek. 942, gen. umrežavanja)* — Povezivanje u mrežu.
+  - I jd = **umrežavanjem**
+- **blato** *(frek. 933, gen. blata)* — Mešavina zemlje i vode, kal.
+  - D/I/L mn = **blatima**
+- **devetoro** *(frek. 932, gen. devetora)* — Zbirni broj: devet osoba mešovitog pola.
+  - D/L jd = **devetoru**, I jd = **devetorom**
+- **preispitivanje** *(frek. 930, gen. preispitivanja)* — Ponovno ispitivanje; preispitivanje odluke.
+  - D/L jd = **preispitivanju**
+- **ugrožavanje** *(frek. 921, gen. ugrožavanja)* — Dovođenje u opasnost.
+  - I jd = **ugrožavanjem**
+- **gradilište** *(frek. 918, gen. gradilišta)* — Mesto gde se gradi.
+  - I jd = **gradilištem**
+- **ročište** *(frek. 918, gen. ročišta)* — Zakazano sudsko zasedanje.
+  - I jd = **ročištem**
+- **regulisanje** *(frek. 906, gen. regulisanja)* — Uređivanje i dovođenje u red.
+  - D/L jd = **regulisanju**, I jd = **regulisanjem**
+- **pristupanje** *(frek. 891, gen. pristupanja)* — Stupanje u članstvo; pristup nečemu.
+  - I jd = **pristupanjem**
+- **odredište** *(frek. 889, gen. odredišta)* — Mesto do kojeg se putuje; cilj puta.
+  - D/I/L mn = **odredištima**
+- **investiranje** *(frek. 886, gen. investiranja)* — Ulaganje novca radi dobiti.
+  - I jd = **investiranjem**
+- **negovanje** *(frek. 880, gen. negovanja)* — Brižna briga; održavanje i nega.
+  - D/L jd = **negovanju**
+- **prebivalište** *(frek. 873, gen. prebivališta)* — Mesto gde neko stalno živi.
+  - I jd = **prebivalištem**, D/I/L mn = **prebivalištima**
+- **uredništvo** *(frek. 869, gen. uredništva)* — Redakcija, telo i prostor u kome se uređuju novine, časopis 
+  - I jd = **uredništvom**
+- **ograničavanje** *(frek. 852, gen. ograničavanja)* — Postavljanje granica i sužavanje.
+  - I jd = **ograničavanjem**
+- **bekstvo** *(frek. 847, gen. bekstva)* — Bežanje; beg od opasnosti.
+  - D/I/L mn = **bekstvima**
+- **vrednovanje** *(frek. 832, gen. vrednovanja)* — Određivanje vrednosti; ocenjivanje.
+  - I jd = **vrednovanjem**
+- **polufinale** *(frek. 827, gen. polufinala)* — Pretposlednje kolo takmičenja pred finale.
+  - I jd = **polufinalem**, D/I/L mn = **polufinalima**
+- **odlučivanje** *(frek. 816, gen. odlučivanja)* — Donošenje odluka.
+  - I jd = **odlučivanjem**
+- **nerazumevanje** *(frek. 813, gen. nerazumevanja)* — Nedostatak razumevanja i sporazumevanja; nerazumevanje.
+  - I jd = **nerazumevanjem**
+- **oblikovanje** *(frek. 812, gen. oblikovanja)* — Davanje oblika i forme.
+  - I jd = **oblikovanjem**
+- **ropstvo** *(frek. 808, gen. ropstva)* — Stanje roba; potpuna nesloboda.
+  - D/I/L mn = **ropstvima**
+- **olovo** *(frek. 801, gen. olova)* — Mek, težak sivi metal.
+  - D/I/L mn = **olovima**
+- **stočarstvo** *(frek. 788, gen. stočarstva)* — Gajenje stoke.
+  - I jd = **stočarstvom**
+- **zajedništvo** *(frek. 783, gen. zajedništva)* — Osećaj pripadnosti i zajedničkog života; sloga.
+  - I jd = **zajedništvom**
+- **prokletstvo** *(frek. 777, gen. prokletstva)* — Kletva; stanje proklete sudbine.
+  - D/I/L mn = **prokletstvima**
+- **osnaživanje** *(frek. 774, gen. osnaživanja)* — Davanje snage i jačanje.
+  - D/L jd = **osnaživanju**, I jd = **osnaživanjem**
+- **odmaralište** *(frek. 764, gen. odmarališta)* — Mesto za odmor i oporavak.
+  - I jd = **odmaralištem**
+- **letovalište** *(frek. 761, gen. letovališta)* — Mesto gde se provodi letnji odmor.
+  - D/L jd = **letovalištu**, I jd = **letovalištem**
+- **znojenje** *(frek. 760, gen. znojenja)* — Izlučivanje znoja kroz kožu.
+  - D/L jd = **znojenju**
+- **predviđanje** *(frek. 751, gen. predviđanja)* — Unapred sagledavanje onoga što će biti.
+  - I jd = **predviđanjem**
+- **gaće** *(frek. 743, gen. gaća)* — Donji veš; donje rublje.
+  - D/L jd = **gaću**, I jd = **gaćem**
+- **blagostanje** *(frek. 719, gen. blagostanja)* — Stanje udobnog i sigurnog života.
+  - I jd = **blagostanjem**
+- **protivljenje** *(frek. 718, gen. protivljenja)* — Suprotstavljanje; opiranje.
+  - I jd = **protivljenjem**
+- **zakazivanje** *(frek. 713, gen. zakazivanja)* — Određivanje termina; otkazivanje rada.
+  - I jd = **zakazivanjem**
+- **usporavanje** *(frek. 702, gen. usporavanja)* — Smanjivanje brzine; oduzimanje tempa.
+  - I jd = **usporavanjem**
+- **saučešće** *(frek. 693, gen. saučešća)* — Saosećanje sa tuđom tugom; saosećajnost.
+  - D/I/L mn = **saučešćima**
+- **oporezivanje** *(frek. 683, gen. oporezivanja)* — Uvođenje i naplata poreza.
+  - I jd = **oporezivanjem**
+- **stepenište** *(frek. 674, gen. stepeništa)* — Niz stepenika, basamaci.
+  - D/I/L mn = **stepeništima**
+- **šetalište** *(frek. 665, gen. šetališta)* — Uređena staza za šetnju.
+  - D/I/L mn = **šetalištima**
+- **posredovanje** *(frek. 656, gen. posredovanja)* — Posredno delovanje između dve strane.
+  - I jd = **posredovanjem**
+- **navodnjavanje** *(frek. 652, gen. navodnjavanja)* — Dovođenje vode na useve.
+  - D/L jd = **navodnjavanju**
+- **izvorište** *(frek. 650, gen. izvorišta)* — Mesto gde reka izvire.
+  - I jd = **izvorištem**
+- **građanstvo** *(frek. 645, gen. građanstva)* — Svi građani neke zemlje ili grada.
+  - I jd = **građanstvom**
+- **stecište** *(frek. 644, gen. stecišta)* — Mesto okupljanja; stecište.
+  - D/L jd = **stecištu**, I jd = **stecištem**
+- **otkrovenje** *(frek. 636, gen. otkrovenja)* — Iznenadno otkrivanje skrivene istine.
+  - I jd = **otkrovenjem**
+- **usmeravanje** *(frek. 632, gen. usmeravanja)* — Davanje pravca i upravljanje tokom.
+  - I jd = **usmeravanjem**
+- **poluostrvo** *(frek. 626, gen. poluostrva)* — Kopno okruženo vodom sa tri strane.
+  - I jd = **poluostrvom**, D/I/L mn = **poluostrvima**
+- **zbrinjavanje** *(frek. 624, gen. zbrinjavanja)* — Staranje i obezbeđivanje nekome.
+  - I jd = **zbrinjavanjem**
+- **šišanje** *(frek. 622, gen. šišanja)* — Skraćivanje kose ili vune makazama.
+  - I jd = **šišanjem**
+- **isključivanje** *(frek. 620, gen. isključivanja)* — Prekidanje rada ili uklanjanje iz celine.
+  - D/L jd = **isključivanju**
+- **fijasko** *(frek. 616, gen. fijaska)* — Potpun neuspeh, propast.
+  - D/L jd = **fijasku**
+- **izjašnjavanje** *(frek. 614, gen. izjašnjavanja)* — Iznošenje svog stava i mišljenja.
+  - D/L jd = **izjašnjavanju**, I jd = **izjašnjavanjem**
+- **narušavanje** *(frek. 607, gen. narušavanja)* — Kvarenje reda ili sklada.
+  - I jd = **narušavanjem**
+- **rukovođenje** *(frek. 606, gen. rukovođenja)* — Vođenje posla ili grupe; upravljanje.
+  - I jd = **rukovođenjem**
+- **roditeljstvo** *(frek. 602, gen. roditeljstva)* — Svojstvo i uloga roditelja.
+  - D/I/L mn = **roditeljstvima**
+- **obeštećenje** *(frek. 588, gen. obeštećenja)* — Naknada za pretrpljenu štetu.
+  - I jd = **obeštećenjem**
+- **novorođenče** *(frek. 587, gen. novorođenčeta)* — Tek rođena beba.
+  - I jd = **novorođenčetom**
+- **osvećenje** *(frek. 582, gen. osvećenja)* — Posvećivanje verskim obredom.
+  - D/L jd = **osvećenju**, I jd = **osvećenjem**
+- **bogosluženje** *(frek. 578, gen. bogosluženja)* — Verski obred i služba u crkvi.
+  - I jd = **bogosluženjem**
+- **veštačenje** *(frek. 575, gen. veštačenja)* — Stručno ispitivanje i mišljenje veštaka.
+  - D/L jd = **veštačenju**
+- **priključenje** *(frek. 570, gen. priključenja)* — Spajanje i povezivanje na nešto.
+  - I jd = **priključenjem**
+- **zaključivanje** *(frek. 570, gen. zaključivanja)* — Izvođenje zaključka rasuđivanjem.
+  - I jd = **zaključivanjem**
+- **ustrojstvo** *(frek. 567, gen. ustrojstva)* — Unutrašnje uređenje; poredak i sklop.
+  - D/I/L mn = **ustrojstvima**
+- **izvršavanje** *(frek. 562, gen. izvršavanja)* — Sprovođenje i obavljanje naloga.
+  - I jd = **izvršavanjem**
+- **padavine** *(frek. 551, gen. padavina)* — Atmosferska voda koja pada: kiša, sneg, grad.
+  - D/L jd = **padavinu**, I jd = **padavinem**
+- **trgovište** *(frek. 547, gen. trgovišta)* — Trg, pijaca; trgovački gradić.
+  - I jd = **trgovištem**
+- **istezanje** *(frek. 543, gen. istezanja)* — Vežbe rastezanja mišića radi gipkosti.
+  - D/L jd = **istezanju**, I jd = **istezanjem**
+- **volontiranje** *(frek. 542, gen. volontiranja)* — Dobrovoljan i neplaćen rad.
+  - I jd = **volontiranjem**
+- **izletište** *(frek. 539, gen. izletišta)* — Mesto pogodno za izlete.
+  - I jd = **izletištem**
+- **obdanište** *(frek. 533, gen. obdaništa)* — Ustanova za boravak i čuvanje dece; vrtić.
+  - I jd = **obdaništem**
+- **file** *(frek. 532, gen. fileta)* — Komad mesa ili ribe bez kostiju.
+  - D/L jd = **filetu**, I jd = **filetom**
+- **obaveštavanje** *(frek. 532, gen. obaveštavanja)* — Davanje obaveštenja; izveštavanje.
+  - D/L jd = **obaveštavanju**, I jd = **obaveštavanjem**
+- **komunalije** *(frek. 524, gen. komunalija)* — Oblik reči „komunalije“; komunalne usluge i naknade za vodu,
+  - D/L jd = **komunaliju**, I jd = **komunalijem**
+- **zvonce** *(frek. 519, gen. zvonca)* — Malo zvono.
+  - D/L jd = **zvoncu**
+- **kombinovanje** *(frek. 516, gen. kombinovanja)* — Spajanje više elemenata u celinu.
+  - D/L jd = **kombinovanju**
+- **ispravljanje** *(frek. 514, gen. ispravljanja)* — Vraćanje u uspravan ili pravilan oblik.
+  - I jd = **ispravljanjem**
+- **primirje** *(frek. 511, gen. primirja)* — Privremeni prekid borbi.
+  - D/I/L mn = **primirjima**
+- **gusle** *(frek. 505, gen. gusla)* — Narodni instrument sa jednom žicom uz koji se peva.
+  - D/L jd = **guslu**, I jd = **guslem**
+- **proterivanje** *(frek. 505, gen. proterivanja)* — Isterivanje i progon iz zemlje.
+  - I jd = **proterivanjem**
+- **proširivanje** *(frek. 505, gen. proširivanja)* — Činjenje širim i obuhvatnijim.
+  - I jd = **proširivanjem**
+- **doziranje** *(frek. 501, gen. doziranja)* — Određivanje odmerene količine.
+  - D/L jd = **doziranju**, I jd = **doziranjem**
+- **prihvatilište** *(frek. 501, gen. prihvatilišta)* — Sklonište, mesto privremenog boravka.
+  - I jd = **prihvatilištem**
+- **strelište** *(frek. 491, gen. strelišta)* — Mesto uređeno za vežbanje gađanja iz oružja ili luka.
+  - I jd = **strelištem**
+- **beznađe** *(frek. 486, gen. beznađa)* — Stanje bez nade.
+  - D/I/L mn = **beznađima**
+- **boravište** *(frek. 477, gen. boravišta)* — Mesto gde neko boravi, prebivalište.
+  - D/I/L mn = **boravištima**
+- **sastavljanje** *(frek. 474, gen. sastavljanja)* — Spajanje delova u celinu; sklapanje.
+  - I jd = **sastavljanjem**
+- **povećavanje** *(frek. 471, gen. povećavanja)* — Činjenje većim po broju ili veličini.
+  - I jd = **povećavanjem**
+- **razlikovanje** *(frek. 471, gen. razlikovanja)* — Uočavanje razlika; raspoznavanje.
+  - D/L jd = **razlikovanju**, I jd = **razlikovanjem**
+- **neprijateljstvo** *(frek. 470, gen. neprijateljstva)* — Stanje neprijatelja; mržnja i sukob.
+  - D/I/L mn = **neprijateljstvima**
+- **upoređivanje** *(frek. 470, gen. upoređivanja)* — Gledanje sličnosti i razlika; poređenje.
+  - D/L jd = **upoređivanju**
+- **prekoračenje** *(frek. 463, gen. prekoračenja)* — Prelaženje dozvoljene granice.
+  - D/L jd = **prekoračenju**, I jd = **prekoračenjem**
+- **izjednačavanje** *(frek. 459, gen. izjednačavanja)* — Dovođenje na istu meru i nivo.
+  - I jd = **izjednačavanjem**
+- **zanemarivanje** *(frek. 457, gen. zanemarivanja)* — Nedovoljno brižan odnos; zapostavljanje.
+  - I jd = **zanemarivanjem**
+- **dodeljivanje** *(frek. 451, gen. dodeljivanja)* — Davanje onoga što nekome pripada.
+  - I jd = **dodeljivanjem**
+- **ugostiteljstvo** *(frek. 451, gen. ugostiteljstva)* — Delatnost pružanja hrane i smeštaja gostima.
+  - I jd = **ugostiteljstvom**
+- **iskorišćavanje** *(frek. 441, gen. iskorišćavanja)* — Nepravedno korišćenje tuđeg rada.
+  - I jd = **iskorišćavanjem**
+- **mirovanje** *(frek. 440, gen. mirovanja)* — Stanje bez kretanja i aktivnosti.
+  - I jd = **mirovanjem**
+- **odlikovanje** *(frek. 437, gen. odlikovanja)* — Zvanično priznanje; orden, medalja.
+  - I jd = **odlikovanjem**
+- **klupko** *(frek. 435, gen. klupka)* — Smotana pređa u loptu.
+  - D/I/L mn = **klupkima**
+- **predlaganje** *(frek. 435, gen. predlaganja)* — Iznošenje predloga.
+  - I jd = **predlaganjem**
+- **klizalište** *(frek. 434, gen. klizališta)* — Uređena ledena površina za klizanje.
+  - I jd = **klizalištem**
+- **ovladavanje** *(frek. 428, gen. ovladavanja)* — Sticanje vlasti ili veštine nad nečim.
+  - I jd = **ovladavanjem**
+- **sajmište** *(frek. 427, gen. sajmišta)* — Prostor za sajmove i vašare; vašarište.
+  - I jd = **sajmištem**
+- **lovište** *(frek. 426, gen. lovišta)* — Područje na kome je dozvoljen i uređen lov.
+  - I jd = **lovištem**
+- **samoopredeljenje** *(frek. 422, gen. samoopredeljenja)* — Pravo naroda da sam odlučuje o svom statusu; samoopredeljenj
+  - D/L jd = **samoopredeljenju**, I jd = **samoopredeljenjem**
+- **naseljavanje** *(frek. 421, gen. naseljavanja)* — Nastanjivanje ljudi na nekom prostoru.
+  - I jd = **naseljavanjem**
+- **rumenilo** *(frek. 421, gen. rumenila)* — Crvenilo na obrazima.
+  - D/I/L mn = **rumenilima**
+- **rivalstvo** *(frek. 420, gen. rivalstva)* — Suparništvo; nadmetanje sa protivnikom.
+  - I jd = **rivalstvom**
+- **bojenje** *(frek. 417, gen. bojenja)* — Davanje boje nečemu.
+  - D/L jd = **bojenju**
+- **žumance** *(frek. 417, gen. žumanca)* — Žuti deo jajeta.
+  - D/L jd = **žumancu**
+- **gaćice** *(frek. 415, gen. gaćica)* — Donji veš, male gaće.
+  - D/L jd = **gaćicu**, I jd = **gaćicem**
+- **preobraženje** *(frek. 410, gen. preobraženja)* — Potpuna promena izgleda ili suštine.
+  - I jd = **preobraženjem**
+- **svetilište** *(frek. 409, gen. svetilišta)* — Sveto mesto; mesto bogosluženja.
+  - I jd = **svetilištem**
+- **peckanje** *(frek. 408, gen. peckanja)* — Blago bockanje; sitno peckavo žarenje.
+  - D/L jd = **peckanju**
+- **fokusiranje** *(frek. 406, gen. fokusiranja)* — Usredsređivanje pažnje ili izoštravanje slike.
+  - I jd = **fokusiranjem**
+- **blaženstvo** *(frek. 404, gen. blaženstva)* — Najveća sreća i spokoj.
+  - D/I/L mn = **blaženstvima**
+- **stajalište** *(frek. 400, gen. stajališta)* — Mesto gde staje autobus ili tramvaj.
+  - I jd = **stajalištem**
+- **označavanje** *(frek. 399, gen. označavanja)* — Stavljanje oznaka i obeležavanje.
+  - I jd = **označavanjem**
+- **suprotstavljanje** *(frek. 399, gen. suprotstavljanja)* — Oblik reči „suprotstavljanje“; opiranje, izlaženje nasuprot 
+  - I jd = **suprotstavljanjem**
+- **mapiranje** *(frek. 398, gen. mapiranja)* — Izrada mape; utvrđivanje i beleženje rasporeda nečega.
+  - I jd = **mapiranjem**
+- **ublažavanje** *(frek. 398, gen. ublažavanja)* — Činjenje blažim; umanjivanje oštrine.
+  - I jd = **ublažavanjem**
+- **produbljivanje** *(frek. 392, gen. produbljivanja)* — Pravljenje dubljim; jačanje nečega.
+  - D/L jd = **produbljivanju**, I jd = **produbljivanjem**
+- **dežurstvo** *(frek. 391, gen. dežurstva)* — Služba u određeno vreme po rasporedu.
+  - I jd = **dežurstvom**
+- **makaze** *(frek. 391, gen. makaza)* — Alatka sa dva sečiva za sečenje.
+  - D/L jd = **makazu**, I jd = **makazem**
+- **pisanije** *(frek. 386, gen. pisanija)* — Spis, sastav, pisanije; pisanije.
+  - I jd = **pisanijem**
+- **drugarstvo** *(frek. 385, gen. drugarstva)* — Druženje i sloga među drugovima.
+  - I jd = **drugarstvom**
+- **zadovoljavanje** *(frek. 383, gen. zadovoljavanja)* — Ispunjavanje potreba i zahteva.
+  - I jd = **zadovoljavanjem**
+- **streljaštvo** *(frek. 378, gen. streljaštva)* — Sport gađanja iz oružja u metu.
+  - I jd = **streljaštvom**
+- **zatezanje** *(frek. 375, gen. zatezanja)* — Vučenje da bude zategnuto.
+  - D/L jd = **zatezanju**
+- **savladavanje** *(frek. 374, gen. savladavanja)* — Pobeđivanje prepreka; ovladavanje.
+  - I jd = **savladavanjem**
+- **uskraćivanje** *(frek. 374, gen. uskraćivanja)* — Odbijanje da se nešto da ili pruži.
+  - D/L jd = **uskraćivanju**, I jd = **uskraćivanjem**
+- **naručivanje** *(frek. 371, gen. naručivanja)* — Traženje robe ili usluge da se isporuči.
+  - I jd = **naručivanjem**
+- **dešavanje** *(frek. 369, gen. dešavanja)* — Ono što se dešava; zbivanje.
+  - I jd = **dešavanjem**
+- **zamajavanje** *(frek. 369, gen. zamajavanja)* — Odvraćanje pažnje praznim poslom.
+  - D/L jd = **zamajavanju**, I jd = **zamajavanjem**
+- **konstituisanje** *(frek. 367, gen. konstituisanja)* — Zvanično osnivanje i ustanovljavanje.
+  - D/L jd = **konstituisanju**, I jd = **konstituisanjem**
+- **poništavanje** *(frek. 367, gen. poništavanja)* — Stavljanje van snage.
+  - D/L jd = **poništavanju**, I jd = **poništavanjem**
+- **generisanje** *(frek. 364, gen. generisanja)* — Stvaranje i proizvođenje nečega.
+  - D/L jd = **generisanju**, I jd = **generisanjem**
+- **modeliranje** *(frek. 364, gen. modeliranja)* — Oblikovanje modela; pravljenje uzora ili nacrta.
+  - I jd = **modeliranjem**
+- **omalovažavanje** *(frek. 364, gen. omalovažavanja)* — Smatranje nevažnim; potcenjivanje.
+  - D/L jd = **omalovažavanju**
+- **raspoređivanje** *(frek. 362, gen. raspoređivanja)* — Razmeštanje po redu.
+  - I jd = **raspoređivanjem**
+- **odugovlačenje** *(frek. 358, gen. odugovlačenja)* — Namerno otezanje i odlaganje.
+  - D/L jd = **odugovlačenju**
+- **zagovaranje** *(frek. 357, gen. zagovaranja)* — Zastupanje i podržavanje ideje.
+  - D/L jd = **zagovaranju**, I jd = **zagovaranjem**
+- **ležište** *(frek. 356, gen. ležišta)* — Mesto gde nešto leži; nalazište rude.
+  - I jd = **ležištem**
+- **surfovanje** *(frek. 356, gen. surfovanja)* — Jahanje talasa na dasci; pretraživanje interneta.
+  - I jd = **surfovanjem**
+- **oticanje** *(frek. 352, gen. oticanja)* — Tečenje i odlaženje vode.
+  - D/L jd = **oticanju**
+- **planinarenje** *(frek. 352, gen. planinarenja)* — Pešačenje po planinama.
+  - I jd = **planinarenjem**
+- **porodilište** *(frek. 350, gen. porodilišta)* — Bolnica ili odeljenje u kojem se žene porađaju.
+  - I jd = **porodilištem**
+- **umnožavanje** *(frek. 348, gen. umnožavanja)* — Pravljenje više primeraka; razmnožavanje.
+  - I jd = **umnožavanjem**
+- **prenoćište** *(frek. 347, gen. prenoćišta)* — Mesto gde se može prenoćiti.
+  - D/I/L mn = **prenoćištima**
+- **izdržavanje** *(frek. 343, gen. izdržavanja)* — Snabdevanje sredstvima za život; takođe trpljenje.
+  - I jd = **izdržavanjem**
+- **odstranjivanje** *(frek. 342, gen. odstranjivanja)* — Uklanjanje i izbacivanje.
+  - D/L jd = **odstranjivanju**, I jd = **odstranjivanjem**
+- **mršavljenje** *(frek. 337, gen. mršavljenja)* — Gubljenje telesne težine.
+  - D/L jd = **mršavljenju**, I jd = **mršavljenjem**
+- **knjiženje** *(frek. 336, gen. knjiženja)* — Upisivanje u poslovne knjige.
+  - I jd = **knjiženjem**
+- **kupalište** *(frek. 335, gen. kupališta)* — Uređeno mesto za kupanje na vodi; kupalište.
+  - I jd = **kupalištem**
+- **promišljanje** *(frek. 334, gen. promišljanja)* — Pažljivo razmišljanje pre odluke.
+  - I jd = **promišljanjem**
+- **savezništvo** *(frek. 334, gen. savezništva)* — Odnos saveznika; savez.
+  - I jd = **savezništvom**, D/I/L mn = **savezništvima**
+- **snalaženje** *(frek. 334, gen. snalaženja)* — Sposobnost da se snađe u prilikama.
+  - I jd = **snalaženjem**
+- **nadahnuće** *(frek. 333, gen. nadahnuća)* — Stvaralački zanos; inspiracija.
+  - D/I/L mn = **nadahnućima**
+- **podržavanje** *(frek. 332, gen. podržavanja)* — Pružanje podrške; pridržavanje.
+  - I jd = **podržavanjem**
+- **učitavanje** *(frek. 332, gen. učitavanja)* — Unošenje podataka u uređaj.
+  - D/L jd = **učitavanju**, I jd = **učitavanjem**
+- **zatišje** *(frek. 332, gen. zatišja)* — Mir posle nevremena, bez vetra.
+  - I jd = **zatišjem**
+- **punomoćje** *(frek. 331, gen. punomoćja)* — Ovlašćenje za zastupanje; punomoćje.
+  - D/L jd = **punomoćju**, D/I/L mn = **punomoćjima**
+- **odojče** *(frek. 330, gen. odojčeta)* — Beba koja se još doji.
+  - I jd = **odojčetom**
+- **pridruživanje** *(frek. 328, gen. pridruživanja)* — Priključivanje grupi ili pokretu.
+  - I jd = **pridruživanjem**
+- **samoupravljanje** *(frek. 328, gen. samoupravljanja)* — Upravljanje radnika i građana sopstvenim poslovima.
+  - I jd = **samoupravljanjem**
+- **bdenije** *(frek. 327, gen. bdenija)* — Noćno bogosluženje i molitva bez spavanja; budno čuvanje noć
+  - I jd = **bdenijem**
+- **odličje** *(frek. 325, gen. odličja)* — Znak priznanja; odlikovanje, orden.
+  - D/L jd = **odličju**
+- **prepucavanje** *(frek. 323, gen. prepucavanja)* — Uzajamno dobacivanje oštrih reči; čarkanje rečima.
+  - D/L jd = **prepucavanju**, I jd = **prepucavanjem**
+- **radovanje** *(frek. 323, gen. radovanja)* — Osećanje radosti.
+  - D/L jd = **radovanju**, I jd = **radovanjem**
+- **razgraničenje** *(frek. 323, gen. razgraničenja)* — Određivanje granica; razdvajanje.
+  - D/L jd = **razgraničenju**, I jd = **razgraničenjem**
+- **forsiranje** *(frek. 321, gen. forsiranja)* — Uporno nametanje i ubrzavanje.
+  - D/L jd = **forsiranju**, I jd = **forsiranjem**
+- **otkrivenje** *(frek. 321, gen. otkrivenja)* — Iznenadno duboko saznanje; objava.
+  - I jd = **otkrivenjem**
+- **pojašnjenje** *(frek. 317, gen. pojašnjenja)* — Dodatno objašnjenje radi jasnoće.
+  - D/L jd = **pojašnjenju**, I jd = **pojašnjenjem**
+- **svratište** *(frek. 317, gen. svratišta)* — Gostionica sa prenoćištem pored puta.
+  - I jd = **svratištem**
+- **potkrovlje** *(frek. 316, gen. potkrovlja)* — Prostor ili stan odmah ispod krova.
+  - D/I/L mn = **potkrovljima**
+- **tornado** *(frek. 316, gen. tornada)* — Vrtložna oluja u obliku levka.
+  - D/I/L mn = **tornadima**
+- **filtriranje** *(frek. 313, gen. filtriranja)* — Proceđivanje kroz filter; prečišćavanje.
+  - D/L jd = **filtriranju**
+- **poigravanje** *(frek. 313, gen. poigravanja)* — Lako i prezrivo postupanje s nekim.
+  - I jd = **poigravanjem**
+- **pače** *(frek. 312, gen. pačeta)* — Mladunče patke.
+  - I jd = **pačetom**
+- **arhiviranje** *(frek. 311, gen. arhiviranja)* — Sređivanje i čuvanje dokumenata u arhivi; arhiviranje.
+  - D/L jd = **arhiviranju**, I jd = **arhiviranjem**
+- **čvorište** *(frek. 311, gen. čvorišta)* — Mesto ukrštanja puteva ili linija; čvorište.
+  - I jd = **čvorištem**
+- **komuniciranje** *(frek. 308, gen. komuniciranja)* — Razmena poruka i sporazumevanje.
+  - D/L jd = **komuniciranju**, I jd = **komuniciranjem**
+- **trojstvo** *(frek. 304, gen. trojstva)* — Jedinstvo troga; sveto trojstvo u veri.
+  - I jd = **trojstvom**
+- **prepuštanje** *(frek. 301, gen. prepuštanja)* — Predavanje nečega drugome.
+  - I jd = **prepuštanjem**
+- **ugovaranje** *(frek. 301, gen. ugovaranja)* — Dogovaranje uslova; sklapanje dogovora.
+  - I jd = **ugovaranjem**
+- **iskazivanje** *(frek. 300, gen. iskazivanja)* — Izražavanje misli i osećanja.
+  - I jd = **iskazivanjem**
+- **voćarstvo** *(frek. 300, gen. voćarstva)* — Gajenje voća.
+  - I jd = **voćarstvom**
+- **anketiranje** *(frek. 298, gen. anketiranja)* — Prikupljanje mišljenja pomoću pitanja, sprovođenje ankete; a
+  - D/L jd = **anketiranju**, I jd = **anketiranjem**
+- **geslo** *(frek. 298, gen. gesla)* — Lozinka, parola; vodeća misao po kojoj se neko upravlja.
+  - D/L jd = **geslu**
+- **karaoke** *(frek. 296, gen. karaoka)* — Pevanje uz snimljenu muziku radi zabave.
+  - D/L jd = **karaoku**, I jd = **karaokem**
+- **pomagalo** *(frek. 294, gen. pomagala)* — Sprava koja pomaže pri radu.
+  - D/L jd = **pomagalu**, I jd = **pomagalom**
+- **bodovanje** *(frek. 292, gen. bodovanja)* — Dodeljivanje bodova ili poena.
+  - D/L jd = **bodovanju**, I jd = **bodovanjem**
+- **zrnce** *(frek. 292, gen. zrnca)* — Vrlo malo zrno.
+  - D/L jd = **zrncu**
+- **podmlađivanje** *(frek. 291, gen. podmlađivanja)* — Vraćanje mladalačkog izgleda ili snage.
+  - D/L jd = **podmlađivanju**, I jd = **podmlađivanjem**
+- **jednoumlje** *(frek. 290, gen. jednoumlja)* — Jednostrano, ograničeno mišljenje; nametnuto jedinstvo mišlj
+  - I jd = **jednoumljem**
+- **nagrađivanje** *(frek. 290, gen. nagrađivanja)* — Davanje nagrada za zasluge.
+  - D/L jd = **nagrađivanju**, I jd = **nagrađivanjem**
+- **vojvodstvo** *(frek. 288, gen. vojvodstva)* — Oblast kojom upravlja vojvoda.
+  - I jd = **vojvodstvom**
+- **brodogradilište** *(frek. 287, gen. brodogradilišta)* — Mesto gde se grade i popravljaju brodovi.
+  - I jd = **brodogradilištem**
+- **košenje** *(frek. 287, gen. košenja)* — Sečenje trave ili žita kosom.
+  - I jd = **košenjem**
+- **dugovanje** *(frek. 285, gen. dugovanja)* — Iznos koji se duguje.
+  - I jd = **dugovanjem**
+- **đubrenje** *(frek. 285, gen. đubrenja)* — Dodavanje hraniva zemlji.
+  - D/L jd = **đubrenju**, I jd = **đubrenjem**
+- **postignuće** *(frek. 283, gen. postignuća)* — Ono što je postignuto; dostignuće.
+  - I jd = **postignućem**
+- **prebrojavanje** *(frek. 283, gen. prebrojavanja)* — Ponovno brojanje radi provere.
+  - D/L jd = **prebrojavanju**
+- **ubrizgavanje** *(frek. 281, gen. ubrizgavanja)* — Unošenje tečnosti pod pritiskom.
+  - D/L jd = **ubrizgavanju**
+- **zaostajanje** *(frek. 281, gen. zaostajanja)* — Ostajanje iza drugih.
+  - I jd = **zaostajanjem**
+- **klizište** *(frek. 280, gen. klizišta)* — Klizanje zemljišta niz padinu.
+  - D/L jd = **klizištu**, I jd = **klizištem**, D/I/L mn = **klizištima**
+- **stezanje** *(frek. 280, gen. stezanja)* — Čvrsto pritiskanje; sužavanje.
+  - I jd = **stezanjem**
+- **praznovanje** *(frek. 278, gen. praznovanja)* — Svečano obeležavanje praznika.
+  - I jd = **praznovanjem**
+- **pristajanje** *(frek. 277, gen. pristajanja)* — Privezivanje broda uz obalu.
+  - I jd = **pristajanjem**
+- **sortiranje** *(frek. 275, gen. sortiranja)* — Razvrstavanje po redu ili vrsti.
+  - I jd = **sortiranjem**
+- **analiziranje** *(frek. 274, gen. analiziranja)* — Oblik reči analiziranje (raščlanjivanje, ispitivanje).
+  - D/L jd = **analiziranju**, I jd = **analiziranjem**
+- **kijanje** *(frek. 274, gen. kijanja)* — Naglo izbacivanje vazduha kroz nos uz zvuk.
+  - D/L jd = **kijanju**
+- **skrnavljenje** *(frek. 273, gen. skrnavljenja)* — Oskvrnjivanje svetinje ili groba.
+  - I jd = **skrnavljenjem**
+- **uzdržavanje** *(frek. 272, gen. uzdržavanja)* — Suzdržavanje; takođe izdržavanje nekoga.
+  - I jd = **uzdržavanjem**
+- **ispuštanje** *(frek. 271, gen. ispuštanja)* — Puštanje da izađe; izostavljanje.
+  - D/L jd = **ispuštanju**
+- **izračunavanje** *(frek. 271, gen. izračunavanja)* — Računsko utvrđivanje; proračun.
+  - D/L jd = **izračunavanju**, I jd = **izračunavanjem**
+- **prepisivanje** *(frek. 271, gen. prepisivanja)* — Ponovno pisanje teksta; nedozvoljeno gledanje tuđeg rada.
+  - I jd = **prepisivanjem**
+- **eksperimentisanje** *(frek. 270, gen. eksperimentisanja)* — Oblik reči „eksperimentisanje“; izvođenje ogleda, isprobavan
+  - I jd = **eksperimentisanjem**
+- **zimovanje** *(frek. 269, gen. zimovanja)* — Odmor preko zime, najčešće na planini.
+  - I jd = **zimovanjem**
+- **iživljavanje** *(frek. 268, gen. iživljavanja)* — Iskaljivanje besa na drugima.
+  - D/L jd = **iživljavanju**, I jd = **iživljavanjem**
+- **balansiranje** *(frek. 267, gen. balansiranja)* — Održavanje ravnoteže.
+  - D/L jd = **balansiranju**, I jd = **balansiranjem**
+- **veto** *(frek. 266, gen. veta)* — Pravo da se zabrani ili spreči odluka.
+  - D/L jd = **vetu**, I jd = **vetom**
+- **sponzorstvo** *(frek. 264, gen. sponzorstva)* — Novčana podrška uz reklamu.
+  - I jd = **sponzorstvom**
+- **lečilište** *(frek. 263, gen. lečilišta)* — Mesto i ustanova za lečenje i oporavak; lečilište.
+  - I jd = **lečilištem**, D/I/L mn = **lečilištima**
+- **maslo** *(frek. 262, gen. masla)* — Prečišćen topljeni maslac.
+  - D/L jd = **maslu**, D/I/L mn = **maslima**
+- **suženje** *(frek. 262, gen. suženja)* — Smanjivanje širine.
+  - D/L jd = **suženju**, I jd = **suženjem**
+- **poslanstvo** *(frek. 261, gen. poslanstva)* — Diplomatsko predstavništvo; misija.
+  - I jd = **poslanstvom**
+- **uslovljavanje** *(frek. 259, gen. uslovljavanja)* — Postavljanje uslova; navikavanje na reakciju.
+  - D/L jd = **uslovljavanju**, I jd = **uslovljavanjem**
+- **orezivanje** *(frek. 258, gen. orezivanja)* — Skraćivanje grana biljke makazama.
+  - D/L jd = **orezivanju**
+- **peglanje** *(frek. 258, gen. peglanja)* — Ravnanje izgužvane odeće toplom peglom.
+  - D/L jd = **peglanju**, I jd = **peglanjem**
+- **telefoniranje** *(frek. 258, gen. telefoniranja)* — Razgovaranje putem telefona.
+  - D/L jd = **telefoniranju**, I jd = **telefoniranjem**
+- **ukrašavanje** *(frek. 257, gen. ukrašavanja)* — Lepšanje dodavanjem ukrasa.
+  - I jd = **ukrašavanjem**
+- **materinstvo** *(frek. 255, gen. materinstva)* — Stanje i osećaj majke prema detetu.
+  - D/L jd = **materinstvu**, I jd = **materinstvom**, D/I/L mn = **materinstvima**
+- **psovanje** *(frek. 255, gen. psovanja)* — Izgovaranje psovki, ružnih reči.
+  - D/L jd = **psovanju**
+- **vinogradarstvo** *(frek. 254, gen. vinogradarstva)* — Gajenje vinove loze.
+  - D/L jd = **vinogradarstvu**, I jd = **vinogradarstvom**
+- **iniciranje** *(frek. 253, gen. iniciranja)* — Oblik reči „iniciranje“; pokretanje i započinjanje; davanje 
+  - I jd = **iniciranjem**
+- **lale** *(frek. 251, gen. laleta)* — Prolećni čašasti cvetovi (množina od lala).
+  - D/L jd = **laletu**, I jd = **laletom**
+- **tele** *(frek. 251, gen. teleta)* — Mladunče krave.
+  - I jd = **teletom**
+- **ticalo** *(frek. 251, gen. ticala)* — Izduženi osetljivi pipak insekta na glavi, antena.
+  - D/L jd = **ticalu**, I jd = **ticalom**, D/I/L mn = **ticalima**
+- **presvlačenje** *(frek. 248, gen. presvlačenja)* — Promena odeće.
+  - D/L jd = **presvlačenju**
+- **razbojništvo** *(frek. 247, gen. razbojništva)* — Pljačka uz nasilje; razbojnička dela.
+  - D/L jd = **razbojništvu**, I jd = **razbojništvom**
+- **belance** *(frek. 246, gen. belanca)* — Beli deo jajeta oko žumanca; belance.
+  - D/L jd = **belancu**, I jd = **belancem**
+- **zahlađenje** *(frek. 246, gen. zahlađenja)* — Naglo zahlađenje vremena.
+  - D/L jd = **zahlađenju**
+- **ovaploćenje** *(frek. 244, gen. ovaploćenja)* — Dobijanje telesnog oblika; otelovljenje.
+  - I jd = **ovaploćenjem**
+- **sujeverje** *(frek. 244, gen. sujeverja)* — Verovanje u zle znake i čari; praznoverje.
+  - D/I/L mn = **sujeverjima**
+- **tuce** *(frek. 243, gen. tuceta)* — Količina od dvanaest komada.
+  - D/L jd = **tucetu**
+- **nagomilavanje** *(frek. 242, gen. nagomilavanja)* — Stvaranje velikih gomila.
+  - D/L jd = **nagomilavanju**, I jd = **nagomilavanjem**
+- **proveravanje** *(frek. 242, gen. proveravanja)* — Utvrđivanje tačnosti; provera.
+  - I jd = **proveravanjem**
+- **pregledanje** *(frek. 240, gen. pregledanja)* — Pažljivo razgledanje i provera.
+  - I jd = **pregledanjem**
+- **jedrenje** *(frek. 239, gen. jedrenja)* — Plovidba pomoću jedara.
+  - I jd = **jedrenjem**
+- **poliranje** *(frek. 239, gen. poliranja)* — Glačanje do sjaja.
+  - I jd = **poliranjem**
+- **prekrajanje** *(frek. 238, gen. prekrajanja)* — Ponovno sečenje i preoblikovanje.
+  - I jd = **prekrajanjem**
+- **zavarivanje** *(frek. 238, gen. zavarivanja)* — Spajanje metala topljenjem; varenje.
+  - D/L jd = **zavarivanju**, I jd = **zavarivanjem**
+- **branje** *(frek. 237, gen. branja)* — Skupljanje plodova ili cveća.
+  - I jd = **branjem**
+- **paparaco** *(frek. 233, gen. paparaca)* — Nametljiv fotograf koji vreba i snima poznate ličnosti.
+  - D/L jd = **paparacu**, I jd = **paparacem**
+- **pikado** *(frek. 233, gen. pikada)* — Igra gađanja strelicama u metu.
+  - I jd = **pikadom**
+- **ispovedanje** *(frek. 232, gen. ispovedanja)* — Iznošenje grehova svešteniku; poveravanje.
+  - D/L jd = **ispovedanju**, I jd = **ispovedanjem**
+- **manipulisanje** *(frek. 232, gen. manipulisanja)* — Vešto upravljanje; obmanjivanje radi koristi.
+  - D/L jd = **manipulisanju**, I jd = **manipulisanjem**
+- **gledalište** *(frek. 231, gen. gledališta)* — Prostor sa sedištima za gledaoce.
+  - I jd = **gledalištem**
+- **sučeljavanje** *(frek. 231, gen. sučeljavanja)* — Oblik reči sučeljavanje (suočavanje, suprotstavljanje).
+  - I jd = **sučeljavanjem**
+- **hodočašće** *(frek. 230, gen. hodočašća)* — Putovanje na sveto mesto.
+  - D/I/L mn = **hodočašćima**
+- **mazanje** *(frek. 230, gen. mazanja)* — Premazivanje mašću ili kremom; podmazivanje.
+  - D/L jd = **mazanju**
+- **sahranjivanje** *(frek. 229, gen. sahranjivanja)* — Obred polaganja umrlog u grob; pogreb.
+  - D/L jd = **sahranjivanju**, I jd = **sahranjivanjem**
+- **ležanje** *(frek. 228, gen. ležanja)* — Boravljenje u ležećem položaju.
+  - D/L jd = **ležanju**
+- **propuštanje** *(frek. 226, gen. propuštanja)* — Dopuštanje prolaza; izostavljanje prilike.
+  - D/L jd = **propuštanju**, I jd = **propuštanjem**
+- **ždrelo** *(frek. 226, gen. ždrela)* — Uzan ulaz u klisuru; zadnji deo grla.
+  - D/I/L mn = **ždrelima**
+- **saopštavanje** *(frek. 225, gen. saopštavanja)* — Prenošenje vesti; obaveštavanje.
+  - D/L jd = **saopštavanju**, I jd = **saopštavanjem**
+- **poletanje** *(frek. 224, gen. poletanja)* — Trenutak kad se avion ili ptica odvoji od tla i digne u vazd
+  - I jd = **poletanjem**
+- **preuzeće** *(frek. 224, gen. preuzeća)* — Preuzimanje, ovladavanje preduzećem; preuzeće.
+  - I jd = **preuzećem**
+- **ohrabrivanje** *(frek. 221, gen. ohrabrivanja)* — Davanje hrabrosti; bodrenje.
+  - D/L jd = **ohrabrivanju**, I jd = **ohrabrivanjem**
+- **čupanje** *(frek. 221, gen. čupanja)* — Vučenje da bi se izvuklo iz korena.
+  - D/L jd = **čupanju**, I jd = **čupanjem**
+- **cimanje** *(frek. 219, gen. cimanja)* — Naglo trzanje i potezanje (glagolska imenica).
+  - D/L jd = **cimanju**, I jd = **cimanjem**
+- **dopisivanje** *(frek. 218, gen. dopisivanja)* — Razmena pisama; korespondencija.
+  - I jd = **dopisivanjem**
+- **ogledalce** *(frek. 218, gen. ogledalca)* — Malo ogledalo.
+  - D/L jd = **ogledalcu**, I jd = **ogledalcem**, D/I/L mn = **ogledalcima**
+- **kormilo** *(frek. 217, gen. kormila)* — Sprava kojom se upravlja brodom ili kolima.
+  - D/I/L mn = **kormilima**
+- **obilježje** *(frek. 217, gen. obilježja)* — Obeležje, znak, karakteristika (ijekavski).
+  - D/L jd = **obilježju**
+- **mlaćenje** *(frek. 216, gen. mlaćenja)* — Snažno udaranje; takođe izdvajanje zrna iz klasja (glagolska
+  - D/L jd = **mlaćenju**
+- **motivisanje** *(frek. 216, gen. motivisanja)* — Podsticanje na delovanje.
+  - D/L jd = **motivisanju**, I jd = **motivisanjem**
+- **prozivanje** *(frek. 216, gen. prozivanja)* — Pozivanje po imenu; prigovaranje.
+  - D/L jd = **prozivanju**
+- **leglo** *(frek. 215, gen. legla)* — Mesto gde životinja koti mladunce; mladunci iz jednog kotenj
+  - I jd = **leglom**
+- **neiskustvo** *(frek. 215, gen. neiskustva)* — Nedostatak iskustva.
+  - I jd = **neiskustvom**
+- **preticanje** *(frek. 215, gen. preticanja)* — Prolaženje pored sporijeg vozila.
+  - D/L jd = **preticanju**, I jd = **preticanjem**
+- **priobalje** *(frek. 215, gen. priobalja)* — Pojas uz obalu.
+  - I jd = **priobaljem**
+- **otopljavanje** *(frek. 214, gen. otopljavanja)* — Topljenje leda i snega; jenjavanje napetosti.
+  - I jd = **otopljavanjem**
+- **grickanje** *(frek. 213, gen. grickanja)* — Jedenje sitnim zalogajima, malo po malo.
+  - D/L jd = **grickanju**, I jd = **grickanjem**
+- **devojče** *(frek. 212, gen. devojčeta)* — Mlada devojka; devojčica.
+  - D/L jd = **devojčetu**
+- **izlučivanje** *(frek. 210, gen. izlučivanja)* — Odvajanje i izbacivanje iz organizma.
+  - D/L jd = **izlučivanju**, I jd = **izlučivanjem**
+- **očinstvo** *(frek. 210, gen. očinstva)* — Svojstvo i uloga oca.
+  - D/I/L mn = **očinstvima**
+- **poklanjanje** *(frek. 210, gen. poklanjanja)* — Davanje na poklon; darivanje.
+  - D/L jd = **poklanjanju**
+- **zagađivanje** *(frek. 210, gen. zagađivanja)* — Prljanje okoline štetnim materijama.
+  - I jd = **zagađivanjem**
+- **dobročinstvo** *(frek. 208, gen. dobročinstva)* — Činjenje dobrih dela i pomoć drugima.
+  - I jd = **dobročinstvom**
+- **etiketiranje** *(frek. 208, gen. etiketiranja)* — Oblik reči etiketiranje (lepljenje etiketa; obeležavanje, ži
+  - D/L jd = **etiketiranju**, I jd = **etiketiranjem**
+- **nastavljanje** *(frek. 208, gen. nastavljanja)* — Produžavanje započetog.
+  - I jd = **nastavljanjem**
+- **odmeravanje** *(frek. 208, gen. odmeravanja)* — Pažljivo merenje; takođe odmeravanje pogledom.
+  - I jd = **odmeravanjem**
+- **presađivanje** *(frek. 208, gen. presađivanja)* — Premeštanje biljke ili organa na drugo mesto.
+  - D/L jd = **presađivanju**
+- **računalo** *(frek. 208, gen. računala)* — Računalo — računar (varijanta).
+  - I jd = **računalom**
+- **osvežavanje** *(frek. 207, gen. osvežavanja)* — Vraćanje svežine i snage.
+  - I jd = **osvežavanjem**
+- **predvorje** *(frek. 206, gen. predvorja)* — Prostor pred ulazom; ulazni hol.
+  - D/I/L mn = **predvorjima**
+- **vaznesenje** *(frek. 206, gen. vaznesenja)* — Uznošenje na nebo; verski praznik.
+  - I jd = **vaznesenjem**
+- **zabavište** *(frek. 206, gen. zabavišta)* — Predškolska ustanova za malu decu, obdanište.
+  - I jd = **zabavištem**
+- **origano** *(frek. 204, gen. origana)* — Mirisni začin, vranilovka.
+  - D/L jd = **origanu**
+- **polugodište** *(frek. 204, gen. polugodišta)* — Polovina školske ili poslovne godine.
+  - I jd = **polugodištem**, D/I/L mn = **polugodištima**
+- **presecanje** *(frek. 202, gen. presecanja)* — Sečenje popreko; razdvajanje.
+  - I jd = **presecanjem**
+- **udisanje** *(frek. 201, gen. udisanja)* — Uvlačenje vazduha u pluća.
+  - D/L jd = **udisanju**
+- **lajanje** *(frek. 200, gen. lajanja)* — Glasanje psa.
+  - D/L jd = **lajanju**
+- **preklapanje** *(frek. 200, gen. preklapanja)* — Savijanje jednog dela preko drugog.
+  - I jd = **preklapanjem**
+- **sisanje** *(frek. 200, gen. sisanja)* — Uvlačenje tečnosti ustima.
+  - D/L jd = **sisanju**
+- **vrenje** *(frek. 200, gen. vrenja)* — Ključanje; takođe previranje, fermentacija.
+  - I jd = **vrenjem**
+- **formatiranje** *(frek. 199, gen. formatiranja)* — Određivanje oblika; brisanje i priprema diska.
+  - D/L jd = **formatiranju**, I jd = **formatiranjem**
+- **izobilje** *(frek. 199, gen. izobilja)* — Velika obilnost svega.
+  - D/I/L mn = **izobiljima**
+- **rezonovanje** *(frek. 199, gen. rezonovanja)* — Razložno rasuđivanje i zaključivanje.
+  - I jd = **rezonovanjem**
+- **drhtanje** *(frek. 198, gen. drhtanja)* — Sitno i brzo treperenje tela; podrhtavanje.
+  - D/L jd = **drhtanju**, I jd = **drhtanjem**
+- **magare** *(frek. 197, gen. magareta)* — Mlado magarca; takođe umiljat naziv za magarca.
+  - I jd = **magaretom**
+- **mestašce** *(frek. 197, gen. mestašca)* — Malo mesto; mestance.
+  - I jd = **mestašcem**
+- **svrstavanje** *(frek. 197, gen. svrstavanja)* — Razvrstavanje i raspoređivanje u redove.
+  - I jd = **svrstavanjem**
+- **nasleđivanje** *(frek. 196, gen. nasleđivanja)* — Dobijanje u nasleđe; baštinjenje.
+  - I jd = **nasleđivanjem**
+- **žvakanje** *(frek. 194, gen. žvakanja)* — Drobljenje hrane zubima u ustima.
+  - D/L jd = **žvakanju**
+- **lupetanje** *(frek. 192, gen. lupetanja)* — Govorenje gluposti i koještarija.
+  - D/L jd = **lupetanju**, I jd = **lupetanjem**
+- **oblaganje** *(frek. 192, gen. oblaganja)* — Prekrivanje slojem; postavljanje obloge.
+  - I jd = **oblaganjem**
+- **regrutovanje** *(frek. 192, gen. regrutovanja)* — Pozivanje i prikupljanje novih ljudi.
+  - I jd = **regrutovanjem**
+- **pribežište** *(frek. 191, gen. pribežišta)* — Mesto kuda se beži radi zaštite; utočište.
+  - I jd = **pribežištem**
+- **obmanjivanje** *(frek. 189, gen. obmanjivanja)* — Namerno dovođenje u zabludu; varanje.
+  - I jd = **obmanjivanjem**
+- **raspuštanje** *(frek. 189, gen. raspuštanja)* — Puštanje da se raziđe; razvod braka.
+  - I jd = **raspuštanjem**
+- **isparavanje** *(frek. 188, gen. isparavanja)* — Pretvaranje tečnosti u paru.
+  - I jd = **isparavanjem**
+- **majčinstvo** *(frek. 187, gen. majčinstva)* — Svojstvo i uloga majke.
+  - I jd = **majčinstvom**
+- **odvikavanje** *(frek. 187, gen. odvikavanja)* — Oslobađanje od navike; odučavanje.
+  - I jd = **odvikavanjem**
+- **autorstvo** *(frek. 186, gen. autorstva)* — Svojstvo i pravo onoga ko je delo stvorio.
+  - I jd = **autorstvom**
+- **ostajanje** *(frek. 186, gen. ostajanja)* — Zadržavanje na istom mestu ili u istom stanju.
+  - I jd = **ostajanjem**
+- **orgulje** *(frek. 185, gen. orgulja)* — Veliki instrument sa cevima i dirkama, u crkvama.
+  - D/L jd = **orgulju**, I jd = **orguljem**
+- **seoce** *(frek. 184, gen. seoca)* — Malo selo; seoce.
+  - I jd = **seocem**
+- **kopile** *(frek. 181, gen. kopila)* — Dete rođeno van braka, vanbračno dete; pogrdno: hulja i nitk
+  - D/L jd = **kopilu**, I jd = **kopilem**
+- **libero** *(frek. 181, gen. libera)* — Slobodni igrač u odbojci ili fudbalu, bez napadačke obaveze.
+  - D/L jd = **liberu**, I jd = **liberom**
+- **neraspoloženje** *(frek. 181, gen. neraspoloženja)* — Loše raspoloženje, zlovolja; neraspoloženje.
+  - D/L jd = **neraspoloženju**, I jd = **neraspoloženjem**
+- **usisavanje** *(frek. 181, gen. usisavanja)* — Skupljanje prašine usisivačem.
+  - D/L jd = **usisavanju**
+- **dopunjavanje** *(frek. 180, gen. dopunjavanja)* — Dodavanje radi popune; dopuna.
+  - I jd = **dopunjavanjem**
+- **espreso** *(frek. 180, gen. espresa)* — Jaka kafa pripremljena pod pritiskom pare.
+  - D/L jd = **espresu**, I jd = **espresom**
+- **ispisivanje** *(frek. 180, gen. ispisivanja)* — Pisanje teksta; brisanje iz evidencije.
+  - D/L jd = **ispisivanju**, I jd = **ispisivanjem**
+- **podmazivanje** *(frek. 180, gen. podmazivanja)* — Premazivanje mašću radi lakšeg rada; potplaćivanje.
+  - D/L jd = **podmazivanju**, I jd = **podmazivanjem**
+- **ojačavanje** *(frek. 179, gen. ojačavanja)* — Davanje veće čvrstine i snage.
+  - I jd = **ojačavanjem**
+- **uzemljenje** *(frek. 179, gen. uzemljenja)* — Povezivanje uređaja sa zemljom radi bezbednosti.
+  - D/L jd = **uzemljenju**
+- **zadrugarstvo** *(frek. 178, gen. zadrugarstva)* — Udruživanje u zadruge.
+  - D/L jd = **zadrugarstvu**, I jd = **zadrugarstvom**
+- **čitalište** *(frek. 178, gen. čitališta)* — Čitaonica.
+  - I jd = **čitalištem**
+- **granatiranje** *(frek. 177, gen. granatiranja)* — Zasipanje granatama; bombardovanje.
+  - D/L jd = **granatiranju**
+- **jutrenje** *(frek. 177, gen. jutrenja)* — Jutarnja crkvena služba.
+  - I jd = **jutrenjem**
+- **naplaćivanje** *(frek. 177, gen. naplaćivanja)* — Uzimanje novca za robu ili dug.
+  - D/L jd = **naplaćivanju**, I jd = **naplaćivanjem**
+- **obrezivanje** *(frek. 177, gen. obrezivanja)* — Sečenje suvišnog; verski obred kod muškaraca.
+  - I jd = **obrezivanjem**
+- **olakšavanje** *(frek. 175, gen. olakšavanja)* — Činjenje lakšim; ublažavanje.
+  - I jd = **olakšavanjem**
+- **pomodarstvo** *(frek. 175, gen. pomodarstva)* — Robovsko praćenje mode.
+  - D/L jd = **pomodarstvu**
+- **fekalije** *(frek. 174, gen. fekalija)* — Telesni otpad, izmet, ljudske ili životinjske nečistoće.
+  - D/L jd = **fekaliju**, I jd = **fekalijem**
+- **doseljavanje** *(frek. 173, gen. doseljavanja)* — Dolazak da se negde nastani.
+  - I jd = **doseljavanjem**
+- **fiksiranje** *(frek. 173, gen. fiksiranja)* — Učvršćivanje i utvrđivanje na mestu.
+  - D/L jd = **fiksiranju**, I jd = **fiksiranjem**
+- **raseljavanje** *(frek. 173, gen. raseljavanja)* — Premeštanje stanovništva na druga mesta.
+  - I jd = **raseljavanjem**
+- **useljenje** *(frek. 172, gen. useljenja)* — Ulazak u novi stan da se u njemu živi.
+  - I jd = **useljenjem**
+- **zarastanje** *(frek. 172, gen. zarastanja)* — Zatvaranje rane; obrastanje korovom.
+  - I jd = **zarastanjem**
+- **geto** *(frek. 169, gen. geta)* — Siromašni, izolovani deo grada.
+  - I jd = **getom**
+- **tromesečje** *(frek. 169, gen. tromesečja)* — Razdoblje od tri meseca, kvartal.
+  - I jd = **tromesečjem**, D/I/L mn = **tromesečjima**
+- **šetanje** *(frek. 168, gen. šetanja)* — Lagano hodanje radi razonode.
+  - I jd = **šetanjem**
+- **administriranje** *(frek. 167, gen. administriranja)* — Oblik reči administrirati (upravljati, voditi poslove).
+  - I jd = **administriranjem**
+- **granje** *(frek. 167, gen. granja)* — Sve grane zajedno.
+  - D/L jd = **granju**
+- **jezerce** *(frek. 167, gen. jezerca)* — Malo jezero.
+  - I jd = **jezercem**
+- **pozajmljivanje** *(frek. 166, gen. pozajmljivanja)* — Davanje ili uzimanje na zajam.
+  - D/L jd = **pozajmljivanju**
+- **ljuljanje** *(frek. 165, gen. ljuljanja)* — Pokretanje napred-nazad; njihanje.
+  - I jd = **ljuljanjem**
+- **odmrzavanje** *(frek. 165, gen. odmrzavanja)* — Topljenje leda; vraćanje iz zamrznutog stanja.
+  - I jd = **odmrzavanjem**
+- **predskazanje** *(frek. 164, gen. predskazanja)* — Unapred kazivanje budućnosti; proricanje.
+  - I jd = **predskazanjem**
+- **raščišćavanje** *(frek. 164, gen. raščišćavanja)* — Uklanjanje nereda i prepreka.
+  - D/L jd = **raščišćavanju**, I jd = **raščišćavanjem**
+- **smaranje** *(frek. 164, gen. smaranja)* — Dosađivanje, gnjavaža (žargonski).
+  - D/L jd = **smaranju**, I jd = **smaranjem**
+- **stratište** *(frek. 164, gen. stratišta)* — Mesto na kome se izvršavaju smrtne kazne, gubilište; stratiš
+  - D/I/L mn = **stratištima**
+- **bratimljenje** *(frek. 163, gen. bratimljenja)* — Sklapanje pobratimstva i zbližavanje.
+  - I jd = **bratimljenjem**
+- **kampovanje** *(frek. 163, gen. kampovanja)* — Boravak u prirodi pod šatorom.
+  - I jd = **kampovanjem**
+- **pokućstvo** *(frek. 163, gen. pokućstva)* — Pokretne stvari i nameštaj u kući.
+  - D/L jd = **pokućstvu**
+- **razjašnjenje** *(frek. 162, gen. razjašnjenja)* — Činjenje nečega jasnim.
+  - I jd = **razjašnjenjem**
+- **ostrvce** *(frek. 161, gen. ostrvca)* — Malo ostrvo.
+  - I jd = **ostrvcem**
+- **parkiralište** *(frek. 161, gen. parkirališta)* — Mesto za parkiranje vozila.
+  - I jd = **parkiralištem**
+- **vajarstvo** *(frek. 161, gen. vajarstva)* — Umetnost vajanja kipova.
+  - D/I/L mn = **vajarstvima**
+- **janje** *(frek. 160, gen. janjeta)* — Mlado ovce; jagnje.
+  - D/L jd = **janjetu**, I jd = **janjetom**
+- **skandiranje** *(frek. 160, gen. skandiranja)* — Glasno ritmično ponavljanje u horu.
+  - D/L jd = **skandiranju**, I jd = **skandiranjem**
+- **figaro** *(frek. 159, gen. figara)* — Figaro — junak Bomaršeovih komedija (Figarova ženidba); berb
+  - D/L jd = **figaru**, I jd = **figarom**
+- **violončelo** *(frek. 159, gen. violončela)* — Veliki gudački instrument koji se drži među kolenima.
+  - I jd = **violončelom**
+- **završavanje** *(frek. 159, gen. završavanja)* — Privođenje kraju; dovršavanje.
+  - I jd = **završavanjem**
+- **isterivanje** *(frek. 158, gen. isterivanja)* — Teranje napolje; isterivanje dugova.
+  - I jd = **isterivanjem**
+- **starešinstvo** *(frek. 158, gen. starešinstva)* — Položaj i uloga starešine.
+  - I jd = **starešinstvom**
+- **zavijanje** *(frek. 158, gen. zavijanja)* — Otegnuto glasanje vuka ili psa.
+  - D/L jd = **zavijanju**
+- **bledilo** *(frek. 157, gen. bledila)* — Bezbojnost, slabo rumenilo; bleda boja lica.
+  - D/I/L mn = **bledilima**
+- **mucanje** *(frek. 157, gen. mucanja)* — Govor sa zastajkivanjem i ponavljanjem glasova.
+  - D/L jd = **mucanju**
+- **preuređenje** *(frek. 157, gen. preuređenja)* — Ponovno uređivanje i preraspoređivanje.
+  - I jd = **preuređenjem**
+- **razmeštanje** *(frek. 156, gen. razmeštanja)* — Razmeštanje po mestima.
+  - I jd = **razmeštanjem**
+- **dogovaranje** *(frek. 155, gen. dogovaranja)* — Usaglašavanje oko nečega; dogovor.
+  - I jd = **dogovaranjem**
+- **herojstvo** *(frek. 155, gen. herojstva)* — Junaštvo; herojski podvig.
+  - D/I/L mn = **herojstvima**
+- **mentorstvo** *(frek. 153, gen. mentorstva)* — Vođenje i savetovanje mlađih.
+  - D/L jd = **mentorstvu**, I jd = **mentorstvom**
+- **predsoblje** *(frek. 153, gen. predsoblja)* — Prostorija odmah iza ulaznih vrata, hodnik.
+  - D/I/L mn = **predsobljima**
+- **skrovište** *(frek. 153, gen. skrovišta)* — Skriveno mesto gde se neko ili nešto krije.
+  - I jd = **skrovištem**
+- **brušenje** *(frek. 152, gen. brušenja)* — Glačanje i oštrenje trljanjem o tvrdu površinu.
+  - D/L jd = **brušenju**
+- **licitiranje** *(frek. 152, gen. licitiranja)* — Nadmetanje u ceni na javnoj prodaji.
+  - I jd = **licitiranjem**
+- **prisustvovanje** *(frek. 152, gen. prisustvovanja)* — Lično biti prisutan na nečemu.
+  - D/L jd = **prisustvovanju**, I jd = **prisustvovanjem**
+- **odmorište** *(frek. 151, gen. odmorišta)* — Ravan deo stepeništa za predah; mesto za odmor.
+  - I jd = **odmorištem**
+- **očišćenje** *(frek. 151, gen. očišćenja)* — Oslobađanje od prljavštine i greha.
+  - D/L jd = **očišćenju**
+- **uznemirenje** *(frek. 151, gen. uznemirenja)* — Stanje nemira i uzbuđenosti.
+  - I jd = **uznemirenjem**
+- **neverstvo** *(frek. 150, gen. neverstva)* — Bračna nevera; izneverenje.
+  - I jd = **neverstvom**
+- **uvežbavanje** *(frek. 150, gen. uvežbavanja)* — Vežbanjem usavršavanje; uigravanje.
+  - I jd = **uvežbavanjem**
+- **deponovanje** *(frek. 149, gen. deponovanja)* — Polaganje sredstava ili odlaganje robe.
+  - I jd = **deponovanjem**
+- **namirenje** *(frek. 149, gen. namirenja)* — Izmirenje duga ili računa.
+  - I jd = **namirenjem**
+- **kvarenje** *(frek. 148, gen. kvarenja)* — Dovođenje u neispravno stanje.
+  - I jd = **kvarenjem**
+- **sađenje** *(frek. 148, gen. sađenja)* — Stavljanje biljaka u zemlju da rastu.
+  - I jd = **sađenjem**
+- **tetoviranje** *(frek. 148, gen. tetoviranja)* — Trajno urezivanje crteža u kožu.
+  - D/L jd = **tetoviranju**, I jd = **tetoviranjem**
+- **afirmisanje** *(frek. 147, gen. afirmisanja)* — Potvrđivanje i isticanje vrednosti.
+  - I jd = **afirmisanjem**
+- **smetlište** *(frek. 147, gen. smetlišta)* — Mesto gde se odlaže smeće.
+  - D/I/L mn = **smetlištima**
+- **ulepšavanje** *(frek. 147, gen. ulepšavanja)* — Činjenje lepšim; doterivanje.
+  - I jd = **ulepšavanjem**
+- **podrhtavanje** *(frek. 146, gen. podrhtavanja)* — Lako, ponavljano drhtanje.
+  - D/L jd = **podrhtavanju**, I jd = **podrhtavanjem**
+- **mučeništvo** *(frek. 145, gen. mučeništva)* — Trpljenje velikih muka, stradanje za uverenje; mučeništvo.
+  - I jd = **mučeništvom**, D/I/L mn = **mučeništvima**
+- **pretresanje** *(frek. 145, gen. pretresanja)* — Temeljno pregledanje; razmatranje.
+  - I jd = **pretresanjem**
+- **obilaženje** *(frek. 144, gen. obilaženja)* — Kretanje oko nečega ili posećivanje redom (glagolska imenica
+  - D/L jd = **obilaženju**
+- **osiguravanje** *(frek. 144, gen. osiguravanja)* — Obezbeđivanje od štete i opasnosti.
+  - D/L jd = **osiguravanju**, I jd = **osiguravanjem**
+- **pročišćenje** *(frek. 144, gen. pročišćenja)* — Čišćenje od nečistoća; duhovno očišćenje.
+  - I jd = **pročišćenjem**
+- **zaljubljivanje** *(frek. 144, gen. zaljubljivanja)* — Buđenje ljubavnih osećanja.
+  - I jd = **zaljubljivanjem**
+- **upošljavanje** *(frek. 143, gen. upošljavanja)* — Davanje posla i zapošljavanje.
+  - I jd = **upošljavanjem**
+- **kritikovanje** *(frek. 142, gen. kritikovanja)* — Iznošenje kritike; ukazivanje na mane.
+  - D/L jd = **kritikovanju**, I jd = **kritikovanjem**
+- **otpočinjanje** *(frek. 142, gen. otpočinjanja)* — Započinjanje neke radnje.
+  - D/L jd = **otpočinjanju**, I jd = **otpočinjanjem**
+- **treperenje** *(frek. 142, gen. treperenja)* — Brzo, nemirno titranje svetlosti ili lišća.
+  - D/L jd = **treperenju**
+- **uručivanje** *(frek. 142, gen. uručivanja)* — Predavanje nečega u ruke.
+  - I jd = **uručivanjem**
+- **zatiranje** *(frek. 142, gen. zatiranja)* — Uništavanje i iskorenjivanje.
+  - I jd = **zatiranjem**
+- **foliranje** *(frek. 141, gen. foliranja)* — Obmanjivanje i pretvaranje.
+  - D/L jd = **foliranju**, I jd = **foliranjem**
+- **odvodnjavanje** *(frek. 141, gen. odvodnjavanja)* — Odvođenje suvišne vode iz tla.
+  - D/L jd = **odvodnjavanju**, I jd = **odvodnjavanjem**
+- **vinogorje** *(frek. 141, gen. vinogorja)* — Vinorodni kraj; oblast vinograda.
+  - I jd = **vinogorjem**
+- **animiranje** *(frek. 140, gen. animiranja)* — Oblik reči animiranje (oživljavanje slika; podsticanje).
+  - I jd = **animiranjem**
+- **navikavanje** *(frek. 140, gen. navikavanja)* — Sticanje navike; privikavanje.
+  - I jd = **navikavanjem**
+- **odigravanje** *(frek. 140, gen. odigravanja)* — Oblik reči odigravanje (izvođenje, odvijanje).
+  - I jd = **odigravanjem**
+- **pseto** *(frek. 140, gen. pseta)* — Pas (često pogrdno ili sažaljivo).
+  - D/L jd = **psetu**
+- **genitalije** *(frek. 138, gen. genitalija)* — Polni organi.
+  - D/L jd = **genitaliju**, I jd = **genitalijem**
+- **svanuće** *(frek. 138, gen. svanuća)* — Trenutak kad svane, zora.
+  - I jd = **svanućem**
+- **čistilište** *(frek. 138, gen. čistilišta)* — U hrišćanstvu mesto privremenog čišćenja duša.
+  - I jd = **čistilištem**
+- **dekodiranje** *(frek. 137, gen. dekodiranja)* — Razrešavanje zapisa iz koda.
+  - I jd = **dekodiranjem**
+- **doterivanje** *(frek. 137, gen. doterivanja)* — Sređivanje izgleda; uređivanje do tančina.
+  - I jd = **doterivanjem**
+- **nakupljanje** *(frek. 137, gen. nakupljanja)* — Skupljanje u veće količine.
+  - D/L jd = **nakupljanju**, I jd = **nakupljanjem**
+- **otapanje** *(frek. 137, gen. otapanja)* — Pretvaranje čvrstog u tečno topljenjem.
+  - D/L jd = **otapanju**
+- **razvlačenje** *(frek. 137, gen. razvlačenja)* — Rastezanje; odugovlačenje.
+  - I jd = **razvlačenjem**
+- **betoniranje** *(frek. 136, gen. betoniranja)* — Izlivanje i ojačavanje betonom.
+  - D/L jd = **betoniranju**, I jd = **betoniranjem**
+- **osiromašenje** *(frek. 136, gen. osiromašenja)* — Postajanje siromašnim.
+  - D/L jd = **osiromašenju**, I jd = **osiromašenjem**
+- **požrtvovanje** *(frek. 136, gen. požrtvovanja)* — Žrtvovanje sebe za druge; samoodricanje.
+  - I jd = **požrtvovanjem**
+- **redukovanje** *(frek. 136, gen. redukovanja)* — Smanjivanje i svođenje na manju meru.
+  - D/L jd = **redukovanju**, I jd = **redukovanjem**
+- **osamostaljivanje** *(frek. 135, gen. osamostaljivanja)* — Oblik reči osamostaljivanje (sticanje samostalnosti).
+  - I jd = **osamostaljivanjem**
+- **ranjavanje** *(frek. 135, gen. ranjavanja)* — Nanošenje rana.
+  - I jd = **ranjavanjem**
+- **nerviranje** *(frek. 134, gen. nerviranja)* — Razdraženost i ljutnja, gubitak živaca; nerviranje.
+  - I jd = **nerviranjem**
+- **obračunavanje** *(frek. 134, gen. obračunavanja)* — Sravnjivanje računa; svođenje računa.
+  - D/L jd = **obračunavanju**, I jd = **obračunavanjem**
+- **trljanje** *(frek. 134, gen. trljanja)* — Trvenje površine rukom ili krpom.
+  - D/L jd = **trljanju**
+- **iscrpljivanje** *(frek. 133, gen. iscrpljivanja)* — Dovođenje do potpune iznemoglosti.
+  - D/L jd = **iscrpljivanju**, I jd = **iscrpljivanjem**
+- **iskrcavanje** *(frek. 133, gen. iskrcavanja)* — Izlazak iz prevoznog sredstva ili istovar.
+  - I jd = **iskrcavanjem**
+- **isušivanje** *(frek. 133, gen. isušivanja)* — Uklanjanje vlage; isparavanje vode.
+  - D/L jd = **isušivanju**, I jd = **isušivanjem**
+- **ograđivanje** *(frek. 133, gen. ograđivanja)* — Postavljanje ograde; distanciranje.
+  - D/L jd = **ograđivanju**, I jd = **ograđivanjem**
+- **reprogramiranje** *(frek. 133, gen. reprogramiranja)* — Ponovno i drugačije programiranje, izmena unetog programa.
+  - D/L jd = **reprogramiranju**, I jd = **reprogramiranjem**
+- **češljanje** *(frek. 133, gen. češljanja)* — Sređivanje kose češljem.
+  - I jd = **češljanjem**
+- **idolopoklonstvo** *(frek. 132, gen. idolopoklonstva)* — Obožavanje idola; preterano klanjanje nekome.
+  - D/L jd = **idolopoklonstvu**, I jd = **idolopoklonstvom**
+- **naoružavanje** *(frek. 132, gen. naoružavanja)* — Opremanje oružjem.
+  - D/L jd = **naoružavanju**, I jd = **naoružavanjem**
+- **saučesništvo** *(frek. 132, gen. saučesništva)* — Učešće u zločinu; saučesništvo.
+  - D/L jd = **saučesništvu**, I jd = **saučesništvom**
+- **sumiranje** *(frek. 132, gen. sumiranja)* — Sabiranje i sažeto izlaganje ukupnog.
+  - I jd = **sumiranjem**
+- **usporenje** *(frek. 132, gen. usporenja)* — Smanjenje brzine.
+  - D/L jd = **usporenju**, I jd = **usporenjem**
+- **hraniteljstvo** *(frek. 131, gen. hraniteljstva)* — Brižno staranje o tuđem detetu kao o svom.
+  - D/L jd = **hraniteljstvu**, I jd = **hraniteljstvom**
+- **sopstvo** *(frek. 130, gen. sopstva)* — Sopstvenost, vlastitost, lično ja; sopstvo.
+  - I jd = **sopstvom**
+- **katoličanstvo** *(frek. 129, gen. katoličanstva)* — Katolička grana hrišćanske vere.
+  - D/L jd = **katoličanstvu**, I jd = **katoličanstvom**
+- **ubiranje** *(frek. 129, gen. ubiranja)* — Skupljanje plodova ili prihoda.
+  - I jd = **ubiranjem**
+- **zadebljanje** *(frek. 129, gen. zadebljanja)* — Mesto gde je nešto deblje; otok.
+  - D/L jd = **zadebljanju**
+- **komandovanje** *(frek. 128, gen. komandovanja)* — Izdavanje komandi; zapovedanje.
+  - I jd = **komandovanjem**
+- **korigovanje** *(frek. 128, gen. korigovanja)* — Ispravljanje grešaka.
+  - I jd = **korigovanjem**
+- **ojačanje** *(frek. 128, gen. ojačanja)* — Pojačavanje čvrstine i otpornosti.
+  - D/L jd = **ojačanju**, I jd = **ojačanjem**
+- **startovanje** *(frek. 128, gen. startovanja)* — Pokretanje i polazak.
+  - I jd = **startovanjem**
+- **šivenje** *(frek. 128, gen. šivenja)* — Spajanje delova tkanine iglom i koncem.
+  - I jd = **šivenjem**
+- **divljaštvo** *(frek. 127, gen. divljaštva)* — Surovo, neobuzdano i necivilizovano ponašanje.
+  - D/L jd = **divljaštvu**
+- **dobacivanje** *(frek. 127, gen. dobacivanja)* — Upućivanje doviknutih primedaba.
+  - D/L jd = **dobacivanju**, I jd = **dobacivanjem**
+- **uparivanje** *(frek. 127, gen. uparivanja)* — Spajanje u parove; usklađivanje uređaja.
+  - D/L jd = **uparivanju**, I jd = **uparivanjem**
+- **viteštvo** *(frek. 127, gen. viteštva)* — Časno i hrabro ponašanje vitezova.
+  - D/I/L mn = **viteštvima**
+- **rasipništvo** *(frek. 126, gen. rasipništva)* — Sklonost rasipanju; preterano razbacivanje.
+  - D/L jd = **rasipništvu**, I jd = **rasipništvom**
+- **zavaravanje** *(frek. 126, gen. zavaravanja)* — Obmanjivanje, dovođenje u zabludu.
+  - I jd = **zavaravanjem**
+- **gospodstvo** *(frek. 125, gen. gospodstva)* — Otmenost i gospodsko držanje.
+  - D/I/L mn = **gospodstvima**
+- **suparništvo** *(frek. 124, gen. suparništva)* — Nadmetanje sa protivnikom oko istog cilja.
+  - D/L jd = **suparništvu**, I jd = **suparništvom**
+- **ujednačavanje** *(frek. 124, gen. ujednačavanja)* — Dovođenje na isti nivo; izjednačavanje.
+  - D/L jd = **ujednačavanju**, I jd = **ujednačavanjem**
+- **eldorado** *(frek. 123, gen. eldorada)* — Eldorado — bajkovita zemlja zlata i obilja.
+  - I jd = **eldoradom**
+- **izuzimanje** *(frek. 123, gen. izuzimanja)* — Izdvajanje i oslobađanje od pravila.
+  - I jd = **izuzimanjem**
+- **podvlačenje** *(frek. 123, gen. podvlačenja)* — Povlačenje crte ispod teksta.
+  - I jd = **podvlačenjem**
+- **preoblikovanje** *(frek. 123, gen. preoblikovanja)* — Davanje novog oblika.
+  - D/L jd = **preoblikovanju**
+- **provlačenje** *(frek. 123, gen. provlačenja)* — Provođenje kroz uzan prolaz (glagolska imenica).
+  - I jd = **provlačenjem**
+- **torzo** *(frek. 123, gen. torza)* — Trup tela bez glave i udova; gornji deo tela.
+  - I jd = **torzom**
+- **vašarište** *(frek. 123, gen. vašarišta)* — Mesto gde se održava vašar; sajmište.
+  - I jd = **vašarištem**
+- **zaptivanje** *(frek. 123, gen. zaptivanja)* — Zatvaranje radi sprečavanja propuštanja.
+  - D/L jd = **zaptivanju**, I jd = **zaptivanjem**
+- **blaćenje** *(frek. 122, gen. blaćenja)* — Oblik reči „blaćenje“; kaljanje nečijeg ugleda, klevetanje i
+  - D/L jd = **blaćenju**, I jd = **blaćenjem**
+- **izostajanje** *(frek. 122, gen. izostajanja)* — Odsustvovanje i izbivanje.
+  - I jd = **izostajanjem**
+- **kadriranje** *(frek. 122, gen. kadriranja)* — Oblik reči kadriranje (uokvirivanje kadra pri snimanju).
+  - D/L jd = **kadriranju**, I jd = **kadriranjem**
+- **radništvo** *(frek. 122, gen. radništva)* — Radnička klasa, radnici; radništvo.
+  - I jd = **radništvom**
+- **talasanje** *(frek. 122, gen. talasanja)* — Kretanje u talasima; ljuljanje površine.
+  - I jd = **talasanjem**
+- **ucenjivanje** *(frek. 122, gen. ucenjivanja)* — Iznuđivanje pretnjom otkrivanja.
+  - I jd = **ucenjivanjem**
+- **svetogrđe** *(frek. 121, gen. svetogrđa)* — Skrnavljenje svetinje; bogohuljenje.
+  - D/L jd = **svetogrđu**
+- **taloženje** *(frek. 121, gen. taloženja)* — Sleganje taloga na dno.
+  - D/L jd = **taloženju**
+- **viđanje** *(frek. 121, gen. viđanja)* — Povremeno susretanje i viđenje.
+  - I jd = **viđanjem**
+- **preslikavanje** *(frek. 120, gen. preslikavanja)* — Verno prenošenje slike ili oblika.
+  - I jd = **preslikavanjem**
+- **presretanje** *(frek. 120, gen. presretanja)* — Zaustavljanje nekoga na putu.
+  - I jd = **presretanjem**
+- **selište** *(frek. 120, gen. selišta)* — Mesto na kome je nekad bilo selo ili naselje, naseobina; sel
+  - I jd = **selištem**
+- **sučelje** *(frek. 120, gen. sučelja)* — Sučelje — interfejs, dodirna površina (varijanta).
+  - I jd = **sučeljem**
+- **ustoličenje** *(frek. 120, gen. ustoličenja)* — Svečano postavljanje na presto ili položaj.
+  - I jd = **ustoličenjem**
+- **zapisivanje** *(frek. 120, gen. zapisivanja)* — Beleženje i pribeležavanje.
+  - I jd = **zapisivanjem**
+- **goveče** *(frek. 119, gen. govečeta)* — Grlo krupne rogate stoke, govedo; goveče.
+  - D/L jd = **govečetu**
+- **optuživanje** *(frek. 119, gen. optuživanja)* — Iznošenje optužbi protiv nekoga.
+  - I jd = **optuživanjem**
+- **salto** *(frek. 119, gen. salta)* — Akrobatski preokret tela u vazduhu; premet.
+  - D/L jd = **saltu**, I jd = **saltom**, D/I/L mn = **saltima**
+- **zakucavanje** *(frek. 119, gen. zakucavanja)* — Pričvršćivanje ekserima.
+  - D/L jd = **zakucavanju**, I jd = **zakucavanjem**
+- **obuzdavanje** *(frek. 118, gen. obuzdavanja)* — Držanje pod kontrolom; savladavanje.
+  - I jd = **obuzdavanjem**
+- **habanje** *(frek. 117, gen. habanja)* — Trošenje od upotrebe.
+  - D/L jd = **habanju**, I jd = **habanjem**
+- **iščitavanje** *(frek. 117, gen. iščitavanja)* — Pažljivo čitanje i razabiranje.
+  - I jd = **iščitavanjem**
+- **stampedo** *(frek. 117, gen. stampeda)* — Bezglavo bežanje krda; navala mase.
+  - I jd = **stampedom**
+- **mezimče** *(frek. 116, gen. mezimčeta)* — Najmlađe i najmilije dete, mezimac.
+  - D/L jd = **mezimčetu**, I jd = **mezimčetom**
+- **zaobilaženje** *(frek. 116, gen. zaobilaženja)* — Kretanje okolnim putem da se nešto izbegne (glagolska imenic
+  - D/L jd = **zaobilaženju**
+- **posećivanje** *(frek. 115, gen. posećivanja)* — Dolaženje u posetu.
+  - I jd = **posećivanjem**
+- **zrnevlje** *(frek. 115, gen. zrnevlja)* — Mnoštvo zrna, zrnje.
+  - D/L jd = **zrnevlju**, I jd = **zrnevljem**
+- **poveravanje** *(frek. 114, gen. poveravanja)* — Saopštavanje u poverenju; predavanje na čuvanje.
+  - I jd = **poveravanjem**
+- **tolerisanje** *(frek. 114, gen. tolerisanja)* — Trpljenje i podnošenje tuđeg ponašanja.
+  - D/L jd = **tolerisanju**, I jd = **tolerisanjem**
+- **zataškavanje** *(frek. 114, gen. zataškavanja)* — Prikrivanje neugodne istine.
+  - I jd = **zataškavanjem**
+- **zevanje** *(frek. 114, gen. zevanja)* — Otvaranje usta od pospanosti.
+  - D/L jd = **zevanju**
+- **bivstvovanje** *(frek. 113, gen. bivstvovanja)* — Postojanje; življenje, bitisanje.
+  - I jd = **bivstvovanjem**
+- **mekinje** *(frek. 113, gen. mekinja)* — Ljuspice koje ostaju pri mlevenju žita, trice.
+  - D/L jd = **mekinju**, I jd = **mekinjem**
+- **muljanje** *(frek. 113, gen. muljanja)* — Nepošteno postupanje; varanje.
+  - D/L jd = **muljanju**, I jd = **muljanjem**
+- **neutrino** *(frek. 113, gen. neutrina)* — Sićušna čestica bez naelektrisanja koja gotovo bez prepreke 
+  - D/L jd = **neutrinu**, I jd = **neutrinom**
+- **postanje** *(frek. 113, gen. postanja)* — Nastanak i poreklo.
+  - I jd = **postanjem**
+- **prosjačenje** *(frek. 113, gen. prosjačenja)* — Prošnja milostinje.
+  - D/L jd = **prosjačenju**, I jd = **prosjačenjem**
+- **stovarište** *(frek. 113, gen. stovarišta)* — Mesto gde se istovaruje i čuva roba.
+  - I jd = **stovarištem**
+- **odmaranje** *(frek. 112, gen. odmaranja)* — Predah, sticanje snage; odmor.
+  - I jd = **odmaranjem**
+- **ustanovljenje** *(frek. 112, gen. ustanovljenja)* — Utvrđivanje i osnivanje.
+  - D/L jd = **ustanovljenju**
+- **isprobavanje** *(frek. 111, gen. isprobavanja)* — Provera u upotrebi; probanje.
+  - D/L jd = **isprobavanju**, I jd = **isprobavanjem**
+- **traćenje** *(frek. 111, gen. traćenja)* — Nepotrebno trošenje; rasipanje.
+  - I jd = **traćenjem**
+- **uzvišenje** *(frek. 111, gen. uzvišenja)* — Uzdignut deo zemljišta; brežuljak.
+  - I jd = **uzvišenjem**
+- **perce** *(frek. 110, gen. perca)* — Malo pero.
+  - D/L jd = **percu**, I jd = **percem**, D/I/L mn = **percima**
+- **rižoto** *(frek. 110, gen. rižota)* — Jelo od pirinča kuvanog sa dodacima.
+  - D/L jd = **rižotu**, I jd = **rižotom**
+- **štucanje** *(frek. 110, gen. štucanja)* — Naglo isprekidano glasanje iz grla, štucavica.
+  - D/L jd = **štucanju**, I jd = **štucanjem**
+- **bankrotstvo** *(frek. 109, gen. bankrotstva)* — Potpuna poslovna propast; stečaj.
+  - D/L jd = **bankrotstvu**, I jd = **bankrotstvom**
+- **gajde** *(frek. 109, gen. gajda)* — Duvački instrument sa mehom.
+  - D/L jd = **gajdu**, I jd = **gajdem**
+- **obolenje** *(frek. 108, gen. obolenja)* — Pojava bolesti; oboljenje.
+  - D/L jd = **obolenju**
+- **saborovanje** *(frek. 108, gen. saborovanja)* — Okupljanje na saboru, narodno veselje.
+  - I jd = **saborovanjem**
+- **tapšanje** *(frek. 108, gen. tapšanja)* — Lako udaranje dlanom u znak pohvale ili tešenja.
+  - D/L jd = **tapšanju**
+- **lovstvo** *(frek. 107, gen. lovstva)* — Delatnost lova i uzgoja divljači.
+  - I jd = **lovstvom**
+- **nenasilje** *(frek. 107, gen. nenasilja)* — Delovanje bez nasilja i sile; miran otpor i odbijanje da se 
+  - I jd = **nenasiljem**
+- **puzanje** *(frek. 107, gen. puzanja)* — Kretanje vukući telo po podlozi.
+  - I jd = **puzanjem**
+- **srozavanje** *(frek. 107, gen. srozavanja)* — Klizanje nadole; postepeno opadanje i propadanje.
+  - I jd = **srozavanjem**
+- **govedo** *(frek. 106, gen. goveda)* — Krupna domaća životinja; pogrdno za glupavog čoveka.
+  - I jd = **govedom**
+- **neshvatanje** *(frek. 106, gen. neshvatanja)* — Nerazumevanje, izostanak shvatanja; neshvatanje.
+  - I jd = **neshvatanjem**
+- **porobljavanje** *(frek. 106, gen. porobljavanja)* — Pretvaranje ljudi u robove.
+  - D/L jd = **porobljavanju**, I jd = **porobljavanjem**
+- **uginuće** *(frek. 106, gen. uginuća)* — Oblik reči uginuće (smrt životinje).
+  - D/L jd = **uginuću**, I jd = **uginućem**
+- **uterivanje** *(frek. 106, gen. uterivanja)* — Naplata duga prisilom; gonjenje unutra.
+  - I jd = **uterivanjem**
+- **prisiljavanje** *(frek. 105, gen. prisiljavanja)* — Primoravanje protiv volje.
+  - D/L jd = **prisiljavanju**, I jd = **prisiljavanjem**
+- **revidiranje** *(frek. 105, gen. revidiranja)* — Oblik reči revidiranje (preispitivanje, ponovni pregled).
+  - I jd = **revidiranjem**
+- **zastupništvo** *(frek. 105, gen. zastupništva)* — Služba i ovlašćenje zastupnika, predstavljanje; zastupništvo
+  - I jd = **zastupništvom**
+- **profilisanje** *(frek. 104, gen. profilisanja)* — Oblikovanje prepoznatljivog profila.
+  - D/L jd = **profilisanju**, I jd = **profilisanjem**
+- **punoletstvo** *(frek. 104, gen. punoletstva)* — Uzrast sa punom poslovnom sposobnošću.
+  - D/L jd = **punoletstvu**, I jd = **punoletstvom**
+- **sporazumevanje** *(frek. 104, gen. sporazumevanja)* — Međusobno razumevanje i dogovaranje.
+  - D/L jd = **sporazumevanju**, I jd = **sporazumevanjem**
+- **struganje** *(frek. 104, gen. struganja)* — Skidanje sloja oštrom ivicom.
+  - I jd = **struganjem**
+- **zastarevanje** *(frek. 104, gen. zastarevanja)* — Postajanje zastarelim i prevaziđenim.
+  - D/L jd = **zastarevanju**, I jd = **zastarevanjem**
+- **izaslanstvo** *(frek. 103, gen. izaslanstva)* — Grupa poslanih predstavnika; delegacija.
+  - D/L jd = **izaslanstvu**, I jd = **izaslanstvom**, D/I/L mn = **izaslanstvima**
+- **naelektrisanje** *(frek. 103, gen. naelektrisanja)* — Punjenje elektricitetom; napetost u odnosima.
+  - D/L jd = **naelektrisanju**, I jd = **naelektrisanjem**
+- **naginjanje** *(frek. 103, gen. naginjanja)* — Koso pomeranje ka jednoj strani.
+  - D/L jd = **naginjanju**, I jd = **naginjanjem**
+- **otkopavanje** *(frek. 103, gen. otkopavanja)* — Vađenje iz zemlje kopanjem.
+  - I jd = **otkopavanjem**
+- **preopterećenje** *(frek. 103, gen. preopterećenja)* — Prekomerno opterećenje preko granice.
+  - D/L jd = **preopterećenju**, I jd = **preopterećenjem**
+- **pretakanje** *(frek. 103, gen. pretakanja)* — Presipanje tečnosti iz suda u sud.
+  - D/L jd = **pretakanju**
+- **smilje** *(frek. 103, gen. smilja)* — Lekovita žuta poljska biljka; smilje.
+  - I jd = **smiljem**
+- **uhlebljenje** *(frek. 103, gen. uhlebljenja)* — Obezbeđeno zaposlenje; izvor prihoda.
+  - D/L jd = **uhlebljenju**, I jd = **uhlebljenjem**
+- **izrugivanje** *(frek. 102, gen. izrugivanja)* — Podsmevanje i ismevanje.
+  - I jd = **izrugivanjem**
+- **praskozorje** *(frek. 102, gen. praskozorja)* — Prvo svitanje, rano jutro.
+  - D/L jd = **praskozorju**, I jd = **praskozorjem**, D/I/L mn = **praskozorjima**
+- **zahvatanje** *(frek. 102, gen. zahvatanja)* — Uzimanje šakom ili posudom; obuhvatanje.
+  - D/L jd = **zahvatanju**, I jd = **zahvatanjem**
+- **zamaranje** *(frek. 102, gen. zamaranja)* — Izazivanje umora.
+  - D/L jd = **zamaranju**, I jd = **zamaranjem**
+- **začepljenje** *(frek. 102, gen. začepljenja)* — Zatvaranje otvora; zapušenje.
+  - D/L jd = **začepljenju**, I jd = **začepljenjem**
+- **raspravljanje** *(frek. 101, gen. raspravljanja)* — Razmena mišljenja; rasprava.
+  - I jd = **raspravljanjem**
+- **žrebanje** *(frek. 101, gen. žrebanja)* — Određivanje žrebom; izvlačenje kocke.
+  - D/L jd = **žrebanju**
+- **iskakanje** *(frek. 100, gen. iskakanja)* — Naglo izlaženje skokom.
+  - D/L jd = **iskakanju**
 
-Zaključak: ni oblik ni objašnjenje sami nisu dovoljni. Moraju oba.
+---
 
+## Grupa C — retke (10–99)
+
+**798 imenica, 1184 oblika**
+
+- **crvenilo** *(frek. 99, gen. crvenila)* — Crvena boja; rumenilo na licu; sredstvo za bojenje u crveno;
+  - D/I/L mn = **crvenilima**
+- **kulinarstvo** *(frek. 99, gen. kulinarstva)* — Veština i umetnost spremanja jela.
+  - I jd = **kulinarstvom**
+- **posluživanje** *(frek. 99, gen. posluživanja)* — Iznošenje jela i pića gostima.
+  - D/L jd = **posluživanju**, I jd = **posluživanjem**
+- **sneško** *(frek. 99, gen. sneška)* — Figura od snega koju deca prave, Sneško Belić.
+  - D/L jd = **snešku**, I jd = **sneškom**
+- **bezvlašće** *(frek. 98, gen. bezvlašća)* — Stanje bez vlasti i reda; anarhija.
+  - I jd = **bezvlašćem**
+- **iščašenje** *(frek. 98, gen. iščašenja)* — Iskliznuće kosti iz zgloba; uganuće.
+  - D/L jd = **iščašenju**, I jd = **iščašenjem**
+- **mazivo** *(frek. 98, gen. maziva)* — Mast ili ulje za podmazivanje; lubrikant.
+  - D/L jd = **mazivu**
+- **ravnanje** *(frek. 98, gen. ravnanja)* — Izravnavanje i poravnavanje.
+  - I jd = **ravnanjem**
+- **jajce** *(frek. 97, gen. jajca)* — Jajce — grad u centralnoj Bosni (vodopad; AVNOJ).
+  - I jd = **jajcem**
+- **loženje** *(frek. 97, gen. loženja)* — Potpaljivanje vatre radi grejanja.
+  - D/L jd = **loženju**, I jd = **loženjem**
+- **prostiranje** *(frek. 97, gen. prostiranja)* — Razastiranje (veša, stolnjaka); pružanje u prostoru.
+  - I jd = **prostiranjem**
+- **dvojstvo** *(frek. 96, gen. dvojstva)* — Dvostrukost; postojanje u dva oblika.
+  - I jd = **dvojstvom**
+- **pobijanje** *(frek. 96, gen. pobijanja)* — Opovrgavanje tvrdnji; ubijanje u velikom broju.
+  - I jd = **pobijanjem**
+- **posipanje** *(frek. 96, gen. posipanja)* — Prosipanje praha ili zrnaca po površini.
+  - I jd = **posipanjem**
+- **prosipanje** *(frek. 96, gen. prosipanja)* — Izlivanje ili rasipanje (tečnosti, zrna).
+  - D/L jd = **prosipanju**, I jd = **prosipanjem**
+- **pumpanje** *(frek. 96, gen. pumpanja)* — Ubacivanje vazduha ili tečnosti pumpom.
+  - D/L jd = **pumpanju**
+- **rende** *(frek. 96, gen. rendeta)* — Sprava sa oštrim rupicama za rendanje.
+  - D/L jd = **rendetu**, I jd = **rendetom**
+- **zapomaganje** *(frek. 96, gen. zapomaganja)* — Glasno dozivanje u pomoć.
+  - D/L jd = **zapomaganju**, I jd = **zapomaganjem**
+- **podrigivanje** *(frek. 95, gen. podrigivanja)* — Glasno ispuštanje vazduha iz stomaka na usta.
+  - I jd = **podrigivanjem**
+- **nazadovanje** *(frek. 94, gen. nazadovanja)* — Kretanje ka gorem, opadanje.
+  - I jd = **nazadovanjem**
+- **pokoravanje** *(frek. 94, gen. pokoravanja)* — Potčinjavanje svojoj vlasti.
+  - I jd = **pokoravanjem**
+- **poziranje** *(frek. 94, gen. poziranja)* — Zauzimanje poze pred slikarom ili objektivom.
+  - D/L jd = **poziranju**
+- **pritvaranje** *(frek. 94, gen. pritvaranja)* — Lišavanje slobode u pritvoru; odškrinjavanje.
+  - D/L jd = **pritvaranju**, I jd = **pritvaranjem**
+- **strahopoštovanje** *(frek. 94, gen. strahopoštovanja)* — Poštovanje pomešano sa strahom.
+  - D/L jd = **strahopoštovanju**
+- **upijanje** *(frek. 94, gen. upijanja)* — Usisavanje i primanje tečnosti.
+  - D/L jd = **upijanju**, I jd = **upijanjem**
+- **doniranje** *(frek. 93, gen. doniranja)* — Davanje priloga ili organa na poklon.
+  - D/L jd = **doniranju**, I jd = **doniranjem**
+- **dozivanje** *(frek. 93, gen. dozivanja)* — Pozivanje glasom; sazivanje.
+  - D/L jd = **dozivanju**, I jd = **dozivanjem**
+- **isecanje** *(frek. 93, gen. isecanja)* — Sečenje i odvajanje delova.
+  - D/L jd = **isecanju**, I jd = **isecanjem**
+- **obolevanje** *(frek. 93, gen. obolevanja)* — Razbolevanje i obolevanje od bolesti.
+  - I jd = **obolevanjem**
+- **usitnjavanje** *(frek. 93, gen. usitnjavanja)* — Sečenje ili drobljenje na sitne delove.
+  - I jd = **usitnjavanjem**
+- **prelamanje** *(frek. 92, gen. prelamanja)* — Skretanje svetlosti pri prelasku u drugu sredinu.
+  - I jd = **prelamanjem**
+- **rotiranje** *(frek. 92, gen. rotiranja)* — Oblik reči rotiranje (okretanje oko ose; smenjivanje po redu
+  - I jd = **rotiranjem**
+- **spremište** *(frek. 92, gen. spremišta)* — Mesto za odlaganje stvari; ostava.
+  - I jd = **spremištem**
+- **zaklinjanje** *(frek. 92, gen. zaklinjanja)* — Davanje zakletvi; preklinjanje.
+  - I jd = **zaklinjanjem**
+- **izmirivanje** *(frek. 91, gen. izmirivanja)* — Plaćanje dugova; mirenje zavađenih.
+  - I jd = **izmirivanjem**
+- **posrnuće** *(frek. 91, gen. posrnuća)* — Gubitak ravnoteže; (preneseno) moralni pad.
+  - I jd = **posrnućem**
+- **putešestvije** *(frek. 91, gen. putešestvija)* — Dugo, zanimljivo putovanje; pustolovina.
+  - D/L jd = **putešestviju**, I jd = **putešestvijem**
+- **češanje** *(frek. 91, gen. češanja)* — Grebanje kože radi ublažavanja svraba.
+  - D/L jd = **češanju**, I jd = **češanjem**
+- **dopuštanje** *(frek. 90, gen. dopuštanja)* — Davanje dozvole; dozvoljavanje.
+  - I jd = **dopuštanjem**
+- **izgnanstvo** *(frek. 90, gen. izgnanstva)* — Prinudni boravak van domovine; progonstvo.
+  - I jd = **izgnanstvom**, D/I/L mn = **izgnanstvima**
+- **muziciranje** *(frek. 90, gen. muziciranja)* — Bavljenje muzikom; sviranje i pevanje.
+  - I jd = **muziciranjem**
+- **podilaženje** *(frek. 90, gen. podilaženja)* — Prilaženje s donje strane; dodvoravanje.
+  - I jd = **podilaženjem**
+- **zadiranje** *(frek. 90, gen. zadiranja)* — Ulaženje u suštinu; zalaženje u tuđe.
+  - D/L jd = **zadiranju**, I jd = **zadiranjem**
+- **intermeco** *(frek. 89, gen. intermeca)* — Kratak umetnut muzički ili scenski deo, međuigra; intermeco.
+  - I jd = **intermecem**
+- **nevaspitanje** *(frek. 89, gen. nevaspitanja)* — Loše vaspitanje i neuljudno ponašanje; nevaspitanje.
+  - D/L jd = **nevaspitanju**, I jd = **nevaspitanjem**
+- **pozdravljanje** *(frek. 89, gen. pozdravljanja)* — Izmena pozdrava pri susretu.
+  - D/L jd = **pozdravljanju**, I jd = **pozdravljanjem**
+- **sačinjavanje** *(frek. 89, gen. sačinjavanja)* — Sastavljanje i izrada, npr. dokumenta.
+  - I jd = **sačinjavanjem**
+- **uvrtanje** *(frek. 89, gen. uvrtanja)* — Zavrtanje na navoj; uvrtanje u glavu.
+  - D/L jd = **uvrtanju**
+- **pročišćavanje** *(frek. 88, gen. pročišćavanja)* — Uklanjanje nečistoća; čišćenje.
+  - D/L jd = **pročišćavanju**, I jd = **pročišćavanjem**
+- **zaglupljivanje** *(frek. 88, gen. zaglupljivanja)* — Otupljivanje pameti i zaglupljivanje.
+  - D/L jd = **zaglupljivanju**, I jd = **zaglupljivanjem**
+- **zagušenje** *(frek. 88, gen. zagušenja)* — Onemogućavanje protoka; gušenje.
+  - D/L jd = **zagušenju**, I jd = **zagušenjem**
+- **šamaranje** *(frek. 88, gen. šamaranja)* — Udaranje dlanom po obrazu.
+  - D/L jd = **šamaranju**
+- **brodarstvo** *(frek. 87, gen. brodarstva)* — Delatnost prevoza brodovima.
+  - I jd = **brodarstvom**
+- **iscrtavanje** *(frek. 87, gen. iscrtavanja)* — Crtanje linija i oblika.
+  - I jd = **iscrtavanjem**
+- **markiranje** *(frek. 87, gen. markiranja)* — Oblik reči markiranje (obeležavanje; izbegavanje obaveze).
+  - D/L jd = **markiranju**, I jd = **markiranjem**
+- **popisivanje** *(frek. 87, gen. popisivanja)* — Pravljenje spiska; popis.
+  - I jd = **popisivanjem**
+- **razilaženje** *(frek. 87, gen. razilaženja)* — Rastajanje; nesaglasnost u mišljenju.
+  - I jd = **razilaženjem**
+- **ugnjetavanje** *(frek. 87, gen. ugnjetavanja)* — Tlačenje i potčinjavanje.
+  - I jd = **ugnjetavanjem**
+- **izolovanje** *(frek. 86, gen. izolovanja)* — Odvajanje od okoline; usamljivanje.
+  - D/L jd = **izolovanju**, I jd = **izolovanjem**
+- **kalemljenje** *(frek. 86, gen. kalemljenja)* — Spajanje grančice jedne biljke na drugu da sraste.
+  - D/L jd = **kalemljenju**
+- **nabijanje** *(frek. 86, gen. nabijanja)* — Sabijanje i utiskivanje silom.
+  - D/L jd = **nabijanju**
+- **tepanje** *(frek. 86, gen. tepanja)* — Govorenje nežnih, umiljatih reči.
+  - D/L jd = **tepanju**
+- **zarobljavanje** *(frek. 86, gen. zarobljavanja)* — Hvatanje i zatvaranje neprijatelja.
+  - I jd = **zarobljavanjem**
+- **esperanto** *(frek. 85, gen. esperanta)* — Veštački stvoren međunarodni pomoćni jezik; esperanto.
+  - I jd = **esperantom**
+- **krivotvorenje** *(frek. 85, gen. krivotvorenja)* — Pravljenje lažne kopije; falsifikovanje.
+  - D/L jd = **krivotvorenju**, I jd = **krivotvorenjem**
+- **potonuće** *(frek. 85, gen. potonuća)* — Tonjenje broda pod vodu.
+  - I jd = **potonućem**, D/I/L mn = **potonućima**
+- **praznoverje** *(frek. 85, gen. praznoverja)* — Sujeverje; verovanje bez osnova.
+  - D/L jd = **praznoverju**, D/I/L mn = **praznoverjima**
+- **ustaštvo** *(frek. 85, gen. ustaštva)* — Ustaški fašistički pokret.
+  - D/L jd = **ustaštvu**, I jd = **ustaštvom**
+- **zabrežje** *(frek. 85, gen. zabrežja)* — Predeo iza brežuljaka; zabrežje.
+  - I jd = **zabrežjem**
+- **đubrište** *(frek. 85, gen. đubrišta)* — Mesto gde se baca smeće; smetlište.
+  - I jd = **đubrištem**
+- **dešifrovanje** *(frek. 84, gen. dešifrovanja)* — Odgonetanje tajnog zapisa ili šifre.
+  - I jd = **dešifrovanjem**
+- **urlanje** *(frek. 84, gen. urlanja)* — Snažno i otegnuto zavijanje; vika.
+  - D/L jd = **urlanju**
+- **jajašce** *(frek. 83, gen. jajašca)* — Malo jaje.
+  - D/L jd = **jajašcu**, I jd = **jajašcem**
+- **krivljenje** *(frek. 83, gen. krivljenja)* — Savijanje u krivo.
+  - I jd = **krivljenjem**
+- **manevrisanje** *(frek. 83, gen. manevrisanja)* — Vešto izvođenje pokreta i poteza.
+  - I jd = **manevrisanjem**
+- **podsmevanje** *(frek. 83, gen. podsmevanja)* — Rugajuće smejanje nekome.
+  - I jd = **podsmevanjem**
+- **recitovanje** *(frek. 83, gen. recitovanja)* — Kazivanje pesme napamet.
+  - I jd = **recitovanjem**
+- **stiskanje** *(frek. 83, gen. stiskanja)* — Čvrsto pritiskanje; stezanje.
+  - D/L jd = **stiskanju**, I jd = **stiskanjem**
+- **tihovanje** *(frek. 83, gen. tihovanja)* — Boravak u tišini i ćutanju.
+  - I jd = **tihovanjem**
+- **šaputanje** *(frek. 83, gen. šaputanja)* — Govorenje veoma tiho, šapatom.
+  - D/L jd = **šaputanju**
+- **paradiranje** *(frek. 82, gen. paradiranja)* — Svečano defilovanje; razmetljivo isticanje.
+  - D/L jd = **paradiranju**, I jd = **paradiranjem**
+- **preuveličavanje** *(frek. 82, gen. preuveličavanja)* — Prikazivanje većim nego što jeste.
+  - D/L jd = **preuveličavanju**
+- **roždestvo** *(frek. 82, gen. roždestva)* — Rođenje; praznik Hristovog rođenja, Božić (crkvenoslovenski)
+  - D/L jd = **roždestvu**, I jd = **roždestvom**
+- **uravnoteženje** *(frek. 82, gen. uravnoteženja)* — Dovođenje u ravnotežu.
+  - D/L jd = **uravnoteženju**, I jd = **uravnoteženjem**
+- **malje** *(frek. 81, gen. malja)* — Sitne mekane dlačice.
+  - D/L jd = **malju**
+- **međunožje** *(frek. 81, gen. međunožja)* — Predeo između nogu; prepone.
+  - I jd = **međunožjem**
+- **ciljanje** *(frek. 80, gen. ciljanja)* — Usmeravanje ka meti; težnja ka cilju.
+  - I jd = **ciljanjem**
+- **povlađivanje** *(frek. 80, gen. povlađivanja)* — Popustljivo slaganje sa nečijim željama.
+  - D/L jd = **povlađivanju**, I jd = **povlađivanjem**
+- **svetlucanje** *(frek. 80, gen. svetlucanja)* — Treperavo, isprekidano svetljenje.
+  - I jd = **svetlucanjem**
+- **uvijanje** *(frek. 80, gen. uvijanja)* — Motanje i obavijanje oko nečega.
+  - I jd = **uvijanjem**
+- **krvavljenje** *(frek. 79, gen. krvavljenja)* — Krvarenje i kvašenje krvlju.
+  - D/L jd = **krvavljenju**, I jd = **krvavljenjem**
+- **razmimoilaženje** *(frek. 79, gen. razmimoilaženja)* — Neslaganje i razlika u stavovima.
+  - D/L jd = **razmimoilaženju**, I jd = **razmimoilaženjem**
+- **ukinuće** *(frek. 79, gen. ukinuća)* — Oblik reči ukinuće (ukidanje, poništavanje).
+  - I jd = **ukinućem**
+- **varivo** *(frek. 79, gen. variva)* — Kuvano jelo od povrća.
+  - D/I/L mn = **varivima**
+- **šištanje** *(frek. 79, gen. šištanja)* — Oštri zvuk poput sikanja.
+  - D/L jd = **šištanju**
+- **ceđenje** *(frek. 78, gen. ceđenja)* — Istiskivanje tečnosti, ceđenje soka.
+  - I jd = **ceđenjem**
+- **dospeće** *(frek. 78, gen. dospeća)* — Reč „dospeće“; dolazak u rok, naročito za plaćanje; rok kada
+  - I jd = **dospećem**
+- **konsultovanje** *(frek. 78, gen. konsultovanja)* — Traženje saveta i mišljenja stručnjaka.
+  - D/L jd = **konsultovanju**, I jd = **konsultovanjem**
+- **memorisanje** *(frek. 78, gen. memorisanja)* — Pamćenje i čuvanje u memoriji.
+  - D/L jd = **memorisanju**, I jd = **memorisanjem**
+- **podgrevanje** *(frek. 78, gen. podgrevanja)* — Ponovno zagrevanje već skuvanog jela (glagolska imenica).
+  - D/L jd = **podgrevanju**, I jd = **podgrevanjem**
+- **prerastanje** *(frek. 78, gen. prerastanja)* — Premašivanje rastom; prelaženje u drugo stanje.
+  - I jd = **prerastanjem**
+- **antitelo** *(frek. 77, gen. antitela)* — Odbrambena belančevina koju organizam stvara protiv stranih 
+  - D/L jd = **antitelu**, I jd = **antitelom**
+- **ispupčenje** *(frek. 77, gen. ispupčenja)* — Izbočeni deo površine.
+  - D/L jd = **ispupčenju**
+- **masiranje** *(frek. 77, gen. masiranja)* — Gnječenje i trljanje tela radi opuštanja mišića i bolja prok
+  - I jd = **masiranjem**
+- **podudaranje** *(frek. 77, gen. podudaranja)* — Slaganje i poklapanje nečega.
+  - D/L jd = **podudaranju**, I jd = **podudaranjem**
+- **kvačilo** *(frek. 76, gen. kvačila)* — Mehanizam koji spaja motor i menjač u vozilu.
+  - D/L jd = **kvačilu**, D/I/L mn = **kvačilima**
+- **naklapanje** *(frek. 76, gen. naklapanja)* — Pričanje koješta, brbljanje.
+  - D/L jd = **naklapanju**, I jd = **naklapanjem**
+- **premlaćivanje** *(frek. 76, gen. premlaćivanja)* — Surovo i ponovljeno udaranje.
+  - D/L jd = **premlaćivanju**, I jd = **premlaćivanjem**
+- **pulsiranje** *(frek. 76, gen. pulsiranja)* — Ritmično kucanje, kao bilo; damaranje.
+  - D/L jd = **pulsiranju**, I jd = **pulsiranjem**
+- **seljenje** *(frek. 76, gen. seljenja)* — Preseljavanje na drugo mesto.
+  - I jd = **seljenjem**
+- **srbovanje** *(frek. 76, gen. srbovanja)* — Naglašeno isticanje srpstva.
+  - D/L jd = **srbovanju**, I jd = **srbovanjem**
+- **susretanje** *(frek. 76, gen. susretanja)* — Sretanje i nailaženje jednog na drugo.
+  - D/L jd = **susretanju**, I jd = **susretanjem**
+- **uigravanje** *(frek. 76, gen. uigravanja)* — Uvežbavanje radi sklada u radu; uhodavanje.
+  - I jd = **uigravanjem**
+- **gruvanje** *(frek. 75, gen. gruvanja)* — Jaki potmuli udari i pucnji.
+  - D/L jd = **gruvanju**, I jd = **gruvanjem**
+- **krckanje** *(frek. 75, gen. krckanja)* — Zvuk lomljenja tvrdog, krckanje.
+  - D/L jd = **krckanju**
+- **otopljenje** *(frek. 75, gen. otopljenja)* — Topljenje leda i snega; jenjavanje napetosti.
+  - D/L jd = **otopljenju**, I jd = **otopljenjem**
+- **ovčarstvo** *(frek. 75, gen. ovčarstva)* — Gajenje ovaca.
+  - I jd = **ovčarstvom**
+- **previjanje** *(frek. 75, gen. previjanja)* — Stavljanje zavoja na ranu.
+  - I jd = **previjanjem**
+- **propovedanje** *(frek. 75, gen. propovedanja)* — Iznošenje verskih pouka; držanje propovedi.
+  - D/L jd = **propovedanju**, I jd = **propovedanjem**
+- **prosuđivanje** *(frek. 75, gen. prosuđivanja)* — Rasuđivanje i donošenje suda.
+  - I jd = **prosuđivanjem**
+- **zamenjivanje** *(frek. 75, gen. zamenjivanja)* — Stavljanje jednog umesto drugog.
+  - I jd = **zamenjivanjem**
+- **nepce** *(frek. 74, gen. nepca)* — Gornji svod usne duplje.
+  - I jd = **nepcem**
+- **podaništvo** *(frek. 74, gen. podaništva)* — Stanje podanika, potčinjenost vlasti; podaništvo.
+  - D/L jd = **podaništvu**, I jd = **podaništvom**, D/I/L mn = **podaništvima**
+- **predivo** *(frek. 74, gen. prediva)* — Ispredene niti, pređa.
+  - D/L jd = **predivu**, I jd = **predivom**, D/I/L mn = **predivima**
+- **prevlačenje** *(frek. 74, gen. prevlačenja)* — Vučenje preko nečega; prevlaka slojem.
+  - I jd = **prevlačenjem**
+- **reketiranje** *(frek. 74, gen. reketiranja)* — Iznuđivanje novca pretnjom; reket.
+  - I jd = **reketiranjem**
+- **sanjanje** *(frek. 74, gen. sanjanja)* — Doživljavanje snova; takođe maštanje.
+  - I jd = **sanjanjem**
+- **vučenje** *(frek. 74, gen. vučenja)* — Povlačenje za sobom (glagolska imenica).
+  - D/L jd = **vučenju**, I jd = **vučenjem**
+- **otpisivanje** *(frek. 73, gen. otpisivanja)* — Brisanje iz evidencije; odustajanje od duga.
+  - I jd = **otpisivanjem**
+- **vreteno** *(frek. 73, gen. vretena)* — Štapić na koji se namotava ispredena nit.
+  - D/L jd = **vretenu**, D/I/L mn = **vretenima**
+- **izgladnjivanje** *(frek. 72, gen. izgladnjivanja)* — Dovođenje do gladi uskraćivanjem hrane.
+  - D/L jd = **izgladnjivanju**
+- **nemešanje** *(frek. 72, gen. nemešanja)* — Izostanak mešanja, neuplitanje; nemešanje.
+  - I jd = **nemešanjem**
+- **rastavljanje** *(frek. 72, gen. rastavljanja)* — Razdvajanje na delove; demontaža.
+  - I jd = **rastavljanjem**
+- **huškanje** *(frek. 71, gen. huškanja)* — Podsticanje na svađu ili napad.
+  - D/L jd = **huškanju**
+- **odgađanje** *(frek. 71, gen. odgađanja)* — Pomeranje na kasniji rok; odlaganje.
+  - D/L jd = **odgađanju**, I jd = **odgađanjem**
+- **uspavljivanje** *(frek. 71, gen. uspavljivanja)* — Dovođenje u san; uspavljivanje deteta.
+  - D/L jd = **uspavljivanju**
+- **zrenje** *(frek. 71, gen. zrenja)* — Sazrevanje; postajanje zrelim.
+  - D/L jd = **zrenju**, I jd = **zrenjem**
+- **crkvište** *(frek. 70, gen. crkvišta)* — Mesto gde je bila crkva, ostaci i ruševine crkve; crkvište.
+  - I jd = **crkvištem**
+- **golicanje** *(frek. 70, gen. golicanja)* — Izazivanje smeha laganim dodirom; škakljanje.
+  - D/L jd = **golicanju**
+- **nedonošenje** *(frek. 70, gen. nedonošenja)* — Prevremeno rođenje, donošenje pre roka; nedonošenje.
+  - D/L jd = **nedonošenju**, I jd = **nedonošenjem**
+- **neusvajanje** *(frek. 70, gen. neusvajanja)* — Izostanak usvajanja, neprihvatanje; neusvajanje.
+  - I jd = **neusvajanjem**
+- **postajanje** *(frek. 70, gen. postajanja)* — Proces u kome nešto postaje drugačije.
+  - I jd = **postajanjem**
+- **pučanstvo** *(frek. 70, gen. pučanstva)* — Pučanstvo — stanovništvo, narod (varijanta).
+  - I jd = **pučanstvom**
+- **nevinašce** *(frek. 69, gen. nevinašca)* — Nevino, bezazleno biće, obično dete (često ironično).
+  - D/L jd = **nevinašcu**, I jd = **nevinašcem**
+- **opstajanje** *(frek. 69, gen. opstajanja)* — Održavanje u postojanju; opstanak.
+  - I jd = **opstajanjem**
+- **sevanje** *(frek. 69, gen. sevanja)* — Bljeskanje munje na nebu.
+  - D/L jd = **sevanju**
+- **simuliranje** *(frek. 69, gen. simuliranja)* — Pretvaranje; oponašanje stvarnih uslova.
+  - I jd = **simuliranjem**
+- **bivstvo** *(frek. 68, gen. bivstva)* — Postojanje; biće.
+  - I jd = **bivstvom**
+- **limitiranje** *(frek. 68, gen. limitiranja)* — Oblik reči limitiranje (ograničavanje, postavljanje granice)
+  - D/L jd = **limitiranju**, I jd = **limitiranjem**
+- **lupkanje** *(frek. 68, gen. lupkanja)* — Lako, ponavljano kuckanje prstima ili predmetom (nervozno lu
+  - D/L jd = **lupkanju**
+- **nadziranje** *(frek. 68, gen. nadziranja)* — Praćenje i kontrola rada.
+  - I jd = **nadziranjem**
+- **odlagalište** *(frek. 68, gen. odlagališta)* — Mesto gde se odlaže otpad ili materijal; deponija.
+  - I jd = **odlagalištem**
+- **petljanje** *(frek. 68, gen. petljanja)* — Nespretno baratanje; mešanje u nešto.
+  - I jd = **petljanjem**
+- **prljanje** *(frek. 68, gen. prljanja)* — Zaprljavanje i uprljavanje.
+  - I jd = **prljanjem**
+- **srljanje** *(frek. 68, gen. srljanja)* — Nepromišljeno jurišanje u opasnost.
+  - I jd = **srljanjem**
+- **svetište** *(frek. 68, gen. svetišta)* — Sveto mesto; hram ili mesto bogosluženja.
+  - I jd = **svetištem**
+- **datiranje** *(frek. 67, gen. datiranja)* — Određivanje vremena nastanka.
+  - I jd = **datiranjem**
+- **klijanje** *(frek. 67, gen. klijanja)* — Nicanje biljke iz semena.
+  - D/L jd = **klijanju**
+- **klimanje** *(frek. 67, gen. klimanja)* — Pokreti glavom gore-dole.
+  - D/L jd = **klimanju**
+- **koristoljublje** *(frek. 67, gen. koristoljublja)* — Sebičnost, žudnja za sopstvenom koristi, gramzivost; koristo
+  - D/L jd = **koristoljublju**
+- **obavezivanje** *(frek. 67, gen. obavezivanja)* — Preuzimanje i nametanje obaveze.
+  - D/L jd = **obavezivanju**, I jd = **obavezivanjem**
+- **obrazlaganje** *(frek. 67, gen. obrazlaganja)* — Iznošenje razloga; objašnjavanje.
+  - D/L jd = **obrazlaganju**, I jd = **obrazlaganjem**
+- **omekšavanje** *(frek. 67, gen. omekšavanja)* — Činjenje mekšim.
+  - I jd = **omekšavanjem**
+- **povečerje** *(frek. 67, gen. povečerja)* — Kasno veče, doba posle večeri; večernja crkvena služba; pove
+  - D/L jd = **povečerju**, I jd = **povečerjem**
+- **siromašenje** *(frek. 67, gen. siromašenja)* — Postajanje siromašnim.
+  - D/L jd = **siromašenju**, I jd = **siromašenjem**
+- **vaskrsnuće** *(frek. 67, gen. vaskrsnuća)* — Vraćanje iz mrtvih u život; uskrsnuće.
+  - I jd = **vaskrsnućem**
+- **gojenje** *(frek. 66, gen. gojenja)* — Hranjenje radi debljanja; uzgajanje.
+  - I jd = **gojenjem**
+- **mešetarenje** *(frek. 66, gen. mešetarenja)* — Posredovanje u trgovini radi zarade.
+  - D/L jd = **mešetarenju**, I jd = **mešetarenjem**
+- **rastezanje** *(frek. 66, gen. rastezanja)* — Razvlačenje na veću dužinu.
+  - D/L jd = **rastezanju**, I jd = **rastezanjem**
+- **zatrpavanje** *(frek. 66, gen. zatrpavanja)* — Pokrivanje gomilom; pretrpavanje.
+  - D/L jd = **zatrpavanju**, I jd = **zatrpavanjem**
+- **isijavanje** *(frek. 65, gen. isijavanja)* — Zračenje toplote ili svetlosti.
+  - I jd = **isijavanjem**
+- **progonstvo** *(frek. 65, gen. progonstva)* — Izgnanstvo; prinudno udaljavanje iz zemlje.
+  - D/I/L mn = **progonstvima**
+- **zabijanje** *(frek. 65, gen. zabijanja)* — Zarivanje udarcima; postizanje gola.
+  - D/L jd = **zabijanju**, I jd = **zabijanjem**
+- **zgarište** *(frek. 65, gen. zgarišta)* — Mesto gde je nešto izgorelo; ostaci požara.
+  - I jd = **zgarištem**
+- **šuškanje** *(frek. 65, gen. šuškanja)* — Tih, mek zvuk trljanja; šuštanje.
+  - I jd = **šuškanjem**
+- **dirigovanje** *(frek. 64, gen. dirigovanja)* — Upravljanje orkestrom ili horom.
+  - I jd = **dirigovanjem**
+- **presovanje** *(frek. 64, gen. presovanja)* — Sabijanje pod pritiskom prese.
+  - D/L jd = **presovanju**
+- **sleganje** *(frek. 64, gen. sleganja)* — Spuštanje i sabijanje; sleganje tla.
+  - D/L jd = **sleganju**, I jd = **sleganjem**
+- **suočenje** *(frek. 64, gen. suočenja)* — Stavljanje licem u lice radi razjašnjenja.
+  - I jd = **suočenjem**
+- **porečje** *(frek. 63, gen. porečja)* — Oblast oko toka reke, sliv; porečje.
+  - I jd = **porečjem**
+- **predvečerje** *(frek. 63, gen. predvečerja)* — Vreme pred veče.
+  - D/I/L mn = **predvečerjima**
+- **prenemaganje** *(frek. 63, gen. prenemaganja)* — Izveštačeno pretvaranje i ponašanje.
+  - I jd = **prenemaganjem**
+- **tračarenje** *(frek. 63, gen. tračarenja)* — Širenje tračeva i ogovaranje.
+  - D/L jd = **tračarenju**, I jd = **tračarenjem**
+- **upuštanje** *(frek. 63, gen. upuštanja)* — Ulaženje u nešto; udubljivanje rupe.
+  - D/L jd = **upuštanju**
+- **žongliranje** *(frek. 63, gen. žongliranja)* — Veština bacanja i hvatanja više predmeta u vazduhu odjednom.
+  - D/L jd = **žongliranju**, I jd = **žongliranjem**
+- **kontaktiranje** *(frek. 62, gen. kontaktiranja)* — Stupanje u vezu sa nekim.
+  - D/L jd = **kontaktiranju**, I jd = **kontaktiranjem**
+- **neverovanje** *(frek. 62, gen. neverovanja)* — Neverica, sumnja, odsustvo verovanja; neverovanje.
+  - I jd = **neverovanjem**
+- **oplođenje** *(frek. 62, gen. oplođenja)* — Spajanje polnih ćelija; začeće.
+  - D/L jd = **oplođenju**, I jd = **oplođenjem**
+- **pletivo** *(frek. 62, gen. pletiva)* — Ono što je ispleteno; rad u pletenju; pletivo.
+  - D/L jd = **pletivu**, D/I/L mn = **pletivima**
+- **proročište** *(frek. 62, gen. proročišta)* — Mesto gde se objavljuju proročanstva; veće starina.
+  - I jd = **proročištem**
+- **sunašce** *(frek. 62, gen. sunašca)* — Odmilica za sunce.
+  - D/L jd = **sunašcu**
+- **treptanje** *(frek. 62, gen. treptanja)* — Brzo otvaranje i zatvaranje očiju; treperenje.
+  - I jd = **treptanjem**
+- **vrbovanje** *(frek. 62, gen. vrbovanja)* — Pridobijanje i nagovaranje za saradnju.
+  - D/L jd = **vrbovanju**, I jd = **vrbovanjem**
+- **iščezavanje** *(frek. 61, gen. iščezavanja)* — Postepeno nestajanje.
+  - I jd = **iščezavanjem**
+- **preletanje** *(frek. 61, gen. preletanja)* — Letenje preko nečega.
+  - I jd = **preletanjem**
+- **bodrenje** *(frek. 60, gen. bodrenja)* — Hrabrenje i podsticanje; sokoljenje.
+  - D/L jd = **bodrenju**
+- **brvno** *(frek. 60, gen. brvna)* — Debela tesana greda; balvan preko reke kao most.
+  - D/L jd = **brvnu**, D/I/L mn = **brvnima**
+- **dvovlašće** *(frek. 60, gen. dvovlašća)* — Istovremeno postojanje dve vlasti koje se takmiče; dvovlašće
+  - D/L jd = **dvovlašću**, I jd = **dvovlašćem**
+- **kovilje** *(frek. 60, gen. kovilja)* — Stepska trava sa srebrnastim klasovima; kovilje.
+  - I jd = **koviljem**
+- **paperje** *(frek. 60, gen. paperja)* — Sitno meko perje ptića.
+  - D/L jd = **paperju**
+- **pisamce** *(frek. 60, gen. pisamca)* — Oblik reči „pisamce“; pismo umanjeno i odmilja; ceduljica (k
+  - D/L jd = **pisamcu**, I jd = **pisamcem**
+- **predosećanje** *(frek. 60, gen. predosećanja)* — Slutnja onoga što će biti; predosećaj.
+  - D/L jd = **predosećanju**
+- **zaposedanje** *(frek. 60, gen. zaposedanja)* — Zauzimanje i osvajanje položaja.
+  - D/L jd = **zaposedanju**, I jd = **zaposedanjem**
+- **četništvo** *(frek. 60, gen. četništva)* — Oblik reči četništvo (četnički pokret).
+  - I jd = **četništvom**
+- **adresiranje** *(frek. 59, gen. adresiranja)* — Reč „adresiranje“; upisivanje adrese na pošiljku; usmeravanj
+  - I jd = **adresiranjem**
+- **drobljenje** *(frek. 59, gen. drobljenja)* — Razbijanje na sitne komadiće.
+  - D/L jd = **drobljenju**, I jd = **drobljenjem**
+- **grananje** *(frek. 59, gen. grananja)* — Širenje u grane; razdvajanje na ogranke.
+  - D/L jd = **grananju**, I jd = **grananjem**
+- **okrepljenje** *(frek. 59, gen. okrepljenja)* — Osveženje i vraćanje snage.
+  - D/L jd = **okrepljenju**, I jd = **okrepljenjem**
+- **previranje** *(frek. 59, gen. previranja)* — Vrenje; unutrašnji nemir i kretanje.
+  - I jd = **previranjem**
+- **aranžiranje** *(frek. 58, gen. aranžiranja)* — Uređivanje i raspoređivanje radi lepog izgleda; obrada muzič
+  - I jd = **aranžiranjem**
+- **gunđanje** *(frek. 58, gen. gunđanja)* — Tiho i nezadovoljno mrmljanje.
+  - I jd = **gunđanjem**
+- **ismejavanje** *(frek. 58, gen. ismejavanja)* — Izrugivanje i podsmevanje.
+  - I jd = **ismejavanjem**
+- **obrušavanje** *(frek. 58, gen. obrušavanja)* — Naglo rušenje i padanje nadole; survavanje.
+  - D/L jd = **obrušavanju**
+- **padobranstvo** *(frek. 58, gen. padobranstva)* — Sport i veština skakanja padobranom.
+  - D/L jd = **padobranstvu**, I jd = **padobranstvom**
+- **slovce** *(frek. 58, gen. slovca)* — Malo slovo, slovce; slovce.
+  - I jd = **slovcem**
+- **svađanje** *(frek. 58, gen. svađanja)* — Vođenje svađe i prepiranje.
+  - D/L jd = **svađanju**
+- **useljavanje** *(frek. 58, gen. useljavanja)* — Naseljavanje u novi prostor; doseljavanje.
+  - D/L jd = **useljavanju**
+- **zadirkivanje** *(frek. 58, gen. zadirkivanja)* — Šaljivo izazivanje i bockanje.
+  - D/L jd = **zadirkivanju**, I jd = **zadirkivanjem**
+- **železo** *(frek. 58, gen. železa)* — Gvožđe (sivi metal).
+  - D/L jd = **železu**
+- **gnušanje** *(frek. 57, gen. gnušanja)* — Jaka odvratnost, gađenje.
+  - D/L jd = **gnušanju**
+- **izobličenje** *(frek. 57, gen. izobličenja)* — Iskrivljenje pravog oblika.
+  - D/L jd = **izobličenju**, I jd = **izobličenjem**
+- **koškanje** *(frek. 57, gen. koškanja)* — Lagano sukobljavanje i guranje.
+  - I jd = **koškanjem**
+- **remenje** *(frek. 57, gen. remenja)* — Kožne trake za vezivanje i prenos (zbirno od remen).
+  - D/L jd = **remenju**, I jd = **remenjem**
+- **sukno** *(frek. 57, gen. sukna)* — Gusta vunena tkanina.
+  - D/I/L mn = **suknima**
+- **svinjarstvo** *(frek. 57, gen. svinjarstva)* — Gajenje svinja.
+  - I jd = **svinjarstvom**
+- **zavlačenje** *(frek. 57, gen. zavlačenja)* — Guranje unutra; odugovlačenje.
+  - D/L jd = **zavlačenju**, I jd = **zavlačenjem**
+- **bockanje** *(frek. 56, gen. bockanja)* — Lako ubadanje; takođe zadirkivanje.
+  - D/L jd = **bockanju**
+- **brkanje** *(frek. 56, gen. brkanja)* — Mešanje i zamenjivanje jednog s drugim.
+  - I jd = **brkanjem**
+- **čerupanje** *(frek. 56, gen. čerupanja)* — Skidanje perja; čupanje.
+  - D/L jd = **čerupanju**, I jd = **čerupanjem**
+- **bivanje** *(frek. 55, gen. bivanja)* — Oblik reči bivanje (postojanje, boravak).
+  - D/L jd = **bivanju**, I jd = **bivanjem**
+- **gibanje** *(frek. 55, gen. gibanja)* — Kretanje, pokretanje; gibanje tela.
+  - D/L jd = **gibanju**
+- **kanalisanje** *(frek. 55, gen. kanalisanja)* — Usmeravanje toka ili energije; izgradnja kanala.
+  - I jd = **kanalisanjem**
+- **klečanje** *(frek. 55, gen. klečanja)* — Stajanje na kolenima.
+  - D/L jd = **klečanju**, I jd = **klečanjem**
+- **nasilništvo** *(frek. 55, gen. nasilništva)* — Nasilno i grubo ponašanje, primena sile; nasilništvo.
+  - D/L jd = **nasilništvu**, I jd = **nasilništvom**
+- **opipavanje** *(frek. 55, gen. opipavanja)* — Dodirivanje prstima radi osećaja.
+  - D/L jd = **opipavanju**, I jd = **opipavanjem**
+- **opkoljavanje** *(frek. 55, gen. opkoljavanja)* — Okruživanje neprijatelja sa svih strana.
+  - D/L jd = **opkoljavanju**
+- **otvorenje** *(frek. 55, gen. otvorenja)* — Svečano otvaranje ustanove ili izložbe.
+  - I jd = **otvorenjem**
+- **točenje** *(frek. 55, gen. točenja)* — Istakanje tečnosti kroz otvor; sipanje pića.
+  - I jd = **točenjem**
+- **čestitanje** *(frek. 55, gen. čestitanja)* — Izricanje čestitki povodom radosnog događaja.
+  - I jd = **čestitanjem**
+- **izležavanje** *(frek. 54, gen. izležavanja)* — Lenjo provođenje vremena u ležanju.
+  - I jd = **izležavanjem**
+- **otezanje** *(frek. 54, gen. otezanja)* — Razvlačenje vremena; odugovlačenje.
+  - D/L jd = **otezanju**
+- **pridavanje** *(frek. 54, gen. pridavanja)* — Pripisivanje značaja; dodavanje.
+  - I jd = **pridavanjem**
+- **priklanjanje** *(frek. 54, gen. priklanjanja)* — Naginjanje na nečiju stranu.
+  - D/L jd = **priklanjanju**, I jd = **priklanjanjem**
+- **razoružanje** *(frek. 54, gen. razoružanja)* — Oduzimanje ili odlaganje oružja.
+  - I jd = **razoružanjem**
+- **terorisanje** *(frek. 54, gen. terorisanja)* — Zastrašivanje i mučenje nasiljem.
+  - I jd = **terorisanjem**
+- **brdašce** *(frek. 53, gen. brdašca)* — Malo brdo.
+  - I jd = **brdašcem**
+- **glumljenje** *(frek. 53, gen. glumljenja)* — Pretvaranje, hinjenje; igranje uloge.
+  - D/L jd = **glumljenju**, I jd = **glumljenjem**
+- **grotlo** *(frek. 53, gen. grotla)* — Otvor, ždrelo (vulkana, topa, peći); grotlo.
+  - I jd = **grotlom**
+- **hranilište** *(frek. 53, gen. hranilišta)* — Mesto na kome se hrani divljač ili stoka; hranilište.
+  - I jd = **hranilištem**
+- **lekarstvo** *(frek. 53, gen. lekarstva)* — Lekarska struka; medicina.
+  - D/L jd = **lekarstvu**, I jd = **lekarstvom**
+- **pričešćivanje** *(frek. 53, gen. pričešćivanja)* — Primanje pričesti u crkvi.
+  - D/L jd = **pričešćivanju**, I jd = **pričešćivanjem**
+- **ratište** *(frek. 53, gen. ratišta)* — Bojište, ratno poprište; ratište.
+  - I jd = **ratištem**
+- **samouništenje** *(frek. 53, gen. samouništenja)* — Uništavanje samog sebe.
+  - I jd = **samouništenjem**
+- **blagosiljanje** *(frek. 52, gen. blagosiljanja)* — Izricanje blagoslova.
+  - D/L jd = **blagosiljanju**, I jd = **blagosiljanjem**
+- **dimljenje** *(frek. 52, gen. dimljenja)* — Sušenje i konzervisanje hrane dimom (glagolska imenica).
+  - D/L jd = **dimljenju**
+- **ispaljivanje** *(frek. 52, gen. ispaljivanja)* — Izbacivanje hica iz oružja.
+  - D/L jd = **ispaljivanju**
+- **lažiranje** *(frek. 52, gen. lažiranja)* — Krivotvorenje, namerno izvrtanje ili podešavanje ishoda.
+  - I jd = **lažiranjem**
+- **nabacivanje** *(frek. 52, gen. nabacivanja)* — Bacanje nečega na gomilu; udvaranje.
+  - D/L jd = **nabacivanju**, I jd = **nabacivanjem**
+- **ogrešenje** *(frek. 52, gen. ogrešenja)* — Prekršaj; greh prema nekome.
+  - I jd = **ogrešenjem**
+- **orgijanje** *(frek. 52, gen. orgijanja)* — Razuzdano veselje i provod.
+  - D/L jd = **orgijanju**, I jd = **orgijanjem**
+- **pomorstvo** *(frek. 52, gen. pomorstva)* — Delatnost i nauka o plovidbi morem.
+  - I jd = **pomorstvom**
+- **shvaćanje** *(frek. 52, gen. shvaćanja)* — Oblik reči shvaćanje (shvatanje — varijanta).
+  - I jd = **shvaćanjem**
+- **spletkarenje** *(frek. 52, gen. spletkarenja)* — Pletenje spletki i intriga.
+  - D/L jd = **spletkarenju**, I jd = **spletkarenjem**
+- **utiskivanje** *(frek. 52, gen. utiskivanja)* — Pritiskanje radi ostavljanja traga.
+  - D/L jd = **utiskivanju**, I jd = **utiskivanjem**
+- **vibriranje** *(frek. 52, gen. vibriranja)* — Oblik reči „vibriranje“; treperenje i podrhtavanje brzim sit
+  - D/L jd = **vibriranju**, I jd = **vibriranjem**
+- **zavrtanje** *(frek. 52, gen. zavrtanja)* — Pritezanje navrtanjem u krug (glagolska imenica).
+  - D/L jd = **zavrtanju**, I jd = **zavrtanjem**
+- **zidarstvo** *(frek. 52, gen. zidarstva)* — Zanat zidanja kuća.
+  - I jd = **zidarstvom**
+- **cviljenje** *(frek. 51, gen. cviljenja)* — Tanak, otegnut bolan zvuk; cika.
+  - D/L jd = **cviljenju**, I jd = **cviljenjem**
+- **demoliranje** *(frek. 51, gen. demoliranja)* — Razbijanje i razlupavanje; pustošenje i uništavanje.
+  - D/L jd = **demoliranju**, I jd = **demoliranjem**
+- **flamingo** *(frek. 51, gen. flaminga)* — Visoka ružičasta ptica dugih nogu i savijenog kljuna.
+  - I jd = **flamingom**
+- **istrebljivanje** *(frek. 51, gen. istrebljivanja)* — Potpuno uništavanje i istrebljenje.
+  - D/L jd = **istrebljivanju**, I jd = **istrebljivanjem**
+- **kljuse** *(frek. 51, gen. kljusa)* — Mršav, slab konj.
+  - D/L jd = **kljusu**, I jd = **kljusem**
+- **kumče** *(frek. 51, gen. kumčeta)* — Dete kome je neko kum.
+  - I jd = **kumčetom**
+- **nedavanje** *(frek. 51, gen. nedavanja)* — Izostanak davanja, uskraćivanje; nedavanje.
+  - D/L jd = **nedavanju**
+- **neispunjenje** *(frek. 51, gen. neispunjenja)* — Izostanak ispunjenja, neostvarenje; neispunjenje.
+  - D/L jd = **neispunjenju**, I jd = **neispunjenjem**
+- **njihanje** *(frek. 51, gen. njihanja)* — Lagano ljuljanje tamo-amo.
+  - D/L jd = **njihanju**, I jd = **njihanjem**
+- **proklizavanje** *(frek. 51, gen. proklizavanja)* — Klizanje bez prijanjanja; proklizavanje točka.
+  - D/L jd = **proklizavanju**
+- **razmetanje** *(frek. 51, gen. razmetanja)* — Hvalisavo razbacivanje i pokazivanje.
+  - I jd = **razmetanjem**
+- **sputavanje** *(frek. 51, gen. sputavanja)* — Vezivanje radi ograničavanja; sprečavanje.
+  - I jd = **sputavanjem**
+- **svlačenje** *(frek. 51, gen. svlačenja)* — Skidanje odeće.
+  - I jd = **svlačenjem**
+- **buntovništvo** *(frek. 50, gen. buntovništva)* — Sklonost pobuni i otporu protiv vlasti i pravila; buntovništ
+  - D/L jd = **buntovništvu**, I jd = **buntovništvom**
+- **premotavanje** *(frek. 50, gen. premotavanja)* — Vraćanje trake ili konca unazad ili napred.
+  - D/L jd = **premotavanju**, I jd = **premotavanjem**
+- **preokretanje** *(frek. 50, gen. preokretanja)* — Naglo menjanje toka ili pravca.
+  - D/L jd = **preokretanju**, I jd = **preokretanjem**
+- **pripitomljavanje** *(frek. 50, gen. pripitomljavanja)* — Postepeno navikavanje divlje životinje na čoveka, kroćenje; 
+  - D/L jd = **pripitomljavanju**, I jd = **pripitomljavanjem**
+- **rastvaranje** *(frek. 50, gen. rastvaranja)* — Razlaganje u tečnosti; otapanje.
+  - D/L jd = **rastvaranju**, I jd = **rastvaranjem**
+- **blefiranje** *(frek. 49, gen. blefiranja)* — Pretvaranje i obmanjivanje radi prevare.
+  - D/L jd = **blefiranju**, I jd = **blefiranjem**
+- **gumno** *(frek. 49, gen. gumna)* — Poravnan, utaban prostor na kome se vrše žito; gumno.
+  - I jd = **gumnom**
+- **nespokojstvo** *(frek. 49, gen. nespokojstva)* — Stanje nemira i uznemirenosti.
+  - D/L jd = **nespokojstvu**, D/I/L mn = **nespokojstvima**
+- **zavojište** *(frek. 49, gen. zavojišta)* — Mesto gde se ranjenicima previjaju rane; zavojište.
+  - I jd = **zavojištem**
+- **jastvo** *(frek. 48, gen. jastva)* — Oblik reči jastvo (svest o sopstvenom ja, vlastita ličnost).
+  - D/L jd = **jastvu**, I jd = **jastvom**
+- **kotrljanje** *(frek. 48, gen. kotrljanja)* — Kretanje okretanjem u krug; valjanje.
+  - D/L jd = **kotrljanju**
+- **mrmljanje** *(frek. 48, gen. mrmljanja)* — Govorenje nejasno i tiho.
+  - D/L jd = **mrmljanju**, I jd = **mrmljanjem**
+- **obedovanje** *(frek. 48, gen. obedovanja)* — Uzimanje obroka.
+  - I jd = **obedovanjem**
+- **poslanje** *(frek. 48, gen. poslanja)* — Uzvišen zadatak i misija.
+  - I jd = **poslanjem**
+- **poticanje** *(frek. 48, gen. poticanja)* — Podsticanje, nagonjenje na neku radnju; takođe vođenje porek
+  - D/L jd = **poticanju**, I jd = **poticanjem**
+- **predubeđenje** *(frek. 48, gen. predubeđenja)* — Unapred stvoreno mišljenje; predrasuda.
+  - D/L jd = **predubeđenju**, I jd = **predubeđenjem**
+- **retuširanje** *(frek. 48, gen. retuširanja)* — Oblik reči retuširanje (doterivanje i ispravljanje slike).
+  - D/L jd = **retuširanju**, I jd = **retuširanjem**
+- **svinjče** *(frek. 48, gen. svinjčeta)* — Prase; mladunče svinje.
+  - D/L jd = **svinjčetu**
+- **trpanje** *(frek. 48, gen. trpanja)* — Nabacivanje i guranje u gomilu.
+  - D/L jd = **trpanju**, I jd = **trpanjem**
+- **zatočeništvo** *(frek. 48, gen. zatočeništva)* — Zatvor, zarobljeništvo, sužanjstvo.
+  - I jd = **zatočeništvom**
+- **bunilo** *(frek. 47, gen. bunila)* — Stanje pomućene svesti s nesuvislim govorom, naročito u groz
+  - I jd = **bunilom**, D/I/L mn = **bunilima**
+- **devičanstvo** *(frek. 47, gen. devičanstva)* — Stanje neokrnjene polne nevinosti.
+  - D/L jd = **devičanstvu**, I jd = **devičanstvom**
+- **otpremanje** *(frek. 47, gen. otpremanja)* — Slanje robe ili ljudi na odredište.
+  - D/L jd = **otpremanju**, I jd = **otpremanjem**
+- **saplitanje** *(frek. 47, gen. saplitanja)* — Sapinjanje nogu i posrtanje.
+  - D/L jd = **saplitanju**
+- **svaljivanje** *(frek. 47, gen. svaljivanja)* — Prebacivanje tereta ili krivice na drugog.
+  - D/L jd = **svaljivanju**, I jd = **svaljivanjem**
+- **usijanje** *(frek. 47, gen. usijanja)* — Zagrevanje do crvenog sjaja; usijano stanje.
+  - D/L jd = **usijanju**, I jd = **usijanjem**
+- **branjenje** *(frek. 46, gen. branjenja)* — Odbrana i zaštita od napada.
+  - I jd = **branjenjem**
+- **gubilište** *(frek. 46, gen. gubilišta)* — Mesto gde se izvršavaju smrtne kazne; stratište.
+  - I jd = **gubilištem**, D/I/L mn = **gubilištima**
+- **piskaranje** *(frek. 46, gen. piskaranja)* — Površno i loše pisanje.
+  - I jd = **piskaranjem**
+- **pobrđe** *(frek. 46, gen. pobrđa)* — Brdoviti kraj, predeo pun brda.
+  - D/L jd = **pobrđu**
+- **prezle** *(frek. 46, gen. prezla)* — Mrvice od suvog hleba za pohovanje.
+  - I jd = **prezlem**
+- **prianjanje** *(frek. 46, gen. prianjanja)* — Čvrsto pripijanje uz površinu.
+  - D/L jd = **prianjanju**, I jd = **prianjanjem**
+- **prigovaranje** *(frek. 46, gen. prigovaranja)* — Iznošenje prigovora i zamerki.
+  - I jd = **prigovaranjem**
+- **pruće** *(frek. 46, gen. pruća)* — Tanke savitljive grane, šiblje.
+  - D/L jd = **pruću**
+- **roštiljanje** *(frek. 46, gen. roštiljanja)* — Pečenje mesa na roštilju.
+  - I jd = **roštiljanjem**
+- **saldiranje** *(frek. 46, gen. saldiranja)* — Izravnavanje računa; saldiranje.
+  - D/L jd = **saldiranju**, I jd = **saldiranjem**
+- **trebovanje** *(frek. 46, gen. trebovanja)* — Zvanično traženje potrebnog materijala.
+  - I jd = **trebovanjem**
+- **intoniranje** *(frek. 45, gen. intoniranja)* — Oblik reči intoniranje (davanje tona, otpočinjanje pesme).
+  - I jd = **intoniranjem**
+- **isplovljavanje** *(frek. 45, gen. isplovljavanja)* — Polazak broda iz luke.
+  - D/L jd = **isplovljavanju**, I jd = **isplovljavanjem**
+- **jadikovanje** *(frek. 45, gen. jadikovanja)* — Glasno žaljenje i kukanje.
+  - I jd = **jadikovanjem**
+- **koračanje** *(frek. 45, gen. koračanja)* — Hodanje korakom; stupanje.
+  - I jd = **koračanjem**
+- **mlekarstvo** *(frek. 45, gen. mlekarstva)* — Prerada mleka i mlečnih proizvoda.
+  - I jd = **mlekarstvom**
+- **namirivanje** *(frek. 45, gen. namirivanja)* — Izmirivanje računa; davanje hrane stoci.
+  - I jd = **namirivanjem**
+- **narezivanje** *(frek. 45, gen. narezivanja)* — Sečenje na kriške; urezivanje navoja.
+  - I jd = **narezivanjem**
+- **neizvršenje** *(frek. 45, gen. neizvršenja)* — Izostanak izvršenja, neobavljanje; neizvršenje.
+  - I jd = **neizvršenjem**
+- **nerešavanje** *(frek. 45, gen. nerešavanja)* — Izostanak rešavanja, odlaganje rešenja; nerešavanje.
+  - I jd = **nerešavanjem**
+- **neučestvovanje** *(frek. 45, gen. neučestvovanja)* — Izostanak učešća, neučešće; neučestvovanje.
+  - D/L jd = **neučestvovanju**, I jd = **neučestvovanjem**
+- **oplakivanje** *(frek. 45, gen. oplakivanja)* — Plakanje i tugovanje za nekim.
+  - I jd = **oplakivanjem**
+- **pametovanje** *(frek. 45, gen. pametovanja)* — Mudrovanje, soljenje pameti (žargon).
+  - D/L jd = **pametovanju**, I jd = **pametovanjem**
+- **pokušavanje** *(frek. 45, gen. pokušavanja)* — Nastojanje da se nešto učini.
+  - D/L jd = **pokušavanju**
+- **soljenje** *(frek. 45, gen. soljenja)* — Dodavanje soli ili konzervisanje solju (glagolska imenica).
+  - D/L jd = **soljenju**
+- **sporenje** *(frek. 45, gen. sporenja)* — Vođenje spora; prepiranje.
+  - I jd = **sporenjem**
+- **glumatanje** *(frek. 44, gen. glumatanja)* — Loše glumljenje; pretvaranje.
+  - D/L jd = **glumatanju**
+- **gnojivo** *(frek. 44, gen. gnojiva)* — Sredstvo za đubrenje zemlje; đubrivo.
+  - D/L jd = **gnojivu**
+- **izdizanje** *(frek. 44, gen. izdizanja)* — Podizanje uvis i uzdizanje.
+  - D/L jd = **izdizanju**, I jd = **izdizanjem**
+- **neizdavanje** *(frek. 44, gen. neizdavanja)* — Izostanak izdavanja, neobjavljivanje; neizdavanje.
+  - D/L jd = **neizdavanju**, I jd = **neizdavanjem**
+- **pomicanje** *(frek. 44, gen. pomicanja)* — Lagano pomeranje; pomeranje za malo.
+  - D/L jd = **pomicanju**
+- **pospremanje** *(frek. 44, gen. pospremanja)* — Dovođenje prostora u red, sređivanje.
+  - D/L jd = **pospremanju**, I jd = **pospremanjem**
+- **potiranje** *(frek. 44, gen. potiranja)* — Brisanje i poništavanje.
+  - I jd = **potiranjem**
+- **pregledavanje** *(frek. 44, gen. pregledavanja)* — Oblik reči pregledavanje (pregled, kontrola).
+  - D/L jd = **pregledavanju**, I jd = **pregledavanjem**
+- **preotimanje** *(frek. 44, gen. preotimanja)* — Otimanje nečega od drugog.
+  - I jd = **preotimanjem**
+- **samozadovoljstvo** *(frek. 44, gen. samozadovoljstva)* — Preterana zadovoljnost sobom; samodopadljivost.
+  - D/L jd = **samozadovoljstvu**, I jd = **samozadovoljstvom**
+- **suzdržavanje** *(frek. 44, gen. suzdržavanja)* — Obuzdavanje sebe; uzdržavanje.
+  - D/L jd = **suzdržavanju**, I jd = **suzdržavanjem**
+- **trabunjanje** *(frek. 44, gen. trabunjanja)* — Govorenje koješta i besmislica.
+  - I jd = **trabunjanjem**
+- **upiranje** *(frek. 44, gen. upiranja)* — Naprezanje i guranje; usmeravanje pogleda.
+  - D/L jd = **upiranju**, I jd = **upiranjem**
+- **usađivanje** *(frek. 44, gen. usađivanja)* — Sađenje; usađivanje navika i vrednosti.
+  - D/L jd = **usađivanju**, I jd = **usađivanjem**
+- **varničenje** *(frek. 44, gen. varničenja)* — Sevanje varnica, prskanje iskri.
+  - D/L jd = **varničenju**, I jd = **varničenjem**
+- **dahtanje** *(frek. 43, gen. dahtanja)* — Ubrzano i teško disanje.
+  - I jd = **dahtanjem**
+- **dekorisanje** *(frek. 43, gen. dekorisanja)* — Ukrašavanje prostora ili predmeta.
+  - D/L jd = **dekorisanju**, I jd = **dekorisanjem**
+- **jednačenje** *(frek. 43, gen. jednačenja)* — Izjednačavanje; svođenje na isto.
+  - D/L jd = **jednačenju**, I jd = **jednačenjem**
+- **kučence** *(frek. 43, gen. kučenceta)* — Mladunče psa; štene (od milja).
+  - D/L jd = **kučencetu**
+- **nemirenje** *(frek. 43, gen. nemirenja)* — Izostanak mirenja, nepomirljivost; nemirenje.
+  - D/L jd = **nemirenju**, I jd = **nemirenjem**
+- **prolaženje** *(frek. 43, gen. prolaženja)* — Kretanje pored ili kroz nešto.
+  - I jd = **prolaženjem**
+- **uzvraćanje** *(frek. 43, gen. uzvraćanja)* — Vraćanje istom merom; odgovaranje.
+  - D/L jd = **uzvraćanju**
+- **glupiranje** *(frek. 42, gen. glupiranja)* — Praviti se lud; budalisanje.
+  - D/L jd = **glupiranju**
+- **gostoljublje** *(frek. 42, gen. gostoljublja)* — Lepo primanje i ugošćavanje gostiju.
+  - I jd = **gostoljubljem**
+- **jurcanje** *(frek. 42, gen. jurcanja)* — Brzo trčkaranje tamo-amo.
+  - D/L jd = **jurcanju**, I jd = **jurcanjem**
+- **kapanje** *(frek. 42, gen. kapanja)* — Padanje kapljica jedna po jedna.
+  - I jd = **kapanjem**
+- **nazivlje** *(frek. 42, gen. nazivlja)* — Skup naziva u nekoj oblasti, terminologija; nazivlje.
+  - I jd = **nazivljem**
+- **ozvaničenje** *(frek. 42, gen. ozvaničenja)* — Davanje zvaničnog i službenog karaktera.
+  - I jd = **ozvaničenjem**
+- **plavljenje** *(frek. 42, gen. plavljenja)* — Prekrivanje vodom pri izlivanju.
+  - D/L jd = **plavljenju**, I jd = **plavljenjem**
+- **pristizanje** *(frek. 42, gen. pristizanja)* — Dolaženje i dospevanje.
+  - I jd = **pristizanjem**
+- **službovanje** *(frek. 42, gen. službovanja)* — Obavljanje službe.
+  - I jd = **službovanjem**
+- **srastanje** *(frek. 42, gen. srastanja)* — Spajanje rastom u celinu; zarastanje.
+  - D/L jd = **srastanju**
+- **trkanje** *(frek. 42, gen. trkanja)* — Takmičenje u brzini trčanja.
+  - I jd = **trkanjem**
+- **uračunavanje** *(frek. 42, gen. uračunavanja)* — Uključivanje u ukupan zbir.
+  - D/L jd = **uračunavanju**, I jd = **uračunavanjem**
+- **uzurpiranje** *(frek. 42, gen. uzurpiranja)* — Nasilno prisvajanje.
+  - I jd = **uzurpiranjem**
+- **učvršćenje** *(frek. 42, gen. učvršćenja)* — Pojačavanje i utvrđivanje.
+  - I jd = **učvršćenjem**
+- **dovršavanje** *(frek. 41, gen. dovršavanja)* — Privođenje kraju; dovršetak.
+  - I jd = **dovršavanjem**
+- **gudalo** *(frek. 41, gen. gudala)* — Štap sa strunama kojim se svira violina.
+  - D/L jd = **gudalu**
+- **kotiranje** *(frek. 41, gen. kotiranja)* — Oblik reči kotiranje (određivanje cene na berzi; vrednovanje
+  - D/L jd = **kotiranju**, I jd = **kotiranjem**
+- **nagovaranje** *(frek. 41, gen. nagovaranja)* — Privoljavanje rečima; navođenje na nešto.
+  - I jd = **nagovaranjem**
+- **očitovanje** *(frek. 41, gen. očitovanja)* — Oblik reči očitovanje (ispoljavanje, izjašnjavanje).
+  - D/L jd = **očitovanju**, I jd = **očitovanjem**
+- **paganstvo** *(frek. 41, gen. paganstva)* — Mnogobožačka vera pre hrišćanstva.
+  - D/L jd = **paganstvu**, I jd = **paganstvom**
+- **posredništvo** *(frek. 41, gen. posredništva)* — Posredovanje, veza između dveju strana; posredništvo.
+  - D/L jd = **posredništvu**, I jd = **posredništvom**
+- **prikazanje** *(frek. 41, gen. prikazanja)* — Pojava utvare; prikazivanje na sceni.
+  - D/L jd = **prikazanju**, I jd = **prikazanjem**
+- **prilaženje** *(frek. 41, gen. prilaženja)* — Oblik reči prilaženje (približavanje).
+  - I jd = **prilaženjem**
+- **svršavanje** *(frek. 41, gen. svršavanja)* — Privođenje kraju; završavanje.
+  - I jd = **svršavanjem**
+- **trijenale** *(frek. 41, gen. trijenala)* — Izložba ili manifestacija koja se održava svake tri godine.
+  - I jd = **trijenalem**
+- **uskakanje** *(frek. 41, gen. uskakanja)* — Naglo uskakanje; priskakanje u pomoć.
+  - D/L jd = **uskakanju**, I jd = **uskakanjem**
+- **uvezivanje** *(frek. 41, gen. uvezivanja)* — Vezivanje i povezivanje u celinu.
+  - D/L jd = **uvezivanju**, I jd = **uvezivanjem**
+- **zgrušavanje** *(frek. 41, gen. zgrušavanja)* — Pretvaranje tečne mase u guste grudve.
+  - I jd = **zgrušavanjem**
+- **žigolo** *(frek. 41, gen. žigola)* — Muškarac koga izdržavaju žene zauzvrat za društvo.
+  - D/L jd = **žigolu**
+- **iskrivljenje** *(frek. 40, gen. iskrivljenja)* — Savijanje u krivo; izobličenje.
+  - D/L jd = **iskrivljenju**, I jd = **iskrivljenjem**
+- **karikiranje** *(frek. 40, gen. karikiranja)* — Smešno preuveličavanje osobina.
+  - D/L jd = **karikiranju**, I jd = **karikiranjem**
+- **nalaganje** *(frek. 40, gen. nalaganja)* — Naređivanje; potpaljivanje vatre.
+  - I jd = **nalaganjem**
+- **namigivanje** *(frek. 40, gen. namigivanja)* — Davanje znaka jednim okom, žmirkanje.
+  - D/L jd = **namigivanju**
+- **oštećivanje** *(frek. 40, gen. oštećivanja)* — Nanošenje štete i kvara.
+  - I jd = **oštećivanjem**
+- **plutanje** *(frek. 40, gen. plutanja)* — Lebdenje na površini vode.
+  - D/L jd = **plutanju**, I jd = **plutanjem**
+- **presedanje** *(frek. 40, gen. presedanja)* — Prelazak iz jednog prevoza u drugi.
+  - D/L jd = **presedanju**
+- **silaženje** *(frek. 40, gen. silaženja)* — Kretanje nadole, spuštanje.
+  - I jd = **silaženjem**
+- **tavorenje** *(frek. 40, gen. tavorenja)* — Životarenje u bedi i jednoličnosti.
+  - I jd = **tavorenjem**
+- **ulagivanje** *(frek. 40, gen. ulagivanja)* — Dodvoravanje radi koristi.
+  - D/L jd = **ulagivanju**
+- **uplaćivanje** *(frek. 40, gen. uplaćivanja)* — Uplata novca na račun.
+  - D/L jd = **uplaćivanju**, I jd = **uplaćivanjem**
+- **životarenje** *(frek. 40, gen. životarenja)* — Bedan život na granici opstanka.
+  - D/L jd = **životarenju**, I jd = **životarenjem**
+- **krkljanje** *(frek. 39, gen. krkljanja)* — Oblik reči krkljanje (hroptanje, krkljanje grlom).
+  - D/L jd = **krkljanju**, I jd = **krkljanjem**
+- **odgonetanje** *(frek. 39, gen. odgonetanja)* — Rešavanje zagonetke; pronicanje u tajnu.
+  - I jd = **odgonetanjem**
+- **odupiranje** *(frek. 39, gen. odupiranja)* — Pružanje otpora.
+  - I jd = **odupiranjem**
+- **potpitanje** *(frek. 39, gen. potpitanja)* — Sporedno pitanje koje proizlazi iz glavnog; potpitanje.
+  - I jd = **potpitanjem**
+- **probanje** *(frek. 39, gen. probanja)* — Oblik reči probanje (isprobavanje, proba).
+  - D/L jd = **probanju**, I jd = **probanjem**
+- **sondiranje** *(frek. 39, gen. sondiranja)* — Ispitivanje dubine ili javnog mnjenja.
+  - D/L jd = **sondiranju**
+- **titlovanje** *(frek. 39, gen. titlovanja)* — Dodavanje titlova ispod slike.
+  - D/L jd = **titlovanju**, I jd = **titlovanjem**
+- **tlačenje** *(frek. 39, gen. tlačenja)* — Ugnjetavanje i tlačenje slabijih.
+  - I jd = **tlačenjem**
+- **vime** *(frek. 39, gen. vimena)* — Mlečna žlezda kod krave, koze ili ovce.
+  - D/L jd = **vimenu**
+- **kikotanje** *(frek. 38, gen. kikotanja)* — Tiho, isprekidano smejanje; kikot.
+  - D/L jd = **kikotanju**, I jd = **kikotanjem**
+- **krilce** *(frek. 38, gen. krilca)* — Malo krilo.
+  - D/L jd = **krilcu**, I jd = **krilcem**
+- **lebdenje** *(frek. 38, gen. lebdenja)* — Stajanje ili kretanje u vazduhu bez oslonca.
+  - D/L jd = **lebdenju**, I jd = **lebdenjem**
+- **mumlanje** *(frek. 38, gen. mumlanja)* — Nerazgovetno govorenje kroza zube.
+  - D/L jd = **mumlanju**, I jd = **mumlanjem**
+- **obitavalište** *(frek. 38, gen. obitavališta)* — Mesto gde neko obitava, prebiva.
+  - D/L jd = **obitavalištu**, I jd = **obitavalištem**
+- **opozivanje** *(frek. 38, gen. opozivanja)* — Povlačenje i poništavanje odluke ili predstavnika.
+  - I jd = **opozivanjem**
+- **osvrtanje** *(frek. 38, gen. osvrtanja)* — Okretanje glave unazad; kratko komentarisanje.
+  - I jd = **osvrtanjem**
+- **postrojavanje** *(frek. 38, gen. postrojavanja)* — Svrstavanje u redove.
+  - I jd = **postrojavanjem**
+- **raspoznavanje** *(frek. 38, gen. raspoznavanja)* — Razaznavanje i razlikovanje.
+  - D/L jd = **raspoznavanju**, I jd = **raspoznavanjem**
+- **stopiranje** *(frek. 38, gen. stopiranja)* — Oblik reči „stopiranje“; zaustavljanje kola podizanjem ruke 
+  - I jd = **stopiranjem**
+- **sudaranje** *(frek. 38, gen. sudaranja)* — Naletanje jednog tela na drugo.
+  - D/L jd = **sudaranju**
+- **uvrštavanje** *(frek. 38, gen. uvrštavanja)* — Stavljanje u red; uvrštenje u spisak.
+  - D/L jd = **uvrštavanju**, I jd = **uvrštavanjem**
+- **zubalo** *(frek. 38, gen. zubala)* — Veštačka vilica sa zubima; proteza.
+  - D/L jd = **zubalu**, D/I/L mn = **zubalima**
+- **adaptiranje** *(frek. 37, gen. adaptiranja)* — Oblik reči adaptiranje (prilagođavanje, preuređivanje).
+  - D/L jd = **adaptiranju**, I jd = **adaptiranjem**
+- **isceljivanje** *(frek. 37, gen. isceljivanja)* — Lečenje i vraćanje zdravlja.
+  - I jd = **isceljivanjem**
+- **iskušavanje** *(frek. 37, gen. iskušavanja)* — Stavljanje na probu; izlaganje iskušenju.
+  - D/L jd = **iskušavanju**, I jd = **iskušavanjem**
+- **izručivanje** *(frek. 37, gen. izručivanja)* — Predavanje nekoga ili nečega; ekstradicija.
+  - I jd = **izručivanjem**
+- **narastanje** *(frek. 37, gen. narastanja)* — Postepeno povećavanje i rast.
+  - D/L jd = **narastanju**
+- **podupiranje** *(frek. 37, gen. podupiranja)* — Pridržavanje osloncem; podpiranje.
+  - D/L jd = **podupiranju**, I jd = **podupiranjem**
+- **ulegnuće** *(frek. 37, gen. ulegnuća)* — Udubljenje i ugnuto mesto na površini, uleglina (ulegnuće na
+  - D/L jd = **ulegnuću**, I jd = **ulegnućem**
+- **ulizivanje** *(frek. 37, gen. ulizivanja)* — Dodvoravanje i laskanje radi koristi.
+  - D/L jd = **ulizivanju**
+- **upozoravanje** *(frek. 37, gen. upozoravanja)* — Skretanje pažnje na opasnost.
+  - D/L jd = **upozoravanju**, I jd = **upozoravanjem**
+- **zakopavanje** *(frek. 37, gen. zakopavanja)* — Sahranjivanje; zatrpavanje u zemlju.
+  - I jd = **zakopavanjem**
+- **šibanje** *(frek. 37, gen. šibanja)* — Udaranje šibom ili prutom.
+  - D/L jd = **šibanju**, I jd = **šibanjem**
+- **baždarenje** *(frek. 36, gen. baždarenja)* — Podešavanje mernog instrumenta na tačnu vrednost.
+  - I jd = **baždarenjem**
+- **brojilo** *(frek. 36, gen. brojila)* — Sprava koja broji i meri potrošnju (struje, vode).
+  - D/L jd = **brojilu**, I jd = **brojilom**
+- **guvno** *(frek. 36, gen. guvna)* — Oblik reči guvno (utabani prostor za vršidbu žita).
+  - I jd = **guvnom**
+- **jevrejstvo** *(frek. 36, gen. jevrejstva)* — Jevreji kao narod i zajednica; jevrejska vera i tradicija; j
+  - I jd = **jevrejstvom**
+- **mrštenje** *(frek. 36, gen. mrštenja)* — Skupljanje obrva od ljutnje ili brige.
+  - D/L jd = **mrštenju**
+- **pipanje** *(frek. 36, gen. pipanja)* — Dodirivanje prstima radi opipa (glagolska imenica).
+  - D/L jd = **pipanju**
+- **prilagođenje** *(frek. 36, gen. prilagođenja)* — Usklađivanje sa novim uslovima.
+  - D/L jd = **prilagođenju**, I jd = **prilagođenjem**
+- **sastajanje** *(frek. 36, gen. sastajanja)* — Skupljanje i susretanje na jednom mestu.
+  - D/L jd = **sastajanju**, I jd = **sastajanjem**
+- **zbunjivanje** *(frek. 36, gen. zbunjivanja)* — Dovođenje u zabunu i pometnju.
+  - D/L jd = **zbunjivanju**, I jd = **zbunjivanjem**
+- **akušerstvo** *(frek. 35, gen. akušerstva)* — Grana medicine o porođaju; babičluk.
+  - D/L jd = **akušerstvu**, I jd = **akušerstvom**
+- **dovlačenje** *(frek. 35, gen. dovlačenja)* — Vučenje nečega do određenog mesta.
+  - I jd = **dovlačenjem**
+- **džeparenje** *(frek. 35, gen. džeparenja)* — Krađa iz tuđih džepova.
+  - D/L jd = **džeparenju**, I jd = **džeparenjem**
+- **friziranje** *(frek. 35, gen. friziranja)* — Uređivanje i oblikovanje kose.
+  - D/L jd = **friziranju**, I jd = **friziranjem**
+- **nameštenje** *(frek. 35, gen. nameštenja)* — Postavljanje na radno mesto; služba.
+  - D/L jd = **nameštenju**, I jd = **nameštenjem**
+- **ognjilo** *(frek. 35, gen. ognjila)* — Kresivo, pomagalo za kresanje vatre; ognjilo.
+  - I jd = **ognjilom**
+- **probadanje** *(frek. 35, gen. probadanja)* — Oštar bol kao od uboda.
+  - D/L jd = **probadanju**
+- **zahvaljivanje** *(frek. 35, gen. zahvaljivanja)* — Izražavanje zahvalnosti.
+  - D/L jd = **zahvaljivanju**
+- **dremanje** *(frek. 34, gen. dremanja)* — Lagano i površno spavanje.
+  - I jd = **dremanjem**
+- **kreštanje** *(frek. 34, gen. kreštanja)* — Oštro, neprijatno glasanje ptice.
+  - D/L jd = **kreštanju**
+- **piratstvo** *(frek. 34, gen. piratstva)* — Razbojništvo na moru; gusarenje.
+  - D/L jd = **piratstvu**, I jd = **piratstvom**
+- **podignuće** *(frek. 34, gen. podignuća)* — Dizanje i uzdizanje, podizanje uvis; preneseno: uspon i napr
+  - I jd = **podignućem**
+- **smetanje** *(frek. 34, gen. smetanja)* — Ometanje i pravljenje smetnji.
+  - D/L jd = **smetanju**, I jd = **smetanjem**
+- **utrnuće** *(frek. 34, gen. utrnuća)* — Oblik reči utrnuti (obamreti; ugasiti se).
+  - D/L jd = **utrnuću**, I jd = **utrnućem**
+- **uzletanje** *(frek. 34, gen. uzletanja)* — Dizanje u let; poletanje.
+  - D/L jd = **uzletanju**
+- **zabrđe** *(frek. 34, gen. zabrđa)* — Predeo iza brda; zabrđe.
+  - D/L jd = **zabrđu**, I jd = **zabrđem**
+- **dingo** *(frek. 33, gen. dinga)* — Australijski divlji pas.
+  - D/L jd = **dingu**, I jd = **dingom**
+- **mučilište** *(frek. 33, gen. mučilišta)* — Mesto gde se zadaju muke, stratište; mučilište.
+  - I jd = **mučilištem**, D/I/L mn = **mučilištima**
+- **punilo** *(frek. 33, gen. punila)* — Materijal kojim se nešto puni; ispuna.
+  - D/L jd = **punilu**, I jd = **punilom**, D/I/L mn = **punilima**
+- **raketiranje** *(frek. 33, gen. raketiranja)* — Oblik reči raketiranje (gađanje raketama).
+  - I jd = **raketiranjem**
+- **ušivanje** *(frek. 33, gen. ušivanja)* — Ugrađivanje šivenjem u odeću.
+  - D/L jd = **ušivanju**, I jd = **ušivanjem**
+- **štipanje** *(frek. 33, gen. štipanja)* — Stezanje kože prstima.
+  - D/L jd = **štipanju**
+- **štovanje** *(frek. 33, gen. štovanja)* — Štovanje — poštovanje, štovanje (varijanta).
+  - I jd = **štovanjem**
+- **dosezanje** *(frek. 32, gen. dosezanja)* — Dostizanje i dohvatanje.
+  - D/L jd = **dosezanju**, I jd = **dosezanjem**
+- **izmicanje** *(frek. 32, gen. izmicanja)* — Izvlačenje i izbegavanje.
+  - I jd = **izmicanjem**
+- **ključanje** *(frek. 32, gen. ključanja)* — Vrenje tečnosti uz mehuriće na visokoj temperaturi.
+  - I jd = **ključanjem**
+- **prebiranje** *(frek. 32, gen. prebiranja)* — Pažljivo biranje; prebiranje po žicama.
+  - D/L jd = **prebiranju**
+- **preobraćenje** *(frek. 32, gen. preobraćenja)* — Prelazak u drugu veru.
+  - D/L jd = **preobraćenju**, I jd = **preobraćenjem**
+- **puškaranje** *(frek. 32, gen. puškaranja)* — Sitno puškaranje i razmena vatre.
+  - I jd = **puškaranjem**
+- **rastrojstvo** *(frek. 32, gen. rastrojstva)* — Poremećaj, rasulo, neuređeno stanje; rastrojstvo.
+  - I jd = **rastrojstvom**
+- **sabotiranje** *(frek. 32, gen. sabotiranja)* — Namerno ometanje i kvarenje rada ili poduhvata; sabotiranje.
+  - D/L jd = **sabotiranju**, I jd = **sabotiranjem**
+- **sidrište** *(frek. 32, gen. sidrišta)* — Mesto pogodno za sidrenje i pristajanje brodova; sidrište.
+  - D/L jd = **sidrištu**, I jd = **sidrištem**, D/I/L mn = **sidrištima**
+- **ugledanje** *(frek. 32, gen. ugledanja)* — Uzimanje za uzor; ugledanje na primer.
+  - D/L jd = **ugledanju**, I jd = **ugledanjem**
+- **uzbunjivanje** *(frek. 32, gen. uzbunjivanja)* — Izazivanje uzbune i nemira.
+  - D/L jd = **uzbunjivanju**, I jd = **uzbunjivanjem**
+- **vrhnje** *(frek. 32, gen. vrhnja)* — Masni gornji sloj mleka; pavlaka.
+  - D/L jd = **vrhnju**
+- **zapuštanje** *(frek. 32, gen. zapuštanja)* — Prepuštanje propadanju; nemarno ostavljanje.
+  - D/L jd = **zapuštanju**, I jd = **zapuštanjem**
+- **lenčarenje** *(frek. 31, gen. lenčarenja)* — Provođenje vremena u lenstvovanju; dangubljenje.
+  - I jd = **lenčarenjem**
+- **ludovanje** *(frek. 31, gen. ludovanja)* — Bezbrižno i razuzdano veselje.
+  - D/L jd = **ludovanju**
+- **moljakanje** *(frek. 31, gen. moljakanja)* — Uporno i dosadno moljenje.
+  - D/L jd = **moljakanju**
+- **nagnječenje** *(frek. 31, gen. nagnječenja)* — Povreda od pritiska bez rane.
+  - D/L jd = **nagnječenju**
+- **naslanjanje** *(frek. 31, gen. naslanjanja)* — Prislanjanje uz nešto radi oslonca.
+  - D/L jd = **naslanjanju**
+- **podvođenje** *(frek. 31, gen. podvođenja)* — Posredovanje u nemoralu; svođenje.
+  - D/L jd = **podvođenju**, I jd = **podvođenjem**
+- **svrdlo** *(frek. 31, gen. svrdla)* — Šiljati alat za bušenje rupa.
+  - D/L jd = **svrdlu**, D/I/L mn = **svrdlima**
+- **tempiranje** *(frek. 31, gen. tempiranja)* — Određivanje pravog trenutka i ritma.
+  - D/L jd = **tempiranju**, I jd = **tempiranjem**
+- **udvostručavanje** *(frek. 31, gen. udvostručavanja)* — Povećavanje na dvostruku vrednost.
+  - D/L jd = **udvostručavanju**, I jd = **udvostručavanjem**
+- **utelovljenje** *(frek. 31, gen. utelovljenja)* — Dobijanje telesnog oblika; oličenje.
+  - D/L jd = **utelovljenju**, I jd = **utelovljenjem**
+- **zakrčenje** *(frek. 31, gen. zakrčenja)* — Zatrpavanje i ometanje prolaza.
+  - D/L jd = **zakrčenju**, I jd = **zakrčenjem**
+- **zelenaštvo** *(frek. 31, gen. zelenaštva)* — Pozajmljivanje novca uz preteranu kamatu, lihvarstvo; zelena
+  - D/L jd = **zelenaštvu**, I jd = **zelenaštvom**
+- **gusarenje** *(frek. 30, gen. gusarenja)* — Pljačka na moru; piratstvo.
+  - D/L jd = **gusarenju**, I jd = **gusarenjem**
+- **izrađivanje** *(frek. 30, gen. izrađivanja)* — Pravljenje i proizvodnja.
+  - I jd = **izrađivanjem**
+- **klaćenje** *(frek. 30, gen. klaćenja)* — Klatarenje, ljuljanje tamo-amo.
+  - D/L jd = **klaćenju**, I jd = **klaćenjem**
+- **ocrtavanje** *(frek. 30, gen. ocrtavanja)* — Iscrtavanje obrisa i konture.
+  - D/L jd = **ocrtavanju**, I jd = **ocrtavanjem**
+- **ospice** *(frek. 30, gen. ospica)* — Dečja zarazna bolest sa crvenim pegama po koži.
+  - D/L jd = **ospicu**, I jd = **ospicem**
+- **podleganje** *(frek. 30, gen. podleganja)* — Popuštanje pod pritiskom; podlegavanje.
+  - D/L jd = **podleganju**, I jd = **podleganjem**
+- **prerušavanje** *(frek. 30, gen. prerušavanja)* — Menjanje izgleda radi prikrivanja.
+  - I jd = **prerušavanjem**
+- **prispeće** *(frek. 30, gen. prispeća)* — Oblik imenice „prispeće“: dolaska, stizanja na odredište (pr
+  - I jd = **prispećem**
+- **radilište** *(frek. 30, gen. radilišta)* — Radno mesto, gradilište; radilište.
+  - I jd = **radilištem**
+- **raznošenje** *(frek. 30, gen. raznošenja)* — Nošenje na razne strane.
+  - D/L jd = **raznošenju**
+- **stišavanje** *(frek. 30, gen. stišavanja)* — Smanjivanje jačine; umirivanje.
+  - I jd = **stišavanjem**
+- **ujedanje** *(frek. 30, gen. ujedanja)* — Grizanje zubima.
+  - I jd = **ujedanjem**
+- **zasipanje** *(frek. 30, gen. zasipanja)* — Zatrpavanje i obasipanje.
+  - D/L jd = **zasipanju**, I jd = **zasipanjem**
+- **batrganje** *(frek. 29, gen. batrganja)* — Nespretno mlataranje rukama i nogama (glagolska imenica).
+  - D/L jd = **batrganju**
+- **borilište** *(frek. 29, gen. borilišta)* — Mesto na kome se vodi borba, arena; borilište.
+  - I jd = **borilištem**
+- **deranje** *(frek. 29, gen. deranja)* — Skidanje kože; takođe glasno vikanje.
+  - D/L jd = **deranju**, I jd = **deranjem**
+- **dezerterstvo** *(frek. 29, gen. dezerterstva)* — Bekstvo iz vojske; napuštanje dužnosti.
+  - D/L jd = **dezerterstvu**, I jd = **dezerterstvom**
+- **grnčarstvo** *(frek. 29, gen. grnčarstva)* — Zanat izrade posuđa od gline; lončarstvo.
+  - D/L jd = **grnčarstvu**, I jd = **grnčarstvom**
+- **smaknuće** *(frek. 29, gen. smaknuća)* — Pogubljenje; izvršenje smrtne kazne.
+  - I jd = **smaknućem**
+- **stizanje** *(frek. 29, gen. stizanja)* — Dolaženje na cilj; dospevanje.
+  - I jd = **stizanjem**
+- **umaranje** *(frek. 29, gen. umaranja)* — Postajanje umornim.
+  - I jd = **umaranjem**
+- **uzgajalište** *(frek. 29, gen. uzgajališta)* — Mesto za uzgoj (životinja, biljaka).
+  - I jd = **uzgajalištem**
+- **zaleđivanje** *(frek. 29, gen. zaleđivanja)* — Pretvaranje vode u led; smrzavanje.
+  - D/L jd = **zaleđivanju**, I jd = **zaleđivanjem**
+- **združivanje** *(frek. 29, gen. združivanja)* — Udruživanje i povezivanje u celinu.
+  - D/L jd = **združivanju**, I jd = **združivanjem**
+- **čarobnjaštvo** *(frek. 29, gen. čarobnjaštva)* — Oblik reči čarobnjaštvo (čaranje, magija, veštičarenje).
+  - D/L jd = **čarobnjaštvu**, I jd = **čarobnjaštvom**
+- **škrgutanje** *(frek. 29, gen. škrgutanja)* — Trljanje zuba uz oštar zvuk.
+  - D/L jd = **škrgutanju**, I jd = **škrgutanjem**
+- **drmusanje** *(frek. 28, gen. drmusanja)* — Snažno i naglo treskanje.
+  - D/L jd = **drmusanju**, I jd = **drmusanjem**
+- **junačenje** *(frek. 28, gen. junačenja)* — Hvalisavo pokazivanje hrabrosti.
+  - D/L jd = **junačenju**, I jd = **junačenjem**
+- **međurečje** *(frek. 28, gen. međurečja)* — Oblik reči međurečje (oblast između dve reke).
+  - I jd = **međurečjem**
+- **nadleštvo** *(frek. 28, gen. nadleštva)* — Državna ustanova, ured, kancelarija; nadleštvo.
+  - I jd = **nadleštvom**
+- **odcepljenje** *(frek. 28, gen. odcepljenja)* — Otcepljenje i izdvajanje iz celine.
+  - D/L jd = **odcepljenju**, I jd = **odcepljenjem**
+- **oporavljanje** *(frek. 28, gen. oporavljanja)* — Vraćanje snage posle bolesti.
+  - D/L jd = **oporavljanju**, I jd = **oporavljanjem**
+- **oproštenje** *(frek. 28, gen. oproštenja)* — Opraštanje krivice ili duga.
+  - D/L jd = **oproštenju**
+- **pepelište** *(frek. 28, gen. pepelišta)* — Mesto na kome je nešto izgorelo, zgarište; pepelište.
+  - D/L jd = **pepelištu**, I jd = **pepelištem**, D/I/L mn = **pepelištima**
+- **prizemlje** *(frek. 28, gen. prizemlja)* — Najniži sprat zgrade, u ravni zemlje.
+  - I jd = **prizemljem**
+- **protezanje** *(frek. 28, gen. protezanja)* — Istezanje tela i udova, npr. posle buđenja.
+  - I jd = **protezanjem**
+- **provaljivanje** *(frek. 28, gen. provaljivanja)* — Nasilno upadanje; naglo izbijanje.
+  - I jd = **provaljivanjem**
+- **proštenje** *(frek. 28, gen. proštenja)* — Oprost, oproštaj; crkveni vašar i sabor kod hrama; proštenje
+  - D/L jd = **proštenju**, I jd = **proštenjem**
+- **razapinjanje** *(frek. 28, gen. razapinjanja)* — Zatezanje i razvlačenje; raspinjanje.
+  - D/L jd = **razapinjanju**, I jd = **razapinjanjem**
+- **račvanje** *(frek. 28, gen. račvanja)* — Razdvajanje na dva kraka; grananje.
+  - D/L jd = **račvanju**, I jd = **račvanjem**
+- **sravnjivanje** *(frek. 28, gen. sravnjivanja)* — Poravnavanje sa zemljom; izjednačavanje.
+  - D/L jd = **sravnjivanju**, I jd = **sravnjivanjem**
+- **tužakanje** *(frek. 28, gen. tužakanja)* — Žaljenje i prijavljivanje drugima.
+  - D/L jd = **tužakanju**, I jd = **tužakanjem**
+- **uznesenje** *(frek. 28, gen. uznesenja)* — Uzdizanje na nebo; verski praznik.
+  - D/L jd = **uznesenju**, I jd = **uznesenjem**
+- **čajniče** *(frek. 28, gen. čajniča)* — Čajniče — grad u Bosni i Hercegovini.
+  - I jd = **čajničem**
+- **diplomiranje** *(frek. 27, gen. diplomiranja)* — Sticanje diplome završetkom studija.
+  - I jd = **diplomiranjem**
+- **diranje** *(frek. 27, gen. diranja)* — Oblik reči „diranje“; dodirivanje, pipanje (zabranjeno diran
+  - D/L jd = **diranju**, I jd = **diranjem**
+- **drugovanje** *(frek. 27, gen. drugovanja)* — Provođenje vremena sa drugovima; druženje.
+  - D/L jd = **drugovanju**, I jd = **drugovanjem**
+- **kupljenje** *(frek. 27, gen. kupljenja)* — Skupljanje i prikupljanje.
+  - I jd = **kupljenjem**
+- **otkidanje** *(frek. 27, gen. otkidanja)* — Naglo odvajanje kidanjem.
+  - D/L jd = **otkidanju**, I jd = **otkidanjem**
+- **pišanje** *(frek. 27, gen. pišanja)* — Mokrenje; izbacivanje mokraće.
+  - D/L jd = **pišanju**, I jd = **pišanjem**
+- **potkradanje** *(frek. 27, gen. potkradanja)* — Sitno krađe; potajno potkradanje.
+  - I jd = **potkradanjem**
+- **robijanje** *(frek. 27, gen. robijanja)* — Izdržavanje zatvorske kazne.
+  - I jd = **robijanjem**
+- **zgrtanje** *(frek. 27, gen. zgrtanja)* — Grabljenje i gomilanje, naročito novca.
+  - D/L jd = **zgrtanju**, I jd = **zgrtanjem**
+- **čistunstvo** *(frek. 27, gen. čistunstva)* — Preterana sklonost ka čistoći i redu.
+  - I jd = **čistunstvom**
+- **ženskinje** *(frek. 27, gen. ženskinja)* — Žene, ženski svet (zbirno).
+  - D/L jd = **ženskinju**
+- **dojenče** *(frek. 26, gen. dojenčeta)* — Odojče, beba koja sisa.
+  - I jd = **dojenčetom**
+- **grumenje** *(frek. 26, gen. grumenja)* — Zgrudvani komadi zemlje ili rude (zbirno od grumen).
+  - D/L jd = **grumenju**, I jd = **grumenjem**
+- **inžinjerstvo** *(frek. 26, gen. inžinjerstva)* — Inženjerstvo, struka i delatnost inženjera.
+  - D/L jd = **inžinjerstvu**, I jd = **inžinjerstvom**
+- **ispaštanje** *(frek. 26, gen. ispaštanja)* — Trpljenje kazne za greh ili tuđu krivicu.
+  - I jd = **ispaštanjem**
+- **jaukanje** *(frek. 26, gen. jaukanja)* — Bolno jecanje i zapomaganje.
+  - D/L jd = **jaukanju**
+- **kresivo** *(frek. 26, gen. kresiva)* — Pribor za kresanje vatre, kremen i čelik; kresivo.
+  - D/L jd = **kresivu**
+- **logorovanje** *(frek. 26, gen. logorovanja)* — Boravak u logoru, kampu, pod šatorima.
+  - I jd = **logorovanjem**
+- **nastanjenje** *(frek. 26, gen. nastanjenja)* — Naseljavanje i boravak na nekom mestu.
+  - I jd = **nastanjenjem**
+- **odražavanje** *(frek. 26, gen. odražavanja)* — Vraćanje slike ili svetlosti; odraz.
+  - I jd = **odražavanjem**
+- **osnaženje** *(frek. 26, gen. osnaženja)* — Davanje snage i jačanje.
+  - I jd = **osnaženjem**
+- **poskakivanje** *(frek. 26, gen. poskakivanja)* — Učestalo lako skakanje; skakutanje.
+  - D/L jd = **poskakivanju**, I jd = **poskakivanjem**
+- **promicanje** *(frek. 26, gen. promicanja)* — Brzo prolaženje mimo nečega (glagolska imenica).
+  - D/L jd = **promicanju**, I jd = **promicanjem**
+- **saobraćanje** *(frek. 26, gen. saobraćanja)* — Odvijanje saobraćaja; opštenje i razmena.
+  - I jd = **saobraćanjem**
+- **seciranje** *(frek. 26, gen. seciranja)* — Rasecanje tela radi proučavanja; temeljna analiza.
+  - D/L jd = **seciranju**, I jd = **seciranjem**
+- **sretanje** *(frek. 26, gen. sretanja)* — Susretanje sa nekim.
+  - I jd = **sretanjem**
+- **svetkovanje** *(frek. 26, gen. svetkovanja)* — Svečano obeležavanje praznika.
+  - I jd = **svetkovanjem**
+- **uveličavanje** *(frek. 26, gen. uveličavanja)* — Prikazivanje većim; preuveličavanje.
+  - D/L jd = **uveličavanju**, I jd = **uveličavanjem**
+- **učiteljstvo** *(frek. 26, gen. učiteljstva)* — Učiteljski poziv i svi učitelji kao stalež; učiteljstvo.
+  - I jd = **učiteljstvom**
+- **zamračenje** *(frek. 26, gen. zamračenja)* — Smanjenje ili gubitak svetlosti.
+  - I jd = **zamračenjem**
+- **zanovetanje** *(frek. 26, gen. zanovetanja)* — Dosadno prigovaranje i gunđanje.
+  - D/L jd = **zanovetanju**, I jd = **zanovetanjem**
+- **šilo** *(frek. 26, gen. šila)* — Šiljat alat za bušenje rupa u koži.
+  - D/L jd = **šilu**, D/I/L mn = **šilima**
+- **baljezganje** *(frek. 25, gen. baljezganja)* — Besmisleno, prazno pričanje, naklapanje.
+  - D/L jd = **baljezganju**, I jd = **baljezganjem**
+- **gužvanje** *(frek. 25, gen. gužvanja)* — Nabiranje i drobljenje u gužvu.
+  - D/L jd = **gužvanju**, I jd = **gužvanjem**
+- **kukurikanje** *(frek. 25, gen. kukurikanja)* — Glasanje petla.
+  - I jd = **kukurikanjem**
+- **naslućivanje** *(frek. 25, gen. naslućivanja)* — Nejasno osećanje ili pretpostavljanje nečega.
+  - D/L jd = **naslućivanju**, I jd = **naslućivanjem**
+- **okončavanje** *(frek. 25, gen. okončavanja)* — Privođenje kraju.
+  - D/L jd = **okončavanju**, I jd = **okončavanjem**
+- **pipkanje** *(frek. 25, gen. pipkanja)* — Opipavanje i pipkanje rukama.
+  - D/L jd = **pipkanju**, I jd = **pipkanjem**
+- **pomije** *(frek. 25, gen. pomija)* — Prljava voda od pranja sudova s ostacima hrane; splačine za 
+  - D/L jd = **pomiju**, I jd = **pomijem**
+- **prosecanje** *(frek. 25, gen. prosecanja)* — Sečenje radi otvaranja prolaza.
+  - I jd = **prosecanjem**
+- **ralje** *(frek. 25, gen. ralja)* — Široko otvorena čeljust, ždrelo (ralje ajkule).
+  - D/L jd = **ralju**, I jd = **raljem**
+- **sedanje** *(frek. 25, gen. sedanja)* — Spuštanje na sedište; zauzimanje sedećeg položaja.
+  - D/L jd = **sedanju**, I jd = **sedanjem**
+- **surfanje** *(frek. 25, gen. surfanja)* — Klizanje na dasci po talasima; pregledanje interneta.
+  - I jd = **surfanjem**
+- **udubljivanje** *(frek. 25, gen. udubljivanja)* — Usredsređivanje na nešto.
+  - I jd = **udubljivanjem**
+- **zarobljeništvo** *(frek. 25, gen. zarobljeništva)* — Stanje zarobljenika; sužanjstvo.
+  - I jd = **zarobljeništvom**
+- **zgušnjavanje** *(frek. 25, gen. zgušnjavanja)* — Postajanje gušćim; sažimanje.
+  - I jd = **zgušnjavanjem**
+- **zvonjenje** *(frek. 25, gen. zvonjenja)* — Zvuci zvona koja zvone.
+  - D/L jd = **zvonjenju**
+- **čeprkanje** *(frek. 25, gen. čeprkanja)* — Kopkanje i preturanje po nečemu.
+  - D/L jd = **čeprkanju**, I jd = **čeprkanjem**
+- **šepurenje** *(frek. 25, gen. šepurenja)* — Gordo, naduveno hodanje i pokazivanje.
+  - D/L jd = **šepurenju**, I jd = **šepurenjem**
+- **živinče** *(frek. 25, gen. živinčeta)* — Domaća životinja (perad ili stoka); pogrdno za čoveka.
+  - I jd = **živinčetom**
+- **bisage** *(frek. 24, gen. bisaga)* — Dvostruka torba koja se prebacuje preko sedla ili ramena.
+  - D/L jd = **bisagu**, I jd = **bisagem**
+- **gurkanje** *(frek. 24, gen. gurkanja)* — Lagano i učestalo guranje.
+  - D/L jd = **gurkanju**, I jd = **gurkanjem**
+- **iskliznuće** *(frek. 24, gen. iskliznuća)* — Izmicanje, klizanje u stranu, iskliznuće s pravog mesta; isk
+  - D/L jd = **iskliznuću**, I jd = **iskliznućem**
+- **kroćenje** *(frek. 24, gen. kroćenja)* — Pripitomljavanje i savladavanje divljeg.
+  - I jd = **kroćenjem**
+- **masturbiranje** *(frek. 24, gen. masturbiranja)* — Samozadovoljavanje, draženje sopstvenih polnih organa, mastu
+  - D/L jd = **masturbiranju**, I jd = **masturbiranjem**
+- **nastanjivanje** *(frek. 24, gen. nastanjivanja)* — Naseljavanje i boravak na nekom mestu.
+  - D/L jd = **nastanjivanju**, I jd = **nastanjivanjem**
+- **nevaljalstvo** *(frek. 24, gen. nevaljalstva)* — Pokvarenost, loše delo, nevaljalstvo; nevaljalstvo.
+  - D/L jd = **nevaljalstvu**, I jd = **nevaljalstvom**
+- **odmotavanje** *(frek. 24, gen. odmotavanja)* — Razvijanje onoga što je smotano.
+  - D/L jd = **odmotavanju**
+- **rezbarenje** *(frek. 24, gen. rezbarenja)* — Urezivanje ukrasa u drvo.
+  - D/L jd = **rezbarenju**, I jd = **rezbarenjem**
+- **saginjanje** *(frek. 24, gen. saginjanja)* — Spuštanje gornjeg dela tela nadole.
+  - D/L jd = **saginjanju**
+- **sektaštvo** *(frek. 24, gen. sektaštva)* — Sektaško, isključivo ponašanje; sektaštvo.
+  - D/L jd = **sektaštvu**, I jd = **sektaštvom**
+- **sladostrašće** *(frek. 24, gen. sladostrašća)* — Čulna naslada, pohotljivo uživanje; sladostrašće.
+  - D/L jd = **sladostrašću**, I jd = **sladostrašćem**
+- **zametanje** *(frek. 24, gen. zametanja)* — Zaturanje; začinjanje, npr. svađe.
+  - D/L jd = **zametanju**, I jd = **zametanjem**
+- **ždranje** *(frek. 24, gen. ždranja)* — Proždrljivo i halapljivo jedenje.
+  - D/L jd = **ždranju**, I jd = **ždranjem**
+- **dečaštvo** *(frek. 23, gen. dečaštva)* — Dečje doba, period dečaka; dečaštvo.
+  - I jd = **dečaštvom**
+- **isleđivanje** *(frek. 23, gen. isleđivanja)* — Vođenje istrage, ispitivanje u istrazi; isleđivanje.
+  - I jd = **isleđivanjem**
+- **opominjanje** *(frek. 23, gen. opominjanja)* — Davanje opomena; podsećanje na obavezu.
+  - D/L jd = **opominjanju**
+- **podvajanje** *(frek. 23, gen. podvajanja)* — Razdvajanje na suprotstavljene strane.
+  - I jd = **podvajanjem**
+- **prežderavanje** *(frek. 23, gen. prežderavanja)* — Preterano i halapljivo jedenje.
+  - D/L jd = **prežderavanju**, I jd = **prežderavanjem**
+- **soliranje** *(frek. 23, gen. soliranja)* — Samostalan nastup; sviranje sola.
+  - D/L jd = **soliranju**
+- **urezivanje** *(frek. 23, gen. urezivanja)* — Usecanje žleba ili crteža u tvrdu površinu.
+  - D/L jd = **urezivanju**
+- **zamiranje** *(frek. 23, gen. zamiranja)* — Postepeno slabljenje i gašenje.
+  - D/L jd = **zamiranju**, I jd = **zamiranjem**
+- **švrljanje** *(frek. 23, gen. švrljanja)* — Tumaranje i švrljanje; nemarno pisanje.
+  - D/L jd = **švrljanju**, I jd = **švrljanjem**
+- **doigravanje** *(frek. 22, gen. doigravanja)* — Dodatne utakmice za konačan plasman.
+  - I jd = **doigravanjem**
+- **dočaravanje** *(frek. 22, gen. dočaravanja)* — Živo predstavljanje rečima ili slikom.
+  - I jd = **dočaravanjem**
+- **leganje** *(frek. 22, gen. leganja)* — Spuštanje na ležaj; leganje na počinak.
+  - I jd = **leganjem**
+- **nokturno** *(frek. 22, gen. nokturna)* — Mirna, sanjalačka lirska muzička kompozicija; nokturno.
+  - I jd = **nokturnom**
+- **očvršćavanje** *(frek. 22, gen. očvršćavanja)* — Postajanje čvrstim i tvrdim; stezanje.
+  - D/L jd = **očvršćavanju**, I jd = **očvršćavanjem**
+- **parodiranje** *(frek. 22, gen. parodiranja)* — Podrugljivo oponašanje radi smeha.
+  - D/L jd = **parodiranju**, I jd = **parodiranjem**
+- **plagiranje** *(frek. 22, gen. plagiranja)* — Prisvajanje tuđeg dela kao svog.
+  - D/L jd = **plagiranju**, I jd = **plagiranjem**
+- **pljeskanje** *(frek. 22, gen. pljeskanja)* — Udaranje dlanom o dlan; aplaudiranje.
+  - D/L jd = **pljeskanju**
+- **probuđenje** *(frek. 22, gen. probuđenja)* — Buđenje iz sna; oživljavanje.
+  - D/L jd = **probuđenju**, I jd = **probuđenjem**
+- **proklinjanje** *(frek. 22, gen. proklinjanja)* — Oblik reči proklinjanje (bacanje kletvi).
+  - D/L jd = **proklinjanju**, I jd = **proklinjanjem**
+- **ubadanje** *(frek. 22, gen. ubadanja)* — Zabadanje šiljkom; ubod.
+  - D/L jd = **ubadanju**
+- **uspravljanje** *(frek. 22, gen. uspravljanja)* — Dizanje u uspravan položaj.
+  - D/L jd = **uspravljanju**, I jd = **uspravljanjem**
+- **glumište** *(frek. 21, gen. glumišta)* — Pozorište, mesto gde se glumi.
+  - I jd = **glumištem**
+- **guljenje** *(frek. 21, gen. guljenja)* — Skidanje kore ili kože; ljuštenje.
+  - D/L jd = **guljenju**, I jd = **guljenjem**
+- **kastriranje** *(frek. 21, gen. kastriranja)* — Uklanjanje polnih žlezda; štrojenje.
+  - D/L jd = **kastriranju**, I jd = **kastriranjem**
+- **konjarstvo** *(frek. 21, gen. konjarstva)* — Gajenje konja.
+  - I jd = **konjarstvom**
+- **mračnjaštvo** *(frek. 21, gen. mračnjaštva)* — Nazadnjaštvo, neprijateljstvo prema prosveti, opskurantizam;
+  - D/L jd = **mračnjaštvu**, I jd = **mračnjaštvom**
+- **navaljivanje** *(frek. 21, gen. navaljivanja)* — Uporno nasrtanje i navale.
+  - I jd = **navaljivanjem**
+- **neprimanje** *(frek. 21, gen. neprimanja)* — Izostanak primanja, neprijem; neprimanje.
+  - D/L jd = **neprimanju**, I jd = **neprimanjem**
+- **očijukanje** *(frek. 21, gen. očijukanja)* — Koketno gledanje i flertovanje.
+  - D/L jd = **očijukanju**, I jd = **očijukanjem**
+- **puce** *(frek. 21, gen. puceta)* — Dugme; mali okrugli predmet.
+  - D/L jd = **pucetu**, I jd = **pucetom**
+- **samoodržanje** *(frek. 21, gen. samoodržanja)* — Održavanje sopstvenog opstanka.
+  - D/L jd = **samoodržanju**
+- **sazvučje** *(frek. 21, gen. sazvučja)* — Sklad zvukova, harmonija; sazvučje.
+  - I jd = **sazvučjem**
+- **bezbožje** *(frek. 20, gen. bezbožja)* — Bezbožnost, odsustvo vere i poricanje boga; bezbožje.
+  - D/L jd = **bezbožju**
+- **loptanje** *(frek. 20, gen. loptanja)* — Igra dobacivanja lopte.
+  - D/L jd = **loptanju**
+- **mreškanje** *(frek. 20, gen. mreškanja)* — Stvaranje sitnih talasića na površini.
+  - D/L jd = **mreškanju**, I jd = **mreškanjem**
+- **nasrtanje** *(frek. 20, gen. nasrtanja)* — Naglo i silovito napadanje.
+  - D/L jd = **nasrtanju**
+- **neodobravanje** *(frek. 20, gen. neodobravanja)* — Izražavanje neslaganja i osude; neprihvatanje i protivljenje
+  - D/L jd = **neodobravanju**
+- **premiranje** *(frek. 20, gen. premiranja)* — Oblik reči premiranje (zamiranje, gubljenje svesti).
+  - I jd = **premiranjem**
+- **prostaštvo** *(frek. 20, gen. prostaštva)* — Prostakluk, grubost, neotesanost; prostaštvo.
+  - D/L jd = **prostaštvu**, I jd = **prostaštvom**
+- **prvenče** *(frek. 20, gen. prvenčeta)* — Prvorođeno dete; prvenče.
+  - D/L jd = **prvenčetu**, I jd = **prvenčetom**
+- **razbojište** *(frek. 20, gen. razbojišta)* — Oblik reči razbojište (mesto razbojništva; bojište).
+  - I jd = **razbojištem**
+- **rimovanje** *(frek. 20, gen. rimovanja)* — Slaganje stihova sa rimom.
+  - D/L jd = **rimovanju**, I jd = **rimovanjem**
+- **sleđenje** *(frek. 20, gen. sleđenja)* — Smrzavanje i pretvaranje u led.
+  - D/L jd = **sleđenju**, I jd = **sleđenjem**
+- **sramoćenje** *(frek. 20, gen. sramoćenja)* — Izlaganje sramoti i ruglu.
+  - I jd = **sramoćenjem**
+- **tračanje** *(frek. 20, gen. tračanja)* — Pričanje tračeva i ogovaranje.
+  - D/L jd = **tračanju**, I jd = **tračanjem**
+- **zabušavanje** *(frek. 20, gen. zabušavanja)* — Izbegavanje posla i zabušantstvo.
+  - D/L jd = **zabušavanju**, I jd = **zabušavanjem**
+- **zlatarstvo** *(frek. 20, gen. zlatarstva)* — Izrada zlatnog nakita.
+  - I jd = **zlatarstvom**
+- **žmirkanje** *(frek. 20, gen. žmirkanja)* — Treperavo paljenje i gašenje svetla; treptanje očiju.
+  - D/L jd = **žmirkanju**, I jd = **žmirkanjem**
+- **blještavilo** *(frek. 19, gen. blještavila)* — Oblik reči „blještavilo“; jak zaslepljujući sjaj, blesak; ra
+  - D/L jd = **blještavilu**, I jd = **blještavilom**
+- **cupkanje** *(frek. 19, gen. cupkanja)* — Sitno poskakivanje na mestu.
+  - D/L jd = **cupkanju**, I jd = **cupkanjem**
+- **dopadanje** *(frek. 19, gen. dopadanja)* — Sviđanje; osećaj da se nešto dopada.
+  - D/L jd = **dopadanju**
+- **kladivo** *(frek. 19, gen. kladiva)* — Kladivo — čekić, malj (varijanta/dijalekatski).
+  - D/L jd = **kladivu**, I jd = **kladivom**
+- **nagrizanje** *(frek. 19, gen. nagrizanja)* — Postepeno izjedanje i oštećivanje.
+  - D/L jd = **nagrizanju**
+- **nepružanje** *(frek. 19, gen. nepružanja)* — Izostanak pružanja, uskraćivanje; nepružanje.
+  - I jd = **nepružanjem**
+- **neuzimanje** *(frek. 19, gen. neuzimanja)* — Izostanak uzimanja, uzdržavanje od uzimanja; neuzimanje.
+  - I jd = **neuzimanjem**
+- **pljuskanje** *(frek. 19, gen. pljuskanja)* — Udaranje vode uz zvuk.
+  - D/L jd = **pljuskanju**
+- **pobeđivanje** *(frek. 19, gen. pobeđivanja)* — Odnošenje pobeda; nadvladavanje.
+  - I jd = **pobeđivanjem**
+- **preklinjanje** *(frek. 19, gen. preklinjanja)* — Usrdno i ponizno moljenje.
+  - D/L jd = **preklinjanju**, I jd = **preklinjanjem**
+- **sleme** *(frek. 19, gen. slemena)* — Najviši, gornji rub krova ili brda.
+  - D/L jd = **slemenu**, I jd = **slemenom**
+- **smicanje** *(frek. 19, gen. smicanja)* — Pomeranje u stranu; uklanjanje.
+  - D/L jd = **smicanju**, I jd = **smicanjem**
+- **tonjenje** *(frek. 19, gen. tonjenja)* — Spuštanje na dno; potanjanje.
+  - D/L jd = **tonjenju**
+- **unajmljivanje** *(frek. 19, gen. unajmljivanja)* — Uzimanje pod zakup ili u službu.
+  - I jd = **unajmljivanjem**
+- **upinjanje** *(frek. 19, gen. upinjanja)* — Naprezanje svom snagom da se uspe.
+  - D/L jd = **upinjanju**, I jd = **upinjanjem**
+- **voljenje** *(frek. 19, gen. voljenja)* — Osećanje ljubavi prema nekome.
+  - D/L jd = **voljenju**, I jd = **voljenjem**
+- **zverstvo** *(frek. 19, gen. zverstva)* — Surovo i nečovečno delo.
+  - D/L jd = **zverstvu**, I jd = **zverstvom**
+- **žalo** *(frek. 19, gen. žala)* — Šljunkovita ili peskovita morska obala.
+  - D/I/L mn = **žalima**
+- **cerekanje** *(frek. 18, gen. cerekanja)* — Glasno, podrugljivo smejanje.
+  - D/L jd = **cerekanju**
+- **jadanje** *(frek. 18, gen. jadanja)* — Žaljenje na nevolje, jadikovanje.
+  - D/L jd = **jadanju**, I jd = **jadanjem**
+- **konfiskovanje** *(frek. 18, gen. konfiskovanja)* — Oduzimanje imovine u korist države.
+  - D/L jd = **konfiskovanju**, I jd = **konfiskovanjem**
+- **kreketanje** *(frek. 18, gen. kreketanja)* — Glasanje žabe.
+  - D/L jd = **kreketanju**, I jd = **kreketanjem**
+- **njihalo** *(frek. 18, gen. njihala)* — Klatno, deo koji se njiše tamo-amo; njihalo.
+  - D/L jd = **njihalu**, I jd = **njihalom**
+- **nominovanje** *(frek. 18, gen. nominovanja)* — Predlaganje nekoga za izbor ili nagradu.
+  - D/L jd = **nominovanju**, I jd = **nominovanjem**
+- **pečaćenje** *(frek. 18, gen. pečaćenja)* — Stavljanje pečata; zatvaranje pečatom.
+  - D/L jd = **pečaćenju**, I jd = **pečaćenjem**
+- **ruiniranje** *(frek. 18, gen. ruiniranja)* — Oblik reči ruiniranje (upropašćivanje).
+  - D/L jd = **ruiniranju**, I jd = **ruiniranjem**
+- **sviđanje** *(frek. 18, gen. sviđanja)* — Osećaj dopadanja nečega.
+  - I jd = **sviđanjem**
+- **teturanje** *(frek. 18, gen. teturanja)* — Posrtanje u hodu; klaćenje.
+  - D/L jd = **teturanju**, I jd = **teturanjem**
+- **većanje** *(frek. 18, gen. većanja)* — Razmatranje i savetovanje radi odluke.
+  - I jd = **većanjem**
+- **zaceljivanje** *(frek. 18, gen. zaceljivanja)* — Zatvaranje i zarastanje rane.
+  - I jd = **zaceljivanjem**
+- **isparenje** *(frek. 17, gen. isparenja)* — Para koja se diže kad tečnost isparava.
+  - D/L jd = **isparenju**
+- **krivokletstvo** *(frek. 17, gen. krivokletstva)* — Lažna zakletva pred sudom.
+  - D/L jd = **krivokletstvu**, I jd = **krivokletstvom**
+- **meditiranje** *(frek. 17, gen. meditiranja)* — Oblik reči meditiranje (udubljeno razmišljanje, meditacija).
+  - D/L jd = **meditiranju**, I jd = **meditiranjem**
+- **nadilaženje** *(frek. 17, gen. nadilaženja)* — Prevazilaženje i savladavanje.
+  - D/L jd = **nadilaženju**, I jd = **nadilaženjem**
+- **naređivanje** *(frek. 17, gen. naređivanja)* — Davanje naredbi; zapovedanje.
+  - I jd = **naređivanjem**
+- **obzorje** *(frek. 17, gen. obzorja)* — Daljina gde se nebo spaja sa zemljom, horizont.
+  - I jd = **obzorjem**
+- **odsluženje** *(frek. 17, gen. odsluženja)* — Završetak obavezne službe ili roka.
+  - I jd = **odsluženjem**
+- **osvojenje** *(frek. 17, gen. osvojenja)* — Zauzimanje i osvajanje.
+  - D/L jd = **osvojenju**, I jd = **osvojenjem**
+- **rastajanje** *(frek. 17, gen. rastajanja)* — Razilaženje i rastanak.
+  - D/L jd = **rastajanju**, I jd = **rastajanjem**
+- **seljakanje** *(frek. 17, gen. seljakanja)* — Učestalo seljenje s mesta na mesto.
+  - I jd = **seljakanjem**
+- **sprezanje** *(frek. 17, gen. sprezanja)* — Spajanje glagola po licima; povezivanje.
+  - D/L jd = **sprezanju**, I jd = **sprezanjem**
+- **srdašce** *(frek. 17, gen. srdašca)* — Malo srce (umiljato); drago, milo srce.
+  - I jd = **srdašcem**
+- **tipkanje** *(frek. 17, gen. tipkanja)* — Oblik reči „tipkanje“; kucanje po tipkama tastature ili tele
+  - D/L jd = **tipkanju**, I jd = **tipkanjem**
+- **uobličenje** *(frek. 17, gen. uobličenja)* — Davanje oblika i forme.
+  - D/L jd = **uobličenju**, I jd = **uobličenjem**
+- **čaranje** *(frek. 17, gen. čaranja)* — Vradžbine, bavljenje magijom; opčinjavanje.
+  - D/L jd = **čaranju**, I jd = **čaranjem**
+- **žuborenje** *(frek. 17, gen. žuborenja)* — Tih, prijatan zvuk vode koja teče; žubor.
+  - D/L jd = **žuborenju**
+- **bludničenje** *(frek. 16, gen. bludničenja)* — Oblik reči bludničenje (razvratno, nemoralno ponašanje).
+  - D/L jd = **bludničenju**, I jd = **bludničenjem**
+- **dopiranje** *(frek. 16, gen. dopiranja)* — Stizanje i prodiranje do nečega.
+  - D/L jd = **dopiranju**, I jd = **dopiranjem**
+- **durenje** *(frek. 16, gen. durenja)* — Mrgođenje i ljutito ćutanje.
+  - D/L jd = **durenju**, I jd = **durenjem**
+- **jare** *(frek. 16, gen. jareta)* — Mladunče koze.
+  - D/L jd = **jaretu**
+- **jotovanje** *(frek. 16, gen. jotovanja)* — Glasovna promena u kojoj se suglasnik stapa sa glasom j u no
+  - I jd = **jotovanjem**
+- **klesanje** *(frek. 16, gen. klesanja)* — Obrada kamena dletom; vajanje u kamenu.
+  - D/L jd = **klesanju**, I jd = **klesanjem**
+- **neulaganje** *(frek. 16, gen. neulaganja)* — Izostanak ulaganja, neulaganje sredstava; neulaganje.
+  - D/L jd = **neulaganju**, I jd = **neulaganjem**
+- **ocilo** *(frek. 16, gen. ocila)* — Kresivo, čelik za kresanje vatre o kremen; ocilo.
+  - D/L jd = **ocilu**, I jd = **ocilom**
+- **sustizanje** *(frek. 16, gen. sustizanja)* — Dostizanje onoga ko je napred.
+  - I jd = **sustizanjem**
+- **tiskanje** *(frek. 16, gen. tiskanja)* — Guranje u gomili, gužvanje.
+  - D/L jd = **tiskanju**, I jd = **tiskanjem**
+- **treskanje** *(frek. 16, gen. treskanja)* — Glasno udaranje i bacanje; lupanje.
+  - D/L jd = **treskanju**, I jd = **treskanjem**
+- **vijuganje** *(frek. 16, gen. vijuganja)* — Kretanje u krivinama; krivudanje.
+  - D/L jd = **vijuganju**, I jd = **vijuganjem**
+- **vrpoljenje** *(frek. 16, gen. vrpoljenja)* — Nemirno meškoljenje na mestu (glagolska imenica).
+  - D/L jd = **vrpoljenju**
+- **zastajkivanje** *(frek. 16, gen. zastajkivanja)* — Često i kratko zastajanje.
+  - D/L jd = **zastajkivanju**, I jd = **zastajkivanjem**
+- **buljenje** *(frek. 15, gen. buljenja)* — Ukočeno i dugo gledanje.
+  - I jd = **buljenjem**
+- **carevanje** *(frek. 15, gen. carevanja)* — Vladanje u svojstvu cara.
+  - I jd = **carevanjem**
+- **dosađivanje** *(frek. 15, gen. dosađivanja)* — Dosadno dodijavanje i gnjavljenje.
+  - I jd = **dosađivanjem**
+- **iscrpljenje** *(frek. 15, gen. iscrpljenja)* — Stanje potpune iznemoglosti.
+  - I jd = **iscrpljenjem**
+- **izmotavanje** *(frek. 15, gen. izmotavanja)* — Odugovlačenje i pravljenje budale.
+  - D/L jd = **izmotavanju**
+- **kiseljenje** *(frek. 15, gen. kiseljenja)* — Konzervisanje hrane u kiseloj tečnosti (glagolska imenica).
+  - D/L jd = **kiseljenju**, I jd = **kiseljenjem**
+- **kreveljenje** *(frek. 15, gen. kreveljenja)* — Pravljenje smešnih grimasa.
+  - I jd = **kreveljenjem**
+- **micanje** *(frek. 15, gen. micanja)* — Pomeranje, kretanje s mesta.
+  - I jd = **micanjem**
+- **mrdanje** *(frek. 15, gen. mrdanja)* — Sitno pomeranje i micanje.
+  - D/L jd = **mrdanju**, I jd = **mrdanjem**
+- **opsedanje** *(frek. 15, gen. opsedanja)* — Vojno okruživanje grada radi osvajanja.
+  - D/L jd = **opsedanju**, I jd = **opsedanjem**
+- **opustošenje** *(frek. 15, gen. opustošenja)* — Razaranje i pretvaranje u pustoš.
+  - I jd = **opustošenjem**
+- **pijuckanje** *(frek. 15, gen. pijuckanja)* — Polako pijenje u malim gutljajima.
+  - D/L jd = **pijuckanju**, I jd = **pijuckanjem**
+- **pleće** *(frek. 15, gen. pleća)* — Oblik reči pleće (rame, deo leđa).
+  - D/L jd = **pleću**, I jd = **plećem**
+- **prikradanje** *(frek. 15, gen. prikradanja)* — Tiho i neopaženo približavanje.
+  - D/L jd = **prikradanju**
+- **snovanje** *(frek. 15, gen. snovanja)* — Smišljanje planova; postavljanje osnove tkanja.
+  - I jd = **snovanjem**
+- **tresenje** *(frek. 15, gen. tresenja)* — Naglo potresanje i drmanje (glagolska imenica).
+  - D/L jd = **tresenju**
+- **trubljenje** *(frek. 15, gen. trubljenja)* — Sviranje na trubi; oglašavanje sirenom.
+  - D/L jd = **trubljenju**
+- **umorstvo** *(frek. 15, gen. umorstva)* — Ubistvo; lišavanje života.
+  - I jd = **umorstvom**
+- **utamničenje** *(frek. 15, gen. utamničenja)* — Zatvaranje u tamnicu.
+  - D/L jd = **utamničenju**, I jd = **utamničenjem**
+- **vrćenje** *(frek. 15, gen. vrćenja)* — Okretanje u krug; obrtanje (glagolska imenica).
+  - D/L jd = **vrćenju**, I jd = **vrćenjem**
+- **zbrajanje** *(frek. 15, gen. zbrajanja)* — Zbrajanje — sabiranje (ijekavski/hrvatski).
+  - D/L jd = **zbrajanju**
+- **zurenje** *(frek. 15, gen. zurenja)* — Uporno, netremice gledanje; buljenje.
+  - I jd = **zurenjem**
+- **štipkanje** *(frek. 15, gen. štipkanja)* — Učestalo lagano štipanje.
+  - D/L jd = **štipkanju**, I jd = **štipkanjem**
+- **boravljenje** *(frek. 14, gen. boravljenja)* — Zadržavanje i boravak negde.
+  - D/L jd = **boravljenju**, I jd = **boravljenjem**
+- **dleto** *(frek. 14, gen. dleta)* — Alatka za rezbarenje drveta ili kamena.
+  - D/L jd = **dletu**
+- **glačanje** *(frek. 14, gen. glačanja)* — Činjenje glatkim, uglačavanje.
+  - D/L jd = **glačanju**
+- **ilirstvo** *(frek. 14, gen. ilirstva)* — Reč „ilirstvo“; pripadnost ilirskom pokretu i ideji; iliriza
+  - I jd = **ilirstvom**
+- **ludiranje** *(frek. 14, gen. ludiranja)* — Šaljivo i obesno ponašanje; zabavljanje uz nestašluke i ludo
+  - D/L jd = **ludiranju**, I jd = **ludiranjem**
+- **nećkanje** *(frek. 14, gen. nećkanja)* — Ustručavanje, oklevanje da se pristane.
+  - D/L jd = **nećkanju**, I jd = **nećkanjem**
+- **osmehivanje** *(frek. 14, gen. osmehivanja)* — Blago smešenje; osmeh.
+  - D/L jd = **osmehivanju**, I jd = **osmehivanjem**
+- **očajavanje** *(frek. 14, gen. očajavanja)* — Padanje u očaj i beznađe.
+  - D/L jd = **očajavanju**, I jd = **očajavanjem**
+- **podanstvo** *(frek. 14, gen. podanstva)* — Pripadnost državi kao podanik.
+  - I jd = **podanstvom**
+- **tegljenje** *(frek. 14, gen. tegljenja)* — Vučenje tereta ili vozila.
+  - D/L jd = **tegljenju**, I jd = **tegljenjem**
+- **ugibanje** *(frek. 14, gen. ugibanja)* — Savijanje i ulegnuće pod teretom.
+  - D/L jd = **ugibanju**, I jd = **ugibanjem**
+- **velebilje** *(frek. 14, gen. velebilja)* — Otrovna biljka; beladona.
+  - D/L jd = **velebilju**, I jd = **velebiljem**
+- **zapadanje** *(frek. 14, gen. zapadanja)* — Upadanje u nešto; zalaženje za horizont.
+  - I jd = **zapadanjem**
+- **zlopamćenje** *(frek. 14, gen. zlopamćenja)* — Sklonost pamćenju i osvećivanju uvreda.
+  - I jd = **zlopamćenjem**
+- **evoluiranje** *(frek. 13, gen. evoluiranja)* — Postepeno razvijanje i menjanje, evolucija; evoluiranje.
+  - D/L jd = **evoluiranju**, I jd = **evoluiranjem**
+- **farmerstvo** *(frek. 13, gen. farmerstva)* — Bavljenje farmom i poljoprivredom.
+  - D/L jd = **farmerstvu**, I jd = **farmerstvom**
+- **klecanje** *(frek. 13, gen. klecanja)* — Popuštanje kolena pri slabosti.
+  - D/L jd = **klecanju**, I jd = **klecanjem**
+- **kremiranje** *(frek. 13, gen. kremiranja)* — Spaljivanje tela umrlog.
+  - D/L jd = **kremiranju**, I jd = **kremiranjem**
+- **majmunisanje** *(frek. 13, gen. majmunisanja)* — Bezumno oponašanje drugih.
+  - D/L jd = **majmunisanju**, I jd = **majmunisanjem**
+- **mutiranje** *(frek. 13, gen. mutiranja)* — Menjanje; promena glasa u pubertetu.
+  - D/L jd = **mutiranju**, I jd = **mutiranjem**
+- **oponiranje** *(frek. 13, gen. oponiranja)* — Oblik reči oponiranje (suprotstavljanje, protivljenje).
+  - D/L jd = **oponiranju**, I jd = **oponiranjem**
+- **parničenje** *(frek. 13, gen. parničenja)* — Vođenje sudskog spora.
+  - D/L jd = **parničenju**
+- **prkošenje** *(frek. 13, gen. prkošenja)* — Inaćenje i suprotstavljanje iz prkosa.
+  - D/L jd = **prkošenju**, I jd = **prkošenjem**
+- **prošenje** *(frek. 13, gen. prošenja)* — Traženje milostinje ili devojke za udaju.
+  - D/L jd = **prošenju**
+- **realije** *(frek. 13, gen. realija)* — Stvarne pojedinosti i predmeti iz života i kulture; realije.
+  - D/L jd = **realiju**, I jd = **realijem**
+- **rovarenje** *(frek. 13, gen. rovarenja)* — Potajno spletkarenje.
+  - D/L jd = **rovarenju**
+- **stepovanje** *(frek. 13, gen. stepovanja)* — Igra ritmičkog udaranja petama i prstima.
+  - D/L jd = **stepovanju**, I jd = **stepovanjem**
+- **zastajanje** *(frek. 13, gen. zastajanja)* — Zaustavljanje i zadržavanje u hodu.
+  - D/L jd = **zastajanju**, I jd = **zastajanjem**
+- **izmenjivanje** *(frek. 12, gen. izmenjivanja)* — Uzajamna razmena; smenjivanje.
+  - I jd = **izmenjivanjem**
+- **marširanje** *(frek. 12, gen. marširanja)* — Kretanje u ujednačenom vojnom koraku (glagolska imenica).
+  - D/L jd = **marširanju**, I jd = **marširanjem**
+- **mozganje** *(frek. 12, gen. mozganja)* — Naporno razmišljanje i premišljanje.
+  - D/L jd = **mozganju**, I jd = **mozganjem**
+- **odolevanje** *(frek. 12, gen. odolevanja)* — Pružanje otpora i istrajavanje.
+  - D/L jd = **odolevanju**, I jd = **odolevanjem**
+- **odrubljivanje** *(frek. 12, gen. odrubljivanja)* — Sečenje i odsecanje, naročito glave.
+  - D/L jd = **odrubljivanju**, I jd = **odrubljivanjem**
+- **oglavlje** *(frek. 12, gen. oglavlja)* — Deo konjske opreme za glavu, ular; oglavlje.
+  - D/L jd = **oglavlju**, I jd = **oglavljem**
+- **okupiranje** *(frek. 12, gen. okupiranja)* — Vojno zaposedanje tuđe teritorije.
+  - D/L jd = **okupiranju**, I jd = **okupiranjem**
+- **osvedočenje** *(frek. 12, gen. osvedočenja)* — Lično uveravanje u istinitost.
+  - I jd = **osvedočenjem**
+- **porađanje** *(frek. 12, gen. porađanja)* — Donošenje deteta na svet.
+  - I jd = **porađanjem**
+- **rezimiranje** *(frek. 12, gen. rezimiranja)* — Oblik reči rezimiranje (sažimanje, kratko izlaganje).
+  - D/L jd = **rezimiranju**, I jd = **rezimiranjem**
+- **telašce** *(frek. 12, gen. telašca)* — Malo telo; telašce.
+  - D/L jd = **telašcu**, I jd = **telašcem**
+- **udovištvo** *(frek. 12, gen. udovištva)* — Stanje udovca ili udovice.
+  - I jd = **udovištvom**
+- **zaranjanje** *(frek. 12, gen. zaranjanja)* — Uranjanje pod vodu; ronjenje.
+  - D/L jd = **zaranjanju**, I jd = **zaranjanjem**
+- **zatočenje** *(frek. 12, gen. zatočenja)* — Zatvaranje i lišavanje slobode.
+  - D/L jd = **zatočenju**, I jd = **zatočenjem**
+- **belilo** *(frek. 11, gen. belila)* — Belo sredstvo za bojenje ili beljenje.
+  - D/L jd = **belilu**
+- **biralište** *(frek. 11, gen. birališta)* — Mesto na kome se glasa na izborima, glasačko mesto; birališt
+  - I jd = **biralištem**
+- **devojaštvo** *(frek. 11, gen. devojaštva)* — Devojačko doba, stanje neudate devojke; devojaštvo.
+  - D/L jd = **devojaštvu**, I jd = **devojaštvom**, D/I/L mn = **devojaštvima**
+- **dobavljanje** *(frek. 11, gen. dobavljanja)* — Pribavljanje i isporuka robe.
+  - I jd = **dobavljanjem**
+- **laviranje** *(frek. 11, gen. laviranja)* — Vešto izbegavanje i manevrisanje.
+  - I jd = **laviranjem**
+- **lickanje** *(frek. 11, gen. lickanja)* — Oblik reči lickanje (čišćenje lizanjem; doterivanje).
+  - D/L jd = **lickanju**, I jd = **lickanjem**
+- **lumpovanje** *(frek. 11, gen. lumpovanja)* — Bučno provođenje uz piće i veselje.
+  - I jd = **lumpovanjem**
+- **maraskino** *(frek. 11, gen. maraskina)* — Liker od maraske, vrste višnje; maraskino.
+  - D/L jd = **maraskinu**, I jd = **maraskinom**
+- **nalivpero** *(frek. 11, gen. nalivpera)* — Pisaljka koja se puni mastilom.
+  - D/L jd = **nalivperu**, I jd = **nalivperom**, D/I/L mn = **nalivperima**
+- **nevraćanje** *(frek. 11, gen. nevraćanja)* — Izostanak vraćanja, nevraćanje; nevraćanje.
+  - D/L jd = **nevraćanju**, I jd = **nevraćanjem**
+- **obećavanje** *(frek. 11, gen. obećavanja)* — Davanje obećanja.
+  - D/L jd = **obećavanju**
+- **odmahivanje** *(frek. 11, gen. odmahivanja)* — Pokret rukom u znak odbijanja.
+  - D/L jd = **odmahivanju**, I jd = **odmahivanjem**
+- **pojilište** *(frek. 11, gen. pojilišta)* — Mesto gde se napaja stoka, korito ili izvor za pojenje život
+  - D/L jd = **pojilištu**, I jd = **pojilištem**
+- **povesmo** *(frek. 11, gen. povesma)* — Pramen očešljane vune ili kudelje za predenje.
+  - D/L jd = **povesmu**, D/I/L mn = **povesmima**
+- **puknuće** *(frek. 11, gen. puknuća)* — Oblik glagola „puknuti“, buduće vreme (puknuće; pući, rasprs
+  - D/L jd = **puknuću**, I jd = **puknućem**
+- **razlučivanje** *(frek. 11, gen. razlučivanja)* — Razdvajanje i razlikovanje.
+  - D/L jd = **razlučivanju**, I jd = **razlučivanjem**
+- **višeglasje** *(frek. 11, gen. višeglasja)* — Pevanje ili muzika sa više glasova; višeglasje.
+  - D/L jd = **višeglasju**, I jd = **višeglasjem**
+- **zatajenje** *(frek. 11, gen. zatajenja)* — Prikrivanje; otkazivanje rada organa.
+  - D/L jd = **zatajenju**, I jd = **zatajenjem**
+- **bratoljublje** *(frek. 10, gen. bratoljublja)* — Ljubav prema bratu, sloga među braćom.
+  - I jd = **bratoljubljem**
+- **kovitlanje** *(frek. 10, gen. kovitlanja)* — Vrtložno kovitlanje u krug.
+  - D/L jd = **kovitlanju**, I jd = **kovitlanjem**
+- **nabiranje** *(frek. 10, gen. nabiranja)* — Stvaranje nabora na tkanini.
+  - D/L jd = **nabiranju**, I jd = **nabiranjem**
+- **napastvovanje** *(frek. 10, gen. napastvovanja)* — Napadanje i mučenje; salećanje.
+  - D/L jd = **napastvovanju**, I jd = **napastvovanjem**
+- **pobuđivanje** *(frek. 10, gen. pobuđivanja)* — Izazivanje i podsticanje na delovanje.
+  - I jd = **pobuđivanjem**
+- **selce** *(frek. 10, gen. selca)* — Malo selo; seoce.
+  - D/L jd = **selcu**, I jd = **selcem**
+- **uboštvo** *(frek. 10, gen. uboštva)* — Siromaštvo, beda.
+  - D/L jd = **uboštvu**
+- **umišljanje** *(frek. 10, gen. umišljanja)* — Pogrešno verovanje u nešto; uobraženost.
+  - D/L jd = **umišljanju**, I jd = **umišljanjem**
+- **ustručavanje** *(frek. 10, gen. ustručavanja)* — Ustezanje, snebivanje.
+  - D/L jd = **ustručavanju**
+- **vucaranje** *(frek. 10, gen. vucaranja)* — Bezglavo vučenje i nošenje tamo-amo.
+  - D/L jd = **vucaranju**, I jd = **vucaranjem**
+- **zaletanje** *(frek. 10, gen. zaletanja)* — Zatrčavanje radi skoka; nalet.
+  - D/L jd = **zaletanju**, I jd = **zaletanjem**
+- **zapitkivanje** *(frek. 10, gen. zapitkivanja)* — Uporno postavljanje pitanja.
+  - D/L jd = **zapitkivanju**
+- **zaražavanje** *(frek. 10, gen. zaražavanja)* — Prenošenje zaraze i inficiranje.
+  - I jd = **zaražavanjem**
+- **zaruke** *(frek. 10, gen. zaruka)* — Svečano obećanje braka; veridba.
+  - D/L jd = **zaruku**, I jd = **zarukem**
+
+---
+
+## Grupa D — vrlo retke (1–9)
+
+**162 imenica, 270 oblika**
+
+- **asociranje** *(frek. 9, gen. asociranja)* — Oblik reči asocirati (dovoditi u vezu, podsećati).
+  - D/L jd = **asociranju**, I jd = **asociranjem**
+- **cmakanje** *(frek. 9, gen. cmakanja)* — Oblik reči „cmakanje“; glasno ljubljenje uz zvuk; mljackanje
+  - D/L jd = **cmakanju**, I jd = **cmakanjem**
+- **cmizdrenje** *(frek. 9, gen. cmizdrenja)* — Tiho, dosadno plakanje.
+  - D/L jd = **cmizdrenju**
+- **crevce** *(frek. 9, gen. crevca)* — Malo crevo; tanko crevo za kobasice; crevce.
+  - D/L jd = **crevcu**, I jd = **crevcem**
+- **dokidanje** *(frek. 9, gen. dokidanja)* — Ukidanje i poništavanje.
+  - D/L jd = **dokidanju**, I jd = **dokidanjem**
+- **hučanje** *(frek. 9, gen. hučanja)* — Snažan potmuo šum vetra ili vode.
+  - D/L jd = **hučanju**, I jd = **hučanjem**
+- **klonuće** *(frek. 9, gen. klonuća)* — Gubitak snage i volje; malaksalost.
+  - D/L jd = **klonuću**, I jd = **klonućem**, D/I/L mn = **klonućima**
+- **nemilosrđe** *(frek. 9, gen. nemilosrđa)* — Surovost, bezdušnost, odsustvo milosti; nemilosrđe.
+  - I jd = **nemilosrđem**
+- **odseljavanje** *(frek. 9, gen. odseljavanja)* — Odlazak iz mesta stanovanja.
+  - D/L jd = **odseljavanju**, I jd = **odseljavanjem**
+- **podušje** *(frek. 9, gen. podušja)* — Daća, pomen umrlome; podušje.
+  - I jd = **podušjem**
+- **posredstvo** *(frek. 9, gen. posredstva)* — Posredovanje između strana.
+  - D/L jd = **posredstvu**
+- **počivanje** *(frek. 9, gen. počivanja)* — Odmaranje; mirovanje.
+  - D/L jd = **počivanju**
+- **rasprskavanje** *(frek. 9, gen. rasprskavanja)* — Prskanje na sve strane; rasipanje u kapljicama.
+  - D/L jd = **rasprskavanju**, I jd = **rasprskavanjem**
+- **razvezivanje** *(frek. 9, gen. razvezivanja)* — Odvezivanje čvora.
+  - D/L jd = **razvezivanju**, I jd = **razvezivanjem**
+- **sedalo** *(frek. 9, gen. sedala)* — Mesto za sedenje, sedište.
+  - I jd = **sedalom**
+- **skitanje** *(frek. 9, gen. skitanja)* — Lutanje bez cilja; potucanje.
+  - D/L jd = **skitanju**, I jd = **skitanjem**
+- **snebivanje** *(frek. 9, gen. snebivanja)* — Stidljivo ustručavanje; libljenje.
+  - D/L jd = **snebivanju**
+- **tutkalo** *(frek. 9, gen. tutkala)* — Lepak od životinjskih sastojaka; stolarski lepak.
+  - D/L jd = **tutkalu**, D/I/L mn = **tutkalima**
+- **uzletište** *(frek. 9, gen. uzletišta)* — Mesto odakle poleću avioni; pista.
+  - I jd = **uzletištem**
+- **vrdanje** *(frek. 9, gen. vrdanja)* — Izbegavanje i izvrdavanje obaveze.
+  - D/L jd = **vrdanju**, I jd = **vrdanjem**
+- **vrludanje** *(frek. 9, gen. vrludanja)* — Kretanje krivudavo, bez prave linije (glagolska imenica).
+  - D/L jd = **vrludanju**, I jd = **vrludanjem**
+- **šaptanje** *(frek. 9, gen. šaptanja)* — Tihi govor bez glasa.
+  - D/L jd = **šaptanju**, I jd = **šaptanjem**
+- **desetleće** *(frek. 8, gen. desetleća)* — Razdoblje od deset godina, decenija; desetleće.
+  - D/L jd = **desetleću**, I jd = **desetlećem**, D/I/L mn = **desetlećima**
+- **dezertiranje** *(frek. 8, gen. dezertiranja)* — Samovoljno bekstvo iz vojske i napuštanje dužnosti.
+  - D/L jd = **dezertiranju**, I jd = **dezertiranjem**
+- **ganuće** *(frek. 8, gen. ganuća)* — Dirnutost, kad nas nešto gane.
+  - D/I/L mn = **ganućima**
+- **haranje** *(frek. 8, gen. haranja)* — Pustošenje i pljačkanje; opustošavanje.
+  - I jd = **haranjem**
+- **izleganje** *(frek. 8, gen. izleganja)* — Izvođenje mladunaca iz jaja.
+  - D/L jd = **izleganju**, I jd = **izleganjem**
+- **okivanje** *(frek. 8, gen. okivanja)* — Stavljanje okova; ukrašavanje metalom.
+  - I jd = **okivanjem**
+- **oplođivanje** *(frek. 8, gen. oplođivanja)* — Oblik reči oplođivanje (omogućavanje začeća).
+  - D/L jd = **oplođivanju**, I jd = **oplođivanjem**
+- **očitanje** *(frek. 8, gen. očitanja)* — Oblik reči „očitanje“; čitanje vrednosti s mernog uređaja (z
+  - D/L jd = **očitanju**, I jd = **očitanjem**
+- **pabirčenje** *(frek. 8, gen. pabirčenja)* — Skupljanje preostalih klasova posle žetve.
+  - D/L jd = **pabirčenju**, I jd = **pabirčenjem**
+- **podbadanje** *(frek. 8, gen. podbadanja)* — Zadirkivanje i izazivanje.
+  - I jd = **podbadanjem**
+- **povođenje** *(frek. 8, gen. povođenja)* — Ugledanje, povođenje za nečim; povođenje.
+  - D/L jd = **povođenju**, I jd = **povođenjem**
+- **predomišljanje** *(frek. 8, gen. predomišljanja)* — Menjanje odluke, ponovno razmišljanje.
+  - D/L jd = **predomišljanju**, I jd = **predomišljanjem**
+- **rilo** *(frek. 8, gen. rila)* — Njuška, surla kod životinje; rilo.
+  - I jd = **rilom**
+- **udovoljenje** *(frek. 8, gen. udovoljenja)* — Ispunjenje nečije želje ili zahteva.
+  - D/L jd = **udovoljenju**, I jd = **udovoljenjem**
+- **uposlenje** *(frek. 8, gen. uposlenja)* — Stupanje na posao; zaposlenje.
+  - D/L jd = **uposlenju**, I jd = **uposlenjem**
+- **uzbuđivanje** *(frek. 8, gen. uzbuđivanja)* — Izazivanje uzbuđenja i napetosti.
+  - D/L jd = **uzbuđivanju**, I jd = **uzbuđivanjem**
+- **vatrište** *(frek. 8, gen. vatrišta)* — Mesto vatre; ognjište, žarište.
+  - I jd = **vatrištem**
+- **zalečenje** *(frek. 8, gen. zalečenja)* — Delimično ozdravljenje rane.
+  - D/L jd = **zalečenju**, I jd = **zalečenjem**
+- **žalovanje** *(frek. 8, gen. žalovanja)* — Tugovanje za umrlim.
+  - D/L jd = **žalovanju**
+- **bljuvanje** *(frek. 7, gen. bljuvanja)* — Izbacivanje sadržaja želuca; povraćanje.
+  - D/L jd = **bljuvanju**, I jd = **bljuvanjem**
+- **dangubljenje** *(frek. 7, gen. dangubljenja)* — Gubljenje vremena u besposlici.
+  - D/L jd = **dangubljenju**, I jd = **dangubljenjem**
+- **gakanje** *(frek. 7, gen. gakanja)* — Glasanje gusaka i pataka.
+  - D/L jd = **gakanju**
+- **grcanje** *(frek. 7, gen. grcanja)* — Grčevito jecanje; gutanje vazduha u plaču.
+  - D/L jd = **grcanju**, I jd = **grcanjem**
+- **grizenje** *(frek. 7, gen. grizenja)* — Stezanje i sečenje zubima (glagolska imenica od gristi).
+  - D/L jd = **grizenju**
+- **kolence** *(frek. 7, gen. kolenca)* — Malo koleno; takođe čvor na stabljici biljke.
+  - D/L jd = **kolencu**, I jd = **kolencem**
+- **kondenzovanje** *(frek. 7, gen. kondenzovanja)* — Pretvaranje pare u tečnost; sažimanje.
+  - D/L jd = **kondenzovanju**, I jd = **kondenzovanjem**
+- **ljubakanje** *(frek. 7, gen. ljubakanja)* — Nežno ljubljenje i maženje.
+  - D/L jd = **ljubakanju**, I jd = **ljubakanjem**
+- **motrenje** *(frek. 7, gen. motrenja)* — Pažljivo posmatranje; osmatranje.
+  - I jd = **motrenjem**
+- **močilo** *(frek. 7, gen. močila)* — Mesto gde se nešto natapa u vodi (lan, konoplja); močilo.
+  - I jd = **močilom**
+- **nadvikivanje** *(frek. 7, gen. nadvikivanja)* — Nadmetanje u jačini vikanja.
+  - I jd = **nadvikivanjem**
+- **okresivanje** *(frek. 7, gen. okresivanja)* — Sečenje suvišnih grana; potkresivanje.
+  - D/L jd = **okresivanju**, I jd = **okresivanjem**
+- **pasiranje** *(frek. 7, gen. pasiranja)* — Protiskivanje kuvane hrane kroz sito; pretvaranje u kašu.
+  - D/L jd = **pasiranju**, I jd = **pasiranjem**
+- **pirovanje** *(frek. 7, gen. pirovanja)* — Veselo gošćenje i slavlje.
+  - I jd = **pirovanjem**
+- **počinjenje** *(frek. 7, gen. počinjenja)* — Izvršenje nekog dela, najčešće nedela.
+  - D/L jd = **počinjenju**, I jd = **počinjenjem**
+- **premetanje** *(frek. 7, gen. premetanja)* — Pretraživanje i prevrtanje stvari.
+  - D/L jd = **premetanju**, I jd = **premetanjem**
+- **prestizanje** *(frek. 7, gen. prestizanja)* — Prolaženje ispred sporijeg.
+  - D/L jd = **prestizanju**, I jd = **prestizanjem**
+- **pripojenje** *(frek. 7, gen. pripojenja)* — Spajanje i sjedinjavanje s nečim.
+  - D/L jd = **pripojenju**, I jd = **pripojenjem**
+- **prisoje** *(frek. 7, gen. prisoja)* — Strana okrenuta suncu, osunčana strana brda; prisoje.
+  - I jd = **prisojem**
+- **prolijevanje** *(frek. 7, gen. prolijevanja)* — Oblik reči prolijevanje (prolivanje — ijekavski).
+  - D/L jd = **prolijevanju**, I jd = **prolijevanjem**
+- **slagalište** *(frek. 7, gen. slagališta)* — Mesto gde se slaže i odlaže roba, skladište; slagalište.
+  - D/L jd = **slagalištu**, I jd = **slagalištem**
+- **tremolo** *(frek. 7, gen. tremola)* — Brzo treperenje tona u muzici.
+  - D/L jd = **tremolu**, I jd = **tremolom**
+- **ugošćavanje** *(frek. 7, gen. ugošćavanja)* — Primanje i posluživanje gostiju.
+  - I jd = **ugošćavanjem**
+- **uzlaženje** *(frek. 7, gen. uzlaženja)* — Penjanje i dizanje uvis.
+  - I jd = **uzlaženjem**
+- **zatajivanje** *(frek. 7, gen. zatajivanja)* — Prikrivanje; otkazivanje poslušnosti.
+  - D/L jd = **zatajivanju**, I jd = **zatajivanjem**
+- **zavađanje** *(frek. 7, gen. zavađanja)* — Izazivanje svađe i razdora.
+  - D/L jd = **zavađanju**, I jd = **zavađanjem**
+- **zveketanje** *(frek. 7, gen. zveketanja)* — Oštro zvonko udaranje metala.
+  - D/L jd = **zveketanju**, I jd = **zveketanjem**
+- **bacakanje** *(frek. 6, gen. bacakanja)* — Oblik reči bacakanje (nekontrolisano mlataranje udovima).
+  - D/L jd = **bacakanju**, I jd = **bacakanjem**
+- **bunjište** *(frek. 6, gen. bunjišta)* — Đubrište, smetlište, gomila otpadaka; bunjište.
+  - D/L jd = **bunjištu**, I jd = **bunjištem**
+- **kuđenje** *(frek. 6, gen. kuđenja)* — Pokuda; isticanje mana, grdnja.
+  - D/L jd = **kuđenju**, I jd = **kuđenjem**
+- **mikado** *(frek. 6, gen. mikada)* — Mikado — japanski car (mikado); igra štapićima mikado.
+  - D/L jd = **mikadu**, I jd = **mikadom**
+- **napasanje** *(frek. 6, gen. napasanja)* — Vođenje stoke na pašu.
+  - I jd = **napasanjem**
+- **napominjanje** *(frek. 6, gen. napominjanja)* — Skretanje pažnje napomenom.
+  - I jd = **napominjanjem**
+- **okolišanje** *(frek. 6, gen. okolišanja)* — Govorenje zaobilazno, bez suštine.
+  - D/L jd = **okolišanju**
+- **osujećivanje** *(frek. 6, gen. osujećivanja)* — Onemogućavanje i sprečavanje namere.
+  - I jd = **osujećivanjem**
+- **osvećivanje** *(frek. 6, gen. osvećivanja)* — Oblik reči osvećivanje (osvećivanje; posvećivanje).
+  - D/L jd = **osvećivanju**, I jd = **osvećivanjem**
+- **ozračenje** *(frek. 6, gen. ozračenja)* — Izlaganje zračenju; opšta atmosfera nekog mesta.
+  - D/L jd = **ozračenju**, I jd = **ozračenjem**
+- **oštroumlje** *(frek. 6, gen. oštroumlja)* — Bistrina uma, pronicljivost, oštrina razuma; oštroumlje.
+  - D/L jd = **oštroumlju**
+- **razdiranje** *(frek. 6, gen. razdiranja)* — Cepanje i kidanje na komade.
+  - I jd = **razdiranjem**
+- **razgledavanje** *(frek. 6, gen. razgledavanja)* — Obilazak i posmatranje znamenitosti.
+  - I jd = **razgledavanjem**
+- **rezbarstvo** *(frek. 6, gen. rezbarstva)* — Umetnost rezbarenja u drvetu.
+  - D/L jd = **rezbarstvu**, I jd = **rezbarstvom**
+- **roktanje** *(frek. 6, gen. roktanja)* — Glasanje svinje.
+  - I jd = **roktanjem**
+- **stegno** *(frek. 6, gen. stegna)* — Butina, gornji deo noge; stegno.
+  - I jd = **stegnom**
+- **streljivo** *(frek. 6, gen. streljiva)* — Meci, municija.
+  - D/L jd = **streljivu**
+- **sumnjanje** *(frek. 6, gen. sumnjanja)* — Oblik reči sumnjanje (nepoverenje, nedoumica).
+  - I jd = **sumnjanjem**
+- **udivljenje** *(frek. 6, gen. udivljenja)* — Veliko divljenje; ushićeno poštovanje.
+  - D/L jd = **udivljenju**
+- **uspevanje** *(frek. 6, gen. uspevanja)* — Postizanje uspeha; dobro napredovanje.
+  - D/L jd = **uspevanju**, I jd = **uspevanjem**
+- **zapinjanje** *(frek. 6, gen. zapinjanja)* — Zaglavljivanje i zastajanje.
+  - D/L jd = **zapinjanju**
+- **zborovanje** *(frek. 6, gen. zborovanja)* — Održavanje skupa i veća.
+  - D/L jd = **zborovanju**, I jd = **zborovanjem**
+- **škembe** *(frek. 6, gen. škembeta)* — Stomak, trbuh; goveđa creva kao jelo.
+  - D/L jd = **škembetu**, I jd = **škembetom**
+- **gnezdašce** *(frek. 5, gen. gnezdašca)* — Malo gnezdo.
+  - D/L jd = **gnezdašcu**, I jd = **gnezdašcem**
+- **hukanje** *(frek. 5, gen. hukanja)* — Glasanje sove (hu-hu); jako duvanje.
+  - D/L jd = **hukanju**, I jd = **hukanjem**
+- **jenjavanje** *(frek. 5, gen. jenjavanja)* — Postepeno slabljenje i stišavanje.
+  - D/L jd = **jenjavanju**, I jd = **jenjavanjem**
+- **krivudanje** *(frek. 5, gen. krivudanja)* — Vijugavo kretanje; ne ide pravo.
+  - D/L jd = **krivudanju**, I jd = **krivudanjem**
+- **navršenje** *(frek. 5, gen. navršenja)* — Dostizanje punog broja, npr. godina.
+  - D/L jd = **navršenju**, I jd = **navršenjem**
+- **pivarstvo** *(frek. 5, gen. pivarstva)* — Proizvodnja piva.
+  - D/L jd = **pivarstvu**, I jd = **pivarstvom**
+- **rebarce** *(frek. 5, gen. rebarca)* — Komad mesa sa rebara.
+  - D/L jd = **rebarcu**, I jd = **rebarcem**
+- **sirište** *(frek. 5, gen. sirišta)* — Enzim za zgrušavanje mleka u sir; sirište.
+  - D/L jd = **sirištu**, I jd = **sirištem**
+- **stočarenje** *(frek. 5, gen. stočarenja)* — Bavljenje gajenjem stoke.
+  - I jd = **stočarenjem**
+- **tesanje** *(frek. 5, gen. tesanja)* — Obrada drveta ili kamena sekirom; deljanje.
+  - I jd = **tesanjem**
+- **topništvo** *(frek. 5, gen. topništva)* — Topništvo — artiljerija (varijanta).
+  - D/L jd = **topništvu**, I jd = **topništvom**
+- **tovljenje** *(frek. 5, gen. tovljenja)* — Hranjenje životinja radi gojenja.
+  - D/L jd = **tovljenju**, I jd = **tovljenjem**
+- **upletanje** *(frek. 5, gen. upletanja)* — Uplitanje; mešanje u tuđe poslove.
+  - D/L jd = **upletanju**, I jd = **upletanjem**
+- **čegrtanje** *(frek. 5, gen. čegrtanja)* — Suvo zveckanje i klepet.
+  - D/L jd = **čegrtanju**, I jd = **čegrtanjem**
+- **anektiranje** *(frek. 4, gen. anektiranja)* — Oblik reči anektiranje (prisilno pripajanje teritorije).
+  - I jd = **anektiranjem**
+- **barbarstvo** *(frek. 4, gen. barbarstva)* — Surovost i nekultura; varvarstvo.
+  - D/L jd = **barbarstvu**, I jd = **barbarstvom**
+- **bratimstvo** *(frek. 4, gen. bratimstva)* — Pobratimstvo, zajednica pobratima i bliskost kao među braćom
+  - D/L jd = **bratimstvu**, I jd = **bratimstvom**
+- **garniranje** *(frek. 4, gen. garniranja)* — Ukrašavanje jela prilozima.
+  - I jd = **garniranjem**
+- **inozemstvo** *(frek. 4, gen. inozemstva)* — Inozemstvo — inostranstvo (varijanta).
+  - I jd = **inozemstvom**
+- **maturiranje** *(frek. 4, gen. maturiranja)* — Polaganje završnog ispita, mature; sazrevanje; maturiranje.
+  - D/L jd = **maturiranju**, I jd = **maturiranjem**
+- **očice** *(frek. 4, gen. očica)* — Oblik reči očice (male oči, okca).
+  - D/L jd = **očicu**, I jd = **očicem**
+- **pojilo** *(frek. 4, gen. pojila)* — Posuda ili mesto gde se poji stoka.
+  - I jd = **pojilom**, D/I/L mn = **pojilima**
+- **zafrkavanje** *(frek. 4, gen. zafrkavanja)* — Šaljivo podsmevanje i izazivanje.
+  - D/L jd = **zafrkavanju**, I jd = **zafrkavanjem**
+- **šivanje** *(frek. 4, gen. šivanja)* — Spajanje tkanine koncem.
+  - D/L jd = **šivanju**, I jd = **šivanjem**
+- **afektiranje** *(frek. 3, gen. afektiranja)* — Oblik reči afektirati (izveštačeno se ponašati, glumiti oseć
+  - D/L jd = **afektiranju**, I jd = **afektiranjem**
+- **cuganje** *(frek. 3, gen. cuganja)* — Pijančenje, opijanje (žargonski).
+  - D/L jd = **cuganju**, I jd = **cuganjem**
+- **govorkanje** *(frek. 3, gen. govorkanja)* — Širenje glasina i ogovaranja.
+  - D/L jd = **govorkanju**, I jd = **govorkanjem**
+- **grešenje** *(frek. 3, gen. grešenja)* — Činjenje grešaka i grehova; pogrešno postupanje; ogrešenje.
+  - D/L jd = **grešenju**
+- **grizodušje** *(frek. 3, gen. grizodušja)* — Griža savesti, mučno kajanje; grizodušje.
+  - D/L jd = **grizodušju**, D/I/L mn = **grizodušjima**
+- **gušče** *(frek. 3, gen. guščeta)* — Mladunče guske, guščić; gušče.
+  - D/L jd = **guščetu**, I jd = **guščetom**
+- **kimono** *(frek. 3, gen. kimona)* — Tradicionalna japanska odeća dugih rukava.
+  - I jd = **kimonom**
+- **naukovanje** *(frek. 3, gen. naukovanja)* — Učenje zanata kod majstora.
+  - D/L jd = **naukovanju**, I jd = **naukovanjem**
+- **nehtenje** *(frek. 3, gen. nehtenja)* — Nedostatak volje, nehtenje, nevoljnost; nehtenje.
+  - D/L jd = **nehtenju**, I jd = **nehtenjem**
+- **noćište** *(frek. 3, gen. noćišta)* — Mesto za prenoćište, konačište; noćište.
+  - I jd = **noćištem**
+- **nutkanje** *(frek. 3, gen. nutkanja)* — Uporno nuđenje, naročito hrane.
+  - D/L jd = **nutkanju**, I jd = **nutkanjem**
+- **okance** *(frek. 3, gen. okanca)* — Malo okno, prozorčić.
+  - D/L jd = **okancu**, I jd = **okancem**
+- **otrovanje** *(frek. 3, gen. otrovanja)* — Trovanje organizma otrovom.
+  - D/L jd = **otrovanju**, I jd = **otrovanjem**
+- **plenjenje** *(frek. 3, gen. plenjenja)* — Otimanje plena; zaplenjivanje.
+  - D/L jd = **plenjenju**, I jd = **plenjenjem**
+- **proziranje** *(frek. 3, gen. proziranja)* — Oblik reči proziranje (providanje, gledanje kroz).
+  - D/L jd = **proziranju**, I jd = **proziranjem**
+- **rasedanje** *(frek. 3, gen. rasedanja)* — Pomeranje slojeva zemljine kore duž raseda; rasedanje.
+  - I jd = **rasedanjem**
+- **rodoskvrnuće** *(frek. 3, gen. rodoskvrnuća)* — Polni odnos među bliskim srodnicima, incest; rodoskvrnuće.
+  - D/L jd = **rodoskvrnuću**, I jd = **rodoskvrnućem**
+- **stakalce** *(frek. 3, gen. stakalca)* — Mali komad stakla, parče stakla; stakalce.
+  - D/L jd = **stakalcu**, I jd = **stakalcem**
+- **strnište** *(frek. 3, gen. strništa)* — Njiva sa ostacima stabljika posle žetve; strnište.
+  - D/L jd = **strništu**, I jd = **strništem**, D/I/L mn = **strništima**
+- **toptanje** *(frek. 3, gen. toptanja)* — Udaranje nogama o tlo; topot.
+  - D/L jd = **toptanju**, I jd = **toptanjem**
+- **usmrćivanje** *(frek. 3, gen. usmrćivanja)* — Lišavanje života; ubijanje.
+  - D/L jd = **usmrćivanju**, I jd = **usmrćivanjem**
+- **zapešće** *(frek. 3, gen. zapešća)* — Mesto gde se šaka spaja sa rukom, ručni zglob.
+  - I jd = **zapešćem**
+- **zlato** *(frek. 3, gen. zlata)* — Skupocen sjajan žut metal.
+  - D/I/L mn = **zlatima**
+- **šuljanje** *(frek. 3, gen. šuljanja)* — Tiho i prikriveno kretanje.
+  - D/L jd = **šuljanju**, I jd = **šuljanjem**
+- **garište** *(frek. 2, gen. garišta)* — Zgarište, mesto na kome je nešto izgorelo; garište.
+  - I jd = **garištem**
+- **intrigiranje** *(frek. 2, gen. intrigiranja)* — Oblik reči intrigiranje (pobuđivanje radoznalosti; spletkare
+  - D/L jd = **intrigiranju**, I jd = **intrigiranjem**
+- **ispričavanje** *(frek. 2, gen. ispričavanja)* — Izvinjavanje i pravdanje.
+  - D/L jd = **ispričavanju**, I jd = **ispričavanjem**
+- **kampiranje** *(frek. 2, gen. kampiranja)* — Boravak u šatorima u prirodi.
+  - I jd = **kampiranjem**
+- **mekuštvo** *(frek. 2, gen. mekuštva)* — Mlitavost, razmaženost, slabost karaktera; mekuštvo.
+  - D/L jd = **mekuštvu**, I jd = **mekuštvom**
+- **ogledavanje** *(frek. 2, gen. ogledavanja)* — Posmatranje svog odraza u ogledalu.
+  - D/L jd = **ogledavanju**, I jd = **ogledavanjem**
+- **sumračje** *(frek. 2, gen. sumračja)* — Vreme sumraka, polutama.
+  - I jd = **sumračjem**, D/I/L mn = **sumračjima**
+- **zapovedanje** *(frek. 2, gen. zapovedanja)* — Izdavanje zapovesti; naređivanje.
+  - I jd = **zapovedanjem**
+- **balzamiranje** *(frek. 1, gen. balzamiranja)* — Postupak čuvanja mrtvog tela od raspadanja, balzamovanje; ba
+  - D/L jd = **balzamiranju**, I jd = **balzamiranjem**
+- **bijenale** *(frek. 1, gen. bijenala)* — Smotra ili izložba koja se priređuje svake druge godine; bij
+  - I jd = **bijenalem**
+- **kopkanje** *(frek. 1, gen. kopkanja)* — Uporno čeprkanje; neprijatna sumnja.
+  - D/L jd = **kopkanju**, I jd = **kopkanjem**
+- **napregnuće** *(frek. 1, gen. napregnuća)* — Oblik reči napregnuće (napor, naprezanje snaga).
+  - D/L jd = **napregnuću**, I jd = **napregnućem**
+- **novačenje** *(frek. 1, gen. novačenja)* — Pozivanje i uzimanje u vojsku.
+  - I jd = **novačenjem**
+- **optrčavanje** *(frek. 1, gen. optrčavanja)* — Oblik reči „optrčavanje“; trčanje oko nečega, obilaženje (um
+  - D/L jd = **optrčavanju**, I jd = **optrčavanjem**
+- **pomišljanje** *(frek. 1, gen. pomišljanja)* — Padanje na pamet; pomisao.
+  - D/L jd = **pomišljanju**
+- **poselo** *(frek. 1, gen. posela)* — Večernje druženje uz pesmu i igru.
+  - I jd = **poselom**
+- **preslušanje** *(frek. 1, gen. preslušanja)* — Saslušanje; ponovno preslušavanje snimka.
+  - D/L jd = **preslušanju**, I jd = **preslušanjem**
+- **prirođenje** *(frek. 1, gen. prirođenja)* — Srastanje, prianjanje uz nešto; prirođenje.
+  - D/L jd = **prirođenju**
+- **promaknuće** *(frek. 1, gen. promaknuća)* — Unapređenje, napredovanje na položaju.
+  - I jd = **promaknućem**
+- **riskiranje** *(frek. 1, gen. riskiranja)* — Izlaganje opasnosti zarad dobiti.
+  - D/L jd = **riskiranju**, I jd = **riskiranjem**
+- **sagibanje** *(frek. 1, gen. sagibanja)* — Savijanje i naginjanje tela.
+  - D/L jd = **sagibanju**, I jd = **sagibanjem**
+- **uzrujavanje** *(frek. 1, gen. uzrujavanja)* — Uznemiravanje i nerviranje.
+  - D/L jd = **uzrujavanju**, I jd = **uzrujavanjem**
+- **časništvo** *(frek. 1, gen. časništva)* — Časništvo — oficirski čin i zvanje (varijanta).
+  - D/L jd = **časništvu**, I jd = **časništvom**
+
+---
+
+## Grupa E — NEMA ih u korpusu (0) — proveri prve
+
+**348 imenica, 543 oblika**
+
+- **agitovanje** *(frek. 0, gen. agitovanja)* — Nagovaranje i pridobijanje za neku ideju.
+  - I jd = **agitovanjem**
+- **arilje** *(frek. 0, gen. arilja)* — Arilje (grad u zapadnoj Srbiji).
+  - I jd = **ariljem**
+- **armadilo** *(frek. 0, gen. armadila)* — Sisar Južne Amerike prekriven koštanim oklopom, oklopnik; ar
+  - D/L jd = **armadilu**, I jd = **armadilom**
+- **balavljenje** *(frek. 0, gen. balavljenja)* — Curenje bale i pljuvačke.
+  - D/L jd = **balavljenju**, I jd = **balavljenjem**
+- **balsamovanje** *(frek. 0, gen. balsamovanja)* — Postupak očuvanja tela od raspadanja.
+  - D/L jd = **balsamovanju**, I jd = **balsamovanjem**
+- **balzamovanje** *(frek. 0, gen. balzamovanja)* — Postupak čuvanja tela od raspadanja.
+  - D/L jd = **balzamovanju**, I jd = **balzamovanjem**
+- **barajevo** *(frek. 0, gen. barajeva)* — Barajevo — gradska opština Beograda.
+  - I jd = **barajevom**
+- **bazanje** *(frek. 0, gen. bazanja)* — Reč „bazanje“; lutanje i tumaranje bez cilja, skitanje (besc
+  - I jd = **bazanjem**
+- **bekrijanje** *(frek. 0, gen. bekrijanja)* — Oblik reči bekrijanje (pijančenje, lumpovanje).
+  - D/L jd = **bekrijanju**, I jd = **bekrijanjem**
+- **belkanto** *(frek. 0, gen. belkanta)* — Lepo, virtuozno opersko pevanje sa naglaskom na lepoti tona;
+  - D/L jd = **belkantu**, I jd = **belkantom**
+- **blagočešće** *(frek. 0, gen. blagočešća)* — Reč „blagočešće“; pobožnost i poštovanje vere, bogobojaznost
+  - D/L jd = **blagočešću**, I jd = **blagočešćem**
+- **blatište** *(frek. 0, gen. blatišta)* — Blatnjavo mesto, kaljuga, glib; blatište.
+  - I jd = **blatištem**
+- **bluđenje** *(frek. 0, gen. bluđenja)* — Oblik reči bluđenje (lutanje, tumaranje).
+  - D/L jd = **bluđenju**, I jd = **bluđenjem**
+- **boksovanje** *(frek. 0, gen. boksovanja)* — Borba pesnicama po pravilima boksa.
+  - D/L jd = **boksovanju**, I jd = **boksovanjem**
+- **bube** *(frek. 0, gen. bubeta)* — Sitni insekti tvrdih krila (množina od buba).
+  - D/L jd = **bubetu**, I jd = **bubetom**
+- **bugojno** *(frek. 0, gen. bugojna)* — Bugojno (grad u središnjoj Bosni).
+  - I jd = **bugojnom**
+- **buktanje** *(frek. 0, gen. buktanja)* — Snažno gorenje velikim plamenom.
+  - D/L jd = **buktanju**, I jd = **buktanjem**
+- **bulažnjenje** *(frek. 0, gen. bulažnjenja)* — Buncanje i govorenje u bunilu.
+  - D/L jd = **bulažnjenju**, I jd = **bulažnjenjem**
+- **bunjenje** *(frek. 0, gen. bunjenja)* — Reč „bunjenje“; dizanje bune i pobune, pobuna; protest (pozi
+  - D/L jd = **bunjenju**, I jd = **bunjenjem**
+- **cerenje** *(frek. 0, gen. cerenja)* — Razvlačenje usana u podrugljiv osmeh.
+  - D/L jd = **cerenju**, I jd = **cerenjem**
+- **cifranje** *(frek. 0, gen. cifranja)* — Kićenje i ukrašavanje; prenemaganje i preterano doterivanje;
+  - D/L jd = **cifranju**, I jd = **cifranjem**
+- **dedinje** *(frek. 0, gen. dedinja)* — Dedinje — elitna rezidencijalna četvrt Beograda.
+  - I jd = **dedinjem**
+- **desetljeće** *(frek. 0, gen. desetljeća)* — Oblik reči desetljeće (decenija — ijekavski).
+  - I jd = **desetljećem**
+- **detelište** *(frek. 0, gen. detelišta)* — Reč „detelište“; njiva ili livada zasejana detelinom (pasli 
+  - I jd = **detelištem**
+- **dinstanje** *(frek. 0, gen. dinstanja)* — Lagano krčkanje jela u malo tečnosti (glagolska imenica).
+  - D/L jd = **dinstanju**
+- **dosluženje** *(frek. 0, gen. dosluženja)* — Odsluženje do kraja predviđenog roka; dosluženje.
+  - I jd = **dosluženjem**
+- **doziđivanje** *(frek. 0, gen. doziđivanja)* — Dograđivanje zida; proširivanje zidanjem.
+  - D/L jd = **doziđivanju**, I jd = **doziđivanjem**
+- **dočekanje** *(frek. 0, gen. dočekanja)* — Oblik reči dočekanje (doček, primanje gosta).
+  - D/L jd = **dočekanju**
+- **držalje** *(frek. 0, gen. držalja)* — Drška, ručica alata ili oruđa; držalje.
+  - I jd = **držaljem**
+- **dupence** *(frek. 0, gen. dupenceta)* — Oblik reči „dupe“ od milja; mala zadnjica.
+  - D/L jd = **dupencetu**, I jd = **dupencetom**
+- **džonjanje** *(frek. 0, gen. džonjanja)* — Besposleno stajanje i dangubljenje.
+  - D/L jd = **džonjanju**, I jd = **džonjanjem**
+- **eksploatisanje** *(frek. 0, gen. eksploatisanja)* — Iskorišćavanje rada ili bogatstava.
+  - D/L jd = **eksploatisanju**, I jd = **eksploatisanjem**
+- **flamenko** *(frek. 0, gen. flamenka)* — Vatreni španski ples i muzika sa gitarom i pljeskanjem; flam
+  - D/L jd = **flamenku**, I jd = **flamenkom**
+- **gatarstvo** *(frek. 0, gen. gatarstva)* — Bavljenje gatanjem i proricanjem.
+  - D/L jd = **gatarstvu**, I jd = **gatarstvom**
+- **gestapo** *(frek. 0, gen. gestapa)* — Tajna policija nacističke Nemačke.
+  - I jd = **gestapom**
+- **gizdanje** *(frek. 0, gen. gizdanja)* — Kićenje i doterivanje; ulepšavanje.
+  - I jd = **gizdanjem**
+- **gloženje** *(frek. 0, gen. gloženja)* — Stalno svađanje i međusobno zadevanje.
+  - D/L jd = **gloženju**, I jd = **gloženjem**
+- **gluvarenje** *(frek. 0, gen. gluvarenja)* — Besciljno tumaranje i dangubljenje.
+  - I jd = **gluvarenjem**
+- **gnjilane** *(frek. 0, gen. gnjilana)* — Gnjilane — grad na Kosovu i Metohiji.
+  - I jd = **gnjilanem**
+- **gorđenje** *(frek. 0, gen. gorđenja)* — Ponošenje i dičenje, oholost; ponos.
+  - D/L jd = **gorđenju**, I jd = **gorđenjem**
+- **gotovljenje** *(frek. 0, gen. gotovljenja)* — Spremanje i kuvanje jela.
+  - I jd = **gotovljenjem**
+- **govance** *(frek. 0, gen. govanceta)* — Oblik reči govance (komad izmeta; pogrdno za osobu).
+  - D/L jd = **govancetu**, I jd = **govancetom**
+- **grabljenje** *(frek. 0, gen. grabljenja)* — Pohlepno hvatanje i prisvajanje.
+  - D/L jd = **grabljenju**
+- **grgutanje** *(frek. 0, gen. grgutanja)* — Nežni glasovi golubova.
+  - D/L jd = **grgutanju**, I jd = **grgutanjem**
+- **guano** *(frek. 0, gen. guana)* — Đubrivo od ptičjeg ili šišmišjeg izmeta.
+  - D/L jd = **guanu**, I jd = **guanom**
+- **gusinje** *(frek. 0, gen. gusinja)* — Gusinje (grad na severoistoku Crne Gore).
+  - I jd = **gusinjem**
+- **gučevo** *(frek. 0, gen. gučeva)* — Gučevo (planina kod Loznice).
+  - I jd = **gučevom**
+- **gušanje** *(frek. 0, gen. gušanja)* — Rvanje i hvatanje u koštac.
+  - I jd = **gušanjem**
+- **hajdukovanje** *(frek. 0, gen. hajdukovanja)* — Život i delovanje hajduka u odmetništvu.
+  - I jd = **hajdukovanjem**
+- **hlorisanje** *(frek. 0, gen. hlorisanja)* — Prečišćavanje vode hlorom.
+  - D/L jd = **hlorisanju**, I jd = **hlorisanjem**
+- **homolje** *(frek. 0, gen. homolja)* — Homolje — planinski predeo u istočnoj Srbiji.
+  - I jd = **homoljem**
+- **iskradanje** *(frek. 0, gen. iskradanja)* — Tajno i tiho izlaženje.
+  - D/L jd = **iskradanju**, I jd = **iskradanjem**
+- **isleđenje** *(frek. 0, gen. isleđenja)* — Oblik reči isleđenje (istraga, ispitivanje).
+  - I jd = **isleđenjem**
+- **izbavljanje** *(frek. 0, gen. izbavljanja)* — Spasavanje iz nevolje.
+  - I jd = **izbavljanjem**
+- **izgonjenje** *(frek. 0, gen. izgonjenja)* — Teranje napolje; proterivanje.
+  - D/L jd = **izgonjenju**, I jd = **izgonjenjem**
+- **izlivanje** *(frek. 0, gen. izlivanja)* — Oticanje preko ivica; livenje u kalup.
+  - D/L jd = **izlivanju**
+- **izlječenje** *(frek. 0, gen. izlječenja)* — Ijekavski oblik: izlečenje (ozdravljenje, vraćanje zdravlja)
+  - I jd = **izlječenjem**
+- **iznurivanje** *(frek. 0, gen. iznurivanja)* — Iscrpljivanje i premaranje.
+  - D/L jd = **iznurivanju**, I jd = **iznurivanjem**
+- **izronjavanje** *(frek. 0, gen. izronjavanja)* — Izranjanje i pomaljanje na površinu.
+  - D/L jd = **izronjavanju**, I jd = **izronjavanjem**
+- **izvrdavanje** *(frek. 0, gen. izvrdavanja)* — Izbegavanje obaveze okolišanjem.
+  - I jd = **izvrdavanjem**
+- **jarinje** *(frek. 0, gen. jarinja)* — Jarinje — granični prelaz na severu Kosova i Metohije.
+  - I jd = **jarinjem**
+- **jeđenje** *(frek. 0, gen. jeđenja)* — Jelo, uzimanje hrane, hranjenje; jeđenje.
+  - D/L jd = **jeđenju**
+- **jurenje** *(frek. 0, gen. jurenja)* — Brzo kretanje; gonjenje.
+  - D/L jd = **jurenju**, I jd = **jurenjem**
+- **jurke** *(frek. 0, gen. jurka)* — Dečja igra jurenja i hvatanja.
+  - D/L jd = **jurku**, I jd = **jurkem**
+- **kairo** *(frek. 0, gen. kaira)* — Glavni grad Egipta.
+  - I jd = **kairom**
+- **kapućino** *(frek. 0, gen. kapućina)* — Vrsta kafe sa zapenjenim mlekom.
+  - D/L jd = **kapućinu**, I jd = **kapućinom**
+- **karanovo** *(frek. 0, gen. karanova)* — Karanovo (arheološko nalazište; naselje).
+  - D/L jd = **karanovu**, I jd = **karanovom**
+- **karavađo** *(frek. 0, gen. karavađa)* — Karavađo — čuveni italijanski slikar baroka (Mikelanđelo Mer
+  - I jd = **karavađem**
+- **kasapljenje** *(frek. 0, gen. kasapljenja)* — Surovo komadanje i ubijanje.
+  - D/L jd = **kasapljenju**, I jd = **kasapljenjem**
+- **katoličenje** *(frek. 0, gen. katoličenja)* — Oblik reči katoličenje (prevođenje u katoličku veru).
+  - I jd = **katoličenjem**
+- **kibicovanje** *(frek. 0, gen. kibicovanja)* — Posmatranje tuđe igre i dobacivanje saveta.
+  - D/L jd = **kibicovanju**, I jd = **kibicovanjem**
+- **kinjenje** *(frek. 0, gen. kinjenja)* — Mučenje i zlostavljanje.
+  - I jd = **kinjenjem**
+- **kinđurenje** *(frek. 0, gen. kinđurenja)* — Preterano kićenje i doterivanje.
+  - I jd = **kinđurenjem**
+- **kjoto** *(frek. 0, gen. kjota)* — Drevni grad u Japanu, nekadašnja prestonica.
+  - I jd = **kjotom**
+- **kladovo** *(frek. 0, gen. kladova)* — Kladovo — grad na Dunavu (istočna Srbija, Đerdap).
+  - I jd = **kladovom**
+- **koeljo** *(frek. 0, gen. koelja)* — Koeljo — Paulo Koeljo, brazilski pisac (Alhemičar).
+  - D/L jd = **koelju**, I jd = **koeljem**
+- **kolorado** *(frek. 0, gen. kolorada)* — Savezna država u SAD; reka.
+  - I jd = **koloradom**
+- **kolumbo** *(frek. 0, gen. kolumba)* — Kolumbo — Kristofor Kolumbo, otkrivač Amerike; TV detektiv.
+  - D/L jd = **kolumbu**, I jd = **kolumbom**
+- **konačenje** *(frek. 0, gen. konačenja)* — Prenoćište i boravak preko noći.
+  - D/L jd = **konačenju**, I jd = **konačenjem**
+- **konobarisanje** *(frek. 0, gen. konobarisanja)* — Posluživanje gostiju u ugostiteljstvu.
+  - D/L jd = **konobarisanju**, I jd = **konobarisanjem**
+- **kontrastiranje** *(frek. 0, gen. kontrastiranja)* — Oblik reči kontrastiranje (isticanje suprotnosti).
+  - D/L jd = **kontrastiranju**
+- **kristalizovanje** *(frek. 0, gen. kristalizovanja)* — Obrazovanje kristala iz rastvora.
+  - D/L jd = **kristalizovanju**, I jd = **kristalizovanjem**
+- **krivoverje** *(frek. 0, gen. krivoverja)* — Jeres, lažno verovanje; krivoverje.
+  - D/L jd = **krivoverju**, I jd = **krivoverjem**
+- **krpljenje** *(frek. 0, gen. krpljenja)* — Zašivanje rupa i poderotina.
+  - I jd = **krpljenjem**
+- **kućenje** *(frek. 0, gen. kućenja)* — Zasnivanje doma i domaćinstva.
+  - I jd = **kućenjem**
+- **ladino** *(frek. 0, gen. ladina)* — Jevrejsko-španski jezik sefardskih Jevreja; ladino.
+  - D/L jd = **ladinu**, I jd = **ladinom**
+- **lakomstvo** *(frek. 0, gen. lakomstva)* — Pohlepa, nezasitost; lakomost.
+  - D/L jd = **lakomstvu**
+- **lebane** *(frek. 0, gen. lebana)* — Lebane — varošica u južnoj Srbiji (Jablanica).
+  - I jd = **lebanem**
+- **linčovanje** *(frek. 0, gen. linčovanja)* — Samovoljno ubijanje osumnjičenog bez suda.
+  - I jd = **linčovanjem**
+- **lipsavanje** *(frek. 0, gen. lipsavanja)* — Oblik reči lipsavanje (postepeno uginjavanje).
+  - D/L jd = **lipsavanju**, I jd = **lipsavanjem**
+- **ljepilo** *(frek. 0, gen. ljepila)* — Ljepilo — lepak (ijekavski).
+  - D/L jd = **ljepilu**, I jd = **ljepilom**
+- **lordstvo** *(frek. 0, gen. lordstva)* — Plemićka titula i položaj lorda.
+  - D/L jd = **lordstvu**, I jd = **lordstvom**
+- **maroko** *(frek. 0, gen. maroka)* — Država u severnoj Africi (Maroko).
+  - I jd = **marokom**
+- **marvinče** *(frek. 0, gen. marvinčeta)* — Grlo krupne stoke, govedo; marvinče.
+  - D/L jd = **marvinčetu**, I jd = **marvinčetom**
+- **maštanije** *(frek. 0, gen. maštanija)* — Sanjarenje, izmišljotina, maštarija; maštanije.
+  - D/L jd = **maštaniju**, I jd = **maštanijem**
+- **mefisto** *(frek. 0, gen. mefista)* — Mefisto — Mefistofel, đavo iz legende o Faustu.
+  - D/L jd = **mefistu**, I jd = **mefistom**
+- **merdare** *(frek. 0, gen. merdara)* — Merdare — mesto i prevoj u Srbiji, kod Kuršumlije.
+  - I jd = **merdarem**
+- **merdevine** *(frek. 0, gen. merdevina)* — Prenosive lestve za penjanje.
+  - D/L jd = **merdevinu**, I jd = **merdevinem**
+- **mesečarenje** *(frek. 0, gen. mesečarenja)* — Hodanje i radnje u snu; somnambulizam.
+  - D/L jd = **mesečarenju**, I jd = **mesečarenjem**
+- **mesojeđe** *(frek. 0, gen. mesojeđa)* — Razdoblje kada se po verskim pravilima sme jesti meso; mesoj
+  - D/L jd = **mesojeđu**, I jd = **mesojeđem**
+- **minare** *(frek. 0, gen. minara)* — Visoki toranj uz džamiju, minaret; minare.
+  - D/L jd = **minaru**, I jd = **minarem**
+- **mićenje** *(frek. 0, gen. mićenja)* — Oblik reči mićenje (podmićivanje, mito).
+  - D/L jd = **mićenju**, I jd = **mićenjem**
+- **mobilisanje** *(frek. 0, gen. mobilisanja)* — Pozivanje pod oružje; pokretanje snaga.
+  - I jd = **mobilisanjem**
+- **mogućstvo** *(frek. 0, gen. mogućstva)* — Mogućnost, prilika da se nešto učini; mogućstvo.
+  - I jd = **mogućstvom**
+- **moralisanje** *(frek. 0, gen. moralisanja)* — Držanje pridika o moralu.
+  - D/L jd = **moralisanju**, I jd = **moralisanjem**
+- **mržnjenje** *(frek. 0, gen. mržnjenja)* — Pretvaranje tečnosti u led; smrzavanje.
+  - D/L jd = **mržnjenju**, I jd = **mržnjenjem**
+- **mućenje** *(frek. 0, gen. mućenja)* — Mešanje da se zapeni ili sjedini; mućkanje.
+  - D/L jd = **mućenju**
+- **nadevanje** *(frek. 0, gen. nadevanja)* — Punjenje jela nadevom.
+  - D/L jd = **nadevanju**
+- **nadolaženje** *(frek. 0, gen. nadolaženja)* — Postepeno dolaženje i približavanje.
+  - D/L jd = **nadolaženju**
+- **najedanje** *(frek. 0, gen. najedanja)* — Jedenje do sitosti.
+  - D/L jd = **najedanju**, I jd = **najedanjem**
+- **nalivanje** *(frek. 0, gen. nalivanja)* — Sipanje tečnosti do vrha.
+  - D/L jd = **nalivanju**, I jd = **nalivanjem**
+- **napijanje** *(frek. 0, gen. napijanja)* — Nazdravljanje; prekomerno pijenje.
+  - D/L jd = **napijanju**, I jd = **napijanjem**
+- **naseljenje** *(frek. 0, gen. naseljenja)* — Nastanjivanje ljudi na nekom prostoru.
+  - D/L jd = **naseljenju**, I jd = **naseljenjem**
+- **naturanje** *(frek. 0, gen. naturanja)* — Nasilno nametanje.
+  - D/L jd = **naturanju**, I jd = **naturanjem**
+- **nazime** *(frek. 0, gen. nazimeta)* — Mlado prase od oko godinu dana.
+  - D/L jd = **nazimetu**, I jd = **nazimetom**
+- **neigranje** *(frek. 0, gen. neigranja)* — Izostanak igranja, neigranje; neigranje.
+  - D/L jd = **neigranju**
+- **neimarstvo** *(frek. 0, gen. neimarstva)* — Graditeljstvo, arhitektura, umeće građenja; neimarstvo.
+  - D/L jd = **neimarstvu**, I jd = **neimarstvom**
+- **neiznošenje** *(frek. 0, gen. neiznošenja)* — Izostanak iznošenja, neiznošenje; neiznošenje.
+  - D/L jd = **neiznošenju**, I jd = **neiznošenjem**
+- **nekupanje** *(frek. 0, gen. nekupanja)* — Izostanak kupanja, neumivanje; nekupanje.
+  - D/L jd = **nekupanju**, I jd = **nekupanjem**
+- **nenadanje** *(frek. 0, gen. nenadanja)* — Oblik reči nenadanje (neočekivanost, iznenadnost).
+  - D/L jd = **nenadanju**, I jd = **nenadanjem**
+- **neobraćanje** *(frek. 0, gen. neobraćanja)* — Izostanak obraćanja, neobraćanje; neobraćanje.
+  - D/L jd = **neobraćanju**, I jd = **neobraćanjem**
+- **nepamćenje** *(frek. 0, gen. nepamćenja)* — Izostanak pamćenja, zaborav; nepamćenje.
+  - D/L jd = **nepamćenju**, I jd = **nepamćenjem**
+- **nevesinje** *(frek. 0, gen. nevesinja)* — Nevesinje — grad u istočnoj Hercegovini (Nevesinjska puška).
+  - I jd = **nevesinjem**
+- **neviđenje** *(frek. 0, gen. neviđenja)* — Oblik reči neviđenje (izostanak viđanja, neviđanje).
+  - D/L jd = **neviđenju**, I jd = **neviđenjem**
+- **neželjenje** *(frek. 0, gen. neželjenja)* — Oblik reči neželjenje (izostanak želje, neželjenje).
+  - I jd = **neželjenjem**
+- **njegovanje** *(frek. 0, gen. njegovanja)* — Brižno staranje o nekome; negovanje.
+  - I jd = **njegovanjem**
+- **obaziranje** *(frek. 0, gen. obaziranja)* — Osvrtanje; obraćanje pažnje na nešto.
+  - D/L jd = **obaziranju**, I jd = **obaziranjem**
+- **odelce** *(frek. 0, gen. odelca)* — Oblik reči „odelce“; malo odelo, najčešće dečje (obukla odel
+  - D/L jd = **odelcu**, I jd = **odelcem**
+- **odeljivanje** *(frek. 0, gen. odeljivanja)* — Razdvajanje i odvajanje.
+  - D/L jd = **odeljivanju**, I jd = **odeljivanjem**
+- **odrešenje** *(frek. 0, gen. odrešenja)* — Oslobađanje od greha ili obaveze.
+  - I jd = **odrešenjem**
+- **odronjavanje** *(frek. 0, gen. odronjavanja)* — Obrušavanje zemlje ili kamenja niz padinu.
+  - D/L jd = **odronjavanju**, I jd = **odronjavanjem**
+- **oduživanje** *(frek. 0, gen. oduživanja)* — Vraćanje duga i uzvraćanje.
+  - D/L jd = **oduživanju**, I jd = **oduživanjem**
+- **ohajo** *(frek. 0, gen. ohaja)* — Oblik reči „Ohajo“; država u Americi.
+  - D/L jd = **ohaju**, I jd = **ohajem**
+- **okapanje** *(frek. 0, gen. okapanja)* — Oblik reči okapanje (mučenje, dangubljenje u čekanju).
+  - D/L jd = **okapanju**, I jd = **okapanjem**
+- **okolišenje** *(frek. 0, gen. okolišenja)* — Govorenje zaobilazno, bez suštine.
+  - D/L jd = **okolišenju**, I jd = **okolišenjem**
+- **onesvešćivanje** *(frek. 0, gen. onesvešćivanja)* — Dovođenje do gubitka svesti.
+  - D/L jd = **onesvešćivanju**, I jd = **onesvešćivanjem**
+- **opanjkavanje** *(frek. 0, gen. opanjkavanja)* — Klevetanje i ogovaranje iza leđa.
+  - D/L jd = **opanjkavanju**, I jd = **opanjkavanjem**
+- **opevanje** *(frek. 0, gen. opevanja)* — Slavljenje i opisivanje u pesmi.
+  - D/L jd = **opevanju**
+- **opkoračenje** *(frek. 0, gen. opkoračenja)* — Stajanje raskoračeno preko nečega.
+  - D/L jd = **opkoračenju**, I jd = **opkoračenjem**
+- **opovo** *(frek. 0, gen. opova)* — Opovo — naselje u južnom Banatu.
+  - I jd = **opovom**
+- **optiranje** *(frek. 0, gen. optiranja)* — Oblik reči optiranje (opredeljivanje za državljanstvo).
+  - D/L jd = **optiranju**, I jd = **optiranjem**
+- **opčinjavanje** *(frek. 0, gen. opčinjavanja)* — Očaravanje i zanošenje.
+  - D/L jd = **opčinjavanju**, I jd = **opčinjavanjem**
+- **opšivanje** *(frek. 0, gen. opšivanja)* — Obrubljivanje ivice šivenjem.
+  - D/L jd = **opšivanju**
+- **orašje** *(frek. 0, gen. orašja)* — Orašje (grad u Bosni; naselje).
+  - I jd = **orašjem**
+- **orlando** *(frek. 0, gen. orlanda)* — Grad u SAD; muško ime (Orlando).
+  - D/L jd = **orlandu**, I jd = **orlandom**
+- **orođavanje** *(frek. 0, gen. orođavanja)* — Oblik reči orođavanje (stvaranje srodstva).
+  - I jd = **orođavanjem**
+- **oružanje** *(frek. 0, gen. oružanja)* — Snabdevanje oružjem; naoružavanje.
+  - D/L jd = **oružanju**, I jd = **oružanjem**
+- **osamljenje** *(frek. 0, gen. osamljenja)* — Stanje usamljenosti i izdvojenosti.
+  - I jd = **osamljenjem**
+- **osamljivanje** *(frek. 0, gen. osamljivanja)* — Povlačenje u samoću i izolaciju.
+  - I jd = **osamljivanjem**
+- **oscilovanje** *(frek. 0, gen. oscilovanja)* — Pravilno njihanje oko sredine; kolebanje.
+  - D/L jd = **oscilovanju**, I jd = **oscilovanjem**
+- **osramoćenje** *(frek. 0, gen. osramoćenja)* — Nanošenje sramote.
+  - D/L jd = **osramoćenju**, I jd = **osramoćenjem**
+- **ostrvlje** *(frek. 0, gen. ostrvlja)* — Ostrvlje — skup ostrva, arhipelag.
+  - D/L jd = **ostrvlju**, I jd = **ostrvljem**
+- **otaljavanje** *(frek. 0, gen. otaljavanja)* — Aljkavo i nemarno obavljanje posla.
+  - D/L jd = **otaljavanju**, I jd = **otaljavanjem**
+- **otačastvo** *(frek. 0, gen. otačastva)* — Otadžbina, rodna zemlja (svečano i crkvenoslovenski); otačas
+  - I jd = **otačastvom**
+- **otečestvo** *(frek. 0, gen. otečestva)* — Otečestvo — otadžbina, domovina (arhaično, crkvenoslovenski)
+  - I jd = **otečestvom**
+- **ovenčavanje** *(frek. 0, gen. ovenčavanja)* — Kićenje vencem; ovenčavanje slavom.
+  - D/L jd = **ovenčavanju**, I jd = **ovenčavanjem**
+- **ovlaštenje** *(frek. 0, gen. ovlaštenja)* — Ovlaštenje — ovlašćenje, punomoć (varijanta).
+  - D/L jd = **ovlaštenju**, I jd = **ovlaštenjem**
+- **ozarenje** *(frek. 0, gen. ozarenja)* — Sjaj sreće na licu; stanje ozarenosti.
+  - D/L jd = **ozarenju**, I jd = **ozarenjem**
+- **ozvučavanje** *(frek. 0, gen. ozvučavanja)* — Opremanje prostora zvučnom opremom.
+  - D/L jd = **ozvučavanju**, I jd = **ozvučavanjem**
+- **očaravanje** *(frek. 0, gen. očaravanja)* — Zanošenje i oduševljavanje.
+  - D/L jd = **očaravanju**, I jd = **očaravanjem**
+- **oživljenje** *(frek. 0, gen. oživljenja)* — Vraćanje u život ili u dejstvo.
+  - I jd = **oživljenjem**
+- **palermo** *(frek. 0, gen. palerma)* — Grad na Siciliji, u Italiji (Palermo).
+  - I jd = **palermom**
+- **palidrvce** *(frek. 0, gen. palidrvca)* — Drvce sa zapaljivom glavicom, šibica, žigica; palidrvce.
+  - D/L jd = **palidrvcu**, I jd = **palidrvcem**
+- **paženje** *(frek. 0, gen. paženja)* — Brižna nega i pažnja.
+  - I jd = **paženjem**
+- **pendže** *(frek. 0, gen. pendžeta)* — Oblik reči pendže (donji deo cipele, potplat — turcizam).
+  - D/L jd = **pendžetu**, I jd = **pendžetom**
+- **penkalo** *(frek. 0, gen. penkala)* — Nalivpero.
+  - D/I/L mn = **penkalima**
+- **perikle** *(frek. 0, gen. perikla)* — Perikle — atinski državnik (zlatno doba Atine).
+  - D/L jd = **periklu**, I jd = **periklem**
+- **pesničenje** *(frek. 0, gen. pesničenja)* — Tučnjava pesnicama; udaranje pesnicama.
+  - I jd = **pesničenjem**
+- **petoknjižje** *(frek. 0, gen. petoknjižja)* — Prvih pet knjiga Starog zaveta, Mojsijevo petoknjižje; petok
+  - D/L jd = **petoknjižju**, I jd = **petoknjižjem**
+- **pikaso** *(frek. 0, gen. pikasa)* — Čuveni španski slikar (Pablo Pikaso).
+  - I jd = **pikasom**
+- **pitanjce** *(frek. 0, gen. pitanjca)* — Oblik reči „pitanjce“; malo, sitno pitanje (jedno pitanjce).
+  - D/L jd = **pitanjcu**, I jd = **pitanjcem**
+- **pješaštvo** *(frek. 0, gen. pješaštva)* — Oblik reči pješaštvo (pešadija — ijekavski).
+  - D/L jd = **pješaštvu**, I jd = **pješaštvom**
+- **plandište** *(frek. 0, gen. plandišta)* — Zaklonjeno mesto gde stoka odmara u podnevnoj vrućini; pland
+  - I jd = **plandištem**
+- **podgrađe** *(frek. 0, gen. podgrađa)* — Oblik reči podgrađe (naselje ispod tvrđave, varoš pod gradom
+  - I jd = **podgrađem**
+- **podosoje** *(frek. 0, gen. podosoja)* — Strana okrenuta od sunca, osoje, hlad; podosoje.
+  - I jd = **podosojem**
+- **podujevo** *(frek. 0, gen. podujeva)* — Podujevo — grad na severu Kosova i Metohije.
+  - I jd = **podujevom**
+- **pogrebenje** *(frek. 0, gen. pogrebenja)* — Sahranjivanje umrlog; pogreb.
+  - I jd = **pogrebenjem**
+- **pohovanje** *(frek. 0, gen. pohovanja)* — Prženje umotano u jaja i mrvice.
+  - D/L jd = **pohovanju**, I jd = **pohovanjem**
+- **pokućanstvo** *(frek. 0, gen. pokućanstva)* — Domaćinstvo, kućni pribor; pokućanstvo.
+  - D/L jd = **pokućanstvu**, I jd = **pokućanstvom**
+- **polibije** *(frek. 0, gen. polibija)* — Polibije — starogrčki istoričar.
+  - D/L jd = **polibiju**, I jd = **polibijem**
+- **polimlje** *(frek. 0, gen. polimlja)* — Polimlje — oblast oko reke Lim.
+  - I jd = **polimljem**
+- **polivanje** *(frek. 0, gen. polivanja)* — Sipanje tečnosti po nečemu.
+  - D/L jd = **polivanju**, I jd = **polivanjem**
+- **položenje** *(frek. 0, gen. položenja)* — Smeštaj i mesto na kome se nešto nalazi.
+  - I jd = **položenjem**
+- **polugođe** *(frek. 0, gen. polugođa)* — Oblik reči polugođe (polovina godine, semestar).
+  - I jd = **polugođem**
+- **pomazivanje** *(frek. 0, gen. pomazivanja)* — Mazanje uljem pri verskom obredu.
+  - D/L jd = **pomazivanju**, I jd = **pomazivanjem**
+- **ponošenje** *(frek. 0, gen. ponošenja)* — Dostojanstveno držanje; takođe izlizanost odeće.
+  - D/L jd = **ponošenju**, I jd = **ponošenjem**
+- **porobljenje** *(frek. 0, gen. porobljenja)* — Pretvaranje u robove; pokoravanje.
+  - D/L jd = **porobljenju**
+- **portoriko** *(frek. 0, gen. portorika)* — Ostrvo i teritorija u Karibima pod upravom SAD.
+  - I jd = **portorikom**
+- **poruganje** *(frek. 0, gen. poruganja)* — Izrugivanje i ismevanje.
+  - D/L jd = **poruganju**, I jd = **poruganjem**
+- **posečenje** *(frek. 0, gen. posečenja)* — Sečenje i obaranje, npr. drveća.
+  - I jd = **posečenjem**
+- **posramljenje** *(frek. 0, gen. posramljenja)* — Dovođenje u stid; sramoćenje.
+  - I jd = **posramljenjem**
+- **postponiranje** *(frek. 0, gen. postponiranja)* — Oblik reči postponiranje (odlaganje, odgađanje).
+  - D/L jd = **postponiranju**, I jd = **postponiranjem**
+- **postradanje** *(frek. 0, gen. postradanja)* — Oblik reči postradanje (stradanje, propast).
+  - I jd = **postradanjem**
+- **potisje** *(frek. 0, gen. potisja)* — Kraj uz reku Tisu; Potisje.
+  - I jd = **potisjem**
+- **poturanje** *(frek. 0, gen. poturanja)* — Podmetanje i krišom guranje nečega.
+  - D/L jd = **poturanju**
+- **povinovanje** *(frek. 0, gen. povinovanja)* — Pokoravanje pravilima i naredbama.
+  - I jd = **povinovanjem**
+- **povlašćenje** *(frek. 0, gen. povlašćenja)* — Davanje povlastica i prednosti.
+  - D/L jd = **povlašćenju**
+- **povlašćivanje** *(frek. 0, gen. povlašćivanja)* — Davanje povlastica i prednosti.
+  - D/L jd = **povlašćivanju**, I jd = **povlašćivanjem**
+- **pozorje** *(frek. 0, gen. pozorja)* — Pozorište, scenska umetnost (stariji naziv, npr. Srpsko naro
+  - I jd = **pozorjem**
+- **predjelo** *(frek. 0, gen. predjela)* — Lagano jelo koje se služi pre glavnog jela.
+  - D/L jd = **predjelu**, D/I/L mn = **predjelima**
+- **predloženje** *(frek. 0, gen. predloženja)* — Iznošenje predloga; ponuda.
+  - I jd = **predloženjem**
+- **predviđenje** *(frek. 0, gen. predviđenja)* — Predviđanje i pretkazivanje budućeg toka; unapred sagledan i
+  - D/L jd = **predviđenju**, I jd = **predviđenjem**
+- **preganjanje** *(frek. 0, gen. preganjanja)* — Stalno nadmudrivanje i sporenje.
+  - D/L jd = **preganjanju**
+- **pregrešenje** *(frek. 0, gen. pregrešenja)* — Lakši prestup i greh.
+  - D/L jd = **pregrešenju**, I jd = **pregrešenjem**
+- **prejemstvo** *(frek. 0, gen. prejemstva)* — Nasleđe, pravo nasleđivanja; prejemstvo.
+  - I jd = **prejemstvom**
+- **prekraćenje** *(frek. 0, gen. prekraćenja)* — Skraćivanje i smanjivanje dužine.
+  - D/L jd = **prekraćenju**, I jd = **prekraćenjem**
+- **preobraćanje** *(frek. 0, gen. preobraćanja)* — Prevođenje u drugu veru ili stav.
+  - D/L jd = **preobraćanju**, I jd = **preobraćanjem**
+- **preoravanje** *(frek. 0, gen. preoravanja)* — Ponovno oranje zemlje.
+  - D/L jd = **preoravanju**, I jd = **preoravanjem**
+- **prepadanje** *(frek. 0, gen. prepadanja)* — Iznenadno napadanje; zastrašivanje.
+  - D/L jd = **prepadanju**, I jd = **prepadanjem**
+- **preslovljavanje** *(frek. 0, gen. preslovljavanja)* — Prenošenje teksta iz jednog pisma u drugo.
+  - D/L jd = **preslovljavanju**, I jd = **preslovljavanjem**
+- **prestolje** *(frek. 0, gen. prestolja)* — Vladarska stolica, presto; preneseno: vladarska vlast i polo
+  - D/L jd = **prestolju**, I jd = **prestoljem**
+- **prestupanje** *(frek. 0, gen. prestupanja)* — Kršenje pravila ili zakona.
+  - I jd = **prestupanjem**
+- **preturanje** *(frek. 0, gen. preturanja)* — Premetanje i prevrtanje stvari.
+  - D/L jd = **preturanju**, I jd = **preturanjem**
+- **preševo** *(frek. 0, gen. preševa)* — Preševo (grad na jugu Srbije).
+  - I jd = **preševom**
+- **približenje** *(frek. 0, gen. približenja)* — Dolaženje bliže; zbližavanje.
+  - I jd = **približenjem**
+- **priključenije** *(frek. 0, gen. priključenija)* — Oblik reči priključenije (zgoda, pustolovina — arhaično).
+  - D/L jd = **priključeniju**, I jd = **priključenijem**
+- **primirenje** *(frek. 0, gen. primirenja)* — Privremeni prekid neprijateljstava.
+  - I jd = **primirenjem**
+- **priopštenje** *(frek. 0, gen. priopštenja)* — Priopštenje — saopštenje, obaveštenje (varijanta).
+  - I jd = **priopštenjem**
+- **privoljenje** *(frek. 0, gen. privoljenja)* — Nagovaranje i pridobijanje za nešto.
+  - D/L jd = **privoljenju**, I jd = **privoljenjem**
+- **prizemljenje** *(frek. 0, gen. prizemljenja)* — Spuštanje na zemlju; sletanje.
+  - I jd = **prizemljenjem**
+- **prle** *(frek. 0, gen. prleta)* — Prle — nadimak (junak filma Otpisani; Prleta).
+  - D/L jd = **prletu**, I jd = **prletom**
+- **prokuplje** *(frek. 0, gen. prokuplja)* — Prokuplje — grad u Srbiji.
+  - I jd = **prokupljem**
+- **prolivanje** *(frek. 0, gen. prolivanja)* — Prosipanje tečnosti; prolivanje krvi.
+  - D/L jd = **prolivanju**
+- **proljeće** *(frek. 0, gen. proljeća)* — Oblik reči proljeće (proleće — ijekavski).
+  - I jd = **proljećem**
+- **prozorče** *(frek. 0, gen. prozorčeta)* — Mali prozor.
+  - D/L jd = **prozorčetu**, I jd = **prozorčetom**
+- **puckaranje** *(frek. 0, gen. puckaranja)* — Oblik reči puckaranje (povremeno pucanje).
+  - D/L jd = **puckaranju**, I jd = **puckaranjem**
+- **punomoćstvo** *(frek. 0, gen. punomoćstva)* — Pisano ovlašćenje za zastupanje; punomoćstvo.
+  - I jd = **punomoćstvom**
+- **raklje** *(frek. 0, gen. raklja)* — Rašlje, rogljasti štap; raklje.
+  - D/L jd = **raklju**, I jd = **rakljem**
+- **rambo** *(frek. 0, gen. ramba)* — Rambo — junak akcionih filmova (Silvester Stalone).
+  - D/L jd = **rambu**, I jd = **rambom**
+- **raspakivanje** *(frek. 0, gen. raspakivanja)* — Vađenje iz pakovanja; otpakivanje.
+  - D/L jd = **raspakivanju**
+- **raspuće** *(frek. 0, gen. raspuća)* — Raskršće, mesto razdvajanja puteva; raspuće.
+  - I jd = **raspućem**
+- **rasvetljenje** *(frek. 0, gen. rasvetljenja)* — Razjašnjenje i objašnjenje nečega.
+  - D/L jd = **rasvetljenju**, I jd = **rasvetljenjem**
+- **razlivanje** *(frek. 0, gen. razlivanja)* — Izlivanje tečnosti po površini.
+  - D/L jd = **razlivanju**, I jd = **razlivanjem**
+- **razrastanje** *(frek. 0, gen. razrastanja)* — Bujno širenje i rast.
+  - I jd = **razrastanjem**
+- **razuđivanje** *(frek. 0, gen. razuđivanja)* — Razgranavanje i isprekidanost obale ili reljefa.
+  - D/L jd = **razuđivanju**, I jd = **razuđivanjem**
+- **redigovanje** *(frek. 0, gen. redigovanja)* — Uređivanje i doterivanje teksta.
+  - I jd = **redigovanjem**
+- **restaurisanje** *(frek. 0, gen. restaurisanja)* — Obnavljanje i vraćanje u prvobitno stanje.
+  - D/L jd = **restaurisanju**, I jd = **restaurisanjem**
+- **revnovanje** *(frek. 0, gen. revnovanja)* — Oblik reči revnovanje (marljiv trud, predanost).
+  - I jd = **revnovanjem**
+- **ribarče** *(frek. 0, gen. ribarčeta)* — Ribarevo dete, mladi ribar; ribarče.
+  - D/L jd = **ribarčetu**, I jd = **ribarčetom**
+- **rizikovanje** *(frek. 0, gen. rizikovanja)* — Izlaganje opasnosti i riziku.
+  - D/L jd = **rizikovanju**, I jd = **rizikovanjem**
+- **rogulje** *(frek. 0, gen. rogulja)* — Vile, oruđe sa krakovima; rogulje.
+  - D/L jd = **rogulju**, I jd = **roguljem**
+- **rožaje** *(frek. 0, gen. rožaja)* — Rožaje (grad na severu Crne Gore).
+  - D/L jd = **rožaju**, I jd = **rožajem**
+- **ruženje** *(frek. 0, gen. ruženja)* — Grdnja i kuđenje.
+  - D/L jd = **ruženju**
+- **sagledanje** *(frek. 0, gen. sagledanja)* — Oblik imenice „sagledanje“: obuhvatnog uviđanja i razumevanj
+  - D/L jd = **sagledanju**, I jd = **sagledanjem**
+- **samoodržavanje** *(frek. 0, gen. samoodržavanja)* — Održavanje i opstanak sopstvenim sredstvima bez tuđe pomoći;
+  - D/L jd = **samoodržavanju**, I jd = **samoodržavanjem**
+- **samoočuvanje** *(frek. 0, gen. samoočuvanja)* — Nagon da se sačuva sopstveni život.
+  - I jd = **samoočuvanjem**
+- **samosažaljenje** *(frek. 0, gen. samosažaljenja)* — Sažaljevanje samog sebe.
+  - I jd = **samosažaljenjem**
+- **samožaljenje** *(frek. 0, gen. samožaljenja)* — Sažaljevanje samog sebe.
+  - D/L jd = **samožaljenju**, I jd = **samožaljenjem**
+- **santjago** *(frek. 0, gen. santjaga)* — Glavni grad Čilea; muško ime (Santjago).
+  - I jd = **santjagom**
+- **sasecanje** *(frek. 0, gen. sasecanja)* — Sečenje i obaranje udarcima.
+  - D/L jd = **sasecanju**, I jd = **sasecanjem**
+- **sektašenje** *(frek. 0, gen. sektašenja)* — Zatvaranje u uske grupe i netrpeljivost prema drugima.
+  - D/L jd = **sektašenju**, I jd = **sektašenjem**
+- **sevojno** *(frek. 0, gen. sevojna)* — Sevojno — naselje kod Užica (industrijska zona).
+  - D/L jd = **sevojnu**, I jd = **sevojnom**
+- **sirogojno** *(frek. 0, gen. sirogojna)* — Sirogojno — etno-selo na Zlatiboru (muzej na otvorenom).
+  - I jd = **sirogojnom**
+- **sirotovanje** *(frek. 0, gen. sirotovanja)* — Život u sirotinji i oskudici.
+  - D/L jd = **sirotovanju**, I jd = **sirotovanjem**
+- **sjedinjavanje** *(frek. 0, gen. sjedinjavanja)* — Spajanje u celinu; ujedinjavanje.
+  - I jd = **sjedinjavanjem**
+- **skončanje** *(frek. 0, gen. skončanja)* — Završetak; smrt.
+  - I jd = **skončanjem**
+- **sledstvo** *(frek. 0, gen. sledstva)* — Posledica, ono što sledi; sledstvo.
+  - D/L jd = **sledstvu**, I jd = **sledstvom**
+- **smućivanje** *(frek. 0, gen. smućivanja)* — Mešanje koje zamućuje; izazivanje smutnje.
+  - D/L jd = **smućivanju**, I jd = **smućivanjem**
+- **snevanje** *(frek. 0, gen. snevanja)* — Doživljavanje snova; sanjanje.
+  - I jd = **snevanjem**
+- **snješko** *(frek. 0, gen. snješka)* — Snješko — sneško (belić), figura od snega (ijekavski).
+  - D/L jd = **snješku**, I jd = **snješkom**
+- **sobranje** *(frek. 0, gen. sobranja)* — Narodna skupština; sobranje.
+  - I jd = **sobranjem**
+- **sokoćalo** *(frek. 0, gen. sokoćala)* — Naprava, sprava, mehanizam (često šaljivo); sokoćalo.
+  - D/L jd = **sokoćalu**
+- **spasenije** *(frek. 0, gen. spasenija)* — Spasenije — spasenje (crkveno); žensko ime.
+  - D/L jd = **spaseniju**, I jd = **spasenijem**
+- **spelovanje** *(frek. 0, gen. spelovanja)* — Izgovaranje reči slovo po slovo.
+  - I jd = **spelovanjem**
+- **spiranje** *(frek. 0, gen. spiranja)* — Uklanjanje vodom; ispiranje.
+  - I jd = **spiranjem**
+- **srculence** *(frek. 0, gen. srculenca)* — Oblik reči „srce“ od milja.
+  - D/L jd = **srculencu**, I jd = **srculencem**
+- **sredozemlje** *(frek. 0, gen. sredozemlja)* — Oblast oko Sredozemnog mora; sredozemlje.
+  - I jd = **sredozemljem**
+- **sretenje** *(frek. 0, gen. sretenja)* — Susret; pravoslavni praznik susreta.
+  - D/L jd = **sretenju**, I jd = **sretenjem**
+- **srubljivanje** *(frek. 0, gen. srubljivanja)* — Sečenje i odsecanje uz površinu.
+  - D/L jd = **srubljivanju**, I jd = **srubljivanjem**
+- **stepenovanje** *(frek. 0, gen. stepenovanja)* — Poređenje po stepenima; gradiranje.
+  - D/L jd = **stepenovanju**, I jd = **stepenovanjem**
+- **stražilovo** *(frek. 0, gen. stražilova)* — Stražilovo (mesto na Fruškoj gori, grob Branka Radičevića).
+  - I jd = **stražilovom**
+- **stvorenjce** *(frek. 0, gen. stvorenjca)* — Oblik reči „stvorenjce“; malo stvorenje, deminutiv; sitno i 
+  - D/L jd = **stvorenjcu**, I jd = **stvorenjcem**
+- **superauto** *(frek. 0, gen. superauta)* — Vrhunski sportski automobil.
+  - D/L jd = **superautu**, I jd = **superautom**
+- **survavanje** *(frek. 0, gen. survavanja)* — Naglo rušenje i obrušavanje nadole.
+  - D/L jd = **survavanju**
+- **svadbovanje** *(frek. 0, gen. svadbovanja)* — Slavljenje svadbe.
+  - D/L jd = **svadbovanju**, I jd = **svadbovanjem**
+- **svetovanje** *(frek. 0, gen. svetovanja)* — Davanje saveta; savetovanje.
+  - D/L jd = **svetovanju**, I jd = **svetovanjem**
+- **svojeumlje** *(frek. 0, gen. svojeumlja)* — Tvrdoglavost, svojeglavost; svojeumlje.
+  - D/L jd = **svojeumlju**
+- **tabanje** *(frek. 0, gen. tabanja)* — Naporno gaženje i pešačenje.
+  - D/L jd = **tabanju**, I jd = **tabanjem**
+- **tandrkanje** *(frek. 0, gen. tandrkanja)* — Zveckav zvuk kola po neravnom putu.
+  - D/L jd = **tandrkanju**, I jd = **tandrkanjem**
+- **tipovanje** *(frek. 0, gen. tipovanja)* — Klađenje i nagađanje ishoda.
+  - D/L jd = **tipovanju**, I jd = **tipovanjem**
+- **tištanje** *(frek. 0, gen. tištanja)* — Pritiskanje i morenje, naročito duše.
+  - D/L jd = **tištanju**, I jd = **tištanjem**
+- **tocilo** *(frek. 0, gen. tocila)* — Okrugli kamen koji se okreće za oštrenje alata.
+  - D/I/L mn = **tocilima**
+- **toronto** *(frek. 0, gen. toronta)* — Najveći grad Kanade.
+  - I jd = **torontom**
+- **trtljanje** *(frek. 0, gen. trtljanja)* — Brbljanje koještarija.
+  - D/L jd = **trtljanju**, I jd = **trtljanjem**
+- **tucanje** *(frek. 0, gen. tucanja)* — Drobljenje udaranjem u avanu.
+  - D/L jd = **tucanju**, I jd = **tucanjem**
+- **ugljevlje** *(frek. 0, gen. ugljevlja)* — Žar, užareni ugalj.
+  - I jd = **ugljevljem**
+- **uknjižavanje** *(frek. 0, gen. uknjižavanja)* — Upisivanje prava u zemljišne knjige.
+  - D/L jd = **uknjižavanju**, I jd = **uknjižavanjem**
+- **ulivanje** *(frek. 0, gen. ulivanja)* — Sipanje tečnosti; uticanje reke u more.
+  - D/L jd = **ulivanju**
+- **ulubljenje** *(frek. 0, gen. ulubljenja)* — Udubljenje nastalo udarcem; deformacija.
+  - D/L jd = **ulubljenju**, I jd = **ulubljenjem**
+- **umlje** *(frek. 0, gen. umlja)* — Um, razum.
+  - D/L jd = **umlju**, I jd = **umljem**
+- **umoljavanje** *(frek. 0, gen. umoljavanja)* — Usrdno moljenje i preklinjanje.
+  - D/L jd = **umoljavanju**, I jd = **umoljavanjem**
+- **unesko** *(frek. 0, gen. uneska)* — Unesko — Organizacija UN za obrazovanje, nauku i kulturu (UN
+  - I jd = **uneskom**
+- **uniženje** *(frek. 0, gen. uniženja)* — Snižavanje dostojanstva; poniženje.
+  - D/L jd = **uniženju**
+- **uokviravanje** *(frek. 0, gen. uokviravanja)* — Stavljanje u okvir.
+  - D/L jd = **uokviravanju**
+- **uprezanje** *(frek. 0, gen. uprezanja)* — Vezivanje životinja u zapregu.
+  - I jd = **uprezanjem**
+- **upucavanje** *(frek. 0, gen. upucavanja)* — Podešavanje nišana; ranjavanje hicem.
+  - D/L jd = **upucavanju**, I jd = **upucavanjem**
+- **usamljivanje** *(frek. 0, gen. usamljivanja)* — Povlačenje u samoću.
+  - I jd = **usamljivanjem**
+- **uslojavanje** *(frek. 0, gen. uslojavanja)* — Razdvajanje na slojeve.
+  - D/L jd = **uslojavanju**, I jd = **uslojavanjem**
+- **uspenije** *(frek. 0, gen. uspenija)* — Oblik reči Uspenije (praznik Uspenja Presvete Bogorodice).
+  - D/L jd = **uspeniju**, I jd = **uspenijem**
+- **utoljavanje** *(frek. 0, gen. utoljavanja)* — Gašenje žeđi i gladi; smirivanje.
+  - I jd = **utoljavanjem**
+- **uvaženje** *(frek. 0, gen. uvaženja)* — Poštovanje i uvažavanje.
+  - D/L jd = **uvaženju**
+- **uziđivanje** *(frek. 0, gen. uziđivanja)* — Ugrađivanje u zid; zaziđivanje.
+  - D/L jd = **uziđivanju**, I jd = **uziđivanjem**
+- **ućutkivanje** *(frek. 0, gen. ućutkivanja)* — Primoravanje na ćutanje.
+  - D/L jd = **ućutkivanju**, I jd = **ućutkivanjem**
+- **valjevo** *(frek. 0, gen. valjeva)* — Valjevo — grad u zapadnoj Srbiji (Kolubarski okrug).
+  - I jd = **valjevom**
+- **varakanje** *(frek. 0, gen. varakanja)* — Obmanjivanje i zavaravanje.
+  - D/L jd = **varakanju**, I jd = **varakanjem**
+- **vaskresenje** *(frek. 0, gen. vaskresenja)* — Vraćanje iz mrtvih u život; vaskrs.
+  - I jd = **vaskresenjem**
+- **vavedenje** *(frek. 0, gen. vavedenja)* — Praznik uvođenja Bogorodice u hram.
+  - I jd = **vavedenjem**
+- **vazalstvo** *(frek. 0, gen. vazalstva)* — Odnos potčinjenosti vazala gospodaru.
+  - D/L jd = **vazalstvu**
+- **velegošće** *(frek. 0, gen. velegošća)* — Oblik reči velegošće (velika gozba, svečanost).
+  - I jd = **velegošćem**
+- **vetrilo** *(frek. 0, gen. vetrila)* — Lepeza; jedro na brodu; vetrilo.
+  - D/L jd = **vetrilu**, I jd = **vetrilom**
+- **visokoumlje** *(frek. 0, gen. visokoumlja)* — Umnost, veliko znanje; uobraženost uma, oholost; visokoumlje
+  - I jd = **visokoumljem**
+- **vlasotince** *(frek. 0, gen. vlasotinca)* — Vlasotince — grad u južnoj Srbiji (Jablanički okrug).
+  - I jd = **vlasotincem**
+- **vozikanje** *(frek. 0, gen. vozikanja)* — Lagana vožnja unaokolo.
+  - D/L jd = **vozikanju**, I jd = **vozikanjem**
+- **vresište** *(frek. 0, gen. vresišta)* — Oblik reči vresište (predeo obrastao vresom).
+  - I jd = **vresištem**
+- **vrtenje** *(frek. 0, gen. vrtenja)* — Okretanje u krug; obrtanje.
+  - D/L jd = **vrtenju**, I jd = **vrtenjem**
+- **vršljanje** *(frek. 0, gen. vršljanja)* — Preturanje i pravljenje nereda.
+  - I jd = **vršljanjem**
+- **zajedanje** *(frek. 0, gen. zajedanja)* — Sitno prepiranje i bockanje rečima.
+  - D/L jd = **zajedanju**, I jd = **zajedanjem**
+- **zakrivljenje** *(frek. 0, gen. zakrivljenja)* — Savijanje u krivu liniju.
+  - D/L jd = **zakrivljenju**, I jd = **zakrivljenjem**
+- **zalivanje** *(frek. 0, gen. zalivanja)* — Polivanje biljaka vodom.
+  - D/L jd = **zalivanju**, I jd = **zalivanjem**
+- **zameranje** *(frek. 0, gen. zameranja)* — Izricanje zamerki.
+  - D/L jd = **zameranju**, I jd = **zameranjem**
+- **zapevanje** *(frek. 0, gen. zapevanja)* — Naglo otpočinjanje pesme.
+  - D/L jd = **zapevanju**, I jd = **zapevanjem**
+- **zatamnjenje** *(frek. 0, gen. zatamnjenja)* — Postajanje tamnim; smanjenje svetla.
+  - D/L jd = **zatamnjenju**, I jd = **zatamnjenjem**
+- **zbiranje** *(frek. 0, gen. zbiranja)* — Skupljanje i sakupljanje.
+  - D/L jd = **zbiranju**, I jd = **zbiranjem**
+- **zdravoumlje** *(frek. 0, gen. zdravoumlja)* — Zdrav razum; trezvenost.
+  - I jd = **zdravoumljem**
+- **zlodejstvo** *(frek. 0, gen. zlodejstva)* — Zao i opak postupak.
+  - D/L jd = **zlodejstvu**, I jd = **zlodejstvom**
+- **zlopogleđe** *(frek. 0, gen. zlopogleđa)* — Zao, opak pogled; urok.
+  - D/L jd = **zlopogleđu**, I jd = **zlopogleđem**
+- **zorenje** *(frek. 0, gen. zorenja)* — Sazrevanje; dozrevanje plodova.
+  - D/L jd = **zorenju**, I jd = **zorenjem**
+- **ćarlijanje** *(frek. 0, gen. ćarlijanja)* — Lagano i prijatno duvanje povetarca.
+  - D/L jd = **ćarlijanju**, I jd = **ćarlijanjem**
+- **ćemane** *(frek. 0, gen. ćemana)* — Violina; ćemane.
+  - D/L jd = **ćemanu**, I jd = **ćemanem**
+- **čakšire** *(frek. 0, gen. čakšira)* — Stare uske pantalone od sukna.
+  - I jd = **čakširem**
+- **čarkanje** *(frek. 0, gen. čarkanja)* — Manji okršaji; zadirkivanje koje vodi sukobu.
+  - D/L jd = **čarkanju**, I jd = **čarkanjem**
+- **čifte** *(frek. 0, gen. čifta)* — Puška dvocevka; čifte.
+  - D/L jd = **čiftu**, I jd = **čiftem**
+- **čuvstvovanje** *(frek. 0, gen. čuvstvovanja)* — Osećanje, doživljavanje.
+  - D/L jd = **čuvstvovanju**
+- **đakovanje** *(frek. 0, gen. đakovanja)* — Pohađanje škole; đačko doba.
+  - D/L jd = **đakovanju**, I jd = **đakovanjem**
+- **šalvare** *(frek. 0, gen. šalvara)* — Široke nabrane pantalone; dimije.
+  - D/L jd = **šalvaru**, I jd = **šalvarem**
+- **šegrtovanje** *(frek. 0, gen. šegrtovanja)* — Učenje zanata kod majstora.
+  - D/L jd = **šegrtovanju**, I jd = **šegrtovanjem**
+- **šikaniranje** *(frek. 0, gen. šikaniranja)* — Maltretiranje i ponižavanje.
+  - I jd = **šikaniranjem**
+- **šrafiranje** *(frek. 0, gen. šrafiranja)* — Senčenje crtanjem paralelnih linija.
+  - D/L jd = **šrafiranju**, I jd = **šrafiranjem**
+- **šunjanje** *(frek. 0, gen. šunjanja)* — Neprimetno prikradanje.
+  - D/L jd = **šunjanju**, I jd = **šunjanjem**
+- **šurovanje** *(frek. 0, gen. šurovanja)* — Tajno sadejstvo i ortakluk u nečem nepoštenom.
+  - I jd = **šurovanjem**
+- **švercovanje** *(frek. 0, gen. švercovanja)* — Nedozvoljeno prenošenje robe; krijumčarenje.
+  - D/L jd = **švercovanju**, I jd = **švercovanjem**
+- **žalošćenje** *(frek. 0, gen. žalošćenja)* — Izazivanje žalosti i tuge.
+  - D/L jd = **žalošćenju**, I jd = **žalošćenjem**
+- **žaluzije** *(frek. 0, gen. žaluzija)* — Pokretni zastor od letvica na prozoru.
+  - D/L jd = **žaluziju**, I jd = **žaluzijem**
+- **željenje** *(frek. 0, gen. željenja)* — Osećanje želje za nečim.
+  - D/L jd = **željenju**
+- **željezo** *(frek. 0, gen. željeza)* — Oblik reči željezo (gvožđe — ijekavski).
+  - D/L jd = **željezu**
+- **živopisanje** *(frek. 0, gen. živopisanja)* — Oslikavanje crkve freskama.
+  - I jd = **živopisanjem**
+- **živovanje** *(frek. 0, gen. živovanja)* — Življenje i provođenje života.
+  - I jd = **živovanjem**
+- **žurenje** *(frek. 0, gen. žurenja)* — Brzo i hitno postupanje.
+  - D/L jd = **žurenju**, I jd = **žurenjem**

@@ -447,6 +447,19 @@ rod. Sve su iste porodice: **pogađanje umesto čitanja.**
 5. **Proširena množina** → od *nebo* ispalo *nebima* umesto *nebesima*
    (*nebo → nebesa*, *čudo → čudesa*, *telo → telesa*).
 
+6. **Množina predlagana i imenicama koje je nemaju** → *zdravljima*, *povrćima*,
+   *mlekima*, *stanovništvima*, *osobljima*. Apstraktne i zbirne imenice
+   srednjeg roda nemaju množinu. Ispravka: množina se predlaže samo ako je
+   **već potvrđena** u rečniku.
+7. **Predlog nasleđuje kvalitet osnovnog rečnika.** Ako je osnovna reč sumnjiva,
+   njeni padeži su takođe sumnjivi. `frekvencija.json` (srLex, 435.000 reči) je
+   jedini objektivan pokazatelj: *shvaćanje* 52 naspram *shvatanje* 3.022
+   (hrvatska varijanta), *podanstvo* 14 naspram *podaništvo* 74, *podosoje* i
+   *osoje* **0 pojava**. Svaki predlog mora biti sortiran po frekvenciji, a reči
+   sa nulom izdvojene na proveru. **Oprez:** nula ne znači automatski da reč ne
+   postoji — vlastita imena (*Arilje*, *Barajevo*) legitimno nemaju pojava u
+   korpusu malih slova.
+
 **Pravilo koje iz svega sledi:** ni oblik ni objašnjenje sami nisu dovoljni.
 Kandidat mora **istovremeno** da ima dozvoljen oblik traženog padeža **i** da
 ga objašnjenje u `definicije.json` veže baš za tu reč.

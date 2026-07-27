@@ -67,6 +67,11 @@ def nije_srednji_rod(b):
     # 3. muške pozajmljenice na -io/-o: portfolio, radio, studio, scenario, auto
     if b.endswith('io') or b in ('auto','bife','kupe','ateljе'):
         return True
+    # 4. reči na -ije su po pravilu ženski rod u množini (komunalije,
+    #    beneficije, relikvije). „komunalijama" nema u rečniku pa ih test
+    #    pod 1 ne hvata, zato ih isključujemo po završetku.
+    if b.endswith('ije'):
+        return True
     return False
 
 srednji = [b for b in oblici_od
@@ -88,7 +93,20 @@ def nadji_genitiv(b):
                       (i on se završava na „a").
     """
     koren = b[:-1]
-    for kand in (koren+'a', koren+'ena', koren+'eta', koren+'esa'):
+    # Proširena osnova ima PREDNOST kad u rečniku postoje oba oblika:
+    # za „đubre" stoje i „đubra" i „đubreta", a ispravna promena je
+    # đubreta / đubretu / đubretom. Ranije se kod zakačio za „đubra" i
+    # predlagao „đubru".
+    # Proširena osnova ima prednost SAMO kod imenica na -e (đubre → đubreta,
+    # ime → imena, tele → teleta). Kod imenica na -o je proširen oblik
+    # MNOŽINA, ne genitiv jednine: telo → telesa (mn), a genitiv je „tela";
+    # čudo → čudesa (mn), genitiv „čuda"; nebo → nebesa (mn), genitiv „neba".
+    # Bez ovog razdvajanja ispadalo je „telesu" i „čudesu" umesto „telu"/„čudu".
+    if b.endswith('e'):
+        kandidati = (koren+'eta', koren+'ena', koren+'esa', koren+'a')
+    else:
+        kandidati = (koren+'a',)
+    for kand in kandidati:
         if kand == b or kand not in S:
             continue
         if osnova_od.get(kand) == b:      # objašnjenje pokazuje na ovu reč
@@ -102,32 +120,15 @@ for b in sorted(srednji):
         bez_genitiva.append(b); continue
     st = g[:-1]                                # osnova iz genitiva
     prosirena = (st != b[:-1])
-    zadnji = st[-1]
-    if not prosirena and b.endswith('e'):      inst = st+'em'
-    elif zadnji in MEKI:                       inst = st+'em'
-    else:                                      inst = st+'om'
 
-    ob = {'D/L jd': st+'u', 'I jd': inst}
-    # Množina: preskačemo glagolske imenice (-nje) i tip „tele" (osnova na -et),
-    # jer im množina nije pravilna (pevanje nema množinu; tele → telad).
-    # Neke imenice imaju PROŠIRENU MNOŽINU koja se ne vidi iz singularne osnove:
-    # nebo → nebesa (ne „neba"), čudo → čudesa, telo → telesa. Kod njih bi iz
-    # osnove „neb" ispalo „nebima" umesto „nebesima". Ako u rečniku postoji
-    # proširen oblik, množinu uopšte ne predlažemo.
-    # MNOŽINA SE NE PREDLAŽE — ni kad objašnjenje tvrdi da postoji.
-    # Kod srednjeg roda su genitiv jednine i nominativ množine ISTI oblik
-    # (selo → sela, mleko → mleka, vino → vina). Zato nijedan zapis u
-    # definicije.json ne može da dokaže da imenica zaista ima množinu — kad
-    # tamo piše „(množina od mleko)", to je samo izbor onoga ko je pisao
-    # objašnjenje, ne gramatički dokaz. Ranije je na osnovu te „potvrde"
-    # predlagano „mlekima, vinima, pivima", a mnoge imenice srednjeg roda su
-    # apstraktne ili gradivne i množinu nemaju.
-    #
-    # ŠIRE PRAVILO: definicije.json je pouzdan za pitanje „kojoj osnovnoj reči
-    # oblik pripada", ali NIJE pouzdan za pitanje „koji je to padež".
-    #
-    # Predlažu se samo dativ/lokativ i instrumental JEDNINE — oni su
-    # jednoznačni i ne mogu se pomešati ni sa jednim drugim padežom.
+    # INSTRUMENTAL SE NE PREDLAŽE.
+    # Izbor između -om i -em se NE MOŽE odrediti iz oblika reči:
+    #   more   → morem      (koren „mor", tvrdo r)
+    #   finale → finalom    (koren „final", tvrdo l)
+    # Oba korena se završavaju tvrdim suglasnikom, a nastavci su različiti.
+    # Zbog toga su nastali pogrešni „finalem", „polufinalem", „komunalijem",
+    # „đubrem". Ostaje samo dativ/lokativ jednine, koji je uvek -u.
+    ob = {'D/L jd': st + 'u'}
 
     novi = {k: v for k, v in ob.items() if v not in S}
     if not novi: continue

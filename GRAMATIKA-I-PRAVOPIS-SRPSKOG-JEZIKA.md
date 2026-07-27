@@ -472,6 +472,23 @@ rod. Sve su iste porodice: **pogađanje umesto čitanja.**
    prepoznaju se po obliku na `-ama`), zbirni brojevi (*petoro, dvoje*) i
    muške pozajmljenice (*portfolio, radio, studio, auto*).
 
+10. **Instrumental srednjeg roda se NE MOŽE odrediti iz oblika reči.**
+    *more → **morem***, ali *finale → **finalom***; oba korena se završavaju
+    tvrdim suglasnikom. Odatle pogrešni *finalem, polufinalem, đubrem,
+    komunalijem*. Instrumental se za srednji rod **ne predlaže**.
+11. **Proširena osnova važi samo za imenice na `-e`.** Kod imenica na `-o` je
+    proširen oblik **množina**, a ne genitiv jednine: *telo → telesa* (mn),
+    genitiv je *tela*; *čudo → čudesa* (mn), genitiv *čuda*; *nebo → nebesa*
+    (mn), genitiv *neba*. Bez tog razdvajanja ispadalo je *telesu* i *čudesu*
+    umesto *telu* i *čudu*.
+12. **Reči na `-ije` su ženski rod u množini** (*komunalije, beneficije,
+    relikvije*), ne srednji rod. Test na `-ama` ih ne hvata ako taj oblik nije
+    u rečniku, pa se isključuju po završetku.
+13. **Format izveštaja mora biti TABELA, ne rečenice.** Vlasnica je odustala od
+    pregleda usred grupe B jer je lista bila pisana u rečenicama. U tabeli
+    (reč | frekvencija | predlog) greške se vide na prvi pogled — čim je
+    napravljena, odmah su uočeni *telesu* i *čudesu*.
+
 **Pravilo koje iz svega sledi:** ni oblik ni objašnjenje sami nisu dovoljni.
 Kandidat mora **istovremeno** da ima dozvoljen oblik traženog padeža **i** da
 ga objašnjenje u `definicije.json` veže baš za tu reč.

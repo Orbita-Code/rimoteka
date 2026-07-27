@@ -1,1317 +1,1322 @@
 # Nove reči iz Rečnika Matice srpske — za pregled
 
 > **NIŠTA nije upisano u `reci.txt`.** Ovo su reči kojih u našem rečniku NEMA,
-> a nalaze se kao odrednice u Rečniku srpskoga jezika (Matica srpska, 2011).
+> a nalaze se kao odrednice u Rečniku srpskoga jezika (Matica srpska, 2011):
+> https://archive.org/details/recnik-srpskoga-jezika-2011
 
-Ukupno **5459** novih reči, podeljeno u dve grupe po tome da li ih poznaje i
-drugi, nezavisan izvor.
+## Kako je hrvatsko odvojeno
 
-## Šta NISAM mogao da uradim
+Reči su izmerene u **dva korpusa** — srpskom i hrvatskom — pa je upoređena
+učestalost, normalizovana po veličini korpusa. Reč koja je bar tri puta češća u
+hrvatskom (i ima bar 300 pojava tamo) označena je kao hrvatska.
 
-**Nisam mogao da izbacim pokrajinske, zastarele i hrvatske reči.** Te oznake
-(*покр.*, *заст.*, *дијал.*) štampane su u rečniku **kurzivom**, a kurziv je
-sloj koji je prepoznavanje teksta uništilo — u celom rečniku nađene su svega
-3 čitljive oznake „заст." i nijedna „покр.". Zato lista može sadržati reči
-koje sam rečnik označava kao pokrajinske ili zastarele.
+**Filter nije savršen.** Hvata `glazba`, `cesta`, `kruh`, `val`, `šalica`,
+`čitatelj`, `veljača`, `zrcalo` — ali je označio i `sedamdesetak` i `sranje`,
+koje su obične srpske reči, samo češće u hrvatskom veb tekstu. Zato je grupa
+A2 **označena, ne presuđena** — poslednja reč je tvoja.
 
-**Poznata posledica:** reč `kolodvor` JESTE odrednica u tom rečniku (sigurno sa
-oznakom da je hrvatska ili pokrajinska), pa slične mogu proći i ovde.
-
-## Kako čitati
-
-- **Grupa A** — reč postoji i u drugom izvoru, sa gramatičkom oznakom i brojem
-  pojava u tekstovima. Veće poverenje. Sortirano po učestalosti, česte prve.
-- **Grupa B** — reč je samo u Rečniku Matice srpske. Ovde su i prave retke reči
-  i greške prepoznavanja teksta. Sortirano azbučno.
+**I dalje ne mogu da prepoznam pokrajinske i zastarele reči.** Te oznake su u
+rečniku štampane kurzivom koji je prepoznavanje teksta uništilo.
 
 
 ---
 
-## Grupa A — potvrđene u dva izvora (1275 reči)
+## Grupa A1 — preporučene (1140 reči)
 
-| Reč | Vrsta reči | Pojava u tekstovima | Osnovni oblik |
-|---|---|---:|---|
-| **uma** | imenica | 8,581 | um |
-| **tak** | imenica | 8,201 | tak |
-| **rezultatski** | pridev, prilog | 1,436 | rezultatski |
-| **sranje** | imenica | 1,106 | sranje |
-| **cista** | imenica | 1,104 | cista |
-| **kvalitativno** | pridev, prilog | 910 | kvalitativan, kvalitativno |
-| **ura** | imenica | 699 | ur |
-| **val** | imenica | 697 | val |
-| **netom** | prilog, imenica | 666 | net, netom |
-| **egal** | prilog, imenica | 662 | egal |
-| **bogoslovski** | pridev, prilog | 630 | bogoslovski |
-| **kvantitativno** | pridev, prilog | 596 | kvantitativan, kvantitativno |
-| **sedamdesetak** | broj | 520 | sedamdesetak |
-| **bogoslovlje** | imenica | 506 | bogoslovlje |
-| **antioksidans** | imenica | 505 | antioksidans |
-| **postmoderna** | pridev | 470 | postmoderan |
-| **kruh** | imenica | 454 | kruh |
-| **kumulativno** | pridev, prilog | 433 | kumulativan, kumulativno |
-| **talk** | imenica | 407 | talk |
-| **cesta** | imenica | 346 | cesta |
-| **tragikomično** | pridev, prilog | 337 | tragikomičan, tragikomično |
-| **afirmativno** | pridev, prilog | 336 | afirmativan, afirmativno |
-| **konsekventno** | pridev, prilog | 335 | konsekventan, konsekventno |
-| **vine** | glagol | 318 | vinuti |
-| **retina** | imenica | 317 | retina |
-| **kasom** | imenica | 312 | kas, kasa |
-| **rasterećeno** | pridev | 310 | rasteretiti |
-| **osamdesetak** | prilog, broj | 304 | osamdesetak |
-| **pneumatik** | imenica | 297 | pneumatik |
-| **nekultura** | imenica | 282 | nekultura |
-| **des** | imenica | 275 | des |
-| **slavodobitno** | pridev, prilog | 267 | slavodobitan, slavodobitno |
-| **sluznica** | imenica | 264 | sluznica |
-| **humanistički** | pridev | 256 | humanistički |
-| **kombinatorika** | imenica | 252 | kombinatorika |
-| **protekcionizam** | imenica | 240 | protekcionizam |
-| **rika** | imenica | 228 | rika |
-| **pelcer** | imenica | 223 | pelcer |
-| **deplasirano** | pridev, prilog | 222 | deplasiran, deplasirano |
-| **glazba** | imenica | 210 | glazba |
-| **prevodnica** | imenica | 203 | prevodnica |
-| **endokrinolog** | imenica | 197 | endokrinolog |
-| **vakuf** | imenica | 193 | vakuf |
-| **dokumentarno** | pridev, prilog | 184 | dokumentaran, dokumentarno |
-| **nedisciplina** | imenica | 180 | nedisciplina |
-| **davalaštvo** | imenica | 179 | davalaštvo |
-| **golgeterski** | pridev | 178 | golgeterski |
-| **kupaža** | imenica | 177 | kupaž |
-| **boćanje** | imenica | 175 | boćanje |
-| **monopolistički** | pridev | 168 | monopolistički |
-| **aforističar** | imenica | 167 | aforističar |
-| **cis** | imenica | 165 | cis |
-| **reduktor** | imenica | 165 | reduktor |
-| **aerozagađenje** | imenica | 164 | aerozagađenje |
-| **hedonistički** | pridev | 162 | hedonistički |
-| **ilustrativno** | pridev, prilog | 154 | ilustrativan, ilustrativno |
-| **naravski** | prilog | 153 | naravski |
-| **imperativno** | pridev, prilog | 151 | imperativan, imperativno |
-| **utuženje** | imenica | 148 | utuženje |
-| **knjižničar** | imenica | 147 | knjižničar |
-| **mikroklima** | imenica | 147 | mikroklima |
-| **benigno** | pridev, prilog | 146 | benigan, benigni |
-| **dermatološki** | pridev | 146 | dermatološki |
-| **slip** | imenica | 145 | slip |
-| **autoritarno** | pridev, prilog | 143 | autoritaran, autoritarno |
-| **spiritus** | imenica | 137 | spiritus |
-| **rokada** | imenica | 136 | rokada |
-| **tabula** | imenica | 136 | tabula |
-| **nematoda** | imenica | 133 | nematoda |
-| **vale** | imenica | 130 | val, vala |
-| **prilagodljivo** | pridev, prilog | 128 | prilagodljiv, prilagodljivo |
-| **parlamentarno** | pridev, prilog | 126 | parlamentaran, parlamentarno |
-| **rasprostranjenje** | imenica | 126 | rasprostranjenje |
-| **kompozitorka** | imenica | 123 | kompozitorka |
-| **eshatološki** | pridev | 122 | eshatološki |
-| **godinica** | imenica | 119 | godinica |
-| **turbulentno** | pridev, prilog | 119 | turbulentan, turbulentno |
-| **samozavaravanje** | imenica | 118 | samozavaravanje |
-| **antidemokratski** | pridev, prilog | 117 | antidemokratski |
-| **mastitis** | imenica | 117 | mastitis |
-| **bucov** | imenica | 114 | bucov |
-| **predavačica** | imenica | 113 | predavačica |
-| **srbistika** | imenica | 111 | srbistika |
-| **guz** | imenica | 110 | guz |
-| **faktografski** | pridev | 109 | faktografski |
-| **podržavljenje** | imenica | 108 | podržavljenje |
-| **siga** | imenica | 107 | siga |
-| **etnomuzikolog** | imenica | 105 | etnomuzikolog |
-| **zrcalo** | imenica | 104 | zrcalo |
-| **akupresura** | imenica | 103 | akupresura |
-| **uvezi** | imenica, glagol | 102 | uvesti, uvez |
-| **ascendent** | imenica | 100 | ascendent |
-| **plebiscitarno** | pridev, prilog | 100 | plebiscitaran, plebiscitarno |
-| **razigravanje** | imenica | 100 | razigravanje |
-| **svinjokolj** | imenica | 100 | svinjokolj |
-| **spekulativno** | pridev, prilog | 99 | spekulativan, spekulativno |
-| **autonomaštvo** | imenica | 97 | autonomaštvo |
-| **beglerbeg** | imenica | 97 | beglerbeg |
-| **programator** | imenica | 96 | programator |
-| **mesina** | imenica | 95 | mesina |
-| **petnaestogodišnjak** | imenica | 95 | petnaestogodišnjak |
-| **prenaglašeno** | pridev, prilog | 95 | prenaglasiti, prenaglašen |
-| **breša** | imenica | 94 | breša |
-| **zagasito** | pridev, prilog | 94 | zagasit, zagasito |
-| **dohrana** | imenica | 93 | dohrana |
-| **pripadništvo** | imenica | 93 | pripadništvo |
-| **samokritika** | imenica | 93 | samokritika |
-| **kubikaža** | imenica | 92 | kubikaža |
-| **otorinolaringolog** | imenica | 92 | otorinolaringolog |
-| **vlaka** | imenica | 92 | vlak |
-| **medica** | imenica | 91 | medica |
-| **epistemološki** | pridev | 90 | epistemološki |
-| **rastresito** | pridev, prilog | 89 | rastresit, rastresito |
-| **vlasište** | imenica | 89 | vlasište |
-| **hranivo** | imenica | 87 | hranivo |
-| **lišce** | imenica | 86 | lišce |
-| **praslika** | imenica | 86 | praslika |
-| **veletrgovina** | imenica | 82 | veletrgovina |
-| **fotokopirnica** | imenica | 81 | fotokopirnica |
-| **priraslica** | imenica | 80 | priraslica |
-| **rubeola** | imenica | 79 | rubeola |
-| **konfesionalno** | pridev, prilog | 78 | konfesionalan, konfesionalno |
-| **razduženje** | imenica | 78 | razduženje |
-| **čitatelj** | imenica | 78 | čitatelj |
-| **doktorand** | imenica | 77 | doktorand |
-| **resko** | pridev, prilog | 77 | resko, rezak |
-| **speleolog** | imenica | 77 | speleolog |
-| **deponent** | imenica | 76 | deponent |
-| **horizontala** | imenica | 76 | horizontala |
-| **karikaturalno** | pridev, prilog | 76 | karikaturalan, karikaturalno |
-| **poluprilika** | imenica | 76 | poluprilika |
-| **tridesetogodišnjak** | imenica | 76 | tridesetogodišnjak |
-| **neživotno** | pridev, prilog | 75 | neživotan, neživotno |
-| **dereze** | imenica | 74 | dereze |
-| **dokumentaristički** | pridev | 74 | dokumentaristički |
-| **uključivo** | pridev, prilog | 74 | uključiv, uključivo |
-| **elektroničar** | imenica | 73 | elektroničar |
-| **graševina** | imenica | 73 | graševina |
-| **antagonistički** | pridev, prilog | 72 | antagonistički |
-| **kadiluk** | imenica | 72 | kadiluk |
-| **ozakonjenje** | imenica | 72 | ozakonjenje |
-| **antibiogram** | imenica | 71 | antibiogram |
-| **fosilno** | pridev, prilog | 71 | fosilan, fosilno |
-| **primas** | imenica | 71 | primas |
-| **omofor** | imenica | 69 | omofor |
-| **prezrenje** | imenica | 69 | prezrenje |
-| **kiretaža** | imenica | 68 | kiretaža |
-| **otkop** | imenica | 67 | otkop |
-| **podvižništvo** | imenica | 67 | podvižništvo |
-| **deskriptivno** | pridev, prilog | 66 | deskriptivan, deskriptivno |
-| **ekspeditivno** | pridev, prilog | 66 | ekspeditivan, ekspeditivno |
-| **zimovalište** | imenica | 66 | zimovalište |
-| **deterministički** | pridev | 65 | deterministički |
-| **ekonomistkinja** | imenica | 65 | ekonomistkinja |
-| **koncentrično** | pridev, prilog | 65 | koncentričan, koncentrično |
-| **rakurs** | imenica | 65 | rakurs |
-| **bruh** | imenica | 64 | bruh |
-| **devedesetak** | broj | 63 | devedesetak |
-| **saigračica** | imenica | 63 | saigračica |
-| **serpentina** | imenica | 63 | serpentin, serpentina |
-| **stap** | imenica | 63 | stap |
-| **diskurzivno** | pridev, prilog | 62 | diskurzivan, diskurzivno |
-| **forumski** | pridev, prilog | 62 | forumski |
-| **elektroenergetika** | imenica | 61 | elektroenergetika |
-| **paf** | uzvik | 61 | paf |
-| **bastard** | imenica | 60 | bastard |
-| **favoritkinja** | imenica | 60 | favoritkinja |
-| **kaval** | imenica | 60 | kaval |
-| **podgorina** | imenica | 60 | podgorina |
-| **refleksivno** | pridev, prilog | 60 | refleksivan, refleksivno |
-| **devetnaestogodišnjak** | imenica | 59 | devetnaestogodišnjak |
-| **protek** | imenica | 59 | protek |
-| **intramuskularno** | pridev, prilog | 58 | intramuskularan, intramuskularno |
-| **maksimalistički** | pridev, prilog | 58 | maksimalistički |
-| **velikomučenica** | imenica | 58 | velikomučenica |
-| **župljanka** | imenica | 58 | župljanka |
-| **porudžbenica** | imenica | 57 | porudžbenica |
-| **taložnik** | imenica | 57 | taložnik |
-| **tromeđa** | imenica | 57 | tromeđa |
-| **emulgator** | imenica | 56 | emulgator |
-| **larvica** | imenica | 56 | larvica |
-| **antičestica** | imenica | 55 | antičestica |
-| **forsirano** | pridev | 55 | forsirati |
-| **hermeneutika** | imenica | 55 | hermeneutika |
-| **lučica** | imenica | 55 | lučica |
-| **patogeneza** | imenica | 55 | patogeneza |
-| **kliničar** | imenica | 54 | kliničar |
-| **mudo** | imenica | 54 | mudo |
-| **racionalistički** | pridev | 54 | racionalistički |
-| **antipiretik** | imenica | 53 | antipiretik |
-| **dingač** | imenica | 53 | dingač |
-| **dvadesetogodišnjica** | imenica | 53 | dvadesetogodišnjica |
-| **golmanski** | pridev, prilog | 53 | golmanski |
-| **međukorak** | imenica | 53 | međukorak |
-| **uretra** | imenica | 52 | uretra |
-| **bekovski** | pridev, prilog | 51 | bekovski |
-| **krmivo** | imenica | 51 | krmivo |
-| **nekamo** | prilog | 51 | nekamo |
-| **tabulator** | imenica | 51 | tabulator |
-| **amoralno** | pridev, prilog | 50 | amoralan, amoralno |
-| **filozofkinja** | imenica | 50 | filozofkinja |
-| **kartončić** | imenica | 50 | kartončić |
-| **neprikriveno** | pridev, prilog | 50 | neprikriven, neprikriveno |
-| **remenica** | imenica | 50 | remenica |
-| **kaptaža** | imenica | 49 | kaptaža |
-| **poduzetništvo** | imenica | 49 | poduzetništvo |
-| **diskriminator** | imenica | 48 | diskriminator |
-| **kibernetika** | imenica | 48 | kibernetika |
-| **biletarnica** | imenica | 47 | biletarnica |
-| **klekovača** | imenica | 47 | klekovača |
-| **filogenetski** | pridev, prilog | 46 | filogenetski |
-| **heksagram** | imenica | 46 | heksagram |
-| **etnogeneza** | imenica | 45 | etnogeneza |
-| **temperamentno** | pridev, prilog | 45 | temperamentan, temperamentno |
-| **ukućanka** | imenica | 45 | ukućanka |
-| **oživotvorenje** | imenica | 44 | oživotvorenje |
-| **zemljica** | imenica | 44 | zemljica |
-| **bordura** | imenica | 43 | bordura |
-| **formalistički** | pridev, prilog | 43 | formalistički |
-| **induktivno** | pridev, prilog | 43 | induktivan, induktivno |
-| **priključnica** | imenica | 43 | priključnica |
-| **raga** | imenica | 43 | raga |
-| **rashlađenje** | imenica | 43 | rashlađenje |
-| **malinar** | imenica | 42 | malinar |
-| **defter** | imenica | 41 | defter |
-| **čičoka** | imenica | 41 | čičoka |
-| **decentno** | pridev, prilog | 40 | decentan, decentno |
-| **dvoranski** | pridev | 40 | dvoranski |
-| **kubus** | imenica | 40 | kubus |
-| **monografski** | pridev | 40 | monografski |
-| **strogoća** | imenica | 40 | strogoća |
-| **stupidno** | pridev, prilog | 40 | stupidan, stupidno |
-| **termika** | imenica | 40 | termika |
-| **veljača** | imenica | 40 | veljača |
-| **četrdesetnica** | imenica | 40 | četrdesetnica |
-| **disproporcionalno** | pridev, prilog | 39 | disproporcionalan, disproporcionalno |
-| **izravnanje** | imenica | 39 | izravnanje |
-| **petogodišnjica** | imenica | 39 | petogodišnjica |
-| **pomodarski** | pridev | 39 | pomodarski |
-| **sinusoida** | imenica | 39 | sinusoida |
-| **visom** | imenica | 39 | vis |
-| **zagovornica** | imenica | 39 | zagovornica |
-| **ehe** | uzvik | 38 | ehe |
-| **komunjarski** | pridev, prilog | 38 | komunjarski |
-| **miljokaz** | imenica | 38 | miljokaz |
-| **rapa** | imenica | 38 | rap |
-| **razorenje** | imenica | 38 | razorenje |
-| **transcendentno** | pridev, prilog | 38 | transcendentan, transcendentno |
-| **magnetoskop** | imenica | 37 | magnetoskop |
-| **pulman** | imenica | 37 | pulman |
-| **sondaža** | imenica | 37 | sondaža |
-| **srh** | imenica | 37 | srh |
-| **uvoznica** | imenica | 37 | uvoznica |
-| **bekend** | imenica | 36 | bekend |
-| **natruha** | imenica | 36 | natruha |
-| **patronaža** | imenica | 36 | patronaža |
-| **predodređenje** | imenica | 36 | predodređenje |
-| **boća** | imenica, glagol | 35 | boća, boćati |
-| **pramenka** | imenica | 35 | pramenka |
-| **tektonika** | imenica | 35 | tektonika |
-| **tovilište** | imenica | 35 | tovilište |
-| **trećeligaš** | imenica | 35 | trećeligaš |
-| **degenerativno** | pridev, prilog | 34 | degenerativan, degenerativno |
-| **dualistički** | pridev, prilog | 34 | dualistički |
-| **egocentrik** | imenica | 34 | egocentrik |
-| **elektromehaničar** | imenica | 34 | elektromehaničar |
-| **habit** | imenica | 34 | habit |
-| **iluminator** | imenica | 33 | iluminator |
-| **parapet** | imenica | 33 | parapet |
-| **hitlerovski** | pridev | 32 | hitlerovski |
-| **interesent** | imenica | 32 | interesent |
-| **konstitucionalno** | pridev, prilog | 32 | konstitucionalan, konstitucionalno |
-| **kuruza** | imenica | 32 | kuruza |
-| **mnogostrano** | pridev, prilog | 32 | mnogostran, mnogostrano |
-| **samokažnjavanje** | imenica | 32 | samokažnjavanje |
-| **cestica** | imenica | 31 | cestica |
-| **dekubitus** | imenica | 31 | dekubitus |
-| **distributivno** | pridev, prilog | 31 | distributivan, distributivno |
-| **dvodimenzionalno** | pridev, prilog | 31 | dvodimenzionalan, dvodimenzionalno |
-| **embriolog** | imenica | 31 | embriolog |
-| **puštalo** | glagol | 31 | puštati |
-| **stogodišnjak** | imenica | 31 | stogodišnjak |
-| **tikovina** | imenica | 31 | tikovina |
-| **tonuće** | pridev, prilog, imenica, glagol | 31 | tonuti, tonuće |
-| **džoger** | imenica | 30 | džoger |
-| **etatistički** | pridev | 30 | etatistički |
-| **gvaš** | imenica | 30 | gvaš |
-| **krimen** | imenica | 30 | krimen |
-| **longituda** | imenica | 30 | longituda |
-| **samozaštita** | imenica | 30 | samozaštita |
-| **skladišnica** | imenica | 30 | skladišnica |
-| **streličar** | imenica | 30 | streličar |
-| **tilda** | imenica | 30 | tilda |
-| **diferencirano** | pridev | 29 | diferencirati |
-| **ivančica** | imenica | 29 | ivančica |
-| **krc** | uzvik | 29 | krc |
-| **mahunarka** | imenica | 29 | mahunarka |
-| **mutnoća** | imenica | 29 | mutnoća |
-| **nikamo** | prilog | 29 | nikamo |
-| **onomastika** | imenica | 29 | onomastika |
-| **pastila** | imenica | 29 | pastila |
-| **pest** | imenica | 29 | pest |
-| **poklonički** | pridev, prilog | 29 | poklonički |
-| **spiroheta** | imenica | 29 | spiroheta |
-| **terasasto** | pridev, prilog | 29 | terasast, terasasto |
-| **ultradesničar** | imenica | 29 | ultradesničar |
-| **zakukuljeno** | pridev | 29 | zakukuljiti |
-| **šljahta** | imenica | 29 | šljahta |
-| **bespolno** | pridev, prilog | 28 | bespolan, bespolno |
-| **efemeride** | imenica | 28 | efemeride |
-| **egzemplarno** | pridev, prilog | 28 | egzemplaran, egzemplarno |
-| **farmaceutkinja** | imenica | 28 | farmaceutkinja |
-| **gologuza** | pridev | 28 | gologuz |
-| **luneta** | imenica | 28 | luneta |
-| **samozaborav** | imenica | 28 | samozaborav |
-| **bačvara** | imenica | 27 | bačvar |
-| **dosita** | prilog | 27 | dosita |
-| **flok** | imenica | 27 | flok |
-| **gastroskop** | imenica | 27 | gastroskop |
-| **heraldičar** | imenica | 27 | heraldičar |
-| **mobila** | imenica | 27 | mobil |
-| **osamdesetogodišnjak** | imenica | 27 | osamdesetogodišnjak |
-| **slavodobitnik** | imenica | 27 | slavodobitnik |
-| **čelništvo** | imenica | 27 | čelništvo |
-| **šalica** | imenica | 27 | šalica |
-| **aristotelovski** | pridev, prilog | 26 | aristotelovski |
-| **ekspander** | imenica | 26 | ekspander |
-| **gatalo** | glagol | 26 | gatati |
-| **logističar** | imenica | 26 | logističar |
-| **narušenje** | imenica | 26 | narušenje |
-| **polihistor** | imenica | 26 | polihistor |
-| **scenografkinja** | imenica | 26 | scenografkinja |
-| **doseljenje** | imenica | 25 | doseljenje |
-| **doškolovanje** | imenica | 25 | doškolovanje |
-| **državništvo** | imenica | 25 | državništvo |
-| **folkloristika** | imenica | 25 | folkloristika |
-| **izgrednik** | imenica | 25 | izgrednik |
-| **zastranjenje** | imenica | 25 | zastranjenje |
-| **zeljanica** | imenica | 25 | zeljanica |
-| **doživljenje** | imenica | 24 | doživljenje |
-| **energetičar** | imenica | 24 | energetičar |
-| **klasičar** | imenica | 24 | klasičar |
-| **lipaza** | imenica | 24 | lipaza |
-| **rukica** | imenica | 24 | rukica |
-| **sociolingvistika** | imenica | 24 | sociolingvistika |
-| **uporedba** | imenica | 24 | uporedba |
-| **ureter** | imenica | 24 | ureter |
-| **vergl** | imenica | 24 | vergl |
-| **visokoparno** | pridev, prilog | 24 | visokoparni, visokoparno |
-| **ženkica** | imenica | 24 | ženkica |
-| **aseksualno** | pridev, prilog | 23 | aseksualan, aseksualno |
-| **bećarski** | pridev, prilog | 23 | bećarski |
-| **darvinistički** | pridev, prilog | 23 | darvinistički |
-| **dimnjačar** | imenica | 23 | dimnjačar |
-| **disciplinarno** | pridev, prilog | 23 | disciplinarni, disciplinarno |
-| **ekspanzivno** | pridev, prilog | 23 | ekspanzivan, ekspanzivno |
-| **fascinirano** | pridev | 23 | fascinirati |
-| **gostoprimljivo** | pridev, prilog | 23 | gostoprimljiv, gostoprimljivo |
-| **grbovnik** | imenica | 23 | grbovnik |
-| **hidronim** | imenica | 23 | hidronim |
-| **krupnoća** | imenica | 23 | krupnoća |
-| **leming** | imenica | 23 | leming |
-| **mrežasto** | pridev, prilog | 23 | mrežast, mrežasto |
-| **prigovaralo** | imenica, glagol | 23 | prigovaralo, prigovarati |
-| **revanšistički** | pridev | 23 | revanšistički |
-| **rutinirano** | pridev, prilog | 23 | rutiniran, rutinirano |
-| **sofistika** | imenica | 23 | sofistika |
-| **tonzila** | imenica | 23 | tonzila |
-| **uvalica** | imenica | 23 | uvalica |
-| **bukara** | imenica | 22 | bukara |
-| **gazište** | imenica | 22 | gazište |
-| **hemoliza** | imenica | 22 | hemoliza |
-| **liturgičar** | imenica | 22 | liturgičar |
-| **lokum** | imenica | 22 | lokum |
-| **magistralno** | pridev, prilog | 22 | magistralan, magistralno |
-| **nominala** | imenica | 22 | nominala |
-| **pregnantno** | pridev, prilog | 22 | pregnantan, pregnantno |
-| **rebrasto** | pridev, prilog | 22 | rebrast, rebrasto |
-| **sedamdesetogodišnjak** | imenica | 22 | sedamdesetogodišnjak |
-| **sušnica** | imenica | 22 | sušnica |
-| **vehementno** | pridev, prilog | 22 | vehementan, vehementno |
-| **disonantno** | pridev, prilog | 21 | disonantan, disonantno |
-| **eruptivno** | pridev, prilog | 21 | eruptivan, eruptivno |
-| **grlobolja** | imenica | 21 | grlobolja |
-| **hidroenergetika** | imenica | 21 | hidroenergetika |
-| **kutikula** | imenica | 21 | kutikula |
-| **naporedno** | pridev, prilog | 21 | naporedan, naporedno |
-| **puza** | glagol | 21 | puzati |
-| **samoanaliza** | imenica | 21 | samoanaliza |
-| **zadrto** | pridev, prilog | 21 | zadrt, zadrto |
-| **začetnica** | imenica | 21 | začetnica |
-| **čestina** | imenica | 21 | čestina |
-| **amilaza** | imenica | 20 | amilaza |
-| **anglistika** | imenica | 20 | anglistika |
-| **božićnica** | imenica | 20 | božićnica |
-| **dupkom** | prilog | 20 | dupkom |
-| **flegma** | imenica | 20 | flegma |
-| **kalkulant** | imenica | 20 | kalkulant |
-| **kalota** | imenica | 20 | kalota |
-| **kubistički** | pridev | 20 | kubistički |
-| **otkupljenje** | imenica | 20 | otkupljenje |
-| **raslinje** | imenica | 20 | raslinje |
-| **ezoterik** | imenica | 19 | ezoterik |
-| **kanata** | imenica | 19 | kanat |
-| **laktaza** | imenica | 19 | laktaza |
-| **retoričar** | imenica | 19 | retoričar |
-| **vatrogastvo** | imenica | 19 | vatrogastvo |
-| **bioenergetičar** | imenica | 18 | bioenergetičar |
-| **depilator** | imenica | 18 | depilator |
-| **gomolj** | imenica | 18 | gomolj |
-| **hamletovski** | pridev | 18 | hamletovski |
-| **izlučenje** | imenica | 18 | izlučenje |
-| **nerazlučivo** | pridev, prilog | 18 | nerazlučiv, nerazlučivo |
-| **preporoditelj** | imenica | 18 | preporoditelj |
-| **produljenje** | imenica | 18 | produljenje |
-| **razgolićeno** | pridev | 18 | razgolititi |
-| **rezonantno** | pridev, prilog | 18 | rezonantan, rezonantno |
-| **tezaurus** | imenica | 18 | tezaurus |
-| **trokolica** | imenica | 18 | trokolica |
-| **čipkasto** | pridev, prilog | 18 | čipkast, čipkasto |
-| **štrukle** | imenica | 18 | štrukla, štrukli |
-| **donkihotski** | pridev | 17 | donkihotski |
-| **dudovača** | imenica | 17 | dudovača |
-| **epigonski** | pridev | 17 | epigonski |
-| **fotosfera** | imenica | 17 | fotosfera |
-| **holocen** | imenica | 17 | holocen |
-| **klimatološki** | pridev, prilog | 17 | klimatološki |
-| **maskerata** | imenica | 17 | maskerata |
-| **metaforika** | imenica | 17 | metaforika |
-| **modernizator** | imenica | 17 | modernizator |
-| **neuračunljivo** | pridev, prilog | 17 | neuračunljiv, neuračunljivo |
-| **novinarčić** | imenica | 17 | novinarčić |
-| **poliptih** | imenica | 17 | poliptih |
-| **registratura** | imenica | 17 | registratura |
-| **sanjarski** | pridev | 17 | sanjarski |
-| **sirilo** | glagol | 17 | siriti |
-| **suglasno** | pridev, prilog | 17 | suglasan, suglasno |
-| **susretljivo** | pridev, prilog | 17 | susretljiv, susretljivo |
-| **uzvisina** | imenica | 17 | uzvisina |
-| **antifašistkinja** | imenica | 16 | antifašistkinja |
-| **brodograditelj** | imenica | 16 | brodograditelj |
-| **foteljica** | imenica | 16 | foteljica |
-| **fototeka** | imenica | 16 | fototeka |
-| **glavatica** | imenica | 16 | glavatica |
-| **gorostasno** | pridev, prilog | 16 | gorostasan, gorostasno |
-| **hulitelj** | imenica | 16 | hulitelj |
-| **mehanicistički** | pridev | 16 | mehanicistički |
-| **mucavo** | pridev, prilog | 16 | mucav, mucavo |
-| **nedotupavno** | pridev, prilog | 16 | nedotupavan, nedotupavno |
-| **poslušnica** | imenica | 16 | poslušnica |
-| **rotator** | imenica | 16 | rotator |
-| **samoreklama** | imenica | 16 | samoreklama |
-| **sugovornica** | imenica | 16 | sugovornica |
-| **terasica** | imenica | 16 | terasica |
-| **transverzalno** | pridev, prilog | 16 | transverzalan, transverzalno |
-| **uopštenje** | imenica | 16 | uopštenje |
-| **bacalište** | imenica | 15 | bacalište |
-| **biseksualno** | pridev, prilog | 15 | biseksualan, biseksualno |
-| **božikovina** | imenica | 15 | božikovina |
-| **dvofazno** | pridev, prilog | 15 | dvofazni, dvofazno |
-| **evolucionistički** | pridev | 15 | evolucionistički |
-| **goloruko** | pridev, prilog | 15 | goloruk, goloruko |
-| **hena** | imenica | 15 | hena |
-| **kolutić** | imenica | 15 | kolutić |
-| **kondukterka** | imenica | 15 | kondukterka |
-| **kumulonimbus** | imenica | 15 | kumulonimbus |
-| **moreška** | imenica | 15 | moreška |
-| **polonistika** | imenica | 15 | polonistika |
-| **razbarušeno** | pridev | 15 | razbarušiti |
-| **remiza** | imenica | 15 | remiza |
-| **trogodišnjica** | imenica | 15 | trogodišnjica |
-| **unovčenje** | imenica | 15 | unovčenje |
-| **čađavica** | imenica | 15 | čađavica |
-| **automatičar** | imenica | 14 | automatičar |
-| **besperspektivno** | pridev, prilog | 14 | besperspektivan, besperspektivno |
-| **bitnik** | imenica | 14 | bitnik |
-| **ekvilibristika** | imenica | 14 | ekvilibristika |
-| **gastronom** | imenica | 14 | gastronom |
-| **krpenjača** | imenica | 14 | krpenjača |
-| **lanceta** | imenica | 14 | lanceta |
-| **ljuskar** | imenica | 14 | ljuskar |
-| **meningokok** | imenica | 14 | meningokok |
-| **nahođenje** | imenica | 14 | nahođenje |
-| **pomnjivo** | pridev, prilog | 14 | pomnjiv, pomnjivo |
-| **priprava** | imenica | 14 | priprava |
-| **promatračnica** | imenica | 14 | promatračnica |
-| **reparatura** | imenica | 14 | reparatura |
-| **rožina** | imenica | 14 | rožina |
-| **sintetično** | pridev, prilog | 14 | sintetičan, sintetično |
-| **terapeutika** | imenica | 14 | terapeutika |
-| **zubača** | imenica | 14 | zubača |
-| **štofara** | imenica | 14 | štofara |
-| **anestetički** | pridev, prilog | 13 | anestetički |
-| **cestarina** | imenica | 13 | cestarina |
-| **cibetka** | imenica | 13 | cibetka |
-| **duhovništvo** | imenica | 13 | duhovništvo |
-| **kurentno** | pridev, prilog | 13 | kurentan, kurentno |
-| **litraža** | imenica | 13 | litraža |
-| **muljača** | imenica | 13 | muljač |
-| **muzilica** | imenica | 13 | muzilica |
-| **nakićeno** | pridev | 13 | nakititi |
-| **potkontinent** | imenica | 13 | potkontinent |
-| **prednjica** | imenica | 13 | prednjica |
-| **razoritelj** | imenica | 13 | razoritelj |
-| **rezeda** | imenica | 13 | rezeda |
-| **sokratski** | pridev | 13 | sokratski |
-| **stalaža** | imenica | 13 | stalaža |
-| **tropreg** | imenica | 13 | tropreg |
-| **utonuće** | glagol | 13 | utonuti |
-| **vikontesa** | imenica | 13 | vikontesa |
-| **zakopčano** | pridev, prilog | 13 | zakopčan, zakopčano |
-| **čehovljevski** | pridev | 13 | čehovljevski |
-| **šezdesetogodišnjica** | imenica | 13 | šezdesetogodišnjica |
-| **šibalo** | glagol | 13 | šibati |
-| **abraziv** | imenica | 12 | abraziv |
-| **delegatkinja** | imenica | 12 | delegatkinja |
-| **eliptično** | pridev, prilog | 12 | eliptičan, eliptično |
-| **endemično** | pridev, prilog | 12 | endemičan, endemično |
-| **endosperm** | imenica | 12 | endosperm |
-| **evaporator** | imenica | 12 | evaporator |
-| **grimiz** | imenica | 12 | grimiz |
-| **hlačice** | imenica | 12 | hlačice |
-| **hrastovača** | imenica | 12 | hrastovača |
-| **ihtiolog** | imenica | 12 | ihtiolog |
-| **kneštvo** | imenica | 12 | kneštvo |
-| **lugarnica** | imenica | 12 | lugarnica |
-| **megaherc** | imenica | 12 | megaherc |
-| **nedohvatljivo** | pridev, prilog | 12 | nedohvatljiv, nedohvatljivo |
-| **preskakalo** | glagol | 12 | preskakati |
-| **produhovljenje** | imenica | 12 | produhovljenje |
-| **prostosrdačno** | pridev, prilog | 12 | prostosrdačan, prostosrdačno |
-| **razrednik** | imenica | 12 | razrednik |
-| **rondela** | imenica | 12 | rondela |
-| **samovlast** | imenica | 12 | samovlast |
-| **sirnica** | imenica | 12 | sirnica |
-| **supružnica** | imenica | 12 | supružnica |
-| **svevlast** | imenica | 12 | svevlast |
-| **umirovljenje** | imenica | 12 | umirovljenje |
-| **vakuola** | imenica | 12 | vakuola |
-| **vodurina** | imenica | 12 | vodurina |
-| **šantung** | imenica | 12 | šantung |
-| **agnostički** | pridev, prilog | 11 | agnostički |
-| **citogenetika** | imenica | 11 | citogenetika |
-| **dozivalo** | glagol | 11 | dozivati |
-| **elegično** | pridev, prilog | 11 | elegičan, elegično |
-| **eskivaža** | imenica | 11 | eskivaža |
-| **ginuće** | glagol | 11 | ginuti |
-| **glavočika** | imenica | 11 | glavočike |
-| **hidrogliser** | imenica | 11 | hidrogliser |
-| **kateheta** | imenica | 11 | kateheta |
-| **kmetovski** | pridev, prilog | 11 | kmetovski |
-| **kopljište** | imenica | 11 | kopljište |
-| **lovica** | imenica | 11 | lovica |
-| **mračnjački** | pridev | 11 | mračnjački |
-| **polemično** | pridev, prilog | 11 | polemičan, polemično |
-| **pravdoljublje** | imenica | 11 | pravdoljublje |
-| **pretpranje** | imenica | 11 | pretpranje |
-| **pročelnica** | imenica | 11 | pročelnica |
-| **tangens** | imenica | 11 | tangens |
-| **tokata** | imenica | 11 | tokata |
-| **upadno** | pridev, prilog | 11 | upadan, upadno |
-| **zatravljeno** | pridev, prilog | 11 | zatraviti, zatravljen |
-| **afrikata** | imenica | 10 | afrikat |
-| **akna** | imenica | 10 | akna |
-| **akvedukt** | imenica | 10 | akvedukt |
-| **anarhistkinja** | imenica | 10 | anarhistkinja |
-| **bakljonoša** | imenica | 10 | bakljonoša |
-| **bilaterala** | imenica | 10 | bilaterala |
-| **brežuljkasto** | pridev, prilog | 10 | brežuljkast, brežuljkasto |
-| **desetorostruko** | pridev, prilog | 10 | desetorostruk, desetorostruko |
-| **diplomatkinja** | imenica | 10 | diplomatkinja |
-| **gloginja** | imenica | 10 | gloginje |
-| **hobistički** | pridev, prilog | 10 | hobistički |
-| **hvatište** | imenica | 10 | hvatište |
-| **izoglosa** | imenica | 10 | izoglosa |
-| **kršitelj** | imenica | 10 | kršitelj |
-| **lončanica** | imenica | 10 | lončanica |
-| **posuđenica** | imenica | 10 | posuđenica |
-| **predradnja** | imenica | 10 | predradnja |
-| **slobodoljubivo** | pridev, prilog | 10 | slobodoljubiv, slobodoljubivo |
-| **smetište** | imenica | 10 | smetište |
-| **vestalka** | imenica | 10 | vestalka |
-| **zadubljeno** | pridev, prilog | 10 | zadubljen, zadubljeno |
-| **zanesenjaštvo** | imenica | 10 | zanesenjaštvo |
-| **četrdesetogodišnjakinja** | imenica | 10 | četrdesetogodišnjakinja |
-| **čitačica** | imenica | 10 | čitačica |
-| **ablativ** | imenica | 9 | ablativ |
-| **breča** | imenica | 9 | breča |
-| **cirus** | imenica | 9 | cirus |
-| **cvatnja** | imenica | 9 | cvatnja |
-| **desetinka** | imenica | 9 | desetinka |
-| **destilator** | imenica | 9 | destilator |
-| **dvoručno** | pridev, prilog | 9 | dvoručni, dvoručno |
-| **gater** | imenica | 9 | gater |
-| **izmiritelj** | imenica | 9 | izmiritelj |
-| **kopula** | imenica | 9 | kopula |
-| **kvestor** | imenica | 9 | kvestor |
-| **lakuna** | imenica | 9 | lakuna |
-| **obraščić** | imenica | 9 | obraščić |
-| **plinara** | imenica | 9 | plinara |
-| **plućnjak** | imenica | 9 | plućnjak |
-| **potplat** | imenica | 9 | potplat |
-| **pretvorba** | imenica | 9 | pretvorba |
-| **rastrošno** | pridev, prilog | 9 | rastrošan, rastrošno |
-| **rinfuza** | imenica | 9 | rinfuza |
-| **sluganski** | pridev, prilog | 9 | sluganski |
-| **stvaratelj** | imenica | 9 | stvaratelj |
-| **sugradica** | imenica | 9 | sugradica |
-| **termograf** | imenica | 9 | termograf |
-| **zanesenjački** | pridev | 9 | zanesenjački |
-| **žitara** | imenica | 9 | žitar |
-| **žutika** | imenica | 9 | žutika |
-| **dezinformator** | imenica | 8 | dezinformator |
-| **državnica** | imenica | 8 | državnica |
-| **elektroencefalograf** | imenica | 8 | elektroencefalograf |
-| **evidentičar** | imenica | 8 | evidentičar |
-| **gracilno** | pridev, prilog | 8 | gracilan, gracilno |
-| **grudica** | imenica | 8 | grudica |
-| **kabotaža** | imenica | 8 | kabotaža |
-| **kedrovina** | imenica | 8 | kedrovina |
-| **krvoliptanje** | imenica | 8 | krvoliptanje |
-| **kurativa** | imenica | 8 | kurativa |
-| **kurirka** | imenica | 8 | kurirka |
-| **lakirer** | imenica | 8 | lakirer |
-| **maglenka** | imenica | 8 | maglenka |
-| **megavolt** | imenica | 8 | megavolt |
-| **podlački** | pridev | 8 | podlački |
-| **pohrana** | imenica | 8 | pohrana |
-| **prefrigano** | pridev, prilog | 8 | prefrigan, prefrigano |
-| **prpošno** | pridev, prilog | 8 | prpošan, prpošno |
-| **rascvat** | imenica | 8 | rascvat |
-| **romančić** | imenica | 8 | romančić |
-| **sintetičar** | imenica | 8 | sintetičar |
-| **svotica** | imenica | 8 | svotica |
-| **vunasto** | pridev, prilog | 8 | vunast, vunasto |
-| **šlampavo** | pridev, prilog | 8 | šlampav, šlampavo |
-| **šuštavo** | pridev, prilog | 8 | šuštav, šuštavo |
-| **akademičar** | imenica | 7 | akademičar |
-| **antibiotički** | pridev, prilog | 7 | antibiotički |
-| **antikvarno** | pridev, prilog | 7 | antikvaran, antikvarno |
-| **atomistički** | pridev, prilog | 7 | atomistički |
-| **begovica** | imenica | 7 | begovica |
-| **blagoglagoljivo** | pridev, prilog | 7 | blagoglagoljiv, blagoglagoljivo |
-| **blanjalica** | imenica | 7 | blanjalica |
-| **cimbal** | imenica | 7 | cimbal |
-| **disalica** | imenica | 7 | disalica |
-| **egzosfera** | imenica | 7 | egzosfera |
-| **elektroencefalogram** | imenica | 7 | elektroencefalogram |
-| **elektrostatika** | imenica | 7 | elektrostatika |
-| **epidemično** | pridev, prilog | 7 | epidemičan, epidemično |
-| **eskalator** | imenica | 7 | eskalator |
-| **feljtonistika** | imenica | 7 | feljtonistika |
-| **helebarda** | imenica | 7 | helebarda |
-| **herceginja** | imenica | 7 | herceginja |
-| **kodifikator** | imenica | 7 | kodifikator |
-| **košnja** | imenica | 7 | košnja |
-| **krevetnina** | imenica | 7 | krevetnina |
-| **krčilo** | glagol | 7 | krčiti |
-| **manula** | glagol | 7 | manuti |
-| **mlaznik** | imenica | 7 | mlaznik |
-| **modrilo** | imenica, glagol | 7 | modrilo, modriti |
-| **nategnuće** | glagol | 7 | nategnuti |
-| **pedesetorica** | imenica | 7 | pedesetorica |
-| **polovinka** | imenica | 7 | polovinka |
-| **potolina** | imenica | 7 | potolina |
-| **prezimenjakinja** | imenica | 7 | prezimenjakinja |
-| **prisutnik** | imenica | 7 | prisutnik |
-| **pritvorenica** | imenica | 7 | pritvorenica |
-| **razrednica** | imenica | 7 | razrednica |
-| **reznik** | imenica | 7 | reznik |
-| **rukovoditeljica** | imenica | 7 | rukovoditeljica |
-| **salpa** | imenica | 7 | salpa |
-| **spetljano** | pridev | 7 | spetljati |
-| **spleteno** | pridev | 7 | splesti |
-| **susretište** | imenica | 7 | susretište |
-| **tonalno** | pridev, prilog | 7 | tonalan, tonalno |
-| **ušata** | pridev, imenica | 7 | ušata, ušati |
-| **užara** | imenica | 7 | užar, užara |
-| **vilenica** | imenica | 7 | vilenica |
-| **štalica** | imenica | 7 | štalica |
-| **šuškavo** | pridev, prilog | 7 | šuškav, šuškavo |
-| **adventistički** | pridev | 6 | adventistički |
-| **antidrama** | imenica | 6 | antidrama |
-| **biljarica** | imenica | 6 | biljarica |
-| **blagva** | imenica | 6 | blagva |
-| **boćalište** | imenica | 6 | boćalište |
-| **crtačica** | imenica | 6 | crtačica |
-| **dramatičarka** | imenica | 6 | dramatičarka |
-| **dražica** | imenica | 6 | dražica |
-| **endoderm** | imenica | 6 | endoderm |
-| **gljivar** | imenica | 6 | gljivar |
-| **hrašće** | imenica | 6 | hrašće |
-| **karbunkul** | imenica | 6 | karbunkul |
-| **kibernetičar** | imenica | 6 | kibernetičar |
-| **liberalka** | imenica | 6 | liberalka |
-| **marno** | pridev, prilog | 6 | maran, marno |
-| **memljivo** | pridev, prilog | 6 | memljiv, memljivo |
-| **merkantilistički** | pridev | 6 | merkantilistički |
-| **mlađak** | imenica | 6 | mlađak |
-| **obeščašćenje** | imenica | 6 | obeščašćenje |
-| **plitica** | imenica | 6 | plitica |
-| **pljuca** | imenica, glagol | 6 | pljuca, pljucati |
-| **povisilica** | imenica | 6 | povisilica |
-| **praskavo** | pridev, prilog | 6 | praskav, praskavo |
-| **pustopoljina** | imenica | 6 | pustopoljina |
-| **reduktivno** | pridev, prilog | 6 | reduktivan, reduktivno |
-| **roditeljica** | imenica | 6 | roditeljica |
-| **simplicistički** | pridev | 6 | simplicistički |
-| **slavitelj** | imenica | 6 | slavitelj |
-| **stupnjevito** | pridev, prilog | 6 | stupnjevit, stupnjevito |
-| **tankoća** | imenica | 6 | tankoća |
-| **tisovina** | imenica | 6 | tisovina |
-| **totalizator** | imenica | 6 | totalizator |
-| **udarnica** | imenica | 6 | udarnica |
-| **utrostručenje** | imenica | 6 | utrostručenje |
-| **uvaljeno** | pridev | 6 | uvaliti |
-| **vibrantno** | pridev, prilog | 6 | vibrantan, vibrantno |
-| **zadrugarka** | imenica | 6 | zadrugarka |
-| **šetnica** | imenica | 6 | šetnica |
-| **afektirano** | pridev, prilog | 5 | afektiran, afektirano |
-| **anticipativno** | pridev, prilog | 5 | anticipativan, anticipativno |
-| **baletanka** | imenica | 5 | baletanka |
-| **brašnara** | imenica | 5 | brašnar |
-| **cerekalo** | imenica, glagol | 5 | cerekalo, cerekati |
-| **diskograf** | imenica | 5 | diskograf |
-| **disparatno** | pridev, prilog | 5 | disparatan, disparatno |
-| **dvoličnjak** | imenica | 5 | dvoličnjak |
-| **ektoderm** | imenica | 5 | ektoderm |
-| **elektrovod** | imenica | 5 | elektrovod |
-| **enkaustika** | imenica | 5 | enkaustika |
-| **eshatolog** | imenica | 5 | eshatolog |
-| **evangelik** | imenica | 5 | evangelik |
-| **feljtonistički** | pridev | 5 | feljtonistički |
-| **geohemičar** | imenica | 5 | geohemičar |
-| **gromadno** | pridev, prilog | 5 | gromadan, gromadno |
-| **guskica** | imenica | 5 | guskica |
-| **hazardno** | pridev, prilog | 5 | hazardan, hazardno |
-| **hidrauličar** | imenica | 5 | hidrauličar |
-| **hidrogenerator** | imenica | 5 | hidrogenerator |
-| **himba** | imenica | 5 | himba |
-| **izohipsa** | imenica | 5 | izohipsa |
-| **kitica** | imenica | 5 | kitica |
-| **lisičar** | imenica | 5 | lisičar |
-| **marksistkinja** | imenica | 5 | marksistkinja |
-| **matrikula** | imenica | 5 | matrikula |
-| **meket** | imenica | 5 | meket |
-| **mladomisnik** | imenica | 5 | mladomisnik |
-| **nadoplata** | imenica | 5 | nadoplata |
-| **narogušeno** | pridev, prilog | 5 | narogušen, narogušeno |
-| **neknjiževno** | pridev, prilog | 5 | neknjiževan, neknjiževno |
-| **nikoliko** | determinator | 5 | nikoliki |
-| **ozeblina** | imenica | 5 | ozeblina |
-| **pomirba** | imenica | 5 | pomirba |
-| **prakljača** | imenica | 5 | prakljača |
-| **pravednica** | imenica | 5 | pravednica |
-| **pretplatnica** | imenica | 5 | pretplatnica |
-| **pristupnik** | imenica | 5 | pristupnik |
-| **puhača** | imenica | 5 | puhač |
-| **racionalizator** | imenica | 5 | racionalizator |
-| **ranj** | imenica | 5 | ranj |
-| **razdruženje** | imenica | 5 | razdruženje |
-| **siromašica** | imenica | 5 | siromašica |
-| **spužvasto** | pridev, prilog | 5 | spužvast, spužvasto |
-| **strugalica** | imenica | 5 | strugalica |
-| **sudbeno** | pridev, prilog | 5 | sudbeni, sudbeno |
-| **sviba** | imenica | 5 | sviba |
-| **teoretik** | imenica | 5 | teoretik |
-| **termitnjak** | imenica | 5 | termitnjak |
-| **trenirano** | pridev | 5 | trenirati |
-| **trodnevnica** | imenica | 5 | trodnevnica |
-| **ugaonik** | imenica | 5 | ugaonik |
-| **unča** | imenica | 5 | unča |
-| **vlastoljubivo** | pridev, prilog | 5 | vlastoljubiv, vlastoljubivo |
-| **znamenka** | imenica | 5 | znamenka |
-| **čamotno** | pridev, prilog | 5 | čamotan, čamotno |
-| **čaplinovski** | pridev | 5 | čaplinovski |
-| **šiljasto** | pridev, prilog | 5 | šiljast, šiljasto |
-| **žilje** | imenica | 5 | žilje |
-| **aferaški** | pridev, prilog | 4 | aferaški |
-| **biotip** | imenica | 4 | biotip |
-| **cakavski** | pridev, prilog | 4 | cakavski |
-| **dizaličar** | imenica | 4 | dizaličar |
-| **domišljeno** | pridev, prilog | 4 | domisliti, domišljen |
-| **dražilo** | glagol | 4 | dražiti |
-| **dugmetara** | imenica | 4 | dugmetar |
-| **elastika** | imenica | 4 | elastika |
-| **elektroakustika** | imenica | 4 | elektroakustika |
-| **encefalogram** | imenica | 4 | encefalogram |
-| **eugeničar** | imenica | 4 | eugeničar |
-| **gliptoteka** | imenica | 4 | gliptoteka |
-| **guvernerski** | pridev, prilog | 4 | guvernerski |
-| **hereditarno** | pridev, prilog | 4 | hereditaran, hereditarno |
-| **humanistkinja** | imenica | 4 | humanistkinja |
-| **ilegalka** | imenica | 4 | ilegalka |
-| **izbuljeno** | pridev, prilog | 4 | izbuljen, izbuljeno |
-| **kamgarn** | imenica | 4 | kamgarn |
-| **katarakt** | imenica | 4 | katarakt |
-| **klačina** | imenica | 4 | klačina |
-| **kondura** | imenica | 4 | kondura |
-| **kontraalt** | imenica | 4 | kontraalt |
-| **kroatistika** | imenica | 4 | kroatistika |
-| **latinština** | imenica | 4 | latinština |
-| **metraža** | imenica | 4 | metraža |
-| **minuskula** | imenica | 4 | minuskula |
-| **modelarnica** | imenica | 4 | modelarnica |
-| **motonautika** | imenica | 4 | motonautika |
-| **mramorasto** | pridev, prilog | 4 | mramorast, mramorasto |
-| **mrazno** | pridev, prilog | 4 | mrazan, mrazno |
-| **mrkulja** | imenica | 4 | mrkulj, mrkulja |
-| **navlas** | prilog | 4 | navlas |
-| **noveleta** | imenica | 4 | noveleta |
-| **novelistika** | imenica | 4 | novelistika |
-| **okomica** | imenica | 4 | okomica |
-| **pobočno** | pridev, prilog | 4 | pobočan, pobočno |
-| **polušansa** | imenica | 4 | polušansa |
-| **ponikva** | imenica | 4 | ponikva |
-| **preponašica** | imenica | 4 | preponašica |
-| **pristupnina** | imenica | 4 | pristupnina |
-| **prosuditelj** | imenica | 4 | prosuditelj |
-| **pustinjaštvo** | imenica | 4 | pustinjaštvo |
-| **razgolićenje** | imenica | 4 | razgolićenje |
-| **redovništvo** | imenica | 4 | redovništvo |
-| **smrekovina** | imenica | 4 | smrekovina |
-| **taborište** | imenica | 4 | taborište |
-| **tifusar** | imenica | 4 | tifusar |
-| **velikaški** | pridev | 4 | velikaški |
-| **zemljovlasnik** | imenica | 4 | zemljovlasnik |
-| **časovito** | pridev, prilog | 4 | časovit, časovito |
-| **čupavica** | imenica | 4 | čupavica |
-| **šafranski** | pridev, prilog | 4 | šafranski |
-| **štuk** | imenica | 4 | štuk |
-| **žmurka** | imenica | 4 | žmurka |
-| **animalistički** | pridev, prilog | 3 | animalistički |
-| **anoreksičar** | imenica | 3 | anoreksičar |
-| **bezdimno** | pridev, prilog | 3 | bezdiman, bezdimno |
-| **briljant** | imenica | 3 | briljant |
-| **demokratkinja** | imenica | 3 | demokratkinja |
-| **despik** | imenica | 3 | despik |
-| **devetnica** | imenica | 3 | devetnica |
-| **distrofičar** | imenica | 3 | distrofičar |
-| **dućančić** | imenica | 3 | dućančić |
-| **egzekutorski** | pridev | 3 | egzekutorski |
-| **emancipator** | imenica | 3 | emancipator |
-| **empirik** | imenica | 3 | empirik |
-| **etolog** | imenica | 3 | etolog |
-| **evokator** | imenica | 3 | evokator |
-| **filmolog** | imenica | 3 | filmolog |
-| **glavetina** | imenica | 3 | glavetina |
-| **guščetina** | imenica | 3 | guščetina |
-| **hidrostatika** | imenica | 3 | hidrostatika |
-| **hipnotizerski** | pridev | 3 | hipnotizerski |
-| **hodočasnica** | imenica | 3 | hodočasnica |
-| **homiletika** | imenica | 3 | homiletika |
-| **hranidba** | imenica | 3 | hranidba |
-| **kristalić** | imenica | 3 | kristalić |
-| **krunidba** | imenica | 3 | krunidba |
-| **lutnja** | imenica | 3 | lutnja |
-| **medaljica** | imenica | 3 | medaljica |
-| **menaža** | imenica | 3 | menaža |
-| **misnik** | imenica | 3 | misnik |
-| **podust** | imenica | 3 | podust |
-| **potkornjak** | imenica | 3 | potkornjak |
-| **povraz** | imenica | 3 | povraz |
-| **predživot** | imenica | 3 | predživot |
-| **privatnica** | imenica | 3 | privatnica |
-| **pupkovina** | imenica | 3 | pupkovina |
-| **raspor** | imenica | 3 | raspor |
-| **raspuknuće** | imenica, glagol | 3 | raspuknuti, raspuknuće |
-| **razbaštinjenje** | imenica | 3 | razbaštinjenje |
-| **razmetno** | pridev, prilog | 3 | razmetan, razmetno |
-| **rodnica** | imenica | 3 | rodnica |
-| **rutavo** | pridev, prilog | 3 | rutav, rutavo |
-| **skolastičar** | imenica | 3 | skolastičar |
-| **strančarski** | pridev | 3 | strančarski |
-| **suložnica** | imenica | 3 | suložnica |
-| **sveznalaštvo** | imenica | 3 | sveznalaštvo |
-| **talaštvo** | imenica | 3 | talaštvo |
-| **torbetina** | imenica | 3 | torbetina |
-| **trovlašće** | imenica | 3 | trovlašće |
-| **tuberkula** | imenica | 3 | tuberkula |
-| **tuđinština** | imenica | 3 | tuđinština |
-| **uznosito** | pridev, prilog | 3 | uznosit, uznosito |
-| **vodarica** | imenica | 3 | vodarica |
-| **vrećasto** | pridev, prilog | 3 | vrećast, vrećasto |
-| **zatrovanje** | imenica | 3 | zatrovanje |
-| **zaustava** | imenica | 3 | zaustava |
-| **čestoća** | imenica | 3 | čestoća |
-| **čeznuće** | imenica, glagol | 3 | čeznuti, čeznuće |
-| **čistunski** | pridev | 3 | čistunski |
-| **šivačica** | imenica | 3 | šivačica |
-| **škarice** | imenica | 3 | škarice |
-| **žoržet** | imenica | 3 | žoržet |
-| **brazdasto** | pridev, prilog | 2 | brazdast, brazdasto |
-| **brinet** | imenica | 2 | brinet |
-| **bukački** | pridev | 2 | bukački |
-| **burnica** | imenica | 2 | burnica |
-| **crepara** | imenica | 2 | crepar |
-| **cvilež** | imenica | 2 | cvilež |
-| **dalmatika** | imenica | 2 | dalmatika |
-| **dangubica** | imenica | 2 | dangubica |
-| **dešifrant** | imenica | 2 | dešifrant |
-| **doker** | imenica | 2 | doker |
-| **dokinuće** | imenica, glagol | 2 | dokinuti, dokinuće |
-| **donžuanski** | pridev | 2 | donžuanski |
-| **dostavljački** | pridev, prilog | 2 | dostavljački |
-| **dudinjak** | imenica | 2 | dudinjak |
-| **endokard** | imenica | 2 | endokard |
-| **evazivno** | pridev, prilog | 2 | evazivan, evazivno |
-| **evokativno** | pridev, prilog | 2 | evokativan, evokativno |
-| **fonolog** | imenica | 2 | fonolog |
-| **fratarski** | pridev | 2 | fratarski |
-| **gegalo** | imenica, glagol | 2 | gegalo, gegati |
-| **gmizavo** | pridev, prilog | 2 | gmizav, gmizavo |
-| **gomba** | glagol | 2 | gombati |
-| **gunđavo** | pridev, prilog | 2 | gunđav, gunđavo |
-| **hidrograf** | imenica | 2 | hidrograf |
-| **himbeno** | pridev, prilog | 2 | himben, himbeno |
-| **hmeljara** | imenica | 2 | hmeljar, hmeljara |
-| **hospitant** | imenica | 2 | hospitant |
-| **hripavo** | pridev, prilog | 2 | hripav, hripavo |
-| **huškalo** | glagol | 2 | huškati |
-| **interdikt** | imenica | 2 | interdikt |
-| **izmetina** | imenica | 2 | izmetina |
-| **izobrazba** | imenica | 2 | izobrazba |
-| **koštunjača** | imenica | 2 | koštunjača |
-| **krilno** | pridev, prilog | 2 | krilni, krilno |
-| **kričavo** | pridev, prilog | 2 | kričav, kričavo |
-| **legislatura** | imenica | 2 | legislatura |
-| **lipovina** | imenica | 2 | lipovina |
-| **medicinarka** | imenica | 2 | medicinarka |
-| **napasno** | pridev, prilog | 2 | napasno, napastan |
-| **nepouzdanje** | imenica | 2 | nepouzdanje |
-| **petrograf** | imenica | 2 | petrograf |
-| **polukružnica** | imenica | 2 | polukružnica |
-| **potamnjenje** | imenica | 2 | potamnjenje |
-| **pranarod** | imenica | 2 | pranarod |
-| **predistraga** | imenica | 2 | predistraga |
-| **prehitro** | pridev, prilog | 2 | prehitar, prehitro |
-| **pretkazanje** | imenica | 2 | pretkazanje |
-| **prevratništvo** | imenica | 2 | prevratništvo |
-| **primitivka** | imenica | 2 | primitivka |
-| **prutka** | imenica | 2 | prutka |
-| **radišno** | pridev, prilog | 2 | radišan, radišno |
-| **ranjavo** | pridev, prilog | 2 | ranjav, ranjavo |
-| **razmetnik** | imenica | 2 | razmetnik |
-| **safalada** | imenica | 2 | safalada |
-| **sinoptičar** | imenica | 2 | sinoptičar |
-| **slabunjavo** | pridev, prilog | 2 | slabunjav, slabunjavo |
-| **strašljivica** | imenica | 2 | strašljivica |
-| **subreta** | imenica | 2 | subreta |
-| **tamnilo** | glagol | 2 | tamniti |
-| **trozvuk** | imenica | 2 | trozvuk |
-| **uhobolja** | imenica | 2 | uhobolja |
-| **umanjenica** | imenica | 2 | umanjenica |
-| **urica** | imenica | 2 | urica |
-| **usavršitelj** | imenica | 2 | usavršitelj |
-| **usredotočenje** | imenica | 2 | usredotočenje |
-| **usukano** | pridev, prilog | 2 | usukan, usukano |
-| **vatrometno** | pridev, prilog | 2 | vatrometni, vatrometno |
-| **veprovina** | imenica | 2 | veprovina |
-| **vizitator** | imenica | 2 | vizitator |
-| **zahuktano** | pridev | 2 | zahuktati |
-| **zaslužnik** | imenica | 2 | zaslužnik |
-| **zgusnuće** | glagol | 2 | zgusnuti |
-| **čahurica** | imenica | 2 | čahurica |
-| **čangrizavo** | pridev, prilog | 2 | čangrizav, čangrizavo |
-| **častoljubivo** | pridev, prilog | 2 | častoljubiv, častoljubivo |
-| **češljuga** | imenica | 2 | češljuga |
-| **češnjarka** | imenica | 2 | češnjarka |
-| **čipe** | imenica | 2 | čip |
-| **čipkica** | imenica | 2 | čipkica |
-| **šrauba** | imenica | 2 | šrauba |
-| **amerikanistika** | imenica | 1 | amerikanistika |
-| **anemičar** | imenica | 1 | anemičar |
-| **apretura** | imenica | 1 | apretura |
-| **arbitrator** | imenica | 1 | arbitrator |
-| **baril** | imenica | 1 | baril |
-| **bludništvo** | imenica | 1 | bludništvo |
-| **bukvina** | pridev | 1 | bukvin |
-| **crpilište** | imenica | 1 | crpilište |
-| **dekadansa** | imenica | 1 | dekadansa |
-| **dvoimeno** | pridev, prilog | 1 | dvoimen, dvoimeno |
-| **ekstenzor** | imenica | 1 | ekstenzor |
-| **enervantno** | pridev, prilog | 1 | enervantan, enervantno |
-| **fosforescentno** | pridev, prilog | 1 | fosforescentan, fosforescentno |
-| **geometričar** | imenica | 1 | geometričar |
-| **glagoljaštvo** | imenica | 1 | glagoljaštvo |
-| **gosparski** | pridev, prilog | 1 | gosparski |
-| **grudasto** | pridev, prilog | 1 | grudast, grudasto |
-| **guturalno** | pridev, prilog | 1 | guturalan, guturalno |
-| **harmonički** | pridev | 1 | harmonički |
-| **hasura** | imenica | 1 | hasura |
-| **hermetik** | imenica | 1 | hermetik |
-| **heruvika** | imenica | 1 | heruvika |
-| **hidrozoa** | imenica | 1 | hidrozoa |
-| **higrograf** | imenica | 1 | higrograf |
-| **hiperbolika** | imenica | 1 | hiperbolika |
-| **hiromant** | imenica | 1 | hiromant |
-| **hrakotina** | imenica | 1 | hrakotina |
-| **humoristkinja** | imenica | 1 | humoristkinja |
-| **izobara** | imenica | 1 | izobara |
-| **klauzura** | imenica | 1 | klauzura |
-| **konopljarka** | imenica | 1 | konopljarka |
-| **koščurina** | imenica | 1 | koščurina |
-| **lagoda** | imenica | 1 | lagoda |
-| **lahorić** | imenica | 1 | lahorić |
-| **laringolog** | imenica | 1 | laringolog |
-| **leceder** | imenica | 1 | leceder |
-| **lubeničar** | imenica | 1 | lubeničar |
-| **mikroanaliza** | imenica | 1 | mikroanaliza |
-| **mikroval** | imenica | 1 | mikroval |
-| **mlačno** | pridev, prilog | 1 | mlačan, mlačno |
-| **nadgrobnica** | imenica | 1 | nadgrobnica |
-| **okoštanje** | imenica | 1 | okoštanje |
-| **oscilogram** | imenica | 1 | oscilogram |
-| **osiguranica** | imenica | 1 | osiguranica |
-| **otočanka** | imenica | 1 | otočanka |
-| **panegiričar** | imenica | 1 | panegiričar |
-| **praunučica** | imenica | 1 | praunučica |
-| **pravokutnik** | imenica | 1 | pravokutnik |
-| **pregorko** | pridev, prilog | 1 | pregorak, pregorko |
-| **prelatura** | imenica | 1 | prelatura |
-| **pretvornik** | imenica | 1 | pretvornik |
-| **preučeno** | pridev, prilog | 1 | preučen, preučeno |
-| **prvoligašica** | imenica | 1 | prvoligašica |
-| **putilo** | glagol | 1 | putiti |
-| **ramenica** | imenica | 1 | ramenica |
-| **raskriljeno** | pridev, prilog | 1 | raskriliti, raskriljen |
-| **rastegnuće** | glagol | 1 | rastegnuti |
-| **rastrežnjenje** | imenica | 1 | rastrežnjenje |
-| **razveseljeno** | pridev | 1 | razveseliti |
-| **remis** | imenica | 1 | remis |
-| **rendgenogram** | imenica | 1 | rendgenogram |
-| **reverenda** | imenica | 1 | reverenda |
-| **rilce** | imenica | 1 | rilce |
-| **robica** | imenica | 1 | robica |
-| **rosište** | imenica | 1 | rosište |
-| **runja** | imenica | 1 | runje |
-| **sažalno** | pridev, prilog | 1 | sažalan, sažalno |
-| **semantičar** | imenica | 1 | semantičar |
-| **skočno** | pridev, prilog | 1 | skočni, skočno |
-| **skrušenje** | imenica | 1 | skrušenje |
-| **slegnuće** | glagol | 1 | slegnuti |
-| **smrekinja** | imenica | 1 | smrekinja |
-| **somnambul** | imenica | 1 | somnambul |
-| **stenodaktilograf** | imenica | 1 | stenodaktilograf |
-| **stolina** | pridev | 1 | stolin |
-| **stvarca** | imenica | 1 | stvarca |
-| **sultanica** | imenica | 1 | sultanica |
-| **sumporača** | imenica | 1 | sumporača |
-| **suseljanin** | imenica | 1 | suseljanin |
-| **sućutno** | pridev, prilog | 1 | sućutan, sućutno |
-| **svibovina** | imenica | 1 | svibovina |
-| **sviralica** | imenica | 1 | sviralica |
-| **sviter** | imenica | 1 | sviter |
-| **teglenica** | imenica | 1 | teglenica |
-| **telekomanda** | imenica | 1 | telekomanda |
-| **terminolog** | imenica | 1 | terminolog |
-| **tetrebica** | imenica | 1 | tetrebica |
-| **trešnjevina** | imenica | 1 | trešnjevina |
-| **triola** | imenica | 1 | triola |
-| **turbogenerator** | imenica | 1 | turbogenerator |
-| **utrobica** | imenica | 1 | utrobica |
-| **uvalina** | pridev | 1 | uvalin |
-| **višekratnik** | imenica | 1 | višekratnik |
-| **vrapčarka** | imenica | 1 | vrapčarka |
-| **vrištavo** | pridev, prilog | 1 | vrištav, vrištavo |
-| **zaskok** | imenica | 1 | zaskok |
-| **zlatnina** | imenica | 1 | zlatnina |
-| **zovina** | pridev | 1 | zovin |
-| **zrikavo** | pridev, prilog | 1 | zrikav, zrikavo |
-| **ćurlik** | imenica | 1 | ćurlik |
-| **ćutilo** | glagol | 1 | ćuteti |
-| **četrdesetica** | imenica | 1 | četrdesetica |
-| **čobančica** | imenica | 1 | čobančica |
-| **agrotehničar** | imenica | 0 | agrotehničar |
-| **apelant** | imenica | 0 | apelant |
-| **arabistika** | imenica | 0 | arabistika |
-| **aritmetičar** | imenica | 0 | aritmetičar |
-| **barograf** | imenica | 0 | barograf |
-| **benediktinka** | imenica | 0 | benediktinka |
-| **beskišno** | pridev, prilog | 0 | beskišan, beskišno |
-| **beskućno** | pridev, prilog | 0 | beskućan, beskućno |
-| **bokobran** | imenica | 0 | bokobran |
-| **bradonjica** | imenica | 0 | bradonjica |
-| **bratim** | glagol | 0 | bratiti |
-| **bubotka** | imenica | 0 | bubotak |
-| **bušina** | pridev | 0 | bušin |
-| **cestogradnja** | imenica | 0 | cestogradnja |
-| **cican** | pridev | 0 | cicati |
-| **cinkograf** | imenica | 0 | cinkograf |
-| **dezorganizator** | imenica | 0 | dezorganizator |
-| **dirkalo** | glagol | 0 | dirkati |
-| **dlako** | imenica | 0 | dlaka |
-| **dražbovatelj** | imenica | 0 | dražbovatelj |
-| **drvenina** | imenica | 0 | drvenina |
-| **dvopapkar** | imenica | 0 | dvopapkar |
-| **ekonomički** | pridev | 0 | ekonomički |
-| **ekskavator** | imenica | 0 | ekskavator |
-| **elektrometalurg** | imenica | 0 | elektrometalurg |
-| **elektroterapeut** | imenica | 0 | elektroterapeut |
-| **elektročelik** | imenica | 0 | elektročelik |
-| **empiriokritičar** | imenica | 0 | empiriokritičar |
-| **enciklopedistički** | pridev | 0 | enciklopedistički |
-| **endoplazma** | imenica | 0 | endoplazma |
-| **epigramatičar** | imenica | 0 | epigramatičar |
-| **epikurski** | pridev | 0 | epikurski |
-| **estakada** | imenica | 0 | estakada |
-| **eurska** | pridev | 0 | eurski |
-| **fakinski** | pridev, prilog | 0 | fakinski |
-| **fakinčić** | imenica | 0 | fakinčić |
-| **fićuk** | imenica | 0 | fićuk |
-| **galebica** | imenica | 0 | galebica |
-| **gastritičar** | imenica | 0 | gastritičar |
-| **gatarina** | pridev | 0 | gatarin |
-| **gavka** | imenica | 0 | gavka |
-| **gipsoteka** | imenica | 0 | gipsoteka |
-| **glavarica** | imenica | 0 | glavarica |
-| **glavočić** | imenica | 0 | glavočić |
-| **gležnjak** | imenica | 0 | gležnjak |
-| **grgečka** | pridev | 0 | grgečki |
-| **grozničina** | pridev | 0 | grozničin |
-| **grupaški** | pridev | 0 | grupaški |
-| **gumilastika** | imenica | 0 | gumilastika |
-| **guščarnik** | imenica | 0 | guščarnik |
-| **gvelf** | imenica | 0 | gvelf |
-| **haubičar** | imenica | 0 | haubičar |
-| **hemogram** | imenica | 0 | hemogram |
-| **hidrobus** | imenica | 0 | hidrobus |
-| **hidrofita** | imenica | 0 | hidrofit |
-| **hidromehaničar** | imenica | 0 | hidromehaničar |
-| **hispanistika** | imenica | 0 | hispanistika |
-| **hladetinasto** | pridev, prilog | 0 | hladetinast, hladetinasto |
-| **hmeljište** | imenica | 0 | hmeljište |
-| **infamno** | pridev, prilog | 0 | infaman, infamno |
-| **izdubina** | imenica | 0 | izdubina |
-| **kaljužina** | pridev | 0 | kaljužin |
-| **kapljevina** | imenica | 0 | kaplevina |
-| **katekumen** | imenica | 0 | katekumen |
-| **kavovina** | imenica | 0 | kavovina |
-| **kestenovina** | imenica | 0 | kestenovina |
-| **klenovina** | imenica | 0 | klenovina |
-| **kliktavo** | pridev, prilog | 0 | kliktav, kliktavo |
-| **kljukalo** | glagol | 0 | kljukati |
-| **koljuška** | imenica | 0 | koljuška |
-| **komuška** | imenica | 0 | komuška |
-| **konzervativka** | imenica | 0 | konzervativka |
-| **košaraštvo** | imenica | 0 | košaraštvo |
-| **krepalina** | imenica | 0 | krepalina |
-| **kreposnica** | imenica | 0 | kreposnica |
-| **krevetina** | imenica | 0 | krevetina |
-| **krezubina** | imenica | 0 | krezubina |
-| **kristalično** | pridev, prilog | 0 | kristaličan, kristalični |
-| **krivokletno** | pridev, prilog | 0 | krivokletan, krivokletno |
-| **krmačina** | pridev | 0 | krmačin |
-| **kruškovina** | imenica | 0 | kruškovina |
-| **kunina** | pridev | 0 | kunin |
-| **kvartina** | pridev | 0 | kvartin |
-| **lančasto** | pridev, prilog | 0 | lančast, lančasto |
-| **ledište** | imenica | 0 | ledište |
-| **lento** | imenica | 0 | lenta |
-| **lozovina** | imenica | 0 | lozovina |
-| **manifestant** | imenica | 0 | manifestant |
-| **medonjica** | imenica | 0 | medonjica |
-| **meketavo** | pridev, prilog | 0 | meketav, meketavo |
-| **mladenaštvo** | imenica | 0 | mladenaštvo |
-| **mnogokut** | imenica | 0 | mnogokut |
-| **nadripolitičar** | imenica | 0 | nadripolitičar |
-| **nazdravičar** | imenica | 0 | nazdravičar |
-| **neurastenično** | pridev, prilog | 0 | neurasteničan, neurastenično |
-| **nevisoko** | pridev, prilog | 0 | nevisok, nevisoko |
-| **opunomoćitelj** | imenica | 0 | opunomoćitelj |
-| **palisandrovina** | imenica | 0 | palisandrovina |
-| **pećica** | imenica | 0 | pećica |
-| **piknjica** | imenica | 0 | piknjica |
-| **podbradnik** | imenica | 0 | podbradnik |
-| **podveza** | glagol | 0 | podvezati |
-| **pogrebnina** | imenica | 0 | pogrebnina |
-| **pratvar** | imenica | 0 | pratvar |
-| **predavno** | pridev, prilog | 0 | predavan, predavno |
-| **predilica** | imenica | 0 | predilica |
-| **pripomena** | imenica | 0 | pripomena |
-| **propeće** | glagol | 0 | propeti |
-| **rahitičar** | imenica | 0 | rahitičar |
-| **rasplodište** | imenica | 0 | rasplodište |
-| **raznosačica** | imenica | 0 | raznosačica |
-| **razredništvo** | imenica | 0 | razredništvo |
-| **razvedenica** | imenica | 0 | razvedenica |
-| **rebrenica** | imenica | 0 | rebrenica |
-| **remenčić** | imenica | 0 | remenčić |
-| **remorkaža** | imenica | 0 | remorkaža |
-| **resoperka** | imenica | 0 | resoperka |
-| **rohada** | imenica | 0 | rohada |
-| **runjika** | imenica | 0 | runjika |
-| **sapunara** | imenica | 0 | sapunar |
-| **skautkinja** | imenica | 0 | skautkinja |
-| **skladišnina** | imenica | 0 | skladišnina |
-| **sklerotičar** | imenica | 0 | sklerotičar |
-| **slaboća** | imenica | 0 | slaboća |
-| **sljedbeništvo** | imenica | 0 | sledbeništvo |
-| **sokolašica** | imenica | 0 | sokolašica |
-| **sonatina** | pridev | 0 | sonatin |
-| **stenodaktilografkinja** | imenica | 0 | stenodaktilografkinja |
-| **strelasto** | pridev, prilog | 0 | strelast, strelasto |
-| **subaštinica** | imenica | 0 | subaštinica |
-| **subaštinik** | imenica | 0 | subaštinik |
-| **suigračica** | imenica | 0 | suigračica |
-| **suložništvo** | imenica | 0 | suložništvo |
-| **sumišljenik** | imenica | 0 | sumišljenik |
-| **sutoka** | imenica | 0 | sutok |
-| **tabetičar** | imenica | 0 | tabetičar |
-| **tabinja** | imenica | 0 | tabinja |
-| **tabletić** | imenica | 0 | tabletić |
-| **taljevina** | imenica | 0 | taljevina |
-| **teglo** | imenica | 0 | tegla |
-| **tercina** | pridev | 0 | tercin |
-| **težakinja** | imenica | 0 | težakinja |
-| **tintarnica** | imenica | 0 | tintarnica |
-| **tivuška** | imenica | 0 | tivuška |
-| **tombolo** | imenica | 0 | tombola |
-| **toplonoša** | imenica | 0 | toplonoša |
-| **topolovina** | imenica | 0 | topolovina |
-| **trandovilje** | imenica | 0 | trandovilje |
-| **treščica** | imenica | 0 | treščica |
-| **trgovinica** | imenica | 0 | trgovinica |
-| **trupica** | imenica | 0 | trupica |
-| **tunolov** | imenica | 0 | tunolov |
-| **tupoglavo** | pridev, prilog | 0 | tupoglav, tupoglavo |
-| **tutnjavo** | imenica | 0 | tutnjava |
-| **ubožnica** | imenica | 0 | ubožnica |
-| **ukonačenje** | imenica | 0 | ukonačenje |
-| **uskoća** | imenica | 0 | uskoća |
-| **usporednica** | imenica | 0 | usporednica |
-| **uštipčić** | imenica | 0 | uštipčić |
-| **uživljeno** | pridev | 0 | uživeti |
-| **vezidba** | imenica | 0 | vezidba |
-| **vodomeđa** | imenica | 0 | vodomeđa |
-| **voćarnica** | imenica | 0 | voćarnica |
-| **vračarina** | pridev | 0 | vračarin |
-| **vrčasto** | pridev, prilog | 0 | vrčast, vrčasto |
-| **zagrižljivo** | pridev, prilog | 0 | zagrižljiv, zagrižljivo |
-| **zanjihano** | pridev | 0 | zanjihati |
-| **zapuh** | imenica | 0 | zapuh |
-| **zavarljivo** | pridev, prilog | 0 | zavarljiv, zavarljivo |
-| **zlatarnica** | imenica | 0 | zlatarnica |
-| **čakavka** | imenica | 0 | čakavka |
-| **čamno** | pridev, prilog | 0 | čaman, čamno |
-| **čančica** | imenica | 0 | čančica |
-| **čarapar** | imenica | 0 | čarapar |
-| **čaraparnica** | imenica | 0 | čaraparnica |
-| **častohlepno** | pridev, prilog | 0 | častohlepan, častohlepno |
-| **čavlić** | imenica | 0 | čavlić |
-| **čađara** | imenica | 0 | čađara |
-| **čegrtalo** | imenica | 0 | čegrtalo |
-| **čempresovina** | imenica | 0 | čempresovina |
-| **čeonjača** | imenica | 0 | čeonjača |
-| **četnjak** | imenica | 0 | četnjak |
-| **četvoroglasno** | pridev, prilog | 0 | četvoroglasan, četvoroglasno |
-| **češljača** | imenica | 0 | češljača |
-| **češljugovina** | imenica | 0 | češljugovina |
-| **čizmetina** | imenica | 0 | čizmetina |
-| **čunjasto** | pridev, prilog | 0 | čunjast, čunjasto |
-| **čunjašica** | imenica | 0 | čunjašica |
-| **čuvarina** | imenica | 0 | čuvarina |
-| **šesnaestinka** | imenica | 0 | šesnaestinka |
-| **šimširovina** | imenica | 0 | šimširovina |
-| **šiškarica** | imenica | 0 | šiškarica |
-| **štitarka** | imenica | 0 | štitarka |
-| **štićeništvo** | imenica | 0 | štićeništvo |
-| **šušnje** | imenica | 0 | šušanj |
-| **žeravnik** | imenica | 0 | žeravnik |
-| **žličar** | imenica | 0 | žličar |
-| **žličarka** | imenica | 0 | žličarka |
-| **žličnjak** | imenica | 0 | žličnjak |
-| **žučljivo** | pridev, prilog | 0 | žučljiv, žučljivo |
+Potvrđene u dva izvora, nisu označene kao hrvatske. Sortirano po učestalosti u srpskom.
+
+| Reč | Vrsta reči | Srpski | Hrvatski |
+|---|---|---:|---:|
+| **uma** | imenica | 8,581 | 23,929 |
+| **rezultatski** | pridev, prilog | 1,436 | 4,212 |
+| **cista** | imenica | 1,104 | 4,603 |
+| **kvalitativno** | pridev, prilog | 910 | 1,834 |
+| **ura** | imenica | 699 | 2,033 |
+| **egal** | prilog, imenica | 662 | 1,205 |
+| **bogoslovski** | pridev, prilog | 630 | 125 |
+| **kvantitativno** | pridev, prilog | 596 | 1,195 |
+| **bogoslovlje** | imenica | 506 | 141 |
+| **antioksidans** | imenica | 505 | 1,559 |
+| **postmoderna** | pridev | 470 | 657 |
+| **kumulativno** | pridev, prilog | 433 | 851 |
+| **tragikomično** | pridev, prilog | 337 | 1,089 |
+| **afirmativno** | pridev, prilog | 336 | 913 |
+| **konsekventno** | pridev, prilog | 335 | 140 |
+| **vine** | glagol | 318 | 491 |
+| **retina** | imenica | 317 | 626 |
+| **kasom** | imenica | 312 | 308 |
+| **rasterećeno** | pridev | 310 | 343 |
+| **pneumatik** | imenica | 297 | 242 |
+| **nekultura** | imenica | 282 | 609 |
+| **des** | imenica | 275 | 997 |
+| **humanistički** | pridev | 256 | 737 |
+| **kombinatorika** | imenica | 252 | 351 |
+| **protekcionizam** | imenica | 240 | 456 |
+| **rika** | imenica | 228 | 524 |
+| **pelcer** | imenica | 223 | 0 |
+| **prevodnica** | imenica | 203 | 27 |
+| **endokrinolog** | imenica | 197 | 396 |
+| **vakuf** | imenica | 193 | 456 |
+| **dokumentarno** | pridev, prilog | 184 | 453 |
+| **nedisciplina** | imenica | 180 | 240 |
+| **davalaštvo** | imenica | 179 | 62 |
+| **golgeterski** | pridev | 178 | 408 |
+| **kupaža** | imenica | 177 | 108 |
+| **boćanje** | imenica | 175 | 660 |
+| **monopolistički** | pridev | 168 | 431 |
+| **aforističar** | imenica | 167 | 22 |
+| **cis** | imenica | 165 | 516 |
+| **reduktor** | imenica | 165 | 255 |
+| **aerozagađenje** | imenica | 164 | 3 |
+| **hedonistički** | pridev | 162 | 495 |
+| **ilustrativno** | pridev, prilog | 154 | 279 |
+| **imperativno** | pridev, prilog | 151 | 348 |
+| **utuženje** | imenica | 148 | 0 |
+| **mikroklima** | imenica | 147 | 305 |
+| **dermatološki** | pridev | 146 | 433 |
+| **slip** | imenica | 145 | 577 |
+| **autoritarno** | pridev, prilog | 143 | 200 |
+| **spiritus** | imenica | 137 | 389 |
+| **rokada** | imenica | 136 | 52 |
+| **nematoda** | imenica | 133 | 142 |
+| **prilagodljivo** | pridev, prilog | 128 | 367 |
+| **parlamentarno** | pridev, prilog | 126 | 355 |
+| **rasprostranjenje** | imenica | 126 | 0 |
+| **kompozitorka** | imenica | 123 | 0 |
+| **eshatološki** | pridev | 122 | 175 |
+| **antidemokratski** | pridev, prilog | 117 | 126 |
+| **mastitis** | imenica | 117 | 0 |
+| **bucov** | imenica | 114 | 0 |
+| **srbistika** | imenica | 111 | 0 |
+| **faktografski** | pridev | 109 | 329 |
+| **podržavljenje** | imenica | 108 | 0 |
+| **etnomuzikolog** | imenica | 105 | 152 |
+| **akupresura** | imenica | 103 | 239 |
+| **uvezi** | imenica, glagol | 102 | 324 |
+| **ascendent** | imenica | 100 | 127 |
+| **plebiscitarno** | pridev, prilog | 100 | 322 |
+| **svinjokolj** | imenica | 100 | 0 |
+| **spekulativno** | pridev, prilog | 99 | 192 |
+| **autonomaštvo** | imenica | 97 | 85 |
+| **beglerbeg** | imenica | 97 | 11 |
+| **programator** | imenica | 96 | 386 |
+| **mesina** | imenica | 95 | 84 |
+| **petnaestogodišnjak** | imenica | 95 | 263 |
+| **prenaglašeno** | pridev, prilog | 95 | 159 |
+| **breša** | imenica | 94 | 22 |
+| **dohrana** | imenica | 93 | 312 |
+| **pripadništvo** | imenica | 93 | 58 |
+| **samokritika** | imenica | 93 | 214 |
+| **kubikaža** | imenica | 92 | 197 |
+| **otorinolaringolog** | imenica | 92 | 250 |
+| **epistemološki** | pridev | 90 | 124 |
+| **rastresito** | pridev, prilog | 89 | 40 |
+| **hranivo** | imenica | 87 | 10 |
+| **lišce** | imenica | 86 | 218 |
+| **praslika** | imenica | 86 | 102 |
+| **veletrgovina** | imenica | 82 | 124 |
+| **fotokopirnica** | imenica | 81 | 39 |
+| **priraslica** | imenica | 80 | 234 |
+| **rubeola** | imenica | 79 | 185 |
+| **konfesionalno** | pridev, prilog | 78 | 72 |
+| **razduženje** | imenica | 78 | 43 |
+| **doktorand** | imenica | 77 | 209 |
+| **resko** | pridev, prilog | 77 | 128 |
+| **deponent** | imenica | 76 | 88 |
+| **horizontala** | imenica | 76 | 227 |
+| **karikaturalno** | pridev, prilog | 76 | 242 |
+| **tridesetogodišnjak** | imenica | 76 | 199 |
+| **neživotno** | pridev, prilog | 75 | 71 |
+| **dereze** | imenica | 74 | 274 |
+| **elektroničar** | imenica | 73 | 254 |
+| **antagonistički** | pridev, prilog | 72 | 102 |
+| **kadiluk** | imenica | 72 | 40 |
+| **antibiogram** | imenica | 71 | 130 |
+| **fosilno** | pridev, prilog | 71 | 136 |
+| **omofor** | imenica | 69 | 0 |
+| **prezrenje** | imenica | 69 | 0 |
+| **otkop** | imenica | 67 | 41 |
+| **podvižništvo** | imenica | 67 | 0 |
+| **deskriptivno** | pridev, prilog | 66 | 89 |
+| **ekspeditivno** | pridev, prilog | 66 | 95 |
+| **zimovalište** | imenica | 66 | 149 |
+| **ekonomistkinja** | imenica | 65 | 14 |
+| **koncentrično** | pridev, prilog | 65 | 137 |
+| **rakurs** | imenica | 65 | 235 |
+| **bruh** | imenica | 64 | 230 |
+| **saigračica** | imenica | 63 | 0 |
+| **serpentina** | imenica | 63 | 231 |
+| **diskurzivno** | pridev, prilog | 62 | 103 |
+| **elektroenergetika** | imenica | 61 | 124 |
+| **kaval** | imenica | 60 | 51 |
+| **podgorina** | imenica | 60 | 1 |
+| **refleksivno** | pridev, prilog | 60 | 141 |
+| **devetnaestogodišnjak** | imenica | 59 | 154 |
+| **protek** | imenica | 59 | 192 |
+| **intramuskularno** | pridev, prilog | 58 | 141 |
+| **maksimalistički** | pridev, prilog | 58 | 83 |
+| **velikomučenica** | imenica | 58 | 0 |
+| **župljanka** | imenica | 58 | 293 |
+| **porudžbenica** | imenica | 57 | 0 |
+| **taložnik** | imenica | 57 | 42 |
+| **tromeđa** | imenica | 57 | 75 |
+| **emulgator** | imenica | 56 | 163 |
+| **larvica** | imenica | 56 | 0 |
+| **antičestica** | imenica | 55 | 92 |
+| **forsirano** | pridev | 55 | 126 |
+| **hermeneutika** | imenica | 55 | 186 |
+| **patogeneza** | imenica | 55 | 141 |
+| **kliničar** | imenica | 54 | 98 |
+| **mudo** | imenica | 54 | 163 |
+| **racionalistički** | pridev | 54 | 84 |
+| **antipiretik** | imenica | 53 | 105 |
+| **dvadesetogodišnjica** | imenica | 53 | 16 |
+| **golmanski** | pridev, prilog | 53 | 80 |
+| **međukorak** | imenica | 53 | 107 |
+| **uretra** | imenica | 52 | 103 |
+| **bekovski** | pridev, prilog | 51 | 88 |
+| **krmivo** | imenica | 51 | 97 |
+| **tabulator** | imenica | 51 | 41 |
+| **amoralno** | pridev, prilog | 50 | 233 |
+| **filozofkinja** | imenica | 50 | 173 |
+| **kartončić** | imenica | 50 | 239 |
+| **neprikriveno** | pridev, prilog | 50 | 72 |
+| **remenica** | imenica | 50 | 286 |
+| **kaptaža** | imenica | 49 | 38 |
+| **diskriminator** | imenica | 48 | 35 |
+| **kibernetika** | imenica | 48 | 125 |
+| **biletarnica** | imenica | 47 | 0 |
+| **klekovača** | imenica | 47 | 16 |
+| **filogenetski** | pridev, prilog | 46 | 57 |
+| **heksagram** | imenica | 46 | 136 |
+| **etnogeneza** | imenica | 45 | 161 |
+| **temperamentno** | pridev, prilog | 45 | 252 |
+| **ukućanka** | imenica | 45 | 25 |
+| **bordura** | imenica | 43 | 101 |
+| **formalistički** | pridev, prilog | 43 | 104 |
+| **induktivno** | pridev, prilog | 43 | 160 |
+| **priključnica** | imenica | 43 | 132 |
+| **raga** | imenica | 43 | 260 |
+| **rashlađenje** | imenica | 43 | 67 |
+| **malinar** | imenica | 42 | 0 |
+| **defter** | imenica | 41 | 35 |
+| **čičoka** | imenica | 41 | 76 |
+| **kubus** | imenica | 40 | 152 |
+| **monografski** | pridev | 40 | 104 |
+| **strogoća** | imenica | 40 | 212 |
+| **termika** | imenica | 40 | 130 |
+| **četrdesetnica** | imenica | 40 | 49 |
+| **disproporcionalno** | pridev, prilog | 39 | 64 |
+| **izravnanje** | imenica | 39 | 163 |
+| **petogodišnjica** | imenica | 39 | 26 |
+| **pomodarski** | pridev | 39 | 102 |
+| **sinusoida** | imenica | 39 | 113 |
+| **visom** | imenica | 39 | 283 |
+| **ehe** | uzvik | 38 | 112 |
+| **komunjarski** | pridev, prilog | 38 | 290 |
+| **miljokaz** | imenica | 38 | 124 |
+| **razorenje** | imenica | 38 | 45 |
+| **transcendentno** | pridev, prilog | 38 | 169 |
+| **magnetoskop** | imenica | 37 | 9 |
+| **pulman** | imenica | 37 | 24 |
+| **sondaža** | imenica | 37 | 25 |
+| **uvoznica** | imenica | 37 | 131 |
+| **bekend** | imenica | 36 | 0 |
+| **patronaža** | imenica | 36 | 103 |
+| **predodređenje** | imenica | 36 | 45 |
+| **boća** | imenica, glagol | 35 | 183 |
+| **pramenka** | imenica | 35 | 81 |
+| **tektonika** | imenica | 35 | 99 |
+| **tovilište** | imenica | 35 | 27 |
+| **degenerativno** | pridev, prilog | 34 | 78 |
+| **dualistički** | pridev, prilog | 34 | 128 |
+| **egocentrik** | imenica | 34 | 241 |
+| **elektromehaničar** | imenica | 34 | 124 |
+| **iluminator** | imenica | 33 | 128 |
+| **parapet** | imenica | 33 | 131 |
+| **hitlerovski** | pridev | 32 | 66 |
+| **interesent** | imenica | 32 | 117 |
+| **konstitucionalno** | pridev, prilog | 32 | 29 |
+| **kuruza** | imenica | 32 | 283 |
+| **mnogostrano** | pridev, prilog | 32 | 24 |
+| **samokažnjavanje** | imenica | 32 | 99 |
+| **dekubitus** | imenica | 31 | 165 |
+| **distributivno** | pridev, prilog | 31 | 58 |
+| **dvodimenzionalno** | pridev, prilog | 31 | 120 |
+| **embriolog** | imenica | 31 | 39 |
+| **puštalo** | glagol | 31 | 230 |
+| **stogodišnjak** | imenica | 31 | 109 |
+| **tikovina** | imenica | 31 | 160 |
+| **tonuće** | pridev, prilog, imenica, glagol | 31 | 40 |
+| **džoger** | imenica | 30 | 0 |
+| **etatistički** | pridev | 30 | 29 |
+| **gvaš** | imenica | 30 | 93 |
+| **longituda** | imenica | 30 | 46 |
+| **samozaštita** | imenica | 30 | 79 |
+| **skladišnica** | imenica | 30 | 64 |
+| **streličar** | imenica | 30 | 89 |
+| **diferencirano** | pridev | 29 | 48 |
+| **krc** | uzvik | 29 | 75 |
+| **mahunarka** | imenica | 29 | 110 |
+| **mutnoća** | imenica | 29 | 126 |
+| **onomastika** | imenica | 29 | 47 |
+| **pastila** | imenica | 29 | 111 |
+| **pest** | imenica | 29 | 194 |
+| **poklonički** | pridev, prilog | 29 | 0 |
+| **spiroheta** | imenica | 29 | 29 |
+| **terasasto** | pridev, prilog | 29 | 107 |
+| **ultradesničar** | imenica | 29 | 80 |
+| **zakukuljeno** | pridev | 29 | 53 |
+| **šljahta** | imenica | 29 | 4 |
+| **bespolno** | pridev, prilog | 28 | 41 |
+| **efemeride** | imenica | 28 | 37 |
+| **egzemplarno** | pridev, prilog | 28 | 73 |
+| **farmaceutkinja** | imenica | 28 | 158 |
+| **gologuza** | pridev | 28 | 119 |
+| **luneta** | imenica | 28 | 70 |
+| **samozaborav** | imenica | 28 | 27 |
+| **bačvara** | imenica | 27 | 67 |
+| **flok** | imenica | 27 | 221 |
+| **gastroskop** | imenica | 27 | 14 |
+| **heraldičar** | imenica | 27 | 14 |
+| **mobila** | imenica | 27 | 205 |
+| **osamdesetogodišnjak** | imenica | 27 | 60 |
+| **aristotelovski** | pridev, prilog | 26 | 51 |
+| **ekspander** | imenica | 26 | 27 |
+| **gatalo** | glagol | 26 | 63 |
+| **logističar** | imenica | 26 | 212 |
+| **narušenje** | imenica | 26 | 53 |
+| **polihistor** | imenica | 26 | 113 |
+| **doseljenje** | imenica | 25 | 89 |
+| **državništvo** | imenica | 25 | 19 |
+| **folkloristika** | imenica | 25 | 25 |
+| **izgrednik** | imenica | 25 | 125 |
+| **zastranjenje** | imenica | 25 | 148 |
+| **zeljanica** | imenica | 25 | 102 |
+| **doživljenje** | imenica | 24 | 75 |
+| **energetičar** | imenica | 24 | 86 |
+| **klasičar** | imenica | 24 | 190 |
+| **lipaza** | imenica | 24 | 84 |
+| **rukica** | imenica | 24 | 181 |
+| **sociolingvistika** | imenica | 24 | 43 |
+| **uporedba** | imenica | 24 | 62 |
+| **ureter** | imenica | 24 | 58 |
+| **vergl** | imenica | 24 | 63 |
+| **visokoparno** | pridev, prilog | 24 | 21 |
+| **ženkica** | imenica | 24 | 181 |
+| **aseksualno** | pridev, prilog | 23 | 89 |
+| **bećarski** | pridev, prilog | 23 | 81 |
+| **darvinistički** | pridev, prilog | 23 | 72 |
+| **disciplinarno** | pridev, prilog | 23 | 47 |
+| **ekspanzivno** | pridev, prilog | 23 | 47 |
+| **fascinirano** | pridev | 23 | 76 |
+| **gostoprimljivo** | pridev, prilog | 23 | 8 |
+| **grbovnik** | imenica | 23 | 46 |
+| **hidronim** | imenica | 23 | 22 |
+| **krupnoća** | imenica | 23 | 27 |
+| **leming** | imenica | 23 | 15 |
+| **mrežasto** | pridev, prilog | 23 | 63 |
+| **prigovaralo** | imenica, glagol | 23 | 276 |
+| **revanšistički** | pridev | 23 | 39 |
+| **sofistika** | imenica | 23 | 15 |
+| **tonzila** | imenica | 23 | 255 |
+| **uvalica** | imenica | 23 | 211 |
+| **bukara** | imenica | 22 | 165 |
+| **gazište** | imenica | 22 | 0 |
+| **hemoliza** | imenica | 22 | 69 |
+| **liturgičar** | imenica | 22 | 71 |
+| **lokum** | imenica | 22 | 84 |
+| **magistralno** | pridev, prilog | 22 | 50 |
+| **nominala** | imenica | 22 | 143 |
+| **pregnantno** | pridev, prilog | 22 | 55 |
+| **rebrasto** | pridev, prilog | 22 | 80 |
+| **sedamdesetogodišnjak** | imenica | 22 | 61 |
+| **sušnica** | imenica | 22 | 33 |
+| **vehementno** | pridev, prilog | 22 | 163 |
+| **disonantno** | pridev, prilog | 21 | 60 |
+| **eruptivno** | pridev, prilog | 21 | 49 |
+| **hidroenergetika** | imenica | 21 | 6 |
+| **kutikula** | imenica | 21 | 83 |
+| **naporedno** | pridev, prilog | 21 | 13 |
+| **puza** | glagol | 21 | 123 |
+| **samoanaliza** | imenica | 21 | 70 |
+| **zadrto** | pridev, prilog | 21 | 189 |
+| **čestina** | imenica | 21 | 35 |
+| **amilaza** | imenica | 20 | 103 |
+| **anglistika** | imenica | 20 | 85 |
+| **kalkulant** | imenica | 20 | 91 |
+| **kalota** | imenica | 20 | 34 |
+| **kubistički** | pridev | 20 | 31 |
+| **ezoterik** | imenica | 19 | 71 |
+| **kanata** | imenica | 19 | 45 |
+| **laktaza** | imenica | 19 | 61 |
+| **retoričar** | imenica | 19 | 98 |
+| **bioenergetičar** | imenica | 18 | 199 |
+| **depilator** | imenica | 18 | 76 |
+| **gomolj** | imenica | 18 | 247 |
+| **hamletovski** | pridev | 18 | 44 |
+| **izlučenje** | imenica | 18 | 25 |
+| **nerazlučivo** | pridev, prilog | 18 | 38 |
+| **preporoditelj** | imenica | 18 | 191 |
+| **razgolićeno** | pridev | 18 | 51 |
+| **rezonantno** | pridev, prilog | 18 | 65 |
+| **tezaurus** | imenica | 18 | 85 |
+| **trokolica** | imenica | 18 | 102 |
+| **čipkasto** | pridev, prilog | 18 | 156 |
+| **donkihotski** | pridev | 17 | 26 |
+| **dudovača** | imenica | 17 | 3 |
+| **epigonski** | pridev | 17 | 17 |
+| **fotosfera** | imenica | 17 | 15 |
+| **holocen** | imenica | 17 | 29 |
+| **klimatološki** | pridev, prilog | 17 | 150 |
+| **maskerata** | imenica | 17 | 58 |
+| **metaforika** | imenica | 17 | 100 |
+| **modernizator** | imenica | 17 | 10 |
+| **neuračunljivo** | pridev, prilog | 17 | 53 |
+| **novinarčić** | imenica | 17 | 227 |
+| **poliptih** | imenica | 17 | 226 |
+| **registratura** | imenica | 17 | 41 |
+| **sanjarski** | pridev | 17 | 159 |
+| **sirilo** | glagol | 17 | 70 |
+| **susretljivo** | pridev, prilog | 17 | 264 |
+| **antifašistkinja** | imenica | 16 | 32 |
+| **foteljica** | imenica | 16 | 60 |
+| **fototeka** | imenica | 16 | 110 |
+| **glavatica** | imenica | 16 | 50 |
+| **gorostasno** | pridev, prilog | 16 | 18 |
+| **hulitelj** | imenica | 16 | 19 |
+| **mehanicistički** | pridev | 16 | 46 |
+| **mucavo** | pridev, prilog | 16 | 22 |
+| **nedotupavno** | pridev, prilog | 16 | 2 |
+| **poslušnica** | imenica | 16 | 25 |
+| **rotator** | imenica | 16 | 73 |
+| **samoreklama** | imenica | 16 | 122 |
+| **terasica** | imenica | 16 | 25 |
+| **transverzalno** | pridev, prilog | 16 | 40 |
+| **uopštenje** | imenica | 16 | 0 |
+| **bacalište** | imenica | 15 | 31 |
+| **biseksualno** | pridev, prilog | 15 | 54 |
+| **božikovina** | imenica | 15 | 123 |
+| **dvofazno** | pridev, prilog | 15 | 17 |
+| **evolucionistički** | pridev | 15 | 75 |
+| **goloruko** | pridev, prilog | 15 | 31 |
+| **hena** | imenica | 15 | 74 |
+| **kolutić** | imenica | 15 | 78 |
+| **kondukterka** | imenica | 15 | 44 |
+| **kumulonimbus** | imenica | 15 | 65 |
+| **moreška** | imenica | 15 | 223 |
+| **polonistika** | imenica | 15 | 5 |
+| **razbarušeno** | pridev | 15 | 53 |
+| **remiza** | imenica | 15 | 248 |
+| **trogodišnjica** | imenica | 15 | 17 |
+| **unovčenje** | imenica | 15 | 106 |
+| **automatičar** | imenica | 14 | 14 |
+| **besperspektivno** | pridev, prilog | 14 | 58 |
+| **bitnik** | imenica | 14 | 26 |
+| **ekvilibristika** | imenica | 14 | 40 |
+| **gastronom** | imenica | 14 | 118 |
+| **krpenjača** | imenica | 14 | 18 |
+| **lanceta** | imenica | 14 | 44 |
+| **ljuskar** | imenica | 14 | 3 |
+| **meningokok** | imenica | 14 | 82 |
+| **nahođenje** | imenica | 14 | 27 |
+| **pomnjivo** | pridev, prilog | 14 | 223 |
+| **promatračnica** | imenica | 14 | 195 |
+| **reparatura** | imenica | 14 | 159 |
+| **rožina** | imenica | 14 | 19 |
+| **sintetično** | pridev, prilog | 14 | 127 |
+| **terapeutika** | imenica | 14 | 23 |
+| **zubača** | imenica | 14 | 13 |
+| **štofara** | imenica | 14 | 0 |
+| **anestetički** | pridev, prilog | 13 | 34 |
+| **cibetka** | imenica | 13 | 11 |
+| **duhovništvo** | imenica | 13 | 4 |
+| **kurentno** | pridev, prilog | 13 | 35 |
+| **litraža** | imenica | 13 | 40 |
+| **muljača** | imenica | 13 | 0 |
+| **muzilica** | imenica | 13 | 18 |
+| **nakićeno** | pridev | 13 | 42 |
+| **potkontinent** | imenica | 13 | 60 |
+| **prednjica** | imenica | 13 | 117 |
+| **razoritelj** | imenica | 13 | 5 |
+| **rezeda** | imenica | 13 | 6 |
+| **sokratski** | pridev | 13 | 7 |
+| **stalaža** | imenica | 13 | 80 |
+| **tropreg** | imenica | 13 | 5 |
+| **utonuće** | glagol | 13 | 0 |
+| **vikontesa** | imenica | 13 | 0 |
+| **zakopčano** | pridev, prilog | 13 | 37 |
+| **čehovljevski** | pridev | 13 | 8 |
+| **šezdesetogodišnjica** | imenica | 13 | 1 |
+| **šibalo** | glagol | 13 | 29 |
+| **abraziv** | imenica | 12 | 44 |
+| **delegatkinja** | imenica | 12 | 28 |
+| **eliptično** | pridev, prilog | 12 | 68 |
+| **endemično** | pridev, prilog | 12 | 28 |
+| **endosperm** | imenica | 12 | 29 |
+| **evaporator** | imenica | 12 | 10 |
+| **grimiz** | imenica | 12 | 132 |
+| **hrastovača** | imenica | 12 | 2 |
+| **ihtiolog** | imenica | 12 | 25 |
+| **kneštvo** | imenica | 12 | 18 |
+| **lugarnica** | imenica | 12 | 166 |
+| **megaherc** | imenica | 12 | 26 |
+| **nedohvatljivo** | pridev, prilog | 12 | 158 |
+| **preskakalo** | glagol | 12 | 59 |
+| **produhovljenje** | imenica | 12 | 41 |
+| **prostosrdačno** | pridev, prilog | 12 | 1 |
+| **rondela** | imenica | 12 | 47 |
+| **samovlast** | imenica | 12 | 52 |
+| **sirnica** | imenica | 12 | 213 |
+| **supružnica** | imenica | 12 | 30 |
+| **svevlast** | imenica | 12 | 32 |
+| **vakuola** | imenica | 12 | 23 |
+| **vodurina** | imenica | 12 | 57 |
+| **šantung** | imenica | 12 | 26 |
+| **agnostički** | pridev, prilog | 11 | 84 |
+| **citogenetika** | imenica | 11 | 19 |
+| **dozivalo** | glagol | 11 | 37 |
+| **elegično** | pridev, prilog | 11 | 25 |
+| **eskivaža** | imenica | 11 | 31 |
+| **ginuće** | glagol | 11 | 0 |
+| **glavočika** | imenica | 11 | 64 |
+| **hidrogliser** | imenica | 11 | 53 |
+| **kmetovski** | pridev, prilog | 11 | 36 |
+| **kopljište** | imenica | 11 | 2 |
+| **mračnjački** | pridev | 11 | 28 |
+| **polemično** | pridev, prilog | 11 | 58 |
+| **pravdoljublje** | imenica | 11 | 4 |
+| **pretpranje** | imenica | 11 | 65 |
+| **tangens** | imenica | 11 | 52 |
+| **tokata** | imenica | 11 | 0 |
+| **upadno** | pridev, prilog | 11 | 103 |
+| **zatravljeno** | pridev, prilog | 11 | 29 |
+| **afrikata** | imenica | 10 | 27 |
+| **akna** | imenica | 10 | 143 |
+| **akvedukt** | imenica | 10 | 114 |
+| **anarhistkinja** | imenica | 10 | 29 |
+| **bakljonoša** | imenica | 10 | 33 |
+| **bilaterala** | imenica | 10 | 25 |
+| **brežuljkasto** | pridev, prilog | 10 | 50 |
+| **desetorostruko** | pridev, prilog | 10 | 136 |
+| **diplomatkinja** | imenica | 10 | 101 |
+| **gloginja** | imenica | 10 | 19 |
+| **hobistički** | pridev, prilog | 10 | 97 |
+| **hvatište** | imenica | 10 | 229 |
+| **izoglosa** | imenica | 10 | 16 |
+| **kršitelj** | imenica | 10 | 71 |
+| **lončanica** | imenica | 10 | 282 |
+| **posuđenica** | imenica | 10 | 248 |
+| **predradnja** | imenica | 10 | 59 |
+| **slobodoljubivo** | pridev, prilog | 10 | 10 |
+| **smetište** | imenica | 10 | 219 |
+| **vestalka** | imenica | 10 | 14 |
+| **zadubljeno** | pridev, prilog | 10 | 32 |
+| **zanesenjaštvo** | imenica | 10 | 20 |
+| **četrdesetogodišnjakinja** | imenica | 10 | 40 |
+| **čitačica** | imenica | 10 | 109 |
+| **ablativ** | imenica | 9 | 38 |
+| **breča** | imenica | 9 | 67 |
+| **cirus** | imenica | 9 | 54 |
+| **desetinka** | imenica | 9 | 101 |
+| **destilator** | imenica | 9 | 37 |
+| **dvoručno** | pridev, prilog | 9 | 24 |
+| **gater** | imenica | 9 | 46 |
+| **izmiritelj** | imenica | 9 | 274 |
+| **kopula** | imenica | 9 | 5 |
+| **kvestor** | imenica | 9 | 18 |
+| **lakuna** | imenica | 9 | 19 |
+| **obraščić** | imenica | 9 | 21 |
+| **plućnjak** | imenica | 9 | 53 |
+| **rastrošno** | pridev, prilog | 9 | 191 |
+| **rinfuza** | imenica | 9 | 56 |
+| **sugradica** | imenica | 9 | 5 |
+| **termograf** | imenica | 9 | 8 |
+| **zanesenjački** | pridev | 9 | 26 |
+| **žitara** | imenica | 9 | 3 |
+| **žutika** | imenica | 9 | 45 |
+| **dezinformator** | imenica | 8 | 9 |
+| **državnica** | imenica | 8 | 40 |
+| **elektroencefalograf** | imenica | 8 | 16 |
+| **evidentičar** | imenica | 8 | 18 |
+| **gracilno** | pridev, prilog | 8 | 18 |
+| **kabotaža** | imenica | 8 | 68 |
+| **kedrovina** | imenica | 8 | 0 |
+| **krvoliptanje** | imenica | 8 | 0 |
+| **kurativa** | imenica | 8 | 30 |
+| **kurirka** | imenica | 8 | 28 |
+| **lakirer** | imenica | 8 | 60 |
+| **maglenka** | imenica | 8 | 97 |
+| **megavolt** | imenica | 8 | 2 |
+| **podlački** | pridev | 8 | 5 |
+| **prefrigano** | pridev, prilog | 8 | 51 |
+| **prpošno** | pridev, prilog | 8 | 232 |
+| **rascvat** | imenica | 8 | 19 |
+| **romančić** | imenica | 8 | 49 |
+| **sintetičar** | imenica | 8 | 11 |
+| **svotica** | imenica | 8 | 152 |
+| **vunasto** | pridev, prilog | 8 | 14 |
+| **šuštavo** | pridev, prilog | 8 | 21 |
+| **akademičar** | imenica | 7 | 45 |
+| **antibiotički** | pridev, prilog | 7 | 21 |
+| **antikvarno** | pridev, prilog | 7 | 3 |
+| **atomistički** | pridev, prilog | 7 | 22 |
+| **begovica** | imenica | 7 | 22 |
+| **blagoglagoljivo** | pridev, prilog | 7 | 61 |
+| **blanjalica** | imenica | 7 | 36 |
+| **cimbal** | imenica | 7 | 150 |
+| **disalica** | imenica | 7 | 56 |
+| **egzosfera** | imenica | 7 | 17 |
+| **elektroencefalogram** | imenica | 7 | 43 |
+| **elektrostatika** | imenica | 7 | 40 |
+| **epidemično** | pridev, prilog | 7 | 8 |
+| **eskalator** | imenica | 7 | 30 |
+| **feljtonistika** | imenica | 7 | 10 |
+| **helebarda** | imenica | 7 | 18 |
+| **herceginja** | imenica | 7 | 0 |
+| **kodifikator** | imenica | 7 | 6 |
+| **krevetnina** | imenica | 7 | 55 |
+| **krčilo** | glagol | 7 | 20 |
+| **manula** | glagol | 7 | 31 |
+| **mlaznik** | imenica | 7 | 2 |
+| **modrilo** | imenica, glagol | 7 | 32 |
+| **nategnuće** | glagol | 7 | 0 |
+| **pedesetorica** | imenica | 7 | 22 |
+| **polovinka** | imenica | 7 | 13 |
+| **potolina** | imenica | 7 | 14 |
+| **prezimenjakinja** | imenica | 7 | 36 |
+| **prisutnik** | imenica | 7 | 11 |
+| **pritvorenica** | imenica | 7 | 18 |
+| **reznik** | imenica | 7 | 50 |
+| **salpa** | imenica | 7 | 133 |
+| **spetljano** | pridev | 7 | 40 |
+| **spleteno** | pridev | 7 | 8 |
+| **susretište** | imenica | 7 | 183 |
+| **tonalno** | pridev, prilog | 7 | 29 |
+| **ušata** | pridev, imenica | 7 | 96 |
+| **užara** | imenica | 7 | 27 |
+| **štalica** | imenica | 7 | 204 |
+| **šuškavo** | pridev, prilog | 7 | 40 |
+| **adventistički** | pridev | 6 | 109 |
+| **antidrama** | imenica | 6 | 7 |
+| **biljarica** | imenica | 6 | 3 |
+| **blagva** | imenica | 6 | 75 |
+| **crtačica** | imenica | 6 | 57 |
+| **dramatičarka** | imenica | 6 | 134 |
+| **endoderm** | imenica | 6 | 25 |
+| **gljivar** | imenica | 6 | 165 |
+| **hrašće** | imenica | 6 | 241 |
+| **karbunkul** | imenica | 6 | 5 |
+| **kibernetičar** | imenica | 6 | 6 |
+| **liberalka** | imenica | 6 | 68 |
+| **memljivo** | pridev, prilog | 6 | 14 |
+| **merkantilistički** | pridev | 6 | 11 |
+| **mlađak** | imenica | 6 | 137 |
+| **obeščašćenje** | imenica | 6 | 32 |
+| **plitica** | imenica | 6 | 112 |
+| **povisilica** | imenica | 6 | 29 |
+| **praskavo** | pridev, prilog | 6 | 8 |
+| **pustopoljina** | imenica | 6 | 174 |
+| **reduktivno** | pridev, prilog | 6 | 38 |
+| **roditeljica** | imenica | 6 | 196 |
+| **simplicistički** | pridev | 6 | 14 |
+| **slavitelj** | imenica | 6 | 65 |
+| **stupnjevito** | pridev, prilog | 6 | 172 |
+| **tankoća** | imenica | 6 | 20 |
+| **tisovina** | imenica | 6 | 6 |
+| **totalizator** | imenica | 6 | 5 |
+| **udarnica** | imenica | 6 | 6 |
+| **utrostručenje** | imenica | 6 | 72 |
+| **uvaljeno** | pridev | 6 | 26 |
+| **vibrantno** | pridev, prilog | 6 | 32 |
+| **zadrugarka** | imenica | 6 | 3 |
+| **afektirano** | pridev, prilog | 5 | 45 |
+| **anticipativno** | pridev, prilog | 5 | 26 |
+| **baletanka** | imenica | 5 | 0 |
+| **brašnara** | imenica | 5 | 24 |
+| **cerekalo** | imenica, glagol | 5 | 19 |
+| **diskograf** | imenica | 5 | 93 |
+| **disparatno** | pridev, prilog | 5 | 7 |
+| **dvoličnjak** | imenica | 5 | 45 |
+| **ektoderm** | imenica | 5 | 25 |
+| **elektrovod** | imenica | 5 | 7 |
+| **enkaustika** | imenica | 5 | 10 |
+| **eshatolog** | imenica | 5 | 0 |
+| **evangelik** | imenica | 5 | 30 |
+| **feljtonistički** | pridev | 5 | 15 |
+| **geohemičar** | imenica | 5 | 0 |
+| **gromadno** | pridev, prilog | 5 | 9 |
+| **guskica** | imenica | 5 | 33 |
+| **hazardno** | pridev, prilog | 5 | 8 |
+| **hidrauličar** | imenica | 5 | 2 |
+| **hidrogenerator** | imenica | 5 | 3 |
+| **himba** | imenica | 5 | 60 |
+| **izohipsa** | imenica | 5 | 24 |
+| **lisičar** | imenica | 5 | 89 |
+| **marksistkinja** | imenica | 5 | 0 |
+| **matrikula** | imenica | 5 | 49 |
+| **meket** | imenica | 5 | 43 |
+| **narogušeno** | pridev, prilog | 5 | 20 |
+| **neknjiževno** | pridev, prilog | 5 | 12 |
+| **nikoliko** | determinator | 5 | 54 |
+| **ozeblina** | imenica | 5 | 129 |
+| **prakljača** | imenica | 5 | 7 |
+| **pravednica** | imenica | 5 | 37 |
+| **pretplatnica** | imenica | 5 | 32 |
+| **racionalizator** | imenica | 5 | 5 |
+| **ranj** | imenica | 5 | 38 |
+| **razdruženje** | imenica | 5 | 6 |
+| **siromašica** | imenica | 5 | 3 |
+| **spužvasto** | pridev, prilog | 5 | 107 |
+| **strugalica** | imenica | 5 | 136 |
+| **sviba** | imenica | 5 | 123 |
+| **teoretik** | imenica | 5 | 43 |
+| **termitnjak** | imenica | 5 | 20 |
+| **trenirano** | pridev | 5 | 20 |
+| **ugaonik** | imenica | 5 | 0 |
+| **unča** | imenica | 5 | 6 |
+| **vlastoljubivo** | pridev, prilog | 5 | 3 |
+| **čamotno** | pridev, prilog | 5 | 1 |
+| **čaplinovski** | pridev | 5 | 5 |
+| **šiljasto** | pridev, prilog | 5 | 41 |
+| **žilje** | imenica | 5 | 22 |
+| **aferaški** | pridev, prilog | 4 | 37 |
+| **biotip** | imenica | 4 | 24 |
+| **cakavski** | pridev, prilog | 4 | 57 |
+| **dizaličar** | imenica | 4 | 58 |
+| **domišljeno** | pridev, prilog | 4 | 33 |
+| **dražilo** | glagol | 4 | 14 |
+| **dugmetara** | imenica | 4 | 0 |
+| **elastika** | imenica | 4 | 26 |
+| **elektroakustika** | imenica | 4 | 8 |
+| **encefalogram** | imenica | 4 | 6 |
+| **eugeničar** | imenica | 4 | 11 |
+| **gliptoteka** | imenica | 4 | 105 |
+| **guvernerski** | pridev, prilog | 4 | 46 |
+| **hereditarno** | pridev, prilog | 4 | 10 |
+| **humanistkinja** | imenica | 4 | 1 |
+| **ilegalka** | imenica | 4 | 25 |
+| **izbuljeno** | pridev, prilog | 4 | 8 |
+| **kamgarn** | imenica | 4 | 3 |
+| **katarakt** | imenica | 4 | 34 |
+| **klačina** | imenica | 4 | 53 |
+| **kondura** | imenica | 4 | 96 |
+| **kontraalt** | imenica | 4 | 15 |
+| **kroatistika** | imenica | 4 | 162 |
+| **latinština** | imenica | 4 | 28 |
+| **metraža** | imenica | 4 | 21 |
+| **minuskula** | imenica | 4 | 13 |
+| **modelarnica** | imenica | 4 | 3 |
+| **motonautika** | imenica | 4 | 9 |
+| **mramorasto** | pridev, prilog | 4 | 5 |
+| **mrazno** | pridev, prilog | 4 | 5 |
+| **mrkulja** | imenica | 4 | 23 |
+| **noveleta** | imenica | 4 | 20 |
+| **novelistika** | imenica | 4 | 24 |
+| **okomica** | imenica | 4 | 214 |
+| **pobočno** | pridev, prilog | 4 | 15 |
+| **polušansa** | imenica | 4 | 20 |
+| **ponikva** | imenica | 4 | 91 |
+| **preponašica** | imenica | 4 | 20 |
+| **pristupnina** | imenica | 4 | 25 |
+| **prosuditelj** | imenica | 4 | 22 |
+| **pustinjaštvo** | imenica | 4 | 38 |
+| **razgolićenje** | imenica | 4 | 23 |
+| **smrekovina** | imenica | 4 | 22 |
+| **taborište** | imenica | 4 | 242 |
+| **tifusar** | imenica | 4 | 17 |
+| **velikaški** | pridev | 4 | 27 |
+| **zemljovlasnik** | imenica | 4 | 6 |
+| **časovito** | pridev, prilog | 4 | 51 |
+| **čupavica** | imenica | 4 | 34 |
+| **šafranski** | pridev, prilog | 4 | 0 |
+| **štuk** | imenica | 4 | 60 |
+| **žmurka** | imenica | 4 | 0 |
+| **animalistički** | pridev, prilog | 3 | 40 |
+| **anoreksičar** | imenica | 3 | 16 |
+| **bezdimno** | pridev, prilog | 3 | 5 |
+| **briljant** | imenica | 3 | 74 |
+| **demokratkinja** | imenica | 3 | 43 |
+| **despik** | imenica | 3 | 12 |
+| **distrofičar** | imenica | 3 | 11 |
+| **dućančić** | imenica | 3 | 147 |
+| **egzekutorski** | pridev | 3 | 9 |
+| **emancipator** | imenica | 3 | 7 |
+| **empirik** | imenica | 3 | 6 |
+| **etolog** | imenica | 3 | 13 |
+| **evokator** | imenica | 3 | 7 |
+| **filmolog** | imenica | 3 | 100 |
+| **glavetina** | imenica | 3 | 14 |
+| **guščetina** | imenica | 3 | 2 |
+| **hidrostatika** | imenica | 3 | 15 |
+| **hipnotizerski** | pridev | 3 | 4 |
+| **hodočasnica** | imenica | 3 | 119 |
+| **homiletika** | imenica | 3 | 11 |
+| **hranidba** | imenica | 3 | 286 |
+| **kristalić** | imenica | 3 | 53 |
+| **krunidba** | imenica | 3 | 217 |
+| **lutnja** | imenica | 3 | 192 |
+| **medaljica** | imenica | 3 | 110 |
+| **menaža** | imenica | 3 | 4 |
+| **misnik** | imenica | 3 | 55 |
+| **podust** | imenica | 3 | 40 |
+| **potkornjak** | imenica | 3 | 24 |
+| **povraz** | imenica | 3 | 55 |
+| **predživot** | imenica | 3 | 12 |
+| **privatnica** | imenica | 3 | 73 |
+| **pupkovina** | imenica | 3 | 201 |
+| **raspor** | imenica | 3 | 88 |
+| **raspuknuće** | imenica, glagol | 3 | 16 |
+| **razbaštinjenje** | imenica | 3 | 7 |
+| **razmetno** | pridev, prilog | 3 | 17 |
+| **rutavo** | pridev, prilog | 3 | 18 |
+| **skolastičar** | imenica | 3 | 7 |
+| **strančarski** | pridev | 3 | 11 |
+| **suložnica** | imenica | 3 | 8 |
+| **sveznalaštvo** | imenica | 3 | 3 |
+| **talaštvo** | imenica | 3 | 5 |
+| **torbetina** | imenica | 3 | 48 |
+| **trovlašće** | imenica | 3 | 1 |
+| **tuberkula** | imenica | 3 | 7 |
+| **tuđinština** | imenica | 3 | 1 |
+| **uznosito** | pridev, prilog | 3 | 61 |
+| **vodarica** | imenica | 3 | 37 |
+| **vrećasto** | pridev, prilog | 3 | 38 |
+| **zatrovanje** | imenica | 3 | 27 |
+| **zaustava** | imenica | 3 | 8 |
+| **čestoća** | imenica | 3 | 20 |
+| **čeznuće** | imenica, glagol | 3 | 58 |
+| **čistunski** | pridev | 3 | 20 |
+| **šivačica** | imenica | 3 | 23 |
+| **žoržet** | imenica | 3 | 12 |
+| **brazdasto** | pridev, prilog | 2 | 2 |
+| **brinet** | imenica | 2 | 5 |
+| **bukački** | pridev | 2 | 13 |
+| **burnica** | imenica | 2 | 13 |
+| **crepara** | imenica | 2 | 0 |
+| **cvilež** | imenica | 2 | 163 |
+| **dalmatika** | imenica | 2 | 33 |
+| **dangubica** | imenica | 2 | 25 |
+| **dešifrant** | imenica | 2 | 3 |
+| **doker** | imenica | 2 | 3 |
+| **dokinuće** | imenica, glagol | 2 | 54 |
+| **donžuanski** | pridev | 2 | 1 |
+| **dostavljački** | pridev, prilog | 2 | 12 |
+| **dudinjak** | imenica | 2 | 2 |
+| **endokard** | imenica | 2 | 8 |
+| **evazivno** | pridev, prilog | 2 | 6 |
+| **evokativno** | pridev, prilog | 2 | 10 |
+| **fonolog** | imenica | 2 | 0 |
+| **fratarski** | pridev | 2 | 106 |
+| **gegalo** | imenica, glagol | 2 | 3 |
+| **gmizavo** | pridev, prilog | 2 | 15 |
+| **gomba** | glagol | 2 | 38 |
+| **gunđavo** | pridev, prilog | 2 | 5 |
+| **hidrograf** | imenica | 2 | 12 |
+| **himbeno** | pridev, prilog | 2 | 38 |
+| **hmeljara** | imenica | 2 | 5 |
+| **hospitant** | imenica | 2 | 3 |
+| **hripavo** | pridev, prilog | 2 | 2 |
+| **huškalo** | glagol | 2 | 17 |
+| **interdikt** | imenica | 2 | 13 |
+| **izmetina** | imenica | 2 | 34 |
+| **koštunjača** | imenica | 2 | 76 |
+| **krilno** | pridev, prilog | 2 | 37 |
+| **legislatura** | imenica | 2 | 24 |
+| **lipovina** | imenica | 2 | 13 |
+| **medicinarka** | imenica | 2 | 66 |
+| **napasno** | pridev, prilog | 2 | 74 |
+| **nepouzdanje** | imenica | 2 | 27 |
+| **petrograf** | imenica | 2 | 1 |
+| **polukružnica** | imenica | 2 | 22 |
+| **potamnjenje** | imenica | 2 | 19 |
+| **pranarod** | imenica | 2 | 8 |
+| **predistraga** | imenica | 2 | 41 |
+| **prehitro** | pridev, prilog | 2 | 1 |
+| **pretkazanje** | imenica | 2 | 79 |
+| **prevratništvo** | imenica | 2 | 4 |
+| **primitivka** | imenica | 2 | 76 |
+| **prutka** | imenica | 2 | 17 |
+| **radišno** | pridev, prilog | 2 | 60 |
+| **ranjavo** | pridev, prilog | 2 | 6 |
+| **razmetnik** | imenica | 2 | 0 |
+| **safalada** | imenica | 2 | 15 |
+| **sinoptičar** | imenica | 2 | 64 |
+| **slabunjavo** | pridev, prilog | 2 | 8 |
+| **strašljivica** | imenica | 2 | 12 |
+| **subreta** | imenica | 2 | 14 |
+| **tamnilo** | glagol | 2 | 10 |
+| **trozvuk** | imenica | 2 | 9 |
+| **uhobolja** | imenica | 2 | 29 |
+| **umanjenica** | imenica | 2 | 213 |
+| **usavršitelj** | imenica | 2 | 9 |
+| **usredotočenje** | imenica | 2 | 118 |
+| **usukano** | pridev, prilog | 2 | 17 |
+| **vatrometno** | pridev, prilog | 2 | 20 |
+| **veprovina** | imenica | 2 | 40 |
+| **vizitator** | imenica | 2 | 287 |
+| **zahuktano** | pridev | 2 | 1 |
+| **zaslužnik** | imenica | 2 | 49 |
+| **zgusnuće** | glagol | 2 | 0 |
+| **čahurica** | imenica | 2 | 15 |
+| **čangrizavo** | pridev, prilog | 2 | 50 |
+| **častoljubivo** | pridev, prilog | 2 | 2 |
+| **češljuga** | imenica | 2 | 2 |
+| **češnjarka** | imenica | 2 | 0 |
+| **čipe** | imenica | 2 | 2 |
+| **čipkica** | imenica | 2 | 25 |
+| **šrauba** | imenica | 2 | 31 |
+| **amerikanistika** | imenica | 1 | 5 |
+| **anemičar** | imenica | 1 | 2 |
+| **apretura** | imenica | 1 | 12 |
+| **arbitrator** | imenica | 1 | 14 |
+| **baril** | imenica | 1 | 31 |
+| **bludništvo** | imenica | 1 | 45 |
+| **bukvina** | pridev | 1 | 6 |
+| **crpilište** | imenica | 1 | 181 |
+| **dekadansa** | imenica | 1 | 31 |
+| **dvoimeno** | pridev, prilog | 1 | 5 |
+| **ekstenzor** | imenica | 1 | 3 |
+| **enervantno** | pridev, prilog | 1 | 7 |
+| **fosforescentno** | pridev, prilog | 1 | 3 |
+| **geometričar** | imenica | 1 | 11 |
+| **glagoljaštvo** | imenica | 1 | 97 |
+| **gosparski** | pridev, prilog | 1 | 39 |
+| **grudasto** | pridev, prilog | 1 | 9 |
+| **guturalno** | pridev, prilog | 1 | 7 |
+| **harmonički** | pridev | 1 | 48 |
+| **hasura** | imenica | 1 | 9 |
+| **hermetik** | imenica | 1 | 5 |
+| **heruvika** | imenica | 1 | 0 |
+| **hidrozoa** | imenica | 1 | 4 |
+| **higrograf** | imenica | 1 | 8 |
+| **hiperbolika** | imenica | 1 | 0 |
+| **hiromant** | imenica | 1 | 6 |
+| **hrakotina** | imenica | 1 | 1 |
+| **humoristkinja** | imenica | 1 | 0 |
+| **izobara** | imenica | 1 | 18 |
+| **klauzura** | imenica | 1 | 98 |
+| **konopljarka** | imenica | 1 | 3 |
+| **koščurina** | imenica | 1 | 4 |
+| **lagoda** | imenica | 1 | 17 |
+| **lahorić** | imenica | 1 | 5 |
+| **laringolog** | imenica | 1 | 3 |
+| **leceder** | imenica | 1 | 0 |
+| **lubeničar** | imenica | 1 | 4 |
+| **mikroanaliza** | imenica | 1 | 7 |
+| **mikroval** | imenica | 1 | 148 |
+| **mlačno** | pridev, prilog | 1 | 47 |
+| **nadgrobnica** | imenica | 1 | 8 |
+| **okoštanje** | imenica | 1 | 2 |
+| **oscilogram** | imenica | 1 | 8 |
+| **osiguranica** | imenica | 1 | 66 |
+| **otočanka** | imenica | 1 | 76 |
+| **panegiričar** | imenica | 1 | 6 |
+| **praunučica** | imenica | 1 | 17 |
+| **pregorko** | pridev, prilog | 1 | 11 |
+| **prelatura** | imenica | 1 | 39 |
+| **pretvornik** | imenica | 1 | 118 |
+| **preučeno** | pridev, prilog | 1 | 1 |
+| **prvoligašica** | imenica | 1 | 47 |
+| **putilo** | glagol | 1 | 3 |
+| **ramenica** | imenica | 1 | 6 |
+| **raskriljeno** | pridev, prilog | 1 | 1 |
+| **rastegnuće** | glagol | 1 | 0 |
+| **rastrežnjenje** | imenica | 1 | 0 |
+| **razveseljeno** | pridev | 1 | 3 |
+| **remis** | imenica | 1 | 119 |
+| **rendgenogram** | imenica | 1 | 12 |
+| **reverenda** | imenica | 1 | 19 |
+| **rilce** | imenica | 1 | 60 |
+| **rosište** | imenica | 1 | 31 |
+| **runja** | imenica | 1 | 11 |
+| **sažalno** | pridev, prilog | 1 | 153 |
+| **semantičar** | imenica | 1 | 1 |
+| **skočno** | pridev, prilog | 1 | 11 |
+| **skrušenje** | imenica | 1 | 37 |
+| **slegnuće** | glagol | 1 | 0 |
+| **smrekinja** | imenica | 1 | 1 |
+| **somnambul** | imenica | 1 | 9 |
+| **stenodaktilograf** | imenica | 1 | 4 |
+| **stolina** | pridev | 1 | 0 |
+| **stvarca** | imenica | 1 | 83 |
+| **sultanica** | imenica | 1 | 0 |
+| **sumporača** | imenica | 1 | 8 |
+| **suseljanin** | imenica | 1 | 19 |
+| **sućutno** | pridev, prilog | 1 | 188 |
+| **svibovina** | imenica | 1 | 9 |
+| **sviralica** | imenica | 1 | 10 |
+| **sviter** | imenica | 1 | 0 |
+| **teglenica** | imenica | 1 | 143 |
+| **telekomanda** | imenica | 1 | 3 |
+| **terminolog** | imenica | 1 | 8 |
+| **tetrebica** | imenica | 1 | 0 |
+| **trešnjevina** | imenica | 1 | 0 |
+| **triola** | imenica | 1 | 25 |
+| **turbogenerator** | imenica | 1 | 12 |
+| **utrobica** | imenica | 1 | 6 |
+| **uvalina** | pridev | 1 | 0 |
+| **višekratnik** | imenica | 1 | 125 |
+| **vrapčarka** | imenica | 1 | 0 |
+| **vrištavo** | pridev, prilog | 1 | 12 |
+| **zaskok** | imenica | 1 | 4 |
+| **zlatnina** | imenica | 1 | 106 |
+| **zovina** | pridev | 1 | 0 |
+| **zrikavo** | pridev, prilog | 1 | 1 |
+| **ćurlik** | imenica | 1 | 12 |
+| **ćutilo** | glagol | 1 | 19 |
+| **četrdesetica** | imenica | 1 | 5 |
+| **čobančica** | imenica | 1 | 0 |
+| **agrotehničar** | imenica | 0 | 6 |
+| **apelant** | imenica | 0 | 1 |
+| **arabistika** | imenica | 0 | 1 |
+| **aritmetičar** | imenica | 0 | 1 |
+| **barograf** | imenica | 0 | 13 |
+| **benediktinka** | imenica | 0 | 45 |
+| **beskišno** | pridev, prilog | 0 | 15 |
+| **beskućno** | pridev, prilog | 0 | 2 |
+| **bokobran** | imenica | 0 | 30 |
+| **bradonjica** | imenica | 0 | 3 |
+| **bratim** | glagol | 0 | 73 |
+| **bubotka** | imenica | 0 | 0 |
+| **bušina** | pridev | 0 | 3 |
+| **cestogradnja** | imenica | 0 | 195 |
+| **cican** | pridev | 0 | 9 |
+| **cinkograf** | imenica | 0 | 0 |
+| **dezorganizator** | imenica | 0 | 5 |
+| **dirkalo** | glagol | 0 | 0 |
+| **dlako** | imenica | 0 | 2 |
+| **dražbovatelj** | imenica | 0 | 30 |
+| **drvenina** | imenica | 0 | 16 |
+| **dvopapkar** | imenica | 0 | 0 |
+| **ekonomički** | pridev | 0 | 0 |
+| **ekskavator** | imenica | 0 | 3 |
+| **elektrometalurg** | imenica | 0 | 0 |
+| **elektroterapeut** | imenica | 0 | 0 |
+| **elektročelik** | imenica | 0 | 2 |
+| **empiriokritičar** | imenica | 0 | 0 |
+| **enciklopedistički** | pridev | 0 | 5 |
+| **endoplazma** | imenica | 0 | 1 |
+| **epigramatičar** | imenica | 0 | 4 |
+| **epikurski** | pridev | 0 | 1 |
+| **estakada** | imenica | 0 | 0 |
+| **eurska** | pridev | 0 | 10 |
+| **fakinski** | pridev, prilog | 0 | 43 |
+| **fakinčić** | imenica | 0 | 4 |
+| **fićuk** | imenica | 0 | 34 |
+| **galebica** | imenica | 0 | 53 |
+| **gastritičar** | imenica | 0 | 1 |
+| **gatarina** | pridev | 0 | 1 |
+| **gavka** | imenica | 0 | 1 |
+| **gipsoteka** | imenica | 0 | 5 |
+| **glavarica** | imenica | 0 | 297 |
+| **glavočić** | imenica | 0 | 37 |
+| **gležnjak** | imenica | 0 | 0 |
+| **grgečka** | pridev | 0 | 1 |
+| **grozničina** | pridev | 0 | 0 |
+| **grupaški** | pridev | 0 | 1 |
+| **gumilastika** | imenica | 0 | 8 |
+| **guščarnik** | imenica | 0 | 0 |
+| **gvelf** | imenica | 0 | 0 |
+| **haubičar** | imenica | 0 | 1 |
+| **hemogram** | imenica | 0 | 6 |
+| **hidrobus** | imenica | 0 | 10 |
+| **hidrofita** | imenica | 0 | 2 |
+| **hidromehaničar** | imenica | 0 | 0 |
+| **hispanistika** | imenica | 0 | 3 |
+| **hladetinasto** | pridev, prilog | 0 | 1 |
+| **hmeljište** | imenica | 0 | 0 |
+| **infamno** | pridev, prilog | 0 | 3 |
+| **izdubina** | imenica | 0 | 5 |
+| **kaljužina** | pridev | 0 | 1 |
+| **kapljevina** | imenica | 0 | 66 |
+| **katekumen** | imenica | 0 | 31 |
+| **kavovina** | imenica | 0 | 46 |
+| **kestenovina** | imenica | 0 | 3 |
+| **klenovina** | imenica | 0 | 0 |
+| **kliktavo** | pridev, prilog | 0 | 1 |
+| **kljukalo** | glagol | 0 | 7 |
+| **koljuška** | imenica | 0 | 3 |
+| **komuška** | imenica | 0 | 4 |
+| **konzervativka** | imenica | 0 | 43 |
+| **košaraštvo** | imenica | 0 | 41 |
+| **krepalina** | imenica | 0 | 61 |
+| **kreposnica** | imenica | 0 | 0 |
+| **krevetina** | imenica | 0 | 2 |
+| **krezubina** | imenica | 0 | 0 |
+| **kristalično** | pridev, prilog | 0 | 6 |
+| **krivokletno** | pridev, prilog | 0 | 1 |
+| **krmačina** | pridev | 0 | 0 |
+| **kruškovina** | imenica | 0 | 1 |
+| **kunina** | pridev | 0 | 3 |
+| **kvartina** | pridev | 0 | 0 |
+| **lančasto** | pridev, prilog | 0 | 1 |
+| **ledište** | imenica | 0 | 52 |
+| **lento** | imenica | 0 | 1 |
+| **lozovina** | imenica | 0 | 12 |
+| **manifestant** | imenica | 0 | 0 |
+| **medonjica** | imenica | 0 | 3 |
+| **meketavo** | pridev, prilog | 0 | 10 |
+| **mladenaštvo** | imenica | 0 | 135 |
+| **mnogokut** | imenica | 0 | 50 |
+| **nadripolitičar** | imenica | 0 | 2 |
+| **nazdravičar** | imenica | 0 | 2 |
+| **neurastenično** | pridev, prilog | 0 | 8 |
+| **nevisoko** | pridev, prilog | 0 | 2 |
+| **opunomoćitelj** | imenica | 0 | 19 |
+| **palisandrovina** | imenica | 0 | 10 |
+| **pećica** | imenica | 0 | 64 |
+| **piknjica** | imenica | 0 | 25 |
+| **podbradnik** | imenica | 0 | 32 |
+| **podveza** | glagol | 0 | 0 |
+| **pogrebnina** | imenica | 0 | 1 |
+| **pratvar** | imenica | 0 | 41 |
+| **predavno** | pridev, prilog | 0 | 7 |
+| **predilica** | imenica | 0 | 9 |
+| **pripomena** | imenica | 0 | 50 |
+| **propeće** | glagol | 0 | 0 |
+| **rahitičar** | imenica | 0 | 1 |
+| **rasplodište** | imenica | 0 | 0 |
+| **raznosačica** | imenica | 0 | 2 |
+| **razredništvo** | imenica | 0 | 65 |
+| **razvedenica** | imenica | 0 | 56 |
+| **rebrenica** | imenica | 0 | 27 |
+| **remenčić** | imenica | 0 | 80 |
+| **remorkaža** | imenica | 0 | 0 |
+| **resoperka** | imenica | 0 | 9 |
+| **rohada** | imenica | 0 | 9 |
+| **runjika** | imenica | 0 | 8 |
+| **sapunara** | imenica | 0 | 72 |
+| **skautkinja** | imenica | 0 | 0 |
+| **skladišnina** | imenica | 0 | 6 |
+| **sklerotičar** | imenica | 0 | 0 |
+| **slaboća** | imenica | 0 | 31 |
+| **sljedbeništvo** | imenica | 0 | 150 |
+| **sokolašica** | imenica | 0 | 6 |
+| **sonatina** | pridev | 0 | 5 |
+| **stenodaktilografkinja** | imenica | 0 | 3 |
+| **strelasto** | pridev, prilog | 0 | 10 |
+| **subaštinica** | imenica | 0 | 2 |
+| **subaštinik** | imenica | 0 | 24 |
+| **suigračica** | imenica | 0 | 159 |
+| **suložništvo** | imenica | 0 | 6 |
+| **sumišljenik** | imenica | 0 | 6 |
+| **sutoka** | imenica | 0 | 17 |
+| **tabetičar** | imenica | 0 | 0 |
+| **tabinja** | imenica | 0 | 56 |
+| **tabletić** | imenica | 0 | 100 |
+| **taljevina** | imenica | 0 | 26 |
+| **teglo** | imenica | 0 | 3 |
+| **tercina** | pridev | 0 | 1 |
+| **težakinja** | imenica | 0 | 8 |
+| **tintarnica** | imenica | 0 | 28 |
+| **tivuška** | imenica | 0 | 0 |
+| **tombolo** | imenica | 0 | 0 |
+| **toplonoša** | imenica | 0 | 0 |
+| **topolovina** | imenica | 0 | 2 |
+| **trandovilje** | imenica | 0 | 4 |
+| **treščica** | imenica | 0 | 7 |
+| **trgovinica** | imenica | 0 | 81 |
+| **trupica** | imenica | 0 | 38 |
+| **tunolov** | imenica | 0 | 44 |
+| **tupoglavo** | pridev, prilog | 0 | 4 |
+| **tutnjavo** | imenica | 0 | 0 |
+| **ubožnica** | imenica | 0 | 119 |
+| **ukonačenje** | imenica | 0 | 1 |
+| **uskoća** | imenica | 0 | 16 |
+| **usporednica** | imenica | 0 | 41 |
+| **uštipčić** | imenica | 0 | 0 |
+| **uživljeno** | pridev | 0 | 122 |
+| **vezidba** | imenica | 0 | 3 |
+| **vodomeđa** | imenica | 0 | 2 |
+| **voćarnica** | imenica | 0 | 11 |
+| **vračarina** | pridev | 0 | 0 |
+| **vrčasto** | pridev, prilog | 0 | 1 |
+| **zagrižljivo** | pridev, prilog | 0 | 13 |
+| **zanjihano** | pridev | 0 | 3 |
+| **zapuh** | imenica | 0 | 47 |
+| **zavarljivo** | pridev, prilog | 0 | 0 |
+| **zlatarnica** | imenica | 0 | 220 |
+| **čakavka** | imenica | 0 | 3 |
+| **čamno** | pridev, prilog | 0 | 2 |
+| **čančica** | imenica | 0 | 1 |
+| **čarapar** | imenica | 0 | 4 |
+| **čaraparnica** | imenica | 0 | 1 |
+| **častohlepno** | pridev, prilog | 0 | 6 |
+| **čavlić** | imenica | 0 | 106 |
+| **čađara** | imenica | 0 | 16 |
+| **čegrtalo** | imenica | 0 | 2 |
+| **čempresovina** | imenica | 0 | 0 |
+| **čeonjača** | imenica | 0 | 0 |
+| **četnjak** | imenica | 0 | 16 |
+| **četvoroglasno** | pridev, prilog | 0 | 0 |
+| **češljača** | imenica | 0 | 8 |
+| **češljugovina** | imenica | 0 | 3 |
+| **čizmetina** | imenica | 0 | 4 |
+| **čunjasto** | pridev, prilog | 0 | 11 |
+| **čunjašica** | imenica | 0 | 0 |
+| **čuvarina** | imenica | 0 | 0 |
+| **šesnaestinka** | imenica | 0 | 7 |
+| **šimširovina** | imenica | 0 | 0 |
+| **šiškarica** | imenica | 0 | 50 |
+| **štitarka** | imenica | 0 | 4 |
+| **štićeništvo** | imenica | 0 | 0 |
+| **šušnje** | imenica | 0 | 4 |
+| **žeravnik** | imenica | 0 | 2 |
+| **žličar** | imenica | 0 | 37 |
+| **žličarka** | imenica | 0 | 27 |
+| **žličnjak** | imenica | 0 | 9 |
+| **žučljivo** | pridev, prilog | 0 | 79 |
+
+---
+
+## Grupa A2 — označene kao hrvatske (135 reči)
+
+Znatno češće u hrvatskom. **Proveri — ima i grešaka** (`sedamdesetak`, `sranje`).
+
+| Reč | Vrsta reči | Srpski | Hrvatski |
+|---|---|---:|---:|
+| tak | imenica | 8,201 | 134,679 |
+| glazba | imenica | 210 | 46,243 |
+| cesta | imenica | 346 | 43,680 |
+| kruh | imenica | 454 | 33,955 |
+| sranje | imenica | 1,106 | 19,744 |
+| val | imenica | 697 | 18,609 |
+| netom | prilog, imenica | 666 | 15,233 |
+| čitatelj | imenica | 78 | 10,752 |
+| poduzetništvo | imenica | 49 | 10,639 |
+| vlaka | imenica | 92 | 8,992 |
+| veljača | imenica | 40 | 7,696 |
+| pročelnica | imenica | 11 | 5,469 |
+| produljenje | imenica | 18 | 4,752 |
+| šalica | imenica | 27 | 4,250 |
+| nekamo | prilog | 51 | 3,541 |
+| zrcalo | imenica | 104 | 3,491 |
+| cestica | imenica | 31 | 3,362 |
+| vatrogastvo | imenica | 19 | 3,360 |
+| nikamo | prilog | 29 | 3,178 |
+| uključivo | pridev, prilog | 74 | 2,958 |
+| sedamdesetak | broj | 520 | 2,939 |
+| čelništvo | imenica | 27 | 2,903 |
+| božićnica | imenica | 20 | 2,522 |
+| šetnica | imenica | 6 | 2,508 |
+| pretvorba | imenica | 9 | 2,372 |
+| talk | imenica | 407 | 2,359 |
+| osamdesetak | prilog, broj | 304 | 2,199 |
+| hlačice | imenica | 12 | 2,061 |
+| raslinje | imenica | 20 | 2,034 |
+| cestarina | imenica | 13 | 1,993 |
+| dupkom | prilog | 20 | 1,934 |
+| lučica | imenica | 55 | 1,881 |
+| vlasište | imenica | 89 | 1,881 |
+| sluznica | imenica | 264 | 1,840 |
+| ivančica | imenica | 29 | 1,745 |
+| umirovljenje | imenica | 12 | 1,721 |
+| sugovornica | imenica | 16 | 1,696 |
+| priprava | imenica | 14 | 1,606 |
+| srh | imenica | 37 | 1,526 |
+| razrednica | imenica | 7 | 1,521 |
+| slavodobitno | pridev, prilog | 267 | 1,515 |
+| izobrazba | imenica | 2 | 1,378 |
+| vale | imenica | 130 | 1,373 |
+| paf | uzvik | 61 | 1,356 |
+| graševina | imenica | 73 | 1,284 |
+| naravski | prilog | 153 | 1,272 |
+| knjižničar | imenica | 147 | 1,197 |
+| predavačica | imenica | 113 | 1,088 |
+| deplasirano | pridev, prilog | 222 | 1,010 |
+| otkupljenje | imenica | 20 | 1,001 |
+| krimen | imenica | 30 | 998 |
+| razrednik | imenica | 12 | 979 |
+| forumski | pridev, prilog | 62 | 966 |
+| pohrana | imenica | 8 | 922 |
+| pravokutnik | imenica | 1 | 865 |
+| decentno | pridev, prilog | 40 | 841 |
+| stvaratelj | imenica | 9 | 770 |
+| nadoplata | imenica | 5 | 759 |
+| štrukle | imenica | 18 | 726 |
+| dimnjačar | imenica | 23 | 717 |
+| pomirba | imenica | 5 | 710 |
+| rutinirano | pridev, prilog | 23 | 707 |
+| suglasno | pridev, prilog | 17 | 704 |
+| favoritkinja | imenica | 60 | 675 |
+| dvoranski | pridev | 40 | 666 |
+| sudbeno | pridev, prilog | 5 | 661 |
+| godinica | imenica | 119 | 645 |
+| razigravanje | imenica | 100 | 641 |
+| pristupnik | imenica | 5 | 632 |
+| benigno | pridev, prilog | 146 | 618 |
+| škarice | imenica | 3 | 617 |
+| plinara | imenica | 9 | 612 |
+| medica | imenica | 91 | 610 |
+| redovništvo | imenica | 4 | 589 |
+| guz | imenica | 110 | 587 |
+| tabula | imenica | 136 | 583 |
+| dingač | imenica | 53 | 569 |
+| flegma | imenica | 20 | 564 |
+| rukovoditeljica | imenica | 7 | 550 |
+| ozakonjenje | imenica | 72 | 549 |
+| urica | imenica | 2 | 549 |
+| rapa | imenica | 38 | 547 |
+| devetnica | imenica | 3 | 538 |
+| doškolovanje | imenica | 25 | 530 |
+| trećeligaš | imenica | 35 | 530 |
+| devedesetak | broj | 63 | 526 |
+| turbulentno | pridev, prilog | 119 | 509 |
+| samozavaravanje | imenica | 118 | 505 |
+| zagovornica | imenica | 39 | 505 |
+| dokumentaristički | pridev | 74 | 496 |
+| kričavo | pridev, prilog | 2 | 493 |
+| kateheta | imenica | 11 | 486 |
+| siga | imenica | 107 | 482 |
+| speleolog | imenica | 77 | 476 |
+| dosita | prilog | 27 | 466 |
+| začetnica | imenica | 21 | 465 |
+| puhača | imenica | 5 | 460 |
+| šlampavo | pridev, prilog | 8 | 450 |
+| potplat | imenica | 9 | 442 |
+| boćalište | imenica | 6 | 437 |
+| zemljica | imenica | 44 | 436 |
+| mladomisnik | imenica | 5 | 434 |
+| košnja | imenica | 7 | 432 |
+| robica | imenica | 1 | 430 |
+| habit | imenica | 34 | 428 |
+| grudica | imenica | 8 | 426 |
+| cvatnja | imenica | 9 | 425 |
+| natruha | imenica | 36 | 421 |
+| pljuca | imenica, glagol | 6 | 421 |
+| zagasito | pridev, prilog | 94 | 418 |
+| kitica | imenica | 5 | 415 |
+| bastard | imenica | 60 | 412 |
+| čađavica | imenica | 15 | 403 |
+| znamenka | imenica | 5 | 399 |
+| sluganski | pridev, prilog | 9 | 387 |
+| oživotvorenje | imenica | 44 | 383 |
+| tilda | imenica | 30 | 381 |
+| grlobolja | imenica | 21 | 376 |
+| slavodobitnik | imenica | 27 | 375 |
+| poluprilika | imenica | 76 | 373 |
+| scenografkinja | imenica | 26 | 373 |
+| deterministički | pridev | 65 | 365 |
+| dražica | imenica | 6 | 364 |
+| navlas | prilog | 4 | 343 |
+| primas | imenica | 71 | 340 |
+| lovica | imenica | 11 | 337 |
+| trodnevnica | imenica | 5 | 324 |
+| uzvisina | imenica | 17 | 322 |
+| kiretaža | imenica | 68 | 320 |
+| brodograditelj | imenica | 16 | 319 |
+| stupidno | pridev, prilog | 40 | 317 |
+| vilenica | imenica | 7 | 309 |
+| rodnica | imenica | 3 | 307 |
+| stap | imenica | 63 | 307 |
+| marno | pridev, prilog | 6 | 300 |
 
 ---
 
 ## Grupa B — samo u Rečniku Matice srpske (4184 reči)
 
-Ovde treba najviše opreza — pomešane su prave retke reči i greške čitanja.
+Drugi izvor ih ne poznaje, pa **nisu proverene ni na hrvatsko**. Pomešane su prave retke reči i greške čitanja teksta.
 
 | Reč | | Reč | | Reč | | Reč |
 |---|---|---|---|---|---|---|

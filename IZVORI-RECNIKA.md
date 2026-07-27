@@ -141,6 +141,33 @@ Sme samo:
 
 Ako je reč **samo** u srLex-u, to ne znači ništa o njenoj ispravnosti.
 
+### Kako se iz njega prepoznaje hrvatsko
+
+Postoji parnjak istog resursa za hrvatski (hrLex, 6,4 miliona oblika). Reč se
+meri u **oba korpusa** i upoređuje se učestalost, normalizovana po veličini
+korpusa (hrvatski je oko 1,4× veći). Reč koja je bar **tri puta češća u
+hrvatskom** i ima bar **300 pojava** tamo označava se kao hrvatska.
+
+Primeri (apsolutni broj pojava):
+
+| Reč | srpski | hrvatski | ocena |
+|---|---:|---:|---|
+| glazba | 210 | 46.243 | hrvatska |
+| kruh | 454 | 33.955 | hrvatska |
+| val | 697 | 18.609 | hrvatska |
+| šalica | 27 | 4.250 | hrvatska |
+| tjedan | 0 | 144.855 | hrvatska |
+| srce | 31.550 | 102.947 | srpska |
+| talas | 7.427 | 0 | srpska |
+
+**Prag od 300 pojava je nužan.** Bez njega su `agrotehničar` (6 pojava u
+hrvatskom), `aritmetičar` (1) i `ekskavator` (3) ispadali „hrvatski", iako su
+samo retki u oba korpusa.
+
+**Filter nije savršen** — označio je i `sedamdesetak` i `sranje`, koje su obične
+srpske reči, samo češće u hrvatskom veb tekstu. Zato je rezultat **oznaka za
+pregled, ne presuda**.
+
 ### Licenca
 CC BY-SA 4.0 (traži navođenje autora i istu licencu za izvedeno delo).
 **Vlasnica je 27.07.2026. odlučila da se izvor ne navodi.**

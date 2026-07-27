@@ -387,6 +387,39 @@ Isti princip kao kod glagola. Nominativ ne otkriva osnovu jer se osnova menja:
 Zato: ako u rečniku već postoji genitiv, iz njega se čita prava osnova i tek
 onda grade ostali padeži. Ako genitiva nema — ne izmišljati osnovu.
 
+### Pravilo 3b — IZVOR ISTINE JE ZVANIČNA LITERATURA, NE NAŠ REČNIK (obavezno)
+
+> Uvedeno 27.07.2026. na izričit zahtev vlasnice.
+
+**`reci.txt` i `definicije.json` NISU merilo ispravnosti.** Oni su predmet
+provere. Sve dosadašnje greške nastale su zato što sam njih uzimao kao dokaz:
+u rečniku stoji pogrešan oblik `đubra`, moj kod ga pročitao kao potvrdu i
+predložio `đubru`. To je kružno rezonovanje.
+
+**Jedini dozvoljeni izvor su zvanična gramatika i pravopis srpskog jezika** —
+literatura koja se koristi u školama i na fakultetima u Republici Srbiji:
+
+- **Pravopis srpskoga jezika**, Matica srpska (važeće izdanje)
+- **Normativna gramatika srpskog jezika**, Piper–Klajn, Matica srpska
+- **Gramatika srpskog jezika**, Ivan Klajn (Zavod za udžbenike)
+- **Rečnik srpskoga jezika**, Matica srpska (jednotomnik)
+- Stanojčić–Popović, *Gramatika srpskoga jezika* (srednjoškolski udžbenik)
+
+**ZABRANJENO:** nagađanje, pretpostavljanje, „po analogiji", „verovatno je
+ovako", oslanjanje na frekvenciju kao dokaz ispravnosti, i uzimanje postojećeg
+unosa u rečniku kao potvrde da je oblik tačan.
+
+**Razlika koju treba držati na umu:**
+
+| Pitanje | Ko odgovara | Šta smem |
+|---|---|---|
+| Da li je oblik ispravno izveden? *(licu od lice)* | gramatička pravila | mogu da odlučim po pravilima |
+| Da li reč uopšte postoji u srpskom? *(steža, bajbok)* | **rečnik Matice srpske** | **ne smem da odlučim** — pitati vlasnicu ili nabaviti rečnik |
+
+Frekvencija u korpusu (`frekvencija.json`) sme da se koristi **samo za
+redosled pregleda**, nikada kao dokaz da je reč ispravna ili neispravna.
+Retka reč nije pogrešna, a česta nije automatski tačna.
+
 ### Pravilo 4 — Svaka nova reč dobija objašnjenje
 Nijedna reč ne ulazi u `reci.txt` bez unosa u `definicije.json`. Stil postojećih
 objašnjenja: *„Oblik reči brstiti (gristi lišće i mlade grane — o stoci)."*

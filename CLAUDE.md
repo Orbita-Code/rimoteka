@@ -170,14 +170,21 @@ Taj dokument postoji zato što je automatski generator ubacio u predlog rečnika
 oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
 `dreždam`). Tri pravila koja su iz toga izvedena:
 
+0. **IZVOR ISTINE JE ZVANIČNA LITERATURA, NE NAŠ REČNIK.** `reci.txt` i
+   `definicije.json` su predmet provere, ne merilo. Dozvoljeni izvori: Pravopis
+   Matice srpske, Normativna gramatika (Piper–Klajn), Klajnova gramatika,
+   Rečnik srpskoga jezika Matice srpske, Stanojčić–Popović. **Zabranjeno
+   nagađanje i „po analogiji".** Frekvencija služi samo za redosled pregleda,
+   nikad kao dokaz ispravnosti. Da li je oblik dobro izveden — odlučuju pravila;
+   da li reč uopšte postoji — odlučuje rečnik Matice srpske ili vlasnica.
 1. **Završetak reči nije dokaz vrste reči.** `bankomati`, `akrobati`, `aparati`
-   završavaju se na `-ati` ali su imenice u množini. Reč se tretira kao glagol
-   samo ako rečnik već sadrži njen radni pridev (`-ao/-io/-eo`) ili prvo lice
-   prezenta.
+   završavaju se na `-ati` ali su imenice u množini. Vrsta reči se utvrđuje po
+   gramatici, ne po završetku.
 2. **Glagol ima DVE osnove** — infinitivnu i prezentsku — i jedna se ne izvodi
    iz druge (*pisati → pišem*, *šaptati → šapćem*, *dreždati → dreždim*).
-   Obrazac prezenta se ČITA iz oblika koji već postoje u rečniku, i to samo iz
-   prvog i drugog lica. Ako ga nema — ne izmišljati.
+   Obrazac prezenta se utvrđuje po **vrsti glagola iz gramatike**. Postojeći
+   oblik u našem rečniku sme da posluži kao *trag*, ali NIJE dokaz — u rečniku
+   ima i pogrešnih oblika (`đubra`, `njakam`).
 3. **Pogrešna reč u rečniku je gora od reči koja fali.** Kad nisi siguran,
    napravi listu i pitaj vlasnicu. Ona je izvorni govornik i konačni autoritet;
    svaka njena ispravka se upisuje u dnevnik u tom dokumentu.

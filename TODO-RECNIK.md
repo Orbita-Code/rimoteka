@@ -21,19 +21,36 @@ vlasnici na odobrenje. Ništa se ne briše ni ne dodaje bez njene reči.**
 | **Gramatičko** — da li je oblik ispravno izveden | *licu* od *lice* | pravila iz gramatike | mogu automatski, po pravilima |
 | **Leksičko** — da li reč uopšte postoji | *steža*, *bajbok* | Rečnik Matice srpske | **BLOKIRANO** — vidi dole |
 
-## Blokada koju treba rešiti
+## Izvori — provereno 27.07.2026.
 
-Za leksička pitanja potreban je **Rečnik srpskoga jezika Matice srpske** u
-mašinski čitljivom obliku. Bez njega se ne sme tvrditi da reč postoji ili ne
-postoji. Mogućnosti:
-- nabaviti digitalno izdanje / pristup
-- koristiti Vikirečnik kao delimičan izvor (već imamo `sinonimi.json` odatle)
-- vlasnica ručno presuđuje sporne slučajeve
+### Normativna literatura: NIJE javno dostupna
+`Pravopis Matice srpske`, `Rečnik srpskoga jezika`, Klajnova i Piper-Klajnova
+gramatika su komercijalna izdanja pod autorskim pravom. Kopije koje kruže
+internetom su neovlašćene i **ne koriste se**. Legalan put je kupovina.
+Besplatan i legalan je jedino **Raskovnik** (raskovnik.org, Institut za srpski
+jezik SANU), ali sadrži STARE rečnike (Vukov Srpski rječnik, dijalekatske), ne
+savremenu normu.
 
-**Dok se ovo ne reši, leksička pitanja idu vlasnici na odluku.**
+### srLex 1.3 — morfološki rečnik, slobodan i mašinski čitljiv
+- **169.328 lema, 6.905.941 oblik**
+- svaki oblik ima: reč, lemu, **vrstu reči**, **padež/lice/rod/broj**, frekvenciju
+- licenca **CC BY-SA 4.0**, besplatno preuzimanje bez registracije (54 MB)
+- `http://hdl.handle.net/11356/1233` (CLARIN.SI, Institut Jožef Štefan / ReLDI)
+- **Naš `frekvencija.json` je izvučen upravo iz srLex-a — uzeti su samo brojevi,
+  a gramatičke oznake su ostale neiskorišćene.**
+
+**VAŽNA RAZLIKA:** srLex je OPISAN, ne NORMATIVAN.
+- „da li je `licu` ispravan dativ od `lice`" -> srLex odgovara pouzdano
+- „da li se piše `iskorišćavanje` ili `iskorištavanje`" -> odgovara Pravopis
+
+**LICENCA:** korišćenje srLex-a samo za PROVERU našeg rečnika ne stvara obaveze.
+Prepisivanje njegovih oblika u `reci.txt` verovatno povlači CC BY-SA i na naš
+rečnik. **Odluka je na vlasnici.**
 
 ## Redosled rada
 
+- [ ] 0. **Odluka vlasnice: preuzeti srLex 1.3 i koristiti ga za proveru?**
+      (vidi napomenu o licenci gore)
 - [ ] 1. Napraviti mašinski zapis pravila iz zvanične gramatike:
       deklinacije (tri vrste), konjugacije (vrste glagola), glasovne promene
       (nepostojano A, sibilarizacija, palatalizacija, jotovanje, jednačenja)

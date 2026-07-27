@@ -287,6 +287,44 @@ koja radi za većinu srpskih reči jer akcenat retko pada na poslednji slog.
 
 ---
 
+## 7a. PRAVILO: kako se rangiraju i prikazuju rime (obavezno)
+
+> Uvedeno 27.07.2026. na zahtev vlasnice.
+
+**Najbolja rima je ona koja ima ISTI BROJ SLOGOVA kao tražena reč.**
+
+### Zašto
+
+Prava rima počinje od **poslednjeg naglašenog samoglasnika** (poglavlje 7).
+Podatke o akcentu nemamo, a `rhymeKey` od pretposlednjeg samoglasnika je samo
+aproksimacija. Ta aproksimacija greši ovako:
+
+| Tražena reč | Rima | Zajednička slova | Stvarni kvalitet |
+|---|---|---|---|
+| rima | **štima** | 3 (`ima`) | **jaka** — akcenat na istom mestu |
+| rima | stvarima | 4 (`rima`) | slaba — `rima` je tamo nenaglašeno |
+
+Po starom pravilu („više zajedničkih slova = bolja rima") `stvarima` je bilo u
+„Najbolje rime", a `štima` je padalo na **111. mesto**. To je bilo pogrešno.
+
+**Isti broj slogova je najbolja zamena za akcenat koju imamo**, jer reči
+sličnog obima obično imaju i sličan raspored akcenta.
+
+### Kako se primenjuje
+
+**Podela na grupe:**
+- **„Najbolje rime"** — reči sa **istim brojem slogova** kao tražena reč
+- **„Dobre rime"** — reči sa drugačijim brojem slogova
+
+**Redosled unutar grupe, ovim redom:**
+1. bliži broj slogova traženoj reči
+2. duži zajednički završetak (bogatija rima)
+3. učestalost reči
+
+**Ne vraćati staro pravilo** po kome je duži zajednički završetak bio prvo
+merilo. Ono na vrh izbacuje dative i instrumentale množine (*stvarima,
+centrima, dobrima, čarima, morima*) kod kojih je zajednički deo nenaglašen.
+
 ## 8. Pravopis — najvažnije za sadržaj sajta
 
 ### 8.1 Ijekavica i ekavica (refleks jata)

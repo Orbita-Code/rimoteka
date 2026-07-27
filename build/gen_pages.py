@@ -253,7 +253,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260727a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260727e"></script>\n'
 
 
 def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,

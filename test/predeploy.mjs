@@ -506,12 +506,39 @@ async function main() {
     ok('brojač igrača pokazuje 2', nastavak.igrac.trim() === '2', `pokazuje „${nastavak.igrac}"`);
     ok('drugi igrač je dobio reč', nastavak.rec.length > 0, `reč: „${nastavak.rec}"`);
 
+    console.log('\n2b) RANGIRANJE RIMA — isti broj slogova je najbolja rima');
+    const rang = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      document.getElementById('rimeInput').value = 'rima';
+      document.getElementById('rimeBtn').click();
+      await w(1000);
+      const box = document.getElementById('rimeResults');
+      const grupe = {};
+      box.querySelectorAll('.res-group').forEach(g => {
+        const h = g.querySelector('h3'); if (!h) return;
+        grupe[h.textContent.trim()] = [...g.querySelectorAll('.word')].map(e => e.textContent.trim());
+      });
+      const najbolje = grupe['Najbolje rime'] || [];
+      const sve = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
+      return {
+        najboljeSveDvosložne: najbolje.length > 0 && najbolje.every(x => syllables(x) === 2),
+        brojNajboljih: najbolje.length,
+        stimaPozicija: sve.indexOf('štima') + 1,
+        prvih5: sve.slice(0, 5)
+      };
+    });
+    ok('„Najbolje rime" za „rima" su SVE dvosložne', rang.najboljeSveDvosložne,
+       `${rang.brojNajboljih} reči, prvih 5: ${rang.prvih5.join(', ')}`);
+    ok('„štima" je među prvih 30 rima za „rima"', rang.stimaPozicija > 0 && rang.stimaPozicija <= 30,
+       `pozicija ${rang.stimaPozicija}`);
+
     console.log('\n8c) NOVE REČI U REČNIKU (brst / brstiti / njakati)');
     const noveReci = await page.evaluate(() => {
       // Reči koje je korisnica našla da igra ne prihvata (26.07.2026).
       const trazene = ['brstu','brsta','brstom','brstiš','brstile','brstenje',
                        'obrstim','obrste','njači','njačite','njače','njačem','njaču',
-                       'amin','aminati','aminovati'];
+                       'amin','aminati','aminovati',
+                       'štima','štimati','štimam','štimaš','štimaju'];
       // Ovi oblici NE SMEJU da postoje — vlasnica je potvrdila da u srpskom
       // „njakati" ima samo palatalizovani prezent (njačem/njače), ne „njakam".
       const nesmeju = ['njakam','njakaš','njakamo','njakate','njakaju','njakaj','njakajte',

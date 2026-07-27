@@ -176,7 +176,7 @@ let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
 async function loadLocalDefs(){
   if(DEFS.size) return;
   if(defsPromise) return defsPromise;
-  defsPromise = fetch('/definicije.json?v=231')
+  defsPromise = fetch('/definicije.json?v=232')
     .then(r => r.ok ? r.json() : {})
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -188,7 +188,7 @@ async function loadLocalDefs(){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    fetch('/reci.txt?v=20260727b').then(r=>r.text()),
+    fetch('/reci.txt?v=20260727c').then(r=>r.text()),
     fetch('/reci_jekavica.txt?v=20260726').then(r=>r.text()).catch(()=> '')
   ]);
   const ekWords = ek.split('\n').filter(Boolean);
@@ -238,7 +238,7 @@ async function loadDefs(){
   if(defsLoaded) return;
   defsLoaded = true;
   try{
-    const res = await fetch('/definicije.json?v=231');
+    const res = await fetch('/definicije.json?v=232');
     const defs = await res.json();
     // Ažuriraj rangiranje sa definicijama
     for(let i=0;i<WORDS.length;i++){
@@ -383,14 +383,45 @@ function doRhymes(silent){
     if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w))) continue;
     if(KEYS[i]===key && w!==q) strong.push(w);
   }
+  /* Redosled rima — tri merila, ovim redom:
+     1. duži zajednički završetak (bogatija rima)
+     2. BLIŽI BROJ SLOGOVA traženoj reči
+     3. učestalost reči
+
+     Zašto broj slogova: prava rima počinje od poslednjeg NAGLAŠENOG
+     samoglasnika (vidi GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7).
+     Podatke o akcentu nemamo, a `rhymeKey` od pretposlednjeg samoglasnika je
+     samo aproksimacija — ona jednako tretira „rima/štima" (akcenat na istom
+     mestu, prava rima) i „rima/računarima" (zajedničko „ima" je tamo
+     nenaglašeno, dakle slabija rima). Blizina broja slogova je najbolja
+     zamena za akcenat koju imamo, jer reči sličnog obima obično imaju i
+     sličan raspored akcenta. */
+  const qSyl = syllables(q);
   strong.sort((a,b)=>{
+    // prvo blizina broja slogova, pa tek onda duži zajednički završetak
+    const ds = Math.abs(syllables(a)-qSyl) - Math.abs(syllables(b)-qSyl);
+    if(ds) return ds;
     const d = commonSuffix(q,b)-commonSuffix(q,a);
     if(d) return d;
     return RANK.get(a)-RANK.get(b);
   });
+  /* Podela na „najbolje" i „dobre" ide po BROJU SLOGOVA, ne po broju
+     zajedničkih slova.
+
+     Ranije je „najbolje" značilo „deli više slova od ključa rime". Zbog toga su
+     za „rima" na vrh izlazili „stvarima, centrima, dobrima, čarima, morima" —
+     dativi i instrumentali množine koji dele četiri slova (`rima`) — dok je
+     „štima", koje deli tri (`ima`), padalo na 111. mesto.
+
+     A u „stvarima" je to `rima` NENAGLAŠENO. Prava rima počinje od poslednjeg
+     naglašenog samoglasnika (GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7),
+     pa je „rima/štima" jača rima od „rima/stvarima", iako deli manje slova.
+
+     Podatke o akcentu nemamo. Isti broj slogova je najbolja zamena koju imamo,
+     jer reči sličnog obima obično imaju i sličan raspored akcenta. */
   const strongFiltered = filterSyl(strong);
-  const best = strongFiltered.filter(w=>commonSuffix(q,w) > keyLen).slice(0,90);
-  const good = strongFiltered.filter(w=>commonSuffix(q,w) === keyLen).slice(0,90);
+  const best = strongFiltered.filter(w=>syllables(w) === qSyl).slice(0,90);
+  const good = strongFiltered.filter(w=>syllables(w) !== qSyl).slice(0,90);
 
   // Fallback za reči sa malo savršenih rima (npr. srce, srp): isti završni slog
   let finalExtra = [];

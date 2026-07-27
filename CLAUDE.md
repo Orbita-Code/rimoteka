@@ -205,6 +205,21 @@ oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
 - NOVE reči za isključenje dodavati SAMO na eksplicitni zahtev korisnice.
 - **NE uvoditi globalna pravila bez odobrenja** — svaka reč se razmatra posebno.
 
+### 6.2a Rangiranje rima — ISTI BROJ SLOGOVA JE NAJBOLJA RIMA
+
+**„Najbolje rime" = reči sa istim brojem slogova kao tražena reč.**
+**„Dobre rime" = drugačiji broj slogova.**
+Redosled unutar grupe: bliži broj slogova → duži zajednički završetak → učestalost.
+
+Razlog: prava rima počinje od poslednjeg **naglašenog** samoglasnika, a podatke
+o akcentu nemamo. Isti broj slogova je najbolja zamena. Po starom pravilu
+(„više zajedničkih slova = bolja rima") za „rima" su na vrh izlazili
+*stvarima, centrima, dobrima* — gde je `rima` nenaglašeno — a `štima`, prava
+rima, padalo je na 111. mesto.
+
+Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
+**Ne vraćati staro pravilo.**
+
 ### 6.3 Kvalitet rima
 - Rime moraju biti validne srpske reči.
 - Ako rečnik sadrži sumnjiv/grešan oblik — prijaviti korisnici, ne preuzimati automatske odluke.

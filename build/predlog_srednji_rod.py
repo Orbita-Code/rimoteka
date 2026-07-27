@@ -50,10 +50,30 @@ for w, b in osnova_od.items(): oblici_od[b].add(w)
 
 def je_pridev(b): return (b+'og') in S or (b+'oga') in S
 
+ZBIRNI_BROJEVI = {'dvoje','troje','oboje','obadvoje'}
+
+def nije_srednji_rod(b):
+    """Reč se završava na -o/-e, a NIJE imenica srednjeg roda u jednini.
+    Sve tri greške nađene u grupi A."""
+    koren = b[:-1]
+    # 1. ženski rod, pluralia tantum: finansije, naočare, pantalone, makaze, tuče
+    #    Prepoznaju se po dativu/instrumentalu množine na -ama (finansijama).
+    #    Prava imenica srednjeg roda ga nema (nema „poljama", „licama").
+    if (koren + 'ama') in S:
+        return True
+    # 2. zbirni brojevi: petoro, šestoro, dvoje, troje
+    if b.endswith('oro') or b in ZBIRNI_BROJEVI:
+        return True
+    # 3. muške pozajmljenice na -io/-o: portfolio, radio, studio, scenario, auto
+    if b.endswith('io') or b in ('auto','bife','kupe','ateljе'):
+        return True
+    return False
+
 srednji = [b for b in oblici_od
            if len(b) > 3 and b[-1] in ('o','e')
            and not b.endswith('ti') and not b.endswith('ći')
-           and not je_pridev(b)]
+           and not je_pridev(b)
+           and not nije_srednji_rod(b)]
 
 def nadji_genitiv(b):
     """Genitiv mora da zadovolji DVA uslova istovremeno:
@@ -94,17 +114,20 @@ for b in sorted(srednji):
     # nebo → nebesa (ne „neba"), čudo → čudesa, telo → telesa. Kod njih bi iz
     # osnove „neb" ispalo „nebima" umesto „nebesima". Ako u rečniku postoji
     # proširen oblik, množinu uopšte ne predlažemo.
-    prosirena_mnozina = any((b[:-1]+x) in S for x in ('esa','ena','eta'))
-    # MNOŽINU predlažemo samo ako je već POTVRĐENA u rečniku. Mnoge imenice
-    # srednjeg roda su apstraktne ili zbirne i množinu nemaju: zdravlje, povrće,
-    # mleko, stanovništvo, osoblje, članstvo. Ranije je od njih ispadalo
-    # „zdravljima, povrćima, mlekima" — oblici koji se ne koriste.
-    # Potvrda = neki oblik ove reči je u objašnjenju označen kao množina.
-    ima_mnozinu = any(re.search(r'\(množina od ' + re.escape(b) + r'\)', defs.get(f,''), re.I)
-                      for f in oblici_od[b])
-    if ima_mnozinu and not b.endswith('nje') and not st.endswith('et') and not prosirena_mnozina:
-        ob['N/A/G mn'] = st+'a'
-        ob['D/I/L mn'] = st+'ima'
+    # MNOŽINA SE NE PREDLAŽE — ni kad objašnjenje tvrdi da postoji.
+    # Kod srednjeg roda su genitiv jednine i nominativ množine ISTI oblik
+    # (selo → sela, mleko → mleka, vino → vina). Zato nijedan zapis u
+    # definicije.json ne može da dokaže da imenica zaista ima množinu — kad
+    # tamo piše „(množina od mleko)", to je samo izbor onoga ko je pisao
+    # objašnjenje, ne gramatički dokaz. Ranije je na osnovu te „potvrde"
+    # predlagano „mlekima, vinima, pivima", a mnoge imenice srednjeg roda su
+    # apstraktne ili gradivne i množinu nemaju.
+    #
+    # ŠIRE PRAVILO: definicije.json je pouzdan za pitanje „kojoj osnovnoj reči
+    # oblik pripada", ali NIJE pouzdan za pitanje „koji je to padež".
+    #
+    # Predlažu se samo dativ/lokativ i instrumental JEDNINE — oni su
+    # jednoznačni i ne mogu se pomešati ni sa jednim drugim padežom.
 
     novi = {k: v for k, v in ob.items() if v not in S}
     if not novi: continue

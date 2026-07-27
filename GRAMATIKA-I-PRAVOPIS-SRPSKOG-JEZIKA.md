@@ -460,6 +460,18 @@ rod. Sve su iste porodice: **pogađanje umesto čitanja.**
    postoji — vlastita imena (*Arilje*, *Barajevo*) legitimno nemaju pojava u
    korpusu malih slova.
 
+8. **„Potvrda množine" iz objašnjenja je bila lažna.** Kod srednjeg roda su
+   **genitiv jednine i nominativ množine isti oblik** (*selo → sela*,
+   *mleko → mleka*). Zato zapis „(množina od mleko)" ne dokazuje da množina
+   postoji — to je izbor pisca objašnjenja. Množina se za srednji rod **ne
+   predlaže uopšte**; predlažu se samo D/L i I jednine.
+   **Šire:** `definicije.json` je pouzdan za „kojoj reči oblik pripada", ali
+   **nije** pouzdan za „koji je to padež".
+9. **Završetak na `-o`/`-e` ne znači srednji rod.** U predlog su ušli:
+   ženske *pluralia tantum* (*finansije, naočare, pantalone, makaze* —
+   prepoznaju se po obliku na `-ama`), zbirni brojevi (*petoro, dvoje*) i
+   muške pozajmljenice (*portfolio, radio, studio, auto*).
+
 **Pravilo koje iz svega sledi:** ni oblik ni objašnjenje sami nisu dovoljni.
 Kandidat mora **istovremeno** da ima dozvoljen oblik traženog padeža **i** da
 ga objašnjenje u `definicije.json` veže baš za tu reč.

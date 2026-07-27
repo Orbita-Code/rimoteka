@@ -2,124 +2,71 @@
 
 > **NIŠTA nije upisano u `reci.txt`.**
 
-Sortirano po **frekvenciji u srLex korpusu** (435.000 reči). Razlog: predlog
-nasleđuje kvalitet osnovnog rečnika — ako je osnovna reč sumnjiva, i njeni
-padeži su sumnjivi. Zato prvo idu reči za koje nema dileme.
+Predlažu se **samo dativ/lokativ i instrumental jednine** — jedini padeži
+srednjeg roda koji su jednoznačni.
 
-**Oprez kod grupe E:** frekvencija 0 ne znači automatski da reč ne postoji —
-vlastita imena (*Arilje*, *Barajevo*) legitimno ne postoje u korpusu malih
-slova. Ali tu su i pravi sumnjivi unosi: *podosoje* i *osoje* imaju obe 0.
+## Zašto nema množine
 
-## Šta se NE predlaže
+Kod srednjeg roda su **genitiv jednine i nominativ množine isti oblik**
+(*selo → sela*, *mleko → mleka*, *vino → vina*). Zato nijedan zapis u
+`definicije.json` ne može da dokaže da imenica zaista **ima** množinu — kad
+tamo piše „(množina od mleko)", to je izbor onoga ko je pisao objašnjenje, a ne
+gramatički dokaz. Ranije je na osnovu te lažne potvrde predlagano *mlekima,
+vinima, pivima*, a mnoge imenice srednjeg roda su apstraktne ili gradivne i
+množinu nemaju (*zdravlje, povrće, stanovništvo, osoblje*).
 
-- **Množina**, osim ako je već potvrđena u rečniku. Mnoge imenice srednjeg roda
-  su apstraktne ili zbirne i množinu nemaju: *zdravlje, povrće, stanovništvo,
-  osoblje, članstvo*. Ranije je od njih ispadalo *zdravljima, povrćima*.
-- Množina kod glagolskih imenica na `-nje`, kod tipa *tele* (zbirna: *telad*)
-  i kod imenica sa proširenom množinom (*nebo → nebesa*).
-- Bilo šta kod 779 imenica kojima genitiv nije potvrđen u rečniku.
+**Šire pravilo:** `definicije.json` je pouzdan za pitanje „kojoj osnovnoj reči
+oblik pripada", ali **nije** pouzdan za pitanje „koji je to padež".
 
+## Šta je izbačeno iako se završava na -o/-e
 
-## Množinski oblici — pogledaj ove posebno
+- **ženski rod, pluralia tantum**: *finansije, naočare, pantalone, makaze, tuče*
+  (prepoznaju se po obliku na `-ama`, koji pravi srednji rod nema)
+- **zbirni brojevi**: *petoro, šestoro, dvoje, troje*
+- **muške pozajmljenice**: *portfolio, radio, studio, scenario, auto*
 
-Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vinima*, *pivima*). Ukupno **110** imenica:
+## Redosled pregleda
 
-- **vino** *(frek. 10506)*: vinima
-- **mleko** *(frek. 8790)*: mlekima
-- **pivo** *(frek. 4383)*: pivima
-- **proleće** *(frek. 4122)*: prolećima
-- **prijateljstvo** *(frek. 3240)*: prijateljstvima
-- **slatko** *(frek. 3138)*: slatkima
-- **finale** *(frek. 2671)*: finalima
-- **siromaštvo** *(frek. 2381)*: siromaštvima
-- **tempo** *(frek. 2201)*: tempima
-- **detinjstvo** *(frek. 2055)*: detinjstvima
-- **grožđe** *(frek. 1884)*: grožđima
-- **testo** *(frek. 1597)*: testima
-- **tango** *(frek. 1374)*: tangima
-- **obilje** *(frek. 1232)*: obiljima
-- **gazdinstvo** *(frek. 953)*: gazdinstvima
-- **blato** *(frek. 933)*: blatima
-- **odredište** *(frek. 889)*: odredištima
-- **prebivalište** *(frek. 873)*: prebivalištima
-- **bekstvo** *(frek. 847)*: bekstvima
-- **polufinale** *(frek. 827)*: polufinalima
-- **ropstvo** *(frek. 808)*: ropstvima
-- **olovo** *(frek. 801)*: olovima
-- **prokletstvo** *(frek. 777)*: prokletstvima
-- **saučešće** *(frek. 693)*: saučešćima
-- **stepenište** *(frek. 674)*: stepeništima
-- **šetalište** *(frek. 665)*: šetalištima
-- **poluostrvo** *(frek. 626)*: poluostrvima
-- **roditeljstvo** *(frek. 602)*: roditeljstvima
-- **ustrojstvo** *(frek. 567)*: ustrojstvima
-- **primirje** *(frek. 511)*: primirjima
-- **beznađe** *(frek. 486)*: beznađima
-- **boravište** *(frek. 477)*: boravištima
-- **neprijateljstvo** *(frek. 470)*: neprijateljstvima
-- **klupko** *(frek. 435)*: klupkima
-- **rumenilo** *(frek. 421)*: rumenilima
-- **blaženstvo** *(frek. 404)*: blaženstvima
-- **prenoćište** *(frek. 347)*: prenoćištima
-- **savezništvo** *(frek. 334)*: savezništvima
-- **nadahnuće** *(frek. 333)*: nadahnućima
-- **punomoćje** *(frek. 331)*: punomoćjima
-- … i još 70
+Sortirano po **frekvenciji u srLex korpusu** (435.000 reči) — predlog nasleđuje
+kvalitet osnovnog rečnika.
+
+**Oprez kod grupe E:** frekvencija 0 ne znači da reč ne postoji — vlastita imena
+(*Arilje*, *Barajevo*) legitimno nemaju pojava u korpusu malih slova. Ali tu su i
+pravi sumnjivi unosi: *podosoje* i *osoje* imaju obe 0.
+
 
 ---
 
 ## Grupa A — česte reči (1000+) — bez dileme
 
-**63 imenica, 79 oblika**
+**44 imenica, 53 oblika**
 
 - **lice** *(frek. 28781, gen. lica)* — Prednji deo glave.
   - D/L jd = **licu**
-- **vino** *(frek. 10506, gen. vina)* — Alkoholno piće od grožđa.
-  - D/I/L mn = **vinima**
-- **mleko** *(frek. 8790, gen. mleka)* — Bela tečnost kojom se hrane bebe i mladunci; daju je krave.
-  - D/I/L mn = **mlekima**
 - **trajanje** *(frek. 4717, gen. trajanja)* — Koliko dugo nešto traje.
   - I jd = **trajanjem**
-- **pivo** *(frek. 4383, gen. piva)* — Penušavo alkoholno piće od ječmenog slada i hmelja.
-  - D/I/L mn = **pivima**
-- **proleće** *(frek. 4122, gen. proleća)* — Godišnje doba kad priroda procveta.
-  - D/I/L mn = **prolećima**
 - **obrazloženje** *(frek. 3873, gen. obrazloženja)* — Iznošenje razloga; objašnjenje odluke.
   - D/L jd = **obrazloženju**
-- **petoro** *(frek. 3782, gen. petora)* — Zbirni broj: pet osoba.
-  - D/L jd = **petoru**, I jd = **petorom**
 - **ostvarenje** *(frek. 3496, gen. ostvarenja)* — Pretvaranje zamisli u stvarnost.
   - I jd = **ostvarenjem**
 - **predsedništvo** *(frek. 3376, gen. predsedništva)* — Oblik reči „predsedništvo“; organ na čelu neke celine; preds
   - D/L jd = **predsedništvu**, I jd = **predsedništvom**
-- **finansije** *(frek. 3273, gen. finansija)* — Novčana sredstva i poslovi sa novcem.
-  - D/L jd = **finansiju**, I jd = **finansijem**
-- **prijateljstvo** *(frek. 3240, gen. prijateljstva)* — Topao odnos između prijatelja.
-  - D/I/L mn = **prijateljstvima**
-- **slatko** *(frek. 3138, gen. slatka)* — Poslastica od ukuvanog voća u gustom sirupu.
-  - D/I/L mn = **slatkima**
 - **angažovanje** *(frek. 3120, gen. angažovanja)* — Uključivanje u posao ili zadatak.
   - I jd = **angažovanjem**
 - **opredeljenje** *(frek. 2984, gen. opredeljenja)* — Svesno opredeljivanje i izbor.
   - I jd = **opredeljenjem**
 - **finale** *(frek. 2671, gen. finala)* — Završni deo takmičenja ili dela; završnica.
-  - I jd = **finalem**, D/I/L mn = **finalima**
+  - I jd = **finalem**
 - **poluvreme** *(frek. 2470, gen. poluvremena)* — Polovina utakmice; pauza na sredini.
   - I jd = **poluvremenom**
-- **siromaštvo** *(frek. 2381, gen. siromaštva)* — Stanje oskudice; nemaština.
-  - D/I/L mn = **siromaštvima**
 - **prijavljivanje** *(frek. 2348, gen. prijavljivanja)* — Podnošenje prijave; javljanje vlasti.
   - I jd = **prijavljivanjem**
-- **naočare** *(frek. 2331, gen. naočara)* — Stakla u okviru koja pomažu da se bolje vidi.
-  - D/L jd = **naočaru**, I jd = **naočarem**
 - **jaje** *(frek. 2311, gen. jaja)* — Ovalni plod kokoške od kog se izleže pile.
   - D/L jd = **jaju**
 - **obeležavanje** *(frek. 2309, gen. obeležavanja)* — Stavljanje oznaka; svečano obeležavanje datuma.
   - D/L jd = **obeležavanju**, I jd = **obeležavanjem**
 - **podsticanje** *(frek. 2212, gen. podsticanja)* — Podstrekivanje i ohrabrivanje na nešto.
   - I jd = **podsticanjem**
-- **tempo** *(frek. 2201, gen. tempa)* — Brzina kojom nešto teče ili se izvodi.
-  - D/I/L mn = **tempima**
 - **poskupljenje** *(frek. 2193, gen. poskupljenja)* — Povećanje cene.
   - I jd = **poskupljenjem**
 - **informisanje** *(frek. 2132, gen. informisanja)* — Obaveštavanje i prikupljanje vesti.
@@ -128,8 +75,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **definisanjem**
 - **pravoslavlje** *(frek. 2084, gen. pravoslavlja)* — Pravoslavna grana hrišćanstva; pravoslavlje.
   - I jd = **pravoslavljem**
-- **detinjstvo** *(frek. 2055, gen. detinjstva)* — Doba dok smo deca.
-  - D/I/L mn = **detinjstvima**
 - **obezbeđivanje** *(frek. 2047, gen. obezbeđivanja)* — Oblik reči obezbeđivanje (osiguravanje, zaštita).
   - I jd = **obezbeđivanjem**
 - **usavršavanje** *(frek. 2024, gen. usavršavanja)* — Postizanje veće veštine; unapređivanje.
@@ -138,22 +83,14 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **godištem**
 - **svedočanstvo** *(frek. 1898, gen. svedočanstva)* — Školska isprava sa ocenama.
   - D/L jd = **svedočanstvu**, I jd = **svedočanstvom**
-- **grožđe** *(frek. 1884, gen. grožđa)* — Voće u grozdovima od kog se pravi i sok i vino.
-  - D/I/L mn = **grožđima**
 - **usklađivanje** *(frek. 1832, gen. usklađivanja)* — Dovođenje u sklad i ravnotežu.
   - D/L jd = **usklađivanju**, I jd = **usklađivanjem**
 - **konzumiranje** *(frek. 1814, gen. konzumiranja)* — Trošenje i uzimanje, npr. hrane.
   - I jd = **konzumiranjem**
-- **tuče** *(frek. 1752, gen. tučeta)* — Padavine od ledenih zrna; grad (množina od tuča).
-  - D/L jd = **tučetu**, I jd = **tučetom**
-- **pantalone** *(frek. 1747, gen. pantalona)* — Odevni komad za noge.
-  - D/L jd = **pantalonu**, I jd = **pantalonem**
 - **jevanđelje** *(frek. 1742, gen. jevanđelja)* — Sveta knjiga o Hristovom životu i učenju.
   - I jd = **jevanđeljem**
 - **zaduživanje** *(frek. 1654, gen. zaduživanja)* — Uzimanje na dug.
   - I jd = **zaduživanjem**
-- **testo** *(frek. 1597, gen. testa)* — Smesa od brašna i vode za hleb i kolače.
-  - D/I/L mn = **testima**
 - **preduzetništvo** *(frek. 1580, gen. preduzetništva)* — Vođenje sopstvenog posla i preuzimanje poslovnog rizika radi
   - D/L jd = **preduzetništvu**, I jd = **preduzetništvom**
 - **insistiranje** *(frek. 1538, gen. insistiranja)* — Uporno zahtevanje i navaljivanje.
@@ -170,14 +107,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **osposobljavanju**, I jd = **osposobljavanjem**
 - **učestvovanje** *(frek. 1423, gen. učestvovanja)* — Uzimanje učešća u nečemu.
   - I jd = **učestvovanjem**
-- **tango** *(frek. 1374, gen. tanga)* — Strastveni latinoamerički ples u paru.
-  - D/I/L mn = **tangima**
 - **skladištenje** *(frek. 1345, gen. skladištenja)* — Čuvanje robe u skladištu.
   - D/L jd = **skladištenju**, I jd = **skladištenjem**
-- **portfolio** *(frek. 1300, gen. portfolia)* — Zbirka radova ili ulaganja koja predstavlja nekoga.
-  - D/L jd = **portfoliu**, I jd = **portfoliom**
-- **obilje** *(frek. 1232, gen. obilja)* — Velika količina, izobilje.
-  - D/I/L mn = **obiljima**
 - **đubre** *(frek. 1220, gen. đubra)* — Smeće, otpaci; takođe stajsko đubrivo.
   - D/L jd = **đubru**, I jd = **đubrem**
 - **stanovište** *(frek. 1199, gen. stanovišta)* — Gledište, stav, tačka gledanja; stanovište.
@@ -203,7 +134,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 
 ## Grupa B — uobičajene (100–999)
 
-**573 imenica, 754 oblika**
+**522 imenica, 671 oblika**
 
 - **inženjerstvo** *(frek. 998, gen. inženjerstva)* — Struka i delatnost inženjera.
   - I jd = **inženjerstvom**
@@ -212,17 +143,13 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **olakšanje** *(frek. 995, gen. olakšanja)* — Prijatan osećaj kad prođe briga.
   - D/L jd = **olakšanju**
 - **gazdinstvo** *(frek. 953, gen. gazdinstva)* — Domaćinstvo i imanje na kome se privređuje.
-  - I jd = **gazdinstvom**, D/I/L mn = **gazdinstvima**
+  - I jd = **gazdinstvom**
 - **žitije** *(frek. 949, gen. žitija)* — Opis života svetitelja.
   - I jd = **žitijem**
 - **utvrđenje** *(frek. 945, gen. utvrđenja)* — Odbrambeni objekat; tvrđava.
   - I jd = **utvrđenjem**
 - **umrežavanje** *(frek. 942, gen. umrežavanja)* — Povezivanje u mrežu.
   - I jd = **umrežavanjem**
-- **blato** *(frek. 933, gen. blata)* — Mešavina zemlje i vode, kal.
-  - D/I/L mn = **blatima**
-- **devetoro** *(frek. 932, gen. devetora)* — Zbirni broj: devet osoba mešovitog pola.
-  - D/L jd = **devetoru**, I jd = **devetorom**
 - **preispitivanje** *(frek. 930, gen. preispitivanja)* — Ponovno ispitivanje; preispitivanje odluke.
   - D/L jd = **preispitivanju**
 - **ugrožavanje** *(frek. 921, gen. ugrožavanja)* — Dovođenje u opasnost.
@@ -235,40 +162,30 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **regulisanju**, I jd = **regulisanjem**
 - **pristupanje** *(frek. 891, gen. pristupanja)* — Stupanje u članstvo; pristup nečemu.
   - I jd = **pristupanjem**
-- **odredište** *(frek. 889, gen. odredišta)* — Mesto do kojeg se putuje; cilj puta.
-  - D/I/L mn = **odredištima**
 - **investiranje** *(frek. 886, gen. investiranja)* — Ulaganje novca radi dobiti.
   - I jd = **investiranjem**
 - **negovanje** *(frek. 880, gen. negovanja)* — Brižna briga; održavanje i nega.
   - D/L jd = **negovanju**
 - **prebivalište** *(frek. 873, gen. prebivališta)* — Mesto gde neko stalno živi.
-  - I jd = **prebivalištem**, D/I/L mn = **prebivalištima**
+  - I jd = **prebivalištem**
 - **uredništvo** *(frek. 869, gen. uredništva)* — Redakcija, telo i prostor u kome se uređuju novine, časopis 
   - I jd = **uredništvom**
 - **ograničavanje** *(frek. 852, gen. ograničavanja)* — Postavljanje granica i sužavanje.
   - I jd = **ograničavanjem**
-- **bekstvo** *(frek. 847, gen. bekstva)* — Bežanje; beg od opasnosti.
-  - D/I/L mn = **bekstvima**
 - **vrednovanje** *(frek. 832, gen. vrednovanja)* — Određivanje vrednosti; ocenjivanje.
   - I jd = **vrednovanjem**
 - **polufinale** *(frek. 827, gen. polufinala)* — Pretposlednje kolo takmičenja pred finale.
-  - I jd = **polufinalem**, D/I/L mn = **polufinalima**
+  - I jd = **polufinalem**
 - **odlučivanje** *(frek. 816, gen. odlučivanja)* — Donošenje odluka.
   - I jd = **odlučivanjem**
 - **nerazumevanje** *(frek. 813, gen. nerazumevanja)* — Nedostatak razumevanja i sporazumevanja; nerazumevanje.
   - I jd = **nerazumevanjem**
 - **oblikovanje** *(frek. 812, gen. oblikovanja)* — Davanje oblika i forme.
   - I jd = **oblikovanjem**
-- **ropstvo** *(frek. 808, gen. ropstva)* — Stanje roba; potpuna nesloboda.
-  - D/I/L mn = **ropstvima**
-- **olovo** *(frek. 801, gen. olova)* — Mek, težak sivi metal.
-  - D/I/L mn = **olovima**
 - **stočarstvo** *(frek. 788, gen. stočarstva)* — Gajenje stoke.
   - I jd = **stočarstvom**
 - **zajedništvo** *(frek. 783, gen. zajedništva)* — Osećaj pripadnosti i zajedničkog života; sloga.
   - I jd = **zajedništvom**
-- **prokletstvo** *(frek. 777, gen. prokletstva)* — Kletva; stanje proklete sudbine.
-  - D/I/L mn = **prokletstvima**
 - **osnaživanje** *(frek. 774, gen. osnaživanja)* — Davanje snage i jačanje.
   - D/L jd = **osnaživanju**, I jd = **osnaživanjem**
 - **odmaralište** *(frek. 764, gen. odmarališta)* — Mesto za odmor i oporavak.
@@ -279,8 +196,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **znojenju**
 - **predviđanje** *(frek. 751, gen. predviđanja)* — Unapred sagledavanje onoga što će biti.
   - I jd = **predviđanjem**
-- **gaće** *(frek. 743, gen. gaća)* — Donji veš; donje rublje.
-  - D/L jd = **gaću**, I jd = **gaćem**
 - **blagostanje** *(frek. 719, gen. blagostanja)* — Stanje udobnog i sigurnog života.
   - I jd = **blagostanjem**
 - **protivljenje** *(frek. 718, gen. protivljenja)* — Suprotstavljanje; opiranje.
@@ -289,14 +204,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **zakazivanjem**
 - **usporavanje** *(frek. 702, gen. usporavanja)* — Smanjivanje brzine; oduzimanje tempa.
   - I jd = **usporavanjem**
-- **saučešće** *(frek. 693, gen. saučešća)* — Saosećanje sa tuđom tugom; saosećajnost.
-  - D/I/L mn = **saučešćima**
 - **oporezivanje** *(frek. 683, gen. oporezivanja)* — Uvođenje i naplata poreza.
   - I jd = **oporezivanjem**
-- **stepenište** *(frek. 674, gen. stepeništa)* — Niz stepenika, basamaci.
-  - D/I/L mn = **stepeništima**
-- **šetalište** *(frek. 665, gen. šetališta)* — Uređena staza za šetnju.
-  - D/I/L mn = **šetalištima**
 - **posredovanje** *(frek. 656, gen. posredovanja)* — Posredno delovanje između dve strane.
   - I jd = **posredovanjem**
 - **navodnjavanje** *(frek. 652, gen. navodnjavanja)* — Dovođenje vode na useve.
@@ -312,7 +221,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **usmeravanje** *(frek. 632, gen. usmeravanja)* — Davanje pravca i upravljanje tokom.
   - I jd = **usmeravanjem**
 - **poluostrvo** *(frek. 626, gen. poluostrva)* — Kopno okruženo vodom sa tri strane.
-  - I jd = **poluostrvom**, D/I/L mn = **poluostrvima**
+  - I jd = **poluostrvom**
 - **zbrinjavanje** *(frek. 624, gen. zbrinjavanja)* — Staranje i obezbeđivanje nekome.
   - I jd = **zbrinjavanjem**
 - **šišanje** *(frek. 622, gen. šišanja)* — Skraćivanje kose ili vune makazama.
@@ -327,8 +236,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **narušavanjem**
 - **rukovođenje** *(frek. 606, gen. rukovođenja)* — Vođenje posla ili grupe; upravljanje.
   - I jd = **rukovođenjem**
-- **roditeljstvo** *(frek. 602, gen. roditeljstva)* — Svojstvo i uloga roditelja.
-  - D/I/L mn = **roditeljstvima**
 - **obeštećenje** *(frek. 588, gen. obeštećenja)* — Naknada za pretrpljenu štetu.
   - I jd = **obeštećenjem**
 - **novorođenče** *(frek. 587, gen. novorođenčeta)* — Tek rođena beba.
@@ -343,12 +250,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **priključenjem**
 - **zaključivanje** *(frek. 570, gen. zaključivanja)* — Izvođenje zaključka rasuđivanjem.
   - I jd = **zaključivanjem**
-- **ustrojstvo** *(frek. 567, gen. ustrojstva)* — Unutrašnje uređenje; poredak i sklop.
-  - D/I/L mn = **ustrojstvima**
 - **izvršavanje** *(frek. 562, gen. izvršavanja)* — Sprovođenje i obavljanje naloga.
   - I jd = **izvršavanjem**
-- **padavine** *(frek. 551, gen. padavina)* — Atmosferska voda koja pada: kiša, sneg, grad.
-  - D/L jd = **padavinu**, I jd = **padavinem**
 - **trgovište** *(frek. 547, gen. trgovišta)* — Trg, pijaca; trgovački gradić.
   - I jd = **trgovištem**
 - **istezanje** *(frek. 543, gen. istezanja)* — Vežbe rastezanja mišića radi gipkosti.
@@ -371,10 +274,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **kombinovanju**
 - **ispravljanje** *(frek. 514, gen. ispravljanja)* — Vraćanje u uspravan ili pravilan oblik.
   - I jd = **ispravljanjem**
-- **primirje** *(frek. 511, gen. primirja)* — Privremeni prekid borbi.
-  - D/I/L mn = **primirjima**
-- **gusle** *(frek. 505, gen. gusla)* — Narodni instrument sa jednom žicom uz koji se peva.
-  - D/L jd = **guslu**, I jd = **guslem**
 - **proterivanje** *(frek. 505, gen. proterivanja)* — Isterivanje i progon iz zemlje.
   - I jd = **proterivanjem**
 - **proširivanje** *(frek. 505, gen. proširivanja)* — Činjenje širim i obuhvatnijim.
@@ -385,18 +284,12 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **prihvatilištem**
 - **strelište** *(frek. 491, gen. strelišta)* — Mesto uređeno za vežbanje gađanja iz oružja ili luka.
   - I jd = **strelištem**
-- **beznađe** *(frek. 486, gen. beznađa)* — Stanje bez nade.
-  - D/I/L mn = **beznađima**
-- **boravište** *(frek. 477, gen. boravišta)* — Mesto gde neko boravi, prebivalište.
-  - D/I/L mn = **boravištima**
 - **sastavljanje** *(frek. 474, gen. sastavljanja)* — Spajanje delova u celinu; sklapanje.
   - I jd = **sastavljanjem**
 - **povećavanje** *(frek. 471, gen. povećavanja)* — Činjenje većim po broju ili veličini.
   - I jd = **povećavanjem**
 - **razlikovanje** *(frek. 471, gen. razlikovanja)* — Uočavanje razlika; raspoznavanje.
   - D/L jd = **razlikovanju**, I jd = **razlikovanjem**
-- **neprijateljstvo** *(frek. 470, gen. neprijateljstva)* — Stanje neprijatelja; mržnja i sukob.
-  - D/I/L mn = **neprijateljstvima**
 - **upoređivanje** *(frek. 470, gen. upoređivanja)* — Gledanje sličnosti i razlika; poređenje.
   - D/L jd = **upoređivanju**
 - **prekoračenje** *(frek. 463, gen. prekoračenja)* — Prelaženje dozvoljene granice.
@@ -415,8 +308,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **mirovanjem**
 - **odlikovanje** *(frek. 437, gen. odlikovanja)* — Zvanično priznanje; orden, medalja.
   - I jd = **odlikovanjem**
-- **klupko** *(frek. 435, gen. klupka)* — Smotana pređa u loptu.
-  - D/I/L mn = **klupkima**
 - **predlaganje** *(frek. 435, gen. predlaganja)* — Iznošenje predloga.
   - I jd = **predlaganjem**
 - **klizalište** *(frek. 434, gen. klizališta)* — Uređena ledena površina za klizanje.
@@ -431,16 +322,12 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **samoopredeljenju**, I jd = **samoopredeljenjem**
 - **naseljavanje** *(frek. 421, gen. naseljavanja)* — Nastanjivanje ljudi na nekom prostoru.
   - I jd = **naseljavanjem**
-- **rumenilo** *(frek. 421, gen. rumenila)* — Crvenilo na obrazima.
-  - D/I/L mn = **rumenilima**
 - **rivalstvo** *(frek. 420, gen. rivalstva)* — Suparništvo; nadmetanje sa protivnikom.
   - I jd = **rivalstvom**
 - **bojenje** *(frek. 417, gen. bojenja)* — Davanje boje nečemu.
   - D/L jd = **bojenju**
 - **žumance** *(frek. 417, gen. žumanca)* — Žuti deo jajeta.
   - D/L jd = **žumancu**
-- **gaćice** *(frek. 415, gen. gaćica)* — Donji veš, male gaće.
-  - D/L jd = **gaćicu**, I jd = **gaćicem**
 - **preobraženje** *(frek. 410, gen. preobraženja)* — Potpuna promena izgleda ili suštine.
   - I jd = **preobraženjem**
 - **svetilište** *(frek. 409, gen. svetilišta)* — Sveto mesto; mesto bogosluženja.
@@ -449,8 +336,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **peckanju**
 - **fokusiranje** *(frek. 406, gen. fokusiranja)* — Usredsređivanje pažnje ili izoštravanje slike.
   - I jd = **fokusiranjem**
-- **blaženstvo** *(frek. 404, gen. blaženstva)* — Najveća sreća i spokoj.
-  - D/I/L mn = **blaženstvima**
 - **stajalište** *(frek. 400, gen. stajališta)* — Mesto gde staje autobus ili tramvaj.
   - I jd = **stajalištem**
 - **označavanje** *(frek. 399, gen. označavanja)* — Stavljanje oznaka i obeležavanje.
@@ -465,10 +350,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **produbljivanju**, I jd = **produbljivanjem**
 - **dežurstvo** *(frek. 391, gen. dežurstva)* — Služba u određeno vreme po rasporedu.
   - I jd = **dežurstvom**
-- **makaze** *(frek. 391, gen. makaza)* — Alatka sa dva sečiva za sečenje.
-  - D/L jd = **makazu**, I jd = **makazem**
-- **pisanije** *(frek. 386, gen. pisanija)* — Spis, sastav, pisanije; pisanije.
-  - I jd = **pisanijem**
 - **drugarstvo** *(frek. 385, gen. drugarstva)* — Druženje i sloga među drugovima.
   - I jd = **drugarstvom**
 - **zadovoljavanje** *(frek. 383, gen. zadovoljavanja)* — Ispunjavanje potreba i zahteva.
@@ -515,8 +396,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **porodilištem**
 - **umnožavanje** *(frek. 348, gen. umnožavanja)* — Pravljenje više primeraka; razmnožavanje.
   - I jd = **umnožavanjem**
-- **prenoćište** *(frek. 347, gen. prenoćišta)* — Mesto gde se može prenoćiti.
-  - D/I/L mn = **prenoćištima**
 - **izdržavanje** *(frek. 343, gen. izdržavanja)* — Snabdevanje sredstvima za život; takođe trpljenje.
   - I jd = **izdržavanjem**
 - **odstranjivanje** *(frek. 342, gen. odstranjivanja)* — Uklanjanje i izbacivanje.
@@ -530,11 +409,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **promišljanje** *(frek. 334, gen. promišljanja)* — Pažljivo razmišljanje pre odluke.
   - I jd = **promišljanjem**
 - **savezništvo** *(frek. 334, gen. savezništva)* — Odnos saveznika; savez.
-  - I jd = **savezništvom**, D/I/L mn = **savezništvima**
+  - I jd = **savezništvom**
 - **snalaženje** *(frek. 334, gen. snalaženja)* — Sposobnost da se snađe u prilikama.
   - I jd = **snalaženjem**
-- **nadahnuće** *(frek. 333, gen. nadahnuća)* — Stvaralački zanos; inspiracija.
-  - D/I/L mn = **nadahnućima**
 - **podržavanje** *(frek. 332, gen. podržavanja)* — Pružanje podrške; pridržavanje.
   - I jd = **podržavanjem**
 - **učitavanje** *(frek. 332, gen. učitavanja)* — Unošenje podataka u uređaj.
@@ -542,7 +419,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **zatišje** *(frek. 332, gen. zatišja)* — Mir posle nevremena, bez vetra.
   - I jd = **zatišjem**
 - **punomoćje** *(frek. 331, gen. punomoćja)* — Ovlašćenje za zastupanje; punomoćje.
-  - D/L jd = **punomoćju**, D/I/L mn = **punomoćjima**
+  - D/L jd = **punomoćju**
 - **odojče** *(frek. 330, gen. odojčeta)* — Beba koja se još doji.
   - I jd = **odojčetom**
 - **pridruživanje** *(frek. 328, gen. pridruživanja)* — Priključivanje grupi ili pokretu.
@@ -567,10 +444,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **pojašnjenju**, I jd = **pojašnjenjem**
 - **svratište** *(frek. 317, gen. svratišta)* — Gostionica sa prenoćištem pored puta.
   - I jd = **svratištem**
-- **potkrovlje** *(frek. 316, gen. potkrovlja)* — Prostor ili stan odmah ispod krova.
-  - D/I/L mn = **potkrovljima**
-- **tornado** *(frek. 316, gen. tornada)* — Vrtložna oluja u obliku levka.
-  - D/I/L mn = **tornadima**
 - **filtriranje** *(frek. 313, gen. filtriranja)* — Proceđivanje kroz filter; prečišćavanje.
   - D/L jd = **filtriranju**
 - **poigravanje** *(frek. 313, gen. poigravanja)* — Lako i prezrivo postupanje s nekim.
@@ -597,8 +470,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **anketiranju**, I jd = **anketiranjem**
 - **geslo** *(frek. 298, gen. gesla)* — Lozinka, parola; vodeća misao po kojoj se neko upravlja.
   - D/L jd = **geslu**
-- **karaoke** *(frek. 296, gen. karaoka)* — Pevanje uz snimljenu muziku radi zabave.
-  - D/L jd = **karaoku**, I jd = **karaokem**
 - **pomagalo** *(frek. 294, gen. pomagala)* — Sprava koja pomaže pri radu.
   - D/L jd = **pomagalu**, I jd = **pomagalom**
 - **bodovanje** *(frek. 292, gen. bodovanja)* — Dodeljivanje bodova ili poena.
@@ -630,7 +501,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **zaostajanje** *(frek. 281, gen. zaostajanja)* — Ostajanje iza drugih.
   - I jd = **zaostajanjem**
 - **klizište** *(frek. 280, gen. klizišta)* — Klizanje zemljišta niz padinu.
-  - D/L jd = **klizištu**, I jd = **klizištem**, D/I/L mn = **klizištima**
+  - D/L jd = **klizištu**, I jd = **klizištem**
 - **stezanje** *(frek. 280, gen. stezanja)* — Čvrsto pritiskanje; sužavanje.
   - I jd = **stezanjem**
 - **praznovanje** *(frek. 278, gen. praznovanja)* — Svečano obeležavanje praznika.
@@ -666,9 +537,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **sponzorstvo** *(frek. 264, gen. sponzorstva)* — Novčana podrška uz reklamu.
   - I jd = **sponzorstvom**
 - **lečilište** *(frek. 263, gen. lečilišta)* — Mesto i ustanova za lečenje i oporavak; lečilište.
-  - I jd = **lečilištem**, D/I/L mn = **lečilištima**
+  - I jd = **lečilištem**
 - **maslo** *(frek. 262, gen. masla)* — Prečišćen topljeni maslac.
-  - D/L jd = **maslu**, D/I/L mn = **maslima**
+  - D/L jd = **maslu**
 - **suženje** *(frek. 262, gen. suženja)* — Smanjivanje širine.
   - D/L jd = **suženju**, I jd = **suženjem**
 - **poslanstvo** *(frek. 261, gen. poslanstva)* — Diplomatsko predstavništvo; misija.
@@ -684,19 +555,17 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **ukrašavanje** *(frek. 257, gen. ukrašavanja)* — Lepšanje dodavanjem ukrasa.
   - I jd = **ukrašavanjem**
 - **materinstvo** *(frek. 255, gen. materinstva)* — Stanje i osećaj majke prema detetu.
-  - D/L jd = **materinstvu**, I jd = **materinstvom**, D/I/L mn = **materinstvima**
+  - D/L jd = **materinstvu**, I jd = **materinstvom**
 - **psovanje** *(frek. 255, gen. psovanja)* — Izgovaranje psovki, ružnih reči.
   - D/L jd = **psovanju**
 - **vinogradarstvo** *(frek. 254, gen. vinogradarstva)* — Gajenje vinove loze.
   - D/L jd = **vinogradarstvu**, I jd = **vinogradarstvom**
 - **iniciranje** *(frek. 253, gen. iniciranja)* — Oblik reči „iniciranje“; pokretanje i započinjanje; davanje 
   - I jd = **iniciranjem**
-- **lale** *(frek. 251, gen. laleta)* — Prolećni čašasti cvetovi (množina od lala).
-  - D/L jd = **laletu**, I jd = **laletom**
 - **tele** *(frek. 251, gen. teleta)* — Mladunče krave.
   - I jd = **teletom**
 - **ticalo** *(frek. 251, gen. ticala)* — Izduženi osetljivi pipak insekta na glavi, antena.
-  - D/L jd = **ticalu**, I jd = **ticalom**, D/I/L mn = **ticalima**
+  - D/L jd = **ticalu**, I jd = **ticalom**
 - **presvlačenje** *(frek. 248, gen. presvlačenja)* — Promena odeće.
   - D/L jd = **presvlačenju**
 - **razbojništvo** *(frek. 247, gen. razbojništva)* — Pljačka uz nasilje; razbojnička dela.
@@ -707,8 +576,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **zahlađenju**
 - **ovaploćenje** *(frek. 244, gen. ovaploćenja)* — Dobijanje telesnog oblika; otelovljenje.
   - I jd = **ovaploćenjem**
-- **sujeverje** *(frek. 244, gen. sujeverja)* — Verovanje u zle znake i čari; praznoverje.
-  - D/I/L mn = **sujeverjima**
 - **tuce** *(frek. 243, gen. tuceta)* — Količina od dvanaest komada.
   - D/L jd = **tucetu**
 - **nagomilavanje** *(frek. 242, gen. nagomilavanja)* — Stvaranje velikih gomila.
@@ -739,8 +606,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **gledalištem**
 - **sučeljavanje** *(frek. 231, gen. sučeljavanja)* — Oblik reči sučeljavanje (suočavanje, suprotstavljanje).
   - I jd = **sučeljavanjem**
-- **hodočašće** *(frek. 230, gen. hodočašća)* — Putovanje na sveto mesto.
-  - D/I/L mn = **hodočašćima**
 - **mazanje** *(frek. 230, gen. mazanja)* — Premazivanje mašću ili kremom; podmazivanje.
   - D/L jd = **mazanju**
 - **sahranjivanje** *(frek. 229, gen. sahranjivanja)* — Obred polaganja umrlog u grob; pogreb.
@@ -749,8 +614,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **ležanju**
 - **propuštanje** *(frek. 226, gen. propuštanja)* — Dopuštanje prolaza; izostavljanje prilike.
   - D/L jd = **propuštanju**, I jd = **propuštanjem**
-- **ždrelo** *(frek. 226, gen. ždrela)* — Uzan ulaz u klisuru; zadnji deo grla.
-  - D/I/L mn = **ždrelima**
 - **saopštavanje** *(frek. 225, gen. saopštavanja)* — Prenošenje vesti; obaveštavanje.
   - D/L jd = **saopštavanju**, I jd = **saopštavanjem**
 - **poletanje** *(frek. 224, gen. poletanja)* — Trenutak kad se avion ili ptica odvoji od tla i digne u vazd
@@ -766,9 +629,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **dopisivanje** *(frek. 218, gen. dopisivanja)* — Razmena pisama; korespondencija.
   - I jd = **dopisivanjem**
 - **ogledalce** *(frek. 218, gen. ogledalca)* — Malo ogledalo.
-  - D/L jd = **ogledalcu**, I jd = **ogledalcem**, D/I/L mn = **ogledalcima**
-- **kormilo** *(frek. 217, gen. kormila)* — Sprava kojom se upravlja brodom ili kolima.
-  - D/I/L mn = **kormilima**
+  - D/L jd = **ogledalcu**, I jd = **ogledalcem**
 - **obilježje** *(frek. 217, gen. obilježja)* — Obeležje, znak, karakteristika (ijekavski).
   - D/L jd = **obilježju**
 - **mlaćenje** *(frek. 216, gen. mlaćenja)* — Snažno udaranje; takođe izdvajanje zrna iz klasja (glagolska
@@ -793,8 +654,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **devojčetu**
 - **izlučivanje** *(frek. 210, gen. izlučivanja)* — Odvajanje i izbacivanje iz organizma.
   - D/L jd = **izlučivanju**, I jd = **izlučivanjem**
-- **očinstvo** *(frek. 210, gen. očinstva)* — Svojstvo i uloga oca.
-  - D/I/L mn = **očinstvima**
 - **poklanjanje** *(frek. 210, gen. poklanjanja)* — Davanje na poklon; darivanje.
   - D/L jd = **poklanjanju**
 - **zagađivanje** *(frek. 210, gen. zagađivanja)* — Prljanje okoline štetnim materijama.
@@ -813,8 +672,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **računalom**
 - **osvežavanje** *(frek. 207, gen. osvežavanja)* — Vraćanje svežine i snage.
   - I jd = **osvežavanjem**
-- **predvorje** *(frek. 206, gen. predvorja)* — Prostor pred ulazom; ulazni hol.
-  - D/I/L mn = **predvorjima**
 - **vaznesenje** *(frek. 206, gen. vaznesenja)* — Uznošenje na nebo; verski praznik.
   - I jd = **vaznesenjem**
 - **zabavište** *(frek. 206, gen. zabavišta)* — Predškolska ustanova za malu decu, obdanište.
@@ -822,7 +679,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **origano** *(frek. 204, gen. origana)* — Mirisni začin, vranilovka.
   - D/L jd = **origanu**
 - **polugodište** *(frek. 204, gen. polugodišta)* — Polovina školske ili poslovne godine.
-  - I jd = **polugodištem**, D/I/L mn = **polugodištima**
+  - I jd = **polugodištem**
 - **presecanje** *(frek. 202, gen. presecanja)* — Sečenje popreko; razdvajanje.
   - I jd = **presecanjem**
 - **udisanje** *(frek. 201, gen. udisanja)* — Uvlačenje vazduha u pluća.
@@ -837,8 +694,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **vrenjem**
 - **formatiranje** *(frek. 199, gen. formatiranja)* — Određivanje oblika; brisanje i priprema diska.
   - D/L jd = **formatiranju**, I jd = **formatiranjem**
-- **izobilje** *(frek. 199, gen. izobilja)* — Velika obilnost svega.
-  - D/I/L mn = **izobiljima**
 - **rezonovanje** *(frek. 199, gen. rezonovanja)* — Razložno rasuđivanje i zaključivanje.
   - I jd = **rezonovanjem**
 - **drhtanje** *(frek. 198, gen. drhtanja)* — Sitno i brzo treperenje tela; podrhtavanje.
@@ -875,8 +730,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **autorstvom**
 - **ostajanje** *(frek. 186, gen. ostajanja)* — Zadržavanje na istom mestu ili u istom stanju.
   - I jd = **ostajanjem**
-- **orgulje** *(frek. 185, gen. orgulja)* — Veliki instrument sa cevima i dirkama, u crkvama.
-  - D/L jd = **orgulju**, I jd = **orguljem**
 - **seoce** *(frek. 184, gen. seoca)* — Malo selo; seoce.
   - I jd = **seocem**
 - **kopile** *(frek. 181, gen. kopila)* — Dete rođeno van braka, vanbračno dete; pogrdno: hulja i nitk
@@ -915,8 +768,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **olakšavanjem**
 - **pomodarstvo** *(frek. 175, gen. pomodarstva)* — Robovsko praćenje mode.
   - D/L jd = **pomodarstvu**
-- **fekalije** *(frek. 174, gen. fekalija)* — Telesni otpad, izmet, ljudske ili životinjske nečistoće.
-  - D/L jd = **fekaliju**, I jd = **fekalijem**
 - **doseljavanje** *(frek. 173, gen. doseljavanja)* — Dolazak da se negde nastani.
   - I jd = **doseljavanjem**
 - **fiksiranje** *(frek. 173, gen. fiksiranja)* — Učvršćivanje i utvrđivanje na mestu.
@@ -930,7 +781,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **geto** *(frek. 169, gen. geta)* — Siromašni, izolovani deo grada.
   - I jd = **getom**
 - **tromesečje** *(frek. 169, gen. tromesečja)* — Razdoblje od tri meseca, kvartal.
-  - I jd = **tromesečjem**, D/I/L mn = **tromesečjima**
+  - I jd = **tromesečjem**
 - **šetanje** *(frek. 168, gen. šetanja)* — Lagano hodanje radi razonode.
   - I jd = **šetanjem**
 - **administriranje** *(frek. 167, gen. administriranja)* — Oblik reči administrirati (upravljati, voditi poslove).
@@ -951,8 +802,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **raščišćavanju**, I jd = **raščišćavanjem**
 - **smaranje** *(frek. 164, gen. smaranja)* — Dosađivanje, gnjavaža (žargonski).
   - D/L jd = **smaranju**, I jd = **smaranjem**
-- **stratište** *(frek. 164, gen. stratišta)* — Mesto na kome se izvršavaju smrtne kazne, gubilište; stratiš
-  - D/I/L mn = **stratištima**
 - **bratimljenje** *(frek. 163, gen. bratimljenja)* — Sklapanje pobratimstva i zbližavanje.
   - I jd = **bratimljenjem**
 - **kampovanje** *(frek. 163, gen. kampovanja)* — Boravak u prirodi pod šatorom.
@@ -965,8 +814,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **ostrvcem**
 - **parkiralište** *(frek. 161, gen. parkirališta)* — Mesto za parkiranje vozila.
   - I jd = **parkiralištem**
-- **vajarstvo** *(frek. 161, gen. vajarstva)* — Umetnost vajanja kipova.
-  - D/I/L mn = **vajarstvima**
 - **janje** *(frek. 160, gen. janjeta)* — Mlado ovce; jagnje.
   - D/L jd = **janjetu**, I jd = **janjetom**
 - **skandiranje** *(frek. 160, gen. skandiranja)* — Glasno ritmično ponavljanje u horu.
@@ -983,8 +830,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **starešinstvom**
 - **zavijanje** *(frek. 158, gen. zavijanja)* — Otegnuto glasanje vuka ili psa.
   - D/L jd = **zavijanju**
-- **bledilo** *(frek. 157, gen. bledila)* — Bezbojnost, slabo rumenilo; bleda boja lica.
-  - D/I/L mn = **bledilima**
 - **mucanje** *(frek. 157, gen. mucanja)* — Govor sa zastajkivanjem i ponavljanjem glasova.
   - D/L jd = **mucanju**
 - **preuređenje** *(frek. 157, gen. preuređenja)* — Ponovno uređivanje i preraspoređivanje.
@@ -993,12 +838,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **razmeštanjem**
 - **dogovaranje** *(frek. 155, gen. dogovaranja)* — Usaglašavanje oko nečega; dogovor.
   - I jd = **dogovaranjem**
-- **herojstvo** *(frek. 155, gen. herojstva)* — Junaštvo; herojski podvig.
-  - D/I/L mn = **herojstvima**
 - **mentorstvo** *(frek. 153, gen. mentorstva)* — Vođenje i savetovanje mlađih.
   - D/L jd = **mentorstvu**, I jd = **mentorstvom**
-- **predsoblje** *(frek. 153, gen. predsoblja)* — Prostorija odmah iza ulaznih vrata, hodnik.
-  - D/I/L mn = **predsobljima**
 - **skrovište** *(frek. 153, gen. skrovišta)* — Skriveno mesto gde se neko ili nešto krije.
   - I jd = **skrovištem**
 - **brušenje** *(frek. 152, gen. brušenja)* — Glačanje i oštrenje trljanjem o tvrdu površinu.
@@ -1029,14 +870,12 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **tetoviranju**, I jd = **tetoviranjem**
 - **afirmisanje** *(frek. 147, gen. afirmisanja)* — Potvrđivanje i isticanje vrednosti.
   - I jd = **afirmisanjem**
-- **smetlište** *(frek. 147, gen. smetlišta)* — Mesto gde se odlaže smeće.
-  - D/I/L mn = **smetlištima**
 - **ulepšavanje** *(frek. 147, gen. ulepšavanja)* — Činjenje lepšim; doterivanje.
   - I jd = **ulepšavanjem**
 - **podrhtavanje** *(frek. 146, gen. podrhtavanja)* — Lako, ponavljano drhtanje.
   - D/L jd = **podrhtavanju**, I jd = **podrhtavanjem**
 - **mučeništvo** *(frek. 145, gen. mučeništva)* — Trpljenje velikih muka, stradanje za uverenje; mučeništvo.
-  - I jd = **mučeništvom**, D/I/L mn = **mučeništvima**
+  - I jd = **mučeništvom**
 - **pretresanje** *(frek. 145, gen. pretresanja)* — Temeljno pregledanje; razmatranje.
   - I jd = **pretresanjem**
 - **obilaženje** *(frek. 144, gen. obilaženja)* — Kretanje oko nečega ili posećivanje redom (glagolska imenica
@@ -1073,8 +912,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **odigravanjem**
 - **pseto** *(frek. 140, gen. pseta)* — Pas (često pogrdno ili sažaljivo).
   - D/L jd = **psetu**
-- **genitalije** *(frek. 138, gen. genitalija)* — Polni organi.
-  - D/L jd = **genitaliju**, I jd = **genitalijem**
 - **svanuće** *(frek. 138, gen. svanuća)* — Trenutak kad svane, zora.
   - I jd = **svanućem**
 - **čistilište** *(frek. 138, gen. čistilišta)* — U hrišćanstvu mesto privremenog čišćenja duša.
@@ -1155,14 +992,10 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **dobacivanju**, I jd = **dobacivanjem**
 - **uparivanje** *(frek. 127, gen. uparivanja)* — Spajanje u parove; usklađivanje uređaja.
   - D/L jd = **uparivanju**, I jd = **uparivanjem**
-- **viteštvo** *(frek. 127, gen. viteštva)* — Časno i hrabro ponašanje vitezova.
-  - D/I/L mn = **viteštvima**
 - **rasipništvo** *(frek. 126, gen. rasipništva)* — Sklonost rasipanju; preterano razbacivanje.
   - D/L jd = **rasipništvu**, I jd = **rasipništvom**
 - **zavaravanje** *(frek. 126, gen. zavaravanja)* — Obmanjivanje, dovođenje u zabludu.
   - I jd = **zavaravanjem**
-- **gospodstvo** *(frek. 125, gen. gospodstva)* — Otmenost i gospodsko držanje.
-  - D/I/L mn = **gospodstvima**
 - **suparništvo** *(frek. 124, gen. suparništva)* — Nadmetanje sa protivnikom oko istog cilja.
   - D/L jd = **suparništvu**, I jd = **suparništvom**
 - **ujednačavanje** *(frek. 124, gen. ujednačavanja)* — Dovođenje na isti nivo; izjednačavanje.
@@ -1218,7 +1051,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **optuživanje** *(frek. 119, gen. optuživanja)* — Iznošenje optužbi protiv nekoga.
   - I jd = **optuživanjem**
 - **salto** *(frek. 119, gen. salta)* — Akrobatski preokret tela u vazduhu; premet.
-  - D/L jd = **saltu**, I jd = **saltom**, D/I/L mn = **saltima**
+  - D/L jd = **saltu**, I jd = **saltom**
 - **zakucavanje** *(frek. 119, gen. zakucavanja)* — Pričvršćivanje ekserima.
   - D/L jd = **zakucavanju**, I jd = **zakucavanjem**
 - **obuzdavanje** *(frek. 118, gen. obuzdavanja)* — Držanje pod kontrolom; savladavanje.
@@ -1247,8 +1080,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **zevanju**
 - **bivstvovanje** *(frek. 113, gen. bivstvovanja)* — Postojanje; življenje, bitisanje.
   - I jd = **bivstvovanjem**
-- **mekinje** *(frek. 113, gen. mekinja)* — Ljuspice koje ostaju pri mlevenju žita, trice.
-  - D/L jd = **mekinju**, I jd = **mekinjem**
 - **muljanje** *(frek. 113, gen. muljanja)* — Nepošteno postupanje; varanje.
   - D/L jd = **muljanju**, I jd = **muljanjem**
 - **neutrino** *(frek. 113, gen. neutrina)* — Sićušna čestica bez naelektrisanja koja gotovo bez prepreke 
@@ -1270,15 +1101,13 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **uzvišenje** *(frek. 111, gen. uzvišenja)* — Uzdignut deo zemljišta; brežuljak.
   - I jd = **uzvišenjem**
 - **perce** *(frek. 110, gen. perca)* — Malo pero.
-  - D/L jd = **percu**, I jd = **percem**, D/I/L mn = **percima**
+  - D/L jd = **percu**, I jd = **percem**
 - **rižoto** *(frek. 110, gen. rižota)* — Jelo od pirinča kuvanog sa dodacima.
   - D/L jd = **rižotu**, I jd = **rižotom**
 - **štucanje** *(frek. 110, gen. štucanja)* — Naglo isprekidano glasanje iz grla, štucavica.
   - D/L jd = **štucanju**, I jd = **štucanjem**
 - **bankrotstvo** *(frek. 109, gen. bankrotstva)* — Potpuna poslovna propast; stečaj.
   - D/L jd = **bankrotstvu**, I jd = **bankrotstvom**
-- **gajde** *(frek. 109, gen. gajda)* — Duvački instrument sa mehom.
-  - D/L jd = **gajdu**, I jd = **gajdem**
 - **obolenje** *(frek. 108, gen. obolenja)* — Pojava bolesti; oboljenje.
   - D/L jd = **obolenju**
 - **saborovanje** *(frek. 108, gen. saborovanja)* — Okupljanje na saboru, narodno veselje.
@@ -1320,7 +1149,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **zastarevanje** *(frek. 104, gen. zastarevanja)* — Postajanje zastarelim i prevaziđenim.
   - D/L jd = **zastarevanju**, I jd = **zastarevanjem**
 - **izaslanstvo** *(frek. 103, gen. izaslanstva)* — Grupa poslanih predstavnika; delegacija.
-  - D/L jd = **izaslanstvu**, I jd = **izaslanstvom**, D/I/L mn = **izaslanstvima**
+  - D/L jd = **izaslanstvu**, I jd = **izaslanstvom**
 - **naelektrisanje** *(frek. 103, gen. naelektrisanja)* — Punjenje elektricitetom; napetost u odnosima.
   - D/L jd = **naelektrisanju**, I jd = **naelektrisanjem**
 - **naginjanje** *(frek. 103, gen. naginjanja)* — Koso pomeranje ka jednoj strani.
@@ -1338,7 +1167,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **izrugivanje** *(frek. 102, gen. izrugivanja)* — Podsmevanje i ismevanje.
   - I jd = **izrugivanjem**
 - **praskozorje** *(frek. 102, gen. praskozorja)* — Prvo svitanje, rano jutro.
-  - D/L jd = **praskozorju**, I jd = **praskozorjem**, D/I/L mn = **praskozorjima**
+  - D/L jd = **praskozorju**, I jd = **praskozorjem**
 - **zahvatanje** *(frek. 102, gen. zahvatanja)* — Uzimanje šakom ili posudom; obuhvatanje.
   - D/L jd = **zahvatanju**, I jd = **zahvatanjem**
 - **zamaranje** *(frek. 102, gen. zamaranja)* — Izazivanje umora.
@@ -1356,10 +1185,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 
 ## Grupa C — retke (10–99)
 
-**798 imenica, 1184 oblika**
+**784 imenica, 1143 oblika**
 
-- **crvenilo** *(frek. 99, gen. crvenila)* — Crvena boja; rumenilo na licu; sredstvo za bojenje u crveno;
-  - D/I/L mn = **crvenilima**
 - **kulinarstvo** *(frek. 99, gen. kulinarstva)* — Veština i umetnost spremanja jela.
   - I jd = **kulinarstvom**
 - **posluživanje** *(frek. 99, gen. posluživanja)* — Iznošenje jela i pića gostima.
@@ -1437,7 +1264,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **dopuštanje** *(frek. 90, gen. dopuštanja)* — Davanje dozvole; dozvoljavanje.
   - I jd = **dopuštanjem**
 - **izgnanstvo** *(frek. 90, gen. izgnanstva)* — Prinudni boravak van domovine; progonstvo.
-  - I jd = **izgnanstvom**, D/I/L mn = **izgnanstvima**
+  - I jd = **izgnanstvom**
 - **muziciranje** *(frek. 90, gen. muziciranja)* — Bavljenje muzikom; sviranje i pevanje.
   - I jd = **muziciranjem**
 - **podilaženje** *(frek. 90, gen. podilaženja)* — Prilaženje s donje strane; dodvoravanje.
@@ -1489,9 +1316,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **krivotvorenje** *(frek. 85, gen. krivotvorenja)* — Pravljenje lažne kopije; falsifikovanje.
   - D/L jd = **krivotvorenju**, I jd = **krivotvorenjem**
 - **potonuće** *(frek. 85, gen. potonuća)* — Tonjenje broda pod vodu.
-  - I jd = **potonućem**, D/I/L mn = **potonućima**
+  - I jd = **potonućem**
 - **praznoverje** *(frek. 85, gen. praznoverja)* — Sujeverje; verovanje bez osnova.
-  - D/L jd = **praznoverju**, D/I/L mn = **praznoverjima**
+  - D/L jd = **praznoverju**
 - **ustaštvo** *(frek. 85, gen. ustaštva)* — Ustaški fašistički pokret.
   - D/L jd = **ustaštvu**, I jd = **ustaštvom**
 - **zabrežje** *(frek. 85, gen. zabrežja)* — Predeo iza brežuljaka; zabrežje.
@@ -1526,8 +1353,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **roždestvu**, I jd = **roždestvom**
 - **uravnoteženje** *(frek. 82, gen. uravnoteženja)* — Dovođenje u ravnotežu.
   - D/L jd = **uravnoteženju**, I jd = **uravnoteženjem**
-- **malje** *(frek. 81, gen. malja)* — Sitne mekane dlačice.
-  - D/L jd = **malju**
 - **međunožje** *(frek. 81, gen. međunožja)* — Predeo između nogu; prepone.
   - I jd = **međunožjem**
 - **ciljanje** *(frek. 80, gen. ciljanja)* — Usmeravanje ka meti; težnja ka cilju.
@@ -1544,8 +1369,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **razmimoilaženju**, I jd = **razmimoilaženjem**
 - **ukinuće** *(frek. 79, gen. ukinuća)* — Oblik reči ukinuće (ukidanje, poništavanje).
   - I jd = **ukinućem**
-- **varivo** *(frek. 79, gen. variva)* — Kuvano jelo od povrća.
-  - D/I/L mn = **varivima**
 - **šištanje** *(frek. 79, gen. šištanja)* — Oštri zvuk poput sikanja.
   - D/L jd = **šištanju**
 - **ceđenje** *(frek. 78, gen. ceđenja)* — Istiskivanje tečnosti, ceđenje soka.
@@ -1569,7 +1392,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **podudaranje** *(frek. 77, gen. podudaranja)* — Slaganje i poklapanje nečega.
   - D/L jd = **podudaranju**, I jd = **podudaranjem**
 - **kvačilo** *(frek. 76, gen. kvačila)* — Mehanizam koji spaja motor i menjač u vozilu.
-  - D/L jd = **kvačilu**, D/I/L mn = **kvačilima**
+  - D/L jd = **kvačilu**
 - **naklapanje** *(frek. 76, gen. naklapanja)* — Pričanje koješta, brbljanje.
   - D/L jd = **naklapanju**, I jd = **naklapanjem**
 - **premlaćivanje** *(frek. 76, gen. premlaćivanja)* — Surovo i ponovljeno udaranje.
@@ -1603,9 +1426,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **nepce** *(frek. 74, gen. nepca)* — Gornji svod usne duplje.
   - I jd = **nepcem**
 - **podaništvo** *(frek. 74, gen. podaništva)* — Stanje podanika, potčinjenost vlasti; podaništvo.
-  - D/L jd = **podaništvu**, I jd = **podaništvom**, D/I/L mn = **podaništvima**
+  - D/L jd = **podaništvu**, I jd = **podaništvom**
 - **predivo** *(frek. 74, gen. prediva)* — Ispredene niti, pređa.
-  - D/L jd = **predivu**, I jd = **predivom**, D/I/L mn = **predivima**
+  - D/L jd = **predivu**, I jd = **predivom**
 - **prevlačenje** *(frek. 74, gen. prevlačenja)* — Vučenje preko nečega; prevlaka slojem.
   - I jd = **prevlačenjem**
 - **reketiranje** *(frek. 74, gen. reketiranja)* — Iznuđivanje novca pretnjom; reket.
@@ -1617,7 +1440,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **otpisivanje** *(frek. 73, gen. otpisivanja)* — Brisanje iz evidencije; odustajanje od duga.
   - I jd = **otpisivanjem**
 - **vreteno** *(frek. 73, gen. vretena)* — Štapić na koji se namotava ispredena nit.
-  - D/L jd = **vretenu**, D/I/L mn = **vretenima**
+  - D/L jd = **vretenu**
 - **izgladnjivanje** *(frek. 72, gen. izgladnjivanja)* — Dovođenje do gladi uskraćivanjem hrane.
   - D/L jd = **izgladnjivanju**
 - **nemešanje** *(frek. 72, gen. nemešanja)* — Izostanak mešanja, neuplitanje; nemešanje.
@@ -1700,8 +1523,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **zatrpavanju**, I jd = **zatrpavanjem**
 - **isijavanje** *(frek. 65, gen. isijavanja)* — Zračenje toplote ili svetlosti.
   - I jd = **isijavanjem**
-- **progonstvo** *(frek. 65, gen. progonstva)* — Izgnanstvo; prinudno udaljavanje iz zemlje.
-  - D/I/L mn = **progonstvima**
 - **zabijanje** *(frek. 65, gen. zabijanja)* — Zarivanje udarcima; postizanje gola.
   - D/L jd = **zabijanju**, I jd = **zabijanjem**
 - **zgarište** *(frek. 65, gen. zgarišta)* — Mesto gde je nešto izgorelo; ostaci požara.
@@ -1718,8 +1539,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **suočenjem**
 - **porečje** *(frek. 63, gen. porečja)* — Oblast oko toka reke, sliv; porečje.
   - I jd = **porečjem**
-- **predvečerje** *(frek. 63, gen. predvečerja)* — Vreme pred veče.
-  - D/I/L mn = **predvečerjima**
 - **prenemaganje** *(frek. 63, gen. prenemaganja)* — Izveštačeno pretvaranje i ponašanje.
   - I jd = **prenemaganjem**
 - **tračarenje** *(frek. 63, gen. tračarenja)* — Širenje tračeva i ogovaranje.
@@ -1735,7 +1554,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **oplođenje** *(frek. 62, gen. oplođenja)* — Spajanje polnih ćelija; začeće.
   - D/L jd = **oplođenju**, I jd = **oplođenjem**
 - **pletivo** *(frek. 62, gen. pletiva)* — Ono što je ispleteno; rad u pletenju; pletivo.
-  - D/L jd = **pletivu**, D/I/L mn = **pletivima**
+  - D/L jd = **pletivu**
 - **proročište** *(frek. 62, gen. proročišta)* — Mesto gde se objavljuju proročanstva; veće starina.
   - I jd = **proročištem**
 - **sunašce** *(frek. 62, gen. sunašca)* — Odmilica za sunce.
@@ -1751,7 +1570,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **bodrenje** *(frek. 60, gen. bodrenja)* — Hrabrenje i podsticanje; sokoljenje.
   - D/L jd = **bodrenju**
 - **brvno** *(frek. 60, gen. brvna)* — Debela tesana greda; balvan preko reke kao most.
-  - D/L jd = **brvnu**, D/I/L mn = **brvnima**
+  - D/L jd = **brvnu**
 - **dvovlašće** *(frek. 60, gen. dvovlašća)* — Istovremeno postojanje dve vlasti koje se takmiče; dvovlašće
   - D/L jd = **dvovlašću**, I jd = **dvovlašćem**
 - **kovilje** *(frek. 60, gen. kovilja)* — Stepska trava sa srebrnastim klasovima; kovilje.
@@ -1804,8 +1623,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **koškanjem**
 - **remenje** *(frek. 57, gen. remenja)* — Kožne trake za vezivanje i prenos (zbirno od remen).
   - D/L jd = **remenju**, I jd = **remenjem**
-- **sukno** *(frek. 57, gen. sukna)* — Gusta vunena tkanina.
-  - D/I/L mn = **suknima**
 - **svinjarstvo** *(frek. 57, gen. svinjarstva)* — Gajenje svinja.
   - I jd = **svinjarstvom**
 - **zavlačenje** *(frek. 57, gen. zavlačenja)* — Guranje unutra; odugovlačenje.
@@ -1900,8 +1717,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **flamingom**
 - **istrebljivanje** *(frek. 51, gen. istrebljivanja)* — Potpuno uništavanje i istrebljenje.
   - D/L jd = **istrebljivanju**, I jd = **istrebljivanjem**
-- **kljuse** *(frek. 51, gen. kljusa)* — Mršav, slab konj.
-  - D/L jd = **kljusu**, I jd = **kljusem**
 - **kumče** *(frek. 51, gen. kumčeta)* — Dete kome je neko kum.
   - I jd = **kumčetom**
 - **nedavanje** *(frek. 51, gen. nedavanja)* — Izostanak davanja, uskraćivanje; nedavanje.
@@ -1933,7 +1748,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **gumno** *(frek. 49, gen. gumna)* — Poravnan, utaban prostor na kome se vrše žito; gumno.
   - I jd = **gumnom**
 - **nespokojstvo** *(frek. 49, gen. nespokojstva)* — Stanje nemira i uznemirenosti.
-  - D/L jd = **nespokojstvu**, D/I/L mn = **nespokojstvima**
+  - D/L jd = **nespokojstvu**
 - **zavojište** *(frek. 49, gen. zavojišta)* — Mesto gde se ranjenicima previjaju rane; zavojište.
   - I jd = **zavojištem**
 - **jastvo** *(frek. 48, gen. jastva)* — Oblik reči jastvo (svest o sopstvenom ja, vlastita ličnost).
@@ -1959,7 +1774,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **zatočeništvo** *(frek. 48, gen. zatočeništva)* — Zatvor, zarobljeništvo, sužanjstvo.
   - I jd = **zatočeništvom**
 - **bunilo** *(frek. 47, gen. bunila)* — Stanje pomućene svesti s nesuvislim govorom, naročito u groz
-  - I jd = **bunilom**, D/I/L mn = **bunilima**
+  - I jd = **bunilom**
 - **devičanstvo** *(frek. 47, gen. devičanstva)* — Stanje neokrnjene polne nevinosti.
   - D/L jd = **devičanstvu**, I jd = **devičanstvom**
 - **otpremanje** *(frek. 47, gen. otpremanja)* — Slanje robe ili ljudi na odredište.
@@ -1973,13 +1788,11 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **branjenje** *(frek. 46, gen. branjenja)* — Odbrana i zaštita od napada.
   - I jd = **branjenjem**
 - **gubilište** *(frek. 46, gen. gubilišta)* — Mesto gde se izvršavaju smrtne kazne; stratište.
-  - I jd = **gubilištem**, D/I/L mn = **gubilištima**
+  - I jd = **gubilištem**
 - **piskaranje** *(frek. 46, gen. piskaranja)* — Površno i loše pisanje.
   - I jd = **piskaranjem**
 - **pobrđe** *(frek. 46, gen. pobrđa)* — Brdoviti kraj, predeo pun brda.
   - D/L jd = **pobrđu**
-- **prezle** *(frek. 46, gen. prezla)* — Mrvice od suvog hleba za pohovanje.
-  - I jd = **prezlem**
 - **prianjanje** *(frek. 46, gen. prianjanja)* — Čvrsto pripijanje uz površinu.
   - D/L jd = **prianjanju**, I jd = **prianjanjem**
 - **prigovaranje** *(frek. 46, gen. prigovaranja)* — Iznošenje prigovora i zamerki.
@@ -2191,7 +2004,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **uvrštavanje** *(frek. 38, gen. uvrštavanja)* — Stavljanje u red; uvrštenje u spisak.
   - D/L jd = **uvrštavanju**, I jd = **uvrštavanjem**
 - **zubalo** *(frek. 38, gen. zubala)* — Veštačka vilica sa zubima; proteza.
-  - D/L jd = **zubalu**, D/I/L mn = **zubalima**
+  - D/L jd = **zubalu**
 - **adaptiranje** *(frek. 37, gen. adaptiranja)* — Oblik reči adaptiranje (prilagođavanje, preuređivanje).
   - D/L jd = **adaptiranju**, I jd = **adaptiranjem**
 - **isceljivanje** *(frek. 37, gen. isceljivanja)* — Lečenje i vraćanje zdravlja.
@@ -2267,9 +2080,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **dingo** *(frek. 33, gen. dinga)* — Australijski divlji pas.
   - D/L jd = **dingu**, I jd = **dingom**
 - **mučilište** *(frek. 33, gen. mučilišta)* — Mesto gde se zadaju muke, stratište; mučilište.
-  - I jd = **mučilištem**, D/I/L mn = **mučilištima**
+  - I jd = **mučilištem**
 - **punilo** *(frek. 33, gen. punila)* — Materijal kojim se nešto puni; ispuna.
-  - D/L jd = **punilu**, I jd = **punilom**, D/I/L mn = **punilima**
+  - D/L jd = **punilu**, I jd = **punilom**
 - **raketiranje** *(frek. 33, gen. raketiranja)* — Oblik reči raketiranje (gađanje raketama).
   - I jd = **raketiranjem**
 - **ušivanje** *(frek. 33, gen. ušivanja)* — Ugrađivanje šivenjem u odeću.
@@ -2295,7 +2108,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **sabotiranje** *(frek. 32, gen. sabotiranja)* — Namerno ometanje i kvarenje rada ili poduhvata; sabotiranje.
   - D/L jd = **sabotiranju**, I jd = **sabotiranjem**
 - **sidrište** *(frek. 32, gen. sidrišta)* — Mesto pogodno za sidrenje i pristajanje brodova; sidrište.
-  - D/L jd = **sidrištu**, I jd = **sidrištem**, D/I/L mn = **sidrištima**
+  - D/L jd = **sidrištu**, I jd = **sidrištem**
 - **ugledanje** *(frek. 32, gen. ugledanja)* — Uzimanje za uzor; ugledanje na primer.
   - D/L jd = **ugledanju**, I jd = **ugledanjem**
 - **uzbunjivanje** *(frek. 32, gen. uzbunjivanja)* — Izazivanje uzbune i nemira.
@@ -2317,7 +2130,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **podvođenje** *(frek. 31, gen. podvođenja)* — Posredovanje u nemoralu; svođenje.
   - D/L jd = **podvođenju**, I jd = **podvođenjem**
 - **svrdlo** *(frek. 31, gen. svrdla)* — Šiljati alat za bušenje rupa.
-  - D/L jd = **svrdlu**, D/I/L mn = **svrdlima**
+  - D/L jd = **svrdlu**
 - **tempiranje** *(frek. 31, gen. tempiranja)* — Određivanje pravog trenutka i ritma.
   - D/L jd = **tempiranju**, I jd = **tempiranjem**
 - **udvostručavanje** *(frek. 31, gen. udvostručavanja)* — Povećavanje na dvostruku vrednost.
@@ -2395,7 +2208,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **oproštenje** *(frek. 28, gen. oproštenja)* — Opraštanje krivice ili duga.
   - D/L jd = **oproštenju**
 - **pepelište** *(frek. 28, gen. pepelišta)* — Mesto na kome je nešto izgorelo, zgarište; pepelište.
-  - D/L jd = **pepelištu**, I jd = **pepelištem**, D/I/L mn = **pepelištima**
+  - D/L jd = **pepelištu**, I jd = **pepelištem**
 - **prizemlje** *(frek. 28, gen. prizemlja)* — Najniži sprat zgrade, u ravni zemlje.
   - I jd = **prizemljem**
 - **protezanje** *(frek. 28, gen. protezanja)* — Istezanje tela i udova, npr. posle buđenja.
@@ -2436,8 +2249,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **zgrtanju**, I jd = **zgrtanjem**
 - **čistunstvo** *(frek. 27, gen. čistunstva)* — Preterana sklonost ka čistoći i redu.
   - I jd = **čistunstvom**
-- **ženskinje** *(frek. 27, gen. ženskinja)* — Žene, ženski svet (zbirno).
-  - D/L jd = **ženskinju**
 - **dojenče** *(frek. 26, gen. dojenčeta)* — Odojče, beba koja sisa.
   - I jd = **dojenčetom**
 - **grumenje** *(frek. 26, gen. grumenja)* — Zgrudvani komadi zemlje ili rude (zbirno od grumen).
@@ -2479,7 +2290,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **zanovetanje** *(frek. 26, gen. zanovetanja)* — Dosadno prigovaranje i gunđanje.
   - D/L jd = **zanovetanju**, I jd = **zanovetanjem**
 - **šilo** *(frek. 26, gen. šila)* — Šiljat alat za bušenje rupa u koži.
-  - D/L jd = **šilu**, D/I/L mn = **šilima**
+  - D/L jd = **šilu**
 - **baljezganje** *(frek. 25, gen. baljezganja)* — Besmisleno, prazno pričanje, naklapanje.
   - D/L jd = **baljezganju**, I jd = **baljezganjem**
 - **gužvanje** *(frek. 25, gen. gužvanja)* — Nabiranje i drobljenje u gužvu.
@@ -2492,12 +2303,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **okončavanju**, I jd = **okončavanjem**
 - **pipkanje** *(frek. 25, gen. pipkanja)* — Opipavanje i pipkanje rukama.
   - D/L jd = **pipkanju**, I jd = **pipkanjem**
-- **pomije** *(frek. 25, gen. pomija)* — Prljava voda od pranja sudova s ostacima hrane; splačine za 
-  - D/L jd = **pomiju**, I jd = **pomijem**
 - **prosecanje** *(frek. 25, gen. prosecanja)* — Sečenje radi otvaranja prolaza.
   - I jd = **prosecanjem**
-- **ralje** *(frek. 25, gen. ralja)* — Široko otvorena čeljust, ždrelo (ralje ajkule).
-  - D/L jd = **ralju**, I jd = **raljem**
 - **sedanje** *(frek. 25, gen. sedanja)* — Spuštanje na sedište; zauzimanje sedećeg položaja.
   - D/L jd = **sedanju**, I jd = **sedanjem**
 - **surfanje** *(frek. 25, gen. surfanja)* — Klizanje na dasci po talasima; pregledanje interneta.
@@ -2516,8 +2323,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **šepurenju**, I jd = **šepurenjem**
 - **živinče** *(frek. 25, gen. živinčeta)* — Domaća životinja (perad ili stoka); pogrdno za čoveka.
   - I jd = **živinčetom**
-- **bisage** *(frek. 24, gen. bisaga)* — Dvostruka torba koja se prebacuje preko sedla ili ramena.
-  - D/L jd = **bisagu**, I jd = **bisagem**
 - **gurkanje** *(frek. 24, gen. gurkanja)* — Lagano i učestalo guranje.
   - D/L jd = **gurkanju**, I jd = **gurkanjem**
 - **iskliznuće** *(frek. 24, gen. iskliznuća)* — Izmicanje, klizanje u stranu, iskliznuće s pravog mesta; isk
@@ -2674,8 +2479,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **voljenju**, I jd = **voljenjem**
 - **zverstvo** *(frek. 19, gen. zverstva)* — Surovo i nečovečno delo.
   - D/L jd = **zverstvu**, I jd = **zverstvom**
-- **žalo** *(frek. 19, gen. žala)* — Šljunkovita ili peskovita morska obala.
-  - D/I/L mn = **žalima**
 - **cerekanje** *(frek. 18, gen. cerekanja)* — Glasno, podrugljivo smejanje.
   - D/L jd = **cerekanju**
 - **jadanje** *(frek. 18, gen. jadanja)* — Žaljenje na nevolje, jadikovanje.
@@ -2895,7 +2698,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **biralište** *(frek. 11, gen. birališta)* — Mesto na kome se glasa na izborima, glasačko mesto; birališt
   - I jd = **biralištem**
 - **devojaštvo** *(frek. 11, gen. devojaštva)* — Devojačko doba, stanje neudate devojke; devojaštvo.
-  - D/L jd = **devojaštvu**, I jd = **devojaštvom**, D/I/L mn = **devojaštvima**
+  - D/L jd = **devojaštvu**, I jd = **devojaštvom**
 - **dobavljanje** *(frek. 11, gen. dobavljanja)* — Pribavljanje i isporuka robe.
   - I jd = **dobavljanjem**
 - **laviranje** *(frek. 11, gen. laviranja)* — Vešto izbegavanje i manevrisanje.
@@ -2907,7 +2710,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **maraskino** *(frek. 11, gen. maraskina)* — Liker od maraske, vrste višnje; maraskino.
   - D/L jd = **maraskinu**, I jd = **maraskinom**
 - **nalivpero** *(frek. 11, gen. nalivpera)* — Pisaljka koja se puni mastilom.
-  - D/L jd = **nalivperu**, I jd = **nalivperom**, D/I/L mn = **nalivperima**
+  - D/L jd = **nalivperu**, I jd = **nalivperom**
 - **nevraćanje** *(frek. 11, gen. nevraćanja)* — Izostanak vraćanja, nevraćanje; nevraćanje.
   - D/L jd = **nevraćanju**, I jd = **nevraćanjem**
 - **obećavanje** *(frek. 11, gen. obećavanja)* — Davanje obećanja.
@@ -2917,7 +2720,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **pojilište** *(frek. 11, gen. pojilišta)* — Mesto gde se napaja stoka, korito ili izvor za pojenje život
   - D/L jd = **pojilištu**, I jd = **pojilištem**
 - **povesmo** *(frek. 11, gen. povesma)* — Pramen očešljane vune ili kudelje za predenje.
-  - D/L jd = **povesmu**, D/I/L mn = **povesmima**
+  - D/L jd = **povesmu**
 - **puknuće** *(frek. 11, gen. puknuća)* — Oblik glagola „puknuti“, buduće vreme (puknuće; pući, rasprs
   - D/L jd = **puknuću**, I jd = **puknućem**
 - **razlučivanje** *(frek. 11, gen. razlučivanja)* — Razdvajanje i razlikovanje.
@@ -2952,14 +2755,12 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **zapitkivanju**
 - **zaražavanje** *(frek. 10, gen. zaražavanja)* — Prenošenje zaraze i inficiranje.
   - I jd = **zaražavanjem**
-- **zaruke** *(frek. 10, gen. zaruka)* — Svečano obećanje braka; veridba.
-  - D/L jd = **zaruku**, I jd = **zarukem**
 
 ---
 
 ## Grupa D — vrlo retke (1–9)
 
-**162 imenica, 270 oblika**
+**159 imenica, 259 oblika**
 
 - **asociranje** *(frek. 9, gen. asociranja)* — Oblik reči asocirati (dovoditi u vezu, podsećati).
   - D/L jd = **asociranju**, I jd = **asociranjem**
@@ -2974,7 +2775,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **hučanje** *(frek. 9, gen. hučanja)* — Snažan potmuo šum vetra ili vode.
   - D/L jd = **hučanju**, I jd = **hučanjem**
 - **klonuće** *(frek. 9, gen. klonuća)* — Gubitak snage i volje; malaksalost.
-  - D/L jd = **klonuću**, I jd = **klonućem**, D/I/L mn = **klonućima**
+  - D/L jd = **klonuću**, I jd = **klonućem**
 - **nemilosrđe** *(frek. 9, gen. nemilosrđa)* — Surovost, bezdušnost, odsustvo milosti; nemilosrđe.
   - I jd = **nemilosrđem**
 - **odseljavanje** *(frek. 9, gen. odseljavanja)* — Odlazak iz mesta stanovanja.
@@ -2996,7 +2797,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **snebivanje** *(frek. 9, gen. snebivanja)* — Stidljivo ustručavanje; libljenje.
   - D/L jd = **snebivanju**
 - **tutkalo** *(frek. 9, gen. tutkala)* — Lepak od životinjskih sastojaka; stolarski lepak.
-  - D/L jd = **tutkalu**, D/I/L mn = **tutkalima**
+  - D/L jd = **tutkalu**
 - **uzletište** *(frek. 9, gen. uzletišta)* — Mesto odakle poleću avioni; pista.
   - I jd = **uzletištem**
 - **vrdanje** *(frek. 9, gen. vrdanja)* — Izbegavanje i izvrdavanje obaveze.
@@ -3006,11 +2807,9 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **šaptanje** *(frek. 9, gen. šaptanja)* — Tihi govor bez glasa.
   - D/L jd = **šaptanju**, I jd = **šaptanjem**
 - **desetleće** *(frek. 8, gen. desetleća)* — Razdoblje od deset godina, decenija; desetleće.
-  - D/L jd = **desetleću**, I jd = **desetlećem**, D/I/L mn = **desetlećima**
+  - D/L jd = **desetleću**, I jd = **desetlećem**
 - **dezertiranje** *(frek. 8, gen. dezertiranja)* — Samovoljno bekstvo iz vojske i napuštanje dužnosti.
   - D/L jd = **dezertiranju**, I jd = **dezertiranjem**
-- **ganuće** *(frek. 8, gen. ganuća)* — Dirnutost, kad nas nešto gane.
-  - D/I/L mn = **ganućima**
 - **haranje** *(frek. 8, gen. haranja)* — Pustošenje i pljačkanje; opustošavanje.
   - I jd = **haranjem**
 - **izleganje** *(frek. 8, gen. izleganja)* — Izvođenje mladunaca iz jaja.
@@ -3183,10 +2982,8 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **inozemstvom**
 - **maturiranje** *(frek. 4, gen. maturiranja)* — Polaganje završnog ispita, mature; sazrevanje; maturiranje.
   - D/L jd = **maturiranju**, I jd = **maturiranjem**
-- **očice** *(frek. 4, gen. očica)* — Oblik reči očice (male oči, okca).
-  - D/L jd = **očicu**, I jd = **očicem**
 - **pojilo** *(frek. 4, gen. pojila)* — Posuda ili mesto gde se poji stoka.
-  - I jd = **pojilom**, D/I/L mn = **pojilima**
+  - I jd = **pojilom**
 - **zafrkavanje** *(frek. 4, gen. zafrkavanja)* — Šaljivo podsmevanje i izazivanje.
   - D/L jd = **zafrkavanju**, I jd = **zafrkavanjem**
 - **šivanje** *(frek. 4, gen. šivanja)* — Spajanje tkanine koncem.
@@ -3200,7 +2997,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **grešenje** *(frek. 3, gen. grešenja)* — Činjenje grešaka i grehova; pogrešno postupanje; ogrešenje.
   - D/L jd = **grešenju**
 - **grizodušje** *(frek. 3, gen. grizodušja)* — Griža savesti, mučno kajanje; grizodušje.
-  - D/L jd = **grizodušju**, D/I/L mn = **grizodušjima**
+  - D/L jd = **grizodušju**
 - **gušče** *(frek. 3, gen. guščeta)* — Mladunče guske, guščić; gušče.
   - D/L jd = **guščetu**, I jd = **guščetom**
 - **kimono** *(frek. 3, gen. kimona)* — Tradicionalna japanska odeća dugih rukava.
@@ -3228,15 +3025,13 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **stakalce** *(frek. 3, gen. stakalca)* — Mali komad stakla, parče stakla; stakalce.
   - D/L jd = **stakalcu**, I jd = **stakalcem**
 - **strnište** *(frek. 3, gen. strništa)* — Njiva sa ostacima stabljika posle žetve; strnište.
-  - D/L jd = **strništu**, I jd = **strništem**, D/I/L mn = **strništima**
+  - D/L jd = **strništu**, I jd = **strništem**
 - **toptanje** *(frek. 3, gen. toptanja)* — Udaranje nogama o tlo; topot.
   - D/L jd = **toptanju**, I jd = **toptanjem**
 - **usmrćivanje** *(frek. 3, gen. usmrćivanja)* — Lišavanje života; ubijanje.
   - D/L jd = **usmrćivanju**, I jd = **usmrćivanjem**
 - **zapešće** *(frek. 3, gen. zapešća)* — Mesto gde se šaka spaja sa rukom, ručni zglob.
   - I jd = **zapešćem**
-- **zlato** *(frek. 3, gen. zlata)* — Skupocen sjajan žut metal.
-  - D/I/L mn = **zlatima**
 - **šuljanje** *(frek. 3, gen. šuljanja)* — Tiho i prikriveno kretanje.
   - D/L jd = **šuljanju**, I jd = **šuljanjem**
 - **garište** *(frek. 2, gen. garišta)* — Zgarište, mesto na kome je nešto izgorelo; garište.
@@ -3252,7 +3047,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **ogledavanje** *(frek. 2, gen. ogledavanja)* — Posmatranje svog odraza u ogledalu.
   - D/L jd = **ogledavanju**, I jd = **ogledavanjem**
 - **sumračje** *(frek. 2, gen. sumračja)* — Vreme sumraka, polutama.
-  - I jd = **sumračjem**, D/I/L mn = **sumračjima**
+  - I jd = **sumračjem**
 - **zapovedanje** *(frek. 2, gen. zapovedanja)* — Izdavanje zapovesti; naređivanje.
   - I jd = **zapovedanjem**
 - **balzamiranje** *(frek. 1, gen. balzamiranja)* — Postupak čuvanja mrtvog tela od raspadanja, balzamovanje; ba
@@ -3290,7 +3085,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 
 ## Grupa E — NEMA ih u korpusu (0) — proveri prve
 
-**348 imenica, 543 oblika**
+**340 imenica, 529 oblika**
 
 - **agitovanje** *(frek. 0, gen. agitovanja)* — Nagovaranje i pridobijanje za neku ideju.
   - I jd = **agitovanjem**
@@ -3320,8 +3115,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **bluđenju**, I jd = **bluđenjem**
 - **boksovanje** *(frek. 0, gen. boksovanja)* — Borba pesnicama po pravilima boksa.
   - D/L jd = **boksovanju**, I jd = **boksovanjem**
-- **bube** *(frek. 0, gen. bubeta)* — Sitni insekti tvrdih krila (množina od buba).
-  - D/L jd = **bubetu**, I jd = **bubetom**
 - **bugojno** *(frek. 0, gen. bugojna)* — Bugojno (grad u središnjoj Bosni).
   - I jd = **bugojnom**
 - **buktanje** *(frek. 0, gen. buktanja)* — Snažno gorenje velikim plamenom.
@@ -3486,8 +3279,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **mefistu**, I jd = **mefistom**
 - **merdare** *(frek. 0, gen. merdara)* — Merdare — mesto i prevoj u Srbiji, kod Kuršumlije.
   - I jd = **merdarem**
-- **merdevine** *(frek. 0, gen. merdevina)* — Prenosive lestve za penjanje.
-  - D/L jd = **merdevinu**, I jd = **merdevinem**
 - **mesečarenje** *(frek. 0, gen. mesečarenja)* — Hodanje i radnje u snu; somnambulizam.
   - D/L jd = **mesečarenju**, I jd = **mesečarenjem**
 - **mesojeđe** *(frek. 0, gen. mesojeđa)* — Razdoblje kada se po verskim pravilima sme jesti meso; mesoj
@@ -3622,8 +3413,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - I jd = **paženjem**
 - **pendže** *(frek. 0, gen. pendžeta)* — Oblik reči pendže (donji deo cipele, potplat — turcizam).
   - D/L jd = **pendžetu**, I jd = **pendžetom**
-- **penkalo** *(frek. 0, gen. penkala)* — Nalivpero.
-  - D/I/L mn = **penkalima**
 - **perikle** *(frek. 0, gen. perikla)* — Perikle — atinski državnik (zlatno doba Atine).
   - D/L jd = **periklu**, I jd = **periklem**
 - **pesničenje** *(frek. 0, gen. pesničenja)* — Tučnjava pesnicama; udaranje pesnicama.
@@ -3691,7 +3480,7 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
 - **pozorje** *(frek. 0, gen. pozorja)* — Pozorište, scenska umetnost (stariji naziv, npr. Srpsko naro
   - I jd = **pozorjem**
 - **predjelo** *(frek. 0, gen. predjela)* — Lagano jelo koje se služi pre glavnog jela.
-  - D/L jd = **predjelu**, D/I/L mn = **predjelima**
+  - D/L jd = **predjelu**
 - **predloženje** *(frek. 0, gen. predloženja)* — Iznošenje predloga; ponuda.
   - I jd = **predloženjem**
 - **predviđenje** *(frek. 0, gen. predviđenja)* — Predviđanje i pretkazivanje budućeg toka; unapred sagledan i
@@ -3774,8 +3563,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **rizikovanju**, I jd = **rizikovanjem**
 - **rogulje** *(frek. 0, gen. rogulja)* — Vile, oruđe sa krakovima; rogulje.
   - D/L jd = **rogulju**, I jd = **roguljem**
-- **rožaje** *(frek. 0, gen. rožaja)* — Rožaje (grad na severu Crne Gore).
-  - D/L jd = **rožaju**, I jd = **rožajem**
 - **ruženje** *(frek. 0, gen. ruženja)* — Grdnja i kuđenje.
   - D/L jd = **ruženju**
 - **sagledanje** *(frek. 0, gen. sagledanja)* — Oblik imenice „sagledanje“: obuhvatnog uviđanja i razumevanj
@@ -3854,8 +3641,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **tipovanju**, I jd = **tipovanjem**
 - **tištanje** *(frek. 0, gen. tištanja)* — Pritiskanje i morenje, naročito duše.
   - D/L jd = **tištanju**, I jd = **tištanjem**
-- **tocilo** *(frek. 0, gen. tocila)* — Okrugli kamen koji se okreće za oštrenje alata.
-  - D/I/L mn = **tocilima**
 - **toronto** *(frek. 0, gen. toronta)* — Najveći grad Kanade.
   - I jd = **torontom**
 - **trtljanje** *(frek. 0, gen. trtljanja)* — Brbljanje koještarija.
@@ -3950,8 +3735,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **ćarlijanju**, I jd = **ćarlijanjem**
 - **ćemane** *(frek. 0, gen. ćemana)* — Violina; ćemane.
   - D/L jd = **ćemanu**, I jd = **ćemanem**
-- **čakšire** *(frek. 0, gen. čakšira)* — Stare uske pantalone od sukna.
-  - I jd = **čakširem**
 - **čarkanje** *(frek. 0, gen. čarkanja)* — Manji okršaji; zadirkivanje koje vodi sukobu.
   - D/L jd = **čarkanju**, I jd = **čarkanjem**
 - **čifte** *(frek. 0, gen. čifta)* — Puška dvocevka; čifte.
@@ -3960,8 +3743,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **čuvstvovanju**
 - **đakovanje** *(frek. 0, gen. đakovanja)* — Pohađanje škole; đačko doba.
   - D/L jd = **đakovanju**, I jd = **đakovanjem**
-- **šalvare** *(frek. 0, gen. šalvara)* — Široke nabrane pantalone; dimije.
-  - D/L jd = **šalvaru**, I jd = **šalvarem**
 - **šegrtovanje** *(frek. 0, gen. šegrtovanja)* — Učenje zanata kod majstora.
   - D/L jd = **šegrtovanju**, I jd = **šegrtovanjem**
 - **šikaniranje** *(frek. 0, gen. šikaniranja)* — Maltretiranje i ponižavanje.
@@ -3976,8 +3757,6 @@ Ovde rečnik tvrdi da množina postoji, ali su neke na granici (*mlekima*, *vini
   - D/L jd = **švercovanju**, I jd = **švercovanjem**
 - **žalošćenje** *(frek. 0, gen. žalošćenja)* — Izazivanje žalosti i tuge.
   - D/L jd = **žalošćenju**, I jd = **žalošćenjem**
-- **žaluzije** *(frek. 0, gen. žaluzija)* — Pokretni zastor od letvica na prozoru.
-  - D/L jd = **žaluziju**, I jd = **žaluzijem**
 - **željenje** *(frek. 0, gen. željenja)* — Osećanje želje za nečim.
   - D/L jd = **željenju**
 - **željezo** *(frek. 0, gen. željeza)* — Oblik reči željezo (gvožđe — ijekavski).

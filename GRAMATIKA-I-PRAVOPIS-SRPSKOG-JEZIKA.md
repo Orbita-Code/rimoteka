@@ -402,7 +402,7 @@ literatura koja se koristi u školama i na fakultetima u Republici Srbiji:
 - **Pravopis srpskoga jezika**, Matica srpska (važeće izdanje)
 - **Normativna gramatika srpskog jezika**, Piper–Klajn, Matica srpska
 - **Gramatika srpskog jezika**, Ivan Klajn (Zavod za udžbenike)
-- **Rečnik srpskoga jezika**, Matica srpska (jednotomnik)
+- **Rečnik srpskoga jezika**, Matica srpska — https://archive.org/details/recnik-srpskoga-jezika-2011
 - Stanojčić–Popović, *Gramatika srpskoga jezika* (srednjoškolski udžbenik)
 
 **ZABRANJENO:** nagađanje, pretpostavljanje, „po analogiji", „verovatno je
@@ -414,7 +414,7 @@ unosa u rečniku kao potvrde da je oblik tačan.
 | Pitanje | Ko odgovara | Šta smem |
 |---|---|---|
 | Da li je oblik ispravno izveden? *(licu od lice)* | gramatička pravila | mogu da odlučim po pravilima |
-| Da li reč uopšte postoji u srpskom? *(steža, bajbok)* | **rečnik Matice srpske** | **ne smem da odlučim** — pitati vlasnicu ili nabaviti rečnik |
+| Da li reč uopšte postoji u srpskom? *(steža, bajbok)* | **Rečnik Matice srpske** (link gore) | proveriti u rečniku; ako je sporno — pitati vlasnicu |
 
 Frekvencija u korpusu (`frekvencija.json`) sme da se koristi **samo za
 redosled pregleda**, nikada kao dokaz da je reč ispravna ili neispravna.

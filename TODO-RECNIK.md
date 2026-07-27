@@ -23,13 +23,17 @@ vlasnici na odobrenje. Ništa se ne briše ni ne dodaje bez njene reči.**
 
 ## Izvori — provereno 27.07.2026.
 
-### Normativna literatura: NIJE javno dostupna
-`Pravopis Matice srpske`, `Rečnik srpskoga jezika`, Klajnova i Piper-Klajnova
-gramatika su komercijalna izdanja pod autorskim pravom. Kopije koje kruže
-internetom su neovlašćene i **ne koriste se**. Legalan put je kupovina.
-Besplatan i legalan je jedino **Raskovnik** (raskovnik.org, Institut za srpski
-jezik SANU), ali sadrži STARE rečnike (Vukov Srpski rječnik, dijalekatske), ne
-savremenu normu.
+### Rečnik srpskoga jezika, Matica srpska (2011) — GLAVNI IZVOR
+**Digitalno izdanje koje koristimo:**
+https://archive.org/details/recnik-srpskoga-jezika-2011
+
+~85.000 odrednica. Koristi se za proveru **da li reč postoji**. Objašnjenja se
+NE prepisuju — pišemo svoja, samo proveravamo da znače isto.
+
+**Ograničenje:** oznake `покр.` / `заст.` / `дијал.` su štampane kurzivom i
+prepoznavanje teksta ih je uništilo (0, 3 i 1 čitljiva pojava u celom rečniku).
+Pokrajinsko, zastarelo i hrvatsko se iz njega **ne može automatski izbaciti** —
+to ostaje na vlasnici.
 
 ### srLex 1.3 — morfološki rečnik, slobodan i mašinski čitljiv
 - **169.328 lema, 6.905.941 oblik**
@@ -88,11 +92,7 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 1. popravku frekvencija (vidi gore),
 2. gramatičke oznake kao **trag**, nikad kao dokaz.
 
-**Autoritet ostaje zvanična literatura ili vlasnica.** Ako se želi rečnik
-proveren po normi, verovatno treba kupiti Pravopis i Rečnik Matice srpske —
-to je jedini put koji ne vodi natrag u nagađanje.
-
-- [ ] Odluka vlasnice: kupiti Pravopis i Rečnik Matice srpske?
+**Autoritet ostaje Rečnik Matice srpske (link gore) ili vlasnica.**
 
 ## Redosled rada
 

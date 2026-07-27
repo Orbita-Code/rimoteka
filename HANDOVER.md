@@ -157,8 +157,8 @@ dokumenta.
 - **Ispravan `frekvencija.json`** — napravljen, nije postavljen. Ne dodaje
   nijednu reč, samo ispravlja redosled rima. **110.931 od 208.700 reči ima
   pogrešan broj** (`koji` 5 umesto 2.805.274; `voda` 876 umesto 47.298).
-- **Kupovina Pravopisa i Rečnika Matice srpske** — bez toga ne postoji izvor za
-  pitanje *da li reč postoji*.
+- **Presuda o spornim rečima** — da li je reč pokrajinska, zastarela ili
+  hrvatska ne može da odluči nijedan izvor koji imamo. To je na vlasnici.
 
 ### Zamrznuto
 - `RECNIK-PREDLOG.md` — 13.827 oblika za glagole
@@ -173,14 +173,21 @@ u njemu već ne valja. Vidi `TODO-RECNIK.md`.
 
 Sve provereno o Rečniku Matice srpske i o srLex-u, sa merenjima. Najvažnije:
 
-- **Odrednice** iz RMS se čitaju **tačno** (56% izvučenih poklopilo se sa onim
-  što već imamo), ali **objašnjenja su pokvarena** (kurzivno `т` → `ш`,
-  `г` → `ћ`).
+- **Rečnik Matice srpske (2011)** — glavni izvor, digitalno izdanje:
+  https://archive.org/details/recnik-srpskoga-jezika-2011
+  **Odrednice** se čitaju **tačno** (56% izvučenih poklopilo se sa onim što već
+  imamo), ali **objašnjenja su pokvarena** (kurzivno `т` → `ш`, `г` → `ћ`) —
+  zato objašnjenja pišemo sami.
 - **Oznake `покр.` / `заст.` / `дијал.` se ne mogu pročitati** — 0, 3 i 1
   čitljiva pojava u celom rečniku. **Pokrajinsko i hrvatsko se iz tog izvora ne
   može automatski izbaciti.**
-- **srLex** sadrži hrvatski, izmereno: `kolodvor` 35 : `stanica` 17.182.
-  Manjinski ostatak, ali postoji. Glagola ima samo 9.653 leme — malo.
+- **srLex NIJE merodavan.** Sadrži hrvatske reči (izmereno: `kolodvor`,
+  `zrakoplov`, `nogomet`, `glazba`, `tvrtka`, `tisuća`, `shvaćanje` — sve su u
+  njemu), pokrajinske i zastarele jednako kao standardne, i **nema nijednu
+  normativnu oznaku** — nigde ne piše da li je reč standardna ili nije. Uz to
+  38% su vlastita imena, a glagola ima samo 9.653 leme. Sme se koristiti za
+  frekvencije i kao *drugi* izvor koji potvrđuje postojanje oblika, **nikad kao
+  dokaz da je reč pravilan srpski**.
 - **Nijedan izvor koji imamo ne odgovara** da li je reč pokrajinska ili
   hrvatska. To ostaje na vlasnici.
 

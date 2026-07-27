@@ -13,11 +13,18 @@ Jednotomni rečnik, oko **85.000 odrednica**, 1.561 strana, ćirilica. Urednik
 Miroslav Nikolić. Najviši normativni autoritet za pitanje **da li reč postoji**
 u srpskom književnom jeziku.
 
-### Dostupnost
-- **Papirno izdanje se kupuje** — oko 5.000–8.000 RSD.
-- **Zvanično digitalno izdanje ne postoji.** Provereno; Matica srpska ga nema.
-- Skenirana kopija sa prepoznatim tekstom postoji na Internet Archive-u
-  (postavio privatni korisnik 2020, bez naznake dozvole izdavača).
+### Gde se koristi
+
+**Digitalno izdanje koje koristimo:**
+https://archive.org/details/recnik-srpskoga-jezika-2011
+
+Tu je i **čitanje stranica** (slike su savršene) i **prepoznat tekst** koji
+mašina može da obrađuje. Zvanično digitalno izdanje Matice srpske ne postoji —
+provereno.
+
+**Kako se koristi:** za proveru **da li reč postoji** i koja je odrednica.
+Objašnjenja se **ne prepisuju** — pišemo svoja, samo proveravamo da znače isto.
+Tako nema sudara sa autorskim pravima.
 
 ### Kvalitet prepoznatog teksta — ključno za rad
 Skenirane **slike stranica su savršene**. Ali mašina ne čita slike nego
@@ -105,14 +112,34 @@ Hrvatske reči **postoje** u srLex-u, ali kao manjinski ostatak:
 
 **`hiljada` uopšte nema u srLex-u** — rupa u njihovom resursu.
 
-### Ocena
-- **Jak za:** frekvencije, prideve, imenice, gramatičke oznake
-- **Slab za:** glagole (9.653 leme je malo)
-- **Šum:** 38% vlastita imena, hrvatski ostatak
-- **Nije normativan** — beleži šta se u tekstovima pojavljuje, ne šta je pravilno
+### ZAŠTO SRLEX NIJE MERODAVAN — najvažnije o njemu
 
-**Ne može zameniti Rečnik Matice srpske.** Koristan je kao *drugi* izvor koji
-potvrđuje ili ne potvrđuje ono što nađemo u prvom.
+**1. Sadrži hrvatske reči.** Izmereno, vidi tabelu iznad: `kolodvor`,
+`zrakoplov`, `nogomet`, `glazba`, `tvrtka`, `vlak`, `kruh`, `kazalište`,
+`povijest`, `unatoč`, `tisuća`, `shvaćanje` — sve postoje u njemu, sa stvarnim
+brojem pojava.
+
+**2. Sadrži pokrajinske, žargonske i zastarele reči** — jednako kao i
+standardne. Nema načina da se razlikuju.
+
+**3. NEMA NIJEDNU NORMATIVNU OZNAKU.** Ovo je ključno. Svaki red sadrži samo:
+oblik, osnovni oblik, gramatičku oznaku, vrstu reči i broj pojava. **Nigde ne
+piše da li je reč standardna, pokrajinska, zastarela ili hrvatska** — takvog
+polja jednostavno nema. srLex beleži *šta se u tekstovima pojavljuje*, a ne
+*šta je pravilno*.
+
+**4. Šum iz veba:** 38% su vlastita imena (imena ljudi, firmi, mesta).
+
+**5. Glagoli su slabo pokriveni** — 9.653 leme je malo za srpski jezik.
+
+**Zaključak: srLex se NE SME koristiti kao dokaz da je reč pravilan srpski.**
+Sme samo:
+- za **frekvencije** (koliko se reč koristi),
+- kao **drugi izvor koji potvrđuje postojanje oblika** — ako je reč i u Rečniku
+  Matice srpske i u srLex-u, veće je poverenje,
+- za **gramatičke oznake kao trag**, nikad kao dokaz.
+
+Ako je reč **samo** u srLex-u, to ne znači ništa o njenoj ispravnosti.
 
 ### Licenca
 CC BY-SA 4.0 (traži navođenje autora i istu licencu za izvedeno delo).
@@ -161,5 +188,6 @@ napravljen i čeka odluku o postavljanju.
 | Da li je reč pokrajinska/zastarela/hrvatska? | **niko od izvora koje imamo** — samo vlasnica |
 | Koliko se reč koristi? | srLex (uz ogradu da je opisan) |
 
-**Nijedan izvor koji imamo ne rešava pitanje pokrajinskog i hrvatskog.** To
-ostaje na vlasnici, ili na kupovini papirnog Rečnika i Pravopisa.
+**Nijedan izvor koji imamo ne rešava pitanje pokrajinskog i hrvatskog.**
+To ostaje na vlasnici — ona presuđuje sporne reči, po potrebi otvarajući
+digitalno izdanje na linku iznad.

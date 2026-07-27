@@ -47,6 +47,53 @@ savremenu normu.
 Prepisivanje njegovih oblika u `reci.txt` verovatno povlači CC BY-SA i na naš
 rečnik. **Odluka je na vlasnici.**
 
+## HITNO: `frekvencija.json` je pogrešno izvučen (nađeno 27.07.2026)
+
+U srLex-u se **isti oblik pojavljuje više puta**, sa različitim gramatičkim
+oznakama — `voda` je i *voda* (tečnost) i **genitiv množine od *vod*** (vojna
+jedinica). Onaj ko je pravio `frekvencija.json` je **prepisivao umesto da
+sabira**, pa je za svaki oblik ostalo poslednje pročitano čitanje, često
+najređe.
+
+Posledice, merljive:
+- `voda` = 876 (treba desetine hiljada)
+- `veliki` = 34, `dva` = 9 — besmisleno
+- `hiljada` i `hiljadu` uopšte nema
+- fajl ima 208.687 unosa, srLex 6.905.941 oblik
+
+**Rangiranje rima na sajtu je zbog ovoga delimično pogrešno.** Popravka:
+ponovo izvući iz srLex-a i **sabrati** frekvencije po obliku.
+
+- [ ] Ponovo izvući `frekvencija.json` iz srLex-a, uz sabiranje po obliku
+
+## Ocena srLex-a (provereno 27.07.2026)
+
+Vlasnica je posumnjala da srLex nije pouzdan jer su ga radili van Srbije.
+Provereno:
+
+- **Ko:** ReLDI projekat — finansirala Švajcarska (Univerzitet u Cirihu),
+  radili Institut Jožef Štefan (Ljubljana) **i Filološki fakultet u Beogradu**.
+  Materijal je srWaC, korpus skinut sa **`.rs` domena**.
+- **Hrvatski ostatak — izmereno na 16 jednoznačno hrvatskih reči:**
+  12 ih uopšte nema (*tisuća, tjedan, kolodvor, zrakoplov, nogomet, glazba,
+  tvrtka, kruh, povijest, unatoč, tjedni, općina*); 4 postoje ali 30-60 puta
+  ređe od srpskog parnjaka (*vlak* 133 : *voz* 4.101; *kazalište* 299 :
+  *pozorište* 9.581; *shvaćanje* 52 : *shvatanje* 3.022). *otok* 1.584 je
+  ispravna srpska reč (oteklina).
+- **Zaključak:** nije hrvatski materijal prelepljen kao srpski, ali jeste
+  OPISAN resurs iz veb teksta sa hrvatskim ostatkom.
+
+**srLex NE SME biti autoritet** za pitanje šta je pravilan srpski — to bi bila
+ista kružnost, samo šira. Sme se koristiti samo za:
+1. popravku frekvencija (vidi gore),
+2. gramatičke oznake kao **trag**, nikad kao dokaz.
+
+**Autoritet ostaje zvanična literatura ili vlasnica.** Ako se želi rečnik
+proveren po normi, verovatno treba kupiti Pravopis i Rečnik Matice srpske —
+to je jedini put koji ne vodi natrag u nagađanje.
+
+- [ ] Odluka vlasnice: kupiti Pravopis i Rečnik Matice srpske?
+
 ## Redosled rada
 
 - [ ] 0. **Odluka vlasnice: preuzeti srLex 1.3 i koristiti ga za proveru?**

@@ -1,4 +1,102 @@
-# Handover — Rimoteka (sesija 26–27. jul 2026)
+# Handover — Rimoteka
+
+> Najnovije je na vrhu. Ispod stoji handover prethodne sesije (26–27. jul).
+
+---
+
+# Sesija 28. jul 2026 — svaki alat dobio svoju stranu
+
+> **Stanje: sve je na produkciji i zeleno.** `node test/predeploy.mjs` → **104/104**,
+> i lokalno i protiv `https://rimoteka.com`. Commit `2067fe2e`.
+
+## 1. Traka tabova je postala navigacija sajta
+
+Do sada su svi alati živeli na jednom URL-u, pa je Google mogao da rangira samo
+**jednu** nameru i prečice u rezultatima nisu bile moguće. Sada svaki alat ima
+svoju stranu **sa živim alatom na njoj**, a ista traka stoji na **svakoj** strani.
+
+| Tab | Strana | Napomena |
+|-----|--------|----------|
+| Rimovanje reči | `/rimovanje-reci/` | postojala |
+| Rečnik | `/recnik-srpskog-jezika/` | novo (bilo „Pretraga reči") |
+| Brojač slogova i karaktera | `/slogovi/` | postojala, ali **bez alata** — sada ga ima |
+| Pisanje pesama | `/pisanje-pesama/` | novo |
+| Klasici | `/klasici/` | novo |
+| Igra rimovanja | `/igra-rimovanja/` | novo |
+
+„Omiljene" namerno nema stranu — lične reči, Google tu nema šta da indeksira.
+
+**Kako radi:** stavke su pravi `<a href>`. Gde panel postoji (na početnoj svi),
+klik se presreće i tab se prebaci **bez osvežavanja**; gde ga nema, link radi
+normalno. **Markup alata se ne prepisuje** u `gen_pages.py` nego se čita iz
+`index.html` pri buildu — dve kopije bi se razišle.
+
+## 2. Beležnica
+
+Metar (ritam slog po slog, cezura deseterac 4+6 i dvanaesterac 6+6, mera stiha,
+broj stihova koji odstupaju), šema rime A/B/C, premeštanje stihova prevlačenjem,
+panel sa rimama uz editor (na telefonu prikačen za dno), „još N rima", legenda.
+
+**Akcenat se izvodi samo iz sigurnih pravila.** Kod reči od 3+ sloga mesto
+akcenta se **ne nagađa** — stoji „akcenat je na jednom od ovih slogova".
+
+## 3. Brojač slogova — jedno polje umesto dva
+
+Brojevi stoje levo od reda; tekst se više ne ponavlja ispod. Polje je i dalje
+`<textarea>`, a položaj redova se meri na nevidljivoj kopiji (`#sylMirror`) —
+po jedan `<div>` za svaki red, pa se prelama identično.
+
+## 4. Rečnik
+
+- **−48 ćelavih latinica** (`zmurke`→`žmurke`). Pre brisanja provereno da svaka
+  ima ispravan parnjak — svih 48 ga je imalo.
+- **19 imperativa glagola na -ći** (`tuci`, `izvuci`, `uteci`) prepoznato kao
+  **ispravno** i zadržano — umalo obrisani zajedno sa ćelavima.
+- **−1** izmišljena `mladoturke` · **+2** `tate`, `tati` (falili kod *tata*).
+
+## 5. SEO tekst
+
+Izbačene tvrdnje koje ne bi izdržale proveru (stajalo je „nema ga nijedan rimer
+u svetu" — RhymeZone ima objašnjenja, na engleskom). Brojevi se zaokružuju
+**naniže**. Tekst o alatu pripada tabu „Rimovanje reči" i ne stoji nad ostalim
+tabovima. Dodato interno povezivanje — tri strane nisu imale nijedan dolazni
+link iz sadržaja.
+
+## Bugovi nađeni i popravljeni
+
+1. **`app.js` je padao na svakoj strani bez polja za rime** — `rimeInput.parentNode`
+   je `null`; skripta pukne i **obori sve alate na toj strani**. Izašlo tek kad je
+   napravljena prva takva strana.
+2. **Igra je zadavala nerešive reči.** Prva „popravka" je bila POGREŠNA: igra
+   priznaje savršenu rimu **ili asonancu**, a provera je gledala samo savršenu.
+3. **Gutter je merio vrh otiska slova umesto linijskog okvira** — brojevi su
+   sedeli pola proreda niže; klizio i kod prelomljenih redova.
+4. Rime su bile u flex rasporedu pa je poslednja visila sama → mreža.
+5. Sinonimi su ulazili u panel uz stih („naći" → *izumeti, otkriti*).
+6. Klik na rimu ju je lepio bez razmaka i rušio panel (okvir je „treperio").
+7. Srpska množina u metru („2 sloga"), i „0 slogova" više ne postoji.
+
+## Zamke koje MORAŠ znati
+
+- **Brojač i beležnica dele klasu `.gutter-row`** — svaki upit vezati za svoj
+  gutter (`#noteGutter …` / `#sylGutter …`), inače hvata oba.
+- **Verzija keša `?v=`** mora da se podigne u `public/index.html` **i** u
+  `build/gen_pages.py`. Bile su tri različite u opticaju i korisnica je danima
+  gledala staru skriptu.
+- **Dve sesije rade u istom folderu** — komitovati samo svoje fajlove
+  (`git add <putanje>`), nikad `git add -A`.
+- **Tvrdnje na sajtu**: „jedini na srpskom" sme, „prvi u svetu" ne (postoje
+  Versepad, GoRhyme, RHYMEBOOK, Poem Analysis na engleskom). Brojevi se prebroje
+  pa zaokruže naniže. Pravilo je u `TODO.md`, tačka 8.
+
+## Sledeće — sve je u `TODO.md`
+
+Dečji režim · nove reči · **staging grana** · GSC · **4.769 reči ima objašnjenje
+ali ih nema u rečniku** · stope (trohej, jamb) čekaju akcentovani rečnik.
+
+---
+
+# Handover — sesija 26–27. jul 2026
 
 > Prethodni handover (26.07. u 03:00) upozoravao je da je sajt „možda pokvaren".
 > **Bio je pokvaren. Sada radi.** Uzrok je nađen, popravljen i pokriven testom.

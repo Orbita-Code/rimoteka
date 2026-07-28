@@ -1,4 +1,66 @@
-# Memory — Rimoteka (26. jul 2026, 03:00)
+# Memory — Rimoteka
+
+> Najnovije je na vrhu.
+
+---
+
+# 28. jul 2026 — strane po alatu, metar, brojač, čišćenje rečnika
+
+**Sve je na produkciji, 104/104 provere prolaze i protiv `rimoteka.com`.** Commit `2067fe2e`.
+
+## Naučeno (ovo je vredniji deo od spiska funkcija)
+
+**1. `el()` vraća NOOP element, ali NOOP nema roditelja.**
+`rimeInput.parentNode.style` je radilo godinu dana jer je svaka strana sa
+`app.js` imala polje za rime. Prva strana bez njega (`/slogovi/`) oborila je
+CELU skriptu — dakle i brojač na toj strani. Kad praviš stranu sa samo jednim
+alatom, proveri šta skripta dira na nivou modula.
+
+**2. Testiraj pravilom koje alat stvarno primenjuje, ne svojim.**
+Test igre je tražio savršenu rimu, a igra priznaje savršenu **ili asonancu**.
+Test je pao, ja sam „popravio" igru i time joj bez razloga suzio bazen reči.
+Pao je bio TEST. Kad test padne, prvo proveri da li je test u pravu.
+
+**3. Heuristika po nastavku laže.** Merenje „koliko padeža fali" dalo je 2.344 —
+ali je pokupilo množinu muških imenica (`acetoni`, `adolfi`, `alahi`) i
+proglasilo ih dativima. Isto i kod ćelave latinice: od 67 kandidata, 19 su bili
+**ispravni imperativi** glagola na -ći (`tuci`, `izvuci`). Uvek proveri uzorak
+pre nego što objaviš broj — i pre nego što nešto obrišeš.
+
+**4. Range meri otisak slova, ne linijski okvir.** Između njih je polovina
+proreda. Zato su brojevi u gutteru sedeli niže od stiha. Za poravnanje uz tekst
+oduzmi half-leading, ili meri na kopiji sa `<div>`-om po redu.
+
+**5. Contenteditable nije uvek odgovor.** Beležnica ga koristi (treba joj
+bojenje), ali brojač je ostao `<textarea>` + nevidljiva merna kopija — otporniji
+na nalepljivanje i mobilnu tastaturu, a poravnanje jednako tačno.
+
+**6. Verzija keša na JEDNOM mestu.** Bile su tri različite (`index.html`,
+`TOOL_SCRIPT`, `HEAD_TMPL`) i korisnica je danima gledala staru skriptu i
+mislila da funkcije ne rade.
+
+**7. Tvrdnje na sajtu moraju da izdrže pretragu.** Stajalo je „nema ga nijedan
+rimer u svetu" — RhymeZone ima objašnjenja. Za pisanje pesama postoje Versepad,
+GoRhyme, RHYMEBOOK, Poem Analysis (engleski). Sme „jedini **na srpskom**".
+Brojevi se prebroje u fajlu pa zaokruže **naniže** (278.083 → „preko 270.000").
+
+## Zamke u kodu
+
+- **`.gutter-row` dele brojač i beležnica** — svaki upit vezati za svoj gutter.
+- **Traka tabova su linkovi**, ne dugmad. Selektor je `#tabs [data-tab]`.
+- **Markup alata se čita iz `index.html`** pri buildu (`panel_html()`), ne
+  prepisuje u `gen_pages.py`.
+- **Dve sesije u istom folderu** — `git add <putanje>`, nikad `git add -A`.
+
+## Otvoreno
+
+`TODO.md`: dečji režim · nove reči · staging grana · GSC · **4.769 reči ima
+objašnjenje ali ih nema u `reci.txt`** · stope (trohej/jamb) čekaju akcentovani
+rečnik (kandidati u tački 9a: Vikirečnik prvi).
+
+---
+
+# Memory — 26. jul 2026, 03:00
 
 > **UPOZORENJE:** Ova sesija je imala kritične probleme. Sajt je možda pokvaren. Pročitaj pažljivo pre nastavka.
 

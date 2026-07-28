@@ -4,11 +4,37 @@
 
 ---
 
-# Sesija 28. jul 2026 (druga) — „Učitavam rečnik" i interno povezivanje
+# Sesija 28. jul 2026 (druga) — „Učitavam rečnik", ćirilica, čipovi, interno povezivanje
 
-> **Stanje: `node test/predeploy.mjs` → 108/108 lokalno. NIJE deployovano** —
-> čeka odobrenje za push. Test protiv produkcije još pada na 12e, i to je
-> ISPRAVNO: produkcija još vrti stari `app.js`.
+> **Stanje: sve je na produkciji i zeleno.** `BASE=https://rimoteka.com node
+> test/predeploy.mjs` → **140/140**. Poslednja verzija `?v=20260728j`.
+> Sitemap poslat u GSC, IndexNow pinguje Bing/Yandex, Request Indexing urađen
+> za 8 strana.
+
+## 0. Šta je vlasnica prijavila i šta je bio uzrok
+
+| Prijava | Pravi uzrok | Zašto niko nije primetio |
+|---|---|---|
+| „Učitavam rečnik" na početnoj bez ijedne upisane reči | beležnica pozajmljuje vidljivi panel `#rimeResults` da izračuna rime za reč pod kursorom | vidi se samo ako u beležnici ima sačuvanog teksta; na praznom pregledaču nikad |
+| ćirilica ne prebacuje nazive tabova | tabovi su postali `<a href>` zbog SEO-a, a selektor je ostao `#tabs button` | nijedna provera nije pokrivala prekidač za pismo |
+| ćirilica ne prebacuje tekst strane | prebacivao se samo okvir alata; generisane strane prekidač uopšte nisu ni imale | isto — nula provera |
+| ikonice izlaze iz okvira čipa | kolona 11.5rem (184px), a sadržaj čipa traži 196–282px; čip je `inline-flex` bez prelamanja | na telefonu se NE vidi (kolona je tamo šira), a u grupi „dobre rime" okvir je beo na belom |
+
+**Zajednički imenilac: sve četiri su preživele jer ih test nije doticao.** Zato
+je uz svaku popravku dodata i provera — test je narastao sa 104 na **140**.
+
+## 0a. Nove sekcije u `test/predeploy.mjs`
+
+| Sekcija | Šta čuva |
+|---|---|
+| **12e** | panel s rimama je prazan pri učitavanju i kad beležnica ima sačuvan tekst |
+| **12f** | prebacivanje pisma — tabovi, rime, placeholder, povratak na latinicu |
+| **12g** | ćirilica menja CEO tekst na 4 tipa strana; logo, mejl i skraćenice ostaju |
+| **12h** | upisana reč prelazi u ćirilicu (digraf lj → љ); beležnica se NE dira |
+| **12i** | nijedna ikonica ne izlazi iz čipa, na 1440/1024/390px |
+
+Sekcija 12e je i **dokazano** hvatala bag: puštena protiv produkcije dok je tamo
+još bio stari `app.js` — pala; lokalno sa popravkom — prošla.
 
 ## 1. Bag: „Učitavam rečnik…" na početnoj bez ijedne upisane reči
 
@@ -65,20 +91,110 @@ Uz to ispravljeno: u FAQ-u početne je pisalo „u tabu **Slogovi i znakovi**" �
 tab se odavno zove „Brojač slogova i karaktera" i ima svoju stranu. Ispravljeno
 i u vidljivom tekstu i u `FAQPage` šemi (moraju da se poklapaju).
 
+## 4. Ćirilica — sada menja ceo tekst, ali NE sve
+
+Prekidač je bio ograničen na okvir alata i rezultate. Sada menja i naslov, uvod,
+SEO tekst, sekcije, česta pitanja, futer — i to na **svim tipovima strana**
+(prekidač je dodat u zaglavlje generisanih strana, a `app.js` ide na svaku
+tematsku stranu; rečnik se pri tom **ne skida**, `bootstrap` ga traži samo ako
+na strani postoji alat koji pretražuje reči).
+
+**Šta se NAMERNO ne prebacuje** — sve troje bi bio kvar, ne osobina:
+
+| Ne dira se | Zašto |
+|---|---|
+| logo i ime u futeru | pravilo 8a u `CLAUDE.md` — logo se ne dira |
+| mejl i domen (`info@rimoteka.com`) | u ćirilici prestaje da bude adresa |
+| skraćenice velikim slovima (PDF, ABAB, AABB) | to su oznake, ne reči |
+| **beležnica i brojač slogova** | tamo je tekst korisnika; pesma se čuva na uređaju i alat je ne sme prekucavati sam |
+
+**Upisana reč** u poljima za rime, pretragu i igru prelazi u izabrano pismo, u
+oba smera. Prebacuje se **preko latinice** (`toCyr(toLatin(v))`) — bez toga
+digrafi ne rade: posle „l" stoji „л", pa bi „j" dalo „лј" umesto „љ".
+
+## 5. Česta pitanja — zašto u njima nije bilo nijednog linka
+
+Odgovori su se HTML-escapeovali (`esc(a)`), pa bi svaki `<a>` ispao kao goli
+tekst. Zato **nijedan generisani FAQ nije imao ijedan link**, iako odgovori
+pominju druge alate („u tabu Klasici", „ima beležnicu…").
+
+Rešenje: `faq_sa_linkovima()` — escapuje pa naziv alata pretvara u link. Traži
+samo po delovima koji **još nisu link** (inače bi se kasnija fraza uhvatila
+unutar već ubačenog `href`-a), preskače link na samu sebe, najviše **2 po
+odgovoru**. `FAQPage` šema i dalje dobija **čist tekst** — HTML u šemi nije
+dozvoljen. Padeži stoje izbrojani u `FAQ_LINKOVI` (nastavci se u srpskom ne
+izvode iz nominativa).
+
+**Rezultat:** 10 odgovora je dobilo link, 0 ih je ostalo da pominje alat bez linka.
+
+**Da li su česta pitanja ista na svim stranama?** Nisu: **81 različito pitanje
+na 22 strane**, a ponavljaju se samo tri, po dva puta — i to na strani kojoj
+pitanje prirodno pripada (početna + `/rimovanje-reci/`, početna + `/slogovi/`).
+Nije problem duplog sadržaja.
+
+## 6. Čipovi — zašto su ikonice izlazile iz okvira
+
+Izmereno: sadržaj čipa (reč + broj slogova + tri ikonice) traži **196–282px**, a
+kolona je bila `minmax(11.5rem, 1fr)` = **184px**. Čip je bio `inline-flex` bez
+prelamanja, pa mu je sadržaj probijao sopstveni okvir.
+
+Popravka: kolona **15rem** + `flex-wrap:wrap` i `min-width:0` na čipu, pa kod
+duge reči ikonice pređu u drugi red **unutar** pilule; reč ostaje cela.
+`overflow-wrap:anywhere` na reči je krajnja zaštita za uzak ekran.
+
+**Fiksna širina ne može oba** — kratke reči bi trošile prazan prostor, duge bi
+i dalje virile. Zato prelamanje, ne šira kolona.
+
 ## Zamke
 
-- **`?v=` podignut na `20260728f`** u `public/index.html` **i**
+- **`?v=` podignut na `20260728j`** u `public/index.html` **i**
   `build/gen_pages.py` — obavezno oba.
 - **Blok „Srodne strane" koristi postojeće klase** (`.res-group`, `.seo-p`) —
   nije dodata nijedna linija CSS-a.
 - **Futer mora biti isti** u `public/index.html` i `FOOTER_TMPL` u
   `gen_pages.py`. Red „Namene" je proširen sa 6 na 12 linkova — u oba fajla.
+- **`app.js` sada ide na SVAKU tematsku stranu**, i kad na njoj nema alata —
+  bez njega prekidač za pismo ne bi radio.
+- **Oznaka za skraćenice u `convertTextNodes` mora biti ` `**, ne broj —
+  sa običnim brojem bi „ima 3 sloga" bilo prepoznato kao oznaka i tekst bi se
+  pokvario.
+
+## 7. Google Search Console — urađeno
+
+- **Sitemap** ponovo poslat (2.010 URL-ova) — „Sitemap submitted successfully"
+- **IndexNow** ping: Bing 200, Yandex 202
+- **Request Indexing** za 8 strana. Zatečeno stanje je potvrdilo dijagnozu —
+  sve strane bez dolaznih linkova bile su **„URL is not on Google"**:
+
+| Strana | Zatečeno stanje |
+|---|---|
+| `/rime-za-prijatelje/` | nije bila na Google-u |
+| `/rime-za-roditelje/` | nije bila na Google-u |
+| `/rime-za-novu-godinu/` | nije bila na Google-u |
+| `/pisanje-pesama/` | nije bila na Google-u |
+| `/recnik-srpskog-jezika/` | nije bila na Google-u |
+| `/klasici/` | nije bila na Google-u |
+| `/igra-rimovanja/` | nije bila na Google-u |
+| `/slogovi/` | jeste bila |
+| `/rimovanje-reci/` | jeste bila (prvi pokušaj pao sa „Something went wrong", drugi prošao) |
+
+**Redosled je ispravila vlasnica** i bila je u pravu: krenuo sam od strana bez
+ijednog linka, a prednost imaju **nove strane alata** — one su vrednije, a
+dnevna kvota za Request Indexing je oko 10-12.
+
+**Ostalo za sutra (kvota):** `/rime-za-tugu-i-secanje/`,
+`/rime-za-decu-o-prirodi/`, `/rime-za-decu-o-zivotinjama/`.
+
+> Podatak koji vredi zapamtiti: GSC pokazuje **124 indeksirane** i **1.012
+> neindeksiranih** strana. Interno povezivanje iz ove sesije cilja upravo taj
+> odnos.
 
 ## Šta čeka
 
-1. **Odobrenje za push** (grana + merge u `main`)
-2. Posle deploy-a: `BASE=https://rimoteka.com node test/predeploy.mjs` mora 108/108
-3. Zatim GSC: sitemap + Request Indexing za 6 strana koje su do sada bile bez linkova
+1. Sutra: Request Indexing za preostale 3 strane (kvota)
+2. Za 7-10 dana proveriti u GSC da li su strane iz tabele prešle u „indeksirano"
+3. Ostalo je nedirnuto u `TODO.md` (dečji režim, nove reči, staging grana,
+   4.769 reči sa objašnjenjem kojih nema u rečniku)
 
 ---
 

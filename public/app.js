@@ -1933,7 +1933,10 @@ el('scriptToggle').addEventListener('click', e=>{
    Konverzija je dvosmerna (toCyr/toLatin sa digrafima lj/nj/dž), pa se
    primenjuje direktno na tekst nodove — bez čuvanja originala. */
 const UI_SCRIPT_SELS = [
-  '#tabs button', '.flabel', '.syl-filter button', '.loose-toggle', '.notepad-legend',
+  // Tabovi su 28.07.2026. postali pravi <a href> zbog SEO-a; ostao je samo
+  // „Omiljene" kao <button>. Selektor je ostao na `button`, pa se od cele trake
+  // u ćirilicu prebacivala jedino ta jedna stavka.
+  '#tabs a', '#tabs button', '.flabel', '.syl-filter button', '.loose-toggle', '.notepad-legend',
   '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
   '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
   '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',

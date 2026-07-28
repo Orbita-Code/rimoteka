@@ -805,6 +805,39 @@ async function main() {
        `${posleTrazenja.pre} → ${posleTrazenja.posle}`);
     await pCist.close();
 
+    console.log('\n12f) PREBACIVANJE PISMA (latinica ↔ ćirilica)');
+    /* Do 28.07.2026. nijedna provera nije pokrivala prekidač za pismo, pa je
+       prošlo neprimećeno da se traka tabova NE prebacuje: tabovi su postali
+       <a href> zbog SEO-a, a selektor u `UI_SCRIPT_SELS` je ostao na `button`.
+       U ćirilicu je prelazila jedino „Omiljene", jedina preostala <button>. */
+    const pPis2 = await browser.newPage();
+    await pPis2.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+    await pPis2.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
+                                { timeout: 120000 }).catch(() => {});
+    const pismo = await pPis2.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const tabovi = () => [...document.querySelectorAll('#tabs a, #tabs button')]
+        .map(x => x.textContent.trim()).join(' | ');
+      document.getElementById('rimeInput').value = 'ljubav';
+      document.getElementById('rimeBtn').click();
+      await w(800);
+      const latTabovi = tabovi();
+      const latRime = [...document.querySelectorAll('#rimeResults .chip .word')].slice(0, 3).map(x => x.textContent).join(',');
+      document.querySelector('#scriptToggle button[data-script="cyr"]').click();
+      await w(1000);
+      const cyr = { tabovi: tabovi(), rime: [...document.querySelectorAll('#rimeResults .chip .word')].slice(0, 3).map(x => x.textContent).join(','), plc: document.getElementById('rimeInput').placeholder };
+      document.querySelector('#scriptToggle button[data-script="lat"]').click();
+      await w(1000);
+      return { latTabovi, latRime, cyr, nazad: tabovi() };
+    });
+    const cir = /^[Ѐ-ӿ\s|0-9]+$/;
+    ok('ćirilica → tabovi prelaze u ćirilicu', cir.test(pismo.cyr.tabovi), pismo.cyr.tabovi);
+    ok('ćirilica → rime prelaze u ćirilicu', cir.test(pismo.cyr.rime.replace(/,/g, ' ')), pismo.cyr.rime);
+    ok('ćirilica → placeholder prelazi u ćirilicu', cir.test(pismo.cyr.plc.replace(/[().,]/g, ' ')), pismo.cyr.plc);
+    ok('latinica → traka se vraća u latinicu', pismo.nazad === pismo.latTabovi,
+       `${pismo.latTabovi} → ${pismo.nazad}`);
+    await pPis2.close();
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

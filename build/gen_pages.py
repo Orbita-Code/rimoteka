@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728f">
+<link rel="stylesheet" href="/style.css?v=20260728g">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -274,7 +274,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260728f"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260728g"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -393,6 +393,72 @@ def srodno_blok(slug):
             f'<p class="seo-p">{linkovi}</p></div>\n  ')
 
 
+# Kad odgovor na često pitanje pomene neki drugi alat, to ime treba da bude
+# link. Do 28.07.2026. nije moglo: odgovori su se HTML-escapeovali, pa bi svaki
+# <a> ispao kao goli tekst. Zato se link dodaje TEK POSLE escapeovanja, i samo
+# u vidljivi tekst — u `FAQPage` šemu ide čist tekst, jer HTML tamo ne sme.
+# Duže fraze stoje pre kraćih (inače „brojač slogova" pojede „brojač slogova i
+# karaktera"). Veznik u odgovoru ostaje netaknut — linkuje se samo naziv alata.
+FAQ_LINKOVI = [
+    ('beležnici za pisanje pesama', 'pisanje-pesama'),
+    ('beležnica za pisanje pesama', 'pisanje-pesama'),
+    ('brojač slogova i karaktera', 'slogovi'),
+    ('rečniku srpskog jezika', 'recnik-srpskog-jezika'),
+    ('rečnik srpskog jezika', 'recnik-srpskog-jezika'),
+    ('rimovanje za početnike', 'rimovanje-za-pocetnike'),
+    ('kako napisati pesmu', 'kako-napisati-pesmu'),
+    ('brojanje slogova', 'slogovi'),
+    ('brojač slogova', 'slogovi'),
+    ('pisanje pesama', 'pisanje-pesama'),
+    ('igri rimovanja', 'igra-rimovanja'),
+    ('igra rimovanja', 'igra-rimovanja'),
+    ('rimovanje reči', 'rimovanje-reci'),
+    ('rime za decu', 'rime-za-decu'),
+    ('vrste rima', 'vrste-rima'),
+    ('rimovanju reči', 'rimovanje-reci'),
+    ('brojaču slogova', 'slogovi'),
+    ('vrstama rima', 'vrste-rima'),
+    # padeži — srpski nastavci se ne izvode iz nominativa, pa stoje izbrojani
+    ('Beležnici', 'pisanje-pesama'),
+    ('Beležnicu', 'pisanje-pesama'),
+    ('Beležnica', 'pisanje-pesama'),
+    ('beležnici', 'pisanje-pesama'),
+    ('beležnicu', 'pisanje-pesama'),
+    ('beležnice', 'pisanje-pesama'),
+    ('beležnica', 'pisanje-pesama'),
+    ('klasicima', 'klasici'),
+    ('„Klasici"', 'klasici'),
+    ('Klasici', 'klasici'),
+    ('klasici', 'klasici'),
+]
+FAQ_MAX_LINKOVA = 2   # više od dva linka po odgovoru čita se kao spam
+
+
+def faq_sa_linkovima(odgovor, slug):
+    """Escapuj odgovor, pa nazive drugih alata pretvori u linkove.
+
+    Pretraga ide samo po delovima koji JOŠ nisu link — inače bi kasnija fraza
+    mogla da se uhvati unutar već ubačenog `href`-a. Link ka strani na kojoj se
+    i nalazimo se preskače (nema smisla, a Google ga i ne broji)."""
+    delovi = [(esc(odgovor), False)]        # (tekst, već je link?)
+    ubaceno = 0
+    for fraza, cilj in FAQ_LINKOVI:
+        if ubaceno >= FAQ_MAX_LINKOVA:
+            break
+        if cilj == slug:
+            continue
+        for i, (tekst, jeste_link) in enumerate(delovi):
+            if jeste_link or fraza not in tekst:
+                continue
+            pre, _, posle = tekst.partition(fraza)
+            delovi[i:i + 1] = [(pre, False),
+                               (f'<a href="/{cilj}/">{fraza}</a>', True),
+                               (posle, False)]
+            ubaceno += 1
+            break
+    return ''.join(t for t, _ in delovi)
+
+
 def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,
                  tool=False, aktivan_tab=''):
     # Statička tematska strana (autoritet). lead_html/sekcije = sirov HTML; faq = plain tekst.
@@ -411,7 +477,9 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
                             tabs_nav=tabs_nav(aktivan_tab))
     secs = ''.join(f'<div class="res-group"><h3>{esc(st)}</h3><p class="seo-p">{sb}</p></div>'
                    for st, sb in sections)
-    faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
+    # šema dobija čist tekst (gore), a vidljivi odgovor dobija linkove
+    faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{faq_sa_linkovima(a, slug)}</p></details>'
+                       for q, a in faqs)
     # Kad strana ima živi alat, on ide ODMAH ispod naslova (to je ono zbog čega
     # je korisnik došao), a dugme „idi na početnu" nema smisla — alat je tu.
     # tool=True → alat za rime; tool='<...>' → gotov markup nekog drugog alata

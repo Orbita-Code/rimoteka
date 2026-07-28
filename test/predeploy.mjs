@@ -838,6 +838,116 @@ async function main() {
        `${pismo.latTabovi} → ${pismo.nazad}`);
     await pPis2.close();
 
+    console.log('\n12g) ĆIRILICA PREBACUJE CEO TEKST, NA SVIM TIPOVIMA STRANA');
+    /* Prekidač je ranije menjao samo okvir alata i rezultate — naslov, uvod,
+       SEO tekst i odgovori na česta pitanja ostajali su na latinici. Uz to ga
+       generisane strane uopšte nisu ni imale u zaglavlju. Ne sme da se prebaci:
+       logo (pravilo 8a), mejl adresa i skraćenice (PDF, ABAB). */
+    const cirilica = t => /[Ѐ-ӿ]/.test(t || '');
+    for (const put of ['/', '/slogovi/', '/vrste-rima/', '/klasici/']) {
+      const pc = await browser.newPage();
+      await pc.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+      await pauza(1200);
+      const imaPrekidac = await pc.evaluate(() => !!document.getElementById('scriptToggle'));
+      ok(`${put} → prekidač za pismo postoji`, imaPrekidac);
+      if (imaPrekidac) {
+        await pc.click('#scriptToggle button[data-script="cyr"]');
+        await pauza(900);
+        const r = await pc.evaluate(() => ({
+          h1: (document.querySelector('h1') || {}).textContent || '',
+          uvod: (document.querySelector('.hero p, .landing-lead') || {}).textContent || '',
+          telo: (document.querySelector('.seo-content p, .res-group .seo-p') || {}).textContent || '',
+          faq: (document.querySelector('.faq details p, .landing-faq details p') || {}).textContent || '',
+          logo: (document.querySelector('.brand-word') || {}).textContent || '',
+          mejl: document.body.innerText.includes('info@rimoteka.com'),
+          maticniTekst: document.body.innerText,
+        }));
+        ok(`${put} → naslov i uvod prelaze u ćirilicu`, cirilica(r.h1) && cirilica(r.uvod),
+           `${r.h1.slice(0, 30)} | ${r.uvod.slice(0, 30)}`);
+        ok(`${put} → tekst strane i česta pitanja prelaze u ćirilicu`,
+           cirilica(r.telo) && cirilica(r.faq), `${r.telo.slice(0, 30)} | ${r.faq.slice(0, 30)}`);
+        ok(`${put} → logo ostaje netaknut`, r.logo === 'imoteka', r.logo);
+        ok(`${put} → skraćenice ostaju latinicom`,
+           !/ПДФ|АБАБ|ААББ/.test(r.maticniTekst),
+           (r.maticniTekst.match(/ПДФ|АБАБ|ААББ/g) || []).join(','));
+        if (put === '/') ok('početna → mejl adresa se ne prebacuje u ćirilicu', r.mejl === true);
+      }
+      await pc.close();
+    }
+
+    console.log('\n12h) U ĆIRILICI SE I UPISANA REČ PRIKAZUJE ĆIRILICOM');
+    /* Digrafi su ovde cela poenta: posle „l" stoji „л", ali čim stigne „j"
+       ceo niz mora da se pročita kao „lj" → „љ" (ne „лј"). Zato se prebacuje
+       preko latinice, a ne slovo po slovo.
+       Beležnica se NAMERNO ne dira — tamo je tekst korisnika. */
+    const pU = await browser.newPage();
+    await pU.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+    await pU.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
+                             { timeout: 120000 }).catch(() => {});
+    await pU.click('#scriptToggle button[data-script="cyr"]');
+    await pauza(700);
+    await pU.click('#rimeInput');
+    await pU.keyboard.type('ljubav', { delay: 50 });
+    const upisano = await pU.inputValue('#rimeInput');
+    ok('ćirilica → upisana reč se prikazuje ćirilicom (digraf lj → љ)',
+       upisano === 'љубав', upisano);
+    await pU.click('#rimeBtn');
+    await pauza(900);
+    const rimeCyr = await pU.evaluate(() =>
+      [...document.querySelectorAll('#rimeResults .chip .word')].map(x => x.textContent));
+    ok('ćirilica → rime za ćirilični unos i dalje rade', rimeCyr.length > 5, `${rimeCyr.length}`);
+    await pU.click('#scriptToggle button[data-script="lat"]');
+    await pauza(700);
+    const vraceno = await pU.inputValue('#rimeInput');
+    ok('latinica → upisana reč se vraća u latinicu', vraceno === 'ljubav', vraceno);
+    await pU.click('#scriptToggle button[data-script="cyr"]');
+    await pauza(500);
+    await pU.evaluate(() => [...document.querySelectorAll('#tabs a')].find(a => a.dataset.tab === 'beleznica').click());
+    await pauza(400);
+    await pU.click('#noteEditor');
+    await pU.keyboard.type('moja pesma', { delay: 30 });
+    await pauza(600);
+    const pesmaTekst = await pU.evaluate(() => document.getElementById('noteEditor').innerText.trim());
+    ok('beležnica se NE prekucava u ćirilicu (tekst je korisnikov)',
+       pesmaTekst === 'moja pesma', pesmaTekst);
+    await pU.close();
+
+    console.log('\n12i) NIŠTA NE IZLAZI IZVAN OKVIRA ČIPA');
+    /* Kolona je bila uža (11.5rem) od sadržaja čipa, a čip nije smeo da prelomi
+       sadržaj — pa je ikonica „nađi rime" stajala IZVAN pilule. Videlo se samo
+       na širem ekranu i najviše kod grupe „dobre rime", gde je okvir beo na
+       belom. Meri se na više širina jer se na telefonu bag NIJE video. */
+    for (const sirina of [1440, 1024, 390]) {
+      const pc2 = await browser.newPage({ viewport: { width: sirina, height: 900 } });
+      await pc2.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pc2.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
+                                { timeout: 120000 }).catch(() => {});
+      const m = await pc2.evaluate(async () => {
+        let n = 0, viri = 0, najgore = '';
+        for (const q of ['žurke', 'ljubav', 'devojčica']) {
+          document.getElementById('rimeInput').value = q;
+          document.getElementById('rimeBtn').click();
+          await new Promise(r => setTimeout(r, 800));
+          document.querySelectorAll('#rimeResults .chip').forEach(c => {
+            n++;
+            const cb = c.getBoundingClientRect();
+            c.querySelectorAll('.mini, .syl, .word').forEach(e => {
+              const eb = e.getBoundingClientRect();
+              // 2px tolerancije — okvir čipa je debeo 2px
+              if (eb.right > cb.right - 2 || eb.left < cb.left + 2) {
+                viri++;
+                if (!najgore) najgore = `${c.querySelector('.word').textContent}: ${Math.round(eb.right - cb.right)}px`;
+              }
+            });
+          });
+        }
+        return { n, viri, najgore };
+      });
+      ok(`${sirina}px → nijedna ikonica ne izlazi iz čipa (${m.n} čipova)`, m.viri === 0,
+         `${m.viri} viri, npr. ${m.najgore}`);
+      await pc2.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

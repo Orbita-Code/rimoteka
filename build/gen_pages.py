@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728g">
+<link rel="stylesheet" href="/style.css?v=20260728j">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -184,6 +184,10 @@ HEAD_TMPL = """<!DOCTYPE html>
   <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
     <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
   </a>
+  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo — latinica ili ćirilica">
+    <button data-script="lat" class="active">latinica</button>
+    <button data-script="cyr">ћирилица</button>
+  </div>
 </header>
 {tabs_nav}
 """
@@ -274,7 +278,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260728g"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260728j"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -495,9 +499,11 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
 """
     d = os.path.join(PUB, slug)
     os.makedirs(d, exist_ok=True)
-    izlaz = head + body + footer
-    if alat:
-        izlaz = izlaz.replace('</body>', TOOL_SCRIPT + '</body>', 1)
+    # `app.js` ide na SVAKU tematsku stranu, i kad na njoj nema alata — bez
+    # njega prekidač za pismo u zaglavlju ne bi radio. Rečnik se pri tom ne
+    # skida: `bootstrap` ga traži samo ako na strani postoji neki alat koji
+    # pretražuje reči (v. izuzetak u app.js).
+    izlaz = (head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
     with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(izlaz)
     return canon

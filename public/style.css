@@ -475,17 +475,28 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* Rime u ravnomernim kolonama. Ranije flex-wrap: čipovi su različite širine pa
    je red primao čas 3 čas 4 reči i poslednja bi visila sama. Mreža daje svakoj
    reči jednaku ćeliju, pa su kolone poravnate. */
-.results{display:grid;grid-template-columns:repeat(auto-fill,minmax(11.5rem,1fr));gap:.55rem;align-content:start}
+/* Kolona je bila 11.5rem (184px), a sam sadržaj čipa — reč + broj slogova +
+   tri ikonice — traži od 196px naviše. Čip je bio `inline-flex` bez prelamanja,
+   pa mu je sadržaj probijao okvir: ikonica „nađi rime" je stajala IZVAN pilule.
+   Videlo se samo na širem ekranu (na telefonu je kolona šira) i samo kod grupe
+   „dobre rime", gde je okvir beo na belom. Sada je kolona 15rem, a čip sme da
+   prelomi sadržaj (v. `.chip`) pa ništa ne može da izađe iz okvira. */
+.results{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.55rem;align-content:start}
 /* u kolone idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
 .results > *:not(.chip){grid-column:1/-1}
 .res-group{margin-bottom:.5rem}
 .res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
-  display:inline-flex;align-items:center;gap:.45rem;
+  display:flex;align-items:center;gap:.45rem;
+  /* Prelamanje je zaštita, ne izgled: kod duge reči („potpredsednica") ikonice
+     pređu u drugi red UNUTAR pilule umesto da izađu iz nje. Reč ostaje cela. */
+  flex-wrap:wrap;min-width:0;
   background:#fff;border:2px solid #fff;border-radius:999px;
   padding:.4rem .55rem .4rem .95rem;box-shadow:var(--shadow-sm);
   transition:transform .14s,border-color .18s;
 }
+.chip .word{min-width:0;overflow-wrap:anywhere}
+.chip .syl,.chip .mini{flex:0 0 auto}
 .chip:hover{transform:translateY(-2px);border-color:var(--rose)}
 .chip .word{font-size:1.05rem;font-weight:600;cursor:pointer;color:var(--ink)}
 .chip .word:hover{color:var(--rose-deep)}

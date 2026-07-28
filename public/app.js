@@ -598,6 +598,10 @@ function moveAutocomplete(dir){
   if(acIndex >= acItems.length) acIndex = 0;
   acWrap.querySelectorAll('.ac-item').forEach((el,i)=>el.classList.toggle('active', i===acIndex));
 }
+/* Prebacivanje ide PRE dopune reči, da lista predloga radi nad onim što se
+   zaista vidi u polju. `prebaciUnos` je definisan niže u fajlu, ali je funkcija
+   deklarativna pa je dostupna i ovde. */
+rimeInput.addEventListener('input', () => prebaciUnos(rimeInput));
 rimeInput.addEventListener('input', updateAutocomplete);
 rimeInput.addEventListener('keydown', e=>{
   if(e.key === 'ArrowDown'){ e.preventDefault(); moveAutocomplete(1); }
@@ -614,6 +618,7 @@ document.addEventListener('click', e=>{ if(rimeInput.parentNode && !rimeInput.pa
 
 /* ====================== PRETRAGA ====================== */
 const searchInput = el('searchInput');
+searchInput.addEventListener('input', () => prebaciUnos(searchInput));
 let searchSyl = 0;
 function doSearch(){
   const mode = el('searchMode').value;
@@ -1940,14 +1945,60 @@ const UI_SCRIPT_SELS = [
   '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
   '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
   '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',
-  '.landing h2', '.landing-faq summary'
+  '.landing h2', '.landing-faq summary',
+  /* Prekidač za pismo menja CEO tekst strane, ne samo dugmad i rezultate.
+     Ranije je hvatao samo okvir alata, pa je naslov, uvod, SEO tekst i odgovor
+     na često pitanje ostajao na latinici i kad je izabrana ćirilica. */
+  '.hero h1', '.hero p', '.seo-content', '.notepad-title',
+  '.landing-h1', '.landing-lead', '.landing-cta', '.crumbs',
+  '.res-group', '.landing-faq details p', '.slog-table', '.syl-label',
+  '.footer-desc', '.footer-keys', '.footer-rimes-label'
 ];
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
+
+/* Polja u koja se KUCA reč koja se traži. Kad je izabrana ćirilica, i ono što
+   korisnik upiše prikazuje se ćirilicom — inače pola strane bude ćirilica, a
+   reč u polju latinica.
+   NAMERNO nisu ovde beležnica i brojač slogova: tamo stoji tekst korisnika
+   (pesma se čuva na uređaju), pa ga alat ne sme prekucavati sam od sebe.
+   Prebacuje se preko latinice — `toCyr(toLatin(v))` — da bi digrafi radili:
+   posle „l" stoji „л", a čim stigne „j" ceo niz se pročita kao „lj" → „љ". */
+const UNOS_PO_PISMU = ['rimeInput', 'searchInput', 'gameInput'];
+
+function prebaciUnos(inp){
+  if(!inp || inp.__noop || !inp.value) return;
+  const fn = script === 'cyr' ? toCyr : toLatin;
+  const novo = fn(toLatin(inp.value));
+  if(novo === inp.value) return;
+  const kraj = inp.selectionStart == null || inp.selectionStart === inp.value.length;
+  const poz = kraj ? novo.length : fn(toLatin(inp.value.slice(0, inp.selectionStart))).length;
+  inp.value = novo;
+  try { inp.setSelectionRange(poz, poz); } catch(e){}
+}
+
+/* Šta se NIKAD ne prebacuje u drugo pismo:
+   - logo i ime u futeru (logo se ne dira — pravilo 8a u CLAUDE.md)
+   - mejl i domen: „info@rimoteka.com" u ćirilici prestaje da bude adresa
+   - skraćenice velikim slovima (PDF, ABAB, AABB) — to su oznake, ne reči */
+const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-legal, .deftip';
+const ADRESA = /[@]|\b[a-z0-9-]+\.(com|rs|org|net)\b/i;
+const SKRACENICA = /\b[A-ZĐŽĆČŠ]{2,}\b/g;
+
 function convertTextNodes(root, fn){
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
   const nodes = [];
   let n; while((n = walker.nextNode())) nodes.push(n);
-  nodes.forEach(t => { if(t.textContent.trim()) t.textContent = fn(t.textContent); });
+  nodes.forEach(t => {
+    if(!t.textContent.trim()) return;
+    if(t.parentElement && t.parentElement.closest(BEZ_PISMA_SEL)) return;
+    if(ADRESA.test(t.textContent)) return;
+    /* Skraćenice se izuzmu iz konverzije pa vrate na svoje mesto. Oznaka mora
+       da bude znak koji se u tekstu NE MOŽE pojaviti — sa običnim brojem bi
+       „ima 3 sloga" bilo prepoznato kao oznaka i tekst bi se pokvario. */
+    const cuvane = [];
+    const sa = t.textContent.replace(SKRACENICA, m => '\u0000' + (cuvane.push(m) - 1) + '\u0000');
+    t.textContent = fn(sa).replace(/\u0000(\d+)\u0000/g, (_, i) => cuvane[+i]);
+  });
 }
 function applyScriptToUI(){
   const fn = script === 'cyr' ? toCyr : toLatin;
@@ -1955,6 +2006,8 @@ function applyScriptToUI(){
   UI_SCRIPT_INPUTS.forEach(id => {
     const i = el(id); if(i && i.placeholder) i.placeholder = fn(i.placeholder);
   });
+  // ono što je već upisano prelazi u izabrano pismo, u oba smera
+  UNOS_PO_PISMU.forEach(id => prebaciUnos(el(id)));
   const ne = el('noteEditor');
   if(ne && ne.dataset.placeholder) ne.dataset.placeholder = fn(ne.dataset.placeholder);
   const rb = el('randomBtn');
@@ -2585,6 +2638,7 @@ const gameHandoff = document.getElementById('gameHandoff');
 const gameHandoffStart = document.getElementById('gameHandoffStart');
 const gameWordEl = el('gameWord');
 const gameInput = el('gameInput');
+gameInput.addEventListener('input', () => prebaciUnos(gameInput));
 const gameSubmit = document.getElementById('gameSubmit');
 const gameFeedback = el('gameFeedback');
 const gameTimerEl = el('gameTimer');

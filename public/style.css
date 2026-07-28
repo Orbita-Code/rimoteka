@@ -37,6 +37,7 @@ body.dark-mode{
 body.dark-mode{background:#121018}
 body.dark-mode .script-toggle,
 body.dark-mode .tabs button,
+body.dark-mode .tabs a,
 body.dark-mode .chip,
 body.dark-mode .notepad,
 body.dark-mode .note-rhymes,
@@ -62,6 +63,7 @@ body.dark-mode .syl-line:nth-child(odd){
   color:var(--ink);
 }
 body.dark-mode .tabs button:hover,
+body.dark-mode .tabs a:hover,
 body.dark-mode .chip:hover{
   background:#2a2440;
 }
@@ -410,15 +412,15 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
   display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;
   padding:.4rem clamp(1rem,4vw,2.6rem);
 }
-.tabs button{
+.tabs button,.tabs a{text-decoration:none;
   border:0;background:#fff;font:inherit;font-weight:600;font-size:.92rem;
   padding:.55rem 1.15rem;cursor:pointer;color:var(--ink-soft);
   border-radius:999px;box-shadow:var(--shadow-sm);transition:.2s;
 }
-.tabs button:hover{transform:translateY(-2px);color:var(--lavender-deep)}
-.tabs button.active{background:linear-gradient(95deg,var(--lavender),var(--lavender-deep));color:#fff}
+.tabs button:hover,.tabs a:hover{transform:translateY(-2px);color:var(--lavender-deep)}
+.tabs button.active,.tabs a.active{background:linear-gradient(95deg,var(--lavender),var(--lavender-deep));color:#fff}
 .badge{background:#fff;color:var(--rose-deep);border-radius:999px;padding:.05rem .5rem;font-size:.74rem;font-weight:700;margin-left:.25rem}
-.tabs button.active .badge{color:var(--lavender-deep)}
+.tabs button.active .badge,.tabs a.active .badge{color:var(--lavender-deep)}
 
 /* MAIN */
 main{max-width:940px;margin:0 auto;padding:1.4rem clamp(1rem,4vw,2.6rem) 4rem}
@@ -470,8 +472,13 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .loose-toggle input{accent-color:var(--lavender-deep);width:1.05rem;height:1.05rem;margin:0}
 
 /* RESULTS */
-.results{display:flex;flex-wrap:wrap;gap:.55rem;align-content:flex-start}
-.res-group{width:100%;margin-bottom:.5rem}
+/* Rime u ravnomernim kolonama. Ranije flex-wrap: čipovi su različite širine pa
+   je red primao čas 3 čas 4 reči i poslednja bi visila sama. Mreža daje svakoj
+   reči jednaku ćeliju, pa su kolone poravnate. */
+.results{display:grid;grid-template-columns:repeat(auto-fill,minmax(11.5rem,1fr));gap:.55rem;align-content:start}
+/* u kolone idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
+.results > *:not(.chip){grid-column:1/-1}
+.res-group{margin-bottom:.5rem}
 .res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
   display:inline-flex;align-items:center;gap:.45rem;
@@ -565,6 +572,25 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 }
 .nr-more:hover{border-color:var(--rose);color:var(--rose-deep);background:rgba(138,160,245,.08)}
 
+/* BROJAČ SLOGOVA — brojevi levo od reda, u istom okviru kao tekst.
+   Nevidljiva kopija (.syl-mirror) služi samo za merenje gde koji red počinje. */
+.syl-box{position:relative;display:flex;border-radius:20px;overflow:hidden;background:#fff;line-height:1.95;box-shadow:var(--shadow-sm);border:2px solid #fff}
+.syl-box:focus-within{border-color:var(--lavender)}
+.syl-text{
+  flex:1 1 auto;min-width:0;width:100%;font:inherit;font-size:1.08rem;font-weight:500;line-height:1.95;
+  padding:1.1rem 1.2rem;border:0;border-radius:0;background:#fff;color:var(--ink);
+  min-height:280px;resize:vertical;box-shadow:none;overflow-y:auto;
+}
+.syl-text:focus{outline:0}
+.syl-text::placeholder{color:var(--muted)}
+.syl-mirror{
+  position:absolute;top:0;left:0;visibility:hidden;pointer-events:none;z-index:-1;
+  white-space:pre-wrap;overflow-wrap:break-word;word-break:normal;
+}
+.syl-box .gutter-row{justify-content:flex-end}
+body.dark-mode .syl-box,body.dark-mode .syl-text{background:#1e1a2e;color:var(--ink)}
+body.dark-mode .syl-box{border-color:var(--line)}
+
 /* NOTEPAD */
 .notepad-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1.1rem;align-items:start}
 .notepad-main{display:flex;flex-direction:column;min-width:0}
@@ -595,6 +621,11 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-select:none}
 .notepad-text{border:0;border-radius:0;min-height:360px;box-shadow:none;flex:1 1 auto;min-width:0;overflow-y:auto}
 .notepad-text:focus{outline:0}
+/* Sakriveno od oka, dostupno kodu (npr. pomoćno polje preko kog beležnica
+   traži rime na strani /pisanje-pesama/). Ne koristiti display:none —
+   skriptama treba element koji stvarno postoji u rasporedu. */
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+
 /* LEGENDA BELEŽNICE — šta znače oznake levo od stiha */
 .notepad-legend{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:.6rem 0 0;font-size:.78rem;color:var(--muted);font-weight:500}
 .notepad-legend>span{display:inline-flex;align-items:baseline;gap:.3rem}
@@ -632,6 +663,10 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 body.dark-mode .note-meter{background:#1e1a2e;border-color:var(--line)}
 
 .link-btn{border:0;background:transparent;color:var(--rose-deep);cursor:pointer;font:inherit;font-weight:700;text-decoration:underline;padding:0;margin:0 .15rem}
+
+/* Tekst o alatu ispod tabova važi za tab „Rime". Na ostalim tabovima se sklanja
+   da ne priča o rimovanju dok korisnik gleda igru ili klasike. */
+body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 
 /* LOADING + TOAST */
 .loading{position:fixed;left:50%;bottom:2rem;transform:translateX(-50%);background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;padding:.75rem 1.4rem;border-radius:999px;font-weight:600;font-size:.92rem;box-shadow:var(--shadow);z-index:50}
@@ -787,7 +822,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 
   /* Tabovi — scrollable na mobilnom */
   .tabs{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:.4rem 1rem;-webkit-overflow-scrolling:touch}
-  .tabs button{flex-shrink:0;white-space:nowrap}
+  .tabs button,.tabs a{flex-shrink:0;white-space:nowrap}
 
   /* Autocomplete — ne prekriva dugme */
   .autocomplete{max-height:200px;z-index:80}

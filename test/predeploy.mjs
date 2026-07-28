@@ -128,7 +128,7 @@ async function main() {
     for (const t of tabovi) {
       const vidljiv = await page.evaluate(async (tab) => {
         const w = ms => new Promise(r => setTimeout(r, ms));
-        const btn = [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === tab);
+        const btn = [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === tab);
         if (!btn) return 'nema dugme';
         btn.click();
         await w(300);
@@ -142,7 +142,7 @@ async function main() {
     console.log('\n5) PRETRAGA REČI');
     const pretraga = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'pretraga').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'pretraga').click();
       await w(200);
       document.getElementById('searchInput').value = 'ljubav';
       document.getElementById('searchBtn').click();
@@ -154,7 +154,7 @@ async function main() {
     console.log('\n6) SLOGOVI I KARAKTERI');
     const slogovi = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'slogovi').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'slogovi').click();
       await w(200);
       const ta = document.getElementById('sylInput');
       ta.value = 'Ljubav je lepa';
@@ -167,7 +167,7 @@ async function main() {
     console.log('\n7) BELEŽNICA');
     const beleznica = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'beleznica').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'beleznica').click();
       await w(200);
       const ed = document.getElementById('noteEditor');
       if (!ed) return 'nema editor';
@@ -195,7 +195,7 @@ async function main() {
     });
     await pauza(1200);
     const gutter = await page.evaluate(() => {
-      const rows = [...document.querySelectorAll('.gutter-row')];
+      const rows = [...document.querySelectorAll('#noteGutter .gutter-row')];
       const ed = document.getElementById('noteEditor');
       // Poravnanje se meri na OTISKU slova (ne na okviru reda): broj u gutteru
       // i stih moraju sedeti na istoj osnovnoj liniji.
@@ -387,7 +387,7 @@ async function main() {
     console.log('\n8) IGRA RIMA — ceo krug');
     const igra = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'igra').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'igra').click();
       await w(300);
       const opt = document.querySelector('#gameSetup .game-setup-options button[data-value="3"]');
       if (opt) opt.click();
@@ -412,11 +412,16 @@ async function main() {
       // Tražimo je istim algoritmom koji koristi i sam alat (rhymeKey),
       // pa ovaj test pada i ako se pokvari samo prepoznavanje rime.
       const cilj = (typeof gameCurrentWord === 'string' && gameCurrentWord) ? gameCurrentWord : rec;
+      // Odgovor tražimo ISTIM pravilom koje igra i priznaje (savršena rima ILI
+      // asonanca). Ranije se tražila samo savršena, pa je test umeo da ne nađe
+      // ništa za reč tipa „valjda" i prijavi „nije testirano" — a igra je bila
+      // sasvim ispravna.
       let rima = null;
       if (typeof rhymeKey === 'function') {
-        const k = rhymeKey(cilj);
+        const k = rhymeKey(cilj), lk = (typeof looseKey === 'function') ? looseKey(cilj) : null;
         for (const w2 of WORDS) {
-          if (w2 !== cilj && rhymeKey(w2) === k) { rima = w2; break; }
+          if (w2 === cilj) continue;
+          if (rhymeKey(w2) === k || (lk && looseKey(w2) === lk)) { rima = w2; break; }
         }
       }
       let fbTacna = 'nije testirano';
@@ -439,7 +444,7 @@ async function main() {
     const predaja = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       // 2 igrača, 5 reči po igraču — pa odigraj prvog do kraja
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'igra').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'igra').click();
       await w(250);
       document.querySelector('#gamePlayers .game-option[data-value="2"]').click();
       document.querySelector('#gameWords .game-option[data-value="5"]').click();
@@ -555,7 +560,7 @@ async function main() {
     console.log('\n9) Kockica bira POZNATU reč (ne arhaizam)');
     const kockica = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      [...document.querySelectorAll('#tabs button')].find(b => b.dataset.tab === 'rime').click();
+      [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'rime').click();
       await w(200);
       const pool = typeof getCommonPool === 'function' ? getCommonPool() : null;
       document.getElementById('randomBtn').click();
@@ -659,6 +664,112 @@ async function main() {
     ok('/rimovanje-reci/ → kockica postoji', alat.kockica === true);
     ok('/rimovanje-reci/ → nula grešaka u konzoli', alatGreske.length === 0, alatGreske.slice(0, 3).join(' | '));
     await pAlat.close();
+
+    console.log('\n12c) ŽIVI BROJAČ na /slogovi/');
+    // Strana cilja „brojanje slogova i karaktera" — mora da IMA brojač, ne samo
+    // tekst o njemu. I ne sme da skida rečnik (2,6 MB) koji joj ne treba.
+    const pSlog = await browser.newPage();
+    const slogGreske = [], slogZahtevi = [];
+    pSlog.on('console', m => {
+      if (m.type() !== 'error') return;
+      const t = m.text();
+      if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      slogGreske.push(t);
+    });
+    pSlog.on('pageerror', e => slogGreske.push('pageerror: ' + e.message));
+    pSlog.on('request', r => slogZahtevi.push(r.url()));
+    await pSlog.goto(BASE + '/slogovi/', { waitUntil: 'domcontentloaded' });
+    await pauza(2500);
+    const slog = await pSlog.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const ta = document.getElementById('sylInput');
+      if (!ta) return { greska: 'nema brojača na strani' };
+      ta.value = 'Zaspalo je zvono na vrh tornja stara\nvrt i prst i srce\nkratko';
+      ta.dispatchEvent(new Event('input', { bubbles: true }));
+      await w(700);
+      // brojevi stoje LEVO od reda (gutter), tekst se ne ponavlja ispod polja
+      const redovi = [...document.querySelectorAll('#sylGutter .gutter-row')];
+      return {
+        redova: redovi.length,
+        brojevi: redovi.map(r => r.querySelector('.g-syl').textContent.trim()).join(','),
+        znakovi: redovi.map(r => r.title || '').join('|'),
+        ponovljen: document.querySelectorAll('#sylOutput .syl-line').length,
+        ukupno: (document.querySelector('.syl-total') || {}).textContent || '',
+        h1: document.querySelectorAll('h1').length,
+        naslov: document.title,
+      };
+    });
+    ok('/slogovi/ → brojač JE na strani', !slog.greska, slog.greska || '');
+    ok('/slogovi/ → broji slogove po redu', slog.brojevi === '12,6,2', slog.brojevi);
+    ok('/slogovi/ → pokazuje i broj znakova (na hover)', /znak/.test(slog.znakovi || ''), slog.znakovi);
+    ok('/slogovi/ → tekst se ne ponavlja ispod polja', slog.ponovljen === 0, `${slog.ponovljen}`);
+    ok('/slogovi/ → ukupan zbir ima slogove, reči i znakove',
+       /slog/.test(slog.ukupno) && /reči/.test(slog.ukupno) && /znakova/.test(slog.ukupno), slog.ukupno);
+    ok('/slogovi/ → naslov cilja i karaktere', /karaktera/i.test(slog.naslov || ''), slog.naslov);
+    ok('/slogovi/ → tačno jedan h1', slog.h1 === 1, `${slog.h1}`);
+    const tesko = slogZahtevi.filter(u => /reci\.txt|definicije\.json|frekvencija\.json|sinonimi\.json/.test(u));
+    ok('/slogovi/ → ne skida rečnik koji joj ne treba', tesko.length === 0,
+       tesko.map(u => u.split('/').pop()).join(', '));
+    ok('/slogovi/ → nula grešaka u konzoli', slogGreske.length === 0, slogGreske.slice(0, 3).join(' | '));
+    await pSlog.close();
+
+    console.log('\n12d) BELEŽNICA na /pisanje-pesama/');
+    // Strana mora da nosi ceo editor (gutter, šema rime, panel sa rimama, metar),
+    // ne opis alata. Panel uz stih traži rime preko skrivenog #rimeInput.
+    const pPis = await browser.newPage();
+    const pisGreske = [];
+    pPis.on('console', m => {
+      if (m.type() !== 'error') return;
+      const t = m.text();
+      if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      pisGreske.push(t);
+    });
+    pPis.on('pageerror', e => pisGreske.push('pageerror: ' + e.message));
+    await pPis.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+    await pPis.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
+                               { timeout: 120000 }).catch(() => {});
+    const pis = await pPis.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const ed = document.getElementById('noteEditor');
+      if (!ed) return { greska: 'nema beležnice na strani' };
+      ed.innerHTML = 'Volim te ko nada<br>zvezda sja u tami<br>u srcu mom je mlada<br>i sanjamo je sami';
+      ed.dispatchEvent(new Event('input', { bubbles: true }));
+      const sel = getSelection(), r = document.createRange();
+      r.selectNodeContents(ed); r.collapse(false);
+      sel.removeAllRanges(); sel.addRange(r);
+      document.dispatchEvent(new Event('selectionchange'));
+      await w(1400);
+      const meterBtn = document.getElementById('toggleMeter');
+      if (meterBtn && document.getElementById('noteMeter').hidden) meterBtn.click();
+      await w(500);
+      const pomocno = document.querySelector('.sr-only');
+      return {
+        slogovi: [...document.querySelectorAll('#noteGutter .g-syl')].map(x => x.textContent).join(','),
+        slova: [...document.querySelectorAll('#noteGutter .g-letter')].map(x => x.textContent).join(''),
+        obojene: document.querySelectorAll('#noteEditor .rhyme-word').length,
+        rime: document.querySelectorAll('#noteRhymes .chip').length,
+        metar: document.querySelectorAll('.meter-line').length,
+        metarHead: (document.querySelector('.meter-head') || {}).textContent || '',
+        legenda: document.querySelectorAll('.notepad-legend span').length,
+        pomocnoSkriveno: pomocno ? Math.round(pomocno.getBoundingClientRect().height) <= 1 : false,
+        h1: document.querySelectorAll('h1').length,
+        naslov: document.title,
+      };
+    });
+    ok('/pisanje-pesama/ → beležnica JE na strani', !pis.greska, pis.greska || '');
+    ok('/pisanje-pesama/ → gutter broji slogove', pis.slogovi === '6,6,7,7', pis.slogovi);
+    ok('/pisanje-pesama/ → šema rime ABAB', pis.slova === 'ABAB', pis.slova);
+    ok('/pisanje-pesama/ → rime su obojene', (pis.obojene || 0) >= 4, `${pis.obojene}`);
+    ok('/pisanje-pesama/ → panel sa rimama radi', (pis.rime || 0) > 3, `${pis.rime}`);
+    ok('/pisanje-pesama/ → metar radi', (pis.metar || 0) >= 4, `${pis.metar}`);
+    ok('/pisanje-pesama/ → množina u metru je srpska',
+       !/\b[2-4] slogova\b/.test(pis.metarHead) && !/\b[2-4] stihova\b/.test(pis.metarHead)
+       && !/Preovlađuje 0/.test(pis.metarHead), pis.metarHead);
+    ok('/pisanje-pesama/ → legenda oznaka postoji', pis.legenda === 4, `${pis.legenda}`);
+    ok('/pisanje-pesama/ → pomoćno polje za rime je sakriveno', pis.pomocnoSkriveno === true);
+    ok('/pisanje-pesama/ → tačno jedan h1', pis.h1 === 1, `${pis.h1}`);
+    ok('/pisanje-pesama/ → nula grešaka u konzoli', pisGreske.length === 0, pisGreske.slice(0, 3).join(' | '));
+    await pPis.close();
 
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,

@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260726h">
+<link rel="stylesheet" href="/style.css?v=20260728e">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -185,7 +185,28 @@ HEAD_TMPL = """<!DOCTYPE html>
     <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
   </a>
 </header>
+{tabs_nav}
 """
+
+# Jedna te ista navigacija na svakoj strani sajta. Na početnoj je to traka
+# tabova (klik prebacuje bez osvežavanja), ovde su obični linkovi — Google vidi
+# istu, doslednu strukturu svuda, a to je uslov za prečice u rezultatima.
+TABS = [
+    ('rime',      '/rimovanje-reci/', 'Rimovanje reči'),
+    ('pretraga',  '/recnik-srpskog-jezika/', 'Rečnik'),
+    ('slogovi',   '/slogovi/', 'Brojač slogova i karaktera'),
+    ('beleznica', '/pisanje-pesama/', 'Pisanje pesama'),
+    ('klasici',   '/klasici/',        'Klasici'),
+    ('igra',      '/igra-rimovanja/', 'Igra rimovanja'),
+]
+
+
+def tabs_nav(active=''):
+    linkovi = ''.join(
+        '<a href="%s" data-tab="%s"%s>%s</a>' % (href, tab, ' class="active"' if tab == active else '', esc(ime))
+        for tab, href, ime in TABS)
+    return '<nav class="tabs" id="tabs" aria-label="Alati">%s</nav>' % linkovi
+
 
 FOOTER_TMPL = """<footer class="site-footer">
   <div class="footer-inner">
@@ -253,11 +274,56 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260727e"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260728e"></script>\n'
+
+# Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
+# pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
+# brojanje slogova je čista funkcija nad tekstom (v. bootstrap u app.js).
+# Skriveni deo alata za rime. Beležnica i igra traže rime preko
+# #rimeInput/#rimeResults, pa ti elementi moraju postojati i na stranama gde
+# sam pretraživač rima nije vidljiv.
+HIDDEN_RHYME_HTML = """  <div class="sr-only" aria-hidden="true">
+    <input type="text" id="rimeInput" tabindex="-1" autocomplete="off">
+    <div id="rimeResults"></div>
+  </div>
+"""
+
+
+def panel_html(ime, skriveno_rime=False):
+    """Izvuci markup jednog taba iz public/index.html.
+
+    Markup se NE prepisuje ovde — dve kopije istog alata bi se pre ili kasnije
+    razišle, pa bi jedna strana tiho izgubila neko dugme. Jedini izvor istine
+    je index.html; ovde se samo omotač <section class="tab-panel"> zameni
+    običnim blokom, jer izvan početne strane nema tabova.
+    """
+    with open(os.path.join(PUB, 'index.html'), encoding='utf-8') as f:
+        idx = f.read()
+    m = re.search(r'<section class="tab-panel" id="panel-%s">(.*?)\n  </section>' % ime, idx, re.S)
+    if not m:
+        raise SystemExit('gen_pages: ne nalazim panel „%s" u index.html' % ime)
+    blok = '<div class="landing-tool">' + m.group(1) + '\n  </div>'
+    return (HIDDEN_RHYME_HTML if skriveno_rime else '') + '  ' + blok + '\n'
+
+
+def notepad_tool_html():
+    return panel_html('beleznica', skriveno_rime=True)
+
+
+SYL_TOOL_HTML = """  <div class="landing-tool">
+    <label class="syl-label" for="sylInput">Upiši ili nalepi tekst — broj slogova stoji levo od svakog reda:</label>
+    <div class="syl-box">
+      <div id="sylGutter" class="gutter"><div id="sylGutterInner" class="gutter-inner"></div></div>
+      <textarea id="sylInput" class="syl-text" placeholder="Upiši reč, stih ili celu pesmu…" spellcheck="false"></textarea>
+      <div id="sylMirror" class="syl-mirror" aria-hidden="true"></div>
+    </div>
+    <div id="sylOutput" class="syl-lines"></div>
+  </div>
+"""
 
 
 def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,
-                 tool=False):
+                 tool=False, aktivan_tab=''):
     # Statička tematska strana (autoritet). lead_html/sekcije = sirov HTML; faq = plain tekst.
     canon = f'{BASE}/{slug}/'
     schema = json.dumps({
@@ -270,14 +336,16 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
                 for q, a in faqs]}]
     }, ensure_ascii=False, indent=1)
     head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(desc),
-                            canonical=canon, base=BASE, schema=schema)
+                            canonical=canon, base=BASE, schema=schema,
+                            tabs_nav=tabs_nav(aktivan_tab))
     secs = ''.join(f'<div class="res-group"><h3>{esc(st)}</h3><p class="seo-p">{sb}</p></div>'
                    for st, sb in sections)
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
     # Kad strana ima živi alat, on ide ODMAH ispod naslova (to je ono zbog čega
     # je korisnik došao), a dugme „idi na početnu" nema smisla — alat je tu.
-    alat = TOOL_HTML if tool else ''
-    cta = '' if tool else f'  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>\n'
+    # tool=True → alat za rime; tool='<...>' → gotov markup nekog drugog alata
+    alat = TOOL_HTML if tool is True else (tool if isinstance(tool, str) else '')
+    cta = '' if alat else f'  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>\n'
     body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>{esc(h1)}</span></nav>
   <h1 class="landing-h1">{esc(h1)}</h1>
@@ -289,7 +357,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     d = os.path.join(PUB, slug)
     os.makedirs(d, exist_ok=True)
     izlaz = head + body + footer
-    if tool:
+    if alat:
         izlaz = izlaz.replace('</body>', TOOL_SCRIPT + '</body>', 1)
     with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(izlaz)
@@ -535,7 +603,7 @@ def main():
             ]
         }, ensure_ascii=False, indent=1)
 
-        head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(ogdesc),
+        head = HEAD_TMPL.format(tabs_nav=tabs_nav('rime'), title=esc(title), desc=esc(desc), ogdesc=esc(ogdesc),
                                 canonical=canonical, base=BASE, schema=schema)
 
         body = f"""<main class="landing">
@@ -572,9 +640,9 @@ def main():
 
     # 2b) statička strana /slogovi/ — keyword „brojanje slogova"
     slog_canon = f'{BASE}/slogovi/'
-    slog_title = 'Brojanje slogova — broj slogova u reči i stihu | Rimoteka'
-    slog_desc = ('Brojanje slogova onlajn: prebroj slogove u reči, stihu ili celoj pesmi. '
-                 'Kako se broje slogovi u srpskom jeziku (sa slogotvornim „r") — pravila, primeri i besplatan alat.')
+    slog_title = 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka'
+    slog_desc = ('Besplatan brojač slogova i karaktera: nalepi tekst i odmah vidiš broj slogova, '
+                 'reči i znakova za svaki red. Kako se broje slogovi u srpskom (sa slogotvornim „r") — pravila i primeri.')
     slog_schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -585,21 +653,27 @@ def main():
                 {"@type": "Question", "name": "Kako se broje slogovi u reči?",
                  "acceptedAnswer": {"@type": "Answer", "text": "Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r“ koje je i samo nosilac sloga (npr. vrt = 1 slog, srce = 2 sloga)."}},
                 {"@type": "Question", "name": "Zašto je bitno brojati slogove u pesmi?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu."}}]}]
+                 "acceptedAnswer": {"@type": "Answer", "text": "Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu."}},
+                {"@type": "Question", "name": "Broji li alat i karaktere?",
+                 "acceptedAnswer": {"@type": "Answer", "text": "Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči."}}]}]
     }, ensure_ascii=False, indent=1)
-    slog_head = HEAD_TMPL.format(title=esc(slog_title), desc=esc(slog_desc), ogdesc=esc(slog_desc),
+    slog_head = HEAD_TMPL.format(tabs_nav=tabs_nav('slogovi'), title=esc(slog_title), desc=esc(slog_desc), ogdesc=esc(slog_desc),
                                  canonical=slog_canon, base=BASE, schema=slog_schema)
     slog_examples = [('vrt', 1), ('prst', 1), ('srce', 2), ('ljubav', 2), ('pesma', 2),
                      ('jabuka', 3), ('rimovanje', 4), ('devojčica', 4)]
     ex_rows = ''.join(
         f'<tr><td>{esc(w)}</td><td>{n} {syl_word(n)}</td></tr>' for w, n in slog_examples)
+    syl_tool = SYL_TOOL_HTML
     slog_body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Brojanje slogova</span></nav>
-  <h1 class="landing-h1">Brojanje slogova online</h1>
-  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. U Rimoteci možeš da prebrojiš slogove u pojedinačnoj reči, u stihu ili u celoj pesmi, red po red.</p>
-  <a class="landing-cta" href="/?tab=slogovi">✍️ Otvori Brojač slogova u alatu →</a>
+  <h1 class="landing-h1">Brojanje slogova i karaktera</h1>
+{syl_tool}  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. Nalepi tekst iznad: broj slogova stoji levo od svakog reda, a na dnu ukupan zbir za celu pesmu. Radi i za jednu reč i za ceo tekst.</p>
+  <p class="landing-lead">Brojač je deo celine: kad ti stih ne štima, u <a href="/pisanje-pesama/">beležnici</a> ga pišeš uz rime i šemu rime, a u <a href="/rimovanje-reci/">rimovanju reči</a> tražiš reč koja se uklapa u meru.</p>
   <div class="res-group"><h3>Kako se broje slogovi</h3>
     <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r"</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
+  </div>
+  <div class="res-group"><h3>Brojanje karaktera i reči</h3>
+    <p class="seo-p">Pored slogova, brojač pokazuje i <strong>broj karaktera</strong> (znakova) i reči u svakom redu, sa razmacima i bez njih. To je korisno kad tekst mora da stane u zadatu dužinu — za pesmu, opis, poruku ili meta opis strane.</p>
   </div>
   <div class="res-group"><h3>Primeri broja slogova</h3>
     <table class="slog-table"><thead><tr><th>Reč</th><th>Broj slogova</th></tr></thead><tbody>{ex_rows}</tbody></table>
@@ -608,25 +682,209 @@ def main():
     <h3>Česta pitanja</h3>
     <details><summary>Kako se broje slogovi u reči?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r" koje je i samo nosilac sloga (vrt = 1 slog, srce = 2 sloga).</p></details>
     <details><summary>Zašto je bitno brojati slogove u pesmi?</summary><p>Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu.</p></details>
-    <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. U tabu „Slogovi i znakovi" nalepi ceo tekst — Rimoteka pored svakog reda ispisuje broj slogova, a na dnu ukupan zbir.</p></details>
+    <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. Nalepi ceo tekst u polje na vrhu strane — pored svakog reda stoji broj slogova, a na dnu ukupan zbir za celu pesmu.</p></details>
+    <details><summary>Broji li alat i karaktere?</summary><p>Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči.</p></details>
   </section>
 </main>
 """
     slog_dir = os.path.join(PUB, 'slogovi')
     os.makedirs(slog_dir, exist_ok=True)
     with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(slog_head + slog_body + footer)
+        f.write((slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     sitemap_entries.append(
         f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
 
     # 2c) tematske strane (autoritet + niše)
     content_defs = [
+        dict(slug='recnik-srpskog-jezika', aktivan_tab='pretraga',
+             title='Rečnik srpskog jezika — pretraga reči i značenja | Rimoteka',
+             desc='Rečnik srpskog jezika sa preko 270.000 reči i objašnjenja. Traži reč po značenju ili po '
+                  'slovima — koje se završavaju, počinju ili sadrže zadata slova, uz broj slogova za svaku.',
+             h1='Rečnik srpskog jezika',
+             lead='<strong>Rečnik srpskog jezika</strong> sa preko 270.000 reči — i uz svaku objašnjenje. '
+                  'Reč možeš tražiti i po slovima — onu koja se završava na „-ost", počinje na „cvet" ili '
+                  'negde u sebi ima „zvezd" — a uz svaku stoji broj slogova i značenje.',
+             cta_href='/rimovanje-reci/', cta_text='🔎 Traži rime umesto reči →',
+             priority='0.7',
+             tool=panel_html('pretraga'),
+             sections=[
+                 ('Značenje reči',
+                  'Uz svaku reč u rezultatima stoji dugme za objašnjenje — kratka definicija iz rečnika. '
+                  'Objašnjenje ima svaka reč u rečniku.'),
+                 ('Reči koje se završavaju na zadata slova',
+                  'Najčešća pretraga kod pisanja: uneseš završetak i dobiješ sve reči koje se tako završavaju. '
+                  'Korisno kad tražiš određen nastavak, a ne poklapanje po zvuku — za rimu je bolji '
+                  '<a href="/rimovanje-reci/">pretraživač rima</a>.'),
+                 ('Reči koje počinju na zadata slova',
+                  'Za akrostih, aliteraciju ili kad ti je reč „na vrh jezika" pa se sećaš samo početka.'),
+                 ('Reči koje sadrže zadata slova',
+                  'Najšira pretraga — traži niz slova bilo gde u reči. Dobra za rebuse, ukrštenice i igre rečima.'),
+                 ('Od reči do pesme',
+                  'Kad nađeš reč koja ti treba, rime za nju su u <a href="/rimovanje-reci/">rimovanju reči</a>, '
+                  'a pesmu pišeš u <a href="/pisanje-pesama/">beležnici</a>, koja ti uz svaki stih broji slogove. '
+                  'Ako vežbaš, tu je i <a href="/igra-rimovanja/">igra rimovanja</a>.'),
+                 ('Filtriranje po broju slogova',
+                  'Svaki rezultat pokazuje broj slogova, a lista se može suziti na reči tačno određene dužine — '
+                  'da se reč uklopi u ritam stiha. Za ceo tekst tu je '
+                  '<a href="/slogovi/">brojanje slogova i karaktera</a>.'),
+             ],
+             faqs=[
+                 ('Koliko reči ima rečnik?',
+                  'Preko 270.000 reči, i uz svaku objašnjenje značenja. Za više od 13.000 reči tu su i sinonimi.'),
+                 ('Kako da vidim značenje reči?',
+                  'Klikni na dugme za objašnjenje pored reči u rezultatima — otvara se kratka definicija.'),
+                 ('Kako da nađem reči koje se završavaju na određena slova?',
+                  'Izaberi „završava se na…", upiši završetak (na primer „ost") i dobićeš sve reči iz rečnika '
+                  'koje se tako završavaju, sa brojem slogova za svaku.'),
+                 ('Da li pretraga razlikuje latinicu i ćirilicu?',
+                  'Ne moraš da brineš — možeš da kucaš kako ti je lakše, a prikaz rezultata prebacuješ '
+                  'dugmetom za pismo u vrhu strane.'),
+                 ('Je li isto što i pretraga rima?',
+                  'Nije. Ovde se traže slova, a kod rima se traži poklapanje po zvuku od poslednjeg naglašenog '
+                  'samoglasnika. Za rime koristi pretraživač rima.'),
+             ]),
+
+        dict(slug='klasici', aktivan_tab='klasici',
+             title='Srpske pesme — klasici sa šemom rime i brojem slogova | Rimoteka',
+             desc='Poznate pesme srpskih pesnika sa označenom šemom rime (ABAB, AABB) i brojem slogova u svakom '
+                  'stihu. Vidi kako su veliki pesnici gradili ritam i rimu — i klikni na reč da joj nađeš rime.',
+             h1='Srpske pesme — klasici',
+             lead='Najbolji način da naučiš rimu jeste da vidiš kako su je pravili oni koji su je umeli. Uz svaki '
+                  'stih ovde stoji <strong>broj slogova</strong> i <strong>slovo šeme rime</strong>, pa se odmah '
+                  'vidi zašto pesma zvuči kako zvuči. Klik na završnu reč stiha otvara rime za nju.',
+             cta_href='/vrste-rima/', cta_text='📖 Vrste rima objašnjene →',
+             priority='0.7',
+             tool=panel_html('klasici'),
+             sections=[
+                 ('Šema rime u pravim pesmama',
+                  'Slova A, B, C pored stihova pokazuju koji se stihovi rimuju. Tako se golim okom vidi razlika '
+                  'između ukrštene (ABAB), parne (AABB) i obgrljene (ABBA) rime — više o svakoj u tekstu '
+                  '<a href="/vrste-rima/">vrste rima u poeziji</a>.'),
+                 ('Broj slogova i ritam stiha',
+                  'Pored svakog stiha piše koliko ima slogova. Kod klasika je taj broj obično ujednačen — zato se '
+                  'te pesme lako pamte i pevaju. Isti brojač za svoj tekst imaš na strani '
+                  '<a href="/slogovi/">brojanje slogova i karaktera</a>.'),
+                 ('Od čitanja do pisanja',
+                  'Kad ti se dopadne neka rima, klikni na završnu reč stiha i dobićeš sve reči koje se sa njom '
+                  'rimuju, a značenje svake potraži u <a href="/recnik-srpskog-jezika/">rečniku srpskog jezika</a>. Kad kreneš da pišeš svoje, tu je <a href="/pisanje-pesama/">beležnica za pisanje '
+                  'pesama</a> koja ti sama broji slogove i crta šemu rime.'),
+             ],
+             faqs=[
+                 ('Čije su pesme ovde?',
+                  'Pesme velikih srpskih pesnika čija su dela u javnom vlasništvu.'),
+                 ('Šta znače slova pored stihova?',
+                  'To je šema rime. Stihovi obeleženi istim slovom se rimuju: ABAB je ukrštena rima, AABB parna, '
+                  'ABBA obgrljena.'),
+                 ('Mogu li da vidim šemu rime za svoju pesmu?',
+                  'Možeš. U beležnici za pisanje pesama pored svakog tvog stiha stoji isto takvo slovo, uz broj '
+                  'slogova i prikaz ritma.'),
+             ]),
+
+        dict(slug='igra-rimovanja', aktivan_tab='igra',
+             title='Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
+             desc='Besplatna igra rimovanja: dobiješ reč, nađeš rimu pre isteka vremena. Za jednog ili više '
+                  'igrača, sa poenima i nizovima. Zabavan način da deca i odrasli vežbaju rimu i bogate rečnik.',
+             h1='Igra rimovanja',
+             lead='Alat postaje igra: dobiješ reč, a ti nađeš rimu pre nego što istekne vreme. Igra se '
+                  '<strong>sam ili u društvu</strong>, sa poenima i nizovima — a usput se rečnik širi bez '
+                  'ijedne vežbe koja liči na zadatak.',
+             cta_href='/rimovanje-reci/', cta_text='🔎 Otvori pretraživač rima →',
+             priority='0.7',
+             tool=panel_html('igra', skriveno_rime=True),
+             sections=[
+                 ('Kako se igra',
+                  'Izabereš broj igrača i koliko reči svako dobija, pa kreće. Za svaku zadatu reč upisuješ reč '
+                  'koja se sa njom rimuje. Tačan odgovor nosi poene, a niz tačnih odgovora ih umnožava.'),
+                 ('Sam ili sa društvom',
+                  'U igri za više igrača uređaj se predaje iz ruke u ruku — između igrača stoji ekran za predaju '
+                  'da niko ne vidi tuđu reč. Na kraju ide tabela sa rezultatima.'),
+                 ('Za decu i učionicu',
+                  'Igra je dobra vežba za bogaćenje rečnika i osećaj za rimu. Uz nju idu i gotove '
+                  '<a href="/rime-za-decu/">rime za decu</a>, biranе tako da budu primerene.'),
+                 ('Kad zapne',
+                  'Ako ti reč nikako ne dolazi, tu je <a href="/rimovanje-reci/">pretraživač rima</a> i '
+                  '<a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> sa svim '
+                  'rimama za bilo koju srpsku reč — a kad poželiš da od rima napraviš pesmu, čeka te '
+                  '<a href="/pisanje-pesama/">beležnica za pisanje pesama</a>.'),
+             ],
+             faqs=[
+                 ('Da li je igra besplatna?',
+                  'Jeste, u potpunosti i bez registracije.'),
+                 ('Koliko igrača može da igra?',
+                  'Od jednog do više igrača na istom uređaju — uređaj se predaje iz ruke u ruku, uz poseban '
+                  'ekran za predaju da niko ne vidi tuđu reč.'),
+                 ('Prihvata li igra bilo koju reč?',
+                  'Ne. Odgovor mora biti prava srpska reč iz rečnika i mora se stvarno rimovati sa zadatom rečju.'),
+                 ('Je li igra primerena deci?',
+                  'Jeste. Reči koje se zadaju biraju se iz poznatog dela rečnika, a neprimerene reči su '
+                  'isključene.'),
+             ]),
+
+        dict(slug='pisanje-pesama', aktivan_tab='beleznica',
+             title='Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka',
+             desc='Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu, šemu rime i ritam. '
+                  'Besplatna beležnica za pesnike, tekstopisce i repere — tekst ostaje sačuvan na tvom uređaju.',
+             h1='Pisanje pesama',
+             lead='Ovde se <strong>pesma i piše</strong>, ne samo rimuje. Dok kucaš, pored svakog '
+                  'stiha stoji broj slogova i slovo šeme rime, reči koje se rimuju obojene su istom bojom, a '
+                  'rime za reč na kojoj ti je kursor stoje sa strane i klikom ulaze u stih. Ništa se ne šalje '
+                  'nigde — tekst se čuva na tvom uređaju i čeka te kad se vratiš. Ako tek počinješ, uz alat ide '
+                  'i vodič <a href="/kako-napisati-pesmu/">kako napisati pesmu</a>.',
+             cta_href='/kako-napisati-pesmu/', cta_text='📖 Vodič: kako napisati pesmu →',
+             priority='0.9',
+             tool=notepad_tool_html(),
+             sections=[
+                 ('Rime dok pišeš, bez napuštanja teksta',
+                  'Klikni na bilo koju reč u pesmi i sa strane dobiješ rime baš za nju. Klik na rimu je ubacuje '
+                  'u stih, na mesto kursora. Ne moraš da otvaraš drugu stranu ni da prekidaš misao — a rečnik '
+                  'iza toga ima preko 270.000 reči.'),
+                 ('Broj slogova po stihu',
+                  'Levo od svakog stiha stoji broj slogova. Kada su stihovi ujednačeni, pesma se lakše peva i '
+                  'pamti — zato je to prva stvar koju proveravaju i tekstopisci i autori dečjih pesama. '
+                  'Za poseban brojač celog teksta tu je <a href="/slogovi/">brojanje slogova i karaktera</a>.'),
+                 ('Šema rime (A, B, C…)',
+                  'Pored svakog stiha stoji slovo — isto slovo znači da se ti stihovi rimuju. Odmah vidiš da li '
+                  'pišeš ukrštenu (ABAB), parnu (AABB) ili obgrljenu (ABBA) rimu. Više o tome: '
+                  '<a href="/vrste-rima/">vrste rima u poeziji</a>.'),
+                 ('Metar srpskog stiha',
+                  'Uključi metar i vidiš ritam svakog stiha slog po slog. Alat prepoznaje meru pesme — '
+                  'šesterac, sedmerac, osmerac, deseterac, jedanaesterac i dvanaesterac — pokazuje gde pada '
+                  'cezura (deseterac 4+6, dvanaesterac 6+6) i koji stih odstupa od te mere. Nekonzistentan '
+                  'ritam je češća greška od loše rime.'),
+                 ('Kad ti treba druga reč, ne rima',
+                  'Ponekad stih ne trpi nijednu rimu koja ti pada na pamet. Tada otvori '
+                  '<a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> i potraži reč po značenju ili po '
+                  'slovima, pa njoj nađi rimu. A kad hoćeš da uvežbaš oko za rimu, tu je '
+                  '<a href="/igra-rimovanja/">igra rimovanja</a>.'),
+                 ('Premeštanje stihova',
+                  'Stih se prevlači na drugo mesto hvataljkom levo od njega — mišem ili prstom. Slogovi, boje i '
+                  'šema rime se preračunaju odmah, pa možeš da probaš drugačiji raspored bez prepisivanja.'),
+                 ('Naslov, štampa i deljenje',
+                  'Pesma može da dobije naslov, da se odštampa ili sačuva kao PDF, preuzme kao tekstualni fajl '
+                  'ili podeli linkom — onaj ko ga otvori vidi tvoju pesmu, a njegova beleška ostaje netaknuta.'),
+             ],
+             faqs=[
+                 ('Da li se moja pesma negde šalje?',
+                  'Ne. Tekst se čuva isključivo u tvom pregledaču, na tvom uređaju, i ostaje tu i kad zatvoriš '
+                  'stranicu. Ako pesmu podeliš linkom, tek tada je sadržaj upisan u sam link.'),
+                 ('Kako da dobijem rime za određenu reč u pesmi?',
+                  'Klikni na tu reč u tekstu. Sa strane se odmah pojave rime baš za nju, a klik na rimu je '
+                  'ubacuje u stih na mesto kursora.'),
+                 ('Šta znače slova A, B, C pored stihova?',
+                  'To je šema rime. Stihovi sa istim slovom se rimuju: ABAB je ukrštena rima, AABB parna, '
+                  'ABBA obgrljena. Bledo slovo znači da se taj stih ni sa čim ne rimuje.'),
+                 ('Šta pokazuje metar?',
+                  'Ritam stiha slog po slog — koji su slogovi naglašeni, gde je cezura i koliko stihova odstupa '
+                  'od preovlađujuće dužine. Pomaže da pesma ima ujednačen ritam.'),
+                 ('Da li je alat besplatan?',
+                  'Jeste, u potpunosti i bez registracije.'),
+             ]),
         dict(slug='vrste-rima',
              title='Vrste rima u poeziji — parna, ukrštena, obgrljena | Rimoteka',
              desc='Vrste rima u poeziji: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i asonanca. Objašnjenje šema rime sa primerima — za pisanje pesama i tekstova.',
              h1='Vrste rima u poeziji',
              lead='Rima je poklapanje glasova na kraju stihova. Po rasporedu razlikujemo nekoliko <strong>vrsta rima</strong> — evo najčešćih šema sa primerima kod velikih pesnika.',
-             cta_href='/?tab=klasici', cta_text='📖 Vidi šeme rime kod klasika →',
+             cta_href='/klasici/', cta_text='📖 Vidi šeme rime kod klasika →',
              sections=[
                  ('Parna rima (AABB)', 'Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u pesmama i repu.'),
                  ('Ukrštena rima (ABAB)', 'Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.'),
@@ -677,7 +935,7 @@ def main():
         # Glavna strana za ciljanu frazu „rimovanje reči" (exact-match slug).
         # Konkurencija (igrarecima.com/rimovanje-reci, rimovanje.com) rangira upravo
         # na exact-match putanji — homepage sam nije dovoljan.
-        dict(slug='rimovanje-reci',
+        dict(slug='rimovanje-reci', aktivan_tab='rime',
              priority='0.9',
              tool=True,          # živi alat za rime na samoj strani
              title='Rimovanje reči — pronađi rimu za svaku srpsku reč | Rimoteka',
@@ -685,16 +943,15 @@ def main():
              h1='Rimovanje reči',
              lead=('<strong>Rimovanje reči</strong> je traženje reči koje se na kraju zvučno poklapaju — '
                    'osnova svake pesme, rep numere, slogana i rođendanske čestitke. '
-                   'Rimoteka pretražuje rečnik od <strong>preko 278.000 srpskih reči</strong> i '
+                   'Rimoteka pretražuje rečnik od <strong>preko 270.000 srpskih reči</strong> i '
                    'izlista rime u trenutku, poređane od najčešćih ka manje poznatim. '
                    'Evo reči za koje se rime najviše traže: ' + rimovanje_chips),
              cta_href='/', cta_text='🔍 Rimuj svoju reč →',
              sections=[
                  ('Zašto Rimoteka, a ne bilo koji rimer?',
-                  'Rimoteka je pravljena <strong>za srpski jezik</strong>, a ne prevedena sa engleskog — '
-                  'zato prepoznaje ćirilicu i latinicu, ijekavicu i naše nastavke. '
-                  'Uz rime dobijaš i ono što drugi rimeri ne daju: '
-                  '<strong>značenje svake reči</strong> (preko 280.000 objašnjenja — nema ga nijedan rimer u svetu), '
+                  'Rimoteka je pravljena <strong>za srpski jezik</strong> — prepoznaje ćirilicu i latinicu, '
+                  'ekavicu i ijekavicu i naše nastavke. Uz rime dobijaš i '
+                  '<strong>značenje svake reči</strong> — objašnjenje ima svaka reč u rečniku, '
                   '<strong>sinonime</strong> kad ti rima ne odgovara po smislu, '
                   '<strong>bliske rime</strong> za slobodniji zvuk, '
                   '<strong>brojač slogova i karaktera</strong>, '
@@ -738,9 +995,9 @@ def main():
                  ('Da li je alat za rimovanje reči besplatan?',
                   'Da. Rimovanje reči na Rimoteci je potpuno besplatno, bez registracije i bez ograničenja broja pretraga.'),
                  ('Koliko reči ima u rečniku?',
-                  'Rečnik ima preko 278.000 srpskih reči, uz frekvencijske podatke koji najčešće i najkorisnije rime stavljaju na vrh liste.'),
+                  'Rečnik ima preko 270.000 srpskih reči, uz frekvencijske podatke koji najčešće i najkorisnije rime stavljaju na vrh liste.'),
                  ('Mogu li da vidim šta rima znači?',
-                  'Da. Rimoteka pored rime pokazuje i objašnjenje reči — ima preko 280.000 definicija na srpskom. To nema nijedan drugi rimer, pa nećeš staviti u pesmu reč čije značenje ne znaš.'),
+                  'Da. Uz svaku rimu ide i objašnjenje reči, pa nećeš staviti u pesmu reč čije značenje ne znaš.'),
                  ('Šta ako se reč rimuje, ali mi ne odgovara po smislu?',
                   'Za takve slučajeve postoje sinonimi — Rimoteka predlaže reči istog značenja, pa možeš da zameniš reč na kraju stiha i potražiš rime za nju.'),
                  ('Postoji li brojač slogova i karaktera?',
@@ -964,7 +1221,7 @@ def main():
     for cd in content_defs:
         c = content_page(footer, cd['slug'], cd['title'], cd['desc'], cd['h1'],
                          cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'],
-                         tool=cd.get('tool', False))
+                         tool=cd.get('tool', False), aktivan_tab=cd.get('aktivan_tab', ''))
         sitemap_entries.append(
             f'  <url><loc>{c}</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq>'
             f'<priority>{cd.get("priority", "0.6")}</priority></url>')

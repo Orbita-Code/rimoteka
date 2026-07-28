@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260727a">
+<link rel="stylesheet" href="style.css?v=20260728e">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -95,13 +95,13 @@
   <!-- <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button> -->
 </header>
 
-<nav class="tabs" id="tabs">
-  <button data-tab="rime" class="active">Rime</button>
-  <button data-tab="pretraga">Pretraga reči</button>
-  <button data-tab="slogovi">Slogovi i znakovi</button>
-  <button data-tab="beleznica">Beležnica</button>
-  <button data-tab="klasici">Klasici</button>
-  <button data-tab="igra">Igra</button>
+<nav class="tabs" id="tabs" aria-label="Alati">
+  <a href="/rimovanje-reci/" data-tab="rime" class="active">Rimovanje reči</a>
+  <a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a>
+  <a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a>
+  <a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a>
+  <a href="/klasici/" data-tab="klasici">Klasici</a>
+  <a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
 
@@ -162,8 +162,12 @@
 
   <!-- SLOGOVI -->
   <section class="tab-panel" id="panel-slogovi">
-    <p class="hint">Upiši ili nalepi stihove. Pored svakog reda piše koliko ima slogova i znakova, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma — da se pesma lepo peva i lako pamti.</p>
-    <textarea id="sylInput" class="big-text"></textarea>
+    <p class="hint">Upiši ili nalepi stihove — broj slogova stoji levo od svakog reda, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma, da se pesma lepo peva i lako pamti.</p>
+    <div class="syl-box">
+      <div id="sylGutter" class="gutter"><div id="sylGutterInner" class="gutter-inner"></div></div>
+      <textarea id="sylInput" class="syl-text" placeholder="Upiši ili nalepi stihove…" spellcheck="false"></textarea>
+      <div id="sylMirror" class="syl-mirror" aria-hidden="true"></div>
+    </div>
     <div id="sylOutput" class="syl-lines"></div>
   </section>
 
@@ -292,7 +296,15 @@
 <section class="seo-content" aria-label="O Rimoteci">
   <div class="seo-inner">
     <h2>Rimovanje reči — rečnik rima i brojanje slogova na srpskom</h2>
-    <p>Rimoteka je besplatan alat za <strong>rimovanje reči</strong> na srpskom jeziku. Unesi bilo koju reč i za trenutak dobiješ sve <strong>rime</strong>, rangirane po kvalitetu — od savršenih do asonantnih, sa brojem slogova za svaku. Uz rimovanje, tu su i <strong>brojač slogova</strong> za ujednačen ritam stiha, beležnica za pisanje i rečnik sa preko 280.000 objašnjenja reči. Sve što pesniku, tekstopiscu ili reperu treba za pisanje pesama i tekstova — na jednom mestu.</p>
+    <p>Rimoteka je besplatan <strong><a href="/rimovanje-reci/">rečnik rima</a></strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom — rangirane po kvalitetu, od savršenih do bliskih rima, sa brojem slogova uz svaku. Rečnik ima preko 270.000 reči i uz svaku ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
+
+    <h3>Najbolji alat za pisanje pesama i rimovanje</h3>
+    <p>Rimoteka nije samo <strong>rečnik rima</strong> — u njoj se pesma i piše. Otvoriš <a href="/pisanje-pesama/"><strong>pisanje pesama</strong></a> i kucaš: pored svakog stiha odmah stoji <strong>broj slogova</strong>, slovo šeme rime (ABAB, AABB, ABBA) i reči koje se rimuju obojene su istom bojom, pa golim okom vidiš da li ti se pesma sklapa.</p>
+    <p>A ono najvažnije — <strong>rime dolaze same</strong>. Klikneš na bilo koju reč u svom stihu i sa strane se pojave sve reči koje se sa njom rimuju; klik na rimu je ubacuje pravo u stih, na mesto kursora. Ne prekidaš pisanje, ne otvaraš drugu stranicu, ne gubiš misao. Ako ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; ako ti ritam ne štima, uključiš <strong>metar</strong> pa vidiš meru stiha i gde pada cezura. Stih koji ne stoji dobro prevučeš na drugo mesto.</p>
+    <p>Kad je pesma gotova, sve je i dalje na istom mestu: <strong>odštampaš je ili sačuvaš kao PDF</strong>, preuzmeš kao tekstualni fajl ili <strong>podeliš linkom</strong> — onaj ko ga otvori vidi tvoju pesmu. Tekst se sam čuva na tvom uređaju i čeka te kad se vratiš. Sve besplatno i bez registracije.</p>
+
+    <h3>Za pesnike, tekstopisce, repere i decu</h3>
+    <p>Kad ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; kad ti treba slobodniji zvuk, tu su <strong>bliske rime</strong>; kad pišeš za decu, <strong>dečji režim</strong> ostavlja samo primerene reči. Rimoteka radi na latinici i ćirilici, na ekavici i ijekavici, na računaru i telefonu — besplatno i bez registracije.</p>
 
     <h2>Česta pitanja</h2>
     <div class="faq">
@@ -403,7 +415,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260727e"></script>
+<script src="app.js?v=20260728e"></script>
 <script src="/sw-register.js?v=4"></script>
 </body>
 </html>

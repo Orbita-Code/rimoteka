@@ -551,8 +551,13 @@ el('randomBtn').onclick = ()=>{
 const acWrap = document.createElement('div');
 acWrap.className = 'autocomplete';
 acWrap.style.display = 'none';
-rimeInput.parentNode.style.position = 'relative';
-rimeInput.parentNode.appendChild(acWrap);
+// Strana bez polja za rime (npr. brojač slogova) nema gde da zakači predloge —
+// `el()` vraća NOOP element, a njegov parentNode je null. Bez ove provere
+// app.js pukne na TAKVOJ strani i obori sve ostale alate na njoj.
+if(rimeInput.parentNode){
+  rimeInput.parentNode.style.position = 'relative';
+  rimeInput.parentNode.appendChild(acWrap);
+}
 let acIndex = -1, acItems = [];
 
 function updateAutocomplete(){
@@ -601,7 +606,7 @@ rimeInput.addEventListener('keydown', e=>{
     doRhymes();
   }
 });
-document.addEventListener('click', e=>{ if(!rimeInput.parentNode.contains(e.target)) hideAutocomplete(); });
+document.addEventListener('click', e=>{ if(rimeInput.parentNode && !rimeInput.parentNode.contains(e.target)) hideAutocomplete(); });
 
 /* ====================== PRETRAGA ====================== */
 const searchInput = el('searchInput');
@@ -654,29 +659,89 @@ function lineSyllables(line){
   return total;
 }
 const sylInput = el('sylInput');
-sylInput.addEventListener('input', ()=>{
-  const out = el('sylOutput');
-  const lines = sylInput.value.split('\n');
-  out.innerHTML='';
-  let totalSyl=0, nonEmpty=0;
-  lines.forEach(line=>{
-    const s = lineSyllables(line);
-    if(line.trim()){ totalSyl+=s; nonEmpty++; }
-    const div=document.createElement('div'); div.className='syl-line';
-    div.innerHTML = `<span class="count">${line.trim()?s:''}</span>`
-      + `<span class="txt">${escapeHtml(line)||'&nbsp;'}</span>`
-      + `<span class="chcount">${line.trim()? line.length+' zn.' : ''}</span>`;
-    out.appendChild(div);
+/* Brojevi slogova stoje LEVO od reda, u istom okviru — kao u beležnici.
+   Ovde je namerno običan <textarea> (otporan na nalepljivanje, undo i mobilnu
+   tastaturu), a pošto se u njega ne može crtati, položaj svakog reda se meri na
+   nevidljivoj kopiji: jedan <div> po redu, iste širine i istog fonta kao polje,
+   pa se redovi prelamaju identično. */
+const sylGutterInner = el('sylGutterInner');
+const sylMirror = el('sylMirror');
+
+function syncSylMirror(lines){
+  const cs = getComputedStyle(sylInput);
+  const st = sylMirror.style;
+  st.font = cs.font;
+  st.fontSize = cs.fontSize;
+  st.fontFamily = cs.fontFamily;
+  st.fontWeight = cs.fontWeight;
+  st.lineHeight = cs.lineHeight;
+  st.letterSpacing = cs.letterSpacing;
+  // kopija je BEZ paddinga i okvira — offsetTop reda tako kreće od nule,
+  // a padding polja se dodaje pri crtanju gutter-a
+  st.padding = '0';
+  st.border = '0';
+  // širina SADRŽAJA polja (bez paddinga i bez trake za skrolovanje)
+  const unutra = sylInput.clientWidth
+    - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+  st.width = unutra + 'px';
+  sylMirror.innerHTML = lines
+    .map(l => `<div class="ml">${escapeHtml(l) || '&nbsp;'}</div>`).join('');
+}
+
+function renderSylGutter(lines){
+  if(sylGutterInner.__noop) return;
+  const redovi = [...sylMirror.querySelectorAll('.ml')];
+  const frag = document.createDocumentFragment();
+  const pad = parseFloat(getComputedStyle(sylInput).paddingTop) || 0;
+  lines.forEach((line, i) => {
+    const m = redovi[i];
+    if(!m) return;
+    const row = document.createElement('div');
+    row.className = 'gutter-row';
+    row.style.top = (m.offsetTop + pad) + 'px';
+    row.style.height = m.offsetHeight + 'px';
+    row.style.lineHeight = getComputedStyle(sylInput).lineHeight;
+    const ima = !!line.trim();
+    const slog = ima ? lineSyllables(line) : 0;
+    row.innerHTML = `<span class="g-syl">${ima ? slog : '·'}</span>`;
+    if(ima) row.title = `${slog} ${slogRec(slog)} · ${line.length} ${line.length === 1 ? 'znak' : 'znakova'}`;
+    frag.appendChild(row);
   });
-  if(nonEmpty){
-    const text = sylInput.value;
-    const chars = text.length;
-    const noSpace = text.replace(/\s/g,'').length;
-    const words = (text.trim().match(/\S+/g)||[]).length;
-    const t=document.createElement('div'); t.className='syl-total';
-    t.innerHTML = `Ukupno: <b>${totalSyl}</b> slogova · <b>${words}</b> reči · <b>${chars}</b> znakova (${noSpace} bez razmaka) · ${nonEmpty} ${nonEmpty===1?'red':'redova'}`;
-    out.appendChild(t);
-  }
+  sylGutterInner.innerHTML = '';
+  sylGutterInner.appendChild(frag);
+  sylGutterInner.style.transform = `translateY(${-sylInput.scrollTop}px)`;
+}
+
+function updateSyl(){
+  const out = el('sylOutput');
+  const text = sylInput.value;
+  const lines = text.split('\n');
+  syncSylMirror(lines);
+  renderSylGutter(lines);
+  // na dnu ostaje SAMO zbir — tekst se više ne ponavlja ispod polja
+  out.innerHTML = '';
+  let totalSyl = 0, nonEmpty = 0;
+  lines.forEach(line => { if(line.trim()){ totalSyl += lineSyllables(line); nonEmpty++; } });
+  if(!nonEmpty) return;
+  const chars = text.length;
+  const noSpace = text.replace(/\s/g, '').length;
+  const words = (text.trim().match(/\S+/g) || []).length;
+  const t = document.createElement('div');
+  t.className = 'syl-total';
+  t.innerHTML = `Ukupno: <b>${totalSyl}</b> ${uiTxt(slogRec(totalSyl))} · <b>${words}</b> ${uiTxt('reči')}`
+    + ` · <b>${chars}</b> ${uiTxt('znakova')} (${noSpace} ${uiTxt('bez razmaka')})`
+    + ` · ${nonEmpty} ${uiTxt(nonEmpty === 1 ? 'red' : 'redova')}`;
+  out.appendChild(t);
+}
+
+sylInput.addEventListener('input', updateSyl);
+sylInput.addEventListener('scroll', () => {
+  if(!sylGutterInner.__noop) sylGutterInner.style.transform = `translateY(${-sylInput.scrollTop}px)`;
+});
+let sylResizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(sylResizeTimer);
+  sylResizeTimer = setTimeout(() => { if(sylInput.value) updateSyl(); }, 150);
 });
 function escapeHtml(s){ return s.replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 
@@ -1333,22 +1398,29 @@ function renderMeter(){
   box.hidden = false;
 
   // preovlađujuća dužina stiha — po njoj se meri odstupanje
+  // Red bez ijednog sloga (npr. samo znak interpunkcije) nije stih — ne sme da
+  // postane „preovlađujuća dužina 0".
   const counts = new Map();
+  let merljivih = 0;
   verses.forEach(l => {
     const n = lineSyllables(l);
+    if(n === 0) return;
+    merljivih++;
     counts.set(n, (counts.get(n) || 0) + 1);
   });
   let dominant = 0, best = 0;
   counts.forEach((c, n) => { if(c > best){ best = c; dominant = n; } });
-  const odstupa = verses.length - best;
+  const odstupa = merljivih - best;
   const naziv = VERSE_NAMES[dominant];
   const cez = CAESURA[dominant];
 
   let html = `<div class="meter-head">`
-    + `${escapeHtml(uiTxt('Preovlađuje'))} <b>${dominant}</b> ${escapeHtml(uiTxt(dominant === 1 ? 'slog' : 'slogova'))}`
+    + (dominant
+        ? `${escapeHtml(uiTxt('Preovlađuje'))} <b>${dominant}</b> ${escapeHtml(uiTxt(slogRec(dominant)))}`
+        : escapeHtml(uiTxt('Ritam stiha')))
     + (naziv ? ` — <b>${escapeHtml(uiTxt(naziv))}</b>` : '')
     + (cez ? ` · ${escapeHtml(uiTxt('cezura posle'))} ${cez}. ${escapeHtml(uiTxt('sloga'))}` : '')
-    + (odstupa ? ` · <span class="m-warn">${odstupa} ${escapeHtml(uiTxt(odstupa === 1 ? 'stih odstupa' : 'stihova odstupa'))}</span>` : '')
+    + (odstupa ? ` · <span class="m-warn">${odstupa} ${escapeHtml(uiTxt(stihRec(odstupa) + ' odstupa'))}</span>` : '')
     + `</div>`;
 
   lines.forEach(line => {
@@ -1657,6 +1729,22 @@ function renderNoteRhymes(){
   }
 }
 
+// „1 slog" / „2 sloga" / „5 slogova"
+function slogRec(n){
+  const d = n % 10, dd = n % 100;
+  if(d === 1 && dd !== 11) return 'slog';
+  if(d >= 2 && d <= 4 && (dd < 12 || dd > 14)) return 'sloga';
+  return 'slogova';
+}
+
+// „1 stih" / „2 stiha" / „5 stihova"
+function stihRec(n){
+  const d = n % 10, dd = n % 100;
+  if(d === 1 && dd !== 11) return 'stih';
+  if(d >= 2 && d <= 4 && (dd < 12 || dd > 14)) return 'stiha';
+  return 'stihova';
+}
+
 // „još 1 rima" / „još 2 rime" / „još 48 rima"
 function rimaRec(n){
   const d = n % 10, dd = n % 100;
@@ -1775,16 +1863,33 @@ el('clearFavs').onclick = ()=>{
 
 /* ====================== TABOVI / PISMO / TOAST ====================== */
 function switchTab(name){
-  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('active', b.dataset.tab===name));
+  document.querySelectorAll('#tabs [data-tab]').forEach(b=>b.classList.toggle('active', b.dataset.tab===name));
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
+  // Tekst o alatu ispod tabova pripada tabu „Rime" — na ostalim tabovima bi
+  // pričao o pogrešnoj stvari (npr. o rimovanju dok gledaš Igru). CSS ga
+  // sakriva preko ovog atributa.
+  document.body.dataset.tab = name;
   if(name !== 'beleznica') document.body.classList.remove('notes-typing');
+  // brojač se meri iz stvarnog rasporeda — sakriven panel nema širinu
+  if(name === 'slogovi' && sylInput.value) updateSyl();
   // gutter se meri iz stvarnog rasporeda — sakriven panel nema visinu, pa se
   // redovi moraju premeriti čim tab postane vidljiv
   if(name === 'beleznica') renderGutter();
 }
+/* Traka tabova je ujedno navigacija sajta: svaki alat ima svoju stranu, pa su
+   stavke pravi linkovi (Google tako vidi istu strukturu na svakoj strani).
+   Ako alat POSTOJI na ovoj strani — a na početnoj postoje svi — klik se
+   presreće i tab se samo prebaci, bez osvežavanja. Na stranama gde tog panela
+   nema, link radi kao običan link. */
 el('tabs').addEventListener('click', e=>{
-  const b=e.target.closest('button'); if(b) switchTab(b.dataset.tab);
+  const t = e.target.closest('[data-tab]');
+  if(!t) return;
+  const name = t.dataset.tab;
+  if(!document.getElementById('panel-' + name)) return;   // nema panela → pusti link
+  if(e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;  // novi tab/prozor
+  e.preventDefault();
+  switchTab(name);
 });
 
 const brandHome = el('brandHome');
@@ -2192,6 +2297,7 @@ applyDarkIcon();
 /* ====================== START ====================== */
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
 if(script === 'cyr') applyScriptToUI();
+document.body.dataset.tab = 'rime';   // podrazumevani tab pri učitavanju
 updateFavCount();
 renderFavorites();
 renderGutter();
@@ -2596,6 +2702,27 @@ function showHandoff(){
   if(gameHandoffStart) gameHandoffStart.focus();
 }
 
+/* Postoji li odgovor koji bi igra PRIHVATILA za ovu reč?
+   Mora da koristi isto pravilo kao checkGameAnswer (savršena rima ILI asonanca) —
+   inače bi izbacivala reči koje se sasvim lepo igraju. Npr. „valjda" nema
+   savršenu rimu, ali ima „heljda", „vajda", „možda" — i igra ih priznaje.
+   Indeks se gradi jednom, pri prvom pokretanju igre. */
+let RHYME_COUNTS = null, LOOSE_COUNTS = null;
+function imaRimu(w){
+  if(!RHYME_COUNTS){
+    RHYME_COUNTS = new Map();
+    LOOSE_COUNTS = new Map();
+    for(const x of WORDS){
+      const k = rhymeKey(x);
+      RHYME_COUNTS.set(k, (RHYME_COUNTS.get(k) || 0) + 1);
+      const l = looseKey(x);
+      LOOSE_COUNTS.set(l, (LOOSE_COUNTS.get(l) || 0) + 1);
+    }
+  }
+  return (RHYME_COUNTS.get(rhymeKey(w)) || 0) >= 2
+      || (LOOSE_COUNTS.get(looseKey(w)) || 0) >= 2;
+}
+
 function nextWord(){
   if(gameState !== 'play') return;   // predaja ili rezultati su u toku
   if(gameCurrentWordIdx >= gameWordsPerPlayer){
@@ -2614,8 +2741,10 @@ function nextWord(){
   }
 
   for(let t = 0; t < 50; t++){
-    // biramo iz bazena poznatih reči — igra sa arhaizmima nije igra
-    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)));
+    // biramo iz bazena poznatih reči — igra sa arhaizmima nije igra —
+    // i OBAVEZNO reč koja uopšte ima rimu (npr. „valjda" je nema, pa je
+    // igrač ne može rešiti ni kad zna sve reči srpskog jezika)
+    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && imaRimu(x));
     if(w){
       gameCurrentWord = w;
       gameWordEl.textContent = disp(w);
@@ -2840,6 +2969,16 @@ window.ocistiKesIOsvezi = ocistiKesIOsvezi;
 function bootstrap(){
   if(BOOTED) return;
   BOOTED = true;
+  /* Rečnik treba samo alatima koji traže reči (rime, pretraga, igra, beležnica).
+     Strane sa čistim brojačem slogova nemaju nijedan od njih, a rečnik je 2,6 MB —
+     bez ovog izuzetka bi se skidao potpuno bez potrebe. Brojanje slogova je
+     čista funkcija nad tekstom i radi odmah, bez ijedne učitane reči. */
+  const trebaRecnik = !el('rimeInput').__noop || !el('searchInput').__noop
+    || !el('noteEditor').__noop || !el('gameSetup').__noop;
+  if(!trebaRecnik){
+    initFromURL();
+    return;
+  }
   loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
     console.error('Greška pri učitavanju rečnika:', e);
     const box = el('rimeResults');

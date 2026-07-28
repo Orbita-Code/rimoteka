@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F88VM8CWBQ"></script>
+<script src="/ga-init.js?v=1"></script>
+<title>Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka</title>
+<meta name="description" content="Besplatna igra rimovanja: dobiješ reč, nađeš rimu pre isteka vremena. Za jednog ili više igrača, sa poenima i nizovima. Zabavan način da deca i odrasli vežbaju rimu i bogate rečnik.">
+<link rel="canonical" href="https://rimoteka.com/igra-rimovanja/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rimoteka">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:url" content="https://rimoteka.com/igra-rimovanja/">
+<meta property="og:title" content="Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka">
+<meta property="og:description" content="Besplatna igra rimovanja: dobiješ reč, nađeš rimu pre isteka vremena. Za jednog ili više igrača, sa poenima i nizovima. Zabavan način da deca i odrasli vežbaju rimu i bogate rečnik.">
+<meta property="og:image" content="https://rimoteka.com/logo-icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#5a3fd0">
+<link rel="stylesheet" href="/style.css?v=20260728e">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Rimoteka",
+     "item": "https://rimoteka.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Igra rimovanja",
+     "item": "https://rimoteka.com/igra-rimovanja/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Da li je igra besplatna?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Jeste, u potpunosti i bez registracije."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Koliko igrača može da igra?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Od jednog do više igrača na istom uređaju — uređaj se predaje iz ruke u ruku, uz poseban ekran za predaju da niko ne vidi tuđu reč."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Prihvata li igra bilo koju reč?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ne. Odgovor mora biti prava srpska reč iz rečnika i mora se stvarno rimovati sa zadatom rečju."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Je li igra primerena deci?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Jeste. Reči koje se zadaju biraju se iz poznatog dela rečnika, a neprimerene reči su isključene."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
+    <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
+  </a>
+</header>
+<nav class="tabs" id="tabs" aria-label="Alati"><a href="/rimovanje-reci/" data-tab="rime">Rimovanje reči</a><a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a><a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a><a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a><a href="/klasici/" data-tab="klasici">Klasici</a><a href="/igra-rimovanja/" data-tab="igra" class="active">Igra rimovanja</a></nav>
+<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Igra rimovanja</span></nav>
+  <h1 class="landing-h1">Igra rimovanja</h1>
+  <div class="sr-only" aria-hidden="true">
+    <input type="text" id="rimeInput" tabindex="-1" autocomplete="off">
+    <div id="rimeResults"></div>
+  </div>
+  <div class="landing-tool">
+    <p class="hint">Igra rima — na vreme, sa prijateljima, za poene. Koliko dug niz možeš da napraviš?</p>
+
+    <!-- START EKRAN -->
+    <div class="game-setup" id="gameSetup">
+      <div class="game-setup-group">
+        <label class="game-setup-label">Broj igrača:</label>
+        <div class="game-setup-options" id="gamePlayers">
+          <button class="game-option active" data-value="1">1</button>
+          <button class="game-option" data-value="2">2</button>
+          <button class="game-option" data-value="3">3</button>
+          <button class="game-option" data-value="custom">custom</button>
+        </div>
+        <input type="number" id="gamePlayersCustom" class="game-custom-input" placeholder="broj" min="1" max="10" style="display:none">
+      </div>
+
+      <div class="game-setup-group">
+        <label class="game-setup-label">Broj reči po igraču:</label>
+        <div class="game-setup-options" id="gameWords">
+          <button class="game-option" data-value="5">5</button>
+          <button class="game-option active" data-value="10">10</button>
+          <button class="game-option" data-value="15">15</button>
+          <button class="game-option" data-value="20">20</button>
+        </div>
+      </div>
+
+      <div class="game-setup-group">
+        <label class="game-setup-label">Vreme po reči (sekunde):</label>
+        <div class="game-setup-options" id="gameTime">
+          <button class="game-option" data-value="10">10s</button>
+          <button class="game-option active" data-value="15">15s</button>
+          <button class="game-option" data-value="20">20s</button>
+          <button class="game-option" data-value="30">30s</button>
+        </div>
+      </div>
+
+      <button class="game-start-btn" id="gameStart">Start igre</button>
+    </div>
+
+    <!-- PREDAJA IGRAČA — pauza da se igrači zamene -->
+    <div class="game-handoff" id="gameHandoff" style="display:none">
+      <div class="game-handoff-badge" id="gameHandoffBadge">2</div>
+      <h3 class="game-handoff-title" id="gameHandoffTitle">Vreme je za igrača 2</h3>
+      <p class="game-handoff-sub" id="gameHandoffSub"></p>
+      <button class="game-start-btn" id="gameHandoffStart">Spreman sam — počni</button>
+      <p class="game-handoff-hint">Predaj uređaj sledećem igraču. Vreme počinje kad klikneš.</p>
+    </div>
+
+    <!-- IGra -->
+    <div class="game-play" id="gamePlay" style="display:none">
+      <div class="game-header">
+        <div class="game-player-info">
+          <span class="game-label">Igrač:</span> <span id="gameCurrentPlayer" class="game-value">1</span>
+          <span class="game-label">Reč:</span> <span id="gameWordCount" class="game-value">1/10</span>
+          <span id="gameComboBadge" class="game-combo" hidden></span>
+        </div>
+        <div class="game-timer" id="gameTimer">15</div>
+      </div>
+
+      <div class="game-word-box">
+        <p class="game-instruction">Nađi rimu za reč:</p>
+        <p id="gameWord" class="game-word">...</p>
+      </div>
+
+      <div class="game-input-row">
+        <input type="text" id="gameInput" placeholder="upiši rimu..." autocomplete="off" spellcheck="false">
+        <button id="gameSubmit" class="primary">Proveri</button>
+      </div>
+
+      <p id="gameFeedback" class="game-feedback"></p>
+
+      <div class="game-progress" id="gameProgress"></div>
+    </div>
+
+    <!-- REZULTATI -->
+    <div class="game-results" id="gameResults" style="display:none">
+      <h3 class="game-results-title">Rezultati</h3>
+      <div class="game-results-list" id="gameResultsList"></div>
+      <button class="game-start-btn" id="gameAgain">Igraj ponovo</button>
+    </div>
+  </div>
+  <p class="landing-lead">Alat postaje igra: dobiješ reč, a ti nađeš rimu pre nego što istekne vreme. Igra se <strong>sam ili u društvu</strong>, sa poenima i nizovima — a usput se rečnik širi bez ijedne vežbe koja liči na zadatak.</p>
+  <div class="res-group"><h3>Kako se igra</h3><p class="seo-p">Izabereš broj igrača i koliko reči svako dobija, pa kreće. Za svaku zadatu reč upisuješ reč koja se sa njom rimuje. Tačan odgovor nosi poene, a niz tačnih odgovora ih umnožava.</p></div><div class="res-group"><h3>Sam ili sa društvom</h3><p class="seo-p">U igri za više igrača uređaj se predaje iz ruke u ruku — između igrača stoji ekran za predaju da niko ne vidi tuđu reč. Na kraju ide tabela sa rezultatima.</p></div><div class="res-group"><h3>Za decu i učionicu</h3><p class="seo-p">Igra je dobra vežba za bogaćenje rečnika i osećaj za rimu. Uz nju idu i gotove <a href="/rime-za-decu/">rime za decu</a>, biranе tako da budu primerene.</p></div><div class="res-group"><h3>Kad zapne</h3><p class="seo-p">Ako ti reč nikako ne dolazi, tu je <a href="/rimovanje-reci/">pretraživač rima</a> i <a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> sa svim rimama za bilo koju srpsku reč — a kad poželiš da od rima napraviš pesmu, čeka te <a href="/pisanje-pesama/">beležnica za pisanje pesama</a>.</p></div>
+  <section class="landing-faq"><h3>Česta pitanja</h3><details><summary>Da li je igra besplatna?</summary><p>Jeste, u potpunosti i bez registracije.</p></details><details><summary>Koliko igrača može da igra?</summary><p>Od jednog do više igrača na istom uređaju — uređaj se predaje iz ruke u ruku, uz poseban ekran za predaju da niko ne vidi tuđu reč.</p></details><details><summary>Prihvata li igra bilo koju reč?</summary><p>Ne. Odgovor mora biti prava srpska reč iz rečnika i mora se stvarno rimovati sa zadatom rečju.</p></details><details><summary>Je li igra primerena deci?</summary><p>Jeste. Reči koje se zadaju biraju se iz poznatog dela rečnika, a neprimerene reči su isključene.</p></details></section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+    </div>
+    <p class="footer-desc">Besplatan alat za pronalaženje rime, brojanje slogova i pisanje pesama i tekstova na srpskom jeziku.</p>
+    <nav class="footer-rimes" aria-label="Popularne rime">
+      <span class="footer-rimes-label">Popularne rime:</span>
+      <a href="/rime-za/ljubav/" class="footer-link">ljubav</a> · <a href="/rime-za/srce/" class="footer-link">srce</a> · <a href="/rime-za/dusa/" class="footer-link">duša</a> · <a href="/rime-za/sreca/" class="footer-link">sreća</a> · <a href="/rime-za/tuga/" class="footer-link">tuga</a> · <a href="/rime-za/bol/" class="footer-link">bol</a> · <a href="/rime-za/radost/" class="footer-link">radost</a> · <a href="/rime-za/nada/" class="footer-link">nada</a> · <a href="/rime-za/strast/" class="footer-link">strast</a> · <a href="/rime-za/ceznja/" class="footer-link">čežnja</a> · <a href="/rime-za/samoca/" class="footer-link">samoća</a> · <a href="/rime-za/osecaj/" class="footer-link">osećaj</a> · <a href="/rime-za/zagrljaj/" class="footer-link">zagrljaj</a> · <a href="/rime-za/poljubac/" class="footer-link">poljubac</a> · <a href="/rime-za/neznost/" class="footer-link">nežnost</a> · <a href="/rime-za/zelja/" class="footer-link">želja</a> · <a href="/rime-za/sanjarenje/" class="footer-link">sanjarenje</a> · <a href="/rime-za/ljubomora/" class="footer-link">ljubomora</a> · <a href="/rime-za/sunce/" class="footer-link">sunce</a> · <a href="/rime-za/mesec/" class="footer-link">mesec</a> · <a href="/rime-za/zvezda/" class="footer-link">zvezda</a> · <a href="/rime-za/nebo/" class="footer-link">nebo</a> · <a href="/rime-za/oblak/" class="footer-link">oblak</a> · <a href="/rime-za/kisa/" class="footer-link">kiša</a> · <a href="/rime-za/sneg/" class="footer-link">sneg</a> · <a href="/rime-za/vetar/" class="footer-link">vetar</a> · <a href="/rime-za/munja/" class="footer-link">munja</a> · <a href="/rime-za/more/" class="footer-link">more</a> · <a href="/rime-za/reka/" class="footer-link">reka</a> · <a href="/rime-za/jezero/" class="footer-link">jezero</a>
+    </nav>
+    <nav class="footer-guides" aria-label="Vodiči">
+      <span class="footer-rimes-label">Vodiči:</span>
+      <a href="/rimovanje-reci/" class="footer-link">Rimovanje reči</a> · <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
+    </nav>
+    <nav class="footer-guides" aria-label="Namene">
+      <span class="footer-rimes-label">Namene:</span>
+      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a>
+    </nav>
+    <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+  </div>
+</footer>
+<script src="/app.js?v=20260728e"></script>
+</body>
+</html>

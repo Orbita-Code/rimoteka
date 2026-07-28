@@ -16104,7 +16104,6 @@ buldog
 buldoga
 buldoge
 buldogom
-buldozer
 buldozi
 buldožer
 buldožera
@@ -18781,7 +18780,6 @@ cucle
 cuclice
 cuclom
 cuclu
-cudan
 cug
 cuga
 cugaj
@@ -18873,7 +18871,6 @@ cvate
 cvati
 cvatu
 cvatuće
-cvece
 cveja
 cvejanović
 cveje
@@ -22336,7 +22333,6 @@ devojačku
 devojaštva
 devojaštvo
 devojci
-devojcica
 devojka
 devojkama
 devojke
@@ -24321,7 +24317,6 @@ djevičanstvo
 dječarac
 dječjoj
 dječjom
-djumbir
 djumbiri
 dlaci
 dlaka
@@ -29333,9 +29328,7 @@ drumskoj
 drumskom
 drumsku
 drumu
-drustvo
 druza
-druziti
 druškan
 druškana
 druškane
@@ -35868,7 +35861,6 @@ finijem
 finiji
 finijih
 finim
-finis
 finiš
 finiša
 finiše
@@ -39658,7 +39650,6 @@ glađenja
 glađu
 glašenje
 gle
-glecer
 glecera
 gleceri
 gleda
@@ -42245,7 +42236,6 @@ graorastih
 graorca
 gras
 grasa
-grasak
 grastić
 gratis
 graver
@@ -44898,7 +44888,6 @@ hapsana
 hapsandžija
 hapse
 hapsenja
-hapsenje
 hapsenju
 hapseći
 hapsi
@@ -67885,7 +67874,6 @@ kebaba
 kebabe
 kec
 keca
-kecap
 kecelja
 keceljama
 kecelje
@@ -74788,7 +74776,6 @@ korneti
 kornetu
 kornfleks
 kornfleksa
-kornjaca
 kornjača
 kornjačama
 kornjače
@@ -79063,7 +79050,6 @@ kucaćeš
 kucaću
 kucaš
 kucaše
-kucence
 kuckaj
 kuckaju
 kuckajući
@@ -92976,7 +92962,6 @@ milosnoga
 milosnoj
 milosnu
 milosrdan
-milosrdje
 milosrdna
 milosrdne
 milosrdni
@@ -94487,7 +94472,6 @@ mladomir
 mladost
 mladosti
 mladoturci
-mladoturke
 mladouman
 mladoumlje
 mladovali
@@ -97811,7 +97795,6 @@ musić
 musića
 musići
 musiću
-muskarac
 muskat
 muskatni
 musketa
@@ -97886,7 +97869,6 @@ mustanzi
 mustapić
 mustaćima
 muster
-musterija
 musterijama
 musterije
 musti
@@ -100375,7 +100357,6 @@ nagovaraće
 nagovaraš
 nagovaraše
 nagovest
-nagovestaj
 nagoveste
 nagovesti
 nagovestila
@@ -117701,7 +117682,6 @@ obasuvši
 obave
 obavest
 obaveste
-obavesten
 obavesti
 obavestih
 obavestila
@@ -135928,7 +135908,6 @@ ozelenjelim
 ozelenjene
 ozelenjeni
 ozelenjuju
-ozeniti
 ozepsti
 ozepšćete
 ozgo
@@ -136173,7 +136152,6 @@ ozvaničilo
 ozvaničimo
 ozvaničio
 ozvaničiti
-ozvucen
 ozvučavaju
 ozvučavanja
 ozvučavanje
@@ -138656,7 +138634,6 @@ paraćinka
 paraćinske
 paraćinu
 parašinu
-parce
 parcela
 parcelacija
 parcelacije
@@ -139428,7 +139405,6 @@ patentu
 paternitet
 paterniteta
 paternitetski
-patetican
 patetici
 patetika
 patetike
@@ -141321,7 +141297,6 @@ pesimizmu
 peska
 peskara
 peskari
-peskir
 peskom
 peskovita
 peskovite
@@ -143645,7 +143620,6 @@ plasirati
 plasiravši
 plasiraće
 plasiraš
-plasiti
 plasman
 plasmana
 plasmane
@@ -145678,7 +145652,6 @@ pocerine
 pocerja
 pocerski
 pocerskom
-pocetak
 poci
 pocikne
 pocikuje
@@ -152278,7 +152251,6 @@ pomnožiće
 pomnožiš
 pomnu
 pomo
-pomocnica
 pomodan
 pomodar
 pomodare
@@ -152831,7 +152803,6 @@ poniru
 ponirući
 ponizan
 ponize
-ponizen
 ponizi
 ponizih
 ponizila
@@ -154006,7 +153977,6 @@ porazbijao
 porazbijati
 porazbijaše
 poraze
-porazen
 porazgovara
 porazgovaraj
 porazgovarajmo
@@ -155396,7 +155366,6 @@ posleratnoj
 posleratnom
 posleratnu
 posletku
-poslic
 poslikati
 poslić
 poslića
@@ -159159,7 +159128,6 @@ povrh
 povrne
 povrnuo
 povrnutih
-povrsina
 povrtak
 povrtar
 povrtari
@@ -176962,7 +176930,6 @@ prosen
 proseni
 prosenica
 prosenicu
-prosetati
 proseći
 prosečan
 proseče
@@ -190244,7 +190211,6 @@ reumu
 revalviran
 revalvirati
 revan
-revans
 revanš
 revanša
 revanši
@@ -191267,7 +191233,6 @@ riknuti
 rikošet
 rikošeta
 rikošetira
-riksa
 rikverc
 rikverca
 rikvercu
@@ -193696,7 +193661,6 @@ ružojčić
 ružojčića
 ružom
 ružu
-rvac
 rvaju
 rvala
 rvali
@@ -197721,7 +197685,6 @@ secirao
 secirate
 secirati
 seciraš
-secivo
 secka
 seckaj
 seckaju
@@ -199104,7 +199067,6 @@ sestra
 sestrama
 sestre
 sestri
-sestric
 sestrica
 sestrice
 sestrici
@@ -199828,7 +199790,6 @@ silaženja
 silaženje
 silaženju
 sile
-siledzija
 siledžija
 siledžijama
 siledžije
@@ -214255,7 +214216,6 @@ stvaraće
 stvaraćemo
 stvaraš
 stvaraše
-stvarcica
 stvari
 stvarima
 stvario
@@ -215101,7 +215061,6 @@ sumnjaće
 sumnjaš
 sumnje
 sumnji
-sumnjicav
 sumnjicava
 sumnjicavi
 sumnjiv
@@ -217207,7 +217166,6 @@ svetoga
 svetogora
 svetogorski
 svetogorskog
-svetogrdje
 svetogrdno
 svetogrdnu
 svetogrđa
@@ -219432,6 +219390,8 @@ tatarskog
 tatarskoj
 tatarskom
 tatarsku
+tate
+tati
 tatica
 tatici
 taticom
@@ -221676,7 +221636,6 @@ tipa
 tipe
 tipfeler
 tipi
-tipican
 tipici
 tipicima
 tipik
@@ -225499,7 +225458,6 @@ trudnički
 trudničkom
 trudničku
 trudno
-trudnoca
 trudnog
 trudnoj
 trudnom
@@ -237426,7 +237384,6 @@ utkivanih
 utkivanje
 utkivano
 utkivati
-utociste
 utok
 utoka
 utokom
@@ -243209,7 +243166,6 @@ verenicama
 verenice
 verenici
 verenicima
-verenicki
 verenicom
 verenicu
 verenik
@@ -252499,7 +252455,6 @@ zaludeće
 zaludi
 zaludio
 zaluditi
-zaludjenik
 zaludna
 zaludne
 zaludni
@@ -254154,7 +254109,6 @@ zapaženog
 zapaženoj
 zapaženom
 zapaženu
-zapecatiti
 zapecite
 zapekla
 zapekle
@@ -260796,7 +260750,6 @@ zmijuljica
 zmijurina
 zmijurine
 zmijurino
-zmurke
 zna
 znaci
 znacima

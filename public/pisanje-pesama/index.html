@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F88VM8CWBQ"></script>
+<script src="/ga-init.js?v=1"></script>
+<title>Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka</title>
+<meta name="description" content="Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu, šemu rime i ritam. Besplatna beležnica za pesnike, tekstopisce i repere — tekst ostaje sačuvan na tvom uređaju.">
+<link rel="canonical" href="https://rimoteka.com/pisanje-pesama/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rimoteka">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:url" content="https://rimoteka.com/pisanje-pesama/">
+<meta property="og:title" content="Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka">
+<meta property="og:description" content="Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu, šemu rime i ritam. Besplatna beležnica za pesnike, tekstopisce i repere — tekst ostaje sačuvan na tvom uređaju.">
+<meta property="og:image" content="https://rimoteka.com/logo-icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#5a3fd0">
+<link rel="stylesheet" href="/style.css?v=20260728e">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Rimoteka",
+     "item": "https://rimoteka.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Pisanje pesama",
+     "item": "https://rimoteka.com/pisanje-pesama/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Da li se moja pesma negde šalje?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ne. Tekst se čuva isključivo u tvom pregledaču, na tvom uređaju, i ostaje tu i kad zatvoriš stranicu. Ako pesmu podeliš linkom, tek tada je sadržaj upisan u sam link."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kako da dobijem rime za određenu reč u pesmi?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Klikni na tu reč u tekstu. Sa strane se odmah pojave rime baš za nju, a klik na rimu je ubacuje u stih na mesto kursora."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Šta znače slova A, B, C pored stihova?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To je šema rime. Stihovi sa istim slovom se rimuju: ABAB je ukrštena rima, AABB parna, ABBA obgrljena. Bledo slovo znači da se taj stih ni sa čim ne rimuje."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Šta pokazuje metar?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ritam stiha slog po slog — koji su slogovi naglašeni, gde je cezura i koliko stihova odstupa od preovlađujuće dužine. Pomaže da pesma ima ujednačen ritam."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Da li je alat besplatan?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Jeste, u potpunosti i bez registracije."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
+    <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
+  </a>
+</header>
+<nav class="tabs" id="tabs" aria-label="Alati"><a href="/rimovanje-reci/" data-tab="rime">Rimovanje reči</a><a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a><a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a><a href="/pisanje-pesama/" data-tab="beleznica" class="active">Pisanje pesama</a><a href="/klasici/" data-tab="klasici">Klasici</a><a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a></nav>
+<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Pisanje pesama</span></nav>
+  <h1 class="landing-h1">Pisanje pesama</h1>
+  <div class="sr-only" aria-hidden="true">
+    <input type="text" id="rimeInput" tabindex="-1" autocomplete="off">
+    <div id="rimeResults"></div>
+  </div>
+  <div class="landing-tool">
+    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni da je ubaciš u stih. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button> <button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></p>
+    <div class="notepad-layout">
+      <div class="notepad-main">
+        <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
+        <div class="notepad">
+          <div id="noteGutter" class="gutter"><div id="noteGutterInner" class="gutter-inner"></div></div>
+          <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
+          <textarea id="noteInput" style="display:none" aria-hidden="true"></textarea>
+        </div>
+        <p class="notepad-legend">
+          <span><b class="lg-drag">⠿</b> prevuci da premestiš stih</span>
+          <span><b class="lg-letter">A</b> šema rime — isto slovo, ista rima</span>
+          <span><b class="lg-num">7</b> slogova u stihu</span>
+          <span><b class="lg-word">reč</b> obojene reči se rimuju</span>
+        </p>
+        <div id="noteMeter" class="note-meter" hidden></div>
+        <div id="noteStats" class="note-stats"></div>
+      </div>
+      <aside id="noteRhymes" class="note-rhymes" aria-live="polite"></aside>
+    </div>
+  </div>
+  <p class="landing-lead">Ovde se <strong>pesma i piše</strong>, ne samo rimuje. Dok kucaš, pored svakog stiha stoji broj slogova i slovo šeme rime, reči koje se rimuju obojene su istom bojom, a rime za reč na kojoj ti je kursor stoje sa strane i klikom ulaze u stih. Ništa se ne šalje nigde — tekst se čuva na tvom uređaju i čeka te kad se vratiš. Ako tek počinješ, uz alat ide i vodič <a href="/kako-napisati-pesmu/">kako napisati pesmu</a>.</p>
+  <div class="res-group"><h3>Rime dok pišeš, bez napuštanja teksta</h3><p class="seo-p">Klikni na bilo koju reč u pesmi i sa strane dobiješ rime baš za nju. Klik na rimu je ubacuje u stih, na mesto kursora. Ne moraš da otvaraš drugu stranu ni da prekidaš misao — a rečnik iza toga ima preko 270.000 reči.</p></div><div class="res-group"><h3>Broj slogova po stihu</h3><p class="seo-p">Levo od svakog stiha stoji broj slogova. Kada su stihovi ujednačeni, pesma se lakše peva i pamti — zato je to prva stvar koju proveravaju i tekstopisci i autori dečjih pesama. Za poseban brojač celog teksta tu je <a href="/slogovi/">brojanje slogova i karaktera</a>.</p></div><div class="res-group"><h3>Šema rime (A, B, C…)</h3><p class="seo-p">Pored svakog stiha stoji slovo — isto slovo znači da se ti stihovi rimuju. Odmah vidiš da li pišeš ukrštenu (ABAB), parnu (AABB) ili obgrljenu (ABBA) rimu. Više o tome: <a href="/vrste-rima/">vrste rima u poeziji</a>.</p></div><div class="res-group"><h3>Metar srpskog stiha</h3><p class="seo-p">Uključi metar i vidiš ritam svakog stiha slog po slog. Alat prepoznaje meru pesme — šesterac, sedmerac, osmerac, deseterac, jedanaesterac i dvanaesterac — pokazuje gde pada cezura (deseterac 4+6, dvanaesterac 6+6) i koji stih odstupa od te mere. Nekonzistentan ritam je češća greška od loše rime.</p></div><div class="res-group"><h3>Kad ti treba druga reč, ne rima</h3><p class="seo-p">Ponekad stih ne trpi nijednu rimu koja ti pada na pamet. Tada otvori <a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> i potraži reč po značenju ili po slovima, pa njoj nađi rimu. A kad hoćeš da uvežbaš oko za rimu, tu je <a href="/igra-rimovanja/">igra rimovanja</a>.</p></div><div class="res-group"><h3>Premeštanje stihova</h3><p class="seo-p">Stih se prevlači na drugo mesto hvataljkom levo od njega — mišem ili prstom. Slogovi, boje i šema rime se preračunaju odmah, pa možeš da probaš drugačiji raspored bez prepisivanja.</p></div><div class="res-group"><h3>Naslov, štampa i deljenje</h3><p class="seo-p">Pesma može da dobije naslov, da se odštampa ili sačuva kao PDF, preuzme kao tekstualni fajl ili podeli linkom — onaj ko ga otvori vidi tvoju pesmu, a njegova beleška ostaje netaknuta.</p></div>
+  <section class="landing-faq"><h3>Česta pitanja</h3><details><summary>Da li se moja pesma negde šalje?</summary><p>Ne. Tekst se čuva isključivo u tvom pregledaču, na tvom uređaju, i ostaje tu i kad zatvoriš stranicu. Ako pesmu podeliš linkom, tek tada je sadržaj upisan u sam link.</p></details><details><summary>Kako da dobijem rime za određenu reč u pesmi?</summary><p>Klikni na tu reč u tekstu. Sa strane se odmah pojave rime baš za nju, a klik na rimu je ubacuje u stih na mesto kursora.</p></details><details><summary>Šta znače slova A, B, C pored stihova?</summary><p>To je šema rime. Stihovi sa istim slovom se rimuju: ABAB je ukrštena rima, AABB parna, ABBA obgrljena. Bledo slovo znači da se taj stih ni sa čim ne rimuje.</p></details><details><summary>Šta pokazuje metar?</summary><p>Ritam stiha slog po slog — koji su slogovi naglašeni, gde je cezura i koliko stihova odstupa od preovlađujuće dužine. Pomaže da pesma ima ujednačen ritam.</p></details><details><summary>Da li je alat besplatan?</summary><p>Jeste, u potpunosti i bez registracije.</p></details></section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+    </div>
+    <p class="footer-desc">Besplatan alat za pronalaženje rime, brojanje slogova i pisanje pesama i tekstova na srpskom jeziku.</p>
+    <nav class="footer-rimes" aria-label="Popularne rime">
+      <span class="footer-rimes-label">Popularne rime:</span>
+      <a href="/rime-za/ljubav/" class="footer-link">ljubav</a> · <a href="/rime-za/srce/" class="footer-link">srce</a> · <a href="/rime-za/dusa/" class="footer-link">duša</a> · <a href="/rime-za/sreca/" class="footer-link">sreća</a> · <a href="/rime-za/tuga/" class="footer-link">tuga</a> · <a href="/rime-za/bol/" class="footer-link">bol</a> · <a href="/rime-za/radost/" class="footer-link">radost</a> · <a href="/rime-za/nada/" class="footer-link">nada</a> · <a href="/rime-za/strast/" class="footer-link">strast</a> · <a href="/rime-za/ceznja/" class="footer-link">čežnja</a> · <a href="/rime-za/samoca/" class="footer-link">samoća</a> · <a href="/rime-za/osecaj/" class="footer-link">osećaj</a> · <a href="/rime-za/zagrljaj/" class="footer-link">zagrljaj</a> · <a href="/rime-za/poljubac/" class="footer-link">poljubac</a> · <a href="/rime-za/neznost/" class="footer-link">nežnost</a> · <a href="/rime-za/zelja/" class="footer-link">želja</a> · <a href="/rime-za/sanjarenje/" class="footer-link">sanjarenje</a> · <a href="/rime-za/ljubomora/" class="footer-link">ljubomora</a> · <a href="/rime-za/sunce/" class="footer-link">sunce</a> · <a href="/rime-za/mesec/" class="footer-link">mesec</a> · <a href="/rime-za/zvezda/" class="footer-link">zvezda</a> · <a href="/rime-za/nebo/" class="footer-link">nebo</a> · <a href="/rime-za/oblak/" class="footer-link">oblak</a> · <a href="/rime-za/kisa/" class="footer-link">kiša</a> · <a href="/rime-za/sneg/" class="footer-link">sneg</a> · <a href="/rime-za/vetar/" class="footer-link">vetar</a> · <a href="/rime-za/munja/" class="footer-link">munja</a> · <a href="/rime-za/more/" class="footer-link">more</a> · <a href="/rime-za/reka/" class="footer-link">reka</a> · <a href="/rime-za/jezero/" class="footer-link">jezero</a>
+    </nav>
+    <nav class="footer-guides" aria-label="Vodiči">
+      <span class="footer-rimes-label">Vodiči:</span>
+      <a href="/rimovanje-reci/" class="footer-link">Rimovanje reči</a> · <a href="/slogovi/" class="footer-link">Brojanje slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
+    </nav>
+    <nav class="footer-guides" aria-label="Namene">
+      <span class="footer-rimes-label">Namene:</span>
+      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a>
+    </nav>
+    <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+  </div>
+</footer>
+<script src="/app.js?v=20260728e"></script>
+</body>
+</html>

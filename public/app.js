@@ -365,8 +365,12 @@ function doRhymes(silent){
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
   const box = el('rimeResults');
   box.innerHTML='';
-  if(q.length<2){ box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
-  if(WORDS.length === 0){ box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
+  /* Poruke o stanju pišemo SAMO kad je korisnik sam tražio rime. U tihom
+     pozivu (beležnica računa rime za reč pod kursorom) panel je pozajmljen —
+     tu bi poruka izgledala kao da je korisnik nešto tražio. Zbog toga je na
+     početnoj strani pisalo „Učitavam rečnik…" iako niko nije upisao ni reč. */
+  if(q.length<2){ if(!silent) box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
+  if(WORDS.length === 0){ if(!silent) box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
 
   // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
   if(!silent){
@@ -1622,6 +1626,25 @@ function getWordAtLineCol(line, col){
   return best;
 }
 
+/* Beležnica i „sačuvaj rime" nemaju svoj pretraživač — pozajmljuju vidljivi
+   panel `#rimeResults` da izračunaju rime za jednu reč. Pre ove funkcije su ga
+   ostavljale prepisanog: povratkom na tab „Rimovanje reči" korisnik je zaticao
+   tuđi rezultat ili poruku o učitavanju. Ovde se sadržaj panela zapamti kao
+   ČVOROVI (ne innerHTML — tako ⓘ/♡/🔁 zadrže svoje osluškivače) i vrati nazad. */
+function tiheRime(word){
+  const box = el('rimeResults');
+  const sacuvano = [...box.childNodes];
+  const staraVrednost = rimeInput.value;
+  rimeInput.value = word;
+  doRhymes(true);
+  rimeInput.value = staraVrednost;
+  // sinonimi se preskaču — sinonim nije rima („naći" → izumeti, otkriti)
+  const chips = [...box.querySelectorAll('.chip')].filter(c => !c.closest('.syn-card'));
+  box.innerHTML = '';
+  sacuvano.forEach(n => box.appendChild(n));
+  return chips;
+}
+
 function renderNoteRhymes(){
   const box = el('noteRhymes');
   if(!box) return;
@@ -1662,14 +1685,7 @@ function renderNoteRhymes(){
     notePanelWord = noteInsertedWord = '';
     return;
   }
-  const savedVal = rimeInput.value;
-  rimeInput.value = word;
-  doRhymes(true);
-  rimeInput.value = savedVal;
-  // SAMO rime — kartica sa sinonimima se preskače. Sinonim nije rima
-  // („naći" → izumeti, otkriti, stvoriti), pa uz stih deluje kao greška.
-  const src = el('rimeResults');
-  const chips = [...src.querySelectorAll('.chip')].filter(c => !c.closest('.syn-card'));
+  const chips = tiheRime(word);
   if(!chips.length){
     notePanelKey = null;
     box.innerHTML = `<h4>${escapeHtml(uiTxt('Rime za'))} <span class="nr-word">${escapeHtml(disp(word))}</span></h4>`
@@ -1792,15 +1808,12 @@ function getRhymeListForLastWord(){
   }
   const word = getLastWordInLine(lastLine);
   if(!word || word.length < 2) return { word: '', rhymes: [] };
-  const savedVal = rimeInput.value;
-  rimeInput.value = word;
-  doRhymes(true);
-  rimeInput.value = savedVal;
   // i ovde bez sinonima — lista se zove „Rime za X", pa mora da sadrži samo rime
-  const src = el('rimeResults');
-  const chips = [...src.querySelectorAll('.chip .word')].filter(c => !c.closest('.syn-card'));
   const rhymes = [];
-  chips.forEach(c => { const t = c.textContent.trim(); if(t) rhymes.push(t); });
+  tiheRime(word).forEach(c => {
+    const t = c.querySelector('.word')?.textContent.trim();
+    if(t) rhymes.push(t);
+  });
   return { word, rhymes };
 }
 el('saveRhymeList').onclick = () => {

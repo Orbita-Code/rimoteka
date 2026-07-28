@@ -174,7 +174,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728e">
+<link rel="stylesheet" href="/style.css?v=20260728f">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -224,7 +224,7 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Namene">
       <span class="footer-rimes-label">Namene:</span>
-      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a>
+      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-decu-o-zivotinjama/" class="footer-link">Životinje</a> · <a href="/rime-za-decu-o-prirodi/" class="footer-link">Priroda</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a> · <a href="/rime-za-prijatelje/" class="footer-link">Prijatelji</a> · <a href="/rime-za-roditelje/" class="footer-link">Roditelji</a> · <a href="/rime-za-novu-godinu/" class="footer-link">Nova godina</a> · <a href="/rime-za-tugu-i-secanje/" class="footer-link">Tuga i sećanje</a>
     </nav>
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
@@ -274,7 +274,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260728e"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260728f"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -322,6 +322,77 @@ SYL_TOOL_HTML = """  <div class="landing-tool">
 """
 
 
+# Naziv svake tematske strane na jednom mestu — koristi ga blok „Srodne strane".
+NAZIVI = {
+    'rimovanje-reci': 'Rimovanje reči',
+    'recnik-srpskog-jezika': 'Rečnik srpskog jezika',
+    'slogovi': 'Brojač slogova i karaktera',
+    'pisanje-pesama': 'Pisanje pesama',
+    'klasici': 'Srpske pesme — klasici',
+    'igra-rimovanja': 'Igra rimovanja',
+    'vrste-rima': 'Vrste rima',
+    'kako-napisati-pesmu': 'Kako napisati pesmu',
+    'rimovanje-za-pocetnike': 'Rimovanje za početnike',
+    'rime-za-decu': 'Rime za decu',
+    'rime-za-decu-o-zivotinjama': 'Rime za decu o životinjama',
+    'rime-za-decu-o-prirodi': 'Rime za decu o prirodi',
+    'rime-za-pesmu': 'Rime za pesmu',
+    'rime-za-rep': 'Rime za rep',
+    'rime-za-ljubavne-pesme': 'Rime za ljubavne pesme',
+    'rime-za-rodjendanske-pesmice': 'Rime za rođendanske pesmice',
+    'rime-za-svadbu': 'Rime za svadbu',
+    'rime-za-novu-godinu': 'Rime za Novu godinu',
+    'rime-za-prijatelje': 'Rime za prijatelje',
+    'rime-za-roditelje': 'Rime za roditelje',
+    'rime-za-tugu-i-secanje': 'Rime za tugu i sećanje',
+}
+
+# Ko koga povezuje. Traka tabova i futer stoje na svakoj strani, pa Google te
+# linkove gleda kao šablon i malo im veruje; ovo su linkovi iz sadržaja, birani
+# po smislu. Bez ovoga je šest strana (prijatelji, roditelji, Nova godina,
+# tuga i sećanje, deca o životinjama, deca o prirodi) bilo u sitemapu, a bez
+# ijednog linka sa sajta — takve Google obično ostavi na „otkriveno, nije
+# indeksirano". Svaka strana ovde ima bar dva dolazna linka.
+SRODNO = {
+    'rimovanje-reci': ['recnik-srpskog-jezika', 'slogovi', 'vrste-rima', 'rime-za-decu'],
+    'recnik-srpskog-jezika': ['rimovanje-reci', 'slogovi', 'klasici'],
+    'pisanje-pesama': ['slogovi', 'vrste-rima', 'kako-napisati-pesmu', 'klasici'],
+    'klasici': ['vrste-rima', 'pisanje-pesama', 'slogovi'],
+    'igra-rimovanja': ['rime-za-decu', 'rimovanje-reci', 'rimovanje-za-pocetnike'],
+    'vrste-rima': ['rimovanje-za-pocetnike', 'kako-napisati-pesmu', 'klasici', 'rime-za-pesmu'],
+    'kako-napisati-pesmu': ['pisanje-pesama', 'vrste-rima', 'slogovi', 'rimovanje-za-pocetnike'],
+    'rimovanje-za-pocetnike': ['vrste-rima', 'kako-napisati-pesmu', 'igra-rimovanja', 'rimovanje-reci'],
+    'rime-za-decu': ['rime-za-decu-o-zivotinjama', 'rime-za-decu-o-prirodi',
+                     'rime-za-rodjendanske-pesmice', 'igra-rimovanja'],
+    'rime-za-decu-o-zivotinjama': ['rime-za-decu', 'rime-za-decu-o-prirodi', 'igra-rimovanja'],
+    'rime-za-decu-o-prirodi': ['rime-za-decu', 'rime-za-decu-o-zivotinjama', 'rime-za-pesmu'],
+    'rime-za-pesmu': ['rime-za-ljubavne-pesme', 'rime-za-tugu-i-secanje', 'rime-za-rep',
+                      'kako-napisati-pesmu', 'vrste-rima'],
+    'rime-za-rep': ['rime-za-pesmu', 'vrste-rima', 'slogovi'],
+    'rime-za-ljubavne-pesme': ['rime-za-svadbu', 'rime-za-tugu-i-secanje', 'rime-za-pesmu',
+                               'kako-napisati-pesmu'],
+    'rime-za-tugu-i-secanje': ['rime-za-ljubavne-pesme', 'rime-za-pesmu', 'kako-napisati-pesmu'],
+    'rime-za-svadbu': ['rime-za-ljubavne-pesme', 'rime-za-prijatelje', 'rime-za-roditelje',
+                       'rime-za-rodjendanske-pesmice'],
+    'rime-za-rodjendanske-pesmice': ['rime-za-prijatelje', 'rime-za-roditelje',
+                                     'rime-za-novu-godinu', 'rime-za-decu'],
+    'rime-za-prijatelje': ['rime-za-rodjendanske-pesmice', 'rime-za-svadbu', 'rime-za-novu-godinu'],
+    'rime-za-roditelje': ['rime-za-rodjendanske-pesmice', 'rime-za-svadbu', 'rime-za-decu'],
+    'rime-za-novu-godinu': ['rime-za-rodjendanske-pesmice', 'rime-za-prijatelje', 'rime-za-decu'],
+    'slogovi': ['pisanje-pesama', 'rimovanje-reci', 'kako-napisati-pesmu', 'klasici'],
+}
+
+
+def srodno_blok(slug):
+    """Blok „Srodne strane" — interni linkovi iz sadržaja, ne iz šablona."""
+    veze = SRODNO.get(slug, [])
+    if not veze:
+        return ''
+    linkovi = ' · '.join(f'<a href="/{s}/">{esc(NAZIVI[s])}</a>' for s in veze)
+    return ('<div class="res-group"><h3>Srodne strane</h3>'
+            f'<p class="seo-p">{linkovi}</p></div>\n  ')
+
+
 def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_href, cta_text,
                  tool=False, aktivan_tab=''):
     # Statička tematska strana (autoritet). lead_html/sekcije = sirov HTML; faq = plain tekst.
@@ -352,7 +423,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
 {alat}  <p class="landing-lead">{lead_html}</p>
 {cta}  {secs}
   <section class="landing-faq"><h3>Česta pitanja</h3>{faq_html}</section>
-</main>
+  {srodno_blok(slug)}</main>
 """
     d = os.path.join(PUB, slug)
     os.makedirs(d, exist_ok=True)
@@ -641,8 +712,8 @@ def main():
     # 2b) statička strana /slogovi/ — keyword „brojanje slogova"
     slog_canon = f'{BASE}/slogovi/'
     slog_title = 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka'
-    slog_desc = ('Besplatan brojač slogova i karaktera: nalepi tekst i odmah vidiš broj slogova, '
-                 'reči i znakova za svaki red. Kako se broje slogovi u srpskom (sa slogotvornim „r") — pravila i primeri.')
+    slog_desc = ('Besplatan brojač slogova, karaktera i reči: nalepi tekst i odmah vidiš broj slogova, '
+                 'reči i znakova za svaki red. Podela reči na slogove u srpskom (sa slogotvornim „r") — pravila i primeri.')
     slog_schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -655,7 +726,11 @@ def main():
                 {"@type": "Question", "name": "Zašto je bitno brojati slogove u pesmi?",
                  "acceptedAnswer": {"@type": "Answer", "text": "Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu."}},
                 {"@type": "Question", "name": "Broji li alat i karaktere?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči."}}]}]
+                 "acceptedAnswer": {"@type": "Answer", "text": "Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči."}},
+                {"@type": "Question", "name": "Kako se reč deli na slogove?",
+                 "acceptedAnswer": {"@type": "Answer", "text": "Reč ima onoliko slogova koliko ima samoglasnika, a granica sloga ide ispred suglasnika koji pripada sledećem slogu: ja-bu-ka, de-voj-či-ca. Kod slogotvornog „r“ slog nosi samo „r“: sr-ce, pr-vi."}},
+                {"@type": "Question", "name": "Koliko slogova ima jedna reč?",
+                 "acceptedAnswer": {"@type": "Answer", "text": "Prebroj samoglasnike u njoj — toliko ima slogova. Vrt i prst imaju jedan slog (slogotvorno „r“), srce i pesma dva, jabuka tri, devojčica četiri."}}]}]
     }, ensure_ascii=False, indent=1)
     slog_head = HEAD_TMPL.format(tabs_nav=tabs_nav('slogovi'), title=esc(slog_title), desc=esc(slog_desc), ogdesc=esc(slog_desc),
                                  canonical=slog_canon, base=BASE, schema=slog_schema)
@@ -672,8 +747,11 @@ def main():
   <div class="res-group"><h3>Kako se broje slogovi</h3>
     <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r"</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
   </div>
-  <div class="res-group"><h3>Brojanje karaktera i reči</h3>
-    <p class="seo-p">Pored slogova, brojač pokazuje i <strong>broj karaktera</strong> (znakova) i reči u svakom redu, sa razmacima i bez njih. To je korisno kad tekst mora da stane u zadatu dužinu — za pesmu, opis, poruku ili meta opis strane.</p>
+  <div class="res-group"><h3>Podela reči na slogove</h3>
+    <p class="seo-p">Svaki slog ima jedan samoglasnik kao nosioca, pa se reč deli na onoliko slogova koliko ima samoglasnika: <em>ja-bu-ka</em> (3), <em>de-voj-či-ca</em> (4), <em>ri-mo-va-nje</em> (4). Granica sloga ide ispred suglasnika koji pripada sledećem slogu. Kod slogotvornog „r" slog nosi samo „r": <em>sr-ce</em>, <em>pr-vi</em>. <strong>Rastavljanje reči na slogove</strong> je isto što i njihovo brojanje — alat iznad to radi za ceo tekst odjednom.</p>
+  </div>
+  <div class="res-group"><h3>Brojač karaktera i reči</h3>
+    <p class="seo-p">Pored slogova, ovo je i <strong>brojač karaktera</strong> i <strong>brojač reči</strong>: za svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu — čestitka, slogan, opis proizvoda, poruka ili meta opis strane.</p>
   </div>
   <div class="res-group"><h3>Primeri broja slogova</h3>
     <table class="slog-table"><thead><tr><th>Reč</th><th>Broj slogova</th></tr></thead><tbody>{ex_rows}</tbody></table>
@@ -684,8 +762,10 @@ def main():
     <details><summary>Zašto je bitno brojati slogove u pesmi?</summary><p>Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu.</p></details>
     <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. Nalepi ceo tekst u polje na vrhu strane — pored svakog reda stoji broj slogova, a na dnu ukupan zbir za celu pesmu.</p></details>
     <details><summary>Broji li alat i karaktere?</summary><p>Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči.</p></details>
+    <details><summary>Kako se reč deli na slogove?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika, a granica sloga ide ispred suglasnika koji pripada sledećem slogu: ja-bu-ka, de-voj-či-ca. Kod slogotvornog „r" slog nosi samo „r": sr-ce, pr-vi.</p></details>
+    <details><summary>Koliko slogova ima jedna reč?</summary><p>Prebroj samoglasnike u njoj — toliko ima slogova. Vrt i prst imaju jedan slog (slogotvorno „r"), srce i pesma dva, jabuka tri, devojčica četiri.</p></details>
   </section>
-</main>
+  {srodno_blok('slogovi')}</main>
 """
     slog_dir = os.path.join(PUB, 'slogovi')
     os.makedirs(slog_dir, exist_ok=True)

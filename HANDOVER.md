@@ -1,6 +1,84 @@
 # Handover — Rimoteka
 
-> Najnovije je na vrhu. Ispod stoji handover prethodne sesije (26–27. jul).
+> Najnovije je na vrhu. Ispod stoje handoveri prethodnih sesija.
+
+---
+
+# Sesija 28. jul 2026 (druga) — „Učitavam rečnik" i interno povezivanje
+
+> **Stanje: `node test/predeploy.mjs` → 108/108 lokalno. NIJE deployovano** —
+> čeka odobrenje za push. Test protiv produkcije još pada na 12e, i to je
+> ISPRAVNO: produkcija još vrti stari `app.js`.
+
+## 1. Bag: „Učitavam rečnik…" na početnoj bez ijedne upisane reči
+
+Vlasnica je prijavila da je na početnoj dočekuje poruka „Učitavam rečnik…" iako
+ništa nije upisala. Reprodukovano na produkciji i nađen uzrok.
+
+**Uzrok:** beležnica nema svoj pretraživač rima — pri učitavanju računa rime za
+reč pod kursorom tako što **pozajmi vidljivi panel `#rimeResults`**
+(`renderNoteRhymes` → `doRhymes(true)`). Rečnik u tom trenutku još nije stigao,
+pa `doRhymes` u panel upiše „Učitavam rečnik…" i **tu ostane**.
+
+**Koga je pogađalo:** svakog ko je ikad nešto napisao u beležnici (tekst stoji u
+`localStorage`). Na potpuno praznom pregledaču se ne vidi — zato je i preživelo.
+
+**Popravka (`public/app.js`):**
+- poruke o stanju („Upiši reč", „Učitavam rečnik…") pišu se **samo kad korisnik
+  sam traži rime** — tihi poziv ih preskače
+- nova funkcija **`tiheRime(word)`** — pozajmi panel, pročita čipove i **vrati
+  panel u zatečeno stanje**. Sadržaj se pamti kao **čvorovi, ne `innerHTML`** —
+  preko `innerHTML` bi ⓘ/♡/🔁 izgubili osluškivače i postali mrtva dugmad.
+  Koriste je `renderNoteRhymes` i `getRhymeListForLastWord`.
+
+**Nuspojava koja je takođe rešena:** beležnica više ne briše rezultate koje
+korisnik vidi na tabu „Rimovanje reči".
+
+**Test:** nova sekcija **12e** (4 provere). Dokazano da hvata bag — protiv
+produkcije (stari kod) pada, lokalno (novi kod) prolazi.
+
+## 2. Interno povezivanje — šta je bilo pogrešno
+
+**Brojač slogova NIJE bio bez linkova**, kako je delovalo: stajao je u traci
+tabova i u futeru, dakle na svih 2.010 strana. Ali su to **šablonski** linkovi,
+koje Google jako obezvređuje. Iz **teksta** početne nije vodio **nijedan** —
+a tu je „broj slogova" tri puta stajalo kao podebljan **običan tekst**.
+Sada ih ima 7 (sa 2).
+
+**Šest strana je bilo u sitemapu, a bez ijednog linka sa sajta:**
+`/rime-za-prijatelje/`, `/rime-za-roditelje/`, `/rime-za-novu-godinu/`,
+`/rime-za-tugu-i-secanje/`, `/rime-za-decu-o-prirodi/`,
+`/rime-za-decu-o-zivotinjama/`. To je stanje koje Google po pravilu ostavlja na
+„otkriveno, nije indeksirano". Sada svaka ima **bar dva** linka iz sadržaja
+(`SRODNO` mapa u `gen_pages.py`, blok „Srodne strane" na dnu svake tematske
+strane) **plus** link u futeru.
+
+## 3. Ključne fraze koje nijedna strana nije pokrivala
+
+Izmereno pretragom kroz svih 2.010 strana — bilo je **nula** pojava:
+`podela reči na slogove`, `rastavljanje reči na slogove`, `brojač karaktera`,
+`brojač znakova`, `brojač reči`. Alat sve to **radi**, samo nije bilo napisano
+onako kako ljudi kucaju. Dodato na `/slogovi/` (dve nove sekcije + dva FAQ-a) i
+na početnu (dva FAQ-a).
+
+Uz to ispravljeno: u FAQ-u početne je pisalo „u tabu **Slogovi i znakovi**" —
+tab se odavno zove „Brojač slogova i karaktera" i ima svoju stranu. Ispravljeno
+i u vidljivom tekstu i u `FAQPage` šemi (moraju da se poklapaju).
+
+## Zamke
+
+- **`?v=` podignut na `20260728f`** u `public/index.html` **i**
+  `build/gen_pages.py` — obavezno oba.
+- **Blok „Srodne strane" koristi postojeće klase** (`.res-group`, `.seo-p`) —
+  nije dodata nijedna linija CSS-a.
+- **Futer mora biti isti** u `public/index.html` i `FOOTER_TMPL` u
+  `gen_pages.py`. Red „Namene" je proširen sa 6 na 12 linkova — u oba fajla.
+
+## Šta čeka
+
+1. **Odobrenje za push** (grana + merge u `main`)
+2. Posle deploy-a: `BASE=https://rimoteka.com node test/predeploy.mjs` mora 108/108
+3. Zatim GSC: sitemap + Request Indexing za 6 strana koje su do sada bile bez linkova
 
 ---
 

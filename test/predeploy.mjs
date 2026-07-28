@@ -771,6 +771,40 @@ async function main() {
     ok('/pisanje-pesama/ → nula grešaka u konzoli', pisGreske.length === 0, pisGreske.slice(0, 3).join(' | '));
     await pPis.close();
 
+    console.log('\n12e) POČETNA JE ČISTA I KAD BELEŽNICA IMA SAČUVAN TEKST');
+    /* Bag 28.07.2026: ko je ikad nešto napisao u beležnici, na početnoj je
+       dočekivala poruka „Učitavam rečnik…" iako nije upisao nijednu reč.
+       Beležnica pri učitavanju računa rime za reč pod kursorom i za to
+       POZAJMLJUJE vidljivi panel #rimeResults — pa je u njemu ostajala poruka.
+       Panel na početnoj mora da bude prazan dok korisnik sam ne zatraži rime. */
+    const pCist = await browser.newPage();
+    await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+    await pCist.evaluate(() => localStorage.setItem('rimoteka_notes', 'Volim te ko nada\nzvezda sja u tami'));
+    await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+    const odmah = await pCist.evaluate(() => (document.getElementById('rimeResults').innerText || '').trim());
+    ok('početna → panel s rimama je prazan pri učitavanju', odmah === '', JSON.stringify(odmah));
+    await pCist.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
+                                { timeout: 120000 }).catch(() => {});
+    await pauza(1200);
+    const posleRecnika = await pCist.evaluate(() => (document.getElementById('rimeResults').innerText || '').trim());
+    ok('početna → panel ostaje prazan i kad se rečnik učita', posleRecnika === '', JSON.stringify(posleRecnika).slice(0, 80));
+    // a kad korisnik SAM traži rime, rezultati moraju da se pojave i da ostanu
+    const posleTrazenja = await pCist.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      document.getElementById('rimeInput').value = 'ljubav';
+      document.getElementById('rimeBtn').click();
+      await w(700);
+      const pre = document.querySelectorAll('#rimeResults .chip').length;
+      // beležnica u međuvremenu računa svoje rime — ne sme da obriše tuđe rezultate
+      document.dispatchEvent(new Event('selectionchange'));
+      await w(900);
+      return { pre, posle: document.querySelectorAll('#rimeResults .chip').length };
+    });
+    ok('početna → tražene rime se prikazuju', posleTrazenja.pre > 5, `${posleTrazenja.pre}`);
+    ok('početna → beležnica ne briše prikazane rime', posleTrazenja.posle === posleTrazenja.pre,
+       `${posleTrazenja.pre} → ${posleTrazenja.posle}`);
+    await pCist.close();
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

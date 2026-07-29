@@ -492,3 +492,73 @@ odobrenih komandi ima 15 stavki, pa sesija stalno staje i čeka odobrenje.
 > **PRAVILO 28:** Svaka `git` komanda ide sa `--no-pager` (ili `| cat`). Bez
 > toga `log`, `diff`, `branch` i `show` čekaju na pager kojeg u ovom okruženju
 > nema, i troše ceo dozvoljeni rok — dva minuta po pozivu, za ništa.
+
+---
+
+## Sesija 29.07.2026 (peta), nastavak — OBORIO SAM SAJT NA ~3 MINUTA
+
+> Najozbiljniji propust ove sesije. Zapisujem ga u celini, bez ulepšavanja.
+
+### 1. Šta se desilo
+
+Popravljao sam nalaz N17 (`https://www.rimoteka.com` vraćao 200 umesto 301) i
+dodao u `nginx.conf` zaseban blok:
+
+```nginx
+server { listen 80; server_name www.rimoteka.com; return 301 https://rimoteka.com$request_uri; }
+server { listen 80; server_name _; ...ceo sajt... }
+```
+
+Posle deploy-a **`https://rimoteka.com/` je vraćao 301 na samog sebe** — 50
+koraka, prazna strana, sajt nedostupan. Vraćeno za ~3 minuta.
+
+### 2. Uzrok — i zašto je moje objašnjenje bilo pogrešno
+
+U nginx-u **`server_name _` NIJE hvatalica za sve domene.** `_` je namerno
+nevažeće ime domena koje se nikad ne poklopi ni sa jednim `Host` zaglavljem.
+Taj blok je hvatao sve zahteve isključivo zato što je bio **PRVI blok na tom
+portu**, a nginx prvi blok uzima za **podrazumevani** kad nijedan nema
+`default_server`.
+
+Kad sam www blok stavio **ispred** njega, **www blok je postao podrazumevani** i
+pokupio svaki domen koji se ne poklopi — uključujući `rimoteka.com` — pa ga je
+preusmeravao na `https://rimoteka.com/`, dakle na samog sebe.
+
+Ispravno bi bilo: glavni blok označiti sa `listen 80 default_server;` i www blok
+staviti **iza** njega.
+
+### 3. Zašto provera nije pomogla
+
+Proverio sam konfiguraciju kroz `crossplane` i dobio `status: ok`, pa sam
+deployovao. **`crossplane` proverava SINTAKSU, ne SEMANTIKU.** Konfiguracija je
+bila savršeno ispravna kao tekst i potpuno pogrešna kao ponašanje. Uzeo sam
+zeleno svetlo jedne vrste provere kao dokaz za sasvim drugu vrstu tvrdnje.
+
+To je isti obrazac kao „test prolazi 140/140, a sajt ima 35 nalaza" — samo na
+konfiguraciji umesto na kodu.
+
+> **PRAVILO 29:** `nginx.conf` se **ne deployuje** dok se ne pokrene **pravi
+> nginx** sa tom konfiguracijom i ne proveri **ponašanje po `Host` zaglavlju**:
+> ```
+> curl -H "Host: rimoteka.com"     http://127.0.0.1:PORT/   # mora 200
+> curl -H "Host: www.rimoteka.com" http://127.0.0.1:PORT/   # mora 301
+> curl -H "Host: nepoznato.test"   http://127.0.0.1:PORT/   # mora 200, ne 301
+> ```
+> Provera sintakse (`nginx -t`, `crossplane`) je **nužna a ne dovoljna**.
+> Treći red je najvažniji — on hvata baš grešku podrazumevanog bloka.
+
+> **PRAVILO 30:** Kad zeleno svetlo dolazi od alata, pre nego što se na njega
+> osloniš odgovori u jednoj rečenici: **šta tačno taj alat NE proverava?** Ako
+> odgovor dodiruje ono što upravo menjaš, alat nije dokaz.
+
+> **PRAVILO 31:** Izmene koje mogu da obore ceo sajt (`nginx.conf`, `Dockerfile`,
+> CSP, preusmerenja) **ne idu u isti nalet sa ostalim popravkama.** Idu same,
+> sa spremnim vraćanjem i sa proverom odmah posle deploy-a — i to proverom
+> **glavne adrese**, ne samo one koju si menjao. Ja sam proverio `www` (radilo)
+> i tek onda glavnu (pala).
+
+### 4. Šta je ipak bilo dobro
+
+Provera posle deploy-a **jeste** pokrenuta i **jeste** uhvatila kvar u prvom
+minutu, pa je vraćanje bilo brzo. Da sam se zaustavio na „www sada vraća 301,
+gotovo", sajt bi stajao oboren dok ga vlasnica ne primeti.

@@ -215,8 +215,8 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<script src="/dark-mode-init.js?v=2"></script>
-<link rel="stylesheet" href="/style.css?v=20260729e">
+<script src="/dark-mode-init.js?v=3"></script>
+<link rel="stylesheet" href="/style.css?v=20260729f">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -293,7 +293,11 @@ FOOTER_TMPL = """<footer class="site-footer">
       <span class="footer-rimes-label">Namene:</span>
       <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-decu-o-zivotinjama/" class="footer-link">Životinje</a> · <a href="/rime-za-decu-o-prirodi/" class="footer-link">Priroda</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a> · <a href="/rime-za-prijatelje/" class="footer-link">Prijatelji</a> · <a href="/rime-za-roditelje/" class="footer-link">Roditelji</a> · <a href="/rime-za-novu-godinu/" class="footer-link">Nova godina</a> · <a href="/rime-za-tugu-i-secanje/" class="footer-link">Tuga i sećanje</a>
     </nav>
-    <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+    <!-- Isti red kao na početnoj. Ranije je ovde umesto „Sva prava zadržana"
+         stajao link „Početna" — dodat radi internog povezivanja, ali je pao u
+         red sa autorskim pravima, gde mu nije mesto. Povratak na početnu i
+         ovako postoji na dva mesta: logo u zaglavlju i traka alata. -->
+    <p class="footer-legal">© 2026 Rimoteka · Sva prava zadržana · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
 <div id="toast" class="toast"></div>
@@ -343,7 +347,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260729e"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260729f"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -1170,12 +1174,23 @@ def main():
              priority='0.9',
              tool=True,          # živi alat za rime na samoj strani
              title='Rimovanje reči — pronađi rimu za svaku srpsku reč | Rimoteka',
-             desc='Rimovanje reči na srpskom: unesi reč i odmah dobij sve rime, sortirane po kvalitetu i broju slogova. Besplatno, bez reklama i registracije.',
+             desc='Rimovanje reči na srpskom, za sekundu: upišeš reč i Rimoteka izlista sve rime — sa brojem slogova, značenjem i sinonimima, besplatno i bez reklama.',
              h1='Rimovanje reči',
-             lead=('<strong>Rimovanje reči</strong> je traženje reči koje se na kraju zvučno poklapaju — '
-                   'osnova svake pesme, rep numere, slogana i rođendanske čestitke. '
-                   'Rimoteka pretražuje rečnik od <strong>preko 270.000 srpskih reči</strong> i '
-                   'izlista rime u trenutku, poređane od najčešćih ka manje poznatim. '
+             # PRVA REČENICA SE PIŠE ZA GOOGLE, ne za stranu.
+             # Provereno 29.07.2026: Google je ignorisao `desc` i u rezultatima
+             # prikazao baš prvu rečenicu ovog teksta — a ona je tada definisala
+             # POJAM („rimovanje reči je traženje reči koje se zvučno poklapaju“),
+             # pa je strana izgledala kao rečnička odrednica, ne kao alat.
+             # Zato prva rečenica sada: (1) počinje ključnom rečju, jer Google
+             # podebljava reči iz upita i tako se vizuelno poklapa sa pretragom;
+             # (2) kaže šta korisnik DOBIJA, ne šta pojam znači; (3) staje u
+             # 147 znakova, jer Google seče oko 155. Ako se menja — prvo izmeriti.
+             lead=('<strong>Rimovanje reči</strong> na srpskom, za sekundu: upišeš reč i Rimoteka '
+                   'izlista sve rime — sa brojem slogova, značenjem i sinonimima, '
+                   'besplatno i bez reklama. '
+                   'Rečnik ima <strong>preko 270.000 srpskih reči</strong>, a rime su poređane '
+                   'od najčešćih ka manje poznatim, pa prve koje vidiš jesu i one koje ljudi '
+                   'zaista koriste. '
                    'Evo reči za koje se rime najviše traže: ' + rimovanje_chips),
              cta_href='/', cta_text='🔍 Rimuj svoju reč →',
              sections=[
@@ -1298,7 +1313,7 @@ def main():
              ],
              faqs=[
                  ('Koje rime najčešće idu sa „ljubav“?', 'Najbolje rime sa ljubav su srce, duša, tuga, radost, čežnja, strast, nežnost i mnoge druge emotivne reči.'),
-                 ('Kako da pesma zvuči iskreno?', 'Piši o konkretnim detaljima — osećajima, mirisima, trenucima. Izbegavaj klisheeve koji ne zvuče kao tvoji.'),
+                 ('Kako da pesma zvuči iskreno?', 'Piši o konkretnim detaljima — osećajima, mirisima, trenucima. Izbegavaj klišee koji ne zvuče kao tvoji.'),
                  ('Da li ljubavna pesma mora da se rimuje?', 'Ne mora, ali rima pomaže da pesma bude pevljiva i da se bolje pamti. Slobodni stih je takođe validan izbor.'),
              ]),
         dict(slug='rime-za-rodjendanske-pesmice',
@@ -1318,20 +1333,26 @@ def main():
                  ('Da li mogu da iskoristim pesmicu za čestitku?', 'Naravno. Možeš je prepisati na čestitku, poslati porukom ili objaviti na društvenim mrežama.'),
              ]),
         dict(slug='rime-za-svadbu',
-             title='Rime za svadbu — čestitke, pesme i toastovi | Rimoteka',
-             desc='Rime za svadbu: lepe reči za mladence, čestitke, pesme i toastove. Pronađi rime za ljubav, sreća, prsten, dom i zajednička putovanja.',
+             # „toast“ → „zdravica“: srpska reč postoji i uobičajena je, pa
+             #   anglicizam nema opravdanja (odluka vlasnice 29.07.2026).
+             # „Budan kratak“ → „Budi kratak“: obična greška u kucanju, stajala
+             #   je vidljiva na strani.
+             # „zaverno“ → „zavet“: „zaverno“ NIJE srpska reč — provereno,
+             #   nema je u `reci.txt` (0 pogodaka od 270.000 reči).
+             title='Rime za svadbu — čestitke, pesme i zdravice | Rimoteka',
+             desc='Rime za svadbu: lepe reči za mladence, čestitke, pesme i zdravice. Pronađi rime za ljubav, sreća, prsten, dom i zajednička putovanja.',
              h1='Rime za svadbu',
-             lead='Svadba je jedan od najlepših dana u životu. Bilo da pišeš <strong>čestitku, pesmu ili toast</strong>, ovde ćeš pronaći rime koje će dirnuti mladence.',
+             lead='Svadba je jedan od najlepših dana u životu. Bilo da pišeš <strong>čestitku, pesmu ili zdravicu</strong>, ovde ćeš pronaći rime koje će dirnuti mladence.',
              cta_href='/?rec=svadba', cta_text='💍 Nađi rime za „svadba“ →',
              sections=[
-                 ('Ključne reči za svadbu', 'ljubav, sreća, prsten, dom, porodica, prijatelj, put, život, radost, vernost, zaverno, sadašnjost, budućnost.'),
-                 ('Kako napisati svadbeni toast?', 'Budan kratak, iskren i malo duhovit. Završi podizanjem čaše i željom za sreću mladenaca.'),
+                 ('Ključne reči za svadbu', 'ljubav, sreća, prsten, dom, porodica, prijatelj, put, život, radost, vernost, zavet, sadašnjost, budućnost.'),
+                 ('Kako napisati svadbenu zdravicu?', 'Budi kratak, iskren i malo duhovit. Završi podizanjem čaše i željom za sreću mladenaca.'),
                  ('Pesma za mladence', 'Koristi rime koje govore o zajedničkom putu, podršci i ljubavi. Izbegavaj previše slatko — iskrenost je važnija.'),
              ],
              faqs=[
                  ('Šta napisati u svadbenoj čestitci?', 'Čestitka treba da bude kratka, topla i lična. Poželi im sreću, ljubav i lep zajednički život.'),
                  ('Koje rime idu sa „ljubav“ za svadbu?', 'srce, sreća, lepota, nežnost, čežnja, radost, sigurnost, večnost, blizina, jedinstvo.'),
-                 ('Koliko treba da traje svadbeni toast?', 'Najbolje je da toast traje 1–2 minute. Dovoljno da kažeš nekoliko lepih reči, ne predugo.'),
+                 ('Koliko treba da traje svadbena zdravica?', 'Najbolje je da zdravica traje 1–2 minute. Dovoljno da kažeš nekoliko lepih reči, ne predugo.'),
              ]),
         dict(slug='rime-za-decu-o-zivotinjama',
              title='Rime za decu o životinjama — vesele dečje pesmice | Rimoteka',
@@ -1389,11 +1410,11 @@ def main():
              cta_href='/?rec=majka', cta_text='👩 Nađi rime za „majka“ →',
              sections=[
                  ('Ključne reči za roditelje', 'majka, otac, mama, tata, baka, deda, porodica, dom, ljubav, briga, zahvalnost, sećanje, detinjstvo.'),
-                 ('Pesma za majku', 'Fokusiraj se na njezinu brigu, toplinu i žrtvu. Najlepše pesme su one koje govore o konkretnim trenucima.'),
+                 ('Pesma za majku', 'Fokusiraj se na njenu brigu, toplinu i žrtvu. Najlepše pesme su one koje govore o konkretnim trenucima.'),
                  ('Pesma za oca', 'Naglasite snagu, podršku i sigurnost. Čak i kratka pesma može mnogo značiti.'),
              ],
              faqs=[
-                 ('Kako napisati dirljivu pesmu za roditelje?', 'Počni od jednog secanja ili osobine. Piši iskreno i ne boj se emocija.'),
+                 ('Kako napisati dirljivu pesmu za roditelje?', 'Počni od jednog sećanja ili osobine. Piši iskreno i ne boj se emocija.'),
                  ('Koje rime idu sa „majka“?', 'Neka rime za majka su: reka, čeka, njega, lepa, neba, svega, greha, snega.'),
                  ('Da li kratak stih može biti dovoljan?', 'Da. Ponekad je najjača poruka ona najkraća — samo nekoliko stihova punih značenja.'),
              ]),
@@ -1410,7 +1431,7 @@ def main():
              ],
              faqs=[
                  ('Koje rime idu sa „prijatelj“?', 'Neka rime za prijatelj su: smeh, dnevnik, željeznički, najbolji, srećan, vredan. Bolje je koristiti Rimoteku za sve opcije.'),
-                 ('Da li pesma mora biti ozbiljna?', 'Ne mora. Prijatelji često vole humor i zajebanciju u pesmama.'),
+                 ('Da li pesma mora biti ozbiljna?', 'Ne mora. Prijatelji često vole humor i zezanje u pesmama.'),
                  ('Kako završiti pesmu za prijatelja?', 'Završi sa željom, zahvalnošću ili unutrašnjom šalom koja je samo vaša.'),
              ]),
         dict(slug='rime-za-tugu-i-secanje',
@@ -1421,11 +1442,11 @@ def main():
              cta_href='/?rec=tuga', cta_text='🕯️ Nađi rime za „tuga“ →',
              sections=[
                  ('Ključne reči u teškim trenucima', 'tuga, bol, sećanje, oproštaj, suza, tišina, noć, san, daljina, rastanak, nedostaješ, mir, večnost.'),
-                 ('Pesma za preminulog', 'Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i secanje, a ne savršenu formu.'),
+                 ('Pesma za preminulog', 'Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i sećanje, a ne savršenu formu.'),
                  ('Pesma o rastanku', 'Dozvolite si tugu. Rastanci su deo života, a pesma može pomoći da se osećanja barem malo razbistre.'),
              ],
              faqs=[
-                 ('Kako napisati pesmu za nekog ko je preminuo?', 'Počni od jednog secanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.'),
+                 ('Kako napisati pesmu za nekog ko je preminuo?', 'Počni od jednog sećanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.'),
                  ('Koje rime idu sa „tuga“?', 'Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.'),
                  ('Da li je u redu napisati pesmu o tuzi?', 'Apsolutno. Poezija je jedan od najstarijih načina da se izraze emocije i pronađe olakšanje.'),
              ]),
@@ -1442,7 +1463,7 @@ def main():
              ],
              faqs=[
                  ('Da li moram da znam metriku da bih pisao pesme?', 'Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.'),
-                 ('Kako da znam koja rima je bolja?', 'Čista rima je jača od asonance. Rimoteka ti pokazuje kvalitet svake rime — odaberim one koje najbolje zvuče.'),
+                 ('Kako da znam koja rima je bolja?', 'Čista rima je jača od asonance. Rimoteka ti pokazuje kvalitet svake rime — odaberi one koje najbolje zvuče.'),
                  ('Odakle da počnem da pišem?', 'Počni od jedne ideje ili osećanja. Napiši prvi stih, pa potraži rimu za poslednju reč i nastavi.'),
              ]),
     ]

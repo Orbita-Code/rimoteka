@@ -553,7 +553,18 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .res-group{margin-bottom:.5rem}
 .res-group h2,.res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
-  display:flex;align-items:center;gap:.45rem;
+  /* `inline-flex`, ne `flex` — i to je bitno, nije stvar ukusa.
+     Čipovi ne stoje samo u mreži `.results`; na stranama `/rimovanje-reci/`,
+     `/rime-za-decu/` i ostalim tematskim stranama ubačeni su USRED PASUSA
+     („Evo reči za koje se rime najviše traže: …"). `display:flex` je blok, pa
+     je tamo svaki čip zauzimao ceo red i spisak od 24 reči padao je jedna
+     ispod druge, preko celog ekrana — prijava vlasnice 29.07.2026, sa slikom.
+     Uneto 28.07. u `b3bd730b2` uz popravku ikonica, i nijedna sesija to nije
+     videla jer test gleda samo čipove UNUTAR `.results`.
+     Unutar `.results` razlike nema: flex kontejner ionako „blokira" display
+     svojih stavki, pa `inline-flex` i `flex` tamo daju isti raspored. */
+  display:inline-flex;align-items:center;gap:.45rem;
+  vertical-align:middle;
   /* Prelamanje je zaštita, ne izgled: kod duge reči na uskom telefonu ikonice
      pređu u drugi red UNUTAR pilule umesto da izađu iz nje. Reč ostaje cela.
      Otkad se čipovi ređaju kao niz (v. `.results`), do prelamanja ne dolazi na

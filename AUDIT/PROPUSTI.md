@@ -417,3 +417,78 @@ pomoglo, jer je bilo zapisano kao savet a ne kao zabrana.
 > poređenje brojeva rezultata** — ni `<`, ni `!==`, ni „bar jedna manje". Meri se
 > isključivo prisustvo TE reči na spisku, pre i posle. Svaka lista u alatu je
 > negde odsečena, pa broj ne govori ništa o tome da li je reč propuštena.
+
+---
+
+## Sesija 29.07.2026 (peta) — pet prijava vlasnice, sve u istoj slepoj tački
+
+Vlasnica je u jednoj sesiji prijavila pet stvari. Test je u tom trenutku
+prolazio **332/332**. Nijednu od pet nije uhvatio. To nije slučajnost nego
+jedna te ista rupa, viđena iz tri ugla.
+
+### 1. Test je gledao samo mesta gde je alat, a ne stranu na kojoj alat stoji
+
+`.chip` je 28.07. u `b3bd730b2` prebačen sa `inline-flex` na `flex` — uz
+ispravnu popravku ikonica. Unutar `.results` razlike nema (flex kontejner
+blokira svoje stavke), pa je test bio zelen. Ali čipovi stoje i **usred pasusa**
+na `/rimovanje-reci/` i `/rime-za-decu/`, a tamo je `flex` blok: 24 reči su se
+izlistale jedna ispod druge, svaka preko cele širine. Tako je stajalo na
+produkciji **ceo dan**, a dve sesije su u međuvremenu radile na tim istim
+fajlovima.
+
+Test je proveravao `.results .chip` — nikad `.landing-lead .chip`.
+
+> **PRAVILO 25:** Kad se menja CSS pravilo za komponentu, prvo `grep` gde sve ta
+> komponenta stoji (`grep -rl 'class="chip"' public --include=*.html`), pa se
+> provera piše za **svaki** kontekst, ne samo za onaj u kome je bag popravljan.
+> Komponenta se ne testira tamo gde si je gledao, nego tamo gde živi.
+
+### 2. Osvežavanje nije bilo ni jedna provera u testu
+
+Test je otvarao strane, klikao i kucao, ali **nijednom nije pritisnuo F5 pa
+pogledao gde je ostao ekran**. Zbog toga je bag „osvežavanje ostavlja korisnika
+na futeru prazne strane" preživeo sve audite. Protokol (odeljak D, tačka 6)
+traži osvežavanje — ali kao proveru *postavki* (tema, pismo), ne kao proveru
+*položaja na strani*.
+
+> **PRAVILO 26:** Posle osvežavanja se proverava **i gde je ekran**, ne samo da
+> li su postavke preživele. Merenje je `window.scrollY`, pre i posle, sa
+> čekanjem — jer strana posle učitavanja poraste i tek tada pregledač vraća
+> stari položaj.
+
+### 3. Nijedna sesija nije pročitala šta Google zaista prikazuje
+
+Meta opis `/rimovanje-reci/` bio je ispravan i pisao je da je Rimoteka alat.
+Google ga je ignorisao i uzeo **prvu rečenicu vidljivog teksta**, koja je
+definisala pojam („rimovanje reči je traženje reči koje se zvučno poklapaju").
+U rezultatu pretrage strana je izgledala kao rečnička odrednica.
+
+Auditi su proveravali da meta opis **postoji** i da je jedinstven — nikad šta
+je stvarno u SERP-u.
+
+> **PRAVILO 27:** Prva rečenica vidljivog teksta je deo SEO-a jednako kao meta
+> opis, jer je Google često pretpostavi meta opisu. Piše se tako da sama, van
+> konteksta, kaže **šta strana radi**, a ne šta pojam znači.
+
+### 4. Šta je ovog puta išlo dobro
+
+- Obe nove provere (sekcije 22 i 23) puštene su protiv produkcije **dok je tamo
+  bio stari kod** i tamo su pale — 2/7 i 4/6. Provere valjaju.
+- Nalaz „nema legende ikonica" je **odbačen pre prijave**: legenda postoji,
+  klasa je `.res-legend`, a moj prvi upit ju je promašio jer je tražio `.legend`.
+  Da sam ga prijavio, vlasnica bi tražila popravku nečega što radi.
+- Regeneracija 1.988 strana prošla je bez ijednog duplikata (pravilo 23 radi).
+
+### 5. Sporost sesija — izmereno, pa je pola sumnji otpalo
+
+Vlasnica je prijavila da su sesije spore i pretpostavila da svaka skida rečnik
+od 19 MB. Merenje: upis 50 MB u projekat traje **0,019 s**, isto kao van
+iCloud-a; `git status` **0,108 s**. Rečnik i disk nisu krivi.
+
+Krivo je bilo: (1) `git` bez podešenog pagera — prva komanda ove sesije
+**istekla je posle 2 minuta** jer je `git log` čekao na `less`; (2) spisak
+odobrenih komandi ima 15 stavki, pa sesija stalno staje i čeka odobrenje.
+
+> **PRAVILO 28:** Svaka `git` komanda ide sa `--no-pager` (ili `| cat`). Bez
+> toga `log`, `diff`, `branch` i `show` čekaju na pager kojeg u ovom okruženju
+> nema, i troše ceo dozvoljeni rok — dva minuta po pozivu, za ništa.

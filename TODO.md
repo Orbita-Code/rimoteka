@@ -20,6 +20,39 @@
 
 ## 0. SLEDEĆE PO REDU — dogovoreno sa vlasnicom 29.07.2026
 
+### 0.0 Hub `/rime-za/` i izbor reči za strane — **ODLOŽENO NA ZAHTEV VLASNICE (29.07. uveče)**
+
+> Dva nalaza, **isti uzrok**: `AUDIT/NALAZI-OTVORENI.md` → **P10** i **P11**.
+
+**Šta je zatečeno, prebrojano u fajlovima:**
+
+| Merenje | Vrednost |
+|---|---|
+| strana reči ukupno | 1.988 |
+| od toga na slovo „a" | **1.577** (`aaa`, `aah`, `abadzija`, `abakusi`, `abazur`…) |
+| visina hub strane `/rime-za/` | 8.027 px, 1.988 linkova na jednoj strani |
+| slovo „C" | 9 strana · „E" 1 · „H" 1 |
+
+**Uzrok (`build/gen_pages.py`):** auto-dopuna do 2.000 meta-reči ide `for w in words`,
+a `words` je `reci.txt` **redom kako stoji u fajlu — abecedno**. Generator je zato
+stao na slovu „b". Uz to `rank = {w: i for i, w in enumerate(words)}` (linija 605)
+je **redni broj po abecedi**, a ne učestalost — `gen_pages.py` **nikad ne učita
+`frekvencija.json`**, iako komentar na liniji 646 tvrdi „frekvencijski rangirane".
+Živi alat (`app.js:346`) učestalost **koristi**, pa se dva rangiranja razilaze:
+`/rime-za/ljubav/` daje `neljubav, gubav, ubav…`, alat za istu reč `gubav, ubav, glibav…`.
+
+**Zašto nije urađeno odmah:** popravka izbora reči briše **1.577 postojećih adresa**.
+Ako ih je Google indeksirao, to je 1.577 novih 404-ki. Traži plan preusmerenja
+(301 ka hubu ili ka najbližoj reči), pa se ne gura u isti deploy sa popravkama bagova.
+
+**Predložen redosled kad se uzme:**
+1. `gen_pages.py` učita `frekvencija.json` i `rank` računa po učestalosti (isto kao `app.js`).
+2. Izvući spisak **postojećih** 1.988 slugova pre regeneracije → uporediti sa novim →
+   za svaki koji nestaje napisati 301 u `nginx.conf`.
+3. Hub podeliti po slovima: `/rime-za/` = 30 kartica sa slovima i brojevima,
+   spisak se seli na `/rime-za/a/`, `/rime-za/b/`… Nijedan URL strane reči se ne dira.
+4. Sitemap, GSC, pa merenje.
+
 ### 0.1 Strana `/omiljene/` umesto `/?tab=omiljene` — **ODOBRENO**
 
 Omiljene reči žive **samo na uređaju korisnika**, pa strana mora da nosi

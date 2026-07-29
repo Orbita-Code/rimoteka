@@ -6,7 +6,20 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 (posle deploy-a i tri prijave vlasnice): 2 otvorena nalaza** (bilo 64).
+**Stanje na dan 29.07.2026 uveče (posle šest prijava vlasnice): 9 otvorenih nalaza.**
+> **Popravljeno i testirano 29.07. uveče, čeka push (5):** P9 (osvežavanje ne vraća
+> na vrh), P12 (link „Početna" u redu sa autorskim pravima), P13 (čipovi u pasusu
+> jedan ispod drugog), P14 (Google prikazuje definiciju umesto opisa alata),
+> P15 (osam grešaka u vidljivom tekstu, među njima reč koja ne postoji).
+>
+> **Odloženo odlukom vlasnice (2):** P10 (strane reči birane po abecedi, 1.577 od
+> 1.988 na slovo „a") i P11 (hub `/rime-za/` je zid od 1.988 linkova) — **isti
+> uzrok**, plan u `TODO.md`, odeljak 0.0.
+>
+> **Moje, bez popravke (2):** N12 i P2.
+>
+> **Sve prijave vlasnice odnose se na stvari koje je test propuštao.** Videti
+> `PROPUSTI.md`, pravila 25–28.
 > Zatvoreno 29.07. uveče, po odlukama vlasnice:
 > · **S10** — sinonimi za „sunce" bili 13 od 19 sinonimi reči „snop"; odrednica
 >   prepisana po **Rečniku srpskoga jezika** (Matica srpska, 2011): *zvezda,
@@ -25,10 +38,17 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (2) — oba su moja, nijedno ne čeka vlasnicu
+## OTVORENO (9) — 5 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 2 moja
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
+| **P9** | **Osvežavanje ne vraća na vrh strane** — ko je na futeru i pritisne F5 ostane na futeru, a alat se u međuvremenu resetovao (polje prazno, rime nestale), pa gleda dno prazne strane. Prijava vlasnice 29.07. Izmereno na produkciji: `/rime-za/ljubav/` 1925 px → 1925 px; početna sa rimama 5163 px → 5163 px. | **POPRAVLJENO, čeka odobrenje za push.** Merenje posle popravke: 5238,5 px → **0 px**, uz „Nazad" koji i dalje pamti položaj. | `public/dark-mode-init.js` | 29.07. |
+| **P10** | **Strane reči su birane po ABECEDI, ne po učestalosti** — 1.577 od 1.988 strana su reči na „a" (`aaa`, `aah`, `abadzija`, `abakusi`, `abazur`), a nema strana za većinu običnih reči. `gen_pages.py` **nikad ne učita `frekvencija.json`**; `rank` je redni broj u `reci.txt`, a `reci.txt` je abecedni. Komentar u kodu tvrdi „frekvencijski rangirane" — netačno. Posledica i na rangiranje rima: `/rime-za/ljubav/` daje `neljubav, gubav, ubav…`, živi alat za istu reč `gubav, ubav, glibav…`. | Traži odluku vlasnice — popravka menja **1.577 URL-ova** (301 ili zadržati stare strane). | `build/gen_pages.py:605`, `:646` | 29.07. |
+| **P11** | **Hub `/rime-za/` je zid od 1.988 linkova** (8.027 px, slovo „A" nosi 1.577 njih). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. | Traži odluku vlasnice — v. P10, isti uzrok. | `build/gen_pages.py:1460–1505` | 29.07. |
+| **P13** | **Čipovi u pasusu izlistani jedan ispod drugog, preko cele širine** — spisak najtraženijih reči na `/rimovanje-reci/` (24 reči) i spisak dečjih reči na `/rime-za-decu/` (19 reči). Uzrok: 28.07. u `b3bd730b2` je `.chip` prebačen sa `inline-flex` na `flex` uz popravku ikonica; `flex` je blok, pa čip u pasusu uzima ceo red. Izmereno na produkciji: **24 čipa u 24 reda, najširi nosi 100% širine pasusa**. | **POPRAVLJENO, čeka push.** Posle popravke: 24 čipa u **5 redova**, najširi 14% pasusa. Unutar `.results` ništa se nije promenilo (svih 195 čipova i dalje visine 47 px, po 3 ikonice). | `public/style.css:555` | 29.07. |
+| **P14** | Google je kao opis `/rimovanje-reci/` prikazivao *„Rimovanje reči je traženje reči koje se na kraju zvučno poklapaju"* — definicija pojma, pa strana deluje kao rečnička odrednica, a ne kao alat. | **POPRAVLJENO, čeka push.** Prva rečenica sada glasi „…je besplatan alat za traženje rime na srpskom"; `meta description` usklađen. | `build/gen_pages.py:1173–1185` | 29.07. |
+| **P15** | **Greške u vidljivom tekstu tematskih strana**, nađene puštanjem celog teksta sajta kroz rečnik od 270.000 reči: `toast` umesto **zdravica** (7 mesta, `/rime-za-svadbu/`), `zaverno` — **reč ne postoji** (0 pogodaka u `reci.txt`), `Budan kratak` umesto „Budi kratak", `klisheeve` umesto **klišee**, `njezinu` (hrvatski) umesto **njenu**, `odaberim` umesto **odaberi**, `secanje/secanja` bez kvačice (3 mesta), `zajebanciju` → **zezanje**. | **POPRAVLJENO, čeka push.** | `build/gen_pages.py` | 29.07. |
+| **P12** | Na podstranama je u redu sa autorskim pravima stajao link **„Početna"** umesto teksta „Sva prava zadržana" — navigacija u redu sa autorskim pravima, gde joj nije mesto. | **POPRAVLJENO, čeka push.** Oba futera sada čitaju isto. Povratak na početnu i dalje postoji na dva mesta: logo u zaglavlju i traka alata. | `build/gen_pages.py:296` | 29.07. |
 | **N12** | `http://rimoteka.com` vraća **302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma (`Location` je apsolutan, a nginx ima `absolute_redirect off`). Traži pristup panelu: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. | Coolify / Traefik | 28.07. |
 | **P2** | CLS 0,045 na podstranama `/rime-za/` zbog kasne zamene Google fontova | Popravka je **primenjena** (`<link rel="preload" as="style">` na sve tri vrste strana), ali **NIJE izmerena** — mašina je u toku sesije ostala bez efemernih portova (v. `PROPUSTI.md`), pa merenje Core Web Vitals nije moglo da se izvrši. **Nalaz ostaje otvoren dok se ne izmeri.** | `public/index.html` · `build/gen_pages.py` · `public/404.html` | 29.07. |
 

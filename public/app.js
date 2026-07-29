@@ -347,11 +347,11 @@ function makeChip(word){
   el.dataset.w = word;
   const syl = syllables(word);
   el.innerHTML =
-    `<span class="word" title="klikni da kopiraš">${disp(word)}</span>` +
-    `<span class="syl" title="${syl} sloga">${syl}</span>` +
-    `<button class="mini info" title="objašnjenje reči">ⓘ</button>` +
-    `<button class="mini fav ${isFav(word)?'on':''}" title="sačuvaj u omiljene">${isFav(word)?'♥':'♡'}</button>` +
-    `<button class="mini rh" title="nađi rime za ovu reč">🔁</button>`;
+    `<span class="word" title="${uiTxt('klikni da kopiraš')}">${disp(word)}</span>` +
+    `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
+    `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${disp(word)}">ⓘ</button>` +
+    `<button class="mini fav ${isFav(word)?'on':''}" title="${uiTxt('sačuvaj u omiljene')}" aria-label="${uiTxt('sačuvaj u omiljene')}: ${disp(word)}">${isFav(word)?'♥':'♡'}</button>` +
+    `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
   wEl.addEventListener('mouseenter', () => { clearTimeout(defTimer); defTimer = setTimeout(() => showDefAt(word, wEl, false), 320); });
@@ -370,11 +370,11 @@ function renderLegend(container){
   const l = document.createElement('div');
   l.className = 'res-legend';
   l.innerHTML =
-    '<span class="legend-item"><span class="syl">2</span> broj slogova</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u24D8</span> zna\u010denje re\u010di</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u2661</span> sa\u010duvaj u \u201eOmiljene\u201c</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> na\u0111i rime za tu re\u010d</span>' +
-    '<span class="legend-item legend-tap">klikni na re\u010d da je kopira\u0161</span>';
+    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u24D8</span> ' + uiTxt('zna\u010denje re\u010di') + '</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u2661</span> ' + uiTxt('sa\u010duvaj u \u201eOmiljene\u201c') + '</span>' +
+    '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> ' + uiTxt('na\u0111i rime za tu re\u010d') + '</span>' +
+    '<span class="legend-item legend-tap">' + uiTxt('klikni na re\u010d da je kopira\u0161') + '</span>';
   container.appendChild(l);
 }
 
@@ -386,12 +386,13 @@ function renderSynonyms(container, word, syns){
   if(!syns.length) return;
   const card = document.createElement('section');
   card.className = 'syn-card';
-  const h = document.createElement('h3');
+  const h = document.createElement('h2');
   h.className = 'syn-title';
-  h.innerHTML = '<span class="syn-badge">sinonimi</span> Druge re\u010di za \u201e' + disp(word) + '\u201c';
+  h.innerHTML = '<span class="syn-badge">' + uiTxt('sinonimi') + '</span> '
+    + uiTxt('Druge re\u010di za') + ' \u201e' + disp(word) + '\u201c';
   const hint = document.createElement('p');
   hint.className = 'syn-hint';
-  hint.textContent = 'Kad rima ne odgovara po smislu \u2014 zameni re\u010d na kraju stiha i potra\u017ei rime za nju.';
+  hint.textContent = uiTxt('Kad rima ne odgovara po smislu \u2014 zameni re\u010d na kraju stiha i potra\u017ei rime za nju.');
   const wrap = document.createElement('div');
   wrap.className = 'results';
   syns.forEach(w => wrap.appendChild(makeChip(w)));
@@ -403,7 +404,7 @@ function renderSynonyms(container, word, syns){
 function renderCombo(){
   const b = el('gameComboBadge');
   if(b.__noop) return;
-  if(gameCombo >= 2){ b.hidden = false; b.textContent = '\u{1F525} ' + gameCombo + ' u nizu'; }
+  if(gameCombo >= 2){ b.hidden = false; b.textContent = '\u{1F525} ' + gameCombo + ' ' + uiTxt('u nizu'); }
   else { b.hidden = true; }
 }
 
@@ -411,7 +412,12 @@ function renderGroup(container, title, words, strong){
   if(!words.length) return;
   const g = document.createElement('div');
   g.className = 'res-group' + (strong ? ' strong-tier' : '');
-  if(title){ const h=document.createElement('h3'); h.textContent=title; g.appendChild(h); }
+  /* `h2`, ne `h3`: iznad je `h1` strane, pa bi `h3` preskočio nivo — čitač
+     ekrana tada javlja pogrešnu dubinu (nalaz N9 na statičnim stranama, N14 u
+     živom alatu). CSS pokriva oba nivoa, izgled se ne menja.
+     `uiTxt` jer naslov crta JS POSLE `applyScriptToUI`, pa ga ćirilica inače
+     nikad ne dohvati (nalaz S3). */
+  if(title){ const h=document.createElement('h2'); h.textContent=uiTxt(title); g.appendChild(h); }
   const wrap = document.createElement('div'); wrap.className='results';
   words.forEach(w => wrap.appendChild(makeChip(w)));
   g.appendChild(wrap);
@@ -457,7 +463,7 @@ function doRhymes(silent){
     }
     return;
   }
-  if(WORDS.length === 0){ if(!silent) box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
+  if(WORDS.length === 0){ if(!silent) box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>'; return; }
 
   // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
   if(!silent){
@@ -539,7 +545,7 @@ function doRhymes(silent){
   }
 
   if(!best.length && !good.length && !finalExtra.length && !loose){
-    box.innerHTML = '<p class="empty">Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod.</p>';
+    box.innerHTML = '<p class="empty">' + uiTxt('Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod.') + '</p>';
   }
   if(best.length || good.length || finalExtra.length) renderLegend(box);
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
@@ -744,7 +750,7 @@ function doSearch(){
   if(searchSyl){
     arr = searchSyl===5 ? arr.filter(w=>syllables(w)>=5) : arr.filter(w=>syllables(w)===searchSyl);
   }
-  if(!arr.length){ box.innerHTML='<p class="empty">Nema reči koje odgovaraju.</p>'; return; }
+  if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči koje odgovaraju.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
 }
 el('searchBtn').onclick = doSearch;
@@ -1021,17 +1027,31 @@ function restoreCursorPosition(pos){
 }
 
 // Analiziraj tekst i vrati mapu boja po redu
+/* Poslednja reč u stihu — sa POLOŽAJEM u izvornom tekstu.
+   Ranije se vraćao samo latinični oblik reči, pa je bojenje rima u ćiriličnoj
+   pesmi tražilo „љубав" kao „ljubav" u ćiriličnom redu, nije ga nalazilo
+   (`lastIndexOf` = -1) i nijedna rima se nije obojila (nalaz S4).
+   Zato se opseg računa nad IZVORNIM redom, a latinica služi samo za ključ rime. */
+function poslednjaRecSaMestom(line){
+  const re = /[a-zA-ZčćžšđČĆŽŠĐЀ-ӿ]+/g;
+  let m, zadnji = null;
+  while((m = re.exec(line)) !== null) zadnji = m;
+  if(!zadnji) return null;
+  return {
+    pocetak: zadnji.index,
+    kraj: zadnji.index + zadnji[0].length,
+    latinica: toLatin(zadnji[0].toLowerCase())
+  };
+}
+
 function analyzeRhymes(text){
   const lines = text.split('\n');
-  const lastWords = lines.map(line => {
-    const toks = toLatin(line.toLowerCase()).replace(/[^a-zčćžšđ\s]/g,' ').split(/\s+/).filter(Boolean);
-    return toks.length ? toks[toks.length-1] : '';
-  });
+  const lastWords = lines.map(poslednjaRecSaMestom);
   // grupiši po rhymeKey uz sonantnosnu toleranciju — savršena rima po izgovoru
   const groups = new Map();
-  lastWords.forEach((word, idx) => {
-    if(!word || word.length < 2) return;
-    const key = lenientRhymeKey(word);
+  lastWords.forEach((rec, idx) => {
+    if(!rec || rec.latinica.length < 2) return;
+    const key = lenientRhymeKey(rec.latinica);
     if(!groups.has(key)) groups.set(key, []);
     groups.get(key).push(idx);
   });
@@ -1056,15 +1076,11 @@ function renderColoredText(text){
   return lines.map((line, idx) => {
     const color = colorMap.get(idx);
     if(!color) return escapeHtml(line);
-    const word = lastWords[idx];
-    if(!word) return escapeHtml(line);
-    // nađi poslednju pojavu reči u redu
-    const lower = line.toLowerCase();
-    const pos = lower.lastIndexOf(word);
-    if(pos === -1) return escapeHtml(line);
-    const before = line.slice(0, pos);
-    const w = line.slice(pos, pos + word.length);
-    const after = line.slice(pos + word.length);
+    const rec = lastWords[idx];
+    if(!rec) return escapeHtml(line);
+    const before = line.slice(0, rec.pocetak);
+    const w = line.slice(rec.pocetak, rec.kraj);
+    const after = line.slice(rec.kraj);
     return escapeHtml(before) +
       `<span class="rhyme-word" style="color:${color};background:${color}22">${escapeHtml(w)}</span>` +
       escapeHtml(after);
@@ -1683,8 +1699,17 @@ function endDrag(){
   if(to == null || to === from || to === from + 1){ renderGutter(); return; }
   const next = lines.slice();
   const [moved] = next.splice(from, 1);
-  next.splice(to > from ? to - 1 : to, 0, moved);
+  const novoMesto = to > from ? to - 1 : to;
+  next.splice(novoMesto, 0, moved);
   setNoteText(next.join('\n'));
+  /* Kursor ide na KRAJ premeštenog stiha.
+     Ranije ga `setNoteText` nije nigde postavljao, pa je padao na sam početak
+     pesme — sledeći otkucani znak je upadao u prvi red, a korisnik gleda u
+     stih koji je upravo pomerio. */
+  let kraj = moved.length;
+  for(let i = 0; i < novoMesto; i++) kraj += next[i].length + 1;
+  noteEditor.focus();
+  setCaretAtTextPos(kraj);
   toast(uiTxt('Stih premešten'));
 }
 noteGutter.addEventListener('pointerup', endDrag);
@@ -1745,14 +1770,17 @@ function getCaretTextPos(){
   return done ? pos : null;
 }
 
-// Reč na kojoj stoji kursor, ili poslednja reč pre njega u tom redu
+/* Reč na kojoj stoji kursor, ili poslednja reč pre njega u tom redu.
+   Traži se nad IZVORNIM redom, a latinica se pravi tek od nađene reči.
+   Ranije se prvo ceo red pretvarao u latinicu pa se u njemu tražila kolona
+   kursora — a `љ`, `њ` i `џ` u latinici postaju DVA znaka, pa se svaka kolona
+   posle njih pomeri i panel je nudio rime za pogrešnu reč. */
 function getWordAtLineCol(line, col){
-  const latin = toLatin(line.toLowerCase());
-  const re = /[a-zčćžšđ]+/g;
+  const re = /[a-zA-ZčćžšđČĆŽŠĐЀ-ӿ]+/g;
   let m, best = '';
-  while((m = re.exec(latin)) !== null){
-    if(m.index <= col && col <= m.index + m[0].length) return m[0];
-    if(m.index + m[0].length <= col) best = m[0];
+  while((m = re.exec(line)) !== null){
+    if(m.index <= col && col <= m.index + m[0].length) return toLatin(m[0].toLowerCase());
+    if(m.index + m[0].length <= col) best = toLatin(m[0].toLowerCase());
     if(m.index > col) break;
   }
   return best;
@@ -1920,6 +1948,11 @@ function znakRec(n){
   if(d === 1 && dd !== 11) return 'znak';
   if(d >= 2 && d <= 4 && (dd < 12 || dd > 14)) return 'znaka';
   return 'znakova';
+}
+// „1 poen" / „2 poena" / „5 poena"
+function poenRec(n){
+  const d = n % 10, dd = n % 100;
+  return (d === 1 && dd !== 11) ? 'poen' : 'poena';
 }
 // „1 red" / „2 reda" / „5 redova"
 function redRec(n){
@@ -2113,7 +2146,7 @@ function updateFavCount(){ el('favCount').textContent = favorites.length; }
 function renderFavorites(){
   const box=el('favResults');
   box.innerHTML='';
-  if(!favorites.length){ box.innerHTML='<p class="empty">Još nemaš sačuvane reči. Klikni ♥ na bilo kojoj reči.</p>'; return; }
+  if(!favorites.length){ box.innerHTML='<p class="empty">' + uiTxt('Još nemaš sačuvane reči. Klikni ♥ na bilo kojoj reči.') + '</p>'; return; }
   renderGroup(box, `Tvoje reči (${favorites.length})`, favorites.slice(), false);
 }
 el('copyFavs').onclick = ()=>{
@@ -2131,6 +2164,13 @@ function switchTab(name){
   document.querySelectorAll('#tabs [data-tab]').forEach(b=>b.classList.toggle('active', b.dataset.tab===name));
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
+  /* Nalaz S7: igra je nastavljala da radi i posle prelaska na drugi tab —
+     odbrojavanje je teklo, zvuk je kucao, vreme je isticalo i reči su se
+     trošile dok korisnik piše pesmu. Sada se pri odlasku pauzira, a pri
+     povratku se odbrojavanje nastavlja od zaustavljene sekunde. */
+  // `try` jer se `switchTab` može pozvati i iz sigurnosne mreže, pre nego što
+  // promenljive igre postoje — pauza igre nikad ne sme da obori prebacivanje taba
+  try { if(name !== 'igra') pauzirajIgru(); else nastaviIgru(); } catch(e){}
   // Tekst o alatu ispod tabova pripada tabu „Rime" — na ostalim tabovima bi
   // pričao o pogrešnoj stvari (npr. o rimovanju dok gledaš Igru). CSS ga
   // sakriva preko ovog atributa.
@@ -2254,8 +2294,11 @@ const UI_SCRIPT_SELS = [
   // u ćirilicu prebacivala jedino ta jedna stavka.
   '#tabs a', '#tabs button', '.flabel', '.syl-filter button', '.loose-toggle', '.notepad-legend',
   '#rimeBtn', '#searchBtn', '#searchMode option', '.hint',
+  /* Ekran igre je ranije ostajao POLA latinica: uputstvo „Nađi rimu za reč:",
+     dugme „Proveri" i sve povratne poruke nisu bili u ovom spisku. */
   '.game-setup-label', '#gameStart', '#gameHandoffStart', '.game-handoff-hint',
   '#gameHandoffTitle', '.game-results-title', '#gameAgain', '.game-label',
+  '.game-instruction', '#gameSubmit', '#panel-igra .hint',
   '.landing h2', '.landing-faq summary',
   /* Prekidač za pismo menja CEO tekst strane, ne samo dugmad i rezultate.
      Ranije je hvatao samo okvir alata, pa je naslov, uvod, SEO tekst i odgovor
@@ -2265,7 +2308,7 @@ const UI_SCRIPT_SELS = [
   '.res-group', '.landing-faq details p', '.slog-table', '.syl-label',
   '.footer-desc', '.footer-keys', '.footer-rimes-label'
 ];
-const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
+const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle', 'gameInput', 'gamePlayersCustom'];
 
 /* Polja u koja se KUCA reč koja se traži. Kad je izabrana ćirilica, i ono što
    korisnik upiše prikazuje se ćirilicom — inače pola strane bude ćirilica, a
@@ -2276,13 +2319,29 @@ const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle'];
    posle „l" stoji „л", a čim stigne „j" ceo niz se pročita kao „lj" → „љ". */
 const UNOS_PO_PISMU = ['rimeInput', 'searchInput', 'gameInput'];
 
+/* ĆIRILIČNA TASTATURA + ĆIRILIČNI REŽIM — alat je kvario reč dok se kuca.
+   Prebacivanje ide kroz latinicu (ćirilica → latinica → ćirilica), a u latinici
+   su `dž`, `nj` i `lj` DIGRAFI — jedno slovo. Kad se u ćirilici д i ж samo
+   DODIRUJU a nisu digraf, povratni prolaz ih spoji:
+       „надживети" → „nadživeti" → „наџивети"
+       „инјекција" → „injekcija" → „ињекција"
+   Zato se između takva dva slova ubaci nevidljivi čuvar, koji digrafska pravila
+   razdvaja, pa se na kraju ukloni. Isti obrazac koji `convertTextNodes` koristi
+   da zaštiti skraćenice. */
+const CUVAR_DIGRAFA = '';
+function toLatinCuvano(s){
+  return toLatin(s.replace(/([дДнНлЛ])([жЖјЈ])/g, (m, a, b) => a + CUVAR_DIGRAFA + b));
+}
+function bezCuvara(s){ return s.split(CUVAR_DIGRAFA).join(''); }
+
 function prebaciUnos(inp){
   if(!inp || inp.__noop || !inp.value) return;
   const fn = script === 'cyr' ? toCyr : toLatin;
-  const novo = fn(toLatin(inp.value));
+  const novo = bezCuvara(fn(toLatinCuvano(inp.value)));
   if(novo === inp.value) return;
   const kraj = inp.selectionStart == null || inp.selectionStart === inp.value.length;
-  const poz = kraj ? novo.length : fn(toLatin(inp.value.slice(0, inp.selectionStart))).length;
+  const poz = kraj ? novo.length
+                   : bezCuvara(fn(toLatinCuvano(inp.value.slice(0, inp.selectionStart)))).length;
   inp.value = novo;
   try { inp.setSelectionRange(poz, poz); } catch(e){}
 }
@@ -2333,7 +2392,7 @@ function toast(msg){
   toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
 }
 function copy(text){
-  navigator.clipboard?.writeText(text).then(()=>toast(`kopirano: ${text}`)).catch(()=>toast('kopirano'));
+  navigator.clipboard?.writeText(text).then(()=>toast(`${uiTxt('kopirano')}: ${text}`)).catch(()=>toast(uiTxt('kopirano')));
 }
 
 /* ====================== DEFINICIJE (Викиречник) ====================== */
@@ -3122,11 +3181,11 @@ function showHandoff(){
   const sub   = document.getElementById('gameHandoffSub');
   const broj  = gameCurrentPlayerIdx + 1;
   if(badge) badge.textContent = broj;
-  if(title) title.textContent = `Vreme je za igrača ${broj}`;
+  if(title) title.textContent = `${uiTxt('Vreme je za igrača')} ${broj}`;
   if(sub){
     const pret = gamePlayersData[gameCurrentPlayerIdx - 1];
     sub.textContent = pret
-      ? `Igrač ${gameCurrentPlayerIdx} je osvojio ${pret.score} ${pret.score === 1 ? 'poen' : 'poena'} (${pret.correct} od ${gameWordsPerPlayer} tačno).`
+      ? `${uiTxt('Igrač')} ${gameCurrentPlayerIdx} ${uiTxt('je osvojio')} ${pret.score} ${uiTxt(poenRec(pret.score))} (${pret.correct} ${uiTxt('od')} ${gameWordsPerPlayer} ${uiTxt('tačno')}).`
       : '';
   }
   if(gamePlay) gamePlay.style.display = 'none';
@@ -3197,12 +3256,28 @@ function nextWord(){
   gameWordEl.textContent = '...';
 }
 
-function startTimer(){
+/* Pauza igre pri odlasku na drugi tab (nalaz S7).
+   `igraPauzirana` pamti da je odbrojavanje ZAUSTAVLJENO, a ne završeno — pa se
+   pri povratku nastavlja od preostalih sekundi umesto da počne iznova ili da
+   reč propadne. */
+let igraPauzirana = false;
+function odbrojavanjeTece(){
+  return !!gameTimer && gamePlay && gamePlay.style.display !== 'none';
+}
+function pauzirajIgru(){
+  if(!odbrojavanjeTece()) return;
   clearInterval(gameTimer);
-  gameTimeLeft = gameTimePerWord;
-  gameTimerEl.textContent = gameTimeLeft;
-  gameTimerEl.classList.remove('low');
+  gameTimer = null;
+  igraPauzirana = true;
+}
+function nastaviIgru(){
+  if(!igraPauzirana) return;
+  igraPauzirana = false;
+  if(gameTimeLeft > 0) pokreniOdbrojavanje();
+}
 
+function pokreniOdbrojavanje(){
+  clearInterval(gameTimer);
   gameTimer = setInterval(() => {
     gameTimeLeft--;
     gameTimerEl.textContent = gameTimeLeft;
@@ -3212,13 +3287,22 @@ function startTimer(){
     }
     if(gameTimeLeft <= 0){
       clearInterval(gameTimer);
+      gameTimer = null;
       timeUp();
     }
   }, 1000);
 }
 
+function startTimer(){
+  igraPauzirana = false;
+  gameTimeLeft = gameTimePerWord;
+  gameTimerEl.textContent = gameTimeLeft;
+  gameTimerEl.classList.remove('low');
+  pokreniOdbrojavanje();
+}
+
 function timeUp(){
-  gameFeedback.textContent = `⏰ Vreme isteklo! Rima za "${disp(gameCurrentWord)}" nije uneta.`;
+  gameFeedback.textContent = `⏰ ${uiTxt('Vreme isteklo! Rima za')} „${disp(gameCurrentWord)}" ${uiTxt('nije uneta.')}`;
   gameFeedback.className = 'game-feedback wrong';
   gamePlayersData[gameCurrentPlayerIdx].wrong++;
   gamePlayersData[gameCurrentPlayerIdx].streak = 0;
@@ -3232,17 +3316,17 @@ function timeUp(){
 function checkGameAnswer(){
   const answer = toLatin(gameInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
   if(!answer || answer.length < 2){
-    gameFeedback.textContent = 'Upiši rimu (bar 2 slova)';
+    gameFeedback.textContent = uiTxt('Upiši rimu (bar 2 slova)');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
   if(answer === gameCurrentWord){
-    gameFeedback.textContent = 'To je ista reč — probaj drugu';
+    gameFeedback.textContent = uiTxt('To je ista reč — probaj drugu');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
   if(!SET.has(answer)){
-    gameFeedback.textContent = 'Ta reč nije u rečniku — probaj drugu';
+    gameFeedback.textContent = uiTxt('Ta reč nije u rečniku — probaj drugu');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
@@ -3267,7 +3351,7 @@ function checkGameAnswer(){
     player.streak++;
     if(player.streak > player.bestStreak) player.bestStreak = player.streak;
 
-    gameFeedback.textContent = `✓ Tačno! +${points} poena (${gameTimeLeft}s + ${gameCombo}x combo)`;
+    gameFeedback.textContent = `✓ ${uiTxt('Tačno!')} +${points} ${uiTxt(poenRec(points))} (${gameTimeLeft}s + ${gameCombo}x ${uiTxt('niz')})`;
     gameFeedback.className = 'game-feedback correct';
 
     playCorrect();
@@ -3279,7 +3363,7 @@ function checkGameAnswer(){
     gameCombo = 0;
     renderCombo();
   renderCombo();
-    gameFeedback.textContent = `✗ "${disp(answer)}" se ne rimuje sa "${disp(gameCurrentWord)}"`;
+    gameFeedback.textContent = `✗ „${disp(answer)}" ${uiTxt('se ne rimuje sa')} „${disp(gameCurrentWord)}"`;
     gameFeedback.className = 'game-feedback wrong';
     playWrong();
     gameWordEl.style.animation = 'shake 0.5s';

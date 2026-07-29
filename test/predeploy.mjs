@@ -164,7 +164,9 @@ async function main() {
       document.getElementById('rimeInput').value = 'ljubav';
       document.getElementById('rimeBtn').click();
       await w(900);
-      return [...document.getElementById('rimeResults').querySelectorAll('h3')].map(e => e.textContent.trim());
+      // naslovi grupa su `h2` otkad je popravljen preskočeni nivo (N9/N14);
+      // `h3` ostaje u selektoru da provera radi i na starom kodu
+      return [...document.getElementById('rimeResults').querySelectorAll('h2, h3')].map(e => e.textContent.trim());
     });
     ok('grupa „Sinonimi" se prikazuje u rezultatima', sinGrupa.some(g => /Sinonimi/i.test(g)), sinGrupa.join(' / '));
 
@@ -565,7 +567,7 @@ async function main() {
       const box = document.getElementById('rimeResults');
       const grupe = {};
       box.querySelectorAll('.res-group').forEach(g => {
-        const h = g.querySelector('h3'); if (!h) return;
+        const h = g.querySelector('h2, h3'); if (!h) return;
         grupe[h.textContent.trim()] = [...g.querySelectorAll('.word')].map(e => e.textContent.trim());
       });
       const najbolje = grupe['Najbolje rime'] || [];
@@ -847,7 +849,7 @@ async function main() {
       await w(1000);
       const box = document.getElementById('rimeResults');
       const reci = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
-      const grupe = [...box.querySelectorAll('h3')].map(e => e.textContent.trim());
+      const grupe = [...box.querySelectorAll('h2, h3')].map(e => e.textContent.trim());
       // filter po slogovima
       const f = document.querySelector('#rimeSyl button[data-syl="2"]');
       if (f) f.click();
@@ -1600,6 +1602,91 @@ async function main() {
       });
       ok('spoljni poziv za objašnjenje ima rok', tekst !== 'VISI ZAUVEK', tekst);
       await p16e.close();
+    }
+
+    console.log('\n17) ĆIRILICA — kucanje, naslovi, legenda, sinonimi, igra, bojenje (S3, S4, N14)');
+    /* Sve provere iz ove sekcije puštene su protiv produkcije dok je tamo bio
+       stari kod — svih deset je palo, uključujući „надживети" → „наџивети". */
+    {
+      const p17 = await browser.newPage();
+      await p17.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p17.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p17.click('#scriptToggle button[data-script="cyr"]');
+      await pauza(500);
+
+      // ćirilična tastatura: д+ж i н+ј nisu digrafi i ne smeju da se spoje
+      for (const [unos, ocekivano] of [['надживети', 'надживети'], ['инјекција', 'инјекција']]) {
+        await p17.fill('#rimeInput', '');
+        await p17.type('#rimeInput', unos, { delay: 20 });
+        await pauza(300);
+        const u = await p17.inputValue('#rimeInput');
+        ok(`ćirilica: kucanje „${unos}" ne kvari reč`, u === ocekivano, `dobijeno „${u}"`);
+      }
+
+      await p17.fill('#rimeInput', '');
+      await p17.type('#rimeInput', 'нада', { delay: 20 });
+      await p17.click('#rimeBtn');
+      await pauza(1200);
+      const r17 = await p17.evaluate(() => ({
+        h3: document.querySelectorAll('#rimeResults h3').length,
+        h2: [...document.querySelectorAll('#rimeResults h2')].map(h => h.textContent.trim()),
+        legenda: (document.querySelector('.res-legend')?.textContent || '').trim(),
+      }));
+      ok('N14 grupe rima su h2 (ne preskaču nivo posle h1)', r17.h3 === 0 && r17.h2.length > 0,
+         `h3=${r17.h3} h2=${r17.h2.length}`);
+      ok('S3 naslov grupe rima prelazi u ćirilicu',
+         /[А-Яа-яЂђЈјЉљЊњЋћЏџШш]/.test(r17.h2[0] || ''), r17.h2[0]);
+      ok('S3 legenda prelazi u ćirilicu', /број слогова/i.test(r17.legenda), r17.legenda.slice(0, 60));
+
+      await p17.fill('#rimeInput', '');
+      await p17.type('#rimeInput', 'љубав', { delay: 20 });
+      await p17.click('#rimeBtn');
+      await pauza(1400);
+      const syn = await p17.evaluate(() => (document.querySelector('.syn-title')?.textContent || '').trim());
+      ok('S3 kartica sinonima prelazi u ćirilicu', /синоними/i.test(syn), syn.slice(0, 60));
+
+      await p17.click('#tabs [data-tab="igra"]');
+      await pauza(500);
+      const igra = await p17.evaluate(() => ({
+        uputstvo: (document.querySelector('.game-instruction')?.textContent || '').trim(),
+        proveri: (document.getElementById('gameSubmit')?.textContent || '').trim(),
+      }));
+      ok('ekran igre nije pola latinica — uputstvo', /Нађи риму/i.test(igra.uputstvo), igra.uputstvo);
+      ok('ekran igre nije pola latinica — dugme „Провери"', /Провери/i.test(igra.proveri), igra.proveri);
+
+      // S4: bojenje rima mora da radi i kad je pesma ćirilicom
+      await p17.click('#tabs [data-tab="beleznica"]');
+      await pauza(400);
+      await p17.evaluate(() => { document.getElementById('noteEditor').innerHTML = ''; });
+      await p17.click('#noteEditor');
+      await p17.keyboard.type('Пада киша\nЈа сам тиша');
+      await pauza(1500);
+      const obojeno = await p17.evaluate(() => document.querySelectorAll('#noteEditor .rhyme-word').length);
+      ok('S4 rime u ćiriličnoj pesmi se boje', obojeno >= 2, `obojenih reči: ${obojeno}`);
+      await p17.close();
+    }
+
+    console.log('\n17b) IGRA STAJE KAD ODEŠ NA DRUGI TAB (S7)');
+    {
+      const p17b = await browser.newPage();
+      await p17b.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p17b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p17b.click('#tabs [data-tab="igra"]');
+      await pauza(400);
+      await p17b.click('#gameStart');
+      await pauza(1200);
+      const t1 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
+      await p17b.click('#tabs [data-tab="rime"]');
+      await pauza(4000);
+      const t2 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
+      ok('S7 odbrojavanje STOJI dok si na drugom tabu', t1 === t2,
+         `pre=${t1}, posle 4 s na drugom tabu=${t2}`);
+      // i nastavlja kad se vratiš
+      await p17b.click('#tabs [data-tab="igra"]');
+      await pauza(2500);
+      const t3 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
+      ok('S7 odbrojavanje se NASTAVLJA po povratku', Number(t3) < Number(t2), `${t2} → ${t3}`);
+      await p17b.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

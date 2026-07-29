@@ -88,6 +88,13 @@ kako treba.
 3. Svaka izmena rasporeda je **vidljiva promena** → pokazati vlasnici pre push-a.
 4. Ne pretvarati ovo u redizajn celog sajta. Beležnica na telefonu, pa ostali tabovi.
 
+**ŠTA NIJE IZMERENO — ne prijavljivati kao pokriveno:** merena je **samo beležnica**
+na telefonu. Ostalih šest tabova (rime, rečnik, slogovi, klasici, igra, omiljene)
+**nisu** provereni na 390 px. Vlasnica je rekla „ceo sajt je jeziv", a ja sam
+izmerio jedan tab — dakle njena prijava je **šira od mog nalaza**. Prvi korak
+zadatka 0 posle M1: proći **svih sedam tabova** na 390/360/320 px, u obe teme, sa
+sadržajem (ne prazne), i tek onda tvrditi da se zna koliko je posla.
+
 ### 1. N12 — `http://` vraća 307/302 umesto 301  *(15 minuta, traži vlasnicu)*
 
 Preusmerenje radi **Traefik u Coolify-ju**, ne naš nginx — Traefik odgovara pre

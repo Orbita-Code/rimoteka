@@ -7,7 +7,9 @@
 
 # Sesija 29. jul 2026 (peta) — ŠEST PRIJAVA VLASNICE, jedan pad sajta, sve deployovano
 
-> **SVE JE NA PRODUKCIJI.** `main` = `82f4859c5`. Test protiv produkcije: **344/344**.
+> **SVE JE NA PRODUKCIJI.** Test protiv produkcije: **344/344**.
+> **Odeljak 10 na dnu je dopisan na kraju sesije — tu su mobilni nalazi (M1–M4)
+> i konačno stanje. Brojke u odeljcima 1–9 su od pre toga.**
 > Sesija je trajala od popodneva do večeri. Sajt je jednom pao **~3 minuta** mojom
 > krivicom i odmah vraćen — ceo slučaj je opisan niže, ne prećutan.
 
@@ -244,6 +246,121 @@ sesija ga samo `grep`-uje.
    SEO na **79% svih strana**, ne kozmetika.
 3. **Audit je zakazan za 31.07.2026** — prvo izmeriti P16 (CLS na `/`) više puta,
    pošto je nalaz zatvoren sa rasponom a ne sa jednim brojem.
+
+
+---
+
+## 10. NASTAVAK SESIJE POSLE PRVOG HANDOVERA — mobilni, i šta je ostalo nedovršeno
+
+> Ovaj odeljak je dopisan na kraju. Prvih devet delova je napisano ranije, pa se
+> brojke u njima odnose na **stanje pre** ovoga.
+
+### 10.1 Vlasnica je otvorila sajt na telefonu — četiri nova nalaza (M1–M4)
+
+Prijava: *„jeziv je… beležnica posebno nikakve veze sa vezom nema, niti boji rime
+niti izlaze rime sa strane na kliknutu reč."*
+
+Izmereno na produkciji, **iPhone 13 kontekst sa dodirom** — ne prepisano iz opisa:
+
+| # | Nalaz | Merenje |
+|---|---|---|
+| **M1** | beležnica **ne boji rime** | **0 obojenih elemenata i 0 klasa** u editoru na **1440, 768 i 390 px** — dakle **nije mobilni bag nego opšti** |
+| **M2** | editor počinje na `x = 80` od 390 px | kolona slogova (`.gutter`, `flex:0 0 4.4rem`) pojede **20% ekrana**, za pisanje ostane **292 px** |
+| **M3** | editor je **ispod pregiba** | `y = 713 px` na ekranu visine **664 px** |
+| **M4** | tri elementa izlaze van ekrana na 390 px | link →502 px, dugme →638 px, `#favCount` →620 px; traka beži do **248 px** desno |
+
+**Jedna stvar u prijavi NIJE se potvrdila:** panel rima na dodir reči u pesmi
+**radi** — dodir na „srcu" daje **33 rime**, panel 390×226 px. Verovatno deluje kao
+da ne radi zato što se, uz sve ostalo pokvareno, ne primeti.
+
+**Za M1 postoji trag, ne popravka.** Kod postoji i izgleda ispravno:
+`analyzeRhymes` (`app.js:1218`) boji grupe od 2+ rime, poziva se iz
+`scheduleEditorUpdate` (`app.js:1288`) sa zadrškom od 500 ms. Reprodukcija sa
+pesmom u kojoj se „lek" i „vek" rimuju daje **nulu**.
+> **Prva sumnja za sledeću sesiju:** da li `getEditorText()` vraća prelome redova
+> onako kako ih `contenteditable` stvarno pravi (`<div>`, `<br>`). Ako ne, ceo tekst
+> je **jedan red**, poslednja reč je samo jedna, i grupa rime ne može ni da nastane.
+
+### 10.2 ŠTA NIJE IZMERENO — ne prijavljivati kao pokriveno
+
+Merena je **samo beležnica**. Ostalih **šest tabova** (rime, rečnik, slogovi,
+klasici, igra, omiljene) **nisu** provereni na 390 px. Vlasnica je rekla „ceo sajt
+je jeziv" — **njena prijava je šira od mog nalaza.** Prvi korak sledeće sesije posle
+M1: proći **svih sedam tabova** na 390/360/320 px, u obe teme, sa sadržajem.
+
+### 10.3 N12 — pokušan, NIJE zatvoren
+
+Vlasnica je rekla da je ulogovana na Coolify i da mogu sam da otvorim panel. Tab
+kojim upravljam (`claude-in-chrome`) **dva puta je pokazao stranu za prijavu** —
+kolačić se ne deli, znači prijava je u **drugom Chrome profilu ili prozoru**.
+Lozinku nisam uneo (pravilo koje se ne krši).
+
+> **Sledeća sesija:** traži od vlasnice da se prijavi **baš u onom prozoru u kome je
+> Claude-ov tab**, pa nastavi. Alternativa: `ssh root@88.198.218.69` i oznake
+> Traefika direktno na kontejneru — ali to je zaobilaženje panela i nosi rizik.
+
+### 10.4 Šta je urađeno da sesije budu brže
+
+Nov fajl **`.claude/settings.json`** (u repozitorijumu, ne lični):
+- `GIT_PAGER=cat` i `PAGER=cat` — u **projektu**, ne u globalnom `git config`, pa se
+  ostali projekti ne diraju. Rešava uzrok zbog kog je prva komanda ove sesije
+  **istekla posle 2 minuta**.
+- **31 dozvoljena komanda**, sve samo-za-čitanje ili već propisane projektom.
+  Ništa što briše ili menja fajlove nije u spisku.
+- **Važi od sledeće sesije.**
+
+### 10.5 Izmena na mašini vlasnice
+
+`brew install nginx` — verzija **1.31.3, ista kao produkcija**. Instaliran isključivo
+da bi `test/nginx-provera.sh` mogla da diže pravi nginx i meri ponašanje po `Host`
+zaglavlju. **Nije pokrenut kao servis** (`brew services` nije diran).
+
+### 10.6 Prompt za sledeću sesiju
+
+`AUDIT/PROMPT-ZA-SLEDECU-SESIJU.md` je prepisan u celini. Sedam zadataka, redom:
+
+| # | Zadatak | Napomena |
+|---|---|---|
+| **0** | **mobilni + beležnica (M1–M4)** | **najviši prioritet**; unutar njega prvo M1 |
+| 1 | N12 | kratko, čeka prijavu na Coolify |
+| 2 | `frekvencija.json` | **preduslov za 3** — fajl je i sam pogrešan |
+| 3 | P10 + P11 | traži odobrenje za 1.577 URL-ova |
+| 4 | `/omiljene/` | već odobreno |
+| 5 | audit 31.07. | prvo izmeriti P16 desetak puta |
+| 6 | ostatak `TODO.md` | odeljci 1–8 |
+
+**Zašto 2 ide pre 3:** `frekvencija.json` je pogrešno izvučen (vrednosti
+**prepisivane umesto sabirane**: `voda` = 876, `veliki` = 34, `dva` = 9,
+`hiljada` nema uopšte). Da je P10 krenuo prvi, izabrao bi 2.000 „najčešćih" reči po
+brojevima u kojima `dva` ima frekvenciju 9 — i napravio gori problem od onog koji
+rešava.
+
+### 10.7 Predložen prioritet, sa obrazloženjem
+
+1. **M1** — kod postoji i ne radi; alat **obećava** nešto što ne isporučuje, a to je
+   po pravilu projekta teže od kvara koji se vidi. Pogađa i telefon i kompjuter.
+2. **M2–M4 + puna mobilna provera** — `CLAUDE.md` 2.1 kaže „mobile-first: većina
+   korisnika dolazi sa telefona". Zatečeno stanje krši sopstveno pravilo projekta.
+3. **`frekvencija.json`** — rangiranje rima je delimično pogrešno svuda.
+4. **P10 + P11** — promašen SEO na 79% strana; velik posao, ali nikoga ne boli dok
+   koristi alat.
+5. N12, `/omiljene/`, audit.
+
+> **Zašto beležnica pre SEO-a:** P10 donosi posetioce koji nas još nemaju; M1 i M2
+> gube ljude koji su **već došli**. Uz to je beležnica naša razlika u odnosu na
+> konkurenciju — ako je baš ona najslabija na telefonu, prednost postoji na papiru.
+
+### 10.8 Konačno stanje sesije
+
+| Stavka | Vrednost |
+|---|---|
+| `main` | sve pushovano, radno stablo čisto |
+| Test | **344/344** lokalno i protiv produkcije |
+| Produkcija | glavna **200**, `www` **301**, strane reči **200** |
+| Zatvoreno u sesiji | **8 nalaza** |
+| Otvoreno | **7** — M1, M2, M3, M4 (mobilni), P10, P11 (odloženi), N12 (Coolify) |
+| Nov alat | `test/nginx-provera.sh`, `.claude/settings.json` |
+| Pad sajta | jednom, ~3 minuta, vraćen u prvom minutu (v. odeljak 3.1) |
 
 ---
 

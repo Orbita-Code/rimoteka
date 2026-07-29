@@ -9,19 +9,40 @@
 
 | | |
 |---|---|
-| **Otvorenih nalaza iz audita** | **4** (0 kritičnih) → `AUDIT/NALAZI-OTVORENI.md` |
-| Sve popravljeno je **na produkciji** | `main` = `046494be4`, deployovano 29.07. uveče |
+| **Otvorenih nalaza iz audita** | **7** → `AUDIT/NALAZI-OTVORENI.md` — od toga **4 mobilna (M1–M4)** |
+| Sve popravljeno je **na produkciji** | deployovano 29.07. uveče; test protiv produkcije **344/344** |
 | Ocena poslednjeg audita | **6,9 / 10** (nova se računa u auditu 31.07.) |
 | Sledeći audit | **31.07.2026** |
-| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila 25–28 su iz ove sesije |
+| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **25–34** su iz ove sesije |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
 
-**Zatvoreno 29.07. uveče (5 nalaza, sve prijave vlasnice):** P9 osvežavanje vraća na
-vrh · P12 futer izjednačen · P13 čipovi u pasusu · P14 opis u Google rezultatima ·
-P15 osam grešaka u vidljivom tekstu. Test podignut sa **323 na 338** provera.
+**Zatvoreno 29.07. uveče (8 nalaza):** P9 osvežavanje vraća na vrh · P12 futer
+izjednačen · P13 čipovi u pasusu · P14 opis u Google rezultatima · P15 osam grešaka
+u vidljivom tekstu · P16 strana više ne skače dok se učitava (CLS 0,2853 → 0,0065) ·
+P2 CLS na `/rime-za/` izmeren · N17 `www` sada 301.
+Test podignut sa **323 na 344** provere.
 
-**Ostaje otvoreno (4):** P10 i P11 (hub i izbor reči — odeljak 0.0 ispod, odloženo
-odlukom vlasnice), N12 (302 umesto 301, traži Coolify), P2 (CLS nije izmeren).
+> **Sajt je 29.07. bio oboren ~3 minuta** pogrešnom izmenom `nginx.conf` i vraćen u
+> prvom minutu. Od tada `nginx.conf` ne ide na produkciju bez
+> `bash test/nginx-provera.sh` — v. `CLAUDE.md`, odeljak **9a-1**.
+
+**Ostaje otvoreno (7):**
+- **M1–M4 (mobilni) — NAJVIŠI PRIORITET.** Beležnica ne boji rime **ni na jednoj
+  širini** (M1), editor počinje na x=80 od 390 px (M2), editor je ispod pregiba
+  (M3), tri elementa izlaze do 248 px van ekrana (M4). Prijava vlasnice 29.07,
+  sve izmereno na produkciji u iPhone 13 kontekstu.
+  **Merena je samo beležnica — ostalih šest tabova nije provereno na telefonu.**
+- **P10 i P11** — hub i izbor reči, odeljak 0.0 ispod, odloženo odlukom vlasnice.
+  **Preduslov: popraviti `frekvencija.json`** (`TODO-RECNIK.md`, odeljak „HITNO") —
+  fajl je i sam pogrešan, pa bi P10 po njemu izabrao pogrešnih 2.000 reči.
+- **N12** — 302 umesto 301, traži prijavu na Coolify u istom prozoru gde je
+  Claude-ov tab.
+
+**Zatvoren merenjem: P2** — CLS na `/rime-za/` je **0,0003** (bilo 0,045); popravka
+iz ranije sesije jeste radila, samo nikad nije bila izmerena.
+
+**Redosled rada je u `AUDIT/PROMPT-ZA-SLEDECU-SESIJU.md`** — sedam zadataka, mobilni
+je zadatak 0.
 
 ---
 

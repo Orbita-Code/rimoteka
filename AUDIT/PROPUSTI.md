@@ -380,3 +380,40 @@ nikad **lepio**. A ljudi pesmu gotovo uvek nalepe.
 > kucanjem i lepljenjem — i to lepljenjem **višerednog** teksta. Kucanje i
 > lepljenje idu kroz različit kod, pa jedno ne dokazuje ništa o drugom. Isto
 > važi za parove: klik / `Enter`, miš / tastatura, prvi dolazak / povratnik.
+
+### 6. Generator strana pokrenut dok je server držao folder — 524 foldera-duplikata
+
+`gen_pages.py` briše `public/rime-za/` pre pisanja. Pokrenuo sam ga dok je
+`test/static-server.mjs` još držao taj folder. Brisanje je puklo na pola, macOS
+je napravio **524 foldera-duplikata** (`acamovic 2`, `aceci 2`…) i pojeo prave.
+
+Ništa nije izgubljeno jer je sve bilo u gitu, ali je otišlo petnaest minuta — i
+to najviše na pokušaju da se duplikati premeste u **Kantu preko Findera**, kako
+nalaže globalno pravilo o trajnom brisanju. `osascript` je istekao **pet puta
+zaredom**, i sa svih 524 odjednom i u grupama po 25. Prošlo je tek običnim
+premeštanjem u folder van projekta.
+
+> **PRAVILO 23:** Pre `gen_pages.py` uvek
+> `pkill -f "static-server.mjs"; pkill -f "http.server"; sleep 2`, pa POSLE
+> generisanja `ls public/rime-za/ | grep -c " 2$"` — mora biti 0. Zaštita u
+> generatoru sprečava pola posla, ali ne sprečava duplikate koje napravi sistem.
+>
+> **PRAVILO 24:** Kanta preko Findera je nepouzdana za mnogo stavki. Pravilo
+> „nikad trajni `rm` na korisničkim fajlovima" se poštuje **premeštanjem** u
+> imenovani folder van projekta (`shutil.move`) — to je jednako povratno, a ne
+> zavisi od toga da li Finder odgovara. Vlasnici se kaže gde su premešteni.
+
+### 7. Provera je opet merila BROJ rezultata umesto same reči
+
+Provera dečjeg režima po osnovi pala je na **ispravnom** kodu: „dupetu" jeste
+nestalo (`pre=true, posle=false`), ali je zbir ostao `180 → 180` jer je lista
+odsečena na 90 po grupi, pa sledeća reč popuni upražnjeno mesto.
+
+Ovo je **drugi put** da isti obrazac obori proveru — prvi put 29.07. ujutru, kod
+odblokiranih reči („krvava" za „zdrava"). Pravilo 18 je već postojalo i nije
+pomoglo, jer je bilo zapisano kao savet a ne kao zabrana.
+
+> **PRAVILO 18 (prepisano, jače):** U proveri filtriranja se **ne sme pojaviti
+> poređenje brojeva rezultata** — ni `<`, ni `!==`, ni „bar jedna manje". Meri se
+> isključivo prisustvo TE reči na spisku, pre i posle. Svaka lista u alatu je
+> negde odsečena, pa broj ne govori ništa o tome da li je reč propuštena.

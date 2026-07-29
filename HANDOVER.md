@@ -4,6 +4,127 @@
 
 ---
 
+# Sesija 29. jul 2026 (četvrta) — DEPLOY 60 NALAZA + tri prijave vlasnice
+
+> **SVE JE NA PRODUKCIJI.** `main` = `61e0d6be3`. Test protiv produkcije: **323/323**.
+
+## Najvažnije što ova sesija otkrila
+
+**Prethodna sesija je popravila 60 nalaza i nijedan nije bio pushovan.**
+Stajali su na lokalnoj grani `fix/audit-grupa1` dok je produkcija vrtela kod od
+28.07. — sa svim bagovima i dalje živim (0 rima u privatnom režimu, 10,3 s do
+prve rime na 4G, `/rime-za/mama/` = 404, `/rime-za/` = 403, 222 strane bez
+ijednog internog linka). Vlasnica je mislila da je sve odavno gotovo.
+
+> **Pravilo koje iz toga sledi:** na početku svake sesije proveriti
+> `git log --oneline origin/main..HEAD` i uporediti oznaku novog koda sa
+> produkcijom (`curl -s https://rimoteka.com/app.js | grep <nova-funkcija>`).
+> „Popravljeno" i „na produkciji" nisu ista stvar i razlika se ne vidi iz
+> `git log`-a.
+
+## Stanje
+
+| Stavka | Vrednost |
+|---|---|
+| Grana | sve mergovano u `main`, pushovano |
+| Poslednji commit | `61e0d6be3` |
+| `?v=` | `20260729d` u OBA fajla (`public/index.html`, `build/gen_pages.py`) |
+| Test lokalno | **323/323** |
+| Test protiv produkcije | **323/323** (izlazni kod 0) |
+| Otvorenih nalaza | **2** (bilo 64 pre dve sesije) |
+| Strane | 1.988 strana reči + hub, sitemap 2.011 URL-ova |
+
+## Šta je urađeno u ovoj sesiji
+
+| # | Šta | Gde |
+|---|---|---|
+| — | **Deploy 60 nalaza** prethodne sesije na produkciju | `main` |
+| — | 4 provere sa **izmišljenim očekivanjima** koje su blokirale deploy | `test/predeploy.mjs` |
+| S10 | sinonimi za „sunce" bili 13 od 19 sinonimi reči **„snop"** → cela odrednica poništena po odluci vlasnice; fajl uz to smanjen sa 2.128.533 na **1.954.041 bajta** | `public/sinonimi.json` |
+| P3 | **beležnica sada prati pismo** — pri prebacivanju, pri kucanju i posle F5, u oba smera | `app.js` (`prebaciBelesku`, `uPismo`) |
+| P4 | **srpski raspored tastature** u ćirilici: `; ' [ ] \` → `ч ћ ш ђ ж`; drugi pritisak `'` vraća apostrof | `app.js` (`SR_TASTERI`) |
+| P5 | uputstvo **„Како се куцају српска слова"** — vidi se samo u ćirilici, na svih 1.989 strana | `index.html`, `gen_pages.py`, `style.css` |
+| P6 | **lepljenje pesme gutalo je prelome redova** — pesma od 4 stiha postajala JEDAN red | `app.js` (rukovalac `paste`) |
+| P7 | latinica → ćirilica spajala `d+ž` i `n+j` i tamo gde nisu digraf („nadživeti" → *наџивети*) | `app.js` (`LAT_NE_DIGRAF`) |
+| P8 | **ikonice u čipovima bežale u drugi red** kod dužih reči i razvlačile cele vrste | `style.css` (`.results`, `.chip`) |
+| — | prekinuto preuzimanje rečnika pri odlasku sa strane više se ne prijavljuje kao kvar | `app.js` (`seIzlazi`) |
+
+## Drugi krug iste sesije — odluke vlasnice, primenjene
+
+| Šta | Odluka i ishod |
+|---|---|
+| **Sinonimi za „sunce"** | Bilo 13 od 19 sinonimi reči **„snop"**. Vlasnica: poništiti sve i proveriti u Rečniku Matice srpske. Skinut pun tekst Rečnika (17,4 MB) i **trajno sačuvan u `~/Literatura/`** — v. „Gde je sada rečnik". Odrednica „сунце": 1б „централна **звезда**…", 3 „**светлост и топлота**…". Upisano: `zvezda, svetlost, toplota`. |
+| **„rat" u dečjem režimu** | Vlasnica: *„deca čak i igraju igre rata, to uopšte nije strašna reč"*. Izbačeni `rat, ratovi, ratni, ratnik, ratnici, ratovanje` iz `KIDS_BLOCKED`. |
+| **K3 ostatak** | Vlasnica: vulgarne reči u padežima („dupetu", „incestu") izbaciti iz dečjeg režima, **ali ih ne brisati iz rečnika**. Uvedeno blokiranje po **osnovi** (`KIDS_STEMS`, 16 osnova, svaka provereno da ne hvata nevinu reč). Reči ostaju u `reci.txt`. |
+| **`/omiljene/`** | Odobreno, **nije urađeno** — podstrane nemaju panele, pa je to nov tip strane. Plan u `TODO.md`, odeljak 0.1. |
+| **`/slogovi/`** | Ostaje kako jeste. Obrazloženje u `TODO.md`, odeljak 0.3. |
+| **Logo** | Ne mogu da crtam slike. Spisak verzija koje treba naručiti u `TODO.md`, odeljak 0.2. Nalaz P1 se time zatvara sam. |
+
+## Gde je sada Rečnik Matice srpske
+
+`/Users/jovana.jovic/Literatura/recnik-matice-srpske-2011.txt` (17,4 MB, ćirilicom)
+uz `README.md` sa uputstvom za pretragu. **Van svih repozitorijuma namerno.**
+Sledeća sesija ga NE skida ponovo. Traži se regularnim izrazom
+`\n\s*<reč ćirilicom>\s+[смжн]\b` — rod iza reči odvaja pravu odrednicu od
+pominjanja unutar tuđih definicija.
+
+## NEZGODA koju treba znati
+
+`gen_pages.py` je pokrenut dok je `test/static-server.mjs` još držao
+`public/rime-za/`. Brisanje foldera je puklo na pola i macOS je napravio **524
+foldera-duplikata** (`acamovic 2`, `aceci 2`…), a prave pojeo.
+
+**Ništa nije izgubljeno** — sve je bilo u gitu (`git checkout -- public/rime-za/`
+vratio je svih 1.988). Duplikati su **premešteni, ne obrisani**, u
+`~/Desktop/rimoteka-duplikati-29.07.2026` — vlasnica ih briše kad hoće.
+
+> **Pravilo:** pre `python3 build/gen_pages.py` uvek
+> `pkill -f "static-server.mjs"; pkill -f "http.server"; sleep 2`, pa posle
+> generisanja proveriti `ls public/rime-za/ | grep -c " 2$"` — mora biti 0.
+> Kanta preko Findera **ne radi pouzdano** (`osascript` je istekao pet puta
+> zaredom, i u grupama po 25) — koristiti premeštanje van projekta.
+
+## Šta ostaje otvoreno (2) + 1 koje čeka vlasnicu
+
+| # | Šta | Ko odlučuje |
+|---|---|---|
+| **N12** | `http://` vraća 302 umesto 301 — radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma | moje; traži Coolify panel |
+| **P2** | CLS 0,045 — popravka primenjena, **nije izmerena** | moje; merenje |
+| **K3** ostatak | dečji režim propušta vulgarne reči kroz padeže (284 oblika kod 75 reči) | **vlasnica** — `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`, odeljci 2–4 |
+| **P1** | logo 292 KB na 46×46 px | **vlasnica** — pravilo 8a |
+| **S10** ostatak | **koje reči jesu pravi sinonimi za „sunce"** — traži Rečnik Matice srpske | **vlasnica** |
+
+## Predlozi koje je vlasnica postavila, čekaju odgovor
+
+1. **`/omiljene/` kao prava strana sa `noindex`** umesto `/?tab=omiljene`.
+   Omiljene žive samo na uređaju, pa indeksirana strana bi za svakog bila
+   prazna — ali lepa, deljiva adresa je izvodljiva bez SEO štete.
+2. **`/slogovi/` NE preimenovati** u `/brojac-slogova-i-karaktera/`. Ključna reč
+   je već u adresi i u `<title>`-u, a promena košta 301 i ponovno indeksiranje.
+   Rast na tom upitu traži sadržaj na strani, ne dužu adresu.
+
+## Zamke za sledeću sesiju
+
+**Provere sa izmišljenim očekivanjima.** Četiri su bile upisane iz glave
+(`sunce`→`srce`, `nebo`→`rebro`, dečji režim na reči „mrak") i padale na
+ispravnom kodu. Svako očekivanje u testu MORA prvo da se izmeri u alatu.
+
+**Dve mere dužine u beležnici.** `getEditorText()` broji prelom reda kao znak,
+a `saveCursorPosition`/`restoreCursorPosition` ne broje. Ko ih pomeša, dobija
+kursor koji odskače za tačno broj redova — nikad se ne vidi u jednom redu.
+
+**Poruke pregledača se razlikuju lokalno i na produkciji.** Provera 404 strane
+hvatala je „404 (Not Found)" (lokalni server), a nginx šalje „404 ()". Prolazila
+lokalno, padala na produkciji.
+
+**S4 (bojenje ćirilične pesme) je bio nestabilan** — pao jednom protiv
+produkcije, izolovano radio. Sada čeka na ishod umesto na fiksnih 1,5 s.
+
+**Test u pravom pregledaču traje 6–8 minuta.** Vlasnica primećuje kad se ćuti.
+Reći unapred koliko traje i zašto se pušta više puta.
+
+---
+
 # Sesija 29. jul 2026 (treća) — POPRAVKE: GRUPE 2–8, zatvoreno 60 od 64 nalaza
 
 > **NIŠTA NIJE PUSHOVANO.** Sve stoji na grani `fix/audit-grupa1`, pet novih commit-a.

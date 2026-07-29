@@ -5,15 +5,71 @@
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026 (uveče)
 
 | | |
 |---|---|
-| **Otvorenih nalaza iz audita** | **72** (6 kritičnih, 7 visokih) → `AUDIT/NALAZI-OTVORENI.md` |
-| Ocena poslednjeg audita | **6,9 / 10** |
+| **Otvorenih nalaza iz audita** | **2** (0 kritičnih) → `AUDIT/NALAZI-OTVORENI.md` |
+| Sve popravljeno je **na produkciji** | `main` = deployovano, test protiv produkcije prolazi |
+| Ocena poslednjeg audita | **6,9 / 10** (nova se računa u auditu 31.07.) |
 | Sledeći audit | **31.07.2026** |
 | Zašto propusti | `AUDIT/PROPUSTI.md` |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
+
+---
+
+## 0. SLEDEĆE PO REDU — dogovoreno sa vlasnicom 29.07.2026
+
+### 0.1 Strana `/omiljene/` umesto `/?tab=omiljene` — **ODOBRENO**
+
+Omiljene reči žive **samo na uređaju korisnika**, pa strana mora da nosi
+`<meta name="robots" content="noindex,follow">` i **ne sme u sitemap** — inače bi
+Google indeksirao stranu koja je za svakog posetioca prazna.
+
+**Zašto nije urađeno odmah:** podstrane (`/klasici/`, `/slogovi/`…) **nemaju
+panele uopšte** — svaka je zasebna strana sa jednim ugrađenim alatom, a ne kopija
+početne. Znači ovo nije preimenovanje nego **nov tip strane**, i nije se smelo
+gurati u isti deploy sa svim ostalim.
+
+Koraci:
+1. U `build/gen_pages.py`, po uzoru na hub stranu (`/rime-za/`), napraviti
+   `/omiljene/` sa `noindex` i **bez** upisa u `sitemap_entries`.
+2. Telo strane: prazan okvir u koji `renderFavorites()` upiše spisak iz
+   `localStorage`, plus poruka kad je prazno („Još nemaš omiljenih reči…").
+3. U `public/app.js` promeniti `TAB_URL_FALLBACK.omiljene` sa `/?tab=omiljene`
+   na `/omiljene/`, a dugme u `index.html` u `<a href="/omiljene/">` (ostaje
+   `data-tab="omiljene"`, `tabHref()` sam pokupi `href`).
+4. `Disallow: /*?tab=` u `robots.txt` može da ostane.
+5. Provera u `test/predeploy.mjs`: `/omiljene/` vraća 200, ima `noindex`, **nije**
+   u sitemapu, i „Nazad" iz omiljenih vraća na prethodni tab.
+
+### 0.2 Verzije logotipa — **TRAŽI ALAT ZA CRTANJE, ne mogu ja**
+
+Vlasnica: logo je pravljen u alatu tipa *nano banana*; treba više verzija, jer
+kad neko stavlja link ka Rimoteci na svoj sajt, mora da ima šta da uzme.
+
+**Šta tačno treba naručiti:**
+
+| Verzija | Za šta služi | Format |
+|---|---|---|
+| **A — samo „R" sa lupom** | favicon, avatar, aplikacija, mali prostori | SVG + PNG 512, 192, 48 |
+| **B — „R" + „imoteka"** | zaglavlje sajta, potpis, tuđi sajtovi | SVG + PNG 1200×630 (OG), 600, 300 |
+| **C — jednobojna** (crna i bela) | štampa, tamne podloge, sponzorske trake | SVG |
+
+Uz to: **prozirna pozadina**, isti font (**Fredoka**), i strana `/logo/` ili
+`/za-medije/` odakle se sve skida (dobra i za link building).
+
+> **Vezano za nalaz P1:** `logo-icon.png` je sada **292 KB, 512×512**, a prikazuje se
+> na **46×46 px** — na 4G zauzme vezu ~5 s i gura rečnik na kraj reda. To NIJE
+> greška u dizajnu logotipa nego samo u veličini fajla. Kad stigne verzija A u
+> pravim veličinama, P1 se zatvara sam. Do tada logo ostaje netaknut (pravilo 8a).
+
+### 0.3 `/slogovi/` se NE preimenuje — **odlučeno**
+
+Razmatrano `/brojac-slogova-i-karaktera/`. Odbačeno: ključna reč je već u adresi,
+`<title>` i `<h1>` nose pun izraz („Brojanje slogova i karaktera"), a promena URL-a
+košta 301 i ponovno indeksiranje. Rast na tom upitu traži **sadržaj na strani**
+(pitanja i odgovori „koliko slogova ima reč…", tabela primera), ne dužu adresu.
 
 **PRAVILO REDOSLEDA: prvo se popravljaju bagovi, pa se onda gradi novo.**
 Inovacije iz odeljka A ispod **ne počinju** dok kritični nalazi nisu zatvoreni.

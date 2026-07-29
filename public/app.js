@@ -153,7 +153,7 @@ const KIDS_BLOCKED = new Set([
   // seksualne
   'seks','seksualan','seksualnost','erotika','erotičan','pornografija','pornografski','orgazam','orgazmičan','masturbacija','masturbirati','prostitucija','prostituirati','bordel','bordeli','kurva','kurve','kurvati','jebačina','jebačine','jebački','jebačkima','sperma','spermijum','vagina','vagine','vaginalan','penis','penisi','penisalan','klitoris','klitorisi','testis','testisi','skrotum','skrotumi','anus','anusi','analni','fela','felacija','felacije','kondom','kondomi','kontracepcija','kontraceptiv','abortus','abortirati','abortirano','silovanje','silovati','silovano','nasilje','nasilnik','nasilnici','pedofilija','pedofil','pedofili','incest','incestalan','bestijalnost','bestijalan','nekrofilija','nekrofil','nekrofili',
   // nasilne / psihološki teške
-  'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','rat','ratovi','ratni','ratnik','ratnici','ratovanje','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno'
+  'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno'
 ]);
 
 /* Kontekstualna isključenja: za određenu reč NE prikazuj određene rime (semantika, a ne vulgarnost) */
@@ -164,9 +164,34 @@ const RHYME_EXCLUSIONS = {
    Nikad se ne menja, pa je bezbedno deliti ga. */
 const EMPTY_SET = new Set();
 
+/* OSNOVE ZA DEČJI REŽIM — odluka vlasnice 29.07.2026.
+   Tačan oblik nije dovoljan: lista je hvatala „dupe" ali ne i „dupetu", pa je
+   dete koje traži rimu za „krevetu" dobijalo „dupetu", a za „protestu" —
+   „incestu" na 2. mestu od 20. Izmereno: 284 propuštena oblika kod 75 reči.
+   Zato se u dečjem režimu gleda i POČETAK reči.
+
+   Svaka osnova je pre upisa PROVERENA nad celim rečnikom (278.083 reči) da ne
+   hvata nijednu nevinu reč — spisak i brojevi u `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`.
+   Osnove koje su odbačene baš zato što hvataju nevine reči, i NE SMEJU se
+   dodati: `silov` (silovit), `seks` (sekstet), `kond` (kondenzacija),
+   `pisa` (pisac, pisati), `kura` (kurator), `pice` (picerija), `sere`
+   (serenada), `dubr` (Dubravka), `granat` (granat — dragi kamen), `krvav`
+   (krvavica), `mrš` (mršav), `gad` (Gadafi), `materin` (materinji jezik).
+   Nova osnova se dodaje TEK pošto se proveri nad rečnikom. Nikad „po analogiji".
+
+   Reč „rat" i njena porodica (ratovi, ratni, ratnik, ratnici, ratovanje) su
+   svesno IZBAČENE iz dečjeg režima: deca se igraju rata i reč im nije strana. */
+const KIDS_STEMS = [
+  'anus','penis','vagin','klitoris','testis','skrotum','masturb',
+  'pornograf','prostitu','bordel','incest','pedofil','abortu','erot',
+  'sperm','dupe'
+];
+
 // Provera da li je reč neprikladna za decu
 function isKidsBlocked(w){
-  return KIDS_BLOCKED.has(w);
+  if(KIDS_BLOCKED.has(w)) return true;
+  for(const osn of KIDS_STEMS){ if(w.startsWith(osn)) return true; }
+  return false;
 }
 
 /* ====================== Lingvistika ====================== */

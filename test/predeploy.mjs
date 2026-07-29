@@ -1701,7 +1701,14 @@ async function main() {
       await p17.evaluate(() => { document.getElementById('noteEditor').innerHTML = ''; });
       await p17.click('#noteEditor');
       await p17.keyboard.type('Пада киша\nЈа сам тиша');
-      await pauza(1500);
+      /* Bojenje ide na odloženo iscrtavanje (500 ms) i traži učitan rečnik, pa
+         fiksno čekanje od 1,5 s protiv PRODUKCIJE ume da promaši — pao je
+         jednom 29.07.2026, a izolovano na istom sajtu radio. Fiksno čekanje se
+         zato menja čekanjem na sam ishod: provera i dalje pada ako bojenja
+         nema, ali više ne prijavljuje kvar tamo gde je uzrok bio sporija mreža. */
+      await p17.waitForFunction(
+        () => document.querySelectorAll('#noteEditor .rhyme-word').length >= 2,
+        { timeout: 15000 }).catch(() => {});
       const obojeno = await p17.evaluate(() => document.querySelectorAll('#noteEditor .rhyme-word').length);
       ok('S4 rime u ćiriličnoj pesmi se boje', obojeno >= 2, `obojenih reči: ${obojeno}`);
       await p17.close();
@@ -2059,17 +2066,35 @@ async function main() {
          izmereno: 119 → 118, nestaje tačno „rat". (Isto važi za „sat" i „vrat".)
          PRAVILO 18 iz PROPUSTI.md: dozvoljenost reči se meri na najkraćem putu,
          a ne preko rangiranja — zato se dole poredi SPISAK, ne samo broj. */
-      const bezDecjeg = await broj('brat');
+      const bezDecjeg = await broj('krevetu');
       const imaRat = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
       await p20b.check('#kidsToggle');
       await pauza(1000);
       const saDecjim = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
-      ok('dečji režim izbacuje bar jednu reč iz rezultata',
-         saDecjim.length < bezDecjeg && imaRat.includes('rat') && !saDecjim.includes('rat'),
-         `${bezDecjeg} → ${saDecjim.length}, „rat" pre=${imaRat.includes('rat')} posle=${saDecjim.includes('rat')}`);
-      const proslo = saDecjim.some(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w));
-      ok('dečji režim ne propušta „rat/mrtav/pakao/đavo"', !proslo,
-         saDecjim.filter(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w)).join(', '));
+      /* NE poredi se BROJ rezultata: lista je odsečena (90 po grupi), pa čim
+         jedna reč ispadne, sledeća po redu popuni njeno mesto i zbir ostane
+         isti — 180 → 180. Prva verzija ove provere je baš tako pala na
+         ISPRAVNOM kodu. Pravilo 18 iz PROPUSTI.md: dozvoljenost reči se meri
+         na najkraćem putu, ne preko rangiranja i odsecanja. Zato se gleda samo
+         da li je TA reč nestala sa spiska. */
+      ok('dečji režim izbacuje reč u PADEŽU („krevetu" → „dupetu")',
+         imaRat.includes('dupetu') && !saDecjim.includes('dupetu'),
+         `${bezDecjeg} → ${saDecjim.length}, „dupetu" pre=${imaRat.includes('dupetu')} posle=${saDecjim.includes('dupetu')}`);
+      /* Odluka vlasnice 29.07.2026: „rat" i porodica NISU više blokirani —
+         deca se igraju rata i reč im nije strana. Provera to čuva, da se ne
+         vrati tiho pri sledećoj izmeni liste. */
+      const ratOstaje = await p20b.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.getElementById('rimeInput').value = 'brat';
+        document.getElementById('rimeBtn').click();
+        await w(1200);
+        return [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim());
+      });
+      ok('dečji režim NE blokira „rat" (odluka vlasnice)', ratOstaje.includes('rat'),
+         `rime za „brat": ${ratOstaje.slice(0, 6).join(', ')}`);
+      const proslo = saDecjim.some(w => ['mrtav', 'pakao', 'đavo', 'incestu', 'dupetom'].includes(w));
+      ok('dečji režim ne propušta „mrtav/pakao/đavo" ni njihove padeže', !proslo,
+         saDecjim.filter(w => ['mrtav', 'pakao', 'đavo', 'incestu', 'dupetom'].includes(w)).join(', '));
       await p20b.uncheck('#kidsToggle');
       await p20b.close();
     }
@@ -2251,8 +2276,16 @@ async function main() {
         .then(r => r.json()).catch(() => null);
       ok('sinonimi.json se učitava i ima preko 13.000 odrednica',
          syn && Object.keys(syn).length > 13000, syn ? `${Object.keys(syn).length}` : 'nije učitan');
+      /* Odrednica je prepisana po Rečniku srpskoga jezika (Matica srpska, 2011),
+         odrednica „сунце": 1б „централна ЗВЕЗДА неког другог космичког
+         планетног система", 3 „СВЕТЛОСТ и ТОПЛОТА што их испушта то небеско
+         тело". Ranije je stajalo 13 sinonima reči „snop". */
       ok('„sunce" više NEMA tuđe sinonime („plast", „stog", „bala")',
-         syn && !syn['sunce'], syn && syn['sunce'] ? syn['sunce'].slice(0, 4).join(', ') : '—');
+         syn && syn['sunce'] && !syn['sunce'].some(x => ['plast','stog','bala','babura','svežanj'].includes(x)),
+         syn && syn['sunce'] ? syn['sunce'].join(', ') : 'nema odrednice');
+      ok('„sunce" ima sinonime po Rečniku Matice srpske (zvezda, svetlost, toplota)',
+         syn && syn['sunce'] && ['zvezda','svetlost','toplota'].every(x => syn['sunce'].includes(x)),
+         syn && syn['sunce'] ? syn['sunce'].join(', ') : 'nema odrednice');
       await p20h.goto(BASE + '/?rec=sunce', { waitUntil: 'domcontentloaded' });
       await p20h.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       await pauza(1800);

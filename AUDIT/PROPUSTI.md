@@ -562,3 +562,39 @@ konfiguraciji umesto na kodu.
 Provera posle deploy-a **jeste** pokrenuta i **jeste** uhvatila kvar u prvom
 minutu, pa je vraćanje bilo brzo. Da sam se zaustavio na „www sada vraća 301,
 gotovo", sajt bi stajao oboren dok ga vlasnica ne primeti.
+
+### 5. Proglasio sam CLS popravljenim na osnovu dva srećna merenja
+
+Posle popravke izmerio sam `/` dva puta, dobio 0,0065 oba puta i u izveštaju
+napisao da je nalaz zatvoren. Pun test protiv produkcije zatim je vratio
+**0,3207** i pao.
+
+Ponovljeno merenje, 13 pokretanja: **11 puta 0,0065, dva puta ~0,30.** Oba loša
+pala su u minut kad se Coolify kontejner restartovao posle deploy-a — tada CSS
+nakratko stigne sporo pa se strana iscrta neuređena. Pod usporenim procesorom
+(4×) i sporom mrežom nije se ponovilo nijednom u 11 pokušaja.
+
+Dve pouke, i druga je važnija:
+
+1. **Merenje nije provera dok se ne ponovi.** Dva ista broja nisu dokaz
+   stabilnosti; treći pokušaj je bio taj koji je rekao istinu.
+2. **Ne meri se u minutu posle deploy-a.** Kontejner se tada diže, a merenje
+   hvata prelazno stanje i prijavljuje ga kao osobinu sajta.
+
+> **PRAVILO 32:** Merenja koja variraju (CLS, LCP, INP, vreme odziva) idu u test
+> kao **najbolje od tri pokušaja**, a u izveštaj sa **rasponom**, ne sa jednim
+> brojem. Jedan loš pokušaj ne obara deploy; tri loša znače da je kvar stvaran.
+
+> **PRAVILO 33:** Posle deploy-a se sačeka da se kontejner smiri pa se onda
+> meri. Provera ISPRAVNOSTI (radi li sajt) ide odmah; provera BRZINE tek posle.
+
+### 6. Ista greška u mom testu koju bih prijavio kao bag
+
+`addInitScript` je stajao **unutar petlje** nad istom stranom. Skripte se
+gomilaju, pa bi druga strana dobila dva posmatrača i CLS brojala **dvostruko** —
+provera bi padala na ispravnom kodu. Nije stiglo da napravi štetu jer je prva
+strana pala pre nje, ali je bilo tu.
+
+> **PRAVILO 34:** Svako merenje u testu dobija **svoj kontekst pregledača**.
+> Deljena strana nosi zaostalo stanje — nakupljene init skripte, keš fontova,
+> `localStorage` — i to se vidi tek kad rezultat počne da laže.

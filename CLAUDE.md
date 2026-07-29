@@ -298,6 +298,37 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
 
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 
+### 9a-1. `nginx.conf` — POSEBAN TEST, OBAVEZAN (29.07.2026.)
+
+> Sajt je 29.07.2026. bio oboren ~3 minuta zbog jedne izmene u `nginx.conf`.
+> Sintaksa je bila savršeno ispravna. Ponašanje nije.
+
+```bash
+bash test/nginx-provera.sh    # traži: brew install nginx
+```
+
+**`nginx.conf` se NE deployuje bez izlaznog koda 0 iz ove skripte.**
+Ona diže **pravi nginx** i meri šta se dešava po `Host` zaglavlju:
+
+| Host | mora | zašto |
+|---|---|---|
+| `rimoteka.com` | 200 | sajt radi |
+| `www.rimoteka.com` | 301 na tačno odredište | jedna adresa, sa putanjom i upitom |
+| **`nepoznato.test`** | **200, ne 301** | **baš ovaj red hvata grešku od 29.07.** |
+| `localhost` | 200 | zdravstvena provera Coolify-ja |
+
+**Šta se tada desilo:** dodat je blok `server { server_name www.rimoteka.com; return 301 …; }`
+**ispred** glavnog. U nginx-u `server_name _` **nije hvatalica za sve domene** — `_` je
+namerno nevažeće ime koje se nikad ne poklopi sa `Host` zaglavljem; taj blok hvata sve
+samo dok je **podrazumevani**, a podrazumevani je prvi blok na portu. Novi blok je
+postao podrazumevani i preusmeravao je i `rimoteka.com` na samog sebe.
+
+Zato glavni blok sada ima izričito **`listen 80 default_server;`** — i to se ne briše.
+
+**Pravilo šire od nginx-a:** izmene koje mogu da obore ceo sajt (`nginx.conf`,
+`Dockerfile`, CSP, preusmerenja) idu **same, u zasebnom deploy-u**, i odmah posle
+deploy-a se proverava **glavna adresa**, ne samo ono što je menjano.
+
 ---
 
 ## 9b. AUDIT — NA SVAKA 3 DANA (OBAVEZNO)

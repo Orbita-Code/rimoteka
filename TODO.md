@@ -9,7 +9,7 @@
 
 | | |
 |---|---|
-| **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (P10, P11 — odloženi odlukom vlasnice; N12 — Coolify) |
+| **Otvorenih nalaza** | **2** → `AUDIT/NALAZI-OTVORENI.md` (P10, P11 — odloženi odlukom vlasnice) |
 | **M1–M4 (mobilni) — ZATVORENI** | beležnica boji rime i na telefonu (uzrok: `<div>` po redu), gutter 45 px, editor iznad pregiba, traka tabova ima znak da se pomera. **Čeka push.** Detalji: `HANDOVER.md`, sesija 29.07. (šesta) |
 | **Novo: A4 „nikad ne izgubi pesmu"** | istorija 3 verzije + spas iz istorije + upozorenje kad skladište ne radi. Čeka push. |
 | Sve popravljeno iz pete sesije je **na produkciji** | deployovano 29.07. uveče; test protiv produkcije **344/344** |
@@ -28,7 +28,7 @@ Test podignut sa **323 na 344** provere.
 > prvom minutu. Od tada `nginx.conf` ne ide na produkciju bez
 > `bash test/nginx-provera.sh` — v. `CLAUDE.md`, odeljak **9a-1**.
 
-**Ostaje otvoreno (3):**
+**Ostaje otvoreno (2):**
 - **M1–M4 (mobilni) — ZATVORENI u šestoj sesiji (29.07. kasno uveče), čeka push.**
   Uzrok M1 je bio dublji od izgleda: mobilni pregledači na Enter prave `<div>`
   po redu, `getEditorText()` je znao samo `<br>` — pa se pesma lepila u jedan
@@ -36,8 +36,8 @@ Test podignut sa **323 na 344** provere.
 - **P10 i P11** — hub i izbor reči, odeljak 0.0 ispod, odloženo odlukom vlasnice.
   **Preduslov: popraviti `frekvencija.json`** (`TODO-RECNIK.md`, odeljak „HITNO") —
   fajl je i sam pogrešan, pa bi P10 po njemu izabrao pogrešnih 2.000 reči.
-- **N12** — 302 umesto 301, traži prijavu na Coolify u istom prozoru gde je
-  Claude-ov tab.
+- ~~**N12**~~ — **ZATVORENO 29.07. kasno uveče:** http sada vraća **301** (Traefik
+  `rimoteka-301.yaml` na serveru, `redirectScheme permanent: true`).
 
 **Zatvoren merenjem: P2** — CLS na `/rime-za/` je **0,0003** (bilo 0,045); popravka
 iz ranije sesije jeste radila, samo nikad nije bila izmerena.

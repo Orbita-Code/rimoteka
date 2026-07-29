@@ -2612,6 +2612,10 @@ async function main() {
       for (const [odakle, dokle] of [
         ['https://www.rimoteka.com/', 'https://rimoteka.com/'],
         ['https://www.rimoteka.com/rime-za/ljubav/', 'https://rimoteka.com/rime-za/ljubav/'],
+        // N12: Traefik-ov redirect-to-https je bio bez permanent flag-a (302 GET /
+        // 307 HEAD). Sada `rimoteka-301.yaml` u Traefik dynamic config-u daje 301.
+        ['http://rimoteka.com/', 'https://rimoteka.com/'],
+        ['http://rimoteka.com/rime-za/ljubav/', 'https://rimoteka.com/rime-za/ljubav/'],
       ]) {
         const r = await proveriPreusmerenje(odakle);
         ok(`${odakle} → 301 (trajno)`, r.status === 301, `dobijeno ${r.status}`);

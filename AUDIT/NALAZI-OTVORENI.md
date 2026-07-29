@@ -6,7 +6,13 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 kasno uveče (šesta sesija): 3 otvorena nalaza** (P10, P11 — odložena odlukom vlasnice; N12 — traži Coolify).
+**Stanje na dan 29.07.2026 kasno uveče (šesta sesija): 2 otvorena nalaza** (P10, P11 — odložena odlukom vlasnice).
+> **N12 — ZATVOREN 29.07. kasno uveče.** Uzrok: Traefik-ov `redirect-to-https`
+> middleware nije imao `permanent` flag (302 za GET, 307 za HEAD), a oznake se
+> regenerišu pri svakom deploy-u. Rešenje: `rimoteka-301.yaml` u Traefik dynamic
+> config-u na serveru (host-ograničen, `priority: 9999`, `redirectScheme
+> permanent: true`). Izmereno: GET → **301** (koren, putanja sa upitom, www),
+> HEAD → 308, https 200. Provere dodate u sekciju 25 testa.
 > **M1–M4 (mobilni) i A4 — NA PRODUKCIJI.** Deployovano 29.07. kasno uveče
 > (`e233a165d`); test protiv produkcije **358/358**, sekcija 26 prolazi uživo.
 > Detalji: `HANDOVER.md`, sesija 29.07. (šesta) — uključujući iCloud incident
@@ -14,9 +20,6 @@
 > **Odloženo odlukom vlasnice (2):** P10 (strane reči birane po abecedi, 1.577 od
 > 1.988 na slovo „a") i P11 (hub `/rime-za/` je zid od 1.988 linkova) — **isti
 > uzrok**, plan u `TODO.md`, odeljak 0.0.
->
-> **Moje, bez popravke (1):** N12 (302 umesto 301) — jedino što traži prijavu na
-> Coolify panel; Traefik odgovara pre našeg nginx-a, pa se iz repozitorijuma ne može.
 >
 > **Zatvoreno merenjem:** **P2** (CLS na `/rime-za/`) — popravka preload-a fonta iz
 > prethodne sesije **jeste radila**, samo nikad nije bila izmerena: `/rime-za/ljubav/`
@@ -42,13 +45,12 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (3) — 2 odložena odlukom vlasnice, 1 traži Coolify
+## OTVORENO (2) — oba odložena odlukom vlasnice
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
 | **P10** | **Strane reči su birane po ABECEDI, ne po učestalosti** — 1.577 od 1.988 strana su reči na „a" (`aaa`, `aah`, `abadzija`, `abakusi`, `abazur`), a nema strana za većinu običnih reči. `gen_pages.py` **nikad ne učita `frekvencija.json`**; `rank` je redni broj u `reci.txt`, a `reci.txt` je abecedni. Komentar u kodu tvrdi „frekvencijski rangirane" — netačno. Posledica i na rangiranje rima: `/rime-za/ljubav/` daje `neljubav, gubav, ubav…`, živi alat za istu reč `gubav, ubav, glibav…`. | Traži odluku vlasnice — popravka menja **1.577 URL-ova** (301 ili zadržati stare strane). | `build/gen_pages.py:605`, `:646` | 29.07. |
 | **P11** | **Hub `/rime-za/` je zid od 1.988 linkova** (8.027 px, slovo „A" nosi 1.577 njih). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. | Traži odluku vlasnice — v. P10, isti uzrok. | `build/gen_pages.py:1460–1505` | 29.07. |
-| **N12** | `http://rimoteka.com` vraća **307/302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma. Traži prijavu na panel: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. **29.07. otvoren panel — čeka prijavu vlasnice.** Nije rešivo iz nginx-a jer Traefik odgovara pre njega. | Coolify / Traefik | 28.07. |
 
 ---
 

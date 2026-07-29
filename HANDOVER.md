@@ -120,6 +120,31 @@ uključena. Efekat: `git add` sa 15+ minuta → **2 sekunde**.
 **Pravilo za sve naredne sesije: putanja projekta je `/Users/jovana.jovic/
 Projects/rimoteka`.**
 
+## 8. N12 zatvoren — http sada vraća 301 (preko SSH, bez panela)
+
+**Uzrok (izmereno):** Coolify-ov `redirect-to-https` middleware nema `permanent`
+flag, pa Traefik vraća **302 za GET i 307 za HEAD** (Traefik redirectScheme:
+permanent=false → 302/307, permanent=true → 301/308). Oznake na kontejneru
+generiše Coolify pri svakom deploy-u, pa se ručna izmena oznaka ne održava.
+Coolify panel je nedostupan (profil u automatizovanom pregledaču nema sesiju;
+vidljiv prozor se ruši na ovoj mašini).
+
+**Rešenje:** novi fajl `/data/coolify/proxy/dynamic/rimoteka-301.yaml` na
+serveru — Traefik dynamic file provider, host-ograničen (`rimoteka.com` +
+`www.rimoteka.com`), `priority: 9999` (pobeđuje podrazumevani router),
+`redirectScheme permanent: true`, `service: noop@internal`. Traefik ga učitava
+vruće, bez restarta i bez diranja Coolify-ja. **Uklanjanje = obrisati fajl** i
+sve se vraća na staro. Ne dira druge sajtove na serveru.
+
+**Izmereno posle:** GET → **301** (koren, putanja sa upitom očuvanim, www);
+HEAD → 308 (Traefik-ovo očuvanje metode uz permanent — jedini permanent par koji
+Traefik nudi); https 200. Provere dodate u sekciju 25 testa (4 nove).
+
+**Napomena za budućnost:** ako se ikada uđe u Coolify panel, isto se postiže
+nativno kroz Domains podešavanja; ovaj fajl tada može da se obriše (ili ostane —
+ne smeta). Kad bi Coolify reprovizionovao ceo proxy direktorijum, fajl bi nestao
+i N12 bi se vratio — provera u sekciji 25 to hvata.
+
 ---
 
 # Sesija 29. jul 2026 (peta) — ŠEST PRIJAVA VLASNICE, jedan pad sajta, sve deployovano

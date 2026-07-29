@@ -12,7 +12,7 @@ Radiš na projektu Rimoteka: `/Users/jovana.jovic/Projects/rimoteka`
 1. `HANDOVER.md` — **samo prvi odeljak** („Sesija 29. jul 2026 (šesta)"). Tu su
    mobilne popravke (M1–M4), lekcija o `contain:inline-size`, spisak vidljivih
    promena za odobrenje i šta je svesno nedirano.
-2. `AUDIT/NALAZI-OTVORENI.md` — **3 otvorena nalaza** (P10, P11, N12), izvor istine.
+2. `AUDIT/NALAZI-OTVORENI.md` — **2 otvorena nalaza** (P10, P11), izvor istine.
 3. `AUDIT/PROPUSTI.md` — pravila **35–36** su najsvežija (skrolujući red i
    `contain:inline-size`; `contenteditable` se testira sa `<br>` I `<div>` redovima).
 4. `CLAUDE.md` projekta — odeljak **8a** (logo se ne dira), **9a** (obavezan test),
@@ -44,21 +44,14 @@ menja URL-ove. **Push/merge i brisanje grana — uvek uz odobrenje.**
 Mobilna verzija (M1–M4) + A4 + čišćenje + `docs/`. Ne raditi ponovo; provere su
 sekcija 26 u `test/predeploy.mjs`.
 
-### 1. Push šeste sesije + provera produkcije
+### 1. ZATVORENO — push šeste sesije je na produkciji (test 358/358) i N12 je rešen
 
-Spisak vidljivih promena: `HANDOVER.md`, sesija 29.07. (šesta), odeljak 6.
-Posle push-a: `BASE=https://rimoteka.com node test/predeploy.mjs` — sekcija 26
-mora da PROĐE (dok je stari kod bila je obavezno padala).
+N12 rešenje: `rimoteka-301.yaml` u `/data/coolify/proxy/dynamic/` na serveru
+(SSH, host-ograničen, `redirectScheme permanent: true`) — Coolify panel nije
+dostupan bez prijave, a oznake se svakako regenerišu pri deploy-u. Detalji u
+`HANDOVER.md`, sesija 29.07. (šesta), odeljak 9.
 
-### 2. N12 — `http://` vraća 307/302 umesto 301  *(15 minuta, traži vlasnicu)*
-
-Preusmerenje radi **Traefik u Coolify-ju**, ne naš nginx. Otvori
-`https://panel.orbitacode.com`, traži od vlasnice da se prijavi **u istom prozoru**,
-pa: Coolify → Rimoteka → Domains, ili oznaka
-`traefik.http.middlewares.<ime>.redirectscheme.permanent=true`.
-Posle: `curl -s -o /dev/null -w "%{http_code}" http://rimoteka.com/` mora **301**.
-
-### 3. `frekvencija.json` je pogrešan — POPRAVITI PRE P10  *(pola dana)*
+### 2. `frekvencija.json` je pogrešan — POPRAVITI PRE P10  *(pola dana)*
 
 Opisano u `TODO-RECNIK.md`, odeljak „HITNO". Ko je pravio fajl **prepisivao je
 umesto da sabira** frekvencije po obliku: `voda` = 876, `veliki` = 34, `dva` = 9,
@@ -66,26 +59,26 @@ umesto da sabira** frekvencije po obliku: `voda` = 876, `veliki` = 34, `dva` = 9
 uporediti stare i nove brojeve za 20 čestih reči → proveriti rangiranje za
 „ljubav", „srce", „nada" → provera u testu.
 
-### 4. P10 + P11 — strane reči i hub  *(veći poduhvat, traži odobrenje za URL-ove)*
+### 3. P10 + P11 — strane reči i hub  *(veći poduhvat, traži odobrenje za URL-ove)*
 
 Pun opis: `TODO.md`, odeljak **0.0**. `gen_pages.py` bira 2.000 reči **abecedno**
 (1.577 od 1.988 na slovo „a") i nikad ne učita `frekvencija.json`. Redosled:
-frekvencija (zadatak 3) → spisak postojećih slugova → 301 u `nginx.conf`
+frekvencija (zadatak 2) → spisak postojećih slugova → 301 u `nginx.conf`
 (obavezno `bash test/nginx-provera.sh`) → hub po slovima → sitemap → GSC.
 **Pre koraka 2 pokaži vlasnici koliko URL-ova nestaje i predlog preusmerenja.**
 
-### 5. `/omiljene/` kao prava strana — **već odobreno**  *(jedno popodne)*
+### 4. `/omiljene/` kao prava strana — **već odobreno**  *(jedno popodne)*
 
 Koraci: `TODO.md`, odeljak **0.1**. `noindex,follow`, van sitemapa.
 
-### 6. Audit — zakazan za 31.07.2026
+### 5. Audit — zakazan za 31.07.2026
 
 Po `/Users/jovana.jovic/AUDIT-PROTOKOL.md`, upiši u `AUDIT/2026-07-31-audit.md`.
 Prvo izmeriti P16 desetak puta, ne odmah posle deploy-a. Uz to: mobilni prolaz
 kroz svih 7 tabova na telefonu (sekcija 26 pokriva beležnicu; ostalih 6 tabova
 na telefonu provereni su sweep-om u šestoj sesiji, ali audit treba svoje merenje).
 
-### 7. Ostalo iz `TODO.md` — proći redom kad gornje bude gotovo
+### 6. Ostalo iz `TODO.md` — proći redom kad gornje bude gotovo
 
 | # | Šta | Napomena |
 |---|---|---|

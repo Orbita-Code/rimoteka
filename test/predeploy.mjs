@@ -2574,6 +2574,32 @@ async function main() {
       await p24.close();
     }
 
+    console.log('\n25) ADRESA SAJTA JE JEDNA — www trajno vodi na adresu bez www');
+    /* Do 29.07.2026. je `https://www.rimoteka.com/` vraćao **200**: ista strana
+       na dve adrese. Kanonik je pokazivao na adresu bez www, pa Google nije
+       indeksirao duplikat — ali kanonik je nagoveštaj, a 301 je pravilo; tek on
+       prenosi težinu linkova. Popravljeno zasebnim `server` blokom u nginx.conf.
+
+       Provera radi SAMO protiv produkcije — lokalni server nema `www`. Kad se
+       preskoči, to se i ispiše, da se preskakanje ne pomeša sa prolaskom
+       (pravilo: nikad ne ulepšavati pokrivenost). */
+    if (BASE === 'https://rimoteka.com') {
+      const proveriPreusmerenje = async (url) => {
+        const o = await fetch(url, { redirect: 'manual' });
+        return { status: o.status, gde: o.headers.get('location') };
+      };
+      for (const [odakle, dokle] of [
+        ['https://www.rimoteka.com/', 'https://rimoteka.com/'],
+        ['https://www.rimoteka.com/rime-za/ljubav/', 'https://rimoteka.com/rime-za/ljubav/'],
+      ]) {
+        const r = await proveriPreusmerenje(odakle);
+        ok(`${odakle} → 301 (trajno)`, r.status === 301, `dobijeno ${r.status}`);
+        ok(`${odakle} vodi tačno na ${dokle}`, r.gde === dokle, `vodi na ${r.gde}`);
+      }
+    } else {
+      console.log('  ⏭  preskočeno — radi samo protiv produkcije (BASE=https://rimoteka.com)');
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

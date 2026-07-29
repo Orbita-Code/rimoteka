@@ -11,13 +11,15 @@
 > na vrh), P12 (link „Početna" u redu sa autorskim pravima), P13 (čipovi u pasusu
 > jedan ispod drugog), P14 (Google prikazuje definiciju umesto opisa alata),
 > P15 (osam grešaka u vidljivom tekstu, među njima reč koja ne postoji),
-> P16 (strana skače 50 px dok se učitava — CLS 0,2853).
+> P16 (strana skače 50 px dok se učitava — CLS 0,2853),
+> N17 (www vraćao 200 umesto 301).
 >
 > **Odloženo odlukom vlasnice (2):** P10 (strane reči birane po abecedi, 1.577 od
 > 1.988 na slovo „a") i P11 (hub `/rime-za/` je zid od 1.988 linkova) — **isti
 > uzrok**, plan u `TODO.md`, odeljak 0.0.
 >
-> **Moje, bez popravke (1):** N12 (302 umesto 301 — traži Coolify panel).
+> **Moje, bez popravke (1):** N12 (302 umesto 301) — jedino što traži prijavu na
+> Coolify panel; Traefik odgovara pre našeg nginx-a, pa se iz repozitorijuma ne može.
 >
 > **Zatvoreno merenjem:** **P2** (CLS na `/rime-za/`) — popravka preload-a fonta iz
 > prethodne sesije **jeste radila**, samo nikad nije bila izmerena: `/rime-za/ljubav/`
@@ -43,7 +45,7 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (9) — 6 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 1 moj
+## OTVORENO (10) — 7 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 1 moj
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
@@ -54,7 +56,8 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 | **P14** | Google je kao opis `/rimovanje-reci/` prikazivao *„Rimovanje reči je traženje reči koje se na kraju zvučno poklapaju"* — definicija pojma, pa strana deluje kao rečnička odrednica, a ne kao alat. | **POPRAVLJENO, čeka push.** Prva rečenica sada glasi „…je besplatan alat za traženje rime na srpskom"; `meta description` usklađen. | `build/gen_pages.py:1173–1185` | 29.07. |
 | **P15** | **Greške u vidljivom tekstu tematskih strana**, nađene puštanjem celog teksta sajta kroz rečnik od 270.000 reči: `toast` umesto **zdravica** (7 mesta, `/rime-za-svadbu/`), `zaverno` — **reč ne postoji** (0 pogodaka u `reci.txt`), `Budan kratak` umesto „Budi kratak", `klisheeve` umesto **klišee**, `njezinu` (hrvatski) umesto **njenu**, `odaberim` umesto **odaberi**, `secanje/secanja` bez kvačice (3 mesta), `zajebanciju` → **zezanje**. | **POPRAVLJENO, čeka push.** | `build/gen_pages.py` | 29.07. |
 | **P12** | Na podstranama je u redu sa autorskim pravima stajao link **„Početna"** umesto teksta „Sva prava zadržana" — navigacija u redu sa autorskim pravima, gde joj nije mesto. | **POPRAVLJENO, čeka push.** Oba futera sada čitaju isto. Povratak na početnu i dalje postoji na dva mesta: logo u zaglavlju i traka alata. | `build/gen_pages.py:296` | 29.07. |
-| **N12** | `http://rimoteka.com` vraća **302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma (`Location` je apsolutan, a nginx ima `absolute_redirect off`). Traži pristup panelu: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. | Coolify / Traefik | 28.07. |
+| **N17** | **`https://www.rimoteka.com` vraćao 200** — ista strana na dve adrese. Kanonik je pokazivao na adresu bez www, pa Google nije indeksirao duplikat, ali kanonik je nagoveštaj, a 301 je pravilo: tek on prenosi težinu linkova. Nađeno 29.07. pri proveri N12. | **POPRAVLJENO, čeka push.** Zaseban `server` blok u `nginx.conf` (sintaksa provereno ispravna kroz `crossplane`, dva bloka kako treba). | `nginx.conf:1–20` | 29.07. |
+| **N12** | `http://rimoteka.com` vraća **307/302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma. Traži prijavu na panel: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. **29.07. otvoren panel — čeka prijavu vlasnice.** Nije rešivo iz nginx-a jer Traefik odgovara pre njega. | Coolify / Traefik | 28.07. |
 | **P16** | **Strana skače 50 px dok se učitava** — kad Quicksand i Fredoka stignu sa Google-a, tekst promeni širinu, red filtera izgubi jednu liniju i sve ispod se pomeri. Izmereno na produkciji, brza veza: `/` **CLS 0,2853** (Google: „loše"), `/rimovanje-reci/` **0,2819**. Na 4G je bilo uredno (0,0032) — zato ni jedan raniji audit nije video, merio je sporu vezu. | **POPRAVLJENO, čeka push.** Rezervni font sa usklađenim merama (`@font-face` „…rezerva", `size-adjust` 103,6% i 98,2% — izmereno, ne procenjeno). Posle: `/` **0,0065**, `/rimovanje-reci/` **0,0053**. | `public/style.css:319` | 29.07. |
 
 ---

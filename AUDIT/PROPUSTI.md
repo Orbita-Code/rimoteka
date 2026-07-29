@@ -294,3 +294,58 @@ Kod je bio ispravan, provera nije.
 - Kad je pravilo 8a (logo se ne dira) bilo u sukobu sa nalazom o veličini slike,
   nalaz **nije popravljen** nego je prijavljen vlasnici kao odluka. Isto i sa
   ostatkom dečjeg režima, za koji je odobren samo Odeljak 1.
+
+---
+
+## Sesija 29.07.2026 (treća) — provera zatečenog stanja posle pada mreže
+
+### 1. Napisao sam četiri provere sa IZMIŠLJENIM očekivanjima i ostavio ih da padaju
+
+Pre-deploy test je stajao na **4 pala od 295**, i sve četiri su bile greška u
+testu, ne u sajtu:
+
+| Provera | Šta je očekivala | Šta je istina |
+|---|---|---|
+| `srce → sunce` i `sunce → srce` | prava rima u strogom režimu | poklapa se samo „-ce"; alat ih spaja tek uz „i šire rime" — **kod je ispravan** |
+| `nebo → rebro` | prava rima | „-ebo" prema „-ebro" — nije rima ni u širem režimu |
+| dečji režim na reči **„mrak"** | režim izbacuje bar jednu reč | nijedna od 125 rima za „mrak" nije u `KIDS_BLOCKED` — nije imao šta da izbaci |
+
+Sva tri para sam **pretpostavio iz glave** umesto da ih izmerim u alatu.
+Isti obrazac kao `njakam`, `bankomam`, `akrobaša` iz prethodne sesije — samo
+prebačen sa rečnika na test. Poenta pravila o zvaničnim izvorima nije bila
+„rečnik je poseban slučaj" nego „ne nagađaj ništa što možeš da izmeriš".
+
+> **PRAVILO 19:** Očekivana vrednost u proveri se **izmeri u samom alatu pre
+> nego što se upiše u test**. Nijedan par „reč → očekivani rezultat" ne sme u
+> `predeploy.mjs` iz glave. Ako je provera pala, prvo pitanje je **„da li je
+> očekivanje tačno"**, tek drugo „da li je kod pokvaren" — inače se ispravan kod
+> „popravlja" dok se ne pokvari.
+>
+> Dopuna PRAVILU 18: ono je govorilo da se dozvoljenost reči ne meri preko
+> rangiranja. Ovde je promašaj bio korak ranije — **izabrana je reč koja uopšte
+> ne dodiruje ono što se proverava.** Uz svaku proveru filtriranja mora da stoji
+> izmereni broj („brat: 119 → 118, nestaje „rat""), da se vidi da provera stvarno
+> ima šta da uhvati.
+
+### 2. Provera „nula grešaka u konzoli" padala je na greškama koje test sam pravi
+
+Sekcija 13 je brojala i 502 na `reci.txt`, 503 na `definicije.json`, namerni 404
+i prekinuti `fetch` pri brzoj navigaciji kroz 35 ruta — sve četiri **izaziva sam
+test**, u proverama otpornosti. Provera koja pada uvek prestaje da išta znači, a
+prava greška u konzoli bi se izgubila u tom šumu.
+
+Popravljeno pomoćnikom `ocekujGreske(strana, ...obrasci)`, koji obrasce vezuje za
+**tačnu stranu** koja kvar izaziva — ista greška na bilo kojoj drugoj strani se i
+dalje prijavljuje.
+
+> **PRAVILO 20:** Kad provera namerno kvari mrežu, izuzetak se piše **usko** — za
+> tu stranu i taj obrazac. Globalni izuzetak („ignoriši sve 5xx") ućutkao bi i
+> pravi kvar na produkciji.
+
+### 3. Šta je ovog puta išlo dobro
+
+- Nijedan nalaz nije prijavljen bez reprodukcije: pre nego što sam dečji režim
+  proglasio pokvarenim, izmerio sam ga na 10 reči i našao da radi (`brat`
+  119 → 118, `sat` 113 → 112, `vrat` 112 → 111).
+- Nalaz **S10** (sinonimi za „sunce") je izmeren, a ne procenjen: 13 pogrešnih od
+  19, i provereno da je greška usamljena među 13.505 odrednica.

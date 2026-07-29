@@ -6,7 +6,8 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 (posle sesije popravki): 4 otvorena nalaza** (bilo 64).
+**Stanje na dan 29.07.2026 (posle sesije popravki): 5 otvorenih nalaza** (bilo 64).
+> Peti nalaz (**S10**) otkriven je 29.07. uveče, pri proveri zašto pre-deploy test pada.
 Ocena poslednjeg audita: **6,9 / 10** — nova ocena se računa u auditu 31.07.2026.
 
 **Zatvoreno u ovoj sesiji: 60 nalaza.** Test podignut sa **167 na 265+ provera**.
@@ -15,10 +16,11 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (4)
+## OTVORENO (5)
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
+| **S10** | Sinonimi za **„sunce"** su tuđi: **13 od 19** su sinonimi reči **„snop"** — *plast, babura, stog, bala, mlaz, svežanj, denjak, zamotuljak, zavežljaj, zavijutak, smotak, breme, naviljak*. Kartica sinonima stoji **na vrhu rezultata**, pa ko ukuca „sunce" prvo pročita „plast, babura, stog". Ispravno je samo 6 (*svetlo, luč, obasjanost, zrak, luča, zraka*). Uzrok je verovatno spojeno značenje „snop svetlosti". Provereno: greška je **usamljena** — od 13.505 odrednica samo „sunce" nosi taj skup, ostalih 9 (*snop, seno, plast, stog, bala, svežanj, zavežljaj, zamotuljak, paketić*) ga nose s pravom. **Ne vidi se u HTML-u** podstrana, samo u alatu (`sinonimi.json` se učitava u pregledaču). | **Traži odluku vlasnice** — koje od 6 preostalih zadržati. Popravka je jedan red u podacima, ali dira sadržaj. | `public/sinonimi.json` | 29.07. |
 | **K3** (ostatak) | Dečji režim propušta vulgarne reči kroz padeže — **284 propuštena oblika kod 75 blokiranih reči** („krevetu" → *dupetu*, „protestu" → *incestu*). Predlog: blokirati **osnove** umesto tačnih oblika, uz listu izuzetaka da *ratar* ne strada zbog *rat*. | **Traži odluku vlasnice.** Odobren je bio samo Odeljak 1 (sedam pogrešno blokiranih reči) — i on je urađen. Ostatak je u `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`, odeljci 2–4. | `public/app.js` · `build/gen_pages.py` | 28.07. |
 | **N12** | `http://rimoteka.com` vraća **302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma (`Location` je apsolutan, a nginx ima `absolute_redirect off`). Traži pristup panelu: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. | Coolify / Traefik | 28.07. |
 | **P1** | `logo-icon.png` je **292 KB (512×512)**, a prikazuje se na **46×46 px** — na 4G okupira vezu ~5 s i gura `reci.txt` na kraj reda | **Pravilo 8a: logo se ne dira** — ni slika, ni tag, ni CSS. Rešenje traži ili novu, manju verziju slike ili `srcset` u `<img>` logotipa; oboje dodiruje logo. **Odluka je vlasničina.** | `public/index.html` · `build/gen_pages.py` | 29.07. |

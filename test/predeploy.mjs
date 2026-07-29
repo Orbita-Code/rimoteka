@@ -66,15 +66,27 @@ async function main() {
      `/rimovanje-reci/`, `/slogovi/`, `/pisanje-pesama/` ili na stranama reči
      prolazilo je nezapaženo. Sada svaka strana koju test otvori prijavljuje. */
   const konzolaGreske = [];
+  /* Neke provere NAMERNO ruše mrežu (502 na `reci.txt`, 503 na `definicije.json`,
+     namerni 404, brza navigacija koja prekine `fetch` u letu). Te greške je test
+     sam izazvao, pa ih sekcija 13 ne sme brojati kao kvar sajta — inače provera
+     „nula grešaka u konzoli" pada uvek i prestane da išta znači.
+     Bitno: obrasci se vezuju za TAČNU stranu koja kvar izaziva, ne globalno —
+     da ista greška na nekoj drugoj strani i dalje bude prijavljena. */
+  function ocekujGreske(p, ...obrasci) { p.__ocekivano = obrasci; return p; }
   function prijaviGreske(p, gde) {
+    const dozvoljeno = t => (p.__ocekivano || []).some(re => re.test(t));
     p.on('console', m => {
       if (m.type() !== 'error') return;
       const t = m.text();
       // fontovi sa googleapis su blokirani u headless okruženju — nije naš bug
       if (/fonts\.googleapis|fonts\.gstatic|net::ERR_FAILED.*fonts/.test(t)) return;
+      if (dozvoljeno(t)) return;
       konzolaGreske.push(`[${gde || p.url()}] ${t}`);
     });
-    p.on('pageerror', e => konzolaGreske.push(`[${gde || p.url()}] pageerror: ${e.message}`));
+    p.on('pageerror', e => {
+      if (dozvoljeno(e.message)) return;
+      konzolaGreske.push(`[${gde || p.url()}] pageerror: ${e.message}`);
+    });
   }
 
   function ojacajStranu(p) {
@@ -1537,6 +1549,7 @@ async function main() {
     console.log('\n16b) KVAR SERVERA SE PRIJAVLJUJE, NE TUMAČI KAO „NEMA RIME"');
     {
       const p16b = await browser.newPage();
+      ocekujGreske(p16b, /502/, /HTTP 502/);   // kvar koji test sam pravi
       await p16b.route('**/reci.txt*', r => r.fulfill({
         status: 502, contentType: 'text/html',
         body: '<!doctype html><html><body><h1>502 Bad Gateway</h1></body></html>'
@@ -1558,6 +1571,7 @@ async function main() {
     console.log('\n16c) JEDAN NEUSPEH definicije.json NE UBIJA DEFINICIJE ZAUVEK');
     {
       const p16c = await browser.newPage();
+      ocekujGreske(p16c, /503/, /HTTP 503/);   // kvar koji test sam pravi
       let pao = false;
       await p16c.route('**/definicije.json*', r => {
         if (!pao) { pao = true; return r.fulfill({ status: 503, contentType: 'text/plain', body: 'nope' }); }
@@ -1798,6 +1812,8 @@ async function main() {
     console.log('\n19) SEO I STRUKTURA — hub /rime-za/, breadcrumb, naslovi, robots, društvena slika');
     {
       const p19 = await browser.newPage();
+      // niže se namerno otvara /ova-strana-ne-postoji-xyz/ da bi se proverila 404 strana
+      ocekujGreske(p19, /ova-strana-ne-postoji-xyz.*404|404 \(Not Found\)/);
       // /rime-za/ je vraćao 403 — ceo srednji nivo strukture nije postojao
       const odg = await p19.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
       ok('/rime-za/ vraća 200 (ranije 403)', odg && odg.status() === 200, `status ${odg && odg.status()}`);
@@ -2027,15 +2043,22 @@ async function main() {
       await p20b.uncheck('#jekToggle');
       await pauza(600);
 
-      // dečji režim mora da izbaci reči iz KIDS_BLOCKED
-      const bezDecjeg = await broj('mrak');
+      /* Dečji režim mora da izbaci reči iz KIDS_BLOCKED.
+         Provera je ranije koristila „mrak" i uvek prolazila kao pad: nijedna od
+         125 rima za „mrak" (brak, rak, zrak, krak, frak…) NIJE u KIDS_BLOCKED,
+         pa režim nije imao šta da izbaci. Kod je bio ispravan, reč pogrešna.
+         „brat" je izabran jer mu je „rat" prava rima i jeste u KIDS_BLOCKED —
+         izmereno: 119 → 118, nestaje tačno „rat". (Isto važi za „sat" i „vrat".)
+         PRAVILO 18 iz PROPUSTI.md: dozvoljenost reči se meri na najkraćem putu,
+         a ne preko rangiranja — zato se dole poredi SPISAK, ne samo broj. */
+      const bezDecjeg = await broj('brat');
       const imaRat = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
       await p20b.check('#kidsToggle');
       await pauza(1000);
       const saDecjim = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
       ok('dečji režim izbacuje bar jednu reč iz rezultata',
-         saDecjim.length < bezDecjeg || saDecjim.length !== imaRat.length,
-         `${bezDecjeg} → ${saDecjim.length}`);
+         saDecjim.length < bezDecjeg && imaRat.includes('rat') && !saDecjim.includes('rat'),
+         `${bezDecjeg} → ${saDecjim.length}, „rat" pre=${imaRat.includes('rat')} posle=${saDecjim.includes('rat')}`);
       const proslo = saDecjim.some(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w));
       ok('dečji režim ne propušta „rat/mrtav/pakao/đavo"', !proslo,
          saDecjim.filter(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w)).join(', '));
@@ -2051,9 +2074,17 @@ async function main() {
       const p20c = await browser.newPage();
       await p20c.goto(BASE, { waitUntil: 'domcontentloaded' });
       await p20c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      /* Očekivane rime su IZMERENE u alatu, ne pretpostavljene.
+         Dva ranija para bila su izmišljena pa su provere padale na ispravnom kodu:
+         · „srce"/„sunce" — poklapa se samo „-ce"; alat ih spaja tek uz „i šire
+           rime", a ova sekcija radi u strogom režimu. Par se sada proverava dole,
+           izričito sa uključenom opcijom.
+         · „nebo"/„rebro" — nije rima ni u širem režimu („-ebo" prema „-ebro").
+         Zamene su potvrđene: pesma→česma, srce→perce, dete→pete, nebo→bebo,
+         zima→rima, sunce→mladunce. */
       const primeri = [
-        ['pesma', 'česma'], ['srce', 'sunce'], ['dete', 'pete'],
-        ['nebo', 'rebro'], ['zima', 'rima'], ['sunce', 'srce'],
+        ['pesma', 'česma'], ['srce', 'perce'], ['dete', 'pete'],
+        ['nebo', 'bebo'], ['zima', 'rima'], ['sunce', 'mladunce'],
       ];
       for (const [rec, ocekivana] of primeri) {
         const r = await p20c.evaluate(async (q) => {
@@ -2067,6 +2098,26 @@ async function main() {
         ok(`„${ocekivana}" je među rimama za „${rec}"`, r.includes(ocekivana),
            `prvih 6: ${r.slice(0, 6).join(', ')}`);
       }
+
+      /* „sunce"/„srce" je asonanca, ne prava rima — poklapa se samo „-ce".
+         Zato mora da IZOSTANE u strogom režimu i da se POJAVI uz „i šire rime".
+         Provera hvata obe strane: i da opcija radi, i da strogi režim ne popušta. */
+      const strogo = await p20c.evaluate(() =>
+        [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
+      await p20c.check('#looseToggle');
+      await pauza(1600);
+      const sire = await p20c.evaluate(async () => {
+        const w = ms => new Promise(x => setTimeout(x, ms));
+        document.getElementById('rimeInput').value = 'sunce';
+        document.getElementById('rimeBtn').click();
+        await w(1500);
+        return [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim());
+      });
+      ok('strogi režim NE spaja „sunce" i „srce" (asonanca, ne rima)',
+         !strogo.includes('srce'), `strogo ima ${strogo.length} rima`);
+      ok('opcija „i šire rime" spaja „sunce" i „srce"',
+         sire.includes('srce'), `šire ima ${sire.length} rima`);
+      await p20c.uncheck('#looseToggle');
       await p20c.close();
     }
 
@@ -2106,6 +2157,11 @@ async function main() {
     /* Nalaz iz dopune: status se proveravao na samo 3 URL-a od 2.011. */
     {
       const p20e = await browser.newPage();
+      /* 35 navigacija jedna za drugom na istoj strani: svaka strana krene da skida
+         `reci.txt`, a sledeća navigacija taj `fetch` prekine. „Failed to fetch" je
+         posledica gašenja strane, ne kvara sajta — status svake rute se proverava
+         zasebno, kroz `o.status()`. */
+      ocekujGreske(p20e, /Failed to fetch/, /ERR_ABORTED/, /net::ERR_FAILED/);
       const rute = [
         '/', '/rime-za/', '/rimovanje-reci/', '/recnik-srpskog-jezika/', '/slogovi/',
         '/pisanje-pesama/', '/klasici/', '/igra-rimovanja/', '/vrste-rima/',

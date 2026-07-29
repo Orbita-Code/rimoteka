@@ -6,7 +6,7 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 (posle sesije popravki): 5 otvorenih nalaza** (bilo 64).
+**Stanje na dan 29.07.2026 (posle sesije popravki i deploy-a): 5 otvorenih nalaza** (bilo 64).
 > Peti nalaz (**S10**) otkriven je 29.07. uveče, pri proveri zašto pre-deploy test pada.
 Ocena poslednjeg audita: **6,9 / 10** — nova ocena se računa u auditu 31.07.2026.
 

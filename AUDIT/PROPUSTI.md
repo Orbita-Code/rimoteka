@@ -349,3 +349,34 @@ dalje prijavljuje.
   119 → 118, `sat` 113 → 112, `vrat` 112 → 111).
 - Nalaz **S10** (sinonimi za „sunce") je izmeren, a ne procenjen: 13 pogrešnih od
   19, i provereno da je greška usamljena među 13.505 odrednica.
+
+### 4. Namerna odluka nije bila proverena kod korisnice
+
+U beležnicu je bilo upisano pravilo „alat ne sme sam da prekucava tekst
+korisnika", pa se pesma nije prebacivala u ćirilicu. Postojala je i provera koja
+je to ČUVALA („beležnica se NE prekucava u ćirilicu"). U praksi je to značilo da
+je pola strane ćirilica a pesma latinica — i vlasnica je to prijavila kao bag.
+
+Odluka nije bila pogrešna sama po sebi; pogrešno je bilo to što je doneta u kodu
+i zaključana testom, a nikad izneta vlasnici kao izbor.
+
+> **PRAVILO 21:** Kad se svesno odluči da nešto NE radi, to se upisuje u
+> `HANDOVER.md` kao **otvorena odluka**, ne samo u komentar u kodu. Provera koja
+> takvu odluku zaključava mora u opisu da nosi reč „namerno" i razlog — inače
+> sledeća sesija brani odluku koju niko nije doneo.
+
+### 5. Bag koji sam našao usput bio je teži od tri koja su tražena
+
+Pri proveri prebacivanja pisma ispalo je da lepljenje pesme **guta prelome
+redova** — pesma od četiri stiha postajala je jedan red, pa su nestali i slogovi
+po stihu i šema rime i bojenje. Uzrok: `execCommand('insertText', …)` u ovom
+editoru ne pravi `<br>`. Bag je star, u glavnoj nameni alata za pisanje pesama,
+i nijedan od 39 agenata iz prošlog audita ga nije našao.
+
+Razlog zašto ga automatika nije našla: test je tekst u beležnicu uvek **kucao**,
+nikad **lepio**. A ljudi pesmu gotovo uvek nalepe.
+
+> **PRAVILO 22:** Svako polje za tekst se proverava sa **oba načina unosa** —
+> kucanjem i lepljenjem — i to lepljenjem **višerednog** teksta. Kucanje i
+> lepljenje idu kroz različit kod, pa jedno ne dokazuje ništa o drugom. Isto
+> važi za parove: klik / `Enter`, miš / tastatura, prvi dolazak / povratnik.

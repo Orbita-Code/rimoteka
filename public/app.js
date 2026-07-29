@@ -85,6 +85,13 @@ function toCyr(s){
  * Isto tako, pokvaren sadržaj (`{nije-json`) obarao je `JSON.parse` (nalaz K5).
  * Svako čitanje i pisanje sada ide kroz ove tri funkcije i NIKAD ne baca.
  * ============================================================= */
+/* Da li se strana upravo napušta. Koristi se da se prekinuta preuzimanja ne
+   prijavljuju kao kvar (v. `loadDict().catch`). `pagehide` je pouzdaniji od
+   `beforeunload` — jedini koji radi i na iOS-u, i pri povratku iz keša. */
+let seIzlazi = false;
+addEventListener('pagehide', () => { seIzlazi = true; });
+addEventListener('beforeunload', () => { seIzlazi = true; });
+
 function lsGet(k, podrazumevano = null){
   try { const v = localStorage.getItem(k); return v === null ? podrazumevano : v; }
   catch(e){ return podrazumevano; }
@@ -3845,6 +3852,12 @@ function bootstrap(){
     if(cekaRec){ pokreniOdlozenuPretragu(); return; }
     if(!initFromURL()) rimeInput.focus();
   }).catch(e=>{
+    /* Ako korisnik ode sa strane dok se rečnik još skida, pregledač prekine
+       preuzimanje i ovde stigne „Failed to fetch". To NIJE kvar — strana koju
+       napuštamo nema kome da prijavi grešku, a poruka o neuspehu bi bljesnula
+       na izlasku. Zato se pri napuštanju strane ćuti; svaki drugi neuspeh se i
+       dalje prijavljuje i pokazuje korisniku. */
+    if(seIzlazi) return;
     el('rimeBtn').classList.remove('ucitava');
     el('rimeBtn').disabled = false;
     console.error('Greška pri učitavanju rečnika:', e);

@@ -1816,8 +1816,12 @@ async function main() {
     console.log('\n19) SEO I STRUKTURA — hub /rime-za/, breadcrumb, naslovi, robots, društvena slika');
     {
       const p19 = await browser.newPage();
-      // niže se namerno otvara /ova-strana-ne-postoji-xyz/ da bi se proverila 404 strana
-      ocekujGreske(p19, /ova-strana-ne-postoji-xyz.*404|404 \(Not Found\)/);
+      /* Niže se namerno otvara /ova-strana-ne-postoji-xyz/ da bi se proverila
+         404 strana. Obrazac mora da pokrije OBA oblika poruke: lokalni server
+         šalje „404 (Not Found)", a nginx na produkciji „404 ()" — sa praznom
+         zagradom. Prva verzija je hvatala samo lokalni oblik, pa je provera
+         prošla lokalno a pala protiv produkcije. */
+      ocekujGreske(p19, /status of 404/);
       // /rime-za/ je vraćao 403 — ceo srednji nivo strukture nije postojao
       const odg = await p19.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
       ok('/rime-za/ vraća 200 (ranije 403)', odg && odg.status() === 200, `status ${odg && odg.status()}`);
@@ -2232,6 +2236,76 @@ async function main() {
       ok('N4 druga tačkica je TAČNO (druga reč pogođena)',
          stanje.tacke[1] === 'tačno', `redosled: ${stanje.tacke.slice(0, 4).join(', ')}`);
       await p20f.close();
+    }
+
+    console.log('\n20h) SINONIMI ZA „SUNCE" (nalaz S10)');
+    /* Za „sunce" je stajalo 19 sinonima, od kojih 13 pripada reči „snop"
+       (plast, babura, stog, bala, svežanj, denjak, zamotuljak, zavežljaj,
+       zavijutak, smotak, breme, naviljak). Kartica sinonima stoji na VRHU
+       rezultata, pa je ko ukuca „sunce" prvo čitao „плast, babura, stog".
+       Vlasnica je 29.07.2026. odlučila da se cela odrednica poništi dok se ne
+       proveri u Rečniku Matice srpske. */
+    {
+      const p20h = await browser.newPage();
+      const syn = await p20h.goto(BASE + '/sinonimi.json', { waitUntil: 'domcontentloaded' })
+        .then(r => r.json()).catch(() => null);
+      ok('sinonimi.json se učitava i ima preko 13.000 odrednica',
+         syn && Object.keys(syn).length > 13000, syn ? `${Object.keys(syn).length}` : 'nije učitan');
+      ok('„sunce" više NEMA tuđe sinonime („plast", „stog", „bala")',
+         syn && !syn['sunce'], syn && syn['sunce'] ? syn['sunce'].slice(0, 4).join(', ') : '—');
+      await p20h.goto(BASE + '/?rec=sunce', { waitUntil: 'domcontentloaded' });
+      await p20h.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(1800);
+      const naVrhu = await p20h.evaluate(() =>
+        [...document.querySelectorAll('#rimeResults .word')].slice(0, 8).map(e => e.textContent.trim()));
+      ok('na vrhu rezultata za „sunce" nema „plast/babura/stog/bala"',
+         !naVrhu.some(w => ['plast', 'babura', 'stog', 'bala'].includes(w)), naVrhu.join(', '));
+      await p20h.close();
+    }
+
+    console.log('\n20g) SVI ČIPOVI STAJU U JEDAN RED (ikonice ne beže u drugi)');
+    /* Prijava vlasnice 29.07.2026, sa slikom. Mreža je imala kolone fiksne
+       širine (15rem), pa kod duže reči („dobročiniteljka", „bogomoljka",
+       „hraniteljka") ikonica „nađi rime" nije stala i selila se u drugi red —
+       a pošto u mreži sve ćelije jedne vrste imaju istu visinu, jedan
+       prelomljen čip razvlačio je i sve susede.
+       Meri se VISINA čipa, ne položaj ikonica: ikonice i tekst imaju različitu
+       visinu pa im se vrhovi prirodno razlikuju i u jednom redu — poređenje
+       vrhova daje lažan nalaz „sve je prelomljeno". Visina je jednoznačna. */
+    {
+      const p20g = await browser.newPage();
+      for (const sirina of [1440, 1024, 390]) {
+        await p20g.setViewportSize({ width: sirina, height: 1000 });
+        await p20g.goto(BASE + '/?tab=pretraga', { waitUntil: 'domcontentloaded' });
+        await p20g.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+        const m = await p20g.evaluate(async () => {
+          const w = ms => new Promise(r => setTimeout(r, ms));
+          // „ljka" namerno: daje 100+ reči vrlo različite dužine, od „biljka"
+          // do „dobročiniteljka" — tačno raspon na kome je bag i nastao
+          document.getElementById('searchMode').value = 'ends';
+          document.getElementById('searchInput').value = 'ljka';
+          document.getElementById('searchBtn').click();
+          await w(1500);
+          const cips = [...document.querySelectorAll('#searchResults .chip')];
+          const visine = {}, izasli = [];
+          cips.forEach(c => {
+            const cr = c.getBoundingClientRect();
+            const h = Math.round(cr.height);
+            visine[h] = (visine[h] || 0) + 1;
+            [...c.children].forEach(d => {
+              const dr = d.getBoundingClientRect();
+              if (dr.right > cr.right + 1 || dr.left < cr.left - 1) izasli.push(c.textContent.trim());
+            });
+          });
+          return { broj: cips.length, visine, izasli: izasli.slice(0, 3) };
+        });
+        const razliciteVisine = Object.keys(m.visine).length;
+        ok(`${sirina}px · svi čipovi iste visine (nijedan prelomljen)`,
+           m.broj > 50 && razliciteVisine === 1,
+           `${m.broj} čipova, visine: ${Object.entries(m.visine).map(([h, n]) => `${h}px×${n}`).join(', ')}`);
+        ok(`${sirina}px · ništa ne izlazi iz pilule`, m.izasli.length === 0, m.izasli.join(', '));
+      }
+      await p20g.close();
     }
 
     console.log('\n21) BELEŽNICA PRATI PISMO + SRPSKA TASTATURA + PRELOMI PRI LEPLJENJU');

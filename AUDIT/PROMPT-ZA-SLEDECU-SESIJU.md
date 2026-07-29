@@ -5,7 +5,7 @@
 
 ---
 
-Radiš na projektu Rimoteka: `/Users/jovana.jovic/Desktop/Projects/rimoteka`
+Radiš na projektu Rimoteka: `/Users/jovana.jovic/Projects/rimoteka`
 
 ## Pročitaj odmah, tim redom
 

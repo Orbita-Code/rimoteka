@@ -271,7 +271,7 @@ Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
 > 26.07.2026. je jedan `TypeError` oborio ceo sajt — rime, igra i svi tabovi — i to je otišlo na produkciju. Nikad više bez testa.
 
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+cd /Users/jovana.jovic/Projects/rimoteka
 node test/predeploy.mjs                              # lokalno
 BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv produkcije
 ```
@@ -338,7 +338,7 @@ deploy-a se proverava **glavna adresa**, ne samo ono što je menjano.
 
 **Na početku SVAKE sesije proveriti kad je bio poslednji audit:**
 ```bash
-ls -1 /Users/jovana.jovic/Desktop/Projects/rimoteka/AUDIT/ | grep audit | sort | tail -1
+ls -1 /Users/jovana.jovic/Projects/rimoteka/AUDIT/ | grep audit | sort | tail -1
 ```
 Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti audit.
 
@@ -382,14 +382,14 @@ u tabeli na dnu `AUDIT/NALAZI-OTVORENI.md`. Najvažnije:
 
 ### Lokalni preview
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka/public
+cd /Users/jovana.jovic/Projects/rimoteka/public
 python3 -m http.server 8765
 ```
 Otvori: `http://localhost:8765`
 
 ### Regeneracija stranica
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+cd /Users/jovana.jovic/Projects/rimoteka
 python3 build/gen_pages.py
 ```
 

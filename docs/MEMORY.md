@@ -181,7 +181,7 @@ rečnik (kandidati u tački 9a: Vikirečnik prvi).
 Ako sajt ne radi, vrati na poslednju poznatu stabilnu verziju:
 
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+cd /Users/jovana.jovic/Projects/rimoteka
 git log --oneline -20
 # nađi poslednju stabilnu verziju (pre ove sesije)
 git checkout ac59c3dc

@@ -639,7 +639,7 @@ nijednom nisu pokrenute):
 **Prvo što sledeća sesija radi:**
 
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+cd /Users/jovana.jovic/Projects/rimoteka
 netstat -an -p tcp | awk '{print $6}' | sort | uniq -c | sort -rn | head -3   # mora biti < ~5.000 TIME_WAIT
 node test/predeploy.mjs                              # mora ispisati „Sme deploy"
 BASE=https://rimoteka.com node test/predeploy.mjs    # tek POSLE deploy-a
@@ -1200,7 +1200,7 @@ konzola bez grešaka. **84 provere prolaze** i lokalno i protiv produkcije.
 **Pre bilo kakvog deploy-a:**
 
 ```bash
-cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+cd /Users/jovana.jovic/Projects/rimoteka
 node test/predeploy.mjs                              # lokalno
 BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a
 ```

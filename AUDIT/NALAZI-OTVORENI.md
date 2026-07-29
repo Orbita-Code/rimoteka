@@ -7,10 +7,13 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026: 66 otvorenih nalaza** (bilo 72, zatvoreno 7, dodat 1 nov — N14).
+**Stanje na dan 29.07.2026: 64 otvorena nalaza** (bilo 72, zatvoreno 9, dodat 1 nov — N14).
 Ocena poslednjeg audita: **6,9 / 10**
 
-**Zatvoreno u sesiji 29.07.2026 — GRUPA 1 (šablon generisanih strana):**
+**Zatvoreno u sesiji 29.07.2026 — GRUPA 1 + kontrast:**
+**K2** (u tamnom režimu se ne vidi šta se kuca) i **S8** (kontrast: filter slogova,
+interni linkovi, `--muted`) — obe po prijavi vlasnice, obe reprodukovane.
+Uz njih:
 **K1 · K6 · V1 · V2 · S5 · S6 · N9** — sedam nalaza, jednom izmenom šablona koja
 je pogodila **2.009 od 2.010 strana**. Uz njih su nađena i popravljena **dva nova
 nalaza o kontrastu** (odeljak „Nađeno i popravljeno usput" niže) — ona nikad nisu
@@ -21,11 +24,10 @@ Zajedno su sve dimenzije sada pokrivene.
 
 ---
 
-## KRITIČNO (4)
+## KRITIČNO (3)
 
 | # | Nalaz | Fajl | Viđen |
 |---|---|---|---|
-| K2 | U tamnom režimu se **ne vidi šta se kuca** — kontrast 1,23:1 (sudar specifičnosti, pozadina tvrdo `#fff`) | `public/style.css:436` vs `:133` | 29.07. |
 | K3 | Dečji režim propušta vulgarne reči kroz padeže (1.148 oblika) **I pogrešno filtrira obične reči** — „pisao", „krvava", „smetlar", „kura". Lista za odluku: `AUDIT/DECJI-REZIM-ZA-ODLUKU.md` | `public/app.js:93–110` | 28.07. |
 | K4 | Zabranjen localStorage obori ceo sajt na 0 rima; sigurnosna mreža pukne s njim (TDZ) | `public/app.js:86–88` | 28.07. |
 | K5 | Pokvaren `rimoteka_favorites` obori ceo sajt (`JSON.parse` bez `try/catch`) | `public/app.js:88` | 28.07. |
@@ -45,7 +47,7 @@ Zajedno su sve dimenzije sada pokrivene.
 | V6 | **Beležnica: klik na ponuđenu rimu NE zamenjuje reč nego ubacuje na mesto kursora.** Panel ispravno kaže „RIME ZA NADA", ali `insertRhymeAtCaret` ne briše tu reč. Ako je kursor usred reči → „Kad me pitaš gde je **na kadada**" umesto „…gde je **kada**". | `public/app.js:1779` | 29.07. |
 | V7 | **URL se nikad ne menja pri prebacivanju tabova.** Svaki tab ima pravi `href` (`/slogovi/`, `/klasici/`…), ali klik je presretnut i adresa ostaje `/?rec=ljubav` na svih 7 tabova. Suprotno odluci „svaki alat dobija svoju stranu". | `public/app.js` — presretanje klika na tab | 29.07. |
 
-## SREDNJE (7)
+## SREDNJE (6)
 
 | # | Nalaz | Fajl | Viđen |
 |---|---|---|---|
@@ -54,7 +56,6 @@ Zajedno su sve dimenzije sada pokrivene.
 | S3 | Ćirilica ne prebacuje naslove grupa, legendu ni karticu sinonima | `public/app.js:1925` | 28.07. |
 | S4 | Bojenje rima u beležnici ne radi za ćirilične pesme | `public/app.js:937` | 28.07. |
 | S7 | Igra radi u pozadini posle prelaska na drugi tab (zvuk, promašaji, troši reči) | `public/app.js:1886` | 28.07. |
-| S8 | Kontrast pada: filter slogova 1,67:1, interni linkovi 1,8:1, `--muted` 2,90:1 | `public/style.css:467,310,13` | 28.07. |
 | S9 | Nema strana za mama/tata/deka/maca/škola/drug/kućica — `/rime-za/mama/` je **404** | `build/gen_pages.py:109` | 28.07. |
 
 ## NISKO (13)
@@ -133,7 +134,7 @@ to radi je `dark-mode-init.js`, a on puca. Popravka je ista.
 | ~~nijednu od 1.988 `/rime-za/` strana~~ | V1, V2, K6, N9 | ✅ **zatvoreno** — sekcija 12j |
 | ~~osvežavanje strane sa uključenim tamnim režimom~~ | K1 | ✅ **zatvoreno** — sekcija 10b |
 | ~~kontrast na stranama reči, u obe teme~~ | dva nova nalaza | ✅ **zatvoreno** — sekcija 12j |
-| **kucanje** u polje u tamnom režimu | K2 | otvoreno |
+| ~~kucanje u polje u tamnom režimu~~ | K2 | ✅ **zatvoreno** — sekcija 10c |
 | klik na logo posle pretrage | S1 | otvoreno |
 | zabranjen / pokvaren localStorage | K4, K5 | otvoreno |
 | klik na dugme naspram tastera Enter (različiti putevi) | V3, V4 | otvoreno |

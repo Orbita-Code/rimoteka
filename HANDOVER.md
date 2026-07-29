@@ -4,6 +4,209 @@
 
 ---
 
+# Sesija 29. jul 2026 (druga) — POPRAVKE: GRUPA 1 + ceo noćni režim
+
+> **NIŠTA NIJE PUSHOVANO.** Sve stoji na grani `fix/audit-grupa1`, tri commita.
+> Vlasnica je izričito rekla: **prvo ona gleda na lokalu, pa tek onda push.**
+
+## Gde je posao stao
+
+| Stavka | Stanje |
+|---|---|
+| Grana | `fix/audit-grupa1` (3 commita, **nije** pushovana) |
+| Test | **167/167 prolazi** lokalno, izlazni kod 0 (bilo 140) |
+| Otvorenih nalaza | **64** (bilo 72; zatvoreno 9, dodat 1 nov — N14) |
+| Ocena | još nije preračunata — sledeći audit **31.07.2026.** |
+| Lokalni pregled | `cd public && python3 -m http.server 8765` |
+
+## Šta je zatvoreno
+
+**GRUPA 1 — jedna izmena šablona `build/gen_pages.py`, pogodila 2.009 od 2.010 strana:**
+
+| Nalaz | Bilo | Sada |
+|---|---|---|
+| K6 | tamnog režima nema na 2.009 strana | dugme + skripta na svakoj strani |
+| K1 | `dark-mode-init.js` u `<head>` piše po `document.body`, koji tada ne postoji → tema se gubi pri `F5` | klasa ide na `<html>`, pa se prenese na `<body>` |
+| V1 | `app.js` nema na 1.988 strana → ćirilica mrtvo dugme | `app.js` ide i na strane reči (rečnik se **ne** skida) |
+| V2 | „Kopiraj sve rime" inline `onclick`, CSP ga blokira | rukovalac u `app.js` |
+| S5 | nema `#printArea` → štampa prazan list | dodato u podnožje |
+| S6 | nema `#toast` → nijedna radnja ne javlja ništa | dodato u podnožje |
+| N9 | `h1 → h3` na 1.988 strana | `h2`, CSS pokriva oba nivoa |
+
+**KONTRAST — po prijavi vlasnice, sve tri stavke reprodukovane:**
+
+| Nalaz | Bilo | Sada |
+|---|---|---|
+| K2 | reč koja klikom uđe u polje: **1,23:1** | 12,4:1 |
+| S8 | filter slogova 2,05:1 · interni linkovi **1,80:1** · `--muted` 2,90:1 | svi ≥ 4,5:1 |
+| — | tabela na `/slogovi/`: **1,23:1** (td), 3,87:1 (th) | ≥ 5,3:1 |
+| — | definicija reči na stranama `/rime-za/`: **1,15:1** | 8,19:1 |
+| — | paleta boja za rime u beležnici: svetla do **1,89:1**, tamna do 3,16:1 | sve ≥ 4,6:1 |
+
+**Skener kroz 18 stanja strana** (sve strane × svi tabovi × obe teme, sa upisanim
+sadržajem) našao je **27 elemenata ispod praga**. Sada **0 u obe teme**.
+
+## Tri stvari koje treba razumeti pre nastavka
+
+**1. Uzrok je uvek isti obrazac, ne pojedinačna boja.**
+Boja teksta je promenljiva koja se menja sa temom, a podloga je tvrdo upisana
+(`background:#fff`). Tema se pomeri, podloga ne. Zato su podloge sada promenljive:
+`--field-bg` (polja) · `--menu-bg` (padajuća lista) · `--card-bg` (male bele kutije:
+tabela, filter slogova, značka) · `--tag-bg` / `--tag-ink` (oznake u Klasicima) ·
+`--syl-ink` / `--syl-bg` (broj slogova) · `--link` / `--link-visited`.
+
+> **Ne dodavati jače pravilo `body.dark-mode ...` kao popravku.** Tako je i nastao K2:
+> `.search-row input[type=text]` ima specifičnost (0,2,1) i nadjačava
+> `body.dark-mode input` (0,1,2). Podloga MORA da ide kroz promenljivu.
+
+**2. Linkovima u tekstu boju do sada nije postavljalo nijedno CSS pravilo.**
+Uzimali su podrazumevanu boju pregledača: `#0000EE` (**1,80:1** na tamnoj), a
+posećeni `#551A8B` (**1,53:1**). Testni profil nema posećene linkove, pa se to
+merenjem nikad ne bi videlo — vlasnica ih ima. Sada `a{color:var(--link)}` i
+`a:visited`, specifičnost 0,0,1, pa tabovi/čipovi/logo/futer ostaju netaknuti.
+
+**3. Boje rima u beležnici su upisane INLINE u HTML.**
+CSS ih ne može nadjačati. Zato su dve palete u `app.js` (`RHYME_COLORS_SVETLA` /
+`RHYME_COLORS_TAMNA`, iste nijanse, pomerena samo svetlina) i **ponovno iscrtavanje
+pri promeni teme** — bez toga posle prebacivanja ostanu boje stare teme.
+
+## Vidljive promene koje vlasnica treba da odobri
+
+| Šta | Bilo | Sada | Vraća se |
+|---|---|---|---|
+| Broj slogova u balončiću uz reč | svetloplavo `#26a2f8` | tamnije plavo `#146ba8` | `--syl-ink` |
+| Sporedni tekst u **svetloj** temi (`--muted`) | `#9a93b8` | `#756e94` | `--muted` |
+| Boje rimskih grupa u beležnici | jedna paleta | dve, po temi | `RHYME_COLORS_*` u `app.js` |
+| Značka „sinonimi" | belo slovo | tamno slovo, ista plava | `.syn-badge` |
+
+Sve četiri su popravke čitljivosti (svaka je bila ispod 4,5:1), ali menjaju izgled —
+zato stoje ovde, a ne u fusnoti.
+
+## Test — sa 140 na 167 provera
+
+| Sekcija | Šta hvata |
+|---|---|
+| `10b` | tema preživljava `F5` i odlazak na stranu reči + ikonica se poklapa sa temom |
+| `10c` | **svaki vidljivi tekst** na 6 strana, u obe teme, sa upisanim sadržajem |
+| `12j` | strana reči kao alat: `app.js`, ćirilica, kopiranje, `#toast`, `#printArea`, naslovi, kontrast |
+
+**Sve nove provere su prvo puštene protiv produkcije DOK JE TAMO STARI KOD i sve su
+pale** — 13 iz prvog kruga, 12 iz drugog. To je jedini dokaz da provera nešto hvata.
+
+> **Zamka koju ne ponavljati:** sekcija `10c` je isprva otvarala 12 zasebnih strana.
+> Svaki `browser.newPage()` pravi nov kontekst sa praznim kešom, pa je svako merenje
+> iznova skidalo `reci.txt` + `definicije.json` — 12 × 22 MB obori lokalni server i
+> test padne bez ijednog pravog kvara. Sada je jedna strana za svih 12 merenja.
+
+## Šta NIJE urađeno
+
+- **GRUPE 2–7 iz `AUDIT/UPUTSTVO-ZA-POPRAVKE.md`** — osim K2 i S8, koje su odrađene
+  ranije jer ih je vlasnica prijavila. Ostaje V3, V4, S2, V6, V7, S1, K4, K5, ćirilica,
+  performanse i sve iz dopune audita.
+- **K3 (dečji režim)** — čeka odluku, `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`.
+  Vlasnica je odobrila **samo Odeljak 1** (uklanjanje 7 pogrešno blokiranih reči:
+  *pisao, pisa, krvavi, krvava, krvavo, smetlar, kura*). **To još NIJE urađeno** —
+  liste `BLOCKED` stoje na dva mesta: `public/app.js:93` i `build/gen_pages.py:550`.
+  Posle izmene se MORA ponovo pokrenuti `python3 build/gen_pages.py`.
+- **N14 (novo)** — živi rezultati i dalje iscrtavaju `<h3>` odmah ispod `<h1>` na `/`
+  i `/rimovanje-reci/`. Statične strane su popravljene, živi alat nije.
+
+## Alatka koja ostaje sledećoj sesiji
+
+Skener kontrasta:
+`/private/tmp/claude-501/-Users-jovana-jovic/076b64b6-822c-4afd-a92e-03bd6e50532d/scratchpad/skener-kontrasta.mjs`
+
+```bash
+node skener-kontrasta.mjs               # noćni režim
+TEMA=svetla node skener-kontrasta.mjs   # dnevni režim
+```
+
+Prolazi sve strane i tabove, slaže prozirne podloge, preskače prelive, meri i polja
+sa upisanom vrednošću. **Prekopirati ga u `test/` da ne nestane sa privremenim folderom.**
+
+---
+
+# Sesija 28–29. jul 2026 — KOMPLETAN AUDIT (bez ijedne izmene koda)
+
+> **Sledeća sesija radi POPRAVKE. Radni nalog je gotov:**
+> **`AUDIT/UPUTSTVO-ZA-POPRAVKE.md`** — pročitati ga prvo, sve je tamo poređano po
+> redosledu i sa tačnim linijama.
+
+## Šta je urađeno
+
+**Nijedna linija koda nije promenjena.** Sesija je bila isključivo audit i dokumentacija.
+
+| Šta | Ishod |
+|---|---|
+| Postojeći test protiv produkcije | **140/140 prolazi** ✅ |
+| Prvi audit (39 agenata) | 27 nalaza — ali **samo 3/10 dimenzija završilo**, 7 se zaglavilo |
+| Vlasnica prijavila ručno | **5 bagova, svih 5 potvrđeno** — 3 nije našao nijedan agent |
+| Dopuna audita (54 agenta) | **8/8 dimenzija**, 37 novih nalaza, 0 zaglavljenih |
+| **Ukupno otvoreno** | **72 nalaza** — 6 kritičnih, 7 visokih |
+| **Ocena** | **6,9 / 10** |
+
+## Stanje sajta
+
+**Jezgro je odlično, ivice su polomljene.** Rimovanje radi brzo (60–145 ms) i tačno,
+LCP 704–796 ms, CLS ~0, beležnica sa metrom i šemom rime nema premca na srpskom.
+Ali **98,9% sajta su generisane strane** i tamo se raspada: nema tamnog režima na
+2.009 od 2.010 strana, prekidač za ćirilicu je mrtvo dugme na 1.988 strana, a
+„Kopiraj sve rime" CSP blokira.
+
+**Šest kritičnih:** tamni režim se gubi na `F5` · u tamnom režimu se ne vidi šta se
+kuca (kontrast 1,23:1) · dečji režim propušta vulgarne reči kroz padeže (284 oblika) ·
+zabranjen localStorage obori sajt na 0 rima · pokvaren `rimoteka_favorites` isto ·
+tamni režim ne postoji na podstranama.
+
+## Novi fajlovi
+
+| Fajl | Šta je |
+|---|---|
+| `AUDIT/UPUTSTVO-ZA-POPRAVKE.md` | **radni nalog za sledeću sesiju** |
+| `AUDIT/NALAZI-OTVORENI.md` | živi spisak 72 nalaza — izvor istine |
+| `AUDIT/2026-07-28-audit.md` | prvi izveštaj |
+| `AUDIT/2026-07-29-dopuna.md` | dopuna, 37 nalaza sa scenarijima |
+| `AUDIT/PROPUSTI.md` | **zašto je audit promašio ono što je vlasnica našla** |
+| `MONETIZACIJA.md` | plan za budućnost — **ne radi se sada** |
+
+## Šta je promenjeno u pravilima (globalno, važi za sve projekte)
+
+- **Audit na svaka 3 dana**, rezultati pod datumom u `AUDIT/GGGG-MM-DD-audit.md`
+- **Podsetnik na početku svake sesije** — otvoreni nalazi, sledeće iz TODO, kad je
+  bio poslednji audit, šta je zaostalo. **Prvo bagovi, pa novo.**
+- **Posle svakog posla obavezan predlog šta dalje + bar jedan istražen inovativan predlog**
+- Kompletan protokol za audit upisan u globalni `CLAUDE.md` (ritam, metod, devet
+  provera koje se najčešće propuste, pravila za višeagentni audit)
+- `TODO.md` dobio odeljak A (inovativni predlozi) i B (šta ne raditi)
+
+## Zamke koje MORAŠ znati
+
+- **Zaglavljen agent nije obavljen posao.** Prvi audit je prijavljen kao gotov, a 70%
+  dimenzija se zaglavilo. Pokrivenost ide u naslov izveštaja, ne u fusnotu.
+- **Test od 140 provera prolazio je dok je sajt imao 72 nalaza** — obilazi 7 od 2.010
+  strana i proverava da element *postoji*, ne da *radi*.
+- **Bagovi žive na preseku dva stanja** — tamni režim *i* kucanje; klik na rimu *i*
+  kursor usred reči; pretraga *i* prebacivanje tabova. Testirati kombinacije, ne ose.
+- **`grep -c` broji redove, ne pojave** — umalo lažna uzbuna da strane nisu
+  server-renderovane. Jesu (86–129 reči u statičkom HTML-u).
+- **Nalaz mora da navede u kojoj tačno situaciji se kvar dešava.** Prijavljeno je
+  „tamni režim se nikad ne vrati" — netačno; opstaje kroz tabove, gubi se na `F5`.
+- **Kad vlasnica kaže suprotno od izmerenog — ona je prva u pravu.**
+
+## Podaci koje vredi zapamtiti
+
+- **Saobraćaj (GA, 7 dana):** 38 aktivnih korisnika, 150 pregleda, 124 pretrage rima.
+  Srbija 24 · Španija 7. Rast +58% nedeljno. Oko **150 korisnika mesečno** — premalo
+  za reklame, dovoljno da se vidi da alat živi.
+- **Rimoteka Pro je već napravljena** (backend + frontend), samo nije deployovana;
+  Pro dugme zakomentarisano u `index.html:104`. Detalji: `STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md`.
+- **Strane reči su potpuno server-renderovane** — presudno jer GPTBot i ClaudeBot ne
+  izvršavaju JavaScript. Uz mali jezik, to je najveća prilika za citiranje u AI odgovorima.
+
+## Sledeći puni audit: 31.07.2026.
+
+---
+
 # Sesija 28. jul 2026 (druga) — „Učitavam rečnik", ćirilica, čipovi, interno povezivanje
 
 > **Stanje: sve je na produkciji i zeleno.** `BASE=https://rimoteka.com node

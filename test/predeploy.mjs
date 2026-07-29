@@ -13,8 +13,8 @@
  * Izlazni kod 0 = sve prošlo, sme deploy. Bilo šta drugo = NE deployovati.
  */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
-import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { spawn } from 'node:child_process';
 import path from 'node:path';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -32,27 +32,59 @@ function ok(ime, uslov, detalj = '') {
 
 const pauza = ms => new Promise(r => setTimeout(r, ms));
 
+/* Lokalni server za test živi u ZASEBNOM PROCESU — `test/static-server.mjs`.
+   Objašnjenje zašto (jednonitni python, zaglavljivanje, deljena Node petlja,
+   keš zaglavlja) stoji u zaglavlju tog fajla. */
+
 async function main() {
   let server;
   if (LOKALNO) {
-    server = spawn('python3', ['-m', 'http.server', String(PORT)], {
-      cwd: path.join(ROOT, 'public'), stdio: 'ignore'
+    server = spawn('node', [path.join(ROOT, 'test', 'static-server.mjs'), path.join(ROOT, 'public'), String(PORT)],
+                   { stdio: ['ignore', 'pipe', 'pipe'], detached: true });
+    server.stderr.on('data', d => console.error('[server]', String(d).trim()));
+    // čekaj da server javi da je spreman, ne fiksnih 800 ms
+    await new Promise((r, x) => {
+      const t = setTimeout(() => x(new Error('lokalni server se nije podigao za 15 s')), 15000);
+      server.stdout.on('data', d => { if (String(d).includes('spreman')) { clearTimeout(t); r(); } });
+      server.on('error', e => { clearTimeout(t); x(e); });
     });
-    await pauza(1500);
   }
 
   const browser = await chromium.launch();
 
-  // Lokalni `python3 -m http.server` servira reci.txt (2,6 MB) i definicije.json
-  // (20 MB) iznova za svaku novu stranu, pa podrazumevanih 30 s ume da istekne
-  // bez ijednog pravog kvara — test padne, a sajt je ispravan. Zato svaka nova
-  // strana dobija izdašan tajmaut na jednom mestu, umesto da se dopisuje
-  // pojedinačno pri svakoj novoj sekciji testa.
-  const _novaStrana = browser.newPage.bind(browser);
-  browser.newPage = async (...a) => {
-    const p = await _novaStrana(...a);
+  /* SVAKA NOVA STRANA: izdašan rok + PONAVLJANJE NAVIGACIJE.
+     Test otvara preko trideset zasebnih strana, svaku sa svojim praznim kešom.
+     Izmereno 29.07.2026: otprilike svako drugo pokretanje se zaglavi na jednoj
+     `page.goto` — pregledač u tom trenutku NE pošalje nijedan zahtev
+     (server pokazuje 0 veza i na `curl` odgovara za 0,21 s), dakle nije kvar
+     sajta ni servera nego zastoj u samom Chromiumu.
+     Zato se navigacija ponavlja do tri puta. Zastoj koji se ponovi tri puta
+     zaredom se i dalje prijavljuje kao pad — pravi kvar se ovim ne sakriva. */
+  function ojacajStranu(p) {
     p.setDefaultNavigationTimeout(120000);
+    const _goto = p.goto.bind(p);
+    p.goto = async (url, opt = {}) => {
+      let poslednja;
+      for (let i = 1; i <= 3; i++) {
+        try { return await _goto(url, { timeout: 45000, ...opt }); }
+        catch (e) {
+          poslednja = e;
+          console.log(`  ↻ navigacija na ${url} nije uspela (${i}/3) — ponavljam`);
+          await pauza(1500);
+        }
+      }
+      throw poslednja;
+    };
     return p;
+  }
+  const _novaStrana = browser.newPage.bind(browser);
+  browser.newPage = async (...a) => ojacajStranu(await _novaStrana(...a));
+  const _noviKontekst = browser.newContext.bind(browser);
+  browser.newContext = async (...a) => {
+    const c = await _noviKontekst(...a);
+    const _cNova = c.newPage.bind(c);
+    c.newPage = async (...b) => ojacajStranu(await _cNova(...b));
+    return c;
   };
 
   const page = await browser.newPage();
@@ -875,8 +907,9 @@ async function main() {
     ok('/slogovi/ → broji slogove po redu', slog.brojevi === '12,6,2', slog.brojevi);
     ok('/slogovi/ → pokazuje i broj znakova (na hover)', /znak/.test(slog.znakovi || ''), slog.znakovi);
     ok('/slogovi/ → tekst se ne ponavlja ispod polja', slog.ponovljen === 0, `${slog.ponovljen}`);
+    // Oblik zavisi od broja (61 znak · 2 znaka · 5 znakova) — zato koren, ne ceo oblik.
     ok('/slogovi/ → ukupan zbir ima slogove, reči i znakove',
-       /slog/.test(slog.ukupno) && /reči/.test(slog.ukupno) && /znakova/.test(slog.ukupno), slog.ukupno);
+       /slog/.test(slog.ukupno) && /reč|reči/.test(slog.ukupno) && /znak/.test(slog.ukupno), slog.ukupno);
     ok('/slogovi/ → naslov cilja i karaktere', /karaktera/i.test(slog.naslov || ''), slog.naslov);
     ok('/slogovi/ → tačno jedan h1', slog.h1 === 1, `${slog.h1}`);
     const tesko = slogZahtevi.filter(u => /reci\.txt|definicije\.json|frekvencija\.json|sinonimi\.json/.test(u));
@@ -1242,13 +1275,340 @@ async function main() {
     ok('/rime-za/ljubav/ → nula grešaka u konzoli', recGreske.length === 0, recGreske.slice(0, 3).join(' | '));
     await ctxRec.close();
 
+    console.log('\n14) GLAVNO DUGME NIJE U TIHOM REŽIMU + PORUKE NA NEVALIDAN UNOS');
+    /* Nalaz V3: `onclick = doRhymes` je prosleđivao `MouseEvent` kao zastavicu
+       `silent`, pa je svaki klik radio tiho — bez `?rec=` u URL-u i bez GA4.
+       Nalaz V4: zbog istog uzroka je na „a", „123", „😀" panel ostajao PRAZAN.
+       Nalaz N2: „constructor" je rušio prikaz (`excluded.has is not a function`).
+       Sve tri provere su puštene protiv produkcije dok je tamo bio stari kod —
+       i sve tri su pale. */
+    {
+      const g14 = await browser.newPage();
+      const g14greske = [];
+      g14.on('pageerror', e => g14greske.push(String(e)));
+      g14.on('console', m => { if (m.type() === 'error') g14greske.push(m.text()); });
+      await g14.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await g14.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+
+      await g14.fill('#rimeInput', 'ljubav');
+      await g14.click('#rimeBtn');
+      await pauza(700);
+      ok('V3 klik na dugme upisuje ?rec= u URL',
+         new URL(g14.url()).searchParams.get('rec') === 'ljubav', g14.url());
+
+      // klik i Enter moraju da vode istim putem — ranije su se razlikovali
+      await g14.fill('#rimeInput', 'nada');
+      await g14.press('#rimeInput', 'Enter');
+      await pauza(400);
+      const urlEnter = new URL(g14.url()).searchParams.get('rec');
+      await g14.fill('#rimeInput', 'ruka');
+      await g14.click('#rimeBtn');
+      await pauza(400);
+      const urlKlik = new URL(g14.url()).searchParams.get('rec');
+      ok('V3 Enter i klik rade isto', urlEnter === 'nada' && urlKlik === 'ruka',
+         `enter=${urlEnter} klik=${urlKlik}`);
+
+      for (const unos of ['a', '123', '😀']) {
+        await g14.fill('#rimeInput', unos);
+        await g14.click('#rimeBtn');
+        await pauza(300);
+        const t = ((await g14.textContent('#rimeResults')) || '').trim();
+        ok(`V4 unos „${unos}" javlja poruku (ne ćuti)`, t.length > 3, `panel prazan`);
+      }
+
+      for (const unos of ['constructor', '__proto__', 'toString']) {
+        await g14.fill('#rimeInput', unos);
+        await g14.click('#rimeBtn');
+        await pauza(500);
+        const t = ((await g14.textContent('#rimeResults')) || '').trim();
+        ok(`N2 unos „${unos}" ne ruši prikaz`, t.length > 3, 'panel prazan');
+      }
+      ok('N2 nijedna greška u konzoli na te unose', g14greske.length === 0,
+         g14greske.slice(0, 3).join(' | '));
+      await g14.close();
+    }
+
+    console.log('\n14b) SRPSKA MNOŽINA BROJEVA (1 / 2–4 / 5+)');
+    /* Nalaz S2: pisalo je „1 reči", „2 slogova", „4 redova". */
+    {
+      const g14b = await browser.newPage();
+      await g14b.goto(BASE + '/slogovi/', { waitUntil: 'domcontentloaded' });
+      const uzmi = async txt => {
+        await g14b.fill('#sylInput', txt);
+        await pauza(400);
+        return ((await g14b.textContent('.syl-total')) || '');
+      };
+      const s1 = await uzmi('ma');            // 1 red · 1 reč · 2 znaka · 1 slog
+      ok('S2 „1 reč" (ne „1 reči")', /1 reč /.test(s1) && !/1 reči/.test(s1), s1);
+      ok('S2 „2 znaka" (ne „2 znakova")', /2 znaka /.test(s1) && !/2 znakova/.test(s1), s1);
+      ok('S2 „1 slog" (ne „1 sloga")', /1 slog /.test(s1), s1);
+      const s3 = await uzmi('a\nb\nc');       // 3 reda · 3 reči · 5 znakova
+      ok('S2 „3 reda" (ne „3 redova")', /3 reda/.test(s3) && !/3 redova/.test(s3), s3);
+      const s5 = await uzmi('a\nb\nc\nd\ne'); // 5 redova
+      ok('S2 „5 redova" (ne „5 reda")', /5 redova/.test(s5), s5);
+      await g14b.close();
+    }
+
+    console.log('\n14c) PRETRAGA REČI NE LAŽE DOK SE REČNIK UČITAVA');
+    /* Ranije je pisalo „Nema reči koje odgovaraju" i pre nego što rečnik stigne. */
+    {
+      const g14c = await browser.newPage();
+      await g14c.goto(BASE + '/?tab=pretraga', { waitUntil: 'domcontentloaded' });
+      const poruka = await g14c.evaluate(() => {
+        WORDS.length = 0;                       // simuliraj „rečnik još nije stigao"
+        document.getElementById('searchInput').value = 'ljub';
+        document.getElementById('searchBtn').click();
+        return (document.getElementById('searchResults').textContent || '').trim();
+      });
+      ok('pretraga bez rečnika kaže „Učitavam", ne „Nema reči"',
+         /Učitavam|Учитавам/.test(poruka), poruka);
+      await g14c.close();
+    }
+
+    console.log('\n15) KLIK NA RIMU U BELEŽNICI ZAMENJUJE REČ POD KURSOROM (V6)');
+    /* Reprodukovano na produkciji sa starim kodom: kursor USRED reči „nada" +
+       klik na „kada" davao je „gde je na kadada". Panel je pisao „Rime za nada",
+       a klik nije menjao tu reč nego je umetao na mesto kursora. */
+    {
+      const g15 = await browser.newPage();
+      await g15.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await g15.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await g15.click('#tabs [data-tab="beleznica"]');
+      await pauza(300);
+      await g15.evaluate(() => { document.getElementById('noteEditor').innerHTML = ''; });
+      await g15.click('#noteEditor');
+      await g15.keyboard.type('Kad me pitas gde je nada');
+      await pauza(900);
+      await g15.keyboard.press('ArrowLeft');   // nada| → nad|a
+      await g15.keyboard.press('ArrowLeft');   // nad|a → na|da  (SREDINA reči)
+      await pauza(700);
+
+      const naslov = ((await g15.textContent('#noteRhymes h4').catch(() => '')) || '');
+      ok('V6 panel pokazuje rime za reč pod kursorom („nada")', /nada/i.test(naslov), naslov);
+
+      const cip = ((await g15.textContent('#noteRhymes .chip .word').catch(() => '')) || '').trim();
+      await g15.click('#noteRhymes .chip');
+      await pauza(600);
+      const tekst = (await g15.evaluate(() => {
+        let out = '';
+        const walk = n => n.childNodes.forEach(c => {
+          if (c.nodeType === 3) out += c.data;
+          else if (c.nodeName === 'BR') out += '\n';
+          else walk(c);
+        });
+        walk(document.getElementById('noteEditor'));
+        return out;
+      })).trim();
+      ok('V6 kursor USRED reči → reč je ZAMENJENA, ne umetnuta',
+         tekst === `Kad me pitas gde je ${cip}`, `dobijeno „${tekst}", čip „${cip}"`);
+      ok('V6 nije nastala slepljena reč („na kadada")',
+         !/\bna\s+\S+da\b/.test(tekst) && !/nadada|dada/.test(tekst), tekst);
+
+      // kursor u PRAZNINI → i dalje se UBACUJE (korisnik piše dalje)
+      await g15.click('#noteEditor');
+      await g15.keyboard.press('End');
+      await g15.keyboard.type(' ');
+      await pauza(800);
+      const cip2 = ((await g15.textContent('#noteRhymes .chip .word').catch(() => '')) || '').trim();
+      await g15.click('#noteRhymes .chip');
+      await pauza(500);
+      const t2 = (await g15.evaluate(() => document.getElementById('noteEditor').innerText)).trim();
+      ok('V6 kursor u PRAZNINI → rima se UBACUJE (prethodna reč ostaje)',
+         t2.startsWith(tekst) && t2.length > tekst.length && t2.includes(cip2), `„${t2}"`);
+      await g15.close();
+    }
+
+    console.log('\n15b) URL PRATI TAB — adresa je stanje (V7, N3)');
+    /* Ranije je adresa ostajala `/?rec=ljubav` na svih 7 tabova: nije bilo
+       deljivog linka, „Nazad" nije radio, osvežavanje je vraćalo na rime. */
+    {
+      const g15b = await browser.newPage();
+      await g15b.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+      await g15b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(600);
+      for (const [tab, put] of [['pretraga','/recnik-srpskog-jezika/'], ['slogovi','/slogovi/'],
+                                ['beleznica','/pisanje-pesama/'], ['klasici','/klasici/'],
+                                ['igra','/igra-rimovanja/']]) {
+        await g15b.click(`#tabs [data-tab="${tab}"]`);
+        await pauza(350);
+        ok(`V7 tab „${tab}" → adresa ${put}`, new URL(g15b.url()).pathname === put, g15b.url());
+      }
+      ok('V7 ?rec= nestaje kad se napusti tab sa rimama',
+         !new URL(g15b.url()).searchParams.get('rec'), g15b.url());
+      await g15b.goBack();
+      await pauza(500);
+      const nazad = await g15b.evaluate(() => document.querySelector('#tabs [data-tab].active')?.dataset.tab);
+      ok('V7 „Nazad" vraća prethodni tab', nazad === 'klasici', `aktivan: ${nazad}`);
+
+      await g15b.goto(BASE + '/?tab=igra', { waitUntil: 'domcontentloaded' });
+      await pauza(900);
+      const igra = await g15b.evaluate(() => document.querySelector('#tabs [data-tab].active')?.dataset.tab);
+      ok('N3 ?tab=igra otvara igru (ranije se ignorisao)', igra === 'igra', `aktivan: ${igra}`);
+      await g15b.close();
+    }
+
+    console.log('\n15c) KLIK NA LOGO RESETUJE POČETNU (S1)');
+    {
+      const g15c = await browser.newPage();
+      await g15c.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+      await g15c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(900);
+      const pre = await g15c.evaluate(() => ({
+        polje: document.getElementById('rimeInput').value,
+        rima: document.querySelectorAll('#rimeResults .word').length,
+      }));
+      await g15c.click('#brandHome');
+      await pauza(600);
+      const posle = await g15c.evaluate(() => ({
+        polje: document.getElementById('rimeInput').value,
+        rima: document.querySelectorAll('#rimeResults .word').length,
+        url: location.pathname + location.search,
+      }));
+      ok('S1 logo prazni polje', pre.polje === 'ljubav' && posle.polje === '', `posle="${posle.polje}"`);
+      ok('S1 logo briše rezultate', pre.rima > 5 && posle.rima === 0, `pre=${pre.rima} posle=${posle.rima}`);
+      ok('S1 logo čisti ?rec= iz adrese', posle.url === '/', posle.url);
+      await g15c.close();
+    }
+
+    console.log('\n16) SAJT NE UMIRE — zabranjen i pokvaren localStorage (K4, K5)');
+    /* Reprodukovano na produkciji: oba slučaja daju 0 rima. Zabranjen pristup
+       baca `SecurityError` još pri čitanju, a to je stajalo IZNAD `const VOWELS`,
+       pa je i sigurnosna mreža pucala na TDZ grešci. */
+    {
+      const brojRima = p => p.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.getElementById('rimeInput').value = 'ljubav';
+        document.getElementById('rimeBtn').click();
+        await w(900);
+        return document.querySelectorAll('#rimeResults .word').length;
+      });
+
+      const pK4 = await browser.newPage();
+      const grK4 = [];
+      pK4.on('pageerror', e => grK4.push(String(e).slice(0, 140)));
+      await pK4.addInitScript(() => {
+        const baci = () => { throw new DOMException('The operation is insecure.', 'SecurityError'); };
+        Object.defineProperty(window, 'localStorage', { get: baci, configurable: true });
+      });
+      await pK4.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await pK4.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 }).catch(() => {});
+      const nK4 = await brojRima(pK4);
+      ok('K4 zabranjen localStorage → rime i dalje rade', nK4 > 5, `${nK4} rima`);
+      ok('K4 nema greške „before initialization" (TDZ u sigurnosnoj mreži)',
+         !grK4.some(e => /before initialization/.test(e)), grK4.slice(0, 2).join(' | '));
+      await pK4.close();
+
+      for (const smece of ['{nije-json', 'null', '"tekst"', '{"a":1}']) {
+        const pK5 = await browser.newPage();
+        await pK5.addInitScript(v => { try { localStorage.setItem('rimoteka_favorites', v); } catch (e) {} }, smece);
+        await pK5.goto(BASE, { waitUntil: 'domcontentloaded' });
+        await pK5.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 }).catch(() => {});
+        const n = await brojRima(pK5);
+        ok(`K5 pokvaren rimoteka_favorites (${smece}) → rime rade`, n > 5, `${n} rima`);
+        await pK5.close();
+      }
+    }
+
+    console.log('\n16b) KVAR SERVERA SE PRIJAVLJUJE, NE TUMAČI KAO „NEMA RIME"');
+    {
+      const p16b = await browser.newPage();
+      await p16b.route('**/reci.txt*', r => r.fulfill({
+        status: 502, contentType: 'text/html',
+        body: '<!doctype html><html><body><h1>502 Bad Gateway</h1></body></html>'
+      }));
+      await p16b.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await pauza(4000);
+      const t = await p16b.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.getElementById('rimeInput').value = 'ljubav';
+        document.getElementById('rimeBtn').click();
+        await w(700);
+        return (document.getElementById('rimeResults').textContent || '').trim();
+      });
+      ok('loadDict proverava r.ok — HTML strana greške NIJE rečnik',
+         !/Nema rime/i.test(t), `„${t.slice(0, 80)}"`);
+      await p16b.close();
+    }
+
+    console.log('\n16c) JEDAN NEUSPEH definicije.json NE UBIJA DEFINICIJE ZAUVEK');
+    {
+      const p16c = await browser.newPage();
+      let pao = false;
+      await p16c.route('**/definicije.json*', r => {
+        if (!pao) { pao = true; return r.fulfill({ status: 503, contentType: 'text/plain', body: 'nope' }); }
+        return r.continue();
+      });
+      await p16c.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p16c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const velicina = await p16c.evaluate(async () => {
+        await loadLocalDefs().catch(() => {});   // prvi pokušaj pada
+        await loadLocalDefs().catch(() => {});   // drugi mora da uspe
+        return DEFS.size;
+      });
+      ok('definicije se posle neuspeha učitavaju iz drugog pokušaja', velicina > 1000, `DEFS.size=${velicina}`);
+      await p16c.close();
+    }
+
+    console.log('\n16d) DVA OTVORENA TABA NE GAZE BELEŽNICU');
+    /* Reprodukovano na produkciji: dopuna iz prvog taba nestane iz memorije čim
+       drugi tab (koji drži stariju verziju) otkuca jedan jedini znak. */
+    {
+      const ctx16 = await browser.newContext();
+      const a = await ctx16.newPage();
+      await a.goto(BASE + '/?tab=beleznica', { waitUntil: 'domcontentloaded' });
+      await pauza(1500);
+      await a.evaluate(() => { document.getElementById('noteEditor').innerHTML = ''; });
+      await a.click('#noteEditor');
+      await a.keyboard.type('Prvi tab je napisao strofu');
+      await pauza(1200);
+
+      const b = await ctx16.newPage();
+      await b.goto(BASE + '/?tab=beleznica', { waitUntil: 'domcontentloaded' });
+      await pauza(1500);
+
+      await a.click('#noteEditor');
+      await a.keyboard.press('End');
+      await a.keyboard.type(' i dopunu');
+      await pauza(1500);
+
+      await b.click('#noteEditor');
+      await b.keyboard.press('End');
+      await b.keyboard.type('!');
+      await pauza(1500);
+
+      const uMemoriji = await b.evaluate(() => localStorage.getItem('rimoteka_notes') || '');
+      ok('dopuna iz prvog taba preživi kucanje u drugom tabu',
+         uMemoriji.includes('i dopunu'), `u memoriji: „${uMemoriji}"`);
+      await ctx16.close();
+    }
+
+    console.log('\n16e) OBJAŠNJENJE REČI NE VISI ZAUVEK NA „učitavanje…"');
+    {
+      const p16e = await browser.newPage();
+      await p16e.route('**/sr.wiktionary.org/**', () => {});   // zahtev se guta
+      await p16e.route('**/sr.wikipedia.org/**', () => {});
+      await p16e.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p16e.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const tekst = await p16e.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        DEFS.clear();
+        const r = await Promise.race([
+          fetchDefinition('nepostojecarecxyz'),
+          w(12000).then(() => ({ text: 'VISI ZAUVEK', src: '' }))
+        ]);
+        return r.text;
+      });
+      ok('spoljni poziv za objašnjenje ima rok', tekst !== 'VISI ZAUVEK', tekst);
+      await p16e.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));
 
   } finally {
     await browser.close();
-    if (server) server.kill();
+    if (server) { try { process.kill(-server.pid); } catch { server.kill(); } }
   }
 
   console.log('\n' + '─'.repeat(62));

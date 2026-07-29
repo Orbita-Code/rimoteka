@@ -75,6 +75,54 @@ function toCyr(s){
       (LAT2CYR_U[ch] !== undefined ? LAT2CYR_U[ch] : ch));
 }
 
+/* ============ LOKALNA MEMORIJA KOJA NE OBARA SAJT ============
+ * `localStorage` nije uvek dostupan: privatni režim, blokirani kolačići,
+ * školski/firmski pregledač i „Block third-party cookies" bacaju
+ * `SecurityError` već pri ČITANJU. Ranije su tri takva čitanja stajala na vrhu
+ * fajla, IZNAD `const VOWELS` — pa je greška obarala celu skriptu, a sigurnosna
+ * mreža iz `setTimeout` pucala na TDZ grešci („Cannot access 'VOWELS' before
+ * initialization") i nije spasila ništa. Rezultat: sajt daje 0 rima (nalaz K4).
+ * Isto tako, pokvaren sadržaj (`{nije-json`) obarao je `JSON.parse` (nalaz K5).
+ * Svako čitanje i pisanje sada ide kroz ove tri funkcije i NIKAD ne baca.
+ * ============================================================= */
+function lsGet(k, podrazumevano = null){
+  try { const v = localStorage.getItem(k); return v === null ? podrazumevano : v; }
+  catch(e){ return podrazumevano; }
+}
+function lsSet(k, v){ try { localStorage.setItem(k, v); } catch(e){} }
+function lsRemove(k){ try { localStorage.removeItem(k); } catch(e){} }
+/* JSON iz lokalne memorije: pokvaren zapis, `null` i pogrešan tip svi vraćaju
+   podrazumevanu vrednost umesto da obore stranu. */
+function lsJSON(k, podrazumevano){
+  const sirovo = lsGet(k);
+  if(sirovo === null) return podrazumevano;
+  try {
+    const v = JSON.parse(sirovo);
+    if(v === null || v === undefined) return podrazumevano;
+    if(Array.isArray(podrazumevano) && !Array.isArray(v)) return podrazumevano;
+    return v;
+  } catch(e){ return podrazumevano; }
+}
+
+/* ============ DVA OTVORENA TABA RIMOTEKE ============
+ * Beležnica i omiljene reči se čuvaju u lokalnoj memoriji, koju DELE svi tabovi
+ * istog sajta. Svaki tab je pisao pri svakom otkucaju, pa je poslednji upis
+ * gazio prethodni: napišeš strofu u jednom tabu, otkucaš jedno slovo u drugom
+ * (koji još drži staru pesmu) — i strofa NESTANE, bez ijedne poruke.
+ * Rešenje bez servera: pamtimo šta smo mi poslednji put upisali i slušamo
+ * događaj `storage`, koji stiže SAMO iz drugih tabova.
+ *  · nismo ništa dirali od tog upisa → tiho preuzmemo noviji tekst
+ *  · imamo svoje nesačuvane izmene  → NE gazimo ništa, nego javimo korisniku
+ * ==================================================== */
+let poslednjaSacuvanaBeleska = null;   // šta je OVAJ tab poslednji put upisao
+function sacuvajBelesku(text){
+  poslednjaSacuvanaBeleska = text;
+  lsSet('rimoteka_notes', text);
+}
+function sacuvajOmiljene(){
+  lsSet('rimoteka_favorites', JSON.stringify(favorites));
+}
+
 /* ====================== Stanje ====================== */
 let WORDS = [];          // sve reči (ekavske + ijekavske na kraju), latinica
 let KEYS = [];           // jak ključ rime za svaku reč
@@ -83,9 +131,10 @@ let SET = new Set();     // za brzu proveru postojanja
 let jekStart = 0;        // indeks od kog počinju ijekavske reči
 let SYNONYMS = {};       // sinonimi iz sinonimi.json (učitavaju se u pozadini)
 const DEFS = new Map();  // ručno pisana srpska objašnjenja (Rimoteka)
-let includeJek = localStorage.getItem('rimoteka_jekavica') === '1';
-let script = localStorage.getItem('rimoteka_script') || 'lat';
-let favorites = JSON.parse(localStorage.getItem('rimoteka_favorites') || '[]');
+let includeJek = lsGet('rimoteka_jekavica') === '1';
+let script = lsGet('rimoteka_script') || 'lat';
+/* Pokvaren zapis ovde je 28.07.2026. obarao ceo sajt na 0 rima (nalaz K5). */
+let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'string');
 
 const VOWELS = new Set(['a','e','i','o','u']);
 
@@ -104,6 +153,9 @@ const KIDS_BLOCKED = new Set([
 const RHYME_EXCLUSIONS = {
   'dete': new Set(['bidete','bide','bidi'])
 };
+/* Jedan zajednički prazan skup — vraća se kad reč nema svoja isključenja.
+   Nikad se ne menja, pa je bezbedno deliti ga. */
+const EMPTY_SET = new Set();
 
 // Provera da li je reč neprikladna za decu
 function isKidsBlocked(w){
@@ -176,21 +228,52 @@ let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
 async function loadLocalDefs(){
   if(DEFS.size) return;
   if(defsPromise) return defsPromise;
+  /* Jedan neuspeh je ranije TRAJNO ubijao sve definicije: `defsPromise` je
+     ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
+     `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
+     briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
   defsPromise = fetch('/definicije.json?v=232')
-    .then(r => r.ok ? r.json() : {})
+    .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
     })
-    .catch(() => {});
+    .catch(e => {
+      console.warn('[Rimoteka] Definicije nisu učitane, pokušaću ponovo:', e.message);
+      defsPromise = null;      // dozvoli nov pokušaj
+    });
   return defsPromise;
+}
+
+/* Skidanje rečnika koje ume da RAZLIKUJE kvar od praznog odgovora.
+   Ranije se pisalo `fetch(...).then(r=>r.text())` bez provere `r.ok`: kad server
+   vrati 404 ili 502, telo je HTML strana greške — ona se uredno „učitala" kao
+   rečnik od par stotina besmislenih redova, pa je sajt tvrdio „nema rime za ovu
+   reč" umesto da prijavi kvar. Zato: status + provera da odgovor nije HTML. */
+async function uzmiTekst(url, obavezno){
+  try{
+    const r = await fetch(url);
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const t = await r.text();
+    if(/^\s*<(!doctype|html)/i.test(t)) throw new Error('server je vratio HTML umesto rečnika');
+    return t;
+  }catch(e){
+    if(obavezno) throw e;
+    console.warn('[Rimoteka] Neobavezan spisak nije učitan:', url, e.message);
+    return '';
+  }
 }
 
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    fetch('/reci.txt?v=20260727c').then(r=>r.text()),
-    fetch('/reci_jekavica.txt?v=20260726').then(r=>r.text()).catch(()=> '')
+    uzmiTekst('/reci.txt?v=20260727c', true),
+    uzmiTekst('/reci_jekavica.txt?v=20260726', false)
   ]);
+  if(ek.split('\n').filter(Boolean).length < 1000){
+    // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
+    // ne rečnik — bolje jasna greška nego tiho „nema rime".
+    throw new Error('reci.txt je stigao nepotpun (' + ek.length + ' bajtova)');
+  }
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
   jekStart = ekWords.length;
@@ -232,24 +315,12 @@ async function loadExtras(){
   }
 }
 
-// Lazy load definicija — ne blokira učitavanje stranice
-let defsLoaded = false;
-async function loadDefs(){
-  if(defsLoaded) return;
-  defsLoaded = true;
-  try{
-    const res = await fetch('/definicije.json?v=232');
-    const defs = await res.json();
-    // Ažuriraj rangiranje sa definicijama
-    for(let i=0;i<WORDS.length;i++){
-      const w = WORDS[i];
-      const hasDef = defs[w] && !defs[w].startsWith('Oblik');
-      if(hasDef) RANK.set(w, i);
-    }
-  }catch(e){
-    console.warn('Definicije nisu učitane:', e);
-  }
-}
+/* OBRISANA FUNKCIJA `loadDefs()` (nalaz N11).
+   Bila je mrtav kod — niko je nije zvao — ali opasan mrtav kod: prepisivala je
+   `RANK.set(w, i)` po redosledu iz `reci.txt` i time BRISALA frekvencijsko
+   rangiranje koje postavlja `loadExtras()`. Da ju je iko pozvao, rime bi se
+   vratile na azbučni redosled. Definicije se učitavaju kroz `loadLocalDefs()`,
+   koja rangiranje ne dira. Ne vraćati je. */
 
 /* ====================== Prikaz reči (čip) ====================== */
 function disp(word){ return script==='cyr' ? toCyr(word) : word; }
@@ -260,7 +331,7 @@ function isFav(w){ return favorites.includes(w); }
 function toggleFav(w){
   const i = favorites.indexOf(w);
   if(i>=0) favorites.splice(i,1); else favorites.unshift(w);
-  localStorage.setItem('rimoteka_favorites', JSON.stringify(favorites));
+  sacuvajOmiljene();
   updateFavCount();
   renderFavorites();
   document.querySelectorAll(`.chip[data-w="${cssEsc(w)}"] .fav`).forEach(b=>{
@@ -359,7 +430,13 @@ function filterSyl(arr){
   return arr.filter(w=>syllables(w)===rimeSyl);
 }
 
+/* `silent` je zastavica, ne događaj. Kad je `doRhymes` bio zakačen direktno
+   (`onclick = doRhymes`), pregledač je kao prvi argument prosleđivao `MouseEvent`
+   — a on je truthy, pa je SVAKI klik na glavno dugme radio u tihom režimu:
+   bez `?rec=` u URL-u, bez GA4 događaja i bez poruke na nevalidan unos.
+   Zato se ovde vrednost svodi na pravo `true`, a poziv je umotan (linija ~491). */
 function doRhymes(silent){
+  silent = silent === true;
   hideAutocomplete();
   const raw = rimeInput.value.trim().toLowerCase();
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
@@ -369,7 +446,17 @@ function doRhymes(silent){
      pozivu (beležnica računa rime za reč pod kursorom) panel je pozajmljen —
      tu bi poruka izgledala kao da je korisnik nešto tražio. Zbog toga je na
      početnoj strani pisalo „Učitavam rečnik…" iako niko nije upisao ni reč. */
-  if(q.length<2){ if(!silent) box.innerHTML='<p class="empty">Upiši reč (bar dva slova).</p>'; return; }
+  if(q.length<2){
+    if(!silent){
+      /* Unos od kog ne ostane nijedno slovo („123", „😀", „!!!") nije isto što i
+         prekratka reč — bez ove razlike je panel na takav unos ostajao PRAZAN
+         i alat je delovao pokvareno (nalaz V4). */
+      box.innerHTML = (raw.length && !q.length)
+        ? '<p class="empty">' + uiTxt('Upiši reč slovima — brojevi i znaci se ne rimuju.') + '</p>'
+        : '<p class="empty">' + uiTxt('Upiši reč (bar dva slova).') + '</p>';
+    }
+    return;
+  }
   if(WORDS.length === 0){ if(!silent) box.innerHTML='<p class="empty">Učitavam rečnik…</p>'; return; }
 
   // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
@@ -379,7 +466,12 @@ function doRhymes(silent){
 
   const key = rhymeKey(q);
   const keyLen = key.length;
-  const excluded = RHYME_EXCLUSIONS[q] || new Set();
+  /* `RHYME_EXCLUSIONS` je običan objekat, pa `RHYME_EXCLUSIONS['constructor']`
+     vrati funkciju iz prototipa umesto `undefined` — i tada `excluded.has`
+     nije funkcija, što je rušilo ceo prikaz rima (nalaz N2). Isto važi za
+     „__proto__", „toString", „valueOf". */
+  const excluded = Object.prototype.hasOwnProperty.call(RHYME_EXCLUSIONS, q)
+    ? RHYME_EXCLUSIONS[q] : EMPTY_SET;
   const limit = includeJek ? WORDS.length : jekStart;
   const strong = [];
   for(let i=0;i<limit;i++){
@@ -453,7 +545,11 @@ function doRhymes(silent){
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
 
   // Sinonimi idu ODMAH ispod najboljih rima — vidljivo, a rime i dalje prve.
-  const syns = SYNONYMS[q] || [];
+  /* Isti razlog kao kod `RHYME_EXCLUSIONS` (nalaz N2): `SYNONYMS` je običan
+     objekat učitan iz JSON-a, pa `SYNONYMS['constructor']` vrati funkciju iz
+     prototipa i `syns.slice` pukne. Provera vlasništva ključa to zatvara. */
+  const syns = (Object.prototype.hasOwnProperty.call(SYNONYMS, q) && Array.isArray(SYNONYMS[q]))
+    ? SYNONYMS[q] : [];
   if(syns.length > 0){
     renderSynonyms(box, q, syns.slice(0, 20));
   }
@@ -488,7 +584,7 @@ function doRhymes(silent){
   }
 }
 
-el('rimeBtn').onclick = doRhymes;
+el('rimeBtn').onclick = () => doRhymes();
 rimeInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doRhymes(); });
 el('rimeSyl').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
@@ -500,17 +596,17 @@ const jekToggle = el('jekToggle');
 jekToggle.checked = includeJek;
 jekToggle.addEventListener('change', e=>{
   includeJek = e.target.checked;
-  localStorage.setItem('rimoteka_jekavica', includeJek ? '1' : '0');
+  lsSet('rimoteka_jekavica', includeJek ? '1' : '0');
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
 // Dečji režim — filtrira neprikladne reči za decu
-let kidsMode = localStorage.getItem('rimoteka_kids') === '1';
+let kidsMode = lsGet('rimoteka_kids') === '1';
 const kidsToggle = el('kidsToggle');
 kidsToggle.checked = kidsMode;
 kidsToggle.addEventListener('change', e=>{
   kidsMode = e.target.checked;
-  localStorage.setItem('rimoteka_kids', kidsMode ? '1' : '0');
+  lsSet('rimoteka_kids', kidsMode ? '1' : '0');
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
@@ -625,7 +721,16 @@ function doSearch(){
   const q = toLatin(searchInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
   const box = el('searchResults');
   box.innerHTML='';
-  if(q.length<2){ box.innerHTML='<p class="empty">Upiši bar dva slova.</p>'; return; }
+  if(q.length<2){
+    box.innerHTML = (searchInput.value.trim().length && !q.length)
+      ? '<p class="empty">' + uiTxt('Upiši slova — brojevi i znaci se ne pretražuju.') + '</p>'
+      : '<p class="empty">' + uiTxt('Upiši bar dva slova.') + '</p>';
+    return;
+  }
+  /* Dok rečnik nije stigao, `WORDS` je prazan i petlja ispod ne nađe ništa —
+     ranije je zbog toga pisalo „Nema reči koje odgovaraju", što je neistina:
+     reči ima, samo još nisu učitane. */
+  if(WORDS.length === 0){ box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>'; return; }
   const out=[];
   const limit = includeJek ? WORDS.length : jekStart;
   for(let i=0;i<limit && out.length<600;i++){
@@ -713,7 +818,7 @@ function renderSylGutter(lines){
     const ima = !!line.trim();
     const slog = ima ? lineSyllables(line) : 0;
     row.innerHTML = `<span class="g-syl">${ima ? slog : '·'}</span>`;
-    if(ima) row.title = `${slog} ${slogRec(slog)} · ${line.length} ${line.length === 1 ? 'znak' : 'znakova'}`;
+    if(ima) row.title = `${slog} ${slogRec(slog)} · ${line.length} ${znakRec(line.length)}`;
     frag.appendChild(row);
   });
   sylGutterInner.innerHTML = '';
@@ -737,9 +842,9 @@ function updateSyl(){
   const words = (text.trim().match(/\S+/g) || []).length;
   const t = document.createElement('div');
   t.className = 'syl-total';
-  t.innerHTML = `Ukupno: <b>${totalSyl}</b> ${uiTxt(slogRec(totalSyl))} · <b>${words}</b> ${uiTxt('reči')}`
-    + ` · <b>${chars}</b> ${uiTxt('znakova')} (${noSpace} ${uiTxt('bez razmaka')})`
-    + ` · ${nonEmpty} ${uiTxt(nonEmpty === 1 ? 'red' : 'redova')}`;
+  t.innerHTML = `${uiTxt('Ukupno')}: <b>${totalSyl}</b> ${uiTxt(slogRec(totalSyl))} · <b>${words}</b> ${uiTxt(recRec(words))}`
+    + ` · <b>${chars}</b> ${uiTxt(znakRec(chars))} (${noSpace} ${uiTxt('bez razmaka')})`
+    + ` · ${nonEmpty} ${uiTxt(redRec(nonEmpty))}`;
   out.appendChild(t);
 }
 
@@ -771,9 +876,9 @@ const noteGutter = el('noteGutter');
 const noteTitle = el('noteTitle');
 
 // Naslov pesme — opciono, čuva se uz pesmu; koristi se u PDF/TXT/deljenju
-noteTitle.value = localStorage.getItem('rimoteka_notes_title') || '';
+noteTitle.value = lsGet('rimoteka_notes_title') || '';
 noteTitle.addEventListener('input', () => {
-  localStorage.setItem('rimoteka_notes_title', noteTitle.value);
+  lsSet('rimoteka_notes_title', noteTitle.value);
 });
 function getPoemTitle(){ return noteTitle.value.trim(); }
 
@@ -818,7 +923,7 @@ function lenientRhymeKey(w){
 }
 
 // Inicijalizacija — učitaj tekst iz localStorage i oboji rime
-const savedText = localStorage.getItem('rimoteka_notes') || '';
+const savedText = lsGet('rimoteka_notes') || '';
 noteInput.value = savedText;
 if(savedText.trim()){
   const { colorMap } = analyzeRhymes(savedText);
@@ -970,7 +1075,7 @@ function renderColoredText(text){
 function updateEditor(){
   const text = getEditorText();
   noteInput.value = text;
-  localStorage.setItem('rimoteka_notes', text);
+  sacuvajBelesku(text);
   renderGutter();
   updateNoteStats();
   renderNoteRhymes();
@@ -986,7 +1091,7 @@ function scheduleEditorUpdate(){
   editorUiTimer = setTimeout(() => {
     const text = getEditorText();
     noteInput.value = text;
-    localStorage.setItem('rimoteka_notes', text);
+    sacuvajBelesku(text);
     renderGutter();
     updateNoteStats();
     renderNoteRhymes();
@@ -1131,8 +1236,9 @@ el('clearNotes').onclick = () => {
     setEditorText('');
     noteInput.value = '';
     noteTitle.value = '';
-    localStorage.removeItem('rimoteka_notes');
-    localStorage.removeItem('rimoteka_notes_title');
+    sacuvajBelesku('');
+    lsRemove('rimoteka_notes');
+    lsRemove('rimoteka_notes_title');
     renderGutter();
     updateNoteStats();
     renderNoteRhymes();
@@ -1416,7 +1522,7 @@ const CAESURA = { 10: 4, 12: 6 };   // deseterac 4+6, dvanaesterac 6+6
 // fontovima crtaju skoro isto veliki, pa se naglašen i nenaglašen slog ne razlikuju.
 const METER_TITLE = { S:'naglašen slog', U:'nenaglašen slog', '?':'akcenat je na jednom od ovih slogova' };
 
-let meterOn = localStorage.getItem('rimoteka_meter') === '1';
+let meterOn = lsGet('rimoteka_meter') === '1';
 
 function renderMeter(){
   const box = el('noteMeter');
@@ -1491,7 +1597,7 @@ function updateMeterButton(){
 }
 el('toggleMeter').onclick = () => {
   meterOn = !meterOn;
-  localStorage.setItem('rimoteka_meter', meterOn ? '1' : '0');
+  lsSet('rimoteka_meter', meterOn ? '1' : '0');
   updateMeterButton();
   renderMeter();
 };
@@ -1505,7 +1611,7 @@ function setNoteText(text){
     ? renderColoredText(text)
     : escapeHtml(text).replace(/\n/g, '<br>');
   noteInput.value = text;
-  localStorage.setItem('rimoteka_notes', text);
+  sacuvajBelesku(text);
   renderGutter();
   updateNoteStats();
   renderNoteRhymes();
@@ -1599,7 +1705,7 @@ function updateNoteStats(){
   const scheme = firstStanzaScheme(allLines);
   const schemeName = scheme ? SCHEME_NAMES[scheme] : '';
   // slova šeme ostaju latinična (ista notacija kao u tabu „Klasici")
-  stats.textContent = uiTxt(`${lines} ${lines===1?'red':'redova'} · ${words} reči · ${chars} znakova · ${syl} slogova`)
+  stats.textContent = uiTxt(`${lines} ${redRec(lines)} · ${words} ${recRec(words)} · ${chars} ${znakRec(chars)} · ${syl} ${slogRec(syl)}`)
     + (scheme ? ` · ${uiTxt('šema 1. strofe')}: ${scheme}${schemeName ? ' (' + uiTxt(schemeName) + ')' : ''}` : '');
 }
 
@@ -1743,7 +1849,9 @@ function renderNoteRhymes(){
     // Klonovi nemaju event listenere originala, pa bi ⓘ/♡/🔁 bili mrtva dugmad —
     // sklanjamo ih; u uskom bočnom panelu ostaje samo reč + broj slogova.
     clone.querySelectorAll('.mini').forEach(b => b.remove());
-    clone.title = uiTxt('klikni da ubaciš reč u stih');
+    // Tekst mora da opisuje ono što se STVARNO dešava: klik zamenjuje reč pod
+    // kursorom, a ubacuje samo kad je kursor u praznini (nalaz V6).
+    clone.title = uiTxt('klikni da uneseš reč u stih (menja reč pod kursorom)');
     clone.onclick = () => {
       insertRhymeAtCaret(clone.querySelector('.word').textContent);
       clone.classList.add('chip-inserted');
@@ -1795,44 +1903,137 @@ function rimaRec(n){
   return 'rima';
 }
 
-/* Ubacivanje rime na mesto kursora — sa razmakom kad treba.
-   Bez ovoga „…ne mogu" + klik na „naći" daje „ne mogunaći". */
+/* Srpska množina — jedno pravilo, tri oblika: 1 / 2–4 / 5+.
+   Izuzetak su 11–14 (jedanaest reči, dvanaest reči), zato `dd` provera.
+   Ranije je na tri mesta pisalo „1 reči", „2 slogova", „4 redova", jer su
+   se koristili uslovi tipa `n===1 ? 'red' : 'redova'` — a to je tačno samo
+   za jedninu, dok 2–4 u srpskom traže poseban oblik. */
+// „1 reč" / „2 reči" / „5 reči"
+function recRec(n){
+  const d = n % 10, dd = n % 100;
+  if(d === 1 && dd !== 11) return 'reč';
+  return 'reči';
+}
+// „1 znak" / „2 znaka" / „5 znakova"
+function znakRec(n){
+  const d = n % 10, dd = n % 100;
+  if(d === 1 && dd !== 11) return 'znak';
+  if(d >= 2 && d <= 4 && (dd < 12 || dd > 14)) return 'znaka';
+  return 'znakova';
+}
+// „1 red" / „2 reda" / „5 redova"
+function redRec(n){
+  const d = n % 10, dd = n % 100;
+  if(d === 1 && dd !== 11) return 'red';
+  if(d >= 2 && d <= 4 && (dd < 12 || dd > 14)) return 'reda';
+  return 'redova';
+}
+
+/* Slovo — i latinično i ćirilično. Radi na IZVORNOM tekstu, bez prolaska kroz
+   `toLatin()`: pretvaranje „њ" u „nj" pomeri sve indekse za jedno mesto, pa bi
+   opseg reči pao pored (isti uzrok kao nalaz o koloni kursora u ćirilici). */
+const SLOVO = /[a-zA-ZčćžšđČĆŽŠĐЀ-ӿ]/;
+
+/* Opseg reči na kojoj stoji kursor, u koordinatama `getEditorText()`.
+   Vraća `null` kad je kursor u praznini (ni levo ni desno nema slovo) — tada
+   korisnik piše novu reč, pa se rima UBACUJE umesto da nešto zameni. */
+function wordRangeAt(text, pos){
+  if(pos == null) return null;
+  let s = pos, e = pos;
+  while(s > 0 && SLOVO.test(text[s - 1])) s--;
+  while(e < text.length && SLOVO.test(text[e])) e++;
+  return s === e ? null : { start: s, end: e };
+}
+
+/* Postavljanje kursora na tačnu poziciju u koordinatama `getEditorText()`
+   (dakle sa `<br>` = jedan znak). `restoreCursorPosition` to ne ume — ona broji
+   samo tekstualne čvorove, pa posle zamene reči na kraju stiha kursor odskoči
+   u sledeći red. */
+function setCaretAtTextPos(pos){
+  const sel = window.getSelection();
+  const range = document.createRange();
+  let acc = 0, done = false;
+  const walk = (node) => {
+    for(const child of node.childNodes){
+      if(done) return;
+      if(child.nodeType === Node.TEXT_NODE){
+        const len = child.data.length;
+        if(pos <= acc + len){ range.setStart(child, pos - acc); done = true; return; }
+        acc += len;
+      } else if(child.nodeName === 'BR'){
+        if(child.classList && child.classList.contains('cursor-br')) continue;
+        if(pos <= acc){ range.setStartBefore(child); done = true; return; }
+        acc += 1;
+      } else walk(child);
+    }
+  };
+  walk(noteEditor);
+  if(!done){ range.selectNodeContents(noteEditor); range.collapse(false); }
+  else range.collapse(true);
+  sel.removeAllRanges();
+  sel.addRange(range);
+}
+
+/* Klik na rimu u beležnici — ZAMENJUJE reč pod kursorom (nalaz V6).
+   Panel piše „RIME ZA NADA", pa i klik mora da promeni baš „nada". Ranije se
+   rima samo umetala na mesto kursora, pa je kursor usred reči davao
+   „gde je na kadada" umesto „gde je kada".
+   Pravilo: kursor u reči ili uz nju → ZAMENI; kursor u praznini → UBACI
+   (tada korisnik piše novi stih, i razmak i dalje treba dodati). */
 function insertRhymeAtCaret(w){
   // panel ostaje na reči sa kojom se rimuje, ne skače na upravo ubačenu
   noteInsertedWord = toLatin(w.toLowerCase()).replace(/[^a-zčćžšđ]/g, '');
-  const sel = window.getSelection();
-  if(sel.rangeCount === 0 || !noteEditor.contains(sel.getRangeAt(0).startContainer)){
-    const t = getEditorText();
-    setNoteText(t + (t && !/[\s\n]$/.test(t) ? ' ' : '') + w);
-    noteEditor.focus();
+  const text = getEditorText();
+  const caret = getCaretTextPos();
+
+  if(caret == null){
+    // kursor nije u editoru — dopiši na kraj (staro ponašanje)
+    const novi = text + (text && !/[\s\n]$/.test(text) ? ' ' : '') + w;
+    zapisiBelesku(novi, novi.length);
     return;
   }
-  const range = sel.getRangeAt(0);
-  range.deleteContents();
-  // šta je neposredno levo od kursora?
-  const pre = range.cloneRange();
-  pre.selectNodeContents(noteEditor);
-  pre.setEnd(range.startContainer, range.startOffset);
-  const levo = pre.toString();
-  const trebaRazmak = levo.length > 0 && !/[\s\n(„"'\-]$/.test(levo);
-  const textNode = document.createTextNode((trebaRazmak ? ' ' : '') + w);
-  range.insertNode(textNode);
-  range.setStartAfter(textNode);
-  range.collapse(true);
-  sel.removeAllRanges();
-  sel.addRange(range);
+
+  const opseg = wordRangeAt(text, caret);
+  if(opseg){
+    zapisiBelesku(text.slice(0, opseg.start) + w + text.slice(opseg.end),
+                  opseg.start + w.length);
+  } else {
+    const levo = text.slice(0, caret);
+    const razmak = (levo.length > 0 && !/[\s\n(„"'\-]$/.test(levo)) ? ' ' : '';
+    zapisiBelesku(levo + razmak + w + text.slice(caret),
+                  caret + razmak.length + w.length);
+  }
+}
+
+/* Upiši nov tekst u editor pa VRATI kursor, tim redom. Obrnuto ne valja:
+   `setNoteText` odmah zove `renderNoteRhymes`, koji čita položaj kursora — a
+   on posle prepisivanja `innerHTML`-a više ne postoji, pa bi panel skočio. */
+function zapisiBelesku(text, caretPos){
+  const { colorMap } = analyzeRhymes(text);
+  noteEditor.innerHTML = colorMap.size > 0
+    ? renderColoredText(text)
+    : escapeHtml(text).replace(/\n/g, '<br>');
   noteEditor.focus();
+  setCaretAtTextPos(caretPos);
   updateEditor();
 }
 
-// Čuvanje liste rima za poslednju reč
+/* Reč za koju se čuva/preuzima lista rima.
+   Ranije je ovo UVEK bila poslednja reč cele beleške, pa su dugmad „sačuvaj
+   rime" i „preuzmi listu" davala rime za drugu reč nego što panel pokazuje —
+   dovoljno je bilo kliknuti u sredinu pesme. Sada se prvo uzima reč koju panel
+   stvarno prikazuje (`notePanelWord`), a poslednja reč ostaje kao rezerva za
+   slučaj kad kursor nije u editoru. */
 function getRhymeListForLastWord(){
-  const lines = getEditorText().split('\n');
-  let lastLine = '';
-  for(let i = lines.length - 1; i >= 0; i--){
-    if(lines[i].trim()){ lastLine = lines[i]; break; }
+  let word = notePanelWord;
+  if(!word){
+    const lines = getEditorText().split('\n');
+    let lastLine = '';
+    for(let i = lines.length - 1; i >= 0; i--){
+      if(lines[i].trim()){ lastLine = lines[i]; break; }
+    }
+    word = getLastWordInLine(lastLine);
   }
-  const word = getLastWordInLine(lastLine);
   if(!word || word.length < 2) return { word: '', rhymes: [] };
   // i ovde bez sinonima — lista se zove „Rime za X", pa mora da sadrži samo rime
   const rhymes = [];
@@ -1845,9 +2046,9 @@ function getRhymeListForLastWord(){
 el('saveRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
   if(!word || !rhymes.length){ toast('Nema rima za čuvanje'); return; }
-  const lists = JSON.parse(localStorage.getItem('rimoteka_lists') || '[]');
+  const lists = lsJSON('rimoteka_lists', []);
   lists.unshift({ word, rhymes, date: new Date().toISOString() });
-  localStorage.setItem('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
+  lsSet('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
   toast(`Sačuvano ${rhymes.length} rima za „${word}"`);
 };
 el('exportRhymeList').onclick = () => {
@@ -1881,6 +2082,31 @@ el('exportPoem').onclick = () => {
 renderGutter();
 updateNoteStats();
 renderNoteRhymes();
+poslednjaSacuvanaBeleska = getEditorText();
+
+/* Drugi tab je promenio zajedničku memoriju (v. objašnjenje uz `sacuvajBelesku`).
+   `storage` stiže samo iz DRUGIH tabova, nikad iz ovog. */
+window.addEventListener('storage', e => {
+  if(e.key === 'rimoteka_notes'){
+    const noviTekst = e.newValue || '';
+    const mojTekst = getEditorText();
+    if(noviTekst === mojTekst) return;
+    if(mojTekst === poslednjaSacuvanaBeleska){
+      // ništa nismo dirali od svog poslednjeg upisa → bezbedno je preuzeti
+      poslednjaSacuvanaBeleska = noviTekst;
+      setNoteText(noviTekst);
+    } else {
+      // imamo svoje izmene: ne diramo ništa, ali korisnik MORA da zna
+      toast(uiTxt('Pesma je promenjena u drugom tabu Rimoteke. Ovde je tvoja verzija — zatvori jedan tab da se ne bi pregazile.'));
+    }
+    return;
+  }
+  if(e.key === 'rimoteka_favorites'){
+    favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'string');
+    updateFavCount();
+    renderFavorites();
+  }
+});
 
 /* ====================== OMILJENE ====================== */
 function updateFavCount(){ el('favCount').textContent = favorites.length; }
@@ -1896,7 +2122,7 @@ el('copyFavs').onclick = ()=>{
 };
 el('clearFavs').onclick = ()=>{
   if(favorites.length && confirm('Obrisati sve omiljene reči?')){
-    favorites=[]; localStorage.setItem('rimoteka_favorites','[]'); updateFavCount(); renderFavorites();
+    favorites=[]; sacuvajOmiljene(); updateFavCount(); renderFavorites();
   }
 };
 
@@ -1921,6 +2147,40 @@ function switchTab(name){
    Ako alat POSTOJI na ovoj strani — a na početnoj postoje svi — klik se
    presreće i tab se samo prebaci, bez osvežavanja. Na stranama gde tog panela
    nema, link radi kao običan link. */
+/* URL JE STANJE (nalaz V7).
+   Traka tabova jesu pravi linkovi, ali je klik bio presretnut i adresa je
+   ostajala ista na svih sedam tabova — pa nije bilo deljivog linka, „Nazad"
+   nije radio, a osvežavanje je vraćalo na rime. Zato se posle prebacivanja
+   adresa gura u istoriju (`pushState`), a „Nazad" se hvata (`popstate`).
+   Adresa se uzima iz samog `href`-a taba, da postoji samo na jednom mestu. */
+const TAB_URL_FALLBACK = { omiljene: '/?tab=omiljene', igra: '/igra-rimovanja/' };
+function tabHref(name){
+  const t = document.querySelector('#tabs [data-tab="' + name + '"]');
+  const h = t && t.getAttribute ? t.getAttribute('href') : null;
+  return h || TAB_URL_FALLBACK[name] || ('/?tab=' + name);
+}
+// Koji je tab opisan trenutnom adresom (za „Nazad" i za prvo učitavanje)
+function tabIzURLa(){
+  try{
+    const t = new URLSearchParams(location.search).get('tab');
+    if(t && document.getElementById('panel-' + t)) return t;
+    const put = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/';
+    for(const b of document.querySelectorAll('#tabs [data-tab]')){
+      const h = b.getAttribute('href');
+      if(h && h === put && document.getElementById('panel-' + b.dataset.tab)) return b.dataset.tab;
+    }
+  }catch(e){}
+  return 'rime';
+}
+// Adresa koja odgovara tabu, sa `?rec=` samo dok smo na rimama
+function urlZaTab(name){
+  let url = tabHref(name);
+  if(name === 'rime'){
+    const q = toLatin(rimeInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
+    if(q.length >= 2) url += (url.includes('?') ? '&' : '?') + 'rec=' + encodeURIComponent(q);
+  }
+  return url;
+}
 el('tabs').addEventListener('click', e=>{
   const t = e.target.closest('[data-tab]');
   if(!t) return;
@@ -1929,17 +2189,47 @@ el('tabs').addEventListener('click', e=>{
   if(e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;  // novi tab/prozor
   e.preventDefault();
   switchTab(name);
+  try{
+    const url = urlZaTab(name);
+    if(location.pathname + location.search !== url) history.pushState({ tab:name }, '', url);
+  }catch(err){}
+});
+window.addEventListener('popstate', ()=>{
+  const name = tabIzURLa();
+  if(!document.getElementById('panel-' + name)) return;
+  switchTab(name);
+  try{
+    const p = new URLSearchParams(location.search).get('rec');
+    if(name === 'rime' && p && p.trim()){
+      rimeInput.value = disp(p.trim().toLowerCase());
+      doRhymes();
+    }
+  }catch(e){}
 });
 
 const brandHome = el('brandHome');
-function goHome(){ switchTab('rime'); window.scrollTo({top:0, behavior:'smooth'}); }
+/* Nalaz S1: logo na početnoj ima `cursor:pointer`, dakle obećava „nazad na
+   početak", a klik je samo prebacivao tab — polje, svih 180 rima i `?rec=` u
+   adresi ostajali su netaknuti. Na generisanim stranama logo JESTE `<a href="/">`
+   i tamo uredno resetuje; ovde se isti ishod postiže bez diranja logotipa
+   (pravilo 8a: ne menja se ni tag, ni klasa, ni CSS oko njega). */
+function goHome(){
+  rimeInput.value = '';
+  el('rimeResults').innerHTML = '';
+  hideAutocomplete();
+  switchTab('rime');
+  try{
+    if(location.search || location.pathname !== '/') history.pushState(null, '', '/');
+  }catch(e){}
+  window.scrollTo({top:0, behavior:'smooth'});
+}
 brandHome.addEventListener('click', goHome);
 brandHome.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); goHome(); } });
 
 el('scriptToggle').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   script=b.dataset.script;
-  localStorage.setItem('rimoteka_script', script);
+  lsSet('rimoteka_script', script);
   document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
   applyScriptToUI();
   // ponovo iscrtaj sve što je prikazano
@@ -2078,6 +2368,18 @@ function parseSrMeaning(ext){
   return out.length > 1 ? out.map((t,idx)=>`${idx+1}. ${t}`).join('  ') : out[0];
 }
 
+/* Spoljni poziv sa rokom. Викиречник и Википедија umeju da ćute neograničeno
+   (zagušena mreža, hotelski wi-fi, portal koji guta zahtev) — a `fetch` sam po
+   sebi NEMA rok. Zbog toga je oblačić sa objašnjenjem znao da zauvek stoji na
+   „učitavanje…". Sada oba poziva imaju rok (4 s + 3,5 s), pa oblačić najkasnije za osam
+   sekundi pošteno kaže da objašnjenja nema. */
+function fetchSaRokom(url, ms = 6000){
+  if(typeof AbortController === 'undefined') return fetch(url);
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  return fetch(url, { signal: c.signal }).finally(() => clearTimeout(t));
+}
+
 async function fetchDefinition(word){
   if(defCache.has(word)) return defCache.get(word);
   await loadLocalDefs();  // učitaj lokalni rečnik definicija tek kada zatreba
@@ -2085,19 +2387,25 @@ async function fetchDefinition(word){
   let result = null;
   try{
     const u = `https://sr.wiktionary.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&titles=${encodeURIComponent(word)}&format=json&origin=*`;
-    const d = await fetch(u).then(r=>r.json());
+    const d = await fetchSaRokom(u, 4000).then(r=>r.json());
     const p = Object.values(d.query.pages)[0];
     if(p && p.extract){ const m = parseSrMeaning(p.extract); if(m) result = { text:m, src:'Викиречник' }; }
   }catch(e){}
   if(!result){
     try{
-      const d = await fetch(`https://sr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(word)}`).then(r=>r.ok?r.json():null);
+      const d = await fetchSaRokom(`https://sr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(word)}`, 3500).then(r=>r.ok?r.json():null);
       if(d && d.type === 'standard' && d.extract){
         result = { text: firstSentence(d.extract), src:'Википедија' };
       }
     }catch(e){}
   }
-  if(!result) result = { text:'Nema objašnjenja za ovu reč.', src:'' };
+  if(!result){
+    /* Negativan ishod se NE pamti trajno. Ranije je jedan pad mreže (ili jedan
+       neuspeh `definicije.json`) zauvek upisivao „Nema objašnjenja za ovu reč"
+       u keš, pa je i posle povratka veze ta reč ostajala bez objašnjenja do
+       osvežavanja strane. */
+    return { text:'Nema objašnjenja za ovu reč.', src:'' };
+  }
   defCache.set(word, result);
   return result;
 }
@@ -2387,7 +2695,7 @@ if(darkToggle) darkToggle.onclick = ()=>{
   // Klasa stoji i na <html> — nju postavlja dark-mode-init.js pre iscrtavanja,
   // da pri sledećem učitavanju ne bude belog bljeska (nalaz K1).
   document.documentElement.classList.toggle('dark-mode', dark);
-  localStorage.setItem('rimoteka_dark', dark ? '1' : '0');
+  lsSet('rimoteka_dark', dark ? '1' : '0');
   applyDarkIcon();
   // Boje rima u beležnici su upisane INLINE u HTML pri iscrtavanju, pa ih
   // promena teme sama ne dira — bez ovoga bi posle prebacivanja ostale boje
@@ -2456,8 +2764,11 @@ function initFromURL(){
         return true;
       }
     }
+    // „igra" je ranije nedostajala u ovom spisku, pa se `?tab=igra` tiho
+    // ignorisao i link na igru je otvarao rime (nalaz N3).
     const tab = params.get('tab');
-    if(tab && ['rime','pretraga','slogovi','beleznica','klasici','omiljene'].includes(tab)){
+    if(tab && ['rime','pretraga','slogovi','beleznica','klasici','igra','omiljene'].includes(tab)
+       && document.getElementById('panel-' + tab)){
       switchTab(tab);
       return true;
     }
@@ -2540,13 +2851,13 @@ function renderPro(state) {
   }
 
   try {
-    localStorage.setItem(PRO_CACHE_KEY, JSON.stringify({ pro: !!proState.pro }));
+    lsSet(PRO_CACHE_KEY, JSON.stringify({ pro: !!proState.pro }));
   } catch (e) {}
 }
 
 // Keš primenjujemo odmah da reklamni prostor ne bljesne Pro korisniku
 try {
-  const cached = JSON.parse(localStorage.getItem(PRO_CACHE_KEY) || 'null');
+  const cached = lsJSON(PRO_CACHE_KEY, null);
   if (cached?.pro) document.body.classList.add('is-pro');
 } catch (e) {}
 
@@ -3116,14 +3427,30 @@ function bootstrap(){
       box.appendChild(p);      box.appendChild(btn);
     }
   });
-  // Definicije učitaj u pozadini čim browser bude slobodan — da prvi hover na ⓘ
-  // bude trenutan. Preskačemo na Save-Data / 2g vezama (fajl je velik).
-  const conn = navigator.connection;
-  const slow = conn && (conn.saveData || /2g/.test(conn.effectiveType || ''));
-  if(!slow){
-    if('requestIdleCallback' in window) requestIdleCallback(() => loadLocalDefs(), { timeout: 5000 });
-    else setTimeout(() => loadLocalDefs(), 3000);
-  }
+  /* DEFINICIJE SE VIŠE NE SKIDAJU UNAPRED.
+     Ranije je `definicije.json` (20 MB sirovo, 5,3 MB gzip) kretao na SVAKOM
+     učitavanju strane, samo da bi prvi prelazak mišem preko ⓘ bio trenutan.
+     Izmereno u auditu: kretao je ~4 ms posle `reci.txt` i time gurao spremnost
+     rečnika sa 7,3 s na 10,6 s — dakle 3,3 sekunde čekanja na rime, zbog
+     oblačića koji većina korisnika nikad ne otvori.
+     Sada se skida tek kad zaista zatreba: `fetchDefinition()` na početku zove
+     `loadLocalDefs()`. Da prvi klik ne bi bio spor, skidanje se pokreće i na
+     prvi prelazak mišem preko bilo kog ⓘ (v. `pripremiDefinicije` niže) — dakle
+     na nagoveštaj namere, a ne na svako učitavanje strane. */
 }
+
+/* Prvi nagoveštaj da će definicije zatrebati: miš je prešao preko dugmeta ⓘ.
+   Skidanje kreće tada, pa je do klika obično već gotovo. */
+let definicijeNajavljene = false;
+function pripremiDefinicije(){
+  if(definicijeNajavljene) return;
+  definicijeNajavljene = true;
+  const conn = navigator.connection;
+  if(conn && (conn.saveData || /2g/.test(conn.effectiveType || ''))) return;  // ne troši tuđi paket
+  loadLocalDefs();
+}
+document.addEventListener('pointerover', e => {
+  if(e.target && e.target.closest && e.target.closest('.mini.info')) pripremiDefinicije();
+}, { passive: true });
 
 bootstrap();

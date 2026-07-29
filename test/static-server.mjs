@@ -83,7 +83,19 @@ const srv = http.createServer((req, res) => {
   tok.pipe(res);
 });
 
-srv.keepAliveTimeout = 2000;
+/* KEEP-ALIVE SE DRŽI, I TO NAMERNO.
+   Test otvara preko četrdeset zasebnih pregledačkih konteksta i svaki povuče
+   desetak fajlova. Bez keep-alive-a to je nekoliko hiljada NOVIH TCP veza po
+   pokretanju, a svaka posle zatvaranja ostaje u stanju TIME_WAIT oko trideset
+   sekundi. macOS ima svega 16.384 efemerna porta (49152–65535), pa se posle
+   nekoliko uzastopnih pokretanja testa oni potroše — izmereno 29.07.2026:
+   41.718 utičnica u TIME_WAIT. Tada `curl` javlja
+   „Can't assign requested address", a Chromium tiho zaglavi na `page.goto`
+   jer ne može da otvori nijednu novu vezu. Server je pri tom potpuno ispravan.
+   Zato: keep-alive ostaje (manje veza po strani), a `?v=` keširanje smanjuje
+   i broj zahteva. */
+srv.keepAliveTimeout = 5000;
+srv.headersTimeout = 20000;
 
 if (process.env.LOG_ZAHTEVA) {
   setInterval(() => {

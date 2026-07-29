@@ -188,3 +188,109 @@ kod** — uradio je tačno ono zbog čega postoji: svih 13 novih provera je palo
 produkciji, uključujući i onu koja je u konzoli pokazala tačan razlog za V2
 („Executing inline event handler violates the following Content Security Policy…").
 Bez tog koraka ne bi se znalo da li provere uopšte nešto hvataju.
+
+---
+
+## 29.07.2026 (treća sesija, popravke) — moji sopstveni propusti
+
+### 1. Pola dana sam tražio bag u sajtu, a kriva je bila MAŠINA
+
+**Šta se dešavalo:** pre-deploy test je počeo da pada nasumično — otprilike svako
+drugo pokretanje, uvek na `page.goto` sa istekom od 120 s, i uvek na drugom
+mestu (12b, 12c, 12g, 14c, 16, `/klasici/`, `/vrste-rima/`). Sajt je bio ispravan.
+
+**Šta sam radio, redom, i koliko me je koštalo:**
+
+| Pokušaj | Obrazloženje koje sam sebi dao | Ishod |
+|---|---|---|
+| `python3 -m http.server` → `ThreadingHTTPServer` | „server je jednonitan" | nije pomoglo |
+| server u zaseban proces | „test i server dele Node petlju" | nije pomoglo |
+| keš zaglavlja (`Cache-Control`, `ETag`) | „skida se 600 MB po pokretanju" | pomoglo, ali nije rešilo |
+| `detached: true` pri pokretanju servera | „macOS guši dete-proces" | nije pomoglo |
+| gašenje toka pri prekidu veze | „cure fajl-deskriptori" | ispravno, ali nije uzrok |
+| ponavljanje navigacije do 3 puta | „zaobići zastoj" | **sakrilo je uzrok** |
+| `Connection: close`, `keepAliveTimeout = 0` | „Chromium drži previše veza" | **pogoršalo** — `0` u Node-u znači „bez ograničenja" |
+
+**Pravi uzrok, kad sam konačno izmerio:**
+
+```
+$ netstat -an -p tcp | awk '{print $6}' | sort | uniq -c | sort -rn | head -3
+41718 TIME_WAIT
+ 2035 FIN_WAIT_1
+  688 LAST_ACK
+$ sysctl net.inet.ip.portrange.first net.inet.ip.portrange.last
+net.inet.ip.portrange.first: 49152      ← ukupno 16.384 porta
+net.inet.ip.portrange.last: 65535
+```
+
+Mašina je ostala bez **efemernih portova**. `curl` na `127.0.0.1` javljao je
+`Can't assign requested address`, Node `EAGAIN` — i to ne samo ka test serveru
+nego i **ka google.com**. Chromium u tom stanju ne javi grešku nego tiho visi na
+`page.goto`, pa izgleda kao da je sajt pokvaren.
+
+Od tih 41.718 utičnica, samo **3.644** su išle ka test serveru (:8799). Ostalo su
+bili drugi procesi na mašini: 17.677 ka :443, 3.930 ka :3000, 2.227 ka :7000.
+Dakle **moj test je bio žrtva, ne uzrok** — ali ga je pogoršavao.
+
+> **PRAVILO 13:** Kad alat pada nasumično i uvek na drugom mestu, **prvo izmeri
+> okruženje**, pa tek onda menjaj kod. Konkretno: broj utičnica po stanju
+> (`netstat -an -p tcp | awk '{print $6}' | sort | uniq -c`), slobodne portove,
+> otvorene deskriptore, slobodnu memoriju. „Nasumično i svaki put drugde" je
+> potpis iscrpljenog resursa, ne baga u kodu.
+>
+> **PRAVILO 14:** Ne uvoditi „ponavljanje dok ne prođe" pre nego što se zna zašto
+> pada. Ponavljanje navigacije jeste ostalo u testu — ali kao **zaštita**, ne kao
+> objašnjenje. Da sam se na njemu zaustavio, uzrok ne bi bio nađen, a test bi
+> povremeno i dalje padao.
+>
+> **PRAVILO 15:** Kod podešavanja tuđih biblioteka pročitati šta znači granična
+> vrednost. `server.keepAliveTimeout = 0` u Node-u **ne znači „bez keep-alive"**
+> nego „bez ograničenja" — postavio sam tačno suprotno od nameravanog i oborio
+> server, pa je test pao već na prvoj navigaciji.
+
+### 2. Omotač za ponavljanje primenjen dvaput — 9 pokušaja umesto 3
+
+Omotao sam i `browser.newPage` i `browser.newContext`. `browser.newPage()` interno
+pravi kontekst, pa je strana prošla kroz oba omotača: 3 × 3 = **9 pokušaja**, sa
+isprepletanim porukama koje su izgledale kao da test radi paralelno. Baš to
+preplitanje me je i navelo da posumnjam u pogrešnu stvar.
+
+> **PRAVILO 16:** Svaki omotač nad tuđim API-jem mora da bude **idempotentan** —
+> obeleži objekat (`p.__ojacana = true`) i preskoči drugo omotavanje. Isprepletane
+> poruke u ispisu su prvi znak da se omotač primenio više puta.
+
+### 3. Provera koja prolazi i na starom kodu nije provera
+
+Prva verzija provere „dva otvorena taba ne gaze beležnicu" **prošla je na
+produkciji**, gde bag postoji. Scenario je bio pogrešan: drugi tab sam otvarao
+posle prvog upisa, pa je učitao već ispravan tekst. Kad sam scenario ispravio
+(prvi tab dopiše dok drugi drži stariju verziju, pa drugi otkuca jedan znak),
+provera je na produkciji pala i pokazala tačan gubitak podataka.
+
+> **PRAVILO 17:** Provera koja **prođe** protiv starog koda se ne prepravlja u
+> „valjda je ipak dobra" — nego se prepravlja **scenario**, dok ne padne. Postupak
+> „pusti protiv produkcije dok je tamo stari kod" vredi samo ako se rezultat
+> „prošlo" tretira kao **pad provere**, a ne kao dobra vest.
+
+### 4. Merio sam pogrešnu stvar pa umalo prijavio ispravan kod kao bag
+
+Za sedam odblokiranih reči napisao sam proveru „rime za *zdrava* moraju da sadrže
+*krvava*". Pala je i lokalno, posle ispravne popravke. Uzrok: obe reči jesu u istoj
+rimskoj grupi (`ava`), ali „krvava" ima tri sloga, „zdrava" dva — pa ide u grupu
+„dobre rime", koja je odsečena na 90 reči, a „krvava" je po učestalosti iza toga.
+Kod je bio ispravan, provera nije.
+
+> **PRAVILO 18:** Kad se proverava da li je reč **dozvoljena**, ne meri se preko
+> rangiranja i odsecanja. Mora se meriti na najkraćem putu — ovde je to pretraga
+> rečnika, koja vraća sve pogotke bez rangiranja.
+
+### 5. Šta je ovog puta išlo dobro
+
+- **74 nove provere puštene su protiv produkcije dok je tamo stari kod i sve su
+  pale.** Time je dokazano da hvataju baš to zbog čega su napisane — uključujući
+  i tačnu reprodukciju „gde je **na kadada**" i „надживети" → „наџивети".
+- Merenja su svuda upisana kao brojevi (`4,13:1 → 7,25:1`, `824 ms`, `19,3 MB`),
+  ne kao utisci.
+- Kad je pravilo 8a (logo se ne dira) bilo u sukobu sa nalazom o veličini slike,
+  nalaz **nije popravljen** nego je prijavljen vlasnici kao odluka. Isto i sa
+  ostatkom dečjeg režima, za koji je odobren samo Odeljak 1.

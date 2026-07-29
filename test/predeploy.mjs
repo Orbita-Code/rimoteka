@@ -60,8 +60,32 @@ async function main() {
      sajta ni servera nego zastoj u samom Chromiumu.
      Zato se navigacija ponavlja do tri puta. Zastoj koji se ponovi tri puta
      zaredom se i dalje prijavljuje kao pad — pravi kvar se ovim ne sakriva. */
+  /* Greške iz konzole se skupljaju sa SVIH strana, ne samo sa prve.
+     Nalaz iz dopune audita: sekcija 13 je tvrdila da pokriva „ceo test", a
+     osluškivač je bio zakačen samo na prvu stranu — sve što je puklo na
+     `/rimovanje-reci/`, `/slogovi/`, `/pisanje-pesama/` ili na stranama reči
+     prolazilo je nezapaženo. Sada svaka strana koju test otvori prijavljuje. */
+  const konzolaGreske = [];
+  function prijaviGreske(p, gde) {
+    p.on('console', m => {
+      if (m.type() !== 'error') return;
+      const t = m.text();
+      // fontovi sa googleapis su blokirani u headless okruženju — nije naš bug
+      if (/fonts\.googleapis|fonts\.gstatic|net::ERR_FAILED.*fonts/.test(t)) return;
+      konzolaGreske.push(`[${gde || p.url()}] ${t}`);
+    });
+    p.on('pageerror', e => konzolaGreske.push(`[${gde || p.url()}] pageerror: ${e.message}`));
+  }
+
   function ojacajStranu(p) {
+    /* Omotač SME da se primeni samo jednom.
+       `browser.newPage()` interno pravi kontekst, pa je strana prolazila i kroz
+       omotač konteksta i kroz omotač pregledača — ponavljanje se ugnezdilo
+       3×3 = 9 puta i test je umesto da se oporavi tonuo u lavinu pokušaja. */
+    if (p.__ojacana) return p;
+    p.__ojacana = true;
     p.setDefaultNavigationTimeout(120000);
+    prijaviGreske(p);
     const _goto = p.goto.bind(p);
     p.goto = async (url, opt = {}) => {
       let poslednja;
@@ -75,6 +99,16 @@ async function main() {
       }
       throw poslednja;
     };
+    /* Pre zatvaranja strane prekini sve što je još u toku.
+       Strane se zatvaraju usred skidanja `reci.txt` (2,5 MB); ako se ta veza ne
+       prekine uredno, pregledač ume da zaglavi sledeću navigaciju — izmereno:
+       server u tom trenutku pokazuje nula veza i na `curl` odgovara za 0,21 s,
+       dakle zastoj je u Chromiumu, ne na serveru. */
+    const _close = p.close.bind(p);
+    p.close = async (...a) => {
+      try { await _goto('about:blank', { timeout: 5000 }); } catch (e) {}
+      return _close(...a);
+    };
     return p;
   }
   const _novaStrana = browser.newPage.bind(browser);
@@ -87,18 +121,7 @@ async function main() {
     return c;
   };
 
-  const page = await browser.newPage();
-
-  // Konzola mora da bude čista — greška u konzoli je često mrtav sajt.
-  const konzolaGreske = [];
-  page.on('console', m => {
-    if (m.type() !== 'error') return;
-    const t = m.text();
-    // fontovi sa googleapis su blokirani u headless okruženju — nije naš bug
-    if (/fonts\.googleapis|fonts\.gstatic|net::ERR_FAILED.*fonts/.test(t)) return;
-    konzolaGreske.push(t);
-  });
-  page.on('pageerror', e => konzolaGreske.push('pageerror: ' + e.message));
+  const page = await browser.newPage();   // osluškivač greške je već zakačen
 
   try {
     console.log(`\n▶ PRE-DEPLOY TEST — ${BASE}\n`);
@@ -1914,6 +1937,232 @@ async function main() {
       ok('ekran igre u tamnom režimu → najslabiji kontrast ≥ 4,5:1',
          kont && kont.o >= 4.5, kont ? `${kont.sel} = ${kont.o}:1` : 'ništa nije izmereno');
       await p19e.close();
+    }
+
+    console.log('\n20) TAB „OMILJENE" — funkcionalna provera, ne samo visina panela');
+    /* Nalaz iz dopune: sekcija 4 je bila lažno zelena — merila je samo da panel
+       ima visinu. Ni jedno srce nikad nije bilo kliknuto. */
+    {
+      const p20 = await browser.newPage();
+      await p20.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p20.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p20.fill('#rimeInput', 'ljubav');
+      await p20.click('#rimeBtn');
+      await pauza(800);
+
+      const rec = await p20.evaluate(() => document.querySelector('#rimeResults .chip .word')?.textContent.trim());
+      await p20.click('#rimeResults .chip .fav');
+      await pauza(400);
+      const posle = await p20.evaluate(() => ({
+        broj: document.getElementById('favCount').textContent,
+        puno: document.querySelector('#rimeResults .chip .fav')?.textContent.trim(),
+      }));
+      ok('♥ na reči povećava brojač omiljenih', posle.broj === '1', `brojač: ${posle.broj}`);
+      ok('♥ menja ikonicu u popunjeno srce', posle.puno === '♥', posle.puno);
+
+      await p20.click('#tabs [data-tab="omiljene"]');
+      await pauza(400);
+      const uTabu = await p20.evaluate(() => [...document.querySelectorAll('#favResults .word')].map(e => e.textContent.trim()));
+      ok('sačuvana reč se vidi u tabu „Omiljene"', uTabu.includes(rec), `u tabu: ${uTabu.join(', ') || 'prazno'}`);
+
+      // preživljava osvežavanje
+      await p20.reload({ waitUntil: 'domcontentloaded' });
+      await pauza(1200);
+      const poslePonovnog = await p20.evaluate(() => document.getElementById('favCount').textContent);
+      ok('omiljene preživljavaju osvežavanje', poslePonovnog === '1', `brojač: ${poslePonovnog}`);
+
+      // uklanjanje
+      await p20.evaluate(() => { window.confirm = () => true; });
+      await p20.click('#tabs [data-tab="omiljene"]');
+      await pauza(300);
+      await p20.click('#clearFavs');
+      await pauza(400);
+      const prazno = await p20.evaluate(() => ({
+        broj: document.getElementById('favCount').textContent,
+        tekst: (document.getElementById('favResults').textContent || '').trim(),
+      }));
+      ok('„obriši sve" prazni omiljene', prazno.broj === '0', `brojač: ${prazno.broj}`);
+      ok('prazan tab „Omiljene" ima poruku', prazno.tekst.length > 10, `„${prazno.tekst}"`);
+      await p20.close();
+    }
+
+    console.log('\n20b) TRI OPCIJE GLAVNOG ALATA ZAISTA MENJAJU REZULTAT');
+    /* Nalaz iz dopune: „i šire rime", „ijekavica" i „dečji režim" imali su NULA
+       provera — a ceo test rima je počivao na reči „ljubav", kod koje nijedna
+       od tri opcije ne pravi razliku. Zato se ovde biraju druge reči. */
+    {
+      const p20b = await browser.newPage();
+      await p20b.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p20b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const broj = async (rec) => p20b.evaluate(async (r) => {
+        const w = ms => new Promise(x => setTimeout(x, ms));
+        document.getElementById('rimeInput').value = r;
+        document.getElementById('rimeBtn').click();
+        await w(900);
+        return document.querySelectorAll('#rimeResults .word').length;
+      }, rec);
+
+      const pre = await broj('srce');
+      await p20b.check('#looseToggle');
+      await pauza(900);
+      const saSirim = await p20b.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
+      ok('opcija „i šire rime" povećava broj rezultata', saSirim > pre, `${pre} → ${saSirim}`);
+      await p20b.uncheck('#looseToggle');
+      await pauza(600);
+
+      const bezJek = await broj('dete');
+      await p20b.check('#jekToggle');
+      await pauza(1000);
+      const saJek = await p20b.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
+      ok('opcija „ijekavica" menja rezultat', saJek !== bezJek, `${bezJek} → ${saJek}`);
+      await p20b.uncheck('#jekToggle');
+      await pauza(600);
+
+      // dečji režim mora da izbaci reči iz KIDS_BLOCKED
+      const bezDecjeg = await broj('mrak');
+      const imaRat = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
+      await p20b.check('#kidsToggle');
+      await pauza(1000);
+      const saDecjim = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
+      ok('dečji režim izbacuje bar jednu reč iz rezultata',
+         saDecjim.length < bezDecjeg || saDecjim.length !== imaRat.length,
+         `${bezDecjeg} → ${saDecjim.length}`);
+      const proslo = saDecjim.some(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w));
+      ok('dečji režim ne propušta „rat/mrtav/pakao/đavo"', !proslo,
+         saDecjim.filter(w => ['rat', 'mrtav', 'pakao', 'đavo'].includes(w)).join(', '));
+      await p20b.uncheck('#kidsToggle');
+      await p20b.close();
+    }
+
+    console.log('\n20c) RIME NE POČIVAJU NA JEDNOJ REČI');
+    /* Ceo test rima se do sada oslanjao na „ljubav". Ovde ide šest reči
+       različitog oblika: jednosložna, sa slogotvornim „r", na samoglasnik,
+       glagolski oblik, ćirilična i strana. */
+    {
+      const p20c = await browser.newPage();
+      await p20c.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p20c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const primeri = [
+        ['pesma', 'česma'], ['srce', 'sunce'], ['dete', 'pete'],
+        ['nebo', 'rebro'], ['zima', 'rima'], ['sunce', 'srce'],
+      ];
+      for (const [rec, ocekivana] of primeri) {
+        const r = await p20c.evaluate(async (q) => {
+          const w = ms => new Promise(x => setTimeout(x, ms));
+          document.getElementById('rimeInput').value = q;
+          document.getElementById('rimeBtn').click();
+          await w(900);
+          return [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim());
+        }, rec);
+        ok(`rime za „${rec}" postoje`, r.length > 3, `${r.length} rima`);
+        ok(`„${ocekivana}" je među rimama za „${rec}"`, r.includes(ocekivana),
+           `prvih 6: ${r.slice(0, 6).join(', ')}`);
+      }
+      await p20c.close();
+    }
+
+    console.log('\n20d) TAB „REČNIK" — sva tri režima pretrage i filter po slogovima');
+    {
+      const p20d = await browser.newPage();
+      await p20d.goto(BASE + '/?tab=pretraga', { waitUntil: 'domcontentloaded' });
+      await p20d.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const trazi = (rezim, q) => p20d.evaluate(async ([m, s]) => {
+        const w = ms => new Promise(x => setTimeout(x, ms));
+        document.getElementById('searchMode').value = m;
+        document.getElementById('searchInput').value = s;
+        document.getElementById('searchBtn').click();
+        await w(700);
+        return [...document.querySelectorAll('#searchResults .word')].map(e => e.textContent.trim());
+      }, [rezim, q]);
+
+      const kraj = await trazi('ends', 'ost');
+      ok('režim „završava se na…" vraća samo reči na „ost"',
+         kraj.length > 5 && kraj.every(w => w.endsWith('ost')), `${kraj.length}: ${kraj.slice(0, 3).join(', ')}`);
+      const poc = await trazi('starts', 'cvet');
+      ok('režim „počinje na…" vraća samo reči na „cvet"',
+         poc.length > 2 && poc.every(w => w.startsWith('cvet')), `${poc.length}: ${poc.slice(0, 3).join(', ')}`);
+      const sadrzi = await trazi('contains', 'zvezd');
+      ok('režim „sadrži…" vraća samo reči sa „zvezd"',
+         sadrzi.length > 2 && sadrzi.every(w => w.includes('zvezd')), `${sadrzi.length}: ${sadrzi.slice(0, 3).join(', ')}`);
+
+      await p20d.click('#searchSyl button[data-syl="2"]');
+      await pauza(700);
+      const dvosl = await p20d.evaluate(() => [...document.querySelectorAll('#searchResults .chip .syl')].map(e => e.textContent.trim()));
+      ok('filter po slogovima u rečniku radi', dvosl.length > 0 && dvosl.every(s => s === '2'),
+         `${dvosl.length} rezultata, slogovi: ${[...new Set(dvosl)].join(',')}`);
+      await p20d.close();
+    }
+
+    console.log('\n20e) HTTP STATUS NA UZORKU SVIH VRSTA STRANA');
+    /* Nalaz iz dopune: status se proveravao na samo 3 URL-a od 2.011. */
+    {
+      const p20e = await browser.newPage();
+      const rute = [
+        '/', '/rime-za/', '/rimovanje-reci/', '/recnik-srpskog-jezika/', '/slogovi/',
+        '/pisanje-pesama/', '/klasici/', '/igra-rimovanja/', '/vrste-rima/',
+        '/kako-napisati-pesmu/', '/rime-za-decu/', '/rime-za-decu-o-zivotinjama/',
+        '/rime-za-decu-o-prirodi/', '/rime-za-pesmu/', '/rime-za-rep/',
+        '/rime-za-ljubavne-pesme/', '/rime-za-rodjendanske-pesmice/', '/rime-za-svadbu/',
+        '/rime-za-prijatelje/', '/rime-za-roditelje/', '/rime-za-novu-godinu/',
+        '/rime-za-tugu-i-secanje/', '/rimovanje-za-pocetnike/',
+        '/rime-za/ljubav/', '/rime-za/mama/', '/rime-za/srce/', '/rime-za/nada/',
+        '/rime-za/pesma/', '/rime-za/sunce/', '/rime-za/dete/', '/rime-za/zima/',
+        '/sitemap.xml', '/robots.txt', '/style.css', '/app.js',
+      ];
+      let lose = [];
+      for (const r of rute) {
+        const o = await p20e.goto(BASE + r, { waitUntil: 'domcontentloaded' }).catch(() => null);
+        if (!o || o.status() !== 200) lose.push(`${r} → ${o ? o.status() : 'greška'}`);
+      }
+      ok(`svih ${rute.length} osnovnih ruta vraća 200`, lose.length === 0, lose.join(' · '));
+      await p20e.close();
+    }
+
+    console.log('\n20f) TAČKICE NAPRETKA U IGRI PRATE STVARAN REDOSLED (N4)');
+    /* Ranije je stajalo `correct > i`, pa su PRVE tačkice uvek bile zelene:
+       promašiš prvu reč a pogodiš drugu — igra prikaže obrnuto. */
+    {
+      const p20f = await browser.newPage();
+      await p20f.goto(BASE + '/?tab=igra', { waitUntil: 'domcontentloaded' });
+      await p20f.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const stanje = await p20f.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.getElementById('gameStart').click();
+        await w(700);
+        const inp = document.getElementById('gameInput');
+        const sub = document.getElementById('gameSubmit');
+
+        // 1. reč — namerno POGREŠNO (postoji u rečniku, ali se ne rimuje)
+        const cilj1 = gameCurrentWord;
+        let neRima = null;
+        const k1 = rhymeKey(cilj1), lk1 = looseKey(cilj1);
+        for (const c of WORDS) {
+          if (c !== cilj1 && rhymeKey(c) !== k1 && looseKey(c) !== lk1) { neRima = c; break; }
+        }
+        inp.value = neRima; sub.click();
+        await w(1900);
+
+        // 2. reč — TAČNO
+        const cilj2 = gameCurrentWord;
+        let rima = null;
+        const k2 = rhymeKey(cilj2), lk2 = looseKey(cilj2);
+        for (const c of WORDS) {
+          if (c !== cilj2 && (rhymeKey(c) === k2 || looseKey(c) === lk2)) { rima = c; break; }
+        }
+        inp.value = rima; sub.click();
+        await w(1900);
+
+        const tacke = [...document.querySelectorAll('#gameProgress .game-progress-dot')]
+          .map(d => d.classList.contains('correct') ? 'tačno'
+                  : d.classList.contains('wrong') ? 'netačno'
+                  : d.classList.contains('current') ? 'trenutna' : '—');
+        return { tacke, neRima, rima, cilj1, cilj2 };
+      });
+      ok('N4 prva tačkica je NETAČNO (prva reč promašena)',
+         stanje.tacke[0] === 'netačno', `redosled: ${stanje.tacke.slice(0, 4).join(', ')}`);
+      ok('N4 druga tačkica je TAČNO (druga reč pogođena)',
+         stanje.tacke[1] === 'tačno', `redosled: ${stanje.tacke.slice(0, 4).join(', ')}`);
+      await p20f.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

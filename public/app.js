@@ -3241,7 +3241,9 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
 
   gamePlayersData = [];
   for(let i = 0; i < gamePlayers; i++){
-    gamePlayersData.push({ score: 0, correct: 0, wrong: 0, streak: 0, bestStreak: 0, maxCombo: 0 });
+    // `ishodi` pamti REDOSLED tačnih i netačnih odgovora — bez toga tačkice
+    // napretka ne mogu da pokažu koja je reč promašena (nalaz N4).
+    gamePlayersData.push({ score: 0, correct: 0, wrong: 0, streak: 0, bestStreak: 0, maxCombo: 0, ishodi: [] });
   }
 
   gameCurrentPlayerIdx = 0;
@@ -3411,6 +3413,7 @@ function timeUp(){
   gameFeedback.textContent = `⏰ ${uiTxt('Vreme isteklo! Rima za')} „${disp(gameCurrentWord)}" ${uiTxt('nije uneta.')}`;
   gameFeedback.className = 'game-feedback wrong';
   gamePlayersData[gameCurrentPlayerIdx].wrong++;
+  gamePlayersData[gameCurrentPlayerIdx].ishodi[gameCurrentWordIdx] = false;
   gamePlayersData[gameCurrentPlayerIdx].streak = 0;
   gameCombo = 0;
   renderCombo();
@@ -3454,6 +3457,7 @@ function checkGameAnswer(){
     const points = 10 + timeBonus + comboBonus;
     player.score += points;
     player.correct++;
+    player.ishodi[gameCurrentWordIdx] = true;     // redosled ishoda za tačkice (N4)
     player.streak++;
     if(player.streak > player.bestStreak) player.bestStreak = player.streak;
 
@@ -3465,10 +3469,10 @@ function checkGameAnswer(){
     confetti();
   } else {
     player.wrong++;
+    player.ishodi[gameCurrentWordIdx] = false;    // redosled ishoda za tačkice (N4)
     player.streak = 0;
     gameCombo = 0;
     renderCombo();
-  renderCombo();
     gameFeedback.textContent = `✗ „${disp(answer)}" ${uiTxt('se ne rimuje sa')} „${disp(gameCurrentWord)}"`;
     gameFeedback.className = 'game-feedback wrong';
     playWrong();
@@ -3487,7 +3491,11 @@ function renderProgress(){
   for(let i = 0; i < gameWordsPerPlayer; i++){
     const dot = document.createElement('span');
     dot.className = 'game-progress-dot';
-    if(i < gameCurrentWordIdx) dot.classList.add(gamePlayersData[gameCurrentPlayerIdx].correct > i ? 'correct' : 'wrong');
+    /* Nalaz N4: ranije je stajalo `correct > i`, pa su prve tačkice UVEK bile
+       zelene bez obzira na to koja je reč zaista promašena — promašiš prvu i
+       pogodiš drugu, a igra prikaže obrnuto. Sada se čita stvaran ishod. */
+    const ishodi = (gamePlayersData[gameCurrentPlayerIdx] || {}).ishodi || [];
+    if(i < gameCurrentWordIdx) dot.classList.add(ishodi[i] ? 'correct' : 'wrong');
     else if(i === gameCurrentWordIdx) dot.classList.add('current');
     gameProgress.appendChild(dot);
   }

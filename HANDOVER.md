@@ -4,6 +4,117 @@
 
 ---
 
+# Sesija 29. jul 2026 (treća) — POPRAVKE: GRUPE 2–8, zatvoreno 60 od 64 nalaza
+
+> **NIŠTA NIJE PUSHOVANO.** Sve stoji na grani `fix/audit-grupa1`, pet novih commit-a.
+> Vlasnica je izričito rekla: **prvo ona gleda na lokalu, pa tek onda push.**
+
+## Gde je posao stao
+
+| Stavka | Stanje |
+|---|---|
+| Grana | `fix/audit-grupa1` (8 commit-a ukupno, **nije** pushovana) |
+| Otvorenih nalaza | **4** (bilo 64) |
+| Test | **265/265 prolazi** u poslednjem uspešnom pokretanju (bilo 167) |
+| Posle toga dodato | još ~20 provera (sekcije 20–20f) koje **nisu izvršene** — v. „Šta nije potvrđeno" |
+| `?v=` | podignut na `20260729b` u OBA fajla |
+| Strane regenerisane | 1.988 strana reči + nova hub strana, sitemap 2.011 URL-ova |
+
+## Šta ostaje otvoreno (4)
+
+| # | Zašto stoji |
+|---|---|
+| **K3** (ostatak) | traži odluku vlasnice — `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`, odeljci 2–4. Odobren je bio samo Odeljak 1 i on je urađen. |
+| **N12** (302 → 301) | preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma. Traži pristup panelu. |
+| **P1** (`logo-icon.png` 292 KB na 46×46 px) | **pravilo 8a: logo se ne dira.** Svako rešenje dodiruje sliku ili `<img>`. Odluka je vlasničina. |
+| **P2** (CLS 0,045) | popravka je **primenjena** (`preload` fonta na sve tri vrste strana), ali **nije izmerena** — mašina je ostala bez portova. Ostaje otvoreno dok se ne izmeri. |
+
+## Šta NIJE potvrđeno merenjem (pošteno, bez ulepšavanja)
+
+Pri kraju sesije mašina je ostala **bez efemernih portova**:
+
+```
+16.217 od 16.384 portova u TIME_WAIT
+curl 127.0.0.1  → „Can't assign requested address"
+node connect    → EAGAIN, i ka localhostu i ka google.com
+```
+
+Od 41.719 utičnica u TIME_WAIT samo **3.644** su išle ka test serveru; ostalo su
+drugi procesi na mašini (17.677 ka :443, 3.930 ka :3000, 2.227 ka :7000).
+**Sajt i test nisu krivi** — ali dok se to ne oslobodi, ništa se ne može izmeriti.
+
+**Zbog toga NISU izvršene ove provere** (napisane su, sintaksno proverene, ali
+nijednom nisu pokrenute):
+
+| Sekcija | Šta proverava |
+|---|---|
+| 20 | tab „Omiljene" — ♥, brojač, osvežavanje, „obriši sve" |
+| 20b | „i šire rime", „ijekavica", „dečji režim" menjaju rezultat |
+| 20c | rime za šest reči (ne samo „ljubav") |
+| 20d | tri režima pretrage + filter po slogovima |
+| 20e | HTTP status na 35 ruta |
+| 20f | tačkice napretka u igri (N4) |
+
+**Prvo što sledeća sesija radi:**
+
+```bash
+cd /Users/jovana.jovic/Desktop/Projects/rimoteka
+netstat -an -p tcp | awk '{print $6}' | sort | uniq -c | sort -rn | head -3   # mora biti < ~5.000 TIME_WAIT
+node test/predeploy.mjs                              # mora ispisati „Sme deploy"
+BASE=https://rimoteka.com node test/predeploy.mjs    # tek POSLE deploy-a
+```
+
+Ako te provere padnu, popraviti pa tek onda razmišljati o push-u.
+
+## Vidljive promene koje vlasnica treba da odobri
+
+| Šta | Bilo | Sada | Kako se vraća |
+|---|---|---|---|
+| Naslov strana reči | „Rime za nada: 51 reči koje se rimuju" | „Rime za reč „nada“: 51 reč koja se rimuje" | `build/gen_pages.py`, `title = …` |
+| Uvodna rečenica na stranama reči | „Pronađene su 56 reči…" | „Pronađeno je 56 reči…" | `gen_pages.py`, `pronadjeno()` |
+| **Nova strana** `/rime-za/` | 403 | spisak svih 1.988 strana po abecedi | obrisati blok „2z) HUB STRANA" |
+| Breadcrumb na stranama reči | Rimoteka › Rime za „ljubav" | Rimoteka › Rime za reč › „ljubav" | `gen_pages.py`, `nav class="crumbs"` |
+| **Nova društvena slika** `og-slika.png` | kvadratni logo | 1200×630, ljubičasti preliv + logo | vratiti `og:image` na `logo-icon.png` |
+| Tekst na tri strane za decu | „filtrirana od neprikladnih reči" | objašnjava šta je uvek isključeno a šta radi dečji režim | `gen_pages.py`, `lead=` tih strana |
+| Dugme na stranama za decu | „🧸 Pronađi još rima za decu" | „🧸 Otvori alat sa uključenim dečjim režimom" | isto mesto, `cta_text` |
+| Adresa se menja pri prebacivanju tabova | uvek `/?rec=…` | `/slogovi/`, `/klasici/`… | `app.js`, blok „URL JE STANJE" |
+| Klik na logo | ne radi ništa | prazni polje, rezultate i adresu | `app.js`, `goHome()` |
+| Brojač u igri, tamni režim | svetloljubičasta podloga | prozirno bela | `style.css`, `body.dark-mode .game-value` |
+| Dugmad u beležnici na telefonu | 23,3 px | 44 px | `style.css`, blok `@media(max-width:560px)` |
+| 404 strana | samo „nazad na početnu" | polje za pretragu + linkovi | `public/404.html` |
+
+**Logo nije diran ni na jednom mestu** (pravilo 8a). Nalaz o njegovoj veličini
+(292 KB) je zato ostavljen otvoren, ne popravljen.
+
+## Tri stvari koje treba razumeti pre nastavka
+
+**1. Ćirilica se kvarila u POVRATNOM prolazu, ne u prikazu.**
+Prebacivanje ide ćirilica → latinica → ćirilica, a u latinici su `dž`, `nj`, `lj`
+digrafi. Kad se u ćirilici `д` i `ж` samo dodiruju, povratni prolaz ih spoji:
+„надживети" → „nadživeti" → „**наџивети**". Rešeno nevidljivim čuvarom između ta
+dva slova. **Ne uklanjati ga** — bez njega se bag odmah vraća.
+
+**2. Klik na rimu u beležnici sada ZAMENJUJE reč, ali samo kad je kursor u njoj.**
+U praznini i dalje ubacuje, jer tada korisnik piše novi stih. Ta razlika je
+namerna i pokrivena proverom.
+
+**3. `definicije.json` (19,3 MB) se više ne skida unapred.**
+Skida se tek na prvi prelazak mišem preko ⓘ. Ako se ikad vrati predučitavanje,
+vraća se i 3,3 sekunde čekanja na rime — i test sekcije 19c pada.
+
+## Alat koji ostaje sledećoj sesiji
+
+Merači i probe iz ove sesije (svaka se pušta i sa `BASE=https://rimoteka.com`):
+
+```
+scratchpad/probe-g2.mjs …  probe-g7.mjs   provere po grupama
+scratchpad/kontrast-igra.mjs              kontrast ekrana igre u obe teme
+```
+
+Nisu u repozitorijumu jer su im sve provere prebačene u `test/predeploy.mjs`.
+
+---
+
 # Sesija 29. jul 2026 (druga) — POPRAVKE: GRUPA 1 + ceo noćni režim
 
 > **NIŠTA NIJE PUSHOVANO.** Sve stoji na grani `fix/audit-grupa1`, tri commita.

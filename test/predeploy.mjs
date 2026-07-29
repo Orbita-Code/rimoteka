@@ -1150,8 +1150,12 @@ async function main() {
     await pU.keyboard.type('moja pesma', { delay: 30 });
     await pauza(600);
     const pesmaTekst = await pU.evaluate(() => document.getElementById('noteEditor').innerText.trim());
-    ok('beležnica se NE prekucava u ćirilicu (tekst je korisnikov)',
-       pesmaTekst === 'moja pesma', pesmaTekst);
+    /* PROMENJENO 29.07.2026. na odluku vlasnice. Ranije je ovde stajalo
+       „beležnica se NE prekucava u ćirilicu (tekst je korisnikov)" — namerno
+       ponašanje, koje je u praksi značilo da je pola strane ćirilica a pesma
+       latinica. Sada i beležnica prati pismo, u oba smera (sekcija 21). */
+    ok('i beležnica prati pismo — otkucano u ćirilici je ćirilica',
+       pesmaTekst === 'моја песма', pesmaTekst);
     await pU.close();
 
     console.log('\n12i) NIŠTA NE IZLAZI IZVAN OKVIRA ČIPA');
@@ -2228,6 +2232,120 @@ async function main() {
       ok('N4 druga tačkica je TAČNO (druga reč pogođena)',
          stanje.tacke[1] === 'tačno', `redosled: ${stanje.tacke.slice(0, 4).join(', ')}`);
       await p20f.close();
+    }
+
+    console.log('\n21) BELEŽNICA PRATI PISMO + SRPSKA TASTATURA + PRELOMI PRI LEPLJENJU');
+    /* Tri prijave vlasnice, 29.07.2026:
+       · pesma nalepljena na latinici ostajala je latinica i kad se sajt prebaci
+         na ćirilicu (pola strane ćirilica, pesma latinica);
+       · na američkom rasporedu nije bilo načina da se otkucaju `ћ ч ш ђ ж`;
+       · usput izmereno: lepljenje je GUTALO prelome redova — pesma od četiri
+         stiha postajala je jedan red, pa su nestali i slogovi po stihu i šema
+         rime. To je najteži od tri, jer tiho uništava tuđi tekst. */
+    {
+      const ctx21 = await browser.newContext({ permissions: ['clipboard-read', 'clipboard-write'] });
+      const p21 = ojacajStranu(await ctx21.newPage());
+      await p21.goto(BASE + '/?tab=beleznica', { waitUntil: 'domcontentloaded' });
+      await p21.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      const tekst = () => p21.evaluate(() => getEditorText());
+      const naPismo = async (s) => { await p21.click(`#scriptToggle button[data-script=${s}]`); await pauza(900); };
+
+      /* U pesmi su namerno „nadživeti" i „injekcija": tu se `d+ž` i `n+j`
+         DODIRUJU a nisu digraf, pa naivan prevod daje „наџивети"/„ињекција". */
+      const PESMA = 'Ljubav je njezina\nnadživeti sve tuge\ninjekcija boli\nđačko srce šapće';
+      await p21.evaluate(t => navigator.clipboard.writeText(t), PESMA);
+      await p21.click('#noteEditor');
+      await p21.keyboard.press('ControlOrMeta+V');
+      await pauza(1000);
+
+      const nalepljeno = await tekst();
+      ok('lepljenje ČUVA prelome redova (pesma nije jedan red)',
+         nalepljeno.split('\n').length === 4, `${nalepljeno.split('\n').length} red(ova) umesto 4`);
+      ok('brojač levo pokazuje sva četiri stiha',
+         await p21.evaluate(() => document.querySelectorAll('#noteGutterInner > *').length) === 4,
+         `${await p21.evaluate(() => document.querySelectorAll('#noteGutterInner > *').length)} redova`);
+
+      await naPismo('cyr');
+      const cir = await tekst();
+      ok('beležnica prelazi u ćirilicu kad se sajt prebaci',
+         /^[^a-zA-Z]*$/.test(cir) && cir.includes('Љубав'), `„${cir.split('\n')[0]}"`);
+      ok('prelomi prežive prebacivanje pisma', cir.split('\n').length === 4,
+         `${cir.split('\n').length} redova`);
+      ok('„nadživeti" NE postaje „наџивети" (д и ж se samo dodiruju)',
+         cir.includes('надживети') && !cir.includes('наџивети'), cir.split('\n')[1]);
+      ok('„injekcija" NE postaje „ињекција"',
+         cir.includes('инјекција') && !cir.includes('ињекција'), cir.split('\n')[2]);
+
+      await naPismo('lat');
+      ok('povratak na latinicu vraća pesmu SLOVO U SLOVO', (await tekst()) === PESMA,
+         `„${(await tekst()).slice(0, 40)}"`);
+
+      // pismo mora da preživi osvežavanje strane, ne samo prebacivanje
+      await naPismo('cyr');
+      await p21.reload({ waitUntil: 'domcontentloaded' });
+      await p21.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(700);
+      ok('posle F5 beležnica je i dalje ćirilica', (await tekst()).includes('Љубав'),
+         `„${(await tekst()).split('\n')[0]}"`);
+
+      /* ---- kucanje: digrafi i srpski raspored tastature ----
+         Beležnica se prazni TASTATUROM, ne pozivom unutrašnje funkcije: kad se
+         ova sekcija pusti protiv produkcije na kojoj stoji stariji `app.js`,
+         poziv nepostojeće funkcije obori ceo test i preostale provere se nikad
+         ne izvrše — a baš one treba da padnu i dokažu da valjaju. */
+      await p21.click('#noteEditor');
+      await p21.keyboard.press('ControlOrMeta+A');
+      await p21.keyboard.press('Backspace');
+      await pauza(600);
+      await p21.keyboard.type('ljubav njegova');
+      await pauza(700);
+      ok('otkucano u ćirilici odmah prelazi u ćirilicu (digrafi lj/nj)',
+         (await tekst()) === 'љубав његова', `„${await tekst()}"`);
+
+      await p21.keyboard.type(' [e');           // [ je taster za „š" na srpskom rasporedu
+      await pauza(400);
+      ok('srpski raspored: taster [ daje „ш" u beležnici',
+         (await tekst()).endsWith(' ше'), `„${await tekst()}"`);
+
+      await p21.keyboard.type(' nek');
+      await p21.keyboard.press("'");
+      await pauza(300);
+      ok("srpski raspored: taster ' daje „ћ\"", (await tekst()).endsWith('некћ'), `„${await tekst()}"`);
+      await p21.keyboard.press("'");
+      await pauza(300);
+      ok("drugi pritisak ' vraća apostrof (за „нек'\")", (await tekst()).endsWith("нек'"),
+         `„${await tekst()}"`);
+
+      // ---- isti tasteri u polju za rime, pa provera da u latinici ĆUTE ----
+      await p21.goto(BASE + '/?tab=rime', { waitUntil: 'domcontentloaded' });
+      await p21.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p21.click('#rimeInput');
+      await p21.keyboard.type('[e');
+      await pauza(300);
+      ok('srpski raspored radi i u polju za rime', (await p21.inputValue('#rimeInput')) === 'ше',
+         `„${await p21.inputValue('#rimeInput')}"`);
+      ok('uputstvo o srpskim slovima se vidi u ćirilici', await p21.isVisible('#kbdHelp'), 'nije vidljivo');
+
+      /* Sledeće dve provere PROLAZE i na starom kodu — i tako treba da bude.
+         One nisu tu da dokažu da nova funkcija radi, nego da ne curi tamo gde
+         joj nije mesto: u latinici uputstvo mora da ostane skriveno, a tasteri
+         `[ ] ; ' \` moraju i dalje da daju interpunkciju. Ovo su kontrole
+         protiv preterivanja, ne provere funkcije — pravilo 17 iz PROPUSTI.md
+         („provera koja prođe na starom kodu ne valja") se na njih NE odnosi. */
+      await naPismo('lat');
+      ok('uputstvo je skriveno u latinici', !(await p21.isVisible('#kbdHelp')), 'vidi se i u latinici');
+      await p21.fill('#rimeInput', '');
+      await p21.click('#rimeInput');
+      await p21.keyboard.type('[e');
+      await pauza(300);
+      ok('u latinici tasteri [ ] ; \' \\ ostaju interpunkcija',
+         (await p21.inputValue('#rimeInput')) === '[e', `„${await p21.inputValue('#rimeInput')}"`);
+
+      // uputstvo mora da postoji i na podstranama, ne samo na početnoj
+      await p21.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+      ok('uputstvo postoji i na stranama reči (svih 1.988)',
+         await p21.evaluate(() => !!document.getElementById('kbdHelp')), 'nema ga na /rime-za/ljubav/');
+      await ctx21.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

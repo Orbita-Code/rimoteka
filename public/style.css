@@ -1152,3 +1152,50 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
 /* Dugme dok se rečnik učitava (nalaz V5) — reč se pamti i pretraga kreće sama */
 .primary.ucitava{opacity:.65;cursor:progress}
+
+/* ====================== UPUTSTVO ZA SRPSKA SLOVA ======================
+   Vidi se SAMO u ćiriličnom režimu (app.js ga pokazuje i skriva). Stoji između
+   zaglavlja i trake alata, sklopljeno u jedan red — otvara se na klik, pa ne
+   zauzima prostor onome ko ga ne traži. Sve boje idu kroz promenljive, pa
+   tamni režim radi bez posebnih pravila. */
+.kbd-help{max-width:940px;margin:0 auto;padding:0 clamp(1rem,4vw,2.6rem)}
+.kbd-help[hidden]{display:none}
+.kbd-help details{
+  background:var(--card-bg);border:1px solid var(--line);border-radius:14px;
+  padding:.55rem .9rem;box-shadow:var(--shadow-sm);
+}
+.kbd-help summary{
+  cursor:pointer;font-weight:600;color:var(--ink);font-size:.94rem;
+  list-style:none;display:flex;align-items:center;gap:.5rem;
+}
+.kbd-help summary::-webkit-details-marker{display:none}
+.kbd-help summary::before{content:"⌨";font-size:1.05rem;line-height:1}
+.kbd-help summary::after{content:"▾";margin-inline-start:auto;color:var(--muted);transition:transform .15s}
+.kbd-help details[open] summary::after{transform:rotate(180deg)}
+.kbd-help summary:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px;border-radius:6px}
+.kbd-help-body{margin-top:.7rem;border-top:1px solid var(--line);padding-top:.7rem}
+.kbd-help-body p{margin:0 0 .55rem;color:var(--ink-soft);font-size:.92rem;line-height:1.55}
+.kbd-help-body b{color:var(--ink)}
+.kbd-help-body code{
+  background:var(--tag-bg);color:var(--tag-ink);border-radius:5px;
+  padding:.05rem .35rem;font-size:.88em;
+}
+.kbd-help kbd{
+  display:inline-block;min-width:1.5em;text-align:center;
+  background:var(--field-bg);color:var(--ink);
+  border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;
+  padding:.1rem .38rem;font:600 .86rem/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+/* Tabela mora da može da se skroluje na uskom ekranu, a ne da širi stranu. */
+.kbd-map{border-collapse:collapse;margin:.2rem 0 .75rem;display:block;overflow-x:auto}
+.kbd-map th,.kbd-map td{
+  border:1px solid var(--line);padding:.3rem .6rem;text-align:center;
+  font-size:.92rem;color:var(--ink);white-space:nowrap;
+}
+.kbd-map th{background:var(--tag-bg);color:var(--tag-ink);font-weight:600;text-align:start}
+.kbd-map td b{font-size:1.05rem}
+.kbd-note{font-size:.86rem !important;color:var(--muted) !important}
+@media(max-width:560px){
+  .kbd-help{padding:0 1rem}
+  .kbd-help summary{font-size:.9rem}
+}

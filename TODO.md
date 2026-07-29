@@ -1,7 +1,101 @@
 # TODO — Rimoteka (sajt i alati)
 
 > Rečnik ima svoj spisak u `TODO-RECNIK.md`. Ovde je sve ostalo.
-> Poslednje ažuriranje: 28. jul 2026.
+> Poslednje ažuriranje: 29. jul 2026.
+
+---
+
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026
+
+| | |
+|---|---|
+| **Otvorenih nalaza iz audita** | **72** (6 kritičnih, 7 visokih) → `AUDIT/NALAZI-OTVORENI.md` |
+| Ocena poslednjeg audita | **6,9 / 10** |
+| Sledeći audit | **31.07.2026** |
+| Zašto propusti | `AUDIT/PROPUSTI.md` |
+| **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
+
+**PRAVILO REDOSLEDA: prvo se popravljaju bagovi, pa se onda gradi novo.**
+Inovacije iz odeljka A ispod **ne počinju** dok kritični nalazi nisu zatvoreni.
+Cilj nije više funkcija nego **najbolji alat bez bagova**.
+
+**Claude na početku SVAKE sesije podseća na ovaj spisak** — koliko je otvorenih
+nalaza, šta je sledeće po redu, i koliko je prošlo od poslednjeg audita.
+
+---
+
+## A. INOVATIVNI PREDLOZI — istraženi, ne izmišljeni
+
+> Svaki je proveren naspram onoga što rade najbolji svetski alati (RhymeZone,
+> RapPad, RhymeFlux, MasterWriter, RHYMEBOOK, Rhymer's Block).
+> Poređano po odnosu vrednosti i truda.
+
+### A1. „Zameni i vrati u meru" — spoj zamene rime sa metrom
+**Šta:** kad zameniš reč na kraju stiha, alat odmah proveri da li stih i dalje ima isti
+broj slogova kao ostali — i ako ne, ponudi rime koje ga vraćaju u meru.
+
+**Zašto:** metar, šemu rime i slogove **već računamo** — ovo ih samo spaja sa zamenom
+reči. **Nijedan istraženi alat ne povezuje zamenu rime sa proverom metra**; svi daju
+listu pa se snađi. Autori dečjih knjiga izričito kažu da im je nekonzistentan metar
+veći problem od rime.
+
+**Trud:** nekoliko dana. **Uslov:** prvo popraviti V6 (zamena reči uopšte ne radi kako treba).
+
+### A2. MCP server za Rimoteku
+**Šta:** alati `rime(reč)`, `slogovi(tekst)`, `značenje(reč)` — alat postaje pozivljiv
+direktno iz Claude-a i ChatGPT-a.
+
+**Zašto:** **ne postoji nijedan MCP server za srpske rime.** Najveća asimetrija truda i
+konkurencije koju je istraživanje našlo. Uz to su nam strane reči već potpuno
+server-renderovane (86–129 reči u statičkom HTML-u), što je preduslov koji većina
+sajtova ne ispunjava — GPTBot i ClaudeBot ne izvršavaju JavaScript.
+
+**Trud:** nekoliko dana.
+
+### A3. Javni JSON API
+**Šta:** `GET /api/rime/{reč}` → `{reč, slogovi, rime[], definicija}` + OpenAPI opis.
+
+**Zašto:** Datamuse je tako postao standard za engleske rime — ljudi ga ugrade, pa
+nastanu linkovi i pominjanja, a dokumentacija uđe u trening budućih modela.
+
+**Trud:** dan-dva (podaci već postoje).
+
+### A4. „Nikad ne izgubi pesmu"
+**Šta:** dva ključa naizmenično u `localStorage`, čuvanje poslednje tri verzije,
+vidljivo dugme „Preuzmi pesmu", i upozorenje ako je čuvanje onemogućeno.
+
+**Zašto:** **izgubljen tekst je ubedljivo najbolnija pritužba celog tržišta**
+(„4 hours worth of feelings, gone"), a naša beležnica živi u `localStorage` koji smo
+u auditu **dokazano uspeli da pokvarimo** — i time oborimo ceo sajt. Najveća bolna
+tačka tržišta i naš najveći tehnički rizik su na istom mestu.
+
+**Trud:** dan. **Ovo je zapravo popravka koliko i funkcija — zato ide pre ostalih.**
+
+### A5. Kulturne reference u rečniku
+**Šta:** imena pevača, brendovi, gradovi, sleng — reči koje se stvarno koriste u repu
+i savremenoj poeziji, a nema ih u rečniku Matice srpske.
+
+**Zašto:** RhymePlug se time izdvaja (5.600+ referenci). Za srpski to niko nema.
+
+**Trud:** srednji, i traži odluku vlasnice šta ulazi (vidi pravilo o izvoru istine).
+
+### A6. Akcentovani rečnik → imenovanje stope
+Vidi tačku 9 i 9a ispod. **Jedina funkcija koja nam stvarno fali** u odnosu na
+akademske alate. Otključava „trohejski osmerac" umesto „akcenat je na jednom od ovih slogova".
+
+---
+
+## B. ŠTA NE RADITI (istraženo, da se ne troši vreme)
+
+- **`llms.txt`** — Google izričito ne koristi; 97% takvih fajlova nikad nije preuzeto
+- **nove `FAQPage` šeme** — bogati rezultati ugašeni 7.5.2026 (postojeće ne dirati)
+- **zajednica / društvena mreža za pesnike** — protivi se viziji „alat, ne portal",
+  a kod konkurenata se pune spamom
+- **reklame** — čisto sučelje je adut kojim se svetski konkurenti hvale, a mi ga imamo
+- **mobilna aplikacija koja je samo sajt u omotu** — najveća zamerka RhymeZone-ovoj
+  aplikaciji („it's literally just the website in a app"); PWA je bolji put
+- **naplata rima ili pristupa korisnikovom tekstu** — jedini obrazac koji garantovano
+  proizvodi jednu zvezdicu
 
 ---
 

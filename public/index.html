@@ -36,7 +36,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=2"></script>
-<link rel="stylesheet" href="style.css?v=20260729b">
+<link rel="stylesheet" href="style.css?v=20260729c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -110,6 +110,26 @@
   <!-- Pro dugme je sakriveno dok backend ne bude deployovan -->
   <!-- <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button> -->
 </header>
+
+<!-- Uputstvo se prikazuje SAMO u ćiriličnom režimu (app.js: prikaziUputstvoZaTastaturu).
+     Namerno je napisano ćirilicom i izuzeto iz prebacivanja pisma (BEZ_PISMA_SEL) —
+     ono što piše na tasteru ne sme da se „prevodi". -->
+<div class="kbd-help" id="kbdHelp" hidden>
+  <details>
+    <summary>Како се куцају српска слова</summary>
+    <div class="kbd-help-body">
+      <p>Док је изабрана ћирилица, оно што откуцате прелази у ћирилицу само од себе — <code>ljubav</code> постаје <b>љубав</b>, <code>nj</code> постаје <b>њ</b>.</p>
+      <p>Слова <b>ч ћ ш ђ ж</b> стоје на истим тастерима као на српском распореду — десно од <kbd>L</kbd> и десно од <kbd>P</kbd>:</p>
+      <table class="kbd-map">
+        <tr><th scope="row">тастер</th><td><kbd>;</kbd></td><td><kbd>'</kbd></td><td><kbd>[</kbd></td><td><kbd>]</kbd></td><td><kbd>\</kbd></td></tr>
+        <tr><th scope="row">слово</th><td><b>ч</b></td><td><b>ћ</b></td><td><b>ш</b></td><td><b>ђ</b></td><td><b>ж</b></td></tr>
+      </table>
+      <p>Уз <kbd>Shift</kbd> добијате велика слова: <b>Ч Ћ Ш Ђ Ж</b>.</p>
+      <p><b>Апостроф</b> — за „нек’“ и „ил’“: притисните <kbd>'</kbd> <b>двапут заредом</b>. Први пут даје <b>ћ</b>, а други притисак га замени апострофом.</p>
+      <p class="kbd-note">Ако сте на рачунару већ пребацили тастатуру на српски распоред, ништа се не мења — тастери и даље дају оно што на њима пише.</p>
+    </div>
+  </details>
+</div>
 
 <nav class="tabs" id="tabs" aria-label="Alati">
   <a href="/rimovanje-reci/" data-tab="rime" class="active">Rimovanje reči</a>
@@ -449,7 +469,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260729b"></script>
+<script src="app.js?v=20260729c"></script>
 <script src="/sw-register.js?v=4"></script>
 </body>
 </html>

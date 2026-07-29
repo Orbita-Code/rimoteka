@@ -1098,6 +1098,73 @@ function restoreCursorPosition(pos){
   sel.addRange(range);
 }
 
+/* ====================== BELEŽNICA PRATI PISMO ======================
+ * Prijava vlasnice 29.07.2026: pesma nalepljena na latinici ostajala je na
+ * latinici i kad se ceo sajt prebaci na ćirilicu. Ranije je to bila NAMERNA
+ * odluka („alat ne sme sam da prekucava tekst korisnika"), ali u praksi znači
+ * da pola strane bude ćirilica a pesma latinica. Vlasnica je odlučila da se i
+ * pesma prebacuje — u OBA smera, pa se ništa ne gubi: povratak na latinicu
+ * vraća pesmu na latinicu.
+ *
+ * Kursor se čuva u BROJU ZNAKOVA od početka, a ne u DOM čvoru, jer se ceo
+ * sadržaj editora zamenjuje. Pozicija se preračunava kroz isti prevod, da ne
+ * odskoči kad se `lj` skupi u jedno slovo `љ`.
+ * ================================================================== */
+
+/* `saveCursorPosition` ne proverava da li je izbor UOPŠTE u beležnici — kad se
+   klikne na prekidač za pismo, izbor je na dugmetu, pa bi vratila besmislicu.
+   Ova vraća `null` u tom slučaju, da pozivalac zna da kursor ne treba dirati. */
+function pozicijaKursoraUBelesci(){
+  const sel = window.getSelection();
+  if(!sel || sel.rangeCount === 0) return null;
+  const r = sel.getRangeAt(0);
+  if(!noteEditor.contains(r.startContainer)) return null;
+  return saveCursorPosition();
+}
+
+/* Ponovo iscrta boje rima posle zamene teksta — bez ovoga pesma posle
+   prebacivanja pisma ostane crna dok se ne otkuca sledeće slovo. */
+function osveziBelesku(tekst, poz){
+  noteInput.value = tekst;
+  sacuvajBelesku(tekst);
+  const { colorMap } = analyzeRhymes(tekst);
+  if(colorMap.size > 0) noteEditor.innerHTML = renderColoredText(tekst);
+  if(poz != null) restoreCursorPosition(poz);
+}
+
+/* Cela beleška u izabrano pismo. Zove se pri prebacivanju pisma, pri učitavanju
+   strane i posle svakog otkucanog slova dok je izabrana ćirilica.
+   Prevodi se CEO tekst, a ne samo reč pod kursorom: digrafi (`lj` → `љ`) traže
+   dva znaka, pa jedno slovo nije dovoljno, a računanje granica reči preko dve
+   različite mere dužine (v. napomenu o prelomima ispod) unosi grešku koja se
+   vidi tek u dugačkoj pesmi. Prevod je čist prolaz kroz niz znakova i na pesmi
+   od hiljadu redova traje manje od milisekunde — kratkoća koda ovde vredi više
+   od uštede koja se ne meri.
+
+   PAŽNJA NA DVE MERE DUŽINE: `getEditorText()` broji svaki prelom reda kao znak
+   `\n`, a `saveCursorPosition`/`restoreCursorPosition` prelome NE broje (idu
+   samo kroz tekstualne čvorove). Zato se nova pozicija kursora računa nad
+   `noteEditor.textContent` — to je ista mera koju kursor koristi. Sa
+   `getEditorText()` bi kursor u pesmi sa više redova odskakao za broj redova. */
+function prebaciBelesku(){
+  if(!noteEditor || noteEditor.__noop) return;
+  const stari = getEditorText();
+  if(!stari.trim()) return;
+  const novi = uPismo(stari);
+  if(novi === stari) return;
+  const poz = pozicijaKursoraUBelesci();
+  const novaPoz = poz == null ? null : uPismo(noteEditor.textContent.slice(0, poz)).length;
+  setEditorText(novi);
+  osveziBelesku(novi, novaPoz);
+}
+
+/* Dok se KUCA: u ćirilici i otkucano slovo odmah prelazi u ćirilicu, isto kao
+   u polju za rime. U latinici se ne dira ništa — ko piše latinicom, piše
+   latinicom. */
+function prebaciKucanoUBelesci(){
+  if(script === 'cyr') prebaciBelesku();
+}
+
 // Analiziraj tekst i vrati mapu boja po redu
 /* Poslednja reč u stihu — sa POLOŽAJEM u izvornom tekstu.
    Ranije se vraćao samo latinični oblik reči, pa je bojenje rima u ćiriličnoj
@@ -1199,15 +1266,61 @@ function scheduleEditorUpdate(){
 }
 
 // Event listeneri
-noteEditor.addEventListener('input', scheduleEditorUpdate);
+noteEditor.addEventListener('input', () => {
+  prebaciKucanoUBelesci();  // u ćirilici i otkucano slovo odmah prelazi u ćirilicu
+  scheduleEditorUpdate();
+});
 noteEditor.addEventListener('scroll', () => {
   const inner = el('noteGutterInner');
   if(!inner.__noop) inner.style.transform = `translateY(${-noteEditor.scrollTop}px)`;
 });
+/* LEPLJENJE PESME — PRELOMI REDOVA SE MORAJU SAČUVATI.
+   Do 29.07.2026. je ovde stajalo `execCommand('insertText', …)`, koje u ovom
+   editoru GUTA `\n`: nalepljena pesma od dvanaest stihova postajala je JEDAN
+   red. Izmereno: brojač je posle lepljenja pokazivao „1 red · 6 reči", a levi
+   brojač slogova jedan jedini broj. Za beležnicu za pesme to nije sitnica —
+   sa prelomima nestaju i slogovi po stihu, i šema rime, i bojenje.
+   Zato se tekst ubacuje sam, čvor po čvor: red kao tekst, prelom kao <br> —
+   isti oblik koji editor pravi na Enter. */
 noteEditor.addEventListener('paste', (e) => {
   e.preventDefault();
-  const text = (e.clipboardData || window.clipboardData).getData('text/plain');
-  document.execCommand('insertText', false, text);
+  let text = (e.clipboardData || window.clipboardData).getData('text/plain');
+  if(!text) return;
+  text = text.replace(/\r\n?/g, '\n');
+  // Nalepljena pesma odmah ulazi u izabrano pismo. Prevodi se ceo tekst
+  // odjednom, da digrafi na granicama reči ostanu ispravni.
+  if(script === 'cyr') text = uPismo(text);
+
+  const sel = window.getSelection();
+  if(!sel || sel.rangeCount === 0) return;
+  const r = sel.getRangeAt(0);
+  if(!noteEditor.contains(r.startContainer)) return;
+  r.deleteContents();
+
+  const frag = document.createDocumentFragment();
+  text.split('\n').forEach((red, i) => {
+    if(i) frag.appendChild(document.createElement('br'));
+    if(red) frag.appendChild(document.createTextNode(red));
+  });
+  let zadnji = frag.lastChild;
+  /* Ako se nalepljeno završava prelomom, kursor ne sme da stane odmah iza
+     njega — pregledač ga vrati ISPRED preloma, pa bi se sledeći red spojio sa
+     prethodnim. Isti pomoćni <br> koji koristi `restoreCursorPosition`. */
+  if(zadnji && zadnji.nodeName === 'BR'){
+    const cb = document.createElement('br');
+    cb.className = 'cursor-br';
+    frag.appendChild(cb);
+    zadnji = cb;
+  }
+  r.insertNode(frag);
+  if(zadnji){
+    const nr = document.createRange();
+    nr.setStartAfter(zadnji);
+    nr.collapse(true);
+    sel.removeAllRanges();
+    sel.addRange(nr);
+  }
+  noteEditor.dispatchEvent(new Event('input', { bubbles: true }));
 });
 
 // iOS Safari fix — Enter ne radi u contenteditable nakon renderovanja HTML-a
@@ -2366,6 +2479,8 @@ el('scriptToggle').addEventListener('click', e=>{
   lsSet('rimoteka_script', script);
   document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
   applyScriptToUI();
+  prebaciBelesku();          // i pesma u beležnici prelazi u izabrano pismo
+  prikaziUputstvoZaTastaturu();
   // ponovo iscrtaj sve što je prikazano
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
@@ -2428,23 +2543,129 @@ function toLatinCuvano(s){
 }
 function bezCuvara(s){ return s.split(CUVAR_DIGRAFA).join(''); }
 
+/* ISTI PROBLEM, DRUGI SMER: latinica → ćirilica.
+   Kad tekst DOLAZI iz ćirilice, čuvar iznad zna gde digraf nije digraf. Kad je
+   tekst otkucan ili nalepljen na latinici, te obaveštenosti nema — a `dž`, `nj`
+   i `lj` na granici prefiksa i korena nisu jedno slovo:
+       „nadživeti" → „наџивети"   (treba „надживети")
+       „injekcija" → „ињекција"   (treba „инјекција")
+   Pravilo se ne da izvesti iz oblika reči: „konj" JESTE digraf, „konjugacija"
+   nije; „inje" jeste, „injekcija" nije. Zato stoji spisak osnova, a ne pravilo.
+   Spisak je namerno uzak — svaka stavka samo SPREČAVA pogrešno spajanje, pa ne
+   može da pokvari reč koja na njemu nije. Nove reči se dodaju ovde, uz proveru
+   u `test/predeploy.mjs`. */
+const LAT_NE_DIGRAF = /(nadživ|nadžanr|nadžnj|nadžet|podžanr|podžup|odžval|odžvak|odžive|predželud|predživot|injekc|injekt|injicir|konjug|konjunk|konjukt|tanjug|vanjezič|panjevrop)/gi;
+function cuvajLatDigrafe(s){
+  return s.replace(LAT_NE_DIGRAF, m =>
+    m.replace(/([dnl])([žj])/i, (x, a, b) => a + CUVAR_DIGRAFA + b));
+}
+
+/* Jedno mesto na kome se BILO KOJI tekst korisnika prebacuje u izabrano pismo.
+   Uvek ide preko latinice, jer su digrafi definisani na latinici. */
+function uPismo(s){
+  const lat = toLatinCuvano(s);            // čuvar ostaje unutra, namerno
+  return bezCuvara(script === 'cyr' ? toCyr(cuvajLatDigrafe(lat)) : toLatin(lat));
+}
+
 function prebaciUnos(inp){
   if(!inp || inp.__noop || !inp.value) return;
-  const fn = script === 'cyr' ? toCyr : toLatin;
-  const novo = bezCuvara(fn(toLatinCuvano(inp.value)));
+  const novo = uPismo(inp.value);
   if(novo === inp.value) return;
   const kraj = inp.selectionStart == null || inp.selectionStart === inp.value.length;
-  const poz = kraj ? novo.length
-                   : bezCuvara(fn(toLatinCuvano(inp.value.slice(0, inp.selectionStart)))).length;
+  const poz = kraj ? novo.length : uPismo(inp.value.slice(0, inp.selectionStart)).length;
   inp.value = novo;
   try { inp.setSelectionRange(poz, poz); } catch(e){}
+}
+
+/* ========== SRPSKI RASPORED TASTATURE U ĆIRILIČNOM REŽIMU ==========
+ * Na američkom rasporedu nema tastera za `ć č š đ ž`, pa se u ćirilici nikako
+ * nisu mogla otkucati slova `ћ ч ш ђ ж` — a to je pet od trideset slova azbuke.
+ * Na srpskom rasporedu ta slova stoje desno od `L` i desno od `P`, na tasterima
+ * koji na američkom daju `; ' [ ] \`. Preslikavamo tačno te tastere, pa ko zna
+ * srpski raspored kuca kao i inače.
+ *
+ * Radi SAMO u ćiriličnom režimu i SAMO ako taster stvarno daje interpunkciju:
+ * kad je na računaru već izabran srpski raspored, sistem šalje `š`, ne `[`, pa
+ * ovo ćuti i ništa ne kvari.
+ *
+ * APOSTROF: `'` daje `ћ`, pa bi „нек'" i „ил'" ostali bez apostrofa. Zato drugi
+ * uzastopni pritisak istog tastera zamenjuje upisano slovo pravim znakom —
+ * dobija se i slovo i interpunkcija, bez posebnog režima i bez novog dugmeta.
+ * ================================================================== */
+const SR_TASTERI = {
+  ';': 'ч', "'": 'ћ', '[': 'ш', ']': 'ђ', '\\': 'ж',
+  ':': 'Ч', '"': 'Ћ', '{': 'Ш', '}': 'Ђ', '|': 'Ж'
+};
+const SR_POLJA = '#rimeInput, #searchInput, #gameInput, #sylInput, #noteTitle, #noteEditor';
+let zadnjaZamena = null;    // {polje, taster} — pamti se samo jedan potez unazad
+
+function umetniZnak(polje, znak, obrisiPrethodni){
+  if(polje.isContentEditable){
+    const sel = window.getSelection();
+    if(obrisiPrethodni && sel && sel.rangeCount){
+      const r = sel.getRangeAt(0);
+      if(r.collapsed && r.startContainer.nodeType === Node.TEXT_NODE && r.startOffset > 0){
+        r.setStart(r.startContainer, r.startOffset - 1);
+        sel.removeAllRanges(); sel.addRange(r);
+      } else if(sel.modify){
+        sel.modify('extend', 'backward', 'character');
+      }
+    }
+    document.execCommand('insertText', false, znak);
+    return;
+  }
+  const kraj = polje.selectionEnd;
+  const poc = (obrisiPrethodni ? polje.selectionStart - 1 : polje.selectionStart);
+  if(poc < 0) return;
+  polje.value = polje.value.slice(0, poc) + znak + polje.value.slice(kraj);
+  const p = poc + znak.length;
+  try { polje.setSelectionRange(p, p); } catch(e){}
+  polje.dispatchEvent(new Event('input', { bubbles: true }));
+}
+
+document.addEventListener('keydown', e => {
+  const polje = e.target;
+  if(!polje || !polje.closest || !polje.closest(SR_POLJA)) return;
+  if(e.ctrlKey || e.metaKey || e.altKey) return;
+  const slovo = SR_TASTERI[e.key];
+  if(slovo === undefined){ zadnjaZamena = null; return; }
+  if(script !== 'cyr'){ zadnjaZamena = null; return; }
+  e.preventDefault();
+  const ponovljen = zadnjaZamena && zadnjaZamena.polje === polje && zadnjaZamena.taster === e.key;
+  if(ponovljen){
+    umetniZnak(polje, e.key, true);      // drugi pritisak vraća pravi znak
+    zadnjaZamena = null;
+  } else {
+    umetniZnak(polje, slovo, false);
+    zadnjaZamena = { polje, taster: e.key };
+  }
+}, true);
+// klik ili odlazak sa polja prekida niz — „нек'" se pravi samo dva pritiska zaredom
+document.addEventListener('pointerdown', () => { zadnjaZamena = null; });
+document.addEventListener('focusout', () => { zadnjaZamena = null; });
+
+/* Uputstvo o srpskim slovima ima smisla samo dok je izabrana ćirilica.
+   Prvi put se otvori samo, da se sazna da postoji; posle pamti šta je izabrano. */
+function prikaziUputstvoZaTastaturu(){
+  const b = el('kbdHelp');
+  if(!b || b.__noop) return;
+  b.hidden = script !== 'cyr';
+  if(script !== 'cyr') return;
+  const det = b.querySelector('details');
+  if(det && lsGet('rimoteka_kbd_seen') !== '1'){
+    det.open = true;
+    lsSet('rimoteka_kbd_seen', '1');
+  }
 }
 
 /* Šta se NIKAD ne prebacuje u drugo pismo:
    - logo i ime u futeru (logo se ne dira — pravilo 8a u CLAUDE.md)
    - mejl i domen: „info@rimoteka.com" u ćirilici prestaje da bude adresa
    - skraćenice velikim slovima (PDF, ABAB, AABB) — to su oznake, ne reči */
-const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-legal, .deftip';
+/* `.kbd-help` je uputstvo koje POSTOJI samo u ćirilici i već je napisano
+   ćirilicom — kad bi ga prekidač prevodio, tabela tastera bi se pri povratku
+   na latinicu prepisala u „š / č", a to nije ono što piše na tasteru. */
+const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-legal, .deftip, .kbd-help';
 const ADRESA = /[@]|\b[a-z0-9-]+\.(com|rs|org|net)\b/i;
 const SKRACENICA = /\b[A-ZĐŽĆČŠ]{2,}\b/g;
 
@@ -2879,6 +3100,11 @@ document.querySelectorAll('.copy-all-btn').forEach(btn=>{
 /* ====================== START ====================== */
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
 if(script === 'cyr') applyScriptToUI();
+/* Beležnica se učitava iz memorije uređaja PRE nego što se primeni pismo, pa
+   pri osvežavanju strane u ćirilici mora i ona da se prebaci — inače je posle
+   F5 ceo sajt ćirilica a pesma opet latinica. */
+if(script === 'cyr') prebaciBelesku();
+prikaziUputstvoZaTastaturu();
 document.body.dataset.tab = 'rime';   // podrazumevani tab pri učitavanju
 /* Na SEO podstranama `switchTab` se nikad ne pozove (tamo nema panela — aktivan
    tab dolazi već označen iz šablona), pa se `aria-current` i pomeranje trake

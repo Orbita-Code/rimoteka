@@ -216,7 +216,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=2"></script>
-<link rel="stylesheet" href="/style.css?v=20260729b">
+<link rel="stylesheet" href="/style.css?v=20260729c">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -232,6 +232,26 @@ HEAD_TMPL = """<!DOCTYPE html>
   </div>
   <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
 </header>
+
+<!-- Uputstvo se prikazuje SAMO u ćiriličnom režimu (app.js: prikaziUputstvoZaTastaturu).
+     Mora da stoji i ovde, na svih 1.988 podstrana — ćirilica se bira jednom i važi
+     svuda, pa bi inače uputstvo postojalo samo na početnoj. -->
+<div class="kbd-help" id="kbdHelp" hidden>
+  <details>
+    <summary>Како се куцају српска слова</summary>
+    <div class="kbd-help-body">
+      <p>Док је изабрана ћирилица, оно што откуцате прелази у ћирилицу само од себе — <code>ljubav</code> постаје <b>љубав</b>, <code>nj</code> постаје <b>њ</b>.</p>
+      <p>Слова <b>ч ћ ш ђ ж</b> стоје на истим тастерима као на српском распореду — десно од <kbd>L</kbd> и десно од <kbd>P</kbd>:</p>
+      <table class="kbd-map">
+        <tr><th scope="row">тастер</th><td><kbd>;</kbd></td><td><kbd>'</kbd></td><td><kbd>[</kbd></td><td><kbd>]</kbd></td><td><kbd>\\</kbd></td></tr>
+        <tr><th scope="row">слово</th><td><b>ч</b></td><td><b>ћ</b></td><td><b>ш</b></td><td><b>ђ</b></td><td><b>ж</b></td></tr>
+      </table>
+      <p>Уз <kbd>Shift</kbd> добијате велика слова: <b>Ч Ћ Ш Ђ Ж</b>.</p>
+      <p><b>Апостроф</b> — за „нек’“ и „ил’“: притисните <kbd>'</kbd> <b>двапут заредом</b>. Први пут даје <b>ћ</b>, а други притисак га замени апострофом.</p>
+      <p class="kbd-note">Ако сте на рачунару већ пребацили тастатуру на српски распоред, ништа се не мења — тастери и даље дају оно што на њима пише.</p>
+    </div>
+  </details>
+</div>
 {tabs_nav}
 """
 
@@ -323,7 +343,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260729b"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260729c"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —

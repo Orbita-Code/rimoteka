@@ -300,6 +300,38 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
 
 ---
 
+## 9b. AUDIT — NA SVAKA 3 DANA (OBAVEZNO)
+
+> Metod, ritam i evidencija: **`/Users/jovana.jovic/AUDIT-PROTOKOL.md`** — pročitati pre audita.
+> Čeklista šta se proverava: `/Users/jovana.jovic/TESTING.md`.
+
+**Na početku SVAKE sesije proveriti kad je bio poslednji audit:**
+```bash
+ls -1 /Users/jovana.jovic/Desktop/Projects/rimoteka/AUDIT/ | grep audit | sort | tail -1
+```
+Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti audit.
+
+**Evidencija:**
+- `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
+- `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
+
+**Zatečeno stanje (28–29.07.2026): ocena 7,2/10, 33 otvorena nalaza.**
+Pre bilo kakvog novog feature-a pogledati `AUDIT/NALAZI-OTVORENI.md` — 6 nalaza je kritično.
+
+### Zašto test od 140 provera nije dovoljan
+Prolazio je **140/140**, a audit je našao **33 nalaza**. Rupe koje treba zatvoriti stoje
+u tabeli na dnu `AUDIT/NALAZI-OTVORENI.md`. Najvažnije:
+- test obilazi **6 od 2.010 strana** — nijednu `/rime-za/`
+- proverava da element **postoji**, ne da **radi** (ćirilica je mrtvo dugme na 1.988 strana)
+- nikad ne **osveži stranu** u tamnom režimu (K1)
+- nikad ne **kuca** u polje u tamnom režimu (K2)
+- uvek klikne dugme, nikad ne poredi klik sa Enter-om (V3, V4)
+
+**Pravilo:** svaka popravka dobija proveru, pa se provera pusti protiv produkcije
+**dok je tamo stari kod** — ako ne padne, provera ne valja.
+
+---
+
 ## 9. ZABRANJENO (NE KRŠITI)
 
 - ❌ **Deploy bez prolaska `node test/predeploy.mjs`** (vidi sekciju 9a)

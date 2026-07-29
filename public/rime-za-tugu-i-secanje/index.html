@@ -24,7 +24,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728j">
+<script src="/dark-mode-init.js?v=2"></script>
+<link rel="stylesheet" href="/style.css?v=20260729a">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -88,6 +89,7 @@
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
+  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
 </header>
 <nav class="tabs" id="tabs" aria-label="Alati"><a href="/rimovanje-reci/" data-tab="rime">Rimovanje reči</a><a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a><a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a><a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a><a href="/klasici/" data-tab="klasici">Klasici</a><a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a></nav>
 <main class="landing">
@@ -95,9 +97,9 @@
   <h1 class="landing-h1">Rime za tugu i sećanje</h1>
   <p class="landing-lead">U teškim trenucima reči ponekad najteže dolaze. Ovde ćeš pronaći <strong>rime za tugu, bol, sećanje, oproštaj i smrt</strong> — da napišeš ono što nosiš u sebi.</p>
   <a class="landing-cta" href="/?rec=tuga">🕯️ Nađi rime za „tuga&quot; →</a>
-  <div class="res-group"><h3>Ključne reči u teškim trenucima</h3><p class="seo-p">tuga, bol, sećanje, oproštaj, suza, tišina, noć, san, daljina, rastanak, nedostaješ, mir, večnost.</p></div><div class="res-group"><h3>Pesma za preminulog</h3><p class="seo-p">Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i secanje, a ne savršenu formu.</p></div><div class="res-group"><h3>Pesma o rastanku</h3><p class="seo-p">Dozvolite si tugu. Rastanci su deo života, a pesma može pomoći da se osećanja barem malo razbistre.</p></div>
-  <section class="landing-faq"><h3>Česta pitanja</h3><details><summary>Kako napisati pesmu za nekog ko je preminuo?</summary><p>Počni od jednog secanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.</p></details><details><summary>Koje rime idu sa „tuga&quot;?</summary><p>Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.</p></details><details><summary>Da li je u redu napisati pesmu o tuzi?</summary><p>Apsolutno. Poezija je jedan od najstarijih načina da se izraze emocije i pronađe olakšanje.</p></details></section>
-  <div class="res-group"><h3>Srodne strane</h3><p class="seo-p"><a href="/rime-za-ljubavne-pesme/">Rime za ljubavne pesme</a> · <a href="/rime-za-pesmu/">Rime za pesmu</a> · <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a></p></div>
+  <div class="res-group"><h2>Ključne reči u teškim trenucima</h2><p class="seo-p">tuga, bol, sećanje, oproštaj, suza, tišina, noć, san, daljina, rastanak, nedostaješ, mir, večnost.</p></div><div class="res-group"><h2>Pesma za preminulog</h2><p class="seo-p">Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i secanje, a ne savršenu formu.</p></div><div class="res-group"><h2>Pesma o rastanku</h2><p class="seo-p">Dozvolite si tugu. Rastanci su deo života, a pesma može pomoći da se osećanja barem malo razbistre.</p></div>
+  <section class="landing-faq"><h2>Česta pitanja</h2><details><summary>Kako napisati pesmu za nekog ko je preminuo?</summary><p>Počni od jednog secanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.</p></details><details><summary>Koje rime idu sa „tuga&quot;?</summary><p>Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.</p></details><details><summary>Da li je u redu napisati pesmu o tuzi?</summary><p>Apsolutno. Poezija je jedan od najstarijih načina da se izraze emocije i pronađe olakšanje.</p></details></section>
+  <div class="res-group"><h2>Srodne strane</h2><p class="seo-p"><a href="/rime-za-ljubavne-pesme/">Rime za ljubavne pesme</a> · <a href="/rime-za-pesmu/">Rime za pesmu</a> · <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a></p></div>
   </main>
 <footer class="site-footer">
   <div class="footer-inner">
@@ -120,6 +122,8 @@
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
-<script src="/app.js?v=20260728j"></script>
+<div id="toast" class="toast"></div>
+<div id="printArea" aria-hidden="true"></div>
+<script src="/app.js?v=20260729a"></script>
 </body>
 </html>

@@ -174,7 +174,8 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728j">
+<script src="/dark-mode-init.js?v=2"></script>
+<link rel="stylesheet" href="/style.css?v=20260729a">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -188,6 +189,7 @@ HEAD_TMPL = """<!DOCTYPE html>
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
+  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
 </header>
 {tabs_nav}
 """
@@ -233,6 +235,8 @@ FOOTER_TMPL = """<footer class="site-footer">
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
+<div id="toast" class="toast"></div>
+<div id="printArea" aria-hidden="true"></div>
 </body>
 </html>
 """
@@ -278,7 +282,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260728j"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260729a"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -393,7 +397,7 @@ def srodno_blok(slug):
     if not veze:
         return ''
     linkovi = ' · '.join(f'<a href="/{s}/">{esc(NAZIVI[s])}</a>' for s in veze)
-    return ('<div class="res-group"><h3>Srodne strane</h3>'
+    return ('<div class="res-group"><h2>Srodne strane</h2>'
             f'<p class="seo-p">{linkovi}</p></div>\n  ')
 
 
@@ -479,7 +483,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(desc),
                             canonical=canon, base=BASE, schema=schema,
                             tabs_nav=tabs_nav(aktivan_tab))
-    secs = ''.join(f'<div class="res-group"><h3>{esc(st)}</h3><p class="seo-p">{sb}</p></div>'
+    secs = ''.join(f'<div class="res-group"><h2>{esc(st)}</h2><p class="seo-p">{sb}</p></div>'
                    for st, sb in sections)
     # šema dobija čist tekst (gore), a vidljivi odgovor dobija linkove
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{faq_sa_linkovima(a, slug)}</p></details>'
@@ -494,7 +498,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
   <h1 class="landing-h1">{esc(h1)}</h1>
 {alat}  <p class="landing-lead">{lead_html}</p>
 {cta}  {secs}
-  <section class="landing-faq"><h3>Česta pitanja</h3>{faq_html}</section>
+  <section class="landing-faq"><h2>Česta pitanja</h2>{faq_html}</section>
   {srodno_blok(slug)}</main>
 """
     d = os.path.join(PUB, slug)
@@ -528,7 +532,7 @@ def syl_distribution(words):
 
 def mini_tool_form(prefill=''):
     return f"""<section class="mini-tool" aria-label="Pronađi rime">
-  <h3>Pronađi rime za bilo koju reč</h3>
+  <h2>Pronađi rime za bilo koju reč</h2>
   <form class="search-row" action="/" method="get">
     <input type="text" name="rec" placeholder="upiši reč (npr. pesma)" value="{esc(prefill)}" autocomplete="off" spellcheck="false">
     <button type="submit" class="primary">Nađi rime</button>
@@ -671,7 +675,7 @@ def main():
                 return ''
             chips = ''.join(chip(w, syllables(w), rhyme_link(w, target_slugs)) for w in arr)
             cls = 'res-group strong-tier' if strong else 'res-group'
-            return f'<div class="{cls}"><h3>{title}</h3><div class="results">{chips}</div></div>'
+            return f'<div class="{cls}"><h2>{title}</h2><div class="results">{chips}</div></div>'
 
         # grupe po broju slogova (sve rime, sortirane po kvalitetu)
         by_syl = defaultdict(list)
@@ -698,7 +702,7 @@ def main():
             f'<span class="syl-badge"><b>{n}</b> {syl_word(n)} · {cnt} {rima_word(cnt)}</span>'
             for n, cnt in syl_dist[:6]
         )
-        syl_html = f'<div class="syl-groups"><h3>Rime po broju slogova</h3><div class="related-list">{syl_badges}</div></div>' if syl_badges else ''
+        syl_html = f'<div class="syl-groups"><h2>Rime po broju slogova</h2><div class="related-list">{syl_badges}</div></div>' if syl_badges else ''
 
         # srodne popularne reči (interni linkovi)
         rel = related_targets(t, popular, target_slugs, n=8)
@@ -707,7 +711,7 @@ def main():
             rel_chips = ''.join(
                 chip(w, syllables(w), f'/rime-za/{quote(slugify(w))}/') for w in rel
             )
-            rel_html = f'<div class="related-rimes"><h3>Još popularnih rima</h3><div class="related-list">{rel_chips}</div></div>'
+            rel_html = f'<div class="related-rimes"><h2>Još popularnih rima</h2><div class="related-list">{rel_chips}</div></div>'
 
         # meaning
         mean = ''
@@ -759,14 +763,14 @@ def main():
   {mean}
   <div class="copy-bar">
     <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši →</a>
-    <button class="copy-all-btn" data-words="{esc(copy_words)}" onclick="navigator.clipboard.writeText(this.dataset.words).then(()=>{{this.textContent='Kopirano!';this.classList.add('copied');setTimeout(()=>{{this.textContent='Kopiraj sve rime';this.classList.remove('copied')}},1600)}}).catch(()=>{{this.textContent='Greška'}})">Kopiraj sve rime</button>
+    <button class="copy-all-btn" data-words="{esc(copy_words)}">Kopiraj sve rime</button>
   </div>
   {groups}
   {syl_html}
   {rel_html}
   {mini_tool_form(t)}
   <section class="landing-faq">
-    <h3>Česta pitanja</h3>
+    <h2>Česta pitanja</h2>
     <details><summary>Šta se rimuje sa „{esc(t)}"?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
     <details><summary>Koje se reči rimuju sa „{esc(t)}"?</summary><p>Najbolje rime za reč {esc(t)} su: {esc(', '.join(all_r[:10]))}.</p></details>
     <details><summary>Koliko slogova ima reč „{esc(t)}"?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
@@ -774,7 +778,11 @@ def main():
   </section>
 </main>
 """
-        page = head + body + footer
+        # `app.js` ide i na strane reči — bez njega su prekidač za pismo, tamni
+        # režim i „Kopiraj sve rime" mrtva dugmad (nalazi V1, V2, K6). Rečnik se
+        # pri tom ne skida: ova strana nema nijedan alat koji pretražuje reči,
+        # pa `bootstrap` preskoči `loadDict` (v. izuzetak u app.js).
+        page = (head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
         pdir = os.path.join(outdir, sl)
         os.makedirs(pdir, exist_ok=True)
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
@@ -818,20 +826,20 @@ def main():
   <h1 class="landing-h1">Brojanje slogova i karaktera</h1>
 {syl_tool}  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. Nalepi tekst iznad: broj slogova stoji levo od svakog reda, a na dnu ukupan zbir za celu pesmu. Radi i za jednu reč i za ceo tekst.</p>
   <p class="landing-lead">Brojač je deo celine: kad ti stih ne štima, u <a href="/pisanje-pesama/">beležnici</a> ga pišeš uz rime i šemu rime, a u <a href="/rimovanje-reci/">rimovanju reči</a> tražiš reč koja se uklapa u meru.</p>
-  <div class="res-group"><h3>Kako se broje slogovi</h3>
+  <div class="res-group"><h2>Kako se broje slogovi</h2>
     <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r"</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
   </div>
-  <div class="res-group"><h3>Podela reči na slogove</h3>
+  <div class="res-group"><h2>Podela reči na slogove</h2>
     <p class="seo-p">Svaki slog ima jedan samoglasnik kao nosioca, pa se reč deli na onoliko slogova koliko ima samoglasnika: <em>ja-bu-ka</em> (3), <em>de-voj-či-ca</em> (4), <em>ri-mo-va-nje</em> (4). Granica sloga ide ispred suglasnika koji pripada sledećem slogu. Kod slogotvornog „r" slog nosi samo „r": <em>sr-ce</em>, <em>pr-vi</em>. <strong>Rastavljanje reči na slogove</strong> je isto što i njihovo brojanje — alat iznad to radi za ceo tekst odjednom.</p>
   </div>
-  <div class="res-group"><h3>Brojač karaktera i reči</h3>
+  <div class="res-group"><h2>Brojač karaktera i reči</h2>
     <p class="seo-p">Pored slogova, ovo je i <strong>brojač karaktera</strong> i <strong>brojač reči</strong>: za svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu — čestitka, slogan, opis proizvoda, poruka ili meta opis strane.</p>
   </div>
-  <div class="res-group"><h3>Primeri broja slogova</h3>
+  <div class="res-group"><h2>Primeri broja slogova</h2>
     <table class="slog-table"><thead><tr><th>Reč</th><th>Broj slogova</th></tr></thead><tbody>{ex_rows}</tbody></table>
   </div>
   <section class="landing-faq">
-    <h3>Česta pitanja</h3>
+    <h2>Česta pitanja</h2>
     <details><summary>Kako se broje slogovi u reči?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r" koje je i samo nosilac sloga (vrt = 1 slog, srce = 2 sloga).</p></details>
     <details><summary>Zašto je bitno brojati slogove u pesmi?</summary><p>Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu.</p></details>
     <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. Nalepi ceo tekst u polje na vrhu strane — pored svakog reda stoji broj slogova, a na dnu ukupan zbir za celu pesmu.</p></details>

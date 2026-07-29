@@ -24,7 +24,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260728j">
+<script src="/dark-mode-init.js?v=2"></script>
+<link rel="stylesheet" href="/style.css?v=20260729a">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -88,6 +89,7 @@
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
+  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
 </header>
 <nav class="tabs" id="tabs" aria-label="Alati"><a href="/rimovanje-reci/" data-tab="rime">Rimovanje reči</a><a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a><a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a><a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a><a href="/klasici/" data-tab="klasici">Klasici</a><a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a></nav>
 <main class="landing">
@@ -95,9 +97,9 @@
   <h1 class="landing-h1">Vrste rima u poeziji</h1>
   <p class="landing-lead">Rima je poklapanje glasova na kraju stihova. Po rasporedu razlikujemo nekoliko <strong>vrsta rima</strong> — evo najčešćih šema sa primerima kod velikih pesnika.</p>
   <a class="landing-cta" href="/klasici/">📖 Vidi šeme rime kod klasika →</a>
-  <div class="res-group"><h3>Parna rima (AABB)</h3><p class="seo-p">Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u pesmama i repu.</p></div><div class="res-group"><h3>Ukrštena rima (ABAB)</h3><p class="seo-p">Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.</p></div><div class="res-group"><h3>Obgrljena rima (ABBA)</h3><p class="seo-p">Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje" unutrašnji. Zvuči svečano i zaokruženo.</p></div><div class="res-group"><h3>Čista rima i asonanca</h3><p class="seo-p">Čista (savršena) rima poklapa sve glasove od naglašenog samoglasnika (ruka — luka). Asonanca poklapa samo samoglasnike (more — kose) i daje slobodniji, moderniji zvuk čest u repu.</p></div>
-  <section class="landing-faq"><h3>Česta pitanja</h3><details><summary>Koje su glavne vrste rima?</summary><p>Po rasporedu: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i nagomilana (AAAA). Po kvalitetu: čista rima i asonanca.</p></details><details><summary>Šta je asonanca?</summary><p>Asonanca je nesavršena rima u kojoj se poklapaju samo samoglasnici, a ne i svi suglasnici (npr. more — kose). Česta je u modernoj poeziji i repu.</p></details><details><summary>Kako da vidim šemu rime u pesmi?</summary><p>U Rimoteci, u tabu „<a href="/klasici/">Klasici</a>&quot;, pored svakog stiha stoji slovo (A, B, C…) koje pokazuje koje se rime poklapaju — tako vidiš šemu rime velikih pesnika.</p></details></section>
-  <div class="res-group"><h3>Srodne strane</h3><p class="seo-p"><a href="/rimovanje-za-pocetnike/">Rimovanje za početnike</a> · <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a> · <a href="/klasici/">Srpske pesme — klasici</a> · <a href="/rime-za-pesmu/">Rime za pesmu</a></p></div>
+  <div class="res-group"><h2>Parna rima (AABB)</h2><p class="seo-p">Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u pesmama i repu.</p></div><div class="res-group"><h2>Ukrštena rima (ABAB)</h2><p class="seo-p">Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.</p></div><div class="res-group"><h2>Obgrljena rima (ABBA)</h2><p class="seo-p">Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje" unutrašnji. Zvuči svečano i zaokruženo.</p></div><div class="res-group"><h2>Čista rima i asonanca</h2><p class="seo-p">Čista (savršena) rima poklapa sve glasove od naglašenog samoglasnika (ruka — luka). Asonanca poklapa samo samoglasnike (more — kose) i daje slobodniji, moderniji zvuk čest u repu.</p></div>
+  <section class="landing-faq"><h2>Česta pitanja</h2><details><summary>Koje su glavne vrste rima?</summary><p>Po rasporedu: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i nagomilana (AAAA). Po kvalitetu: čista rima i asonanca.</p></details><details><summary>Šta je asonanca?</summary><p>Asonanca je nesavršena rima u kojoj se poklapaju samo samoglasnici, a ne i svi suglasnici (npr. more — kose). Česta je u modernoj poeziji i repu.</p></details><details><summary>Kako da vidim šemu rime u pesmi?</summary><p>U Rimoteci, u tabu „<a href="/klasici/">Klasici</a>&quot;, pored svakog stiha stoji slovo (A, B, C…) koje pokazuje koje se rime poklapaju — tako vidiš šemu rime velikih pesnika.</p></details></section>
+  <div class="res-group"><h2>Srodne strane</h2><p class="seo-p"><a href="/rimovanje-za-pocetnike/">Rimovanje za početnike</a> · <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a> · <a href="/klasici/">Srpske pesme — klasici</a> · <a href="/rime-za-pesmu/">Rime za pesmu</a></p></div>
   </main>
 <footer class="site-footer">
   <div class="footer-inner">
@@ -120,6 +122,8 @@
     <p class="footer-legal">© 2026 Rimoteka · <a href="/" class="footer-link">Početna</a> · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
   </div>
 </footer>
-<script src="/app.js?v=20260728j"></script>
+<div id="toast" class="toast"></div>
+<div id="printArea" aria-hidden="true"></div>
+<script src="/app.js?v=20260729a"></script>
 </body>
 </html>

@@ -2350,6 +2350,11 @@ function renderKlasici(){
 }
 
 /* ====================== DARK MODE ====================== */
+/* `dark-mode-init.js` postavlja klasu na <html> još u <head> (tamo `body` ne
+   postoji), a na `body` je prenosi tek na DOMContentLoaded. `app.js` stoji na
+   kraju <body> i izvršava se PRE toga — bez ove linije bi tema bila tamna, a
+   ikonica bi pokazivala 🌙, dakle suprotno od stanja. */
+if(document.documentElement.classList.contains('dark-mode')) document.body.classList.add('dark-mode');
 const darkToggle = document.getElementById('darkToggle');
 function applyDarkIcon(){
   if(!darkToggle) return;
@@ -2358,10 +2363,27 @@ function applyDarkIcon(){
 if(darkToggle) darkToggle.onclick = ()=>{
   document.body.classList.toggle('dark-mode');
   const dark = document.body.classList.contains('dark-mode');
+  // Klasa stoji i na <html> — nju postavlja dark-mode-init.js pre iscrtavanja,
+  // da pri sledećem učitavanju ne bude belog bljeska (nalaz K1).
+  document.documentElement.classList.toggle('dark-mode', dark);
   localStorage.setItem('rimoteka_dark', dark ? '1' : '0');
   applyDarkIcon();
 };
 applyDarkIcon();
+
+/* Kopiranje cele liste rima na stranama /rime-za/[reč]/.
+   Ranije je stajalo kao inline `onclick` u HTML-u, a CSP (`script-src 'self'`)
+   inline kod blokira — dugme je bilo mrtvo na 1.988 strana (nalaz V2). */
+document.querySelectorAll('.copy-all-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const reci = btn.dataset.words || '';
+    const vrati = ()=>{ btn.textContent = 'Kopiraj sve rime'; btn.classList.remove('copied'); };
+    const uspeh = ()=>{ btn.textContent = 'Kopirano!'; btn.classList.add('copied'); setTimeout(vrati, 1600); };
+    const greska = ()=>{ btn.textContent = 'Greška'; setTimeout(vrati, 1600); };
+    if(!navigator.clipboard){ greska(); return; }
+    navigator.clipboard.writeText(reci).then(uspeh).catch(greska);
+  });
+});
 
 /* ====================== START ====================== */
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));

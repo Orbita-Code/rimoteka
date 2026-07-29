@@ -15,6 +15,10 @@
   --line:#e8e4f7;
   --shadow:0 8px 24px rgba(90,63,208,.16);
   --shadow-sm:0 4px 12px rgba(90,63,208,.13);
+  /* Broj slogova u čipu nosi podatak, pa mora da se čita: --mint-deep na
+     #eafaf4 daje 2,56:1 (ispod AA 4,5:1). Tamnija nijansa iste boje = 5,27:1. */
+  --syl-ink:#146ba8;
+  --syl-bg:#eafaf4;
 }
 body.dark-mode{
   --lavender:#b8a5f5;
@@ -33,8 +37,14 @@ body.dark-mode{
   --line:#3a3450;
   --shadow:0 8px 24px rgba(0,0,0,.4);
   --shadow-sm:0 4px 12px rgba(0,0,0,.3);
+  --syl-ink:#7fd0ff;
+  --syl-bg:#2a2440;
 }
 body.dark-mode{background:#121018}
+/* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
+   uopšte postoji. Bez ove linije bi se između iscrtavanja i DOMContentLoaded
+   video beli bljesak. Sva ostala pravila ostaju vezana za `body.dark-mode`. */
+html.dark-mode{background:#121018;color-scheme:dark}
 body.dark-mode .script-toggle,
 body.dark-mode .tabs button,
 body.dark-mode .tabs a,
@@ -194,11 +204,17 @@ body.dark-mode .landing-cta{
   background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));
   color:#fff;
 }
+/* Pozadine su ranije bile tvrdo upisane (#faf6fe, #eafaf4), a boja teksta je
+   promenljiva koja se menja sa temom — isti obrazac koji je na glavnom polju dao
+   kontrast 1,23:1 (nalaz K2). Kad je tamni režim stigao i na strane reči,
+   definicija je pala na 1,15:1. Zato pozadina ide kroz promenljivu, da se menja
+   zajedno sa temom. */
 body.dark-mode .landing-def{
+  background:var(--paper);
   color:var(--ink-soft);
 }
 body.dark-mode .landing-def strong{
-  color:var(--ink);
+  color:var(--lavender);
 }
 body.dark-mode .crumbs,
 body.dark-mode .crumbs a{
@@ -485,7 +501,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* u kolone idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
 .results > *:not(.chip){grid-column:1/-1}
 .res-group{margin-bottom:.5rem}
-.res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
+.res-group h2,.res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
   display:flex;align-items:center;gap:.45rem;
   /* Prelamanje je zaštita, ne izgled: kod duge reči („potpredsednica") ikonice
@@ -500,7 +516,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .chip:hover{transform:translateY(-2px);border-color:var(--rose)}
 .chip .word{font-size:1.05rem;font-weight:600;cursor:pointer;color:var(--ink)}
 .chip .word:hover{color:var(--rose-deep)}
-.chip .syl{font-size:.7rem;font-weight:700;color:var(--mint-deep);background:#eafaf4;border-radius:999px;padding:.08rem .45rem}
+.chip .syl{font-size:.7rem;font-weight:700;color:var(--syl-ink);background:var(--syl-bg);border-radius:999px;padding:.08rem .45rem}
 .chip .mini{border:0;background:transparent;cursor:pointer;font-size:.95rem;padding:.12rem .3rem;border-radius:999px;color:var(--muted);line-height:1;transition:.15s}
 .chip .mini:hover{background:#f6f0fc;transform:scale(1.15)}
 .chip .fav.on{color:var(--rose-deep)}
@@ -762,19 +778,19 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .copy-all-btn.copied{background:var(--mint-deep);color:#fff}
 
 .related-rimes{margin:2.2rem 0 1rem}
-.related-rimes h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
+.related-rimes h2,.related-rimes h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
 .related-list{display:flex;flex-wrap:wrap;gap:.45rem}
 .syl-groups{margin:1.4rem 0}
-.syl-groups h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
+.syl-groups h2,.syl-groups h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
 .syl-badge{display:inline-flex;align-items:center;gap:.3rem;background:#fff;border:2px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.9rem;font-weight:600;color:var(--ink-soft)}
 .syl-badge b{color:var(--lavender-deep);font-family:'Fredoka',sans-serif}
 
 .mini-tool{background:#fff;border-radius:20px;padding:1.1rem;box-shadow:var(--shadow-sm);margin:2rem 0 1rem;border:2px solid #fff}
-.mini-tool h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .8rem}
+.mini-tool h2,.mini-tool h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .8rem}
 .mini-tool .search-row{margin-bottom:0}
 
 .landing-faq{margin-top:2rem}
-.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
+.landing-faq h2,.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
 .landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
 .landing-faq details[open]{border-color:var(--lavender)}
 .landing-faq summary{font-family:'Fredoka',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
@@ -902,10 +918,9 @@ body.dark-mode .pro-plan:has(input:checked){border-color:var(--lavender-deep)}
 }
 .res-legend .legend-item{display:inline-flex;align-items:center;gap:.32rem;white-space:nowrap}
 .res-legend .syl{
-  font-size:.7rem;font-weight:700;color:var(--mint-deep);background:#eafaf4;
+  font-size:.7rem;font-weight:700;color:var(--syl-ink);background:var(--syl-bg);
   border-radius:999px;padding:.08rem .45rem;
 }
-body.dark-mode .res-legend .syl{background:#2a2440}
 .res-legend .legend-ic{
   font-size:1rem;color:var(--lavender-deep);
   min-width:1.15rem;text-align:center;

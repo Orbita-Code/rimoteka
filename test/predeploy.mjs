@@ -42,6 +42,19 @@ async function main() {
   }
 
   const browser = await chromium.launch();
+
+  // Lokalni `python3 -m http.server` servira reci.txt (2,6 MB) i definicije.json
+  // (20 MB) iznova za svaku novu stranu, pa podrazumevanih 30 s ume da istekne
+  // bez ijednog pravog kvara — test padne, a sajt je ispravan. Zato svaka nova
+  // strana dobija izdašan tajmaut na jednom mestu, umesto da se dopisuje
+  // pojedinačno pri svakoj novoj sekciji testa.
+  const _novaStrana = browser.newPage.bind(browser);
+  browser.newPage = async (...a) => {
+    const p = await _novaStrana(...a);
+    p.setDefaultNavigationTimeout(120000);
+    return p;
+  };
+
   const page = await browser.newPage();
 
   // Konzola mora da bude čista — greška u konzoli je često mrtav sajt.
@@ -582,6 +595,41 @@ async function main() {
     });
     ok('tamni režim se prebacuje', dark === 'ok', dark);
 
+    // Nalaz K1: `dark-mode-init.js` je stajao u <head> i pisao po `document.body`,
+    // koji tada JOŠ NE POSTOJI — postavka se gubila baš pri osvežavanju. Test je
+    // dotle samo klikao dugme (bez ponovnog učitavanja) i zato je bag preživeo.
+    console.log('\n10b) TAMNI REŽIM PREŽIVLJAVA OSVEŽAVANJE I ODLAZAK NA STRANU REČI');
+    const pDark = await browser.newPage();
+    // Prva strana u pozadini skida definicije.json (20 MB) — lokalni server je
+    // tada spor, pa podrazumevanih 30 s zna da istekne bez ijednog pravog kvara.
+    pDark.setDefaultNavigationTimeout(120000);
+    const darkGreske = [];
+    pDark.on('pageerror', e => darkGreske.push('pageerror: ' + e.message));
+    await pDark.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+    await pDark.evaluate(() => localStorage.setItem('rimoteka_dark', '1'));
+    await pDark.reload({ waitUntil: 'domcontentloaded' });
+    const posleF5 = await pDark.evaluate(() => ({
+      body: document.body.classList.contains('dark-mode'),
+      html: document.documentElement.classList.contains('dark-mode'),
+      pozadina: getComputedStyle(document.body).backgroundColor,
+      ikonica: (document.getElementById('darkToggle') || {}).textContent || ''
+    }));
+    ok('F5 na / → tamni režim je i dalje uključen', posleF5.body === true,
+       `body.dark-mode=${posleF5.body}, html=${posleF5.html}, pozadina ${posleF5.pozadina}`);
+    ok('F5 na / → ikonica pokazuje ☀️ (stanje se poklapa sa temom)', posleF5.ikonica.includes('☀'),
+       `ikonica „${posleF5.ikonica}"`);
+    await pDark.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+    const naStraniReci = await pDark.evaluate(() => ({
+      body: document.body.classList.contains('dark-mode'),
+      imaDugme: !!document.getElementById('darkToggle'),
+      pozadina: getComputedStyle(document.body).backgroundColor
+    }));
+    ok('/rime-za/ljubav/ → tamni režim se preneo sa početne', naStraniReci.body === true,
+       `body.dark-mode=${naStraniReci.body}, pozadina ${naStraniReci.pozadina}`);
+    ok('/rime-za/ljubav/ → strana ima dugme za tamni režim', naStraniReci.imaDugme === true);
+    ok('tamni režim ne baca grešku pri učitavanju', darkGreske.length === 0, darkGreske.slice(0, 3).join(' | '));
+    await pDark.close();
+
     console.log('\n11) LOGO — mora ostati veliki, sa fontom Fredoka');
     const logo = await page.evaluate(() => {
       const el = document.querySelector('.brand-logo, .brand h1, .brand-h');
@@ -947,6 +995,128 @@ async function main() {
          `${m.viri} viri, npr. ${m.najgore}`);
       await pc2.close();
     }
+
+    // Strane /rime-za/[reč]/ su 1.988 od 2.010 strana sajta, a test ih do
+    // 29.07.2026. nije dodirivao nijednom. Zato je mesecima prošlo neopaženo da
+    // na njima nema `app.js` (prekidač za pismo i tamni režim = mrtva dugmad),
+    // nema `#toast` ni `#printArea`, a „Kopiraj sve rime" je bio inline
+    // `onclick` koji CSP blokira. Nalazi V1, V2, K6, S5, S6, N9.
+    console.log('\n12j) STRANA REČI /rime-za/ljubav/ — alat, ne samo tekst');
+    const ctxRec = await browser.newContext({ permissions: ['clipboard-read', 'clipboard-write'] });
+    const pRec = await ctxRec.newPage();
+    pRec.setDefaultNavigationTimeout(120000);
+    const recGreske = [];
+    pRec.on('console', m => {
+      if (m.type() !== 'error') return;
+      const t = m.text();
+      if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      recGreske.push(t);
+    });
+    pRec.on('pageerror', e => recGreske.push('pageerror: ' + e.message));
+    await pRec.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+
+    const skelet = await pRec.evaluate(() => ({
+      appJs: typeof toCyr === 'function' && typeof el === 'function',
+      toast: !!document.getElementById('toast'),
+      print: !!document.getElementById('printArea'),
+      inline: document.querySelectorAll('[onclick]').length,
+      // redosled naslova: h1 → h2 → h3, bez preskakanja nivoa
+      skok: (() => {
+        let pret = 0, najgori = '';
+        document.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach(h => {
+          const n = +h.tagName[1];
+          if (pret && n > pret + 1 && !najgori) najgori = `h${pret} → h${n} („${h.textContent.trim().slice(0, 30)}")`;
+          pret = n;
+        });
+        return najgori;
+      })()
+    }));
+    ok('/rime-za/ljubav/ → app.js je učitan i izvršen', skelet.appJs === true,
+       'nema funkcija iz app.js na strani');
+    ok('/rime-za/ljubav/ → postoji #toast (poruke se vide)', skelet.toast === true);
+    ok('/rime-za/ljubav/ → postoji #printArea (štampa nije prazan list)', skelet.print === true);
+    ok('/rime-za/ljubav/ → nema inline onclick (CSP ga blokira)', skelet.inline === 0,
+       `${skelet.inline} elemenata sa onclick`);
+    ok('/rime-za/ljubav/ → nema preskočenog nivoa naslova', skelet.skok === '', skelet.skok);
+
+    // Prekidač za pismo mora da PROMENI TEKST, ne samo da postoji.
+    const pismoRec = await pRec.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const prva = document.querySelector('.res-group .word');
+      const pre = prva ? prva.textContent.trim() : '';
+      const dugme = document.querySelector('#scriptToggle button[data-script="cyr"]');
+      if (!dugme) return { greska: 'nema dugme za ćirilicu' };
+      dugme.click();
+      await w(400);
+      const posle = prva ? prva.textContent.trim() : '';
+      return { pre, posle, cirilica: /[Ѐ-ӿ]/.test(posle) };
+    });
+    ok('/rime-za/ljubav/ → dugme „ћирилица" zaista prebacuje reči u ćirilicu',
+       pismoRec.cirilica === true && pismoRec.pre !== pismoRec.posle,
+       `„${pismoRec.pre}" → „${pismoRec.posle}"${pismoRec.greska ? ' — ' + pismoRec.greska : ''}`);
+
+    // „Kopiraj sve rime": ranije inline onclick koji CSP blokira. Dugme koje
+    // ne promeni tekst posle klika je mrtvo dugme, ma šta pisalo na njemu.
+    const kopiraj = await pRec.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const b = document.querySelector('.copy-all-btn');
+      if (!b) return { greska: 'nema dugme' };
+      const pre = b.textContent.trim();
+      b.click();
+      await w(600);
+      return { pre, posle: b.textContent.trim(), reci: (b.dataset.words || '').length };
+    });
+    ok('/rime-za/ljubav/ → „Kopiraj sve rime" reaguje na klik', kopiraj.posle === 'Kopirano!',
+       `„${kopiraj.pre}" → „${kopiraj.posle}"${kopiraj.greska ? ' — ' + kopiraj.greska : ''}`);
+    // Kontrast se meri u OBE teme i sa stvarnim tekstom — pozadina tvrdo upisana
+    // u CSS-u uz boju koja se menja sa temom je obrazac koji je već dao 1,23:1 na
+    // glavnom polju (K2) i 1,15:1 na definiciji reči kad je tamni režim stigao
+    // na ove strane. Merenje ide na SAMOM elementu, ne na roditelju.
+    for (const tema of ['svetla', 'tamna']) {
+      await pRec.evaluate(t => {
+        localStorage.setItem('rimoteka_dark', t === 'tamna' ? '1' : '0');
+      }, tema);
+      await pRec.reload({ waitUntil: 'domcontentloaded' });
+      await pauza(400);
+      const k = await pRec.evaluate(() => {
+        const lum = c => {
+          const [r, g, b] = c.match(/\d+/g).slice(0, 3).map(Number).map(v => {
+            v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+          });
+          return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+        };
+        const poz = e => {
+          let n = e;
+          while (n && n !== document.documentElement) {
+            const b = getComputedStyle(n).backgroundColor;
+            if (b && !/rgba\(0, 0, 0, 0\)|transparent/.test(b)) return b;
+            n = n.parentElement;
+          }
+          return 'rgb(255,255,255)';
+        };
+        const odnos = e => {
+          const l1 = lum(getComputedStyle(e).color), l2 = lum(poz(e));
+          return +(((Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05))).toFixed(2);
+        };
+        let najgori = null;
+        // `.landing-meta` je namerno izostavljen: on koristi `--muted`, koji u
+        // svetloj temi daje 2,90:1 na CELOM sajtu — to je zaseban, već zaveden
+        // nalaz S8. Kad se S8 popravi, `.landing-meta` se dodaje ovde.
+        ['.landing-def', '.landing-def strong', '.chip .word', '.chip .syl',
+         '.landing-lead', '.landing-faq summary'].forEach(sel => {
+          const e = document.querySelector(sel);
+          if (!e || !(e.textContent || '').trim()) return;
+          const o = odnos(e);
+          if (!najgori || o < najgori.o) najgori = { sel, o };
+        });
+        return najgori;
+      });
+      ok(`/rime-za/ljubav/ (${tema} tema) → najslabiji kontrast ≥ 4,5:1`,
+         k && k.o >= 4.5, k ? `${k.sel} = ${k.o}:1` : 'ništa nije izmereno');
+    }
+
+    ok('/rime-za/ljubav/ → nula grešaka u konzoli', recGreske.length === 0, recGreske.slice(0, 3).join(' | '));
+    await ctxRec.close();
 
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,

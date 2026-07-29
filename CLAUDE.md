@@ -20,6 +20,13 @@
 
 ## 1. OSNOVNI PODACI O PROJEKTU
 
+> **Putanja projekta: `/Users/jovana.jovic/Projects/rimoteka`** (od 29.07.2026).
+> Pre toga je bio u `Desktop/Projects/` — premеšten jer je iCloud (Desktop je u
+> iCloud Drive-u) pravio konflikt-kopije fajlova usred git operacija; jednom je
+> 1.047 duplikata ušlo u commit, a `.git` refovi su bili pokvareni. Detalji:
+> `HANDOVER.md`, sesija 29.07. (šesta), odeljak 7. **Ne vraćati projekat u
+> iCloud-sinhronizovane foldere.**
+
 | Podatak | Vrednost |
 |---------|----------|
 | **Naziv projekta** | Rimoteka |

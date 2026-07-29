@@ -21,6 +21,13 @@
 > **Moje, bez popravke (1):** N12 (302 umesto 301) — jedino što traži prijavu na
 > Coolify panel; Traefik odgovara pre našeg nginx-a, pa se iz repozitorijuma ne može.
 >
+> **NOVO 29.07. uveče — MOBILNI (4):** vlasnica je otvorila sajt na telefonu.
+> **M1** beležnica ne boji rime (ni na jednoj širini — funkcija se obećava a ne
+> isporučuje), **M2** editor počinje na x=80 od 390 px, **M3** editor je ispod
+> pregiba (y=713 na ekranu 664), **M4** tri elementa izlaze do 248 px van ekrana.
+> Sve izmereno na produkciji, u iPhone 13 kontekstu sa dodirom.
+> **Panel rima na dodir reči RADI** — 33 rime za „srcu"; to je jedino što valja.
+>
 > **Zatvoreno merenjem:** **P2** (CLS na `/rime-za/`) — popravka preload-a fonta iz
 > prethodne sesije **jeste radila**, samo nikad nije bila izmerena: `/rime-za/ljubav/`
 > daje **CLS 0,0003** (bilo 0,045). Merenje je usput otkrilo **P16**, gori od njega.
@@ -45,11 +52,15 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (10) — 7 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 1 moj
+## OTVORENO (7) — 4 mobilna (nova), 2 odložena odlukom vlasnice, 1 traži Coolify
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
 | **P9** | **Osvežavanje ne vraća na vrh strane** — ko je na futeru i pritisne F5 ostane na futeru, a alat se u međuvremenu resetovao (polje prazno, rime nestale), pa gleda dno prazne strane. Prijava vlasnice 29.07. Izmereno na produkciji: `/rime-za/ljubav/` 1925 px → 1925 px; početna sa rimama 5163 px → 5163 px. | **POPRAVLJENO, čeka odobrenje za push.** Merenje posle popravke: 5238,5 px → **0 px**, uz „Nazad" koji i dalje pamti položaj. | `public/dark-mode-init.js` | 29.07. |
+| **M1** | **Beležnica NE BOJI RIME — ni na jednoj širini.** Kod postoji (`analyzeRhymes`, boji grupe od 2+ rime, zadrška 500 ms u `scheduleEditorUpdate`), ali rezultat je **0 obojenih elemenata** i **0 klasa** u editoru na 1440, 768 i 390 px. Reprodukcija: tab „Pisanje pesama", upisati `Voli me kao nekad / u tvom srcu je lek / dolazi tiho vek / ostani jos malo tu` — „lek" i „vek" se rimuju, grupa od 2 postoji, boje se ne pojavljuju. **Prijava vlasnice 29.07.** Ovo je funkcija koja se OBEĆAVA a ne isporučuje — teže od vidljivog kvara. | Traži istragu: proveriti da li `getEditorText()` vraća prelome redova onako kako ih `contenteditable` pravi (`<div>`/`<br>`) — ako ne, ceo tekst je jedan red i grupa rime nema. | `app.js:1218`, `:1288` | 29.07. |
+| **M2** | **Editor počinje na x=80 od 390 px** — kolona sa brojem slogova pojede **20% ekrana**, za pisanje ostane **292 px**. Na telefonu je to jedva pola reda stiha. | Traži mobilni raspored: kolona slogova ne sme da bude fiksna na uskim ekranima. | `style.css` (`.gutter`, `flex:0 0 4.4rem`) | 29.07. |
+| **M3** | **Editor je ISPOD PREGIBA na telefonu** — `y = 713 px` na ekranu visine **664 px**. Ko otvori „Pisanje pesama" na telefonu **ne vidi gde se piše** dok ne skroluje. | Traži mobilni raspored. | `index.html` / `style.css` | 29.07. |
+| **M4** | **Tri elementa izlaze van ekrana na 390 px**: link do **502 px**, dugme do **638 px**, `#favCount` do **620 px** — traka beži i do **248 px** desno od vidljivog dela. | Ranija popravka (traka se sama pomera da se aktivan tab vidi) pokriva podstrane, ne ovo. | `style.css` | 29.07. |
 | **P10** | **Strane reči su birane po ABECEDI, ne po učestalosti** — 1.577 od 1.988 strana su reči na „a" (`aaa`, `aah`, `abadzija`, `abakusi`, `abazur`), a nema strana za većinu običnih reči. `gen_pages.py` **nikad ne učita `frekvencija.json`**; `rank` je redni broj u `reci.txt`, a `reci.txt` je abecedni. Komentar u kodu tvrdi „frekvencijski rangirane" — netačno. Posledica i na rangiranje rima: `/rime-za/ljubav/` daje `neljubav, gubav, ubav…`, živi alat za istu reč `gubav, ubav, glibav…`. | Traži odluku vlasnice — popravka menja **1.577 URL-ova** (301 ili zadržati stare strane). | `build/gen_pages.py:605`, `:646` | 29.07. |
 | **P11** | **Hub `/rime-za/` je zid od 1.988 linkova** (8.027 px, slovo „A" nosi 1.577 njih). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. | Traži odluku vlasnice — v. P10, isti uzrok. | `build/gen_pages.py:1460–1505` | 29.07. |
 | **P13** | **Čipovi u pasusu izlistani jedan ispod drugog, preko cele širine** — spisak najtraženijih reči na `/rimovanje-reci/` (24 reči) i spisak dečjih reči na `/rime-za-decu/` (19 reči). Uzrok: 28.07. u `b3bd730b2` je `.chip` prebačen sa `inline-flex` na `flex` uz popravku ikonica; `flex` je blok, pa čip u pasusu uzima ceo red. Izmereno na produkciji: **24 čipa u 24 reda, najširi nosi 100% širine pasusa**. | **POPRAVLJENO, čeka push.** Posle popravke: 24 čipa u **5 redova**, najširi 14% pasusa. Unutar `.results` ništa se nije promenilo (svih 195 čipova i dalje visine 47 px, po 3 ikonice). | `public/style.css:555` | 29.07. |

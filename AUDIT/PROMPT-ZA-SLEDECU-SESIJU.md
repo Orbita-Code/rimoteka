@@ -11,13 +11,13 @@ Radiš na projektu Rimoteka: `/Users/jovana.jovic/Desktop/Projects/rimoteka`
 
 1. `HANDOVER.md` — **samo prvi odeljak** („Sesija 29. jul 2026 (peta)"). Ima devet
    delova; deo 3 su greške prethodne sesije, deo 6 je zašto su sesije bile spore.
-2. `AUDIT/NALAZI-OTVORENI.md` — **3 otvorena nalaza**, izvor istine.
+2. `AUDIT/NALAZI-OTVORENI.md` — **7 otvorenih nalaza** (M1–M4 mobilni, P10, P11, N12), izvor istine.
 3. `AUDIT/PROPUSTI.md` — pravila **25–34** su iz prethodne sesije i najsvežija su.
 4. `CLAUDE.md` projekta — odeljak **8a** (logo se ne dira), **9a** (obavezan test),
    **9a-1** (nginx se ne dira bez `test/nginx-provera.sh`).
 5. `TODO.md` odeljak 0 i `TODO-RECNIK.md` odeljak „HITNO".
 
-Zatečeno stanje: `main` = `29410335f`, sve pushovano, radno stablo čisto,
+Zatečeno stanje: sve pushovano, radno stablo čisto,
 test **344/344** i lokalno i protiv produkcije.
 
 ## Odobrenje koje već imaš (vlasnica, 29.07.2026)
@@ -31,6 +31,62 @@ menja URL-ove.
 ---
 
 ## ZADATAK — idi redom, ne preskači
+
+> Zadatak **0** je najviši prioritet. Zadatak **1** je kratak i može se odraditi
+> usput dok se čeka odgovor vlasnice. Zadaci 2–3 su vezani i idu tim redom.
+
+
+### 0. MOBILNA VERZIJA I BELEŽNICA — **NAJVIŠI PRIORITET**
+
+> Prijava vlasnice 29.07.2026: *„otvorila sam sajt na svom telefonu i jeziv je…
+> beležnica posebno nikakve veze sa vezom nema."*
+> Sve dole je **izmereno na produkciji** u iPhone 13 kontekstu, sa dodirom —
+> nije prepisano iz opisa. Nalazi **M1–M4** u `AUDIT/NALAZI-OTVORENI.md`.
+
+**M1 — beležnica NE BOJI RIME, i to ni na jednoj širini. Ovo je prvo što se radi.**
+
+Izmereno: **0 obojenih elemenata i 0 klasa** u editoru na **1440, 768 i 390 px**.
+Kod postoji: `analyzeRhymes` (`app.js:1218`) boji grupe od 2+ rime, poziva se iz
+`scheduleEditorUpdate` (`app.js:1288`) sa zadrškom od 500 ms.
+
+Reprodukcija — tab „Pisanje pesama", upisati:
+```
+Voli me kao nekad
+u tvom srcu je lek
+dolazi tiho vek
+ostani jos malo tu
+```
+„lek" i „vek" se rimuju, grupa od dva postoji, boje se **ne pojave**.
+
+**Prva sumnja koju treba proveriti:** da li `getEditorText()` vraća prelome redova
+onako kako ih `contenteditable` stvarno pravi (`<div>`, `<br>`). Ako ne, ceo tekst
+je **jedan red**, poslednja reč je samo jedna, i grupa rime ne može ni da nastane.
+To bi objasnilo zašto se ništa ne boji iako kod radi.
+
+> **Ovo je funkcija koja se OBEĆAVA a ne isporučuje** — po pravilu projekta to je
+> teže od kvara koji se vidi. Zato ide pre svega ostalog.
+
+**M2 — editor počinje na `x = 80` od 390 px.** Kolona sa brojem slogova
+(`.gutter`, `flex: 0 0 4.4rem`) pojede **20% ekrana**; za pisanje ostane **292 px**.
+Na telefonu je to jedva pola stiha. Na uskim ekranima kolona ne sme da bude fiksna.
+
+**M3 — editor je ISPOD PREGIBA.** `y = 713 px` na ekranu visine **664 px**. Ko na
+telefonu otvori „Pisanje pesama" **ne vidi gde se piše** dok ne skroluje.
+
+**M4 — tri elementa izlaze van ekrana na 390 px:** link do 502 px, dugme do 638 px,
+`#favCount` do 620 px — traka beži i do **248 px** desno od vidljivog dela.
+
+**Šta RADI i ne treba dirati:** panel rima na dodir reči u pesmi — dodir na „srcu"
+daje **33 rime**, panel 390×226 px. To je jedino u beležnici što je na telefonu
+kako treba.
+
+**Kako raditi ovaj zadatak:**
+1. Prvo **M1** — to je funkcionalni kvar, ne izgled. Popraviti, pa dodati proveru u
+   `test/predeploy.mjs` koja meri **broj obojenih reči**, ne postojanje elementa.
+2. Tek onda **M2–M4** — raspored. Meriti na **390, 360 i 320 px**, u obe teme, sa
+   upisanom pesmom (ne praznom beležnicom — prazna sve sakrije).
+3. Svaka izmena rasporeda je **vidljiva promena** → pokazati vlasnici pre push-a.
+4. Ne pretvarati ovo u redizajn celog sajta. Beležnica na telefonu, pa ostali tabovi.
 
 ### 1. N12 — `http://` vraća 307/302 umesto 301  *(15 minuta, traži vlasnicu)*
 

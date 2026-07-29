@@ -2544,6 +2544,36 @@ async function main() {
       await p23.close();
     }
 
+    console.log('\n24) STRANA SE NE POMERA DOK SE UČITAVA (CLS)');
+    /* Nalaz 29.07.2026. Strana se iscrta rezervnim fontom, pa kad Quicksand i
+       Fredoka stignu sa Google-a tekst promeni širinu — red filtera izgubi
+       jednu liniju i sve ispod skoči 50 px, u 736 ms.
+       Izmereno na produkciji PRE popravke: `/` 0,2853 (Google to zove „loše"),
+       `/rimovanje-reci/` 0,1104. Posle usklađivanja mera rezervnog fonta
+       (`style.css`, @font-face „…rezerva"): 0,0065 i 0,0053.
+
+       Meri se na BRZOJ vezi, i to je bitno: na emuliranom 4G je i pre popravke
+       bilo uredno (0,0032), jer tamo strana ionako čeka font pa zamene nema.
+       Ko meri samo sporu vezu, ovaj kvar NE VIDI.
+       Granica 0,1 je Google-ova granica za „dobro". */
+    {
+      const p24 = ojacajStranu(await browser.newPage());
+      for (const put of ['/', '/rimovanje-reci/']) {
+        await p24.addInitScript(() => {
+          window.__cls = 0;
+          new PerformanceObserver(l => {
+            for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value;
+          }).observe({ type: 'layout-shift', buffered: true });
+        });
+        await p24.goto(BASE + put, { waitUntil: 'load' });
+        await pauza(5000);   // font stiže oko 700–900 ms; čeka se sa rezervom
+        const cls = await p24.evaluate(() => +window.__cls.toFixed(4));
+        ok(`${put} · strana se ne pomera dok se učitava (CLS < 0,1)`,
+           cls < 0.1, `CLS ${String(cls).replace('.', ',')}`);
+      }
+      await p24.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

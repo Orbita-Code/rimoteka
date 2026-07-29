@@ -4,6 +4,96 @@
 
 ---
 
+# Sesija 29. jul 2026 (peta) — PET PRIJAVA VLASNICE, sve deployovano
+
+> **SVE JE NA PRODUKCIJI.** `main` = `046494be4`. Test lokalno **338/338**.
+
+## Šta je ova sesija otkrila — jedna slepa tačka, tri lica
+
+Vlasnica je prijavila pet stvari dok je test prolazio **332/332**. Nijednu nije
+uhvatio, i to nije slučajnost:
+
+| Prijava | Zašto test nije video |
+|---|---|
+| osvežavanje ostavlja na futeru | test **nikad nije pritisnuo F5 pa pogledao gde je ekran** |
+| reči izlistane jedna ispod druge | test je gledao `.results .chip`, nikad `.landing-lead .chip` |
+| Google prikazuje definiciju umesto opisa alata | auditi su gledali da meta opis **postoji**, nikad šta je stvarno u SERP-u |
+| „toast" umesto „zdravica" | tekst strana nikad nije pušten kroz rečnik |
+| link „Početna" u redu sa autorskim pravima | futer podstrana nikad nije upoređen sa futerom početne |
+
+Pravila izvedena iz toga: `AUDIT/PROPUSTI.md`, **25–28**.
+
+## Šta je urađeno
+
+| # | Šta | Merenje | Gde |
+|---|---|---|---|
+| P9 | osvežavanje vraća na vrh strane | produkcija 1925 → 1925 px; posle 5238,5 → **0 px** | `public/dark-mode-init.js` |
+| P12 | futer podstrana izjednačen sa početnom | — | `gen_pages.py:296` |
+| P13 | čipovi u pasusu stoje u redu | 24 čipa u **24 reda** → u **5 redova**; najširi 100% → **14%** | `public/style.css:555` |
+| P14 | prva rečenica `/rimovanje-reci/` kaže da je alat | 147 znakova (Google seče ~155) | `gen_pages.py:1173` |
+| P15 | osam grešaka u vidljivom tekstu | `toast`→zdravica (7×), `zaverno` (reč ne postoji), `Budan kratak`, `klisheeve`, `njezinu`, `odaberim`, `secanje` (3×), `zajebanciju` | `gen_pages.py` |
+| — | test 323 → **338** provera | sekcije 22 i 23 | `test/predeploy.mjs` |
+
+**Obe nove sekcije puštene su protiv produkcije DOK JE TAMO BIO STARI KOD** i tamo
+pale — 22 pala 2/7, 23 pala 4/6. Provere valjaju.
+
+## Kako je nađen P13 — obrazac koji vredi ponoviti
+
+`git log` po `public/style.css`, pa za svaki commit ispisan `display` iz `.chip` i
+`.results`. Regresija je iskočila u jednom redu: `2067fe2e3` = `inline-flex`,
+`b3bd730b2` = `flex`. **Kad vlasnica prijavi da nešto „izgleda pokvareno", prvo
+proći istoriju tog CSS pravila, ne čitati ceo fajl.**
+
+## Kako je nađen P15
+
+Ceo vidljivi tekst 15 tematskih strana pušten je kroz `reci.txt` (270.000 reči) i
+izlistane su reči kojih nema. Od 47 kandidata, 8 je bilo stvarnih grešaka, ostalo
+lažni pozitivi (brend, šeme rime AABB/ABAB, izvedenice). **Isplati se — jedna od
+osam je bila reč koja uopšte ne postoji u srpskom.**
+
+## iCloud — potvrđeno i očišćeno
+
+Projekat **jeste** u `iCloud Drive/Desktop` (isti inode). Nije usporavao rad
+(upis 50 MB = 0,019 s, isto kao van iCloud-a), ali je pravio konflikt-kopije
+**unutar `.git`**: nađeno **osam** kopija `.git/index` i tri pokvarene reference
+(`refs/heads/main 2`), zbog kojih je `git gc` odbijao da radi i `git merge` pao sa
+„fatal: stash failed". Sve premešteno (ne obrisano) u
+`~/Desktop/rimoteka-git-icloud-duplikati-29.07.2026`. `git fsck` sada čist.
+
+> **Ako se `git` ponovo ponaša čudno** (`bad object`, `stash failed`, `failed to
+> run repack`) — prvo `find .git -name "* [0-9]*"`, pa premestiti nađeno.
+
+## Sporost sesija — izmereno
+
+Vlasnica je pitala zašto su sesije spore i sumnjala na rečnik od 19 MB. Rečnik
+nije kriv. Krivo je:
+
+| Uzrok | Merenje |
+|---|---|
+| `git` bez pagera | prva komanda sesije **istekla posle 2 minuta** — `git log` čeka na `less` |
+| spisak odobrenih komandi | 15 stavki u `.claude/settings.local.json`, sesija ih poziva na stotine |
+| iCloud | ne usporava upis, ali kvari `.git` (v. gore) |
+
+> **Sledeća sesija: svaka `git` komanda ide sa `--no-pager` ili `| cat`.**
+> Vlasnici je predloženo `git config --global core.pager cat` — čeka njeno „može".
+
+## Šta ostaje otvoreno (4)
+
+| # | Šta | Ko |
+|---|---|---|
+| **P10** | strane reči birane po abecedi — 1.577 od 1.988 na slovo „a" | odloženo odlukom vlasnice, plan u `TODO.md` 0.0 |
+| **P11** | hub `/rime-za/` je zid od 1.988 linkova | isto, isti uzrok |
+| **N12** | `http://` vraća 302 umesto 301 | traži Coolify panel |
+| **P2** | CLS 0,045 — popravka primenjena, nije izmerena | merenje |
+
+## Odobrenje koje važi dalje
+
+Vlasnica 29.07. uveče: **odobreno sve što uklanja bag, uključujući „šminkanje" i
+peglanje.** Zabranjeno: brisanje rečnika, menjanje strukture sajta, i svaki
+nepovratan potez.
+
+---
+
 # Sesija 29. jul 2026 (četvrta) — DEPLOY 60 NALAZA + tri prijave vlasnice
 
 > **SVE JE NA PRODUKCIJI.** `main` = `61e0d6be3`. Test protiv produkcije: **323/323**.

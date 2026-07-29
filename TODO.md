@@ -9,12 +9,19 @@
 
 | | |
 |---|---|
-| **Otvorenih nalaza iz audita** | **2** (0 kritičnih) → `AUDIT/NALAZI-OTVORENI.md` |
-| Sve popravljeno je **na produkciji** | `main` = deployovano, test protiv produkcije prolazi |
+| **Otvorenih nalaza iz audita** | **4** (0 kritičnih) → `AUDIT/NALAZI-OTVORENI.md` |
+| Sve popravljeno je **na produkciji** | `main` = `046494be4`, deployovano 29.07. uveče |
 | Ocena poslednjeg audita | **6,9 / 10** (nova se računa u auditu 31.07.) |
 | Sledeći audit | **31.07.2026** |
-| Zašto propusti | `AUDIT/PROPUSTI.md` |
+| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila 25–28 su iz ove sesije |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
+
+**Zatvoreno 29.07. uveče (5 nalaza, sve prijave vlasnice):** P9 osvežavanje vraća na
+vrh · P12 futer izjednačen · P13 čipovi u pasusu · P14 opis u Google rezultatima ·
+P15 osam grešaka u vidljivom tekstu. Test podignut sa **323 na 338** provera.
+
+**Ostaje otvoreno (4):** P10 i P11 (hub i izbor reči — odeljak 0.0 ispod, odloženo
+odlukom vlasnice), N12 (302 umesto 301, traži Coolify), P2 (CLS nije izmeren).
 
 ---
 

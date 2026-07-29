@@ -3557,6 +3557,11 @@ gameInput.addEventListener('keydown', e => {
 
 // pokreni igru kad se otvori tab
 function initGame(){
+  /* Partija u toku se NE prekida kad se korisnik vrati na tab.
+     Ranije je svaki povratak vraćao početni ekran i brisao partiju — a otkad se
+     igra pauzira pri odlasku (nalaz S7), to bi značilo i da odbrojavanje teče
+     nevidljivo iza početnog ekrana. Zato se resetuje samo kad partija ne traje. */
+  if(gameState === 'play' || gameState === 'handoff') return;
   if(WORDS.length > 0){
     gameSetup.style.display = 'block';
     gamePlay.style.display = 'none';

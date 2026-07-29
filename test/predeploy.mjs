@@ -1709,6 +1709,15 @@ async function main() {
       await pauza(2500);
       const t3 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
       ok('S7 odbrojavanje se NASTAVLJA po povratku', Number(t3) < Number(t2), `${t2} → ${t3}`);
+      /* Povratak na tab ne sme da vrati POČETNI ekran — inače bi odbrojavanje
+         teklo nevidljivo iza njega, a partija bi se izgubila. */
+      const ekran = await p17b.evaluate(() => ({
+        igra: getComputedStyle(document.getElementById('gamePlay')).display,
+        pocetni: getComputedStyle(document.getElementById('gameSetup')).display,
+      }));
+      ok('S7 povratak na tab ne prekida partiju u toku',
+         ekran.igra !== 'none' && ekran.pocetni === 'none',
+         `gamePlay=${ekran.igra} gameSetup=${ekran.pocetni}`);
       await p17b.close();
     }
 

@@ -7,9 +7,10 @@
 
 # Sesija 29. jul 2026 (šesta, kasno uveče) — MOBILNA VERZIJA (M1–M4) + čišćenje projekta
 
-> **Lokalno sve gotovo, čeka odobrenje za push.** Test lokalno: **353/353**
-> (bilo 344 → 9 novih provera, sekcija 26). Provera protiv produkcije: sekcija 26
-> je tamo **pala dok je stari kod** — time je dokazano da provere hvataju kvar.
+> **NA PRODUKCIJI.** Test protiv produkcije: **358/358** (sekcija 26 prolazi i uživo;
+> pre deploy-a je na istom kodu padala — dokaz da hvata kvar).
+> **Projekat je premеšten iz `~/Desktop/Projects` u `~/Projects`** — van iCloud
+> sinhronizacije (v. odeljak 7). Sve putanje u dokumentaciji su ažurirane.
 > U sesiji je urađen i **pun pregled projekta** (kod, dokumentacija, bezbednost)
 > na zahtev vlasnice, pa čišćenje viškova.
 
@@ -90,20 +91,36 @@ pristanka (GDPR), HSTS (Traefik/Coolify), sitni hardening.
   `if (proToggle)` garde, a dugme je zakomentarisano).
 - **Logo** (pravilo 8a), **desktop** (regresija proverena na 1440/768/1280:
   hero, proza, gutter 70 px, bez maske — sve kao pre).
-- **15 mergovanih grana** — brisanje je git-mutacija, čeka izričito odobrenje.
+- **16 mergovanih grana** — brisanje je git-mutacija, čeka izričito odobrenje.
 
-## 6. Za push (čeka odobrenje vlasnice)
+## 6. Push, deploy i verifikacija produkcije (odobreno 29.07. kasno uveče)
 
-Vidljive promene za pregled:
-1. Beležnica na telefonu: bojenje rima radi, gutter uži, editor odmah vidljiv,
-   akcije u jednom redu koji se pomera, legenda bez „prevuci" stavke na dodiru.
-2. Hero (naslov+opis) se na telefonu vidi samo na tabu Rime.
-3. Traka tabova ima blagu senku na desnoj ivici (znak da se pomera).
-4. Novo upozorenje u beležnici ako skladište ne radi (vidi se samo u privatnom režimu).
-5. Ništa od ovoga se ne vidi na desktopu/tabletu (>560 px).
+Grana `feat/mobilna-verzija-m1-m4` → merge u `main` (`e233a165d`) → Coolify
+deploy. Provera produkcije: glavna 200, nova verzija `20260729h` uživo, pun test
+**358/358** — sekcija 26 prolazi i protiv produkcije.
+
+## 7. iCloud incident i premeštaj repoa
+
+Usred `git add`-a (trajao je ~15 min jer je iCloud sloj usporavao svaki fajl)
+iCloud je materijalizovao stare verzije i napravio **1.047 direktorijuma
+`reč 2/`** unutar `public/rime-za/` — i uleteo je u prvi commit. Uhvaćeno PRE
+push-a: duplikati premešteni u `~/Desktop/rimoteka-ciscenje-29.07.2026/icloud-
+-konflikti-rime-za/`, commit popravljen (amend), pa tek onda push.
+Prave strane su sve bile ispravne (1.989/1.989 nova verzija, 0 starih).
+
+**Uzrok:** `~/Desktop` je u iCloud Drive-u od 27.05.2024 (sistemska opcija
+„Desktop & Documents Folders"). Do sada nikad nije smetao jer su projekti bili
+mali; Rimoteka prepisuje ~2.000 fajlova po build-u, što je jedini obrazac rada
+koji izaziva iCloud konflikte.
+
+**Rešenje (odluka vlasnice):** ceo `Desktop/Projects` premеšten u `~/Projects`
+(home folder se ne sinhronizuje). Desktop/Documents sinhronizacija ostaje
+uključena. Efekat: `git add` sa 15+ minuta → **2 sekunde**.
+
+**Pravilo za sve naredne sesije: putanja projekta je `/Users/jovana.jovic/
+Projects/rimoteka`.**
 
 ---
-
 
 # Sesija 29. jul 2026 (peta) — ŠEST PRIJAVA VLASNICE, jedan pad sajta, sve deployovano
 

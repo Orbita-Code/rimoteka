@@ -5,3 +5,7 @@ node_modules/
 # iCloud/OneDrive konflikt-kopije i backup-i (Frankenštajn fajlovi)
 *.bak*
 * [0-9].*
+
+# snimci ekrana koje ostavi Playwright
+hub-rime-za.png
+*.playwright.png

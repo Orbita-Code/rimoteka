@@ -94,8 +94,6 @@ body.dark-mode .landing-faq details,
 body.dark-mode .faq details,
 body.dark-mode .note-stats,
 body.dark-mode .poem-card,
-body.dark-mode .fav-item,
-body.dark-mode .big-text,
 body.dark-mode .notepad-text,
 body.dark-mode .syl-line:nth-child(odd){
   background:#1e1a2e;
@@ -153,9 +151,6 @@ body.dark-mode .pro-modal-content h2{
 }
 body.dark-mode .pro-feature{
   border-bottom-color:var(--line);
-}
-body.dark-mode .pro-price{
-  color:var(--lavender);
 }
 body.dark-mode .pro-note{
   color:var(--muted);
@@ -275,12 +270,6 @@ body.dark-mode .note-rhymes h4{
   color:var(--lavender);
 }
 body.dark-mode .nr-empty{
-  color:var(--muted);
-}
-body.dark-mode .syl-line .syllable-count{
-  color:var(--lavender);
-}
-body.dark-mode .syl-line .chcount{
   color:var(--muted);
 }
 body.dark-mode .syl-total b{
@@ -490,8 +479,6 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .pro-feature{display:flex;align-items:center;gap:.7rem;padding:.6rem 0;border-bottom:1px solid var(--line)}
 .pro-feature:last-child{border-bottom:0}
 .pro-feature .icon{font-size:1.3rem}
-.pro-price{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:2rem;font-weight:700;color:var(--lavender-deep);margin:1rem 0}
-.pro-price small{font-size:.9rem;color:var(--muted);font-weight:500}
 .pro-btn{display:block;width:100%;padding:.9rem;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;border:0;border-radius:16px;font:inherit;font-weight:700;font-size:1.05rem;cursor:pointer;margin-top:1rem;transition:.2s}
 .pro-btn:hover{opacity:.92}
 .pro-note{font-size:.82rem;color:var(--muted);margin-top:.8rem;text-align:center}
@@ -623,12 +610,12 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 
 /* TEXTAREAS */
 .hint{color:var(--ink-soft);font-size:.94rem;margin:.2rem 0 1.1rem}
-.big-text,.notepad-text{
+.notepad-text{
   width:100%;font:inherit;font-size:1.08rem;font-weight:500;line-height:1.95;
   padding:1.1rem 1.2rem;border:2px solid #fff;border-radius:20px;
   background:#fff;color:var(--ink);resize:vertical;min-height:170px;box-shadow:var(--shadow-sm);
 }
-.big-text:focus,.notepad-text:focus{outline:0;border-color:var(--lavender)}
+.notepad-text:focus{outline:0;border-color:var(--lavender)}
 .notepad-text:empty:before{
   content:attr(data-placeholder);
   color:var(--muted);
@@ -645,11 +632,15 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .syl-line:nth-child(odd){background:#faf6fe}
 .syl-line .count{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--rose-deep);min-width:2.2rem;font-variant-numeric:tabular-nums}
 .syl-line .txt{color:var(--ink)}
-.syl-line .chcount{margin-left:auto;font-size:.74rem;font-weight:600;color:var(--muted);white-space:nowrap}
 .syl-total{margin-top:1rem;font-weight:600;font-family:'Fredoka','Fredoka rezerva',sans-serif;color:var(--syl-ink);font-size:1rem}
 .syl-total b{color:var(--rose-deep)}
 .note-stats{margin-top:.7rem;text-align:right;font-size:.85rem;font-weight:600;color:var(--ink-soft)}
 .note-stats:not(:empty){padding:.5rem .9rem;background:#fff;border-radius:14px;box-shadow:var(--shadow-sm);display:inline-block;float:right}
+
+/* Upozorenje da čuvanje ne radi (privatni režim / blokirano skladište) —
+   vidljivo dok korisnik ne pročita; nije toast koji nestane. */
+.note-warn{margin:0 0 .8rem;background:#fdf0f3;color:var(--rose-deep);border:2px solid var(--rose);border-radius:14px;padding:.6rem .9rem;font-size:.88rem;font-weight:600;line-height:1.45}
+body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 
 /* NOTE RHYMES — rime za poslednju reč u beležnici */
 .note-rhymes{margin-top:1rem;background:#fff;border-radius:20px;padding:1rem 1.2rem;box-shadow:var(--shadow-sm);border:2px solid #fff;min-height:60px}
@@ -947,13 +938,50 @@ body.dark-mode .landing-tool{background:#1e1a2e}
   /* Tabovi — scrollable na mobilnom */
   .tabs{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:.4rem 1rem;-webkit-overflow-scrolling:touch}
   .tabs button,.tabs a{flex-shrink:0;white-space:nowrap}
+  /* M4: traka tabova prelazi ekran (na 390 px beži i do 600+ px) — bez znaka da
+     se pomera deluje odsečeno. Blagi zamask na desnoj ivici kaže „ima još";
+     kad se dopomera do kraja, JS sklanja masku (klasa .tabs-do-kraja). */
+  .tabs:not(.tabs-do-kraja){
+    -webkit-mask-image:linear-gradient(90deg,#000 86%,transparent 99%);
+    mask-image:linear-gradient(90deg,#000 86%,transparent 99%);
+  }
 
   /* Autocomplete — ne prekriva dugme */
   .autocomplete{max-height:200px;z-index:80}
 
+  /* M3: tekst o alatu (hero) pripada tabu Rime — na ostalim tabovima na
+     telefonu samo gura alat ispod pregiba (beležnica je počinjala na 713 px
+     ekrana visokog 664 px). Sakriva se SAMO na uskom ekranu i SAMO van taba
+     Rime; u DOM-u ostaje (h1 za SEO se ne dira). */
+  body:not([data-tab="rime"]) .hero{display:none}
+
   /* Beležnica — veći font za mobilni */
-  .notepad-text{font-size:1rem;line-height:1.8;min-height:240px}
-  .gutter{font-size:1rem;line-height:1.8;width:3.9rem;flex-basis:3.9rem}
+  .notepad-text{font-size:1rem;line-height:1.8;min-height:240px;padding:1rem .8rem}
+  /* M2: fiksni gutter od 62 px je jeo 16–20% ekrana telefona (za stih je
+     ostajalo 250–292 px). Na dodir se stih ne prevlači (hvataljka se zato
+     krije SAMO ovde — na širim ekranima ostaje), a gutter se sužava na
+     slovo šeme + broj slogova, koji su suština. */
+  .gutter{font-size:1rem;line-height:1.8;width:2.8rem;flex-basis:2.8rem}
+  .gutter-row{padding:0 .25rem 0 .2rem;gap:.12rem}
+  .gutter-row .g-drag{display:none}
+  .gutter-row .g-letter{flex-basis:.85rem}
+  .notepad-legend .lg-item-drag{display:none}
+  /* M3: objašnjenje u pasusu beležnice (216 px) guralo je editor ispod
+     pregiba — akcije ostaju, proza ustupa mesto stihu (poruka da se tekst
+     sam čuva stoji i u placeholderu editora). */
+  #panel-beleznica .hint .hint-txt,
+  .landing-tool .hint .hint-txt{display:none}
+  /* M3: i samih sedam akcija je na telefonu pravilo tri reda — jedan red koji
+     se pomera (isto pravilo kao traka tabova); sve akcije ostaju dostupne.
+     `contain:inline-size` je OBAVEZAN: bez njega mobilni Chrome računa širinu
+     stranice od sadržaja reda (~760 px) i ceo sajt „odzumira" na 822 px —
+     izmereno; ni overflow-x:auto ni max-width:100% to ne zaustavljaju. */
+  .hint-actions{display:flex;flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;
+    gap:.15rem;padding-bottom:.3rem;-webkit-overflow-scrolling:touch;
+    contain:inline-size;box-sizing:border-box}
+  .hint-actions .link-btn{flex-shrink:0}
+  /* Podstrane: kartica alata na telefonu je jela 42 px širine na paddingu */
+  .landing-tool{padding:.8rem}
 
   /* Pro modal — responzivan */
   .pro-modal-content{padding:1.5rem;margin:1rem}
@@ -994,10 +1022,6 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .pro-plan-price small{font-size:.75rem;color:var(--muted);font-weight:500}
 .pro-plan-badge{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#fff;background:var(--rose-deep);padding:.12rem .5rem;border-radius:999px}
 .pro-active-msg{text-align:center;margin:0 0 .4rem}
-
-/* Pro korisnik ne vidi reklame */
-body.is-pro .adsense-placeholder,
-body.is-pro .adsbygoogle{display:none!important}
 
 body.dark-mode .pro-form input[type=email]{background:#2a2a35;border-color:#3a3a48;color:#eee}
 body.dark-mode .pro-plan{border-color:#3a3a48}
@@ -1194,7 +1218,6 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
   /* Sedam akcionih dugmadi u beležnici bilo je visoko 23,3 px i bez razmaka —
      među njima i destruktivno „obriši sve". Preporuka za dodir je 44 px. */
-  .notepad-actions .link-btn,
   #panel-beleznica .hint .link-btn{
     display:inline-flex;align-items:center;min-height:44px;padding:0 .5rem;margin:.15rem .1rem;
   }

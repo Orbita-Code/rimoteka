@@ -67,7 +67,7 @@ rečniku, sigurno sa oznakom koja se ne vidi.
 
 ### Šta je iz njega izvučeno
 13.893 sirove odrednice → 12.445 posle odbacivanja grešaka čitanja → od toga
-**6.986 već imamo**, a **5.459 su nove**. Lista je u `RECNIK-NOVE-RECI.md`.
+**6.986 već imamo**, a **5.459 su nove**. Lista je u `docs/recnik/RECNIK-NOVE-RECI.md`.
 
 ---
 

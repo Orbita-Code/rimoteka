@@ -598,3 +598,34 @@ strana pala pre nje, ali je bilo tu.
 > **PRAVILO 34:** Svako merenje u testu dobija **svoj kontekst pregledača**.
 > Deljena strana nosi zaostalo stanje — nakupljene init skripte, keš fontova,
 > `localStorage` — i to se vidi tek kad rezultat počne da laže.
+
+## Iz šeste sesije (29.07.2026, kasno uveče) — mobilna verzija
+
+### 7. Skrolujući red je odzumirao ceo sajt
+
+Za M3 je sedam akcija beležnice trebalo da stane u jedan red koji se pomera
+(`display:flex; overflow-x:auto; white-space:nowrap`). Na telefonu je takav red
+**raširio celu stranicu na 822 px** — mobilni Chrome je „odzumirao" da stane
+sadržaj, iako red ima `overflow-x:auto` i trebalo bi da sečе. Ni `max-width:100%`
+ne pomaže: roditelj već ima širinu sadržaja, pa je i „100%" pogrešna mera.
+Bisekcija četiri varijante (bez pravila / overflow hidden / contain) je pokazala
+da jedino **`contain:inline-size`** zaustavlja širenje.
+
+> **PRAVILO 35:** Svaki kontejner koji se pomera vodoravno i čiji je sadržaj
+> širi od ekrana (`overflow-x:auto` + `nowrap`) na telefonu dobija i
+> **`contain:inline-size`**. Bez toga mobilni Chrome računa širinu STRANICE od
+> sadržaja kontejnera — i sajt odzumira. Merenje koje ovo hvata je jednostavno:
+> `document.documentElement.scrollWidth === window.innerWidth`, na 390 px, sa
+> sadržajem (prazna strana sve sakrije).
+
+### 8. Kvar koji se nije video na desktopu: drugi oblik reda u editoru
+
+M1 (beležnica ne boji rime) na desktopu nije mogao da se reprodukuje kucanjem —
+desktop Chrome na Enter pravi `<br>`, mobilni pravi **`<div>` po redu**. Ceo
+lanac beležnice (`getEditorText`) je poznavao samo `<br>`, pa je na telefonu
+pesma bila jedan red: bez bojenja, bez broja slogova po stihu, i **pokvarena
+u skladištu**. Ista pojava, dva različita DOM-a.
+
+> **PRAVILO 36:** Šta god da čita `contenteditable`, testira se sa OBE strukture
+> redova (`<br>` i `<div>`). Kucanje u testu ne pokriva mobilni oblik — editor
+> se u testu puni i direktno `innerHTML`-om sa `<div>` redovima.

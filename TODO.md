@@ -5,15 +5,17 @@
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026 (uveče)
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026 (kasno uveče, šesta sesija)
 
 | | |
 |---|---|
-| **Otvorenih nalaza iz audita** | **7** → `AUDIT/NALAZI-OTVORENI.md` — od toga **4 mobilna (M1–M4)** |
-| Sve popravljeno je **na produkciji** | deployovano 29.07. uveče; test protiv produkcije **344/344** |
+| **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (P10, P11 — odloženi odlukom vlasnice; N12 — Coolify) |
+| **M1–M4 (mobilni) — ZATVORENI** | beležnica boji rime i na telefonu (uzrok: `<div>` po redu), gutter 45 px, editor iznad pregiba, traka tabova ima znak da se pomera. **Čeka push.** Detalji: `HANDOVER.md`, sesija 29.07. (šesta) |
+| **Novo: A4 „nikad ne izgubi pesmu"** | istorija 3 verzije + spas iz istorije + upozorenje kad skladište ne radi. Čeka push. |
+| Sve popravljeno iz pete sesije je **na produkciji** | deployovano 29.07. uveče; test protiv produkcije **344/344** |
 | Ocena poslednjeg audita | **6,9 / 10** (nova se računa u auditu 31.07.) |
 | Sledeći audit | **31.07.2026** |
-| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **25–34** su iz ove sesije |
+| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **35–36** su iz šeste sesije |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
 
 **Zatvoreno 29.07. uveče (8 nalaza):** P9 osvežavanje vraća na vrh · P12 futer
@@ -26,12 +28,11 @@ Test podignut sa **323 na 344** provere.
 > prvom minutu. Od tada `nginx.conf` ne ide na produkciju bez
 > `bash test/nginx-provera.sh` — v. `CLAUDE.md`, odeljak **9a-1**.
 
-**Ostaje otvoreno (7):**
-- **M1–M4 (mobilni) — NAJVIŠI PRIORITET.** Beležnica ne boji rime **ni na jednoj
-  širini** (M1), editor počinje na x=80 od 390 px (M2), editor je ispod pregiba
-  (M3), tri elementa izlaze do 248 px van ekrana (M4). Prijava vlasnice 29.07,
-  sve izmereno na produkciji u iPhone 13 kontekstu.
-  **Merena je samo beležnica — ostalih šest tabova nije provereno na telefonu.**
+**Ostaje otvoreno (3):**
+- **M1–M4 (mobilni) — ZATVORENI u šestoj sesiji (29.07. kasno uveče), čeka push.**
+  Uzrok M1 je bio dublji od izgleda: mobilni pregledači na Enter prave `<div>`
+  po redu, `getEditorText()` je znao samo `<br>` — pa se pesma lepila u jedan
+  red i KVARILA u localStorage. Uz M1–M4 urađena je i A4 (istorija pesme).
 - **P10 i P11** — hub i izbor reči, odeljak 0.0 ispod, odloženo odlukom vlasnice.
   **Preduslov: popraviti `frekvencija.json`** (`TODO-RECNIK.md`, odeljak „HITNO") —
   fajl je i sam pogrešan, pa bi P10 po njemu izabrao pogrešnih 2.000 reči.
@@ -238,7 +239,7 @@ roditelja i učitelja; ako izbaci previše, deca ostaju bez sasvim običnih reč
 i kvari poverenje u alat. Vidi `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`.
 
 **Šta treba:**
-- Proći `RECNIK-NOVE-RECI.md` i `RECNIK-PREDLOG*.md` (rad druge sesije)
+- Proći `docs/recnik/RECNIK-NOVE-RECI.md` i `RECNIK-PREDLOG*.md` (rad druge sesije)
 - Za svaku novu reč: postoji li stvarno u srpskom, i ima li definiciju
 - Posebno paziti na oblike koje je generator izveo iz nastavka (obrazac
   „bankomam / njakam / mladoturke")

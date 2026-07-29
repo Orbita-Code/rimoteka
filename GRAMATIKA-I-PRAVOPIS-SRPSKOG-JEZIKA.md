@@ -594,7 +594,7 @@ Zapisivati svaku ispravku — to je najpouzdaniji izvor u ovom dokumentu.
   stoji sama, bez srodnih oblika" NIJE dokaz da je izmišljena — *aminati* je
   upravo takav slučaj, a postoji. Takva lista ide vlasnici na pregled, ništa se
   ne briše automatski.
-- `RECNIK-PREDLOG.md` — 13.827 predloženih oblika čeka pregled po grupama.
+- `docs/recnik/RECNIK-PREDLOG.md` — 13.827 predloženih oblika čeka pregled po grupama.
 
 ## 12. Izvori i dalje čitanje
 

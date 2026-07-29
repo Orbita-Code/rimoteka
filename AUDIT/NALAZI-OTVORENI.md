@@ -6,27 +6,21 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 uveče: 9 otvorenih nalaza** (šest prijava vlasnice + dva nalaza iz merenja).
-> **Popravljeno i testirano 29.07. uveče, čeka push (5):** P9 (osvežavanje ne vraća
-> na vrh), P12 (link „Početna" u redu sa autorskim pravima), P13 (čipovi u pasusu
-> jedan ispod drugog), P14 (Google prikazuje definiciju umesto opisa alata),
-> P15 (osam grešaka u vidljivom tekstu, među njima reč koja ne postoji),
-> P16 (strana skače 50 px dok se učitava — CLS 0,2853),
-> N17 (www vraćao 200 umesto 301).
->
+**Stanje na dan 29.07.2026 kasno uveče (šesta sesija): 3 otvorena nalaza** (P10, P11 — odložena odlukom vlasnice; N12 — traži Coolify).
+> **Popravljeno i testirano u šestoj sesiji, čeka push (4 + 1):** M1 (beležnica
+> nije bojila rime — uzrok: mobilni pravi `<div>` po redu, `getEditorText()` je
+> znao samo `<br>`, pa se pesma lepila u jedan red i KVARILA u localStorage),
+> M2 (gutter fiksnih 62 px → 45 px na telefonu), M3 (editor ispod pregiba —
+> y=713 → y=404 na početnoj, 577 → 326 na podstrani), M4 (traka tabova bez
+> znaka da se pomera — maska na ivici). Uz to **A4**: istorija poslednje 3
+> verzije pesme, spas kad glavni zapis nestane, vidljivo upozorenje kad
+> skladište ne radi. Provere 26 u testu. Detalji: `HANDOVER.md`, sesija 29.07. (šesta).
 > **Odloženo odlukom vlasnice (2):** P10 (strane reči birane po abecedi, 1.577 od
 > 1.988 na slovo „a") i P11 (hub `/rime-za/` je zid od 1.988 linkova) — **isti
 > uzrok**, plan u `TODO.md`, odeljak 0.0.
 >
 > **Moje, bez popravke (1):** N12 (302 umesto 301) — jedino što traži prijavu na
 > Coolify panel; Traefik odgovara pre našeg nginx-a, pa se iz repozitorijuma ne može.
->
-> **NOVO 29.07. uveče — MOBILNI (4):** vlasnica je otvorila sajt na telefonu.
-> **M1** beležnica ne boji rime (ni na jednoj širini — funkcija se obećava a ne
-> isporučuje), **M2** editor počinje na x=80 od 390 px, **M3** editor je ispod
-> pregiba (y=713 na ekranu 664), **M4** tri elementa izlaze do 248 px van ekrana.
-> Sve izmereno na produkciji, u iPhone 13 kontekstu sa dodirom.
-> **Panel rima na dodir reči RADI** — 33 rime za „srcu"; to je jedino što valja.
 >
 > **Zatvoreno merenjem:** **P2** (CLS na `/rime-za/`) — popravka preload-a fonta iz
 > prethodne sesije **jeste radila**, samo nikad nije bila izmerena: `/rime-za/ljubav/`
@@ -52,24 +46,17 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (7) — 4 mobilna (nova), 2 odložena odlukom vlasnice, 1 traži Coolify
+## OTVORENO (3) — 2 odložena odlukom vlasnice, 1 traži Coolify
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
-| **P9** | **Osvežavanje ne vraća na vrh strane** — ko je na futeru i pritisne F5 ostane na futeru, a alat se u međuvremenu resetovao (polje prazno, rime nestale), pa gleda dno prazne strane. Prijava vlasnice 29.07. Izmereno na produkciji: `/rime-za/ljubav/` 1925 px → 1925 px; početna sa rimama 5163 px → 5163 px. | **POPRAVLJENO, čeka odobrenje za push.** Merenje posle popravke: 5238,5 px → **0 px**, uz „Nazad" koji i dalje pamti položaj. | `public/dark-mode-init.js` | 29.07. |
-| **M1** | **Beležnica NE BOJI RIME — ni na jednoj širini.** Kod postoji (`analyzeRhymes`, boji grupe od 2+ rime, zadrška 500 ms u `scheduleEditorUpdate`), ali rezultat je **0 obojenih elemenata** i **0 klasa** u editoru na 1440, 768 i 390 px. Reprodukcija: tab „Pisanje pesama", upisati `Voli me kao nekad / u tvom srcu je lek / dolazi tiho vek / ostani jos malo tu` — „lek" i „vek" se rimuju, grupa od 2 postoji, boje se ne pojavljuju. **Prijava vlasnice 29.07.** Ovo je funkcija koja se OBEĆAVA a ne isporučuje — teže od vidljivog kvara. | Traži istragu: proveriti da li `getEditorText()` vraća prelome redova onako kako ih `contenteditable` pravi (`<div>`/`<br>`) — ako ne, ceo tekst je jedan red i grupa rime nema. | `app.js:1218`, `:1288` | 29.07. |
-| **M2** | **Editor počinje na x=80 od 390 px** — kolona sa brojem slogova pojede **20% ekrana**, za pisanje ostane **292 px**. Na telefonu je to jedva pola reda stiha. | Traži mobilni raspored: kolona slogova ne sme da bude fiksna na uskim ekranima. | `style.css` (`.gutter`, `flex:0 0 4.4rem`) | 29.07. |
-| **M3** | **Editor je ISPOD PREGIBA na telefonu** — `y = 713 px` na ekranu visine **664 px**. Ko otvori „Pisanje pesama" na telefonu **ne vidi gde se piše** dok ne skroluje. | Traži mobilni raspored. | `index.html` / `style.css` | 29.07. |
-| **M4** | **Tri elementa izlaze van ekrana na 390 px**: link do **502 px**, dugme do **638 px**, `#favCount` do **620 px** — traka beži i do **248 px** desno od vidljivog dela. | Ranija popravka (traka se sama pomera da se aktivan tab vidi) pokriva podstrane, ne ovo. | `style.css` | 29.07. |
+| **M1** | **Beležnica NE BOJI RIME — ni na jednoj širini.** Kod postoji (`analyzeRhymes`, boji grupe od 2+ rime, zadrška 500 ms u `scheduleEditorUpdate`), ali rezultat je **0 obojenih elemenata** i **0 klasa** u editoru na 1440, 768 i 390 px. Reprodukcija: tab „Pisanje pesama", upisati `Voli me kao nekad / u tvom srcu je lek / dolazi tiho vek / ostani jos malo tu` — „lek" i „vek" se rimuju, grupa od 2 postoji, boje se ne pojavljuju. **Prijava vlasnice 29.07.** Ovo je funkcija koja se OBEĆAVA a ne isporučuje — teže od vidljivog kvara. | **POPRAVLJENO, čeka push.** Uzrok nađen: mobilni pregledači na Enter prave `<div>` po redu, a `getEditorText()` je poznavao samo `<br>` — redovi su se lepili u jedan („…nekadu tvom…"), pa se i pesma KVARILA u localStorage. Sada blokovi (`<div>`, `<p>`) računaju kao prelom reda. Izmereno posle: 2 obojene reči i sa `<br>` i sa `<div>` strukturom, ćirilica radi, prazni redovi se čuvaju. Provera 26 u testu. | `app.js` (`getEditorText`) | 29.07. |
+| **M2** | **Editor počinje na x=80 od 390 px** — kolona sa brojem slogova pojede **20% ekrana**, za pisanje ostane **292 px**. Na telefonu je to jedva pola reda stiha. | **POPRAVLJENO, čeka push.** Gutter na ≤560 px sužen na 2,8 rem (45 px), hvataljka se krije samo na dodiru (premeštanje stiha ostaje na širim ekranima). Posle: početna x=63 / 309 px za pisanje; podstrana x=76 / 284 px (bilo x=101 / 250 px). Provera 26. | `style.css` (`@media(max-width:560px)`) | 29.07. |
+| **M3** | **Editor je ISPOD PREGIBA na telefonu** — `y = 713 px` na ekranu visine **664 px**. Ko otvori „Pisanje pesama" na telefonu **ne vidi gde se piše** dok ne skroluje. | **POPRAVLJENO, čeka push.** Hero se na telefonu vidi samo na tabu Rime (u DOM-u ostaje); proza beležnice ustupa mesto stihu, a 7 akcija je u jednom redu koji se pomera (`contain:inline-size` — bez njega mobilni Chrome raširi stranicu na 822 px). Posle: editor na y=404 (početna) / y=326 (podstrana). Provera 26. | `index.html` / `style.css` | 29.07. |
+| **M4** | **Tri elementa izlaze van ekrana na 390 px**: link do **502 px**, dugme do **638 px**, `#favCount` do **620 px** — traka beži i do **248 px** desno od vidljivog dela. | **POPRAVLJENO, čeka push.** Traka tabova dobija masku na desnoj ivici (znak „ima još"); maska se sklanja kad se dopomera do kraja. Dokument se ne širi: 390 = 390. Provera 26. | `style.css`, `app.js` (`osveziMaskuTabova`) | 29.07. |
 | **P10** | **Strane reči su birane po ABECEDI, ne po učestalosti** — 1.577 od 1.988 strana su reči na „a" (`aaa`, `aah`, `abadzija`, `abakusi`, `abazur`), a nema strana za većinu običnih reči. `gen_pages.py` **nikad ne učita `frekvencija.json`**; `rank` je redni broj u `reci.txt`, a `reci.txt` je abecedni. Komentar u kodu tvrdi „frekvencijski rangirane" — netačno. Posledica i na rangiranje rima: `/rime-za/ljubav/` daje `neljubav, gubav, ubav…`, živi alat za istu reč `gubav, ubav, glibav…`. | Traži odluku vlasnice — popravka menja **1.577 URL-ova** (301 ili zadržati stare strane). | `build/gen_pages.py:605`, `:646` | 29.07. |
 | **P11** | **Hub `/rime-za/` je zid od 1.988 linkova** (8.027 px, slovo „A" nosi 1.577 njih). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. | Traži odluku vlasnice — v. P10, isti uzrok. | `build/gen_pages.py:1460–1505` | 29.07. |
-| **P13** | **Čipovi u pasusu izlistani jedan ispod drugog, preko cele širine** — spisak najtraženijih reči na `/rimovanje-reci/` (24 reči) i spisak dečjih reči na `/rime-za-decu/` (19 reči). Uzrok: 28.07. u `b3bd730b2` je `.chip` prebačen sa `inline-flex` na `flex` uz popravku ikonica; `flex` je blok, pa čip u pasusu uzima ceo red. Izmereno na produkciji: **24 čipa u 24 reda, najširi nosi 100% širine pasusa**. | **POPRAVLJENO, čeka push.** Posle popravke: 24 čipa u **5 redova**, najširi 14% pasusa. Unutar `.results` ništa se nije promenilo (svih 195 čipova i dalje visine 47 px, po 3 ikonice). | `public/style.css:555` | 29.07. |
-| **P14** | Google je kao opis `/rimovanje-reci/` prikazivao *„Rimovanje reči je traženje reči koje se na kraju zvučno poklapaju"* — definicija pojma, pa strana deluje kao rečnička odrednica, a ne kao alat. | **POPRAVLJENO, čeka push.** Prva rečenica sada glasi „…je besplatan alat za traženje rime na srpskom"; `meta description` usklađen. | `build/gen_pages.py:1173–1185` | 29.07. |
-| **P15** | **Greške u vidljivom tekstu tematskih strana**, nađene puštanjem celog teksta sajta kroz rečnik od 270.000 reči: `toast` umesto **zdravica** (7 mesta, `/rime-za-svadbu/`), `zaverno` — **reč ne postoji** (0 pogodaka u `reci.txt`), `Budan kratak` umesto „Budi kratak", `klisheeve` umesto **klišee**, `njezinu` (hrvatski) umesto **njenu**, `odaberim` umesto **odaberi**, `secanje/secanja` bez kvačice (3 mesta), `zajebanciju` → **zezanje**. | **POPRAVLJENO, čeka push.** | `build/gen_pages.py` | 29.07. |
-| **P12** | Na podstranama je u redu sa autorskim pravima stajao link **„Početna"** umesto teksta „Sva prava zadržana" — navigacija u redu sa autorskim pravima, gde joj nije mesto. | **POPRAVLJENO, čeka push.** Oba futera sada čitaju isto. Povratak na početnu i dalje postoji na dva mesta: logo u zaglavlju i traka alata. | `build/gen_pages.py:296` | 29.07. |
-| **N17** | **`https://www.rimoteka.com` vraćao 200** — ista strana na dve adrese. Kanonik je pokazivao na adresu bez www, pa Google nije indeksirao duplikat, ali kanonik je nagoveštaj, a 301 je pravilo: tek on prenosi težinu linkova. Nađeno 29.07. pri proveri N12. | **POPRAVLJENO, čeka push.** Zaseban `server` blok u `nginx.conf` (sintaksa provereno ispravna kroz `crossplane`, dva bloka kako treba). | `nginx.conf:1–20` | 29.07. |
 | **N12** | `http://rimoteka.com` vraća **307/302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma. Traži prijavu na panel: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. **29.07. otvoren panel — čeka prijavu vlasnice.** Nije rešivo iz nginx-a jer Traefik odgovara pre njega. | Coolify / Traefik | 28.07. |
-| **P16** | **Strana skače 50 px dok se učitava** — kad Quicksand i Fredoka stignu sa Google-a, tekst promeni širinu, red filtera izgubi jednu liniju i sve ispod se pomeri. Izmereno na produkciji, brza veza: `/` **CLS 0,2853** (Google: „loše"), `/rimovanje-reci/` **0,2819**. Na 4G je bilo uredno (0,0032) — zato ni jedan raniji audit nije video, merio je sporu vezu. | **POPRAVLJENO, čeka push.** Rezervni font sa usklađenim merama (`@font-face` „…rezerva", `size-adjust` 103,6% i 98,2% — izmereno, ne procenjeno). Posle: `/rimovanje-reci/` **0,0053** stabilno; `/` **0,0065 u 11 od 13 merenja**, a dva puta ~0,30 — oba u minutu dok se kontejner dizao posle deploy-a. Pod usporenim procesorom (4×) i sporom mrežom nije se ponovilo u 11 pokušaja. **Ostaje da se prati u sledećem auditu.** | `public/style.css:319` | 29.07. |
 
 ---
 

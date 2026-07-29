@@ -2621,6 +2621,138 @@ async function main() {
       console.log('  ⏭  preskočeno — radi samo protiv produkcije (BASE=https://rimoteka.com)');
     }
 
+    console.log('\n26) MOBILNA BELEŽNICA I TELEFON (M1–M4) + SIGURNOSNA MREŽA PESME');
+    /* Prijava vlasnice 29.07.2026: „otvorila sam sajt na svom telefonu i jeziv
+       je — beležnica posebno nikakve veze sa vezom nema". Izmereno na
+       produkciji, iPhone 13 kontekst: M1 (0 obojenih reči na SVIM širinama),
+       M2 (editor počinje na x=80 od 390 px), M3 (editor na y=713, ekran 664),
+       M4 (traka tabova beži do 248 px van ekrana).
+
+       Uzrok M1 je bio dublji od izgleda: mobilni Chrome/Safari na Enter prave
+       <div> po redu, ne <br> — a `getEditorText()` je poznavao samo <br>.
+       Redovi su se LEPILI u jedan („…nekadu tvom…"), pa je pokvaren tekst
+       išao i u localStorage: pesma je bila uništena, ne samo neobojena.
+       Zato se ovde kuca sa <div> strukturom redova, ne samo sa <br>. */
+    {
+      const ctx26 = await browser.newContext({ viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true });
+      const p26 = ojacajStranu(await ctx26.newPage());
+      await p26.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+      await pauza(1800);
+
+      // M1: <div> struktura redova (mobilni) — redovi se ne lepe, rime se boje
+      await p26.evaluate(() => {
+        const ed = document.getElementById('noteEditor');
+        ed.innerHTML = 'Voli me kao nekad<div>u tvom srcu je lek</div><div>dolazi tiho vek</div><div>ostani jos malo tu</div>';
+        ed.dispatchEvent(new InputEvent('input', { bubbles: true }));
+      });
+      await pauza(1200);   // bojenje ima zadršku od 500 ms
+      const m1 = await p26.evaluate(() => ({
+        obojenih: document.querySelectorAll('#noteEditor .rhyme-word').length,
+        tekst: document.getElementById('noteInput').value,
+      }));
+      ok('M1 · mobilna struktura redova: „lek“ i „vek“ su obojeni', m1.obojenih === 2,
+         `obojeno ${m1.obojenih} reči`);
+      ok('M1 · redovi se ne lepe u jedan (\\n se čuva)', m1.tekst.split('\n').length === 4,
+         `viđeno kao ${JSON.stringify(m1.tekst.slice(0, 40))}`);
+
+      // M2: gutter ne jede ekran (bio 62 px fiksno = 16–20% širine)
+      const m2 = await p26.evaluate(() => ({
+        gutter: Math.round(document.getElementById('noteGutter').getBoundingClientRect().width),
+        editor: Math.round(document.getElementById('noteEditor').getBoundingClientRect().width),
+        ekran: window.innerWidth,
+      }));
+      ok('M2 · gutter je uži od 50 px na 390 px ekranu', m2.gutter > 0 && m2.gutter < 50,
+         `gutter ${m2.gutter} px`);
+      ok('M2 · za pisanje ostaje bar 60% ekrana', m2.editor > m2.ekran * 0.6,
+         `editor ${m2.editor} od ${m2.ekran} px`);
+
+      // M3: editor je IZNAD pregiba (bio y=713 na ekranu 664)
+      await p26.evaluate(() => window.scrollTo(0, 0));
+      await pauza(300);
+      const m3 = await p26.evaluate(() => ({
+        y: Math.round(document.getElementById('noteEditor').getBoundingClientRect().y),
+        visina: window.innerHeight,
+      }));
+      ok('M3 · editor se vidi bez skrolanja na telefonu (podstrana)', m3.y < m3.visina,
+         `editor na y=${m3.y}, ekran ${m3.visina} px`);
+
+      // M3 na početnoj — tu je nalaz i izmeren (y=713): početna ima hero i tabove
+      const ctx26h = await browser.newContext({ viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true });
+      const p26h = ojacajStranu(await ctx26h.newPage());
+      await p26h.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(1800);
+      await p26h.click('[data-tab="beleznica"]');
+      await pauza(600);
+      const m3h = await p26h.evaluate(() => ({
+        y: Math.round(document.getElementById('noteEditor').getBoundingClientRect().y),
+        visina: window.innerHeight,
+      }));
+      ok('M3 · editor se vidi bez skrolanja na telefonu (početna)', m3h.y < m3h.visina,
+         `editor na y=${m3h.y}, ekran ${m3h.visina} px`);
+      await ctx26h.close();
+
+      // M4: ništa ne širi stranicu preko ekrana; traka tabova ima znak da se pomera
+      const m4 = await p26.evaluate(() => {
+        const cs = getComputedStyle(document.getElementById('tabs'));
+        return { doc: document.documentElement.scrollWidth, ekran: window.innerWidth,
+                 maska: (cs.maskImage && cs.maskImage !== 'none') || (cs.webkitMaskImage && cs.webkitMaskImage !== 'none') };
+      });
+      ok('M4 · stranica se ne širi preko ekrana na telefonu', m4.doc <= m4.ekran,
+         `dokument ${m4.doc} px, ekran ${m4.ekran} px`);
+      ok('M4 · traka tabova pokazuje da ima još stavki (maska)', m4.maska === true);
+
+      // A4: pesma se čuva i u istoriju verzija; spašava se i kad glavni ključ nestane
+      const a4a = await p26.evaluate(() =>
+        JSON.parse(localStorage.getItem('rimoteka_notes_istorija') || '[]').length);
+      ok('A4 · istorija verzija pesme se piše', a4a >= 1, `unosa: ${a4a}`);
+      await p26.evaluate(() => localStorage.removeItem('rimoteka_notes'));
+      await p26.reload({ waitUntil: 'domcontentloaded' });
+      await pauza(1800);
+      const a4b = await p26.evaluate(() => document.getElementById('noteEditor').innerText);
+      ok('A4 · pesma se vraća iz istorije kad glavni zapis nestane',
+         a4b.startsWith('Voli me kao nekad'), `u editoru: ${JSON.stringify(a4b.slice(0, 24))}`);
+      await ctx26.close();
+
+      // A4: kad skladište ne radi (privatni režim), korisnik to ZNA pre prve strofe
+      const ctx26b = await browser.newContext({ viewport: { width: 390, height: 664 } });
+      await ctx26b.addInitScript(() => {
+        const blokirano = { getItem(){ throw new DOMException('x'); }, setItem(){ throw new DOMException('x'); }, removeItem(){ throw new DOMException('x'); } };
+        Object.defineProperty(window, 'localStorage', { get(){ return blokirano; } });
+      });
+      const p26b = ojacajStranu(await ctx26b.newPage());
+      await p26b.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+      await pauza(1500);
+      const a4c = await p26b.evaluate(() => {
+        const w = document.getElementById('noteStorageWarn');
+        return w && !w.hidden;
+      });
+      ok('A4 · upozorenje „čuvanje ne radi“ je vidljivo kad je skladište blokirano', a4c === true);
+      await ctx26b.close();
+
+      // Straža za desktop: mobilne izmene NE SMEJU da se vide na širokom ekranu
+      const ctx26c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const p26c = ojacajStranu(await ctx26c.newPage());
+      await p26c.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(1800);
+      await p26c.click('[data-tab="beleznica"]');
+      await pauza(500);
+      const dk = await p26c.evaluate(() => {
+        const hintTxt = document.querySelector('#panel-beleznica .hint .hint-txt');
+        const hero = document.querySelector('.hero');
+        const gutter = document.getElementById('noteGutter');
+        return {
+          hero: hero ? getComputedStyle(hero).display !== 'none' : false,
+          // starog spana nema → proza je po defaultu vidljiva (stari markup)
+          proza: hintTxt ? getComputedStyle(hintTxt).display !== 'none' : true,
+          gutter: gutter ? Math.round(gutter.getBoundingClientRect().width) : 0,
+        };
+      });
+      ok('desktop · hero ostaje vidljiv i van taba Rime', dk.hero === true);
+      ok('desktop · objašnjenje u pasusu beležnice ostaje', dk.proza === true);
+      ok('desktop · gutter ostaje širok (4,4 rem)', dk.gutter > 60, `gutter ${dk.gutter} px`);
+      await ctx26c.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

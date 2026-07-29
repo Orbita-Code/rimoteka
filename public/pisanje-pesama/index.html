@@ -30,7 +30,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260729g">
+<link rel="stylesheet" href="/style.css?v=20260729h">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -141,7 +141,8 @@
     <div id="rimeResults"></div>
   </div>
   <div class="landing-tool">
-    <p class="hint">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni da je ubaciš u stih. <button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button> <button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></p>
+    <p class="hint hint-actions"><span class="hint-txt">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni da je ubaciš u stih. </span><button id="clearNotes" class="link-btn">obriši sve</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button> <button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></p>
+    <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) — pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
     <div class="notepad-layout">
       <div class="notepad-main">
         <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
@@ -151,7 +152,7 @@
           <textarea id="noteInput" style="display:none" aria-hidden="true"></textarea>
         </div>
         <p class="notepad-legend">
-          <span><b class="lg-drag">⠿</b> prevuci da premestiš stih</span>
+          <span class="lg-item-drag"><b class="lg-drag">⠿</b> prevuci da premestiš stih</span>
           <span><b class="lg-letter">A</b> šema rime — isto slovo, ista rima</span>
           <span><b class="lg-num">7</b> slogova u stihu</span>
           <span><b class="lg-word">reč</b> obojene reči se rimuju</span>
@@ -194,6 +195,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=20260729g"></script>
+<script src="/app.js?v=20260729h"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@ Nalazi glagole u reci.txt koji stoje skoro sami (krnja paradigma) i predlaže
 oblike koji fale. NIŠTA NE UPISUJE u rečnik — pravi samo izveštaj za pregled.
 
 Pokretanje:  python3 build/analiza_krnjih_glagola.py
-Izlaz:       RECNIK-PREDLOG.md  (za čitanje)  +  build/predlog_oblika.tsv (za upis kasnije)
+Izlaz:       docs/recnik/RECNIK-PREDLOG.md  (za čitanje)  +  build/predlog_oblika.tsv (za upis kasnije)
 """
 import os, json
 from collections import defaultdict
@@ -182,11 +182,11 @@ for sig in ('visoka', 'proveri'):
             md.append(f"- **{inf}**{o}")
             md.append(f"  - predlog: {', '.join(novi)}")
 
-open(os.path.join(ROOT, 'RECNIK-PREDLOG.md'), 'w', encoding='utf-8').write("\n".join(md) + "\n")
+open(os.path.join(ROOT, 'docs/recnik/RECNIK-PREDLOG.md'), 'w', encoding='utf-8').write("\n".join(md) + "\n")
 print(f"kandidata (-ati/-iti/-eti/-uti): {len(kandidati)}")
 print(f"odbačeno kao NE-glagoli:         {odbaceno}")
 print(f"pravih glagola:                  {len(infinitivi)}")
 print(f"krnjih glagola:      {len(krnji)}")
 print(f"predloženih oblika:  {ukupno_novih}")
-print("izveštaj:            RECNIK-PREDLOG.md")
+print("izveštaj:            docs/recnik/RECNIK-PREDLOG.md")
 print("za upis kasnije:     build/predlog_oblika.tsv")

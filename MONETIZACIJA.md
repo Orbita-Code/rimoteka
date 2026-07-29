@@ -40,7 +40,7 @@ saobraćaju donosi malo novca, a troši poverenje koje je jedini kapital koji sa
 ## 1. Šta VEĆ postoji — ne graditi ispočetka
 
 > Ovo je lako zaboraviti: **Rimoteka Pro je već napravljena i testirana, samo nije
-> uključena.** Detalji u `STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md`, kod na grani
+> uključena.** Detalji u `docs/STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md`, kod na grani
 > `feat/stripe-pro`.
 
 | Deo | Stanje |
@@ -58,7 +58,7 @@ saobraćaju donosi malo novca, a troši poverenje koje je jedini kapital koji sa
 **Najavljene a nenapravljene:** napredna analiza stiha, čuvanje pesama u oblaku,
 izvoz u PDF/DOCX.
 
-**Osam otvorenih odluka (A–H)** čeka u `STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md` — baza
+**Osam otvorenih odluka (A–H)** čeka u `docs/STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md` — baza
 podataka, slanje mejla, identifikacija korisnika, `automatic_tax`, Checkout vs
 Managed Payments, prikaz nenapravljenih funkcija, gde se izvršava backend,
 statement descriptor.

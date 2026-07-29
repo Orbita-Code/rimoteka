@@ -5,6 +5,106 @@
 ---
 
 
+# Sesija 29. jul 2026 (šesta, kasno uveče) — MOBILNA VERZIJA (M1–M4) + čišćenje projekta
+
+> **Lokalno sve gotovo, čeka odobrenje za push.** Test lokalno: **353/353**
+> (bilo 344 → 9 novih provera, sekcija 26). Provera protiv produkcije: sekcija 26
+> je tamo **pala dok je stari kod** — time je dokazano da provere hvataju kvar.
+> U sesiji je urađen i **pun pregled projekta** (kod, dokumentacija, bezbednost)
+> na zahtev vlasnice, pa čišćenje viškova.
+
+## 1. Stanje na kraju
+
+| Stavka | Vrednost |
+|---|---|
+| `main` | zatečen čist (`c03195d43`); izmene su lokalne, **nepushovano** |
+| `?v=` | `20260729h` u `index.html`, `gen_pages.py`, `404.html` (bilo `g`) |
+| Test lokalno | **353/353** |
+| Test protiv produkcije | sekcija 26 **pada dok je stari kod** (dokaz validnosti provera) |
+| Otvorenih nalaza | **3** (P10, P11 — odloženi; N12 — Coolify); M1–M4 zatvoreni, čekaju push |
+
+## 2. Šta je urađeno — mobilna verzija (najviši prioritet)
+
+Sve je **izmereno** pre i posle, u iPhone-kontekstu (390×664), uz dodir. Podstrane
+(`/pisanje-pesama/`) imaju drugačiju strukturu od početne (landing format, bez
+`#panel-beleznica`) — obe su proverene.
+
+| # | Bilo (izmereno) | Uzrok | Sada (izmereno) | Fajl |
+|---|---|---|---|---|
+| **M1** | 0 obojenih reči na 1440/768/390 px | mobilni Chrome/Safari na Enter prave **`<div>` po redu**, a `getEditorText()` je poznavao samo `<br>` → redovi se lepe u jedan („…nekadu tvom…") i **pesma se kvari u localStorage** | blokovi (`<div>`, `<p>`) su prelom reda; prazan red (`<div><br></div>`) se ne duplira. 2 obojene reči i sa `<br>` i sa `<div>` strukturom; ćirilica radi; prazni redovi se čuvaju | `app.js` (`getEditorText`) |
+| — | zastarele boje kad grupa rima pukne brisanjem | re-render samo kad `colorMap.size > 0` | re-render i kad obojenih spanova više nema | `app.js` (`scheduleEditorUpdate`) |
+| **M2** | editor počinje na x=80, gutter fiksnih 62 px (20% ekrana), za pisanje 292 px | `.gutter{flex:0 0 4.4rem}` bez mobilne varijante | gutter 2,8 rem (45 px) na ≤560 px; hvataljka se krije samo na dodiru. Početna: x=63, 309 px; podstrana: x=76, 284 px | `style.css` |
+| **M3** | editor na y=713, ekran 664 px (ispod pregiba) | hero na svim tabovima + proza od 216 px + 7 akcija u 3 reda | hero se na telefonu vidi samo na tabu Rime (u DOM-u ostaje); proza skraćena; 7 akcija u 1 redu koji se pomera. Editor: **y=404** (početna), **y=326** (podstrana) | `style.css`, `index.html` |
+| **M4** | traka tabova beži do 248 px van ekrana bez znaka da se pomera | nema indikatora | maska na desnoj ivici („ima još"), sklanja se kad se dopomera do kraja (`osveziMaskuTabova`) | `style.css`, `app.js` |
+
+### 2.1 Lekcija koja je koštala jedan krak puta: `contain:inline-size`
+
+Skrolujući red akcija (`display:flex; overflow-x:auto; white-space:nowrap`) je na
+mobilnom Chrome-u **raširio celu stranicu na 822 px** — pregledač je „odzumirao"
+da stane sadržaj. Ni `overflow-x:auto`, ni `max-width:100%` to ne zaustavljaju:
+roditelj dobije širinu sadržaja, pa je i „100%" pogrešna mera. Rešenje:
+**`contain:inline-size`** na skrolujućem kontejneru. Bisekcija je dokazana
+četiri varijante (bez pravila / overflow hidden / contain) — pravilo 35 u
+`AUDIT/PROPUSTI.md`.
+
+### 2.2 „Nikad ne izgubi pesmu" (A4 iz TODO.md — odobreno kao popravka)
+
+Izgubljen tekst je najbolnija pritužba ovog tržišta, a beležnica je već jednom
+pokvarena (M1 je lepio redove). Tri stvari:
+1. **Istorija poslednje 3 verzije** pesme (`rimoteka_notes_istorija`, najviše
+   jedna na 30 s — inače bi svako slovo punilo istoriju).
+2. **Spas**: ako glavni ključ nestane/pokvari se, pesma se vraća iz istorije.
+3. **Vidljivo upozorenje** (`#noteStorageWarn`) kad skladište ne radi (privatni
+   režim) — korisnik to zna PRE prve strofe. Nije toast koji nestane.
+
+## 3. Pregled projekta (na zahtev vlasnice) — najkraće
+
+Pun pregled koda, dokumentacije i bezbednosti. Verdikt: **kod bolji od proseka,
+repo i mobilni sloj su bili slabija tačka.** Kritičnih bezbednosnih nalaza nema
+(CSP bez `unsafe-inline` za skripte, escape disciplina, nula tajni u repou,
+`npm audit` čist, webhook sa potpisom i idempotencijom). Srednje: GA bez
+pristanka (GDPR), HSTS (Traefik/Coolify), sitni hardening.
+
+## 4. Čišćenje (odobrila vlasnica)
+
+- **Pokvareni git refovi** `main 2`/`main 3` + 12 iCloud konflikt-kopija
+  `.git/index N` — premešteni u `~/Desktop/rimoteka-ciscenje-29.07.2026/`
+  (ništa se ne briše). `git rev-list --all` ponovo radi (pre: `fatal: bad object`).
+- **Mrtvi fajlovi** `build/del_ambig.py` (čitao nepostojeći `/tmp/ambig.json`),
+  `build/predlog_oblika.tsv`, `build/predlog_srednji_rod.tsv` (write-only),
+  `hub-rime-za.png`, `.playwright-mcp/` sadržaj — premešteni u isti folder.
+- **Mrtav CSS** (8 klasa, provereno da se ne pojavljuju ni u jednom HTML/JS/Py):
+  `.big-text`, `.chcount`, `.fav-item`, `.syllable-count`, `.notepad-actions`,
+  `.pro-price`, `.adsbygoogle`, `.adsense-placeholder`.
+- **Duplikat** `renderCombo(); renderCombo();` (artefakt spajanja grana) — jedan poziv.
+- **`.DS_Store`** iz `public/` (išao je u produkciju kroz Docker `COPY public/`).
+- **Docs u `docs/`**: `CREATOR-NEEDS.md`, `MEMORY.md`, `STRIPE-BRIEF-…`,
+  `docs/recnik/` (3 generisana izveštaja). Reference ažurirane u 7 fajlova.
+- **HANDOVER.md je imao NUL bajt** (sentry `\u0000` upisan kao sirovi bajt) —
+  zamenjen čitljivim `\u0000`; fajl je ponovo čitljiv kao tekst.
+
+## 5. Šta NIJE dirano (svesno)
+
+- **Pro kod** (backend + ~190 linija JS + modal): čeka odluku o monetizaciji.
+  Provereno: NE pravi mrežni zahtev pri učitavanju (`/api/status` je iza
+  `if (proToggle)` garde, a dugme je zakomentarisano).
+- **Logo** (pravilo 8a), **desktop** (regresija proverena na 1440/768/1280:
+  hero, proza, gutter 70 px, bez maske — sve kao pre).
+- **15 mergovanih grana** — brisanje je git-mutacija, čeka izričito odobrenje.
+
+## 6. Za push (čeka odobrenje vlasnice)
+
+Vidljive promene za pregled:
+1. Beležnica na telefonu: bojenje rima radi, gutter uži, editor odmah vidljiv,
+   akcije u jednom redu koji se pomera, legenda bez „prevuci" stavke na dodiru.
+2. Hero (naslov+opis) se na telefonu vidi samo na tabu Rime.
+3. Traka tabova ima blagu senku na desnoj ivici (znak da se pomera).
+4. Novo upozorenje u beležnici ako skladište ne radi (vidi se samo u privatnom režimu).
+5. Ništa od ovoga se ne vidi na desktopu/tabletu (>560 px).
+
+---
+
+
 # Sesija 29. jul 2026 (peta) — ŠEST PRIJAVA VLASNICE, jedan pad sajta, sve deployovano
 
 > **SVE JE NA PRODUKCIJI.** Test protiv produkcije: **344/344**.
@@ -199,7 +299,7 @@ sesija ga samo `grep`-uje.
 
 1. **Svaka `git` komanda ide sa `--no-pager`** (ili `| cat`) čak i uz `GIT_PAGER`.
    Pojas i tregeri — pravilo 28.
-2. **Ne čitati velike fajlove.** `definicije.json` je 19,7 MB, `RECNIK-PREDLOG.md`
+2. **Ne čitati velike fajlove.** `definicije.json` je 19,7 MB, `docs/recnik/RECNIK-PREDLOG.md`
    242 KB. Ide `grep` sa brojevima linija, pa `Read` sa `offset`/`limit`.
 3. **Dugačke poslove puštati u pozadini** i raditi nešto drugo dok traju. Test od
    6–8 minuta ne sme da bude 8 minuta ćutanja — ova sesija je u tom vremenu pisala
@@ -791,7 +891,7 @@ tamni režim ne postoji na podstranama.
   Srbija 24 · Španija 7. Rast +58% nedeljno. Oko **150 korisnika mesečno** — premalo
   za reklame, dovoljno da se vidi da alat živi.
 - **Rimoteka Pro je već napravljena** (backend + frontend), samo nije deployovana;
-  Pro dugme zakomentarisano u `index.html:104`. Detalji: `STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md`.
+  Pro dugme zakomentarisano u `index.html:104`. Detalji: `docs/STRIPE-BRIEF-ZA-DRUGO-MISLJENJE.md`.
 - **Strane reči su potpuno server-renderovane** — presudno jer GPTBot i ClaudeBot ne
   izvršavaju JavaScript. Uz mali jezik, to je najveća prilika za citiranje u AI odgovorima.
 
@@ -950,7 +1050,7 @@ i dalje virile. Zato prelamanje, ne šira kolona.
   `gen_pages.py`. Red „Namene" je proširen sa 6 na 12 linkova — u oba fajla.
 - **`app.js` sada ide na SVAKU tematsku stranu**, i kad na njoj nema alata —
   bez njega prekidač za pismo ne bi radio.
-- **Oznaka za skraćenice u `convertTextNodes` mora biti ` `**, ne broj —
+- **Oznaka za skraćenice u `convertTextNodes` mora biti `\u0000`**, ne broj —
   sa običnim brojem bi „ima 3 sloga" bilo prepoznato kao oznaka i tekst bi se
   pokvario.
 
@@ -1312,7 +1412,7 @@ reči koje su samo češće u hrvatskom veb tekstu.
 
 ## 8. ČEKA ODLUKU VLASNICE
 
-1. **`RECNIK-NOVE-RECI.md`** — 5.459 reči iz Rečnika Matice srpske kojih nemamo:
+1. **`docs/recnik/RECNIK-NOVE-RECI.md`** — 5.459 reči iz Rečnika Matice srpske kojih nemamo:
    - **A1 preporučene (1.140)** — u dva izvora, nisu označene kao hrvatske
    - A2 označene kao hrvatske (135) — proveriti, ima grešaka
    - B samo u Rečniku MS (4.184) — nisu proverene ni na hrvatsko
@@ -1321,8 +1421,8 @@ reči koje su samo češće u hrvatskom veb tekstu.
 3. **Presuda o pokrajinskom i zastarelom** — nijedan izvor koji imamo to ne zna
 
 ### Zamrznuto
-- `RECNIK-PREDLOG.md` — 13.827 oblika za glagole
-- `RECNIK-PREDLOG-SREDNJI-ROD.md` — 1.058 padeža za imenice srednjeg roda
+- `docs/recnik/RECNIK-PREDLOG.md` — 13.827 oblika za glagole
+- `docs/recnik/RECNIK-PREDLOG-SREDNJI-ROD.md` — 1.058 padeža za imenice srednjeg roda
 
 Zamrznuto na zahtev vlasnice: nema smisla dopunjavati rečnik dok se ne zna šta
 u njemu već ne valja. Vidi `TODO-RECNIK.md`.
@@ -1358,7 +1458,7 @@ okruženja.
 
 1. **Postaviti ispravan `frekvencija.json`** — jedina merljiva greška koja
    *sada* kvari sajt; 110.931 reč je rangirana po pogrešnom broju
-2. **Pregled grupe A1** iz `RECNIK-NOVE-RECI.md` — 1.140 reči, najveći dobitak
+2. **Pregled grupe A1** iz `docs/recnik/RECNIK-NOVE-RECI.md` — 1.140 reči, najveći dobitak
    uz najmanji rizik
 3. **Izdići definicije** u rezultatima, kao što su izdignuti sinonimi — 282.900
    objašnjenja se vidi samo klikom na sitnu ikonicu, a to je prednost koju

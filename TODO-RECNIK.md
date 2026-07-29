@@ -126,7 +126,7 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 
 ## Zamrznuto do završetka provere
 
-- Predlog padeža za imenice srednjeg roda (`RECNIK-PREDLOG-SREDNJI-ROD.md`)
-- Predlog oblika za glagole (`RECNIK-PREDLOG.md`)
+- Predlog padeža za imenice srednjeg roda (`docs/recnik/RECNIK-PREDLOG-SREDNJI-ROD.md`)
+- Predlog oblika za glagole (`docs/recnik/RECNIK-PREDLOG.md`)
 
 Nema smisla dopunjavati rečnik dok se ne zna šta u njemu već ne valja.

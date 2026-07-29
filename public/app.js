@@ -122,9 +122,23 @@ function lsJSON(k, podrazumevano){
  *  · imamo svoje nesačuvane izmene  → NE gazimo ništa, nego javimo korisniku
  * ==================================================== */
 let poslednjaSacuvanaBeleska = null;   // šta je OVAJ tab poslednji put upisao
+/* „Nikad ne izgubi pesmu" — izgubljen tekst je najbolnija pritužba svih alata
+   za pisanje, a naša beležnica je već jednom pokvarena logikom (redovi slepljeni
+   u jedan — nalaz M1). Zato pored glavnog ključa čuvamo i poslednje TRI verzije
+   pesme: najviše jedna na 30 sekundi, da svako slovo ne puni istoriju. */
 function sacuvajBelesku(text){
   poslednjaSacuvanaBeleska = text;
   lsSet('rimoteka_notes', text);
+  if(!text.trim()) return;
+  try {
+    const ist = lsJSON('rimoteka_notes_istorija', []).filter(x => x && typeof x.tekst === 'string');
+    const sad = Date.now();
+    const posl = ist[ist.length - 1];
+    if(posl && posl.tekst === text) return;
+    if(posl && sad - (posl.vreme || 0) < 30000) ist[ist.length - 1] = { vreme: sad, tekst: text };
+    else { ist.push({ vreme: sad, tekst: text }); if(ist.length > 3) ist.shift(); }
+    lsSet('rimoteka_notes_istorija', JSON.stringify(ist));
+  } catch(e){}
 }
 function sacuvajOmiljene(){
   lsSet('rimoteka_favorites', JSON.stringify(favorites));
@@ -1033,7 +1047,29 @@ function lenientRhymeKey(w){
 }
 
 // Inicijalizacija — učitaj tekst iz localStorage i oboji rime
-const savedText = lsGet('rimoteka_notes') || '';
+// Ako glavni zapis nedostaje ili je prazan, a istorija ima verziju — vratimo
+// najnoviju (spas posle pokvarenog upisa ili obrisanog ključa; prazan editor je
+// uvek gori izbor od vraćene pesme).
+let savedText = lsGet('rimoteka_notes') || '';
+if(!savedText.trim()){
+  const ist = lsJSON('rimoteka_notes_istorija', []);
+  const spas = [...ist].reverse().find(x => x && typeof x.tekst === 'string' && x.tekst.trim());
+  if(spas) savedText = spas.tekst;
+}
+// Ako lokalna memorija ne radi (privatni režim, blokirano skladište), pesma se
+// NEĆE sačuvati — korisnik mora to da zna PRE nego što napiše strofu.
+(function(){
+  let radi = true;
+  try {
+    localStorage.setItem('rimoteka_provera', '1');
+    radi = localStorage.getItem('rimoteka_provera') === '1';
+    localStorage.removeItem('rimoteka_provera');
+  } catch(e){ radi = false; }
+  if(!radi){
+    const w = el('noteStorageWarn');
+    if(w && !w.__noop) w.hidden = false;
+  }
+})();
 noteInput.value = savedText;
 if(savedText.trim()){
   const { colorMap } = analyzeRhymes(savedText);
@@ -1049,14 +1085,30 @@ if(savedText.trim()){
 // Dobij plain text iz contenteditable div-a
 // Deterministička serijalizacija: innerText gubi <br> na kraju (Chrome quirk),
 // pa bi re-render "pojeo" prelom reda — zato sami hodamo po DOM-u.
+// Blokovi (<div>, <p>) SU prelomi reda: mobilni Chrome/Safari na Enter prave
+// <div> po redu, ne <br>. Bez ovoga se na telefonu redovi slepe u jedan
+// ("…nekadu tvom…") — mrtvo bojenje rima (nalaz M1), ali i pokvarena pesma u
+// localStorage, brojač slogova i statistika: svi čitaju ovu funkciju.
 function getEditorText(){
   let out = '';
+  const blok = (el) => el.nodeName === 'DIV' || el.nodeName === 'P';
   const walk = (node) => {
     node.childNodes.forEach(child => {
       if(child.nodeType === Node.TEXT_NODE) out += child.data;
       else if(child.nodeName === 'BR'){
-        // pomoćni <br> za kursor (iOS fix) nije deo teksta
-        if(!child.classList.contains('cursor-br')) out += '\n';
+        // pomoćni <br> za kursor (iOS fix) nije deo teksta; <br> koji je jedini
+        // sadržaj bloka je prazan red — prelom mu dodaje sam blok (bez dvostrukog)
+        if(child.classList.contains('cursor-br')) return;
+        if(blok(child.parentNode) && child.parentNode.childNodes.length === 1) return;
+        out += '\n';
+      }
+      else if(blok(child)){
+        // Svaki blok je NOVI RED — bezuslovno. Uslov „samo ako prethodni ne
+        // završava na \n" proguta prazan red: `a<div><br></div><div>b</div>`
+        // je "a\n\nb" (tri reda), ne "a\nb" (dva). <br> jedinac u bloku je samo
+        // vidljivost praznog reda, pa mu se prelom ne računa dvaput (v. gore).
+        if(out !== '') out += '\n';
+        walk(child);
       }
       else walk(child);
     });
@@ -1288,9 +1340,10 @@ function scheduleEditorUpdate(){
   editorColorTimer = setTimeout(() => {
     const pos = saveCursorPosition();
     const text = getEditorText();
-    // renderuj sa bojama samo ako ima rimskih grupa
+    // renderuj kad ima rimskih grupa — ili kad grupe VIŠE nema, a stari obojeni
+    // spanovi su ostali u editoru (brisanjem reči grupa pukne, boja bi zastala)
     const { colorMap } = analyzeRhymes(text);
-    if(colorMap.size > 0){
+    if(colorMap.size > 0 || noteEditor.querySelector('.rhyme-word')){
       noteEditor.innerHTML = renderColoredText(text);
       restoreCursorPosition(pos);
     }
@@ -2396,6 +2449,23 @@ function dovediAktivanTabUVid(){
   if(!traka || !akt || traka.scrollWidth <= traka.clientWidth) return;
   const cilj = akt.offsetLeft - (traka.clientWidth - akt.offsetWidth) / 2;
   traka.scrollLeft = Math.max(0, cilj);
+}
+
+/* M4: traka tabova je na telefonu duža od ekrana (na 390 px beži i preko
+   600 px), a bez znaka da se pomera deluje odsečeno — „nalaz: tri elementa
+   izlaze van ekrana". CSS maska na desnoj ivici kaže „ima još"; ovde se
+   prati pomераnje i maska se sklanja kad se stigne do kraja, da poslednja
+   stavka ne ostane izbledena. */
+const trakaTabova = document.getElementById('tabs');
+function osveziMaskuTabova(){
+  if(!trakaTabova) return;
+  const doKraja = trakaTabova.scrollLeft + trakaTabova.clientWidth >= trakaTabova.scrollWidth - 4;
+  trakaTabova.classList.toggle('tabs-do-kraja', doKraja);
+}
+if(trakaTabova){
+  trakaTabova.addEventListener('scroll', osveziMaskuTabova, {passive:true});
+  window.addEventListener('resize', osveziMaskuTabova);
+  osveziMaskuTabova();
 }
 
 function switchTab(name){
@@ -3588,7 +3658,6 @@ function nextWord(){
     gameCurrentWordIdx = 0;
     gameCombo = 0;
     renderCombo();
-  renderCombo();
     if(gameCurrentPlayerIdx >= gamePlayers){
       showResults();
       return;

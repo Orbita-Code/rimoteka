@@ -2455,6 +2455,95 @@ async function main() {
       await ctx21.close();
     }
 
+    console.log('\n22) OSVEŽAVANJE VRAĆA NA VRH STRANE, A „NAZAD" I DALJE PAMTI POLOŽAJ');
+    /* Prijava vlasnice 29.07.2026: „ako sam na dnu strane, na futeru, i uradim
+       refresh — ostanem na futeru." Alat se osvežavanjem resetuje (polje prazno,
+       rime nestanu), pa čovek gleda dno prazne strane, bez logotipa i bez polja.
+       Izmereno na produkciji pre popravke: /rime-za/ljubav/ 1999,5 px → 1999,5 px.
+
+       Dve provere, i obe su potrebne:
+       · osvežavanje mora da vrati na 0;
+       · „Nazad" NE SME da izgubi položaj — na hubu `/rime-za/` ima 1.988 linkova
+         i ko se vrati sa jedne reči mora da nastavi odakle je stao. Popravka
+         zato pali `scrollRestoration='manual'` samo za osvežavanje i vraća ga
+         na `auto` posle učitavanja.
+       Merenje ide 2× po strani, sa čekanjem, jer strana posle učitavanja PORASTE
+       (rime se vrate) — a baš tada pregledač pokušava da vrati stari položaj. */
+    {
+      const p22 = ojacajStranu(await browser.newPage());
+
+      for (const [put, opis] of [['/rime-za/ljubav/', 'strana reči'], ['/?rec=ljubav', 'početna sa rimama']]) {
+        await p22.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+        if (put.startsWith('/?')) {
+          await p22.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+          await pauza(2000);
+        }
+        const pre = await p22.evaluate(async () => {
+          const w = ms => new Promise(r => setTimeout(r, ms));
+          window.scrollTo(0, document.body.scrollHeight);
+          await w(800);
+          return window.scrollY;
+        });
+        ok(`${opis} · dno strane je stvarno dno (priprema)`, pre > 500, `${pre} px`);
+
+        await p22.reload({ waitUntil: 'domcontentloaded' });
+        await pauza(put.startsWith('/?') ? 9000 : 3000);   // strana u međuvremenu poraste
+        const posle = await p22.evaluate(() => window.scrollY);
+        ok(`${opis} · osvežavanje vraća na vrh`, posle === 0, `bilo ${pre} px, posle osvežavanja ${posle} px`);
+        ok(`${opis} · pamćenje položaja vraćeno pregledaču`,
+           await p22.evaluate(() => history.scrollRestoration === 'auto'),
+           await p22.evaluate(() => history.scrollRestoration));
+      }
+
+      // „Nazad" sa strane reči na hub — položaj mora da ostane
+      await p22.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
+      await p22.evaluate(() => window.scrollTo(0, 4000));
+      await pauza(900);
+      await p22.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+      await pauza(600);
+      await p22.goBack({ waitUntil: 'domcontentloaded' });
+      await pauza(2500);
+      const nazad = await p22.evaluate(() => window.scrollY);
+      ok('„Nazad" na hub ne gubi položaj (1.988 linkova)', nazad > 1000, `${nazad} px umesto ~4000`);
+
+      await p22.close();
+    }
+
+    console.log('\n23) ČIPOVI U PASUSU STOJE U REDU, NE JEDAN ISPOD DRUGOG');
+    /* Prijava vlasnice 29.07.2026, sa slikom: na `/rimovanje-reci/` je spisak
+       najtraženijih reči bio izlistan jedna reč ispod druge, preko cele širine.
+       Uzrok: 28.07. u `b3bd730b2` je `.chip` prebačen sa `inline-flex` na `flex`
+       (uz popravku ikonica). `flex` je BLOK, pa čip u pasusu zauzme ceo red.
+       Nijedna sesija to nije videla jer je test gledao samo čipove unutar
+       `.results` — tamo razlike nema, flex kontejner ionako blokira svoje
+       stavke. Zato se ovde meri baš ono što je bilo pokvareno: koliko redova
+       zauzimaju čipovi UNUTAR pasusa i koliko je čip širok u odnosu na pasus.
+       Dve strane imaju takve čipove — obe se proveravaju. */
+    {
+      const p23 = ojacajStranu(await browser.newPage());
+      await p23.setViewportSize({ width: 1440, height: 1000 });
+      for (const put of ['/rimovanje-reci/', '/rime-za-decu/']) {
+        await p23.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+        const m = await p23.evaluate(() => {
+          const c = [...document.querySelectorAll('.landing-lead .chip')];
+          if (!c.length) return null;
+          const redovi = new Set(c.map(x => Math.round(x.getBoundingClientRect().top)));
+          const pasus = document.querySelector('.landing-lead').getBoundingClientRect().width;
+          const najsiri = Math.max(...c.map(x => x.getBoundingClientRect().width));
+          return { broj: c.length, redova: redovi.size, udeo: najsiri / pasus, display: getComputedStyle(c[0]).display };
+        });
+        ok(`${put} · čipovi u pasusu uopšte postoje`, m && m.broj >= 10, m ? `${m.broj}` : 'nema ih');
+        if (!m) continue;
+        // svaki čip u svom redu = pokvareno; u redu je kad ih u prosečnom redu ima bar 3
+        ok(`${put} · čipovi se ređaju u red, ne jedan ispod drugog`,
+           m.redova <= Math.ceil(m.broj / 3),
+           `${m.broj} čipova u ${m.redova} redova (display: ${m.display})`);
+        ok(`${put} · nijedan čip ne zauzima ceo red`,
+           m.udeo < 0.5, `najširi čip nosi ${(m.udeo * 100).toFixed(0)}% širine pasusa`);
+      }
+      await p23.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

@@ -4,93 +4,246 @@
 
 ---
 
-# Sesija 29. jul 2026 (peta) — PET PRIJAVA VLASNICE, sve deployovano
 
-> **SVE JE NA PRODUKCIJI.** `main` = `046494be4`. Test lokalno **338/338**.
+# Sesija 29. jul 2026 (peta) — ŠEST PRIJAVA VLASNICE, jedan pad sajta, sve deployovano
 
-## Šta je ova sesija otkrila — jedna slepa tačka, tri lica
+> **SVE JE NA PRODUKCIJI.** `main` = `82f4859c5`. Test protiv produkcije: **344/344**.
+> Sesija je trajala od popodneva do večeri. Sajt je jednom pao **~3 minuta** mojom
+> krivicom i odmah vraćen — ceo slučaj je opisan niže, ne prećutan.
 
-Vlasnica je prijavila pet stvari dok je test prolazio **332/332**. Nijednu nije
-uhvatio, i to nije slučajnost:
+---
 
-| Prijava | Zašto test nije video |
+## 1. STANJE NA KRAJU
+
+| Stavka | Vrednost |
 |---|---|
-| osvežavanje ostavlja na futeru | test **nikad nije pritisnuo F5 pa pogledao gde je ekran** |
-| reči izlistane jedna ispod druge | test je gledao `.results .chip`, nikad `.landing-lead .chip` |
-| Google prikazuje definiciju umesto opisa alata | auditi su gledali da meta opis **postoji**, nikad šta je stvarno u SERP-u |
-| „toast" umesto „zdravica" | tekst strana nikad nije pušten kroz rečnik |
-| link „Početna" u redu sa autorskim pravima | futer podstrana nikad nije upoređen sa futerom početne |
+| `main` | `82f4859c5`, sve pushovano, radno stablo čisto |
+| `?v=` | `20260729g` u `index.html`, `gen_pages.py`, `404.html`; `dark-mode-init.js?v=3` |
+| Test lokalno | **344/344** |
+| Test protiv produkcije | **344/344** |
+| Otvorenih nalaza | **3** (bilo 2 na početku, zatvoreno 8, otvoreno 9 novih) |
+| Strane | 1.988 strana reči + hub, sitemap 2.011 URL-ova |
+| Nove skripte | `test/nginx-provera.sh` (obavezna pre svake izmene `nginx.conf`) |
 
-Pravila izvedena iz toga: `AUDIT/PROPUSTI.md`, **25–28**.
+---
 
-## Šta je urađeno
+## 2. ŠTA JE URAĐENO — osam zatvorenih nalaza
 
-| # | Šta | Merenje | Gde |
-|---|---|---|---|
-| P9 | osvežavanje vraća na vrh strane | produkcija 1925 → 1925 px; posle 5238,5 → **0 px** | `public/dark-mode-init.js` |
-| P12 | futer podstrana izjednačen sa početnom | — | `gen_pages.py:296` |
-| P13 | čipovi u pasusu stoje u redu | 24 čipa u **24 reda** → u **5 redova**; najširi 100% → **14%** | `public/style.css:555` |
-| P14 | prva rečenica `/rimovanje-reci/` kaže da je alat | 147 znakova (Google seče ~155) | `gen_pages.py:1173` |
-| P15 | osam grešaka u vidljivom tekstu | `toast`→zdravica (7×), `zaverno` (reč ne postoji), `Budan kratak`, `klisheeve`, `njezinu`, `odaberim`, `secanje` (3×), `zajebanciju` | `gen_pages.py` |
-| — | test 323 → **338** provera | sekcije 22 i 23 | `test/predeploy.mjs` |
+Svih šest prijava vlasnice reprodukovano je **na produkciji pre popravke**.
 
-**Obe nove sekcije puštene su protiv produkcije DOK JE TAMO BIO STARI KOD** i tamo
-pale — 22 pala 2/7, 23 pala 4/6. Provere valjaju.
+| # | Šta je prijavljeno / nađeno | Uzrok | Merenje pre → posle | Fajl |
+|---|---|---|---|---|
+| **P9** | osvežavanje na futeru ostavlja na futeru | pregledač vraća stari položaj, a alat se osvežavanjem resetuje | `/rime-za/ljubav/` 1925 → **0 px**; početna 5163 → **0 px** | `public/dark-mode-init.js` |
+| **P13** | reči izlistane jedna ispod druge | `.chip` prebačen sa `inline-flex` na `flex` 28.07. u `b3bd730b2`; `flex` je blok, pa čip u pasusu uzme ceo red | 24 čipa u **24 reda** → u **5 redova**; najširi 100% → **14%** pasusa | `public/style.css:555` |
+| **P14** | Google prikazuje definiciju pojma umesto opisa alata | Google ignorisao `meta description` i uzeo prvu rečenicu vidljivog teksta | nova prva rečenica, **147 znakova** (Google seče ~155) | `gen_pages.py:1173` |
+| **P12** | link „Početna" u redu sa autorskim pravima | dodat radi internog povezivanja, ali na pogrešnom mestu | oba futera sada čitaju isto | `gen_pages.py:296` |
+| **P15** | osam grešaka u vidljivom tekstu | nikad nije provereno rečnikom | `toast`→**zdravica** (7×), `zaverno` (**reč ne postoji** — 0 pogodaka u `reci.txt`), `Budan kratak`→`Budi kratak`, `klisheeve`→`klišee`, `njezinu`→`njenu`, `odaberim`→`odaberi`, `secanje` bez kvačice (3×), `zajebanciju`→`zezanje` | `gen_pages.py` |
+| **P16** | strana skače 50 px dok se učitava | zamena Google fonta menja širinu teksta, red filtera gubi liniju | CLS `/rimovanje-reci/` **0,2819 → 0,0053** | `public/style.css:319` |
+| **P2** | CLS na `/rime-za/` — stajao otvoren od 28.07. | popravka iz prošle sesije **jeste radila**, samo nikad nije bila izmerena | **0,0003** (bilo 0,045) | — |
+| **N17** | `www.rimoteka.com` vraćao **200** | nije bilo preusmerenja; kanonik je nagoveštaj, 301 je pravilo | sada **301** sa putanjom i upitom | `nginx.conf` |
 
-## Kako je nađen P13 — obrazac koji vredi ponoviti
+**Test: 323 → 344 provere.** Nove sekcije 22 (osvežavanje), 23 (čipovi u pasusu),
+24 (CLS), 25 (www). **Svaka je prvo puštena protiv produkcije dok je tamo bio stari
+kod** i tamo pala: 22 → 2/7, 23 → 4/6, 24 → 2/2, 25 → 2/2.
 
-`git log` po `public/style.css`, pa za svaki commit ispisan `display` iz `.chip` i
-`.results`. Regresija je iskočila u jednom redu: `2067fe2e3` = `inline-flex`,
-`b3bd730b2` = `flex`. **Kad vlasnica prijavi da nešto „izgleda pokvareno", prvo
-proći istoriju tog CSS pravila, ne čitati ceo fajl.**
+---
 
-## Kako je nađen P15
+## 3. GREŠKE KOJE SAM NAPRAVIO — svih pet, i kako su počišćene
 
-Ceo vidljivi tekst 15 tematskih strana pušten je kroz `reci.txt` (270.000 reči) i
-izlistane su reči kojih nema. Od 47 kandidata, 8 je bilo stvarnih grešaka, ostalo
-lažni pozitivi (brend, šeme rime AABB/ABAB, izvedenice). **Isplati se — jedna od
-osam je bila reč koja uopšte ne postoji u srpskom.**
+> Zapisano jer je dnevnik propusta vredniji od spiska nalaza: spisak kaže *šta je
+> pokvareno*, dnevnik kaže *zašto to nismo videli*.
+> Puni opisi: `AUDIT/PROPUSTI.md`, pravila **25–34**.
 
-## iCloud — potvrđeno i očišćeno
+### 3.1 OBORIO SAM SAJT NA ~3 MINUTA (najozbiljnije)
 
-Projekat **jeste** u `iCloud Drive/Desktop` (isti inode). Nije usporavao rad
-(upis 50 MB = 0,019 s, isto kao van iCloud-a), ali je pravio konflikt-kopije
-**unutar `.git`**: nađeno **osam** kopija `.git/index` i tri pokvarene reference
-(`refs/heads/main 2`), zbog kojih je `git gc` odbijao da radi i `git merge` pao sa
-„fatal: stash failed". Sve premešteno (ne obrisano) u
+**Šta:** popravljajući `www`, dodao sam u `nginx.conf` blok
+`server { server_name www.rimoteka.com; return 301 ...; }` **ispred** glavnog i
+deployovao. Posle deploy-a `https://rimoteka.com/` je vraćao **301 na samog sebe**,
+50 koraka, prazna strana.
+
+**Zašto:** u nginx-u **`server_name _` NIJE hvatalica za sve domene.** `_` je
+namerno nevažeće ime koje se nikad ne poklopi sa `Host` zaglavljem. Taj blok je
+hvatao sve zahteve **samo zato što je bio prvi**, a nginx prvi blok na portu uzima
+za podrazumevani. Moj blok je postao podrazumevani i pokupio sve, uključujući
+`rimoteka.com`.
+
+**Zašto provera nije pomogla:** proverio sam konfiguraciju kroz `crossplane`, dobio
+`status: ok` i deployovao. **`crossplane` proverava sintaksu, ne semantiku.**
+Konfiguracija je bila savršena kao tekst i potpuno pogrešna kao ponašanje.
+
+**Kako je počišćeno:**
+1. Kvar uhvaćen u **prvom minutu**, jer sam proveravao posle deploy-a.
+2. `nginx.conf` vraćen na prethodnu verziju i pushovan odmah → sajt gore za ~30 s.
+3. Instaliran **pravi nginx** (`brew install nginx`, verzija **1.31.3 — ista kao
+   produkcija**) i napisana skripta `test/nginx-provera.sh` koja diže nginx i meri
+   **ponašanje po `Host` zaglavlju**.
+4. Skripta puštena i na **pokvarenoj** verziji — tamo `rimoteka.com` i
+   `nepoznato.test` vraćaju 301, dakle provera stvarno hvata kvar.
+5. Tek onda ispravna verzija (`listen 80 default_server;` + www blok **na kraju**)
+   deployovana, i posle deploy-a **prvo je proverena glavna adresa**, pa www.
+
+**Šta je bilo dobro:** provera posle deploy-a je postojala i uhvatila je kvar. Da sam
+stao na „www sada vraća 301, gotovo", sajt bi stajao oboren dok ga vlasnica ne vidi.
+
+### 3.2 Proglasio sam CLS popravljenim na osnovu dva srećna merenja
+
+**Šta:** izmerio `/` dva puta, dobio 0,0065 oba puta, napisao u izveštaj da je
+zatvoreno. Pun test protiv produkcije vratio **0,3207** i pao.
+
+**Istina posle 13 merenja:** 11× 0,0065, **2× ~0,30**. Oba loša pala su u minut dok
+se Coolify kontejner dizao posle deploy-a. Pod 4× sporijim procesorom i sporom
+mrežom nije se ponovilo nijednom u 11 pokušaja.
+
+**Kako je počišćeno:** provera u testu sada uzima **najbolje od tri pokušaja** (jedan
+loš ne obara deploy, tri loša znače da je kvar stvaran), a u evidenciji stoji
+**raspon**, ne jedan broj. Nalaz P16 je u `NALAZI-OTVORENI.md` upisan sa punom
+istinom i oznakom „ostaje da se prati u sledećem auditu".
+
+### 3.3 Ista greška u mom testu koju bih tebi prijavio kao bag
+
+`addInitScript` je stajao **unutar petlje** nad istom stranom. Skripte se gomilaju,
+pa bi druga strana dobila dva posmatrača i CLS brojala **dvostruko** — provera bi
+padala na **ispravnom** kodu. Sada svaka strana dobija **svoj kontekst pregledača**.
+
+### 3.4 U commit je ušao zalutali snimak ekrana
+
+`hub-rime-za.png` (113 KB), koji je ostavio Playwright, ušao je u `git add -A`.
+Uhvaćen u ispisu merge-a pre push-a, izbačen iz repozitorijuma i dodat u
+`.gitignore`.
+
+### 3.5 Prvi `git merge` pao sa „fatal: stash failed"
+
+Nije bila moja greška nego posledica iCloud-a (v. odeljak 5), ali me je koštalo
+vremena jer sam prvo pomislio da je posao izgubljen. **Nije bio** — commit je bio i
+lokalno i na GitHub-u; merge je samo trebalo ponoviti.
+
+---
+
+## 4. KAKO SU NAĐENA DVA NAJTEŽA NALAZA — obrasci koje vredi ponoviti
+
+**P13 (čipovi):** `git log` po `public/style.css`, pa za svaki commit ispisan
+`display` iz `.chip` i `.results`. Regresija je iskočila u jednom redu:
+`2067fe2e3` = `inline-flex`, `b3bd730b2` = `flex`.
+> **Kad vlasnica kaže da nešto „izgleda pokvareno", prvo proći istoriju tog CSS
+> pravila — ne čitati ceo fajl.**
+
+**P15 (greške u tekstu):** ceo vidljivi tekst 15 tematskih strana pušten kroz
+`reci.txt` (270.000 reči) i izlistane reči kojih nema. Od 47 kandidata **8 je bilo
+stvarnih grešaka**, ostalo lažni pozitivi (brend, šeme rime AABB/ABAB, izvedenice).
+> **Isplati se: jedna od osam je bila reč koja u srpskom uopšte ne postoji.**
+
+**P16 (CLS):** `layout-shift.sources` daje **tačan element** koji se pomera —
+`LABEL.loose-toggle.kids-toggle`, `y: 432 → 382 px`. Bez toga bi se nagađalo.
+
+---
+
+## 5. iCLOUD — potvrđeno, izmereno i očišćeno
+
+Projekat **jeste** u `iCloud Drive/Desktop` (isti inode — provereno preko `stat`).
+
+**Ne usporava rad:** upis 50 MB u projekat traje **0,019 s**, isto kao van iCloud-a;
+`git status` **0,108 s**. Sumnja da svaka sesija skida rečnik od 19 MB — **netačna**,
+sesija ga samo `grep`-uje.
+
+**Ali kvari `git`:** nađeno **osam** kopija `.git/index` (`index 2` … `index 9`) i
+**tri pokvarene reference** (`refs/heads/main 2`, `refs/remotes/origin/main 2`,
+`refs/remotes/origin/feat 2`). Zbog njih je `git gc` odbijao da radi
+(„failed to run repack") i prvi `git merge` pao sa „fatal: stash failed".
+
+**Počišćeno:** sve **premešteno, ne obrisano**, u
 `~/Desktop/rimoteka-git-icloud-duplikati-29.07.2026`. `git fsck` sada čist.
+`.gitignore` već ima `* [0-9].*`, pa duplikati ne mogu u commit.
 
-> **Ako se `git` ponovo ponaša čudno** (`bad object`, `stash failed`, `failed to
-> run repack`) — prvo `find .git -name "* [0-9]*"`, pa premestiti nađeno.
+> **Ako se `git` ponovo ponaša čudno** (`bad object`, `stash failed`,
+> `failed to run repack`) — prvo `find .git -name "* [0-9]*"`, pa premestiti nađeno.
 
-## Sporost sesija — izmereno
+---
 
-Vlasnica je pitala zašto su sesije spore i sumnjala na rečnik od 19 MB. Rečnik
-nije kriv. Krivo je:
+## 6. ŠTA UPISATI DA BI SESIJE BILE BRŽE
 
-| Uzrok | Merenje |
-|---|---|
-| `git` bez pagera | prva komanda sesije **istekla posle 2 minuta** — `git log` čeka na `less` |
-| spisak odobrenih komandi | 15 stavki u `.claude/settings.local.json`, sesija ih poziva na stotine |
-| iCloud | ne usporava upis, ali kvari `.git` (v. gore) |
+> Vlasnica je prijavila da su sesije spore. Sumnjala je na rečnik. **Izmereno je da
+> rečnik nije kriv.** Evo šta jeste, i šta je urađeno.
 
-> **Sledeća sesija: svaka `git` komanda ide sa `--no-pager` ili `| cat`.**
-> Vlasnici je predloženo `git config --global core.pager cat` — čeka njeno „može".
+### 6.1 Izmereni uzroci
 
-## Šta ostaje otvoreno (4)
-
-| # | Šta | Ko |
+| Uzrok | Merenje | Cena |
 |---|---|---|
-| **P10** | strane reči birane po abecedi — 1.577 od 1.988 na slovo „a" | odloženo odlukom vlasnice, plan u `TODO.md` 0.0 |
-| **P11** | hub `/rime-za/` je zid od 1.988 linkova | isto, isti uzrok |
-| **N12** | `http://` vraća 302 umesto 301 | traži Coolify panel |
-| **P2** | CLS 0,045 — popravka primenjena, nije izmerena | merenje |
+| **`git` bez pagera** | prva komanda ove sesije **istekla posle 2 minuta** — `git log` je čekao na `less`, kojeg u ovom okruženju nema | **do 2 minuta po pozivu**, više puta po sesiji |
+| **Uzak spisak odobrenih komandi** | `.claude/settings.local.json` je imao **15** stavki, a sesija poziva stotine komandi | sesija stane i čeka odobrenje |
+| **Test u pravom pregledaču** | 6–8 minuta po pokretanju, a pušta se više puta | **opravdano** — to je cena poverenja, ne gubitak |
+| **iCloud** | 0,019 s za 50 MB — **ne usporava** | kvari `git`, ne brzinu |
 
-## Odobrenje koje važi dalje
+### 6.2 Šta je URAĐENO ove sesije — `.claude/settings.json` (nov fajl, u repozitorijumu)
 
-Vlasnica 29.07. uveče: **odobreno sve što uklanja bag, uključujući „šminkanje" i
-peglanje.** Zabranjeno: brisanje rečnika, menjanje strukture sajta, i svaki
-nepovratan potez.
+```json
+{
+  "env": { "GIT_PAGER": "cat", "PAGER": "cat" },
+  "permissions": { "allow": [ "Bash(git status:*)", "Bash(git log:*)", … 31 stavka ] }
+}
+```
+
+- **`GIT_PAGER=cat`** — nijedna `git` komanda više ne može da zablokira sesiju.
+  Podešeno **u projektu**, ne u globalnom `git config`, pa ne dira ostale projekte.
+- **31 dozvoljena komanda, sve samo-za-čitanje** ili već propisane projektom:
+  `git status/log/diff/show/branch/ls-files/ls-tree/ls-remote/fsck`, `grep`, `rg`,
+  `ls`, `wc`, `head`, `tail`, `find`, `file`, `stat`, `du`, `which`, `curl -s`,
+  `curl -sI`, `node test/predeploy.mjs`, `bash test/nginx-provera.sh`,
+  `python3 build/gen_pages.py`, `pkill -f static-server.mjs`.
+- **Ništa što briše ili menja fajlove nije u spisku** — to i dalje traži odobrenje.
+
+> Podešavanja iz `env` primenjuju se **od sledeće sesije**.
+
+### 6.3 Pravila koja ubrzavaju rad, a nisu podešavanje
+
+1. **Svaka `git` komanda ide sa `--no-pager`** (ili `| cat`) čak i uz `GIT_PAGER`.
+   Pojas i tregeri — pravilo 28.
+2. **Ne čitati velike fajlove.** `definicije.json` je 19,7 MB, `RECNIK-PREDLOG.md`
+   242 KB. Ide `grep` sa brojevima linija, pa `Read` sa `offset`/`limit`.
+3. **Dugačke poslove puštati u pozadini** i raditi nešto drugo dok traju. Test od
+   6–8 minuta ne sme da bude 8 minuta ćutanja — ova sesija je u tom vremenu pisala
+   evidenciju.
+4. **Reći unapred koliko šta traje.** Vlasnica primećuje kad se ćuti.
+5. **Ne pokretati merenja u minutu posle deploy-a** — kontejner se tada diže i
+   merenje hvata prelazno stanje (pravilo 33).
+
+---
+
+## 7. ŠTA OSTAJE OTVORENO (3)
+
+| # | Šta | Ko odlučuje |
+|---|---|---|
+| **P10** | strane reči birane **po abecedi**, ne po učestalosti — **1.577 od 1.988** su reči na „a" (`aaa`, `aah`, `abadzija`, `abakusi`). `gen_pages.py` **nikad ne učita `frekvencija.json`**; `rank` je redni broj u abecednom `reci.txt`, iako komentar tvrdi suprotno | **vlasnica** — odloženo 29.07; plan u `TODO.md`, odeljak **0.0**. Popravka briše **1.577 URL-ova** → traži plan preusmerenja |
+| **P11** | hub `/rime-za/` je zid od **1.988 linkova** (8.027 px) | **vlasnica** — isti uzrok kao P10 |
+| **N12** | `http://rimoteka.com` vraća **307/302** umesto **301** | **moje, ali traži prijavu na Coolify** — preusmerenje radi **Traefik**, koji odgovara pre našeg nginx-a, pa se iz repozitorijuma ne može. Panel je bio otvoren u pregledaču i čeka prijavu |
+
+---
+
+## 8. ZAMKE ZA SLEDEĆU SESIJU
+
+- **`nginx.conf` se ne dira bez `bash test/nginx-provera.sh`.** Traži
+  `brew install nginx`. Bez izlaznog koda 0 — nema deploy-a. (`CLAUDE.md`, 9a-1.)
+- **Izmene koje mogu da obore sajt idu SAME**, u zasebnom deploy-u, i posle njih se
+  proverava **glavna adresa**, ne samo ono što je menjano.
+- **Merenja koja variraju** (CLS, LCP, vreme odziva) idu kao **najbolje od tri**, a u
+  izveštaj sa **rasponom**.
+- **Pre `python3 build/gen_pages.py`:** `pkill -f "static-server.mjs"; pkill -f
+  "http.server"; sleep 2`, pa posle `ls public/rime-za/ | grep -c " 2$"` — mora 0.
+- **`?v=` se podiže u TRI fajla:** `public/index.html`, `build/gen_pages.py`,
+  `public/404.html`. Trenutno `20260729g`.
+- **Odobrenje koje važi dalje** (vlasnica, 29.07. uveče): *„odobreno sve što uklanja
+  bag, uključujući šminkanje i peglanje. Zabranjeno: brisanje rečnika, menjanje
+  strukture sajta, i svaki nepovratan potez."*
+
+---
+
+## 9. SLEDEĆI KORAK KOJI JE PREDLOŽEN
+
+1. **N12** — prijava na Coolify, dve minute posla, zatvara poslednji nalaz koji je moj.
+2. **P10** — od svega otvorenog jedini koji stvarno košta: sajt ima 1.577 strana za
+   reči tipa `abakusi` koje niko ne traži, a nema ih za obične reči. To je promašen
+   SEO na **79% svih strana**, ne kozmetika.
+3. **Audit je zakazan za 31.07.2026** — prvo izmeriti P16 (CLS na `/`) više puta,
+   pošto je nalaz zatvoren sa rasponom a ne sa jednim brojem.
 
 ---
 

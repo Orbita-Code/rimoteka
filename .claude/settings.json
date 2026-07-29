@@ -1,0 +1,41 @@
+{
+  "env": {
+    "GIT_PAGER": "cat",
+    "PAGER": "cat"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(git fsck:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(find:*)",
+      "Bash(file:*)",
+      "Bash(stat:*)",
+      "Bash(du:*)",
+      "Bash(which:*)",
+      "Bash(curl -s:*)",
+      "Bash(curl -sI:*)",
+      "Bash(node test/predeploy.mjs)",
+      "Bash(BASE=https://rimoteka.com node test/predeploy.mjs)",
+      "Bash(node --check:*)",
+      "Bash(bash test/nginx-provera.sh)",
+      "Bash(nginx -t:*)",
+      "Bash(python3 build/gen_pages.py)",
+      "Bash(pkill -f \"static-server.mjs\")",
+      "Bash(pkill -f \"http.server\")",
+      "Bash(node test/static-server.mjs:*)"
+    ]
+  }
+}

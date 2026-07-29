@@ -7,7 +7,7 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026: 65 otvorenih nalaza** (bilo 72, zatvoreno 7).
+**Stanje na dan 29.07.2026: 66 otvorenih nalaza** (bilo 72, zatvoreno 7, dodat 1 nov — N14).
 Ocena poslednjeg audita: **6,9 / 10**
 
 **Zatvoreno u sesiji 29.07.2026 — GRUPA 1 (šablon generisanih strana):**
@@ -57,7 +57,7 @@ Zajedno su sve dimenzije sada pokrivene.
 | S8 | Kontrast pada: filter slogova 1,67:1, interni linkovi 1,8:1, `--muted` 2,90:1 | `public/style.css:467,310,13` | 28.07. |
 | S9 | Nema strana za mama/tata/deka/maca/škola/drug/kućica — `/rime-za/mama/` je **404** | `build/gen_pages.py:109` | 28.07. |
 
-## NISKO (12)
+## NISKO (13)
 
 | # | Nalaz | Fajl | Viđen |
 |---|---|---|---|
@@ -73,6 +73,7 @@ Zajedno su sve dimenzije sada pokrivene.
 | N11 | Mrtav kod `loadDefs()` — da se pozove, pokvario bi rangiranje | `public/app.js:237` | 28.07. |
 | N12 | `http://` vraća 302 umesto 301 | nginx / Coolify | 28.07. |
 | N13 | Latentna HTML injekcija (`escapeHtml` ne štiti navodnike) — **danas nije iskoristivo** | `public/app.js:755` | 28.07. |
+| N14 | **Živi rezultati i dalje preskaču nivo naslova:** `app.js` iscrtava grupe kao `<h3>` odmah ispod `<h1>` — reprodukovano na `/` i `/rimovanje-reci/` („h1 → h3, Najbolje rime"). Statične strane su popravljene (N9), živi alat nije. Popravka je jedna linija u `app.js`, ali menja i selektor u testu (`querySelectorAll('h3')`), pa ide u istu grupu sa S3. | `public/app.js` — iscrtavanje grupa | 29.07. |
 
 ---
 

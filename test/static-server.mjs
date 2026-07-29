@@ -47,7 +47,20 @@ const srv = http.createServer((req, res) => {
     fajl = path.join(fajl, 'index.html');
     try { st = fs.statSync(fajl); } catch { st = null; }
   }
-  if (!st) { res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }); res.end('404'); return; }
+  /* Kao nginx (`error_page 404 /404.html`) — inače test ne može da proveri
+     prilagođenu 404 stranu, a ona je zaseban nalaz (N10). */
+  if (!st) {
+    const strana = path.join(KOREN, '404.html');
+    try {
+      const telo = fs.readFileSync(strana);
+      res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(telo);
+    } catch {
+      res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+      res.end('404');
+    }
+    return;
+  }
 
   const etag = '"' + st.size + '-' + Math.round(st.mtimeMs) + '"';
   if (req.headers['if-none-match'] === etag) { res.writeHead(304); res.end(); return; }

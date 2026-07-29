@@ -15,13 +15,19 @@
 <meta property="og:url" content="https://rimoteka.com/">
 <meta property="og:title" content="Rimoteka — rimovanje reči, rečnik rima i brojanje slogova">
 <meta property="og:description" content="Rimovanje reči na srpskom: unesi reč i pronađi sve reči koje se rimuju, prebroj slogove i piši pesme. Besplatan rečnik rima za pesnike, tekstopisce i repere.">
-<meta property="og:image" content="https://rimoteka.com/logo-icon.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://rimoteka.com/og-slika.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rimoteka — rime, rečnik i slogovi na srpskom jeziku">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Rimoteka — rimovanje reči, rečnik rima i brojanje slogova">
 <meta name="twitter:description" content="Rimovanje reči na srpskom: unesi reč i pronađi sve reči koje se rimuju, prebroj slogove i piši pesme. Besplatan rečnik rima.">
-<meta name="twitter:image" content="https://rimoteka.com/logo-icon.png">
+<meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fontovi se traže sa najvišim prioritetom: kasna zamena fonta pomera tekst
+     (CLS 0,045 na podstranama). `preload` skraćuje taj prozor. -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -124,13 +130,14 @@
   <!-- RIME -->
   <section class="tab-panel active" id="panel-rime">
     <div class="search-row">
+      <label class="sr-only" for="rimeInput">Reč za koju tražiš rime</label>
       <input type="text" id="rimeInput" placeholder="upiši reč (npr. devojčica)" autocomplete="off" spellcheck="false">
       <button id="rimeBtn" class="primary">Nađi rime</button>
-      <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju">🎲</button>
+      <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju" aria-label="Slučajna reč za inspiraciju">🎲</button>
     </div>
     <div class="filters">
       <span class="flabel">Slogova:</span>
-      <div class="syl-filter" id="rimeSyl">
+      <div class="syl-filter" id="rimeSyl" role="group" aria-label="Filter po broju slogova">
         <button data-syl="0" class="active">sve</button>
         <button data-syl="1">1</button>
         <button data-syl="2">2</button>
@@ -142,23 +149,26 @@
       <label class="loose-toggle"><input type="checkbox" id="jekToggle"> uključi ijekavicu</label>
       <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
     </div>
+    <p id="rimeStatus" class="sr-only" role="status" aria-live="polite"></p>
     <div id="rimeResults" class="results"></div>
   </section>
 
   <!-- PRETRAGA -->
   <section class="tab-panel" id="panel-pretraga">
     <div class="search-row">
-      <select id="searchMode">
+      <label class="sr-only" for="searchMode">Način pretrage</label>
+      <select id="searchMode" aria-label="Način pretrage">
         <option value="ends">završava se na…</option>
         <option value="starts">počinje na…</option>
         <option value="contains">sadrži…</option>
       </select>
+      <label class="sr-only" for="searchInput">Slova koja reč sadrži</label>
       <input type="text" id="searchInput" placeholder="npr. ica, ama, ost" autocomplete="off" spellcheck="false">
       <button id="searchBtn" class="primary">Traži</button>
     </div>
     <div class="filters">
       <span class="flabel">Slogova:</span>
-      <div class="syl-filter" id="searchSyl">
+      <div class="syl-filter" id="searchSyl" role="group" aria-label="Filter po broju slogova">
         <button data-syl="0" class="active">sve</button>
         <button data-syl="1">1</button>
         <button data-syl="2">2</button>
@@ -167,6 +177,7 @@
         <button data-syl="5">5+</button>
       </div>
     </div>
+    <p id="searchStatus" class="sr-only" role="status" aria-live="polite"></p>
     <div id="searchResults" class="results"></div>
   </section>
 
@@ -175,6 +186,7 @@
     <p class="hint">Upiši ili nalepi stihove — broj slogova stoji levo od svakog reda, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma, da se pesma lepo peva i lako pamti.</p>
     <div class="syl-box">
       <div id="sylGutter" class="gutter"><div id="sylGutterInner" class="gutter-inner"></div></div>
+      <label class="sr-only" for="sylInput">Tekst za brojanje slogova i znakova</label>
       <textarea id="sylInput" class="syl-text" placeholder="Upiši ili nalepi stihove…" spellcheck="false"></textarea>
       <div id="sylMirror" class="syl-mirror" aria-hidden="true"></div>
     </div>
@@ -324,7 +336,7 @@
     <div class="faq">
       <details>
         <summary>Kako da pronađem rime za neku reč?</summary>
-        <p>Upiši reč u polje „Rime" i klikni „Nađi rime". Rimoteka odmah izlistava sve reči koje se rimuju, rangirane po kvalitetu rime, uz mogućnost filtriranja po broju slogova.</p>
+        <p>Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju, rangirane po kvalitetu rime, uz mogućnost filtriranja po broju slogova.</p>
       </details>
       <details>
         <summary>Šta je rimovanje reči?</summary>
@@ -336,11 +348,11 @@
       </details>
       <details>
         <summary>Kako se broje slogovi u reči?</summary>
-        <p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u), uz slogotvorno „r" (npr. prst, vrt). <a href="/slogovi/">Brojač slogova i karaktera</a> to radi sam: broj slogova stoji levo od svakog reda, pa svi stihovi mogu da budu sličnog ritma.</p>
+        <p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u), uz slogotvorno „r“ (npr. prst, vrt). <a href="/slogovi/">Brojač slogova i karaktera</a> to radi sam: broj slogova stoji levo od svakog reda, pa svi stihovi mogu da budu sličnog ritma.</p>
       </details>
       <details>
         <summary>Kako se reč deli na slogove?</summary>
-        <p>Svaki slog ima jedan samoglasnik kao nosioca, pa reč ima onoliko slogova koliko ima samoglasnika: ja-bu-ka (3), de-voj-či-ca (4). Kada je „r" između suglasnika, i ono nosi slog: vrt i prst imaju po jedan slog, sr-ce dva. Za podelu celog teksta koristi <a href="/slogovi/">brojač slogova</a>.</p>
+        <p>Svaki slog ima jedan samoglasnik kao nosioca, pa reč ima onoliko slogova koliko ima samoglasnika: ja-bu-ka (3), de-voj-či-ca (4). Kada je „r“ između suglasnika, i ono nosi slog: vrt i prst imaju po jedan slog, sr-ce dva. Za podelu celog teksta koristi <a href="/slogovi/">brojač slogova</a>.</p>
       </details>
       <details>
         <summary>Postoji li brojač karaktera i reči?</summary>
@@ -389,7 +401,7 @@
     <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> — čisto okruženje za pisanje</span></div>
     <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> — odgovor u roku od 24h</span></div>
     <div class="pro-feature"><span class="icon">⭐</span><span><strong>Pro oznaka</strong> — podržavaš razvoj Rimoteke</span></div>
-    <div class="pro-feature soon"><span class="icon">📊</span><span><strong>Napredna analiza</strong> — metar, ritam, shema rime <em>uskoro</em></span></div>
+    <div class="pro-feature soon"><span class="icon">📊</span><span><strong>Napredna analiza</strong> — metar, ritam, šema rime <em>uskoro</em></span></div>
     <div class="pro-feature soon"><span class="icon">💾</span><span><strong>Čuvanje u oblaku</strong> — pesme na svim uređajima <em>uskoro</em></span></div>
     <div class="pro-feature soon"><span class="icon">📤</span><span><strong>Izvoz u PDF/DOCX</strong> — profesionalni format <em>uskoro</em></span></div>
 

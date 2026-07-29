@@ -1109,3 +1109,46 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 .notepad-title:focus{outline:0;border-color:var(--lavender)}
 body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:var(--line)}
 
+
+/* ========== HUB STRANA /rime-za/ ==========
+   Ranije je taj folder vraćao 403, pa srednji nivo strukture nije ni postojao. */
+.hub-azbuka{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.4rem;font-weight:700}
+.hub-azbuka a{color:var(--lavender-deep);text-decoration:none;background:var(--card-bg);
+  border:2px solid var(--line);border-radius:10px;padding:.2rem .55rem}
+.hub-azbuka a:hover{border-color:var(--lavender)}
+.hub-lista{line-height:2;color:var(--ink-soft)}
+.hub-lista a{color:var(--link)}
+
+/* ========== POPRAVKE IZ AUDITA 29.07.2026 ========== */
+
+/* Kontrast brojača u igri (bio 4,1:1 u tamnom režimu — ispod praga 4,5:1).
+   Uzrok je isti obrazac kao kod K2: boja teksta ide kroz promenljivu koja se
+   menja sa temom, a podloga je tvrdo upisana `rgba(90,63,208,.09)` — u tamnoj
+   temi ta ljubičasta podloga stapa se sa tamnom pozadinom. */
+body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
+
+/* Padajuća lista predloga na telefonu: sa otvorenom tastaturom je od osam
+   predloga bio vidljiv jedan. Visina se sada vezuje za VIDLJIVI deo ekrana
+   (`dvh` prati tastaturu), pa se uvek vidi nekoliko predloga. */
+@media(max-width:560px){
+  .autocomplete{max-height:min(200px, 38dvh)}
+
+  /* Panel sa rimama u beležnici gutao je trećinu ekrana, a u pejzažu su od
+     šesnaest predloga bila vidljiva dva. */
+  .note-rhymes{max-height:34dvh;overflow-y:auto}
+
+  /* Sedam akcionih dugmadi u beležnici bilo je visoko 23,3 px i bez razmaka —
+     među njima i destruktivno „obriši sve". Preporuka za dodir je 44 px. */
+  .notepad-actions .link-btn,
+  #panel-beleznica .hint .link-btn{
+    display:inline-flex;align-items:center;min-height:44px;padding:0 .5rem;margin:.15rem .1rem;
+  }
+}
+
+/* Pejzaž na telefonu — panel sa rimama ne sme da pojede ceo ekran */
+@media(max-height:520px){
+  .note-rhymes{max-height:40dvh;overflow-y:auto}
+}
+
+/* Dugme dok se rečnik učitava (nalaz V5) — reč se pamti i pretraga kreće sama */
+.primary.ucitava{opacity:.65;cursor:progress}

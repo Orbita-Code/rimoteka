@@ -9,12 +9,14 @@
 <meta name="robots" content="noindex,follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
-<link rel="stylesheet" href="/style.css?v=20260715b">
+<link rel="stylesheet" href="/style.css?v=20260729b">
+<script src="/dark-mode-init.js?v=1"></script>
 </head>
 <body>
 <header class="site-header">
@@ -26,7 +28,18 @@
 <main class="landing" style="text-align:center;padding-top:3rem;padding-bottom:4rem">
   <h2 class="landing-h1" style="font-size:clamp(2.2rem,6vw,3.4rem)">404</h2>
   <p class="landing-lead">Ova stranica nije pronađena — možda je reč promenila oblik ili se preselila.</p>
-  <p class="landing-lead">Brzo se vrati na <a href="/" style="color:var(--rose-deep);font-weight:700">početnu stranu</a> i nastavi da tražiš rime.</p>
+  <p class="landing-lead">Upiši reč ovde — otvoriće se njena strana sa rimama.</p>
+
+  <!-- Nalaz N10: 404 je bila ćorsokak. Sada nudi ono zbog čega je korisnik došao. -->
+  <form class="search-row" style="max-width:520px;margin:0 auto 1.6rem" action="/" method="get">
+    <label class="sr-only" for="rec404">Reč za koju tražiš rime</label>
+    <input type="text" id="rec404" name="rec" placeholder="upiši reč (npr. ljubav)" autocomplete="off" spellcheck="false">
+    <button class="primary" type="submit">Nađi rime</button>
+  </form>
+
+  <p class="landing-lead">Ili idi na <a href="/rime-za/" style="color:var(--rose-deep);font-weight:700">spisak svih strana sa rimama</a>,
+    <a href="/slogovi/" style="color:var(--rose-deep);font-weight:700">brojač slogova</a> ili
+    <a href="/pisanje-pesama/" style="color:var(--rose-deep);font-weight:700">beležnicu za pisanje pesama</a>.</p>
   <a class="landing-cta" href="/">← Nazad na Rimoteku</a>
 </main>
 

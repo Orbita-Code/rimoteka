@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Adresa sa upitom je BAJT-ZA-BAJT ista strana kao početna — samo sa upisanom
+# rečju. Svaka rima na svakoj strani vodi na jednu takvu adresu, pa ih ima
+# preko 50.000 i sve su duplikat početne. Za pretraživače nemaju vrednost:
+# svaka reč već ima svoju pravu stranu na /rime-za/<reč>/.
+Disallow: /*?rec=
+Disallow: /*?tab=
+Disallow: /*?pesma=
+Disallow: /*?naslov=
+Disallow: /*?decji=
+
 Sitemap: https://rimoteka.com/sitemap.xml

@@ -1763,6 +1763,159 @@ async function main() {
       await p18b.close();
     }
 
+    console.log('\n19) SEO I STRUKTURA — hub /rime-za/, breadcrumb, naslovi, robots, društvena slika');
+    {
+      const p19 = await browser.newPage();
+      // /rime-za/ je vraćao 403 — ceo srednji nivo strukture nije postojao
+      const odg = await p19.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
+      ok('/rime-za/ vraća 200 (ranije 403)', odg && odg.status() === 200, `status ${odg && odg.status()}`);
+      const hub = await p19.evaluate(() => ({
+        veza: document.querySelectorAll('a[href^="/rime-za/"]').length,
+        h1: document.querySelectorAll('h1').length,
+      }));
+      ok('/rime-za/ povezuje sve strane reči', hub.veza > 1900, `${hub.veza} linkova`);
+      ok('/rime-za/ ima tačno jedan h1', hub.h1 === 1, `${hub.h1}`);
+
+      await p19.goto(BASE + '/rime-za/mama/', { waitUntil: 'domcontentloaded' });
+      const rec = await p19.evaluate(() => ({
+        title: document.title,
+        mrve: [...document.querySelectorAll('.crumbs a, .crumbs span')].map(e => e.textContent.trim()),
+        lead: document.querySelector('.landing-lead')?.textContent.slice(0, 60) || '',
+        og: document.querySelector('meta[property="og:image"]')?.content || '',
+        tw: document.querySelector('meta[name="twitter:card"]')?.content || '',
+      }));
+      // S9: strane za mama/tata/deka… uopšte nisu postojale (404)
+      ok('S9 /rime-za/mama/ postoji', /mama/i.test(rec.title), rec.title);
+      // padežno tačan naslov: „Rime za reč „mama“", ne „Rime za mama"
+      ok('naslov ne stavlja reč u pogrešan padež', /Rime za reč/.test(rec.title), rec.title);
+      ok('naslov nema „N reči koje" kad je N%10===1',
+         !/\b\d*1 reči koje/.test(rec.title), rec.title);
+      ok('breadcrumb ima sva tri nivoa', rec.mrve.length >= 3, rec.mrve.join(' › '));
+      ok('predikat se slaže sa brojem („Pronađeno je 56 reči")',
+         /^(Pronađeno je|Pronađene su|Pronađena je)/.test(rec.lead.trim()), rec.lead);
+      ok('og:image je društvena slika 1200×630', /og-slika\.png/.test(rec.og), rec.og);
+      ok('twitter:card je summary_large_image', rec.tw === 'summary_large_image', rec.tw);
+
+      // robots.txt gasi ~50.000 parametarskih duplikata početne
+      await p19.goto(BASE + '/robots.txt', { waitUntil: 'domcontentloaded' });
+      const rb = await p19.evaluate(() => document.body.innerText);
+      ok('robots.txt blokira /?rec= duplikate', /Disallow:\s*\/\*\?rec=/.test(rb), rb.slice(0, 120));
+
+      // 404 nije ćorsokak
+      const o404 = await p19.goto(BASE + '/ova-strana-ne-postoji-xyz/', { waitUntil: 'domcontentloaded' });
+      const s404 = await p19.evaluate(() => ({
+        polje: !!document.getElementById('rec404'),
+        css: [...document.querySelectorAll('link[rel=stylesheet]')].map(l => l.getAttribute('href')).join(' '),
+      }));
+      ok('404 vraća status 404', o404 && o404.status() === 404, `status ${o404 && o404.status()}`);
+      ok('N10 404 strana ima polje za pretragu', s404.polje, 'nema polja');
+      ok('N10 404 strana koristi aktuelni CSS', !/20260715b/.test(s404.css), s404.css);
+      await p19.close();
+    }
+
+    console.log('\n19b) PRISTUPAČNOST — najava rezultata, tastatura, imena polja (N1, N5, N7, N8)');
+    {
+      const p19b = await browser.newPage();
+      await p19b.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p19b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+
+      await p19b.fill('#rimeInput', 'ljubav');
+      await p19b.click('#rimeBtn');
+      await pauza(800);
+      const status = await p19b.evaluate(() => document.getElementById('rimeStatus')?.textContent || '');
+      ok('N1 broj rima se najavljuje čitaču ekrana', /\d+\s+rim/i.test(status), `„${status}"`);
+
+      const a11y = await p19b.evaluate(() => {
+        const w = document.querySelector('#rimeResults .word');
+        return {
+          fokus: w ? w.getAttribute('tabindex') : null,
+          uloga: w ? w.getAttribute('role') : null,
+          ime: document.getElementById('searchMode')?.getAttribute('aria-label') || '',
+          labela: !!document.querySelector('label[for="rimeInput"]'),
+          aktivan: document.querySelector('#tabs [data-tab].active')?.getAttribute('aria-current') || '',
+          srce: document.querySelector('#rimeResults .fav')?.getAttribute('aria-label') || '',
+        };
+      });
+      ok('N5 reč u rezultatu je dostupna tastaturi', a11y.fokus === '0' && a11y.uloga === 'button',
+         `tabindex=${a11y.fokus} role=${a11y.uloga}`);
+      ok('N7 #searchMode ima pristupačno ime', a11y.ime.length > 3, a11y.ime);
+      ok('N7 polje za rime ima <label>', a11y.labela, 'nema label[for=rimeInput]');
+      ok('N8 aktivan tab ima aria-current', a11y.aktivan === 'page', a11y.aktivan);
+      ok('N6 dugme ♡ ima ime, ne samo emodži', a11y.srce.length > 3, a11y.srce);
+
+      // N13 — escapeHtml mora da štiti i navodnike
+      const esc = await p19b.evaluate(() => escapeHtml('a"b\'c<d>&'));
+      ok('N13 escapeHtml štiti i navodnike', /&quot;/.test(esc) && /&#39;/.test(esc), esc);
+      await p19b.close();
+    }
+
+    console.log('\n19c) PERFORMANSE — rečnik se ne skida bez potrebe, pretraga čeka rečnik (V5)');
+    {
+      const p19c = await browser.newPage();
+      const zahtevi = [];
+      p19c.on('request', r => zahtevi.push(r.url()));
+      await p19c.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p19c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(6000);   // duže nego što je nekada trajao „idle" predučitavanje
+      ok('definicije.json (19,3 MB) se NE skida na svakom učitavanju',
+         !zahtevi.some(u => /definicije\.json/.test(u)), 'skinut je i bez potrebe');
+
+      // V5: klik pre nego što rečnik stigne mora sam da pokrene pretragu
+      const p19d = await browser.newPage();
+      await p19d.route('**/reci.txt*', async r => { await pauza(3000); await r.continue(); });
+      await p19d.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await pauza(400);
+      await p19d.fill('#rimeInput', 'ljubav');
+      await p19d.click('#rimeBtn');
+      const odmah = await p19d.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
+      await p19d.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5,
+                                 { timeout: 60000 }).catch(() => {});
+      const posle = await p19d.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
+      ok('V5 pretraga pre učitanog rečnika se pokrene SAMA kad rečnik stigne',
+         odmah === 0 && posle > 5, `odmah=${odmah} posle=${posle}`);
+      await p19c.close(); await p19d.close();
+    }
+
+    console.log('\n19d) KONTRAST NA EKRANU IGRE U TAMNOM REŽIMU');
+    /* Ekran igre nikad nije bio meren u tamnom režimu: brojač igrača i reči
+       (`.game-value`) padao je na 4,13:1 — ispod praga 4,5:1. Uzrok je isti
+       obrazac kao K2: podloga tvrdo upisana (`rgba(90,63,208,.09)`), a boja
+       teksta promenljiva koja se menja sa temom. */
+    {
+      const p19e = await browser.newPage();
+      await p19e.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p19e.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p19e.click('#darkToggle');
+      await pauza(400);
+      await p19e.click('#tabs [data-tab="igra"]');
+      await pauza(300);
+      await p19e.click('#gameStart');
+      await pauza(900);
+      const kont = await p19e.evaluate(() => {
+        const lum = c => { const [r, g, b] = c.map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+        const brojevi = s => (s.match(/[\d.]+/g) || []).map(Number);
+        const spoji = (f, b) => { const a = f[3] === undefined ? 1 : f[3]; return [0, 1, 2].map(i => Math.round(f[i] * a + b[i] * (1 - a))); };
+        const podloga = e => { let n = e; while (n && n !== document.documentElement) { const m = brojevi(getComputedStyle(n).backgroundColor); if (m.length && (m.length < 4 || m[3] > 0.95)) return m.slice(0, 3); n = n.parentElement; } return [255, 255, 255]; };
+        let najgori = null;
+        for (const sel of ['.game-value', '.game-label', '.game-instruction', '#gameWord']) {
+          const e = document.querySelector(sel);
+          if (!e || !(e.textContent || '').trim()) continue;
+          const cs = getComputedStyle(e);
+          const pod = podloga(e.parentElement);
+          const svoja = brojevi(cs.backgroundColor);
+          const bg = (svoja.length >= 3 && (svoja.length < 4 || svoja[3] > 0)) ? spoji(svoja, pod) : pod;
+          const f = spoji(brojevi(cs.color), bg);
+          const l1 = lum(f) + 0.05, l2 = lum(bg) + 0.05;
+          const o = +(Math.max(l1, l2) / Math.min(l1, l2)).toFixed(2);
+          if (!najgori || o < najgori.o) najgori = { sel, o };
+        }
+        return najgori;
+      });
+      ok('ekran igre u tamnom režimu → najslabiji kontrast ≥ 4,5:1',
+         kont && kont.o >= 4.5, kont ? `${kont.sel} = ${kont.o}:1` : 'ništa nije izmereno');
+      await p19e.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

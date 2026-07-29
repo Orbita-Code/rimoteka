@@ -276,15 +276,34 @@ async function loadDict(){
   }
   const ekWords = ek.split('\n').filter(Boolean);
   const jekWords = jek.split('\n').filter(Boolean);
-  jekStart = ekWords.length;
-  WORDS = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
-  KEYS = new Array(WORDS.length);
-  for(let i=0;i<WORDS.length;i++){
-    const w = WORDS[i];
-    KEYS[i] = rhymeKey(w);
-    RANK.set(w, i);
-    SET.add(w);
+  const svi = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
+
+  /* OBRADA U KOMADIMA, NE U JEDNOM DAHU.
+     Računanje ključa rime za 278.000 reči je ranije zamrzavalo glavnu nit
+     824 ms u komadu (izmereno u auditu; ukupno blokirano 1.174 ms). Za to vreme
+     strana ne reaguje ni na kucanje ni na klik — a već je iscrtana, pa deluje
+     pokvareno. Sada se radi u komadima, uz predah između njih, tako da
+     pregledač stigne da obradi unos korisnika.
+     Rezultati se upisuju u PRIVREMENE strukture i tek na kraju objavljuju:
+     `doRhymes` prepoznaje spremnost po `WORDS.length`, pa ne sme da vidi
+     poluprazan `KEYS`. */
+  const kljucevi = new Array(svi.length);
+  const rang = new Map();
+  const skup = new Set();
+  const KOMAD = 20000;
+  for(let i = 0; i < svi.length; i += KOMAD){
+    const kraj = Math.min(i + KOMAD, svi.length);
+    for(let j = i; j < kraj; j++){
+      const w = svi[j];
+      kljucevi[j] = rhymeKey(w);
+      rang.set(w, j);
+      skup.add(w);
+    }
+    if(kraj < svi.length) await new Promise(r => setTimeout(r, 0));
   }
+  jekStart = ekWords.length;
+  WORDS = svi; KEYS = kljucevi; RANK = rang; SET = skup;
+
   // Zatim učitaj frekvenciju i sinonime u pozadini — ne blokiraju rime
   loadExtras();
 }
@@ -347,13 +366,17 @@ function makeChip(word){
   el.dataset.w = word;
   const syl = syllables(word);
   el.innerHTML =
-    `<span class="word" title="${uiTxt('klikni da kopiraš')}">${disp(word)}</span>` +
+    `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${disp(word)}</span>` +
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
     `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${disp(word)}">ⓘ</button>` +
     `<button class="mini fav ${isFav(word)?'on':''}" title="${uiTxt('sačuvaj u omiljene')}" aria-label="${uiTxt('sačuvaj u omiljene')}: ${disp(word)}">${isFav(word)?'♥':'♡'}</button>` +
     `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
+  // Nalaz N5: reč je bila `<span>` sa `onclick` — mišem radi, tastaturom ne.
+  wEl.onkeydown = (ev) => {
+    if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); copy(disp(word)); }
+  };
   wEl.addEventListener('mouseenter', () => { clearTimeout(defTimer); defTimer = setTimeout(() => showDefAt(word, wEl, false), 320); });
   wEl.addEventListener('mouseleave', () => { clearTimeout(defTimer); hideDef(); });
   el.querySelector('.info').onclick = (ev) => { ev.stopPropagation(); showDefAt(word, ev.currentTarget, true); };
@@ -429,6 +452,17 @@ const rimeInput = el('rimeInput');
 let rimeSyl = 0;
 let loose = false;
 let lastTrackedRhyme = '';   // GA4: da isti pojam ne šalje event na svaki filter-klik
+/* Reč koju je korisnik tražio dok rečnik još nije bio spreman (nalaz V5). */
+let cekaRec = '';
+function pokreniOdlozenuPretragu(){
+  el('rimeBtn').classList.remove('ucitava');
+  el('rimeBtn').disabled = false;
+  if(!cekaRec) return;
+  const q = cekaRec;
+  cekaRec = '';
+  if(!rimeInput.value.trim()) rimeInput.value = disp(q);
+  doRhymes();
+}
 
 function filterSyl(arr){
   if(!rimeSyl) return arr;
@@ -463,7 +497,18 @@ function doRhymes(silent){
     }
     return;
   }
-  if(WORDS.length === 0){ if(!silent) box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>'; return; }
+  if(WORDS.length === 0){
+    /* Nalaz V5: strana je iscrtana za 1,5 s, a rime su na 4G proradile tek posle
+       10,3 s. Do sada je korisnik dobijao „Učitavam rečnik…" i morao SAM da
+       klikne ponovo. Sada se reč zapamti i pretraga se pokrene čim rečnik stigne. */
+    if(!silent){
+      cekaRec = q;
+      box.innerHTML = '<p class="empty">' + uiTxt('Učitavam rečnik… rime za tu reč stižu čim bude gotovo.') + '</p>';
+      el('rimeBtn').classList.add('ucitava');
+      el('rimeBtn').disabled = true;
+    }
+    return;
+  }
 
   // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
   if(!silent){
@@ -562,6 +607,16 @@ function doRhymes(silent){
 
   renderGroup(box, good.length?'Dobre rime':'', good, false);
   renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
+
+  /* Nalaz N1: rezultati se ubacuju u DOM bez ijedne najave, pa čitač ekrana
+     ćuti i posle 195 pronađenih rima. Sam spisak NE ide u `aria-live` (čitao bi
+     svih 195 reči) — najavljuje se samo broj, u zasebnom nevidljivom polju. */
+  if(!silent){
+    const ukupno = best.length + good.length + finalExtra.length;
+    el('rimeStatus').textContent = ukupno
+      ? `${ukupno} ${uiTxt(rimaRec(ukupno))} ${uiTxt('za')} „${disp(q)}“`
+      : uiTxt('Nema rime za tu reč.');
+  }
 
   // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
   if(!silent && q !== lastTrackedRhyme){
@@ -762,6 +817,7 @@ function doSearch(){
   }
   if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči koje odgovaraju.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
+  el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}`;
 }
 el('searchBtn').onclick = doSearch;
 searchInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
@@ -873,7 +929,13 @@ window.addEventListener('resize', () => {
   clearTimeout(sylResizeTimer);
   sylResizeTimer = setTimeout(() => { if(sylInput.value) updateSyl(); }, 150);
 });
-function escapeHtml(s){ return s.replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+/* Navodnici se MORAJU štititi: bez njih tekst upisan u atribut može da izađe
+   iz njega i doda svoj (`title="..." onmouseover=...`). Danas se `escapeHtml`
+   koristi samo za sadržaj elementa, pa nije bilo iskoristivo — ali funkcija sa
+   ovim imenom mora da bude bezbedna i za sledeću upotrebu (nalaz N13). */
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
 
 /* ====================== BELEŽNICA — Editor sa obojenim rimama ====================== */
 // Nazivi šema rime — koristi ih i beležnica (statistika) i tab „Klasici".
@@ -2170,8 +2232,30 @@ el('clearFavs').onclick = ()=>{
 };
 
 /* ====================== TABOVI / PISMO / TOAST ====================== */
+/* Aktivan tab mora da se VIDI — i čitaču ekrana i na uskom telefonu.
+   Nalaz N8: stanje je postojalo samo kao CSS klasa, bez `aria-current`, pa
+   čitač ekrana nije imao odakle da zna gde se korisnik nalazi.
+   Nalaz „mobilni": na SEO podstranama je aktivan tab bio i do 309 px desno od
+   vidljivog dela trake — korisnik ne vidi na kojoj je strani. */
+function oznaciAktivanTab(name){
+  document.querySelectorAll('#tabs [data-tab]').forEach(b => {
+    const jeste = b.dataset.tab === name;
+    b.classList.toggle('active', jeste);
+    if(jeste) b.setAttribute('aria-current', 'page');
+    else b.removeAttribute('aria-current');
+  });
+}
+function dovediAktivanTabUVid(){
+  const traka = document.getElementById('tabs');
+  const akt = traka && traka.querySelector('[data-tab].active');
+  if(!traka || !akt || traka.scrollWidth <= traka.clientWidth) return;
+  const cilj = akt.offsetLeft - (traka.clientWidth - akt.offsetWidth) / 2;
+  traka.scrollLeft = Math.max(0, cilj);
+}
+
 function switchTab(name){
-  document.querySelectorAll('#tabs [data-tab]').forEach(b=>b.classList.toggle('active', b.dataset.tab===name));
+  oznaciAktivanTab(name);
+  dovediAktivanTabUVid();
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
   /* Nalaz S7: igra je nastavljala da radi i posle prelaska na drugi tab —
@@ -2796,6 +2880,18 @@ document.querySelectorAll('.copy-all-btn').forEach(btn=>{
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
 if(script === 'cyr') applyScriptToUI();
 document.body.dataset.tab = 'rime';   // podrazumevani tab pri učitavanju
+/* Na SEO podstranama `switchTab` se nikad ne pozove (tamo nema panela — aktivan
+   tab dolazi već označen iz šablona), pa se `aria-current` i pomeranje trake
+   moraju uraditi i ovde. Bez ovoga je aktivan tab na telefonu ostajao izvan
+   vidljivog dela trake, do 309 px desno. */
+{
+  const aktivan = document.querySelector('#tabs [data-tab].active');
+  if(aktivan){
+    aktivan.setAttribute('aria-current', 'page');
+    dovediAktivanTabUVid();
+  }
+}
+window.addEventListener('resize', dovediAktivanTabUVid);
 updateFavCount();
 renderFavorites();
 renderGutter();
@@ -3506,7 +3602,12 @@ function bootstrap(){
     initFromURL();
     return;
   }
-  loadDict().then(()=>{ if(!initFromURL()) rimeInput.focus(); }).catch(e=>{
+  loadDict().then(()=>{
+    if(cekaRec){ pokreniOdlozenuPretragu(); return; }
+    if(!initFromURL()) rimeInput.focus();
+  }).catch(e=>{
+    el('rimeBtn').classList.remove('ucitava');
+    el('rimeBtn').disabled = false;
     console.error('Greška pri učitavanju rečnika:', e);
     const box = el('rimeResults');
     if(box){

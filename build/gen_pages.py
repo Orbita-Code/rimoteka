@@ -19,7 +19,7 @@ VOWELS = set('aeiou')
 
 # ---------------- Lingvistika (1:1 sa app.js) ----------------
 def vowel_positions(w):
-    # 1:1 sa app.js: samoglasnici + slogotvorno „r" (nosilac sloga: srce, vrt)
+    # 1:1 sa app.js: samoglasnici + slogotvorno „r“ (nosilac sloga: srce, vrt)
     p = []
     for i, ch in enumerate(w):
         if ch in VOWELS:
@@ -89,6 +89,32 @@ def syl_word(n):
         return 'sloga'
     return 'slogova'
 
+def rec_word(n):
+    """„1 reč" / „2 reči" / „51 reč" — u srpskom je oblik vezan za POSLEDNJU cifru."""
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'reč'
+    return 'reči'
+
+def koja_se_rimuje(n):
+    """Slaganje odnosne rečenice sa brojem: „51 reč KOJA SE RIMUJE",
+    „54 reči KOJE SE RIMUJU", „56 reči KOJE SE RIMUJU"."""
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'koja se rimuje'
+    return 'koje se rimuju'
+
+def pronadjeno(n):
+    """Predikat se slaže sa brojem: „Pronađena je 1 reč", „Pronađene su 3 reči",
+    „Pronađeno je 56 reči". Ranije je svuda pisalo „Pronađene su", pa je na
+    većini strana stajalo „Pronađene su 56 reči"."""
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'Pronađena je'
+    if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        return 'Pronađene su'
+    return 'Pronađeno je'
+
 def rima_word(n):
     n = abs(n)
     if n % 10 == 1 and n % 100 != 11:
@@ -127,6 +153,12 @@ vino pesma gitara truba bubanj
 strah nada sumnja krivica kajanje oprost
 lepota mladost ljubav osmeh
 put daljina povratak rastanak susret
+# Dečje i porodične reči (nalaz S9): /rime-za/mama/ je vraćalo 404, iako su to
+# najtraženije reči za dečje pesmice i za stranu /rime-za-decu/, koja na njih
+# upućuje. Sve su provereno u rečniku.
+mama tata baka deka maca kuca škola drug drugarica kućica lopta lutka
+zeka meda vuk lisica miš patka pile mačka pas ptica riba leptir pčela
+igračka slatkiš čokolada sladoled kolač torta rođendan poklon balon
 oko uho nos jezik zub
 konj pas mačka ptica vuk lav orao golub leptir pčela riba zmija
 jabuka kruška šljiva grožđe malina jagoda breskva
@@ -134,7 +166,11 @@ hleb so med mleko kafa čaj
 kralj kraljica princ princeza vitez
 ljubavnik voljena
 mir sreća zdravlje
-""".split()
+"""
+# Redovi koji počinju znakom „#" su objašnjenja za čitaoca, ne meta-reči —
+# moraju da otpadnu PRE deljenja na reči, inače bi „Dečje", „porodične" i
+# slično ušlo u spisak meta-reči.
+TARGETS = ' '.join(r for r in TARGETS.split('\n') if not r.strip().startswith('#')).split()
 
 # ---------------- Učitavanje rečnika ----------------
 def load():
@@ -165,10 +201,15 @@ HEAD_TMPL = """<!DOCTYPE html>
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{ogdesc}">
-<meta property="og:image" content="{base}/logo-icon.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{base}/og-slika.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rimoteka — rime, rečnik i slogovi na srpskom jeziku">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{base}/og-slika.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -284,7 +325,7 @@ TOOL_HTML = """  <div class="landing-tool">
 """
 TOOL_SCRIPT = '<script src="/app.js?v=20260729b"></script>\n'
 
-# Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
+# Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
 # brojanje slogova je čista funkcija nad tekstom (v. bootstrap u app.js).
 # Skriveni deo alata za rime. Beležnica i igra traže rime preko
@@ -309,7 +350,7 @@ def panel_html(ime, skriveno_rime=False):
         idx = f.read()
     m = re.search(r'<section class="tab-panel" id="panel-%s">(.*?)\n  </section>' % ime, idx, re.S)
     if not m:
-        raise SystemExit('gen_pages: ne nalazim panel „%s" u index.html' % ime)
+        raise SystemExit('gen_pages: ne nalazim panel „%s“ u index.html' % ime)
     blok = '<div class="landing-tool">' + m.group(1) + '\n  </div>'
     return (HIDDEN_RHYME_HTML if skriveno_rime else '') + '  ' + blok + '\n'
 
@@ -330,7 +371,7 @@ SYL_TOOL_HTML = """  <div class="landing-tool">
 """
 
 
-# Naziv svake tematske strane na jednom mestu — koristi ga blok „Srodne strane".
+# Naziv svake tematske strane na jednom mestu — koristi ga blok „Srodne strane“.
 NAZIVI = {
     'rimovanje-reci': 'Rimovanje reči',
     'recnik-srpskog-jezika': 'Rečnik srpskog jezika',
@@ -392,7 +433,7 @@ SRODNO = {
 
 
 def srodno_blok(slug):
-    """Blok „Srodne strane" — interni linkovi iz sadržaja, ne iz šablona."""
+    """Blok „Srodne strane“ — interni linkovi iz sadržaja, ne iz šablona."""
     veze = SRODNO.get(slug, [])
     if not veze:
         return ''
@@ -405,7 +446,7 @@ def srodno_blok(slug):
 # link. Do 28.07.2026. nije moglo: odgovori su se HTML-escapeovali, pa bi svaki
 # <a> ispao kao goli tekst. Zato se link dodaje TEK POSLE escapeovanja, i samo
 # u vidljivi tekst — u `FAQPage` šemu ide čist tekst, jer HTML tamo ne sme.
-# Duže fraze stoje pre kraćih (inače „brojač slogova" pojede „brojač slogova i
+# Duže fraze stoje pre kraćih (inače „brojač slogova“ pojede „brojač slogova i
 # karaktera"). Veznik u odgovoru ostaje netaknut — linkuje se samo naziv alata.
 FAQ_LINKOVI = [
     ('beležnici za pisanje pesama', 'pisanje-pesama'),
@@ -435,7 +476,7 @@ FAQ_LINKOVI = [
     ('beležnice', 'pisanje-pesama'),
     ('beležnica', 'pisanje-pesama'),
     ('klasicima', 'klasici'),
-    ('„Klasici"', 'klasici'),
+    ('„Klasici“', 'klasici'),
     ('Klasici', 'klasici'),
     ('klasici', 'klasici'),
 ]
@@ -489,7 +530,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{faq_sa_linkovima(a, slug)}</p></details>'
                        for q, a in faqs)
     # Kad strana ima živi alat, on ide ODMAH ispod naslova (to je ono zbog čega
-    # je korisnik došao), a dugme „idi na početnu" nema smisla — alat je tu.
+    # je korisnik došao), a dugme „idi na početnu“ nema smisla — alat je tu.
     # tool=True → alat za rime; tool='<...>' → gotov markup nekog drugog alata
     alat = TOOL_HTML if tool is True else (tool if isinstance(tool, str) else '')
     cta = '' if alat else f'  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>\n'
@@ -546,7 +587,7 @@ def main():
     finalgroup = defaultdict(list)
     for i, w in enumerate(words):
         keygroup[rhyme_key(w)].append(w)        # već rangirano (index raste)
-        finalgroup[final_syl_key(w)].append(w)  # za fallback „isti završni slog"
+        finalgroup[final_syl_key(w)].append(w)  # za fallback „isti završni slog“
 
     wset = set(words)
 
@@ -575,13 +616,13 @@ def main():
         chosen.add(t)
         targets.append(t)
 
-    # a) kurirane teme (prioritet — idu prve, u footer „Popularne rime")
+    # a) kurirane teme (prioritet — idu prve, u footer „Popularne rime“)
     for t in TARGETS:
         add_target(t)
     curated_count = len(targets)
 
     # b) auto-dopuna do TARGET_COUNT: frekvencijski rangirane sadržajne reči
-    #    (imaju definiciju = realna leksika; preskačemo promenjene oblike „Oblik reči…")
+    #    (imaju definiciju = realna leksika; preskačemo promenjene oblike „Oblik reči…“)
     for w in words:  # rank redosled
         if len(targets) >= TARGET_COUNT:
             break
@@ -637,6 +678,7 @@ def main():
         loosegroup[loose_key(w)].append(w)
 
     generated = 0
+    napravljene = []          # meta-reči koje su ZAISTA dobile stranu (za hub i brojke)
     for t in targets:
         key = rhyme_key(t)
         klen = len(key)
@@ -645,7 +687,7 @@ def main():
         best = [w for w in cands if common_suffix(t, w) > klen][:50]
         good = [w for w in cands if common_suffix(t, w) == klen][:36]
 
-        # Fallback (kao doRhymes): reči sa malo savršenih rima -> „isti završni slog"
+        # Fallback (kao doRhymes): reči sa malo savršenih rima -> „isti završni slog“
         final_extra = []
         if len(best) + len(good) < 6:
             fk = final_syl_key(t)
@@ -719,10 +761,15 @@ def main():
             mean = f'<p class="landing-def"><strong>{esc(t)}</strong> — {esc(defs[t])}</p>'
 
         # bolji title/description koji ciljaju više varijanti pretrage
-        title = f'Rime za {t}: {len(all_r)} reči koje se rimuju | Rimoteka'
-        desc = (f'Pronađi reči koje se rimuju sa „{t}". Rimoteka nudi {len(all_r)} {rima_word(len(all_r))} '
+        # „Rime za nada" je padežno pogrešno (treba „za nadu"), a padež se NE SME
+        # izvoditi iz završetka — „-a" ima i imenice, i pridevi, i glagoli
+        # (v. GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pravilo 1). Umetanjem reči
+        # „reč" imenica ostaje u nominativu i naslov je tačan za svih 1.988 strana,
+        # baš kao što je oduvek bio u `h1`.
+        title = f'Rime za reč „{t}“: {len(all_r)} {rec_word(len(all_r))} {koja_se_rimuje(len(all_r))} | Rimoteka'
+        desc = (f'Pronađi reči koje se rimuju sa „{t}“. Rimoteka nudi {len(all_r)} {rima_word(len(all_r))} '
                 f'za pisanje pesama, tekstova i repa. Primeri: {first_list}.')
-        ogdesc = f'Reči koje se rimuju sa „{t}": {first_list}…'
+        ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 
         schema = json.dumps({
@@ -732,19 +779,20 @@ def main():
                     "@type": "BreadcrumbList",
                     "itemListElement": [
                         {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
-                        {"@type": "ListItem", "position": 2, "name": f"Rime za {t}", "item": canonical}
+                        {"@type": "ListItem", "position": 2, "name": "Rime za reč", "item": BASE + "/rime-za/"},
+                        {"@type": "ListItem", "position": 3, "name": f"Rime za reč „{t}“", "item": canonical}
                     ]
                 },
                 {
                     "@type": "FAQPage",
                     "mainEntity": [
-                        {"@type": "Question", "name": f'Šta se rimuje sa „{t}"?',
+                        {"@type": "Question", "name": f'Šta se rimuje sa „{t}“?',
                          "acceptedAnswer": {"@type": "Answer",
                             "text": f"Sa rečju {t} rimuju se, između ostalog: {', '.join(all_r[:14])}."}},
-                        {"@type": "Question", "name": f'Koje se reči rimuju sa „{t}"?',
+                        {"@type": "Question", "name": f'Koje se reči rimuju sa „{t}“?',
                          "acceptedAnswer": {"@type": "Answer",
                             "text": f"Najbolje rime za reč {t} su: {', '.join(all_r[:10])}."}},
-                        {"@type": "Question", "name": f'Koliko slogova ima reč „{t}"?',
+                        {"@type": "Question", "name": f'Koliko slogova ima reč „{t}“?',
                          "acceptedAnswer": {"@type": "Answer",
                             "text": f"Reč {t} ima {tsyl} {syl_word(tsyl)}."}}
                     ]
@@ -756,13 +804,13 @@ def main():
                                 canonical=canonical, base=BASE, schema=schema)
 
         body = f"""<main class="landing">
-  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za „{esc(t)}"</span></nav>
-  <h1 class="landing-h1">Rime za reč „{esc(t)}"</h1>
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <a href="/rime-za/">Rime za reč</a> › <span>„{esc(t)}“</span></nav>
+  <h1 class="landing-h1">Rime za reč „{esc(t)}“</h1>
   <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))} · {tsyl} {syl_word(tsyl)} · rangirano po kvalitetu</p>
-  <p class="landing-lead">Pronađene su <strong>{len(all_r)}</strong> reči koje se rimuju sa <strong>„{esc(t)}"</strong>. Iskoristi ih za pisanje pesme, teksta ili repa. Klikni na reč da otvoriš još rima, ili kopiraj celu listu.</p>
+  <p class="landing-lead">{pronadjeno(len(all_r))} <strong>{len(all_r)}</strong> {rec_word(len(all_r))} {koja_se_rimuje(len(all_r))} sa <strong>„{esc(t)}“</strong>. Iskoristi ih za pisanje pesme, teksta ili repa. Klikni na reč da otvoriš još rima, ili kopiraj celu listu.</p>
   {mean}
   <div class="copy-bar">
-    <a class="landing-cta" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši →</a>
+    <a class="landing-cta" rel="nofollow" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši →</a>
     <button class="copy-all-btn" data-words="{esc(copy_words)}">Kopiraj sve rime</button>
   </div>
   {groups}
@@ -771,15 +819,15 @@ def main():
   {mini_tool_form(t)}
   <section class="landing-faq">
     <h2>Česta pitanja</h2>
-    <details><summary>Šta se rimuje sa „{esc(t)}"?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
-    <details><summary>Koje se reči rimuju sa „{esc(t)}"?</summary><p>Najbolje rime za reč {esc(t)} su: {esc(', '.join(all_r[:10]))}.</p></details>
-    <details><summary>Koliko slogova ima reč „{esc(t)}"?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
+    <details><summary>Šta se rimuje sa „{esc(t)}“?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
+    <details><summary>Koje se reči rimuju sa „{esc(t)}“?</summary><p>Najbolje rime za reč {esc(t)} su: {esc(', '.join(all_r[:10]))}.</p></details>
+    <details><summary>Koliko slogova ima reč „{esc(t)}“?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
     <details><summary>Kako da nađem još rima?</summary><p>U mini-alatu iznad upiši bilo koju reč — dobićeš proširenu listu rima, šire (asonantne) rime i filter po broju slogova.</p></details>
   </section>
 </main>
 """
         # `app.js` ide i na strane reči — bez njega su prekidač za pismo, tamni
-        # režim i „Kopiraj sve rime" mrtva dugmad (nalazi V1, V2, K6). Rečnik se
+        # režim i „Kopiraj sve rime“ mrtva dugmad (nalazi V1, V2, K6). Rečnik se
         # pri tom ne skida: ova strana nema nijedan alat koji pretražuje reči,
         # pa `bootstrap` preskoči `loadDict` (v. izuzetak u app.js).
         page = (head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
@@ -789,13 +837,14 @@ def main():
             f.write(page)
         sitemap_entries.append(
             f'  <url><loc>{canonical}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+        napravljene.append(t)
         generated += 1
 
-    # 2b) statička strana /slogovi/ — keyword „brojanje slogova"
+    # 2b) statička strana /slogovi/ — keyword „brojanje slogova“
     slog_canon = f'{BASE}/slogovi/'
     slog_title = 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka'
     slog_desc = ('Besplatan brojač slogova, karaktera i reči: nalepi tekst i odmah vidiš broj slogova, '
-                 'reči i znakova za svaki red. Podela reči na slogove u srpskom (sa slogotvornim „r") — pravila i primeri.')
+                 'reči i znakova za svaki red. Podela reči na slogove u srpskom (sa slogotvornim „r“) — pravila i primeri.')
     slog_schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -827,10 +876,10 @@ def main():
 {syl_tool}  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. Nalepi tekst iznad: broj slogova stoji levo od svakog reda, a na dnu ukupan zbir za celu pesmu. Radi i za jednu reč i za ceo tekst.</p>
   <p class="landing-lead">Brojač je deo celine: kad ti stih ne štima, u <a href="/pisanje-pesama/">beležnici</a> ga pišeš uz rime i šemu rime, a u <a href="/rimovanje-reci/">rimovanju reči</a> tražiš reč koja se uklapa u meru.</p>
   <div class="res-group"><h2>Kako se broje slogovi</h2>
-    <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r"</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
+    <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r“</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
   </div>
   <div class="res-group"><h2>Podela reči na slogove</h2>
-    <p class="seo-p">Svaki slog ima jedan samoglasnik kao nosioca, pa se reč deli na onoliko slogova koliko ima samoglasnika: <em>ja-bu-ka</em> (3), <em>de-voj-či-ca</em> (4), <em>ri-mo-va-nje</em> (4). Granica sloga ide ispred suglasnika koji pripada sledećem slogu. Kod slogotvornog „r" slog nosi samo „r": <em>sr-ce</em>, <em>pr-vi</em>. <strong>Rastavljanje reči na slogove</strong> je isto što i njihovo brojanje — alat iznad to radi za ceo tekst odjednom.</p>
+    <p class="seo-p">Svaki slog ima jedan samoglasnik kao nosioca, pa se reč deli na onoliko slogova koliko ima samoglasnika: <em>ja-bu-ka</em> (3), <em>de-voj-či-ca</em> (4), <em>ri-mo-va-nje</em> (4). Granica sloga ide ispred suglasnika koji pripada sledećem slogu. Kod slogotvornog „r“ slog nosi samo „r“: <em>sr-ce</em>, <em>pr-vi</em>. <strong>Rastavljanje reči na slogove</strong> je isto što i njihovo brojanje — alat iznad to radi za ceo tekst odjednom.</p>
   </div>
   <div class="res-group"><h2>Brojač karaktera i reči</h2>
     <p class="seo-p">Pored slogova, ovo je i <strong>brojač karaktera</strong> i <strong>brojač reči</strong>: za svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu — čestitka, slogan, opis proizvoda, poruka ili meta opis strane.</p>
@@ -840,12 +889,12 @@ def main():
   </div>
   <section class="landing-faq">
     <h2>Česta pitanja</h2>
-    <details><summary>Kako se broje slogovi u reči?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r" koje je i samo nosilac sloga (vrt = 1 slog, srce = 2 sloga).</p></details>
+    <details><summary>Kako se broje slogovi u reči?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r“ koje je i samo nosilac sloga (vrt = 1 slog, srce = 2 sloga).</p></details>
     <details><summary>Zašto je bitno brojati slogove u pesmi?</summary><p>Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu.</p></details>
     <details><summary>Mogu li da prebrojim slogove u celoj pesmi?</summary><p>Da. Nalepi ceo tekst u polje na vrhu strane — pored svakog reda stoji broj slogova, a na dnu ukupan zbir za celu pesmu.</p></details>
     <details><summary>Broji li alat i karaktere?</summary><p>Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči.</p></details>
-    <details><summary>Kako se reč deli na slogove?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika, a granica sloga ide ispred suglasnika koji pripada sledećem slogu: ja-bu-ka, de-voj-či-ca. Kod slogotvornog „r" slog nosi samo „r": sr-ce, pr-vi.</p></details>
-    <details><summary>Koliko slogova ima jedna reč?</summary><p>Prebroj samoglasnike u njoj — toliko ima slogova. Vrt i prst imaju jedan slog (slogotvorno „r"), srce i pesma dva, jabuka tri, devojčica četiri.</p></details>
+    <details><summary>Kako se reč deli na slogove?</summary><p>Reč ima onoliko slogova koliko ima samoglasnika, a granica sloga ide ispred suglasnika koji pripada sledećem slogu: ja-bu-ka, de-voj-či-ca. Kod slogotvornog „r“ slog nosi samo „r“: sr-ce, pr-vi.</p></details>
+    <details><summary>Koliko slogova ima jedna reč?</summary><p>Prebroj samoglasnike u njoj — toliko ima slogova. Vrt i prst imaju jedan slog (slogotvorno „r“), srce i pesma dva, jabuka tri, devojčica četiri.</p></details>
   </section>
   {srodno_blok('slogovi')}</main>
 """
@@ -864,8 +913,8 @@ def main():
                   'slovima — koje se završavaju, počinju ili sadrže zadata slova, uz broj slogova za svaku.',
              h1='Rečnik srpskog jezika',
              lead='<strong>Rečnik srpskog jezika</strong> sa preko 270.000 reči — i uz svaku objašnjenje. '
-                  'Reč možeš tražiti i po slovima — onu koja se završava na „-ost", počinje na „cvet" ili '
-                  'negde u sebi ima „zvezd" — a uz svaku stoji broj slogova i značenje.',
+                  'Reč možeš tražiti i po slovima — onu koja se završava na „-ost“, počinje na „cvet“ ili '
+                  'negde u sebi ima „zvezd“ — a uz svaku stoji broj slogova i značenje.',
              cta_href='/rimovanje-reci/', cta_text='🔎 Traži rime umesto reči →',
              priority='0.7',
              tool=panel_html('pretraga'),
@@ -878,7 +927,7 @@ def main():
                   'Korisno kad tražiš određen nastavak, a ne poklapanje po zvuku — za rimu je bolji '
                   '<a href="/rimovanje-reci/">pretraživač rima</a>.'),
                  ('Reči koje počinju na zadata slova',
-                  'Za akrostih, aliteraciju ili kad ti je reč „na vrh jezika" pa se sećaš samo početka.'),
+                  'Za akrostih, aliteraciju ili kad ti je reč „na vrh jezika“ pa se sećaš samo početka.'),
                  ('Reči koje sadrže zadata slova',
                   'Najšira pretraga — traži niz slova bilo gde u reči. Dobra za rebuse, ukrštenice i igre rečima.'),
                  ('Od reči do pesme',
@@ -896,7 +945,7 @@ def main():
                  ('Kako da vidim značenje reči?',
                   'Klikni na dugme za objašnjenje pored reči u rezultatima — otvara se kratka definicija.'),
                  ('Kako da nađem reči koje se završavaju na određena slova?',
-                  'Izaberi „završava se na…", upiši završetak (na primer „ost") i dobićeš sve reči iz rečnika '
+                  'Izaberi „završava se na…“, upiši završetak (na primer „ost“) i dobićeš sve reči iz rečnika '
                   'koje se tako završavaju, sa brojem slogova za svaku.'),
                  ('Da li pretraga razlikuje latinicu i ćirilicu?',
                   'Ne moraš da brineš — možeš da kucaš kako ti je lakše, a prikaz rezultata prebacuješ '
@@ -1050,13 +1099,13 @@ def main():
              sections=[
                  ('Parna rima (AABB)', 'Rimuju se susedni stihovi: prvi sa drugim, treći sa četvrtim. Najjednostavnija i najčešća u pesmama i repu.'),
                  ('Ukrštena rima (ABAB)', 'Rimuju se naizmenični stihovi: prvi sa trećim, drugi sa četvrtim. Daje pesmi laganu, pevljivu dinamiku.'),
-                 ('Obgrljena rima (ABBA)', 'Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje" unutrašnji. Zvuči svečano i zaokruženo.'),
+                 ('Obgrljena rima (ABBA)', 'Prvi stih se rimuje sa četvrtim, a drugi sa trećim — spoljašnji par „obgrljuje“ unutrašnji. Zvuči svečano i zaokruženo.'),
                  ('Čista rima i asonanca', 'Čista (savršena) rima poklapa sve glasove od naglašenog samoglasnika (ruka — luka). Asonanca poklapa samo samoglasnike (more — kose) i daje slobodniji, moderniji zvuk čest u repu.'),
              ],
              faqs=[
                  ('Koje su glavne vrste rima?', 'Po rasporedu: parna (AABB), ukrštena (ABAB), obgrljena (ABBA) i nagomilana (AAAA). Po kvalitetu: čista rima i asonanca.'),
                  ('Šta je asonanca?', 'Asonanca je nesavršena rima u kojoj se poklapaju samo samoglasnici, a ne i svi suglasnici (npr. more — kose). Česta je u modernoj poeziji i repu.'),
-                 ('Kako da vidim šemu rime u pesmi?', 'U Rimoteci, u tabu „Klasici", pored svakog stiha stoji slovo (A, B, C…) koje pokazuje koje se rime poklapaju — tako vidiš šemu rime velikih pesnika.'),
+                 ('Kako da vidim šemu rime u pesmi?', 'U Rimoteci, u tabu „Klasici“, pored svakog stiha stoji slovo (A, B, C…) koje pokazuje koje se rime poklapaju — tako vidiš šemu rime velikih pesnika.'),
              ]),
         dict(slug='kako-napisati-pesmu',
              title='Kako napisati pesmu — koraci, rima i ritam | Rimoteka',
@@ -1094,7 +1143,7 @@ def main():
 
     # 2d) nišne autoritet strane — deca, pesme, rep
     niche_defs = [
-        # Glavna strana za ciljanu frazu „rimovanje reči" (exact-match slug).
+        # Glavna strana za ciljanu frazu „rimovanje reči“ (exact-match slug).
         # Konkurencija (igrarecima.com/rimovanje-reci, rimovanje.com) rangira upravo
         # na exact-match putanji — homepage sam nije dovoljan.
         dict(slug='rimovanje-reci', aktivan_tab='rime',
@@ -1126,7 +1175,7 @@ def main():
                   'Što je poklapanje duže, rima je čistija i jače zvuči u stihu.'),
                  ('Kako rimovati reč u tri koraka',
                   '<strong>1.</strong> Upiši reč u polje na <a href="/">početnoj strani</a> — može latinicom ili ćirilicom. '
-                  '<strong>2.</strong> Klikni „Nađi rime" i dobićeš sve rime iz rečnika. '
+                  '<strong>2.</strong> Klikni „Nađi rime“ i dobićeš sve rime iz rečnika. '
                   '<strong>3.</strong> Filtriraj po broju slogova da rima stane u ritam tvog stiha.'),
                  ('Čiste rime i bliske rime',
                   'Čista rima se poklapa u potpunosti (<em>ljubav — nesloga</em> nije, <em>ljubav — grbav</em> jeste). '
@@ -1169,7 +1218,7 @@ def main():
              title='Rime za decu — bezbedne i lepe reči za dečje pesmice | Rimoteka',
              desc='Rime za decu: bezbedne, lepe i razumljive reči za dečje pesmice, igre i učenje. Filtrirano od neprikladnih reči — besplatan alat.',
              h1='Rime za decu',
-             lead=f'Rimoteka <strong>uvek</strong> izostavlja psovke i vulgarnosti, a za decu ima i <strong>dečji režim</strong> — dodatni filter koji uklanja i nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim" ispod polja za unos, a dugme ispod ga uključi samo. Evo popularnih reči koje se lepo rimuju i koje deca lako pamte: {deciji_chips}',
+             lead=f'Rimoteka <strong>uvek</strong> izostavlja psovke i vulgarnosti, a za decu ima i <strong>dečji režim</strong> — dodatni filter koji uklanja i nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim“ ispod polja za unos, a dugme ispod ga uključi samo. Evo popularnih reči koje se lepo rimuju i koje deca lako pamte: {deciji_chips}',
              cta_href='/?rec=dete&decji=1', cta_text='🧸 Otvori alat sa uključenim dečjim režimom →',
              sections=[
                  ('Zašto Rimoteka za decu?', 'Rečnik je uvek pročišćen od psovki i vulgarnosti. Uz to postoji i dečji režim, koji dodatno uklanja nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom, i ostaje upamćen na tom uređaju.'),
@@ -1179,14 +1228,14 @@ def main():
              faqs=[
                  ('Da li su rime na Rimoteci bezbedne za decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za najmlađe preporučujemo da uključiš i dečji režim (kvačica ispod polja za unos) — on dodatno uklanja nasilne i seksualne pojmove.'),
                  ('Koje reči su dobre za dečje pesmice?', 'Jednostavne, slikovite reči kao što su dete, igra, sreća, sunce, mesec, zvezda, cvet, mama, tata, prijatelj.'),
-                 ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime". Ako je uključen dečji režim, rezultati su dodatno filtrirani za decu.'),
+                 ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime“. Ako je uključen dečji režim, rezultati su dodatno filtrirani za decu.'),
              ]),
         dict(slug='rime-za-pesmu',
              title='Rime za pesmu — reči koje se rimuju za pisanje poezije | Rimoteka',
              desc='Rime za pesmu: pronađi reči koje se rimuju i piši lirike, ljubavne i druge pesme. Besplatan rečnik rima sa brojačem slogova.',
              h1='Rime za pesmu',
              lead='Svaka pesma počinje od ideje, a <strong>rima</strong> joj daje zvuk. Rimoteka pomaže pesnicima i tekstopiscima da brzo pronađu reči koje se rimuju i usklade ritam.',
-             cta_href='/?rec=pesma', cta_text='✍️ Nađi rime za „pesma" →',
+             cta_href='/?rec=pesma', cta_text='✍️ Nađi rime za „pesma“ →',
              sections=[
                  ('Kako koristiti Rimoteku za pisanje pesme?', 'Upiši ključnu reč na kraju stiha. Rimoteka će odmah izlistati najbolje rime, koje možeš filtrirati po broju slogova.'),
                  ('Ljubavne i emotivne rime', 'Za pesme o ljubavi često traže se rime za ljubav, srce, duša, sreća, tuga, bol, radost, nada, sanjarenje.'),
@@ -1201,34 +1250,34 @@ def main():
              title='Rime za rep — reči koje se rimuju za rap tekstove | Rimoteka',
              desc='Rime za rep i rap tekstove: pronađi čiste i asonantne rime, filtriraj po broju slogova i piši tekstove. Besplatan alat za repera.',
              h1='Rime za rep',
-             lead='U repu je <strong>ritam</strong> sve. Rimoteka daje rime koje se uklapaju u beat, uz filter po broju slogova — da svaka reč „sedi" tamo gde treba.',
-             cta_href='/?rec=rep', cta_text='🎤 Nađi rime za „rep" →',
+             lead='U repu je <strong>ritam</strong> sve. Rimoteka daje rime koje se uklapaju u beat, uz filter po broju slogova — da svaka reč „sedi“ tamo gde treba.',
+             cta_href='/?rec=rep', cta_text='🎤 Nađi rime za „rep“ →',
              sections=[
                  ('Kako odabrati rimu za rep?', 'Poslušaj beat i odredi gde pada naglasak. Zatim potraži rimu sa odgovarajućim brojem slogova da stih bude ritmički ispravan.'),
-                 ('Asonanca u repu', 'Reperi često koriste asonantu — poklapanje samoglasnika — jer daje slobodniji i moderniji zvuk. U Rimoteci uključi „šire rime" da je pronađeš.'),
+                 ('Asonanca u repu', 'Reperi često koriste asonantu — poklapanje samoglasnika — jer daje slobodniji i moderniji zvuk. U Rimoteci uključi „šire rime“ da je pronađeš.'),
                  ('Interna rima i multi-slog rime', 'Pored krajnje rime, pokušaj da rimuješ i reči unutar stiha. Dugi, višesložni parovi zvuče tehnički impresivno.'),
              ],
              faqs=[
                  ('Šta su dobre rime za rep?', 'Rime koje imaju jasan ritam, odgovaraju beatu i nose značenje. Često se koriste asonantne rime i višesložni parovi.'),
                  ('Kako da uklopim rimu u beat?', 'Prebroj slogove u stihu i podesi rimu tako da naglasak pada na pravo mesto. Rimoteka prikazuje broj slogova za svaku reč.'),
-                 ('Da li Rimoteka nudi asonantne rime?', 'Da. Uključi opciju „šire rime" da vidiš asonantne rime koje se poklapaju po samoglasnicima.'),
+                 ('Da li Rimoteka nudi asonantne rime?', 'Da. Uključi opciju „šire rime“ da vidiš asonantne rime koje se poklapaju po samoglasnicima.'),
              ]),
     ]
     # 2e) tematske autoritet stranice — prilike, emocije, teme
     topic_defs = [
         dict(slug='rime-za-ljubavne-pesme',
              title='Rime za ljubavne pesme — reči koje se rimuju za ljubav | Rimoteka',
-             desc='Rime za ljubavne pesme: najlepše reči koje se rimuju sa ljubav, srce, duša, sreća i druge. Ideje i alat za pisanje ljubavne poezije.',
+             desc='Rime za ljubavne pesme: najlepše reči koje se rimuju sa rečima ljubav, srce, duša i sreća. Ideje i alat za pisanje ljubavne poezije.',
              h1='Rime za ljubavne pesme',
              lead='Ljubavna poezija je večita tema. Bilo da pišeš pesmu za voljenu osobu, godišnjicu ili samo za sebe, ovde ćeš pronaći <strong>reči koje se rimuju</strong> i inspiraciju za svaki stih.',
-             cta_href='/?rec=ljubav', cta_text='❤️ Nađi rime za „ljubav" →',
+             cta_href='/?rec=ljubav', cta_text='❤️ Nađi rime za „ljubav“ →',
              sections=[
                  ('Najčešće reči u ljubavnim pesmama', 'ljubav, srce, duša, sreća, tuga, bol, radost, nada, strast, čežnja, samoća, osećaj, poljubac, zagrljaj, nežnost.'),
                  ('Kako napisati ljubavnu pesmu?', 'Počni od jedne slike ili trenutka. Nemoj se bojati jednostavnosti — najlepše ljubavne pesme su iskrene i direktne.'),
                  ('Šema rime za ljubavnu pesmu', 'Parna rima (AABB) je najjednostavnija za početnike. Ukrštena rima (ABAB) daje lepšu, melodičniju dinamiku.'),
              ],
              faqs=[
-                 ('Koje rime najčešće idu sa „ljubav"?', 'Najbolje rime sa ljubav su srce, duša, tuga, radost, čežnja, strast, nežnost i mnoge druge emotivne reči.'),
+                 ('Koje rime najčešće idu sa „ljubav“?', 'Najbolje rime sa ljubav su srce, duša, tuga, radost, čežnja, strast, nežnost i mnoge druge emotivne reči.'),
                  ('Kako da pesma zvuči iskreno?', 'Piši o konkretnim detaljima — osećajima, mirisima, trenucima. Izbegavaj klisheeve koji ne zvuče kao tvoji.'),
                  ('Da li ljubavna pesma mora da se rimuje?', 'Ne mora, ali rima pomaže da pesma bude pevljiva i da se bolje pamti. Slobodni stih je takođe validan izbor.'),
              ]),
@@ -1237,7 +1286,7 @@ def main():
              desc='Rime za rođendanske pesmice: smešne, slatke i emotivne reči za rođendan. Brzo pronađi rime i napiši jedinstvenu čestitku.',
              h1='Rime za rođendanske pesmice',
              lead='Umesto kupovne čestitke, napiši <strong>svoju rođendansku pesmicu</strong>. Rimoteka ti pomaže da pronađeš rime za srećan, dar, radost, prijatelj i druge ključne reči.',
-             cta_href='/?rec=rodjendan', cta_text='🎂 Nađi rime za „rođendan" →',
+             cta_href='/?rec=rodjendan', cta_text='🎂 Nađi rime za „rođendan“ →',
              sections=[
                  ('Ideje za rođendanske pesmice', 'srećan rođendan, puno zdravlja, želje ti ispunim, dar ti spremim, prijatelj si dragi, još mnogo godina.'),
                  ('Pesmica za decu', 'Koristi kratke stihove, brojanje slogova i jednostavne rime. Deca vole ponavljanje i vesele reči kao što su lopta, torta, sveća, poklon.'),
@@ -1253,7 +1302,7 @@ def main():
              desc='Rime za svadbu: lepe reči za mladence, čestitke, pesme i toastove. Pronađi rime za ljubav, sreća, prsten, dom i zajednička putovanja.',
              h1='Rime za svadbu',
              lead='Svadba je jedan od najlepših dana u životu. Bilo da pišeš <strong>čestitku, pesmu ili toast</strong>, ovde ćeš pronaći rime koje će dirnuti mladence.',
-             cta_href='/?rec=svadba', cta_text='💍 Nađi rime za „svadba" →',
+             cta_href='/?rec=svadba', cta_text='💍 Nađi rime za „svadba“ →',
              sections=[
                  ('Ključne reči za svadbu', 'ljubav, sreća, prsten, dom, porodica, prijatelj, put, život, radost, vernost, zaverno, sadašnjost, budućnost.'),
                  ('Kako napisati svadbeni toast?', 'Budan kratak, iskren i malo duhovit. Završi podizanjem čaše i željom za sreću mladenaca.'),
@@ -1261,7 +1310,7 @@ def main():
              ],
              faqs=[
                  ('Šta napisati u svadbenoj čestitci?', 'Čestitka treba da bude kratka, topla i lična. Poželi im sreću, ljubav i lep zajednički život.'),
-                 ('Koje rime idu sa „ljubav" za svadbu?', 'srce, sreća, lepota, nežnost, čežnja, radost, sigurnost, večnost, blizina, jedinstvo.'),
+                 ('Koje rime idu sa „ljubav“ za svadbu?', 'srce, sreća, lepota, nežnost, čežnja, radost, sigurnost, večnost, blizina, jedinstvo.'),
                  ('Koliko treba da traje svadbeni toast?', 'Najbolje je da toast traje 1–2 minute. Dovoljno da kažeš nekoliko lepih reči, ne predugo.'),
              ]),
         dict(slug='rime-za-decu-o-zivotinjama',
@@ -1269,7 +1318,7 @@ def main():
              desc='Rime za decu o životinjama: mačka, pas, ptica, konj, lav i druge. Bezbedne i razumljive reči za dečje pesmice i igre.',
              h1='Rime za decu o životinjama',
              lead='Deca obožavaju životinje. Ovde ćeš pronaći rime za mačku, psa, pticu, konja, lava i druge životinje — idealno za pesmice i učenje. Za najmlađe uključi i <strong>dečji režim</strong>; dugme ispod to radi samo.',
-             cta_href='/?rec=macka&decji=1', cta_text='🐱 Nađi rime za „mačka" (dečji režim) →',
+             cta_href='/?rec=macka&decji=1', cta_text='🐱 Nađi rime za „mačka“ (dečji režim) →',
              sections=[
                  ('Popularne životinje u dečjim pesmicama', 'mačka, pas, ptica, konj, lav, golub, leptir, pčela, riba, zmija, vuk, orao.'),
                  ('Kako napisati pesmicu o životinji?', 'Opiši kako izgleda, šta voli da radi i kakav zvuk proizvodi. Koristi ponavljanje i jednostavne rime.'),
@@ -1277,7 +1326,7 @@ def main():
              ],
              faqs=[
                  ('Koje životinje su najbolje za dečje pesmice?', 'Mačke, psi, ptice, konji, lavovi i pčele su klasici jer su deci bliski i lako se opisuju.'),
-                 ('Da li su rime bezbedne za najmlađu decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za vrtićku decu uključi i dečji režim — kvačica „dečji režim" ispod polja za unos.'),
+                 ('Da li su rime bezbedne za najmlađu decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za vrtićku decu uključi i dečji režim — kvačica „dečji režim“ ispod polja za unos.'),
                  ('Kako deca najbolje uče pesmice napamet?', 'Kroz ponavljanje, pokrete i igru. Što je pesma kraća i melodičnija, brže će je zapamtiti.'),
              ]),
         dict(slug='rime-za-decu-o-prirodi',
@@ -1285,7 +1334,7 @@ def main():
              desc='Rime za decu o prirodi: sunce, mesec, zvezda, oblak, kiša, sneg, cvet i druge reči. Bezbedne pesmice za decu i učitelje.',
              h1='Rime za decu o prirodi',
              lead='Priroda je najlepša inspiracija za dečje pesmice. Pronađi rime za <strong>sunce, mesec, zvezde, kišu, sneg, cvetove</strong> i piši pesmice koje deca vole. Za najmlađe uključi i <strong>dečji režim</strong>; dugme ispod to radi samo.',
-             cta_href='/?rec=sunce&decji=1', cta_text='☀️ Nađi rime za „sunce" (dečji režim) →',
+             cta_href='/?rec=sunce&decji=1', cta_text='☀️ Nađi rime za „sunce“ (dečji režim) →',
              sections=[
                  ('Teme iz prirode za decu', 'sunce, mesec, zvezda, nebo, oblak, kiša, sneg, vetar, more, reka, planina, šuma, drvo, cvet, trava.'),
                  ('Sezonske pesmice', 'Proleće — cvetovi i povratak toplote. Leto — sunce i more. Jesen — kiša i opalo lišće. Zima — sneg i novogodišnja čarolija.'),
@@ -1301,7 +1350,7 @@ def main():
              desc='Rime za Novu godinu: čestitke, pesmice i želje za sreću, zdravlje, ljubav i uspeh. Pronađi reči koje se rimuju i napiši jedinstvenu čestitku.',
              h1='Rime za Novu godinu',
              lead='Nova godina donosi novu nadu. Bilo da pišeš <strong>čestitku, pesmicu ili poruku</strong>, ovde ćeš pronaći rime za srećan, zdravlje, uspeh, ljubav i nova početka.',
-             cta_href='/?rec=novagodina', cta_text='🎆 Nađi rime za „nova godina" →',
+             cta_href='/?rec=novagodina', cta_text='🎆 Nađi rime za „nova godina“ →',
              sections=[
                  ('Ključne reči za Novu godinu', 'srećna Nova godina, zdravlje, radost, uspeh, ljubav, sreća, mir, želje, početak, budućnost, porodica, prijatelj.'),
                  ('Kratke novogodišnje poruke', 'Neka ti Nova bude ispunjena smehom, toplinom i trenucima koji se pamte.'),
@@ -1309,7 +1358,7 @@ def main():
              ],
              faqs=[
                  ('Kako napisati novogodišnju čestitku?', 'Budi kratak, topao i iskren. Poželi zdravlje, sreću i nekoliko ličnih želja koje odgovaraju osobi.'),
-                 ('Koje rime idu sa „godina"?', 'Neka rime za godina su: radost, sreća, ljubav, prijatelj, početak, trenutak, čarolija, porodica.'),
+                 ('Koje rime idu sa „godina“?', 'Neka rime za godina su: radost, sreća, ljubav, prijatelj, početak, trenutak, čarolija, porodica.'),
                  ('Da li mogu poslati pesmicu umesto čestitke?', 'Naravno. Personalizovana pesma često ostavlja jači utisak od univerzalne čestitke.'),
              ]),
         dict(slug='rime-za-roditelje',
@@ -1317,7 +1366,7 @@ def main():
              desc='Rime za roditelje: reči koje se rimuju za majku, oca, baku, dedu i celu porodicu. Ideje za pesme, čestitke i poklon poruke.',
              h1='Rime za roditelje',
              lead='Za roditelje nikad nije dovoljno reći hvala. Bilo da pišeš <strong>pesmu za majku, oca, baku ili dedu</strong>, ovde ćeš pronaći rime koje izražavaju ljubav i zahvalnost.',
-             cta_href='/?rec=majka', cta_text='👩 Nađi rime za „majka" →',
+             cta_href='/?rec=majka', cta_text='👩 Nađi rime za „majka“ →',
              sections=[
                  ('Ključne reči za roditelje', 'majka, otac, mama, tata, baka, deda, porodica, dom, ljubav, briga, zahvalnost, sećanje, detinjstvo.'),
                  ('Pesma za majku', 'Fokusiraj se na njezinu brigu, toplinu i žrtvu. Najlepše pesme su one koje govore o konkretnim trenucima.'),
@@ -1325,7 +1374,7 @@ def main():
              ],
              faqs=[
                  ('Kako napisati dirljivu pesmu za roditelje?', 'Počni od jednog secanja ili osobine. Piši iskreno i ne boj se emocija.'),
-                 ('Koje rime idu sa „majka"?', 'Neka rime za majka su: reka, čeka, njega, lepa, neba, svega, greha, snega.'),
+                 ('Koje rime idu sa „majka“?', 'Neka rime za majka su: reka, čeka, njega, lepa, neba, svega, greha, snega.'),
                  ('Da li kratak stih može biti dovoljan?', 'Da. Ponekad je najjača poruka ona najkraća — samo nekoliko stihova punih značenja.'),
              ]),
         dict(slug='rime-za-prijatelje',
@@ -1333,14 +1382,14 @@ def main():
              desc='Rime za prijatelje: reči koje se rimuju za prijateljstvo, vernost, podršku i zajednička sećanja. Napiši pesmu ili čestitku za prijatelja.',
              h1='Rime za prijatelje',
              lead='Pravo prijateljstvo je retko i dragoceno. Bilo da pišeš <strong>pesmu za rođendan prijatelja</strong> ili samo želiš da mu se zahvališ, ovde ćeš pronaći inspiraciju.',
-             cta_href='/?rec=prijatelj', cta_text='🤝 Nađi rime za „prijatelj" →',
+             cta_href='/?rec=prijatelj', cta_text='🤝 Nađi rime za „prijatelj“ →',
              sections=[
                  ('Ključne reči za prijatelje', 'prijatelj, prijateljstvo, vernost, podrška, razumevanje, smeh, tuga, radost, put, sećanje, poverenje.'),
                  ('Kako napisati pesmu za prijatelja?', 'Pomislite na zajedničke avanture, smešne trenutke i trenutke kada vam je bio uz vas.'),
                  ('Čestitka umesto pesme', 'Čak i nekoliko stihova mogu pokazati da ceniš prijateljstvo. Dodaš lični detalj — pesma postaje nezaboravna.'),
              ],
              faqs=[
-                 ('Koje rime idu sa „prijatelj"?', 'Neka rime za prijatelj su: smeh, dnevnik, željeznički, najbolji, srećan, vredan. Bolje je koristiti Rimoteku za sve opcije.'),
+                 ('Koje rime idu sa „prijatelj“?', 'Neka rime za prijatelj su: smeh, dnevnik, željeznički, najbolji, srećan, vredan. Bolje je koristiti Rimoteku za sve opcije.'),
                  ('Da li pesma mora biti ozbiljna?', 'Ne mora. Prijatelji često vole humor i zajebanciju u pesmama.'),
                  ('Kako završiti pesmu za prijatelja?', 'Završi sa željom, zahvalnošću ili unutrašnjom šalom koja je samo vaša.'),
              ]),
@@ -1349,7 +1398,7 @@ def main():
              desc='Rime za tugu, bol, sećanje i oproštaj. Reči koje pomažu da se izrazi tuga, poštovanje prema preminulima ili bol rastanka.',
              h1='Rime za tugu i sećanje',
              lead='U teškim trenucima reči ponekad najteže dolaze. Ovde ćeš pronaći <strong>rime za tugu, bol, sećanje, oproštaj i smrt</strong> — da napišeš ono što nosiš u sebi.',
-             cta_href='/?rec=tuga', cta_text='🕯️ Nađi rime za „tuga" →',
+             cta_href='/?rec=tuga', cta_text='🕯️ Nađi rime za „tuga“ →',
              sections=[
                  ('Ključne reči u teškim trenucima', 'tuga, bol, sećanje, oproštaj, suza, tišina, noć, san, daljina, rastanak, nedostaješ, mir, večnost.'),
                  ('Pesma za preminulog', 'Budite iskreni i jednostavni. Najvažnije je da prenesete ljubav i secanje, a ne savršenu formu.'),
@@ -1357,7 +1406,7 @@ def main():
              ],
              faqs=[
                  ('Kako napisati pesmu za nekog ko je preminuo?', 'Počni od jednog secanja ili osobine. Reci šta ti nedostaje i zahvali se na onom što ste imali.'),
-                 ('Koje rime idu sa „tuga"?', 'Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.'),
+                 ('Koje rime idu sa „tuga“?', 'Neka rime za tuga su: druga, luga, šuga, ruga, kruga — ali izaberi one koje nose pravo značenje za tvoju pesmu.'),
                  ('Da li je u redu napisati pesmu o tuzi?', 'Apsolutno. Poezija je jedan od najstarijih načina da se izraze emocije i pronađe olakšanje.'),
              ]),
         dict(slug='rimovanje-za-pocetnike',
@@ -1369,7 +1418,7 @@ def main():
              sections=[
                  ('Šta je rima?', 'Rima je poklapanje glasova na kraju stihova. Najčešće se rimuju poslednji naglašeni slogovi dve ili više reči.'),
                  ('Osnovne vrste rima', 'Parna rima (AABB), ukrštena rima (ABAB) i obgrljena rima (ABBA) su najčešće šeme za početnike.'),
-                 ('Kako koristiti Rimoteku?', 'Unesi reč u polje za pretragu, klikni „Nađi rime" i biraj najbolju rimu po kvalitetu i broju slogova.'),
+                 ('Kako koristiti Rimoteku?', 'Unesi reč u polje za pretragu, klikni „Nađi rime“ i biraj najbolju rimu po kvalitetu i broju slogova.'),
              ],
              faqs=[
                  ('Da li moram da znam metriku da bih pisao pesme?', 'Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.'),
@@ -1387,6 +1436,55 @@ def main():
         sitemap_entries.append(
             f'  <url><loc>{c}</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq>'
             f'<priority>{cd.get("priority", "0.6")}</priority></url>')
+
+    # 2z) HUB STRANA /rime-za/ — spisak svih strana reči
+    #
+    # Ranije je `/rime-za/` vraćao 403 (folder bez `index.html`), pa je čitav
+    # srednji nivo strukture bio mrtav: breadcrumb ga je preskakao, a 222 strane
+    # reči nisu imale nijedan interni link ka sebi — do njih se stizalo samo iz
+    # sitemapa. Ova strana ih sve povezuje i ujedno gasi 403.
+    hub_canon = f'{BASE}/rime-za/'
+    po_slovu = {}
+    for t in napravljene:
+        prvo = slugify(t)[:1].upper() or '#'
+        po_slovu.setdefault(prvo, []).append(t)
+    hub_sekcije = []
+    for slovo in sorted(po_slovu):
+        veze = ' · '.join(
+            f'<a href="/rime-za/{quote(slugify(w))}/">{esc(w)}</a>'
+            for w in sorted(po_slovu[slovo])
+        )
+        hub_sekcije.append(
+            f'<div class="res-group"><h2 id="slovo-{slovo}">{slovo}</h2>'
+            f'<p class="hub-lista">{veze}</p></div>'
+        )
+    hub_azbuka = ' · '.join(f'<a href="#slovo-{sl}">{sl}</a>' for sl in sorted(po_slovu))
+    hub_schema = json.dumps({
+        "@context": "https://schema.org", "@graph": [
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
+                {"@type": "ListItem", "position": 2, "name": "Rime za reč", "item": hub_canon}]},
+            {"@type": "CollectionPage", "name": "Rime za reč — spisak svih strana",
+             "url": hub_canon, "numberOfItems": len(napravljene)}]
+    }, ensure_ascii=False, indent=1)
+    hub_head = HEAD_TMPL.format(
+        tabs_nav=tabs_nav('rime'),
+        title=f'Rime za reč — spisak svih {len(napravljene)} strana | Rimoteka',
+        desc=f'Spisak svih {len(napravljene)} strana sa rimama, po abecedi. Izaberi reč i vidi sve reči koje se sa njom rimuju.',
+        ogdesc=f'Spisak svih {len(napravljene)} strana sa rimama, po abecedi.',
+        canonical=hub_canon, base=BASE, schema=hub_schema)
+    hub_body = f"""<main class="landing">
+  <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za reč</span></nav>
+  <h1 class="landing-h1">Rime za reč — spisak svih strana</h1>
+  <p class="landing-lead">Za svaku od ovih <strong>{len(napravljene)}</strong> reči postoji zasebna strana sa rimama, brojem slogova i objašnjenjem. Izaberi reč ili je upiši u alat na početnoj.</p>
+  <p class="hub-azbuka">{hub_azbuka}</p>
+  {''.join(hub_sekcije)}
+</main>
+"""
+    with open(os.path.join(outdir, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write((hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
+    sitemap_entries.append(
+        f'  <url><loc>{hub_canon}</loc><lastmod>2026-07-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

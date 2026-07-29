@@ -777,13 +777,34 @@ noteTitle.addEventListener('input', () => {
 });
 function getPoemTitle(){ return noteTitle.value.trim(); }
 
-// Paleta boja za rimske grupe (dovoljno različite, čitljive na svetloj i tamnoj pozadini)
-const RHYME_COLORS = [
-  '#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6',
-  '#1abc9c', '#e67e22', '#d35400', '#c0392b', '#16a085',
-  '#8e44ad', '#2980b9', '#27ae60', '#f1c40f', '#e91e63',
-  '#00bcd4', '#4caf50', '#ff9800', '#673ab7', '#009688'
+/* Paleta boja za rimske grupe.
+ *
+ * Jedna paleta za obe teme NE RADI, i to je izmereno: reč se ispisuje svojom
+ * bojom preko iste te boje na 13% prozirnosti, pa kontrast zavisi isključivo od
+ * toga koliko je boja tamna u odnosu na podlogu. Stara zajednička paleta davala
+ * je u SVETLOJ temi 1,89:1 (zelena), 1,98:1 (narandžasta), 2,14:1 — dakle reč
+ * koja se praktično ne vidi; u tamnoj 3,16:1 (ljubičasta) i 3,83:1 (crvena).
+ *
+ * Zato dve palete: ISTA nijansa i zasićenost, pomerena samo svetlina — dole za
+ * svetlu temu, gore za tamnu. Sve vrednosti su izmerene na ≥ 4,6:1 nad stvarnom
+ * podlogom (bela, odnosno #1e1a2e), sa uračunatom prozirnom pozadinom reči.
+ * Boje ostaju međusobno razlučive, pa rimske grupe i dalje imaju svoju boju. */
+const RHYME_COLORS_SVETLA = [
+  '#c42818', '#1d6da3', '#1b7742', '#925d07', '#8f4bab',
+  '#107461', '#9f5412', '#af4600', '#bc382a', '#107562',
+  '#8e44ad', '#236d9e', '#1a7641', '#7c6507', '#c61350',
+  '#007180', '#337636', '#965a00', '#673ab7', '#00756a'
 ];
+const RHYME_COLORS_TAMNA = [
+  '#eb6d60', '#3a9bdc', '#2ecc71', '#f39c12', '#b584c9',
+  '#1abc9c', '#e67e22', '#f96300', '#de766b', '#17a78b',
+  '#b782ce', '#449cd6', '#27ae60', '#f1c40f', '#f06192',
+  '#00bcd4', '#4caf50', '#ff9800', '#a486d9', '#00a596'
+];
+function rimaBoja(i){
+  const p = document.body.classList.contains('dark-mode') ? RHYME_COLORS_TAMNA : RHYME_COLORS_SVETLA;
+  return p[i % p.length];
+}
 
 // Sonantnosna tolerancija za bojenje: završni suglasnik se pred izgovorom
 // ogusi (grad izgovaramo "grat"), pa bojimo i takve parove — i dalje savršena
@@ -914,7 +935,7 @@ function analyzeRhymes(text){
   let colorIdx = 0;
   groups.forEach((indices, key) => {
     if(indices.length < 2) return;
-    const color = RHYME_COLORS[colorIdx % RHYME_COLORS.length];
+    const color = rimaBoja(colorIdx);
     indices.forEach(idx => colorMap.set(idx, color));
     colorIdx++;
   });
@@ -2368,6 +2389,15 @@ if(darkToggle) darkToggle.onclick = ()=>{
   document.documentElement.classList.toggle('dark-mode', dark);
   localStorage.setItem('rimoteka_dark', dark ? '1' : '0');
   applyDarkIcon();
+  // Boje rima u beležnici su upisane INLINE u HTML pri iscrtavanju, pa ih
+  // promena teme sama ne dira — bez ovoga bi posle prebacivanja ostale boje
+  // stare teme i reč bi opet bila nečitljiva.
+  const ed = document.getElementById('noteEditor');
+  if(ed && typeof setNoteText === 'function' && typeof getEditorText === 'function'){
+    const pos = typeof saveCursorPosition === 'function' ? saveCursorPosition() : null;
+    setNoteText(getEditorText());
+    if(pos && typeof restoreCursorPosition === 'function') restoreCursorPosition(pos);
+  }
 };
 applyDarkIcon();
 

@@ -10,7 +10,7 @@
   --butter:#c3aef0;
   --ink:#393257;
   --ink-soft:#5d5685;
-  --muted:#9a93b8;
+  --muted:#756e94;
   --paper:#fdfcff;
   --line:#e8e4f7;
   --shadow:0 8px 24px rgba(90,63,208,.16);
@@ -19,10 +19,30 @@
      #eafaf4 daje 2,56:1 (ispod AA 4,5:1). Tamnija nijansa iste boje = 5,27:1. */
   --syl-ink:#146ba8;
   --syl-bg:#eafaf4;
+  /* POLJA ZA UNOS — pozadina MORA da ide kroz promenljivu.
+     Ranije je bila tvrdo upisana (`background:#fff`) dok se boja teksta menjala
+     sa temom (`var(--ink)`). U tamnom režimu je to davalo skoro belo slovo na
+     belom polju — kontrast 1,23:1, ne vidi se šta se kuca (nalaz K2). Dodavanje
+     jačeg pravila `body.dark-mode input` NE pomaže: `.search-row input[type=text]`
+     ima specifičnost (0,2,1) i nadjačava ga (0,1,2). Zato promenljiva. */
+  --field-bg:#fff;
+  --field-line:#fff;
+  --menu-bg:#fff;
+  --menu-hover:#f6f0fc;
+  --card-bg:#fff;      /* male bele kutije: tabela, filter slogova, značka */
+  --tag-bg:#f1edfb;    /* oznake šeme rime u Klasicima */
+  --tag-ink:#4557cc;
+  /* LINKOVI U TEKSTU. Do 29.07.2026. im boju NIJE postavljalo nijedno pravilo,
+     pa su uzimali podrazumevanu boju pregledača: #0000EE, a posećeni #551A8B.
+     Na svetloj pozadini to prolazi (9,4:1), ali u tamnom režimu daje 1,80:1
+     odnosno 1,53:1 — „jedva se čitaju", tačno kako je vlasnica prijavila.
+     To je i drugi deo nalaza S8 („interni linkovi 1,8:1"). */
+  --link:#4557cc;
+  --link-visited:#6b3fa0;
 }
 body.dark-mode{
   --lavender:#b8a5f5;
-  --lavender-deep:#8a6de8;
+  --lavender-deep:#9b86ef;
   --rose:#a5b8f8;
   --rose-deep:#7a8ef5;
   --mint:#8fd0f8;
@@ -39,6 +59,15 @@ body.dark-mode{
   --shadow-sm:0 4px 12px rgba(0,0,0,.3);
   --syl-ink:#7fd0ff;
   --syl-bg:#2a2440;
+  --field-bg:#2a2440;
+  --field-line:#3a3450;
+  --menu-bg:#241f38;
+  --menu-hover:#3a3158;
+  --card-bg:#241f38;
+  --tag-bg:#332b52;
+  --tag-ink:#a5b8f8;
+  --link:#a5b8f8;
+  --link-visited:#c9a5f8;
 }
 body.dark-mode{background:#121018}
 /* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
@@ -269,11 +298,24 @@ body.dark-mode .pro-btn{
   background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));
   color:#fff;
 }
+body.dark-mode .notepad-legend .lg-word{
+  /* ista boja koju paleta u app.js koristi za prvu rimsku grupu u tamnoj temi */
+  color:#eb6d60;
+  background:rgba(235,109,96,.133);
+}
 body.dark-mode .rhyme-word{
   border-radius:4px;
   padding:0 2px;
 }
 *{box-sizing:border-box}
+
+/* LINKOVI U TEKSTU — specifičnost je namerno najniža (0,0,1).
+   Tabovi, čipovi, logo, futer, mrvice i dugmad-linkovi imaju svoja pravila sa
+   klasom (0,1,0+) i nadjačavaju ovo, pa im se izgled NE menja. Menja se samo
+   ono što do sada uopšte nije bilo stilizovano — linkovi unutar teksta,
+   odgovora u „Čestim pitanjima" i SEO pasusa. */
+a{color:var(--link)}
+a:visited{color:var(--link-visited)}
 html,body{margin:0;padding:0}
 body{
   font-family:'Quicksand',system-ui,-apple-system,sans-serif;
@@ -435,7 +477,7 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 }
 .tabs button:hover,.tabs a:hover{transform:translateY(-2px);color:var(--lavender-deep)}
 .tabs button.active,.tabs a.active{background:linear-gradient(95deg,var(--lavender),var(--lavender-deep));color:#fff}
-.badge{background:#fff;color:var(--rose-deep);border-radius:999px;padding:.05rem .5rem;font-size:.74rem;font-weight:700;margin-left:.25rem}
+.badge{background:var(--card-bg);color:var(--rose-deep);border-radius:999px;padding:.05rem .5rem;font-size:.74rem;font-weight:700;margin-left:.25rem}
 .tabs button.active .badge,.tabs a.active .badge{color:var(--lavender-deep)}
 
 /* MAIN */
@@ -451,13 +493,13 @@ main{max-width:940px;margin:0 auto;padding:1.4rem clamp(1rem,4vw,2.6rem) 4rem}
 .search-row{position:relative;display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.1rem}
 .search-row input[type=text],.search-row select{
   flex:1;min-width:180px;font:inherit;font-size:1.08rem;font-weight:600;
-  padding:.85rem 1.15rem;border:2px solid #fff;border-radius:18px;
-  background:#fff;color:var(--ink);box-shadow:var(--shadow-sm);
+  padding:.85rem 1.15rem;border:2px solid var(--field-line);border-radius:18px;
+  background:var(--field-bg);color:var(--ink);box-shadow:var(--shadow-sm);
 }
-.autocomplete{position:absolute;top:100%;left:0;right:0;margin-top:.35rem;background:#fff;border-radius:16px;box-shadow:var(--shadow);z-index:70;overflow:hidden;max-height:260px;overflow-y:auto}
+.autocomplete{position:absolute;top:100%;left:0;right:0;margin-top:.35rem;background:var(--menu-bg);border-radius:16px;box-shadow:var(--shadow);z-index:70;overflow:hidden;max-height:260px;overflow-y:auto}
 .autocomplete .ac-item{padding:.75rem 1.1rem;cursor:pointer;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line)}
 .autocomplete .ac-item:last-child{border-bottom:0}
-.autocomplete .ac-item:hover,.autocomplete .ac-item.active{background:#f6f0fc;color:var(--lavender-deep)}
+.autocomplete .ac-item:hover,.autocomplete .ac-item.active{background:var(--menu-hover);color:var(--lavender-deep)}
 .search-row input::placeholder{color:var(--muted);font-weight:500}
 .search-row input[type=text]:focus,.search-row select:focus{outline:0;border-color:var(--lavender)}
 button.primary{
@@ -467,7 +509,7 @@ button.primary{
   box-shadow:0 6px 16px rgba(232,122,166,.35);transition:.18s;
 }
 button.primary:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(232,122,166,.42)}
-button.ghost{border:2px solid #fff;background:#fff;border-radius:18px;cursor:pointer;font-size:1.25rem;padding:0 1.1rem;box-shadow:var(--shadow-sm);transition:.18s}
+button.ghost{border:2px solid var(--field-line);background:var(--field-bg);border-radius:18px;cursor:pointer;font-size:1.25rem;padding:0 1.1rem;box-shadow:var(--shadow-sm);transition:.18s}
 button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 
 /* FILTERS */
@@ -475,7 +517,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .flabel{color:var(--ink-soft);font-size:.92rem;font-weight:600}
 .syl-filter{display:flex;gap:.3rem;flex-wrap:wrap}
 .syl-filter button{
-  border:0;background:#fff;font:inherit;font-weight:600;font-size:.85rem;
+  border:0;background:var(--card-bg);font:inherit;font-weight:600;font-size:.85rem;
   padding:.32rem .8rem;border-radius:999px;cursor:pointer;color:var(--ink-soft);
   box-shadow:var(--shadow-sm);transition:.18s;
 }
@@ -549,7 +591,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .syl-line .count{font-family:'Fredoka',sans-serif;font-weight:600;color:var(--rose-deep);min-width:2.2rem;font-variant-numeric:tabular-nums}
 .syl-line .txt{color:var(--ink)}
 .syl-line .chcount{margin-left:auto;font-size:.74rem;font-weight:600;color:var(--muted);white-space:nowrap}
-.syl-total{margin-top:1rem;font-weight:600;font-family:'Fredoka',sans-serif;color:var(--mint-deep);font-size:1rem}
+.syl-total{margin-top:1rem;font-weight:600;font-family:'Fredoka',sans-serif;color:var(--syl-ink);font-size:1rem}
 .syl-total b{color:var(--rose-deep)}
 .note-stats{margin-top:.7rem;text-align:right;font-size:.85rem;font-weight:600;color:var(--ink-soft)}
 .note-stats:not(:empty){padding:.5rem .9rem;background:#fff;border-radius:14px;box-shadow:var(--shadow-sm);display:inline-block;float:right}
@@ -660,7 +702,7 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 .notepad-legend .lg-drag{color:var(--muted)}
 .notepad-legend .lg-letter{color:var(--lavender-deep)}
 .notepad-legend .lg-num{color:var(--lavender-deep)}
-.notepad-legend .lg-word{color:#e74c3c;background:#e74c3c22;border-radius:4px;padding:0 3px}
+.notepad-legend .lg-word{color:#c42818;background:#c4281822;border-radius:4px;padding:0 3px}
 
 /* METAR — ritam stiha */
 .note-meter{margin-top:.9rem;background:#fff;border-radius:18px;padding:.9rem 1.1rem;box-shadow:var(--shadow-sm);border:2px solid #fff}
@@ -724,7 +766,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .verse{display:flex;align-items:baseline;gap:.7rem}
 .verse .vsyl{flex:0 0 1.6rem;text-align:right;font-family:'Fredoka',sans-serif;font-size:.76rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
 .verse .vtext{flex:1;color:var(--ink);font-size:1.02rem;line-height:1.5}
-.verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Fredoka',sans-serif;font-size:.76rem;font-weight:700;color:var(--rose-deep);background:#f1edfb;border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
+.verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Fredoka',sans-serif;font-size:.76rem;font-weight:700;color:var(--tag-ink);background:var(--tag-bg);border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
 .verse .vrhyme:hover{background:var(--lavender);color:#fff}
 .poem-foot{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft);font-weight:600}
 .poem-scheme b{color:var(--lavender-deep);font-family:'Fredoka',sans-serif}
@@ -800,7 +842,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .landing-faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem}
 
 .seo-p{color:var(--ink-soft);font-size:.96rem;max-width:720px;margin:0}
-.slog-table{border-collapse:collapse;width:100%;max-width:420px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm)}
+.slog-table{border-collapse:collapse;width:100%;max-width:420px;background:var(--card-bg);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm)}
 .slog-table th,.slog-table td{text-align:left;padding:.6rem .9rem;border-bottom:1px solid var(--line)}
 .slog-table th{font-family:'Fredoka',sans-serif;font-weight:600;color:var(--lavender-deep);font-size:.85rem}
 .slog-table td{color:var(--ink);font-size:.95rem}
@@ -947,7 +989,9 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
   font-family:'Fredoka',system-ui,sans-serif;
 }
 .syn-badge{
-  background:var(--mint-deep);color:#fff;font-size:.68rem;font-weight:700;
+  /* belo slovo na svetloplavoj daje 2,76:1 u svetloj i 2,18:1 u tamnoj temi —
+     pada u obe. Tamno slovo na istoj plavoj daje 8,67:1 i ne menja boju značke. */
+  background:var(--mint-deep);color:#121018;font-size:.68rem;font-weight:700;
   letter-spacing:.06em;text-transform:uppercase;
   padding:.2rem .5rem;border-radius:999px;font-family:'Quicksand',sans-serif;
 }
@@ -1060,7 +1104,7 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 }
 
 /* Naslov pesme — opciono polje iznad beležnice */
-.notepad-title{width:100%;box-sizing:border-box;font:inherit;font-size:1.15rem;font-weight:700;text-align:center;padding:.7rem 1rem;margin-bottom:.55rem;border:2px solid #fff;border-radius:14px;background:#fff;color:var(--ink);box-shadow:var(--shadow-sm)}
+.notepad-title{width:100%;box-sizing:border-box;font:inherit;font-size:1.15rem;font-weight:700;text-align:center;padding:.7rem 1rem;margin-bottom:.55rem;border:2px solid var(--field-line);border-radius:14px;background:var(--field-bg);color:var(--ink);box-shadow:var(--shadow-sm)}
 .notepad-title::placeholder{color:var(--muted);font-weight:500}
 .notepad-title:focus{outline:0;border-color:var(--lavender)}
 body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:var(--line)}

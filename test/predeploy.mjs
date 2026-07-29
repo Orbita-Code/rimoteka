@@ -630,6 +630,130 @@ async function main() {
     ok('tamni režim ne baca grešku pri učitavanju', darkGreske.length === 0, darkGreske.slice(0, 3).join(' | '));
     await pDark.close();
 
+    // Vlasnica je 29.07.2026. prijavila tri stvari koje merenje pre toga nije
+    // videlo: reč koja uđe u polje se ne vidi, tabela na /slogovi/ se ne vidi, a
+    // linkovi u tekstu se „jedva čitaju". Sve tri su bile ista greška — boja
+    // teksta se menja sa temom, a podloga (ili boja linka) ne. Ova provera meri
+    // SVAKI vidljivi tekst na više strana i tabova, u OBE teme, sa upisanim
+    // sadržajem, i pada ako ijedan padne ispod praga.
+    console.log('\n10c) KONTRAST U OBE TEME — svaki tekst, sa upisanim sadržajem');
+    const MERI_KONTRAST = () => {
+      const lum = c => {
+        const m = (c || '').match(/[\d.]+/g);
+        if (!m) return null;
+        const [r, g, b] = m.slice(0, 3).map(Number).map(v => {
+          v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+        });
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+      };
+      const razlozi = c => {
+        const m = (c || '').match(/[\d.]+/g);
+        if (!m) return null;
+        return { r: +m[0], g: +m[1], b: +m[2], a: m.length > 3 ? +m[3] : 1 };
+      };
+      // prozirne podloge se SLAŽU sa onim ispod; prelivi se preskaču
+      const poz = e => {
+        const sl = [];
+        let n = e;
+        while (n && n !== document.documentElement) {
+          const cs = getComputedStyle(n);
+          if (/gradient/.test(cs.backgroundImage)) return null;
+          const c = razlozi(cs.backgroundColor);
+          if (c && c.a > 0) { sl.push(c); if (c.a >= 1) break; }
+          n = n.parentElement;
+        }
+        if (!sl.length || sl[sl.length - 1].a < 1) {
+          sl.push(razlozi(getComputedStyle(document.documentElement).backgroundColor) || { r:255,g:255,b:255,a:1 });
+        }
+        let o = sl[sl.length - 1];
+        for (let i = sl.length - 2; i >= 0; i--) {
+          const s = sl[i];
+          o = { r: s.r*s.a + o.r*(1-s.a), g: s.g*s.a + o.g*(1-s.a), b: s.b*s.a + o.b*(1-s.a), a: 1 };
+        }
+        return `rgb(${Math.round(o.r)}, ${Math.round(o.g)}, ${Math.round(o.b)})`;
+      };
+      const vidljiv = e => {
+        const cs = getComputedStyle(e);
+        if (cs.display === 'none' || cs.visibility === 'hidden' || +cs.opacity === 0) return false;
+        const r = e.getBoundingClientRect();
+        return r.width > 0 && r.height > 0;
+      };
+      const opis = e => {
+        let s = e.tagName.toLowerCase();
+        if (e.id) s += '#' + e.id;
+        else if (e.className && typeof e.className === 'string') s += '.' + e.className.trim().split(/\s+/)[0];
+        return s;
+      };
+      let najgori = null;
+      const proveri = (e, tekst) => {
+        if (!vidljiv(e)) return;
+        if (e.closest('[aria-hidden="true"], .sr-only')) return;
+        const cs = getComputedStyle(e);
+        const bg = poz(e);
+        if (!bg) return;
+        const l1 = lum(cs.color), l2 = lum(bg);
+        if (l1 === null || l2 === null) return;
+        const o = +(((Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05))).toFixed(2);
+        const px = parseFloat(cs.fontSize);
+        const veliki = px >= 24 || (px >= 18.66 && +cs.fontWeight >= 700);
+        const prag = veliki ? 3 : 4.5;
+        if (o < prag && (!najgori || o < najgori.odnos)) {
+          najgori = { odnos: o, prag, gde: opis(e), tekst: (tekst || '').trim().slice(0, 24), boja: cs.color, pozadina: bg };
+        }
+      };
+      document.querySelectorAll('body *').forEach(e => {
+        if (/^(SCRIPT|STYLE|NOSCRIPT|SVG|PATH|IMG|BR|HR)$/.test(e.tagName)) return;
+        const svoj = [...e.childNodes].filter(n => n.nodeType === 3 && n.textContent.trim()).map(n => n.textContent).join(' ');
+        if (svoj.trim()) proveri(e, svoj);
+      });
+      // polja se mere SA UPISANOM VREDNOŠĆU — vrednost živi u `.value`, ne u `textContent`
+      document.querySelectorAll('input:not([type=checkbox]):not([type=radio]), textarea, [contenteditable]').forEach(e => {
+        proveri(e, e.value !== undefined ? e.value : e.textContent);
+      });
+      return najgori;
+    };
+
+    // JEDNA strana za svih 12 merenja, namerno. Svaki `browser.newPage()` pravi
+    // nov kontekst sa praznim kešom, pa bi svako merenje iznova skinulo reci.txt
+    // (2,6 MB) i definicije.json (20 MB) — 12 × 22 MB obori lokalni server i test
+    // padne bez ijednog pravog kvara.
+    const pk = await browser.newPage();
+    for (const tema of ['tamna', 'svetla']) {
+      for (const [put, tab] of [['/', null], ['/', 'slogovi'], ['/', 'beleznica'], ['/', 'klasici'],
+                                ['/slogovi/', null], ['/rime-za/ljubav/', null]]) {
+        await pk.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+        // Tema se postavlja I preko klase, ne samo preko localStorage — da provera
+        // radi i protiv STARE verzije, gde se tema pri učitavanju gubila (K1).
+        await pk.evaluate(t => {
+          try { localStorage.setItem('rimoteka_dark', t === 'tamna' ? '1' : '0'); } catch (e) {}
+          document.body.classList.toggle('dark-mode', t === 'tamna');
+          document.documentElement.classList.toggle('dark-mode', t === 'tamna');
+        }, tema);
+        await pauza(500);
+        await pk.evaluate(async t => {
+          const w = ms => new Promise(r => setTimeout(r, ms));
+          if (t && typeof switchTab === 'function') { switchTab(t); await w(400); }
+          const ri = document.getElementById('rimeInput');
+          if (ri && !ri.closest('[aria-hidden="true"]')) {
+            ri.value = 'ljubav';
+            const b = document.getElementById('rimeBtn');
+            if (b) { b.click(); await w(1200); }
+          }
+          const sy = document.getElementById('sylInput');
+          if (sy) { sy.value = 'Ljubav je srce\nkoje kuca'; sy.dispatchEvent(new Event('input', { bubbles: true })); await w(600); }
+          const ne = document.getElementById('noteEditor');
+          if (ne) { ne.textContent = 'Kad me pitaš gde je nada\nja ti kažem tu je kada'; ne.dispatchEvent(new Event('input', { bubbles: true })); await w(900); }
+          document.querySelectorAll('details').forEach(d => d.open = true);
+        }, tab).catch(() => {});
+        await pauza(600);
+        const n = await pk.evaluate(MERI_KONTRAST);
+        const ime = put + (tab ? ` [tab ${tab}]` : '');
+        ok(`${tema} tema · ${ime} → svaki tekst čitljiv`, n === null,
+           n ? `${n.gde} „${n.tekst}" = ${n.odnos}:1 (treba ${n.prag}) — ${n.boja} na ${n.pozadina}` : '');
+      }
+    }
+    await pk.close();
+
     console.log('\n11) LOGO — mora ostati veliki, sa fontom Fredoka');
     const logo = await page.evaluate(() => {
       const el = document.querySelector('.brand-logo, .brand h1, .brand-h');

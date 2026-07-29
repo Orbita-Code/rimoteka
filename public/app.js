@@ -139,7 +139,7 @@ let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'strin
 const VOWELS = new Set(['a','e','i','o','u']);
 
 /* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
-const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','kura','dupeta','dubre','dubretar','pisaju','pisao','pisa','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','krvavo','krvavi','krvava','govnar','govnari','smece','smetlar','smetlarka']);
+const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka']);
 
 /* Dečji režim — dodatne reči koje nisu pogodne za decu (seksualne, nasilne, psihološki teške) */
 const KIDS_BLOCKED = new Set([
@@ -607,7 +607,17 @@ jekToggle.addEventListener('change', e=>{
   if(searchInput.value.trim()) doSearch();
 });
 // Dečji režim — filtrira neprikladne reči za decu
+/* Dečji režim se može uključiti i adresom: `?decji=1`.
+   Strane za decu su tvrdile da su rezultati „uvek filtrirani i bezbedni", a
+   dodatni dečji filter je podrazumevano bio ISKLJUČEN. Sada dugme sa tih strana
+   vodi na alat sa uključenim režimom, a tekst na njima kaže kako stvari stoje. */
 let kidsMode = lsGet('rimoteka_kids') === '1';
+try{
+  if(new URLSearchParams(location.search).get('decji') === '1'){
+    kidsMode = true;
+    lsSet('rimoteka_kids', '1');
+  }
+}catch(e){}
 const kidsToggle = el('kidsToggle');
 kidsToggle.checked = kidsMode;
 kidsToggle.addEventListener('change', e=>{

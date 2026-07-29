@@ -175,7 +175,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=2"></script>
-<link rel="stylesheet" href="/style.css?v=20260729a">
+<link rel="stylesheet" href="/style.css?v=20260729b">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -282,7 +282,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260729a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260729b"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi",
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -551,7 +551,7 @@ def main():
     wset = set(words)
 
     # Reči koje se nikad ne prikazuju kao rime (neprikladne, vulgarnosti)
-    BLOCKED = {'dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','kura','dupeta','dubre','dubretar','pisaju','pisao','pisa','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','krvavo','krvavi','krvava','govnar','govnari','smece','smetlar','smetlarka'}
+    BLOCKED = {'dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka'}
     # Kontekstualna isključenja: za određenu reč NE prikazuj određene rime
     RHYME_EXCLUSIONS = {
         'dete': {'bidete','bide','bidi'}
@@ -1169,17 +1169,17 @@ def main():
              title='Rime za decu — bezbedne i lepe reči za dečje pesmice | Rimoteka',
              desc='Rime za decu: bezbedne, lepe i razumljive reči za dečje pesmice, igre i učenje. Filtrirano od neprikladnih reči — besplatan alat.',
              h1='Rime za decu',
-             lead=f'Rimoteka je <strong>filtrirana od neprikladnih reči</strong>, pa je idealna za pravljenje dečjih pesmica. Evo popularnih, bezbednih reči koje se lepo rimuju i koje deca lako pamte: {deciji_chips}',
-             cta_href='/?rec=dete', cta_text='🧸 Pronađi još rima za decu →',
+             lead=f'Rimoteka <strong>uvek</strong> izostavlja psovke i vulgarnosti, a za decu ima i <strong>dečji režim</strong> — dodatni filter koji uklanja i nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim" ispod polja za unos, a dugme ispod ga uključi samo. Evo popularnih reči koje se lepo rimuju i koje deca lako pamte: {deciji_chips}',
+             cta_href='/?rec=dete&decji=1', cta_text='🧸 Otvori alat sa uključenim dečjim režimom →',
              sections=[
-                 ('Zašto Rimoteka za decu?', 'Rečnik je pročišćen od psovki, vulgarnosti i reči koje nisu primerene za decu. Roditelji i učitelji mogu slobodno da traže rime za pesmice i igre.'),
+                 ('Zašto Rimoteka za decu?', 'Rečnik je uvek pročišćen od psovki i vulgarnosti. Uz to postoji i dečji režim, koji dodatno uklanja nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom, i ostaje upamćen na tom uređaju.'),
                  ('Popularne reči za dečje pesmice', 'mama, tata, dete, igra, sreća, radost, prijatelj, škola, knjiga, lopta, mačka, pas, ptica, cvet, sunce, mesec, zvezda, kiša, sneg.'),
                  ('Kako napisati dečju pesmicu?', 'Koristi kratak stih, ponavljanje i jednostavne reči. Rime koje deca lako pamte čine pesmicu zabavnom i pevljivom.'),
              ],
              faqs=[
-                 ('Da li su rime na Rimoteci bezbedne za decu?', 'Da. Rimoteka je filtrirana od neprikladnih reči i pogrdnih izraza, pa je pogodna za decu, roditelje i učitelje.'),
+                 ('Da li su rime na Rimoteci bezbedne za decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za najmlađe preporučujemo da uključiš i dečji režim (kvačica ispod polja za unos) — on dodatno uklanja nasilne i seksualne pojmove.'),
                  ('Koje reči su dobre za dečje pesmice?', 'Jednostavne, slikovite reči kao što su dete, igra, sreća, sunce, mesec, zvezda, cvet, mama, tata, prijatelj.'),
-                 ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime". Rezultati su filtrirani i bezbedni.'),
+                 ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime". Ako je uključen dečji režim, rezultati su dodatno filtrirani za decu.'),
              ]),
         dict(slug='rime-za-pesmu',
              title='Rime za pesmu — reči koje se rimuju za pisanje poezije | Rimoteka',
@@ -1268,8 +1268,8 @@ def main():
              title='Rime za decu o životinjama — vesele dečje pesmice | Rimoteka',
              desc='Rime za decu o životinjama: mačka, pas, ptica, konj, lav i druge. Bezbedne i razumljive reči za dečje pesmice i igre.',
              h1='Rime za decu o životinjama',
-             lead='Deca obožavaju životinje. Ovde ćeš pronaći <strong>bezbedne rime</strong> za mačku, psa, pticu, konja, lava i druge životinje — idealno za pesmice i učenje.',
-             cta_href='/?rec=macka', cta_text='🐱 Nađi rime za „mačka" →',
+             lead='Deca obožavaju životinje. Ovde ćeš pronaći rime za mačku, psa, pticu, konja, lava i druge životinje — idealno za pesmice i učenje. Za najmlađe uključi i <strong>dečji režim</strong>; dugme ispod to radi samo.',
+             cta_href='/?rec=macka&decji=1', cta_text='🐱 Nađi rime za „mačka" (dečji režim) →',
              sections=[
                  ('Popularne životinje u dečjim pesmicama', 'mačka, pas, ptica, konj, lav, golub, leptir, pčela, riba, zmija, vuk, orao.'),
                  ('Kako napisati pesmicu o životinji?', 'Opiši kako izgleda, šta voli da radi i kakav zvuk proizvodi. Koristi ponavljanje i jednostavne rime.'),
@@ -1277,15 +1277,15 @@ def main():
              ],
              faqs=[
                  ('Koje životinje su najbolje za dečje pesmice?', 'Mačke, psi, ptice, konji, lavovi i pčele su klasici jer su deci bliski i lako se opisuju.'),
-                 ('Da li su rime bezbedne za najmlađu decu?', 'Da. Rimoteka je filtrirana od neprikladnih reči, pa je pogodna i za vrtićku decu.'),
+                 ('Da li su rime bezbedne za najmlađu decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za vrtićku decu uključi i dečji režim — kvačica „dečji režim" ispod polja za unos.'),
                  ('Kako deca najbolje uče pesmice napamet?', 'Kroz ponavljanje, pokrete i igru. Što je pesma kraća i melodičnija, brže će je zapamtiti.'),
              ]),
         dict(slug='rime-za-decu-o-prirodi',
              title='Rime za decu o prirodi — sunce, mesec, kiša, sneg | Rimoteka',
              desc='Rime za decu o prirodi: sunce, mesec, zvezda, oblak, kiša, sneg, cvet i druge reči. Bezbedne pesmice za decu i učitelje.',
              h1='Rime za decu o prirodi',
-             lead='Priroda je najlepša inspiracija za dečje pesmice. Pronađi bezbedne rime za <strong>sunce, mesec, zvezde, kišu, sneg, cvetove</strong> i piši pesmice koje deca vole.',
-             cta_href='/?rec=sunce', cta_text='☀️ Nađi rime za „sunce" →',
+             lead='Priroda je najlepša inspiracija za dečje pesmice. Pronađi rime za <strong>sunce, mesec, zvezde, kišu, sneg, cvetove</strong> i piši pesmice koje deca vole. Za najmlađe uključi i <strong>dečji režim</strong>; dugme ispod to radi samo.',
+             cta_href='/?rec=sunce&decji=1', cta_text='☀️ Nađi rime za „sunce" (dečji režim) →',
              sections=[
                  ('Teme iz prirode za decu', 'sunce, mesec, zvezda, nebo, oblak, kiša, sneg, vetar, more, reka, planina, šuma, drvo, cvet, trava.'),
                  ('Sezonske pesmice', 'Proleće — cvetovi i povratak toplote. Leto — sunce i more. Jesen — kiša i opalo lišće. Zima — sneg i novogodišnja čarolija.'),
@@ -1294,7 +1294,7 @@ def main():
              faqs=[
                  ('Koje reči iz prirode se najčešće rimuju?', 'sunce — mesece, zvezda — nebesa, kiša — bliza, sneg — beg, cvet — svet, reka — čeka.'),
                  ('Kako deca uče o prirodi kroz pesme?', 'Pesmice pomažu deci da zapamte nazive pojava, boje, zvukove i sezone na zabavan način.'),
-                 ('Da li mogu koristiti ove pesmice u vrtiću?', 'Da, sve reči su bezbedne i primerene za decu, vrtiće i škole.'),
+                 ('Da li mogu koristiti ove pesmice u vrtiću?', 'Da. Uz uključen dečji režim rezultati su dodatno filtrirani za vrtiće i škole.'),
              ]),
         dict(slug='rime-za-novu-godinu',
              title='Rime za Novu godinu — čestitke, pesmice i želje | Rimoteka',

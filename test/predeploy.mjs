@@ -1689,6 +1689,80 @@ async function main() {
       await p17b.close();
     }
 
+    console.log('\n18) DEČJI REŽIM — sedam pogrešno blokiranih reči, vulgarne ostaju (K3, odeljak 1)');
+    /* Lista `BLOCKED` je pisana bez kvačica, pa je umesto vulgarnog „pišati"
+       hvatala obično „pisati" — na sajtu za pisanje pesama. Vlasnica je odobrila
+       uklanjanje tačno sedam reči: pisao, pisa, krvavi, krvava, krvavo,
+       smetlar, kura. Vulgarne ostaju blokirane i to se ovde proverava. */
+    {
+      const p18 = await browser.newPage();
+      await p18.goto(BASE, { waitUntil: 'domcontentloaded' });
+      await p18.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+
+      // pretraga rečnika je NAJDIREKTNIJA provera liste — rangiranje ne utiče
+      const pretrazi = async q => p18.evaluate(async (q) => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.querySelector('#searchMode').value = 'contains';
+        document.getElementById('searchInput').value = q;
+        document.getElementById('searchBtn').click();
+        await w(700);
+        return [...document.querySelectorAll('#searchResults .word')].map(e => e.textContent.trim());
+      }, q);
+      await p18.click('#tabs [data-tab="pretraga"]');
+      await pauza(300);
+      for (const w of ['pisao', 'pisa', 'krvavi', 'krvava', 'krvavo', 'smetlar', 'kura']) {
+        const r = await pretrazi(w);
+        ok(`K3 rečnik vraća „${w}" (nije više pogrešno blokirano)`, r.includes(w),
+           `${r.length} pogodaka, nema „${w}"`);
+      }
+      for (const w of ['dupe', 'guzica', 'jebem', 'govno']) {
+        const r = await pretrazi(w);
+        ok(`K3 vulgarno „${w}" i dalje NIJE u rezultatima`, !r.includes(w), `nađeno „${w}"`);
+      }
+
+      await p18.click('#tabs [data-tab="rime"]');
+      await pauza(300);
+      const rime18 = async q => p18.evaluate(async (q) => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        document.getElementById('rimeInput').value = q;
+        document.getElementById('rimeBtn').click();
+        await w(900);
+        return [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim());
+      }, q);
+      for (const [trazi, mora] of [['disao', 'pisao'], ['stolar', 'smetlar'], ['gura', 'kura']]) {
+        const r = await rime18(trazi);
+        ok(`K3 rime za „${trazi}" sadrže „${mora}"`, r.includes(mora), `${r.length} rima bez „${mora}"`);
+      }
+      for (const [trazi, nesme] of [['grupe', 'dupe'], ['lupeta', 'dupeta']]) {
+        const r = await rime18(trazi);
+        ok(`K3 rime za „${trazi}" NE sadrže „${nesme}"`, !r.includes(nesme), `nađeno „${nesme}"`);
+      }
+      await p18.close();
+    }
+
+    console.log('\n18b) STRANE ZA DECU GOVORE ISTINU O FILTERU');
+    {
+      const p18b = await browser.newPage();
+      await p18b.goto(BASE + '/?rec=dete&decji=1', { waitUntil: 'domcontentloaded' });
+      await p18b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await pauza(600);
+      const kids = await p18b.evaluate(() => document.getElementById('kidsToggle').checked);
+      ok('?decji=1 uključuje dečji režim', kids === true, `kvačica: ${kids}`);
+
+      for (const s of ['/rime-za-decu/', '/rime-za-decu-o-zivotinjama/', '/rime-za-decu-o-prirodi/']) {
+        await p18b.goto(BASE + s, { waitUntil: 'domcontentloaded' });
+        await pauza(300);
+        const d = await p18b.evaluate(() => ({
+          lead: document.querySelector('.landing-lead')?.textContent || '',
+          cta: document.querySelector('.landing-cta')?.getAttribute('href') || ''
+        }));
+        ok(`${s} pominje dečji režim umesto da tvrdi da je uvek uključen`,
+           /dečji režim/i.test(d.lead), d.lead.slice(0, 90));
+        ok(`${s} dugme vodi na alat sa uključenim režimom`, /decji=1/.test(d.cta), d.cta);
+      }
+      await p18b.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

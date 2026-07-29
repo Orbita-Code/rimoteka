@@ -6,17 +6,22 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `/Users/jovana.jovic/AUDIT-PROTOKOL.md`
 
-**Stanje na dan 29.07.2026 uveče (posle šest prijava vlasnice): 9 otvorenih nalaza.**
+**Stanje na dan 29.07.2026 uveče: 9 otvorenih nalaza** (šest prijava vlasnice + dva nalaza iz merenja).
 > **Popravljeno i testirano 29.07. uveče, čeka push (5):** P9 (osvežavanje ne vraća
 > na vrh), P12 (link „Početna" u redu sa autorskim pravima), P13 (čipovi u pasusu
 > jedan ispod drugog), P14 (Google prikazuje definiciju umesto opisa alata),
-> P15 (osam grešaka u vidljivom tekstu, među njima reč koja ne postoji).
+> P15 (osam grešaka u vidljivom tekstu, među njima reč koja ne postoji),
+> P16 (strana skače 50 px dok se učitava — CLS 0,2853).
 >
 > **Odloženo odlukom vlasnice (2):** P10 (strane reči birane po abecedi, 1.577 od
 > 1.988 na slovo „a") i P11 (hub `/rime-za/` je zid od 1.988 linkova) — **isti
 > uzrok**, plan u `TODO.md`, odeljak 0.0.
 >
-> **Moje, bez popravke (2):** N12 i P2.
+> **Moje, bez popravke (1):** N12 (302 umesto 301 — traži Coolify panel).
+>
+> **Zatvoreno merenjem:** **P2** (CLS na `/rime-za/`) — popravka preload-a fonta iz
+> prethodne sesije **jeste radila**, samo nikad nije bila izmerena: `/rime-za/ljubav/`
+> daje **CLS 0,0003** (bilo 0,045). Merenje je usput otkrilo **P16**, gori od njega.
 >
 > **Sve prijave vlasnice odnose se na stvari koje je test propuštao.** Videti
 > `PROPUSTI.md`, pravila 25–28.
@@ -38,7 +43,7 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (9) — 5 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 2 moja
+## OTVORENO (9) — 6 popravljenih a nepushovanih, 2 odložena odlukom vlasnice, 1 moj
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
@@ -50,7 +55,7 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 | **P15** | **Greške u vidljivom tekstu tematskih strana**, nađene puštanjem celog teksta sajta kroz rečnik od 270.000 reči: `toast` umesto **zdravica** (7 mesta, `/rime-za-svadbu/`), `zaverno` — **reč ne postoji** (0 pogodaka u `reci.txt`), `Budan kratak` umesto „Budi kratak", `klisheeve` umesto **klišee**, `njezinu` (hrvatski) umesto **njenu**, `odaberim` umesto **odaberi**, `secanje/secanja` bez kvačice (3 mesta), `zajebanciju` → **zezanje**. | **POPRAVLJENO, čeka push.** | `build/gen_pages.py` | 29.07. |
 | **P12** | Na podstranama je u redu sa autorskim pravima stajao link **„Početna"** umesto teksta „Sva prava zadržana" — navigacija u redu sa autorskim pravima, gde joj nije mesto. | **POPRAVLJENO, čeka push.** Oba futera sada čitaju isto. Povratak na početnu i dalje postoji na dva mesta: logo u zaglavlju i traka alata. | `build/gen_pages.py:296` | 29.07. |
 | **N12** | `http://rimoteka.com` vraća **302** umesto **301** | Preusmerenje radi **Traefik u Coolify-ju**, ne nginx iz repozitorijuma (`Location` je apsolutan, a nginx ima `absolute_redirect off`). Traži pristup panelu: Coolify → Rimoteka → Domains, ili oznaka `traefik.http.middlewares.…redirectscheme.permanent=true`. | Coolify / Traefik | 28.07. |
-| **P2** | CLS 0,045 na podstranama `/rime-za/` zbog kasne zamene Google fontova | Popravka je **primenjena** (`<link rel="preload" as="style">` na sve tri vrste strana), ali **NIJE izmerena** — mašina je u toku sesije ostala bez efemernih portova (v. `PROPUSTI.md`), pa merenje Core Web Vitals nije moglo da se izvrši. **Nalaz ostaje otvoren dok se ne izmeri.** | `public/index.html` · `build/gen_pages.py` · `public/404.html` | 29.07. |
+| **P16** | **Strana skače 50 px dok se učitava** — kad Quicksand i Fredoka stignu sa Google-a, tekst promeni širinu, red filtera izgubi jednu liniju i sve ispod se pomeri. Izmereno na produkciji, brza veza: `/` **CLS 0,2853** (Google: „loše"), `/rimovanje-reci/` **0,2819**. Na 4G je bilo uredno (0,0032) — zato ni jedan raniji audit nije video, merio je sporu vezu. | **POPRAVLJENO, čeka push.** Rezervni font sa usklađenim merama (`@font-face` „…rezerva", `size-adjust` 103,6% i 98,2% — izmereno, ne procenjeno). Posle: `/` **0,0065**, `/rimovanje-reci/` **0,0053**. | `public/style.css:319` | 29.07. |
 
 ---
 

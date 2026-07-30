@@ -823,7 +823,13 @@ async function main() {
     }
     await pk.close();
 
-    console.log('\n11) LOGO — mora ostati veliki, sa fontom Fredoka');
+    /* Do 30.07.2026. je logo bio Fredoka, a ostatak sajta Quicksand. Vlasnica je tog dana
+       odlučila: **jedan font na celoj temi** — Rubik. Razlog nije ukus nego kvar: Fredoka
+       NEMA slova č, ć, đ ni ђ ћ њ љ џ (izmereno — imala su tačno širinu sistemskog serifa),
+       pa je svako „reč" u naslovu mešalo dva fonta, na svih 1.993 strane. Quicksand nema
+       ćirilicu uopšte. Rubik ima sve, provereno merenjem širine glifa.
+       Pravilo 8a i dalje važi: veličina i debljina logotipa se NE diraju. */
+    console.log('\n11) LOGO — mora ostati veliki, sa fontom Rubik (jedan font na celom sajtu)');
     const logo = await page.evaluate(() => {
       const el = document.querySelector('.brand-logo, .brand h1, .brand-h');
       if (!el) return { greska: 'nema logo' };
@@ -831,7 +837,8 @@ async function main() {
       const r = el.getBoundingClientRect();
       return { font: cs.fontFamily, px: parseFloat(cs.fontSize), sirina: Math.round(r.width) };
     });
-    ok('logo koristi font Fredoka', /Fredoka/i.test(logo.font || ''), `font: ${logo.font}`);
+    ok('logo koristi font Rubik (isti kao ceo sajt)', /Rubik/i.test(logo.font || ''), `font: ${logo.font}`);
+    ok('nijedan stari font nije ostao u logotipu', !/Fredoka|Quicksand|Fira Sans/i.test(logo.font || ''), `font: ${logo.font}`);
     ok('logo nije smanjen (font-size ≥ 32px)', logo.px >= 32, `${logo.px}px`);
 
     console.log('\n12) SEO — jedan h1 po strani');

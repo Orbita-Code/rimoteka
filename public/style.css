@@ -306,62 +306,40 @@ body.dark-mode .rhyme-word{
 a{color:var(--link)}
 a:visited{color:var(--link-visited)}
 
-/* ── REZERVNI FONTOVI SA USKLAĐENIM MERAMA ───────────────────────────────────
-   Zašto ovo postoji: strana se prvo iscrta rezervnim (sistemskim) fontom, pa
-   kad Fira Sans i Fredoka stignu sa Google-a, tekst promeni širinu i sve se
-   pomeri. Na `/rimovanje-reci/` je red filtera zbog toga gubio jednu liniju i
-   ceo sadržaj ispod skakao je 50 px — u 736 ms, tačno kad font stigne.
+/* ── REZERVNI FONT SA USKLAĐENIM MERAMA ──────────────────────────────────────
+   Zašto ovo postoji: strana se prvo iscrta rezervnim (sistemskim) fontom, pa kad
+   Rubik stigne sa Google-a, tekst promeni širinu i sve se pomeri (nalaz P16 — na
+   `/rimovanje-reci/` je red filtera gubio liniju i sadržaj skakao 50 px). Rešenje
+   je da rezervni font zauzme ISTU širinu, pa zamena bude nevidljiva.
 
-   Izmereno na produkciji 29.07.2026 (CLS, brza veza):
-     `/`                 0,2853  ❌   |  `/rimovanje-reci/`  0,1104  ⚠️
-   Na 4G je bilo uredno (0,0032) — jer tamo strana ionako čeka font, pa zamene
-   nema. Zato se ovaj kvar NE vidi ako se meri samo spora veza.
+   30.07.2026 — CEO SAJT JE NA JEDNOM FONTU: **Rubik**. Ranije su bila dva
+   (Quicksand za tekst, Fredoka za naslove i logo) i oba su bila pokvarena za srpski:
+     · Quicksand NEMA ćirilicu uopšte;
+     · Fredoka NEMA slova č, ć, đ ni ђ ћ њ љ џ — izmereno: ta slova su u njoj imala
+       TAČNO širinu sistemskog serifa, dok su š i ž iz istog latin-ext fajla radila.
+       Zato je svako „reč" u naslovu mešalo dva fonta, na svih 1.993 strane.
+   `unicode-range` NAJAVLJUJE opseg, ali NE garantuje da glyph postoji — zato se
+   prisustvo slova proverava merenjem širine (`test/meri-font.mjs`).
 
-   Rešenje nije da se čeka font (belo platno) niti da se font odustane
-   (`font-display:optional` bi na sporoj vezi ubio Fredoku u logotipu, a to je
-   pravilo 8a). Rešenje je da rezervni font zauzme ISTU širinu i visinu, pa
-   zamena bude nevidljiva.
-
-   Brojevi su izmereni, ne procenjeni — širina istih rečenica sa sajta:
-     Fredoka   : Arial = 0,9822 i 0,9819  →  size-adjust  98,2%
-   ascent/descent očitani iz samih fontova preko canvas metrika.
-   Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve.
-
-   30.07.2026 — TEKST PREBAČEN SA QUICKSAND NA PT SANS.
-   Razlog (nalaz T1): Quicksand NEMA ćirilicu. Google za njega nudi samo podskupove
-   `latin`, `latin-ext`, `vietnamese` — nijedan `unicode-range` ne pokriva U+0400–04FF.
-   A Rimoteka ima ćirilični režim, pa je u njemu sav tekst padao na sistemski font, i
-   to na svih 1.988 generisanih strana. Fira Sans (ParaType) ima `cyrillic` i
-   `cyrillic-ext`, pravljen je prvo za ćirilicu, i ima srpske lokalizovane oblike.
-   Logo ostaje Fredoka (pravilo 8a) — ne dira se.
-
-   Odnos širina IZMEREN 30.07.2026 u Chromiumu (`test/meri-font.mjs`), na pravim
-   rečenicama sa sajta, u latinici I ćirilici:
-     latinica  0,9936 i 1,0292  →  prosek 1,0114
-     ćirilica  1,0165 i 0,9963  →  prosek 1,0064
-     ukupan prosek 1,0089  →  size-adjust 100,9%
-   metrike Fira Sans: ascent 0,93  descent 0,26
-
-   ⚠️ ZAMKA, i skupo plaćena: prvo merenje je dalo 0,9043 i „size-adjust 90,4%" —
-   NETAČNO, jer skripta nije čekala da se font UČITA, pa je merila Arial protiv
-   Ariala. Jedini znak da nešto nije u redu bio je taj što su za DVA različita fonta
-   izašli ISTI brojevi. Zato skripta sada PADA ako `document.fonts.check` vrati false,
-   i to za latinicu i ćirilicu odvojeno — kod Google-a je ćirilica poseban fajl
-   (`unicode-range`), pa se mora tražiti ćiriličnim tekstom. */
+   Odnos širina IZMEREN 30.07.2026 u Chromiumu, na rečenicama sa sajta:
+     latinica 1,0087 i 1,0295   ćirilica 1,0228 i 1,0173   prosek 1,0196
+     → size-adjust 106,6% (podešeno po traci tabova, ne po prozi — v. dole) · metrike Rubik: ascent 0,93 descent 0,25
+   ⚠️ MERI SE ONO ŠTO SE POMERA, NE PROZA. Prvo merenje je dalo 102,0% (prosek dve
+   rečenice teksta) i CLS je skočio na **0,37** — jer se ne pomera pasus nego TRAKA
+   TABOVA, a njen tekst („Rimovanje reči · Rečnik · Brojač slogova…") ima drugi odnos
+   širina: Rubik/Arial = 1,0662. Sa 106,6% CLS je 0,0028.
+   Postupak: `layout-shift.sources` kaže KOJI element se pomera, pa se `size-adjust`
+   podešava po ŠIRINI TOG ELEMENTA.
+   Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve. */
 @font-face{
-  font-family:'Fira Sans rezerva';
+  font-family:'Rubik rezerva';
   src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');
-  size-adjust:100.9%;ascent-override:93%;descent-override:26%;line-gap-override:0%;
-}
-@font-face{
-  font-family:'Fredoka rezerva';
-  src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');
-  size-adjust:98.2%;ascent-override:97%;descent-override:24%;line-gap-override:0%;
+  size-adjust:106.6%;ascent-override:93%;descent-override:25%;line-gap-override:0%;
 }
 
 html,body{margin:0;padding:0}
 body{
-  font-family:'Fira Sans','Fira Sans rezerva',system-ui,-apple-system,sans-serif;
+  font-family:'Rubik','Rubik rezerva',system-ui,-apple-system,sans-serif;
   font-weight:500;
   color:var(--ink);
   line-height:1.55;
@@ -371,7 +349,9 @@ body{
   background:#ffffff;
   background-attachment:fixed;
 }
-h1,h2,h3,.disp{font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif}
+/* Naslovi — isti font kao sve ostalo (Rubik). Razlog zašto se više ne mešaju
+   fontovi stoji u komentaru uz @font-face iznad. */
+h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-weight:700}
 
 /* HEADER */
 .site-header{
@@ -385,14 +365,13 @@ h1,h2,h3,.disp{font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif}
 .brand:hover{transform:translateY(-1px);opacity:.92}
 .brand:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px}
 /* LOGO — NE DIRATI, NE SMANJIVATI.
-   font-family MORA biti eksplicitno naveden: logo NIJE <h1> (jedan h1 po
-   strani je SEO pravilo), pa ga globalno pravilo `h1,h2,h3{font-family:Fredoka}`
-   ne pokriva. Bez ove linije logo pada na Fira Sans i deluje manji i tanji. */
+   Od 30.07.2026. ceo sajt je na jednom fontu (Rubik), pa logo više ne može tiho da
+   „padne" na drugi font kao ranije. Veličina i debljina se i dalje ne diraju. */
 .brand h1,
 .brand-logo{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
   display:inline-flex;align-items:center;gap:.04em;
-  font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif;
+  font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;
 }
 .logo-r{
   height:1.45em;width:auto;display:block;
@@ -417,7 +396,7 @@ h1,h2,h3,.disp{font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif}
 /* IGRA RIMA — setup */
 .game-setup{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
 .game-setup-group{margin-bottom:1.5rem}
-.game-setup-label{display:block;font-weight:600;color:var(--ink);margin-bottom:.6rem;font-family:'Fredoka','Fredoka rezerva',sans-serif}
+.game-setup-label{display:block;font-weight:600;color:var(--ink);margin-bottom:.6rem;font-family:'Rubik','Rubik rezerva',sans-serif}
 .game-setup-options{display:flex;gap:.5rem;flex-wrap:wrap}
 .game-option{padding:.6rem 1.2rem;border:2px solid var(--line);background:#fff;border-radius:12px;font:inherit;font-weight:600;cursor:pointer;transition:.2s}
 .game-option:hover{border-color:var(--lavender)}
@@ -436,12 +415,12 @@ h1,h2,h3,.disp{font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif}
 .game-handoff-badge{
   width:76px;height:76px;margin:0 auto .9rem;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:2.4rem;font-weight:700;color:#fff;
+  font-family:'Rubik','Rubik rezerva',sans-serif;font-size:2.4rem;font-weight:700;color:#fff;
   background:linear-gradient(135deg,var(--lavender-deep),var(--rose-deep) 60%,var(--mint-deep));
   box-shadow:0 8px 20px rgba(90,63,208,.32);
 }
 .game-handoff-title{
-  font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:1.5rem;font-weight:600;
+  font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.5rem;font-weight:600;
   color:var(--lavender-deep);margin:0 0 .4rem;
 }
 .game-handoff-sub{color:var(--ink-soft);font-size:.98rem;margin:0}
@@ -452,8 +431,8 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 /* IGRA RIMA — play */
 .game-play{background:#fff;border-radius:24px;padding:1.5rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
 .game-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
-.game-player-info{display:flex;gap:1rem;font-family:'Fredoka','Fredoka rezerva',sans-serif}
-.game-timer{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:2.5rem;font-weight:700;color:var(--rose-deep);min-width:60px;text-align:center}
+.game-player-info{display:flex;gap:1rem;font-family:'Rubik','Rubik rezerva',sans-serif}
+.game-timer{font-family:'Rubik','Rubik rezerva',sans-serif;font-size:2.5rem;font-weight:700;color:var(--rose-deep);min-width:60px;text-align:center}
 .game-timer.low{color:#e74c3c;animation:pulse 1s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
 .game-progress{display:flex;gap:.4rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
@@ -464,12 +443,12 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 
 /* IGRA RIMA — results */
 .game-results{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto;text-align:center}
-.game-results-title{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:1.8rem;color:var(--lavender-deep);margin:0 0 1.5rem}
+.game-results-title{font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.8rem;color:var(--lavender-deep);margin:0 0 1.5rem}
 .game-results-list{display:flex;flex-direction:column;gap:.8rem;margin-bottom:1.5rem}
 .game-result-item{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:#f8f0fe;border-radius:14px}
 .game-result-item.winner{background:linear-gradient(95deg,var(--lavender),var(--rose));color:#fff}
 .game-result-player{font-weight:600}
-.game-result-score{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700;font-size:1.2rem}
+.game-result-score{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;font-size:1.2rem}
 .game-result-details{font-size:.85rem;opacity:.8}
 
 @media(max-width:560px){
@@ -495,7 +474,7 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .pro-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:center;justify-content:center;padding:1rem}
 .pro-modal.show{display:flex}
 .pro-modal-content{background:#fff;border-radius:24px;padding:2rem;max-width:480px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
-.pro-modal-content h2{margin:0 0 1rem;font-family:'Fredoka','Fredoka rezerva',sans-serif;color:var(--lavender-deep)}
+.pro-modal-content h2{margin:0 0 1rem;font-family:'Rubik','Rubik rezerva',sans-serif;color:var(--lavender-deep)}
 .pro-modal-content .close{float:right;border:0;background:transparent;font-size:1.5rem;cursor:pointer;color:var(--muted)}
 .pro-feature{display:flex;align-items:center;gap:.7rem;padding:.6rem 0;border-bottom:1px solid var(--line)}
 .pro-feature:last-child{border-bottom:0}
@@ -524,7 +503,10 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 /* MAIN */
 main{max-width:940px;margin:0 auto;padding:1.4rem clamp(1rem,4vw,2.6rem) 4rem}
 .hero{text-align:center;margin:0 0 1.2rem}
-.hero h1{font-size:clamp(1.3rem,3.6vw,1.9rem);font-weight:600;color:var(--lavender-deep);margin:0 0 .35rem;line-height:1.25}
+/* Najveća veličina je 1,70rem, ne 1,9rem — sa Rubikom (širi od starog fonta) se
+   naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
+   Izmereno 30.07.2026; ako se font ili tekst naslova promene, PONOVO IZMERITI. */
+.hero h1{font-size:clamp(1.3rem,3.6vw,1.7rem);font-weight:600;color:var(--lavender-deep);margin:0 0 .35rem;line-height:1.25}
 .hero p{color:var(--ink-soft);font-size:.98rem;margin:0 auto;max-width:560px}
 .tab-panel{display:none;animation:fade .3s ease}
 .tab-panel.active{display:block}
@@ -651,9 +633,9 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .syl-lines{margin-top:1.1rem;display:flex;flex-direction:column;gap:.25rem;background:#fff;border-radius:20px;padding:.8rem;box-shadow:var(--shadow-sm)}
 .syl-line{display:flex;gap:.9rem;align-items:baseline;padding:.3rem .7rem;border-radius:12px}
 .syl-line:nth-child(odd){background:#faf6fe}
-.syl-line .count{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--rose-deep);min-width:2.2rem;font-variant-numeric:tabular-nums}
+.syl-line .count{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--rose-deep);min-width:2.2rem;font-variant-numeric:tabular-nums}
 .syl-line .txt{color:var(--ink)}
-.syl-total{margin-top:1rem;font-weight:600;font-family:'Fredoka','Fredoka rezerva',sans-serif;color:var(--syl-ink);font-size:1rem}
+.syl-total{margin-top:1rem;font-weight:600;font-family:'Rubik','Rubik rezerva',sans-serif;color:var(--syl-ink);font-size:1rem}
 .syl-total b{color:var(--rose-deep)}
 .note-stats{margin-top:.7rem;text-align:right;font-size:.85rem;font-weight:600;color:var(--ink-soft)}
 .note-stats:not(:empty){padding:.5rem .9rem;background:#fff;border-radius:14px;box-shadow:var(--shadow-sm);display:inline-block;float:right}
@@ -667,7 +649,7 @@ body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 .note-rhymes{margin-top:1rem;background:#fff;border-radius:20px;padding:1rem 1.2rem;box-shadow:var(--shadow-sm);border:2px solid #fff;min-height:60px}
 .note-rhymes:empty{display:none}
 .note-rhymes h4{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:0 0 .7rem;display:flex;align-items:center;gap:.4rem}
-.note-rhymes .nr-word{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700;color:var(--rose-deep)}
+.note-rhymes .nr-word{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;color:var(--rose-deep)}
 .note-rhymes .results{margin-top:.5rem}
 .note-rhymes .nr-empty{color:var(--ink-soft);font-style:italic;font-size:.92rem}
 
@@ -734,7 +716,7 @@ body.dark-mode .syl-box{border-color:var(--line)}
 .notepad-layout .note-stats{float:none;align-self:flex-end}
 .notepad{position:relative;display:flex;border-radius:20px;overflow:hidden;background:#fff;line-height:1.95;box-shadow:var(--shadow-sm);border:2px solid #fff}
 .notepad:focus-within{border-color:var(--lavender)}
-.gutter{position:relative;overflow:hidden;background:linear-gradient(180deg,#f8f0fe,#eef6fb);color:var(--lavender-deep);font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:1.08rem;line-height:1.95;font-variant-numeric:tabular-nums;width:4.4rem;flex:0 0 4.4rem;user-select:none}
+.gutter{position:relative;overflow:hidden;background:linear-gradient(180deg,#f8f0fe,#eef6fb);color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.08rem;line-height:1.95;font-variant-numeric:tabular-nums;width:4.4rem;flex:0 0 4.4rem;user-select:none}
 .gutter-inner{position:absolute;inset:0 0 auto 0;will-change:transform}
 .gutter-row{position:absolute;left:0;right:0;display:flex;align-items:flex-start;gap:.18rem;padding:0 .5rem 0 .3rem;box-sizing:border-box}
 /* prored nasleđen od reda (JS ga postavlja na prored editora) — bez ovoga
@@ -765,7 +747,7 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 /* LEGENDA BELEŽNICE — šta znače oznake levo od stiha */
 .notepad-legend{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:.6rem 0 0;font-size:.78rem;color:var(--muted);font-weight:500}
 .notepad-legend>span{display:inline-flex;align-items:baseline;gap:.3rem}
-.notepad-legend b{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700}
+.notepad-legend b{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700}
 .notepad-legend .lg-drag{color:var(--muted)}
 .notepad-legend .lg-letter{color:var(--lavender-deep)}
 .notepad-legend .lg-num{color:var(--lavender-deep)}
@@ -779,7 +761,7 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 .meter-head .m-warn{color:var(--mint-deep);font-weight:700}
 .meter-line{display:flex;align-items:baseline;gap:.7rem;padding:.16rem 0;min-height:1.35rem}
 .meter-line.meter-gap{min-height:.7rem}
-.meter-line .m-count{flex:0 0 1.6rem;text-align:right;font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;font-size:.86rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.meter-line .m-count{flex:0 0 1.6rem;text-align:right;font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;font-size:.86rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .meter-line .m-count.off{color:var(--mint-deep)}
 .meter-line .m-marks{flex:0 0 auto;display:flex;align-items:center;line-height:1;letter-spacing:.04em}
 .meter-line .m-text{flex:1 1 auto;min-width:0;font-size:.88rem;color:var(--ink-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -817,7 +799,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   box-shadow:var(--shadow);padding:.7rem .95rem;font-size:.9rem;color:var(--ink);
   animation:fade .15s ease;
 }
-.deftip-w{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--lavender-deep);margin-bottom:.25rem}
+.deftip-w{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--lavender-deep);margin-bottom:.25rem}
 .deftip-b{line-height:1.45}
 .deftip-s{margin-top:.45rem;font-size:.72rem;color:var(--muted);font-style:italic}
 .chip .info{font-size:.85rem;color:var(--lavender-deep)}
@@ -826,17 +808,17 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 #klasiciList{display:flex;flex-direction:column;gap:1.1rem}
 .poem-card{background:#fff;border-radius:20px;box-shadow:var(--shadow-sm);padding:1.1rem 1.3rem;border:2px solid #fff}
 .poem-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:.4rem .8rem;margin-bottom:.9rem;padding-bottom:.7rem;border-bottom:1px solid var(--line)}
-.poem-title{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;font-size:1.25rem;color:var(--lavender-deep)}
+.poem-title{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;font-size:1.25rem;color:var(--lavender-deep)}
 .poem-meta{color:var(--ink-soft);font-size:.9rem;font-weight:600}
 .poem-body{display:flex;flex-direction:column;gap:.9rem}
 .stanza{display:flex;flex-direction:column;gap:.1rem}
 .verse{display:flex;align-items:baseline;gap:.7rem}
-.verse .vsyl{flex:0 0 1.6rem;text-align:right;font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:.76rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.verse .vsyl{flex:0 0 1.6rem;text-align:right;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
 .verse .vtext{flex:1;color:var(--ink);font-size:1.02rem;line-height:1.5}
-.verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:.76rem;font-weight:700;color:var(--tag-ink);background:var(--tag-bg);border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
+.verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:700;color:var(--tag-ink);background:var(--tag-bg);border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
 .verse .vrhyme:hover{background:var(--lavender);color:#fff}
 .poem-foot{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft);font-weight:600}
-.poem-scheme b{color:var(--lavender-deep);font-family:'Fredoka','Fredoka rezerva',sans-serif}
+.poem-scheme b{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 
 /* SEO CONTENT + FAQ */
 .seo-content{padding:1rem clamp(1rem,4vw,2.6rem) 2.6rem}
@@ -847,7 +829,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem}
 .faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s}
 .faq details[open]{border-color:var(--lavender)}
-.faq summary{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
+.faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::before{content:"＋";color:var(--rose-deep);font-weight:700;font-size:1.05rem;line-height:1}
 .faq details[open] summary::before{content:"−"}
@@ -857,7 +839,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 a.brand{text-decoration:none;color:inherit;display:inline-block}
 .brand-h{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
-  display:inline-flex;align-items:center;gap:.04em;font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif
+  display:inline-flex;align-items:center;gap:.04em;font-family:'Rubik','Rubik rezerva',system-ui,sans-serif
 }
 main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3rem}
 .crumbs{font-size:.85rem;color:var(--muted);font-weight:600;margin-bottom:.8rem}
@@ -876,7 +858,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .landing-lead{color:var(--ink-soft);font-size:1rem;max-width:720px;margin:0 0 1rem}
 .landing-meta{color:var(--muted);font-size:.88rem;margin:-.3rem 0 .9rem;font-weight:600}
 .landing-def{background:#faf6fe;border-radius:14px;padding:.7rem 1rem;color:var(--ink);font-size:.95rem;margin:0 0 1.1rem;border:1px solid var(--line)}
-.landing-def strong{color:var(--lavender-deep);font-family:'Fredoka','Fredoka rezerva',sans-serif}
+.landing-def strong{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 .landing-cta{display:inline-block;margin:0 0 1.6rem;padding:.8rem 1.5rem;border-radius:18px;font-weight:700;text-decoration:none;color:#fff;background:linear-gradient(95deg,var(--rose),var(--rose-deep));box-shadow:0 6px 16px rgba(232,122,166,.35);transition:.18s}
 .landing-cta:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(232,122,166,.42)}
 .chip{text-decoration:none}
@@ -892,7 +874,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .syl-groups{margin:1.4rem 0}
 .syl-groups h2,.syl-groups h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
 .syl-badge{display:inline-flex;align-items:center;gap:.3rem;background:#fff;border:2px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.9rem;font-weight:600;color:var(--ink-soft)}
-.syl-badge b{color:var(--lavender-deep);font-family:'Fredoka','Fredoka rezerva',sans-serif}
+.syl-badge b{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 
 .mini-tool{background:#fff;border-radius:20px;padding:1.1rem;box-shadow:var(--shadow-sm);margin:2rem 0 1rem;border:2px solid #fff}
 .mini-tool h2,.mini-tool h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .8rem}
@@ -902,7 +884,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .landing-faq h2,.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
 .landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
 .landing-faq details[open]{border-color:var(--lavender)}
-.landing-faq summary{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
+.landing-faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .landing-faq summary::-webkit-details-marker{display:none}
 .landing-faq summary::before{content:"＋";color:var(--rose-deep);font-weight:700}
 .landing-faq details[open] summary::before{content:"−"}
@@ -911,7 +893,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .seo-p{color:var(--ink-soft);font-size:.96rem;max-width:720px;margin:0}
 .slog-table{border-collapse:collapse;width:100%;max-width:420px;background:var(--card-bg);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm)}
 .slog-table th,.slog-table td{text-align:left;padding:.6rem .9rem;border-bottom:1px solid var(--line)}
-.slog-table th{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;color:var(--lavender-deep);font-size:.85rem}
+.slog-table th{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--lavender-deep);font-size:.85rem}
 .slog-table td{color:var(--ink);font-size:.95rem}
 .slog-table tbody tr:last-child td,.slog-table tr:last-child td{border-bottom:0}
 
@@ -924,7 +906,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .footer-inner{max-width:940px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem}
 .footer-brand{display:inline-flex;align-items:center;gap:.04em}
 .footer-logo{height:1.7rem;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(90,63,208,.22))}
-.footer-name{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:600;font-size:1.45rem;line-height:1;transform:translateY(.04em);
+.footer-name{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;font-size:1.45rem;line-height:1;transform:translateY(.04em);
   background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .footer-desc{font-size:.9rem;font-weight:500;color:var(--ink-soft);max-width:520px;margin:.15rem 0 0}
@@ -1039,7 +1021,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .pro-plan:has(input:checked){border-color:var(--lavender-deep);background:color-mix(in srgb,var(--lavender) 22%,transparent)}
 .pro-plan input{position:absolute;opacity:0;pointer-events:none}
 .pro-plan-name{font-size:.85rem;color:var(--muted);font-weight:600}
-.pro-plan-price{font-family:'Fredoka','Fredoka rezerva',sans-serif;font-size:1.5rem;font-weight:700;color:var(--lavender-deep)}
+.pro-plan-price{font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.5rem;font-weight:700;color:var(--lavender-deep)}
 .pro-plan-price small{font-size:.75rem;color:var(--muted);font-weight:500}
 .pro-plan-badge{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#fff;background:var(--rose-deep);padding:.12rem .5rem;border-radius:999px}
 .pro-active-msg{text-align:center;margin:0 0 .4rem}
@@ -1086,14 +1068,14 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
 .syn-title{
   display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;
   margin:0 0 .3rem;font-size:1.02rem;font-weight:600;color:var(--ink);
-  font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif;
+  font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;
 }
 .syn-badge{
   /* belo slovo na svetloplavoj daje 2,76:1 u svetloj i 2,18:1 u tamnoj temi —
      pada u obe. Tamno slovo na istoj plavoj daje 8,67:1 i ne menja boju značke. */
   background:var(--mint-deep);color:#121018;font-size:.68rem;font-weight:700;
   letter-spacing:.06em;text-transform:uppercase;
-  padding:.2rem .5rem;border-radius:999px;font-family:'Fira Sans','Fira Sans rezerva',sans-serif;
+  padding:.2rem .5rem;border-radius:999px;font-family:'Rubik','Rubik rezerva',sans-serif;
 }
 .syn-hint{margin:0 0 .7rem;color:var(--ink-soft);font-size:.88rem;line-height:1.45}
 .syn-card .chip{border-color:rgba(38,162,248,.35)}
@@ -1111,7 +1093,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
    sivi tekst, a polje za unos golo. */
 .game-label{color:var(--muted);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 .game-value{
-  font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700;font-size:1.05rem;color:var(--lavender-deep);
+  font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;font-size:1.05rem;color:var(--lavender-deep);
   background:rgba(90,63,208,.09);padding:.1rem .5rem;border-radius:8px;
 }
 .game-player-info{flex-wrap:wrap;align-items:center}
@@ -1137,7 +1119,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
   text-transform:uppercase;letter-spacing:.07em;
 }
 .game-word{
-  margin:0;font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700;line-height:1.1;
+  margin:0;font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;line-height:1.1;
   font-size:clamp(2rem,7vw,2.9rem);
   background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
@@ -1164,7 +1146,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 .game-combo{
   display:inline-block;padding:.15rem .55rem;border-radius:999px;
   background:linear-gradient(95deg,#ff9a3c,#ff6b6b);color:#fff;
-  font-family:'Fredoka','Fredoka rezerva',sans-serif;font-weight:700;font-size:.85rem;
+  font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;font-size:.85rem;
   animation:combo-pop .3s cubic-bezier(.2,.9,.3,1.4);
 }
 .game-combo[hidden]{display:none}
@@ -1198,7 +1180,7 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 #printArea{display:none}
 @media print{
   body>*:not(#printArea){display:none !important}
-  #printArea{display:block !important;font-family:'Fira Sans','Fira Sans rezerva',sans-serif;color:#000;padding:2.5rem}
+  #printArea{display:block !important;font-family:'Rubik','Rubik rezerva',sans-serif;color:#000;padding:2.5rem}
   #printArea h1{font-size:1.35rem;margin:0 0 1.4rem;font-weight:700}
   #printArea p{margin:.15rem 0;font-size:1.05rem;line-height:1.55;white-space:pre-wrap}
 }

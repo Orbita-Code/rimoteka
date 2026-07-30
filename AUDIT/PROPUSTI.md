@@ -740,3 +740,22 @@ vrednost bi otišla na produkciju kao „izmereno, ne procenjeno".
 > **PRAVILO 46:** Broj koji ide u kod kao „izmereno" mora da nosi ime skripte kojom je
 > izmeren, da sledeća sesija može da ga **ponovi**, a ne da mu veruje. Zato su
 > `test/meri-font.mjs` i `test/meri-cls.mjs` sada u projektu, ne u privremenom folderu.
+
+### 12. Podesio sam rezervni font po prozi, a pomera se traka tabova
+
+30.07.2026, pri prelasku celog sajta na Rubik. `size-adjust` sam izračunao kao prosek
+odnosa širina na **dve rečenice teksta** — dobio 102,0%. CLS je posle toga skočio na
+**0,37** na `/rimovanje-reci/` (granica je 0,1), a pre promene fonta je bio 0.
+
+Uzrok: `layout-shift.sources` pokazuje da se pomera **traka tabova** (`DIV.script-toggle`,
+`A.active`), ne pasus. Njen tekst ima sasvim drugi odnos širina — Rubik/Arial = **1,0662**,
+a ne 1,0196 koliko daje proza. Sa `size-adjust: 106,6%` CLS je pao na **0,0028**.
+
+> **PRAVILO 47:** `size-adjust` se podešava po **elementu koji se stvarno pomera**, ne po
+> prosečnoj rečenici. Prvo `layout-shift.sources` → koji je element → onda meri ŠIRINU TOG
+> ELEMENTA u web-fontu i u rezervi. Prosek preko celog teksta krije baš onaj deo koji lomi
+> stranu.
+>
+> **PRAVILO 48:** Posle svake promene fonta CLS se meri **pre nego što se poveruje** da je
+> gotovo. Ovde je font bio ispravan (ima sva slova), tipografija lepa, test 367/367 —
+> a strana je skakala četiri puta više nego pre.

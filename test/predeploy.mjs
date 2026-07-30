@@ -2757,6 +2757,84 @@ async function main() {
       await ctx26c.close();
     }
 
+    console.log('\n27) UČESTALOST JE SABRANA, NE PREPISANA (nalaz F1)');
+    /* Do 30.07.2026. je `frekvencija.json` za svaki oblik čuvao ZADNJE pročitano
+       čitanje iz srLex-a umesto SUME. Dokaz: oblik `voda` ima u srLex-u četiri reda
+       (1.346 + 12.793 + 32.283 + 876 = 47.298), a u fajlu je stajalo **876** —
+       vrednost zadnjeg reda, i to glagola `vodati`. Zato je `voda` ispadala iz
+       bazena „poznatih reči" za kockicu i igru, a `dva` (9) i `veliki` (34) su bili
+       prijavljeni kao ređi od reči koje niko ne govori.
+       Ove provere su puštene protiv STAROG fajla i pale su — tek tad su uzete kao
+       valjane (pravilo iz PROPUSTI.md). */
+    {
+      const f = await (await fetch(`${BASE}/frekvencija.json?v=20260730a`)).json();
+      // 1) sabrano, ne prepisano — granice su znatno ispod stvarnih suma
+      ok('frekvencija · „voda" je sabrana (> 40.000, bilo 876)',
+         (f['voda'] || 0) > 40000, `voda = ${f['voda']}`);
+      ok('frekvencija · „dva" je sabrano (> 300.000, bilo 9)',
+         (f['dva'] || 0) > 300000, `dva = ${f['dva']}`);
+      ok('frekvencija · „veliki" je sabran (> 150.000, bilo 34)',
+         (f['veliki'] || 0) > 150000, `veliki = ${f['veliki']}`);
+      // 2) česta reč ne sme biti ređa od retke — obrnut poredak je bio simptom
+      ok('frekvencija · „voda" je češća od „zavoda"',
+         (f['voda'] || 0) > (f['zavoda'] || 0), `voda ${f['voda']} vs zavoda ${f['zavoda']}`);
+      // 3) Matica pokriva rupe u srLex-u
+      const m = await (await fetch(`${BASE}/matica.json?v=1`)).json();
+      ok('matica.json · postoji i ima sadržaj', Array.isArray(m) && m.length > 1000,
+         `${Array.isArray(m) ? m.length : 0} reči`);
+      ok('matica.json · „hiljada" je potvrđena (srLex je ne zna)',
+         Array.isArray(m) && m.includes('hiljada'));
+      // 4) reč potvrđena u Matici mora ići PRED reč koju nijedan izvor ne potvrđuje
+      const rang = await page.evaluate(() => ({
+        hiljada: RANK.get('hiljada'), abakuse: RANK.get('abakuse'), voda: RANK.get('voda')
+      }));
+      ok('rang · „voda" ima stvaran broj (negativan rang)', rang.voda < 0, `rang ${rang.voda}`);
+      ok('rang · „hiljada" ide PRED „abakuse" (viđen 1 put)',
+         rang.hiljada < rang.abakuse, `hiljada ${rang.hiljada} vs abakuse ${rang.abakuse}`);
+    }
+
+    console.log('\n28) JEKAVSKI OBLICI NE IZLAZE BEZ KVAČICE (nalaz J1)');
+    /* Prijava vlasnice 30.07.2026: „naizmjence izašlo iako nije čekirana ijekavica".
+       Uzrok: ijekavica se uključuje širenjem granice (`limit = includeJek ?
+       WORDS.length : jekStart`), a `naizmjence` stoji u `reci.txt` — PRE granice —
+       pa je izlazilo uvek. Takvih reči je 1.127; 850 nedvosmislenih se filtrira
+       preko `jekavski.json`, a 277 spornih (`ded`, `dio`, `dobivati`) čeka odluku
+       vlasnice jer su u Rečniku Matice srpske kao standardne.
+       Ova provera je puštena protiv starog koda i pala je. */
+    {
+      const j = await (await fetch(`${BASE}/jekavski.json?v=1`)).json();
+      ok('jekavski.json · postoji i ima sadržaj', Array.isArray(j) && j.length > 500,
+         `${Array.isArray(j) ? j.length : 0} reči`);
+      ok('jekavski.json · sadrži „naizmjence" (prijava vlasnice)',
+         Array.isArray(j) && j.includes('naizmjence'));
+
+      const ctx28 = await browser.newContext();
+      const p28 = ojacajStranu(await ctx28.newPage());
+      await p28.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
+      await p28.waitForFunction(() => typeof JEKAVSKI !== 'undefined' && JEKAVSKI.size > 0, { timeout: 25000 })
+        .catch(() => {});
+      // kvačica je podrazumevano ISKLJUČENA — jekavski oblik ne sme izaći
+      const bez = await p28.evaluate(() => {
+        const rez = { kvacica: document.getElementById('jekToggle')?.checked, ima: null, ukupno: 0 };
+        document.getElementById('rimeInput').value = 'naizmence';
+        doRhymes(true);
+        const reci = [...document.getElementById('rimeResults').querySelectorAll('.word')].map(e => e.textContent.trim());
+        rez.ukupno = reci.length;
+        rez.ima = reci.includes('naizmjence');
+        return rez;
+      }).catch(() => null);
+      if (bez) {
+        ok('kvačica za ijekavicu je podrazumevano isključena', bez.kvacica === false);
+        ok('bez kvačice · „naizmjence" NE izlazi među rimama za „naizmence"',
+           bez.ima === false, `rima ukupno ${bez.ukupno}`);
+        ok('bez kvačice · rime za „naizmence" ipak postoje (nije sve pobrisano)',
+           bez.ukupno > 0, `${bez.ukupno} rima`);
+      } else {
+        ok('bez kvačice · „naizmjence" NE izlazi među rimama', false, 'provera nije mogla da se izvrši');
+      }
+      await ctx28.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

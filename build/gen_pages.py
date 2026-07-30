@@ -183,6 +183,56 @@ def load():
         defs = {}
     return words, defs
 
+
+def load_izbor():
+    """Podaci za IZBOR reči koje dobijaju svoju stranu (nalaz P10).
+
+    Do 30.07.2026. se biralo po ABECEDI — `for w in words` nad `reci.txt`, koji je
+    abecedan — pa je 1.577 od 1.988 strana bilo na slovo „a" (`aaa`, `aah`,
+    `abadžija`, `abažur`), a `voda`, `hleb` i `sneg` nisu imali stranu. Komentar u
+    kodu je tvrdio „frekvencijski rangirane", a `frekvencija.json` se **nije učitavao
+    nijednom**.
+
+    Sada se učitavaju tri izvora:
+      · frekvencija.json — sabrani brojevi iz srLex-a (popravljeno 30.07., nalaz F1)
+      · matica.json      — reči potvrđene kao odrednica u Rečniku Matice srpske
+      · GA_RECI          — reči koje su ljudi ZAISTA tražili na sajtu (Google Analytics)
+    """
+    try:
+        with open(os.path.join(PUB, 'frekvencija.json'), encoding='utf-8') as f:
+            freq = json.load(f)
+    except Exception:
+        freq = {}
+    # PUN spisak Matičinih odrednica stoji u `build/`, ne u `public/` — u pregledač
+    # ide samo mali `public/matica.json` (6.752 reči bez frekvencije, za rangiranje).
+    # Pun spisak je 450 KB i nema šta da traži u učitavanju sajta.
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'matica-sve.json'), encoding='utf-8') as f:
+            matica = set(json.load(f))
+    except Exception:
+        matica = set()
+    # SADRŽAJNE reči (imenica, pridev, glagol, prilog) po oznakama iz srLex-a.
+    # Bez ovoga vrh spiska po učestalosti čine `koji`, `što`, `kao`, `ali`, `nije`,
+    # `ili` — veznici, zamenice i predlozi. Za njih niko ne traži rimu, a zauzeli bi
+    # stotine strana. Istraženo 30.07.2026: strani sajtovi za rime (RHYMEBOOK,
+    # Rhyme Buster) vode ODVOJENU statistiku „najtraženije reči“ upravo zato što se
+    # ono što pesnik traži ne poklapa sa učestalošću u novinama.
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'sadrzajne.json'), encoding='utf-8') as f:
+            sadrzajne = set(json.load(f))
+    except Exception:
+        sadrzajne = set()
+    return freq, matica, sadrzajne
+
+
+# Reči koje su ljudi stvarno tražili na Rimoteci — Google Analytics, očitano 30.07.2026
+# (Reports → Engagement → Pages and screens). Ukupno 63 sesije, pa je uzorak mali —
+# zato ove reči idu kao OBAVEZNE, a ne kao merilo za rangiranje. Kad se sakupi više
+# podataka, spisak se dopunjuje ovde.
+# NAPOMENA: GA prikazuje URL (slug), a ne reč — `/rime-za/kisa/` je slug reči
+# `kiša`. Ovde idu PRAVE reči, sa kvačicama, jer se traže u `reci.txt`.
+GA_RECI = 'kiša anastasija antifona bajka duša kajanje'.split()
+
 # ---------------- HTML delovi (deljeni) ----------------
 HEAD_TMPL = """<!DOCTYPE html>
 <html lang="sr">
@@ -209,14 +259,14 @@ HEAD_TMPL = """<!DOCTYPE html>
 <meta name="twitter:image" content="{base}/og-slika.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260729h">
+<link rel="stylesheet" href="/style.css?v=20260730a">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -347,7 +397,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260729h"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260730a"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -645,16 +695,59 @@ def main():
         add_target(t)
     curated_count = len(targets)
 
-    # b) auto-dopuna do TARGET_COUNT: frekvencijski rangirane sadržajne reči
-    #    (imaju definiciju = realna leksika; preskačemo promenjene oblike „Oblik reči…“)
-    for w in words:  # rank redosled
-        if len(targets) >= TARGET_COUNT:
-            break
+    # a2) reči koje su ljudi ZAISTA tražili (Google Analytics) — obavezne
+    for t in GA_RECI:
+        add_target(t)
+    ga_count = len(targets) - curated_count
+
+    # a3) strane koje je Google VEĆ INDEKSIRAO — obavezne, ne brišu se
+    #
+    #     Očitano iz Search Console 30.07.2026: od 124 indeksirane strane, njih 59 bi
+    #     po novom izboru nestalo (`abakus`, `abiturijent`, `abonos`, `abrakadabra`,
+    #     `abramović`…). Brisanje strane koju je Google prihvatio je nepotreban
+    #     negativan signal, a zadržavanje ne košta ništa — strane su statične i već
+    #     postoje. Zato ulaze bez obzira na učestalost.
+    #     Spisak se osvežava kad se ponovo očita GSC; postupak u HANDOVER.md.
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'gsc-indeksirane.json'), encoding='utf-8') as f:
+            for t in json.load(f):
+                add_target(t)
+    except Exception:
+        pass
+    gsc_count = len(targets) - curated_count - ga_count
+
+    # b) auto-dopuna do TARGET_COUNT — PO UČESTALOSTI, ne po abecedi (nalaz P10)
+    #
+    #    Uslovi koje reč mora da ispuni, i svaki ima razlog:
+    #      · ima definiciju i nije „Oblik reči…“  — stranica bez sadržaja nema svrhu
+    #      · potvrđena je u Rečniku Matice srpske — da ne uđu hrvatske i pokrajinske
+    #        reči; srLex je veb-korpus sa `.rs` domena i sadrži `kolodvor`, `tvrtka`,
+    #        `tisuća` (vidi IZVORI-RECNIKA.md). Odluka vlasnice 30.07.: strane dobijaju
+    #        „isključivo srpske reči, najbolje i najpopularnije“.
+    #      · ima stvarnu frekvenciju — reč koju korpus nikad nije video nema publiku
+    #
+    #    Redosled: veća frekvencija prva. Kod jednakih — abecedno, da build bude
+    #    ponovljiv (isti ulaz → isti izlaz, inače se sitemap menja bez razloga).
+    freq, matica, sadrzajne = load_izbor()
+    kandidati = []
+    for w in words:
         if w in chosen or len(w) < 3 or not w.isalpha():
             continue
         d = defs.get(w)
         if not d or d.startswith('Oblik'):
             continue
+        if w not in matica:      # samo potvrđene srpske reči (odluka vlasnice 30.07.)
+            continue
+        if sadrzajne and w not in sadrzajne:   # bez veznika, zamenica i predloga
+            continue
+        f = freq.get(w, 0)
+        if f <= 0:               # reč koju korpus nikad nije video nema publiku
+            continue
+        kandidati.append((-f, w))
+    kandidati.sort()
+    for _, w in kandidati:
+        if len(targets) >= TARGET_COUNT:
+            break
         add_target(w)
 
     target_slugs = set(seen_slug.keys())

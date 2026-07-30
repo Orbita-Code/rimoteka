@@ -266,7 +266,7 @@ Test prolazi **140/140**, a nalaza ima **72**. Zato uz popravke **obavezno** dod
 4. Pokreni test lokalno pa protiv produkcije.
 5. Javi vlasnici koliko je nalaza zatvoreno i kolika je nova ocena.
 
-**Sledeći puni audit: 31.07.2026.** — po `/Users/jovana.jovic/AUDIT-PROTOKOL.md`,
+**Sledeći puni audit: 31.07.2026.** — po `~/.claude/AUDIT-PROTOKOL.md`,
 u `AUDIT/2026-07-31-audit.md`.
 
 ---

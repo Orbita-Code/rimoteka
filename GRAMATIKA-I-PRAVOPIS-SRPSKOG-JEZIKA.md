@@ -576,6 +576,7 @@ Zapisivati svaku ispravku — to je najpouzdaniji izvor u ovom dokumentu.
 | 27.07.2026 | **Ispravka moje tvrdnje:** *aminati* **postoji** — znači „izgovarati reč amin". *aminovati* je nešto drugo — „složiti se s tuđim mišljenjem". *amin* takođe ostaje. | Ne proglašavati reč izmišljenom zato što mi je nepoznata ili što joj je paradigma krnja. Prvo proveriti značenje; dve slične reči mogu biti dva različita glagola. |
 | 27.07.2026 | *njaka* **ne postoji** — sklonjeno iz rečnika (zatečen unos). *njači* / *njačite* **ostaju** (imperativ). *obrstenje* **ne postoji**. | Potvrda pravila iz 26.07: glagol *njakati* ima samo palatalizovani prezent. |
 | 27.07.2026 | Imenice se menjaju po **rodu, broju i padežu**; glagoli imaju **lične i nelične oblike, vid, rod i osnove**. | Odatle poglavlja 2 i 4 ovog dokumenta, posebno pravilo o **dve osnove**. |
+| 30.07.2026 | *„Probaj koliko rima **nađeš** pre nego što istekne vreme"* nije pravilna rečenica. Pravilno: *„Probaj koliko rima **možeš da nađeš**"* ili *„**možeš da pronađeš**"*. | U zavisnoj rečenici uz *koliko* ne stoji goli prezent svršenog glagola — traži se **modalna konstrukcija** (`možeš da` + prezent). Važi za sav tekst na sajtu, a posebno za pozive na radnju (dugmad, opisi za deljenje), gde se najčešće piše skraćeno „po osećaju". |
 
 ---
 

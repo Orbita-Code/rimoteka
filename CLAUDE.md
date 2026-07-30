@@ -227,6 +227,41 @@ rima, padalo je na 111. mesto.
 Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
 **Ne vraćati staro pravilo.**
 
+### 6.2b Tri merila redosleda — ZAPAMTI REDOM, i ne pretpostavljaj
+
+Kod: `app.js:593` (`strong.sort`), `:630` (rezervna grupa), `:685` („šire rime").
+
+| Red | Merilo | Koliko odlučuje |
+|---|---|---|
+| **1** | **bliži broj slogova** traženoj reči | **najviše** — po tome se i deli na „Najbolje" / „Dobre rime" (`:616–617`) |
+| **2** | duži zajednički završetak | srednje |
+| **3** | učestalost (`RANK`) | **najmanje** — samo razdvaja reči koje su izjednačene po 1 i 2 |
+
+> **ZABRANJENO tvrditi bilo šta o redosledu rima bez pokretanja pravog algoritma.**
+> 30.07.2026. je jedna sesija (Claude) tvrdila vlasnici da „`voda` pada na 31. mesto od
+> 99 rima za `sloboda`" — jer je u proveri sortirala **samo po učestalosti** i preskočila
+> merilo 1 i 2. Vlasnica je to uhvatila. Stvarno stanje: `sloboda` (3 sloga) i `voda`
+> (2 sloga) nisu ni u istoj grupi — `voda` je u „Dobrim rimama", a „Najbolje rime" za
+> `voda` su `svoda, proda, boda, broda, koda, moda, hoda` — tačno kako pravilo nalaže.
+> **Ako proveravaš redosled, prepiši sva tri merila iz `app.js:593`, ne jedno.**
+
+### 6.2c Reč BEZ frekvencije pada ispod reči koja se pojavila JEDAN put
+
+`app.js:376`: `RANK.set(w, freq > 0 ? -freq : i)` — reč sa brojem dobija **negativan**
+rang, reč bez broja **pozitivan** (redni broj po abecedi). Sortira se rastuće, pa **sve
+negativno ide pred sve pozitivno**. Posledica, izmereno:
+
+- `hiljada`, `hiljadu`, `hiljade`, `hiljadama` **su u `reci.txt` i imaju objašnjenje**,
+  ali nemaju broj (rupa u srLex-u), pa ih pretiče `abakuse` sa brojem **1**.
+- Iste reči su zato **izvan bazena od 8.000 „poznatih reči"** (`app.js:737`), pa ih
+  kockica i igra rima **nikad ne mogu ponuditi**. Izvan bazena su i `voda` (876),
+  `hleb` (6.201), `sneg` (6.703), `kuća` (3.077), `dva` (9), `veliki` (34).
+
+> **Nedostatak broja NIJE isto što i „najređa reč".** Kad se F1 rešava, ne traži se
+> izmišljen broj za `hiljada` — ispravlja se to da kod nedostatak broja tretira kao
+> „nepoznato", a ne kao nulu. Reč koja je u **Rečniku Matice srpske** je standardna
+> srpska reč bez obzira na to šta veb-korpus o njoj kaže.
+
 ### 6.3 Kvalitet rima
 - Rime moraju biti validne srpske reči.
 - Ako rečnik sadrži sumnjiv/grešan oblik — prijaviti korisnici, ne preuzimati automatske odluke.
@@ -305,6 +340,24 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
 
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 
+### 9a-2. Merne skripte (30.07.2026) — brojevi se MERE, ne prepisuju
+
+```bash
+node test/meri-cls.mjs                 # skakanje strane, 10× po strani, ispisuje RASPON
+BASE=https://rimoteka.com node test/meri-cls.mjs
+node test/meri-font.mjs "Fira Sans"    # odnos širina prema Arialu, za size-adjust
+```
+
+- `meri-cls.mjs` — nalaz P16. Meri **deset puta**, jer jedan dobar broj nije dokaz;
+  ne meriti u minutu posle deploy-a; meriti na **brzoj** vezi (na sporoj strana ionako
+  čeka font pa se kvar ne vidi). Svako merenje dobija **svoj kontekst** pregledača.
+- `meri-font.mjs` — **pada** ako se font nije učitao. Zamka koja se stvarno desila:
+  skripta je merila Arial protiv Ariala i dala „size-adjust 90,4%" umesto **100,9%**;
+  jedini znak bio je što su dva različita fonta dala iste brojeve. Vidi PROPUSTI 44–46.
+- **Posle svake promene fonta** obe skripte se puštaju ponovo i brojevi u
+  `style.css` (`size-adjust`, `ascent-override`, `descent-override`) se **prepisuju
+  izmerenim**, nikad procenjenim.
+
 ### 9a-1. `nginx.conf` — POSEBAN TEST, OBAVEZAN (29.07.2026.)
 
 > Sajt je 29.07.2026. bio oboren ~3 minuta zbog jedne izmene u `nginx.conf`.
@@ -340,8 +393,8 @@ deploy-a se proverava **glavna adresa**, ne samo ono što je menjano.
 
 ## 9b. AUDIT — NA SVAKA 3 DANA (OBAVEZNO)
 
-> Metod, ritam i evidencija: **`/Users/jovana.jovic/AUDIT-PROTOKOL.md`** — pročitati pre audita.
-> Čeklista šta se proverava: `/Users/jovana.jovic/TESTING.md`.
+> Metod, ritam i evidencija: **`~/.claude/AUDIT-PROTOKOL.md`** — pročitati pre audita.
+> Čeklista šta se proverava: `~/.claude/TESTING.md`.
 
 **Na početku SVAKE sesije proveriti kad je bio poslednji audit:**
 ```bash
@@ -353,12 +406,25 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Zatečeno stanje (28–29.07.2026): ocena 7,2/10, 33 otvorena nalaza.**
-Pre bilo kakvog novog feature-a pogledati `AUDIT/NALAZI-OTVORENI.md` — 6 nalaza je kritično.
+**Stanje na 30.07.2026 (usklađeno pred audit 31.07.): 3 otvorena nalaza, ocena 6,9/10.**
+
+| # | Nalaz | Status |
+|---|---|---|
+| **F1** | `frekvencija.json` pogrešno izvučen — rangiranje rima delimično pogrešno | **prvo po redu**; blokira P10 |
+| **P10** | strane reči birane po abecedi (1.577 od 1.988 na „a") | čeka odluku vlasnice — menja 1.577 URL-ova |
+| **P11** | hub `/rime-za/` je zid od 1.988 linkova | isti uzrok kao P10 |
+| **P16** | strana skače 50 px pri učitavanju (CLS 0,2819 → 0,0053) | popravljen, **nepotvrđen** — audit 31.07. meri desetak puta |
+
+> **Ovaj odeljak je do 30.07. tvrdio „7,2/10, 33 otvorena, 6 kritičnih".** To je bilo
+> stanje 28.07., **pre** nego što je sesija 29.07. zatvorila 60 nalaza — pa je svaka
+> sesija koja je čitala samo `CLAUDE.md` počinjala sa pogrešnom slikom. Izvor istine
+> je **`AUDIT/NALAZI-OTVORENI.md`**, ne ovaj odeljak; ovde stoji samo sažetak i mora
+> se ažurirati kad se spisak menja.
 
 ### Zašto test od 140 provera nije dovoljan
-Prolazio je **140/140**, a audit je našao **33 nalaza**. Rupe koje treba zatvoriti stoje
-u tabeli na dnu `AUDIT/NALAZI-OTVORENI.md`. Najvažnije:
+Prolazio je **140/140**, a audit 28.07. je našao **33 nalaza** (test je od tada podignut
+na **358 provera**). Rupe koje treba zatvoriti stoje u tabeli na dnu
+`AUDIT/NALAZI-OTVORENI.md`. Najvažnije:
 - test obilazi **6 od 2.010 strana** — nijednu `/rime-za/`
 - proverava da element **postoji**, ne da **radi** (ćirilica je mrtvo dugme na 1.988 strana)
 - nikad ne **osveži stranu** u tamnom režimu (K1)

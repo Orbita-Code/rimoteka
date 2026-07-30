@@ -49,6 +49,92 @@ je zadatak 0.
 
 ## 0. SLEDEĆE PO REDU — dogovoreno sa vlasnicom 29.07.2026
 
+### 0.05 NOVO 30.07.2026 — zahtevi vlasnice iz sedme sesije
+
+**A) FONT SAJTA — vlasnici se trenutni font NE SVIĐA.**
+Traži savet profesionalca koji je font najprikladniji za ovakav alat da izgleda
+maksimalno profesionalno i lepo. Postupak: predlog sa obrazloženjem → skidanje →
+ubacivanje u kod → **pokazati na lokalu** → ona odobrava.
+⚠️ Zamke: (1) **logo se ne dira** (pravilo 8a) — Fredoka ostaje dok ona izričito ne
+kaže drugačije; (2) svaka promena fonta **poništava izmerene brojeve** iz nalaza P16
+(`style.css:319`, `size-adjust` 103,6% i 98,2%) — moraju se **ponovo izmeriti**, ne
+prepisati; (3) posle promene fonta obavezno ponovo meriti CLS, deset puta, na brzoj vezi.
+
+**B) BELEŽNICA NA TELEFONU — rime se izbace previše nisko, tastatura ih pokrije.**
+Prijava vlasnice 30.07.: kad se u beležnici traži rima, ponuđene reči izađu tako nisko
+da ih tastatura zakloni i ne vide se. Treba meriti na pravom telefonu (390 px, otvorena
+tastatura) — panel se mora pozicionirati nad tastaturom, ne pod njom. Vezano za već
+popravljeno M1–M4 i `dvh` visine; ovo je nov slučaj koji te popravke ne pokrivaju.
+
+**C) REČNIK — reči i objašnjenja koja je vlasnica prijavila 30.07.**
+Provereno u Rečniku Matice srpske (`~/Literatura/recnik-matice-srpske-2011.txt`):
+
+| Reč | Šta je prijavljeno | Provera u Matici | Šta uraditi |
+|---|---|---|---|
+| **pruga** | objašnjenje kaže samo „duga uska traka druge boje", ne pominje železnicu | **Matica, značenje 1: „dve paralelno postavljene [železne] šine po kojima se kreće voz, tramvaji…"** — železnica je PRVO značenje; traka je značenje 3.a | prepisati objašnjenje: prvo železnica, pa traka |
+| **gojence** | nejasna reč | odrednica `гојенац` **nije nađena** | pitati vlasnicu; kandidat za izbacivanje |
+| **grnce** | nejasno objašnjenje („oblik imenice grne") | `грне`/`грнац` **nisu nađeni** (postoji samo glagol `грнути`) | pitati vlasnicu; kandidat za izbacivanje |
+| **krol** | nejasna reč | `крол` **nije nađen** | pitati vlasnicu (moguće da je sportski termin van rečnika) |
+| **klube kao sinonim za „brada"** | besmisleno — `klube` je oblik reči `klub` | `клубе` **nije nađeno** kao odrednica; `клупко` postoji | ispraviti `sinonimi.json`: obrisati par `brada ↔ klube` |
+| **naizmjence** | izašla iako ijekavica NIJE bila čekirana | vidi nalaz ispod — **stvaran bag** | vidi J1 |
+
+⚠️ **Odsustvo iz Matice NIJE dokaz da reč ne postoji** — izvlačenje odrednica je iz
+skeniranog teksta (OCR) i promaši neke (npr. `more` nije nađeno, a sigurno postoji).
+Prisustvo je pouzdano, odsustvo nije. Zato: pitati vlasnicu, ne brisati sam.
+
+
+**E) UNETI CEO REČNIK MATICE SRPSKE U NAŠ REČNIK** (zahtev vlasnice 30.07.2026)
+
+Izvor: `~/Literatura/recnik-matice-srpske-2011.txt` (Rečnik srpskoga jezika, Matica
+srpska 2011; skenirano, 333.413 linija, izvučeno **90.796** odrednica).
+
+Dva posla:
+1. **Reči** — svaka odrednica iz Matice koje nema u `reci.txt` treba da uđe. Time se
+   rečnik popunjava iz izvora koji je **vrhovni autoritet** (pravilo 0 u odeljku 5a),
+   a ne iz veb-korpusa.
+2. **Objašnjenja** — za svaku reč uporediti naše objašnjenje sa Maticinim:
+   - ako **imamo** objašnjenje a ne poklapa se → ispraviti po Matici (primer: `pruga`,
+     kojoj je železnica značenje **1** a mi imamo samo značenje 3.a);
+   - ako **nemamo** objašnjenje → napisati ga **svojim rečima**. ⚠️ **NE prepisivati
+     Maticu**: ne iste reči, ne isti redosled, ne ista struktura rečenice. Prenosi se
+     ZNAČENJE, ne tekst — inače je to preuzimanje njihovog autorskog dela.
+
+⚠️ **Zamke, obavezno:**
+- Fajl je **skeniran (OCR)** i ima greške u slovima („1воздене" umesto „железне",
+  „шрамваји" umesto „трамваји"). Ne prepisivati mehanički — svaka odrednica se čita.
+- Izvlačenje odrednica **promaši neke** (`море` nije nađeno, a sigurno postoji). Zato
+  **odsustvo iz našeg izvlačenja NIJE dokaz da reč ne postoji u Matici.**
+- Rečnik je na **ćirilici** — preslikavanje u latinicu mora poštovati digrafe
+  (њ→nj, љ→lj, џ→dž), inače se dobija smeće.
+- `reci.txt` i `definicije.json` se **ne menjaju bez odobrenja vlasnice** (odeljak 9).
+  Zato: prvo napraviti spisak predloga, pokazati, pa upisivati.
+- Svaka nova reč mora dobiti **i objašnjenje** (pravilo iz globalnih instrukcija).
+
+**F) IZBOR 2.000 REČI ZA STRANE — učestalost NIJE isto što i „šta ljudi rimuju"**
+
+Istraženo 30.07.2026. Strani sajtovi za rime (RHYMEBOOK, Rhyme Buster) vode **odvojenu**
+statistiku „najtraženije reči", jer se ono što pesnik traži ne poklapa sa onim što je
+najčešće u novinama. Za srpski postoji i **Frekvencijski rečnik savremenog srpskog
+jezika** (7 tomova, 1.985.575 reči, 64.100 odrednica) — i on je važan zato što je
+zasnovan na dnevnoj štampi **i poeziji**, dakle bliži nameni Rimoteke od veb-korpusa.
+
+Redosled izvora za izbor 2.000 reči, od najboljeg:
+1. **Google Analytics — reči koje su ljudi ZAISTA kucali na Rimoteci** (vlasnica ih
+   već ima). Ovo je jedini izvor koji dokazuje stvarnu potrebu, i ide prvi.
+2. srLex sabrane frekvencije (`frekvencija.json`, popravljen 30.07.), **filtrirano
+   kroz Maticu** da ne uđu hrvatske i pokrajinske reči.
+3. Frekvencijski rečnik Matice/Kostićev korpus — ako se nađe u mašinski čitljivom obliku.
+
+**D) J1 — JEKAVSKI OBLICI U EKAVSKOM REČNIKU (nov nalaz, iz prijave vlasnice)**
+`naizmjence` je u `public/reci.txt`, **ne** u `reci_jekavica.txt`. Kod uključuje jekavicu
+tako što proširi granicu (`limit = includeJek ? WORDS.length : jekStart`, `app.js:572`),
+a sve iz `reci.txt` je **pre** te granice — dakle **uvek se prikazuje**, bez obzira na
+kvačicu. Izmereno: **1.127 reči** u `reci.txt` ima u svom objašnjenju reč „ijekavski".
+Popravka: preseliti te oblike u `reci_jekavica.txt` (traži odobrenje jer dira rečnik) +
+provera u testu da bez kvačice nijedna reč sa „(ijekavski)" ne izlazi.
+
+
+
 ### 0.0 Hub `/rime-za/` i izbor reči za strane — **ODLOŽENO NA ZAHTEV VLASNICE (29.07. uveče)**
 
 > Dva nalaza, **isti uzrok**: `AUDIT/NALAZI-OTVORENI.md` → **P10** i **P11**.

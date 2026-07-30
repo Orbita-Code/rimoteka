@@ -150,7 +150,20 @@ let KEYS = [];           // jak ključ rime za svaku reč
 let RANK = new Map();    // reč -> indeks (manji = češća)
 let SET = new Set();     // za brzu proveru postojanja
 let jekStart = 0;        // indeks od kog počinju ijekavske reči
+/* JEKAVSKI OBLICI KOJI ŽIVE U EKAVSKOM `reci.txt`.
+   Prijava vlasnice 30.07.2026: „naizmjence izašlo iako nije čekirana ijekavica".
+   Uzrok: ijekavica se uključuje širenjem granice (`limit = includeJek ? WORDS.length
+   : jekStart`), a `naizmjence` NIJE u `reci_jekavica.txt` — stoji u `reci.txt`, dakle
+   PRE granice, pa je izlazilo uvek. Nađeno **1.127** takvih reči (objašnjenje im samo
+   kaže „ijekavski").
+   Zašto se ne premeštaju u `reci_jekavica.txt`: od tih 1.127 njih **277 je sporno** —
+   npr. `ded`, `dio`, `dobivati` su u Rečniku Matice srpske kao standardne, pa bi
+   premeštanje sakrilo ekavske reči od ekavskih korisnika. A `reci.txt` se ne menja bez
+   odobrenja vlasnice (CLAUDE.md, odeljak 9). Zato se filtrira u kodu — povratno je,
+   ništa se ne gubi, i spisak spornih čeka njenu odluku. */
+let JEKAVSKI = new Set();
 let SYNONYMS = {};       // sinonimi iz sinonimi.json (učitavaju se u pozadini)
+let MATICA = new Set();  // reči potvrđene kao odrednica u Rečniku Matice srpske
 const DEFS = new Map();  // ručno pisana srpska objašnjenja (Rimoteka)
 let includeJek = lsGet('rimoteka_jekavica') === '1';
 let script = lsGet('rimoteka_script') || 'lat';
@@ -357,23 +370,58 @@ async function loadDict(){
 // Lazy load frekvencije i sinonima — ne blokira rime
 async function loadExtras(){
   try{
-    const [freqRes, synRes] = await Promise.all([
-      fetch('/frekvencija.json?v=1').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({}))
+    const [freqRes, synRes, maticaRes] = await Promise.all([
+      fetch('/frekvencija.json?v=2').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({})),
+      /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
+         Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
+         srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i
+         `hiljadu` imaju u njemu NULA pojava, jer je to rupa u tom resursu. Ranije
+         je reč bez broja dobijala pozitivan rang, a sve sa brojem negativan, pa je
+         reč viđena JEDAN put (`abakuse`) preticala `hiljada` — i `hiljada` nikad
+         nije ulazila u bazen „poznatih reči" za kockicu i igru.
+         Rešenje NIJE upisati lažan broj (srednja vrednost je 91, a za ulazak u
+         bazen treba 5.074 — ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
+         drugi, nezavistan signal: da li Matica srpska tu reč ima kao odrednicu.
+         Frekvencija kaže KOLIKO se reč koristi; Matica kaže DA LI je standardna. */
+      fetch('/matica.json?v=1').then(r=>r.json()).catch(()=> ([]))
     ]);
     SYNONYMS = synRes;
+    MATICA = new Set(Array.isArray(maticaRes) ? maticaRes : []);
+    /* Jekavski oblici zaostali u ekavskom rečniku — skidaju se ovde, a filtriraju u
+       `izbaciJekavske()`. Ako skidanje ne uspe, skup ostaje prazan i sve radi kao
+       ranije: bolje da se pokaže jedna jekavska reč nego da nestanu sve rime. */
+    try{
+      const jr = await (await fetch('/jekavski.json?v=1')).json();
+      if(Array.isArray(jr)) JEKAVSKI = new Set(jr);
+    }catch(e){ /* namerno tiho — v. komentar iznad */ }
     // Ažuriraj rangiranje sa frekvencijom.
     // NAPOMENA: NE koristiti Math.max(...Object.values(freqRes)) — frekvencija.json
     // ima ~435.000 reči, a spread toliko argumenata obara stek
     // (RangeError: Maximum call stack size exceeded) i ceo blok padne u catch,
     // pa rangiranje i sinonimi tiho prestanu da rade. Zato obična petlja.
+    /* Tri sloja ranga, i nijedan ne može da preskoči prethodni:
+         1. reč IMA broj iz korpusa   -> negativan rang, češće = manje = ranije
+         2. nema broj, ali JE odrednica u Rečniku Matice srpske -> rang `i`
+         3. nema broj i nije u Matici -> rang `i + WORDS.length`, dakle iza svih
+
+       Sloj 2 postoji zato što je ranije reč viđena JEDAN put (`abakuse`) preticala
+       `hiljada` — standardnu srpsku reč koju srLex uopšte ne poznaje (rupa u tom
+       resursu). Sada `hiljada` i dalje ide iza svega što ima stvaran broj, ali PRED
+       reči koje nijedan izvor ne potvrđuje. Matica ne daje broj i ne sme da ga
+       izmišlja — daje samo potvrdu da reč postoji u standardnom srpskom. */
+    /* PRAG ŠUMA. Broj 1 u korpusu od 6,9 miliona oblika nije podatak nego šum —
+       jedno pojavljivanje na jednom sajtu. Do 30.07.2026. se i takav broj računao
+       kao „poznata reč", pa je `abakuse` (viđeno JEDAN put) preticalo `hiljada`,
+       standardnu reč koju srLex uopšte ne poznaje. Sve pod 10 pojava tretira se kao
+       „nema signala", ne kao „najređe". Izmereno: to je 27.561 reč (13,1%), i sve
+       ostaju u rečniku i dalje izlaze kao rime — menja se samo njihov REDOSLED. */
+    const PRAG = 10;
+    const POMAK = WORDS.length;
     for(let i=0;i<WORDS.length;i++){
       const w = WORDS[i];
       const freq = freqRes[w] || 0;
-      // Reči sa frekvencijom idu prve (negativan rang, češće = manje).
-      // Reči bez frekvencije zadržavaju originalni redosled iz reci.txt (rang i >= 0),
-      // pa ijekavske ostaju na kraju kao i do sada.
-      RANK.set(w, freq > 0 ? -freq : i);
+      RANK.set(w, freq >= PRAG ? -freq : (MATICA.has(w) ? i : i + POMAK));
     }
   }catch(e){
     console.warn('Extras nisu učitani:', e);
@@ -574,6 +622,8 @@ function doRhymes(silent){
   for(let i=0;i<limit;i++){
     const w = WORDS[i];
     if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w))) continue;
+    // jekavski oblik zaostao u ekavskom rečniku — v. komentar kod `JEKAVSKI`
+    if(!includeJek && JEKAVSKI.has(w)) continue;
     if(KEYS[i]===key && w!==q) strong.push(w);
   }
   /* Redosled rima — tri merila, ovim redom:
@@ -738,6 +788,21 @@ const COMMON_POOL_SIZE = 8000;
 let commonPool = null;
 function getCommonPool(){
   if(commonPool) return commonPool;
+  /* Bazen ide ISKLJUČIVO po frekvenciji — namerno, i to je provereno.
+     30.07.2026. je probano da se u bazen dodaju i reči potvrđene u Rečniku Matice
+     srpske koje korpus ne zna (da bi `hiljada` mogla da izađe na kockici). NE RADI:
+     od 6.323 takve reči većina su `adađo`, `abonos`, `adhezioni`, `abrakadabra`,
+     `admiralitetski` — tačno „arhaični i nepoznati oblici" zbog kojih je bazen i
+     napravljen. Odrednica u Matici znači da je reč STANDARDNA, ne da je POZNATA;
+     to su dva različita svojstva i Matica meri samo prvo.
+     Ni finiji signal ne pomaže: `admiralitetski` je u srLex-u sa brojem 0 (korpus
+     ga video i izbrojao nula), a `hiljada` nije u srLex-u uopšte (rupa u resursu) —
+     ali u istoj grupi „nije u srLex-u" su i `adađo` i `abonos`. Automatske razlike
+     između „česta reč koju je korpus promašio" i „retka reč koju je korpus promašio"
+     NEMA.
+     Zato se reči tipa `hiljada` dodaju iz izvora koji dokazuje da ih ljudi ZAISTA
+     koriste — pretrage iz Google Analytics-a (vidi TODO 0.05-E) — ili ručno, na
+     zahtev vlasnice. Ne nagađanjem. */
   const sa = [];
   for(const w of WORDS){
     const r = RANK.get(w);
@@ -788,6 +853,7 @@ function updateAutocomplete(){
   for(let i=0;i<limit && out.length<8;i++){
     const w = WORDS[i];
     if(BLOCKED.has(w)) continue;
+    if(!includeJek && JEKAVSKI.has(w)) continue;   // v. komentar kod `JEKAVSKI`
     if(w.startsWith(q) && w !== q) out.push(w);
   }
   if(!out.length){ acWrap.style.display='none'; return; }
@@ -853,6 +919,7 @@ function doSearch(){
   for(let i=0;i<limit && out.length<600;i++){
     const w=WORDS[i];
     if(BLOCKED.has(w)) continue;
+    if(!includeJek && JEKAVSKI.has(w)) continue;   // v. komentar kod `JEKAVSKI`
     if(mode==='ends'   && w.endsWith(q))   out.push(w);
     else if(mode==='starts' && w.startsWith(q)) out.push(w);
     else if(mode==='contains' && w.includes(q)) out.push(w);

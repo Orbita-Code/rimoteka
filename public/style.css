@@ -308,7 +308,7 @@ a:visited{color:var(--link-visited)}
 
 /* ── REZERVNI FONTOVI SA USKLAĐENIM MERAMA ───────────────────────────────────
    Zašto ovo postoji: strana se prvo iscrta rezervnim (sistemskim) fontom, pa
-   kad Quicksand i Fredoka stignu sa Google-a, tekst promeni širinu i sve se
+   kad Fira Sans i Fredoka stignu sa Google-a, tekst promeni širinu i sve se
    pomeri. Na `/rimovanje-reci/` je red filtera zbog toga gubio jednu liniju i
    ceo sadržaj ispod skakao je 50 px — u 736 ms, tačno kad font stigne.
 
@@ -323,14 +323,35 @@ a:visited{color:var(--link-visited)}
    zamena bude nevidljiva.
 
    Brojevi su izmereni, ne procenjeni — širina istih rečenica sa sajta:
-     Quicksand : Arial = 1,0306 i 1,0415  →  size-adjust 103,6%
      Fredoka   : Arial = 0,9822 i 0,9819  →  size-adjust  98,2%
    ascent/descent očitani iz samih fontova preko canvas metrika.
-   Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve. */
+   Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve.
+
+   30.07.2026 — TEKST PREBAČEN SA QUICKSAND NA PT SANS.
+   Razlog (nalaz T1): Quicksand NEMA ćirilicu. Google za njega nudi samo podskupove
+   `latin`, `latin-ext`, `vietnamese` — nijedan `unicode-range` ne pokriva U+0400–04FF.
+   A Rimoteka ima ćirilični režim, pa je u njemu sav tekst padao na sistemski font, i
+   to na svih 1.988 generisanih strana. Fira Sans (ParaType) ima `cyrillic` i
+   `cyrillic-ext`, pravljen je prvo za ćirilicu, i ima srpske lokalizovane oblike.
+   Logo ostaje Fredoka (pravilo 8a) — ne dira se.
+
+   Odnos širina IZMEREN 30.07.2026 u Chromiumu (`test/meri-font.mjs`), na pravim
+   rečenicama sa sajta, u latinici I ćirilici:
+     latinica  0,9936 i 1,0292  →  prosek 1,0114
+     ćirilica  1,0165 i 0,9963  →  prosek 1,0064
+     ukupan prosek 1,0089  →  size-adjust 100,9%
+   metrike Fira Sans: ascent 0,93  descent 0,26
+
+   ⚠️ ZAMKA, i skupo plaćena: prvo merenje je dalo 0,9043 i „size-adjust 90,4%" —
+   NETAČNO, jer skripta nije čekala da se font UČITA, pa je merila Arial protiv
+   Ariala. Jedini znak da nešto nije u redu bio je taj što su za DVA različita fonta
+   izašli ISTI brojevi. Zato skripta sada PADA ako `document.fonts.check` vrati false,
+   i to za latinicu i ćirilicu odvojeno — kod Google-a je ćirilica poseban fajl
+   (`unicode-range`), pa se mora tražiti ćiriličnim tekstom. */
 @font-face{
-  font-family:'Quicksand rezerva';
+  font-family:'Fira Sans rezerva';
   src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');
-  size-adjust:103.6%;ascent-override:100%;descent-override:25%;line-gap-override:0%;
+  size-adjust:100.9%;ascent-override:93%;descent-override:26%;line-gap-override:0%;
 }
 @font-face{
   font-family:'Fredoka rezerva';
@@ -340,7 +361,7 @@ a:visited{color:var(--link-visited)}
 
 html,body{margin:0;padding:0}
 body{
-  font-family:'Quicksand','Quicksand rezerva',system-ui,-apple-system,sans-serif;
+  font-family:'Fira Sans','Fira Sans rezerva',system-ui,-apple-system,sans-serif;
   font-weight:500;
   color:var(--ink);
   line-height:1.55;
@@ -366,7 +387,7 @@ h1,h2,h3,.disp{font-family:'Fredoka','Fredoka rezerva',system-ui,sans-serif}
 /* LOGO — NE DIRATI, NE SMANJIVATI.
    font-family MORA biti eksplicitno naveden: logo NIJE <h1> (jedan h1 po
    strani je SEO pravilo), pa ga globalno pravilo `h1,h2,h3{font-family:Fredoka}`
-   ne pokriva. Bez ove linije logo pada na Quicksand i deluje manji i tanji. */
+   ne pokriva. Bez ove linije logo pada na Fira Sans i deluje manji i tanji. */
 .brand h1,
 .brand-logo{
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
@@ -1072,7 +1093,7 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
      pada u obe. Tamno slovo na istoj plavoj daje 8,67:1 i ne menja boju značke. */
   background:var(--mint-deep);color:#121018;font-size:.68rem;font-weight:700;
   letter-spacing:.06em;text-transform:uppercase;
-  padding:.2rem .5rem;border-radius:999px;font-family:'Quicksand','Quicksand rezerva',sans-serif;
+  padding:.2rem .5rem;border-radius:999px;font-family:'Fira Sans','Fira Sans rezerva',sans-serif;
 }
 .syn-hint{margin:0 0 .7rem;color:var(--ink-soft);font-size:.88rem;line-height:1.45}
 .syn-card .chip{border-color:rgba(38,162,248,.35)}
@@ -1177,7 +1198,7 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
 #printArea{display:none}
 @media print{
   body>*:not(#printArea){display:none !important}
-  #printArea{display:block !important;font-family:'Quicksand','Quicksand rezerva',sans-serif;color:#000;padding:2.5rem}
+  #printArea{display:block !important;font-family:'Fira Sans','Fira Sans rezerva',sans-serif;color:#000;padding:2.5rem}
   #printArea h1{font-size:1.35rem;margin:0 0 1.4rem;font-weight:700}
   #printArea p{margin:.15rem 0;font-size:1.05rem;line-height:1.55;white-space:pre-wrap}
 }

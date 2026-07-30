@@ -629,3 +629,114 @@ u skladištu**. Ista pojava, dva različita DOM-a.
 > **PRAVILO 36:** Šta god da čita `contenteditable`, testira se sa OBE strukture
 > redova (`<br>` i `<div>`). Kucanje u testu ne pokriva mobilni oblik — editor
 > se u testu puni i direktno `innerHTML`-om sa `<div>` redovima.
+
+---
+
+## Iz sedme sesije (30.07.2026) — usklađivanje evidencije
+
+### 9. Nalaz koji nije u spisku nije praćen nalaz — dva su ispala, treći je zastareo
+
+Pred audit 31.07. tri izvora su tvrdila tri različita stanja:
+
+| Izvor | Tvrdio | Istina |
+|---|---|---|
+| `AUDIT/NALAZI-OTVORENI.md` | 2 otvorena (P10, P11) | tačno **za praćene**, ali spisak je bio nepotpun |
+| `CLAUDE.md` odeljak 9b | 33 otvorena, 6 kritičnih, 7,2/10 | stanje **28.07.**, pre nego što je 29.07. zatvorila 60 nalaza |
+| `TODO-RECNIK.md` „HITNO" | `frekvencija.json` pogrešan | **stvaran nalaz koji nikad nije ušao u spisak** (F1) |
+
+Uz to je `HANDOVER.md:185` **tvrdio** da je P16 „u `NALAZI-OTVORENI.md` upisan sa punom
+istinom i oznakom da se prati" — a tamo je P16 postojao samo u jednoj usputnoj rečenici
+(„merenje je usput otkrilo P16"), bez reda u ijednoj tabeli. I ocena 6,9/10 živela je u
+handoveru i uputstvu, a audit fajl je još govorio 7,2/10.
+
+**Zašto se to desilo:** nalaz se upisivao tamo gde je bio **koristan za rad** (TODO za
+posao, handover za predaju), a ne tamo gde se **broji**. Nijedan od tih fajlova nije
+spisak nalaza, pa je brojanje davalo pogrešan rezultat u obe smera — jedno je pokazivalo
+premalo, drugo previše.
+
+> **PRAVILO 37:** Nalaz postoji tek kad je red u `AUDIT/NALAZI-OTVORENI.md`. Upisuje se
+> **istog dana kad se otkrije**, pre nego što se o njemu bilo gde drugde piše. TODO,
+> handover i uputstva samo **pokazuju na** taj red — nikad ga ne zamenjuju.
+>
+> **PRAVILO 38:** Nijedan sažetak stanja ne sme živeti u `CLAUDE.md` bez datuma i bez
+> rečenice „izvor istine je `AUDIT/NALAZI-OTVORENI.md`". Sažetak koji se ne ažurira
+> zajedno sa spiskom postaje zamka, jer se `CLAUDE.md` čita na početku SVAKE sesije, a
+> spisak ne mora.
+>
+> **PRAVILO 39:** Kad handover tvrdi da je nešto negde upisano — **proveriti da jeste**.
+> Tvrdnja o evidenciji nije evidencija. „P16 je upisan sa punom istinom" bilo je
+> netačno, a stajalo je u dokumentu koji sledeća sesija čita kao istinu.
+
+### 10. Tvrdio sam vlasnici kako radi rangiranje rima — a nisam otvorio kod koji ga radi
+
+30.07.2026. Vlasnica je pitala da joj se objasni nalaz F1 (`frekvencija.json`).
+Napravio sam „demonstraciju" u kojoj sam rime sortirao **samo po učestalosti** i
+prijavio: *„`voda` pada na 31. mesto od 99 rima za `sloboda` — sajt te loše savetuje."*
+
+**To je bilo netačno.** `app.js:593` sortira po **tri** merila, i učestalost je **treće**:
+prvo blizina broja slogova, pa duži zajednički završetak, pa učestalost. Uz to se deli
+na „Najbolje" i „Dobre rime" po broju slogova (`:616–617`). `sloboda` ima 3 sloga,
+`voda` 2 — nisu ni u istoj grupi, pa je „31. od 99" broj koji na sajtu ne postoji.
+
+Vlasnica je to uhvatila i rekla: *„Mislim da nisi to najbolje pročitao. To je nešto što
+smo ispravili."* Bila je u pravu — pravilo je stajalo zapisano na **dva** mesta
+(`CLAUDE.md` 6.2a i `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md` pogl. 7a), plus **13 redova
+komentara u samom kodu** iznad sortiranja. Pročitao sam nalaz, a nisam pročitao kod.
+
+Iste sesije, još tri greške u istom razgovoru:
+- **Pisao sam ijekavicom** („unaprijed", „provjeriš") na projektu koji ima pravilo da je
+  jekavica greška za `.rs` sajtove.
+- **Upotrebio sam „kolodvor" dva puta kao primer retke srpske reči** — a tu reč sam uzeo
+  iz tabele u `IZVORI-RECNIKA.md` gde je navedena kao **dokaz da srLex sadrži hrvatske
+  reči**. Pročitao sam tabelu i upotrebio je naopako.
+- **Dva puta sam pogrešno procenio težinu F1** — prvo „hitno, kvari rangiranje", pa
+  „nevažno, treći razdvajač". Tačno je treće: malo kvari rime, ali **puno** kvari kockicu,
+  igru i izbor strana (P10), jer isti podatak koriste četiri različita mesta.
+
+> **PRAVILO 40:** Tvrdnja o tome ŠTA KOD RADI dokazuje se **pokretanjem tog koda ili
+> vernim prepisom njegove logike** — nikad približnom rekonstrukcijom „u glavi". Ako
+> simulacija preskoči i jedno merilo iz sortiranja, rezultat nije približan nego lažan.
+>
+> **PRAVILO 41:** Pre nego što se oceni koliko je nalaz važan, **nabroji SVE potrošače
+> tog podatka** (`grep` za ime fajla/promenljive kroz ceo projekat). F1 je izgledao
+> nevažan dok se gledalo samo sortiranje rima; četvrti potrošač (bazen „poznatih reči"
+> za kockicu, `app.js:737`) je onaj koji je zaista pokvaren. **Ocena važnosti bez
+> spiska potrošača je nagađanje.**
+>
+> **PRAVILO 42:** Primeri u razgovoru s vlasnicom moraju biti **srpske reči**, i piše se
+> **ekavicom**. Reč iz tabele „šta je pogrešno u ovom izvoru" nikad se ne koristi kao
+> neutralan primer — to je ta ista greška, samo prepisana.
+>
+> **PRAVILO 43:** Kad vlasnica kaže „mislim da nisi ovo pročitao" — **prvo se pretpostavi
+> da je u pravu**, pa se otvori fajl i kod. Ovde je bila u pravu, a pravilo je bilo
+> zapisano na tri mesta.
+
+### 11. Merio sam font koji se nikad nije učitao — i brojevi su izgledali uredno
+
+30.07.2026. Pri zameni fonta (nalaz T1) trebalo je izmeriti odnos širina novog fonta
+prema Arialu, da rezervni font zauzme istu širinu i strana ne skače (nalaz P16).
+Merna skripta je ispisala uredne brojeve: `0,9131 / 0,9214 / 0,8992 / 0,8837`, prosek
+`0,9043`, i ja sam u `style.css` upisao **`size-adjust: 90,4%`**.
+
+**Font se nikad nije učitao.** Skripta je merila Arial protiv Ariala.
+`document.fonts.check` je vraćao `false`, ali skripta to nije proveravala — samo je
+postavila `style.fontFamily` i izmerila širinu, a pregledač je tiho koristio rezervni
+font. Tačna vrednost je **100,9%**, dakle promašaj od deset procenata u broju koji
+postoji isključivo da bi strana prestala da skače.
+
+**Kako je uhvaćeno:** merio sam dva različita fonta i dobio **identične brojeve do
+četvrte decimale**. To je bio jedini znak. Da sam merio samo jedan font, pogrešna
+vrednost bi otišla na produkciju kao „izmereno, ne procenjeno".
+
+> **PRAVILO 44:** Merenje mora da proveri da je **predmet merenja stvarno prisutan**, i
+> da **padne** ako nije. Za fontove: `document.fonts.check(...)` za svaki podskup
+> posebno (kod Google-a je ćirilica odvojen fajl preko `unicode-range`, pa se mora
+> tražiti ćiriličnim tekstom — inače se učita samo latinica i ćirilica se meri
+> rezervnim fontom).
+>
+> **PRAVILO 45:** Kad merenje dva različita predmeta da **isti rezultat**, to nije
+> potvrda nego **sumnja**. Prvo proveri da meriš ono što misliš da meriš.
+>
+> **PRAVILO 46:** Broj koji ide u kod kao „izmereno" mora da nosi ime skripte kojom je
+> izmeren, da sledeća sesija može da ga **ponovi**, a ne da mu veruje. Zato su
+> `test/meri-font.mjs` i `test/meri-cls.mjs` sada u projektu, ne u privremenom folderu.

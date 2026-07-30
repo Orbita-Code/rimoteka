@@ -12,7 +12,10 @@ Radiš na projektu Rimoteka: `/Users/jovana.jovic/Projects/rimoteka`
 1. `HANDOVER.md` — **samo prvi odeljak** („Sesija 29. jul 2026 (šesta)"). Tu su
    mobilne popravke (M1–M4), lekcija o `contain:inline-size`, spisak vidljivih
    promena za odobrenje i šta je svesno nedirano.
-2. `AUDIT/NALAZI-OTVORENI.md` — **2 otvorena nalaza** (P10, P11), izvor istine.
+2. `AUDIT/NALAZI-OTVORENI.md` — **3 otvorena nalaza** (F1, P10, P11), izvor istine.
+   Usklađeno 30.07.: **F1** (`frekvencija.json`) je bio nalaz koji je stajao samo u
+   `TODO-RECNIK.md`, pa se nije brojao — sada je u spisku i **prvi je po redu** jer
+   blokira P10. **P16** je popravljen ali nepotvrđen — audit ga meri desetak puta.
 3. `AUDIT/PROPUSTI.md` — pravila **35–36** su najsvežija (skrolujući red i
    `contain:inline-size`; `contenteditable` se testira sa `<br>` I `<div>` redovima).
 4. `CLAUDE.md` projekta — odeljak **8a** (logo se ne dira), **9a** (obavezan test),
@@ -73,7 +76,7 @@ Koraci: `TODO.md`, odeljak **0.1**. `noindex,follow`, van sitemapa.
 
 ### 5. Audit — zakazan za 31.07.2026
 
-Po `/Users/jovana.jovic/AUDIT-PROTOKOL.md`, upiši u `AUDIT/2026-07-31-audit.md`.
+Po `~/.claude/AUDIT-PROTOKOL.md`, upiši u `AUDIT/2026-07-31-audit.md`.
 Prvo izmeriti P16 desetak puta, ne odmah posle deploy-a. Uz to: mobilni prolaz
 kroz svih 7 tabova na telefonu (sekcija 26 pokriva beležnicu; ostalih 6 tabova
 na telefonu provereni su sweep-om u šestoj sesiji, ali audit treba svoje merenje).

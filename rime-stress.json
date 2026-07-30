@@ -1,0 +1,361 @@
+[
+  {
+    "rec": "ljubav",
+    "ms": 91,
+    "broj": 195,
+    "prvih10": [
+      "gubav",
+      "ubav",
+      "grbav",
+      "labav",
+      "glibav",
+      "takav",
+      "pozdrav",
+      "ustav",
+      "čitav",
+      "sastav"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "nada",
+    "ms": 62,
+    "broj": 128,
+    "prvih10": [
+      "kada",
+      "sada",
+      "tada",
+      "grada",
+      "mada",
+      "pada",
+      "spada",
+      "zgrada",
+      "vlada",
+      "ada"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "rima",
+    "ms": 88,
+    "broj": 115,
+    "prvih10": [
+      "prima",
+      "trima",
+      "grima",
+      "krima",
+      "ima",
+      "njima",
+      "tima",
+      "snima",
+      "zima",
+      "dima"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "srce",
+    "ms": 112,
+    "broj": 92,
+    "prvih10": [
+      "herc",
+      "čuka",
+      "muškarce",
+      "udarce",
+      "borce",
+      "starce",
+      "komarce",
+      "saborce",
+      "tvorce",
+      "školarce"
+    ],
+    "grupe": [
+      "Dobre rime (isti završni slog)"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "devojčica",
+    "ms": 71,
+    "broj": 183,
+    "prvih10": [
+      "pevačica",
+      "igračica",
+      "kašičica",
+      "čistačica",
+      "plesačica",
+      "spremačica",
+      "uzrečica",
+      "plivačica",
+      "ljubičica",
+      "proročica"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "prst",
+    "ms": 60,
+    "broj": 10,
+    "prvih10": [
+      "krst",
+      "čvrst",
+      "vrst",
+      "brst",
+      "trst",
+      "nekrst",
+      "obrst",
+      "kažiprst",
+      "polučvrst",
+      "unakrst"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "auto",
+    "ms": 64,
+    "broj": 130,
+    "prvih10": [
+      "skinuto",
+      "zbrinuto",
+      "zeznuto",
+      "smrznuto",
+      "posuto",
+      "gurnuto",
+      "rasuto",
+      "skrajnuto",
+      "zgranuto",
+      "nagnuto"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "more",
+    "ms": 61,
+    "broj": 108,
+    "prvih10": [
+      "smore",
+      "bore",
+      "gore",
+      "stvore",
+      "zore",
+      "spore",
+      "tvore",
+      "pore",
+      "zbore",
+      "kore"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "a",
+    "ms": 6140,
+    "broj": 0,
+    "prvih10": [],
+    "grupe": [],
+    "poruka": ""
+  },
+  {
+    "rec": "zzzqqq",
+    "ms": 125,
+    "broj": 0,
+    "prvih10": [],
+    "grupe": [],
+    "poruka": "Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod."
+  },
+  {
+    "rec": "   ",
+    "ms": 6140,
+    "broj": 0,
+    "prvih10": [],
+    "grupe": [],
+    "poruka": ""
+  },
+  {
+    "rec": "Ljubav",
+    "ms": 71,
+    "broj": 195,
+    "prvih10": [
+      "gubav",
+      "ubav",
+      "grbav",
+      "labav",
+      "glibav",
+      "takav",
+      "pozdrav",
+      "ustav",
+      "čitav",
+      "sastav"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "ЉУБАВ",
+    "ms": 61,
+    "broj": 195,
+    "prvih10": [
+      "gubav",
+      "ubav",
+      "grbav",
+      "labav",
+      "glibav",
+      "takav",
+      "pozdrav",
+      "ustav",
+      "čitav",
+      "sastav"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "ljubav ",
+    "ms": 61,
+    "broj": 195,
+    "prvih10": [
+      "gubav",
+      "ubav",
+      "grbav",
+      "labav",
+      "glibav",
+      "takav",
+      "pozdrav",
+      "ustav",
+      "čitav",
+      "sastav"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "<script>alert(1)</script>",
+    "ms": 105,
+    "broj": 2,
+    "prvih10": [
+      "manuskript",
+      "transkript"
+    ],
+    "grupe": [
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "ljubav-srce",
+    "ms": 109,
+    "broj": 91,
+    "prvih10": [
+      "srce",
+      "muškarce",
+      "udarce",
+      "borce",
+      "starce",
+      "komarce",
+      "saborce",
+      "tvorce",
+      "školarce",
+      "dvorce"
+    ],
+    "grupe": [
+      "Dobre rime",
+      "Dobre rime (isti završni slog)"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "123",
+    "ms": 6137,
+    "broj": 0,
+    "prvih10": [],
+    "grupe": [],
+    "poruka": ""
+  },
+  {
+    "rec": "ljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubavljubav",
+    "ms": 69,
+    "broj": 90,
+    "prvih10": [
+      "polumrtav",
+      "nezaborav",
+      "kojekakav",
+      "hrskavičav",
+      "bradavičav",
+      "bubuljičav",
+      "kijavičav",
+      "nebeskoplav",
+      "rskavičav",
+      "neljubav"
+    ],
+    "grupe": [
+      "Dobre rime"
+    ],
+    "poruka": null
+  },
+  {
+    "rec": "😀",
+    "ms": 6128,
+    "broj": 0,
+    "prvih10": [],
+    "grupe": [],
+    "poruka": ""
+  },
+  {
+    "rec": "štimati",
+    "ms": 78,
+    "broj": 180,
+    "prvih10": [
+      "imati",
+      "primati",
+      "snimati",
+      "cimati",
+      "klimati",
+      "kimati",
+      "spremati",
+      "formati",
+      "nemati",
+      "kamati"
+    ],
+    "grupe": [
+      "Najbolje rime",
+      "Dobre rime"
+    ],
+    "poruka": null
+  }
+]

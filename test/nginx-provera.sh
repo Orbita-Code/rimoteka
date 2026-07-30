@@ -28,9 +28,14 @@ if ! command -v nginx >/dev/null 2>&1; then
   exit 1
 fi
 
-mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav"
+mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav" "$RAD/html/rime-za/voda"
 cp "$PROJ/public/index.html" "$RAD/html/" 2>/dev/null
 cp "$PROJ/public/rime-za/ljubav/index.html" "$RAD/html/rime-za/ljubav/" 2>/dev/null
+# Hub i još jedna postojeća strana — bez njih se ne može proveriti da pravilo
+# „nepostojeća strana → hub" NE hvata i postojeće strane, ni da hub ne vodi sam
+# na sebe (beskonačna petlja na 1.672 adrese). Dodato 30.07.2026, nalaz P10.
+cp "$PROJ/public/rime-za/index.html" "$RAD/html/rime-za/" 2>/dev/null
+cp "$PROJ/public/rime-za/voda/index.html" "$RAD/html/rime-za/voda/" 2>/dev/null
 
 sed -e "s|listen 80 default_server;|listen $PORT default_server;|" \
     -e "s|listen 80;|listen $PORT;|" \
@@ -78,6 +83,21 @@ proveri() { # $1 Host  $2 putanja  $3 očekivani status  $4 očekivano odredišt
 }
 
 echo
+# kao `proveri`, ali odredište se poredi po ZAVRŠETKU — `return 301 /putanja/`
+# nginx pretvara u apsolutnu adresu sa shemom i hostom, koji se u testu razlikuju
+# od produkcije (127.0.0.1:PORT umesto rimoteka.com).
+proveri_kraj() {
+    local izlaz status gde
+    izlaz=$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' -H "Host: $1" "http://127.0.0.1:$PORT$2")
+    status=${izlaz%% *}; gde=${izlaz#* }
+    if [ "$status" != "$3" ] || [ "${gde%$4}" = "$gde" ]; then
+        printf '  ✗ Host %-22s %-22s → %s %s   (očekivano %s …%s)\n' "$1" "$2" "$status" "$gde" "$3" "$4"
+        PALO=$((PALO+1))
+    else
+        printf '  ✓ Host %-22s %-22s → %s %s\n' "$1" "$2" "$status" "$gde"
+    fi
+}
+
 echo "2) Ponašanje po Host zaglavlju"
 proveri "rimoteka.com"     "/"                 200 -
 proveri "rimoteka.com"     "/rime-za/ljubav/"  200 -
@@ -87,6 +107,20 @@ proveri "www.rimoteka.com" "/rime-za/ljubav/"  301 "https://rimoteka.com/rime-za
 # Baš ovaj red hvata grešku podrazumevanog bloka koja je 29.07. oborila sajt.
 proveri "nepoznato.test"   "/"                 200 -
 proveri "localhost"        "/"                 200 -
+
+# --- STARE STRANE REČI → HUB (30.07.2026, nalaz P10) ---
+# Izbor reči je prebačen sa abecede na učestalost, pa je 1.672 starih adresa
+# nestalo. Bez pravila u nginx.conf svaka bi vraćala 404 mesecima.
+# Ove provere su puštene protiv STARE konfiguracije i pale su.
+echo ""
+echo "3) Stare strane reči vode na hub, a hub NE vodi sam na sebe"
+proveri_kraj "rimoteka.com" "/rime-za/abadzija/" 301 "/rime-za/"
+proveri_kraj "rimoteka.com" "/rime-za/aaa/"      301 "/rime-za/"
+# hub mora da radi — inače je beskonačna petlja na 1.672 adrese
+proveri "rimoteka.com"     "/rime-za/"          200 -
+# postojeće strane se NE preusmeravaju
+proveri "rimoteka.com"     "/rime-za/voda/"     200 -
+proveri "rimoteka.com"     "/rime-za/voda/"      200 -
 
 echo
 if [ "$PALO" -gt 0 ]; then

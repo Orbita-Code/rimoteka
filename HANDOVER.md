@@ -5,6 +5,65 @@
 ---
 
 
+# Sesija 30. jul 2026 (osma) — CEO SAJT NA JEDAN FONT (Rubik)
+
+> **NA PRODUKCIJI.** `62469d065`. Test protiv produkcije **376/376**, CLS **0,0039**.
+
+## Zašto je font menjan — nije ukus nego kvar
+
+Vlasnica je primetila da slovo **`č` u naslovima izgleda drugačije**. Provereno merenjem
+širine glifa, ne verovanjem u `unicode-range`:
+
+| Font | Gde je bio | Šta mu fali |
+|---|---|---|
+| **Fredoka** | naslovi + logo | **`č ć đ`** i **`ђ ћ њ љ џ`** — ta slova su imala TAČNO širinu sistemskog serifa, dok su `š ž` iz istog `latin-ext` fajla radila |
+| **Quicksand** | telo teksta | **cela ćirilica** |
+| **Fira Sans** | privremeni izbor | **`ђ ћ њ љ џ`** — srpska ćirilica |
+| **Rubik** ✅ | sada svuda | ništa |
+
+Posledica pre popravke: svako „re**č**" u naslovu je **mešalo dva fonta**, na svih 1.993 strane.
+
+> **`unicode-range` NAJAVLJUJE opseg, ali NE garantuje da glyph postoji.** Provera je
+> merenje širine: ako je jednaka širini sistemskog serifa a druga slova nisu — glifa nema.
+> Alat: `test/meri-font.mjs`.
+
+## Odluka vlasnice
+
+**Jedan font na celoj temi, bez izuzetka** — uključujući logo. Pravilo 8a i dalje važi za
+veličinu i debljinu; promenjen je samo font, njenom izričitom odlukom. Provera u testu je
+ažurirana na Rubik + **dodata nova**: nijedan stari font ne sme ostati u logotipu.
+
+Birano je između šest fontova koji imaju sve (Nunito, Rubik, Montserrat, Comfortaa,
+Mulish, Manrope) — vlasnica je izabrala **Rubik**.
+
+## Dve greške koje su usput uhvaćene
+
+**1. `size-adjust` podešen po prozi → CLS skočio na 0,37** (granica 0,1; pre promene bio 0).
+`layout-shift.sources` je pokazao da se pomera **traka tabova**, ne pasus — njen odnos
+Rubik/Arial je **1,0662**, a proza daje 1,0196. Sa **106,6%** CLS je **0,0039**.
+→ **Pravilo 47:** `size-adjust` se podešava po elementu koji se STVARNO pomera.
+
+**2. Naslov se lomio u dva reda** na 1440 px — Rubik je širi. Trebalo mu 910 px, kontejner
+ima 832. `clamp` max **1,9rem → 1,70rem**; sada jedan red na **1024 px i više**, uz rezervu
+od 18 px. Na 768 px i manje se prelama — to je normalno i namerno.
+
+## Stanje
+
+| | |
+|---|---|
+| test lokalno / produkcija | 368 / **376** |
+| CLS (30 merenja) | najgore **0,0039** |
+| font-family u CSS-u | **samo Rubik** (36 mesta) + rezerva |
+| otvoreni nalazi | 3 — sve čeka ODLUKU vlasnice (`R1-ostatak`, `J1-ostatak`, `P11`) |
+
+## Sledeće
+
+1. **31.07.2026 — pun audit** po protokolu.
+2. **13.08.2026 — analitika** (`CLAUDE.md` 9c), agent `analitika`. Meri se da li je izmena
+   naslova pomogla: `recnik rima` je imao 204 prikaza i **0 klikova**.
+
+---
+
 # Sesija 30. jul 2026 (sedma) — FREKVENCIJA, STRANE PO UČESTALOSTI, FONT, TEKSTOVI
 
 > **NA PRODUKCIJI.** Merge `b115f02ac`. Test protiv produkcije **375/375**.

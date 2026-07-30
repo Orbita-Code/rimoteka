@@ -5,6 +5,107 @@
 ---
 
 
+# Sesija 30. jul 2026 (sedma) — FREKVENCIJA, STRANE PO UČESTALOSTI, FONT, TEKSTOVI
+
+> **NA PRODUKCIJI.** Merge `b115f02ac`. Test protiv produkcije **375/375**.
+> `nginx-provera.sh` **11/11**. Zatvoreno **šest** nalaza: F1, J1, R1, T1, P16, P10.
+
+## 1. Šta je urađeno, ukratko
+
+| # | Nalaz | Bilo | Sada |
+|---|---|---|---|
+| **F1** | `frekvencija.json` uzimao ZADNJE čitanje oblika umesto sume | `voda`=876, `dva`=9, `veliki`=34 | `voda`=**47.298**, `dva`=**344.730**, `veliki`=**198.997** |
+| **J1** | jekavski oblici izlazili bez kvačice | `naizmjence` uvek vidljivo | 850 oblika se filtrira preko `public/jekavski.json` |
+| **R1** | `pruga` bez glavnog značenja; sinonim `brada`↔`klube` | „duga uska traka" | železnica prvo, svojim rečima; sinonim obrisan |
+| **T1** | font bez ćirilice | Quicksand (nema ćirilicu!) | **Fira Sans** |
+| **P16** | strana skakala 50 px | popravljeno, nepotvrđeno | **30 merenja**, najgore 0,0012 |
+| **P10** | strane birane po abecedi | 1.577 od 1.988 na „a" | po učestalosti; na „a" **86** |
+
+## 2. F1 — uzrok je DOKAZAN, ne pretpostavljen
+
+srLex je skinut u `~/Literatura/srLex/srLex_v1.3.gz` (6.905.941 red). Oblik `voda`
+ima **četiri** reda: `vod`/2.padež 1.346 + `voda`/2.mn. 12.793 + `voda`/1.jd. **32.283**
++ **`vodati`** (glagol!) **876**. Suma 47.298, a u fajlu je stajalo **876** — tačno
+zadnji red. Time je „prepisivano umesto sabirano" prestalo da bude pretpostavka.
+
+**Uz to: prag šuma 10.** Broj 1 u korpusu od 6,9 miliona nije podatak nego šum. Bez toga
+je `abakuse` (viđeno **jednom**) preticalo `hiljada` — reč koju srLex uopšte ne poznaje.
+Sve pod 10 pojava se sada tretira kao „nema signala"; te reči i dalje izlaze kao rime,
+menja im se samo redosled.
+
+`public/matica.json` (6.752 reči) je **drugi, nezavistan signal**: reč potvrđena kao
+odrednica u Rečniku Matice srpske ide pred reč koju nijedan izvor ne potvrđuje — ali
+nikad pred reč sa stvarnim brojem. **Matica ne daje broj i ne sme da ga izmišlja.**
+
+## 3. P10 — kako se sada biraju strane
+
+Tri filtera, i svaki ima razlog:
+
+1. **učestalost** iz popravljenog `frekvencija.json`
+2. **`build/matica-sve.json`** (41.170) — samo reči potvrđene u Matici, da ne uđu
+   hrvatske i pokrajinske (srLex je veb-korpus sa `.rs` domena i sadrži `kolodvor`, `tvrtka`)
+3. **`build/sadrzajne.json`** (215.062) — samo imenice, pridevi, glagoli, prilozi.
+   Bez ovoga je vrh spiska bio `koji, što, kao, ali, nije` — niko ne traži rimu za „koji".
+
+**Obavezne, bez obzira na učestalost:** kurirane teme · `GA_RECI` (6 reči iz Analytics-a)
+· **`build/gsc-indeksirane.json` — svih 59 strana koje je Google indeksirao a koje bi
+inače nestale.** Provereno: **0 indeksiranih strana izgubljeno.**
+
+**1.672 stare adrese → 301 na hub**, jednim pravilom u `nginx.conf` (`try_files … @rime_hub`),
+ne spiskom. Pokriva i sve buduće promene izbora reči.
+
+## 4. Šta je otkriveno u Google Search Console-u
+
+**Indeksirano 124, nije indeksirano 1.014 — oko 11%.** Google odbija devet od deset strana.
+Zato je **odbijeno povećanje na 5.000 strana**: gomila odbijenog sadržaja šteti celom sajtu.
+Pravilo: **dok je indeksiranost ispod 40%, ne dodavati nove strane.**
+
+Najveći propust: **`recnik rima` — 204 prikaza, 0 klikova.** Rangiramo, ne otvaraju nas.
+To je problem naslova, ne pozicije. Zato su promenjeni `<title>`, `meta description` i
+`og:description` (izbor vlasnice, vidi `AUDIT/analitika/2026-07-30.md`).
+
+Na prvoj strani za „rimovanje reci" tri od šest rezultata pišu **„riječi"/„Rječnik"** —
+ijekavicom. Odatle „na srpskom **jeziku**" u naslovima.
+
+## 5. Nove skripte i provere
+
+| Fajl | Šta radi |
+|---|---|
+| `test/meri-cls.mjs` | meri skakanje strane **10× po strani**, ispisuje raspon |
+| `test/meri-font.mjs` | meri odnos širina za `size-adjust`; **PADA ako se font nije učitao** |
+| `test/predeploy.mjs` sekcija **27** | učestalost je sabrana (8 provera) |
+| `test/predeploy.mjs` sekcija **28** | jekavski oblici bez kvačice (5 provera) |
+| `test/nginx-provera.sh` | 5 novih: stare strane → hub, hub ne vodi sam na sebe |
+
+Sve nove provere su **prvo puštene protiv starog koda i pale** — 5, 5 i 2 redom.
+
+## 6. Tri greške koje sam napravio i uhvatio (detaljno u PROPUSTI.md 40–46)
+
+1. **Tvrdio sam kako radi rangiranje rima bez otvaranja koda** — sortirao sam samo po
+   učestalosti i prijavio broj koji na sajtu ne postoji. Vlasnica je uhvatila.
+2. **Bazen kockice sa svim rečima iz Matice** — probano, vraća `adađo`, `abonos`,
+   `admiralitetski`. Odrednica u Matici znači *standardna*, ne *poznata*.
+3. **Merenje fonta bilo je lažno zeleno** — skripta nije čekala da se font učita, pa je
+   merila Arial protiv Ariala i dala `size-adjust: 90,4%` umesto **100,9%**. Uhvaćeno
+   samo zato što su **dva različita fonta dala iste brojeve do četvrte decimale.**
+
+## 7. Šta ostaje vlasnici na odluku
+
+| Šta | Gde |
+|---|---|
+| 6 reči (`gojence`, `grnce`, `krol`, `klube`…) | `AUDIT/R1-reci-za-odluku.md` |
+| 277 spornih jekavskih oblika (`ded`, `dio`, `dobivati`) | `AUDIT/J1-sporne-reci.md` |
+| izgled huba `/rime-za/` — sada je odredište 1.672 preusmerenja (**P11**) | `AUDIT/NALAZI-OTVORENI.md` |
+
+## 8. Sledeći koraci
+
+1. **13.08.2026 — analitika** (novo pravilo, `CLAUDE.md` odeljak 9c): da li `recnik rima`
+   dobija klikove, da li indeksiranost raste, da li 301 prave greške u GSC-u.
+2. Pokrenuti agenta **`analitika`** — `~/.claude/agents/analitika.md`.
+3. **31.07.2026 — pun audit** po protokolu.
+
+---
+
 # Sesija 29. jul 2026 (šesta, kasno uveče) — MOBILNA VERZIJA (M1–M4) + čišćenje projekta
 
 > **NA PRODUKCIJI.** Test protiv produkcije: **358/358** (sekcija 26 prolazi i uživo;

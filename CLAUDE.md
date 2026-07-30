@@ -436,6 +436,52 @@ na **358 provera**). Rupe koje treba zatvoriti stoje u tabeli na dnu
 
 ---
 
+## 9c. ANALITIKA — NA SVAKA 14 DANA (OBAVEZNO)
+
+> Postavljeno 30.07.2026, pošto su podaci iz Search Console-a u jednoj sesiji promenili
+> tri odluke koje su pre toga donošene po osećaju.
+
+**Ritam: svakih 14 dana**, i **uvek u roku od dve nedelje posle svake izmene naslova,
+opisa ili URL-ova** — jer se tek tada vidi da li je izmena pomogla.
+
+Zašto 14 dana a ne češće: sajt ima **63 sesije za 90 dana**. Na tom uzorku nedeljno
+merenje pokazuje samo šum. Zašto ne ređe: Search Console čuva podatke 16 meseci, ali
+promena naslova se oceni za 2–3 nedelje — posle toga se ne zna šta je izazvalo šta.
+
+```
+Pokreni agenta:   analitika
+```
+
+Agent `analitika` (`~/.claude/agents/analitika.md`) zna kako da uđe u oba servisa i šta
+da gleda. Ulazi se **AppleScript-om nad pravim Chrome-om** — postupak je u globalnom
+`~/.claude/CLAUDE.md`. **Ne tražiti od vlasnice da se prijavljuje.**
+
+**Šta se gleda svaki put, i zašto:**
+
+| Šta | Zašto |
+|---|---|
+| upiti sa **mnogo prikaza, malo klikova** | najbrža dobit — rangiramo, ne otvaraju nas; problem je naslov, ne pozicija |
+| upiti na **poziciji 8–20** | mali potez daje veliku razliku |
+| **kako ljudi kucaju** — sa kvačicama i bez | `recnik rima` je imao 204 prikaza, `rečnik rima` 45 |
+| **indeksiranost** (primljeno/odbijeno) | 30.07.2026: 124 primljeno, 1.014 odbijeno — **ispod 40% znači: ne dodavati nove strane** |
+| **koje reči ljudi kucaju u sam alat** | GA4 događaji; to su kandidati za nove `/rime-za/` strane |
+| **telefon naspram računara**, odvojeno | većina dolazi sa telefona |
+
+**Zapis:** `AUDIT/analitika/GGGG-MM-DD.md` — sirovi brojevi **pre** tumačenja, da sledeći
+put ima sa čim da se poredi.
+
+**Zatečeno stanje 30.07.2026** (polazna tačka za sva buduća poređenja):
+
+| Mera | Vrednost |
+|---|---|
+| indeksirano / nije indeksirano | **124 / 1.014** |
+| ukupno klikova (90 dana) | ~39, od toga **22 brendiranih** („rimoteka") |
+| najjači upit bez brenda | `rimovanje` — 428 prikaza, 5 klikova |
+| najveći propust | `recnik rima` — **204 prikaza, 0 klikova** |
+| sesija (GA4, 90 dana) | 63 |
+
+---
+
 ## 9. ZABRANJENO (NE KRŠITI)
 
 - ❌ **Deploy bez prolaska `node test/predeploy.mjs`** (vidi sekciju 9a)

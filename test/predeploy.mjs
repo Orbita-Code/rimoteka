@@ -2842,6 +2842,64 @@ async function main() {
       await ctx28.close();
     }
 
+    console.log('\n29) FONT IMA SVA SRPSKA SLOVA (nalaz T1)');
+    /* 30.07.2026: vlasnica je primetila da slovo „č" u naslovima izgleda drugačije.
+       Ispalo je da Fredoka NEMA `č ć đ` ni `ђ ћ њ љ џ` — pregledač je za svako to slovo
+       tiho uzimao sistemski serif, pa je „reč" u naslovu mešalo dva fonta, na svih
+       1.993 strane. Isto je i Quicksand bio bez cele ćirilice, a Fira Sans bez `ђ ћ њ љ џ`.
+
+       KLJUČNO: `document.fonts.check()` i `unicode-range` NE POMAŽU — oni najavljuju
+       opseg, a ne garantuju da glyph postoji. Fredoka je za `č` vraćala `true`.
+       Jedini pouzdan način je MERENJE ŠIRINE: ako slovo u našem fontu ima potpuno istu
+       širinu kao u sistemskom serifu, a obično slovo (npr. „a") nema — glifa nema. */
+    {
+      const SLOVA = ['č','ć','đ','š','ž','Č','Ć','Đ','Š','Ž',      // srpska latinica
+                     'ђ','ћ','њ','љ','џ','Ђ','Ћ','Њ','Љ','Џ',      // srpska ćirilica
+                     'а','б','в','г','д','ж','з','и','ј','к'];      // osnovna ćirilica
+      const nalaz = await page.evaluate(async (slova) => {
+        const fam = getComputedStyle(document.body).fontFamily;
+        const prvi = fam.split(',')[0].trim().replace(/^['"]|['"]$/g, '');
+        await document.fonts.load(`400 200px "${prvi}"`, slova.join('') + 'a');
+        await document.fonts.load(`700 200px "${prvi}"`, slova.join('') + 'a');
+        await document.fonts.ready;
+        const m = document.createElement('span');
+        m.style.cssText = 'position:absolute;visibility:hidden;white-space:pre;font-size:200px';
+        document.body.appendChild(m);
+        const w = (f, z) => { m.style.fontFamily = f; m.textContent = z; return +m.getBoundingClientRect().width.toFixed(1); };
+        // kontrola: font se uopšte učitao? („a" mora da se razlikuje od serifa)
+        const ucitan = w(`"${prvi}"`, 'a') !== w('serif', 'a');
+        const fali = ucitan ? slova.filter(z => w(`"${prvi}"`, z) === w('serif', z)) : [];
+        m.remove();
+        return { font: prvi, ucitan, fali };
+      }, SLOVA);
+
+      ok(`font strane se učitao (${nalaz.font})`, nalaz.ucitan === true,
+         nalaz.ucitan ? '' : 'meri se rezervni font — provera ispod ne vredi');
+      ok(`font „${nalaz.font}" ima sva srpska slova`, nalaz.ucitan && nalaz.fali.length === 0,
+         nalaz.fali.length ? `FALI: ${nalaz.fali.join(' ')} — ta slova padaju na sistemski serif` : '');
+
+      // isto za font naslova — može biti drugi ako neko opet uvede dva fonta
+      const nalazH = await page.evaluate(async (slova) => {
+        const h = document.querySelector('h1') || document.body;
+        const fam = getComputedStyle(h).fontFamily;
+        const prvi = fam.split(',')[0].trim().replace(/^['"]|['"]$/g, '');
+        await document.fonts.load(`700 200px "${prvi}"`, slova.join('') + 'a');
+        await document.fonts.ready;
+        const m = document.createElement('span');
+        m.style.cssText = 'position:absolute;visibility:hidden;white-space:pre;font-size:200px;font-weight:700';
+        document.body.appendChild(m);
+        const w = (f, z) => { m.style.fontFamily = f; m.textContent = z; return +m.getBoundingClientRect().width.toFixed(1); };
+        const ucitan = w(`"${prvi}"`, 'a') !== w('serif', 'a');
+        const fali = ucitan ? slova.filter(z => w(`"${prvi}"`, z) === w('serif', z)) : [];
+        m.remove();
+        return { font: prvi, ucitan, fali };
+      }, SLOVA);
+      ok(`naslovi imaju sva srpska slova (${nalazH.font})`, nalazH.ucitan && nalazH.fali.length === 0,
+         nalazH.fali.length ? `FALI: ${nalazH.fali.join(' ')}` : '');
+      ok('naslovi i telo koriste ISTI font (jedan font na celom sajtu)',
+         nalaz.font === nalazH.font, `telo ${nalaz.font} · naslovi ${nalazH.font}`);
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

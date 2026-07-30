@@ -759,3 +759,21 @@ a ne 1,0196 koliko daje proza. Sa `size-adjust: 106,6%` CLS je pao na **0,0028**
 > **PRAVILO 48:** Posle svake promene fonta CLS se meri **pre nego što se poveruje** da je
 > gotovo. Ovde je font bio ispravan (ima sva slova), tipografija lepa, test 367/367 —
 > a strana je skakala četiri puta više nego pre.
+
+### 13. Provera koja bi ovo uhvatila mesecima ranije — sekcija 29
+
+Kvar sa fontom (nalaz T1) postojao je otkad je Fredoka uvedena, a otkrila ga je **vlasnica
+okom**, ne test. Test od 368 provera ga nije doticao, jer je gledao da font POSTOJI
+(`/Fredoka/i.test(...)`), a ne da **ima slova koja mu trebaju**.
+
+Sekcija 29 to meri: za svako od 30 srpskih slova poredi širinu u našem fontu sa širinom u
+sistemskom serifu. Ako su jednake, a obično „a" nije — glifa nema i pregledač tiho uzima
+drugi font. Provera je puštena sa Fredokom i **nabrojala tačno 26 slova koja fale**.
+
+> **PRAVILO 49:** `document.fonts.check()` i `unicode-range` **nisu dokaz da glyph postoji** —
+> oni najavljuju opseg. Fredoka je za „č" vraćala `true`, a slova nije imala. Jedini pouzdan
+> dokaz je **poređenje širine** sa sistemskim fontom.
+>
+> **PRAVILO 50:** Provera da nešto POSTOJI nije provera da RADI. Ovo je isti obrazac kao
+> nalaz iz 28.07. („test obilazi 6 od 2.010 strana i gleda da element postoji"). Kad se
+> piše provera, pitanje je: *šta bi se pokvarilo a da ova provera i dalje prođe?*

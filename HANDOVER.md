@@ -7,10 +7,28 @@
 
 # Sesija 31. jul 2026 (deseta) — TEKST NA CELOM SAJTU, agent `tekstopisac`
 
-> **Grana `feat/tekstovi-31-07`, commit `099e14545`. NIJE mergovano u `main`, dakle
-> nije objavljeno.** Uz ovo ide i sve što je čekalo iz devete sesije (mobilna verzija
-> M5–M15, kontakt u futeru). Test **430/430**.
-> Posle merge-a OBAVEZNO: `BASE=https://rimoteka.com node test/predeploy.mjs`.
+> **OBJAVLJENO 31.07.2026.** Grana `feat/tekstovi-31-07` mergovana u `main` i pushovana;
+> Coolify je objavio. Uz ovo je otišlo i sve što je čekalo iz devete sesije (mobilna
+> verzija M5–M15, kontakt u futeru).
+>
+> | Provera posle objave | Rezultat |
+> |---|---|
+> | Test lokalno | **436/436** |
+> | **Test protiv produkcije** (`BASE=https://rimoteka.com`) | **444/444** |
+> | Nov sadržaj stvarno na produkciji | potvrđeno (`prazno-stanje` u HTML-u) |
+> | `sitemap.xml`, `robots.txt`, izmenjene strane | HTTP 200, 2.016 URL-ova |
+>
+> **Sitemap je ponovo prijavljen u Search Console-u.** GSC i dalje prikazuje
+> „Last read: Jul 28" — to je normalno, datum se menja tek kad Google zaista skine fajl.
+>
+> ⚠️ **Request Indexing NIJE urađen.** Tri pokušaja kroz AppleScript: direktna adresa
+> `/search-console/inspect?...` vraća **404** (u oba oblika, sa i bez enkodovanog `id`),
+> a sintetički `Enter` u polju „Inspect any URL" ne pokreće proveru — Google-ov UI traži
+> pravi događaj sa tastature. Za sledeći put: probati preko CDP-a (Chrome sa
+> `--remote-debugging-port=9222`), po uzoru na `~/.claude-pw-tools/blb-cdp-request-indexing.mjs`.
+> Napomena: za 2.000 strana to ionako nije put — Google ima dnevni limit od desetak
+> zahteva. **Sitemap je pravi mehanizam**, a Request Indexing ima smisla samo za
+> nekoliko najvažnijih strana.
 
 ## Šta je traženo
 

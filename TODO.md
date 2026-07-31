@@ -13,8 +13,8 @@
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
 | **⛔ NAJVAŽNIJE** | **`info@rimoteka.com` ne radi** — odeljak 0.06 A. Adresa stoji na sajtu, ne zna se koliko je poruka propalo. |
 | **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |
-| **Čeka push** | tekst + mobilna verzija (M5–M15) + kontakt u futeru. Grana `feat/tekstovi-31-07`. Test **430/430** |
-| **Posle objave, ODMAH** | `BASE=https://rimoteka.com node test/predeploy.mjs` pa sitemap i ponovno indeksiranje u GSC |
+| **OBJAVLJENO 31.07.** | tekst + mobilna verzija (M5–M15) + kontakt u futeru + prazno stanje alata. Test lokalno **436/436**, protiv produkcije **444/444**. Sitemap ponovo prijavljen |
+| ⚠️ **Nije urađeno** | **Request Indexing u GSC** — direktna adresa `/search-console/inspect` vraća 404, sintetički Enter ne pokreće proveru. Probati preko CDP-a (Chrome sa `--remote-debugging-port=9222`). Za 2.000 strana ionako nije put (dnevni limit ~10); ima smisla samo za nekoliko najvažnijih strana |
 | **13.08.2026** | agent `analitika` — meri se izmena naslova početne od 30.07. **Do tada se naslov i opis početne NE DIRAJU** (v. `TODO-TEKSTOVI.md`) |
 | **Čeka odluku vlasnice** | M8 i M12 (0.06 C) |
 | Ocena poslednjeg audita | **6,9 / 10** |

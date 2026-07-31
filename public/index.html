@@ -170,7 +170,21 @@
       <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
     </div>
     <p id="rimeStatus" class="sr-only" role="status" aria-live="polite"></p>
-    <div id="rimeResults" class="results"></div>
+    <!-- PRAZNO STANJE — stoji dok se ne uradi prva pretraga. Do 31.07.2026. je ovaj
+         prostor bio prazan, a čovek u njega gleda par sekundi pre nego što išta ukuca.
+         To je jedino mesto gde saznaje da uz rime dobija i značenje, sinonime i
+         beležnicu. Svaka tvrdnja ovde je proverena u kodu: objašnjenje ima svaka reč
+         u rečniku, sinonimi se prikazuju kao grupa, a beležnica boji rime i broji
+         slogove uz stih (pre-deploy test, sekcije 3 i 31).
+         `goHome()` u app.js vraća baš ovaj sadržaj — ne briše ga u prazno. -->
+    <div id="rimeResults" class="results"><div class="prazno-stanje">
+      <p class="prazno-glavno">Upiši reč gore i klikni „Nađi rime“ — dobićeš sve što se sa njom rimuje.</p>
+      <ul class="prazno-lista">
+        <li>Uz svaku rimu piše <strong>koliko ima slogova</strong> i <strong>šta reč znači</strong>, pa ne moraš da otvaraš rečnik u drugom prozoru.</li>
+        <li>Rima zvuči dobro, a ne odgovara po smislu? Uzmi <strong>sinonim</strong> pa traži rimu za njega.</li>
+        <li>Pišeš celu pesmu? U <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> vidiš rime u boji dok kucaš, i broj slogova uz svaki stih.</li>
+      </ul>
+    </div></div>
   </section>
 
   <!-- PRETRAGA -->

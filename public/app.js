@@ -3010,9 +3010,23 @@ const brandHome = el('brandHome');
    adresi ostajali su netaknuti. Na generisanim stranama logo JESTE `<a href="/">`
    i tamo uredno resetuje; ovde se isti ishod postiže bez diranja logotipa
    (pravilo 8a: ne menja se ni tag, ni klasa, ni CSS oko njega). */
+/* Prazno stanje panela sa rimama (`index.html`, `.prazno-stanje`) zapamti se pri
+   učitavanju, da bi se vratilo kad se čovek klikom na logo vrati „na početak".
+   Ranije je `goHome()` upisivao prazan niz, pa je posle prvog povratka taj prostor
+   ostajao potpuno prazan — i sve što u njemu piše videlo bi se samo jednom.
+   Čita se lenjo i uz `try`, jer skripta ne sme da padne ako elementa nema. */
+let praznoStanjeHtml = null;
+function pamtiPraznoStanje(){
+  if(praznoStanjeHtml === null){
+    try{ praznoStanjeHtml = el('rimeResults')?.innerHTML || ''; }catch(e){ praznoStanjeHtml = ''; }
+  }
+  return praznoStanjeHtml;
+}
+try{ pamtiPraznoStanje(); }catch(e){}
+
 function goHome(){
   rimeInput.value = '';
-  el('rimeResults').innerHTML = '';
+  el('rimeResults').innerHTML = pamtiPraznoStanje();
   hideAutocomplete();
   switchTab('rime');
   try{

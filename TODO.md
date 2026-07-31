@@ -6,18 +6,32 @@
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 31.07.2026 (osma sesija)
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 31.07.2026 (deseta sesija)
 
 | | |
 |---|---|
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
 | **⛔ NAJVAŽNIJE** | **`info@rimoteka.com` ne radi** — odeljak 0.06 A. Adresa stoji na sajtu, ne zna se koliko je poruka propalo. |
-| **Čeka push** | mobilna verzija (M5–M15) + kontakt u futeru + popravke teksta. Test lokalno **422/422**. |
-| **Čeka odluku vlasnice** | tekst na tematskim stranama (0.06 B), M8 i M12 (0.06 C) |
+| **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |
+| **Čeka push** | tekst + mobilna verzija (M5–M15) + kontakt u futeru. Grana `feat/tekstovi-31-07`. Test **430/430** |
+| **Posle objave, ODMAH** | `BASE=https://rimoteka.com node test/predeploy.mjs` pa sitemap i ponovno indeksiranje u GSC |
+| **13.08.2026** | agent `analitika` — meri se izmena naslova početne od 30.07. **Do tada se naslov i opis početne NE DIRAJU** (v. `TODO-TEKSTOVI.md`) |
+| **Čeka odluku vlasnice** | M8 i M12 (0.06 C) |
 | Ocena poslednjeg audita | **6,9 / 10** |
 | Sledeći pun audit | prvi sledeći po ritmu od 3 dana |
-| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **47–51** su iz osme sesije |
+| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **51–62** su iz desete sesije |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali |
+
+> **Nađeno 31.07, nije popravljeno — bag u ALATU, ne u tekstu:** reč `čeka` savršeno se
+> rimuje sa `reka`, ima objašnjenje i frekvenciju **34.809**, ali **nije među 115 rima**
+> koje strana prikazuje — iako `dočeka` i `počeka` jesu. Nije u `RHYME_EXCLUSIONS`.
+> Traži pregled logike izbora rima; verovatno pogađa i druge česte reči.
+
+> **Linkovi sa drugih sajtova — ocena 2/10** (`AUDIT/tekstovi/2026-07-31-D-linkovi.md`).
+> Izmereno `curl`-om: `orbitacode.com`, `babylovebox.rs` i `spomenicibeograd.rs`
+> **nijednom ne pominju Rimoteku**, a `SEO_PLAN.md` ih navodi kao „najbržu polugu".
+> `/kontakt/` i `/o-nama/` vraćaju **404**. Indeksiranost **11%** — spoljni link je
+> popravlja, nove strane je pogoršavaju, pa linkovi idu **pre** novog sadržaja.
 
 > **PRAVILO: rešeno se BRIŠE odavde, ne štriklira.** Zadatak sa ✅ i dalje mora da se
 > pročita da bi se videlo da je gotov, pa sledeća sesija radi dupli posao. Kad je nešto
@@ -64,39 +78,12 @@ neozbiljno. **`orbitacode.com` već koristi Zoho** (`mx.zoho.eu`), pa se `rimote
 može dodati kao domen u isti Zoho nalog i dobiti pravo sanduče koje i prima i šalje.
 Odluka vlasnice; besplatan Zoho plan pokriva ovu potrebu.
 
-#### B) TEKST NA TEMATSKIM STRANAMA — vlasnici se ne sviđa, i delom je NETAČAN
+#### B) TEKST NA SAJTU — REŠENO 31.07.2026, brisano odavde
 
-**Prijava vlasnice 31.07.:** na `/rimovanje-reci/` je videla rečenicu
-„Evo reči za koje se rime najviše traže:" i rekla da to nije tekst za sajt i da time
-dajemo podatke konkurenciji. **U pravu je dvaput** — a nađeno je i gore od toga.
-
-| Šta | Nalaz |
-|---|---|
-| „Evo reči za koje se rime najviše traže" | spisak od 24 reči je **RUČNO OTKUCAN** (`gen_pages.py:1259`) — nijedan podatak o pretragama nije korišćen. Tvrdnja bez pokrića. |
-| Uvod: „rime su poređane od **najčešćih** ka manje poznatim" | **NETAČNO.** Kod sortira po **broju slogova** (`app.js`, `strong.sort`); učestalost je TREĆE i najslabije merilo. Dokaz: za „ljubav" prvo izlazi `gubav`, pa `ubav`, a češća `alav` je šesta. |
-| Česta pitanja: „frekvencijski podaci koji najčešće rime stavljaju na vrh" | ista netačnost, drugo mesto |
-| „Upiši reč u polje **na početnoj strani**" | alat je NA TOJ strani — tekst šalje čoveka nazad |
-| Primer: „ljubav — nesloga nije, ljubav — grbav jeste" | „nesloga" nije ni blizu rime, primer ne objašnjava ništa |
-
-> **Ceo spisak — 11 rečenica na 4 strane, sa predlogom novog teksta — stoji u
-> `TODO-TEKSTOVI.md`.** Tamo se i briše kad se uradi.
-
-**Šta uraditi:**
-1. Napisati ceo uvodni pasus iznova — **narodski, jednostavno**, da svako razume šta
-   dobija i zašto da ostane na sajtu (izričit zahtev vlasnice). Nacrt stoji u
-   `TODO-TEKSTOVI.md`, vlasnica ga još **nije odobrila**.
-2. Ispraviti sve četiri netačnosti gore.
-3. 24 linka izvaditi iz pasusa u **zaseban blok sa naslovom**, kao na ostalim stranama.
-4. **Proći i ostalih 12 tematskih strana** — ista ruka ih je pisala, ista greška se
-   očekuje. Na `/rime-za-decu/` već stoji „Evo popularnih reči koje se lepo rimuju i
-   koje deca lako pamte".
-5. Ključna fraza `recnik rima` ima **204 prikaza i 0 klikova** (GSC, 30.07.) a na strani
-   ne postoji nigde — ubaciti je u naslov, opis i naslov bloka.
-
-> **⚠️ BROJEVI SE NE OBJAVLJUJU** — odluka vlasnice 31.07.2026. Rečnik raste svakodnevno,
-> a predstoji i sesija koja prolazi ceo Rečnik Matice srpske i unosi reči, pa će broj
-> biti bitno veći. Svaki broj upisan u tekst zastari i postane netačna tvrdnja na
-> 2.000 strana odjednom. Vidi izmenjeno pravilo u odeljku **8**.
+Sve iz ovog odeljka je urađeno u desetoj sesiji: 11 rečenica iz `TODO-TEKSTOVI.md`,
+plus 8 mesta koje spisak nije imao, plus 49 lažnih rima u „Čestim pitanjima".
+Trag: `AUDIT/NALAZI-OTVORENI.md`, odeljak „ZATVORENO 31.07.2026 (deseta sesija)".
+Ostatak koji čeka stoji u `TODO-TEKSTOVI.md` — naslov početne (do 13.08.).
 
 #### C) ODLUKE KOJE ČEKAJU VLASNICU (mobilna sesija)
 

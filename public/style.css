@@ -576,6 +576,13 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
    Prelamanje UNUTAR čipa ostaje kao poslednja zaštita (v. `.chip`), za slučaj
    duge reči na uskom telefonu. */
 .results{display:flex;flex-wrap:wrap;gap:.55rem;align-content:start;align-items:flex-start}
+/* Prazno stanje — stoji dok se ne uradi prva pretraga. Boje idu iz promenljivih, da bi
+   radilo i u tamnoj temi; tvrdo upisana pozadina bi u tamnoj temi dala nečitljiv tekst
+   (AUDIT-PROTOKOL, provera br. 2 — kontrast u obe teme). */
+.prazno-stanje{width:100%;max-width:36rem;color:var(--muted);font-size:.97rem;line-height:1.65;padding:.2rem 0 .4rem}
+.prazno-stanje .prazno-glavno{margin:0 0 .7rem;color:var(--ink);font-weight:600}
+.prazno-stanje .prazno-lista{margin:0;padding-left:1.15rem;display:grid;gap:.45rem}
+.prazno-stanje a{color:var(--rose-deep);font-weight:600}
 /* u red sa rečima idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
 .results > *:not(.chip){width:100%}
 .res-group{margin-bottom:.5rem}
@@ -888,7 +895,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 
 .landing-next{margin-top:2rem}
 .landing-next h2{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
-.landing-next p{line-height:1.7;color:var(--text,inherit)}
+.landing-next p{line-height:1.7;color:var(--ink)}
 .landing-faq{margin-top:2rem}
 .landing-faq h2,.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
 .landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}

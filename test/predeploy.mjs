@@ -1030,13 +1030,27 @@ async function main() {
     await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
     await pCist.evaluate(() => localStorage.setItem('rimoteka_notes', 'Volim te ko nada\nzvezda sja u tami'));
     await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
-    const odmah = await pCist.evaluate(() => (document.getElementById('rimeResults').innerText || '').trim());
-    ok('početna → panel s rimama je prazan pri učitavanju', odmah === '', JSON.stringify(odmah));
+    /* Od 31.07.2026. panel NIJE prazan — u njemu stoji prazno stanje (`.prazno-stanje`),
+       tekst koji jedini kaže da uz rime idu značenje, sinonimi i beležnica. Provera zato
+       više ne traži prazan panel nego ono zbog čega je i nastala: da tu NEMA rima ni
+       poruke o učitavanju dok korisnik sam ne zatraži. Tražiti doslovno prazno značilo bi
+       da provera zabranjuje sadržaj, a ne bag. */
+    const stanjePanela = () => pCist.evaluate(() => {
+      const box = document.getElementById('rimeResults');
+      return { rima: box.querySelectorAll('.chip, .word').length,
+               poruka: /Učitavam|Nema rime|Greška/i.test(box.innerText || ''),
+               praznoStanje: !!box.querySelector('.prazno-stanje') };
+    });
+    const odmah = await stanjePanela();
+    ok('početna → panel nema rime ni poruku o učitavanju pri učitavanju',
+       odmah.rima === 0 && !odmah.poruka && odmah.praznoStanje, JSON.stringify(odmah));
     await pCist.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
                                 { timeout: 120000 }).catch(() => {});
     await pauza(1200);
-    const posleRecnika = await pCist.evaluate(() => (document.getElementById('rimeResults').innerText || '').trim());
-    ok('početna → panel ostaje prazan i kad se rečnik učita', posleRecnika === '', JSON.stringify(posleRecnika).slice(0, 80));
+    const posleRecnika = await stanjePanela();
+    ok('početna → panel ostaje bez rima ni kad se rečnik učita',
+       posleRecnika.rima === 0 && !posleRecnika.poruka && posleRecnika.praznoStanje,
+       JSON.stringify(posleRecnika));
     // a kad korisnik SAM traži rime, rezultati moraju da se pojave i da ostanu
     const posleTrazenja = await pCist.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
@@ -3385,6 +3399,73 @@ async function main() {
         }
       }
       await p32.close();
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       33) PRAZNO STANJE PANELA SA RIMAMA (31.07.2026)
+
+       Pre prve pretrage panel je bio prazan, a čovek u njega gleda par sekundi.
+       Tu sada stoji tekst koji jedini kaže da uz rime idu značenje, sinonimi i
+       beležnica. Provera pokriva ono što se lako pokvari:
+         · da se uopšte vidi pre pretrage,
+         · da ga rezultati zamene (ne da ostane iznad njih),
+         · da se VRATI posle klika na logo — `goHome()` ga je ranije brisao u prazno,
+         · da je čitljiv u TAMNOJ temi (tvrdo upisana boja je česta zamka).
+       ───────────────────────────────────────────────────────────────────────── */
+    console.log('\n33) PRAZNO STANJE PANELA SA RIMAMA');
+    {
+      const p33 = await (await browser.newContext()).newPage();
+      await p33.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(400);
+
+      const pre = await p33.evaluate(() => {
+        const e = document.querySelector('#rimeResults .prazno-stanje');
+        if (!e) return null;
+        const s = getComputedStyle(e);
+        return { tekst: e.textContent.trim(), vidljiv: e.offsetHeight > 0,
+                 linkova: e.querySelectorAll('a').length, boja: s.color };
+      });
+      ok('prazno stanje se vidi pre pretrage', !!pre && pre.vidljiv, pre ? `${pre.tekst.slice(0,60)}…` : 'nema ga');
+      ok('prazno stanje pominje značenje, sinonim i beležnicu',
+         !!pre && /znač/i.test(pre.tekst) && /sinonim/i.test(pre.tekst) && /beležnic/i.test(pre.tekst),
+         pre ? pre.tekst.slice(0, 90) : '');
+      ok('prazno stanje vodi bar na jednu drugu stranu', !!pre && pre.linkova >= 1, `linkova: ${pre?.linkova}`);
+
+      // rezultati moraju da ga ZAMENE, ne da se nakaleme ispod njega
+      await p33.fill('#rimeInput', 'ljubav');
+      await p33.click('#rimeBtn');
+      await pauza(1400);
+      const posle = await p33.evaluate(() => ({
+        praznoOstalo: !!document.querySelector('#rimeResults .prazno-stanje'),
+        rima: document.querySelectorAll('#rimeResults .word').length
+      }));
+      ok('pretraga zamenjuje prazno stanje rezultatima',
+         posle.rima > 0 && !posle.praznoOstalo, `rima: ${posle.rima}, prazno ostalo: ${posle.praznoOstalo}`);
+
+      // klik na logo vraća „na početak" — prazno stanje mora ponovo da se pojavi
+      await p33.evaluate(() => (window.goHome ? window.goHome() : document.querySelector('.brand-h')?.click()));
+      await pauza(500);
+      const nazad = await p33.evaluate(() => !!document.querySelector('#rimeResults .prazno-stanje'));
+      ok('povratak na početak vraća prazno stanje (ne ostavlja prazan panel)', nazad, `vraćeno: ${nazad}`);
+
+      // kontrast u TAMNOJ temi — boja teksta naspram pozadine panela
+      await p33.evaluate(() => document.getElementById('darkToggle')?.click());
+      await pauza(400);
+      const kontrast = await p33.evaluate(() => {
+        const e = document.querySelector('#rimeResults .prazno-stanje');
+        if (!e) return null;
+        const lum = (c) => { const [r,g,b] = c.match(/\d+(\.\d+)?/g).slice(0,3).map(Number)
+            .map(v => { v /= 255; return v <= 0.03928 ? v/12.92 : Math.pow((v+0.055)/1.055, 2.4); });
+          return 0.2126*r + 0.7152*g + 0.0722*b; };
+        let poz = getComputedStyle(document.body).backgroundColor, el = e;
+        while (el && /rgba\(0, 0, 0, 0\)|transparent/.test(getComputedStyle(el).backgroundColor)) el = el.parentElement;
+        if (el) poz = getComputedStyle(el).backgroundColor;
+        const a = lum(getComputedStyle(e).color), b = lum(poz);
+        return Math.round(((Math.max(a,b)+0.05)/(Math.min(a,b)+0.05)) * 100) / 100;
+      });
+      ok('prazno stanje je čitljivo u tamnoj temi (kontrast ≥ 4,5:1)',
+         kontrast !== null && kontrast >= 4.5, `kontrast: ${kontrast}:1`);
+      await p33.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

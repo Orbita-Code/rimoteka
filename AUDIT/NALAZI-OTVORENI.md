@@ -62,7 +62,7 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## ZATVORENO 31.07.2026 (deveta sesija) — TEKST NA CELOM SAJTU
+## ZATVORENO 31.07.2026 (deseta sesija) — TEKST NA CELOM SAJTU
 
 > Zahtev vlasnice: napravljen agent `tekstopisac` (`.claude/agents/tekstopisac.md`), pa
 > pušten na ceo sajt. Četiri nezavisna pregleda: glavne strane, tematske strane i šablon,
@@ -71,7 +71,7 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 | # | Šta je bilo | Šta je sada | Šta to čuva |
 |---|---|---|---|
-| **T2** | **Šest odgovora u „Čestim pitanjima" nabrajalo 49 reči kao rime — nijedna se ne rimuje.** `majka → reka, čeka, njega` (0/8), `prijatelj → smeh, dnevnik, željeznički` (0/6, uz hrvatski oblik), `godina` (0/8), `rođendan` (0/10), `ljubav` na dve strane (0/17). Reč `bliza` navedena kao rima — **nema je u `reci.txt`** | Sve zamene **prepisane iz naših generisanih strana i proverene programski: 46/46 potvrđeno** protiv spiska pravih rima **Test, sekcija 32** (8 provera). Čita spisak **iz teksta same strane** — ne iz upisane tabele — i traži svaku reč među pravim rimama, **isključujući blok „Rime za druge reči"**. Prva verzija je uzimala upisanu tabelu tačnih rima i zato **prolazila i na produkciji sa pogrešnim tekstom**; otkriveno puštanjem protiv produkcije (pravilo H4) |
+| **T2** | **Šest odgovora u „Čestim pitanjima" nabrajalo 49 reči kao rime — nijedna se ne rimuje.** `majka → reka, čeka, njega` (0/8), `prijatelj → smeh, dnevnik, željeznički` (0/6, uz hrvatski oblik), `godina` (0/8), `rođendan` (0/10), `ljubav` na dve strane (0/17). Reč `bliza` navedena kao rima — **nema je u `reci.txt`** | Sve zamene **prepisane iz naših generisanih strana i proverene programski: 46/46 potvrđeno** protiv spiska pravih rima | **Test, sekcija 32** (8 provera). Čita spisak **iz teksta same strane** — ne iz upisane tabele — i traži svaku reč među pravim rimama, **isključujući blok „Rime za druge reči"**. Prva verzija je uzimala upisanu tabelu tačnih rima i zato **prolazila i na produkciji sa pogrešnim tekstom**; otkriveno puštanjem protiv produkcije (pravilo H4) |
 | **T3** | Blok „**Još popularnih rima**" na **1.993 strane** — a `related_targets` vraća meta-reči, ne rime (`gen_pages.py:879`). Nose istu klasu `.word` kao prave rime, pa se **ni programski ne razlikuju** — zbog toga je pet lažnih FAQ odgovora „prošlo" automatsku proveru | Naslov „**Rime za druge reči**" + rečenica ispod: „Ovo nisu rime za „X" — to su strane sa rimama za druge reči." | — |
 | **T4** | „**rangirano po kvalitetu**" / „poređane od najčešćih ka manje poznatim" / „pokazuje kvalitet svake rime" — **na 5 strana + ~2.000 generisanih**. Kod sortira po **blizini broja slogova** (`app.js:942–948`) | Svuda: „na vrhu su rime sa istim brojem slogova kao tvoja reč — one najlakše legnu u stih" | — |
 | **T5** | Naslov grupe „**Najbolje rime**" značio je **dve različite stvari**: u alatu isti broj slogova (`app.js:965`), na generisanoj strani duži zajednički završetak (`gen_pages.py:811`) | Na generisanoj strani: „**Rime sa istim završetkom**" | — |

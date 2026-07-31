@@ -5,6 +5,118 @@
 ---
 
 
+# Sesija 31. jul 2026 (deseta) — TEKST NA CELOM SAJTU, agent `tekstopisac`
+
+> **Grana `feat/tekstovi-31-07`, commit `099e14545`. NIJE mergovano u `main`, dakle
+> nije objavljeno.** Uz ovo ide i sve što je čekalo iz devete sesije (mobilna verzija
+> M5–M15, kontakt u futeru). Test **430/430**.
+> Posle merge-a OBAVEZNO: `BASE=https://rimoteka.com node test/predeploy.mjs`.
+
+## Šta je traženo
+
+Vlasnica: *„napravi agenta koji će da se ponaša kao najbolji copywriter, SEO specialist
+i marketing stručnjak sa preko 40 god iskustva… ton ljubazan, bez persiranja, ali
+profesionalan, topao… cilj je da se zadrže na sajtu jer imaju na jednom mestu sve što
+je potrebno za pisanje pesama."* Zatim: pusti ga na ceo sajt, ključne reči, link
+building, izveštaj sa ocenama i tabelom pre/posle.
+
+## Šta je napravljeno
+
+**`.claude/agents/tekstopisac.md`** — projektni agent, ide u repo. Sadrži ton, redosled
+čitalaca, zabranjene fraze, mikrokopiju, SEO pravila, gde tekst živi, čeklistu od 15
+tačaka i (od ove sesije) **korak 4a** — pravila o menjanju celih rečenica.
+
+> **Ciljna publika, TIM REDOM (odluka vlasnice):** 1. pesnici · 2. tekstopisci (rep,
+> pesme, čestitke) · 3. oni koji rimuju iz ljubavi · pa roditelji, đaci, svatovi.
+> Ranije se pisalo kao da je publika „svako", pa je tekst bio snishodljiv.
+
+**Četiri pregleda** (`AUDIT/tekstovi/2026-07-31-{A,B,C,D}.md` + `ZBIRNO.md`).
+**Ocena teksta pre popravke: 3,6/10.**
+
+## Najgori nalaz: sajt za rimovanje nudio reči koje se ne rimuju
+
+Šest odgovora u „Čestim pitanjima" nabrajalo je **49 reči kao rime — nijedna se nije
+rimovala.** Za „majka" je pisalo *reka, čeka, njega, lepa* (0/8); za „prijatelj" —
+*smeh, dnevnik, željeznički* (0/6, uz hrvatski oblik). Reč **`bliza`** navedena kao
+rima **ne postoji u rečniku**.
+
+**Zašto nijedna automatika ovo nije uhvatila:** reči u bloku „Još popularnih rima" nose
+**istu klasu `.word`** kao prave rime. Naivna provera „da li reč postoji na strani
+`/rime-za/X/`" prolazi i za reč koja nije rima. Ista zamka je oborila i moju prvu
+proveru — pokazala je „5 od 7 tačno" dok blok nije odsečen.
+
+## Merljivo, na ~2.000 strana
+
+| Mera | Pre | Sada |
+|---|---|---|
+| Opis u pretrazi (medijana) | 205 znakova | **147** |
+| Opisa preko 160 (Google ih seče) | skoro svi | **0 od 1.993** |
+| Naslova u opsegu 60–70 | 103 | **1.803** |
+| Linkova ka drugim alatima iz teksta | **0** | 4 (nov odeljak „Šta dalje") |
+| CLS `/rimovanje-reci/` | 0,105 (palo) | **0,0026** |
+| Provera u testu | 422 | **430** |
+
+## Prazno stanje alata (traženo na kraju sesije)
+
+Panel sa rimama je pre prve pretrage bio **prazan**, a čovek u njega gleda par sekundi.
+Sada tu stoji tekst koji jedini kaže da uz rime idu **značenje, sinonimi i beležnica** —
+tri stvari koje konkurencija nema. `goHome()` je ranije brisao taj prostor u prazan niz,
+pa bi se posle povratka na početak video samo jednom; sada vraća zapamćeni sadržaj.
+Provera: **sekcija 33** (vidi se pre pretrage, rezultati ga zamene, vraća se posle
+povratka na početak, čitljiv u tamnoj temi).
+
+## TRI GREŠKE KOJE SAM JA NAPRAVIO — pročitati, ovde je najviše nauke
+
+**1. Pokvario CLS prepisujući tekst.** Uvod `/rimovanje-reci/` bio je tačno na granici
+preloma: sa rezervnim fontom tri reda, sa Rubikom četiri — blok ispod skakao 43 px.
+Produkcija 0,0026, moja verzija **0,105 u svih 10 merenja**. Uhvatio test.
+Prvo sam **skratio tekst** umesto da nađem uzrok — i time izbacio rečenicu o veličini
+rečnika, što je vlasnica primetila. Vraćeno; CLS ostao 0,0026.
+
+**2. Menjao delove rečenica.** Zamenio bih početak, a stari rep bi ostao:
+*„Rime za pesmu roditeljima: … **Pišeš li, ovde ćeš pronaći** rime koje izražavaju
+ljubav."* **Šest takvih mesta.** Uhvatila **vlasnica, na telefonu, za dva minuta** —
+posle testa od 430 provera. Uz to: ista loša konstrukcija („dobiješ rime**, uz svaku**
+broj slogova" — nabrajanje bez glagola) bila je **kopirana na 19 mesta**.
+
+**3. Napisao proveru koja ne može da padne.** Prva verzija sekcije 32 uzimala je **moju
+tabelu tačnih rima** i poredila je sa stranom. Tabela je po definiciji tačna, pa je
+provera **prolazila i na produkciji, gde piše „majka: reka, čeka"**. Otkriveno **samo**
+zato što je puštena protiv produkcije dok je tamo stari kod (pravilo H4). Sada čita
+spisak **iz teksta same strane**.
+
+> Pravila iz ovoga: `AUDIT/PROPUSTI.md`, propusti **14–16**, pravila **51–62**.
+
+## Šta NIJE dirano, namerno
+
+- **Naslov i opis početne strane** — vlasnica ih je promenila 30.07. zbog upita
+  `recnik rima` (204 prikaza, 0 klikova); merenje traje **do 13.08.** Nova izmena bi ga
+  poništila. U opisu je zato i dalje „270.000 reči". Zavedeno u `TODO-TEKSTOVI.md`.
+- **Nove strane** (`/o-rimoteci/`, `/kontakt/`) — indeksiranost je 11%, pravilo je da se
+  ispod 40% ne dodaju strane. Ali bez njih niko ne linkuje sajt (v. dole).
+
+## Nađeno usput, NIJE popravljeno
+
+**Bag u alatu, ne u tekstu:** reč **`čeka`** savršeno se rimuje sa `reka`, ima
+objašnjenje i frekvenciju **34.809**, ali **nije među 115 rima** koje strana prikazuje —
+iako `dočeka` i `počeka` jesu. Nije u `RHYME_EXCLUSIONS`. Traži pregled logike izbora
+rima; verovatno pogađa i druge česte reči.
+
+**Linkovi sa drugih sajtova — 2/10.** Izmereno `curl`-om: `orbitacode.com`,
+`babylovebox.rs` i `spomenicibeograd.rs` **nijednom ne pominju Rimoteku**, a `SEO_PLAN.md`
+ih navodi kao „najbržu polugu koju konkurenti nemaju". `/kontakt/` i `/o-nama/` vraćaju
+**404**. Postoji i **sudar imena** — iOS aplikacija „Rimoteka" drugog autora izlazi u
+pretrazi našeg brenda. Plan: `AUDIT/tekstovi/2026-07-31-D-linkovi.md`.
+
+## Sledećoj sesiji
+
+1. **Mejl `info@rimoteka.com`** — i dalje prvo po redu (`TODO.md` 0.06 A).
+2. Merge grane i objava, pa **odmah test protiv produkcije** i ponovno indeksiranje u GSC.
+3. **13.08.** — agent `analitika`, pa tek onda dirati naslov početne.
+4. Bag sa rečju `čeka` u izboru rima.
+
+---
+
 # Sesija 31. jul 2026 (deveta) — MOBILNA VERZIJA, KONTAKT U FUTERU, MEJL
 
 > **NIŠTA NIJE PUSHOVANO.** Vlasnica je izričito tražila da prvo pregleda sve izmene.

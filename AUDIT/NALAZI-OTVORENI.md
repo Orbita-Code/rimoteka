@@ -6,6 +6,8 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+**Stanje na dan 31.07.2026 (osma sesija, kraj): 3 otvorena nalaza** — mobilna verzija je odrađena u celini (M5–M15), test 372 → **422 provere**.
+
 **Stanje na dan 30.07.2026 (sedma sesija, kraj): 3 otvorena nalaza** — `R1-ostatak` (6 reči) i `J1-ostatak` (277 oblika) čekaju odluku vlasnice, `P11` (izgled huba) čeka odluku o izgledu. **Zatvoreno u ovoj sesiji: F1, J1, R1, T1, P16, P10.** Test 354 → **367 provera** + 5 novih u `nginx-provera.sh`.
 
 > ### Usklađivanje evidencije 30.07.2026 — pročitati pre audita
@@ -57,6 +59,75 @@ Ocena poslednjeg audita: **6,9 / 10** — nova ocena se računa u auditu 31.07.2
 **Zatvoreno u ovoj sesiji: 60 nalaza.** Test podignut sa **167 na 265+ provera**.
 Svaka nova provera je prvo puštena **protiv produkcije dok je tamo stari kod** i
 tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji**.
+
+---
+
+## ZATVORENO 31.07.2026 (deveta sesija) — TEKST NA CELOM SAJTU
+
+> Zahtev vlasnice: napravljen agent `tekstopisac` (`.claude/agents/tekstopisac.md`), pa
+> pušten na ceo sajt. Četiri nezavisna pregleda: glavne strane, tematske strane i šablon,
+> ključne reči, linkovi sa drugih sajtova. Izveštaji: `AUDIT/tekstovi/2026-07-31-*.md`.
+> **Ocena teksta pre popravke: 3,6/10.** Vlasnica odobrila sve nalaze.
+
+| # | Šta je bilo | Šta je sada | Šta to čuva |
+|---|---|---|---|
+| **T2** | **Šest odgovora u „Čestim pitanjima" nabrajalo 49 reči kao rime — nijedna se ne rimuje.** `majka → reka, čeka, njega` (0/8), `prijatelj → smeh, dnevnik, željeznički` (0/6, uz hrvatski oblik), `godina` (0/8), `rođendan` (0/10), `ljubav` na dve strane (0/17). Reč `bliza` navedena kao rima — **nema je u `reci.txt`** | Sve zamene **prepisane iz naših generisanih strana i proverene programski: 46/46 potvrđeno** protiv spiska pravih rima **Test, sekcija 32** (8 provera). Čita spisak **iz teksta same strane** — ne iz upisane tabele — i traži svaku reč među pravim rimama, **isključujući blok „Rime za druge reči"**. Prva verzija je uzimala upisanu tabelu tačnih rima i zato **prolazila i na produkciji sa pogrešnim tekstom**; otkriveno puštanjem protiv produkcije (pravilo H4) |
+| **T3** | Blok „**Još popularnih rima**" na **1.993 strane** — a `related_targets` vraća meta-reči, ne rime (`gen_pages.py:879`). Nose istu klasu `.word` kao prave rime, pa se **ni programski ne razlikuju** — zbog toga je pet lažnih FAQ odgovora „prošlo" automatsku proveru | Naslov „**Rime za druge reči**" + rečenica ispod: „Ovo nisu rime za „X" — to su strane sa rimama za druge reči." | — |
+| **T4** | „**rangirano po kvalitetu**" / „poređane od najčešćih ka manje poznatim" / „pokazuje kvalitet svake rime" — **na 5 strana + ~2.000 generisanih**. Kod sortira po **blizini broja slogova** (`app.js:942–948`) | Svuda: „na vrhu su rime sa istim brojem slogova kao tvoja reč — one najlakše legnu u stih" | — |
+| **T5** | Naslov grupe „**Najbolje rime**" značio je **dve različite stvari**: u alatu isti broj slogova (`app.js:965`), na generisanoj strani duži zajednički završetak (`gen_pages.py:811`) | Na generisanoj strani: „**Rime sa istim završetkom**" | — |
+| **T6** | Opis u pretrazi na 1.993 strane: **medijana 205 znakova, najduži 279** — Google ga seče, pa je oglas za sajt glasio „gubav, av, bagav" | Opis se **puni do granice**, ne na fiksan broj primera: medijana **147**, najduži **158**, **0 preko 160** | — |
+| **T7** | Naslovi: medijana 55, u opsegu 60–70 samo **103 od 1.993**; fraze `rečnik rima` (204 prikaza, 0 klikova) nije bilo nigde | Medijana **67**, u opsegu **1.803 od 1.993**, fraza u naslovu | — |
+| **T8** | **1.993 strane bez ijednog linka ka drugim alatima iz teksta** (`faq_sa_linkovima` se u tom šablonu ne poziva) | Nov odeljak „**Šta dalje**" — 4 opisna linka: slogovi, vrste rima, rime za decu, beležnica | — |
+| **T9** | „**preko 270.000 reči**" na 5 mesta + ~2.000 strana — broj koji raste | „rečnik pokriva ceo srpski jezik" | — |
+| **T10** | Persiranje: `404`, „Naglasite snagu", „Pomislite na", „Budite iskreni", „Dozvolite si" (**hrvatski sklop**) | Sve na „ti" | — |
+| **T11** | Gramatičke greške objavljene na sajtu: „**nova početka**", „nekoliko stihova **mogu**", „**asonantu**", „kada vam je bio uz vas" | Ispravljeno | — |
+| **T12** | 10 golih spiskova reči predstavljenih kao podatak („Popularne reči", „Najčešće reči") — **ručno otkucani, ništa mereno** | Rečenice sa zanatskim savetom + unutrašnji linkovi | — |
+| **T13** | Tekst u alatu: 3 engleske poruke („Combo master", „Combo legend", „Perfect score"), **dva različita dugmeta pisala „obriši sve"**, 6 poruka bez izlaza („Nema rima za čuvanje") | Sve na srpskom, dugmad razdvojena („obriši pesmu" / „obriši sve reči"), poruke kažu **šta sada** | — |
+| **T14** | Pro modal nudio „metar, ritam, šema rime — uskoro" i „izvoz u PDF — uskoro", a **oboje već radi besplatno** u beležnici | Uklonjeno (dugme je i inače zakomentarisano, `index.html:110`) | — |
+
+**Ukupno 66 izmena teksta. Test 422/422, „Sme deploy".**
+
+> **Nađeno usput, NIJE popravljeno — zaseban bag u alatu (ne u tekstu):**
+> reč **`čeka` se savršeno rimuje sa `reka`**, ima definiciju i frekvenciju **34.809**,
+> ali **nije među 115 rima** koje strana prikazuje — iako `dočeka` i `počeka` jesu.
+> Nije u `RHYME_EXCLUSIONS`. Traži pregled logike izbora rima.
+
+> **Sopstveni propust iz ovog prolaza** (`PROPUSTI.md`, pravilo 14, i pravila 51–56):
+> prepisan uvod strane `/rimovanje-reci/` **pomerio je raspored strane** — CLS sa 0,0026
+> skočio na **0,105** (svih 10 merenja preko granice). Uhvatio pre-deploy test.
+> Posle popravke **0,0021–0,0026**, bolje i od produkcije.
+
+---
+
+## ZATVORENO 31.07.2026 (osma sesija) — MOBILNA VERZIJA
+
+> Zahtev vlasnice: „uradi mobilnu verziju tako da bude najprofesionalnija i
+> najlakša za korišćenje… ne smeš da menjaš ništa na desktopu i tabletu."
+> Sve izmerено na 320/390/430 px, u obe teme. Sve popravke su u
+> `@media(max-width:560px)` ili se pale tek kad se otvori tastatura —
+> **osim M8**, koji je zajednički kod i menja i računar (v. napomenu).
+
+| # | Bilo | Sada | Provera u testu |
+|---|---|---|---|
+| **M5** | **Tastatura zaklanjala ponuđene rime u beležnici** (prijava vlasnice). Panel je `position:fixed; bottom:0`, a to se meri prema layout viewport-u koji se pri otvaranju tastature ne smanjuje. Izmereno na 390×844: panel 557–844 px, tastatura pokriva od 508 naniže — **nijedna rima se nije videla**. | `--kb` se računa iz `visualViewport` (jedini put koji radi i na iOS-u i na Androidu — VirtualKeyboard API postoji samo u Chrome-u), panel stoji na `bottom:var(--kb)`. Izmereno: panel završava **tačno na 508**, prva rima 454–498. Uz to je sveden na **traku od 96 px** umesto lista od 287, pa se vidi i pesma koja se piše; strelica ga razvija u pun list. | **sekcija 30**, 14 provera na `/` i `/pisanje-pesama/` |
+| **M6** | **Rime jedna ispod druge.** Pilula je nosila i ⓘ ♡ 🔁 pa je bila široka **228 px od 390** — u red je stajala jedna reč. 195 rima = spisak visok **12.524 px**, strana 16.113 px. | Mreža od **2–3 kolone** (`auto-fill minmax(104px,1fr)`: na 320 px dve, na 390 i 430 tri). Duga reč uzima dve ili tri kolone umesto da se prelama. Spisak **3.997 px**, strana 7.574 px. | sekcija 30, 5 provera |
+| **M7** | Ikonice sklonjene iz pilule — moraju negde da postoje. | Dodir na reč otvara **traku iznad reči**: značenje · omiljene · rime · kopiraj, sve nacrtano kao SVG (jedan izgled na svakom telefonu). Sačuvana reč zadrži **puno srce** u pilули, da se vidi i bez otvaranja trake. | sekcija 30, 7 provera |
+| **M8** | **Oznake uz stih (slogovi, šema rime) razminute sa stihom.** `getEditorText()` je 29.07. naučen da `<div>` računa kao novi red (mobilni Enter), a `editorTextIndex()` nije — nedostajao mu je po jedan znak posle svakog bloka. Izmereno: pesma kucana na telefonu ima poslednja dva stiha pomerena za **ceo red**, pesma sa praznim redom između strofa za **dva reda** (−59 px na 390, −68 na 1440). | Spisak pozicija broji identično kao `getEditorText()`. Šest oblika unosa × dve širine — sve poravnato (odstupanje 1 px, zaokruživanje). | **sekcija 31**, 12 provera; na starom kodu pada 6/12 |
+| **M9** | Na `/pisanje-pesama/` i u tabu „Omiljene" dugmad beležnice visoka **23 px**. Popravka od 29.07. bila je vezana za `#panel-beleznica`, a ta strana ima `.landing-tool` i nema taj `id`. | Selektor ide na klasu (`.hint .link-btn`), pa važi na sve tri strane. Izmereno **44 px**. Uz to su od podvučenih linkova postale pilule, a „obriši sve" i „obriši omiljene" su crveni. | sekcija 30, 2 provere |
+| **M10** | U igri su polje za unos, dugme „Proveri" i poruka o tačnosti padali **pod tastaturu**. | `drziPoljeUVidokrugu()` — uslovno pomeranje: ako je red već vidljiv, ne radi ništa, pa se nikad ne otima pregledaču. Izmereno: reč, tajmer, polje, dugme i poruka svi iznad tastature. | sekcija 30, 4 provere |
+| **M11** | Dodirni ciljevi ispod praga: prebacivač pisma **34 px**, filter slogova **31**, kvačice **17**, tabovi ispod 44. | Sve na **40–48 px** (prag Apple HIG-a i Material-a je 44). | sekcija 30 |
+| **M12** | U tamnom režimu „dobre rime" i rime u beležnici imale **beo okvir** 2 px (`rgb(255,255,255)`) na podlozi #1e1a2e — dva različita izgleda u istom spisku. | Okvir ide kroz `var(--line)`; „najbolje rime" zadržavaju svoju boju. **Popravljeno samo na telefonu** — v. napomenu ispod. | — |
+| **M14** | **Mrtvo dugme na `/klasici/`.** Slovo šeme rime uz svaki stih zove `switchTab('rime')` — a ta strana nema tab sa rimama, pa klik NE URADI NIŠTA, dok uputstvo na strani obećava „klikni da nađeš rime". 138 stihova. Na početnoj radi, zato se nije primetilo. | Na strani bez tog taba ide se na `/?rec=…` — isti oblik linka koji već koriste pilule na stranama `/rime-za/…`. **Ovo radi i na računaru** (dugme je i tamo bilo mrtvo). | sekcija 30, 1 provera |
+| **M15** | U Klasicima: dugme „prebaci u brojač slogova" **164×21 px**, slovo šeme rime **24×18 px**. | Dugme **192×44**, slovo **36×28**. Pun prag od 44 px kod slova nije moguć — razmak između stihova je 26 px — pa je cilj proširen koliko staje a da red ostane red pesme. | sekcija 30, 2 provere |
+| **M13** | Posle „Nađi rime" korisnik ostaje na istom ekranu: iznad rezultata stoji **1.070 px** sadržaja. | Tastatura se zatvara i lista se dovodi pod prst (samo na svesnu pretragu — dugme ili Enter, ne na promenu filtera). | — |
+
+> **⚠️ DVE STVARI KOJE DODIRUJU I RAČUNAR — za odluku vlasnice:**
+> · **M8 je popravljen svuda** jer je u zajedničkom kodu (`app.js`) i jer je reč o
+>   pogrešnom broju uz pogrešan stih, ne o izgledu. Vidljiva promena na računaru:
+>   oznake sada stoje uz svoj stih i kod pesama sa praznim redom. Ako to ipak ne
+>   treba dirati na računaru — reci, vraća se u jednu liniju.
+> · **M12 stoji i na računaru i na tabletu** (beo okvir u tamnom režimu), ali tamo
+>   **nije diran**, po dogovoru. Popravka je jedna linija kad je odobriš.
 
 ---
 

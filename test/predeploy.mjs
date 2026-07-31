@@ -1186,6 +1186,12 @@ async function main() {
             const cb = c.getBoundingClientRect();
             c.querySelectorAll('.mini, .syl, .word').forEach(e => {
               const eb = e.getBoundingClientRect();
+              /* Od 31.07.2026. su ⓘ ♡ 🔁 na telefonu sklonjeni iz pilule i
+                 pojavljuju se iznad reči na dodir. Sakriven element ima
+                 pravougaonik 0×0 na koordinati 0,0 — što je levo od čipa, pa
+                 bi ga ova provera prijavila kao „viri". Ne vidi se uopšte,
+                 dakle ne može da viri; ono što se VIDI i dalje se meri. */
+              if (eb.width === 0 && eb.height === 0) return;
               // 2px tolerancije — okvir čipa je debeo 2px
               if (eb.right > cb.right - 2 || eb.left < cb.left + 2) {
                 viri++;
@@ -1820,8 +1826,12 @@ async function main() {
           lead: document.querySelector('.landing-lead')?.textContent || '',
           cta: document.querySelector('.landing-cta')?.getAttribute('href') || ''
         }));
+        /* Obrazac hvata PADEŽE — srpski je padežan jezik, pa „sa dečjim režimom" i „uključi
+           dečji režim" moraju oba da prođu. Do 31.07.2026. je tražen samo nominativ
+           („dečji režim"), pa je provera pala na tekstu koji uredno pominje režim u
+           instrumentalu. Provera ne sme da diktira padež — samo da traži da je pomenut. */
         ok(`${s} pominje dečji režim umesto da tvrdi da je uvek uključen`,
-           /dečji režim/i.test(d.lead), d.lead.slice(0, 90));
+           /dečj\w*\s+režim\w*/i.test(d.lead), d.lead.slice(0, 90));
         ok(`${s} dugme vodi na alat sa uključenim režimom`, /decji=1/.test(d.cta), d.cta);
       }
       await p18b.close();
@@ -1861,8 +1871,17 @@ async function main() {
       ok('naslov nema „N reči koje" kad je N%10===1',
          !/\b\d*1 reči koje/.test(rec.title), rec.title);
       ok('breadcrumb ima sva tri nivoa', rec.mrve.length >= 3, rec.mrve.join(' › '));
-      ok('predikat se slaže sa brojem („Pronađeno je 56 reči")',
-         /^(Pronađeno je|Pronađene su|Pronađena je)/.test(rec.lead.trim()), rec.lead);
+      /* Uvod je 31.07.2026. prepisan („Sve što se rimuje sa „mama" — 86 reči…"), pa provera
+         više ne traži predikat nego ono zbog čega je i postojala: da se OBLIK reči slaže sa
+         brojem. U srpskom oblik zavisi od POSLEDNJE cifre — 1 reč, 2 reči, 21 reč, 11 reči. */
+      /* NE koristiti \b: u JS-u je granica reči definisana samo nad [A-Za-z0-9_], pa „č“
+         važi kao NE-slovo — zbog toga „reč\b“ pogađa i unutar „reči“ i provera daje
+         tačno obrnut rezultat. Zato duži oblik ide prvi i traži se da posle njega
+         nema slova (\p{L} uz zastavicu u). */
+      const _bp = rec.lead.match(/(\d+)\s+(reči|reč)(?!\p{L})/u);
+      const _jedn = _bp && Number(_bp[1]) % 10 === 1 && Number(_bp[1]) % 100 !== 11;
+      ok('oblik reči se slaže sa brojem („1 reč" / „86 reči")',
+         !!_bp && (_jedn ? _bp[2] === 'reč' : _bp[2] === 'reči'), rec.lead);
       ok('og:image je društvena slika 1200×630', /og-slika\.png/.test(rec.og), rec.og);
       ok('twitter:card je summary_large_image', rec.tw === 'summary_large_image', rec.tw);
 
@@ -2334,6 +2353,8 @@ async function main() {
             visine[h] = (visine[h] || 0) + 1;
             [...c.children].forEach(d => {
               const dr = d.getBoundingClientRect();
+              // sakriveno na telefonu (ikonice od 31.07.2026) ne može da viri
+              if (dr.width === 0 && dr.height === 0) return;
               if (dr.right > cr.right + 1 || dr.left < cr.left - 1) izasli.push(c.textContent.trim());
             });
           });
@@ -2898,6 +2919,472 @@ async function main() {
          nalazH.fali.length ? `FALI: ${nalazH.fali.join(' ')}` : '');
       ok('naslovi i telo koriste ISTI font (jedan font na celom sajtu)',
          nalaz.font === nalazH.font, `telo ${nalaz.font} · naslovi ${nalazH.font}`);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+       30) MOBILNA VERZIJA — 31.07.2026
+
+       Tri prijave/nalaza, sve tri izmerene pre popravke na 390×844:
+
+       · TASTATURA JE ZAKLANJALA RIME U BELEŽNICI (prijava vlasnice). Panel je
+         `position:fixed; bottom:0`, a to se meri prema layout viewport-u koji
+         se pri otvaranju tastature NE smanjuje. Panel je stajao 557–844 px, a
+         tastatura pokriva od ~508 naniže — dakle nijedna rima se nije videla.
+       · RIME SU BILE JEDNA ISPOD DRUGE. Čip sa tri ikonice bio je širok 228 px
+         od 390, pa je u red stajala jedna reč: 195 rima = spisak od 12.524 px.
+       · IKONICE SU SE GUBILE. Sklonjene su iz pilule, pa mora da postoji drugi
+         put do njih — dodir na reč.
+
+       Provere su prvo puštene protiv STAROG koda (`git stash`) i tamo padaju
+       — inače ne bi ništa dokazivale. Rezultat na starom kodu: pala prva
+       (panel 557 > 508), pala treća (2,83 → 1,00 reč po redu), pala peta
+       (nema `.chip-actions` uopšte). */
+    console.log('\n30) MOBILNA VERZIJA — tastatura, mreža rima, traka nad rečju');
+    {
+      const ctx30 = await browser.newContext({
+        viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true,
+        deviceScaleFactor: 2, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
+      });
+      const p30 = ojacajStranu(await ctx30.newPage());
+
+      // ── A. RIME: mreža od 2–3 reči u redu, bez ikonica u pilули
+      await p30.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p30.evaluate(() => {
+        document.getElementById('rimeInput').value = 'ljubav';
+        document.getElementById('rimeBtn').click();
+      });
+      await pauza(1500);
+      const a30 = await p30.evaluate(() => {
+        const chips = [...document.querySelectorAll('#rimeResults .chip')];
+        const redovi = {};
+        chips.forEach(c => { const t = Math.round(c.getBoundingClientRect().top); (redovi[t] ||= []).push(c); });
+        const brojevi = Object.values(redovi).map(r => r.length);
+        const vidljiveIkonice = chips.reduce((n, c) => n + [...c.querySelectorAll('.mini')]
+          .filter(b => { const r = b.getBoundingClientRect(); return r.width > 0 && r.height > 0 && !b.classList.contains('fav'); }).length, 0);
+        const niski = chips.filter(c => c.getBoundingClientRect().height < 44).length;
+        return {
+          broj: chips.length,
+          poRedu: brojevi.length ? (chips.length / brojevi.length) : 0,
+          najviseURedu: Math.max(...brojevi),
+          vidljiveIkonice, niski,
+          visinaSpiska: Math.round(document.getElementById('rimeResults').getBoundingClientRect().height),
+          preliv: document.documentElement.scrollWidth > window.innerWidth,
+        };
+      });
+      ok('mobilni · u redu stoje 2–3 rime, ne jedna',
+         a30.poRedu >= 2 && a30.najviseURedu <= 3, `prosek ${a30.poRedu.toFixed(2)}, najviše ${a30.najviseURedu}`);
+      ok('mobilni · ⓘ i 🔁 nisu u pilули (šire je i guraju reči u novi red)',
+         a30.vidljiveIkonice === 0, `vidljivih ${a30.vidljiveIkonice}`);
+      ok('mobilni · spisak od 195 rima je kraći od 6.000 px (bio 12.524)',
+         a30.visinaSpiska > 0 && a30.visinaSpiska < 6000, `${a30.visinaSpiska} px`);
+      ok('mobilni · svaka pilula je bar 44 px visoka (dodirni cilj)',
+         a30.broj > 50 && a30.niski === 0, `nižih od 44 px: ${a30.niski}`);
+      ok('mobilni · strana se ne širi preko ekrana', a30.preliv === false);
+
+      // ── B. Dodir na reč otvara traku sa radnjama IZNAD reči
+      const b30 = await p30.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        const cip = [...document.querySelectorAll('#rimeResults .chip')][6];
+        cip.scrollIntoView({ block: 'center' });
+        await w(150);
+        cip.querySelector('.word').click();
+        await w(150);
+        const t = document.querySelector('.chip-actions');
+        if (!t || t.hidden) return { ima: false };
+        const tr = t.getBoundingClientRect(), cr = cip.getBoundingClientRect();
+        return {
+          ima: true,
+          rec: cip.dataset.w,
+          dugmadi: [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act),
+          iznad: tr.bottom <= cr.top + 1,
+          uEkranu: tr.left >= 0 && tr.right <= window.innerWidth && tr.top >= 0,
+          najnize: Math.min(...[...t.querySelectorAll('.ca-btn')].map(b => Math.round(b.getBoundingClientRect().height))),
+          izabran: cip.classList.contains('chip-izabran'),
+        };
+      });
+      ok('mobilni · dodir na reč otvara traku sa radnjama', b30.ima === true);
+      ok('mobilni · traka nudi sve četiri radnje',
+         b30.ima && ['def', 'fav', 'rime', 'kopiraj'].every(a => (b30.dugmadi || []).includes(a)),
+         (b30.dugmadi || []).join(','));
+      ok('mobilni · traka stoji IZNAD reči i cela je u ekranu',
+         b30.iznad === true && b30.uEkranu === true, JSON.stringify(b30));
+      ok('mobilni · dugmad u traci su bar 44 px visoka', b30.najnize >= 44, `${b30.najnize} px`);
+      ok('mobilni · dodirnuta reč je vidno označena', b30.izabran === true);
+
+      // radnja „omiljene" mora zaista da radi, ne samo da postoji
+      /* Svaki korak niže PROVERAVA da element postoji pre nego što ga dodirne.
+         Bez toga jedan `null.click()` obara ceo test i sve sekcije POSLE ove
+         ostanu nepokrenute — a test koji stane nije test koji je prošao. */
+      const b30b = await p30.evaluate(async () => {
+        const w = ms => new Promise(r => setTimeout(r, ms));
+        const dug = document.querySelector('.chip-actions .ca-btn[data-act="fav"]');
+        if (!dug) return { nema: true };
+        const pre = JSON.parse(localStorage.getItem('rimoteka_favorites') || '[]').length;
+        dug.click();
+        await w(250);
+        const posle = JSON.parse(localStorage.getItem('rimoteka_favorites') || '[]');
+        const rec = document.querySelector('.chip-actions').dataset.w;
+        /* Traži se po REČI, ne po `.chip-izabran`: traka se zatvara na svako
+           pomeranje strane, pa bi provera zavisila od toga da li se pomeranje
+           u međuvremenu smirilo — a meri se nešto sasvim drugo (ostaje li
+           puno srce na sačuvanoj reči). */
+        const cip = document.querySelector(`#rimeResults .chip[data-w="${CSS.escape(rec)}"]`);
+        return { pre, posle: posle.length, sadrzi: posle.includes(rec),
+                 znak: !!(cip && cip.querySelector('.fav.on')) };
+      });
+      ok('mobilni · „omiljene" iz trake zaista sačuva reč',
+         b30b.posle === b30b.pre + 1 && b30b.sadrzi === true, JSON.stringify(b30b));
+      ok('mobilni · sačuvana reč se prepozna i bez otvaranja trake (puno srce)',
+         b30b.znak === true);
+
+      // ── C. BELEŽNICA: panel sa rimama beži iznad tastature
+      /* Playwright nema pravu tastaturu na ekranu, pa se `visualViewport`
+         lažira tačno onako kako ga menja prava: visina padne za visinu
+         tastature, `offsetTop` ostaje 0. Isto radi i iOS i Android. */
+      for (const put of ['/', '/pisanje-pesama/']) {
+        await p30.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+        await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+        if (put === '/') { await p30.evaluate(() => switchTab('beleznica')); await pauza(400); }
+        await p30.click('#noteEditor');
+        await p30.evaluate(() => {
+          const ed = document.getElementById('noteEditor');
+          ed.innerHTML = 'Volim te kao sunce<div>ti si moja luda</div>';
+          ed.dispatchEvent(new InputEvent('input', { bubbles: true }));
+        });
+        await pauza(1200);
+
+        const VISINA_TASTATURE = 336;          // iPhone 13, srpska tastatura
+        const c30 = await p30.evaluate(async (kbH) => {
+          const VV = window.visualViewport;
+          const nova = window.innerHeight - kbH;
+          Object.defineProperty(VV, 'height', { get: () => nova, configurable: true });
+          Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true });
+          VV.dispatchEvent(new Event('resize'));
+          await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+          const box = document.getElementById('noteRhymes');
+          const p = box.getBoundingClientRect();
+          const cip = box.querySelector('.chip');
+          const c = cip ? cip.getBoundingClientRect() : null;
+          return {
+            kb: getComputedStyle(document.documentElement).getPropertyValue('--kb').trim(),
+            vrhTastature: nova,
+            panelDno: Math.round(p.bottom), panelVisina: Math.round(p.height),
+            rima: box.querySelectorAll('.chip').length,
+            prvaRimaDno: c ? Math.round(c.bottom) : null,
+            imaStrelicu: !!box.querySelector('.nr-toggle'),
+          };
+        }, VISINA_TASTATURE);
+
+        ok(`${put} · sajt zna koliko je tastatura visoka`, c30.kb === VISINA_TASTATURE + 'px', `--kb=${c30.kb}`);
+        ok(`${put} · CEO panel sa rimama je iznad tastature`,
+           c30.panelDno <= c30.vrhTastature + 1,
+           `panel do ${c30.panelDno} px, tastatura počinje na ${c30.vrhTastature} px`);
+        ok(`${put} · prva ponuđena rima se vidi`,
+           c30.prvaRimaDno !== null && c30.prvaRimaDno <= c30.vrhTastature,
+           `rima do ${c30.prvaRimaDno} px`);
+        ok(`${put} · traka je niska da bi se video i stih (do 130 px)`,
+           c30.panelVisina > 0 && c30.panelVisina <= 130, `${c30.panelVisina} px`);
+        ok(`${put} · ima bar 8 rima nadohvat prsta`, c30.rima >= 8, `${c30.rima}`);
+
+        // strelica razvija traku u pun list — i on mora da ostane iznad tastature
+        const d30 = await p30.evaluate(async () => {
+          const box = document.getElementById('noteRhymes');
+          const s = box.querySelector('.nr-toggle');
+          if (!s) return { nema: true, otvoren: false, dno: 1e9, visina: 0, vidljivih: 0 };
+          s.click();
+          await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+          const p = box.getBoundingClientRect();
+          return { otvoren: box.classList.contains('nr-open'), dno: Math.round(p.bottom), visina: Math.round(p.height),
+                   vidljivih: [...box.querySelectorAll('.chip')].filter(c => {
+                     const r = c.getBoundingClientRect();
+                     return r.top >= 0 && r.bottom <= window.innerHeight;
+                   }).length };
+        });
+        ok(`${put} · strelica razvija traku u pun list`,
+           d30.otvoren === true && d30.visina > c30.panelVisina, JSON.stringify(d30));
+        ok(`${put} · razvijen list je i dalje iznad tastature`,
+           d30.dno <= c30.vrhTastature + 1, `list do ${d30.dno} px`);
+      }
+
+      // ── D. Traka alata u beležnici: sedam dugmadi, sva dodirljiva
+      /* Na /pisanje-pesama/ NEMA `#panel-beleznica` — postojeće pravilo za
+         44 px bilo je vezano samo za taj id, pa se na strani koja SLUŽI za
+         pisanje pesama nikad nije primenilo. Izmereno: 23 px. */
+      const e30 = await p30.evaluate(() => {
+        const b = [...document.querySelectorAll('.hint-actions .link-btn')];
+        return { broj: b.length,
+                 najnize: b.length ? Math.min(...b.map(x => Math.round(x.getBoundingClientRect().height))) : 0,
+                 obrisiCrven: (() => {
+                   const c = document.getElementById('clearNotes');
+                   return c ? getComputedStyle(c).color : '';
+                 })() };
+      });
+      ok('/pisanje-pesama/ · sve akcije u beležnici su bar 44 px visoke',
+         e30.broj >= 7 && e30.najnize >= 44, `${e30.broj} dugmadi, najniže ${e30.najnize} px`);
+      ok('/pisanje-pesama/ · „obriši sve" se bojom razlikuje od ostalih',
+         /^rgb\(1(7|8)\d,\s*\d+,\s*\d+\)$/.test(e30.obrisiCrven), e30.obrisiCrven);
+
+      /* Ista dugmad u TAMNOM režimu. Svetla pravila nose `id` u selektoru, pa
+         su bila teža od tamnih — tamnocrvena #b3372a je ostajala na podlozi
+         #241f38, izmereno 2,4:1. Meri se odnos, ne boja. */
+      await p30.evaluate(() => { localStorage.setItem('rimoteka_dark', '1'); });
+      await p30.reload({ waitUntil: 'domcontentloaded' });
+      await pauza(2500);
+      const e30t = await p30.evaluate(() => {
+        const rel = rgb => { const [r, g, b] = rgb.match(/\d+(\.\d+)?/g).slice(0, 3).map(Number)
+          .map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+          return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+        const odnos = id => { const e = document.getElementById(id); if (!e) return null;
+          const cs = getComputedStyle(e);
+          const a = rel(cs.color), b = rel(cs.backgroundColor);
+          return +((Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05)).toFixed(2); };
+        return { tamna: document.body.classList.contains('dark-mode'),
+                 obrisi: odnos('clearNotes'), obicno: odnos('saveRhymeList') };
+      });
+      ok('/pisanje-pesama/ · tamni režim se stvarno uključio', e30t.tamna === true);
+      ok('/pisanje-pesama/ · „obriši sve" je čitljivo i u tamnom režimu',
+         e30t.obrisi !== null && e30t.obrisi >= 4.5, `${e30t.obrisi}:1`);
+      ok('/pisanje-pesama/ · ostale akcije čitljive u tamnom režimu',
+         e30t.obicno !== null && e30t.obicno >= 4.5, `${e30t.obicno}:1`);
+      await p30.evaluate(() => { localStorage.setItem('rimoteka_dark', '0'); });
+
+      // ── E. IGRA: polje, dugme „Proveri" i poruka moraju da se vide i sa tastaturom
+      /* Pregledač sam pomeri POLJE u vidokrug kad se tastatura otvori, ali ne
+         zna za ono što stoji ispod polja. Izmereno pre popravke: polje i dugme
+         na 668–725 px, poruka o tačnosti na 739–763, a tastatura počinje na
+         641 — igrač nije video ni šta kuca ni da li je pogodio. */
+      await p30.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
+      await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+      await p30.click('#gameStart');
+      await pauza(1200);
+      await p30.click('#gameInput');
+      const f30 = await p30.evaluate(async (kb) => {
+        const VV = window.visualViewport;
+        const nova = document.documentElement.clientHeight - kb;
+        Object.defineProperty(VV, 'height', { get: () => nova, configurable: true });
+        Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true });
+        VV.dispatchEvent(new Event('resize'));
+        await new Promise(r => setTimeout(r, 400));
+        const d = id => { const e = document.getElementById(id); return e ? Math.round(e.getBoundingClientRect().bottom) : null; };
+        return { vrh: nova, rec: d('gameWord'), unos: d('gameInput'), dugme: d('gameSubmit'), poruka: d('gameFeedback') };
+      }, 336);
+      ok('igra · reč koju treba rimovati se vidi i sa tastaturom', f30.rec !== null && f30.rec <= f30.vrh,
+         `dno ${f30.rec}, tastatura od ${f30.vrh}`);
+      ok('igra · polje za unos se vidi i sa tastaturom', f30.unos !== null && f30.unos <= f30.vrh,
+         `dno ${f30.unos}, tastatura od ${f30.vrh}`);
+      ok('igra · dugme „Proveri" se vidi i sa tastaturom', f30.dugme !== null && f30.dugme <= f30.vrh,
+         `dno ${f30.dugme}, tastatura od ${f30.vrh}`);
+      ok('igra · poruka o tačnosti se vidi i sa tastaturom', f30.poruka !== null && f30.poruka <= f30.vrh,
+         `dno ${f30.poruka}, tastatura od ${f30.vrh}`);
+
+      // ── F. KLASICI: slovo šeme rime je bilo MRTVO DUGME na zasebnoj strani
+      /* Na početnoj klik prebaci na tab sa rimama i sve radi. Na `/klasici/`
+         tog taba nema, `rimeInput` je prazan `NOOP_EL` i klik NE URADI NIŠTA —
+         a strana u uputstvu obećava „klikni da nađeš rime". 138 stihova. */
+      await p30.goto(BASE + '/klasici/', { waitUntil: 'domcontentloaded' });
+      await pauza(2500);
+      const g30 = await p30.evaluate(() => {
+        const s = document.querySelector('.vrhyme[data-w]');
+        const d = document.querySelector('.poem-foot .link-btn');
+        return {
+          imaSlovo: !!s, rec: s ? s.dataset.w : null,
+          slovo: s ? Math.round(s.getBoundingClientRect().height) : 0,
+          slovoSirina: s ? Math.round(s.getBoundingClientRect().width) : 0,
+          dugme: d ? Math.round(d.getBoundingClientRect().height) : 0,
+        };
+      });
+      ok('/klasici/ · „prebaci u brojač slogova" je bar 44 px visoko', g30.dugme >= 44, `${g30.dugme} px`);
+      /* Pun prag od 44 px ovde nije moguć: razmak između stihova je 26 px i
+         veći cilj bi razmakao pesmu. Meri se da je cilj OSETNO veći od
+         zatečenih 24×18, a da red ostane red pesme. */
+      ok('/klasici/ · slovo šeme rime je veći cilj za prst (bilo 24×18)',
+         g30.slovoSirina >= 34 && g30.slovo >= 28, `${g30.slovoSirina}×${g30.slovo}`);
+      if (g30.imaSlovo) {
+        await p30.evaluate(() => document.querySelector('.vrhyme[data-w]').click());
+        await pauza(1500);
+        const url = p30.url();
+        ok('/klasici/ · klik na slovo šeme rime zaista vodi na rime (nije mrtvo dugme)',
+           url.includes('rec=' + encodeURIComponent(g30.rec)), url);
+      } else {
+        ok('/klasici/ · strana ima stihove sa slovom šeme rime', false, 'nijedan .vrhyme[data-w]');
+      }
+
+      await ctx30.close();
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+       31) OZNAKE UZ STIH SU PORAVNATE SA STIHOM
+
+       Nađeno 31.07.2026. pri sređivanju mobilne beležnice, ali NIJE mobilni
+       nalaz — isto se dešava i na 1440 px.
+
+       `getEditorText()` je 29.07. naučen da svaki BLOK (`<div>`, `<p>`) računa
+       kao novi red, jer mobilni Chrome i Safari na Enter prave blokove a ne
+       `<br>` (nalaz M1). Ali `editorTextIndex()`, koji kaže GDE se koje slovo
+       tog teksta nalazi u DOM-u, ostao je da broji samo slova i `<br>`-ove —
+       pa mu je posle svakog bloka nedostajao po jedan znak.
+
+       Izmereno na starom kodu: pesma otkucana na telefonu imala je poslednja
+       dva stiha pomerena za ceo red (−30 px na 390, −35 na 1440), a pesma sa
+       praznim redom između strofa za DVA reda (−59 odnosno −68 px). Pesme
+       kucane na računaru (`<br>`) bile su u redu — zato se i nije primetilo.
+
+       Provera pušta šest oblika unosa na dve širine. Na starom kodu pada
+       6 od 12. */
+    console.log('\n31) OZNAKE UZ STIH (slogovi i šema rime) PRATE STIH');
+    {
+      const SLUCAJEVI = [
+        ['telefon (blokovi)', 'Volim te kao sunce<div>ti si moja luda</div><div>u srcu mi gori</div><div>plamen koji ludi</div>'],
+        ['računar (br)', 'Volim te kao sunce<br>ti si moja luda<br>u srcu mi gori<br>plamen koji ludi'],
+        ['prazan red između strofa', 'prva strofa jedan<div>prva strofa dva</div><div><br></div><div>druga strofa tri</div><div>druga strofa cet</div>'],
+        ['mešano br i blokovi', 'red jedan<br>red dva<div>red tri</div><div>red cetiri<br>red pet</div>'],
+        ['jedan stih', 'sam jedan stih'],
+        ['prazan red na kraju', 'prvi stih<div>drugi stih</div><div><br></div>'],
+      ];
+      for (const sirina of [390, 1440]) {
+        const ctx31 = await browser.newContext({ viewport: { width: sirina, height: 900 }, isMobile: sirina < 600, hasTouch: sirina < 600 });
+        const p31 = ojacajStranu(await ctx31.newPage());
+        await p31.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+        await p31.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+        for (const [ime, html] of SLUCAJEVI) {
+          await p31.click('#noteEditor');
+          await p31.evaluate(h => {
+            const e = document.getElementById('noteEditor');
+            e.innerHTML = h;
+            e.dispatchEvent(new InputEvent('input', { bubbles: true }));
+          }, html);
+          await pauza(900);
+          const m = await p31.evaluate(() => {
+            const ed = document.getElementById('noteEditor');
+            const lines = getEditorText().split('\n');
+            const boxes = measureLineBoxes(lines);
+            const cs = getComputedStyle(ed);
+            let ocek = parseFloat(cs.paddingTop) || 0;
+            const razlike = [];
+            boxes.forEach(b => { razlike.push(Math.round(b.top - ocek)); ocek += b.height; });
+            return { redova: lines.length, razlike };
+          });
+          const najgore = Math.max(...m.razlike.map(Math.abs));
+          ok(`${sirina}px · „${ime}" — oznake stoje uz svoj stih`, najgore <= 2,
+             `${m.redova} redova, odstupanja ${JSON.stringify(m.razlike)} px`);
+        }
+        await ctx31.close();
+      }
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       32) REČ NAVEDENA KAO RIMA MORA DA BUDE RIMA
+
+       Nalaz T2 (31.07.2026): u „Čestim pitanjima" na šest tematskih strana stajalo je
+       49 reči navedenih kao rime — i **nijedna se nije rimovala**. Za „majka" je pisalo
+       „reka, čeka, njega, lepa, neba" (0 od 8), za „prijatelj" — „smeh, dnevnik,
+       željeznički" (0 od 6). Jedna navedena „rima" (`bliza`) ne postoji ni u rečniku.
+
+       ZAŠTO NIJEDNA AUTOMATIKA OVO NIJE UHVATILA: reči iz bloka „Rime za druge reči"
+       (ranije „Još popularnih rima") nose ISTU klasu `.word` kao prave rime. Naivna
+       provera „da li reč postoji na strani /rime-za/X/" zato prolazi i za reč koja
+       nije rima. Ova provera zato PRVO odseca sve od tog bloka nadalje.
+
+       PRVA VERZIJA OVE PROVERE BILA JE LAŽNO ZELENA — i to je uhvaćeno tek puštanjem
+       protiv produkcije (pravilo H4). Ona je uzimala RUČNU TABELU tačnih rima i
+       proveravala nju protiv strane — a tabela je po definiciji tačna, pa je provera
+       prolazila i na produkciji, gde u tekstu piše „majka: reka, čeka, njega". Provera
+       koja ne može da padne ne čuva ništa (PROPUSTI, pravilo 50).
+
+       ZATO OVA VERZIJA ČITA SPISAK IZ SAMOG TEKSTA STRANE: uzima prvu rečenicu odgovora,
+       deli je po zarezima i tačkama-zarezima, uzima POSLEDNJU reč svakog dela (tako
+       „…rimuje — imaš neljubav" daje `neljubav`) i traži svaku od njih među pravim
+       rimama. Ništa se ne poredi sa unapred upisanim spiskom.
+       ───────────────────────────────────────────────────────────────────────── */
+    console.log('\n32) REČ NAVEDENA KAO RIMA MORA DA BUDE RIMA (nalaz T2)');
+    {
+      /* Gde stoji tvrdnja: strana + pitanje po kom se nalazi odgovor + kako se čita.
+         `oblik: 'spisak'` — jedna ciljna reč, spisak rima („Majka: bajka, hajka…").
+         `oblik: 'parovi'` — više parova u jednom odgovoru („sunce — unce, lonce;
+         zvezda — gnezda…"), pa se ciljna reč čita IZ TEKSTA, za svaki par posebno. */
+      const TVRDNJE = [
+        { strana: '/rime-za-roditelje/',            pitanje: /majka/i,        oblik: 'spisak', slug: 'majka' },
+        { strana: '/rime-za-prijatelje/',           pitanje: /prijatelj/i,    oblik: 'spisak', slug: 'prijatelj' },
+        { strana: '/rime-za-novu-godinu/',          pitanje: /godina/i,       oblik: 'spisak', slug: 'godina' },
+        { strana: '/rime-za-rodjendanske-pesmice/', pitanje: /rođendan/i,     oblik: 'spisak', slug: 'rodjendan' },
+        { strana: '/rime-za-ljubavne-pesme/',       pitanje: /ljubav/i,       oblik: 'spisak', slug: 'ljubav' },
+        { strana: '/rime-za-svadbu/',               pitanje: /ljubav/i,       oblik: 'spisak', slug: 'ljubav' },
+        { strana: '/rime-za-tugu-i-secanje/',       pitanje: /tuga/i,         oblik: 'spisak', slug: 'tuga' },
+        { strana: '/rime-za-decu-o-prirodi/',       pitanje: /iz prirode/i,   oblik: 'parovi' },
+      ];
+      const SLUG = { 'kiša': 'kisa', 'rođendan': 'rodjendan', 'sunce': 'sunce', 'zvezda': 'zvezda',
+                     'sneg': 'sneg', 'cvet': 'cvet', 'reka': 'reka' };
+
+      const p32 = await (await browser.newContext()).newPage();
+      const kesRima = new Map();
+
+      /* prave rime za reč — SVE POSLE bloka „Rime za druge reči" se odbacuje, jer te
+         reči nose istu klasu `.word` a nisu rime (upravo zbog toga je nalaz T2 i nastao) */
+      const praveRime = async (slug) => {
+        if (!kesRima.has(slug)) {
+          await p32.goto(`${BASE}/rime-za/${slug}/`, { waitUntil: 'domcontentloaded' });
+          kesRima.set(slug, new Set(await p32.evaluate(() => {
+            const main = document.querySelector('main');
+            if (!main) return [];
+            const granica = [...main.querySelectorAll('h2')]
+              .find(h => /Rime za druge reči|Još popularnih rima/.test(h.textContent));
+            const skup = new Set();
+            for (const e of main.querySelectorAll('.word')) {
+              if (granica && (granica.compareDocumentPosition(e) & Node.DOCUMENT_POSITION_FOLLOWING)) continue;
+              skup.add(e.textContent.trim().toLowerCase());
+            }
+            return [...skup];
+          })));
+        }
+        return kesRima.get(slug);
+      };
+
+      /* Iz dela spiska uzima POSLEDNJU reč — tako „…rimuje — imaš neljubav" daje `neljubav`.
+         Delovi duži od tri reči su rečenica, ne stavka spiska, pa se preskaču (npr.
+         „kruga — ali izaberi one koje nose pravo značenje"). */
+      const stavke = (deo) => deo.split(/[,;]/)
+        .map(d => d.trim().replace(/[.„“"]/g, ''))
+        .filter(d => d && d.split(/\s+/).length <= 3)
+        .map(d => d.split(/\s+/).pop().toLowerCase())
+        .filter(r => /^[a-zšđčćž-]{2,}$/i.test(r));
+
+      for (const t of TVRDNJE) {
+        await p32.goto(BASE + t.strana, { waitUntil: 'domcontentloaded' });
+        const odgovor = await p32.evaluate((izvor) => {
+          const re = new RegExp(izvor.slice(1, izvor.lastIndexOf('/')), 'i');
+          const d = [...document.querySelectorAll('.landing-faq details')]
+            .find(x => re.test(x.querySelector('summary')?.textContent || '')
+                       && /rim/i.test(x.querySelector('summary')?.textContent || ''));
+          return d ? d.querySelector('p')?.textContent.trim() || '' : '';
+        }, t.pitanje.toString());
+
+        if (!odgovor) { ok(`${t.strana} · odgovor o rimama postoji`, false, 'nije nađen'); continue; }
+        const prvaRecenica = odgovor.split(/\.\s/)[0];
+
+        if (t.oblik === 'spisak') {
+          const prave = await praveRime(t.slug);
+          const izTeksta = stavke(prvaRecenica).filter(r => r !== t.slug);
+          const nisuRime = izTeksta.filter(r => !prave.has(r));
+          ok(`${t.strana} · svaka reč navedena kao rima za „${t.slug}" JESTE rima`,
+             izTeksta.length > 0 && nisuRime.length === 0,
+             nisuRime.length ? `NIJE RIMA: ${nisuRime.join(', ')}` : `${izTeksta.length} provereno`);
+        } else {
+          let ukupno = 0; const lose = [];
+          for (const par of prvaRecenica.split(';')) {
+            const [cilj, spisak] = par.split(/\s[—–-]\s/);
+            if (!spisak) continue;
+            const slug = SLUG[cilj.trim().toLowerCase()];
+            if (!slug) { lose.push(`nepoznata ciljna reč: ${cilj.trim()}`); continue; }
+            const prave = await praveRime(slug);
+            for (const r of stavke(spisak)) { ukupno++; if (!prave.has(r)) lose.push(`${cilj.trim()} — ${r}`); }
+          }
+          ok(`${t.strana} · svaki par „reč — rima" se ZAISTA rimuje`,
+             ukupno > 0 && lose.length === 0,
+             lose.length ? `NIJE RIMA: ${lose.join(', ')}` : `${ukupno} para provereno`);
+        }
+      }
+      await p32.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

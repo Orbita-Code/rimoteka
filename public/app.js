@@ -476,6 +476,10 @@ function makeChip(word){
   el.querySelector('.info').onclick = (ev) => { ev.stopPropagation(); showDefAt(word, ev.currentTarget, true); };
   el.querySelector('.fav').onclick = () => toggleFav(word);
   el.querySelector('.rh').onclick = () => { rimeInput.value = disp(word); switchTab('rime'); doRhymes(); };
+  /* Na telefonu čipovi stoje u mreži jednakih kolona; duga reč mora da dobije
+     dve ili tri kolone. Merenje je zajedničko za sve čipove i ide jednom po
+     kadru — v. `zakaziMerenjeCipova`. Van telefona ne radi ništa. */
+  zakaziMerenjeCipova();
   return el;
 }
 
@@ -486,13 +490,308 @@ function makeChip(word){
 function renderLegend(container){
   const l = document.createElement('div');
   l.className = 'res-legend';
-  l.innerHTML =
-    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u24D8</span> ' + uiTxt('zna\u010denje re\u010di') + '</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u2661</span> ' + uiTxt('sa\u010duvaj u \u201eOmiljene\u201c') + '</span>' +
-    '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> ' + uiTxt('na\u0111i rime za tu re\u010d') + '</span>' +
-    '<span class="legend-item legend-tap">' + uiTxt('klikni na re\u010d da je kopira\u0161') + '</span>';
+  /* Na telefonu ikonice NISU u pil\u0443\u043b\u0438 \u2014 pojave se iznad re\u010di kad se na nju
+     kucne (v. \u201eMOBILNA VERZIJA"). Legenda zato mora da ka\u017ee drugu stvar: ne
+     \u201e\u0161ta zna\u010di ova ikonica" nego \u201ekako da do nje do\u0111e\u0161". Stara legenda je na
+     telefonu opisivala tri ikonice kojih na ekranu nema. */
+  l.innerHTML = jeTelefon()
+    ? '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
+      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661 i rime') + '</span>'
+    : '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
+      '<span class="legend-item"><span class="legend-ic">\u24D8</span> ' + uiTxt('zna\u010denje re\u010di') + '</span>' +
+      '<span class="legend-item"><span class="legend-ic">\u2661</span> ' + uiTxt('sa\u010duvaj u \u201eOmiljene\u201c') + '</span>' +
+      '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> ' + uiTxt('na\u0111i rime za tu re\u010d') + '</span>' +
+      '<span class="legend-item legend-tap">' + uiTxt('klikni na re\u010d da je kopira\u0161') + '</span>';
   container.appendChild(l);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   MOBILNA VERZIJA — 31.07.2026
+   Sve u ovom odeljku radi SAMO na telefonu (do 560 px). Računar i tablet ne
+   ulaze ni u jednu granu — njihovo ponašanje se ne menja ni za piksel.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Isti prag koji CSS koristi za mobilni raspored. Čita se pri svakom pozivu,
+   ne kešira se — okretanje telefona menja odgovor. */
+function jeTelefon(){
+  return window.matchMedia
+    ? window.matchMedia('(max-width:560px)').matches
+    : window.innerWidth <= 560;
+}
+
+/* ── VISINA TASTATURE NA EKRANU ─────────────────────────────────────────────
+   `position:fixed; bottom:0` NE računa se prema onome što se vidi, nego prema
+   layout viewport-u — a on se pri otvaranju tastature ne smanjuje ni na iOS-u
+   ni na Androidu (podrazumevano `interactive-widget=resizes-visual`). Zato
+   panel sa rimama u beležnici završi TAČNO ISPOD tastature.
+
+   Izmereno 31.07.2026 na 390×844: panel je stajao od 557 do 844 px, a tastatura
+   pokriva otprilike od 540 px naniže — dakle nijedna rima se nije videla. To je
+   prijava vlasnice, potvrđena merenjem.
+
+   `visualViewport` je jedini put koji radi i na iOS-u i na Androidu:
+   VirtualKeyboard API i `env(keyboard-inset-height)` postoje samo u Chrome-u
+   (WebKit ih nije prihvatio ni šest godina posle specifikacije). Razlika između
+   layout viewport-a i vidljivog dela JESTE visina tastature; upisuje se u
+   promenljivu `--kb`, a CSS njome podiže sve što stoji na dnu ekrana.
+
+   Prag od 90 px je namerno: skrivanje adresne trake takođe menja vidljivi deo
+   (60–70 px), a to nije tastatura. Nijedna tastatura nije niža od ~200 px. */
+let kbZakazano = false;
+function osveziVisinuTastature(){
+  const vv = window.visualViewport;
+  if(!vv) return;
+  const layout = document.documentElement.clientHeight;
+  let kb = Math.round(layout - vv.height - vv.offsetTop);
+  if(!(kb > 90)) kb = 0;              // NaN i negativno takođe padaju na 0
+  const koren = document.documentElement;
+  if(koren.__kb === kb) return;
+  koren.__kb = kb;
+  koren.style.setProperty('--kb', kb + 'px');
+  document.body.classList.toggle('kb-open', kb > 0);
+}
+function zakaziOsveziTastaturu(){
+  if(kbZakazano) return;
+  kbZakazano = true;
+  requestAnimationFrame(() => {
+    kbZakazano = false;
+    osveziVisinuTastature();
+    /* Tastatura se otvara POSLE fokusa, pa red u kome se piše tek tada može da
+       ostane ispod nje. Panel se u istom kadru pomerio na svoje novo mesto, pa
+       je ovo pravi trenutak da se proveri vidi li se kursor. */
+    if(document.body.classList.contains('notes-typing')) keepCaretVisible();
+    else drziPoljeUVidokrugu();
+  });
+}
+
+/* Isto pravilo za obična polja (rime, rečnik, igra, naslov pesme).
+   Pregledač i sam pomera polje u vidokrug kad se tastatura otvori, ali to radi
+   po svojoj proceni i ne zna za ono što stoji ispod polja — u igri su tako
+   „Proveri" i poruka o tačnosti umeli da ostanu pod tastaturom. Provera je
+   namerno USLOVNA: ako je polje već vidljivo, ne pomera se ništa, pa se ovo
+   nikad ne otima pregledaču. */
+function drziPoljeUVidokrugu(){
+  if(!jeTelefon()) return;
+  const vv = window.visualViewport;
+  if(!vv) return;
+  const a = document.activeElement;
+  if(!a || !a.matches || !a.matches('input, textarea') || a.closest('.sr-only')) return;
+  const r = a.getBoundingClientRect();
+  if(r.height === 0) return;
+  /* Ne gleda se samo polje nego i red u kome stoji (dugme pored) i prvi red
+     ispod njega — poruka o tačnosti u igri stoji tačno tu. */
+  const red = a.closest('.game-input-row, .search-row') || a;
+  const rr = red.getBoundingClientRect();
+  const sledeci = red.nextElementSibling;
+  const sr = sledeci ? sledeci.getBoundingClientRect() : null;
+  const dole = Math.max(rr.bottom, (sr && sr.height > 0 && sr.top - rr.bottom < 60) ? sr.bottom : 0);
+  const vidljivoDno = vv.offsetTop + vv.height;
+  if(dole > vidljivoDno - 12) window.scrollBy(0, Math.ceil(dole - vidljivoDno + 12));
+}
+if(window.visualViewport){
+  visualViewport.addEventListener('resize', zakaziOsveziTastaturu);
+  visualViewport.addEventListener('scroll', zakaziOsveziTastaturu);
+  window.addEventListener('orientationchange', () => setTimeout(osveziVisinuTastature, 250));
+  osveziVisinuTastature();
+}
+
+/* ── ŠIRINA ČIPA U MREŽI ────────────────────────────────────────────────────
+   Na telefonu rime stoje u mreži od 2–3 jednake kolone (v. `style.css`,
+   odeljak „MOBILNA VERZIJA"). Duga reč („dobročiniteljka") ne stane u jednu
+   kolonu, a prelamanje reči na dva reda razvuklo bi CELU vrstu mreže — svaki
+   sused bi dobio duplo veću pilulu. Zato takva reč zauzme dve ili tri kolone.
+
+   Merenje ide u tri odvojena prolaza (obriši → pročitaj sve → upiši sve). Da su
+   čitanje i pisanje izmešani, svaki od 195 čipova izazvao bi svoj preračun
+   rasporeda; ovako ga ima jedan. */
+/* Zastavica stoji NA SAMOJ FUNKCIJI, ne u `let` promenljivoj iznad: `makeChip`
+   je u fajlu ranije od ovog odeljka, pa bi `let` deklarisan ovde bio u „mrtvoj
+   zoni" ako bi neko ikad pozvao `makeChip` pre nego što izvršavanje stigne
+   dovde. Deklaracija funkcije se podiže na vrh, njeno svojstvo ne može da pukne. */
+function zakaziMerenjeCipova(){
+  if(zakaziMerenjeCipova.cekaKadar) return;
+  zakaziMerenjeCipova.cekaKadar = true;
+  requestAnimationFrame(() => { zakaziMerenjeCipova.cekaKadar = false; izmeriCipove(); });
+}
+function izmeriCipove(){
+  const svi = [];
+  document.querySelectorAll('.results').forEach(box => {
+    if(box.closest('.note-rhymes')) return;   // panel uz stih ima svoj raspored
+    box.querySelectorAll(':scope > .chip').forEach(c => svi.push(c));
+  });
+  if(!svi.length) return;
+  if(!jeTelefon()){                            // povratak na širi ekran
+    svi.forEach(c => c.classList.remove('chip-siri','chip-najsiri'));
+    return;
+  }
+  svi.forEach(c => c.classList.remove('chip-siri','chip-najsiri'));   // 1. upis
+  const mere = svi.map(c => ({ c, treba: c.scrollWidth, ima: c.clientWidth })); // 2. čitanje
+  const razmak = 8;
+  mere.forEach(m => {                                                 // 3. upis
+    if(m.ima <= 0 || m.treba <= m.ima + 1) return;
+    if(m.treba > 2 * m.ima + 2 * razmak) m.c.classList.add('chip-najsiri');
+    else m.c.classList.add('chip-siri');
+  });
+}
+window.addEventListener('resize', zakaziMerenjeCipova);
+
+/* ── RADNJE NAD REČJU — ISKAČU IZNAD ČIPA ───────────────────────────────────
+   Na telefonu su ⓘ ♡ 🔁 sklonjeni iz pilule: sa njima je čip bio širok 228 px
+   od 390 (izmereno), pa je u red stajala TAČNO JEDNA reč — 195 rima davalo je
+   spisak visok 12.524 px. Bez ikonica u red staju tri.
+
+   Ikonice se ne gube nego se pojave IZNAD reči kad se na nju kucne — isto kao
+   iOS-ova traka nad izabranim tekstom. Ništa nije skriveno, samo se ne troši
+   širina na ono što u tom trenutku ne treba. */
+/* Ikonice u traci su NACRTANE, ne otkucane.
+   Sa znakovima iz fonta traka je izgledala kao četiri različita sajta u jednom
+   redu: ⓘ i ♡ dolaze iz teksta i tanke su, 🔁 je emodži pa ga sistem crta u
+   boji, a ⧉ postoji u malo fontova i pada na sistemski. Jedan skup poteza
+   („stroke") iste debljine daje jedan izgled na svakom telefonu, i sam prati
+   boju teme jer koristi `currentColor`. */
+const SVG_OKVIR = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">';
+const IKONA = {
+  znacenje: SVG_OKVIR + '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.6v.9"/></svg>',
+  srce:     SVG_OKVIR + '<path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20z"/></svg>',
+  srcePuno: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 20.4S4.4 15.6 4.4 10.4A4.4 4.4 0 0 1 12 7.4a4.4 4.4 0 0 1 7.6 3c0 5.2-7.6 10-7.6 10z"/></svg>',
+  rime:     SVG_OKVIR + '<path d="M3.5 9.5A6 6 0 0 1 9.5 4h5.8"/><path d="M13 1.8 16.2 4 13 6.2"/><path d="M20.5 14.5A6 6 0 0 1 14.5 20H8.7"/><path d="M11 22.2 7.8 20 11 17.8"/></svg>',
+  kopiraj:  SVG_OKVIR + '<rect x="9" y="9" width="11" height="11" rx="2.4"/><path d="M5.5 15H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v.5"/></svg>',
+};
+
+let cipTraka = null, cipTrakaZa = null;
+function napraviCipTraku(){
+  if(cipTraka) return cipTraka;
+  cipTraka = document.createElement('div');
+  cipTraka.className = 'chip-actions';
+  cipTraka.setAttribute('role', 'group');
+  cipTraka.hidden = true;
+  document.body.appendChild(cipTraka);
+  return cipTraka;
+}
+function zatvoriCipTraku(){
+  if(!cipTraka || cipTraka.hidden) return;
+  cipTraka.hidden = true;
+  if(cipTrakaZa) cipTrakaZa.classList.remove('chip-izabran');
+  cipTrakaZa = null;
+}
+function otvoriCipTraku(cip, rec){
+  const t = napraviCipTraku();
+  if(cipTrakaZa === cip && !t.hidden){ zatvoriCipTraku(); return; }   // drugi dodir zatvara
+  zatvoriCipTraku();
+  cipTrakaZa = cip;
+  cip.classList.add('chip-izabran');
+  const omiljena = isFav(rec);
+  t.innerHTML =
+    `<button type="button" class="ca-btn" data-act="def" aria-label="${uiTxt('značenje reči')} ${disp(rec)}">` +
+      `<span class="ca-ic">${IKONA.znacenje}</span><span class="ca-txt">${uiTxt('značenje')}</span></button>` +
+    `<button type="button" class="ca-btn${omiljena ? ' on' : ''}" data-act="fav" aria-label="${uiTxt('sačuvaj u „Omiljene“')}: ${disp(rec)}">` +
+      `<span class="ca-ic">${omiljena ? IKONA.srcePuno : IKONA.srce}</span><span class="ca-txt">${uiTxt('omiljene')}</span></button>` +
+    `<button type="button" class="ca-btn" data-act="rime" aria-label="${uiTxt('nađi rime za')} ${disp(rec)}">` +
+      `<span class="ca-ic">${IKONA.rime}</span><span class="ca-txt">${uiTxt('rime')}</span></button>` +
+    `<button type="button" class="ca-btn" data-act="kopiraj" aria-label="${uiTxt('kopiraj reč')} ${disp(rec)}">` +
+      `<span class="ca-ic">${IKONA.kopiraj}</span><span class="ca-txt">${uiTxt('kopiraj')}</span></button>`;
+  t.hidden = false;
+  t.dataset.w = rec;
+  postaviCipTraku(cip);
+  t.querySelectorAll('.ca-btn').forEach(b => {
+    b.onclick = (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();          // da document-osluškivač ne zatvori oblačić
+      const a = b.dataset.act;
+      if(a === 'def'){ pripremiDefinicije(); showDefAt(rec, b, true); zatvoriCipTraku(); }
+      else if(a === 'fav'){
+        toggleFav(rec);
+        const on = isFav(rec);
+        b.classList.toggle('on', on);
+        b.querySelector('.ca-ic').innerHTML = on ? IKONA.srcePuno : IKONA.srce;
+      }
+      else if(a === 'rime'){ zatvoriCipTraku(); rimeInput.value = disp(rec); switchTab('rime'); doRhymes(); }
+      else { copy(disp(rec)); zatvoriCipTraku(); }
+    };
+  });
+}
+function postaviCipTraku(cip){
+  if(!cipTraka || cipTraka.hidden) return;
+  const r = cip.getBoundingClientRect();
+  const w = cipTraka.offsetWidth, h = cipTraka.offsetHeight;
+  let levo = r.left + r.width / 2 - w / 2 + window.scrollX;
+  const najvise = window.scrollX + document.documentElement.clientWidth - w - 8;
+  levo = Math.max(window.scrollX + 8, Math.min(levo, najvise));
+  const iznad = r.top >= h + 14;
+  const gore = iznad ? (r.top - h - 8) : (r.bottom + 8);
+  cipTraka.classList.toggle('ispod', !iznad);
+  cipTraka.style.left = Math.round(levo) + 'px';
+  cipTraka.style.top = Math.round(gore + window.scrollY) + 'px';
+  // strelica pokazuje na sredinu čipa i kad je traka pomerena uz ivicu ekrana
+  const strela = Math.round(r.left + r.width / 2 + window.scrollX - levo);
+  cipTraka.style.setProperty('--strela', Math.max(14, Math.min(w - 14, strela)) + 'px');
+}
+
+/* Dodir na reč u rezultatima otvara traku umesto da kopira.
+   Hvata se u FAZI SPUŠTANJA (`capture`) i zaustavlja — inače bi se izvršio i
+   `onclick` sa samog `.word`, pa bi se reč i kopirala i otvorila traka.
+   Ne dira: panel uz stih (tamo klik ubacuje reč), statične strane `/rime-za/`
+   (tamo je čip link) i sve iznad 560 px. */
+document.addEventListener('click', (e) => {
+  if(!jeTelefon()) return;
+  const t = e.target;
+  if(!t || !t.closest) return;
+  if(t.closest('.chip-actions')) return;
+  const cip = t.closest('.chip');
+  if(!cip || !cip.querySelector('.mini') || cip.closest('.note-rhymes')){
+    if(!t.closest('.chip-actions')) zatvoriCipTraku();
+    return;
+  }
+  e.preventDefault();
+  e.stopPropagation();
+  otvoriCipTraku(cip, cip.dataset.w || '');
+}, true);
+window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
+document.addEventListener('keydown', (e) => { if(e.key === 'Escape') zatvoriCipTraku(); });
+/* Promena širine (okretanje telefona, otvaranje tastature na Androidu) menja i
+   gde je čip — traka bi ostala da visi na starom mestu. */
+window.addEventListener('resize', zatvoriCipTraku);
+
+/* ── REDOVI KOJI SE POMERAJU U STRANU ───────────────────────────────────────
+   Traka alata u beležnici i traka rima iznad tastature ne staju u širinu
+   ekrana. Bez ikakvog znaka red deluje odsečen, pa se blago izbledi desna
+   ivica — a čim se dopomera do kraja, bleđenje se sklanja da poslednje dugme
+   ne ostane sivo. Isti postupak koji već koristi traka tabova (M4). */
+function osveziMaskuReda(red){
+  if(!red) return;
+  const doKraja = red.scrollLeft + red.clientWidth >= red.scrollWidth - 4;
+  red.classList.toggle('red-do-kraja', doKraja || red.scrollWidth <= red.clientWidth + 4);
+}
+/* `trajno` samo za elemente koji žive koliko i strana. Traka rima se pri
+   svakom pomeranju kursora crta iznova — da i ona kači osluškivač na `window`,
+   za sat pisanja bi ih se nakupilo na stotine. Njoj je dovoljan osluškivač na
+   samoj traci, koji nestaje zajedno sa njom. */
+function pratiPomeranjeUStranu(red, trajno){
+  if(!red || red.__prati) return;
+  red.__prati = true;
+  const osvezi = () => osveziMaskuReda(red);
+  red.addEventListener('scroll', osvezi, { passive: true });
+  if(trajno) window.addEventListener('resize', osvezi);
+  osvezi();
+}
+document.querySelectorAll('.hint-actions').forEach(r => pratiPomeranjeUStranu(r, true));
+
+/* ── POSLE PRETRAGE ODMAH POKAŽI RIME ───────────────────────────────────────
+   Na telefonu je iznad rezultata stajalo 1.070 px sadržaja (logo, traka alata,
+   naslov, uvodni pasus, polje, filteri, legenda) — izmereno na 390×844. Ko
+   otkuca reč i kucne „Nađi rime", ostane da gleda isti ekran i mora sam da
+   skrola do rezultata. Zato se posle SVESNE pretrage (dugme ili Enter, ne
+   promena filtera) tastatura zatvara i lista se dovodi pod prst.
+   Van telefona ne radi ništa — tamo se cela strana ionako vidi. */
+function pokaziRimeNaTelefonu(){
+  if(!jeTelefon()) return;
+  const box = el('rimeResults');
+  if(!box || !box.children.length) return;
+  try{ rimeInput.blur(); }catch(e){}
+  requestAnimationFrame(() => {
+    const y = box.getBoundingClientRect().top + window.scrollY - 8;
+    if(y > window.scrollY) window.scrollTo({ top: Math.round(y), behavior: 'smooth' });
+  });
 }
 
 /* Sinonimi — zasebna, vizuelno izdvojena kartica.
@@ -686,7 +985,7 @@ function doRhymes(silent){
   }
 
   if(!best.length && !good.length && !finalExtra.length && !loose){
-    box.innerHTML = '<p class="empty">' + uiTxt('Nema rime za ovu reč. Probaj da uključiš „šire rime“ ispod.') + '</p>';
+    box.innerHTML = '<p class="empty">' + uiTxt('Nema čiste rime za ovu reč. Štikliraj „i šire (slabije) rime“ ispod polja — tada ulaze i bliske rime. Ako ni tada nema, probaj kraću reč ili neku drugu sa kraja stiha.') + '</p>';
   }
   if(best.length || good.length || finalExtra.length) renderLegend(box);
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
@@ -741,8 +1040,8 @@ function doRhymes(silent){
   }
 }
 
-el('rimeBtn').onclick = () => doRhymes();
-rimeInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doRhymes(); });
+el('rimeBtn').onclick = () => { doRhymes(); pokaziRimeNaTelefonu(); };
+rimeInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doRhymes(); pokaziRimeNaTelefonu(); } });
 el('rimeSyl').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   document.querySelectorAll('#rimeSyl button').forEach(x=>x.classList.remove('active'));
@@ -928,7 +1227,7 @@ function doSearch(){
   if(searchSyl){
     arr = searchSyl===5 ? arr.filter(w=>syllables(w)>=5) : arr.filter(w=>syllables(w)===searchSyl);
   }
-  if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči koje odgovaraju.') + '</p>'; return; }
+  if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči sa tim slovima. Probaj kraći niz — na primer „ost“ umesto „nost“ — ili promeni način pretrage gore.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
   el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}`;
 }
@@ -1573,7 +1872,15 @@ function keepCaretVisible(){
   if(bottom == null) return;
   const panel = noteRhymesBox.getBoundingClientRect();
   if(panel.height === 0) return;
-  const limit = window.innerHeight - panel.height - 12;
+  /* Donja ivica onoga što se STVARNO vidi, ne `window.innerHeight`.
+     `innerHeight` je visina layout viewport-a i ostaje ista kad se otvori
+     tastatura — pa je ovaj račun ranije mislio da ispod kursora ima 300 px
+     slobodnog prostora, a tamo je bila tastatura. `getBoundingClientRect`
+     vraća koordinate u odnosu na layout viewport, a `visualViewport.offsetTop`
+     kaže gde u njemu počinje vidljivi deo, pa se sabiraju. */
+  const vv = window.visualViewport;
+  const vidljivoDno = vv ? (vv.offsetTop + vv.height) : window.innerHeight;
+  const limit = vidljivoDno - panel.height - 12;
   if(bottom > limit) window.scrollBy(0, Math.ceil(bottom - limit));
 }
 
@@ -1639,9 +1946,27 @@ el('sharePoem').onclick = () => {
 
 // Jedan prolaz kroz DOM editora → mapa „tekstualna pozicija ↔ čvor"
 // (iste koordinate kao getEditorText, dakle <br> broji kao jedan znak)
+/* Spisak „koja tekstualna pozicija leži u kom čvoru".
+   MORA da broji IDENTIČNO kao `getEditorText()` — to su dve strane iste stvari:
+   jedna daje tekst, druga kaže gde se koje slovo tog teksta nalazi u DOM-u.
+
+   Do 31.07.2026. nisu se poklapale. `getEditorText()` je 29.07. naučen da svaki
+   BLOK (`<div>`, `<p>`) računa kao novi red — mobilni Chrome i Safari na Enter
+   prave blokove, ne `<br>` (nalaz M1). Ali ovaj spisak nije: on je brojao samo
+   slova i `<br>`-ove, pa mu je posle svakog bloka nedostajao po jedan znak.
+
+   Posledica, izmerena na 1440 px i na 390 px: broj slogova i slovo šeme rime
+   POMERE SE za ceo red kod poslednjeg stiha. Pesma od četiri stiha imala je
+   „D 6" ispod praznog reda, a stih „plamen koji ludi" bez ijedne oznake.
+   Greška raste sa brojem stihova (po jedan znak po bloku), pa se na kratkoj
+   pesmi jedva vidi, a na dužoj su oznake potpuno razminute sa stihovima.
+
+   Ovo je jedini korisnik ovog spiska (`measureLineBoxes`), pa popravka ne
+   dodiruje ni kursor ni čuvanje teksta — samo poravnanje oznaka uz stih. */
 function editorTextIndex(){
   const items = [];
   let pos = 0;
+  const blok = (el) => el && (el.nodeName === 'DIV' || el.nodeName === 'P');
   const walk = (node) => {
     for(const child of node.childNodes){
       if(child.nodeType === Node.TEXT_NODE){
@@ -1649,8 +1974,17 @@ function editorTextIndex(){
         pos += child.data.length;
       } else if(child.nodeName === 'BR'){
         if(child.classList.contains('cursor-br')) continue;
-        items.push({ br: child, from: pos, to: pos + 1 });
-        pos += 1;
+        /* `<br>` koji je jedini sadržaj bloka je samo vidljivost praznog reda —
+           prelom mu dodaje sam blok. Isti uslov stoji u `getEditorText()`.
+           Stavka se ipak upisuje (širine nula) jer `brAt()` preko nje meri gde
+           taj prazan red stoji na ekranu. */
+        const jedinacUBloku = blok(child.parentNode) && child.parentNode.childNodes.length === 1;
+        items.push({ br: child, from: pos, to: pos + (jedinacUBloku ? 0 : 1) });
+        if(!jedinacUBloku) pos += 1;
+      } else if(blok(child)){
+        // isti uslov kao `out !== ''` u getEditorText: prvi blok ne dodaje prelom
+        if(pos !== 0) pos += 1;
+        walk(child);
       } else walk(child);
     }
   };
@@ -2142,6 +2476,48 @@ function tiheRime(word){
   return chips;
 }
 
+/* ── ZAGLAVLJE PANELA SA RIMAMA ────────────────────────────────────────────
+   Na telefonu panel dok se piše stoji kao TRAKA IZNAD TASTATURE — jedan red
+   rima koji se pomera u stranu, po ugledu na traku predloga same tastature.
+   Razlog: dok je bio otvoren list visok 34 vh (287 px od 844), zaklanjao je i
+   sam stih koji se piše — izmereno, donja ivica editora je bila na 645 px, a
+   panel je počinjao na 557. Traka uzima ~78 px i pesma ostaje na ekranu.
+
+   Dugme sa strelicom razvija traku u pun list kad korisnik hoće da razgleda.
+   Na računaru i tabletu dugme je sakriveno CSS-om, a panel je isti kao pre. */
+function zaglavljePanelaRima(word){
+  return `<h4><span class="nr-head-txt">${escapeHtml(uiTxt('Rime za'))} `
+    + `<span class="nr-word">${escapeHtml(disp(word))}</span></span>`
+    /* Strelica je nacrtana, ne otkucana: znakovi ⌃ i ⌄ u većini fontova nemaju
+       pravi oblik (u Rubiku ispadne kao mali ugao u ćošku) i zavise od toga koji
+       je font stigao. SVG uvek izgleda isto. */
+    + `<button type="button" class="nr-toggle" aria-expanded="false" `
+    + `aria-label="${uiTxt('prikaži sve rime')}">`
+    + `<svg viewBox="0 0 20 20" width="17" height="17" aria-hidden="true" focusable="false">`
+    + `<path d="M4.5 12.75 10 7.25l5.5 5.5" fill="none" stroke="currentColor" `
+    + `stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h4>`;
+}
+function vezniProsirivacPanela(box){
+  const b = box.querySelector('.nr-toggle');
+  if(!b) return;
+  const otvoren = box.classList.contains('nr-open');
+  b.setAttribute('aria-expanded', otvoren ? 'true' : 'false');
+  b.setAttribute('aria-label', uiTxt(otvoren ? 'skupi listu rima' : 'prikaži sve rime'));
+  b.onclick = (ev) => {
+    ev.preventDefault();
+    ev.stopPropagation();
+    const sada = box.classList.toggle('nr-open');
+    b.setAttribute('aria-expanded', sada ? 'true' : 'false');
+    b.setAttribute('aria-label', uiTxt(sada ? 'skupi listu rima' : 'prikaži sve rime'));
+    if(!sada) box.scrollTop = 0;
+    // razvijanje menja red iz „pomera se u stranu" u „prelama se" i obrnuto
+    osveziMaskuReda(box.querySelector('.results'));
+    keepCaretVisible();
+  };
+  // klik na traku ne sme da oduzme fokus editoru — inače nestane mesto za unos
+  b.onpointerdown = (ev) => ev.preventDefault();
+}
+
 function renderNoteRhymes(){
   const box = el('noteRhymes');
   if(!box) return;
@@ -2178,6 +2554,7 @@ function renderNoteRhymes(){
   }
   if(!word || word.length < 2){
     box.innerHTML = '';
+    box.classList.remove('nr-open');
     notePanelKey = notePanelBase = null;
     notePanelWord = noteInsertedWord = '';
     return;
@@ -2185,8 +2562,9 @@ function renderNoteRhymes(){
   const chips = tiheRime(word);
   if(!chips.length){
     notePanelKey = null;
-    box.innerHTML = `<h4>${escapeHtml(uiTxt('Rime za'))} <span class="nr-word">${escapeHtml(disp(word))}</span></h4>`
+    box.innerHTML = zaglavljePanelaRima(word)
       + `<p class="nr-empty">${escapeHtml(uiTxt('Nema pronađenih rima.'))}</p>`;
+    vezniProsirivacPanela(box);
     return;
   }
 
@@ -2205,7 +2583,8 @@ function renderNoteRhymes(){
   }
   notePanelKey = kljuc;
 
-  box.innerHTML = `<h4>${escapeHtml(uiTxt('Rime za'))} <span class="nr-word">${escapeHtml(disp(word))}</span></h4>`;
+  box.innerHTML = zaglavljePanelaRima(word);
+  vezniProsirivacPanela(box);
   const rdiv = document.createElement('div');
   rdiv.className = 'results';
   const limit = notePanelExpanded ? chips.length : NOTE_RHYMES_STEP;
@@ -2225,6 +2604,8 @@ function renderNoteRhymes(){
     rdiv.appendChild(clone);
   });
   box.appendChild(rdiv);
+  // na telefonu traka se pomera u stranu — desna ivica kaže da ima još rima
+  pratiPomeranjeUStranu(rdiv, false);
 
   // „još N rima" — otvara se u samom panelu; odlazak na drugu stranu bi
   // prekinuo pisanje, a zbog toga panel i postoji
@@ -2415,7 +2796,7 @@ function getRhymeListForLastWord(){
 }
 el('saveRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
-  if(!word || !rhymes.length){ toast('Nema rima za čuvanje'); return; }
+  if(!word || !rhymes.length){ toast('Prvo klikni na reč u pesmi — rime za nju se pojave sa strane, pa ih onda sačuvaš'); return; }
   const lists = lsJSON('rimoteka_lists', []);
   lists.unshift({ word, rhymes, date: new Date().toISOString() });
   lsSet('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
@@ -2423,7 +2804,7 @@ el('saveRhymeList').onclick = () => {
 };
 el('exportRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
-  if(!word || !rhymes.length){ toast('Nema rima za preuzimanje'); return; }
+  if(!word || !rhymes.length){ toast('Nema još nijedne rime — klikni na reč u pesmi pa se rime pojave sa strane'); return; }
   const text = `Rime za „${word}"\n${'='.repeat(30)}\n${rhymes.join(', ')}\n\nGenerisano: Rimoteka.com`;
   const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
   const url = URL.createObjectURL(blob);
@@ -2436,7 +2817,7 @@ el('exportRhymeList').onclick = () => {
 };
 el('exportPoem').onclick = () => {
   const text = getEditorText();
-  if(!text.trim()){ toast('Nema teksta za preuzimanje'); return; }
+  if(!text.trim()){ toast('Beležnica je prazna — napiši prvi stih pa je preuzmi'); return; }
   const full = getPoemTitle() ? getPoemTitle() + '\n\n' + text : text;
   const blob = new Blob([full], { type: 'text/plain;charset=utf-8' });
   const url = URL.createObjectURL(blob);
@@ -2445,7 +2826,7 @@ el('exportPoem').onclick = () => {
   a.download = `pesma-${new Date().toISOString().slice(0,10)}.txt`;
   a.click();
   URL.revokeObjectURL(url);
-  toast('Preuzeta pesma');
+  toast('Pesma je preuzeta');
 };
 
 // Inicijalno renderovanje
@@ -3217,7 +3598,22 @@ function renderKlasici(){
   box.querySelectorAll('.vrhyme').forEach(b=>{
     if(!b.dataset.w) return;
     b.style.cursor='pointer';
-    b.onclick = ()=>{ rimeInput.value = disp(b.dataset.w); switchTab('rime'); window.scrollTo({top:0,behavior:'smooth'}); doRhymes(); };
+    b.onclick = ()=>{
+      /* MRTVO DUGME NA `/klasici/` — nađeno 31.07.2026.
+         Na početnoj `switchTab('rime')` prebaci na tab sa rimama i sve radi.
+         Na zasebnoj strani `/klasici/` tog taba NEMA: `rimeInput` je tada
+         prazan `NOOP_EL`, `switchTab` nema šta da prebaci i klik NE URADI
+         NIŠTA — a strana u uputstvu obećava „klikni da nađeš rime". Izmereno:
+         138 stihova, nijedan klik ništa ne menja, adresa ostaje ista.
+         Na takvoj strani se ide na početnu sa upitom — isti oblik linka koji
+         već koriste pilule na stranama `/rime-za/…` (`/?rec=…`). */
+      if(!document.getElementById('panel-rime')){
+        location.href = '/?rec=' + encodeURIComponent(b.dataset.w);
+        return;
+      }
+      rimeInput.value = disp(b.dataset.w); switchTab('rime');
+      window.scrollTo({top:0,behavior:'smooth'}); doRhymes();
+    };
   });
 }
 
@@ -3919,9 +4315,9 @@ function showResults(){
 
   // Dostignuća
   const achievements = [];
-  if(gameMaxCombo >= 5) achievements.push('🔥 Combo master (5x+)');
-  if(gameMaxCombo >= 10) achievements.push('⚡ Combo legend (10x+)');
-  if(sorted[0].correct === gameWordsPerPlayer) achievements.push('🎯 Perfect score');
+  if(gameMaxCombo >= 5) achievements.push('🔥 Pet rima zaredom');
+  if(gameMaxCombo >= 10) achievements.push('⚡ Deset rima zaredom');
+  if(sorted[0].correct === gameWordsPerPlayer) achievements.push('🎯 Sve tačno, bez greške');
   if(achievements.length > 0){
     const div = document.createElement('div');
     div.style.cssText = 'margin-top:1rem;padding:1rem;background:#f8f0fe;border-radius:14px;font-weight:600';

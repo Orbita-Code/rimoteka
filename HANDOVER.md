@@ -5,6 +5,158 @@
 ---
 
 
+# Sesija 31. jul 2026 (deveta) — MOBILNA VERZIJA, KONTAKT U FUTERU, MEJL
+
+> **NIŠTA NIJE PUSHOVANO.** Vlasnica je izričito tražila da prvo pregleda sve izmene.
+> Test lokalno **422/422**. Posle njenog „može": feature grana → merge → deploy → pa
+> OBAVEZNO `BASE=https://rimoteka.com node test/predeploy.mjs`.
+
+## ⛔ PRVO SLEDEĆOJ SESIJI: MEJL NE RADI
+
+`info@rimoteka.com` **ne prima poštu**. Aniko je pisala i nije dobila ni odgovor ni
+povratnu grešku; vlasnica javila 31.07. Adresa stoji na sajtu, ne zna se koliko je
+poruka propalo ni od kada.
+
+Provereno bez prijave: MX zapisi **postoje** (`fwd1/fwd2.porkbun.com`), SPF postoji,
+**DMARC ne postoji**. Da li server prima za `info@` **nije izmereno** — port 25 je
+blokiran sa lokalne mreže. Ostaje panel: **porkbun.com → Email Forwarding**, tab je
+ostavljen otvoren u Chrome-u, vlasnica se prijavljuje pa Claude nastavlja sam.
+Pun postupak i odluka o Zoho sandučetu: `TODO.md`, odeljak **0.06 A**.
+
+## Šta je urađeno
+
+### 1. Tastatura je zaklanjala rime u beležnici (prijava vlasnice)
+
+Uzrok nije bio u CSS-u panela nego u tome **prema čemu se `bottom:0` meri**:
+`position:fixed` se računa prema **layout viewport-u**, a on se pri otvaranju tastature
+ne smanjuje ni na iOS-u ni na Androidu (podrazumevano `interactive-widget=resizes-visual`).
+
+Izmereno na 390×844: panel je stajao **557–844 px**, tastatura pokriva od **~508** naniže
+— dakle nijedna rima se nije videla.
+
+Rešenje: `visualViewport` daje razliku layout ↔ vidljivo = visina tastature; upisuje se
+u `--kb` i panel stoji na `bottom:var(--kb)`. To je **jedini put koji radi i na iOS-u i
+na Androidu** — VirtualKeyboard API i `env(keyboard-inset-height)` postoje samo u
+Chrome-u. Prag od 90 px je namerno: skrivanje adresne trake takođe menja vidljivi deo
+(60–70 px), a nijedna tastatura nije niža od ~200 px.
+
+Panel je uz to preoblikovan: i bez tastature je bio list od **287 px** koji je preklapao
+sam stih (editor je završavao na 645, panel počinjao na 557). Sada je **traka od 96 px**
+iznad tastature, jedan red rima koji se pomera u stranu; strelica je razvija u pun list.
+Posle: panel završava **tačno na 508**, prva rima 454–498, razvijen list 137–508.
+
+> **Ovaj zahtev je stajao u `TODO.md` (0.05 B) od 30.07. i nije bio urađen.**
+
+### 2. Rime 2–3 u redu, ikonice na dodir
+
+| | pre | posle |
+|---|---|---|
+| širina pilule | **228 px** od 390 | 114 px |
+| reči u redu | **1,00** | **2,83** (nikad više od 3) |
+| visina spiska (195 rima) | **12.524 px** | **3.997 px** |
+| visina cele strane | 16.113 px | 7.574 px |
+
+Mreža `auto-fill minmax(104px,1fr)`: 320 px → dve kolone, 390 i 430 → tri. Duga reč
+**uzima dve ili tri kolone** umesto da se prelama — u mreži prelomljena ćelija razvuče
+celu vrstu. Meri se u tri odvojena prolaza (obriši → pročitaj sve → upiši sve), da
+preračun rasporeda bude jedan a ne 195.
+
+Ikonice nisu izgubljene: dodir na reč otvara traku iznad nje (značenje · omiljene ·
+rime · kopiraj), **nacrtane kao SVG** — sa znakovima iz fonta traka je izgledala kao
+četiri različita sajta u jednom redu. Sačuvana reč zadrži **puno srce** u pilули.
+
+### 3. Beležnica
+
+Naslov bez kutije, žleb bez ljubičastog gradijenta, sedam podvučenih linkova →
+**pilule od 44 px**, „obriši sve" i „obriši omiljene" crveni. Trake koje se pomeraju
+u stranu blago izblede na desnoj ivici dok ima još sadržaja.
+
+### 4. Kontakt u futeru — falio na 2.015 od 2.016 strana
+
+Prijava vlasnice: „zašto na mobilnom uopšte nema ta rečenica za saradnju".
+Izmereno: `grep -rl "info@rimoteka" public/` → **jedna strana** (`public/index.html`).
+**Nije mobilni problem** — na podstranama je nije bilo ni na računaru, jer generator
+`FOOTER_TMPL` tu rečenicu uopšte nije imao.
+
+Dodata u **šablon futera** (jedno mesto) + ručno u `404.html`, koji se ne generiše.
+Sada 2.016/2.016, izmereno 227×22 px isto na telefonu i na računaru.
+
+### 5. Nalazi koje niko nije prijavio
+
+| # | Šta | Gde |
+|---|---|---|
+| **M8** | **Oznake uz stih razminute sa stihom.** `getEditorText()` je 29.07. naučen da `<div>` računa kao novi red (mobilni Enter), a `editorTextIndex()` nije — nedostajao mu je po jedan znak posle svakog bloka. Pesma kucana na telefonu: poslednja dva stiha pomerena za **ceo red**; sa praznim redom između strofa: za **dva reda** (−59 px na 390, −68 na 1440). **I na računaru.** | `app.js:1949` |
+| **M9** | Dugmad beležnice **23 px** na `/pisanje-pesama/` i u „Omiljenima" — popravka od 29.07. bila vezana za `#panel-beleznica`, a te strane taj `id` nemaju | `style.css` |
+| **M10** | U igri polje, „Proveri" i poruka o tačnosti padali **pod tastaturu** | `app.js` |
+| **M12** | U tamnom režimu „dobre rime" imale **beo okvir** 2 px (`rgb(255,255,255)`) na #1e1a2e | `style.css` |
+| **M14** | **Mrtvo dugme na `/klasici/`** — slovo šeme rime uz svaki od 138 stihova zove `switchTab('rime')`, a ta strana taj tab nema; klik ne uradi ništa, a uputstvo obećava rime. **I na računaru.** | `app.js:3598` |
+| **M15** | Klasici: „prebaci u brojač slogova" **164×21 px**, slovo šeme rime **24×18 px** | `style.css` |
+
+### 6. Tekstovi na sajtu — 11 rečenica na 4 strane
+
+Prijava vlasnice: „ne sviđa mi se ko je pisao taj tekst… dajemo uput konkurenciji".
+Prošao svih 21 tematsku stranu. Najgore nije ton nego **netačnost**: strana
+`/rimovanje-reci/` tvrdi da su rime „poređane od najčešćih ka manje poznatim", a kod
+sortira po **broju slogova** — učestalost je treće i najslabije merilo. Dokaz uživo:
+za „ljubav" prvo izlazi `gubav`, pa `ubav`, a češća `alav` je šesta.
+
+**Ceo spisak i predlog novog teksta: `TODO-TEKSTOVI.md`.** Vlasnica ga **nije odobrila** —
+ne upisivati dok ne kaže.
+
+## Dokaz da desktop i tablet nisu dirani
+
+Snimljeno 24 ekrana (1440, 1024, 820, 768 px × svetla/tamna × tri strane) sa starim i
+novim kodom: **16 od 24 je identično do piksela**. Razlikuje se samo beležnica, i to
+zbog M8 — oznaka je prešla na svoj stih.
+
+> ### ⚠️ TRI STVARI ZA ODLUKU VLASNICE
+> · **M8 popravljen svuda** (zajednički kod, i reč je o pogrešnom broju uz pogrešan
+>   stih, ne o izgledu). Vraća se u jednu liniju ako kaže.
+> · **M14 popravljen svuda** — popravka samo za telefon značila bi da isto dugme na
+>   računaru i dalje ne radi.
+> · **M12 NIJE diran** na računaru i tabletu, po dogovoru. Jedna linija kad odobri.
+
+## Test: 372 → 422 provere
+
+- **30) Mobilna verzija** — 30 provera. **Tastatura se PRAVI ručno**, jer je Playwright
+  nema: `visualViewport.height` se smanji za 336 px i pošalje `resize`.
+- **31) Oznake uz stih** — 12 provera, šest oblika unosa × dve širine.
+
+**Puštene protiv starog koda:** sekcija 30 pada **24 od 26**, sekcija 31 pada **6 od 12**.
+Bez toga ne bi dokazivale ništa.
+
+Dve zatečene provere prilagođene: merile su položaj ikonica u pilули, a sakriven element
+ima pravougaonik **0×0 na koordinati 0,0** — pa su ga prijavljivale kao „viri".
+
+## Nova pravila (globalni `~/.claude/CLAUDE.md`)
+
+1. **Rešeno se BRIŠE iz TODO-a, ne štriklira.** Zadatak sa ✅ i dalje mora da se pročita
+   da bi se videlo da je gotov. Isto važi za zastarela „stanje na dan…" zaglavlja —
+   prepisuju se, ne dopunjuju. (Zatečeno: `TODO.md` je 31.07. u zaglavlju tvrdio stanje
+   od 29.07., a `CLAUDE.md` projekta nabrajao kao otvorene tri stavke zatvorene 30.07.)
+2. **Tekst na sajtu se piše čoveku, ne pretraživaču.** Narodski, ~15 reči po rečenici.
+   Nijedna tvrdnja koju kod ne izvršava. Bez podataka o sopstvenom prometu. **Bez
+   brojeva koji rastu** (broj reči raste svakodnevno, a isti tekst stoji na 2.000 strana).
+   Kad vlasnica traži tekst — piše se tekst, ne nudi se meni varijanti.
+
+`AUDIT/PROPUSTI.md` — pravila **47–51** (tastatura se pravi ručno; `position:fixed` se
+proverava po koordinatama a ne po CSS-u; kod spiskova se meri gustina; popravka vezana
+za `id` jedne strane; provera se pušta na svim stranama gde funkcija postoji).
+
+## Šta NIJE urađeno
+
+- **Nije pushovano.** Verzija fajlova podignuta na `?v=20260731a`, generator pušten
+  dvaput — u svakoj strani promenjene tačno dve linije prvi put (verzija), pa futer.
+- **Nije provereno na pravom telefonu.** Sve mereno u Chromiumu sa lažiranom tastaturom.
+  Prvi zadatak posle deploy-a: vlasnica otvori sajt na telefonu i proba **baš beležnicu**.
+  Lokal sa telefona: `http://192.168.1.150:8765` (isti Wi-Fi).
+- **Mejl nije rešen** — čeka prijavu na Porkbun.
+- **Tekstovi nisu izmenjeni** — čekaju odobrenje.
+- Klasici: uputstvo kaže „klikni na završnu **reč** stiha", a klikće se **slovo** šeme
+  rime. Nesklad ostaje, upisan u `TODO.md` 0.06 E.
+
+---
+
 # Sesija 30. jul 2026 (osma) — CEO SAJT NA JEDAN FONT (Rubik)
 
 > **NA PRODUKCIJI.** `62469d065`. Test protiv produkcije **376/376**, CLS **0,0039**.

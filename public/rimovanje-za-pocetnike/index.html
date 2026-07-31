@@ -30,7 +30,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260730f">
+<link rel="stylesheet" href="/style.css?v=20260731a">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -68,7 +68,7 @@
      "name": "Kako da znam koja rima je bolja?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Čista rima je jača od asonance. Rimoteka ti pokazuje kvalitet svake rime — odaberi one koje najbolje zvuče."
+      "text": "Čista rima je jača od asonance. Rimoteka prvo prikazuje rime sa istim brojem slogova kao tvoja reč, a bliske rime dobiješ tek kad uključiš kvačicu „i šire (slabije) rime“."
      }
     },
     {
@@ -123,7 +123,7 @@
   <p class="landing-lead">Rimovanje nije magija — to je veština koju svako može da nauči. Ovaj vodič objašnjava <strong>osnove rimovanja</strong> i pokazuje kako Rimoteka može da ti bude prvi saveznik.</p>
   <a class="landing-cta" href="/?rec=rima">🚀 Pronađi rime u alatu →</a>
   <div class="res-group"><h2>Šta je rima?</h2><p class="seo-p">Rima je poklapanje glasova na kraju stihova. Najčešće se rimuju poslednji naglašeni slogovi dve ili više reči.</p></div><div class="res-group"><h2>Osnovne vrste rima</h2><p class="seo-p">Parna rima (AABB), ukrštena rima (ABAB) i obgrljena rima (ABBA) su najčešće šeme za početnike.</p></div><div class="res-group"><h2>Kako koristiti Rimoteku?</h2><p class="seo-p">Unesi reč u polje za pretragu, klikni „Nađi rime“ i biraj najbolju rimu po kvalitetu i broju slogova.</p></div>
-  <section class="landing-faq"><h2>Česta pitanja</h2><details><summary>Da li moram da znam metriku da bih pisao pesme?</summary><p>Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.</p></details><details><summary>Kako da znam koja rima je bolja?</summary><p>Čista rima je jača od asonance. Rimoteka ti pokazuje kvalitet svake rime — odaberi one koje najbolje zvuče.</p></details><details><summary>Odakle da počnem da pišem?</summary><p>Počni od jedne ideje ili osećanja. Napiši prvi stih, pa potraži rimu za poslednju reč i nastavi.</p></details></section>
+  <section class="landing-faq"><h2>Česta pitanja</h2><details><summary>Da li moram da znam metriku da bih pisao pesme?</summary><p>Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.</p></details><details><summary>Kako da znam koja rima je bolja?</summary><p>Čista rima je jača od asonance. Rimoteka prvo prikazuje rime sa istim brojem slogova kao tvoja reč, a bliske rime dobiješ tek kad uključiš kvačicu „i šire (slabije) rime“.</p></details><details><summary>Odakle da počnem da pišem?</summary><p>Počni od jedne ideje ili osećanja. Napiši prvi stih, pa potraži rimu za poslednju reč i nastavi.</p></details></section>
   <div class="res-group"><h2>Srodne strane</h2><p class="seo-p"><a href="/vrste-rima/">Vrste rima</a> · <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a> · <a href="/igra-rimovanja/">Igra rimovanja</a> · <a href="/rimovanje-reci/">Rimovanje reči</a></p></div>
   </main>
 <footer class="site-footer">
@@ -132,6 +132,12 @@
       <img src="/logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
     </div>
     <p class="footer-desc">Besplatan alat za pronalaženje rime, brojanje slogova i pisanje pesama i tekstova na srpskom jeziku.</p>
+    <!-- Kontakt stoji U FUTERU, dakle na jednom mestu — a futer je na svakoj strani.
+         Do 31.07.2026. ga je imala TAČNO JEDNA strana od 2.016 (`public/index.html`,
+         koja se ne generiše odavde), pa ko god je došao sa pretrage na neku od
+         1.993 strane sa rimama nije imao gde da vidi adresu. Izmereno, ne
+         pretpostavljeno: `grep -rl "info@rimoteka" public/` → 1 strana. -->
+    <p class="footer-contact">Za saradnju: <a href="mailto:info@rimoteka.com" class="footer-link">info@rimoteka.com</a></p>
     <nav class="footer-rimes" aria-label="Popularne rime">
       <span class="footer-rimes-label">Popularne rime:</span>
       <a href="/rime-za/ljubav/" class="footer-link">ljubav</a> · <a href="/rime-za/srce/" class="footer-link">srce</a> · <a href="/rime-za/dusa/" class="footer-link">duša</a> · <a href="/rime-za/sreca/" class="footer-link">sreća</a> · <a href="/rime-za/tuga/" class="footer-link">tuga</a> · <a href="/rime-za/bol/" class="footer-link">bol</a> · <a href="/rime-za/radost/" class="footer-link">radost</a> · <a href="/rime-za/nada/" class="footer-link">nada</a> · <a href="/rime-za/strast/" class="footer-link">strast</a> · <a href="/rime-za/ceznja/" class="footer-link">čežnja</a> · <a href="/rime-za/samoca/" class="footer-link">samoća</a> · <a href="/rime-za/osecaj/" class="footer-link">osećaj</a> · <a href="/rime-za/zagrljaj/" class="footer-link">zagrljaj</a> · <a href="/rime-za/poljubac/" class="footer-link">poljubac</a> · <a href="/rime-za/neznost/" class="footer-link">nežnost</a> · <a href="/rime-za/zelja/" class="footer-link">želja</a> · <a href="/rime-za/sanjarenje/" class="footer-link">sanjarenje</a> · <a href="/rime-za/ljubomora/" class="footer-link">ljubomora</a> · <a href="/rime-za/sunce/" class="footer-link">sunce</a> · <a href="/rime-za/mesec/" class="footer-link">mesec</a> · <a href="/rime-za/zvezda/" class="footer-link">zvezda</a> · <a href="/rime-za/nebo/" class="footer-link">nebo</a> · <a href="/rime-za/oblak/" class="footer-link">oblak</a> · <a href="/rime-za/kisa/" class="footer-link">kiša</a> · <a href="/rime-za/sneg/" class="footer-link">sneg</a> · <a href="/rime-za/vetar/" class="footer-link">vetar</a> · <a href="/rime-za/munja/" class="footer-link">munja</a> · <a href="/rime-za/more/" class="footer-link">more</a> · <a href="/rime-za/reka/" class="footer-link">reka</a> · <a href="/rime-za/jezero/" class="footer-link">jezero</a>
@@ -153,6 +159,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=20260730f"></script>
+<script src="/app.js?v=20260731a"></script>
 </body>
 </html>

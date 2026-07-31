@@ -337,6 +337,11 @@ a:visited{color:var(--link-visited)}
   size-adjust:106.6%;ascent-override:93%;descent-override:25%;line-gap-override:0%;
 }
 
+/* iOS Safari sam uvećava slova kad se telefon okrene na stranu („text
+   autosizing") — pesma u beležnici tada odjednom promeni veličinu, a slogovi
+   levo od stiha se razmaknu od reda na koji se odnose. Postavka je bez ikakvog
+   dejstva na računaru: pregledači na desktopu je ignorišu. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 html,body{margin:0;padding:0}
 body{
   font-family:'Rubik','Rubik rezerva',system-ui,-apple-system,sans-serif;
@@ -870,6 +875,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 
 .related-rimes{margin:2.2rem 0 1rem}
 .related-rimes h2,.related-rimes h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
+.related-note{font-size:.9rem;color:var(--muted,#6b6b7b);margin:-.3rem 0 .6rem}
 .related-list{display:flex;flex-wrap:wrap;gap:.45rem}
 .syl-groups{margin:1.4rem 0}
 .syl-groups h2,.syl-groups h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .6rem}
@@ -880,6 +886,9 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .mini-tool h2,.mini-tool h3{font-size:1.1rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .8rem}
 .mini-tool .search-row{margin-bottom:0}
 
+.landing-next{margin-top:2rem}
+.landing-next h2{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
+.landing-next p{line-height:1.7;color:var(--text,inherit)}
 .landing-faq{margin-top:2rem}
 .landing-faq h2,.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
 .landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
@@ -1279,4 +1288,354 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 @media(max-width:560px){
   .kbd-help{padding:0 1rem}
   .kbd-help summary{font-size:.9rem}
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MOBILNA VERZIJA — 31.07.2026
+   ═══════════════════════════════════════════════════════════════════════════
+   Sve ispod ove linije radi SAMO na telefonu (do 560 px) ili SAMO kad je
+   otvorena tastatura. Računar i tablet ne ulaze ni u jedno od ovih pravila i
+   njihov izgled se ne menja ni za piksel — to je bio izričit uslov.
+
+   Tri stvari koje se ovde rešavaju, sve tri IZMERENE, ne procenjene:
+
+   1. RIME SU BILE JEDNA ISPOD DRUGE. Pilula sa rečju nosila je i tri ikonice
+      (ⓘ ♡ 🔁), pa je bila široka 228 px od 390 — u red je stajala tačno jedna
+      reč. Za „ljubav" (195 rima) spisak je bio visok 12.524 px, a cela strana
+      16.113 px. Sada je mreža od 2–3 jednake kolone, a ikonice se pojave
+      IZNAD reči kad se na nju kucne (v. `.chip-actions`).
+
+   2. TASTATURA JE ZAKLANJALA RIME U BELEŽNICI (prijava vlasnice). Panel je
+      `position:fixed; bottom:0`, a to se meri prema layout viewport-u koji se
+      pri otvaranju tastature NE smanjuje — panel je stajao od 557 do 844 px,
+      a tastatura pokriva od ~540 naniže. Sada stoji na `bottom:var(--kb)`, gde
+      `--kb` računa `visualViewport` u `app.js`, i sveden je na jedan red koji
+      se pomera u stranu — traka iznad tastature, kao traka predloga same
+      tastature. Strelica je razvija u pun list.
+
+   3. DODIRNI CILJEVI. Izmereno 267 elemenata nižih od 36 px, među njima i
+      filteri i prebacivač pisma. Preporuka (Apple HIG i Material) je 44 px.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 1. TASTATURA PODIŽE SVE ŠTO STOJI NA DNU ─────────────────────────────
+   `--kb` postavlja `app.js` iz `visualViewport`; kad tastature nema, vredi 0
+   i ništa se ne pomera. Važi svuda gde se panel i inače lepi za dno (do 900 px)
+   jer i tablet ima tastaturu na ekranu — ali se time NIŠTA ne pomera dok
+   tastatura nije otvorena, pa se zatečeni izgled ne menja. */
+@media(max-width:900px){
+  body.notes-typing .notepad-layout .note-rhymes{bottom:var(--kb,0px)}
+}
+
+/* ── 2. TRAKA SA RADNJAMA NAD REČJU ───────────────────────────────────────
+   Pravi je `app.js` samo na telefonu, pa je van telefona nema u dokumentu.
+   Stilovi stoje izvan medijskog upita da bi bili tačni i u trenutku okretanja
+   telefona, dok JS ne stigne da je zatvori. */
+.chip-actions{
+  position:absolute;z-index:90;display:flex;gap:.15rem;
+  background:var(--menu-bg);border-radius:16px;padding:.3rem;
+  box-shadow:0 12px 32px rgba(90,63,208,.26),0 2px 8px rgba(90,63,208,.16);
+  animation:ca-ulaz .16s cubic-bezier(.2,.9,.3,1.25);
+}
+.chip-actions[hidden]{display:none}
+/* strelica pokazuje na sredinu reči i kad je traka pomerena uz ivicu ekrana */
+.chip-actions::after{
+  content:'';position:absolute;top:100%;left:var(--strela,50%);
+  transform:translateX(-50%);width:0;height:0;
+  border:7px solid transparent;border-top-color:var(--menu-bg);
+}
+.chip-actions.ispod::after{
+  top:auto;bottom:100%;
+  border-top-color:transparent;border-bottom-color:var(--menu-bg);
+}
+@keyframes ca-ulaz{from{opacity:0;transform:translateY(4px) scale(.94)}to{opacity:1;transform:none}}
+.ca-btn{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1rem;
+  min-width:60px;min-height:50px;padding:.25rem .3rem;
+  border:0;background:transparent;border-radius:12px;
+  font:inherit;font-weight:600;color:var(--ink-soft);cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.ca-btn:active{background:var(--menu-hover)}
+.ca-btn .ca-ic{font-size:1.15rem;line-height:1;color:var(--lavender-deep)}
+.ca-btn .ca-txt{font-size:.66rem;letter-spacing:.01em;white-space:nowrap}
+.ca-btn.on .ca-ic{color:var(--rose-deep)}
+@media(prefers-reduced-motion:reduce){.chip-actions{animation:none}}
+
+/* Strelica koja razvija traku sa rimama — postoji samo na telefonu. */
+.nr-toggle{display:none}
+
+@media(max-width:560px){
+
+  /* ── UVOD: manje praznog hoda do prve rime ──────────────────────────────
+     Iznad rezultata je stajalo 1.070 px sadržaja. Logo se NE dira (pravilo
+     8a) — skraćuje se samo naslovni blok, i to veličinom slova, ne brisanjem. */
+  .hero{margin-bottom:.85rem}
+  .hero h1{font-size:1.16rem;line-height:1.3;margin-bottom:.3rem}
+  .hero p{font-size:.9rem;line-height:1.45}
+
+  /* ── DODIRNI CILJEVI: 44 px ─────────────────────────────────────────────
+     Prag je preporuka i Apple HIG-a i Material-a. Izmereno pre izmene:
+     prebacivač pisma 34 px, filter slogova 31 px, kvačice 17 px. */
+  .tabs a,.tabs button{
+    min-height:44px;display:inline-flex;align-items:center;
+    padding:.5rem 1.05rem;
+  }
+  .script-toggle button{min-height:40px;padding:.5rem 1rem}
+  .dark-toggle{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+  .syl-filter button{min-height:40px;padding:.45rem .95rem;font-size:.9rem}
+  .loose-toggle{min-height:40px;padding:.4rem .8rem}
+  .loose-toggle input{width:1.15rem;height:1.15rem}
+  button.primary,button.ghost{min-height:48px}
+  .filters{gap:.5rem .7rem;margin-bottom:1rem}
+
+  /* ── LEGENDA ────────────────────────────────────────────────────────────
+     Na telefonu ima dve stavke umesto pet (tekst menja `renderLegend`), jer
+     ikonica u pilули više nema — legenda kaže kako se do njih dolazi. */
+  .res-legend{padding:.5rem .7rem;margin-bottom:.8rem;font-size:.8rem;gap:.3rem .8rem}
+
+  /* ── RIME U MREŽI OD 2–3 KOLONE ─────────────────────────────────────────
+     `auto-fill` sa najmanjom kolonom od 104 px daje: na 320 px ekrana dve
+     kolone, na 390 i 430 px tri. Nikad jednu, nikad četiri.
+     Znak `>` je bitan: čipovi ubačeni USRED PASUSA na tematskim stranama
+     („Evo reči za koje se rime najviše traže: …") nisu deca `.results`, pa
+     njih ovo ne dira — isti razlog zbog kog je `.chip` `inline-flex`. */
+  .results{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(104px,1fr));
+    gap:.5rem;align-content:start;
+  }
+  .results > *:not(.chip){grid-column:1/-1;width:auto}
+  .results > .chip{
+    display:flex;flex-wrap:nowrap;justify-content:center;align-items:center;
+    gap:.3rem;min-height:46px;padding:.55rem .5rem;max-width:none;
+    white-space:nowrap;overflow:hidden;
+    -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+  }
+  /* Reč se ne prelama: prelomljen čip razvukao bi CELU vrstu mreže i svaki
+     njegov sused dobio bi duplo veću pilulu. Duga reč umesto toga uzima dve
+     ili tri kolone — meri je `izmeriCipove()` u `app.js`. */
+  .results > .chip .word{
+    font-size:1rem;min-width:0;white-space:nowrap;
+    overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal;
+  }
+  .results > .chip .syl{font-size:.65rem;padding:.06rem .38rem}
+  .results > .chip .mini{display:none}
+  .results > .chip.chip-siri{grid-column:span 2}
+  .results > .chip.chip-najsiri{grid-column:1/-1}
+  .results > .chip.chip-izabran{
+    border-color:var(--rose-deep);
+    box-shadow:0 0 0 3px rgba(79,99,224,.18),var(--shadow-sm);
+  }
+  /* dodir mora nešto da uradi odmah, i pre nego što se traka otvori */
+  .results > .chip:active{transform:scale(.97)}
+
+  /* ── OBAVEŠTENJA IZNAD TASTATURE ────────────────────────────────────────
+     Poruka „kopirano: ljubav" je stajala 2 rem od dna, dakle iza tastature. */
+  .toast,.loading{bottom:calc(2rem + var(--kb,0px))}
+
+  /* ═════════ BELEŽNICA ═════════
+     Cilj: da izgleda kao alat za pisanje, a ne kao veb-formular. Manje okvira,
+     manje boje, više prostora za stih. Ništa se ne uklanja — samo se stišava
+     ono što nije tekst. */
+
+  /* Naslov pesme — kao u aplikaciji za beleške: bez kutije, veliki i tih. */
+  .notepad-title{
+    border:0;background:transparent;box-shadow:none;
+    text-align:left;font-size:1.3rem;font-weight:700;
+    padding:.35rem .25rem .4rem;margin-bottom:.1rem;min-height:44px;
+  }
+  .notepad-title:focus{border:0;box-shadow:none}
+  /* bez `opacity` — u tamnom režimu je `--muted` (#8a80b0) na #121018 već pri
+     dnu čitljivosti, a prigušenje ga je spuštalo ispod nje */
+  .notepad-title::placeholder{font-weight:600}
+
+  /* Sam list — mekša senka, tiši žleb. Ljubičasti gradijent u žlebu je vukao
+     pogled na brojeve umesto na stih. */
+  .notepad{
+    border-radius:18px;
+    box-shadow:0 1px 2px rgba(90,63,208,.08),0 10px 26px rgba(90,63,208,.10);
+  }
+  .notepad .gutter{
+    background:transparent;
+    border-right:1px solid var(--line);
+    color:var(--muted);
+  }
+  .notepad .gutter-row .g-letter{color:var(--lavender-deep)}
+  .notepad-text{padding:1rem .9rem}
+
+  /* Traka radnji — pilule umesto podvučenih linkova. Sedam podvučenih plavih
+     reči u nizu ne izgleda kao alat nego kao futer. Redosled i tekst ostaju
+     isti, menja se samo oblik i visina cilja za prst.
+
+     Selektor je namerno `.hint .link-btn`, bez ijednog `id`-a: postojeće
+     pravilo za 44 px bilo je vezano za `#panel-beleznica`, pa se NIJE
+     primenjivalo ni na /pisanje-pesama/ (tamo je `.landing-tool`) ni na tab
+     „Omiljene" (`#copyFavs`, `#clearFavs`). Izmereno na obe: 23 px. */
+  .hint .link-btn,
+  .poem-foot .link-btn{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-height:44px;padding:0 .85rem;margin:.1rem .12rem;
+    text-decoration:none;border-radius:13px;
+    background:var(--card-bg);border:1px solid var(--line);
+    color:var(--ink-soft);font-size:.86rem;font-weight:600;
+    box-shadow:var(--shadow-sm);white-space:nowrap;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .hint .link-btn:active,
+  .poem-foot .link-btn:active{background:var(--menu-hover)}
+  /* dugme „prebaci u brojač slogova" pravi JS na dnu svake pesme u Klasicima —
+     izmereno 164×21 px, dakle upola niže od praga za prst */
+  .poem-foot .link-btn{margin-top:.5rem}
+
+  /* Slovo šeme rime uz stih u Klasicima je dugme (vodi na rime za tu reč), a
+     bilo je 24×18 px. Pun prag od 44 px ovde nije moguć bez razmicanja stihova
+     — razmak između stihova je 24,5 px — pa se cilj širi koliko se može, a da
+     se pesma i dalje čita kao pesma. */
+  /* `align-items:center`, ne `baseline`: sa poravnanjem po osnovnoj liniji viši
+     element razvuče ceo red — sa 30 px slovom red je narastao na 54 px i pesma
+     je izgledala razmaknuto. */
+  .verse{align-items:center}
+  .verse .vrhyme{
+    min-width:36px;padding:.34rem 0;line-height:1.4;
+    -webkit-tap-highlight-color:transparent;
+  }
+  /* Dva dugmeta brišu tuđi rad — pesmu i spisak omiljenih. Moraju da se
+     razlikuju od ostalih, jer u nizu jednakih pilula prst lako promaši. */
+  .hint #clearNotes.link-btn,
+  .hint #clearFavs.link-btn{
+    color:#b3372a;border-color:rgba(179,55,42,.34);
+  }
+  .hint #toggleMeter.link-btn[aria-pressed="true"]{
+    background:linear-gradient(95deg,var(--lavender),var(--rose));
+    color:#fff;border-color:transparent;
+  }
+  .hint-actions{gap:.1rem;padding-bottom:.2rem}
+
+  /* ── SAČUVANA REČ SE VIDI I BEZ OTVARANJA TRAKE ────────────────────────
+     Ikonice su sklonjene iz pilule, pa bez ovoga korisnik nikako ne bi znao
+     koje je reči već sačuvao — morao bi da kucne na svaku. Puno srce ostaje
+     kao oznaka; ono nije dugme (dodir na pilulu svakako otvara traku). */
+  .results > .chip .mini.fav.on{
+    display:inline-flex;pointer-events:none;
+    min-width:auto;min-height:auto;padding:0;
+    font-size:.82rem;color:var(--rose-deep);
+  }
+
+  /* ── BLEĐENJE DESNE IVICE KOD REDOVA KOJI SE POMERAJU ───────────────────
+     Klasu `red-do-kraja` skida `app.js` kad se dopomera do kraja, da poslednje
+     dugme ne ostane izbledelo. Isti postupak koji već koristi traka tabova. */
+  .hint-actions:not(.red-do-kraja),
+  body.notes-typing .note-rhymes .results:not(.red-do-kraja){
+    -webkit-mask-image:linear-gradient(90deg,#000 88%,transparent 99.5%);
+    mask-image:linear-gradient(90deg,#000 88%,transparent 99.5%);
+  }
+
+  /* Legenda oznaka ispod lista */
+  .notepad-legend{gap:.2rem .8rem;font-size:.74rem;margin-top:.5rem}
+
+  /* ── PANEL SA RIMAMA DOK SE PIŠE = TRAKA IZNAD TASTATURE ────────────────
+     Skupljen: jedan red koji se pomera u stranu, ~78 px. Razvijen (strelica):
+     pun list do 44 % vidljive visine. `dvh` prati tastaturu, `vh` ne bi. */
+  body.notes-typing .notepad-layout .note-rhymes{
+    max-height:none;overflow:visible;
+    padding:.3rem .7rem calc(.45rem + env(safe-area-inset-bottom,0px));
+    border-radius:18px 18px 0 0;
+    border:0;border-top:1px solid var(--line);
+    box-shadow:0 -8px 28px rgba(90,63,208,.20);
+  }
+  body.notes-typing .note-rhymes h4{
+    display:flex;align-items:center;justify-content:space-between;gap:.5rem;
+    margin:0 0 .25rem;font-size:.68rem;
+  }
+  body.notes-typing .note-rhymes .nr-toggle{
+    display:inline-flex;align-items:center;justify-content:center;
+    flex:0 0 auto;width:44px;height:30px;margin:-.2rem -.35rem -.2rem 0;
+    border:0;background:transparent;cursor:pointer;
+    color:var(--lavender-deep);font-size:1.05rem;line-height:1;
+    transition:transform .18s ease;-webkit-tap-highlight-color:transparent;
+  }
+  body.notes-typing .note-rhymes .results{
+    display:flex;flex-wrap:nowrap;gap:.4rem;
+    overflow-x:auto;overflow-y:hidden;padding-bottom:.2rem;
+    -webkit-overflow-scrolling:touch;
+    /* bez ovoga mobilni Chrome računa širinu STRANE po sadržaju reda i ceo
+       sajt se „odzumira" — isti razlog kao kod `.hint-actions` */
+    contain:inline-size;box-sizing:border-box;
+    scroll-snap-type:x proximity;
+  }
+  body.notes-typing .note-rhymes .results > .chip{
+    flex:0 0 auto;min-height:42px;padding:.45rem .9rem;font-size:.95rem;
+    scroll-snap-align:start;
+  }
+  body.notes-typing .note-rhymes .nr-more{display:none}
+
+  body.notes-typing .note-rhymes.nr-open{max-height:44dvh;overflow-y:auto}
+  body.notes-typing .note-rhymes.nr-open .results{
+    flex-wrap:wrap;overflow-x:visible;scroll-snap-type:none;
+  }
+  body.notes-typing .note-rhymes.nr-open .nr-toggle{transform:rotate(180deg)}
+  body.notes-typing .note-rhymes.nr-open .nr-more{display:block;margin-top:.5rem}
+  body.notes-typing .note-rhymes.nr-open h4{position:sticky;top:0;background:inherit;z-index:1}
+
+  /* Mesto ispod pesme da poslednji stih može da se dovuče iznad trake i
+     tastature. Radi na OBE strane sa beležnicom — `#panel-beleznica` postoji
+     samo na početnoj, `.notepad-layout` na obe. */
+  body.notes-typing #panel-beleznica{padding-bottom:0}
+  body.notes-typing .notepad-layout{padding-bottom:calc(var(--kb,0px) + 128px)}
+
+  /* Panel kad se NE piše (editor bez fokusa) — običan blok ispod pesme */
+  .note-rhymes{max-height:38dvh;overflow-y:auto}
+}
+
+/* Tamni režim — tiši žleb i pilule u traci beležnice */
+@media(max-width:560px){
+  body.dark-mode .notepad .gutter{background:transparent;color:var(--muted)}
+
+  /* BELI OKVIR OKO PILULE U TAMNOM REŽIMU.
+     `.chip` ima `border:2px solid #fff`, a tamni režim menja samo pozadinu —
+     pa je oko svake „dobre rime" i oko svake rime u traci beležnice stajao
+     BEO prsten debeo 2 px na podlozi #1e1a2e. Izmereno: `rgb(255,255,255)`.
+     „Najbolje rime" to nisu imale jer ih pokriva `.strong-tier` (butter), pa
+     se razlika videla kao dva različita izgleda u istom spisku.
+     Ovde se popravlja SAMO telefon; isto stoji i na računaru i tabletu, ali
+     tamo se po dogovoru ništa ne dira — prijavljeno vlasnici na odluku. */
+  body.dark-mode .results > .chip,
+  body.dark-mode .note-rhymes .chip{border-color:var(--line)}
+  body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
+  body.dark-mode .hint .link-btn,
+  body.dark-mode .poem-foot .link-btn{
+    background:#241f38;border-color:var(--line);color:var(--ink-soft);
+  }
+  /* Selektor mora da nosi i `.hint` i `id`, da nadjača svetlo pravilo
+     `.hint #clearNotes.link-btn` (1 id + 2 klase). Sa slabijim selektorom je
+     u tamnom režimu ostajala tamnocrvena #b3372a na podlozi #241f38 —
+     izmereno 2,4:1, dakle jedva vidljivo. */
+  body.dark-mode .hint #clearNotes.link-btn,
+  body.dark-mode .hint #clearFavs.link-btn{
+    color:#ff9b8f;border-color:rgba(255,155,143,.34);
+  }
+  body.dark-mode .chip-actions{box-shadow:0 12px 32px rgba(0,0,0,.5)}
+  body.dark-mode .results > .chip.chip-izabran{box-shadow:0 0 0 3px rgba(165,184,248,.22),var(--shadow-sm)}
+}
+
+/* ── DODIR NEMA „PRELAZAK MIŠEM" ────────────────────────────────────────────
+   Na dodirnom ekranu `:hover` OSTAJE na poslednjoj dodirnutoj pilули dok se ne
+   dodirne nešto drugo. Pošto sada dodir znači „izabrao sam ovu reč" i pilula
+   dobija svoj prsten (`.chip-izabran`), zaostali hover je davao DVE označene
+   reči odjednom — jednu stvarno izabranu, jednu samo poslednju dodirnutu. */
+@media(max-width:560px) and (hover:none){
+  .results > .chip:hover{transform:none;border-color:#fff}
+  .strong-tier .results > .chip:hover{border-color:var(--butter)}
+  body.dark-mode .results > .chip:hover{border-color:var(--line)}
+  body.dark-mode .strong-tier .results > .chip:hover{border-color:var(--butter)}
+  .results > .chip.chip-izabran:hover{border-color:var(--rose-deep)}
+  .note-rhymes .chip:hover{transform:none;box-shadow:var(--shadow-sm)}
+}
+
+/* Telefon položen na stranu (visina do 480 px, širina do 932 px — tablet ima
+   i u pejzažu bar 744 px visine, pa ovde ne ulazi). Traka sa rimama tada mora
+   da bude još niža, jer tastatura pojede skoro ceo ekran. */
+@media(max-height:480px) and (max-width:932px){
+  body.notes-typing .notepad-layout .note-rhymes{bottom:var(--kb,0px)}
+  body.notes-typing .note-rhymes.nr-open{max-height:52dvh}
 }

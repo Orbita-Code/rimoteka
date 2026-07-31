@@ -336,6 +336,19 @@ Test proverava, u pravom Chromiumu:
 13. **SEO** — tačno jedan `h1` na `/`, `/rimovanje-reci/` i `/rime-za/ljubav/`
 14. **Konzola** — nula grešaka kroz ceo test
 
+15. **Mobilna verzija** (sekcija 30, od 31.07.2026) — sa **lažiranom tastaturom** od 336 px:
+    panel sa rimama u beležnici mora ceo da bude iznad nje, rime moraju stajati 2–3 u redu,
+    dodir na reč mora otvoriti traku sa radnjama, u igri se moraju videti polje, „Proveri"
+    i poruka o tačnosti
+16. **Oznake uz stih** (sekcija 31) — broj slogova i slovo šeme rime moraju stajati
+    uz SVOJ stih, za šest oblika unosa (`<br>`, `<div>`, mešano, prazan red u sredini
+    i na kraju) i na dve širine
+
+> **Tastatura se u testu PRAVI ručno** — Playwright je nema. Pet linija:
+> `visualViewport.height` se smanji i pošalje se `resize`. Bez toga cela klasa
+> bagova ostaje nevidljiva: sekcija 26 je prolazila, a rime u beležnici su na
+> pravom telefonu bile 100% ispod tastature.
+
 Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — lokalno prošlo ne znači da je deploy prošao.
 
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
@@ -406,14 +419,26 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Stanje na 30.07.2026 (usklađeno pred audit 31.07.): 3 otvorena nalaza, ocena 6,9/10.**
+**Stanje na 31.07.2026 (posle mobilne sesije): 3 otvorena nalaza, ocena 6,9/10** (nova
+ocena se računa u prvom sledećem punom auditu).
+
+> **31.07.2026 — mobilna verzija odrađena u celini (M5–M15).** Prijava vlasnice
+> („ponuđene reči za rimu se ne vide od tastature") potvrđena merenjem i
+> zatvorena, uz još osam nalaza nađenih usput. Test **372 → 422 provere**
+> (nove sekcije 30 i 31). Detalji: `AUDIT/NALAZI-OTVORENI.md`, odeljak
+> „ZATVORENO 31.07.2026". Dve stvari čekaju odluku vlasnice — v. tamo napomenu
+> o M8 i M12.
 
 | # | Nalaz | Status |
 |---|---|---|
-| **F1** | `frekvencija.json` pogrešno izvučen — rangiranje rima delimično pogrešno | **prvo po redu**; blokira P10 |
-| **P10** | strane reči birane po abecedi (1.577 od 1.988 na „a") | čeka odluku vlasnice — menja 1.577 URL-ova |
-| **P11** | hub `/rime-za/` je zid od 1.988 linkova | isti uzrok kao P10 |
-| **P16** | strana skače 50 px pri učitavanju (CLS 0,2819 → 0,0053) | popravljen, **nepotvrđen** — audit 31.07. meri desetak puta |
+| **R1-ostatak** | šest reči čeka presudu vlasnice (`gojence`, `gojenac`, `grnce`, `grne`, `krol`, `klube`) | čeka odluku — spisak u `AUDIT/R1-reci-za-odluku.md` |
+| **J1-ostatak** | 277 spornih „ijekavskih" oblika koje Matica ima kao standardne | čeka odluku — spisak u `AUDIT/J1-sporne-reci.md` |
+| **P11** | hub `/rime-za/` je zid od 2.000 linkova | čeka odluku o izgledu (po slovima / po temama) |
+
+> **Ova tabela je do 31.07. nabrajala F1, P10 i P16 kao otvorene.** Sva tri su
+> zatvorena 30.07. i to piše u `AUDIT/NALAZI-OTVORENI.md` — ovde nije bilo
+> preneto. Isti propust koji je opisan dva pasusa niže, drugi put. **Izvor
+> istine je spisak nalaza; ovde stoji samo prepis i mora se menjati zajedno sa njim.**
 
 > **Ovaj odeljak je do 30.07. tvrdio „7,2/10, 33 otvorena, 6 kritičnih".** To je bilo
 > stanje 28.07., **pre** nego što je sesija 29.07. zatvorila 60 nalaza — pa je svaka

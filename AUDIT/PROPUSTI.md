@@ -7,6 +7,91 @@
 
 ---
 
+## 31.07.2026 — tastatura na telefonu zaklanjala rime, a test je merio panel BEZ tastature
+
+### Šta je propušteno
+
+| Bag | Ozbiljnost | Ko ga je našao |
+|---|---|---|
+| U beležnici se ponuđene rime **ne vide od tastature** na telefonu | visoko | **vlasnica** |
+| Rime na tabu „Rimovanje reči" stoje **jedna ispod druge** — spisak od 12.524 px | visoko | **vlasnica** |
+| Na `/pisanje-pesama/` su dugmad beležnice visoka **23 px** (na početnoj 44) | srednje | sesija, pri popravci |
+| U tamnom režimu „dobre rime" imaju **beo okvir** 2 px (`rgb(255,255,255)`) | nisko | sesija, merenjem |
+| U igri polje za unos, „Proveri" i poruka o tačnosti padaju **pod tastaturu** | srednje | sesija, merenjem |
+
+---
+
+### UZROK 1 — test je merio panel u stanju u kome bag ne postoji
+
+Sekcija 26 testa je od 29.07. proveravala mobilnu beležnicu i **prolazila**. Ono što
+je merila bilo je tačno: panel se prikači za dno ekrana, editor je iznad pregiba,
+strana se ne širi. Ono što **nije** merila: šta se desi kad se otvori tastatura.
+
+Playwright nema tastaturu na ekranu. Fokus na polje ne menja ništa u rasporedu, pa je
+test video panel na 557–844 px i zaključio „stoji na dnu, u redu". Na pravom telefonu
+tastatura pokriva sve od ~508 px naniže — panel je bio **100% ispod nje**.
+
+Uzrok u kodu je poznat i dokumentovan: `position:fixed; bottom:0` meri se prema
+**layout viewport-u**, koji se pri otvaranju tastature ne smanjuje (podrazumevano
+`interactive-widget=resizes-visual`). Ali da bi se to videlo, tastatura mora da
+postoji u merenju.
+
+> **PRAVILO 47: stanje koje alat ne ume da napravi mora se NAPRAVITI RUČNO, ne
+> preskočiti.** Tastatura na ekranu se lažira tako što se `visualViewport.height`
+> smanji i pošalje `resize` — pet linija. Provera koja se ne izvodi zato što je
+> „alat ne podržava" je provera koje nema, a u izveštaju izgleda kao da je ima.
+> Isto važi za sve što menja vidljivi deo ekrana: tastatura, adresna traka,
+> deljeni ekran, uvećanje prstima.
+
+> **PRAVILO 48: `position:fixed` na telefonu se NE proverava po CSS-u nego po
+> koordinatama u odnosu na vidljivi deo.** Pitanje nije „ima li element
+> `bottom:0`" nego „gde mu je donja ivica u odnosu na `visualViewport`". Prvo je
+> uvek tačno, drugo je ono što korisnik vidi.
+
+---
+
+### UZROK 2 — merena je širina strane, a ne koliko REDOVA čini spisak
+
+Test je proveravao da se strana ne širi preko ekrana (`scrollWidth <= innerWidth`) i
+to je prolazilo. Ali čip od 228 px u ekranu od 390 px **ne izlazi** iz ekrana — samo
+u red staje jedna reč. Spisak od 195 rima postaje **12.524 px**, dakle 15 ekrana
+skrolovanja, i tu nijedna postojeća provera nije imala šta da prijavi.
+
+> **PRAVILO 49: kod spiskova se meri GUSTINA, ne samo da li se prelivaju.**
+> Koliko stavki stane u red i kolika je ukupna visina spiska — to su brojevi koji
+> govore da li je nešto upotrebljivo. „Ne izlazi iz ekrana" je najniži prag, ne cilj.
+
+---
+
+### UZROK 3 — pravilo vezano za `id` jedne strane, a ista stvar stoji na tri
+
+Popravka od 29.07. („dugmad beležnice moraju biti 44 px") napisana je kao
+`#panel-beleznica .hint .link-btn`. Ali beležnica postoji i na `/pisanje-pesama/`
+(tamo je `.landing-tool`, nema tog `id`-a), a ista klasa dugmadi stoji i u tabu
+„Omiljene". Na obe je ostalo **23 px** — i to na strani koja SLUŽI za pisanje pesama.
+
+Test to nije uhvatio jer je meru dugmadi proveravao samo na početnoj strani.
+
+> **PRAVILO 50: pre nego što se popravka veže za `id`, prebroj gde sve ta stvar
+> postoji** (`grep` za klasu kroz `public/` i `build/`). Ako se pojavljuje na više
+> mesta, selektor ide na **klasu**. Popravka koja radi na jednoj od tri strane je
+> gora od nepopravljenog, jer se u spisku vodi kao zatvorena.
+
+> **PRAVILO 51: provera se pušta na SVIM stranama gde funkcija postoji**, ne samo
+> na onoj na kojoj je bag prvi put viđen.
+
+---
+
+### Šta je urađeno da se klasa zatvori
+
+- Sekcija **30** testa (26 provera) lažira tastaturu od 336 px na `/`,
+  `/pisanje-pesama/` i `/igra-rimovanja/` i meri koordinate prema `visualViewport`.
+- Puštena protiv starog koda: **pada 24 od 26** provera. Panel je tamo išao do
+  844 px pri tastaturi koja počinje na 508.
+- Meri se i gustina spiska: reči po redu i ukupna visina.
+
+---
+
 ## 29.07.2026 — audit od 39 agenata propustio 3 baga koja je vlasnica našla ručno
 
 ### Šta je propušteno
@@ -777,3 +862,129 @@ drugi font. Provera je puštena sa Fredokom i **nabrojala tačno 26 slova koja f
 > **PRAVILO 50:** Provera da nešto POSTOJI nije provera da RADI. Ovo je isti obrazac kao
 > nalaz iz 28.07. („test obilazi 6 od 2.010 strana i gleda da element postoji"). Kad se
 > piše provera, pitanje je: *šta bi se pokvarilo a da ova provera i dalje prođe?*
+
+---
+
+### 14. Menjao sam tekst — a pomerio raspored strane (CLS 0,0026 → 0,105)
+
+**Šta se desilo.** 31.07.2026, u prolazu kroz 66 izmena teksta, prepisan je uvodni pasus
+strane `/rimovanje-reci/`. Tekst je bio tačan, kraći od starog i bolje napisan. Pre-deploy
+test je pao na jedinoj proveri: **CLS 0,1114** (granica 0,1).
+
+**Zašto.** Ispod uvoda stoji blok od 24 reči-dugmića, u **istom pasusu**. Dok se strana
+učitava rezervnim fontom, uvod staje u tri reda; kad stigne Rubik, dobije **četvrti red** —
+i ceo blok ispod skoči **43 px**. Tekst je bio tačno na granici preloma.
+
+**Kako je dokazano da nije šum** (pravilo 5 — jedan broj nije dokaz):
+
+| Gde | Kod | Sredina od 10 merenja |
+|---|---|---|
+| produkcija | stari tekst | **0,0026** |
+| lokalno | novi tekst | **0,105** — svih 10 preko granice |
+
+Zatim je izmereno **koji element skače**, a ne nagađano: `PerformanceObserver` nad
+`layout-shift` sa `sources` pokazao je `<a class="chip">` sa `y 592 → 635`. Popravka je
+skraćenje uvoda za jednu rečenicu; posle nje raspon **0,0021–0,0026**, dakle bolje i od
+produkcije (gde je najgore merenje bilo 0,1333).
+
+> **PRAVILO 51:** **Izmena teksta JESTE izmena rasporeda strane.** Tekst koji staje u N
+> redova sa rezervnim fontom, a u N+1 sa pravim, pomera sve ispod sebe. Posle svake veće
+> izmene teksta pušta se `node test/meri-cls.mjs`, ne samo `predeploy`. Ovo se ne vidi
+> čitanjem, ma koliko puta pročitao rečenicu naglas.
+>
+> **PRAVILO 52:** Kad CLS padne, **ne nagađaj koji element skače** — izmeri ga.
+> `new PerformanceObserver(l => …).observe({type:'layout-shift', buffered:true})` uz
+> `entry.sources` daje tag, klasu i tačno `previousRect.y → currentRect.y`. Traje minut,
+> a zamenjuje pola sata pogađanja. Merenje mora biti **u istim uslovima kao test**:
+> `meri-cls.mjs` koristi podrazumevani prozor (1280 px), pa merenje na 390 px pokaže
+> 0,0016 i lažno smiri — isti kvar, drugi prozor, drugi zaključak.
+>
+> **PRAVILO 53:** Tekst i blok dugmića **ne treba da žive u istom pasusu**. Dok su
+> zajedno, svaka buduća izmena rečenice ponovo može da pomeri blok. Ovo je zaobiđeno
+> skraćenjem, nije rešeno — pravo rešenje je izdvojiti dugmiće u svoj element.
+
+**Uz to, dve manje greške iz istog prolaza — obe uhvaćene testom, ne okom:**
+
+1. Placeholder je napisan kao „upiši reč — npr. ljubav". Provera ćirilice traži da posle
+   preslovljavanja ostanu **samo ćirilična slova**, a crta „—" nije slovo i nije bila u
+   spisku znakova koji se uklanjaju. Ispravljeno u „upiši reč, npr. ljubav" — zarez se
+   uklanja, a i tipografski je bolje.
+   > **PRAVILO 54:** Kad se menja tekst koji se **preslovljava u ćirilicu**, dozvoljeni su
+   > samo slova, razmaci, zarezi, tačke i zagrade. Crte, navodnici i strelice obaraju proveru.
+
+2. Provera „predikat se slaže sa brojem" tražila je rečenicu koja je prepisana. Napisana
+   je nova koja hvata **istu klasu greške** (oblik „1 reč" / „86 reči" po poslednjoj cifri).
+   Prvi pokušaj regexa bio je `/(\d+)\s+(reč|reči)\b/` — i davao je **tačno obrnute
+   rezultate**: u JS-u je `\b` definisano nad `[A-Za-z0-9_]`, pa „č" važi kao NE-slovo i
+   `reč\b` pogađa i unutar `reči`.
+   > **PRAVILO 55:** U JS regexu **nikad `\b` uz srpska slova**. Koristi se `(?!\p{L})` uz
+   > zastavicu `u`, a duži oblik ide **prvi** u alternaciji (`reči|reč`).
+   >
+   > **PRAVILO 56:** Nova provera se pušta i na **pokvarenom** ulazu. Ova je puštena na
+   > osam slučajeva — četiri tačna i četiri namerno pogrešna — i tek tada se videlo da
+   > vraća obrnut rezultat. Provera koja ne padne ni na čemu ne čuva ništa.
+
+---
+
+### 15. Menjao sam DELOVE rečenica — i napravio šest besmislica na sajtu
+
+**Šta se desilo.** 31.07.2026, u istom prolazu kroz izmene teksta, radio sam zamene po
+fragmentu: nađem početak rečenice, zamenim ga novim, idem dalje. Stari **rep rečenice
+je ostao** i zalepio se za nov početak. Vlasnica je pročitala na telefonu:
+
+> „Rime za pesmu roditeljima: upiši majka, tata, baka ili deda i dobiješ rime, uz svaku
+> broj slogova. **Pišeš li, ovde ćeš pronaći rime koje izražavaju ljubav i zahvalnost.**"
+
+Njeno pitanje je bilo tačno: *„zašto stoji zarez, kako je to dobar izraz?"*
+
+**Nije bilo jedno mesto — bilo ih je šest**, i sva su otišla u generator:
+
+| Strana | Šta je stajalo |
+|---|---|
+| roditelji | „Pišeš li, ovde ćeš pronaći…" — rečenica bez smisla |
+| životinje | dečji režim objašnjen **dvaput u istom pasusu** |
+| priroda | ista lista reči (sunce, kiša, sneg) **dvaput u dve rečenice** |
+| nova godina | „ljubav i **nova početka**" — greška koju je izmena trebalo da ukloni |
+| deca | dva saveta spojena, sa „četiri" dvaput u tri reda |
+| **pesmu** | **„rime za ljubav, srce, duša, sreća"** — a to nisu rime za *ljubav* |
+
+Poslednje je **isti nalaz T2 zbog kog je ceo prolaz i pokrenut** — propušten sat vremena
+posle nego što je opisan kao najgora greška na sajtu.
+
+> **PRAVILO 57:** **Zamena dela rečenice nije dozvoljena.** Menja se **cela rečenica ili
+> ceo pasus, od tačke do tačke**. Skripta koja javi „pogodilo tačno jednom" dokazuje samo
+> da je našla niz znakova — ne i da je ono što ostane srpski jezik.
+>
+> **PRAVILO 58:** Posle svake izmene teksta **odštampaj rezultat i pročitaj ga**, ne izvor.
+> Sve greške iz ove tabele vide se za deset sekundi u ispisu gotovog teksta, a nijedna se
+> ne vidi u `git diff`-u, jer diff pokazuje **šta si menjao**, a ne **šta je ostalo**.
+>
+> **PRAVILO 59:** Kad se pravi popravka za jednu klasu greške (ovde: reči navedene kao
+> rime a nisu), **pretraži CEO fajl za tu klasu**, ne samo mesta iz izveštaja. Nalaz je
+> spisak primera, nikad spisak svih pojava.
+
+### 16. Ista loša konstrukcija ponovljena 19 puta jer se kopirala
+
+**Šta se desilo.** Vlasnica: *„za ovu rečenicu sam rekla da pre `uz` ne sme da ide zarez"*.
+Pisao sam „…i dobiješ rime**, uz svaku** broj slogova" — nabrajanje bez glagola, zalepljeno
+zarezom. Nije rečenica. A pošto je zvučalo sažeto i „informativno", **kopirao sam je na 19
+mesta**: u devet uvoda tematskih strana, u tri opisa za Google, u šablon koji stoji na
+~2.000 generisanih strana i u šest odeljaka.
+
+Ispravljeno u punu rečenicu: „…i dobiješ rime. **Uz svaku piše** broj slogova i šta reč znači."
+
+Uz to je jedna od tih ispravki napravila **tri „i" u nizu** („slovo **i** broj slogova **i**
+prikaz ritma") — uhvaćeno samo zato što je rezultat odštampan i pročitan, po pravilu 58.
+
+> **PRAVILO 60:** **Telegrafski stil nije sažetost.** Podaci nabacani i odvojeni zarezom
+> („rime, uz svaku broj slogova") čitaju se kao specifikacija, ne kao rečenica. Svaka
+> rečenica na sajtu ima **glagol**. Ako ga nema — to nije rečenica nego stavka spiska,
+> i onda se i piše kao spisak.
+>
+> **PRAVILO 61:** Kad se nađe loša formulacija, **prebroj koliko puta postoji u projektu
+> pre nego što je popraviš** (`grep -c`). Tekst se kopira; greška u obrascu nikad nije na
+> jednom mestu. Ovde: jedna prijava vlasnice → 19 mesta.
+>
+> **PRAVILO 62:** **Prijava vlasnice o jeziku je konačna.** Ona je izvorni govornik i
+> čita proizvod kao čovek; ja čitam kao onaj ko je tekst napisao i vidim šta sam hteo da
+> napišem, a ne šta piše. Ne brani se napisano — prepiše se.

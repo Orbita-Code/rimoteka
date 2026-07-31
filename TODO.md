@@ -1,53 +1,133 @@
 # TODO — Rimoteka (sajt i alati)
 
-> Rečnik ima svoj spisak u `TODO-RECNIK.md`. Ovde je sve ostalo.
-> Poslednje ažuriranje: 29. jul 2026.
+> Rečnik ima svoj spisak u `TODO-RECNIK.md`, tekstovi na sajtu u `TODO-TEKSTOVI.md`.
+> Ovde je sve ostalo.
+> Poslednje ažuriranje: 31. jul 2026.
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 29.07.2026 (kasno uveče, šesta sesija)
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 31.07.2026 (osma sesija)
 
 | | |
 |---|---|
-| **Otvorenih nalaza** | **2** → `AUDIT/NALAZI-OTVORENI.md` (P10, P11 — odloženi odlukom vlasnice) |
-| **M1–M4 (mobilni) — ZATVORENI** | beležnica boji rime i na telefonu (uzrok: `<div>` po redu), gutter 45 px, editor iznad pregiba, traka tabova ima znak da se pomera. **Čeka push.** Detalji: `HANDOVER.md`, sesija 29.07. (šesta) |
-| **Novo: A4 „nikad ne izgubi pesmu"** | istorija 3 verzije + spas iz istorije + upozorenje kad skladište ne radi. Čeka push. |
-| Sve popravljeno iz pete sesije je **na produkciji** | deployovano 29.07. uveče; test protiv produkcije **344/344** |
-| Ocena poslednjeg audita | **6,9 / 10** (nova se računa u auditu 31.07.) |
-| Sledeći audit | **31.07.2026** |
-| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **35–36** su iz šeste sesije |
-| **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali (150–160 korisnika mesečno) |
+| **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
+| **⛔ NAJVAŽNIJE** | **`info@rimoteka.com` ne radi** — odeljak 0.06 A. Adresa stoji na sajtu, ne zna se koliko je poruka propalo. |
+| **Čeka push** | mobilna verzija (M5–M15) + kontakt u futeru + popravke teksta. Test lokalno **422/422**. |
+| **Čeka odluku vlasnice** | tekst na tematskim stranama (0.06 B), M8 i M12 (0.06 C) |
+| Ocena poslednjeg audita | **6,9 / 10** |
+| Sledeći pun audit | prvi sledeći po ritmu od 3 dana |
+| Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **47–51** su iz osme sesije |
+| **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali |
 
-**Zatvoreno 29.07. uveče (8 nalaza):** P9 osvežavanje vraća na vrh · P12 futer
-izjednačen · P13 čipovi u pasusu · P14 opis u Google rezultatima · P15 osam grešaka
-u vidljivom tekstu · P16 strana više ne skače dok se učitava (CLS 0,2853 → 0,0065) ·
-P2 CLS na `/rime-za/` izmeren · N17 `www` sada 301.
-Test podignut sa **323 na 344** provere.
+> **PRAVILO: rešeno se BRIŠE odavde, ne štriklira.** Zadatak sa ✅ i dalje mora da se
+> pročita da bi se videlo da je gotov, pa sledeća sesija radi dupli posao. Kad je nešto
+> gotovo — briše se iz TODO-a, a trag ostaje u `AUDIT/NALAZI-OTVORENI.md` i `HANDOVER.md`.
+> (Zahtev vlasnice, 31.07.2026. Isto pravilo stoji i u globalnom `~/.claude/CLAUDE.md`.)
 
-> **Sajt je 29.07. bio oboren ~3 minuta** pogrešnom izmenom `nginx.conf` i vraćen u
-> prvom minutu. Od tada `nginx.conf` ne ide na produkciju bez
-> `bash test/nginx-provera.sh` — v. `CLAUDE.md`, odeljak **9a-1**.
-
-**Ostaje otvoreno (2):**
-- **M1–M4 (mobilni) — ZATVORENI u šestoj sesiji (29.07. kasno uveče), čeka push.**
-  Uzrok M1 je bio dublji od izgleda: mobilni pregledači na Enter prave `<div>`
-  po redu, `getEditorText()` je znao samo `<br>` — pa se pesma lepila u jedan
-  red i KVARILA u localStorage. Uz M1–M4 urađena je i A4 (istorija pesme).
-- **P10 i P11** — hub i izbor reči, odeljak 0.0 ispod, odloženo odlukom vlasnice.
-  **Preduslov: popraviti `frekvencija.json`** (`TODO-RECNIK.md`, odeljak „HITNO") —
-  fajl je i sam pogrešan, pa bi P10 po njemu izabrao pogrešnih 2.000 reči.
-- ~~**N12**~~ — **ZATVORENO 29.07. kasno uveče:** http sada vraća **301** (Traefik
-  `rimoteka-301.yaml` na serveru, `redirectScheme permanent: true`).
-
-**Zatvoren merenjem: P2** — CLS na `/rime-za/` je **0,0003** (bilo 0,045); popravka
-iz ranije sesije jeste radila, samo nikad nije bila izmerena.
-
-**Redosled rada je u `AUDIT/PROMPT-ZA-SLEDECU-SESIJU.md`** — sedam zadataka, mobilni
-je zadatak 0.
-
----
 
 ## 0. SLEDEĆE PO REDU — dogovoreno sa vlasnicom 29.07.2026
+
+### 0.06 NOVO 31.07.2026 — iz osme sesije (mobilna verzija)
+
+#### A) ⛔ MEJL `info@rimoteka.com` NE RADI — NAJVAŽNIJE, NIŠTA NIJE PRE OVOGA
+
+**Kako je otkriveno:** Aniko je pisala na tu adresu i **nije dobila nikakav odgovor
+niti povratnu grešku**. Vlasnica javila 31.07. Ne zna se koliko je poruka propalo
+ni od kada — adresa stoji na sajtu.
+
+**Šta je već provereno (bez prijave na Porkbun):**
+
+| Provera | Nalaz | Znači |
+|---|---|---|
+| MX zapisi | `10 fwd1.porkbun.com`, `20 fwd2.porkbun.com` | prosleđivanje **jeste** upisano u DNS |
+| SPF | `v=spf1 include:_spf.porkbun.com ~all` | postoji |
+| **DMARC** | **ne postoji** | treba dodati |
+| Prima li server za `info@` | **NIJE IZMERENO** — port 25 blokiran sa lokalne mreže | ostaje da se vidi u panelu |
+
+**Šta uraditi, ovim redom:**
+1. Prijaviti se na **porkbun.com** (Chrome, vlasnica se prijavljuje — Claude dalje sam)
+   → **Email Forwarding** za `rimoteka.com`.
+2. Videti **postoji li pravilo `info@` → njen Gmail**. MX zapis samo kaže „šalji na
+   Porkbun"; ako tamo nema pravila za `info@`, pošta se odbija i pošiljalac dobija
+   grešku — što se poklapa sa tim da Aniko ništa nije dobila.
+3. Ako pravila nema — napraviti ga. Ako ga ima — proveriti da adresa Gmail-a nije
+   pogrešna i da poruke ne padaju u SPAM (Gmail često baca prosleđenu poštu tamo,
+   jer SPF proverava Porkbun a ne pravog pošiljaoca).
+4. **Testirati stvarnim slanjem** sa spoljne adrese i potvrditi da je stiglo. Bez toga
+   se ne sme reći da radi (pravilo: feature nije gotov dok se ne vidi da radi).
+5. Dodati **DMARC** zapis (`v=DMARC1; p=none; rua=mailto:...`) — bar u režimu praćenja.
+
+**Odvojena odluka: da li uopšte hoćemo SAMO prosleđivanje.**
+Prosleđivanje je jednosmerno — može da PRIMA, ne može da ŠALJE. Kad Aniko dobije
+odgovor, on stiže sa `@gmail.com`, ne sa `@rimoteka.com`, što za saradnju izgleda
+neozbiljno. **`orbitacode.com` već koristi Zoho** (`mx.zoho.eu`), pa se `rimoteka.com`
+može dodati kao domen u isti Zoho nalog i dobiti pravo sanduče koje i prima i šalje.
+Odluka vlasnice; besplatan Zoho plan pokriva ovu potrebu.
+
+#### B) TEKST NA TEMATSKIM STRANAMA — vlasnici se ne sviđa, i delom je NETAČAN
+
+**Prijava vlasnice 31.07.:** na `/rimovanje-reci/` je videla rečenicu
+„Evo reči za koje se rime najviše traže:" i rekla da to nije tekst za sajt i da time
+dajemo podatke konkurenciji. **U pravu je dvaput** — a nađeno je i gore od toga.
+
+| Šta | Nalaz |
+|---|---|
+| „Evo reči za koje se rime najviše traže" | spisak od 24 reči je **RUČNO OTKUCAN** (`gen_pages.py:1259`) — nijedan podatak o pretragama nije korišćen. Tvrdnja bez pokrića. |
+| Uvod: „rime su poređane od **najčešćih** ka manje poznatim" | **NETAČNO.** Kod sortira po **broju slogova** (`app.js`, `strong.sort`); učestalost je TREĆE i najslabije merilo. Dokaz: za „ljubav" prvo izlazi `gubav`, pa `ubav`, a češća `alav` je šesta. |
+| Česta pitanja: „frekvencijski podaci koji najčešće rime stavljaju na vrh" | ista netačnost, drugo mesto |
+| „Upiši reč u polje **na početnoj strani**" | alat je NA TOJ strani — tekst šalje čoveka nazad |
+| Primer: „ljubav — nesloga nije, ljubav — grbav jeste" | „nesloga" nije ni blizu rime, primer ne objašnjava ništa |
+
+> **Ceo spisak — 11 rečenica na 4 strane, sa predlogom novog teksta — stoji u
+> `TODO-TEKSTOVI.md`.** Tamo se i briše kad se uradi.
+
+**Šta uraditi:**
+1. Napisati ceo uvodni pasus iznova — **narodski, jednostavno**, da svako razume šta
+   dobija i zašto da ostane na sajtu (izričit zahtev vlasnice). Nacrt stoji u
+   `TODO-TEKSTOVI.md`, vlasnica ga još **nije odobrila**.
+2. Ispraviti sve četiri netačnosti gore.
+3. 24 linka izvaditi iz pasusa u **zaseban blok sa naslovom**, kao na ostalim stranama.
+4. **Proći i ostalih 12 tematskih strana** — ista ruka ih je pisala, ista greška se
+   očekuje. Na `/rime-za-decu/` već stoji „Evo popularnih reči koje se lepo rimuju i
+   koje deca lako pamte".
+5. Ključna fraza `recnik rima` ima **204 prikaza i 0 klikova** (GSC, 30.07.) a na strani
+   ne postoji nigde — ubaciti je u naslov, opis i naslov bloka.
+
+> **⚠️ BROJEVI SE NE OBJAVLJUJU** — odluka vlasnice 31.07.2026. Rečnik raste svakodnevno,
+> a predstoji i sesija koja prolazi ceo Rečnik Matice srpske i unosi reči, pa će broj
+> biti bitno veći. Svaki broj upisan u tekst zastari i postane netačna tvrdnja na
+> 2.000 strana odjednom. Vidi izmenjeno pravilo u odeljku **8**.
+
+#### C) ODLUKE KOJE ČEKAJU VLASNICU (mobilna sesija)
+
+| # | Šta | Zašto čeka |
+|---|---|---|
+| **M8** | Oznake uz stih (slogovi, šema rime) bile su razminute sa stihom — pesma kucana na telefonu imala je poslednja dva stiha pomerena za ceo red, sa praznim redom između strofa za dva reda. **Popravljeno svuda, dakle i na računaru.** | Vlasnica je tražila da se računar ne dira. Ovo je popravka rada, ne izgleda — ali menja ono što se vidi na računaru. Vraća se u jednu liniju ako kaže. |
+| **M12** | U tamnom režimu „dobre rime" imaju **beo okvir 2 px** (`rgb(255,255,255)`) na podlozi #1e1a2e. Stoji i na računaru i na tabletu. | **Popravljeno samo na telefonu.** Popravka za ostalo je jedna linija, čeka odobrenje. |
+
+#### D) MOBILNA VERZIJA — ostalo posle deploy-a
+
+- **Nije pushovano** — čeka pregled vlasnice. Test lokalno **422/422**.
+- **Nije provereno na pravom telefonu.** Sve je mereno u Chromiumu sa lažiranom
+  tastaturom (`visualViewport.height` se smanji pa se pošalje `resize`). Prvi zadatak
+  posle deploy-a: vlasnica otvori sajt na telefonu i proba **baš beležnicu**.
+- Posle deploy-a obavezno `BASE=https://rimoteka.com node test/predeploy.mjs`.
+
+#### E) KLASICI — tekst obećava jedno, radi drugo
+
+Uputstvo kaže „**Klikni na završnu reč stiha** da joj nađeš rime", a klikće se
+**slovo šeme rime** sa strane, ne reč. Slovo je izmereno na 24×18 px (sada 36×28 na
+telefonu). Odluka: ili ispraviti tekst, ili napraviti da se klikće sama reč.
+> Usput popravljeno 31.07.: na `/klasici/` je to slovo bilo **mrtvo dugme** — klik nije
+> radio ništa jer ta strana nema tab sa rimama. Sada vodi na `/?rec=…`. Bilo je mrtvo i
+> na računaru, 138 stihova.
+
+#### F) `/klasici/` ne učitava rečnik
+
+`WORDS.length === 0` na toj strani. Za sada ne smeta (klik sada vodi na početnu), ali
+znači da bilo koja buduća funkcija na toj strani koja traži rečnik neće raditi.
+
+---
 
 ### 0.05 NOVO 30.07.2026 — zahtevi vlasnice iz sedme sesije
 
@@ -59,12 +139,6 @@ ubacivanje u kod → **pokazati na lokalu** → ona odobrava.
 kaže drugačije; (2) svaka promena fonta **poništava izmerene brojeve** iz nalaza P16
 (`style.css:319`, `size-adjust` 103,6% i 98,2%) — moraju se **ponovo izmeriti**, ne
 prepisati; (3) posle promene fonta obavezno ponovo meriti CLS, deset puta, na brzoj vezi.
-
-**B) BELEŽNICA NA TELEFONU — rime se izbace previše nisko, tastatura ih pokrije.**
-Prijava vlasnice 30.07.: kad se u beležnici traži rima, ponuđene reči izađu tako nisko
-da ih tastatura zakloni i ne vide se. Treba meriti na pravom telefonu (390 px, otvorena
-tastatura) — panel se mora pozicionirati nad tastaturom, ne pod njom. Vezano za već
-popravljeno M1–M4 i `dvh` visine; ovo je nov slučaj koji te popravke ne pokrivaju.
 
 **C) REČNIK — reči i objašnjenja koja je vlasnica prijavila 30.07.**
 Provereno u Rečniku Matice srpske (`~/Literatura/recnik-matice-srpske-2011.txt`):
@@ -421,8 +495,13 @@ u svetu" — RhymeZone ima objašnjenja, na engleskom). Ispravljeno 28.07.2026.
 - „jedini/prvi **na srpskom**" — sme, dokazano konkurentskom analizom
 - „jedini/prvi **u svetu**" — NE, osim ako imamo dokaz; za pisanje pesama
   postoje Versepad, GoRhyme Lyric Meter, RHYMEBOOK, Poem Analysis (engleski)
-- brojevi se **prebroje u fajlu** pa zaokruže NANIŽE (imamo 278.083 → „preko
-  270.000"). Nikad naviše — „preko 300.000" bi bilo netačno.
+- **BROJ REČI SE NE PIŠE NA SAJT — odluka vlasnice 31.07.2026.**
+  Rečnik raste svakodnevno, a predstoji i sesija koja prolazi ceo Rečnik Matice
+  srpske i unosi reči. Svaki broj upisan u tekst zastari, a stoji na 2.000 strana
+  odjednom, pa jedna zastarela cifra postane dve hiljade netačnih tvrdnji.
+  Umesto broja se piše šta korisnik dobija.
+- Ako neki broj ipak MORA da se napiše (npr. za merenje u izveštaju, ne za sajt),
+  prebroji se **u fajlu** pa zaokruži NANIŽE. Nikad naviše.
 
 ---
 

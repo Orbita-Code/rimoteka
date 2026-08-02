@@ -1122,7 +1122,12 @@ async function main() {
           telo: (document.querySelector('.seo-content p, .res-group .seo-p') || {}).textContent || '',
           faq: (document.querySelector('.faq details p, .landing-faq details p') || {}).textContent || '',
           logo: (document.querySelector('.brand-word') || {}).textContent || '',
-          mejl: document.body.innerText.includes('info@rimoteka.com'),
+          /* Adresa za saradnju je od 02.08.2026. `eureka@`, ne više `info@`.
+             `info@` i dalje radi kao rezerva, ali se NIGDE na sajtu ne
+             prikazuje — zato se ovde traži nova, a stara se proverava zasebno
+             (niže) da nije negde ostala. */
+          mejl: document.body.innerText.includes('eureka@rimoteka.com'),
+          staraAdresa: document.body.innerText.includes('info@rimoteka.com'),
           maticniTekst: document.body.innerText,
         }));
         ok(`${put} → naslov i uvod prelaze u ćirilicu`, cirilica(r.h1) && cirilica(r.uvod),
@@ -1134,6 +1139,8 @@ async function main() {
            !/ПДФ|АБАБ|ААББ/.test(r.maticniTekst),
            (r.maticniTekst.match(/ПДФ|АБАБ|ААББ/g) || []).join(','));
         if (put === '/') ok('početna → mejl adresa se ne prebacuje u ćirilicu', r.mejl === true);
+        if (put === '/') ok('početna → stara adresa info@ se više ne prikazuje',
+                            r.staraAdresa === false, 'nađena stara adresa na strani');
       }
       await pc.close();
     }
@@ -3512,6 +3519,215 @@ async function main() {
            nalazi.length ? nalazi.slice(0, 2).join(' ‖ ') : 'čisto');
       }
       await p34.close();
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+       35) POČETNA STRANA — POLOŽAJ POLJA, KONTRAST ISPUNA, AKTIVAN TAB
+
+       Sve četiri provere su napisane iz merenja od 02.08.2026 na produkciji i
+       svaka bi tada PALA (provereno protiv produkcije dok je tamo stario kod):
+         · polje za unos bilo je na 402 px od vrha ekrana od 664 px (60,5%);
+         · belo slovo na dugmetu „Nađi rime" davalo je 2,84 u svetloj i 2,10 u
+           tamnoj temi, pri granici 4,5;
+         · aktivan tab u tamnoj temi bio je PIKSEL U PIKSEL isti kao neaktivan;
+         · naslovni blok se pojavljivao tek kad stigne app.js i gurao polje za
+           130 px naniže (skakanje strane 0,12 pri granici 0,1).
+
+       Kontrast se NE čita iz `getComputedStyle` za ispune sa prelivom — preliv
+       vraća providnu `backgroundColor`, pa se boje vade iz `background-image`
+       i meri se GORI kraj preliva. Ta zamka je već jednom dala lažno „prolazi".
+       ───────────────────────────────────────────────────────────────────── */
+    console.log('\n35) POČETNA — polje u gornjem delu, kontrast ispuna, aktivan tab');
+    {
+      const MERE35 = `
+        function pRGB(s){const m=String(s).match(/rgba?\\(([^)]+)\\)/);if(!m)return null;
+          const p=m[1].split(',').map(x=>parseFloat(x));return{r:p[0],g:p[1],b:p[2],a:p.length>3?p[3]:1};}
+        function lin(c){c/=255;return c<=0.03928?c/12.92:Math.pow((c+0.055)/1.055,2.4);}
+        function LUM(c){return 0.2126*lin(c.r)+0.7152*lin(c.g)+0.0722*lin(c.b);}
+        function odnos(a,b){const l1=LUM(a),l2=LUM(b),hi=Math.max(l1,l2),lo=Math.min(l1,l2);return (hi+0.05)/(lo+0.05);}
+        function ispune(el){const cs=getComputedStyle(el);
+          const iz=[...String(cs.backgroundImage||'').matchAll(/rgba?\\([^)]+\\)/g)].map(m=>pRGB(m[0])).filter(Boolean);
+          const sam=pRGB(cs.backgroundColor); if(sam&&sam.a>0.99) iz.push(sam);
+          return iz;}
+        function najgoriKontrast(el){const fg=pRGB(getComputedStyle(el).color);
+          const bg=ispune(el); if(!fg||!bg.length) return null;
+          return Math.min(...bg.map(c=>odnos(fg,c)));}
+      `;
+
+      for (const tema of ['svetla', 'tamna']) {
+        const ctx35 = await browser.newContext({
+          viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2,
+        });
+        if (tema === 'tamna') {
+          await ctx35.addInitScript(() => { try { localStorage.setItem('rimoteka_dark', '1'); } catch (e) {} });
+        }
+        const p35 = ojacajStranu(await ctx35.newPage());
+        await p35.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(900);
+
+        // A) polje za unos u gornjem delu ekrana (bilo 402 px = 60,5%)
+        const polozaj = await p35.evaluate(() => {
+          const r = document.getElementById('rimeInput').getBoundingClientRect();
+          return { top: Math.round(r.top), vh: window.innerHeight,
+                   procenat: Math.round(r.top / window.innerHeight * 1000) / 10 };
+        });
+        ok(`početna (${tema}) · polje za unos je u gornjoj polovini ekrana`,
+           polozaj.procenat <= 45,
+           `polje na ${polozaj.top} px od ${polozaj.vh} px = ${polozaj.procenat}% (granica 45%, bilo 60,5%)`);
+
+        // B) kontrast ispunjenih dugmadi — najgori kraj preliva, granica 4,5
+        const kontrasti = await p35.evaluate(({ MERE35 }) => {
+          eval(MERE35);
+          const meta = {};
+          const seli = { 'Nađi rime': '#rimeBtn', 'aktivno pismo': '.script-toggle button.active',
+                         'aktivan tab': '.tabs a.active', 'filter slogova': '#rimeSyl button.active' };
+          for (const [ime, sel] of Object.entries(seli)) {
+            const e = document.querySelector(sel);
+            meta[ime] = e ? Math.round(najgoriKontrast(e) * 100) / 100 : null;
+          }
+          // natpis u praznom polju
+          const inp = document.getElementById('rimeInput');
+          const csp = getComputedStyle(inp, '::placeholder');
+          const fg = pRGB(csp.color) || pRGB(getComputedStyle(inp).color);
+          const bg = pRGB(getComputedStyle(inp).backgroundColor);
+          meta['natpis u polju'] = (fg && bg) ? Math.round(odnos(fg, bg) * 100) / 100 : null;
+          return meta;
+        }, { MERE35 });
+
+        for (const [ime, k] of Object.entries(kontrasti)) {
+          ok(`početna (${tema}) · kontrast „${ime}" je bar 4,5`,
+             k !== null && k >= 4.5, `izmereno ${String(k).replace('.', ',')} (granica 4,5)`);
+        }
+
+        // C) aktivan tab mora da se razlikuje od neaktivnog — i bojom i bez boje
+        const tabovi = await p35.evaluate(({ MERE35 }) => {
+          eval(MERE35);
+          const a = document.querySelector('.tabs a.active'), n = document.querySelector('.tabs a:not(.active)');
+          if (!a || !n) return null;
+          const bgA = ispune(a), bgN = ispune(n);
+          const razlika = (bgA.length && bgN.length) ? Math.min(...bgA.map(c => odnos(c, bgN[0]))) : 0;
+          return { razlika: Math.round(razlika * 100) / 100,
+                   fwA: getComputedStyle(a).fontWeight, fwN: getComputedStyle(n).fontWeight };
+        }, { MERE35 });
+        ok(`početna (${tema}) · aktivan tab se razlikuje od neaktivnog (bar 3,0)`,
+           tabovi && tabovi.razlika >= 3,
+           `razlika pozadina ${String(tabovi?.razlika).replace('.', ',')} (u tamnoj temi je bila 1,0 — isti piksel)`);
+        ok(`početna (${tema}) · razlika aktivnog taba se vidi i bez boje (debljina slova)`,
+           tabovi && Number(tabovi.fwA) > Number(tabovi.fwN),
+           `aktivan ${tabovi?.fwA} prema neaktivnom ${tabovi?.fwN}`);
+
+        await ctx35.close();
+      }
+
+      /* D) IZGLED NE SME DA ZAVISI OD app.js.
+         Uzrok skoka od 130 px bio je `body:not([data-tab="rime"]) .hero`, a
+         oznaku `data-tab` postavlja app.js. Provera je namerno napisana bez
+         merenja vremena: gasi se app.js i gleda se da li je raspored isti. */
+      const ctx35b = await browser.newContext({
+        viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2,
+      });
+      /* app.js se zamenjuje PRAZNIM fajlom, ne prekida se (`abort`): prekinut
+         zahtev pregledač upiše kao grešku u konzolu, pa bi provera „nula
+         grešaka u konzoli" pala zbog samog testa. Prazan fajl daje isti uslov
+         — skripta se nikad ne izvrši — bez lažne greške. */
+      await ctx35b.route('**/app.js*', r => r.fulfill({ status: 200, contentType: 'text/javascript', body: '' }));
+      const p35b = await ctx35b.newPage();
+      await p35b.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(700);
+      const bezSkripte = await p35b.evaluate(() => {
+        const r = document.getElementById('rimeInput').getBoundingClientRect();
+        return { top: Math.round(r.top), imaOznaku: document.body.hasAttribute('data-tab') };
+      });
+      await ctx35b.close();
+
+      const ctx35c = await browser.newContext({
+        viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2,
+      });
+      const p35c = ojacajStranu(await ctx35c.newPage());
+      await p35c.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(1200);
+      const saSkriptom = await p35c.evaluate(() =>
+        Math.round(document.getElementById('rimeInput').getBoundingClientRect().top));
+      await ctx35c.close();
+
+      ok('početna · polje stoji na istom mestu i bez app.js (nema skoka pri učitavanju)',
+         Math.abs(bezSkripte.top - saSkriptom) <= 8,
+         `bez app.js ${bezSkripte.top} px, sa app.js ${saSkriptom} px — razlika ${Math.abs(bezSkripte.top - saSkriptom)} px (bilo 130 px)`);
+
+      /* E) Sklopivi blokovi: tekst mora OSTATI u HTML-u (SEO) i mora da se
+            otvara sa tastature. `<details>` to radi sam, pa se proverava da
+            blokovi postoje i da im je sadržaj u dokumentu. */
+      const ctx35d = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+      const p35d = ojacajStranu(await ctx35d.newPage());
+      await p35d.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      const blokovi = await p35d.evaluate(() => {
+        const b = [...document.querySelectorAll('.seo-blok')];
+        return { broj: b.length,
+                 naslovi: b.map(x => x.querySelector('summary h3')?.textContent.trim()).filter(Boolean).length,
+                 znakova: b.reduce((n, x) => n + (x.querySelector('.seo-blok-telo')?.textContent.trim().length || 0), 0),
+                 linkova: b.reduce((n, x) => n + x.querySelectorAll('.seo-blok-telo a').length, 0) };
+      });
+      ok('početna · sklopivi blokovi postoje i naslovi su ostali pravi h3',
+         blokovi.broj === 3 && blokovi.naslovi === 3, `blokova ${blokovi.broj}, h3 naslova ${blokovi.naslovi}`);
+      ok('početna · tekst u blokovima je ostao u HTML-u (pretraživač ga vidi)',
+         blokovi.znakova > 1500 && blokovi.linkova >= 8,
+         `${blokovi.znakova} znakova, ${blokovi.linkova} linkova`);
+
+      /* Otvaranje tastaturom. Sve je null-sigurno: kad blokova nema (stara
+         verzija strane), provera mora da PADNE, ne da obori ceo test —
+         provereno 02.08.2026, prvi pokušaj je pukao na `.focus()` nad `null`
+         i prekinuo preostalih pet provera. */
+      const imaSummary = await p35d.evaluate(() => {
+        const s = document.querySelector('.seo-blok summary');
+        if (s) s.focus();
+        return !!s;
+      });
+      let otvoren = false;
+      if (imaSummary) {
+        await p35d.keyboard.press('Enter');
+        await pauza(250);
+        otvoren = await p35d.evaluate(() => !!document.querySelector('.seo-blok')?.open);
+      }
+      ok('početna · sklopivi blok se otvara tasterom Enter', otvoren === true,
+         imaSummary ? 'blok se nije otvorio' : 'nema sklopivih blokova na strani');
+
+      // F) futer: dodirni ciljevi i da nijedan link nije izgubljen
+      const futerDesktop = await p35d.evaluate(() => ({
+        linkova: document.querySelectorAll('.futer-v2 .footer-link').length,
+        rima: document.querySelectorAll('.futer-v2 .futer-rime-spisak .footer-link').length,
+      }));
+      ok('futer · svi linkovi su tu (23 u kolonama + 30 rima + kontakt + Orbita)',
+         futerDesktop.linkova >= 55 && futerDesktop.rima === 30,
+         `ukupno ${futerDesktop.linkova}, popularnih rima ${futerDesktop.rima}`);
+      await ctx35d.close();
+
+      const ctx35e = await browser.newContext({
+        viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2,
+      });
+      const p35e = ojacajStranu(await ctx35e.newPage());
+      await p35e.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(500);
+      const futerMob = await p35e.evaluate(() => {
+        const linkovi = [...document.querySelectorAll('.futer-v2 .futer-kolona .footer-link, .futer-v2 .futer-rime-spisak .footer-link')];
+        const niski = linkovi.filter(a => a.getBoundingClientRect().height < 44)
+          .map(a => `${a.textContent.trim()} ${Math.round(a.getBoundingClientRect().height)}px`);
+        return { ukupno: linkovi.length, niski: niski.slice(0, 4), brojNiskih: niski.length,
+                 preliv: document.documentElement.scrollWidth > window.innerWidth };
+      });
+      /* `ukupno > 50` NIJE ukras: bez njega je provera LAŽNO ZELENA na staroj
+         verziji futera — selektor tamo ne pogodi nijedan element, spisak
+         „preniskih" je prazan, i provera prolazi iako futer uopšte ne postoji.
+         Provereno 02.08.2026 protiv produkcije: prvi oblik ove provere je
+         prošao nad starim kodom. Provera koja ne padne nad starim kodom ne
+         valja — mora se proveriti i DA IMA šta da se meri. */
+      ok('futer na telefonu · svaki link je dodirni cilj od bar 44 px',
+         futerMob.ukupno > 50 && futerMob.brojNiskih === 0,
+         futerMob.ukupno <= 50
+           ? `nađeno samo ${futerMob.ukupno} linkova — nov futer nije na strani`
+           : (futerMob.brojNiskih ? `${futerMob.brojNiskih} nižih: ${futerMob.niski.join(', ')} (bilo 16–19 px)`
+                                  : `svih ${futerMob.ukupno} prolazi`));
+      ok('futer na telefonu · nema horizontalnog skrolovanja', futerMob.preliv === false);
+      await ctx35e.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

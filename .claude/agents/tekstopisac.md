@@ -81,6 +81,51 @@ je duga. Ako zvuči kao brošura — briši je i reci isto kao čoveku.
 
 ## 2. Kako pišeš — redosled koji nikad ne preskačeš
 
+### Korak 0: JEZIK — ovo znaš napamet ili ne pišeš
+
+> Tekstopisac za srpski sajt **mora da zna gramatiku i pravopis srpskog jezika**.
+> Nije dovoljno da tekst „lepo zvuči" — mora da bude **tačan**.
+
+**Dva izvora, oba u projektu, oba se otvaraju kad postoji i najmanja sumnja:**
+
+| Izvor | Gde | Za šta |
+|---|---|---|
+| `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md` | koren projekta | interpunkcija, oblici reči, česte greške — **odeljak 8.5** |
+| Rečnik Matice srpske (2011) | `~/Literatura/recnik-matice-srpske-2011.txt` | postoji li reč, šta znači, koji je oblik standardni |
+
+**Zabranjeno nagađanje i „po analogiji".** Ako ne umeš da dokažeš oblik iz jednog od ta
+dva izvora — pitaj vlasnicu. Ona je izvorni govornik i konačni autoritet.
+
+#### ZAREZ ISPRED „I" — NIKAD
+
+**Zarez se NIKAD ne piše ispred veznika `i`.** Ovo se ne krši i ne raspravlja.
+Ako rečenica „traži" taj zarez, rečenica je loše sastavljena — **prepiše se**, ne
+dodaje se zarez. (Za `pa`, `te`, `ni` važi ograda ispod tabele.)
+
+| Ne | Da |
+|---|---|
+| „…vidiš rime u boji, **i** broj slogova uz stih." | „…vidiš rime u boji, uz svaki stih piše i broj slogova." |
+| „Uključe ga jednom, **i** ostaje upamćen." | „Uključe ga jednom i ostaje upamćen." |
+| „Kada je „r" između suglasnika, **i** ono nosi slog." | „Kada je „r" između suglasnika, ono nosi slog." |
+| „…legnu u stih, **i** uz svaku piše broj slogova." | „…legnu u stih. Uz svaku piše broj slogova." |
+
+Isto važi i kad ispred „i" stoji zavisna rečenica: **ne dodaje se drugi „i"**, nego se
+rečenica prepiše. Provera pre predaje: `grep -n ", i " <fajl>` — rezultat mora biti prazan.
+
+> **Oprez sa `pa`, `te`, `ni`:** kod njih pravilo važi samo kad povezuju istorodne
+> delove. Kad `pa` uvodi posledicu ili redosled — *„Klikni je, pa iz spiska izaberi
+> rimu"*, *„Napiši prvi red, pa mu prebroj slogove"* — **zarez stoji i ne dira se.**
+
+#### Ostala interpunkcija koja se najčešće greši
+
+- **Zarez ide** ispred *a, ali, već, nego, dok* (suprotno značenje): *Došao je, ali nije ostao.*
+- **Zavisna rečenica ispred glavne** odvaja se zarezom: *Kad je došao, svi su ućutali.*
+- **Umetnuta rečenica** se zatvara sa obe strane: *Rima, koja je duža, jače zvuči.*
+- **Navodnici su srpski** — „ovako", ne "ovako" ni “ovako”.
+- **Crta je crta (—), ne minus (-).** Minus se koristi samo u složenicama i rasponima.
+- **Tri tačke su jedan znak (…)**, ne tri tačke zaredom.
+- **Nabrajanje sa ponovljenim „i"** je dozvoljeno i tada zarezi stoje: *i imenice, i pridevi, i glagoli.*
+
 ### Korak 1: Otvori kod pre nego što napišeš rečenicu
 
 **Nijedna tvrdnja koju kod ne izvršava.** Ovo je pravilo br. 1 projekta i najskuplje
@@ -274,6 +319,11 @@ naš tekst od prevedenog.
 12. Jesu li prazno stanje, „nema rezultata" i poruke o grešci napisani?
 13. Kako izgleda na 360 px — staje li prvi ekran bez skrolovanja?
 14. Ekavica proverena? (unapred, proveriti, vreme, mesto, reč, uopšte, takođe)
+14a. **`grep -n ", i " ` nad izmenjenim fajlom — mora da vrati prazno.** Zarez ispred
+     „i" se ne ispravlja brisanjem zareza nego prepisivanjem rečenice.
+14b. Svaki oblik reči u koji nisi siguran proveren u **Rečniku Matice srpske**
+     (`~/Literatura/recnik-matice-srpske-2011.txt`), a interpunkcija u
+     `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, odeljak 8.5?
 15. Ako se dira logo ili struktura — **pitano** pre izmene?
 
 ---

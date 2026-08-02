@@ -988,3 +988,39 @@ prikaz ritma") — uhvaćeno samo zato što je rezultat odštampan i pročitan, 
 > **PRAVILO 62:** **Prijava vlasnice o jeziku je konačna.** Ona je izvorni govornik i
 > čita proizvod kao čovek; ja čitam kao onaj ko je tekst napisao i vidim šta sam hteo da
 > napišem, a ne šta piše. Ne brani se napisano — prepiše se.
+
+---
+
+### 17. Pravilo je stajalo u projektu — a nijedna sesija ga nije pročitala pre pisanja
+
+**Šta se desilo.** Vlasnica, 02.08.2026: *„zašto agent `tekstopisac` ne zna da zarez u
+srpskom jeziku NIKADA ne ide ispred slova i… tekstopisac bi trebalo da zna napamet
+Rečnik Matice srpske i gramatiku srpskog jezika."*
+
+Pravilo **već je stajalo u projektu**, u `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, red 364:
+> „Zarez se **ne piše** ispred *i, pa, te, ni* kad povezuju istorodne delove."
+
+Taj dokument postoji od ranije i nastao je iz istog razloga — generator je ubacivao oblike
+kojih u srpskom nema. Uprkos tome, na sajtu je bilo **šest mesta** sa zarezom ispred „i".
+
+**Zašto se desilo.** Agent `tekstopisac` napisan je sa 290 redova o tonu, publici, SEO-u i
+mikrokopiji — i **nijednim redom nije upućen na gramatiku koju projekat već ima**. Autor
+agenta (ja) pisao je o tome *kako tekst treba da zvuči*, a ne o tome *da mora da bude
+tačan na srpskom*.
+
+Usput je, na istom mestu, nađena i **netačna tvrdnja „rangira ih po kvalitetu"** — ista
+koja je popravljena na pet mesta, a ova je preživela jer je bila u odgovoru na pitanje,
+ne u glavnom tekstu (v. pravilo 59).
+
+> **PRAVILO 63:** **Dokument koji se ne otvori nije pravilo nego papir.** Kad se pravi
+> agent ili uputstvo, ono mora **izričito imenovati fajlove koji se čitaju pre rada** i
+> reći **kada** se čitaju. Znanje koje „postoji negde u projektu" ne primenjuje se samo.
+>
+> **PRAVILO 64:** Tekst na srpskom sajtu se **ne piše po sluhu**. Pre pisanja se otvaraju
+> gramatika/pravopis i Rečnik Matice srpske; nagađanje i „po analogiji" su zabranjeni.
+> Sajt koji greši u srpskom nema pravo da uči ljude kako se piše pesma.
+>
+> **PRAVILO 65:** **Jezičko pravilo koje se može proveriti programski — dobija proveru u
+> testu.** Zarez ispred `i/pa/te/ni` je sada sekcija 34; prolazi kroz sedam strana i pada
+> na svakom takvom mestu, uz jedan izuzetak koji pravopis dozvoljava (nabrajanje sa
+> ponovljenim veznikom). Oslanjanje na to da će sledeći pisac „znati" nije zaštita.

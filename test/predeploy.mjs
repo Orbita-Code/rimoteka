@@ -3468,6 +3468,52 @@ async function main() {
       await p33.close();
     }
 
+    /* ─────────────────────────────────────────────────────────────────────────
+       34) PRAVOPIS — ZAREZ SE NE PIŠE ISPRED „I", „PA", „TE", „NI"
+
+       Prijava vlasnice 02.08.2026: „zarez u srpskom jeziku NIKADA ne ide ispred
+       slova i". Pravilo je stajalo u projektu (`GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`,
+       odeljak 8.5), ali ga ništa nije proveravalo — pa je na sajtu bilo šest mesta.
+
+       Rečenica se NE popravlja brisanjem zareza nego se PREPIŠE: ako je zarez tu
+       „potreban", rečenica je loše sastavljena.
+
+       PROVERAVA SE SAMO „I" — namerno. Prva verzija je hvatala i `pa`, `te`, `ni` i
+       odmah pala na pet mesta, a NIJEDNO nije bila greška: „Klikni je, pa iz spiska
+       izaberi rimu" — tu `pa` znači *zatim*, uvodi posledicu i redosled, i zarez po
+       pravopisu STOJI. Pravilo glasi „ne piše se ispred i, pa, te, ni **kad povezuju
+       istorodne delove**", a to razlikovanje traži značenje, ne obrazac. Provera koja
+       pada na tačnom tekstu tera pisca da kvari jezik da bi je zadovoljio — gore je
+       od nikakve. Zato ostaje samo `i`, gde je pravilo jednoznačno.
+
+       Izuzetak koji pravopis dozvoljava: nabrajanje sa PONOVLJENIM veznikom
+       („i imenice, i pridevi, i glagoli"). Zato se prijavljuje samo kad se veznik
+       ne ponavlja neposredno pre zareza.
+       ───────────────────────────────────────────────────────────────────────── */
+    console.log('\n34) PRAVOPIS — zarez ispred „i"');
+    {
+      const p34 = await (await browser.newContext()).newPage();
+      const STRANE = ['/', '/rimovanje-reci/', '/rime-za-decu/', '/rime-za-roditelje/',
+                      '/rime-za-ljubavne-pesme/', '/pisanje-pesama/', '/rime-za/ljubav/'];
+      for (const put of STRANE) {
+        await p34.goto(BASE + put, { waitUntil: 'domcontentloaded' });
+        const nalazi = await p34.evaluate(() => {
+          const t = (document.querySelector('main')?.innerText || '').replace(/\s+/g, ' ');
+          const out = [];
+          for (const m of t.matchAll(/(.{0,60}), (i) ([a-zćčšđž].{0,40})/g)) {
+            // dozvoljeno: nabrajanje sa ponovljenim veznikom („i imenice, i pridevi")
+            const pre = m[1];
+            if (new RegExp(`\\b${m[2]} [a-zćčšđž]`, 'i').test(pre)) continue;
+            out.push(`„…${pre.slice(-45)}, ${m[2]} ${m[3].slice(0, 25)}…"`);
+          }
+          return out;
+        });
+        ok(`${put} · nema zareza ispred „i"`, nalazi.length === 0,
+           nalazi.length ? nalazi.slice(0, 2).join(' ‖ ') : 'čisto');
+      }
+      await p34.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

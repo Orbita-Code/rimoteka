@@ -1030,7 +1030,7 @@ def main():
 {syl_tool}  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. Nalepi tekst iznad: broj slogova stoji levo od svakog reda, a na dnu ukupan zbir za celu pesmu. Radi i za jednu reč i za ceo tekst.</p>
   <p class="landing-lead">Brojač je deo celine: kad ti stih ne štima, u <a href="/pisanje-pesama/">beležnici</a> ga pišeš uz rime i šemu rime, a u <a href="/rimovanje-reci/">rimovanju reči</a> tražiš reč koja se uklapa u meru.</p>
   <div class="res-group"><h2>Kako se broje slogovi</h2>
-    <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r“</strong> — kada se nađe između suglasnika, i ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
+    <p class="seo-p">Reč ima onoliko slogova koliko ima <strong>samoglasnika</strong> (a, e, i, o, u). Poseban slučaj je <strong>slogotvorno „r“</strong> — kada se nađe između suglasnika, ono je nosilac sloga (npr. <em>vrt</em>, <em>prst</em>, <em>srce</em>).</p>
   </div>
   <div class="res-group"><h2>Podela reči na slogove</h2>
     <p class="seo-p">Svaki slog ima jedan samoglasnik kao nosioca, pa se reč deli na onoliko slogova koliko ima samoglasnika: <em>ja-bu-ka</em> (3), <em>de-voj-či-ca</em> (4), <em>ri-mo-va-nje</em> (4). Granica sloga ide ispred suglasnika koji pripada sledećem slogu. Kod slogotvornog „r“ slog nosi samo „r“: <em>sr-ce</em>, <em>pr-vi</em>. <strong>Rastavljanje reči na slogove</strong> je isto što i njihovo brojanje — alat iznad to radi za ceo tekst odjednom.</p>
@@ -1230,7 +1230,7 @@ def main():
              ],
              faqs=[
                  ('Da li se moja pesma negde šalje?',
-                  'Ne. Tekst se čuva isključivo u tvom pregledaču, na tvom uređaju, i ostaje tu i kad zatvoriš '
+                  'Ne. Tekst se čuva isključivo u tvom pregledaču, na tvom uređaju. Ostaje tu i kad zatvoriš '
                   'stranicu. Ako pesmu podeliš linkom, tek tada je sadržaj upisan u sam link.'),
                  ('Kako da dobijem rime za određenu reč u pesmi?',
                   'Klikni na tu reč u tekstu. Sa strane se odmah pojave rime baš za nju, a klik na rimu je '
@@ -1386,7 +1386,7 @@ def main():
              lead=f'Rimoteka <strong>uvek</strong> izostavlja psovke i vulgarnosti, a za decu ima i <strong>dečji režim</strong> — dodatni filter koji uklanja i nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim“ ispod polja za unos, a dugme ispod ga uključi samo. Za početak, evo reči od kojih se najlakše kreće: {deciji_chips}',
              cta_href='/?rec=dete&decji=1', cta_text='🧸 Otvori alat sa uključenim dečjim režimom →',
              sections=[
-                 ('Zašto Rimoteka za decu?', 'Rečnik je uvek pročišćen od psovki i vulgarnosti. Uz to postoji i dečji režim, koji dodatno uklanja nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom, i ostaje upamćen na tom uređaju.'),
+                 ('Zašto Rimoteka za decu?', 'Rečnik je uvek pročišćen od psovki i vulgarnosti. Uz to postoji i dečji režim, koji dodatno uklanja nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom i ostaje upamćen na tom uređaju.'),
                  ('Od koje reči da počneš', 'Uzmi reč koju dete već ume da kaže — mama, tata, lopta, mačka, sunce, kiša. Klikni je, pa iz spiska izaberi rimu koju dete razume.'),
                  ('Kako napisati dečju pesmicu?', 'Napiši prvi red, pa mu prebroj slogove. Drugi red neka ima isti broj slogova i rimu na kraju. Kad se ta dva slože, ostatak ide lakše — deca pamte ono što se ponavlja.'),
              ],

@@ -168,10 +168,63 @@
 
 ---
 
-## 5a. GRAMATIKA SRPSKOG JEZIKA — OBAVEZNO PRE RADA SA REČNIKOM
+## 5a. GRAMATIKA I PRAVOPIS — OBAVEZNO PRE SVAKOG PISANJA
 
-> **Pre bilo kakvog dodavanja reči u `reci.txt`/`definicije.json`, i pre pisanja
-> koda koji generiše oblike reči, pročitati `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`.**
+> **PRE NEGO ŠTO NAPIŠEŠ IJEDNU REČ TEKSTA NA SAJTU — pročitaj
+> `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, naročito odeljak 8.5 (interpunkcija).**
+> Isto važi pre dodavanja reči u `reci.txt`/`definicije.json` i pre pisanja koda
+> koji generiše oblike reči.
+>
+> Ovo nije preporuka. Rimoteka je **alat za srpski jezik** — sajt koji greši u
+> srpskom nema pravo da uči ljude kako se piše pesma.
+
+### Šta se čita, i za šta
+
+| Izvor | Gde | Za šta |
+|---|---|---|
+| `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md` | koren projekta | interpunkcija (8.5), oblici reči, česte greške |
+| **Rečnik Matice srpske (2011)** | `~/Literatura/recnik-matice-srpske-2011.txt` | postoji li reč, šta znači, koji je oblik standardni |
+
+**Zabranjeno nagađanje i „po analogiji".** Ako oblik ne umeš da dokažeš iz jednog od
+ta dva izvora — pitaj vlasnicu. Ona je izvorni govornik i konačni autoritet.
+
+### ZAREZ SE NE PIŠE ISPRED „I", „PA", „TE", „NI" — NIKAD
+
+> Prijava vlasnice 02.08.2026: *„zarez u srpskom jeziku NIKADA ne ide ispred slova i".*
+> Pravilo je stajalo u `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md` (red 364) **od ranije**,
+> ali ga nijedna sesija nije čitala pre pisanja teksta — pa je na sajtu bilo **šest mesta**.
+
+Ako rečenica „traži" zarez ispred *i*, rečenica je **loše sastavljena**. Ne briše se
+zarez — **prepisuje se rečenica**:
+
+| Ne | Da |
+|---|---|
+| „…vidiš rime u boji, **i** broj slogova uz stih." | „…vidiš rime u boji, uz svaki stih piše i broj slogova." |
+| „Uključe ga jednom, **i** ostaje upamćen." | „Uključe ga jednom i ostaje upamćen." |
+| „Kada je „r" između suglasnika, **i** ono nosi slog." | „Kada je „r" između suglasnika, ono nosi slog." |
+
+**Jedini izuzetak koji pravopis dozvoljava** je nabrajanje sa ponovljenim veznikom:
+*„i imenice, i pridevi, i glagoli"*.
+
+> **Za `pa`, `te`, `ni` pravilo NIJE isto tako oštro.** Ono važi kad povezuju
+> **istorodne delove**; kad `pa` uvodi posledicu ili redosled radnji — *„Klikni je, pa
+> iz spiska izaberi rimu"* — zarez **stoji**. To razlikovanje traži značenje, pa se ne
+> proverava programski: provera koja pada na tačnom tekstu tera pisca da kvari jezik.
+
+**Provera pre predaje:** `grep -n ", i " <fajl>` mora da vrati prazno.
+**Provera u testu:** sekcija 34 prolazi kroz sedam strana i pada na svakom takvom zarezu.
+
+### Ostala interpunkcija koja se najčešće greši
+
+- **Zarez ide** ispred *a, ali, već, nego, dok* (suprotno značenje).
+- **Zavisna rečenica ispred glavne** odvaja se zarezom: *Kad je došao, svi su ućutali.*
+- **Umetnuta rečenica** zatvara se sa obe strane: *Rima, koja je duža, jače zvuči.*
+- **Navodnici su srpski** — „ovako", ne "ovako" ni “ovako”.
+- **Crta (—) nije minus (-).**
+- **Trotačka je jedan znak (…)**, ne tri tačke zaredom.
+
+> Ko piše tekst: agent **`tekstopisac`** (`.claude/agents/tekstopisac.md`) — sva ova
+> pravila su i tamo, u koraku 0, zajedno sa tonom i čeklistom pre predaje.
 
 Taj dokument postoji zato što je automatski generator ubacio u predlog rečnika
 oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,

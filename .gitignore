@@ -9,3 +9,9 @@ node_modules/
 # snimci ekrana koje ostavi Playwright
 hub-rime-za.png
 *.playwright.png
+
+# Radni folderi paralelnih sesija (`claude --worktree <ime>`).
+# Svaka sesija tako dobija SVOJ folder i SVOJU granu, pa dve sesije ne mogu da
+# pišu preko istog fajla. Ovi folderi su privremeni i ne idu u repo.
+# NE proširivati na ceo `.claude/` — tamo žive agenti i podešavanja koja se prate.
+.claude/worktrees/

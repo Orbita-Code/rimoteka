@@ -77,12 +77,37 @@ HTML-u (pretraživač ga čita), samo više nije zid. Dodato i globalno pravilo 
 > je 20 puta**, tačno na izmerenim brojevima. Provera koja ne padne na starom kodu
 > ne vredi ništa; ovo pravilo se drži.
 
-**FUTER JE VLASNICA ODBILA.** Prvi pokušaj je bio uredan spisak linkova u tri
-kolone sa popravljenim dodirnim ciljevima — ali bez ičega što je traženo: nema
-nota, nema dugmeta „Saradnja", nema kompozicije, sve levo poravnato. Njene reči:
-*„gde su note u futeru? zašto je futer levo poravnan? gde je taj redizajn"*.
-U trenutku pisanja **agent radi drugi prolaz** sa jasnim merilom: futer mora da
-izgleda **osmišljeno, ne sastavljeno**.
+**FUTER — PRVI POKUŠAJ ODBIJEN, DRUGI PROŠAO.**
+
+Prvi je bio uredan spisak linkova u tri kolone sa popravljenim dodirnim ciljevima
+— ali bez ičega što je traženo: nema nota, nema dugmeta „Saradnja", nema
+kompozicije, sve levo poravnato. Reči vlasnice: *„gde su note u futeru? zašto je
+futer levo poravnan? gde je taj redizajn"*. **Ona je bila u pravu i to se ne brani.**
+
+Drugi prolaz (commit `512c07993`) je prošao:
+
+| Šta se meri | Pre | Posle | Granica |
+|---|---|---|---|
+| note u futeru | 0 | **8** (5 na telefonu) | — |
+| dugme „Saradnja" | nema | **48 px visine** | bar 44 px |
+| slovo na dugmetu, svetla / tamna | — | **5,62 / 6,52** | bar 4,5 |
+| naslov kolone na novoj podlozi | 4,20 | **5,01 / 5,73** | bar 4,5 |
+| najduža kolona | **12 stavki** | **6** | ne duplo duža od ostalih |
+| visina futera, telefon | 2.051 px | **1.670 px** | — |
+| pre-deploy test | 467 | **496 provera** | izlazni kod 0 |
+
+Notni sistem preko cele širine, note sede na linijama, taktna crta na kraju.
+Kolona „Namene" je imala **12 stavki** naspram 6 i 5 — pravila je praznu rupu od
+~300 px desno — pa je podeljena na „Rime po temi" i „Rime za priliku".
+**Nijedan link nije dodat ni uklonjen: 55 pre, 55 posle.**
+Svih 29 novih provera pušteno je protiv produkcije dok je tamo star futer —
+**svih 29 tamo pada.**
+
+**Uporedo su napravljene TRI ALTERNATIVNE VARIJANTE futera** (notni sistem ·
+beležnica · refren), da vlasnica bira umesto da opisuje šta želi. Stoje **izvan
+projekta**, u scratchpad folderu sesije (`varijante-futera/`), služene na portu
+**8766**. Ako se sesija ugasi, folder nestaje — nije šteta, prave se za pola sata.
+**Vlasnica bira između dizajnerovog futera i te tri varijante; izbor još nije dat.**
 
 ---
 
@@ -144,7 +169,15 @@ Uvek `make new tab`, nikad ne menjati njen tekući tab.
 do vidljivosti prošlo je **~30 s** — prva provera je zato bila prazna i umalo
 proglasila neuspeh.
 
-**5. Gmail-ov spisak rezultata je virtuelizovan** — `innerText` reda vraća
+**5. CSP ZABRANJUJE SKRIPTE UPISANE U STRANU — pravilo koje menja način rada.**
+`nginx.conf:32` postavlja pravilo koje pregledaču zabranjuje da izvršava skripte
+napisane direktno u `index.html`. Posledica: `IntersectionObserver` upisan u
+stranu **lokalno radi, a na produkciji tiho ne radi** — animacija bi izgledala
+savršeno u pregledu, a na sajtu bi note stajale mrtve. Zato je pokret nota
+urađen čistim CSS-om (`animation-timeline: view()`). **Pre svake animacije koja
+traži JS: proveriti gde taj JS živi.**
+
+**6. Gmail-ov spisak rezultata je virtuelizovan** — `innerText` reda vraća
 prazno. Radi: `span[data-hovercard-id]` za pošiljaoce, `span[title]` za datume,
 ili klik na red pa čitanje `div[role=main]`.
 
@@ -152,7 +185,9 @@ ili klik na red pa čitanje `div[role=main]`.
 
 ## 6. Šta čeka sledeću sesiju, ovim redom
 
-1. **Nov futer** — agent radi drugi prolaz; vlasnica pregleda snimke.
+1. **Vlasnica bira futer** — dizajnerov (na grani, `localhost:8765`) ili jedna od
+   tri varijante (`localhost:8766`). Bez tog izbora ništa dalje ne ide.
+   Ako izabere varijantu, **pokret nota se prepisuje u CSS** — v. zamku 5.
 2. **Regeneracija ~2.000 strana** (`python3 build/gen_pages.py`) da i one dobiju
    nov futer i `eureka@rimoteka.com` — **zaseban commit**, nikad pomešan sa
    izmenom izgleda.

@@ -67,6 +67,27 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
+## ZATVORENO 02.08.2026 — R1-ostatak (šest reči)
+
+Reči su ponovo provučene kroz Rečnik Matice srpske, sa dokazom za svaku:
+
+| Reč | Šta kaže Rečnik Matice | Odluka vlasnice |
+|---|---|---|
+| `grne` | odrednica `грнути, грнем` (red 45112) | **ostaje** |
+| `klube` | nije zasebna odrednica, ali stoji u odrednici `клупче`: „дем. од **клубе** и клупко" (red 114142) — znači *klupko*, ne „oblik reči klub" | obrisano |
+| `grnce` | `грнути` i `грнчар` postoje, `грне` kao imenica (lonac) nije odrednica | obrisano |
+| `krol` | rečnik ima `краул` (red 264873); `крол` se ne javlja nigde | obrisano |
+| `gojenac`, `gojence` | nema ih nigde; za taj pojam rečnik daje `штићеник` | obrisano |
+
+Obrisano iz `public/reci.txt` (272.638 → **272.633**) i iz `public/definicije.json`
+(282.852 → **282.847**). Povratna kopija: `reci.txt.pre-r1`.
+
+> Prvi prolaz (30.07.) je za svih šest rekao „nema ih u Matici" i predložio brisanje.
+> Dve od njih rečnik **ima** — `grne` kao odrednicu, `klube` unutar tuđe odrednice.
+> Pouka je u `PROPUSTI.md`, pravilo 68.
+
+---
+
 ## ZATVORENO 02.08.2026 — J1-ostatak (277 spornih oblika)
 
 > Povod: prijava vlasnice — „zašto imam reč `hljeba`, a nisam uključila ijekavicu?"
@@ -166,11 +187,10 @@ nijedna nije početak druge — sada se porede prva šest slova.
 
 ---
 
-## OTVORENO (2)
+## OTVORENO (1)
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
-| **R1-ostatak** | **Šest reči čeka odluku vlasnice:** `gojence`, `gojenac`, `grnce`, `grne`, `krol`, `klube`. Nijedna nije nađena kao odrednica u Rečniku Matice srpske — ali odsustvo NIJE dokaz, jer je izvlačenje iz skeniranog teksta i promaši neke (`more` nije nađeno, a postoji). | Sadržaj rečnika — odlučuje vlasnica. Spisak: `AUDIT/R1-reci-za-odluku.md`. | `public/definicije.json` | 30.07. |
 | **P11** | **Hub `/rime-za/` je zid od 2.000 linkova** (bilo 1.988). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. Sada je i **odredište 1.672 preusmerenja**, pa je važnija nego pre. | Traži odluku vlasnice o izgledu (podela po slovima / po temama). | `build/gen_pages.py:1460–1505` | 29.07. |
 
 ---

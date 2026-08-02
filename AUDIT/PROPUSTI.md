@@ -1058,3 +1058,18 @@ te dve reči nije početak one druge, pa poklapanja nije bilo.
 > jednosmerno poređenje promašuje celu klasu reči. I: **spisak za brisanje se ne
 > izvodi iz obrasca nego se ispisuje reč po reč** — u grupi od 118 „nepotvrđenih"
 > bile su izmešane hrvatske reči, ijekavski oblici i obične srpske reči.
+
+---
+
+## 02.08.2026 — „nema je u rečniku" traženo samo na početku reda
+
+**Šta je promašeno:** spisak R1 je za svih šest reči tvrdio „nije odrednica u Matici".
+Za `grne` to nije bilo tačno (odrednica `грнути, грнем`), a `klube` rečnik ima
+**unutar** odrednice `клупче` („дем. од клубе и клупко") — i tu se videlo da naša
+definicija („oblik reči klub") nije tačna.
+
+> **PRAVILO 68:** **Reč se u rečniku traži i unutar tuđih odrednica, ne samo kao
+> sopstvena odrednica.** Rečnik značenje često daje uputom iz druge odrednice, a
+> promenjeni oblik (`grne` od `grnuti`) uopšte nema svoju. Zaključak „nema je u
+> rečniku" sme da se napiše tek kad je reč tražena na oba načina — inače se briše
+> postojeća reč, a pogrešna definicija ostane neotkrivena.

@@ -291,7 +291,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=232')
+  defsPromise = fetch('/definicije.json?v=233')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -325,7 +325,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260802c', true),
+    uzmiTekst('/reci.txt?v=20260802d', true),
     uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){

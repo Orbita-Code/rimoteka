@@ -64,6 +64,18 @@
   /* Natpis u praznom polju („upiši reč, npr. ljubav"). Išao je kroz `--muted`,
      koji u tamnoj temi daje 4,07 — ispod granice. Sada ima svoju promenljivu. */
   --field-hint:#756e94;      /* na belom polju = 4,76 */
+  /* ── FUTER ───────────────────────────────────────────────────────────────
+     Futer ima svoju podlogu da bi se video kao zaseban pojas, a ne kao
+     nastavak strane. Podloga je blago tamnija od strane, pa SITAN TEKST na
+     njoj mora da se izmeri iznova: `--muted` (#756e94) na beloj daje 4,76, a
+     na ovoj podlozi pada na 4,20 — ispod granice 4,5. Zato futer ima svoju
+     boju sitnog teksta. Ako se podloga menja, PONOVO IZMERITI
+     (`node test/predeploy.mjs`, sekcija 36 — pada ispod 4,5). */
+  --futer-bg-a:#fbf9ff;      /* vrh — skoro kao strana, da prelaz bude mekan */
+  --futer-bg-b:#f5f2ff;      /* dno */
+  --futer-sitno:#6a6390;     /* na --futer-bg-b = 4,96 */
+  --futer-linija:#d8d0f2;    /* pet linija notnog sistema (ukras, ne nosi podatak) */
+  --futer-nota:#6d5abd;      /* note na linijama = 4,80 prema podlozi */
 }
 body.dark-mode{
   --lavender:#b8a5f5;
@@ -105,6 +117,13 @@ body.dark-mode{
   --fill-info-b:#5ab8f8;     /*                      = 8,22 */
   --on-info:#1a1230;
   --field-hint:#a196c6;      /* na polju #2a2440 = 5,40 (bilo 4,07) */
+  /* Futer u tamnoj temi: podloga je TAMNIJA od strane (strana je #121018 →
+     #1e1a2e), pa se pojas i dalje odvaja, ali naniže. Izmereno 02.08.2026. */
+  --futer-bg-a:#1c1830;
+  --futer-bg-b:#161226;
+  --futer-sitno:#9a90bf;     /* na --futer-bg-b = 6,49 */
+  --futer-linija:#3e3663;
+  --futer-nota:#9a88db;
 }
 body.dark-mode{background:#121018}
 /* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
@@ -905,20 +924,147 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 
 /* ── FUTER, nova verzija ───────────────────────────────────────────────────
    Vezano za `.futer-v2` da stari futer na ~2.000 generisanih strana ostane
-   netaknut dok se i one ne prepišu. */
-.futer-v2 .footer-inner{align-items:stretch;text-align:left;gap:1.6rem}
-.futer-v2 .futer-glava{display:flex;flex-direction:column;align-items:flex-start;gap:.4rem}
-.futer-v2 .footer-desc{margin:0;max-width:52ch}
-.futer-v2 .futer-mreza{
-  display:grid;gap:1.4rem 1.6rem;
-  /* `auto-fit` sa najmanjom kolonom od 180 px: na telefonu jedna kolona,
-     na 1440 px tri. Bez tačke preloma koja se pogađa napamet. */
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+   netaknut dok se i one ne prepišu.
+
+   KOMPOZICIJA (odozgo nadole), da se struktura vidi „iz aviona":
+     1) notni sistem — pet linija preko cele širine + osam nota; granica
+        između strane i futera i motiv koji nosi identitet;
+     2) gornji pojas — znak i rečenica levo, dugme „Saradnja" desno;
+     3) sredina — četiri kolone linkova (levo poravnate, spisak se tako
+        najbrže čita) i traka popularnih rima;
+     4) dno — ključne reči, prava, Orbita.
+   Pojas 2 i 4 su izbalansirani (na telefonu centrirani), pa celina ne deluje
+   kao da je sve nabacano uz levu ivicu. */
+
+/* Pozadina i granica futera.
+   Specifičnost: `body.dark-mode .site-footer` (0,2,0) iznad u fajlu postavlja
+   `background:#1e1a2e`. Zato ovde stoji `.site-footer.futer-v2` — ista
+   specifičnost (0,2,0), ali kasnije u fajlu, pa pobeđuje. Bez te druge klase
+   pravilo bi tiho izgubilo i futer bi u tamnoj temi ostao stare boje. */
+.site-footer.futer-v2{
+  border-top:0;                       /* granicu preuzima notni sistem */
+  padding-top:1.4rem;
+  background:linear-gradient(180deg,var(--futer-bg-a) 0,var(--futer-bg-b) 260px);
+}
+.futer-v2 .footer-inner{align-items:stretch;text-align:left;gap:1.9rem}
+
+/* ── 1) NOTNI SISTEM ──────────────────────────────────────────────────────
+   Pet linija crta gradijent, ne SVG: tako idu od ivice do ivice ekrana i
+   uvek su debele tačno 1 px, na svakoj širini i svakoj gustini piksela.
+   Traka je visoka 72 px i note su fiksne visine 72 px — 1 jedinica SVG-a =
+   1 px — pa glave nota uvek padaju tačno na linije. Da su note i linije u
+   jednom širokom SVG-u koji se rasteže, glave bi sišle s linija.
+   Negativne bočne margine ponište padding futera (1,5rem) da linije stignu
+   do same ivice ekrana. */
+.futer-v2 .futer-notni{position:relative;height:72px;margin:0 -1.5rem 1.4rem;overflow:hidden}
+.futer-v2 .futer-notni::before{
+  content:'';position:absolute;left:0;right:0;top:18px;height:33px;
+  /* period 8 px → linije na 18, 26, 34, 42 i 50 px od vrha trake */
+  background:repeating-linear-gradient(to bottom,var(--futer-linija) 0 1px,transparent 1px 8px);
+  /* Krajevi blago izblede umesto da se linije naglo seku o ivicu ekrana —
+     tako notni sistem izgleda kao odsvirana fraza, a ne kao odsečena tabela.
+     Ako pregledač maske ne podržava, linije jednostavno idu do ivice. */
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
+}
+/* Note se poravnavaju sa sadržajem futera: 940 px sadržaja + 2×1,5rem padding. */
+.futer-v2 .futer-note{
+  position:relative;display:flex;justify-content:space-between;align-items:flex-start;
+  max-width:calc(940px + 3rem);margin:0 auto;padding:0 1.5rem;
+}
+.futer-v2 .nota{flex:0 0 auto;color:var(--futer-nota)}
+/* Taktne crte: tanka na početku, dvostruka (tanka + debela) na kraju — tako
+   se u notama piše kraj pesme. Rađene kao pseudo-elementi da bi ih
+   `space-between` gurnuo na same ivice sadržaja i uokvirio note, a da pritom
+   ne pomere brojanje `nth-child` u stepenastom ulasku. */
+.futer-v2 .futer-note::before,
+.futer-v2 .futer-note::after{
+  content:'';flex:0 0 auto;align-self:flex-start;margin-top:18px;height:33px;
+  background:var(--futer-nota);
+}
+.futer-v2 .futer-note::before{width:1.8px}
+.futer-v2 .futer-note::after{
+  width:8px;background:linear-gradient(90deg,
+    var(--futer-nota) 0 1.6px,transparent 1.6px 4.6px,var(--futer-nota) 4.6px 8px);
+}
+
+/* Ulazak nota kad futer uđe u vidno polje.
+   Rađeno CSS-om (`animation-timeline: view()`), NE JavaScriptom, iz dva
+   razloga: (1) pravilo `Content-Security-Policy` na produkciji zabranjuje
+   umetnute skripte, pa `IntersectionObserver` ne bi mogao da stoji u
+   index.html; (2) ovako nema nijednog bajta JS-a na putu do rime.
+   Pregledač koji `view()` ne podržava jednostavno preskoči ceo blok —
+   note su tada odmah vidljive, ništa se ne gubi. */
+@supports (animation-timeline:view()){
+  .futer-v2 .nota{
+    animation:nota-ulaz 1ms linear both;
+    animation-timeline:view();
+    /* Stepenasto: svaka sledeća nota završava ulazak malo kasnije.
+       Osam nota × korak od 5% — ceo pokret stane dok futer prelazi donju
+       trećinu ekrana, dakle pre nego što ga čovek stvarno pogleda. */
+    animation-range:entry 0% entry 34%;
+  }
+  .futer-v2 .nota:nth-child(2){animation-range:entry 0% entry 39%}
+  .futer-v2 .nota:nth-child(3){animation-range:entry 0% entry 44%}
+  .futer-v2 .nota:nth-child(4){animation-range:entry 0% entry 49%}
+  .futer-v2 .nota:nth-child(5){animation-range:entry 0% entry 54%}
+  .futer-v2 .nota:nth-child(6){animation-range:entry 0% entry 59%}
+  .futer-v2 .nota:nth-child(7){animation-range:entry 0% entry 64%}
+  .futer-v2 .nota:nth-child(8){animation-range:entry 0% entry 69%}
+}
+/* Pomera se samo `transform` i `opacity` — oboje radi grafička kartica, pa
+   raspored ostaje netaknut (ne utiče na CLS). */
+@keyframes nota-ulaz{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
+/* Globalno pravilo za smanjen pokret gasi TRAJANJE, a animacija vezana za
+   skrol trajanje ne koristi — zato se ovde gasi izričito, i note ostaju
+   vidljive (podatak, pa i ukras, ne sme da se izgubi). */
+@media(prefers-reduced-motion:reduce){
+  .futer-v2 .nota{animation:none!important;opacity:1;transform:none}
+}
+
+/* ── 2) GORNJI POJAS: znak + rečenica levo, „Saradnja" desno ───────────── */
+.futer-v2 .futer-glava{
+  display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;
+  gap:1.1rem 2rem;padding-bottom:1.6rem;border-bottom:1px solid var(--line);
+}
+.futer-v2 .futer-glava-tekst{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:.45rem}
+.futer-v2 .footer-desc{margin:0;max-width:46ch}
+.futer-v2 .futer-akcija{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;max-width:26rem}
+.futer-v2 .futer-akcija-hint{margin:0;font-size:.82rem;font-weight:500;color:var(--futer-sitno);text-align:right;line-height:1.5}
+
+/* Dugme „Saradnja" — jedina jaka boja u futeru, pa je oku odmah težište.
+   Boje idu kroz par `--fill-accent-*` / `--on-accent`, koji je već izmeren u
+   obe teme (5,62 i 9,08; granica 4,5). Visina 48 px > 44 px, koliko traži
+   dodir prstom. */
+.futer-v2 .futer-cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  min-height:48px;padding:.7rem 1.6rem;border-radius:999px;
+  background:linear-gradient(120deg,var(--fill-accent-a),var(--fill-accent-b));
+  color:var(--on-accent);font-weight:700;font-size:1rem;text-decoration:none;
+  border-bottom:0;box-shadow:var(--shadow-sm);
+  /* Odziv na dodir: 100 ms je gornja granica na kojoj potez još deluje
+     trenutno. Menja se samo `transform` — ništa se ne preslaže. */
+  transition:transform .1s cubic-bezier(.2,0,0,1),box-shadow .1s cubic-bezier(.2,0,0,1);
+}
+.futer-v2 .futer-cta:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.futer-v2 .futer-cta:active{transform:scale(.98)}
+.futer-v2 .futer-cta:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:3px}
+.futer-v2 .futer-cta svg{flex:0 0 auto}
+
+/* ── 3) KOLONE ───────────────────────────────────────────────────────────
+   Četiri kolone od po 5–6 stavki umesto tri od 6, 5 i 12: ranije je treća
+   kolona bila duža od prve dve za ~300 px i desno je zjapila rupa.
+   Dve tačke preloma umesto `auto-fit`: `auto-fit` je na 390 px davao jednu
+   kolonu (futer visok 2.051 px), a razmak do dve kolone bio je na 5 px —
+   previše blizu ivice da bi se na njega oslanjalo. */
+.futer-v2 .futer-mreza{display:grid;gap:1.5rem 1rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(min-width:720px){
+  .futer-v2 .futer-mreza{grid-template-columns:repeat(4,minmax(0,1fr));gap:1.6rem}
 }
 .futer-v2 .futer-kolona{display:flex;flex-direction:column}
 .futer-v2 .futer-naslov{
   font-weight:700;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--muted);margin:0 0 .35rem;
+  color:var(--futer-sitno);margin:0 0 .35rem;
 }
 /* Dodirni cilj: link u futeru je bio visok 16–19 px (izmereno 02.08.2026).
    Na telefonu prag je 44 px i podiže se u mobilnom bloku niže; na računaru se
@@ -946,11 +1092,18 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .futer-rime-spisak .footer-link:hover{border-color:var(--lavender);color:var(--lavender-deep)}
 .futer-v2 .futer-rime-spisak .footer-link:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:2px}
 
+/* ── 4) DNO ─────────────────────────────────────────────────────────────
+   Prava levo, Orbita desno — dno je izbalansirano, ne nabijeno uz levu ivicu.
+   Na telefonu se sve centrira (pravilo niže u mobilnom bloku). */
 .futer-v2 .futer-dno{
-  display:flex;flex-direction:column;gap:.3rem;
-  padding-top:1.2rem;border-top:1px solid var(--line);
+  display:flex;flex-direction:column;gap:.55rem;
+  padding-top:1.3rem;border-top:1px solid var(--line);
 }
-.futer-v2 .footer-contact,.futer-v2 .footer-keys,.futer-v2 .footer-legal{margin:0}
+.futer-v2 .futer-dno-red{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.3rem 1.2rem;
+}
+.futer-v2 .footer-keys,.futer-v2 .footer-legal,.futer-v2 .footer-orbita{margin:0;color:var(--futer-sitno)}
+.futer-v2 .footer-orbita{font-size:.8rem;font-weight:600}
 
 /* LOADING + TOAST */
 .loading{position:fixed;left:50%;bottom:2rem;transform:translateX(-50%);background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;padding:.75rem 1.4rem;border-radius:999px;font-weight:600;font-size:.92rem;box-shadow:var(--shadow);z-index:50}
@@ -1184,7 +1337,35 @@ body.dark-mode .landing-tool{background:#1e1a2e}
   .footer-rimes,.footer-guides{flex-wrap:wrap;gap:.5rem}
   /* Na telefonu se futer koristi prstom — puni dodirni cilj od 44 px. */
   .futer-v2 .futer-kolona .footer-link{min-height:44px}
-  .futer-v2 .footer-inner{gap:1.3rem}
+  /* Bez unutrašnjeg paddinga: futer već ima 1,5rem sa strane, pa bi sadržaj
+     bio uvučen 2,5rem, a note (koje su poravnate na 1,5rem) ne bi stajale u
+     istoj liniji sa naslovima kolona. */
+  .futer-v2 .footer-inner{gap:1.5rem;padding:0}
+  /* Gornji pojas i dno se na telefonu centriraju — jednom rukom se gleda po
+     sredini ekrana. Kolone linkova OSTAJU levo poravnate: spisak se tako
+     najbrže čita, a centriran spisak nema zajedničku ivicu za oko. */
+  .futer-v2 .futer-glava{flex-direction:column;align-items:center;text-align:center}
+  /* `flex:1 1 320px` iz šireg pravila u USPRAVNOM redu znači visinu od
+     320 px, pa je na telefonu između opisa i dugmeta zjapila rupa od 250 px
+     (izmereno 02.08.2026). U koloni se osnova mora poništiti. */
+  .futer-v2 .futer-glava-tekst{flex:0 0 auto;align-items:center;width:100%}
+  .futer-v2 .footer-desc{max-width:34ch}
+  .futer-v2 .futer-akcija{align-items:center;width:100%;max-width:none}
+  .futer-v2 .futer-akcija-hint{text-align:center}
+  .futer-v2 .futer-cta{width:100%;max-width:22rem}
+  .futer-v2 .futer-dno{align-items:center;text-align:center}
+  .futer-v2 .futer-dno-red{justify-content:center;gap:.2rem .8rem}
+  /* Adresa e-pošte i „Orbita Code" su na računaru linkovi usred rečenice
+     (16 px visine). Na telefonu se u njih gađa prstom, pa svaki dobija svoj
+     red i punih 44 px visine — ne raste font, raste samo površina za dodir. */
+  .futer-v2 .futer-akcija-hint a,
+  .futer-v2 .footer-orbita a{
+    display:flex;align-items:center;justify-content:center;min-height:44px;
+  }
+  /* Note: na uskom ekranu osam nota bi bilo na 19 px razmaka — zbijeno.
+     Poslednje tri se sklanjaju, ostaje pet sa prozračnim razmakom. */
+  .futer-v2 .nota-sira{display:none}
+  .futer-v2 .futer-notni{height:66px;margin-bottom:1.1rem}
 
   /* Rezultati — veći touch targeti */
   .chip{padding:.6rem 1rem;font-size:.95rem}

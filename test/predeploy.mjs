@@ -3730,6 +3730,189 @@ async function main() {
       await ctx35e.close();
     }
 
+    console.log('\n36) FUTER — note, dugme „Saradnja", kompozicija, sitan tekst');
+    {
+      /* Zašto ova sekcija postoji: 02.08.2026. je futer bio zanatski tačan
+         (dodirni ciljevi, kolone), ali je vlasnica rekla „gde su note, zašto
+         je sve levo poravnato, gde je redizajn" — i bila je u pravu. Nije bilo
+         ni nota, ni dugmeta za kontakt, ni kompozicije.
+         Provere ispod čuvaju SVE troje. Puštene su protiv produkcije dok je
+         tamo stajao stari futer i tamo PADAJU — provera koja ne padne nad
+         starim kodom ne valja. */
+      const MERE36 = `
+        function pRGB(s){const m=String(s).match(/rgba?\\(([^)]+)\\)/);if(!m)return null;
+          const p=m[1].split(',').map(x=>parseFloat(x));return{r:p[0],g:p[1],b:p[2],a:p.length>3?p[3]:1};}
+        function lin(c){c/=255;return c<=0.03928?c/12.92:Math.pow((c+0.055)/1.055,2.4);}
+        function LUM(c){return 0.2126*lin(c.r)+0.7152*lin(c.g)+0.0722*lin(c.b);}
+        function odnos(a,b){const l1=LUM(a),l2=LUM(b),hi=Math.max(l1,l2),lo=Math.min(l1,l2);return (hi+0.05)/(lo+0.05);}
+        function bojeSloja(el){const cs=getComputedStyle(el);
+          const iz=[...String(cs.backgroundImage||'').matchAll(/rgba?\\([^)]+\\)/g)].map(m=>pRGB(m[0])).filter(Boolean);
+          const sam=pRGB(cs.backgroundColor); if(sam&&sam.a>0.99) iz.push(sam);
+          return iz;}
+        /* Podloga se traži naviše kroz pretke — futer ima PRELIV, pa boja
+           pozadine samog pasusa ne postoji. Uzimaju se sve boje preliva i
+           vraća se NAJGORI odnos. */
+        function najgoriPremaPodlozi(el){const fg=pRGB(getComputedStyle(el).color);
+          let n=el;
+          while(n&&n!==document.documentElement){const b=bojeSloja(n);
+            if(b.length) return Math.min(...b.map(c=>odnos(fg,c)));
+            n=n.parentElement;}
+          const b=pRGB(getComputedStyle(document.body).backgroundColor)||{r:255,g:255,b:255,a:1};
+          return odnos(fg,b);}
+      `;
+
+      for (const tema of ['svetla', 'tamna']) {
+        const ctx = await browser.newContext({
+          viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2,
+        });
+        if (tema === 'tamna') {
+          await ctx.addInitScript(() => { try { localStorage.setItem('rimoteka_dark', '1'); } catch (e) {} });
+        }
+        const p36 = ojacajStranu(await ctx.newPage());
+        await p36.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(700);
+        // note ulaze tek kad futer uđe u vidno polje — dovedi ga tamo
+        await p36.evaluate(() => document.querySelector('footer.site-footer')?.scrollIntoView({ block: 'center' }));
+        await pauza(800);
+
+        const f = await p36.evaluate(({ MERE36 }) => {
+          eval(MERE36);
+          const cta = document.querySelector('.futer-v2 .futer-cta');
+          const notni = document.querySelector('.futer-v2 .futer-notni');
+          const note = [...document.querySelectorAll('.futer-v2 .nota')];
+          const vidljive = note.filter(n => getComputedStyle(n).display !== 'none');
+          const r = {
+            imaDugme: !!cta,
+            adresa: cta ? (cta.getAttribute('href') || '') : '',
+            tekstDugmeta: cta ? cta.textContent.trim() : '',
+            kontrastDugmeta: null, ciljDugmeta: null,
+            imaNotni: !!notni,
+            linijeNotnog: notni ? getComputedStyle(notni, '::before').backgroundImage : '',
+            notaUkupno: note.length,
+            notaVidljivih: vidljive.length,
+            notaProzirnih: vidljive.filter(n => parseFloat(getComputedStyle(n).opacity) < 0.9).length,
+            sitno: {},
+            ispod44: [], rupaGlave: null,
+          };
+          if (cta) {
+            const fg = pRGB(getComputedStyle(cta).color);
+            r.kontrastDugmeta = Math.round(Math.min(...bojeSloja(cta).map(c => odnos(fg, c))) * 100) / 100;
+            const rc = cta.getBoundingClientRect();
+            r.ciljDugmeta = { w: Math.round(rc.width), h: Math.round(rc.height) };
+          }
+          const sitniSeli = {
+            'naslov kolone': '.futer-v2 .futer-naslov',
+            'poziv uz dugme': '.futer-v2 .futer-akcija-hint',
+            'ključne reči': '.futer-v2 .footer-keys',
+            'prava': '.futer-v2 .footer-legal',
+          };
+          for (const [k, s] of Object.entries(sitniSeli)) {
+            const e = document.querySelector(s);
+            r.sitno[k] = e ? Math.round(najgoriPremaPodlozi(e) * 100) / 100 : null;
+          }
+          // dodirni ciljevi — SVI linkovi futera, i oni usred rečenice
+          const linkovi = [...document.querySelectorAll(
+            '.futer-v2 .futer-kolona .footer-link, .futer-v2 .futer-rime-spisak .footer-link, ' +
+            '.futer-v2 .futer-cta, .futer-v2 .futer-akcija-hint a, .futer-v2 .footer-orbita a')];
+          r.linkova = linkovi.length;
+          r.ispod44 = linkovi.filter(a => a.getBoundingClientRect().height < 44)
+            .map(a => `${a.textContent.trim().slice(0, 22)}=${Math.round(a.getBoundingClientRect().height)}px`);
+          // rupa u gornjem pojasu: rastojanje od dna opisa do vrha dugmeta
+          const opis = document.querySelector('.futer-v2 .footer-desc');
+          if (opis && cta) r.rupaGlave = Math.round(cta.getBoundingClientRect().top - opis.getBoundingClientRect().bottom);
+          return r;
+        }, { MERE36 });
+
+        ok(`futer (${tema}) · dugme „Saradnja" postoji i vodi na e-poštu`,
+           f.imaDugme && /Saradnja/.test(f.tekstDugmeta) && f.adresa === 'mailto:eureka@rimoteka.com',
+           f.imaDugme ? `tekst „${f.tekstDugmeta}", adresa „${f.adresa}"` : 'nema dugmeta .futer-cta u futeru');
+        ok(`futer (${tema}) · kontrast dugmeta „Saradnja" je bar 4,5`,
+           f.kontrastDugmeta !== null && f.kontrastDugmeta >= 4.5,
+           `izmereno ${String(f.kontrastDugmeta).replace('.', ',')} (granica 4,5)`);
+        ok(`futer (${tema}) · dugme „Saradnja" je dodirni cilj od bar 44 px`,
+           f.ciljDugmeta && f.ciljDugmeta.h >= 44 && f.ciljDugmeta.w >= 44,
+           f.ciljDugmeta ? `${f.ciljDugmeta.w}×${f.ciljDugmeta.h} px` : 'nema dugmeta');
+
+        ok(`futer (${tema}) · notni sistem ima linije`,
+           f.imaNotni && /gradient/.test(f.linijeNotnog),
+           f.imaNotni ? `pozadina trake: ${String(f.linijeNotnog).slice(0, 40)}` : 'nema trake .futer-notni');
+        ok(`futer (${tema}) · na telefonu se vidi bar pet nota`,
+           f.notaUkupno >= 8 && f.notaVidljivih >= 5,
+           `u kodu ${f.notaUkupno}, prikazano ${f.notaVidljivih} (traži se bar 5 od 8)`);
+        /* Bez ove provere bi ulazna animacija mogla da ostavi note na
+           `opacity:0` i futer bi ostao bez motiva, a sve ostalo bi prolazilo. */
+        ok(`futer (${tema}) · note su STVARNO vidljive kad se dođe do futera`,
+           f.notaVidljivih >= 5 && f.notaProzirnih === 0,
+           `${f.notaProzirnih} nota je ostalo prozirno posle ulaska`);
+
+        for (const [k, v] of Object.entries(f.sitno)) {
+          ok(`futer (${tema}) · kontrast „${k}" na podlozi futera je bar 4,5`,
+             v !== null && v >= 4.5,
+             v === null ? 'element ne postoji' : `izmereno ${String(v).replace('.', ',')} (granica 4,5)`);
+        }
+
+        ok(`futer (${tema}) · na telefonu je svaki link dodirni cilj od bar 44 px`,
+           f.linkova > 50 && f.ispod44.length === 0,
+           f.linkova <= 50 ? `nađeno samo ${f.linkova} linkova — nov futer nije na strani`
+                           : `nižih: ${f.ispod44.join(', ')}`);
+        /* Rupa od 250 px između opisa i dugmeta nastala je od `flex:1 1 320px`,
+           koje u uspravnom redu znači VISINU od 320 px. Izgledalo je kao da je
+           futer prazan. */
+        ok(`futer (${tema}) · nema prazne rupe između opisa i dugmeta`,
+           f.rupaGlave !== null && f.rupaGlave >= 0 && f.rupaGlave <= 48,
+           `razmak ${f.rupaGlave} px (granica 48 px, bilo 250 px)`);
+
+        await ctx.close();
+      }
+
+      // Kompozicija na računaru: četiri kolone i dugme kao težište desno gore
+      const ctx36d = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+      const p36d = ojacajStranu(await ctx36d.newPage());
+      await p36d.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(700);
+      const d = await p36d.evaluate(() => {
+        const mreza = document.querySelector('.futer-v2 .futer-mreza');
+        const cta = document.querySelector('.futer-v2 .futer-cta');
+        const inner = document.querySelector('.futer-v2 .footer-inner');
+        return {
+          kolona: mreza ? getComputedStyle(mreza).gridTemplateColumns.trim().split(/\s+/).length : 0,
+          najduza: Math.max(...[...document.querySelectorAll('.futer-v2 .futer-kolona')]
+            .map(k => k.querySelectorAll('.footer-link').length)),
+          ctaDesno: (cta && inner)
+            ? cta.getBoundingClientRect().left > inner.getBoundingClientRect().left + inner.getBoundingClientRect().width / 2
+            : false,
+          nota: [...document.querySelectorAll('.futer-v2 .nota')].filter(n => getComputedStyle(n).display !== 'none').length,
+        };
+      });
+      ok('futer na računaru · linkovi su u četiri kolone', d.kolona === 4, `nađeno kolona: ${d.kolona}`);
+      /* Kolona „Namene" je imala 12 stavki prema 6 i 5 u ostalima — bila je
+         duža za ~300 px i desno je zjapila rupa. */
+      ok('futer na računaru · nijedna kolona nije duplo duža od ostalih',
+         d.najduza > 0 && d.najduza <= 7, `najduža kolona ima ${d.najduza} linkova (granica 7, bilo 12)`);
+      ok('futer na računaru · dugme „Saradnja" je u desnoj polovini (težište kompozicije)',
+         d.ctaDesno === true, 'dugme nije desno — futer opet deluje nabijeno uz levu ivicu');
+      ok('futer na računaru · vidi se svih osam nota', d.nota === 8, `prikazano ${d.nota}`);
+      await ctx36d.close();
+
+      /* Smanjen pokret: note NE SMEJU da nestanu. Globalno pravilo gasi samo
+         trajanje, a animacija vezana za skrol trajanje ne koristi — zato futer
+         ima svoje izričito pravilo, i ovde se proverava da ono radi. */
+      const ctx36r = await browser.newContext({
+        viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce',
+      });
+      const p36r = ojacajStranu(await ctx36r.newPage());
+      await p36r.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(700);
+      const rm = await p36r.evaluate(() => {
+        const note = [...document.querySelectorAll('.futer-v2 .nota')].filter(n => getComputedStyle(n).display !== 'none');
+        return { ukupno: note.length, prozirnih: note.filter(n => parseFloat(getComputedStyle(n).opacity) < 0.9).length };
+      });
+      ok('futer · sa uključenim „smanji pokret" note ostaju vidljive (ne gubi se ništa)',
+         rm.ukupno >= 8 && rm.prozirnih === 0,
+         `nota ${rm.ukupno}, prozirnih ${rm.prozirnih}`);
+      await ctx36r.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

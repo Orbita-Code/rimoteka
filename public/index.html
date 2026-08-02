@@ -433,12 +433,55 @@
      dodat izvan postojećih strana — samo je razvrstan u kolone i dobio
      dodirne ciljeve. -->
 <footer class="site-footer futer-v2">
+  <!-- NOTNI SISTEM — granica između strane i futera, i motiv koji nosi identitet.
+       Pet linija crta CSS (`repeating-linear-gradient`) i one idu od ivice do
+       ivice ekrana; note su inline SVG i SEDE na tim linijama.
+       Zašto note NISU u istom SVG-u sa linijama: jedan široki SVG bi se
+       skalirao po širini ekrana, pa bi se na 1440 px glave nota podigle iznad
+       linija, a na 390 px spustile ispod njih. Ovako je svaka nota zaseban SVG
+       fiksne visine (72 px, 1 jedinica = 1 px), pa glava uvek pada tačno na
+       liniju — na svakoj širini. Razmak među notama radi `space-between`.
+       `aria-hidden` jer je ukras: čitač ekrana ga preskače. -->
+  <div class="futer-notni" aria-hidden="true">
+    <!-- Vrat note je GORE-DESNO kad je glava na srednjoj liniji ili ispod nje,
+         a DOLE-LEVO kad je iznad — tako se note stvarno pišu. Glava svake note
+         stoji na istom x (10) da bi razmaci koje pravi `space-between` oko
+         čitalo kao ravnomerne. -->
+    <div class="futer-note">
+      <!-- osminka, 4. linija -->
+      <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 42)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/><path d="M5.9,-25.2c6.4,3.1 8.6,7.9 6.2,13.9c0.6,-5.4 -1.6,-8.4 -6.2,-10.9z"/></g></svg>
+      <!-- četvrtinka, srednja linija -->
+      <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 34)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
+      <!-- osminka, 2. linija — iznad sredine, pa vrat ide nadole -->
+      <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 26)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="25.2" rx=".9"/><path d="M-4.1,25.2c6.4,-3.1 8.6,-7.9 6.2,-13.9c0.6,5.4 -1.6,8.4 -6.2,10.9z"/></g></svg>
+      <!-- četvrtinka, prostor između 3. i 4. linije -->
+      <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 38)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
+      <!-- osminka, prostor između 2. i 3. linije — vrat nadole -->
+      <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 30)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="22.2" rx=".9"/><path d="M-4.1,22.2c6.4,-3.1 8.6,-7.9 6.2,-13.9c0.6,5.4 -1.6,8.4 -6.2,10.9z"/></g></svg>
+      <!-- četvrtinka, 4. linija -->
+      <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 42)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
+      <!-- osminka, srednja linija -->
+      <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 34)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/><path d="M5.9,-25.2c6.4,3.1 8.6,7.9 6.2,13.9c0.6,-5.4 -1.6,-8.4 -6.2,-10.9z"/></g></svg>
+      <!-- četvrtinka, 2. linija — završetak fraze, vrat nadole -->
+      <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 26)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="25.2" rx=".9"/></g></svg>
+    </div>
+  </div>
+
   <div class="footer-inner">
     <div class="futer-glava">
-      <div class="footer-brand">
-        <img src="logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+      <div class="futer-glava-tekst">
+        <div class="footer-brand">
+          <img src="logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+        </div>
+        <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rečnik srpskog jezika, brojač slogova i beležnica za pisanje pesama i tekstova.</p>
       </div>
-      <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rečnik srpskog jezika, brojač slogova i beležnica za pisanje pesama i tekstova.</p>
+      <div class="futer-akcija">
+        <a class="futer-cta" href="mailto:eureka@rimoteka.com">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
+          <span>Saradnja</span>
+        </a>
+        <p class="futer-akcija-hint">Pitanje, predlog ili zajednički projekat — piši nam na <a href="mailto:eureka@rimoteka.com" class="footer-link">eureka@rimoteka.com</a></p>
+      </div>
     </div>
 
     <div class="futer-mreza">
@@ -459,14 +502,21 @@
         <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a>
         <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
       </nav>
-      <nav class="futer-kolona" aria-label="Namene">
-        <p class="futer-naslov">Namene</p>
+      <!-- Kolona „Namene" je imala 12 stavki, dok su prve dve imale 6 i 5 —
+           bila je duža od njih za ~300 px i pravila je praznu rupu desno.
+           Istih 12 linkova je podeljeno u dve kolone po 6, po smislu.
+           Nijedan link nije dodat ni uklonjen. -->
+      <nav class="futer-kolona" aria-label="Rime po temi">
+        <p class="futer-naslov">Rime po temi</p>
         <a href="/rime-za-decu/" class="footer-link">Rime za decu</a>
         <a href="/rime-za-decu-o-zivotinjama/" class="footer-link">Životinje</a>
         <a href="/rime-za-decu-o-prirodi/" class="footer-link">Priroda</a>
         <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a>
         <a href="/rime-za-rep/" class="footer-link">Rime za rep</a>
         <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a>
+      </nav>
+      <nav class="futer-kolona" aria-label="Rime za priliku">
+        <p class="futer-naslov">Rime za priliku</p>
         <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a>
         <a href="/rime-za-svadbu/" class="footer-link">Svadba</a>
         <a href="/rime-za-prijatelje/" class="footer-link">Prijatelji</a>
@@ -484,9 +534,11 @@
     </nav>
 
     <div class="futer-dno">
-      <p class="footer-contact">Za saradnju: <a href="mailto:eureka@rimoteka.com" class="footer-link">eureka@rimoteka.com</a></p>
       <p class="footer-keys">Rimovanje reči · Rime · Rečnik srpskog jezika · Brojač slogova · Beležnica za pesme · Pisanje poezije i tekstova</p>
-      <p class="footer-legal">© 2026 Rimoteka · Sva prava zadržana · Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+      <div class="futer-dno-red">
+        <p class="footer-legal">© 2026 Rimoteka · Sva prava zadržana</p>
+        <p class="footer-orbita">Powered by <a href="https://orbitacode.com" target="_blank" rel="noopener" class="footer-link">Orbita Code</a></p>
+      </div>
     </div>
   </div>
 </footer>

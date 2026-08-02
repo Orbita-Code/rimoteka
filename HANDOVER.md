@@ -5,6 +5,112 @@
 ---
 
 
+# Sesija 2. avgust 2026 (jedanaesta) — PRAVOPIS, FUTER, PRAZNO STANJE
+
+> **SVE JE OBJAVLJENO NA PRODUKCIJI.** Pet commita, poslednji `1834079b3`.
+> Test protiv produkcije: **451/451**. Ništa ne čeka push.
+
+---
+
+## ⛔ PRVO PROČITATI — SUDAR SA SESIJOM KOJA RADI DIZAJN I FUTER
+
+U trenutku pisanja ovog handovera, druga sesija radi na grani
+**`feat/dizajn-pocetna-futer-saradnja`** i ima nezavršene izmene u
+`build/gen_pages.py` i `public/404.html`.
+
+**Ja sam 02.08. menjao FUTER i CSS — dakle isto područje.** Ove izmene su
+**već na produkciji** i **ne smeju se izgubiti** pri merge-u dizajnerske grane:
+
+| Šta | Gde | Zašto se ne sme vratiti staro |
+|---|---|---|
+| **Tekst futera** | `gen_pages.py:333` i `public/index.html` | Nosi ključnu frazu **„rimovanje reči"** na svih 2.000+ strana. Staro („alat za **pronalaženje rime**") je fraza koju **niko ne kuca u pretragu**. Ovo je jedini potez koji frazu stavlja na svaku stranu. |
+| `.prazno-stanje` | `style.css` (uz `.results`) | prazno stanje panela sa rimama; **`max-width` mora ostati u `rem`, NIKAD u `ch`** — v. dole |
+| `.landing-next` | `style.css` (uz `.landing-faq`) | blok „Šta dalje" na ~2.000 strana |
+| `.related-note` | `style.css` (uz `.related-list`) | rečenica ispod „Rime za druge reči" |
+
+> **ZAMKA ZA DIZAJN, plaćena danas:** `.prazno-stanje` je imao `max-width: 60ch`.
+> Jedinica **`ch` je širina znaka u tekućem fontu** — kad stigne Rubik, „60 znakova"
+> znači drugu širinu u pikselima, glavni blok se preračuna i **cela strana se pomeri
+> vodoravno za 6 px**. Koliko strana poskakuje dok se učitava skočilo je sa **0,005 na
+> 0,192**, a sme najviše **0,1**. Popravka: `36rem`. **U celom `style.css` više nema
+> nijedne `ch` jedinice — neka tako i ostane.**
+>
+> Posle svake izmene CSS-a: `node test/meri-cls.mjs` (meri deset puta po strani).
+
+---
+
+## Šta je urađeno 02.08.
+
+**1. Pravopis — zarez ispred „i" (prijava vlasnice).**
+Pravilo je **stajalo u projektu** (`GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, red 364),
+ali agent `tekstopisac` nije bio upućen na taj fajl. Na sajtu je bilo **šest mesta**.
+Rečenice su **prepisane**, ne samo obrisan zarez. Sedmo mesto je krilo **istu netačnu
+tvrdnju „rangira ih po kvalitetu"** koja je 31.07. popravljena na pet mesta — preživela
+je jer je bila u odgovoru na pitanje, ne u glavnom tekstu.
+
+Pravilo upisano na **tri mesta**: `CLAUDE.md` sekcija 5a (preimenovana u „obavezno pre
+svakog pisanja"), globalni `~/.claude/CLAUDE.md`, i agent `tekstopisac` (nov **korak 0 —
+JEZIK**, pre tona i SEO-a).
+
+**2. Futer na 2.000+ strana** — v. tabelu gore.
+
+**3. Prazno stanje panela sa rimama** — pre prve pretrage panel je bio prazan.
+Sada tu stoji tekst koji jedini kaže da uz rime idu značenje, sinonimi i beležnica.
+`goHome()` je taj prostor brisao u prazno, pa se tekst video samo jednom; sada se vraća.
+
+**4. Test 422 → 451 provera na produkciji.** Nove sekcije: **32** (reč navedena kao rima
+mora da bude rima), **33** (prazno stanje), **34** (zarez ispred „i").
+
+---
+
+## POUKE — pročitati pre pisanja bilo kog testa
+
+**Provera koja ne može da padne je gora od nikakve.** Prva verzija sekcije 32 uzimala je
+**upisanu tabelu tačnih rima** i poredila je sa stranom — a tabela je po definiciji tačna,
+pa je provera **prolazila i na produkciji sa pogrešnim tekstom**. Otkriveno **samo** zato
+što je puštena protiv produkcije dok je tamo bio stari kod (pravilo H4). Sada čita spisak
+**iz teksta same strane**.
+
+**Provera koja pada na tačnom tekstu je isto tako loša.** Sekcija 34 je prvo hvatala i
+`pa`, `te`, `ni` — i pala na pet mesta gde greške nema: *„Klikni je, **pa** iz spiska
+izaberi rimu"* — tu `pa` uvodi redosled i zarez **stoji**. Pravilo važi samo „kad povezuju
+istorodne delove", a to traži značenje, ne obrazac. Suženo na `i`.
+
+**Provera ne sme da zabranjuje sadržaj, samo kvar.** Dve stare provere tražile su da panel
+sa rimama bude **doslovno prazan** (bag 28.07: beležnica je pozajmljivala panel i ostavljala
+poruku „Učitavam rečnik…"). Prazno stanje ih je oborilo. **Nisu obrisane nego prepisane** da
+traže ono zbog čega su nastale: da u panelu nema rima ni poruke o učitavanju.
+
+> Sve u `AUDIT/PROPUSTI.md`, propusti **14–17**, pravila **51–65**.
+
+---
+
+## ODBAČEN PREDLOG — da se ne troši vreme ponovo
+
+Predložio sam da se **sav tekst sajta provuče kroz rečnik** i tako hvataju izmišljene reči
+(kao `bliza`, koja je stajala kao rima za *kiša*). **Vlasnica je oborila predlog i bila je
+u pravu.**
+
+| Pokušaj | Rezultat |
+|---|---|
+| poređenje sa našim `reci.txt` | **pogrešno u načelu** — `reci.txt` je *predmet provere, ne merilo* (`CLAUDE.md`, pravilo 0). Skupljan je sa neta i iz srLex-a, ima hrvatskih i pokrajinskih oblika i reči kojih nema |
+| poređenje sa Rečnikom Matice srpske | **izmereno: 43% lažnih uzbuna.** Matica ima reči u **osnovnom obliku** (*рима*, *слог*, *песма*), a na sajtu pišu *rime, slogova, pesama*. Alat bi prijavio 648 od 1.473 normalne reči |
+
+**Uz to: naš primerak Matice je skeniran i pun grešaka iz skeniranja** — „кожни **осић**"
+(*осип*), „**ћрозницом**" (*грозницом*), одредница „**копродукцидни**" (*копродукциони*).
+Skener meša г↔ћ, т↔ш, п↔б. Za automatsku proveru **nije upotrebljiv**.
+
+**Šta OSTAJE izvodljivo:** spisak od ~200 **poznatih zamki** (hrvatski i ijekavski oblici:
+*željeznički, dozvolite si, uopće, riječ, vrijeme, tisuća*). Nema lažnih uzbuna jer se traže
+tačno određene reči. Uhvatilo bi `željeznički` i `dozvolite si`, koji su stvarno stajali na sajtu.
+
+**Pravi posao je čišćenje `reci.txt`, i on čeka vlasnicu:**
+`AUDIT/J1-sporne-reci.md` (**277 spornih ijekavskih oblika**) i `AUDIT/R1-reci-za-odluku.md`
+(**6 reči**). Postupak: za svaku reč se donese šta o njoj kaže Matica, vlasnica presudi
+ostaje ili izlazi.
+
+---
+
 # Sesija 31. jul 2026 (deseta) — TEKST NA CELOM SAJTU, agent `tekstopisac`
 
 > **OBJAVLJENO 31.07.2026.** Grana `feat/tekstovi-31-07` mergovana u `main` i pushovana;

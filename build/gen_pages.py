@@ -336,7 +336,7 @@ FOOTER_TMPL = """<footer class="site-footer">
          koja se ne generiše odavde), pa ko god je došao sa pretrage na neku od
          1.993 strane sa rimama nije imao gde da vidi adresu. Izmereno, ne
          pretpostavljeno: `grep -rl "info@rimoteka" public/` → 1 strana. -->
-    <p class="footer-contact">Za saradnju: <a href="mailto:info@rimoteka.com" class="footer-link">info@rimoteka.com</a></p>
+    <p class="footer-contact">Za saradnju: <a href="mailto:eureka@rimoteka.com" class="footer-link">eureka@rimoteka.com</a></p>
     <nav class="footer-rimes" aria-label="Popularne rime">
       <span class="footer-rimes-label">Popularne rime:</span>
       {poprime}

@@ -5,6 +5,78 @@
 ---
 
 
+# Sesija 2. avgust 2026 (dvanaesta, drugi deo) — FUTER IZABRAN, NAVIGACIJA, BRZI REŽIM
+
+> **NIŠTA NIJE PUSHOVANO.** Sve stoji na grani `feat/dizajn-pocetna-futer-saradnja`,
+> koja **ne postoji na GitHubu**. Produkcija je netaknuta.
+
+## ⛔ PRVO SLEDEĆOJ SESIJI
+
+1. **Pun test nije pušten posle poslednjih izmena.** Poznato je da **pada sekcija 37** —
+   provera mere teksta koja meri širinom nule, dakle laže. Dizajner je tekst suzio na
+   tačnu meru, a provera je ostala stara. **Prepisati proveru, pa pustiti ceo test.**
+   Bez izlaznog koda 0 nema objave.
+2. **Regeneracija 2.000 strana nije urađena**, a čeka je četvoro: nov futer, nov
+   redosled tabova, „Omiljene" u navigaciji i adresa `eureka@rimoteka.com`.
+   Dok se ne uradi, na tim stranama stoji **stara adresa `info@`, čije je
+   prosleđivanje obrisano** — poruka poslata odatle se vraća pošiljaocu.
+3. **Lokalni serveri 8765 (sajt) i 8766 (tri varijante futera) su ostali pokrenuti.**
+
+## Šta je odlučeno i urađeno
+
+| Šta | Stanje |
+|---|---|
+| **Futer** | vlasnica izabrala **dizajnerov** (notni sistem, dugme „Saradnja"). Tri alternativne varijante na 8766 više nisu potrebne |
+| **Redosled tabova** | rimovanje reči · pisanje pesama · brojač slogova · rečnik · igra · klasici · omiljene. Urađeno na 21 podstrani, u `gen_pages.py` i na početnoj |
+| **„Omiljene" na svakoj strani** | ranije samo na početnoj — ko sačuva reč pa ode na drugi alat, nije imao puta nazad. Sada svuda, adresa `/?tab=omiljene`. **Provereno pokretanjem:** sa dve sačuvane reči značka na `/slogovi/` pokazuje „2" |
+| **Dve adrese za isti alat** | kanonski link na `/rimovanje-reci/` prebačen na `/`. **Otvoreno:** da li i sam tab „Rimovanje reči" da vodi na `/` — vlasnica nije odgovorila |
+| **Naslov „Popularne rime"** | prepravljen u **„Rime za česte reči"** + rečenica „Pogledaj koje se reči rimuju sa najčešćim rečima u pesmama" (fraza u ispravnom padežu) |
+| **Širina i kompozicija** | sve na jednu levu ivicu, tekst u dve kolone, kartice se razlistavaju kao špil, margina se iscrtava kao potez mastilom, slova A · B · A zasvetle redom. Nov fajl `public/kartice.js` |
+
+## DVE PROMENE NAČINA RADA — ne vraćati na staro
+
+**1. Dizajner radi u BRZOM REŽIMU (odeljak 2a u `.claude/agents/dizajner.md`).**
+Vlasnica: *„Ne želim da dizajner radi bilo kakve testove… ako kažem hoću kartice umesto
+teksta, očekujem u roku od 2 minuta da se to promeni na lokalu i ja ću reći šta mi smeta."*
+Dobije zahtev → promeni kod → javi **jednom rečenicom**. Bez merenja, bez izveštaja.
+Ostaju samo tri stvari, jer nisu provera nego zanat: **logo se ne dira**, **boje kroz
+promenljive u obe teme**, **tekst ostaje u HTML-u**.
+**Merenja i pun test pušta glavna sesija, i to samo pred objavu.**
+
+> **Zašto:** jedan prolaz je trajao **sat i po** i vratio izveštaj sa tabelama, a
+> vlasnica je htela da vidi izmenu. Sporost nije bila agentova nego moja — ja sam mu
+> naredio da sve dokazuje. Kad je merenje isključeno, prvi pogled stiže za par minuta.
+
+**2. Odgovori vlasnici imaju NAJVIŠE ČETIRI REČENICE.** Zapisano i u memoriji
+(`odgovori-najvise-4-recenice.md`). Prvo odgovor, pa najviše jedna rečenica
+objašnjenja. Detalji se **nude**, ne sipaju. Duži zapis ide ovde, ne u razgovor.
+
+## Urađeno na samom kraju sesije
+
+- **Tab „Rimovanje reči" sada vodi na `/`** (ne na `/rimovanje-reci/`), na 22 strane i
+  u generatoru — pošto je kanonski link te strane prebačen na početnu, linkovi više ne
+  šalju snagu na stranu koja sama kaže da nije prava. Stara adresa i dalje radi.
+- **Regenerisano 1.993 strane** (`python3 build/gen_pages.py`): nov futer, nov redosled
+  tabova, „Omiljene" u navigaciji, adresa `eureka@rimoteka.com`, tab na `/`.
+  Sitemap: 2.016 adresa.
+- **Naslov, opis, polje za unos i filteri VRAĆENI NA CENTRIRANO.** Levo poravnanje je
+  bila **moja** zamisao („jedna leva ivica") posle njene primedbe o praznini levo —
+  ona to ne želi. Izmereno posle vraćanja na 1440 px: razmak levo i desno je jednak
+  (42 px za naslov, 413 px za opis, 252 px za polje i filtere). U CSS-u je uz oba
+  mesta upisano zašto, da se ne vrati.
+- **Zadatak „srce postaje nota" upisan u `TODO.md`, odeljak 0a** — sa mestima u kodu
+  (`app.js:452` i `:466`) i zamkom oko širine znaka.
+
+## Čeka odluku vlasnice
+
+- tab „Rimovanje reči" → `/` umesto `/rimovanje-reci/`;
+- **srce na kapsuli da postane obojena nota** kad se reč sačuva u omiljene — provereno
+  da je izvodljivo (`app.js:452` i `:466`, znak `♡`/`♥`); jedina zamka je da nota nije
+  iste širine u svim fontovima, pa mesto za znak mora imati stalnu širinu;
+- je li 1.360 px prava širina strane.
+
+---
+
 # Sesija 2. avgust 2026 (dvanaesta) — AGENT DIZAJNER, POČETNA, POŠTA
 
 > **NIŠTA NIJE PUSHOVANO NI MERGOVANO.** Sve stoji na grani

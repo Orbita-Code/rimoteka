@@ -109,8 +109,22 @@
      veličini koju je imao dok je omotač bio 940 px, pa se glavni cilj na
      strani nije ni pomerio ni promenio. */
   --sirina-unos:53.5rem;
-  /* Blokovi sa tekstom o alatu su proza — ostaju uski i kad se omotač raširi. */
-  --sirina-proza:52rem;
+  /* Blokovi sa tekstom o alatu su proza — ostaju uski i kad se omotač raširi.
+     36rem = 576 px; u kartici na tu širinu ostane oko 500 px teksta. */
+  --sirina-proza:36rem;
+  /* ── MERA REDA (koliko znakova staje u red) ──────────────────────────────
+     34em ≈ 75 znakova. Nije procena: 02.08.2026. je prebrojan NAJDUŽI red u
+     svakom pasusu na strani (raspon svakog znaka posebno, pa grupisano po
+     redovima). Ispalo je da u Rubiku, na srpskom tekstu, jedan znak zauzima
+     0,455em — jer srpski tekst ima mnogo uskih slova (i, j, l, t, r) i razmaka.
+     Zato je jedinica `em`, a ne `rem` ni `px`: mera se računa u ZNAKOVIMA, a
+     znak zavisi od veličine slova tog elementa.
+     Dva ranija merenja su bila pogrešna i oba su davala lažan mir:
+       · širina nule (`ch`) → 60 znakova umesto 87 (nula je šira od proseka);
+       · ukupno znakova / broj redova → 72 umesto 87 (poslednji red je krnj).
+     Ako se menja font ili veličina slova, mera se MERI PONOVO, najdužim redom.
+     Pre-deploy test (sekcija 37) pada ako red pređe 78 znakova. */
+  --mera-proze:34em;
 
   /* ── LIST IZ BELEŽNICE (blokovi sa tekstom) ──────────────────────────────
      Papir mora da se razlikuje od strane (strana je bela), a da ostane u
@@ -120,6 +134,11 @@
   --papir-linija:#e3daf7;   /* linije za pisanje — ukras, ne nose podatak */
   --papir-margina:#c3b0ef;  /* uspravna margina, kao u svesci */
   --papir-slovo:#6f63a8;    /* slovo šeme rime u margini = 4,93 na papiru */
+  /* Sjaj koji prati kursor po kartici i sjaj slova šeme rime. Oboje je UKRAS
+     preko podloge, ne nosi podatak i ne stoji ispod teksta (v. z-index niže),
+     pa ne dira kontrast. */
+  --sjaj-kartica:rgba(107,79,216,.2);
+  --sjaj-slovo:rgba(107,79,216,.75);
 }
 body.dark-mode{
   --lavender:#b8a5f5;
@@ -175,6 +194,8 @@ body.dark-mode{
   --papir-linija:#2f2848;
   --papir-margina:#584a8c;
   --papir-slovo:#a89ad8;     /* na papiru = 5,74 */
+  --sjaj-kartica:rgba(184,165,245,.22);
+  --sjaj-slovo:rgba(184,165,245,.8);
 }
 body.dark-mode{background:#121018}
 /* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
@@ -664,7 +685,7 @@ main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1.4rem var(-
    naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
    Izmereno 30.07.2026; ako se font ili tekst naslova promene, PONOVO IZMERITI. */
 .hero h1{font-size:clamp(1.3rem,3.6vw,1.7rem);font-weight:600;color:var(--lavender-deep);margin:0 0 .35rem;line-height:1.25}
-.hero p{color:var(--ink-soft);font-size:.98rem;margin:0 auto;max-width:560px}
+.hero p{color:var(--ink-soft);font-size:.98rem;margin:0 auto;max-width:var(--mera-proze)}
 .tab-panel{display:none;animation:fade .3s ease}
 .tab-panel.active{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -997,9 +1018,17 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   content:'';position:absolute;left:2.7rem;top:.6rem;bottom:.6rem;width:1px;
   background:var(--papir-margina);
 }
-/* Slovo šeme rime u margini. Poravnato sa redom naslova, ne sa vrhom lista. */
+/* Slovo šeme rime u margini. Poravnato sa redom naslova, ne sa vrhom lista.
+   Uporište mu je RED SA NASLOVOM (`summary`), a ne ceo list — zato je `left`
+   negativan, tačno za levo odstojanje lista (3,7rem), pa slovo padne u marginu.
+   Zašto ovako: sjaj koji prati kursor stoji ISPOD teksta, a da bi tekst bio
+   iznad njega, red sa naslovom mora da bude `position:relative`. Time on
+   postaje uporište i za sve što je u njemu apsolutno postavljeno. Dok je slovo
+   bilo vezano za ceo list, u trenutku kad se sjaj uključi ono je odletelo pod
+   naslov — viđeno na kadru snimka ulaza, 02.08.2026. */
+.seo-blok summary{position:relative}
 .seo-blok-slovo{
-  position:absolute;left:0;top:.75rem;width:2.7rem;height:44px;
+  position:absolute;left:-3.7rem;top:0;width:2.7rem;height:44px;
   display:flex;align-items:center;justify-content:center;
   font-size:.9rem;font-weight:700;letter-spacing:.02em;color:var(--papir-slovo);
 }
@@ -1039,12 +1068,14 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 }
 /* max-width je u REM, nikad u `ch` — `ch` je širina znaka u TEKUĆEM fontu, pa
    se preračuna kad stigne Rubik i strana poskoči (02.08.2026: skakanje sa
-   0,005 na 0,192, pri granici 0,1). 47rem = 752 px = ~74 znaka, unutar
-   raspona 65–75 koji se lako prati. */
+   0,005 na 0,192, pri granici 0,1).
+   Mera ide kroz `--mera-proze` (34em ≈ 75 znakova) — v. napomenu uz tu
+   promenljivu. Ranije je ovde stajalo 47rem uz napomenu „~74 znaka"; to je bilo
+   procenjeno preko širine nule, a prebrojano najdužim redom ispalo je 87. */
 /* Visina reda je 1,75rem (28 px) i razmak između pasusa je isto 28 px — jedan
    prazan red u svesci. Da je razmak bio .7rem, linije bi se već od drugog
    pasusa razišle sa tekstom. */
-.seo-blok-telo p{margin:0;color:var(--ink-soft);font-size:.95rem;line-height:1.75rem;max-width:47rem}
+.seo-blok-telo p{margin:0;color:var(--ink-soft);font-size:.95rem;line-height:1.75rem;max-width:var(--mera-proze)}
 .seo-blok-telo p + p{margin-top:1.75rem}
 @keyframes blok-ulaz{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 
@@ -1302,7 +1333,9 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .seo-inner{max-width:var(--sirina-sadrzaj);margin:0 auto}
 .seo-inner h2{font-size:1.3rem;font-weight:600;color:var(--lavender-deep);margin:1.6rem 0 .6rem}
 .seo-inner h2:first-child{margin-top:0}
-.seo-inner p{color:var(--ink-soft);font-size:.96rem;margin:0 0 .8rem;max-width:760px}
+/* 38rem = 608 px = ~72 znaka u redu. Do 02.08.2026. je stajalo 760 px, a to je
+   izmereno 90 znakova — red predug da ga oko isprati do sledećeg početka. */
+.seo-inner p{color:var(--ink-soft);font-size:.96rem;margin:0 0 .8rem;max-width:var(--mera-proze)}
 /* Ista širina kao blokovi iznad — i jedno i drugo je proza. */
 .faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem;max-width:var(--sirina-proza)}
 .faq details{background:var(--card-bg);border:2px solid var(--card-bg);border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s}
@@ -1318,7 +1351,219 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   transform:rotate(-45deg);transition:transform .16s cubic-bezier(.2,0,0,1);
 }
 .faq details[open] summary::before{transform:rotate(45deg)}
-.faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem}
+.faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem;max-width:var(--mera-proze)}
+
+/* ══ RITAM ŠIROKOG EKRANA (02.08.2026) ═══════════════════════════════════════
+   PROBLEM, izmereno na 1440 px pre izmene — strana je imala TRI leve ivice:
+
+     naslov i opis   centrirani   (opis počinjao na 440 px)
+     red sa poljem   centriran    (počinjao na 292 px)
+     sve ispod njega uz ivicu okvira (82 px)
+
+   a desno je ostajao prazan pojas od 526 px: tekst je išao od 82 do 914 px,
+   dok okvir ide do 1358 px. Sadržaj je delovao kao da je pao u levi ugao, a
+   red sa poljem kao da visi u vazduhu iznad njega.
+
+   REŠENJE — dva poteza:
+   1) JEDNA leva ivica za sve: ivica okvira. Naslov, opis, polje, filteri,
+      prazno stanje, rime, tekst, pitanja i futer kreću sa istog mesta.
+   2) Prazan pojas desno se KORISTI: ispod alata tekst ide u dve kolone
+      (levo objašnjenja, desno česta pitanja). Uz to proza dobija meru od
+      ~70 znakova umesto 90, a strana se skrati za oko trećinu.
+
+   Mobilni raspored se NE dira — sve je u @media(min-width:…). */
+@media(min-width:901px){
+  /* Naslov i opis OSTAJU CENTRIRANI — odluka vlasnice, 02.08.2026.
+     Levo poravnanje je bilo moja zamisao radi „jedne leve ivice"; ona to ne želi.
+     Poravnava se sve ostalo, hero ne. */
+  /* `main:not(.landing)`: isti `.search-row` stoji i na ~2.000 generisanih
+     strana (u kartici `.mini-tool`) i na alatnim stranama (`.landing-tool`) —
+     tamo je kartica uska i centriranje ima smisla. Ovo pravilo važi samo za
+     početnu. */
+  /* Polje za unos, dugmad i filteri OSTAJU CENTRIRANI — odluka vlasnice,
+     02.08.2026. Ranije je ovde stajalo `margin-inline:0`, dakle levo uz ivicu,
+     radi „jedne leve ivice"; to je bila moja zamisao i ona je ne želi. */
+}
+
+/* Granica 1240 px nije proizvoljna: ispod nje kolona padne ispod 554 px, a to
+   je manje od 65 znakova u redu — donja granica čitljive mere. */
+@media(min-width:1240px){
+  /* Nema novih omotača u HTML-u: pet direktnih potomaka `.seo-inner` se
+     raspoređuje po imenovanim poljima, pa oba naslova stoje u istom redu i
+     obe kolone kreću sa iste visine. Redosled u HTML-u je netaknut, pa
+     pretraživač i čitač ekrana vide isto što i pre. */
+  .seo-inner{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    column-gap:3rem;
+    grid-template-areas:
+      "naslov1 naslov2"
+      "uvod    pitanja"
+      "listovi pitanja";
+    align-items:start;
+  }
+  .seo-h-glavni{grid-area:naslov1}
+  .seo-uvod{grid-area:uvod}
+  .seo-blokovi{grid-area:listovi}
+  .seo-h-pitanja{grid-area:naslov2}
+  .faq{grid-area:pitanja}
+  /* Oba naslova u prvom redu — bez ovoga bi desni imao gornju marginu od
+     1,6rem i spustio se 26 px ispod levog. */
+  .seo-inner > h2{margin-top:0}
+  /* Kolone same drže meru, pa unutrašnje granice više ne treba da rade. */
+  .seo-blokovi,.faq,.seo-uvod{max-width:none}
+
+  /* Tri tačke praznog stanja u tri kolone — do 02.08.2026. su stajale jedna
+     ispod druge u traci od 576 px i pravile 6 redova teksta uz samu levu
+     ivicu, dok je desno stajalo 782 px praznine. */
+  .prazno-stanje{max-width:none}
+  .prazno-stanje .prazno-lista{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:0 2.4rem;
+  }
+}
+
+/* ══ ŠPIL SE DELI — KARTICE ISPOD ALATA (02.08.2026) ═════════════════════════
+   Gde ovo sme da živi, a gde ne: ALAT (logo, tabovi, polje, dugme, rime) ostaje
+   trezan i brz — tamo se ništa ne dodaje, jer se meri jedna sekunda do polja.
+   Ispod alata je čovek već dobio rimu i sme da bude zadivljen.
+
+   Šta se dešava, i zašto baš to:
+   · listovi ulaze kao špil koji se deli — jedan za drugim, po 70 ms, blago
+     zakrenuti, jer papir koji pada nikad ne padne savršeno pravo;
+   · uspravna margina se ISCRTAVA odozgo nadole, kao potez mastilom;
+   · slova šeme rime A · B · A zasvetle jedno za drugim, u ritmu od 200 ms —
+     šema se pročita sama. To je jedini „glavni trenutak" na ovom ekranu;
+   · kartica se blago naginje prema kursoru i pod njim ima mek sjaj.
+
+   Tvrda pravila koja ovo poštuje:
+   1. animira se SAMO `transform`, `opacity`, boja i senka slova — nikad širina,
+      visina ni margina, pa strana ne poskoči (CLS ostaje 0,00x, granica 0,1);
+   2. kartice su vidljive i BEZ JavaScripta — klasu `js-kartice` postavlja
+      `kartice.js`; ako se ne učita, nijedno od ovih pravila ne važi i tekst je
+      tu, ceo;
+   3. sakriva se SAMO ono što je van vidnog polja u trenutku učitavanja, pa
+      ništa što se vidi ne može da trepne;
+   4. `prefers-reduced-motion` — skripta tada ne uradi ništa, tekst ostaje ceo. */
+
+/* Ulaz lista. Namerno ima SAMO `from`: kad se animacija završi, `transform` se
+   vraća na osnovnu vrednost elementa — a to je naginjanje prema kursoru. Da je
+   ovde pisalo `to{transform:none}`, ta vrednost bi ostala zakovana i kartica se
+   posle ulaza više ne bi naginjala. */
+@keyframes kartica-ulaz{
+  from{
+    opacity:0;
+    transform:translate3d(0,42px,0) rotate(var(--kartica-nagib,-1.8deg)) scale(.965);
+    /* Zamućenje: list dok pada nije u fokusu, pa se izoštri kad legne. Mereno
+       sa 4× usporenim procesorom (sredina telefona): 60 slika/s, nijedan kadar
+       duži od 27 ms. Ako se poveća preko 6 px, PONOVO IZMERITI. */
+    filter:blur(5px);
+  }
+}
+/* Nijedan list ne pada pod istim uglom — kao kad se špil deli rukom. */
+.seo-blok:nth-child(even),.faq details:nth-child(even){--kartica-nagib:1.6deg}
+.seo-blok:nth-child(3n),.faq details:nth-child(3n){--kartica-nagib:-2.4deg}
+/* Potez mastilom niz marginu lista. */
+@keyframes margina-mastilo{from{transform:scaleY(0)}}
+/* Ugaonik uz pitanje — doveze se u položaj. */
+@keyframes ugaonik-ulaz{from{transform:rotate(-160deg) scale(.6);opacity:0}}
+
+/* ── ULAZ VODI POLOŽAJ PRI SKROLU, NE VREME (`animation-timeline:view()`) ──
+   Zašto ovako, a ne JavaScriptom: izmereno 02.08.2026 na sporoj vezi (1,6 Mb/s,
+   150 ms kašnjenja) — strana se iscrta na 2.884 ms, a skripta stigne i odradi
+   svoje tek na 4.248 ms. To je 1,4 sekunde u kojima bi tekst bio VIDLJIV, pa bi
+   ga skripta sakrila da ga „lepo uvede". CSS stiže pre prvog iscrtavanja, pa
+   tog treptaja nema — nikad, ni na najsporijoj vezi.
+   Drugo: pokret ide na grafičkoj kartici i vezan je za prst/točkić, pa čovek
+   sam vodi ritam kojim se špil deli.
+   Pregledači bez ovoga (Firefox, stanje 08/2026) idu na rezervu niže. */
+@supports (animation-timeline:view()){
+  @media(prefers-reduced-motion:no-preference){
+    .seo-blok,.faq details{
+      animation:kartica-ulaz cubic-bezier(.2,0,0,1) both;
+      animation-timeline:view();
+      animation-range:entry 6% entry 80%;
+    }
+    /* Ugaonik na pitanju se doveze u svoj položaj — sitan mehanički detalj koji
+       kaže „ovo se otvara". Bez `to`: završava na svojoj osnovnoj vrednosti, pa
+       otvoreno pitanje i dalje ima ugaonik okrenut nadole. */
+    .faq summary::before{
+      animation:ugaonik-ulaz cubic-bezier(.34,1.56,.64,1) both;
+      animation-timeline:view();
+      animation-range:entry 30% entry 92%;
+    }
+    .seo-blok::before{
+      transform-origin:top;
+      animation:margina-mastilo cubic-bezier(.2,0,0,1) both;
+      animation-timeline:view();
+      animation-range:entry 24% entry 96%;
+    }
+    /* A · B · A — svako slovo je u svom listu, pa zasvetle jedno za drugim,
+       onako kako listovi ulaze. Šema rime se pročita sama. */
+    .seo-blok-slovo{
+      animation:slovo-otkucaj cubic-bezier(.34,1.56,.64,1) both;
+      animation-timeline:view();
+      animation-range:entry 62% entry 100%;
+    }
+  }
+}
+
+/* Rezerva za pregledače bez `view()`: isti ulaz, samo ga vodi vreme, a klase
+   postavlja `kartice.js`. Ono sakriva SAMO ono što je celo ispod pregiba, pa
+   ni tu ništa ne može da trepne. */
+.kartica-ceka{opacity:0}
+.kartica-ulazi{animation:kartica-ulaz .34s cubic-bezier(.2,0,0,1) backwards}
+.faq .kartica-ceka,.faq .kartica-ulazi{--kartica-nagib:.9deg}
+.seo-blok.kartica-ulazi::before{
+  transform-origin:top;
+  animation:margina-mastilo .42s cubic-bezier(.2,0,0,1) backwards;
+  animation-delay:inherit;
+}
+
+/* A · B · A u ritmu — tri otkucaja, jedan jedini put. Slovo je ukras
+   (`aria-hidden`), pa se ovde ništa ne saopštava bojom. */
+@keyframes slovo-otkucaj{
+  0%{transform:scale(1);color:var(--papir-slovo);text-shadow:none}
+  45%{transform:scale(1.34);color:var(--lavender-deep);text-shadow:0 0 16px var(--sjaj-slovo)}
+  100%{transform:scale(1);color:var(--papir-slovo);text-shadow:none}
+}
+.seo-blokovi.ritam .seo-blok:nth-child(1) .seo-blok-slovo{animation:slovo-otkucaj .62s cubic-bezier(.34,1.56,.64,1) 0s 1}
+.seo-blokovi.ritam .seo-blok:nth-child(2) .seo-blok-slovo{animation:slovo-otkucaj .62s cubic-bezier(.34,1.56,.64,1) .2s 1}
+.seo-blokovi.ritam .seo-blok:nth-child(3) .seo-blok-slovo{animation:slovo-otkucaj .62s cubic-bezier(.34,1.56,.64,1) .4s 1}
+
+/* Kad se list otvori, pasusi se ispisuju jedan za drugim — kao da se piše. */
+@keyframes pasus-ulaz{from{opacity:0;transform:translate3d(0,7px,0)}to{opacity:1;transform:none}}
+.js-kartice .seo-blok[open] .seo-blok-telo p{animation:pasus-ulaz .22s cubic-bezier(.2,0,0,1) backwards}
+.js-kartice .seo-blok[open] .seo-blok-telo p:nth-child(2){animation-delay:.07s}
+.js-kartice .seo-blok[open] .seo-blok-telo p:nth-child(3){animation-delay:.14s}
+
+/* Sjaj ide ISPOD teksta (z-index 0 naspram 1), da ne dira kontrast slova. */
+.faq details{position:relative}
+.js-kartice .seo-blok::after,
+.js-kartice .faq details::after{
+  content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  z-index:0;opacity:0;transition:opacity .18s cubic-bezier(.2,0,0,1);
+  background:radial-gradient(240px circle at var(--sjaj-x,50%) var(--sjaj-y,50%),var(--sjaj-kartica),transparent 72%);
+}
+.js-kartice .seo-blok > *,
+.js-kartice .faq details > *{position:relative;z-index:1}
+
+/* Naginjanje prema kursoru — samo tamo gde kursor postoji. Na dodir ovoga nema
+   i ništa se ne gubi: sve što kartica kaže stoji u tekstu. */
+@media(hover:hover) and (pointer:fine){
+  .js-kartice .seo-blok,
+  .js-kartice .faq details{
+    transform:perspective(900px) rotateX(var(--nagib-x,0deg)) rotateY(var(--nagib-y,0deg));
+    transition:transform .13s cubic-bezier(.2,0,0,1),border-color .18s,box-shadow .18s;
+  }
+  .js-kartice .seo-blok:hover,
+  .js-kartice .faq details:hover{
+    transform:perspective(900px) rotateX(var(--nagib-x,0deg)) rotateY(var(--nagib-y,0deg)) translateY(-2px);
+    box-shadow:var(--shadow);
+  }
+  .js-kartice .seo-blok:hover::after,
+  .js-kartice .faq details:hover::after{opacity:1}
+}
 
 /* LANDING (rime-za) */
 a.brand{text-decoration:none;color:inherit;display:inline-block}
@@ -1435,7 +1680,8 @@ body.dark-mode .landing-tool{background:#1e1a2e}
      i margina i slovo šeme rime su i dalje tu, samo uže. */
   .seo-blok{padding-left:2.5rem}
   .seo-blok::before{left:1.7rem}
-  .seo-blok-slovo{width:1.7rem;font-size:.82rem}
+  /* `left` prati odstojanje lista — v. napomenu uz `.seo-blok-slovo`. */
+  .seo-blok-slovo{left:-2.5rem;width:1.7rem;font-size:.82rem}
 
   /* Tabovi — scrollable na mobilnom */
   .tabs{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:.4rem 1rem;-webkit-overflow-scrolling:touch}

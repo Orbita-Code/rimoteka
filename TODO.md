@@ -39,6 +39,21 @@
 > (Zahtev vlasnice, 31.07.2026. Isto pravilo stoji i u globalnom `~/.claude/CLAUDE.md`.)
 
 
+## 0a. SRCE NA KAPSULI POSTAJE NOTA (traženo 02.08.2026)
+
+Kad se klikne srce da se reč sačuva u „Omiljene", srce ne treba da se **oboji**
+nego da se **pretvori u obojenu, punu notu**.
+
+- Gde: `public/app.js:452` (`b.textContent = isFav(w) ? '♥' : '♡'`) i `:466`
+  (isti par znakova u HTML-u kapsule).
+- Predlog znakova: `♪` prazna → `♫` puna i obojena. Boja kroz promenljivu, u obe teme.
+- **Zamka koju treba rešiti:** nota nije iste širine u svim fontovima kao srce, pa
+  kapsula može da poskoči pri kliku. Mesto za znak mora imati **stalnu širinu**
+  (`display:inline-block` + `width` u `rem`, nikad u `ch`) — izmeriti posle izmene.
+- Zašto ima smisla: futer već nosi notni sistem, pa sajt dobija isti znak od vrha do dna.
+
+---
+
 ## 0. SLEDEĆE PO REDU — dogovoreno sa vlasnicom 29.07.2026
 
 ### 0.06 NOVO 31.07.2026 — iz osme sesije (mobilna verzija)

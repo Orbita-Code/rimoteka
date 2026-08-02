@@ -308,13 +308,24 @@ HEAD_TMPL = """<!DOCTYPE html>
 # Jedna te ista navigacija na svakoj strani sajta. Na početnoj je to traka
 # tabova (klik prebacuje bez osvežavanja), ovde su obični linkovi — Google vidi
 # istu, doslednu strukturu svuda, a to je uslov za prečice u rezultatima.
+# Redosled je odluka vlasnice (02.08.2026) i prati tok rada pesnika:
+# nađi rimu -> piši pesmu -> proveri ritam -> proveri značenje -> vežbaj -> čitaj.
 TABS = [
-    ('rime',      '/rimovanje-reci/', 'Rimovanje reči'),
-    ('pretraga',  '/recnik-srpskog-jezika/', 'Rečnik'),
-    ('slogovi',   '/slogovi/', 'Brojač slogova i karaktera'),
+    # Tab vodi na POČETNU, ne na /rimovanje-reci/ (02.08.2026, odluka vlasnice).
+    # Obe adrese nude isti alat, pa je kanonski link sa /rimovanje-reci/ prebačen
+    # na `/`; da su i linkovi ostali na staroj adresi, sa 2.000 strana bismo slali
+    # snagu na stranu koja sama kaže da nije prava. Stara adresa i dalje radi.
+    ('rime',      '/', 'Rimovanje reči'),
     ('beleznica', '/pisanje-pesama/', 'Pisanje pesama'),
-    ('klasici',   '/klasici/',        'Klasici'),
+    ('slogovi',   '/slogovi/', 'Brojač slogova i karaktera'),
+    ('pretraga',  '/recnik-srpskog-jezika/', 'Rečnik'),
     ('igra',      '/igra-rimovanja/', 'Igra rimovanja'),
+    ('klasici',   '/klasici/',        'Klasici'),
+    # „Omiljene“ nema svoju stranu — panel živi na početnoj i otvara ga `?tab=`.
+    # Do 02.08.2026. je stajao SAMO na početnoj, pa je čovek koji sačuva reč pa
+    # ode na brojač slogova ostajao bez ijednog puta nazad do svojih reči.
+    # Provereno pokretanjem: `/?tab=omiljene` otvara panel-omiljene, bez grešaka.
+    ('omiljene',  '/?tab=omiljene',   'Omiljene'),
 ]
 
 

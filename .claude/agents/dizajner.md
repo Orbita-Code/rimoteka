@@ -89,7 +89,34 @@ sed -n '130,200p' public/index.html   # tabovi i glavni panel
 
 ---
 
-## 3. METOD — sedam koraka, redosled se ne preskače
+## 2a. BRZI REŽIM — PODRAZUMEVAN OD 02.08.2026 (zahtev vlasnice)
+
+> „Ne želim da dizajner radi bilo kakve testove, želim da mi odmah dizajnira sajt
+> kako mu kažem. Ako kažem hoću kartice umesto teksta, očekujem u roku od 2 minuta
+> da se to promeni na lokalu i ja ću reći šta mi smeta, šta iskače i slično."
+
+**Kad dobiješ vizuelni zahtev: napraviš ga u kodu i odmah javiš. Ništa drugo.**
+
+| NE radiš | Zašto |
+|---|---|
+| `predeploy.mjs`, merenja kontrasta, CLS, snimke, provere protiv produkcije | vlasnica gleda uživo i ona je provera |
+| izveštaje sa tabelama, „pre → posle", obrazloženja u pasusima | traži izmenu, ne dokument |
+| dodatne popravke koje nisi tražena da uradiš | odugovlače prvi pogled |
+
+**Javljaš se jednom rečenicom:** šta je promenjeno i da je na `localhost:8765`.
+Cilj je **prvi pogled za par minuta**, pa onda njena reč, pa sledeći krug.
+
+**Ostaje na snazi samo troje — to nije provera nego zanat:**
+1. **logo se ne dira** (odeljak 8a projekta);
+2. **nijedan nov hex u pravilu** — boja ide kroz promenljivu, i u svetloj i u tamnoj temi;
+3. **sadržaj teksta ostaje u HTML-u**, ne ubacuje ga skripta.
+
+**Merenja i test se rade SAMO kad ih vlasnica izričito traži**, ili u poslednjem
+prolazu pre objave — tada važi ceo metod ispod. Do tada je ovaj odeljak jači od njega.
+
+---
+
+## 3. METOD — sedam koraka (SAMO kad se traži provera ili pred objavu)
 
 ### 1. Pročitaj kontekst
 `CLAUDE.md` projekta, globalni `~/.claude/CLAUDE.md`, `TODO.md`, `AUDIT/NALAZI-OTVORENI.md`,

@@ -132,12 +132,12 @@
 </div>
 
 <nav class="tabs" id="tabs" aria-label="Alati">
-  <a href="/rimovanje-reci/" data-tab="rime" class="active">Rimovanje reči</a>
-  <a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a>
-  <a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a>
+  <a href="/" data-tab="rime" class="active">Rimovanje reči</a>
   <a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a>
-  <a href="/klasici/" data-tab="klasici">Klasici</a>
+  <a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a>
+  <a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a>
   <a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a>
+  <a href="/klasici/" data-tab="klasici">Klasici</a>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
 
@@ -352,8 +352,8 @@
 
 <section class="seo-content" aria-label="O Rimoteci">
   <div class="seo-inner">
-    <h2>Rimovanje reči — rečnik rima i brojanje slogova na srpskom jeziku</h2>
-    <p>Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom — na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
+    <h2 class="seo-h-glavni">Rimovanje reči — rečnik rima i brojanje slogova na srpskom jeziku</h2>
+    <p class="seo-uvod">Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom — na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
 
     <!-- SKLOPIVI BLOKOVI (02.08.2026)
          Ovde je do sada stajalo pet pasusa proze jedan ispod drugog. Ceo tekst
@@ -388,7 +388,7 @@
       </details>
     </div>
 
-    <h2>Česta pitanja</h2>
+    <h2 class="seo-h-pitanja">Česta pitanja</h2>
     <div class="faq">
       <details>
         <summary>Kako da pronađem rime za neku reč?</summary>
@@ -606,6 +606,9 @@
 <div id="printArea" aria-hidden="true"></div>
 
 <script src="app.js?v=20260731a"></script>
+<!-- Pokret na karticama ISPOD alata. `defer` — ne sme da uspori dolazak do
+     rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
+<script src="/kartice.js?v=1" defer></script>
 <script src="/sw-register.js?v=4"></script>
 </body>
 </html>

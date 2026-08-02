@@ -40,7 +40,11 @@ const MREZA = { offline: false, downloadThroughput: 1.6 * 1024 * 1024 / 8,
 let server = null, BASE = process.env.BASE;
 if (!BASE) {
   const luka = 8799;
-  server = spawn(process.execPath, [new URL('./static-server.mjs', import.meta.url).pathname, String(luka)],
+  /* `static-server.mjs` prima DVA argumenta: <koren> <port>. Ranije je ovde
+     išao samo port, pa je server koren tražio u folderu „8799", nije se
+     podigao, i merenje je padalo na ERR_CONNECTION_REFUSED. */
+  const koren = new URL('../public/', import.meta.url).pathname;
+  server = spawn(process.execPath, [new URL('./static-server.mjs', import.meta.url).pathname, koren, String(luka)],
                  { stdio: 'ignore', detached: true });
   await new Promise(r => setTimeout(r, 1200));
   BASE = `http://localhost:${luka}`;

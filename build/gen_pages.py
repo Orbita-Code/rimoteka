@@ -337,8 +337,8 @@ FOOTER_TMPL = """<footer class="site-footer">
          1.993 strane sa rimama nije imao gde da vidi adresu. Izmereno, ne
          pretpostavljeno: `grep -rl "info@rimoteka" public/` → 1 strana. -->
     <p class="footer-contact">Za saradnju: <a href="mailto:eureka@rimoteka.com" class="footer-link">eureka@rimoteka.com</a></p>
-    <nav class="footer-rimes" aria-label="Popularne rime">
-      <span class="footer-rimes-label">Popularne rime:</span>
+    <nav class="footer-rimes" aria-label="Rime za česte reči">
+      <span class="footer-rimes-label">Rime za česte reči — pogledaj koje se reči rimuju sa najčešćim rečima u pesmama:</span>
       {poprime}
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">

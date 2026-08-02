@@ -76,6 +76,50 @@
   --futer-sitno:#6a6390;     /* na --futer-bg-b = 4,96 */
   --futer-linija:#d8d0f2;    /* pet linija notnog sistema (ukras, ne nosi podatak) */
   --futer-nota:#6d5abd;      /* note na linijama = 4,80 prema podlozi */
+
+  /* ── ŠIRINE — JEDAN OMOTAČ ZA CELU STRANU ────────────────────────────────
+     Do 02.08.2026. je samo `main` imao ograničenje (940 px), a zaglavlje i
+     traka tabova su išli preko cele širine ekrana. Na monitoru od 1920 px to
+     je izgledalo kao tri različita rasporeda na jednoj strani: logo na 48 px
+     od leve ivice, dugme teme na 1855 px, a rime u traci od 530 do 1390 px.
+     Izmereno tada: rezultati su bili široki 857 px na SVAKOM ekranu preko
+     1024 px, pa je u red stajalo tačno 3 kapsule — a četvrtoj je nedostajalo
+     89 px (4 kapsule traže 946 px, prosečna kapsula je 230 px + razmak 8,8).
+
+     Zašto 940 px uopšte postoji: to je granica za PROZU. Red teksta duži od
+     ~75 znakova se teško prati jer oko promaši početak sledećeg reda.
+     Zašto tu prestaje da važi: spisak rima NIJE proza. Kapsula je zaokružena
+     celina koja se skenira, ne čita — kao stavka u indeksu ili rečniku, gde
+     su kolone pravilo, a ne izuzetak. Uzak red tu ne pomaže nego odmaže:
+     na 940 px spisak od 195 rima ima 65 redova i 3.927 px visine.
+
+     Gornja granica postoji i nije proizvoljna: traka tabova je prirodno
+     široka 994 px. Na omotaču od 1360 px (sadržaj 1.277 px) tabovi ispune
+     78% širine i strana se čita kao jedna celina; na 1560 px padaju na 67%
+     i zaglavlje počne da deluje prazno. Zato 1360 px.
+
+     `--sirina-sadrzaj` je čista širina sadržaja (bez odstojanja) — po njoj se
+     poravnava futer, koji svoje odstojanje računa drugačije. Kad se menja
+     `--sirina-okvir`, futer ide sam od sebe. */
+  --sirina-okvir:1360px;
+  --odstojanje-okvir:clamp(1rem,4vw,2.6rem);
+  --sirina-sadrzaj:calc(var(--sirina-okvir) - 2*var(--odstojanje-okvir));
+  /* Traka za unos i filteri. Polje za unos prima JEDNU reč — raširiti ga na
+     1.277 px ne bi bilo bolje nego veće. Ova granica ga drži na tačno onoj
+     veličini koju je imao dok je omotač bio 940 px, pa se glavni cilj na
+     strani nije ni pomerio ni promenio. */
+  --sirina-unos:53.5rem;
+  /* Blokovi sa tekstom o alatu su proza — ostaju uski i kad se omotač raširi. */
+  --sirina-proza:52rem;
+
+  /* ── LIST IZ BELEŽNICE (blokovi sa tekstom) ──────────────────────────────
+     Papir mora da se razlikuje od strane (strana je bela), a da ostane u
+     lavandi — topla krem nijansa bi uvela novu boju u paletu. */
+  --papir:#f7f4fe;
+  --papir-ivica:#ebe4fb;
+  --papir-linija:#e3daf7;   /* linije za pisanje — ukras, ne nose podatak */
+  --papir-margina:#c3b0ef;  /* uspravna margina, kao u svesci */
+  --papir-slovo:#6f63a8;    /* slovo šeme rime u margini = 4,93 na papiru */
 }
 body.dark-mode{
   --lavender:#b8a5f5;
@@ -124,6 +168,13 @@ body.dark-mode{
   --futer-sitno:#9a90bf;     /* na --futer-bg-b = 6,49 */
   --futer-linija:#3e3663;
   --futer-nota:#9a88db;
+  /* List iz beležnice u tamnoj temi — papir je SVETLIJI od strane (#121018),
+     kao osvetljen list. Izmereno 02.08.2026, granica 4,5. */
+  --papir:#221d36;
+  --papir-ivica:#302949;
+  --papir-linija:#2f2848;
+  --papir-margina:#584a8c;
+  --papir-slovo:#a89ad8;     /* na papiru = 5,74 */
 }
 body.dark-mode{background:#121018}
 /* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
@@ -146,9 +197,20 @@ body.dark-mode .landing,
 body.dark-mode .res-group,
 body.dark-mode .related-rimes,
 body.dark-mode .syl-groups,
-body.dark-mode .landing-faq details,
-body.dark-mode .faq details,
-body.dark-mode .seo-blok,
+/* Odavde su 02.08.2026. sklonjeni `.seo-blok`, `.faq details` i
+   `.landing-faq details` — sva tri iz istog razloga.
+
+   `.seo-blok`: papir lista iz beležnice ide kroz `--papir`, koji postoji u obe
+   teme. Da je ostao ovde, `body.dark-mode .seo-blok` (specifičnost 0,2,0) bi
+   nadjačalo `.seo-blok` (0,1,0) i u tamnoj temi tiho poništilo ceo motiv.
+
+   `.faq details` i `.landing-faq details`: kod njih je ovo pravilo menjalo
+   SAMO pozadinu, dok je ivica ostajala tvrdo upisana `2px solid #fff` iz
+   osnovnog pravila. U tamnoj temi je zato svako pitanje imalo BELI okvir od
+   2 px oko tamne ispune — izmereno 02.08.2026, vidi se na svakoj od 1.994
+   generisane strane i na početnoj. Isti obrazac kao nalaz K2: boja se menja
+   kroz promenljivu, a susedno svojstvo ostaje tvrdo upisano. Sada i pozadina
+   i ivica idu kroz `--card-bg`, pa ne mogu da se raziđu. */
 body.dark-mode .note-stats,
 body.dark-mode .poem-card,
 body.dark-mode .notepad-text,
@@ -422,11 +484,23 @@ body{
 h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-weight:700}
 
 /* HEADER */
+/* Zaglavlje deli omotač sa tabovima i sadržajem (v. `--sirina-okvir`).
+   Bez ovoga `justify-content:space-between` razvlači logo i dugme teme na
+   same ivice ekrana: na 1920 px su bili razmaknuti 1.807 px, dok je sadržaj
+   stajao u traci od 857 px u sredini. Dugme za tamnu temu je tako bilo
+   udaljeno od onoga što čovek gleda skoro celu širinu ekrana. */
 .site-header{
   position:relative;
   display:flex;align-items:center;justify-content:space-between;
   flex-wrap:wrap;gap:1rem;
-  padding:1.6rem clamp(1rem,4vw,2.6rem) 1.1rem;
+  /* `width:100%` NIJE višak. `body` je uspravan flex kontejner, pa su
+     zaglavlje, tabovi i `main` njegove stavke. Bočna margina `auto` na stavci
+     flexa GASI razvlačenje po poprečnoj osi — bez `width:100%` se element
+     skupi na širinu svog sadržaja. Izmereno 02.08.2026: zaglavlje je palo sa
+     1360 na 635 px, a traka tabova je izašla iz ekrana i napravila
+     vodoravno skrolovanje od 641 px na telefonu od 360 px. */
+  width:100%;max-width:var(--sirina-okvir);margin-inline:auto;
+  padding:1.6rem var(--odstojanje-okvir) 1.1rem;
   overflow:hidden;
 }
 .brand{cursor:pointer;border-radius:14px;padding:.2rem .4rem;transition:transform .15s ease,opacity .15s ease;user-select:none}
@@ -554,9 +628,12 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .donate-btn:hover{background:var(--lavender);color:#fff}
 
 /* TABS */
+/* Isti omotač kao zaglavlje i sadržaj. Ispod 1360 px se ništa ne menja —
+   traka je i pre bila široka koliko i ekran. */
 .tabs{
   display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;
-  padding:.4rem clamp(1rem,4vw,2.6rem);
+  width:100%;max-width:var(--sirina-okvir);margin-inline:auto;   /* `width:100%` — v. napomenu u .site-header */
+  padding:.4rem var(--odstojanje-okvir);
 }
 .tabs button,.tabs a{text-decoration:none;
   border:0;background:#fff;font:inherit;font-weight:600;font-size:.92rem;
@@ -581,7 +658,7 @@ body .tabs button.active,body .tabs a.active{
 body .tabs button.active .badge,body .tabs a.active .badge{background:var(--on-accent);color:var(--fill-accent-b)}
 
 /* MAIN */
-main{max-width:940px;margin:0 auto;padding:1.4rem clamp(1rem,4vw,2.6rem) 4rem}
+main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1.4rem var(--odstojanje-okvir) 4rem}
 .hero{text-align:center;margin:0 0 1.2rem}
 /* Najveća veličina je 1,70rem, ne 1,9rem — sa Rubikom (širi od starog fonta) se
    naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
@@ -593,6 +670,12 @@ main{max-width:940px;margin:0 auto;padding:1.4rem clamp(1rem,4vw,2.6rem) 4rem}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 
 /* SEARCH */
+/* Traka za unos i filteri stoje u svom, užem omotaču i poravnati su po sredini
+   sa naslovom iznad. Spisak rima ispod ide preko cele širine. Razlog: polje
+   prima jednu reč, pa mu širina od 1.277 px ne daje ništa — a rasuti filteri
+   preko cele te širine odvlače oko od polja. Ovako strana ima jasan levak:
+   naslov i polje u sredini, pa se ispod otvara polje rezultata. */
+.search-row,.filters{max-width:var(--sirina-unos);margin-inline:auto}
 .search-row{position:relative;display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.1rem}
 .search-row input[type=text],.search-row select{
   flex:1;min-width:180px;font:inherit;font-size:1.08rem;font-weight:600;
@@ -880,26 +963,89 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
    Pokret: samo `opacity` i `transform`, 180 ms — po skali za ulazak malog
    elementa. Visina se NE animira: animacija visine tera pregledač da ponovo
    računa raspored cele strane i na telefonu se vidi kao trzanje. */
-.seo-blokovi{display:flex;flex-direction:column;gap:.6rem;margin:0 0 1.6rem}
+/* ── LIST IZ BELEŽNICE ─────────────────────────────────────────────────────
+   Vlasnica je 02.08.2026. rekla da su blokovi „samo harmonika" i bila je u
+   pravu: bili su isti beli pravougaonici kao „Česta pitanja" ispod njih, sa
+   znakom ＋. Njena ideja je bila „notes za pisanje pesama" — i to je ovde
+   izvedeno bukvalno, jer motiv mora da znači nešto BAŠ na ovom sajtu:
+
+     · papir koji se razlikuje od strane, sa uspravnom marginom kao u svesci;
+     · u toj margini stoji slovo šeme rime (A, B, A) — tačno ono što pesnik
+       piše sa strane dok proverava kako mu se pesma sklapa. Tri bloka daju
+       shemu ABA. Slovo je UKRAS (`aria-hidden`), ne dugme i ne podatak —
+       ništa se ne gubi ako ga neko ne primeti;
+     · linije za pisanje iza teksta, sa razmakom tačno jednakim visini reda,
+       pa slova sede NA linijama, kao u svesci. Zato razmak paragrafa mora
+       biti umnožak istog koraka — inače se ritam raspadne već na drugom
+       pasusu.
+
+   Šta se NIJE radilo i zašto: slovo A/B/A NE zamenjuje znak za otvaranje.
+   Provera „šta ovo radi" pada — čovek koji vidi samo „A" ne zna da se blok
+   otvara. Zato otvaranje nosi ugaonik (chevron) desno, koji se okreće. */
+.seo-blokovi{display:flex;flex-direction:column;gap:.7rem;margin:0 0 1.6rem;max-width:var(--sirina-proza)}
 .seo-blok{
-  background:var(--card-bg);border:2px solid var(--card-bg);border-radius:16px;
-  box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s;
+  position:relative;
+  background:var(--papir);border:1px solid var(--papir-ivica);border-radius:14px;
+  box-shadow:var(--shadow-sm);
+  /* Levo odstojanje pravi marginu sveske: 3,7rem do teksta, linija na 2,7rem. */
+  padding:.75rem 1.15rem .85rem 3.7rem;
+  transition:border-color .18s cubic-bezier(.2,0,0,1);
 }
-.seo-blok[open]{border-color:var(--lavender)}
+.seo-blok[open]{border-color:var(--papir-margina)}
+/* Uspravna margina — ide kroz ceo list, i preko naslova i preko teksta. */
+.seo-blok::before{
+  content:'';position:absolute;left:2.7rem;top:.6rem;bottom:.6rem;width:1px;
+  background:var(--papir-margina);
+}
+/* Slovo šeme rime u margini. Poravnato sa redom naslova, ne sa vrhom lista. */
+.seo-blok-slovo{
+  position:absolute;left:0;top:.75rem;width:2.7rem;height:44px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.9rem;font-weight:700;letter-spacing:.02em;color:var(--papir-slovo);
+}
 .seo-blok summary{
   cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem;
   /* Ceo red je dodirni cilj, ne samo slova. */
   min-height:44px;
 }
 .seo-blok summary::-webkit-details-marker{display:none}
-.seo-blok summary::before{content:"＋";color:var(--rose-deep);font-weight:700;font-size:1.05rem;line-height:1;flex:0 0 auto}
-.seo-blok[open] summary::before{content:"−"}
 /* Naslov ostaje pravi `h3` zbog pretraživača, ali unutar reda ne sme da nosi
    svoje razmake — inače red poskoči i dodirni cilj se raspadne. */
-.seo-blok summary h3{margin:0;font-size:1.02rem;font-weight:600;color:var(--ink);line-height:1.35}
+.seo-blok summary h3{margin:0;flex:1 1 auto;font-size:1.02rem;font-weight:600;color:var(--ink);line-height:1.35}
 .seo-blok summary:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:3px;border-radius:10px}
-.seo-blok-telo{animation:blok-ulaz .18s cubic-bezier(.2,0,0,1)}
-.seo-blok-telo p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.95rem;line-height:1.6;max-width:70ch}
+/* Ugaonik: dve ivice kvadrata okrenute za 45°. Crta se, ne piše — znak `＋`
+   je u fontu bio različite širine u svakoj temi. Okreće se za 90 ms
+   (odziv na potez), i to `transform`-om, pa raspored ostaje netaknut. */
+.seo-blok-znak{
+  flex:0 0 auto;width:.5rem;height:.5rem;margin-right:.2rem;
+  border-right:2px solid var(--rose-deep);border-bottom:2px solid var(--rose-deep);
+  transform:rotate(-45deg);
+  transition:transform .16s cubic-bezier(.2,0,0,1);
+}
+.seo-blok[open] .seo-blok-znak{transform:rotate(45deg)}
+/* Linije za pisanje. Korak 28 px = tačno visina reda teksta ispod, pa svaki
+   red sedi na svojoj liniji.
+   Pomeraj je IZMEREN, ne procenjen: prvi red počinje 8 px od vrha tela, a
+   osnova slova mu pada na 27,4 px. Linija stoji na 27–28 px unutar koraka,
+   pa pomeraj od 2 px spusti liniju na 29 px — 1,6 px ispod osnove slova,
+   tačno kao u svesci (repovi slova „j" i „p" prelaze preko linije).
+   Ako se promeni veličina slova ili visina reda, OVO SE MERI PONOVO. */
+.seo-blok-telo{
+  padding-top:.5rem;
+  background-image:repeating-linear-gradient(to bottom,
+    transparent 0 27px,var(--papir-linija) 27px 28px);
+  background-position:0 2px;
+  animation:blok-ulaz .18s cubic-bezier(.2,0,0,1);
+}
+/* max-width je u REM, nikad u `ch` — `ch` je širina znaka u TEKUĆEM fontu, pa
+   se preračuna kad stigne Rubik i strana poskoči (02.08.2026: skakanje sa
+   0,005 na 0,192, pri granici 0,1). 47rem = 752 px = ~74 znaka, unutar
+   raspona 65–75 koji se lako prati. */
+/* Visina reda je 1,75rem (28 px) i razmak između pasusa je isto 28 px — jedan
+   prazan red u svesci. Da je razmak bio .7rem, linije bi se već od drugog
+   pasusa razišle sa tekstom. */
+.seo-blok-telo p{margin:0;color:var(--ink-soft);font-size:.95rem;line-height:1.75rem;max-width:47rem}
+.seo-blok-telo p + p{margin-top:1.75rem}
 @keyframes blok-ulaz{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 
 /* ── „SMANJI POKRET" — GLOBALNO PRAVILO (02.08.2026) ───────────────────────
@@ -967,10 +1113,13 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
   mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
 }
-/* Note se poravnavaju sa sadržajem futera: 940 px sadržaja + 2×1,5rem padding. */
+/* Note se poravnavaju sa sadržajem futera: širina sadržaja + 2×1,5rem padding.
+   Ide kroz `--sirina-sadrzaj` da bi taktne crte ostale tačno iznad ivica
+   futera i kad se omotač promeni — ranije je ovde stajalo tvrdo 940 px, pa bi
+   se pri svakoj promeni širine note tiho razišle sa tekstom ispod. */
 .futer-v2 .futer-note{
   position:relative;display:flex;justify-content:space-between;align-items:flex-start;
-  max-width:calc(940px + 3rem);margin:0 auto;padding:0 1.5rem;
+  max-width:calc(var(--sirina-sadrzaj) + 3rem);margin:0 auto;padding:0 1.5rem;
 }
 .futer-v2 .nota{flex:0 0 auto;color:var(--futer-nota)}
 /* Taktne crte: tanka na početku, dvostruka (tanka + debela) na kraju — tako
@@ -1028,7 +1177,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   gap:1.1rem 2rem;padding-bottom:1.6rem;border-bottom:1px solid var(--line);
 }
 .futer-v2 .futer-glava-tekst{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:.45rem}
-.futer-v2 .footer-desc{margin:0;max-width:46ch}
+.futer-v2 .footer-desc{margin:0;max-width:27rem}   /* rem, ne `ch` — v. napomenu uz .seo-blok-telo p */
 .futer-v2 .futer-akcija{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;max-width:26rem}
 .futer-v2 .futer-akcija-hint{margin:0;font-size:.82rem;font-weight:500;color:var(--futer-sitno);text-align:right;line-height:1.5}
 
@@ -1082,6 +1231,12 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
    `build/gen_pages.py` i ne smeju da se diraju u HTML-u; zato se gase
    veličinom slova 0 na omotaču, a linkovi dobiju svoju veličinu nazad. */
 .futer-v2 .futer-rime{max-width:none;margin:0}
+/* Rečenica ispod naslova nosi ključnu frazu „koje se reči rimuju sa“. Boja ide
+   kroz --ink-soft (ne --muted) jer je ovo tekst koji se čita, ne sitno pod njim. */
+/* max-width je u REM, nikad u `ch` — `ch` je širina znaka u tekućem fontu, pa se
+   kad stigne Rubik cela širina preračuna i strana skoči. Tako je 02.08. skakanje
+   otišlo sa 0,005 na 0,192 pri granici 0,1. U celom fajlu nema nijedne `ch`. */
+.futer-v2 .futer-rime-uvod{margin:.1rem 0 .7rem;color:var(--ink-soft);font-size:.92rem;max-width:24rem}
 .futer-v2 .futer-rime-spisak{display:flex;flex-wrap:wrap;gap:.4rem;font-size:0;line-height:1}
 .futer-v2 .futer-rime-spisak .footer-link{
   display:inline-flex;align-items:center;justify-content:center;
@@ -1141,17 +1296,28 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 
 /* SEO CONTENT + FAQ */
 .seo-content{padding:1rem clamp(1rem,4vw,2.6rem) 2.6rem}
-.seo-inner{max-width:940px;margin:0 auto}
+/* Ista širina i ista leva ivica kao sadržaj u `main`. Dok je ovde stajalo
+   tvrdo 940 px, posle širenja omotača je ceo tekstualni deo bio uvučen 168 px
+   udesno u odnosu na spisak rima iznad — izmereno 02.08.2026 na 1440 px. */
+.seo-inner{max-width:var(--sirina-sadrzaj);margin:0 auto}
 .seo-inner h2{font-size:1.3rem;font-weight:600;color:var(--lavender-deep);margin:1.6rem 0 .6rem}
 .seo-inner h2:first-child{margin-top:0}
 .seo-inner p{color:var(--ink-soft);font-size:.96rem;margin:0 0 .8rem;max-width:760px}
-.faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem}
-.faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s}
+/* Ista širina kao blokovi iznad — i jedno i drugo je proza. */
+.faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem;max-width:var(--sirina-proza)}
+.faq details{background:var(--card-bg);border:2px solid var(--card-bg);border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s}
 .faq details[open]{border-color:var(--lavender)}
 .faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::before{content:"＋";color:var(--rose-deep);font-weight:700;font-size:1.05rem;line-height:1}
-.faq details[open] summary::before{content:"−"}
+/* Isti ugaonik kao na listovima iznad — strana ima JEDAN jezik otvaranja.
+   Klasa `.faq` stoji samo na početnoj (provereno: 1 fajl), pa ova izmena ne
+   dodiruje 1.994 generisane strane, koje koriste `.landing-faq`. */
+.faq summary::before{
+  content:"";flex:0 0 auto;width:.5rem;height:.5rem;margin:0 .25rem 0 .15rem;
+  border-right:2px solid var(--rose-deep);border-bottom:2px solid var(--rose-deep);
+  transform:rotate(-45deg);transition:transform .16s cubic-bezier(.2,0,0,1);
+}
+.faq details[open] summary::before{transform:rotate(45deg)}
 .faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem}
 
 /* LANDING (rime-za) */
@@ -1160,7 +1326,9 @@ a.brand{text-decoration:none;color:inherit;display:inline-block}
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
   display:inline-flex;align-items:center;gap:.04em;font-family:'Rubik','Rubik rezerva',system-ui,sans-serif
 }
-main.landing{max-width:940px;margin:0 auto;padding:1rem clamp(1rem,4vw,2.6rem) 3rem}
+/* Isti omotač kao početna — inače bi 1.994 generisane strane `/rime-za/…/`
+   ostale na starih 940 px i imale 3 kapsule u redu, a početna 5. */
+main.landing{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1rem var(--odstojanje-okvir) 3rem}
 .crumbs{font-size:.85rem;color:var(--muted);font-weight:600;margin-bottom:.8rem}
 .crumbs a{color:var(--lavender-deep);text-decoration:none}
 .crumbs a:hover{text-decoration:underline}
@@ -1205,7 +1373,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 .landing-next p{line-height:1.7;color:var(--ink)}
 .landing-faq{margin-top:2rem}
 .landing-faq h2,.landing-faq h3{font-size:1.2rem;font-weight:600;color:var(--lavender-deep);margin:0 0 .7rem}
-.landing-faq details{background:#fff;border:2px solid #fff;border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
+.landing-faq details{background:var(--card-bg);border:2px solid var(--card-bg);border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;margin-bottom:.6rem;transition:border-color .18s}
 .landing-faq details[open]{border-color:var(--lavender)}
 .landing-faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .landing-faq summary::-webkit-details-marker{display:none}
@@ -1226,7 +1394,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 
 /* FOOTER */
 .site-footer{margin-top:auto;border-top:1px solid var(--line);background:#fff;padding:2.2rem 1.5rem}
-.footer-inner{max-width:940px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem}
+.footer-inner{max-width:var(--sirina-sadrzaj);margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:.5rem}
 .footer-brand{display:inline-flex;align-items:center;gap:.04em}
 .footer-logo{height:1.7rem;width:auto;display:block;filter:drop-shadow(0 2px 5px rgba(90,63,208,.22))}
 .footer-name{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;font-size:1.45rem;line-height:1;transform:translateY(.04em);
@@ -1260,6 +1428,14 @@ body.dark-mode .landing-tool{background:#1e1a2e}
 
 @media(max-width:560px){
   .search-row input[type=text]{min-width:100%}
+
+  /* List iz beležnice na telefonu: margina se sužava sa 3,7rem na 2,5rem.
+     Na 360 px je široka margina uzimala 59 od 358 px lista, pa je red teksta
+     ostajao na ~271 px i lomio se posle svake treće reči. Motiv ostaje —
+     i margina i slovo šeme rime su i dalje tu, samo uže. */
+  .seo-blok{padding-left:2.5rem}
+  .seo-blok::before{left:1.7rem}
+  .seo-blok-slovo{width:1.7rem;font-size:.82rem}
 
   /* Tabovi — scrollable na mobilnom */
   .tabs{overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding:.4rem 1rem;-webkit-overflow-scrolling:touch}
@@ -1349,7 +1525,7 @@ body.dark-mode .landing-tool{background:#1e1a2e}
      320 px, pa je na telefonu između opisa i dugmeta zjapila rupa od 250 px
      (izmereno 02.08.2026). U koloni se osnova mora poništiti. */
   .futer-v2 .futer-glava-tekst{flex:0 0 auto;align-items:center;width:100%}
-  .futer-v2 .footer-desc{max-width:34ch}
+  .futer-v2 .footer-desc{max-width:20rem}   /* rem, ne `ch` */
   .futer-v2 .futer-akcija{align-items:center;width:100%;max-width:none}
   .futer-v2 .futer-akcija-hint{text-align:center}
   .futer-v2 .futer-cta{width:100%;max-width:22rem}

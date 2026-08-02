@@ -3508,9 +3508,18 @@ async function main() {
           const t = (document.querySelector('main')?.innerText || '').replace(/\s+/g, ' ');
           const out = [];
           for (const m of t.matchAll(/(.{0,60}), (i) ([a-zćčšđž].{0,40})/g)) {
-            // dozvoljeno: nabrajanje sa ponovljenim veznikom („i imenice, i pridevi")
+            // Dozvoljeno je SAMO nabrajanje sa ponovljenim veznikom („i imenice, i pridevi"),
+            // a ono se prepoznaje po tome što deo NEPOSREDNO pre zareza POČINJE sa „i".
+            //
+            // Ranije je ovde stajalo `new RegExp(\`\\b${m[2]} [a-zćčšđž]\`).test(pre)` — dakle
+            // „ima li „i" BILO GDE u prethodnih 60 znakova". Zbog toga je provera tiho
+            // preskakala svaku rečenicu u kojoj se „i" pojavilo ranije, a takvih je većina.
+            // Bila je LAŽNO ZELENA: 02.08.2026. je prošla 496/496 dok je na
+            // `/rimovanje-reci/` stajalo „…pišeš pesmu i vidiš rime u boji, i igru rima…".
+            // Provera koja javlja da je čisto, a ne gleda, gora je od nikakve provere.
             const pre = m[1];
-            if (new RegExp(`\\b${m[2]} [a-zćčšđž]`, 'i').test(pre)) continue;
+            const posl = pre.split(/[,;:—]/).pop().trim();
+            if (/^i\s+[a-zćčšđž]/i.test(posl)) continue;
             out.push(`„…${pre.slice(-45)}, ${m[2]} ${m[3].slice(0, 25)}…"`);
           }
           return out;
@@ -3911,6 +3920,195 @@ async function main() {
          rm.ukupno >= 8 && rm.prozirnih === 0,
          `nota ${rm.ukupno}, prozirnih ${rm.prozirnih}`);
       await ctx36r.close();
+    }
+
+    console.log('\n37) ŠIRINA — jedan omotač, rime u više kolona, proza ostaje uska');
+    {
+      /* Zašto ova sekcija postoji: vlasnica je 02.08.2026. pitala „ko je smislio
+         da logo i tabovi budu skoro 100% širine ekrana, a rime u sredini gde
+         staju samo 3 kapsule". Bila je u pravu — samo je `main` imao granicu
+         od 940 px, pa je na SVAKOM ekranu preko 1024 px spisak rima bio širok
+         857 px i primao tačno 3 kapsule, dok su zaglavlje i tabovi išli preko
+         cele širine (2.560 px na velikom monitoru).
+
+         Tri stvari se ovde čuvaju, i svaka je pala nad starim kodom:
+           1) zaglavlje, tabovi i sadržaj imaju ISTU širinu omotača;
+           2) na širokom ekranu u red staje bar 4 kapsule (bilo 3);
+           3) proza ostaje u rasponu 65–75 znakova (mreža kapsula nije proza,
+              ali pasus jeste — širenje omotača ne sme da razvuče tekst).
+
+         Četvrta provera je za regresiju koju sam sam napravio i uhvatio
+         merenjem: `margin-inline:auto` na stavci uspravnog flex kontejnera
+         gasi razvlačenje, pa se traka tabova skupila na svoj sadržaj i izašla
+         iz ekrana — 641 px vodoravnog skrolovanja na telefonu od 360 px. */
+      const ctx37 = await browser.newContext({ viewport: { width: 1600, height: 900 } });
+      const p37 = ojacajStranu(await ctx37.newPage());
+      await p37.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await p37.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0, { timeout: 120000 });
+      await p37.fill('#rimeInput', 'ljubav');
+      await p37.click('#rimeBtn');
+      await p37.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 8, null, { timeout: 40000 });
+      await pauza(300);
+
+      const s = await p37.evaluate(() => {
+        const sir = (sel) => { const e = document.querySelector(sel); return e ? Math.round(e.getBoundingClientRect().width) : -1; };
+        const chips = [...document.querySelectorAll('#rimeResults .chip')];
+        const red = new Map();
+        chips.forEach(c => { const t = Math.round(c.getBoundingClientRect().top); red.set(t, (red.get(t) || 0) + 1); });
+        /* Meri se NAJPUNIJI red, ne najprazniji. Rime su podeljene u grupe
+           („Najbolje rime", „Dobre rime", sinonimi), pa poslednji red svake
+           grupe legitimno ima jednu ili dve kapsule — `Math.min` bi zato uvek
+           vraćao 1 i provera ne bi merila ono što tvrdi da meri. Kapacitet
+           reda je ono što je vlasnica pitala: koliko reči STANE u red. */
+        const v = [...red.values()];
+        // dužina reda proze u znakovima, mereno širinom znaka „0" u fontu tog elementa
+        const znakova = (sel) => {
+          const el = document.querySelector(sel); if (!el) return -1;
+          const st = getComputedStyle(el);
+          const cv = document.createElement('canvas').getContext('2d');
+          cv.font = `${st.fontStyle} ${st.fontWeight} ${st.fontSize} ${st.fontFamily}`;
+          const w0 = cv.measureText('0').width; if (!w0) return -1;
+          const box = el.getBoundingClientRect().width - parseFloat(st.paddingLeft) - parseFloat(st.paddingRight);
+          return Math.round(box / w0);
+        };
+        return {
+          zaglavlje: sir('header.site-header'), tabovi: sir('nav.tabs'), glavni: sir('main'),
+          poRedu: Math.max(...v),
+          seoZnakova: znakova('.seo-blok-telo p'),
+        };
+      });
+      ok('širina · zaglavlje, tabovi i sadržaj imaju isti omotač',
+         s.zaglavlje === s.tabovi && s.tabovi === s.glavni && s.glavni > 940,
+         `zaglavlje ${s.zaglavlje}, tabovi ${s.tabovi}, sadržaj ${s.glavni} px`);
+      ok('širina · na širokom ekranu u red staje bar 4 kapsule',
+         s.poRedu >= 4, `u najpuniji red staje ${s.poRedu} kapsula (bilo 3)`);
+      ok('širina · proza ostaje u rasponu 65–75 znakova',
+         s.seoZnakova >= 60 && s.seoZnakova <= 78, `izmereno ${s.seoZnakova} znakova u redu`);
+      await ctx37.close();
+
+      for (const sirina of [360, 390]) {
+        const c = await browser.newContext({ viewport: { width: sirina, height: 720 }, isMobile: true, hasTouch: true });
+        const pm = ojacajStranu(await c.newPage());
+        await pm.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(600);
+        const preliv = await pm.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+        ok(`širina · nema vodoravnog skrolovanja na ${sirina} px`, preliv <= 0, `preliva ${preliv} px`);
+        await c.close();
+      }
+    }
+
+    console.log('\n38) LIST IZ BELEŽNICE — blokovi sa tekstom o alatu');
+    {
+      /* Zašto ova sekcija postoji: blokovi su 02.08.2026. bili sklopivi i
+         ispravni, ali bez ijedne crte karaktera — vlasnica je rekla „stavi
+         tekst u blokove koji su ZANIMLJIVI, možda kao notes za pisanje
+         pesama". Motiv (papir, margina, slovo šeme rime, linije za pisanje)
+         se ovde čuva, zajedno sa tvrdim granicama koje ne smeju da padnu:
+         ceo tekst u HTML-u, dodirni cilj 44 px, kontrast u obe teme. */
+      for (const tema of ['svetla', 'tamna']) {
+        const ctx38 = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+        if (tema === 'tamna') await ctx38.addInitScript(() => localStorage.setItem('rimoteka_dark', '1'));
+        const p38 = ojacajStranu(await ctx38.newPage());
+        await p38.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(900);
+        const d = await p38.evaluate(() => {
+          const pRGB = s => { const m = String(s).match(/rgba?\(([^)]+)\)/); if (!m) return null;
+            const q = m[1].split(',').map(parseFloat); return { r: q[0], g: q[1], b: q[2], a: q.length > 3 ? q[3] : 1 }; };
+          const lin = c => { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
+          const LUM = c => 0.2126 * lin(c.r) + 0.7152 * lin(c.g) + 0.0722 * lin(c.b);
+          const odnos = (a, b) => { const l1 = LUM(a), l2 = LUM(b), hi = Math.max(l1, l2), lo = Math.min(l1, l2);
+            return Math.round((hi + 0.05) / (lo + 0.05) * 100) / 100; };
+          const blokovi = [...document.querySelectorAll('.seo-blok')];
+          /* Bez ovoga test PUCA na strani koja nema blokove (npr. kad se pusti
+             protiv produkcije sa starim kodom), pa se ne vidi ŠTA je palo nego
+             samo da je sve stalo. Provera mora da padne uredno. */
+          if (!blokovi.length) return { blokova: 0, nema: true };
+          blokovi.forEach(x => x.open = true);
+          const prvi = blokovi[0];
+          const papir = pRGB(getComputedStyle(prvi).backgroundColor);
+          const telo = prvi.querySelector('.seo-blok-telo');
+          const kontrast = sel => { const e = prvi.querySelector(sel); return e ? odnos(pRGB(getComputedStyle(e).color), papir) : -1; };
+          return {
+            blokova: blokovi.length,
+            slova: blokovi.map(x => (x.querySelector('.seo-blok-slovo') || {}).textContent || ''),
+            slovaSkrivena: blokovi.every(x => x.querySelector('.seo-blok-slovo')?.getAttribute('aria-hidden') === 'true'),
+            znakova: blokovi.filter(x => x.querySelector('.seo-blok-znak')).length,
+            margina: getComputedStyle(prvi, '::before').backgroundColor,
+            linije: getComputedStyle(telo).backgroundImage,
+            // korak linija mora da bude jednak visini reda — inače tekst ne sedi na liniji
+            visinaReda: getComputedStyle(telo.querySelector('p')).lineHeight,
+            duzinaTeksta: telo.innerText.trim().length,
+            kTelo: kontrast('.seo-blok-telo p'),
+            kNaslov: kontrast('summary h3'),
+            kSlovo: kontrast('.seo-blok-slovo'),
+            papirRazlicit: getComputedStyle(prvi).backgroundColor !== getComputedStyle(document.body).backgroundColor,
+          };
+        });
+        if (d.nema) {
+          ok(`blokovi (${tema}) · listovi sa tekstom postoje`, false, 'nijedan `.seo-blok` nije nađen na strani');
+          await ctx38.close();
+          continue;
+        }
+        ok(`blokovi (${tema}) · sva tri lista imaju slovo šeme rime i ono daje ABA`,
+           d.slova.join('') === 'ABA', `nađeno „${d.slova.join('')}"`);
+        ok(`blokovi (${tema}) · slovo je ukras, sakriveno čitaču ekrana`, d.slovaSkrivena === true);
+        ok(`blokovi (${tema}) · svaki list ima znak za otvaranje`, d.znakova === 3, `nađeno ${d.znakova}`);
+        ok(`blokovi (${tema}) · list ima uspravnu marginu kao sveska`,
+           /rgb/.test(d.margina), `margina: ${d.margina}`);
+        ok(`blokovi (${tema}) · iza teksta stoje linije za pisanje`,
+           /repeating-linear-gradient/.test(d.linije));
+        ok(`blokovi (${tema}) · korak linija je jednak visini reda (tekst sedi na liniji)`,
+           d.visinaReda === '28px', `visina reda ${d.visinaReda}, a linije su na 28 px`);
+        ok(`blokovi (${tema}) · papir se razlikuje od strane`, d.papirRazlicit === true);
+        ok(`blokovi (${tema}) · kontrast teksta na papiru je bar 4,5`, d.kTelo >= 4.5, `izmereno ${d.kTelo}`);
+        ok(`blokovi (${tema}) · kontrast naslova na papiru je bar 4,5`, d.kNaslov >= 4.5, `izmereno ${d.kNaslov}`);
+        ok(`blokovi (${tema}) · kontrast slova u margini je bar 4,5`, d.kSlovo >= 4.5, `izmereno ${d.kSlovo}`);
+        ok(`blokovi (${tema}) · ceo tekst stoji u strani, ne ubacuje ga skripta`,
+           d.duzinaTeksta > 700, `izmereno ${d.duzinaTeksta} znakova`);
+        await ctx38.close();
+      }
+
+      /* Dodirni cilj i to da se polje za unos NIJE spustilo. */
+      const ctx38m = await browser.newContext({ viewport: { width: 390, height: 664 }, isMobile: true, hasTouch: true });
+      const p38m = ojacajStranu(await ctx38m.newPage());
+      await p38m.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(900);
+      const m = await p38m.evaluate(() => ({
+        /* `-1` kad blokova nema: `Math.min()` bez argumenata vraća `Infinity`,
+           pa bi provera „bar 44 px" prolazila i na strani BEZ ijednog bloka —
+           lažno zelena provera, tačno ono što protokol zabranjuje. */
+        red: document.querySelector('.seo-blok summary')
+          ? Math.min(...[...document.querySelectorAll('.seo-blok summary')].map(s => s.getBoundingClientRect().height))
+          : -1,
+        polje: Math.round(document.querySelector('#rimeInput').getBoundingClientRect().top + window.scrollY),
+        skrol: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+      }));
+      ok('blokovi · red za otvaranje je dodirni cilj od bar 44 px', m.red >= 44, `izmereno ${m.red} px`);
+      ok('blokovi · polje za unos se nije spustilo (najviše 263 px od vrha na 390 px)',
+         m.polje <= 263, `izmereno ${m.polje} px`);
+      ok('blokovi · nema vodoravnog skrolovanja na 390 px', m.skrol <= 0, `preliva ${m.skrol} px`);
+      await ctx38m.close();
+
+      /* Smanjen pokret: tekst i slovo ostaju vidljivi — ne gubi se podatak. */
+      const ctx38r = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });
+      const p38r = ojacajStranu(await ctx38r.newPage());
+      await p38r.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(700);
+      await p38r.evaluate(() => document.querySelectorAll('.seo-blok').forEach(x => x.open = true));
+      /* Mora da prođe bar jedan iscrtan kadar. Ako se `opacity` čita u ISTOM
+         potezu u kome je blok otvoren, dobije se početna vrednost animacije
+         (0) — a to nije stanje koje čovek vidi. Provereno merenjem: već posle
+         50 ms je 1, i u režimu „smanji pokret" i bez njega. */
+      await pauza(250);
+      const rr = await p38r.evaluate(() => {
+        const t = document.querySelector('.seo-blok-telo'), s = document.querySelector('.seo-blok-slovo');
+        return { telo: parseFloat(getComputedStyle(t).opacity), slovo: parseFloat(getComputedStyle(s).opacity),
+                 duzina: t.innerText.trim().length };
+      });
+      ok('blokovi · sa „smanji pokret" tekst i slovo ostaju vidljivi',
+         rr.telo >= 0.99 && rr.slovo >= 0.99 && rr.duzina > 700,
+         `telo ${rr.telo}, slovo ${rr.slovo}, ${rr.duzina} znakova`);
+      await ctx38r.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

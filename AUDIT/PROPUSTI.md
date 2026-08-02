@@ -1024,3 +1024,37 @@ ne u glavnom tekstu (v. pravilo 59).
 > testu.** Zarez ispred `i/pa/te/ni` je sada sekcija 34; prolazi kroz sedam strana i pada
 > na svakom takvom mestu, uz jedan izuzetak koji pravopis dozvoljava (nabrajanje sa
 > ponovljenim veznikom). Oslanjanje na to da će sledeći pisac „znati" nije zaštita.
+
+---
+
+## 02.08.2026 — provera reči koja poredi DEO reči umesto cele
+
+**Šta je promašeno:** prvi prolaz kroz Rečnik Matice proglasio je `ded` ijekavskim
+oblikom. `ded` je baš EKAVSKI oblik iz te odrednice („дед јек. дјед").
+
+**Zašto:** provera je tražila da se reč pojavi iza oznake „јек." — ali običnim
+`in`, dakle kao **deo teksta**. Iza te oznake u istom redu stajalo je `deda`, a
+`deda` sadrži slova `ded`.
+
+> **PRAVILO 66:** **Reč se u tekstu traži kao CELA reč, nikad kao niz slova.**
+> Svako poređenje reči sa rečnikom, spiskom ili korpusom ide sa granicom reči
+> (`(?<![slovo])rec(?![slovo])`). Sa `in` ili `indexOf` svaka kraća reč „nađe se"
+> u dužoj — `ded` u `deda`, `rima` u `stvarima` — i presuda je naopaka, a deluje
+> potvrđeno jer je „nađena u izvoru".
+
+---
+
+## 02.08.2026 — poređenje osnove koje radi samo u jednom smeru
+
+**Šta je promašeno:** `toplinom` je završilo u grupi „nema je u Rečniku Matice",
+kao kandidat za brisanje — a `toplina` je obična srpska reč.
+
+**Zašto:** provera je gledala da li je **odrednica početak naše reči**. Odrednica
+je `toplina`, naša reč `toplinom`; zajednička osnova je `toplin-`, ali nijedna od
+te dve reči nije početak one druge, pa poklapanja nije bilo.
+
+> **PRAVILO 67:** **Kad se porede promenjeni oblici, poredi se ZAJEDNIČKA OSNOVA
+> obe reči, ne „da li je jedna početak druge".** Srpski menja i kraj i osnovu, pa
+> jednosmerno poređenje promašuje celu klasu reči. I: **spisak za brisanje se ne
+> izvodi iz obrasca nego se ispisuje reč po reč** — u grupi od 118 „nepotvrđenih"
+> bile su izmešane hrvatske reči, ijekavski oblici i obične srpske reči.

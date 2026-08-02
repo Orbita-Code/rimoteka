@@ -325,8 +325,8 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260727c', true),
-    uzmiTekst('/reci_jekavica.txt?v=20260726', false)
+    uzmiTekst('/reci.txt?v=20260802c', true),
+    uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -392,7 +392,7 @@ async function loadExtras(){
        `izbaciJekavske()`. Ako skidanje ne uspe, skup ostaje prazan i sve radi kao
        ranije: bolje da se pokaže jedna jekavska reč nego da nestanu sve rime. */
     try{
-      const jr = await (await fetch('/jekavski.json?v=1')).json();
+      const jr = await (await fetch('/jekavski.json?v=20260802b')).json();
       if(Array.isArray(jr)) JEKAVSKI = new Set(jr);
     }catch(e){ /* namerno tiho — v. komentar iznad */ }
     // Ažuriraj rangiranje sa frekvencijom.
@@ -448,10 +448,30 @@ function toggleFav(w){
   updateFavCount();
   renderFavorites();
   document.querySelectorAll(`.chip[data-w="${cssEsc(w)}"] .fav`).forEach(b=>{
+    /* Menja se SAMO klasa — oba znaka (srce i nota) već stoje u dugmetu, jedan
+       preko drugog, pa CSS može da ih pretopi. Kad se ranije prepisivao
+       `textContent`, znak je iskakao bez prelaza. */
     b.classList.toggle('on', isFav(w));
-    b.textContent = isFav(w) ? '♥' : '♡';
+    b.setAttribute('aria-pressed', isFav(w) ? 'true' : 'false');
+    b.title = favNaslov(w);
+    b.setAttribute('aria-label', `${favNaslov(w)}: ${disp(w)}`);
   });
 }
+/* Naslov dugmeta mora da kaže šta će se desiti na SLEDEĆI klik, ne kakvo je
+   stanje — inače čitač ekrana kaže „sačuvaj" i za reč koja je već sačuvana. */
+function favNaslov(w){ return uiTxt(isFav(w) ? 'ukloni iz omiljenih' : 'sačuvaj u omiljene'); }
+
+/* PUNA NOTA — znak da je reč sačuvana. Isti crtež kao note na notnom sistemu
+   u futeru (glava je elipsa nagnuta za 18°, vrat gore-desno, zastavica), samo
+   sveden na veličinu ikonice. Boja ide kroz `--nota-fav` (postoji u obe teme).
+   `aria-hidden` jer ime dugmeta nosi `aria-label`, ne crtež. */
+const FAV_NOTA_SVG =
+  '<svg class="fav-nota" viewBox="0 0 22 32" fill="currentColor" aria-hidden="true" focusable="false">' +
+  '<g transform="translate(7 26)">' +
+  '<path d="M6.6,-23.2c6.8,3.3 9,8.4 6.5,14.7c0.6,-5.7 -1.7,-8.9 -6.5,-11.5z"/>' +
+  '<rect x="4.6" y="-23" width="2" height="23.2" rx="1"/>' +
+  '<ellipse rx="6" ry="4.4" transform="rotate(-18)"/>' +
+  '</g></svg>';
 function cssEsc(s){ return (window.CSS && CSS.escape) ? CSS.escape(s) : s.replace(/["\\]/g,'\\$&'); }
 
 function makeChip(word){
@@ -463,7 +483,7 @@ function makeChip(word){
     `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${disp(word)}</span>` +
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
     `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${disp(word)}">ⓘ</button>` +
-    `<button class="mini fav ${isFav(word)?'on':''}" title="${uiTxt('sačuvaj u omiljene')}" aria-label="${uiTxt('sačuvaj u omiljene')}: ${disp(word)}">${isFav(word)?'♥':'♡'}</button>` +
+    `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${disp(word)}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
     `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
@@ -625,7 +645,17 @@ function izmeriCipove(){
     return;
   }
   svi.forEach(c => c.classList.remove('chip-siri','chip-najsiri'));   // 1. upis
-  const mere = svi.map(c => ({ c, treba: c.scrollWidth, ima: c.clientWidth })); // 2. čitanje
+  /* 2. čitanje — koliko čipu TREBA meri se preko same reči, ne preko čipa.
+     Zamka: `.word` je flks-dete sa `min-width:0`, pa se ono SKUPI i seče na tri
+     tačke umesto da razvuče čip — zbog toga je `c.scrollWidth` uvek jednak
+     `c.clientWidth` i nijedan čip nikad nije dobio širu kolonu. Izmereno
+     02.08.2026. na 320 px: „novorođenče" traži 103 px, dobija 75, a čip je i
+     dalje javljao 115/115. Manjak reči se zato dodaje na širinu čipa. */
+  const mere = svi.map(c => {
+    const w = c.querySelector('.word');
+    const manjak = w ? Math.max(0, w.scrollWidth - w.clientWidth) : 0;
+    return { c, treba: Math.max(c.scrollWidth, c.clientWidth + manjak), ima: c.clientWidth };
+  });
   const razmak = 8;
   mere.forEach(m => {                                                 // 3. upis
     if(m.ima <= 0 || m.treba <= m.ima + 1) return;
@@ -653,7 +683,14 @@ const SVG_OKVIR = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="
 const IKONA = {
   znacenje: SVG_OKVIR + '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.6v.9"/></svg>',
   srce:     SVG_OKVIR + '<path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20z"/></svg>',
-  srcePuno: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 20.4S4.4 15.6 4.4 10.4A4.4 4.4 0 0 1 12 7.4a4.4 4.4 0 0 1 7.6 3c0 5.2-7.6 10-7.6 10z"/></svg>',
+  /* Sačuvano stanje NIJE puno srce nego PUNA NOTA — isti crtež kao u pilulama
+     i kao note u futeru, samo u meri trake (20 px). Boju daje `.ca-btn.on`. */
+  notaPuna: '<svg viewBox="0 0 22 32" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor">' +
+    '<g transform="translate(7 26)">' +
+    '<path d="M6.6,-23.2c6.8,3.3 9,8.4 6.5,14.7c0.6,-5.7 -1.7,-8.9 -6.5,-11.5z"/>' +
+    '<rect x="4.6" y="-23" width="2" height="23.2" rx="1"/>' +
+    '<ellipse rx="6" ry="4.4" transform="rotate(-18)"/>' +
+    '</g></svg>',
   rime:     SVG_OKVIR + '<path d="M3.5 9.5A6 6 0 0 1 9.5 4h5.8"/><path d="M13 1.8 16.2 4 13 6.2"/><path d="M20.5 14.5A6 6 0 0 1 14.5 20H8.7"/><path d="M11 22.2 7.8 20 11 17.8"/></svg>',
   kopiraj:  SVG_OKVIR + '<rect x="9" y="9" width="11" height="11" rx="2.4"/><path d="M5.5 15H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v.5"/></svg>',
 };
@@ -685,7 +722,7 @@ function otvoriCipTraku(cip, rec){
     `<button type="button" class="ca-btn" data-act="def" aria-label="${uiTxt('značenje reči')} ${disp(rec)}">` +
       `<span class="ca-ic">${IKONA.znacenje}</span><span class="ca-txt">${uiTxt('značenje')}</span></button>` +
     `<button type="button" class="ca-btn${omiljena ? ' on' : ''}" data-act="fav" aria-label="${uiTxt('sačuvaj u „Omiljene“')}: ${disp(rec)}">` +
-      `<span class="ca-ic">${omiljena ? IKONA.srcePuno : IKONA.srce}</span><span class="ca-txt">${uiTxt('omiljene')}</span></button>` +
+      `<span class="ca-ic">${omiljena ? IKONA.notaPuna : IKONA.srce}</span><span class="ca-txt">${uiTxt('omiljene')}</span></button>` +
     `<button type="button" class="ca-btn" data-act="rime" aria-label="${uiTxt('nađi rime za')} ${disp(rec)}">` +
       `<span class="ca-ic">${IKONA.rime}</span><span class="ca-txt">${uiTxt('rime')}</span></button>` +
     `<button type="button" class="ca-btn" data-act="kopiraj" aria-label="${uiTxt('kopiraj reč')} ${disp(rec)}">` +
@@ -703,7 +740,7 @@ function otvoriCipTraku(cip, rec){
         toggleFav(rec);
         const on = isFav(rec);
         b.classList.toggle('on', on);
-        b.querySelector('.ca-ic').innerHTML = on ? IKONA.srcePuno : IKONA.srce;
+        b.querySelector('.ca-ic').innerHTML = on ? IKONA.notaPuna : IKONA.srce;
       }
       else if(a === 'rime'){ zatvoriCipTraku(); rimeInput.value = disp(rec); switchTab('rime'); doRhymes(); }
       else { copy(disp(rec)); zatvoriCipTraku(); }
@@ -2864,7 +2901,7 @@ function updateFavCount(){ el('favCount').textContent = favorites.length; }
 function renderFavorites(){
   const box=el('favResults');
   box.innerHTML='';
-  if(!favorites.length){ box.innerHTML='<p class="empty">' + uiTxt('Još nemaš sačuvane reči. Klikni ♥ na bilo kojoj reči.') + '</p>'; return; }
+  if(!favorites.length){ box.innerHTML='<p class="empty">' + uiTxt('Još nemaš sačuvane reči. Klikni ♡ pored bilo koje reči — pretvoriće se u notu.') + '</p>'; return; }
   renderGroup(box, `Tvoje reči (${favorites.length})`, favorites.slice(), false);
 }
 el('copyFavs').onclick = ()=>{

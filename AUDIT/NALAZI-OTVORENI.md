@@ -6,6 +6,11 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+**Stanje na dan 02.08.2026 (kraj): 2 otvorena nalaza** — `R1-ostatak` (6 reči) i `P11`
+(izgled huba) čekaju odluku vlasnice. **Zatvoreno u ovoj sesiji: J1-ostatak** — svih 277
+spornih oblika provučeno kroz Rečnik Matice srpske; 99 hrvatskih obrisano, 141 ijekavski
+sakriven.
+
 **Stanje na dan 31.07.2026 (osma sesija, kraj): 3 otvorena nalaza** — mobilna verzija je odrađena u celini (M5–M15), test 372 → **422 provere**.
 
 **Stanje na dan 30.07.2026 (sedma sesija, kraj): 3 otvorena nalaza** — `R1-ostatak` (6 reči) i `J1-ostatak` (277 oblika) čekaju odluku vlasnice, `P11` (izgled huba) čeka odluku o izgledu. **Zatvoreno u ovoj sesiji: F1, J1, R1, T1, P16, P10.** Test 354 → **367 provera** + 5 novih u `nginx-provera.sh`.
@@ -59,6 +64,36 @@ Ocena poslednjeg audita: **6,9 / 10** — nova ocena se računa u auditu 31.07.2
 **Zatvoreno u ovoj sesiji: 60 nalaza.** Test podignut sa **167 na 265+ provera**.
 Svaka nova provera je prvo puštena **protiv produkcije dok je tamo stari kod** i
 tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji**.
+
+---
+
+## ZATVORENO 02.08.2026 — J1-ostatak (277 spornih oblika)
+
+> Povod: prijava vlasnice — „zašto imam reč `hljeba`, a nisam uključila ijekavicu?"
+> Reč je stajala u ekavskom `reci.txt`, a spisak za skrivanje (`jekavski.json`)
+> imao je šest od devet oblika te reči. Odatle je otvoren ceo J1-ostatak.
+
+**Kako je presuđeno:** `scripts/j1-provera-matica.py` provlači svih 277 oblika kroz
+Rečnik srpskoga jezika (Matica srpska, 2011) i uz svaku presudu ispisuje red iz
+rečnika u kome je nađena — `AUDIT/J1-presuda-matica.md`. Redosled merila: izričita
+oznaka „јек." → sama je odrednica → ekavski parnjak postoji → ista osnova sa
+odrednicom. Primena: `scripts/j1-primeni.py`.
+
+| Presuda | Koliko | Šta je urađeno |
+|---|---|---|
+| ijekavski / dijalekatski | 141 | dodato u `public/jekavski.json` (850 → **991**) — krije se, ne briše |
+| hrvatski oblici | **99** | obrisano iz `public/reci.txt` (272.737 → 272.638), kopija u `reci.txt.pre-j1` |
+| ostaju u ekavici | 4 | `toplinom`, `ekavice`, `nalećete`, `sol` — obične srpske reči |
+| standardne | 31 | `ded`, `dobivati`, `znanost`, `sućut`… ostaju netaknute |
+
+Usput obrisano i devet oblika reči `hljeb` iz ekavskog rečnika, a prebačeni su u
+`public/reci_jekavica.txt` da ih ijekavica i dalje daje.
+
+**Dve sopstvene greške u proveri, uhvaćene i ispravljene** (v. `PROPUSTI.md`):
+`ded` je prvo proglašen ijekavskim jer je traženo poklapanje **dela** reči, pa se
+iza oznake „јек." našlo `deda`; `toplinom` je prvo završilo među „nema ih u Matici"
+jer se osnova `toplin-` poredila sa odrednicom `toplina` kao „početak reči", a
+nijedna nije početak druge — sada se porede prva šest slova.
 
 ---
 
@@ -131,12 +166,11 @@ tek kad je pala uzeta je kao valjana — ukupno **74 provere pale na produkciji*
 
 ---
 
-## OTVORENO (3)
+## OTVORENO (2)
 
 | # | Nalaz | Zašto nije zatvoreno | Fajl | Viđen |
 |---|---|---|---|---|
 | **R1-ostatak** | **Šest reči čeka odluku vlasnice:** `gojence`, `gojenac`, `grnce`, `grne`, `krol`, `klube`. Nijedna nije nađena kao odrednica u Rečniku Matice srpske — ali odsustvo NIJE dokaz, jer je izvlačenje iz skeniranog teksta i promaši neke (`more` nije nađeno, a postoji). | Sadržaj rečnika — odlučuje vlasnica. Spisak: `AUDIT/R1-reci-za-odluku.md`. | `public/definicije.json` | 30.07. |
-| **J1-ostatak** | **277 spornih oblika** od 1.127 označenih kao „ijekavski" u `reci.txt`. Nedvosmislenih 850 se filtrira (`jekavski.json`), a ovih 277 ne — jer su među njima `ded`, `dio`, `dobivati`, koje **Matica ima kao standardne**, pa bi filtriranje sakrilo ekavske reči od ekavskih korisnika. | Traži odluku vlasnice reč po reč. Spisak: `AUDIT/J1-sporne-reci.md`. | `public/reci.txt` | 30.07. |
 | **P11** | **Hub `/rime-za/` je zid od 2.000 linkova** (bilo 1.988). Prijava vlasnice 29.07: „katastrofa izlistanih reči". Strana je nastala kao popravka za 222 strane bez internih linkova — rešila je SEO, ali je UX loš. Sada je i **odredište 1.672 preusmerenja**, pa je važnija nego pre. | Traži odluku vlasnice o izgledu (podela po slovima / po temama). | `build/gen_pages.py:1460–1505` | 29.07. |
 
 ---

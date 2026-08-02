@@ -15204,7 +15204,6 @@ bronziranje
 bronzirati
 bronzom
 bronzu
-brončana
 brončanog
 broz
 broza
@@ -28614,7 +28613,6 @@ dražba
 dražbe
 dražbena
 dražbeni
-dražbi
 dražbom
 draže
 dražeg
@@ -43335,7 +43333,6 @@ groše
 grošem
 groševi
 grošićara
-grožnja
 grožđa
 grožđani
 grožđanog
@@ -46077,13 +46074,11 @@ histolog
 histologija
 histološke
 histološku
-historija
 historije
 historijska
 historijski
 historijskih
 historijskim
-historiju
 historiografija
 historičar
 historičari
@@ -46316,15 +46311,6 @@ hlepčića
 hlepčiće
 hlepčići
 hlepčićom
-hljeb
-hljeba
-hljebe
-hljebom
-hljebova
-hljebove
-hljebovi
-hljebovima
-hljebu
 hlor
 hlora
 hlorat
@@ -55179,7 +55165,6 @@ itekako
 iterativni
 iterbijum
 itinerar
-itko
 itrijum
 iva
 ivan
@@ -61517,7 +61502,6 @@ janjeće
 janjeći
 janješce
 janji
-janjici
 janjin
 janjina
 janjić
@@ -68747,7 +68731,6 @@ kiseonika
 kiseonikom
 kiseoniku
 kiseonički
-kisik
 kisika
 kisikom
 kisindžer
@@ -74721,8 +74704,6 @@ korić
 koriće
 korišten
 korištena
-korištene
-korišteni
 korištenim
 korištenja
 korištenje
@@ -83993,7 +83974,6 @@ lionelom
 lionu
 lipa
 lipama
-lipanj
 lipati
 lipe
 lipicama
@@ -84008,7 +83988,6 @@ lipković
 lipljan
 lipljana
 lipljanu
-lipnja
 lipo
 lipolist
 lipom
@@ -84191,12 +84170,9 @@ listićima
 listiću
 listom
 listonoša
-listopad
-listopada
 listopadna
 listopadne
 listopadnih
-listopadu
 listova
 listove
 listovi
@@ -113264,22 +113240,15 @@ nesrbin
 nesrbina
 nesretan
 nesretna
-nesretne
 nesretni
 nesretnica
 nesretnice
 nesretnici
-nesretnih
-nesretnik
-nesretnika
 nesretniku
 nesretnima
 nesretniče
-nesretno
-nesretnog
 nesretnoga
 nesretnome
-nesretnu
 nesreća
 nesrećama
 nesrećan
@@ -130304,7 +130273,6 @@ opće
 općeg
 općenita
 općenito
-općiti
 opčaraju
 opčaran
 opčarano
@@ -136998,8 +136966,6 @@ oživotvore
 oživotvori
 oživotvoriti
 ožičenje
-ožujak
-ožujku
 ožujskom
 ožutiti
 pa
@@ -169702,7 +169668,6 @@ prijazniji
 prijaznim
 prijaće
 prijašnje
-prijašnji
 prijašnjih
 prijedor
 prijedora
@@ -176990,10 +176955,8 @@ prosilaca
 prosili
 prosim
 prosimo
-prosinac
 prosine
 prosinečki
-prosinoda
 prosinu
 prosinula
 prosinuo
@@ -180220,11 +180183,9 @@ pufnica
 pufnice
 puh
 puha
-puhala
 puhalo
 puhao
 puhati
-puhne
 puhnem
 puhni
 puhnu
@@ -181063,7 +181024,6 @@ pučanin
 pučanka
 pučanki
 pučansko
-pučanstava
 pučanstva
 pučanstvo
 pučanstvu
@@ -195845,7 +195805,6 @@ saonicama
 saonice
 saonik
 saoptuženi
-saopćavanja
 saopće
 saopćenja
 saopći
@@ -199493,12 +199452,9 @@ shvatljivost
 shvaća
 shvaćaju
 shvaćajući
-shvaćali
 shvaćam
 shvaćamo
-shvaćanja
 shvaćanje
-shvaćanju
 shvaćao
 shvaćaš
 shvaćen
@@ -209944,7 +209900,6 @@ sretnem
 sretnemo
 sretnete
 sretneš
-sretni
 sretnica
 sretnija
 sretnije
@@ -212571,7 +212526,6 @@ stoković
 stokoviću
 stoku
 stokuća
-stol
 stola
 stolac
 stolar
@@ -213625,13 +213579,11 @@ strogoći
 strogoću
 strogošću
 strogu
-stroj
 stroja
 strojarnica
 strojevi
 strojile
 strojiti
-strojnica
 strojnost
 stroju
 stroncijum
@@ -214008,7 +213960,6 @@ studentsku
 studentu
 studenu
 studenče
-studij
 studija
 studijama
 studije
@@ -214467,7 +214418,6 @@ subverzivna
 subverzivne
 subverzivni
 subverzivno
-sudac
 sudaca
 sudan
 sudana
@@ -214600,8 +214550,6 @@ sudim
 sudimo
 sudinica
 sudio
-sudionici
-sudionika
 sudite
 suditi
 sudić
@@ -215583,12 +215531,9 @@ supurović
 suputnik
 suputnika
 sur
-suradnik
 suradnika
 suradnički
-suradnja
 suradnje
-suradnju
 surađivali
 surađivanje
 surađivati
@@ -216077,13 +216022,6 @@ suvoće
 suvoćom
 suvoću
 suvratiti
-suvremen
-suvremena
-suvremeni
-suvremenica
-suvremenik
-suvremenika
-suvremeno
 suvu
 suza
 suzama
@@ -218755,13 +218693,7 @@ talibanska
 talibanske
 talibanski
 talija
-talijan
-talijana
 talijanci
-talijane
-talijani
-talijanima
-talijanka
 talijanke
 talijanska
 talijanske
@@ -219126,7 +219058,6 @@ tanjiš
 tanju
 tanjug
 tanjuga
-tanjur
 tanjura
 tanjure
 tanjurima
@@ -220727,7 +220658,6 @@ terijer
 terijera
 terijere
 terijeri
-teritorij
 teritorija
 teritorijalan
 teritorijalna
@@ -221804,7 +221734,6 @@ tiska
 tiskanja
 tiskanje
 tiskao
-tiskara
 tiskati
 tisne
 tisni
@@ -221991,7 +221920,6 @@ tkivom
 tkivu
 tkogod
 tla
-tlak
 tlaka
 tlapiti
 tlapnja
@@ -227260,7 +227188,6 @@ uboj
 uboja
 uboje
 ubojica
-ubojice
 ubojici
 ubojico
 ubojicom
@@ -227287,7 +227214,6 @@ ubojnike
 ubojniče
 ubojno
 ubojnu
-ubojstvo
 ubokoriti
 ubola
 ubole
@@ -228130,7 +228056,6 @@ udrobiti
 udrobiše
 udrobljeni
 udrobljenu
-udruga
 udruže
 udružen
 udružena
@@ -228663,7 +228588,6 @@ uglješina
 uglješine
 uglješom
 uglješu
-ugljik
 ugljovodonici
 ugljovodonika
 uglju
@@ -233409,7 +233333,6 @@ upokojiše
 upola
 upomoć
 upor
-uporabi
 uporan
 upored
 uporedbi
@@ -234103,8 +234026,6 @@ upustiti
 upustivši
 upustiš
 upustiše
-uputa
-upute
 uputi
 uputih
 uputila
@@ -234404,7 +234325,6 @@ urda
 urdu
 urea
 ured
-ureda
 uredaba
 uredan
 uredba
@@ -236034,7 +235954,6 @@ uspešnost
 uspešnosti
 uspešnošću
 uspešnu
-uspija
 uspije
 uspiju
 uspinjala
@@ -236129,9 +236048,6 @@ usporavate
 usporavati
 usporavaš
 uspore
-usporedba
-usporedbe
-usporedbi
 usporediti
 usporedno
 usporen
@@ -236237,7 +236153,6 @@ uspravnom
 uspravnu
 usprema
 uspremajući
-usprkos
 usprotive
 usprotivi
 usprotivila
@@ -237489,7 +237404,6 @@ utore
 utorka
 utorkom
 utorku
-utornik
 utorče
 utovar
 utovara
@@ -241465,9 +241379,6 @@ vanjezičke
 vanji
 vanjin
 vanjom
-vanjska
-vanjski
-vanjsko
 vanju
 vanjština
 vanknjiževni
@@ -241572,9 +241483,7 @@ vapiti
 vapiš
 vapiše
 vapnen
-vapnenac
 vapneni
-vapno
 vara
 varadin
 varadinska
@@ -244995,9 +244904,7 @@ virtualizaciju
 virtualizovanih
 virtualizovano
 virtualizovanom
-virtualni
 virtualnim
-virtualno
 virtuelan
 virtuelna
 virtuelne
@@ -245921,7 +245828,6 @@ vlaju
 vlajćić
 vlajčić
 vlajčića
-vlak
 vlakana
 vlakanaca
 vlakanca
@@ -246196,8 +246102,6 @@ vodica
 vodicama
 vodice
 vodih
-vodik
-vodika
 vodila
 vodilac
 vodile
@@ -246406,7 +246310,6 @@ vogošća
 vogošći
 voinović
 voislav
-vojarna
 vojci
 vojdan
 vojeva
@@ -250933,7 +250836,6 @@ zaintačio
 zaintačiti
 zaintačivši
 zainteresira
-zainteresirana
 zainteresova
 zainteresovala
 zainteresovali
@@ -258886,9 +258788,7 @@ zbrkaš
 zbrke
 zbrkom
 zbrku
-zbroj
 zbrojite
-zbrojiti
 zbrza
 zbrzali
 zbrzana
@@ -269780,7 +269680,6 @@ zđelarević
 štovanja
 štovanje
 štovanju
-štovanoj
 štovao
 štovatelj
 štovatelje
@@ -269938,7 +269837,6 @@ zđelarević
 štuj
 štuje
 štujemo
-štujte
 štuju
 štuka
 štukaturom
@@ -271552,13 +271450,7 @@ zđelarević
 židov
 židova
 židovska
-židovske
 židovski
-židovskim
-židovsko
-židovskoj
-židovskom
-židovsku
 žig
 žiga
 žigale

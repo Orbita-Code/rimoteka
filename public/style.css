@@ -76,6 +76,10 @@
   --futer-sitno:#6a6390;     /* na --futer-bg-b = 4,96 */
   --futer-linija:#d8d0f2;    /* pet linija notnog sistema (ukras, ne nosi podatak) */
   --futer-nota:#6d5abd;      /* note na linijama = 4,80 prema podlozi */
+  /* Sačuvana reč = PUNA NOTA, ista porodica kao note u futeru.
+     Ikonica nosi podatak („ova reč je u omiljenim"), pa mora bar 3:1.
+     Izmereno: #6f4bd0 na belom čipu = 5,84, na hover podlozi #f6f0fc = 5,23. */
+  --nota-fav:#6f4bd0;
 
   /* ── ŠIRINE — JEDAN OMOTAČ ZA CELU STRANU ────────────────────────────────
      Do 02.08.2026. je samo `main` imao ograničenje (940 px), a zaglavlje i
@@ -187,6 +191,9 @@ body.dark-mode{
   --futer-sitno:#9a90bf;     /* na --futer-bg-b = 6,49 */
   --futer-linija:#3e3663;
   --futer-nota:#9a88db;
+  /* Tamna tema: nota mora da POSVETLI da bi se videla na tamnom čipu.
+     Izmereno: #b8a5f5 na čipu #1e1a2e = 7,84, na hover podlozi #2a2440 = 6,83. */
+  --nota-fav:#b8a5f5;
   /* List iz beležnice u tamnoj temi — papir je SVETLIJI od strane (#121018),
      kao osvetljen list. Izmereno 02.08.2026, granica 4,5. */
   --papir:#221d36;
@@ -1851,6 +1858,37 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
 .chip .mini{min-width:1.9rem;min-height:1.9rem;display:inline-flex;align-items:center;justify-content:center}
 .chip .info{font-size:1.05rem;color:var(--lavender-deep);font-weight:700}
 
+/* ── SAČUVANA REČ = PUNA LJUBIČASTA NOTA ─────────────────────────────────
+   Prazno stanje ostaje srce (svi ga čitaju kao „sačuvaj"), a čim je reč
+   sačuvana, na njegovom mestu stoji puna osminka — isti crtež kao note u
+   futeru, samo manji. Tako sačuvana reč nosi znak Rimoteke, a ne opšti
+   emodži koji ima svaki sajt.
+
+   Oba znaka stoje u ISTOJ ćeliji mreže (`grid-area:1/1`), pa se prelaz radi
+   kao pretapanje na mestu — ništa se ne pomera, ni piksel, i dugme ne menja
+   veličinu (dodirni cilj ostaje 1,9rem × 1,9rem iz pravila iznad).
+   Animiraju se samo `transform` i `opacity` — oni ne diraju raspored. */
+.chip .fav{display:inline-grid;place-items:center;line-height:1}
+.chip .fav > *{grid-area:1/1}
+.chip .fav .fav-srce{
+  transition:opacity .14s cubic-bezier(.4,0,1,1),transform .14s cubic-bezier(.4,0,1,1);
+}
+.chip .fav .fav-nota{
+  height:1.35em;width:auto;display:block;color:var(--nota-fav);
+  opacity:0;transform:scale(.35) rotate(-14deg);
+  /* Blagi odskok na ulasku (0,34 s) — nota „sedne" na mesto srca.
+     Izlazak srca je brži (0,14 s) jer je odluka već doneta. */
+  transition:opacity .18s cubic-bezier(.2,0,0,1),transform .34s cubic-bezier(.34,1.56,.64,1);
+}
+.chip .fav.on .fav-srce{opacity:0;transform:scale(.5)}
+.chip .fav.on .fav-nota{opacity:1;transform:none}
+.chip .fav:hover .fav-nota{color:var(--nota-fav)}
+@media(prefers-reduced-motion:reduce){
+  /* Podatak se ne gubi: znak se i dalje menja, samo bez pomeranja i odskoka. */
+  .chip .fav .fav-nota{transform:none}
+  .chip .fav.on .fav-srce{transform:none}
+}
+
 /* ========== SINONIMI — zasebna kartica ==========
    Prednost koju konkurencija nema. Vizuelno se razlikuje od grupa rima
    (mint akcent, obojena leva ivica), da se odmah vidi da to nisu rime. */
@@ -2144,7 +2182,11 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 .ca-btn:active{background:var(--menu-hover)}
 .ca-btn .ca-ic{font-size:1.15rem;line-height:1;color:var(--lavender-deep)}
 .ca-btn .ca-txt{font-size:.66rem;letter-spacing:.01em;white-space:nowrap}
-.ca-btn.on .ca-ic{color:var(--rose-deep)}
+/* Sačuvano = nota, i to u ljubičastoj boji note, ne u ružičastoj boji srca. */
+.ca-btn.on .ca-ic{color:var(--nota-fav)}
+.ca-btn.on .ca-ic svg{animation:nota-sedne .34s cubic-bezier(.34,1.56,.64,1)}
+@keyframes nota-sedne{from{transform:scale(.4) rotate(-14deg);opacity:.2}to{transform:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){.ca-btn.on .ca-ic svg{animation:none}}
 @media(prefers-reduced-motion:reduce){.chip-actions{animation:none}}
 
 /* Strelica koja razvija traku sa rimama — postoji samo na telefonu. */
@@ -2300,12 +2342,14 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
   /* ── SAČUVANA REČ SE VIDI I BEZ OTVARANJA TRAKE ────────────────────────
      Ikonice su sklonjene iz pilule, pa bez ovoga korisnik nikako ne bi znao
-     koje je reči već sačuvao — morao bi da kucne na svaku. Puno srce ostaje
-     kao oznaka; ono nije dugme (dodir na pilulu svakako otvara traku). */
+     koje je reči već sačuvao — morao bi da kucne na svaku. Puna nota ostaje
+     kao oznaka; ona nije dugme (dodir na pilulu svakako otvara traku).
+     `inline-grid`, ne `inline-flex`: srce i nota moraju da ostanu jedno preko
+     drugog, inače bi u traci stajala oba znaka jedan pored drugog. */
   .results > .chip .mini.fav.on{
-    display:inline-flex;pointer-events:none;
+    display:inline-grid;pointer-events:none;
     min-width:auto;min-height:auto;padding:0;
-    font-size:.82rem;color:var(--rose-deep);
+    font-size:.82rem;color:var(--nota-fav);
   }
 
   /* ── BLEĐENJE DESNE IVICE KOD REDOVA KOJI SE POMERAJU ───────────────────

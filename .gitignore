@@ -15,3 +15,6 @@ hub-rime-za.png
 # pišu preko istog fajla. Ovi folderi su privremeni i ne idu u repo.
 # NE proširivati na ceo `.claude/` — tamo žive agenti i podešavanja koja se prate.
 .claude/worktrees/
+
+# povratna kopija rečnika pre J1 čišćenja (02.08.2026) — lokalno, ne u repo
+public/reci.txt.pre-j1

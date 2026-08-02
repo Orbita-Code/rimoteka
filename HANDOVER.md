@@ -5,6 +5,171 @@
 ---
 
 
+# Sesija 2. avgust 2026 (dvanaesta) — AGENT DIZAJNER, POČETNA, POŠTA
+
+> **NIŠTA NIJE PUSHOVANO NI MERGOVANO.** Sve stoji na grani
+> **`feat/dizajn-pocetna-futer-saradnja`**. Pošta je jedino što je stvarno
+> promenjeno „napolju" (Porkbun, Gmail, DNS) — i to je provereno da radi.
+
+---
+
+## 1. Napravljen agent `dizajner`
+
+`.claude/agents/dizajner.md` — projektni agent, ide u repo. Dizajner proizvoda,
+art direktor i interakcijski dizajner sa 40+ godina iskustva.
+
+Nosi: zakon „za jednu sekundu se vidi gde se kuca reč" (i tri provere kojima se
+meri), doktrinu animacija sa **skalom trajanja** (80–120 ms odziv, 160–200 ms
+ulazak, 240–320 ms panel, do 600 ms slavlje) i pravilom da se animiraju **samo
+`transform` i `opacity`**, vizuelni sistem (razmaci od 4 px, jedan font, boje
+isključivo kroz promenljive u obe teme), mobilni sa **lažiranom tastaturom od
+336 px**, pristupačnost, banku od osam inovativnih ideja, zabrane (logo, novi
+hex, spoljne biblioteke) i čeklistu od 16 tačaka pre predaje.
+
+**Kako se poziva:** `Pokreni agenta dizajner: <zadatak>`.
+
+---
+
+## 2. Merenje početne strane — polazno stanje (produkcija, 02.08.)
+
+Snimci: `AUDIT/screenshots/2026-08-02-merenje-pocetne/` (16 slika).
+
+| Šta je mereno | Zatečeno | Granica |
+|---|---|---|
+| polje za unos od vrha, telefon 390 px | **402 px = 60,5% ekrana** | cilj ~33% |
+| skakanje strane na **sporoj** vezi (CLS) | **0,118 – 0,121** | najviše 0,1 |
+| kontrast „Nađi rime", svetla / tamna | **2,84 / 2,10** | bar 4,5 |
+| filter slogova „sve" | 2,07 / 1,78 | bar 4,5 |
+| prebacivač pisma | 2,59 / 1,95 | bar 4,5 |
+| aktivan tab u tamnoj temi | **isti piksel kao neaktivan** | bar 3,0 |
+| dodirni ciljevi ispod 44 px, 390 px | 77 od 89 | 0 |
+| predlozi reči dok je tastatura otvorena | **vidljivo 0%** | sve iznad tastature |
+| dok strana postane upotrebljiva, spora veza | 7,2 s | — |
+
+**Nađen tačan uzrok skakanja:** `style.css:975` je krio naslovni blok dok
+`app.js` ne postavi `data-tab` na `<body>`. Na sporoj vezi `app.js` stiže tek na
+~2 s, pa naslov iskoči i gurne polje za **130 px** — baš kad čovek pruža prst.
+Na brzoj vezi se ne vidi. **Zato se CLS meri i na sporoj vezi** — nov alat
+`test/meri-cls-spora.mjs`.
+
+---
+
+## 3. Korak 2 — urađeno na grani (čeka pregled vlasnice)
+
+Dva commita. Pre → posle, izmereno:
+
+| Šta | Pre | Posle | Granica |
+|---|---|---|---|
+| polje za unos, telefon 390 px | 402 px = 60,5% | **263 px = 39,6%** | cilj 33% |
+| skakanje na sporoj vezi | 0,118 | **0,0005** | najviše 0,1 |
+| „Nađi rime", svetla / tamna | 2,84 / 2,10 | **5,47 / 6,50** | bar 4,5 |
+| filter slogova | 2,07 / 1,78 | **5,08 / 8,67** | bar 4,5 |
+| prebacivač pisma | 2,59 / 1,95 | **6,11 / 6,97** | bar 4,5 |
+| aktivan tab, tamna tema | 1,0 | **6,16** | bar 3,0 |
+| linkovi u futeru ispod 44 px | 60 | **0** | 0 |
+| pre-deploy test | 444 | **467 provera** | izlazni kod 0 |
+
+SEO tekst na početnoj spakovan u **tri sklopiva bloka** — ceo sadržaj ostaje u
+HTML-u (pretraživač ga čita), samo više nije zid. Dodato i globalno pravilo za
+**„smanji pokret"**, kog ranije nije bilo.
+
+> **Nova sekcija 35 testa puštena je protiv produkcije, gde je star kod — i pala
+> je 20 puta**, tačno na izmerenim brojevima. Provera koja ne padne na starom kodu
+> ne vredi ništa; ovo pravilo se drži.
+
+**FUTER JE VLASNICA ODBILA.** Prvi pokušaj je bio uredan spisak linkova u tri
+kolone sa popravljenim dodirnim ciljevima — ali bez ičega što je traženo: nema
+nota, nema dugmeta „Saradnja", nema kompozicije, sve levo poravnato. Njene reči:
+*„gde su note u futeru? zašto je futer levo poravnan? gde je taj redizajn"*.
+U trenutku pisanja **agent radi drugi prolaz** sa jasnim merilom: futer mora da
+izgleda **osmišljeno, ne sastavljeno**.
+
+---
+
+## 4. POŠTA — rešeno u celini, i ispravljen jedan mit
+
+> **U dokumentaciji je stajalo da je „Aniko pisala i nije dobila odgovor".
+> Vlasnica ne zna ko je to.** Ime je najverovatnije nastalo od pogrešno
+> prepoznatog diktata i prenosilo se kroz `TODO.md` i `HANDOVER.md` kao dokaz.
+> **Nijedna takva poruka ne postoji u sandučetu.** Pouka: tvrdnja iz prijave
+> koja nije proverena upisuje se kao **prijava**, ne kao činjenica.
+
+**Šta se stvarno dešavalo — tri različita uzroka koja su ličila na jedan:**
+
+| Simptom | Stvaran uzrok |
+|---|---|
+| „pošta ne stiže" | stizala je, ali ju je Gmail bacao u **spam** (prosleđenoj pošti ne veruje: SPF proverava Porkbun, ne pravog pošiljaoca) |
+| „ni moji testovi ne stižu" | slala je **sama sebi** — Gmail ne pravi drugu kopiju iste poruke (uklanjanje duplikata). **Takav test ne može da uspe ni kad sve radi.** |
+| „ni sa drugog naloga ne stiže" | adresa otkucana **`.con`** umesto `.com`, dva puta — Gmail nudi grešku iz istorije pa je sam upiše |
+
+**Zatečeno u sandučetu `jovana.daskovic@gmail.com`:** 6 poruka na
+`info@rimoteka.com`, 10–22. jula, sve u spamu, sve SEO reklame. Nijedna prava
+poruka nije izgubljena.
+
+**Stanje posle ove sesije:**
+
+| Šta | Stanje |
+|---|---|
+| **`eureka@rimoteka.com`** | nova adresa, prosleđivanje na `jovana.daskovic@gmail.com`, **provereno stvarnom porukom** |
+| `info@rimoteka.com` | **obrisano prosleđivanje** na zahtev vlasnice (02.08.) |
+| pravilo u Gmail-u | `to:(eureka@rimoteka.com)` → nikad u spam, označi kao važno |
+| ostatak | pravilo za `info@` je ostalo u Gmail-u, ali je **bezopasno** — na tu adresu ništa ne može da stigne |
+| **DMARC** | `_dmarc.rimoteka.com TXT "v=DMARC1; p=none;"` — **upisala vlasnica, provereno sa autoritativnog servera i sa 8.8.8.8 i 1.1.1.1** |
+
+> ⚠️ **`info@` i dalje piše na ~2.000 generisanih strana i u `404.html`.** Dok se
+> nov futer ne objavi, poruka poslata sa sajta se **vraća pošiljaocu**. Zato
+> regeneracija strana ide ODMAH po odobrenju futera.
+
+---
+
+## 5. Zamke plaćene u ovoj sesiji — da se ne plaćaju opet
+
+**1. AppleScript `execute javascript` radi u IZOLOVANOM svetu.** Vidi DOM, ali
+**ne vidi globalne funkcije strane** (`typeof jQuery` → `undefined` na strani
+koja jQuery očigledno koristi). Zato Porkbunov obrazac za DNS ne prima upis:
+polja se popune, `Add Record` se klikne, i ništa se ne desi — bez ijedne poruke
+o grešci. Isto važi za brisanje filtera u Gmail-u.
+
+**2. `System Events … keystroke` je zabranjen** dok se ne da dozvola:
+`osascript is not allowed to send keystrokes (1002)`. Odobrava se u
+Sistemska podešavanja → Privatnost i bezbednost → **Pristupačnost**.
+Dok toga nema, obrasce koji odbijaju sintetički unos **popunjava vlasnica**, a
+Claude joj otvori stranu i da tačne vrednosti.
+
+**3. `set URL of active tab of window 1` OTIMA tab koji vlasnica koristi.**
+Uvek `make new tab`, nikad ne menjati njen tekući tab.
+
+**4. DNS se proverava sa AUTORITATIVNOG servera**, ne sa javnog:
+`dig +short TXT _dmarc.rimoteka.com @salvador.ns.porkbun.com`. Od upisa u panel
+do vidljivosti prošlo je **~30 s** — prva provera je zato bila prazna i umalo
+proglasila neuspeh.
+
+**5. Gmail-ov spisak rezultata je virtuelizovan** — `innerText` reda vraća
+prazno. Radi: `span[data-hovercard-id]` za pošiljaoce, `span[title]` za datume,
+ili klik na red pa čitanje `div[role=main]`.
+
+---
+
+## 6. Šta čeka sledeću sesiju, ovim redom
+
+1. **Nov futer** — agent radi drugi prolaz; vlasnica pregleda snimke.
+2. **Regeneracija ~2.000 strana** (`python3 build/gen_pages.py`) da i one dobiju
+   nov futer i `eureka@rimoteka.com` — **zaseban commit**, nikad pomešan sa
+   izmenom izgleda.
+3. **Strana `/saradnja/`** sa kontakt formom. Izgled radi dizajner; **slanje
+   rešava glavna sesija** — statički sajt ne može sam da pošalje poruku, treba
+   besplatan servis (npr. Brevo, 300 poruka dnevno) i „Pošalji kao" u Gmail-u da
+   bi se odgovaralo sa `@rimoteka.com`.
+4. **Traka iznad tastature** (odobreno) — polje i „Nađi rime" ostaju vidljivi,
+   predlozi idu **iznad** polja. Dve nove provere u testu.
+5. **Prebacivač pisma pored logotipa** — čeka odluku vlasnice. Oslobađa 42 px i
+   spušta polje na ~201 px (30% ekrana), čime „provera jedne sekunde" prolazi u
+   celini. Logo se ne dira, samo se pismo seli desno od njega.
+6. Očistiti: lokalni server na portu **8765** je ostao pokrenut iz `public/`.
+
+---
+
+
 # Sesija 2. avgust 2026 (jedanaesta) — PRAVOPIS, FUTER, PRAZNO STANJE
 
 > **SVE JE OBJAVLJENO NA PRODUKCIJI.** Pet commita, poslednji `1834079b3`.
@@ -247,11 +412,13 @@ pretrazi našeg brenda. Plan: `AUDIT/tekstovi/2026-07-31-D-linkovi.md`.
 > Test lokalno **422/422**. Posle njenog „može": feature grana → merge → deploy → pa
 > OBAVEZNO `BASE=https://rimoteka.com node test/predeploy.mjs`.
 
-## ⛔ PRVO SLEDEĆOJ SESIJI: MEJL NE RADI
+## MEJL — REŠENO 02.08.2026 (v. handover dvanaeste sesije na vrhu)
 
-`info@rimoteka.com` **ne prima poštu**. Aniko je pisala i nije dobila ni odgovor ni
-povratnu grešku; vlasnica javila 31.07. Adresa stoji na sajtu, ne zna se koliko je
-poruka propalo ni od kada.
+> **Ovaj odeljak je ostavljen zbog istorije, ali njegova tvrdnja NIJE TAČNA.**
+> Pisalo je da „Aniko" nije dobila odgovor — vlasnica ne zna ko je to, a takve
+> poruke u sandučetu nema. Ime je verovatno nastalo od pogrešno prepoznatog
+> diktata. Adresa je sve vreme **primala** poštu; poruke su padale u spam.
+> Danas je aktivna adresa **`eureka@rimoteka.com`**, `info@` je obrisan.
 
 Provereno bez prijave: MX zapisi **postoje** (`fwd1/fwd2.porkbun.com`), SPF postoji,
 **DMARC ne postoji**. Da li server prima za `info@` **nije izmereno** — port 25 je

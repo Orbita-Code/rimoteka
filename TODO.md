@@ -11,7 +11,7 @@
 | | |
 |---|---|
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
-| **⛔ NAJVAŽNIJE** | **`info@rimoteka.com` ne radi** — odeljak 0.06 A. Adresa stoji na sajtu, ne zna se koliko je poruka propalo. |
+| **U TOKU (ne pushovati)** | grana `feat/dizajn-pocetna-futer-saradnja` — početna i futer. Futer je vlasnica odbila, ide drugi prolaz. Detalji: `HANDOVER.md`, dvanaesta sesija |
 | **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |
 | **OBJAVLJENO 31.07.** | tekst + mobilna verzija (M5–M15) + kontakt u futeru + prazno stanje alata. Test lokalno **436/436**, protiv produkcije **444/444**. Sitemap ponovo prijavljen |
 | ⚠️ **Nije urađeno** | **Request Indexing u GSC** — direktna adresa `/search-console/inspect` vraća 404, sintetički Enter ne pokreće proveru. Probati preko CDP-a (Chrome sa `--remote-debugging-port=9222`). Za 2.000 strana ionako nije put (dnevni limit ~10); ima smisla samo za nekoliko najvažnijih strana |
@@ -43,40 +43,15 @@
 
 ### 0.06 NOVO 31.07.2026 — iz osme sesije (mobilna verzija)
 
-#### A) ⛔ MEJL `info@rimoteka.com` NE RADI — NAJVAŽNIJE, NIŠTA NIJE PRE OVOGA
+#### A) POŠTA — REŠENO 02.08.2026, obrisano odavde
 
-**Kako je otkriveno:** Aniko je pisala na tu adresu i **nije dobila nikakav odgovor
-niti povratnu grešku**. Vlasnica javila 31.07. Ne zna se koliko je poruka propalo
-ni od kada — adresa stoji na sajtu.
+Aktivna adresa je **`eureka@rimoteka.com`** (provereno stvarnom porukom), `info@`
+je obrisan na zahtev vlasnice, DMARC upisan i proveren. Trag i tri uzroka koja su
+ličila na jedan: `HANDOVER.md`, dvanaesta sesija, odeljak 4.
 
-**Šta je već provereno (bez prijave na Porkbun):**
-
-| Provera | Nalaz | Znači |
-|---|---|---|
-| MX zapisi | `10 fwd1.porkbun.com`, `20 fwd2.porkbun.com` | prosleđivanje **jeste** upisano u DNS |
-| SPF | `v=spf1 include:_spf.porkbun.com ~all` | postoji |
-| **DMARC** | **ne postoji** | treba dodati |
-| Prima li server za `info@` | **NIJE IZMERENO** — port 25 blokiran sa lokalne mreže | ostaje da se vidi u panelu |
-
-**Šta uraditi, ovim redom:**
-1. Prijaviti se na **porkbun.com** (Chrome, vlasnica se prijavljuje — Claude dalje sam)
-   → **Email Forwarding** za `rimoteka.com`.
-2. Videti **postoji li pravilo `info@` → njen Gmail**. MX zapis samo kaže „šalji na
-   Porkbun"; ako tamo nema pravila za `info@`, pošta se odbija i pošiljalac dobija
-   grešku — što se poklapa sa tim da Aniko ništa nije dobila.
-3. Ako pravila nema — napraviti ga. Ako ga ima — proveriti da adresa Gmail-a nije
-   pogrešna i da poruke ne padaju u SPAM (Gmail često baca prosleđenu poštu tamo,
-   jer SPF proverava Porkbun a ne pravog pošiljaoca).
-4. **Testirati stvarnim slanjem** sa spoljne adrese i potvrditi da je stiglo. Bez toga
-   se ne sme reći da radi (pravilo: feature nije gotov dok se ne vidi da radi).
-5. Dodati **DMARC** zapis (`v=DMARC1; p=none; rua=mailto:...`) — bar u režimu praćenja.
-
-**Odvojena odluka: da li uopšte hoćemo SAMO prosleđivanje.**
-Prosleđivanje je jednosmerno — može da PRIMA, ne može da ŠALJE. Kad Aniko dobije
-odgovor, on stiže sa `@gmail.com`, ne sa `@rimoteka.com`, što za saradnju izgleda
-neozbiljno. **`orbitacode.com` već koristi Zoho** (`mx.zoho.eu`), pa se `rimoteka.com`
-može dodati kao domen u isti Zoho nalog i dobiti pravo sanduče koje i prima i šalje.
-Odluka vlasnice; besplatan Zoho plan pokriva ovu potrebu.
+> **Ostaje jedna obaveza:** `info@` još piše na ~2.000 generisanih strana i u
+> `404.html` — poruka poslata sa sajta se vraća pošiljaocu dok se ne regenerišu.
+> Zato regeneracija ide odmah po odobrenju novog futera.
 
 #### B) TEKST NA SAJTU — REŠENO 31.07.2026, brisano odavde
 

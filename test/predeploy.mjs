@@ -2040,12 +2040,30 @@ async function main() {
       const rec = await p20.evaluate(() => document.querySelector('#rimeResults .chip .word')?.textContent.trim());
       await p20.click('#rimeResults .chip .fav');
       await pauza(400);
-      const posle = await p20.evaluate(() => ({
-        broj: document.getElementById('favCount').textContent,
-        puno: document.querySelector('#rimeResults .chip .fav')?.textContent.trim(),
-      }));
+      /* Od 02.08.2026. sačuvana reč više NE dobija puno srce nego PUNU
+         LJUBIČASTU NOTU — isti crtež kao note u futeru (zahtev vlasnice).
+         Zato se ne gleda tekst dugmeta nego: da li je nota vidljiva, da li je
+         srce sklonjeno i da li je nota u boji note, a ne u boji srca. */
+      const posle = await p20.evaluate(() => {
+        const b = document.querySelector('#rimeResults .chip .fav');
+        const nota = b?.querySelector('.fav-nota'), srce = b?.querySelector('.fav-srce');
+        return {
+          broj: document.getElementById('favCount').textContent,
+          ukljucena: b?.classList.contains('on'),
+          notaVidljiva: nota ? +getComputedStyle(nota).opacity : -1,
+          srceSakriveno: srce ? +getComputedStyle(srce).opacity : -1,
+          bojaNote: nota ? getComputedStyle(nota).color : '',
+          visinaNote: nota ? Math.round(nota.getBoundingClientRect().height) : 0,
+        };
+      });
       ok('♥ na reči povećava brojač omiljenih', posle.broj === '1', `brojač: ${posle.broj}`);
-      ok('♥ menja ikonicu u popunjeno srce', posle.puno === '♥', posle.puno);
+      ok('sačuvana reč dobija punu notu, ne srce',
+         posle.ukljucena === true && posle.notaVidljiva === 1 && posle.srceSakriveno === 0,
+         `nota ${posle.notaVidljiva}, srce ${posle.srceSakriveno}`);
+      ok('nota je nacrtana i ima veličinu',
+         posle.visinaNote >= 12, `visina note ${posle.visinaNote} px`);
+      ok('nota je u ljubičastoj boji note, ne u boji srca',
+         /^rgb\(111, 75, 208\)$|^rgb\(184, 165, 245\)$/.test(posle.bojaNote), posle.bojaNote);
 
       await p20.click('#tabs [data-tab="omiljene"]');
       await pauza(400);
@@ -2217,10 +2235,14 @@ async function main() {
 
       const kraj = await trazi('ends', 'ost');
       ok('režim „završava se na…" vraća samo reči na „ost"',
-         kraj.length > 5 && kraj.every(w => w.endsWith('ost')), `${kraj.length}: ${kraj.slice(0, 3).join(', ')}`);
+         kraj.length > 5 && kraj.every(w => w.toLowerCase().endsWith('ost')), `${kraj.length}: ${kraj.slice(0, 3).join(', ')}`);
       const poc = await trazi('starts', 'cvet');
+      /* Poređenje ide malim slovima: od 02.08.2026. u rečniku stoje i vlastita
+         imena velikim slovom (`Cveta`, `Beograd`), pa `startsWith('cvet')` na
+         zapisu daje lažan pad — reč JESTE pogodak, samo počinje velikim C. */
       ok('režim „počinje na…" vraća samo reči na „cvet"',
-         poc.length > 2 && poc.every(w => w.startsWith('cvet')), `${poc.length}: ${poc.slice(0, 3).join(', ')}`);
+         poc.length > 2 && poc.every(w => w.toLowerCase().startsWith('cvet')),
+         `${poc.length}: ${poc.slice(0, 3).join(', ')}`);
       const sadrzi = await trazi('contains', 'zvezd');
       ok('režim „sadrži…" vraća samo reči sa „zvezd"',
          sadrzi.length > 2 && sadrzi.every(w => w.includes('zvezd')), `${sadrzi.length}: ${sadrzi.slice(0, 3).join(', ')}`);

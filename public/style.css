@@ -27,6 +27,14 @@
      ima specifičnost (0,2,1) i nadjačava ga (0,1,2). Zato promenljiva. */
   --field-bg:#fff;
   --field-line:#fff;
+  /* Ivica polja za unos i dugmeta „kockica". Odvojena od `--field-line` baš
+     zato što `--field-line` sme da bude bela (koristi se i tamo gde ivica ne
+     treba da se vidi), a polje MORA da se vidi. */
+  --polje-okvir:#d7cff2;
+  --traka-okvir:#dcd4f2;        /* ivice kartica i odeljaka na početnoj */
+  --traka-bg:#faf8ff;           /* blaga podloga odeljka sa tekstom */
+  --zona-a:#f1ecff;             /* vrh zone alata */
+  --zona-b:#f8f6ff;
   --menu-bg:#fff;
   --menu-hover:#f6f0fc;
   --card-bg:#fff;      /* male bele kutije: tabela, filter slogova, značka */
@@ -128,7 +136,7 @@
        · ukupno znakova / broj redova → 72 umesto 87 (poslednji red je krnj).
      Ako se menja font ili veličina slova, mera se MERI PONOVO, najdužim redom.
      Pre-deploy test (sekcija 37) pada ako red pređe 78 znakova. */
-  --mera-proze:34em;
+  --mera-proze:40rem;
 
   /* ── LIST IZ BELEŽNICE (blokovi sa tekstom) ──────────────────────────────
      Papir mora da se razlikuje od strane (strana je bela), a da ostane u
@@ -165,6 +173,11 @@ body.dark-mode{
   --syl-bg:#2a2440;
   --field-bg:#2a2440;
   --field-line:#3a3450;
+  --polje-okvir:#514877;
+  --traka-okvir:#3a3450;
+  --traka-bg:#171327;
+  --zona-a:#1d1832;
+  --zona-b:#171327;
   --menu-bg:#241f38;
   --menu-hover:#3a3158;
   --card-bg:#241f38;
@@ -517,6 +530,13 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
    same ivice ekrana: na 1920 px su bili razmaknuti 1.807 px, dok je sadržaj
    stajao u traci od 857 px u sredini. Dugme za tamnu temu je tako bilo
    udaljeno od onoga što čovek gleda skoro celu širinu ekrana. */
+/* Prebacivač pisma stoji uz prebacivač teme, u desnom uglu — zahtev vlasnice
+   03.08.2026. Dotle je stajao po sredini zaglavlja, jer `space-between` sa tri
+   stavke sredinu i pravi. `margin-left:auto` gura i njega i mesec udesno, pa
+   su sve postavke na jednom mestu, a logo sam na levoj strani.
+   Na telefonu se ne dira: tamo je red već prelomljen i razvučen po širini. */
+.site-header .script-toggle{margin-left:auto}
+@media(max-width:560px){ .site-header .script-toggle{margin-left:0} }
 .site-header{
   position:relative;
   display:flex;align-items:center;justify-content:space-between;
@@ -686,13 +706,29 @@ body .tabs button.active,body .tabs a.active{
 body .tabs button.active .badge,body .tabs a.active .badge{background:var(--on-accent);color:var(--fill-accent-b)}
 
 /* MAIN */
-main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1.4rem var(--odstojanje-okvir) 4rem}
-.hero{text-align:center;margin:0 0 1.2rem}
+main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:.6rem var(--odstojanje-okvir) 3rem}
+/* ── ZONA ALATA — HERO IMA TEŽINU (02.08.2026) ─────────────────────────────
+   Vlasnica: „hoću da hero bude izražen, a ne tekst koji nam služi za SEO".
+   Do sada su naslov, polje i ceo tekst ispod stajali na istoj beloj podlozi,
+   bez ijedne granice — pa ništa nije bilo glavno.
+
+   Rešenje je jedan blag preliv koji pada od vrha strane i gasi se otprilike
+   tamo gde se alat završava. Nije okvir oko rezultata (spisak od 200 rima u
+   kutiji izgleda teško), nego svetlo koje pada odozgo: oko odmah zna gde je
+   vrh strane i šta je na njemu. Preliv je jedva vidljiv (#f4f0ff → belo) —
+   posao mu je da napravi red, ne da se primeti. */
+.alat-zona{
+  position:relative;
+  padding:1.6rem clamp(1rem,3vw,2rem) 2.4rem;
+  border-radius:26px;
+  background:linear-gradient(180deg,var(--zona-a) 0%,var(--zona-b) 42%,transparent 92%);
+}
+.hero{text-align:center;margin:0 0 1.6rem;padding:.6rem 0 0}
 /* Najveća veličina je 1,70rem, ne 1,9rem — sa Rubikom (širi od starog fonta) se
    naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
    Izmereno 30.07.2026; ako se font ili tekst naslova promene, PONOVO IZMERITI. */
-.hero h1{font-size:clamp(1.3rem,3.6vw,1.7rem);font-weight:600;color:var(--lavender-deep);margin:0 0 .35rem;line-height:1.25}
-.hero p{color:var(--ink-soft);font-size:.98rem;margin:0 auto;max-width:var(--mera-proze)}
+.hero h1{font-size:clamp(1.45rem,4vw,2.05rem);font-weight:700;color:var(--lavender-deep);margin:0 0 .5rem;line-height:1.2;letter-spacing:-.01em}
+.hero p{color:var(--ink-soft);font-size:1.02rem;margin:0 auto;max-width:var(--mera-proze)}
 .tab-panel{display:none;animation:fade .3s ease}
 .tab-panel.active{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -705,17 +741,29 @@ main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1.4rem var(-
    naslov i polje u sredini, pa se ispod otvara polje rezultata. */
 .search-row,.filters{max-width:var(--sirina-unos);margin-inline:auto}
 .search-row{position:relative;display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.1rem}
+/* OKVIR POLJA — vlasnica 02.08.2026: „zašto ta kapsula nije uokvirena, nego se
+   stapa sa pozadinom". Bila je u pravu i uzrok je bio doslovan: `--field-line`
+   je u svetloj temi bio `#fff`, a strana je takođe bela — dakle beli okvir na
+   beloj podlozi. Sada okvir ima svoju promenljivu `--polje-okvir`, koja u obe
+   teme stoji naspram podloge (izmereno: svetla 1,42:1 prema belom — dovoljno
+   da se ivica vidi, a da ne viče; tamna 1,55:1). */
 .search-row input[type=text],.search-row select{
-  flex:1;min-width:180px;font:inherit;font-size:1.08rem;font-weight:600;
-  padding:.85rem 1.15rem;border:2px solid var(--field-line);border-radius:18px;
-  background:var(--field-bg);color:var(--ink);box-shadow:var(--shadow-sm);
+  flex:1;min-width:180px;font:inherit;font-size:1.12rem;font-weight:600;
+  padding:.95rem 1.25rem;border:2px solid var(--polje-okvir);border-radius:18px;
+  background:var(--field-bg);color:var(--ink);
+  box-shadow:0 2px 10px rgba(90,63,208,.07), inset 0 1px 2px rgba(90,63,208,.05);
+  transition:border-color .16s, box-shadow .16s;
 }
+.search-row input[type=text]:hover,.search-row select:hover{border-color:var(--lavender)}
 .autocomplete{position:absolute;top:100%;left:0;right:0;margin-top:.35rem;background:var(--menu-bg);border-radius:16px;box-shadow:var(--shadow);z-index:70;overflow:hidden;max-height:260px;overflow-y:auto}
 .autocomplete .ac-item{padding:.75rem 1.1rem;cursor:pointer;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line)}
 .autocomplete .ac-item:last-child{border-bottom:0}
 .autocomplete .ac-item:hover,.autocomplete .ac-item.active{background:var(--menu-hover);color:var(--lavender-deep)}
 .search-row input::placeholder{color:var(--field-hint);font-weight:500}
-.search-row input[type=text]:focus,.search-row select:focus{outline:0;border-color:var(--lavender)}
+.search-row input[type=text]:focus,.search-row select:focus{
+  outline:0;border-color:var(--lavender-deep);
+  box-shadow:0 0 0 4px rgba(155,134,230,.24), 0 4px 14px rgba(90,63,208,.12);
+}
 button.primary{
   border:0;color:var(--on-primary);font:inherit;font-weight:700;font-size:1.02rem;
   padding:.85rem 1.6rem;border-radius:18px;cursor:pointer;
@@ -723,7 +771,7 @@ button.primary{
   box-shadow:0 6px 16px rgba(232,122,166,.35);transition:.18s;
 }
 button.primary:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(232,122,166,.42)}
-button.ghost{border:2px solid var(--field-line);background:var(--field-bg);border-radius:18px;cursor:pointer;font-size:1.25rem;padding:0 1.1rem;box-shadow:var(--shadow-sm);transition:.18s}
+button.ghost{border:2px solid var(--polje-okvir);background:var(--field-bg);border-radius:18px;cursor:pointer;font-size:1.25rem;padding:0 1.1rem;box-shadow:var(--shadow-sm);transition:.18s}
 button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 
 /* FILTERS */
@@ -765,9 +813,27 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* Prazno stanje — stoji dok se ne uradi prva pretraga. Boje idu iz promenljivih, da bi
    radilo i u tamnoj temi; tvrdo upisana pozadina bi u tamnoj temi dala nečitljiv tekst
    (AUDIT-PROTOKOL, provera br. 2 — kontrast u obe teme). */
-.prazno-stanje{width:100%;max-width:36rem;color:var(--muted);font-size:.97rem;line-height:1.65;padding:.2rem 0 .4rem}
-.prazno-stanje .prazno-glavno{margin:0 0 .7rem;color:var(--ink);font-weight:600}
-.prazno-stanje .prazno-lista{margin:0;padding-left:1.15rem;display:grid;gap:.45rem}
+/* PRAZNO STANJE — ono što čovek gleda pre prve pretrage.
+   Vlasnica 02.08.2026: „koliko je nabijen tekst ispod glavnog dela sajta".
+   Bila je u pravu: stajao je 0,2rem ispod filtera, pa je izgledao kao nastavak
+   alata umesto kao objašnjenje. Sada ga od heroja deli razmak i tanka linija,
+   a tri saveta stoje kao tri kartice — ravnopravne, sa svojim okvirom. */
+.prazno-stanje{
+  width:100%;max-width:none;color:var(--muted);font-size:.97rem;line-height:1.6;
+  margin-top:2.2rem;padding-top:1.6rem;border-top:1px solid var(--traka-okvir);
+}
+.prazno-stanje .prazno-glavno{
+  margin:0 0 1.1rem;color:var(--ink-soft);font-weight:600;font-size:1rem;
+  text-align:center;
+}
+.prazno-stanje .prazno-lista{
+  margin:0;padding:0;list-style:none;
+  display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+}
+.prazno-stanje .prazno-lista li{
+  background:var(--card-bg);border:1px solid var(--traka-okvir);border-radius:14px;
+  padding:.95rem 1.1rem;box-shadow:0 1px 3px rgba(90,63,208,.05);
+}
 .prazno-stanje a{color:var(--rose-deep);font-weight:600}
 /* u red sa rečima idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
 .results > *:not(.chip){width:100%}
@@ -983,6 +1049,19 @@ body.dark-mode .note-meter{background:#1e1a2e;border-color:var(--line)}
 /* Tekst o alatu ispod tabova važi za tab „Rime". Na ostalim tabovima se sklanja
    da ne priča o rimovanju dok korisnik gleda igru ili klasike. */
 body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
+
+/* ── NA TELEFONU HERO MORA DA BUDE SAŽET ───────────────────────────────────
+   Na 390×664 px zaglavlje i tabovi pojedu 250 px pre nego što hero uopšte
+   počne. Zato se na telefonu stišava sve što nije polje za unos: manje
+   odstojanje zone, manji naslov i manji podnaslov. Tekst se NE sklanja —
+   samo zauzima manje. Izmereno 03.08.2026: polje se sa 439 px podiglo. */
+@media(max-width:560px){
+  .alat-zona{padding:0 .8rem 1.6rem;border-radius:18px}
+  .hero{margin-bottom:1rem;padding:0}
+  .hero h1{font-size:1.18rem;line-height:1.25;margin-bottom:.3rem}
+  .hero p{font-size:.9rem;line-height:1.4}
+  .prazno-stanje{margin-top:1.4rem;padding-top:1.2rem}
+}
 
 /* ── SKLOPIVI BLOKOVI SA TEKSTOM O ALATU (02.08.2026) ──────────────────────
    Isti oblik kao „Česta pitanja" ispod njih — namerno, da strana ima jedan
@@ -1333,20 +1412,36 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .poem-scheme b{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 
 /* SEO CONTENT + FAQ */
-.seo-content{padding:1rem clamp(1rem,4vw,2.6rem) 2.6rem}
+/* ODELJAK SA TEKSTOM — POČINJE NOVA CELINA, I TO SE VIDI.
+   Vlasnica 02.08.2026: „nigde nema bordera, separatora, ničega živog, sve s
+   brda s dola". Tačno — tekst je počinjao odmah ispod alata, na istoj beloj
+   podlozi, bez ijedne linije. Sada odeljak ima svoju podlogu i liniju na vrhu,
+   pa se odmah vidi gde se alat završava, a gde počinje objašnjenje. Podloga je
+   namerno jedva primetna (svetla #faf8ff prema beloj) — cilj je granica, ne
+   šarenilo; hero i dalje mora da bude najjači na strani. */
+.seo-content{
+  padding:3rem clamp(1rem,4vw,2.6rem) 3.4rem;margin-top:3rem;
+  background:var(--traka-bg);border-top:1px solid var(--traka-okvir);
+}
 /* Ista širina i ista leva ivica kao sadržaj u `main`. Dok je ovde stajalo
    tvrdo 940 px, posle širenja omotača je ceo tekstualni deo bio uvučen 168 px
    udesno u odnosu na spisak rima iznad — izmereno 02.08.2026 na 1440 px. */
 .seo-inner{max-width:var(--sirina-sadrzaj);margin:0 auto}
-.seo-inner h2{font-size:1.3rem;font-weight:600;color:var(--lavender-deep);margin:1.6rem 0 .6rem}
+.seo-inner h2{
+  font-size:1.35rem;font-weight:700;color:var(--lavender-deep);margin:2.2rem 0 1rem;
+  padding-bottom:.6rem;border-bottom:2px solid var(--traka-okvir);
+}
 .seo-inner h2:first-child{margin-top:0}
 /* 38rem = 608 px = ~72 znaka u redu. Do 02.08.2026. je stajalo 760 px, a to je
    izmereno 90 znakova — red predug da ga oko isprati do sledećeg početka. */
 .seo-inner p{color:var(--ink-soft);font-size:.96rem;margin:0 0 .8rem;max-width:var(--mera-proze)}
 /* Ista širina kao blokovi iznad — i jedno i drugo je proza. */
 .faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem;max-width:var(--sirina-proza)}
-.faq details{background:var(--card-bg);border:2px solid var(--card-bg);border-radius:16px;box-shadow:var(--shadow-sm);padding:.85rem 1.15rem;transition:border-color .18s}
-.faq details[open]{border-color:var(--lavender)}
+/* Okvir je bio `2px solid var(--card-bg)` — dakle bela ivica na beloj kartici,
+   nevidljiva. Kartice su zbog toga izgledale kao da lebde bez granica. */
+.faq details{background:var(--card-bg);border:1px solid var(--traka-okvir);border-radius:16px;box-shadow:0 1px 3px rgba(90,63,208,.05);padding:.95rem 1.2rem;transition:border-color .18s,box-shadow .18s}
+.faq details:hover{border-color:var(--lavender);box-shadow:0 4px 14px rgba(90,63,208,.1)}
+.faq details[open]{border-color:var(--lavender);box-shadow:0 4px 14px rgba(90,63,208,.1)}
 .faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .faq summary::-webkit-details-marker{display:none}
 /* Isti ugaonik kao na listovima iznad — strana ima JEDAN jezik otvaranja.
@@ -1399,9 +1494,12 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
      raspoređuje po imenovanim poljima, pa oba naslova stoje u istom redu i
      obe kolone kreću sa iste visine. Redosled u HTML-u je netaknut, pa
      pretraživač i čitač ekrana vide isto što i pre. */
+  /* Leva kolona je ŠIRA od desne (1,4 : 1). U njoj je proza, a u desnoj su
+     kratka pitanja — na pola-pola je red proze padao na 51 znak, a čitljivo
+     je 65–75 (mereno širinom znaka „0"). Sa 1,4 kolona daje ~63. */
   .seo-inner{
     display:grid;
-    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-columns:1.4fr 1fr;
     column-gap:3rem;
     grid-template-areas:
       "naslov1 naslov2"
@@ -1726,7 +1824,12 @@ body.dark-mode .landing-tool{background:#1e1a2e}
      skripta učitala. Ako mora, piše se u obliku `body[data-tab]:not(...)` —
      tada se poklapa tek kad oznaka postoji, pa nema skoka (tako je od ranije
      napisano pravilo za `.seo-content`, i ono nikad nije skakalo). */
-  main{display:flex;flex-direction:column;padding-top:.8rem}
+  /* Od 03.08.2026. hero i tabovi žive u `.alat-zona` (zajednička podloga), pa
+     redosled mora da se postavi NA NJU. Dok je stajao na `main`, `.hero` više
+     nije bio njegovo dete i pravilo je tiho prestalo da radi — polje za unos
+     je na telefonu palo sa ~300 na 439 px od vrha. */
+  main{display:flex;flex-direction:column;padding-top:.35rem}
+  .alat-zona{display:flex;flex-direction:column}
   .hero{order:9;margin:1.6rem 0 0}
 
   /* Beležnica — veći font za mobilni */

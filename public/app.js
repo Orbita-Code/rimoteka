@@ -147,6 +147,7 @@ function sacuvajOmiljene(){
 /* ====================== Stanje ====================== */
 let WORDS = [];          // sve reči (ekavske + ijekavske na kraju), latinica
 let KEYS = [];           // jak ključ rime za svaku reč
+let MALE = [];           // ista reč malim slovima — za poređenja (v. `Beograd`)
 let RANK = new Map();    // reč -> indeks (manji = češća)
 let SET = new Set();     // za brzu proveru postojanja
 let jekStart = 0;        // indeks od kog počinju ijekavske reči
@@ -224,6 +225,11 @@ function isKidsBlocked(w){
 /* ====================== Lingvistika ====================== */
 function vowelPositions(w){
   const p = [];
+  /* Mala slova, uvek. U rečniku od 02.08.2026. stoje i vlastita imena velikim
+     slovom (`Amerika`, `Isus`), a `VOWELS` sadrži samo mala — bez ovoga bi
+     veliko početno `A` ispalo suglasnik i `Amerika` bi imala tri sloga umesto
+     četiri, pa bi upala u pogrešnu grupu rima. */
+  w = w.toLowerCase();
   for(let i=0;i<w.length;i++){
     const ch = w[i];
     if(VOWELS.has(ch)){ p.push(i); continue; }
@@ -262,6 +268,7 @@ function finalSylKey(w){
   return w.slice(start);
 }
 function commonSuffix(a,b){
+  a = a.toLowerCase(); b = b.toLowerCase();
   let n=0; const la=a.length, lb=b.length;
   while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
   return n;
@@ -291,7 +298,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=233')
+  defsPromise = fetch('/definicije.json?v=234')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -325,7 +332,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260802d', true),
+    uzmiTekst('/reci.txt?v=20260802f', true),
     uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -347,6 +354,7 @@ async function loadDict(){
      `doRhymes` prepoznaje spremnost po `WORDS.length`, pa ne sme da vidi
      poluprazan `KEYS`. */
   const kljucevi = new Array(svi.length);
+  const male = new Array(svi.length);     // isti niz, sve malim slovima — v. niže
   const rang = new Map();
   const skup = new Set();
   const KOMAD = 20000;
@@ -354,14 +362,23 @@ async function loadDict(){
     const kraj = Math.min(i + KOMAD, svi.length);
     for(let j = i; j < kraj; j++){
       const w = svi[j];
-      kljucevi[j] = rhymeKey(w);
+      /* VLASTITA IMENA STOJE U REČNIKU VELIKIM SLOVOM (`Beograd`, `Saturn`,
+         `Isus`) — odluka vlasnice 02.08.2026. Razlog je beležnica: klik na
+         ponuđenu rimu ubacuje reč pravo u stih, pa bi `beograd` ostavio
+         gramatičku grešku u gotovoj pesmi.
+         Zato se ZAPIS čuva onakav kakav je, a sve POREĐENJE ide preko malih
+         slova: ključ rime, spisak postojećih reči i pretraga. Bez ovoga bi
+         `Beograd` dobio ključ od velikog slova i ne bi se rimovao ni sa čim. */
+      const malo = w.toLowerCase();
+      male[j] = malo;
+      kljucevi[j] = rhymeKey(malo);
       rang.set(w, j);
-      skup.add(w);
+      skup.add(malo);
     }
     if(kraj < svi.length) await new Promise(r => setTimeout(r, 0));
   }
   jekStart = ekWords.length;
-  WORDS = svi; KEYS = kljucevi; RANK = rang; SET = skup;
+  WORDS = svi; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup;
 
   // Zatim učitaj frekvenciju i sinonime u pozadini — ne blokiraju rime
   loadExtras();
@@ -372,7 +389,7 @@ async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
       fetch('/frekvencija.json?v=2').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=1').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=20260802a').then(r=>r.json()).catch(()=> ({})),
       /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
          srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i
@@ -653,7 +670,12 @@ function izmeriCipove(){
      dalje javljao 115/115. Manjak reči se zato dodaje na širinu čipa. */
   const mere = svi.map(c => {
     const w = c.querySelector('.word');
-    const manjak = w ? Math.max(0, w.scrollWidth - w.clientWidth) : 0;
+    /* Prag od 10 px: bez njega je i reč kojoj fali dva-tri piksela uzimala
+       DVE kolone, pa je u redu ostajala jedna do dve rime umesto tri (izmereno
+       03.08.2026: prosek 1,95 po redu). Manjak ispod 10 px se ne vidi kao
+       sečenje — poslednje slovo je i dalje čitko. */
+    const sirovManjak = w ? Math.max(0, w.scrollWidth - w.clientWidth) : 0;
+    const manjak = sirovManjak >= 10 ? sirovManjak : 0;
     return { c, treba: Math.max(c.scrollWidth, c.clientWidth + manjak), ima: c.clientWidth };
   });
   const razmak = 8;
@@ -957,10 +979,14 @@ function doRhymes(silent){
   const strong = [];
   for(let i=0;i<limit;i++){
     const w = WORDS[i];
-    if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w))) continue;
+    /* Spiskovi zabrana i tražena reč su svi malim slovima, pa se poredi sa
+       `MALE[i]`, ne sa zapisom. Inače bi `Beograd` izmakao svakoj zabrani, a
+       na upit „beograd" bi izašao kao rima samom sebi. */
+    const m = MALE[i];
+    if(BLOCKED.has(m) || excluded.has(m) || (kidsMode && isKidsBlocked(m))) continue;
     // jekavski oblik zaostao u ekavskom rečniku — v. komentar kod `JEKAVSKI`
-    if(!includeJek && JEKAVSKI.has(w)) continue;
-    if(KEYS[i]===key && w!==q) strong.push(w);
+    if(!includeJek && JEKAVSKI.has(m)) continue;
+    if(KEYS[i]===key && m!==q) strong.push(w);
   }
   /* Redosled rima — tri merila, ovim redom:
      1. duži zajednički završetak (bogatija rima)
@@ -1068,7 +1094,17 @@ function doRhymes(silent){
       if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w)) || w===q || seen.has(w)) continue;
       if(looseKey(w)===lk) wide.push(w);
     }
+    /* Isti redosled merila kao kod čistih rima (CLAUDE.md, 6.2a): PRVO blizina
+       broja slogova, pa duži zajednički završetak, pa učestalost. Do 03.08.2026.
+       je ovde bio samo završetak, pa je spisak preplavljivao jedan nastavak:
+       za „sunce" je prvih sedamdeset mesta zauzelo `-nce` (mladunce, begunce,
+       licence…), a `srce` — reč zbog koje ova opcija i postoji — palo je na
+       150. mesto i nije se videlo. Sa blizinom slogova `srce` (2 sloga, kao
+       `sunce`) ulazi u prvi krug. */
+    const qSylW = syllables(q);
     wide.sort((a,b)=>{
+      const ds = Math.abs(syllables(a)-qSylW) - Math.abs(syllables(b)-qSylW);
+      if(ds) return ds;
       const d = commonSuffix(q,b)-commonSuffix(q,a);
       if(d) return d;
       return RANK.get(a)-RANK.get(b);
@@ -1187,10 +1223,10 @@ function updateAutocomplete(){
   const limit = includeJek ? WORDS.length : jekStart;
   const out = [];
   for(let i=0;i<limit && out.length<8;i++){
-    const w = WORDS[i];
-    if(BLOCKED.has(w)) continue;
-    if(!includeJek && JEKAVSKI.has(w)) continue;   // v. komentar kod `JEKAVSKI`
-    if(w.startsWith(q) && w !== q) out.push(w);
+    const w = WORDS[i], m = MALE[i];   // poređenje malim slovima — v. `Beograd`
+    if(BLOCKED.has(m)) continue;
+    if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
+    if(m.startsWith(q) && m !== q) out.push(w);
   }
   if(!out.length){ acWrap.style.display='none'; return; }
   acItems = out;
@@ -1253,12 +1289,12 @@ function doSearch(){
   const out=[];
   const limit = includeJek ? WORDS.length : jekStart;
   for(let i=0;i<limit && out.length<600;i++){
-    const w=WORDS[i];
-    if(BLOCKED.has(w)) continue;
-    if(!includeJek && JEKAVSKI.has(w)) continue;   // v. komentar kod `JEKAVSKI`
-    if(mode==='ends'   && w.endsWith(q))   out.push(w);
-    else if(mode==='starts' && w.startsWith(q)) out.push(w);
-    else if(mode==='contains' && w.includes(q)) out.push(w);
+    const w=WORDS[i], m=MALE[i];      // poređenje malim slovima — v. `Beograd`
+    if(BLOCKED.has(m)) continue;
+    if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
+    if(mode==='ends'   && m.endsWith(q))   out.push(w);
+    else if(mode==='starts' && m.startsWith(q)) out.push(w);
+    else if(mode==='contains' && m.includes(q)) out.push(w);
   }
   let arr = out;
   if(searchSyl){

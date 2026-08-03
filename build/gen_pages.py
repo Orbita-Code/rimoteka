@@ -1341,7 +1341,7 @@ def main():
                   '<strong>sinonime</strong> kad ti rima ne odgovara po smislu, '
                   '<strong>bliske rime</strong> za slobodniji zvuk, '
                   '<strong>brojač slogova i karaktera</strong>, '
-                  '<strong>beležnicu</strong> u kojoj pišeš pesmu i vidiš rime u boji, '
+                  '<strong>beležnicu</strong> u kojoj pišeš pesmu uz rime u boji '
                   'i <strong>igru rima</strong> za uvežbavanje. '
                   'Sve besplatno, bez registracije i bez reklama.'),
                  ('Šta znači rimovanje reči?',
@@ -1523,7 +1523,7 @@ def main():
                  ('Kako povezati prirodu i osećanja?', 'Sunce može da bude srećno, kiša tužna, a vetar slobodan. Priroda uči decu da prepoznaju emocije.'),
              ],
              faqs=[
-                 ('Koje reči iz prirode se najčešće rimuju?', 'sunce — unce, lonce, klince; zvezda — gnezda, žlezda; kiša — miša, niša, tiša, viša; sneg — beg; cvet — svet, savet, krevet; reka — dreka, izreka.'),
+                 ('Koje reči iz prirode se najčešće rimuju?', 'sunce — unce, runce, mladunce, begunce; zvezda — gnezda, žlezda; kiša — miša, niša, tiša, viša; sneg — beg; cvet — svet, savet, krevet; reka — dreka, izreka.'),
                  ('Kako deca uče o prirodi kroz pesme?', 'Pesmice pomažu deci da zapamte nazive pojava, boje, zvukove i sezone na zabavan način.'),
                  ('Da li mogu koristiti ove pesmice u vrtiću?', 'Da. Uz uključen dečji režim rezultati su dodatno filtrirani za vrtiće i škole.'),
              ]),

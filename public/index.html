@@ -36,7 +36,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="style.css?v=20260802h">
+<link rel="stylesheet" href="style.css?v=20260803b">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -142,6 +142,9 @@
 </nav>
 
 <main>
+<!-- ZONA ALATA — hero i tabovi stoje na svojoj podlozi, da se vidi
+     gde se alat završava, a gde počinje tekst o alatu (02.08.2026). -->
+<div class="alat-zona">
   <div class="hero">
     <h1>Rimovanje reči, rečnik rima i brojač slogova na srpskom jeziku</h1>
     <p>Unesi reč i odmah pronađi sve rime — piši pesme, tekstove i rep uz alat koji broji slogove i čuva beleške.</p>
@@ -181,8 +184,8 @@
       <p class="prazno-glavno">Upiši reč gore i klikni „Nađi rime“ — dobićeš sve što se sa njom rimuje.</p>
       <ul class="prazno-lista">
         <li>Uz svaku rimu piše <strong>koliko ima slogova</strong> i <strong>šta reč znači</strong>, pa ne moraš da otvaraš rečnik u drugom prozoru.</li>
-        <li>Rima zvuči dobro, a ne odgovara po smislu? Uzmi <strong>sinonim</strong> pa traži rimu za njega.</li>
-        <li>Pišeš celu pesmu? U <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> vidiš rime u boji dok kucaš, uz svaki stih piše i broj slogova.</li>
+        <li>Rima ti zvuči dobro, ali ne odgovara po smislu? Pogledaj <strong>sinonim</strong> za reč koja ti smeta pa potraži rimu za njega.</li>
+        <li>Pišeš celu pesmu? Otvori <a href="/pisanje-pesama/" data-tab="beleznica">beležnicu</a> — rime se boje same dok kucaš, a uz svaki stih stoji broj slogova.</li>
       </ul>
     </div></div>
   </section>
@@ -346,6 +349,7 @@
     <p class="hint">Reči sačuvane klikom na ♡ skupljaju se ovde, na jednom mestu — pri ruci dok pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve reči</button></p>
     <div id="favResults" class="results"></div>
   </section>
+</div>
 </main>
 
 <div id="toast" class="toast"></div>
@@ -605,7 +609,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260802h"></script>
+<script src="app.js?v=20260803b"></script>
 <!-- Pokret na karticama ISPOD alata. `defer` — ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>

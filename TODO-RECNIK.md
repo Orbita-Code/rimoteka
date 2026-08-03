@@ -8,6 +8,33 @@
 
 ---
 
+## ⏸ PREGLED SPISKA 01b — NASTAVITI OD REČI NA „BO" (02.08.2026)
+
+Vlasnica ručno pregleda `AUDIT/MATICA-fali/01b-za-pregled.md` — reči koje Rečnik
+Matice ima, a srLex ih ne potvrđuje (20.021 red). **Stigla je do reči na `BO`.**
+Sledeći put se počinje odatle, ne od početka.
+
+Uz to čekaju, po njenom zahtevu od 02.08.2026, celi tematski krugovi kojih u
+rečniku nema ili su nepotpuni:
+
+| Krug | Šta obuhvata |
+|---|---|
+| praznici i slave | Aranđelovdan, Nikoljdan, Cveti, Zadušnice, Božić, Vaskrs, Bogojavljanje, svinjokolj, Đurđevdan… |
+| države i gradovi | najpoznatije zemlje sveta i njihovi gradovi |
+| biblijski pojmovi | Juda, Isus, jevanđelje, devica, apostol… |
+| planete | proveriti da li ih imamo sve, uključujući Pluton |
+| kućni i kuhinjski aparati | plus posuđe i escajg |
+| saobraćaj i prevozna sredstva | drumski, rečni, pomorski, vazdušni; od bicikla do lokomotive i podmornice |
+| nauke | arheologija, astrofizika, bioenergetika i ostale |
+
+**Vlastita imena idu VELIKIM početnim slovom** (`Beograd`, `Saturn`, `Isus`) —
+odluka vlasnice 02.08.2026. Razlog nije pravopisna doslednost nego beležnica: ko
+klikne na ponuđenu rimu, ona mu uđe u stih, pa bi `beograd` ostavio grešku u
+gotovoj pesmi. Traži izmenu u `app.js` — poređenje bez razlike u veličini slova,
+prikaz pravog zapisa.
+
+---
+
 ## Glavni zadatak
 
 **Proći reč po reč kroz `public/reci.txt` (272.780 reči) i po zvaničnoj

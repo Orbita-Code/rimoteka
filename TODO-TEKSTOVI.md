@@ -27,8 +27,8 @@
    „rima za pesmu", „brojanje slogova", „rime za decu".
 7. **Izmena teksta je izmena rasporeda strane.** Posle svake veće izmene obavezno
    `node test/meri-cls.mjs` — v. `AUDIT/PROPUSTI.md`, pravilo 14.
-8. **Ko piše tekst za sajt:** agent `tekstopisac` (`.claude/agents/tekstopisac.md`).
-   Tamo su ton, zabranjene fraze i čeklista od 15 tačaka pre predaje.
+8. **Ko piše tekst za sajt:** agent `tekstopisac` je 04.08.2026. obrisan na
+   zahtev vlasnice. Tekst piše ko god vodi sesiju, po pravilima 1–7 iz ovog fajla.
 
 ---
 
@@ -42,16 +42,15 @@ raste, po pravilu 5 zabranjen. **Namerno nije promenjen.**
 Razlog: vlasnica je 30.07. promenila `<title>`, `meta description` i `og:description`
 početne zbog upita `recnik rima` (204 prikaza, **0 klikova**). Merenje traje do
 **13.08.2026**. Nova izmena bi poništila merenje i ne bi se znalo šta je delovalo.
+(H1 početne je 04.08. promenjen uz njeno odobrenje — ne dira SERP prikaz, pa
+merenje CTR-a i dalje važi.)
 
 **Uraditi posle 13.08.**, kad agent `analitika` očita rezultat:
 - skinuti „270.000 reči" iz opisa početne,
 - odlučiti na osnovu podataka da li `rečnik rima` ostaje u naslovu ili ne.
 
-### 2. Prazno stanje alata — nije napisano
-
-Pre prve pretrage polje za rime stoji prazno. To je jedino mesto gde čovek saznaje
-da sajt ima beležnicu, sinonime i brojač slogova — a tu ništa ne piše.
-Nijedan konkurent nema šta da stavi u to polje, jer nema ništa osim spiska rima.
+(Stavka 2 „Prazno stanje alata" obrisana 04.08.2026 — rešeno 02.08: prazno stanje
+postoji u `index.html` i nudi značenje, sinonime i beležnicu pre prve pretrage.)
 
 ---
 

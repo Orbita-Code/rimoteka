@@ -7,19 +7,25 @@
 # Sesija 4. avgust 2026 (četrnaesta) — NASLOVI, TEKST, SARADNJA, NOTE
 
 > **Grana:** `feat/naslovi-h1-h2-seo-tekst` (iz `feat/dizajn-pocetna-futer-saradnja`).
-> **Spojeno na `main` uz usmeno odobrenje vlasnice u ovoj sesiji. Push NIJE rađen.**
-> Handover piše isto veče; deo posla (vraćanje reči) tada još nije bio commitovan.
+> **Spojeno na `main` i puširano na GitHub** — `origin/main` = `98a5fd6d8`.
+> Dogovor od 04.08.2026: **kad vlasnica kaže „merge", to podrazumeva i push na
+> GitHub u istom potezu** — ne čekati posebno odobrenje za push.
+> Produkcija (rimoteka.com) NIJE deploy-ovana — deploy je poseban korak.
 
 ## ⛔ PRVO SLEDEĆOJ SESIJI
 
-1. **Zadnje izmene NISU prošle testove** — vlasnica je tražila rad bez testiranja.
-   Pre deploy-a: `node test/meri-cls.mjs` i `node test/predeploy.mjs`. Netestirano:
-   animacija nota, prebacivanje traka/futer (data-tab na `<html>`), `.hero p` i
-   `.futer-rime-uvod` bez gornje širine, hint omiljenih, futer-poziv blok.
-2. **Vraćanje 3.964 reči (iz `07`) radilo je u pozadini preko commita** — izmene
-   (`reci.txt`, `definicije.json`, regenerisane strane, izveštaj
-   `AUDIT/vracene-reci-04-08-2026.md`) su NEcommitovane na `main`. Sporne reči
-   (bucket C u izveštaju) čekaju odluku vlasnice. Završetak commitovati posebno.
+1. **`meri-cls` NIJE puštan posle pozdnih CSS izmena** (animacija nota, prebacivanje
+   traka/futer, `.hero p` i `.futer-rime-uvod` bez gornje širine) — pustiti pre
+   deploy-a. `predeploy` na `main` prolazi 539/539 (posle ispravke: merenje dugmeta
+   „Kontakt" bira vidljivo od dva mesta — traka ili futer, po tabu; dodirni ciljevi
+   ignorišu `display:none`).
+2. **330 spornih reči čeka odluku vlasnice** — tabela sa razlozima i preporuke po
+   kategorijama: `AUDIT/vracene-reci-04-08-2026.md`. Predloženo: vulgarne (14),
+   strane oblike (Skopje…), artefakte i delove višečlanih imena brisati; oblike
+   toponima koje rečnik vodi (Skoplja, Prokuplja, aranđelovcem…) vratiti; očito
+   standardne koje OCR ne čita (sud, suda, priređivanje) vratiti sa pisanim
+   objašnjenjem; lična imena (Cveta…) — njena odluka. Radne skripte i odluke:
+   `scripts/vrati-04-08/`; bekapi: `public/*.pre-vracanje-04-08`.
 3. **Merenje 13.08. i dalje važi** — `<title>` i `meta description` početne su
    NETAKNUTI (meri se CTR za `recnik rima`, 204 prikaza / 0 klikova). H1 početne
    jeste promenjen (vlasnica je odbila čekanje) — ne utiče na SERP prikaz, merenje
@@ -72,7 +78,11 @@
   rečniku (uhvatio `predeploy`, stavka „svaki par reč—rima se ZAISTA rimuje").
 - Pitanje vlasnice „ko je odobrio brisanje 3.964 reči": **njeno sopstveno pravilo**
   („nema reči bez objašnjenja"), zabeleženo u handoveru 13. sesije i zaglavlju
-  `scripts/objasnjenja-dopuna.py`. Vraćanje je u toku (tačka 2 gore).
+  `scripts/objasnjenja-dopuna.py`. **Vraćanje završeno u ovoj sesiji** (`98a5fd6d8`):
+  3.630 reči vraćeno (150 izvedenih + 3.480 pisanih objašnjenja, proverenih na
+  glosi u Matici), 330 spornih na njenoj odluci (tačka 2 gore). Rečnik: 280.269
+  reči; 0 reči bez objašnjenja posle upisa. Njenih 386 ručno odabranih reči
+  nije bilo među obrisanima (presek sa `01b` spiskom: 1 reč, slučajno).
 - Agent `tekstopisac` (`.claude/agents/`) obrisan na zahtev vlasnice.
 
 ### Testovi

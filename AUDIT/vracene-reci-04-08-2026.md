@@ -413,3 +413,54 @@ imaju objašnjenje (ništa nije trebalo dodavati).
   a frekvencija se čita sa `freq.get(w, 0)` (linija 760) — reč bez frekvencije ne
   ruši ni ne poremeti generator; samo se ređa pri dnu. Zato nula-dopune nije bilo.
 
+
+---
+
+## ODLUKE VLASNICE (04.08.2026) — primenjene
+
+| Kategorija | Odluka | Primena |
+|---|---|---|
+| Vulgarne (14) | **Vraćaju se** — postoji dečji režim koji ih skriva; izuzetak: `fukati`, `popizditi` **brisane** (nisu srpske) | 12 vraćeno sa objašnjenjima; u `app.js` prebačene iz stalnog `BLOCKED` u `KIDS_BLOCKED`; u `gen_pages.py` `BLOCKED` dopunjen svima (generisane strane ostaju čiste). Tekstovi „psovke i vulgarnosti izostavljene uvek" preformulisani — sada stoji dečji režim |
+| Skopja/Skopje… (5) | **brisati** (makedonski oblik) | nisu vraćeni |
+| `Skopljima`, `Skopljem` | **brisati** — gradovi nemaju množinu; „skopljem" ne potvrđuje ni Matica (0 tokena) | nisu vraćeni; vraćeni `Skoplja`, `Skoplju` |
+| `Prokupljama`, `Prokuplji`, `Prokupljom` | **brisati** („nije pravilno") | nisu vraćeni; vraćeni `Prokuplja`, `Prokuplju` |
+| Aranđelovac | „u Aranđelovcu obavezno" | vraćeni `aranđelovcu`, `aranđelovcem`, `aranđelovče` (`aranđelovca` je već postojao). Napomena: lema stoji malim slovom — velika slova za imena su poseban otvoren spisak (`MATICA-fali/06`) |
+| Zelanda | „na Zelandu", „sa Zelanda" — ispravno | `zelanda` i `zelandu` već postoje; dopunjeni `zelande`, `zelandi`, `zelandom`. `Zelandima` (množina) nije vraćena |
+| Cveta (7) | svi oblici, velikim slovom; `Cvetama` — nepotvrdljivo (Matica imena ne vodi), izostavljeno | vraćeni `Cveta`, `Cvete`, `Cveto`, `Cvetom`, `Cvetu` |
+| OCR/uvozni artefakti (10) | `kontrirati`, `longituda`, `priređivanje`, `prohteti`, `prohtev` — **vraćaju se**; dodatno provereno i vraćeno: `grafizam`, `iredentizam`, `krivoverac`, `križarski` (Matica ih vodi kao odrednice — OCR ih je sakrio) | `eurska`, `laca` — brisani |
+| Velika grupa (268) | „ostalo ne treba" — **brisati**, OSIM: `razmazivanje`, `bistrico`, svi oblici `bljuzga` (7) — vraćaju se; `koromač` vraćen (Matica ga vodi kao odrednicu — drugi oblik od `komorač`) | `komorač`, `babine`, `babinama` već postoje u rečniku — ništa se ne dodaje |
+| Nepotvrđeno (8) | bez odluke — ostaju napolju | `apta`, `bulica`, `govnar`, `posranac`, `Vener*`, `ševiti` |
+
+**Ukupno vraćeno u ovoj rundi: 46 reči** (od toga 12 vulgarne + 34 proverene/odobrene).
+Rečnik: 280.315 reči; svaka ima objašnjenje. Sve je prošlo kroz Maticu gde je
+Matica uopšte vodi; `bljuzga` je objašnjena po upotrebi vlasnice (izvorni govornik).
+
+## ODLUKE VLASNICE — druga runda (04.08.2026, diktat)
+
+Primenjeno — vraćeno/dodato 24 reči: `sud`, `suda`, `kuruz`, `kuruza` (dijal.:
+kukuruz; Matica: 171 odn. 66 tokena), `čeri`, `čući` (Matica: 112), `čučiti`,
+`čučite`, `nenaglašeno`, `pričepiti`, `prištav`, `slanutak`, `vilima`,
+`oksidacioni`+`oksidaciono`, `džangrizavac`, `džangrizavost` (pisana sa đ —
+č-verzija je uvozna greška; u rečniku već stoje i `džangrizav*` (6) i `čangrizav*`
+(5) familije — vlasnica potvrdila da je đ ispravno), 7 oblika od `mikrotalasni`.
+`muda` — postojala je; dodata u `KIDS_BLOCKED` (app.js) i `BLOCKED` (gen_pages.py).
+
+Već postojale (ništa se nije dodavalo): `filipinac`, `filipinka` (malim slovom,
+po pravopisu), `zrikav`, `zrikava`, `kozlić`, `leska`, `lešnik`, `melez`, `melezi`,
+`meleskinja`, `naglašeno`, `prepone`, `strip`, `tost`, `trauma`, `vile`, `zdravica`,
+`paradajz`, `čučimo`, `čučni`, `selo`, `sela`, `žičara`, `gondola` (+`gondoli`,
+`gondolom`), `trosed`, `četvorosed`, `dvosed`, `kauč`, `sofa`, `nameštaj`,
+`mikrotalasni` (+`mikrotalasna/no/ne/nu/nom/nih`).
+
+Napolju (potvrđeno brisanje): `Filipin` (odsečeno; država je `Filipini`),
+`Malezi` (artefakt), `taši`/`tariši` (nepotvrdljivo ni u Matici ni kod vlasnice),
+`mudo` (zvalica vulgarne reči), `ćući`, `čangrizavac`/`čangrizavost` (pogrešno
+slovo), `Cvetama`, i sve nespomenuto iz grupe 268 — po njenoj rečenici „ovo sve
+ostalo… možeš da izbrišeš".
+
+Usputna popravka: def od `Filipini` je bila „Država ostrvska država…" → „Ostrvska
+država u jugoistočnoj Aziji."
+
+Otvoreno: `čangrizav*` familija (5 oblika) stoji u rečniku — vlasnica je rekla da
+je đ oblik pravilan; č familiju nije eksplicitno naredila brisati. Kandidat za
+brisanje ili za proveru.

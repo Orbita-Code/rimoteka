@@ -174,14 +174,21 @@ let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'strin
 const VOWELS = new Set(['a','e','i','o','u']);
 
 /* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
-const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka']);
+const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guzi','guziti','seronja','seronje','pickica','pickice','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka']);
+/* 04.08.2026: `guz`, `sranje`, `kurvetina` su izašli odavde — odluka vlasnice:
+   vulgarne reči POSTOJE u rečniku (odrasli ih vide), a skriva ih dečji režim
+   (dakle su u KIDS_BLOCKED, ne ovde). */
 
 /* Dečji režim — dodatne reči koje nisu pogodne za decu (seksualne, nasilne, psihološki teške) */
 const KIDS_BLOCKED = new Set([
   // seksualne
   'seks','seksualan','seksualnost','erotika','erotičan','pornografija','pornografski','orgazam','orgazmičan','masturbacija','masturbirati','prostitucija','prostituirati','bordel','bordeli','kurva','kurve','kurvati','jebačina','jebačine','jebački','jebačkima','sperma','spermijum','vagina','vagine','vaginalan','penis','penisi','penisalan','klitoris','klitorisi','testis','testisi','skrotum','skrotumi','anus','anusi','analni','fela','felacija','felacije','kondom','kondomi','kontracepcija','kontraceptiv','abortus','abortirati','abortirano','silovanje','silovati','silovano','nasilje','nasilnik','nasilnici','pedofilija','pedofil','pedofili','incest','incestalan','bestijalnost','bestijalan','nekrofilija','nekrofil','nekrofili',
   // nasilne / psihološki teške
-  'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno'
+  'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno',
+  // vulgarne — od 04.08.2026. POSTOJE u rečniku i odrasli ih vide; dečji režim
+  // ih skriva (odluka vlasnice: ne brisati ih sa sajta kad postoji dečji režim)
+  'drkan','drkati','guz','kurvetina','kurvica','kurvinski','kurčiti','posrati','prokurvati','sranje','zapišati','šupak',
+  'muda'
 ]);
 
 /* Kontekstualna isključenja: za određenu reč NE prikazuj određene rime (semantika, a ne vulgarnost) */

@@ -19,13 +19,16 @@
    deploy-a. `predeploy` na `main` prolazi 539/539 (posle ispravke: merenje dugmeta
    „Kontakt" bira vidljivo od dva mesta — traka ili futer, po tabu; dodirni ciljevi
    ignorišu `display:none`).
-2. **330 spornih reči čeka odluku vlasnice** — tabela sa razlozima i preporuke po
-   kategorijama: `AUDIT/vracene-reci-04-08-2026.md`. Predloženo: vulgarne (14),
-   strane oblike (Skopje…), artefakte i delove višečlanih imena brisati; oblike
-   toponima koje rečnik vodi (Skoplja, Prokuplja, aranđelovcem…) vratiti; očito
-   standardne koje OCR ne čita (sud, suda, priređivanje) vratiti sa pisanim
-   objašnjenjem; lična imena (Cveta…) — njena odluka. Radne skripte i odluke:
-   `scripts/vrati-04-08/`; bekapi: `public/*.pre-vracanje-04-08`.
+2. **330 spornih reči — vlasnica je odlučila 04.08. (dve diktirane runde) i
+   primenjeno je.** Tabela odluka: `AUDIT/vracene-reci-04-08-2026.md` (odeljci
+   „ODLUKE VLASNICE"). Vraćeno ukupno još 70 reči (46 + 24): 12 vulgarne — sada
+   ih skriva dečji režim, NE stalna blokada (`muda` isto); oblici gradova, Cveta,
+   zelanda, sud, kuruz, čući, mikrotalasni oblici, džangrizavac… Napolju: fukati,
+   popizditi, makedonski oblici, množine gradova, artefakti i sve nespomenuto iz
+   grupe 268 (njena rečenica: „ostalo možeš da izbrišeš"). Važno za tekstove:
+   tvrdnja „psovke i vulgarnosti su izostavljene uvek" VIŠE NE VAŽI — svuda stoji
+   formulacija o dečjem režimu. Otvoreno: `čangrizav*` familija (5 oblika) stoji
+   u rečniku, a vlasnica je rekla da je đ oblik pravilan — kandidat za brisanje.
 3. **Merenje 13.08. i dalje važi** — `<title>` i `meta description` početne su
    NETAKNUTI (meri se CTR za `recnik rima`, 204 prikaza / 0 klikova). H1 početne
    jeste promenjen (vlasnica je odbila čekanje) — ne utiče na SERP prikaz, merenje

@@ -4181,6 +4181,8 @@ aranđelovačka
 aranđelovački
 aranđelovačkog
 aranđelovca
+aranđelovcem
+aranđelovcu
 Aranđelovdan
 aranđelovdan
 aranđelove
@@ -4190,6 +4192,7 @@ aranđelovoj
 aranđelovom
 aranđelovome
 aranđelovu
+aranđelovče
 aranđelu
 aranđeo
 aranžer
@@ -12035,6 +12038,7 @@ bistrica
 bistricama
 bistrice
 bistrici
+bistrico
 bistricom
 bistricu
 bistrih
@@ -13321,6 +13325,8 @@ bljuvotine
 bljuvotini
 bljuvotinom
 bljuvotinu
+bljuzga
+bljuzgama
 bljuzgav
 bljuzgavica
 bljuzgavicama
@@ -13329,6 +13335,11 @@ bljuzgavici
 bljuzgavicom
 bljuzgavicu
 bljuzgavoj
+bljuzge
+bljuzgi
+bljuzgo
+bljuzgom
+bljuzgu
 bljušt
 blog
 bloga
@@ -20740,6 +20751,7 @@ cveklom
 cveklu
 cveliti
 cvet
+Cveta
 cveta
 cvetaj
 cvetajeva
@@ -20771,6 +20783,7 @@ cvetati
 cvetaće
 cvetaš
 cvetaše
+Cvete
 cvete
 Cveti
 cveti
@@ -20809,13 +20822,16 @@ cvetnog
 cvetnoj
 cvetnom
 cvetnu
+Cveto
 cvetojević
+Cvetom
 cvetom
 cvetova
 cvetove
 cvetovi
 cvetovima
 cvetovom
+Cvetu
 cvetu
 cveća
 cvećar
@@ -31038,6 +31054,8 @@ driti
 drizić
 drizića
 drizićem
+drkan
+drkati
 drljaju
 drljale
 drljalo
@@ -33420,8 +33438,10 @@ džangrizalo
 džangrizati
 džangrizav
 džangrizava
+džangrizavac
 džangrizave
 džangrizavi
+džangrizavost
 džanki
 džankija
 džapati
@@ -44530,6 +44550,7 @@ grafiti
 grafitima
 grafitom
 grafitu
+grafizam
 grafičar
 grafičara
 grafičari
@@ -46854,6 +46875,7 @@ guvna
 guvnima
 guvno
 guvnu
+guz
 guza
 guzama
 guzate
@@ -53690,6 +53712,7 @@ irealnog
 irealnom
 iredenta
 iredente
+iredentizam
 irelevantna
 irelevantno
 irena
@@ -77003,6 +77026,7 @@ kontribucija
 kontribucije
 kontrira
 kontrirala
+kontrirati
 kontrola
 kontrolama
 kontrole
@@ -78148,6 +78172,7 @@ korodiraj
 korodirano
 korodiraš
 korom
+koromač
 korona
 koronarna
 koronarne
@@ -81092,6 +81117,7 @@ krivotvoritelja
 krivotvoriti
 krivoumlju
 krivoust
+krivoverac
 krivoveran
 krivoverja
 krivoverje
@@ -81188,6 +81214,7 @@ križanića
 križanićev
 križanović
 križar
+križarski
 križati
 križić
 križni
@@ -83501,6 +83528,11 @@ kurtoaznom
 kurtoaznu
 kurtović
 kurtovića
+kuruz
+kuruza
+kurvetina
+kurvica
+kurvinski
 kurziv
 kurzivi
 kurzivna
@@ -83514,6 +83546,7 @@ kurzivom
 kurzivu
 kurćubić
 kurćubići
+kurčiti
 kuršlus
 kuršum
 kuršuma
@@ -89213,6 +89246,7 @@ long
 longin
 longina
 longinović
+longituda
 longitudi
 longitudinalan
 longitudinalna
@@ -96314,15 +96348,22 @@ mikroskopu
 mikrosveta
 mikrotalas
 mikrotalasa
+mikrotalasan
 mikrotalase
 mikrotalasi
 mikrotalasna
 mikrotalasne
 mikrotalasni
 mikrotalasnih
+mikrotalasnim
+mikrotalasnima
 mikrotalasno
+mikrotalasnog
+mikrotalasnoga
 mikrotalasnoj
 mikrotalasnom
+mikrotalasnome
+mikrotalasnomu
 mikrotalasnu
 mikročip
 mikročipa
@@ -114636,6 +114677,7 @@ nenadovoj
 nenadu
 nenaglašen
 nenaglašenih
+nenaglašeno
 nenagrađen
 nenajavljen
 nenajavljena
@@ -131251,6 +131293,8 @@ oksidacija
 oksidacije
 oksidaciji
 oksidaciju
+oksidacioni
+oksidaciono
 okside
 oksidi
 oksidira
@@ -160805,6 +160849,7 @@ posramljenost
 posramljuje
 posramljuju
 posramljujuće
+posrati
 posrba
 posrbiti
 posrbljavao
@@ -176969,6 +177014,7 @@ priređivala
 priređivale
 priređivali
 priređivan
+priređivanje
 priređivao
 priređivati
 priređivač
@@ -178585,6 +178631,7 @@ pričekaćemo
 pričekaću
 pričekaš
 pričekaše
+pričepiti
 pričesna
 pričesni
 pričesnica
@@ -178767,6 +178814,7 @@ prišljamčiti
 prišlo
 prišt
 prišta
+prištav
 prištedeti
 prištedi
 prišteva
@@ -180356,6 +180404,8 @@ prohoru
 prohte
 prohteli
 prohtelo
+prohteti
+prohtev
 prohteva
 prohteve
 prohtevima
@@ -180887,9 +180937,11 @@ prokupačka
 prokupačke
 prokupački
 prokupačko
+Prokuplja
 prokuplja
 Prokuplje
 prokuplje
+Prokuplju
 prokuplju
 prokurator
 prokuratore
@@ -180897,6 +180949,7 @@ prokurdska
 prokurdske
 prokurdski
 prokurdsku
+prokurvati
 prokuva
 prokuvaj
 prokuvajte
@@ -191950,6 +192003,7 @@ razmazio
 razmazit
 razmazite
 razmaziti
+razmazivanje
 razmazivao
 razmazivati
 razmazićete
@@ -208103,6 +208157,7 @@ skončaću
 skončaš
 skončaše
 skopje
+Skoplja
 skoplja
 skopljanac
 skopljanka
@@ -208112,6 +208167,7 @@ skopljansku
 Skoplje
 skoplje
 skopljem
+Skoplju
 skoplju
 skopolamin
 skopska
@@ -209205,6 +209261,7 @@ slanom
 slanost
 slanosti
 slanu
+slanutak
 slao
 slap
 slapa
@@ -215474,6 +215531,7 @@ sramoćenja
 sramoćenje
 sramoćenju
 sramu
+sranje
 srasla
 srasle
 srasli
@@ -220631,6 +220689,8 @@ subverzivne
 subverzivni
 subverzivno
 subverzivnost
+sud
+suda
 sudaca
 Sudan
 sudan
@@ -251574,6 +251634,7 @@ vilijam
 vilijama
 vilijams
 vilim
+vilima
 vilin
 vilina
 viline
@@ -261415,6 +261476,7 @@ zapitkujete
 zapitkuješ
 zapitkuju
 zapićemo
+zapišati
 zapiše
 zapišem
 zapišemo
@@ -266331,6 +266393,9 @@ zekovića
 zeku
 zeland
 zelanda
+zelande
+zelandi
+zelandom
 zelandu
 zelembać
 zelembaća
@@ -270950,6 +271015,7 @@ zđelarević
 čergo
 čergom
 čergu
+čeri
 čeriti
 čerka
 čerkeska
@@ -272916,6 +272982,7 @@ zđelarević
 čućemo
 čućete
 čućeš
+čući
 čuću
 čuča
 čučak
@@ -272936,6 +273003,8 @@ zđelarević
 čučilović
 čučim
 čučimo
+čučite
+čučiti
 čučiš
 čučković
 čučne
@@ -277657,6 +277726,7 @@ zđelarević
 šunkom
 šunku
 šupa
+šupak
 šupalj
 šupama
 šupci

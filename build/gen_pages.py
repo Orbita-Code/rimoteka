@@ -682,8 +682,10 @@ def main():
 
     wset = set(words)
 
-    # Reči koje se nikad ne prikazuju kao rime (neprikladne, vulgarnosti)
-    BLOCKED = {'dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka'}
+    # Reči koje se nikad ne prikazuju kao rime na GENERISANIM stranama (04.08.2026:
+    # dopunjeno — vulgarne reči sada postoje u rečniku i živom alatu, ali statičke
+    # SEO strane ostaju čiste; dečji režim ih skriva i u alatu).
+    BLOCKED = {'dupe','guzica','guzice','govno','govna','sranje','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guz','guzi','guziti','seronja','seronje','pickica','pickice','kurvetina','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka','drkan','drkati','kurvica','kurvinski','kurčiti','posrati','prokurvati','zapišati','šupak','muda'}
     # Kontekstualna isključenja: za određenu reč NE prikazuj određene rime
     RHYME_EXCLUSIONS = {
         'dete': {'bidete','bide','bidi'}
@@ -1408,15 +1410,15 @@ def main():
              title='Rime za decu — reči za dečje pesmice, bez ružnih reči | Rimoteka',
              desc='Rime za decu: upiši reč i dobiješ rime za dečju pesmicu, a uz svaku piše broj slogova i šta reč znači. Dečji režim izbacuje ružne reči, pa pišeš mirno sa detetom.',
              h1='Rime za decu — pesmice bez ružnih reči',
-             lead=f'Rimoteka <strong>uvek</strong> izostavlja psovke i vulgarnosti, a za decu ima i <strong>dečji režim</strong> — dodatni filter koji uklanja i nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim“ ispod polja za unos, a dugme ispod ga uključi samo. Za početak, evo reči od kojih se najlakše kreće: {deciji_chips}',
+             lead=f'Rimoteka ima <strong>dečji režim</strong> — filter koji od dece skriva psovke, vulgarne reči, nasilne i seksualne pojmove. Uključuje se kvačicom „dečji režim“ ispod polja za unos, a dugme ispod ga uključi samo. Za početak, evo reči od kojih se najlakše kreće: {deciji_chips}',
              cta_href='/?rec=dete&decji=1', cta_text='🧸 Otvori alat sa uključenim dečjim režimom →',
              sections=[
-                 ('Zašto posebne rime za decu?', 'Rečnik je uvek pročišćen od psovki i vulgarnosti. Uz to postoji i dečji režim, koji dodatno uklanja nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom i ostaje upamćen na tom uređaju.'),
+                 ('Zašto posebne rime za decu?', 'Dečji režim iz rezultata izbacuje psovke, vulgarne reči, nasilne i seksualne pojmove — roditelji i učitelji ga uključe jednom, a on ostaje upamćen na tom uređaju.'),
                  ('Od koje reči da počneš sa detetom', 'Uzmi reč koju dete već ume da kaže — mama, tata, lopta, mačka, sunce, kiša. Klikni je, pa iz spiska izaberi rimu koju dete razume.'),
                  ('Kako napisati dečju pesmicu?', 'Napiši prvi red, pa mu prebroj slogove. Drugi red neka ima isti broj slogova i rimu na kraju. Kad se ta dva slože, ostatak ide lakše — deca pamte ono što se ponavlja.'),
              ],
              faqs=[
-                 ('Da li su rime na Rimoteci bezbedne za decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za najmlađe uključi i dečji režim (kvačica ispod polja za unos) — on dodatno uklanja nasilne i seksualne pojmove.'),
+                 ('Da li su rime na Rimoteci bezbedne za decu?', 'Uključi dečji režim (kvačica ispod polja za unos) — on iz rezultata izbacuje psovke, vulgarne reči, nasilne i seksualne pojmove.'),
                  ('Koje reči su dobre za dečje pesmice?', 'Jednostavne, slikovite reči kao što su dete, igra, sreća, sunce, mesec, zvezda, cvet, mama, tata, prijatelj.'),
                  ('Kako da pronađem rime za određenu reč?', 'Upiši reč u polje za pretragu na Rimoteci i klikni „Nađi rime“. Ako je uključen dečji režim, rezultati su dodatno filtrirani za decu.'),
              ]),
@@ -1522,7 +1524,7 @@ def main():
              ],
              faqs=[
                  ('Koje životinje su najbolje za dečje pesmice?', 'Mačke, psi, ptice, konji, lavovi i pčele su klasici jer su deci bliski i lako se opisuju.'),
-                 ('Da li su rime bezbedne za najmlađu decu?', 'Psovke i vulgarnosti su izostavljene uvek. Za vrtićku decu uključi i dečji režim — kvačica „dečji režim“ ispod polja za unos.'),
+                 ('Da li su rime bezbedne za najmlađu decu?', 'Uključi dečji režim — kvačica „dečji režim“ ispod polja za unos. On iz rezultata izbacuje psovke i vulgarne reči, pa su rezultati pročišćeni za vrtiće i škole.'),
                  ('Kako deca najbolje uče pesmice napamet?', 'Kroz ponavljanje, pokrete i igru. Što je pesma kraća i melodičnija, brže će je zapamtiti.'),
              ]),
         dict(slug='rime-za-decu-o-prirodi',

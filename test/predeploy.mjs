@@ -1127,6 +1127,8 @@ async function main() {
              prikazuje — zato se ovde traži nova, a stara se proverava zasebno
              (niže) da nije negde ostala. */
           mejl: document.body.innerText.includes('eureka@rimoteka.com'),
+          mejlHref: [...document.querySelectorAll('a[href^="mailto:"]')]
+            .some(a => a.getAttribute('href').startsWith('mailto:eureka@rimoteka.com')),
           staraAdresa: document.body.innerText.includes('info@rimoteka.com'),
           maticniTekst: document.body.innerText,
         }));
@@ -1138,7 +1140,11 @@ async function main() {
         ok(`${put} → skraćenice ostaju latinicom`,
            !/ПДФ|АБАБ|ААББ/.test(r.maticniTekst),
            (r.maticniTekst.match(/ПДФ|АБАБ|ААББ/g) || []).join(','));
-        if (put === '/') ok('početna → mejl adresa se ne prebacuje u ćirilicu', r.mejl === true);
+        /* Adresa se od 03.08.2026. više NE ispisuje — nosi je dugme „Saradnja"
+           preko `mailto:`. Provera zato gleda samu adresu u `href`-u: ono zbog
+           čega je nastala (da se `eureka` ne pretvori u `еурека`) i dalje važi. */
+        if (put === '/') ok('početna → mejl adresa se ne prebacuje u ćirilicu',
+                            r.mejlHref === true, r.mejlHref === true ? '' : 'adresa u dugmetu nije latinična');
         if (put === '/') ok('početna → stara adresa info@ se više ne prikazuje',
                             r.staraAdresa === false, 'nađena stara adresa na strani');
       }
@@ -3726,10 +3732,14 @@ async function main() {
       const futerDesktop = await p35d.evaluate(() => ({
         linkova: document.querySelectorAll('.futer-v2 .footer-link').length,
         rima: document.querySelectorAll('.futer-v2 .futer-rime-spisak .footer-link').length,
+        imaCta: !!document.querySelector('.saradnja-traka .saradnja-cta[href^="mailto:eureka@rimoteka.com"]'),
       }));
+      /* 54, ne 55: ispisana adresa u bloku saradnje je 03.08.2026. uklonjena —
+         stajala je odmah ispod dugmeta koje vodi na istu adresu. Dugme se broji
+         posebno (`.futer-cta`), pa se proverava i ono. */
       ok('futer · svi linkovi su tu (23 u kolonama + 30 rima + kontakt + Orbita)',
-         futerDesktop.linkova >= 55 && futerDesktop.rima === 30,
-         `ukupno ${futerDesktop.linkova}, popularnih rima ${futerDesktop.rima}`);
+         futerDesktop.linkova >= 54 && futerDesktop.rima === 30 && futerDesktop.imaCta === true,
+         `ukupno ${futerDesktop.linkova}, popularnih rima ${futerDesktop.rima}, dugme ${futerDesktop.imaCta}`);
       await ctx35d.close();
 
       const ctx35e = await browser.newContext({
@@ -3808,7 +3818,11 @@ async function main() {
 
         const f = await p36.evaluate(({ MERE36 }) => {
           eval(MERE36);
-          const cta = document.querySelector('.futer-v2 .futer-cta');
+          /* Dugme „Saradnja" od 03.08.2026. stoji u TRACI IZNAD futera, ne u
+             samom futeru — poruka je bila ista na oba mesta. Provere ostaju
+             iste, samo gledaju tamo gde dugme sada jeste. */
+          const cta = document.querySelector('.saradnja-traka .saradnja-cta')
+                   || document.querySelector('.futer-v2 .futer-cta');
           const notni = document.querySelector('.futer-v2 .futer-notni');
           const note = [...document.querySelectorAll('.futer-v2 .nota')];
           const vidljive = note.filter(n => getComputedStyle(n).display !== 'none');
@@ -3833,7 +3847,7 @@ async function main() {
           }
           const sitniSeli = {
             'naslov kolone': '.futer-v2 .futer-naslov',
-            'poziv uz dugme': '.futer-v2 .futer-akcija-hint',
+            'poziv uz dugme': '.saradnja-traka .saradnja-sadrzaj p',
             'ključne reči': '.futer-v2 .footer-keys',
             'prava': '.futer-v2 .footer-legal',
           };
@@ -3844,23 +3858,31 @@ async function main() {
           // dodirni ciljevi — SVI linkovi futera, i oni usred rečenice
           const linkovi = [...document.querySelectorAll(
             '.futer-v2 .futer-kolona .footer-link, .futer-v2 .futer-rime-spisak .footer-link, ' +
-            '.futer-v2 .futer-cta, .futer-v2 .futer-akcija-hint a, .futer-v2 .footer-orbita a')];
+            '.saradnja-traka .saradnja-cta, .futer-v2 .footer-orbita a')];
           r.linkova = linkovi.length;
           r.ispod44 = linkovi.filter(a => a.getBoundingClientRect().height < 44)
             .map(a => `${a.textContent.trim().slice(0, 22)}=${Math.round(a.getBoundingClientRect().height)}px`);
           // rupa u gornjem pojasu: rastojanje od dna opisa do vrha dugmeta
           const opis = document.querySelector('.futer-v2 .footer-desc');
-          if (opis && cta) r.rupaGlave = Math.round(cta.getBoundingClientRect().top - opis.getBoundingClientRect().bottom);
+          /* Meri se do VRHA celog bloka sa pozivom, ne do dugmeta: od
+             03.08.2026. iznad dugmeta stoji rečenica koja kaže kome je saradnja
+             namenjena, pa prostor između opisa i dugmeta više nije prazan.
+             Provera i dalje hvata ono zbog čega je nastala — praznu rupu. */
+          const blok = document.querySelector('.futer-v2 .futer-akcija');
+          if (opis && blok) r.rupaGlave = Math.round(blok.getBoundingClientRect().top - opis.getBoundingClientRect().bottom);
+          else r.rupaGlave = 0;   // bloka više nema u futeru — nema ni rupe
           return r;
         }, { MERE36 });
 
-        ok(`futer (${tema}) · dugme „Saradnja" postoji i vodi na e-poštu`,
-           f.imaDugme && /Saradnja/.test(f.tekstDugmeta) && f.adresa === 'mailto:eureka@rimoteka.com',
+        /* Dugme je 03.08.2026. preimenovano u „Kontakt" (odluka vlasnice). */
+        ok(`futer (${tema}) · dugme „Kontakt" postoji i vodi na e-poštu`,
+           f.imaDugme && /Kontakt/.test(f.tekstDugmeta) &&
+             /^mailto:eureka@rimoteka\.com(\?|$)/.test(f.adresa || ''),
            f.imaDugme ? `tekst „${f.tekstDugmeta}", adresa „${f.adresa}"` : 'nema dugmeta .futer-cta u futeru');
-        ok(`futer (${tema}) · kontrast dugmeta „Saradnja" je bar 4,5`,
+        ok(`futer (${tema}) · kontrast dugmeta „Kontakt" je bar 4,5`,
            f.kontrastDugmeta !== null && f.kontrastDugmeta >= 4.5,
            `izmereno ${String(f.kontrastDugmeta).replace('.', ',')} (granica 4,5)`);
-        ok(`futer (${tema}) · dugme „Saradnja" je dodirni cilj od bar 44 px`,
+        ok(`futer (${tema}) · dugme „Kontakt" je dodirni cilj od bar 44 px`,
            f.ciljDugmeta && f.ciljDugmeta.h >= 44 && f.ciljDugmeta.w >= 44,
            f.ciljDugmeta ? `${f.ciljDugmeta.w}×${f.ciljDugmeta.h} px` : 'nema dugmeta');
 
@@ -3912,6 +3934,15 @@ async function main() {
           ctaDesno: (cta && inner)
             ? cta.getBoundingClientRect().left > inner.getBoundingClientRect().left + inner.getBoundingClientRect().width / 2
             : false,
+          ctaSredina: (() => {
+            const t = document.querySelector('.saradnja-traka');
+            const c = document.querySelector('.saradnja-traka .saradnja-cta');
+            if (!t || !c) return false;
+            const rt = t.getBoundingClientRect(), rc = c.getBoundingClientRect();
+            const sredinaTrake = rt.left + rt.width / 2;
+            const sredinaDugmeta = rc.left + rc.width / 2;
+            return Math.abs(sredinaTrake - sredinaDugmeta) <= 12;
+          })(),
           nota: [...document.querySelectorAll('.futer-v2 .nota')].filter(n => getComputedStyle(n).display !== 'none').length,
         };
       });
@@ -3920,8 +3951,11 @@ async function main() {
          duža za ~300 px i desno je zjapila rupa. */
       ok('futer na računaru · nijedna kolona nije duplo duža od ostalih',
          d.najduza > 0 && d.najduza <= 7, `najduža kolona ima ${d.najduza} linkova (granica 7, bilo 12)`);
-      ok('futer na računaru · dugme „Saradnja" je u desnoj polovini (težište kompozicije)',
-         d.ctaDesno === true, 'dugme nije desno — futer opet deluje nabijeno uz levu ivicu');
+      /* Provera je nastala kad je dugme stajalo u futeru i bilo zbijeno uz levu
+         ivicu. Od 03.08.2026. poziv živi u traci iznad futera i tamo je
+         CENTRIRAN — pa se meri to: da stoji po sredini trake, a ne uz ivicu. */
+      ok('traka sa pozivom · dugme „Kontakt" je po sredini trake',
+         d.ctaSredina === true, 'dugme nije centrirano u traci');
       ok('futer na računaru · vidi se svih osam nota', d.nota === 8, `prikazano ${d.nota}`);
       await ctx36d.close();
 
@@ -4131,6 +4165,154 @@ async function main() {
          rr.telo >= 0.99 && rr.slovo >= 0.99 && rr.duzina > 700,
          `telo ${rr.telo}, slovo ${rr.slovo}, ${rr.duzina} znakova`);
       await ctx38r.close();
+    }
+
+
+    /* ── 39) NASLOV PRATI TAB ────────────────────────────────────────────────
+       Prijava vlasnice 03.08.2026: „klikne se Rečnik, adresa se promeni, a
+       naslov ostane sa početne". Adresa se menjala (`pushState`), naslovni blok
+       nije. Provera prolazi kroz tabove i traži da se uz adresu promene i `h1`
+       i naslov kartice, pa da „Nazad" vrati oboje. */
+    {
+      console.log('\n12g) Naslov prati tab');
+      const ctx39 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const p39 = ojacajStranu(await ctx39.newPage());
+      await p39.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(700);
+      const parovi = [
+        ['Rečnik', '/recnik-srpskog-jezika/', 'Rečnik srpskog jezika'],
+        ['Klasici', '/klasici/', 'Srpske pesme'],
+        ['Igra rimovanja', '/igra-rimovanja/', 'Igra rimovanja'],
+      ];
+      for (const [tab, putanja, naslov] of parovi) {
+        await p39.click(`.tabs a:has-text("${tab}")`);
+        await pauza(450);
+        const st = await p39.evaluate(() => ({
+          url: location.pathname,
+          h1: (document.querySelector('h1') || {}).textContent || '',
+          title: document.title,
+        }));
+        ok(`tab „${tab}" · naslov strane prati adresu`,
+           st.url === putanja && st.h1.startsWith(naslov) && st.title.startsWith(naslov),
+           `adresa ${st.url}, h1 „${st.h1.slice(0, 40)}", naslov „${st.title.slice(0, 40)}"`);
+      }
+      /* Jedan korak unazad vraća na PRETHODNI tab (Klasici), ne na početnu —
+         svaki tab je svoj unos u istoriji. Bitno je da se sa adresom vrati i
+         naslov; zato se poredi sa tabom na koji se stvarno vratilo. */
+      await p39.goBack();
+      await pauza(500);
+      const nazad = await p39.evaluate(() => ({
+        url: location.pathname,
+        h1: (document.querySelector('h1') || {}).textContent || '',
+        title: document.title,
+      }));
+      ok('tabovi · „Nazad" vraća i naslov, ne samo adresu',
+         nazad.url === '/klasici/' && nazad.h1.startsWith('Srpske pesme') &&
+           nazad.title.startsWith('Srpske pesme'),
+         `adresa ${nazad.url}, h1 „${nazad.h1.slice(0, 40)}"`);
+      await ctx39.close();
+    }
+
+
+    /* ── 40) KURSOR NE BEŽI U SLEDEĆI RED ───────────────────────────────────
+       Prijava vlasnice 03.08.2026: „otkucam dva slova i odmah pređe u sledeći
+       red". Vraćanje kursora posle osvežavanja je pomeralo kursor sa KRAJA reda
+       na POČETAK sledećeg, pa su se sledeća slova kucala tamo.
+       Provera pokriva sva tri slučaja koja se ovde sudaraju: kraj reda, novi red
+       posle Entera i sredina reči (nalaz D4 — položaj koji niko ne testira). */
+    {
+      console.log('\n12h) Beležnica — kursor posle osvežavanja');
+      const ctx40 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+      const p40 = ojacajStranu(await ctx40.newPage());
+      await p40.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+      await pauza(1500);
+      const osvezi = () => p40.evaluate(() => {
+        const poz = saveCursorPosition(); renderGutter(); restoreCursorPosition(poz);
+      });
+      const tekst = () => p40.evaluate(() =>
+        document.querySelector('.notepad-text').innerText.replace(/\n/g, ' | '));
+
+      await p40.click('.notepad-text');
+      await p40.keyboard.type('prvi red');
+      await p40.keyboard.press('Enter');
+      await p40.keyboard.type('kapa');
+      await pauza(400);
+      await osvezi();
+      await p40.keyboard.type(' joj je');
+      await pauza(300);
+      ok('beležnica · kucanje na kraju reda ostaje u tom redu',
+         (await tekst()) === 'prvi red | kapa joj je', await tekst());
+
+      await p40.keyboard.press('Enter');
+      await osvezi();
+      await p40.keyboard.type('treći red');
+      await pauza(300);
+      ok('beležnica · posle Entera kursor ostaje u novom redu',
+         (await tekst()) === 'prvi red | kapa joj je | treći red', await tekst());
+
+      await p40.evaluate(() => {
+        const e = document.querySelector('.notepad-text');
+        const t = e.firstChild; const r = document.createRange();
+        r.setStart(t, 4); r.collapse(true);
+        const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      });
+      await osvezi();
+      await p40.keyboard.type('X');
+      await pauza(300);
+      ok('beležnica · kursor usred reči ostaje usred reči',
+         (await tekst()).startsWith('prviX red'), await tekst());
+
+      /* Objašnjenje reči i u bočnom panelu (04.08.2026). Dugme ⓘ tamo ne
+         postoji — panel je uzak — pa se značenje pokazuje zadržavanjem
+         kursora. Provera traži da se oblačić otvori i da se zatvori kad miš
+         ode, i da u njemu bude STVARNO objašnjenje, ne prazan okvir. */
+      await p40.evaluate(() => { document.querySelector('.notepad-text').innerText = 'ide baba ljuta'; });
+      await p40.click('.notepad-text');
+      await p40.keyboard.press('End');
+      await pauza(1200);
+      const imaCip = await p40.locator('.note-rhymes .chip').count();
+      if (imaCip > 0) {
+        await p40.locator('.note-rhymes .chip').first().hover();
+        await pauza(1300);
+        const tip = await p40.evaluate(() => {
+          const d = document.querySelector('.deftip');
+          return d ? { prikaz: getComputedStyle(d).display, duzina: d.innerText.trim().length } : null;
+        });
+        ok('beležnica · zadržavanje na rimi u panelu pokazuje značenje',
+           !!tip && tip.prikaz !== 'none' && tip.duzina > 12,
+           tip ? `prikaz ${tip.prikaz}, ${tip.duzina} znakova` : 'nema oblačića');
+        await p40.mouse.move(5, 5);
+        await pauza(500);
+        ok('beležnica · oblačić nestaje kad miš ode sa reči',
+           (await p40.evaluate(() => getComputedStyle(document.querySelector('.deftip')).display)) === 'none');
+      }
+
+      /* Reč iz zaglavlja panela vraća se u stih jednim klikom (04.08.2026).
+         Prijava vlasnice: zamenila je „ruta" drugom rečju, panel je i dalje
+         pisao „Rime za ruta", a ta reč se nije mogla kliknuti da se vrati. */
+      {
+        await p40.evaluate(() => { document.querySelector('.notepad-text').innerText = 'skloni se sa ruta'; });
+        await p40.click('.notepad-text');
+        await p40.keyboard.press('End');
+        await pauza(1200);
+        const glava = await p40.locator('.nr-word-btn').count();
+        if (glava > 0) {
+          await p40.locator('.note-rhymes .chip').nth(1).click();
+          await pauza(900);
+          const posleZamene = await p40.evaluate(() =>
+            document.querySelector('.notepad-text').innerText.trim());
+          await p40.locator('.nr-word-btn').click();
+          await pauza(700);
+          const posleVracanja = await p40.evaluate(() =>
+            document.querySelector('.notepad-text').innerText.trim());
+          ok('beležnica · klik na reč u zaglavlju panela vraća je u stih',
+             posleZamene !== 'skloni se sa ruta' && posleVracanja === 'skloni se sa ruta',
+             `posle zamene „${posleZamene}", posle vraćanja „${posleVracanja}"`);
+        } else {
+          ok('beležnica · klik na reč u zaglavlju panela vraća je u stih', false, 'nema dugmeta u zaglavlju');
+        }
+      }
+      await ctx40.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

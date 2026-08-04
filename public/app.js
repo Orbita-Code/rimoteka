@@ -298,7 +298,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=234')
+  defsPromise = fetch('/definicije.json?v=235')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -332,7 +332,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260802f', true),
+    uzmiTekst('/reci.txt?v=20260803a', true),
     uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -409,7 +409,7 @@ async function loadExtras(){
        `izbaciJekavske()`. Ako skidanje ne uspe, skup ostaje prazan i sve radi kao
        ranije: bolje da se pokaže jedna jekavska reč nego da nestanu sve rime. */
     try{
-      const jr = await (await fetch('/jekavski.json?v=20260802b')).json();
+      const jr = await (await fetch('/jekavski.json?v=20260803a')).json();
       if(Array.isArray(jr)) JEKAVSKI = new Set(jr);
     }catch(e){ /* namerno tiho — v. komentar iznad */ }
     // Ažuriraj rangiranje sa frekvencijom.
@@ -1561,11 +1561,19 @@ function setEditorText(text){
   noteEditor.innerText = text;
 }
 
+/* Kursor je bio na KRAJU svog tekstualnog čvora (dakle na kraju reda).
+   Sam broj znakova to ne može da razlikuje: „kraj trećeg reda" i „početak
+   četvrtog reda" su isti broj znakova, jer se prelom (`<br>`) ne broji. Zato se
+   uz broj pamti i ovaj podatak. */
+let kursorNaKrajuCvora = false;
+
 // Sačuvaj poziciju kursora (broj karaktera od početka)
 function saveCursorPosition(){
   const sel = window.getSelection();
-  if(sel.rangeCount === 0) return 0;
+  if(sel.rangeCount === 0){ kursorNaKrajuCvora = false; return 0; }
   const range = sel.getRangeAt(0);
+  kursorNaKrajuCvora = range.startContainer.nodeType === 3 &&
+                       range.startOffset === range.startContainer.textContent.length;
   const preRange = range.cloneRange();
   preRange.selectNodeContents(noteEditor);
   preRange.setEnd(range.startContainer, range.startOffset);
@@ -1582,9 +1590,17 @@ function restoreCursorPosition(pos){
   let node;
   while(node = walker.nextNode()){
     const nextCount = charCount + node.textContent.length;
-    // strogo <: pozicija tačno na kraju text node-a ide u SLEDEĆI text node
-    // (offset 0) — inače bi kursor ostao ispred <br> preloma i unos bi se spajao
-    if(pos < nextCount){
+    /* PRIJAVA VLASNICE 03.08.2026: „otkucam dva slova i odmah pređe u sledeći
+       red". Uzrok je bio baš ovde. Pravilo je glasilo „strogo <", pa je kursor
+       koji stoji tačno na KRAJU reda pri svakom osvežavanju odlazio na POČETAK
+       sledećeg reda — i sledeće slovo se kucalo tamo. U njenoj pesmi je zato
+       „ kapa joj je" pukla na „kapa" i „ joj je".
+       Pravilo „strogo <" je uvedeno zbog suprotnog slučaja: pritisneš Enter,
+       kursor treba da bude ISPOD preloma, a ostajao je iznad njega.
+       Ta dva slučaja imaju isti broj znakova i razlikuju se samo po tome gde je
+       kursor stajao PRE osvežavanja — na kraju tekstualnog čvora (kraj reda)
+       ili ne (novi red posle Entera). Zato se sada gleda i to. */
+    if(pos < nextCount || (kursorNaKrajuCvora && pos === nextCount)){
       range.setStart(node, pos - charCount);
       range.collapse(true);
       sel.removeAllRanges();
@@ -2560,7 +2576,14 @@ function tiheRime(word){
    Na računaru i tabletu dugme je sakriveno CSS-om, a panel je isti kao pre. */
 function zaglavljePanelaRima(word){
   return `<h4><span class="nr-head-txt">${escapeHtml(uiTxt('Rime za'))} `
-    + `<span class="nr-word">${escapeHtml(disp(word))}</span></span>`
+    /* Sama reč iz zaglavlja je DUGME (04.08.2026, prijava vlasnice: obrisala je
+       „ruta" iz stiha, panel je i dalje pisao „Rime za ruta", a ta reč se nije
+       mogla kliknuti da se vrati). Klik je vraća u stih, isto kao klik na rimu
+       ispod. `data-nr-rec` nosi pravi zapis (bez pretvaranja u ćirilicu), jer
+       se u tekst upisuje ono što je u rečniku. */
+    + `<button type="button" class="nr-word nr-word-btn" data-nr-rec="${escapeHtml(word)}" `
+    + `title="${escapeHtml(uiTxt('klikni da vratiš ovu reč u stih'))}">`
+    + `${escapeHtml(disp(word))}</button></span>`
     /* Strelica je nacrtana, ne otkucana: znakovi ⌃ i ⌄ u većini fontova nemaju
        pravi oblik (u Rubiku ispadne kao mali ugao u ćošku) i zavise od toga koji
        je font stigao. SVG uvek izgleda isto. */
@@ -2571,6 +2594,17 @@ function zaglavljePanelaRima(word){
     + `stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h4>`;
 }
 function vezniProsirivacPanela(box){
+  const w = box.querySelector('.nr-word-btn');
+  if(w){
+    w.onclick = (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      insertRhymeAtCaret(w.dataset.nrRec || w.textContent);
+      w.classList.add('nr-word-vracena');
+      setTimeout(() => w.classList.remove('nr-word-vracena'), 320);
+    };
+    // klik na zaglavlje ne sme da oduzme fokus editoru — inače nema gde da uđe reč
+    w.onpointerdown = (ev) => ev.preventDefault();
+  }
   const b = box.querySelector('.nr-toggle');
   if(!b) return;
   const otvoren = box.classList.contains('nr-open');
@@ -2669,6 +2703,32 @@ function renderNoteRhymes(){
     // Tekst mora da opisuje ono što se STVARNO dešava: klik zamenjuje reč pod
     // kursorom, a ubacuje samo kad je kursor u praznini (nalaz V6).
     clone.title = uiTxt('klikni da uneseš reč u stih (menja reč pod kursorom)');
+    /* ZNAČENJE REČI I U BOČNOM PANELU (04.08.2026, pitanje vlasnice: „zašto
+       rime u desnoj koloni imaju samo broj slogova?").
+       Dugme ⓘ se ovde ne vraća — panel je uzak, a svaka ikonica pojede mesto
+       koje treba rimi. Umesto toga objašnjenje se pokaže samo od zadržavanja
+       kursora na reči, u istom oblačiću koji ⓘ koristi u rezultatima.
+       Zašto sa zadržavanjem od 420 ms: bez odlaganja bi oblačić iskakao dok oko
+       prelazi preko spiska, a čovek tu bira reč pogledom, ne čitanjem svake.
+       Skidanje rečnika objašnjenja kreće tek na prvi prelaz mišem, ne pri
+       učitavanju strane (v. `pripremiDefinicije`). */
+    let cekaObjasnjenje = null;
+    const rec = clone.querySelector('.word').textContent;
+    clone.addEventListener('mouseenter', () => {
+      if(jeTelefon()) return;          // na dodir panel radi drugačije — dodir ubacuje reč
+      pripremiDefinicije();
+      clearTimeout(cekaObjasnjenje);
+      cekaObjasnjenje = setTimeout(() => showDefAt(clone.dataset.w || rec, clone, false), 420);
+    });
+    clone.addEventListener('mouseleave', () => { clearTimeout(cekaObjasnjenje); hideDef(); });
+    /* Tastatura: ista stvar bez miša. Čip u panelu nije dugme, pa dobija
+       `tabindex` — inače se do objašnjenja ne može bez pokazivača. */
+    clone.tabIndex = 0;
+    clone.addEventListener('focus', () => { pripremiDefinicije(); showDefAt(clone.dataset.w || rec, clone, false); });
+    clone.addEventListener('blur', hideDef);
+    clone.addEventListener('keydown', (ev) => {
+      if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); clone.click(); }
+    });
     clone.onclick = () => {
       insertRhymeAtCaret(clone.querySelector('.word').textContent);
       clone.classList.add('chip-inserted');
@@ -2989,8 +3049,68 @@ if(trakaTabova){
   osveziMaskuTabova();
 }
 
+
+/* ── NASLOV PRATI TAB (03.08.2026) ──────────────────────────────────────────
+   Prijava vlasnice: „klikne se Rečnik, adresa se promeni, a naslov ostane sa
+   početne". Tačno tako je i bilo. Svaka strana IMA svoj `h1` u svom HTML-u —
+   `/recnik-srpskog-jezika/` ima „Rečnik srpskog jezika" i to Google i vidi kad
+   je otvori. Ali prebacivanje taba menja samo adresu (`pushState`), a naslov,
+   podnaslov i naslov kartice ostaju sa strane sa koje se krenulo.
+
+   Zato se ovde, uz tab, menja i naslovni blok. Ovo NE dira ono što Google
+   čita: on svaku stranu skida zasebno i dobija njen pravi `h1` iz HTML-a.
+   Ovo je za čoveka koji klikće po tabovima. */
+const TAB_NASLOV = {
+  rime: {
+    h1: 'Rimovanje reči na srpskom: rečnik rima, brojač slogova i karaktera, beležnica koja boji rime — sve na jednom mestu',
+    p: 'Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u beležnici — rime se tamo boje dok kucaš.',
+    naslov: 'Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka',
+  },
+  beleznica: {
+    h1: 'Pisanje pesama',
+    p: 'Piši pesmu, a rime za reč pod kursorom stoje sa strane — klikni i reč uđe u stih. Uz svaki stih piše broj slogova.',
+    naslov: 'Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka',
+  },
+  slogovi: {
+    h1: 'Brojanje slogova i karaktera',
+    p: 'Upiši ili nalepi tekst — uz svaki red stoji broj slogova, a na dnu zbir slogova, reči i znakova.',
+    naslov: 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka',
+  },
+  pretraga: {
+    h1: 'Rečnik srpskog jezika',
+    p: 'Traži reč po početku, kraju ili slovima u sredini. Uz svaku piše šta znači i koliko ima slogova.',
+    naslov: 'Rečnik srpskog jezika — pretraga reči i značenja | Rimoteka',
+  },
+  igra: {
+    h1: 'Igra rimovanja',
+    p: 'Rime na vreme, sam ili sa društvom. Koliko dug niz možeš da napraviš?',
+    naslov: 'Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
+  },
+  klasici: {
+    h1: 'Srpske pesme — klasici',
+    p: 'Poznate pesme velikih srpskih pesnika, sa brojem slogova uz svaki stih i slovom šeme rime. Klikni završnu reč stiha pa vidiš koje se reči rimuju sa njom.',
+    naslov: 'Srpske pesme — klasici sa šemom rime i brojem slogova | Rimoteka',
+  },
+  omiljene: {
+    h1: 'Omiljene reči',
+    p: 'Reči koje si sačuvao stoje ovde, na jednom mestu — pri ruci dok pišeš.',
+    naslov: 'Omiljene reči | Rimoteka',
+  },
+};
+function postaviNaslovTaba(name){
+  const t = TAB_NASLOV[name];
+  if(!t) return;
+  const h1 = document.querySelector('.hero h1');
+  const p  = document.querySelector('.hero p');
+  /* Ćirilica: naslov se upisuje kroz `disp`-ov put, isto kao sve ostalo na
+     strani, pa se pri uključenoj ćirilici ne vrati latinicom. */
+  if(h1) h1.textContent = script === 'cyr' ? toCyr(t.h1) : t.h1;
+  if(p)  p.textContent  = script === 'cyr' ? toCyr(t.p)  : t.p;
+  document.title = t.naslov;
+}
 function switchTab(name){
   oznaciAktivanTab(name);
+  postaviNaslovTaba(name);
   dovediAktivanTabUVid();
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
@@ -3337,11 +3457,20 @@ function applyScriptToUI(){
 }
 
 let toastTimer;
+/* Koliko obaveštenje stoji na ekranu. Bilo je 1,6 s za svaku poruku, pa je
+   uputstvo od dvadesetak reči („Prvo klikni na reč u pesmi…") nestajalo pre
+   nego što se pročita — prijava vlasnice 03.08.2026.
+   Sada vreme prati DUŽINU poruke: „kopirano: ljubav" i dalje odmah odlazi, a
+   uputstvo ostaje dovoljno dugo. Računica: 1,6 s najmanje, plus 45 ms po
+   znaku, najviše 6 s. Prosečno čitanje je oko 20 znakova u sekundi, pa 45 ms
+   po znaku daje otprilike dvostruko vreme od čitanja — taman da se stigne i
+   pogledati i pročitati. */
 function toast(msg){
   const t=el('toast');
   t.textContent=msg; t.classList.add('show');
   clearTimeout(toastTimer);
-  toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
+  const trajanje = Math.min(6000, Math.max(1600, 1600 + String(msg).length * 45));
+  toastTimer=setTimeout(()=>t.classList.remove('show'),trajanje);
 }
 function copy(text){
   navigator.clipboard?.writeText(text).then(()=>toast(`${uiTxt('kopirano')}: ${text}`)).catch(()=>toast(uiTxt('kopirano')));
@@ -4545,3 +4674,47 @@ document.addEventListener('pointerover', e => {
 }, { passive: true });
 
 bootstrap();
+
+/* ── NOTA U FUTERU SE NA KLIK PRETVARA U SRCE (03.08.2026) ──────────────────
+   Zahtev vlasnice. Sitnica koja se ne traži i ne objavljuje — ko klikne notu
+   na notnom sistemu iznad futera, dobije srce; ko klikne ponovo, vrati notu.
+
+   Zašto ovako, a ne sa srcem već upisanim u svaki SVG: nota se u futeru
+   pojavljuje dvanaest puta, pa bi to bilo dvanaest istih putanja u strani koje
+   99% ljudi nikad ne vidi. Ovako crtež nastaje tek pri prvom kliku na TU notu.
+
+   Srce se crta NA MESTU GLAVE note: svaka nota ima svoj `translate(x y)` (glava
+   sedi na svojoj liniji notnog sistema), pa se iste vrednosti prepisuju na
+   putanju srca — inače bi srce svima iskočilo na istoj visini, a note stoje na
+   pet različitih linija. */
+(function notaUSrce(){
+  /* Dve grupe nota: notni sistem u futeru i traka sa pozivom na saradnju iznad
+     njega. Osluškuje se `document`, pa se ne mora znati koje su tačno na strani
+     — statične strane nemaju traku, a početna ima obe. */
+  const grupe = document.querySelectorAll('.futer-notni, .saradnja-note');
+  if(!grupe.length) return;
+  const SRCE = 'M0,3.8 C-5.8,-0.4 -5.6,-5.6 -2.7,-5.6 C-1.1,-5.6 -0.3,-4.5 0,-3.7 ' +
+               'C0.3,-4.5 1.1,-5.6 2.7,-5.6 C5.6,-5.6 5.8,-0.4 0,3.8 Z';
+  grupe.forEach(grupa => grupa.addEventListener('click', (e) => {
+    const nota = e.target.closest('.nota');
+    if(!nota) return;
+    if(!nota.querySelector('.nota-srce-lik')){
+      const g = nota.querySelector('g');
+      if(!g) return;
+      /* DVA elementa, ne jedan: spoljni `g` nosi POLOŽAJ (translate na glavu
+         note), unutrašnja putanja nosi POKRET (uvećanje pri ulasku). Da su na
+         istom elementu, CSS `transform` bi pregazio `transform` iz atributa —
+         provereno: srce je odletelo u gornji levi ugao note. */
+      const omot = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      omot.setAttribute('class', 'nota-srce-omot');
+      omot.setAttribute('transform', g.getAttribute('transform') || '');
+      const put = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      put.setAttribute('class', 'nota-srce-lik');
+      put.setAttribute('d', SRCE);
+      put.setAttribute('fill', 'currentColor');
+      omot.appendChild(put);
+      nota.appendChild(omot);
+    }
+    nota.classList.toggle('u-srcu');
+  }));
+})();

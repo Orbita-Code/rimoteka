@@ -393,7 +393,7 @@ def rhyme_link(rword, target_slugs):
 # (tabovi, beležnica, igra) samo tiho ne rade.
 TOOL_HTML = """  <div class="landing-tool">
     <div class="search-row">
-      <input type="text" id="rimeInput" placeholder="upiši reč (npr. ljubav)" autocomplete="off" spellcheck="false">
+      <input type="text" id="rimeInput" placeholder="upiši reč (npr. svet)" autocomplete="off" spellcheck="false">
       <button id="rimeBtn" class="primary">Nađi rime</button>
       <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju">🎲</button>
     </div>

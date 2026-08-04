@@ -36,7 +36,7 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="style.css?v=20260803b">
+<link rel="stylesheet" href="style.css?v=20260804c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -146,15 +146,15 @@
      gde se alat završava, a gde počinje tekst o alatu (02.08.2026). -->
 <div class="alat-zona">
   <div class="hero">
-    <h1>Rimovanje reči, rečnik rima i brojač slogova na srpskom jeziku</h1>
-    <p>Unesi reč i odmah pronađi sve rime — piši pesme, tekstove i rep uz alat koji broji slogove i čuva beleške.</p>
+    <h1>Rimovanje reči na srpskom: rečnik rima, brojač slogova i karaktera, beležnica koja boji rime — sve na jednom mestu</h1>
+    <p>Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> — rime se tamo boje dok kucaš.</p>
   </div>
 
   <!-- RIME -->
   <section class="tab-panel active" id="panel-rime">
     <div class="search-row">
       <label class="sr-only" for="rimeInput">Reč za koju tražiš rime</label>
-      <input type="text" id="rimeInput" placeholder="upiši reč, npr. ljubav" autocomplete="off" spellcheck="false">
+      <input type="text" id="rimeInput" placeholder="upiši reč, npr. svet" autocomplete="off" spellcheck="false">
       <button id="rimeBtn" class="primary">Nađi rime</button>
       <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju" aria-label="Slučajna reč za inspiraciju">🎲</button>
     </div>
@@ -232,7 +232,7 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint hint-actions"><span class="hint-txt">Prostor za pisanje pesme — tekst se sam čuva na ovom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni da je ubaciš u stih. </span><button id="clearNotes" class="link-btn">obriši pesmu</button> <button id="saveRhymeList" class="link-btn">sačuvaj rime u Omiljene</button> <button id="exportRhymeList" class="link-btn">preuzmi listu</button> <button id="exportPoem" class="link-btn">preuzmi pesmu</button> <button id="printPoem" class="link-btn">štampaj / PDF</button> <button id="sharePoem" class="link-btn">podeli link</button> <button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></p>
+    <p class="hint hint-actions"><span class="hint-txt">Beležnica za pisanje pesama. Tekst se sam čuva na tvom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni na ponuđenu rimu da je ubaciš u stih. </span><span class="hint-grupa"><button id="clearNotes" class="link-btn">obriši pesmu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="saveRhymeList" class="link-btn">sačuvaj rime u Omiljene</button><button id="exportRhymeList" class="link-btn">preuzmi listu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="exportPoem" class="link-btn">preuzmi pesmu</button><button id="printPoem" class="link-btn">štampaj / PDF</button><button id="sharePoem" class="link-btn">podeli link</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></span></p>
     <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) — pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
     <div class="notepad-layout">
       <div class="notepad-main">
@@ -436,6 +436,34 @@
      odvojene tačkama. Sadržaj je ostao isti — nijedan link nije uklonjen ni
      dodat izvan postojećih strana — samo je razvrstan u kolone i dobio
      dodirne ciljeve. -->
+<!-- POZIV NA SARADNJU — TRAKA IZNAD FUTERA (03.08.2026, zahtev vlasnice)
+     Stoji POSLE alata i teksta, a pre futera: čovek je do ovde već video šta
+     Rimoteka radi, pa poziv ne smeta onome ko je došao po rimu.
+     Tekst se obraća onome ko traži promociju i NE govori ništa o posetiocima
+     sajta — oni ovaj tekst čitaju, pa bi „predstavljamo te našoj publici"
+     zvučalo kao da se njima nešto prodaje.
+     Poziv postoji SAMO ovde; iz futera je uklonjen da ista poruka ne stoji
+     dvaput jedna ispod druge.
+     Note u pozadini su ukras (`aria-hidden`) i pretvaraju se u srce na klik,
+     isto kao note na notnom sistemu ispod. -->
+<section class="saradnja-traka" aria-labelledby="saradnja-naslov">
+  <div class="saradnja-note" aria-hidden="true">
+    <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 40)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-34" width="2.2" height="35" rx="1.1"/><path d="M6.3,-34c7.4,3.6 9.8,9.2 7.1,16.1c0.7,-6.2 -1.9,-9.8 -7.1,-12.6z"/></g></svg>
+    <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 26)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-30" width="2.2" height="31" rx="1.1"/></g></svg>
+    <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 46)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-33" width="2.2" height="34" rx="1.1"/><path d="M6.3,-33c7.4,3.6 9.8,9.2 7.1,16.1c0.7,-6.2 -1.9,-9.8 -7.1,-12.6z"/></g></svg>
+    <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 30)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-32" width="2.2" height="33" rx="1.1"/></g></svg>
+    <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 44)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-35" width="2.2" height="36" rx="1.1"/><path d="M6.3,-35c7.4,3.6 9.8,9.2 7.1,16.1c0.7,-6.2 -1.9,-9.8 -7.1,-12.6z"/></g></svg>
+  </div>
+  <div class="saradnja-sadrzaj">
+    <h2 id="saradnja-naslov">Treba ti promocija knjige, kursa pisanja ili knjižare?</h2>
+    <p>Javi se za saradnju.</p>
+    <a class="saradnja-cta futer-cta" href="mailto:eureka@rimoteka.com?subject=Kontakt%20—%20Rimoteka">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 6.5L21 6"/></svg>
+      <span>Kontakt</span>
+    </a>
+  </div>
+</section>
+
 <footer class="site-footer futer-v2">
   <!-- NOTNI SISTEM — granica između strane i futera, i motiv koji nosi identitet.
        Pet linija crta CSS (`repeating-linear-gradient`) i one idu od ivice do
@@ -478,13 +506,6 @@
           <img src="logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
         </div>
         <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rečnik srpskog jezika, brojač slogova i beležnica za pisanje pesama i tekstova.</p>
-      </div>
-      <div class="futer-akcija">
-        <a class="futer-cta" href="mailto:eureka@rimoteka.com">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
-          <span>Saradnja</span>
-        </a>
-        <p class="futer-akcija-hint">Pitanje, predlog ili zajednički projekat — piši nam na <a href="mailto:eureka@rimoteka.com" class="footer-link">eureka@rimoteka.com</a></p>
       </div>
     </div>
 
@@ -609,7 +630,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260803b"></script>
+<script src="app.js?v=20260804c"></script>
 <!-- Pokret na karticama ISPOD alata. `defer` — ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>

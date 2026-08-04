@@ -4,6 +4,125 @@
 
 ---
 
+# Sesija 3–4. avgust 2026 (trinaesta) — POČETNA, REČNIK, BELEŽNICA
+
+> **Grana:** `feat/dizajn-pocetna-futer-saradnja`. Puširana je na GitHub jednom
+> (commit `d1b77abc8`); **sve posle toga stoji samo lokalno, neispuširano**.
+> **Na `main` nije spajano — produkcija je netaknuta i nema ništa od ovog posla.**
+> Pre-deploy test: **539/539 prolazi.**
+
+## ⛔ PRVO SLEDEĆOJ SESIJI
+
+1. **Ništa nije objavljeno.** Vlasnica je više puta pitana za spajanje na `main` i
+   nije odgovorila potvrdno — **ne spajati bez njenog izričitog „da"** (globalno
+   pravilo: jedno odobrenje = jedan push).
+2. **Neispuširanih izmena ima mnogo** (v. `git status`). Pre bilo čega: pustiti
+   `node test/predeploy.mjs` i tek onda commit.
+3. **Predlozi za H1 i podnaslove svih tabova su napisani, a NISU upisani** —
+   v. odeljak „Tekstovi koji čekaju odluku". Upisani su samo početna i po-tab
+   naslovi u `app.js` (`TAB_NASLOV`).
+4. **Regeneracija 2.000 strana** je urađena danas (`python3 build/gen_pages.py`),
+   ali posle nje su menjani `index.html` i `style.css` — ako se dira generator,
+   pustiti je ponovo.
+
+## Šta je urađeno
+
+### Izgled početne strane (zahtev vlasnice: „hoću da ljudi kažu wow")
+| Šta | Kako |
+|---|---|
+| polje za unos se stapalo sa pozadinom | uzrok: `--field-line` je u svetloj temi bio `#fff`, a strana bela. Uvedena `--polje-okvir`, plus prsten pri fokusu |
+| hero bez težine | naslov, polje i filteri stoje u `.alat-zona`, na blagom prelivu koji se gasi tamo gde alat prestaje |
+| tekst ispod alata nabijen | razmak, linija i tri saveta kao kartice |
+| nigde separatora | odeljak sa tekstom i pitanjima ima svoju podlogu i liniju; kartice pitanja dobile vidljiv okvir (bila je bela ivica na beloj kartici) |
+| prebacivač pisma po sredini | pomeren udesno, uz mesec |
+| podstrane bele, početna tonirana | `.landing-tool` dobio isti preliv kao `.alat-zona` |
+
+**Traka „Kontakt" iznad futera** — poziv na saradnju iseljen iz futera (ista poruka
+je stajala dvaput), sada je traka sa notama koje se i tu pretvaraju u srce na klik.
+Dugme se zvalo „Saradnja", preimenovano u **„Kontakt"** na zahtev vlasnice.
+
+**Sačuvana reč = puna ljubičasta nota** umesto punog srca, i u pilulama i u traci
+sa radnjama na telefonu.
+
+### Rečnik
+| Šta | Broj |
+|---|---|
+| provučeno kroz Rečnik Matice srpske | 51.452 odrednice; 24.549 smo već imali |
+| dodato (potvrđeno i u Matici i u srLex-u) | 4.957 |
+| dodato sa spiska vlasnice, sa svim oblicima | 386 reči → 1.534 oblika |
+| tematski krugovi (planete, praznici, države, gradovi, biblijski pojmovi, aparati, posuđe, saobraćaj, nauke) | 412 pojmova |
+| obrisano kao hrvatsko | 99 |
+| sakriveno kao ijekavica (`jekavski.json` 850 → 991) | 141 |
+| **obrisano jer nema objašnjenje** | **3.964** |
+
+**Nijedna reč u rečniku više nema prazno objašnjenje** (provereno programski: 0).
+Pravilo je bilo prekršeno istog dana kad su reči dodate — 7.166 reči bez značenja;
+324 objašnjenja napisana ručno, 2.891 izvedeno iz osnovne reči, ostalo obrisano.
+Spiskovi za odluku vlasnice: `AUDIT/MATICA-fali/` (01–07).
+
+**Vlastita imena idu velikim slovom** (`Beograd`, `Saturn`, `Isus`) — razlog je
+beležnica: klik na rimu ubacuje reč pravo u stih. Poređenje u kodu ide preko malih
+slova (`MALE[]`), pa rimovanje, pretraga i zabrane rade kao pre.
+
+### Beležnica
+| Prijava vlasnice | Uzrok | Popravka |
+|---|---|---|
+| „otkucam dva slova i odmah pređe u sledeći red" | `restoreCursorPosition` je kursor sa KRAJA reda gurao na POČETAK sledećeg | pamti se i da li je kursor bio na kraju čvora (`kursorNaKrajuCvora`) |
+| rime sa strane imaju samo broj slogova | ⓘ se briše iz klonova (klon nema osluškivače) | značenje se pokazuje zadržavanjem kursora 420 ms, plus fokusom sa tastature |
+| „ne mogu da kliknem reč u zaglavlju panela" | reč je bila običan tekst | sada je dugme — klik je vraća u stih |
+| radnje deluju kao jedna rečenica | podvučeni linkovi u nizu | pilule, u četiri grupe razdvojene crtom; „obriši pesmu" crvena |
+| obaveštenje nestane pre nego što se pročita | uvek 1,6 s | vreme prati dužinu poruke (1,6–6 s); poruka od 80 znakova sada stoji 5,2 s |
+| uzak prostor za pisanje na telefonu | 24 znaka u redu | papir ide od ivice do ivice, uži brojač → 32 znaka |
+
+### Ostalo
+- **Naslov prati tab**: klik na „Rečnik" menja adresu *i* `h1` i naslov kartice;
+  „Nazad" vraća oboje. Google i dalje vidi pravi `h1` svake strane iz njenog HTML-a.
+- Popravljeno testom otkriveno: šire rime nisu spajale „sunce" i „srce"; duga reč se
+  sekla na tri tačke; red proze bio 51 znak umesto 65–75; lažne rime
+  „sunce — lonce, klince" na strani za decu; zarez ispred „i" u generatoru.
+- Test **518 → 539 provera**.
+
+## Tekstovi koji čekaju odluku vlasnice
+
+Predlozi za H1 i podnaslov svake strane napisani su i **nisu upisani** (osim
+početne). Vlasnica je odbila dve formulacije:
+- „Klikni završnu reč stiha da vidiš **čime** se sve rimuje" → traži
+  „**sa čime**"; upisano je zaobilazno: „…pa vidiš koje se reči rimuju sa njom".
+- „a pesmu možeš **tu** i da napišeš" → nejasno gde; sada stoji link na beležnicu.
+
+| Strana | H1 | Podnaslov |
+|---|---|---|
+| Početna | Rimovanje reči na srpskom: rečnik rima, brojač slogova i karaktera, beležnica koja boji rime — sve na jednom mestu | **upisano** |
+| Pisanje pesama | Pisanje pesama — beležnica koja boji rime | Piši pesmu, a rime se boje same. Uz svaki stih stoji broj slogova i slovo šeme rime, a rime za reč pod kursorom čekaju sa strane — klikni i reč uđe u stih. |
+| Brojač slogova | Brojanje slogova i karaktera | Nalepi stih, pesmu ili poruku — uz svaki red stoji broj slogova, a na dnu zbir slogova, reči i znakova, sa razmacima i bez njih. |
+| Rečnik | Rečnik srpskog jezika | Traži reč po početku, kraju ili slovima u sredini. Uz svaku piše šta znači i koliko ima slogova. |
+| Igra | Igra rimovanja | Dobiješ reč i vreme, a ti tražiš rimu. Igra se sama ili sa društvom, a niz tačnih odgovora nosi više poena. |
+| Klasici | Srpske pesme — klasici | Poznate pesme velikih srpskih pesnika, sa brojem slogova uz svaki stih i slovom šeme rime. |
+| Omiljene | Omiljene reči | Reči koje si sačuvao stoje ovde, na jednom mestu — pri ruci dok pišeš. |
+
+## Otvoreno
+
+| Šta | Ko odlučuje |
+|---|---|
+| spajanje na `main` i objava | vlasnica |
+| 521 reč koja stoji malim slovom, a jezički korpus je zna samo kao ime (`AUDIT/MATICA-fali/06`) | vlasnica — ima i pravih imena i običnih reči |
+| 3.964 obrisane reči bez objašnjenja (`07`) — vraćaju se kad im se napiše značenje | vlasnica |
+| 20.021 reč koju Matica ima a srLex ne potvrđuje (`01b`) — pregled se nastavlja **od reči na „BO"** | vlasnica |
+| 273 zastarele reči (`02`) i 1.561 regionalna (`03`) | vlasnica |
+| P11 — hub `/rime-za/` je zid od 2.000 linkova | vlasnica |
+| `<title>` i opis početne zamrznuti do **13.08.2026** (merenje u Search Console-u) | ne dirati do tada |
+
+## Kako se radilo (za sledeću sesiju)
+
+- Vlasnica **ne želi da se posao prepušta agentima** dok ona gleda — traži da vidi
+  svaku izmenu koda u razgovoru.
+- **Ne poravnavati ništa ulevo bez izričitog zahteva.** Jednom je prijava baga
+  protumačena kao zahtev za poravnanje i tabovi su pomereni ulevo — vraćeno.
+- Kad prijavi jezičku grešku, **ona je u pravu**; oblik se menja bez rasprave.
+- Svaka popravka dobija proveru u `test/predeploy.mjs` istog trenutka.
+
+---
+
 
 # Sesija 2. avgust 2026 (dvanaesta, drugi deo) — FUTER IZABRAN, NAVIGACIJA, BRZI REŽIM
 

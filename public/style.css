@@ -35,6 +35,12 @@
   --traka-bg:#faf8ff;           /* blaga podloga odeljka sa tekstom */
   --zona-a:#f1ecff;             /* vrh zone alata */
   --zona-b:#f8f6ff;
+  /* Traka sa pozivom na saradnju. U tamnoj temi mora da POTAMNI, ne da
+     posvetli — inače je najsvetlije polje na tamnoj strani i vuče oko jače
+     nego sam alat. Belo slovo na #4a2fb8 = 8,79; na #2f2668 (tamna) = 12,4. */
+  --traka-a:#6b4fd8;
+  --traka-b:#5566d8;
+  --traka-slovo:#fff;
   --menu-bg:#fff;
   --menu-hover:#f6f0fc;
   --card-bg:#fff;      /* male bele kutije: tabela, filter slogova, značka */
@@ -69,7 +75,7 @@
   --fill-info-a:#1f74c4;     /* aktivan filter slogova      = 4,82 */
   --fill-info-b:#0e5fae;     /*                             = 6,43 */
   --on-info:#fff;
-  /* Natpis u praznom polju („upiši reč, npr. ljubav"). Išao je kroz `--muted`,
+  /* Natpis u praznom polju („upiši reč, npr. svet"). Išao je kroz `--muted`,
      koji u tamnoj temi daje 4,07 — ispod granice. Sada ima svoju promenljivu. */
   --field-hint:#756e94;      /* na belom polju = 4,76 */
   /* ── FUTER ───────────────────────────────────────────────────────────────
@@ -178,6 +184,9 @@ body.dark-mode{
   --traka-bg:#171327;
   --zona-a:#1d1832;
   --zona-b:#171327;
+  --traka-a:#3a2c7e;
+  --traka-b:#2f2668;
+  --traka-slovo:#fff;
   --menu-bg:#241f38;
   --menu-hover:#3a3158;
   --card-bg:#241f38;
@@ -914,6 +923,18 @@ body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 .note-rhymes:empty{display:none}
 .note-rhymes h4{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:0 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .note-rhymes .nr-word{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;color:var(--rose-deep)}
+/* Reč u zaglavlju panela je dugme — vraća tu reč u stih. Izgleda kao tekst dok
+   je ne dodirneš, jer je pre svega naslov; podvlačenje tačkicama je jedini
+   nagoveštaj da se klikće, a pun okvir dolazi tek na prelaz mišem. */
+.note-rhymes .nr-word-btn{
+  border:0;background:transparent;padding:.05rem .3rem;margin:0 -.3rem;
+  font:inherit;font-weight:700;color:var(--rose-deep);cursor:pointer;
+  border-radius:8px;text-decoration:underline dotted;text-underline-offset:3px;
+  transition:background .15s,color .15s;
+}
+.note-rhymes .nr-word-btn:hover,
+.note-rhymes .nr-word-btn:focus-visible{background:var(--menu-hover);text-decoration:none}
+.note-rhymes .nr-word-vracena{animation:chipInserted .32s ease}
 .note-rhymes .results{margin-top:.5rem}
 .note-rhymes .nr-empty{color:var(--ink-soft);font-style:italic;font-size:.92rem}
 
@@ -1045,6 +1066,53 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 body.dark-mode .note-meter{background:#1e1a2e;border-color:var(--line)}
 
 .link-btn{border:0;background:transparent;color:var(--rose-deep);cursor:pointer;font:inherit;font-weight:700;text-decoration:underline;padding:0;margin:0 .15rem}
+
+/* ── TRAKA RADNJI U BELEŽNICI — PILULE I NA RAČUNARU (03.08.2026) ──────────
+   Prijava vlasnice: „obriši pesmu, sačuvaj rime u omiljene, preuzmi listu,
+   preuzmi pesmu — deluje kao jedna rečenica bez tačke i zareza". Tako je i
+   bilo: sedam podvučenih reči u nizu, sa razmakom od 2 px, odmah iza pasusa
+   koji ih objašnjava. Na telefonu su pilule postojale od 02.08.2026, na
+   računaru nisu — sad su svuda iste.
+
+   Tri stvari koje to razdvajaju:
+     · objašnjenje ide u SVOJ red (`flex-basis:100%`), radnje u svoj;
+     · svaka radnja je pilula sa svojom ivicom, pa se vidi gde počinje i staje;
+     · srodne radnje stoje u grupi, a grupe razdvaja tanka uspravna crta —
+       brisanje posebno, rime posebno, pesma posebno, prikaz posebno. */
+.hint-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}
+.hint-actions .hint-txt{flex:1 1 100%;margin:0 0 .6rem}
+.hint-grupa{display:inline-flex;flex-wrap:wrap;align-items:center;gap:.35rem}
+.hint-sep{width:1px;align-self:stretch;min-height:1.4rem;background:var(--traka-okvir);margin:0 .25rem}
+.hint .link-btn,
+.poem-foot .link-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:36px;padding:0 .8rem;margin:0;
+  text-decoration:none;border-radius:12px;
+  background:var(--card-bg);border:1px solid var(--traka-okvir);
+  color:var(--ink-soft);font-size:.86rem;font-weight:600;
+  box-shadow:0 1px 2px rgba(90,63,208,.05);white-space:nowrap;
+  transition:border-color .15s,background .15s,color .15s;
+}
+.hint .link-btn:hover,
+.poem-foot .link-btn:hover{border-color:var(--lavender);color:var(--lavender-deep);background:var(--menu-hover)}
+/* Dve radnje brišu tuđi rad — pesmu i spisak omiljenih, i zato stoje u crvenom
+   stalno, ne tek na prelaz mišem (odluka vlasnice 03.08.2026, posle probe sa
+   neutralnim izgledom). U nizu jednakih pilula se inače lako promaše. */
+.hint #clearNotes.link-btn,
+.hint #clearFavs.link-btn{color:#b3372a;border-color:rgba(179,55,42,.32)}
+body.dark-mode .hint #clearNotes.link-btn,
+body.dark-mode .hint #clearFavs.link-btn{color:#ff9182;border-color:rgba(255,145,130,.38)}
+.hint #clearNotes.link-btn:hover,
+.hint #clearFavs.link-btn:hover{color:#8f2b21;border-color:rgba(179,55,42,.6);background:rgba(179,55,42,.06)}
+/* U tamnoj temi tamnocrvena pada na 2,63 naspram tamne pilule — nečitko.
+   Svetlija crvena na istoj podlozi daje 7,3. */
+body.dark-mode .hint #clearNotes.link-btn:hover,
+body.dark-mode .hint #clearFavs.link-btn:hover{color:#ffb3a8;border-color:rgba(255,145,130,.7);background:rgba(255,145,130,.12)}
+/* Metar je jedina radnja koja ima uključeno i isključeno stanje. */
+.hint #toggleMeter.link-btn[aria-pressed="true"]{
+  background:linear-gradient(95deg,var(--lavender),var(--rose));
+  color:#fff;border-color:transparent;
+}
 
 /* Tekst o alatu ispod tabova važi za tab „Rime". Na ostalim tabovima se sklanja
    da ne priča o rimovanju dok korisnik gleda igru ili klasike. */
@@ -1239,6 +1307,93 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   max-width:calc(var(--sirina-sadrzaj) + 3rem);margin:0 auto;padding:0 1.5rem;
 }
 .futer-v2 .nota{flex:0 0 auto;color:var(--futer-nota)}
+
+/* ══ TRAKA SA POZIVOM NA SARADNJU (03.08.2026) ═══════════════════════════════
+   Stoji između sadržaja i futera i namerno je JEDINO obojeno polje na strani —
+   sve ostalo je belo ili jedva tonirano, pa oko na nju padne samo od sebe, bez
+   povećavanja slova i bez uzvičnika.
+
+   Note u pozadini su isti crtež kao na notnom sistemu u futeru, samo krupnije i
+   prigušene (opacity .18) — one nose motiv, a ne pažnju. Ne pomeraju raspored:
+   stoje u sloju `position:absolute` iznad podloge, ispod teksta.
+   Boje: preliv `--fill-accent-a → --fill-primary-a` je isti par iz kog su
+   napravljeni aktivan tab i dugme „Nađi rime", pa traka pripada sajtu, a ne
+   deluje kao tuđ baner. Belo slovo na najsvetlijem kraju preliva ima 4,91. */
+.saradnja-traka{
+  position:relative;overflow:hidden;isolation:isolate;
+  padding:2.6rem clamp(1rem,4vw,2.6rem);
+  background:linear-gradient(105deg,var(--traka-a),var(--traka-b));
+  color:var(--traka-slovo);
+}
+.saradnja-note{
+  position:absolute;inset:0;z-index:-1;
+  display:flex;align-items:center;justify-content:space-around;
+  opacity:.18;color:#fff;pointer-events:none;
+}
+/* Note su ukras, ali se KLIKĆU (pretvaraju se u srce), pa im se vraća odziv na
+   miš — samo njima, ne celom sloju, da tekst i dugme ostanu na miru. */
+.saradnja-note .nota{pointer-events:auto;transform:scale(1.6)}
+.saradnja-note .nota:nth-child(2){transform:scale(1.15) translateY(-8px)}
+.saradnja-note .nota:nth-child(4){transform:scale(1.3) translateY(10px)}
+/* `pointer-events:none` na omotaču, `auto` na deci: sadržaj je širok koliko i
+   traka, pa je svojim praznim delom pokrivao note ispod sebe i one se nisu
+   mogle kliknuti. Ovako klik prolazi kroz prazninu do nota, a naslov, tekst i
+   dugme se ponašaju normalno. */
+.saradnja-sadrzaj{
+  max-width:var(--sirina-sadrzaj);margin:0 auto;text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+  pointer-events:none;
+}
+.saradnja-sadrzaj > *{pointer-events:auto}
+.saradnja-sadrzaj h2{
+  margin:0;font-size:clamp(1.1rem,2.6vw,1.45rem);font-weight:700;color:var(--traka-slovo);
+  line-height:1.3;max-width:42rem;text-wrap:balance;
+}
+.saradnja-sadrzaj p{margin:0 0 .6rem;font-size:1rem;font-weight:500;color:var(--traka-slovo);opacity:.92}
+/* Dugme je OBRNUTO od onog u futeru: belo na boji, jer je podloga sada obojena.
+   Izmereno: `--fill-accent-b` (#4a2fb8) na belom = 8,79. */
+/* Podloga dugmeta je BELA u obe teme, pa i slovo mora da bude tamno u obe.
+   `--fill-accent-b` u tamnoj temi posvetli (#a48cf5) i na belom daje 2,75 —
+   nečitko. Zato je ovde tvrdo upisana tamna boja: #3b2a9c na belom = 9,4. */
+.saradnja-traka a.saradnja-cta{
+  background:#fff;background-image:none;color:#3b2a9c;border:0;
+  box-shadow:0 6px 18px rgba(0,0,0,.18);
+}
+.saradnja-traka a.saradnja-cta:hover{background:#fff;transform:translateY(-2px)}
+@media(max-width:560px){
+  .saradnja-traka{padding:2rem 1rem}
+  .saradnja-note .nota{transform:scale(1.15)}
+  .saradnja-sadrzaj .saradnja-cta{width:100%;max-width:22rem}
+}
+
+/* ── NOTA SE NA KLIK PRETVARA U SRCE (03.08.2026, zahtev vlasnice) ─────────
+   Mala nagrada za radoznalog: klikneš notu na notnom sistemu i ona postane
+   srce; klikneš ponovo i vrati se u notu. Nije dugme i ne radi ništa osim
+   toga — zato ostaje `aria-hidden` ukras, a pokazivač miša je jedini nagoveštaj.
+   Ni jedan podatak ne zavisi od ovoga, pa se ništa ne gubi ako se ne primeti.
+   Crtež srca ubacuje `app.js` tek pri prvom kliku, na mesto glave note. */
+.futer-v2 .nota,
+.saradnja-note .nota{cursor:pointer;transition:color .2s}
+.futer-v2 .nota:hover,
+.saradnja-note .nota:hover{color:var(--rose-deep)}
+/* `:not(.nota-srce-omot)` — omotač srca je TAKOĐE `g` unutar iste note, pa bi
+   ga bez ovoga sakrilo isto pravilo koje sakriva crtež note. */
+.futer-v2 .nota > g:not(.nota-srce-omot),
+.saradnja-note .nota > g:not(.nota-srce-omot){transition:opacity .18s ease, transform .3s cubic-bezier(.34,1.56,.64,1);transform-origin:center}
+.futer-v2 .nota .nota-srce-lik,
+.saradnja-note .nota .nota-srce-lik{
+  opacity:0;transform:scale(.3);transform-box:fill-box;transform-origin:center;
+  color:var(--rose-deep);
+  transition:opacity .18s ease, transform .34s cubic-bezier(.34,1.56,.64,1);
+}
+.futer-v2 .nota.u-srcu > g:not(.nota-srce-omot),
+.saradnja-note .nota.u-srcu > g:not(.nota-srce-omot){opacity:0;transform:scale(.4)}
+.futer-v2 .nota.u-srcu .nota-srce-lik,
+.saradnja-note .nota.u-srcu .nota-srce-lik{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .futer-v2 .nota > g,
+  .futer-v2 .nota .nota-srce-lik{transition:none;transform:none}
+}
 /* Taktne crte: tanka na početku, dvostruka (tanka + debela) na kraju — tako
    se u notama piše kraj pesme. Rađene kao pseudo-elementi da bi ih
    `space-between` gurnuo na same ivice sadržaja i uokvirio note, a da pritom
@@ -1296,13 +1451,22 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .futer-glava-tekst{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:.45rem}
 .futer-v2 .footer-desc{margin:0;max-width:27rem}   /* rem, ne `ch` — v. napomenu uz .seo-blok-telo p */
 .futer-v2 .futer-akcija{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;max-width:26rem}
+/* Poziv stoji IZNAD dugmeta i jači je od adrese ispod njega — on je razlog
+   zbog kog neko klikne, adresa je samo način. */
+/* Svaka rečenica u svom redu. Bez ovoga je prelom padao gde stigne — „…ili
+   knjižare? Javi" u prvom redu, „se za saradnju." u drugom, pa se rečenica
+   lomila usred sebe. `span` kao blok znači da prelom bira pisac, ne širina. */
+.futer-v2 .futer-akcija-poziv{margin:0;font-size:.92rem;font-weight:600;color:var(--futer-tekst,var(--futer-sitno));text-align:right;line-height:1.5}
+.futer-v2 .futer-akcija-poziv span{display:block}
 .futer-v2 .futer-akcija-hint{margin:0;font-size:.82rem;font-weight:500;color:var(--futer-sitno);text-align:right;line-height:1.5}
 
 /* Dugme „Saradnja" — jedina jaka boja u futeru, pa je oku odmah težište.
    Boje idu kroz par `--fill-accent-*` / `--on-accent`, koji je već izmeren u
    obe teme (5,62 i 9,08; granica 4,5). Visina 48 px > 44 px, koliko traži
    dodir prstom. */
-.futer-v2 .futer-cta{
+/* Isti oblik dugmeta i u futeru i u traci sa pozivom — jedan jezik na strani. */
+.futer-v2 .futer-cta,
+.saradnja-traka .saradnja-cta{
   display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
   min-height:48px;padding:.7rem 1.6rem;border-radius:999px;
   background:linear-gradient(120deg,var(--fill-accent-a),var(--fill-accent-b));
@@ -1684,13 +1848,17 @@ main.landing{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1rem
 .crumbs a:hover{text-decoration:underline}
 .landing-h1{font-size:clamp(1.7rem,4.5vw,2.4rem);font-weight:600;color:var(--lavender-deep);margin:.2rem 0 .5rem;line-height:1.2}
 /* Živi alat za rime na tematskoj strani (/rimovanje-reci/) */
+/* Alat na podstranama stoji na ISTOJ podlozi kao na početnoj (`.alat-zona`).
+   Prijava vlasnice 03.08.2026: „strana mi je bela, a na ostalim tabovima ima
+   istu pozadinu kao početna". Tačno — preliv je 03.08. dodat samo početnoj, pa
+   je `/pisanje-pesama/` ostala bela i strane su izgledale kao dva sajta. */
 .landing-tool{
-  background:#fff;border-radius:20px;padding:1.3rem;margin:.2rem 0 1.4rem;
-  box-shadow:var(--shadow-sm);
+  background:linear-gradient(180deg,var(--zona-a) 0%,var(--zona-b) 60%,transparent 100%);
+  border-radius:20px;padding:1.3rem;margin:.2rem 0 1.4rem;
 }
 .landing-tool .results{margin-top:.9rem}
 .landing-tool .results:empty{margin-top:0}
-body.dark-mode .landing-tool{background:#1e1a2e}
+body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,var(--zona-b) 60%,transparent 100%)}
 
 .landing-lead{color:var(--ink-soft);font-size:1rem;max-width:720px;margin:0 0 1rem}
 .landing-meta{color:var(--muted);font-size:.88rem;margin:-.3rem 0 .9rem;font-weight:600}
@@ -1838,7 +2006,8 @@ body.dark-mode .landing-tool{background:#1e1a2e}
      ostajalo 250–292 px). Na dodir se stih ne prevlači (hvataljka se zato
      krije SAMO ovde — na širim ekranima ostaje), a gutter se sužava na
      slovo šeme + broj slogova, koji su suština. */
-  .gutter{font-size:1rem;line-height:1.8;width:2.8rem;flex-basis:2.8rem}
+  .gutter{font-size:1rem;line-height:1.8;width:2.3rem;flex-basis:2.3rem}
+  .gutter-row{padding:0 .25rem 0 .15rem;gap:.12rem}
   .gutter-row{padding:0 .25rem 0 .2rem;gap:.12rem}
   .gutter-row .g-drag{display:none}
   .gutter-row .g-letter{flex-basis:.85rem}
@@ -1883,7 +2052,8 @@ body.dark-mode .landing-tool{background:#1e1a2e}
   .futer-v2 .futer-glava-tekst{flex:0 0 auto;align-items:center;width:100%}
   .futer-v2 .footer-desc{max-width:20rem}   /* rem, ne `ch` */
   .futer-v2 .futer-akcija{align-items:center;width:100%;max-width:none}
-  .futer-v2 .futer-akcija-hint{text-align:center}
+  .futer-v2 .futer-akcija-hint,
+  .futer-v2 .futer-akcija-poziv{text-align:center}
   .futer-v2 .futer-cta{width:100%;max-width:22rem}
   .futer-v2 .futer-dno{align-items:center;text-align:center}
   .futer-v2 .futer-dno-red{justify-content:center;gap:.2rem .8rem}
@@ -2393,7 +2563,20 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
     color:var(--muted);
   }
   .notepad .gutter-row .g-letter{color:var(--lavender-deep)}
-  .notepad-text{padding:1rem .9rem}
+  /* Prostor za pisanje na telefonu — svaki piksel se broji.
+     Izmereno 03.08.2026 na 390 px: u red je stajalo 24 znaka, pa se stih
+     prelamao već posle četiri reči i delovalo je kao da alat sam prebacuje u
+     novi red. Uzrok: 45 px brojača + 29 px unutrašnjeg odstojanja od 332 px
+     koliko kolona uopšte ima. Sa užim odstojanjem i užim brojačem u red staje
+     oko 30 znakova. Brojanje se ne menja — jedan stih je i dalje jedan red u
+     brojaču, i kad se vizuelno prelomi (provereno: stih od 15 slogova daje
+     jedan red, ne dva). */
+  .notepad-text{padding:1rem .5rem}
+  /* Beležnica ide od ivice do ivice ekrana. Na telefonu su bočna odstojanja
+     strane (`--odstojanje-okvir`) i zone alata (.8rem) uzimala 58 px od 390 —
+     a to je petina reda u kome se piše pesma. Papir sme da dodirne ivicu, on
+     je sam sebi okvir; sve ostalo na strani ostaje uvučeno. */
+  .notepad{margin-inline:calc(-1 * (var(--odstojanje-okvir) + .8rem));border-radius:0}
 
   /* Traka radnji — pilule umesto podvučenih linkova. Sedam podvučenih plavih
      reči u nizu ne izgleda kao alat nego kao futer. Redosled i tekst ostaju

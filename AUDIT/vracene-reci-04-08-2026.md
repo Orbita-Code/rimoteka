@@ -461,6 +461,7 @@ ostalo… možeš da izbrišeš".
 Usputna popravka: def od `Filipini` je bila „Država ostrvska država…" → „Ostrvska
 država u jugoistočnoj Aziji."
 
-Otvoreno: `čangrizav*` familija (5 oblika) stoji u rečniku — vlasnica je rekla da
-je đ oblik pravilan; č familiju nije eksplicitno naredila brisati. Kandidat za
-brisanje ili za proveru.
+Zatvoreno (04.08.2026): vlasnica potvrdila — pravilno je `džangrizav`. Pet
+č-oblika (`čangrizav`, `čangrizava`, `čangrizave`, `čangrizavi`, `čangrizavo`)
+izbačeno iz rečnika; njihovi đ-ekvivalenti već postoje, a dodat je i
+`džangrizavo` (jedini je falio). `džangrizalo` i `džangrizati` već postoje.

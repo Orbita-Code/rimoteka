@@ -27,8 +27,8 @@
    popizditi, makedonski oblici, množine gradova, artefakti i sve nespomenuto iz
    grupe 268 (njena rečenica: „ostalo možeš da izbrišeš"). Važno za tekstove:
    tvrdnja „psovke i vulgarnosti su izostavljene uvek" VIŠE NE VAŽI — svuda stoji
-   formulacija o dečjem režimu. Otvoreno: `čangrizav*` familija (5 oblika) stoji
-   u rečniku, a vlasnica je rekla da je đ oblik pravilan — kandidat za brisanje.
+   formulacija o dečjem režimu. Zatvoreno: `čangrizav*` (5 oblika) izbačeni,
+   pravilni su `džangrizav*` — dopunjen jedini falio, `džangrizavo`.
 3. **Merenje 13.08. i dalje važi** — `<title>` i `meta description` početne su
    NETAKNUTI (meri se CTR za `recnik rima`, 204 prikaza / 0 klikova). H1 početne
    jeste promenjen (vlasnica je odbila čekanje) — ne utiče na SERP prikaz, merenje

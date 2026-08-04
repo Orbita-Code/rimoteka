@@ -737,7 +737,10 @@ main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:.6rem var(--
    naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
    Izmereno 30.07.2026; ako se font ili tekst naslova promene, PONOVO IZMERITI. */
 .hero h1{font-size:clamp(1.45rem,4vw,2.05rem);font-weight:700;color:var(--lavender-deep);margin:0 0 .5rem;line-height:1.2;letter-spacing:-.01em}
-.hero p{color:var(--ink-soft);font-size:1.02rem;margin:0 auto;max-width:var(--mera-proze)}
+/* Podnaslov taba staje u JEDAN red na širokom ekranu (04.08.2026, nalaz
+   vlasnice): mera proze (40rem) lomila je i tekst od ~115 znakova na dva
+   reda. Okvir strane (1360px) i dalje drži granicu, pa red ne pobegne. */
+.hero p{color:var(--ink-soft);font-size:1.02rem;margin:0 auto;max-width:none}
 .tab-panel{display:none;animation:fade .3s ease}
 .tab-panel.active{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -1007,11 +1010,15 @@ body.dark-mode .syl-box{border-color:var(--line)}
 /* prored nasleđen od reda (JS ga postavlja na prored editora) — bez ovoga
    line-height:1.95 se preračunava po veličini slova i sadržaj „padne" niže */
 .gutter-row>span{line-height:inherit}
+/* Hvataljka za premeštanje stiha je UVEK vidljiva (04.08.2026, nalaz vlasnice):
+   do tada je imala opacity:0 i pojavljivala se tek kad miš slučajno pređe preko
+   beležnice — pa niko nije otkrivao funkciju koju konkurencija nema. Sada je
+   podloga uvek na .5, a hover je samo pojačava. */
 .gutter-row .g-drag{
-  flex:0 0 .95rem;color:var(--muted);cursor:grab;opacity:0;transition:opacity .15s ease;
+  flex:0 0 .95rem;color:var(--muted);cursor:grab;opacity:.5;transition:opacity .15s ease;
   font-size:.95rem;text-align:center;touch-action:none;
 }
-.notepad:hover .gutter-row .g-drag,.notepad:focus-within .gutter-row .g-drag{opacity:.55}
+.notepad:hover .gutter-row .g-drag,.notepad:focus-within .gutter-row .g-drag{opacity:.75}
 .gutter-row .g-drag:hover{opacity:1;color:var(--rose-deep)}
 .gutter-row.dragging .g-drag{cursor:grabbing;opacity:1;color:var(--rose-deep)}
 .gutter-row.dragging{background:rgba(155,89,182,.12);border-radius:6px}
@@ -1335,6 +1342,29 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .saradnja-note .nota{pointer-events:auto;transform:scale(1.6)}
 .saradnja-note .nota:nth-child(2){transform:scale(1.15) translateY(-8px)}
 .saradnja-note .nota:nth-child(4){transform:scale(1.3) translateY(10px)}
+/* Plutanje nota (04.08.2026, zahtev vlasnice): note u traci lagano plove.
+   Ide preko SAMOSTALNOG svojstva `translate`, ne `transform` — tako se ne
+   sudara ni sa osnovnom postavkom svake note (`transform: scale…` iznad) ni
+   sa pretvaranjem u srce na klik (app.js). Različite dužine i negativne
+   faze da ne plutaju u isti mah. */
+@keyframes nota-pluta{
+  0%,100%{translate:0 0;rotate:-2deg}
+  50%{translate:5px -15px;rotate:3deg}
+}
+.saradnja-note .nota{animation:nota-pluta 4.8s ease-in-out infinite}
+.saradnja-note .nota:nth-child(2){animation-duration:5.7s;animation-delay:-1.3s}
+.saradnja-note .nota:nth-child(3){animation-duration:5.2s;animation-delay:-2.6s}
+.saradnja-note .nota:nth-child(4){animation-duration:6.1s;animation-delay:-.7s}
+.saradnja-note .nota:nth-child(5){animation-duration:5s;animation-delay:-3.1s}
+/* Srednja nota pada tačno iza naslova i dugmeta (04.08.2026, nalaz vlasnice:
+   „smeta"). Fiksno pomeranje u stranu ne rešava — pozicija u procentima zavisi
+   od širine ekrana, pa bi na drugoj širini naletela na susednu notu ili opet
+   na tekst. Zato srednji slot ostaje prazan: `visibility` (ne `display`) čuva
+   raspored preostale četiri, tekst dobija mirnu zonu, a note je obramaju. */
+.saradnja-note .nota:nth-child(3){visibility:hidden}
+@media(prefers-reduced-motion:reduce){
+  .saradnja-note .nota{animation:none}
+}
 /* `pointer-events:none` na omotaču, `auto` na deci: sadržaj je širok koliko i
    traka, pa je svojim praznim delom pokrivao note ispod sebe i one se nisu
    mogle kliknuti. Ovako klik prolazi kroz prazninu do nota, a naslov, tekst i
@@ -1453,11 +1483,9 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .futer-akcija{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;max-width:26rem}
 /* Poziv stoji IZNAD dugmeta i jači je od adrese ispod njega — on je razlog
    zbog kog neko klikne, adresa je samo način. */
-/* Svaka rečenica u svom redu. Bez ovoga je prelom padao gde stigne — „…ili
-   knjižare? Javi" u prvom redu, „se za saradnju." u drugom, pa se rečenica
-   lomila usred sebe. `span` kao blok znači da prelom bira pisac, ne širina. */
-.futer-v2 .futer-akcija-poziv{margin:0;font-size:.92rem;font-weight:600;color:var(--futer-tekst,var(--futer-sitno));text-align:right;line-height:1.5}
-.futer-v2 .futer-akcija-poziv span{display:block}
+/* 04.08.2026: prelom radi `text-wrap:balance` — fiksni `span`-ovi su u flex
+   koloni suzili sadržaj na najduži span, pa se rečenica lomila na pet redova. */
+.futer-v2 .futer-akcija-poziv{margin:0;font-size:.92rem;font-weight:600;color:var(--futer-tekst,var(--futer-sitno));text-align:right;line-height:1.5;text-wrap:balance}
 .futer-v2 .futer-akcija-hint{margin:0;font-size:.82rem;font-weight:500;color:var(--futer-sitno);text-align:right;line-height:1.5}
 
 /* Dugme „Saradnja" — jedina jaka boja u futeru, pa je oku odmah težište.
@@ -1480,6 +1508,17 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .futer-cta:active{transform:scale(.98)}
 .futer-v2 .futer-cta:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:3px}
 .futer-v2 .futer-cta svg{flex:0 0 auto}
+
+/* ── POZIV ZA SARADNJU: traka ILI futer, po tabu (04.08.2026, odluka vlasnice) ──
+   Na početnom tabu trake nema — poziv stoji u futeru; na ostalim tabovima
+   traka ostaje, a futerski poziv se krije (ista poruka ne sme dvaput — isto
+   pravilo zbog kog je poziv 03.08. uopšte izašao iz futera). Oznaku taba na
+   <html> postavlja kratka skripta u zaglavlju index.html PRE iscrtavanja
+   (app.js stiže prekasno — v. pouku M3 uz mobilni raspored), pa nema skoka
+   pri učitavanju; app.js je kasnije samo drži usklađenom pri kliku na tab. */
+html[data-tab="rime"] .saradnja-traka{display:none}
+.futer-v2 .futer-poziv{display:none}
+html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 
 /* ── 3) KOLONE ───────────────────────────────────────────────────────────
    Četiri kolone od po 5–6 stavki umesto tri od 6, 5 i 12: ranije je treća
@@ -1517,7 +1556,9 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 /* max-width je u REM, nikad u `ch` — `ch` je širina znaka u tekućem fontu, pa se
    kad stigne Rubik cela širina preračuna i strana skoči. Tako je 02.08. skakanje
    otišlo sa 0,005 na 0,192 pri granici 0,1. U celom fajlu nema nijedne `ch`. */
-.futer-v2 .futer-rime-uvod{margin:.1rem 0 .7rem;color:var(--ink-soft);font-size:.92rem;max-width:24rem}
+/* Bez gornje širine (04.08.2026): sa 24rem se uvodni red lomio na dva reda,
+   a staje u jedan (~27rem) — isti nalaz vlasnice kao kod `.hero p`. */
+.futer-v2 .futer-rime-uvod{margin:.1rem 0 .7rem;color:var(--ink-soft);font-size:.92rem;max-width:none}
 .futer-v2 .futer-rime-spisak{display:flex;flex-wrap:wrap;gap:.4rem;font-size:0;line-height:1}
 .futer-v2 .futer-rime-spisak .footer-link{
   display:inline-flex;align-items:center;justify-content:center;
@@ -2003,15 +2044,15 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
   /* Beležnica — veći font za mobilni */
   .notepad-text{font-size:1rem;line-height:1.8;min-height:240px;padding:1rem .8rem}
   /* M2: fiksni gutter od 62 px je jeo 16–20% ekrana telefona (za stih je
-     ostajalo 250–292 px). Na dodir se stih ne prevlači (hvataljka se zato
-     krije SAMO ovde — na širim ekranima ostaje), a gutter se sužava na
-     slovo šeme + broj slogova, koji su suština. */
-  .gutter{font-size:1rem;line-height:1.8;width:2.3rem;flex-basis:2.3rem}
-  .gutter-row{padding:0 .25rem 0 .15rem;gap:.12rem}
-  .gutter-row{padding:0 .25rem 0 .2rem;gap:.12rem}
-  .gutter-row .g-drag{display:none}
+     ostajalo 250–292 px), pa je sužen. Hvataljka za premeštanje stiha ostaje
+     vidljiva i ovde (04.08.2026, nalaz vlasnice): prevlačenje radi i prstom
+     (pointer događaji u app.js), a funkcija koju konkurencija nema ne sme da
+     bude nevidljiva baš na uređaju sa kojeg većina dolazi. Hvataljka je zato
+     ovde uža (.75rem), a gutter raste sa 2,3 na 2,9 rem — stih gubi ~10 px. */
+  .gutter{font-size:1rem;line-height:1.8;width:2.9rem;flex-basis:2.9rem}
+  .gutter-row{padding:0 .2rem 0 .15rem;gap:.1rem}
+  .gutter-row .g-drag{flex-basis:.75rem;font-size:.8rem;opacity:.5}
   .gutter-row .g-letter{flex-basis:.85rem}
-  .notepad-legend .lg-item-drag{display:none}
   /* M3: objašnjenje u pasusu beležnice (216 px) guralo je editor ispod
      pregiba — akcije ostaju, proza ustupa mesto stihu (poruka da se tekst
      sam čuva stoji i u placeholderu editora). */

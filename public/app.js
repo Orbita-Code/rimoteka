@@ -3062,32 +3062,32 @@ if(trakaTabova){
    Ovo je za čoveka koji klikće po tabovima. */
 const TAB_NASLOV = {
   rime: {
-    h1: 'Rimovanje reči na srpskom: rečnik rima, brojač slogova i karaktera, beležnica koja boji rime — sve na jednom mestu',
+    h1: 'Rimovanje reči na srpskom jeziku — rečnik rima za tvoj stih',
     p: 'Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u beležnici — rime se tamo boje dok kucaš.',
     naslov: 'Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka',
   },
   beleznica: {
-    h1: 'Pisanje pesama',
+    h1: 'Pisanje pesama uz rime koje se boje dok kucaš',
     p: 'Piši pesmu, a rime za reč pod kursorom stoje sa strane — klikni i reč uđe u stih. Uz svaki stih piše broj slogova.',
     naslov: 'Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka',
   },
   slogovi: {
-    h1: 'Brojanje slogova i karaktera',
+    h1: 'Brojanje slogova i karaktera — u reči, stihu ili celoj pesmi',
     p: 'Upiši ili nalepi tekst — uz svaki red stoji broj slogova, a na dnu zbir slogova, reči i znakova.',
     naslov: 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka',
   },
   pretraga: {
-    h1: 'Rečnik srpskog jezika',
+    h1: 'Rečnik srpskog jezika — traži reč po slovima, čitaj šta znači',
     p: 'Traži reč po početku, kraju ili slovima u sredini. Uz svaku piše šta znači i koliko ima slogova.',
     naslov: 'Rečnik srpskog jezika — pretraga reči i značenja | Rimoteka',
   },
   igra: {
-    h1: 'Igra rimovanja',
-    p: 'Rime na vreme, sam ili sa društvom. Koliko dug niz možeš da napraviš?',
+    h1: 'Igra rimovanja — koliko dug niz rima možeš da sastaviš?',
+    p: 'Rime na vreme, sam ili sa društvom. Koliko dug niz možeš da sastaviš?',
     naslov: 'Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
   },
   klasici: {
-    h1: 'Srpske pesme — klasici',
+    h1: 'Klasici srpske poezije — poznate pesme sa šemom rime',
     p: 'Poznate pesme velikih srpskih pesnika, sa brojem slogova uz svaki stih i slovom šeme rime. Klikni završnu reč stiha pa vidiš koje se reči rimuju sa njom.',
     naslov: 'Srpske pesme — klasici sa šemom rime i brojem slogova | Rimoteka',
   },
@@ -3125,6 +3125,9 @@ function switchTab(name){
   // pričao o pogrešnoj stvari (npr. o rimovanju dok gledaš Igru). CSS ga
   // sakriva preko ovog atributa.
   document.body.dataset.tab = name;
+  /* i <html> drži istu oznaku — po njoj CSS bira traku ili futerski poziv za
+     saradnju (početna vrednost stiže iz kratke skripte u zaglavlju) */
+  document.documentElement.dataset.tab = name;
   if(name !== 'beleznica') document.body.classList.remove('notes-typing');
   // brojač se meri iz stvarnog rasporeda — sakriven panel nema širinu
   if(name === 'slogovi' && sylInput.value) updateSyl();

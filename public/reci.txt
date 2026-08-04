@@ -255719,6 +255719,8 @@ zakupnika
 zakupnina
 zakupnine
 zakupninu
+zakupno
+zakupnom
 zakupom
 zakupu
 zakusi
@@ -264619,7 +264621,12 @@ znanom
 znanome
 znanost
 znanosti
+znanstven
+znanstvena
 znanstvene
+znanstvenik
+znanstveno
+znanstvenost
 znanu
 znao
 znata

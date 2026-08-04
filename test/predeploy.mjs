@@ -4180,11 +4180,11 @@ async function main() {
       await p39.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
       await pauza(700);
       const parovi = [
-        ['Rečnik', '/recnik-srpskog-jezika/', 'Rečnik srpskog jezika'],
-        ['Klasici', '/klasici/', 'Srpske pesme'],
+        ['Pretraga reči', '/recnik-srpskog-jezika/', 'Rečnik srpskog jezika'],
+        ['Klasici', '/klasici/', 'Klasici srpske poezije', 'Srpske pesme'],
         ['Igra rimovanja', '/igra-rimovanja/', 'Igra rimovanja'],
       ];
-      for (const [tab, putanja, naslov] of parovi) {
+      for (const [tab, putanja, naslov, naslovKartice] of parovi) {
         await p39.click(`.tabs a:has-text("${tab}")`);
         await pauza(450);
         const st = await p39.evaluate(() => ({
@@ -4193,7 +4193,7 @@ async function main() {
           title: document.title,
         }));
         ok(`tab „${tab}" · naslov strane prati adresu`,
-           st.url === putanja && st.h1.startsWith(naslov) && st.title.startsWith(naslov),
+           st.url === putanja && st.h1.startsWith(naslov) && st.title.startsWith(naslovKartice || naslov),
            `adresa ${st.url}, h1 „${st.h1.slice(0, 40)}", naslov „${st.title.slice(0, 40)}"`);
       }
       /* Jedan korak unazad vraća na PRETHODNI tab (Klasici), ne na početnu —
@@ -4207,7 +4207,7 @@ async function main() {
         title: document.title,
       }));
       ok('tabovi · „Nazad" vraća i naslov, ne samo adresu',
-         nazad.url === '/klasici/' && nazad.h1.startsWith('Srpske pesme') &&
+         nazad.url === '/klasici/' && nazad.h1.startsWith('Klasici srpske poezije') &&
            nazad.title.startsWith('Srpske pesme'),
          `adresa ${nazad.url}, h1 „${nazad.h1.slice(0, 40)}"`);
       await ctx39.close();

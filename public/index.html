@@ -36,6 +36,11 @@
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
 <script src="/dark-mode-init.js?v=3"></script>
+<!-- Oznaka aktivnog taba na <html>, PRE iscrtavanja tela. Po njoj CSS skriva
+     traku za saradnju na početnom tabu, a poziv prikazuje u futeru (04.08.2026).
+     Mora ovde, ne u app.js — app.js stigne tek na kraju tela, pa bi se sadržaj
+     pomerio nakon prvog prikaza (ista pouka kao za tamni režim iznad). -->
+<script>document.documentElement.dataset.tab=(function(){var t=new URLSearchParams(location.search).get('tab');return ['beleznica','slogovi','pretraga','igra','klasici','omiljene'].indexOf(t)!==-1?t:'rime'})();</script>
 <link rel="stylesheet" href="style.css?v=20260804c">
 <script type="application/ld+json">
 {
@@ -135,7 +140,7 @@
   <a href="/" data-tab="rime" class="active">Rimovanje reči</a>
   <a href="/pisanje-pesama/" data-tab="beleznica">Pisanje pesama</a>
   <a href="/slogovi/" data-tab="slogovi">Brojač slogova i karaktera</a>
-  <a href="/recnik-srpskog-jezika/" data-tab="pretraga">Rečnik</a>
+  <a href="/recnik-srpskog-jezika/" data-tab="pretraga">Pretraga reči</a>
   <a href="/igra-rimovanja/" data-tab="igra">Igra rimovanja</a>
   <a href="/klasici/" data-tab="klasici">Klasici</a>
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
@@ -146,7 +151,7 @@
      gde se alat završava, a gde počinje tekst o alatu (02.08.2026). -->
 <div class="alat-zona">
   <div class="hero">
-    <h1>Rimovanje reči na srpskom: rečnik rima, brojač slogova i karaktera, beležnica koja boji rime — sve na jednom mestu</h1>
+    <h1>Rimovanje reči na srpskom jeziku — rečnik rima za tvoj stih</h1>
     <p>Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> — rime se tamo boje dok kucaš.</p>
   </div>
 
@@ -192,6 +197,7 @@
 
   <!-- PRETRAGA -->
   <section class="tab-panel" id="panel-pretraga">
+    <p class="hint">Reč koja se završava na „-ost“, počinje na „pred-“ ili ima „zvezd“ negde u sebi — izaberi način, upiši slova i dobiješ sve takve reči, sa značenjem i brojem slogova.</p>
     <div class="search-row">
       <label class="sr-only" for="searchMode">Način pretrage</label>
       <select id="searchMode" aria-label="Način pretrage">
@@ -263,7 +269,7 @@
 
   <!-- IGRA -->
   <section class="tab-panel" id="panel-igra">
-    <p class="hint">Igra rima — na vreme, sa prijateljima, za poene. Koliko dug niz možeš da napraviš?</p>
+    <p class="hint">Igra rima — na vreme, sa prijateljima, za poene. Koliko dug niz možeš da sastaviš?</p>
 
     <!-- START EKRAN -->
     <div class="game-setup" id="gameSetup">
@@ -304,7 +310,7 @@
     <!-- PREDAJA IGRAČA — pauza da se igrači zamene -->
     <div class="game-handoff" id="gameHandoff" style="display:none">
       <div class="game-handoff-badge" id="gameHandoffBadge">2</div>
-      <h2 class="game-handoff-title" id="gameHandoffTitle">Vreme je za igrača 2</h2>
+      <p class="game-handoff-title" id="gameHandoffTitle">Vreme je za igrača 2</p>
       <p class="game-handoff-sub" id="gameHandoffSub"></p>
       <button class="game-start-btn" id="gameHandoffStart">Spreman sam — počni</button>
       <p class="game-handoff-hint">Predaj uređaj sledećem igraču. Vreme počinje kad klikneš.</p>
@@ -338,7 +344,7 @@
 
     <!-- REZULTATI -->
     <div class="game-results" id="gameResults" style="display:none">
-      <h2 class="game-results-title">Rezultati</h2>
+      <p class="game-results-title">Rezultati</p>
       <div class="game-results-list" id="gameResultsList"></div>
       <button class="game-start-btn" id="gameAgain">Igraj ponovo</button>
     </div>
@@ -346,7 +352,7 @@
 
   <!-- OMILJENE -->
   <section class="tab-panel" id="panel-omiljene">
-    <p class="hint">Reči sačuvane klikom na ♡ skupljaju se ovde, na jednom mestu — pri ruci dok pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve reči</button></p>
+    <p class="hint">Reči sačuvane klikom na ♡ naći ćeš ovde — da ih ne tražiš iznova kad pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve reči</button></p>
     <div id="favResults" class="results"></div>
   </section>
 </div>
@@ -356,7 +362,7 @@
 
 <section class="seo-content" aria-label="O Rimoteci">
   <div class="seo-inner">
-    <h2 class="seo-h-glavni">Rimovanje reči — rečnik rima i brojanje slogova na srpskom jeziku</h2>
+    <h2 class="seo-h-glavni">Sve za pisanje pesme na jednom mestu — rime, slogovi, značenja i beležnica</h2>
     <p class="seo-uvod">Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom — na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
 
     <!-- SKLOPIVI BLOKOVI (02.08.2026)
@@ -506,6 +512,16 @@
           <img src="logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
         </div>
         <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rečnik srpskog jezika, brojač slogova i beležnica za pisanje pesama i tekstova.</p>
+      </div>
+      <!-- Poziv za saradnju u futeru — vidi se SAMO na početnom tabu (04.08.2026,
+           odluka vlasnice). Na ostalim tabovima on ostaje kao traka iznad futera.
+           Prebacivanje radi CSS po `data-tab` oznaci na <html> (v. style.css). -->
+      <div class="futer-akcija futer-poziv">
+        <p class="futer-akcija-poziv">Treba ti promocija knjige, kursa pisanja ili knjižare? Javi se za saradnju.</p>
+        <a class="futer-cta" href="mailto:eureka@rimoteka.com">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
+          <span>Kontakt</span>
+        </a>
       </div>
     </div>
 

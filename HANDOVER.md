@@ -4,6 +4,83 @@
 
 ---
 
+# Sesija 4. avgust 2026 (četrnaesta) — NASLOVI, TEKST, SARADNJA, NOTE
+
+> **Grana:** `feat/naslovi-h1-h2-seo-tekst` (iz `feat/dizajn-pocetna-futer-saradnja`).
+> **Spojeno na `main` uz usmeno odobrenje vlasnice u ovoj sesiji. Push NIJE rađen.**
+> Handover piše isto veče; deo posla (vraćanje reči) tada još nije bio commitovan.
+
+## ⛔ PRVO SLEDEĆOJ SESIJI
+
+1. **Zadnje izmene NISU prošle testove** — vlasnica je tražila rad bez testiranja.
+   Pre deploy-a: `node test/meri-cls.mjs` i `node test/predeploy.mjs`. Netestirano:
+   animacija nota, prebacivanje traka/futer (data-tab na `<html>`), `.hero p` i
+   `.futer-rime-uvod` bez gornje širine, hint omiljenih, futer-poziv blok.
+2. **Vraćanje 3.964 reči (iz `07`) radilo je u pozadini preko commita** — izmene
+   (`reci.txt`, `definicije.json`, regenerisane strane, izveštaj
+   `AUDIT/vracene-reci-04-08-2026.md`) su NEcommitovane na `main`. Sporne reči
+   (bucket C u izveštaju) čekaju odluku vlasnice. Završetak commitovati posebno.
+3. **Merenje 13.08. i dalje važi** — `<title>` i `meta description` početne su
+   NETAKNUTI (meri se CTR za `recnik rima`, 204 prikaza / 0 klikova). H1 početne
+   jeste promenjen (vlasnica je odbila čekanje) — ne utiče na SERP prikaz, merenje
+   je valjano. „270.000 reči" u opisu i dalje stoji — skloniti posle očitavanja.
+4. `TAB_NASLOV` u `app.js` mora da prati H1 tematskih strana u `gen_pages.py` —
+   ako se jedno menja, menjati i drugo (naslov „prati tab" od 04.08).
+
+## Šta je urađeno
+
+### Naslovi (H1/H2) — predlozi odobreni, pa upisani svuda
+- Izvor istine za tematske i generisane strane je **`build/gen_pages.py`**
+  (H1 svih 20 tematskih, podnaslovi sekcija, šablon `/rime-za/[reč]/`, `/slogovi/`,
+  hub). Početna i `TAB_NASLOV` su u `public/index.html` / `public/app.js`.
+- H1 početne: „Rimovanje reči na srpskom jeziku — rečnik rima za tvoj stih".
+- Podnaslovi više nisu jedna reč — pitanje ili tvrdnja (PAA/isečci).
+- **`/rime-za/[reč]/`**: grupa je „Rime sa istim završetkom kao „X"", „Šta dalje —
+  od rime do gotove pesme", i NOVO FAQ pitanje **„Šta znači reč „X"?"** (vidljivo +
+  JSON-LD, samo kad značenje postoji) — ciljano na upite „šta znači X".
+- Hub `/rime-za/`: broj strana izbačen iz title/opisa (rastući broj, zabranjen);
+  „azbučni spisak". Broj u uvodnoj rečenici ostaje — računa se pri svakoj gradnji.
+- Tab „Rečnik" → **„Pretraga reči"** (+ hint u panelu šta alat radi: završava se /
+  počinje / sadrži). Igra: H1 pitanje „…koliko dug niz rima možeš da sastaviš?"
+  (oblik „izdržaćeš" je bio gramatički pogrešan — ispravila vlasnica).
+- „Vreme je za igrača N" i „Rezultati" više nisu `h2` nego `<p>` — čista hijerarhija.
+- Test `predeploy.mjs` pratio je stare stringove — ažurirana su dva literala.
+
+### Izgled i ponašanje (zahtevi vlasnice tokom sesije)
+- **Hvataljke za premeštanje stihova uvek vidljive** (bile `opacity:0` do hovera).
+  Desktop .5 / hover 1; na telefonu hvataljka vraćena (gutter 2,3→2,9 rem) —
+  stari M2 komentar je tvrdio da prevlačenje prstom ne radi, a radi (pointer
+  događaji, `setPointerCapture`).
+- **Note u traci za saradnju plutaju** — animacija preko SAMOSTALNIH svojstava
+  `translate`/`rotate` (ne `transform`), da se ne sudare sa `scale` postavkama
+  ni sa pretvaranjem u srce. Srednja nota (iza teksta) skrivena:
+  `visibility:hidden` čuva raspored preostale četiri.
+- **Traka za saradnju skinuta sa početnog taba; poziv vraćen u futer** (dugme
+  „Kontakt" + tekst iz trake, `text-wrap:balance`). Na ostalim tabovima traka
+  ostaje. Prebacivanje je CSS po `data-tab` na `<html>`; oznaku postavlja
+  JEDNOLINIJSKA skripta u zaglavlju `index.html` PRE iscrtavanja (app.js stiže
+  prekasno — pouka M3), a `switchTab` je samo drži usklaženom.
+- `.hero p` i `.futer-rime-uvod` bez gornje širine — jedan red na širokom ekranu.
+- Hint omiljenih: više ne ponavlja hero tekst („…da ih ne tražiš iznova kad pišeš").
+
+### Rečnik
+- Ubačeno 7 reči sa objašnjenjima (odobrila vlasnica): znanstven, znanstvena,
+  znanstveno, znanstvenik, znanstvenost, zakupno, zakupnom. `definicije.json`
+  ostaje jednolinijski (`json.dumps` sa `separators=(', ', ': ')` — bajt-stil
+  identičan originalu, provereno).
+- „runce" izbačeno iz FAQ na `/rime-za-decu-o-prirodi/` — reč ne postoji u
+  rečniku (uhvatio `predeploy`, stavka „svaki par reč—rima se ZAISTA rimuje").
+- Pitanje vlasnice „ko je odobrio brisanje 3.964 reči": **njeno sopstveno pravilo**
+  („nema reči bez objašnjenja"), zabeleženo u handoveru 13. sesije i zaglavlju
+  `scripts/objasnjenja-dopuna.py`. Vraćanje je u toku (tačka 2 gore).
+- Agent `tekstopisac` (`.claude/agents/`) obrisan na zahtev vlasnice.
+
+### Testovi
+- Posle naslova i regeneracije: `predeploy` **539/539** ✓, `meri-cls` 0,0533 ✓.
+- Posle toga (tačka 1 gore) — netestirano.
+
+---
+
 # Sesija 3–4. avgust 2026 (trinaesta) — POČETNA, REČNIK, BELEŽNICA
 
 > **Grana:** `feat/dizajn-pocetna-futer-saradnja`. Puširana je na GitHub jednom

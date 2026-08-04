@@ -38,9 +38,10 @@
 <script src="/dark-mode-init.js?v=3"></script>
 <!-- Oznaka aktivnog taba na <html>, PRE iscrtavanja tela. Po njoj CSS skriva
      traku za saradnju na početnom tabu, a poziv prikazuje u futeru (04.08.2026).
-     Mora ovde, ne u app.js — app.js stigne tek na kraju tela, pa bi se sadržaj
-     pomerio nakon prvog prikaza (ista pouka kao za tamni režim iznad). -->
-<script>document.documentElement.dataset.tab=(function(){var t=new URLSearchParams(location.search).get('tab');return ['beleznica','slogovi','pretraga','igra','klasici','omiljene'].indexOf(t)!==-1?t:'rime'})();</script>
+     U SPOLJNJEM fajlu — CSP na produkciji blokira inline skripte (ista zamka
+     kao ranije, v. handover sesije 12). Bez nje bi se sadržaj pomerio kad
+     stigne app.js. -->
+<script src="/tab-init.js?v=1"></script>
 <link rel="stylesheet" href="style.css?v=20260804c">
 <script type="application/ld+json">
 {

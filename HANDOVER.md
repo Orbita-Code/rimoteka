@@ -35,6 +35,13 @@
    je valjano. „270.000 reči" u opisu i dalje stoji — skloniti posle očitavanja.
 4. `TAB_NASLOV` u `app.js` mora da prati H1 tematskih strana u `gen_pages.py` —
    ako se jedno menja, menjati i drugo (naslov „prati tab" od 04.08).
+5. **CSP ZAMKA (plaćeno dva puta): produkcija blokira INLINE skripte**
+   (`script-src 'self'`). Rana oznaka `data-tab` za traka/futer je prvo bila
+   inline u `index.html` — lokalno sve prolazilo, a na produkciji se skripta
+   nije izvršila: traka je ostala na početnoj, futerski poziv skriven, rupa od
+   238 px. Uhvatio je tek `BASE=https://rimoteka.com node test/predeploy.mjs`.
+   Rešenje: logika u `public/tab-init.js` (spoljni fajl). **Svaka nova skripta
+   ide kao fajl, nikad inline — i posle deploy-a UVEK test protiv produkcije.**
 
 ## Šta je urađeno
 

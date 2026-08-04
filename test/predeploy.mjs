@@ -3820,9 +3820,14 @@ async function main() {
           eval(MERE36);
           /* Dugme „Saradnja" od 03.08.2026. stoji u TRACI IZNAD futera, ne u
              samom futeru — poruka je bila ista na oba mesta. Provere ostaju
-             iste, samo gledaju tamo gde dugme sada jeste. */
-          const cta = document.querySelector('.saradnja-traka .saradnja-cta')
-                   || document.querySelector('.futer-v2 .futer-cta');
+             iste, samo gledaju tamo gde dugme sada jeste.
+             04.08.2026: poziv je na početnom tabu u futeru, na ostalim tabovima
+             u traci (CSS po `data-tab` na <html>). Oba dugmeta postoje u DOM-u,
+             a skriveno daje okvir 0×0 — meri se ono koje je STVARNO prikazano. */
+          const cta = [document.querySelector('.saradnja-traka .saradnja-cta'),
+                       document.querySelector('.futer-v2 .futer-cta')]
+                      .find(e => e && e.getBoundingClientRect().width > 0)
+                   || document.querySelector('.saradnja-traka .saradnja-cta');
           const notni = document.querySelector('.futer-v2 .futer-notni');
           const note = [...document.querySelectorAll('.futer-v2 .nota')];
           const vidljive = note.filter(n => getComputedStyle(n).display !== 'none');
@@ -3860,7 +3865,11 @@ async function main() {
             '.futer-v2 .futer-kolona .footer-link, .futer-v2 .futer-rime-spisak .footer-link, ' +
             '.saradnja-traka .saradnja-cta, .futer-v2 .footer-orbita a')];
           r.linkova = linkovi.length;
-          r.ispod44 = linkovi.filter(a => a.getBoundingClientRect().height < 44)
+          /* `offsetParent` je null kad je element ili predak `display:none`.
+             Od 04.08.2026. traka i futerski poziv se smenjuju po tabu, pa jedno
+             od dva „Kontakt" dugmeta uvek NIJE prikazano — a skriven link nije
+             dodirni cilj i ne meri se. */
+          r.ispod44 = linkovi.filter(a => a.offsetParent !== null && a.getBoundingClientRect().height < 44)
             .map(a => `${a.textContent.trim().slice(0, 22)}=${Math.round(a.getBoundingClientRect().height)}px`);
           // rupa u gornjem pojasu: rastojanje od dna opisa do vrha dugmeta
           const opis = document.querySelector('.futer-v2 .footer-desc');

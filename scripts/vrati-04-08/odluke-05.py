@@ -270,7 +270,6 @@ DEC = {
  'mešić': 'Umanjenica i nežni oblik od meh.',
  'mikroanaliza': 'Skup hemijskih metoda podešenih za određivanje malih količina supstanci.',
  'mikrometar': 'Sprava za precizno merenje veoma malih dužina ili uglova, uporedi nonijus (tehn.); i milioniti deo metra, mikron.',
- 'mikrotalasan': 'Koji se odnosi na mikrotalase (mikrotalasna pećnica).',
  'milionče': 'Umanjenica i eufemizam od milion: potrošiti milionče (razg.).',
  'miljokaz': 'Kamen, stub kraj puta sa oznakama rastojanja u miljama; preneseno: ono prema čemu se određuje pravac delovanja, orijentir, putokaz.',
  'milozvučnost': 'Osobina onoga što je milozvučno, blagozvučnost, melodičnost, harmoniičnost, milozvučje (milozvučnost italijanskih stihova, srpskog jezika).',

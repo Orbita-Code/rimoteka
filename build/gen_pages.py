@@ -736,6 +736,19 @@ def main():
         pass
     gsc_count = len(targets) - curated_count - ga_count
 
+    # a4) države i gradovi — obavezne strane (odluka vlasnice 10.08.2026).
+    #     Ušle su u rečnik 02.08. (tematski krugovi), ali po frekvenciji ne
+    #     ulaze u prvih 2.000 — a to su reči koje ljudi traže i za pesme i za
+    #     čestitke. Spisak: build/obavezne-drzave-gradovi.json (158 iz krugova +
+    #     Finska, Čile, Peru koje je uvoz 02.08. izgubio jer ih Matica ne vodi).
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'obavezne-drzave-gradovi.json'), encoding='utf-8') as f:
+            for t in json.load(f):
+                add_target(t)
+    except Exception:
+        pass
+    tematske_count = len(targets) - curated_count - ga_count - gsc_count
+
     # b) auto-dopuna do TARGET_COUNT — PO UČESTALOSTI, ne po abecedi (nalaz P10)
     #
     #    Uslovi koje reč mora da ispuni, i svaki ima razlog:

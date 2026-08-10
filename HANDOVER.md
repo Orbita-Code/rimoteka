@@ -44,11 +44,17 @@
    ide kao fajl, nikad inline — i posle deploy-a UVEK test protiv produkcije.**
 6. **Indeksiranje (10.08):** `lastmod` u sitemapu je sada datum gradnje (bio
    zakucan na jul — Google nije znao da se išta menja). IndexNow ping sa svih
-   2.016 URL-ova poslat i prihvaćen (200) — ključni fajl je u `public/`
-   (`e8f48349….txt`). GSC poruke vlasnice: „Page with redirect" i „Blocked by
-   robots.txt" su NAMERNI (stare adrese reči + ?upiti) — ne dirati; jedino
-   „Duplicate, Google chose different canonical" pratimo — čekaju se primeri
-   adresa od vlasnice.
+   URL-ova prihvaćen (200). GSC (kroz CDP browser vlasnice, profil
+   `~/.claude-pw-tools/user-data`, port 9222 — skripte `rimoteka-*.mjs` tamo):
+   811 indeksirano (sa 124 na 30.07); sitemap resubmitovan; 11/12 ključnih
+   strana već indeksirano, za `/kako-napisati-pesmu/` zatraženo. Razlozi
+   „robots.txt" (910) i „redirect" (349) su NAMERNI — ne dirati.
+7. **Strane za države i gradove (10.08, odobrila vlasnica):** obavezni izbor
+   `build/obavezne-drzave-gradovi.json` (160 reči iz `scripts/dopuna-kategorije.txt`
+   + Finska/Čile/Peru koje je uvoz 02.08. izgubio jer ih Matica ne vodi).
+   Izbor se učitava u `gen_pages.py` (blok a4) — gura frekvencijski rep, ne
+   dodaje se preko 2.000. Bez strane (premalo rima): Čačak, Češka, Čikago, Čile.
+   Višečlana imena (Novi Sad, Rio de Žaneiro…) nemaju strane — alat radi po reči.
 
 ## Šta je urađeno
 

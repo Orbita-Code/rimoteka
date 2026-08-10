@@ -9,6 +9,7 @@ Pokretanje:  cd build && python3 gen_pages.py
 """
 import os, re, json, html
 from collections import defaultdict
+from datetime import date
 from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -806,7 +807,10 @@ def main():
             raise SystemExit(f'GRESKA: ne mogu da ispraznim {outdir}. '
                              'Ugasi lokalni server (pkill -f http.server) pa probaj ponovo.')
     os.makedirs(outdir, exist_ok=True)
-    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % BASE]
+    # lastmod = datum gradnje (04.08.2026): do tada je bio zakucan julski datum,
+    # pa Google iz sitemapa nije video da se ijedna strana ikad menja.
+    DANAS = date.today().isoformat()
+    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % (BASE, DANAS)]
 
     # Grupe po rhyme_key, final_syl_key i loose_key (asonanca)
     loosegroup = defaultdict(list)
@@ -1016,7 +1020,7 @@ def main():
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(page)
         sitemap_entries.append(
-            f'  <url><loc>{canonical}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+            f'  <url><loc>{canonical}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
         napravljene.append(t)
         generated += 1
 
@@ -1083,7 +1087,7 @@ def main():
     with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write((slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     sitemap_entries.append(
-        f'  <url><loc>{slog_canon}</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
+        f'  <url><loc>{slog_canon}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
 
     # 2c) tematske strane (autoritet + niše)
     content_defs = [
@@ -1632,7 +1636,7 @@ def main():
                          cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'],
                          tool=cd.get('tool', False), aktivan_tab=cd.get('aktivan_tab', ''))
         sitemap_entries.append(
-            f'  <url><loc>{c}</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq>'
+            f'  <url><loc>{c}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq>'
             f'<priority>{cd.get("priority", "0.6")}</priority></url>')
 
     # 2z) HUB STRANA /rime-za/ — spisak svih strana reči
@@ -1682,7 +1686,7 @@ def main():
     with open(os.path.join(outdir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write((hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     sitemap_entries.append(
-        f'  <url><loc>{hub_canon}</loc><lastmod>2026-07-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
+        f'  <url><loc>{hub_canon}</loc><lastmod>{DANAS}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

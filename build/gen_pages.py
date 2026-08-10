@@ -127,8 +127,12 @@ def rima_word(n):
 # ---------------- Slug (transliteracija po pravilu) ----------------
 TRANS = {'š': 's', 'š'.upper(): 's', 'č': 'c', 'ć': 'c', 'ž': 'z', 'đ': 'dj'}
 def slugify(w):
+    # Slug je uvek malim slovima (10.08.2026): strane za gradove i države su
+    # izašle na /rime-za/Beograd/ pa je mala varijanta /beograd/ padala u
+    # catch-all preusmerenje na hub — gubljena strana za prirodno kucanje.
+    # Reč na strani ostaje velikim slovom; menja se samo URL.
     out = []
-    for ch in w:
+    for ch in w.lower():
         out.append(TRANS.get(ch, ch))
     return ''.join(out)
 

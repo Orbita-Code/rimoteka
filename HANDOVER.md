@@ -55,6 +55,12 @@
    Izbor se učitava u `gen_pages.py` (blok a4) — gura frekvencijski rep, ne
    dodaje se preko 2.000. Bez strane (premalo rima): Čačak, Češka, Čikago, Čile.
    Višečlana imena (Novi Sad, Rio de Žaneiro…) nemaju strane — alat radi po reči.
+8. **GIT NA MAC-U NE VIDI PRELAZAK NA MALA SLOVA** (plaćeno 10.08): slugify je
+   spustio slova, disk je dobio `beograd/`, ali je git sa `core.ignorecase=true`
+   i dalje pratio `Beograd/` — produkcija je imala sitemap sa malim, a fajlove
+   sa velikim slovima (sitemap linkovi → 301 na hub). Popravka: `git rm -r
+   --cached` + `git add` po putanji. Pre push-a proveriti `git ls-files | grep
+   -E '/[A-Z]'` kad god se dira veličina slova u putanjama.
 
 ## Šta je urađeno
 

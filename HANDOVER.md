@@ -42,6 +42,13 @@
    238 px. Uhvatio je tek `BASE=https://rimoteka.com node test/predeploy.mjs`.
    Rešenje: logika u `public/tab-init.js` (spoljni fajl). **Svaka nova skripta
    ide kao fajl, nikad inline — i posle deploy-a UVEK test protiv produkcije.**
+6. **Indeksiranje (10.08):** `lastmod` u sitemapu je sada datum gradnje (bio
+   zakucan na jul — Google nije znao da se išta menja). IndexNow ping sa svih
+   2.016 URL-ova poslat i prihvaćen (200) — ključni fajl je u `public/`
+   (`e8f48349….txt`). GSC poruke vlasnice: „Page with redirect" i „Blocked by
+   robots.txt" su NAMERNI (stare adrese reči + ?upiti) — ne dirati; jedino
+   „Duplicate, Google chose different canonical" pratimo — čekaju se primeri
+   adresa od vlasnice.
 
 ## Šta je urađeno
 

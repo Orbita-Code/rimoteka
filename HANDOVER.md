@@ -4,63 +4,64 @@
 
 ---
 
-# Sesija 4. avgust 2026 (četrnaesta) — NASLOVI, TEKST, SARADNJA, NOTE
+# Sesija 4–10. avgust 2026 (četrnaesta) — NASLOVI, REČNIK, SARADNJA, GSC, AUDIT
 
-> **Grana:** `feat/naslovi-h1-h2-seo-tekst` (iz `feat/dizajn-pocetna-futer-saradnja`).
-> **Spojeno na `main` i puširano na GitHub** — `origin/main` = `98a5fd6d8`.
-> Dogovor od 04.08.2026: **kad vlasnica kaže „merge", to podrazumeva i push na
-> GitHub u istom potezu** — ne čekati posebno odobrenje za push.
-> Produkcija (rimoteka.com) NIJE deploy-ovana — deploy je poseban korak.
+> **Grana:** `feat/naslovi-h1-h2-seo-tekst` → spojeno na `main`; sve je i na
+> GitHubu **i na produkciji** (Coolify auto-deploy na svaki push). Poslednji
+> commit: `1fc2521af`. Produkcija verifikovana: **547/547**, CLS 0,0515,
+> audit **8,4/10** (`AUDIT/2026-08-10-audit.md`).
+> Dogovor: kad vlasnica kaže „merge" = commit + push (+ auto-deploy) odjednom.
 
-## ⛔ PRVO SLEDEĆOJ SESIJI
+## ⛔ PRVO SLEDEĆOJ SESIJI — samo ovo je otvoreno
 
-1. **`meri-cls` NIJE puštan posle pozdnih CSS izmena** (animacija nota, prebacivanje
-   traka/futer, `.hero p` i `.futer-rime-uvod` bez gornje širine) — pustiti pre
-   deploy-a. `predeploy` na `main` prolazi 539/539 (posle ispravke: merenje dugmeta
-   „Kontakt" bira vidljivo od dva mesta — traka ili futer, po tabu; dodirni ciljevi
-   ignorišu `display:none`).
-2. **330 spornih reči — vlasnica je odlučila 04.08. (dve diktirane runde) i
-   primenjeno je.** Tabela odluka: `AUDIT/vracene-reci-04-08-2026.md` (odeljci
-   „ODLUKE VLASNICE"). Vraćeno ukupno još 70 reči (46 + 24): 12 vulgarne — sada
-   ih skriva dečji režim, NE stalna blokada (`muda` isto); oblici gradova, Cveta,
-   zelanda, sud, kuruz, čući, mikrotalasni oblici, džangrizavac… Napolju: fukati,
-   popizditi, makedonski oblici, množine gradova, artefakti i sve nespomenuto iz
-   grupe 268 (njena rečenica: „ostalo možeš da izbrišeš"). Važno za tekstove:
-   tvrdnja „psovke i vulgarnosti su izostavljene uvek" VIŠE NE VAŽI — svuda stoji
-   formulacija o dečjem režimu. Zatvoreno: `čangrizav*` (5 oblika) izbačeni,
-   pravilni su `džangrizav*` — dopunjen jedini falio, `džangrizavo`.
-3. **Merenje 13.08. i dalje važi** — `<title>` i `meta description` početne su
-   NETAKNUTI (meri se CTR za `recnik rima`, 204 prikaza / 0 klikova). H1 početne
-   jeste promenjen (vlasnica je odbila čekanje) — ne utiče na SERP prikaz, merenje
-   je valjano. „270.000 reči" u opisu i dalje stoji — skloniti posle očitavanja.
-4. `TAB_NASLOV` u `app.js` mora da prati H1 tematskih strana u `gen_pages.py` —
-   ako se jedno menja, menjati i drugo (naslov „prati tab" od 04.08).
-5. **CSP ZAMKA (plaćeno dva puta): produkcija blokira INLINE skripte**
-   (`script-src 'self'`). Rana oznaka `data-tab` za traka/futer je prvo bila
-   inline u `index.html` — lokalno sve prolazilo, a na produkciji se skripta
-   nije izvršila: traka je ostala na početnoj, futerski poziv skriven, rupa od
-   238 px. Uhvatio je tek `BASE=https://rimoteka.com node test/predeploy.mjs`.
-   Rešenje: logika u `public/tab-init.js` (spoljni fajl). **Svaka nova skripta
-   ide kao fajl, nikad inline — i posle deploy-a UVEK test protiv produkcije.**
-6. **Indeksiranje (10.08):** `lastmod` u sitemapu je sada datum gradnje (bio
-   zakucan na jul — Google nije znao da se išta menja). IndexNow ping sa svih
-   URL-ova prihvaćen (200). GSC (kroz CDP browser vlasnice, profil
-   `~/.claude-pw-tools/user-data`, port 9222 — skripte `rimoteka-*.mjs` tamo):
-   811 indeksirano (sa 124 na 30.07); sitemap resubmitovan; 11/12 ključnih
-   strana već indeksirano, za `/kako-napisati-pesmu/` zatraženo. Razlozi
-   „robots.txt" (910) i „redirect" (349) su NAMERNI — ne dirati.
-7. **Strane za države i gradove (10.08, odobrila vlasnica):** obavezni izbor
-   `build/obavezne-drzave-gradovi.json` (160 reči iz `scripts/dopuna-kategorije.txt`
-   + Finska/Čile/Peru koje je uvoz 02.08. izgubio jer ih Matica ne vodi).
-   Izbor se učitava u `gen_pages.py` (blok a4) — gura frekvencijski rep, ne
-   dodaje se preko 2.000. Bez strane (premalo rima): Čačak, Češka, Čikago, Čile.
-   Višečlana imena (Novi Sad, Rio de Žaneiro…) nemaju strane — alat radi po reči.
-8. **GIT NA MAC-U NE VIDI PRELAZAK NA MALA SLOVA** (plaćeno 10.08): slugify je
-   spustio slova, disk je dobio `beograd/`, ali je git sa `core.ignorecase=true`
-   i dalje pratio `Beograd/` — produkcija je imala sitemap sa malim, a fajlove
-   sa velikim slovima (sitemap linkovi → 301 na hub). Popravka: `git rm -r
-   --cached` + `git add` po putanji. Pre push-a proveriti `git ls-files | grep
-   -E '/[A-Z]'` kad god se dira veličina slova u putanjama.
+1. **13.08. — očitavanje merenja naslova.** `<title>` i `meta description`
+   početne su NETAKNUTI 30.07–13.08 (meri se CTR za `recnik rima`, 204/0).
+   H1 početne je promenjen 04.08. uz odobrenje — ne dira SERP prikaz. Posle
+   očitavanja: skloniti „270.000 reči" iz opisa (pravilo 5) i odlučiti o
+   `rečnik rima` u naslovu. Očitavanje ide kroz CDP browser (tačka 4).
+2. **Sitno iz audita 10.08** (`AUDIT/2026-08-10-audit.md`): 7 title-ova ima
+   67–69 znakova, 5 opisa 181–189, hub opis kratak (89) — jedna runda
+   skraćivanja. HSTS zaglavlje pri sledećem nginx deploy-u (nginx ide UVEK
+   zaseban deploy). 9.413 orfan-definicija u `definicije.json` — NE brisati
+   olako, neke su pripremljene unapred (slučaj `prohtev` 10.08).
+3. **Link building nije počeo** — v. SEO_PLAN.md: backlinkovi sa
+   orbitacode.com / babylovebox.rs su najbrži neiskorišćeni potez (guraju i
+   „Discovered — not indexed" krocenje).
+4. **GSC pristup:** kroz browser profil `~/.claude-pw-tools/user-data` na CDP
+   :9222 — pokrenuti `node ~/.claude-pw-tools/rimoteka-keep-alive.mjs` (vidljiv
+   prozor; ako Google odjavi, vlasnica se prijavi u njemu jednom), pa skripte
+   `rimoteka-gsc-*.mjs` (attach). Pratiti pad „Discovered — not indexed" (870
+   na 10.08) i očitati GSC-indeksirane za `build/gsc-indeksirane.json` pri
+   sledećoj promeni izbora strana.
+5. **Dve zamke plaćene ove sesije — ne ponavljati:** (a) produkcijski CSP
+   blokira INLINE skripte — svaka skripta ide kao fajl (zato postoji
+   `public/tab-init.js`); lokalni test to ne vidi, zato posle deploy-a uvek
+   `BASE=https://rimoteka.com node test/predeploy.mjs`. (b) Git na Mac-u sa
+   `core.ignorecase=true` NE vidi prelazak velikih slova u mala u putanjama —
+   posle svake takve izmene proveriti `git ls-files | grep -E '/[A-Z]'` pre
+   push-a, inače produkcija dobije raskorak sitemap/fajlovi.
+
+## Šta je urađeno 10.08. (drugi deo sesije)
+
+- **GSC (kroz CDP):** 811 indeksirano (sa 124 na 30.07). Sitemap resubmitovan;
+  11/12 ključnih strana već indeksirano, za `/kako-napisati-pesmu/` zatraženo.
+  Mape razloga: robots.txt 910 i redirect 349 su NAMERNI (`?rec=` parametri i
+  stare adrese iz preslagivanja) — ne dirati; duplicate canonical = 1 strana.
+- **lastmod = datum gradnje** u sitemapu (bio zakucan na jul) + **IndexNow**
+  ping sa svih URL-ova prihvaćen (ključ: `public/e8f48349….txt`).
+- **Države i gradovi dobili strane** — obavezni izbor
+  `build/obavezne-drzave-gradovi.json` (160 reči; gen_pages.py blok a4). Finska,
+  Čile, Peru dopunjene u rečnik (uvoz 02.08. ih je izgubio). Bez strane zbog
+  premalo rima: Čačak, Češka, Čikago, Čile. Višečlana imena ostaju bez strana.
+- **Slugovi su malim slovima** (audit nalaz) + popravljen git indeks
+  (ignorecase zamka, v. tačku 5). Produkcija proverena: `/rime-za/beograd/` 200.
+- **Audit 10.08: 8,4/10, bez kritičnih nalaza** — sve izmene sesije proverene
+  uživo. Rečnik: 280.338 reči, 0 bez objašnjenja, 0 duplikata.
+- Odluke vlasnice o 330 spornih reči primenjene (70 vraćenih) — detalji u
+  `AUDIT/vracene-reci-04-08-2026.md`; vulgarne reči sada pokriva dečji režim,
+  a ne stalna blokada (copy usklađen na 4 mesta).
+
+## Šta je urađeno 04.08. (prvi deo sesije)
 
 ## Šta je urađeno
 

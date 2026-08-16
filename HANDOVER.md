@@ -4,6 +4,202 @@
 
 ---
 
+# Sesija 16. avgust 2026 (šesnaesta, drugi deo) — MOBILNI BAGOVI, DRUGA TURA (9 prijava)
+
+> **Stanje:** sve popravljeno LOKALNO, **nije commit-ovano** — čeka pregled
+> vlasnice na telefonu (`http://192.168.0.22:8765`). Pre-deploy test lokalno
+> **555/555** (546 + 9 novih provera u novoj sekciji 30G). Regenerisano je i
+> 1.994 strana `/rime-za/` na `?v=20260816b`. Prijave su došle sa pravog
+> iPhone-a sa LOKALNOG preview-a — dakle ovo je druga tura: provera prve ture
+> uživo, pa nova pravila („ništa se ne lomi u piluli", „pilula grli reč",
+> „ništa ne visi", „nema duplih tekstova").
+
+## Šta je popravljeno (9 prijava)
+
+1. **Praznina ispod uvodnog pasusa na početnoj** — sa ~122 px na ~64 px
+   (`main` padding-bottom 3rem→1,2rem, `.seo-content` margin-top 3rem→1,2rem,
+   `.hero` margin-top 1,6rem→.9rem; sve samo mobilni blok).
+2. **Futer: „Powered by" i „Orbita Code" u dva reda.** Uzrok: link je na
+   telefonu bio `display:flex` (blok) zbog dodirnog cilja — pao u novi red.
+   Sada `inline-flex` uz `white-space:nowrap` — jedan red, 44 px dodir.
+3. **Tabovi lome tekst u piluli i svaki red počinje drugde.** Uzrok: pri
+   prelazu na prelamanje (prva tura) ispao je `nowrap`, a redovi su bili
+   centrirani. Sada `nowrap` (pilula = širina reči) + `flex-start`.
+4. **Akcije beležnice razbacane, „obriši pesmu" sama u redu.** Grupe
+   (`.hint-grupa`) su svaka zauzimala red. Sada `display:contents` na grupi +
+   dugmad `flex:1 0 auto` — svaki red pun 97–98% širine.
+5. **Rime u beležnici seku se iza tastature (iPhone).** Na iOS 26 Safari-jeva
+   traka (lozinka/kartica/lokacija) lebdi iznad tastature i prekriva pilule,
+   a `visualViewport` je zahvata. Panel se sada lepi za VIDLJIVI vidokrug
+   (`top` u layout koordinatama, na vv „scroll"/„resize") uz dodatnih 56 px
+   na iOS-u (`--traka-lift`, `JE_IOS` detekcija). Bez `window.scrollBy` —
+   prst se ne dira.
+6. **Panel rima prekriva editor pri skrolu nagore.** Isti uzrok kao 5 —
+   `bottom:var(--kb)` je vezan za layout vidokrug koji pri pomeranju stoji,
+   pa panel „plovi". Lepljenje za vidokrug to rešava.
+7. **Brojač slogova: dodir u polje „odnese" stranu na dno.** `drziPoljeUVidokrugu`
+   je dovlačilo DNO visokog polja u vidokrug i guralo vrh iz kadra. Sada se
+   pomeraj seče — vrh polja nikad ne ide iznad gornje ivice vidokruga.
+8. **Pilule rima preširoke, prazno unutra.** Uzrok: mreža jednakih kolona +
+   `chip-siri` span 2. Sada je `.results` na telefonu FLEX-red koji se prelama —
+   pilula je široka tačno koliko reč (izmereno: 0 pilula sa prazninom >8 px,
+   2–4 reči po redu). `izmeriCipove()` sveden na čišćenje zaostalih klasa.
+9. **Omiljene: dvostruko objašnjenje + naslov ispod liste.** Hero (h1+p koji
+   prati tab) se na telefonu na tabu „omiljene" više ne prikazuje —
+   `html[data-tab="omiljene"] .hero{display:none}` (oznaku upisuje
+   `tab-init.js` pre iscrtavanja, pa nema skoka). h1 ostaje u izvoru strane.
+
+## Ostalo
+
+- `?v=` podignut na `20260816b` (app.js, style.css) na početnoj, svim
+  podstranama, u `gen_pages.py`; regenerisano 1.994 strana (sitemap 2.017).
+- Test dobio sekciju 30G (9 provera) + provera 30A sada dozvoljava 2–4 reči
+  po redu (bilo 2–3 — pravilo promenjeno odlukom vlasnice).
+- Zamka za sledeću sesiju: pilule rima su UGNJEŽDENE — `#rimeResults` sadrži
+  `.res-group > .results > .chip`. Selektor `#rimeResults > .chip` ne pogađa
+  NIŠTA; meriti `#rimeResults .results > .chip`.
+- Pouka (u `AUDIT/PROPUSTI.md`): pre-deploy test nema iOS-26 plavu traku —
+  lažna tastatura od 336 px ne pokriva tu klasu; uzeto u obzir kroz
+  `--traka-lift`.
+
+## Rečnik: izbačeni „većera" i „većeras" (odluka vlasnice, isti dan)
+
+- Prijava: kao rima za „šećera" ponuđena je „većera". Provera u Rečniku
+  Matice srpske: standardni oblici su isključivo **„večera"** (red 27916) i
+  **„večeras"** (red 27927); oblika „većera/većeras" (južnosrpski izgovor,
+  č→ć) u Matici NEMA. Naš rečnik ih je pokupio iz veb-korpusa.
+- **Pravilo vlasnice: rečnik prati PRAVOPIS, ne govor — nijedna reč se ne
+  nagađa „kako je ljudi govore".** Izbačeno iz `reci.txt` (280.339 →
+  280.337); objašnjenja ostaju kao putokazi ka standardnom obliku. Verzija
+  rečnika `?v=20260816b`. Strane regenerisane; „većera" nestala i sa
+  statičke strane za „šećera". Test 555/555 potvrđen posle izmene.
+- Šira klasa zabeležena u `TODO-RECNIK.md`: parovi „ista reč, dva pisma"
+  (č/ć) — grubo ~180 kandidata uz mnogo lažnih (`braća/brače`, `bića/biče`
+  su regularne reči). Prolaz kroz Maticu reč po reč — čeka zeleno svetlo
+  vlasnice.
+
+## Algoritam rime: č≡ć i dž≡đ pri merenju sličnosti (isti dan)
+
+- Prijava vlasnice: za „šećera" su „najbolje rime" bile „partnera, primera,
+  lidera" — a „večera" (bolja rima) ispod njih. Uzrok: `commonSuffix` je
+  merio sličnost SLOVO PO SLOVO, pa su „šećera/partnera" i „šećera/večera"
+  delili isto („era", 3) — nerešeno je padala učestalost i česte reči su
+  pobeđivale. Za računar je „ć ≠ č"; za pesnika je to ista rima.
+- Popravka: u `commonSuffix` (app.js) i `common_suffix` (gen_pages.py) pri
+  merenju važi č≡ć i dž≡đ. **Pravopis se ne dira** — samo merenje sličnosti.
+  Izmereno posle: „najbolje" za „šećera" = glečera, večera, kačera, rančera.
+- Provera u testu (sekcija 2): „večera" mora biti među najboljima i iznad
+  „partnera" za „šećera"; „većera" (ć) ne sme biti u rečniku ni u rimama.
+- Strane regenerisane sa novim algoritmom (1.994).
+
+## Spisak 01b UKINUT za ručni pregled (odluka vlasnice, isti dan)
+
+- Vlasnica odbacila ručni pregled 20.021 reda (`01b-za-pregled.md`).
+  Mašinska trijaža (`01b-ARHIVA-trijaza.md`): OCR šum 759 (od toga 190
+  ispravljeno i dokazano — sve su već u rečniku; 569 nedokazanih u arhivu),
+  67 duplikata, 111 zastarelih, ostatak 19.084 retke reči → **arhiva, vadi
+  se po TEMI kad zatraži**.
+- Pouka o dokazu: reč ispravljena iz OCR-a se dodaje samo uz NEZAVISAN dokaz
+  (srLex ili naš rečnik) — Matica kao dokaz otpada jer je ista skenirana
+  greška u njoj (prva provera je „dokazala" 644 naslova koje je parser sam
+  izgrejao; uhvaceno kontrolnim parom).
+- Nova vrednost: `08-pridevski-i-za-dodavanje.md` — 131 određeni pridevski
+  oblik na -i koje Matica potvrđuje (klasa „znanstveni"). Čeka njenu odluku.
+
+## Upisano 96 odobrenih pridevskih oblika (isti dan, njena provera spiska)
+
+- Vlasnica je prošla ceo spisak od 131: **96 primljeno, 35 izbačeno njenim
+  pregledom + 3 najbliže diktatu** („malani/tordni/agasli" → izbačeni
+  „milani/torni/ugasli" — vratiti ako je pogrešno protumačeno).
+- `reci.txt` 280.337 → **280.433**; `definicije.json` — pokazivači na osnovu
+  u kućnom stilu („Oblik reči X (…)"); generička definicija samo za troje
+  bez jasne osnove (`satri`, `inkubatorski`, `zaračunati`). Verzije
+  `reci.txt?v=20260816c`, `definicije.json?v=237`.
+- **Sledeće: ona pregleda 1.961 „odbijenih" iz istog fajla** (rekla „sada ću
+  preći odbijene") — kad stigne njen spisak, isti postupak upisa.
+
+## Grupa A–B iz „odbijenih": 59 reči upisano (isti dan)
+
+- Vlasnica je prošla slova A–B: upisano **59 reči** (adresirani, aluvijalni,
+  beskorisni, buntovnik, biblioteci, azbuci…). `reci.txt` 280.433 → **280.478**.
+  Izbačeno: `boljeli` (ijekavica — njen nalaz).
+- **Odgovori na njena pravopisna pitanja:** „u azbuci" ✓ (Matica ima „азбуци",
+  „азбуки" nema); „u biblioteci" ✓ (isti k→c obrazac; sken je OCR-šuman pa
+  oblik ne nalazi, ali pravilo je isto kao ruka→u ruci, azbuka→u azbuci).
+- Zašto su ispravne reči bile „odbijene": kriterijum je tražio tačan oblik u
+  OCR-šumornom skenu — „odbijeni" je značilo samo „sken ne potvrđuje", ne
+  „pogrešno". Svi kandidati su po konstrukciji -i oblici reči koje već imamo
+  u -a/-o obliku. Postupak dogovoren: ona bira po slovima, mi upisujemo.
+- Verzije `reci.txt?v=20260816d`, `definicije.json?v=238`.
+
+---
+
+# Sesija 16. avgust 2026 (petnaesta) — MOBILNI BAGOVI SA IPHONE-A (7 prijava)
+
+> **Stanje:** sve popravljeno LOKALNO, **nije commit-ovano** — čeka pregled
+> vlasnice. Pre-deploy test lokalno **546/546 („Sme deploy")**; posle deploy-a
+> obavezno `BASE=https://rimoteka.com node test/predeploy.mjs`.
+> Prijave su došle sa pravog iPhone-a (slikom potvrđene), sa produkcije.
+
+## Šta je popravljeno (7 prijava)
+
+1. **Skrol se borio sa prstom (kritično).** Uzrok: `visualViewport` „scroll"
+   događaj (dešava se pri SVAKOM skrolu dok je tastatura otvorena) zvao je
+   `keepCaretVisible()`/`drziPoljeUVidokrugu()`, a one rade `window.scrollBy` —
+   kod je vraćao stranu naniže dok je čovek skrolovao nagore. Dokaz A/B
+   merenjem: stari kod je zamrzavao stranu na 481 px uprkos 7 pokušaja skrola,
+   novi prolazi slobodno. Popravka (`public/app.js`): na vv „scroll" se samo
+   meri `--kb`, ispravka položaja ostaje na „resize" (otvaranje tastature),
+   fokus i kucanje; uz to zastavica `korisnikSkroluje` (touchmove/wheel/scroll)
+   blokira svako prisilno skrolovanje usred korisnikovog skrola. Uz to
+   `body{min-height:100vh}` dobilo `100dvh` rezervu (`style.css`).
+2. **Placeholder beležnice** → „Naslov pesme (opciono)" (`index.html`,
+   `pisanje-pesama/index.html`; generator `gen_pages.py` markup povlači iz
+   `index.html`, pa će regeneracija sama pokupiti).
+3. **Dugmad beležnice i traka tabova se više ne seku.** Na telefonu se oba reda
+   PRELAMAJU u više redova — uklonjeni `overflow-x:auto` redovi i maske koje su
+   pravile odsečene pilule („preuzmi…", „Brojač slogova…"). Izmereno na 375/390/
+   430 px: 0 odsečenih. Separatori (`.hint-sep`) se na telefonu kriju.
+4. **Klasici: stih više ne lomi.** Oznake (slogovi, slovo šeme) stišane i
+   zbijene uz desnu ivicu, kartica pesme izlazi na ivicu ekrana (isti manevar
+   kao `.notepad`), tekst .8rem — 0 prelomljenih od 138 stihova na 375–430 px.
+5. **Ijekavica u igri.** Bazen poznatih reči gradio se po frekvenciji iz CELOG
+   `WORDS` — pa i iz ijekavskog dela (`dvije` ima 13.461 pojavu). Novi filter
+   `jeJekavskaRec()` (indeks ≥ `jekStart` ili skup `JEKAVSKI`) primenjuje se pri
+   izboru: igra je isključuje UVEK, kockica kad kvačica nije uključena.
+6. **„znanstveni" ubačen** u `reci.txt` (azbučno, iza `znanstvene`) i
+   `definicije.json` (Matica: `знанствен — који се односи на знаност`).
+   Cela KLASA nedostaje: određeni oblici prideva na -i nisu sistematski
+   pokriveni (~620 kandidata, uz lažne pozitivne) — zabeleženo u
+   `TODO-RECNIK.md`, čeka odluku vlasnice.
+7. **Reč se ne seče na „…" — nikad.** Uklonjen prag od 10 px u `izmeriCipove()`
+   (pilula se širi za svaki manjak) i `text-overflow:ellipsis` iz mobilnog CSS-a.
+   Izmereno: 0 odsečenih od 195 rima za „ljubav" na 375/390/430.
+
+## Ostalo
+
+- `?v=` podignut na `20260816a` (app.js, style.css, reci.txt; definicije 236) —
+   na početnoj, svim podstranama i u `gen_pages.py` šablonama. Strane
+   `/rime-za/[reč]/` nose stari `v=` do sledeće regeneracije (SW im servira
+   stale-while-revalidate — jedna poseta zastarelo).
+- Test `predeploy.mjs` dobio nove provere: M4 sada traži da SVE stavke trake
+   budu cele vidljive (maska više ne postoji), sečenje reči u pilulama,
+   odsečena dugmad beležnice, lomljenje stihova, ijekavica u igri (i kad je
+   kvačica uključena), `znanstveni` u rečniku.
+- Usput nađeno: filter „nula grešaka u konzoli" je gledao samo tekst poruke,
+  pa je pucao kad Google Fonts CDN vrati 404 za woff2 (16.08. je to radio za
+  tri Rubik podskupa) — tekst je tada generičan, a URL resursa stoji u
+  `location()`. Filter sada gleda i URL; poruke o greškama loguju izvor.
+- Zamka alata: kad test pukne usred rada, `static-server.mjs` ostane da visi
+  na portu 8799, pa sledeći prolaz pada sa CONNECTION_REFUSED. Pre ponovnog
+  pokretanja ubiti stare (`pkill -f static-server.mjs`) — ali NE u istoj
+  komandi sa testom: pkill pogodi sopstveni shell jer u tekstu komande vidi
+  isti obrazac.
+- Staro M4 pravilo (maska na traci tabova) i M3 (red akcija koji se pomera)
+  su UKINUTI odlukom vlasnice 16.08. — ne vraćati ih.
+
+---
+
 # Sesija 4–10. avgust 2026 (četrnaesta) — NASLOVI, REČNIK, SARADNJA, GSC, AUDIT
 
 > **Grana:** `feat/naslovi-h1-h2-seo-tekst` → spojeno na `main`; sve je i na

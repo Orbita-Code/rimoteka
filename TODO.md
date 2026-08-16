@@ -12,6 +12,7 @@
 |---|---|
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
 | **U TOKU (ne pushovati)** | grana `feat/dizajn-pocetna-futer-saradnja` — početna i futer. Futer je vlasnica odbila, ide drugi prolaz. Detalji: `HANDOVER.md`, dvanaesta sesija |
+| **U TOKU 16.08. (ne pushovati)** | **Dve ture mobilnih bagova sa iPhone-a — sve popravljeno lokalno, test 555/555, čeka pregled vlasnice.** Tura 1 (7): skrol-tastatura, sečene pilule/tabovi, stihovi u Klasicima, ijekavica u igri, „znanstveni", placeholder. Tura 2 (9): tabovi se lome u piluli, pilule rima preširoke, akcije beležnice razbacane, futer u dva reda, praznina na početnoj, Omiljene duplo, traka rima iza Safari trake i „plovi" pri skrolu, skok pri kucanju slogova. Detalji: `HANDOVER.md`, petnaesta i šesnaesta sesija |
 | **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |
 | **OBJAVLJENO 31.07.** | tekst + mobilna verzija (M5–M15) + kontakt u futeru + prazno stanje alata. Test lokalno **436/436**, protiv produkcije **444/444**. Sitemap ponovo prijavljen |
 | ⚠️ **Nije urađeno** | **Request Indexing u GSC** — direktna adresa `/search-console/inspect` vraća 404, sintetički Enter ne pokreće proveru. Probati preko CDP-a (Chrome sa `--remote-debugging-port=9222`). Za 2.000 strana ionako nije put (dnevni limit ~10); ima smisla samo za nekoliko najvažnijih strana |

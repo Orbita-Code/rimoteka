@@ -1073,3 +1073,48 @@ definicija („oblik reči klub") nije tačna.
 > promenjeni oblik (`grne` od `grnuti`) uopšte nema svoju. Zaključak „nema je u
 > rečniku" sme da se napiše tek kad je reč tražena na oba načina — inače se briše
 > postojeća reč, a pogrešna definicija ostane neotkrivena.
+
+---
+
+## 16.08.2026 — test i audit promašili iOS-26 plavu traku i „praznine u rasporedu"
+
+**Šta je promašeno:** isti dan, dve ture prijava vlasnice sa pravog iPhone-a —
+ukupno 16 nalaza koji su prošli i kroz audit 10.08 (8,4/10) i kroz test 546/546:
+(1) Safari-jeva traka (lozinka/kartica/lokacija) na iOS 26 lebdi iznad tastature
+i prekriva pilule rima — lažna tastatura u testu (336 px) to ne reprodukuje;
+(2) traka rima „plovila" je preko editora pri skrolu, jer je `bottom:var(--kb)`
+vezan za layout-vidokrug koji pri pomeranju stoji;
+(3) tabovi su lomili tekst u piluli — popravka iz prve ture (prelamanje) ispustila
+je `nowrap`, a test je proveravao samo „ništa nije odsečeno", ne i „ništa se ne
+lomi";
+(4) pilule rima dvostruko šire od reči (mreža jednakih kolona + span 2) — test je
+merio „reč se ne seče" i „44 px visina", a nije merio „pilula nije šira od reči";
+(5) red akcija beležnice sa usamljenom pilulom i prazninom — isto: proveravalo se
+„nije odsečena", ne „red je pun";
+(6) dvostruko objašnjenje na omiljenim (hero ispod liste) — vidljivo tek kad se
+prođe tab do dna, što test ne radi.
+
+> **PRAVILO 69:** **Za svaki raspored se proveravaju OBE strane novčića: „ništa
+> nije odsečeno/preklopljeno" I „ništa nema viška praznog / nije šire od
+> sadržaja".** Do ovog propusta merena je samo prva strana, pa su mreža i grupe
+> mogle da raspu prazninu bez ijednog crvenog testa. Uz to: **lažna tastatura
+> mora da raste sa stvarnošću** — iOS menja visinu chrome-a oko tastature, pa se
+> na spisku za ručni pregled (vlasnica, pravi telefon) proverava svaka popravka
+> oko tastature pre deploy-a, ne samo numerička provera.
+
+---
+
+## 16.08.2026 (drugi deo) — skripta javila „sve u redu" jer nije transliterovala ćirilicu
+
+**Šta je promašeno:** prva verzija `scripts/matica-znacenja.py` javila je
+0 prepisanih i 0 drugačijih definicija — jer je tekst tumačenja iz Matice
+(ćirilica) propušten kroz latinični tokenizer bez transliteracije, pa je
+skup reči iz Matice uvek bio PRAZAN, a svaka sličnost 0. Broj je izgledao
+verodostojno („značenje u redu: 25.312").
+
+> **PRAVILO 70:** **Svaka skripta koja poredi tekst na dva pisma MORA da ima
+> kontrolni par čije se poklapanje ZNA unapred** (ovde: `žučljivo` — gotovo
+> prepisano iz Matice, mora pasti u spisak). Bez kontrolnog para u samom
+> izlazu, nula na izvestaju znači „skripta ne radi", ne „nema nalaza".
+> Uz to: **nulu u izveštaju uvek posumnjati** — proveriti jedan pozitivan
+> slučaj rukom pre slanja vlasnici.

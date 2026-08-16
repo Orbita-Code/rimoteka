@@ -275,7 +275,14 @@ function finalSylKey(w){
   return w.slice(start);
 }
 function commonSuffix(a,b){
-  a = a.toLowerCase(); b = b.toLowerCase();
+  /* č≡ć i dž≡đ: u rimi su to parovi koji se razlikuju samo po „tvrdoći"
+     afrikata i pesnici ih slobodno rimuju („šećera/večera", „džep/đep").
+     Bez izjednačavanja „šećera" i „večera" dele samo „era" — isto koliko i
+     „šećera" i „partnera" — pa česte reči po učestalosti pretiču bolju rimu
+     (prijava vlasnice 16.08.2026: „zašto je partnera bolja rima od večera?").
+     Pravopis se NE dira — izjednačavanje važi samo za MERENJE sličnosti. */
+  const norm = s => s.toLowerCase().replace(/č/g,'ć').replace(/dž/g,'đ');
+  a = norm(a); b = norm(b);
   let n=0; const la=a.length, lb=b.length;
   while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
   return n;
@@ -305,7 +312,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=235')
+  defsPromise = fetch('/definicije.json?v=238')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -339,7 +346,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260803a', true),
+    uzmiTekst('/reci.txt?v=20260816d', true),
     uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -594,12 +601,37 @@ function osveziVisinuTastature(){
   koren.style.setProperty('--kb', kb + 'px');
   document.body.classList.toggle('kb-open', kb > 0);
 }
-function zakaziOsveziTastaturu(){
+
+/* KORISNIK KOJI SKROLUJE SE NE DIRA (prijava vlasnice 16.08.2026: „kad skrolujem
+   nagore, strana se sama vrati naniže; sadržaj se preklapa i treperi").
+   Uzrok: `visualViewport` na telefonu dešava „scroll" pri SVAKOM pomeranju strane
+   dok je tastatura otvorena (vidljivi deo klizi preko layout viewport-a), a ovde
+   je na taj događaj stajala ispravka položaja — `keepCaretVisible()` /
+   `drziPoljeUVidokrugu()` pozovu `window.scrollBy` kad kursor ili polje ispadnu
+   iz vidokruga. Čovek skroluje nagore, kod ga vrati naniže, pa on opet — borba
+   stotinama puta u sekundi, što se na ekranu vidi kao skokovi i preklapanje.
+   Zato važi dvoje:
+     1. usred korisnikovog skrola ispravka položaja SE NE RADI (zastavica dole);
+     2. na „scroll" događaj se samo prati visina tastature (--kb), a red se
+        dovraća u vidokrug samo na „resize" (tastatura se otvorila/zatvorila),
+        pri fokusu i pri kucanju — nikad usred skrola. */
+let korisnikSkroluje = false, korisnikSkrolujeTimer = null;
+function oznaciSkrolanje(){
+  korisnikSkroluje = true;
+  clearTimeout(korisnikSkrolujeTimer);
+  korisnikSkrolujeTimer = setTimeout(() => { korisnikSkroluje = false; }, 350);
+}
+['touchmove', 'wheel'].forEach(dog =>
+  window.addEventListener(dog, oznaciSkrolanje, { passive: true, capture: true }));
+window.addEventListener('scroll', oznaciSkrolanje, { passive: true });
+
+function zakaziOsveziTastaturu(samoVisina){
   if(kbZakazano) return;
   kbZakazano = true;
   requestAnimationFrame(() => {
     kbZakazano = false;
     osveziVisinuTastature();
+    if(samoVisina || korisnikSkroluje) return;
     /* Tastatura se otvara POSLE fokusa, pa red u kome se piše tek tada može da
        ostane ispod nje. Panel se u istom kadru pomerio na svoje novo mesto, pa
        je ovo pravi trenutak da se proveri vidi li se kursor. */
@@ -616,6 +648,7 @@ function zakaziOsveziTastaturu(){
    nikad ne otima pregledaču. */
 function drziPoljeUVidokrugu(){
   if(!jeTelefon()) return;
+  if(korisnikSkroluje) return;   // ne otima se prstu — v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
   const vv = window.visualViewport;
   if(!vv) return;
   const a = document.activeElement;
@@ -630,13 +663,37 @@ function drziPoljeUVidokrugu(){
   const sr = sledeci ? sledeci.getBoundingClientRect() : null;
   const dole = Math.max(rr.bottom, (sr && sr.height > 0 && sr.top - rr.bottom < 60) ? sr.bottom : 0);
   const vidljivoDno = vv.offsetTop + vv.height;
-  if(dole > vidljivoDno - 12) window.scrollBy(0, Math.ceil(dole - vidljivoDno + 12));
+  if(dole > vidljivoDno - 12){
+    let pomak = Math.ceil(dole - vidljivoDno + 12);
+    /* Visoko polje (tekst-arija brojača slogova): kad celo ne može iznad
+       tastature, dovlačenje DNA bi mu izguralo VRH iz kadra — prijava
+       vlasnice 16.08.2026: dodir u prazno polje je „odneo" stranu na dno,
+       polje ostane usečeno na vrhu. Zato se pomeraj seče: vrh polja nikad
+       ne sme iznad gornje ivice vidokruga. */
+    const najvise = Math.max(0, Math.floor(rr.top - vv.offsetTop - 8));
+    if(pomak > najvise) pomak = najvise;
+    if(pomak > 0) window.scrollBy(0, pomak);
+  }
 }
+/* Safari traka iznad tastature na iOS-u (~50 px, izmereno na snimku vlasnice):
+   lebdi preko donjeg dela vidokruga, pa `visualViewport` visina je zahvata.
+   Deklarisano PRE vv bloka ispod jer ga taj blok čita pri učitavanju. */
+const JE_IOS = /iP(hone|ad|od)/.test(navigator.userAgent) ||
+  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const TRAKA_SAFARI_PX = 56;
 if(window.visualViewport){
-  visualViewport.addEventListener('resize', zakaziOsveziTastaturu);
-  visualViewport.addEventListener('scroll', zakaziOsveziTastaturu);
+  /* „resize" = tastatura se otvorila/zatvorila → tu se red dovraća u vidokrug.
+     „scroll" = korisnik skroluje → tu se SAMO prati visina (--kb), bez diranja
+     položaja — v. komentar „KORISNIK KOJI SKROLUJE SE NE DIRA" iznad.
+     Uz oba događaja se i traka rima dovraća na dno VIDLJIVOG vidokruga
+     (`zakaziLepljenjeTrake`) — ona ne skroluje stranu, samo se sama premi. */
+  visualViewport.addEventListener('resize', () => { zakaziOsveziTastaturu(false); zakaziLepljenjeTrake(); });
+  visualViewport.addEventListener('scroll', () => { zakaziOsveziTastaturu(true); zakaziLepljenjeTrake(); });
   window.addEventListener('orientationchange', () => setTimeout(osveziVisinuTastature, 250));
   osveziVisinuTastature();
+  /* Safari traka iznad tastature na iOS-u — koliko treba podići traku rima
+     i donji rub sadržaja (na ostalim platformama 0). */
+  document.documentElement.style.setProperty('--traka-lift', (JE_IOS ? TRAKA_SAFARI_PX : 0) + 'px');
 }
 
 /* ── ŠIRINA ČIPA U MREŽI ────────────────────────────────────────────────────
@@ -658,39 +715,14 @@ function zakaziMerenjeCipova(){
   requestAnimationFrame(() => { zakaziMerenjeCipova.cekaKadar = false; izmeriCipove(); });
 }
 function izmeriCipove(){
-  const svi = [];
-  document.querySelectorAll('.results').forEach(box => {
-    if(box.closest('.note-rhymes')) return;   // panel uz stih ima svoj raspored
-    box.querySelectorAll(':scope > .chip').forEach(c => svi.push(c));
-  });
-  if(!svi.length) return;
-  if(!jeTelefon()){                            // povratak na širi ekran
-    svi.forEach(c => c.classList.remove('chip-siri','chip-najsiri'));
-    return;
-  }
-  svi.forEach(c => c.classList.remove('chip-siri','chip-najsiri'));   // 1. upis
-  /* 2. čitanje — koliko čipu TREBA meri se preko same reči, ne preko čipa.
-     Zamka: `.word` je flks-dete sa `min-width:0`, pa se ono SKUPI i seče na tri
-     tačke umesto da razvuče čip — zbog toga je `c.scrollWidth` uvek jednak
-     `c.clientWidth` i nijedan čip nikad nije dobio širu kolonu. Izmereno
-     02.08.2026. na 320 px: „novorođenče" traži 103 px, dobija 75, a čip je i
-     dalje javljao 115/115. Manjak reči se zato dodaje na širinu čipa. */
-  const mere = svi.map(c => {
-    const w = c.querySelector('.word');
-    /* Prag od 10 px: bez njega je i reč kojoj fali dva-tri piksela uzimala
-       DVE kolone, pa je u redu ostajala jedna do dve rime umesto tri (izmereno
-       03.08.2026: prosek 1,95 po redu). Manjak ispod 10 px se ne vidi kao
-       sečenje — poslednje slovo je i dalje čitko. */
-    const sirovManjak = w ? Math.max(0, w.scrollWidth - w.clientWidth) : 0;
-    const manjak = sirovManjak >= 10 ? sirovManjak : 0;
-    return { c, treba: Math.max(c.scrollWidth, c.clientWidth + manjak), ima: c.clientWidth };
-  });
-  const razmak = 8;
-  mere.forEach(m => {                                                 // 3. upis
-    if(m.ima <= 0 || m.treba <= m.ima + 1) return;
-    if(m.treba > 2 * m.ima + 2 * razmak) m.c.classList.add('chip-najsiri');
-    else m.c.classList.add('chip-siri');
-  });
+  /* Od 16.08.2026 (drugi prolaz) mobilni `.results` je FLEX-red koji se
+     prelama — pilula je široka tačno koliko joj treba, pa merenje i dodela
+     kolona (`chip-siri`/`chip-najsiri`) više nema šta da radi: te klase su
+     izbačene iz CSS-a zajedno sa mrežom. Funkcija ostaje samo da počisti
+     zaostale klase (npr. star dokument ili povratak sa starije verzije),
+     a pozivi se zadržavaju — jeftina je i ne dira raspored. */
+  document.querySelectorAll('.results > .chip.chip-siri, .results > .chip.chip-najsiri')
+    .forEach(c => c.classList.remove('chip-siri','chip-najsiri'));
 }
 window.addEventListener('resize', zakaziMerenjeCipova);
 
@@ -819,10 +851,12 @@ document.addEventListener('keydown', (e) => { if(e.key === 'Escape') zatvoriCipT
 window.addEventListener('resize', zatvoriCipTraku);
 
 /* ── REDOVI KOJI SE POMERAJU U STRANU ───────────────────────────────────────
-   Traka alata u beležnici i traka rima iznad tastature ne staju u širinu
-   ekrana. Bez ikakvog znaka red deluje odsečen, pa se blago izbledi desna
-   ivica — a čim se dopomera do kraja, bleđenje se sklanja da poslednje dugme
-   ne ostane sivo. Isti postupak koji već koristi traka tabova (M4). */
+   Traka rima iznad tastature ne staje u širinu ekrana. Bez ikakvog znaka red
+   deluje odsečen, pa se blago izbledi desna ivica — a čim se dopomera do
+   kraja, bleđenje se sklanja da poslednje dugme ne ostane sivo.
+   (Traka akcija u beležnici i traka tabova su ovo koristile do 16.08.2026 —
+   tada su po odluci vlasnice prešle na PRELAMANJE u više redova, pa klasa
+   `red-do-kraja` za njih više nema vizuelnog efekta.) */
 function osveziMaskuReda(red){
   if(!red) return;
   const doKraja = red.scrollLeft + red.clientWidth >= red.scrollWidth - 4;
@@ -840,7 +874,9 @@ function pratiPomeranjeUStranu(red, trajno){
   if(trajno) window.addEventListener('resize', osvezi);
   osvezi();
 }
-document.querySelectorAll('.hint-actions').forEach(r => pratiPomeranjeUStranu(r, true));
+/* `.hint-actions` se od 16.08.2026. PRELAMA (ne pomera u stranu), pa se ovde
+   više ne kači — jedini red sa bočnim pomeranjem je traka rima iznad
+   tastature (poziv iz `renderNoteRhymes`). */
 
 /* ── POSLE PRETRAGE ODMAH POKAŽI RIME ───────────────────────────────────────
    Na telefonu je iznad rezultata stajalo 1.070 px sadržaja (logo, traka alata,
@@ -1165,6 +1201,18 @@ kidsToggle.addEventListener('change', e=>{
  * ========================================================== */
 const COMMON_POOL_SIZE = 8000;
 let commonPool = null;
+/* IJEKAVICA U IGRI I NA KOCKICI — pravilo projekta: u igri ijekavskih reči NEMA
+   (prijava vlasnice 16.08.2026: igra je ponudila „dvije"). Ijekavske reči stoje
+   na KRAJU niza `WORDS` (od indeksa `jekStart`), a deo jekavskih oblika živi i
+   unutar ekavskog dela (skup `JEKAVSKI` — v. komentar uz njega). Bazen se gradi
+   iz celog `WORDS` po frekvenciji, pa je `dvije` (13.461 pojava) ulazio u bazen.
+   Provera se radi pri svakom IZBORU, ne pri gradnji bazena — `JEKAVSKI` stiže
+   mrežom kasnije, pa bi filter pri gradnji bio zastareo. */
+let jekReciSkup = null;
+function jeJekavskaRec(w){
+  if(!jekReciSkup) jekReciSkup = new Set(WORDS.slice(jekStart));
+  return jekReciSkup.has(w) || JEKAVSKI.has(w.toLowerCase());
+}
 function getCommonPool(){
   if(commonPool) return commonPool;
   /* Bazen ide ISKLJUČIVO po frekvenciji — namerno, i to je provereno.
@@ -1197,6 +1245,9 @@ function randomCommonWord(extraFilter){
   for(let t=0;t<60;t++){
     const w = pool[Math.floor(Math.random()*pool.length)];
     if(!w || syllables(w) < 2 || w.length < 3) continue;
+    /* Kockica poštuje kvačicu „uključi ijekavicu": kad je isključena, ijekavski
+       oblici ne izlaze (u igri ih nema nikad — to filter dolazi kroz extraFilter). */
+    if(!includeJek && jeJekavskaRec(w)) continue;
     if(extraFilter && !extraFilter(w)) continue;
     return w;
   }
@@ -1927,8 +1978,38 @@ let notePanelKey = null, notePanelBase = null, notePanelExpanded = false;
 // usidren za reč sa kojom se rimuješ dok god je pod kursorom baš ubačena reč.
 let notePanelWord = '', noteInsertedWord = '';
 const isNarrow = () => window.matchMedia('(max-width:900px)').matches;
+/* TRAKA RIMA ZALEPPLJENA ZA VIDOKRUG, NE ZA STRANU (prijave vlasnice
+   16.08.2026, drugi prolaz):
+   1) dok se skroluje nagore, panel je „plovio" preko editora — `position:fixed;
+      bottom:var(--kb)` meri se od layout-vidokruga, a kad se prstom pomera
+      vidljivi deo, layout stoji pa panel na ekranu „beži" preko teksta;
+   2) na iPhone-u Safari-jeva traka (lozinka/kartica/lokacija) lebdi IZNAD
+      tastature i prekriva pilule (v. `JE_IOS`/`TRAKA_SAFARI_PX` gore).
+   Zato se položaj panela računa od VIDLJIVOG vidokruga (`top` u layout
+   koordinatama) na svaki „scroll"/„resize" vidokruga — bez `window.scrollBy`,
+   prst se ne dira — a na iOS-u se podiže za visinu Safari trake. */
+function zalepiTrakuRima(){
+  const vv = window.visualViewport;
+  if(!vv || !document.body.classList.contains('notes-typing')) return;
+  const lift = JE_IOS ? TRAKA_SAFARI_PX : 0;
+  noteRhymesBox.style.bottom = 'auto';
+  noteRhymesBox.style.top = Math.max(0,
+    Math.round(vv.offsetTop + vv.height - noteRhymesBox.offsetHeight - lift)) + 'px';
+}
+function odlepiTrakuRima(){
+  noteRhymesBox.style.top = '';
+  noteRhymesBox.style.bottom = '';
+}
+let lepljenjeZakazano = false;
+function zakaziLepljenjeTrake(){
+  if(lepljenjeZakazano) return;
+  lepljenjeZakazano = true;
+  requestAnimationFrame(() => { lepljenjeZakazano = false; zalepiTrakuRima(); });
+}
 function setTypingMode(on){
   document.body.classList.toggle('notes-typing', !!on && isNarrow());
+  if(document.body.classList.contains('notes-typing')) zalepiTrakuRima();
+  else odlepiTrakuRima();
 }
 noteEditor.addEventListener('focus', () => { setTypingMode(true); setTimeout(keepCaretVisible, 250); });
 noteEditor.addEventListener('blur', () => setTypingMode(false));
@@ -1964,6 +2045,7 @@ function caretViewportBottom(){
 }
 function keepCaretVisible(){
   if(!document.body.classList.contains('notes-typing')) return;
+  if(korisnikSkroluje) return;   // ne otima se prstu — v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
   const bottom = caretViewportBottom();
   if(bottom == null) return;
   const panel = noteRhymesBox.getBoundingClientRect();
@@ -2623,6 +2705,7 @@ function vezniProsirivacPanela(box){
     const sada = box.classList.toggle('nr-open');
     b.setAttribute('aria-expanded', sada ? 'true' : 'false');
     b.setAttribute('aria-label', uiTxt(sada ? 'skupi listu rima' : 'prikaži sve rime'));
+    zakaziLepljenjeTrake();   // visina panela se promenila → dovraći ga na dno vidokruga
     if(!sada) box.scrollTop = 0;
     // razvijanje menja red iz „pomera se u stranu" u „prelama se" i obrnuto
     osveziMaskuReda(box.querySelector('.results'));
@@ -2746,6 +2829,8 @@ function renderNoteRhymes(){
   box.appendChild(rdiv);
   // na telefonu traka se pomera u stranu — desna ivica kaže da ima još rima
   pratiPomeranjeUStranu(rdiv, false);
+  // sadržaj panela se promenio → visina je drugačija → traku dovraći na dno
+  zakaziLepljenjeTrake();
 
   // „još N rima" — otvara se u samom panelu; odlazak na drugu stranu bi
   // prekinuo pisanje, a zbog toga panel i postoji
@@ -3020,9 +3105,7 @@ el('clearFavs').onclick = ()=>{
 /* ====================== TABOVI / PISMO / TOAST ====================== */
 /* Aktivan tab mora da se VIDI — i čitaču ekrana i na uskom telefonu.
    Nalaz N8: stanje je postojalo samo kao CSS klasa, bez `aria-current`, pa
-   čitač ekrana nije imao odakle da zna gde se korisnik nalazi.
-   Nalaz „mobilni": na SEO podstranama je aktivan tab bio i do 309 px desno od
-   vidljivog dela trake — korisnik ne vidi na kojoj je strani. */
+   čitač ekrana nije imao odakle da zna gde se korisnik nalazi. */
 function oznaciAktivanTab(name){
   document.querySelectorAll('#tabs [data-tab]').forEach(b => {
     const jeste = b.dataset.tab === name;
@@ -3031,6 +3114,10 @@ function oznaciAktivanTab(name){
     else b.removeAttribute('aria-current');
   });
 }
+/* Od 16.08.2026. traka tabova se na telefonu PRELAMA u više redova (odluka
+   vlasnice: ništa se ne seče) — `scrollWidth` je tada jednak `clientWidth`, pa
+   ova dva mehanizma (dovlačenje aktivnog taba, maska) miruju. Ostaju kao
+   rezerva za slučaj da se red sa pomeranjem ikad vrati. */
 function dovediAktivanTabUVid(){
   const traka = document.getElementById('tabs');
   const akt = traka && traka.querySelector('[data-tab].active');
@@ -3039,11 +3126,6 @@ function dovediAktivanTabUVid(){
   traka.scrollLeft = Math.max(0, cilj);
 }
 
-/* M4: traka tabova je na telefonu duža od ekrana (na 390 px beži i preko
-   600 px), a bez znaka da se pomera deluje odsečeno — „nalaz: tri elementa
-   izlaze van ekrana". CSS maska na desnoj ivici kaže „ima još"; ovde se
-   prati pomераnje i maska se sklanja kad se stigne do kraja, da poslednja
-   stavka ne ostane izbledena. */
 const trakaTabova = document.getElementById('tabs');
 function osveziMaskuTabova(){
   if(!trakaTabova) return;
@@ -3135,7 +3217,7 @@ function switchTab(name){
   /* i <html> drži istu oznaku — po njoj CSS bira traku ili futerski poziv za
      saradnju (početna vrednost stiže iz kratke skripte u zaglavlju) */
   document.documentElement.dataset.tab = name;
-  if(name !== 'beleznica') document.body.classList.remove('notes-typing');
+  if(name !== 'beleznica'){ document.body.classList.remove('notes-typing'); odlepiTrakuRima(); }
   // brojač se meri iz stvarnog rasporeda — sakriven panel nema širinu
   if(name === 'slogovi' && sylInput.value) updateSyl();
   // gutter se meri iz stvarnog rasporeda — sakriven panel nema visinu, pa se
@@ -4359,8 +4441,9 @@ function nextWord(){
   for(let t = 0; t < 50; t++){
     // biramo iz bazena poznatih reči — igra sa arhaizmima nije igra —
     // i OBAVEZNO reč koja uopšte ima rimu (npr. „valjda" je nema, pa je
-    // igrač ne može rešiti ni kad zna sve reči srpskog jezika)
-    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && imaRimu(x));
+    // igrač ne može rešiti ni kad zna sve reči srpskog jezika).
+    // Ijekavski oblici nikad (pravilo projekta — v. `jeJekavskaRec`).
+    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
     if(w){
       gameCurrentWord = w;
       gameWordEl.textContent = disp(w);

@@ -8,11 +8,26 @@
 
 ---
 
-## ⏸ PREGLED SPISKA 01b — NASTAVITI OD REČI NA „BO" (02.08.2026)
+## ⏸ PREGLED SPISKA 01b — UKINUT RUČNI PREGLED (16.08.2026)
 
-Vlasnica ručno pregleda `AUDIT/MATICA-fali/01b-za-pregled.md` — reči koje Rečnik
-Matice ima, a srLex ih ne potvrđuje (20.021 red). **Stigla je do reči na `BO`.**
-Sledeći put se počinje odatle, ne od početka.
+Vlasnica je 16.08.2026. odbacila ručni pregled 20.021 reda (`01b-za-pregled.md`):
+„ja nisam mašina da pregledam tolike reči — nađi mi bolje rešenje". Mašinska
+trijaža je urađena istog dana (`01b-ARHIVA-trijaza.md`):
+
+| Kanta | Koliko | Ishod |
+|---|---|---|
+| OCR šum (duplo slovo, bn/bl) | 759 | ispravljeno mašinski; **190 dokazanih su SVE već u rečniku** (duplikati); 569 nedokazanih — arhiva, NE dodaje se (pravilo: bez nagađanja) |
+| Već u rečniku | 67 | duplikat |
+| Zastarelo/narodno po Matici | 111 | odbačeno — pravopis, ne govor |
+| Retke samostalne reči | 19.084 | **ARHIVA** — vadi se po TEMI kad vlasnica zatraži |
+
+Prava vrednost umesto trpanja OCR spiska: **sistematska pokrivenost oblika**
+(primer: „znanstveni" je falio, „zdravstveni" postojao). Spisak
+`08-pridevski-i-za-dodavanje.md` — **131** određeni pridevski oblik na -i koje
+Matica potvrđuje, a mi nemamo. **16.08: vlasnica prošla spisak — 96 UPISANO
+u rečnik (280.433 reči), 35+3 izbačeno njenim pregledom.** Iz „odbijenih" —
+59 reči sa slova A–B UPISANO (280.478), `boljeli` izbačena kao ijekavica.
+Ona nastavlja po slovima; mi upisujemo proverene grupe istim postupkom.
 
 Uz to čekaju, po njenom zahtevu od 02.08.2026, celi tematski krugovi kojih u
 rečniku nema ili su nepotpuni:
@@ -136,6 +151,23 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 
 ## Sporno / čeka odluku vlasnice
 
+- [ ] **Parovi „ista reč, dva pisma" (č/ć)** — nađeno 16.08.2026. Izbačeni su
+      `većera` i `većeras` (odluka vlasnice: „rečnik prati pravopis, ne govor").
+      Grubo skeniranje daje ~180 parova gde obe č/ć varijante postoje, ali je
+      većina lažnih pozitiva u oba smera (`braća/brače`, `bića/biče`, prezimena).
+      Treba prolaz kroz Maticu reč po reč: par gde JEDNA varijanta nije u Matici,
+      a definicija druge kaže „oblik reči X" — isti postupak kao `većera`.
+      Čeka zeleno svetlo vlasnice za prolaz.
+- [ ] **Određeni oblici prideva (-i) nisu sistematski pokriveni** — nađeno 16.08.2026.
+      Igra je odbila `znanstveni` („Ta reč nije u rečniku"), iako rečnik ima
+      `znanstven`, `znanstvena`, `znanstveno`, a neke određene oblike ipak ima
+      (`zdravstveni` sa frekvencijom 8.100). `znanstveni` je ubacen istog dana
+      (Matica: `знанствен, -а, -о — који се односи на знаност`; objašnjenje naše).
+      Gruba provera: među osnovama koje imaju i ženski (-a) i srednji (-o) oblik,
+      za ~620 ne postoji određeni -i oblik — među njima su i lažni kandidati
+      (prisvojni tipa `anin`, `apostolov` ga ne grade isto), pa spisak traži
+      pregled pre ikakvog upisa. Isti problem verovatno važi i za druge padeže
+      (`znanstvenog`, `znanstvenom` takođe nema).
 - [ ] `steža`, `maštav`, `teom` — nepoznate reči, proveriti u rečniku
 - [ ] `stoljetni`, `iskorištavanje`, `shvaćanje` — hrvatski oblici, ne ijekavica
 - [ ] `pterosaurus` — latinski oblik; srpski bi bio *pterosaur*

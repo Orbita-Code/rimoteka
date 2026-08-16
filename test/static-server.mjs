@@ -50,6 +50,9 @@ const srv = http.createServer((req, res) => {
   /* Kao nginx (`error_page 404 /404.html`) — inače test ne može da proveri
      prilagođenu 404 stranu, a ona je zaseban nalaz (N10). */
   if (!st) {
+    /* Dijagnostika: LOG_404=1 u okruženju upisuje putanju svakog promasha —
+       inače se u testu vidi samo „404" u konzoli, bez imena fajla. */
+    if (process.env.LOG_404) console.error('[404]', put);
     const strana = path.join(KOREN, '404.html');
     try {
       const telo = fs.readFileSync(strana);

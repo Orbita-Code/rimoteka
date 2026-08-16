@@ -6,6 +6,20 @@
 > Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
 > Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+**Stanje na dan 16.08.2026: 2 otvorena nalaza + 16 prijava vlasnice LOKALNO
+popravljeno (čeka se njen pregled, pa deploy) + 1 rečnički nalaz ZATVOREN
+istog dana** (izbačeni „većera" i „većeras" — Matica ima samo „večera/večeras";
+pravilo vlasnice: rečnik prati pravopis, ne govor; detalji u `HANDOVER.md`,
+šesnaesta sesija). Prijave su stigle sa njenog
+iPhone-a u dve ture istog dana — 7 sa produkcije (skrol-tastatura, sečene
+pilule, stihovi, ijekavica u igri, „znanstveni", placeholder) i 9 sa lokalnog
+preview-a (lomljenje teksta u tabovima, široke pilule, razbacane akcije, futer
+u dva reda, praznina, Omiljene duplo, traka rima iza Safari trake, skok pri
+kucanju slogova). Sve popravljeno, test **555/555** sa novom sekcijom 30G.
+Pun opis: `HANDOVER.md`, petnaesta i šesnaesta sesija. **Zatvoriće se deploy-jem
+i njenim pregledom na telefonu.** Nalazi koji čekaju njenu odluku i dalje
+stoje: `P11` (izgled huba `/rime-za/`).
+
 **Stanje na dan 02.08.2026 (kraj): 2 otvorena nalaza** — `R1-ostatak` (6 reči) i `P11`
 (izgled huba) čekaju odluku vlasnice. **Zatvoreno u ovoj sesiji: J1-ostatak** — svih 277
 spornih oblika provučeno kroz Rečnik Matice srpske; 99 hrvatskih obrisano, 141 ijekavski

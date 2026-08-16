@@ -62,6 +62,10 @@ def final_syl_key(w):
     return w[start:]
 
 def common_suffix(a, b):
+    # č≡ć i dž≡đ pri merenju sličnosti rime — v. isti komentar u app.js.
+    # Pravopis se ne dira; pesnici ove parove slobodno rimuju.
+    a = a.replace('č', 'ć').replace('dž', 'đ')
+    b = b.replace('č', 'ć').replace('dž', 'đ')
     n = 0
     while n < len(a) and n < len(b) and a[len(a)-1-n] == b[len(b)-1-n]:
         n += 1
@@ -271,7 +275,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260731a">
+<link rel="stylesheet" href="/style.css?v=20260816b">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -419,7 +423,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260731a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260816b"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -452,7 +456,11 @@ def panel_html(ime, skriveno_rime=False):
 
 
 def notepad_tool_html():
-    return panel_html('beleznica', skriveno_rime=True)
+    # Klasa `alat-beleznica` služi mobilnom CSS-u: na telefonu se red sa
+    # akcijama (.hint-actions) premešta ISPOD lista (flex order), da editor
+    # ostane visoko na ekranu (nalaz M3), a pilule se prelamaju ispod njega.
+    return panel_html('beleznica', skriveno_rime=True).replace(
+        '<div class="landing-tool">', '<div class="landing-tool alat-beleznica">', 1)
 
 
 SYL_TOOL_HTML = """  <div class="landing-tool">

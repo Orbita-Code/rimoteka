@@ -78,10 +78,20 @@ async function main() {
     p.on('console', m => {
       if (m.type() !== 'error') return;
       const t = m.text();
-      // fontovi sa googleapis su blokirani u headless okruženju — nije naš bug
-      if (/fonts\.googleapis|fonts\.gstatic|net::ERR_FAILED.*fonts/.test(t)) return;
+      const loc = (m.location() && m.location().url) || '';
+      /* Fontovi sa Google-a nisu naš bug ni u jednom obliku: u headless
+         okruženju bivaju blokirani (`net::ERR_FAILED` — tada URL stoji u
+         TEKSTU poruke), a 16.08.2026. je Google-ov CDN poživeo da na neke
+         Rubik woff2 podatke odgovara 404 — tada je tekst poruke generičan
+         („Failed to load resource… 404"), a URL stoji samo u `location()`.
+         Zato se filtrira i jedno i drugo. */
+      if (/fonts\.googleapis|fonts\.gstatic/.test(t) || /fonts\.googleapis|fonts\.gstatic/.test(loc)) return;
+      if (/net::ERR_FAILED.*fonts/.test(t)) return;
       if (dozvoljeno(t)) return;
-      konzolaGreske.push(`[${gde || p.url()}] ${t}`);
+      /* „Failed to load resource" bez URL-a resursa je nedijagnosticira —
+         poruka nosi samo adresu STRANE. `location().url` je izvor resursa. */
+      const izvor = loc ? ' ← ' + loc.slice(0, 160) : '';
+      konzolaGreske.push(`[${gde || p.url()}] ${t}${izvor}`);
     });
     p.on('pageerror', e => {
       if (dozvoljeno(e.message)) return;
@@ -183,6 +193,24 @@ async function main() {
       return [...document.getElementById('rimeResults').querySelectorAll('.word')].map(e => e.textContent.trim());
     });
     ok('rime za „nada" postoje', rimeNada.length > 5, `nađeno ${rimeNada.length}`);
+
+    /* č≡ć pri merenju sličnosti (prijava vlasnice 16.08.2026): „partnera" je
+       bila među „najboljima" za „šećera" jer je slovno „era" = „era" — a
+       „večera" (bolja rima, č≈ć) je gubila na učestalost. Sada „večera" mora
+       biti IZNAD „partnera", a dijalekatske „većera" više nema u rečniku. */
+    const secer = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      document.getElementById('rimeInput').value = 'šećera';
+      document.getElementById('rimeBtn').click();
+      await w(900);
+      const najbolje = document.querySelector('#rimeResults .res-group');
+      const reci = [...najbolje.querySelectorAll('.chip .word')].map(e => e.textContent.trim());
+      return { reci: reci.slice(0, 8), ve: reci.indexOf('večera'), pa: reci.indexOf('partnera'), vec: reci.includes('većera') };
+    });
+    ok('„večera" je među najboljim rimama za „šećera"', secer.ve >= 0, secer.reci.join(', '));
+    ok('„večera" se rangira iznad „partnera" za „šećera"',
+       secer.ve >= 0 && (secer.pa === -1 || secer.ve < secer.pa), `večera #${secer.ve}, partnera #${secer.pa}`);
+    ok('„većera" (ć) nije u rečniku ni u rimama', secer.vec === false);
 
     console.log('\n3) Frekvencijsko rangiranje i SINONIMI');
     await page.waitForFunction(() => typeof SYNONYMS !== 'undefined' && Object.keys(SYNONYMS).length > 0, { timeout: 180000 })
@@ -522,6 +550,40 @@ async function main() {
     ok('igra PRIZNAJE tačnu rimu', /✓|Bravo|Tačno|tačn/i.test(igra.fbTacna),
        `rima „${igra.rima}" za „${igra.rec}" → „${igra.fbTacna}"`);
 
+    /* Ijekavica u igri NIKAD (prijava vlasnice 16.08.2026: igra je ponudila
+       „dvije"). Bazen poznatih reči se gradi po frekvenciji iz celog WORDS —
+       dakle i iz ijekavskog dela — pa se sada filtrira pri izboru. Ista
+       provera štiti i kockicu kad kvačica „ijekavica" nije uključena. */
+    const jek = await page.evaluate(() => {
+      const izborIgre = x => !BLOCKED.has(x) && !jeJekavskaRec(x) && imaRimu(x);
+      let profulo = null;
+      for (let i = 0; i < 400; i++) {
+        const w = randomCommonWord(izborIgre);
+        if (w && jeJekavskaRec(w)) { profulo = w; break; }
+      }
+      /* Igra ne sme ponuditi ijekavicu NI KAD je kvačica „uključi ijekavicu"
+         uključena — pravilo je apsolutno. Privremeno uključimo i probamo. */
+      const bilo = includeJek;
+      includeJek = true;
+      let profuloJek = null;
+      for (let i = 0; i < 400; i++) {
+        const w = randomCommonWord(izborIgre);
+        if (w && jeJekavskaRec(w)) { profuloJek = w; break; }
+      }
+      includeJek = bilo;
+      return {
+        dvijeJestJek: jeJekavskaRec('dvije'), dveNije: !jeJekavskaRec('dve'),
+        profulo, profuloJek, znanstveni: SET.has('znanstveni'),
+      };
+    });
+    ok('igra poznaje ijekavske oblike (dvije → jeste, dve → nije)',
+       jek.dvijeJestJek === true && jek.dveNije === true);
+    ok('igra u 400 izbora ne ponudi nijednu ijekavsku reč',
+       jek.profulo === null, jek.profulo ? `ponudila: „${jek.profulo}"` : '');
+    ok('igra ne ponudi ijekavicu ni kad je „uključi ijekavicu" čekirano',
+       jek.profuloJek === null, jek.profuloJek ? `ponudila: „${jek.profuloJek}"` : '');
+    ok('rečnik ima „znanstveni" (prijava vlasnice 16.08.2026)', jek.znanstveni === true);
+
     console.log('\n8b) PREDAJA IGRAČA — igra mora da stane između igrača');
     const predaja = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
@@ -858,6 +920,7 @@ async function main() {
       if (m.type() !== 'error') return;
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       alatGreske.push(t);
     });
     pAlat.on('pageerror', e => alatGreske.push('pageerror: ' + e.message));
@@ -922,6 +985,7 @@ async function main() {
       if (m.type() !== 'error') return;
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       slogGreske.push(t);
     });
     pSlog.on('pageerror', e => slogGreske.push('pageerror: ' + e.message));
@@ -971,6 +1035,7 @@ async function main() {
       if (m.type() !== 'error') return;
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       pisGreske.push(t);
     });
     pPis.on('pageerror', e => pisGreske.push('pageerror: ' + e.message));
@@ -1248,6 +1313,7 @@ async function main() {
       if (m.type() !== 'error') return;
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
+      if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       recGreske.push(t);
     });
     pRec.on('pageerror', e => recGreske.push('pageerror: ' + e.message));
@@ -2772,15 +2838,20 @@ async function main() {
          `editor na y=${m3h.y}, ekran ${m3h.visina} px`);
       await ctx26h.close();
 
-      // M4: ništa ne širi stranicu preko ekrana; traka tabova ima znak da se pomera
+      // M4: ništa ne širi stranicu preko ekrana; traka tabova se PRELAMA —
+      // svaka stavka je CELA vidljiva (odluka vlasnice 16.08.2026: ništa se ne
+      // seče — ranija maska je pilule pravila odsečenim na ivici ekrana)
       const m4 = await p26.evaluate(() => {
-        const cs = getComputedStyle(document.getElementById('tabs'));
-        return { doc: document.documentElement.scrollWidth, ekran: window.innerWidth,
-                 maska: (cs.maskImage && cs.maskImage !== 'none') || (cs.webkitMaskImage && cs.webkitMaskImage !== 'none') };
+        const lose = [...document.querySelectorAll('#tabs [data-tab]')].filter(a => {
+          const r = a.getBoundingClientRect();
+          return r.left < -0.5 || r.right > window.innerWidth + 0.5;
+        }).map(a => a.textContent.trim());
+        return { doc: document.documentElement.scrollWidth, ekran: window.innerWidth, lose };
       });
       ok('M4 · stranica se ne širi preko ekrana na telefonu', m4.doc <= m4.ekran,
          `dokument ${m4.doc} px, ekran ${m4.ekran} px`);
-      ok('M4 · traka tabova pokazuje da ima još stavki (maska)', m4.maska === true);
+      ok('M4 · sve stavke trake tabova su cele vidljive (ništa se ne seče)',
+         m4.lose.length === 0, `odsečene: ${m4.lose.join(', ')}`);
 
       // A4: pesma se čuva i u istoriju verzija; spašava se i kad glavni ključ nestane
       const a4a = await p26.evaluate(() =>
@@ -2996,7 +3067,11 @@ async function main() {
       });
       const p30 = ojacajStranu(await ctx30.newPage());
 
-      // ── A. RIME: mreža od 2–3 reči u redu, bez ikonica u pilули
+      // ── A. RIME: pilule grle reč i pakuju se gusto (2–4 u redu), bez ikonica
+      // u piluli. Od 16.08.2026 (druga prijava vlasnice) više nema mreže sa
+      // jednakim kolonama — pilula je široka tačno koliko reč, pa u red staje
+      // onoliko koliko stvarno stane; granica od 4 sprečava povratak na
+      // „jedna ispod druge" i na „natrpanih 6 u redu".
       await p30.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
       await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       await p30.evaluate(() => {
@@ -3021,8 +3096,8 @@ async function main() {
           preliv: document.documentElement.scrollWidth > window.innerWidth,
         };
       });
-      ok('mobilni · u redu stoje 2–3 rime, ne jedna',
-         a30.poRedu >= 2 && a30.najviseURedu <= 3, `prosek ${a30.poRedu.toFixed(2)}, najviše ${a30.najviseURedu}`);
+      ok('mobilni · u redu stoje 2–4 rime, ne jedna i ne natrpano',
+         a30.poRedu >= 2 && a30.najviseURedu <= 4, `prosek ${a30.poRedu.toFixed(2)}, najviše ${a30.najviseURedu}`);
       ok('mobilni · ⓘ i 🔁 nisu u pilули (šire je i guraju reči u novi red)',
          a30.vidljiveIkonice === 0, `vidljivih ${a30.vidljiveIkonice}`);
       ok('mobilni · spisak od 195 rima je kraći od 6.000 px (bio 12.524)',
@@ -3030,6 +3105,17 @@ async function main() {
       ok('mobilni · svaka pilula je bar 44 px visoka (dodirni cilj)',
          a30.broj > 50 && a30.niski === 0, `nižih od 44 px: ${a30.niski}`);
       ok('mobilni · strana se ne širi preko ekrana', a30.preliv === false);
+
+      /* REČ SE NE SEČE — NIKAD (odluka vlasnice 16.08.2026, posle „aerobi…",
+         „aforist…" na njenom telefonu). Elipsa je uklonjena iz CSS-a, a
+         `izmeriCipove()` širi pilulu za svaki manjak. Provera: ni jedna `.word`
+         ne sme imati sadržaj širi od svog okvira. */
+      const secene = await p30.evaluate(() =>
+        [...document.querySelectorAll('#rimeResults .chip .word')]
+          .filter(w => w.scrollWidth > w.clientWidth + 1)
+          .map(w => w.textContent));
+      ok('mobilni · nijedna reč u piluli nije odsečena (bez „…")',
+         secene.length === 0, `odsečene: ${secene.slice(0, 8).join(', ')}`);
 
       // ── B. Dodir na reč otvara traku sa radnjama IZNAD reči
       const b30 = await p30.evaluate(async () => {
@@ -3171,6 +3257,16 @@ async function main() {
       });
       ok('/pisanje-pesama/ · sve akcije u beležnici su bar 44 px visoke',
          e30.broj >= 7 && e30.najnize >= 44, `${e30.broj} dugmadi, najniže ${e30.najnize} px`);
+      /* Akcije se PRELAMAJU u više redova — nijedna ne sme biti odsečena ivicom
+         ekrana (odluka vlasnice 16.08.2026; ranije su „preuzmi…", „štampaj…"
+         bile usečene u redu koji se pomerao u stranu). */
+      const e30v = await p30.evaluate(() =>
+        [...document.querySelectorAll('.hint-actions .link-btn')].filter(b => {
+          const r = b.getBoundingClientRect();
+          return r.left < -0.5 || r.right > window.innerWidth + 0.5;
+        }).map(b => b.textContent.trim()));
+      ok('/pisanje-pesama/ · nijedna akcija nije odsečena ivicom ekrana',
+         e30v.length === 0, `odsečene: ${e30v.join(', ')}`);
       ok('/pisanje-pesama/ · „obriši sve" se bojom razlikuje od ostalih',
          /^rgb\(1(7|8)\d,\s*\d+,\s*\d+\)$/.test(e30.obrisiCrven), e30.obrisiCrven);
 
@@ -3249,6 +3345,15 @@ async function main() {
          zatečenih 24×18, a da red ostane red pesme. */
       ok('/klasici/ · slovo šeme rime je veći cilj za prst (bilo 24×18)',
          g30.slovoSirina >= 34 && g30.slovo >= 28, `${g30.slovoSirina}×${g30.slovo}`);
+      /* Stih mora da stane u JEDAN red na telefonu (prijava vlasnice 16.08.2026:
+         „Emina" se lomila — 96 od 138 stihova na 375 px). Bočne oznake su
+         stišane, a kartica izlazi na ivicu ekrana da stih dobije mesta. */
+      const g30l = await p30.evaluate(() =>
+        [...document.querySelectorAll('.verse .vtext')].filter(t =>
+          t.getBoundingClientRect().height > parseFloat(getComputedStyle(t).lineHeight) * 1.4
+        ).map(t => t.textContent));
+      ok('/klasici/ · nijedan stih se ne lomi u dva reda na telefonu',
+         g30l.length === 0, `lome se: ${g30l.slice(0, 3).join(' / ')}`);
       if (g30.imaSlovo) {
         await p30.evaluate(() => document.querySelector('.vrhyme[data-w]').click());
         await pauza(1500);
@@ -3260,6 +3365,132 @@ async function main() {
       }
 
       await ctx30.close();
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+       30G) MOBILNI — DRUGA PRIJAVA VLASNICE 16.08.2026
+       Tabovi su lomili tekst u piluli i svaki red je počinjao drugde;
+       pilule rima su bile dvostruko šire od reči; „obriši pesmu" je stajala
+       sama u redu uz prazninu; „Powered by" i „Orbita Code" u dva reda;
+       ~120 px praznine između alata i teksta; na omiljenim se objašnjenje
+       ponavljalo ispod liste; traka rima je pri skrolu „plovila" preko
+       editora, a na iPhone-u je Safari traka prekrivala pilule. */
+    console.log('\n30G) MOBILNI — tabovi, gustina pilula, futer, razmaci, traka rima');
+    {
+      const ctx30g = await browser.newContext({
+        viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true,
+        deviceScaleFactor: 2, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
+      });
+      const p30g = ojacajStranu(await ctx30g.newPage());
+      await p30g.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await p30g.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
+
+      // G1. TABOVI: tekst u jednom redu u svakoj piluli; redovi od iste ivice
+      const t30 = await p30g.evaluate(() => {
+        const dugmad = [...document.querySelectorAll('#tabs [data-tab]')];
+        const lomljene = dugmad.filter(b =>
+          b.getBoundingClientRect().height > parseFloat(getComputedStyle(b).lineHeight) * 1.6 + 30
+        ).map(b => b.textContent.trim());
+        const redovi = {};
+        dugmad.forEach(b => { const t = Math.round(b.getBoundingClientRect().top); (redovi[t] ||= []).push(b); });
+        const leve = Object.values(redovi).map(r => Math.round(Math.min(...r.map(b => b.getBoundingClientRect().left))));
+        return { lomljene, leve };
+      });
+      ok('mobilni · tekst taba ne lomi se u dva reda u piluli',
+         t30.lomljene.length === 0, `lome se: ${t30.lomljene.join(', ')}`);
+      ok('mobilni · svaki red tabova počinje od iste leve ivice',
+         t30.leve.every(x => Math.abs(x - t30.leve[0]) <= 1), t30.leve.join(', '));
+
+      // G2. PILULE GRLE REČ: ni jedna nije šira od svog sadržaja (bilo ~120 px praznog)
+      await p30g.evaluate(() => {
+        document.getElementById('rimeInput').value = 'ljubav';
+        document.getElementById('rimeBtn').click();
+      });
+      await pauza(1500);
+      const gustina = await p30g.evaluate(() => {
+        const labudovi = [];
+        document.querySelectorAll('#rimeResults .results > .chip').forEach(c => {
+          const cs = getComputedStyle(c);
+          const vidljivaDeca = [...c.children].filter(x => getComputedStyle(x).display !== 'none');
+          const sadrzaj = vidljivaDeca.reduce((n, x) => n + x.offsetWidth, 0)
+            + parseFloat(cs.columnGap || 0) * Math.max(0, vidljivaDeca.length - 1)
+            + parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight)
+            + parseFloat(cs.borderLeftWidth) + parseFloat(cs.borderRightWidth);
+          const labud = c.offsetWidth - sadrzaj;
+          if (labud > 8) labudovi.push(`${c.querySelector('.word')?.textContent}(${Math.round(labud)}px)`);
+        });
+        return labudovi;
+      });
+      ok('mobilni · pilula grli reč — bez praznog prostora u njoj',
+         gustina.length === 0, gustina.slice(0, 6).join(', '));
+
+      // G3. AKCIJE BELEŽNICE: svaki red je pun (nema usamljene pilule uz prazninu)
+      await p30g.evaluate(() => switchTab('beleznica'));
+      const punRed = await p30g.evaluate(() => {
+        const traka = document.querySelector('#panel-beleznica .hint-actions');
+        const W = traka.getBoundingClientRect().width;
+        const gap = parseFloat(getComputedStyle(traka).columnGap) || 0;
+        const redovi = {};
+        traka.querySelectorAll('.link-btn').forEach(b => { const t = Math.round(b.getBoundingClientRect().top); (redovi[t] ||= []).push(b); });
+        return Object.values(redovi).map(r =>
+          (r.reduce((n, b) => n + b.getBoundingClientRect().width, 0) + gap * (r.length - 1)) / W);
+      });
+      ok('mobilni · akcije beležnice pune svaki red (nema praznog desnog kraja)',
+         punRed.every(f => f >= 0.9), punRed.map(f => (f * 100).toFixed(0) + '%').join(', '));
+
+      // G4. OMILJENE: bez dvostrukog objašnjenja — hero se na tom tabu ne prikazuje
+      await p30g.evaluate(() => switchTab('omiljene'));
+      const o30 = await p30g.evaluate(() => getComputedStyle(document.querySelector('.hero')).display);
+      ok('mobilni · na omiljenim se objašnjenje ne ponavlja ispod liste', o30 === 'none', o30);
+      await p30g.evaluate(() => switchTab('rime'));
+      const o30b = await p30g.evaluate(() => getComputedStyle(document.querySelector('.hero')).display);
+      ok('mobilni · naslov se vrati kad se ode sa omiljenih', o30b !== 'none', o30b);
+
+      // G5. RAZMAK ALAT → TEKST: prepolovljen (bilo ~122 px čiste praznine)
+      const r30 = await p30g.evaluate(() => {
+        const hero = document.querySelector('.hero').getBoundingClientRect();
+        const seo = document.querySelector('.seo-content').getBoundingClientRect();
+        return Math.round(seo.top - hero.bottom);
+      });
+      ok('mobilni · razmak između alata i teksta je stišan (bilo ~122 px)',
+         r30 >= 0 && r30 <= 72, `${r30} px`);
+
+      // G6. FUTER: „Powered by Orbita Code" u jednom redu
+      const f30 = await p30g.evaluate(() => {
+        const p = document.querySelector('.footer-orbita');
+        if (!p) return null;
+        const a = p.querySelector('a');
+        return { visina: Math.round(p.getBoundingClientRect().height),
+                 istiRed: a ? Math.abs(a.getBoundingClientRect().top - p.getBoundingClientRect().top) < 4 : false };
+      });
+      ok('mobilni · „Powered by Orbita Code" je u jednom redu',
+         f30 !== null && f30.visina <= 48 && f30.istiRed, JSON.stringify(f30));
+
+      // G7. TRAKA RIMA SE LEPI ZA VIDOKRUG i kad se strana pomera prstom
+      // (lažni „scroll" događaj: vidokrug sklizne 150 px — traka mora da ostane
+      // na dnu VIDOKRUGA, ne da plovi preko teksta. Na iOS UA: −56 px Safari trake.)
+      await p30g.evaluate(() => switchTab('beleznica'));
+      await p30g.click('#noteEditor');
+      await p30g.evaluate(() => {
+        const ed = document.getElementById('noteEditor');
+        ed.innerHTML = 'mleka puna casa<div>i od mrkve kasa</div>';
+        ed.dispatchEvent(new InputEvent('input', { bubbles: true }));
+      });
+      await pauza(1200);
+      const l30 = await p30g.evaluate(async () => {
+        const VV = window.visualViewport;
+        const nova = document.documentElement.clientHeight - 336;
+        Object.defineProperty(VV, 'height', { get: () => nova, configurable: true });
+        Object.defineProperty(VV, 'offsetTop', { get: () => 150, configurable: true });
+        VV.dispatchEvent(new Event('scroll'));
+        await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+        const p = document.getElementById('noteRhymes').getBoundingClientRect();
+        return { dno: Math.round(p.bottom), ocekivano: Math.round(150 + nova - 56) };
+      });
+      ok('mobilni · traka rima ostaje lepljena za dno vidokruga i pri pomeranju',
+         Math.abs(l30.dno - l30.ocekivano) <= 2, JSON.stringify(l30));
+
+      await ctx30g.close();
     }
 
     /* ─────────────────────────────────────────────────────────────────────
@@ -3603,14 +3834,19 @@ async function main() {
         await pauza(900);
 
         // A) polje za unos u gornjem delu ekrana (bilo 402 px = 60,5%)
+        /* Granica je bila 45% dok se traka tabova pomerala u stranu (jedan red
+           od 48 px). Od 16.08.2026. se traka PRELAMA u tri reda dodirnih ciljeva
+           od 44 px (odluka vlasnice: nijedna stavka se ne seče ivicom), pa polje
+           stoji na ~52% — i dalje na PRVOM ekranu, sa dugmetom i filterima,
+           bez skrolanja. Granica 55% i dalje hvata regresiju tipa 60,5%. */
         const polozaj = await p35.evaluate(() => {
           const r = document.getElementById('rimeInput').getBoundingClientRect();
           return { top: Math.round(r.top), vh: window.innerHeight,
                    procenat: Math.round(r.top / window.innerHeight * 1000) / 10 };
         });
-        ok(`početna (${tema}) · polje za unos je u gornjoj polovini ekrana`,
-           polozaj.procenat <= 45,
-           `polje na ${polozaj.top} px od ${polozaj.vh} px = ${polozaj.procenat}% (granica 45%, bilo 60,5%)`);
+        ok(`početna (${tema}) · polje za unos je na prvom ekranu`,
+           polozaj.procenat <= 55,
+           `polje na ${polozaj.top} px od ${polozaj.vh} px = ${polozaj.procenat}% (granica 55%, bilo 60,5%)`);
 
         // B) kontrast ispunjenih dugmadi — najgori kraj preliva, granica 4,5
         const kontrasti = await p35.evaluate(({ MERE35 }) => {
@@ -4133,7 +4369,10 @@ async function main() {
         await ctx38.close();
       }
 
-      /* Dodirni cilj i to da se polje za unos NIJE spustilo. */
+      /* Dodirni cilj i to da se polje za unos NIJE spustilo preko prvog ekrana.
+         Prag je bio 263 px dok se traka tabova pomerala u stranu; od 16.08.2026.
+         se prelama u tri reda po 44 px (odluka vlasnice — ništa se ne seče), pa
+         polje stoji na ~344 px, i dalje vidljivo bez skrolanja. */
       const ctx38m = await browser.newContext({ viewport: { width: 390, height: 664 }, isMobile: true, hasTouch: true });
       const p38m = ojacajStranu(await ctx38m.newPage());
       await p38m.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -4149,8 +4388,8 @@ async function main() {
         skrol: document.documentElement.scrollWidth - document.documentElement.clientWidth,
       }));
       ok('blokovi · red za otvaranje je dodirni cilj od bar 44 px', m.red >= 44, `izmereno ${m.red} px`);
-      ok('blokovi · polje za unos se nije spustilo (najviše 263 px od vrha na 390 px)',
-         m.polje <= 263, `izmereno ${m.polje} px`);
+      ok('blokovi · polje za unos se nije spustilo (najviše 370 px od vrha na 390 px)',
+         m.polje <= 370, `izmereno ${m.polje} px`);
       ok('blokovi · nema vodoravnog skrolovanja na 390 px', m.skrol <= 0, `preliva ${m.skrol} px`);
       await ctx38m.close();
 

@@ -423,7 +423,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260816b"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260819a"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -796,6 +796,12 @@ def main():
         add_target(w)
 
     target_slugs = set(seen_slug.keys())
+
+    # Spisak slugova strana za app.js — kanonikal za dinamičke adrese `?rec=`:
+    # reč sa statičkom stranom dobija kanonikal ka njoj (autoritet se ne deli),
+    # reč bez strane je kanonična samoj sebi (odluka vlasnice 19.08.2026).
+    with open(os.path.join(PUB, 'rime-strane.json'), 'w', encoding='utf-8') as f:
+        json.dump(sorted(target_slugs), f, ensure_ascii=False)
 
     # popularne (footer) — prvih 30 iz liste koje postoje
     popular = targets[:30]

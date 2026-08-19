@@ -403,7 +403,7 @@ async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
       fetch('/frekvencija.json?v=2').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=20260802a').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=20260816e').then(r=>r.json()).catch(()=> ({})),
       /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
          srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i
@@ -1153,6 +1153,52 @@ function doRhymes(silent){
       return RANK.get(a)-RANK.get(b);
     });
     renderGroup(box, 'Šire rime (asonanca)', filterSyl(wide).slice(0,70), false);
+  }
+  osveziSeoZaRec(q, best.length + good.length + finalExtra.length,
+                 best.slice(0, 6).join(', '));
+}
+
+/* ── SEO PO UPITU `?rec=` — dinamička adresa po reči ──────────────────────
+   Model dokazan kod konkurencije (azrhymes, rime.com.hr — viđeno uživo na
+   upitu „rima za malena" 19.08.2026): jedna strana-alat čija adresa nosi reč
+   indeksira se kao posebna strana po reči — tako pokrivamo i reči BEZ
+   statičke strane, bez pravljenja novih fajlova (zabrana vlasnice 19.08).
+   Kanonikal: ako reč ima statičku stranu (`/rime-za/<slug>/`, spisak iz
+   `rime-strane.json`) — kanonikal ka njoj, da se autoritet ne deli; ako
+   nema — adresa je kanonična samoj sebi. Važi samo na početnoj (`/`). */
+const SEO_SLUG_MAP = {'š':'s','č':'c','ć':'c','ž':'z','đ':'dj'};
+function slugLat(w){
+  return [...w.toLowerCase()].map(ch => SEO_SLUG_MAP[ch] || ch).join('');
+}
+let rimeStraneSlugovi = null;
+async function imasStranu(slug){
+  if(rimeStraneSlugovi === null){
+    rimeStraneSlugovi = await fetch('/rime-strane.json?v=1')
+      .then(r => r.ok ? r.json() : [])
+      .then(a => new Set(a))
+      .catch(() => new Set());
+  }
+  return rimeStraneSlugovi.has(slug);
+}
+function postaviMeta(ime, sadrzaj){
+  const m = document.querySelector('meta[name="' + ime + '"]');
+  if(m) m.content = sadrzaj;
+}
+async function osveziSeoZaRec(q, broj, prvih){
+  if(!q || (location.pathname !== '/' && location.pathname !== '/index.html')) return;
+  const dq = disp(q);
+  const recOblik = (broj % 10 === 1 && broj % 100 !== 11) ? 'reč' : 'reči';
+  document.title = broj > 0
+    ? `Rime za reč „${dq}": ${broj} ${recOblik} koje se rimuju | Rimoteka rečnik rima`
+    : `Rime za reč „${dq}" | Rimoteka rečnik rima`;
+  postaviMeta('description', broj > 0
+    ? `Sve rime za „${dq}": ${broj} reči. Uz svaku piše broj slogova i šta znači. Na vrhu su: ${prvih}.`
+    : `Koje se reči rimuju sa „${dq}"? Rimoteka — rečnik rima, broj slogova i značenja svake reči.`);
+  const kan = document.querySelector('link[rel="canonical"]');
+  if(kan){
+    kan.href = await imasStranu(slugLat(q))
+      ? `https://rimoteka.com/rime-za/${slugLat(q)}/`
+      : `https://rimoteka.com/?rec=${encodeURIComponent(q)}`;
   }
 }
 

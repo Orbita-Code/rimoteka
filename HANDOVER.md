@@ -4,6 +4,43 @@
 
 ---
 
+# Sesija 19. avgust 2026 (sedamnaesta) — SEO: `?rec=` DINAMIČKE ADRESE + sinonimi
+
+> **Stanje:** implementirano LOKALNO, **nije commit-ovano** — čeka puni test,
+> pa odobrenja (push, merge) po koraku.
+
+## Šta je urađeno
+
+1. **Dijagnoza „prve stranice" (pitanje vlasnice: sestra nije našla „rimu za
+   malena").** GSC uživo: 1.150 indeksiranih (raste: 124→811→1.150),
+   „Discovered — not indexed" 1.182; klikova 824/28 dana, prosečna pozicija
+   5,7. „rimovanje" CTR 9,2%. Za „rima za malena" nema naše strane (reč ima
+   pokazivač-objašnjenje → generator je preskače), a konkurenti azrhymes i
+   rime.com.hr rangiraju sa **dinamičkim `?rime=` adresama** — dokazano uživo.
+2. **Trajne zabrane zapisane (odluka vlasnice):** NIKAD backlinkovi sa njenih
+   drugih sajtova (nisu ista niša) i ZABRANA pravljenja novih strana. Upisano
+   u `SEO_PLAN.md`, `CLAUDE.md` (od. 7), ovde ispod.
+3. **Rešenje bez novih strana: `?rec=` odblokiran.** `robots.txt` dozvoljava
+   (ostali upitnici blokirani); `app.js` po reči postavlja title/opis i
+   kanonikal — statičkoj strani kad reč ima stranu (`public/rime-strane.json`,
+   emituje `gen_pages.py`), inače samoj adresi. Verzija `app.js?v=20260819a`
+   (ujednačeno — HTML je zaostajao na staroj verziji uz promenjen sadržaj).
+4. **Sinonimi:** popravka „šišarka → samo šišarica" (u fajlu, verzija
+   20260816e). Poštena presuda: mašinski sinonimi nemaju pravopis-kvalitet
+   (50% parova van Matice); kuracija po karticama — serija 1 spremna u
+   `AUDIT/sinonimi-kuracija-serija-1.md` (50 najčešćih reči, ona briše/dodaje
+   u fajlu, pa mi javi „gotovo").
+
+## Test pre deploy-a
+
+Nove provere u sekciji 2b: robots.txt ne blokira `?rec=`; `?rec=malena` ima
+naslov/opis po reči i self-kanonikal; `?rec=ljubav` kanonikal ka
+`/rime-za/ljubav/`. Posle deploy-a: `BASE=https://rimoteka.com node
+test/predeploy.mjs`, pa GSC pratiti „Blocked by robots" (918) i indeksiranost
+dinamičkih adresa.
+
+---
+
 # Sesija 16. avgust 2026 (šesnaesta, drugi deo) — MOBILNI BAGOVI, DRUGA TURA (9 prijava)
 
 > **Stanje:** sve popravljeno LOKALNO, **nije commit-ovano** — čeka pregled
@@ -132,6 +169,15 @@
   u -a/-o obliku. Postupak dogovoren: ona bira po slovima, mi upisujemo.
 - Verzije `reci.txt?v=20260816d`, `definicije.json?v=238`.
 
+## OBJAVLJENO 16.08.2026 (kraj šesnaeste sesije)
+- Grana `feat/mobilni-bagovi-recnik-16-08` → commit `162f3d0e0` → merge na
+  `main` (odobrenje vlasnice) → Coolify auto-deploy.
+- **Test protiv produkcije: 566/566** (više od lokalnih 558 jer produkcija
+  meri i service worker, CSP i prava zaglavlja). Produkcija ažurna za ~20 s.
+- Šta je na produkciji: 16 mobilnih popravki, placeholder beležnice,
+  futer u jednom redu, tabovi/pilule/akcije sređeni, traka rima lepljena,
+  rečnik bez „većera/većeras" + 155 novih reči, rime sa č≡ć/dž≡đ.
+
 ---
 
 # Sesija 16. avgust 2026 (petnaesta) — MOBILNI BAGOVI SA IPHONE-A (7 prijava)
@@ -220,9 +266,11 @@
    skraćivanja. HSTS zaglavlje pri sledećem nginx deploy-u (nginx ide UVEK
    zaseban deploy). 9.413 orfan-definicija u `definicije.json` — NE brisati
    olako, neke su pripremljene unapred (slučaj `prohtev` 10.08).
-3. **Link building nije počeo** — v. SEO_PLAN.md: backlinkovi sa
-   orbitacode.com / babylovebox.rs su najbrži neiskorišćeni potez (guraju i
-   „Discovered — not indexed" krocenje).
+3. ~~Link building nije počeo~~ — **UKINUTO odlukom vlasnice 19.08.2026:
+   nikad linkovi sa njenih drugih sajtova (nisu ista niša).** Zabeleženo u
+   `SEO_PLAN.md` (tačke 2 i e) i `CLAUDE.md` (odeljak 7). Backlink samo iz
+   niše. Istog dana zabranjeno i pravljenje novih strana — fokus je jačanje
+   postojećih (v. `CLAUDE.md`, odeljak 7).
 4. **GSC pristup:** kroz browser profil `~/.claude-pw-tools/user-data` na CDP
    :9222 — pokrenuti `node ~/.claude-pw-tools/rimoteka-keep-alive.mjs` (vidljiv
    prozor; ako Google odjavi, vlasnica se prijavi u njemu jednom), pa skripte
@@ -2785,3 +2833,24 @@ odmah videla po rečima `val` i `šalica`.
 ---
 
 *Poslednje ažuriranje: 27. jul 2026.*
+
+---
+
+# Prilog šesnaestoj sesiji — SINONIMI: pokušaji i poštena presuda (17.08.2026)
+
+- Prijava vlasnice: sinonimi za „šišarka" = šiška (kosa), babuška, šišarica,
+  babura (paprika). Popravljeno ručno: šišarka → samo šišarica (Matica st.2).
+- Izmereno na celom fajlu: 13.503 ključa, 160.787 parova, **50% sinonima nije
+  odrednica ni u Matici** (uzorak „žena" → baja, mačka, cica, pani…).
+- **Tri neuspela mašinska puta do „100% tačnih":**
+  1. Rudarenje Matica-upućivanja („в. X"): OCR deli i kvari reči — uzorak
+     „anđeo → kosti", „apostolska → znak".
+  2. Varijante „X/, Y": hvata nasumične parove teksta („kalne → mene").
+  3. Poklapanje značenja po našim definicijama: ubija očigledan šum
+     (šiška, babura, babuška riba ✓) ali ubija i dobre parove
+     (sunce→zvezda ✗, drugačije formulisane definicije) i pušta majka→žena.
+- **Presuda: sinonimi bez ljudske provere ne postoje u pravopis-kvalitetu.**
+  Rešenje je KURIRANI set: po učestalosti, kartica po kartica (naša def +
+  red iz Matice + mašinski kandidati), vlasnica bira — spisak
+  `AUDIT/sinonimi-kandidati.md` je samo pomoćni prikaz, ne izvor istine.
+- sinonimi.json: vraćen na zatečeno + popravka „šišarka"; verzija 20260816e.

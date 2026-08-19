@@ -1,11 +1,11 @@
 User-agent: *
 Allow: /
 
-# Adresa sa upitom je BAJT-ZA-BAJT ista strana kao početna — samo sa upisanom
-# rečju. Svaka rima na svakoj strani vodi na jednu takvu adresu, pa ih ima
-# preko 50.000 i sve su duplikat početne. Za pretraživače nemaju vrednost:
-# svaka reč već ima svoju pravu stranu na /rime-za/<reč>/.
-Disallow: /*?rec=
+# `?rec=` je OD 19.08.2026 NAMERNO ODBLOKIRAN: dinamička adresa po reči je
+# SEO nosilac za reči BEZ statičke strane (model dokazan kod azrhymes i
+# rime.com.hr — rangiraju sa `?rime=` adresama za svaku reč). Svaka takva
+# adresa je kanonična samoj sebi, ili statičkoj strani ako reč ima stranu.
+# Odluka vlasnice 19.08.2026.
 Disallow: /*?tab=
 Disallow: /*?pesma=
 Disallow: /*?naslov=

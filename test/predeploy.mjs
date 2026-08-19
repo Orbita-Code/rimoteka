@@ -212,6 +212,39 @@ async function main() {
        secer.ve >= 0 && (secer.pa === -1 || secer.ve < secer.pa), `večera #${secer.ve}, partnera #${secer.pa}`);
     ok('„većera" (ć) nije u rečniku ni u rimama', secer.vec === false);
 
+    /* ── 2b) ?rec= SEO PARAMETRI (odluka vlasnice 19.08.2026)
+       Dinamička adresa po reči je SEO nosilac za reči bez statičke strane
+       (model: azrhymes/rime.com.hr). Mora: robots.txt je ne blokira, naslov
+       i opis prate reč, a kanonikal je statičkoj strani kad reč ima stranu,
+       inače samoj adresi. */
+    {
+      const robots = await (await fetch(BASE + '/robots.txt')).text();
+      ok('robots.txt ne blokira ?rec= adresu', !/Disallow:\s*\/\*\?rec=/.test(robots),
+         robots.split('\n').filter(l => l.includes('rec=')).join(' | '));
+
+      const pSeo = ojacajStranu(await browser.newPage());
+      await pSeo.goto(BASE + '/?rec=malena', { waitUntil: 'domcontentloaded' });
+      await pSeo.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5, { timeout: 180000 }).catch(() => {});
+      await pauza(800);
+      const seo1 = await pSeo.evaluate(() => ({
+        title: document.title,
+        desc: document.querySelector('meta[name="description"]')?.content || '',
+        kan: document.querySelector('link[rel="canonical"]')?.href || '',
+      }));
+      ok('?rec=malena · naslov prati reč', /malena/.test(seo1.title) && /Rime za reč/.test(seo1.title), seo1.title);
+      ok('?rec=malena · opis prati reč', /malena/.test(seo1.desc), seo1.desc.slice(0, 90));
+      ok('?rec=malena · kanonikal samoj adresi (nema statičku stranu)',
+         seo1.kan.includes('?rec=malena'), seo1.kan);
+
+      await pSeo.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+      await pSeo.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5, { timeout: 180000 }).catch(() => {});
+      await pauza(800);
+      const seo2 = await pSeo.evaluate(() => document.querySelector('link[rel="canonical"]')?.href || '');
+      ok('?rec=ljubav · kanonikal na statičku stranu (autoritet se ne deli)',
+         /\/rime-za\/ljubav\/$/.test(seo2), seo2);
+      await pSeo.close();
+    }
+
     console.log('\n3) Frekvencijsko rangiranje i SINONIMI');
     await page.waitForFunction(() => typeof SYNONYMS !== 'undefined' && Object.keys(SYNONYMS).length > 0, { timeout: 180000 })
       .catch(() => {});
@@ -1978,10 +2011,14 @@ async function main() {
       ok('og:image je društvena slika 1200×630', /og-slika\.png/.test(rec.og), rec.og);
       ok('twitter:card je summary_large_image', rec.tw === 'summary_large_image', rec.tw);
 
-      // robots.txt gasi ~50.000 parametarskih duplikata početne
+      // robots.txt — do 19.08.2026. je gasio ~50.000 parametarskih duplikata
+      // početne; tada je `?rec=` NAMERNO odblokiran (dinamičke adrese su SEO
+      // nosilac za reči bez statičke strane — v. sekciju 2b). Blokirani moraju
+      // ostati ostali upitnici.
       await p19.goto(BASE + '/robots.txt', { waitUntil: 'domcontentloaded' });
       const rb = await p19.evaluate(() => document.body.innerText);
-      ok('robots.txt blokira /?rec= duplikate', /Disallow:\s*\/\*\?rec=/.test(rb), rb.slice(0, 120));
+      ok('robots.txt i dalje blokira ostale upitnike (?tab=, ?pesma=)',
+         /Disallow:\s*\/\*\?tab=/.test(rb) && /Disallow:\s*\/\*\?pesma=/.test(rb), rb.slice(0, 160));
 
       // 404 nije ćorsokak
       const o404 = await p19.goto(BASE + '/ova-strana-ne-postoji-xyz/', { waitUntil: 'domcontentloaded' });

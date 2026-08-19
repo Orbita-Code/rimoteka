@@ -135,6 +135,12 @@
 ### 5.1 URL struktura
 - `/` — homepage (čist alat)
 - `/rime-za/[reč]/` — statička stranica za svaku reč (npr. `/rime-za/ljubav/`)
+- **`/?rec=[reč]` — dinamička adresa po reči (od 19.08.2026, odluka vlasnice).**
+  SEO nosilac za reči BEZ statičke strane: naslov/opis prate reč, kanonikal je
+  statičkoj strani kad reč ima stranu (spisak u `public/rime-strane.json`),
+  inače samoj adresi. Model je isti kao kod azrhymes/rime.com.hr. `robots.txt`
+  je odblokiran SAMO za `?rec=` — ostali upitnici (`?tab=`, `?pesma=`…)
+  ostaju blokirani.
 - `/slogovi/` — brojač slogova
 - `/vrste-rima/` — edukativna stranica
 - `/kako-napisati-pesmu/` — edukativna stranica
@@ -326,10 +332,19 @@ negativno ide pred sve pozitivno**. Posledica, izmereno:
 
 - Lokalni razvoj i testiranje
 - SEO poboljšanja unutar postojeće strukture (title, meta, schema, sitemap)
-- Dodavanje novih `/rime-za/[reč]/` stranica kroz build generator
 - Ispravljanje bagova u alatu
 - Ažuriranje ovog `CLAUDE.md` fajla
 - Istraživanje konkurencije i pripremanje analiza
+
+> **ZABRANE PO ODLUCI VLASNICE 19.08.2026 (trajne):**
+> 1. **ZABRANJENO praviti nove strane** — ima ih previše, a Google deo njih
+>    ne prima („Discovered — not indexed"). Fokus je JAČANJE postojećih, ne
+>    širenje. Zamenjuje ranije dozvoljeno „dodavanje novih strana kroz build
+>    generator" — više ne važi.
+> 2. **ZABRANJENI backlinkovi sa njenih drugih sajtova** (orbitacode.com,
+>    babylovebox.rs, spomenicibeograd.rs) — nisu ista niša. Nikad, i ne
+>    predlagati ponovo. Backlink samo iz niše (pesničke zajednice, blogovi,
+>    obrazovanje).
 
 ---
 

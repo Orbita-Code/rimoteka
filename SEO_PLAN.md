@@ -34,7 +34,7 @@
 
 ### Naša 3 prednosti koje oni nemaju
 1. **Filtriran za decu** (bez psovki/vulgarnosti) — niko drugi to ne radi → pozicija „rime za dečje pesmice" je prazna.
-2. **Vlasnica ima druge indeksirane sajtove** (orbitacode.com, babylovebox.rs, spomenicibeograd.rs) → besplatni relevantni backlinkovi + brže otkrivanje (crawl). Konkurenti to nemaju.
+2. ~~Vlasnica ima druge sajtove za backlinkove~~ — **UKINUTO 19.08.2026 (odluka vlasnice: nisu ista niša, nikad).**
 3. **Rečnik sa objašnjenjima** (definicije.json) — možemo prikazati i značenje reči, ne samo rimu → bogatiji, jedinstveniji sadržaj.
 
 ---
@@ -105,7 +105,11 @@ Pouke sa drugih sajtova (canonical=home bug, SPA ne renderuje) → uradimo ispra
 - `lastmod` tačan; `robots.txt` već OK.
 
 ### e) Ubrzavanje indeksiranja (svi legalni poluzi)
-1. **Backlinkovi sa sopstvenih sajtova** — footer/„projekti" link sa orbitacode.com (+ po potrebi babylovebox/spomenici). Instant relevantan link + crawl discovery. **Najbrži poluga koju konkurenti nemaju.**
+1. ~~Backlinkovi sa sopstvenih sajtova~~ — **UKINUTO odlukom vlasnice 19.08.2026:
+   nikad linkovi sa njenih drugih sajtova (orbitacode.com, babylovebox.rs,
+   spomenicibeograd.rs) — nisu ista niša. Ne predlagati ponovo.**
+   Backlinkovi se traže SAMO iz niše: pesničke zajednice, književni blogovi,
+   obrazovni sadržaji, Pinterest/zajednice o pisanju.
 2. GSC → Submit sitemap + **Request Indexing** za top 10-20 strana ručno.
 3. Jako **interno povezivanje** (footer hub + „srodne rime" između strana) → Google puzi dublje.
 4. **IndexNow** (besplatno) → instant ping Bing/Yandex (Google ne koristi, ali Bing da).
@@ -135,7 +139,7 @@ Pouke sa drugih sajtova (canonical=home bug, SPA ne renderuje) → uradimo ispra
 
 ### Faza 3 — Autoritet
 - `/vrste-rima`, `/kako-napisati-pesmu`, `/rime-za-decu` (nišni tekstovi).
-- Backlinkovi sa sopstvenih sajtova + IndexNow.
+- IndexNow. (Bez backlinkova sa njenih sajtova — v. zabranu u tački e.)
 
 ### Faza 4 — Merenje i iteracija (stalno)
 - GA4 event po pretrazi → koje reči fale → nove strane.

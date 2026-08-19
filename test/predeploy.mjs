@@ -87,6 +87,12 @@ async function main() {
          Zato se filtrira i jedno i drugo. */
       if (/fonts\.googleapis|fonts\.gstatic/.test(t) || /fonts\.googleapis|fonts\.gstatic/.test(loc)) return;
       if (/net::ERR_FAILED.*fonts/.test(t)) return;
+      /* Ista klasa kao fontovi gore: Google Analitika je spoljni CDN koji u
+         headless okruženju povremeno padne na mreži (`ERR_CONNECTION_CLOSED`,
+         viđeno 19.08.2026. na localhostu i produkciji, dok `curl` isti URL
+         učitava normalno). Nije naš resurs ni naš bug — a zbog nje bi test
+         padao nasumično. */
+      if (/googletagmanager\.com|google-analytics\.com|analytics\.google\.com/.test(t) || /googletagmanager\.com|google-analytics\.com/.test(loc)) return;
       if (dozvoljeno(t)) return;
       /* „Failed to load resource" bez URL-a resursa je nedijagnosticira —
          poruka nosi samo adresu STRANE. `location().url` je izvor resursa. */

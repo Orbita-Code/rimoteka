@@ -1195,11 +1195,15 @@ async function osveziSeoZaRec(q, broj, prvih){
     ? `Sve rime za „${dq}": ${broj} reči. Uz svaku piše broj slogova i šta znači. Na vrhu su: ${prvih}.`
     : `Koje se reči rimuju sa „${dq}"? Rimoteka — rečnik rima, broj slogova i značenja svake reči.`);
   const kan = document.querySelector('link[rel="canonical"]');
-  if(kan){
-    kan.href = await imasStranu(slugLat(q))
-      ? `https://rimoteka.com/rime-za/${slugLat(q)}/`
-      : `https://rimoteka.com/?rec=${encodeURIComponent(q)}`;
-  }
+  if(!kan) return;
+  /* Kanonikal se postavlja ODMAH na samu adresu (sinhrono — na produkciji
+     `rime-strane.json` na hladnom startu kasni kroz service worker, pa bi
+     kanonikal zakasnio i ostao početni), pa se NADOGRAĐUJE na statičku
+     stranu kad spisak stigne i ako reč stranu ima. */
+  const sebe = `https://rimoteka.com/?rec=${encodeURIComponent(q)}`;
+  kan.href = sebe;
+  const postoji = await imasStranu(slugLat(q));
+  if(postoji) kan.href = `https://rimoteka.com/rime-za/${slugLat(q)}/`;
 }
 
 el('rimeBtn').onclick = () => { doRhymes(); pokaziRimeNaTelefonu(); };

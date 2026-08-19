@@ -423,7 +423,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260819a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260819b"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -853,10 +853,17 @@ def main():
     for t in targets:
         key = rhyme_key(t)
         klen = len(key)
+        tsyl = syllables(t)
+        # Isti izbor i redosled kao u alatu (app.js `doRhymes`): najbolje = isti
+        # broj slogova, pa dobre — redosled: blizina slogova → duži zajednički
+        # završetak → učestalost. Ranije je statički prag po završetku davao
+        # ~42 reči za „ljubav", a alat nudi ~180 — posetilac je video samo deo
+        # ponude i morao je u alat (prijava vlasnice 20.08.2026: „sve reči
+        # odmah na strani, bez šetanja po sajtu").
         cands = [w for w in keygroup[key] if w != t and not is_blocked(w) and not is_excluded(t, w)]
-        cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
-        best = [w for w in cands if common_suffix(t, w) > klen][:50]
-        good = [w for w in cands if common_suffix(t, w) == klen][:36]
+        cands.sort(key=lambda w: (abs(syllables(w)-tsyl), -common_suffix(t, w), rank[w]))
+        best = [w for w in cands if syllables(w) == tsyl][:90]
+        good = [w for w in cands if syllables(w) != tsyl][:90]
 
         # Fallback (kao doRhymes): reči sa malo savršenih rima -> „isti završni slog“
         final_extra = []
@@ -867,19 +874,18 @@ def main():
             fin.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
             final_extra = fin[:40]
 
-        # Bliske rime (asonanca) — reči sa istim završnim samoglasnikom
+        # Bliske rime (asonanca) — reči sa istim završnim samoglasnikom (kao u alatu: 70)
         lk = loose_key(t)
         seen_loose = set(best + good + final_extra)
         loose_cands = [w for w in loosegroup[lk] if w != t and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w)]
         loose_cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
-        loose = loose_cands[:30]
+        loose = loose_cands[:70]
 
         all_r = best + good + final_extra
         if len(all_r) < 3:
             continue  # premalo rima — preskoči (da ne pravimo prazne strane)
 
         sl = slugify(t)
-        tsyl = syllables(t)
         first_list = ', '.join(all_r[:10])
 
         # groups HTML
@@ -890,23 +896,19 @@ def main():
             cls = 'res-group strong-tier' if strong else 'res-group'
             return f'<div class="{cls}"><h2>{title}</h2><div class="results">{chips}</div></div>'
 
-        # grupe po broju slogova (sve rime, sortirane po kvalitetu)
-        by_syl = defaultdict(list)
-        for w in all_r:
-            by_syl[syllables(w)].append(w)
-
-        syl_groups_html = ''
-        for n in sorted(by_syl.keys()):
-            arr = by_syl[n]
-            syl_groups_html += group_html(f'Rime sa {n} {syl_word(n)}', arr, False)
+        # Grupe po broju slogova kao zaseban blok — UKLONJENE 20.08.2026: iste
+        # reči su već u grupama „Najbolje/Dobre rime", pa je taj blok bio čista
+        # duplikacija (brojčani pregled po slogovima ostaje — `syl_html` ispod).
 
         loose_html = group_html('Bliske rime (asonanca)', loose, False)
 
-        # „Najbolje rime“ je ovde ZNAČILO nešto drugo nego u alatu: na strani se bira po
-        # dužem zajedničkom završetku (`best`), a u alatu po istom broju slogova
-        # (`app.js:965`). Ista reč, dva značenja — zato naslov sada kaže šta zaista radi.
-        groups = (group_html(f'Rime sa istim završetkom kao „{esc(t)}“', best[:20], True)
-                  + syl_groups_html
+        # Grupe nose iste naslove i isti izbor kao alat (app.js `doRhymes`) —
+        # „Najbolje rime" = isti broj slogova kao tražena reč (CLAUDE.md 6.2a).
+        # Do 20.08.2026. je strana birala po dužem završetku i prikazivala samo
+        # prvih ~20 — posetilac nije video celu ponudu na samoj strani.
+        groups = (group_html('Najbolje rime', best, True)
+                  + group_html('Dobre rime', good, False)
+                  + (group_html('Dobre rime (isti završni slog)', final_extra, False) if final_extra else '')
                   + loose_html)
 
         # copy-all reči (za lakše korišćenje)
@@ -1010,11 +1012,14 @@ def main():
         body = f"""<main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <a href="/rime-za/">Rime za reč</a> › <span>„{esc(t)}“</span></nav>
   <h1 class="landing-h1">Rime za reč „{esc(t)}“</h1>
-  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))} · {tsyl} {syl_word(tsyl)} · prvo one sa najdužim istim završetkom</p>
+  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))} · {tsyl} {syl_word(tsyl)} · prvo one sa istim brojem slogova</p>
   <p class="landing-lead">Sve što se rimuje sa <strong>„{esc(t)}“</strong> — {len(all_r)} {rec_word(len(all_r))}. Uz svaku piše koliko ima slogova i šta znači, pa odmah vidiš koja ti staje u stih. Klikni na reč i dobiješ njene rime, a dugme ispod kopira ceo spisak.</p>
   {mean}
   <div class="copy-bar">
-    <a class="landing-cta" rel="nofollow" href="/?rec={quote(t)}">✍️ Otvori Rimoteku i piši →</a>
+    <!-- Do 20.08.2026. dugme je pisalo „Otvori Rimoteku i piši" i vodilo na
+         početnu sa ISTOM rečju upisanom — besmisleno: posetilac je NA Rimoteci
+         i rime za tu reč upravo gleda (nalaz vlasnice). Sada: nova pretraga. -->
+    <a class="landing-cta" href="/">🔎 Pretraži rime za druge reči →</a>
     <button class="copy-all-btn" data-words="{esc(copy_words)}">Kopiraj sve rime</button>
   </div>
   {groups}

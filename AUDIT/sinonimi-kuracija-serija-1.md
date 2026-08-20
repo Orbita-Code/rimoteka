@@ -10,8 +10,7 @@ KAKO SE RADI:
 
 ## zbog
 (naše objašnjenje: Predlog za uzrok (zbog kiše).)
-proću
-DODAJ:
+DODAJ:usled, radi, zarad, pomoću, zahvaljujući.
 
 ## godina
 (naše objašnjenje: Vreme od dvanaest meseci.)
@@ -20,9 +19,8 @@ DODAJ:
 
 ## ljudi
 (naše objašnjenje: Množina reči „čovek“; osobe.)
-čovečanstvo ⚠
 ljudstvo ⚠
-DODAJ:
+DODAJ: narod, stanovništvo, živalj, osobe,
 
 ## dok
 (naše objašnjenje: Veznik za vreme (dok traje).)

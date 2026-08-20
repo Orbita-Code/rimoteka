@@ -2,17 +2,19 @@
 
 > Rečnik ima svoj spisak u `TODO-RECNIK.md`, tekstovi na sajtu u `TODO-TEKSTOVI.md`.
 > Ovde je sve ostalo.
-> Poslednje ažuriranje: 31. jul 2026.
+> Poslednje ažuriranje: 20. avgust 2026.
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 31.07.2026 (deseta sesija)
+## ⚠️ PROČITATI PRVO — STANJE NA DAN 20.08.2026 (osamnaesta sesija)
 
 | | |
 |---|---|
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
 | **U TOKU (ne pushovati)** | grana `feat/dizajn-pocetna-futer-saradnja` — početna i futer. Futer je vlasnica odbila, ide drugi prolaz. Detalji: `HANDOVER.md`, dvanaesta sesija |
-| **U TOKU 16.08. (ne pushovati)** | **Dve ture mobilnih bagova sa iPhone-a — sve popravljeno lokalno, test 555/555, čeka pregled vlasnice.** Tura 1 (7): skrol-tastatura, sečene pilule/tabovi, stihovi u Klasicima, ijekavica u igri, „znanstveni", placeholder. Tura 2 (9): tabovi se lome u piluli, pilule rima preširoke, akcije beležnice razbacane, futer u dva reda, praznina na početnoj, Omiljene duplo, traka rima iza Safari trake i „plovi" pri skrolu, skok pri kucanju slogova. Detalji: `HANDOVER.md`, petnaesta i šesnaesta sesija |
+| **OBJAVLJENO 20.08.** | pune liste rima na `/rime-za/` stranama + CTA „Pretraži rime za druge reči" (`a914ec111`, test produkcije 571/571); `?rec=` dinamičke adrese (`a67243659`); obe ture mobilnih bagova sa iPhone-a (`162f3d0e0`); sinonimi ispražnjeni na 2 kurirane reči + uklonjeni `štovanje`/`kapučino` sa sajta |
+| **Čeka proveru vlasnice** | **sinonimi serija 1+2** — `AUDIT/sinonimi-predlog-serija-1.md` i `AUDIT/sinonimi-predlog-serija-2.md` (140 reči). Ona briše/dopisuje u fajlu, javi „gotovo" → odobreno se upisuje u `public/sinonimi.json` kao čiste reči (bez oznaka), pa push. Standard: `HANDOVER.md`, osamnaesta sesija |
+| **Čeka ocenu vlasnice** | **video reklama** (finalni render) — `marketing/reklama/rimoteka-reklama.html` + MP4 (9x16, 1x1, 16x9); render: `node marketing/reklama/render-mp4.mjs` |
 | **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |
 | **OBJAVLJENO 31.07.** | tekst + mobilna verzija (M5–M15) + kontakt u futeru + prazno stanje alata. Test lokalno **436/436**, protiv produkcije **444/444**. Sitemap ponovo prijavljen |
 | ⚠️ **Nije urađeno** | **Request Indexing u GSC** — direktna adresa `/search-console/inspect` vraća 404, sintetički Enter ne pokreće proveru. Probati preko CDP-a (Chrome sa `--remote-debugging-port=9222`). Za 2.000 strana ionako nije put (dnevni limit ~10); ima smisla samo za nekoliko najvažnijih strana |
@@ -83,13 +85,10 @@ Ostatak koji čeka stoji u `TODO-TEKSTOVI.md` — naslov početne (do 13.08.).
 | **M8** | Oznake uz stih (slogovi, šema rime) bile su razminute sa stihom — pesma kucana na telefonu imala je poslednja dva stiha pomerena za ceo red, sa praznim redom između strofa za dva reda. **Popravljeno svuda, dakle i na računaru.** | Vlasnica je tražila da se računar ne dira. Ovo je popravka rada, ne izgleda — ali menja ono što se vidi na računaru. Vraća se u jednu liniju ako kaže. |
 | **M12** | U tamnom režimu „dobre rime" imaju **beo okvir 2 px** (`rgb(255,255,255)`) na podlozi #1e1a2e. Stoji i na računaru i na tabletu. | **Popravljeno samo na telefonu.** Popravka za ostalo je jedna linija, čeka odobrenje. |
 
-#### D) MOBILNA VERZIJA — ostalo posle deploy-a
+#### D) MOBILNA VERZIJA — REŠENO 20.08.2026, obrisano odavde
 
-- **Nije pushovano** — čeka pregled vlasnice. Test lokalno **422/422**.
-- **Nije provereno na pravom telefonu.** Sve je mereno u Chromiumu sa lažiranom
-  tastaturom (`visualViewport.height` se smanji pa se pošalje `resize`). Prvi zadatak
-  posle deploy-a: vlasnica otvori sajt na telefonu i proba **baš beležnicu**.
-- Posle deploy-a obavezno `BASE=https://rimoteka.com node test/predeploy.mjs`.
+Obe ture mobilnih bagova objavljene (`162f3d0e0`), vlasnica je proverila na
+svom telefonu. Trag: `HANDOVER.md`, petnaesta–osamnaesta sesija.
 
 #### E) KLASICI — tekst obećava jedno, radi drugo
 

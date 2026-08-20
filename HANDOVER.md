@@ -4,6 +4,45 @@
 
 ---
 
+# Sesija 20. avgust 2026 (osamnaesta) — pune liste rima OBJAVLJENE + kuracija sinonima
+
+## Šta je urađeno
+
+1. **Pune liste rima na svakoj `/rime-za/` strani — OBJAVLJENO** (`a914ec111`).
+   Strana za reč sada nosi punu ponudu rima (npr. ljubav: 180), CTA dugme
+   „Pretraži rime za druge reči" → `/`. Test produkcije **571/571**.
+2. **`?rec=` dinamičke adrese — objavljene** (`a67243659`), rade na produkciji.
+3. **Mobilni bagovi (obe ture sa iPhone-a) — objavljeno** (`162f3d0e0`).
+4. **Video reklama** — `marketing/reklama/rimoteka-reklama.html`: warp-polje 3D
+   nota + sitni parovi rima koji lete ka gledaocu; pravi logo (`logo-icon.png`);
+   svi parovi provereni u rečniku; kraj: „rimoteka.com — besplatan alat za
+   rimovanje reči i pisanje pesama na srpskom jeziku". Render:
+   `node marketing/reklama/render-mp4.mjs` → 9x16, 1x1, 16x9 MP4.
+   **Čeka ocenu vlasnice (finalni render).**
+5. **Sinonimi — restart kuracije.** Mašinski sinonimi odbačeni u celini;
+   `public/sinonimi.json` sveden na 2 kurirane reči (sunce, šišarka); verzija u
+   app.js `sinonimi.json?v=20260820a`; `test/predeploy.mjs` usklađen.
+   Predlozi: `AUDIT/sinonimi-predlog-serija-1.md` (najčešće + najtraženije reči)
+   i `AUDIT/sinonimi-predlog-serija-2.md` (140 reči) — **obe serije čekaju
+   proveru vlasnice** (ona briše/dopisuje u fajlu i javi „gotovo"; odobreno se
+   upisuje u sinonimi.json kao ČISTE reči, bez ikakvih oznaka).
+6. **Uklonjeno sa sajta na zahtev vlasnice:** `štovanje` (reci.txt,
+   definicije.json, frekvencija.json, build/sadrzajne.json) i
+   `kapučino`/`kapucino` (isto + reci.txt). `poštovanje`/`nepoštovanje` ostaju.
+
+## Standard za sinonime (dogovoreno u ovoj sesiji)
+
+- Pojmovno pokrivanje + vrste/oblici + razgovorno/žargon/pesničko; sve se
+  proverava u Matici (`~/Literatura/recnik-matice-srpske-2011.txt`, ćirilica,
+  OCR-šum — odsustvo NIJE dokaz da reč ne postoji). Vlasnica je konačni
+  autoritet — njene reči ulaze i bez Matice (keva, lova, baćela, šveca…).
+- Na sajtu korisnik vidi SAMO čiste reči — nikakve oznake ni izvori (zahtev
+  vlasnice 20.08.). Oznake žive samo u AUDIT dokumentima za pregled.
+- `AUDIT/sinonimi-iz-matice.md` i `AUDIT/sinonimi-kandidati.md` su mašinski
+  otpad (izvor ranijih „budalaština" tipa šišarka→babuška) — NE koristiti.
+
+---
+
 # Sesija 19. avgust 2026 (sedamnaesta) — SEO: `?rec=` DINAMIČKE ADRESE + sinonimi
 
 > **Stanje:** implementirano LOKALNO, **nije commit-ovano** — čeka puni test,

@@ -29,9 +29,7 @@
             box-shadow:0 0 2.5em 1.5em rgba(255,255,255,.55); backdrop-filter:blur(2px); }
   #logo { display:flex; align-items:center; justify-content:center; gap:.18em; }
   #logo .r {
-    width:2.1em; height:2.1em; border-radius:.55em; display:flex; align-items:center; justify-content:center;
-    background:linear-gradient(135deg,#7a5af0,#5a3fd0); color:#fff;
-    font-family:'Fredoka',sans-serif; font-weight:700; font-size:1em;
+    width:2.1em; height:2.1em; border-radius:.55em; display:block;
     box-shadow:0 .18em .5em rgba(90,63,208,.35);
   }
   #logo .ime { font-family:'Fredoka',sans-serif; font-weight:700; color:#3a2a6e; }
@@ -46,12 +44,12 @@
 <body>
 <div id="svet"></div>
 <div id="centar">
-  <div id="logo"><span class="r">R</span><span class="ime">imoteka</span></div>
+  <div id="logo"><img class="r" src="logo-icon.png" alt="R"><span class="ime">imoteka</span></div>
   <div id="slogan">rimovanje za lakše štimovanje</div>
 </div>
 <div id="kraj">
   <div class="adr">rimoteka.com</div>
-  <div class="bes">besplatan rečnik rima</div>
+  <div class="bes">besplatan alat za rimovanje reči<br>i pisanje pesama na srpskom jeziku</div>
 </div>
 <script>
 /* WARP POLJE — čestice (note i sitni parovi rima) lete iz dubine KA gledaocu,
@@ -62,7 +60,7 @@ function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a
 const PAROVI = [
   ['san','dan'], ['misao','smisao'], ['vreme','breme'], ['duga','tuga'],
   ['zvuk','muk'], ['slona','tona'], ['kosa','bosa'], ['suva','kuva'],
-  ['malena','šarena'], ['zub','kub'],
+  ['malena','šarena'], ['ljubav','ubav'],
 ];
 
 const DUZINA = 11, KRAJ_OD = 9.2;

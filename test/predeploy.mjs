@@ -259,18 +259,28 @@ async function main() {
       for (const v of RANK.values()) if (v < 0) neg++;
       return { sinonima: Object.keys(SYNONYMS).length, saFrekvencijom: neg };
     });
-    ok('sinonimi su učitani', extras.sinonima > 10000, `${extras.sinonima}`);
+    ok('sinonimi se učitavaju (kurirani rečnik — bez mašinskog šuma)', extras.sinonima >= 2, `${extras.sinonima}`);
     ok('frekvencijsko rangiranje radi', extras.saFrekvencijom > 100000, `${extras.saFrekvencijom} reči`);
     const sinGrupa = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      document.getElementById('rimeInput').value = 'ljubav';
+      document.getElementById('rimeInput').value = 'sunce';
       document.getElementById('rimeBtn').click();
       await w(900);
       // naslovi grupa su `h2` otkad je popravljen preskočeni nivo (N9/N14);
       // `h3` ostaje u selektoru da provera radi i na starom kodu
       return [...document.getElementById('rimeResults').querySelectorAll('h2, h3')].map(e => e.textContent.trim());
     });
-    ok('grupa „Sinonimi" se prikazuje u rezultatima', sinGrupa.some(g => /Sinonimi/i.test(g)), sinGrupa.join(' / '));
+    ok('grupa „Sinonimi" se prikazuje za kuriranu reč („sunce")', sinGrupa.some(g => /Sinonimi/i.test(g)), sinGrupa.join(' / '));
+    /* Od 20.08.2026. sinonimi su KURIRANI (vlasnica: „bolje nijedan nego
+       gluposti") — reč bez kuriranog unosa NE sme pokazivati grupu. */
+    const sinLjubav = await page.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      document.getElementById('rimeInput').value = 'ljubav';
+      document.getElementById('rimeBtn').click();
+      await w(900);
+      return [...document.getElementById('rimeResults').querySelectorAll('h2, h3')].map(e => e.textContent.trim());
+    });
+    ok('reč bez kuriranih sinonima NE prikazuje grupu („ljubav")', !sinLjubav.some(g => /Sinonimi/i.test(g)), sinLjubav.join(' / '));
 
     console.log('\n4) Svi tabovi se otvaraju');
     const tabovi = ['rime', 'pretraga', 'slogovi', 'beleznica', 'klasici', 'igra', 'omiljene'];
@@ -386,12 +396,20 @@ async function main() {
     ok('rime za reč pod kursorom stoje uz beležnicu', gutter.rime > 3, `rima=${gutter.rime}`);
     ok('u panelu sa rimama nema mrtvih dugmića', gutter.mrtvaDugmad === 0, `${gutter.mrtvaDugmad}`);
 
-    // Sinonimi NE smeju u panel uz stih: „naći" ima sinonime (izumeti, otkriti,
-    // stvoriti) koji se ne rimuju, pa uz stih izgledaju kao greška u alatu.
+    // Sinonimi NE smeju u panel uz stih: kurirana reč „šišarka" ima sinonim
+    // („šišarica") koji se ne rimuje, pa uz stih izgleda kao greška u alatu.
+    // (Do 20.08.2026. ovde je bila „naći" — tad su sinonimi bili mašinski;
+    // sada su kurirani, pa se proverava na kuriranoj reči. „šišarka" ima
+    // dovoljno rima i za tok „još N rima" ispod.)
     const bezSinonima = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
+      // glavni rezultati dobiju „šišarka" (kurirana reč) — kartica sinonima
+      document.getElementById('rimeInput').value = 'šišarka';
+      document.getElementById('rimeBtn').click();
+      await w(1000);
+      const syn = document.querySelectorAll('#rimeResults .syn-card .chip').length;
       const ed = document.getElementById('noteEditor');
-      ed.innerHTML = 'nikako ne mogu naći';
+      ed.innerHTML = 'tu je moja šišarka';
       ed.dispatchEvent(new Event('input', { bubbles: true }));
       const sel = getSelection(), r = document.createRange();
       r.selectNodeContents(ed); r.collapse(false);
@@ -400,15 +418,15 @@ async function main() {
       await w(900);
       return {
         reci: [...document.querySelectorAll('#noteRhymes .chip .word')].map(x => x.textContent.trim()),
-        imaSinonimaUGlavnom: document.querySelectorAll('#rimeResults .syn-card .chip').length,
+        imaSinonimaUGlavnom: syn,
       };
     });
-    const sinonimiUPanelu = ['izumeti', 'otkriti', 'stvoriti', 'iskopati', 'konstruisati']
+    const sinonimiUPanelu = ['šišarica']
       .filter(w => bezSinonima.reci.includes(w));
-    ok('„naći" uopšte ima sinonime u glavnim rezultatima', bezSinonima.imaSinonimaUGlavnom > 0,
+    ok('„šišarka" ima sinonime u glavnim rezultatima (kurirani)', bezSinonima.imaSinonimaUGlavnom > 0,
       'nema sinonima — provera je bezvredna');
     ok('sinonimi NE ulaze u panel uz stih', sinonimiUPanelu.length === 0, sinonimiUPanelu.join(', '));
-    ok('panel uz stih i dalje ima prave rime', bezSinonima.reci.some(w => /aći$/.test(w)),
+    ok('panel uz stih i dalje ima prave rime', bezSinonima.reci.some(w => /arka$/.test(w)),
       bezSinonima.reci.slice(0, 8).join(', '));
 
     // Klik na rimu: ubacuje je SA RAZMAKOM, panel ostaje usidren za reč sa
@@ -423,9 +441,9 @@ async function main() {
       tekst: document.getElementById('noteEditor').innerText,
       naslov: document.querySelector('#noteRhymes .nr-word').textContent,
     }));
-    ok('klik na rimu ubacuje reč sa razmakom', / \S+$/.test(posleKlika.tekst) && !/naćip/i.test(posleKlika.tekst),
+    ok('klik na rimu ubacuje reč sa razmakom', / \S+$/.test(posleKlika.tekst) && !/šišarka\p{L}/iu.test(posleKlika.tekst),
       JSON.stringify(posleKlika.tekst));
-    ok('panel ostaje usidren za reč sa kojom se rimuje', posleKlika.naslov === 'naći', posleKlika.naslov);
+    ok('panel ostaje usidren za reč sa kojom se rimuje', posleKlika.naslov === 'šišarka', posleKlika.naslov);
     ok('čipovi se ne precrtavaju posle klika (nema treperenja)', posleKlika.probaOstala);
 
     const jos = await page.evaluate(async () => {
@@ -1008,8 +1026,17 @@ async function main() {
     ok('/rimovanje-reci/ → rime za „ljubav" rade NA STRANI', (alat.broj || 0) > 5,
        JSON.stringify(alat).slice(0, 140));
     ok('/rimovanje-reci/ → poznata rima „grbav" je tu', alat.imaGrbav === true, `dobio ${alat.broj} rima`);
-    ok('/rimovanje-reci/ → sinonimi se prikazuju', (alat.grupe || []).some(g => /Sinonimi/i.test(g)),
-       (alat.grupe || []).join(' / '));
+    /* Sinonimi su od 20.08.2026. kurirani (bez mašinskog šuma) — proverava se
+       na kuriranoj reči („sunce"), jer „ljubav" kurirani sinonim još nema. */
+    const sinNaStrani = await pAlat.evaluate(async () => {
+      const w = ms => new Promise(r => setTimeout(r, ms));
+      const ri = document.getElementById('rimeInput');
+      ri.value = 'sunce'; document.getElementById('rimeBtn').click();
+      await w(1000);
+      return [...document.getElementById('rimeResults').querySelectorAll('h2, h3')].map(e => e.textContent.trim());
+    });
+    ok('/rimovanje-reci/ → sinonimi se prikazuju za kuriranu reč', (sinNaStrani || []).some(g => /Sinonimi/i.test(g)),
+       (sinNaStrani || []).join(' / '));
     ok('/rimovanje-reci/ → filter po slogovima radi', alat.filterRadi === true, 'filter nije promenio listu');
     ok('/rimovanje-reci/ → kockica postoji', alat.kockica === true);
     ok('/rimovanje-reci/ → nula grešaka u konzoli', alatGreske.length === 0, alatGreske.slice(0, 3).join(' | '));
@@ -1825,7 +1852,7 @@ async function main() {
       ok('S3 legenda prelazi u ćirilicu', /број слогова/i.test(r17.legenda), r17.legenda.slice(0, 60));
 
       await p17.fill('#rimeInput', '');
-      await p17.type('#rimeInput', 'љубав', { delay: 20 });
+      await p17.type('#rimeInput', 'сунце', { delay: 20 });   // kurirana reč (sinonimi su kurirani od 20.08.)
       await p17.click('#rimeBtn');
       await pauza(1400);
       const syn = await p17.evaluate(() => (document.querySelector('.syn-title')?.textContent || '').trim());
@@ -2458,8 +2485,8 @@ async function main() {
       const p20h = await browser.newPage();
       const syn = await p20h.goto(BASE + '/sinonimi.json', { waitUntil: 'domcontentloaded' })
         .then(r => r.json()).catch(() => null);
-      ok('sinonimi.json se učitava i ima preko 13.000 odrednica',
-         syn && Object.keys(syn).length > 13000, syn ? `${Object.keys(syn).length}` : 'nije učitan');
+      ok('sinonimi.json se učitava (kurirani — bez mašinskog šuma)',
+         syn && Object.keys(syn).length >= 2, syn ? `${Object.keys(syn).length}` : 'nije učitan');
       /* Odrednica je prepisana po Rečniku srpskoga jezika (Matica srpska, 2011),
          odrednica „сунце": 1б „централна ЗВЕЗДА неког другог космичког
          планетног система", 3 „СВЕТЛОСТ и ТОПЛОТА што их испушта то небеско

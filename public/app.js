@@ -403,7 +403,7 @@ async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
       fetch('/frekvencija.json?v=2').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=20260816e').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=20260820a').then(r=>r.json()).catch(()=> ({})),
       /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
          srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i

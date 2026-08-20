@@ -12,7 +12,7 @@
 |---|---|
 | **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
 | **U TOKU (ne pushovati)** | grana `feat/dizajn-pocetna-futer-saradnja` — početna i futer. Futer je vlasnica odbila, ide drugi prolaz. Detalji: `HANDOVER.md`, dvanaesta sesija |
-| **OBJAVLJENO 20.08.** | pune liste rima na `/rime-za/` stranama + CTA „Pretraži rime za druge reči" (`a914ec111`, test produkcije 571/571); `?rec=` dinamičke adrese (`a67243659`); obe ture mobilnih bagova sa iPhone-a (`162f3d0e0`); sinonimi ispražnjeni na 2 kurirane reči + uklonjeni `štovanje`/`kapučino` sa sajta |
+| **OBJAVLJENO 20.08.** | pune liste rima na `/rime-za/` stranama + CTA „Pretraži rime za druge reči" (`a914ec111`, test produkcije 571/571); `?rec=` dinamičke adrese (`a67243659`); obe ture mobilnih bagova sa iPhone-a (`162f3d0e0`); sinonimi ispražnjeni na 2 kurirane reči + uklonjeno `štovanje` sa sajta (na sajtu je `kapućino` sa ć — oblik iz Matice, njen zahtev) |
 | **Čeka proveru vlasnice** | **sinonimi serija 1+2** — `AUDIT/sinonimi-predlog-serija-1.md` i `AUDIT/sinonimi-predlog-serija-2.md` (140 reči). Ona briše/dopisuje u fajlu, javi „gotovo" → odobreno se upisuje u `public/sinonimi.json` kao čiste reči (bez oznaka), pa push. Standard: `HANDOVER.md`, osamnaesta sesija |
 | **Čeka ocenu vlasnice** | **video reklama** (finalni render) — `marketing/reklama/rimoteka-reklama.html` + MP4 (9x16, 1x1, 16x9); render: `node marketing/reklama/render-mp4.mjs` |
 | **Tekst na sajtu** | prepisan u celini (agent `tekstopisac`). Ocena pre popravke **3,6/10**. Izveštaji: `AUDIT/tekstovi/` |

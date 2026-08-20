@@ -27,8 +27,10 @@
    proveru vlasnice** (ona briše/dopisuje u fajlu i javi „gotovo"; odobreno se
    upisuje u sinonimi.json kao ČISTE reči, bez ikakvih oznaka).
 6. **Uklonjeno sa sajta na zahtev vlasnice:** `štovanje` (reci.txt,
-   definicije.json, frekvencija.json, build/sadrzajne.json) i
-   `kapučino`/`kapucino` (isto + reci.txt). `poštovanje`/`nepoštovanje` ostaju.
+   definicije.json, frekvencija.json, build/sadrzajne.json).
+   `poštovanje`/`nepoštovanje` ostaju. **`kapućino` (sa Ć — oblik iz Matice:
+   „капућино, топли напитак од кафе и млека") je na sajtu po zahtevu vlasnice**;
+   oblik sa č (`kapučino`) uklonjen, ASCII `kapucino` ostaje.
 
 ## Standard za sinonime (dogovoreno u ovoj sesiji)
 

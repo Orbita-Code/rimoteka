@@ -141,7 +141,7 @@
 | hleb | pogača, somun, vekna, jufka |
 | mleko | nema pravog |
 | vino | kapljica (preneseno) |
-| kafa | espreso, moka, makijato |
+| kafa | espreso, moka, makijato, kapućino |
 | planina | gora (književno) |
 | šuma | lug (književno), gaj (manja šuma) |
 | livada | pašnjak, poljana |

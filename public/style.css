@@ -2862,3 +2862,17 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   body.notes-typing .notepad-layout .note-rhymes{bottom:var(--kb,0px)}
   body.notes-typing .note-rhymes.nr-open{max-height:52dvh}
 }
+
+/* ── PILULA KOJA JE DUGME, NE LINK (nalaz K2, 20.08.2026) ──────────────────
+   Na stranama `/rime-za/…/` reč koja NEMA svoju stranu crta se kao <button>,
+   da Gugl ne dobije 96.115 adresa za obilazak (v. `chip()` u `gen_pages.py`).
+   Ovde se skidaju samo podrazumevani stilovi dugmeta — sve ostalo nasleđuje
+   od `.chip`, pa se izgled ne menja ni za piksel. Bez ovoga bi pilula dobila
+   sistemski font i sivu pozadinu pregledača. */
+button.chip-btn{
+  font:inherit;color:inherit;
+  border-width:2px;            /* isto kao `.chip`, da se širina ne pomeri */
+  text-align:left;
+  cursor:pointer;
+  -webkit-appearance:none;appearance:none;
+}

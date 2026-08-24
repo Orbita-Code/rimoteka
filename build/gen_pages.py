@@ -275,7 +275,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260816b">
+<link rel="stylesheet" href="/style.css?v=20260824a">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -386,14 +386,40 @@ def esc(s):
     return html.escape(s, quote=True)
 
 def chip(rword, syl, href):
-    return (f'<a class="chip" href="{href}"><span class="word">{esc(rword)}</span>'
-            f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span></a>')
+    """Pilula sa rimom. `href=None` znači: dugme, ne link — v. `rhyme_link`.
+
+    Nalaz K2 (audit 20.08.2026): svaka rima je bila `<a href="/?rec=…">`, pa je
+    2.007 strana zajedno nudilo **98.115 različitih adresa** za obilazak — 48 puta
+    više nego što ceo sitemap ima (2.017). A server na svaku od njih vraća
+    BAJT-IDENTIČAN HTML početne strane; naslov i opis upisuje tek JavaScript.
+    Dok ga Gugl ne izvrši, to su za njega 98.115 kopija iste strane. Sajt je pri
+    poslednjem merenju imao 124 primljene i 1.014 odbijenih strana.
+
+    Zato reč koja NEMA svoju stranu više nije link nego dugme: za čoveka se ništa
+    ne menja (klik i dalje otvara `/?rec=…`, obrađuje ga `app.js`), a robot više
+    nema šta da prati. Dugme je i pristupačnije od linka bez adrese — dobija fokus
+    tastaturom i čitač ekrana ga najavljuje kao dugme.
+    """
+    telo = (f'<span class="word">{esc(rword)}</span>'
+            f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span>')
+    if href:
+        return f'<a class="chip" href="{href}">{telo}</a>'
+    return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" '
+            f'title="Nađi rime za „{esc(rword)}“">{telo}</button>')
 
 def rhyme_link(rword, target_slugs):
+    """Adresa pilule — ili statička strana, ili NIŠTA (pa se crta dugme).
+
+    Do 20.08.2026. je ovde stajalo `return f'/?rec={{quote(rword)}}'` kao rezerva.
+    Ta jedna linija je napravila 96.115 adresa koje Gugl vidi, a ne treba da ih
+    obilazi (v. `chip`). Odluka od 19.08. da `?rec=` bude SEO nosilac za reči bez
+    strane OSTAJE — takva adresa i dalje radi, ima svoj naslov i kanonikal, i sme
+    da se deli. Menja se samo to što je mi više ne nudimo robotu 96.115 puta.
+    """
     sl = slugify(rword)
     if sl in target_slugs:
         return f'/rime-za/{quote(sl)}/'
-    return f'/?rec={quote(rword)}'
+    return None
 
 # Živi alat za rime na tematskoj strani (za sada samo /rimovanje-reci/).
 # Koristi ISTI app.js kao početna — namerno, da se dva algoritma za rime nikad
@@ -423,7 +449,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260819b"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260824a"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -684,13 +710,59 @@ def mini_tool_form(prefill=''):
   </form>
 </section>"""
 
+def load_rank(words):
+    """Treće merilo redosleda rima — MORA biti isto kao u alatu (`app.js:450–456`).
+
+    Nalaz K1 (audit 20.08.2026): ovde je ranije stajalo `{w: i for i, w in
+    enumerate(words)}` — dakle redni broj po AZBUCI, jer je `reci.txt` azbučan.
+    Alat je za isto merilo koristio učestalost, pa su se dva rangiranja razišla:
+    96,4% strana je imalo drugačiji redosled od alata, 51% nije prikazivalo rime
+    koje alat daje (spisak se seče na 90, a u tih 90 su ulazile reči na „a"–„d"),
+    ukupno 11.369 izgubljenih reči. Na strani `/rime-za/ljubav/` je to značilo da
+    Gugl u rezultatu prikazuje „Najbolje rime … gubav, ubav, glibav, grbav".
+
+    Formula je doslovan prepis iz `app.js`:
+        RANK.set(w, freq >= PRAG ? -freq : (MATICA.has(w) ? i : i + POMAK))
+
+    Dva izvora, i oba moraju biti ISTI FAJLOVI koje učitava pregledač:
+      · `public/frekvencija.json` — koliko se reč koristi
+      · `public/matica.json` — da li je reč odrednica u Rečniku Matice srpske.
+        NIJE `build/matica-sve.json` (41.170 reči): u pregledač ide mali spisak od
+        6.752 reči, pa bi pun spisak ovde dao drugačiji redosled nego u alatu.
+
+    Zašto Matica uopšte učestvuje: srLex je veb-korpus i ne poznaje sve standardne
+    srpske reči — `hiljada` i `hiljadu` u njemu imaju NULA pojava. Bez ovog drugog
+    signala bi reč viđena jedanput preticala `hiljada`. Nedostatak broja znači
+    „nema signala", ne „najređa reč".
+    """
+    try:
+        with open(os.path.join(PUB, 'frekvencija.json'), encoding='utf-8') as f:
+            freq = json.load(f)
+    except Exception:
+        freq = {}
+    try:
+        with open(os.path.join(PUB, 'matica.json'), encoding='utf-8') as f:
+            matica = set(json.load(f))
+    except Exception:
+        matica = set()
+    PRAG = 10
+    POMAK = len(words)
+    rank = {}
+    for i, w in enumerate(words):
+        f_w = freq.get(w, 0)
+        rank[w] = -f_w if f_w >= PRAG else (i if w in matica else i + POMAK)
+    return rank
+
+
 def main():
     words, defs = load()
-    rank = {w: i for i, w in enumerate(words)}
+    rank = load_rank(words)
     keygroup = defaultdict(list)
     finalgroup = defaultdict(list)
     for i, w in enumerate(words):
-        keygroup[rhyme_key(w)].append(w)        # već rangirano (index raste)
+        # Grupe se pune azbučno; REDOSLED se određuje tek sortiranjem po `rank`
+        # (v. `load_rank`) — sam redosled punjenja ovde ne znači ništa.
+        keygroup[rhyme_key(w)].append(w)
         finalgroup[final_syl_key(w)].append(w)  # za fallback „isti završni slog“
 
     wset = set(words)
@@ -856,7 +928,8 @@ def main():
         tsyl = syllables(t)
         # Isti izbor i redosled kao u alatu (app.js `doRhymes`): najbolje = isti
         # broj slogova, pa dobre — redosled: blizina slogova → duži zajednički
-        # završetak → učestalost. Ranije je statički prag po završetku davao
+        # završetak → učestalost (`rank`, v. `load_rank`).
+        # ⚠️ Ova tvrdnja se PROVERAVA u testu, sekcija 35 — ne verovati komentaru. Ranije je statički prag po završetku davao
         # ~42 reči za „ljubav", a alat nudi ~180 — posetilac je video samo deo
         # ponude i morao je u alat (prijava vlasnice 20.08.2026: „sve reči
         # odmah na strani, bez šetanja po sajtu").

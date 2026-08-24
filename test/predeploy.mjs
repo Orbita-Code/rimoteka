@@ -4633,6 +4633,251 @@ async function main() {
       await ctx40.close();
     }
 
+    console.log('\n39) REDOSLED RIMA — strana i alat moraju da daju ISTO (nalaz K1)');
+    {
+      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz K1.
+         Test je do tada imao provere „strana postoji", „strana ima rime" i „broj
+         rima se poklapa sa naslovom", i sve su prolazile. Nijedna nije pitala
+         DA LI JE TO ISTI SPISAK ISTIM REDOM KAO U ALATU. A nije bio:
+           · `gen_pages.py` je treće merilo redosleda računao kao redni broj reči
+             u `reci.txt` (azbučno), a `app.js` po učestalosti;
+           · u samom alatu je pretraga iz adrese (`?rec=…`) kretala pre nego što
+             `loadExtras()` prepiše `RANK` frekvencijskim, pa je svako ko dođe
+             klikom na rimu ili iz Gugla dobijao azbučni spisak.
+         Izmereno pre popravke: 96,4% strana drugačiji redosled, 51% strana nije
+         prikazivalo rime koje alat daje, 11.369 izgubljenih reči. Ova sekcija je
+         puštena protiv produkcije DOK JE TAMO BIO STARI KOD i pala je 24 puta.
+
+         PRAVILO ŠIRE OD OVOG NALAZA: kad istu stvar računaju dva odvojena sistema
+         (Python generator i JavaScript alat), u test ide provera koja ih POREDI.
+         Provera „A radi" i provera „B radi" ne daju zajedno „A i B daju isto". */
+
+      /* Poredi se SAMO „Najbolje rime" i „Dobre rime" — grupe na koje se nalaz K1
+         odnosi. Sve ostalo na ekranu se izuzima, iz dva razloga:
+           · sinonimi žive u zasebnoj kartici (`.syn-card`) i nema ih na statičkoj
+             strani — bez ovoga bi „sunce" padalo uvek, jer alat tu ubacuje
+             `zvezda, svetlost, toplota`;
+           · kod reči sa malo rima („sunce" ih ima 6) u prvih deset bi se uvukle
+             „Bliske rime" i „Rime po broju slogova", pa bi provera padala na
+             razlici koja sa redosledom nema veze. */
+      const uzmiRime = () => [...document.querySelectorAll('#rimeResults .res-group')]
+        .filter(g => { const h = g.querySelector('h2');
+                       return h && /^(Najbolje|Dobre) rime/.test(h.textContent.trim()); })
+        .flatMap(g => [...g.querySelectorAll('.word')])
+        .map(x => x.textContent.trim()).slice(0, 10);
+
+      const ctx39 = await browser.newContext();
+      const alat = ojacajStranu(await ctx39.newPage());
+      await alat.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      /* Ne meri se dok frekvencija nije stigla — inače bi test poredio azbučni
+         spisak sa azbučnim i prolazio i sa pokvarenim kodom. `RANK.get('čeka')`
+         je negativan tek kad je frekvencija primenjena. */
+      let rangSpreman = true;
+      try {
+        await alat.waitForFunction(
+          () => typeof RANK !== 'undefined' && RANK.size > 100000 && RANK.get('čeka') < 0,
+          null, { timeout: 60000 });
+      } catch { rangSpreman = false; }
+      ok('frekvencijsko rangiranje se primeni u alatu', rangSpreman,
+         'RANK nije dobio frekvenciju za 60 s');
+
+      async function izAlata(rec) {
+        await alat.fill('#rimeInput', '');
+        await alat.fill('#rimeInput', rec);
+        await alat.evaluate(() => document.getElementById('rimeBtn').click());
+        await pauza(700);
+        return alat.evaluate(uzmiRime);
+      }
+
+      if (rangSpreman) {
+        /* Uzorak je STALAN, ne nasumičan — build mora biti ponovljiv, a pad mora
+           da se može reprodukovati istom komandom. Bira raznolike dužine, oba
+           roda, reči sa kvačicama i slugove koji se razlikuju od reči. */
+        const uzorak = ['reka', 'ljubav', 'glava', 'sunce', 'voda', 'dete', 'pesma',
+                        'srce', 'zima', 'mama', 'nada', 'kuca', 'ruka', 'oko',
+                        'noc', 'dan', 'more', 'put', 'san', 'grad'];
+        let ispitano = 0, razlicito = 0;
+        for (const slug of uzorak) {
+          const r = await fetch(`${BASE}/rime-za/${slug}/`);
+          if (!r.ok) { ok(`/rime-za/${slug}/ postoji`, false, `HTTP ${r.status}`); continue; }
+          const html = await r.text();
+          /* Slug NIJE reč: `/rime-za/noc/` je strana za „noć". Ciljna reč se čita
+             iz H1 — inače bi test poredio rime za dve različite reči. */
+          const rec = (html.match(/<h1[^>]*>Rime za reč „([^“]+)“/) || [])[1];
+          if (!rec) { ok(`/rime-za/${slug}/ — ciljna reč se čita iz H1`, false, 'H1 nije prepoznat'); continue; }
+          ispitano++;
+          const alatLista = await izAlata(rec);
+          /* Isto sečenje kao gore, samo nad HTML-om strane: sve posle „Najboljih"
+             i „Dobrih rima" nije predmet ovog nalaza. */
+          const granice = ['Bliske rime', 'class="syl-groups"', 'class="related-rimes"', 'class="mini-tool"']
+            .map(s => html.indexOf(s)).filter(i => i >= 0);
+          const glavniDeo = granice.length ? html.slice(0, Math.min(...granice)) : html;
+          const naStrani = [...glavniDeo.matchAll(/<span class="word">([^<]+)<\/span>/g)]
+            .map(m => m[1]).slice(0, 10);
+          const isto = alatLista.length > 0 && alatLista.join(',') === naStrani.join(',');
+          if (!isto) razlicito++;
+          ok(`/rime-za/${slug}/ („${rec}") — prvih 10 rima isto kao u alatu`, isto,
+             `strana: ${naStrani.slice(0, 6).join(', ')} | alat: ${alatLista.slice(0, 6).join(', ')}`);
+        }
+        ok(`uzorak je pun (ispitano ${ispitano} od ${uzorak.length})`, ispitano >= 18, `ispitano ${ispitano}`);
+
+        /* Drugo lice istog nalaza: dolazak spolja naspram ručnog kucanja. */
+        for (const w of ['reka', 'ljubav', 'glava']) {
+          const rucno = await izAlata(w);
+          const c = await browser.newContext();
+          const p = ojacajStranu(await c.newPage());
+          await p.goto(`${BASE}/?rec=${encodeURIComponent(w)}`, { waitUntil: 'domcontentloaded' });
+          let imaRima = true;
+          try {
+            await p.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 3,
+                                    null, { timeout: 60000 });
+          } catch { imaRima = false; }
+          /* Pauza je namerna: frekvencija stiže POSLE prvog iscrtavanja. Ako se
+             prikaz ne osveži kad stigne, ovde se to vidi. */
+          await pauza(3000);
+          const preko = imaRima ? await p.evaluate(uzmiRime) : [];
+          await c.close();
+          ok(`/?rec=${w} — isti redosled kao kad se reč ukuca ručno`,
+             imaRima && rucno.length > 0 && rucno.join(',') === preko.join(','),
+             `?rec=: ${preko.slice(0, 6).join(', ')} | ručno: ${rucno.slice(0, 6).join(', ')}`);
+        }
+
+        /* Pojedinačan dokaz koji je vlasnica prijavila 31.07.2026: česta reč
+           (`čeka`, 34.809 pojava) ne sme da ispadne ispod retkih (`breka`, `kmeka`). */
+        const zaReka = await izAlata('reka');
+        ok('„čeka" je među prvih 10 rima za „reka" u alatu', zaReka.includes('čeka'), zaReka.join(', '));
+        const htmlReka = await (await fetch(`${BASE}/rime-za/reka/`)).text();
+        const faq = (htmlReka.match(/Najbolje rime za reč reka su: ([^"<]*)/) || [])[1] || '';
+        ok('„čeka" je u spisku „top 10" koji Gugl prikazuje u rezultatu', /čeka/.test(faq), faq.slice(0, 120));
+      }
+      await ctx39.close();
+    }
+
+    console.log('\n40) ADRESE ZA GUGLA — pilule bez svoje strane nisu linkovi, prazan upit je noindex (nalaz K2)');
+    {
+      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz K2.
+         Svaka rima je bila `<a href="/?rec=…">`, pa je 2.007 strana zajedno
+         nudilo 98.115 različitih adresa za obilazak — 48 puta više nego što ceo
+         sitemap ima. Na svaku od njih server vraća BAJT-IDENTIČAN HTML početne;
+         naslov i opis upisuje tek JavaScript. Uz to `noindex` nije postojao
+         nigde u projektu, pa je `/?rec=<bilo šta>` bila indeksabilna strana bez
+         ijedne rime.
+         Odluka od 19.08. da `?rec=` bude SEO nosilac za reči bez strane OSTAJE —
+         proverava se samo da ih ne nudimo robotu na stotine hiljada. */
+
+      // 40a) na strani reči nijedna rima nije ?rec= link, a dugmadi ima
+      {
+        const html = await (await fetch(BASE + '/rime-za/ljubav/')).text();
+        const linkovi = (html.match(/href="\/\?rec=/g) || []).length;
+        const dugmad  = (html.match(/class="chip chip-btn"/g) || []).length;
+        ok('/rime-za/ljubav/ — nijedna rima nije `?rec=` link', linkovi === 0, `našao ${linkovi}`);
+        ok('/rime-za/ljubav/ — reči bez svoje strane su dugmad', dugmad > 20, `našao ${dugmad}`);
+      }
+
+      // 40b) dugme i dalje radi za čoveka — klik vodi na /?rec=…
+      {
+        const c = await browser.newContext();
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+        await pauza(900);
+        const dugme = p.locator('.chip[data-rec]').first();
+        let rec = '';
+        if (await dugme.count()) {
+          rec = await dugme.getAttribute('data-rec');
+          await dugme.click();
+          await pauza(1500);
+        }
+        ok('klik na pilulu-dugme vodi na `/?rec=<ta reč>`',
+           !!rec && decodeURIComponent(p.url()).includes('?rec=' + rec),
+           `reč „${rec}", adresa ${decodeURIComponent(p.url())}`);
+        await c.close();
+      }
+
+      // 40c) prazan pogodak dobija noindex, pun pogodak ga NEMA
+      {
+        const c = await browser.newContext();
+        const p = ojacajStranu(await c.newPage());
+        const stanje = async adresa => {
+          await p.goto(BASE + adresa, { waitUntil: 'domcontentloaded' });
+          await pauza(3500);
+          return p.evaluate(() => ({
+            robots: (document.querySelector('meta[name="robots"]') || {}).content || '',
+            title: document.title,
+            h1: (document.querySelector('h1') || {}).textContent || '',
+            ogt: (document.querySelector('meta[property="og:title"]') || {}).content || '',
+            ogu: (document.querySelector('meta[property="og:url"]') || {}).content || '',
+            kan: (document.querySelector('link[rel="canonical"]') || {}).href || '',
+            rima: document.querySelectorAll('#rimeResults .word').length
+          }));
+        };
+        /* MERILO JE REČNIK, NE BROJ RIMA — i to je nauk iz prvog pokušaja ove
+           provere. Prvo je pisalo „adresa bez ijedne rime dobija noindex", pa je
+           pala: `xqzwptrv` nije reč, ali se završava na `-rv`, pa alat uredno
+           vrati `strv, krv, crv, hrv, brv`. Po tom merilu bi svaki niz slova sa
+           srpskim završetkom pravio novu stranu za Gugla — tačno ono što nalaz
+           K2 sprečava. Zato se ovde traži DVOJE: niz slova koji ima rime, ali
+           nije reč, i niz koji nema ni rime. */
+        const nijeRec = await stanje('/?rec=xqzwptrv');
+        ok('`?rec=` sa nizom slova koji NIJE reč nosi `noindex` (iako ima rima)',
+           /noindex/.test(nijeRec.robots),
+           `robots="${nijeRec.robots}", rima ${nijeRec.rima}`);
+
+        const prazno = await stanje('/?rec=zzzzzz');
+        ok('`?rec=` bez ijedne rime nosi `noindex`', /noindex/.test(prazno.robots),
+           `robots="${prazno.robots}", rima ${prazno.rima}`);
+
+        const puno = await stanje('/?rec=ljubav');
+        ok('`?rec=ljubav` NEMA `noindex`', !/noindex/.test(puno.robots), `robots="${puno.robots}"`);
+        ok('`?rec=ljubav` — `h1` pominje reč', /ljubav/i.test(puno.h1), puno.h1);
+        ok('`?rec=ljubav` — `og:title` prati reč', /ljubav/i.test(puno.ogt), puno.ogt.slice(0, 90));
+        ok('`?rec=ljubav` — `og:url` je jednak kanonikalu', puno.ogu === puno.kan,
+           `og:url ${puno.ogu} | kanonikal ${puno.kan}`);
+        ok('`?rec=ljubav` — kanonikal ide na statičku stranu', /\/rime-za\/ljubav\//.test(puno.kan), puno.kan);
+
+        /* Naslov strane se vraća kad se polje isprazni — inače bi `h1` ostao
+           zaglavljen na poslednjoj traženoj reči. */
+        await p.fill('#rimeInput', '');
+        await p.evaluate(() => document.getElementById('rimeBtn').click());
+        await pauza(800);
+        const posle = await p.evaluate(() => ({
+          h1: (document.querySelector('h1') || {}).textContent || '',
+          title: document.title,
+          robots: (document.querySelector('meta[name="robots"]') || {}).content || ''
+        }));
+        ok('prazno polje vraća početni `h1`', !/„ljubav/.test(posle.h1), posle.h1.slice(0, 80));
+        ok('prazno polje vraća početni `title`', !/ljubav/i.test(posle.title), posle.title.slice(0, 80));
+        ok('prazno polje ne ostavlja `noindex` na početnoj', !/noindex/.test(posle.robots),
+           `robots="${posle.robots}"`);
+        await c.close();
+      }
+    }
+
+    console.log('\n41) VERZIJE PODATAKA PRATE SADRŽAJ (nalaz V5)');
+    {
+      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz V5.
+         Adrese podataka nose `?v=…` da bi pregledač i service worker znali kad da
+         povuku novu verziju: keš gleda ADRESU, ne datum fajla. Taj broj je kucao
+         čovek, pa se desilo ovo: `reci.txt` i `definicije.json` izmenjeni 20.08.
+         (izbačen `kapučino`), `?v=` ostao od 17.08. — svako ko je već bio na sajtu
+         dobijao je stari rečnik, sa rečju koju je vlasnica tražila da se izbaci.
+         Sada je `?v=` prvih osam znakova otiska samog fajla, a ova provera pada ako
+         se sadržaj promenio a verzija nije. Popravka:
+             node scripts/osvezi-verzije-podataka.mjs
+         Provera radi nad REPOOM, ne nad mrežom — zato je ista i lokalno i protiv
+         produkcije, i hvata grešku PRE nego što ode na sajt. */
+      const { stanjeVerzija } = await import('../scripts/osvezi-verzije-podataka.mjs');
+      const stanje = stanjeVerzija(ROOT);
+      const nesloge = Object.entries(stanje)
+        .filter(([, v]) => v.upisano !== v.ocekivano)
+        .map(([ime, v]) => `${ime}: upisano ${v.upisano}, sadržaj traži ${v.ocekivano}`);
+      ok('svaki fajl sa podacima ima ?v= koji odgovara svom sadržaju',
+         nesloge.length === 0,
+         nesloge.join(' | ') + (nesloge.length ? ' → pusti: node scripts/osvezi-verzije-podataka.mjs' : ''));
+      ok('svih sedam fajlova sa podacima je pokriveno proverom',
+         Object.keys(stanje).length === 7 && Object.values(stanje).every(v => v.upisano),
+         Object.entries(stanje).filter(([, v]) => !v.upisano).map(([i]) => i).join(', ') || 'ok');
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

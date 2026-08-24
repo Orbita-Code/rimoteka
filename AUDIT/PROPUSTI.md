@@ -1118,3 +1118,123 @@ verodostojno („značenje u redu: 25.312").
 > izlazu, nula na izvestaju znači „skripta ne radi", ne „nema nalaza".
 > Uz to: **nulu u izveštaju uvek posumnjati** — proveriti jedan pozitivan
 > slučaj rukom pre slanja vlasnici.
+
+---
+
+## 20.08.2026 — pun audit: tri propusta, jedan tuđi i dva moja
+
+### 18. Test je proveravao da strana RADI, nikad da daje ISTO što i alat
+
+**Šta je promašeno.** Redosled rima na 1.994 statičke strane je azbučni, a ne po
+učestalosti (`gen_pages.py:689`). Na najvažnijoj strani sajta Gugl u rezultatu prikazuje
+„Najbolje rime za reč ljubav su: **gubav, ubav, glibav, grbav**…". Prošlo je kroz
+**tri audita** i kroz **572 provere** koje sve prolaze.
+
+**Zašto se nije videlo.** Test ima provere „strana postoji", „strana ima rime", „broj
+rima se poklapa sa naslovom" — i sve su tačne. Nijedna ne pita **da li je to isti spisak
+istim redom kao u alatu**. Dva sistema (Python generator i JavaScript alat) računaju istu
+stvar dva puta, a nikad se ne porede jedan sa drugim.
+
+**Pravilo koje sprečava celu klasu.**
+> **Kad istu stvar računaju dva odvojena sistema, u test ide provera koja ih PORE­DI —
+> ne dve provere koje svaki zasebno kažu „radim".** Provera „A radi" i provera „B radi"
+> ne daju zajedno „A i B daju isto". To se mora tražiti izričito.
+
+Isto važi svuda gde postoji par „generator naspram alata", „server naspram klijenta",
+„keš naspram izvora".
+
+### 19. Komentar u kodu je tvrdio ono što kod ne radi — i to na tri mesta
+
+`gen_pages.py:693` kaže „već rangirano (index raste)", `:856–861` kaže „redosled: … →
+učestalost" i „**Isti izbor i redosled kao u alatu**". Nijedno nije tačno. Commit od
+20.08. (`a914ec111`) nosi poruku „pune liste rima na svakoj strani za reč **(kao u
+alatu)**" — nisu kao u alatu.
+
+Ovo je isti obrazac koji je već zapisan pod brojem 10 („tvrdio sam kako radi rangiranje,
+a nisam otvorio kod koji ga radi"), samo sada sa druge strane: **kod sam sebe pogrešno
+opisuje**, pa sledeća sesija pročita komentar i poveruje mu.
+
+**Pravilo.**
+> **Komentar nije dokaz. Kad komentar tvrdi „isto kao X", to je provera koju treba
+> napisati, ne rečenica koju treba verovati.** Svaka takva tvrdnja u komentaru ili u
+> commit poruci mora imati svoj red u testu — inače se briše iz komentara.
+
+### 20. MOJ propust: tri lažna nalaza iz iste greške — merio sam kroz `window`
+
+U svojoj proveri rubnih stanja pisao sam `window.WORDS`. Rečnik je `let WORDS` u dosegu
+skripte, dakle **nije osobina `window`-a** — vratilo je 0. Zamalo sam prijavio dva
+kritična nalaza kojih nema: „sajt ne radi bez `localStorage`" i „sajt ne radi sa
+pokvarenim `localStorage`". Ispravno je `typeof WORDS !== 'undefined' ? WORDS.length : 0`
+— i tada je 285.822 reči i **0 grešaka** u oba slučaja.
+
+Treći iz iste serije: prijavio sam „tamna tema ne preživljava `F5`" jer sam poredio
+**nizove klasa kao tekst**, a promenio se samo njihov redosled
+(`dark-mode js-kartice` naspram `js-kartice dark-mode`).
+
+**Pravilo.**
+> **Pre nego što prijaviš da nešto ne radi, pusti istu proveru na slučaju za koji ZNAŠ
+> da radi.** Ako i tamo padne, greška je u proveri, a ne u sajtu. Kod poređenja skupova
+> (klase, spiskovi, ključevi) porediti **skup**, nikad tekst — redosled nije podatak.
+
+Isti postupak je već zapisan pod brojevima 11 i 6; razlika je što se ovoga puta
+kontrolno merenje isplatilo **pre** izveštaja, a ne posle.
+
+---
+
+## 24.08.2026 — popravka K1 i K2: dva sopstvena propusta uhvaćena testom
+
+### 21. Prvo pravilo za `noindex` vezao sam za broj rima — i palo je na prvoj proveri
+
+Pisao sam: „adresa bez ijedne rime dobija `noindex`". Zvuči tačno. Nije: `xqzwptrv`
+nije reč ni na jednom jeziku, ali se završava na `-rv`, pa alat uredno vrati
+**`strv, krv, crv, hrv, brv`** — pet rima. Po mom merilu je to strana „sa sadržajem"
+i smela bi u Guglov indeks. A ceo nalaz K2 postoji zato da Gugl ne dobije beskonačan
+prostor adresa: svaki niz slova sa srpskim završetkom pravio bi novu.
+
+Ispravno merilo je **rečnik**: indeksira se samo adresa čija je reč u `reci.txt`.
+Svaka prava srpska reč tu jeste; greške u kucanju i nizovi slova nisu.
+
+**Pravilo.**
+> **Kad praviš uslov „ovo je vredno indeksiranja / prikazivanja / čuvanja", pitaj se
+> šta je NAJGORI ulaz koji taj uslov propušta** — i probaj baš njega, ne uobičajen
+> primer. Broj rezultata je posledica, ne dokaz da je upit smislen. Uslov se vezuje
+> za izvor istine (rečnik), ne za veličinu izlaza.
+
+Da provera nije bila napisana pre popravke, pogrešno pravilo bi otišlo na sajt i
+delovalo bi kao da je K2 rešen.
+
+### 22. Popravio sam stanje pri ulasku, a zaboravio izlazak
+
+Dodao sam da `h1`, naslov i opis prate traženu reč. Radilo je. Ali kad korisnik
+**isprazni polje**, `doRhymes` izlazi ranije (`if(q.length<2) return`) i SEO deo se
+nikad ne pozove — pa je na strani bez ijedne rime i dalje stajalo
+„Rime za reč „ljubav“", zajedno sa `noindex` ako je pre toga tražena nepostojeća reč.
+
+**Pravilo.**
+> **Svaka izmena stanja strane mora imati i put NAZAD, i taj put se testira zasebno.**
+> Ako nešto postavljaš na osnovu unosa, napiši i šta se dešava kad unos nestane —
+> prazno polje, obrisan tekst, „Nazad", zatvoren panel. Rani `return` u funkciji koja
+> menja stanje je mesto gde se to najčešće izgubi.
+
+Obe greške je uhvatio pre-deploy test, u prvom prolazu posle pisanja — što je i bila
+svrha pravila „provera se piše pre popravke i pusti se dok je stari kod još gore".
+
+### 23. Verziju koju kuca čovek čovek i zaboravi — pa je vezao za sadržaj
+
+V5 je bio uzak nalaz: „`?v=` uz `reci.txt` i `definicije.json` nije podignut uz izmenu
+od 20.08." Popravka od jedne linije bi ga zatvorila — i ostavila **pet drugih fajlova**
+sa istom bombom (`frekvencija.json`, `sinonimi.json`, `matica.json`, `jekavski.json`,
+`reci_jekavica.txt`), plus sledeću sesiju koja opet zaboravi.
+
+Zato verzija više nije broj nego **otisak sadržaja** (`sha256`, prvih osam znakova).
+Promeni se fajl — promeni se adresa, bez ičije pažnje.
+
+**Pravilo.**
+> **Kad nalaz glasi „neko je zaboravio da ažurira X", popravka nije ažurirati X nego
+> ukloniti potrebu da se X pamti.** Ako se to ne može, onda mora postojati provera koja
+> pada dok X nije ažuriran — i koja u poruci kaže tačnu komandu koja to rešava.
+> Nabroj i sva ostala mesta iste klase pre nego što zatvoriš nalaz; nalaz je gotovo
+> uvek uzorak, ne ceo skup.
+
+Provera (sekcija 41) je pre upisivanja isprobana tako što je stara verzija vraćena
+ručno — pala je i imenovala tačan fajl.

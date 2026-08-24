@@ -3,8 +3,109 @@
 > Živi spisak. Popravljeno se **briše**, novo se **dodaje**.
 > Kolona „viđen" je datum kad je nalaz PRVI put zabeležen — po njoj se vidi šta se odlaže.
 >
-> Pun opis svakog nalaza: `AUDIT/2026-07-28-audit.md` i `AUDIT/2026-07-29-dopuna.md`
-> Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
+> Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
+> `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
+
+## ZATVORENO 24.08.2026 — V5 (verzije podataka)
+
+Bilo: `?v=` uz svaki fajl sa podacima kucao je čovek, pa je `reci.txt` izmenjen
+20.08. (izbačen `kapučino`) ostao na verziji od 17.08. Keš i service worker gledaju
+**adresu**, ne datum — pa je povratnik dobijao stari rečnik.
+
+Sada: `?v=` je **prvih osam znakova otiska (sha256) samog fajla**. Promeni se sadržaj,
+promeni se adresa; nema šta da se zaboravi. Obuhvaćeno je svih **sedam** fajlova sa
+podacima, ne samo dva iz nalaza:
+
+| Fajl | Bilo | Sada |
+|---|---|---|
+| `reci.txt` | `20260816d` | `8a9899b2` |
+| `reci_jekavica.txt` | `20260802a` | `1e9eef37` |
+| `definicije.json` | `238` | `cb62a039` |
+| `frekvencija.json` | `2` | `1bfe729c` |
+| `sinonimi.json` | `20260820a` | `a6c3cea3` |
+| `matica.json` | `1` | `fb9dfdde` |
+| `jekavski.json` | `20260803a` | `40070794` |
+
+Alat: `node scripts/osvezi-verzije-podataka.mjs` — pušta se posle svake izmene rečnika.
+Provera: **sekcija 41** pada ako se sadržaj promenio a verzija nije, i kaže koju komandu
+treba pustiti. Provereno tako što je stara verzija vraćena ručno — provera je pala.
+
+> **Ostaje pola posla:** `app.js` i `style.css` i dalje nose ručno kucanu verziju
+> (`20260824a`). Ista klasa greške, samo na drugom mestu — upisano u `TODO.md`.
+
+---
+
+## ZATVORENO 24.08.2026 — K1 i K2 (dva kritična nalaza iz audita 20.08.)
+
+> Provere su napisane PRE popravke i puštene protiv produkcije **dok je tamo bio
+> stari kod** — pale su 24 puta. Tek onda je dirán kod. Posle popravke prolaze.
+
+| Nalaz | Šta je bilo | Šta je sada | Provera koja to čuva |
+|---|---|---|---|
+| **K1** — redosled rima azbučni umesto po učestalosti | `gen_pages.py:689` je `rank` računao kao redni broj reči u azbučnom `reci.txt`; u alatu je pretraga iz `?rec=` kretala pre nego što `loadExtras()` prepiše `RANK` frekvencijskim. 96,4% strana imalo drugačiji redosled od alata, 51% nije prikazivalo rime koje alat daje, 11.369 izgubljenih reči | nova `load_rank()` u `gen_pages.py` računa isto kao `app.js:455`, iz **istih fajlova koje učitava pregledač** (`public/frekvencija.json`, `public/matica.json` — ne `build/matica-sve.json`); `loadExtras()` tiho ponovo iscrta rezultate kad frekvencija stigne | **sekcija 39** — 20 strana, prvih 10 rima mora biti identično alatu; `?rec=` mora dati isto kao ručno kucanje; „čeka" mora biti u spisku „top 10" |
+| **K2** — 98.115 adresa otvoreno za Gugla | svaka rima je bila `<a href="/?rec=…">`; `noindex` nije postojao nigde u projektu; `og:` oznake i `h1` nisu pratili reč | reč bez svoje strane je sada `<button class="chip chip-btn" data-rec="…">` — za čoveka isto, robot nema šta da prati; `noindex,follow` za sve što nije reč iz rečnika; `og:title`/`og:description`/`og:url` i `h1` prate reč i vraćaju se kad se polje isprazni | **sekcija 40** — nula `?rec=` linkova na strani reči, klik na dugme i dalje vodi na `/?rec=`, `noindex` za niz slova i za prazan pogodak, `og:url` jednak kanonikalu |
+
+**Izmereno posle popravke:**
+
+| Mera | Pre | Posle |
+|---|---|---|
+| jedinstvenih `?rec=` adresa u HTML-u | 98.115 | **13** (namerni CTA linkovi na tematskim stranama) |
+| `?rec=` linkova ukupno | 361.770 | 13 |
+| strana reči | 1.994 | 1.994 (nepromenjeno) |
+| adresa u sitemapu | 2.017 | 2.017 (nepromenjeno) |
+| linkova sa huba ka stranama reči | 1.994 | 1.994 (nepromenjeno) |
+
+**Uz to zatvoreno:** bag „čeka" iz `TODO.md` od 31.07.2026. Reč nije bila nigde
+filtrirana — azbučni redosled ju je gurao na 24. mesto od 26. Sada je 8.
+
+**Verzije podignute** na `20260824a` (`app.js`, `style.css`) — bez toga popravka ne bi
+stigla do onih koji su već bili na sajtu, jer service worker gleda adresu, ne datum.
+
+> **Dve sopstvene greške uhvaćene testom pri ovoj popravci** (`PROPUSTI.md`, 21 i 22):
+> prvo pravilo za `noindex` bilo je vezano za broj rima, a `xqzwptrv` ima pet rima;
+> i `h1` se nije vraćao kad se polje isprazni.
+
+---
+
+## STANJE NA DAN 20.08.2026 — pun audit, ocena 6,2/10 (bilo 8,4 na dan 10.08.)
+
+**Kritični K1 i K2 su ZATVORENI 24.08.2026** (v. odeljak iznad). Ostaje: 4 visoka, 9 srednjih, 11 niskih (V5 zatvoren 24.08.). Dokaz i merenje za svaki:
+`AUDIT/2026-08-20-audit.md`. Ovde je samo spisak za praćenje.
+
+> **Ocena je pala zato što je audit prvi put merio nešto novo** — da li strane daju
+> **isto što i alat**. Ne daju. Test od 572 provere to nikad nije pitao.
+
+| # | Nalaz | Ozbiljnost | Viđen | Test | Status |
+|---|---|---|---|---|---|
+| ~~K1~~ | Redosled rima je AZBUČNI umesto po učestalosti — i na 1.994 statičke strane (`gen_pages.py:689`) i u alatu kad se dođe preko `?rec=` (`app.js:4767` pretražuje pre nego što `loadExtras()` prepiše `RANK`). Izmereno: 96,4% strana ima drugačiji redosled od alata, 51% ne prikazuje rime koje alat daje, 11.369 izgubljenih reči. **Ovo je i uzrok baga „čeka" iz TODO-a od 31.07.** | **KRITIČNO** | 20.08. | — | **ZATVOREN 24.08.** ✔ sekcija 39 |
+| ~~K2~~ | 98.115 `?rec=` adresa otvoreno za obilazak (sitemap ima 2.017), a server svima vraća bajt-identičan HTML. Uz to `og:title`/`og:url`/`h1` ne prate reč. Nema ni `noindex` kad nema rima | **KRITIČNO** | 20.08. | — | **ZATVOREN 24.08.** ✔ sekcija 40 |
+| **V1** | 1.739 od 1.994 naslova duže od 65 znakova (87%), najduži 76 | VISOKO | 20.08. | — | otvoren |
+| **V2** | Sajt na 5 strana obećava sinonime, a `sinonimi.json` ima **2 reči** od 280.476 | VISOKO | 20.08. | — | otvoren — 140 kuriranih čeka odobrenje vlasnice |
+| **V3** | Nema HSTS zaglavlja | VISOKO | 10.08. | — | otvoren — drugi audit |
+| **V4 (M12)** | Beo okvir 2 px na „dobrim rimama" u tamnoj temi (15,1:1 prema podlozi); popravka je zaključana u `@media(max-width:560px)`, `style.css:2814` | VISOKO | 31.07. | — | **treći audit zaredom** — čeka odobrenje vlasnice |
+| ~~V5~~ | `?v=` nije podignut uz izmenu rečnika 20.08. — povratnik dobija stari rečnik, sa `kapučino` | VISOKO | 20.08. | — | **ZATVOREN 24.08.** ✔ sekcija 41 |
+| **S1** | Sigurnosna zaglavlja otpadaju sa `/sw.js` i `/sw-register.js` (`nginx.conf:49–52`) | SREDNJE | 20.08. | — | otvoren |
+| **S2** | „**Sve** što se rimuje sa X — N reči", a N ne broji bliske rime na istoj strani | SREDNJE | 20.08. | — | otvoren |
+| **S3** | 4.119 reči ima definiciju, a nema ih ni u jednom rečniku — alat ih nikad ne ponudi | SREDNJE | 20.08. | — | otvoren |
+| **S4** | `perje` samo u `reci_jekavica.txt` iako je oblik isti u ekavici | SREDNJE | 20.08. | — | otvoren |
+| **S5** | Nema „preskoči na sadržaj" — glavno polje je 13. zaustavljanje Tab-a | SREDNJE | 20.08. | — | otvoren |
+| **S6** | Traka rima u beležnici na telefonu: od 16 rima vide se 4, tastaturom nedostupne | SREDNJE | 20.08. | — | otvoren |
+| **S7** | Dodirni ciljevi 40 px umesto 44 (filteri slogova, pismo, potvrdna polja) | SREDNJE | 20.08. | — | otvoren |
+| **S8** | `lastmod` svih 2.017 adresa je datum gradnje | SREDNJE | 10.08. | — | otvoren |
+| **S9** | Velika slova u adresi vode na hub umesto na svoju stranu (smer se obrnuo od 10.08.) | SREDNJE | 10.08. | — | otvoren |
+| **N1–N11** | Vidi `AUDIT/2026-08-20-audit.md`, odeljak NISKO | NISKO | 20.08. | — | otvoreno |
+| **P11** | Hub `/rime-za/` je zid od 1.994 linka (sada sa sidrima po slovima) | SREDNJE | 29.07. | — | **čeka odluku vlasnice o izgledu** |
+| **M8** | Oznake uz stih popravljene i na računaru | — | 31.07. | ✔ sekcija 31 | **čeka odluku vlasnice** |
+
+### Šta je test rekao istog dana
+
+`node test/predeploy.mjs` → **564/564 ✅** · `BASE=https://rimoteka.com` → **572/572 ✅**
+
+Oba prolaze, a K1 je kritičan. Rupe koje su ga propustile popisane su u auditu 20.08.,
+odeljak „RUPE U TESTU". Najvažnija: **test nikad ne poredi stranu sa alatom.**
+
+---
+
 
 **Stanje na dan 16.08.2026: 2 otvorena nalaza + 16 prijava vlasnice LOKALNO
 popravljeno (čeka se njen pregled, pa deploy) + 1 rečnički nalaz ZATVOREN

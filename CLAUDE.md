@@ -487,8 +487,25 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Stanje na 31.07.2026 (posle mobilne sesije): 3 otvorena nalaza, ocena 6,9/10** (nova
-ocena se računa u prvom sledećem punom auditu).
+**Stanje na 24.08.2026: 24 otvorena nalaza** (oba kritična i V5 zatvoreni). Ocena 6,2/10 je
+iz audita 20.08. i **preračunava se u prvom sledećem punom auditu** — ne procenjuje se.
+Pun izveštaj: `AUDIT/2026-08-20-audit.md`. Spisak za praćenje: `AUDIT/NALAZI-OTVORENI.md`.
+
+| Ozbiljnost | Koliko | Najvažnije |
+|---|---|---|
+| ~~KRITIČNO~~ | **0** | **K1 i K2 ZATVORENI 24.08.2026.** Redosled rima se sada poklapa sa alatom na svih 1.994 strane i na `?rec=` adresama; jedinstvenih `?rec=` adresa u HTML-u 98.115 → **13**. Trag: `AUDIT/NALAZI-OTVORENI.md`, odeljak „ZATVORENO 24.08.2026" |
+| VISOKO | 4 | 1.739 predugih naslova · sinonimi obećani a ima ih za 2 reči · nema HSTS · M12 beli okvir (treći audit) |
+| SREDNJE | 9 | v. spisak |
+| NISKO | 11 | v. spisak |
+
+> **Test je prolazio 564/564, a K1 je bio kritičan.** Uzrok: nijedna provera nije
+> poredila stranu sa alatom. Zatvoreno 24.08. sekcijama 39 i 40 (test sada **604**
+> provere). Pouka je u `AUDIT/PROPUSTI.md` pod brojem 18 — **kad istu stvar računaju
+> dva sistema, u test ide provera koja ih POREDI**, ne dve provere koje svaki zasebno
+> kažu „radim". Pod 21 i 22 su dve greške napravljene pri samoj toj popravci.
+
+> Tabela ispod je stanje od 31.07. i **zadržana je samo za istoriju**. Tri nalaza iz
+> nje (R1-ostatak, J1-ostatak) su zatvorena 02.08.; P11 i dalje stoji.
 
 > **31.07.2026 — mobilna verzija odrađena u celini (M5–M15).** Prijava vlasnice
 > („ponuđene reči za rimu se ne vide od tastature") potvrđena merenjem i
@@ -663,4 +680,4 @@ git push -u origin feat/ime-promene
 
 ---
 
-*Poslednje ažuriranje: 25. jul 2026.*
+*Poslednje ažuriranje: 24. avgust 2026. (posle popravke K1 i K2)*

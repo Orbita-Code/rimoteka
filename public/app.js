@@ -312,7 +312,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=238')
+  defsPromise = fetch('/definicije.json?v=cb62a039')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -346,8 +346,8 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=20260816d', true),
-    uzmiTekst('/reci_jekavica.txt?v=20260802a', false)
+    uzmiTekst('/reci.txt?v=8a9899b2', true),
+    uzmiTekst('/reci_jekavica.txt?v=1e9eef37', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -402,8 +402,8 @@ async function loadDict(){
 async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
-      fetch('/frekvencija.json?v=2').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=20260820a').then(r=>r.json()).catch(()=> ({})),
+      fetch('/frekvencija.json?v=1bfe729c').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=a6c3cea3').then(r=>r.json()).catch(()=> ({})),
       /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
          srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i
@@ -415,7 +415,7 @@ async function loadExtras(){
          bazen treba 5.074 — ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
          drugi, nezavistan signal: da li Matica srpska tu reč ima kao odrednicu.
          Frekvencija kaže KOLIKO se reč koristi; Matica kaže DA LI je standardna. */
-      fetch('/matica.json?v=1').then(r=>r.json()).catch(()=> ([]))
+      fetch('/matica.json?v=fb9dfdde').then(r=>r.json()).catch(()=> ([]))
     ]);
     SYNONYMS = synRes;
     MATICA = new Set(Array.isArray(maticaRes) ? maticaRes : []);
@@ -423,7 +423,7 @@ async function loadExtras(){
        `izbaciJekavske()`. Ako skidanje ne uspe, skup ostaje prazan i sve radi kao
        ranije: bolje da se pokaže jedna jekavska reč nego da nestanu sve rime. */
     try{
-      const jr = await (await fetch('/jekavski.json?v=20260803a')).json();
+      const jr = await (await fetch('/jekavski.json?v=40070794')).json();
       if(Array.isArray(jr)) JEKAVSKI = new Set(jr);
     }catch(e){ /* namerno tiho — v. komentar iznad */ }
     // Ažuriraj rangiranje sa frekvencijom.
@@ -454,6 +454,24 @@ async function loadExtras(){
       const freq = freqRes[w] || 0;
       RANK.set(w, freq >= PRAG ? -freq : (MATICA.has(w) ? i : i + POMAK));
     }
+
+    /* PONOVO ISCRTAJ ONO ŠTO JE VEĆ NA EKRANU — nalaz K1 (audit 20.08.2026).
+       `loadDict()` prvo upiše AZBUČNI `RANK` (redni broj reči), pa tek onda, ne
+       čekajući, pozove ovu funkciju koja ga prepiše frekvencijskim. A pretraga iz
+       adrese (`?rec=…`) kreće čim je rečnik gotov — dakle PRE ovog trenutka. Bez
+       ovog osvežavanja svako ko dođe klikom na rimu ili iz Gugla dobija azbučni
+       spisak, a samo onaj ko sam ukuca reč posle učitavanja dobija pravi.
+       Izmereno pre popravke, 12 prolaza na 4 reči, svih 12 isto:
+         /?rec=reka  →  breka, dreka, kreka, preka, smreka, beka, bleka, deka
+         ručno       →  preka, dreka, smreka, breka, kreka, neka, veka, čeka
+       `silent` je obavezan: bez njega bi osvežavanje ponovo upisalo `?rec=` u
+       adresu i drugi put poslalo GA4 događaj za istu pretragu.
+       Čeka se da rezultati stvarno postoje — ako korisnik nije ništa tražio, nema
+       šta da se osvežava. Provera: test, sekcija 35. */
+    try{
+      const imaRezultata = document.querySelector('#rimeResults .word');
+      if(imaRezultata && rimeInput && rimeInput.value.trim()) doRhymes(true);
+    }catch(e){ /* osvežavanje prikaza ne sme da obori učitavanje rangiranja */ }
   }catch(e){
     console.warn('Extras nisu učitani:', e);
   }
@@ -983,6 +1001,14 @@ function doRhymes(silent){
      početnoj strani pisalo „Učitavam rečnik…" iako niko nije upisao ni reč. */
   if(q.length<2){
     if(!silent){
+      /* POLJE JE ISPRAŽNJENO — strana se vraća u početno stanje.
+         Bez ovoga bi `h1`, naslov i opis ostali zaglavljeni na poslednjoj
+         traženoj reči („Rime za reč „ljubav“") iako na ekranu više nema nijedne
+         rime, a `noindex` bi ostao na strani koja opet sme u indeks.
+         `osveziSeoZaRec` se ovde ne može pozvati — ona radi sa rečju, a reči
+         više nema; zato se vraćanje radi ovde, na jedinom mestu odakle se
+         izlazi bez upita. */
+      vratiSeoNaPocetno();
       /* Unos od kog ne ostane nijedno slovo („123", „😀", „!!!") nije isto što i
          prekratka reč — bez ove razlike je panel na takav unos ostajao PRAZAN
          i alat je delovao pokvareno (nalaz V4). */
@@ -1184,9 +1210,51 @@ function postaviMeta(ime, sadrzaj){
   const m = document.querySelector('meta[name="' + ime + '"]');
   if(m) m.content = sadrzaj;
 }
+/* OpenGraph oznake koriste `property=`, ne `name=` — zato ih `postaviMeta` nikad
+   nije pogađao (nalaz K2, audit 20.08.2026). Posledica: kad se `/?rec=kapućino`
+   podeli na Vocapu ili Fejsbuku, prikazivao se naslov POČETNE strane, a ne reči. */
+function postaviOG(svojstvo, sadrzaj){
+  const m = document.querySelector('meta[property="' + svojstvo + '"]');
+  if(m) m.content = sadrzaj;
+}
+/* `noindex` za adrese koje nemaju šta da pokažu. Do 20.08.2026. `noindex` nije
+   postojao nigde u projektu, pa je `/?rec=xqzwptr` — bilo koji niz slova — bio
+   uredna, indeksabilna strana bez ijedne rime. Oznaka se DODAJE i UKLANJA, jer
+   ista strana u istoj poseti prelazi iz jedne pretrage u drugu. */
+function postaviRobots(vrednost){
+  let m = document.querySelector('meta[name="robots"]');
+  if(!vrednost){ if(m) m.remove(); return; }
+  if(!m){ m = document.createElement('meta'); m.name = 'robots'; document.head.appendChild(m); }
+  m.content = vrednost;
+}
+/* Vraća naslov, opis, glavni naslov i kanonikal na ono što stoji u `index.html`.
+   Početne vrednosti se pamte pri prvoj izmeni, pa se ne moraju nigde duplirati. */
+function vratiSeoNaPocetno(){
+  if(location.pathname !== '/' && location.pathname !== '/index.html') return;
+  const h1 = document.querySelector('h1');
+  if(h1 && h1.dataset.pocetni !== undefined) h1.textContent = h1.dataset.pocetni;
+  if(document.body.dataset.seoNaslov !== undefined) document.title = document.body.dataset.seoNaslov;
+  if(document.body.dataset.seoOpis !== undefined) postaviMeta('description', document.body.dataset.seoOpis);
+  const kan = document.querySelector('link[rel="canonical"]');
+  if(kan && document.body.dataset.seoKanonikal !== undefined) kan.href = document.body.dataset.seoKanonikal;
+  postaviOG('og:title', document.title);
+  postaviOG('og:description', (document.querySelector('meta[name="description"]') || {}).content || '');
+  if(kan) postaviOG('og:url', kan.href);
+  postaviRobots('');
+}
+
 async function osveziSeoZaRec(q, broj, prvih){
   if(!q || (location.pathname !== '/' && location.pathname !== '/index.html')) return;
   const dq = disp(q);
+  /* Početne vrednosti se pamte pre prve izmene — da `vratiSeoNaPocetno()` ima
+     šta da vrati, a da se tekst ne duplira ni ovde ni u `index.html`. */
+  const b = document.body;
+  if(b.dataset.seoNaslov === undefined){
+    b.dataset.seoNaslov = document.title;
+    b.dataset.seoOpis = (document.querySelector('meta[name="description"]') || {}).content || '';
+    const k0 = document.querySelector('link[rel="canonical"]');
+    if(k0) b.dataset.seoKanonikal = k0.href;
+  }
   const recOblik = (broj % 10 === 1 && broj % 100 !== 11) ? 'reč' : 'reči';
   document.title = broj > 0
     ? `Rime za reč „${dq}": ${broj} ${recOblik} koje se rimuju | Rimoteka rečnik rima`
@@ -1202,9 +1270,55 @@ async function osveziSeoZaRec(q, broj, prvih){
      stranu kad spisak stigne i ako reč stranu ima. */
   const sebe = `https://rimoteka.com/?rec=${encodeURIComponent(q)}`;
   kan.href = sebe;
+
+  /* GLAVNI NASLOV PRATI REČ (nalaz K2). Posle `title`, `h1` je najjači signal na
+     strani — a stajao je generički („Rimovanje reči na srpskom jeziku…"), pa se
+     na strani koja se indeksira po reči ta reč nije pominjala nijednom.
+     Početni tekst se pamti da bi se vratio kad se polje isprazni. */
+  const h1 = document.querySelector('h1');
+  if(h1){
+    if(h1.dataset.pocetni === undefined) h1.dataset.pocetni = h1.textContent;
+    h1.textContent = broj > 0 ? uiTxt('Rime za reč') + ' \u201e' + dq + '\u201c' : h1.dataset.pocetni;
+  }
+
+  /* Deljenje na društvenim mrežama — v. `postaviOG`. `og:url` ide na KANONIKAL,
+     ne na `?rec=`: ako reč ima svoju stranu, deli se ona. */
+  postaviOG('og:title', document.title);
+  postaviOG('og:description',
+    (document.querySelector('meta[name="description"]') || {}).content || '');
+
+  /* KOJA ADRESA SME U GUGLOV INDEKS.
+     Prvo pravilo je bilo „ima li rima", i palo je na prvoj proveri: `xqzwptrv`
+     nije reč, ali se završava na `-rv`, pa alat uredno vrati `strv, krv, crv,
+     hrv, brv` — pet rima, dakle „vredno indeksiranja". Po tom merilu bi svaki
+     niz slova sa srpskim završetkom pravio novu stranu za Gugla, a upravo to je
+     nalaz K2 trebalo da spreči.
+     Merilo je zato REČNIK: indeksira se samo adresa čija je reč stvarno u našem
+     rečniku. Svaka prava srpska reč tu jeste; greške u kucanju i nizovi slova
+     nisu. Za čoveka se ništa ne menja — rime se i dalje prikazuju svakome ko ih
+     potraži, menja se samo šta nudimo robotu. */
+  const znanaRec = (typeof SET !== 'undefined') && SET.has(q);
+  postaviRobots(znanaRec && broj > 0 ? '' : 'noindex,follow');
+
   const postoji = await imasStranu(slugLat(q));
   if(postoji) kan.href = `https://rimoteka.com/rime-za/${slugLat(q)}/`;
+  postaviOG('og:url', kan.href);
 }
+
+/* PILULE KOJE NISU LINKOVI (nalaz K2). Na generisanim stranama `/rime-za/…/`
+   reč koja NEMA svoju stranu crta se kao `<button class="chip chip-btn"
+   data-rec="…">`, a ne kao `<a href="/?rec=…">` — da Gugl ne dobije 96.115 adresa
+   za obilazak (v. `chip()` u `build/gen_pages.py`). Za čoveka se ništa ne menja:
+   klik vodi tačno tamo gde je i pre vodio.
+   Zašto ovde a ne u zasebnom fajlu: CSP sajta je `script-src 'self'`, skripta
+   upisana u stranu bi bila blokirana, a `app.js` te strane ionako učitavaju.
+   Delegirano sa `document`, pa radi i za pilule koje JS iscrta kasnije. */
+document.addEventListener('click', e => {
+  const b = e.target.closest && e.target.closest('.chip[data-rec]');
+  if(!b) return;
+  e.preventDefault();
+  location.href = '/?rec=' + encodeURIComponent(b.dataset.rec);
+});
 
 el('rimeBtn').onclick = () => { doRhymes(); pokaziRimeNaTelefonu(); };
 rimeInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ doRhymes(); pokaziRimeNaTelefonu(); } });

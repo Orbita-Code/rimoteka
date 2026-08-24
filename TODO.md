@@ -2,15 +2,76 @@
 
 > Rečnik ima svoj spisak u `TODO-RECNIK.md`, tekstovi na sajtu u `TODO-TEKSTOVI.md`.
 > Ovde je sve ostalo.
-> Poslednje ažuriranje: 20. avgust 2026.
+> Poslednje ažuriranje: 24. avgust 2026. (posle popravke K1 i K2)
 
 ---
 
-## ⚠️ PROČITATI PRVO — STANJE NA DAN 20.08.2026 (osamnaesta sesija)
+## 🔴 PRVO OVO — IZ PUNOG AUDITA 20.08.2026
+
+> Ocena **6,2/10** (bilo 8,4 na dan 10.08.). Pun izveštaj: `AUDIT/2026-08-20-audit.md`.
+> Spisak za praćenje: `AUDIT/NALAZI-OTVORENI.md`.
+> **Pravilo redosleda: prvo se popravljaju bagovi, pa se gradi novo.**
+
+### Urađeno 24.08.2026 — K1 i K2 (oba kritična nalaza)
+
+Trag: `AUDIT/NALAZI-OTVORENI.md`, odeljak „ZATVORENO 24.08.2026".
+Test **604/604 lokalno**. Provere su prvo puštene protiv produkcije dok je tamo bio
+stari kod i pale su 24 puta — tek onda je dirán kod.
 
 | | |
 |---|---|
-| **Otvorenih nalaza** | **3** → `AUDIT/NALAZI-OTVORENI.md` (R1-ostatak, J1-ostatak, P11 — sva tri čekaju odluku vlasnice) |
+| jedinstvenih `?rec=` adresa u HTML-u | **98.115 → 13** |
+| strana kojima se redosled rima poklapa sa alatom | **3,6% → sve iz uzorka od 20** |
+| bag „čeka" (otvoren od 31.07.) | zatvoren istom popravkom |
+| nove provere u testu | sekcija **39** (redosled), **40** (adrese za Gugla), **41** (verzije podataka) |
+
+**Ostaje da se odradi pre nego što ovo ode na sajt:** test protiv produkcije posle
+deploy-a, pa ponovna prijava sitemapa.
+
+### Ove nedelje
+
+1. **Ostatak V5 — `app.js` i `style.css` još nose ručno kucanu verziju.**
+   Sedam fajlova sa podacima je 24.08. prešlo na otisak sadržaja
+   (`scripts/osvezi-verzije-podataka.mjs`, provera u sekciji 41), ali ova dva nisu —
+   njihovu verziju upisuju `index.html` i `gen_pages.py`. Ista klasa greške.
+   Redosled kad se uzme: prvo verzije podataka u `app.js`, pa otisak `app.js`,
+   pa upis u `index.html` i `gen_pages.py`, pa regeneracija strana.
+2. **V1** — skratiti šablon naslova: 1.739 od 1.994 preko 65 znakova (87%).
+3. **V4 (M12)** — beli okvir „dobrih rima" u tamnoj temi; popravka je zaključana u
+   `@media(max-width:560px)`, `style.css:2814`. **Otvoreno treći audit zaredom.**
+4. **V2 — sinonimi.** Sajt na 5 strana obećava sinonime, a ima ih za **2 reči**.
+   Odobriti 140 kuriranih (`AUDIT/sinonimi-predlog-serija-1.md` i `-2.md`) ili
+   privremeno omekšati tekst na „za neke reči".
+5. **V3** — HSTS, postupno (`max-age=300` → godina), uz `bash test/nginx-provera.sh`.
+6. **S1** — sigurnosna zaglavlja otpadaju sa `/sw.js` (`nginx.conf:49–52`).
+
+### Zatim
+
+7. S5 (preskoči na sadržaj), S6 (traka rima na telefonu), S7 (ciljevi 44 px),
+    S2 („Sve … N reči"), S8 (`lastmod`), S9 (velika slova u adresi).
+8. **ANALITIKA KASNI 25 DANA** — ritam je 14 dana, poslednje merenje 30.07.
+    (`AUDIT/analitika/2026-07-30.md`). Direktno vezano za K2: bez brojeva iz Search
+    Console-a ne zna se koliko je `?rec=` već pojelo od obilaska. Pokrenuti agenta
+    `analitika`.
+9. S3 i S4 — **4.119 reči ima gotovo objašnjenje, a nema ih ni u jednom rečniku**, pa
+    ih alat nikad ne ponudi. Plus `perje`, koje sedi samo u jekavskom fajlu.
+10. Sve iz odeljka NISKO u auditu (N1–N11).
+
+### Rupe u testu koje treba zatvoriti
+
+Najveća rupa — **test nikad nije poredio stranu sa alatom** — zatvorena je 24.08.
+sekcijom 39. Ostalo sa spiska (`AUDIT/2026-08-20-audit.md`, odeljak „RUPE U TESTU")
+i dalje stoji: test obiđe 39 od 1.994 strane reči (2%), nigde ne meri dužinu naslova
+ni boju okvira, i 12 zatvorenih nalaza nema svoju proveru.
+
+---
+
+## ⚠️ STANJE NA DAN 20.08.2026 (osamnaesta sesija)
+
+| | |
+|---|---|
+|---|---|
+| **Otvorenih nalaza** | **24** (K1, K2 i V5 zatvoreni 24.08.) → `AUDIT/NALAZI-OTVORENI.md` (2 kritična, 5 visokih, 9 srednjih, 11 niskih — audit 20.08.). Odluku vlasnice čekaju: P11, M8, M12, sinonimi |
 | **U TOKU (ne pushovati)** | grana `feat/dizajn-pocetna-futer-saradnja` — početna i futer. Futer je vlasnica odbila, ide drugi prolaz. Detalji: `HANDOVER.md`, dvanaesta sesija |
 | **OBJAVLJENO 20.08.** | pune liste rima na `/rime-za/` stranama + CTA „Pretraži rime za druge reči" (`a914ec111`, test produkcije 571/571); `?rec=` dinamičke adrese (`a67243659`); obe ture mobilnih bagova sa iPhone-a (`162f3d0e0`); sinonimi ispražnjeni na 2 kurirane reči + uklonjeno `štovanje` sa sajta (na sajtu je `kapućino` sa ć — oblik iz Matice, njen zahtev) |
 | **Čeka proveru vlasnice** | **sinonimi serija 1+2** — `AUDIT/sinonimi-predlog-serija-1.md` i `AUDIT/sinonimi-predlog-serija-2.md` (140 reči). Ona briše/dopisuje u fajlu, javi „gotovo" → odobreno se upisuje u `public/sinonimi.json` kao čiste reči (bez oznaka), pa push. Standard: `HANDOVER.md`, osamnaesta sesija |
@@ -20,15 +81,17 @@
 | ⚠️ **Nije urađeno** | **Request Indexing u GSC** — direktna adresa `/search-console/inspect` vraća 404, sintetički Enter ne pokreće proveru. Probati preko CDP-a (Chrome sa `--remote-debugging-port=9222`). Za 2.000 strana ionako nije put (dnevni limit ~10); ima smisla samo za nekoliko najvažnijih strana |
 | **13.08.2026** | agent `analitika` — meri se izmena naslova početne od 30.07. **Do tada se naslov i opis početne NE DIRAJU** (v. `TODO-TEKSTOVI.md`) |
 | **Čeka odluku vlasnice** | M8 i M12 (0.06 C) |
-| Ocena poslednjeg audita | **6,9 / 10** |
-| Sledeći pun audit | prvi sledeći po ritmu od 3 dana |
+| Ocena poslednjeg audita | **6,2 / 10** (20.08.2026) |
+| Sledeći pun audit | 23.08.2026 (ritam od 3 dana) |
 | Zašto propusti | `AUDIT/PROPUSTI.md` — pravila **51–62** su iz desete sesije |
 | **Plan monetizacije** | `MONETIZACIJA.md` — **ne radi se sada**, sajt je još mali |
 
-> **Nađeno 31.07, nije popravljeno — bag u ALATU, ne u tekstu:** reč `čeka` savršeno se
-> rimuje sa `reka`, ima objašnjenje i frekvenciju **34.809**, ali **nije među 115 rima**
-> koje strana prikazuje — iako `dočeka` i `počeka` jesu. Nije u `RHYME_EXCLUSIONS`.
-> Traži pregled logike izbora rima; verovatno pogađa i druge česte reči.
+> **Bag „čeka" — UZROK NAĐEN 20.08.2026, popravka stoji u nalazu K1 na vrhu ovog fajla.**
+> Reč nije nigde filtrirana (provereno: nije u `BLOCKED`, `KIDS_STEMS`,
+> `RHYME_EXCLUSIONS`, `jekavski.json`; ključ rime joj je isti kao kod „reka").
+> Padala je zato što se rime ređaju **azbučno umesto po učestalosti**, pa je bila na
+> 24. mestu od 26 i izvan spiska „top 10". Pogađa i sve ostale česte reči — izmereno
+> **11.369 izgubljenih**. Ne rešava se zasebno; rešava se sa K1.
 
 > **Linkovi sa drugih sajtova — ocena 2/10** (`AUDIT/tekstovi/2026-07-31-D-linkovi.md`).
 > Izmereno `curl`-om: `orbitacode.com`, `babylovebox.rs` i `spomenicibeograd.rs`

@@ -30,7 +30,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260816b">
+<link rel="stylesheet" href="/style.css?v=20260824a">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -134,14 +134,17 @@
 <main class="landing">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <a href="/rime-za/">Rime za reč</a> › <span>„fond“</span></nav>
   <h1 class="landing-h1">Rime za reč „fond“</h1>
-  <p class="landing-meta">6 rima · 1 slog · prvo one sa najdužim istim završetkom</p>
+  <p class="landing-meta">6 rima · 1 slog · prvo one sa istim brojem slogova</p>
   <p class="landing-lead">Sve što se rimuje sa <strong>„fond“</strong> — 6 reči. Uz svaku piše koliko ima slogova i šta znači, pa odmah vidiš koja ti staje u stih. Klikni na reč i dobiješ njene rime, a dugme ispod kopira ceo spisak.</p>
   <p class="landing-def"><strong>fond</strong> — Sredstva (najčešće novac) namenjena određenoj svrsi.</p>
   <div class="copy-bar">
-    <a class="landing-cta" rel="nofollow" href="/?rec=fond">✍️ Otvori Rimoteku i piši →</a>
+    <!-- Do 20.08.2026. dugme je pisalo „Otvori Rimoteku i piši" i vodilo na
+         početnu sa ISTOM rečju upisanom — besmisleno: posetilac je NA Rimoteci
+         i rime za tu reč upravo gleda (nalaz vlasnice). Sada: nova pretraga. -->
+    <a class="landing-cta" href="/">🔎 Pretraži rime za druge reči →</a>
     <button class="copy-all-btn" data-words="blond, bond, dezmond, edmond, rejmond, ričmond">Kopiraj sve rime</button>
   </div>
-  <div class="res-group strong-tier"><h2>Najbolje rime</h2><div class="results"><a class="chip" href="/?rec=blond"><span class="word">blond</span><span class="syl" title="1 slog">1</span></a><a class="chip" href="/?rec=bond"><span class="word">bond</span><span class="syl" title="1 slog">1</span></a></div></div><div class="res-group"><h2>Dobre rime</h2><div class="results"><a class="chip" href="/?rec=dezmond"><span class="word">dezmond</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/?rec=edmond"><span class="word">edmond</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/?rec=rejmond"><span class="word">rejmond</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/?rec=ri%C4%8Dmond"><span class="word">ričmond</span><span class="syl" title="2 sloga">2</span></a></div></div>
+  <div class="res-group strong-tier"><h2>Najbolje rime</h2><div class="results"><button type="button" class="chip chip-btn" data-rec="blond" title="Nađi rime za „blond“"><span class="word">blond</span><span class="syl" title="1 slog">1</span></button><button type="button" class="chip chip-btn" data-rec="bond" title="Nađi rime za „bond“"><span class="word">bond</span><span class="syl" title="1 slog">1</span></button></div></div><div class="res-group"><h2>Dobre rime</h2><div class="results"><button type="button" class="chip chip-btn" data-rec="dezmond" title="Nađi rime za „dezmond“"><span class="word">dezmond</span><span class="syl" title="2 sloga">2</span></button><button type="button" class="chip chip-btn" data-rec="edmond" title="Nađi rime za „edmond“"><span class="word">edmond</span><span class="syl" title="2 sloga">2</span></button><button type="button" class="chip chip-btn" data-rec="rejmond" title="Nađi rime za „rejmond“"><span class="word">rejmond</span><span class="syl" title="2 sloga">2</span></button><button type="button" class="chip chip-btn" data-rec="ričmond" title="Nađi rime za „ričmond“"><span class="word">ričmond</span><span class="syl" title="2 sloga">2</span></button></div></div>
   <div class="syl-groups"><h2>Rime po broju slogova</h2><div class="related-list"><span class="syl-badge"><b>1</b> slog · 2 rime</span><span class="syl-badge"><b>2</b> sloga · 4 rime</span></div></div>
   <div class="related-rimes"><h2>Rime za druge reči</h2><p class="related-note">Ovo nisu rime za „fond“ — to su strane sa rimama za druge reči.</p><div class="related-list"><a class="chip" href="/rime-za/ljubav/"><span class="word">ljubav</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/srce/"><span class="word">srce</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/dusa/"><span class="word">duša</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/sreca/"><span class="word">sreća</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/tuga/"><span class="word">tuga</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/bol/"><span class="word">bol</span><span class="syl" title="1 slog">1</span></a><a class="chip" href="/rime-za/radost/"><span class="word">radost</span><span class="syl" title="2 sloga">2</span></a><a class="chip" href="/rime-za/nada/"><span class="word">nada</span><span class="syl" title="2 sloga">2</span></a></div></div>
   <section class="mini-tool" aria-label="Pronađi rime">
@@ -203,6 +206,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=20260819b"></script>
+<script src="/app.js?v=20260824a"></script>
 </body>
 </html>

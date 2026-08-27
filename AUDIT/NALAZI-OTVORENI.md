@@ -6,6 +6,45 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## URAĐENO 26.08.2026 — naslovi, preimenovana strana, sopstveni promet
+
+Test **604 → 650 provera**, prolazi 650/650. `nginx.conf` proveren zasebno.
+
+| Šta | Bilo | Sada |
+|---|---|---|
+| **Naslov početne** | „Rimovanje reči na srpskom — rime, slogovi, pesme" | „Rečnik rima — rime, slogovi i značenje svake reči". Početna sada „drži" upit `rečnik rima` (489 prikaza, padao baš na nju) |
+| **`/rimovanje-reci/`** | „Rimovanje reči — pronađi rimu…" | „**Rime** i rimovanje reči — pronađi rimu za svaku reč". Drži upit `rime` (522 prikaza, **0 klikova**). Opis nije diran — ta strana ima najbolji CTR na sajtu (6,1 %) |
+| **`/recnik-srpskog-jezika/`** | obećavala rečnik srpskog jezika, a alat traži reči po slovima; 402 prikaza, 5 klikova, zadržavanje 31 s | **preimenovana u `/rime-po-zavrsetku/`** — „Rime po završetku". Opis napisala vlasnica. 301 sa stare adrese |
+| **`/klasici/`** | opis obećavao „klikni na reč da joj nađeš rime" | obećanje **izbačeno** — klikće se slovo šeme rime, ne reč (nalaz E, i dalje otvoren) |
+| **Pet strana sa predugim naslovima** | 67–69 znakova, opisi 181–189 | svi u opsegu 40–65 i 110–165 (nalaz V1, delimično zatvoren) |
+| **Sopstveni promet u analitici** | test je pravio 34 „nova korisnika" po prolazu | test presreće zahteve ka Google-u; `?interno=1` gasi merenje na uređaju |
+
+**Zašto je preimenovanje bilo nužno** (odluka vlasnice): strana se zvala „rečnik srpskog
+jezika", a nije rečnik — ukucaš `apsurdno` i dobiješ samo tu reč kao pilulu, značenje je
+iza ⓘ. Ljudi koji traže značenje dolazili su i odlazili za 31 sekundu.
+
+**Sopstveni promet — izmereno pre popravke:**
+
+| Grad | Korisnika | Novih | Zadržavanje |
+|---|---|---|---|
+| Beograd (prava publika) | 496 | 464 | 2 min 56 s |
+| Barselona (test) | 206 | **203** | **12 s** |
+| Malaga | 42 | 40 | 39 s |
+
+To je bilo **20 % svih korisnika**. Prava publika za 28 dana je oko **950 novih ljudi**,
+ne 1.194. **Čisto je tek od 26.08.2026** — GA4 ne briše unazad.
+Pouka: `PROPUSTI.md`, odeljak od 26.08.
+
+**Nove provere:** sekcija **42** (dužina naslova i opisa, ključne reči, brojevi koji
+zastarevaju), sekcija **43** (prekidač za sopstveni promet, i da iz testa nijedan zahtev
+ne stigne do Google-a), plus provera 301 preusmerenja u `test/nginx-provera.sh`.
+
+**Dva lažna nalaza usput, oba potvrđena kao trka pod opterećenjem, ne kvar:** provera
+kursora u beležnici (12h) i `?tab=igra` (N3). Obe prolaze u izolaciji — 12h tri od tri
+na produkciji, N3 šest od šest lokalno.
+
+---
+
 ## ZATVORENO 24.08.2026 — V5 (verzije podataka)
 
 Bilo: `?v=` uz svaki fajl sa podacima kucao je čovek, pa je `reci.txt` izmenjen

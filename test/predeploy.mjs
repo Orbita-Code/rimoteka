@@ -52,6 +52,43 @@ async function main() {
 
   const browser = await chromium.launch();
 
+  /* MERENJE NE SME DA ULAZI U ANALITIKU (26.08.2026).
+     Test otvara 34 sveža konteksta po prolazu, svaki bez kolačića — a to je za
+     GA4 svaki put NOV KORISNIK. Pušten protiv produkcije, jedan prolaz je u
+     statistiku ubacivao desetine lažnih poseta kratkog trajanja. Izmereno pre
+     popravke: grad iz kog se test pušta imao je 206 korisnika, od toga 203
+     „nova", uz prosečno zadržavanje od 12 sekundi — dok je stvarna publika
+     imala 2m 56s.
+
+     PRVI POKUŠAJ je bio `--host-resolver-rules` (preusmeravanje domena u prazno)
+     i bio je pogrešan: pregledač tada prijavi `ERR_CONNECTION_REFUSED`, pa je
+     svaka provera „nula grešaka u konzoli" počela da pada. Umesto da se izuzetak
+     dopisuje u svaki osluškivač redom, zahtev se PRESREĆE i odgovara mu se
+     praznim 200 — nijedan bajt ne izađe, a konzola ostaje čista.
+
+     Presretanje se kači na SVAKI kontekst, tako što se `newContext` i `newPage`
+     umotaju jednom, ovde. Da se kači ručno, promašio bi se prvi sledeći kontekst
+     koji neko doda. Zaglavlje `x-blokirano-u-testu` je dokaz za sekciju 43. */
+  {
+    const OBRAZAC = /googletagmanager\.com|google-analytics\.com|analytics\.google\.com/;
+    async function blokiraj(ctx) {
+      await ctx.route(OBRAZAC, r => r.fulfill({
+        status: 200,
+        headers: { 'content-type': 'application/javascript', 'x-blokirano-u-testu': '1' },
+        body: ''
+      }));
+      return ctx;
+    }
+    const _nc = browser.newContext.bind(browser);
+    browser.newContext = async (...a) => blokiraj(await _nc(...a));
+    const _np = browser.newPage.bind(browser);
+    browser.newPage = async (...a) => {
+      const p = await _np(...a);
+      await blokiraj(p.context());
+      return p;
+    };
+  }
+
   /* SVAKA NOVA STRANA: izdašan rok + PONAVLJANJE NAVIGACIJE.
      Test otvara preko trideset zasebnih strana, svaku sa svojim praznim kešom.
      Izmereno 29.07.2026: otprilike svako drugo pokretanje se zaglavi na jednoj
@@ -978,6 +1015,13 @@ async function main() {
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
+      /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
+         pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
+         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
+      if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
+      if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
+      if (/ERR_CONNECTION_REFUSED/.test(t) && /googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
       alatGreske.push(t);
     });
     pAlat.on('pageerror', e => alatGreske.push('pageerror: ' + e.message));
@@ -1052,6 +1096,13 @@ async function main() {
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
+      /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
+         pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
+         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
+      if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
+      if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
+      if (/ERR_CONNECTION_REFUSED/.test(t) && /googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
       slogGreske.push(t);
     });
     pSlog.on('pageerror', e => slogGreske.push('pageerror: ' + e.message));
@@ -1102,6 +1153,13 @@ async function main() {
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
+      /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
+         pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
+         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
+      if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
+      if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
+      if (/ERR_CONNECTION_REFUSED/.test(t) && /googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
       pisGreske.push(t);
     });
     pPis.on('pageerror', e => pisGreske.push('pageerror: ' + e.message));
@@ -1380,6 +1438,13 @@ async function main() {
       const t = m.text();
       if (/fonts\.googleapis|fonts\.gstatic/.test(t)) return;
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
+      /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
+         pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
+         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
+      if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
+      if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
+      if (/ERR_CONNECTION_REFUSED/.test(t) && /googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
       recGreske.push(t);
     });
     pRec.on('pageerror', e => recGreske.push('pageerror: ' + e.message));
@@ -1639,7 +1704,7 @@ async function main() {
       await g15b.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await g15b.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       await pauza(600);
-      for (const [tab, put] of [['pretraga','/recnik-srpskog-jezika/'], ['slogovi','/slogovi/'],
+      for (const [tab, put] of [['pretraga','/rime-po-zavrsetku/'], ['slogovi','/slogovi/'],
                                 ['beleznica','/pisanje-pesama/'], ['klasici','/klasici/'],
                                 ['igra','/igra-rimovanja/']]) {
         await g15b.click(`#tabs [data-tab="${tab}"]`);
@@ -2407,7 +2472,7 @@ async function main() {
          zasebno, kroz `o.status()`. */
       ocekujGreske(p20e, /Failed to fetch/, /ERR_ABORTED/, /net::ERR_FAILED/);
       const rute = [
-        '/', '/rime-za/', '/rimovanje-reci/', '/recnik-srpskog-jezika/', '/slogovi/',
+        '/', '/rime-za/', '/rimovanje-reci/', '/rime-po-zavrsetku/', '/slogovi/',
         '/pisanje-pesama/', '/klasici/', '/igra-rimovanja/', '/vrste-rima/',
         '/kako-napisati-pesmu/', '/rime-za-decu/', '/rime-za-decu-o-zivotinjama/',
         '/rime-za-decu-o-prirodi/', '/rime-za-pesmu/', '/rime-za-rep/',
@@ -4498,7 +4563,7 @@ async function main() {
       await p39.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
       await pauza(700);
       const parovi = [
-        ['Pretraga reči', '/recnik-srpskog-jezika/', 'Rečnik srpskog jezika'],
+        ['Pretraga reči', '/rime-po-zavrsetku/', 'Rime po završetku'],
         ['Klasici', '/klasici/', 'Klasici srpske poezije', 'Srpske pesme'],
         ['Igra rimovanja', '/igra-rimovanja/', 'Igra rimovanja'],
       ];
@@ -4876,6 +4941,199 @@ async function main() {
       ok('svih sedam fajlova sa podacima je pokriveno proverom',
          Object.keys(stanje).length === 7 && Object.values(stanje).every(v => v.upisano),
          Object.entries(stanje).filter(([, v]) => !v.upisano).map(([i]) => i).join(', ') || 'ok');
+    }
+
+    console.log('\n42) NASLOVI I OPISI — dužina i ključne reči (nalaz V1 + analitika 25.08.)');
+    {
+      /* Zašto ova sekcija postoji. Audit 20.08.2026. je našao 1.739 od 1.994 naslova
+         duže od 65 znakova, a revizija pokrivenosti je pokazala da test dužinu
+         naslova i opisa NE MERI NIGDE — regresija koja vrati opise na 205 znakova
+         prošla bi 600/600. Gugl seče naslov oko 600 px (~60 znakova) i opis oko
+         155–160, pa se odseca upravo rep u kome stoji ime „Rimoteka".
+
+         Uz to, analitika od 25.08.2026. je pokazala dva promašaja koje ova sekcija
+         čuva da se ne vrate:
+           · početna: 13.091 prikaz, CTR 2,5 % — a `/rimovanje-reci/` na skoro istoj
+             poziciji ima 6,1 %. Uzrok je naslov, ne rangiranje;
+           · upit `rime`: 522 prikaza, 0 klikova, a Gugl za njega pokazuje deset naših
+             strana koje se međusobno guše.
+         Zato početna „drži" upit `rečnik rima`, a `/rimovanje-reci/` upit `rime`. */
+
+      const OPSEG_TITLE = [40, 65];   // znakova; preko 65 Gugl seče rep
+      const OPSEG_DESC  = [110, 165]; // znakova
+
+      // 42a) glavne strane — dužina i jedinstvenost
+      {
+        const strane = ['/', '/rimovanje-reci/', '/slogovi/', '/klasici/', '/vrste-rima/',
+                        '/igra-rimovanja/', '/pisanje-pesama/', '/rime-po-zavrsetku/',
+                        '/rime-za/', '/rime-za-decu/'];
+        const viđeni = { title: new Map(), desc: new Map() };
+        for (const u of strane) {
+          const r = await fetch(BASE + u);
+          if (!r.ok) { ok(`${u} — strana postoji`, false, `HTTP ${r.status}`); continue; }
+          const html = await r.text();
+          const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+          const desc = (html.match(/name="description" content="([^"]*)"/) || [])[1] || '';
+          ok(`${u} — naslov u opsegu ${OPSEG_TITLE[0]}–${OPSEG_TITLE[1]} znakova`,
+             title.length >= OPSEG_TITLE[0] && title.length <= OPSEG_TITLE[1],
+             `${title.length}: „${title}"`);
+          ok(`${u} — opis u opsegu ${OPSEG_DESC[0]}–${OPSEG_DESC[1]} znakova`,
+             desc.length >= OPSEG_DESC[0] && desc.length <= OPSEG_DESC[1],
+             `${desc.length}: „${desc.slice(0, 80)}…"`);
+          viđeni.title.set(title, (viđeni.title.get(title) || 0) + 1);
+          viđeni.desc.set(desc, (viđeni.desc.get(desc) || 0) + 1);
+        }
+        const dupliT = [...viđeni.title].filter(([, n]) => n > 1);
+        const dupliD = [...viđeni.desc].filter(([, n]) => n > 1);
+        ok('nema dva ista naslova među glavnim stranama', dupliT.length === 0,
+           dupliT.map(([t]) => t.slice(0, 50)).join(' | '));
+        ok('nema dva ista opisa među glavnim stranama', dupliD.length === 0,
+           dupliD.map(([t]) => t.slice(0, 50)).join(' | '));
+      }
+
+      // 42b) ko „drži" koji upit — da se strane ne guše međusobno
+      {
+        const poc = await (await fetch(BASE + '/')).text();
+        const pocT = (poc.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+        const pocD = (poc.match(/name="description" content="([^"]*)"/) || [])[1] || '';
+        ok('početna nosi „rečnik rima" u naslovu (upit sa 489 prikaza)',
+           /rečnik rima/i.test(pocT), pocT);
+        ok('početna nosi „rečnik rima" i u opisu', /rečnik rima/i.test(pocD), pocD.slice(0, 90));
+
+        const rim = await (await fetch(BASE + '/rimovanje-reci/')).text();
+        const rimT = (rim.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+        ok('/rimovanje-reci/ nosi „rime" u naslovu (upit sa 522 prikaza)',
+           /\brime\b/i.test(rimT), rimT);
+      }
+
+      // 42c) brojevi koji rastu ne smeju u opis — pravilo vlasnice
+      {
+        const poc = await (await fetch(BASE + '/')).text();
+        const desc = (poc.match(/name="description" content="([^"]*)"/) || [])[1] || '';
+        ok('opis početne nema broj koji zastareva (broj reči u rečniku)',
+           !/\d{2,3}[.\s]\d{3}/.test(desc), desc);
+      }
+
+      // 42d) uzorak generisanih strana reči — dužina naslova
+      {
+        const uzorak = ['ljubav', 'reka', 'nada', 'sunce', 'glava', 'dete', 'srce',
+                        'mama', 'zima', 'voda'];
+        let predugih = 0, najduzi = 0, primer = '';
+        for (const w of uzorak) {
+          const r = await fetch(`${BASE}/rime-za/${w}/`);
+          if (!r.ok) continue;
+          const html = await r.text();
+          const t2 = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+          const d2 = (html.match(/name="description" content="([^"]*)"/) || [])[1] || '';
+          if (t2.length > OPSEG_TITLE[1]) { predugih++; if (t2.length > najduzi) { najduzi = t2.length; primer = t2; } }
+          ok(`/rime-za/${w}/ — opis do ${OPSEG_DESC[1]} znakova`, d2.length <= OPSEG_DESC[1],
+             `${d2.length} znakova`);
+        }
+        /* Naslovi strana reči su NAMERNO još uvek predugi — to je otvoren nalaz V1
+           iz audita 20.08. (1.739 od 1.994 preko 65 znakova). Ova provera ih ne
+           obara, nego BROJI, da se vidi kad se nalaz zatvori i da posle toga ne
+           sme da se vrati. Kad se šablon skrati, uslov ispod se menja na `=== 0`. */
+        ok(`strane reči: predugih naslova u uzorku od 10 zabeleženo (nalaz V1, još otvoren)`,
+           predugih <= 10, `predugih ${predugih}/10, najduži ${najduzi}: „${primer}"`);
+      }
+    }
+
+    console.log('\n43) SOPSTVENI PROMET SE NE BROJI (26.08.2026)');
+    {
+      /* Zašto ova sekcija postoji.
+         Vlasnica otvara svoj sajt svaki dan, a pre-deploy test otvara 34 sveža
+         konteksta po prolazu — svaki bez kolačića, dakle za GA4 NOV KORISNIK.
+         Izmereno pre popravke: grad iz kog se test pušta imao je 206 korisnika,
+         203 „nova", uz prosečno zadržavanje od 12 sekundi — dok je stvarna
+         publika imala 2m 56s. Na sajtu ove veličine to je bio veći deo podataka.
+
+         Dve popravke koje ova sekcija čuva:
+           · `ga-init.js` poštuje `?interno=1` i tada gasi merenje na tom uređaju;
+           · sam test blokira Google-ove merne domene na nivou pregledača
+             (presretanje zahteva, v. vrh fajla), pa nijedan njegov
+             prolaz više ne ulazi u statistiku.
+         ⚠️ Važi samo unapred — već izbrojane posete GA4 ne briše. */
+
+      const c43 = await browser.newContext();
+      const p43 = ojacajStranu(await c43.newPage());
+      const stanje = async () => p43.evaluate(() => ({
+        interno: window.__rimotekaInterno === true,
+        prekidac: window['ga-disable-G-F88VM8CWBQ'] === true,
+        gtagPostoji: typeof window.gtag === 'function'
+      }));
+
+      // podrazumevano se meri
+      await p43.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(600);
+      const podrazumevano = await stanje();
+      ok('podrazumevano se promet BROJI (prekidač je isključen)',
+         !podrazumevano.interno && !podrazumevano.prekidac, JSON.stringify(podrazumevano));
+      ok('`gtag` postoji i kad se meri', podrazumevano.gtagPostoji, JSON.stringify(podrazumevano));
+
+      // ?interno=1 gasi merenje
+      await p43.goto(BASE + '/?interno=1', { waitUntil: 'domcontentloaded' });
+      await pauza(600);
+      const upaljeno = await stanje();
+      ok('`?interno=1` gasi merenje na tom uređaju',
+         upaljeno.interno && upaljeno.prekidac, JSON.stringify(upaljeno));
+
+      // izbor se PAMTI i bez parametra u adresi
+      await p43.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await pauza(600);
+      const pamti = await stanje();
+      ok('izbor se pamti i posle odlaska na običnu adresu',
+         pamti.interno && pamti.prekidac, JSON.stringify(pamti));
+
+      // ?interno=0 vraća merenje
+      await p43.goto(BASE + '/?interno=0', { waitUntil: 'domcontentloaded' });
+      await pauza(600);
+      const ugaseno = await stanje();
+      ok('`?interno=0` vraća merenje', !ugaseno.interno && !ugaseno.prekidac, JSON.stringify(ugaseno));
+      await c43.close();
+
+      /* Prekidač NE SME da obori stranu kad je `localStorage` zabranjen
+         (privatni režim, blokirani kolačići) — tada se ponaša kao da ga nema. */
+      {
+        const cz = await browser.newContext();
+        await cz.addInitScript(() => {
+          const baci = () => { throw new DOMException('The operation is insecure.', 'SecurityError'); };
+          Object.defineProperty(window, 'localStorage', { get: baci, configurable: true });
+        });
+        const pz = ojacajStranu(await cz.newPage());
+        await pz.goto(BASE + '/?interno=1', { waitUntil: 'domcontentloaded' });
+        await pauza(2500);
+        const zivo = await pz.evaluate(() => ({
+          reci: (typeof WORDS !== 'undefined' ? WORDS.length : 0),
+          gtag: typeof window.gtag === 'function'
+        }));
+        ok('zabranjen `localStorage` + `?interno=1` ne obara stranu',
+           zivo.reci > 1000 && zivo.gtag, JSON.stringify(zivo));
+        await cz.close();
+      }
+
+      /* Sam test ne sme da šalje ništa Google-u — merni domeni su blokirani na
+         nivou pregledača, pa se skripta ne učita ni na jednoj strani. */
+      {
+        const cb = await browser.newContext();
+        const pb = ojacajStranu(await cb.newPage());
+        let mernihZahteva = 0;
+        pb.on('request', r => {
+          if (/googletagmanager\.com|google-analytics\.com|analytics\.google\.com/.test(r.url())) mernihZahteva++;
+        });
+        let stigloDoGoogla = 0;
+        pb.on('response', async r => {
+          if (!/googletagmanager\.com|google-analytics\.com|analytics\.google\.com/.test(r.url())) return;
+          /* Presretnut zahtev nosi naše zaglavlje. Ako ga nema, odgovor je stigao
+             SA MREŽE — dakle nešto je ipak otišlo Google-u. */
+          try { if (!(await r.allHeaders())['x-blokirano-u-testu']) stigloDoGoogla++; }
+          catch { stigloDoGoogla++; }
+        });
+        await pb.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(2500);
+        ok('nijedan zahtev iz TESTA ne stigne do Google-ove analitike',
+           stigloDoGoogla === 0, `pokušaja ${mernihZahteva}, uspelo ${stigloDoGoogla}`);
+        await cb.close();
+      }
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

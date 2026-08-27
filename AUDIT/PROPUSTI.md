@@ -1238,3 +1238,45 @@ Promeni se fajl — promeni se adresa, bez ičije pažnje.
 
 Provera (sekcija 41) je pre upisivanja isprobana tako što je stara verzija vraćena
 ručno — pala je i imenovala tačan fajl.
+
+---
+
+## 26.08.2026 — MOJ TEST JE MESECIMA KVARIO VLASNIČINU STATISTIKU
+
+Vlasnica je pitala zašto joj Analytics pokazuje 198 poseta iz Barselone, gde ona živi.
+Pretpostavio sam da su njene. Nisu — bile su **moje**.
+
+`test/predeploy.mjs` otvara **34 sveža konteksta po prolazu**, svaki bez kolačića. Za
+GA4 je svaki takav **NOV KORISNIK**. Puštan protiv produkcije više puta dnevno, uz
+merne skripte i moje usputne provere u pregledaču, napunio je statistiku lažnim
+posetama sa njene IP adrese.
+
+**Izmereno, i razlika je očigledna kad se pogleda:**
+
+| Grad | Korisnika | Od toga novih | Prosečno zadržavanje |
+|---|---|---|---|
+| Beograd (prava publika) | 496 | 464 | **2 min 56 s** |
+| Barselona (ja) | 206 | **203** | **12 s** |
+| Malaga (ja i vlasnica) | 42 | 40 | 39 s |
+
+Dvesta tri „nova korisnika" iz jednog grada, sa dvanaest sekundi zadržavanja, nije
+publika nego alat. To je bilo **20 % svih korisnika**, na sajtu koji ima oko 1.200.
+
+**Pravilo.**
+> **Alat koji meri sajt ne sme da bude viđen u statistici tog sajta.** Svaki
+> automatski pregledač — test, merenje, snimanje slika, provera u letu — blokira
+> analitiku, i to na jednom mestu koje pokriva sve buduće kontekste
+> (`test/bez-analitike.mjs`). Ako se to ne uradi, sopstveni alat postaje najveći
+> „posetilac", a svaka odluka doneta iz tih brojeva je pogrešna.
+>
+> **I šire:** kad vlasnica prijavi čudan broj, prvo se pita **da li smo ga mi
+> napravili**, pa tek onda traži uzrok kod korisnika.
+
+**Sopstveni propust u samoj popravci.** Prvo rešenje je bilo blokiranje domena na
+nivou pregledača (`--host-resolver-rules`). Radilo je, ali je pregledač počeo da
+prijavljuje `ERR_CONNECTION_REFUSED`, pa je pet provera „nula grešaka u konzoli"
+počelo da pada — na mojoj popravci, ne na sajtu. Ispravno je **presresti** zahtev i
+odgovoriti mu praznim 200: ništa ne izađe, a konzola ostaje čista.
+
+> **Pravilo:** popravka koja pravi novu grešku u konzoli nije popravka nego zamena
+> jednog problema drugim. Kad se nešto blokira, blokira se **tiho**.

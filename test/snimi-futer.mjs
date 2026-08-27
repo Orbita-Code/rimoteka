@@ -7,6 +7,7 @@
  *   BASE=https://rimoteka.com node test/snimi-futer.mjs <folder>
  */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
+import { umotaj } from './bez-analitike.mjs';   // merenje ne ulazi u statistiku (26.08.2026)
 import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,7 +19,7 @@ fs.mkdirSync(IZLAZ, { recursive: true });
 
 const pauza = ms => new Promise(r => setTimeout(r, ms));
 
-const b = await chromium.launch();
+const b = umotaj(await chromium.launch());
 for (const [ime, w, h] of [['390', 390, 844], ['1440', 1440, 900]]) {
   for (const tema of ['svetla', 'tamna']) {
     const ctx = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 2 });

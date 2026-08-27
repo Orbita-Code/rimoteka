@@ -11,6 +11,7 @@
  * Prag: 4,5:1 za običan tekst, 3:1 za veliki (≥24px, ili ≥18.66px podebljan).
  */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
+import { umotaj } from './bez-analitike.mjs';   // merenje ne ulazi u statistiku (26.08.2026)
 
 const BASE = process.env.BASE || 'http://localhost:8765';
 
@@ -131,7 +132,7 @@ const STRANE = [
   ['/kako-napisati-pesmu/', null], ['/404.html', null],
 ];
 
-const b = await chromium.launch();
+const b = umotaj(await chromium.launch());
 const ctx = await b.newContext();
 const p = await ctx.newPage();
 p.setDefaultNavigationTimeout(120000);

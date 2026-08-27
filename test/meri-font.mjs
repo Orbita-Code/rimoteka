@@ -12,6 +12,7 @@
 
    Pokretanje:  node meri-font.mjs "Fira Sans" */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
+import { umotaj } from './bez-analitike.mjs';   // merenje ne ulazi u statistiku (26.08.2026)
 
 const FONT = process.argv[2] || 'Fira Sans';
 const URL_FONT = FONT.replace(/ /g, '+');
@@ -23,7 +24,7 @@ const RECENICE = [
   ['ćirilica', 'Брзо, тачно и без затрпавања — алат за писање песама'],
 ];
 
-const b = await chromium.launch();
+const b = umotaj(await chromium.launch());
 const p = await b.newPage();
 await p.setContent(`<!doctype html><html><head>
 <link href="https://fonts.googleapis.com/css2?family=${URL_FONT}:wght@400;500;600;700&display=swap" rel="stylesheet">

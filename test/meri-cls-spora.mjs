@@ -26,6 +26,7 @@
 
    Izlazni kod 1 ako ijedno merenje pređe granicu.                            */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
+import { umotaj } from './bez-analitike.mjs';   // merenje ne ulazi u statistiku (26.08.2026)
 import { spawn } from 'node:child_process';
 
 const GRANICA = Number(process.env.GRANICA || 0.1);
@@ -51,7 +52,7 @@ if (!BASE) {
 }
 
 const zarez = n => String(n).replace('.', ',');
-const browser = await chromium.launch();
+const browser = umotaj(await chromium.launch());
 let najgori = 0, palo = 0;
 
 console.log(`\n  Merim skakanje strane na SPOROJ vezi (1,6 Mb/s, kašnjenje 150 ms) — ${BASE}`);

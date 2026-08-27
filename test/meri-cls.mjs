@@ -12,6 +12,7 @@
      BASE=https://rimoteka.com node test/meri-cls.mjs # protiv produkcije
      PROLAZA=10 node test/meri-cls.mjs                # broj merenja po strani  */
 import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
+import { umotaj } from './bez-analitike.mjs';   // merenje ne ulazi u statistiku (26.08.2026)
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join } from 'node:path';
@@ -38,7 +39,7 @@ if (!BASE) {
   BASE = `http://localhost:${server.address().port}`;
 }
 
-const b = await chromium.launch();
+const b = umotaj(await chromium.launch());
 console.log(`\n  Merim CLS ${PROLAZA}× po strani — ${BASE}\n`);
 let najgori = 0;
 

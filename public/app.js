@@ -3306,7 +3306,7 @@ if(trakaTabova){
 /* ── NASLOV PRATI TAB (03.08.2026) ──────────────────────────────────────────
    Prijava vlasnice: „klikne se Rečnik, adresa se promeni, a naslov ostane sa
    početne". Tačno tako je i bilo. Svaka strana IMA svoj `h1` u svom HTML-u —
-   `/recnik-srpskog-jezika/` ima „Rečnik srpskog jezika" i to Google i vidi kad
+   `/rime-po-zavrsetku/` ima svoj `h1` „Reči koje se završavaju na…" i to Google vidi kad
    je otvori. Ali prebacivanje taba menja samo adresu (`pushState`), a naslov,
    podnaslov i naslov kartice ostaju sa strane sa koje se krenulo.
 
@@ -3330,9 +3330,9 @@ const TAB_NASLOV = {
     naslov: 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka',
   },
   pretraga: {
-    h1: 'Rečnik srpskog jezika — traži reč po slovima, čitaj šta znači',
-    p: 'Traži reč po početku, kraju ili slovima u sredini. Uz svaku piše šta znači i koliko ima slogova.',
-    naslov: 'Rečnik srpskog jezika — pretraga reči i značenja | Rimoteka',
+    h1: 'Rime po završetku — nađi reč koja se završava na…',
+    p: 'Upiši završetak reči i dobićeš sve koje se tako završavaju — a to su ujedno i rime. Može i po početku reči.',
+    naslov: 'Rime po završetku — nađi reč koja se završava na… | Rimoteka',
   },
   igra: {
     h1: 'Igra rimovanja — koliko dug niz rima možeš da sastaviš?',

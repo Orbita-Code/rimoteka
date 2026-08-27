@@ -249,7 +249,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F88VM8CWBQ"></script>
-<script src="/ga-init.js?v=1"></script>
+<script src="/ga-init.js?v=2"></script>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
@@ -327,7 +327,7 @@ TABS = [
     ('rime',      '/', 'Rimovanje reči'),
     ('beleznica', '/pisanje-pesama/', 'Pisanje pesama'),
     ('slogovi',   '/slogovi/', 'Brojač slogova i karaktera'),
-    ('pretraga',  '/recnik-srpskog-jezika/', 'Pretraga reči'),
+    ('pretraga',  '/rime-po-zavrsetku/', 'Pretraga reči'),
     ('igra',      '/igra-rimovanja/', 'Igra rimovanja'),
     ('klasici',   '/klasici/',        'Klasici'),
     # „Omiljene“ nema svoju stranu — panel živi na početnoj i otvara ga `?tab=`.
@@ -504,7 +504,7 @@ SYL_TOOL_HTML = """  <div class="landing-tool">
 # Naziv svake tematske strane na jednom mestu — koristi ga blok „Srodne strane“.
 NAZIVI = {
     'rimovanje-reci': 'Rimovanje reči',
-    'recnik-srpskog-jezika': 'Rečnik srpskog jezika',
+    'rime-po-zavrsetku': 'Rime po završetku',
     'slogovi': 'Brojač slogova i karaktera',
     'pisanje-pesama': 'Pisanje pesama',
     'klasici': 'Srpske pesme — klasici',
@@ -533,8 +533,8 @@ NAZIVI = {
 # ijednog linka sa sajta — takve Google obično ostavi na „otkriveno, nije
 # indeksirano". Svaka strana ovde ima bar dva dolazna linka.
 SRODNO = {
-    'rimovanje-reci': ['recnik-srpskog-jezika', 'slogovi', 'vrste-rima', 'rime-za-decu'],
-    'recnik-srpskog-jezika': ['rimovanje-reci', 'slogovi', 'klasici'],
+    'rimovanje-reci': ['rime-po-zavrsetku', 'slogovi', 'vrste-rima', 'rime-za-decu'],
+    'rime-po-zavrsetku': ['rimovanje-reci', 'slogovi', 'klasici'],
     'pisanje-pesama': ['slogovi', 'vrste-rima', 'kako-napisati-pesmu', 'klasici'],
     'klasici': ['vrste-rima', 'pisanje-pesama', 'slogovi'],
     'igra-rimovanja': ['rime-za-decu', 'rimovanje-reci', 'rimovanje-za-pocetnike'],
@@ -582,8 +582,8 @@ FAQ_LINKOVI = [
     ('beležnici za pisanje pesama', 'pisanje-pesama'),
     ('beležnica za pisanje pesama', 'pisanje-pesama'),
     ('brojač slogova i karaktera', 'slogovi'),
-    ('rečniku srpskog jezika', 'recnik-srpskog-jezika'),
-    ('rečnik srpskog jezika', 'recnik-srpskog-jezika'),
+    ('rimama po završetku', 'rime-po-zavrsetku'),
+    ('rime po završetku', 'rime-po-zavrsetku'),
     ('rimovanje za početnike', 'rimovanje-za-pocetnike'),
     ('kako napisati pesmu', 'kako-napisati-pesmu'),
     ('brojanje slogova', 'slogovi'),
@@ -1135,9 +1135,9 @@ def main():
 
     # 2b) statička strana /slogovi/ — keyword „brojanje slogova“
     slog_canon = f'{BASE}/slogovi/'
-    slog_title = 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka'
-    slog_desc = ('Besplatan brojač slogova, karaktera i reči: nalepi tekst i odmah vidiš broj slogova, '
-                 'reči i znakova za svaki red. Podela reči na slogove u srpskom (sa slogotvornim „r“) — pravila i primeri.')
+    slog_title = 'Brojač slogova i karaktera — za reč, stih i celu pesmu | Rimoteka'
+    slog_desc = ('Nalepi tekst i odmah vidiš broj slogova, reči i znakova za svaki red. Besplatan '
+                 'brojač, uz pravila kako se reč deli na slogove u srpskom.')
     slog_schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -1200,14 +1200,14 @@ def main():
 
     # 2c) tematske strane (autoritet + niše)
     content_defs = [
-        dict(slug='recnik-srpskog-jezika', aktivan_tab='pretraga',
-             title='Rečnik srpskog jezika — pretraga reči i značenja | Rimoteka',
-             desc='Rečnik srpskog jezika — uz svaku reč ide objašnjenje šta znači. Traži reč po značenju ili po '
-                  'slovima — koje se završavaju, počinju ili sadrže zadata slova. Uz svaku piše broj slogova.',
-             h1='Rečnik srpskog jezika — traži reč po slovima, čitaj šta znači',
-             lead='<strong>Rečnik srpskog jezika</strong> koji pokriva ceo jezik — i uz svaku reč objašnjenje. '
-                  'Reč možeš tražiti i po slovima — onu koja se završava na „-ost“, počinje na „cvet“ ili '
-                  'negde u sebi ima „zvezd“ — a uz svaku stoji broj slogova i značenje.',
+        dict(slug='rime-po-zavrsetku', aktivan_tab='pretraga',
+             title='Rime po završetku — nađi reč koja se završava na… | Rimoteka',
+             desc='Za lakše rimovanje upiši završetak reči — npr. „ica“ — i dobićeš sve reči koje se tako završavaju. Možeš da dobiješ rezultate i po početku reči.',
+             h1='Rime po završetku — nađi reč koja se završava na…',
+             lead='Traži reč po slovima: onu koja se <strong>završava</strong> na „-ost“, <strong>počinje</strong> '
+                  'na „cvet“ ili negde u sebi <strong>ima</strong> „zvezd“. Reči sa istim završetkom ujedno '
+                  'su i rime, pa je ovo i najbrži način da nađeš rimu na zadati nastavak. Uz svaku piše broj '
+                  'slogova, a klikom na ⓘ i šta znači.',
              cta_href='/rimovanje-reci/', cta_text='🔎 Traži rime umesto reči →',
              priority='0.7',
              tool=panel_html('pretraga'),
@@ -1250,8 +1250,8 @@ def main():
 
         dict(slug='klasici', aktivan_tab='klasici',
              title='Srpske pesme — klasici sa šemom rime i brojem slogova | Rimoteka',
-             desc='Poznate pesme srpskih pesnika sa označenom šemom rime (ABAB, AABB) i brojem slogova u svakom '
-                  'stihu. Vidi kako su veliki pesnici gradili ritam i rimu — i klikni na reč da joj nađeš rime.',
+             desc='Poznate srpske pesme sa označenom šemom rime (ABAB, AABB) i brojem slogova u svakom '
+                  'stihu — da vidiš kako su veliki pesnici gradili ritam i rimu.',
              h1='Klasici srpske poezije — poznate pesme sa šemom rime',
              lead='Najbolji način da naučiš rimu jeste da vidiš kako su je pravili oni koji su je umeli. Uz svaki '
                   'stih ovde stoji <strong>broj slogova</strong> i <strong>slovo šeme rime</strong>, pa se odmah '
@@ -1270,7 +1270,7 @@ def main():
                   '<a href="/slogovi/">brojanje slogova i karaktera</a>.'),
                  ('Od čitanja klasika do tvoje prve pesme',
                   'Kad ti se dopadne neka rima, klikni na završnu reč stiha i dobićeš sve reči koje se sa njom '
-                  'rimuju, a značenje svake potraži u <a href="/recnik-srpskog-jezika/">rečniku srpskog jezika</a>. Kad kreneš da pišeš svoje, tu je <a href="/pisanje-pesama/">beležnica za pisanje '
+                  'rimuju, a reč po zadatim slovima nađi u <a href="/rime-po-zavrsetku/">rimama po završetku</a>. Kad kreneš da pišeš svoje, tu je <a href="/pisanje-pesama/">beležnica za pisanje '
                   'pesama</a> koja ti sama broji slogove i crta šemu rime.'),
              ],
              faqs=[
@@ -1285,9 +1285,9 @@ def main():
              ]),
 
         dict(slug='igra-rimovanja', aktivan_tab='igra',
-             title='Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
-             desc='Besplatna igra rimovanja: dobiješ reč, nađeš rimu pre isteka vremena. Za jednog ili više '
-                  'igrača, sa poenima i nizovima. Zabavan način da deca i odrasli vežbaju rimu i bogate rečnik.',
+             title='Igra rimovanja — nađi rimu pre isteka vremena | Rimoteka',
+             desc='Dobiješ reč, nađeš rimu pre isteka vremena. Za jednog ili više igrača, sa poenima. '
+                  'Zabavan način da deca i odrasli vežbaju rimu.',
              h1='Igra rimovanja — koliko dug niz rima možeš da sastaviš?',
              lead='Alat postaje igra: dobiješ reč, a ti nađeš rimu pre nego što istekne vreme. Igra se '
                   '<strong>sam ili u društvu</strong>, sa poenima i nizovima — a usput se rečnik širi bez '
@@ -1307,8 +1307,8 @@ def main():
                   '<a href="/rime-za-decu/">rime za decu</a>, biranе tako da budu primerene.'),
                  ('Kad zapne',
                   'Ako ti reč nikako ne dolazi, tu je <a href="/rimovanje-reci/">pretraživač rima</a> i '
-                  '<a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> sa svim '
-                  'rimama za bilo koju srpsku reč — a kad poželiš da od rima napraviš pesmu, čeka te '
+                  '<a href="/rime-po-zavrsetku/">rime po završetku</a> — sve što se '
+                  'završava isto kao tvoja reč — a kad poželiš da od rima napraviš pesmu, čeka te '
                   '<a href="/pisanje-pesama/">beležnica za pisanje pesama</a>.'),
              ],
              faqs=[
@@ -1325,9 +1325,9 @@ def main():
              ]),
 
         dict(slug='pisanje-pesama', aktivan_tab='beleznica',
-             title='Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka',
-             desc='Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu, šemu rime i ritam. '
-                  'Besplatna beležnica za pesnike, tekstopisce i repere — tekst ostaje sačuvan na tvom uređaju.',
+             title='Pisanje pesama — beležnica sa rimama i slogovima | Rimoteka',
+             desc='Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu i šemu rime. '
+                  'Tekst ostaje sačuvan na tvom uređaju.',
              h1='Pisanje pesama uz rime koje se boje dok kucaš',
              lead='Ovde se <strong>pesma i piše</strong>, ne samo rimuje. Dok kucaš, pored svakog '
                   'stiha stoji broj slogova i slovo šeme rime, reči koje se rimuju obojene su istom bojom, a '
@@ -1357,8 +1357,8 @@ def main():
                   'ritam je češća greška od loše rime.'),
                  ('Kad ti treba druga reč, ne rima',
                   'Ponekad stih ne trpi nijednu rimu koja ti pada na pamet. Tada otvori '
-                  '<a href="/recnik-srpskog-jezika/">rečnik srpskog jezika</a> i potraži reč po značenju ili po '
-                  'slovima, pa njoj nađi rimu. A kad hoćeš da uvežbaš oko za rimu, tu je '
+                  '<a href="/rime-po-zavrsetku/">rime po završetku</a> i potraži reč po '
+                  'nastavku, pa njoj nađi rimu. A kad hoćeš da uvežbaš oko za rimu, tu je '
                   '<a href="/igra-rimovanja/">igra rimovanja</a>.'),
                  ('Prevuci stih na drugo mesto',
                   'Stih se prevlači na drugo mesto hvataljkom levo od njega — mišem ili prstom. Slogovi, boje i '
@@ -1443,7 +1443,7 @@ def main():
         dict(slug='rimovanje-reci', aktivan_tab='rime',
              priority='0.9',
              tool=True,          # živi alat za rime na samoj strani
-             title='Rimovanje reči — pronađi rimu za svaku srpsku reč | Rimoteka',
+             title='Rime i rimovanje reči — pronađi rimu za svaku reč | Rimoteka',
              desc='Rimovanje reči na srpskom, za sekundu: upišeš reč i Rimoteka izlista sve rime — sa brojem slogova, značenjem i sinonimima, besplatno i bez reklama.',
              h1='Rimovanje reči — kako naći rimu za svaku srpsku reč',
              # PRVA REČENICA SE PIŠE ZA GOOGLE, ne za stranu.
@@ -1780,8 +1780,8 @@ def main():
     }, ensure_ascii=False, indent=1)
     hub_head = HEAD_TMPL.format(
         tabs_nav=tabs_nav('rime'),
-        title='Rime za reč — azbučni spisak | Rimoteka',
-        desc='Azbučni spisak svih strana sa rimama. Izaberi reč i vidi sve reči koje se sa njom rimuju.',
+        title='Rime za sve srpske reči — azbučni spisak | Rimoteka',
+        desc='Azbučni spisak svih strana sa rimama. Izaberi reč i vidi sve što se sa njom rimuje, uz broj slogova i značenje svake reči.',
         ogdesc='Azbučni spisak svih strana sa rimama.',
         canonical=hub_canon, base=BASE, schema=hub_schema)
     hub_body = f"""<main class="landing">

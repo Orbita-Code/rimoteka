@@ -1020,29 +1020,45 @@ def main():
         znacenje_faq_html = (f'<details><summary>{esc(zn_faq_q)}</summary><p>{esc(zn_faq_a)}</p></details>'
                              if t in defs else '')
 
-        # bolji title/description koji ciljaju više varijanti pretrage
-        # „Rime za nada" je padežno pogrešno (treba „za nadu"), a padež se NE SME
-        # izvoditi iz završetka — „-a" ima i imenice, i pridevi, i glagoli
-        # (v. GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pravilo 1). Umetanjem reči
-        # „reč" imenica ostaje u nominativu i naslov je tačan za svih 1.988 strana,
-        # baš kao što je oduvek bio u `h1`.
-        title = (f'Rime za reč „{t}“: {len(all_r)} {rec_word(len(all_r))} '
-                 f'{koja_se_rimuje(len(all_r))} | Rimoteka rečnik rima')
+        # NASLOV JE PITANJE KOJE LJUDI ZAISTA KUCAJU (28.08.2026, odluka vlasnice).
+        # Izmereno u Search Console-u: upit `sta se rimuje sa` ima 125 prikaza, 2 klika
+        # (CTR 1,6 %) na poziciji 4,5 — dakle već rangiramo, a skoro niko ne uđe. Zapis
+        # analitike uz taj red kaže: „opis ne odgovara na pitanje koje je postavljeno".
+        # Stari naslov („Rime za reč „ljubav": 180 reči koje se rimuju | Rimoteka rečnik
+        # rima") bio je 68 znakova, pa je Gugl svima sekao rep — i to baš ime sajta.
+        #
+        # PADEŽ: „Rime za nada" je pogrešno (treba „za nadu"), a padež se NE SME izvoditi
+        # iz završetka — „-a" imaju i imenice, i pridevi, i glagoli (v. GRAMATIKA…, pravilo 1).
+        # Ranije se to rešavalo umetanjem reči „reč". Sada to rade NAVODNICI: reč u
+        # navodnicima je citat, a citat ostaje u nominativu i kad predlog traži drugi padež
+        # („u pesmi „Santa Maria della Salute""). Tako je naslov i tačan i doslovno onakav
+        # kakav se kuca u pretragu.
+        # Izmereno nad svih 2.000 reči: najduži naslov 65 znakova, nijedan preko granice.
+        title = f'Šta se rimuje sa „{t}“? | Rimoteka — alat za rimovanje'
         # Opis je bio dug (medijana 205 znakova, najduži 279), pa ga je Google sekao usred
         # spiska reči. Sada staje u ~155 i kaže ono što drugi rimeri nemaju: slog i značenje.
         # Opis se PUNI DO GRANICE, ne na „četiri primera pa kako ispadne“ — reči su različite
         # dužine, pa je fiksan broj primera ranije davao raspon 123–279 znakova. Google
         # prikazuje oko 155; sve preko toga preseca usred spiska. Zato se primeri dodaju
         # jedan po jedan dok opis staje u 158, pa se stane.
-        _osnova = (f'Sve rime za „{t}“: {len(all_r)} {rec_word(len(all_r))}. Uz svaku piše broj slogova '
-                   f'i šta znači.')
+        # OPIS ODGOVARA NA PITANJE IZ NASLOVA, ne ponavlja ga (28.08.2026).
+        # Naslov pita „Šta se rimuje sa „ljubav"?" — pa opis odmah počinje ODGOVOROM,
+        # samim rimama, a tek onda kaže koliko ih ima i šta još strana nudi. Ranije je
+        # počinjao sa „Sve rime za „ljubav": 180 reči…", dakle ponavljao je pitanje i
+        # trošio prvih pedesetak znakova na ono što čovek već vidi u naslovu.
+        # Opis se PUNI DO GRANICE, ne na „četiri primera pa kako ispadne" — reči su
+        # različite dužine, pa je fiksan broj primera davao raspon 123–279 znakova.
+        # Gugl prikazuje oko 155; sve preko toga preseca usred spiska.
+        _rep = (f' — ukupno {len(all_r)} {rec_word(len(all_r))}. '
+                f'Uz svaku piše broj slogova i šta znači.')
         _primeri = []
-        for _w in all_r[:6]:
+        for _w in all_r[:8]:
             _kandidat = _primeri + [_w]
-            if len(_osnova) + len(' Na vrhu su: ') + len(', '.join(_kandidat)) + 1 > 158:
+            if len('Rimuju se: ') + len(', '.join(_kandidat)) + len(_rep) > 158:
                 break
             _primeri = _kandidat
-        desc = _osnova + (f' Na vrhu su: {", ".join(_primeri)}.' if _primeri else '')
+        desc = (f'Rimuju se: {", ".join(_primeri)}{_rep}' if _primeri
+                else f'Rime za „{t}“{_rep}')
         ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 

@@ -2090,8 +2090,19 @@ async function main() {
       }));
       // S9: strane za mama/tata/deka… uopšte nisu postojale (404)
       ok('S9 /rime-za/mama/ postoji', /mama/i.test(rec.title), rec.title);
-      // padežno tačan naslov: „Rime za reč „mama“", ne „Rime za mama"
-      ok('naslov ne stavlja reč u pogrešan padež', /Rime za reč/.test(rec.title), rec.title);
+      /* PADEŽ U NASLOVU — pravilo, ne određen tekst.
+         „Rime za mama" je pogrešno (treba „za mamu"), a padež se NE SME izvoditi iz
+         završetka: „-a" imaju i imenice, i pridevi, i glagoli. Ranije se to rešavalo
+         umetanjem reči „reč" („Rime za reč „mama“"), pa je i provera tražila baš taj
+         tekst. Od 28.08.2026. naslov je pitanje koje ljudi kucaju („Šta se rimuje sa
+         „mama“?"), a padež rešavaju NAVODNICI: reč u navodnicima je citat i ostaje u
+         nominativu i kad predlog traži drugi padež.
+         Zato provera više ne traži određenu formulaciju nego ono što je zaista bitno:
+         reč mora biti u navodnicima i NE SME stajati gola iza predloga. */
+      const uNavodnicima = /„mama“/.test(rec.title);
+      const golaIzaPredloga = /\b(sa|za|o|u|s)\s+mama\b/i.test(rec.title);
+      ok('naslov ne stavlja reč u pogrešan padež (reč je u navodnicima)',
+         uNavodnicima && !golaIzaPredloga, rec.title);
       ok('naslov nema „N reči koje" kad je N%10===1',
          !/\b\d*1 reči koje/.test(rec.title), rec.title);
       ok('breadcrumb ima sva tri nivoa', rec.mrve.length >= 3, rec.mrve.join(' › '));

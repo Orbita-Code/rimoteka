@@ -1616,7 +1616,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .verse .vsyl{flex:0 0 1.6rem;text-align:right;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
 .verse .vtext{flex:1;color:var(--ink);font-size:1.02rem;line-height:1.5}
 .verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:700;color:var(--tag-ink);background:var(--tag-bg);border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
-.verse .vrhyme:hover{background:var(--lavender);color:#fff}
+/* Bez isticanja na prelaz miša — slovo šeme rime nije dugme (27.08.2026). */
 .poem-foot{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft);font-weight:600}
 .poem-scheme b{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 

@@ -28,7 +28,7 @@ if ! command -v nginx >/dev/null 2>&1; then
   exit 1
 fi
 
-mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav" "$RAD/html/rime-za/voda"
+mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav" "$RAD/html/rime-za/voda" "$RAD/html/rime-po-zavrsetku"
 cp "$PROJ/public/index.html" "$RAD/html/" 2>/dev/null
 cp "$PROJ/public/rime-za/ljubav/index.html" "$RAD/html/rime-za/ljubav/" 2>/dev/null
 # Hub i još jedna postojeća strana — bez njih se ne može proveriti da pravilo
@@ -36,6 +36,10 @@ cp "$PROJ/public/rime-za/ljubav/index.html" "$RAD/html/rime-za/ljubav/" 2>/dev/n
 # na sebe (beskonačna petlja na 1.672 adrese). Dodato 30.07.2026, nalaz P10.
 cp "$PROJ/public/rime-za/index.html" "$RAD/html/rime-za/" 2>/dev/null
 cp "$PROJ/public/rime-za/voda/index.html" "$RAD/html/rime-za/voda/" 2>/dev/null
+# Odredište preusmerenja sa `/recnik-srpskog-jezika/` (26.08.2026). Bez ove strane
+# provera „301 ne vodi u prazno" ne bi mogla da se napravi — lažni sajt ima samo
+# nekoliko strana, pa svaka koju provera dodirne mora ovde da se prekopira.
+cp "$PROJ/public/rime-po-zavrsetku/index.html" "$RAD/html/rime-po-zavrsetku/" 2>/dev/null
 
 sed -e "s|listen 80 default_server;|listen $PORT default_server;|" \
     -e "s|listen 80;|listen $PORT;|" \
@@ -121,6 +125,15 @@ proveri "rimoteka.com"     "/rime-za/"          200 -
 # postojeće strane se NE preusmeravaju
 proveri "rimoteka.com"     "/rime-za/voda/"     200 -
 proveri "rimoteka.com"     "/rime-za/voda/"      200 -
+
+echo
+echo "4) Preimenovana strana: /recnik-srpskog-jezika/ → /rime-po-zavrsetku/ (26.08.2026)"
+# Stara adresa je obećavala rečnik srpskog jezika, a alat traži reči po slovima.
+# 301 mora da radi i SA kosom crtom na kraju i BEZ nje — Gugl zna obe.
+proveri_kraj "rimoteka.com" "/recnik-srpskog-jezika/" 301 "/rime-po-zavrsetku/"
+proveri_kraj "rimoteka.com" "/recnik-srpskog-jezika"  301 "/rime-po-zavrsetku/"
+# nova adresa mora da postoji, inače smo preusmerili u prazno
+proveri "rimoteka.com"     "/rime-po-zavrsetku/"      200 -
 
 echo
 if [ "$PALO" -gt 0 ]; then

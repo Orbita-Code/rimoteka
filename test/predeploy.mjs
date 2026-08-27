@@ -4615,6 +4615,25 @@ async function main() {
       const tekst = () => p40.evaluate(() =>
         document.querySelector('.notepad-text').innerText.replace(/\n/g, ' | '));
 
+      /* ČITAJ JEDNOM, PA TVRDI I PRIJAVI ISTU VREDNOST.
+         Do 27.08.2026. je ovde stajalo `ok(..., (await tekst()).startsWith(x), await tekst())`
+         — dva ODVOJENA čitanja iste stvari. Pod opterećenjem bi prvo čitanje stiglo
+         pre nego što `restoreCursorPosition` završi, pa bi provera pala, a drugo
+         čitanje (ono koje se ispisuje) bi već bilo tačno. Zbog toga je poruka o padu
+         izgledala besmisleno: „palo je, a evo tačne vrednosti".
+         Sada se čeka da se tekst smiri, čita se jednom i ta ista vrednost ide i u
+         tvrdnju i u ispis. Pouka je šira od ove provere: nikad ne meriti dvaput
+         nešto što se u međuvremenu može promeniti. */
+      const tekstKad = async (ocekivano, rok = 4000) => {
+        const kraj = Date.now() + rok;
+        let v = await tekst();
+        while (!v.startsWith(ocekivano) && Date.now() < kraj) {
+          await pauza(120);
+          v = await tekst();
+        }
+        return v;
+      };
+
       await p40.click('.notepad-text');
       await p40.keyboard.type('prvi red');
       await p40.keyboard.press('Enter');
@@ -4623,15 +4642,15 @@ async function main() {
       await osvezi();
       await p40.keyboard.type(' joj je');
       await pauza(300);
-      ok('beležnica · kucanje na kraju reda ostaje u tom redu',
-         (await tekst()) === 'prvi red | kapa joj je', await tekst());
+      const t1 = await tekstKad('prvi red | kapa joj je');
+      ok('beležnica · kucanje na kraju reda ostaje u tom redu', t1 === 'prvi red | kapa joj je', t1);
 
       await p40.keyboard.press('Enter');
       await osvezi();
       await p40.keyboard.type('treći red');
       await pauza(300);
-      ok('beležnica · posle Entera kursor ostaje u novom redu',
-         (await tekst()) === 'prvi red | kapa joj je | treći red', await tekst());
+      const t2 = await tekstKad('prvi red | kapa joj je | treći red');
+      ok('beležnica · posle Entera kursor ostaje u novom redu', t2 === 'prvi red | kapa joj je | treći red', t2);
 
       await p40.evaluate(() => {
         const e = document.querySelector('.notepad-text');
@@ -4642,8 +4661,8 @@ async function main() {
       await osvezi();
       await p40.keyboard.type('X');
       await pauza(300);
-      ok('beležnica · kursor usred reči ostaje usred reči',
-         (await tekst()).startsWith('prviX red'), await tekst());
+      const t3 = await tekstKad('prviX red');
+      ok('beležnica · kursor usred reči ostaje usred reči', t3.startsWith('prviX red'), t3);
 
       /* Objašnjenje reči i u bočnom panelu (04.08.2026). Dugme ⓘ tamo ne
          postoji — panel je uzak — pa se značenje pokazuje zadržavanjem
@@ -5133,6 +5152,66 @@ async function main() {
         ok('nijedan zahtev iz TESTA ne stigne do Google-ove analitike',
            stigloDoGoogla === 0, `pokušaja ${mernihZahteva}, uspelo ${stigloDoGoogla}`);
         await cb.close();
+      }
+    }
+
+    console.log('\n44) TAMNA TEMA — pilule nemaju beo okvir (nalaz M12)');
+    {
+      /* Zašto ova sekcija postoji — nalaz M12, otvoren 31.07.2026.
+         `.chip` ima `border:2px solid #fff`, a tamni režim je menjao samo pozadinu,
+         pa je oko svake „dobre rime" stajao BEO prsten na podlozi #1e1a2e.
+         Izmereno: odnos prema podlozi 15,1:1, a razdelnoj liniji treba oko 3:1 —
+         pet puta jače nego što treba, pa svetli kao neon.
+
+         Popravka je 31.07. bila upisana UNUTAR `@media(max-width:560px)`, pa je
+         važila samo na telefonu — na računaru i tabletu je okvir ostao beo kroz
+         TRI audita. Zato se ovde meri na obe širine, ne samo na jednoj.
+
+         Pravilo šire od ovog nalaza: kad se nešto popravi „za telefon", proveri se
+         da pravilo nije zaključano u medija-upit ako važi za sve širine. */
+      for (const sirina of [390, 1440]) {
+        const c44 = await browser.newContext({ viewport: { width: sirina, height: 900 } });
+        await c44.addInitScript(() => localStorage.setItem('rimoteka_dark', '1'));
+        const p44 = ojacajStranu(await c44.newPage());
+        await p44.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await pauza(1200);
+        await p44.fill('#rimeInput', 'ljubav');
+        await p44.evaluate(() => document.getElementById('rimeBtn').click());
+        await pauza(1500);
+
+        const m = await p44.evaluate(() => {
+          const pRGB = s => { const q = String(s).match(/rgba?\(([^)]+)\)/);
+            if (!q) return null; const d = q[1].split(',').map(parseFloat);
+            return { r: d[0], g: d[1], b: d[2] }; };
+          const lin = c => { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
+          const LUM = c => 0.2126 * lin(c.r) + 0.7152 * lin(c.g) + 0.0722 * lin(c.b);
+          const odnos = (a, b) => { const l1 = LUM(a), l2 = LUM(b);
+            return Math.round((Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05) * 100) / 100; };
+          const grupe = [...document.querySelectorAll('#rimeResults .res-group')];
+          const dobre = grupe.find(g => { const h = g.querySelector('h2');
+            return h && /^Dobre rime/.test(h.textContent.trim()); });
+          if (!dobre) return { nema: true };
+          const cip = dobre.querySelector('.chip');
+          if (!cip) return { nemaCipa: true };
+          const gs = getComputedStyle(cip);
+          const okvir = pRGB(gs.borderColor);
+          const podloga = pRGB(getComputedStyle(document.body).backgroundColor);
+          return {
+            okvir: gs.borderColor,
+            beo: okvir && okvir.r > 245 && okvir.g > 245 && okvir.b > 245,
+            odnosPremaPodlozi: (okvir && podloga) ? odnos(okvir, podloga) : null,
+            tamna: document.body.classList.contains('dark-mode')
+          };
+        });
+
+        ok(`${sirina}px · tamna tema je uključena`, m.tamna === true, JSON.stringify(m));
+        ok(`${sirina}px · „dobre rime" NEMAJU beo okvir`, m.beo === false, JSON.stringify(m));
+        /* Granica 6 je namerno labava: razdelnoj liniji treba oko 3:1, a beo okvir
+           je davao 15,1:1. Sve ispod 6 znači da prsten više ne viče. */
+        ok(`${sirina}px · okvir ne blješti (odnos prema podlozi ispod 6)`,
+           m.odnosPremaPodlozi !== null && m.odnosPremaPodlozi < 6,
+           `odnos ${m.odnosPremaPodlozi}, boja ${m.okvir}`);
+        await c44.close();
       }
     }
 

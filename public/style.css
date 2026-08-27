@@ -2814,17 +2814,10 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 @media(max-width:560px){
   body.dark-mode .notepad .gutter{background:transparent;color:var(--muted)}
 
-  /* BELI OKVIR OKO PILULE U TAMNOM REŽIMU.
-     `.chip` ima `border:2px solid #fff`, a tamni režim menja samo pozadinu —
-     pa je oko svake „dobre rime" i oko svake rime u traci beležnice stajao
-     BEO prsten debeo 2 px na podlozi #1e1a2e. Izmereno: `rgb(255,255,255)`.
-     „Najbolje rime" to nisu imale jer ih pokriva `.strong-tier` (butter), pa
-     se razlika videla kao dva različita izgleda u istom spisku.
-     Ovde se popravlja SAMO telefon; isto stoji i na računaru i tabletu, ali
-     tamo se po dogovoru ništa ne dira — prijavljeno vlasnici na odluku. */
-  body.dark-mode .results > .chip,
-  body.dark-mode .note-rhymes .chip{border-color:var(--line)}
-  body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
+  /* Beli okvir oko pilule u tamnom režimu — popravka je 27.08.2026. izvučena
+     ODAVDE, iz medija-upita za 560 px, u opšti deo (v. dno fajla). Do tada je
+     važila samo na telefonu, pa je na računaru i tabletu okvir ostajao beo.
+     Nalaz M12, otvoren od 31.07.2026, tri audita zaredom. */
   body.dark-mode .hint .link-btn,
   body.dark-mode .poem-foot .link-btn{
     background:#241f38;border-color:var(--line);color:var(--ink-soft);
@@ -2876,3 +2869,23 @@ button.chip-btn{
   cursor:pointer;
   -webkit-appearance:none;appearance:none;
 }
+
+/* ── BELI OKVIR OKO PILULE U TAMNOM REŽIMU (nalaz M12) ─────────────────────
+   `.chip` ima `border:2px solid #fff`, a tamni režim je menjao samo pozadinu —
+   pa je oko svake „dobre rime" i oko svake rime u traci beležnice stajao BEO
+   prsten debeo 2 px na podlozi #1e1a2e.
+
+   Izmereno: beo okvir prema toj podlozi daje odnos **15,1:1**, a razdelnoj
+   liniji treba oko **3:1** — pet puta jače nego što treba, pa svetli kao neon.
+   „Najbolje rime" to nisu imale, jer njih pokriva `.strong-tier` (lavanda), pa
+   su se u istom spisku videla dva različita izgleda.
+
+   Popravka je 31.07.2026. bila upisana UNUTAR `@media(max-width:560px)`, pa je
+   važila samo na telefonu — na računaru i tabletu je okvir ostao beo kroz tri
+   audita. Zato sada stoji ovde, bez medija-upita, i važi na svim širinama.
+   Odluka vlasnice, 27.08.2026.
+
+   Provera: pre-deploy test meri `borderColor` u tamnoj temi na 390 i 1440 px. */
+body.dark-mode .results > .chip,
+body.dark-mode .note-rhymes .chip{border-color:var(--line)}
+body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}

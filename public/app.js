@@ -4052,7 +4052,11 @@ function renderKlasici(){
         v.innerHTML =
           `<span class="vsyl" title="slogova u stihu">${lineSyllables(l)}</span>`
           + `<span class="vtext">${escapeHtml(dispPoem(l))}</span>`
-          + `<span class="vrhyme" data-w="${escapeHtml(word)}" title="nađi rime za „${escapeHtml(word)}“">${letters[idx]||''}</span>`;
+          /* Slovo šeme rime je OZNAKA, ne dugme (odluka vlasnice 27.08.2026):
+             klasici su prave, postojeće pesme — nema smisla tražiti rime za reči
+             koje je pesnik već izabrao. Zato nema `data-w` ni naslova koji obećava
+             klik. Slovo ostaje da se vidi šema rime, i to je sav njegov posao. */
+          + `<span class="vrhyme" aria-hidden="true">${letters[idx]||''}</span>`;
         stanza.appendChild(v);
       });
       body.appendChild(stanza);
@@ -4067,26 +4071,12 @@ function renderKlasici(){
     card.appendChild(foot);
     box.appendChild(card);
   });
-  box.querySelectorAll('.vrhyme').forEach(b=>{
-    if(!b.dataset.w) return;
-    b.style.cursor='pointer';
-    b.onclick = ()=>{
-      /* MRTVO DUGME NA `/klasici/` — nađeno 31.07.2026.
-         Na početnoj `switchTab('rime')` prebaci na tab sa rimama i sve radi.
-         Na zasebnoj strani `/klasici/` tog taba NEMA: `rimeInput` je tada
-         prazan `NOOP_EL`, `switchTab` nema šta da prebaci i klik NE URADI
-         NIŠTA — a strana u uputstvu obećava „klikni da nađeš rime". Izmereno:
-         138 stihova, nijedan klik ništa ne menja, adresa ostaje ista.
-         Na takvoj strani se ide na početnu sa upitom — isti oblik linka koji
-         već koriste pilule na stranama `/rime-za/…` (`/?rec=…`). */
-      if(!document.getElementById('panel-rime')){
-        location.href = '/?rec=' + encodeURIComponent(b.dataset.w);
-        return;
-      }
-      rimeInput.value = disp(b.dataset.w); switchTab('rime');
-      window.scrollTo({top:0,behavior:'smooth'}); doRhymes();
-    };
-  });
+  /* OSLUŠKIVAČ KLIKA JE OBRISAN 27.08.2026, odluka vlasnice.
+     Slovo šeme rime je ranije bilo dugme koje traži rime za završnu reč stiha.
+     Vlasnica: klasici su prave pesme koje već postoje — nema šta da se traži za
+     te reči. Uz to je uputstvo obećavalo „klikni na završnu REČ“, a klikalo se
+     SLOVO sa strane, pa je i obećanje bilo netačno (nalaz E, otvoren 31.07.).
+     I tekst i klik su uklonjeni; slovo ostaje kao oznaka. Ne vraćati. */
 }
 
 /* ====================== DARK MODE ====================== */

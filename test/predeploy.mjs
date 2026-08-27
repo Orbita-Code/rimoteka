@@ -3458,17 +3458,25 @@ async function main() {
       ok('igra · poruka o tačnosti se vidi i sa tastaturom', f30.poruka !== null && f30.poruka <= f30.vrh,
          `dno ${f30.poruka}, tastatura od ${f30.vrh}`);
 
-      // ── F. KLASICI: slovo šeme rime je bilo MRTVO DUGME na zasebnoj strani
-      /* Na početnoj klik prebaci na tab sa rimama i sve radi. Na `/klasici/`
-         tog taba nema, `rimeInput` je prazan `NOOP_EL` i klik NE URADI NIŠTA —
-         a strana u uputstvu obećava „klikni da nađeš rime". 138 stihova. */
+      // ── F. KLASICI: slovo šeme rime je OZNAKA, ne dugme
+      /* Odluka vlasnice 27.08.2026: klasici su prave, postojeće pesme — nema
+         smisla tražiti rime za reči koje je pesnik već izabrao. Klik je uklonjen
+         zajedno sa uputstvom koje ga je obećavalo.
+         Istorija, da se ne vrati: slovo je 31.07. bilo MRTVO DUGME na `/klasici/`
+         (tamo nema taba sa rimama, pa klik nije radio ništa na 138 stihova); tada
+         je popravljeno da vodi na `/?rec=…`. Uz to je uputstvo govorilo „klikni na
+         završnu REČ", a klikalo se SLOVO — dakle i obećanje je bilo netačno.
+         Sada nema ni klika ni obećanja, pa nema ni nesklada. */
       await p30.goto(BASE + '/klasici/', { waitUntil: 'domcontentloaded' });
       await pauza(2500);
       const g30 = await p30.evaluate(() => {
-        const s = document.querySelector('.vrhyme[data-w]');
+        const s = document.querySelector('.vrhyme');
         const d = document.querySelector('.poem-foot .link-btn');
         return {
-          imaSlovo: !!s, rec: s ? s.dataset.w : null,
+          imaSlovo: !!s,
+          /* Ne sme da bude dugme: bez `data-w`, bez naslova koji obećava klik,
+             bez pokazivača miša. */
+          jeDugme: !!(s && (s.dataset.w || s.title || getComputedStyle(s).cursor === 'pointer')),
           slovo: s ? Math.round(s.getBoundingClientRect().height) : 0,
           slovoSirina: s ? Math.round(s.getBoundingClientRect().width) : 0,
           dugme: d ? Math.round(d.getBoundingClientRect().height) : 0,
@@ -3489,15 +3497,16 @@ async function main() {
         ).map(t => t.textContent));
       ok('/klasici/ · nijedan stih se ne lomi u dva reda na telefonu',
          g30l.length === 0, `lome se: ${g30l.slice(0, 3).join(' / ')}`);
-      if (g30.imaSlovo) {
-        await p30.evaluate(() => document.querySelector('.vrhyme[data-w]').click());
-        await pauza(1500);
-        const url = p30.url();
-        ok('/klasici/ · klik na slovo šeme rime zaista vodi na rime (nije mrtvo dugme)',
-           url.includes('rec=' + encodeURIComponent(g30.rec)), url);
-      } else {
-        ok('/klasici/ · strana ima stihove sa slovom šeme rime', false, 'nijedan .vrhyme[data-w]');
-      }
+      ok('/klasici/ · strana ima stihove sa slovom šeme rime', g30.imaSlovo === true,
+         'nijedan .vrhyme');
+      ok('/klasici/ · slovo šeme rime NIJE dugme (odluka vlasnice 27.08.2026)',
+         g30.jeDugme === false, 'slovo se i dalje ponaša kao dugme');
+      /* Uputstvo ne sme da obećava klik — to je bio nalaz E: tekst je govorio
+         „klikni na završnu reč", a klikalo se slovo. */
+      const uput = await p30.evaluate(() =>
+        [...document.querySelectorAll('.hint')].map(e => e.textContent).join(' '));
+      ok('/klasici/ · uputstvo ne obećava klik na reč',
+         !/[Kk]likni/.test(uput), uput.slice(0, 120));
 
       await ctx30.close();
     }

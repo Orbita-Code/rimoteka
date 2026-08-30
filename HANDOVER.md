@@ -4,6 +4,127 @@
 
 ---
 
+# Sesija 20–30. avgust 2026 (devetnaesta) — pun audit, K1/K2/V5/V1/M12 zatvoreni, analitika očišćena, sinonimi krenuli
+
+> Duga sesija sa **šest objava**. Sve je provereno pre i posle svake, i sve je uživo.
+> Test podignut sa **564 na 666 provera**.
+
+## 1. PUN AUDIT (20.08.) — ocena 6,2/10, bila 8,4
+
+`AUDIT/2026-08-20-audit.md`. Šest nezavisnih revizora + moja merenja.
+Ocena je pala jer je audit **prvi put merio nešto novo**: da li strane daju isto što
+i alat. Nisu davale.
+
+## 2. ŠTA JE ZATVORENO, redom objava
+
+| # | Commit | Šta |
+|---|---|---|
+| 1 | `d1292041c` + merge `674a5c007` | **K1** redosled rima, **K2** adrese za Gugla, **V5** verzije podataka |
+| 2 | `2590b3223` + merge `bb5bee5f9` | naslovi po upitima, `/recnik-srpskog-jezika/` → `/rime-po-zavrsetku/`, sopstveni promet |
+| 3 | `8b37d431f` | 301 preusmerenje (**zasebno**, jer dira `nginx.conf`) |
+| 4 | `0c1d2acb3` | **M12** beli okvir u tamnoj temi (otvoren mesec dana) |
+| 5 | `ee763b804` | klasici bez klika, tekst igre, futer, brojač slogova |
+| 6 | `0d9b1092e` | **V1** naslovi 1.994 strane reči |
+
+### K1 — redosled rima (najveći nalaz)
+Statičke strane su ređale rime **azbučno**, alat **po učestalosti**. Uz to je u alatu
+pretraga iz `?rec=` kretala pre nego što `loadExtras()` prepiše `RANK`. Izmereno:
+96,4% strana drugačiji redosled, 51% nije prikazivalo rime koje alat daje,
+**11.369 izgubljenih reči**. Zatvorio i bag „čeka" otvoren od 31.07.
+Popravka: `load_rank()` u `gen_pages.py` (ista formula kao `app.js:455`, iz **istih
+fajlova koje učitava pregledač**) + tiho ponovno iscrtavanje na kraju `loadExtras()`.
+
+### K2 — adrese za Gugla
+Sajt je nudio **98.115** jedinstvenih `?rec=` adresa (sitemap ima 2.017), a server je
+na svaku vraćao bajt-identičan HTML. Sada: reč bez svoje strane je **dugme**, ne link
+→ **13** adresa. Uz to `noindex` za sve što nije reč iz rečnika, plus `og:` oznake i
+`h1` koji prate reč.
+⚠️ **Merilo za `noindex` je REČNIK, ne broj rima** — `xqzwptr` nije reč, ali se
+završava na `-rv` pa ima pet rima.
+
+### V1 — naslovi strana reči
+Bilo: „Rime za reč „ljubav": 180 reči koje se rimuju | Rimoteka rečnik rima" (68 znakova,
+**1.739 od 1.994 preko granice**). Sada: **„Šta se rimuje sa „ljubav"? | Rimoteka — alat
+za rimovanje"** (57, najduži 65, **nijedan preko**).
+Zašto to pitanje: upit `sta se rimuje sa` ima **125 prikaza, 2 klika (1,6 %)** na
+poziciji 4,5 — već rangiramo, a niko ne ulazi.
+Padež rešavaju **navodnici** (citat ostaje u nominativu), ne više umetnuta reč „reč".
+Opis sada **odgovara** na pitanje umesto da ga ponavlja.
+
+## 3. ANALITIKA — sopstveni promet je bio 20 % korisnika
+
+Vlasnica je pitala za 198 poseta iz Barselone. **Bile su moje**: test otvara 34 sveža
+konteksta po prolazu = 34 „nova korisnika". Izmereno: Barselona 206 korisnika, 203
+nova, **12 s** zadržavanja; Beograd 496 i **2 min 56 s**.
+
+- `test/bez-analitike.mjs` — presreće zahteve ka Google-u, kači se na `newContext` i
+  `newPage` **jednom, na browseru**. ⚠️ NE blokirati preko DNS-a: pravi
+  `ERR_CONNECTION_REFUSED` i obara pet provera „nula grešaka u konzoli".
+- `ga-init.js` — `rimoteka.com/?interno=1` gasi merenje na tom uređaju trajno,
+  `?interno=0` vraća. **Vlasnica je to uradila na telefonu 28.08.**
+- **Čisto je tek od 28.08.2026.** GA4 ne briše unazad.
+- Prava publika za 28 dana: **oko 950 novih ljudi**, ne 1.194.
+
+## 4. SINONIMI — u toku, NIJE ZAVRŠENO
+
+**Stanje:** `public/sinonimi.json` ima **17 reči** (bilo 2). Sve su pregledane sa
+vlasnicom, reč po reč, uz proveru u Matici. Zapis: `AUDIT/sinonimi-odluke.md`.
+
+**Kandidati za nastavak:** `AUDIT/sinonimi/spojeno-za-pregled.json` — **812 reči,
+11.509 sinonima, 14,2 po reči**. Spojena tri izvora, ovim redom prvenstva:
+1. **odluke vlasnice** (uvek prve, zaobilaze sva sita),
+2. **Vikirečnik** (`sr.wiktionary.org`, **CC BY-SA 4.0 — smemo**, uz navođenje izvora
+   i istu licencu za nastali fajl). Pokrivenost 53 % naših reči, 8,4 po reči.
+3. **Ćosić** (`~/Literatura/Pavle_Cosic_Recnik_Sinonima.pdf`) — dodao 4.986 sinonima
+   kojih Vikirečnik nema.
+
+**Redosled pregleda:** `AUDIT/sinonimi/redosled-pregleda.json` — najkorišćenije reči
+prve. **Stiglo se do 18. reči.** Vlasnica traži grupe od po ~18, javlja šta da se izbaci.
+
+⚠️ **Greške koje mašina NE VIDI, traže njeno oko:** `rad → radnik` (to je čovek),
+`voda → more, reka, jezero` (vrste vode, ne sinonimi), `pitanje → pita, piton`
+(greška Vikirečnika).
+
+## 5. PRAVILA KOJA SU UVEDENA U OVOJ SESIJI
+
+| Gde | Šta |
+|---|---|
+| `~/.claude/ANALITIKA-GA4-I-SEARCH-CONSOLE.md` | **nov dokument**, udžbenik analitike za sve projekte; čita se pre svakog rada sa podacima o poseti |
+| `~/.claude/CLAUDE.md` → „TUĐI REČNICI I IZVORI" | redosled se **uvek menja**, objašnjenja se **nikad ne prepisuju**, licenca se proverava **pre** upotrebe |
+| `~/.claude/TESTING.md` | dva sistema se **porede**; podatak koji stigne kasnije menja iscrtano; komentar nije dokaz; uslov „vredno indeksiranja" se veže za izvor istine |
+| `AUDIT/PROPUSTI.md` | pravila **18–23** |
+| memorija | pet novih zapisa, v. `MEMORY.md` |
+
+## 6. ŠTA SLEDEĆA SESIJA TREBA DA ZNA ODMAH
+
+1. **Nastavi pregled sinonima od 19. reči** (`AUDIT/sinonimi/redosled-pregleda.json`).
+   Grupe od ~18, u razgovoru — **ne kroz objavljenu stranu, ona joj ne otvara**.
+2. **Njene odluke se unose u svaki nov spisak PRE nego što joj se pokaže.**
+   29.08. sam napravio nov spisak i izgubio 52 već rešene reči — odmah je primetila.
+3. **Sito se prvo pusti na poznato tačne reči.** Filter kroz `build/sadrzajne.json`
+   je izbacio `dakle`, `rintanje` i `potaman` — dve je ona lično odobrila.
+4. **Ime strane, naslov za Gugla i adresa idu njoj na potvrdu PRE koda.** Dva puta u
+   istom danu sam upisao pa ona odbila (naslov početne, `/reci-po-slovima/`).
+5. **Odgovori kratko**, 4–5 rečenica. 25.08. je izričito tražila: „previše pišeš, ne
+   mogu sve da stignem da pročitam".
+
+## 7. OTVORENO POSLE OVE SESIJE
+
+**15 nalaza, nijedan kritičan.** `AUDIT/NALAZI-OTVORENI.md`.
+Najvažnije: **HSTS** (ide sam, kao i preusmerenje) · **4.119 reči ima gotovo
+objašnjenje a nema ih ni u jednom rečniku** · „preskoči na sadržaj" · dodirni ciljevi 44 px.
+
+**Merenje zakazano za 8.09.2026** — tada se vidi da li su naslovi pomogli:
+
+| Šta | Sada | Cilj | Ako ne uspe |
+|---|---|---|---|
+| CTR početne | 2,5 % | preko 4 % | ispod 3 % → vratiti stari naslov |
+| Upit `rime` | 0 klikova | bar 10 | vratiti stari naslov |
+| Upit `sta se rimuje sa` | 1,6 % | preko 4 % | preispitati formulaciju |
+| „Otkrivena, nije obrađena" | 1.181 strana | da pada | — |
+
+---
+
 # Sesija 20. avgust 2026 (osamnaesta) — pune liste rima OBJAVLJENE + kuracija sinonima
 
 ## Šta je urađeno

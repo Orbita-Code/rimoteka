@@ -6,7 +6,13 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
-## POPRAVLJENO 07.09.2026 (posle audita) — čeka objavu na grani `fix/audit-0709-odmah`
+## POPRAVLJENO 07.09.2026 (kasno veče) — prijave sa „internog" uređaja su nestajale
+
+Prijava vlasnice: muž poslao dve prijave sa računara označenog `?interno=1`, ništa nije stiglo. Uzrok:
+isti prekidač gasio analitiku I slao prijave kao probu. Sada: proba samo preko `rimoteka_proba` (test).
+Provera: sekcija 46 (a2). Grana `fix/prijava-interno`.
+
+## POPRAVLJENO 07.09.2026 (posle audita) — objavljeno
 
 | Nalaz | Popravka | Provera |
 |---|---|---|

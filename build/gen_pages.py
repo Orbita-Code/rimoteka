@@ -457,7 +457,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260907a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260907b"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —

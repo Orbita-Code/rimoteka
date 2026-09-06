@@ -16,6 +16,7 @@ import { chromium } from '/opt/homebrew/lib/node_modules/playwright/index.mjs';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import path from 'node:path';
+import { umotaj } from './bez-analitike.mjs';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const PORT = 8799;
@@ -69,25 +70,10 @@ async function main() {
      Presretanje se kači na SVAKI kontekst, tako što se `newContext` i `newPage`
      umotaju jednom, ovde. Da se kači ručno, promašio bi se prvi sledeći kontekst
      koji neko doda. Zaglavlje `x-blokirano-u-testu` je dokaz za sekciju 43. */
-  {
-    const OBRAZAC = /googletagmanager\.com|google-analytics\.com|analytics\.google\.com/;
-    async function blokiraj(ctx) {
-      await ctx.route(OBRAZAC, r => r.fulfill({
-        status: 200,
-        headers: { 'content-type': 'application/javascript', 'x-blokirano-u-testu': '1' },
-        body: ''
-      }));
-      return ctx;
-    }
-    const _nc = browser.newContext.bind(browser);
-    browser.newContext = async (...a) => blokiraj(await _nc(...a));
-    const _np = browser.newPage.bind(browser);
-    browser.newPage = async (...a) => {
-      const p = await _np(...a);
-      await blokiraj(p.context());
-      return p;
-    };
-  }
+  /* Omotač je ZAJEDNIČKI modul `test/bez-analitike.mjs` (od 07.09.2026). Do tada je ovde stajala
+     kopija — pa izmene u modulu (unapred prihvaćeni kolačići, ključ probe za prijave) nisu ulazile
+     u pravi test, a tri probne prijave su 07.09. otišle u pravo sanduče. Jedno mesto, ne dva. */
+  umotaj(browser);
 
   /* SVAKA NOVA STRANA: izdašan rok + PONAVLJANJE NAVIGACIJE.
      Test otvara preko trideset zasebnih strana, svaku sa svojim praznim kešom.
@@ -5147,7 +5133,9 @@ async function main() {
         });
         const pz = ojacajStranu(await cz.newPage());
         await pz.goto(BASE + '/?interno=1', { waitUntil: 'domcontentloaded' });
-        await pauza(2500);
+        /* Čeka se STANJE (rečnik u memoriji), ne fiksno 2,5 s — na produkciji pod opterećenjem
+           rečnik od 2,7 MB stiže i posle 3 s (pao 07.09.2026 kao trka). */
+        await pz.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0, null, { timeout: 60000 }).catch(() => {});
         const zivo = await pz.evaluate(() => ({
           reci: (typeof WORDS !== 'undefined' ? WORDS.length : 0),
           gtag: typeof window.gtag === 'function'
@@ -5391,6 +5379,16 @@ async function main() {
       await p46.waitForSelector('.prijava', { state: 'detached', timeout: 5000 }).catch(() => {});
       ok('telefon · prozorčić se sam zatvara posle „Hvala"', await p46.evaluate(() => !document.querySelector('.prijava')), 'još stoji');
       await c46.close();
+      // (a2) uređaj označen SAMO sa `?interno=1` (analitika ugašena) mora da šalje PRAVU prijavu, ne probu
+      //      (07.09.2026: prijave vlasnice i njenog muža su nestajale). Zahtev se presreće — ništa se ne čuva.
+      const c46i = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c46i.addInitScript(() => { try { localStorage.removeItem('rimoteka_proba'); localStorage.setItem('rimoteka_interno', '1'); } catch (e) {} });
+      const p46i = ojacajStranu(await c46i.newPage()); let teloInterno = null;
+      await p46i.route(SANDUCE, r => { teloInterno = r.request().postDataJSON(); r.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' }); });
+      await p46i.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' }); await p46i.waitForSelector('#rimeResults .chip', { timeout: 20000 }); await pauza(800);
+      await p46i.locator('#rimeResults .chip').first().hover(); await pauza(500); await p46i.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300); await p46i.click('.prijava-posalji'); await pauza(1000);
+      ok('interno · uređaj označen samo za analitiku šalje PRAVU prijavu (proba:false), ne probu', !!teloInterno && teloInterno.proba === false, JSON.stringify(teloInterno));
+      await c46i.close();
 
       // (b) računar: dugme u prozorčiću sa značenjem, prozorčić pored reči
       const c46b = await browser.newContext({ viewport: { width: 1280, height: 800 } });
@@ -5571,7 +5569,11 @@ async function main() {
       const p49 = ojacajStranu(await c49.newPage());
       await p49.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await p49.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 });
-      await pauza(500);
+      /* Kad stigne učestalost (`loadExtras`, na produkciji i 1–3 s posle rezultata), rezultati se
+         TIHO PONOVO ISCRTAJU — kapsula na kojoj je fokus nestane iz DOM-a i traka se izgubi. Zato se
+         pre rada tastaturom čeka da učestalost stigne (pao na produkciji 07.09.2026 kao trka). */
+      await p49.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
+      await pauza(800);
       // A1
       await p49.focus('#rimeResults .chip .word'); await pauza(250); await p49.keyboard.press('Tab');
       const a1 = await p49.evaluate(() => ({ el: document.activeElement.className, act: document.activeElement.dataset.act }));

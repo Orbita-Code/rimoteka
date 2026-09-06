@@ -70,7 +70,8 @@ async function pregled(request, env) {
   const sve = [];
   for (const k of lista.keys) { const v = await env.PRIJAVE.get(k.name); if (v) { const z = JSON.parse(v); z.id = k.name; if (!posle || z.kad > posle) sve.push(z); } }
   sve.sort((a, b) => (a.kad < b.kad ? 1 : -1));
-  const ukupno = (await env.PRIJAVE.get('broj:ukupno')) || '0';
+  /* „Ukupno“ je broj STVARNO sačuvanih prijava (brojač u KV je posle brisanja neprecizan). */
+  const ukupno = String(posle ? Number((await env.PRIJAVE.get('broj:ukupno')) || '0') : sve.length);
   if (url.searchParams.get('format') === 'json') return json({ ukupno: Number(ukupno), prijave: sve });
   const red = z => `<tr><td>${esc(z.kad.slice(0, 16).replace('T', ' '))}</td><td><b>${esc(z.rec)}</b>${z.slogova != null ? ` <small>(${z.slogova})</small>` : ''}</td><td>${esc(z.upit)}</td><td>${esc(NAZIV[z.razlog] || z.razlog)}</td><td>${esc(z.napomena)}</td><td><small>${esc(citljivaAdresa(z.strana))} · ${esc(z.uredjaj)}</small></td></tr>`;
   const html = `<!doctype html><html lang="sr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
@@ -90,6 +91,14 @@ export default {
     if (request.method === 'POST' && url.pathname === '/prijava') return primi(request, env);
     if (request.method === 'GET' && url.pathname === '/prijave') return pregled(request, env);
     if (request.method === 'GET' && url.pathname === '/zdravlje') return json({ ok: true });
+    /* Brisanje jedne prijave (samo sa ključem) — za probne zapise koji su omaškom ušli (07.09.2026). */
+    if (request.method === 'POST' && url.pathname === '/obrisi') {
+      if (!env.KLJUC || url.searchParams.get('kljuc') !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+      const id = url.searchParams.get('id') || '';
+      if (!/^prijava:\d+:[a-z0-9]+$/.test(id)) return json({ ok: false, greska: 'id' }, 400);
+      await env.PRIJAVE.delete(id);
+      return json({ ok: true, obrisano: id });
+    }
     return new Response('Rimoteka — sanduče za prijave grešaka.', { status: 404, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
   }
 };

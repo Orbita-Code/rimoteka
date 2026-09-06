@@ -621,7 +621,7 @@ prijavu u Cloudflare worker **`worker/prijave.js`** → `https://rimoteka-prijav
 | objava sanduča | `cd worker && npx wrangler deploy` (wrangler prijavljen kao vlasnica) |
 | ključ za pregled | `~/.config/rimoteka/prijave-kljuc.json` — **nikad u repo**; secret `KLJUC` na workeru |
 | pregled prijava | `/prijave?kljuc=…` (HTML) ili `&format=json` (`&posle=<ISO>` za nove) |
-| režim probe | uređaj sa `rimoteka_interno=1` (`?interno=1`) šalje `proba:true` → sanduče proveri, ne čuva |
+| režim probe | **samo test**, preko `localStorage.rimoteka_proba=1` (postavlja `test/bez-analitike.mjs`) → sanduče proveri, ne čuva. `?interno=1` gasi SAMO analitiku (od 07.09.2026 — pre toga je gutao i prijave) |
 | CSP | adresa sanduča mora biti u `connect-src` (`nginx.conf`) — bez toga pregledač ćutke odbije slanje |
 | test | sekcija 46 — pada ako CSP, dugme, prozorčić ili sanduče ne rade |
 

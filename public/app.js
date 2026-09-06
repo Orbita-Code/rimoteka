@@ -5204,9 +5204,10 @@ async function posaljiPrijavu(rec, upit, slog, box){
     napomena: (box.querySelector('.prijava-napomena').value || '').trim().slice(0, 500),
     strana: location.pathname + (upit ? '?rec=' + encodeURIComponent(upit) : ''),
     mejl: box.querySelector('.prijava-mejl').value || '',
-    /* Uređaj označen sa `?interno=1` (vlasnica, test) šalje PROBU: sanduče sve
-       proveri, a ne zapiše ništa — da test ne puni sanduče lažnim prijavama. */
-    proba: lsGet('rimoteka_interno') === '1',
+    /* PROBU (sanduče proveri, ne zapiše) šalje SAMO test, preko `rimoteka_proba`. Do 07.09.2026.
+       je to radio i `rimoteka_interno` — pa su prijave vlasnice i njenog muža sa uređaja
+       označenih za analitiku (`?interno=1`) tiho nestajale. „Interno" gasi samo merenje posete. */
+    proba: lsGet('rimoteka_proba') === '1',
   };
   try{
     const r = await fetch(PRIJAVA_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(telo), keepalive: true });

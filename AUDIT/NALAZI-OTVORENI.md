@@ -6,6 +6,21 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## POPRAVLJENO 07.09.2026 (posle audita) — čeka objavu na grani `fix/audit-0709-odmah`
+
+| Nalaz | Popravka | Provera |
+|---|---|---|
+| **A1** traka nedostupna tastaturom, fokus pada na body | Tab/strelice sa reči ulaze u traku, strelice kroz dugmad, Tab sa poslednjeg → sledeća reč, Escape/radnja vraćaju fokus na reč; `role=toolbar` + `aria-label`; prijava `aria-modal`, fokus nazad na reč | test 49 |
+| **A2** tajmer prve prijave zatvara drugu | tajmer zatvara samo svoj prozorčić | test 49 |
+| **A3** 320 px: traka preliva; ćirilica širi stranu | `.ca-btn` elastični ispod 360 px; legenda se prelama; `.kbd-help` bez preliva | test 49 (lat + ćir) |
+| **S-01** traka posle nove pretrage | `doRhymes` zatvara traku, traka čeka pravi pokret miša | test 49 |
+| **S-02** filter „2" > „sve" | rezerva „isti završni slog" po svim pravim rimama, ne po filtriranim | test 49 („sunce") |
+| **S-05** reč u kapsuli bez escapovanja | `escapeHtml` na 5 mesta + omiljene samo slova | test 49 |
+| **S-14** „Hvala" bez aria-live | `role=status` | — |
+| **N-07** mobilna legenda bez „kopiraj" | dopunjena | — |
+| **V3** HSTS · **S1/S-07** zaglavlja na `/sw.js` · **N-12** verzija servera · **S-21** keš podataka | `nginx.conf` (zaseban deploy), `nginx-provera.sh` sekcija 5 | nginx-provera 0 |
+| **Pokrivenost**: 3 od 1.991 strane | test 50: svih 2.014 strana iz fajlova (h1, kanonikal, JSON-LD, ≥8 rima, bez `?rec=`, verzija) + 30 nasumičnih na produkciji | test 50 |
+
 ## STANJE NA DAN 07.09.2026 — pun audit, ocena 7,3/10 (bilo 6,2 na dan 20.08.)
 
 Pun izveštaj: `AUDIT/2026-09-06-audit.md`. Pokrivenost 10/12 dimenzija. Test 717/717 na produkciji.

@@ -5558,6 +5558,123 @@ async function main() {
       console.log('  (preskočeno na produkciji — mapa otisaka je u build/, ne na sajtu)');
     }
 
+    console.log('\n49) POPRAVKE IZ AUDITA 07.09. — tastatura u traci, tajmer prijave, 320 px, filter, omiljene');
+    {
+      /* Šest nalaza audita 06–07.09.2026 (A1, A2, A3, S-01, S-02, S-05). Svaka provera je
+         napisana da PADNE na kodu od 06.09. (proverena ručno pre popravke):
+         A1 — Tab sa reči nikad nije ulazio u traku (400 Tab-ova nije bilo dovoljno);
+         A2 — tajmer prve prijave zatvarao je drugu; A3 — traka 8→327 na 320 px, ćirilica 344;
+         S-01 — traka ostajala otvorena posle nove pretrage; S-02 — „sunce" sve 9, filter „2" 95;
+         S-05 — `<img onerror>` iz omiljenih ulazio u DOM. */
+      const c49 = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c49.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+      const p49 = ojacajStranu(await c49.newPage());
+      await p49.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+      await p49.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 });
+      await pauza(500);
+      // A1
+      await p49.focus('#rimeResults .chip .word'); await pauza(250); await p49.keyboard.press('Tab');
+      const a1 = await p49.evaluate(() => ({ el: document.activeElement.className, act: document.activeElement.dataset.act }));
+      ok('tastatura · Tab sa fokusirane reči ulazi u traku (prvo dugme)', a1.el === 'ca-btn' && a1.act === 'def', JSON.stringify(a1));
+      await p49.keyboard.press('ArrowRight');
+      ok('tastatura · strelica desno ide na sledeće dugme trake', (await p49.evaluate(() => document.activeElement.dataset.act)) === 'fav');
+      await p49.keyboard.press('Escape');
+      const a1b = await p49.evaluate(() => ({ el: document.activeElement.className, traka: !document.querySelector('.chip-actions') || document.querySelector('.chip-actions').hidden, ime: (document.querySelector('.chip-actions') || {}).getAttribute?.('aria-label') || '' }));
+      ok('tastatura · Escape zatvara traku i vraća fokus na reč (ne na body)', a1b.el === 'word' && a1b.traka === true, JSON.stringify(a1b));
+      ok('tastatura · traka ima ime za čitač ekrana („radnje za reč …")', /radnje za reč/i.test(a1b.ime), a1b.ime);
+      // posle Escape-a: Tab → sledeća reč (otvara njenu traku) → Tab → prvo dugme → još 4 → „prijavi" → Tab → sledeća reč
+      await p49.keyboard.press('Tab');
+      ok('tastatura · Tab sa reči (traka zatvorena) ide na sledeću reč', (await p49.evaluate(() => document.activeElement.className)) === 'word', await p49.evaluate(() => document.activeElement.className));
+      for (let i = 0; i < 5; i++) await p49.keyboard.press('Tab');
+      ok('tastatura · pet Tab-ova prolazi svih pet dugmadi trake (poslednje je „prijavi")', (await p49.evaluate(() => document.activeElement.dataset.act)) === 'prijavi', await p49.evaluate(() => document.activeElement.dataset.act || document.activeElement.className));
+      await p49.keyboard.press('Tab');
+      ok('tastatura · Tab sa poslednjeg dugmeta ide na sledeću reč, ne na dno strane', (await p49.evaluate(() => document.activeElement.className)) === 'word', await p49.evaluate(() => document.activeElement.className));
+      // A2
+      await p49.mouse.move(5, 5); await p49.locator('#rimeResults .chip').nth(0).hover(); await pauza(400);
+      await p49.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(200); await p49.click('.prijava-posalji');
+      await p49.waitForSelector('.prijava.hvala', { timeout: 8000 }).catch(() => {});
+      await p49.mouse.move(5, 5); await pauza(300); await p49.locator('#rimeResults .chip').nth(3).hover(); await pauza(500);
+      await p49.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(3300);
+      ok('prijava · druga prijava otvorena odmah posle prve NE nestaje zbog tajmera prve', await p49.evaluate(() => !!document.querySelector('.prijava:not(.hvala)')));
+      await p49.keyboard.press('Escape');
+      ok('prijava · posle zatvaranja fokus je na reči, ne na body', (await p49.evaluate(() => document.activeElement.className)) === 'word', await p49.evaluate(() => document.activeElement.tagName + '.' + document.activeElement.className));
+      // S-01
+      await p49.locator('#rimeResults .chip').nth(1).hover(); await pauza(400);
+      await p49.fill('#rimeInput', 'srce'); await p49.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(400);
+      ok('traka · nova pretraga zatvara traku nad reči (i ne otvara je dok se miš ne pomeri)', await p49.evaluate(() => { const t = document.querySelector('.chip-actions'); return !t || t.hidden; }));
+      // S-02
+      await p49.fill('#rimeInput', 'sunce'); await p49.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(800);
+      const sve = await p49.locator('#rimeResults .chip').count(); await p49.click('#rimeSyl button[data-syl="2"]'); await pauza(500); const dva = await p49.locator('#rimeResults .chip').count();
+      ok('filter · „2 sloga" nikad ne daje VIŠE rima nego „sve" („sunce")', sve > 0 && dva <= sve, `sve ${sve}, filter 2 ${dva}`);
+      await c49.close();
+      // S-05
+      const c49b = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c49b.addInitScript(() => { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_favorites', JSON.stringify(['<img src=x onerror=alert(1)>', 'ljubav'])); });
+      const p49b = ojacajStranu(await c49b.newPage()); let dijaloga = 0; p49b.on('dialog', d => { dijaloga++; d.dismiss(); });
+      await p49b.goto(BASE + '/?tab=omiljene', { waitUntil: 'domcontentloaded' }); await pauza(1200);
+      const s05 = await p49b.evaluate(() => ({ img: document.querySelectorAll('#favResults img, #rimeResults img').length, omiljenih: document.querySelectorAll('#favResults .chip').length }));
+      ok('omiljene · zloban zapis iz localStorage-a ne ulazi u DOM (escapeHtml + samo slova)', s05.img === 0 && s05.omiljenih === 1 && dijaloga === 0, JSON.stringify(s05));
+      await c49b.close();
+      // A3 — 320 px, latinica i ćirilica
+      for (const cyr of [false, true]) {
+        const c = await browser.newContext({ viewport: { width: 320, height: 780 }, isMobile: true, hasTouch: true });
+        await c.addInitScript(([cyr]) => { localStorage.setItem('rimoteka_interno', '1'); if (cyr) localStorage.setItem('rimoteka_script', 'cyr'); }, [cyr]);
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1200);
+        const pre = await p.evaluate(() => document.documentElement.scrollWidth);
+        await p.fill('#rimeInput', 'ljubav'); await p.evaluate(() => document.getElementById('rimeBtn').click());
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 }); await pauza(500);
+        const cip = p.locator('#rimeResults .chip').nth(2); await cip.scrollIntoViewIfNeeded(); await cip.tap(); await pauza(400);
+        const m = await p.evaluate(() => { const r = document.querySelector('.chip-actions').getBoundingClientRect(); return { levo: Math.round(r.left), desno: Math.round(r.right), sw: document.documentElement.scrollWidth, iw: innerWidth }; });
+        const ime = cyr ? 'ćirilica' : 'latinica';
+        ok(`320 px ${ime} · strana ne preliva pre ni posle pretrage`, pre === 320 && m.sw === 320 && m.iw === 320, `pre ${pre}, posle ${m.sw}, innerWidth ${m.iw}`);
+        ok(`320 px ${ime} · traka nad reči cela u ekranu`, m.levo >= 0 && m.desno <= 320, `${m.levo}→${m.desno}`);
+        await c.close();
+      }
+    }
+
+    console.log('\n50) SVE STRANE — brza provera svih strana iz sitemapa (fajlovi), i uzorak na sajtu');
+    {
+      /* Audit 07.09.: test je u pregledaču otvarao 3 od 1.991 strane reči. Ovo NE otvara
+         pregledač (to bi trajalo sat): čita svaki generisani fajl i proverava ono što se
+         u fajlu vidi — tačno jedan h1, kanonikal = adresa iz sitemapa, JSON-LD validan,
+         bar 8 rima u HTML-u, bez `?rec=` linkova (K2), verzija app.js ista kao na početnoj.
+         Na produkciji: nasumičan uzorak od 30 adresa iz sitemapa mora da vrati 200 sa h1. */
+      const fs = await import('node:fs');
+      const sm = LOKALNO ? fs.readFileSync(path.join(ROOT, 'public', 'sitemap.xml'), 'utf8') : await (await fetch(BASE + '/sitemap.xml')).text();
+      const adrese = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+      ok('sitemap ima bar 1.900 adresa', adrese.length >= 1900, `${adrese.length}`);
+      if (LOKALNO) {
+        const verzija = (fs.readFileSync(path.join(ROOT, 'public', 'index.html'), 'utf8').match(/app\.js\?v=([0-9a-z]+)/) || [])[1];
+        const lose = { fajl: [], h1: [], kanon: [], jsonld: [], malo: [], rec: [], verzija: [] };
+        let rimeStrana = 0;
+        for (const u of adrese) {
+          const rel = u.replace('https://rimoteka.com', '').replace(/\/$/, '');
+          const f = path.join(ROOT, 'public', rel, 'index.html');
+          if (!fs.existsSync(f)) { lose.fajl.push(u); continue; }
+          const h = fs.readFileSync(f, 'utf8');
+          if ((h.match(/<h1[\s>]/g) || []).length !== 1) lose.h1.push(u);
+          const kan = (h.match(/<link rel="canonical" href="([^"]+)"/) || [])[1];
+          if (kan !== u) lose.kanon.push(u);
+          for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { lose.jsonld.push(u); break; } }
+          if (/\/rime-za\/[^/]+\/$/.test(u)) { rimeStrana++; const n = (h.match(/class="chip chip-btn"|class="chip"/g) || []).length; if (n < 8) lose.malo.push(u + ` (${n})`); if (/href="\/\?rec=/.test(h)) lose.rec.push(u); }
+          if (!h.includes(`app.js?v=${verzija}`)) lose.verzija.push(u);
+        }
+        ok(`sve strane · svaka adresa iz sitemapa ima fajl (${adrese.length})`, lose.fajl.length === 0, lose.fajl.slice(0, 3).join(', '));
+        ok('sve strane · tačno jedan h1 na svakoj', lose.h1.length === 0, `${lose.h1.length}: ${lose.h1.slice(0, 3).join(', ')}`);
+        ok('sve strane · kanonikal = adresa iz sitemapa na svakoj', lose.kanon.length === 0, `${lose.kanon.length}: ${lose.kanon.slice(0, 3).join(', ')}`);
+        ok('sve strane · JSON-LD validan na svakoj', lose.jsonld.length === 0, `${lose.jsonld.length}: ${lose.jsonld.slice(0, 3).join(', ')}`);
+        ok(`sve strane · svaka strana reči (${rimeStrana}) ima bar 8 rima u HTML-u`, lose.malo.length === 0, `${lose.malo.length}: ${lose.malo.slice(0, 5).join(', ')}`);
+        ok('sve strane · nijedna strana reči ne linkuje `/?rec=` (K2)', lose.rec.length === 0, `${lose.rec.length}: ${lose.rec.slice(0, 3).join(', ')}`);
+        ok('sve strane · sve nose istu verziju app.js kao početna', lose.verzija.length === 0, `${lose.verzija.length}: ${lose.verzija.slice(0, 3).join(', ')}`);
+      } else {
+        const uzorak = []; const kopija = adrese.slice(); for (let i = 0; i < 30 && kopija.length; i++) uzorak.push(kopija.splice(Math.floor(Math.random() * kopija.length), 1)[0]);
+        const pali = [];
+        for (const u of uzorak) { try { const r = await fetch(u, { redirect: 'manual' }); const h = r.status === 200 ? await r.text() : ''; if (r.status !== 200 || !/<h1[\s>]/.test(h)) pali.push(`${u} → ${r.status}`); } catch (e) { pali.push(`${u} → ${e.message}`); } }
+        ok('produkcija · 30 nasumičnih adresa iz sitemapa vraća 200 sa h1', pali.length === 0, pali.slice(0, 5).join(' | '));
+      }
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

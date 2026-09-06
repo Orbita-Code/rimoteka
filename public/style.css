@@ -2897,6 +2897,21 @@ body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
 .chip .mini{display:none}
 .chip.chip-izabran{box-shadow:0 0 0 2px var(--lavender-deep) inset,var(--shadow-sm)}
 
+/* 320 px: traka nad reči mora cela u ekran (nalaz A3, 07.09.2026 — bilo 8→327 na 320). */
+.chip-actions{max-width:calc(100vw - 16px);box-sizing:border-box}
+@media(max-width:360px){
+  .ca-btn{min-width:0;flex:1 1 0;padding:.25rem .1rem}
+  .ca-btn .ca-txt{font-size:.6rem}
+  .chip-actions{gap:.05rem}
+}
+/* Legenda iznad rezultata sme da se prelama — ćirilični tekst na 320 px širio je stranu na 344 px. */
+.res-legend{flex-wrap:wrap}
+.res-legend .legend-item,.res-legend .legend-tap{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+/* Pomoć za tastaturu ne sme da širi stranu (ćirilica na 320 px davala je 345 px). */
+.kbd-help{max-width:min(940px,100%);box-sizing:border-box}
+.kbd-help details,.kbd-help summary,.kbd-help p,.kbd-help li{overflow-wrap:anywhere;min-width:0}
+.kbd-help kbd{white-space:normal}
+
 /* ====================== PRIJAVA GREŠKE (06.09.2026) ====================== */
 .ca-btn.ca-prijavi .ca-ic{color:var(--muted)}
 .chip .mini.prijavi svg{width:15px;height:15px;display:block}

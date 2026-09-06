@@ -169,7 +169,7 @@ const DEFS = new Map();  // ručno pisana srpska objašnjenja (Rimoteka)
 let includeJek = lsGet('rimoteka_jekavica') === '1';
 let script = lsGet('rimoteka_script') || 'lat';
 /* Pokvaren zapis ovde je 28.07.2026. obarao ceo sajt na 0 rima (nalaz K5). */
-let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'string');
+let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'string' && /^[\p{L}\-]{1,60}$/u.test(w));   // samo slova (nalaz S-05)
 
 const VOWELS = new Set(['a','e','i','o','u']);
 
@@ -539,14 +539,17 @@ function makeChip(word){
   el.dataset.w = word;
   const syl = syllables(word);
   el.innerHTML =
-    `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${disp(word)}</span>` +
+    /* Reč ide u HTML escapovana (nalaz S-05, audit 07.09.2026): rime iz rečnika su naše,
+       ali omiljene dolaze iz localStorage-a — `<img onerror>` je ulazio u DOM (CSP ga je
+       zaustavio, ali to je mreža, ne brava). */
+    `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${escapeHtml(disp(word))}</span>` +
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
-    `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${disp(word)}">ⓘ</button>` +
-    `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${disp(word)}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
-    `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>` +
+    `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${escapeHtml(disp(word))}">ⓘ</button>` +
+    `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${escapeHtml(disp(word))}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
+    `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${escapeHtml(disp(word))}">🔁</button>` +
     /* Zastavica = „prijavi grešku" (odluka vlasnice 06.09.2026: ikonica uz reč, kao i
        ostale tri, ne u prozorčiću značenja). Na telefonu isto radi peto dugme trake. */
-    `<button class="mini prijavi" title="${uiTxt('prijavi grešku za ovu reč')}" aria-label="${uiTxt('prijavi grešku za reč')} ${disp(word)}">${IKONA.zastavica}</button>`;
+    `<button class="mini prijavi" title="${uiTxt('prijavi grešku za ovu reč')}" aria-label="${uiTxt('prijavi grešku za reč')} ${escapeHtml(disp(word))}">${IKONA.zastavica}</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
   // Nalaz N5: reč je bila `<span>` sa `onclick` — mišem radi, tastaturom ne.
@@ -580,7 +583,7 @@ function renderLegend(container){
      telefonu opisivala tri ikonice kojih na ekranu nema. */
   l.innerHTML = jeTelefon()
     ? '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661, na\u0111i rime, prijavi') + '</span>'
+      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661, na\u0111i rime, kopiraj, prijavi') + '</span>'
     /* Računar od 06.09.2026 (odluka vlasnice, varijanta B): ikonice više ne stoje u
        kapsuli — pojave se u traci nad reči kad se mišem pređe preko nje. Kapsula je
        kraća, pa u red stane oko 10 reči umesto 4 (izmereno na 1280 px). */
@@ -796,17 +799,52 @@ function napraviCipTraku(){
   if(cipTraka) return cipTraka;
   cipTraka = document.createElement('div');
   cipTraka.className = 'chip-actions';
-  cipTraka.setAttribute('role', 'group');
+  cipTraka.setAttribute('role', 'toolbar');
   cipTraka.hidden = true;
   document.body.appendChild(cipTraka);
   return cipTraka;
 }
 function zatvoriCipTraku(){
   if(!cipTraka || cipTraka.hidden) return;
+  /* Ako je fokus bio u traci, vrati ga na reč — inače pada na `body` (nalaz A1, 07.09.2026). */
+  const fokusUTraci = document.activeElement && cipTraka.contains(document.activeElement);
+  const rec = cipTrakaZa;
   cipTraka.hidden = true;
   if(cipTrakaZa) cipTrakaZa.classList.remove('chip-izabran');
   cipTrakaZa = null;
+  if(fokusUTraci && rec){ const w = rec.querySelector('.word') || rec; if(w.focus){ trakaBezFokusina = true; w.focus({ preventScroll: true }); trakaBezFokusina = false; } }
 }
+/* Dok se fokus VRAĆA na reč (Escape, kraj radnje), `focusin` ne sme ponovo da otvori traku. */
+let trakaBezFokusina = false;
+/* TASTATURA (nalaz A1, audit 07.09.2026 — regresija varijante B): ikonice u kapsuli su
+   skrivene, a traka je na kraju <body>, pa Tab sa reči nikad nije ulazio u nju. Sada:
+   Tab / strelica dole / desno sa fokusirane reči (dok je traka za nju otvorena) → prvo
+   dugme trake; strelice levo/desno kroz dugmad; Tab sa poslednjeg dugmeta → sledeća reč;
+   Shift+Tab sa prvog → nazad na reč; Escape → zatvori i vrati fokus na reč. */
+document.addEventListener('keydown', (e) => {
+  if(!cipTraka || cipTraka.hidden) return;
+  const t = e.target;
+  const naReci = cipTrakaZa && cipTrakaZa.contains(t) && t.classList && t.classList.contains('word');
+  const uTraci = cipTraka.contains(t);
+  const dugmad = [...cipTraka.querySelectorAll('.ca-btn')];
+  if(naReci && (e.key === 'ArrowDown' || e.key === 'ArrowRight' || (e.key === 'Tab' && !e.shiftKey))){
+    e.preventDefault(); dugmad[0] && dugmad[0].focus(); return;
+  }
+  if(!uTraci) return;
+  const i = dugmad.indexOf(t.closest ? t.closest('.ca-btn') : t);
+  if(e.key === 'ArrowRight'){ e.preventDefault(); (dugmad[i + 1] || dugmad[0]).focus(); }
+  else if(e.key === 'ArrowLeft'){ e.preventDefault(); (dugmad[i - 1] || dugmad[dugmad.length - 1]).focus(); }
+  else if(e.key === 'Tab' && !e.shiftKey && i === dugmad.length - 1){
+    e.preventDefault();
+    const sled = cipTrakaZa && cipTrakaZa.nextElementSibling && cipTrakaZa.nextElementSibling.querySelector('.word');
+    const staraRec = cipTrakaZa;
+    zatvoriCipTraku();
+    if(sled) sled.focus(); else if(staraRec) (staraRec.querySelector('.word') || staraRec).focus();
+  }
+  else if(e.key === 'Tab' && e.shiftKey && i === 0){
+    e.preventDefault(); const w = cipTrakaZa && cipTrakaZa.querySelector('.word'); if(w) w.focus();
+  }
+});
 function otvoriCipTraku(cip, rec){
   const t = napraviCipTraku();
   if(cipTrakaZa === cip && !t.hidden){ zatvoriCipTraku(); return; }   // drugi dodir zatvara
@@ -829,6 +867,7 @@ function otvoriCipTraku(cip, rec){
       `<span class="ca-ic">${IKONA.zastavica}</span><span class="ca-txt">${uiTxt('prijavi')}</span></button>`;
   t.hidden = false;
   t.dataset.w = rec;
+  t.setAttribute('aria-label', uiTxt('radnje za reč') + ' ' + disp(rec));
   postaviCipTraku(cip);
   t.querySelectorAll('.ca-btn').forEach(b => {
     b.onclick = (ev) => {
@@ -896,6 +935,20 @@ window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
    Važi i za statične strane `/rime-za/` (čip nosi `data-rec`). Ne važi u panelu
    uz stih (`.note-rhymes`) — tamo klik ubacuje reč u pesmu. */
 let hoverTimer = null, hoverZatvori = null;
+/* Posle nove pretrage kursor često i dalje stoji nad rezultatima, pa bi Chrome odmah poslao
+   `mouseover` novoj reči i traka bi skočila na nasumičnu reč dok korisnik kuca (nalaz S-01).
+   Zato posle iscrtavanja traka čeka PRAVI pokret miša. */
+let trakaCekaPokret = false;
+document.addEventListener('mousemove', (e) => {
+  if(!trakaCekaPokret) return;
+  trakaCekaPokret = false;
+  /* Pregledač šalje `mouseover` PRE `mousemove`, pa je prvi ulazak u reč posle pretrage
+     već propušten — zato se ovde otvara traka za reč pod kursorom (inače bi korisnik
+     morao da izađe iz reči i vrati se). */
+  if(jeTelefon()) return;
+  const cip = cipZaTraku(e.target);
+  if(cip && cipTrakaZa !== cip){ clearTimeout(hoverTimer); hoverTimer = setTimeout(() => otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || ''), TRAKA_PRVA_MS); }
+}, { passive: true });
 /* LEPLJIVA TRAKA (prijava vlasnice 06.09.2026: „krenem ka „prijavi", okrznem susednu reč i
    traka nestane"). Pravila: (1) otvorena traka se NE prebacuje na susednu reč dok kursor
    ne ODSTOJI na njoj 350 ms — samo prolazak preko nje ne menja ništa; (2) ulazak u traku
@@ -909,7 +962,7 @@ function cipZaTraku(el){
   return cip;
 }
 document.addEventListener('mouseover', (e) => {
-  if(jeTelefon()) return;
+  if(jeTelefon() || trakaCekaPokret) return;
   const t = e.target;
   if(!t || !t.closest) return;
   if(t.closest('.chip-actions') || t.closest('.prijava')){ clearTimeout(hoverZatvori); clearTimeout(hoverTimer); return; }
@@ -933,9 +986,10 @@ document.addEventListener('mouseout', (e) => {
   if(cip && cipTrakaZa !== cip && !(e.relatedTarget && cip.contains(e.relatedTarget))) clearTimeout(hoverTimer);
 });
 document.addEventListener('focusin', (e) => {
-  if(jeTelefon()) return;
+  if(jeTelefon() || trakaBezFokusina) return;
   const cip = cipZaTraku(e.target);
   if(cip && cipTrakaZa !== cip) otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
+  else if(!cip && cipTraka && !cipTraka.hidden && !cipTraka.contains(e.target) && !(prijavaBox && prijavaBox.contains(e.target))) zatvoriCipTraku();
 });
 document.addEventListener('keydown', (e) => { if(e.key === 'Escape') zatvoriCipTraku(); });
 /* Promena širine (okretanje telefona, otvaranje tastature na Androidu) menja i
@@ -1065,6 +1119,8 @@ function filterSyl(arr){
 function doRhymes(silent){
   silent = silent === true;
   hideAutocomplete();
+  zatvoriCipTraku();               // traka nad reči koja će nestati (nalaz S-01, 07.09.2026)
+  trakaCekaPokret = true;
   const raw = rimeInput.value.trim().toLowerCase();
   const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
   const box = el('rimeResults');
@@ -1173,7 +1229,10 @@ function doRhymes(silent){
 
   // Fallback za reči sa malo savršenih rima (npr. srce, srp): isti završni slog
   let finalExtra = [];
-  if(best.length + good.length < 6){
+  /* Rezerva se odlučuje po SVIM pravim rimama, ne po filtriranim (nalaz S-02, 07.09.2026):
+     „sunce“ ima 9 pravih rima, pa filter „2 sloga“ ne sme da otvori rezervu od 90 reči
+     na „-nce“ i da da VIŠE rezultata nego „sve“. */
+  if(strong.length < 6){
     const fk = finalSylKey(q);
     const seen = new Set(strong); seen.add(q);
     const fin = [];
@@ -5066,8 +5125,13 @@ function prijavaDanas(){
   const z = lsJSON('rimoteka_prijave', {});
   return (z && z.dan === dan && typeof z.n === 'number') ? { dan, n: z.n } : { dan, n: 0 };
 }
+let prijavaSidro = null;
 function zatvoriPrijavu(){
+  const vrati = prijavaBox && (prijavaBox.contains(document.activeElement) || document.activeElement === document.body);
   if(prijavaBox){ prijavaBox.remove(); prijavaBox = null; }
+  /* Fokus nazad na reč (nalaz A1/S-14, 07.09.2026), ne na `body`. */
+  if(vrati && prijavaSidro && prijavaSidro.isConnected){ const w = prijavaSidro.querySelector ? (prijavaSidro.querySelector('.word') || prijavaSidro) : prijavaSidro; if(w.focus) w.focus({ preventScroll: true }); }
+  prijavaSidro = null;
   if(prijavaZavesa){ prijavaZavesa.remove(); prijavaZavesa = null; }
   document.removeEventListener('keydown', prijavaEsc);
 }
@@ -5080,7 +5144,9 @@ function otvoriPrijavu(rec, anchor){
   const box = document.createElement('div');
   box.className = 'prijava' + (telefon ? ' sheet' : '');
   box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-modal', 'true');
   box.setAttribute('aria-label', uiTxt('Prijavi grešku'));
+  prijavaSidro = anchor || null;
   const opcije = PRIJAVA_RAZLOZI
     .filter(([k]) => k !== 'ne-rimuje-se' || (upit && upit !== rec.toLowerCase()))
     .map(([k, t], i) => {
@@ -5162,9 +5228,12 @@ async function posaljiPrijavu(rec, upit, slog, box){
 }
 function prijavaHvala(box, html, uspeh){
   box.classList.add('hvala');
+  box.setAttribute('role', 'status'); box.setAttribute('aria-live', 'polite');   // čitač ekrana čuje poruku (S-14)
   box.innerHTML = (uspeh ? '<div class="prijava-ok"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>' : '') +
     `<p class="prijava-hvala-tekst">${html}</p>`;
-  setTimeout(zatvoriPrijavu, uspeh ? 2600 : 3200);
+  /* Tajmer zatvara samo prozorčić koji je poslat — ne novu prijavu koju korisnik možda
+     već piše (nalaz A2, audit 07.09.2026). */
+  setTimeout(() => { if(prijavaBox === box) zatvoriPrijavu(); }, uspeh ? 2600 : 3200);
 }
 document.addEventListener('click', (e) => {
   if(prijavaBox && !prijavaBox.classList.contains('sheet') && !prijavaBox.contains(e.target)) zatvoriPrijavu();

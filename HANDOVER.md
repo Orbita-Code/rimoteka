@@ -19,8 +19,17 @@ pilula na 133 statičke strane, 160 strana vlastitih imena nudilo sopstveni mali
 `app.js?v=20260906a`. Test: sekcija **45** — pala na produkciji sa starim kodom,
 prolazi lokalno (668/668 lokalno; na produkciji sa starim kodom 5 od 676 palo, sve u sekciji 45).
 
-**Otvoreno za vlasnicu:** 608 vlastitih imena u dva zapisa (`Iran`/`iran`) stoje
-jedno do drugog među rimama — v. `AUDIT/NALAZI-OTVORENI.md`, vrh.
+**Dvojnici imena — rešeno istog dana (odluka vlasnice):** obrisano 488 malih oblika
+(`iran`, `beograd`…), 120 pravih reči ostalo (`danska`, `rimi`, `prag`). Spisak:
+`AUDIT/obrisani-mali-oblici-06-09-2026.md`. Učestalost/Matica sada i po malom obliku.
+**Brojač slogova proveren na celom rečniku** (raspodela 1–10 slogova, uzorci iz svake
+grupe, slogotvorno „r“ na početku/sredini/kraju) — ispravan. Jedina anomalija: 48
+skraćenica bez samoglasnika (`dnk`, `gps`, `html`) — čeka odluku, v. NALAZI-OTVORENI.
+
+**Mejl `eureka@rimoteka.com`:** šalje iz Gmaila (ime „Rimoteka“), SPF ima Google — detalji u
+memoriji `reference_rimoteka_eureka_mail`. **Gmail potpis:** slika `public/potpis/…png` i
+HTML `marketing/potpis/gmail-potpis.html` na grani `feat/gmail-potpis` — vlasnica bira
+verziju (bez note / nota na „i“ / dve note), pa push i ubacivanje u Gmail.
 
 **Kako je testirano:** `node test/predeploy.mjs` lokalno; pre toga isti test protiv
 produkcije (stari kod) da nova sekcija padne. Posle objave: `BASE=https://rimoteka.com`.

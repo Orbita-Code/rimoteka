@@ -1318,3 +1318,12 @@ Provera: `test/predeploy.mjs`, sekcija **45** — ceo rečnik (svaka reč veliki
 broji isto kao mali oblik), korisnikov tok, i statička strana `/rime-za/slobodan/`
 („Ilindan" = 3). Puštena protiv produkcije **dok je tamo bio stari kod** — pala.
 
+**Dopuna istog dana — dvojnici.** Kad su 02.08. imena ušla velikim slovom, mali oblici su
+ostali, pa je rečnik mesec dana nosio 608 parova (`Iran`/`iran`). Niko nije prebrojao. Vlasnica
+je pitala „zašto imamo dve reči za ime boga“ — i bila u pravu.
+
+> **Pravilo.** Kad se u podatke uvodi **novi zapis istog pojma** (veliko slovo, ćirilica,
+> jekavica), istog dana se prebroji koliko starih zapisa ostaje uz nove i odluči šta se radi
+> sa svakim parom — po **značenju** (objašnjenje reči), ne po obrascu. Ovde je obrazac
+> „obriši sve malo“ hteo da obriše i `danska`, `nemačku`, `rimi` i `prag`.
+

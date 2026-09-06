@@ -29,6 +29,8 @@ if ! command -v nginx >/dev/null 2>&1; then
 fi
 
 mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav" "$RAD/html/rime-za/voda" "$RAD/html/rime-po-zavrsetku"
+# lažni fajlovi za proveru zaglavlja po tipu (sw blok, .js blok) — bez njih bi 404 išao kroz drugi location
+for f in sw.js sw-register.js app.js; do echo "// proba" > "$RAD/html/$f"; done
 cp "$PROJ/public/index.html" "$RAD/html/" 2>/dev/null
 cp "$PROJ/public/rime-za/ljubav/index.html" "$RAD/html/rime-za/ljubav/" 2>/dev/null
 # Hub i još jedna postojeća strana — bez njih se ne može proveriti da pravilo
@@ -134,6 +136,23 @@ proveri_kraj "rimoteka.com" "/recnik-srpskog-jezika/" 301 "/rime-po-zavrsetku/"
 proveri_kraj "rimoteka.com" "/recnik-srpskog-jezika"  301 "/rime-po-zavrsetku/"
 # nova adresa mora da postoji, inače smo preusmerili u prazno
 proveri "rimoteka.com"     "/rime-po-zavrsetku/"      200 -
+
+echo
+echo "5) Sigurnosna zaglavlja na SVAKOM odgovoru, i na /sw.js (nalazi V3 i S1/S-07, audit 07.09.2026)"
+# nginx pravilo: location blok koji ima svoj add_header NE nasleđuje nijedno zaglavlje iz server
+# bloka — zato su /sw.js i /sw-register.js gubili CSP i ostala zaglavlja kroz dva audita.
+zaglavlje() { # $1 putanja  $2 zaglavlje (mala slova)  $3 deo vrednosti koji mora da postoji
+  v=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT$1" | tr -d '\r' | awk -v z="$2" 'BEGIN{IGNORECASE=1} tolower($0) ~ "^"z":" {print}')
+  if echo "$v" | grep -q -- "$3"; then echo "  ✓ $1  ima $2 ($3)"; else echo "  ✗ $1  NEMA $2 sa „$3“ (dobijeno: ${v:-ništa})"; PALO=$((PALO+1)); fi
+}
+for put in / /sw.js /sw-register.js /app.js /rime-za/ljubav/; do
+  zaglavlje "$put" "strict-transport-security" "max-age="
+  zaglavlje "$put" "content-security-policy" "connect-src"
+  zaglavlje "$put" "x-content-type-options" "nosniff"
+done
+n=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/sw.js" | tr -d '\r' | grep -ci '^cache-control:')
+if [ "$n" = "1" ]; then echo "  ✓ /sw.js  tačno jedno Cache-Control zaglavlje"; else echo "  ✗ /sw.js  ima $n Cache-Control zaglavlja (treba 1)"; PALO=$((PALO+1)); fi
+if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -qiE '^server: nginx/[0-9]'; then echo "  ✗ Server zaglavlje otkriva verziju"; PALO=$((PALO+1)); else echo "  ✓ Server zaglavlje ne otkriva verziju"; fi
 
 echo
 if [ "$PALO" -gt 0 ]; then

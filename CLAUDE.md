@@ -487,9 +487,15 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
+**Stanje na 07.09.2026: pun audit, ocena 7,3/10** (bilo 6,2). 0 kritičnih, 8 visokih (A1–A6 novi od
+06–07.09. + V3 HSTS + V2 sinonimi), 26 srednjih, 20 niskih. Prvo ide **A1: traka nad reči nedostupna
+tastaturom** (regresija varijante B). Pun izveštaj: `AUDIT/2026-09-06-audit.md`. Spisak za praćenje:
+`AUDIT/NALAZI-OTVORENI.md` (odeljak „STANJE NA DAN 07.09.2026").
+
+> Stanje od 24.08. (ispod) zadržano je samo za istoriju.
+
 **Stanje na 24.08.2026: 24 otvorena nalaza** (oba kritična i V5 zatvoreni). Ocena 6,2/10 je
-iz audita 20.08. i **preračunava se u prvom sledećem punom auditu** — ne procenjuje se.
-Pun izveštaj: `AUDIT/2026-08-20-audit.md`. Spisak za praćenje: `AUDIT/NALAZI-OTVORENI.md`.
+iz audita 20.08. Pun izveštaj: `AUDIT/2026-08-20-audit.md`.
 
 | Ozbiljnost | Koliko | Najvažnije |
 |---|---|---|

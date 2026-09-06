@@ -6,6 +6,48 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## STANJE NA DAN 07.09.2026 — pun audit, ocena 7,3/10 (bilo 6,2 na dan 20.08.)
+
+Pun izveštaj: `AUDIT/2026-09-06-audit.md`. Pokrivenost 10/12 dimenzija. Test 717/717 na produkciji.
+**Zatvoreno od 20.08. do 07.09.:** K1, K2, V1, V4/M12, V5, S8 (`lastmod` po otisku, 06.09.), T3, dvojnici
+imena, slogovi velikim slovom. **Novo otvoreno (svi iz 06–07.09.):** 6 visokih (4 nastala izmenama od 06.09.),
+26 srednjih, 20 niskih.
+
+### VISOKO
+
+| # | Nalaz | Gde | Viđen | Napomena |
+|---|---|---|---|---|
+| **A1** | Traka nad reči **nedostupna tastaturom** na računaru; fokus pada na `body` posle radnje/zatvaranja — **regresija varijante B** | `app.js` `otvoriCipTraku`/`focusin`, `style.css` `.chip .mini{display:none}` | 07.09. | prvo ovo |
+| **A2** | Druga prijava greške se zatvori zbog tajmera prve | `app.js` `prijavaHvala` → `setTimeout(zatvoriPrijavu)` | 07.09. | |
+| **A3** | 320 px: traka preliva ivicu (8→327); ćirilica širi stranu na 345 px (`#kbdHelp`) | `style.css:2515–2540, 2433–2446` | 07.09. | |
+| **A4** | Igra sa `/igra-rimovanja/`: klik na tab = puno učitavanje, partija se gubi (S7 „pauza" radi samo sa početne) | generisane strane alata nemaju druge panele | 07.09. | Google šalje baš tamo |
+| **A5** | Rime na sporoj mreži za **7 s** (strana izgleda gotova na 1,3 s): rečnik kreće tek posle `app.js` | `app.js` `loadDict` | 07.09. | `preload` rečnika u `<head>` |
+| **A6** | Logo 298 KB za 46 px; 57 % bajtova statičkih strana | `logo-icon.png` | 07.09. | **čeka odluku vlasnice** (logo se ne dira) |
+| **V3** | Nema HSTS | `nginx.conf` | 10.08. | **treći audit** |
+| **V2** | Sinonimi: 17 reči, strane ih obećavaju | `sinonimi.json` | 20.08. | pregled od 19. reči sa vlasnicom |
+
+### SREDNJE (26) — pun opis u izveštaju, oznake S-01…S-26
+
+S-01 traka posle nove pretrage · S-02 filter „2" > „sve" (rezerva po filtriranom broju) · S-03 filter nije u
+adresi · S-04 igra ne staje na `visibilitychange` · S-05 `escapeHtml` u kapsuli (omiljene) · S-06 Google Fonts
+pre pristanka · S-07 zaglavlja otpadaju sa `/sw.js` (= stari S1, uzrok nađen) · S-08 statička strana bez puta
+do značenja/prijave · S-09 ćirilica ne prebacuje futer · S-10 futer linkovi 16–19 px · S-11 ciljevi <44 px
+(= stari S7) · S-12 prijava bez `var(--kb)` · S-13 baner 25 % ekrana, zaklanja fokus · S-14 „Hvala" bez
+aria-live · S-15 oblačić: Escape · S-16 baner 93. Tab, Escape · S-17 naslov huba „sve srpske reči" · S-18 229
+strana ≤1 dolazni link · S-19 tanke strane (6 <5 rima) · S-20 `definicije.json` 5,4 MB na ⓘ · S-21
+`frekvencija.json` keš 1 h · S-22 hub CLS 0,126 (1 merenje) · S-23 hub (= P11, čeka odluku) · S-24 tema
+zatvara prijavu · S-25 skip link (= stari S5) · S-26 nepostojeće `/rime-za/` 301 umesto 404.
+Stari srednji koji ostaju: S2 („Sve … N reči"), S3 (4.119 reči bez rečnika), S4 (`perje`), S6 (traka rima u
+beležnici — potvrđeno kao nameran jedan red, ostaje za odluku), S9 (velika slova u adresi → hub).
+
+### NISKO (20) — N-01…N-19, N-R1 u izveštaju; stari N1–N11 iz 20.08. ostaju.
+
+### ODLUKE VLASNICE koje čekaju
+A6 logo · N-18 zarez ispred „pa" (38 pojava) · P11/S-23 izgled huba · politika `?rec=` (posle brojeva iz
+Search Console-a) · S6 jedan red rima u beležnici.
+
+---
+
 ## ZATVORENO 06.09.2026 — SLOGOVI ZA REČI VELIKIM SLOVOM (prijava korisnika)
 
 Prijava korisnika: „nepostojan" → filter „1 slog" nudi „Iran". Reprodukovano na sajtu.

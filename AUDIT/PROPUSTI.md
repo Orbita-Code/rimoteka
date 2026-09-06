@@ -1360,3 +1360,23 @@ STARE sekcije koje sam sam napisao ranije.
 > granicom), ne fiksno vreme — i lokalno i na produkciji. Fiksno `pauza(N)` posle mrežnog
 > koraka je greška u testu, ne u sajtu.
 
+## 07.09.2026 — PUN AUDIT: izmena izgleda od 06.09. pokvarila tastaturu, a test to nije video
+
+Varijanta B (kapsule bez ikonica, traka na prelazak mišem) objavljena je 06.09. posle testa od 712 provera.
+Audit sutradan: **korisnik tastature više ne može da dođe do trake** (Tab preskače na sledeću reč), fokus posle
+radnje pada na `body`, traka preliva ivicu na 320 px, ćirilica širi stranu na 345 px, tajmer prve prijave
+zatvara drugu. Četiri visoka nalaza, sva iz jednog dana rada. Test ih nije uhvatio jer: 0 prolaza Tab-om,
+0 konteksta širine 320, 0 ćirilice na telefonu, prijava testirana samo jednom po prolazu.
+
+> **Pravilo.** Svaka izmena izgleda ili interakcije PRE objave dobija četiri provere, i to u testu, ne rukom:
+> (1) **Tab kroz nov element** — do svake radnje se stiže tastaturom, Escape vraća fokus gde je bio;
+> (2) **320 px**, ne samo 390 — `scrollWidth === innerWidth` pre i posle radnje;
+> (3) **ćirilica × telefon** na istom elementu;
+> (4) **dva puta zaredom** — ista radnja ponovljena odmah (drugi prozor, druga prijava, drugi tab).
+> Kad se ikonice sklone iz DOM toka (`display:none`), tastatura gubi put — to se proverava ISTOG dana.
+
+**Drugi propust istog dana:** prvi prolaz produkcijskog testa posle objave pao je na dve stare provere
+(kanonikal, beležnica) kao trka — a ja sam ih odmah nazvao „poznate trke". Audit je potvrdio kanonikal kao
+trku merenjem (stiže 0,1–1,3 s posle rezultata), beležnica nije ponovo merena. **Pravilo:** „poznata trka" se
+sme reći tek kad je izmerena u toj sesiji, inače je to nalaz.
+

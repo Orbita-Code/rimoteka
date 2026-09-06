@@ -4,6 +4,24 @@
 
 ---
 
+# Sesija 7. septembar 2026 (dvadeset prva) — pun audit 7,3/10 i prve popravke
+
+Pun audit (9 revizora): `AUDIT/2026-09-06-audit.md`. Ocena 7,3 (bilo 6,2). 0 kritičnih, 6 novih visokih
+(4 nastala izmenama od 6. 9.), 26 srednjih, 20 niskih. Zatim popravljeno na grani `fix/audit-0709-odmah`:
+A1 (tastatura u traci), A2 (tajmer prijave), A3 (320 px), S-01, S-02, S-05, S-14, N-07 + `nginx.conf`
+(HSTS 300 s, zaglavlja na `/sw.js`, `server_tokens off`, dug keš za podatke sa `?v=<sha>`). Test dobio
+sekcije 49 (popravke, 16 provera) i 50 (SVE strane iz sitemapa fajl po fajl + 30 nasumičnih na sajtu, 8 provera);
+**lokalno 736/736**. Test je u ovom krugu DVA PUTA zaustavio moju grešku pre objave (blokada trake posle
+pretrage gasila prvi prelazak mišem; vraćanje fokusa ponovo otvaralo traku) — obe upisane u PROPUSTI.
+`TODO.md` prepisan u celini 07.09. (staro zaglavlje od 24.08. izbačeno).
+**Deploy redom:** prvo commit `fix(nginx)` sam (cherry-pick na main, `nginx-provera.sh` 0), pa ostatak.
+**Ostaje (redosled u izveštaju):** A4 igra sa zasebne strane, A5 preload rečnika, A6 logo (odluka),
+S-04 `visibilitychange`, S-08 traka na statičkim stranama, S-09 ćirilica futera, S-11 ciljevi 44 px,
+S-12 `var(--kb)`, S-13/S-16 baner, S-15 oblačić Escape, S-17 naslov huba, S-18/S-19 linkovi i tanke
+strane, S-20 podela `definicije.json`, N-01/N-02 kontrasti, N-08/N-09/N-10 tekstovi.
+
+---
+
 # Sesija 6. septembar 2026 (dvadeseta) — prijava korisnika: slogovi za reči velikim slovom
 
 Korisnik Dragan M. je poslao mejl: „nepostojan" → filter „1 slog" nudi „Iran". Tačno.

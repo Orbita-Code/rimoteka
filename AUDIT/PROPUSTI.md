@@ -1380,3 +1380,10 @@ zatvara drugu. Četiri visoka nalaza, sva iz jednog dana rada. Test ih nije uhva
 trku merenjem (stiže 0,1–1,3 s posle rezultata), beležnica nije ponovo merena. **Pravilo:** „poznata trka" se
 sme reći tek kad je izmerena u toj sesiji, inače je to nalaz.
 
+**Dopuna 07.09. — test je uhvatio moju popravku pre objave (kako i treba).** Popravka nalaza S-01 („traka
+čeka pravi pokret miša posle pretrage") ugasila je i PRVI prelazak mišem posle pretrage: pregledač šalje
+`mouseover` pre `mousemove`, pa je prvi ulazak u reč propušten. Sekcija 20 (omiljene iz trake) je pala
+lokalno i zaustavila objavu. Popravljeno: `mousemove` koji skida blokadu odmah otvara traku za reč pod
+kursorom. Pouka je stara, ali potvrđena: **provera koja je napisana da padne kad se nešto pokvari vredi
+tačno onoliko koliko puta zaustavi objavu** — ovde jednom, i to na kodu star dva sata.
+

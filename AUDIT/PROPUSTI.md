@@ -1387,3 +1387,25 @@ lokalno i zaustavila objavu. Popravljeno: `mousemove` koji skida blokadu odmah o
 kursorom. Pouka je stara, ali potvrđena: **provera koja je napisana da padne kad se nešto pokvari vredi
 tačno onoliko koliko puta zaustavi objavu** — ovde jednom, i to na kodu star dva sata.
 
+## 07.09.2026 — PRIJAVE VLASNICE I NJENOG MUŽA TIHO NESTAJALE: jedan prekidač za dve stvari
+
+Prekidač `?interno=1` (uređaj vlasnice se ne broji u analitici) koristio sam i kao „režim probe" za
+prijave grešaka (sanduče proveri, ne zapiše). Vlasnica je mužu poslala baš taj link da mu se posete ne
+mere — pa su njegove dve prijave otišle kao proba i nestale. Druga i posle skidanja `?interno=1` iz adrese,
+jer oznaka ostaje na uređaju dok se ne pošalje `?interno=0`. Test je sve to „prolazio" jer testira baš
+probu. Popravka: proba ide samo preko zasebnog ključa `rimoteka_proba` koji postavlja test; dodata provera
+da uređaj označen SAMO za analitiku šalje pravu prijavu.
+
+> **Pravilo.** Jedan prekidač = jedno značenje. „Ne meri me" i „ne čuvaj moje prijave" su dve odluke, i
+> moraju biti dva ključa. I: sve što korisnik može da uključi linkom, mora da ume i da isključi linkom
+> (i to da mu bude rečeno) — `?interno=0` postoji, ali niko to nije znao.
+
+**Dopuna — dve kopije istog omotača.** `test/bez-analitike.mjs` postoji kao modul, ali je `predeploy.mjs`
+nosio SVOJU kopiju istog koda. Izmene u modulu (unapred prihvaćeni kolačići 06.09., ključ probe 07.09.)
+nisu ulazile u pravi test — a ja sam dva puta „proverio" da omotač radi pokretanjem MODULA, ne testa.
+Posledica: tri probne prijave iz testa upisane u pravo sanduče (obrisane istog sata, sanduče dobilo
+brisanje sa ključem). Test sada uvozi modul; kopija je izbačena.
+
+> **Pravilo.** Kad menjaš pomoćni fajl, `grep` odmah proveri KO ga uvozi. Ako ga niko ne uvozi, izmena
+> je promenila ništa. Kopija koda koja „liči" na modul je najgora vrsta greške: sve prolazi, ništa ne važi.
+

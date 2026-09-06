@@ -27,6 +27,9 @@ export function umotaj(browser) {
        sekcije rade kao pre (i da baner ne stoji preko elemenata koje klikću), svaki
        kontekst kreće sa PRIHVAĆENIM kolačićima. Sekcija 47 baner testira u kontekstu
        koji tu odluku obriše. */
+    /* Test šalje prijave grešaka kao PROBE (sanduče ih ne čuva) — od 07.09.2026 preko `rimoteka_proba`,
+       ne preko `rimoteka_interno` (koji gasi samo analitiku). */
+    await ctx.addInitScript(() => { try { localStorage.setItem('rimoteka_proba', '1'); } catch (e) {} });
     await ctx.addInitScript(() => { try { if (!localStorage.getItem('rimoteka_kolacici')) localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
     await ctx.route(OBRAZAC, r => r.fulfill({
       status: 200,

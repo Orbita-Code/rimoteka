@@ -2889,3 +2889,47 @@ button.chip-btn{
 body.dark-mode .results > .chip,
 body.dark-mode .note-rhymes .chip{border-color:var(--line)}
 body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
+
+/* ====================== KAPSULE BEZ IKONICA (06.09.2026, varijanta B) ======================
+   Ikonice uz reč (ⓘ ♡ 🔁 ⚑) ostaju u DOM-u (stanje, pristupačnost, test), ali se ne
+   crtaju — radnje su u traci `.chip-actions` koja se otvori na prelazak mišem, fokus
+   ili dodir. Izmereno na 1280 px: 4 → ~10 reči u redu. Panel uz stih nema `.mini`. */
+.chip .mini{display:none}
+.chip.chip-izabran{box-shadow:0 0 0 2px var(--lavender-deep) inset,var(--shadow-sm)}
+
+/* ====================== PRIJAVA GREŠKE (06.09.2026) ====================== */
+.ca-btn.ca-prijavi .ca-ic{color:var(--muted)}
+.chip .mini.prijavi svg{width:15px;height:15px;display:block}
+.chip .mini.prijavi:hover{color:var(--lavender-deep)}
+.prijava{position:absolute;z-index:95;width:min(340px,calc(100vw - 24px));background:var(--menu-bg);border-radius:16px;padding:.9rem 1rem 1rem;
+  box-shadow:0 12px 32px rgba(90,63,208,.26),0 2px 8px rgba(90,63,208,.16);font:inherit;color:var(--ink);animation:ca-ulaz .16s ease-out}
+.prijava.sheet{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;border-radius:20px 20px 0 0;padding:.8rem 1rem calc(1.1rem + env(safe-area-inset-bottom));
+  box-shadow:0 -12px 32px rgba(90,63,208,.22);max-height:88vh;overflow:auto}
+.prijava.sheet::before{content:'';display:block;width:40px;height:4px;border-radius:2px;background:var(--polje-okvir);margin:0 auto .7rem}
+.prijava-zavesa{position:fixed;inset:0;background:rgba(57,50,87,.28);z-index:94}
+.prijava-naslov{margin:0 0 .5rem;font-size:1rem;font-weight:700;color:var(--ink)}
+.prijava-naslov b{color:var(--lavender-deep)}
+.prijava-opcija{display:flex;align-items:center;gap:.55rem;padding:.42rem .5rem;border-radius:10px;font-size:.92rem;color:var(--ink-soft);cursor:pointer;min-height:36px}
+.prijava-opcija.on{background:var(--zona-a);color:var(--ink);font-weight:600}
+.prijava-opcija input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.prijava-opcija i{width:18px;height:18px;border-radius:50%;border:2px solid var(--polje-okvir);flex:none;display:inline-block;position:relative}
+.prijava-opcija.on i{border-color:var(--lavender-deep)}
+.prijava-opcija.on i::after{content:'';position:absolute;inset:3px;border-radius:50%;background:var(--lavender-deep)}
+.prijava-opcija input:focus-visible + i{outline:2px solid var(--mint-deep);outline-offset:2px}
+.prijava-napomena{width:100%;box-sizing:border-box;margin:.45rem 0 .6rem;padding:.55rem .65rem;border:1.5px solid var(--polje-okvir);border-radius:10px;
+  font:inherit;font-size:.9rem;resize:none;background:var(--field-bg);color:var(--ink)}
+.prijava-mejl{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.prijava-red{display:flex;align-items:center;justify-content:space-between;gap:.6rem}
+.prijava-napomena-tekst{color:var(--muted);font-size:.74rem;line-height:1.3}
+.prijava-greska{margin:0 0 .5rem;font-size:.85rem;color:#b3261e;font-weight:600}
+.prijava-posalji{border:0;border-radius:999px;padding:.55rem 1.1rem;font:inherit;font-weight:700;color:#fff;cursor:pointer;white-space:nowrap;
+  background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));box-shadow:0 6px 16px rgba(90,63,208,.28)}
+.prijava-posalji:disabled{opacity:.7;cursor:default}
+.prijava.hvala{text-align:center}
+.prijava-ok{width:44px;height:44px;border-radius:50%;margin:0 auto .5rem;display:flex;align-items:center;justify-content:center;color:#fff;
+  background:linear-gradient(95deg,var(--lavender-deep),var(--mint-deep))}
+.prijava-hvala-tekst{margin:0;color:var(--ink-soft);font-size:.92rem;line-height:1.45}
+body.dark-mode .prijava{box-shadow:0 12px 32px rgba(0,0,0,.5)}
+body.dark-mode .prijava-zavesa{background:rgba(0,0,0,.5)}
+@media(prefers-reduced-motion:reduce){.prijava{animation:none}}
+

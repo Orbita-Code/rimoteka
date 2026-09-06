@@ -26,6 +26,27 @@ prolazi lokalno (668/668 lokalno; na produkciji sa starim kodom 5 od 676 palo, s
 grupe, slogotvorno „r“ na početku/sredini/kraju) — ispravan. Jedina anomalija: 48
 skraćenica bez samoglasnika (`dnk`, `gps`, `html`) — čeka odluku, v. NALAZI-OTVORENI.
 
+**„PRIJAVI GREŠKU" (odluka vlasnice 06.09., grana `feat/prijavi-gresku`):** uz svaku reč
+prijava na tri dodira. Telefon: peto dugme u traci nad reči; računar: ista traka se otvara na
+**prelazak mišem ili fokus** (odluka vlasnice, „varijanta B"). **Kapsule na računaru više
+nemaju ikonice** (ⓘ ♡ 🔁 ostaju u DOM-u skrivene): u red stane ~9–10 reči umesto 4 na
+1280 px, grupa „Najbolje rime" za „ljubav" 1.320 → 548 px. Oblačić značenja na prelazak
+mišem je sklonjen (preklapao se sa trakom); značenje je u traci na klik. Klik na reč i
+dalje kopira. Legenda iznad rezultata to kaže. **Traka je „lepljiva"** (prijava vlasnice na
+lokalnoj probi: „krenem ka „prijavi", okrznem susednu reč i traka nestane"): prolazak preko
+susednih reči je ne pomera, prebacuje se tek posle 350 ms zadržavanja na drugoj reči, zatvara
+se 700 ms posle izlaska iz spiska. Oblačić značenja iz trake veže se za reč (ne za dugme
+trake, koje se odmah sakrije — inače leti u gornji levi ugao). Natpis „rime" → „nađi rime". Šest odgovora (slogovi / nije ispravna reč / pogrešno napisana / ne
+rimuje se sa … / nije za decu / drugo) + napomena. Anonimno. Sanduče: Cloudflare worker
+`worker/prijave.js` (`rimoteka-prijave.jovana-daskovic.workers.dev`, KV `PRIJAVE`);
+pregled prijava: adresa sa ključem u `~/.config/rimoteka/prijave-kljuc.json`.
+**CSP:** adresa sanduča je dodata u `connect-src` u `nginx.conf` — **nginx ide u zaseban
+deploy PRE sajta** (`bash test/nginx-provera.sh` prošao). Test: sekcija **46** (ceo tok +
+pravi zahtev u režimu probe koji sanduče ne čuva). Statičke strane `/rime-za/` zasad nemaju
+ulaz u prijavu (čipovi tamo nemaju traku) — ulaz je iz alata. Dnevni izveštaj mejlom još
+nije napravljen (predlog: cron na Hetzneru koji čita `/prijave?format=json&posle=…` i šalje
+preko postojećeg Gmail SMTP-a iz `server-guard.sh`).
+
 **Mejl `eureka@rimoteka.com`:** šalje iz Gmaila (ime „Rimoteka“), SPF ima Google — detalji u
 memoriji `reference_rimoteka_eureka_mail`. **Gmail potpis:** slika `public/potpis/…png` i
 HTML `marketing/potpis/gmail-potpis.html` na grani `feat/gmail-potpis` — vlasnica bira

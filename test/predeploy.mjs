@@ -2256,7 +2256,11 @@ async function main() {
       await pauza(800);
 
       const rec = await p20.evaluate(() => document.querySelector('#rimeResults .chip .word')?.textContent.trim());
-      await p20.click('#rimeResults .chip .fav');
+      /* Od 06.09.2026 (varijanta B) ikonice ne stoje u kapsuli: prelazak mišem otvara
+         traku nad reči, pa se „omiljene" bira u njoj. Stanje (`.fav.on`) ostaje na čipu. */
+      await p20.locator('#rimeResults .chip').first().hover();
+      await pauza(500);
+      await p20.click('.chip-actions .ca-btn[data-act="fav"]');
       await pauza(400);
       /* Od 02.08.2026. sačuvana reč više NE dobija puno srce nego PUNU
          LJUBIČASTU NOTU — isti crtež kao note u futeru (zahtev vlasnice).
@@ -2264,18 +2268,19 @@ async function main() {
          srce sklonjeno i da li je nota u boji note, a ne u boji srca. */
       const posle = await p20.evaluate(() => {
         const b = document.querySelector('#rimeResults .chip .fav');
-        const nota = b?.querySelector('.fav-nota'), srce = b?.querySelector('.fav-srce');
+        const tb = document.querySelector('.chip-actions .ca-btn[data-act="fav"]');
+        const nota = tb?.querySelector('.ca-ic svg');
         return {
           broj: document.getElementById('favCount').textContent,
-          ukljucena: b?.classList.contains('on'),
+          ukljucena: b?.classList.contains('on') && tb?.classList.contains('on'),
           notaVidljiva: nota ? +getComputedStyle(nota).opacity : -1,
-          srceSakriveno: srce ? +getComputedStyle(srce).opacity : -1,
-          bojaNote: nota ? getComputedStyle(nota).color : '',
+          srceSakriveno: tb && /♡|srce/.test(tb.innerHTML) ? 1 : 0,
+          bojaNote: tb ? getComputedStyle(tb.querySelector('.ca-ic')).color : '',
           visinaNote: nota ? Math.round(nota.getBoundingClientRect().height) : 0,
         };
       });
       ok('♥ na reči povećava brojač omiljenih', posle.broj === '1', `brojač: ${posle.broj}`);
-      ok('sačuvana reč dobija punu notu, ne srce',
+      ok('sačuvana reč dobija punu notu u traci, ne srce',
          posle.ukljucena === true && posle.notaVidljiva === 1 && posle.srceSakriveno === 0,
          `nota ${posle.notaVidljiva}, srce ${posle.srceSakriveno}`);
       ok('nota je nacrtana i ima veličinu',
@@ -5317,6 +5322,149 @@ async function main() {
       ok('/rime-za/slobodan/ · svaka pilula nosi isti broj slogova kao alat',
          staticka.losih === 0, `${staticka.losih}: ${staticka.lose.join(', ')}`);
       await c45.close();
+    }
+
+    console.log('\n46) „PRIJAVI GREŠKU" — dugme, prozorčić i slanje u sanduče (06.09.2026)');
+    {
+      /* Zašto ova sekcija postoji: 06.09.2026. korisnik je MEJLOM prijavio da „Iran" ima
+         jedan slog. Tačno, i mesecima neprimećeno. Odluka vlasnice: uz svaku reč ide
+         prijava na tri dodira — telefon: peto dugme u traci nad reči; računar: četvrta
+         ikonica (zastavica) uz reč, pored ⓘ ♡ 🔁. Šalje se u `worker/prijave.js` (Cloudflare KV).
+
+         Test šalje PRAVI zahtev sanduču sa `proba:true` (uređaj označen `rimoteka_interno`):
+         sanduče sve proveri (poreklo, polja, razlog) i vrati ok, a ne zapiše ništa. Tako se
+         proverava i CSP (`connect-src` u nginx.conf) — kad bi adresa sanduča ispala iz CSP-a,
+         zahtev bi pukao u pregledaču i ova sekcija bi pala. Ne proverava se samo da dugme
+         postoji nego da ceo tok radi: dugme → prozorčić → šest odgovora → slanje → „Hvala". */
+      const SANDUCE = 'https://rimoteka-prijave.jovana-daskovic.workers.dev/prijava';
+
+      // (a) telefon
+      const c46 = await browser.newContext({ viewport: { width: 390, height: 780 }, isMobile: true, hasTouch: true });
+      await c46.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+      const p46 = ojacajStranu(await c46.newPage());
+      const poslato = [];
+      p46.on('request', r => { if (r.url() === SANDUCE && r.method() === 'POST') poslato.push(r.postDataJSON()); });
+      const odgovori = [];
+      p46.on('response', async r => { if (r.url() === SANDUCE && r.request().method() === 'POST') odgovori.push({ status: r.status(), telo: await r.text().catch(() => '') }); });
+      await p46.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
+      await p46.waitForSelector('#rimeResults .chip', { timeout: 20000 });
+      await pauza(1200);
+      await p46.click('#rimeSyl button[data-syl="2"]'); await pauza(500);
+      const cip46 = p46.locator('#rimeResults .chip').nth(5);
+      await cip46.scrollIntoViewIfNeeded(); await cip46.tap(); await pauza(500);
+      const traka = await p46.evaluate(() => [...document.querySelectorAll('.chip-actions .ca-btn')].map(b => b.dataset.act));
+      ok('telefon · traka nad reči ima dugme „prijavi" (peto)', traka.includes('prijavi') && traka.length === 5, traka.join(','));
+      await p46.tap('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
+      const forma = await p46.evaluate(() => {
+        const b = document.querySelector('.prijava'); if (!b) return null;
+        return { sheet: b.classList.contains('sheet'), opcije: [...b.querySelectorAll('.prijava-opcija')].map(l => l.textContent.trim()),
+                 naslov: (b.querySelector('.prijava-naslov') || {}).textContent || '', izabrano: (b.querySelector('input[name=prijava-razlog]:checked') || {}).value,
+                 uEkranu: b.getBoundingClientRect().bottom <= window.innerHeight + 1 && b.getBoundingClientRect().top >= 0 };
+      });
+      ok('telefon · prozorčić se otvara odozdo', !!forma && forma.sheet === true, JSON.stringify(forma));
+      ok('telefon · naslov nosi reč („Šta ne valja kod reči „…"?")', !!forma && /Šta ne valja kod reči „.+“\?/.test(forma.naslov), forma && forma.naslov);
+      ok('telefon · šest odgovora, tačnim redom', !!forma && forma.opcije.length === 6
+         && /^Pogrešan broj slogova \(piše \d+\)$/.test(forma.opcije[0]) && forma.opcije[1] === 'Ovo nije ispravna reč'
+         && forma.opcije[2] === 'Pogrešno napisana reč' && /^Ne rimuje se sa „nepostojan“$/.test(forma.opcije[3])
+         && forma.opcije[4] === 'Nije za decu' && forma.opcije[5] === 'Nešto drugo', forma && forma.opcije.join(' | '));
+      ok('telefon · prvi odgovor (slogovi) je unapred izabran', !!forma && forma.izabrano === 'slogovi', forma && forma.izabrano);
+      ok('telefon · ceo prozorčić je u ekranu (ne seče se)', !!forma && forma.uEkranu === true, JSON.stringify(forma));
+      await p46.fill('.prijava-napomena', 'Proba iz testa — ne čuvati.');
+      await p46.tap('.prijava-posalji');
+      /* Sanduče na hladnom startu ume da odgovori tek posle 2–4 s — čeka se „Hvala" do 8 s,
+         ne fiksne 2 s (prvi prolaz testa je pao baš na tome). */
+      await p46.waitForSelector('.prijava.hvala', { timeout: 8000 }).catch(() => {});
+      const posle = await p46.evaluate(() => { const b = document.querySelector('.prijava'); return b ? b.textContent.trim() : 'NEMA'; });
+      ok('telefon · posle slanja piše „Hvala! Prijava za „…" je stigla."', /Hvala!.*Prijava za „.+“ je stigla/.test(posle), posle.slice(0, 120));
+      ok('telefon · zahtev je stigao do sanduča i sanduče je odgovorilo 200', odgovori.length === 1 && odgovori[0].status === 200, JSON.stringify(odgovori));
+      ok('telefon · zahtev nosi reč, traženu reč, broj slogova, razlog i PROBU (ništa se ne čuva)',
+         poslato.length === 1 && poslato[0].rec && poslato[0].upit === 'nepostojan' && Number.isInteger(poslato[0].slogova)
+         && poslato[0].razlog === 'slogovi' && poslato[0].proba === true && poslato[0].mejl === '', JSON.stringify(poslato[0] || {}));
+      await p46.waitForSelector('.prijava', { state: 'detached', timeout: 5000 }).catch(() => {});
+      ok('telefon · prozorčić se sam zatvara posle „Hvala"', await p46.evaluate(() => !document.querySelector('.prijava')), 'još stoji');
+      await c46.close();
+
+      // (b) računar: dugme u prozorčiću sa značenjem, prozorčić pored reči
+      const c46b = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c46b.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+      const p46b = ojacajStranu(await c46b.newPage());
+      const poslato2 = [];
+      p46b.on('request', r => { if (r.url() === SANDUCE && r.method() === 'POST') poslato2.push(r.postDataJSON()); });
+      await p46b.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
+      await p46b.waitForSelector('#rimeResults .chip', { timeout: 20000 });
+      await pauza(1200);
+      /* Varijanta B (odluka vlasnice 06.09.): kapsula bez ikonica, traka na prelazak mišem. */
+      const kapsule = await p46b.evaluate(() => { const c = [...document.querySelectorAll('#rimeResults .chip')];
+        const vidljive = c.reduce((n, x) => n + [...x.querySelectorAll('.mini')].filter(m => m.getBoundingClientRect().width > 0).length, 0);
+        const redovi = {}; c.forEach(x => { const t = Math.round(x.getBoundingClientRect().top); redovi[t] = (redovi[t] || 0) + 1; });
+        const poRedu = Object.values(redovi); return { cipova: c.length, vidljiveIkonice: vidljive, poRedu: poRedu.length > 1 ? poRedu.slice(0, -1).reduce((a, b) => a + b, 0) / (poRedu.length - 1) : poRedu[0],
+          legenda: (document.querySelector('.res-legend') || {}).textContent || '' }; });
+      ok('računar · u kapsuli nema vidljivih ikonica (radnje su u traci)', kapsule.cipova > 0 && kapsule.vidljiveIkonice === 0, JSON.stringify(kapsule));
+      ok('računar · u red stane bar 7 reči (na 1280 px; bilo 4 sa ikonicama)', kapsule.poRedu >= 7, `${kapsule.poRedu}`);
+      ok('računar · legenda kaže kako se dolazi do radnji (prelazak mišem) i da klik kopira', /pređi mišem preko reči/.test(kapsule.legenda) && /kopira/.test(kapsule.legenda) && /prijavi/.test(kapsule.legenda), kapsule.legenda);
+      await p46b.evaluate(() => document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'center' })); await pauza(300);
+      await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
+      const traka2 = await p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act) : []; });
+      ok('računar · prelazak mišem otvara traku sa pet radnji (značenje, omiljene, rime, kopiraj, prijavi)', traka2.join(',') === 'def,fav,rime,kopiraj,prijavi', traka2.join(','));
+      /* LEPLJIVA traka (prijava vlasnice 06.09.): na putu do „prijavi" kursor okrzne susednu reč —
+         traka NE sme da preskoči ni da nestane. Prolazak preko tri reči je ne pomera; tek
+         zadržavanje na drugoj reči (350 ms) je prebacuje; izlazak iz spiska (700 ms) je zatvara. */
+      const kutija = async i => await p46b.locator('#rimeResults .chip').nth(i).boundingBox();
+      const stanjeTrake = () => p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? t.dataset.w : 'zatvorena'; });
+      const k12 = await kutija(12); await p46b.mouse.move(k12.x + k12.width / 2, k12.y + k12.height / 2); await pauza(300);
+      const rec12 = await stanjeTrake();
+      const kTr = await p46b.locator('.chip-actions').boundingBox(); const k13 = await kutija(13);
+      await p46b.mouse.move(k13.x + 10, k13.y + k13.height / 2, { steps: 4 }); await pauza(120);
+      await p46b.mouse.move(kTr.x + kTr.width - 30, kTr.y + kTr.height / 2, { steps: 6 }); await pauza(300);
+      const podKursorom = await p46b.evaluate(([x, y]) => { const el = document.elementFromPoint(x, y); return el ? ((el.closest('.ca-btn') || {}).dataset || {}).act || el.className : 'ništa'; }, [kTr.x + kTr.width - 30, kTr.y + kTr.height / 2]);
+      ok('računar · traka ostaje na istoj reči kad kursor na putu do „prijavi" okrzne susednu reč', rec12 !== 'zatvorena' && (await stanjeTrake()) === rec12 && podKursorom === 'prijavi', `${rec12} → ${await stanjeTrake()}, pod kursorom: ${podKursorom}`);
+      for (const i of [14, 15, 16]) { const k = await kutija(i); await p46b.mouse.move(k.x + k.width / 2, k.y + k.height / 2, { steps: 2 }); await pauza(90); }
+      ok('računar · brz prolazak preko tri reči ne pomera traku', (await stanjeTrake()) === rec12, await stanjeTrake());
+      await pauza(450);
+      ok('računar · zadržavanje na drugoj reči prebacuje traku na nju', (await stanjeTrake()) !== rec12 && (await stanjeTrake()) !== 'zatvorena', await stanjeTrake());
+      await p46b.mouse.move(640, 5); await pauza(900);
+      ok('računar · kad kursor napusti spisak, traka se zatvori', (await stanjeTrake()) === 'zatvorena', await stanjeTrake());
+      /* Reč se dovede u gornju trećinu ekrana da ISPOD nje ima mesta — tada prozorčić mora dole.
+         (Kad nema mesta ni gore ni dole, prozorčić se priteže u ekran — to je druga provera.) */
+      await p46b.evaluate(() => { document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'start' }); window.scrollBy(0, -140); }); await pauza(300);
+      await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
+      await p46b.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
+      const forma2 = await p46b.evaluate(() => { const b = document.querySelector('.prijava'); if (!b) return null; const r = b.getBoundingClientRect();
+        const cip = document.querySelector('#rimeResults .chip').getBoundingClientRect();
+        return { sheet: b.classList.contains('sheet'), opcije: b.querySelectorAll('.prijava-opcija').length, ispodReci: r.top > cip.bottom,
+                 uEkranu: r.top >= 0 && r.bottom <= window.innerHeight && r.left >= 0 && r.right <= window.innerWidth }; });
+      ok('računar · prozorčić stoji uz reč (ne odozdo), ispod nje kad ima mesta', !!forma2 && forma2.sheet === false && forma2.opcije === 6 && forma2.ispodReci === true, JSON.stringify(forma2));
+      ok('računar · prozorčić je ceo u ekranu', !!forma2 && forma2.uEkranu === true, JSON.stringify(forma2));
+      await p46b.locator('.prijava-opcija').nth(1).click();
+      await p46b.click('.prijava-posalji');
+      await p46b.waitForSelector('.prijava.hvala', { timeout: 8000 }).catch(() => {});
+      const posle2 = await p46b.evaluate(() => { const b = document.querySelector('.prijava'); return b ? b.textContent.trim() : 'NEMA'; });
+      ok('računar · slanje prolazi i piše „Hvala"', /Hvala!/.test(posle2) && poslato2.length === 1 && poslato2[0].razlog === 'nije-rec' && poslato2[0].proba === true, posle2.slice(0, 80) + ' | ' + JSON.stringify(poslato2[0] || {}));
+      // Escape zatvara prozorčić (bez slanja)
+      await p46b.waitForSelector('.prijava', { state: 'detached', timeout: 5000 }).catch(() => {});
+      await p46b.evaluate(() => { if (typeof zatvoriPrijavu === 'function') zatvoriPrijavu(); });   // da otvoren prozorčić ne presretne sledeće klikove
+      // „značenje" iz trake: oblačić mora da stane UZ reč, ne u gornji levi ugao (prijava vlasnice 06.09.)
+      await p46b.locator('#rimeResults .chip').nth(2).hover(); await pauza(450);
+      const rimeNatpis = await p46b.evaluate(() => (document.querySelector('.chip-actions .ca-btn[data-act="rime"] .ca-txt') || {}).textContent || '');
+      ok('računar · dugme za rime u traci piše „nađi rime" (kao glavno dugme), ne „rime"', rimeNatpis === 'nađi rime', rimeNatpis);
+      await p46b.click('.chip-actions .ca-btn[data-act="def"]'); await pauza(1500);
+      const oblacic = await p46b.evaluate(() => { const t = document.querySelector('.deftip'); const cip = [...document.querySelectorAll('#rimeResults .chip')][2].getBoundingClientRect(); const r = t.getBoundingClientRect();
+        return { vidljiv: t.style.display !== 'none', razmakIspod: Math.round(r.top - cip.bottom), levo: Math.round(r.left - cip.left), top: Math.round(r.top) }; });
+      ok('računar · oblačić značenja iz trake stoji odmah ispod reči (ne u uglu)', oblacic.vidljiv && oblacic.razmakIspod >= 0 && oblacic.razmakIspod <= 40 && oblacic.levo >= -20 && oblacic.levo <= 200, JSON.stringify(oblacic));
+      await p46b.keyboard.press('Escape'); await p46b.mouse.click(5, 5); await pauza(300);
+      await p46b.locator('#rimeResults .chip').nth(1).hover(); await pauza(450);
+      await p46b.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
+      await p46b.keyboard.press('Escape'); await pauza(200);
+      ok('računar · Escape zatvara prozorčić bez slanja', await p46b.evaluate(() => !document.querySelector('.prijava')) && poslato2.length === 1, `zahteva: ${poslato2.length}`);
+      await c46b.close();
+
+      // (c) sanduče odbija tuđe poreklo i nepotpunu prijavu (mimo pregledača)
+      const tudje = await fetch(SANDUCE, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Origin': 'https://zlo.example' }, body: JSON.stringify({ rec: 'x', razlog: 'drugo' }) });
+      ok('sanduče · odbija zahtev sa tuđeg sajta (403)', tudje.status === 403, `${tudje.status}`);
+      const nepotpuno = await fetch(SANDUCE, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Origin': 'https://rimoteka.com' }, body: JSON.stringify({ rec: 'x', razlog: 'izmišljeno', proba: true }) });
+      ok('sanduče · odbija nepoznat razlog (400)', nepotpuno.status === 400, `${nepotpuno.status}`);
+      const pregled = await fetch(SANDUCE.replace('/prijava', '/prijave'));
+      ok('sanduče · pregled prijava bez ključa ne otvara (403)', pregled.status === 403, `${pregled.status}`);
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

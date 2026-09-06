@@ -592,6 +592,30 @@ put ima sa čim da se poredi.
 
 ---
 
+## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
+
+**Od 06.09.2026 kapsule sa rimama na računaru nemaju ikonice** (odluka vlasnice, varijanta B):
+sve radnje (značenje, omiljene, rime, kopiraj, prijavi grešku) su u traci `.chip-actions` koja
+se otvara na dodir (telefon), prelazak mišem ili fokus (računar). Ne vraćati ikonice u kapsulu.
+
+Dugme „Prijavi grešku" (peto dugme u toj traci) šalje
+prijavu u Cloudflare worker **`worker/prijave.js`** → `https://rimoteka-prijave.jovana-daskovic.workers.dev`.
+
+| Šta | Gde |
+|---|---|
+| kod sanduča | `worker/prijave.js`, `worker/wrangler.toml` (KV `PRIJAVE`) |
+| objava sanduča | `cd worker && npx wrangler deploy` (wrangler prijavljen kao vlasnica) |
+| ključ za pregled | `~/.config/rimoteka/prijave-kljuc.json` — **nikad u repo**; secret `KLJUC` na workeru |
+| pregled prijava | `/prijave?kljuc=…` (HTML) ili `&format=json` (`&posle=<ISO>` za nove) |
+| režim probe | uređaj sa `rimoteka_interno=1` (`?interno=1`) šalje `proba:true` → sanduče proveri, ne čuva |
+| CSP | adresa sanduča mora biti u `connect-src` (`nginx.conf`) — bez toga pregledač ćutke odbije slanje |
+| test | sekcija 46 — pada ako CSP, dugme, prozorčić ili sanduče ne rade |
+
+**Na početku sesije proveriti nove prijave** (`curl "<pregled>&format=json"`) i uneti ih u
+rad kao prijave korisnika — one imaju prednost nad nalazima alata (protokol, D8).
+
+---
+
 ## 9. ZABRANJENO (NE KRŠITI)
 
 - ❌ **Deploy bez prolaska `node test/predeploy.mjs`** (vidi sekciju 9a)
@@ -599,6 +623,7 @@ put ima sa čim da se poredi.
 - ❌ Objavljivanje brojeva „iz glave" (broj reči, definicija, sinonima) — **prvo prebrojati u fajlu**, pa napisati
 - ❌ Direktan push/commit na `main` bez feature grane
 - ❌ Push bez odobrenja korisnice
+- ❌ Menjati `worker/prijave.js` bez ponovnog `wrangler deploy` i testa (sekcija 46) — sajt i sanduče moraju da se slažu
 - ❌ Dodavanje nav menija, bloga, reklama bez odobrenja
 - ❌ Zatrpavanje homepage-a tekstom/widgetima
 - ❌ Hardkodovanje tajni (API ključeva, lozinki) u repo

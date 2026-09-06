@@ -47,6 +47,17 @@ ulaz u prijavu (čipovi tamo nemaju traku) — ulaz je iz alata. Dnevni izvešta
 nije napravljen (predlog: cron na Hetzneru koji čita `/prijave?format=json&posle=…` i šalje
 preko postojećeg Gmail SMTP-a iz `server-guard.sh`).
 
+**BANER ZA KOLAČIĆE (odluka vlasnice 06.09., grana `feat/kolacici-baner`):** GA se učitava TEK
+posle pristanka (`ga-init.js?v=3` učitava gtag.js dinamički; statični `<script>` za gtag je
+uklonjen iz `index.html` i `gen_pages.py`). Baner na dnu, ne blokira sajt (Google kažnjava
+međuekrane; vlasnica: „ne želim da stanem Google-u na žulj“). „Prihvati sve“ = 1 klik;
+„Podesi“ = prekidači (neophodno zaključano, merenje isključeno) + „Sačuvaj izbor“. Link
+„Kolačići“ u futeru vraća baner. Odluka u `localStorage.rimoteka_kolacici`. Ćirilica
+podržana, brend „Google Analytics“ ostaje latinicom. `?interno=1` = bez banera i bez GA.
+**Posledica za analitiku:** od objave GA broji SAMO one koji prihvate — brojevi padaju, to
+nije pad posete. Test: sekcija 47; svi drugi konteksti u testu kreću sa prihvaćenim
+kolačićima (`test/bez-analitike.mjs`).
+
 **Mejl `eureka@rimoteka.com`:** šalje iz Gmaila (ime „Rimoteka“), SPF ima Google — detalji u
 memoriji `reference_rimoteka_eureka_mail`. **Gmail potpis:** slika `public/potpis/…png` i
 HTML `marketing/potpis/gmail-potpis.html` na grani `feat/gmail-potpis` — vlasnica bira

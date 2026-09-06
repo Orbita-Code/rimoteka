@@ -14,7 +14,14 @@ sekcije 49 (popravke, 16 provera) i 50 (SVE strane iz sitemapa fajl po fajl + 30
 **lokalno 736/736**. Test je u ovom krugu DVA PUTA zaustavio moju grešku pre objave (blokada trake posle
 pretrage gasila prvi prelazak mišem; vraćanje fokusa ponovo otvaralo traku) — obe upisane u PROPUSTI.
 `TODO.md` prepisan u celini 07.09. (staro zaglavlje od 24.08. izbačeno).
-**Deploy redom:** prvo commit `fix(nginx)` sam (cherry-pick na main, `nginx-provera.sh` 0), pa ostatak.
+**Objavljeno 07.09. kasno veče (sve tri pusha prošla, produkcija na `app.js?v=20260907b`):** nginx zasebno,
+pa popravke iz audita, pa razdvajanje probe od „interno" (prijave sa uređaja označenih `?interno=1` su
+nestajale — muž vlasnice poslao 2, ništa stiglo; sada `interno` gasi samo analitiku, probu šalje samo test
+preko `rimoteka_proba`). Usput otkriveno da je `predeploy.mjs` nosio KOPIJU omotača umesto uvoza
+`bez-analitike.mjs` — ispravljeno; 3 probe koje su zbog toga ušle u pravo sanduče obrisane (sanduče dobilo
+`POST /obrisi?kljuc=…&id=…`). Poslednji lokalni test **737/737**; završni test protiv produkcije pušten na
+kraju sesije (`scratchpad/prod-final.log`) — ako nije zabeležen ovde, pustiti ga na početku sledeće sesije.
+**Vlasničin laptop je od 07.09. označen `?interno=1`** (Chrome); telefon od 28.08.
 **Ostaje (redosled u izveštaju):** A4 igra sa zasebne strane, A5 preload rečnika, A6 logo (odluka),
 S-04 `visibilitychange`, S-08 traka na statičkim stranama, S-09 ćirilica futera, S-11 ciljevi 44 px,
 S-12 `var(--kb)`, S-13/S-16 baner, S-15 oblačić Escape, S-17 naslov huba, S-18/S-19 linkovi i tanke

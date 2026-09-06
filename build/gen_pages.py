@@ -21,6 +21,8 @@ VOWELS = set('aeiou')
 # ---------------- Lingvistika (1:1 sa app.js) ----------------
 def vowel_positions(w):
     # 1:1 sa app.js: samoglasnici + slogotvorno „r“ (nosilac sloga: srce, vrt)
+    # Mala slova, uvek — v. komentar kod count_syl (06.09.2026).
+    w = w.lower()
     p = []
     for i, ch in enumerate(w):
         if ch in VOWELS:
@@ -33,6 +35,7 @@ def vowel_positions(w):
     return p
 
 def rhyme_key(w):
+    w = w.lower()   # ključ se seče iz MALIH slova, kao u app.js (rhymeKey(malo))
     vp = vowel_positions(w)
     if not vp:
         return w
@@ -45,6 +48,7 @@ def rhyme_key(w):
 
 def loose_key(w):
     # Širi ključ (asonanca): od poslednjeg nosioca sloga — 1:1 sa app.js looseKey
+    w = w.lower()
     vp = vowel_positions(w)
     if not vp:
         return w
@@ -52,6 +56,7 @@ def loose_key(w):
 
 def final_syl_key(w):
     # 1:1 sa app.js finalSylKey — poslednji slog sa onset suglasnikom (srce -> "ce")
+    w = w.lower()
     vp = vowel_positions(w)
     if not vp:
         return w
@@ -72,6 +77,10 @@ def common_suffix(a, b):
     return n
 
 def count_syl(w):
+    # Mala slova, uvek. Do 06.09.2026. veliko početno A/E/I/O/U nije bilo u VOWELS,
+    # pa je „Ilindan“ na /rime-za/slobodan/ nosio 2 sloga umesto 3 — 146 pilula na
+    # 133 strane. Isti kvar kao u app.js `countSyl`; prijavio korisnik. Test: sekcija 45.
+    w = w.lower()
     c = 0
     for i, ch in enumerate(w):
         if ch in VOWELS:
@@ -449,7 +458,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260824a"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260906a"></script>\n'
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -933,7 +942,11 @@ def main():
         # ~42 reči za „ljubav", a alat nudi ~180 — posetilac je video samo deo
         # ponude i morao je u alat (prijava vlasnice 20.08.2026: „sve reči
         # odmah na strani, bez šetanja po sajtu").
-        cands = [w for w in keygroup[key] if w != t and not is_blocked(w) and not is_excluded(t, w)]
+        # `w.lower() != tl` — kao u app.js (`m!==q`, oba mala). Do 06.09.2026. je
+        # poređenje bilo `w != t`, pa je strana za „Albanija“ nudila „albanija“
+        # kao rimu samoj sebi (160 strana vlastitih imena). Test: sekcija 45.
+        tl = t.lower()
+        cands = [w for w in keygroup[key] if w.lower() != tl and not is_blocked(w) and not is_excluded(t, w)]
         cands.sort(key=lambda w: (abs(syllables(w)-tsyl), -common_suffix(t, w), rank[w]))
         best = [w for w in cands if syllables(w) == tsyl][:90]
         good = [w for w in cands if syllables(w) != tsyl][:90]
@@ -943,14 +956,14 @@ def main():
         if len(best) + len(good) < 6:
             fk = final_syl_key(t)
             strong_set = set(keygroup[key]); strong_set.add(t)
-            fin = [w for w in finalgroup[fk] if w not in strong_set and not is_blocked(w) and not is_excluded(t, w)]
+            fin = [w for w in finalgroup[fk] if w not in strong_set and w.lower() != tl and not is_blocked(w) and not is_excluded(t, w)]
             fin.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
             final_extra = fin[:40]
 
         # Bliske rime (asonanca) — reči sa istim završnim samoglasnikom (kao u alatu: 70)
         lk = loose_key(t)
         seen_loose = set(best + good + final_extra)
-        loose_cands = [w for w in loosegroup[lk] if w != t and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w)]
+        loose_cands = [w for w in loosegroup[lk] if w.lower() != tl and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w)]
         loose_cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
         loose = loose_cands[:70]
 

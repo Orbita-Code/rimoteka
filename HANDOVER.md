@@ -4,6 +4,29 @@
 
 ---
 
+# Sesija 6. septembar 2026 (dvadeseta) — prijava korisnika: slogovi za reči velikim slovom
+
+Korisnik Dragan M. je poslao mejl: „nepostojan" → filter „1 slog" nudi „Iran". Tačno.
+
+**Uzrok:** `countSyl` u `app.js` nije prebacivao reč u mala slova (`VOWELS` ima samo
+mala), a `vowelPositions` jeste od 02.08. Isti kvar u `build/gen_pages.py` (pet
+funkcija) + poređenje sa ciljem po velikom slovu. Pogođeno: 155 reči rečnika, 146
+pilula na 133 statičke strane, 160 strana vlastitih imena nudilo sopstveni mali oblik.
+
+**Popravljeno:** `app.js:countSyl`, `gen_pages.py` (`vowel_positions`, `rhyme_key`,
+`loose_key`, `final_syl_key`, `count_syl`, samoisključenje), strane regenerisane
+(272 sa izmenjenim sadržajem, 3 ispale: Melburn/Njujork/Stokholm → hub), verzija
+`app.js?v=20260906a`. Test: sekcija **45** — pala na produkciji sa starim kodom,
+prolazi lokalno (668/668 lokalno; na produkciji sa starim kodom 5 od 676 palo, sve u sekciji 45).
+
+**Otvoreno za vlasnicu:** 608 vlastitih imena u dva zapisa (`Iran`/`iran`) stoje
+jedno do drugog među rimama — v. `AUDIT/NALAZI-OTVORENI.md`, vrh.
+
+**Kako je testirano:** `node test/predeploy.mjs` lokalno; pre toga isti test protiv
+produkcije (stari kod) da nova sekcija padne. Posle objave: `BASE=https://rimoteka.com`.
+
+---
+
 # Sesija 20–30. avgust 2026 (devetnaesta) — pun audit, K1/K2/V5/V1/M12 zatvoreni, analitika očišćena, sinonimi krenuli
 
 > Duga sesija sa **šest objava**. Sve je provereno pre i posle svake, i sve je uživo.

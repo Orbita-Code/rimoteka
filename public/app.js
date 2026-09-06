@@ -288,6 +288,12 @@ function commonSuffix(a,b){
   return n;
 }
 function countSyl(w){
+  /* Mala slova, uvek — ista popravka kao u `vowelPositions`. Do 06.09.2026. je
+     stajalo samo tamo, pa je „Iran" (veliko I nije u `VOWELS`) brojao JEDAN slog,
+     a „iran" dva — filter „1 slog" nudio je Iran, filter „2 sloga" ne. Prijavio
+     korisnik (Dragan M.). Pogađalo svih 155 reči rečnika koje počinju velikim
+     samoglasnikom (Amerika, Evropa, Isus, Ana, Uroš…). Provera: test, sekcija 45. */
+  w = w.toLowerCase();
   let c=0;
   for(let i=0;i<w.length;i++){
     const ch=w[i];

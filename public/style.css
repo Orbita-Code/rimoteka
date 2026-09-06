@@ -2933,3 +2933,33 @@ body.dark-mode .prijava{box-shadow:0 12px 32px rgba(0,0,0,.5)}
 body.dark-mode .prijava-zavesa{background:rgba(0,0,0,.5)}
 @media(prefers-reduced-motion:reduce){.prijava{animation:none}}
 
+/* ====================== BANER ZA KOLAČIĆE (06.09.2026) ======================
+   Ne blokira sajt (Google kažnjava nametljive međuekrane na telefonu). Traka na dnu,
+   „Prihvati sve" jedan klik, „Podesi" otvara prekidače. Obe teme. */
+.kolacici{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:200;width:min(560px,calc(100vw - 20px));
+  background:var(--menu-bg);color:var(--ink);border-radius:18px;padding:.95rem 1.1rem 1rem;
+  box-shadow:0 14px 40px rgba(90,63,208,.28),0 2px 8px rgba(90,63,208,.14);border:1px solid var(--line);font-size:.92rem;line-height:1.45}
+.kolacici-naslov{display:block;font-size:1rem;margin-bottom:.25rem;color:var(--ink)}
+.kolacici-tekst{margin:0;color:var(--ink-soft)}
+.kolacici-dugmad{display:flex;gap:.6rem;align-items:center;margin-top:.8rem;flex-wrap:wrap}
+.kolacici-dugme{border:0;border-radius:999px;padding:.6rem 1.15rem;font:inherit;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.kolacici-prihvati{color:#fff;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));box-shadow:0 6px 16px rgba(90,63,208,.28)}
+.kolacici-podesi-btn{background:transparent;color:var(--ink-soft);font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:.6rem .5rem}
+.kolacici-podesi-btn:hover,.kolacici-prihvati:hover{filter:brightness(1.06)}
+.kolacici-podesi{margin-top:.7rem;border-top:1px solid var(--line);padding-top:.6rem}
+.kolacici-podesi[hidden]{display:none}
+.kolacici-red{display:flex;align-items:flex-start;gap:.7rem;padding:.45rem 0;cursor:pointer}
+.kolacici-red input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.kolacici-prekidac{flex:none;width:38px;height:22px;border-radius:999px;background:var(--polje-okvir);position:relative;transition:.15s;margin-top:.1rem}
+.kolacici-prekidac::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.kolacici-red input:checked + .kolacici-prekidac{background:var(--lavender-deep)}
+.kolacici-red input:checked + .kolacici-prekidac::after{left:19px}
+.kolacici-red input:disabled + .kolacici-prekidac{opacity:.55;cursor:default}
+.kolacici-red input:focus-visible + .kolacici-prekidac{outline:2px solid var(--mint-deep);outline-offset:2px}
+.kolacici-red-tekst{display:flex;flex-direction:column;gap:.1rem;color:var(--ink-soft);font-size:.86rem}
+.kolacici-red-tekst b{color:var(--ink)}
+.kolacici-sacuvaj{margin-top:.4rem;background:var(--zona-a);color:var(--lavender-deep)}
+.futer-kolacici{color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
+@media(max-width:560px){.kolacici{bottom:8px;padding:.85rem .9rem .9rem;font-size:.9rem}.kolacici-dugmad{gap:.3rem}.kolacici-prihvati{flex:1;text-align:center}}
+

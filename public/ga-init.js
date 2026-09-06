@@ -1,66 +1,149 @@
-/* ga-init.js — pokretanje Google Analytics-a + ISKLJUČIVANJE SOPSTVENOG PROMETA
+/* Google Analytics + BANER ZA KOLAČIĆE (06.09.2026, odluka vlasnice).
  *
- * ZAŠTO ISKLJUČIVANJE POSTOJI (26.08.2026, zahtev vlasnice).
- * Vlasnica otvara svoj sajt svaki dan — da proveri izmenu, da nekome pokaže, da
- * pročita tekst. Svaka ta poseta je do sada ulazila u statistiku kao i svaka druga.
- * Na sajtu koji ima nekoliko stotina poseta mesečno to nije sitnica nego može biti
- * veći deo podataka, pa svaki zaključak izveden iz njih postaje pogrešan.
+ * Do 06.09.2026. se Analytics učitavao bez pitanja. Od sada se biblioteka (gtag.js)
+ * učitava TEK POSLE „Prihvati sve" ili posle uključenog prekidača u „Podesi".
+ * Bez odluke — nema kolačića i nema merenja. Odluka se pamti u localStorage
+ * (`rimoteka_kolacici`), a menja se linkom „Kolačići" u futeru.
  *
- * ZAŠTO OVAKO, A NE KROZ GA4.
- * GA4 nudi „Define internal traffic" (isključivanje po IP adresi), ali:
- *   · taj ekran se ne da podesiti automatski — ne reaguje na skriptovan klik;
- *   · kućna IP adresa se menja, pa filter s vremenom prestane da hvata;
- *   · ne pokriva telefon na mobilnoj mreži ni putovanja.
- * Ovo rešenje je u našem kodu, radi na SVAKOM uređaju posebno i ne zavisi ni od
- * adrese ni od dodataka za pregledač.
+ * Baner NE blokira sajt (reči se vide i alat radi) — zid preko celog ekrana Google
+ * tretira kao nametljiv međuekran na telefonu i spušta rangiranje, a nama je
+ * indeksiranje najveći problem. „Prihvati sve" je jedan klik; „Podesi" traži još
+ * dva (prekidač + „Sačuvaj").
  *
- * KAKO SE UKLJUČUJE (jednom po uređaju i po pregledaču):
- *     https://rimoteka.com/?interno=1     → od sada se taj uređaj NE broji
- *     https://rimoteka.com/?interno=0     → ponovo se broji
- * Izbor se pamti u `localStorage` i preživljava zatvaranje pregledača.
+ * `?interno=1` (vlasnica, test) i dalje gasi merenje na uređaju — i tada baner ne
+ * smeta, jer odluke nema šta da menja.
  *
- * ⚠️ Isključivanje važi SAMO UNAPRED. Posete koje su već izbrojane ostaju u GA4
- * zauvek — Google ih ne može obrisati unazad.
- *
- * KAKO SE PROVERAVA da radi: otvori sajt, pa u konzoli `window.__rimotekaInterno`.
- * `true` znači da se ne brojiš.
- */
+ * `gtag` stub postoji UVEK, da `gtag('event', …)` iz app.js nikad ne pukne; dok
+ * nema pristanka, događaji se samo slažu u `dataLayer` i nikud ne odlaze. */
 (function () {
   'use strict';
-
   var MERNI_ID = 'G-F88VM8CWBQ';
-  var KLJUC = 'rimoteka_interno';
+  var KLJUC_INTERNO = 'rimoteka_interno';
+  var KLJUC_KOLACICI = 'rimoteka_kolacici';
 
-  /* `localStorage` ume da baci izuzetak (privatni režim, blokirani kolačići,
-     školski pregledač). Ako padne, ponašamo se kao da oznake nema — merenje radi
-     normalno. Nikad ne sme da obori stranu. */
-  function citaj() {
-    try { return localStorage.getItem(KLJUC) === '1'; } catch (e) { return false; }
-  }
-  function pisi(vrednost) {
-    try {
-      if (vrednost) localStorage.setItem(KLJUC, '1');
-      else localStorage.removeItem(KLJUC);
-    } catch (e) { /* namerno tiho — v. komentar iznad */ }
-  }
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* privatni režim — tiho */ } }
+  function lsDel(k) { try { localStorage.removeItem(k); } catch (e) { /* tiho */ } }
 
-  /* `?interno=1` uključuje, `?interno=0` isključuje. Radi na bilo kojoj strani. */
+  /* ---------- interni režim (bez merenja na ovom uređaju) ---------- */
   try {
     var p = new URLSearchParams(location.search).get('interno');
-    if (p === '1' || p === '0') pisi(p === '1');
-  } catch (e) { /* stariji pregledači bez URLSearchParams — preskoči */ }
-
-  var interno = citaj();
+    if (p === '1') lsSet(KLJUC_INTERNO, '1');
+    if (p === '0') lsDel(KLJUC_INTERNO);
+  } catch (e) { /* stariji pregledači */ }
+  var interno = lsGet(KLJUC_INTERNO) === '1';
   window.__rimotekaInterno = interno;
-
-  /* Google-ov zvaničan prekidač. MORA da se postavi PRE nego što se `gtag.js`
-     izvrši — zato ovaj fajl stoji odmah uz njega u zaglavlju i nije `async`.
-     Kad je `true`, biblioteka ne šalje nijedan zahtev. */
   if (interno) window['ga-disable-' + MERNI_ID] = true;
 
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   window.gtag = gtag;
-  gtag('js', new Date());
-  gtag('config', MERNI_ID);
+
+  /* ---------- odluka o kolačićima ---------- */
+  function odluka() {
+    var s = lsGet(KLJUC_KOLACICI);
+    if (!s) return null;
+    try { var o = JSON.parse(s); return (o && typeof o.analitika === 'boolean') ? o : null; } catch (e) { return null; }
+  }
+  function sacuvaj(analitika) {
+    lsSet(KLJUC_KOLACICI, JSON.stringify({ analitika: !!analitika, kad: new Date().toISOString(), v: 1 }));
+  }
+
+  var ucitano = false;
+  function ucitajAnalitiku() {
+    if (ucitano || interno) return;
+    ucitano = true;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + MERNI_ID;
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    gtag('config', MERNI_ID);
+  }
+
+  /* ---------- ćirilica za tekst banera (isto pravilo kao u app.js) ---------- */
+  var CYR = { a:'а',b:'б',c:'ц',č:'ч',ć:'ћ',d:'д',đ:'ђ',e:'е',f:'ф',g:'г',h:'х',i:'и',j:'ј',k:'к',l:'л',m:'м',n:'н',o:'о',p:'п',r:'р',s:'с',š:'ш',t:'т',u:'у',v:'в',z:'з',ž:'ж' };
+  function toCyr(s) {
+    return s.replace(/dž|Dž|lj|Lj|nj|Nj/g, function (m) { return { 'dž':'џ','Dž':'Џ','lj':'љ','Lj':'Љ','nj':'њ','Nj':'Њ' }[m]; })
+            .replace(/[a-zčćđšž]/g, function (ch) { return CYR[ch] || ch; })
+            .replace(/[A-ZČĆĐŠŽ]/g, function (ch) { var m = CYR[ch.toLowerCase()]; return m ? m.toUpperCase() : ch; });
+  }
+  /* Ime brenda (Google Analytics) ostaje latinicom i u ćirilici — isto pravilo kao za
+     logo, mejl i skraćenice u app.js. */
+  function t(s) {
+    if (lsGet('rimoteka_script') !== 'cyr') return s;
+    return s.split('Google Analytics').map(toCyr).join('Google Analytics');
+  }
+
+  /* ---------- baner ---------- */
+  var baner = null;
+  function el(tag, cls, tekst) { var e = document.createElement(tag); if (cls) e.className = cls; if (tekst != null) e.textContent = tekst; return e; }
+  function zatvori() { if (baner) { baner.remove(); baner = null; } }
+  function otvoriBaner(saPodesavanjem) {
+    zatvori();
+    baner = el('div', 'kolacici');
+    baner.setAttribute('role', 'dialog');
+    baner.setAttribute('aria-label', t('Kolačići'));
+    var glava = el('div', 'kolacici-glava');
+    glava.appendChild(el('strong', 'kolacici-naslov', t('Kolačići na Rimoteci')));
+    glava.appendChild(el('p', 'kolacici-tekst', t('Koristimo Google Analytics da vidimo koje delove sajta ljudi koriste, a koje ne — da bismo Rimoteku popravljali na pravom mestu. Bez imena i bez mejla.')));
+    baner.appendChild(glava);
+
+    var podesi = el('div', 'kolacici-podesi');
+    podesi.hidden = !saPodesavanjem;
+    function red(naslov, opis, ukljuceno, zakljucano, ime) {
+      var r = el('label', 'kolacici-red');
+      var box = el('input'); box.type = 'checkbox'; box.checked = ukljuceno; box.disabled = zakljucano; box.name = ime;
+      var prek = el('span', 'kolacici-prekidac');
+      var txt = el('span', 'kolacici-red-tekst');
+      txt.appendChild(el('b', null, naslov));
+      txt.appendChild(el('span', null, opis));
+      r.appendChild(box); r.appendChild(prek); r.appendChild(txt);
+      return r;
+    }
+    podesi.appendChild(red(t('Neophodno'), t('uvek uključeno: pamti temu, pismo i beležnicu na ovom uređaju'), true, true, 'neophodno'));
+    podesi.appendChild(red(t('Merenje posete (Google Analytics)'), t('koje strane i dugmad se koriste; ne zna ko si'), false, false, 'analitika'));
+    var sacuvajBtn = el('button', 'kolacici-dugme kolacici-sacuvaj', t('Sačuvaj izbor'));
+    sacuvajBtn.type = 'button';
+    sacuvajBtn.onclick = function () {
+      var a = podesi.querySelector('input[name=analitika]').checked;
+      sacuvaj(a); zatvori(); if (a) ucitajAnalitiku();
+    };
+    podesi.appendChild(sacuvajBtn);
+    baner.appendChild(podesi);
+
+    var dugmad = el('div', 'kolacici-dugmad');
+    var prihvati = el('button', 'kolacici-dugme kolacici-prihvati', t('Prihvati sve'));
+    prihvati.type = 'button';
+    prihvati.onclick = function () { sacuvaj(true); zatvori(); ucitajAnalitiku(); };
+    var podesiBtn = el('button', 'kolacici-dugme kolacici-podesi-btn', t('Podesi'));
+    podesiBtn.type = 'button';
+    podesiBtn.setAttribute('aria-expanded', saPodesavanjem ? 'true' : 'false');
+    podesiBtn.onclick = function () { podesi.hidden = !podesi.hidden; podesiBtn.setAttribute('aria-expanded', podesi.hidden ? 'false' : 'true'); };
+    dugmad.appendChild(prihvati); dugmad.appendChild(podesiBtn);
+    baner.appendChild(dugmad);
+    document.body.appendChild(baner);
+  }
+
+  /* javno: futer link „Kolačići" i test */
+  window.rimotekaKolacici = {
+    otvori: function () { otvoriBaner(true); },
+    odluka: odluka,
+    ucitano: function () { return ucitano; }
+  };
+
+  function start() {
+    var o = odluka();
+    if (o && o.analitika) { ucitajAnalitiku(); return; }
+    if (o) return;                               // odbio merenje — ništa
+    if (interno) return;                         // vlasnica/test — bez banera
+    otvoriBaner(false);
+    /* Link „Kolačići" u futeru otvara baner kad god (promena odluke). */
+  }
+  function veziFuter() {
+    var l = document.querySelector('.futer-kolacici, [data-kolacici]');
+    if (l) l.addEventListener('click', function (e) { e.preventDefault(); otvoriBaner(true); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(); veziFuter(); });
+  else { start(); veziFuter(); }
 })();

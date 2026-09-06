@@ -592,6 +592,14 @@ put ima sa čim da se poredi.
 
 ---
 
+## 9e. KOLAČIĆI I GOOGLE ANALYTICS (06.09.2026)
+
+GA se učitava **tek posle pristanka** u baneru (`public/ga-init.js`). Ne vraćati statični
+`<script src="…gtag/js…">` u zaglavlje. Baner **ne blokira** sajt (Google kažnjava
+međuekrane). Odluka: `localStorage.rimoteka_kolacici` `{analitika:true|false}`; link
+„Kolačići“ u futeru je menja. Od 06.09. GA broji samo one koji prihvate — pad brojeva u
+Analyticsu posle tog datuma NIJE pad posete (upisati u svaki izveštaj analitike).
+
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 
 **Od 06.09.2026 kapsule sa rimama na računaru nemaju ikonice** (odluka vlasnice, varijanta B):

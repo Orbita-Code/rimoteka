@@ -23,6 +23,11 @@ export const OBRAZAC = /googletagmanager\.com|google-analytics\.com|analytics\.g
 
 export function umotaj(browser) {
   async function blokiraj(ctx) {
+    /* Od 06.09.2026 sajt ima baner za kolačiće i ne učitava GA bez pristanka. Da stare
+       sekcije rade kao pre (i da baner ne stoji preko elemenata koje klikću), svaki
+       kontekst kreće sa PRIHVAĆENIM kolačićima. Sekcija 47 baner testira u kontekstu
+       koji tu odluku obriše. */
+    await ctx.addInitScript(() => { try { if (!localStorage.getItem('rimoteka_kolacici')) localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
     await ctx.route(OBRAZAC, r => r.fulfill({
       status: 200,
       headers: { 'content-type': 'application/javascript', 'x-blokirano-u-testu': '1' },

@@ -57,6 +57,9 @@ async function primi(request, env) {
   return json({ ok: true }, 200, h);
 }
 
+/* Adresa strane se čuva onako kako je pregledač šalje (`gri%C5%BEnja`); u pregledu se
+   prikazuje čitljivo (`grižnja`). 06.09.2026, prijava vlasnice. */
+const citljivaAdresa = a => { try { return decodeURIComponent(a || ''); } catch { return a || ''; } };
 const NAZIV = { slogovi: 'pogrešan broj slogova', 'nije-rec': 'nije ispravna reč', 'pogresno-napisana': 'pogrešno napisana', 'ne-rimuje-se': 'ne rimuje se', 'nije-za-decu': 'nije za decu', drugo: 'nešto drugo' };
 
 async function pregled(request, env) {
@@ -69,7 +72,7 @@ async function pregled(request, env) {
   sve.sort((a, b) => (a.kad < b.kad ? 1 : -1));
   const ukupno = (await env.PRIJAVE.get('broj:ukupno')) || '0';
   if (url.searchParams.get('format') === 'json') return json({ ukupno: Number(ukupno), prijave: sve });
-  const red = z => `<tr><td>${esc(z.kad.slice(0, 16).replace('T', ' '))}</td><td><b>${esc(z.rec)}</b>${z.slogova != null ? ` <small>(${z.slogova})</small>` : ''}</td><td>${esc(z.upit)}</td><td>${esc(NAZIV[z.razlog] || z.razlog)}</td><td>${esc(z.napomena)}</td><td><small>${esc(z.strana)} · ${esc(z.uredjaj)}</small></td></tr>`;
+  const red = z => `<tr><td>${esc(z.kad.slice(0, 16).replace('T', ' '))}</td><td><b>${esc(z.rec)}</b>${z.slogova != null ? ` <small>(${z.slogova})</small>` : ''}</td><td>${esc(z.upit)}</td><td>${esc(NAZIV[z.razlog] || z.razlog)}</td><td>${esc(z.napomena)}</td><td><small>${esc(citljivaAdresa(z.strana))} · ${esc(z.uredjaj)}</small></td></tr>`;
   const html = `<!doctype html><html lang="sr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>Prijave grešaka — Rimoteka</title>
 <style>body{font-family:system-ui,sans-serif;max-width:1100px;margin:0 auto;padding:20px;background:#fdfcff;color:#393257}h1{color:#5a3fd0}

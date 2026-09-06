@@ -281,7 +281,9 @@ async function main() {
 
       await pSeo.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await pSeo.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5, { timeout: 180000 }).catch(() => {});
-      await pauza(800);
+      /* Kanonikal za `?rec=` se postavlja tek kad stigne `rime-strane.json` (u pozadini) —
+         na produkciji izmereno 0,1–1,3 s POSLE rezultata. Čeka se stanje, do 15 s. */
+      await pSeo.waitForFunction(() => /\/rime-za\//.test(document.querySelector('link[rel="canonical"]')?.href || ''), null, { timeout: 15000 }).catch(() => {});
       const seo2 = await pSeo.evaluate(() => document.querySelector('link[rel="canonical"]')?.href || '');
       ok('?rec=ljubav · kanonikal na statičku stranu (autoritet se ne deli)',
          /\/rime-za\/ljubav\/$/.test(seo2), seo2);
@@ -5471,6 +5473,68 @@ async function main() {
       ok('sanduče · odbija nepoznat razlog (400)', nepotpuno.status === 400, `${nepotpuno.status}`);
       const pregled = await fetch(SANDUCE.replace('/prijava', '/prijave'));
       ok('sanduče · pregled prijava bez ključa ne otvara (403)', pregled.status === 403, `${pregled.status}`);
+    }
+
+    console.log('\n47) BANER ZA KOLAČIĆE — GA tek posle pristanka, ne blokira sajt (06.09.2026)');
+    {
+      /* Odluka vlasnice 06.09.2026: Google Analytics se učitava TEK POSLE pristanka.
+         „Prihvati sve" jedan klik; „Podesi" otvara prekidače. Baner NE blokira sajt
+         (Google kažnjava nametljive međuekrane na telefonu — vlasnica: „ne želim da
+         stanem Google-u na žulj"). Svi drugi konteksti u testu kreću sa prihvaćenim
+         kolačićima (v. bez-analitike.mjs); ovde se odluka briše da se baner vidi. */
+      const GA = /googletagmanager\.com\/gtag\/js/;
+      const svez = async (sirina, dodatno) => {
+        const c = await browser.newContext({ viewport: { width: sirina, height: sirina < 600 ? 780 : 800 }, isMobile: sirina < 600, hasTouch: sirina < 600 });
+        /* Briše odluku SAMO pri prvom učitavanju u kontekstu — init skripta se izvršava pri svakoj
+           navigaciji, pa bi inače obrisala i odluku koju test upravo proverava posle osvežavanja. */
+        await c.addInitScript(() => { try { if (!sessionStorage.getItem('t47')) { localStorage.removeItem('rimoteka_kolacici'); localStorage.removeItem('rimoteka_interno'); sessionStorage.setItem('t47', '1'); } } catch (e) {} });
+        if (dodatno) await c.addInitScript(dodatno);
+        const p = ojacajStranu(await c.newPage());
+        const ga = []; p.on('request', r => { if (GA.test(r.url())) ga.push(r.url()); });
+        return { c, p, ga };
+      };
+      // (a) telefon: baner se vidi, GA se NE učitava, polje za reč je slobodno
+      let { c, p, ga } = await svez(390);
+      await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1500);
+      const b1 = await p.evaluate(() => { const b = document.querySelector('.kolacici'); if (!b) return null; const r = b.getBoundingClientRect(); const i = document.getElementById('rimeInput').getBoundingClientRect();
+        return { vidljiv: r.height > 0, naslov: (b.querySelector('.kolacici-naslov') || {}).textContent, dugmad: [...b.querySelectorAll('.kolacici-dugmad button')].map(x => x.textContent.trim()), podesiSkriveno: b.querySelector('.kolacici-podesi').hidden,
+          neZaklanjaPolje: r.top > i.bottom, gaSkripta: !!document.querySelector('script[src*="googletagmanager"]'), visinaBanera: Math.round(r.height), ekran: window.innerHeight }; });
+      ok('telefon · baner se vidi, sa „Prihvati sve" i „Podesi"', !!b1 && b1.vidljiv && b1.dugmad.join('|') === 'Prihvati sve|Podesi', JSON.stringify(b1));
+      ok('telefon · baner ne zaklanja polje za reč (ne blokira sajt)', !!b1 && b1.neZaklanjaPolje === true && b1.visinaBanera < b1.ekran * 0.5, JSON.stringify(b1));
+      ok('telefon · bez pristanka GA se NE učitava (ni skripta ni zahtev)', !!b1 && b1.gaSkripta === false && ga.length === 0, `skripta ${b1 && b1.gaSkripta}, zahteva ${ga.length}`);
+      await p.fill('#rimeInput', 'ljubav'); await p.evaluate(() => document.getElementById('rimeBtn').click());
+      await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 30000 }).catch(() => {});
+      ok('telefon · alat radi i dok baner stoji', (await p.locator('#rimeResults .chip').count()) > 5);
+      await p.tap('.kolacici-prihvati'); await pauza(1200);
+      const b2 = await p.evaluate(() => ({ baner: !!document.querySelector('.kolacici'), odluka: localStorage.getItem('rimoteka_kolacici'), gaSkripta: !!document.querySelector('script[src*="googletagmanager"]') }));
+      ok('telefon · „Prihvati sve" sakrije baner, upiše odluku i učita GA', !b2.baner && /"analitika":true/.test(b2.odluka || '') && b2.gaSkripta && ga.length >= 1, JSON.stringify(b2) + ` zahteva ${ga.length}`);
+      await p.reload({ waitUntil: 'domcontentloaded' }); await pauza(1200);
+      ok('telefon · posle osvežavanja baner se ne vraća, GA se učitava', await p.evaluate(() => !document.querySelector('.kolacici') && !!document.querySelector('script[src*="googletagmanager"]')));
+      await c.close();
+      // (b) računar: „Podesi" → prekidač isključen → „Sačuvaj" → bez GA, baner nestaje; futer „Kolačići" vraća baner
+      ({ c, p, ga } = await svez(1280));
+      await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1500);
+      await p.click('.kolacici-podesi-btn'); await pauza(200);
+      const b3 = await p.evaluate(() => { const pd = document.querySelector('.kolacici-podesi'); return { otvoreno: !pd.hidden, redova: pd.querySelectorAll('.kolacici-red').length, neophodno: pd.querySelector('input[name=neophodno]').checked && pd.querySelector('input[name=neophodno]').disabled, analitika: pd.querySelector('input[name=analitika]').checked }; });
+      ok('računar · „Podesi" otvara dva reda: neophodno (zaključano, uključeno) i merenje (isključeno)', b3.otvoreno && b3.redova === 2 && b3.neophodno === true && b3.analitika === false, JSON.stringify(b3));
+      await p.click('.kolacici-sacuvaj'); await pauza(800);
+      const b4 = await p.evaluate(() => ({ baner: !!document.querySelector('.kolacici'), odluka: localStorage.getItem('rimoteka_kolacici'), gaSkripta: !!document.querySelector('script[src*="googletagmanager"]') }));
+      ok('računar · „Sačuvaj" sa isključenim merenjem: baner nestaje, odluka „ne", GA se NE učitava', !b4.baner && /"analitika":false/.test(b4.odluka || '') && !b4.gaSkripta && ga.length === 0, JSON.stringify(b4) + ` zahteva ${ga.length}`);
+      await p.evaluate(() => document.querySelector('.futer-kolacici').scrollIntoView()); await p.click('.futer-kolacici'); await pauza(300);
+      ok('računar · link „Kolačići" u futeru ponovo otvara baner sa podešavanjem', await p.evaluate(() => { const b = document.querySelector('.kolacici'); return !!b && !b.querySelector('.kolacici-podesi').hidden; }));
+      await c.close();
+      // (c) ćirilica: tekst banera je na ćirilici
+      ({ c, p, ga } = await svez(1280, () => { try { localStorage.setItem('rimoteka_script', 'cyr'); } catch (e) {} }));
+      await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1500);
+      const b5 = await p.evaluate(() => ({ naslov: (document.querySelector('.kolacici-naslov') || {}).textContent || '', dugme: (document.querySelector('.kolacici-prihvati') || {}).textContent || '', tekst: (document.querySelector('.kolacici-tekst') || {}).textContent || '' }));
+      ok('ćirilica · baner je na ćirilici („Колачићи на Римотеци", „Прихвати све")', b5.naslov === 'Колачићи на Римотеци' && b5.dugme === 'Прихвати све', JSON.stringify(b5));
+      ok('ćirilica · ime brenda „Google Analytics" ostaje latinicom', /Google Analytics/.test(b5.tekst) && !/Гоогле/.test(b5.tekst), b5.tekst.slice(0, 60));
+      await c.close();
+      // (d) ?interno=1: bez banera i bez GA
+      ({ c, p, ga } = await svez(1280));
+      await p.goto(BASE + '/?interno=1', { waitUntil: 'domcontentloaded' }); await pauza(1500);
+      ok('interno · sa ?interno=1 nema banera i nema GA', await p.evaluate(() => !document.querySelector('.kolacici') && !document.querySelector('script[src*="googletagmanager"]')) && ga.length === 0, `zahteva ${ga.length}`);
+      await c.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

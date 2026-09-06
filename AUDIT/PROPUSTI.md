@@ -1280,3 +1280,41 @@ odgovoriti mu praznim 200: ništa ne izađe, a konzola ostaje čista.
 
 > **Pravilo:** popravka koja pravi novu grešku u konzoli nije popravka nego zamena
 > jednog problema drugim. Kad se nešto blokira, blokira se **tiho**.
+
+## 06.09.2026 — KORISNIK NAŠAO KVAR U BROJANJU SLOGOVA KOJI JE TEST OBILAZIO MESEC DANA
+
+Korisnik (Dragan M.) je napisao: za „nepostojan" filter „1 slog" nudi „Iran", a u
+„2 sloga" ga nema. Tačno do slova — reprodukovano na produkciji istim tokom.
+
+**Uzrok.** `VOWELS` sadrži samo mala slova. `vowelPositions` je 02.08.2026. dobio
+`w = w.toLowerCase()` (baš zbog „Amerika"), a `countSyl` — koji broji slogove za
+filter, za pilulu i za podelu „najbolje / dobre" — **nije**. Isti par je stajao i u
+`build/gen_pages.py` (`count_syl`, `rhyme_key`, `loose_key`, `final_syl_key`), plus
+poređenje sa ciljem `w != t` po velikom slovu, pa je strana za „Albanija" nudila
+„albanija" kao rimu samoj sebi.
+
+**Izmereno pre popravke (prebrojano u fajlovima, ne iz glave):**
+
+| Šta | Broj |
+|---|---|
+| reči rečnika koje počinju velikim samoglasnikom (pogođene) | 155 |
+| pilula sa pogrešnim brojem na statičkim stranama | 146, na 133 strane |
+| strana vlastitih imena sa „sopstvenim malim oblikom" među rimama | 160 |
+| statičkih strana kojima se promenio sadržaj posle popravke | 272 |
+| strana koje su ispale jer im je jedina rima bio sopstveni mali oblik | 3 (Melburn, Njujork, Stokholm → 301 na hub, pravilo već postoji) |
+
+**Zašto nismo videli.** Popravka od 02.08. je urađena u **jednoj** funkciji, na
+**jednom** primeru. Niko nije pretražio ostale funkcije nad istim podatkom. Test je
+brojao slogove samo za male reči (`rima`, `ljubav`, `srce`) — nijedna provera nije
+uzela reč velikim slovom, iako ih je u rečniku 860 od 02.08.
+
+> **Pravilo.** Kad se ista logika popravi u jednoj funkciji, **pretražiti sve funkcije
+> nad istim podatkom** (`grep VOWELS`, `grep toLowerCase`) i popraviti klasu, ne
+> instancu. I: **svaki podatak koji ima dva zapisa (veliko/malo, latinica/ćirilica,
+> ekavica/jekavica) ulazi u test u OBA zapisa** — provera koja vidi samo jedan zapis
+> ne pokriva podatak.
+
+Provera: `test/predeploy.mjs`, sekcija **45** — ceo rečnik (svaka reč velikim slovom
+broji isto kao mali oblik), korisnikov tok, i statička strana `/rime-za/slobodan/`
+(„Ilindan" = 3). Puštena protiv produkcije **dok je tamo bio stari kod** — pala.
+

@@ -5235,6 +5235,75 @@ async function main() {
       }
     }
 
+    console.log('\n45) SLOGOVI — veliko početno slovo broji se isto kao malo (prijava korisnika 06.09.2026)');
+    {
+      /* Zašto ova sekcija postoji — prijava korisnika (Dragan M.) od 06.09.2026:
+         za „nepostojan" filter „1 slog" nudi „Iran", a u „2 sloga" ga nema.
+         Uzrok: `countSyl` u app.js NIJE prebacivao reč u mala slova, a `VOWELS`
+         sadrži samo mala — pa veliko početno A/E/I/O/U nije bilo samoglasnik.
+         `vowelPositions` je istu popravku dobio 02.08. (za „Amerika"), `countSyl`
+         nije. Isti kvar i u `build/gen_pages.py` (`count_syl`, `rhyme_key`…).
+         Izmereno pre popravke: 155 reči rečnika počinje velikim samoglasnikom;
+         146 pilula na 133 statičke strane nosilo pogrešan broj (npr. „Ilindan" 2
+         umesto 3 na /rime-za/slobodan/).
+
+         Pravilo šire od nalaza: kad se ista logika popravi u JEDNOJ funkciji,
+         pretražiti sve funkcije nad istim podatkom — kvar je klasa, ne instanca.
+         Ovde se proverava (a) ceo rečnik u alatu, (b) korisnikov tok, (c) statička
+         strana — da Python i JS daju isti broj. */
+      const c45 = await browser.newContext();
+      const p45 = ojacajStranu(await c45.newPage());
+      await p45.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
+      await pauza(2500);
+
+      // (a) ceo rečnik: svaka reč velikim slovom broji se kao njen mali oblik
+      const recnik = await p45.evaluate(() => {
+        const velike = WORDS.filter(w => /^[A-ZČĆŠĐŽ]/.test(w));
+        const lose = velike.filter(w => syllables(w) !== syllables(w.toLowerCase()));
+        return { velikih: velike.length, losih: lose.length, primeri: lose.slice(0, 5),
+                 iran: syllables('Iran'), ana: syllables('Ana'), evropa: syllables('Evropa') };
+      });
+      ok('rečnik ima reči velikim slovom (test nešto proverava)', recnik.velikih > 100, `${recnik.velikih}`);
+      ok('nijedna reč velikim slovom ne broji slogove drugačije od malog oblika',
+         recnik.losih === 0, `${recnik.losih} od ${recnik.velikih}: ${recnik.primeri.join(', ')}`);
+      ok('„Iran" = 2 sloga, „Ana" = 2, „Evropa" = 3',
+         recnik.iran === 2 && recnik.ana === 2 && recnik.evropa === 3,
+         `Iran ${recnik.iran}, Ana ${recnik.ana}, Evropa ${recnik.evropa}`);
+
+      // (b) korisnikov tok: nepostojan → filter 1 → ne sme „Iran"; filter 2 → sme
+      const citaj45 = () => p45.evaluate(() => [...document.querySelectorAll('#rimeResults .chip')]
+        .map(c => ({ w: c.querySelector('.word')?.textContent.trim() ?? '', s: c.querySelector('.syl')?.textContent.trim() ?? '' })));
+      await p45.click('#rimeSyl button[data-syl="1"]'); await pauza(700);
+      const jedan = await citaj45();
+      const dvaSamoglasnika = jedan.filter(x => (x.w.toLowerCase().match(/[aeiou]/g) || []).length >= 2);
+      ok('„nepostojan" · filter „1 slog" daje rezultate', jedan.length > 0, `${jedan.length}`);
+      ok('„nepostojan" · filter „1 slog" ne nudi „Iran"', !jedan.some(x => x.w === 'Iran'),
+         jedan.filter(x => /^[AEIOU]/.test(x.w)).map(x => `${x.w}:${x.s}`).join(', '));
+      ok('„nepostojan" · u „1 slog" nema reči sa dva ili više samoglasnika', dvaSamoglasnika.length === 0,
+         dvaSamoglasnika.map(x => `${x.w}:${x.s}`).join(', '));
+      await p45.click('#rimeSyl button[data-syl="2"]'); await pauza(700);
+      const dva = await citaj45();
+      ok('„nepostojan" · filter „2 sloga" — svaka pilula piše 2', dva.length > 0 && dva.every(x => x.s === '2'),
+         dva.filter(x => x.s !== '2').map(x => `${x.w}:${x.s}`).join(', '));
+
+      // (c) statička strana: broj na piluli (Python) = broj u alatu (JS)
+      await p45.goto(BASE + '/rime-za/slobodan/', { waitUntil: 'domcontentloaded' });
+      await pauza(2000);
+      const staticka = await p45.evaluate(() => {
+        const cips = [...document.querySelectorAll('.chip')].map(c => ({
+          w: c.querySelector('.word')?.textContent.trim() ?? '', s: parseInt(c.querySelector('.syl')?.textContent ?? '0', 10) }))
+          .filter(x => x.w);
+        const lose = cips.filter(x => x.s !== syllables(x.w));
+        const ilindan = cips.find(x => x.w === 'Ilindan');
+        return { ukupno: cips.length, lose: lose.slice(0, 6).map(x => `${x.w}:${x.s}≠${syllables(x.w)}`), losih: lose.length, ilindan: ilindan ? ilindan.s : null };
+      });
+      ok('/rime-za/slobodan/ · ima pilula', staticka.ukupno > 20, `${staticka.ukupno}`);
+      ok('/rime-za/slobodan/ · „Ilindan" nosi 3 sloga', staticka.ilindan === 3, `${staticka.ilindan}`);
+      ok('/rime-za/slobodan/ · svaka pilula nosi isti broj slogova kao alat',
+         staticka.losih === 0, `${staticka.losih}: ${staticka.lose.join(', ')}`);
+      await c45.close();
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

@@ -6,6 +6,29 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## ZATVORENO 06.09.2026 — SLOGOVI ZA REČI VELIKIM SLOVOM (prijava korisnika)
+
+Prijava korisnika: „nepostojan" → filter „1 slog" nudi „Iran". Reprodukovano na sajtu.
+
+| Šta | Bilo | Sada |
+|---|---|---|
+| `countSyl` u `app.js` | ne prebacuje u mala slova → „Iran" = 1 slog | `toLowerCase()`, kao `vowelPositions` → 2 |
+| `count_syl` / `rhyme_key` / `loose_key` / `final_syl_key` u `gen_pages.py` | isto | isto popravljeno, 1:1 sa app.js |
+| samoisključenje cilja na statičkoj strani | `w != t` → „Albanija" nudi „albanija" | `w.lower() != t.lower()` |
+| pogrešnih pilula na statičkim stranama | 146 na 133 strane | 0 |
+| test | nijedna reč velikim slovom | sekcija **45**: ceo rečnik + tok korisnika + statička strana |
+
+Tri strane ispale iz sitemapa (2.017 → 2.014): Melburn, Njujork, Stokholm — jedina
+„rima" im je bio sopstveni mali oblik. Nepostojeće `/rime-za/…` već idu 301 na hub.
+
+**OSTAJE ZA ODLUKU VLASNICE (nov nalaz, otvoren 06.09.):** rečnik ima **608 vlastitih
+imena u dva zapisa** (`Alžir` i `alžir`, `Iran` i `iran`, `Albanija` i `albanija`), pa se
+na stranama i u alatu pojavljuju **jedno do drugog** („…špalir, Alžir, alžir, damir…").
+Definicije malih oblika glase „Oblik reči „Iran"", dakle upisani su namerno. Pitanje:
+ostaju li oba zapisa ili samo veliko slovo? Pun opis u `PROPUSTI.md`, unos od 06.09.
+
+---
+
 ## URAĐENO 26.08.2026 — naslovi, preimenovana strana, sopstveni promet
 
 Test **604 → 650 provera**, prolazi 650/650. `nginx.conf` proveren zasebno.

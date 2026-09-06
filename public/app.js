@@ -543,18 +543,23 @@ function makeChip(word){
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
     `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${disp(word)}">ⓘ</button>` +
     `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${disp(word)}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
-    `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>`;
+    `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${disp(word)}">🔁</button>` +
+    /* Zastavica = „prijavi grešku" (odluka vlasnice 06.09.2026: ikonica uz reč, kao i
+       ostale tri, ne u prozorčiću značenja). Na telefonu isto radi peto dugme trake. */
+    `<button class="mini prijavi" title="${uiTxt('prijavi grešku za ovu reč')}" aria-label="${uiTxt('prijavi grešku za reč')} ${disp(word)}">${IKONA.zastavica}</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
   // Nalaz N5: reč je bila `<span>` sa `onclick` — mišem radi, tastaturom ne.
   wEl.onkeydown = (ev) => {
     if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); copy(disp(word)); }
   };
-  wEl.addEventListener('mouseenter', () => { clearTimeout(defTimer); defTimer = setTimeout(() => showDefAt(word, wEl, false), 320); });
-  wEl.addEventListener('mouseleave', () => { clearTimeout(defTimer); hideDef(); });
+  /* Do 06.09.2026. je prelazak mišem preko reči otvarao oblačić sa značenjem. Od
+     varijante B prelazak otvara TRAKU nad reči (v. `mouseover` niže), pa bi se
+     oblačić i traka preklapali — značenje je sada u traci, na klik „značenje". */
   el.querySelector('.info').onclick = (ev) => { ev.stopPropagation(); showDefAt(word, ev.currentTarget, true); };
   el.querySelector('.fav').onclick = () => toggleFav(word);
   el.querySelector('.rh').onclick = () => { rimeInput.value = disp(word); switchTab('rime'); doRhymes(); };
+  el.querySelector('.prijavi').onclick = (ev) => { ev.stopPropagation(); otvoriPrijavu(word, el); };
   /* Na telefonu čipovi stoje u mreži jednakih kolona; duga reč mora da dobije
      dve ili tri kolone. Merenje je zajedničko za sve čipove i ide jednom po
      kadru — v. `zakaziMerenjeCipova`. Van telefona ne radi ništa. */
@@ -575,12 +580,13 @@ function renderLegend(container){
      telefonu opisivala tri ikonice kojih na ekranu nema. */
   l.innerHTML = jeTelefon()
     ? '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661 i rime') + '</span>'
+      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661, na\u0111i rime, prijavi') + '</span>'
+    /* Računar od 06.09.2026 (odluka vlasnice, varijanta B): ikonice više ne stoje u
+       kapsuli — pojave se u traci nad reči kad se mišem pređe preko nje. Kapsula je
+       kraća, pa u red stane oko 10 reči umesto 4 (izmereno na 1280 px). */
     : '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-      '<span class="legend-item"><span class="legend-ic">\u24D8</span> ' + uiTxt('zna\u010denje re\u010di') + '</span>' +
-      '<span class="legend-item"><span class="legend-ic">\u2661</span> ' + uiTxt('sa\u010duvaj u \u201eOmiljene\u201c') + '</span>' +
-      '<span class="legend-item"><span class="legend-ic">\u{1F501}</span> ' + uiTxt('na\u0111i rime za tu re\u010d') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('klikni na re\u010d da je kopira\u0161') + '</span>';
+      '<span class="legend-item legend-tap">' + uiTxt('pre\u0111i mi\u0161em preko re\u010di \u2192 zna\u010denje, \u2661 omiljene, na\u0111i rime za nju, kopiraj, prijavi gre\u0161ku') + '</span>' +
+      '<span class="legend-item legend-tap">' + uiTxt('klik na re\u010d je kopira') + '</span>';
   container.appendChild(l);
 }
 
@@ -770,6 +776,7 @@ window.addEventListener('resize', zakaziMerenjeCipova);
    boju teme jer koristi `currentColor`. */
 const SVG_OKVIR = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">';
 const IKONA = {
+  zastavica: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 21V4"/><path d="M5 4h11l-1.5 3.5L16 11H5"/></svg>',
   znacenje: SVG_OKVIR + '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.6v.9"/></svg>',
   srce:     SVG_OKVIR + '<path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20z"/></svg>',
   /* Sačuvano stanje NIJE puno srce nego PUNA NOTA — isti crtež kao u pilulama
@@ -813,9 +820,13 @@ function otvoriCipTraku(cip, rec){
     `<button type="button" class="ca-btn${omiljena ? ' on' : ''}" data-act="fav" aria-label="${uiTxt('sačuvaj u „Omiljene“')}: ${disp(rec)}">` +
       `<span class="ca-ic">${omiljena ? IKONA.notaPuna : IKONA.srce}</span><span class="ca-txt">${uiTxt('omiljene')}</span></button>` +
     `<button type="button" class="ca-btn" data-act="rime" aria-label="${uiTxt('nađi rime za')} ${disp(rec)}">` +
-      `<span class="ca-ic">${IKONA.rime}</span><span class="ca-txt">${uiTxt('rime')}</span></button>` +
+      `<span class="ca-ic">${IKONA.rime}</span><span class="ca-txt">${uiTxt('nađi rime')}</span></button>` +
     `<button type="button" class="ca-btn" data-act="kopiraj" aria-label="${uiTxt('kopiraj reč')} ${disp(rec)}">` +
-      `<span class="ca-ic">${IKONA.kopiraj}</span><span class="ca-txt">${uiTxt('kopiraj')}</span></button>`;
+      `<span class="ca-ic">${IKONA.kopiraj}</span><span class="ca-txt">${uiTxt('kopiraj')}</span></button>` +
+    /* „Prijavi grešku" (06.09.2026): korisnik je mejlom prijavio „Iran" sa jednim
+       slogom — ovim to stiže na tri dodira, bez pisanja pisma. V. odeljak PRIJAVA. */
+    `<button type="button" class="ca-btn ca-prijavi" data-act="prijavi" aria-label="${uiTxt('prijavi grešku za reč')} ${disp(rec)}">` +
+      `<span class="ca-ic">${IKONA.zastavica}</span><span class="ca-txt">${uiTxt('prijavi')}</span></button>`;
   t.hidden = false;
   t.dataset.w = rec;
   postaviCipTraku(cip);
@@ -824,7 +835,10 @@ function otvoriCipTraku(cip, rec){
       ev.preventDefault();
       ev.stopPropagation();          // da document-osluškivač ne zatvori oblačić
       const a = b.dataset.act;
-      if(a === 'def'){ pripremiDefinicije(); showDefAt(rec, b, true); zatvoriCipTraku(); }
+      /* Oblačić se veže za REČ, ne za dugme trake: traka se odmah zatim sakrije, pa bi
+         dugme imalo položaj 0,0 i oblačić bi odleteo u gornji levi ugao (prijava
+         vlasnice 06.09.2026 na lokalnoj probi). */
+      if(a === 'def'){ pripremiDefinicije(); zatvoriCipTraku(); showDefAt(rec, cip, true); }
       else if(a === 'fav'){
         toggleFav(rec);
         const on = isFav(rec);
@@ -832,6 +846,7 @@ function otvoriCipTraku(cip, rec){
         b.querySelector('.ca-ic').innerHTML = on ? IKONA.notaPuna : IKONA.srce;
       }
       else if(a === 'rime'){ zatvoriCipTraku(); rimeInput.value = disp(rec); switchTab('rime'); doRhymes(); }
+      else if(a === 'prijavi'){ zatvoriCipTraku(); otvoriPrijavu(rec, cip); }
       else { copy(disp(rec)); zatvoriCipTraku(); }
     };
   });
@@ -873,6 +888,55 @@ document.addEventListener('click', (e) => {
   otvoriCipTraku(cip, cip.dataset.w || '');
 }, true);
 window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
+
+/* RAČUNAR — traka nad reči na prelazak mišem ili fokus tastaturom (06.09.2026,
+   odluka vlasnice, varijanta B). Ikonice ⓘ ♡ 🔁 ⚑ više ne stoje u kapsuli (CSS
+   `.chip .mini{display:none}`), pa je kapsula kratka i u red stane 2,5 puta više
+   reči; sve radnje su u istoj traci kao na telefonu. Klik na reč i dalje kopira.
+   Važi i za statične strane `/rime-za/` (čip nosi `data-rec`). Ne važi u panelu
+   uz stih (`.note-rhymes`) — tamo klik ubacuje reč u pesmu. */
+let hoverTimer = null, hoverZatvori = null;
+/* LEPLJIVA TRAKA (prijava vlasnice 06.09.2026: „krenem ka „prijavi", okrznem susednu reč i
+   traka nestane"). Pravila: (1) otvorena traka se NE prebacuje na susednu reč dok kursor
+   ne ODSTOJI na njoj 350 ms — samo prolazak preko nje ne menja ništa; (2) ulazak u traku
+   otkazuje svako zatvaranje; (3) traka se zatvara tek kad kursor 700 ms nije ni na reči ni
+   na traci. Prva traka (kad nijedna nije otvorena) otvara se brzo, posle 110 ms. */
+const TRAKA_PRVA_MS = 110, TRAKA_PREBACI_MS = 350, TRAKA_ZATVORI_MS = 700;
+function cipZaTraku(el){
+  const cip = el && el.closest ? el.closest('.chip') : null;
+  if(!cip || cip.closest('.note-rhymes')) return null;
+  if(!cip.dataset.w && !cip.dataset.rec) return null;
+  return cip;
+}
+document.addEventListener('mouseover', (e) => {
+  if(jeTelefon()) return;
+  const t = e.target;
+  if(!t || !t.closest) return;
+  if(t.closest('.chip-actions') || t.closest('.prijava')){ clearTimeout(hoverZatvori); clearTimeout(hoverTimer); return; }
+  const cip = cipZaTraku(t);
+  clearTimeout(hoverTimer);
+  if(cip){
+    clearTimeout(hoverZatvori);
+    if(cipTrakaZa === cip) return;
+    const otvorena = cipTraka && !cipTraka.hidden;
+    hoverTimer = setTimeout(() => otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || ''), otvorena ? TRAKA_PREBACI_MS : TRAKA_PRVA_MS);
+  } else if(!prijavaBox){
+    clearTimeout(hoverZatvori);
+    hoverZatvori = setTimeout(zatvoriCipTraku, TRAKA_ZATVORI_MS);
+  }
+});
+/* Kad kursor napusti reč PRE nego što istekne 350 ms, prebacivanje se otkazuje —
+   inače bi traka skočila na reč preko koje je kursor samo prošao. */
+document.addEventListener('mouseout', (e) => {
+  if(jeTelefon()) return;
+  const cip = cipZaTraku(e.target);
+  if(cip && cipTrakaZa !== cip && !(e.relatedTarget && cip.contains(e.relatedTarget))) clearTimeout(hoverTimer);
+});
+document.addEventListener('focusin', (e) => {
+  if(jeTelefon()) return;
+  const cip = cipZaTraku(e.target);
+  if(cip && cipTrakaZa !== cip) otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
+});
 document.addEventListener('keydown', (e) => { if(e.key === 'Escape') zatvoriCipTraku(); });
 /* Promena širine (okretanje telefona, otvaranje tastature na Androidu) menja i
    gde je čip — traka bi ostala da visi na starom mestu. */
@@ -4975,3 +5039,134 @@ bootstrap();
     nota.classList.toggle('u-srcu');
   }));
 })();
+
+/* ====================== PRIJAVA GREŠKE (06.09.2026) ======================
+   Zašto postoji: korisnik je 06.09.2026. mejlom prijavio da „Iran" ima 1 slog —
+   tačno, i mesecima neprimećeno. Sa ovim isti kvar stiže istog dana, sa tačnom
+   reči, brojem i traženom reči, na tri dodira. Bez imena, bez mejla, bez naloga.
+   Telefon: peto dugme u traci nad reči. Računar: četvrta ikonica (zastavica) uz reč.
+   Šalje se u sanduče `worker/prijave.js` (Cloudflare); adresa mora biti i u CSP
+   (`nginx.conf`, connect-src). Test: sekcija 46. */
+const PRIJAVA_URL = 'https://rimoteka-prijave.jovana-daskovic.workers.dev/prijava';
+const PRIJAVA_DNEVNO = 8;                       // koliko sme jedan uređaj dnevno
+const PRIJAVA_RAZLOZI = [
+  ['slogovi',           'Pogrešan broj slogova'],
+  ['nije-rec',          'Ovo nije ispravna reč'],
+  ['pogresno-napisana', 'Pogrešno napisana reč'],
+  ['ne-rimuje-se',      'Ne rimuje se sa'],
+  ['nije-za-decu',      'Nije za decu'],
+  ['drugo',             'Nešto drugo'],
+];
+let prijavaBox = null, prijavaZavesa = null;
+function prijavaUpit(){
+  try { return toLatin((rimeInput && rimeInput.value || '').trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,''); } catch(e){ return ''; }
+}
+function prijavaDanas(){
+  const dan = new Date().toISOString().slice(0,10);
+  const z = lsJSON('rimoteka_prijave', {});
+  return (z && z.dan === dan && typeof z.n === 'number') ? { dan, n: z.n } : { dan, n: 0 };
+}
+function zatvoriPrijavu(){
+  if(prijavaBox){ prijavaBox.remove(); prijavaBox = null; }
+  if(prijavaZavesa){ prijavaZavesa.remove(); prijavaZavesa = null; }
+  document.removeEventListener('keydown', prijavaEsc);
+}
+function prijavaEsc(e){ if(e.key === 'Escape') zatvoriPrijavu(); }
+function otvoriPrijavu(rec, anchor){
+  zatvoriPrijavu();
+  const upit = prijavaUpit();
+  const slog = syllables(rec);
+  const telefon = jeTelefon();
+  const box = document.createElement('div');
+  box.className = 'prijava' + (telefon ? ' sheet' : '');
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-label', uiTxt('Prijavi grešku'));
+  const opcije = PRIJAVA_RAZLOZI
+    .filter(([k]) => k !== 'ne-rimuje-se' || (upit && upit !== rec.toLowerCase()))
+    .map(([k, t], i) => {
+      let tekst = uiTxt(t);
+      if(k === 'slogovi') tekst += ` (${uiTxt('piše')} ${slog})`;
+      if(k === 'ne-rimuje-se') tekst += ` „${disp(upit)}“`;
+      return `<label class="prijava-opcija${i === 0 ? ' on' : ''}"><input type="radio" name="prijava-razlog" value="${k}"${i === 0 ? ' checked' : ''}><i></i>${tekst}</label>`;
+    }).join('');
+  box.innerHTML =
+    `<h3 class="prijava-naslov">${uiTxt('Šta ne valja kod reči')} „<b>${escapeHtml(disp(rec))}</b>“?</h3>` +
+    opcije +
+    `<textarea class="prijava-napomena" rows="2" maxlength="500" placeholder="${uiTxt('Napomena (nije obavezno)')}"></textarea>` +
+    `<input type="text" class="prijava-mejl" name="mejl" tabindex="-1" autocomplete="off" aria-hidden="true">` +
+    `<div class="prijava-red"><small class="prijava-napomena-tekst">${uiTxt('Poruka je anonimna.')}<br>${uiTxt('Hvala što pomažeš da Rimoteka bude tačna.')}</small>` +
+    `<button type="button" class="prijava-posalji">${uiTxt('Pošalji')}</button></div>`;
+  if(telefon){
+    prijavaZavesa = document.createElement('div');
+    prijavaZavesa.className = 'prijava-zavesa';
+    prijavaZavesa.onclick = zatvoriPrijavu;
+    document.body.appendChild(prijavaZavesa);
+  }
+  document.body.appendChild(box);
+  prijavaBox = box;
+  box.querySelectorAll('.prijava-opcija').forEach(l => l.addEventListener('change', () => {
+    box.querySelectorAll('.prijava-opcija').forEach(x => x.classList.toggle('on', x.querySelector('input').checked));
+  }));
+  box.addEventListener('click', ev => ev.stopPropagation());
+  if(!telefon && anchor && anchor.getBoundingClientRect){
+    const r = anchor.getBoundingClientRect();
+    const bw = box.offsetWidth, bh = box.offsetHeight;
+    let left = r.left + r.width/2 - bw/2 + window.scrollX;
+    left = Math.max(8, Math.min(left, window.scrollX + document.documentElement.clientWidth - bw - 8));
+    /* Ispod reči kad ima mesta, inače iznad; ako ne staje ni gore ni dole (reč na
+       sredini, nizak prozor), ide ispod i PRITEGNE se u ekran — pre 06.09.2026 je u tom
+       slučaju odletao iznad gornje ivice i test ga nije video. */
+    let top;
+    if(r.bottom + 12 + bh <= window.innerHeight - 8) top = r.bottom + window.scrollY + 12;
+    else if(r.top - bh - 12 >= 8) top = r.top + window.scrollY - bh - 12;
+    else top = window.scrollY + Math.max(8, Math.min(r.bottom + 12, window.innerHeight - bh - 8));
+    box.style.left = left + 'px'; box.style.top = top + 'px';
+  }
+  document.addEventListener('keydown', prijavaEsc);
+  setTimeout(() => { const prvi = box.querySelector('input[type=radio]'); if(prvi) prvi.focus(); }, 30);
+  box.querySelector('.prijava-posalji').onclick = () => posaljiPrijavu(rec, upit, slog, box);
+}
+async function posaljiPrijavu(rec, upit, slog, box){
+  const dugme = box.querySelector('.prijava-posalji');
+  const razlog = (box.querySelector('input[name=prijava-razlog]:checked') || {}).value;
+  if(!razlog) return;
+  const stanje = prijavaDanas();
+  if(stanje.n >= PRIJAVA_DNEVNO){ prijavaHvala(box, uiTxt('Za danas je dosta — hvala! Nastavi sutra.'), false); return; }
+  dugme.disabled = true; dugme.textContent = uiTxt('Šaljem…');
+  const telo = {
+    rec, upit, slogova: slog, razlog,
+    napomena: (box.querySelector('.prijava-napomena').value || '').trim().slice(0, 500),
+    strana: location.pathname + (upit ? '?rec=' + encodeURIComponent(upit) : ''),
+    mejl: box.querySelector('.prijava-mejl').value || '',
+    /* Uređaj označen sa `?interno=1` (vlasnica, test) šalje PROBU: sanduče sve
+       proveri, a ne zapiše ništa — da test ne puni sanduče lažnim prijavama. */
+    proba: lsGet('rimoteka_interno') === '1',
+  };
+  try{
+    const r = await fetch(PRIJAVA_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(telo), keepalive: true });
+    const o = await r.json().catch(() => ({}));
+    if(!r.ok || !o.ok){
+      if(r.status === 429) prijavaHvala(box, uiTxt('Previše prijava odjednom. Probaj malo kasnije.'), false);
+      else throw new Error('sanduče: ' + r.status);
+      return;
+    }
+    if(!telo.proba) lsSet('rimoteka_prijave', JSON.stringify({ dan: stanje.dan, n: stanje.n + 1 }));
+    try { if(typeof gtag === 'function') gtag('event', 'prijava_greske', { razlog, rec }); } catch(e){}
+    prijavaHvala(box, `<b>${uiTxt('Hvala!')}</b> ${uiTxt('Prijava za')} „${escapeHtml(disp(rec))}“ ${uiTxt('je stigla.')}<br>${uiTxt('Pogledaćemo je i ispraviti.')}`, true);
+  }catch(e){
+    dugme.disabled = false; dugme.textContent = uiTxt('Pošalji');
+    let gr = box.querySelector('.prijava-greska');
+    if(!gr){ gr = document.createElement('div'); gr.className = 'prijava-greska'; box.insertBefore(gr, box.querySelector('.prijava-red')); }
+    gr.textContent = uiTxt('Nije prošlo. Proveri vezu i probaj ponovo.');
+  }
+}
+function prijavaHvala(box, html, uspeh){
+  box.classList.add('hvala');
+  box.innerHTML = (uspeh ? '<div class="prijava-ok"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>' : '') +
+    `<p class="prijava-hvala-tekst">${html}</p>`;
+  setTimeout(zatvoriPrijavu, uspeh ? 2600 : 3200);
+}
+document.addEventListener('click', (e) => {
+  if(prijavaBox && !prijavaBox.classList.contains('sheet') && !prijavaBox.contains(e.target)) zatvoriPrijavu();
+}, true);
+

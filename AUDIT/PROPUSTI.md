@@ -1327,3 +1327,25 @@ je pitala „zašto imamo dve reči za ime boga“ — i bila u pravu.
 > sa svakim parom — po **značenju** (objašnjenje reči), ne po obrascu. Ovde je obrazac
 > „obriši sve malo“ hteo da obriše i `danska`, `nemačku`, `rimi` i `prag`.
 
+**Dopuna 06.09. (kasnije) — test je čekao tačno dve sekunde na odgovor spoljnog servisa.**
+Prvi prolaz sekcije 46 je pao na tri provere jer je sanduče (Cloudflare worker) na hladnom
+startu odgovorilo posle više od dve sekunde, a test je čekao fiksnih 2.000 ms. Zahtev jeste
+otišao (to je prošlo), samo odgovor nije stigao u rok. Uz to je prozorčić koji je zbog toga
+ostao otvoren presreo sledeći klik i srušio ceo test.
+
+> **Pravilo.** Na odgovor spoljnog servisa se **ne čeka fiksno vreme** nego se **čeka stanje**
+> (`waitForSelector` sa razumnom gornjom granicom, npr. 8 s). I posle svakog koraka koji
+> otvara prozor/sloj, test ga **izričito zatvori** pre sledećeg klika — inače jedna pala
+> provera obara sve iza sebe.
+
+**Dopuna — drugi pad iste sekcije: pogrešna dijagnoza.** Posle prve popravke (čekanje na
+stanje) sekcija 46 je pala ponovo, isto. Pravi uzrok: test diže lokalni server na portu
+8799, a sanduče je dozvoljavalo samo porekla 8765/8766, pa je pregledač odbio odgovor (CORS).
+Moja samostalna proba je radila jer je slučajno išla sa 8766. Zahtev je odlazio (ta provera
+je prolazila), odgovor nije stizao — a ja sam to pročitao kao „sporo sanduče".
+
+> **Pravilo.** Kad zahtev ode a odgovor ne stigne, prvo se proveri **poreklo i port** iz
+> kojih test stvarno šalje (`PORT` u testu), ne pretpostavlja se latencija. I: samostalna
+> proba mora da ide **istim putem kao test** (isti port, isti omotači), inače dokazuje
+> nešto drugo.
+

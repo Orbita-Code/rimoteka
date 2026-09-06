@@ -318,7 +318,7 @@ async function loadLocalDefs(){
      ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
      `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
      briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=cb62a039')
+  defsPromise = fetch('/definicije.json?v=4c98e124')
     .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(defs => {
       for(const k in defs) DEFS.set(k, defs[k]);
@@ -352,7 +352,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=8a9899b2', true),
+    uzmiTekst('/reci.txt?v=c233afa9', true),
     uzmiTekst('/reci_jekavica.txt?v=1e9eef37', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -457,8 +457,12 @@ async function loadExtras(){
     const POMAK = WORDS.length;
     for(let i=0;i<WORDS.length;i++){
       const w = WORDS[i];
-      const freq = freqRes[w] || 0;
-      RANK.set(w, freq >= PRAG ? -freq : (MATICA.has(w) ? i : i + POMAK));
+      /* Učestalost i Matica su zapisane MALIM slovima, a vlastita imena u rečniku
+         velikim (`Beograd`). Do 06.09.2026. se tražilo `freqRes['Beograd']` — nema
+         ga — pa je svako ime padalo na dno kao „bez signala". Traži se po `MALE[i]`. */
+      const m = MALE[i];
+      const freq = freqRes[w] || freqRes[m] || 0;
+      RANK.set(w, freq >= PRAG ? -freq : ((MATICA.has(w) || MATICA.has(m)) ? i : i + POMAK));
     }
 
     /* PONOVO ISCRTAJ ONO ŠTO JE VEĆ NA EKRANU — nalaz K1 (audit 20.08.2026).

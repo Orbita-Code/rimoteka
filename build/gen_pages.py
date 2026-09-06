@@ -758,8 +758,11 @@ def load_rank(words):
     POMAK = len(words)
     rank = {}
     for i, w in enumerate(words):
-        f_w = freq.get(w, 0)
-        rank[w] = -f_w if f_w >= PRAG else (i if w in matica else i + POMAK)
+        # Učestalost i Matica su malim slovima, imena u rečniku velikim — traži i po
+        # malom obliku (06.09.2026), isto kao app.js `freqRes[w] || freqRes[m]`.
+        wl = w.lower()
+        f_w = freq.get(w, 0) or freq.get(wl, 0)
+        rank[w] = -f_w if f_w >= PRAG else (i if (w in matica or wl in matica) else i + POMAK)
     return rank
 
 

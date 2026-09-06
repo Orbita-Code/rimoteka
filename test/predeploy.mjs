@@ -5264,6 +5264,21 @@ async function main() {
                  iran: syllables('Iran'), ana: syllables('Ana'), evropa: syllables('Evropa') };
       });
       ok('rečnik ima reči velikim slovom (test nešto proverava)', recnik.velikih > 100, `${recnik.velikih}`);
+      /* 06.09.2026, odluka vlasnice: ime ne sme da stoji i malim slovom („Iran" i „iran"
+         jedno do drugog među rimama). Obrisano 488 malih oblika; prave reči koje se
+         samo pišu isto (rima/Rima, prag/Prag, danska/Danska) ostaju — zato prag 130. */
+      const blizanci = await p45.evaluate(() => {
+        const male = new Set(WORDS.filter(w => !/^[A-ZČĆŠĐŽ]/.test(w)));
+        const dup = WORDS.filter(w => /^[A-ZČĆŠĐŽ]/.test(w) && male.has(w.toLowerCase()));
+        return { n: dup.length, primeri: dup.slice(0, 8) };
+      });
+      ok('ime velikim slovom nema dvojnika malim slovom (osim pravih reči, najviše 130)',
+         blizanci.n <= 130, `${blizanci.n}: ${blizanci.primeri.join(', ')}`);
+      const rangImena = await p45.evaluate(() => {
+        const r = RANK.get('Srbija'); return { beograd: r, negativan: typeof r === 'number' && r < 0 };
+      });
+      ok('„Srbija" dobija učestalost iako je u rečniku velikim slovom (RANK < 0)',
+         rangImena.negativan, `RANK=${rangImena.beograd}`);
       ok('nijedna reč velikim slovom ne broji slogove drugačije od malog oblika',
          recnik.losih === 0, `${recnik.losih} od ${recnik.velikih}: ${recnik.primeri.join(', ')}`);
       ok('„Iran" = 2 sloga, „Ana" = 2, „Evropa" = 3',

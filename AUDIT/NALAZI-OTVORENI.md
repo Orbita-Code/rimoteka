@@ -21,11 +21,15 @@ Prijava korisnika: „nepostojan" → filter „1 slog" nudi „Iran". Reproduko
 Tri strane ispale iz sitemapa (2.017 → 2.014): Melburn, Njujork, Stokholm — jedina
 „rima" im je bio sopstveni mali oblik. Nepostojeće `/rime-za/…` već idu 301 na hub.
 
-**OSTAJE ZA ODLUKU VLASNICE (nov nalaz, otvoren 06.09.):** rečnik ima **608 vlastitih
-imena u dva zapisa** (`Alžir` i `alžir`, `Iran` i `iran`, `Albanija` i `albanija`), pa se
-na stranama i u alatu pojavljuju **jedno do drugog** („…špalir, Alžir, alžir, damir…").
-Definicije malih oblika glase „Oblik reči „Iran"", dakle upisani su namerno. Pitanje:
-ostaju li oba zapisa ili samo veliko slovo? Pun opis u `PROPUSTI.md`, unos od 06.09.
+**ZATVORENO ISTOG DANA — mali dvojnici imena (odluka vlasnice 06.09.):** obrisano **488**
+malih oblika (`iran`, `albanija`, `beograd`…), ostalo 120 pravih reči koje se pišu isto
+(`danska`, `rimi`, `prag`, `mesec`…). Spisak: `AUDIT/obrisani-mali-oblici-06-09-2026.md`.
+Uz to: učestalost i Matica se sada traže i po malom obliku, pa imena više ne padaju na dno.
+Test: sekcija 45 (nema dvojnika; „Srbija“ ima učestalost). Rečnik: 280.476 → 279.988 reči.
+
+**ODLUČENO 06.09. — skraćenice OSTAJU.** Rečnik ima 48 skraćenica bez samoglasnika (`dnk`, `gps`,
+`html`, `jpg`, `pdf`, `cd`, `dvd`…); alat ih prikazuje kao „1 slog“. Vlasnica: „ako izlaze za neke
+rime, što da ne“. Ne dirati, ne predlagati ponovo bez novog razloga.
 
 ---
 

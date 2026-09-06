@@ -1349,3 +1349,14 @@ je prolazila), odgovor nije stizao — a ja sam to pročitao kao „sporo sandu�
 > proba mora da ide **istim putem kao test** (isti port, isti omotači), inače dokazuje
 > nešto drugo.
 
+**Dopuna — test protiv produkcije pao na 4 provere koje lokalno prolaze.** Sekcija 45 („Srbija"
+ima učestalost) i 44 (tamna tema na 1440 px) čekale su fiksno 2,5 s odnosno 1,5 s; lokalno je
+to dovoljno, na produkciji (rečnik 2,5 MB + učestalost preko mreže) nije. Sajt je bio ispravan,
+test je gledao prerano. Ista klasa greške kao ranije istog dana (sanduče) — ovog puta u dve
+STARE sekcije koje sam sam napisao ranije.
+
+> **Pravilo (prošireno).** Svaka provera koja zavisi od podatka koji stiže preko mreže
+> (rečnik, učestalost, rezultati) čeka **stanje** (`waitForFunction`/`waitForSelector` sa
+> granicom), ne fiksno vreme — i lokalno i na produkciji. Fiksno `pauza(N)` posle mrežnog
+> koraka je greška u testu, ne u sajtu.
+

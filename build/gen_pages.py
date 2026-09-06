@@ -925,7 +925,43 @@ def main():
     # lastmod = datum gradnje (04.08.2026): do tada je bio zakucan julski datum,
     # pa Google iz sitemapa nije video da se ijedna strana ikad menja.
     DANAS = date.today().isoformat()
-    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % (BASE, DANAS)]
+
+    # ---- PRAVI lastmod PO STRANI (nalaz S8, 06.09.2026) ---------------------------
+    # Do sada je svaka od 2.014 adresa u sitemapu nosila lastmod = datum gradnje, pa je
+    # Google pri svakoj regeneraciji video „sve se promenilo" i prestao da veruje tom
+    # podatku (GSC 04.09.2026: statičke strane „Discovered – not indexed", nijedna
+    # obiđena). Sada se lastmod menja SAMO kad se sadržaj strane stvarno promeni:
+    # otisak (sha256) HTML-a bez verzija fajlova (`?v=…`) čuva se u
+    # `build/strane-otisci.json`; ista strana = isti otisak = stari datum.
+    import hashlib, json as _json, re as _re
+    OTISCI_PUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'strane-otisci.json')
+    try:
+        with open(OTISCI_PUT, encoding='utf-8') as f:
+            OTISCI = _json.load(f)
+    except Exception:
+        OTISCI = {}
+    lastmod_stat = {'isto': 0, 'promenjeno': 0, 'novo': 0}
+    def lastmod_za(url, html):
+        norm = _re.sub(r'\?v=[0-9a-z]+', '', html)
+        otisak = hashlib.sha256(norm.encode('utf-8')).hexdigest()[:16]
+        z = OTISCI.get(url)
+        if z and z.get('otisak') == otisak:
+            lastmod_stat['isto'] += 1
+            return z['lastmod']
+        lastmod_stat['promenjeno' if z else 'novo'] += 1
+        OTISCI[url] = {'otisak': otisak, 'lastmod': DANAS}
+        return DANAS
+    def lastmod_fajl(url, putanja):
+        try:
+            with open(putanja, encoding='utf-8') as f:
+                return lastmod_za(url, f.read())
+        except Exception:
+            return DANAS
+    def sacuvaj_otiske():
+        with open(OTISCI_PUT, 'w', encoding='utf-8') as f:
+            _json.dump(OTISCI, f, ensure_ascii=False, indent=0, sort_keys=True)
+        print('lastmod: isto %(isto)d · promenjeno %(promenjeno)d · novo %(novo)d' % lastmod_stat)
+    sitemap_entries = ['  <url><loc>%s/</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' % (BASE, lastmod_fajl(BASE + '/', os.path.join(PUB, 'index.html')))]
 
     # Grupe po rhyme_key, final_syl_key i loose_key (asonanca)
     loosegroup = defaultdict(list)
@@ -1161,7 +1197,7 @@ def main():
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(page)
         sitemap_entries.append(
-            f'  <url><loc>{canonical}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+            f'  <url><loc>{canonical}</loc><lastmod>{lastmod_za(canonical, page)}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
         napravljene.append(t)
         generated += 1
 
@@ -1225,10 +1261,11 @@ def main():
 """
     slog_dir = os.path.join(PUB, 'slogovi')
     os.makedirs(slog_dir, exist_ok=True)
+    slog_html = (slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
     with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write((slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
+        f.write(slog_html)
     sitemap_entries.append(
-        f'  <url><loc>{slog_canon}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
+        f'  <url><loc>{slog_canon}</loc><lastmod>{lastmod_za(slog_canon, slog_html)}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
 
     # 2c) tematske strane (autoritet + niše)
     content_defs = [
@@ -1777,7 +1814,7 @@ def main():
                          cd['lead'], cd['sections'], cd['faqs'], cd['cta_href'], cd['cta_text'],
                          tool=cd.get('tool', False), aktivan_tab=cd.get('aktivan_tab', ''))
         sitemap_entries.append(
-            f'  <url><loc>{c}</loc><lastmod>{DANAS}</lastmod><changefreq>monthly</changefreq>'
+            f'  <url><loc>{c}</loc><lastmod>{lastmod_fajl(c, os.path.join(PUB, cd["slug"], "index.html"))}</lastmod><changefreq>monthly</changefreq>'
             f'<priority>{cd.get("priority", "0.6")}</priority></url>')
 
     # 2z) HUB STRANA /rime-za/ — spisak svih strana reči
@@ -1824,10 +1861,12 @@ def main():
   {''.join(hub_sekcije)}
 </main>
 """
+    hub_html = (hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
     with open(os.path.join(outdir, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write((hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
+        f.write(hub_html)
     sitemap_entries.append(
-        f'  <url><loc>{hub_canon}</loc><lastmod>{DANAS}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
+        f'  <url><loc>{hub_canon}</loc><lastmod>{lastmod_za(hub_canon, hub_html)}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
+    sacuvaj_otiske()
 
     # 3) sitemap
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

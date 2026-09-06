@@ -5473,6 +5473,27 @@ async function main() {
       ok('sanduče · pregled prijava bez ključa ne otvara (403)', pregled.status === 403, `${pregled.status}`);
     }
 
+    console.log('\n48) SITEMAP lastmod PRATI SADRŽAJ STRANE (nalaz S8, 06.09.2026)');
+    if (LOKALNO) {
+      /* Do 06.09.2026 je svaka adresa u sitemapu nosila lastmod = datum gradnje, pa je
+         Google svaki put video „sve se promenilo" i prestao da veruje (GSC: statičke
+         strane „Discovered – not indexed"). Sada `build/strane-otisci.json` čuva otisak
+         svake strane; lastmod se menja samo kad se otisak promeni. Ovde: mapa postoji,
+         pokriva sve adrese iz sitemapa, i sitemap nosi baš te datume. Samo lokalno —
+         produkcija ne servira `build/`. */
+      const fs = await import('node:fs');
+      const otisci = JSON.parse(fs.readFileSync(path.join(ROOT, 'build', 'strane-otisci.json'), 'utf8'));
+      const sm = fs.readFileSync(path.join(ROOT, 'public', 'sitemap.xml'), 'utf8');
+      const unosi = [...sm.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)].map(m => ({ url: m[1], lastmod: m[2] }));
+      const bezOtiska = unosi.filter(u => !otisci[u.url]);
+      const drugiDatum = unosi.filter(u => otisci[u.url] && otisci[u.url].lastmod !== u.lastmod);
+      ok('sitemap ima unose sa lastmod-om', unosi.length > 1000, `${unosi.length}`);
+      ok('svaka adresa iz sitemapa ima otisak u build/strane-otisci.json', bezOtiska.length === 0, bezOtiska.slice(0, 3).map(u => u.url).join(', '));
+      ok('lastmod u sitemapu je onaj iz mape otisaka (ne datum gradnje)', drugiDatum.length === 0, drugiDatum.slice(0, 3).map(u => `${u.url} ${u.lastmod}≠${otisci[u.url].lastmod}`).join(', '));
+    } else {
+      console.log('  (preskočeno na produkciji — mapa otisaka je u build/, ne na sajtu)');
+    }
+
     console.log('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));

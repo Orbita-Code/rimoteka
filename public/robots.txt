@@ -10,5 +10,7 @@ Disallow: /*?tab=
 Disallow: /*?pesma=
 Disallow: /*?naslov=
 Disallow: /*?decji=
+# Slika za Gmail potpis (06.09.2026) — nije sadržaj za pretragu.
+Disallow: /potpis/
 
 Sitemap: https://rimoteka.com/sitemap.xml

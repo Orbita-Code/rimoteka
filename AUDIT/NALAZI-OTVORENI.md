@@ -27,10 +27,9 @@ malih oblika (`iran`, `albanija`, `beograd`…), ostalo 120 pravih reči koje se
 Uz to: učestalost i Matica se sada traže i po malom obliku, pa imena više ne padaju na dno.
 Test: sekcija 45 (nema dvojnika; „Srbija“ ima učestalost). Rečnik: 280.476 → 279.988 reči.
 
-**NOV NALAZ ZA ODLUKU (06.09.):** rečnik ima **48 skraćenica bez samoglasnika** (`dnk`, `gps`,
-`html`, `jpg`, `pdf`, `kgb`, `cd`, `dvd`, `hm`, `pst`…) koje alat prikazuje kao „1 slog“ i nudi
-kao rime. Predlog: izbaciti ih iz `reci.txt` (nisu reči nego skraćenice; uzvici `hm`, `pst`,
-`psst` mogu ostati). Čeka odluku vlasnice.
+**ODLUČENO 06.09. — skraćenice OSTAJU.** Rečnik ima 48 skraćenica bez samoglasnika (`dnk`, `gps`,
+`html`, `jpg`, `pdf`, `cd`, `dvd`…); alat ih prikazuje kao „1 slog“. Vlasnica: „ako izlaze za neke
+rime, što da ne“. Ne dirati, ne predlagati ponovo bez novog razloga.
 
 ---
 

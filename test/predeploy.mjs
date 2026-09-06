@@ -5202,7 +5202,10 @@ async function main() {
         await pauza(1200);
         await p44.fill('#rimeInput', 'ljubav');
         await p44.evaluate(() => document.getElementById('rimeBtn').click());
-        await pauza(1500);
+        /* Rezultati na produkciji (rečnik od 2,5 MB preko mreže) umeju da stignu posle
+           1,5 s — čeka se grupa „Dobre rime" do 20 s, ne fiksno vreme. */
+        await p44.waitForFunction(() => [...document.querySelectorAll('#rimeResults .res-group h2')].some(h => /^Dobre rime/.test(h.textContent.trim())), null, { timeout: 20000 }).catch(() => {});
+        await pauza(300);
 
         const m = await p44.evaluate(() => {
           const pRGB = s => { const q = String(s).match(/rgba?\(([^)]+)\)/);
@@ -5279,6 +5282,9 @@ async function main() {
       });
       ok('ime velikim slovom nema dvojnika malim slovom (osim pravih reči, najviše 130)',
          blizanci.n <= 130, `${blizanci.n}: ${blizanci.primeri.join(', ')}`);
+      /* Učestalost se učitava u pozadini (`loadExtras`), na produkciji i po nekoliko sekundi —
+         čeka se da stigne, ne fiksno vreme (na produkciji je 06.09. pala baš zbog toga). */
+      await p45.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('Srbija') < 0, null, { timeout: 20000 }).catch(() => {});
       const rangImena = await p45.evaluate(() => {
         const r = RANK.get('Srbija'); return { beograd: r, negativan: typeof r === 'number' && r < 0 };
       });

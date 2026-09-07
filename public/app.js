@@ -613,15 +613,16 @@ function renderLegend(container){
      kucne (v. \u201eMOBILNA VERZIJA"). Legenda zato mora da ka\u017ee drugu stvar: ne
      \u201e\u0161ta zna\u010di ova ikonica" nego \u201ekako da do nje do\u0111e\u0161". Stara legenda je na
      telefonu opisivala tri ikonice kojih na ekranu nema. */
-  l.innerHTML = jeTelefon()
-    ? '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('dodirni re\u010d \u2192 zna\u010denje, \u2661, na\u0111i rime, kopiraj, prijavi') + '</span>'
-    /* Računar od 06.09.2026 (odluka vlasnice, varijanta B): ikonice više ne stoje u
-       kapsuli — pojave se u traci nad reči kad se mišem pređe preko nje. Kapsula je
-       kraća, pa u red stane oko 10 reči umesto 4 (izmereno na 1280 px). */
-    : '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('pre\u0111i mi\u0161em preko re\u010di \u2192 zna\u010denje, \u2661 omiljene, na\u0111i rime za nju, kopiraj, prijavi gre\u0161ku') + '</span>' +
-      '<span class="legend-item legend-tap">' + uiTxt('klik na re\u010d je kopira') + '</span>';
+  /* LEGENDA JE JEDNA REČENICA, NE UPUTSTVO (prijava vlasnice 08.09.2026: „ova legenda nije dobra,
+     kako je niko nije video"). Stara je nabrajala pet radnji sa strelicom i srcem, pa još „klik na reč
+     je kopira" — tri uputstva u jednom redu sitnim kurzivom. Test je gledao samo ključne reči
+     („pređi mišem", „kopira", „prijavi"), pa je prolazila. Sad: šta je kružić, i jedna rečenica kako
+     se dolazi do ostalog. Ostale radnje čovek vidi u samoj traci kad je otvori. */
+  l.innerHTML =
+    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
+    '<span class="legend-item legend-tap">' + uiTxt(jeTelefon()
+      ? 'Dodirni reč da vidiš šta znači, sačuvaš je ili prijaviš grešku.'
+      : 'Pređi mišem preko reči da vidiš šta znači, sačuvaš je ili prijaviš grešku.') + '</span>';
   container.appendChild(l);
 }
 

@@ -1438,3 +1438,17 @@ posle jasnog stava da sajt nije za EU.
 > Pravilo: **tekst koji korisnik vidi ne piše se sam — piše se kao ona što bi rekla**, i proverava se sa njom
 > pre nego što uđe u test kao „tačan tekst". Pravni okvir sajta određuje vlasnica, ne ja; kad ga jednom kaže,
 > ne otvara se ponovo (globalni CLAUDE.md, „KOLAČIĆI I PRAVO").
+
+## 08.09.2026 — VLASNICA: „OVA LEGENDA NIJE DOBRA, KAKO JE NIKO NIJE VIDEO"
+
+Legenda iznad rima na računaru glasila je: „2 broj slogova · pređi mišem preko reči → značenje, ♡ omiljene,
+nađi rime za nju, kopiraj, prijavi grešku · klik na reč je kopira". Tri uputstva, strelica, srce, nabrajanje
+pet radnji — sitnim sivim kurzivom, na svakoj pretrazi. Napisana 06.09. uz varijantu B, i od tada je
+niko nije pročitao kao rečenicu: audit 07.09. imao je revizora za sadržaj, ali on je gledao STRANE, ne
+tekst koji alat iscrta tek posle pretrage; test (sekcija 46) proveravao je da legenda SADRŽI „pređi
+mišem", „kopira" i „prijavi" — i prolazila je baš zato što je legenda bila natrpana.
+
+> **Pravilo.** Tekst koji se iscrta JavaScript-om posle radnje (legenda, poruke, prazna stanja, oblačići)
+> je isti sadržaj kao tekst strane i ulazi u pregled sadržaja: revizor ga čita POSLE pretrage, u oba
+> pisma, na obe širine. Provera koja gleda „sadrži reč X" ne proverava tekst nego prisustvo — za tekst
+> koji korisnik čita provera poredi CELU rečenicu i njenu dužinu. Nova legenda: jedna rečenica.

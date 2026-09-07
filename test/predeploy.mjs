@@ -5411,7 +5411,9 @@ async function main() {
           legenda: (document.querySelector('.res-legend') || {}).textContent || '' }; });
       ok('računar · u kapsuli nema vidljivih ikonica (radnje su u traci)', kapsule.cipova > 0 && kapsule.vidljiveIkonice === 0, JSON.stringify(kapsule));
       ok('računar · u red stane bar 7 reči (na 1280 px; bilo 4 sa ikonicama)', kapsule.poRedu >= 7, `${kapsule.poRedu}`);
-      ok('računar · legenda kaže kako se dolazi do radnji (prelazak mišem) i da klik kopira', /pređi mišem preko reči/.test(kapsule.legenda) && /kopira/.test(kapsule.legenda) && /prijavi/.test(kapsule.legenda), kapsule.legenda);
+      /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU — stara je imala
+         tri uputstva u jednom redu, a test je proveravao samo ključne reči pa je prolazila. */
+      ok('računar · legenda je kratka: kružić = broj slogova + jedna rečenica (pređi mišem …), bez nabrajanja', /^2\s*broj slogova\s*Pređi mišem preko reči da vidiš šta znači, sačuvaš je ili prijaviš grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()) && kapsule.legenda.length < 110, kapsule.legenda);
       await p46b.evaluate(() => document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'center' })); await pauza(300);
       await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
       const traka2 = await p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act) : []; });

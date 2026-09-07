@@ -1452,3 +1452,9 @@ mišem", „kopira" i „prijavi" — i prolazila je baš zato što je legenda b
 > je isti sadržaj kao tekst strane i ulazi u pregled sadržaja: revizor ga čita POSLE pretrage, u oba
 > pisma, na obe širine. Provera koja gleda „sadrži reč X" ne proverava tekst nego prisustvo — za tekst
 > koji korisnik čita provera poredi CELU rečenicu i njenu dužinu. Nova legenda: jedna rečenica.
+
+**Dopuna, isti dan:** popravljenu legendu vlasnica nije videla na lokalu — promenio sam `app.js`, a nisam
+podigao `?v=` u `index.html` i generatoru, pa je pregledač služio keširanu kopiju. Zamka je upisana u
+memoriji (`reference_rimoteka_cache_bust`) i opet se desila.
+> **Pravilo.** Izmena `app.js`/`style.css`/`ga-init.js` NIJE gotova dok se ne podigne `?v=` na oba mesta
+> (`index.html`, `gen_pages.py`) i ne regenerišu strane. To ide u isti commit, uvek.

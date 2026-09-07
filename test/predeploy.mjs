@@ -5977,12 +5977,16 @@ async function main() {
         await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + '/?rec=sunce', { waitUntil: 'domcontentloaded' });
-        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 }); await pauza(300);
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 });
+        /* Na produkciji dopunski podaci (učestalost) stižu 1–3 s posle rezultata i rezultati se ponovo iscrtaju —
+           broj rima pre i posle F5 se poredi tek kad su svi podaci tu (pao na produkciji 08.09.: 2 pre, 5 posle). */
+        await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {}); await pauza(600);
         await p.click('#rimeSyl button[data-syl="2"]'); await pauza(400);
         const pre = await p.evaluate(() => ({ url: location.search, n: document.querySelectorAll('#rimeResults .chip').length }));
         ok('S-03 · klik na filter „2" upisuje `slog=2` u adresu', /slog=2/.test(pre.url) && /rec=sunce/.test(pre.url), pre.url);
         await p.reload({ waitUntil: 'domcontentloaded' });
-        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 }); await pauza(300);
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 });
+        await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {}); await pauza(600);
         const posle = await p.evaluate(() => ({ aktivan: (document.querySelector('#rimeSyl button.active') || {}).dataset?.syl, n: document.querySelectorAll('#rimeResults .chip').length, kan: document.querySelector('link[rel="canonical"]').href }));
         ok('S-03 · posle F5 filter „2" ostaje i isti je broj rima', posle.aktivan === '2' && posle.n === pre.n, JSON.stringify({ pre, posle }));
         ok('S-03 · kanonikal ostaje BEZ filtera (jedna adresa po reči)', !/slog=/.test(posle.kan), posle.kan);

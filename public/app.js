@@ -620,11 +620,12 @@ function renderLegend(container){
      se dolazi do ostalog. Ostale radnje čovek vidi u samoj traci kad je otvori. */
   /* Dva reda, dve cele rečenice — da razume i dete od 10 godina (vlasnica, 08.09.2026, drugi put):
      prvi red objašnjava kružić, drugi šta se dobija kad se reč dodirne ili pređe mišem. */
+  /* TEKST JE ODREDILA VLASNICA 08.09.2026 — doslovno. Na telefonu samo prvi deo druge rečenice
+     glasi „Dodirni reč" (miša nema). Ne menjati bez nje; test 46 čuva tačan tekst. */
   l.innerHTML =
-    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('Ovaj broj u kružiću kaže koliko reč ima slogova.') + '</span>' +
-    '<span class="legend-item legend-tap">' + uiTxt(jeTelefon()
-      ? 'Dodirni reč. Onda vidiš šta znači, možeš da je sačuvaš ili da prijaviš grešku.'
-      : 'Pređi mišem preko reči. Onda vidiš šta znači, možeš da je sačuvaš ili da prijaviš grešku.') + '</span>';
+    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('Broj u kružiću označava koliko slogova ima data reč.') + '</span>' +
+    '<span class="legend-item legend-tap">' + uiTxt((jeTelefon() ? 'Dodirni reč' : 'Pređi mišem preko reči')
+      + ' i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku.') + '</span>';
   container.appendChild(l);
 }
 

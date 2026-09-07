@@ -5413,7 +5413,7 @@ async function main() {
       ok('računar · u red stane bar 7 reči (na 1280 px; bilo 4 sa ikonicama)', kapsule.poRedu >= 7, `${kapsule.poRedu}`);
       /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU — stara je imala
          tri uputstva u jednom redu, a test je proveravao samo ključne reči pa je prolazila. */
-      ok('računar · legenda su dve cele rečenice (kružić = slogovi; pređi mišem …), bez nabrajanja', /^2\s*Ovaj broj u kružiću kaže koliko reč ima slogova\.\s*Pređi mišem preko reči\. Onda vidiš šta znači, možeš da je sačuvaš ili da prijaviš grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()) && kapsule.legenda.length < 160, kapsule.legenda);
+      ok('računar · legenda je tačno tekst vlasnice (08.09.2026)', /^2\s*Broj u kružiću označava koliko slogova ima data reč\.\s*Pređi mišem preko reči i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()), kapsule.legenda);
       await p46b.evaluate(() => document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'center' })); await pauza(300);
       await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
       const traka2 = await p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act) : []; });

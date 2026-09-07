@@ -1399,7 +1399,7 @@ function slugLat(w){
 let rimeStraneSlugovi = null;
 async function imasStranu(slug){
   if(rimeStraneSlugovi === null){
-    rimeStraneSlugovi = await fetch('/rime-strane.json?v=1')
+    rimeStraneSlugovi = await fetch('/rime-strane.json?v=2')   // v=2: 08.09.2026, S-19 (6 strana ukinuto; keš je 365 d)
       .then(r => r.ok ? r.json() : [])
       .then(a => new Set(a))
       .catch(() => new Set());

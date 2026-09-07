@@ -35,8 +35,8 @@ ocena se ne prepisuje bez merenja). Test lokalno 808 (posle S-18 i sekcije 54), 
 S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, S-20, S-24, S-25, S-26, N-01, N-02, N-03, N-04, N-05, N-08, N-09,
 N-10, N-R1 — detalji u odeljku „ZATVORENO 08.09.2026" niže.
 **Ostaje otvoreno:** visoko A6 (logo — odluka vlasnice), V2 (sinonimi — pregled sa vlasnicom), V3 (HSTS je 300 s —
-podići na godinu posle par dana bez problema); srednje S-19 (tanke strane), S-22 (hub CLS, 1 merenje), S-23/P11
-(hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka). **S-18 zatvoren 08.09.**
+podići na godinu posle par dana bez problema); srednje S-22 (hub CLS, 1 merenje), S-23/P11
+(hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka). **S-18 i S-19 zatvoreni 08.09.**
 
 ### ZATVORENO 08.09.2026 — DRUGI I TREĆI KRUG (27 nalaza)
 
@@ -76,6 +76,8 @@ podići na godinu posle par dana bez problema); srednje S-19 (tanke strane), S-2
 | **K-VS** | `rhymeKey`/`looseKey`/`finalSylKey` sekli ORIGINALNI oblik: „Irska" → ključ „Irska", „irska" → „irska". Posledice: reči sa velikim početnim samoglasnikom nisu ulazile u „isti završni slog" i „šire rime"; **igra je odbijala tačnu rimu** za takvu reč | sve tri funkcije spuštaju ulaz na mala slova na prvom redu | 54 (sve 285.334 reči + 25 e2e) |
 
 Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom prolazu kroz sve reči.
+
+| S-19 | 6 strana sa 3–4 prave rime (bukurest, konkurs, krv, kurs, vec, vrh) + 18 sa 5–7 | prag 5 pravih rima (ne 8 — ispod 8 bi ispale sunce, zvezda, tekst, park, cilj; vlasnici ponuđeno da vrati na 8): 6 strana ukinuto, adrese u `nginx-stare-strane.map` (301 na hub), izbačene iz `rime-strane.json` (v=2), nijedan link ka njima (provera mrtvih linkova) | 50 (S-19 ×3) + nginx-provera (`/rime-za/krv/` → 301) |
 
 **Odluka vlasnice 07.09.2026 (baner):** tekst „Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem
 sajtu."; prihvatanje 1 klik, odbijanje kroz „Podesi" namerno; EU/GDPR se na ovom sajtu ne pominje (globalni

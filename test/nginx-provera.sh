@@ -131,6 +131,8 @@ proveri_kraj "rimoteka.com" "/rime-za/aaa/"      301 "/rime-za/"
 proveri "rimoteka.com"     "/rime-za/"          200 -
 # postojeće strane se NE preusmeravaju
 proveri "rimoteka.com"     "/rime-za/voda/"     200 -
+# S-19 (08.09.2026): strana ukinuta zbog premalo rima je u mapi → 301 na hub, ne 404
+proveri_kraj "rimoteka.com" "/rime-za/krv/"      301 "/rime-za/"
 # S-26 (07.09.2026): adresa koja NIKAD nije postojala je pravi 404, ne 301 na hub
 proveri "rimoteka.com"     "/rime-za/xqzwptr/"  404 -
 proveri "rimoteka.com"     "/rime-za/ljubavvv/" 404 -

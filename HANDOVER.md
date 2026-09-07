@@ -32,6 +32,13 @@ git worktree) → `main` 81261c2a2. CSP u tom pushu JOŠ dozvoljava Google Fonts
 sužava se u pushu 2 zajedno sa sajtom. Provereno na produkciji odmah: `/` 200, `/rime-za/aaa/` 301 na hub,
 `/rime-za/ljubav/` 200, `/rime-za/xqzwptr/` 404 sa našom stranom. `nginx-provera.sh` proverava da se CSP
 i `index.html` SLAŽU oko Google Fonts (uslovno — zbog zasebnog nginx pusha).
+**S-19 (grana, čeka push 4 + push mape):** prag za stranu reči podignut sa 3 na **5 pravih rima** (ne 8 iz nalaza —
+ispod 8 bi ispale „sunce", „zvezda", „tekst", „park", „cilj"; vlasnici ponuđeno da vrati na 8). Ukinuto 6 strana
+(bukurest, konkurs, krv, kurs, vec, vrh) → `nginx-stare-strane.map` (301 na hub; **mapa ide u zaseban push PRE
+sajta**, jer je nginx fajl — greška u njoj obara server), `rime-strane.json` v=2 (keš 365 d!), pilule ka ukinutim
+stranama postaju dugmad (post-pass u `gen_pages.py`), `rime-strane.json` se piše POSLE petlje. Test 50: nijedna
+strana <5, nijedan mrtav link, mapa sadrži ukinute. Strana sada 1.985, sitemap 2.008.
+
 **OBJAVLJENO 08.09. (push 3, sajt):** 6f7b1c774 → main; deploy ~30 s; produkcija `app.js?v=20260908f`;
 **test protiv produkcije 793/793.** Pre toga su dva prolaza pala na TRKAMA testa, ne sajta (učestalost stiže
 1–3 s posle rezultata pa se rezultati ponovo iscrtaju: traka nestane / broj rima se promeni) — obe provere

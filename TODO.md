@@ -24,7 +24,6 @@
 
 ## 2. OVOG MESECA — struktura i brzina
 
-17. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; 301 na hub već postoji.
 21. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3×, po potrebi `font-display:optional` za hub.
 22. **Brzina, ostalo:** brotli prednost nad gzip-om (~45 KB po prvoj poseti); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME).
 23. **Sanduče za prijave:** dnevni mejl na `eureka@` sa novim prijavama (cron na Hetzneru + Gmail SMTP iz `server-guard.sh`); atomičan brojač; honeypot bez `proba:true` u odgovoru; ključ pregleda u zaglavlju umesto u URL-u.
@@ -50,7 +49,7 @@ za reč bez podatka ostaje današnje pravilo. Grupa „Najbolje rime" = poklapan
 poklapanje od pretposlednjeg samoglasnika (današnji ključ). Statičke strane se regenerišu istim kodom
 (K1 pouka: alat i generator računaju isto).
 
-**Redosled:** posle S-19 (indeksiranje je veći problem od kvaliteta rime — vidi GSC 1.123
+**Redosled:** posle objave S-19 (indeksiranje je veći problem od kvaliteta rime — vidi GSC 1.123
 „otkriveno, nije indeksirano"). Pre pisanja koda: proba na 200 odrednica + spisak 50 reči gde bi se
 redosled promenio, na pregled vlasnici.
 

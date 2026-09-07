@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908f"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908g"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -910,8 +910,8 @@ def main():
     # Spisak slugova strana za app.js — kanonikal za dinamičke adrese `?rec=`:
     # reč sa statičkom stranom dobija kanonikal ka njoj (autoritet se ne deli),
     # reč bez strane je kanonična samoj sebi (odluka vlasnice 19.08.2026).
-    with open(os.path.join(PUB, 'rime-strane.json'), 'w', encoding='utf-8') as f:
-        json.dump(sorted(target_slugs), f, ensure_ascii=False)
+    # (upis `rime-strane.json` je premešten POSLE petlje — tek tad se zna koje su strane
+    #  zaista napravljene; tanke reči ispadaju, v. S-19 niže)
 
     # popularne (footer) — prvih 30 iz liste koje postoje
     popular = targets[:30]
@@ -1002,6 +1002,7 @@ def main():
     # strana ima BAR 4 dolazna linka iz drugih strana reči. Spisak suseda se zna tek kad se zna koje
     # reči su dobile stranu, zato se strane pišu POSLE petlje (v. `odlozene`).
     odlozene = []
+    tanke = []                # slugovi reči koje NISU dobile stranu zbog premalo rima (S-19)
     SUSEDI_BLOK = ('<div class="related-rimes susedi"><h2>Susedne reči u spisku</h2>'
                    '<p class="related-note">Strane sa rimama za reči koje u azbučnom spisku stoje odmah pre i posle ove.</p>'
                    '<div class="related-list"><!--SUSEDI--></div></div>')
@@ -1042,8 +1043,13 @@ def main():
         loose = loose_cands[:70]
 
         all_r = best + good + final_extra
-        if len(all_r) < 3:
-            continue  # premalo rima — preskoči (da ne pravimo prazne strane)
+        # S-19 (audit 07.09.2026): strana sa 3–4 prave rime je za Google „tanka" i vuče ostale naniže.
+        # Granica je 5 (ne 8 iz nalaza — ispod 8 bi ispale i „sunce", „zvezda", „tekst", „park", reči koje
+        # ljudi traže, a svaka ima i 70 bliskih rima, značenje i pitanja; odluka 08.09.2026, vlasnici
+        # ponuđeno da vrati na 8). Ukinute adrese idu u `nginx-stare-strane.map` (301 na hub) — v. ispis.
+        if len(all_r) < 5:
+            tanke.append(slugify(t))
+            continue
 
         sl = slugify(t)
         first_list = ', '.join(all_r[:10])
@@ -1235,6 +1241,18 @@ def main():
         odlozene.append((sl, t, canonical, page))
         napravljene.append(t)
         generated += 1
+
+    # ---- S-19: reči bez strane ne smeju da ostanu ni kao link ni u spisku strana za alat ----
+    # Pilula koja je linkovala na ukinutu stranu postaje dugme (kao svaka reč bez strane, v. `chip`).
+    target_slugs -= set(tanke)
+    if tanke:
+        tanki_re = re.compile(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/" data-rec="([^"]+)">(.*?)</a>')
+        odlozene = [(sl, t, canonical, tanki_re.sub(lambda m: f'<button type="button" class="chip chip-btn" data-rec="{m.group(2)}" title="Nađi rime za „{m.group(2)}“">{m.group(3)}</button>', page))
+                    for sl, t, canonical, page in odlozene]
+        print(f'S-19: bez strane zbog premalo rima ({len(tanke)}): ' + ', '.join(tanke)
+              + '  → svaka od ovih adresa mora u nginx-stare-strane.map (301 na hub)')
+    with open(os.path.join(PUB, 'rime-strane.json'), 'w', encoding='utf-8') as f:
+        json.dump(sorted(target_slugs), f, ensure_ascii=False)
 
     # ---- S-18: upis strana sa susedima po azbuci (kružno: prva i poslednja su susedi) ----
     AZBUKA = 'abcčćdđefghijklmnoprsštuvzž'

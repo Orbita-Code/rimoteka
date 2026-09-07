@@ -5660,6 +5660,7 @@ async function main() {
         const lose = { fajl: [], h1: [], kanon: [], jsonld: [], malo: [], rec: [], verzija: [] };
         let rimeStrana = 0;
         const dolazni = new Map();   // S-18: slug → broj drugih strana reči koje ka njemu linkuju (bez futera)
+        const mrtvi = new Set(); const tanke = [];   // S-19: link ka strani koje nema; strana sa <5 pravih rima
         for (const u of adrese) {
           const rel = u.replace('https://rimoteka.com', '').replace(/\/$/, '');
           const f = path.join(ROOT, 'public', rel, 'index.html');
@@ -5671,6 +5672,8 @@ async function main() {
           for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { lose.jsonld.push(u); break; } }
           if (/\/rime-za\/[^/]+\/$/.test(u)) { rimeStrana++; const n = (h.match(/class="chip chip-btn"|class="chip"/g) || []).length; if (n < 8) lose.malo.push(u + ` (${n})`); if (/href="\/\?rec=/.test(h)) lose.rec.push(u);
             const moj = rel.replace('/rime-za/', ''); const glavni = h.split('<footer')[0];
+            const meta = +((h.match(/class="landing-meta">(\d+) /) || [])[1] || 0); if (meta < 5) tanke.push(`${moj} (${meta})`);
+            for (const x of new Set([...h.matchAll(/href="\/rime-za\/([^/"]+)\/"/g)].map(m => m[1]))) if (!fs.existsSync(path.join(ROOT, 'public', 'rime-za', x, 'index.html'))) mrtvi.add(x);
             for (const m of new Set([...glavni.matchAll(/href="\/rime-za\/([^/"]+)\/"/g)].map(x => x[1]))) if (m !== moj) dolazni.set(m, (dolazni.get(m) || 0) + 1); }
           if (!h.includes(`app.js?v=${verzija}`)) lose.verzija.push(u);
         }
@@ -5686,6 +5689,13 @@ async function main() {
         const slugovi = adrese.filter(u => /\/rime-za\/[^/]+\/$/.test(u)).map(u => u.replace(/^.*\/rime-za\//, '').replace(/\/$/, ''));
         const slabo = slugovi.filter(sl => (dolazni.get(sl) || 0) < 3);
         ok(`S-18 · svaka strana reči (${slugovi.length}) ima bar 3 dolazna linka iz DRUGIH strana reči (bez futera)`, slabo.length === 0, `${slabo.length} ispod 3: ${slabo.slice(0, 5).join(', ')}`);
+        /* S-19 (08.09.2026): reč sa <5 pravih rima nema stranu; nijedan link na stranama reči ne sme da vodi na
+           stranu koje nema (od 08.09. je to 404, ne 301). Ukinute adrese stoje u nginx-stare-strane.map. */
+        ok('S-19 · nijedna strana reči nema manje od 5 pravih rima', tanke.length === 0, tanke.slice(0, 6).join(', '));
+        ok('S-19 · nijedan link sa strana reči ne vodi na stranu koje nema (mrtav link = 404)', mrtvi.size === 0, [...mrtvi].slice(0, 6).join(', '));
+        const mapa = fs.readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
+        const uGeneratoru = (fs.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/if len\(all_r\) < (\d+):/) || [])[1];
+        ok('S-19 · prag u generatoru je 5 pravih rima, a ukinute adrese (krv, kurs, vrh…) su u mapi starih strana', uGeneratoru === '5' && /\/rime-za\/krv\/ 1;/.test(mapa) && /\/rime-za\/vrh\/ 1;/.test(mapa), `prag ${uGeneratoru}`);
       } else {
         const uzorak = []; const kopija = adrese.slice(); for (let i = 0; i < 30 && kopija.length; i++) uzorak.push(kopija.splice(Math.floor(Math.random() * kopija.length), 1)[0]);
         const pali = [];

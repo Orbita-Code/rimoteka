@@ -4,6 +4,69 @@
 
 ---
 
+# HANDOFF ZA SLEDEĆU SESIJU – stanje na kraju 08.09.2026 (sesija 22, najduža do sada)
+
+> Ovo se čita PRVO. Ispod (od „Sesija 7–8. septembar 2026") stoji dnevnik cele sesije; ovde je samo ono
+> što sledeća sesija mora da zna da bi nastavila bez pitanja.
+
+## 1. Gde je kod i šta je na sajtu
+
+| Šta | Stanje |
+|---|---|
+| Grana sa svim radom | `fix/audit-0709-drugi-krug` (lokalno; sve komitovano) |
+| `main` na GitHub-u | nginx delovi (HSTS godina, mapa velikih slova, mapa starih adresa) + sve do push 3 (08.09. popodne) |
+| Na sajtu (rimoteka.com) | push 1–3 + nginx (HSTS 31536000, `/rime-za/Beograd/` → 301 mala slova, 404 za nepostojeće); produkcija je na `app.js?v=20260908f` |
+| NIJE na sajtu (čeka push sajta) | SVE od 08.09. uveče: mobilni audit (traka rima na vrhu, kolona 59 px, brojač ne odnosi stranu), ćirilica cele strane, kratka crta, tamna prati sistem, logo 128 px, S-19 tanke strane, S-23 hub sa pretragom, N-13 sanduče (+ `wrangler deploy`), placeholder „nada", legenda vlasnice, digrafi, klasici → brojač, i sve popravke iz 3 agenta |
+| Poslednji pun test | LOKALNO_TEST (vidi `scratchpad`/`AUDIT`); motori: MOTORI_TEST; skener ćirilice: SKENER_TEST; 100 partija: IGRA_TEST |
+
+**Redosled objave sajta (push 4):** `git push origin fix/audit-0709-drugi-krug:main` (grana je FF na main) →
+deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com node test/predeploy.mjs` +
+`BASE=https://rimoteka.com node test/predeploy-motori.mjs` → `cd worker && npx wrangler deploy` (N-13) → test 46.
+
+## 2. ŠTA ČEKA ODOBRENJE VLASNICE (ne raditi bez „da")
+
+| # | Pitanje | Moj predlog |
+|---|---|---|
+| 1 | **Push sajta na `main`** (push 4) – rekla je „commit sve, push i merge" 08.09. u 23:40, ali test 16 tada još nije bio prošao; push ide tek sa zelenim testom | odmah kad je test zelen, pa `wrangler deploy` |
+| 2 | **Igra: opcija od 5 sekundi** – tražila je 100 partija „od 5, 10, 15 s", a igra nudi 10/15/20/30 | dodati „5 s" kao opciju |
+| 3 | **Logo 128 px** – primenjeno po njenom „da"; ali logo se crta na 70 px, pa je na iPhone-u (3×) blago mekši; 224 px = 67 KB oštar svuda | 224 px |
+| 4 | **Rimoteka Pro** (skriveni prozor pretplate): „Римотека Про" ili „Pro" latinicom | „Pro" latinicom (ime proizvoda) |
+| 5 | **Sekunde u igri** („10s") u ćirilici: „10с" ili „10 сек." | „10 с" |
+| 6 | **75 strana reči** koje po sva tri merila ne zaslužuju stranu (breskva, vođstvo, intervju, evro…) + 79 pesničkih reči bez strane – menja adrese | ukinuti 75 (adrese u mapu), dodati 79 |
+| 7 | **Izbor reči za strane** ubuduće: prvo kurirane + gradovi, pa reči sa kraja stiha, pa broj rima, pa tek učestalost u novinama | da |
+| 8 | **Sinonimi (V2)**: 812 kandidata u `AUDIT/sinonimi/` čeka njen pregled | po 50 u poruci |
+| 9 | **S6** jedan red rima u beležnici na telefonu (traka na vrhu sad pokazuje 1 red, strelica razvija) | ostaviti |
+| 10 | **N-18** 38 zareza ispred „pa" | ostaviti (Pravopis dozvoljava) |
+| 11 | **Tekst „ubaci rimu"** zapravo ZAMENJUJE reč pod kursorom (utisak pisca) | preimenovati u „zameni reč" |
+| 12 | **Analitika, 3 preporuke** (naslov početne sa „rimovanje", naslov strana reči, prepis `/vrste-rima/`) – naslovi su njena odluka | da, sa merenjem 22.09. |
+| 13 | **Rime po naglasku** (inovacija, TODO 2a) – prvi korak je provera akcenata u skeniranom Rečniku | posle S-18/S-19 rezultata u GSC |
+
+## 3. TODO ZA SLEDEĆU SESIJU (po redu)
+
+1. **Push 4 + `wrangler deploy` + testovi protiv produkcije** (svi: predeploy, motori, skener ćirilice `BASE=`, skener tamne `BASE=`).
+2. **Pravi iPhone**: vlasnica da proveri beležnicu sa tastaturom (traka na VRHU, red sa kursorom vidljiv), brojač slogova (dodir u prazno polje), spisak strana (azbuka). Njene slike imaju prednost nad emulacijom. Ako Safari/Chrome i dalje pomera traku – `visualViewport.offsetTop` je rešenje na kom se stoji, ali se meri na uređaju.
+3. **Otvoreno iz agenata (nisko):** A-R4 „i šire rime" za reč sa 180 rima ne pokazuje ništa novo (grupe sečene na 90) · A-R6 dugmad trake 41 px na 320 · „sačuvaj rime" bez kursora uzima poslednju reč bez naznake · na iPhone-u „kopiraj pesmu" umesto „preuzmi" · `/slogovi/` sad pamti tekst za karticu (sessionStorage) – proveriti da li vlasnica to hoće.
+4. **Nije provereno ni od koga:** landscape na telefonu, spora mreža na telefonu (`emulateNetworkConditions` iz protokola), prevlačenje stihova prstom, 30+ stihova, drugi dolazak kroz service worker.
+5. **Deploy bez prekida**: pri svakoj objavi sajt vraća 504 nekoliko sekundi dok Coolify menja kontejner – proveriti health check / rolling u Coolify-ju.
+6. **GSC 22.09.**: polazna tačka od 08.09. je u `AUDIT/analitika/2026-09-08.md` – „Page with redirect" 974, „Discovered – not indexed" 1.123, CTR početne 2,5 %, upit „rime" 3 klika. Posle promena (404, susedne reči, tanke strane) meriti da li se pomerilo. `osascript scripts/gsc-zatrazi-indeksiranje.applescript` za nove/izmenjene strane (kvota ~10/dan).
+7. **TODO.md** – ostatak (S3 objašnjenja rečnika, S-22 na sporoj mreži, sanduče dnevni mejl, brotli nemoguć u nginx:alpine, rupe u testu).
+8. **Pun audit po protokolu** – poslednji 06–07.09.; ritam je 3 dana → 10.09.
+
+## 4. Nova merila i pravila (da se ne zaborave)
+
+- Pre svakog deploya: `node test/predeploy.mjs` (~830 provera, 55 sekcija) + `node test/predeploy-motori.mjs` (WebKit = iPhone,
+  Firefox, Chromium) + `node test/skener-cirilica.mjs` (0 latinice van dozvoljenog) + `node test/skener-tamna.mjs` (0 nalaza)
+  + `node test/igra-100-partija.mjs` (0 nalaza). Svi u CLAUDE.md 9a.
+- **Kratka crta (–), nikad dugačka (—)** – globalno pravilo, test pada.
+- **Nove reči kao stare** (CLAUDE.md 6.4): slogovi i ključ rime ne zavise od velikog slova; test 54 nad svim rečima.
+- **Ćirilica**: prebacuje se cela strana; izuzeci: logo, „Powered by Orbita Code", imena firmi (ZASTICENO u app.js),
+  tekst korisnika, dugmad pisma. Šema rime se preslovljava (АБАБ). Digrafi na granici prefiksa u NE_DIGRAF.
+- **Traka rima na telefonu je na VRHU** vidljivog ekrana; naslov/tabovi se sklanjaju dok je tastatura otvorena.
+- **Tekst koji korisnik vidi piše vlasnica** (baner, legenda) – test čuva tačan tekst.
+- EU/GDPR se na ovom sajtu ne pominje (globalni CLAUDE.md „KOLAČIĆI I PRAVO").
+
+---
+
 # Sesija 7–8. septembar 2026 (dvadeset druga) — baner po odluci vlasnice, pa 27 nalaza iz audita
 
 **Vlasnica (07.09. noću):** tekst banera joj je bio „grozan" — sada je isti kao na orbitacode.com

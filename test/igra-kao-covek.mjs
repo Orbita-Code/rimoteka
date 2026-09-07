@@ -52,16 +52,17 @@ for (let g = 0; g < PARTIJA; g++) {
       if (st.script === 'cyr' && /[a-zčćžšđ]/i.test(st.prikaz)) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, greska: `zadata reč latinicom u ćirilici: „${st.prikaz}"` });
       const vrsta = potez % 5 === 4 ? 'pogresna' : 'tacna';
       const odg = await p.evaluate(({ w, vrsta }) => {
-        const k = rhymeKey(w), lk = looseKey(w);
-        let best = null, bestR = Infinity, bestL = null, bestLR = Infinity, protiv = null, protivR = Infinity;
+        const k = rhymeKey(w), lk = finalSylKey(w);   // isto pravilo kao igra
+        let best = null, bestR = Infinity, bestL = null, bestLR = Infinity, protiv = null, protivR = Infinity, varka = null, varkaR = Infinity;
         for (let i = 0; i < jekStart; i++) {
-          const x = WORDS[i]; if (x === w || BLOCKED.has(MALE[i]) || /[A-ZČĆŽŠĐ]/.test(x[0])) continue;
+          const x = WORDS[i]; if (x === w || x.length < 3 || BLOCKED.has(MALE[i]) || /[A-ZČĆŽŠĐ]/.test(x[0])) continue;
           const r = RANK.get(x); if (r === undefined || r >= 0) continue;
           if (KEYS[i] === k) { if (r < bestR) { bestR = r; best = x; } }
-          else if (looseKey(x) === lk) { if (r < bestLR) { bestLR = r; bestL = x; } }
+          else if (finalSylKey(x) === lk) { if (r < bestLR) { bestLR = r; bestL = x; } }
+          else if (looseKey(x) === looseKey(w)) { if (x.length >= 4 && r < varkaR) { varkaR = r; varka = x; } }   // isto POSLEDNJE slovo, a nije rima (rupa zatvorena 08.09.)
           else if (x.length >= 4 && r < protivR) { protivR = r; protiv = x; }
         }
-        if (vrsta === 'pogresna') return { odg: protiv, tip: 'pogresna' };
+        if (vrsta === 'pogresna') return varka ? { odg: varka, tip: 'varka-isto-slovo' } : { odg: protiv, tip: 'pogresna' };
         return best ? { odg: best, tip: 'savrsena' } : { odg: bestL, tip: 'siroka' };
       }, { w: st.rec, vrsta });
       if (!odg.odg) { nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, greska: 'čovek ne bi našao poznatu rimu (nijedna sa učestalošću)' }); }
@@ -70,7 +71,7 @@ for (let g = 0; g < PARTIJA; g++) {
       if (oblik === 'cir') unos = await p.evaluate((u) => toCyr(u), unos);
       if (oblik === 'veliko') unos = ' ' + unos[0].toUpperCase() + unos.slice(1) + ' ';
       await p.fill('#gameInput', unos);
-      await new Promise(r => setTimeout(r, 300 + ((potez * 7 + g * 3) % 5) * 500));   // čovek razmišlja 0,3–2,3 s, različito po potezu
+      await new Promise(r => setTimeout(r, 300 + ((potez * 3 + g * 7 + pl * 2) % 6) * 400));   // čovek razmišlja 0,3–2,3 s, različito po potezu i igraču (5 reči × 7 ≡ 0 mod 5 je davalo iste bodove svima)
       const pre = await p.evaluate(() => ({ t: gameTimeLeft, score: gamePlayersData[gameCurrentPlayerIdx].score, combo: gameCombo }));
       const t = await p.evaluate(() => { const t = gameTimeLeft; document.getElementById('gameSubmit').click(); return t; });
       await new Promise(r => setTimeout(r, 200));
@@ -78,7 +79,11 @@ for (let g = 0; g < PARTIJA; g++) {
       const tacno = /correct/.test(fb.k);
       dnevnik.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos.trim(), tip: odg.tip, ishod: fb.k.replace('game-feedback', '').trim(), poruka: fb.t.slice(0, 80), sek: t });
       if (vrsta === 'tacna' && !tacno) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos, greska: `${odg.tip} rima „${unos.trim()}" (${oblik}) nije priznata: „${fb.t.slice(0, 70)}"` });
-      if (vrsta === 'pogresna' && tacno) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos, greska: 'reč koja se ne rimuje priznata kao tačna' });
+      if (vrsta === 'pogresna' && tacno) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos, greska: `reč koja se ne rimuje priznata kao tačna (${odg.tip})` });
+      if (potez % 11 === 10) {   // rečca od 2 slova sa istim završetkom mora da bude odbijena bez trošenja poteza
+        const kratka = await p.evaluate((w) => { const k = finalSylKey(w); for (const x of ['je', 'ma', 'da', 'se', 'ne', 'ti', 'mi', 'su', 'li', 'ga', 'na', 'te', 'to', 'ko']) if (finalSylKey(x) === k || rhymeKey(x) === rhymeKey(w)) return x; return null; }, st.rec);
+        if (kratka) { await p.fill('#gameInput', kratka); const fk = await p.evaluate(() => { document.getElementById('gameSubmit').click(); return document.getElementById('gameFeedback').className; }); if (!/hint/.test(fk)) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: kratka, greska: `rečca od 2 slova „${kratka}" nije odbijena (${fk})` }); }
+      }
       if (tacno) {
         niz++;
         const ocek = 10 + t + Math.min(50, niz * 5);
@@ -125,7 +130,8 @@ for (let g = 0; g < PARTIJA; g++) {
   if (r.stavke.length !== igraci) nalazi.push({ partija: g, greska: `rezultati prikazuju ${r.stavke.length} igrača od ${igraci}` });
   for (let k = 1; k < r.stavke.length; k++) if (r.stavke[k].score > r.stavke[k - 1].score) nalazi.push({ partija: g, greska: 'rezultati nisu opadajuće po bodovima' });
   for (let k = 0; k < igraci; k++) if (r.data[k].score !== ocekivano[k].score || r.data[k].correct !== ocekivano[k].correct) nalazi.push({ partija: g, greska: `igrač ${k + 1}: igra ima ${r.data[k].score}/${r.data[k].correct} tačnih, prebrojano ${ocekivano[k].score}/${ocekivano[k].correct}` });
-  if (r.stavke.length >= 2 && r.stavke[0].score === r.stavke[1].score) nalazi.push({ partija: g, greska: `NEREŠENO (${r.stavke[0].score}:${r.stavke[1].score}) prikazano kao pobeda: „${r.stavke[0].tekst}"`, vrsta: 'sadržaj' });
+  if (r.stavke.length >= 2 && r.stavke[0].score === r.stavke[1].score && !(/Nerešeno|Нерешено/.test(r.sve) && r.stavke[0].pobednik && r.stavke[1].pobednik)) nalazi.push({ partija: g, greska: `NEREŠENO (${r.stavke[0].score}:${r.stavke[1].score}) prikazano kao pobeda: „${r.stavke[0].tekst}"`, vrsta: 'sadržaj' });
+  if (r.stavke.length >= 2 && r.stavke[0].score !== r.stavke[1].score && r.stavke[1].pobednik) nalazi.push({ partija: g, greska: 'drugi po bodovima označen kao pobednik' });
   if (/combo/i.test(r.sve)) nalazi.push({ partija: g, greska: `engleska reč na ekranu rezultata: „${r.sve.match(/\S*combo\S*/i)[0]}"`, vrsta: 'sadržaj' });
   if (cir && /[a-zčćžšđ]/.test(r.sve.replace(/combo/gi, ''))) nalazi.push({ partija: g, greska: `rezultati latinicom u ćirilici: „${r.sve.slice(0, 80)}"`, vrsta: 'sadržaj' });
   if (!r.stavke[0] || !r.stavke[0].pobednik) nalazi.push({ partija: g, greska: 'prvi u rezultatima nije označen kao pobednik' });

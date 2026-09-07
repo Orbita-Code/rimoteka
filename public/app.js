@@ -4927,7 +4927,12 @@ function showHandoff(){
 }
 
 /* Postoji li odgovor koji bi igra PRIHVATILA za ovu reč?
-   Mora da koristi isto pravilo kao checkGameAnswer (savršena rima ILI asonanca) –
+   Mora da koristi isto pravilo kao checkGameAnswer (savršena rima ILI završni slog) –
+   RUPA ZATVORENA 08.09.2026 (partije „kao čovek"): rezervno pravilo je bio `looseKey` = od
+   POSLEDNJEG samoglasnika do kraja, a 80 % reči u bazenu se završava samoglasnikom, pa je
+   ključ bio jedno slovo: za „kuća" igra je priznavala SVAKU reč na -a (55.231, npr. „žena"),
+   za „sunce" – „more". Sad je rezerva `finalSylKey` (suglasnik + poslednji slog): za „kuća"
+   ostaju „sreća", „vruća"… (2.292), a „žena" pada. Isto pravilo i u `checkGameAnswer`. –
    inače bi izbacivala reči koje se sasvim lepo igraju. Npr. „valjda" nema
    savršenu rimu, ali ima „heljda", „vajda", „možda" – i igra ih priznaje.
    Indeks se gradi jednom, pri prvom pokretanju igre. */
@@ -4939,12 +4944,12 @@ function imaRimu(w){
     for(const x of WORDS){
       const k = rhymeKey(x);
       RHYME_COUNTS.set(k, (RHYME_COUNTS.get(k) || 0) + 1);
-      const l = looseKey(x);
+      const l = finalSylKey(x);
       LOOSE_COUNTS.set(l, (LOOSE_COUNTS.get(l) || 0) + 1);
     }
   }
   return (RHYME_COUNTS.get(rhymeKey(w)) || 0) >= 2
-      || (LOOSE_COUNTS.get(looseKey(w)) || 0) >= 2;
+      || (LOOSE_COUNTS.get(finalSylKey(w)) || 0) >= 2;
 }
 
 function nextWord(){
@@ -5114,8 +5119,10 @@ function timeUp(){
 
 function checkGameAnswer(){
   const answer = toLatin(gameInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
-  if(!answer || answer.length < 2){
-    gameFeedback.textContent = uiTxt('Upiši rimu (bar 2 slova)');
+  /* Bar 3 slova (08.09.2026): sa 2 su prolazile rečce „je", „ma", „da", „se" – „pesma" + „ma" je
+     bilo priznato kao rima, pa je dete moglo da kupi bodove bez ijedne prave reči. */
+  if(!answer || answer.length < 3){
+    gameFeedback.textContent = uiTxt('Upiši rimu (bar 3 slova)');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
@@ -5134,7 +5141,7 @@ function checkGameAnswer(){
   const player = gamePlayersData[gameCurrentPlayerIdx];
   const qKey = rhymeKey(gameCurrentWord);
   const aKey = rhymeKey(answer);
-  const isRhyme = qKey === aKey || looseKey(gameCurrentWord) === looseKey(answer);
+  const isRhyme = qKey === aKey || finalSylKey(gameCurrentWord) === finalSylKey(answer);   // ne looseKey – v. imaRimu
 
   if(isRhyme){
     gameCombo++;

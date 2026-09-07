@@ -610,10 +610,10 @@ async function main() {
       // sasvim ispravna.
       let rima = null;
       if (typeof rhymeKey === 'function') {
-        const k = rhymeKey(cilj), lk = (typeof looseKey === 'function') ? looseKey(cilj) : null;
+        const k = rhymeKey(cilj), lk = (typeof finalSylKey === 'function') ? finalSylKey(cilj) : null;   // isto pravilo kao igra (08.09.: looseKey je primao svaku reč na isto slovo)
         for (const w2 of WORDS) {
           if (w2 === cilj) continue;
-          if (rhymeKey(w2) === k || (lk && looseKey(w2) === lk)) { rima = w2; break; }
+          if (rhymeKey(w2) === k || (lk && finalSylKey(w2) === lk)) { rima = w2; break; }
         }
       }
       let fbTacna = 'nije testirano';
@@ -2518,9 +2518,9 @@ async function main() {
         // 1. reč – namerno POGREŠNO (postoji u rečniku, ali se ne rimuje)
         const cilj1 = gameCurrentWord;
         let neRima = null;
-        const k1 = rhymeKey(cilj1), lk1 = looseKey(cilj1);
+        const k1 = rhymeKey(cilj1), lk1 = finalSylKey(cilj1);
         for (const c of WORDS) {
-          if (c !== cilj1 && rhymeKey(c) !== k1 && looseKey(c) !== lk1) { neRima = c; break; }
+          if (c !== cilj1 && rhymeKey(c) !== k1 && finalSylKey(c) !== lk1) { neRima = c; break; }
         }
         inp.value = neRima; sub.click();
         await w(1900);
@@ -2528,9 +2528,9 @@ async function main() {
         // 2. reč – TAČNO
         const cilj2 = gameCurrentWord;
         let rima = null;
-        const k2 = rhymeKey(cilj2), lk2 = looseKey(cilj2);
+        const k2 = rhymeKey(cilj2), lk2 = finalSylKey(cilj2);
         for (const c of WORDS) {
-          if (c !== cilj2 && (rhymeKey(c) === k2 || looseKey(c) === lk2)) { rima = c; break; }
+          if (c !== cilj2 && (rhymeKey(c) === k2 || finalSylKey(c) === lk2)) { rima = c; break; }
         }
         inp.value = rima; sub.click();
         await w(1900);

@@ -41,7 +41,7 @@ async function primi(request, env) {
   if (!dozvoljeno(origin)) return json({ ok: false, greska: 'poreklo' }, 403, h);
   let t; try { t = await request.json(); } catch { return json({ ok: false, greska: 'json' }, 400, h); }
   if (typeof t !== 'object' || t === null) return json({ ok: false, greska: 'json' }, 400, h);
-  if (polje(t.mejl, 10)) return json({ ok: true, proba: true }, 200, h);            // zamka za robote: polje koje čovek ne vidi
+  if (polje(t.mejl, 10)) return json({ ok: true }, 200, h);                         // zamka za robote: odgovor ISTI kao pravi (N-13: `proba:true` je odavao zamku)
   const p = { rec: polje(t.rec, GRANICE.rec), upit: polje(t.upit, GRANICE.upit), slogova: Number.isInteger(t.slogova) && t.slogova >= 0 && t.slogova < 30 ? t.slogova : null,
               razlog: RAZLOZI.has(t.razlog) ? t.razlog : null, napomena: polje(t.napomena, GRANICE.napomena), strana: polje(t.strana, GRANICE.strana) };
   if (!p.rec || !p.razlog) return json({ ok: false, greska: 'nepotpuno' }, 400, h);
@@ -52,8 +52,8 @@ async function primi(request, env) {
   const zapis = { ...p, kad, ko: await otisak(ip + '|' + (request.headers.get('User-Agent') || '').slice(0, 80)),
                   uredjaj: /Mobi|Android|iPhone/i.test(request.headers.get('User-Agent') || '') ? 'telefon' : 'računar' };
   await env.PRIJAVE.put(`prijava:${Date.now()}:${Math.random().toString(36).slice(2, 7)}`, JSON.stringify(zapis), { expirationTtl: CUVANJE_SEK });
-  const uk = parseInt((await env.PRIJAVE.get('broj:ukupno')) || '0', 10) + 1;
-  await env.PRIJAVE.put('broj:ukupno', String(uk));
+  /* Brojač `broj:ukupno` je UKINUT (N-13): KV nema atomično uvećanje, pa su dve prijave u istoj sekundi
+     brojale jednu; „ukupno" se sada uvek prebroji iz spiska ključeva (v. pregled). */
   return json({ ok: true }, 200, h);
 }
 
@@ -64,14 +64,17 @@ const NAZIV = { slogovi: 'pogrešan broj slogova', 'nije-rec': 'nije ispravna re
 
 async function pregled(request, env) {
   const url = new URL(request.url);
-  if (!env.KLJUC || url.searchParams.get('kljuc') !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+  /* Ključ ide u ZAGLAVLJU `X-Kljuc` (N-13: u adresi ostaje u logovima); `?kljuc=` je zadržan samo za HTML
+     pregled u pregledaču (tamo se zaglavlje ne može poslati). */
+  const kljuc = request.headers.get('X-Kljuc') || url.searchParams.get('kljuc');
+  if (!env.KLJUC || kljuc !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
   const posle = url.searchParams.get('posle') || '';                           // ISO vreme: vrati samo novije (za dnevni izveštaj)
   const lista = await env.PRIJAVE.list({ prefix: 'prijava:', limit: 1000 });
   const sve = [];
   for (const k of lista.keys) { const v = await env.PRIJAVE.get(k.name); if (v) { const z = JSON.parse(v); z.id = k.name; if (!posle || z.kad > posle) sve.push(z); } }
   sve.sort((a, b) => (a.kad < b.kad ? 1 : -1));
   /* „Ukupno“ je broj STVARNO sačuvanih prijava (brojač u KV je posle brisanja neprecizan). */
-  const ukupno = String(posle ? Number((await env.PRIJAVE.get('broj:ukupno')) || '0') : sve.length);
+  const ukupno = String(posle ? lista.keys.filter(k => k.name.startsWith('prijava:')).length : sve.length);   // N-13: bez KV brojača
   if (url.searchParams.get('format') === 'json') return json({ ukupno: Number(ukupno), prijave: sve });
   const red = z => `<tr><td>${esc(z.kad.slice(0, 16).replace('T', ' '))}</td><td><b>${esc(z.rec)}</b>${z.slogova != null ? ` <small>(${z.slogova})</small>` : ''}</td><td>${esc(z.upit)}</td><td>${esc(NAZIV[z.razlog] || z.razlog)}</td><td>${esc(z.napomena)}</td><td><small>${esc(citljivaAdresa(z.strana))} · ${esc(z.uredjaj)}</small></td></tr>`;
   const html = `<!doctype html><html lang="sr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
@@ -93,7 +96,7 @@ export default {
     if (request.method === 'GET' && url.pathname === '/zdravlje') return json({ ok: true });
     /* Brisanje jedne prijave (samo sa ključem) — za probne zapise koji su omaškom ušli (07.09.2026). */
     if (request.method === 'POST' && url.pathname === '/obrisi') {
-      if (!env.KLJUC || url.searchParams.get('kljuc') !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+      if (!env.KLJUC || (request.headers.get('X-Kljuc') || url.searchParams.get('kljuc')) !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
       const id = url.searchParams.get('id') || '';
       if (!/^prijava:\d+:[a-z0-9]+$/.test(id)) return json({ ok: false, greska: 'id' }, 400);
       await env.PRIJAVE.delete(id);

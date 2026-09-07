@@ -67,9 +67,22 @@ function toLatin(s){
 const LAT2CYR_U = {};
 for(const k in LAT2CYR) LAT2CYR_U[k.toUpperCase()] = LAT2CYR[k].toUpperCase();
 const DIGRAPH2CYR = { 'dž':'џ','Dž':'Џ','DŽ':'Џ','lj':'љ','Lj':'Љ','LJ':'Љ','nj':'њ','Nj':'Њ','NJ':'Њ' };
+/* NJ, LJ, DŽ NISU UVEK JEDNO SLOVO (08.09.2026, nađeno poređenjem sa Rečnikom Matice: 6 odrednica pogrešno):
+   „injekcija“ je ин-ј-екција, „konjunkcija“ кон-ј-ункција, „nadživeti“ над-ж-ивети — slova su na granici
+   prefiksa i osnove. Ti spojevi se razdvoje nevidljivim znakom pre pretvaranja, pa se znak skloni.
+   Spisak: Matica + jasni prefiksi (nad/od/pred/pod + živ/žup/žal/žar); „inje“ (иње), „konj“ (коњ),
+   „odžak“ (оџак), „nadžak“ (наџак) ostaju pravi digrafi. */
+const NE_DIGRAF = [
+  [/(^|[^a-zčćžšđA-ZČĆŽŠĐ])(in)(jek)/g, '$1$2\u0001$3'],
+  [/(^|[^a-zčćžšđA-ZČĆŽŠĐ])(In)(jek)/g, '$1$2\u0001$3'],
+  [/(^|[^a-zčćžšđA-ZČĆŽŠĐ])([Kk]on)(jug|junk)/g, '$1$2\u0001$3'],
+  [/(^|[^a-zčćžšđA-ZČĆŽŠĐ])([Nn]ad|[Oo]d|[Pp]red|[Pp]od)(živ|žup|žal|žar)/g, '$1$2\u0001$3']
+];
 function toCyr(s){
+  for(const [re, z] of NE_DIGRAF) s = s.replace(re, z);
   return s
     .replace(/dž|Dž|DŽ|lj|Lj|LJ|nj|Nj|NJ/g, m => DIGRAPH2CYR[m])
+    .replace(/\u0001/g, '')
     .replace(/[a-zA-ZđžćčšĐŽĆČŠ]/g, ch =>
       LAT2CYR[ch] !== undefined ? LAT2CYR[ch] :
       (LAT2CYR_U[ch] !== undefined ? LAT2CYR_U[ch] : ch));
@@ -3684,6 +3697,7 @@ try{ pamtiPraznoStanje(); }catch(e){}
 function goHome(){
   rimeInput.value = '';
   el('rimeResults').innerHTML = pamtiPraznoStanje();
+  if(script === 'cyr') convertTextNodes(el('rimeResults'), toCyr);   // zapamćeno stanje je latinicom
   hideAutocomplete();
   switchTab('rime');
   try{
@@ -3740,7 +3754,8 @@ const UI_SCRIPT_SELS = [
   /* Statičke strane (nalaz S-09, 07.09.2026): futer, „Rime za druge reči" i napomena uz njih
      ostajali su latinicom. Mejl se ne prebacuje (`mailto`), logo nikad. */
   '.related-note', '.related-rimes h2', '.syl-groups h2', '.landing-meta', '.skip-link',
-  '.footer-link:not([href^="mailto"])', '.footer-legal', '.futer-naslov', '.futer-rime-uvod'
+  '.footer-link:not([href^="mailto"])', '.footer-legal', '.futer-naslov', '.futer-rime-uvod',
+  '.prazno-stanje'   // uvodno objašnjenje na početnoj (prijava vlasnice 08.09.: ostajalo latinicom)
 ];
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle', 'gameInput', 'gamePlayersCustom'];
 
@@ -3890,9 +3905,15 @@ function prikaziUputstvoZaTastaturu(){
 /* `.kbd-help` je uputstvo koje POSTOJI samo u ćirilici i već je napisano
    ćirilicom — kad bi ga prekidač prevodio, tabela tastera bi se pri povratku
    na latinicu prepisala u „š / č", a to nije ono što piše na tasteru. */
-const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-legal, .deftip, .kbd-help';
+/* `.footer-legal` i `.deftip` su IZBAČENI iz izuzetaka 08.09.2026 (vlasnica: na ćirilici ne sme ostati latinica osim
+   logotipa, „Powered by Orbita Code“ i stranih imena) — objašnjenja reči i „Sva prava zadržana“ idu u ćirilicu. */
+const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-orbita, .kbd-help, kbd, code';
 const ADRESA = /[@]|\b[a-z0-9-]+\.(com|rs|org|net)\b/i;
 const SKRACENICA = /\b[A-ZĐŽĆČŠ]{2,}\b/g;
+/* IMENA FIRMI I PROIZVODA OSTAJU LATINICOM (prijava vlasnice 08.09.2026: „Orbita Code" je u futeru
+   bio „Орбита Цоде"). Englesko ime se ne prevodi u ćirilicu — ni „Powered by". Kad se doda novo strano
+   ime u tekst sajta, dopisuje se ovde; skener ćirilice (test/skener-cirilica.mjs) prijavljuje sve latinično. */
+const ZASTICENO = /Powered by|Orbita Code|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Instagram|Facebook|TikTok|WhatsApp|Viber/g;
 
 function convertTextNodes(root, fn){
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
@@ -3906,7 +3927,8 @@ function convertTextNodes(root, fn){
        da bude znak koji se u tekstu NE MOŽE pojaviti — sa običnim brojem bi
        „ima 3 sloga" bilo prepoznato kao oznaka i tekst bi se pokvario. */
     const cuvane = [];
-    const sa = t.textContent.replace(SKRACENICA, m => '\u0000' + (cuvane.push(m) - 1) + '\u0000');
+    const sacuvaj = m => '\u0000' + (cuvane.push(m) - 1) + '\u0000';
+    const sa = t.textContent.replace(ZASTICENO, sacuvaj).replace(SKRACENICA, sacuvaj);
     t.textContent = fn(sa).replace(/\u0000(\d+)\u0000/g, (_, i) => cuvane[+i]);
   });
 }
@@ -5225,6 +5247,33 @@ document.addEventListener('pointerover', e => {
 }, { passive: true });
 
 bootstrap();
+
+/* ── HUB /rime-za/: PRETRAGA U SPISKU (S-23 / P11, 08.09.2026) ─────────────────────
+   Spisak ima ~2.000 reči. Kucanje filtrira linkove (početak reči ili bilo gde), prazna
+   slova nestaju, a broj pogodaka se najavi čitaču ekrana. Radi i u ćirilici (upit se
+   svodi na latinicu). Samo na strani koja ima polje. */
+(function hubPretraga(){
+  const polje = document.getElementById('hubPretraga');
+  if(!polje) return;
+  const linkovi = [...document.querySelectorAll('.hub-lista a')];
+  const grupe = [...document.querySelectorAll('.res-group')].filter(g => g.querySelector('.hub-lista'));
+  const nema = document.querySelector('.hub-nema');
+  const broj = document.querySelector('.hub-broj');
+  const norm = w => toLatin(w.toLowerCase()).trim();
+  linkovi.forEach(a => { a.dataset.n = norm(a.textContent); });
+  let t = null;
+  polje.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const q = norm(polje.value);
+      let pogodaka = 0;
+      for(const a of linkovi){ const ok = !q || a.dataset.n.includes(q); a.hidden = !ok; if(ok) pogodaka++; }
+      for(const g of grupe){ g.classList.toggle('hub-prazno', !g.querySelector('.hub-lista a:not([hidden])')); }
+      if(nema) nema.hidden = pogodaka > 0;
+      if(broj) broj.textContent = q ? (pogodaka + ' ' + (pogodaka % 10 === 1 && pogodaka % 100 !== 11 ? 'reč' : 'reči')) : '';
+    }, 80);
+  });
+})();
 
 /* ── NOTA U FUTERU SE NA KLIK PRETVARA U SRCE (03.08.2026) ──────────────────
    Zahtev vlasnice. Sitnica koja se ne traži i ne objavljuje — ko klikne notu

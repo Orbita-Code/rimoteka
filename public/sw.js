@@ -14,7 +14,7 @@
  * 4. Pri svakoj promeni ovog fajla podigni CACHE verziju — `activate`
  *    briše sve keševe koji nisu tekući.
  * ============================================================ */
-const CACHE = 'rimoteka-v5';
+const CACHE = 'rimoteka-v6';   // v6 08.09.2026: logo-icon.png 512→128 px (A6), stari keš se baca
 
 // Samo mali fajlovi ljuske. BEZ definicije.json i reci.txt (preveliki),
 // bez verzionisanih ?v= putanja (menjaju se pri svakom deployu).

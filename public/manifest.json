@@ -14,25 +14,25 @@
   "dir": "ltr",
   "icons": [
     {
-      "src": "/logo-icon.png",
+      "src": "/logo-512.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/logo-icon.png",
+      "src": "/logo-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/logo-icon.png",
+      "src": "/logo-512.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/logo-icon.png",
+      "src": "/logo-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -44,21 +44,21 @@
       "short_name": "Rime",
       "description": "Pronađi rime za reč",
       "url": "/?tab=rime",
-      "icons": [{ "src": "/logo-icon.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/logo-512.png", "sizes": "192x192" }]
     },
     {
       "name": "Brojač slogova",
       "short_name": "Slogovi",
       "description": "Prebroj slogove u stihu",
       "url": "/?tab=slogovi",
-      "icons": [{ "src": "/logo-icon.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/logo-512.png", "sizes": "192x192" }]
     },
     {
       "name": "Beležnica",
       "short_name": "Beležnica",
       "description": "Piši pesmu sa obojenim rimama",
       "url": "/?tab=beleznica",
-      "icons": [{ "src": "/logo-icon.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/logo-512.png", "sizes": "192x192" }]
     }
   ]
 }

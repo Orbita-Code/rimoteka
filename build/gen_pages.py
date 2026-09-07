@@ -295,7 +295,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260908c">
+<link rel="stylesheet" href="/style.css?v=20260908d">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908h"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908j"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1945,8 +1945,14 @@ def main():
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za reč</span></nav>
   <h1 class="landing-h1">Rime po rečima — azbučni spisak strana</h1>
   <p class="landing-lead">Za svaku reč sa ovog spiska postoji zasebna strana sa rimama, brojem slogova i objašnjenjem. Izaberi reč ili je upiši u alat na početnoj.</p>
-  <p class="hub-azbuka">{hub_azbuka}</p>
+  <div class="hub-alat">
+    <label class="sr-only" for="hubPretraga">Nađi reč u spisku</label>
+    <input type="search" id="hubPretraga" class="hub-pretraga" placeholder="nađi reč u spisku…" autocomplete="off" spellcheck="false">
+    <p class="hub-azbuka">{hub_azbuka}</p>
+    <p class="hub-broj sr-only" aria-live="polite"></p>
+  </div>
   {''.join(hub_sekcije)}
+  <p class="hub-nema empty" hidden>Nema te reči na spisku — upiši je u alat na početnoj, rime radi za svaku reč.</p>
 </main>
 """
     hub_html = sa_preloadom_recnika((hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))

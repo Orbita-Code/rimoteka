@@ -32,6 +32,14 @@ git worktree) → `main` 81261c2a2. CSP u tom pushu JOŠ dozvoljava Google Fonts
 sužava se u pushu 2 zajedno sa sajtom. Provereno na produkciji odmah: `/` 200, `/rime-za/aaa/` 301 na hub,
 `/rime-za/ljubav/` 200, `/rime-za/xqzwptr/` 404 sa našom stranom. `nginx-provera.sh` proverava da se CSP
 i `index.html` SLAŽU oko Google Fonts (uslovno — zbog zasebnog nginx pusha).
+**Posle objave, isti dan (grana `fix/audit-0709-drugi-krug`, čeka push 3):** vlasnica tražila pravilo „nove
+reči kao stare" → CLAUDE.md 6.4 + **test sekcija 54 nad SVIM rečima** (alat + generator). Na prvom prolazu
+našla pravi kvar: `rhymeKey`/`looseKey`/`finalSylKey` nisu spuštali slova na mala (samo `vowelPositions`
+jeste), pa je „Irska" imala drugi ključ od „irska" — igra odbijala tačnu rimu, reči sa velikim samoglasnikom
+van „isti završni slog"/„šire rime". Popravljeno na izvoru (`app.js?v=20260908f`). **S-18 zatvoren:** blok
+„Susedne reči u spisku" (2 pre + 2 posle po azbuci) — min 4 dolazna linka na svih 1.991 strana (bilo 114 sa 0);
+strane se sada pišu POSLE petlje (`odlozene`). Provere: 50 (S-18) i 54.
+
 **OBJAVLJENO 08.09. (push 2, sajt):** `fix/audit-0709-drugi-krug` → `main` 0eb7a456f (CSP sužen na `font-src 'self'`).
 Redosled koji je ispoštovan: lokalno 804/804 → test protiv produkcije SA STARIM kodom (739 prošlo, **23 nove
 provere pale** = dokaz da hvataju; test se pri tom srušio na dve provere koje su pretpostavljale element —

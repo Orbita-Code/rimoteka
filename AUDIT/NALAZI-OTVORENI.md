@@ -30,13 +30,13 @@ Provera: sekcija 46 (a2). Grana `fix/prijava-interno`.
 ## STANJE NA DAN 08.09.2026 — posle tri kruga popravki iz audita 07.09.
 
 Pun izveštaj audita: `AUDIT/2026-09-06-audit.md` (ocena 7,3 na dan 07.09.; nova ocena tek posle sledećeg audita —
-ocena se ne prepisuje bez merenja). Test lokalno 804, **na produkciji 791/791 (08.09., posle objave)**; sekcije 51–53 nove.
+ocena se ne prepisuje bez merenja). Test lokalno 808 (posle S-18 i sekcije 54), **na produkciji 791/791 (08.09., posle objave push 2)**; sekcije 51–54 nove.
 **Zatvoreno 07–08.09. (drugi i treći krug, grana `fix/audit-0709-drugi-krug`):** A4, A5, S-03, S-04, S-06, S-08,
 S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, S-20, S-24, S-25, S-26, N-01, N-02, N-03, N-04, N-05, N-08, N-09,
 N-10, N-R1 — detalji u odeljku „ZATVORENO 08.09.2026" niže.
 **Ostaje otvoreno:** visoko A6 (logo — odluka vlasnice), V2 (sinonimi — pregled sa vlasnicom), V3 (HSTS je 300 s —
-podići na godinu posle par dana bez problema); srednje S-18 (dolazni linkovi), S-19 (tanke strane), S-22 (hub CLS,
-1 merenje), S-23/P11 (hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka).
+podići na godinu posle par dana bez problema); srednje S-19 (tanke strane), S-22 (hub CLS, 1 merenje), S-23/P11
+(hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka). **S-18 zatvoren 08.09.**
 
 ### ZATVORENO 08.09.2026 — DRUGI I TREĆI KRUG (27 nalaza)
 
@@ -67,6 +67,15 @@ podići na godinu posle par dana bez problema); srednje S-18 (dolazni linkovi), 
 | N-08 | „180 reči" a 250 kapsula | „180 pravih rima · još 70 bliskih" (oblik po broju: 1 prava rima / 2 prave rime / 5 pravih rima) | 51 + stara provera oblika |
 | N-10 | „najčešće reči u pesmama" | „reči koje pesnici često traže" | 51 |
 | N-R1 | rezervna grupa bez objašnjenja | rečenica ispod naslova grupe, u alatu i na statičkim stranama | 51 |
+
+### ZATVORENO 08.09.2026 — S-18 i novi nalaz „ključ rime zavisi od velikog slova" (K-VS)
+
+| # | Šta je bilo | Šta je sada | Provera |
+|---|---|---|---|
+| S-18 | 114 strana reči sa NULA dolaznih linkova iz drugih strana reči, još 232 sa 1–2 (blok „Rime za druge reči" nudio istih 8 reči svima) | svaka strana ima blok „Susedne reči u spisku" (2 pre + 2 posle po azbuci, kružno) — **min 4 dolazna** na svih 1.991 | 50 (S-18) |
+| **K-VS** | `rhymeKey`/`looseKey`/`finalSylKey` sekli ORIGINALNI oblik: „Irska" → ključ „Irska", „irska" → „irska". Posledice: reči sa velikim početnim samoglasnikom nisu ulazile u „isti završni slog" i „šire rime"; **igra je odbijala tačnu rimu** za takvu reč | sve tri funkcije spuštaju ulaz na mala slova na prvom redu | 54 (sve 285.334 reči + 25 e2e) |
+
+Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom prolazu kroz sve reči.
 
 **Odluka vlasnice 07.09.2026 (baner):** tekst „Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem
 sajtu."; prihvatanje 1 klik, odbijanje kroz „Podesi" namerno; EU/GDPR se na ovom sajtu ne pominje (globalni

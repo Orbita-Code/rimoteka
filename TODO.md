@@ -16,7 +16,6 @@
 ## 1. ODMAH POSLE OBJAVE
 
 1. **V3 — HSTS na godinu** (`max-age=31536000`) kad prođe par dana bez problema sa 300 s. Zaseban nginx deploy.
-3. **S-18 — 229 strana `/rime-za/` sa ≤1 dolaznim linkom** (109 sa nula): blok „srodne reči" po ključu rime tako da svaka strana ima ≥3 dolazna linka. Direktno vezano za GSC „Discovered – not indexed" (1.123).
 4. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; stare adrese dodati u `nginx-stare-strane.map` (301 na hub).
 5. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3× (`node test/meri-cls.mjs`) sad kad je font na našem serveru; po potrebi `font-display:optional` za hub.
 6. **N-06** upozorenje kad `strane-otisci.json` fali · **N-11** 30 opisa ispod 110 znakova, 2 para duplih · **N-16** filter „5+" u drugi red na 320 · **N-17** `aria-describedby` u prijavi · **N-19** 53 % unosa su uputnice „Oblik reči X".
@@ -25,7 +24,6 @@
 
 ## 2. OVOG MESECA — struktura i brzina
 
-16. **S-18 — 229 strana `/rime-za/` sa ≤1 dolaznim linkom** (109 sa nula): blok „srodne reči" po ključu rime tako da svaka strana ima ≥3 dolazna linka. Direktno vezano za GSC „Discovered – not indexed" (1.123).
 17. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; 301 na hub već postoji.
 21. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3×, po potrebi `font-display:optional` za hub.
 22. **Brzina, ostalo:** brotli prednost nad gzip-om (~45 KB po prvoj poseti); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME).
@@ -52,7 +50,7 @@ za reč bez podatka ostaje današnje pravilo. Grupa „Najbolje rime" = poklapan
 poklapanje od pretposlednjeg samoglasnika (današnji ključ). Statičke strane se regenerišu istim kodom
 (K1 pouka: alat i generator računaju isto).
 
-**Redosled:** posle S-18/S-19 (indeksiranje je veći problem od kvaliteta rime — vidi GSC 1.123
+**Redosled:** posle S-19 (indeksiranje je veći problem od kvaliteta rime — vidi GSC 1.123
 „otkriveno, nije indeksirano"). Pre pisanja koda: proba na 200 odrednica + spisak 50 reči gde bi se
 redosled promenio, na pregled vlasnici.
 

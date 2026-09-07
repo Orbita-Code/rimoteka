@@ -321,6 +321,25 @@ negativno ide pred sve pozitivno**. Posledica, izmereno:
 > „nepoznato", a ne kao nulu. Reč koja je u **Rečniku Matice srpske** je standardna
 > srpska reč bez obzira na to šta veb-korpus o njoj kaže.
 
+### 6.4 SVAKA REČ IDE ISTIM PUTEM — stara ili nova, veliko ili malo slovo (pravilo vlasnice, 08.09.2026)
+
+> Vlasnica: „nove reči koje unosimo na sajt moraju da se tretiraju kao i stare — da im se broje slogovi
+> i da ulaze u rime. Ne želim propust kao sa rečima sa velikim slovom." (06.09. je „Iran" brojao jedan
+> slog jer veliko I nije bilo samoglasnik; 08.09. je ista provera našla da „Irska"/„Oslo" dobijaju
+> drugačiji **ključ rime** od „irska"/„oslo", pa ih igra nije priznavala kao rimu.)
+
+1. **Nema „novih" i „starih" reči u kodu.** Reč koja uđe u `reci.txt` (ili `reci_jekavica.txt`) prolazi
+   ISTE funkcije kao sve ostale: `countSyl`/`count_syl`, `rhymeKey`/`rhyme_key`, `looseKey`, `finalSylKey`,
+   pretraga (`SET`), igra, kockica, generator strana. Nikakav poseban put za imena, skraćenice, strane reči.
+2. **Svaka od tih funkcija spušta ulaz na mala slova SAMA, na prvom redu** — ne oslanja se na to da je
+   pozivalac to uradio. Ključ rime, broj slogova i pretraga ne smeju da zavise od velikog slova.
+3. **Test, sekcija 54, prolazi kroz SVE reči** (285.334), u alatu i u generatoru: broj slogova isti za
+   veliko i malo slovo, ≥1 slog, ključ rime isti, reč u skupu za pretragu; plus 25 reči sa velikim slovom
+   stvarno izlaze kao rime sa tačnim brojem slogova. **Pada na prvoj reči koja odstupa.**
+4. **Kad se dodaju reči:** `python3 build/podeli_definicije.py` (ako je i objašnjenje), pa
+   `node scripts/osvezi-verzije-podataka.mjs`, pa `python3 build/gen_pages.py`, pa pun test — sekcija 54
+   je ta koja kaže da li nove reči rade kao stare.
+
 ### 6.3 Kvalitet rima
 - Rime moraju biti validne srpske reči.
 - Ako rečnik sadrži sumnjiv/grešan oblik — prijaviti korisnici, ne preuzimati automatske odluke.
@@ -423,7 +442,10 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
     prelazak strane, preload rečnika (i da se skida TAČNO jednom), 44 px, baner, oblačić, statičke strane,
     filter u adresi, font sa našeg servera (nijedan zahtev ka Google-u), „preskoči na sadržaj"
 18. **Definicije po slovima** (sekcija 53) — deljeni fajlovi = ceo `definicije.json`; „značenje" ne skida ceo fajl
-19. **Sve strane iz sitemapa** (sekcija 50) — fajl po fajl: h1, kanonikal, JSON-LD, ≥8 rima, verzija app.js
+19. **Sve strane iz sitemapa** (sekcija 50) — fajl po fajl: h1, kanonikal, JSON-LD, ≥8 rima, verzija app.js,
+    **svaka strana reči ≥3 dolazna linka iz drugih strana reči** (S-18)
+20. **Svaka reč u rečniku** (sekcija 54) — SVE reči, alat i generator: slogovi i ključ rime ne zavise od
+    velikog slova, svaka ≥1 slog, svaka u pretrazi; 25 reči sa velikim slovom izlaze kao rime (pravilo 6.4)
 
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 **Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test

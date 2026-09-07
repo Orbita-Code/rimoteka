@@ -250,7 +250,14 @@ function vowelPositions(w){
 }
 // Jak ključ: ako se reč završava suglasnikom -> od poslednjeg samoglasnika;
 // ako se završava samoglasnikom -> od pretposlednjeg (poslednja ~2 sloga).
+/* KLJUČEVI RIME SU UVEK OD MALIH SLOVA (pravilo vlasnice 08.09.2026, test sekcija 54).
+   `vowelPositions` je spuštao slova na mala, ali su ove tri funkcije SEKLE originalni oblik —
+   pa je „Irska" davala ključ „Irska", a „irska" ključ „irska". Posledice, izmerene: reči sa
+   velikim početnim samoglasnikom (Irska, Oslo, Amerika…) nisu ulazile u grupe „isti završni
+   slog" i „šire rime", a u igri je tačna rima za takvu reč bila ODBIJANA (`checkGameAnswer`
+   poredi ključ reči iz igre sa ključem odgovora malim slovima). */
 function rhymeKey(w){
+  w = String(w).toLowerCase();
   const vp = vowelPositions(w);
   if(vp.length === 0) return w;
   const last = vp[vp.length-1];
@@ -260,6 +267,7 @@ function rhymeKey(w){
 }
 // Širi ključ: od poslednjeg samoglasnika (asonanca)
 function looseKey(w){
+  w = String(w).toLowerCase();
   const vp = vowelPositions(w);
   if(vp.length === 0) return w;
   return w.slice(vp[vp.length-1]);
@@ -267,6 +275,7 @@ function looseKey(w){
 // Ključ završnog sloga: jedan onset suglasnik + poslednje jezgro + rep
 // (za reči sa malo savršenih rima, npr. srce -> "ce": borce, dvorce, jezerce...)
 function finalSylKey(w){
+  w = String(w).toLowerCase();
   const vp = vowelPositions(w);
   if(vp.length === 0) return w;
   const last = vp[vp.length-1];

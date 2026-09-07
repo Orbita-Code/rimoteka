@@ -5659,6 +5659,7 @@ async function main() {
         const verzija = (fs.readFileSync(path.join(ROOT, 'public', 'index.html'), 'utf8').match(/app\.js\?v=([0-9a-z]+)/) || [])[1];
         const lose = { fajl: [], h1: [], kanon: [], jsonld: [], malo: [], rec: [], verzija: [] };
         let rimeStrana = 0;
+        const dolazni = new Map();   // S-18: slug → broj drugih strana reči koje ka njemu linkuju (bez futera)
         for (const u of adrese) {
           const rel = u.replace('https://rimoteka.com', '').replace(/\/$/, '');
           const f = path.join(ROOT, 'public', rel, 'index.html');
@@ -5668,7 +5669,9 @@ async function main() {
           const kan = (h.match(/<link rel="canonical" href="([^"]+)"/) || [])[1];
           if (kan !== u) lose.kanon.push(u);
           for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { lose.jsonld.push(u); break; } }
-          if (/\/rime-za\/[^/]+\/$/.test(u)) { rimeStrana++; const n = (h.match(/class="chip chip-btn"|class="chip"/g) || []).length; if (n < 8) lose.malo.push(u + ` (${n})`); if (/href="\/\?rec=/.test(h)) lose.rec.push(u); }
+          if (/\/rime-za\/[^/]+\/$/.test(u)) { rimeStrana++; const n = (h.match(/class="chip chip-btn"|class="chip"/g) || []).length; if (n < 8) lose.malo.push(u + ` (${n})`); if (/href="\/\?rec=/.test(h)) lose.rec.push(u);
+            const moj = rel.replace('/rime-za/', ''); const glavni = h.split('<footer')[0];
+            for (const m of new Set([...glavni.matchAll(/href="\/rime-za\/([^/"]+)\/"/g)].map(x => x[1]))) if (m !== moj) dolazni.set(m, (dolazni.get(m) || 0) + 1); }
           if (!h.includes(`app.js?v=${verzija}`)) lose.verzija.push(u);
         }
         ok(`sve strane · svaka adresa iz sitemapa ima fajl (${adrese.length})`, lose.fajl.length === 0, lose.fajl.slice(0, 3).join(', '));
@@ -5678,6 +5681,11 @@ async function main() {
         ok(`sve strane · svaka strana reči (${rimeStrana}) ima bar 8 rima u HTML-u`, lose.malo.length === 0, `${lose.malo.length}: ${lose.malo.slice(0, 5).join(', ')}`);
         ok('sve strane · nijedna strana reči ne linkuje `/?rec=` (K2)', lose.rec.length === 0, `${lose.rec.length}: ${lose.rec.slice(0, 3).join(', ')}`);
         ok('sve strane · sve nose istu verziju app.js kao početna', lose.verzija.length === 0, `${lose.verzija.length}: ${lose.verzija.slice(0, 3).join(', ')}`);
+        /* S-18 (07.09.2026): bilo je 114 strana sa NULA dolaznih linkova iz drugih strana reči i još 232 sa 1–2.
+           Sad svaka ima blok „Susedne reči u spisku" (2 pre + 2 posle po azbuci), pa svaka ima ≥ 4. */
+        const slugovi = adrese.filter(u => /\/rime-za\/[^/]+\/$/.test(u)).map(u => u.replace(/^.*\/rime-za\//, '').replace(/\/$/, ''));
+        const slabo = slugovi.filter(sl => (dolazni.get(sl) || 0) < 3);
+        ok(`S-18 · svaka strana reči (${slugovi.length}) ima bar 3 dolazna linka iz DRUGIH strana reči (bez futera)`, slabo.length === 0, `${slabo.length} ispod 3: ${slabo.slice(0, 5).join(', ')}`);
       } else {
         const uzorak = []; const kopija = adrese.slice(); for (let i = 0; i < 30 && kopija.length; i++) uzorak.push(kopija.splice(Math.floor(Math.random() * kopija.length), 1)[0]);
         const pali = [];
@@ -6057,6 +6065,50 @@ async function main() {
       await p.evaluate(async () => { await fetchDefinition('svoda'); }); await pauza(600);
       const posle2 = zahtevi.slice(pre2);
       ok('S-20 · reč na drugo slovo skida svoj (drugi) fajl, i samo njega', posle2.length === 1 && /\/definicije\/s/.test(posle2[0].url), JSON.stringify(posle2));
+      await c.close();
+    }
+
+    console.log('\n54) SVAKA REČ U REČNIKU — stara ili nova, veliko ili malo slovo — broji slogove i ulazi u rime (pravilo vlasnice 08.09.2026)');
+    {
+      /* Vlasnica: „nove reči koje unosimo na sajt moraju da se tretiraju kao i stare — da im se broje slogovi
+         i da ulaze u rime; ne želim propust kao sa rečima sa velikim slovom". Ovo NE proverava uzorak nego
+         SVE reči, u OBA sistema (alat i generator): broj slogova ne sme da zavisi od velikog slova, svaka
+         reč ima ≥1 slog, ključ rime ne zavisi od velikog slova, svaka reč je u skupu za pretragu. Uz to
+         25 reči sa velikim slovom stvarno IZLAZE kao rime za svoju malu reč, sa tačnim brojem slogova. */
+      if (LOKALNO) {
+        const { execSync } = await import('node:child_process');
+        const py = execSync(`python3 -c "import sys; sys.path.insert(0,'build'); import gen_pages as g
+ws=[l.strip() for f in ('public/reci.txt','public/reci_jekavica.txt') for l in open(f,encoding='utf-8') if l.strip()]
+bad=[w for w in ws if g.count_syl(w)!=g.count_syl(w.lower()) or g.syllables(w)<1 or g.rhyme_key(w)!=g.rhyme_key(w.lower()) or not g.rhyme_key(w.lower())]
+print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).trim().split(' ');
+        ok(`generator · svih ${py[0]} reči: slogovi i ključ rime ne zavise od velikog slova, svaka ≥1 slog`, py[1] === '0', `loše ${py[1]}: ${py.slice(2).join(' ')}`);
+      }
+      const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+      const p = ojacajStranu(await c.newPage());
+      await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+      await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+      await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {});
+      const sve = await p.evaluate(() => { const bad = []; for (let i = 0; i < WORDS.length; i++) { const w = WORDS[i], m = MALE[i];
+        if (countSyl(w) !== countSyl(m) || syllables(w) < 1 || !KEYS[i] || KEYS[i] !== rhymeKey(m) || rhymeKey(w) !== rhymeKey(m) || !SET.has(m)) { bad.push(w); if (bad.length > 6) break; } }
+        return { n: WORDS.length, bad }; });
+      ok(`alat · svih ${sve.n} reči: slogovi i ključ rime ne zavise od velikog slova, svaka ≥1 slog, svaka u pretrazi`, sve.bad.length === 0, sve.bad.join(', '));
+      const e2e = await p.evaluate(() => {
+        const byKey = new Map(); for (let i = 0; i < jekStart; i++) { const k = KEYS[i]; if (!byKey.has(k)) byKey.set(k, []); byKey.get(k).push(i); }
+        const parovi = [];
+        for (let i = 0; i < jekStart && parovi.length < 25; i++) { const w = WORDS[i]; if (!/^[A-ZČĆŠŽĐ]/.test(w)) continue;
+          const grp = byKey.get(KEYS[i]); if (!grp || grp.length < 2 || grp.length > 40) continue;
+          const partner = grp.map(j => WORDS[j]).find(x => x !== w && x === x.toLowerCase() && !BLOCKED.has(x) && !isKidsBlocked(x));
+          if (!partner || BLOCKED.has(w.toLowerCase())) continue; parovi.push([w, partner]); }
+        const pali = [];
+        for (const [w, partner] of parovi) { rimeInput.value = partner; doRhymes();
+          const cip = [...document.querySelectorAll('#rimeResults .chip')].find(x => x.dataset.w === w);
+          const s = cip ? cip.querySelector('.syl').textContent.trim() : null;
+          if (!cip || +s !== syllables(w)) pali.push(`${w} za „${partner}": ${cip ? 'slog ' + s + ' ≠ ' + syllables(w) : 'nema u rezultatima'}`); }
+        rimeInput.value = ''; doRhymes();
+        return { n: parovi.length, pali };
+      });
+      ok(`alat · ${e2e.n} reči sa velikim slovom izlaze kao rime za svoju malu reč, sa tačnim brojem slogova`, e2e.n >= 20 && e2e.pali.length === 0, e2e.pali.slice(0, 5).join(' | ') || `parova ${e2e.n}`);
       await c.close();
     }
 

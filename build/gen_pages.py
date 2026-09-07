@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908e"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908f"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -996,6 +996,15 @@ def main():
 
     generated = 0
     napravljene = []          # meta-reči koje su ZAISTA dobile stranu (za hub i brojke)
+    # S-18 (audit 07.09.2026): 229 strana je imalo ≤1 dolazni link iz drugih strana reči (109 sa nula),
+    # jer je blok „Rime za druge reči" na SVAKOJ strani nudio istih 8 najčešćih reči. Sada svaka strana
+    # dobija i blok „Susedne reči u spisku": dve strane pre i dve posle po azbuci (kružno) — pa svaka
+    # strana ima BAR 4 dolazna linka iz drugih strana reči. Spisak suseda se zna tek kad se zna koje
+    # reči su dobile stranu, zato se strane pišu POSLE petlje (v. `odlozene`).
+    odlozene = []
+    SUSEDI_BLOK = ('<div class="related-rimes susedi"><h2>Susedne reči u spisku</h2>'
+                   '<p class="related-note">Strane sa rimama za reči koje u azbučnom spisku stoje odmah pre i posle ove.</p>'
+                   '<div class="related-list"><!--SUSEDI--></div></div>')
     for t in targets:
         key = rhyme_key(t)
         klen = len(key)
@@ -1196,6 +1205,7 @@ def main():
   {groups}
   {syl_html}
   {rel_html}
+  {SUSEDI_BLOK}
   {mini_tool_form(t)}
   <!-- „Šta dalje“ — do 31.07.2026. ~2.000 ovih strana nije imalo NIJEDAN link ka drugim
        alatima iz teksta (`faq_sa_linkovima` se ovde ne poziva). Čovek koji nađe rimu
@@ -1222,14 +1232,28 @@ def main():
         # pri tom ne skida: ova strana nema nijedan alat koji pretražuje reči,
         # pa `bootstrap` preskoči `loadDict` (v. izuzetak u app.js).
         page = sa_preloadom_recnika((head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
+        odlozene.append((sl, t, canonical, page))
+        napravljene.append(t)
+        generated += 1
+
+    # ---- S-18: upis strana sa susedima po azbuci (kružno: prva i poslednja su susedi) ----
+    AZBUKA = 'abcčćdđefghijklmnoprsštuvzž'
+    def azbuka_kljuc(w):
+        return tuple(AZBUKA.index(ch) if ch in AZBUKA else 99 for ch in w.lower())
+    red = sorted(napravljene, key=azbuka_kljuc)
+    poz = {w: i for i, w in enumerate(red)}
+    n_red = len(red)
+    for sl, t, canonical, page in odlozene:
+        i = poz[t]
+        susedi = [red[(i + d) % n_red] for d in (-2, -1, 1, 2)] if n_red > 4 else [w for w in red if w != t]
+        sused_chips = ''.join(chip(w, syllables(w), f'/rime-za/{quote(slugify(w))}/') for w in susedi)
+        page = page.replace('<!--SUSEDI-->', sused_chips, 1)
         pdir = os.path.join(outdir, sl)
         os.makedirs(pdir, exist_ok=True)
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(page)
         sitemap_entries.append(
             f'  <url><loc>{canonical}</loc><lastmod>{lastmod_za(canonical, page)}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
-        napravljene.append(t)
-        generated += 1
 
     # 2b) statička strana /slogovi/ — keyword „brojanje slogova“
     slog_canon = f'{BASE}/slogovi/'

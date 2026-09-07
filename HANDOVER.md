@@ -17,7 +17,7 @@
 | `main` na GitHub-u | nginx delovi (HSTS godina, mapa velikih slova, mapa starih adresa) + sve do push 3 (08.09. popodne) |
 | Na sajtu (rimoteka.com) | push 1–3 + nginx (HSTS 31536000, `/rime-za/Beograd/` → 301 mala slova, 404 za nepostojeće); produkcija je na `app.js?v=20260908f` |
 | NIJE na sajtu (čeka push sajta) | SVE od 08.09. uveče: mobilni audit (traka rima na vrhu, kolona 59 px, brojač ne odnosi stranu), ćirilica cele strane, kratka crta, tamna prati sistem, logo 128 px, S-19 tanke strane, S-23 hub sa pretragom, N-13 sanduče (+ `wrangler deploy`), placeholder „nada", legenda vlasnice, digrafi, klasici → brojač, i sve popravke iz 3 agenta |
-| Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) IGRA_TEST2; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
+| Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) 500 poteza, 0 nalaza; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
 
 **Redosled objave sajta (push 4):** `git push origin fix/audit-0709-drugi-krug:main` (grana je FF na main) →
 deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com node test/predeploy.mjs` +

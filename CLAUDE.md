@@ -495,8 +495,8 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Stanje na 08.09.2026:** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga (grana
-`fix/audit-0709-drugi-krug`, čeka objavu). Otvoreno: A6/V2/V3 visoko, S-18/S-19/S-22/S-23 srednje, N-06/N-11–N-19 nisko.
+**Stanje na 08.09.2026:** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga i **objavljeno
+08.09.** (dva pusha; produkcija `app.js?v=20260908e`, test protiv produkcije 791/791). Otvoreno: A6/V2/V3 visoko, S-18/S-19/S-22/S-23 srednje, N-06/N-11–N-19 nisko.
 Izvor istine: `AUDIT/NALAZI-OTVORENI.md`, odeljak „STANJE NA DAN 08.09.2026".
 
 > Stanje od 07.09. (ispod) zadržano je samo za istoriju.

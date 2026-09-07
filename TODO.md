@@ -11,12 +11,11 @@
 |---|---|
 | Ocena audita | **7,3/10** na dan 07.09. (`AUDIT/2026-09-06-audit.md`); posle 27 zatvorenih nalaza ocena se meri u sledećem auditu, ne prepisuje |
 | Test | 53 sekcije, lokalno 804 provera |
-| Čeka objavu (grana `fix/audit-0709-drugi-krug`) | baner (tekst vlasnice), A4, A5, S-03, S-04, S-06, S-08–S-13, S-15–S-17, S-20, S-24–S-26, N-01–N-05, N-08–N-10, N-R1 + `nginx.conf` (404 za nepostojeće, keš fontova, CSP bez Google Fonts) + `Dockerfile` (mapa starih adresa) — **push 1 (nginx) OBJAVLJEN 08.09.** (`fix/nginx-404-fontovi` → main, CSP još sa Google Fonts); **push 2 (sajt + sužen CSP) čeka „da"**; posle njega `BASE=https://rimoteka.com node test/predeploy.mjs` |
+| Na sajtu (objavljeno 08.09., dva pusha) | baner (tekst vlasnice), legenda (tekst vlasnice), A4, A5, S-03, S-04, S-06, S-08–S-13, S-15–S-17, S-20, S-24–S-26, N-01–N-05, N-08–N-10, N-R1, nginx (404 za nepostojeće, keš fontova, CSP bez Google Fonts). Produkcija `app.js?v=20260908e`; test protiv produkcije **791/791** |
 
 ## 1. ODMAH POSLE OBJAVE
 
-1. **Test protiv produkcije** posle oba pusha (sekcije 51–53 moraju da prođu i tamo; S-06 proverava da nema zahteva ka Google-u — na produkciji to hvata i CSP).
-2. **V3 — HSTS na godinu** (`max-age=31536000`) kad prođe par dana bez problema sa 300 s. Zaseban nginx deploy.
+1. **V3 — HSTS na godinu** (`max-age=31536000`) kad prođe par dana bez problema sa 300 s. Zaseban nginx deploy.
 3. **S-18 — 229 strana `/rime-za/` sa ≤1 dolaznim linkom** (109 sa nula): blok „srodne reči" po ključu rime tako da svaka strana ima ≥3 dolazna linka. Direktno vezano za GSC „Discovered – not indexed" (1.123).
 4. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; stare adrese dodati u `nginx-stare-strane.map` (301 na hub).
 5. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3× (`node test/meri-cls.mjs`) sad kad je font na našem serveru; po potrebi `font-display:optional` za hub.

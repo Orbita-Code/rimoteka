@@ -1409,3 +1409,32 @@ brisanje sa ključem). Test sada uvozi modul; kopija je izbačena.
 > **Pravilo.** Kad menjaš pomoćni fajl, `grep` odmah proveri KO ga uvozi. Ako ga niko ne uvozi, izmena
 > je promenila ništa. Kopija koda koja „liči" na modul je najgora vrsta greške: sve prolazi, ništa ne važi.
 
+## 08.09.2026 — ČETIRI MOJE GREŠKE KOJE JE TEST UHVATIO PRE OBJAVE (i jedna koju nije mogao)
+
+Sesija je zatvarala 27 nalaza odjednom. Test (koji sada ima 53 sekcije) zaustavio je četiri greške:
+
+1. **Negativna margina „da red ne bude visok"** na linkovima futera (44 px cilj) razbila je red
+   „Powered by Orbita Code" — link je iskočio 7 px iznad teksta. Test G6 iz sekcije 30 to gleda.
+   > Pravilo: kad se povećava dodirni cilj, **ne krasti prostor negativnom marginom** — red sme da
+   > bude viši. Ako izgled to ne trpi, koristi `inline-flex` + `min-height`, bez margina.
+2. **„Preskoči na sadržaj" beo na `--lavender-deep`** = 2,98 u tamnoj temi. Pisao sam boju za svetlu
+   temu i nisam pogledao tamnu. Test kontrasta (sekcija 33) meri i element van ekrana.
+   > Pravilo: **svaka nova boja se bira iz parova koji već imaju izmeren kontrast** (`--fill-primary-*`
+   > + `--on-primary`), ne iz „lepih" promenljivih teme. Nova boja = novo merenje u OBE teme.
+3. **`@media` blok za baner nije važio**, jer je stajao pre osnovnog pravila iste specifičnosti, a niže
+   u fajlu je bio još jedan `@media(max-width:560px)` koji ga je gazio. Izmereno: 168 → „popravka" →
+   161 → tek kad je blok premešten na kraj fajla 123 px.
+   > Pravilo: **posle CSS izmene meri se `getComputedStyle`, ne čita se pravilo.** Ako izmerena vrednost
+   > nije ona iz pravila, `grep` sve selektore istog imena i gledaj redosled u fajlu.
+4. **Provere u testu pisane „iz glave"** pale su na sopstvenim greškama: lenji regex (`[^·]*?` pa
+   opcioni deo nikad ne uhvati broj), reč bez grupe koju proveravam („srce" nema „Najbolje rime"),
+   `Tab` posle `blur()` (Chrome pamti polaznu tačku fokusa — Tab kreće od polja za reč, ne od vrha).
+   > Pravilo: **nova provera se prvo pusti sama, pa tek onda u punom testu** — pun test traje 15 minuta,
+   > ciljana skripta 20 sekundi. Ovde je to urađeno tek u trećem krugu (`scratchpad/brzo.mjs`).
+
+**Ono što test NIJE mogao da uhvati, a vlasnica jeste:** tekst banera. Napisao sam „Bez imena i bez mejla"
+misleći da je jasno — ona nije razumela šta znači, a kamoli korisnici. I dva puta sam joj pominjao GDPR/AEPD
+posle jasnog stava da sajt nije za EU.
+> Pravilo: **tekst koji korisnik vidi ne piše se sam — piše se kao ona što bi rekla**, i proverava se sa njom
+> pre nego što uđe u test kao „tačan tekst". Pravni okvir sajta određuje vlasnica, ne ja; kad ga jednom kaže,
+> ne otvara se ponovo (globalni CLAUDE.md, „KOLAČIĆI I PRAVO").

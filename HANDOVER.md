@@ -4,6 +4,38 @@
 
 ---
 
+# Sesija 7–8. septembar 2026 (dvadeset druga) — baner po odluci vlasnice, pa 27 nalaza iz audita
+
+**Vlasnica (07.09. noću):** tekst banera joj je bio „grozan" — sada je isti kao na orbitacode.com
+(„Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem sajtu."), namerno kratak i uopšten;
+prihvatanje 1 klik, odbijanje kroz „Podesi" — namerno. **Njen zahtev, zapisan kao trajno pravilo u globalnom
+`~/.claude/CLAUDE.md` („KOLAČIĆI I PRAVO"):** BLB, Spomenici i Rimoteka su za Srbiju i Balkan, EU/GDPR/AEPD se
+ne pominju, ne nudi se „Odbij" ni alat bez kolačića. „Na ovom uređaju" → „na tvom uređaju". Onda: „uradi stvari
+iz TODO liste i iz audita dok sajt ne bude 10/10".
+
+**Urađeno (grana `fix/audit-0709-drugi-krug`, NIJE puširano — vlasnica nije dala „da" za push):**
+27 nalaza zatvoreno — tabela u `AUDIT/NALAZI-OTVORENI.md`, odeljak „ZATVORENO 08.09.2026". Najkrupnije:
+partija igre preživi prelazak strane (`sessionStorage`), rečnik kreće sa HTML-om (preload), Rubik sa našeg
+servera (bez Google Fonts, CSP `font-src 'self'`), `definicije.json` podeljen na 224 fajla po slovu
+(`build/podeli_definicije.py` — **pustiti posle svake izmene `definicije.json`, pre `osvezi-verzije`**),
+404 umesto 301 za adrese koje nikad nisu postojale (`nginx-stare-strane.map`, 1.670 starih → 301;
+`Dockerfile` kopira mapu), 44 px ciljevi, baner 15,8 % ekrana, „preskoči na sadržaj", filter u adresi.
+Test: sekcije 51, 52, 53 (66 novih provera); lokalno 804. `nginx-provera.sh` prošla.
+
+**Šta test uhvatio od MOJIH grešaka u ovoj sesiji (sve popravljeno pre commita, upisano u PROPUSTI):**
+negativna margina na linkovima futera razbila red „Powered by"; „preskoči" beo na svetloj lavandi u tamnoj
+temi (2,98); `@media` blok za baner stajao PRE osnovnog pravila pa nije važio (izmereno 161 → 123 tek kad je
+premešten na kraj fajla); Chrome pamti polaznu tačku fokusa i posle `blur()`.
+
+**Objava — redosled:** 1) `nginx.conf` + `Dockerfile` + `nginx-stare-strane.map` zasebno (bash
+`test/nginx-provera.sh` = 0), proveriti glavnu adresu i `/rime-za/xqzwptr/` → 404; 2) ostatak; 3) posle
+svakog `BASE=https://rimoteka.com node test/predeploy.mjs`. Na produkciji je do tada `app.js?v=20260907b`.
+
+**Ostaje:** v. `TODO.md` (prepisan 08.09.) — V3 HSTS na godinu, S-18/S-19 linkovi i tanke strane, S-22
+merenje, sitni N-*, sanduče mejl, brotli. Odluke vlasnice: A6 logo, P11 hub, N-18 zarez ispred „pa", S6.
+
+---
+
 # Sesija 7. septembar 2026 (dvadeset prva) — pun audit 7,3/10 i prve popravke
 
 Pun audit (9 revizora): `AUDIT/2026-09-06-audit.md`. Ocena 7,3 (bilo 6,2). 0 kritičnih, 6 novih visokih

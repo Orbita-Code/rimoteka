@@ -137,6 +137,16 @@ def rima_word(n):
         return 'rime'
     return 'rima'
 
+def prava_rima(n):
+    """Oblik uz broj: 1 prava rima · 2–4 prave rime · 5+ pravih rima (po poslednjoj cifri,
+    izuzetak 11–14). Za uvod strane reči (nalaz N-08)."""
+    n = abs(n)
+    if n % 10 == 1 and n % 100 != 11:
+        return 'prava rima'
+    if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        return 'prave rime'
+    return 'pravih rima'
+
 # ---------------- Slug (transliteracija po pravilu) ----------------
 TRANS = {'š': 's', 'š'.upper(): 's', 'č': 'c', 'ć': 'c', 'ž': 'z', 'đ': 'dj'}
 def slugify(w):
@@ -257,7 +267,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="/ga-init.js?v=4"></script>
+<script src="/ga-init.js?v=5"></script>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
@@ -274,21 +284,24 @@ HEAD_TMPL = """<!DOCTYPE html>
 <meta property="og:image:alt" content="Rimoteka — rime, rečnik i slogovi na srpskom jeziku">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{base}/og-slika.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
+     slao adresu Google-u pre ikakvog pristanka, i čekao dva strana servera. Varijabilni
+     font (jedan fajl za sve debljine), četiri pisma; latinica i latinica-ext (č, ć, š, ž, đ)
+     se najavljuju odmah da zamena fonta ne pomera tekst. -->
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2" crossorigin>
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260907a">
+<link rel="stylesheet" href="/style.css?v=20260908a">
 <script type="application/ld+json">
 {schema}
 </script>
 </head>
 <body>
+<a class="skip-link" href="#glavno">Preskoči na sadržaj</a>
 <header class="site-header">
   <a class="brand" href="/" title="Rimoteka — rime, rečnik i slogovi">
     <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
@@ -411,7 +424,9 @@ def chip(rword, syl, href):
     telo = (f'<span class="word">{esc(rword)}</span>'
             f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span>')
     if href:
-        return f'<a class="chip" href="{href}">{telo}</a>'
+        # `data-rec` i na linku (nalaz S-08, 07.09.2026): po njemu app.js otvara traku
+        # nad reči (značenje, omiljene, kopiraj, prijava) i na statičkim stranama.
+        return f'<a class="chip" href="{href}" data-rec="{esc(rword)}">{telo}</a>'
     return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" '
             f'title="Nađi rime za „{esc(rword)}“">{telo}</button>')
 
@@ -457,7 +472,19 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260907b"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908b"></script>\n'
+
+# Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
+# 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
+# — inače pregledač skine rečnik DVA puta. Test to poredi. Ubacuje se samo na strane
+# koje rečnik stvarno skidaju (v. `trebaRecnik` u app.js).
+RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=c233afa9" crossorigin>'
+def sa_preloadom_recnika(html):
+    treba = any(m in html for m in ('id="rimeInput"', 'id="searchInput"', 'id="noteEditor"', 'id="gameSetup"'))
+    if not treba or RECI_PRELOAD in html:
+        return html
+    return html.replace('<script src="/ga-init.js?v=5"></script>', '<script src="/ga-init.js?v=5"></script>\n' + RECI_PRELOAD, 1)
+
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,
 # pa app.js radi bez ijedne izmene. Rečnik se na ovoj strani i ne skida —
@@ -672,7 +699,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     # tool=True → alat za rime; tool='<...>' → gotov markup nekog drugog alata
     alat = TOOL_HTML if tool is True else (tool if isinstance(tool, str) else '')
     cta = '' if alat else f'  <a class="landing-cta" href="{cta_href}">{esc(cta_text)}</a>\n'
-    body = f"""<main class="landing">
+    body = f"""<main class="landing" id="glavno" tabindex="-1">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>{esc(h1)}</span></nav>
   <h1 class="landing-h1">{esc(h1)}</h1>
 {alat}  <p class="landing-lead">{lead_html}</p>
@@ -686,7 +713,7 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
     # njega prekidač za pismo u zaglavlju ne bi radio. Rečnik se pri tom ne
     # skida: `bootstrap` ga traži samo ako na strani postoji neki alat koji
     # pretražuje reči (v. izuzetak u app.js).
-    izlaz = (head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
+    izlaz = sa_preloadom_recnika((head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(izlaz)
     return canon
@@ -1018,7 +1045,11 @@ def main():
                 return ''
             chips = ''.join(chip(w, syllables(w), rhyme_link(w, target_slugs)) for w in arr)
             cls = 'res-group strong-tier' if strong else 'res-group'
-            return f'<div class="{cls}"><h2>{title}</h2><div class="results">{chips}</div></div>'
+            # Ista rečenica kao u alatu (app.js `renderGroup`, nalaz N-R1): rezervna grupa
+            # se poklapa samo u poslednjem slogu, pa to mora da piše.
+            nota = ('<p class="res-note">Ove reči se sa tvojom slažu samo u poslednjem slogu, pa zvuče slabije od pravih rima.</p>'
+                    if title.startswith('Dobre rime (isti završni slog)') else '')
+            return f'<div class="{cls}"><h2>{title}</h2>{nota}<div class="results">{chips}</div></div>'
 
         # Grupe po broju slogova kao zaseban blok — UKLONJENE 20.08.2026: iste
         # reči su već u grupama „Najbolje/Dobre rime", pa je taj blok bio čista
@@ -1149,11 +1180,11 @@ def main():
         head = HEAD_TMPL.format(tabs_nav=tabs_nav('rime'), title=esc(title), desc=esc(desc), ogdesc=esc(ogdesc),
                                 canonical=canonical, base=BASE, schema=schema)
 
-        body = f"""<main class="landing">
+        body = f"""<main class="landing" id="glavno" tabindex="-1">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <a href="/rime-za/">Rime za reč</a> › <span>„{esc(t)}“</span></nav>
   <h1 class="landing-h1">Rime za reč „{esc(t)}“</h1>
-  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))} · {tsyl} {syl_word(tsyl)} · prvo one sa istim brojem slogova</p>
-  <p class="landing-lead">Sve što se rimuje sa <strong>„{esc(t)}“</strong> — {len(all_r)} {rec_word(len(all_r))}. Uz svaku piše koliko ima slogova i šta znači, pa odmah vidiš koja ti staje u stih. Klikni na reč i dobiješ njene rime, a dugme ispod kopira ceo spisak.</p>
+  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))}{' · još ' + str(len(loose)) + ' bliskih' if loose else ''} · {tsyl} {syl_word(tsyl)} · prvo one sa istim brojem slogova</p>
+  <p class="landing-lead">Sve što se rimuje sa <strong>„{esc(t)}“</strong> — {len(all_r)} {prava_rima(len(all_r))}{', a ispod njih i bliske' if loose else ''}. Uz svaku piše koliko ima slogova i šta znači, pa odmah vidiš koja ti staje u stih. Klikni na reč i dobiješ njene rime, a dugme ispod kopira ceo spisak.</p>
   {mean}
   <div class="copy-bar">
     <!-- Do 20.08.2026. dugme je pisalo „Otvori Rimoteku i piši" i vodilo na
@@ -1190,7 +1221,7 @@ def main():
         # režim i „Kopiraj sve rime“ mrtva dugmad (nalazi V1, V2, K6). Rečnik se
         # pri tom ne skida: ova strana nema nijedan alat koji pretražuje reči,
         # pa `bootstrap` preskoči `loadDict` (v. izuzetak u app.js).
-        page = (head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
+        page = sa_preloadom_recnika((head + body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
         pdir = os.path.join(outdir, sl)
         os.makedirs(pdir, exist_ok=True)
         with open(os.path.join(pdir, 'index.html'), 'w', encoding='utf-8') as f:
@@ -1230,7 +1261,7 @@ def main():
     ex_rows = ''.join(
         f'<tr><td>{esc(w)}</td><td>{n} {syl_word(n)}</td></tr>' for w, n in slog_examples)
     syl_tool = SYL_TOOL_HTML
-    slog_body = f"""<main class="landing">
+    slog_body = f"""<main class="landing" id="glavno" tabindex="-1">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Brojač slogova</span></nav>
   <h1 class="landing-h1">Brojač slogova i karaktera — u reči, stihu ili celoj pesmi</h1>
 {syl_tool}  <p class="landing-lead"><strong>Brojanje slogova</strong> ti pomaže da stihovi imaju ujednačen ritam — da se pesma lepo peva i lako pamti. Nalepi tekst iznad: broj slogova stoji levo od svakog reda, a na dnu ukupan zbir za celu pesmu. Radi i za jednu reč i za ceo tekst.</p>
@@ -1260,7 +1291,7 @@ def main():
 """
     slog_dir = os.path.join(PUB, 'slogovi')
     os.makedirs(slog_dir, exist_ok=True)
-    slog_html = (slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
+    slog_html = sa_preloadom_recnika((slog_head + slog_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     with open(os.path.join(slog_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(slog_html)
     sitemap_entries.append(
@@ -1843,24 +1874,24 @@ def main():
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Rime za reč", "item": hub_canon}]},
-            {"@type": "CollectionPage", "name": "Rime za reč — azbučni spisak svih strana",
+            {"@type": "CollectionPage", "name": "Rime po rečima — azbučni spisak strana",
              "url": hub_canon, "numberOfItems": len(napravljene)}]
     }, ensure_ascii=False, indent=1)
     hub_head = HEAD_TMPL.format(
         tabs_nav=tabs_nav('rime'),
-        title='Rime za sve srpske reči — azbučni spisak | Rimoteka',
+        title='Rime po rečima — azbučni spisak strana | Rimoteka',   # nalaz S-17: ne „sve srpske reči“ (0,7 % rečnika)
         desc='Azbučni spisak svih strana sa rimama. Izaberi reč i vidi sve što se sa njom rimuje, uz broj slogova i značenje svake reči.',
         ogdesc='Azbučni spisak svih strana sa rimama.',
         canonical=hub_canon, base=BASE, schema=hub_schema)
-    hub_body = f"""<main class="landing">
+    hub_body = f"""<main class="landing" id="glavno" tabindex="-1">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <span>Rime za reč</span></nav>
-  <h1 class="landing-h1">Rime za reč — azbučni spisak svih strana</h1>
-  <p class="landing-lead">Za svaku od ovih <strong>{len(napravljene)}</strong> reči postoji zasebna strana sa rimama, brojem slogova i objašnjenjem. Izaberi reč ili je upiši u alat na početnoj.</p>
+  <h1 class="landing-h1">Rime po rečima — azbučni spisak strana</h1>
+  <p class="landing-lead">Za svaku reč sa ovog spiska postoji zasebna strana sa rimama, brojem slogova i objašnjenjem. Izaberi reč ili je upiši u alat na početnoj.</p>
   <p class="hub-azbuka">{hub_azbuka}</p>
   {''.join(hub_sekcije)}
 </main>
 """
-    hub_html = (hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1)
+    hub_html = sa_preloadom_recnika((hub_head + hub_body + footer).replace('</body>', TOOL_SCRIPT + '</body>', 1))
     with open(os.path.join(outdir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(hub_html)
     sitemap_entries.append(

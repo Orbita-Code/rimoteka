@@ -67,5 +67,14 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     }
   }
   writeFileSync(APP, app);
+  /* `reci.txt` ima i PRELOAD u zaglavlju (index.html + generator, nalaz A5, 07.09.2026) — adresa
+     mora biti ista kao u app.js, inače se rečnik skida dva puta. Prepisuje se na oba mesta. */
+  const hReci = otisak(ROOT, 'reci.txt');
+  for (const f of [path.join(ROOT, 'public', 'index.html'), path.join(ROOT, 'build', 'gen_pages.py')]) {
+    const pre = readFileSync(f, 'utf8');
+    const posle = pre.replace(/(href="\/reci\.txt\?v=)([0-9a-f]+)(" crossorigin>)/g, (_, a, staro, b) => { if (staro !== hReci) { console.log(`  preload u ${path.basename(f)}  ${staro} → ${hReci}`); promena++; } return a + hReci + b; });
+    if (posle !== pre) writeFileSync(f, posle);
+  }
   console.log(promena ? `\nOsveženo verzija: ${promena}` : '\nSve verzije su već usklađene.');
+  if (promena) console.log('Posle promene rečnika pusti i: python3 build/gen_pages.py (preload na generisanim stranama)');
 }

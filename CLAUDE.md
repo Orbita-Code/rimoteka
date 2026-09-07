@@ -419,7 +419,15 @@ Test proverava, u pravom Chromiumu:
 
 Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — lokalno prošlo ne znači da je deploy prošao.
 
+17. **Popravke iz audita 07.09.** (sekcije 49, 51, 52) — tastatura u traci, tajmer prijave, igra preživi
+    prelazak strane, preload rečnika (i da se skida TAČNO jednom), 44 px, baner, oblačić, statičke strane,
+    filter u adresi, font sa našeg servera (nijedan zahtev ka Google-u), „preskoči na sadržaj"
+18. **Definicije po slovima** (sekcija 53) — deljeni fajlovi = ceo `definicije.json`; „značenje" ne skida ceo fajl
+19. **Sve strane iz sitemapa** (sekcija 50) — fajl po fajl: h1, kanonikal, JSON-LD, ≥8 rima, verzija app.js
+
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
+**Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test
+traje 15 minuta, a nova provera najčešće prvo padne na sopstvenoj grešci.
 
 ### 9a-2. Merne skripte (30.07.2026) — brojevi se MERE, ne prepisuju
 
@@ -486,6 +494,12 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 **Evidencija:**
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
+
+**Stanje na 08.09.2026:** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga (grana
+`fix/audit-0709-drugi-krug`, čeka objavu). Otvoreno: A6/V2/V3 visoko, S-18/S-19/S-22/S-23 srednje, N-06/N-11–N-19 nisko.
+Izvor istine: `AUDIT/NALAZI-OTVORENI.md`, odeljak „STANJE NA DAN 08.09.2026".
+
+> Stanje od 07.09. (ispod) zadržano je samo za istoriju.
 
 **Stanje na 07.09.2026: pun audit, ocena 7,3/10** (bilo 6,2). 0 kritičnih, 8 visokih (A1–A6 novi od
 06–07.09. + V3 HSTS + V2 sinonimi), 26 srednjih, 20 niskih. Prvo ide **A1: traka nad reči nedostupna
@@ -610,6 +624,15 @@ Analyticsu posle tog datuma NIJE pad posete (upisati u svaki izveštaj analitike
 vaše iskustvo na našem sajtu." Namerno kratak i uopšten; prihvatanje 1 klik, odbijanje kroz
 „Podesi" — namerno. **Ne menjati, ne dodavati „Odbij", ne pominjati GDPR/EU** — Rimoteka je
 za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47 čuva tačan tekst.
+
+## 9f. PODACI, FONTOVI I STARE ADRESE (08.09.2026)
+
+| Šta | Pravilo |
+|---|---|
+| **`definicije.json`** | sajt ga više NE skida ceo. Posle svake izmene: `python3 build/podeli_definicije.py` (224 fajla u `public/definicije/`, po slovu; velika slova po dva slova) **pa** `node scripts/osvezi-verzije-podataka.mjs`. Deljeni fajlovi nose isti `?v=` kao ceo. Test 53 pada ako se razilaze. `app.js` računa ime fajla istim pravilom kao skripta (`DEF_SLOVA`, `DEF_IME`). |
+| **`reci.txt`** | ima **preload** u `index.html` i `gen_pages.py` (`RECI_PRELOAD`); adresa mora biti slovo u slovo ista kao u `app.js` — inače se rečnik skida dva puta. `osvezi-verzije-podataka.mjs` prepisuje sva tri mesta; posle toga `python3 build/gen_pages.py`. Test 51 broji zahteve (tačno 1). |
+| **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
+| **Stare `/rime-za/` adrese** | `nginx-stare-strane.map` (1.670 adresa iz sitemapa od 29.07.) → 301 na hub; **sve ostalo pod `/rime-za/` je 404** sa `404.html`. Kad se ukine strana, njena adresa se DOPISUJE u mapu. `Dockerfile` kopira mapu uz `nginx.conf`; `nginx-provera.sh` je testira. |
 
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 

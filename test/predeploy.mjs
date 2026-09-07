@@ -1797,20 +1797,21 @@ async function main() {
       await p16b.close();
     }
 
-    console.log('\n16c) JEDAN NEUSPEH definicije.json NE UBIJA DEFINICIJE ZAUVEK');
+    console.log('\n16c) JEDAN NEUSPEH definicija NE UBIJA DEFINICIJE ZAUVEK (od 07.09. po slovima, S-20)');
     {
       const p16c = await browser.newPage();
       ocekujGreske(p16c, /503/, /HTTP 503/);   // kvar koji test sam pravi
       let pao = false;
-      await p16c.route('**/definicije.json*', r => {
+      await p16c.route('**/definicije/*.json*', r => {
+        if (/spisak\.json/.test(r.request().url())) return r.continue();
         if (!pao) { pao = true; return r.fulfill({ status: 503, contentType: 'text/plain', body: 'nope' }); }
         return r.continue();
       });
       await p16c.goto(BASE, { waitUntil: 'domcontentloaded' });
       await p16c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       const velicina = await p16c.evaluate(async () => {
-        await loadLocalDefs().catch(() => {});   // prvi pokušaj pada
-        await loadLocalDefs().catch(() => {});   // drugi mora da uspe
+        await loadLocalDefs('ljubav').catch(() => {});   // prvi pokušaj pada
+        await loadLocalDefs('ljubav').catch(() => {});   // drugi mora da uspe
         return DEFS.size;
       });
       ok('definicije se posle neuspeha učitavaju iz drugog pokušaja', velicina > 1000, `DEFS.size=${velicina}`);
@@ -2101,10 +2102,13 @@ async function main() {
          važi kao NE-slovo — zbog toga „reč\b“ pogađa i unutar „reči“ i provera daje
          tačno obrnut rezultat. Zato duži oblik ide prvi i traži se da posle njega
          nema slova (\p{L} uz zastavicu u). */
-      const _bp = rec.lead.match(/(\d+)\s+(reči|reč)(?!\p{L})/u);
-      const _jedn = _bp && Number(_bp[1]) % 10 === 1 && Number(_bp[1]) % 100 !== 11;
-      ok('oblik reči se slaže sa brojem („1 reč" / „86 reči")',
-         !!_bp && (_jedn ? _bp[2] === 'reč' : _bp[2] === 'reči'), rec.lead);
+      /* Od 07.09.2026 uvod kaže „N pravih rima" (nalaz N-08: strana crta i bliske rime, pa
+         „N reči" nije bio broj kapsula). Tri oblika: 1 prava rima · 2–4 prave rime · 5+ pravih rima. */
+      const _bp = rec.lead.match(/(\d+)\s+(pravih rima|prave rime|prava rima|reči|reč)(?!\p{L})/u);
+      const _n = _bp ? Number(_bp[1]) : 0;
+      const _ocek = (_n % 10 === 1 && _n % 100 !== 11) ? ['reč', 'prava rima'] : ([2, 3, 4].includes(_n % 10) && ![12, 13, 14].includes(_n % 100)) ? ['reči', 'prave rime'] : ['reči', 'pravih rima'];
+      ok('oblik reči se slaže sa brojem („1 prava rima" / „2 prave rime" / „86 pravih rima")',
+         !!_bp && _ocek.includes(_bp[2]), rec.lead);
       ok('og:image je društvena slika 1200×630', /og-slika\.png/.test(rec.og), rec.og);
       ok('twitter:card je summary_large_image', rec.tw === 'summary_large_image', rec.tw);
 
@@ -2173,8 +2177,8 @@ async function main() {
       await p19c.goto(BASE, { waitUntil: 'domcontentloaded' });
       await p19c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       await pauza(6000);   // duže nego što je nekada trajao „idle" predučitavanje
-      ok('definicije.json (19,3 MB) se NE skida na svakom učitavanju',
-         !zahtevi.some(u => /definicije\.json/.test(u)), 'skinut je i bez potrebe');
+      ok('definicije (ni ceo fajl ni deljeni) se NE skidaju na svakom učitavanju',
+         !zahtevi.some(u => /definicije(\.json|\/)/.test(u)), zahtevi.filter(u => /definicije/.test(u)).slice(0, 3).join(' | '));
 
       // V5: klik pre nego što rečnik stigne mora sam da pokrene pretragu
       const p19d = await browser.newPage();
@@ -5678,6 +5682,380 @@ async function main() {
         for (const u of uzorak) { try { const r = await fetch(u, { redirect: 'manual' }); const h = r.status === 200 ? await r.text() : ''; if (r.status !== 200 || !/<h1[\s>]/.test(h)) pali.push(`${u} → ${r.status}`); } catch (e) { pali.push(`${u} → ${e.message}`); } }
         ok('produkcija · 30 nasumičnih adresa iz sitemapa vraća 200 sa h1', pali.length === 0, pali.slice(0, 5).join(' | '));
       }
+    }
+
+    console.log('\n51) POPRAVKE IZ AUDITA 07.09. — DRUGI KRUG: rečnik sa HTML-om, igra preživi stranu, 44 px, baner, oblačić, statičke strane');
+    {
+      /* Nalazi A4, A5, S-04, S-08, S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, N-01, N-02,
+         N-03, N-04, N-05, N-08, N-09, N-10, N-R1 (audit 06–07.09.2026). Svaka provera je
+         napisana tako da PADNE na kodu od 07.09. ujutru (pre popravke). */
+      const fs51 = await import('node:fs');
+      const citaj = rel => fs51.readFileSync(path.join(ROOT, 'public', rel), 'utf8');
+
+      // ---------- A5: rečnik kreće sa HTML-om (preload), ista adresa kao u app.js, jedno skidanje ----------
+      if (LOKALNO) {
+        const appUrl = (citaj('app.js').match(/uzmiTekst\('(\/reci\.txt\?v=[0-9a-f]+)'/) || [])[1];
+        const idxUrl = (citaj('index.html').match(/<link rel="preload" as="fetch" href="([^"]+)" crossorigin>/) || [])[1];
+        const genUrl = (fs51.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/RECI_PRELOAD = '<link rel="preload" as="fetch" href="([^"]+)" crossorigin>'/) || [])[1];
+        ok('A5 · početna ima preload rečnika sa ISTOM adresom kao app.js (inače se skida dva puta)', !!appUrl && idxUrl === appUrl, `app.js ${appUrl} · index ${idxUrl}`);
+        ok('A5 · generator ima istu adresu preload-a kao app.js', !!appUrl && genUrl === appUrl, `gen ${genUrl}`);
+        ok('A5 · /igra-rimovanja/ i /rimovanje-reci/ imaju preload, /slogovi/ i /rime-za/ljubav/ NEMAJU (ne skidaju rečnik)',
+           citaj('igra-rimovanja/index.html').includes('rel="preload" as="fetch"') && citaj('rimovanje-reci/index.html').includes('rel="preload" as="fetch"')
+           && !citaj('slogovi/index.html').includes('rel="preload" as="fetch"') && !citaj('rime-za/ljubav/index.html').includes('rel="preload" as="fetch"'));
+      }
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        const reci = []; p.on('request', r => { if (/\/reci\.txt/.test(r.url())) reci.push(r.url()); });
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        const busy = await p.evaluate(() => ({ busy: document.getElementById('rimeBtn').getAttribute('aria-busy'), klasa: document.getElementById('rimeBtn').className, reci: typeof WORDS !== 'undefined' ? WORDS.length : -1 }));
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await pauza(300);
+        const posle = await p.evaluate(() => ({ busy: document.getElementById('rimeBtn').getAttribute('aria-busy'), klasa: document.getElementById('rimeBtn').className, disabled: document.getElementById('rimeBtn').disabled }));
+        ok('A5 · dok rečnik stiže, dugme „Nađi rime" nosi aria-busy i klasu `ucitava` (nije lažno spremno)', busy.reci === 0 ? (busy.busy === 'true' && /ucitava/.test(busy.klasa)) : true, JSON.stringify(busy));
+        ok('A5 · kad rečnik stigne, dugme je čisto (bez aria-busy, bez `ucitava`, nije disabled)', posle.busy === null && !/ucitava/.test(posle.klasa) && posle.disabled === false, JSON.stringify(posle));
+        ok('A5 · rečnik se skida TAČNO jednom (preload i fetch su ista adresa)', reci.length === 1, reci.join(' | '));
+        await c.close();
+      }
+
+      // ---------- A4 + S-04: partija preživi prelazak strane; pauza kad se ekran sakrije ----------
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await pauza(300);
+        await p.click('#gameStart');
+        await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && document.getElementById('gameWord').textContent !== '...', null, { timeout: 15000 });
+        await pauza(1200);
+        const pre = await p.evaluate(() => ({ rec: document.getElementById('gameWord').textContent, tajmer: +document.getElementById('gameTimer').textContent, sacuvano: !!sessionStorage.getItem('rimoteka_igra') }));
+        ok('A4 · partija u toku je sačuvana u sessionStorage', pre.sacuvano, JSON.stringify(pre));
+        // klik na tab „Rime" na /igra-rimovanja/ je PUNO učitavanje početne
+        await p.click('#tabs [data-tab="rime"]');
+        await p.waitForFunction(() => location.pathname === '/' && typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await pauza(400);
+        const naPocetnoj = await p.evaluate(() => ({ igraSkrivena: !document.getElementById('panel-igra').classList.contains('active'), stanje: gameState, tajmer: +document.getElementById('gameTimer').textContent }));
+        ok('A4 · na početnoj partija je vraćena, ali PAUZIRANA dok se tab igre ne vidi', naPocetnoj.igraSkrivena && naPocetnoj.stanje === 'play' && naPocetnoj.tajmer <= pre.tajmer, JSON.stringify(naPocetnoj) + ' pre ' + JSON.stringify(pre));
+        await pauza(2200);
+        const josPauza = await p.evaluate(() => +document.getElementById('gameTimer').textContent);
+        ok('A4 · dok je tab igre skriven tajmer STOJI', josPauza === naPocetnoj.tajmer, `${naPocetnoj.tajmer} → ${josPauza}`);
+        await p.click('#tabs [data-tab="igra"]'); await pauza(300);
+        const vraceno = await p.evaluate(() => ({ vidljiva: document.getElementById('gamePlay').style.display === 'block', rec: document.getElementById('gameWord').textContent, tajmer: +document.getElementById('gameTimer').textContent }));
+        ok('A4 · klik na tab „Igra" pokazuje ISTU reč i preostalo vreme (partija nije izgubljena)', vraceno.vidljiva && vraceno.rec === pre.rec && vraceno.tajmer > 0 && vraceno.tajmer <= pre.tajmer, JSON.stringify(vraceno) + ' pre ' + JSON.stringify(pre));
+        await pauza(2200);
+        const tece = await p.evaluate(() => +document.getElementById('gameTimer').textContent);
+        ok('A4 · posle povratka odbrojavanje se nastavlja', tece < vraceno.tajmer, `${vraceno.tajmer} → ${tece}`);
+        // S-04: sakriven ekran (poziv, zaključavanje) zaustavlja tajmer
+        await p.evaluate(() => { Object.defineProperty(document, 'hidden', { get: () => true, configurable: true }); document.dispatchEvent(new Event('visibilitychange')); });
+        const s1 = await p.evaluate(() => +document.getElementById('gameTimer').textContent);
+        await pauza(2300);
+        const s2 = await p.evaluate(() => +document.getElementById('gameTimer').textContent);
+        ok('S-04 · kad se ekran sakrije (visibilitychange), tajmer stoji', s2 === s1, `${s1} → ${s2}`);
+        await p.evaluate(() => { Object.defineProperty(document, 'hidden', { get: () => false, configurable: true }); document.dispatchEvent(new Event('visibilitychange')); });
+        await pauza(2300);
+        const s3 = await p.evaluate(() => +document.getElementById('gameTimer').textContent);
+        ok('S-04 · kad se ekran vrati, tajmer nastavlja', s3 < s2, `${s2} → ${s3}`);
+        await c.close();
+      }
+
+      // ---------- S-10, S-11, S-12: dodirni ciljevi ≥ 44 px i prijava iznad tastature (telefon 390) ----------
+      {
+        const c = await browser.newContext({ viewport: { width: 390, height: 780 }, isMobile: true, hasTouch: true });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
+        await pauza(500);
+        const mere = await p.evaluate(() => {
+          const h = sel => [...document.querySelectorAll(sel)].filter(e => e.getClientRects().length).map(e => Math.round(e.getBoundingClientRect().height));
+          return { filteri: h('.syl-filter button'), kvacice: h('.loose-toggle'), futer: h('.footer-link'), kolacici: h('.futer-kolacici') };
+        });
+        const mini = a => a.length ? Math.min(...a) : -1;
+        ok('S-11 · filteri slogova ≥ 44 px na telefonu', mini(mere.filteri) >= 44, `min ${mini(mere.filteri)} (${mere.filteri.join(',')})`);
+        ok('S-11 · kvačice (šire rime, ijekavica, dečji) ≥ 44 px', mini(mere.kvacice) >= 44, `min ${mini(mere.kvacice)}`);
+        ok('S-10 · linkovi u futeru ≥ 44 px (bilo 16–19)', mini(mere.futer) >= 44 && mere.futer.length > 20, `min ${mini(mere.futer)} od ${mere.futer.length}`);
+        ok('S-10 · link „Kolačići" ≥ 44 px (bio 16)', mini(mere.kolacici) >= 44, `${mere.kolacici}`);
+        // prijava na telefonu: opcije i „Pošalji" ≥ 44; sa tastaturom prozorčić iznad nje (S-12)
+        const cip = p.locator('#rimeResults .chip').nth(1); await cip.scrollIntoViewIfNeeded(); await cip.tap(); await pauza(400);
+        await p.tap('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
+        const pr = await p.evaluate(async () => {
+          const h = sel => [...document.querySelectorAll(sel)].map(e => Math.round(e.getBoundingClientRect().height));
+          const opcije = h('.prijava-opcija'), posalji = h('.prijava-posalji');
+          const VV = window.visualViewport; const nova = window.innerHeight - 336;
+          Object.defineProperty(VV, 'height', { get: () => nova, configurable: true });
+          Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true });
+          VV.dispatchEvent(new Event('resize'));
+          await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+          const box = document.querySelector('.prijava.sheet');
+          const r = box ? box.getBoundingClientRect() : null;
+          return { opcije, posalji, sheet: !!box, dno: r ? Math.round(r.bottom) : -1, vrhTastature: nova, kb: getComputedStyle(document.documentElement).getPropertyValue('--kb').trim() };
+        });
+        ok('S-11 · opcije u prijavi ≥ 44 px (bilo 36)', pr.opcije.length > 0 && Math.min(...pr.opcije) >= 44, `${pr.opcije.join(',')}`);
+        ok('S-11 · dugme „Pošalji" ≥ 44 px (bilo 42)', pr.posalji.length > 0 && Math.min(...pr.posalji) >= 44, `${pr.posalji.join(',')}`);
+        ok('S-12 · sa tastaturom prozorčić prijave stoji IZNAD nje (dno ≤ vrh tastature)', pr.sheet && pr.dno > 0 && pr.dno <= pr.vrhTastature + 1, JSON.stringify(pr));
+        await c.close();
+      }
+
+      // ---------- S-13, S-16: baner — prvi u telu, Escape sklanja bez odluke, ne zaklanja fokus ----------
+      {
+        const c = await browser.newContext({ viewport: { width: 320, height: 780 }, isMobile: true, hasTouch: true });
+        /* Omotač `bez-analitike.mjs` svakom kontekstu ubacuje PRIHVAĆENE kolačiće (označene `"test":true`) kad
+           odluke nema — ovde se to briše na SVAKOM učitavanju, da bi se video baner (i posle osvežavanja). */
+        await c.addInitScript(() => { try { const v = localStorage.getItem('rimoteka_kolacici'); if (!v || /"test":true/.test(v)) localStorage.removeItem('rimoteka_kolacici'); localStorage.removeItem('rimoteka_interno'); } catch (e) {} });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1200);
+        const b = await p.evaluate(() => { const k = document.querySelector('.kolacici'); const r = k ? k.getBoundingClientRect() : { height: 0 };
+          return { prvi: document.body.firstElementChild === k, visina: Math.round(r.height), ekran: window.innerHeight, sp: document.documentElement.style.scrollPaddingBottom }; });
+        ok('S-16 · baner je PRVI element u telu (bio 93. Tab-zaustavljanje)', b.prvi, JSON.stringify(b));
+        ok('S-13 · baner na 320 px zauzima manje od 20 % ekrana (bilo 25 %)', b.visina > 0 && b.visina < b.ekran * 0.2, `${b.visina} od ${b.ekran}`);
+        ok('S-13 · dok baner stoji, strana ostavlja mesta za fokus ispod (scroll-padding-bottom)', /^\d+px$/.test(b.sp) && parseInt(b.sp) >= b.visina, b.sp);
+        /* app.js na učitavanju fokusira polje za reč, a Chrome pamti polaznu tačku i posle blur-a — zato se
+           proverava REDOSLED: prvi element koji prima fokus na strani je u baneru (bio je 93.). */
+        const fokus = await p.evaluate(() => { const prvi = document.querySelector('a[href], button, input, textarea, [tabindex]:not([tabindex="-1"])'); return !!(prvi && prvi.closest('.kolacici')); });
+        ok('S-16 · prvi element koji prima fokus je u baneru (bio 93.)', fokus);
+        await p.keyboard.press('Escape'); await pauza(200);
+        const e = await p.evaluate(() => ({ baner: !!document.querySelector('.kolacici'), odluka: localStorage.getItem('rimoteka_kolacici'), sp: document.documentElement.style.scrollPaddingBottom, ga: !!document.querySelector('script[src*="googletagmanager"]') }));
+        ok('S-16 · Escape sklanja baner BEZ odluke i bez GA (odbijanje ostaje kroz „Podesi")', !e.baner && e.odluka === null && e.sp === '' && !e.ga, JSON.stringify(e));
+        await p.reload({ waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => !!document.querySelector('.kolacici'), null, { timeout: 8000 }).catch(() => {});
+        const v = await p.evaluate(() => ({ baner: !!document.querySelector('.kolacici'), odluka: localStorage.getItem('rimoteka_kolacici'), interno: localStorage.getItem('rimoteka_interno') }));
+        ok('S-16 · posle Escape-a baner se pri sledećem učitavanju vraća', v.baner, JSON.stringify(v));
+        await c.close();
+      }
+
+      // ---------- S-15 + N-R1 + N-04 + N-05 + N-01 + N-02 + N-03 (računar) ----------
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/?rec=srce', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
+        await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {});
+        await pauza(600);
+        const nr1 = await p.evaluate(() => { const g = [...document.querySelectorAll('#rimeResults .res-group')].find(x => /isti završni slog/.test(x.querySelector('h2')?.textContent || '')); return g ? (g.querySelector('.res-note') || {}).textContent || '' : 'nema grupe'; });
+        ok('N-R1 · grupa „Dobre rime (isti završni slog)" nosi rečenicu da su to slabije rime', /samo u poslednjem slogu/.test(nr1), nr1);
+        // S-15: oblačić otvoren tastaturom — role=tooltip, Escape ga zatvara
+        await p.focus('#rimeResults .chip .word'); await pauza(250); await p.keyboard.press('Tab'); await pauza(100); await p.keyboard.press('Enter');
+        await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/učitavanje/.test(t.textContent); }, null, { timeout: 60000 }).catch(() => {});
+        const t1 = await p.evaluate(() => { const t = document.getElementById('deftip'); return { vidljiv: !!t && t.style.display === 'block', role: t && t.getAttribute('role') }; });
+        ok('S-15 · oblačić značenja otvoren tastaturom ima role=tooltip', t1.vidljiv && t1.role === 'tooltip', JSON.stringify(t1));
+        await p.keyboard.press('Escape'); await pauza(150);
+        ok('S-15 · Escape zatvara oblačić', await p.evaluate(() => document.getElementById('deftip').style.display === 'none'));
+        // N-01: „Pošalji" i „Prihvati sve" imaju ISTI gradijent kao „Nađi rime" (izmereno ≥4,9 za belo slovo)
+        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).hover(); await pauza(400);
+        await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
+        const n1 = await p.evaluate(() => ({ posalji: getComputedStyle(document.querySelector('.prijava-posalji')).backgroundImage, glavno: getComputedStyle(document.getElementById('rimeBtn')).backgroundImage }));
+        ok('N-01 · „Pošalji" ima isti gradijent kao „Nađi rime" (belo na plavom kraju bilo 2,76)', n1.posalji === n1.glavno && /gradient/.test(n1.glavno), n1.posalji.slice(0, 80));
+        // N-02: tamna tema — napomena u prijavi ≥ 4,5
+        const n2 = await p.evaluate(() => { const pRGB = s => (s.match(/[\d.]+/g) || [0,0,0]).slice(0,3).map(Number); const lum = ([r,g,b]) => { const f = c => { c/=255; return c<=0.03928 ? c/12.92 : Math.pow((c+0.055)/1.055,2.4); }; return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }; const odnos = (a,b) => { const la=lum(a), lb=lum(b); return (Math.max(la,lb)+0.05)/(Math.min(la,lb)+0.05); }; document.body.classList.add('dark-mode');
+          const e = document.querySelector('.prijava-napomena-tekst'); const box = document.querySelector('.prijava');
+          const r = odnos(pRGB(getComputedStyle(e).color), pRGB(getComputedStyle(box).backgroundColor)); document.body.classList.remove('dark-mode'); return Math.round(r * 100) / 100; });
+        ok('N-02 · tamna tema: napomena u prijavi ≥ 4,5 (bilo 4,36)', n2 >= 4.5, `${n2}`);
+        await p.keyboard.press('Escape'); await pauza(200);
+        // N-03: okvir kapsule „Najbolje rime" u svetloj temi ≥ 3 naspram njene pozadine („srce" nema tu grupu — uzima se „ljubav")
+        await p.fill('#rimeInput', 'ljubav'); await p.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(500);
+        const n3 = await p.evaluate(() => { const pRGB = s => (s.match(/[\d.]+/g) || [0,0,0]).slice(0,3).map(Number); const lum = ([r,g,b]) => { const f = c => { c/=255; return c<=0.03928 ? c/12.92 : Math.pow((c+0.055)/1.055,2.4); }; return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }; const odnos = (a,b) => { const la=lum(a), lb=lum(b); return (Math.max(la,lb)+0.05)/(Math.min(la,lb)+0.05); }; const c = document.querySelector('#rimeResults .strong-tier .chip'); if (!c) return -1;
+          const cs = getComputedStyle(c); return Math.round(odnos(pRGB(cs.borderTopColor), pRGB(cs.backgroundColor)) * 100) / 100; });
+        ok('N-03 · okvir kapsule „Najbolje rime" u svetloj temi ≥ 3 (bilo 1,97)', n3 >= 3, `${n3}`);
+        // N-05: upit od 200 slova se seče na 60 — naslov, h1, adresa
+        const dugo = 'ljubav'.repeat(34);
+        await p.fill('#rimeInput', dugo); await p.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(600);
+        const n5 = await p.evaluate(() => ({ naslov: document.title.length, h1: document.querySelector('h1').textContent.length, rec: (new URLSearchParams(location.search).get('rec') || '').length, kan: document.querySelector('link[rel="canonical"]').href.length }));
+        ok('N-05 · upit od 204 slova: `?rec=` ≤ 60, naslov < 130, h1 < 110, kanonikal < 120', n5.rec <= 60 && n5.naslov < 130 && n5.h1 < 110 && n5.kan < 120, JSON.stringify(n5));
+        // N-04: prazno polje briše ?rec= iz adrese
+        await p.fill('#rimeInput', ''); await p.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(400);
+        const n4 = await p.evaluate(() => ({ search: location.search, naslov: document.title }));
+        ok('N-04 · prazno polje sklanja `?rec=` iz adrese i vraća naslov bez reči', !/rec=/.test(n4.search) && !/Rime za reč/.test(n4.naslov), JSON.stringify(n4));
+        await c.close();
+      }
+
+      // ---------- S-08 + S-09: statička strana /rime-za/ — traka nad reči, ćirilica futera i naslova kapsula ----------
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' }); await pauza(800);
+        await p.mouse.move(5, 5); await p.locator('.res-group .results .chip').first().hover(); await pauza(450);
+        const s8 = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return { traka: !!t && !t.hidden, dugmadi: t ? t.querySelectorAll('.ca-btn').length : 0, link: document.querySelector('.res-group .results .chip').tagName }; });
+        ok('S-08 · na statičkoj strani prelazak mišem preko reči otvara traku sa 5 radnji', s8.traka && s8.dugmadi === 5, JSON.stringify(s8));
+        await p.click('.chip-actions .ca-btn[data-act="def"]');
+        await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/učitavanje/.test(t.textContent); }, null, { timeout: 90000 }).catch(() => {});
+        const def = await p.evaluate(() => { const t = document.getElementById('deftip'); return t ? t.textContent.slice(0, 80) : ''; });
+        ok('S-08 · „značenje" na statičkoj strani otvara oblačić sa objašnjenjem', def.length > 10 && !/učitavanje/.test(def), def);
+        await p.keyboard.press('Escape');
+        await c.close();
+        // telefon: dodir na reč otvara traku (ne vodi odmah dalje), „nađi rime" vodi na stranu te reči
+        const cm = await browser.newContext({ viewport: { width: 390, height: 780 }, isMobile: true, hasTouch: true });
+        await cm.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const pm = ojacajStranu(await cm.newPage());
+        await pm.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' }); await pauza(800);
+        const cip = pm.locator('.res-group .results a.chip').first(); await cip.scrollIntoViewIfNeeded();
+        const href = await cip.getAttribute('href'); await cip.tap(); await pauza(500);
+        const s8m = await pm.evaluate(() => ({ put: location.pathname, traka: !!document.querySelector('.chip-actions') && !document.querySelector('.chip-actions').hidden }));
+        ok('S-08 · telefon: dodir na reč otvara traku umesto da odmah ode na drugu stranu', s8m.put === '/rime-za/ljubav/' && s8m.traka, JSON.stringify(s8m));
+        await pm.tap('.chip-actions .ca-btn[data-act="rime"]'); await pauza(1500);
+        ok('S-08 · telefon: „nađi rime" iz trake vodi na stranu te reči', (await pm.evaluate(() => location.pathname)) === href, `${await pm.evaluate(() => location.pathname)} ≠ ${href}`);
+        await cm.close();
+        // S-09: ćirilica prebacuje futer, napomenu uz srodne reči i naslove kapsula
+        const cc = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await cc.addInitScript(() => { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_script', 'cyr'); });
+        const pc = ojacajStranu(await cc.newPage());
+        await pc.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' }); await pauza(800);
+        const s9 = await pc.evaluate(() => { const cir = s => /[Ѐ-ӿ]/.test(s || ''); const lat = s => /[a-zA-Z]/.test(s || '');
+          const linkovi = [...document.querySelectorAll('.footer-link')].filter(a => !/^mailto:|orbitacode\.com/.test(a.getAttribute('href') || ''));   // mejl i ime firme ostaju latinicom
+          return { futerCir: linkovi.filter(a => cir(a.textContent)).length, futerSvi: linkovi.length,
+            mejl: (document.querySelector('.footer-link[href^="mailto:"]') || {}).textContent || '',
+            napomena: (document.querySelector('.related-note') || {}).textContent || '',
+            naslovKapsule: (document.querySelector('.res-group .results .chip .syl') || {}).title || '',
+            logo: (document.querySelector('.brand-word') || {}).textContent || '' }; });
+        ok('S-09 · ćirilica: svi linkovi futera su ćirilicom (bilo 0 od 50)', s9.futerSvi > 20 && s9.futerCir === s9.futerSvi, `${s9.futerCir} od ${s9.futerSvi}`);
+        ok('S-09 · ćirilica: napomena „Ovo nisu rime za…" i naslov broja slogova su ćirilicom', /[Ѐ-ӿ]/.test(s9.napomena) && /[Ѐ-ӿ]/.test(s9.naslovKapsule), JSON.stringify({ n: s9.napomena.slice(0, 30), t: s9.naslovKapsule }));
+        ok('S-09 · ćirilica: mejl i logo ostaju latinicom', /@rimoteka\.com/.test(s9.mejl) && s9.logo === 'imoteka', JSON.stringify({ mejl: s9.mejl, logo: s9.logo }));
+        await cc.close();
+      }
+
+      // ---------- S-17, N-08, N-09, N-10: tekstovi u fajlovima ----------
+      if (LOKALNO) {
+        const hub = citaj('rime-za/index.html');
+        ok('S-17 · hub ne tvrdi „Rime za sve srpske reči" (0,7 % rečnika)', !/sve srpske reči/i.test(hub) && /<title>Rime po rečima — azbučni spisak strana/.test(hub), (hub.match(/<title>[^<]*/) || [''])[0]);
+        ok('N-09 · hub ne piše broj reči koji raste („1991 reči")', !/<strong>\d{3,}<\/strong> reči/.test(hub) && !/\d\.?\d{3} reči postoji/.test(hub));
+        const lj = citaj('rime-za/ljubav/index.html');
+        const meta = (lj.match(/class="landing-meta">([^<]*)/) || ['', ''])[1];
+        const m = meta.match(/^(\d+) \S+(?: · još (\d+) bliskih)?/);
+        const glavni = lj.split('class="related-rimes"')[0].split('class="syl-groups"')[0];
+        const kapsula = (glavni.match(/class="chip chip-btn"|class="chip"/g) || []).length;
+        const zbir = m ? (+m[1] + (+(m[2] || 0))) : -1;
+        ok('N-08 · broj u uvodu strane reči = broj kapsula na strani (pravih + bliskih)', zbir === kapsula && zbir > 0, `meta „${meta}" → ${zbir}, kapsula ${kapsula}`);
+        ok('N-08 · uvod kaže „pravih rima", ne „reči" (bliske su ispod)', /pravih rima|prava rima/.test(lj));
+        const idx = citaj('index.html');
+        ok('N-10 · futer ne tvrdi „najčešće reči u pesmama" (spisak je ručno biran)', !/najčešćim rečima u pesmama/.test(idx) && /koje pesnici često traže/.test(idx));
+        ok('N-R1 · statička strana „srce" nosi istu rečenicu uz rezervnu grupu kao alat', /res-note">Ove reči se sa tvojom slažu samo u poslednjem slogu/.test(citaj('rime-za/srce/index.html')));
+      }
+    }
+
+    console.log('\n52) POPRAVKE IZ AUDITA 07.09. — TREĆI KRUG: font sa našeg servera, filter u adresi, tema ne zatvara prijavu, „preskoči na sadržaj"');
+    {
+      /* S-06, S-03, S-24, S-25 (audit 06–07.09.2026). Svaka provera pada na kodu pre popravke. */
+      // S-06: nijedan zahtev ka Google Fonts; Rubik se učitava sa /fonts/ i zaista je primenjen
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        const zahtevi = []; p.on('request', r => zahtevi.push(r.url()));
+        await p.goto(BASE + '/', { waitUntil: 'load' }); await pauza(800);
+        await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'load' }); await pauza(800);
+        const google = zahtevi.filter(u => /fonts\.g(oogleapis|static)\.com/.test(u));
+        const nasi = zahtevi.filter(u => /\/fonts\/rubik-.*\.woff2/.test(u));
+        ok('S-06 · nijedan zahtev ka fonts.googleapis.com / fonts.gstatic.com (IP posetioca ne ide Google-u)', google.length === 0, google.slice(0, 3).join(' | '));
+        ok('S-06 · font Rubik stiže sa našeg servera (/fonts/rubik-*.woff2)', nasi.length >= 1, nasi.join(' | '));
+        const f = await p.evaluate(async () => { await document.fonts.ready; const h1 = document.querySelector('h1');
+          return { primenjen: document.fonts.check('700 16px Rubik'), lica: [...document.fonts].filter(x => x.family.replace(/"/g, '') === 'Rubik' && x.status === 'loaded').length, h1: getComputedStyle(h1).fontFamily }; });
+        ok('S-06 · Rubik je zaista učitan i primenjen (document.fonts)', f.primenjen && f.lica >= 1 && /Rubik/.test(f.h1), JSON.stringify(f));
+        await c.close();
+      }
+      // S-03: filter slogova u adresi i posle osvežavanja
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/?rec=sunce', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 }); await pauza(300);
+        await p.click('#rimeSyl button[data-syl="2"]'); await pauza(400);
+        const pre = await p.evaluate(() => ({ url: location.search, n: document.querySelectorAll('#rimeResults .chip').length }));
+        ok('S-03 · klik na filter „2" upisuje `slog=2` u adresu', /slog=2/.test(pre.url) && /rec=sunce/.test(pre.url), pre.url);
+        await p.reload({ waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 }); await pauza(300);
+        const posle = await p.evaluate(() => ({ aktivan: (document.querySelector('#rimeSyl button.active') || {}).dataset?.syl, n: document.querySelectorAll('#rimeResults .chip').length, kan: document.querySelector('link[rel="canonical"]').href }));
+        ok('S-03 · posle F5 filter „2" ostaje i isti je broj rima', posle.aktivan === '2' && posle.n === pre.n, JSON.stringify({ pre, posle }));
+        ok('S-03 · kanonikal ostaje BEZ filtera (jedna adresa po reči)', !/slog=/.test(posle.kan), posle.kan);
+        await p.click('#rimeSyl button[data-syl="0"]'); await pauza(300);
+        ok('S-03 · „sve" sklanja `slog=` iz adrese', !/slog=/.test(await p.evaluate(() => location.search)));
+        // S-24: klik na temu dok je prijava otvorena je ne zatvara
+        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).hover(); await pauza(400);
+        await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
+        await p.fill('.prijava-napomena', 'proba napomene'); await p.click('#darkToggle'); await pauza(300);
+        const s24 = await p.evaluate(() => ({ otvorena: !!document.querySelector('.prijava'), napomena: (document.querySelector('.prijava-napomena') || {}).value, tamna: document.body.classList.contains('dark-mode') }));
+        ok('S-24 · promena teme ne zatvara prijavu i ne briše napomenu', s24.otvorena && s24.napomena === 'proba napomene' && s24.tamna, JSON.stringify(s24));
+        await p.click('#darkToggle'); await p.keyboard.press('Escape');
+        await c.close();
+      }
+      // S-25: „preskoči na sadržaj" — prvi element koji prima fokus, vidi se kad ga dobije, Enter vodi na sadržaj.
+      // Na početnoj app.js odmah fokusira polje za reč, pa se tamo proverava REDOSLED u DOM-u; na statičkoj strani pravi Tab.
+      for (const put of ['/', '/rime-za/ljubav/']) {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + put, { waitUntil: 'domcontentloaded' }); await pauza(500);
+        if (put === '/') await p.evaluate(() => { document.activeElement && document.activeElement.blur(); document.querySelector('.skip-link').focus(); });
+        else await p.keyboard.press('Tab');
+        await pauza(150);
+        const s25 = await p.evaluate(() => { const a = document.activeElement; const r = a.getBoundingClientRect();
+          const prvi = document.querySelector('a[href], button, input, textarea, [tabindex]:not([tabindex="-1"])');
+          return { klasa: a.className, vidljiv: r.top >= 0 && r.height > 0, tekst: a.textContent, prviUDomu: prvi && prvi.className }; });
+        ok(`S-25 · ${put} „Preskoči na sadržaj" je prvi element za fokus i VIDI se kad ga dobije`, s25.klasa === 'skip-link' && s25.vidljiv && /Preskoči/.test(s25.tekst) && s25.prviUDomu === 'skip-link', JSON.stringify(s25));
+        await p.keyboard.press('Enter'); await pauza(300);
+        const cilj = await p.evaluate(() => ({ hash: location.hash, fokus: document.activeElement.id, ima: !!document.getElementById('glavno') }));
+        ok(`S-25 · ${put} Enter vodi na #glavno (fokus na sadržaju)`, cilj.hash === '#glavno' && cilj.ima && cilj.fokus === 'glavno', JSON.stringify(cilj));
+        await c.close();
+      }
+    }
+
+    console.log('\n53) DEFINICIJE PO SLOVIMA — jedno značenje ne skida 5,4 MB (nalaz S-20, 07.09.2026)');
+    {
+      /* Do 07.09. je prvi dodir „značenje" skidao ceo `definicije.json` (20,7 MB, 5,4 MB gzip):
+         3,7 s na WiFi, ~27 s na 1,6 Mb/s. Sada se skida samo fajl sa slovom te reči. Provere:
+         (1) deljeni fajlovi = ceo rečnik (zbir unosa); (2) klik na „značenje" ne skida
+         `definicije.json` nego jedan mali fajl; (3) značenje se zaista prikaže; (4) fajl
+         sa drugim slovom se skida tek kad zatreba. */
+      if (LOKALNO) {
+        const fs53 = await import('node:fs');
+        const dir = path.join(ROOT, 'public', 'definicije');
+        const ceo = JSON.parse(fs53.readFileSync(path.join(ROOT, 'public', 'definicije.json'), 'utf8'));
+        const spisak = JSON.parse(fs53.readFileSync(path.join(dir, 'spisak.json'), 'utf8'));
+        let zbir = 0, najveci = 0, fajlova = 0;
+        for (const f of fs53.readdirSync(dir)) {
+          if (!f.endsWith('.json') || f === 'spisak.json') continue;
+          const put = path.join(dir, f); fajlova++;
+          zbir += Object.keys(JSON.parse(fs53.readFileSync(put, 'utf8'))).length;
+          najveci = Math.max(najveci, fs53.statSync(put).size);
+        }
+        ok('S-20 · deljeni fajlovi sadrže TAČNO sve unose iz definicije.json (ništa izgubljeno, ništa duplo)', zbir === Object.keys(ceo).length && spisak.ukupno === zbir, `deljeno ${zbir}, ceo ${Object.keys(ceo).length}, spisak ${spisak.ukupno}`);
+        ok('S-20 · najveći deljeni fajl je ispod 2 MB sirovo (ceo je 20,7 MB)', najveci < 2 * 1024 * 1024 && fajlova > 20, `${(najveci / 1e6).toFixed(2)} MB, ${fajlova} fajlova`);
+        const appV = (fs53.readFileSync(path.join(ROOT, 'public', 'app.js'), 'utf8').match(/DEFINICIJE_ADRESA = '\/definicije\.json\?v=([0-9a-f]+)'/) || [])[1];
+        ok('S-20 · app.js i dalje nosi ?v= celog rečnika (osvezi-verzije-podataka.mjs ga prepisuje)', !!appV, 'nema DEFINICIJE_ADRESA');
+      }
+      const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+      await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+      const p = ojacajStranu(await c.newPage());
+      const zahtevi = []; p.on('response', r => { if (/definicije/.test(r.url())) { const z = { url: r.url().replace(BASE, ''), n: 0 }; zahtevi.push(z); r.body().then(b => { z.n = b.length; }).catch(() => {}); } });
+      await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
+      await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
+      await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
+      await pauza(500);
+      // klik na „značenje" tastaturom za prvu reč (gubav / neljubav … — sve na slovo koje ima svoj fajl)
+      await p.focus('#rimeResults .chip .word'); await pauza(200);
+      const rec1 = await p.evaluate(() => document.activeElement.textContent.trim());
+      await p.keyboard.press('Tab'); await p.keyboard.press('Enter');
+      await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/učitavanje/.test(t.textContent); }, null, { timeout: 60000 }).catch(() => {});
+      const t1 = await p.evaluate(() => (document.getElementById('deftip') || {}).textContent || '');
+      await pauza(600);
+      const ceo = zahtevi.filter(z => /definicije\.json/.test(z.url));
+      const deljeni = zahtevi.filter(z => /\/definicije\/(?!spisak)[^/]+\.json/.test(z.url));
+      ok(`S-20 · „značenje" za „${rec1}" NE skida definicije.json (5,4 MB)`, ceo.length === 0, JSON.stringify(ceo));
+      ok('S-20 · skida se jedan deljeni fajl, manji od 2 MB', deljeni.length === 1 && deljeni[0].n < 2 * 1024 * 1024, JSON.stringify(deljeni));
+      ok('S-20 · značenje se prikaže (oblačić ima tekst objašnjenja)', t1.length > 20 && !/učitavanje|Nema objašnjenja/.test(t1), t1.slice(0, 80));
+      await p.keyboard.press('Escape');
+      // reč na DRUGO slovo → drugi fajl, tek sad
+      await p.fill('#rimeInput', 'voda'); await p.evaluate(() => document.getElementById('rimeBtn').click());
+      await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5 && /svoda|proda|boda/.test(document.querySelector('#rimeResults').textContent), null, { timeout: 30000 }).catch(() => {});
+      await pauza(300);
+      const pre2 = zahtevi.length;
+      await p.evaluate(async () => { await fetchDefinition('svoda'); }); await pauza(600);
+      const posle2 = zahtevi.slice(pre2);
+      ok('S-20 · reč na drugo slovo skida svoj (drugi) fajl, i samo njega', posle2.length === 1 && /\/definicije\/s/.test(posle2[0].url), JSON.stringify(posle2));
+      await c.close();
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

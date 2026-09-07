@@ -27,12 +27,50 @@ Provera: sekcija 46 (a2). Grana `fix/prijava-interno`.
 | **V3** HSTS · **S1/S-07** zaglavlja na `/sw.js` · **N-12** verzija servera · **S-21** keš podataka | `nginx.conf` (zaseban deploy), `nginx-provera.sh` sekcija 5 | nginx-provera 0 |
 | **Pokrivenost**: 3 od 1.991 strane | test 50: svih 2.014 strana iz fajlova (h1, kanonikal, JSON-LD, ≥8 rima, bez `?rec=`, verzija) + 30 nasumičnih na produkciji | test 50 |
 
-## STANJE NA DAN 07.09.2026 — pun audit, ocena 7,3/10 (bilo 6,2 na dan 20.08.)
+## STANJE NA DAN 08.09.2026 — posle tri kruga popravki iz audita 07.09.
 
-Pun izveštaj: `AUDIT/2026-09-06-audit.md`. Pokrivenost 10/12 dimenzija. Test 717/717 na produkciji.
-**Zatvoreno od 20.08. do 07.09.:** K1, K2, V1, V4/M12, V5, S8 (`lastmod` po otisku, 06.09.), T3, dvojnici
-imena, slogovi velikim slovom. **Novo otvoreno (svi iz 06–07.09.):** 6 visokih (4 nastala izmenama od 06.09.),
-26 srednjih, 20 niskih.
+Pun izveštaj audita: `AUDIT/2026-09-06-audit.md` (ocena 7,3 na dan 07.09.; nova ocena tek posle sledećeg audita —
+ocena se ne prepisuje bez merenja). Test lokalno: 804 provera (sekcije 51–53 nove).
+**Zatvoreno 07–08.09. (drugi i treći krug, grana `fix/audit-0709-drugi-krug`):** A4, A5, S-03, S-04, S-06, S-08,
+S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, S-20, S-24, S-25, S-26, N-01, N-02, N-03, N-04, N-05, N-08, N-09,
+N-10, N-R1 — detalji u odeljku „ZATVORENO 08.09.2026" niže.
+**Ostaje otvoreno:** visoko A6 (logo — odluka vlasnice), V2 (sinonimi — pregled sa vlasnicom), V3 (HSTS je 300 s —
+podići na godinu posle par dana bez problema); srednje S-18 (dolazni linkovi), S-19 (tanke strane), S-22 (hub CLS,
+1 merenje), S-23/P11 (hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka).
+
+### ZATVORENO 08.09.2026 — DRUGI I TREĆI KRUG (27 nalaza)
+
+| # | Šta je bilo | Šta je sada | Provera koja to čuva |
+|---|---|---|---|
+| A4 | igra sa `/igra-rimovanja/`: klik na tab = puno učitavanje, partija nestaje | partija se čuva u `sessionStorage` (svaki potez, svaka sekunda, `pagehide`) i vraća čim rečnik stigne, pauzirana dok se tab igre ne vidi; briše se posle rezultata ili 30 min | 51 (A4 ×5) |
+| A5 | rečnik kreće tek posle `app.js`; dugme deluje spremno | `<link rel="preload" as="fetch">` za `reci.txt` u zaglavlju (samo strane koje rečnik skidaju); dugme nosi `aria-busy` + `ucitava` dok rečnik ne stigne; `osvezi-verzije-podataka.mjs` prepisuje i preload | 51 (A5 ×6, uključujući „skida se tačno jednom") |
+| S-03 | filter slogova ne preživi F5 | `?slog=N` u adresi, čita se pri učitavanju; kanonikal bez filtera | 52 |
+| S-04 | igra teče kad se ekran sakrije | `visibilitychange` pauzira/nastavlja; tajmer ne kreće dok je strana skrivena | 51 |
+| S-06 | Google Fonts pre pristanka | Rubik (varijabilni, 4 pisma, 82 KB) u `public/fonts/`; preload latinice; CSP `font-src 'self'` | 52 + nginx-provera |
+| S-08 | statička strana bez puta do značenja/prijave | linkovi-kapsule nose `data-rec`; traka na prelazak/fokus/dodir i tamo; „nađi rime" vodi na stranu reči | 51 (S-08 ×4) |
+| S-09 | ćirilica ne prebacuje futer, srodne, naslove kapsula | dodati selektori + `title` kapsula; mejl i ime firme ostaju latinicom | 51 |
+| S-10/S-11 | ciljevi 16–42 px | `min-height:44px` na telefonu (filteri, kvačice, prijava, baner, futer, kapsule u beležnici) | 51 |
+| S-12 | prijava na telefonu ispod tastature | `.prijava.sheet{bottom:var(--kb)}` | 51 |
+| S-13 | baner 25 % ekrana na 320 | 123 px od 780 (15,8 %); `scroll-padding-bottom` dok stoji | 51 |
+| S-15 | oblačić: Escape, role | `role=tooltip`, Escape zatvara i prikačen | 51 |
+| S-16 | baner 93. Tab, Escape | prvi u telu; Escape sklanja za ovu posetu bez odluke (odbijanje ostaje kroz „Podesi" — odluka vlasnice) | 51 |
+| S-17/N-09 | hub „Rime za sve srpske reči", „1991 reči" | „Rime po rečima — azbučni spisak strana", bez broja | 51 |
+| S-20 | `definicije.json` 5,4 MB na prvi dodir | `build/podeli_definicije.py`: 224 fajla po slovu (najveći 358 KB gzip); `app.js` skida samo fajl reči | 53 |
+| S-24 | tema zatvara prijavu | tema, pismo, traka i „preskoči" nisu „klik van" | 52 |
+| S-25 | nema „preskoči na sadržaj" | `.skip-link` → `#glavno`, prvi za fokus, vidljiv na fokusu, kontrast kao glavno dugme | 52 |
+| S-26 | nepostojeća `/rime-za/` → 301 na hub | 301 SAMO za 1.670 starih adresa (`nginx-stare-strane.map`), ostalo pravi 404 sa našom stranom | nginx-provera |
+| N-01 | belo na plavom kraju gradijenta 2,76 | „Pošalji" i „Prihvati sve" isti gradijent kao „Nađi rime" (≥4,9) | 51 |
+| N-02 | tamna: napomena u prijavi 4,36 | `--ink-soft` u tamnoj | 51 |
+| N-03 | okvir „Najbolje rime" 1,97 | `--butter` #8f7ae6 (3,45) | 51 |
+| N-04 | prazno polje ostavlja `?rec=` | briše se iz adrese | 51 |
+| N-05 | 200 slova u naslov/h1/kanonikal | upit se seče na 60 slova | 51 |
+| N-08 | „180 reči" a 250 kapsula | „180 pravih rima · još 70 bliskih" (oblik po broju: 1 prava rima / 2 prave rime / 5 pravih rima) | 51 + stara provera oblika |
+| N-10 | „najčešće reči u pesmama" | „reči koje pesnici često traže" | 51 |
+| N-R1 | rezervna grupa bez objašnjenja | rečenica ispod naslova grupe, u alatu i na statičkim stranama | 51 |
+
+**Odluka vlasnice 07.09.2026 (baner):** tekst „Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem
+sajtu."; prihvatanje 1 klik, odbijanje kroz „Podesi" namerno; EU/GDPR se na ovom sajtu ne pominje (globalni
+CLAUDE.md, „KOLAČIĆI I PRAVO"). Test 47 čuva tačan tekst.
 
 ### VISOKO
 

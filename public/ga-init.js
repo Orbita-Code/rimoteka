@@ -83,7 +83,10 @@
   /* ---------- baner ---------- */
   var baner = null;
   function el(tag, cls, tekst) { var e = document.createElement(tag); if (cls) e.className = cls; if (tekst != null) e.textContent = tekst; return e; }
-  function zatvori() { if (baner) { baner.remove(); baner = null; } }
+  function zatvori() {
+    if (baner) { baner.remove(); baner = null; }
+    try { document.documentElement.style.scrollPaddingBottom = ''; } catch (e) {}
+  }
   function otvoriBaner(saPodesavanjem) {
     zatvori();
     baner = el('div', 'kolacici');
@@ -127,8 +130,15 @@
     podesiBtn.onclick = function () { podesi.hidden = !podesi.hidden; podesiBtn.setAttribute('aria-expanded', podesi.hidden ? 'false' : 'true'); };
     dugmad.appendChild(prihvati); dugmad.appendChild(podesiBtn);
     baner.appendChild(dugmad);
-    document.body.appendChild(baner);
+    /* Na POČETAK tela (nalaz S-16): na kraju je bio 93. Tab-zaustavljanje. */
+    document.body.insertBefore(baner, document.body.firstChild);
+    /* Fokus tastaturom ne sme da završi ispod banera (nalaz S-13, WCAG 2.4.11):
+       dok baner stoji, strana pri pomeranju do fokusa ostavlja mesta za njega. */
+    try { document.documentElement.style.scrollPaddingBottom = (baner.offsetHeight + 24) + 'px'; } catch (e) {}
   }
+  /* Escape sklanja baner za ovu posetu, BEZ odluke (nalaz S-16) — pri sledećem
+     učitavanju se vraća. Odbijanje i dalje ide kroz „Podesi“ (odluka vlasnice). */
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && baner) zatvori(); });
 
   /* javno: futer link „Kolačići" i test */
   window.rimotekaKolacici = {

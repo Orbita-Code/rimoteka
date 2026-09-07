@@ -7,7 +7,7 @@
   --mint-deep:#26a2f8;
   --peach:#a99cf0;
   --sky:#9ecbf7;
-  --butter:#c3aef0;
+  --butter:#8f7ae6;   /* okvir „Najbolje rime“ na belom = 3,45 (nalaz N-03; bilo #c3aef0 = 1,97) */
   --ink:#393257;
   --ink-soft:#5d5685;
   --muted:#756e94;
@@ -506,6 +506,21 @@ a:visited{color:var(--link-visited)}
    Postupak: `layout-shift.sources` kaže KOJI element se pomera, pa se `size-adjust`
    podešava po ŠIRINI TOG ELEMENTA.
    Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve. */
+/* RUBIK SA NAŠEG SERVERA (nalaz S-06, 07.09.2026). Varijabilni font: jedan fajl pokriva
+   sve debljine (300–900). Opsezi znakova su isti kao kod Google-a, pa pregledač skida samo
+   pismo koje strana koristi (ćirilica tek kad se prebaci pismo). */
+@font-face{font-family:'Rubik';font-style:normal;font-weight:300 900;font-display:swap;
+  src:url('/fonts/rubik-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Rubik';font-style:normal;font-weight:300 900;font-display:swap;
+  src:url('/fonts/rubik-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Rubik';font-style:normal;font-weight:300 900;font-display:swap;
+  src:url('/fonts/rubik-cyrillic.woff2') format('woff2');
+  unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Rubik';font-style:normal;font-weight:300 900;font-display:swap;
+  src:url('/fonts/rubik-cyrillic-ext.woff2') format('woff2');
+  unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
 @font-face{
   font-family:'Rubik rezerva';
   src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');
@@ -854,6 +869,11 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* u red sa rečima idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
 .results > *:not(.chip){width:100%}
 .res-group{margin-bottom:.5rem}
+/* „Preskoči na sadržaj" (nalaz S-25): nevidljiv dok ne dobije fokus tastaturom, onda prvi na strani. */
+.skip-link{position:absolute;left:8px;top:8px;z-index:300;padding:.6rem 1rem;border-radius:999px;background:var(--fill-primary-b);color:var(--on-primary);font-weight:700;text-decoration:none;transform:translateY(-250%)}
+.skip-link:focus{transform:none;outline:3px solid var(--ink);outline-offset:2px}
+#glavno:focus{outline:none}
+.res-note{font-size:.85rem;color:var(--ink-soft);margin:-.35rem 0 .65rem;line-height:1.4}   /* napomena uz rezervnu grupu (nalaz N-R1) */
 .res-group h2,.res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
   /* `inline-flex`, ne `flex` — i to je bitno, nije stvar ukusa.
@@ -2918,7 +2938,7 @@ body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
 .chip .mini.prijavi:hover{color:var(--lavender-deep)}
 .prijava{position:absolute;z-index:95;width:min(340px,calc(100vw - 24px));background:var(--menu-bg);border-radius:16px;padding:.9rem 1rem 1rem;
   box-shadow:0 12px 32px rgba(90,63,208,.26),0 2px 8px rgba(90,63,208,.16);font:inherit;color:var(--ink);animation:ca-ulaz .16s ease-out}
-.prijava.sheet{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;border-radius:20px 20px 0 0;padding:.8rem 1rem calc(1.1rem + env(safe-area-inset-bottom));
+.prijava.sheet{position:fixed;left:0;right:0;bottom:var(--kb,0px);top:auto;width:auto;border-radius:20px 20px 0 0;padding:.8rem 1rem calc(1.1rem + env(safe-area-inset-bottom));
   box-shadow:0 -12px 32px rgba(90,63,208,.22);max-height:88vh;overflow:auto}
 .prijava.sheet::before{content:'';display:block;width:40px;height:4px;border-radius:2px;background:var(--polje-okvir);margin:0 auto .7rem}
 .prijava-zavesa{position:fixed;inset:0;background:rgba(57,50,87,.28);z-index:94}
@@ -2938,8 +2958,10 @@ body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
 .prijava-napomena-tekst{color:var(--muted);font-size:.74rem;line-height:1.3}
 .prijava-greska{margin:0 0 .5rem;font-size:.85rem;color:#b3261e;font-weight:600}
 .prijava-posalji{border:0;border-radius:999px;padding:.55rem 1.1rem;font:inherit;font-weight:700;color:#fff;cursor:pointer;white-space:nowrap;
-  background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));box-shadow:0 6px 16px rgba(90,63,208,.28)}
+  /* Isti gradijent kao „Nađi rime“ (nalaz N-01): na plavom kraju starog je belo slovo imalo 2,76, sad ≥4,9. */
+  background:linear-gradient(95deg,var(--fill-primary-a),var(--fill-primary-b));color:var(--on-primary);box-shadow:0 6px 16px rgba(90,63,208,.28)}
 .prijava-posalji:disabled{opacity:.7;cursor:default}
+body.dark-mode .prijava-napomena-tekst{color:var(--ink-soft)}   /* nalaz N-02: bilo 4,36, treba ≥4,5 */
 .prijava.hvala{text-align:center}
 .prijava-ok{width:44px;height:44px;border-radius:50%;margin:0 auto .5rem;display:flex;align-items:center;justify-content:center;color:#fff;
   background:linear-gradient(95deg,var(--lavender-deep),var(--mint-deep))}
@@ -2952,13 +2974,13 @@ body.dark-mode .prijava-zavesa{background:rgba(0,0,0,.5)}
    Ne blokira sajt (Google kažnjava nametljive međuekrane na telefonu). Traka na dnu,
    „Prihvati sve" jedan klik, „Podesi" otvara prekidače. Obe teme. */
 .kolacici{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:200;width:min(560px,calc(100vw - 20px));
-  background:var(--menu-bg);color:var(--ink);border-radius:18px;padding:.95rem 1.1rem 1rem;
+  background:var(--menu-bg);color:var(--ink);border-radius:18px;padding:.65rem .9rem .7rem;   /* niži baner (nalaz S-13) */
   box-shadow:0 14px 40px rgba(90,63,208,.28),0 2px 8px rgba(90,63,208,.14);border:1px solid var(--line);font-size:.92rem;line-height:1.45}
-.kolacici-naslov{display:block;font-size:1rem;margin-bottom:.25rem;color:var(--ink)}
+.kolacici-naslov{display:block;font-size:.95rem;margin-bottom:.1rem;color:var(--ink)}
 .kolacici-tekst{margin:0;color:var(--ink-soft)}
-.kolacici-dugmad{display:flex;gap:.6rem;align-items:center;margin-top:.8rem;flex-wrap:wrap}
+.kolacici-dugmad{display:flex;gap:.6rem;align-items:center;margin-top:.5rem;flex-wrap:wrap}
 .kolacici-dugme{border:0;border-radius:999px;padding:.6rem 1.15rem;font:inherit;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.kolacici-prihvati{color:#fff;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep) 55%,var(--mint-deep));box-shadow:0 6px 16px rgba(90,63,208,.28)}
+.kolacici-prihvati{color:var(--on-primary);background:linear-gradient(95deg,var(--fill-primary-a),var(--fill-primary-b));box-shadow:0 6px 16px rgba(90,63,208,.28)}   /* nalaz N-01 */
 .kolacici-podesi-btn{background:transparent;color:var(--ink-soft);font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:.6rem .5rem}
 .kolacici-podesi-btn:hover,.kolacici-prihvati:hover{filter:brightness(1.06)}
 .kolacici-podesi{margin-top:.7rem;border-top:1px solid var(--line);padding-top:.6rem}
@@ -2978,3 +3000,21 @@ body.dark-mode .prijava-zavesa{background:rgba(0,0,0,.5)}
 body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
 @media(max-width:560px){.kolacici{bottom:8px;padding:.85rem .9rem .9rem;font-size:.9rem}.kolacici-dugmad{gap:.3rem}.kolacici-prihvati{flex:1;text-align:center}}
 
+
+/* ── DODIRNI CILJEVI ≥ 44 px NA TELEFONU (nalazi S-10, S-11, audit 07.09.2026) ─────
+   Izmereno: filteri slogova 40, kvačice 40, odgovori u prijavi 36, „Pošalji“ 42, dugmad
+   banera 40, kapsule u beležnici dok se kuca 42, linkovi u futeru 16–19 px. Sve ispod
+   44 px promašuje se prstom. Samo tamo gde je prst — na računaru ostaje kompaktno. */
+@media(max-width:560px),(pointer:coarse){
+  .syl-filter button{min-height:44px;padding:.32rem .85rem}
+  .loose-toggle{min-height:44px}
+  .prijava-opcija{min-height:44px}
+  .prijava-posalji{min-height:44px}
+  .kolacici-dugme{min-height:44px}
+  body.notes-typing .note-rhymes .chip{min-height:44px}
+  .footer-link,.futer-kolacici{display:inline-flex;align-items:center;min-height:44px;padding:0 .2rem}
+}
+
+/* Na uskom telefonu (320) baner mora ispod petine ekrana (nalaz S-13, izmereno: 161 px od 780 pre ovoga).
+   Stoji POSLE svih pravila banera — ista specifičnost, pa pobeđuje ono što je kasnije u fajlu. */
+@media(max-width:400px){.kolacici{font-size:.85rem;line-height:1.35;padding:.45rem .7rem .5rem}.kolacici-naslov{font-size:.9rem;margin-bottom:0}.kolacici-dugmad{margin-top:.35rem;gap:.4rem}}

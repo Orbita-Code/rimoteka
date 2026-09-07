@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Analytics se učitava TEK POSLE pristanka u baneru — v. ga-init.js (06.09.2026) -->
-<script src="ga-init.js?v=4"></script>
+<script src="ga-init.js?v=5"></script>
+<!-- Rečnik kreće sa HTML-om, ne tek posle app.js (nalaz A5). Adresa MORA biti ista kao u app.js — test poredi. -->
+<link rel="preload" as="fetch" href="/reci.txt?v=c233afa9" crossorigin>
 <title>Rečnik rima — rime, slogovi i značenje svake reči | Rimoteka</title>
 <meta name="description" content="Upiši reč i dobiješ sve rime — uz svaku piše broj slogova i šta znači. Rečnik rima srpskog jezika, sa beležnicom za pesmu. Besplatno, bez reklama.">
 <link rel="canonical" href="https://rimoteka.com/">
@@ -22,12 +24,12 @@
 <meta name="twitter:title" content="Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka">
 <meta name="twitter:description" content="Rimovanje za lakše štimovanje! Rečnik rima sa objašnjenjem svake reči, brojač slogova, beležnica za pesme i igra rimovanja.">
 <meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Fontovi se traže sa najvišim prioritetom: kasna zamena fonta pomera tekst
-     (CLS 0,045 na podstranama). `preload` skraćuje taj prozor. -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
+     slao adresu Google-u pre ikakvog pristanka, i čekao dva strana servera. Varijabilni
+     font (jedan fajl za sve debljine), četiri pisma; latinica i latinica-ext (č, ć, š, ž, đ)
+     se najavljuju odmah da zamena fonta ne pomera tekst. -->
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2" crossorigin>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -41,7 +43,7 @@
      kao ranije, v. handover sesije 12). Bez nje bi se sadržaj pomerio kad
      stigne app.js. -->
 <script src="/tab-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260907a">
+<link rel="stylesheet" href="style.css?v=20260908a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -102,6 +104,7 @@
 </script>
 </head>
 <body>
+<a class="skip-link" href="#glavno">Preskoči na sadržaj</a>
 <header class="site-header">
   <div class="brand" id="brandHome" role="button" tabindex="0" title="Početak — nazad na rime">
     <div class="brand-logo"><img src="logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
@@ -146,7 +149,7 @@
   <button data-tab="omiljene">Omiljene <span class="badge" id="favCount">0</span></button>
 </nav>
 
-<main>
+<main id="glavno" tabindex="-1">
 <!-- ZONA ALATA — hero i tabovi stoje na svojoj podlozi, da se vidi
      gde se alat završava, a gde počinje tekst o alatu (02.08.2026). -->
 <div class="alat-zona">
@@ -574,7 +577,7 @@
            ne objavljuje podatke o sopstvenom prometu. Rečenica ispod nosi frazu
            „koje se reči rimuju sa“ u ispravnom padežu — predlog „sa“ traži
            instrumental, pa se ne sme pisati „rimuju se sa: ljubav, srce“. -->
-      <p class="futer-rime-uvod">Pogledaj koje se reči rimuju sa najčešćim rečima u pesmama.</p>
+      <p class="futer-rime-uvod">Pogledaj koje se reči rimuju sa rečima koje pesnici često traže.</p>
       <div class="futer-rime-spisak">
       <!--POPRIME_START--><a href="/rime-za/ljubav/" class="footer-link">ljubav</a> · <a href="/rime-za/srce/" class="footer-link">srce</a> · <a href="/rime-za/dusa/" class="footer-link">duša</a> · <a href="/rime-za/sreca/" class="footer-link">sreća</a> · <a href="/rime-za/tuga/" class="footer-link">tuga</a> · <a href="/rime-za/bol/" class="footer-link">bol</a> · <a href="/rime-za/radost/" class="footer-link">radost</a> · <a href="/rime-za/nada/" class="footer-link">nada</a> · <a href="/rime-za/strast/" class="footer-link">strast</a> · <a href="/rime-za/ceznja/" class="footer-link">čežnja</a> · <a href="/rime-za/samoca/" class="footer-link">samoća</a> · <a href="/rime-za/osecaj/" class="footer-link">osećaj</a> · <a href="/rime-za/zagrljaj/" class="footer-link">zagrljaj</a> · <a href="/rime-za/poljubac/" class="footer-link">poljubac</a> · <a href="/rime-za/neznost/" class="footer-link">nežnost</a> · <a href="/rime-za/zelja/" class="footer-link">želja</a> · <a href="/rime-za/sanjarenje/" class="footer-link">sanjarenje</a> · <a href="/rime-za/ljubomora/" class="footer-link">ljubomora</a> · <a href="/rime-za/sunce/" class="footer-link">sunce</a> · <a href="/rime-za/mesec/" class="footer-link">mesec</a> · <a href="/rime-za/zvezda/" class="footer-link">zvezda</a> · <a href="/rime-za/nebo/" class="footer-link">nebo</a> · <a href="/rime-za/oblak/" class="footer-link">oblak</a> · <a href="/rime-za/kisa/" class="footer-link">kiša</a> · <a href="/rime-za/sneg/" class="footer-link">sneg</a> · <a href="/rime-za/vetar/" class="footer-link">vetar</a> · <a href="/rime-za/munja/" class="footer-link">munja</a> · <a href="/rime-za/more/" class="footer-link">more</a> · <a href="/rime-za/reka/" class="footer-link">reka</a> · <a href="/rime-za/jezero/" class="footer-link">jezero</a><!--POPRIME_END-->
       </div>
@@ -646,7 +649,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260907b"></script>
+<script src="app.js?v=20260908b"></script>
 <!-- Pokret na karticama ISPOD alata. `defer` — ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>

@@ -310,24 +310,56 @@ function countSyl(w){
 function syllables(w){ return countSyl(w) || 1; }
 
 /* ====================== Učitavanje ====================== */
-let defsPromise = null;  // lazy load velikog rečnika definicija (20 MB)
-async function loadLocalDefs(){
-  if(DEFS.size) return;
-  if(defsPromise) return defsPromise;
-  /* Jedan neuspeh je ranije TRAJNO ubijao sve definicije: `defsPromise` je
-     ostajao zapamćen i posle greške, pa se drugi pokušaj nikad nije desio, a
-     `defCache` je zauvek pamtio „Nema objašnjenja za ovu reč". Sad se pamćenje
-     briše kad skidanje ne uspe, pa sledeći hover pokušava ponovo. */
-  defsPromise = fetch('/definicije.json?v=4c98e124')
-    .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(defs => {
-      for(const k in defs) DEFS.set(k, defs[k]);
-    })
+/* DEFINICIJE PO SLOVIMA (nalaz S-20, audit 07.09.2026).
+   `definicije.json` ima 20,7 MB (5,4 MB gzip) i skidao se CEO na prvi dodir „značenje" —
+   na WiFi 3,7 s, na sporoj mreži računato 27 s. Sada `build/podeli_definicije.py` deli
+   rečnik na fajlove po prvom slovu (za velika slova po prva dva), pa se za jedno značenje
+   skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
+   Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
+   prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak — izvedeni su iz njega. */
+const DEFINICIJE_ADRESA = '/definicije.json?v=4c98e124';
+const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
+const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
+const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
+let defSpisak = null, defSpisakP = null;
+const defFajlovi = new Map();    // ime fajla → Promise (jednom po fajlu)
+function defImeFajla(word){
+  const w = toLatin(String(word || '').toLowerCase());
+  const a = w[0];
+  if(!a || !DEF_SLOVA.includes(a)) return '_';
+  const nivo = (defSpisak && defSpisak.nivo && defSpisak.nivo[a]) || 1;
+  let k = a;
+  if(nivo === 2 && w.length >= 2) k = a + (DEF_SLOVA.includes(w[1]) ? w[1] : '_');
+  return [...k].map(c => DEF_IME[c] || c).join('');
+}
+function loadDefSpisak(){
+  if(defSpisak) return Promise.resolve(defSpisak);
+  if(!defSpisakP){
+    defSpisakP = fetch('/definicije/spisak.json?v=' + DEF_V)
+      .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(sp => { defSpisak = sp; return sp; })
+      .catch(e => { defSpisakP = null; console.warn('[Rimoteka] Spisak definicija nije učitan, pokušaću ponovo:', e.message); return null; });
+  }
+  return defSpisakP;
+}
+/* Učitava SAMO fajl u kom stoji `word`. Jedan neuspeh ne ubija fajl zauvek — briše se iz
+   mape pa sledeći poziv pokuša ponovo (ista pouka kao ranije za ceo rečnik). Fajl koji ne
+   postoji (404 — za tu kombinaciju slova nema nijedne reči) pamti se kao prazan. */
+async function loadLocalDefs(word){
+  await loadDefSpisak();
+  if(!word) return;
+  const ime = defImeFajla(word);
+  if(defFajlovi.has(ime)) return defFajlovi.get(ime);
+  const p = fetch(`/definicije/${ime}.json?v=${DEF_V}`)
+    .then(r => { if(r.status === 404) return {}; if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(defs => { for(const k in defs) DEFS.set(k, defs[k]); })
     .catch(e => {
       console.warn('[Rimoteka] Definicije nisu učitane, pokušaću ponovo:', e.message);
-      defsPromise = null;      // dozvoli nov pokušaj
+      defFajlovi.delete(ime);      // dozvoli nov pokušaj
+      throw e;
     });
-  return defsPromise;
+  defFajlovi.set(ime, p);
+  return p;
 }
 
 /* Skidanje rečnika koje ume da RAZLIKUJE kvar od praznog odgovora.
@@ -877,14 +909,23 @@ function otvoriCipTraku(cip, rec){
       /* Oblačić se veže za REČ, ne za dugme trake: traka se odmah zatim sakrije, pa bi
          dugme imalo položaj 0,0 i oblačić bi odleteo u gornji levi ugao (prijava
          vlasnice 06.09.2026 na lokalnoj probi). */
-      if(a === 'def'){ pripremiDefinicije(); zatvoriCipTraku(); showDefAt(rec, cip, true); }
+      if(a === 'def'){ pripremiDefinicije(rec); zatvoriCipTraku(); showDefAt(rec, cip, true); }
       else if(a === 'fav'){
         toggleFav(rec);
         const on = isFav(rec);
         b.classList.toggle('on', on);
         b.querySelector('.ca-ic').innerHTML = on ? IKONA.notaPuna : IKONA.srce;
       }
-      else if(a === 'rime'){ zatvoriCipTraku(); rimeInput.value = disp(rec); switchTab('rime'); doRhymes(); }
+      else if(a === 'rime'){
+        zatvoriCipTraku();
+        /* Statička strana `/rime-za/` nema alat (nalaz S-08): tamo „nađi rime" vodi na stranu
+           te reči ako je ima, inače na `/?rec=`. U alatu se rime traže na licu mesta. */
+        if(rimeInput.__noop){ location.href = (cip.tagName === 'A' && cip.getAttribute('href')) || ('/?rec=' + encodeURIComponent(rec)); return; }
+        rimeInput.value = disp(rec);
+        if(document.getElementById('panel-rime')) switchTab('rime');
+        doRhymes();
+        if(typeof pokaziRimeNaTelefonu === 'function') pokaziRimeNaTelefonu();
+      }
       else if(a === 'prijavi'){ zatvoriCipTraku(); otvoriPrijavu(rec, cip); }
       else { copy(disp(rec)); zatvoriCipTraku(); }
     };
@@ -918,13 +959,15 @@ document.addEventListener('click', (e) => {
   if(!t || !t.closest) return;
   if(t.closest('.chip-actions')) return;
   const cip = t.closest('.chip');
-  if(!cip || !cip.querySelector('.mini') || cip.closest('.note-rhymes')){
+  /* Kapsula sa `data-w` (alat) ili `data-rec` (statička strana `/rime-za/`) — nalaz S-08:
+     do 07.09.2026 je tražila ikonicu `.mini`, pa na statičkim stranama traka nije postojala. */
+  if(!cip || !(cip.dataset.w || cip.dataset.rec) || cip.closest('.note-rhymes')){
     if(!t.closest('.chip-actions')) zatvoriCipTraku();
     return;
   }
   e.preventDefault();
   e.stopPropagation();
-  otvoriCipTraku(cip, cip.dataset.w || '');
+  otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
 }, true);
 window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
 
@@ -1082,6 +1125,13 @@ function renderGroup(container, title, words, strong){
      `uiTxt` jer naslov crta JS POSLE `applyScriptToUI`, pa ga ćirilica inače
      nikad ne dohvati (nalaz S3). */
   if(title){ const h=document.createElement('h2'); h.textContent=uiTxt(title); g.appendChild(h); }
+  /* Prijava korisnika iz sanduča („odeljenja" ≠ rima za „grižnja", nalaz N-R1): rezervna
+     grupa se poklapa samo u poslednjem slogu, pa to mora da piše — inače deluje kao greška. */
+  if(title && title.startsWith('Dobre rime (isti završni slog)')){
+    const n = document.createElement('p'); n.className = 'res-note';
+    n.textContent = uiTxt('Ove reči se sa tvojom slažu samo u poslednjem slogu, pa zvuče slabije od pravih rima.');
+    g.appendChild(n);
+  }
   const wrap = document.createElement('div'); wrap.className='results';
   words.forEach(w => wrap.appendChild(makeChip(w)));
   g.appendChild(wrap);
@@ -1122,7 +1172,9 @@ function doRhymes(silent){
   zatvoriCipTraku();               // traka nad reči koja će nestati (nalaz S-01, 07.09.2026)
   trakaCekaPokret = true;
   const raw = rimeInput.value.trim().toLowerCase();
-  const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
+  /* Najviše 60 slova (nalaz N-05, 07.09.2026): upit od 200 znakova je ceo odlazio u
+     `<title>` (261 znak), `h1`, kanonikal i `?rec=`. Srpska reč duža od 60 slova ne postoji. */
+  const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
   const box = el('rimeResults');
   box.innerHTML='';
   /* Poruke o stanju pišemo SAMO kad je korisnik sam tražio rime. U tihom
@@ -1163,7 +1215,9 @@ function doRhymes(silent){
 
   // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
   if(!silent){
-    try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); history.replaceState(null,'',u); }catch(e){}
+    /* I filter slogova ide u adresu (nalaz S-03, 07.09.2026): bez toga osvežavanje vraća „sve",
+       a link koji čovek podeli ne nosi ono što je gledao. Kanonikal ostaje bez filtera. */
+    try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); if(rimeSyl) u.searchParams.set('slog', String(rimeSyl)); else u.searchParams.delete('slog'); history.replaceState(null,'',u); }catch(e){}
   }
 
   const key = rhymeKey(q);
@@ -1374,6 +1428,12 @@ function vratiSeoNaPocetno(){
   postaviOG('og:description', (document.querySelector('meta[name="description"]') || {}).content || '');
   if(kan) postaviOG('og:url', kan.href);
   postaviRobots('');
+  /* Adresa je stanje (nalaz N-04, 07.09.2026): prazno polje vraća naslov i `h1`, pa mora
+     da skloni i `?rec=` — inače osvežavanje ponovo traži staru reč. */
+  try{
+    const u = new URL(location.href);
+    if(u.searchParams.has('rec')){ u.searchParams.delete('rec'); history.replaceState(null, '', u.pathname + u.search + u.hash); }
+  }catch(e){}
 }
 
 async function osveziSeoZaRec(q, broj, prvih){
@@ -1447,7 +1507,9 @@ async function osveziSeoZaRec(q, broj, prvih){
    upisana u stranu bi bila blokirana, a `app.js` te strane ionako učitavaju.
    Delegirano sa `document`, pa radi i za pilule koje JS iscrta kasnije. */
 document.addEventListener('click', e => {
-  const b = e.target.closest && e.target.closest('.chip[data-rec]');
+  /* Samo DUGME (`chip-btn`) — od 07.09.2026 i linkovi na statičkim stranama nose
+     `data-rec` (zbog trake nad reči, nalaz S-08), a link vodi na svoju stranu. */
+  const b = e.target.closest && e.target.closest('.chip-btn[data-rec]');
   if(!b) return;
   e.preventDefault();
   location.href = '/?rec=' + encodeURIComponent(b.dataset.rec);
@@ -3103,7 +3165,7 @@ function renderNoteRhymes(){
     const rec = clone.querySelector('.word').textContent;
     clone.addEventListener('mouseenter', () => {
       if(jeTelefon()) return;          // na dodir panel radi drugačije — dodir ubacuje reč
-      pripremiDefinicije();
+      pripremiDefinicije(rec);
       clearTimeout(cekaObjasnjenje);
       cekaObjasnjenje = setTimeout(() => showDefAt(clone.dataset.w || rec, clone, false), 420);
     });
@@ -3111,7 +3173,7 @@ function renderNoteRhymes(){
     /* Tastatura: ista stvar bez miša. Čip u panelu nije dugme, pa dobija
        `tabindex` — inače se do objašnjenja ne može bez pokazivača. */
     clone.tabIndex = 0;
-    clone.addEventListener('focus', () => { pripremiDefinicije(); showDefAt(clone.dataset.w || rec, clone, false); });
+    clone.addEventListener('focus', () => { pripremiDefinicije(clone.dataset.w || rec); showDefAt(clone.dataset.w || rec, clone, false); });
     clone.addEventListener('blur', hideDef);
     clone.addEventListener('keydown', (ev) => {
       if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); clone.click(); }
@@ -3661,7 +3723,11 @@ const UI_SCRIPT_SELS = [
   '.hero h1', '.hero p', '.seo-content', '.notepad-title',
   '.landing-h1', '.landing-lead', '.landing-cta', '.crumbs',
   '.res-group', '.landing-faq details p', '.slog-table', '.syl-label',
-  '.footer-desc', '.footer-keys', '.footer-rimes-label'
+  '.footer-desc', '.footer-keys', '.footer-rimes-label',
+  /* Statičke strane (nalaz S-09, 07.09.2026): futer, „Rime za druge reči" i napomena uz njih
+     ostajali su latinicom. Mejl se ne prebacuje (`mailto`), logo nikad. */
+  '.related-note', '.related-rimes h2', '.syl-groups h2', '.landing-meta', '.skip-link',
+  '.footer-link:not([href^="mailto"])', '.footer-legal', '.futer-naslov', '.futer-rime-uvod'
 ];
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle', 'gameInput', 'gamePlayersCustom'];
 
@@ -3843,6 +3909,8 @@ function applyScriptToUI(){
   if(ne && ne.dataset.placeholder) ne.dataset.placeholder = fn(ne.dataset.placeholder);
   const rb = el('randomBtn');
   if(rb && rb.title) rb.title = fn(rb.title);
+  /* Naslovi (`title`) kapsula i broja slogova na statičkim stranama (nalaz S-09). */
+  document.querySelectorAll('.chip[title], .chip .syl[title]').forEach(c => { c.title = fn(c.title); });
 }
 
 let toastTimer;
@@ -3870,6 +3938,8 @@ const defCache = new Map();
 let defTimer = null, defPinned = false, defWord = null;
 const defTip = document.createElement('div');
 defTip.className = 'deftip';
+defTip.setAttribute('role', 'tooltip');   // nalaz S-15 (07.09.2026)
+defTip.id = 'deftip';
 defTip.style.display = 'none';
 document.body.appendChild(defTip);
 
@@ -3911,7 +3981,7 @@ function fetchSaRokom(url, ms = 6000){
 
 async function fetchDefinition(word){
   if(defCache.has(word)) return defCache.get(word);
-  await loadLocalDefs();  // učitaj lokalni rečnik definicija tek kada zatreba
+  await loadLocalDefs(word).catch(() => {});  // samo fajl sa slovom te reči (S-20)
   if(DEFS.has(word)){ const r = { text: DEFS.get(word), src:'Rimoteka' }; defCache.set(word, r); return r; }
   let result = null;
   try{
@@ -3959,6 +4029,10 @@ async function showDefAt(word, anchor, pinned){
   positionTip(anchor);
 }
 function hideDef(){ if(!defPinned){ defTip.style.display = 'none'; defWord = null; } }
+/* Escape zatvara i prikačen oblačić (nalaz S-15): otvoren tastaturom, bez ovoga se nije mogao zatvoriti. */
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape' && defTip.style.display === 'block'){ defPinned = false; defTip.style.display = 'none'; defWord = null; }
+});
 document.addEventListener('click', e=>{
   if(defPinned && !defTip.contains(e.target) && !e.target.classList.contains('info')){
     defPinned = false; defTip.style.display = 'none'; defWord = null;
@@ -4289,6 +4363,12 @@ function initFromURL(){
     const p = params.get('rec');
     if(p && p.trim()){
       rimeInput.value = disp(p.trim().toLowerCase());
+      /* `?slog=2` vraća filter slogova (nalaz S-03). */
+      const sl = parseInt(params.get('slog') || '0', 10);
+      if(sl >= 1 && sl <= 5){
+        rimeSyl = sl;
+        document.querySelectorAll('#rimeSyl button').forEach(x => x.classList.toggle('active', +x.dataset.syl === sl));
+      }
       switchTab('rime');
       doRhymes();
       return true;
@@ -4686,6 +4766,7 @@ function showHandoff(){
   if(gameResults) gameResults.style.display = 'none';
   if(gameHandoff) gameHandoff.style.display = 'block';
   if(gameHandoffStart) gameHandoffStart.focus();
+  sacuvajIgru();
 }
 
 /* Postoji li odgovor koji bi igra PRIHVATILA za ovu reč?
@@ -4744,6 +4825,7 @@ function nextWord(){
       gameWordCountEl.textContent = `${gameCurrentWordIdx + 1}/${gameWordsPerPlayer}`;
       renderProgress();
       startTimer();
+      sacuvajIgru();
       return;
     }
   }
@@ -4770,11 +4852,75 @@ function nastaviIgru(){
   if(gameTimeLeft > 0) pokreniOdbrojavanje();
 }
 
+/* PARTIJA PREŽIVI PRELAZAK NA DRUGU STRANU (nalaz A4, audit 07.09.2026).
+   Google šalje ljude pravo na `/igra-rimovanja/`. Ta strana ima samo panel igre, pa je
+   klik na bilo koji drugi tab PUNO učitavanje druge strane — i partija je nestajala.
+   Zato se stanje partije čuva u `sessionStorage` (samo ova kartica pregledača, do
+   zatvaranja) pri svakoj promeni i pri napuštanju strane, a vraća se čim je rečnik
+   spreman na strani koja ima panel igre. Vraćena partija stoji PAUZIRANA dok se tab
+   igre ne vidi — isti mehanizam kao pri prelasku taba (nalaz S7). */
+const IGRA_KLJUC = 'rimoteka_igra';
+function ssGet(k){ try{ return sessionStorage.getItem(k); }catch(e){ return null; } }
+function ssSet(k, v){ try{ sessionStorage.setItem(k, v); }catch(e){ /* privatni režim — tiho */ } }
+function ssDel(k){ try{ sessionStorage.removeItem(k); }catch(e){} }
+function sacuvajIgru(){
+  if(gameState !== 'play' && gameState !== 'handoff'){ ssDel(IGRA_KLJUC); return; }
+  ssSet(IGRA_KLJUC, JSON.stringify({
+    v: 1, kad: Date.now(), state: gameState,
+    players: gamePlayers, wpp: gameWordsPerPlayer, tpw: gameTimePerWord, data: gamePlayersData,
+    pi: gameCurrentPlayerIdx, wi: gameCurrentWordIdx, word: gameCurrentWord, left: gameTimeLeft,
+    combo: gameCombo, maxCombo: gameMaxCombo
+  }));
+}
+function vratiIgru(){
+  if(gameSetup.__noop || !gamePlay) return false;
+  const s = ssGet(IGRA_KLJUC);
+  if(!s) return false;
+  let o = null;
+  try{ o = JSON.parse(s); }catch(e){ o = null; }
+  const svez = o && o.v === 1 && typeof o.word === 'string' && Array.isArray(o.data) && (Date.now() - (o.kad || 0)) < 30 * 60 * 1000;
+  if(!svez){ ssDel(IGRA_KLJUC); return false; }
+  gamePlayers = o.players; gameWordsPerPlayer = o.wpp; gameTimePerWord = o.tpw; gamePlayersData = o.data;
+  gameCurrentPlayerIdx = o.pi; gameCurrentWordIdx = o.wi; gameCurrentWord = o.word;
+  gameTimeLeft = o.left; gameCombo = o.combo || 0; gameMaxCombo = o.maxCombo || 0;
+  clearInterval(gameTimer); gameTimer = null; clearTimeout(gameNextTimeout);
+  gameSetup.style.display = 'none';
+  gameResults.style.display = 'none';
+  if(o.state === 'handoff'){ showHandoff(); return true; }
+  gameState = 'play';
+  if(gameHandoff) gameHandoff.style.display = 'none';
+  gamePlay.style.display = 'block';
+  gameWordEl.textContent = disp(gameCurrentWord);
+  gameInput.value = '';
+  gameFeedback.textContent = '';
+  gameFeedback.className = 'game-feedback';
+  gameSubmit.disabled = false;
+  gameCurrentPlayerEl.textContent = gameCurrentPlayerIdx + 1;
+  gameWordCountEl.textContent = `${gameCurrentWordIdx + 1}/${gameWordsPerPlayer}`;
+  renderProgress();
+  renderCombo();
+  gameTimerEl.textContent = gameTimeLeft;
+  gameTimerEl.classList.toggle('low', gameTimeLeft <= 5);
+  igraPauzirana = true;
+  if(tabIzURLa() === 'igra' && !document.hidden) nastaviIgru();
+  return true;
+}
+window.addEventListener('pagehide', sacuvajIgru);
+
+/* Pauza kad se ekran sakrije — poziv, zaključavanje, druga aplikacija (nalaz S-04).
+   Bez ovoga je tajmer tekao i reč propadala dok telefon leži u džepu. */
+document.addEventListener('visibilitychange', () => {
+  if(document.hidden){ pauzirajIgru(); sacuvajIgru(); }
+  else if(tabIzURLa() === 'igra' || document.documentElement.dataset.tab === 'igra') nastaviIgru();
+});
+
 function pokreniOdbrojavanje(){
   clearInterval(gameTimer);
+  if(document.hidden){ igraPauzirana = true; gameTimer = null; return; }   // nalaz S-04
   gameTimer = setInterval(() => {
     gameTimeLeft--;
     gameTimerEl.textContent = gameTimeLeft;
+    sacuvajIgru();
     if(gameTimeLeft <= 5){
       gameTimerEl.classList.add('low');
       if(gameTimeLeft > 0) playTick();
@@ -4805,6 +4951,7 @@ function timeUp(){
   renderCombo();
   gameCurrentWordIdx++;
   gameSubmit.disabled = true;
+  sacuvajIgru();
   zakaziSledecuRec(1500);
 }
 
@@ -4869,6 +5016,7 @@ function checkGameAnswer(){
   gameCurrentWordIdx++;
   gameSubmit.disabled = true;
   renderProgress();
+  sacuvajIgru();
   zakaziSledecuRec(1500);
 }
 
@@ -4891,6 +5039,7 @@ function showResults(){
   clearInterval(gameTimer);
   clearTimeout(gameNextTimeout);
   gameState = 'results';
+  sacuvajIgru();               // briše sačuvanu partiju — gotova je
   gamePlay.style.display = 'none';
   if(gameHandoff) gameHandoff.style.display = 'none';
   gameResults.style.display = 'block';
@@ -5001,10 +5150,22 @@ function bootstrap(){
     initFromURL();
     return;
   }
+  /* Nalaz A5 (07.09.2026): strana je „gotova" na 1,3 s, a rime na sporoj mreži rade tek
+     posle 7 s — dugme je izgledalo spremno dok rečnik još nije stigao. Sad dugme nosi
+     `aria-busy` i prigušeno je dok rečnik ne stigne; klik i dalje radi (reč se zapamti,
+     v. `cekaRec`). Sam rečnik kreće ranije: `<link rel="preload" as="fetch">` u zaglavlju. */
+  const rb = el('rimeBtn');
+  if(!rb.__noop){ rb.classList.add('ucitava'); rb.setAttribute('aria-busy', 'true'); rb.title = 'Učitavam rečnik…'; }
+  function recnikSpreman(){ if(rb.__noop) return; rb.classList.remove('ucitava'); rb.removeAttribute('aria-busy'); rb.removeAttribute('title'); }
   loadDict().then(()=>{
+    recnikSpreman();
+    /* Partija igre koja je preživela prelazak strane (nalaz A4) vraća se PRE čitanja
+       adrese, da `initGame` iz `switchTab` zatekne partiju u toku i ne vrati početni ekran. */
+    try{ vratiIgru(); }catch(e){ console.warn('[Rimoteka] partija nije vraćena:', e); }
     if(cekaRec){ pokreniOdlozenuPretragu(); return; }
     if(!initFromURL()) rimeInput.focus();
   }).catch(e=>{
+    recnikSpreman();
     /* Ako korisnik ode sa strane dok se rečnik još skida, pregledač prekine
        preuzimanje i ovde stigne „Failed to fetch". To NIJE kvar — strana koju
        napuštamo nema kome da prijavi grešku, a poruka o neuspehu bi bljesnula
@@ -5033,24 +5194,21 @@ function bootstrap(){
      Izmereno u auditu: kretao je ~4 ms posle `reci.txt` i time gurao spremnost
      rečnika sa 7,3 s na 10,6 s — dakle 3,3 sekunde čekanja na rime, zbog
      oblačića koji većina korisnika nikad ne otvori.
-     Sada se skida tek kad zaista zatreba: `fetchDefinition()` na početku zove
-     `loadLocalDefs()`. Da prvi klik ne bi bio spor, skidanje se pokreće i na
-     prvi prelazak mišem preko bilo kog ⓘ (v. `pripremiDefinicije` niže) — dakle
-     na nagoveštaj namere, a ne na svako učitavanje strane. */
+     Sada se skida tek kad zaista zatreba, i to SAMO fajl sa slovom te reči (S-20):
+     `fetchDefinition()` zove `loadLocalDefs(word)`. Da prvi klik ne bi bio spor,
+     skidanje kreće i na prelazak mišem preko kapsule (v. `pripremiDefinicije` niže). */
 }
 
 /* Prvi nagoveštaj da će definicije zatrebati: miš je prešao preko dugmeta ⓘ.
    Skidanje kreće tada, pa je do klika obično već gotovo. */
-let definicijeNajavljene = false;
-function pripremiDefinicije(){
-  if(definicijeNajavljene) return;
-  definicijeNajavljene = true;
+function pripremiDefinicije(word){
   const conn = navigator.connection;
   if(conn && (conn.saveData || /2g/.test(conn.effectiveType || ''))) return;  // ne troši tuđi paket
-  loadLocalDefs();
+  loadLocalDefs(word).catch(() => {});
 }
 document.addEventListener('pointerover', e => {
-  if(e.target && e.target.closest && e.target.closest('.mini.info')) pripremiDefinicije();
+  const cip = e.target && e.target.closest && e.target.closest('.chip');
+  if(cip && (cip.dataset.w || cip.dataset.rec)) pripremiDefinicije(cip.dataset.w || cip.dataset.rec);
 }, { passive: true });
 
 bootstrap();
@@ -5237,6 +5395,9 @@ function prijavaHvala(box, html, uspeh){
   setTimeout(() => { if(prijavaBox === box) zatvoriPrijavu(); }, uspeh ? 2600 : 3200);
 }
 document.addEventListener('click', (e) => {
-  if(prijavaBox && !prijavaBox.classList.contains('sheet') && !prijavaBox.contains(e.target)) zatvoriPrijavu();
+  /* Dugme teme, pisma i traka nad reči nisu „klik van" (nalaz S-24): promena teme dok se piše
+     napomena brisala je celu prijavu. */
+  const izuzet = e.target && e.target.closest && e.target.closest('#darkToggle, #scriptToggle, .chip-actions, .skip-link');
+  if(prijavaBox && !prijavaBox.classList.contains('sheet') && !prijavaBox.contains(e.target) && !izuzet) zatvoriPrijavu();
 }, true);
 

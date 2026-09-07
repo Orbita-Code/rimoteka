@@ -5524,9 +5524,12 @@ async function main() {
       // (c) ćirilica: tekst banera je na ćirilici
       ({ c, p, ga } = await svez(1280, () => { try { localStorage.setItem('rimoteka_script', 'cyr'); } catch (e) {} }));
       await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1500);
-      const b5 = await p.evaluate(() => ({ naslov: (document.querySelector('.kolacici-naslov') || {}).textContent || '', dugme: (document.querySelector('.kolacici-prihvati') || {}).textContent || '', tekst: (document.querySelector('.kolacici-tekst') || {}).textContent || '' }));
+      const b5 = await p.evaluate(() => ({ naslov: (document.querySelector('.kolacici-naslov') || {}).textContent || '', dugme: (document.querySelector('.kolacici-prihvati') || {}).textContent || '', tekst: (document.querySelector('.kolacici-tekst') || {}).textContent || '', red: (document.querySelectorAll('.kolacici-red-tekst b')[1] || {}).textContent || '' }));
       ok('ćirilica · baner je na ćirilici („Колачићи на Римотеци", „Прихвати све")', b5.naslov === 'Колачићи на Римотеци' && b5.dugme === 'Прихвати све', JSON.stringify(b5));
-      ok('ćirilica · ime brenda „Google Analytics" ostaje latinicom', /Google Analytics/.test(b5.tekst) && !/Гоогле/.test(b5.tekst), b5.tekst.slice(0, 60));
+      /* Tekst je ODREDILA VLASNICA 07.09.2026 (isti kao orbitacode.com) — namerno kratak i
+         uopšten. Provera štiti od „poboljšanja" u nekoj budućoj sesiji. */
+      ok('tekst banera je tačno onaj koji je vlasnica odredila (ćirilicom)', b5.tekst === 'Користимо колачиће како бисмо побољшали ваше искуство на нашем сајту.', b5.tekst);
+      ok('ćirilica · ime brenda „Google Analytics" (red u „Podesi") ostaje latinicom', /Google Analytics/.test(b5.red) && !/Гоогле/.test(b5.red), b5.red);
       await c.close();
       // (d) ?interno=1: bez banera i bez GA
       ({ c, p, ga } = await svez(1280));

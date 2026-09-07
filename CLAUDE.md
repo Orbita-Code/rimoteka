@@ -606,6 +606,11 @@ međuekrane). Odluka: `localStorage.rimoteka_kolacici` `{analitika:true|false}`;
 „Kolačići“ u futeru je menja. Od 06.09. GA broji samo one koji prihvate — pad brojeva u
 Analyticsu posle tog datuma NIJE pad posete (upisati u svaki izveštaj analitike).
 
+**Tekst banera je odredila vlasnica 07.09.2026** — „Koristimo kolačiće kako bismo poboljšali
+vaše iskustvo na našem sajtu." Namerno kratak i uopšten; prihvatanje 1 klik, odbijanje kroz
+„Podesi" — namerno. **Ne menjati, ne dodavati „Odbij", ne pominjati GDPR/EU** — Rimoteka je
+za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47 čuva tačan tekst.
+
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 
 **Od 06.09.2026 kapsule sa rimama na računaru nemaju ikonice** (odluka vlasnice, varijanta B):

@@ -13,6 +13,11 @@
  * `?interno=1` (vlasnica, test) i dalje gasi merenje na uređaju — i tada baner ne
  * smeta, jer odluke nema šta da menja.
  *
+ * TEKST BANERA JE ODREDILA VLASNICA 07.09.2026 — isti kao na orbitacode.com. Kratak i
+ * uopšten, NAMERNO: ne objašnjava šta se meri. Prihvatanje 1 klik, odbijanje kroz „Podesi"
+ * — i to je namerno. Ne „poboljšavati", ne dodavati „Odbij", ne pominjati EU/GDPR (sajt je
+ * za Srbiju i Balkan — odluka vlasnice, globalni CLAUDE.md „Kolačići i pravo").
+ *
  * `gtag` stub postoji UVEK, da `gtag('event', …)` iz app.js nikad ne pukne; dok
  * nema pristanka, događaji se samo slažu u `dataLayer` i nikud ne odlaze. */
 (function () {
@@ -86,7 +91,7 @@
     baner.setAttribute('aria-label', t('Kolačići'));
     var glava = el('div', 'kolacici-glava');
     glava.appendChild(el('strong', 'kolacici-naslov', t('Kolačići na Rimoteci')));
-    glava.appendChild(el('p', 'kolacici-tekst', t('Koristimo Google Analytics da vidimo koje delove sajta ljudi koriste, a koje ne — da bismo Rimoteku popravljali na pravom mestu. Bez imena i bez mejla.')));
+    glava.appendChild(el('p', 'kolacici-tekst', t('Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem sajtu.')));
     baner.appendChild(glava);
 
     var podesi = el('div', 'kolacici-podesi');
@@ -101,7 +106,7 @@
       r.appendChild(box); r.appendChild(prek); r.appendChild(txt);
       return r;
     }
-    podesi.appendChild(red(t('Neophodno'), t('uvek uključeno: pamti temu, pismo i beležnicu na ovom uređaju'), true, true, 'neophodno'));
+    podesi.appendChild(red(t('Neophodno'), t('uvek uključeno: pamti temu, pismo i beležnicu na tvom uređaju'), true, true, 'neophodno'));
     podesi.appendChild(red(t('Merenje posete (Google Analytics)'), t('koje strane i dugmad se koriste; ne zna ko si'), false, false, 'analitika'));
     var sacuvajBtn = el('button', 'kolacici-dugme kolacici-sacuvaj', t('Sačuvaj izbor'));
     sacuvajBtn.type = 'button';

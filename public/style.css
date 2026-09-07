@@ -2927,6 +2927,9 @@ body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
 /* Legenda iznad rezultata sme da se prelama — ćirilični tekst na 320 px širio je stranu na 344 px. */
 .res-legend{flex-wrap:wrap}
 .res-legend .legend-item,.res-legend .legend-tap{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+/* Legenda u dva reda (08.09.2026): svaka rečenica u svom redu, kružić uz prvu. */
+.res-legend{flex-direction:column;align-items:flex-start;gap:.25rem}
+.res-legend .legend-tap{font-style:normal}
 /* Pomoć za tastaturu ne sme da širi stranu (ćirilica na 320 px davala je 345 px). */
 .kbd-help{max-width:min(940px,100%);box-sizing:border-box}
 .kbd-help details,.kbd-help summary,.kbd-help p,.kbd-help li{overflow-wrap:anywhere;min-width:0}

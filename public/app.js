@@ -618,11 +618,13 @@ function renderLegend(container){
      je kopira" — tri uputstva u jednom redu sitnim kurzivom. Test je gledao samo ključne reči
      („pređi mišem", „kopira", „prijavi"), pa je prolazila. Sad: šta je kružić, i jedna rečenica kako
      se dolazi do ostalog. Ostale radnje čovek vidi u samoj traci kad je otvori. */
+  /* Dva reda, dve cele rečenice — da razume i dete od 10 godina (vlasnica, 08.09.2026, drugi put):
+     prvi red objašnjava kružić, drugi šta se dobija kad se reč dodirne ili pređe mišem. */
   l.innerHTML =
-    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('broj slogova') + '</span>' +
+    '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('Ovaj broj u kružiću kaže koliko reč ima slogova.') + '</span>' +
     '<span class="legend-item legend-tap">' + uiTxt(jeTelefon()
-      ? 'Dodirni reč da vidiš šta znači, sačuvaš je ili prijaviš grešku.'
-      : 'Pređi mišem preko reči da vidiš šta znači, sačuvaš je ili prijaviš grešku.') + '</span>';
+      ? 'Dodirni reč. Onda vidiš šta znači, možeš da je sačuvaš ili da prijaviš grešku.'
+      : 'Pređi mišem preko reči. Onda vidiš šta znači, možeš da je sačuvaš ili da prijaviš grešku.') + '</span>';
   container.appendChild(l);
 }
 

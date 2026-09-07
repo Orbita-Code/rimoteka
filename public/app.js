@@ -2748,7 +2748,7 @@ function renderGutter(){
     const { letter, repeated } = letters[i];
     row.innerHTML =
       `<span class="g-drag" title="${uiTxt('prevuci da premestiš stih')}" aria-label="${uiTxt('premesti stih')}">⠿</span>` +
-      `<span class="g-letter${repeated ? '' : ' g-letter-solo'}"${color ? ` style="color:${color}"` : ''}>${letter}</span>` +
+      `<span class="g-letter${repeated ? '' : ' g-letter-solo'}"${color ? ` style="color:${color}"` : ''}>${uiTxt(letter)}</span>` +
       `<span class="g-syl">${line.trim() ? lineSyllables(line) : '·'}</span>`;
     frag.appendChild(row);
   });
@@ -3012,7 +3012,7 @@ function updateNoteStats(){
   const schemeName = scheme ? SCHEME_NAMES[scheme] : '';
   // slova šeme ostaju latinična (ista notacija kao u tabu „Klasici")
   stats.textContent = uiTxt(`${lines} ${redRec(lines)} · ${words} ${recRec(words)} · ${chars} ${znakRec(chars)} · ${syl} ${slogRec(syl)}`)
-    + (scheme ? ` · ${uiTxt('šema 1. strofe')}: ${scheme}${schemeName ? ' (' + uiTxt(schemeName) + ')' : ''}` : '');
+    + (scheme ? ` · ${uiTxt('šema 1. strofe')}: ${uiTxt(scheme)}${schemeName ? ' (' + uiTxt(schemeName) + ')' : ''}` : '');
 }
 
 // Rime za reč na kojoj je kursor u beležnici (ranije: uvek poslednja reč)
@@ -3969,7 +3969,11 @@ function prikaziUputstvoZaTastaturu(){
 /* `.footer-legal` i `.deftip` su IZBAČENI iz izuzetaka 08.09.2026 (vlasnica: na ćirilici ne sme ostati latinica osim
    logotipa, „Powered by Orbita Code“ i stranih imena) – objašnjenja reči i „Sva prava zadržana“ idu u ćirilicu. */
 const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-orbita, .kbd-help, kbd, code, script, style, noscript, '
-  + '#noteEditor, #noteTitle, .ml, .vrhyme, .g-letter, #scriptToggle button, textarea, input';
+  + '#noteEditor, #noteTitle, .ml, #scriptToggle button, textarea, input';
+/* SLOVA ŠEME RIME (A, B, ABAB, AABB…) IDU U ĆIRILICU preslovljavanjem (АБАБ, ЦДЦД) – provereno 08.09.2026 u
+   srpskim izvorima (sr.wikipedia „Сонет": „шемом АББА — АББА — ЦДЦ — ДЦД", „Пантун": „АБАБ шеми",
+   „Шекспирови сонети": „абаб цдцд ефеф гг"). Zato `.g-letter` i `.vrhyme` više NISU izuzeti, a skraćenica
+   od samih slova A–H (šema) se ne štiti od preslovljavanja (PDF, TV, ABC-radio i dalje ostaju latinicom). */
 /* Drugi prolaz skenera (08.09.2026): `.footer-contact` („Za saradnju:") i `select` (opcije pretrage) vraćeni u
    prebacivanje – mejl je i dalje zaštićen jer čvor sa „@" preskače ADRESA; klasici ne treba izuzimati jer
    `dispPoem` već crta pesmu u izabranom pismu; `.g-letter` su slova šeme (A, B) uz stihove. */
@@ -3989,7 +3993,7 @@ function prebaciTekst(s, fn){
   if(!s) return s;
   const cuvane = [];
   const sacuvaj = m => '\u0000' + (cuvane.push(m) - 1) + '\u0000';
-  const sa = s.replace(ZASTICENO, sacuvaj).replace(SKRACENICA, sacuvaj);
+  const sa = s.replace(ZASTICENO, sacuvaj).replace(SKRACENICA, m => /^[A-H]{2,8}$/.test(m) ? m : sacuvaj(m));   // šema rime se preslovljava
   return fn(sa).replace(/\u0000(\d+)\u0000/g, (_, i) => cuvane[+i]);
 }
 function convertTextNodes(root, fn){
@@ -4387,7 +4391,7 @@ function renderKlasici(){
              klasici su prave, postojeće pesme – nema smisla tražiti rime za reči
              koje je pesnik već izabrao. Zato nema `data-w` ni naslova koji obećava
              klik. Slovo ostaje da se vidi šema rime, i to je sav njegov posao. */
-          + `<span class="vrhyme" aria-hidden="true">${letters[idx]||''}</span>`;
+          + `<span class="vrhyme" aria-hidden="true">${uiTxt(letters[idx]||'')}</span>`;
         stanza.appendChild(v);
       });
       body.appendChild(stanza);
@@ -4395,7 +4399,7 @@ function renderKlasici(){
     card.appendChild(body);
     const foot = document.createElement('div'); foot.className='poem-foot';
     const nm = SCHEME_NAMES[firstScheme];
-    foot.innerHTML = `<span class="poem-scheme">Šema rime (1. strofa): <b>${firstScheme||'–'}</b>${nm?' · '+nm:''}</span> · `;
+    foot.innerHTML = `<span class="poem-scheme">${uiTxt('Šema rime (1. strofa)')}: <b>${uiTxt(firstScheme||'–')}</b>${nm?' · '+uiTxt(nm):''}</span> · `;
     const btn = document.createElement('button'); btn.className='link-btn'; btn.textContent='prebaci u brojač slogova';
     btn.onclick = ()=>{ sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'}); };
     foot.appendChild(btn);

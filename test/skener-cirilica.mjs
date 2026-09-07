@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BASE = process.env.BASE || 'http://localhost:8765';
 const PARALELNO = Number(process.env.PARALELNO || 4);
-const DOZVOLJENO = /^(·? ?Powered by( Orbita Code)?|Orbita Code|latinica|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Rimoteka|eureka@rimoteka\.com|rimoteka\.com|orbitacode\.com|PDF|ABAB|AABB|ABBA|R)$/;
+const DOZVOLJENO = /^(·? ?Powered by( Orbita Code)?|Orbita Code|latinica|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Rimoteka|eureka@rimoteka\.com|rimoteka\.com|orbitacode\.com|PDF|R)$/;
 const LAT = /[A-Za-zČĆŽŠĐčćžšđ]/;
 
 const sm = readFileSync(path.join(ROOT, 'public', 'sitemap.xml'), 'utf8');
@@ -34,7 +34,7 @@ const nalazi = new Map();   // tekst → { gde: Set(strana#kontekst), vrsta }
 function dodaj(tekst, gde, vrsta) {
   let t = tekst.replace(/\s+/g, ' ').trim();
   // skraćenice velikim slovima (PDF, ABAB, TV) i imena firmi su dozvoljeni i UNUTAR teksta
-  const ocisceno = t.replace(/\b[A-ZČĆŽŠĐ]{2,}\b/g, '').replace(/Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|Chrome|Android|iPhone|Wikipedia|Wiktionary|Rimoteka/g, '');
+  const ocisceno = t.replace(/\b[A-ZČĆŽŠĐ]{2,}\b/g, m => /^[A-H]{2,8}$/.test(m) ? m : '')   // šema rime (ABAB) MORA u ćirilicu.replace(/Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|Chrome|Android|iPhone|Wikipedia|Wiktionary|Rimoteka/g, '');
   if (!t || !LAT.test(ocisceno)) return;
   if (DOZVOLJENO.test(t)) return;
   if (/^[A-ZČĆŽŠĐ0-9 .\-]{2,}$/.test(t)) return;                 // skraćenica velikim slovima
@@ -45,7 +45,7 @@ function dodaj(tekst, gde, vrsta) {
 
 // U strani: sve što se vidi ili čita (tekst, atributi), osim dozvoljenih zona.
 const SKUPI = () => {
-  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript, #noteEditor, #noteTitle, .ml, .vrhyme, .g-letter, #rimeStatus, #scriptToggle button';   // tekst korisnika, klasici u originalu, slova šeme, dugmad pisma
+  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript, #noteEditor, #noteTitle, .ml, #rimeStatus, #scriptToggle button';   // tekst korisnika, klasici u originalu, slova šeme, dugmad pisma
   const out = [];
   const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let n; while ((n = w.nextNode())) { if (!n.textContent.trim()) continue; const el = n.parentElement; if (!el || el.closest(IZUZETO)) continue; const skriven = !el.getClientRects().length && !el.closest('[hidden]') ? false : false; out.push(['tekst', n.textContent, el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : '') + (el.closest('[hidden]') ? ' (skriveno)' : '')]); }

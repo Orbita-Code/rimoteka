@@ -6248,6 +6248,8 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
           futer: (document.querySelector('.footer-orbita') || {}).textContent || '', legal: (document.querySelector('.footer-legal') || {}).textContent || '', uvod: (document.querySelector('.prazno-stanje') || {}).textContent || '' }));
         ok('ćirilica · nj/lj/dž na granici prefiksa: injekcija→инјекција, konjunkcija→конјункција, nadživeti→надживети, predživot→предживот', d.inj === 'инјекција' && d.konjunk === 'конјункција' && d.nadziv === 'надживети' && d.predziv === 'предживот', JSON.stringify(d).slice(0, 160));
         ok('ćirilica · pravi digrafi ostaju: inje→иње, konj→коњ, odžak→оџак, nadžak→наџак', d.inje === 'иње' && d.konj === 'коњ' && d.odzak === 'оџак' && d.nadzak === 'наџак', JSON.stringify(d).slice(0, 160));
+        const sema = await p.evaluate(() => ({ abab: prebaciTekst('ukrštena rima (ABAB)', toCyr), pdf: prebaciTekst('sačuvaj kao PDF', toCyr) }));
+        ok('ćirilica · šema rime se preslovljava (ABAB → АБАБ), a prave skraćenice (PDF) ostaju', /АБАБ/.test(sema.abab) && /PDF/.test(sema.pdf), JSON.stringify(sema));
         ok('ćirilica · „Powered by Orbita Code" ostaje latinicom, a „Sva prava zadržana" i uvod na početnoj idu u ćirilicu', /Powered by Orbita Code/.test(d.futer) && !/[Ѐ-ӿ]/.test(d.futer) && /[Ѐ-ӿ]/.test(d.legal) && !/[a-zA-Z]/.test(d.legal.replace(/©|2026/g, '')) && /[Ѐ-ӿ]/.test(d.uvod) && !/[a-zA-Z]/.test(d.uvod), JSON.stringify({ futer: d.futer, legal: d.legal, uvod: d.uvod.slice(0, 40) }));
         await c.close();
       }

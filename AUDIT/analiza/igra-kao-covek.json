@@ -1,0 +1,344 @@
+{
+ "nalazi": [
+  {
+   "partija": 0,
+   "igrac": 1,
+   "greska": "tajmer ili igra idu dalje dok se čeka predaja"
+  },
+  {
+   "partija": 0,
+   "greska": "NEREŠENO (130:130) prikazano kao pobeda: „🏆 Igrač 1 130 4✓ 1✗ combo:4x\"",
+   "vrsta": "sadržaj"
+  },
+  {
+   "partija": 0,
+   "greska": "engleska reč na ekranu rezultata: „combo:4x\"",
+   "vrsta": "sadržaj"
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "greska": "tajmer ili igra idu dalje dok se čeka predaja"
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "greska": "tajmer ili igra idu dalje dok se čeka predaja"
+  },
+  {
+   "partija": 1,
+   "greska": "NEREŠENO (130:130) prikazano kao pobeda: „🏆 Igrač 1 130 4✓ 1✗ combo:4x\"",
+   "vrsta": "sadržaj"
+  },
+  {
+   "partija": 1,
+   "greska": "engleska reč na ekranu rezultata: „combo:4x\"",
+   "vrsta": "sadržaj"
+  }
+ ],
+ "dnevnik": [
+  {
+   "partija": 0,
+   "igrac": 1,
+   "potez": 0,
+   "rec": "slabe",
+   "odgovor": "babe",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +25 poena (10s + 1x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 1,
+   "potez": 1,
+   "rec": "naučnici",
+   "odgovor": "predstavnici",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +30 poena (10s + 2x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 1,
+   "potez": 2,
+   "rec": "eparhije",
+   "odgovor": "nije",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +35 poena (10s + 3x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 1,
+   "potez": 3,
+   "rec": "bliže",
+   "odgovor": "stiže",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +40 poena (10s + 4x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 1,
+   "potez": 4,
+   "rec": "zadovoljstva",
+   "odgovor": "koji",
+   "tip": "pogresna",
+   "ishod": "wrong",
+   "poruka": "✗ „koji\" se ne rimuje sa „zadovoljstva\"",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 2,
+   "potez": 0,
+   "rec": "osmeh",
+   "odgovor": "uspeh",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +25 poena (10s + 1x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 2,
+   "potez": 1,
+   "rec": "smatrati",
+   "odgovor": "Imati",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +30 poena (10s + 2x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 2,
+   "potez": 2,
+   "rec": "sistema",
+   "odgovor": "prema",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +35 poena (10s + 3x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 2,
+   "potez": 3,
+   "rec": "očima",
+   "odgovor": "има",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +40 poena (10s + 4x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 0,
+   "igrac": 2,
+   "potez": 4,
+   "rec": "prvo",
+   "odgovor": "koji",
+   "tip": "pogresna",
+   "ishod": "wrong",
+   "poruka": "✗ „koji\" se ne rimuje sa „prvo\"",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "potez": 0,
+   "rec": "grupa",
+   "odgovor": "pristupa",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +25 poena (10s + 1x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "potez": 1,
+   "rec": "određeno",
+   "odgovor": "istovremeno",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +30 poena (10s + 2x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "potez": 2,
+   "rec": "sekretarijat",
+   "odgovor": "projekat",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +35 poena (10s + 3x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "potez": 3,
+   "rec": "naizgled",
+   "odgovor": "pored",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +40 poena (10s + 4x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 1,
+   "potez": 4,
+   "rec": "razlika",
+   "odgovor": "koji",
+   "tip": "pogresna",
+   "ishod": "wrong",
+   "poruka": "✗ „koji\" se ne rimuje sa „razlika\"",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "potez": 0,
+   "rec": "signal",
+   "odgovor": "materijal",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +25 poena (10s + 1x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "potez": 1,
+   "rec": "patrijarha",
+   "odgovor": "Oligarha",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +30 poena (10s + 2x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "potez": 2,
+   "rec": "efekti",
+   "odgovor": "projekti",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +35 poena (10s + 3x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "potez": 3,
+   "rec": "naknade",
+   "odgovor": "владе",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +40 poena (10s + 4x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 2,
+   "potez": 4,
+   "rec": "navodeći",
+   "odgovor": "nije",
+   "tip": "pogresna",
+   "ishod": "wrong",
+   "poruka": "✗ „nije\" se ne rimuje sa „navodeći\"",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 3,
+   "potez": 0,
+   "rec": "rezultati",
+   "odgovor": "imati",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +25 poena (10s + 1x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 3,
+   "potez": 1,
+   "rec": "disciplini",
+   "odgovor": "čini",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +30 poena (10s + 2x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 3,
+   "potez": 2,
+   "rec": "naglašava",
+   "odgovor": "prava",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +35 poena (10s + 3x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 3,
+   "potez": 3,
+   "rec": "zapadne",
+   "odgovor": "Radne",
+   "tip": "savrsena",
+   "ishod": "correct",
+   "poruka": "✓ Tačno! +40 poena (10s + 4x niz)",
+   "sek": 10
+  },
+  {
+   "partija": 1,
+   "igrac": 3,
+   "potez": 4,
+   "rec": "pitanjem",
+   "odgovor": "koji",
+   "tip": "pogresna",
+   "ishod": "wrong",
+   "poruka": "✗ „koji\" se ne rimuje sa „pitanjem\"",
+   "sek": 10
+  }
+ ],
+ "zadate": [
+  "slabe",
+  "naučnici",
+  "eparhije",
+  "bliže",
+  "zadovoljstva",
+  "osmeh",
+  "smatrati",
+  "sistema",
+  "očima",
+  "prvo",
+  "grupa",
+  "određeno",
+  "sekretarijat",
+  "naizgled",
+  "razlika",
+  "signal",
+  "patrijarha",
+  "efekti",
+  "naknade",
+  "navodeći",
+  "rezultati",
+  "disciplini",
+  "naglašava",
+  "zapadne",
+  "pitanjem"
+ ],
+ "konzola": []
+}

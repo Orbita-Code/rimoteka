@@ -295,7 +295,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908e">
+<link rel="stylesheet" href="/style.css?v=20260908f">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908n"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908o"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1986,6 +1986,9 @@ def main():
             s404 = f.read()
         _ver = TOOL_SCRIPT.split('app.js?v=')[1].split('"')[0]
         n404 = re.sub(r'app\.js\?v=[0-9a-z]+', 'app.js?v=' + _ver, s404)
+        _css = re.search(r'style\.css\?v=([0-9a-z]+)', HEAD_TMPL)
+        if _css:
+            n404 = re.sub(r'style\.css\?v=[0-9a-z]+', 'style.css?v=' + _css.group(1), n404)
         if n404 != s404:
             with open(p404, 'w', encoding='utf-8') as f:
                 f.write(n404)

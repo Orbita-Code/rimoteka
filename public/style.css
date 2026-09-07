@@ -663,8 +663,13 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .game-results{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto;text-align:center}
 .game-results-title{font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.8rem;color:var(--lavender-deep);margin:0 0 1.5rem}
 .game-results-list{display:flex;flex-direction:column;gap:.8rem;margin-bottom:1.5rem}
-.game-result-item{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:#f8f0fe;border-radius:14px}
-.game-result-item.winner{background:linear-gradient(95deg,var(--lavender),var(--rose));color:#fff}
+.game-result-item{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.15rem .8rem;padding:1rem;background:#f8f0fe;border-radius:14px}
+.game-result-player{white-space:nowrap}
+@media (max-width:480px){.game-result-details{flex-basis:100%;text-align:left}}   /* na telefonu detalji u svoj red – „Igrač 1" se lomio na dva reda */
+.game-result-item.winner{background:linear-gradient(95deg,var(--lavender),var(--rose));color:#1e1a2e}   /* tamna slova: belo na lavandi je davalo 2,2 */
+.game-result-tie{margin:0 0 .6rem;font-weight:700;color:var(--lavender-deep)}
+.game-achievements{margin-top:1rem;padding:1rem;background:#f8f0fe;border-radius:14px;font-weight:600}
+.game-achievements p{margin:.3rem 0}
 .game-result-player{font-weight:600}
 .game-result-score{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;font-size:1.2rem}
 .game-result-details{font-size:.85rem;opacity:.8}
@@ -2378,6 +2383,9 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 body.dark-mode .game-play,
 body.dark-mode .game-setup,
 body.dark-mode .game-results{background:#1e1a2e}
+body.dark-mode .game-result-item,body.dark-mode .game-achievements{background:#2a2540;color:#e8e6f5}   /* nalaz 08.09.: #f8f0fe pod belim slovima = 1,11 */
+body.dark-mode .game-result-item.winner{background:linear-gradient(95deg,var(--lavender),var(--rose));color:#1e1a2e}   /* pravilo iznad je jače od .winner, pa se preliv ponavlja */
+body.dark-mode .game-result-tie{color:var(--lavender)}
 body.dark-mode .game-word-box{
   background:linear-gradient(140deg,rgba(90,63,208,.24),rgba(38,162,248,.16));
   border-color:rgba(155,134,230,.26);

@@ -74,6 +74,12 @@ for (const tab of ['pretraga', 'slogovi', 'beleznica', 'klasici', 'igra', 'omilj
   if (tab === 'beleznica') { await p.click('#noteEditor'); await p.evaluate(() => { const ed = document.getElementById('noteEditor'); ed.innerHTML = 'Volim te kao sunce<div>ti si moja luda</div>'; ed.dispatchEvent(new InputEvent('input', { bubbles: true })); }); await p.waitForTimeout(1200); }
   if (tab === 'igra') { await p.click('#gameStart').catch(() => {}); await p.waitForTimeout(800); }
   upisi('/ tab ' + tab, await p.evaluate(MERI));
+  if (tab === 'igra') {
+    // ekran predaje i ekran rezultata (nalaz 08.09.: stavke rezultata u tamnoj imale kontrast 1,11)
+    await p.evaluate(() => { gamePlayersData = [{ score: 130, correct: 4, wrong: 1, maxCombo: 4, ishodi: [] }, { score: 130, correct: 3, wrong: 2, maxCombo: 2, ishodi: [] }, { score: 90, correct: 3, wrong: 2, maxCombo: 2, ishodi: [] }]; gamePlayers = 3; gameCurrentPlayerIdx = 1; gameWordsPerPlayer = 5; showHandoff(); });
+    await p.waitForTimeout(200); upisi('/ igra predaja', await p.evaluate(MERI));
+    await p.evaluate(() => { gameMaxCombo = 5; showResults(); }); await p.waitForTimeout(200); upisi('/ igra rezultati', await p.evaluate(MERI));
+  }
 }
 // baner kolačića u tamnoj
 const cb = await browser.newContext({ viewport: { width: 390, height: 780 }, isMobile: true, hasTouch: true });

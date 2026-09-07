@@ -5202,15 +5202,28 @@ function showResults(){
   gameResults.style.display = 'block';
 
   const sorted = gamePlayersData.map((p, i) => ({ ...p, idx: i })).sort((a, b) => b.score - a.score);
+  /* Nerešeno (08.09.2026, partije sa 2–3 igrača): dva igrača sa istim brojem bodova su ranije
+     dobijala „🏆 Igrač 1" – pehar je išao onome ko je igrao prvi. Sad su svi sa najvećim zbirom
+     pobednici, sa 🤝 i natpisom „Nerešeno". Engleska reč „combo" na ekranu za decu → „najduži niz". */
+  const najvise = sorted.length ? sorted[0].score : 0;
+  const pobednika = sorted.filter(p => p.score === najvise).length;
+  const nereseno = sorted.length > 1 && pobednika > 1;
 
   gameResultsList.innerHTML = '';
-  sorted.forEach((p, rank) => {
+  if(nereseno){
+    const t = document.createElement('p');
+    t.className = 'game-result-tie';
+    t.textContent = `🤝 ${uiTxt('Nerešeno!')}`;
+    gameResultsList.appendChild(t);
+  }
+  sorted.forEach((p) => {
+    const pobednik = sorted.length === 1 || p.score === najvise;
     const div = document.createElement('div');
-    div.className = 'game-result-item' + (rank === 0 ? ' winner' : '');
+    div.className = 'game-result-item' + (pobednik ? ' winner' : '');
     div.innerHTML = `
-      <span class="game-result-player">${rank === 0 ? '🏆 ' : ''}Igrač ${p.idx + 1}</span>
+      <span class="game-result-player">${pobednik ? (nereseno ? '🤝 ' : '🏆 ') : ''}${uiTxt('Igrač')} ${p.idx + 1}</span>
       <span class="game-result-score">${p.score}</span>
-      <span class="game-result-details">${p.correct}✓ ${p.wrong}✗ combo:${p.maxCombo}x</span>
+      <span class="game-result-details">${p.correct} ✓ · ${p.wrong} ✗ · ${uiTxt('najduži niz')} ${p.maxCombo}</span>
     `;
     gameResultsList.appendChild(div);
   });
@@ -5222,8 +5235,8 @@ function showResults(){
   if(sorted[0].correct === gameWordsPerPlayer) achievements.push('🎯 Sve tačno, bez greške');
   if(achievements.length > 0){
     const div = document.createElement('div');
-    div.style.cssText = 'margin-top:1rem;padding:1rem;background:#f8f0fe;border-radius:14px;font-weight:600';
-    div.innerHTML = achievements.map(a => `<p style="margin:.3rem 0">${a}</p>`).join('');
+    div.className = 'game-achievements';   // boje iz CSS-a – inline #f8f0fe je u tamnoj temi davao kontrast 1,11
+    div.innerHTML = achievements.map(a => `<p>${uiTxt(a)}</p>`).join('');
     gameResultsList.appendChild(div);
   }
 }

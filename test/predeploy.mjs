@@ -1314,8 +1314,9 @@ async function main() {
         ok(`${put} → tekst strane i česta pitanja prelaze u ćirilicu`,
            cirilica(r.telo) && cirilica(r.faq), `${r.telo.slice(0, 30)} | ${r.faq.slice(0, 30)}`);
         ok(`${put} → logo ostaje netaknut`, r.logo === 'imoteka', r.logo);
-        ok(`${put} → skraćenice ostaju latinicom`,
-           !/ПДФ|АБАБ|ААББ/.test(r.maticniTekst),
+        /* Od 08.09.2026 šema rime IDE u ćirilicu (АБАБ – po srpskim izvorima); prave skraćenice (PDF) ostaju latinicom. */
+        ok(`${put} → PDF ostaje latinicom, a šema rime prelazi u ćirilicu`,
+           !/ПДФ/.test(r.maticniTekst) && !/\bABAB\b|\bAABB\b|\bABBA\b/.test(r.maticniTekst),
            (r.maticniTekst.match(/ПДФ|АБАБ|ААББ/g) || []).join(','));
         /* Adresa se od 03.08.2026. više NE ispisuje – nosi je dugme „Saradnja"
            preko `mailto:`. Provera zato gleda samu adresu u `href`-u: ono zbog

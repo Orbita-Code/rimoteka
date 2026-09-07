@@ -3982,7 +3982,7 @@ function prikaziUputstvoZaTastaturu(){
 const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-orbita, .kbd-help, kbd, code, script, style, noscript, '
   + '#noteEditor, #noteTitle, .ml, #scriptToggle button, textarea, input';
 /* SLOVA ŠEME RIME (A, B, ABAB, AABB…) IDU U ĆIRILICU preslovljavanjem (АБАБ, ЦДЦД) – provereno 08.09.2026 u
-   srpskim izvorima (sr.wikipedia „Сонет": „шемом АББА — АББА — ЦДЦ — ДЦД", „Пантун": „АБАБ шеми",
+   srpskim izvorima (sr.wikipedia „Сонет": „шемом АББА – АББА – ЦДЦ – ДЦД", „Пантун": „АБАБ шеми",
    „Шекспирови сонети": „абаб цдцд ефеф гг"). Zato `.g-letter` i `.vrhyme` više NISU izuzeti, a skraćenica
    od samih slova A–H (šema) se ne štiti od preslovljavanja (PDF, TV, ABC-radio i dalje ostaju latinicom). */
 /* Drugi prolaz skenera (08.09.2026): `.footer-contact` („Za saradnju:") i `select` (opcije pretrage) vraćeni u
@@ -4396,7 +4396,7 @@ function renderKlasici(){
         const word = poemLastWord(l);
         const v = document.createElement('div'); v.className='verse';
         v.innerHTML =
-          `<span class="vsyl" title="slogova u stihu">${lineSyllables(l)}</span>`
+          `<span class="vsyl" title="${uiTxt('slogova u stihu')}">${lineSyllables(l)}</span>`
           + `<span class="vtext">${escapeHtml(dispPoem(l))}</span>`
           /* Slovo šeme rime je OZNAKA, ne dugme (odluka vlasnice 27.08.2026):
              klasici su prave, postojeće pesme – nema smisla tražiti rime za reči

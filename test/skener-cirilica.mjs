@@ -34,7 +34,8 @@ const nalazi = new Map();   // tekst → { gde: Set(strana#kontekst), vrsta }
 function dodaj(tekst, gde, vrsta) {
   let t = tekst.replace(/\s+/g, ' ').trim();
   // skraćenice velikim slovima (PDF, ABAB, TV) i imena firmi su dozvoljeni i UNUTAR teksta
-  const ocisceno = t.replace(/\b[A-ZČĆŽŠĐ]{2,}\b/g, m => /^[A-H]{2,8}$/.test(m) ? m : '')   // šema rime (ABAB) MORA u ćirilicu.replace(/Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|Chrome|Android|iPhone|Wikipedia|Wiktionary|Rimoteka/g, '');
+  // šema rime (ABAB) MORA u ćirilicu; skraćenice i imena firmi se skidaju pre provere
+  const ocisceno = t.replace(/\b[A-ZČĆŽŠĐ]{2,}\b/g, m => /^[A-H]{2,8}$/.test(m) ? m : '').replace(/Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|Chrome|Android|iPhone|Wikipedia|Wiktionary|Rimoteka/g, '');
   if (!t || !LAT.test(ocisceno)) return;
   if (DOZVOLJENO.test(t)) return;
   if (/^[A-ZČĆŽŠĐ0-9 .\-]{2,}$/.test(t)) return;                 // skraćenica velikim slovima
@@ -99,7 +100,7 @@ await skeniraj(c, '/?rec=ljubav#stanja', async (p) => {
   for (const [v, t, g] of await p.evaluate(SKUPI)) dodaj(t, `početna · prijava-hvala · ${g}`, v);
   await p.keyboard.press('Escape');
   // filteri, kvačice, prazno stanje, poruke
-  await p.fill('#rimeInput', 'xqzwptr'); await p.evaluate(() => document.getElementById('rimeBtn').click()); await p.waitForTimeout(400);
+  await p.fill('#rimeInput', 'хжџшђ');   // upit korisnika ćirilicom – da se ne broji kao latinica sajta await p.evaluate(() => document.getElementById('rimeBtn').click()); await p.waitForTimeout(400);
   for (const [v, t, g] of await p.evaluate(SKUPI)) dodaj(t, `početna · nema rime · ${g}`, v);
   await p.fill('#rimeInput', ''); await p.evaluate(() => document.getElementById('rimeBtn').click()); await p.waitForTimeout(300);
   await p.evaluate(() => document.getElementById('kidsToggle').click()); await p.waitForTimeout(300);

@@ -161,8 +161,14 @@ for put in / /sw.js /sw-register.js /app.js /rime-za/ljubav/; do
   zaglavlje "$put" "content-security-policy" "connect-src"
   zaglavlje "$put" "x-content-type-options" "nosniff"
 done
-# S-06: font je na našem serveru, pa CSP više ne sme da otvara vrata Google-ovim serverima za fontove
-if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -qi 'fonts.g'; then echo "  ✗ CSP još dozvoljava fonts.googleapis/gstatic"; PALO=$((PALO+1)); else echo "  ✓ CSP bez Google Fonts (font-src 'self')"; fi
+# S-06: CSP i HTML moraju da se SLAŽU oko Google Fonts. Dok `index.html` još učitava font sa Google-a,
+# CSP mora da ga dozvoli (inače sajt ostane bez fonta); čim ga HTML ne učitava, CSP ga ne sme dozvoliti.
+# Provera je uslovna baš zato što nginx ide u zaseban push, PRE sajta.
+csp_google=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -ci 'fonts.g')
+html_google=$(grep -c 'fonts.googleapis' "$PROJ/public/index.html")
+if [ "$html_google" -gt 0 ] && [ "$csp_google" -eq 0 ]; then echo "  ✗ HTML učitava Google Fonts, a CSP ih zabranjuje — sajt bi ostao bez fonta"; PALO=$((PALO+1));
+elif [ "$html_google" -eq 0 ] && [ "$csp_google" -gt 0 ]; then echo "  ✗ HTML više ne koristi Google Fonts, a CSP ih još dozvoljava (S-06)"; PALO=$((PALO+1));
+else echo "  ✓ CSP i HTML se slažu oko Google Fonts (HTML: $html_google, CSP: $csp_google)"; fi
 n=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/sw.js" | tr -d '\r' | grep -ci '^cache-control:')
 if [ "$n" = "1" ]; then echo "  ✓ /sw.js  tačno jedno Cache-Control zaglavlje"; else echo "  ✗ /sw.js  ima $n Cache-Control zaglavlja (treba 1)"; PALO=$((PALO+1)); fi
 if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -qiE '^server: nginx/[0-9]'; then echo "  ✗ Server zaglavlje otkriva verziju"; PALO=$((PALO+1)); else echo "  ✓ Server zaglavlje ne otkriva verziju"; fi

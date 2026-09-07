@@ -14,9 +14,9 @@
 | Šta | Stanje |
 |---|---|
 | Grana sa svim radom | `fix/audit-0709-drugi-krug` (lokalno; sve komitovano) |
-| `main` na GitHub-u | nginx delovi (HSTS godina, mapa velikih slova, mapa starih adresa) + sve do push 3 (08.09. popodne) |
-| Na sajtu (rimoteka.com) | push 1–3 + nginx (HSTS 31536000, `/rime-za/Beograd/` → 301 mala slova, 404 za nepostojeće); produkcija je na `app.js?v=20260908f` |
-| NIJE na sajtu (čeka push sajta) | SVE od 08.09. uveče: mobilni audit (traka rima na vrhu, kolona 59 px, brojač ne odnosi stranu), ćirilica cele strane, kratka crta, tamna prati sistem, logo 128 px, S-19 tanke strane, S-23 hub sa pretragom, N-13 sanduče (+ `wrangler deploy`), placeholder „nada", legenda vlasnice, digrafi, klasici → brojač, i sve popravke iz 3 agenta |
+| `main` na GitHub-u | = grana, **push 4 objavljen 08.09. u 01:45** (24 commita: mobilni audit, ćirilica cele strane, kratka crta, tamna prati sistem, logo 128 px, S-19, S-23, N-13, legenda, igra I-1…I-5) |
+| Na sajtu (rimoteka.com) | sve gore; produkcija je na `app.js?v=20260908p`, `style.css?v=20260908f`; deploy stigao za 40 s; sanduče `wrangler deploy` urađen (verzija f3e11a0c) |
+| NIJE na sajtu | ništa – čeka se samo odluka vlasnice za tačke iz odeljka 2 |
 | Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) 500 poteza, 0 nalaza; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
 
 **Redosled objave sajta (push 4):** `git push origin fix/audit-0709-drugi-krug:main` (grana je FF na main) →
@@ -27,7 +27,7 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 
 | # | Pitanje | Moj predlog |
 |---|---|---|
-| 1 | **Push sajta na `main`** (push 4) – rekla je „commit sve, push i merge" 08.09. u 23:40, ali test 16 tada još nije bio prošao; push ide tek sa zelenim testom | odmah kad je test zelen, pa `wrangler deploy` |
+| 1 | ~~Push sajta na `main`~~ – **urađeno 08.09. u 01:45** po njenom „javi kad prođe pa pushuj"; testovi protiv produkcije: v. dnevnik sesije ispod | – |
 | 2 | **Igra: opcija od 5 sekundi** – tražila je 100 partija „od 5, 10, 15 s", a igra nudi 10/15/20/30 | dodati „5 s" kao opciju |
 | 3 | **Logo 128 px** – primenjeno po njenom „da"; ali logo se crta na 70 px, pa je na iPhone-u (3×) blago mekši; 224 px = 67 KB oštar svuda | 224 px |
 | 4 | **Rimoteka Pro** (skriveni prozor pretplate): „Римотека Про" ili „Pro" latinicom | „Pro" latinicom (ime proizvoda) |

@@ -528,9 +528,11 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Stanje na 08.09.2026:** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga i **objavljeno
-08.09.** (dva pusha; produkcija `app.js?v=20260908e`, test protiv produkcije 791/791). Otvoreno: A6/V2/V3 visoko, S-18/S-19/S-22/S-23 srednje, N-06/N-11–N-19 nisko.
-Izvor istine: `AUDIT/NALAZI-OTVORENI.md`, odeljak „STANJE NA DAN 08.09.2026".
+**Stanje na 08.09.2026 (posle push 4, 01:45):** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga, pa
+**mobilni audit** (MOB-1…6 + agenti), **ćirilica cele strane**, **igra** (I-1 rupa u bodovanju, I-2…I-5) – sve objavljeno
+(produkcija `app.js?v=20260908p`; lokalni test 834/834, motori 55/55, skeneri 0, igra 100 partija 0 + 12 partija sa 2–3
+igrača 0). Otvoreno: V2 sinonimi (čeka pregled), S-18 (meri se u GSC 22.09.), I-6 bazen reči igre (čeka odluku), A-R4/A-R6
+nisko, N-06/N-11–N-19 nisko. Izvor istine: `AUDIT/NALAZI-OTVORENI.md`.
 
 > Stanje od 07.09. (ispod) zadržano je samo za istoriju.
 

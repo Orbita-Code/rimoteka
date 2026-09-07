@@ -35,6 +35,28 @@
 25. **Analitika:** agent `analitika` — zakazano 8. 9. (naslovi od 26. 8.; CTR početne 2,5 % → cilj >4 %; upit „rime" 0 klikova → cilj ≥10) + **klikovi sa `?rec=` adresa** (odluka o politici `?rec=` bez tog broja je nagađanje). Od 06.09. GA broji samo one koji prihvate kolačiće — brojeve pre i posle ne porediti.
 26. **Search Console:** posle svake objave `osascript scripts/gsc-zatrazi-indeksiranje.applescript <adresa>` za nove/izmenjene strane (kvota ~10 dnevno); pratiti „Discovered – not indexed" (1.123 na 04.09.).
 
+## 2a. INOVACIJA — RIME PO NAGLASKU (zapisano 08.09.2026, predlog prihvaćen za spisak)
+
+**Šta:** prava rima počinje od poslednjeg **naglašenog** samoglasnika, a Rimoteka to danas ne zna
+(nema podatke o akcentu), pa umesto toga koristi „isti broj slogova" kao zamenu (CLAUDE.md 6.2a).
+Sa akcentima bi „Najbolje rime" bile one koje se poklapaju od naglaska — kako pesnik i čuje rimu.
+Niko na srpskom to nema (rimovanje.com, azrhymes, igrarecima — provereno u `COMPETITIVE-ANALYSIS.md`).
+
+**Odakle podaci:** Rečnik Matice srpske (`~/Literatura/recnik-matice-srpske-2011.txt`) nosi
+akcentovane odrednice. **Prvi korak je provera, ne kod:** uzeti 200 nasumičnih odrednica i prebrojati
+kod koliko je akcenat sačuvan posle skeniranja (znak nad samoglasnikom prisutan i na pravom mestu).
+Ako je ispod ~80 %, izvor ne valja i traži se drugi (srLex nema akcente; `hjp`/`Vukajlija` ne;
+kandidat: Pravopisni rečnik ili ručno za najčešćih 5.000 reči).
+
+**Kako bi radilo:** za reč sa poznatim naglaskom ključ rime = od naglašenog samoglasnika do kraja;
+za reč bez podatka ostaje današnje pravilo. Grupa „Najbolje rime" = poklapanje od naglaska; „Dobre" =
+poklapanje od pretposlednjeg samoglasnika (današnji ključ). Statičke strane se regenerišu istim kodom
+(K1 pouka: alat i generator računaju isto).
+
+**Redosled:** posle S-18/S-19 (indeksiranje je veći problem od kvaliteta rime — vidi GSC 1.123
+„otkriveno, nije indeksirano"). Pre pisanja koda: proba na 200 odrednica + spisak 50 reči gde bi se
+redosled promenio, na pregled vlasnici.
+
 ## 3. ČEKA ODLUKU VLASNICE (ne raditi bez „da")
 
 - **A6** logo 298 KB → 24 KB (128 px verzija; izgled isti) — pravilo „logo se ne dira".

@@ -1903,7 +1903,7 @@ async function main() {
          `h3=${r17.h3} h2=${r17.h2.length}`);
       ok('S3 naslov grupe rima prelazi u ćirilicu',
          /[А-Яа-яЂђЈјЉљЊњЋћЏџШш]/.test(r17.h2[0] || ''), r17.h2[0]);
-      ok('S3 legenda prelazi u ćirilicu', /број слогова/i.test(r17.legenda), r17.legenda.slice(0, 60));
+      ok('S3 legenda prelazi u ćirilicu', /кружићу.*слогова/i.test(r17.legenda) && !/[a-zA-Z]/.test(r17.legenda.replace(/^2/, '')), r17.legenda.slice(0, 60));
 
       await p17.fill('#rimeInput', '');
       await p17.type('#rimeInput', 'сунце', { delay: 20 });   // kurirana reč (sinonimi su kurirani od 20.08.)

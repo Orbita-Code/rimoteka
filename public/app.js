@@ -1868,6 +1868,17 @@ function updateSyl(){
 }
 
 sylInput.addEventListener('input', updateSyl);
+/* Tekst u brojaču se pamti za ovu karticu (F5 ga ne briše – mobilni audit 08.09.2026, nalaz 7) i prima se
+   pesma poslata sa statičke /klasici/. `sessionStorage`, ne `localStorage`: brojač je alat za nalepljen tekst,
+   a ne beležnica; posle zatvaranja kartice tekst ne treba da ostane. */
+if(!sylInput.__noop){
+  sylInput.addEventListener('input', () => ssSet('rimoteka_slogovi', sylInput.value));
+  try{
+    const izKlasika = ssGet('rimoteka_slogovi_tekst');
+    if(izKlasika){ ssDel('rimoteka_slogovi_tekst'); sylInput.value = izKlasika; updateSyl(); ssSet('rimoteka_slogovi', izKlasika); }
+    else if(!sylInput.value && ssGet('rimoteka_slogovi')){ sylInput.value = ssGet('rimoteka_slogovi'); updateSyl(); }
+  }catch(e){}
+}
 sylInput.addEventListener('scroll', () => {
   if(!sylGutterInner.__noop) sylGutterInner.style.transform = `translateY(${-sylInput.scrollTop}px)`;
 });
@@ -4400,8 +4411,13 @@ function renderKlasici(){
     const foot = document.createElement('div'); foot.className='poem-foot';
     const nm = SCHEME_NAMES[firstScheme];
     foot.innerHTML = `<span class="poem-scheme">${uiTxt('Šema rime (1. strofa)')}: <b>${uiTxt(firstScheme||'–')}</b>${nm?' · '+uiTxt(nm):''}</span> · `;
-    const btn = document.createElement('button'); btn.className='link-btn'; btn.textContent='prebaci u brojač slogova';
-    btn.onclick = ()=>{ sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'}); };
+    const btn = document.createElement('button'); btn.className='link-btn'; btn.textContent=uiTxt('prebaci u brojač slogova');
+    btn.onclick = ()=>{
+      /* Na statičkoj /klasici/ nema brojača (mobilni audit 08.09.2026: `sylInput.dispatchEvent is not a function`) –
+         pesma se preda kroz sessionStorage i otvori se /slogovi/, koja je pročita pri učitavanju. */
+      if(sylInput.__noop){ ssSet('rimoteka_slogovi_tekst', dispPoem(p.text)); location.href = '/slogovi/'; return; }
+      sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'});
+    };
     foot.appendChild(btn);
     card.appendChild(foot);
     box.appendChild(card);
@@ -5367,6 +5383,10 @@ bootstrap();
   const broj = document.querySelector('.hub-broj');
   const norm = w => toLatin(w.toLowerCase()).trim();
   linkovi.forEach(a => { a.dataset.n = norm(a.textContent); });
+  /* Dodir na slovo azbuke ne sme da sakrije naslov i prvih 30 linkova ispod lepljivog bloka (mobilni audit 08.09.2026). */
+  const alat = document.querySelector('.hub-alat');
+  const podesiOdmak = () => { if(alat) document.documentElement.style.scrollPaddingTop = (alat.offsetHeight + 8) + 'px'; };
+  podesiOdmak(); window.addEventListener('resize', podesiOdmak);
   let t = null;
   polje.addEventListener('input', () => {
     clearTimeout(t);

@@ -1,6 +1,6 @@
 /* IGRA RIMOVANJA — 100 PARTIJA KAO DETE KOJE IGRA (zahtev vlasnice 08.09.2026).
  *
- * Na telefonu (390×844, dodir), po 33–34 partije sa 5, 10 i 15 sekundi po reči, 1 igrač, 5 reči.
+ * Na telefonu (390×844, dodir), po 33–34 partije sa 10, 15 i 20 sekundi po reči, 1 igrač, 5 reči (5 s ne postoji u igri).
  * U svakoj partiji naizmenično: TAČNA rima (reč iz rečnika sa istim ključem rime), POGREŠNA reč
  * (postoji, ne rimuje se), NEPOSTOJEĆA reč, ISTA reč, i jedno puštanje da vreme istekne.
  * Za svaki potez se beleži šta je igra rekla i da li je to tačno. Na kraju: rezultat mora da se
@@ -27,10 +27,12 @@ await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250
 await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {});
 
 const nalazi = []; const potezi = { tacna: 0, pogresna: 0, nepostojeca: 0, ista: 0, istek: 0 };
-const vremena = [5, 10, 15];
+const vremena = [10, 15, 20];   // igra nema 5 s (nudi 10/15/20/30) – vlasnica pitana da li da se doda
 for (let g = 0; g < PARTIJA; g++) {
   const t = vremena[g % 3];
   await p.evaluate((t) => { document.querySelectorAll('#gameTime .game-option').forEach(b => { if (+b.dataset.value === t) b.click(); }); document.querySelectorAll('#gameWords .game-option').forEach(b => { if (+b.dataset.value === 5) b.click(); }); document.querySelectorAll('#gamePlayers .game-option').forEach(b => { if (+b.dataset.value === 1) b.click(); }); }, t);
+  const izabrano = await p.evaluate(() => +((document.querySelector('#gameTime .game-option.active') || {}).dataset || {}).value);
+  if (izabrano !== t) nalazi.push({ partija: g, greska: `opcija ${t} s se nije izabrala (aktivno ${izabrano})` });
   await p.tap('#gameStart').catch(async () => { await p.evaluate(() => document.getElementById('gameStart').click()); });
   await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && document.getElementById('gameWord').textContent !== '...', null, { timeout: 10000 }).catch(() => nalazi.push({ partija: g, greska: 'igra nije počela' }));
   let ocekivano = 0;

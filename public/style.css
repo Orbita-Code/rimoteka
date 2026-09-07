@@ -3060,3 +3060,14 @@ body.dark-mode .loose-toggle,body.dark-mode .nr-more{border-color:#7a71a8}
   .syl-filter{display:flex;width:100%}
   .syl-filter button{flex:1 1 0;min-width:0;text-align:center}
 }
+/* Mobilni audit 08.09.2026 (ostali tabovi i strane): lepljivi blok na spisku strana zauzimao 29–34 % ekrana; ciljevi
+   ispod 44 px (opcije igre 42, prekidač pisma 40, „Kopiraj sve rime" 40); brojevi slogova 9,9–10,4 px. */
+@media(max-width:560px){
+  .hub-alat{padding:.35rem 0 .3rem}
+  .hub-pretraga{padding:.45rem .7rem;font-size:.95rem;margin:0 0 .35rem}
+  .hub-azbuka{gap:.25rem}
+  .hub-azbuka a{padding:.05rem .4rem;font-size:.88rem;min-height:30px;display:inline-flex;align-items:center}
+  .game-option,.script-toggle button,.copy-all-btn{min-height:44px}
+  .results > .chip .syl{font-size:max(.7rem,11px)}
+  .verse .vsyl{font-size:max(.76rem,11px)}
+}

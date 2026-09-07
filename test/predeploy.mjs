@@ -5844,7 +5844,7 @@ async function main() {
         const t1 = await p.evaluate(() => { const t = document.getElementById('deftip'); return { vidljiv: !!t && t.style.display === 'block', role: t && t.getAttribute('role') }; });
         ok('S-15 · oblačić značenja otvoren tastaturom ima role=tooltip', t1.vidljiv && t1.role === 'tooltip', JSON.stringify(t1));
         await p.keyboard.press('Escape'); await pauza(150);
-        ok('S-15 · Escape zatvara oblačić', await p.evaluate(() => document.getElementById('deftip').style.display === 'none'));
+        ok('S-15 · Escape zatvara oblačić', await p.evaluate(() => { const t = document.getElementById('deftip'); return !!t && t.style.display === 'none'; }));
         // N-01: „Pošalji" i „Prihvati sve" imaju ISTI gradijent kao „Nađi rime" (izmereno ≥4,9 za belo slovo)
         await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).hover(); await pauza(400);
         await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
@@ -5990,7 +5990,7 @@ async function main() {
         await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + put, { waitUntil: 'domcontentloaded' }); await pauza(500);
-        if (put === '/') await p.evaluate(() => { document.activeElement && document.activeElement.blur(); document.querySelector('.skip-link').focus(); });
+        if (put === '/') await p.evaluate(() => { document.activeElement && document.activeElement.blur(); const sl = document.querySelector('.skip-link'); if (sl) sl.focus(); });   // na starom kodu nema skip-linka — provera pada, ne ruši test
         else await p.keyboard.press('Tab');
         await pauza(150);
         const s25 = await p.evaluate(() => { const a = document.activeElement; const r = a.getBoundingClientRect();

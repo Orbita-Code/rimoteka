@@ -5788,8 +5788,14 @@ async function main() {
         ok('S-10 · linkovi u futeru ≥ 44 px (bilo 16–19)', mini(mere.futer) >= 44 && mere.futer.length > 20, `min ${mini(mere.futer)} od ${mere.futer.length}`);
         ok('S-10 · link „Kolačići" ≥ 44 px (bio 16)', mini(mere.kolacici) >= 44, `${mere.kolacici}`);
         // prijava na telefonu: opcije i „Pošalji" ≥ 44; sa tastaturom prozorčić iznad nje (S-12)
+        /* Na produkciji učestalost stiže 1–3 s posle rezultata i rezultati se TIHO ponovo iscrtaju — traka
+           koju je test otvorio nestane (ista trka kao u sekciji 49). Zato se čeka učestalost, a tap na traku
+           je u try/catch: ako traka nije tu, provere PADNU, test se ne ruši (pao na produkciji 08.09.). */
+        await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
+        await pauza(600);
         const cip = p.locator('#rimeResults .chip').nth(1); await cip.scrollIntoViewIfNeeded(); await cip.tap(); await pauza(400);
-        await p.tap('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
+        try { await p.tap('.chip-actions .ca-btn[data-act="prijavi"]', { timeout: 8000 }); } catch (e) { console.log('  ↻ traka nije bila vidljiva, ponavljam dodir'); await cip.tap(); await pauza(500); await p.tap('.chip-actions .ca-btn[data-act="prijavi"]', { timeout: 8000 }).catch(() => {}); }
+        await pauza(500);
         const pr = await p.evaluate(async () => {
           const h = sel => [...document.querySelectorAll(sel)].map(e => Math.round(e.getBoundingClientRect().height));
           const opcije = h('.prijava-opcija'), posalji = h('.prijava-posalji');
@@ -5905,7 +5911,7 @@ async function main() {
         const href = await cip.getAttribute('href'); await cip.tap(); await pauza(500);
         const s8m = await pm.evaluate(() => ({ put: location.pathname, traka: !!document.querySelector('.chip-actions') && !document.querySelector('.chip-actions').hidden }));
         ok('S-08 · telefon: dodir na reč otvara traku umesto da odmah ode na drugu stranu', s8m.put === '/rime-za/ljubav/' && s8m.traka, JSON.stringify(s8m));
-        await pm.tap('.chip-actions .ca-btn[data-act="rime"]'); await pauza(1500);
+        await pm.tap('.chip-actions .ca-btn[data-act="rime"]', { timeout: 8000 }).catch(() => {}); await pauza(1500);
         ok('S-08 · telefon: „nađi rime" iz trake vodi na stranu te reči', (await pm.evaluate(() => location.pathname)) === href, `${await pm.evaluate(() => location.pathname)} ≠ ${href}`);
         await cm.close();
         // S-09: ćirilica prebacuje futer, napomenu uz srodne reči i naslove kapsula

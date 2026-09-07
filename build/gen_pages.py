@@ -295,7 +295,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=3"></script>
-<link rel="stylesheet" href="/style.css?v=20260908b">
+<link rel="stylesheet" href="/style.css?v=20260908c">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -451,7 +451,7 @@ def rhyme_link(rword, target_slugs):
 # (tabovi, beležnica, igra) samo tiho ne rade.
 TOOL_HTML = """  <div class="landing-tool">
     <div class="search-row">
-      <input type="text" id="rimeInput" placeholder="upiši reč (npr. svet)" autocomplete="off" spellcheck="false">
+      <input type="text" id="rimeInput" placeholder="upiši reč (npr. nada)" autocomplete="off" spellcheck="false">
       <button id="rimeBtn" class="primary">Nađi rime</button>
       <button id="randomBtn" class="ghost" title="Slučajna reč za inspiraciju">🎲</button>
     </div>
@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908g"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908h"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -964,7 +964,9 @@ def main():
     try:
         with open(OTISCI_PUT, encoding='utf-8') as f:
             OTISCI = _json.load(f)
-    except Exception:
+    except Exception as _e:
+        # Nalaz N-06 (07.09.2026): bez ovoga bi svaka strana tiho dobila današnji datum u sitemapu.
+        print(f'UPOZORENJE: build/strane-otisci.json nije učitan ({_e}) — sve strane će dobiti današnji lastmod!')
         OTISCI = {}
     lastmod_stat = {'isto': 0, 'promenjeno': 0, 'novo': 0}
     def lastmod_za(url, html):
@@ -1148,14 +1150,21 @@ def main():
         # Gugl prikazuje oko 155; sve preko toga preseca usred spiska.
         _rep = (f' — ukupno {len(all_r)} {rec_word(len(all_r))}. '
                 f'Uz svaku piše broj slogova i šta znači.')
+        # Opis počinje rečju (nalaz N-11, 08.09.2026): dve strane sa istim rimama (zeka/deka,
+        # Portugalija/Australija) imale su OD REČI DO REČI isti opis. Kratak opis (reči sa malo rima)
+        # dobija još jednu rečenicu, da ne bude ispod 110 znakova.
+        _glava = f'Sa „{t}“ se rimuju: '
         _primeri = []
         for _w in all_r[:8]:
             _kandidat = _primeri + [_w]
-            if len('Rimuju se: ') + len(', '.join(_kandidat)) + len(_rep) > 158:
+            if len(_glava) + len(', '.join(_kandidat)) + len(_rep) > 158:
                 break
             _primeri = _kandidat
-        desc = (f'Rimuju se: {", ".join(_primeri)}{_rep}' if _primeri
+        desc = (f'{_glava}{", ".join(_primeri)}{_rep}' if _primeri
                 else f'Rime za „{t}“{_rep}')
+        if len(desc) < 115:
+            desc += ' Ispod su i bliske rime.'
+
         ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 
@@ -1253,6 +1262,13 @@ def main():
               + '  → svaka od ovih adresa mora u nginx-stare-strane.map (301 na hub)')
     with open(os.path.join(PUB, 'rime-strane.json'), 'w', encoding='utf-8') as f:
         json.dump(sorted(target_slugs), f, ensure_ascii=False)
+    # S9 (audit 20.08.2026): `/rime-za/Beograd/` je davao 301 na hub (od 08.09. čak 404), a `/rime-za/beograd/`
+    # postoji. nginx `map` poredi BEZ razlike velikih i malih slova, pa mapa „svaka strana → ona sama"
+    # svaku varijantu sa velikim slovom vraća na pravu adresu (301). Fajl kopira Dockerfile.
+    with open(os.path.join(HERE, '..', 'nginx-strane-mala.map'), 'w', encoding='utf-8') as f:
+        f.write('# GENERISANO (build/gen_pages.py, S9): adresa strane → ista adresa; nginx map ne razlikuje velika i mala slova\n')
+        for _sl in sorted(target_slugs):
+            f.write(f'/rime-za/{_sl}/ /rime-za/{_sl}/;\n')
 
     # ---- S-18: upis strana sa susedima po azbuci (kružno: prva i poslednja su susedi) ----
     AZBUKA = 'abcčćdđefghijklmnoprsštuvzž'

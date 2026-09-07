@@ -15,18 +15,12 @@
 
 ## 1. ODMAH POSLE OBJAVE
 
-1. **V3 — HSTS na godinu** (`max-age=31536000`) kad prođe par dana bez problema sa 300 s. Zaseban nginx deploy.
 4. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; stare adrese dodati u `nginx-stare-strane.map` (301 na hub).
-5. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3× (`node test/meri-cls.mjs`) sad kad je font na našem serveru; po potrebi `font-display:optional` za hub.
-6. **N-06** upozorenje kad `strane-otisci.json` fali · **N-11** 30 opisa ispod 110 znakova, 2 para duplih · **N-16** filter „5+" u drugi red na 320 · **N-17** `aria-describedby` u prijavi · **N-19** 53 % unosa su uputnice „Oblik reči X".
-7. **Sanduče za prijave:** dnevni mejl na `eureka@` sa novim prijavama (cron na Hetzneru + Gmail SMTP iz `server-guard.sh`); atomičan brojač; honeypot bez `proba:true` u odgovoru; ključ pregleda u zaglavlju umesto u URL-u (N-13).
-8. **Brzina, ostalo:** brotli prednost nad gzip-om (~45 KB po prvoj poseti, N-14); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME); rime na sporoj mreži izmeriti PRE i POSLE preload-a (`emulateNetworkConditions`, cilj ≤4 s).
+7. **Sanduče za prijave:** dnevni mejl na `eureka@` sa novim prijavama (cron na Hetzneru + Gmail SMTP iz `server-guard.sh`). N-13 urađen u kodu 08.09. — **`cd worker && npx wrangler deploy` čeka „da"**.
+8. **Brzina, ostalo:** brotli NIJE moguć u `nginx:alpine` (nema modul; N-14 ostaje dok se ne promeni slika servera); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME); rime na sporoj mreži izmeriti PRE i POSLE preload-a (`emulateNetworkConditions`, cilj ≤4 s).
 
 ## 2. OVOG MESECA — struktura i brzina
 
-21. **S-22 — hub CLS 0,126 na sporoj mreži** (1 merenje): izmeriti 3×, po potrebi `font-display:optional` za hub.
-22. **Brzina, ostalo:** brotli prednost nad gzip-om (~45 KB po prvoj poseti); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME).
-23. **Sanduče za prijave:** dnevni mejl na `eureka@` sa novim prijavama (cron na Hetzneru + Gmail SMTP iz `server-guard.sh`); atomičan brojač; honeypot bez `proba:true` u odgovoru; ključ pregleda u zaglavlju umesto u URL-u.
 24. **Test — rupe iz audita:** ćirilica × telefon, dečji × telefon, širina 320 u svim mobilnim sekcijama; rubni unosi (prazno+klik, razmaci, 200 znakova, `<script>`, mešano pismo) u `#rimeInput`; zameniti `pauza(N)` posle mrežnih koraka čekanjem na stanje (202 : 61); provere za zatvorene nalaze T4, T8–T14, R1, P10; drugi dolazak kroz SW.
 25. **Analitika:** agent `analitika` — zakazano 8. 9. (naslovi od 26. 8.; CTR početne 2,5 % → cilj >4 %; upit „rime" 0 klikova → cilj ≥10) + **klikovi sa `?rec=` adresa** (odluka o politici `?rec=` bez tog broja je nagađanje). Od 06.09. GA broji samo one koji prihvate kolačiće — brojeve pre i posle ne porediti.
 26. **Search Console:** posle svake objave `osascript scripts/gsc-zatrazi-indeksiranje.applescript <adresa>` za nove/izmenjene strane (kvota ~10 dnevno); pratiti „Discovered – not indexed" (1.123 na 04.09.).
@@ -56,7 +50,6 @@ redosled promenio, na pregled vlasnici.
 ## 3. ČEKA ODLUKU VLASNICE (ne raditi bez „da")
 
 - **A6** logo 298 KB → 24 KB (128 px verzija; izgled isti) — pravilo „logo se ne dira".
-- **P11 / S-23** izgled huba `/rime-za/` (16.153 px, lepljiva azbuka, pretraga) — od 29.07.
 - **N-18** 38 zareza ispred „pa" (kućno pravilo; Pravopis dozvoljava).
 - **Politika `?rec=`** (15.500 indeksiranih dinamičkih adresa guše 1.991 statičkih) — posle brojeva iz GSC.
 - **S6** jedan red rima u beležnici na telefonu (nameran; 3 od 16 vidljivo).

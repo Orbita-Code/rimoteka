@@ -326,7 +326,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak — izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=4c98e124';
+const DEFINICIJE_ADRESA = '/definicije.json?v=a129b175';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -394,7 +394,7 @@ async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
   const [ek, jek] = await Promise.all([
     uzmiTekst('/reci.txt?v=c233afa9', true),
-    uzmiTekst('/reci_jekavica.txt?v=1e9eef37', false)
+    uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -449,7 +449,7 @@ async function loadDict(){
 async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
-      fetch('/frekvencija.json?v=1bfe729c').then(r=>r.json()).catch(()=> ({})),
+      fetch('/frekvencija.json?v=e1f29b29').then(r=>r.json()).catch(()=> ({})),
       fetch('/sinonimi.json?v=63a1faae').then(r=>r.json()).catch(()=> ({})),
       /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
@@ -5317,6 +5317,8 @@ function otvoriPrijavu(rec, anchor){
   box.setAttribute('role', 'dialog');
   box.setAttribute('aria-modal', 'true');
   box.setAttribute('aria-label', uiTxt('Prijavi grešku'));
+  box.setAttribute('aria-labelledby', 'prijava-naslov');      // nalaz N-17 (07.09.2026)
+  box.setAttribute('aria-describedby', 'prijava-opis');
   prijavaSidro = anchor || null;
   const opcije = PRIJAVA_RAZLOZI
     .filter(([k]) => k !== 'ne-rimuje-se' || (upit && upit !== rec.toLowerCase()))
@@ -5327,11 +5329,11 @@ function otvoriPrijavu(rec, anchor){
       return `<label class="prijava-opcija${i === 0 ? ' on' : ''}"><input type="radio" name="prijava-razlog" value="${k}"${i === 0 ? ' checked' : ''}><i></i>${tekst}</label>`;
     }).join('');
   box.innerHTML =
-    `<h3 class="prijava-naslov">${uiTxt('Šta ne valja kod reči')} „<b>${escapeHtml(disp(rec))}</b>“?</h3>` +
+    `<h3 class="prijava-naslov" id="prijava-naslov">${uiTxt('Šta ne valja kod reči')} „<b>${escapeHtml(disp(rec))}</b>“?</h3>` +
     opcije +
     `<textarea class="prijava-napomena" rows="2" maxlength="500" placeholder="${uiTxt('Napomena (nije obavezno)')}"></textarea>` +
     `<input type="text" class="prijava-mejl" name="mejl" tabindex="-1" autocomplete="off" aria-hidden="true">` +
-    `<div class="prijava-red"><small class="prijava-napomena-tekst">${uiTxt('Poruka je anonimna.')}<br>${uiTxt('Hvala što pomažeš da Rimoteka bude tačna.')}</small>` +
+    `<div class="prijava-red"><small class="prijava-napomena-tekst" id="prijava-opis">${uiTxt('Poruka je anonimna.')}<br>${uiTxt('Hvala što pomažeš da Rimoteka bude tačna.')}</small>` +
     `<button type="button" class="prijava-posalji">${uiTxt('Pošalji')}</button></div>`;
   if(telefon){
     prijavaZavesa = document.createElement('div');

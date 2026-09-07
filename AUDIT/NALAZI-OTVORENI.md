@@ -34,9 +34,10 @@ ocena se ne prepisuje bez merenja). Test lokalno 808 (posle S-18 i sekcije 54), 
 **Zatvoreno 07–08.09. (drugi i treći krug, grana `fix/audit-0709-drugi-krug`):** A4, A5, S-03, S-04, S-06, S-08,
 S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, S-20, S-24, S-25, S-26, N-01, N-02, N-03, N-04, N-05, N-08, N-09,
 N-10, N-R1 — detalji u odeljku „ZATVORENO 08.09.2026" niže.
-**Ostaje otvoreno:** visoko A6 (logo — odluka vlasnice), V2 (sinonimi — pregled sa vlasnicom), V3 (HSTS je 300 s —
-podići na godinu posle par dana bez problema); srednje S-22 (hub CLS, 1 merenje), S-23/P11
-(hub — odluka), S2, S3, S4, S6 (odluka), S9; nisko N-06, N-11–N-19 (N-18 odluka). **S-18 i S-19 zatvoreni 08.09.**
+**Ostaje otvoreno:** visoko A6 (logo — odluka vlasnice), V2 (sinonimi — pregled sa vlasnicom); srednje S6 (odluka: jedan
+red rima u beležnici na telefonu); nisko N-14 (nije moguće u nginx:alpine), N-18 (odluka: zarez ispred „pa"). S-23, S3, S4
+i N-13 zatvoreni 08.09. (N-13 čeka deploy workera). **Zatvoreno 08.09.:** S-18,
+S-19, V3, S9, S-22, S2, N-06, N-11, N-16, N-17; N-19 povučen odlukom vlasnice.
 
 ### ZATVORENO 08.09.2026 — DRUGI I TREĆI KRUG (27 nalaza)
 
@@ -78,6 +79,31 @@ podići na godinu posle par dana bez problema); srednje S-22 (hub CLS, 1 merenje
 Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom prolazu kroz sve reči.
 
 | S-19 | 6 strana sa 3–4 prave rime (bukurest, konkurs, krv, kurs, vec, vrh) + 18 sa 5–7 | prag 5 pravih rima (ne 8 — ispod 8 bi ispale sunce, zvezda, tekst, park, cilj; vlasnici ponuđeno da vrati na 8): 6 strana ukinuto, adrese u `nginx-stare-strane.map` (301 na hub), izbačene iz `rime-strane.json` (v=2), nijedan link ka njima (provera mrtvih linkova) | 50 (S-19 ×3) + nginx-provera (`/rime-za/krv/` → 301) |
+
+### ZATVORENO 08.09.2026 — četvrti krug (odluka vlasnice: „sve se slažem da kreneš odmah jedno po jedno")
+
+| # | Šta je bilo | Šta je sada | Provera |
+|---|---|---|---|
+| V3 | HSTS 300 s (od 07.09.) | **godinu** (31536000) — ništa nije puklo za dan | nginx-provera 5 |
+| S9 | `/rime-za/Beograd/` → 301 na hub (od 08.09. čak 404), a `/rime-za/beograd/` postoji | mapa „svaka strana → ona sama" (`nginx-strane-mala.map`, pravi je generator; nginx `map` ne razlikuje velika i mala slova) → 301 na pravu adresu | nginx-provera: `/rime-za/Srce/`, `/rime-za/SRCE/` → `/rime-za/srce/` |
+| S-22 | hub CLS 0,126 na sporoj mreži (1 merenje) | **izmereno 3× na produkciji posle fontova sa našeg servera: 0 · 0 · 0** (brza veza; `meri-cls.mjs` sad prima `PUTANJE=`) | meri-cls |
+| S2 | „Sve … N reči" a strana crta i bliske | zatvoreno sa N-08 („N pravih rima · još M bliskih") | 50 |
+| N-06 | generator ćuti kad `strane-otisci.json` fali | ispisuje UPOZORENJE | — |
+| N-11 | 24 opisa <110 znakova, 2 para istih opisa (zeka/deka, Portugalija/Australija) | opis počinje rečju („Sa „zeka“ se rimuju: …"), kratak dobija rečenicu; **0 kratkih, 0 duplih** (prebrojano na svim stranama) | — |
+| N-16 | 320 px: „5+" u drugom redu (263 od 262 px), kvačice u 3 reda | filteri 198 px u jednom redu; kvačice 153+140+107 → 2 reda | izmereno u pregledaču |
+| N-17 | prijava bez `aria-labelledby`/`aria-describedby` (traka je već imala ime, `role=toolbar`) | dodato oboje (naslov + „Poruka je anonimna…") | izmereno |
+| placeholder | „npr. svet" (13 najboljih rima) | „npr. nada" (32 najbolje + 90 dobrih; izmereno, v. `AUDIT/analiza/istraga-strane-reci.md`) | — |
+
+| S3 | „4.119 reči bez objašnjenja" (20.08.) | **izmereno 08.09.: 0 reči bez objašnjenja** u oba rečnika (279.988 + 5.340) — zatvoreno ranijim radom, spisak nije bio osvežen | test 54 |
+| S4 | tisuća/tisuće/tisuću, kruh/kruha, mrkva (hrvatske, samo u ijekavskom fajlu) | **izbačene po odluci vlasnice 08.09.** iz `reci_jekavica.txt`, `definicije.json`, `frekvencija.json`; verzije osvežene | 41, 54 |
+| N-13 | sanduče: `proba:true` odavao zamku, KV brojač neatomičan, ključ u adresi | zamka odgovara kao pravi zahtev; brojač ukinut (broji se iz spiska ključeva); ključ u zaglavlju `X-Kljuc` (`?kljuc=` samo za HTML pregled) — **čeka `wrangler deploy`** | 46 |
+| S-23/P11 | hub 16.000 px, azbuka nije lepljiva, nema pretrage | azbuka + polje „nađi reč u spisku" lepljivi na vrhu; pretraga filtrira 1.985 linkova (i ćirilicom), prazna slova nestaju, poruka kad nema | 55 |
+
+**Odluke vlasnice 08.09.:** N-19 („Oblik reči X" u objašnjenjima) **ostaje — to je dobro, možda nema drugog
+objašnjenja**; nije nalaz. **Nije moguće bez nove slike servera:** N-14 brotli (nginx:alpine nema brotli modul —
+ostaje gzip). **Čeka odluku:** S4 — u ijekavskom fajlu sede i 3 hrvatske reči bez ijekavskog oblika (tisuća/tisuće/
+tisuću, kruh/kruha, mrkva); „perje" je legitimna ekavska reč koju ekavski korisnik ne vidi jer sadrži „je" — širi
+pregled traži ručno čitanje 5.346 reči.
 
 **Odluka vlasnice 07.09.2026 (baner):** tekst „Koristimo kolačiće kako bismo poboljšali vaše iskustvo na našem
 sajtu."; prihvatanje 1 klik, odbijanje kroz „Podesi" namerno; EU/GDPR se na ovom sajtu ne pominje (globalni

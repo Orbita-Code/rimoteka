@@ -46,11 +46,13 @@ cp "$PROJ/public/rime-po-zavrsetku/index.html" "$RAD/html/rime-po-zavrsetku/" 2>
 
 # mapa starih strana (S-26) živi u zasebnom fajlu koji Dockerfile kopira uz nginx.conf
 cp "$PROJ/nginx-stare-strane.map" "$RAD/conf.d/rime-stare-strane.map"
+cp "$PROJ/nginx-strane-mala.map" "$RAD/conf.d/rime-strane-mala.map"
 mkdir -p "$RAD/html/fonts"; echo "font" > "$RAD/html/fonts/rubik-latin.woff2"
 sed -e "s|listen 80 default_server;|listen $PORT default_server;|" \
     -e "s|listen 80;|listen $PORT;|" \
     -e "s|/usr/share/nginx/html|$RAD/html|" \
     -e "s|include /etc/nginx/conf.d/rime-stare-strane.map;|include $RAD/conf.d/rime-stare-strane.map;|" \
+    -e "s|include /etc/nginx/conf.d/rime-strane-mala.map;|include $RAD/conf.d/rime-strane-mala.map;|" \
     "$PROJ/nginx.conf" > "$RAD/conf.d/rimoteka.conf"
 
 MIME=/opt/homebrew/etc/nginx/mime.types
@@ -131,6 +133,9 @@ proveri_kraj "rimoteka.com" "/rime-za/aaa/"      301 "/rime-za/"
 proveri "rimoteka.com"     "/rime-za/"          200 -
 # postojeće strane se NE preusmeravaju
 proveri "rimoteka.com"     "/rime-za/voda/"     200 -
+# S9 (08.09.2026): velika slova u adresi → 301 na pravu stranu (srce nije kopirana u lažni sajt, pa ide kroz mapu)
+proveri_kraj "rimoteka.com" "/rime-za/Srce/"     301 "/rime-za/srce/"
+proveri_kraj "rimoteka.com" "/rime-za/SRCE/"     301 "/rime-za/srce/"
 # S-19 (08.09.2026): strana ukinuta zbog premalo rima je u mapi → 301 na hub, ne 404
 proveri_kraj "rimoteka.com" "/rime-za/krv/"      301 "/rime-za/"
 # S-26 (07.09.2026): adresa koja NIKAD nije postojala je pravi 404, ne 301 na hub

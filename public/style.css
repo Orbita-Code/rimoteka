@@ -3021,3 +3021,11 @@ body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
 /* Na uskom telefonu (320) baner mora ispod petine ekrana (nalaz S-13, izmereno: 161 px od 780 pre ovoga).
    Stoji POSLE svih pravila banera — ista specifičnost, pa pobeđuje ono što je kasnije u fajlu. */
 @media(max-width:400px){.kolacici{font-size:.85rem;line-height:1.35;padding:.45rem .7rem .5rem}.kolacici-naslov{font-size:.9rem;margin-bottom:0}.kolacici-dugmad{margin-top:.35rem;gap:.4rem}}
+/* N-16 (audit 07.09.2026): na 320 px je šest filtera bilo široko 263 px, a mesta 262 — „5+" je padao u drugi
+   red; kvačice u tri reda. Stoji na KRAJU fajla jer mora da nadjača pravilo za 44 px iznad (isti selektor). */
+@media(max-width:360px){
+  .syl-filter{gap:.2rem}
+  .syl-filter button{padding:.32rem .55rem;min-height:44px}
+  .filters{gap:.5rem .4rem}
+  .loose-toggle{padding:.3rem .4rem;font-size:.82rem;gap:.25rem}   /* izmereno 160+146+113 px: tri reda za 3 px; sad dva */
+}

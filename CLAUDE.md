@@ -655,6 +655,7 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | **`reci.txt`** | ima **preload** u `index.html` i `gen_pages.py` (`RECI_PRELOAD`); adresa mora biti slovo u slovo ista kao u `app.js` — inače se rečnik skida dva puta. `osvezi-verzije-podataka.mjs` prepisuje sva tri mesta; posle toga `python3 build/gen_pages.py`. Test 51 broji zahteve (tačno 1). |
 | **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
 | **Prag za stranu reči** | reč dobija stranu tek sa **≥5 pravih rima** (`gen_pages.py`, S-19). Kad se prag menja ili reč ispadne, njena adresa se **dopisuje u `nginx-stare-strane.map`** (301 na hub) i podiže se `rime-strane.json?v=` u `app.js` (keš je 365 d). Test 50 pada na mrtvom linku i na strani ispod praga. |
+| **Velika slova u adresi** | `nginx-strane-mala.map` (generiše `gen_pages.py`, kopira Dockerfile): `/rime-za/Beograd/` → 301 na `/rime-za/beograd/`. nginx `map` ne razlikuje velika i mala slova. Fajl se NE piše ručno — regeneracija ga osvežava; ide u isti push sa `nginx.conf` (uključuje ga). |
 | **Stare `/rime-za/` adrese** | `nginx-stare-strane.map` (1.670 adresa iz sitemapa od 29.07.) → 301 na hub; **sve ostalo pod `/rime-za/` je 404** sa `404.html`. Kad se ukine strana, njena adresa se DOPISUJE u mapu. `Dockerfile` kopira mapu uz `nginx.conf`; `nginx-provera.sh` je testira. |
 
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
@@ -671,7 +672,7 @@ prijavu u Cloudflare worker **`worker/prijave.js`** → `https://rimoteka-prijav
 | kod sanduča | `worker/prijave.js`, `worker/wrangler.toml` (KV `PRIJAVE`) |
 | objava sanduča | `cd worker && npx wrangler deploy` (wrangler prijavljen kao vlasnica) |
 | ključ za pregled | `~/.config/rimoteka/prijave-kljuc.json` — **nikad u repo**; secret `KLJUC` na workeru |
-| pregled prijava | `/prijave?kljuc=…` (HTML) ili `&format=json` (`&posle=<ISO>` za nove) |
+| pregled prijava | `curl -H "X-Kljuc: …" "<worker>/prijave?format=json&posle=<ISO>"` (ključ u ZAGLAVLJU, N-13); `/prijave?kljuc=…` samo za HTML pregled u pregledaču |
 | režim probe | **samo test**, preko `localStorage.rimoteka_proba=1` (postavlja `test/bez-analitike.mjs`) → sanduče proveri, ne čuva. `?interno=1` gasi SAMO analitiku (od 07.09.2026 — pre toga je gutao i prijave) |
 | CSP | adresa sanduča mora biti u `connect-src` (`nginx.conf`) — bez toga pregledač ćutke odbije slanje |
 | test | sekcija 46 — pada ako CSP, dugme, prozorčić ili sanduče ne rade |

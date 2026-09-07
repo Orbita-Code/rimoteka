@@ -18,7 +18,7 @@ import { readFile } from 'node:fs/promises';
 import { extname, join } from 'node:path';
 
 const PROLAZA = Number(process.env.PROLAZA || 10);
-const PUTANJE = ['/', '/rimovanje-reci/', '/rime-za/ljubav/'];
+const PUTANJE = process.env.PUTANJE ? process.env.PUTANJE.split(',') : ['/', '/rimovanje-reci/', '/rime-za/ljubav/', '/rime-za/'];   // PUTANJE=/rime-za/ za jednu stranu; hub dodat 08.09. (S-22)
 const TIP = { '.html':'text/html', '.css':'text/css', '.js':'text/javascript',
   '.json':'application/json', '.txt':'text/plain', '.svg':'image/svg+xml',
   '.png':'image/png', '.webp':'image/webp', '.ico':'image/x-icon' };

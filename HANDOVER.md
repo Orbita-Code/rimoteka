@@ -32,6 +32,18 @@ git worktree) → `main` 81261c2a2. CSP u tom pushu JOŠ dozvoljava Google Fonts
 sužava se u pushu 2 zajedno sa sajtom. Provereno na produkciji odmah: `/` 200, `/rime-za/aaa/` 301 na hub,
 `/rime-za/ljubav/` 200, `/rime-za/xqzwptr/` 404 sa našom stranom. `nginx-provera.sh` proverava da se CSP
 i `index.html` SLAŽU oko Google Fonts (uslovno — zbog zasebnog nginx pusha).
+**Četvrti krug (grana, čeka push nginx + push sajta):** V3 HSTS na godinu · S9 mapa „svaka strana → ona sama"
+(`nginx-strane-mala.map`, generiše je `gen_pages.py`, kopira Dockerfile; nginx `map` ne razlikuje velika i mala
+slova — provereno lokalno) · S-22 hub CLS izmeren 3× = 0 (`meri-cls.mjs` prima `PUTANJE=`) · N-06 · N-11 (opis
+počinje rečju, 0 kratkih, 0 duplih) · N-16 (filteri u jedan red na 320, kvačice u dva) · N-17 · placeholder „nada" ·
+N-19 povučen odlukom vlasnice · N-14 nemoguć u nginx:alpine · S4: 3 hrvatske reči u ijekavskom fajlu čekaju odluku.
+Istraga izbora reči za strane: `AUDIT/analiza/istraga-strane-reci.md` (+ `scripts/korpus-kraj-stiha.py`,
+`test/meri-rime-po-reci.mjs`, `scripts/istraga-strane-reci.py`). Analitika 08.09.: `AUDIT/analitika/2026-09-08.md`.
+**Mapa starih adresa (S-19) OBJAVLJENA 08.09.** (`fix/mapa-s19` → main 53e24ef10; provereno). Pomoćni folder
+`rimoteka-nginx` uklonjen.
+**Redosled objave:** 1) nginx (`nginx.conf` HSTS godina + mapa S9 + `Dockerfile` + `nginx-strane-mala.map` — SVE
+zajedno, jer nginx.conf uključuje mapu; bez mape nginx ne startuje), 2) sajt.
+
 **S-19 (grana, čeka push 4 + push mape):** prag za stranu reči podignut sa 3 na **5 pravih rima** (ne 8 iz nalaza —
 ispod 8 bi ispale „sunce", „zvezda", „tekst", „park", „cilj"; vlasnici ponuđeno da vrati na 8). Ukinuto 6 strana
 (bukurest, konkurs, krv, kurs, vec, vrh) → `nginx-stare-strane.map` (301 na hub; **mapa ide u zaseban push PRE

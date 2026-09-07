@@ -30,7 +30,7 @@ Provera: sekcija 46 (a2). Grana `fix/prijava-interno`.
 ## STANJE NA DAN 08.09.2026 — posle tri kruga popravki iz audita 07.09.
 
 Pun izveštaj audita: `AUDIT/2026-09-06-audit.md` (ocena 7,3 na dan 07.09.; nova ocena tek posle sledećeg audita —
-ocena se ne prepisuje bez merenja). Test lokalno 808 (posle S-18 i sekcije 54), **na produkciji 791/791 (08.09., posle objave push 2)**; sekcije 51–54 nove.
+ocena se ne prepisuje bez merenja). Test lokalno 808 (posle S-18 i sekcije 54), **na produkciji 793/793 (08.09., posle objave push 3)**; sekcije 51–54 nove.
 **Zatvoreno 07–08.09. (drugi i treći krug, grana `fix/audit-0709-drugi-krug`):** A4, A5, S-03, S-04, S-06, S-08,
 S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, S-20, S-24, S-25, S-26, N-01, N-02, N-03, N-04, N-05, N-08, N-09,
 N-10, N-R1 — detalji u odeljku „ZATVORENO 08.09.2026" niže.

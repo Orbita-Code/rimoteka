@@ -412,7 +412,9 @@ BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv pr
 node test/predeploy-motori.mjs        # ključni mobilni tokovi u WebKit-u (= Safari i Chrome na iPhone-u), Firefox-u i Chromiumu
 node test/skener-cirilica.mjs         # SVE strane + sva stanja alata u ćirilici: 0 latiničnih tekstova (osim dozvoljenih)
 node test/skener-tamna.mjs            # čitljivost i stanje tamne teme na svim vrstama strana: 0 nalaza
-node test/igra-100-partija.mjs        # 100 partija igre (5/10/15 s) kao dete: 0 nalaza
+node test/igra-100-partija.mjs        # 100 partija igre (10/15/20 s) kao dete: 0 nalaza
+node test/igra-kao-covek.mjs          # 12 partija sa 2–3 igrača, odgovori kao čovek: bodovi potez po potezu, predaja, rezultati, nerešeno, varke: 0 nalaza
+node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py   # bazen reči koje igra sme da zada: vrste reči, hrvatski, zastarele, preteške (izveštaj, ne pada)
 ```
 Svaki mora da završi sa izlaznim kodom 0. Posle deploya: isto sa `BASE=https://rimoteka.com`.
 

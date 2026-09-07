@@ -80,6 +80,27 @@ Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom 
 
 | S-19 | 6 strana sa 3–4 prave rime (bukurest, konkurs, krv, kurs, vec, vrh) + 18 sa 5–7 | prag 5 pravih rima (ne 8 — ispod 8 bi ispale sunce, zvezda, tekst, park, cilj; vlasnici ponuđeno da vrati na 8): 6 strana ukinuto, adrese u `nginx-stare-strane.map` (301 na hub), izbačene iz `rime-strane.json` (v=2), nijedan link ka njima (provera mrtvih linkova) | 50 (S-19 ×3) + nginx-provera (`/rime-za/krv/` → 301) |
 
+### IGRA RIMOVANJA 08.09.2026 – partije sa 2–3 igrača, odgovori kao čovek (zahtev vlasnice: reči, prelaz igrača, bodovi)
+
+> Skripta `igra-100-partija.mjs` igrala je samo 1 igrača i odgovarala prvom rečju po abecedi; nije gledala ni reči
+> koje igra zadaje, ni prelaz igrača, ni formulu bodova. Novi merači: `igra-kao-covek.mjs` (12 partija, 2–3 igrača,
+> najčešća rima kao odgovor, ćirilični unos, veliko slovo, varke) i `igra-bazen.mjs` + `igra-bazen-analiza.py`.
+
+| # | Nalaz | Merenje | Popravka | Provera |
+|---|---|---|---|---|
+| **I-1 VISOKO** | igra priznaje kao rimu SVAKU reč sa istim poslednjim slovom | rezervno pravilo `looseKey` = od poslednjeg samoglasnika; 6.439 od 8.000 reči bazena (80 %) ima ključ od jednog slova; za „kuća" priznato 55.231 reč (npr. „žena"), „sunce" + „more" tačno | rezerva je završni slog (`finalSylKey`): za „kuća" ostaju „sreća", „vruća" (2.292), „žena" pada; isto u `imaRimu` | igra-kao-covek (varka „isto slovo"), 100 partija |
+| **I-2 SREDNJE** | rečce od 2 slova („je", „ma", „da") priznate kao rima | „pesma" + „ma" = +22 poena | odgovor bar 3 slova | igra-kao-covek |
+| **I-3 SREDNJE** | nerešeno prikazano kao pobeda Igrača 1 | 2 igrača sa 127:127 → „🏆 Igrač 1" | svi sa najviše bodova su pobednici, 🤝 i natpis „Nerešeno!" | igra-kao-covek |
+| **I-4 SREDNJE** | ekran rezultata u tamnoj temi nečitljiv | kontrast 1,11 (treba 4,5) za sve osim pobednika i za dostignuća; pobednik belo na lavandi 2,2 u obe teme | tamna: 11,9; pobednik tamnim slovima na prelivu (7,7); detalji u svoj red na telefonu | skener tamne („igra predaja", „igra rezultati") |
+| **I-5 NISKO** | engleska reč „combo" na ekranu za decu (u ćirilici „цомбо") | | „najduži niz" | igra-kao-covek |
+| I-6 ODLUKA | bazen reči koje igra zadaje = 8.000 najčešćih iz veb-korpusa (novine): 304 nepunoznačne (koji, kao, ali, nije, kojima…), 432 priloga, 678 predugih (organizacije, istraživanja, ministarstva…), 31 ime; hrvatskih 0, zastarelih 0 | u partiji od 10 reči dete dobije bar jednu nepunoznačnu u 32 % partija, bar jednu od 5+ slogova u 59 % | **čeka vlasnicu** – predlog: igra zadaje samo imenice, glagole i prideve od 2–4 sloga (spisak `AUDIT/analiza/igra-bazen.md`) | igra-bazen |
+
+**Šta je provereno i RADI (150 poteza, 12 partija):** formula bodova (10 + preostale sekunde + niz×5, najviše 50) se
+poklapa sa porukom i sa zbirom u svih 119 tačnih; posle pogrešnog odgovora bodovi stoje, niz pada; predaja između
+igrača: ekran se vidi, broj igrača i sažetak prethodnog tačni, tajmer stoji dok se ne klikne, niz se ne prenosi,
+posle klika „Igrač 2", „1/5", tajmer od početka; rezultati opadajuće, svi igrači; ćirilični unos i veliko slovo sa
+razmakom priznati; u ćirilici zadata reč, predaja i rezultati ćirilicom; 0 grešaka u konzoli.
+
 ### MOBILNI AUDIT 08.09.2026 (prijave vlasnice sa iPhone-a + 3 agenta) – ZATVORENO isti dan
 
 | # | Prijava / nalaz | Uzrok | Popravka | Provera |

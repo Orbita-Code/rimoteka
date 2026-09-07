@@ -40,10 +40,12 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 | 11 | **Tekst „ubaci rimu"** zapravo ZAMENJUJE reč pod kursorom (utisak pisca) | preimenovati u „zameni reč" |
 | 12 | **Analitika, 3 preporuke** (naslov početne sa „rimovanje", naslov strana reči, prepis `/vrste-rima/`) – naslovi su njena odluka | da, sa merenjem 22.09. |
 | 13 | **Rime po naglasku** (inovacija, TODO 2a) – prvi korak je provera akcenata u skeniranom Rečniku | posle S-18/S-19 rezultata u GSC |
+| 14 | **Reči koje igra zadaje** (I-6): bazen je 8.000 najčešćih reči iz novina – 304 zamenice/veznici (koji, kao, ali, nije), 432 priloga, 678 predugih (ministarstva, istraživanja); hrvatskih i zastarelih 0. Spisak: `AUDIT/analiza/igra-bazen.md` | igra zadaje samo imenice, glagole i prideve od 2–4 sloga; spisak se pravi jednom (srLex vrsta reči + Matica) i šalje kao `igra-reci.json` |
+| 15 | **Pravilo rime u igri** promenjeno bez pitanja jer je bila rupa (I-1): za „kuća" se priznavala i „žena" (55.231 reč); sad završni slog („sreća", „vruća") + bar 3 slova. Ako vlasnica hoće još strože (samo savršena rima) – jedan red u `checkGameAnswer` | ostaviti završni slog (deca inače ne mogu da reše „valjda", „srce") |
 
 ## 3. TODO ZA SLEDEĆU SESIJU (po redu)
 
-1. **Push 4 + `wrangler deploy` + testovi protiv produkcije** (svi: predeploy, motori, skener ćirilice `BASE=`, skener tamne `BASE=`).
+1. **Push 4 + `wrangler deploy` + testovi protiv produkcije** (svi: predeploy, motori, skener ćirilice `BASE=`, skener tamne `BASE=`, `igra-kao-covek.mjs` `BASE=`).
 2. **Pravi iPhone**: vlasnica da proveri beležnicu sa tastaturom (traka na VRHU, red sa kursorom vidljiv), brojač slogova (dodir u prazno polje), spisak strana (azbuka). Njene slike imaju prednost nad emulacijom. Ako Safari/Chrome i dalje pomera traku – `visualViewport.offsetTop` je rešenje na kom se stoji, ali se meri na uređaju.
 3. **Otvoreno iz agenata (nisko):** A-R4 „i šire rime" za reč sa 180 rima ne pokazuje ništa novo (grupe sečene na 90) · A-R6 dugmad trake 41 px na 320 · „sačuvaj rime" bez kursora uzima poslednju reč bez naznake · na iPhone-u „kopiraj pesmu" umesto „preuzmi" · `/slogovi/` sad pamti tekst za karticu (sessionStorage) – proveriti da li vlasnica to hoće.
 4. **Nije provereno ni od koga:** landscape na telefonu, spora mreža na telefonu (`emulateNetworkConditions` iz protokola), prevlačenje stihova prstom, 30+ stihova, drugi dolazak kroz service worker.
@@ -56,7 +58,9 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 
 - Pre svakog deploya: `node test/predeploy.mjs` (~830 provera, 55 sekcija) + `node test/predeploy-motori.mjs` (WebKit = iPhone,
   Firefox, Chromium) + `node test/skener-cirilica.mjs` (0 latinice van dozvoljenog) + `node test/skener-tamna.mjs` (0 nalaza)
-  + `node test/igra-100-partija.mjs` (0 nalaza). Svi u CLAUDE.md 9a.
+  + `node test/igra-100-partija.mjs` (0 nalaza) + `node test/igra-kao-covek.mjs` (2–3 igrača, bodovi, predaja, nerešeno, varke: 0 nalaza).
+  Bazen reči igre: `node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` (izveštaj za odluku). Svi u CLAUDE.md 9a.
+- **Igra prima rimu po završnom slogu, ne po poslednjem slovu** (I-1) i traži bar 3 slova (I-2). Ne vraćati `looseKey` u igru.
 - **Kratka crta (–), nikad dugačka (—)** – globalno pravilo, test pada.
 - **Nove reči kao stare** (CLAUDE.md 6.4): slogovi i ključ rime ne zavise od velikog slova; test 54 nad svim rečima.
 - **Ćirilica**: prebacuje se cela strana; izuzeci: logo, „Powered by Orbita Code", imena firmi (ZASTICENO u app.js),

@@ -32,6 +32,7 @@ mkdir -p "$RAD/conf.d" "$RAD/logs" "$RAD/html/rime-za/ljubav" "$RAD/html/rime-za
 # lažni fajlovi za proveru zaglavlja po tipu (sw blok, .js blok) — bez njih bi 404 išao kroz drugi location
 for f in sw.js sw-register.js app.js; do echo "// proba" > "$RAD/html/$f"; done
 cp "$PROJ/public/index.html" "$RAD/html/" 2>/dev/null
+cp "$PROJ/public/404.html" "$RAD/html/" 2>/dev/null
 cp "$PROJ/public/rime-za/ljubav/index.html" "$RAD/html/rime-za/ljubav/" 2>/dev/null
 # Hub i još jedna postojeća strana — bez njih se ne može proveriti da pravilo
 # „nepostojeća strana → hub" NE hvata i postojeće strane, ni da hub ne vodi sam
@@ -43,9 +44,13 @@ cp "$PROJ/public/rime-za/voda/index.html" "$RAD/html/rime-za/voda/" 2>/dev/null
 # nekoliko strana, pa svaka koju provera dodirne mora ovde da se prekopira.
 cp "$PROJ/public/rime-po-zavrsetku/index.html" "$RAD/html/rime-po-zavrsetku/" 2>/dev/null
 
+# mapa starih strana (S-26) živi u zasebnom fajlu koji Dockerfile kopira uz nginx.conf
+cp "$PROJ/nginx-stare-strane.map" "$RAD/conf.d/rime-stare-strane.map"
+mkdir -p "$RAD/html/fonts"; echo "font" > "$RAD/html/fonts/rubik-latin.woff2"
 sed -e "s|listen 80 default_server;|listen $PORT default_server;|" \
     -e "s|listen 80;|listen $PORT;|" \
     -e "s|/usr/share/nginx/html|$RAD/html|" \
+    -e "s|include /etc/nginx/conf.d/rime-stare-strane.map;|include $RAD/conf.d/rime-stare-strane.map;|" \
     "$PROJ/nginx.conf" > "$RAD/conf.d/rimoteka.conf"
 
 MIME=/opt/homebrew/etc/nginx/mime.types
@@ -126,7 +131,13 @@ proveri_kraj "rimoteka.com" "/rime-za/aaa/"      301 "/rime-za/"
 proveri "rimoteka.com"     "/rime-za/"          200 -
 # postojeće strane se NE preusmeravaju
 proveri "rimoteka.com"     "/rime-za/voda/"     200 -
-proveri "rimoteka.com"     "/rime-za/voda/"      200 -
+# S-26 (07.09.2026): adresa koja NIKAD nije postojala je pravi 404, ne 301 na hub
+proveri "rimoteka.com"     "/rime-za/xqzwptr/"  404 -
+proveri "rimoteka.com"     "/rime-za/ljubavvv/" 404 -
+# a 404 nosi našu lepu stranu (error_page), ne nginx-ovu golu
+if curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/rime-za/xqzwptr/" | grep -q 'Stranica nije pronađena'; then echo "  ✓ 404 servira našu stranu 404.html"; else echo "  ✗ 404 ne servira 404.html"; PALO=$((PALO+1)); fi
+# fontovi sa našeg servera se keširaju godinu (S-06)
+if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/fonts/rubik-latin.woff2" | grep -qi 'cache-control: max-age=31536000'; then echo "  ✓ /fonts/*.woff2 keš godinu dana"; else echo "  ✗ /fonts/*.woff2 nema keš od godinu"; PALO=$((PALO+1)); fi
 
 echo
 echo "4) Preimenovana strana: /recnik-srpskog-jezika/ → /rime-po-zavrsetku/ (26.08.2026)"
@@ -150,6 +161,14 @@ for put in / /sw.js /sw-register.js /app.js /rime-za/ljubav/; do
   zaglavlje "$put" "content-security-policy" "connect-src"
   zaglavlje "$put" "x-content-type-options" "nosniff"
 done
+# S-06: CSP i HTML moraju da se SLAŽU oko Google Fonts. Dok `index.html` još učitava font sa Google-a,
+# CSP mora da ga dozvoli (inače sajt ostane bez fonta); čim ga HTML ne učitava, CSP ga ne sme dozvoliti.
+# Provera je uslovna baš zato što nginx ide u zaseban push, PRE sajta.
+csp_google=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -ci 'fonts.g')
+html_google=$(grep -c 'fonts.googleapis' "$PROJ/public/index.html")
+if [ "$html_google" -gt 0 ] && [ "$csp_google" -eq 0 ]; then echo "  ✗ HTML učitava Google Fonts, a CSP ih zabranjuje — sajt bi ostao bez fonta"; PALO=$((PALO+1));
+elif [ "$html_google" -eq 0 ] && [ "$csp_google" -gt 0 ]; then echo "  ✗ HTML više ne koristi Google Fonts, a CSP ih još dozvoljava (S-06)"; PALO=$((PALO+1));
+else echo "  ✓ CSP i HTML se slažu oko Google Fonts (HTML: $html_google, CSP: $csp_google)"; fi
 n=$(curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/sw.js" | tr -d '\r' | grep -ci '^cache-control:')
 if [ "$n" = "1" ]; then echo "  ✓ /sw.js  tačno jedno Cache-Control zaglavlje"; else echo "  ✗ /sw.js  ima $n Cache-Control zaglavlja (treba 1)"; PALO=$((PALO+1)); fi
 if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -qiE '^server: nginx/[0-9]'; then echo "  ✗ Server zaglavlje otkriva verziju"; PALO=$((PALO+1)); else echo "  ✓ Server zaglavlje ne otkriva verziju"; fi

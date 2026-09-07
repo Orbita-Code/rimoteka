@@ -53,7 +53,7 @@ for (let g = 0; g < PARTIJA; g++) {
         const k = rhymeKey(w); const lk = finalSylKey(w);   // isto pravilo kao igra
         if (vrsta === 'ista') return w;
         if (vrsta === 'nepostojeca') return 'xqz' + w.slice(0, 3) + 'wv';
-        if (vrsta === 'tacna') { for (let i = 0; i < WORDS.length; i++) { const x = WORDS[i]; if (x !== w && x.length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i]) && i < jekStart) return x; } for (let i = 0; i < WORDS.length; i++) { const x = WORDS[i]; if (x !== w && x.length >= 3 && finalSylKey(x) === lk && i < jekStart) return x; } return null; }
+        if (vrsta === 'tacna') { for (let i = 0; i < WORDS.length; i++) { const x = WORDS[i]; if (MALE[i] !== w.toLowerCase() && x.length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i]) && i < jekStart) return x; }   /* ne „Mesec" za „mesec" – igra to (ispravno) odbija kao istu reč */ for (let i = 0; i < WORDS.length; i++) { const x = WORDS[i]; if (x !== w && x.length >= 3 && finalSylKey(x) === lk && i < jekStart) return x; } return null; }
         for (let i = 0; i < WORDS.length; i += 997) { const x = WORDS[i]; if (x !== w && rhymeKey(x) !== k && finalSylKey(x) !== lk && i < jekStart && x.length > 3) return x; } return 'kuća';
       }, { w: stanje.rec, vrsta });
       if (odgovor === null) { nalazi.push({ partija: g, potez: i, rec: stanje.rec, greska: 'za ponuđenu reč nije nađena nijedna rima (nerešiva)' }); }
@@ -64,7 +64,7 @@ for (let g = 0; g < PARTIJA; g++) {
       if (!ocek.test(fb.k)) nalazi.push({ partija: g, potez: i, rec: stanje.rec, odgovor, vrsta, greska: `očekivano ${vrsta}, igra kaže: „${fb.t.slice(0, 60)}"` });
       if (vrsta === 'tacna' && /correct/.test(fb.k)) ocekivano++;
       if (vrsta === 'nepostojeca' || vrsta === 'ista') { /* nije potrošen potez — sad daj tačnu da igra ide dalje */
-        const tacna = await p.evaluate((w) => { const k = rhymeKey(w); for (let i = 0; i < jekStart; i++) if (WORDS[i] !== w && WORDS[i].length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i])) return WORDS[i]; return 'kuća'; }, stanje.rec);
+        const tacna = await p.evaluate((w) => { const k = rhymeKey(w); for (let i = 0; i < jekStart; i++) if (MALE[i] !== w.toLowerCase() && WORDS[i].length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i])) return WORDS[i]; return 'kuća'; }, stanje.rec);
         await p.fill('#gameInput', tacna); await p.evaluate(() => document.getElementById('gameSubmit').click()); await new Promise(r => setTimeout(r, 250));
         const fb2 = await p.evaluate(() => document.getElementById('gameFeedback').className); if (/correct/.test(fb2)) ocekivano++; else if (!/wrong/.test(fb2)) nalazi.push({ partija: g, potez: i, rec: stanje.rec, odgovor: tacna, greska: 'tačna rima posle nevažećeg unosa nije priznata' });
       }
@@ -88,3 +88,4 @@ writeFileSync(path.join(ROOT, 'AUDIT', 'analiza', 'igra-100-partija.md'), md.joi
 writeFileSync(path.join(ROOT, 'AUDIT', 'analiza', 'igra-100-partija.json'), JSON.stringify({ potezi, nalazi, konzola }, null, 1));
 console.log(`\npartija ${PARTIJA} · poteza ${Object.values(potezi).reduce((a, b) => a + b, 0)} · nalaza ${nalazi.length} · konzola ${konzola.length}`);
 for (const n of nalazi.slice(0, 25)) console.log('  ', JSON.stringify(n));
+process.exit(nalazi.length || konzola.length ? 1 : 0);   // do 08.09. je vraćao 0 i sa nalazima – lanac ga nije mogao zaustaviti

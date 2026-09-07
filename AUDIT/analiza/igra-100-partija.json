@@ -1,11 +1,47 @@
 {
  "potezi": {
-  "tacna": 3,
-  "pogresna": 3,
-  "nepostojeca": 3,
-  "ista": 3,
-  "istek": 3
+  "tacna": 100,
+  "pogresna": 100,
+  "nepostojeca": 100,
+  "ista": 100,
+  "istek": 100
  },
- "nalazi": [],
+ "nalazi": [
+  {
+   "partija": 40,
+   "potez": 3,
+   "rec": "mesec",
+   "odgovor": "Mesec",
+   "greska": "tačna rima posle nevažećeg unosa nije priznata"
+  },
+  {
+   "partija": 40,
+   "potez": 4,
+   "rec": "mesec",
+   "greska": "tajmer počeo od 11, ne 15"
+  },
+  {
+   "partija": 40,
+   "greska": "rezultati se nisu pojavili"
+  },
+  {
+   "partija": 97,
+   "potez": 3,
+   "rec": "meseci",
+   "odgovor": "Meseci",
+   "vrsta": "tacna",
+   "greska": "očekivano tacna, igra kaže: „To je ista reč – probaj drugu\""
+  },
+  {
+   "partija": 97,
+   "potez": 4,
+   "rec": "meseci",
+   "greska": "tajmer počeo od 11, ne 15"
+  },
+  {
+   "partija": 97,
+   "greska": "rezultati se nisu pojavili"
+  }
+ ],
  "konzola": []
 }

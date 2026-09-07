@@ -32,6 +32,16 @@ git worktree) → `main` 81261c2a2. CSP u tom pushu JOŠ dozvoljava Google Fonts
 sužava se u pushu 2 zajedno sa sajtom. Provereno na produkciji odmah: `/` 200, `/rime-za/aaa/` 301 na hub,
 `/rime-za/ljubav/` 200, `/rime-za/xqzwptr/` 404 sa našom stranom. `nginx-provera.sh` proverava da se CSP
 i `index.html` SLAŽU oko Google Fonts (uslovno — zbog zasebnog nginx pusha).
+**MOBILNI AUDIT 08.09. uveče (vlasnica poslala 3 slike sa iPhone-a: „na šta liči ovaj mobilni frankenštajn"):**
+traka rima preko teksta → traka na VRHU vidljivog ekrana + red sa kursorom ispod nje + naslov/tabovi se sklanjaju dok se
+kuca; kolona slogova 59 px; brojač slogova ne odnosi stranu; „Orbita Code" bio preslovljen → cela strana u ćirilicu sa
+zaštićenim imenima, digrafi na granici prefiksa, skener 8.270 → 53; dugačka crta zabranjena (1.454 + 10.039 zamena);
+tamna prati sistem. Tri agenta (beležnica, rimovanje, ostalo) – nalazi i popravke u `AUDIT/NALAZI-OTVORENI.md`
+(„MOBILNI AUDIT 08.09.2026"), izveštaji u `AUDIT/mobilni/*.md`, snimci u `AUDIT/screenshots/mobilni-*.png`.
+Nova merila: `predeploy-motori.mjs` (WebKit/Firefox/Chromium – motori instalirani 08.09.), `skener-cirilica.mjs`,
+`skener-tamna.mjs`, `igra-100-partija.mjs` – svi OBAVEZNI pre deploya (CLAUDE.md 9a). **Ništa od ovoga nije
+puširano** – čeka pun test (16), motore, skener 3 i „da" vlasnice (nginx push: HSTS godina + mapa velikih slova; pa sajt).
+
 **Četvrti krug (grana, čeka push nginx + push sajta):** V3 HSTS na godinu · S9 mapa „svaka strana → ona sama"
 (`nginx-strane-mala.map`, generiše je `gen_pages.py`, kopira Dockerfile; nginx `map` ne razlikuje velika i mala
 slova — provereno lokalno) · S-22 hub CLS izmeren 3× = 0 (`meri-cls.mjs` prima `PUTANJE=`) · N-06 · N-11 (opis

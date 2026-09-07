@@ -80,6 +80,33 @@ Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom 
 
 | S-19 | 6 strana sa 3–4 prave rime (bukurest, konkurs, krv, kurs, vec, vrh) + 18 sa 5–7 | prag 5 pravih rima (ne 8 — ispod 8 bi ispale sunce, zvezda, tekst, park, cilj; vlasnici ponuđeno da vrati na 8): 6 strana ukinuto, adrese u `nginx-stare-strane.map` (301 na hub), izbačene iz `rime-strane.json` (v=2), nijedan link ka njima (provera mrtvih linkova) | 50 (S-19 ×3) + nginx-provera (`/rime-za/krv/` → 301) |
 
+### MOBILNI AUDIT 08.09.2026 (prijave vlasnice sa iPhone-a + 3 agenta) – ZATVORENO isti dan
+
+| # | Prijava / nalaz | Uzrok | Popravka | Provera |
+|---|---|---|---|---|
+| **MOB-1** (vlasnica) | traka „Rime za …" na iPhone-u lebdi na sredini ekrana preko reda koji se kuca; „tekst se preseli u traku" | traka „iznad tastature" računata od dna vidljivog dela, koji Safari/Chrome na iOS-u javljaju nepouzdano | traka na VRHU vidljivog ekrana (`visualViewport.offsetTop`), red sa kursorom se drži ispod nje (`drziKursorIspodTrake`); naslov, uvod, putanja i tabovi se sklanjaju dok je tastatura otvorena (6 stihova vidljivo umesto 3) | 30, motori |
+| **MOB-2** (vlasnica) | „А 12" u koloni slogova odsečeno | kolona 46 px, treba 54 | 3,7 rem (59 px) | 30 (M2), motori |
+| **MOB-3** (vlasnica, treći put) | brojač slogova: dodir u prazno polje „baci na dno polja" | `drziPoljeUVidokrugu` dovlačio DNO visokog polja iznad tastature (skrol 324 px) | za textarea se gleda samo RED SA KURSOROM (skrol 95 px, vrh polja u kadru) | 55, motori |
+| **MOB-4** (vlasnica) | „1 red" nejasno | red = do Entera | ostaje „red" (odluka: u brojač se lepe i priče); placeholder „Upiši ili nalepi tekst ili pesmu…" | 14 |
+| **MOB-5** (vlasnica) | „Orbita Code" → „Орбита Цоде"; latinica po ćiriličnom sajtu | prebacivao se SPISAK selektora | cela strana + atributi + naslov kartice; zaštićena imena; skener: 8.270 → 53 → (treći prolaz) | skener ćirilice, 55 |
+| **MOB-6** (vlasnica) | dugačka crta (—) | AI navika | 1.454 u fajlovima + 10.039 u objašnjenjima → kratka (–); test 50 pada na dugačkoj | 50 |
+| A-B1 (agent, VISOKO) | dodir na „još N rima" u razvijenoj traci gasi tastaturu, traka pada na dno | `pointerdown` čuvao fokus samo za kapsule | i `.nr-more`, `.nr-toggle` | – |
+| A-B2/3/4 (agent, NISKO) | fantomski red posle „označi sve → obriši → nalepi"; „još N rima" odsečeno 13 px; strelica 44×30 | | prazan editor se čisti pre lepljenja; unutrašnji razmak; 44×44 | – |
+| A-R1 (agent, VISOKO) | posle reči bez rime sledeća pretraga ostavlja ekran na DNU liste (scrollY 3.217) | `pokaziRimeNaTelefonu` skrolovao samo naniže | u oba smera | – |
+| A-R2 (agent, SREDNJE) | dugmad slogova 1–4 široka 34–37 px | | pune red ravnomerno (390: ~55 px) | 51 |
+| A-R3 (agent, SREDNJE) | „Nazad" posle dve pretrage napušta stranu | `replaceState` za svaku reč | nova REČ = `pushState` (Nazad vraća prethodnu reč); filter = `replaceState` | – |
+| A-R5 (agent, NISKO) | status za čitač ekrana ostaje „180 rima" kad se polje isprazni | | briše se | – |
+| tamna tema | 3 okvira ispod praga (1,44–1,61) | | `#7a71a8` (3,58) | skener tamne: 0 nalaza |
+| tamna tema | bez izbora uvek svetla | | prati sistem (`prefers-color-scheme`), menja se uživo; `theme-color` po temi; `color-scheme:dark` | skener tamne (stanje) |
+
+**Ostalo iz agenata (nisko, otvoreno):** A-R4 „i šire rime" za reč sa 180 rima ne menja ništa vidljivo (grupe sečene na
+90) · A-R6 dugmad trake 41 px široke na 320 · utisci pisca: „ubaci rimu" zapravo ZAMENJUJE reč pod kursorom (natpis
+to ne kaže); „sačuvaj rime" bez kursora uzima poslednju reč bez naznake; na iPhone-u bi „kopiraj pesmu" bilo korisnije
+od „preuzmi". **Nije provereno:** pravi iOS Safari (offsetTop ≠ 0), prevlačenje stihova prstom, 30+ stihova.
+
+**Nova merila (pokreću se pre svakog deploya, CLAUDE.md 9a):** `test/predeploy-motori.mjs` (WebKit = iPhone, Firefox,
+Chromium), `test/skener-cirilica.mjs`, `test/skener-tamna.mjs`, `test/igra-100-partija.mjs`.
+
 ### ZATVORENO 08.09.2026 — četvrti krug (odluka vlasnice: „sve se slažem da kreneš odmah jedno po jedno")
 
 | # | Šta je bilo | Šta je sada | Provera |

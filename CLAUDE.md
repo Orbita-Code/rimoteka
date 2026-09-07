@@ -407,6 +407,15 @@ BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv pr
 
 **Deploy je dozvoljen SAMO ako test ispiše „Sme deploy" (izlazni kod 0).** Ako bilo šta padne — popraviti, pa ponovo testirati.
 
+**Od 08.09.2026 uz njega OBAVEZNO idu i (zahtev vlasnice: „neću da mi neki pretraživač bude frankenštajn"):**
+```bash
+node test/predeploy-motori.mjs        # ključni mobilni tokovi u WebKit-u (= Safari i Chrome na iPhone-u), Firefox-u i Chromiumu
+node test/skener-cirilica.mjs         # SVE strane + sva stanja alata u ćirilici: 0 latiničnih tekstova (osim dozvoljenih)
+node test/skener-tamna.mjs            # čitljivost i stanje tamne teme na svim vrstama strana: 0 nalaza
+node test/igra-100-partija.mjs        # 100 partija igre (5/10/15 s) kao dete: 0 nalaza
+```
+Svaki mora da završi sa izlaznim kodom 0. Posle deploya: isto sa `BASE=https://rimoteka.com`.
+
 Test proverava, u pravom Chromiumu:
 1. **Rimovanje reči** — glavna namena sajta: rime za „ljubav" i „nada", i da je poznata rima među rezultatima
 2. **Rečnik** — učitano preko 250.000 reči

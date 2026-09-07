@@ -295,7 +295,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908d">
+<link rel="stylesheet" href="/style.css?v=20260908e">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -472,7 +472,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908k"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908l"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1979,6 +1979,18 @@ def main():
     if new_idx != idx:
         with open(idx_path, 'w', encoding='utf-8') as f:
             f.write(new_idx)
+    # 404.html nije generisana, ali učitava app.js (pismo/tema) – verzija se drži u korak sa ostatkom sajta
+    p404 = os.path.join(PUB, '404.html')
+    try:
+        with open(p404, encoding='utf-8') as f:
+            s404 = f.read()
+        _ver = TOOL_SCRIPT.split('app.js?v=')[1].split('"')[0]
+        n404 = re.sub(r'app\.js\?v=[0-9a-z]+', 'app.js?v=' + _ver, s404)
+        if n404 != s404:
+            with open(p404, 'w', encoding='utf-8') as f:
+                f.write(n404)
+    except Exception as _e:
+        print('UPOZORENJE: 404.html nije usklađena:', _e)
 
     print(f"Generisano strana: {generated}")
     print(f"Sitemap URL-ova: {len(sitemap_entries)}")

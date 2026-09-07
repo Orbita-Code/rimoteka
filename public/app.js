@@ -339,7 +339,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=a129b175';
+const DEFINICIJE_ADRESA = '/definicije.json?v=228fac2f';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -1117,7 +1117,9 @@ function pokaziRimeNaTelefonu(){
   try{ rimeInput.blur(); }catch(e){}
   requestAnimationFrame(() => {
     const y = box.getBoundingClientRect().top + window.scrollY - 8;
-    if(y > window.scrollY) window.scrollTo({ top: Math.round(y), behavior: 'smooth' });
+    /* U OBA smera (mobilni audit 08.09.2026, nalaz M-1): posle reči bez rime strana je ostajala skrolovana na
+       dno kratke liste, pa je sledeća pretraga sa 180 rima počinjala od „pilad, obad" – vrh liste 2.500 px iznad. */
+    if(Math.abs(y - window.scrollY) > 4) window.scrollTo({ top: Math.round(y), behavior: 'smooth' });
   });
 }
 
@@ -1218,6 +1220,7 @@ function doRhymes(silent){
      tu bi poruka izgledala kao da je korisnik nešto tražio. Zbog toga je na
      početnoj strani pisalo „Učitavam rečnik…" iako niko nije upisao ni reč. */
   if(q.length<2){
+    try{ el('rimeStatus').textContent = ''; }catch(e){}   // M-5: staro „180 rima za …" ne sme da ostane
     if(!silent){
       /* POLJE JE ISPRAŽNJENO – strana se vraća u početno stanje.
          Bez ovoga bi `h1`, naslov i opis ostali zaglavljeni na poslednjoj
@@ -1253,7 +1256,13 @@ function doRhymes(silent){
   if(!silent){
     /* I filter slogova ide u adresu (nalaz S-03, 07.09.2026): bez toga osvežavanje vraća „sve",
        a link koji čovek podeli ne nosi ono što je gledao. Kanonikal ostaje bez filtera. */
-    try{ const u=new URL(window.location.href); u.searchParams.set('rec', q); if(rimeSyl) u.searchParams.set('slog', String(rimeSyl)); else u.searchParams.delete('slog'); history.replaceState(null,'',u); }catch(e){}
+    try{
+      const u=new URL(window.location.href); const prethodna = u.searchParams.get('rec');
+      u.searchParams.set('rec', q); if(rimeSyl) u.searchParams.set('slog', String(rimeSyl)); else u.searchParams.delete('slog');
+      /* Nova REČ ide u istoriju (mobilni audit 08.09.2026, M-3: „Nazad" je na telefonu glavna navigacija, a napuštao je
+         stranu posle dve pretrage); promena filtera za istu reč samo zamenjuje adresu. `popstate` vraća reč iz adrese. */
+      if(prethodna && prethodna !== q) history.pushState({ rec: q }, '', u); else history.replaceState(null, '', u);
+    }catch(e){}
   }
 
   const key = rhymeKey(q);
@@ -1828,7 +1837,7 @@ function renderSylGutter(lines){
     const ima = !!line.trim();
     const slog = ima ? lineSyllables(line) : 0;
     row.innerHTML = `<span class="g-syl">${ima ? slog : '·'}</span>`;
-    if(ima) row.title = `${slog} ${slogRec(slog)} · ${line.length} ${znakRec(line.length)}`;
+    if(ima) row.title = uiTxt(`${slog} ${slogRec(slog)} · ${line.length} ${znakRec(line.length)}`);
     frag.appendChild(row);
   });
   sylGutterInner.innerHTML = '';
@@ -2290,6 +2299,10 @@ noteEditor.addEventListener('paste', (e) => {
   const r = sel.getRangeAt(0);
   if(!noteEditor.contains(r.startContainer)) return;
   r.deleteContents();
+  /* Prazan editor posle „označi sve → obriši" zadrži jedan <br> (pregledač ga ostavi), pa je nalepljena
+     pesma dobijala fantomski prazan red i višak preloma (mobilni audit 08.09.2026). Ako u editoru nema
+     teksta, počinje se od čistog. */
+  if(!noteEditor.textContent.trim()){ noteEditor.innerHTML = ''; r.setStart(noteEditor, 0); r.collapse(true); }
 
   const frag = document.createDocumentFragment();
   text.split('\n').forEach((red, i) => {
@@ -2433,7 +2446,9 @@ noteEditor.addEventListener('blur', () => setTypingMode(false));
 // Klik na rimu ne sme da oduzme fokus editoru – inače se izgubi pozicija kursora
 // i reč nema gde da se ubaci.
 noteRhymesBox.addEventListener('pointerdown', (e) => {
-  if(e.target.closest('.chip')) e.preventDefault();
+  /* I dugme „još N rima" i strelica (mobilni audit 08.09.2026: dodir na „još" gasio je tastaturu i bacao
+     traku na dno – fokus je odlazio iz editora, jer je zaštita važila samo za kapsule). */
+  if(e.target.closest('.chip, .nr-more, .nr-toggle')) e.preventDefault();
 });
 // Na telefonu panel sa rimama stoji preko dna ekrana – browser to ne zna kad
 // sam skroluje do kursora, pa red u kome se kuca može da završi ispod panela.
@@ -3953,8 +3968,11 @@ function prikaziUputstvoZaTastaturu(){
    na latinicu prepisala u „š / č", a to nije ono što piše na tasteru. */
 /* `.footer-legal` i `.deftip` su IZBAČENI iz izuzetaka 08.09.2026 (vlasnica: na ćirilici ne sme ostati latinica osim
    logotipa, „Powered by Orbita Code“ i stranih imena) – objašnjenja reči i „Sva prava zadržana“ idu u ćirilicu. */
-const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-orbita, .kbd-help, kbd, code, script, style, noscript, '
-  + '#noteEditor, #noteTitle, .ml, .vrhyme, #panel-klasici, #scriptToggle button, textarea, input, select';
+const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-orbita, .kbd-help, kbd, code, script, style, noscript, '
+  + '#noteEditor, #noteTitle, .ml, .vrhyme, .g-letter, #scriptToggle button, textarea, input';
+/* Drugi prolaz skenera (08.09.2026): `.footer-contact` („Za saradnju:") i `select` (opcije pretrage) vraćeni u
+   prebacivanje – mejl je i dalje zaštićen jer čvor sa „@" preskače ADRESA; klasici ne treba izuzimati jer
+   `dispPoem` već crta pesmu u izabranom pismu; `.g-letter` su slova šeme (A, B) uz stihove. */
 /* Zašto baš ove: `#noteEditor`/`.ml` su tekst KORISNIKA (pesma, tekst za brojanje); `#panel-klasici` su pesme
    u originalnom pismu; `.vrhyme` su slova šeme (A, B, C – „C" bi postalo „Ц"); dugmad „latinica/ћирилица"
    svako u svom pismu. Sve ostalo na strani ide u izabrano pismo (skener ćirilice, 08.09.2026: 33 šablonska
@@ -4125,11 +4143,13 @@ function positionTip(anchor){
 
 async function showDefAt(word, anchor, pinned){
   defWord = word; defPinned = pinned;
-  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">učitavanje…</div>`;
+  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">${uiTxt('učitavanje…')}</div>`;
   positionTip(anchor);
   const res = await fetchDefinition(word);
   if(defWord !== word) return;
-  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">${escapeHtml(res.text)}</div>` + (res.src ? `<div class="deftip-s">izvor: ${res.src}</div>` : '');
+  /* Objašnjenje i izvor idu u izabrano pismo (skener ćirilice 08.09.2026); imena firmi ostaju latinicom. */
+  const objasnjenje = script === 'cyr' ? prebaciTekst(res.text, toCyr) : res.text;
+  defTip.innerHTML = `<div class="deftip-w">${disp(word)}</div><div class="deftip-b">${escapeHtml(objasnjenje)}</div>` + (res.src ? `<div class="deftip-s">${uiTxt('izvor')}: ${script === 'cyr' ? prebaciTekst(res.src, toCyr) : res.src}</div>` : '');
   positionTip(anchor);
 }
 function hideDef(){ if(!defPinned){ defTip.style.display = 'none'; defWord = null; } }

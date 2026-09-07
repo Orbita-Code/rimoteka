@@ -3040,3 +3040,23 @@ body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
 html.dark-mode,body.dark-mode{color-scheme:dark}
 /* Tamna tema – okviri kvačica i dugmeta „još" bili 1,44–1,61 (treba ≥3): skener tamne teme 08.09.2026. */
 body.dark-mode .loose-toggle,body.dark-mode .nr-more{border-color:#7a71a8}
+/* Mobilni audit 08.09.2026 (beležnica): strelica trake 44×30 → 44×44; „još N rima" u razvijenoj traci ne sme
+   da bude odsečeno dnom trake (unutrašnji razmak pre kraja). */
+@media(max-width:560px){
+  body.notes-typing .note-rhymes .nr-toggle{height:44px;margin:-.45rem -.35rem -.45rem 0}
+  body.notes-typing .note-rhymes.nr-open{padding-bottom:calc(1rem + env(safe-area-inset-bottom,0px))}
+  body.notes-typing .note-rhymes.nr-open .nr-more{margin-bottom:.4rem;min-height:44px}
+}
+/* Dok se na telefonu KUCA pesma (tastatura otvorena), naslov strane, uvod, putanja i tabovi se sklanjaju –
+   jeli su ~250 od 508 vidljivih px, pa je pisac video 3–4 stiha (utisak pisca iz mobilnog audita 08.09.2026).
+   Vraćaju se čim se tastatura zatvori. Isto za brojač slogova. */
+@media(max-width:560px){
+  body.kb-open.notes-typing .crumbs,body.kb-open.notes-typing .landing-h1,body.kb-open.notes-typing .landing-lead,
+  body.kb-open.notes-typing .hero,body.kb-open.notes-typing .landing-meta,body.kb-open.notes-typing #tabs{display:none}
+  /* zaglavlje sa logotipom se NE dira (pravilo 8a) */
+}
+/* Mobilni audit 08.09.2026 (M-2): dugmad slogova 1–4 bila 34–37 px široka – sad pune red ravnomerno (390: ~55 px). */
+@media(max-width:560px){
+  .syl-filter{display:flex;width:100%}
+  .syl-filter button{flex:1 1 0;min-width:0;text-align:center}
+}

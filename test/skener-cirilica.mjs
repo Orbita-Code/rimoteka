@@ -32,8 +32,10 @@ adrese.push('/404.html', '/nepostojeca-strana-xqzw/');
 
 const nalazi = new Map();   // tekst → { gde: Set(strana#kontekst), vrsta }
 function dodaj(tekst, gde, vrsta) {
-  const t = tekst.replace(/\s+/g, ' ').trim();
-  if (!t || !LAT.test(t)) return;
+  let t = tekst.replace(/\s+/g, ' ').trim();
+  // skraćenice velikim slovima (PDF, ABAB, TV) i imena firmi su dozvoljeni i UNUTAR teksta
+  const ocisceno = t.replace(/\b[A-ZČĆŽŠĐ]{2,}\b/g, '').replace(/Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|Chrome|Android|iPhone|Wikipedia|Wiktionary|Rimoteka/g, '');
+  if (!t || !LAT.test(ocisceno)) return;
   if (DOZVOLJENO.test(t)) return;
   if (/^[A-ZČĆŽŠĐ0-9 .\-]{2,}$/.test(t)) return;                 // skraćenica velikim slovima
   if (/^(https?:\/\/|mailto:)|@/.test(t)) return;
@@ -43,7 +45,7 @@ function dodaj(tekst, gde, vrsta) {
 
 // U strani: sve što se vidi ili čita (tekst, atributi), osim dozvoljenih zona.
 const SKUPI = () => {
-  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript, #noteEditor, #noteTitle, .ml, .vrhyme, #panel-klasici, #scriptToggle button';   // tekst korisnika, klasici u originalu, slova šeme, dugmad pisma
+  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript, #noteEditor, #noteTitle, .ml, .vrhyme, .g-letter, #rimeStatus, #scriptToggle button';   // tekst korisnika, klasici u originalu, slova šeme, dugmad pisma
   const out = [];
   const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let n; while ((n = w.nextNode())) { if (!n.textContent.trim()) continue; const el = n.parentElement; if (!el || el.closest(IZUZETO)) continue; const skriven = !el.getClientRects().length && !el.closest('[hidden]') ? false : false; out.push(['tekst', n.textContent, el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : '') + (el.closest('[hidden]') ? ' (skriveno)' : '')]); }

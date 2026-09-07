@@ -2951,7 +2951,8 @@ async function main() {
         editor: Math.round(document.getElementById('noteEditor').getBoundingClientRect().width),
         ekran: window.innerWidth,
       }));
-      ok('M2 · gutter je uži od 50 px na 390 px ekranu', m2.gutter > 0 && m2.gutter < 50,
+      /* Od 08.09.2026 kolona je 3,7 rem (≈59 px): „А 12" na 46 px bilo je odsečeno (prijava vlasnice sa iPhone-a). */
+      ok('M2 · gutter na 390 px je između 54 i 64 px (stane „А 12", ne krade prostor tekstu)', m2.gutter >= 54 && m2.gutter <= 64,
          `gutter ${m2.gutter} px`);
       ok('M2 · za pisanje ostaje bar 60% ekrana', m2.editor > m2.ekran * 0.6,
          `editor ${m2.editor} od ${m2.ekran} px`);
@@ -3643,10 +3644,11 @@ async function main() {
         VV.dispatchEvent(new Event('scroll'));
         await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
         const p = document.getElementById('noteRhymes').getBoundingClientRect();
-        return { dno: Math.round(p.bottom), ocekivano: Math.round(150 + nova - 56) };
+        return { vrh: Math.round(p.top), ocekivano: 150 };
       });
-      ok('mobilni · traka rima ostaje lepljena za dno vidokruga i pri pomeranju',
-         Math.abs(l30.dno - l30.ocekivano) <= 2, JSON.stringify(l30));
+      /* Od 08.09.2026 traka je na VRHU vidljivog vidokruga (`top = visualViewport.offsetTop`), ne na dnu. */
+      ok('mobilni · traka rima ostaje lepljena za VRH vidokruga i pri pomeranju',
+         Math.abs(l30.vrh - l30.ocekivano) <= 2, JSON.stringify(l30));
 
       await ctx30g.close();
     }
@@ -3810,7 +3812,7 @@ async function main() {
         } else {
           let ukupno = 0; const lose = [];
           for (const par of prvaRecenica.split(';')) {
-            const [cilj, spisak] = par.split(/\s[––-]\s/);
+            const [cilj, spisak] = par.split(/\s[\u2014\u2013-]\s/);   // kratka crta (–), stara dugačka (—) i crtica
             if (!spisak) continue;
             const slug = SLUG[cilj.trim().toLowerCase()];
             if (!slug) { lose.push(`nepoznata ciljna reč: ${cilj.trim()}`); continue; }

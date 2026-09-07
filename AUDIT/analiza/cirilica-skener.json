@@ -1,42 +1,6 @@
 {
  "base": "http://localhost:8765",
  "strana": 2010,
- "nalaza": 4,
- "lista": [
-  {
-   "tekst": "slogova u stihu",
-   "vrsta": "title",
-   "strana": 16,
-   "primeri": [
-    "/ · span",
-    "/klasici/ · span",
-    "početna · rezultati+traka · span",
-    "početna · oblačić · span"
-   ]
-  },
-  {
-   "tekst": "Риме за реч „xqзwптр“",
-   "vrsta": "tekst",
-   "strana": 1,
-   "primeri": [
-    "početna · nema rime · h1"
-   ]
-  },
-  {
-   "tekst": "Риме за реч „xqзwптр\": 9 речи које се римују | Римотека речник рима",
-   "vrsta": "title",
-   "strana": 1,
-   "primeri": [
-    "početna · nema rime · head"
-   ]
-  },
-  {
-   "tekst": "Мерење посете (Google Analytics)",
-   "vrsta": "tekst",
-   "strana": 1,
-   "primeri": [
-    "/#baner · b"
-   ]
-  }
- ]
+ "nalaza": 0,
+ "lista": []
 }

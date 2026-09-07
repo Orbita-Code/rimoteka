@@ -27,7 +27,15 @@ negativna margina na linkovima futera razbila red „Powered by"; „preskoči" 
 temi (2,98); `@media` blok za baner stajao PRE osnovnog pravila pa nije važio (izmereno 161 → 123 tek kad je
 premešten na kraj fajla); Chrome pamti polaznu tačku fokusa i posle `blur()`.
 
-**Objava — redosled:** 1) `nginx.conf` + `Dockerfile` + `nginx-stare-strane.map` zasebno (bash
+**OBJAVLJENO 08.09. (push 1, nginx):** grana `fix/nginx-404-fontovi` (radni folder `~/Projects/rimoteka-nginx`,
+git worktree) → `main` 81261c2a2. CSP u tom pushu JOŠ dozvoljava Google Fonts (stari sajt ih učitava);
+sužava se u pushu 2 zajedno sa sajtom. Provereno na produkciji odmah: `/` 200, `/rime-za/aaa/` 301 na hub,
+`/rime-za/ljubav/` 200, `/rime-za/xqzwptr/` 404 sa našom stranom. `nginx-provera.sh` proverava da se CSP
+i `index.html` SLAŽU oko Google Fonts (uslovno — zbog zasebnog nginx pusha).
+**Push 2 (sajt) čeka „da" vlasnice** + pun test lokalno + test protiv produkcije pre i posle.
+Otvoreno pitanje vlasnici: da li podići `v` odluke o kolačićima (v:1→v:2) da svi vide novi baner.
+
+**Objava — redosled (prvobitni plan):** 1) `nginx.conf` + `Dockerfile` + `nginx-stare-strane.map` zasebno (bash
 `test/nginx-provera.sh` = 0), proveriti glavnu adresu i `/rime-za/xqzwptr/` → 404; 2) ostatak; 3) posle
 svakog `BASE=https://rimoteka.com node test/predeploy.mjs`. Na produkciji je do tada `app.js?v=20260907b`.
 

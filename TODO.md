@@ -11,7 +11,7 @@
 |---|---|
 | Ocena audita | **7,3/10** na dan 07.09. (`AUDIT/2026-09-06-audit.md`); posle 27 zatvorenih nalaza ocena se meri u sledećem auditu, ne prepisuje |
 | Test | 53 sekcije, lokalno 804 provera |
-| Čeka objavu (grana `fix/audit-0709-drugi-krug`) | baner (tekst vlasnice), A4, A5, S-03, S-04, S-06, S-08–S-13, S-15–S-17, S-20, S-24–S-26, N-01–N-05, N-08–N-10, N-R1 + `nginx.conf` (404 za nepostojeće, keš fontova, CSP bez Google Fonts) + `Dockerfile` (mapa starih adresa) — **dva pusha: prvo nginx (sa Dockerfile-om i mapom), pa sajt**; posle svakog `BASE=https://rimoteka.com node test/predeploy.mjs` |
+| Čeka objavu (grana `fix/audit-0709-drugi-krug`) | baner (tekst vlasnice), A4, A5, S-03, S-04, S-06, S-08–S-13, S-15–S-17, S-20, S-24–S-26, N-01–N-05, N-08–N-10, N-R1 + `nginx.conf` (404 za nepostojeće, keš fontova, CSP bez Google Fonts) + `Dockerfile` (mapa starih adresa) — **push 1 (nginx) OBJAVLJEN 08.09.** (`fix/nginx-404-fontovi` → main, CSP još sa Google Fonts); **push 2 (sajt + sužen CSP) čeka „da"**; posle njega `BASE=https://rimoteka.com node test/predeploy.mjs` |
 
 ## 1. ODMAH POSLE OBJAVE
 

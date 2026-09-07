@@ -19,10 +19,10 @@
      #eafaf4 daje 2,56:1 (ispod AA 4,5:1). Tamnija nijansa iste boje = 5,27:1. */
   --syl-ink:#146ba8;
   --syl-bg:#eafaf4;
-  /* POLJA ZA UNOS — pozadina MORA da ide kroz promenljivu.
+  /* POLJA ZA UNOS – pozadina MORA da ide kroz promenljivu.
      Ranije je bila tvrdo upisana (`background:#fff`) dok se boja teksta menjala
      sa temom (`var(--ink)`). U tamnom režimu je to davalo skoro belo slovo na
-     belom polju — kontrast 1,23:1, ne vidi se šta se kuca (nalaz K2). Dodavanje
+     belom polju – kontrast 1,23:1, ne vidi se šta se kuca (nalaz K2). Dodavanje
      jačeg pravila `body.dark-mode input` NE pomaže: `.search-row input[type=text]`
      ima specifičnost (0,2,1) i nadjačava ga (0,1,2). Zato promenljiva. */
   --field-bg:#fff;
@@ -36,7 +36,7 @@
   --zona-a:#f1ecff;             /* vrh zone alata */
   --zona-b:#f8f6ff;
   /* Traka sa pozivom na saradnju. U tamnoj temi mora da POTAMNI, ne da
-     posvetli — inače je najsvetlije polje na tamnoj strani i vuče oko jače
+     posvetli – inače je najsvetlije polje na tamnoj strani i vuče oko jače
      nego sam alat. Belo slovo na #4a2fb8 = 8,79; na #2f2668 (tamna) = 12,4. */
   --traka-a:#6b4fd8;
   --traka-b:#5566d8;
@@ -49,7 +49,7 @@
   /* LINKOVI U TEKSTU. Do 29.07.2026. im boju NIJE postavljalo nijedno pravilo,
      pa su uzimali podrazumevanu boju pregledača: #0000EE, a posećeni #551A8B.
      Na svetloj pozadini to prolazi (9,4:1), ali u tamnom režimu daje 1,80:1
-     odnosno 1,53:1 — „jedva se čitaju", tačno kako je vlasnica prijavila.
+     odnosno 1,53:1 – „jedva se čitaju", tačno kako je vlasnica prijavila.
      To je i drugi deo nalaza S8 („interni linkovi 1,8:1"). */
   --link:#4557cc;
   --link-visited:#6b3fa0;
@@ -58,13 +58,13 @@
      belo slovo na dosadašnjim prelivima davalo je 2,84–4,35 u svetloj i
      1,78–2,99 u tamnoj temi, a treba najmanje 4,5. Uzrok NIJE bila boja teksta
      nego to što su ispune uzimale iste promenljive kao i tekst (`--rose`,
-     `--mint`, `--lavender`), koje se u tamnoj temi POSVETLE — a ispuna sa belim
+     `--mint`, `--lavender`), koje se u tamnoj temi POSVETLE – a ispuna sa belim
      slovom mora da POTAMNI.
      Zato ispuna i slovo na njoj idu U PARU i imaju svoje promenljive:
        svetla tema → tamna ispuna + belo slovo
        tamna tema  → svetla ispuna + tamno slovo   (obrazac Material 3)
      Svaki par je izmeren na OBA kraja preliva; upisana je najgora vrednost.
-     Ako se ijedna od ovih boja menja, PONOVO IZMERITI — `node test/predeploy.mjs`
+     Ako se ijedna od ovih boja menja, PONOVO IZMERITI – `node test/predeploy.mjs`
      (sekcija 32) pada ako padne ispod 4,5. */
   --fill-primary-a:#5566d8;  /* „Nađi rime": belo na ovome = 4,91 */
   --fill-primary-b:#3b3ab8;  /*                            = 8,46 */
@@ -76,16 +76,16 @@
   --fill-info-b:#0e5fae;     /*                             = 6,43 */
   --on-info:#fff;
   /* Natpis u praznom polju („upiši reč, npr. svet"). Išao je kroz `--muted`,
-     koji u tamnoj temi daje 4,07 — ispod granice. Sada ima svoju promenljivu. */
+     koji u tamnoj temi daje 4,07 – ispod granice. Sada ima svoju promenljivu. */
   --field-hint:#756e94;      /* na belom polju = 4,76 */
   /* ── FUTER ───────────────────────────────────────────────────────────────
      Futer ima svoju podlogu da bi se video kao zaseban pojas, a ne kao
      nastavak strane. Podloga je blago tamnija od strane, pa SITAN TEKST na
      njoj mora da se izmeri iznova: `--muted` (#756e94) na beloj daje 4,76, a
-     na ovoj podlozi pada na 4,20 — ispod granice 4,5. Zato futer ima svoju
+     na ovoj podlozi pada na 4,20 – ispod granice 4,5. Zato futer ima svoju
      boju sitnog teksta. Ako se podloga menja, PONOVO IZMERITI
-     (`node test/predeploy.mjs`, sekcija 36 — pada ispod 4,5). */
-  --futer-bg-a:#fbf9ff;      /* vrh — skoro kao strana, da prelaz bude mekan */
+     (`node test/predeploy.mjs`, sekcija 36 – pada ispod 4,5). */
+  --futer-bg-a:#fbf9ff;      /* vrh – skoro kao strana, da prelaz bude mekan */
   --futer-bg-b:#f5f2ff;      /* dno */
   --futer-sitno:#6a6390;     /* na --futer-bg-b = 4,96 */
   --futer-linija:#d8d0f2;    /* pet linija notnog sistema (ukras, ne nosi podatak) */
@@ -95,19 +95,19 @@
      Izmereno: #6f4bd0 na belom čipu = 5,84, na hover podlozi #f6f0fc = 5,23. */
   --nota-fav:#6f4bd0;
 
-  /* ── ŠIRINE — JEDAN OMOTAČ ZA CELU STRANU ────────────────────────────────
+  /* ── ŠIRINE – JEDAN OMOTAČ ZA CELU STRANU ────────────────────────────────
      Do 02.08.2026. je samo `main` imao ograničenje (940 px), a zaglavlje i
      traka tabova su išli preko cele širine ekrana. Na monitoru od 1920 px to
      je izgledalo kao tri različita rasporeda na jednoj strani: logo na 48 px
      od leve ivice, dugme teme na 1855 px, a rime u traci od 530 do 1390 px.
      Izmereno tada: rezultati su bili široki 857 px na SVAKOM ekranu preko
-     1024 px, pa je u red stajalo tačno 3 kapsule — a četvrtoj je nedostajalo
+     1024 px, pa je u red stajalo tačno 3 kapsule – a četvrtoj je nedostajalo
      89 px (4 kapsule traže 946 px, prosečna kapsula je 230 px + razmak 8,8).
 
      Zašto 940 px uopšte postoji: to je granica za PROZU. Red teksta duži od
      ~75 znakova se teško prati jer oko promaši početak sledećeg reda.
      Zašto tu prestaje da važi: spisak rima NIJE proza. Kapsula je zaokružena
-     celina koja se skenira, ne čita — kao stavka u indeksu ili rečniku, gde
+     celina koja se skenira, ne čita – kao stavka u indeksu ili rečniku, gde
      su kolone pravilo, a ne izuzetak. Uzak red tu ne pomaže nego odmaže:
      na 940 px spisak od 195 rima ima 65 redova i 3.927 px visine.
 
@@ -116,25 +116,25 @@
      78% širine i strana se čita kao jedna celina; na 1560 px padaju na 67%
      i zaglavlje počne da deluje prazno. Zato 1360 px.
 
-     `--sirina-sadrzaj` je čista širina sadržaja (bez odstojanja) — po njoj se
+     `--sirina-sadrzaj` je čista širina sadržaja (bez odstojanja) – po njoj se
      poravnava futer, koji svoje odstojanje računa drugačije. Kad se menja
      `--sirina-okvir`, futer ide sam od sebe. */
   --sirina-okvir:1360px;
   --odstojanje-okvir:clamp(1rem,4vw,2.6rem);
   --sirina-sadrzaj:calc(var(--sirina-okvir) - 2*var(--odstojanje-okvir));
-  /* Traka za unos i filteri. Polje za unos prima JEDNU reč — raširiti ga na
+  /* Traka za unos i filteri. Polje za unos prima JEDNU reč – raširiti ga na
      1.277 px ne bi bilo bolje nego veće. Ova granica ga drži na tačno onoj
      veličini koju je imao dok je omotač bio 940 px, pa se glavni cilj na
      strani nije ni pomerio ni promenio. */
   --sirina-unos:53.5rem;
-  /* Blokovi sa tekstom o alatu su proza — ostaju uski i kad se omotač raširi.
+  /* Blokovi sa tekstom o alatu su proza – ostaju uski i kad se omotač raširi.
      36rem = 576 px; u kartici na tu širinu ostane oko 500 px teksta. */
   --sirina-proza:36rem;
   /* ── MERA REDA (koliko znakova staje u red) ──────────────────────────────
      34em ≈ 75 znakova. Nije procena: 02.08.2026. je prebrojan NAJDUŽI red u
      svakom pasusu na strani (raspon svakog znaka posebno, pa grupisano po
      redovima). Ispalo je da u Rubiku, na srpskom tekstu, jedan znak zauzima
-     0,455em — jer srpski tekst ima mnogo uskih slova (i, j, l, t, r) i razmaka.
+     0,455em – jer srpski tekst ima mnogo uskih slova (i, j, l, t, r) i razmaka.
      Zato je jedinica `em`, a ne `rem` ni `px`: mera se računa u ZNAKOVIMA, a
      znak zavisi od veličine slova tog elementa.
      Dva ranija merenja su bila pogrešna i oba su davala lažan mir:
@@ -146,10 +146,10 @@
 
   /* ── LIST IZ BELEŽNICE (blokovi sa tekstom) ──────────────────────────────
      Papir mora da se razlikuje od strane (strana je bela), a da ostane u
-     lavandi — topla krem nijansa bi uvela novu boju u paletu. */
+     lavandi – topla krem nijansa bi uvela novu boju u paletu. */
   --papir:#f7f4fe;
   --papir-ivica:#ebe4fb;
-  --papir-linija:#e3daf7;   /* linije za pisanje — ukras, ne nose podatak */
+  --papir-linija:#e3daf7;   /* linije za pisanje – ukras, ne nose podatak */
   --papir-margina:#c3b0ef;  /* uspravna margina, kao u svesci */
   --papir-slovo:#6f63a8;    /* slovo šeme rime u margini = 4,93 na papiru */
   /* Sjaj koji prati kursor po kartici i sjaj slova šeme rime. Oboje je UKRAS
@@ -194,7 +194,7 @@ body.dark-mode{
   --tag-ink:#a5b8f8;
   --link:#a5b8f8;
   --link-visited:#c9a5f8;
-  /* Tamna tema: ispuna je SVETLA, a slovo na njoj TAMNO — obrnuto od svetle
+  /* Tamna tema: ispuna je SVETLA, a slovo na njoj TAMNO – obrnuto od svetle
      teme. Merilo je isto (4,5), samo se par okreće. Izmereno 02.08.2026. */
   --fill-primary-a:#a5b8f8;  /* tamno slovo na ovome = 9,22 */
   --fill-primary-b:#7a8ef5;  /*                      = 5,98 */
@@ -216,7 +216,7 @@ body.dark-mode{
   /* Tamna tema: nota mora da POSVETLI da bi se videla na tamnom čipu.
      Izmereno: #b8a5f5 na čipu #1e1a2e = 7,84, na hover podlozi #2a2440 = 6,83. */
   --nota-fav:#b8a5f5;
-  /* List iz beležnice u tamnoj temi — papir je SVETLIJI od strane (#121018),
+  /* List iz beležnice u tamnoj temi – papir je SVETLIJI od strane (#121018),
      kao osvetljen list. Izmereno 02.08.2026, granica 4,5. */
   --papir:#221d36;
   --papir-ivica:#302949;
@@ -227,7 +227,7 @@ body.dark-mode{
   --sjaj-slovo:rgba(184,165,245,.8);
 }
 body.dark-mode{background:#121018}
-/* Klasu na <html> postavlja dark-mode-init.js još u <head> — pre nego što <body>
+/* Klasu na <html> postavlja dark-mode-init.js još u <head> – pre nego što <body>
    uopšte postoji. Bez ove linije bi se između iscrtavanja i DOMContentLoaded
    video beli bljesak. Sva ostala pravila ostaju vezana za `body.dark-mode`. */
 html.dark-mode{background:#121018;color-scheme:dark}
@@ -248,7 +248,7 @@ body.dark-mode .res-group,
 body.dark-mode .related-rimes,
 body.dark-mode .syl-groups,
 /* Odavde su 02.08.2026. sklonjeni `.seo-blok`, `.faq details` i
-   `.landing-faq details` — sva tri iz istog razloga.
+   `.landing-faq details` – sva tri iz istog razloga.
 
    `.seo-blok`: papir lista iz beležnice ide kroz `--papir`, koji postoji u obe
    teme. Da je ostao ovde, `body.dark-mode .seo-blok` (specifičnost 0,2,0) bi
@@ -257,7 +257,7 @@ body.dark-mode .syl-groups,
    `.faq details` i `.landing-faq details`: kod njih je ovo pravilo menjalo
    SAMO pozadinu, dok je ivica ostajala tvrdo upisana `2px solid #fff` iz
    osnovnog pravila. U tamnoj temi je zato svako pitanje imalo BELI okvir od
-   2 px oko tamne ispune — izmereno 02.08.2026, vidi se na svakoj od 1.994
+   2 px oko tamne ispune – izmereno 02.08.2026, vidi se na svakoj od 1.994
    generisane strane i na početnoj. Isti obrazac kao nalaz K2: boja se menja
    kroz promenljivu, a susedno svojstvo ostaje tvrdo upisano. Sada i pozadina
    i ivica idu kroz `--card-bg`, pa ne mogu da se raziđu. */
@@ -404,7 +404,7 @@ body.dark-mode .landing-cta{
   color:#fff;
 }
 /* Pozadine su ranije bile tvrdo upisane (#faf6fe, #eafaf4), a boja teksta je
-   promenljiva koja se menja sa temom — isti obrazac koji je na glavnom polju dao
+   promenljiva koja se menja sa temom – isti obrazac koji je na glavnom polju dao
    kontrast 1,23:1 (nalaz K2). Kad je tamni režim stigao i na strane reči,
    definicija je pala na 1,15:1. Zato pozadina ide kroz promenljivu, da se menja
    zajedno sa temom. */
@@ -473,39 +473,39 @@ body.dark-mode .rhyme-word{
 }
 *{box-sizing:border-box}
 
-/* LINKOVI U TEKSTU — specifičnost je namerno najniža (0,0,1).
+/* LINKOVI U TEKSTU – specifičnost je namerno najniža (0,0,1).
    Tabovi, čipovi, logo, futer, mrvice i dugmad-linkovi imaju svoja pravila sa
    klasom (0,1,0+) i nadjačavaju ovo, pa im se izgled NE menja. Menja se samo
-   ono što do sada uopšte nije bilo stilizovano — linkovi unutar teksta,
+   ono što do sada uopšte nije bilo stilizovano – linkovi unutar teksta,
    odgovora u „Čestim pitanjima" i SEO pasusa. */
 a{color:var(--link)}
 a:visited{color:var(--link-visited)}
 
 /* ── REZERVNI FONT SA USKLAĐENIM MERAMA ──────────────────────────────────────
    Zašto ovo postoji: strana se prvo iscrta rezervnim (sistemskim) fontom, pa kad
-   Rubik stigne sa Google-a, tekst promeni širinu i sve se pomeri (nalaz P16 — na
+   Rubik stigne sa Google-a, tekst promeni širinu i sve se pomeri (nalaz P16 – na
    `/rimovanje-reci/` je red filtera gubio liniju i sadržaj skakao 50 px). Rešenje
    je da rezervni font zauzme ISTU širinu, pa zamena bude nevidljiva.
 
-   30.07.2026 — CEO SAJT JE NA JEDNOM FONTU: **Rubik**. Ranije su bila dva
+   30.07.2026 – CEO SAJT JE NA JEDNOM FONTU: **Rubik**. Ranije su bila dva
    (Quicksand za tekst, Fredoka za naslove i logo) i oba su bila pokvarena za srpski:
      · Quicksand NEMA ćirilicu uopšte;
-     · Fredoka NEMA slova č, ć, đ ni ђ ћ њ љ џ — izmereno: ta slova su u njoj imala
+     · Fredoka NEMA slova č, ć, đ ni ђ ћ њ љ џ – izmereno: ta slova su u njoj imala
        TAČNO širinu sistemskog serifa, dok su š i ž iz istog latin-ext fajla radila.
        Zato je svako „reč" u naslovu mešalo dva fonta, na svih 1.993 strane.
-   `unicode-range` NAJAVLJUJE opseg, ali NE garantuje da glyph postoji — zato se
+   `unicode-range` NAJAVLJUJE opseg, ali NE garantuje da glyph postoji – zato se
    prisustvo slova proverava merenjem širine (`test/meri-font.mjs`).
 
    Odnos širina IZMEREN 30.07.2026 u Chromiumu, na rečenicama sa sajta:
      latinica 1,0087 i 1,0295   ćirilica 1,0228 i 1,0173   prosek 1,0196
-     → size-adjust 106,6% (podešeno po traci tabova, ne po prozi — v. dole) · metrike Rubik: ascent 0,93 descent 0,25
+     → size-adjust 106,6% (podešeno po traci tabova, ne po prozi – v. dole) · metrike Rubik: ascent 0,93 descent 0,25
    ⚠️ MERI SE ONO ŠTO SE POMERA, NE PROZA. Prvo merenje je dalo 102,0% (prosek dve
-   rečenice teksta) i CLS je skočio na **0,37** — jer se ne pomera pasus nego TRAKA
+   rečenice teksta) i CLS je skočio na **0,37** – jer se ne pomera pasus nego TRAKA
    TABOVA, a njen tekst („Rimovanje reči · Rečnik · Brojač slogova…") ima drugi odnos
    širina: Rubik/Arial = 1,0662. Sa 106,6% CLS je 0,0028.
    Postupak: `layout-shift.sources` kaže KOJI element se pomera, pa se `size-adjust`
    podešava po ŠIRINI TOG ELEMENTA.
-   Ako se font ikad promeni, PONOVO IZMERITI — ne prepisivati ove brojeve. */
+   Ako se font ikad promeni, PONOVO IZMERITI – ne prepisivati ove brojeve. */
 /* RUBIK SA NAŠEG SERVERA (nalaz S-06, 07.09.2026). Varijabilni font: jedan fajl pokriva
    sve debljine (300–900). Opsezi znakova su isti kao kod Google-a, pa pregledač skida samo
    pismo koje strana koristi (ćirilica tek kad se prebaci pismo). */
@@ -528,7 +528,7 @@ a:visited{color:var(--link-visited)}
 }
 
 /* iOS Safari sam uvećava slova kad se telefon okrene na stranu („text
-   autosizing") — pesma u beležnici tada odjednom promeni veličinu, a slogovi
+   autosizing") – pesma u beležnici tada odjednom promeni veličinu, a slogovi
    levo od stiha se razmaknu od reda na koji se odnose. Postavka je bez ikakvog
    dejstva na računaru: pregledači na desktopu je ignorišu. */
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
@@ -538,7 +538,7 @@ body{
   font-weight:500;
   color:var(--ink);
   line-height:1.55;
-  /* `100dvh` prati stvarno vidljivu visinu — adresna traka telefona menja
+  /* `100dvh` prati stvarno vidljivu visinu – adresna traka telefona menja
      `100vh` raspored (traka se sakriva/pojavi pri skrolu, pa se strana pomera).
      Stara vrednost ostaje kao rezerva za pregledače bez `dvh`. */
   min-height:100vh;
@@ -548,7 +548,7 @@ body{
   background:#ffffff;
   background-attachment:fixed;
 }
-/* Naslovi — isti font kao sve ostalo (Rubik). Razlog zašto se više ne mešaju
+/* Naslovi – isti font kao sve ostalo (Rubik). Razlog zašto se više ne mešaju
    fontovi stoji u komentaru uz @font-face iznad. */
 h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-weight:700}
 
@@ -558,7 +558,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
    same ivice ekrana: na 1920 px su bili razmaknuti 1.807 px, dok je sadržaj
    stajao u traci od 857 px u sredini. Dugme za tamnu temu je tako bilo
    udaljeno od onoga što čovek gleda skoro celu širinu ekrana. */
-/* Prebacivač pisma stoji uz prebacivač teme, u desnom uglu — zahtev vlasnice
+/* Prebacivač pisma stoji uz prebacivač teme, u desnom uglu – zahtev vlasnice
    03.08.2026. Dotle je stajao po sredini zaglavlja, jer `space-between` sa tri
    stavke sredinu i pravi. `margin-left:auto` gura i njega i mesec udesno, pa
    su sve postavke na jednom mestu, a logo sam na levoj strani.
@@ -571,7 +571,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
   flex-wrap:wrap;gap:1rem;
   /* `width:100%` NIJE višak. `body` je uspravan flex kontejner, pa su
      zaglavlje, tabovi i `main` njegove stavke. Bočna margina `auto` na stavci
-     flexa GASI razvlačenje po poprečnoj osi — bez `width:100%` se element
+     flexa GASI razvlačenje po poprečnoj osi – bez `width:100%` se element
      skupi na širinu svog sadržaja. Izmereno 02.08.2026: zaglavlje je palo sa
      1360 na 635 px, a traka tabova je izašla iz ekrana i napravila
      vodoravno skrolovanje od 641 px na telefonu od 360 px. */
@@ -582,7 +582,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
 .brand{cursor:pointer;border-radius:14px;padding:.2rem .4rem;transition:transform .15s ease,opacity .15s ease;user-select:none}
 .brand:hover{transform:translateY(-1px);opacity:.92}
 .brand:focus-visible{outline:2px solid var(--lavender-deep);outline-offset:3px}
-/* LOGO — NE DIRATI, NE SMANJIVATI.
+/* LOGO – NE DIRATI, NE SMANJIVATI.
    Od 30.07.2026. ceo sajt je na jednom fontu (Rubik), pa logo više ne može tiho da
    „padne" na drugi font kao ranije. Veličina i debljina se i dalje ne diraju. */
 .brand h1,
@@ -611,7 +611,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
 .pro-toggle{border:0;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;box-shadow:var(--shadow-sm);padding:.45rem 1rem;cursor:pointer;font:inherit;font-weight:700;font-size:.85rem;border-radius:999px;transition:.2s;margin-left:.5rem}
 .pro-toggle:hover{transform:translateY(-1px);opacity:.92}
 
-/* IGRA RIMA — setup */
+/* IGRA RIMA – setup */
 .game-setup{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
 .game-setup-group{margin-bottom:1.5rem}
 .game-setup-label{display:block;font-weight:600;color:var(--ink);margin-bottom:.6rem;font-family:'Rubik','Rubik rezerva',sans-serif}
@@ -623,7 +623,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
 .game-start-btn{display:block;width:100%;padding:1rem;background:linear-gradient(95deg,var(--lavender-deep),var(--rose-deep));color:#fff;border:0;border-radius:16px;font:inherit;font-weight:700;font-size:1.1rem;cursor:pointer;margin-top:1.5rem;transition:.2s}
 .game-start-btn:hover{opacity:.92}
 
-/* IGRA RIMA — predaja uređaja između igrača */
+/* IGRA RIMA – predaja uređaja između igrača */
 .game-handoff{
   background:#fff;border-radius:24px;padding:2.2rem 2rem;box-shadow:var(--shadow-sm);
   max-width:500px;margin:0 auto;text-align:center;
@@ -646,7 +646,7 @@ h1,h2,h3,.disp{font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;font-wei
 body.dark-mode .game-handoff{background:#1e1a2e}
 body.dark-mode .game-handoff-title{color:var(--lavender)}
 
-/* IGRA RIMA — play */
+/* IGRA RIMA – play */
 .game-play{background:#fff;border-radius:24px;padding:1.5rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto}
 .game-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
 .game-player-info{display:flex;gap:1rem;font-family:'Rubik','Rubik rezerva',sans-serif}
@@ -659,7 +659,7 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .game-progress-dot.correct{background:#2ecc71}
 .game-progress-dot.wrong{background:#e74c3c}
 
-/* IGRA RIMA — results */
+/* IGRA RIMA – results */
 .game-results{background:#fff;border-radius:24px;padding:2rem;box-shadow:var(--shadow-sm);max-width:500px;margin:0 auto;text-align:center}
 .game-results-title{font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.8rem;color:var(--lavender-deep);margin:0 0 1.5rem}
 .game-results-list{display:flex;flex-direction:column;gap:.8rem;margin-bottom:1.5rem}
@@ -676,7 +676,7 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
   .game-option{padding:.5rem 1rem;font-size:.9rem}
 }
 
-/* IGRA RIMA — animacije */
+/* IGRA RIMA – animacije */
 @keyframes confetti-fall{
   to{transform:translateY(100vh) rotate(720deg);opacity:0}
 }
@@ -704,11 +704,11 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 .donate-btn:hover{background:var(--lavender);color:#fff}
 
 /* TABS */
-/* Isti omotač kao zaglavlje i sadržaj. Ispod 1360 px se ništa ne menja —
+/* Isti omotač kao zaglavlje i sadržaj. Ispod 1360 px se ništa ne menja –
    traka je i pre bila široka koliko i ekran. */
 .tabs{
   display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;
-  width:100%;max-width:var(--sirina-okvir);margin-inline:auto;   /* `width:100%` — v. napomenu u .site-header */
+  width:100%;max-width:var(--sirina-okvir);margin-inline:auto;   /* `width:100%` – v. napomenu u .site-header */
   padding:.4rem var(--odstojanje-okvir);
 }
 .tabs button,.tabs a{text-decoration:none;
@@ -720,7 +720,7 @@ body.dark-mode .game-handoff-title{color:var(--lavender)}
 /* Aktivan tab. `body.dark-mode .tabs a` (specifičnost 0,2,1) je nadjačavao
    `.tabs a.active` (0,2,0) i u tamnoj temi ISPRAO razliku do nule: aktivan i
    neaktivan tab imali su istu pozadinu `#1e1a2e`, isto slovo `#e8e6f5` i istu
-   debljinu 600 — izmereno 02.08.2026, razlika nikakva, čovek nije znao u kom je
+   debljinu 600 – izmereno 02.08.2026, razlika nikakva, čovek nije znao u kom je
    alatu. Zato ovo pravilo nosi `body` u selektoru: tako je jače od pravila teme,
    a ne mora da se piše dvaput.
    Razliku nose TRI stvari, ne samo boja (zbog daltonizma i jarkog sunca):
@@ -735,15 +735,15 @@ body .tabs button.active .badge,body .tabs a.active .badge{background:var(--on-a
 
 /* MAIN */
 main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:.6rem var(--odstojanje-okvir) 3rem}
-/* ── ZONA ALATA — HERO IMA TEŽINU (02.08.2026) ─────────────────────────────
+/* ── ZONA ALATA – HERO IMA TEŽINU (02.08.2026) ─────────────────────────────
    Vlasnica: „hoću da hero bude izražen, a ne tekst koji nam služi za SEO".
    Do sada su naslov, polje i ceo tekst ispod stajali na istoj beloj podlozi,
-   bez ijedne granice — pa ništa nije bilo glavno.
+   bez ijedne granice – pa ništa nije bilo glavno.
 
    Rešenje je jedan blag preliv koji pada od vrha strane i gasi se otprilike
    tamo gde se alat završava. Nije okvir oko rezultata (spisak od 200 rima u
    kutiji izgleda teško), nego svetlo koje pada odozgo: oko odmah zna gde je
-   vrh strane i šta je na njemu. Preliv je jedva vidljiv (#f4f0ff → belo) —
+   vrh strane i šta je na njemu. Preliv je jedva vidljiv (#f4f0ff → belo) –
    posao mu je da napravi red, ne da se primeti. */
 .alat-zona{
   position:relative;
@@ -752,7 +752,7 @@ main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:.6rem var(--
   background:linear-gradient(180deg,var(--zona-a) 0%,var(--zona-b) 42%,transparent 92%);
 }
 .hero{text-align:center;margin:0 0 1.6rem;padding:.6rem 0 0}
-/* Najveća veličina je 1,70rem, ne 1,9rem — sa Rubikom (širi od starog fonta) se
+/* Najveća veličina je 1,70rem, ne 1,9rem – sa Rubikom (širi od starog fonta) se
    naslov na 1440 px lomio u dva reda: trebalo mu je 910 px, a kontejner ima 857.
    Izmereno 30.07.2026; ako se font ili tekst naslova promene, PONOVO IZMERITI. */
 .hero h1{font-size:clamp(1.45rem,4vw,2.05rem);font-weight:700;color:var(--lavender-deep);margin:0 0 .5rem;line-height:1.2;letter-spacing:-.01em}
@@ -767,16 +767,16 @@ main{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:.6rem var(--
 /* SEARCH */
 /* Traka za unos i filteri stoje u svom, užem omotaču i poravnati su po sredini
    sa naslovom iznad. Spisak rima ispod ide preko cele širine. Razlog: polje
-   prima jednu reč, pa mu širina od 1.277 px ne daje ništa — a rasuti filteri
+   prima jednu reč, pa mu širina od 1.277 px ne daje ništa – a rasuti filteri
    preko cele te širine odvlače oko od polja. Ovako strana ima jasan levak:
    naslov i polje u sredini, pa se ispod otvara polje rezultata. */
 .search-row,.filters{max-width:var(--sirina-unos);margin-inline:auto}
 .search-row{position:relative;display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.1rem}
-/* OKVIR POLJA — vlasnica 02.08.2026: „zašto ta kapsula nije uokvirena, nego se
+/* OKVIR POLJA – vlasnica 02.08.2026: „zašto ta kapsula nije uokvirena, nego se
    stapa sa pozadinom". Bila je u pravu i uzrok je bio doslovan: `--field-line`
-   je u svetloj temi bio `#fff`, a strana je takođe bela — dakle beli okvir na
+   je u svetloj temi bio `#fff`, a strana je takođe bela – dakle beli okvir na
    beloj podlozi. Sada okvir ima svoju promenljivu `--polje-okvir`, koja u obe
-   teme stoji naspram podloge (izmereno: svetla 1,42:1 prema belom — dovoljno
+   teme stoji naspram podloge (izmereno: svetla 1,42:1 prema belom – dovoljno
    da se ivica vidi, a da ne viče; tamna 1,55:1). */
 .search-row input[type=text],.search-row select{
   flex:1;min-width:180px;font:inherit;font-size:1.12rem;font-weight:600;
@@ -826,29 +826,29 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 /* Rime u ravnomernim kolonama. Ranije flex-wrap: čipovi su različite širine pa
    je red primao čas 3 čas 4 reči i poslednja bi visila sama. Mreža daje svakoj
    reči jednaku ćeliju, pa su kolone poravnate. */
-/* RASPORED REZULTATA — ČIP SE ŠIRI PO REČI, NE REČ PO KOLONI.
+/* RASPORED REZULTATA – ČIP SE ŠIRI PO REČI, NE REČ PO KOLONI.
    Prvo je ovde bila mreža od 11.5rem: sadržaj čipa (reč + slogovi + tri
    ikonice) nije stao, pa je ikonica „nađi rime" stajala IZVAN pilule.
-   Zatim je kolona proširena na 15rem i čipu je dozvoljeno prelamanje — ništa
+   Zatim je kolona proširena na 15rem i čipu je dozvoljeno prelamanje – ništa
    više nije izlazilo napolje, ali se kod dužih reči („dobročiniteljka",
    „bogomoljka", „hraniteljka") ikonica selila u DRUGI red. Pošto u mreži sve
    ćelije jedne vrste imaju istu visinu, jedan prelomljen čip razvlačio je i sve
-   svoje susede — pa je „biljka" dobijala pilulu duplo veću nego što joj treba.
+   svoje susede – pa je „biljka" dobijala pilulu duplo veću nego što joj treba.
 
    Rešenje je da raspored prestane da bude mreža jednakih kolona. Čipovi se
    ređaju kao niz koji se prelama, a svaki je tačno onoliko širok koliko mu
-   sadržaj traži — pa nijedan nema šta da prelomi ni da razvuče suseda.
+   sadržaj traži – pa nijedan nema šta da prelomi ni da razvuče suseda.
    Prelamanje UNUTAR čipa ostaje kao poslednja zaštita (v. `.chip`), za slučaj
    duge reči na uskom telefonu. */
 .results{display:flex;flex-wrap:wrap;gap:.55rem;align-content:start;align-items:flex-start}
-/* Prazno stanje — stoji dok se ne uradi prva pretraga. Boje idu iz promenljivih, da bi
+/* Prazno stanje – stoji dok se ne uradi prva pretraga. Boje idu iz promenljivih, da bi
    radilo i u tamnoj temi; tvrdo upisana pozadina bi u tamnoj temi dala nečitljiv tekst
-   (AUDIT-PROTOKOL, provera br. 2 — kontrast u obe teme). */
-/* PRAZNO STANJE — ono što čovek gleda pre prve pretrage.
+   (AUDIT-PROTOKOL, provera br. 2 – kontrast u obe teme). */
+/* PRAZNO STANJE – ono što čovek gleda pre prve pretrage.
    Vlasnica 02.08.2026: „koliko je nabijen tekst ispod glavnog dela sajta".
    Bila je u pravu: stajao je 0,2rem ispod filtera, pa je izgledao kao nastavak
    alata umesto kao objašnjenje. Sada ga od heroja deli razmak i tanka linija,
-   a tri saveta stoje kao tri kartice — ravnopravne, sa svojim okvirom. */
+   a tri saveta stoje kao tri kartice – ravnopravne, sa svojim okvirom. */
 .prazno-stanje{
   width:100%;max-width:none;color:var(--muted);font-size:.97rem;line-height:1.6;
   margin-top:2.2rem;padding-top:1.6rem;border-top:1px solid var(--traka-okvir);
@@ -866,7 +866,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
   padding:.95rem 1.1rem;box-shadow:0 1px 3px rgba(90,63,208,.05);
 }
 .prazno-stanje a{color:var(--rose-deep);font-weight:600}
-/* u red sa rečima idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke — preko cele širine */
+/* u red sa rečima idu SAMO reči; naslovi grupa, legenda, sinonimi i poruke – preko cele širine */
 .results > *:not(.chip){width:100%}
 .res-group{margin-bottom:.5rem}
 /* „Preskoči na sadržaj" (nalaz S-25): nevidljiv dok ne dobije fokus tastaturom, onda prvi na strani. */
@@ -876,12 +876,12 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .res-note{font-size:.85rem;color:var(--ink-soft);margin:-.35rem 0 .65rem;line-height:1.4}   /* napomena uz rezervnu grupu (nalaz N-R1) */
 .res-group h2,.res-group h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:.6rem 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .chip{
-  /* `inline-flex`, ne `flex` — i to je bitno, nije stvar ukusa.
+  /* `inline-flex`, ne `flex` – i to je bitno, nije stvar ukusa.
      Čipovi ne stoje samo u mreži `.results`; na stranama `/rimovanje-reci/`,
      `/rime-za-decu/` i ostalim tematskim stranama ubačeni su USRED PASUSA
      („Evo reči za koje se rime najviše traže: …"). `display:flex` je blok, pa
      je tamo svaki čip zauzimao ceo red i spisak od 24 reči padao je jedna
-     ispod druge, preko celog ekrana — prijava vlasnice 29.07.2026, sa slikom.
+     ispod druge, preko celog ekrana – prijava vlasnice 29.07.2026, sa slikom.
      Uneto 28.07. u `b3bd730b2` uz popravku ikonica, i nijedna sesija to nije
      videla jer test gleda samo čipove UNUTAR `.results`.
      Unutar `.results` razlike nema: flex kontejner ionako „blokira" display
@@ -891,7 +891,7 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
   /* Prelamanje je zaštita, ne izgled: kod duge reči na uskom telefonu ikonice
      pređu u drugi red UNUTAR pilule umesto da izađu iz nje. Reč ostaje cela.
      Otkad se čipovi ređaju kao niz (v. `.results`), do prelamanja ne dolazi na
-     uobičajenim širinama — čip se prosto raširi koliko reč traži.
+     uobičajenim širinama – čip se prosto raširi koliko reč traži.
      `max-width` je granica te zaštite: čip nikad ne sme da bude širi od reda. */
   flex-wrap:wrap;min-width:0;max-width:100%;
   background:#fff;border:2px solid #fff;border-radius:999px;
@@ -940,17 +940,17 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .note-stats{margin-top:.7rem;text-align:right;font-size:.85rem;font-weight:600;color:var(--ink-soft)}
 .note-stats:not(:empty){padding:.5rem .9rem;background:#fff;border-radius:14px;box-shadow:var(--shadow-sm);display:inline-block;float:right}
 
-/* Upozorenje da čuvanje ne radi (privatni režim / blokirano skladište) —
+/* Upozorenje da čuvanje ne radi (privatni režim / blokirano skladište) –
    vidljivo dok korisnik ne pročita; nije toast koji nestane. */
 .note-warn{margin:0 0 .8rem;background:#fdf0f3;color:var(--rose-deep);border:2px solid var(--rose);border-radius:14px;padding:.6rem .9rem;font-size:.88rem;font-weight:600;line-height:1.45}
 body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 
-/* NOTE RHYMES — rime za poslednju reč u beležnici */
+/* NOTE RHYMES – rime za poslednju reč u beležnici */
 .note-rhymes{margin-top:1rem;background:#fff;border-radius:20px;padding:1rem 1.2rem;box-shadow:var(--shadow-sm);border:2px solid #fff;min-height:60px}
 .note-rhymes:empty{display:none}
 .note-rhymes h4{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--lavender-deep);font-weight:700;margin:0 0 .7rem;display:flex;align-items:center;gap:.4rem}
 .note-rhymes .nr-word{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700;color:var(--rose-deep)}
-/* Reč u zaglavlju panela je dugme — vraća tu reč u stih. Izgleda kao tekst dok
+/* Reč u zaglavlju panela je dugme – vraća tu reč u stih. Izgleda kao tekst dok
    je ne dodirneš, jer je pre svega naslov; podvlačenje tačkicama je jedini
    nagoveštaj da se klikće, a pun okvir dolazi tek na prelaz mišem. */
 .note-rhymes .nr-word-btn{
@@ -965,7 +965,7 @@ body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 .note-rhymes .results{margin-top:.5rem}
 .note-rhymes .nr-empty{color:var(--ink-soft);font-style:italic;font-size:.92rem}
 
-/* Rima uz stih se klikće — zato reaguje jače nego čip u rezultatima:
+/* Rima uz stih se klikće – zato reaguje jače nego čip u rezultatima:
    podigne se, malo naraste i dobije obojen okvir sa senkom (3D). */
 .note-rhymes .chip{
   cursor:pointer;
@@ -993,7 +993,7 @@ body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
   .note-rhymes .chip.chip-inserted{animation:none}
 }
 
-/* „još N rima" — otvara ostatak liste u samom panelu */
+/* „još N rima" – otvara ostatak liste u samom panelu */
 .nr-more{
   display:block;width:100%;margin-top:.8rem;padding:.5rem .8rem;
   border:2px dashed var(--line);border-radius:14px;background:transparent;
@@ -1002,7 +1002,7 @@ body.dark-mode .note-warn{background:#33222b;color:#ffb3c6;border-color:#8a4a5e}
 }
 .nr-more:hover{border-color:var(--rose);color:var(--rose-deep);background:rgba(138,160,245,.08)}
 
-/* BROJAČ SLOGOVA — brojevi levo od reda, u istom okviru kao tekst.
+/* BROJAČ SLOGOVA – brojevi levo od reda, u istom okviru kao tekst.
    Nevidljiva kopija (.syl-mirror) služi samo za merenje gde koji red počinje. */
 .syl-box{position:relative;display:flex;border-radius:20px;overflow:hidden;background:#fff;line-height:1.95;box-shadow:var(--shadow-sm);border:2px solid #fff}
 .syl-box:focus-within{border-color:var(--lavender)}
@@ -1031,12 +1031,12 @@ body.dark-mode .syl-box{border-color:var(--line)}
 .gutter{position:relative;overflow:hidden;background:linear-gradient(180deg,#f8f0fe,#eef6fb);color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif;font-size:1.08rem;line-height:1.95;font-variant-numeric:tabular-nums;width:4.4rem;flex:0 0 4.4rem;user-select:none}
 .gutter-inner{position:absolute;inset:0 0 auto 0;will-change:transform}
 .gutter-row{position:absolute;left:0;right:0;display:flex;align-items:flex-start;gap:.18rem;padding:0 .5rem 0 .3rem;box-sizing:border-box}
-/* prored nasleđen od reda (JS ga postavlja na prored editora) — bez ovoga
+/* prored nasleđen od reda (JS ga postavlja na prored editora) – bez ovoga
    line-height:1.95 se preračunava po veličini slova i sadržaj „padne" niže */
 .gutter-row>span{line-height:inherit}
 /* Hvataljka za premeštanje stiha je UVEK vidljiva (04.08.2026, nalaz vlasnice):
    do tada je imala opacity:0 i pojavljivala se tek kad miš slučajno pređe preko
-   beležnice — pa niko nije otkrivao funkciju koju konkurencija nema. Sada je
+   beležnice – pa niko nije otkrivao funkciju koju konkurencija nema. Sada je
    podloga uvek na .5, a hover je samo pojačava. */
 .gutter-row .g-drag{
   flex:0 0 .95rem;color:var(--muted);cursor:grab;opacity:.5;transition:opacity .15s ease;
@@ -1047,7 +1047,7 @@ body.dark-mode .syl-box{border-color:var(--line)}
 .gutter-row.dragging .g-drag{cursor:grabbing;opacity:1;color:var(--rose-deep)}
 .gutter-row.dragging{background:rgba(155,89,182,.12);border-radius:6px}
 .gutter-row .g-letter{flex:0 0 .95rem;text-align:center;font-weight:700;font-size:.92rem;color:var(--lavender-deep)}
-/* stih koji se ni sa čim ne rimuje — slovo se vidi, ali ne vuče pažnju */
+/* stih koji se ni sa čim ne rimuje – slovo se vidi, ali ne vuče pažnju */
 .gutter-row .g-letter-solo{opacity:.32;font-weight:600}
 .gutter-row .g-syl{flex:1 1 auto;text-align:right}
 .note-drop-line{position:absolute;left:0;right:0;height:0;border-top:2px dashed var(--rose-deep);opacity:0;pointer-events:none;z-index:4}
@@ -1056,11 +1056,11 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 .notepad-text{border:0;border-radius:0;min-height:360px;box-shadow:none;flex:1 1 auto;min-width:0;overflow-y:auto}
 .notepad-text:focus{outline:0}
 /* Sakriveno od oka, dostupno kodu (npr. pomoćno polje preko kog beležnica
-   traži rime na strani /pisanje-pesama/). Ne koristiti display:none —
+   traži rime na strani /pisanje-pesama/). Ne koristiti display:none –
    skriptama treba element koji stvarno postoji u rasporedu. */
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 
-/* LEGENDA BELEŽNICE — šta znače oznake levo od stiha */
+/* LEGENDA BELEŽNICE – šta znače oznake levo od stiha */
 .notepad-legend{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:.6rem 0 0;font-size:.78rem;color:var(--muted);font-weight:500}
 .notepad-legend>span{display:inline-flex;align-items:baseline;gap:.3rem}
 .notepad-legend b{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:700}
@@ -1069,7 +1069,7 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 .notepad-legend .lg-num{color:var(--lavender-deep)}
 .notepad-legend .lg-word{color:#c42818;background:#c4281822;border-radius:4px;padding:0 3px}
 
-/* METAR — ritam stiha */
+/* METAR – ritam stiha */
 .note-meter{margin-top:.9rem;background:#fff;border-radius:18px;padding:.9rem 1.1rem;box-shadow:var(--shadow-sm);border:2px solid #fff}
 .note-meter[hidden]{display:none}
 .meter-head{font-size:.88rem;color:var(--ink-soft);font-weight:600;margin-bottom:.7rem;padding-bottom:.55rem;border-bottom:1px solid var(--line)}
@@ -1081,7 +1081,7 @@ body.notes-dragging,body.notes-dragging .notepad-text{cursor:grabbing;user-selec
 .meter-line .m-count.off{color:var(--mint-deep)}
 .meter-line .m-marks{flex:0 0 auto;display:flex;align-items:center;line-height:1;letter-spacing:.04em}
 .meter-line .m-text{flex:1 1 auto;min-width:0;font-size:.88rem;color:var(--ink-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-/* oblici slogova se crtaju, ne pišu — znak ● i znak · su u većini fontova
+/* oblici slogova se crtaju, ne pišu – znak ● i znak · su u većini fontova
    skoro iste veličine, pa se naglašen i nenaglašen slog ne razlikuju na oku */
 .m-syl{position:relative;display:inline-block;width:.78rem;height:.78rem;vertical-align:middle}
 .m-syl:before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;box-sizing:border-box}
@@ -1098,17 +1098,17 @@ body.dark-mode .note-meter{background:#1e1a2e;border-color:var(--line)}
 
 .link-btn{border:0;background:transparent;color:var(--rose-deep);cursor:pointer;font:inherit;font-weight:700;text-decoration:underline;padding:0;margin:0 .15rem}
 
-/* ── TRAKA RADNJI U BELEŽNICI — PILULE I NA RAČUNARU (03.08.2026) ──────────
+/* ── TRAKA RADNJI U BELEŽNICI – PILULE I NA RAČUNARU (03.08.2026) ──────────
    Prijava vlasnice: „obriši pesmu, sačuvaj rime u omiljene, preuzmi listu,
-   preuzmi pesmu — deluje kao jedna rečenica bez tačke i zareza". Tako je i
+   preuzmi pesmu – deluje kao jedna rečenica bez tačke i zareza". Tako je i
    bilo: sedam podvučenih reči u nizu, sa razmakom od 2 px, odmah iza pasusa
    koji ih objašnjava. Na telefonu su pilule postojale od 02.08.2026, na
-   računaru nisu — sad su svuda iste.
+   računaru nisu – sad su svuda iste.
 
    Tri stvari koje to razdvajaju:
      · objašnjenje ide u SVOJ red (`flex-basis:100%`), radnje u svoj;
      · svaka radnja je pilula sa svojom ivicom, pa se vidi gde počinje i staje;
-     · srodne radnje stoje u grupi, a grupe razdvaja tanka uspravna crta —
+     · srodne radnje stoje u grupi, a grupe razdvaja tanka uspravna crta –
        brisanje posebno, rime posebno, pesma posebno, prikaz posebno. */
 .hint-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}
 .hint-actions .hint-txt{flex:1 1 100%;margin:0 0 .6rem}
@@ -1126,7 +1126,7 @@ body.dark-mode .note-meter{background:#1e1a2e;border-color:var(--line)}
 }
 .hint .link-btn:hover,
 .poem-foot .link-btn:hover{border-color:var(--lavender);color:var(--lavender-deep);background:var(--menu-hover)}
-/* Dve radnje brišu tuđi rad — pesmu i spisak omiljenih, i zato stoje u crvenom
+/* Dve radnje brišu tuđi rad – pesmu i spisak omiljenih, i zato stoje u crvenom
    stalno, ne tek na prelaz mišem (odluka vlasnice 03.08.2026, posle probe sa
    neutralnim izgledom). U nizu jednakih pilula se inače lako promaše. */
 .hint #clearNotes.link-btn,
@@ -1135,7 +1135,7 @@ body.dark-mode .hint #clearNotes.link-btn,
 body.dark-mode .hint #clearFavs.link-btn{color:#ff9182;border-color:rgba(255,145,130,.38)}
 .hint #clearNotes.link-btn:hover,
 .hint #clearFavs.link-btn:hover{color:#8f2b21;border-color:rgba(179,55,42,.6);background:rgba(179,55,42,.06)}
-/* U tamnoj temi tamnocrvena pada na 2,63 naspram tamne pilule — nečitko.
+/* U tamnoj temi tamnocrvena pada na 2,63 naspram tamne pilule – nečitko.
    Svetlija crvena na istoj podlozi daje 7,3. */
 body.dark-mode .hint #clearNotes.link-btn:hover,
 body.dark-mode .hint #clearFavs.link-btn:hover{color:#ffb3a8;border-color:rgba(255,145,130,.7);background:rgba(255,145,130,.12)}
@@ -1152,7 +1152,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 /* ── NA TELEFONU HERO MORA DA BUDE SAŽET ───────────────────────────────────
    Na 390×664 px zaglavlje i tabovi pojedu 250 px pre nego što hero uopšte
    počne. Zato se na telefonu stišava sve što nije polje za unos: manje
-   odstojanje zone, manji naslov i manji podnaslov. Tekst se NE sklanja —
+   odstojanje zone, manji naslov i manji podnaslov. Tekst se NE sklanja –
    samo zauzima manje. Izmereno 03.08.2026: polje se sa 439 px podiglo. */
 @media(max-width:560px){
   .alat-zona{padding:0 .8rem 1.6rem;border-radius:18px}
@@ -1163,30 +1163,30 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 }
 
 /* ── SKLOPIVI BLOKOVI SA TEKSTOM O ALATU (02.08.2026) ──────────────────────
-   Isti oblik kao „Česta pitanja" ispod njih — namerno, da strana ima jedan
+   Isti oblik kao „Česta pitanja" ispod njih – namerno, da strana ima jedan
    jezik otvaranja, a ne dva. Otvara se na klik i na `Enter` (to `<details>`
    radi sam), pa nema šta da se dodaje u JS.
-   Pokret: samo `opacity` i `transform`, 180 ms — po skali za ulazak malog
+   Pokret: samo `opacity` i `transform`, 180 ms – po skali za ulazak malog
    elementa. Visina se NE animira: animacija visine tera pregledač da ponovo
    računa raspored cele strane i na telefonu se vidi kao trzanje. */
 /* ── LIST IZ BELEŽNICE ─────────────────────────────────────────────────────
    Vlasnica je 02.08.2026. rekla da su blokovi „samo harmonika" i bila je u
    pravu: bili su isti beli pravougaonici kao „Česta pitanja" ispod njih, sa
-   znakom ＋. Njena ideja je bila „notes za pisanje pesama" — i to je ovde
+   znakom ＋. Njena ideja je bila „notes za pisanje pesama" – i to je ovde
    izvedeno bukvalno, jer motiv mora da znači nešto BAŠ na ovom sajtu:
 
      · papir koji se razlikuje od strane, sa uspravnom marginom kao u svesci;
-     · u toj margini stoji slovo šeme rime (A, B, A) — tačno ono što pesnik
+     · u toj margini stoji slovo šeme rime (A, B, A) – tačno ono što pesnik
        piše sa strane dok proverava kako mu se pesma sklapa. Tri bloka daju
-       shemu ABA. Slovo je UKRAS (`aria-hidden`), ne dugme i ne podatak —
+       shemu ABA. Slovo je UKRAS (`aria-hidden`), ne dugme i ne podatak –
        ništa se ne gubi ako ga neko ne primeti;
      · linije za pisanje iza teksta, sa razmakom tačno jednakim visini reda,
        pa slova sede NA linijama, kao u svesci. Zato razmak paragrafa mora
-       biti umnožak istog koraka — inače se ritam raspadne već na drugom
+       biti umnožak istog koraka – inače se ritam raspadne već na drugom
        pasusu.
 
    Šta se NIJE radilo i zašto: slovo A/B/A NE zamenjuje znak za otvaranje.
-   Provera „šta ovo radi" pada — čovek koji vidi samo „A" ne zna da se blok
+   Provera „šta ovo radi" pada – čovek koji vidi samo „A" ne zna da se blok
    otvara. Zato otvaranje nosi ugaonik (chevron) desno, koji se okreće. */
 .seo-blokovi{display:flex;flex-direction:column;gap:.7rem;margin:0 0 1.6rem;max-width:var(--sirina-proza)}
 .seo-blok{
@@ -1198,19 +1198,19 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   transition:border-color .18s cubic-bezier(.2,0,0,1);
 }
 .seo-blok[open]{border-color:var(--papir-margina)}
-/* Uspravna margina — ide kroz ceo list, i preko naslova i preko teksta. */
+/* Uspravna margina – ide kroz ceo list, i preko naslova i preko teksta. */
 .seo-blok::before{
   content:'';position:absolute;left:2.7rem;top:.6rem;bottom:.6rem;width:1px;
   background:var(--papir-margina);
 }
 /* Slovo šeme rime u margini. Poravnato sa redom naslova, ne sa vrhom lista.
-   Uporište mu je RED SA NASLOVOM (`summary`), a ne ceo list — zato je `left`
+   Uporište mu je RED SA NASLOVOM (`summary`), a ne ceo list – zato je `left`
    negativan, tačno za levo odstojanje lista (3,7rem), pa slovo padne u marginu.
    Zašto ovako: sjaj koji prati kursor stoji ISPOD teksta, a da bi tekst bio
    iznad njega, red sa naslovom mora da bude `position:relative`. Time on
    postaje uporište i za sve što je u njemu apsolutno postavljeno. Dok je slovo
    bilo vezano za ceo list, u trenutku kad se sjaj uključi ono je odletelo pod
-   naslov — viđeno na kadru snimka ulaza, 02.08.2026. */
+   naslov – viđeno na kadru snimka ulaza, 02.08.2026. */
 .seo-blok summary{position:relative}
 .seo-blok-slovo{
   position:absolute;left:-3.7rem;top:0;width:2.7rem;height:44px;
@@ -1224,10 +1224,10 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 }
 .seo-blok summary::-webkit-details-marker{display:none}
 /* Naslov ostaje pravi `h3` zbog pretraživača, ali unutar reda ne sme da nosi
-   svoje razmake — inače red poskoči i dodirni cilj se raspadne. */
+   svoje razmake – inače red poskoči i dodirni cilj se raspadne. */
 .seo-blok summary h3{margin:0;flex:1 1 auto;font-size:1.02rem;font-weight:600;color:var(--ink);line-height:1.35}
 .seo-blok summary:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:3px;border-radius:10px}
-/* Ugaonik: dve ivice kvadrata okrenute za 45°. Crta se, ne piše — znak `＋`
+/* Ugaonik: dve ivice kvadrata okrenute za 45°. Crta se, ne piše – znak `＋`
    je u fontu bio različite širine u svakoj temi. Okreće se za 90 ms
    (odziv na potez), i to `transform`-om, pa raspored ostaje netaknut. */
 .seo-blok-znak{
@@ -1241,7 +1241,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
    red sedi na svojoj liniji.
    Pomeraj je IZMEREN, ne procenjen: prvi red počinje 8 px od vrha tela, a
    osnova slova mu pada na 27,4 px. Linija stoji na 27–28 px unutar koraka,
-   pa pomeraj od 2 px spusti liniju na 29 px — 1,6 px ispod osnove slova,
+   pa pomeraj od 2 px spusti liniju na 29 px – 1,6 px ispod osnove slova,
    tačno kao u svesci (repovi slova „j" i „p" prelaze preko linije).
    Ako se promeni veličina slova ili visina reda, OVO SE MERI PONOVO. */
 .seo-blok-telo{
@@ -1251,28 +1251,28 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   background-position:0 2px;
   animation:blok-ulaz .18s cubic-bezier(.2,0,0,1);
 }
-/* max-width je u REM, nikad u `ch` — `ch` je širina znaka u TEKUĆEM fontu, pa
+/* max-width je u REM, nikad u `ch` – `ch` je širina znaka u TEKUĆEM fontu, pa
    se preračuna kad stigne Rubik i strana poskoči (02.08.2026: skakanje sa
    0,005 na 0,192, pri granici 0,1).
-   Mera ide kroz `--mera-proze` (34em ≈ 75 znakova) — v. napomenu uz tu
+   Mera ide kroz `--mera-proze` (34em ≈ 75 znakova) – v. napomenu uz tu
    promenljivu. Ranije je ovde stajalo 47rem uz napomenu „~74 znaka"; to je bilo
    procenjeno preko širine nule, a prebrojano najdužim redom ispalo je 87. */
-/* Visina reda je 1,75rem (28 px) i razmak između pasusa je isto 28 px — jedan
+/* Visina reda je 1,75rem (28 px) i razmak između pasusa je isto 28 px – jedan
    prazan red u svesci. Da je razmak bio .7rem, linije bi se već od drugog
    pasusa razišle sa tekstom. */
 .seo-blok-telo p{margin:0;color:var(--ink-soft);font-size:.95rem;line-height:1.75rem;max-width:var(--mera-proze)}
 .seo-blok-telo p + p{margin-top:1.75rem}
 @keyframes blok-ulaz{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 
-/* ── „SMANJI POKRET" — GLOBALNO PRAVILO (02.08.2026) ───────────────────────
+/* ── „SMANJI POKRET" – GLOBALNO PRAVILO (02.08.2026) ───────────────────────
    Provereno 02.08.2026 pokretanjem (ne čitanjem koda): sa uključenim
    podešavanjem „smanji pokret" na uređaju, animacija `fade` i prelazi na
    dugmadima i dalje su radili. Postojala su samo dva uska pravila (čipovi u
    beležnici), a u fajlu ima 12 animacija i 33 prelaza.
    Podešavanje uključuju ljudi kojima od pokreta na ekranu pozli (vestibularne
-   smetnje) — za njih pokret nije ukras nego smetnja.
+   smetnje) – za njih pokret nije ukras nego smetnja.
    Pokret se gasi, ali se NIJEDAN PODATAK NE GUBI: boje, tekst i sva stanja
-   ostaju; gasi se samo trajanje. Zato `.01ms`, a ne `none` — animacija koja se
+   ostaju; gasi se samo trajanje. Zato `.01ms`, a ne `none` – animacija koja se
    ne pokrene nikad ne okine `animationend`, pa bi se logika koja to čeka
    zaglavila. */
 @media(prefers-reduced-motion:reduce){
@@ -1289,18 +1289,18 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
    netaknut dok se i one ne prepišu.
 
    KOMPOZICIJA (odozgo nadole), da se struktura vidi „iz aviona":
-     1) notni sistem — pet linija preko cele širine + osam nota; granica
+     1) notni sistem – pet linija preko cele širine + osam nota; granica
         između strane i futera i motiv koji nosi identitet;
-     2) gornji pojas — znak i rečenica levo, dugme „Saradnja" desno;
-     3) sredina — četiri kolone linkova (levo poravnate, spisak se tako
+     2) gornji pojas – znak i rečenica levo, dugme „Saradnja" desno;
+     3) sredina – četiri kolone linkova (levo poravnate, spisak se tako
         najbrže čita) i traka popularnih rima;
-     4) dno — ključne reči, prava, Orbita.
+     4) dno – ključne reči, prava, Orbita.
    Pojas 2 i 4 su izbalansirani (na telefonu centrirani), pa celina ne deluje
    kao da je sve nabacano uz levu ivicu. */
 
 /* Pozadina i granica futera.
    Specifičnost: `body.dark-mode .site-footer` (0,2,0) iznad u fajlu postavlja
-   `background:#1e1a2e`. Zato ovde stoji `.site-footer.futer-v2` — ista
+   `background:#1e1a2e`. Zato ovde stoji `.site-footer.futer-v2` – ista
    specifičnost (0,2,0), ali kasnije u fajlu, pa pobeđuje. Bez te druge klase
    pravilo bi tiho izgubilo i futer bi u tamnoj temi ostao stare boje. */
 .site-footer.futer-v2{
@@ -1313,8 +1313,8 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 /* ── 1) NOTNI SISTEM ──────────────────────────────────────────────────────
    Pet linija crta gradijent, ne SVG: tako idu od ivice do ivice ekrana i
    uvek su debele tačno 1 px, na svakoj širini i svakoj gustini piksela.
-   Traka je visoka 72 px i note su fiksne visine 72 px — 1 jedinica SVG-a =
-   1 px — pa glave nota uvek padaju tačno na linije. Da su note i linije u
+   Traka je visoka 72 px i note su fiksne visine 72 px – 1 jedinica SVG-a =
+   1 px – pa glave nota uvek padaju tačno na linije. Da su note i linije u
    jednom širokom SVG-u koji se rasteže, glave bi sišle s linija.
    Negativne bočne margine ponište padding futera (1,5rem) da linije stignu
    do same ivice ekrana. */
@@ -1323,7 +1323,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   content:'';position:absolute;left:0;right:0;top:18px;height:33px;
   /* period 8 px → linije na 18, 26, 34, 42 i 50 px od vrha trake */
   background:repeating-linear-gradient(to bottom,var(--futer-linija) 0 1px,transparent 1px 8px);
-  /* Krajevi blago izblede umesto da se linije naglo seku o ivicu ekrana —
+  /* Krajevi blago izblede umesto da se linije naglo seku o ivicu ekrana –
      tako notni sistem izgleda kao odsvirana fraza, a ne kao odsečena tabela.
      Ako pregledač maske ne podržava, linije jednostavno idu do ivice. */
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
@@ -1331,7 +1331,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 }
 /* Note se poravnavaju sa sadržajem futera: širina sadržaja + 2×1,5rem padding.
    Ide kroz `--sirina-sadrzaj` da bi taktne crte ostale tačno iznad ivica
-   futera i kad se omotač promeni — ranije je ovde stajalo tvrdo 940 px, pa bi
+   futera i kad se omotač promeni – ranije je ovde stajalo tvrdo 940 px, pa bi
    se pri svakoj promeni širine note tiho razišle sa tekstom ispod. */
 .futer-v2 .futer-note{
   position:relative;display:flex;justify-content:space-between;align-items:flex-start;
@@ -1340,12 +1340,12 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .nota{flex:0 0 auto;color:var(--futer-nota)}
 
 /* ══ TRAKA SA POZIVOM NA SARADNJU (03.08.2026) ═══════════════════════════════
-   Stoji između sadržaja i futera i namerno je JEDINO obojeno polje na strani —
+   Stoji između sadržaja i futera i namerno je JEDINO obojeno polje na strani –
    sve ostalo je belo ili jedva tonirano, pa oko na nju padne samo od sebe, bez
    povećavanja slova i bez uzvičnika.
 
    Note u pozadini su isti crtež kao na notnom sistemu u futeru, samo krupnije i
-   prigušene (opacity .18) — one nose motiv, a ne pažnju. Ne pomeraju raspored:
+   prigušene (opacity .18) – one nose motiv, a ne pažnju. Ne pomeraju raspored:
    stoje u sloju `position:absolute` iznad podloge, ispod teksta.
    Boje: preliv `--fill-accent-a → --fill-primary-a` je isti par iz kog su
    napravljeni aktivan tab i dugme „Nađi rime", pa traka pripada sajtu, a ne
@@ -1362,12 +1362,12 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   opacity:.18;color:#fff;pointer-events:none;
 }
 /* Note su ukras, ali se KLIKĆU (pretvaraju se u srce), pa im se vraća odziv na
-   miš — samo njima, ne celom sloju, da tekst i dugme ostanu na miru. */
+   miš – samo njima, ne celom sloju, da tekst i dugme ostanu na miru. */
 .saradnja-note .nota{pointer-events:auto;transform:scale(1.6)}
 .saradnja-note .nota:nth-child(2){transform:scale(1.15) translateY(-8px)}
 .saradnja-note .nota:nth-child(4){transform:scale(1.3) translateY(10px)}
 /* Plutanje nota (04.08.2026, zahtev vlasnice): note u traci lagano plove.
-   Ide preko SAMOSTALNOG svojstva `translate`, ne `transform` — tako se ne
+   Ide preko SAMOSTALNOG svojstva `translate`, ne `transform` – tako se ne
    sudara ni sa osnovnom postavkom svake note (`transform: scale…` iznad) ni
    sa pretvaranjem u srce na klik (app.js). Različite dužine i negativne
    faze da ne plutaju u isti mah. */
@@ -1381,7 +1381,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .saradnja-note .nota:nth-child(4){animation-duration:6.1s;animation-delay:-.7s}
 .saradnja-note .nota:nth-child(5){animation-duration:5s;animation-delay:-3.1s}
 /* Srednja nota pada tačno iza naslova i dugmeta (04.08.2026, nalaz vlasnice:
-   „smeta"). Fiksno pomeranje u stranu ne rešava — pozicija u procentima zavisi
+   „smeta"). Fiksno pomeranje u stranu ne rešava – pozicija u procentima zavisi
    od širine ekrana, pa bi na drugoj širini naletela na susednu notu ili opet
    na tekst. Zato srednji slot ostaje prazan: `visibility` (ne `display`) čuva
    raspored preostale četiri, tekst dobija mirnu zonu, a note je obramaju. */
@@ -1407,7 +1407,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 /* Dugme je OBRNUTO od onog u futeru: belo na boji, jer je podloga sada obojena.
    Izmereno: `--fill-accent-b` (#4a2fb8) na belom = 8,79. */
 /* Podloga dugmeta je BELA u obe teme, pa i slovo mora da bude tamno u obe.
-   `--fill-accent-b` u tamnoj temi posvetli (#a48cf5) i na belom daje 2,75 —
+   `--fill-accent-b` u tamnoj temi posvetli (#a48cf5) i na belom daje 2,75 –
    nečitko. Zato je ovde tvrdo upisana tamna boja: #3b2a9c na belom = 9,4. */
 .saradnja-traka a.saradnja-cta{
   background:#fff;background-image:none;color:#3b2a9c;border:0;
@@ -1423,14 +1423,14 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 /* ── NOTA SE NA KLIK PRETVARA U SRCE (03.08.2026, zahtev vlasnice) ─────────
    Mala nagrada za radoznalog: klikneš notu na notnom sistemu i ona postane
    srce; klikneš ponovo i vrati se u notu. Nije dugme i ne radi ništa osim
-   toga — zato ostaje `aria-hidden` ukras, a pokazivač miša je jedini nagoveštaj.
+   toga – zato ostaje `aria-hidden` ukras, a pokazivač miša je jedini nagoveštaj.
    Ni jedan podatak ne zavisi od ovoga, pa se ništa ne gubi ako se ne primeti.
    Crtež srca ubacuje `app.js` tek pri prvom kliku, na mesto glave note. */
 .futer-v2 .nota,
 .saradnja-note .nota{cursor:pointer;transition:color .2s}
 .futer-v2 .nota:hover,
 .saradnja-note .nota:hover{color:var(--rose-deep)}
-/* `:not(.nota-srce-omot)` — omotač srca je TAKOĐE `g` unutar iste note, pa bi
+/* `:not(.nota-srce-omot)` – omotač srca je TAKOĐE `g` unutar iste note, pa bi
    ga bez ovoga sakrilo isto pravilo koje sakriva crtež note. */
 .futer-v2 .nota > g:not(.nota-srce-omot),
 .saradnja-note .nota > g:not(.nota-srce-omot){transition:opacity .18s ease, transform .3s cubic-bezier(.34,1.56,.64,1);transform-origin:center}
@@ -1448,7 +1448,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   .futer-v2 .nota > g,
   .futer-v2 .nota .nota-srce-lik{transition:none;transform:none}
 }
-/* Taktne crte: tanka na početku, dvostruka (tanka + debela) na kraju — tako
+/* Taktne crte: tanka na početku, dvostruka (tanka + debela) na kraju – tako
    se u notama piše kraj pesme. Rađene kao pseudo-elementi da bi ih
    `space-between` gurnuo na same ivice sadržaja i uokvirio note, a da pritom
    ne pomere brojanje `nth-child` u stepenastom ulasku. */
@@ -1468,14 +1468,14 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
    razloga: (1) pravilo `Content-Security-Policy` na produkciji zabranjuje
    umetnute skripte, pa `IntersectionObserver` ne bi mogao da stoji u
    index.html; (2) ovako nema nijednog bajta JS-a na putu do rime.
-   Pregledač koji `view()` ne podržava jednostavno preskoči ceo blok —
+   Pregledač koji `view()` ne podržava jednostavno preskoči ceo blok –
    note su tada odmah vidljive, ništa se ne gubi. */
 @supports (animation-timeline:view()){
   .futer-v2 .nota{
     animation:nota-ulaz 1ms linear both;
     animation-timeline:view();
     /* Stepenasto: svaka sledeća nota završava ulazak malo kasnije.
-       Osam nota × korak od 5% — ceo pokret stane dok futer prelazi donju
+       Osam nota × korak od 5% – ceo pokret stane dok futer prelazi donju
        trećinu ekrana, dakle pre nego što ga čovek stvarno pogleda. */
     animation-range:entry 0% entry 34%;
   }
@@ -1487,11 +1487,11 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   .futer-v2 .nota:nth-child(7){animation-range:entry 0% entry 64%}
   .futer-v2 .nota:nth-child(8){animation-range:entry 0% entry 69%}
 }
-/* Pomera se samo `transform` i `opacity` — oboje radi grafička kartica, pa
+/* Pomera se samo `transform` i `opacity` – oboje radi grafička kartica, pa
    raspored ostaje netaknut (ne utiče na CLS). */
 @keyframes nota-ulaz{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
 /* Globalno pravilo za smanjen pokret gasi TRAJANJE, a animacija vezana za
-   skrol trajanje ne koristi — zato se ovde gasi izričito, i note ostaju
+   skrol trajanje ne koristi – zato se ovde gasi izričito, i note ostaju
    vidljive (podatak, pa i ukras, ne sme da se izgubi). */
 @media(prefers-reduced-motion:reduce){
   .futer-v2 .nota{animation:none!important;opacity:1;transform:none}
@@ -1503,20 +1503,20 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   gap:1.1rem 2rem;padding-bottom:1.6rem;border-bottom:1px solid var(--line);
 }
 .futer-v2 .futer-glava-tekst{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:.45rem}
-.futer-v2 .footer-desc{margin:0;max-width:27rem}   /* rem, ne `ch` — v. napomenu uz .seo-blok-telo p */
+.futer-v2 .footer-desc{margin:0;max-width:27rem}   /* rem, ne `ch` – v. napomenu uz .seo-blok-telo p */
 .futer-v2 .futer-akcija{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;max-width:26rem}
-/* Poziv stoji IZNAD dugmeta i jači je od adrese ispod njega — on je razlog
+/* Poziv stoji IZNAD dugmeta i jači je od adrese ispod njega – on je razlog
    zbog kog neko klikne, adresa je samo način. */
-/* 04.08.2026: prelom radi `text-wrap:balance` — fiksni `span`-ovi su u flex
+/* 04.08.2026: prelom radi `text-wrap:balance` – fiksni `span`-ovi su u flex
    koloni suzili sadržaj na najduži span, pa se rečenica lomila na pet redova. */
 .futer-v2 .futer-akcija-poziv{margin:0;font-size:.92rem;font-weight:600;color:var(--futer-tekst,var(--futer-sitno));text-align:right;line-height:1.5;text-wrap:balance}
 .futer-v2 .futer-akcija-hint{margin:0;font-size:.82rem;font-weight:500;color:var(--futer-sitno);text-align:right;line-height:1.5}
 
-/* Dugme „Saradnja" — jedina jaka boja u futeru, pa je oku odmah težište.
+/* Dugme „Saradnja" – jedina jaka boja u futeru, pa je oku odmah težište.
    Boje idu kroz par `--fill-accent-*` / `--on-accent`, koji je već izmeren u
    obe teme (5,62 i 9,08; granica 4,5). Visina 48 px > 44 px, koliko traži
    dodir prstom. */
-/* Isti oblik dugmeta i u futeru i u traci sa pozivom — jedan jezik na strani. */
+/* Isti oblik dugmeta i u futeru i u traci sa pozivom – jedan jezik na strani. */
 .futer-v2 .futer-cta,
 .saradnja-traka .saradnja-cta{
   display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
@@ -1525,7 +1525,7 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
   color:var(--on-accent);font-weight:700;font-size:1rem;text-decoration:none;
   border-bottom:0;box-shadow:var(--shadow-sm);
   /* Odziv na dodir: 100 ms je gornja granica na kojoj potez još deluje
-     trenutno. Menja se samo `transform` — ništa se ne preslaže. */
+     trenutno. Menja se samo `transform` – ništa se ne preslaže. */
   transition:transform .1s cubic-bezier(.2,0,0,1),box-shadow .1s cubic-bezier(.2,0,0,1);
 }
 .futer-v2 .futer-cta:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
@@ -1534,11 +1534,11 @@ body[data-tab]:not([data-tab="rime"]) .seo-content{display:none}
 .futer-v2 .futer-cta svg{flex:0 0 auto}
 
 /* ── POZIV ZA SARADNJU: traka ILI futer, po tabu (04.08.2026, odluka vlasnice) ──
-   Na početnom tabu trake nema — poziv stoji u futeru; na ostalim tabovima
-   traka ostaje, a futerski poziv se krije (ista poruka ne sme dvaput — isto
+   Na početnom tabu trake nema – poziv stoji u futeru; na ostalim tabovima
+   traka ostaje, a futerski poziv se krije (ista poruka ne sme dvaput – isto
    pravilo zbog kog je poziv 03.08. uopšte izašao iz futera). Oznaku taba na
    <html> postavlja kratka skripta u zaglavlju index.html PRE iscrtavanja
-   (app.js stiže prekasno — v. pouku M3 uz mobilni raspored), pa nema skoka
+   (app.js stiže prekasno – v. pouku M3 uz mobilni raspored), pa nema skoka
    pri učitavanju; app.js je kasnije samo drži usklađenom pri kliku na tab. */
 html[data-tab="rime"] .saradnja-traka{display:none}
 .futer-v2 .futer-poziv{display:none}
@@ -1548,7 +1548,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
    Četiri kolone od po 5–6 stavki umesto tri od 6, 5 i 12: ranije je treća
    kolona bila duža od prve dve za ~300 px i desno je zjapila rupa.
    Dve tačke preloma umesto `auto-fit`: `auto-fit` je na 390 px davao jednu
-   kolonu (futer visok 2.051 px), a razmak do dve kolone bio je na 5 px —
+   kolonu (futer visok 2.051 px), a razmak do dve kolone bio je na 5 px –
    previše blizu ivice da bi se na njega oslanjalo. */
 .futer-v2 .futer-mreza{display:grid;gap:1.5rem 1rem;grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(min-width:720px){
@@ -1561,7 +1561,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 }
 /* Dodirni cilj: link u futeru je bio visok 16–19 px (izmereno 02.08.2026).
    Na telefonu prag je 44 px i podiže se u mobilnom bloku niže; na računaru se
-   radi mišem, pa je 32 px dovoljno — sa 44 px je kolona „Namene" (12 stavki)
+   radi mišem, pa je 32 px dovoljno – sa 44 px je kolona „Namene" (12 stavki)
    bila visoka 528 px i futer se raspadao na prazninu. */
 .futer-v2 .futer-kolona .footer-link{
   display:flex;align-items:center;min-height:32px;
@@ -1571,17 +1571,17 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .futer-v2 .futer-kolona .footer-link:hover{color:var(--lavender-deep)}
 .futer-v2 .futer-kolona .footer-link:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:2px;border-radius:8px}
 
-/* Popularne rime — pilule. Razdvajače „ · " između linkova upisuje
+/* Popularne rime – pilule. Razdvajače „ · " između linkova upisuje
    `build/gen_pages.py` i ne smeju da se diraju u HTML-u; zato se gase
    veličinom slova 0 na omotaču, a linkovi dobiju svoju veličinu nazad. */
 .futer-v2 .futer-rime{max-width:none;margin:0}
 /* Rečenica ispod naslova nosi ključnu frazu „koje se reči rimuju sa“. Boja ide
    kroz --ink-soft (ne --muted) jer je ovo tekst koji se čita, ne sitno pod njim. */
-/* max-width je u REM, nikad u `ch` — `ch` je širina znaka u tekućem fontu, pa se
+/* max-width je u REM, nikad u `ch` – `ch` je širina znaka u tekućem fontu, pa se
    kad stigne Rubik cela širina preračuna i strana skoči. Tako je 02.08. skakanje
    otišlo sa 0,005 na 0,192 pri granici 0,1. U celom fajlu nema nijedne `ch`. */
 /* Bez gornje širine (04.08.2026): sa 24rem se uvodni red lomio na dva reda,
-   a staje u jedan (~27rem) — isti nalaz vlasnice kao kod `.hero p`. */
+   a staje u jedan (~27rem) – isti nalaz vlasnice kao kod `.hero p`. */
 .futer-v2 .futer-rime-uvod{margin:.1rem 0 .7rem;color:var(--ink-soft);font-size:.92rem;max-width:none}
 .futer-v2 .futer-rime-spisak{display:flex;flex-wrap:wrap;gap:.4rem;font-size:0;line-height:1}
 .futer-v2 .futer-rime-spisak .footer-link{
@@ -1594,7 +1594,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .futer-v2 .futer-rime-spisak .footer-link:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:2px}
 
 /* ── 4) DNO ─────────────────────────────────────────────────────────────
-   Prava levo, Orbita desno — dno je izbalansirano, ne nabijeno uz levu ivicu.
+   Prava levo, Orbita desno – dno je izbalansirano, ne nabijeno uz levu ivicu.
    Na telefonu se sve centrira (pravilo niže u mobilnom bloku). */
 .futer-v2 .futer-dno{
   display:flex;flex-direction:column;gap:.55rem;
@@ -1636,17 +1636,17 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .verse .vsyl{flex:0 0 1.6rem;text-align:right;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
 .verse .vtext{flex:1;color:var(--ink);font-size:1.02rem;line-height:1.5}
 .verse .vrhyme{flex:0 0 1.5rem;text-align:center;font-family:'Rubik','Rubik rezerva',sans-serif;font-size:.76rem;font-weight:700;color:var(--tag-ink);background:var(--tag-bg);border-radius:7px;line-height:1.5;transition:background .15s,color .15s}
-/* Bez isticanja na prelaz miša — slovo šeme rime nije dugme (27.08.2026). */
+/* Bez isticanja na prelaz miša – slovo šeme rime nije dugme (27.08.2026). */
 .poem-foot{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft);font-weight:600}
 .poem-scheme b{color:var(--lavender-deep);font-family:'Rubik','Rubik rezerva',sans-serif}
 
 /* SEO CONTENT + FAQ */
-/* ODELJAK SA TEKSTOM — POČINJE NOVA CELINA, I TO SE VIDI.
+/* ODELJAK SA TEKSTOM – POČINJE NOVA CELINA, I TO SE VIDI.
    Vlasnica 02.08.2026: „nigde nema bordera, separatora, ničega živog, sve s
-   brda s dola". Tačno — tekst je počinjao odmah ispod alata, na istoj beloj
+   brda s dola". Tačno – tekst je počinjao odmah ispod alata, na istoj beloj
    podlozi, bez ijedne linije. Sada odeljak ima svoju podlogu i liniju na vrhu,
    pa se odmah vidi gde se alat završava, a gde počinje objašnjenje. Podloga je
-   namerno jedva primetna (svetla #faf8ff prema beloj) — cilj je granica, ne
+   namerno jedva primetna (svetla #faf8ff prema beloj) – cilj je granica, ne
    šarenilo; hero i dalje mora da bude najjači na strani. */
 .seo-content{
   padding:3rem clamp(1rem,4vw,2.6rem) 3.4rem;margin-top:3rem;
@@ -1654,7 +1654,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 }
 /* Ista širina i ista leva ivica kao sadržaj u `main`. Dok je ovde stajalo
    tvrdo 940 px, posle širenja omotača je ceo tekstualni deo bio uvučen 168 px
-   udesno u odnosu na spisak rima iznad — izmereno 02.08.2026 na 1440 px. */
+   udesno u odnosu na spisak rima iznad – izmereno 02.08.2026 na 1440 px. */
 .seo-inner{max-width:var(--sirina-sadrzaj);margin:0 auto}
 .seo-inner h2{
   font-size:1.35rem;font-weight:700;color:var(--lavender-deep);margin:2.2rem 0 1rem;
@@ -1662,18 +1662,18 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 }
 .seo-inner h2:first-child{margin-top:0}
 /* 38rem = 608 px = ~72 znaka u redu. Do 02.08.2026. je stajalo 760 px, a to je
-   izmereno 90 znakova — red predug da ga oko isprati do sledećeg početka. */
+   izmereno 90 znakova – red predug da ga oko isprati do sledećeg početka. */
 .seo-inner p{color:var(--ink-soft);font-size:.96rem;margin:0 0 .8rem;max-width:var(--mera-proze)}
-/* Ista širina kao blokovi iznad — i jedno i drugo je proza. */
+/* Ista širina kao blokovi iznad – i jedno i drugo je proza. */
 .faq{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem;max-width:var(--sirina-proza)}
-/* Okvir je bio `2px solid var(--card-bg)` — dakle bela ivica na beloj kartici,
+/* Okvir je bio `2px solid var(--card-bg)` – dakle bela ivica na beloj kartici,
    nevidljiva. Kartice su zbog toga izgledale kao da lebde bez granica. */
 .faq details{background:var(--card-bg);border:1px solid var(--traka-okvir);border-radius:16px;box-shadow:0 1px 3px rgba(90,63,208,.05);padding:.95rem 1.2rem;transition:border-color .18s,box-shadow .18s}
 .faq details:hover{border-color:var(--lavender);box-shadow:0 4px 14px rgba(90,63,208,.1)}
 .faq details[open]{border-color:var(--lavender);box-shadow:0 4px 14px rgba(90,63,208,.1)}
 .faq summary{font-family:'Rubik','Rubik rezerva',sans-serif;font-weight:600;color:var(--ink);cursor:pointer;list-style:none;display:flex;align-items:center;gap:.5rem}
 .faq summary::-webkit-details-marker{display:none}
-/* Isti ugaonik kao na listovima iznad — strana ima JEDAN jezik otvaranja.
+/* Isti ugaonik kao na listovima iznad – strana ima JEDAN jezik otvaranja.
    Klasa `.faq` stoji samo na početnoj (provereno: 1 fajl), pa ova izmena ne
    dodiruje 1.994 generisane strane, koje koriste `.landing-faq`. */
 .faq summary::before{
@@ -1685,7 +1685,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .faq details p{margin:.7rem 0 0;color:var(--ink-soft);font-size:.92rem;max-width:var(--mera-proze)}
 
 /* ══ RITAM ŠIROKOG EKRANA (02.08.2026) ═══════════════════════════════════════
-   PROBLEM, izmereno na 1440 px pre izmene — strana je imala TRI leve ivice:
+   PROBLEM, izmereno na 1440 px pre izmene – strana je imala TRI leve ivice:
 
      naslov i opis   centrirani   (opis počinjao na 440 px)
      red sa poljem   centriran    (počinjao na 292 px)
@@ -1695,36 +1695,36 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
    dok okvir ide do 1358 px. Sadržaj je delovao kao da je pao u levi ugao, a
    red sa poljem kao da visi u vazduhu iznad njega.
 
-   REŠENJE — dva poteza:
+   REŠENJE – dva poteza:
    1) JEDNA leva ivica za sve: ivica okvira. Naslov, opis, polje, filteri,
       prazno stanje, rime, tekst, pitanja i futer kreću sa istog mesta.
    2) Prazan pojas desno se KORISTI: ispod alata tekst ide u dve kolone
       (levo objašnjenja, desno česta pitanja). Uz to proza dobija meru od
       ~70 znakova umesto 90, a strana se skrati za oko trećinu.
 
-   Mobilni raspored se NE dira — sve je u @media(min-width:…). */
+   Mobilni raspored se NE dira – sve je u @media(min-width:…). */
 @media(min-width:901px){
-  /* Naslov i opis OSTAJU CENTRIRANI — odluka vlasnice, 02.08.2026.
+  /* Naslov i opis OSTAJU CENTRIRANI – odluka vlasnice, 02.08.2026.
      Levo poravnanje je bilo moja zamisao radi „jedne leve ivice"; ona to ne želi.
      Poravnava se sve ostalo, hero ne. */
   /* `main:not(.landing)`: isti `.search-row` stoji i na ~2.000 generisanih
-     strana (u kartici `.mini-tool`) i na alatnim stranama (`.landing-tool`) —
+     strana (u kartici `.mini-tool`) i na alatnim stranama (`.landing-tool`) –
      tamo je kartica uska i centriranje ima smisla. Ovo pravilo važi samo za
      početnu. */
-  /* Polje za unos, dugmad i filteri OSTAJU CENTRIRANI — odluka vlasnice,
+  /* Polje za unos, dugmad i filteri OSTAJU CENTRIRANI – odluka vlasnice,
      02.08.2026. Ranije je ovde stajalo `margin-inline:0`, dakle levo uz ivicu,
      radi „jedne leve ivice"; to je bila moja zamisao i ona je ne želi. */
 }
 
 /* Granica 1240 px nije proizvoljna: ispod nje kolona padne ispod 554 px, a to
-   je manje od 65 znakova u redu — donja granica čitljive mere. */
+   je manje od 65 znakova u redu – donja granica čitljive mere. */
 @media(min-width:1240px){
   /* Nema novih omotača u HTML-u: pet direktnih potomaka `.seo-inner` se
      raspoređuje po imenovanim poljima, pa oba naslova stoje u istom redu i
      obe kolone kreću sa iste visine. Redosled u HTML-u je netaknut, pa
      pretraživač i čitač ekrana vide isto što i pre. */
   /* Leva kolona je ŠIRA od desne (1,4 : 1). U njoj je proza, a u desnoj su
-     kratka pitanja — na pola-pola je red proze padao na 51 znak, a čitljivo
+     kratka pitanja – na pola-pola je red proze padao na 51 znak, a čitljivo
      je 65–75 (mereno širinom znaka „0"). Sa 1,4 kolona daje ~63. */
   .seo-inner{
     display:grid;
@@ -1741,13 +1741,13 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
   .seo-blokovi{grid-area:listovi}
   .seo-h-pitanja{grid-area:naslov2}
   .faq{grid-area:pitanja}
-  /* Oba naslova u prvom redu — bez ovoga bi desni imao gornju marginu od
+  /* Oba naslova u prvom redu – bez ovoga bi desni imao gornju marginu od
      1,6rem i spustio se 26 px ispod levog. */
   .seo-inner > h2{margin-top:0}
   /* Kolone same drže meru, pa unutrašnje granice više ne treba da rade. */
   .seo-blokovi,.faq,.seo-uvod{max-width:none}
 
-  /* Tri tačke praznog stanja u tri kolone — do 02.08.2026. su stajale jedna
+  /* Tri tačke praznog stanja u tri kolone – do 02.08.2026. su stajale jedna
      ispod druge u traci od 576 px i pravile 6 redova teksta uz samu levu
      ivicu, dok je desno stajalo 782 px praznine. */
   .prazno-stanje{max-width:none}
@@ -1757,31 +1757,31 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
   }
 }
 
-/* ══ ŠPIL SE DELI — KARTICE ISPOD ALATA (02.08.2026) ═════════════════════════
+/* ══ ŠPIL SE DELI – KARTICE ISPOD ALATA (02.08.2026) ═════════════════════════
    Gde ovo sme da živi, a gde ne: ALAT (logo, tabovi, polje, dugme, rime) ostaje
-   trezan i brz — tamo se ništa ne dodaje, jer se meri jedna sekunda do polja.
+   trezan i brz – tamo se ništa ne dodaje, jer se meri jedna sekunda do polja.
    Ispod alata je čovek već dobio rimu i sme da bude zadivljen.
 
    Šta se dešava, i zašto baš to:
-   · listovi ulaze kao špil koji se deli — jedan za drugim, po 70 ms, blago
+   · listovi ulaze kao špil koji se deli – jedan za drugim, po 70 ms, blago
      zakrenuti, jer papir koji pada nikad ne padne savršeno pravo;
    · uspravna margina se ISCRTAVA odozgo nadole, kao potez mastilom;
-   · slova šeme rime A · B · A zasvetle jedno za drugim, u ritmu od 200 ms —
+   · slova šeme rime A · B · A zasvetle jedno za drugim, u ritmu od 200 ms –
      šema se pročita sama. To je jedini „glavni trenutak" na ovom ekranu;
    · kartica se blago naginje prema kursoru i pod njim ima mek sjaj.
 
    Tvrda pravila koja ovo poštuje:
-   1. animira se SAMO `transform`, `opacity`, boja i senka slova — nikad širina,
+   1. animira se SAMO `transform`, `opacity`, boja i senka slova – nikad širina,
       visina ni margina, pa strana ne poskoči (CLS ostaje 0,00x, granica 0,1);
-   2. kartice su vidljive i BEZ JavaScripta — klasu `js-kartice` postavlja
+   2. kartice su vidljive i BEZ JavaScripta – klasu `js-kartice` postavlja
       `kartice.js`; ako se ne učita, nijedno od ovih pravila ne važi i tekst je
       tu, ceo;
    3. sakriva se SAMO ono što je van vidnog polja u trenutku učitavanja, pa
       ništa što se vidi ne može da trepne;
-   4. `prefers-reduced-motion` — skripta tada ne uradi ništa, tekst ostaje ceo. */
+   4. `prefers-reduced-motion` – skripta tada ne uradi ništa, tekst ostaje ceo. */
 
 /* Ulaz lista. Namerno ima SAMO `from`: kad se animacija završi, `transform` se
-   vraća na osnovnu vrednost elementa — a to je naginjanje prema kursoru. Da je
+   vraća na osnovnu vrednost elementa – a to je naginjanje prema kursoru. Da je
    ovde pisalo `to{transform:none}`, ta vrednost bi ostala zakovana i kartica se
    posle ulaza više ne bi naginjala. */
 @keyframes kartica-ulaz{
@@ -1794,20 +1794,20 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
     filter:blur(5px);
   }
 }
-/* Nijedan list ne pada pod istim uglom — kao kad se špil deli rukom. */
+/* Nijedan list ne pada pod istim uglom – kao kad se špil deli rukom. */
 .seo-blok:nth-child(even),.faq details:nth-child(even){--kartica-nagib:1.6deg}
 .seo-blok:nth-child(3n),.faq details:nth-child(3n){--kartica-nagib:-2.4deg}
 /* Potez mastilom niz marginu lista. */
 @keyframes margina-mastilo{from{transform:scaleY(0)}}
-/* Ugaonik uz pitanje — doveze se u položaj. */
+/* Ugaonik uz pitanje – doveze se u položaj. */
 @keyframes ugaonik-ulaz{from{transform:rotate(-160deg) scale(.6);opacity:0}}
 
 /* ── ULAZ VODI POLOŽAJ PRI SKROLU, NE VREME (`animation-timeline:view()`) ──
    Zašto ovako, a ne JavaScriptom: izmereno 02.08.2026 na sporoj vezi (1,6 Mb/s,
-   150 ms kašnjenja) — strana se iscrta na 2.884 ms, a skripta stigne i odradi
+   150 ms kašnjenja) – strana se iscrta na 2.884 ms, a skripta stigne i odradi
    svoje tek na 4.248 ms. To je 1,4 sekunde u kojima bi tekst bio VIDLJIV, pa bi
    ga skripta sakrila da ga „lepo uvede". CSS stiže pre prvog iscrtavanja, pa
-   tog treptaja nema — nikad, ni na najsporijoj vezi.
+   tog treptaja nema – nikad, ni na najsporijoj vezi.
    Drugo: pokret ide na grafičkoj kartici i vezan je za prst/točkić, pa čovek
    sam vodi ritam kojim se špil deli.
    Pregledači bez ovoga (Firefox, stanje 08/2026) idu na rezervu niže. */
@@ -1818,7 +1818,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
       animation-timeline:view();
       animation-range:entry 6% entry 80%;
     }
-    /* Ugaonik na pitanju se doveze u svoj položaj — sitan mehanički detalj koji
+    /* Ugaonik na pitanju se doveze u svoj položaj – sitan mehanički detalj koji
        kaže „ovo se otvara". Bez `to`: završava na svojoj osnovnoj vrednosti, pa
        otvoreno pitanje i dalje ima ugaonik okrenut nadole. */
     .faq summary::before{
@@ -1832,7 +1832,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
       animation-timeline:view();
       animation-range:entry 24% entry 96%;
     }
-    /* A · B · A — svako slovo je u svom listu, pa zasvetle jedno za drugim,
+    /* A · B · A – svako slovo je u svom listu, pa zasvetle jedno za drugim,
        onako kako listovi ulaze. Šema rime se pročita sama. */
     .seo-blok-slovo{
       animation:slovo-otkucaj cubic-bezier(.34,1.56,.64,1) both;
@@ -1854,7 +1854,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
   animation-delay:inherit;
 }
 
-/* A · B · A u ritmu — tri otkucaja, jedan jedini put. Slovo je ukras
+/* A · B · A u ritmu – tri otkucaja, jedan jedini put. Slovo je ukras
    (`aria-hidden`), pa se ovde ništa ne saopštava bojom. */
 @keyframes slovo-otkucaj{
   0%{transform:scale(1);color:var(--papir-slovo);text-shadow:none}
@@ -1865,7 +1865,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .seo-blokovi.ritam .seo-blok:nth-child(2) .seo-blok-slovo{animation:slovo-otkucaj .62s cubic-bezier(.34,1.56,.64,1) .2s 1}
 .seo-blokovi.ritam .seo-blok:nth-child(3) .seo-blok-slovo{animation:slovo-otkucaj .62s cubic-bezier(.34,1.56,.64,1) .4s 1}
 
-/* Kad se list otvori, pasusi se ispisuju jedan za drugim — kao da se piše. */
+/* Kad se list otvori, pasusi se ispisuju jedan za drugim – kao da se piše. */
 @keyframes pasus-ulaz{from{opacity:0;transform:translate3d(0,7px,0)}to{opacity:1;transform:none}}
 .js-kartice .seo-blok[open] .seo-blok-telo p{animation:pasus-ulaz .22s cubic-bezier(.2,0,0,1) backwards}
 .js-kartice .seo-blok[open] .seo-blok-telo p:nth-child(2){animation-delay:.07s}
@@ -1882,7 +1882,7 @@ html[data-tab="rime"] .futer-v2 .futer-poziv{display:flex}
 .js-kartice .seo-blok > *,
 .js-kartice .faq details > *{position:relative;z-index:1}
 
-/* Naginjanje prema kursoru — samo tamo gde kursor postoji. Na dodir ovoga nema
+/* Naginjanje prema kursoru – samo tamo gde kursor postoji. Na dodir ovoga nema
    i ništa se ne gubi: sve što kartica kaže stoji u tekstu. */
 @media(hover:hover) and (pointer:fine){
   .js-kartice .seo-blok,
@@ -1905,7 +1905,7 @@ a.brand{text-decoration:none;color:inherit;display:inline-block}
   margin:0;font-size:clamp(2rem,5vw,3rem);font-weight:600;letter-spacing:.01em;
   display:inline-flex;align-items:center;gap:.04em;font-family:'Rubik','Rubik rezerva',system-ui,sans-serif
 }
-/* Isti omotač kao početna — inače bi 1.994 generisane strane `/rime-za/…/`
+/* Isti omotač kao početna – inače bi 1.994 generisane strane `/rime-za/…/`
    ostale na starih 940 px i imale 3 kapsule u redu, a početna 5. */
 main.landing{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1rem var(--odstojanje-okvir) 3rem}
 .crumbs{font-size:.85rem;color:var(--muted);font-weight:600;margin-bottom:.8rem}
@@ -1915,7 +1915,7 @@ main.landing{width:100%;max-width:var(--sirina-okvir);margin:0 auto;padding:1rem
 /* Živi alat za rime na tematskoj strani (/rimovanje-reci/) */
 /* Alat na podstranama stoji na ISTOJ podlozi kao na početnoj (`.alat-zona`).
    Prijava vlasnice 03.08.2026: „strana mi je bela, a na ostalim tabovima ima
-   istu pozadinu kao početna". Tačno — preliv je 03.08. dodat samo početnoj, pa
+   istu pozadinu kao početna". Tačno – preliv je 03.08. dodat samo početnoj, pa
    je `/pisanje-pesama/` ostala bela i strane su izgledale kao dva sajta. */
 .landing-tool{
   background:linear-gradient(180deg,var(--zona-a) 0%,var(--zona-b) 60%,transparent 100%);
@@ -1990,13 +1990,13 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
 .footer-link{color:var(--lavender-deep);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s ease}
 .footer-link:hover{border-bottom-color:var(--lavender-deep)}
 
-/* Beležnica — ispod 900px panel sa rimama ide ispod editora; dok se kuca,
+/* Beležnica – ispod 900px panel sa rimama ide ispod editora; dok se kuca,
    prikači se za dno ekrana da rime ne ostanu ispod pregiba. */
 @media(max-width:900px){
   .notepad-layout{grid-template-columns:1fr}
   .notepad-layout .note-rhymes{position:static;max-height:none;margin-top:1rem}
   body.notes-typing .notepad-layout .note-rhymes{
-    /* top MORA na auto — bazno sticky pravilo ima top:1rem, a kod fiksnog
+    /* top MORA na auto – bazno sticky pravilo ima top:1rem, a kod fiksnog
        elementa poznate visine `top` pobeđuje `bottom` i panel odleti na vrh */
     position:fixed;left:0;right:0;bottom:0;top:auto;z-index:70;margin:0;
     border-radius:18px 18px 0 0;max-height:34vh;overflow-y:auto;padding:.7rem .9rem;
@@ -2005,7 +2005,7 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
   body.notes-typing .note-rhymes .chip{padding:.45rem .8rem;font-size:.92rem}
   body.notes-typing #panel-beleznica{padding-bottom:36vh}
   body.notes-typing .note-rhymes h4{position:sticky;top:0;background:inherit;margin:0 0 .5rem;padding:.15rem 0}
-  /* na dodir hvataljka nema hover — uvek se vidi */
+  /* na dodir hvataljka nema hover – uvek se vidi */
   .gutter-row .g-drag{opacity:.5}
 }
 
@@ -2014,23 +2014,23 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
 
   /* List iz beležnice na telefonu: margina se sužava sa 3,7rem na 2,5rem.
      Na 360 px je široka margina uzimala 59 od 358 px lista, pa je red teksta
-     ostajao na ~271 px i lomio se posle svake treće reči. Motiv ostaje —
+     ostajao na ~271 px i lomio se posle svake treće reči. Motiv ostaje –
      i margina i slovo šeme rime su i dalje tu, samo uže. */
   .seo-blok{padding-left:2.5rem}
   .seo-blok::before{left:1.7rem}
-  /* `left` prati odstojanje lista — v. napomenu uz `.seo-blok-slovo`. */
+  /* `left` prati odstojanje lista – v. napomenu uz `.seo-blok-slovo`. */
   .seo-blok-slovo{left:-2.5rem;width:1.7rem;font-size:.82rem}
 
-  /* Tabovi na telefonu — PRELAMAJU SE, ne pomeraju u stranu (odluka vlasnice
-     16.08.2026). Ranije: `overflow-x:auto` + maska na desnoj ivici — pilule su
+  /* Tabovi na telefonu – PRELAMAJU SE, ne pomeraju u stranu (odluka vlasnice
+     16.08.2026). Ranije: `overflow-x:auto` + maska na desnoj ivici – pilule su
      izgledale odsečeno („Brojač slogova" usečen desno, „Rimovanje reči" levo
      kad se traka sama dopomera do aktivnog taba). Pravilo vlasnice: NIŠTA se
-     ne seče — sve stavke stoje u dva-tri reda i sve su cele vidljive.
+     ne seče – sve stavke stoje u dva-tri reda i sve su cele vidljive.
      `dovediAktivanTabUVid()` i maska iz app.js time postaju neaktivni
      (scrollWidth === clientWidth), ostali kod ne diraju.
      Visina pilule (44 px, dodirni cilj) i vodoravni razmak dolaze iz pravila
-     ispod (`.tabs a,.tabs button` u ovom istom medija-bloku) — ovde se podešava
-     samo slovo. Tri reda tabova guraju polje za unos na ~52% visine ekrana —
+     ispod (`.tabs a,.tabs button` u ovom istom medija-bloku) – ovde se podešava
+     samo slovo. Tri reda tabova guraju polje za unos na ~52% visine ekrana –
      zato pre-deploy test meri „polje na prvom ekranu" (granica 55%).
      Dopuna istog dana (druga prijava): tekst se LOMIO unutar pilule
      („Brojač slogova i" / „karaktera") jer je `nowrap` ispao sa starim
@@ -2040,16 +2040,16 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
   .tabs{flex-wrap:wrap;justify-content:flex-start;padding:.2rem .8rem;gap:.2rem}
   .tabs button,.tabs a{font-size:.82rem;line-height:1.2;white-space:nowrap}
 
-  /* Autocomplete — ne prekriva dugme */
+  /* Autocomplete – ne prekriva dugme */
   .autocomplete{max-height:200px;z-index:80}
 
   /* ── NASLOVNI BLOK IDE ISPOD ALATA (telefon) ─────────────────────────────
      Izmereno 02.08.2026 na produkciji: naslov (2 reda) + opis (3 reda) zajedno
-     su 130 px i gurali su polje za unos na 402 px od vrha — 60,5% ekrana od
+     su 130 px i gurali su polje za unos na 402 px od vrha – 60,5% ekrana od
      664 px. Alat je počinjao tek ispod polovine ekrana.
      Naslov se NE briše (h1 je potreban pretraživaču i čoveku) nego se na uskom
      ekranu premešta ISPOD alata redosledom u flex-u. U HTML-u ostaje na istom
-     mestu, pa se izvor strane ne menja — menja se samo redosled iscrtavanja.
+     mestu, pa se izvor strane ne menja – menja se samo redosled iscrtavanja.
 
      M3 (razlog stare verzije ovog pravila) i dalje važi: na ostalim tabovima
      naslov ne sme da gura alat. Sada ne gura ni na jednom, jer je poslednji.
@@ -2059,63 +2059,63 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
      postavlja app.js (app.js:2934). Dok app.js ne stigne, telo strane NEMA tu
      oznaku, pa se pravilo poklapalo i naslov je bio sakriven; čim app.js stigne,
      naslov iskoči i gurne polje za 130 px naniže. Na sporoj vezi (1,6 Mb/s)
-     app.js stiže na 1.996 ms, pa se skok dešava taman kad čovek pruži prst —
+     app.js stiže na 1.996 ms, pa se skok dešava taman kad čovek pruži prst –
      izmereno skakanje strane 0,118–0,121 pri granici 0,1.
      Pouka koja važi šire: pravilo izgleda NE SME da zavisi od toga da li se
-     skripta učitala. Ako mora, piše se u obliku `body[data-tab]:not(...)` —
+     skripta učitala. Ako mora, piše se u obliku `body[data-tab]:not(...)` –
      tada se poklapa tek kad oznaka postoji, pa nema skoka (tako je od ranije
      napisano pravilo za `.seo-content`, i ono nikad nije skakalo). */
   /* Od 03.08.2026. hero i tabovi žive u `.alat-zona` (zajednička podloga), pa
      redosled mora da se postavi NA NJU. Dok je stajao na `main`, `.hero` više
-     nije bio njegovo dete i pravilo je tiho prestalo da radi — polje za unos
+     nije bio njegovo dete i pravilo je tiho prestalo da radi – polje za unos
      je na telefonu palo sa ~300 na 439 px od vrha. */
   main{display:flex;flex-direction:column;padding-top:.35rem;padding-bottom:1.2rem}
   .alat-zona{display:flex;flex-direction:column}
   .hero{order:9;margin:.9rem 0 0}
   /* Razmak između alata i teksta ispod: bio je ~120 px čiste praznine (hero
-     1,6 rem + podloga 1,6 rem + `.seo-content` 3 rem) — prijava vlasnice
+     1,6 rem + podloga 1,6 rem + `.seo-content` 3 rem) – prijava vlasnice
      16.08.2026. Prepolovljeno; podloga alata zadržava svoj unutrašnji rub. */
   .seo-content{margin-top:1.2rem}
   /* Omiljene na telefonu: ispod liste je stajao hero sa h1 „Omiljene reči" i
      pasusom koji PONAVLJA objašnjenje iz samog taba („Reči sačuvane klikom na
-     ♡ naći ćeš ovde…") — dvaput isto, a naslov na dnu (prijava vlasnice
+     ♡ naći ćeš ovde…") – dvaput isto, a naslov na dnu (prijava vlasnice
      16.08.2026). Tab već nosi objašnjenje i dugmad na vrhu, pa se hero ovde
      ne prikazuje; h1 ostaje u izvoru strane (vidljiv pretraživaču).
      Oznaku `data-tab` na <html> upisuje `tab-init.js` PRE iscrtavanja, pa
      pravilo ne pravi skok pri učitavanju. */
   html[data-tab="omiljene"] .hero{display:none}
 
-  /* Beležnica — veći font za mobilni */
+  /* Beležnica – veći font za mobilni */
   .notepad-text{font-size:1rem;line-height:1.8;min-height:240px;padding:1rem .8rem}
   /* M2: fiksni gutter od 62 px je jeo 16–20% ekrana telefona (za stih je
      ostajalo 250–292 px), pa je sužen. Hvataljka za premeštanje stiha ostaje
      vidljiva i ovde (04.08.2026, nalaz vlasnice): prevlačenje radi i prstom
      (pointer događaji u app.js), a funkcija koju konkurencija nema ne sme da
      bude nevidljiva baš na uređaju sa kojeg većina dolazi. Hvataljka je zato
-     ovde uža (.75rem), a gutter raste sa 2,3 na 2,9 rem — stih gubi ~10 px. */
-  .gutter{font-size:1rem;line-height:1.8;width:2.9rem;flex-basis:2.9rem}
+     ovde uža (.75rem), a gutter raste sa 2,3 na 2,9 rem – stih gubi ~10 px. */
+  .gutter{font-size:1rem;line-height:1.8;width:3.7rem;flex-basis:3.7rem}   /* „А 12“ traži 54 px; 2,9 rem (46 px) je sekao broj (vlasnica 08.09.2026) */
   .gutter-row{padding:0 .2rem 0 .15rem;gap:.1rem}
   .gutter-row .g-drag{flex-basis:.75rem;font-size:.8rem;opacity:.5}
   .gutter-row .g-letter{flex-basis:.85rem}
   /* M3: objašnjenje u pasusu beležnice (216 px) guralo je editor ispod
-     pregiba — akcije ostaju, proza ustupa mesto stihu (poruka da se tekst
+     pregiba – akcije ostaju, proza ustupa mesto stihu (poruka da se tekst
      sam čuva stoji i u placeholderu editora). */
   #panel-beleznica .hint .hint-txt,
   .landing-tool .hint .hint-txt{display:none}
-  /* Akcije beležnice na telefonu — PRELAMAJU SE u više redova (odluka vlasnice
-     16.08.2026). Ranije: jedan red sa bočnim pomeranjem i maskom — pilule su
+  /* Akcije beležnice na telefonu – PRELAMAJU SE u više redova (odluka vlasnice
+     16.08.2026). Ranije: jedan red sa bočnim pomeranjem i maskom – pilule su
      bile odsečene na desnoj ivici („preuzmi…", „štampaj…", „podeli…" sečene,
      „obriši pesmu" rasuta). Pravilo: NIŠTA se ne seče i ništa ne izlazi iz
-     ekrana — sedam pilula stane u dva reda. Svaka pilula ostaje u jednom redu
+     ekrana – sedam pilula stane u dva reda. Svaka pilula ostaje u jednom redu
      (nowrap je na samom dugmetu).
      Red akcija ide ISPOD lista: prelomljen u dva-tri reda je gurao editor
      ispod pregiba (nalaz M3: editor mora biti vidljiv bez skrolanja). Ispod
-     pesme je prirodno mesto za „preuzmi / štampaj / podeli" — isti raspored
+     pesme je prirodno mesto za „preuzmi / štampaj / podeli" – isti raspored
      imaju beleške na telefonu. */
   .hint-actions{display:flex;flex-wrap:wrap;gap:.2rem .3rem;padding-bottom:.3rem}
   #panel-beleznica.active, .alat-beleznica{display:flex;flex-direction:column}
   #panel-beleznica.active .hint-actions, .alat-beleznica .hint-actions{order:5;margin:.9rem 0 .2rem}
-  /* U prelomljenim redovima crta-grupniša „lebdi" sama za sebe — na telefonu
+  /* U prelomljenim redovima crta-grupniša „lebdi" sama za sebe – na telefonu
      grupišu sam razmaci, crtice više ne nose ništa. */
   .hint-actions .hint-sep{display:none}
   /* Grupe akcija se RAČLANE (prijava vlasnice 16.08.2026, drugi prolaz):
@@ -2123,26 +2123,26 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
      sama u redu uz veliku prazninu desno, isto „prikaži metar". Sa
      `display:contents` grupa nestaje iz rasporeda i svih sedam dugmadi teku
      kroz jedan prelomljen red; `flex:1 0 auto` razvlači pilule da svaki red
-     popuni celu širinu — nema praznog desnog kraja ni usamljene pilule. */
+     popuni celu širinu – nema praznog desnog kraja ni usamljene pilule. */
   .hint-actions .hint-grupa{display:contents}
   .hint-actions .link-btn{flex:1 0 auto;white-space:nowrap;text-align:center}
   /* Podstrane: kartica alata na telefonu je jela 42 px širine na paddingu */
   .landing-tool{padding:.8rem}
 
-  /* Pro modal — responzivan */
+  /* Pro modal – responzivan */
   .pro-modal-content{padding:1.5rem;margin:1rem}
   .pro-plans{grid-template-columns:1fr}
 
-  /* Footer — pregledan */
+  /* Footer – pregledan */
   .footer-inner{padding:1rem}
   .footer-rimes,.footer-guides{flex-wrap:wrap;gap:.5rem}
-  /* Na telefonu se futer koristi prstom — puni dodirni cilj od 44 px. */
+  /* Na telefonu se futer koristi prstom – puni dodirni cilj od 44 px. */
   .futer-v2 .futer-kolona .footer-link{min-height:44px}
   /* Bez unutrašnjeg paddinga: futer već ima 1,5rem sa strane, pa bi sadržaj
      bio uvučen 2,5rem, a note (koje su poravnate na 1,5rem) ne bi stajale u
      istoj liniji sa naslovima kolona. */
   .futer-v2 .footer-inner{gap:1.5rem;padding:0}
-  /* Gornji pojas i dno se na telefonu centriraju — jednom rukom se gleda po
+  /* Gornji pojas i dno se na telefonu centriraju – jednom rukom se gleda po
      sredini ekrana. Kolone linkova OSTAJU levo poravnate: spisak se tako
      najbrže čita, a centriran spisak nema zajedničku ivicu za oko. */
   .futer-v2 .futer-glava{flex-direction:column;align-items:center;text-align:center}
@@ -2158,31 +2158,31 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
   .futer-v2 .futer-dno{align-items:center;text-align:center}
   .futer-v2 .futer-dno-red{justify-content:center;gap:.2rem .8rem}
   /* Adresa e-pošte je na računaru link usred rečenice (16 px visine). Na
-     telefonu se u nju gađa prstom, pa dobija svoj red i punih 44 px visine —
+     telefonu se u nju gađa prstom, pa dobija svoj red i punih 44 px visine –
      ne raste font, raste samo površina za dodir. */
   .futer-v2 .futer-akcija-hint a{
     display:flex;align-items:center;justify-content:center;min-height:44px;
   }
   /* „Powered by Orbita Code" mora da ostane U JEDNOM redu (prijava vlasnice
      16.08.2026: „Powered by" je stajao u jednom redu, „Orbita Code" u drugom).
-     Uzrok: link je ovde bio `display:flex` — blok — pa je padao u novi red.
+     Uzrok: link je ovde bio `display:flex` – blok – pa je padao u novi red.
      `inline-flex` ga drži u rečenici, a dodirni cilj i dalje dobija 44 px. */
   .futer-v2 .footer-orbita{white-space:nowrap}
   .futer-v2 .footer-orbita a{display:inline-flex;align-items:center;min-height:44px}
-  /* Note: na uskom ekranu osam nota bi bilo na 19 px razmaka — zbijeno.
+  /* Note: na uskom ekranu osam nota bi bilo na 19 px razmaka – zbijeno.
      Poslednje tri se sklanjaju, ostaje pet sa prozračnim razmakom. */
   .futer-v2 .nota-sira{display:none}
   .futer-v2 .futer-notni{height:66px;margin-bottom:1.1rem}
 
-  /* Rezultati — veći touch targeti */
+  /* Rezultati – veći touch targeti */
   .chip{padding:.6rem 1rem;font-size:.95rem}
 
-  /* Rime na klik u beležnici — veći touch targeti */
+  /* Rime na klik u beležnici – veći touch targeti */
   .note-rhymes .chip{padding:.7rem 1.1rem;font-size:1rem}
 }
 
 @media(max-width:380px){
-  /* Mali ekrani — još veći font */
+  /* Mali ekrani – još veći font */
   .brand h1,.brand-logo{font-size:1.8rem}
   .notepad-text{font-size:1.05rem}
   .chip{font-size:.9rem}
@@ -2232,20 +2232,20 @@ body.dark-mode .pro-plan:has(input:checked){border-color:var(--lavender-deep)}
 .res-legend .legend-tap{color:var(--muted);font-style:italic}
 body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var(--ink-soft)}
 
-/* Dugmići na rimi — veći cilj za prst na telefonu i jasnija ikonica značenja */
+/* Dugmići na rimi – veći cilj za prst na telefonu i jasnija ikonica značenja */
 .chip .mini{min-width:1.9rem;min-height:1.9rem;display:inline-flex;align-items:center;justify-content:center}
 .chip .info{font-size:1.05rem;color:var(--lavender-deep);font-weight:700}
 
 /* ── SAČUVANA REČ = PUNA LJUBIČASTA NOTA ─────────────────────────────────
    Prazno stanje ostaje srce (svi ga čitaju kao „sačuvaj"), a čim je reč
-   sačuvana, na njegovom mestu stoji puna osminka — isti crtež kao note u
+   sačuvana, na njegovom mestu stoji puna osminka – isti crtež kao note u
    futeru, samo manji. Tako sačuvana reč nosi znak Rimoteke, a ne opšti
    emodži koji ima svaki sajt.
 
    Oba znaka stoje u ISTOJ ćeliji mreže (`grid-area:1/1`), pa se prelaz radi
-   kao pretapanje na mestu — ništa se ne pomera, ni piksel, i dugme ne menja
+   kao pretapanje na mestu – ništa se ne pomera, ni piksel, i dugme ne menja
    veličinu (dodirni cilj ostaje 1,9rem × 1,9rem iz pravila iznad).
-   Animiraju se samo `transform` i `opacity` — oni ne diraju raspored. */
+   Animiraju se samo `transform` i `opacity` – oni ne diraju raspored. */
 .chip .fav{display:inline-grid;place-items:center;line-height:1}
 .chip .fav > *{grid-area:1/1}
 .chip .fav .fav-srce{
@@ -2254,7 +2254,7 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
 .chip .fav .fav-nota{
   height:1.35em;width:auto;display:block;color:var(--nota-fav);
   opacity:0;transform:scale(.35) rotate(-14deg);
-  /* Blagi odskok na ulasku (0,34 s) — nota „sedne" na mesto srca.
+  /* Blagi odskok na ulasku (0,34 s) – nota „sedne" na mesto srca.
      Izlazak srca je brži (0,14 s) jer je odluka već doneta. */
   transition:opacity .18s cubic-bezier(.2,0,0,1),transform .34s cubic-bezier(.34,1.56,.64,1);
 }
@@ -2267,7 +2267,7 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
   .chip .fav.on .fav-srce{transform:none}
 }
 
-/* ========== SINONIMI — zasebna kartica ==========
+/* ========== SINONIMI – zasebna kartica ==========
    Prednost koju konkurencija nema. Vizuelno se razlikuje od grupa rima
    (mint akcent, obojena leva ivica), da se odmah vidi da to nisu rime. */
 .syn-card{
@@ -2282,7 +2282,7 @@ body.dark-mode .res-legend{background:#1e1a2e;border-color:var(--line);color:var
   font-family:'Rubik','Rubik rezerva',system-ui,sans-serif;
 }
 .syn-badge{
-  /* belo slovo na svetloplavoj daje 2,76:1 u svetloj i 2,18:1 u tamnoj temi —
+  /* belo slovo na svetloplavoj daje 2,76:1 u svetloj i 2,18:1 u tamnoj temi –
      pada u obe. Tamno slovo na istoj plavoj daje 8,67:1 i ne menja boju značke. */
   background:var(--mint-deep);color:#121018;font-size:.68rem;font-weight:700;
   letter-spacing:.06em;text-transform:uppercase;
@@ -2297,10 +2297,10 @@ body.dark-mode .syn-card{
 body.dark-mode .syn-title{color:var(--ink)}
 body.dark-mode .syn-hint{color:var(--ink-soft)}
 
-/* ========== IGRA — dizajn ==========
+/* ========== IGRA – dizajn ==========
    Klase .game-word-box, .game-instruction, .game-word, .game-input-row,
    .game-feedback, .game-label i .game-value su postojale u HTML-u ali NISU
-   imale nijednu liniju CSS-a — zato je reč koju treba rimovati bila običan
+   imale nijednu liniju CSS-a – zato je reč koju treba rimovati bila običan
    sivi tekst, a polje za unos golo. */
 .game-label{color:var(--muted);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 .game-value{
@@ -2309,7 +2309,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 }
 .game-player-info{flex-wrap:wrap;align-items:center}
 
-/* Tajmer — prsten, ne samo broj */
+/* Tajmer – prsten, ne samo broj */
 .game-timer{
   font-size:1.6rem;width:58px;height:58px;flex:0 0 58px;
   display:flex;align-items:center;justify-content:center;border-radius:50%;
@@ -2319,7 +2319,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 .game-timer.low{color:#e0364f;border-color:#e0364f;animation:timer-pulse .9s ease-in-out infinite}
 @keyframes timer-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.09)}}
 
-/* Reč koju treba rimovati — glavni junak ekrana */
+/* Reč koju treba rimovati – glavni junak ekrana */
 .game-word-box{
   text-align:center;padding:1.4rem 1rem 1.5rem;border-radius:20px;margin-bottom:1.1rem;
   background:linear-gradient(140deg,#efeaff,#e6f2fe 55%,#eafaf4);
@@ -2367,7 +2367,7 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 .game-progress-dot.current{background:var(--lavender-deep);transform:scale(1.35);box-shadow:0 0 0 4px rgba(90,63,208,.16)}
 .game-progress-dot.wrong{background:#e0364f}
 
-/* Setup — neizabrana dugmad su bila skroz bezbojna */
+/* Setup – neizabrana dugmad su bila skroz bezbojna */
 .game-option:hover{border-color:var(--lavender);background:#faf8ff}
 .game-option.active{
   border-color:transparent;color:#fff;
@@ -2387,7 +2387,7 @@ body.dark-mode .game-input-row input{background:#2a2440;border-color:var(--line)
 body.dark-mode .game-option{background:#2a2440;border-color:var(--line);color:var(--ink)}
 body.dark-mode .game-instruction{color:var(--ink-soft)}
 
-/* PRINT — samo pesma (štampaj / PDF iz beležnice) */
+/* PRINT – samo pesma (štampaj / PDF iz beležnice) */
 #printArea{display:none}
 @media print{
   body>*:not(#printArea){display:none !important}
@@ -2396,7 +2396,7 @@ body.dark-mode .game-instruction{color:var(--ink-soft)}
   #printArea p{margin:.15rem 0;font-size:1.05rem;line-height:1.55;white-space:pre-wrap}
 }
 
-/* Naslov pesme — opciono polje iznad beležnice */
+/* Naslov pesme – opciono polje iznad beležnice */
 .notepad-title{width:100%;box-sizing:border-box;font:inherit;font-size:1.15rem;font-weight:700;text-align:center;padding:.7rem 1rem;margin-bottom:.55rem;border:2px solid var(--field-line);border-radius:14px;background:var(--field-bg);color:var(--ink);box-shadow:var(--shadow-sm)}
 .notepad-title::placeholder{color:var(--muted);font-weight:500}
 .notepad-title:focus{outline:0;border-color:var(--lavender)}
@@ -2405,7 +2405,7 @@ body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:v
 
 /* ========== HUB STRANA /rime-za/ ==========
    Ranije je taj folder vraćao 403, pa srednji nivo strukture nije ni postojao. */
-/* S-23 / P11 (od 29.07.2026): spisak od 2.000 linkova, 16.000 px visok — azbuka je LEPLJIVA (uvek pri ruci) i
+/* S-23 / P11 (od 29.07.2026): spisak od 2.000 linkova, 16.000 px visok – azbuka je LEPLJIVA (uvek pri ruci) i
    ima pretragu u spisku (08.09.2026). */
 .hub-alat{position:sticky;top:0;z-index:5;background:var(--bg);padding:.6rem 0 .5rem;margin:0 0 1rem;border-bottom:1px solid var(--line)}
 .hub-pretraga{width:100%;box-sizing:border-box;font:inherit;font-size:1rem;padding:.6rem .9rem;border:2px solid var(--polje-okvir);border-radius:14px;background:var(--field-bg);color:var(--ink);margin:0 0 .6rem}
@@ -2420,9 +2420,9 @@ body.dark-mode .notepad-title{background:#1e1a2e;color:var(--ink);border-color:v
 
 /* ========== POPRAVKE IZ AUDITA 29.07.2026 ========== */
 
-/* Kontrast brojača u igri (bio 4,1:1 u tamnom režimu — ispod praga 4,5:1).
+/* Kontrast brojača u igri (bio 4,1:1 u tamnom režimu – ispod praga 4,5:1).
    Uzrok je isti obrazac kao kod K2: boja teksta ide kroz promenljivu koja se
-   menja sa temom, a podloga je tvrdo upisana `rgba(90,63,208,.09)` — u tamnoj
+   menja sa temom, a podloga je tvrdo upisana `rgba(90,63,208,.09)` – u tamnoj
    temi ta ljubičasta podloga stapa se sa tamnom pozadinom. */
 body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
@@ -2436,24 +2436,24 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
      šesnaest predloga bila vidljiva dva. */
   .note-rhymes{max-height:34dvh;overflow-y:auto}
 
-  /* Sedam akcionih dugmadi u beležnici bilo je visoko 23,3 px i bez razmaka —
+  /* Sedam akcionih dugmadi u beležnici bilo je visoko 23,3 px i bez razmaka –
      među njima i destruktivno „obriši sve". Preporuka za dodir je 44 px. */
   #panel-beleznica .hint .link-btn{
     display:inline-flex;align-items:center;min-height:44px;padding:0 .5rem;margin:.15rem .1rem;
   }
 }
 
-/* Pejzaž na telefonu — panel sa rimama ne sme da pojede ceo ekran */
+/* Pejzaž na telefonu – panel sa rimama ne sme da pojede ceo ekran */
 @media(max-height:520px){
   .note-rhymes{max-height:40dvh;overflow-y:auto}
 }
 
-/* Dugme dok se rečnik učitava (nalaz V5) — reč se pamti i pretraga kreće sama */
+/* Dugme dok se rečnik učitava (nalaz V5) – reč se pamti i pretraga kreće sama */
 .primary.ucitava{opacity:.65;cursor:progress}
 
 /* ====================== UPUTSTVO ZA SRPSKA SLOVA ======================
    Vidi se SAMO u ćiriličnom režimu (app.js ga pokazuje i skriva). Stoji između
-   zaglavlja i trake alata, sklopljeno u jedan red — otvara se na klik, pa ne
+   zaglavlja i trake alata, sklopljeno u jedan red – otvara se na klik, pa ne
    zauzima prostor onome ko ga ne traži. Sve boje idu kroz promenljive, pa
    tamni režim radi bez posebnih pravila. */
 .kbd-help{max-width:940px;margin:0 auto;padding:0 clamp(1rem,4vw,2.6rem)}
@@ -2499,26 +2499,26 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   MOBILNA VERZIJA — 31.07.2026
+   MOBILNA VERZIJA – 31.07.2026
    ═══════════════════════════════════════════════════════════════════════════
    Sve ispod ove linije radi SAMO na telefonu (do 560 px) ili SAMO kad je
    otvorena tastatura. Računar i tablet ne ulaze ni u jedno od ovih pravila i
-   njihov izgled se ne menja ni za piksel — to je bio izričit uslov.
+   njihov izgled se ne menja ni za piksel – to je bio izričit uslov.
 
    Tri stvari koje se ovde rešavaju, sve tri IZMERENE, ne procenjene:
 
    1. RIME SU BILE JEDNA ISPOD DRUGE. Pilula sa rečju nosila je i tri ikonice
-      (ⓘ ♡ 🔁), pa je bila široka 228 px od 390 — u red je stajala tačno jedna
+      (ⓘ ♡ 🔁), pa je bila široka 228 px od 390 – u red je stajala tačno jedna
       reč. Za „ljubav" (195 rima) spisak je bio visok 12.524 px, a cela strana
       16.113 px. Sada je mreža od 2–3 jednake kolone, a ikonice se pojave
       IZNAD reči kad se na nju kucne (v. `.chip-actions`).
 
    2. TASTATURA JE ZAKLANJALA RIME U BELEŽNICI (prijava vlasnice). Panel je
       `position:fixed; bottom:0`, a to se meri prema layout viewport-u koji se
-      pri otvaranju tastature NE smanjuje — panel je stajao od 557 do 844 px,
+      pri otvaranju tastature NE smanjuje – panel je stajao od 557 do 844 px,
       a tastatura pokriva od ~540 naniže. Sada stoji na `bottom:var(--kb)`, gde
       `--kb` računa `visualViewport` u `app.js`, i sveden je na jedan red koji
-      se pomera u stranu — traka iznad tastature, kao traka predloga same
+      se pomera u stranu – traka iznad tastature, kao traka predloga same
       tastature. Strelica je razvija u pun list.
 
    3. DODIRNI CILJEVI. Izmereno 267 elemenata nižih od 36 px, među njima i
@@ -2528,10 +2528,10 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 /* ── 1. TASTATURA PODIŽE SVE ŠTO STOJI NA DNU ─────────────────────────────
    `--kb` postavlja `app.js` iz `visualViewport`; kad tastature nema, vredi 0
    i ništa se ne pomera. Važi svuda gde se panel i inače lepi za dno (do 900 px)
-   jer i tablet ima tastaturu na ekranu — ali se time NIŠTA ne pomera dok
+   jer i tablet ima tastaturu na ekranu – ali se time NIŠTA ne pomera dok
    tastatura nije otvorena, pa se zatečeni izgled ne menja. */
 @media(max-width:900px){
-  body.notes-typing .notepad-layout .note-rhymes{bottom:var(--kb,0px)}
+  body.notes-typing .notepad-layout .note-rhymes{top:0;bottom:auto}   /* na VRHU vidljivog ekrana (08.09.2026); tačan `top` upisuje app.js */
 }
 
 /* ── 2. TRAKA SA RADNJAMA NAD REČJU ───────────────────────────────────────
@@ -2573,14 +2573,14 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 @media(prefers-reduced-motion:reduce){.ca-btn.on .ca-ic svg{animation:none}}
 @media(prefers-reduced-motion:reduce){.chip-actions{animation:none}}
 
-/* Strelica koja razvija traku sa rimama — postoji samo na telefonu. */
+/* Strelica koja razvija traku sa rimama – postoji samo na telefonu. */
 .nr-toggle{display:none}
 
 @media(max-width:560px){
 
   /* ── UVOD: manje praznog hoda do prve rime ──────────────────────────────
      Iznad rezultata je stajalo 1.070 px sadržaja. Logo se NE dira (pravilo
-     8a) — skraćuje se samo naslovni blok, i to veličinom slova, ne brisanjem.
+     8a) – skraćuje se samo naslovni blok, i to veličinom slova, ne brisanjem.
      Od 02.08.2026 naslovni blok stoji ISPOD alata (v. `order:9` iznad), pa mu
      razmak ide na vrh, ne na dno; veličine slova ostaju iste. */
   .hero h1{font-size:1.16rem;line-height:1.3;margin-bottom:.3rem}
@@ -2603,21 +2603,21 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
   /* ── LEGENDA ────────────────────────────────────────────────────────────
      Na telefonu ima dve stavke umesto pet (tekst menja `renderLegend`), jer
-     ikonica u pilули više nema — legenda kaže kako se do njih dolazi. */
+     ikonica u pilули više nema – legenda kaže kako se do njih dolazi. */
   .res-legend{padding:.5rem .7rem;margin-bottom:.8rem;font-size:.8rem;gap:.3rem .8rem}
 
   /* ── RIME: PILULE GRLE REČ, RED SE PAKUJE GUSTO ─────────────────────────
-     Do 16.08.2026: mreža `auto-fill,minmax(104px,1fr)` — pilula se razvlači
+     Do 16.08.2026: mreža `auto-fill,minmax(104px,1fr)` – pilula se razvlači
      preko cele kolone, a duga reč je dobijala DVE kolone (klase
      `chip-siri`/`chip-najsiri` iz `izmeriCipove()`). Posledica, prijava
      vlasnice: „abecedama" u piluli širokoj dvostruko od reči, prazno s obe
      strane, a u red stane manje reči nego što može.
-     Sada: flex-red koji se prelama — svaka pilula je široka TAČNO koliko
+     Sada: flex-red koji se prelama – svaka pilula je široka TAČNO koliko
      sadržaj (reč + oznaka slogova), pa u red staje onoliko reči koliko
      stvarno stane (2–4, po dužini), bez ijednog praznog piksela u piluli.
      Znak `>` je bitan: čipovi ubačeni USRED PASUSA na tematskim stranama
      („Evo reči za koje se rime najviše traže: …") nisu deca `.results`, pa
-     njih ovo ne dira — isti razlog zbog kog je `.chip` `inline-flex`. */
+     njih ovo ne dira – isti razlog zbog kog je `.chip` `inline-flex`. */
   .results{
     display:flex;flex-wrap:wrap;
     gap:.5rem;align-content:flex-start;
@@ -2633,7 +2633,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   /* Reč se ne prelama i NE SEČE (odluka vlasnice 16.08.2026): pilula raste
      zajedno sa reči, pa elipsa nema gde da se desi. `overflow:hidden` +
      `max-width:100%` ostaju kao poslednja odbrana za reč dužu i od celog
-     reda — tada se reč ipak skraćuje, ali samo tada. */
+     reda – tada se reč ipak skraćuje, ali samo tada. */
   .results > .chip .word{
     font-size:.95rem;min-width:0;white-space:nowrap;
     overflow:hidden;overflow-wrap:normal;
@@ -2653,21 +2653,21 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
   /* ═════════ BELEŽNICA ═════════
      Cilj: da izgleda kao alat za pisanje, a ne kao veb-formular. Manje okvira,
-     manje boje, više prostora za stih. Ništa se ne uklanja — samo se stišava
+     manje boje, više prostora za stih. Ništa se ne uklanja – samo se stišava
      ono što nije tekst. */
 
-  /* Naslov pesme — kao u aplikaciji za beleške: bez kutije, veliki i tih. */
+  /* Naslov pesme – kao u aplikaciji za beleške: bez kutije, veliki i tih. */
   .notepad-title{
     border:0;background:transparent;box-shadow:none;
     text-align:left;font-size:1.3rem;font-weight:700;
     padding:.35rem .25rem .4rem;margin-bottom:.1rem;min-height:44px;
   }
   .notepad-title:focus{border:0;box-shadow:none}
-  /* bez `opacity` — u tamnom režimu je `--muted` (#8a80b0) na #121018 već pri
+  /* bez `opacity` – u tamnom režimu je `--muted` (#8a80b0) na #121018 već pri
      dnu čitljivosti, a prigušenje ga je spuštalo ispod nje */
   .notepad-title::placeholder{font-weight:600}
 
-  /* Sam list — mekša senka, tiši žleb. Ljubičasti gradijent u žlebu je vukao
+  /* Sam list – mekša senka, tiši žleb. Ljubičasti gradijent u žlebu je vukao
      pogled na brojeve umesto na stih. */
   .notepad{
     border-radius:18px;
@@ -2679,22 +2679,22 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
     color:var(--muted);
   }
   .notepad .gutter-row .g-letter{color:var(--lavender-deep)}
-  /* Prostor za pisanje na telefonu — svaki piksel se broji.
+  /* Prostor za pisanje na telefonu – svaki piksel se broji.
      Izmereno 03.08.2026 na 390 px: u red je stajalo 24 znaka, pa se stih
      prelamao već posle četiri reči i delovalo je kao da alat sam prebacuje u
      novi red. Uzrok: 45 px brojača + 29 px unutrašnjeg odstojanja od 332 px
      koliko kolona uopšte ima. Sa užim odstojanjem i užim brojačem u red staje
-     oko 30 znakova. Brojanje se ne menja — jedan stih je i dalje jedan red u
+     oko 30 znakova. Brojanje se ne menja – jedan stih je i dalje jedan red u
      brojaču, i kad se vizuelno prelomi (provereno: stih od 15 slogova daje
      jedan red, ne dva). */
   .notepad-text{padding:1rem .5rem}
   /* Beležnica ide od ivice do ivice ekrana. Na telefonu su bočna odstojanja
-     strane (`--odstojanje-okvir`) i zone alata (.8rem) uzimala 58 px od 390 —
+     strane (`--odstojanje-okvir`) i zone alata (.8rem) uzimala 58 px od 390 –
      a to je petina reda u kome se piše pesma. Papir sme da dodirne ivicu, on
      je sam sebi okvir; sve ostalo na strani ostaje uvučeno. */
   .notepad{margin-inline:calc(-1 * (var(--odstojanje-okvir) + .8rem));border-radius:0}
 
-  /* Traka radnji — pilule umesto podvučenih linkova. Sedam podvučenih plavih
+  /* Traka radnji – pilule umesto podvučenih linkova. Sedam podvučenih plavih
      reči u nizu ne izgleda kao alat nego kao futer. Redosled i tekst ostaju
      isti, menja se samo oblik i visina cilja za prst.
 
@@ -2714,16 +2714,16 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   }
   .hint .link-btn:active,
   .poem-foot .link-btn:active{background:var(--menu-hover)}
-  /* dugme „prebaci u brojač slogova" pravi JS na dnu svake pesme u Klasicima —
+  /* dugme „prebaci u brojač slogova" pravi JS na dnu svake pesme u Klasicima –
      izmereno 164×21 px, dakle upola niže od praga za prst */
   .poem-foot .link-btn{margin-top:.5rem}
 
   /* Slovo šeme rime uz stih u Klasicima je dugme (vodi na rime za tu reč), a
      bilo je 24×18 px. Pun prag od 44 px ovde nije moguć bez razmicanja stihova
-     — razmak između stihova je 24,5 px — pa se cilj širi koliko se može, a da
+     – razmak između stihova je 24,5 px – pa se cilj širi koliko se može, a da
      se pesma i dalje čita kao pesma. */
   /* `align-items:center`, ne `baseline`: sa poravnanjem po osnovnoj liniji viši
-     element razvuče ceo red — sa 30 px slovom red je narastao na 54 px i pesma
+     element razvuče ceo red – sa 30 px slovom red je narastao na 54 px i pesma
      je izgledala razmaknuto. */
   .verse{align-items:center;gap:.3rem}
   .verse .vrhyme{
@@ -2731,13 +2731,13 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
     -webkit-tap-highlight-color:transparent;
   }
   /* STIH U JEDNOM REDU NA TELEFONU (prijava vlasnice 16.08.2026: „Emina" se
-     lomila — na 375 px se lomilo 96 od 138 stihova). Bočne oznake su stišane:
+     lomila – na 375 px se lomilo 96 od 138 stihova). Bočne oznake su stišane:
      broj slogova više nema svoju kolonu od 26 px levo nego stoji neposredno uz
      slovo šeme rime, desno (uzima samo onoliko koliko mu treba), a slovo je
      sitnije. Kartica izlazi na ivicu ekrana (isti manevar koji list beležnice
-     već radi — v. `.notepad` ispod), pa stih dobija ~290–300 px; uz tekst od
+     već radi – v. `.notepad` ispod), pa stih dobija ~290–300 px; uz tekst od
      .8rem ni najduži stih (41 slovo, 309 px pri 13,6 px) ne prelazi red.
-     Sve izmereno na 375–430 px — 0 prelomljenih od 138. */
+     Sve izmereno na 375–430 px – 0 prelomljenih od 138. */
   .poem-card{
     margin-inline:calc(-1 * (var(--odstojanje-okvir) + .8rem));
     border-radius:0;padding:.9rem .55rem;
@@ -2745,7 +2745,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   .verse .vtext{order:1;flex:1 1 auto;min-width:0;font-size:.8rem;line-height:1.45}
   .verse .vsyl{order:2;flex:0 0 auto;font-size:.62rem;text-align:right}
   .verse .vrhyme{order:3}
-  /* Dva dugmeta brišu tuđi rad — pesmu i spisak omiljenih. Moraju da se
+  /* Dva dugmeta brišu tuđi rad – pesmu i spisak omiljenih. Moraju da se
      razlikuju od ostalih, jer u nizu jednakih pilula prst lako promaši. */
   .hint #clearNotes.link-btn,
   .hint #clearFavs.link-btn{
@@ -2759,7 +2759,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
 
   /* ── SAČUVANA REČ SE VIDI I BEZ OTVARANJA TRAKE ────────────────────────
      Ikonice su sklonjene iz pilule, pa bez ovoga korisnik nikako ne bi znao
-     koje je reči već sačuvao — morao bi da kucne na svaku. Puna nota ostaje
+     koje je reči već sačuvao – morao bi da kucne na svaku. Puna nota ostaje
      kao oznaka; ona nije dugme (dodir na pilulu svakako otvara traku).
      `inline-grid`, ne `inline-flex`: srce i nota moraju da ostanu jedno preko
      drugog, inače bi u traci stajala oba znaka jedan pored drugog. */
@@ -2772,7 +2772,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   /* ── BLEĐENJE DESNE IVICE KOD REDOVA KOJI SE POMERAJU ───────────────────
      Klasu `red-do-kraja` skida `app.js` kad se dopomera do kraja, da poslednje
      dugme ne ostane izbledelo. `.hint-actions` se više ne pomera u stranu
-     (prelama se — odluka 16.08.2026), pa maska ostaje samo na traci rima. */
+     (prelama se – odluka 16.08.2026), pa maska ostaje samo na traci rima. */
   body.notes-typing .note-rhymes .results:not(.red-do-kraja){
     -webkit-mask-image:linear-gradient(90deg,#000 88%,transparent 99.5%);
     mask-image:linear-gradient(90deg,#000 88%,transparent 99.5%);
@@ -2787,9 +2787,9 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   body.notes-typing .notepad-layout .note-rhymes{
     max-height:none;overflow:visible;
     padding:.3rem .7rem calc(.45rem + env(safe-area-inset-bottom,0px));
-    border-radius:18px 18px 0 0;
-    border:0;border-top:1px solid var(--line);
-    box-shadow:0 -8px 28px rgba(90,63,208,.20);
+    border-radius:0 0 18px 18px;
+    border:0;border-bottom:1px solid var(--line);
+    box-shadow:0 8px 28px rgba(90,63,208,.20);
   }
   body.notes-typing .note-rhymes h4{
     display:flex;align-items:center;justify-content:space-between;gap:.5rem;
@@ -2807,7 +2807,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
     overflow-x:auto;overflow-y:hidden;padding-bottom:.2rem;
     -webkit-overflow-scrolling:touch;
     /* bez ovoga mobilni Chrome računa širinu STRANE po sadržaju reda i ceo
-       sajt se „odzumira" — isti razlog kao kod `.hint-actions` */
+       sajt se „odzumira" – isti razlog kao kod `.hint-actions` */
     contain:inline-size;box-sizing:border-box;
     scroll-snap-type:x proximity;
   }
@@ -2826,21 +2826,21 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   body.notes-typing .note-rhymes.nr-open h4{position:sticky;top:0;background:inherit;z-index:1}
 
   /* Mesto ispod pesme da poslednji stih može da se dovuče iznad trake i
-     tastature. Radi na OBE strane sa beležnicom — `#panel-beleznica` postoji
+     tastature. Radi na OBE strane sa beležnicom – `#panel-beleznica` postoji
      samo na početnoj, `.notepad-layout` na obe. `--traka-lift` je visina
-     Safari trake na iOS-u (0 na ostalim platformama) — v. app.js. */
+     Safari trake na iOS-u (0 na ostalim platformama) – v. app.js. */
   body.notes-typing #panel-beleznica{padding-bottom:0}
   body.notes-typing .notepad-layout{padding-bottom:calc(var(--kb,0px) + var(--traka-lift,0px) + 128px)}
 
-  /* Panel kad se NE piše (editor bez fokusa) — običan blok ispod pesme */
+  /* Panel kad se NE piše (editor bez fokusa) – običan blok ispod pesme */
   .note-rhymes{max-height:38dvh;overflow-y:auto}
 }
 
-/* Tamni režim — tiši žleb i pilule u traci beležnice */
+/* Tamni režim – tiši žleb i pilule u traci beležnice */
 @media(max-width:560px){
   body.dark-mode .notepad .gutter{background:transparent;color:var(--muted)}
 
-  /* Beli okvir oko pilule u tamnom režimu — popravka je 27.08.2026. izvučena
+  /* Beli okvir oko pilule u tamnom režimu – popravka je 27.08.2026. izvučena
      ODAVDE, iz medija-upita za 560 px, u opšti deo (v. dno fajla). Do tada je
      važila samo na telefonu, pa je na računaru i tabletu okvir ostajao beo.
      Nalaz M12, otvoren od 31.07.2026, tri audita zaredom. */
@@ -2850,7 +2850,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   }
   /* Selektor mora da nosi i `.hint` i `id`, da nadjača svetlo pravilo
      `.hint #clearNotes.link-btn` (1 id + 2 klase). Sa slabijim selektorom je
-     u tamnom režimu ostajala tamnocrvena #b3372a na podlozi #241f38 —
+     u tamnom režimu ostajala tamnocrvena #b3372a na podlozi #241f38 –
      izmereno 2,4:1, dakle jedva vidljivo. */
   body.dark-mode .hint #clearNotes.link-btn,
   body.dark-mode .hint #clearFavs.link-btn{
@@ -2864,7 +2864,7 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
    Na dodirnom ekranu `:hover` OSTAJE na poslednjoj dodirnutoj pilули dok se ne
    dodirne nešto drugo. Pošto sada dodir znači „izabrao sam ovu reč" i pilula
    dobija svoj prsten (`.chip-izabran`), zaostali hover je davao DVE označene
-   reči odjednom — jednu stvarno izabranu, jednu samo poslednju dodirnutu. */
+   reči odjednom – jednu stvarno izabranu, jednu samo poslednju dodirnutu. */
 @media(max-width:560px) and (hover:none){
   .results > .chip:hover{transform:none;border-color:#fff}
   .strong-tier .results > .chip:hover{border-color:var(--butter)}
@@ -2874,18 +2874,18 @@ body.dark-mode .game-value{background:rgba(255,255,255,.10);color:#c9bcff}
   .note-rhymes .chip:hover{transform:none;box-shadow:var(--shadow-sm)}
 }
 
-/* Telefon položen na stranu (visina do 480 px, širina do 932 px — tablet ima
+/* Telefon položen na stranu (visina do 480 px, širina do 932 px – tablet ima
    i u pejzažu bar 744 px visine, pa ovde ne ulazi). Traka sa rimama tada mora
    da bude još niža, jer tastatura pojede skoro ceo ekran. */
 @media(max-height:480px) and (max-width:932px){
-  body.notes-typing .notepad-layout .note-rhymes{bottom:var(--kb,0px)}
+  body.notes-typing .notepad-layout .note-rhymes{top:0;bottom:auto}   /* na VRHU vidljivog ekrana (08.09.2026); tačan `top` upisuje app.js */
   body.notes-typing .note-rhymes.nr-open{max-height:52dvh}
 }
 
 /* ── PILULA KOJA JE DUGME, NE LINK (nalaz K2, 20.08.2026) ──────────────────
    Na stranama `/rime-za/…/` reč koja NEMA svoju stranu crta se kao <button>,
    da Gugl ne dobije 96.115 adresa za obilazak (v. `chip()` u `gen_pages.py`).
-   Ovde se skidaju samo podrazumevani stilovi dugmeta — sve ostalo nasleđuje
+   Ovde se skidaju samo podrazumevani stilovi dugmeta – sve ostalo nasleđuje
    od `.chip`, pa se izgled ne menja ni za piksel. Bez ovoga bi pilula dobila
    sistemski font i sivu pozadinu pregledača. */
 button.chip-btn{
@@ -2897,17 +2897,17 @@ button.chip-btn{
 }
 
 /* ── BELI OKVIR OKO PILULE U TAMNOM REŽIMU (nalaz M12) ─────────────────────
-   `.chip` ima `border:2px solid #fff`, a tamni režim je menjao samo pozadinu —
+   `.chip` ima `border:2px solid #fff`, a tamni režim je menjao samo pozadinu –
    pa je oko svake „dobre rime" i oko svake rime u traci beležnice stajao BEO
    prsten debeo 2 px na podlozi #1e1a2e.
 
    Izmereno: beo okvir prema toj podlozi daje odnos **15,1:1**, a razdelnoj
-   liniji treba oko **3:1** — pet puta jače nego što treba, pa svetli kao neon.
+   liniji treba oko **3:1** – pet puta jače nego što treba, pa svetli kao neon.
    „Najbolje rime" to nisu imale, jer njih pokriva `.strong-tier` (lavanda), pa
    su se u istom spisku videla dva različita izgleda.
 
    Popravka je 31.07.2026. bila upisana UNUTAR `@media(max-width:560px)`, pa je
-   važila samo na telefonu — na računaru i tabletu je okvir ostao beo kroz tri
+   važila samo na telefonu – na računaru i tabletu je okvir ostao beo kroz tri
    audita. Zato sada stoji ovde, bez medija-upita, i važi na svim širinama.
    Odluka vlasnice, 27.08.2026.
 
@@ -2918,19 +2918,19 @@ body.dark-mode .strong-tier .results > .chip{border-color:var(--butter)}
 
 /* ====================== KAPSULE BEZ IKONICA (06.09.2026, varijanta B) ======================
    Ikonice uz reč (ⓘ ♡ 🔁 ⚑) ostaju u DOM-u (stanje, pristupačnost, test), ali se ne
-   crtaju — radnje su u traci `.chip-actions` koja se otvori na prelazak mišem, fokus
+   crtaju – radnje su u traci `.chip-actions` koja se otvori na prelazak mišem, fokus
    ili dodir. Izmereno na 1280 px: 4 → ~10 reči u redu. Panel uz stih nema `.mini`. */
 .chip .mini{display:none}
 .chip.chip-izabran{box-shadow:0 0 0 2px var(--lavender-deep) inset,var(--shadow-sm)}
 
-/* 320 px: traka nad reči mora cela u ekran (nalaz A3, 07.09.2026 — bilo 8→327 na 320). */
+/* 320 px: traka nad reči mora cela u ekran (nalaz A3, 07.09.2026 – bilo 8→327 na 320). */
 .chip-actions{max-width:calc(100vw - 16px);box-sizing:border-box}
 @media(max-width:360px){
   .ca-btn{min-width:0;flex:1 1 0;padding:.25rem .1rem}
   .ca-btn .ca-txt{font-size:.6rem}
   .chip-actions{gap:.05rem}
 }
-/* Legenda iznad rezultata sme da se prelama — ćirilični tekst na 320 px širio je stranu na 344 px. */
+/* Legenda iznad rezultata sme da se prelama – ćirilični tekst na 320 px širio je stranu na 344 px. */
 .res-legend{flex-wrap:wrap}
 .res-legend .legend-item,.res-legend .legend-tap{white-space:normal;overflow-wrap:anywhere;max-width:100%}
 /* Legenda u dva reda (08.09.2026): svaka rečenica u svom redu, kružić uz prvu. */
@@ -3013,7 +3013,7 @@ body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
 /* ── DODIRNI CILJEVI ≥ 44 px NA TELEFONU (nalazi S-10, S-11, audit 07.09.2026) ─────
    Izmereno: filteri slogova 40, kvačice 40, odgovori u prijavi 36, „Pošalji“ 42, dugmad
    banera 40, kapsule u beležnici dok se kuca 42, linkovi u futeru 16–19 px. Sve ispod
-   44 px promašuje se prstom. Samo tamo gde je prst — na računaru ostaje kompaktno. */
+   44 px promašuje se prstom. Samo tamo gde je prst – na računaru ostaje kompaktno. */
 @media(max-width:560px),(pointer:coarse){
   .syl-filter button{min-height:44px;padding:.32rem .85rem}
   .loose-toggle{min-height:44px}
@@ -3025,9 +3025,9 @@ body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
 }
 
 /* Na uskom telefonu (320) baner mora ispod petine ekrana (nalaz S-13, izmereno: 161 px od 780 pre ovoga).
-   Stoji POSLE svih pravila banera — ista specifičnost, pa pobeđuje ono što je kasnije u fajlu. */
+   Stoji POSLE svih pravila banera – ista specifičnost, pa pobeđuje ono što je kasnije u fajlu. */
 @media(max-width:400px){.kolacici{font-size:.85rem;line-height:1.35;padding:.45rem .7rem .5rem}.kolacici-naslov{font-size:.9rem;margin-bottom:0}.kolacici-dugmad{margin-top:.35rem;gap:.4rem}}
-/* N-16 (audit 07.09.2026): na 320 px je šest filtera bilo široko 263 px, a mesta 262 — „5+" je padao u drugi
+/* N-16 (audit 07.09.2026): na 320 px je šest filtera bilo široko 263 px, a mesta 262 – „5+" je padao u drugi
    red; kvačice u tri reda. Stoji na KRAJU fajla jer mora da nadjača pravilo za 44 px iznad (isti selektor). */
 @media(max-width:360px){
   .syl-filter{gap:.2rem}
@@ -3035,3 +3035,8 @@ body.dark-mode .kolacici{box-shadow:0 14px 40px rgba(0,0,0,.55)}
   .filters{gap:.5rem .4rem}
   .loose-toggle{padding:.3rem .4rem;font-size:.82rem;gap:.25rem}   /* izmereno 160+146+113 px: tri reda za 3 px; sad dva */
 }
+/* Tamni režim (08.09.2026): pregledaču se kaže koja je šema, pa skrol trake, padajući izbornici i polja
+   dobiju tamne sistemske boje umesto belih. */
+html.dark-mode,body.dark-mode{color-scheme:dark}
+/* Tamna tema – okviri kvačica i dugmeta „još" bili 1,44–1,61 (treba ≥3): skener tamne teme 08.09.2026. */
+body.dark-mode .loose-toggle,body.dark-mode .nr-more{border-color:#7a71a8}

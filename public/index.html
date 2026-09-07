@@ -3,25 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Google Analytics se učitava TEK POSLE pristanka u baneru — v. ga-init.js (06.09.2026) -->
+<!-- Google Analytics se učitava TEK POSLE pristanka u baneru – v. ga-init.js (06.09.2026) -->
 <script src="ga-init.js?v=5"></script>
-<!-- Rečnik kreće sa HTML-om, ne tek posle app.js (nalaz A5). Adresa MORA biti ista kao u app.js — test poredi. -->
+<!-- Rečnik kreće sa HTML-om, ne tek posle app.js (nalaz A5). Adresa MORA biti ista kao u app.js – test poredi. -->
 <link rel="preload" as="fetch" href="/reci.txt?v=c233afa9" crossorigin>
-<title>Rečnik rima — rime, slogovi i značenje svake reči | Rimoteka</title>
-<meta name="description" content="Upiši reč i dobiješ sve rime — uz svaku piše broj slogova i šta znači. Rečnik rima srpskog jezika, sa beležnicom za pesmu. Besplatno, bez reklama.">
+<title>Rečnik rima – rime, slogovi i značenje svake reči | Rimoteka</title>
+<meta name="description" content="Upiši reč i dobiješ sve rime – uz svaku piše broj slogova i šta znači. Rečnik rima srpskog jezika, sa beležnicom za pesmu. Besplatno, bez reklama.">
 <link rel="canonical" href="https://rimoteka.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Rimoteka">
 <meta property="og:locale" content="sr_RS">
 <meta property="og:url" content="https://rimoteka.com/">
-<meta property="og:title" content="Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka">
+<meta property="og:title" content="Rimovanje reči na srpskom – rime, slogovi, pesme | Rimoteka">
 <meta property="og:description" content="Rimovanje za lakše štimovanje! Rečnik rima sa objašnjenjem svake reči, brojač slogova, beležnica za pesme i igra rimovanja.">
 <meta property="og:image" content="https://rimoteka.com/og-slika.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Rimoteka — rime, rečnik i slogovi na srpskom jeziku">
+<meta property="og:image:alt" content="Rimoteka – rime, rečnik i slogovi na srpskom jeziku">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka">
+<meta name="twitter:title" content="Rimovanje reči na srpskom – rime, slogovi, pesme | Rimoteka">
 <meta name="twitter:description" content="Rimovanje za lakše štimovanje! Rečnik rima sa objašnjenjem svake reči, brojač slogova, beležnica za pesme i igra rimovanja.">
 <meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
 <!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
@@ -36,10 +36,10 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <link rel="manifest" href="/manifest.json">
-<script src="/dark-mode-init.js?v=3"></script>
+<script src="/dark-mode-init.js?v=4"></script>
 <!-- Oznaka aktivnog taba na <html>, PRE iscrtavanja tela. Po njoj CSS skriva
      traku za saradnju na početnom tabu, a poziv prikazuje u futeru (04.08.2026).
-     U SPOLJNJEM fajlu — CSP na produkciji blokira inline skripte (ista zamka
+     U SPOLJNJEM fajlu – CSP na produkciji blokira inline skripte (ista zamka
      kao ranije, v. handover sesije 12). Bez nje bi se sadržaj pomerio kad
      stigne app.js. -->
 <script src="/tab-init.js?v=1"></script>
@@ -67,17 +67,17 @@
     {
       "@type": "Question",
       "name": "Kako da pronađem rime za neku reč?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju — na vrhu one sa istim brojem slogova kao tvoja reč, jer one najlakše legnu u stih. Možeš i da filtriraš po broju slogova." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju – na vrhu one sa istim brojem slogova kao tvoja reč, jer one najlakše legnu u stih. Možeš i da filtriraš po broju slogova." }
     },
     {
       "@type": "Question",
       "name": "Šta je rimovanje reči?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Rimovanje reči je pronalaženje reči koje se slično završavaju i skladno zvuče na kraju stiha. Rimoteka za svaku reč odmah pronalazi najbolje i dobre rime, pa je rimovanje brzo i lako — za pesme, tekstove i rep." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Rimovanje reči je pronalaženje reči koje se slično završavaju i skladno zvuče na kraju stiha. Rimoteka za svaku reč odmah pronalazi najbolje i dobre rime, pa je rimovanje brzo i lako – za pesme, tekstove i rep." }
     },
     {
       "@type": "Question",
       "name": "Da li je Rimoteka besplatna?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Da, potpuno je besplatna. Rimoteka je alat za rimovanje reči — rečnik rima, brojač slogova i beležnica za pisanje pesama i tekstova na srpskom jeziku." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Da, potpuno je besplatna. Rimoteka je alat za rimovanje reči – rečnik rima, brojač slogova i beležnica za pisanje pesama i tekstova na srpskom jeziku." }
     },
     {
       "@type": "Question",
@@ -92,7 +92,7 @@
     {
       "@type": "Question",
       "name": "Postoji li brojač karaktera i reči?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Postoji — isti alat. Brojač slogova i karaktera uz svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Postoji – isti alat. Brojač slogova i karaktera uz svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu." }
     },
     {
       "@type": "Question",
@@ -106,11 +106,11 @@
 <body>
 <a class="skip-link" href="#glavno">Preskoči na sadržaj</a>
 <header class="site-header">
-  <div class="brand" id="brandHome" role="button" tabindex="0" title="Početak — nazad na rime">
+  <div class="brand" id="brandHome" role="button" tabindex="0" title="Početak – nazad na rime">
     <div class="brand-logo"><img src="logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
     <p class="tagline">rimovanje za lakše štimovanje</p>
   </div>
-  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo — prikaz reči u rezultatima (latinica/ćirilica)">
+  <div class="script-toggle" id="scriptToggle" title="Prebaci pismo – prikaz reči u rezultatima (latinica/ćirilica)">
     <button data-script="lat" class="active">latinica</button>
     <button data-script="cyr">ћирилица</button>
   </div>
@@ -120,21 +120,21 @@
 </header>
 
 <!-- Uputstvo se prikazuje SAMO u ćiriličnom režimu (app.js: prikaziUputstvoZaTastaturu).
-     Namerno je napisano ćirilicom i izuzeto iz prebacivanja pisma (BEZ_PISMA_SEL) —
+     Namerno je napisano ćirilicom i izuzeto iz prebacivanja pisma (BEZ_PISMA_SEL) –
      ono što piše na tasteru ne sme da se „prevodi". -->
 <div class="kbd-help" id="kbdHelp" hidden>
   <details>
     <summary>Како се куцају српска слова</summary>
     <div class="kbd-help-body">
-      <p>Док је изабрана ћирилица, оно што откуцате прелази у ћирилицу само од себе — <code>ljubav</code> постаје <b>љубав</b>, <code>nj</code> постаје <b>њ</b>.</p>
-      <p>Слова <b>ч ћ ш ђ ж</b> стоје на истим тастерима као на српском распореду — десно од <kbd>L</kbd> и десно од <kbd>P</kbd>:</p>
+      <p>Док је изабрана ћирилица, оно што откуцате прелази у ћирилицу само од себе – <code>ljubav</code> постаје <b>љубав</b>, <code>nj</code> постаје <b>њ</b>.</p>
+      <p>Слова <b>ч ћ ш ђ ж</b> стоје на истим тастерима као на српском распореду – десно од <kbd>L</kbd> и десно од <kbd>P</kbd>:</p>
       <table class="kbd-map">
         <tr><th scope="row">тастер</th><td><kbd>;</kbd></td><td><kbd>'</kbd></td><td><kbd>[</kbd></td><td><kbd>]</kbd></td><td><kbd>\</kbd></td></tr>
         <tr><th scope="row">слово</th><td><b>ч</b></td><td><b>ћ</b></td><td><b>ш</b></td><td><b>ђ</b></td><td><b>ж</b></td></tr>
       </table>
       <p>Уз <kbd>Shift</kbd> добијате велика слова: <b>Ч Ћ Ш Ђ Ж</b>.</p>
-      <p><b>Апостроф</b> — за „нек’“ и „ил’“: притисните <kbd>'</kbd> <b>двапут заредом</b>. Први пут даје <b>ћ</b>, а други притисак га замени апострофом.</p>
-      <p class="kbd-note">Ако сте на рачунару већ пребацили тастатуру на српски распоред, ништа се не мења — тастери и даље дају оно што на њима пише.</p>
+      <p><b>Апостроф</b> – за „нек’“ и „ил’“: притисните <kbd>'</kbd> <b>двапут заредом</b>. Први пут даје <b>ћ</b>, а други притисак га замени апострофом.</p>
+      <p class="kbd-note">Ако сте на рачунару већ пребацили тастатуру на српски распоред, ништа се не мења – тастери и даље дају оно што на њима пише.</p>
     </div>
   </details>
 </div>
@@ -150,12 +150,12 @@
 </nav>
 
 <main id="glavno" tabindex="-1">
-<!-- ZONA ALATA — hero i tabovi stoje na svojoj podlozi, da se vidi
+<!-- ZONA ALATA – hero i tabovi stoje na svojoj podlozi, da se vidi
      gde se alat završava, a gde počinje tekst o alatu (02.08.2026). -->
 <div class="alat-zona">
   <div class="hero">
-    <h1>Rimovanje reči na srpskom jeziku — rečnik rima za tvoj stih</h1>
-    <p>Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> — rime se tamo boje dok kucaš.</p>
+    <h1>Rimovanje reči na srpskom jeziku – rečnik rima za tvoj stih</h1>
+    <p>Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u <a href="/pisanje-pesama/" data-tab="beleznica">beležnici</a> – rime se tamo boje dok kucaš.</p>
   </div>
 
   <!-- RIME -->
@@ -181,26 +181,26 @@
       <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
     </div>
     <p id="rimeStatus" class="sr-only" role="status" aria-live="polite"></p>
-    <!-- PRAZNO STANJE — stoji dok se ne uradi prva pretraga. Do 31.07.2026. je ovaj
+    <!-- PRAZNO STANJE – stoji dok se ne uradi prva pretraga. Do 31.07.2026. je ovaj
          prostor bio prazan, a čovek u njega gleda par sekundi pre nego što išta ukuca.
          To je jedino mesto gde saznaje da uz rime dobija i značenje, sinonime i
          beležnicu. Svaka tvrdnja ovde je proverena u kodu: objašnjenje ima svaka reč
          u rečniku, sinonimi se prikazuju kao grupa, a beležnica boji rime i broji
          slogove uz stih (pre-deploy test, sekcije 3 i 31).
-         `goHome()` u app.js vraća baš ovaj sadržaj — ne briše ga u prazno. -->
+         `goHome()` u app.js vraća baš ovaj sadržaj – ne briše ga u prazno. -->
     <div id="rimeResults" class="results"><div class="prazno-stanje">
-      <p class="prazno-glavno">Upiši reč gore i klikni „Nađi rime“ — dobićeš sve što se sa njom rimuje.</p>
+      <p class="prazno-glavno">Upiši reč gore i klikni „Nađi rime“ – dobićeš sve što se sa njom rimuje.</p>
       <ul class="prazno-lista">
         <li>Uz svaku rimu piše <strong>koliko ima slogova</strong> i <strong>šta reč znači</strong>, pa ne moraš da otvaraš rečnik u drugom prozoru.</li>
         <li>Rima ti zvuči dobro, ali ne odgovara po smislu? Pogledaj <strong>sinonim</strong> za reč koja ti smeta pa potraži rimu za njega.</li>
-        <li>Pišeš celu pesmu? Otvori <a href="/pisanje-pesama/" data-tab="beleznica">beležnicu</a> — rime se boje same dok kucaš, a uz svaki stih stoji broj slogova.</li>
+        <li>Pišeš celu pesmu? Otvori <a href="/pisanje-pesama/" data-tab="beleznica">beležnicu</a> – rime se boje same dok kucaš, a uz svaki stih stoji broj slogova.</li>
       </ul>
     </div></div>
   </section>
 
   <!-- PRETRAGA -->
   <section class="tab-panel" id="panel-pretraga">
-    <p class="hint">Reč koja se završava na „-ost“, počinje na „pred-“ ili ima „zvezd“ negde u sebi — izaberi način, upiši slova i dobiješ sve takve reči, sa značenjem i brojem slogova.</p>
+    <p class="hint">Reč koja se završava na „-ost“, počinje na „pred-“ ili ima „zvezd“ negde u sebi – izaberi način, upiši slova i dobiješ sve takve reči, sa značenjem i brojem slogova.</p>
     <div class="search-row">
       <label class="sr-only" for="searchMode">Način pretrage</label>
       <select id="searchMode" aria-label="Način pretrage">
@@ -229,11 +229,11 @@
 
   <!-- SLOGOVI -->
   <section class="tab-panel" id="panel-slogovi">
-    <p class="hint">Upiši ili nalepi stihove — broj slogova stoji levo od svakog reda, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma, da se pesma lepo peva i lako pamti.</p>
+    <p class="hint">Upiši ili nalepi stihove – broj slogova stoji levo od svakog reda, a na dnu ukupan zbir. Pomaže da svi stihovi budu sličnog ritma, da se pesma lepo peva i lako pamti.</p>
     <div class="syl-box">
       <div id="sylGutter" class="gutter"><div id="sylGutterInner" class="gutter-inner"></div></div>
       <label class="sr-only" for="sylInput">Tekst za brojanje slogova i znakova</label>
-      <textarea id="sylInput" class="syl-text" placeholder="Upiši ili nalepi stihove…" spellcheck="false"></textarea>
+      <textarea id="sylInput" class="syl-text" placeholder="Upiši ili nalepi tekst ili pesmu…" spellcheck="false"></textarea>
       <div id="sylMirror" class="syl-mirror" aria-hidden="true"></div>
     </div>
     <div id="sylOutput" class="syl-lines"></div>
@@ -241,8 +241,8 @@
 
   <!-- BELEZNICA -->
   <section class="tab-panel" id="panel-beleznica">
-    <p class="hint hint-actions"><span class="hint-txt">Beležnica za pisanje pesama. Tekst se sam čuva na tvom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane — klikni na ponuđenu rimu da je ubaciš u stih. </span><span class="hint-grupa"><button id="clearNotes" class="link-btn">obriši pesmu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="saveRhymeList" class="link-btn">sačuvaj rime u Omiljene</button><button id="exportRhymeList" class="link-btn">preuzmi listu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="exportPoem" class="link-btn">preuzmi pesmu</button><button id="printPoem" class="link-btn">štampaj / PDF</button><button id="sharePoem" class="link-btn">podeli link</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></span></p>
-    <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) — pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
+    <p class="hint hint-actions"><span class="hint-txt">Beležnica za pisanje pesama. Tekst se sam čuva na tvom uređaju i ostaje i kad zatvoriš stranicu. Rime za reč na kojoj ti je kursor stoje sa strane – klikni na ponuđenu rimu da je ubaciš u stih. </span><span class="hint-grupa"><button id="clearNotes" class="link-btn">obriši pesmu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="saveRhymeList" class="link-btn">sačuvaj rime u Omiljene</button><button id="exportRhymeList" class="link-btn">preuzmi listu</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="exportPoem" class="link-btn">preuzmi pesmu</button><button id="printPoem" class="link-btn">štampaj / PDF</button><button id="sharePoem" class="link-btn">podeli link</button></span><span class="hint-sep" aria-hidden="true"></span><span class="hint-grupa"><button id="toggleMeter" class="link-btn" aria-pressed="false">prikaži metar</button></span></p>
+    <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) – pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
     <div class="notepad-layout">
       <div class="notepad-main">
         <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
@@ -253,7 +253,7 @@
         </div>
         <p class="notepad-legend">
           <span class="lg-item-drag"><b class="lg-drag">⠿</b> prevuci da premestiš stih</span>
-          <span><b class="lg-letter">A</b> šema rime — isto slovo, ista rima</span>
+          <span><b class="lg-letter">A</b> šema rime – isto slovo, ista rima</span>
           <span><b class="lg-num">7</b> slogova u stihu</span>
           <span><b class="lg-word">reč</b> obojene reči se rimuju</span>
         </p>
@@ -266,13 +266,13 @@
 
   <!-- KLASICI -->
   <section class="tab-panel" id="panel-klasici">
-    <p class="hint">Poznate pesme velikih srpskih pesnika. Pored svakog stiha piše broj slogova, a slovo (A, B, C…) označava koje se rime poklapaju — da vidiš šemu rime i ritam velikih pesnika.</p>
+    <p class="hint">Poznate pesme velikih srpskih pesnika. Pored svakog stiha piše broj slogova, a slovo (A, B, C…) označava koje se rime poklapaju – da vidiš šemu rime i ritam velikih pesnika.</p>
     <div id="klasiciList"></div>
   </section>
 
   <!-- IGRA -->
   <section class="tab-panel" id="panel-igra">
-    <p class="hint">Tvoj zadatak je da na zadatu reč pronađeš rimu pre nego što isteknu sekunde. Igra koja budi mozak, brzinu i rečnik — sam ili u društvu, sa poenima. Koliko dug niz rima možeš da sastaviš?</p>
+    <p class="hint">Tvoj zadatak je da na zadatu reč pronađeš rimu pre nego što isteknu sekunde. Igra koja budi mozak, brzinu i rečnik – sam ili u društvu, sa poenima. Koliko dug niz rima možeš da sastaviš?</p>
 
     <!-- START EKRAN -->
     <div class="game-setup" id="gameSetup">
@@ -310,12 +310,12 @@
       <button class="game-start-btn" id="gameStart">Počni igru</button>
     </div>
 
-    <!-- PREDAJA IGRAČA — pauza da se igrači zamene -->
+    <!-- PREDAJA IGRAČA – pauza da se igrači zamene -->
     <div class="game-handoff" id="gameHandoff" style="display:none">
       <div class="game-handoff-badge" id="gameHandoffBadge">2</div>
       <p class="game-handoff-title" id="gameHandoffTitle">Vreme je za igrača 2</p>
       <p class="game-handoff-sub" id="gameHandoffSub"></p>
-      <button class="game-start-btn" id="gameHandoffStart">Spreman sam — počni</button>
+      <button class="game-start-btn" id="gameHandoffStart">Spreman sam – počni</button>
       <p class="game-handoff-hint">Predaj uređaj sledećem igraču. Vreme počinje kad klikneš.</p>
     </div>
 
@@ -355,7 +355,7 @@
 
   <!-- OMILJENE -->
   <section class="tab-panel" id="panel-omiljene">
-    <p class="hint">Reči sačuvane klikom na ♡ naći ćeš ovde — da ih ne tražiš iznova kad pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve reči</button></p>
+    <p class="hint">Reči sačuvane klikom na ♡ naći ćeš ovde – da ih ne tražiš iznova kad pišeš. <button id="copyFavs" class="link-btn">kopiraj sve</button> <button id="clearFavs" class="link-btn">obriši sve reči</button></p>
     <div id="favResults" class="results"></div>
   </section>
 </div>
@@ -365,38 +365,38 @@
 
 <section class="seo-content" aria-label="O Rimoteci">
   <div class="seo-inner">
-    <h2 class="seo-h-glavni">Sve za pisanje pesme na jednom mestu — rime, slogovi, značenja i beležnica</h2>
-    <p class="seo-uvod">Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom — na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
+    <h2 class="seo-h-glavni">Sve za pisanje pesme na jednom mestu – rime, slogovi, značenja i beležnica</h2>
+    <p class="seo-uvod">Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom – na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
 
     <!-- SKLOPIVI BLOKOVI (02.08.2026)
          Ovde je do sada stajalo pet pasusa proze jedan ispod drugog. Ceo tekst
-         je zadržan — reč po reč, sa svim linkovima — samo je sklopljen, jer
+         je zadržan – reč po reč, sa svim linkovima – samo je sklopljen, jer
          čovek koji je došao po rimu ne čita pet pasusa, a onaj koga zanima
          otvori baš ono što mu treba. Naslovi ostaju pravi naslovi (`h3` unutar
          `summary`), pa pretraživač vidi istu strukturu kao pre.
-         Prvi pasus se NE sklapa — on nosi glavne pojmove i čita se odmah. -->
+         Prvi pasus se NE sklapa – on nosi glavne pojmove i čita se odmah. -->
     <div class="seo-blokovi">
       <details class="seo-blok">
         <summary><span class="seo-blok-slovo" aria-hidden="true">A</span><h3>Najbolji alat za pisanje pesama i rimovanje</h3><span class="seo-blok-znak" aria-hidden="true"></span></summary>
         <div class="seo-blok-telo">
-          <p>Rimoteka nije samo <strong>rečnik rima</strong> — u njoj se pesma i piše. Otvoriš <a href="/pisanje-pesama/"><strong>pisanje pesama</strong></a> i kucaš: pored svakog stiha odmah stoji <strong><a href="/slogovi/">broj slogova</a></strong>, slovo šeme rime (<a href="/vrste-rima/">ABAB, AABB, ABBA</a>) i reči koje se rimuju obojene su istom bojom, pa golim okom vidiš da li ti se pesma sklapa.</p>
+          <p>Rimoteka nije samo <strong>rečnik rima</strong> – u njoj se pesma i piše. Otvoriš <a href="/pisanje-pesama/"><strong>pisanje pesama</strong></a> i kucaš: pored svakog stiha odmah stoji <strong><a href="/slogovi/">broj slogova</a></strong>, slovo šeme rime (<a href="/vrste-rima/">ABAB, AABB, ABBA</a>) i reči koje se rimuju obojene su istom bojom, pa golim okom vidiš da li ti se pesma sklapa.</p>
 
-          <p>A ono najvažnije — <strong>rime dolaze same</strong>. Klikneš na bilo koju reč u svom stihu i sa strane se pojave sve reči koje se sa njom rimuju; klik na rimu je ubacuje pravo u stih, na mesto kursora. Ne prekidaš pisanje, ne otvaraš drugu stranicu, ne gubiš misao. Ako ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; ako ti ritam ne štima, uključiš <strong>metar</strong> pa vidiš meru stiha i gde pada cezura. Stih koji ne stoji dobro prevučeš na drugo mesto.</p>
-          <p>Kad je pesma gotova, sve je i dalje na istom mestu: <strong>odštampaš je ili sačuvaš kao PDF</strong>, preuzmeš kao tekstualni fajl ili <strong>podeliš linkom</strong> — onaj ko ga otvori vidi tvoju pesmu. Tekst se sam čuva na tvom uređaju i čeka te kad se vratiš. Sve besplatno i bez registracije.</p>
+          <p>A ono najvažnije – <strong>rime dolaze same</strong>. Klikneš na bilo koju reč u svom stihu i sa strane se pojave sve reči koje se sa njom rimuju; klik na rimu je ubacuje pravo u stih, na mesto kursora. Ne prekidaš pisanje, ne otvaraš drugu stranicu, ne gubiš misao. Ako ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; ako ti ritam ne štima, uključiš <strong>metar</strong> pa vidiš meru stiha i gde pada cezura. Stih koji ne stoji dobro prevučeš na drugo mesto.</p>
+          <p>Kad je pesma gotova, sve je i dalje na istom mestu: <strong>odštampaš je ili sačuvaš kao PDF</strong>, preuzmeš kao tekstualni fajl ili <strong>podeliš linkom</strong> – onaj ko ga otvori vidi tvoju pesmu. Tekst se sam čuva na tvom uređaju i čeka te kad se vratiš. Sve besplatno i bez registracije.</p>
         </div>
       </details>
 
       <details class="seo-blok">
         <summary><span class="seo-blok-slovo" aria-hidden="true">B</span><h3>Brojač slogova i karaktera</h3><span class="seo-blok-znak" aria-hidden="true"></span></summary>
         <div class="seo-blok-telo">
-          <p>Kad ti treba samo mera, tu je poseban <strong><a href="/slogovi/">brojač slogova i karaktera</a></strong>. Nalepiš tekst i uz svaki red stoji <strong>broj slogova</strong>, a na dnu ukupan zbir — slogovi, reči i znakovi, sa razmacima i bez njih. <strong>Brojanje slogova</strong> ti treba da stihovi budu ujednačeni i da se pesma lepo peva; <strong>brojač karaktera</strong> kad tekst mora da stane u zadatu dužinu — čestitka, slogan, opis ili poruka. Radi i za jednu reč i za celu pesmu, na računaru i na telefonu.</p>
+          <p>Kad ti treba samo mera, tu je poseban <strong><a href="/slogovi/">brojač slogova i karaktera</a></strong>. Nalepiš tekst i uz svaki red stoji <strong>broj slogova</strong>, a na dnu ukupan zbir – slogovi, reči i znakovi, sa razmacima i bez njih. <strong>Brojanje slogova</strong> ti treba da stihovi budu ujednačeni i da se pesma lepo peva; <strong>brojač karaktera</strong> kad tekst mora da stane u zadatu dužinu – čestitka, slogan, opis ili poruka. Radi i za jednu reč i za celu pesmu, na računaru i na telefonu.</p>
         </div>
       </details>
 
       <details class="seo-blok">
         <summary><span class="seo-blok-slovo" aria-hidden="true">A</span><h3>Za pesnike, tekstopisce, repere i decu</h3><span class="seo-blok-znak" aria-hidden="true"></span></summary>
         <div class="seo-blok-telo">
-          <p>Kad ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; kad ti treba slobodniji zvuk, tu su <a href="/vrste-rima/"><strong>bliske rime</strong></a>; kad pišeš za decu, <strong>dečji režim</strong> ostavlja samo primerene reči — više o tome na strani <a href="/rime-za-decu/">rime za decu</a>. Reč po zadatim slovima nađi u <a href="/rime-po-zavrsetku/">rimama po završetku</a>, kako su rimu gradili veliki pesnici vidi kod <a href="/klasici/">klasika</a>, a ako hoćeš da je uvežbaš — tu je <a href="/igra-rimovanja/">igra rimovanja</a>. Rimoteka radi na latinici i ćirilici, na ekavici i ijekavici, na računaru i telefonu — besplatno i bez registracije.</p>
+          <p>Kad ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; kad ti treba slobodniji zvuk, tu su <a href="/vrste-rima/"><strong>bliske rime</strong></a>; kad pišeš za decu, <strong>dečji režim</strong> ostavlja samo primerene reči – više o tome na strani <a href="/rime-za-decu/">rime za decu</a>. Reč po zadatim slovima nađi u <a href="/rime-po-zavrsetku/">rimama po završetku</a>, kako su rimu gradili veliki pesnici vidi kod <a href="/klasici/">klasika</a>, a ako hoćeš da je uvežbaš – tu je <a href="/igra-rimovanja/">igra rimovanja</a>. Rimoteka radi na latinici i ćirilici, na ekavici i ijekavici, na računaru i telefonu – besplatno i bez registracije.</p>
         </div>
       </details>
     </div>
@@ -405,15 +405,15 @@
     <div class="faq">
       <details>
         <summary>Kako da pronađem rime za neku reč?</summary>
-        <p>Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju — na vrhu one sa istim brojem slogova kao tvoja reč, jer one najlakše legnu u stih. Možeš i da filtriraš po broju slogova.</p>
+        <p>Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju – na vrhu one sa istim brojem slogova kao tvoja reč, jer one najlakše legnu u stih. Možeš i da filtriraš po broju slogova.</p>
       </details>
       <details>
         <summary>Šta je rimovanje reči?</summary>
-        <p>Rimovanje reči je pronalaženje reči koje se slično završavaju i skladno zvuče na kraju stiha. Rimoteka za svaku reč odmah pronalazi najbolje i dobre rime, pa je rimovanje brzo i lako — za pesme, tekstove i rep.</p>
+        <p>Rimovanje reči je pronalaženje reči koje se slično završavaju i skladno zvuče na kraju stiha. Rimoteka za svaku reč odmah pronalazi najbolje i dobre rime, pa je rimovanje brzo i lako – za pesme, tekstove i rep.</p>
       </details>
       <details>
         <summary>Da li je Rimoteka besplatna?</summary>
-        <p>Da, potpuno je besplatna. Rimoteka je alat za rimovanje reči — rečnik rima, <a href="/slogovi/">brojač slogova</a> i <a href="/pisanje-pesama/">pisanje pesama</a> i tekstova na srpskom jeziku.</p>
+        <p>Da, potpuno je besplatna. Rimoteka je alat za rimovanje reči – rečnik rima, <a href="/slogovi/">brojač slogova</a> i <a href="/pisanje-pesama/">pisanje pesama</a> i tekstova na srpskom jeziku.</p>
       </details>
       <details>
         <summary>Kako se broje slogovi u reči?</summary>
@@ -425,7 +425,7 @@
       </details>
       <details>
         <summary>Postoji li brojač karaktera i reči?</summary>
-        <p>Postoji — isti alat. <a href="/slogovi/">Brojač slogova i karaktera</a> uz svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu.</p>
+        <p>Postoji – isti alat. <a href="/slogovi/">Brojač slogova i karaktera</a> uz svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu.</p>
       </details>
       <details>
         <summary>Kakve rime Rimoteka pronalazi?</summary>
@@ -438,18 +438,18 @@
 <!-- FUTER, nova verzija (02.08.2026)
      Klasa `futer-v2` postoji zato što isti futer u staroj postavi stoji na
      ~2.000 generisanih strana (`build/gen_pages.py`, FOOTER_TMPL). Dok se i one
-     ne prepišu, novi izgled se vezuje SAMO za ovu klasu — tako izmena stila ne
+     ne prepišu, novi izgled se vezuje SAMO za ovu klasu – tako izmena stila ne
      može da pokvari dve hiljade strana odjednom.
      Šta je bio problem, izmereno 02.08.2026 na 390 px: futer je bio zid od 60
      linkova visine 16–19 px (dodirni cilj traži 44 px), poređanih u pasuse
-     odvojene tačkama. Sadržaj je ostao isti — nijedan link nije uklonjen ni
-     dodat izvan postojećih strana — samo je razvrstan u kolone i dobio
+     odvojene tačkama. Sadržaj je ostao isti – nijedan link nije uklonjen ni
+     dodat izvan postojećih strana – samo je razvrstan u kolone i dobio
      dodirne ciljeve. -->
-<!-- POZIV NA SARADNJU — TRAKA IZNAD FUTERA (03.08.2026, zahtev vlasnice)
+<!-- POZIV NA SARADNJU – TRAKA IZNAD FUTERA (03.08.2026, zahtev vlasnice)
      Stoji POSLE alata i teksta, a pre futera: čovek je do ovde već video šta
      Rimoteka radi, pa poziv ne smeta onome ko je došao po rimu.
      Tekst se obraća onome ko traži promociju i NE govori ništa o posetiocima
-     sajta — oni ovaj tekst čitaju, pa bi „predstavljamo te našoj publici"
+     sajta – oni ovaj tekst čitaju, pa bi „predstavljamo te našoj publici"
      zvučalo kao da se njima nešto prodaje.
      Poziv postoji SAMO ovde; iz futera je uklonjen da ista poruka ne stoji
      dvaput jedna ispod druge.
@@ -466,7 +466,7 @@
   <div class="saradnja-sadrzaj">
     <h2 id="saradnja-naslov">Treba ti promocija knjige, kursa pisanja ili knjižare?</h2>
     <p>Javi se za saradnju.</p>
-    <a class="saradnja-cta futer-cta" href="mailto:eureka@rimoteka.com?subject=Kontakt%20—%20Rimoteka">
+    <a class="saradnja-cta futer-cta" href="mailto:eureka@rimoteka.com?subject=Kontakt%20–%20Rimoteka">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 6.5L21 6"/></svg>
       <span>Kontakt</span>
     </a>
@@ -474,18 +474,18 @@
 </section>
 
 <footer class="site-footer futer-v2">
-  <!-- NOTNI SISTEM — granica između strane i futera, i motiv koji nosi identitet.
+  <!-- NOTNI SISTEM – granica između strane i futera, i motiv koji nosi identitet.
        Pet linija crta CSS (`repeating-linear-gradient`) i one idu od ivice do
        ivice ekrana; note su inline SVG i SEDE na tim linijama.
        Zašto note NISU u istom SVG-u sa linijama: jedan široki SVG bi se
        skalirao po širini ekrana, pa bi se na 1440 px glave nota podigle iznad
        linija, a na 390 px spustile ispod njih. Ovako je svaka nota zaseban SVG
        fiksne visine (72 px, 1 jedinica = 1 px), pa glava uvek pada tačno na
-       liniju — na svakoj širini. Razmak među notama radi `space-between`.
+       liniju – na svakoj širini. Razmak među notama radi `space-between`.
        `aria-hidden` jer je ukras: čitač ekrana ga preskače. -->
   <div class="futer-notni" aria-hidden="true">
     <!-- Vrat note je GORE-DESNO kad je glava na srednjoj liniji ili ispod nje,
-         a DOLE-LEVO kad je iznad — tako se note stvarno pišu. Glava svake note
+         a DOLE-LEVO kad je iznad – tako se note stvarno pišu. Glava svake note
          stoji na istom x (10) da bi razmaci koje pravi `space-between` oko
          čitalo kao ravnomerne. -->
     <div class="futer-note">
@@ -493,17 +493,17 @@
       <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 42)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/><path d="M5.9,-25.2c6.4,3.1 8.6,7.9 6.2,13.9c0.6,-5.4 -1.6,-8.4 -6.2,-10.9z"/></g></svg>
       <!-- četvrtinka, srednja linija -->
       <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 34)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
-      <!-- osminka, 2. linija — iznad sredine, pa vrat ide nadole -->
+      <!-- osminka, 2. linija – iznad sredine, pa vrat ide nadole -->
       <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 26)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="25.2" rx=".9"/><path d="M-4.1,25.2c6.4,-3.1 8.6,-7.9 6.2,-13.9c0.6,5.4 -1.6,8.4 -6.2,10.9z"/></g></svg>
       <!-- četvrtinka, prostor između 3. i 4. linije -->
       <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 38)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
-      <!-- osminka, prostor između 2. i 3. linije — vrat nadole -->
+      <!-- osminka, prostor između 2. i 3. linije – vrat nadole -->
       <svg class="nota" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 30)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="22.2" rx=".9"/><path d="M-4.1,22.2c6.4,-3.1 8.6,-7.9 6.2,-13.9c0.6,5.4 -1.6,8.4 -6.2,10.9z"/></g></svg>
       <!-- četvrtinka, 4. linija -->
       <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 42)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/></g></svg>
       <!-- osminka, srednja linija -->
       <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 34)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-25" width="1.8" height="25.2" rx=".9"/><path d="M5.9,-25.2c6.4,3.1 8.6,7.9 6.2,13.9c0.6,-5.4 -1.6,-8.4 -6.2,-10.9z"/></g></svg>
-      <!-- četvrtinka, 2. linija — završetak fraze, vrat nadole -->
+      <!-- četvrtinka, 2. linija – završetak fraze, vrat nadole -->
       <svg class="nota nota-sira" width="26" height="72" viewBox="0 0 26 72" fill="currentColor" focusable="false"><g transform="translate(10 26)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="-5.9" y="-.2" width="1.8" height="25.2" rx=".9"/></g></svg>
     </div>
   </div>
@@ -516,7 +516,7 @@
         </div>
         <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rime po završetku, brojač slogova, beležnica za pisanje pesama i igra rimovanja.</p>
       </div>
-      <!-- Poziv za saradnju u futeru — vidi se SAMO na početnom tabu (04.08.2026,
+      <!-- Poziv za saradnju u futeru – vidi se SAMO na početnom tabu (04.08.2026,
            odluka vlasnice). Na ostalim tabovima on ostaje kao traka iznad futera.
            Prebacivanje radi CSS po `data-tab` oznaci na <html> (v. style.css). -->
       <div class="futer-akcija futer-poziv">
@@ -546,7 +546,7 @@
         <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a>
         <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
       </nav>
-      <!-- Kolona „Namene" je imala 12 stavki, dok su prve dve imale 6 i 5 —
+      <!-- Kolona „Namene" je imala 12 stavki, dok su prve dve imale 6 i 5 –
            bila je duža od njih za ~300 px i pravila je praznu rupu desno.
            Istih 12 linkova je podeljeno u dve kolone po 6, po smislu.
            Nijedan link nije dodat ni uklonjen. -->
@@ -575,7 +575,7 @@
       <!-- Naslov je do 02.08.2026. glasio „Popularne rime“. Menjano iz dva razloga:
            spisak je RUČNO biran, pa tvrdnja o popularnosti nije tačna; i projekat
            ne objavljuje podatke o sopstvenom prometu. Rečenica ispod nosi frazu
-           „koje se reči rimuju sa“ u ispravnom padežu — predlog „sa“ traži
+           „koje se reči rimuju sa“ u ispravnom padežu – predlog „sa“ traži
            instrumental, pa se ne sme pisati „rimuju se sa: ljubav, srce“. -->
       <p class="futer-rime-uvod">Pogledaj koje se reči rimuju sa rečima koje pesnici često traže.</p>
       <div class="futer-rime-spisak">
@@ -598,16 +598,16 @@
   <div class="pro-modal-content">
     <button class="close" id="proClose" aria-label="Zatvori">×</button>
     <h2 id="proTitle">Rimoteka Pro</h2>
-    <p>Otključaj pun potencijal Rimoteke — bez reklama, sa naprednim alatima za pisanje.</p>
+    <p>Otključaj pun potencijal Rimoteke – bez reklama, sa naprednim alatima za pisanje.</p>
 
-    <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> — čisto okruženje za pisanje</span></div>
-    <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> — odgovor u roku od 24h</span></div>
-    <div class="pro-feature"><span class="icon">⭐</span><span><strong>Pro oznaka</strong> — podržavaš razvoj Rimoteke</span></div>
-    <div class="pro-feature soon"><span class="icon">💾</span><span><strong>Čuvanje u oblaku</strong> — pesme na svim uređajima <em>uskoro</em></span></div>
+    <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> – čisto okruženje za pisanje</span></div>
+    <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> – odgovor u roku od 24h</span></div>
+    <div class="pro-feature"><span class="icon">⭐</span><span><strong>Pro oznaka</strong> – podržavaš razvoj Rimoteke</span></div>
+    <div class="pro-feature soon"><span class="icon">💾</span><span><strong>Čuvanje u oblaku</strong> – pesme na svim uređajima <em>uskoro</em></span></div>
 
-    <!-- KORAK 1 — prijava (vidljivo kad korisnik nije prijavljen) -->
+    <!-- KORAK 1 – prijava (vidljivo kad korisnik nije prijavljen) -->
     <div class="pro-step" id="proStepLogin">
-      <p class="pro-step-label">Upiši email — poslaćemo ti link za prijavu.</p>
+      <p class="pro-step-label">Upiši mejl – poslaćemo ti link za prijavu.</p>
       <form class="pro-form" id="proLoginForm">
         <input type="email" id="proEmail" placeholder="tvoj@email.com" autocomplete="email" required>
         <button type="submit" class="pro-btn" id="proLoginBtn">Pošalji mi link</button>
@@ -615,7 +615,7 @@
       <p class="pro-hint" id="proLoginHint" hidden></p>
     </div>
 
-    <!-- KORAK 2 — izbor plana (vidljivo kad je prijavljen, a nije Pro) -->
+    <!-- KORAK 2 – izbor plana (vidljivo kad je prijavljen, a nije Pro) -->
     <div class="pro-step" id="proStepPlan" hidden>
       <div class="pro-plans">
         <label class="pro-plan">
@@ -634,7 +634,7 @@
       <p class="pro-hint" id="proPlanHint"></p>
     </div>
 
-    <!-- KORAK 3 — aktivan Pro -->
+    <!-- KORAK 3 – aktivan Pro -->
     <div class="pro-step" id="proStepActive" hidden>
       <p class="pro-active-msg">✅ <strong>Pro je aktivan.</strong> Hvala što podržavaš Rimoteku!</p>
       <p class="pro-hint" id="proActiveInfo"></p>
@@ -649,8 +649,8 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260908j"></script>
-<!-- Pokret na karticama ISPOD alata. `defer` — ne sme da uspori dolazak do
+<script src="app.js?v=20260908k"></script>
+<!-- Pokret na karticama ISPOD alata. `defer` – ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>
 <script src="/sw-register.js?v=4"></script>

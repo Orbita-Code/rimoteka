@@ -364,7 +364,10 @@ centrima, dobrima, čarima, morima*) kod kojih je zajednički deo nenaglašen.
 - Zarez se **ne piše** ispred *i, pa, te, ni* kad povezuju istorodne delove.
 - Zavisna rečenica ispred glavne se odvaja zarezom: *Kad je došao, svi su ćutali.*
 - Navodnici u srpskom: **„…"** (dole-gore), ne "…".
-- Crta (—) sa razmacima, crtica (-) bez razmaka: *srpsko-hrvatski*.
+- Crta (–) sa razmacima, crtica (-) bez razmaka: *srpsko-hrvatski*. **Odluka vlasnice 08.09.2026: na sajtu se koristi
+  KRATKA crta (–, en dash), nikad dugačka (—, em dash) — dugačku pravi samo veštačka inteligencija i po njoj se
+  prepoznaje tekst koji nije pisao čovek.** Pravopis: crta u rečenici sa belinom ispred i iza („reč – reč“); između
+  brojeva bez beline („2–3 sloga“, „1868–1924“). Test 50 pada na svakoj dugačkoj crti u fajlovima sajta.
 
 ### 8.6 Transkripcija stranih imena
 Piše se prema izgovoru: *Šekspir, Njujork, Minhen, Bordo*. U latinici je

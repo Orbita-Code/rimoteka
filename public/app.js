@@ -3,7 +3,7 @@
 /* ============ SIGURNOSNA MREŽA ZA UČITAVANJE REČNIKA ============
  * Ako bilo koja UI sekcija ispod pukne (npr. dugme obrisano iz HTML-a, a
  * kod ga i dalje traži), izvršavanje skripte se prekida i bootstrap na
- * kraju fajla se NIKAD ne pozove — rečnik ostane prazan i sajt "visi" na
+ * kraju fajla se NIKAD ne pozove – rečnik ostane prazan i sajt "visi" na
  * "Učitavam rečnik...". Tako je 26.07.2026. ceo sajt bio oboren jednom
  * jedinom greškom (proToggle je bio zakomentarisan u index.html).
  * Ovaj tajmer se izvršava iz event petlje, dakle i kad skripta pukne,
@@ -12,18 +12,18 @@
 let BOOTED = false;
 setTimeout(() => {
   if (BOOTED) return;
-  console.warn('[Rimoteka] Bootstrap nije stigao do kraja skripte — pokrećem rečnik iz sigurnosne mreže.');
+  console.warn('[Rimoteka] Bootstrap nije stigao do kraja skripte – pokrećem rečnik iz sigurnosne mreže.');
   try { bootstrap(); } catch (e) { console.error('[Rimoteka] Sigurnosna mreža nije uspela:', e); }
 }, 0);
 
 /* ============ BEZBEDAN PRAZAN ELEMENT ============
  * `app.js` se koristi i na stranama koje NEMAJU sve elemente (npr.
  * /rimovanje-reci/ ima samo alat za rime, bez tabova, beležnice i igre).
- * Bez ovoga bi prvi nedostajući element oborio celu skriptu — tačno ono što
+ * Bez ovoga bi prvi nedostajući element oborio celu skriptu – tačno ono što
  * je 26.07.2026. oborilo sajt. `el('id')` vraća pravi element ako postoji, a
  * inače bezopasan objekat nad kojim sve operacije prolaze bez efekta.
  * VAŽNO: `el()` NIKAD ne vraća null, pa se ne sme koristiti tamo gde kod
- * proverava `if (element)` da bi odlučio da li nešto uraditi — za takva
+ * proverava `if (element)` da bi odlučio da li nešto uraditi – za takva
  * mesta ostaje običan `document.getElementById`.
  * ================================================== */
 const NOOP_EL = {
@@ -68,7 +68,7 @@ const LAT2CYR_U = {};
 for(const k in LAT2CYR) LAT2CYR_U[k.toUpperCase()] = LAT2CYR[k].toUpperCase();
 const DIGRAPH2CYR = { 'dž':'џ','Dž':'Џ','DŽ':'Џ','lj':'љ','Lj':'Љ','LJ':'Љ','nj':'њ','Nj':'Њ','NJ':'Њ' };
 /* NJ, LJ, DŽ NISU UVEK JEDNO SLOVO (08.09.2026, nađeno poređenjem sa Rečnikom Matice: 6 odrednica pogrešno):
-   „injekcija“ je ин-ј-екција, „konjunkcija“ кон-ј-ункција, „nadživeti“ над-ж-ивети — slova su na granici
+   „injekcija“ je ин-ј-екција, „konjunkcija“ кон-ј-ункција, „nadživeti“ над-ж-ивети – slova su na granici
    prefiksa i osnove. Ti spojevi se razdvoje nevidljivim znakom pre pretvaranja, pa se znak skloni.
    Spisak: Matica + jasni prefiksi (nad/od/pred/pod + živ/žup/žal/žar); „inje“ (иње), „konj“ (коњ),
    „odžak“ (оџак), „nadžak“ (наџак) ostaju pravi digrafi. */
@@ -92,7 +92,7 @@ function toCyr(s){
  * `localStorage` nije uvek dostupan: privatni režim, blokirani kolačići,
  * školski/firmski pregledač i „Block third-party cookies" bacaju
  * `SecurityError` već pri ČITANJU. Ranije su tri takva čitanja stajala na vrhu
- * fajla, IZNAD `const VOWELS` — pa je greška obarala celu skriptu, a sigurnosna
+ * fajla, IZNAD `const VOWELS` – pa je greška obarala celu skriptu, a sigurnosna
  * mreža iz `setTimeout` pucala na TDZ grešci („Cannot access 'VOWELS' before
  * initialization") i nije spasila ništa. Rezultat: sajt daje 0 rima (nalaz K4).
  * Isto tako, pokvaren sadržaj (`{nije-json`) obarao je `JSON.parse` (nalaz K5).
@@ -100,7 +100,7 @@ function toCyr(s){
  * ============================================================= */
 /* Da li se strana upravo napušta. Koristi se da se prekinuta preuzimanja ne
    prijavljuju kao kvar (v. `loadDict().catch`). `pagehide` je pouzdaniji od
-   `beforeunload` — jedini koji radi i na iOS-u, i pri povratku iz keša. */
+   `beforeunload` – jedini koji radi i na iOS-u, i pri povratku iz keša. */
 let seIzlazi = false;
 addEventListener('pagehide', () => { seIzlazi = true; });
 addEventListener('beforeunload', () => { seIzlazi = true; });
@@ -128,16 +128,16 @@ function lsJSON(k, podrazumevano){
  * Beležnica i omiljene reči se čuvaju u lokalnoj memoriji, koju DELE svi tabovi
  * istog sajta. Svaki tab je pisao pri svakom otkucaju, pa je poslednji upis
  * gazio prethodni: napišeš strofu u jednom tabu, otkucaš jedno slovo u drugom
- * (koji još drži staru pesmu) — i strofa NESTANE, bez ijedne poruke.
+ * (koji još drži staru pesmu) – i strofa NESTANE, bez ijedne poruke.
  * Rešenje bez servera: pamtimo šta smo mi poslednji put upisali i slušamo
  * događaj `storage`, koji stiže SAMO iz drugih tabova.
  *  · nismo ništa dirali od tog upisa → tiho preuzmemo noviji tekst
  *  · imamo svoje nesačuvane izmene  → NE gazimo ništa, nego javimo korisniku
  * ==================================================== */
 let poslednjaSacuvanaBeleska = null;   // šta je OVAJ tab poslednji put upisao
-/* „Nikad ne izgubi pesmu" — izgubljen tekst je najbolnija pritužba svih alata
+/* „Nikad ne izgubi pesmu" – izgubljen tekst je najbolnija pritužba svih alata
    za pisanje, a naša beležnica je već jednom pokvarena logikom (redovi slepljeni
-   u jedan — nalaz M1). Zato pored glavnog ključa čuvamo i poslednje TRI verzije
+   u jedan – nalaz M1). Zato pored glavnog ključa čuvamo i poslednje TRI verzije
    pesme: najviše jedna na 30 sekundi, da svako slovo ne puni istoriju. */
 function sacuvajBelesku(text){
   poslednjaSacuvanaBeleska = text;
@@ -160,20 +160,20 @@ function sacuvajOmiljene(){
 /* ====================== Stanje ====================== */
 let WORDS = [];          // sve reči (ekavske + ijekavske na kraju), latinica
 let KEYS = [];           // jak ključ rime za svaku reč
-let MALE = [];           // ista reč malim slovima — za poređenja (v. `Beograd`)
+let MALE = [];           // ista reč malim slovima – za poređenja (v. `Beograd`)
 let RANK = new Map();    // reč -> indeks (manji = češća)
 let SET = new Set();     // za brzu proveru postojanja
 let jekStart = 0;        // indeks od kog počinju ijekavske reči
 /* JEKAVSKI OBLICI KOJI ŽIVE U EKAVSKOM `reci.txt`.
    Prijava vlasnice 30.07.2026: „naizmjence izašlo iako nije čekirana ijekavica".
    Uzrok: ijekavica se uključuje širenjem granice (`limit = includeJek ? WORDS.length
-   : jekStart`), a `naizmjence` NIJE u `reci_jekavica.txt` — stoji u `reci.txt`, dakle
+   : jekStart`), a `naizmjence` NIJE u `reci_jekavica.txt` – stoji u `reci.txt`, dakle
    PRE granice, pa je izlazilo uvek. Nađeno **1.127** takvih reči (objašnjenje im samo
    kaže „ijekavski").
-   Zašto se ne premeštaju u `reci_jekavica.txt`: od tih 1.127 njih **277 je sporno** —
+   Zašto se ne premeštaju u `reci_jekavica.txt`: od tih 1.127 njih **277 je sporno** –
    npr. `ded`, `dio`, `dobivati` su u Rečniku Matice srpske kao standardne, pa bi
    premeštanje sakrilo ekavske reči od ekavskih korisnika. A `reci.txt` se ne menja bez
-   odobrenja vlasnice (CLAUDE.md, odeljak 9). Zato se filtrira u kodu — povratno je,
+   odobrenja vlasnice (CLAUDE.md, odeljak 9). Zato se filtrira u kodu – povratno je,
    ništa se ne gubi, i spisak spornih čeka njenu odluku. */
 let JEKAVSKI = new Set();
 let SYNONYMS = {};       // sinonimi iz sinonimi.json (učitavaju se u pozadini)
@@ -188,17 +188,17 @@ const VOWELS = new Set(['a','e','i','o','u']);
 
 /* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
 const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guzi','guziti','seronja','seronje','pickica','pickice','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka']);
-/* 04.08.2026: `guz`, `sranje`, `kurvetina` su izašli odavde — odluka vlasnice:
+/* 04.08.2026: `guz`, `sranje`, `kurvetina` su izašli odavde – odluka vlasnice:
    vulgarne reči POSTOJE u rečniku (odrasli ih vide), a skriva ih dečji režim
    (dakle su u KIDS_BLOCKED, ne ovde). */
 
-/* Dečji režim — dodatne reči koje nisu pogodne za decu (seksualne, nasilne, psihološki teške) */
+/* Dečji režim – dodatne reči koje nisu pogodne za decu (seksualne, nasilne, psihološki teške) */
 const KIDS_BLOCKED = new Set([
   // seksualne
   'seks','seksualan','seksualnost','erotika','erotičan','pornografija','pornografski','orgazam','orgazmičan','masturbacija','masturbirati','prostitucija','prostituirati','bordel','bordeli','kurva','kurve','kurvati','jebačina','jebačine','jebački','jebačkima','sperma','spermijum','vagina','vagine','vaginalan','penis','penisi','penisalan','klitoris','klitorisi','testis','testisi','skrotum','skrotumi','anus','anusi','analni','fela','felacija','felacije','kondom','kondomi','kontracepcija','kontraceptiv','abortus','abortirati','abortirano','silovanje','silovati','silovano','nasilje','nasilnik','nasilnici','pedofilija','pedofil','pedofili','incest','incestalan','bestijalnost','bestijalan','nekrofilija','nekrofil','nekrofili',
   // nasilne / psihološki teške
   'ubistvo','ubiti','ubijen','ubijena','ubice','ubicama','ubojstvo','ubojiti','ubojica','ubojice','masakr','masakrirati','genocid','genocidni','bombardovanje','bombardovati','eksplozija','eksplozije','eksplozivan','granata','granate','minomet','minometi','snajper','snajperi','snajperist','terorizam','terorista','teroristi','teroristički','samoubistvo','suicid','suicidni','samoubica','samoubice','mrtav','mrtva','mrtvi','mrtvilo','mrtvila','mrtvački','mrtvačnica','mrtvačnice','groblje','groblja','grobljanski','kletva','kletve','kleti','prokletstvo','prokletstva','proklet','prokleta','prokleti','đavo','đavoli','đavolji','demon','demoni','demonski','sotona','sotone','pakao','pakleni','paklena','pakleno',
-  // vulgarne — od 04.08.2026. POSTOJE u rečniku i odrasli ih vide; dečji režim
+  // vulgarne – od 04.08.2026. POSTOJE u rečniku i odrasli ih vide; dečji režim
   // ih skriva (odluka vlasnice: ne brisati ih sa sajta kad postoji dečji režim)
   'drkan','drkati','guz','kurvetina','kurvica','kurvinski','kurčiti','posrati','prokurvati','sranje','zapišati','šupak',
   'muda'
@@ -208,22 +208,22 @@ const KIDS_BLOCKED = new Set([
 const RHYME_EXCLUSIONS = {
   'dete': new Set(['bidete','bide','bidi'])
 };
-/* Jedan zajednički prazan skup — vraća se kad reč nema svoja isključenja.
+/* Jedan zajednički prazan skup – vraća se kad reč nema svoja isključenja.
    Nikad se ne menja, pa je bezbedno deliti ga. */
 const EMPTY_SET = new Set();
 
-/* OSNOVE ZA DEČJI REŽIM — odluka vlasnice 29.07.2026.
+/* OSNOVE ZA DEČJI REŽIM – odluka vlasnice 29.07.2026.
    Tačan oblik nije dovoljan: lista je hvatala „dupe" ali ne i „dupetu", pa je
-   dete koje traži rimu za „krevetu" dobijalo „dupetu", a za „protestu" —
+   dete koje traži rimu za „krevetu" dobijalo „dupetu", a za „protestu" –
    „incestu" na 2. mestu od 20. Izmereno: 284 propuštena oblika kod 75 reči.
    Zato se u dečjem režimu gleda i POČETAK reči.
 
    Svaka osnova je pre upisa PROVERENA nad celim rečnikom (278.083 reči) da ne
-   hvata nijednu nevinu reč — spisak i brojevi u `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`.
+   hvata nijednu nevinu reč – spisak i brojevi u `AUDIT/DECJI-REZIM-ZA-ODLUKU.md`.
    Osnove koje su odbačene baš zato što hvataju nevine reči, i NE SMEJU se
    dodati: `silov` (silovit), `seks` (sekstet), `kond` (kondenzacija),
    `pisa` (pisac, pisati), `kura` (kurator), `pice` (picerija), `sere`
-   (serenada), `dubr` (Dubravka), `granat` (granat — dragi kamen), `krvav`
+   (serenada), `dubr` (Dubravka), `granat` (granat – dragi kamen), `krvav`
    (krvavica), `mrš` (mršav), `gad` (Gadafi), `materin` (materinji jezik).
    Nova osnova se dodaje TEK pošto se proveri nad rečnikom. Nikad „po analogiji".
 
@@ -246,7 +246,7 @@ function isKidsBlocked(w){
 function vowelPositions(w){
   const p = [];
   /* Mala slova, uvek. U rečniku od 02.08.2026. stoje i vlastita imena velikim
-     slovom (`Amerika`, `Isus`), a `VOWELS` sadrži samo mala — bez ovoga bi
+     slovom (`Amerika`, `Isus`), a `VOWELS` sadrži samo mala – bez ovoga bi
      veliko početno `A` ispalo suglasnik i `Amerika` bi imala tri sloga umesto
      četiri, pa bi upala u pogrešnu grupu rima. */
   w = w.toLowerCase();
@@ -264,7 +264,7 @@ function vowelPositions(w){
 // Jak ključ: ako se reč završava suglasnikom -> od poslednjeg samoglasnika;
 // ako se završava samoglasnikom -> od pretposlednjeg (poslednja ~2 sloga).
 /* KLJUČEVI RIME SU UVEK OD MALIH SLOVA (pravilo vlasnice 08.09.2026, test sekcija 54).
-   `vowelPositions` je spuštao slova na mala, ali su ove tri funkcije SEKLE originalni oblik —
+   `vowelPositions` je spuštao slova na mala, ali su ove tri funkcije SEKLE originalni oblik –
    pa je „Irska" davala ključ „Irska", a „irska" ključ „irska". Posledice, izmerene: reči sa
    velikim početnim samoglasnikom (Irska, Oslo, Amerika…) nisu ulazile u grupe „isti završni
    slog" i „šire rime", a u igri je tačna rima za takvu reč bila ODBIJANA (`checkGameAnswer`
@@ -299,10 +299,10 @@ function finalSylKey(w){
 function commonSuffix(a,b){
   /* č≡ć i dž≡đ: u rimi su to parovi koji se razlikuju samo po „tvrdoći"
      afrikata i pesnici ih slobodno rimuju („šećera/večera", „džep/đep").
-     Bez izjednačavanja „šećera" i „večera" dele samo „era" — isto koliko i
-     „šećera" i „partnera" — pa česte reči po učestalosti pretiču bolju rimu
+     Bez izjednačavanja „šećera" i „večera" dele samo „era" – isto koliko i
+     „šećera" i „partnera" – pa česte reči po učestalosti pretiču bolju rimu
      (prijava vlasnice 16.08.2026: „zašto je partnera bolja rima od večera?").
-     Pravopis se NE dira — izjednačavanje važi samo za MERENJE sličnosti. */
+     Pravopis se NE dira – izjednačavanje važi samo za MERENJE sličnosti. */
   const norm = s => s.toLowerCase().replace(/č/g,'ć').replace(/dž/g,'đ');
   a = norm(a); b = norm(b);
   let n=0; const la=a.length, lb=b.length;
@@ -310,9 +310,9 @@ function commonSuffix(a,b){
   return n;
 }
 function countSyl(w){
-  /* Mala slova, uvek — ista popravka kao u `vowelPositions`. Do 06.09.2026. je
+  /* Mala slova, uvek – ista popravka kao u `vowelPositions`. Do 06.09.2026. je
      stajalo samo tamo, pa je „Iran" (veliko I nije u `VOWELS`) brojao JEDAN slog,
-     a „iran" dva — filter „1 slog" nudio je Iran, filter „2 sloga" ne. Prijavio
+     a „iran" dva – filter „1 slog" nudio je Iran, filter „2 sloga" ne. Prijavio
      korisnik (Dragan M.). Pogađalo svih 155 reči rečnika koje počinju velikim
      samoglasnikom (Amerika, Evropa, Isus, Ana, Uroš…). Provera: test, sekcija 45. */
   w = w.toLowerCase();
@@ -333,12 +333,12 @@ function syllables(w){ return countSyl(w) || 1; }
 
 /* ====================== Učitavanje ====================== */
 /* DEFINICIJE PO SLOVIMA (nalaz S-20, audit 07.09.2026).
-   `definicije.json` ima 20,7 MB (5,4 MB gzip) i skidao se CEO na prvi dodir „značenje" —
+   `definicije.json` ima 20,7 MB (5,4 MB gzip) i skidao se CEO na prvi dodir „značenje" –
    na WiFi 3,7 s, na sporoj mreži računato 27 s. Sada `build/podeli_definicije.py` deli
    rečnik na fajlove po prvom slovu (za velika slova po prva dva), pa se za jedno značenje
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
-   prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak — izvedeni su iz njega. */
+   prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
 const DEFINICIJE_ADRESA = '/definicije.json?v=a129b175';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
@@ -364,9 +364,9 @@ function loadDefSpisak(){
   }
   return defSpisakP;
 }
-/* Učitava SAMO fajl u kom stoji `word`. Jedan neuspeh ne ubija fajl zauvek — briše se iz
+/* Učitava SAMO fajl u kom stoji `word`. Jedan neuspeh ne ubija fajl zauvek – briše se iz
    mape pa sledeći poziv pokuša ponovo (ista pouka kao ranije za ceo rečnik). Fajl koji ne
-   postoji (404 — za tu kombinaciju slova nema nijedne reči) pamti se kao prazan. */
+   postoji (404 – za tu kombinaciju slova nema nijedne reči) pamti se kao prazan. */
 async function loadLocalDefs(word){
   await loadDefSpisak();
   if(!word) return;
@@ -386,7 +386,7 @@ async function loadLocalDefs(word){
 
 /* Skidanje rečnika koje ume da RAZLIKUJE kvar od praznog odgovora.
    Ranije se pisalo `fetch(...).then(r=>r.text())` bez provere `r.ok`: kad server
-   vrati 404 ili 502, telo je HTML strana greške — ona se uredno „učitala" kao
+   vrati 404 ili 502, telo je HTML strana greške – ona se uredno „učitala" kao
    rečnik od par stotina besmislenih redova, pa je sajt tvrdio „nema rime za ovu
    reč" umesto da prijavi kvar. Zato: status + provera da odgovor nije HTML. */
 async function uzmiTekst(url, obavezno){
@@ -404,14 +404,14 @@ async function uzmiTekst(url, obavezno){
 }
 
 async function loadDict(){
-  // Prvo učitaj samo rečnik (mali, brz) — rime rade odmah
+  // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
     uzmiTekst('/reci.txt?v=c233afa9', true),
     uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
-    // ne rečnik — bolje jasna greška nego tiho „nema rime".
+    // ne rečnik – bolje jasna greška nego tiho „nema rime".
     throw new Error('reci.txt je stigao nepotpun (' + ek.length + ' bajtova)');
   }
   const ekWords = ek.split('\n').filter(Boolean);
@@ -421,14 +421,14 @@ async function loadDict(){
   /* OBRADA U KOMADIMA, NE U JEDNOM DAHU.
      Računanje ključa rime za 278.000 reči je ranije zamrzavalo glavnu nit
      824 ms u komadu (izmereno u auditu; ukupno blokirano 1.174 ms). Za to vreme
-     strana ne reaguje ni na kucanje ni na klik — a već je iscrtana, pa deluje
+     strana ne reaguje ni na kucanje ni na klik – a već je iscrtana, pa deluje
      pokvareno. Sada se radi u komadima, uz predah između njih, tako da
      pregledač stigne da obradi unos korisnika.
      Rezultati se upisuju u PRIVREMENE strukture i tek na kraju objavljuju:
      `doRhymes` prepoznaje spremnost po `WORDS.length`, pa ne sme da vidi
      poluprazan `KEYS`. */
   const kljucevi = new Array(svi.length);
-  const male = new Array(svi.length);     // isti niz, sve malim slovima — v. niže
+  const male = new Array(svi.length);     // isti niz, sve malim slovima – v. niže
   const rang = new Map();
   const skup = new Set();
   const KOMAD = 20000;
@@ -437,7 +437,7 @@ async function loadDict(){
     for(let j = i; j < kraj; j++){
       const w = svi[j];
       /* VLASTITA IMENA STOJE U REČNIKU VELIKIM SLOVOM (`Beograd`, `Saturn`,
-         `Isus`) — odluka vlasnice 02.08.2026. Razlog je beležnica: klik na
+         `Isus`) – odluka vlasnice 02.08.2026. Razlog je beležnica: klik na
          ponuđenu rimu ubacuje reč pravo u stih, pa bi `beograd` ostavio
          gramatičku grešku u gotovoj pesmi.
          Zato se ZAPIS čuva onakav kakav je, a sve POREĐENJE ide preko malih
@@ -454,40 +454,40 @@ async function loadDict(){
   jekStart = ekWords.length;
   WORDS = svi; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup;
 
-  // Zatim učitaj frekvenciju i sinonime u pozadini — ne blokiraju rime
+  // Zatim učitaj frekvenciju i sinonime u pozadini – ne blokiraju rime
   loadExtras();
 }
 
-// Lazy load frekvencije i sinonima — ne blokira rime
+// Lazy load frekvencije i sinonima – ne blokira rime
 async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
       fetch('/frekvencija.json?v=e1f29b29').then(r=>r.json()).catch(()=> ({})),
       fetch('/sinonimi.json?v=63a1faae').then(r=>r.json()).catch(()=> ({})),
-      /* matica.json — spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
+      /* matica.json – spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
-         srLex (veb-korpus) ne poznaje sve standardne srpske reči — `hiljada` i
+         srLex (veb-korpus) ne poznaje sve standardne srpske reči – `hiljada` i
          `hiljadu` imaju u njemu NULA pojava, jer je to rupa u tom resursu. Ranije
          je reč bez broja dobijala pozitivan rang, a sve sa brojem negativan, pa je
-         reč viđena JEDAN put (`abakuse`) preticala `hiljada` — i `hiljada` nikad
+         reč viđena JEDAN put (`abakuse`) preticala `hiljada` – i `hiljada` nikad
          nije ulazila u bazen „poznatih reči" za kockicu i igru.
          Rešenje NIJE upisati lažan broj (srednja vrednost je 91, a za ulazak u
-         bazen treba 5.074 — ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
+         bazen treba 5.074 – ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
          drugi, nezavistan signal: da li Matica srpska tu reč ima kao odrednicu.
          Frekvencija kaže KOLIKO se reč koristi; Matica kaže DA LI je standardna. */
       fetch('/matica.json?v=fb9dfdde').then(r=>r.json()).catch(()=> ([]))
     ]);
     SYNONYMS = synRes;
     MATICA = new Set(Array.isArray(maticaRes) ? maticaRes : []);
-    /* Jekavski oblici zaostali u ekavskom rečniku — skidaju se ovde, a filtriraju u
+    /* Jekavski oblici zaostali u ekavskom rečniku – skidaju se ovde, a filtriraju u
        `izbaciJekavske()`. Ako skidanje ne uspe, skup ostaje prazan i sve radi kao
        ranije: bolje da se pokaže jedna jekavska reč nego da nestanu sve rime. */
     try{
       const jr = await (await fetch('/jekavski.json?v=40070794')).json();
       if(Array.isArray(jr)) JEKAVSKI = new Set(jr);
-    }catch(e){ /* namerno tiho — v. komentar iznad */ }
+    }catch(e){ /* namerno tiho – v. komentar iznad */ }
     // Ažuriraj rangiranje sa frekvencijom.
-    // NAPOMENA: NE koristiti Math.max(...Object.values(freqRes)) — frekvencija.json
+    // NAPOMENA: NE koristiti Math.max(...Object.values(freqRes)) – frekvencija.json
     // ima ~435.000 reči, a spread toliko argumenata obara stek
     // (RangeError: Maximum call stack size exceeded) i ceo blok padne u catch,
     // pa rangiranje i sinonimi tiho prestanu da rade. Zato obična petlja.
@@ -497,32 +497,32 @@ async function loadExtras(){
          3. nema broj i nije u Matici -> rang `i + WORDS.length`, dakle iza svih
 
        Sloj 2 postoji zato što je ranije reč viđena JEDAN put (`abakuse`) preticala
-       `hiljada` — standardnu srpsku reč koju srLex uopšte ne poznaje (rupa u tom
+       `hiljada` – standardnu srpsku reč koju srLex uopšte ne poznaje (rupa u tom
        resursu). Sada `hiljada` i dalje ide iza svega što ima stvaran broj, ali PRED
        reči koje nijedan izvor ne potvrđuje. Matica ne daje broj i ne sme da ga
-       izmišlja — daje samo potvrdu da reč postoji u standardnom srpskom. */
-    /* PRAG ŠUMA. Broj 1 u korpusu od 6,9 miliona oblika nije podatak nego šum —
+       izmišlja – daje samo potvrdu da reč postoji u standardnom srpskom. */
+    /* PRAG ŠUMA. Broj 1 u korpusu od 6,9 miliona oblika nije podatak nego šum –
        jedno pojavljivanje na jednom sajtu. Do 30.07.2026. se i takav broj računao
        kao „poznata reč", pa je `abakuse` (viđeno JEDAN put) preticalo `hiljada`,
        standardnu reč koju srLex uopšte ne poznaje. Sve pod 10 pojava tretira se kao
        „nema signala", ne kao „najređe". Izmereno: to je 27.561 reč (13,1%), i sve
-       ostaju u rečniku i dalje izlaze kao rime — menja se samo njihov REDOSLED. */
+       ostaju u rečniku i dalje izlaze kao rime – menja se samo njihov REDOSLED. */
     const PRAG = 10;
     const POMAK = WORDS.length;
     for(let i=0;i<WORDS.length;i++){
       const w = WORDS[i];
       /* Učestalost i Matica su zapisane MALIM slovima, a vlastita imena u rečniku
-         velikim (`Beograd`). Do 06.09.2026. se tražilo `freqRes['Beograd']` — nema
-         ga — pa je svako ime padalo na dno kao „bez signala". Traži se po `MALE[i]`. */
+         velikim (`Beograd`). Do 06.09.2026. se tražilo `freqRes['Beograd']` – nema
+         ga – pa je svako ime padalo na dno kao „bez signala". Traži se po `MALE[i]`. */
       const m = MALE[i];
       const freq = freqRes[w] || freqRes[m] || 0;
       RANK.set(w, freq >= PRAG ? -freq : ((MATICA.has(w) || MATICA.has(m)) ? i : i + POMAK));
     }
 
-    /* PONOVO ISCRTAJ ONO ŠTO JE VEĆ NA EKRANU — nalaz K1 (audit 20.08.2026).
+    /* PONOVO ISCRTAJ ONO ŠTO JE VEĆ NA EKRANU – nalaz K1 (audit 20.08.2026).
        `loadDict()` prvo upiše AZBUČNI `RANK` (redni broj reči), pa tek onda, ne
        čekajući, pozove ovu funkciju koja ga prepiše frekvencijskim. A pretraga iz
-       adrese (`?rec=…`) kreće čim je rečnik gotov — dakle PRE ovog trenutka. Bez
+       adrese (`?rec=…`) kreće čim je rečnik gotov – dakle PRE ovog trenutka. Bez
        ovog osvežavanja svako ko dođe klikom na rimu ili iz Gugla dobija azbučni
        spisak, a samo onaj ko sam ukuca reč posle učitavanja dobija pravi.
        Izmereno pre popravke, 12 prolaza na 4 reči, svih 12 isto:
@@ -530,7 +530,7 @@ async function loadExtras(){
          ručno       →  preka, dreka, smreka, breka, kreka, neka, veka, čeka
        `silent` je obavezan: bez njega bi osvežavanje ponovo upisalo `?rec=` u
        adresu i drugi put poslalo GA4 događaj za istu pretragu.
-       Čeka se da rezultati stvarno postoje — ako korisnik nije ništa tražio, nema
+       Čeka se da rezultati stvarno postoje – ako korisnik nije ništa tražio, nema
        šta da se osvežava. Provera: test, sekcija 35. */
     try{
       const imaRezultata = document.querySelector('#rimeResults .word');
@@ -542,7 +542,7 @@ async function loadExtras(){
 }
 
 /* OBRISANA FUNKCIJA `loadDefs()` (nalaz N11).
-   Bila je mrtav kod — niko je nije zvao — ali opasan mrtav kod: prepisivala je
+   Bila je mrtav kod – niko je nije zvao – ali opasan mrtav kod: prepisivala je
    `RANK.set(w, i)` po redosledu iz `reci.txt` i time BRISALA frekvencijsko
    rangiranje koje postavlja `loadExtras()`. Da ju je iko pozvao, rime bi se
    vratile na azbučni redosled. Definicije se učitavaju kroz `loadLocalDefs()`,
@@ -550,7 +550,7 @@ async function loadExtras(){
 
 /* ====================== Prikaz reči (čip) ====================== */
 function disp(word){ return script==='cyr' ? toCyr(word) : word; }
-// Natpisi koje JS crta posle applyScriptToUI — moraju sami da prate pismo
+// Natpisi koje JS crta posle applyScriptToUI – moraju sami da prate pismo
 function uiTxt(s){ return script==='cyr' ? toCyr(s) : s; }
 
 function isFav(w){ return favorites.includes(w); }
@@ -561,7 +561,7 @@ function toggleFav(w){
   updateFavCount();
   renderFavorites();
   document.querySelectorAll(`.chip[data-w="${cssEsc(w)}"] .fav`).forEach(b=>{
-    /* Menja se SAMO klasa — oba znaka (srce i nota) već stoje u dugmetu, jedan
+    /* Menja se SAMO klasa – oba znaka (srce i nota) već stoje u dugmetu, jedan
        preko drugog, pa CSS može da ih pretopi. Kad se ranije prepisivao
        `textContent`, znak je iskakao bez prelaza. */
     b.classList.toggle('on', isFav(w));
@@ -571,10 +571,10 @@ function toggleFav(w){
   });
 }
 /* Naslov dugmeta mora da kaže šta će se desiti na SLEDEĆI klik, ne kakvo je
-   stanje — inače čitač ekrana kaže „sačuvaj" i za reč koja je već sačuvana. */
+   stanje – inače čitač ekrana kaže „sačuvaj" i za reč koja je već sačuvana. */
 function favNaslov(w){ return uiTxt(isFav(w) ? 'ukloni iz omiljenih' : 'sačuvaj u omiljene'); }
 
-/* PUNA NOTA — znak da je reč sačuvana. Isti crtež kao note na notnom sistemu
+/* PUNA NOTA – znak da je reč sačuvana. Isti crtež kao note na notnom sistemu
    u futeru (glava je elipsa nagnuta za 18°, vrat gore-desno, zastavica), samo
    sveden na veličinu ikonice. Boja ide kroz `--nota-fav` (postoji u obe teme).
    `aria-hidden` jer ime dugmeta nosi `aria-label`, ne crtež. */
@@ -594,7 +594,7 @@ function makeChip(word){
   const syl = syllables(word);
   el.innerHTML =
     /* Reč ide u HTML escapovana (nalaz S-05, audit 07.09.2026): rime iz rečnika su naše,
-       ali omiljene dolaze iz localStorage-a — `<img onerror>` je ulazio u DOM (CSP ga je
+       ali omiljene dolaze iz localStorage-a – `<img onerror>` je ulazio u DOM (CSP ga je
        zaustavio, ali to je mreža, ne brava). */
     `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${escapeHtml(disp(word))}</span>` +
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
@@ -606,27 +606,27 @@ function makeChip(word){
     `<button class="mini prijavi" title="${uiTxt('prijavi grešku za ovu reč')}" aria-label="${uiTxt('prijavi grešku za reč')} ${escapeHtml(disp(word))}">${IKONA.zastavica}</button>`;
   const wEl = el.querySelector('.word');
   wEl.onclick = () => { copy(disp(word)); };
-  // Nalaz N5: reč je bila `<span>` sa `onclick` — mišem radi, tastaturom ne.
+  // Nalaz N5: reč je bila `<span>` sa `onclick` – mišem radi, tastaturom ne.
   wEl.onkeydown = (ev) => {
     if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); copy(disp(word)); }
   };
   /* Do 06.09.2026. je prelazak mišem preko reči otvarao oblačić sa značenjem. Od
      varijante B prelazak otvara TRAKU nad reči (v. `mouseover` niže), pa bi se
-     oblačić i traka preklapali — značenje je sada u traci, na klik „značenje". */
+     oblačić i traka preklapali – značenje je sada u traci, na klik „značenje". */
   el.querySelector('.info').onclick = (ev) => { ev.stopPropagation(); showDefAt(word, ev.currentTarget, true); };
   el.querySelector('.fav').onclick = () => toggleFav(word);
   el.querySelector('.rh').onclick = () => { rimeInput.value = disp(word); switchTab('rime'); doRhymes(); };
   el.querySelector('.prijavi').onclick = (ev) => { ev.stopPropagation(); otvoriPrijavu(word, el); };
   /* Na telefonu čipovi stoje u mreži jednakih kolona; duga reč mora da dobije
      dve ili tri kolone. Merenje je zajedničko za sve čipove i ide jednom po
-     kadru — v. `zakaziMerenjeCipova`. Van telefona ne radi ništa. */
+     kadru – v. `zakaziMerenjeCipova`. Van telefona ne radi ništa. */
   zakaziMerenjeCipova();
   return el;
 }
 
-/* Legenda — objašnjava šta znače broj i ikonice na svakoj rimi.
+/* Legenda – objašnjava šta znače broj i ikonice na svakoj rimi.
    Bez nje korisnik vidi „usvajanje (4)" i tri sitne ikonice bez objašnjenja.
-   Na telefonu nema prelaska mišem, pa `title` atributi ne pomažu — jedini
+   Na telefonu nema prelaska mišem, pa `title` atributi ne pomažu – jedini
    način je da bude napisano. Prikazuje se samo kad ima rezultata. */
 function renderLegend(container){
   const l = document.createElement('div');
@@ -637,12 +637,12 @@ function renderLegend(container){
      telefonu opisivala tri ikonice kojih na ekranu nema. */
   /* LEGENDA JE JEDNA REČENICA, NE UPUTSTVO (prijava vlasnice 08.09.2026: „ova legenda nije dobra,
      kako je niko nije video"). Stara je nabrajala pet radnji sa strelicom i srcem, pa još „klik na reč
-     je kopira" — tri uputstva u jednom redu sitnim kurzivom. Test je gledao samo ključne reči
+     je kopira" – tri uputstva u jednom redu sitnim kurzivom. Test je gledao samo ključne reči
      („pređi mišem", „kopira", „prijavi"), pa je prolazila. Sad: šta je kružić, i jedna rečenica kako
      se dolazi do ostalog. Ostale radnje čovek vidi u samoj traci kad je otvori. */
-  /* Dva reda, dve cele rečenice — da razume i dete od 10 godina (vlasnica, 08.09.2026, drugi put):
+  /* Dva reda, dve cele rečenice – da razume i dete od 10 godina (vlasnica, 08.09.2026, drugi put):
      prvi red objašnjava kružić, drugi šta se dobija kad se reč dodirne ili pređe mišem. */
-  /* TEKST JE ODREDILA VLASNICA 08.09.2026 — doslovno. Na telefonu samo prvi deo druge rečenice
+  /* TEKST JE ODREDILA VLASNICA 08.09.2026 – doslovno. Na telefonu samo prvi deo druge rečenice
      glasi „Dodirni reč" (miša nema). Ne menjati bez nje; test 46 čuva tačan tekst. */
   l.innerHTML =
     '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('Broj u kružiću označava koliko slogova ima data reč.') + '</span>' +
@@ -652,13 +652,13 @@ function renderLegend(container){
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   MOBILNA VERZIJA — 31.07.2026
+   MOBILNA VERZIJA – 31.07.2026
    Sve u ovom odeljku radi SAMO na telefonu (do 560 px). Računar i tablet ne
-   ulaze ni u jednu granu — njihovo ponašanje se ne menja ni za piksel.
+   ulaze ni u jednu granu – njihovo ponašanje se ne menja ni za piksel.
    ══════════════════════════════════════════════════════════════════════════ */
 
 /* Isti prag koji CSS koristi za mobilni raspored. Čita se pri svakom pozivu,
-   ne kešira se — okretanje telefona menja odgovor. */
+   ne kešira se – okretanje telefona menja odgovor. */
 function jeTelefon(){
   return window.matchMedia
     ? window.matchMedia('(max-width:560px)').matches
@@ -667,12 +667,12 @@ function jeTelefon(){
 
 /* ── VISINA TASTATURE NA EKRANU ─────────────────────────────────────────────
    `position:fixed; bottom:0` NE računa se prema onome što se vidi, nego prema
-   layout viewport-u — a on se pri otvaranju tastature ne smanjuje ni na iOS-u
+   layout viewport-u – a on se pri otvaranju tastature ne smanjuje ni na iOS-u
    ni na Androidu (podrazumevano `interactive-widget=resizes-visual`). Zato
    panel sa rimama u beležnici završi TAČNO ISPOD tastature.
 
    Izmereno 31.07.2026 na 390×844: panel je stajao od 557 do 844 px, a tastatura
-   pokriva otprilike od 540 px naniže — dakle nijedna rima se nije videla. To je
+   pokriva otprilike od 540 px naniže – dakle nijedna rima se nije videla. To je
    prijava vlasnice, potvrđena merenjem.
 
    `visualViewport` je jedini put koji radi i na iOS-u i na Androidu:
@@ -701,15 +701,15 @@ function osveziVisinuTastature(){
    nagore, strana se sama vrati naniže; sadržaj se preklapa i treperi").
    Uzrok: `visualViewport` na telefonu dešava „scroll" pri SVAKOM pomeranju strane
    dok je tastatura otvorena (vidljivi deo klizi preko layout viewport-a), a ovde
-   je na taj događaj stajala ispravka položaja — `keepCaretVisible()` /
+   je na taj događaj stajala ispravka položaja – `keepCaretVisible()` /
    `drziPoljeUVidokrugu()` pozovu `window.scrollBy` kad kursor ili polje ispadnu
-   iz vidokruga. Čovek skroluje nagore, kod ga vrati naniže, pa on opet — borba
+   iz vidokruga. Čovek skroluje nagore, kod ga vrati naniže, pa on opet – borba
    stotinama puta u sekundi, što se na ekranu vidi kao skokovi i preklapanje.
    Zato važi dvoje:
      1. usred korisnikovog skrola ispravka položaja SE NE RADI (zastavica dole);
      2. na „scroll" događaj se samo prati visina tastature (--kb), a red se
         dovraća u vidokrug samo na „resize" (tastatura se otvorila/zatvorila),
-        pri fokusu i pri kucanju — nikad usred skrola. */
+        pri fokusu i pri kucanju – nikad usred skrola. */
 let korisnikSkroluje = false, korisnikSkrolujeTimer = null;
 function oznaciSkrolanje(){
   korisnikSkroluje = true;
@@ -737,13 +737,13 @@ function zakaziOsveziTastaturu(samoVisina){
 
 /* Isto pravilo za obična polja (rime, rečnik, igra, naslov pesme).
    Pregledač i sam pomera polje u vidokrug kad se tastatura otvori, ali to radi
-   po svojoj proceni i ne zna za ono što stoji ispod polja — u igri su tako
+   po svojoj proceni i ne zna za ono što stoji ispod polja – u igri su tako
    „Proveri" i poruka o tačnosti umeli da ostanu pod tastaturom. Provera je
    namerno USLOVNA: ako je polje već vidljivo, ne pomera se ništa, pa se ovo
    nikad ne otima pregledaču. */
 function drziPoljeUVidokrugu(){
   if(!jeTelefon()) return;
-  if(korisnikSkroluje) return;   // ne otima se prstu — v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
+  if(korisnikSkroluje) return;   // ne otima se prstu – v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
   const vv = window.visualViewport;
   if(!vv) return;
   const a = document.activeElement;
@@ -751,17 +751,27 @@ function drziPoljeUVidokrugu(){
   const r = a.getBoundingClientRect();
   if(r.height === 0) return;
   /* Ne gleda se samo polje nego i red u kome stoji (dugme pored) i prvi red
-     ispod njega — poruka o tačnosti u igri stoji tačno tu. */
+     ispod njega – poruka o tačnosti u igri stoji tačno tu. */
   const red = a.closest('.game-input-row, .search-row') || a;
   const rr = red.getBoundingClientRect();
   const sledeci = red.nextElementSibling;
   const sr = sledeci ? sledeci.getBoundingClientRect() : null;
-  const dole = Math.max(rr.bottom, (sr && sr.height > 0 && sr.top - rr.bottom < 60) ? sr.bottom : 0);
+  let dole = Math.max(rr.bottom, (sr && sr.height > 0 && sr.top - rr.bottom < 60) ? sr.bottom : 0);
   const vidljivoDno = vv.offsetTop + vv.height;
+  /* VISOKO POLJE (tekst-arija brojača slogova) SE NE DOVLAČI CELO (prijava vlasnice 08.09.2026, treći put:
+     „kad kliknem da upišem tekst, baci me na dno polja"). Bitno je da se vidi RED SA KURSOROM, ne dno
+     polja: za prazno polje kursor je na vrhu, pa se ne pomera ništa; za dug tekst se pomera samo koliko
+     treba da red sa kursorom bude iznad tastature. */
+  if(a.tagName === 'TEXTAREA'){
+    const cs = getComputedStyle(a);
+    const lh = parseFloat(cs.lineHeight) || (parseFloat(cs.fontSize) * 1.9);
+    const redova = (a.value.slice(0, a.selectionStart || 0).match(/\n/g) || []).length;
+    dole = rr.top + (parseFloat(cs.paddingTop) || 0) + (redova + 1) * lh - a.scrollTop;
+  }
   if(dole > vidljivoDno - 12){
     let pomak = Math.ceil(dole - vidljivoDno + 12);
     /* Visoko polje (tekst-arija brojača slogova): kad celo ne može iznad
-       tastature, dovlačenje DNA bi mu izguralo VRH iz kadra — prijava
+       tastature, dovlačenje DNA bi mu izguralo VRH iz kadra – prijava
        vlasnice 16.08.2026: dodir u prazno polje je „odneo" stranu na dno,
        polje ostane usečeno na vrhu. Zato se pomeraj seče: vrh polja nikad
        ne sme iznad gornje ivice vidokruga. */
@@ -779,14 +789,14 @@ const TRAKA_SAFARI_PX = 56;
 if(window.visualViewport){
   /* „resize" = tastatura se otvorila/zatvorila → tu se red dovraća u vidokrug.
      „scroll" = korisnik skroluje → tu se SAMO prati visina (--kb), bez diranja
-     položaja — v. komentar „KORISNIK KOJI SKROLUJE SE NE DIRA" iznad.
+     položaja – v. komentar „KORISNIK KOJI SKROLUJE SE NE DIRA" iznad.
      Uz oba događaja se i traka rima dovraća na dno VIDLJIVOG vidokruga
-     (`zakaziLepljenjeTrake`) — ona ne skroluje stranu, samo se sama premi. */
+     (`zakaziLepljenjeTrake`) – ona ne skroluje stranu, samo se sama premi. */
   visualViewport.addEventListener('resize', () => { zakaziOsveziTastaturu(false); zakaziLepljenjeTrake(); });
   visualViewport.addEventListener('scroll', () => { zakaziOsveziTastaturu(true); zakaziLepljenjeTrake(); });
   window.addEventListener('orientationchange', () => setTimeout(osveziVisinuTastature, 250));
   osveziVisinuTastature();
-  /* Safari traka iznad tastature na iOS-u — koliko treba podići traku rima
+  /* Safari traka iznad tastature na iOS-u – koliko treba podići traku rima
      i donji rub sadržaja (na ostalim platformama 0). */
   document.documentElement.style.setProperty('--traka-lift', (JE_IOS ? TRAKA_SAFARI_PX : 0) + 'px');
 }
@@ -794,7 +804,7 @@ if(window.visualViewport){
 /* ── ŠIRINA ČIPA U MREŽI ────────────────────────────────────────────────────
    Na telefonu rime stoje u mreži od 2–3 jednake kolone (v. `style.css`,
    odeljak „MOBILNA VERZIJA"). Duga reč („dobročiniteljka") ne stane u jednu
-   kolonu, a prelamanje reči na dva reda razvuklo bi CELU vrstu mreže — svaki
+   kolonu, a prelamanje reči na dva reda razvuklo bi CELU vrstu mreže – svaki
    sused bi dobio duplo veću pilulu. Zato takva reč zauzme dve ili tri kolone.
 
    Merenje ide u tri odvojena prolaza (obriši → pročitaj sve → upiši sve). Da su
@@ -811,22 +821,22 @@ function zakaziMerenjeCipova(){
 }
 function izmeriCipove(){
   /* Od 16.08.2026 (drugi prolaz) mobilni `.results` je FLEX-red koji se
-     prelama — pilula je široka tačno koliko joj treba, pa merenje i dodela
+     prelama – pilula je široka tačno koliko joj treba, pa merenje i dodela
      kolona (`chip-siri`/`chip-najsiri`) više nema šta da radi: te klase su
      izbačene iz CSS-a zajedno sa mrežom. Funkcija ostaje samo da počisti
      zaostale klase (npr. star dokument ili povratak sa starije verzije),
-     a pozivi se zadržavaju — jeftina je i ne dira raspored. */
+     a pozivi se zadržavaju – jeftina je i ne dira raspored. */
   document.querySelectorAll('.results > .chip.chip-siri, .results > .chip.chip-najsiri')
     .forEach(c => c.classList.remove('chip-siri','chip-najsiri'));
 }
 window.addEventListener('resize', zakaziMerenjeCipova);
 
-/* ── RADNJE NAD REČJU — ISKAČU IZNAD ČIPA ───────────────────────────────────
+/* ── RADNJE NAD REČJU – ISKAČU IZNAD ČIPA ───────────────────────────────────
    Na telefonu su ⓘ ♡ 🔁 sklonjeni iz pilule: sa njima je čip bio širok 228 px
-   od 390 (izmereno), pa je u red stajala TAČNO JEDNA reč — 195 rima davalo je
+   od 390 (izmereno), pa je u red stajala TAČNO JEDNA reč – 195 rima davalo je
    spisak visok 12.524 px. Bez ikonica u red staju tri.
 
-   Ikonice se ne gube nego se pojave IZNAD reči kad se na nju kucne — isto kao
+   Ikonice se ne gube nego se pojave IZNAD reči kad se na nju kucne – isto kao
    iOS-ova traka nad izabranim tekstom. Ništa nije skriveno, samo se ne troši
    širina na ono što u tom trenutku ne treba. */
 /* Ikonice u traci su NACRTANE, ne otkucane.
@@ -840,7 +850,7 @@ const IKONA = {
   zastavica: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 21V4"/><path d="M5 4h11l-1.5 3.5L16 11H5"/></svg>',
   znacenje: SVG_OKVIR + '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.6v.9"/></svg>',
   srce:     SVG_OKVIR + '<path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20z"/></svg>',
-  /* Sačuvano stanje NIJE puno srce nego PUNA NOTA — isti crtež kao u pilulama
+  /* Sačuvano stanje NIJE puno srce nego PUNA NOTA – isti crtež kao u pilulama
      i kao note u futeru, samo u meri trake (20 px). Boju daje `.ca-btn.on`. */
   notaPuna: '<svg viewBox="0 0 22 32" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor">' +
     '<g transform="translate(7 26)">' +
@@ -864,7 +874,7 @@ function napraviCipTraku(){
 }
 function zatvoriCipTraku(){
   if(!cipTraka || cipTraka.hidden) return;
-  /* Ako je fokus bio u traci, vrati ga na reč — inače pada na `body` (nalaz A1, 07.09.2026). */
+  /* Ako je fokus bio u traci, vrati ga na reč – inače pada na `body` (nalaz A1, 07.09.2026). */
   const fokusUTraci = document.activeElement && cipTraka.contains(document.activeElement);
   const rec = cipTrakaZa;
   cipTraka.hidden = true;
@@ -874,7 +884,7 @@ function zatvoriCipTraku(){
 }
 /* Dok se fokus VRAĆA na reč (Escape, kraj radnje), `focusin` ne sme ponovo da otvori traku. */
 let trakaBezFokusina = false;
-/* TASTATURA (nalaz A1, audit 07.09.2026 — regresija varijante B): ikonice u kapsuli su
+/* TASTATURA (nalaz A1, audit 07.09.2026 – regresija varijante B): ikonice u kapsuli su
    skrivene, a traka je na kraju <body>, pa Tab sa reči nikad nije ulazio u nju. Sada:
    Tab / strelica dole / desno sa fokusirane reči (dok je traka za nju otvorena) → prvo
    dugme trake; strelice levo/desno kroz dugmad; Tab sa poslednjeg dugmeta → sledeća reč;
@@ -920,7 +930,7 @@ function otvoriCipTraku(cip, rec){
     `<button type="button" class="ca-btn" data-act="kopiraj" aria-label="${uiTxt('kopiraj reč')} ${disp(rec)}">` +
       `<span class="ca-ic">${IKONA.kopiraj}</span><span class="ca-txt">${uiTxt('kopiraj')}</span></button>` +
     /* „Prijavi grešku" (06.09.2026): korisnik je mejlom prijavio „Iran" sa jednim
-       slogom — ovim to stiže na tri dodira, bez pisanja pisma. V. odeljak PRIJAVA. */
+       slogom – ovim to stiže na tri dodira, bez pisanja pisma. V. odeljak PRIJAVA. */
     `<button type="button" class="ca-btn ca-prijavi" data-act="prijavi" aria-label="${uiTxt('prijavi grešku za reč')} ${disp(rec)}">` +
       `<span class="ca-ic">${IKONA.zastavica}</span><span class="ca-txt">${uiTxt('prijavi')}</span></button>`;
   t.hidden = false;
@@ -975,7 +985,7 @@ function postaviCipTraku(cip){
 }
 
 /* Dodir na reč u rezultatima otvara traku umesto da kopira.
-   Hvata se u FAZI SPUŠTANJA (`capture`) i zaustavlja — inače bi se izvršio i
+   Hvata se u FAZI SPUŠTANJA (`capture`) i zaustavlja – inače bi se izvršio i
    `onclick` sa samog `.word`, pa bi se reč i kopirala i otvorila traka.
    Ne dira: panel uz stih (tamo klik ubacuje reč), statične strane `/rime-za/`
    (tamo je čip link) i sve iznad 560 px. */
@@ -985,7 +995,7 @@ document.addEventListener('click', (e) => {
   if(!t || !t.closest) return;
   if(t.closest('.chip-actions')) return;
   const cip = t.closest('.chip');
-  /* Kapsula sa `data-w` (alat) ili `data-rec` (statička strana `/rime-za/`) — nalaz S-08:
+  /* Kapsula sa `data-w` (alat) ili `data-rec` (statička strana `/rime-za/`) – nalaz S-08:
      do 07.09.2026 je tražila ikonicu `.mini`, pa na statičkim stranama traka nije postojala. */
   if(!cip || !(cip.dataset.w || cip.dataset.rec) || cip.closest('.note-rhymes')){
     if(!t.closest('.chip-actions')) zatvoriCipTraku();
@@ -997,12 +1007,12 @@ document.addEventListener('click', (e) => {
 }, true);
 window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
 
-/* RAČUNAR — traka nad reči na prelazak mišem ili fokus tastaturom (06.09.2026,
+/* RAČUNAR – traka nad reči na prelazak mišem ili fokus tastaturom (06.09.2026,
    odluka vlasnice, varijanta B). Ikonice ⓘ ♡ 🔁 ⚑ više ne stoje u kapsuli (CSS
    `.chip .mini{display:none}`), pa je kapsula kratka i u red stane 2,5 puta više
    reči; sve radnje su u istoj traci kao na telefonu. Klik na reč i dalje kopira.
    Važi i za statične strane `/rime-za/` (čip nosi `data-rec`). Ne važi u panelu
-   uz stih (`.note-rhymes`) — tamo klik ubacuje reč u pesmu. */
+   uz stih (`.note-rhymes`) – tamo klik ubacuje reč u pesmu. */
 let hoverTimer = null, hoverZatvori = null;
 /* Posle nove pretrage kursor često i dalje stoji nad rezultatima, pa bi Chrome odmah poslao
    `mouseover` novoj reči i traka bi skočila na nasumičnu reč dok korisnik kuca (nalaz S-01).
@@ -1012,7 +1022,7 @@ document.addEventListener('mousemove', (e) => {
   if(!trakaCekaPokret) return;
   trakaCekaPokret = false;
   /* Pregledač šalje `mouseover` PRE `mousemove`, pa je prvi ulazak u reč posle pretrage
-     već propušten — zato se ovde otvara traka za reč pod kursorom (inače bi korisnik
+     već propušten – zato se ovde otvara traka za reč pod kursorom (inače bi korisnik
      morao da izađe iz reči i vrati se). */
   if(jeTelefon()) return;
   const cip = cipZaTraku(e.target);
@@ -1020,7 +1030,7 @@ document.addEventListener('mousemove', (e) => {
 }, { passive: true });
 /* LEPLJIVA TRAKA (prijava vlasnice 06.09.2026: „krenem ka „prijavi", okrznem susednu reč i
    traka nestane"). Pravila: (1) otvorena traka se NE prebacuje na susednu reč dok kursor
-   ne ODSTOJI na njoj 350 ms — samo prolazak preko nje ne menja ništa; (2) ulazak u traku
+   ne ODSTOJI na njoj 350 ms – samo prolazak preko nje ne menja ništa; (2) ulazak u traku
    otkazuje svako zatvaranje; (3) traka se zatvara tek kad kursor 700 ms nije ni na reči ni
    na traci. Prva traka (kad nijedna nije otvorena) otvara se brzo, posle 110 ms. */
 const TRAKA_PRVA_MS = 110, TRAKA_PREBACI_MS = 350, TRAKA_ZATVORI_MS = 700;
@@ -1047,7 +1057,7 @@ document.addEventListener('mouseover', (e) => {
     hoverZatvori = setTimeout(zatvoriCipTraku, TRAKA_ZATVORI_MS);
   }
 });
-/* Kad kursor napusti reč PRE nego što istekne 350 ms, prebacivanje se otkazuje —
+/* Kad kursor napusti reč PRE nego što istekne 350 ms, prebacivanje se otkazuje –
    inače bi traka skočila na reč preko koje je kursor samo prošao. */
 document.addEventListener('mouseout', (e) => {
   if(jeTelefon()) return;
@@ -1062,14 +1072,14 @@ document.addEventListener('focusin', (e) => {
 });
 document.addEventListener('keydown', (e) => { if(e.key === 'Escape') zatvoriCipTraku(); });
 /* Promena širine (okretanje telefona, otvaranje tastature na Androidu) menja i
-   gde je čip — traka bi ostala da visi na starom mestu. */
+   gde je čip – traka bi ostala da visi na starom mestu. */
 window.addEventListener('resize', zatvoriCipTraku);
 
 /* ── REDOVI KOJI SE POMERAJU U STRANU ───────────────────────────────────────
    Traka rima iznad tastature ne staje u širinu ekrana. Bez ikakvog znaka red
-   deluje odsečen, pa se blago izbledi desna ivica — a čim se dopomera do
+   deluje odsečen, pa se blago izbledi desna ivica – a čim se dopomera do
    kraja, bleđenje se sklanja da poslednje dugme ne ostane sivo.
-   (Traka akcija u beležnici i traka tabova su ovo koristile do 16.08.2026 —
+   (Traka akcija u beležnici i traka tabova su ovo koristile do 16.08.2026 –
    tada su po odluci vlasnice prešle na PRELAMANJE u više redova, pa klasa
    `red-do-kraja` za njih više nema vizuelnog efekta.) */
 function osveziMaskuReda(red){
@@ -1078,7 +1088,7 @@ function osveziMaskuReda(red){
   red.classList.toggle('red-do-kraja', doKraja || red.scrollWidth <= red.clientWidth + 4);
 }
 /* `trajno` samo za elemente koji žive koliko i strana. Traka rima se pri
-   svakom pomeranju kursora crta iznova — da i ona kači osluškivač na `window`,
+   svakom pomeranju kursora crta iznova – da i ona kači osluškivač na `window`,
    za sat pisanja bi ih se nakupilo na stotine. Njoj je dovoljan osluškivač na
    samoj traci, koji nestaje zajedno sa njom. */
 function pratiPomeranjeUStranu(red, trajno){
@@ -1090,16 +1100,16 @@ function pratiPomeranjeUStranu(red, trajno){
   osvezi();
 }
 /* `.hint-actions` se od 16.08.2026. PRELAMA (ne pomera u stranu), pa se ovde
-   više ne kači — jedini red sa bočnim pomeranjem je traka rima iznad
+   više ne kači – jedini red sa bočnim pomeranjem je traka rima iznad
    tastature (poziv iz `renderNoteRhymes`). */
 
 /* ── POSLE PRETRAGE ODMAH POKAŽI RIME ───────────────────────────────────────
    Na telefonu je iznad rezultata stajalo 1.070 px sadržaja (logo, traka alata,
-   naslov, uvodni pasus, polje, filteri, legenda) — izmereno na 390×844. Ko
+   naslov, uvodni pasus, polje, filteri, legenda) – izmereno na 390×844. Ko
    otkuca reč i kucne „Nađi rime", ostane da gleda isti ekran i mora sam da
    skrola do rezultata. Zato se posle SVESNE pretrage (dugme ili Enter, ne
    promena filtera) tastatura zatvara i lista se dovodi pod prst.
-   Van telefona ne radi ništa — tamo se cela strana ionako vidi. */
+   Van telefona ne radi ništa – tamo se cela strana ionako vidi. */
 function pokaziRimeNaTelefonu(){
   if(!jeTelefon()) return;
   const box = el('rimeResults');
@@ -1111,7 +1121,7 @@ function pokaziRimeNaTelefonu(){
   });
 }
 
-/* Sinonimi — zasebna, vizuelno izdvojena kartica.
+/* Sinonimi – zasebna, vizuelno izdvojena kartica.
    Ranije su bili obična grupa na DNU liste, ispod stotinu rima, pa se
    praktično nisu videli. Sinonimi su prednost koju konkurencija nema, zato
    idu odmah ispod najboljih rima, jasno označeni. */
@@ -1133,7 +1143,7 @@ function renderSynonyms(container, word, syns){
   container.appendChild(card);
 }
 
-/* Bedž sa nizom tačnih odgovora u igri — vizuelna nagrada. */
+/* Bedž sa nizom tačnih odgovora u igri – vizuelna nagrada. */
 function renderCombo(){
   const b = el('gameComboBadge');
   if(b.__noop) return;
@@ -1145,14 +1155,14 @@ function renderGroup(container, title, words, strong){
   if(!words.length) return;
   const g = document.createElement('div');
   g.className = 'res-group' + (strong ? ' strong-tier' : '');
-  /* `h2`, ne `h3`: iznad je `h1` strane, pa bi `h3` preskočio nivo — čitač
+  /* `h2`, ne `h3`: iznad je `h1` strane, pa bi `h3` preskočio nivo – čitač
      ekrana tada javlja pogrešnu dubinu (nalaz N9 na statičnim stranama, N14 u
      živom alatu). CSS pokriva oba nivoa, izgled se ne menja.
      `uiTxt` jer naslov crta JS POSLE `applyScriptToUI`, pa ga ćirilica inače
      nikad ne dohvati (nalaz S3). */
   if(title){ const h=document.createElement('h2'); h.textContent=uiTxt(title); g.appendChild(h); }
   /* Prijava korisnika iz sanduča („odeljenja" ≠ rima za „grižnja", nalaz N-R1): rezervna
-     grupa se poklapa samo u poslednjem slogu, pa to mora da piše — inače deluje kao greška. */
+     grupa se poklapa samo u poslednjem slogu, pa to mora da piše – inače deluje kao greška. */
   if(title && title.startsWith('Dobre rime (isti završni slog)')){
     const n = document.createElement('p'); n.className = 'res-note';
     n.textContent = uiTxt('Ove reči se sa tvojom slažu samo u poslednjem slogu, pa zvuče slabije od pravih rima.');
@@ -1189,7 +1199,7 @@ function filterSyl(arr){
 
 /* `silent` je zastavica, ne događaj. Kad je `doRhymes` bio zakačen direktno
    (`onclick = doRhymes`), pregledač je kao prvi argument prosleđivao `MouseEvent`
-   — a on je truthy, pa je SVAKI klik na glavno dugme radio u tihom režimu:
+   – a on je truthy, pa je SVAKI klik na glavno dugme radio u tihom režimu:
    bez `?rec=` u URL-u, bez GA4 događaja i bez poruke na nevalidan unos.
    Zato se ovde vrednost svodi na pravo `true`, a poziv je umotan (linija ~491). */
 function doRhymes(silent){
@@ -1204,24 +1214,24 @@ function doRhymes(silent){
   const box = el('rimeResults');
   box.innerHTML='';
   /* Poruke o stanju pišemo SAMO kad je korisnik sam tražio rime. U tihom
-     pozivu (beležnica računa rime za reč pod kursorom) panel je pozajmljen —
+     pozivu (beležnica računa rime za reč pod kursorom) panel je pozajmljen –
      tu bi poruka izgledala kao da je korisnik nešto tražio. Zbog toga je na
      početnoj strani pisalo „Učitavam rečnik…" iako niko nije upisao ni reč. */
   if(q.length<2){
     if(!silent){
-      /* POLJE JE ISPRAŽNJENO — strana se vraća u početno stanje.
+      /* POLJE JE ISPRAŽNJENO – strana se vraća u početno stanje.
          Bez ovoga bi `h1`, naslov i opis ostali zaglavljeni na poslednjoj
          traženoj reči („Rime za reč „ljubav“") iako na ekranu više nema nijedne
          rime, a `noindex` bi ostao na strani koja opet sme u indeks.
-         `osveziSeoZaRec` se ovde ne može pozvati — ona radi sa rečju, a reči
+         `osveziSeoZaRec` se ovde ne može pozvati – ona radi sa rečju, a reči
          više nema; zato se vraćanje radi ovde, na jedinom mestu odakle se
          izlazi bez upita. */
       vratiSeoNaPocetno();
       /* Unos od kog ne ostane nijedno slovo („123", „😀", „!!!") nije isto što i
-         prekratka reč — bez ove razlike je panel na takav unos ostajao PRAZAN
+         prekratka reč – bez ove razlike je panel na takav unos ostajao PRAZAN
          i alat je delovao pokvareno (nalaz V4). */
       box.innerHTML = (raw.length && !q.length)
-        ? '<p class="empty">' + uiTxt('Upiši reč slovima — brojevi i znaci se ne rimuju.') + '</p>'
+        ? '<p class="empty">' + uiTxt('Upiši reč slovima – brojevi i znaci se ne rimuju.') + '</p>'
         : '<p class="empty">' + uiTxt('Upiši reč (bar dva slova).') + '</p>';
     }
     return;
@@ -1239,7 +1249,7 @@ function doRhymes(silent){
     return;
   }
 
-  // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent — beležnica ne sme da dira URL)
+  // sinhronizuj URL sa trenutnom pretragom (samo ako nije silent – beležnica ne sme da dira URL)
   if(!silent){
     /* I filter slogova ide u adresu (nalaz S-03, 07.09.2026): bez toga osvežavanje vraća „sve",
        a link koji čovek podeli ne nosi ono što je gledao. Kanonikal ostaje bez filtera. */
@@ -1249,7 +1259,7 @@ function doRhymes(silent){
   const key = rhymeKey(q);
   const keyLen = key.length;
   /* `RHYME_EXCLUSIONS` je običan objekat, pa `RHYME_EXCLUSIONS['constructor']`
-     vrati funkciju iz prototipa umesto `undefined` — i tada `excluded.has`
+     vrati funkciju iz prototipa umesto `undefined` – i tada `excluded.has`
      nije funkcija, što je rušilo ceo prikaz rima (nalaz N2). Isto važi za
      „__proto__", „toString", „valueOf". */
   const excluded = Object.prototype.hasOwnProperty.call(RHYME_EXCLUSIONS, q)
@@ -1263,11 +1273,11 @@ function doRhymes(silent){
        na upit „beograd" bi izašao kao rima samom sebi. */
     const m = MALE[i];
     if(BLOCKED.has(m) || excluded.has(m) || (kidsMode && isKidsBlocked(m))) continue;
-    // jekavski oblik zaostao u ekavskom rečniku — v. komentar kod `JEKAVSKI`
+    // jekavski oblik zaostao u ekavskom rečniku – v. komentar kod `JEKAVSKI`
     if(!includeJek && JEKAVSKI.has(m)) continue;
     if(KEYS[i]===key && m!==q) strong.push(w);
   }
-  /* Redosled rima — tri merila, ovim redom:
+  /* Redosled rima – tri merila, ovim redom:
      1. duži zajednički završetak (bogatija rima)
      2. BLIŽI BROJ SLOGOVA traženoj reči
      3. učestalost reči
@@ -1275,7 +1285,7 @@ function doRhymes(silent){
      Zašto broj slogova: prava rima počinje od poslednjeg NAGLAŠENOG
      samoglasnika (vidi GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7).
      Podatke o akcentu nemamo, a `rhymeKey` od pretposlednjeg samoglasnika je
-     samo aproksimacija — ona jednako tretira „rima/štima" (akcenat na istom
+     samo aproksimacija – ona jednako tretira „rima/štima" (akcenat na istom
      mestu, prava rima) i „rima/računarima" (zajedničko „ima" je tamo
      nenaglašeno, dakle slabija rima). Blizina broja slogova je najbolja
      zamena za akcenat koju imamo, jer reči sličnog obima obično imaju i
@@ -1293,8 +1303,8 @@ function doRhymes(silent){
      zajedničkih slova.
 
      Ranije je „najbolje" značilo „deli više slova od ključa rime". Zbog toga su
-     za „rima" na vrh izlazili „stvarima, centrima, dobrima, čarima, morima" —
-     dativi i instrumentali množine koji dele četiri slova (`rima`) — dok je
+     za „rima" na vrh izlazili „stvarima, centrima, dobrima, čarima, morima" –
+     dativi i instrumentali množine koji dele četiri slova (`rima`) – dok je
      „štima", koje deli tri (`ima`), padalo na 111. mesto.
 
      A u „stvarima" je to `rima` NENAGLAŠENO. Prava rima počinje od poslednjeg
@@ -1330,12 +1340,12 @@ function doRhymes(silent){
   }
 
   if(!best.length && !good.length && !finalExtra.length && !loose){
-    box.innerHTML = '<p class="empty">' + uiTxt('Nema čiste rime za ovu reč. Štikliraj „i šire (slabije) rime“ ispod polja — tada ulaze i bliske rime. Ako ni tada nema, probaj kraću reč ili neku drugu sa kraja stiha.') + '</p>';
+    box.innerHTML = '<p class="empty">' + uiTxt('Nema čiste rime za ovu reč. Štikliraj „i šire (slabije) rime“ ispod polja – tada ulaze i bliske rime. Ako ni tada nema, probaj kraću reč ili neku drugu sa kraja stiha.') + '</p>';
   }
   if(best.length || good.length || finalExtra.length) renderLegend(box);
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
 
-  // Sinonimi idu ODMAH ispod najboljih rima — vidljivo, a rime i dalje prve.
+  // Sinonimi idu ODMAH ispod najboljih rima – vidljivo, a rime i dalje prve.
   /* Isti razlog kao kod `RHYME_EXCLUSIONS` (nalaz N2): `SYNONYMS` je običan
      objekat učitan iz JSON-a, pa `SYNONYMS['constructor']` vrati funkciju iz
      prototipa i `syns.slice` pukne. Provera vlasništva ključa to zatvara. */
@@ -1350,7 +1360,7 @@ function doRhymes(silent){
 
   /* Nalaz N1: rezultati se ubacuju u DOM bez ijedne najave, pa čitač ekrana
      ćuti i posle 195 pronađenih rima. Sam spisak NE ide u `aria-live` (čitao bi
-     svih 195 reči) — najavljuje se samo broj, u zasebnom nevidljivom polju. */
+     svih 195 reči) – najavljuje se samo broj, u zasebnom nevidljivom polju. */
   if(!silent){
     const ukupno = best.length + good.length + finalExtra.length;
     el('rimeStatus').textContent = ukupno
@@ -1380,7 +1390,7 @@ function doRhymes(silent){
        broja slogova, pa duži zajednički završetak, pa učestalost. Do 03.08.2026.
        je ovde bio samo završetak, pa je spisak preplavljivao jedan nastavak:
        za „sunce" je prvih sedamdeset mesta zauzelo `-nce` (mladunce, begunce,
-       licence…), a `srce` — reč zbog koje ova opcija i postoji — palo je na
+       licence…), a `srce` – reč zbog koje ova opcija i postoji – palo je na
        150. mesto i nije se videlo. Sa blizinom slogova `srce` (2 sloga, kao
        `sunce`) ulazi u prvi krug. */
     const qSylW = syllables(q);
@@ -1397,14 +1407,14 @@ function doRhymes(silent){
                  best.slice(0, 6).join(', '));
 }
 
-/* ── SEO PO UPITU `?rec=` — dinamička adresa po reči ──────────────────────
-   Model dokazan kod konkurencije (azrhymes, rime.com.hr — viđeno uživo na
+/* ── SEO PO UPITU `?rec=` – dinamička adresa po reči ──────────────────────
+   Model dokazan kod konkurencije (azrhymes, rime.com.hr – viđeno uživo na
    upitu „rima za malena" 19.08.2026): jedna strana-alat čija adresa nosi reč
-   indeksira se kao posebna strana po reči — tako pokrivamo i reči BEZ
+   indeksira se kao posebna strana po reči – tako pokrivamo i reči BEZ
    statičke strane, bez pravljenja novih fajlova (zabrana vlasnice 19.08).
    Kanonikal: ako reč ima statičku stranu (`/rime-za/<slug>/`, spisak iz
-   `rime-strane.json`) — kanonikal ka njoj, da se autoritet ne deli; ako
-   nema — adresa je kanonična samoj sebi. Važi samo na početnoj (`/`). */
+   `rime-strane.json`) – kanonikal ka njoj, da se autoritet ne deli; ako
+   nema – adresa je kanonična samoj sebi. Važi samo na početnoj (`/`). */
 const SEO_SLUG_MAP = {'š':'s','č':'c','ć':'c','ž':'z','đ':'dj'};
 function slugLat(w){
   return [...w.toLowerCase()].map(ch => SEO_SLUG_MAP[ch] || ch).join('');
@@ -1423,7 +1433,7 @@ function postaviMeta(ime, sadrzaj){
   const m = document.querySelector('meta[name="' + ime + '"]');
   if(m) m.content = sadrzaj;
 }
-/* OpenGraph oznake koriste `property=`, ne `name=` — zato ih `postaviMeta` nikad
+/* OpenGraph oznake koriste `property=`, ne `name=` – zato ih `postaviMeta` nikad
    nije pogađao (nalaz K2, audit 20.08.2026). Posledica: kad se `/?rec=kapućino`
    podeli na Vocapu ili Fejsbuku, prikazivao se naslov POČETNE strane, a ne reči. */
 function postaviOG(svojstvo, sadrzaj){
@@ -1431,7 +1441,7 @@ function postaviOG(svojstvo, sadrzaj){
   if(m) m.content = sadrzaj;
 }
 /* `noindex` za adrese koje nemaju šta da pokažu. Do 20.08.2026. `noindex` nije
-   postojao nigde u projektu, pa je `/?rec=xqzwptr` — bilo koji niz slova — bio
+   postojao nigde u projektu, pa je `/?rec=xqzwptr` – bilo koji niz slova – bio
    uredna, indeksabilna strana bez ijedne rime. Oznaka se DODAJE i UKLANJA, jer
    ista strana u istoj poseti prelazi iz jedne pretrage u drugu. */
 function postaviRobots(vrednost){
@@ -1455,7 +1465,7 @@ function vratiSeoNaPocetno(){
   if(kan) postaviOG('og:url', kan.href);
   postaviRobots('');
   /* Adresa je stanje (nalaz N-04, 07.09.2026): prazno polje vraća naslov i `h1`, pa mora
-     da skloni i `?rec=` — inače osvežavanje ponovo traži staru reč. */
+     da skloni i `?rec=` – inače osvežavanje ponovo traži staru reč. */
   try{
     const u = new URL(location.href);
     if(u.searchParams.has('rec')){ u.searchParams.delete('rec'); history.replaceState(null, '', u.pathname + u.search + u.hash); }
@@ -1465,7 +1475,7 @@ function vratiSeoNaPocetno(){
 async function osveziSeoZaRec(q, broj, prvih){
   if(!q || (location.pathname !== '/' && location.pathname !== '/index.html')) return;
   const dq = disp(q);
-  /* Početne vrednosti se pamte pre prve izmene — da `vratiSeoNaPocetno()` ima
+  /* Početne vrednosti se pamte pre prve izmene – da `vratiSeoNaPocetno()` ima
      šta da vrati, a da se tekst ne duplira ni ovde ni u `index.html`. */
   const b = document.body;
   if(b.dataset.seoNaslov === undefined){
@@ -1480,10 +1490,10 @@ async function osveziSeoZaRec(q, broj, prvih){
     : `Rime za reč „${dq}" | Rimoteka rečnik rima`;
   postaviMeta('description', broj > 0
     ? `Sve rime za „${dq}": ${broj} reči. Uz svaku piše broj slogova i šta znači. Na vrhu su: ${prvih}.`
-    : `Koje se reči rimuju sa „${dq}"? Rimoteka — rečnik rima, broj slogova i značenja svake reči.`);
+    : `Koje se reči rimuju sa „${dq}"? Rimoteka – rečnik rima, broj slogova i značenja svake reči.`);
   const kan = document.querySelector('link[rel="canonical"]');
   if(!kan) return;
-  /* Kanonikal se postavlja ODMAH na samu adresu (sinhrono — na produkciji
+  /* Kanonikal se postavlja ODMAH na samu adresu (sinhrono – na produkciji
      `rime-strane.json` na hladnom startu kasni kroz service worker, pa bi
      kanonikal zakasnio i ostao početni), pa se NADOGRAĐUJE na statičku
      stranu kad spisak stigne i ako reč stranu ima. */
@@ -1491,7 +1501,7 @@ async function osveziSeoZaRec(q, broj, prvih){
   kan.href = sebe;
 
   /* GLAVNI NASLOV PRATI REČ (nalaz K2). Posle `title`, `h1` je najjači signal na
-     strani — a stajao je generički („Rimovanje reči na srpskom jeziku…"), pa se
+     strani – a stajao je generički („Rimovanje reči na srpskom jeziku…"), pa se
      na strani koja se indeksira po reči ta reč nije pominjala nijednom.
      Početni tekst se pamti da bi se vratio kad se polje isprazni. */
   const h1 = document.querySelector('h1');
@@ -1500,7 +1510,7 @@ async function osveziSeoZaRec(q, broj, prvih){
     h1.textContent = broj > 0 ? uiTxt('Rime za reč') + ' \u201e' + dq + '\u201c' : h1.dataset.pocetni;
   }
 
-  /* Deljenje na društvenim mrežama — v. `postaviOG`. `og:url` ide na KANONIKAL,
+  /* Deljenje na društvenim mrežama – v. `postaviOG`. `og:url` ide na KANONIKAL,
      ne na `?rec=`: ako reč ima svoju stranu, deli se ona. */
   postaviOG('og:title', document.title);
   postaviOG('og:description',
@@ -1509,12 +1519,12 @@ async function osveziSeoZaRec(q, broj, prvih){
   /* KOJA ADRESA SME U GUGLOV INDEKS.
      Prvo pravilo je bilo „ima li rima", i palo je na prvoj proveri: `xqzwptrv`
      nije reč, ali se završava na `-rv`, pa alat uredno vrati `strv, krv, crv,
-     hrv, brv` — pet rima, dakle „vredno indeksiranja". Po tom merilu bi svaki
+     hrv, brv` – pet rima, dakle „vredno indeksiranja". Po tom merilu bi svaki
      niz slova sa srpskim završetkom pravio novu stranu za Gugla, a upravo to je
      nalaz K2 trebalo da spreči.
      Merilo je zato REČNIK: indeksira se samo adresa čija je reč stvarno u našem
      rečniku. Svaka prava srpska reč tu jeste; greške u kucanju i nizovi slova
-     nisu. Za čoveka se ništa ne menja — rime se i dalje prikazuju svakome ko ih
+     nisu. Za čoveka se ništa ne menja – rime se i dalje prikazuju svakome ko ih
      potraži, menja se samo šta nudimo robotu. */
   const znanaRec = (typeof SET !== 'undefined') && SET.has(q);
   postaviRobots(znanaRec && broj > 0 ? '' : 'noindex,follow');
@@ -1526,14 +1536,14 @@ async function osveziSeoZaRec(q, broj, prvih){
 
 /* PILULE KOJE NISU LINKOVI (nalaz K2). Na generisanim stranama `/rime-za/…/`
    reč koja NEMA svoju stranu crta se kao `<button class="chip chip-btn"
-   data-rec="…">`, a ne kao `<a href="/?rec=…">` — da Gugl ne dobije 96.115 adresa
+   data-rec="…">`, a ne kao `<a href="/?rec=…">` – da Gugl ne dobije 96.115 adresa
    za obilazak (v. `chip()` u `build/gen_pages.py`). Za čoveka se ništa ne menja:
    klik vodi tačno tamo gde je i pre vodio.
    Zašto ovde a ne u zasebnom fajlu: CSP sajta je `script-src 'self'`, skripta
    upisana u stranu bi bila blokirana, a `app.js` te strane ionako učitavaju.
    Delegirano sa `document`, pa radi i za pilule koje JS iscrta kasnije. */
 document.addEventListener('click', e => {
-  /* Samo DUGME (`chip-btn`) — od 07.09.2026 i linkovi na statičkim stranama nose
+  /* Samo DUGME (`chip-btn`) – od 07.09.2026 i linkovi na statičkim stranama nose
      `data-rec` (zbog trake nad reči, nalaz S-08), a link vodi na svoju stranu. */
   const b = e.target.closest && e.target.closest('.chip-btn[data-rec]');
   if(!b) return;
@@ -1557,7 +1567,7 @@ jekToggle.addEventListener('change', e=>{
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
-// Dečji režim — filtrira neprikladne reči za decu
+// Dečji režim – filtrira neprikladne reči za decu
 /* Dečji režim se može uključiti i adresom: `?decji=1`.
    Strane za decu su tvrdile da su rezultati „uvek filtrirani i bezbedni", a
    dodatni dečji filter je podrazumevano bio ISKLJUČEN. Sada dugme sa tih strana
@@ -1579,19 +1589,19 @@ kidsToggle.addEventListener('change', e=>{
 });
 /* ============ POZNATE REČI (za kockicu i igru) ============
  * Nasumičan izbor iz celog rečnika daje uglavnom arhaične i nepoznate
- * oblike ("praotaca") — kockica i igra su zbog toga bile neupotrebljive.
+ * oblike ("praotaca") – kockica i igra su zbog toga bile neupotrebljive.
  * Kad se frekvencija učita (RANK < 0 = reč ima frekvenciju), gradimo
  * bazen najčešćih reči i biramo iz njega. Dok frekvencija ne stigne,
  * fallback je ceo rečnik, pa ništa ne čeka.
  * ========================================================== */
 const COMMON_POOL_SIZE = 8000;
 let commonPool = null;
-/* IJEKAVICA U IGRI I NA KOCKICI — pravilo projekta: u igri ijekavskih reči NEMA
+/* IJEKAVICA U IGRI I NA KOCKICI – pravilo projekta: u igri ijekavskih reči NEMA
    (prijava vlasnice 16.08.2026: igra je ponudila „dvije"). Ijekavske reči stoje
    na KRAJU niza `WORDS` (od indeksa `jekStart`), a deo jekavskih oblika živi i
-   unutar ekavskog dela (skup `JEKAVSKI` — v. komentar uz njega). Bazen se gradi
+   unutar ekavskog dela (skup `JEKAVSKI` – v. komentar uz njega). Bazen se gradi
    iz celog `WORDS` po frekvenciji, pa je `dvije` (13.461 pojava) ulazio u bazen.
-   Provera se radi pri svakom IZBORU, ne pri gradnji bazena — `JEKAVSKI` stiže
+   Provera se radi pri svakom IZBORU, ne pri gradnji bazena – `JEKAVSKI` stiže
    mrežom kasnije, pa bi filter pri gradnji bio zastareo. */
 let jekReciSkup = null;
 function jeJekavskaRec(w){
@@ -1600,20 +1610,20 @@ function jeJekavskaRec(w){
 }
 function getCommonPool(){
   if(commonPool) return commonPool;
-  /* Bazen ide ISKLJUČIVO po frekvenciji — namerno, i to je provereno.
+  /* Bazen ide ISKLJUČIVO po frekvenciji – namerno, i to je provereno.
      30.07.2026. je probano da se u bazen dodaju i reči potvrđene u Rečniku Matice
      srpske koje korpus ne zna (da bi `hiljada` mogla da izađe na kockici). NE RADI:
      od 6.323 takve reči većina su `adađo`, `abonos`, `adhezioni`, `abrakadabra`,
-     `admiralitetski` — tačno „arhaični i nepoznati oblici" zbog kojih je bazen i
+     `admiralitetski` – tačno „arhaični i nepoznati oblici" zbog kojih je bazen i
      napravljen. Odrednica u Matici znači da je reč STANDARDNA, ne da je POZNATA;
      to su dva različita svojstva i Matica meri samo prvo.
      Ni finiji signal ne pomaže: `admiralitetski` je u srLex-u sa brojem 0 (korpus
-     ga video i izbrojao nula), a `hiljada` nije u srLex-u uopšte (rupa u resursu) —
+     ga video i izbrojao nula), a `hiljada` nije u srLex-u uopšte (rupa u resursu) –
      ali u istoj grupi „nije u srLex-u" su i `adađo` i `abonos`. Automatske razlike
      između „česta reč koju je korpus promašio" i „retka reč koju je korpus promašio"
      NEMA.
      Zato se reči tipa `hiljada` dodaju iz izvora koji dokazuje da ih ljudi ZAISTA
-     koriste — pretrage iz Google Analytics-a (vidi TODO 0.05-E) — ili ručno, na
+     koriste – pretrage iz Google Analytics-a (vidi TODO 0.05-E) – ili ručno, na
      zahtev vlasnice. Ne nagađanjem. */
   const sa = [];
   for(const w of WORDS){
@@ -1631,7 +1641,7 @@ function randomCommonWord(extraFilter){
     const w = pool[Math.floor(Math.random()*pool.length)];
     if(!w || syllables(w) < 2 || w.length < 3) continue;
     /* Kockica poštuje kvačicu „uključi ijekavicu": kad je isključena, ijekavski
-       oblici ne izlaze (u igri ih nema nikad — to filter dolazi kroz extraFilter). */
+       oblici ne izlaze (u igri ih nema nikad – to filter dolazi kroz extraFilter). */
     if(!includeJek && jeJekavskaRec(w)) continue;
     if(extraFilter && !extraFilter(w)) continue;
     return w;
@@ -1648,7 +1658,7 @@ el('randomBtn').onclick = ()=>{
 const acWrap = document.createElement('div');
 acWrap.className = 'autocomplete';
 acWrap.style.display = 'none';
-// Strana bez polja za rime (npr. brojač slogova) nema gde da zakači predloge —
+// Strana bez polja za rime (npr. brojač slogova) nema gde da zakači predloge –
 // `el()` vraća NOOP element, a njegov parentNode je null. Bez ove provere
 // app.js pukne na TAKVOJ strani i obori sve ostale alate na njoj.
 if(rimeInput.parentNode){
@@ -1666,7 +1676,7 @@ function updateAutocomplete(){
   const limit = includeJek ? WORDS.length : jekStart;
   const out = [];
   for(let i=0;i<limit && out.length<8;i++){
-    const w = WORDS[i], m = MALE[i];   // poređenje malim slovima — v. `Beograd`
+    const w = WORDS[i], m = MALE[i];   // poređenje malim slovima – v. `Beograd`
     if(BLOCKED.has(m)) continue;
     if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
     if(m.startsWith(q) && m !== q) out.push(w);
@@ -1721,18 +1731,18 @@ function doSearch(){
   box.innerHTML='';
   if(q.length<2){
     box.innerHTML = (searchInput.value.trim().length && !q.length)
-      ? '<p class="empty">' + uiTxt('Upiši slova — brojevi i znaci se ne pretražuju.') + '</p>'
+      ? '<p class="empty">' + uiTxt('Upiši slova – brojevi i znaci se ne pretražuju.') + '</p>'
       : '<p class="empty">' + uiTxt('Upiši bar dva slova.') + '</p>';
     return;
   }
-  /* Dok rečnik nije stigao, `WORDS` je prazan i petlja ispod ne nađe ništa —
+  /* Dok rečnik nije stigao, `WORDS` je prazan i petlja ispod ne nađe ništa –
      ranije je zbog toga pisalo „Nema reči koje odgovaraju", što je neistina:
      reči ima, samo još nisu učitane. */
   if(WORDS.length === 0){ box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>'; return; }
   const out=[];
   const limit = includeJek ? WORDS.length : jekStart;
   for(let i=0;i<limit && out.length<600;i++){
-    const w=WORDS[i], m=MALE[i];      // poređenje malim slovima — v. `Beograd`
+    const w=WORDS[i], m=MALE[i];      // poređenje malim slovima – v. `Beograd`
     if(BLOCKED.has(m)) continue;
     if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
     if(mode==='ends'   && m.endsWith(q))   out.push(w);
@@ -1743,7 +1753,7 @@ function doSearch(){
   if(searchSyl){
     arr = searchSyl===5 ? arr.filter(w=>syllables(w)>=5) : arr.filter(w=>syllables(w)===searchSyl);
   }
-  if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči sa tim slovima. Probaj kraći niz — na primer „ost“ umesto „nost“ — ili promeni način pretrage gore.') + '</p>'; return; }
+  if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči sa tim slovima. Probaj kraći niz – na primer „ost“ umesto „nost“ – ili promeni način pretrage gore.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
   el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}`;
 }
@@ -1773,7 +1783,7 @@ function lineSyllables(line){
   return total;
 }
 const sylInput = el('sylInput');
-/* Brojevi slogova stoje LEVO od reda, u istom okviru — kao u beležnici.
+/* Brojevi slogova stoje LEVO od reda, u istom okviru – kao u beležnici.
    Ovde je namerno običan <textarea> (otporan na nalepljivanje, undo i mobilnu
    tastaturu), a pošto se u njega ne može crtati, položaj svakog reda se meri na
    nevidljivoj kopiji: jedan <div> po redu, iste širine i istog fonta kao polje,
@@ -1790,7 +1800,7 @@ function syncSylMirror(lines){
   st.fontWeight = cs.fontWeight;
   st.lineHeight = cs.lineHeight;
   st.letterSpacing = cs.letterSpacing;
-  // kopija je BEZ paddinga i okvira — offsetTop reda tako kreće od nule,
+  // kopija je BEZ paddinga i okvira – offsetTop reda tako kreće od nule,
   // a padding polja se dodaje pri crtanju gutter-a
   st.padding = '0';
   st.border = '0';
@@ -1832,7 +1842,7 @@ function updateSyl(){
   const lines = text.split('\n');
   syncSylMirror(lines);
   renderSylGutter(lines);
-  // na dnu ostaje SAMO zbir — tekst se više ne ponavlja ispod polja
+  // na dnu ostaje SAMO zbir – tekst se više ne ponavlja ispod polja
   out.innerHTML = '';
   let totalSyl = 0, nonEmpty = 0;
   lines.forEach(line => { if(line.trim()){ totalSyl += lineSyllables(line); nonEmpty++; } });
@@ -1859,14 +1869,14 @@ window.addEventListener('resize', () => {
 });
 /* Navodnici se MORAJU štititi: bez njih tekst upisan u atribut može da izađe
    iz njega i doda svoj (`title="..." onmouseover=...`). Danas se `escapeHtml`
-   koristi samo za sadržaj elementa, pa nije bilo iskoristivo — ali funkcija sa
+   koristi samo za sadržaj elementa, pa nije bilo iskoristivo – ali funkcija sa
    ovim imenom mora da bude bezbedna i za sledeću upotrebu (nalaz N13). */
 function escapeHtml(s){
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-/* ====================== BELEŽNICA — Editor sa obojenim rimama ====================== */
-// Nazivi šema rime — koristi ih i beležnica (statistika) i tab „Klasici".
+/* ====================== BELEŽNICA – Editor sa obojenim rimama ====================== */
+// Nazivi šema rime – koristi ih i beležnica (statistika) i tab „Klasici".
 // MORA biti iznad beležnice: init odmah zove updateNoteStats() (const ne hoist-uje).
 const SCHEME_NAMES = {
   'AA':'parna (kupletna) rima',
@@ -1881,7 +1891,7 @@ const noteEditor = el('noteEditor');
 const noteGutter = el('noteGutter');
 const noteTitle = el('noteTitle');
 
-// Naslov pesme — opciono, čuva se uz pesmu; koristi se u PDF/TXT/deljenju
+// Naslov pesme – opciono, čuva se uz pesmu; koristi se u PDF/TXT/deljenju
 noteTitle.value = lsGet('rimoteka_notes_title') || '';
 noteTitle.addEventListener('input', () => {
   lsSet('rimoteka_notes_title', noteTitle.value);
@@ -1893,10 +1903,10 @@ function getPoemTitle(){ return noteTitle.value.trim(); }
  * Jedna paleta za obe teme NE RADI, i to je izmereno: reč se ispisuje svojom
  * bojom preko iste te boje na 13% prozirnosti, pa kontrast zavisi isključivo od
  * toga koliko je boja tamna u odnosu na podlogu. Stara zajednička paleta davala
- * je u SVETLOJ temi 1,89:1 (zelena), 1,98:1 (narandžasta), 2,14:1 — dakle reč
+ * je u SVETLOJ temi 1,89:1 (zelena), 1,98:1 (narandžasta), 2,14:1 – dakle reč
  * koja se praktično ne vidi; u tamnoj 3,16:1 (ljubičasta) i 3,83:1 (crvena).
  *
- * Zato dve palete: ISTA nijansa i zasićenost, pomerena samo svetlina — dole za
+ * Zato dve palete: ISTA nijansa i zasićenost, pomerena samo svetlina – dole za
  * svetlu temu, gore za tamnu. Sve vrednosti su izmerene na ≥ 4,6:1 nad stvarnom
  * podlogom (bela, odnosno #1e1a2e), sa uračunatom prozirnom pozadinom reči.
  * Boje ostaju međusobno razlučive, pa rimske grupe i dalje imaju svoju boju. */
@@ -1918,9 +1928,9 @@ function rimaBoja(i){
 }
 
 // Sonantnosna tolerancija za bojenje: završni suglasnik se pred izgovorom
-// ogusi (grad izgovaramo "grat"), pa bojimo i takve parove — i dalje savršena
-// rima za uho, samo tolerantna na pravopis. NE looseKey (asonanca) — odobreno.
-// (Mora biti IZNAD init bloka — init odmah poziva analyzeRhymes.)
+// ogusi (grad izgovaramo "grat"), pa bojimo i takve parove – i dalje savršena
+// rima za uho, samo tolerantna na pravopis. NE looseKey (asonanca) – odobreno.
+// (Mora biti IZNAD init bloka – init odmah poziva analyzeRhymes.)
 const DEVOICED = { 'd':'t','b':'p','g':'k','z':'s','ž':'š' };
 function lenientRhymeKey(w){
   const k = rhymeKey(w);
@@ -1928,8 +1938,8 @@ function lenientRhymeKey(w){
   return DEVOICED[last] ? k.slice(0,-1) + DEVOICED[last] : k;
 }
 
-// Inicijalizacija — učitaj tekst iz localStorage i oboji rime
-// Ako glavni zapis nedostaje ili je prazan, a istorija ima verziju — vratimo
+// Inicijalizacija – učitaj tekst iz localStorage i oboji rime
+// Ako glavni zapis nedostaje ili je prazan, a istorija ima verziju – vratimo
 // najnoviju (spas posle pokvarenog upisa ili obrisanog ključa; prazan editor je
 // uvek gori izbor od vraćene pesme).
 let savedText = lsGet('rimoteka_notes') || '';
@@ -1939,7 +1949,7 @@ if(!savedText.trim()){
   if(spas) savedText = spas.tekst;
 }
 // Ako lokalna memorija ne radi (privatni režim, blokirano skladište), pesma se
-// NEĆE sačuvati — korisnik mora to da zna PRE nego što napiše strofu.
+// NEĆE sačuvati – korisnik mora to da zna PRE nego što napiše strofu.
 (function(){
   let radi = true;
   try {
@@ -1966,10 +1976,10 @@ if(savedText.trim()){
 
 // Dobij plain text iz contenteditable div-a
 // Deterministička serijalizacija: innerText gubi <br> na kraju (Chrome quirk),
-// pa bi re-render "pojeo" prelom reda — zato sami hodamo po DOM-u.
+// pa bi re-render "pojeo" prelom reda – zato sami hodamo po DOM-u.
 // Blokovi (<div>, <p>) SU prelomi reda: mobilni Chrome/Safari na Enter prave
 // <div> po redu, ne <br>. Bez ovoga se na telefonu redovi slepe u jedan
-// ("…nekadu tvom…") — mrtvo bojenje rima (nalaz M1), ali i pokvarena pesma u
+// ("…nekadu tvom…") – mrtvo bojenje rima (nalaz M1), ali i pokvarena pesma u
 // localStorage, brojač slogova i statistika: svi čitaju ovu funkciju.
 function getEditorText(){
   let out = '';
@@ -1979,13 +1989,13 @@ function getEditorText(){
       if(child.nodeType === Node.TEXT_NODE) out += child.data;
       else if(child.nodeName === 'BR'){
         // pomoćni <br> za kursor (iOS fix) nije deo teksta; <br> koji je jedini
-        // sadržaj bloka je prazan red — prelom mu dodaje sam blok (bez dvostrukog)
+        // sadržaj bloka je prazan red – prelom mu dodaje sam blok (bez dvostrukog)
         if(child.classList.contains('cursor-br')) return;
         if(blok(child.parentNode) && child.parentNode.childNodes.length === 1) return;
         out += '\n';
       }
       else if(blok(child)){
-        // Svaki blok je NOVI RED — bezuslovno. Uslov „samo ako prethodni ne
+        // Svaki blok je NOVI RED – bezuslovno. Uslov „samo ako prethodni ne
         // završava na \n" proguta prazan red: `a<div><br></div><div>b</div>`
         // je "a\n\nb" (tri reda), ne "a\nb" (dva). <br> jedinac u bloku je samo
         // vidljivost praznog reda, pa mu se prelom ne računa dvaput (v. gore).
@@ -2036,12 +2046,12 @@ function restoreCursorPosition(pos){
     /* PRIJAVA VLASNICE 03.08.2026: „otkucam dva slova i odmah pređe u sledeći
        red". Uzrok je bio baš ovde. Pravilo je glasilo „strogo <", pa je kursor
        koji stoji tačno na KRAJU reda pri svakom osvežavanju odlazio na POČETAK
-       sledećeg reda — i sledeće slovo se kucalo tamo. U njenoj pesmi je zato
+       sledećeg reda – i sledeće slovo se kucalo tamo. U njenoj pesmi je zato
        „ kapa joj je" pukla na „kapa" i „ joj je".
        Pravilo „strogo <" je uvedeno zbog suprotnog slučaja: pritisneš Enter,
        kursor treba da bude ISPOD preloma, a ostajao je iznad njega.
        Ta dva slučaja imaju isti broj znakova i razlikuju se samo po tome gde je
-       kursor stajao PRE osvežavanja — na kraju tekstualnog čvora (kraj reda)
+       kursor stajao PRE osvežavanja – na kraju tekstualnog čvora (kraj reda)
        ili ne (novi red posle Entera). Zato se sada gleda i to. */
     if(pos < nextCount || (kursorNaKrajuCvora && pos === nextCount)){
       range.setStart(node, pos - charCount);
@@ -2085,7 +2095,7 @@ function restoreCursorPosition(pos){
  * latinici i kad se ceo sajt prebaci na ćirilicu. Ranije je to bila NAMERNA
  * odluka („alat ne sme sam da prekucava tekst korisnika"), ali u praksi znači
  * da pola strane bude ćirilica a pesma latinica. Vlasnica je odlučila da se i
- * pesma prebacuje — u OBA smera, pa se ništa ne gubi: povratak na latinicu
+ * pesma prebacuje – u OBA smera, pa se ništa ne gubi: povratak na latinicu
  * vraća pesmu na latinicu.
  *
  * Kursor se čuva u BROJU ZNAKOVA od početka, a ne u DOM čvoru, jer se ceo
@@ -2093,7 +2103,7 @@ function restoreCursorPosition(pos){
  * odskoči kad se `lj` skupi u jedno slovo `љ`.
  * ================================================================== */
 
-/* `saveCursorPosition` ne proverava da li je izbor UOPŠTE u beležnici — kad se
+/* `saveCursorPosition` ne proverava da li je izbor UOPŠTE u beležnici – kad se
    klikne na prekidač za pismo, izbor je na dugmetu, pa bi vratila besmislicu.
    Ova vraća `null` u tom slučaju, da pozivalac zna da kursor ne treba dirati. */
 function pozicijaKursoraUBelesci(){
@@ -2104,7 +2114,7 @@ function pozicijaKursoraUBelesci(){
   return saveCursorPosition();
 }
 
-/* Ponovo iscrta boje rima posle zamene teksta — bez ovoga pesma posle
+/* Ponovo iscrta boje rima posle zamene teksta – bez ovoga pesma posle
    prebacivanja pisma ostane crna dok se ne otkuca sledeće slovo. */
 function osveziBelesku(tekst, poz){
   noteInput.value = tekst;
@@ -2120,13 +2130,13 @@ function osveziBelesku(tekst, poz){
    dva znaka, pa jedno slovo nije dovoljno, a računanje granica reči preko dve
    različite mere dužine (v. napomenu o prelomima ispod) unosi grešku koja se
    vidi tek u dugačkoj pesmi. Prevod je čist prolaz kroz niz znakova i na pesmi
-   od hiljadu redova traje manje od milisekunde — kratkoća koda ovde vredi više
+   od hiljadu redova traje manje od milisekunde – kratkoća koda ovde vredi više
    od uštede koja se ne meri.
 
    PAŽNJA NA DVE MERE DUŽINE: `getEditorText()` broji svaki prelom reda kao znak
    `\n`, a `saveCursorPosition`/`restoreCursorPosition` prelome NE broje (idu
    samo kroz tekstualne čvorove). Zato se nova pozicija kursora računa nad
-   `noteEditor.textContent` — to je ista mera koju kursor koristi. Sa
+   `noteEditor.textContent` – to je ista mera koju kursor koristi. Sa
    `getEditorText()` bi kursor u pesmi sa više redova odskakao za broj redova. */
 function prebaciBelesku(){
   if(!noteEditor || noteEditor.__noop) return;
@@ -2141,14 +2151,14 @@ function prebaciBelesku(){
 }
 
 /* Dok se KUCA: u ćirilici i otkucano slovo odmah prelazi u ćirilicu, isto kao
-   u polju za rime. U latinici se ne dira ništa — ko piše latinicom, piše
+   u polju za rime. U latinici se ne dira ništa – ko piše latinicom, piše
    latinicom. */
 function prebaciKucanoUBelesci(){
   if(script === 'cyr') prebaciBelesku();
 }
 
 // Analiziraj tekst i vrati mapu boja po redu
-/* Poslednja reč u stihu — sa POLOŽAJEM u izvornom tekstu.
+/* Poslednja reč u stihu – sa POLOŽAJEM u izvornom tekstu.
    Ranije se vraćao samo latinični oblik reči, pa je bojenje rima u ćiriličnoj
    pesmi tražilo „љубав" kao „ljubav" u ćiriličnom redu, nije ga nalazilo
    (`lastIndexOf` = -1) i nijedna rima se nije obojila (nalaz S4).
@@ -2168,7 +2178,7 @@ function poslednjaRecSaMestom(line){
 function analyzeRhymes(text){
   const lines = text.split('\n');
   const lastWords = lines.map(poslednjaRecSaMestom);
-  // grupiši po rhymeKey uz sonantnosnu toleranciju — savršena rima po izgovoru
+  // grupiši po rhymeKey uz sonantnosnu toleranciju – savršena rima po izgovoru
   const groups = new Map();
   lastWords.forEach((rec, idx) => {
     if(!rec || rec.latinica.length < 2) return;
@@ -2208,7 +2218,7 @@ function renderColoredText(text){
   }).join('<br>');
 }
 
-// Glavna funkcija — analiziraj i renderuj
+// Glavna funkcija – analiziraj i renderuj
 function updateEditor(){
   const text = getEditorText();
   noteInput.value = text;
@@ -2218,8 +2228,8 @@ function updateEditor(){
   renderNoteRhymes();
 }
 
-// Dva debounce-a: brzi (čuvanje/gutter/statistika/rime — ne dira DOM editora)
-// i sporiji (bojenje rima — innerHTML rewrite tek kad korisnik zastane sa kucanjem,
+// Dva debounce-a: brzi (čuvanje/gutter/statistika/rime – ne dira DOM editora)
+// i sporiji (bojenje rima – innerHTML rewrite tek kad korisnik zastane sa kucanjem,
 // da re-render ne jede prelome redova usred kucanja)
 let editorUiTimer = null;
 let editorColorTimer = null;
@@ -2238,7 +2248,7 @@ function scheduleEditorUpdate(){
   editorColorTimer = setTimeout(() => {
     const pos = saveCursorPosition();
     const text = getEditorText();
-    // renderuj kad ima rimskih grupa — ili kad grupe VIŠE nema, a stari obojeni
+    // renderuj kad ima rimskih grupa – ili kad grupe VIŠE nema, a stari obojeni
     // spanovi su ostali u editoru (brisanjem reči grupa pukne, boja bi zastala)
     const { colorMap } = analyzeRhymes(text);
     if(colorMap.size > 0 || noteEditor.querySelector('.rhyme-word')){
@@ -2252,18 +2262,19 @@ function scheduleEditorUpdate(){
 noteEditor.addEventListener('input', () => {
   prebaciKucanoUBelesci();  // u ćirilici i otkucano slovo odmah prelazi u ćirilicu
   scheduleEditorUpdate();
+  requestAnimationFrame(() => requestAnimationFrame(drziKursorIspodTrake));   // posle iscrtavanja trake
 });
 noteEditor.addEventListener('scroll', () => {
   const inner = el('noteGutterInner');
   if(!inner.__noop) inner.style.transform = `translateY(${-noteEditor.scrollTop}px)`;
 });
-/* LEPLJENJE PESME — PRELOMI REDOVA SE MORAJU SAČUVATI.
+/* LEPLJENJE PESME – PRELOMI REDOVA SE MORAJU SAČUVATI.
    Do 29.07.2026. je ovde stajalo `execCommand('insertText', …)`, koje u ovom
    editoru GUTA `\n`: nalepljena pesma od dvanaest stihova postajala je JEDAN
    red. Izmereno: brojač je posle lepljenja pokazivao „1 red · 6 reči", a levi
-   brojač slogova jedan jedini broj. Za beležnicu za pesme to nije sitnica —
+   brojač slogova jedan jedini broj. Za beležnicu za pesme to nije sitnica –
    sa prelomima nestaju i slogovi po stihu, i šema rime, i bojenje.
-   Zato se tekst ubacuje sam, čvor po čvor: red kao tekst, prelom kao <br> —
+   Zato se tekst ubacuje sam, čvor po čvor: red kao tekst, prelom kao <br> –
    isti oblik koji editor pravi na Enter. */
 noteEditor.addEventListener('paste', (e) => {
   e.preventDefault();
@@ -2287,7 +2298,7 @@ noteEditor.addEventListener('paste', (e) => {
   });
   let zadnji = frag.lastChild;
   /* Ako se nalepljeno završava prelomom, kursor ne sme da stane odmah iza
-     njega — pregledač ga vrati ISPRED preloma, pa bi se sledeći red spojio sa
+     njega – pregledač ga vrati ISPRED preloma, pa bi se sledeći red spojio sa
      prethodnim. Isti pomoćni <br> koji koristi `restoreCursorPosition`. */
   if(zadnji && zadnji.nodeName === 'BR'){
     const cb = document.createElement('br');
@@ -2306,7 +2317,7 @@ noteEditor.addEventListener('paste', (e) => {
   noteEditor.dispatchEvent(new Event('input', { bubbles: true }));
 });
 
-// iOS Safari fix — Enter ne radi u contenteditable nakon renderovanja HTML-a
+// iOS Safari fix – Enter ne radi u contenteditable nakon renderovanja HTML-a
 noteEditor.addEventListener('keydown', (e) => {
   if(e.key === 'Enter'){
     e.preventDefault();
@@ -2317,10 +2328,10 @@ noteEditor.addEventListener('keydown', (e) => {
       range.deleteContents();
       const br = document.createElement('br');
       range.insertNode(br);
-      // Kursor ne ume da stoji posle ZAVRŠNOG <br>-a — browser ga vrati ispred,
+      // Kursor ne ume da stoji posle ZAVRŠNOG <br>-a – browser ga vrati ispred,
       // pa bi sledeće kucanje i sledeći Enter išli PRE preloma (redovi se spajaju).
       // Napomena: insertNode podeli text node, pa iza br često ostane prazan
-      // text node — zato proveravamo da iza br nema SADRŽAJA, ne lastChild.
+      // text node – zato proveravamo da iza br nema SADRŽAJA, ne lastChild.
       let atEnd = true;
       for(let n = br.nextSibling; n; n = n.nextSibling){
         if(n.nodeType !== Node.TEXT_NODE || n.data !== ''){ atEnd = false; break; }
@@ -2339,51 +2350,72 @@ noteEditor.addEventListener('keydown', (e) => {
   }
 });
 
-// Rime prate kursor — klik mišem ili strelice prebacuju ciljnu reč
+// Rime prate kursor – klik mišem ili strelice prebacuju ciljnu reč
 let caretTimer = null;
 document.addEventListener('selectionchange', () => {
   const sel = window.getSelection();
   if(sel.rangeCount === 0 || !noteEditor.contains(sel.getRangeAt(0).startContainer)) return;
   clearTimeout(caretTimer);
-  caretTimer = setTimeout(renderNoteRhymes, 120);
+  caretTimer = setTimeout(() => { renderNoteRhymes(); requestAnimationFrame(drziKursorIspodTrake); }, 120);
 });
 
 /* Rime uz editor.
    Desktop: panel stoji desno od beležnice i „lepi se" pri skrolovanju (CSS).
-   Telefon: dok kucaš, panel se prikači za dno ekrana — inače bi bio ~170 px
+   Telefon: dok kucaš, panel se prikači za dno ekrana – inače bi bio ~170 px
    ispod pregiba (izmereno na 390×844), pa se rime u praksi nikad ne vide. */
 const noteRhymesBox = el('noteRhymes');
 // Stanje panela sa rimama: koliko ih je prikazano i šta je poslednje iscrtano
-// (da se DOM ne ruši bez potrebe — v. renderNoteRhymes).
+// (da se DOM ne ruši bez potrebe – v. renderNoteRhymes).
 const NOTE_RHYMES_STEP = 16;
 let notePanelKey = null, notePanelBase = null, notePanelExpanded = false;
 // Reč za koju panel trenutno pokazuje rime i reč koju smo upravo ubacili klikom.
-// Klik na rimu je stavlja pod kursor, pa bi panel inače skočio na NJENE rime —
+// Klik na rimu je stavlja pod kursor, pa bi panel inače skočio na NJENE rime –
 // lista se prerači, kliknuti čip nestane i sve „trepne". Zato panel ostaje
 // usidren za reč sa kojom se rimuješ dok god je pod kursorom baš ubačena reč.
 let notePanelWord = '', noteInsertedWord = '';
 const isNarrow = () => window.matchMedia('(max-width:900px)').matches;
 /* TRAKA RIMA ZALEPPLJENA ZA VIDOKRUG, NE ZA STRANU (prijave vlasnice
    16.08.2026, drugi prolaz):
-   1) dok se skroluje nagore, panel je „plovio" preko editora — `position:fixed;
+   1) dok se skroluje nagore, panel je „plovio" preko editora – `position:fixed;
       bottom:var(--kb)` meri se od layout-vidokruga, a kad se prstom pomera
       vidljivi deo, layout stoji pa panel na ekranu „beži" preko teksta;
    2) na iPhone-u Safari-jeva traka (lozinka/kartica/lokacija) lebdi IZNAD
       tastature i prekriva pilule (v. `JE_IOS`/`TRAKA_SAFARI_PX` gore).
    Zato se položaj panela računa od VIDLJIVOG vidokruga (`top` u layout
-   koordinatama) na svaki „scroll"/„resize" vidokruga — bez `window.scrollBy`,
-   prst se ne dira — a na iOS-u se podiže za visinu Safari trake. */
+   koordinatama) na svaki „scroll"/„resize" vidokruga – bez `window.scrollBy`,
+   prst se ne dira – a na iOS-u se podiže za visinu Safari trake. */
+/* TRAKA RIMA JE NA VRHU VIDLJIVOG EKRANA, NE NA DNU (prijava vlasnice 08.09.2026, sa dve slike sa
+   iPhone-a): traka „iznad tastature" je na Safariju lebdela na sredini ekrana i pokrivala red koji se
+   kuca – Safari nepouzdano javlja gde je dno dok je tastatura otvorena, a VRH vidljivog dela
+   (`visualViewport.offsetTop`) javlja tačno. Zato: traka stoji na vrhu, a red sa kursorom se drži
+   ISPOD nje (`drziKursorIspodTrake`). Tekst koji se kuca nikad nije pod trakom. */
 function zalepiTrakuRima(){
   const vv = window.visualViewport;
   if(!vv || !document.body.classList.contains('notes-typing')) return;
-  const lift = JE_IOS ? TRAKA_SAFARI_PX : 0;
   noteRhymesBox.style.bottom = 'auto';
-  noteRhymesBox.style.top = Math.max(0,
-    Math.round(vv.offsetTop + vv.height - noteRhymesBox.offsetHeight - lift)) + 'px';
+  noteRhymesBox.style.top = Math.max(0, Math.round(vv.offsetTop)) + 'px';
+  document.documentElement.style.scrollPaddingTop = (noteRhymesBox.offsetHeight + 12) + 'px';
+}
+/* Red sa kursorom mora da se vidi između trake (gore) i tastature (dole). Pregledač sam dovodi
+   kursor u vidljivi deo, ali ne zna za našu traku – pa ako je kursor ispod nje, strana se pomeri. */
+function drziKursorIspodTrake(){
+  try{
+    if(!document.body.classList.contains('notes-typing') || !document.body.classList.contains('kb-open')) return;
+    const sel = window.getSelection();
+    if(!sel || !sel.rangeCount || !noteEditor.contains(sel.getRangeAt(0).startContainer)) return;
+    const rng = sel.getRangeAt(0);
+    let r = rng.getClientRects()[0] || rng.getBoundingClientRect();
+    if(!r || (!r.height && !r.top)){ const e = rng.startContainer.nodeType === 3 ? rng.startContainer.parentElement : rng.startContainer; r = e.getBoundingClientRect(); }
+    const traka = noteRhymesBox.getBoundingClientRect();
+    const vv = window.visualViewport; const dno = vv ? (vv.height) : window.innerHeight;
+    if(r.top < traka.bottom + 6) window.scrollBy({ top: r.top - traka.bottom - 28, behavior: 'auto' });
+    else if(r.bottom > dno - 6) window.scrollBy({ top: r.bottom - dno + 28, behavior: 'auto' });
+  }catch(e){}
 }
 function odlepiTrakuRima(){
   noteRhymesBox.style.top = '';
   noteRhymesBox.style.bottom = '';
+  document.documentElement.style.scrollPaddingTop = '';
 }
 let lepljenjeZakazano = false;
 function zakaziLepljenjeTrake(){
@@ -2398,12 +2430,12 @@ function setTypingMode(on){
 }
 noteEditor.addEventListener('focus', () => { setTypingMode(true); setTimeout(keepCaretVisible, 250); });
 noteEditor.addEventListener('blur', () => setTypingMode(false));
-// Klik na rimu ne sme da oduzme fokus editoru — inače se izgubi pozicija kursora
+// Klik na rimu ne sme da oduzme fokus editoru – inače se izgubi pozicija kursora
 // i reč nema gde da se ubaci.
 noteRhymesBox.addEventListener('pointerdown', (e) => {
   if(e.target.closest('.chip')) e.preventDefault();
 });
-// Na telefonu panel sa rimama stoji preko dna ekrana — browser to ne zna kad
+// Na telefonu panel sa rimama stoji preko dna ekrana – browser to ne zna kad
 // sam skroluje do kursora, pa red u kome se kuca može da završi ispod panela.
 // Donja ivica reda u kome je kursor, u koordinatama ekrana.
 // Kolabiran Range ume da vrati prazan pravougaonik (npr. kad je kursor unutar
@@ -2430,14 +2462,14 @@ function caretViewportBottom(){
 }
 function keepCaretVisible(){
   if(!document.body.classList.contains('notes-typing')) return;
-  if(korisnikSkroluje) return;   // ne otima se prstu — v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
+  if(korisnikSkroluje) return;   // ne otima se prstu – v. „KORISNIK KOJI SKROLUJE SE NE DIRA"
   const bottom = caretViewportBottom();
   if(bottom == null) return;
   const panel = noteRhymesBox.getBoundingClientRect();
   if(panel.height === 0) return;
   /* Donja ivica onoga što se STVARNO vidi, ne `window.innerHeight`.
      `innerHeight` je visina layout viewport-a i ostaje ista kad se otvori
-     tastatura — pa je ovaj račun ranije mislio da ispod kursora ima 300 px
+     tastatura – pa je ovaj račun ranije mislio da ispod kursora ima 300 px
      slobodnog prostora, a tamo je bila tastatura. `getBoundingClientRect`
      vraća koordinate u odnosu na layout viewport, a `visualViewport.offsetTop`
      kaže gde u njemu počinje vidljivi deo, pa se sabiraju. */
@@ -2468,7 +2500,7 @@ el('clearNotes').onclick = () => {
   }
 };
 
-/* Štampa / PDF — browser-ov print dijalog uz print CSS koji prikazuje samo pesmu.
+/* Štampa / PDF – browser-ov print dijalog uz print CSS koji prikazuje samo pesmu.
    Naslov dolazi iz opcionog polja; ako je prazno, štampamo bez naslova (bez nagađanja). */
 el('printPoem').onclick = () => {
   const text = getEditorText();
@@ -2480,7 +2512,7 @@ el('printPoem').onclick = () => {
   window.print();
 };
 
-/* Deljenje pesme linkom — tekst se kodira u ?pesma= parametar (base64url) */
+/* Deljenje pesme linkom – tekst se kodira u ?pesma= parametar (base64url) */
 function encodePoem(text){
   return btoa(unescape(encodeURIComponent(text))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
 }
@@ -2496,7 +2528,7 @@ el('sharePoem').onclick = () => {
   const url = location.origin + location.pathname + '?pesma=' + encodePoem(text) +
     (getPoemTitle() ? '&naslov=' + encodeURIComponent(getPoemTitle()) : '');
   if(navigator.clipboard){
-    navigator.clipboard.writeText(url).then(()=>toast('Link kopiran — slobodno ga podeli!')).catch(()=>prompt('Kopiraj link:', url));
+    navigator.clipboard.writeText(url).then(()=>toast('Link kopiran – slobodno ga podeli!')).catch(()=>prompt('Kopiraj link:', url));
   } else {
     prompt('Kopiraj link:', url);
   }
@@ -2510,11 +2542,11 @@ el('sharePoem').onclick = () => {
 // Jedan prolaz kroz DOM editora → mapa „tekstualna pozicija ↔ čvor"
 // (iste koordinate kao getEditorText, dakle <br> broji kao jedan znak)
 /* Spisak „koja tekstualna pozicija leži u kom čvoru".
-   MORA da broji IDENTIČNO kao `getEditorText()` — to su dve strane iste stvari:
+   MORA da broji IDENTIČNO kao `getEditorText()` – to su dve strane iste stvari:
    jedna daje tekst, druga kaže gde se koje slovo tog teksta nalazi u DOM-u.
 
    Do 31.07.2026. nisu se poklapale. `getEditorText()` je 29.07. naučen da svaki
-   BLOK (`<div>`, `<p>`) računa kao novi red — mobilni Chrome i Safari na Enter
+   BLOK (`<div>`, `<p>`) računa kao novi red – mobilni Chrome i Safari na Enter
    prave blokove, ne `<br>` (nalaz M1). Ali ovaj spisak nije: on je brojao samo
    slova i `<br>`-ove, pa mu je posle svakog bloka nedostajao po jedan znak.
 
@@ -2525,7 +2557,7 @@ el('sharePoem').onclick = () => {
    pesmi jedva vidi, a na dužoj su oznake potpuno razminute sa stihovima.
 
    Ovo je jedini korisnik ovog spiska (`measureLineBoxes`), pa popravka ne
-   dodiruje ni kursor ni čuvanje teksta — samo poravnanje oznaka uz stih. */
+   dodiruje ni kursor ni čuvanje teksta – samo poravnanje oznaka uz stih. */
 function editorTextIndex(){
   const items = [];
   let pos = 0;
@@ -2537,7 +2569,7 @@ function editorTextIndex(){
         pos += child.data.length;
       } else if(child.nodeName === 'BR'){
         if(child.classList.contains('cursor-br')) continue;
-        /* `<br>` koji je jedini sadržaj bloka je samo vidljivost praznog reda —
+        /* `<br>` koji je jedini sadržaj bloka je samo vidljivost praznog reda –
            prelom mu dodaje sam blok. Isti uslov stoji u `getEditorText()`.
            Stavka se ipak upisuje (širine nula) jer `brAt()` preko nje meri gde
            taj prazan red stoji na ekranu. */
@@ -2568,7 +2600,7 @@ function brAt(items, pos){
 
 /* Izmeri svaki logički red editora (u koordinatama sadržaja).
    VAŽNO: Range vraća okvir OTISKA slova (ascent+descent), a ne ceo linijski
-   okvir — između njih stoji polovina proreda. Ako se gutter red zalepi na vrh
+   okvir – između njih stoji polovina proreda. Ako se gutter red zalepi na vrh
    otiska, brojevi i slova ispadnu niže od stiha za tu polovinu proreda.
    Zato se od izmerenog vrha oduzima half-leading, pa gutter red počinje tačno
    tamo gde počinje linijski okvir stiha. */
@@ -2600,7 +2632,7 @@ function measureLineBoxes(lines){
         if(minTop !== Infinity){ firstTop = minTop; glyphHeight = h; visualLines = tops.size || 1; }
       }
     } else {
-      // prazan red — meri se po <br>-u koji ga zatvara
+      // prazan red – meri se po <br>-u koji ga zatvara
       const br = brAt(items, pos);
       if(br){
         const rr = document.createRange();
@@ -2615,7 +2647,7 @@ function measureLineBoxes(lines){
       top = firstTop - halfLeading - base.top + off;
       height = lh * visualLines;
     } else {
-      // fallback — merenje nije uspelo, nastavi ispod prethodnog reda
+      // fallback – merenje nije uspelo, nastavi ispod prethodnog reda
       top = boxes.length ? boxes[boxes.length-1].top + boxes[boxes.length-1].height : padTop;
       height = lh;
     }
@@ -2626,7 +2658,7 @@ function measureLineBoxes(lines){
 }
 
 /* Šema rime po strofi (strofa = blok redova između praznih redova).
-   Svaki stih dobija slovo — kao u tabu „Klasici" i kao u statistici — ali se
+   Svaki stih dobija slovo – kao u tabu „Klasici" i kao u statistici – ali se
    stih koji se ni sa čim ne rimuje prikazuje bledo, da se šema (npr. ABCB)
    vidi cela, a oko odmah uhvati koji stihovi se zaista poklapaju. */
 function rhymeSchemeLetters(lines){
@@ -2675,7 +2707,7 @@ function firstStanzaScheme(lines){
   return out;
 }
 
-// poslednje izmereno stanje redova — deli ga i provera vidljivosti kursora
+// poslednje izmereno stanje redova – deli ga i provera vidljivosti kursora
 let lastGutterBoxes = null, lastGutterLines = null;
 
 function renderGutter(){
@@ -2714,14 +2746,14 @@ function renderGutter(){
    Naglasak se izvodi SAMO iz pravila koja su sigurna (v. GRAMATIKA-I-PRAVOPIS
    -SRPSKOG-JEZIKA.md, odeljak 7):
      · poslednji slog reči NIKAD nije naglašen
-     · jednosložna reč nosi akcenat — osim klitika (nenaglašene rečce)
+     · jednosložna reč nosi akcenat – osim klitika (nenaglašene rečce)
      · dvosložna reč: akcenat je na prvom slogu (drugi je poslednji, dakle ne)
    Kod reči od tri i više slogova zna se samo da poslednji nije naglašen; koji
    od prethodnih jeste, ne može se izvesti iz oblika reči (za to treba
-   akcentovani rečnik). Takvi slogovi se prikazuju kao NEPOZNATI — radije
+   akcentovani rečnik). Takvi slogovi se prikazuju kao NEPOZNATI – radije
    priznajemo da ne znamo nego da nagađamo. */
 
-// Klitike — zatvorena klasa nenaglašenih jednosložnih reči.
+// Klitike – zatvorena klasa nenaglašenih jednosložnih reči.
 // Namerno bez „nas/vas/nam/vam" (imaju i naglašeni oblik, pa su dvosmisleni).
 const CLITICS = new Set([
   // glagolske enklitike
@@ -2768,7 +2800,7 @@ const VERSE_NAMES = {
 };
 const CAESURA = { 10: 4, 12: 6 };   // deseterac 4+6, dvanaesterac 6+6
 
-// Oblici se crtaju CSS-om (klase m-s / m-u / m-q) — znakovi ●·◦ se u različitim
+// Oblici se crtaju CSS-om (klase m-s / m-u / m-q) – znakovi ●·◦ se u različitim
 // fontovima crtaju skoro isto veliki, pa se naglašen i nenaglašen slog ne razlikuju.
 const METER_TITLE = { S:'naglašen slog', U:'nenaglašen slog', '?':'akcenat je na jednom od ovih slogova' };
 
@@ -2783,8 +2815,8 @@ function renderMeter(){
   if(!verses.length){ box.hidden = true; box.innerHTML = ''; return; }
   box.hidden = false;
 
-  // preovlađujuća dužina stiha — po njoj se meri odstupanje
-  // Red bez ijednog sloga (npr. samo znak interpunkcije) nije stih — ne sme da
+  // preovlađujuća dužina stiha – po njoj se meri odstupanje
+  // Red bez ijednog sloga (npr. samo znak interpunkcije) nije stih – ne sme da
   // postane „preovlađujuća dužina 0".
   const counts = new Map();
   let merljivih = 0;
@@ -2804,7 +2836,7 @@ function renderMeter(){
     + (dominant
         ? `${escapeHtml(uiTxt('Preovlađuje'))} <b>${dominant}</b> ${escapeHtml(uiTxt(slogRec(dominant)))}`
         : escapeHtml(uiTxt('Ritam stiha')))
-    + (naziv ? ` — <b>${escapeHtml(uiTxt(naziv))}</b>` : '')
+    + (naziv ? ` – <b>${escapeHtml(uiTxt(naziv))}</b>` : '')
     + (cez ? ` · ${escapeHtml(uiTxt('cezura posle'))} ${cez}. ${escapeHtml(uiTxt('sloga'))}` : '')
     + (odstupa ? ` · <span class="m-warn">${odstupa} ${escapeHtml(uiTxt(stihRec(odstupa) + ' odstupa'))}</span>` : '')
     + `</div>`;
@@ -2815,7 +2847,7 @@ function renderMeter(){
     const n = syls.length;
     let marks = '';
     syls.forEach((s, i) => {
-      // razmak između reči — da se ritam čita po rečima
+      // razmak između reči – da se ritam čita po rečima
       if(i > 0 && s.first) marks += `<span class="m-gap"></span>`;
       if(cez && i === cez && n === dominant){
         // cezura pada na granicu reči = dobro; usred reči = stih „zapinje"
@@ -2835,7 +2867,7 @@ function renderMeter(){
     + `<span><span class="m-syl m-s"></span> ${escapeHtml(uiTxt('naglašen'))}</span>`
     + `<span><span class="m-syl m-u"></span> ${escapeHtml(uiTxt('nenaglašen'))}</span>`
     + `<span><span class="m-syl m-q"></span> ${escapeHtml(uiTxt('akcenat je na jednom od ovih slogova'))}</span>`
-    + (cez ? `<span><span class="m-cez ok">│</span> ${escapeHtml(uiTxt('cezura — predah u sredini stiha'))}</span>` : '')
+    + (cez ? `<span><span class="m-cez ok">│</span> ${escapeHtml(uiTxt('cezura – predah u sredini stiha'))}</span>` : '')
     + `</div>`;
   box.innerHTML = html;
 }
@@ -2938,7 +2970,7 @@ function endDrag(){
   setNoteText(next.join('\n'));
   /* Kursor ide na KRAJ premeštenog stiha.
      Ranije ga `setNoteText` nije nigde postavljao, pa je padao na sam početak
-     pesme — sledeći otkucani znak je upadao u prvi red, a korisnik gleda u
+     pesme – sledeći otkucani znak je upadao u prvi red, a korisnik gleda u
      stih koji je upravo pomerio. */
   let kraj = moved.length;
   for(let i = 0; i < novoMesto; i++) kraj += next[i].length + 1;
@@ -3007,7 +3039,7 @@ function getCaretTextPos(){
 /* Reč na kojoj stoji kursor, ili poslednja reč pre njega u tom redu.
    Traži se nad IZVORNIM redom, a latinica se pravi tek od nađene reči.
    Ranije se prvo ceo red pretvarao u latinicu pa se u njemu tražila kolona
-   kursora — a `љ`, `њ` i `џ` u latinici postaju DVA znaka, pa se svaka kolona
+   kursora – a `љ`, `њ` i `џ` u latinici postaju DVA znaka, pa se svaka kolona
    posle njih pomeri i panel je nudio rime za pogrešnu reč. */
 function getWordAtLineCol(line, col){
   const re = /[a-zA-ZčćžšđČĆŽŠĐЀ-ӿ]+/g;
@@ -3020,11 +3052,11 @@ function getWordAtLineCol(line, col){
   return best;
 }
 
-/* Beležnica i „sačuvaj rime" nemaju svoj pretraživač — pozajmljuju vidljivi
+/* Beležnica i „sačuvaj rime" nemaju svoj pretraživač – pozajmljuju vidljivi
    panel `#rimeResults` da izračunaju rime za jednu reč. Pre ove funkcije su ga
    ostavljale prepisanog: povratkom na tab „Rimovanje reči" korisnik je zaticao
    tuđi rezultat ili poruku o učitavanju. Ovde se sadržaj panela zapamti kao
-   ČVOROVI (ne innerHTML — tako ⓘ/♡/🔁 zadrže svoje osluškivače) i vrati nazad. */
+   ČVOROVI (ne innerHTML – tako ⓘ/♡/🔁 zadrže svoje osluškivače) i vrati nazad. */
 function tiheRime(word){
   const box = el('rimeResults');
   const sacuvano = [...box.childNodes];
@@ -3032,7 +3064,7 @@ function tiheRime(word){
   rimeInput.value = word;
   doRhymes(true);
   rimeInput.value = staraVrednost;
-  // sinonimi se preskaču — sinonim nije rima („naći" → izumeti, otkriti)
+  // sinonimi se preskaču – sinonim nije rima („naći" → izumeti, otkriti)
   const chips = [...box.querySelectorAll('.chip')].filter(c => !c.closest('.syn-card'));
   box.innerHTML = '';
   sacuvano.forEach(n => box.appendChild(n));
@@ -3040,10 +3072,10 @@ function tiheRime(word){
 }
 
 /* ── ZAGLAVLJE PANELA SA RIMAMA ────────────────────────────────────────────
-   Na telefonu panel dok se piše stoji kao TRAKA IZNAD TASTATURE — jedan red
+   Na telefonu panel dok se piše stoji kao TRAKA IZNAD TASTATURE – jedan red
    rima koji se pomera u stranu, po ugledu na traku predloga same tastature.
    Razlog: dok je bio otvoren list visok 34 vh (287 px od 844), zaklanjao je i
-   sam stih koji se piše — izmereno, donja ivica editora je bila na 645 px, a
+   sam stih koji se piše – izmereno, donja ivica editora je bila na 645 px, a
    panel je počinjao na 557. Traka uzima ~78 px i pesma ostaje na ekranu.
 
    Dugme sa strelicom razvija traku u pun list kad korisnik hoće da razgleda.
@@ -3076,7 +3108,7 @@ function vezniProsirivacPanela(box){
       w.classList.add('nr-word-vracena');
       setTimeout(() => w.classList.remove('nr-word-vracena'), 320);
     };
-    // klik na zaglavlje ne sme da oduzme fokus editoru — inače nema gde da uđe reč
+    // klik na zaglavlje ne sme da oduzme fokus editoru – inače nema gde da uđe reč
     w.onpointerdown = (ev) => ev.preventDefault();
   }
   const b = box.querySelector('.nr-toggle');
@@ -3096,7 +3128,7 @@ function vezniProsirivacPanela(box){
     osveziMaskuReda(box.querySelector('.results'));
     keepCaretVisible();
   };
-  // klik na traku ne sme da oduzme fokus editoru — inače nestane mesto za unos
+  // klik na traku ne sme da oduzme fokus editoru – inače nestane mesto za unos
   b.onpointerdown = (ev) => ev.preventDefault();
 }
 
@@ -3121,7 +3153,7 @@ function renderNoteRhymes(){
       }
     }
   } else {
-    // kursor van editora — stara logika: poslednja neprazna linija
+    // kursor van editora – stara logika: poslednja neprazna linija
     const lines = text.split('\n');
     for(let i = lines.length - 1; i >= 0; i--){
       if(lines[i].trim()){ word = getLastWordInLine(lines[i]); break; }
@@ -3151,7 +3183,7 @@ function renderNoteRhymes(){
   }
 
   /* Bez nepotrebnog precrtavanja: kad klikneš rimu, ubačena reč postaje reč pod
-     kursorom, a ona se rimuje sa istom grupom — lista je ista. Ranije se ceo
+     kursorom, a ona se rimuje sa istom grupom – lista je ista. Ranije se ceo
      panel svejedno rušio i ponovo gradio, pa je okvir čipa „trepnuo" (nov čvor
      kreće bez :hover pa ga odmah dobije, a ima prelaz na border-color). */
   const baza = chips.map(c => c.querySelector('.word').textContent).join('|');
@@ -3172,7 +3204,7 @@ function renderNoteRhymes(){
   const limit = notePanelExpanded ? chips.length : NOTE_RHYMES_STEP;
   chips.slice(0, limit).forEach(chip => {
     const clone = chip.cloneNode(true);
-    // Klonovi nemaju event listenere originala, pa bi ⓘ/♡/🔁 bili mrtva dugmad —
+    // Klonovi nemaju event listenere originala, pa bi ⓘ/♡/🔁 bili mrtva dugmad –
     // sklanjamo ih; u uskom bočnom panelu ostaje samo reč + broj slogova.
     clone.querySelectorAll('.mini').forEach(b => b.remove());
     // Tekst mora da opisuje ono što se STVARNO dešava: klik zamenjuje reč pod
@@ -3180,7 +3212,7 @@ function renderNoteRhymes(){
     clone.title = uiTxt('klikni da uneseš reč u stih (menja reč pod kursorom)');
     /* ZNAČENJE REČI I U BOČNOM PANELU (04.08.2026, pitanje vlasnice: „zašto
        rime u desnoj koloni imaju samo broj slogova?").
-       Dugme ⓘ se ovde ne vraća — panel je uzak, a svaka ikonica pojede mesto
+       Dugme ⓘ se ovde ne vraća – panel je uzak, a svaka ikonica pojede mesto
        koje treba rimi. Umesto toga objašnjenje se pokaže samo od zadržavanja
        kursora na reči, u istom oblačiću koji ⓘ koristi u rezultatima.
        Zašto sa zadržavanjem od 420 ms: bez odlaganja bi oblačić iskakao dok oko
@@ -3190,14 +3222,14 @@ function renderNoteRhymes(){
     let cekaObjasnjenje = null;
     const rec = clone.querySelector('.word').textContent;
     clone.addEventListener('mouseenter', () => {
-      if(jeTelefon()) return;          // na dodir panel radi drugačije — dodir ubacuje reč
+      if(jeTelefon()) return;          // na dodir panel radi drugačije – dodir ubacuje reč
       pripremiDefinicije(rec);
       clearTimeout(cekaObjasnjenje);
       cekaObjasnjenje = setTimeout(() => showDefAt(clone.dataset.w || rec, clone, false), 420);
     });
     clone.addEventListener('mouseleave', () => { clearTimeout(cekaObjasnjenje); hideDef(); });
     /* Tastatura: ista stvar bez miša. Čip u panelu nije dugme, pa dobija
-       `tabindex` — inače se do objašnjenja ne može bez pokazivača. */
+       `tabindex` – inače se do objašnjenja ne može bez pokazivača. */
     clone.tabIndex = 0;
     clone.addEventListener('focus', () => { pripremiDefinicije(clone.dataset.w || rec); showDefAt(clone.dataset.w || rec, clone, false); });
     clone.addEventListener('blur', hideDef);
@@ -3212,12 +3244,12 @@ function renderNoteRhymes(){
     rdiv.appendChild(clone);
   });
   box.appendChild(rdiv);
-  // na telefonu traka se pomera u stranu — desna ivica kaže da ima još rima
+  // na telefonu traka se pomera u stranu – desna ivica kaže da ima još rima
   pratiPomeranjeUStranu(rdiv, false);
   // sadržaj panela se promenio → visina je drugačija → traku dovraći na dno
   zakaziLepljenjeTrake();
 
-  // „još N rima" — otvara se u samom panelu; odlazak na drugu stranu bi
+  // „još N rima" – otvara se u samom panelu; odlazak na drugu stranu bi
   // prekinuo pisanje, a zbog toga panel i postoji
   if(chips.length > NOTE_RHYMES_STEP){
     const more = document.createElement('button');
@@ -3259,10 +3291,10 @@ function rimaRec(n){
   return 'rima';
 }
 
-/* Srpska množina — jedno pravilo, tri oblika: 1 / 2–4 / 5+.
+/* Srpska množina – jedno pravilo, tri oblika: 1 / 2–4 / 5+.
    Izuzetak su 11–14 (jedanaest reči, dvanaest reči), zato `dd` provera.
    Ranije je na tri mesta pisalo „1 reči", „2 slogova", „4 redova", jer su
-   se koristili uslovi tipa `n===1 ? 'red' : 'redova'` — a to je tačno samo
+   se koristili uslovi tipa `n===1 ? 'red' : 'redova'` – a to je tačno samo
    za jedninu, dok 2–4 u srpskom traže poseban oblik. */
 // „1 reč" / „2 reči" / „5 reči"
 function recRec(n){
@@ -3282,7 +3314,8 @@ function poenRec(n){
   const d = n % 10, dd = n % 100;
   return (d === 1 && dd !== 11) ? 'poen' : 'poena';
 }
-// „1 red" / „2 reda" / „5 redova"
+// „1 red" / „2 reda" / „5 redova" – red = do Entera (ne vidljivi red na telefonu). Odluka vlasnice 08.09.2026:
+// ostaje „red", ne „stih" – u brojač ljudi lepe i priče, scenarije i tekst samo da izbroje znakove ili reči.
 function redRec(n){
   const d = n % 10, dd = n % 100;
   if(d === 1 && dd !== 11) return 'red';
@@ -3290,13 +3323,13 @@ function redRec(n){
   return 'redova';
 }
 
-/* Slovo — i latinično i ćirilično. Radi na IZVORNOM tekstu, bez prolaska kroz
+/* Slovo – i latinično i ćirilično. Radi na IZVORNOM tekstu, bez prolaska kroz
    `toLatin()`: pretvaranje „њ" u „nj" pomeri sve indekse za jedno mesto, pa bi
    opseg reči pao pored (isti uzrok kao nalaz o koloni kursora u ćirilici). */
 const SLOVO = /[a-zA-ZčćžšđČĆŽŠĐЀ-ӿ]/;
 
 /* Opseg reči na kojoj stoji kursor, u koordinatama `getEditorText()`.
-   Vraća `null` kad je kursor u praznini (ni levo ni desno nema slovo) — tada
+   Vraća `null` kad je kursor u praznini (ni levo ni desno nema slovo) – tada
    korisnik piše novu reč, pa se rima UBACUJE umesto da nešto zameni. */
 function wordRangeAt(text, pos){
   if(pos == null) return null;
@@ -3307,7 +3340,7 @@ function wordRangeAt(text, pos){
 }
 
 /* Postavljanje kursora na tačnu poziciju u koordinatama `getEditorText()`
-   (dakle sa `<br>` = jedan znak). `restoreCursorPosition` to ne ume — ona broji
+   (dakle sa `<br>` = jedan znak). `restoreCursorPosition` to ne ume – ona broji
    samo tekstualne čvorove, pa posle zamene reči na kraju stiha kursor odskoči
    u sledeći red. */
 function setCaretAtTextPos(pos){
@@ -3335,7 +3368,7 @@ function setCaretAtTextPos(pos){
   sel.addRange(range);
 }
 
-/* Klik na rimu u beležnici — ZAMENJUJE reč pod kursorom (nalaz V6).
+/* Klik na rimu u beležnici – ZAMENJUJE reč pod kursorom (nalaz V6).
    Panel piše „RIME ZA NADA", pa i klik mora da promeni baš „nada". Ranije se
    rima samo umetala na mesto kursora, pa je kursor usred reči davao
    „gde je na kadada" umesto „gde je kada".
@@ -3348,7 +3381,7 @@ function insertRhymeAtCaret(w){
   const caret = getCaretTextPos();
 
   if(caret == null){
-    // kursor nije u editoru — dopiši na kraj (staro ponašanje)
+    // kursor nije u editoru – dopiši na kraj (staro ponašanje)
     const novi = text + (text && !/[\s\n]$/.test(text) ? ' ' : '') + w;
     zapisiBelesku(novi, novi.length);
     return;
@@ -3367,7 +3400,7 @@ function insertRhymeAtCaret(w){
 }
 
 /* Upiši nov tekst u editor pa VRATI kursor, tim redom. Obrnuto ne valja:
-   `setNoteText` odmah zove `renderNoteRhymes`, koji čita položaj kursora — a
+   `setNoteText` odmah zove `renderNoteRhymes`, koji čita položaj kursora – a
    on posle prepisivanja `innerHTML`-a više ne postoji, pa bi panel skočio. */
 function zapisiBelesku(text, caretPos){
   const { colorMap } = analyzeRhymes(text);
@@ -3381,7 +3414,7 @@ function zapisiBelesku(text, caretPos){
 
 /* Reč za koju se čuva/preuzima lista rima.
    Ranije je ovo UVEK bila poslednja reč cele beleške, pa su dugmad „sačuvaj
-   rime" i „preuzmi listu" davala rime za drugu reč nego što panel pokazuje —
+   rime" i „preuzmi listu" davala rime za drugu reč nego što panel pokazuje –
    dovoljno je bilo kliknuti u sredinu pesme. Sada se prvo uzima reč koju panel
    stvarno prikazuje (`notePanelWord`), a poslednja reč ostaje kao rezerva za
    slučaj kad kursor nije u editoru. */
@@ -3396,7 +3429,7 @@ function getRhymeListForLastWord(){
     word = getLastWordInLine(lastLine);
   }
   if(!word || word.length < 2) return { word: '', rhymes: [] };
-  // i ovde bez sinonima — lista se zove „Rime za X", pa mora da sadrži samo rime
+  // i ovde bez sinonima – lista se zove „Rime za X", pa mora da sadrži samo rime
   const rhymes = [];
   tiheRime(word).forEach(c => {
     const t = c.querySelector('.word')?.textContent.trim();
@@ -3406,7 +3439,7 @@ function getRhymeListForLastWord(){
 }
 el('saveRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
-  if(!word || !rhymes.length){ toast('Prvo klikni na reč u pesmi — rime za nju se pojave sa strane, pa ih onda sačuvaš'); return; }
+  if(!word || !rhymes.length){ toast('Prvo klikni na reč u pesmi – rime za nju se pojave sa strane, pa ih onda sačuvaš'); return; }
   const lists = lsJSON('rimoteka_lists', []);
   lists.unshift({ word, rhymes, date: new Date().toISOString() });
   lsSet('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
@@ -3414,7 +3447,7 @@ el('saveRhymeList').onclick = () => {
 };
 el('exportRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
-  if(!word || !rhymes.length){ toast('Nema još nijedne rime — klikni na reč u pesmi pa se rime pojave sa strane'); return; }
+  if(!word || !rhymes.length){ toast('Nema još nijedne rime – klikni na reč u pesmi pa se rime pojave sa strane'); return; }
   const text = `Rime za „${word}"\n${'='.repeat(30)}\n${rhymes.join(', ')}\n\nGenerisano: Rimoteka.com`;
   const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
   const url = URL.createObjectURL(blob);
@@ -3427,7 +3460,7 @@ el('exportRhymeList').onclick = () => {
 };
 el('exportPoem').onclick = () => {
   const text = getEditorText();
-  if(!text.trim()){ toast('Beležnica je prazna — napiši prvi stih pa je preuzmi'); return; }
+  if(!text.trim()){ toast('Beležnica je prazna – napiši prvi stih pa je preuzmi'); return; }
   const full = getPoemTitle() ? getPoemTitle() + '\n\n' + text : text;
   const blob = new Blob([full], { type: 'text/plain;charset=utf-8' });
   const url = URL.createObjectURL(blob);
@@ -3458,7 +3491,7 @@ window.addEventListener('storage', e => {
       setNoteText(noviTekst);
     } else {
       // imamo svoje izmene: ne diramo ništa, ali korisnik MORA da zna
-      toast(uiTxt('Pesma je promenjena u drugom tabu Rimoteke. Ovde je tvoja verzija — zatvori jedan tab da se ne bi pregazile.'));
+      toast(uiTxt('Pesma je promenjena u drugom tabu Rimoteke. Ovde je tvoja verzija – zatvori jedan tab da se ne bi pregazile.'));
     }
     return;
   }
@@ -3474,7 +3507,7 @@ function updateFavCount(){ el('favCount').textContent = favorites.length; }
 function renderFavorites(){
   const box=el('favResults');
   box.innerHTML='';
-  if(!favorites.length){ box.innerHTML='<p class="empty">' + uiTxt('Još nemaš sačuvane reči. Klikni ♡ pored bilo koje reči — pretvoriće se u notu.') + '</p>'; return; }
+  if(!favorites.length){ box.innerHTML='<p class="empty">' + uiTxt('Još nemaš sačuvane reči. Klikni ♡ pored bilo koje reči – pretvoriće se u notu.') + '</p>'; return; }
   renderGroup(box, `Tvoje reči (${favorites.length})`, favorites.slice(), false);
 }
 el('copyFavs').onclick = ()=>{
@@ -3488,7 +3521,7 @@ el('clearFavs').onclick = ()=>{
 };
 
 /* ====================== TABOVI / PISMO / TOAST ====================== */
-/* Aktivan tab mora da se VIDI — i čitaču ekrana i na uskom telefonu.
+/* Aktivan tab mora da se VIDI – i čitaču ekrana i na uskom telefonu.
    Nalaz N8: stanje je postojalo samo kao CSS klasa, bez `aria-current`, pa
    čitač ekrana nije imao odakle da zna gde se korisnik nalazi. */
 function oznaciAktivanTab(name){
@@ -3500,7 +3533,7 @@ function oznaciAktivanTab(name){
   });
 }
 /* Od 16.08.2026. traka tabova se na telefonu PRELAMA u više redova (odluka
-   vlasnice: ništa se ne seče) — `scrollWidth` je tada jednak `clientWidth`, pa
+   vlasnice: ništa se ne seče) – `scrollWidth` je tada jednak `clientWidth`, pa
    ova dva mehanizma (dovlačenje aktivnog taba, maska) miruju. Ostaju kao
    rezerva za slučaj da se red sa pomeranjem ikad vrati. */
 function dovediAktivanTabUVid(){
@@ -3526,7 +3559,7 @@ if(trakaTabova){
 
 /* ── NASLOV PRATI TAB (03.08.2026) ──────────────────────────────────────────
    Prijava vlasnice: „klikne se Rečnik, adresa se promeni, a naslov ostane sa
-   početne". Tačno tako je i bilo. Svaka strana IMA svoj `h1` u svom HTML-u —
+   početne". Tačno tako je i bilo. Svaka strana IMA svoj `h1` u svom HTML-u –
    `/rime-po-zavrsetku/` ima svoj `h1` „Reči koje se završavaju na…" i to Google vidi kad
    je otvori. Ali prebacivanje taba menja samo adresu (`pushState`), a naslov,
    podnaslov i naslov kartice ostaju sa strane sa koje se krenulo.
@@ -3536,38 +3569,38 @@ if(trakaTabova){
    Ovo je za čoveka koji klikće po tabovima. */
 const TAB_NASLOV = {
   rime: {
-    h1: 'Rimovanje reči na srpskom jeziku — rečnik rima za tvoj stih',
-    p: 'Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u beležnici — rime se tamo boje dok kucaš.',
-    naslov: 'Rimovanje reči na srpskom — rime, slogovi, pesme | Rimoteka',
+    h1: 'Rimovanje reči na srpskom jeziku – rečnik rima za tvoj stih',
+    p: 'Upiši reč i odmah dobiješ sve rime. Uz svaku piše koliko ima slogova i šta znači, a celu pesmu pišeš u beležnici – rime se tamo boje dok kucaš.',
+    naslov: 'Rimovanje reči na srpskom – rime, slogovi, pesme | Rimoteka',
   },
   beleznica: {
     h1: 'Pisanje pesama uz rime koje se boje dok kucaš',
-    p: 'Piši pesmu, a rime za reč pod kursorom stoje sa strane — klikni i reč uđe u stih. Uz svaki stih piše broj slogova.',
-    naslov: 'Pisanje pesama — beležnica sa rimama, slogovima i metrom | Rimoteka',
+    p: 'Piši pesmu, a rime za reč pod kursorom stoje sa strane – klikni i reč uđe u stih. Uz svaki stih piše broj slogova.',
+    naslov: 'Pisanje pesama – beležnica sa rimama, slogovima i metrom | Rimoteka',
   },
   slogovi: {
-    h1: 'Brojanje slogova i karaktera — u reči, stihu ili celoj pesmi',
-    p: 'Upiši ili nalepi tekst — uz svaki red stoji broj slogova, a na dnu zbir slogova, reči i znakova.',
-    naslov: 'Brojanje slogova i karaktera — brojač za reč, stih i pesmu | Rimoteka',
+    h1: 'Brojanje slogova i karaktera – u reči, stihu ili celoj pesmi',
+    p: 'Upiši ili nalepi tekst – uz svaki red stoji broj slogova, a na dnu zbir slogova, reči i znakova.',
+    naslov: 'Brojanje slogova i karaktera – brojač za reč, stih i pesmu | Rimoteka',
   },
   pretraga: {
-    h1: 'Rime po završetku — nađi reč koja se završava na…',
-    p: 'Upiši završetak reči i dobićeš sve koje se tako završavaju — a to su ujedno i rime. Može i po početku reči.',
-    naslov: 'Rime po završetku — nađi reč koja se završava na… | Rimoteka',
+    h1: 'Rime po završetku – nađi reč koja se završava na…',
+    p: 'Upiši završetak reči i dobićeš sve koje se tako završavaju – a to su ujedno i rime. Može i po početku reči.',
+    naslov: 'Rime po završetku – nađi reč koja se završava na… | Rimoteka',
   },
   igra: {
-    h1: 'Igra rimovanja — koliko dug niz rima možeš da sastaviš?',
+    h1: 'Igra rimovanja – koliko dug niz rima možeš da sastaviš?',
     p: 'Rime na vreme, sam ili sa društvom. Koliko dug niz možeš da sastaviš?',
-    naslov: 'Igra rimovanja — vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
+    naslov: 'Igra rimovanja – vežbaj rime na vreme, sam ili sa društvom | Rimoteka',
   },
   klasici: {
-    h1: 'Klasici srpske poezije — poznate pesme sa šemom rime',
+    h1: 'Klasici srpske poezije – poznate pesme sa šemom rime',
     p: 'Poznate pesme velikih srpskih pesnika, sa brojem slogova uz svaki stih i slovom šeme rime. Klikni završnu reč stiha pa vidiš koje se reči rimuju sa njom.',
-    naslov: 'Srpske pesme — klasici sa šemom rime i brojem slogova | Rimoteka',
+    naslov: 'Srpske pesme – klasici sa šemom rime i brojem slogova | Rimoteka',
   },
   omiljene: {
     h1: 'Omiljene reči',
-    p: 'Reči koje si sačuvao stoje ovde, na jednom mestu — pri ruci dok pišeš.',
+    p: 'Reči koje si sačuvao stoje ovde, na jednom mestu – pri ruci dok pišeš.',
     naslov: 'Omiljene reči | Rimoteka',
   },
 };
@@ -3588,35 +3621,35 @@ function switchTab(name){
   dovediAktivanTabUVid();
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
   if(name === 'igra') initGame();
-  /* Nalaz S7: igra je nastavljala da radi i posle prelaska na drugi tab —
+  /* Nalaz S7: igra je nastavljala da radi i posle prelaska na drugi tab –
      odbrojavanje je teklo, zvuk je kucao, vreme je isticalo i reči su se
      trošile dok korisnik piše pesmu. Sada se pri odlasku pauzira, a pri
      povratku se odbrojavanje nastavlja od zaustavljene sekunde. */
   // `try` jer se `switchTab` može pozvati i iz sigurnosne mreže, pre nego što
-  // promenljive igre postoje — pauza igre nikad ne sme da obori prebacivanje taba
+  // promenljive igre postoje – pauza igre nikad ne sme da obori prebacivanje taba
   try { if(name !== 'igra') pauzirajIgru(); else nastaviIgru(); } catch(e){}
-  // Tekst o alatu ispod tabova pripada tabu „Rime" — na ostalim tabovima bi
+  // Tekst o alatu ispod tabova pripada tabu „Rime" – na ostalim tabovima bi
   // pričao o pogrešnoj stvari (npr. o rimovanju dok gledaš Igru). CSS ga
   // sakriva preko ovog atributa.
   document.body.dataset.tab = name;
-  /* i <html> drži istu oznaku — po njoj CSS bira traku ili futerski poziv za
+  /* i <html> drži istu oznaku – po njoj CSS bira traku ili futerski poziv za
      saradnju (početna vrednost stiže iz kratke skripte u zaglavlju) */
   document.documentElement.dataset.tab = name;
   if(name !== 'beleznica'){ document.body.classList.remove('notes-typing'); odlepiTrakuRima(); }
-  // brojač se meri iz stvarnog rasporeda — sakriven panel nema širinu
+  // brojač se meri iz stvarnog rasporeda – sakriven panel nema širinu
   if(name === 'slogovi' && sylInput.value) updateSyl();
-  // gutter se meri iz stvarnog rasporeda — sakriven panel nema visinu, pa se
+  // gutter se meri iz stvarnog rasporeda – sakriven panel nema visinu, pa se
   // redovi moraju premeriti čim tab postane vidljiv
   if(name === 'beleznica') renderGutter();
 }
 /* Traka tabova je ujedno navigacija sajta: svaki alat ima svoju stranu, pa su
    stavke pravi linkovi (Google tako vidi istu strukturu na svakoj strani).
-   Ako alat POSTOJI na ovoj strani — a na početnoj postoje svi — klik se
+   Ako alat POSTOJI na ovoj strani – a na početnoj postoje svi – klik se
    presreće i tab se samo prebaci, bez osvežavanja. Na stranama gde tog panela
    nema, link radi kao običan link. */
 /* URL JE STANJE (nalaz V7).
    Traka tabova jesu pravi linkovi, ali je klik bio presretnut i adresa je
-   ostajala ista na svih sedam tabova — pa nije bilo deljivog linka, „Nazad"
+   ostajala ista na svih sedam tabova – pa nije bilo deljivog linka, „Nazad"
    nije radio, a osvežavanje je vraćalo na rime. Zato se posle prebacivanja
    adresa gura u istoriju (`pushState`), a „Nazad" se hvata (`popstate`).
    Adresa se uzima iz samog `href`-a taba, da postoji samo na jednom mestu. */
@@ -3676,14 +3709,14 @@ window.addEventListener('popstate', ()=>{
 
 const brandHome = el('brandHome');
 /* Nalaz S1: logo na početnoj ima `cursor:pointer`, dakle obećava „nazad na
-   početak", a klik je samo prebacivao tab — polje, svih 180 rima i `?rec=` u
+   početak", a klik je samo prebacivao tab – polje, svih 180 rima i `?rec=` u
    adresi ostajali su netaknuti. Na generisanim stranama logo JESTE `<a href="/">`
    i tamo uredno resetuje; ovde se isti ishod postiže bez diranja logotipa
    (pravilo 8a: ne menja se ni tag, ni klasa, ni CSS oko njega). */
 /* Prazno stanje panela sa rimama (`index.html`, `.prazno-stanje`) zapamti se pri
    učitavanju, da bi se vratilo kad se čovek klikom na logo vrati „na početak".
    Ranije je `goHome()` upisivao prazan niz, pa je posle prvog povratka taj prostor
-   ostajao potpuno prazan — i sve što u njemu piše videlo bi se samo jednom.
+   ostajao potpuno prazan – i sve što u njemu piše videlo bi se samo jednom.
    Čita se lenjo i uz `try`, jer skripta ne sme da padne ako elementa nema. */
 let praznoStanjeHtml = null;
 function pamtiPraznoStanje(){
@@ -3731,7 +3764,7 @@ el('scriptToggle').addEventListener('click', e=>{
 
 /* Ćirilica/latinica za CEO interfejs (tabovi, dugmad, labele, placeholderi).
    Konverzija je dvosmerna (toCyr/toLatin sa digrafima lj/nj/dž), pa se
-   primenjuje direktno na tekst nodove — bez čuvanja originala. */
+   primenjuje direktno na tekst nodove – bez čuvanja originala. */
 const UI_SCRIPT_SELS = [
   // Tabovi su 28.07.2026. postali pravi <a href> zbog SEO-a; ostao je samo
   // „Omiljene" kao <button>. Selektor je ostao na `button`, pa se od cele trake
@@ -3757,20 +3790,33 @@ const UI_SCRIPT_SELS = [
   '.footer-link:not([href^="mailto"])', '.footer-legal', '.futer-naslov', '.futer-rime-uvod',
   '.prazno-stanje'   // uvodno objašnjenje na početnoj (prijava vlasnice 08.09.: ostajalo latinicom)
 ];
+/* Naslov kartice pregledača se postavlja na šest mesta (SEO po reči, tabovi, povratak) – umesto da se svako
+   pamti, posmatrač na <title> ga prebaci u izabrano pismo kad god se promeni. Google ovo ne vidi (čita HTML). */
+function naslovKarticePoPismu(){
+  try{
+    if(script !== 'cyr') return;
+    const novo = prebaciTekst(document.title, toCyr);
+    if(novo !== document.title) document.title = novo;
+  }catch(e){}
+}
+try{
+  const tEl = document.querySelector('title');
+  if(tEl && window.MutationObserver) new MutationObserver(naslovKarticePoPismu).observe(tEl, { childList: true, characterData: true, subtree: true });
+}catch(e){}
 const UI_SCRIPT_INPUTS = ['rimeInput', 'searchInput', 'sylInput', 'noteTitle', 'gameInput', 'gamePlayersCustom'];
 
 /* Polja u koja se KUCA reč koja se traži. Kad je izabrana ćirilica, i ono što
-   korisnik upiše prikazuje se ćirilicom — inače pola strane bude ćirilica, a
+   korisnik upiše prikazuje se ćirilicom – inače pola strane bude ćirilica, a
    reč u polju latinica.
    NAMERNO nisu ovde beležnica i brojač slogova: tamo stoji tekst korisnika
    (pesma se čuva na uređaju), pa ga alat ne sme prekucavati sam od sebe.
-   Prebacuje se preko latinice — `toCyr(toLatin(v))` — da bi digrafi radili:
+   Prebacuje se preko latinice – `toCyr(toLatin(v))` – da bi digrafi radili:
    posle „l" stoji „л", a čim stigne „j" ceo niz se pročita kao „lj" → „љ". */
 const UNOS_PO_PISMU = ['rimeInput', 'searchInput', 'gameInput'];
 
-/* ĆIRILIČNA TASTATURA + ĆIRILIČNI REŽIM — alat je kvario reč dok se kuca.
+/* ĆIRILIČNA TASTATURA + ĆIRILIČNI REŽIM – alat je kvario reč dok se kuca.
    Prebacivanje ide kroz latinicu (ćirilica → latinica → ćirilica), a u latinici
-   su `dž`, `nj` i `lj` DIGRAFI — jedno slovo. Kad se u ćirilici д i ж samo
+   su `dž`, `nj` i `lj` DIGRAFI – jedno slovo. Kad se u ćirilici д i ж samo
    DODIRUJU a nisu digraf, povratni prolaz ih spoji:
        „надживети" → „nadživeti" → „наџивети"
        „инјекција" → „injekcija" → „ињекција"
@@ -3785,13 +3831,13 @@ function bezCuvara(s){ return s.split(CUVAR_DIGRAFA).join(''); }
 
 /* ISTI PROBLEM, DRUGI SMER: latinica → ćirilica.
    Kad tekst DOLAZI iz ćirilice, čuvar iznad zna gde digraf nije digraf. Kad je
-   tekst otkucan ili nalepljen na latinici, te obaveštenosti nema — a `dž`, `nj`
+   tekst otkucan ili nalepljen na latinici, te obaveštenosti nema – a `dž`, `nj`
    i `lj` na granici prefiksa i korena nisu jedno slovo:
        „nadživeti" → „наџивети"   (treba „надживети")
        „injekcija" → „ињекција"   (treba „инјекција")
    Pravilo se ne da izvesti iz oblika reči: „konj" JESTE digraf, „konjugacija"
    nije; „inje" jeste, „injekcija" nije. Zato stoji spisak osnova, a ne pravilo.
-   Spisak je namerno uzak — svaka stavka samo SPREČAVA pogrešno spajanje, pa ne
+   Spisak je namerno uzak – svaka stavka samo SPREČAVA pogrešno spajanje, pa ne
    može da pokvari reč koja na njemu nije. Nove reči se dodaju ovde, uz proveru
    u `test/predeploy.mjs`. */
 const LAT_NE_DIGRAF = /(nadživ|nadžanr|nadžnj|nadžet|podžanr|podžup|odžval|odžvak|odžive|predželud|predživot|injekc|injekt|injicir|konjug|konjunk|konjukt|tanjug|vanjezič|panjevrop)/gi;
@@ -3819,7 +3865,7 @@ function prebaciUnos(inp){
 
 /* ========== SRPSKI RASPORED TASTATURE U ĆIRILIČNOM REŽIMU ==========
  * Na američkom rasporedu nema tastera za `ć č š đ ž`, pa se u ćirilici nikako
- * nisu mogla otkucati slova `ћ ч ш ђ ж` — a to je pet od trideset slova azbuke.
+ * nisu mogla otkucati slova `ћ ч ш ђ ж` – a to je pet od trideset slova azbuke.
  * Na srpskom rasporedu ta slova stoje desno od `L` i desno od `P`, na tasterima
  * koji na američkom daju `; ' [ ] \`. Preslikavamo tačno te tastere, pa ko zna
  * srpski raspored kuca kao i inače.
@@ -3829,7 +3875,7 @@ function prebaciUnos(inp){
  * ovo ćuti i ništa ne kvari.
  *
  * APOSTROF: `'` daje `ћ`, pa bi „нек'" i „ил'" ostali bez apostrofa. Zato drugi
- * uzastopni pritisak istog tastera zamenjuje upisano slovo pravim znakom —
+ * uzastopni pritisak istog tastera zamenjuje upisano slovo pravim znakom –
  * dobija se i slovo i interpunkcija, bez posebnog režima i bez novog dugmeta.
  * ================================================================== */
 const SR_TASTERI = {
@@ -3837,7 +3883,7 @@ const SR_TASTERI = {
   ':': 'Ч', '"': 'Ћ', '{': 'Ш', '}': 'Ђ', '|': 'Ж'
 };
 const SR_POLJA = '#rimeInput, #searchInput, #gameInput, #sylInput, #noteTitle, #noteEditor';
-let zadnjaZamena = null;    // {polje, taster} — pamti se samo jedan potez unazad
+let zadnjaZamena = null;    // {polje, taster} – pamti se samo jedan potez unazad
 
 function umetniZnak(polje, znak, obrisiPrethodni){
   if(polje.isContentEditable){
@@ -3880,7 +3926,7 @@ document.addEventListener('keydown', e => {
     zadnjaZamena = { polje, taster: e.key };
   }
 }, true);
-// klik ili odlazak sa polja prekida niz — „нек'" se pravi samo dva pritiska zaredom
+// klik ili odlazak sa polja prekida niz – „нек'" se pravi samo dva pritiska zaredom
 document.addEventListener('pointerdown', () => { zadnjaZamena = null; });
 document.addEventListener('focusout', () => { zadnjaZamena = null; });
 
@@ -3899,22 +3945,35 @@ function prikaziUputstvoZaTastaturu(){
 }
 
 /* Šta se NIKAD ne prebacuje u drugo pismo:
-   - logo i ime u futeru (logo se ne dira — pravilo 8a u CLAUDE.md)
+   - logo i ime u futeru (logo se ne dira – pravilo 8a u CLAUDE.md)
    - mejl i domen: „info@rimoteka.com" u ćirilici prestaje da bude adresa
-   - skraćenice velikim slovima (PDF, ABAB, AABB) — to su oznake, ne reči */
+   - skraćenice velikim slovima (PDF, ABAB, AABB) – to su oznake, ne reči */
 /* `.kbd-help` je uputstvo koje POSTOJI samo u ćirilici i već je napisano
-   ćirilicom — kad bi ga prekidač prevodio, tabela tastera bi se pri povratku
+   ćirilicom – kad bi ga prekidač prevodio, tabela tastera bi se pri povratku
    na latinicu prepisala u „š / č", a to nije ono što piše na tasteru. */
 /* `.footer-legal` i `.deftip` su IZBAČENI iz izuzetaka 08.09.2026 (vlasnica: na ćirilici ne sme ostati latinica osim
-   logotipa, „Powered by Orbita Code“ i stranih imena) — objašnjenja reči i „Sva prava zadržana“ idu u ćirilicu. */
-const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-orbita, .kbd-help, kbd, code';
+   logotipa, „Powered by Orbita Code“ i stranih imena) – objašnjenja reči i „Sva prava zadržana“ idu u ćirilicu. */
+const BEZ_PISMA_SEL = '.brand, .brand-logo, .footer-brand, .footer-contact, .footer-orbita, .kbd-help, kbd, code, script, style, noscript, '
+  + '#noteEditor, #noteTitle, .ml, .vrhyme, #panel-klasici, #scriptToggle button, textarea, input, select';
+/* Zašto baš ove: `#noteEditor`/`.ml` su tekst KORISNIKA (pesma, tekst za brojanje); `#panel-klasici` su pesme
+   u originalnom pismu; `.vrhyme` su slova šeme (A, B, C – „C" bi postalo „Ц"); dugmad „latinica/ћирилица"
+   svako u svom pismu. Sve ostalo na strani ide u izabrano pismo (skener ćirilice, 08.09.2026: 33 šablonska
+   teksta i 8.000+ pojava latinice na ćiriličnom sajtu – jer se prebacivao SPISAK selektora, ne cela strana). */
 const ADRESA = /[@]|\b[a-z0-9-]+\.(com|rs|org|net)\b/i;
 const SKRACENICA = /\b[A-ZĐŽĆČŠ]{2,}\b/g;
 /* IMENA FIRMI I PROIZVODA OSTAJU LATINICOM (prijava vlasnice 08.09.2026: „Orbita Code" je u futeru
-   bio „Орбита Цоде"). Englesko ime se ne prevodi u ćirilicu — ni „Powered by". Kad se doda novo strano
+   bio „Орбита Цоде"). Englesko ime se ne prevodi u ćirilicu – ni „Powered by". Kad se doda novo strano
    ime u tekst sajta, dopisuje se ovde; skener ćirilice (test/skener-cirilica.mjs) prijavljuje sve latinično. */
 const ZASTICENO = /Powered by|Orbita Code|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Instagram|Facebook|TikTok|WhatsApp|Viber/g;
 
+/* Prebaci JEDAN tekst u izabrano pismo, čuvajući imena firmi (ZASTICENO) i skraćenice velikim slovima. */
+function prebaciTekst(s, fn){
+  if(!s) return s;
+  const cuvane = [];
+  const sacuvaj = m => '\u0000' + (cuvane.push(m) - 1) + '\u0000';
+  const sa = s.replace(ZASTICENO, sacuvaj).replace(SKRACENICA, sacuvaj);
+  return fn(sa).replace(/\u0000(\d+)\u0000/g, (_, i) => cuvane[+i]);
+}
 function convertTextNodes(root, fn){
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
   const nodes = [];
@@ -3924,17 +3983,27 @@ function convertTextNodes(root, fn){
     if(t.parentElement && t.parentElement.closest(BEZ_PISMA_SEL)) return;
     if(ADRESA.test(t.textContent)) return;
     /* Skraćenice se izuzmu iz konverzije pa vrate na svoje mesto. Oznaka mora
-       da bude znak koji se u tekstu NE MOŽE pojaviti — sa običnim brojem bi
+       da bude znak koji se u tekstu NE MOŽE pojaviti – sa običnim brojem bi
        „ima 3 sloga" bilo prepoznato kao oznaka i tekst bi se pokvario. */
-    const cuvane = [];
-    const sacuvaj = m => '\u0000' + (cuvane.push(m) - 1) + '\u0000';
-    const sa = t.textContent.replace(ZASTICENO, sacuvaj).replace(SKRACENICA, sacuvaj);
-    t.textContent = fn(sa).replace(/\u0000(\d+)\u0000/g, (_, i) => cuvane[+i]);
+    const novo = prebaciTekst(t.textContent, fn);
+    if(novo !== t.textContent) t.textContent = novo;
   });
 }
 function applyScriptToUI(){
   const fn = script === 'cyr' ? toCyr : toLatin;
+  /* CELA strana, ne spisak selektora (08.09.2026): skener je našao 33 šablonska teksta koja su ostajala
+     latinicom na 2.000 strana (aria-label, title, dugmad, futer, „Šta dalje"…). Izuzeci: BEZ_PISMA_SEL. */
+  convertTextNodes(document.body, fn);
   UI_SCRIPT_SELS.forEach(sel => document.querySelectorAll(sel).forEach(elm => convertTextNodes(elm, fn)));
+  /* Nevidljivi natpisi koje čitač ekrana čita i oblačići: title, aria-label, placeholder, alt. */
+  document.querySelectorAll('[title],[aria-label],[placeholder],[alt],[data-placeholder]').forEach(e => {
+    if(e.closest('.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code')) return;
+    for(const a of ['title', 'aria-label', 'placeholder', 'alt', 'data-placeholder']){
+      const v = e.getAttribute(a); if(!v) continue;
+      const novo = prebaciTekst(v, fn); if(novo !== v) e.setAttribute(a, novo);
+    }
+  });
+  naslovKarticePoPismu();
   UI_SCRIPT_INPUTS.forEach(id => {
     const i = el(id); if(i && i.placeholder) i.placeholder = fn(i.placeholder);
   });
@@ -3951,11 +4020,11 @@ function applyScriptToUI(){
 let toastTimer;
 /* Koliko obaveštenje stoji na ekranu. Bilo je 1,6 s za svaku poruku, pa je
    uputstvo od dvadesetak reči („Prvo klikni na reč u pesmi…") nestajalo pre
-   nego što se pročita — prijava vlasnice 03.08.2026.
+   nego što se pročita – prijava vlasnice 03.08.2026.
    Sada vreme prati DUŽINU poruke: „kopirano: ljubav" i dalje odmah odlazi, a
    uputstvo ostaje dovoljno dugo. Računica: 1,6 s najmanje, plus 45 ms po
    znaku, najviše 6 s. Prosečno čitanje je oko 20 znakova u sekundi, pa 45 ms
-   po znaku daje otprilike dvostruko vreme od čitanja — taman da se stigne i
+   po znaku daje otprilike dvostruko vreme od čitanja – taman da se stigne i
    pogledati i pročitati. */
 function toast(msg){
   const t=el('toast');
@@ -4003,7 +4072,7 @@ function parseSrMeaning(ext){
 }
 
 /* Spoljni poziv sa rokom. Викиречник и Википедија umeju da ćute neograničeno
-   (zagušena mreža, hotelski wi-fi, portal koji guta zahtev) — a `fetch` sam po
+   (zagušena mreža, hotelski wi-fi, portal koji guta zahtev) – a `fetch` sam po
    sebi NEMA rok. Zbog toga je oblačić sa objašnjenjem znao da zauvek stoji na
    „učitavanje…". Sada oba poziva imaju rok (4 s + 3,5 s), pa oblačić najkasnije za osam
    sekundi pošteno kaže da objašnjenja nema. */
@@ -4134,8 +4203,8 @@ const POEMS = [
 А славуји тихо уз песмицу жале,
 Не би ли им хладне стене заплакале.
 
-Немо поток бежи — ко зна куда тежи!
-Можда гробу своме — мору хлађаноме?
+Немо поток бежи – ко зна куда тежи!
+Можда гробу своме – мору хлађаноме?
 
 Све у мртвом сану мрка поноћ нађе;
 Све је изумрло. Сад месец изађе...
@@ -4295,7 +4364,7 @@ function renderKlasici(){
           `<span class="vsyl" title="slogova u stihu">${lineSyllables(l)}</span>`
           + `<span class="vtext">${escapeHtml(dispPoem(l))}</span>`
           /* Slovo šeme rime je OZNAKA, ne dugme (odluka vlasnice 27.08.2026):
-             klasici su prave, postojeće pesme — nema smisla tražiti rime za reči
+             klasici su prave, postojeće pesme – nema smisla tražiti rime za reči
              koje je pesnik već izabrao. Zato nema `data-w` ni naslova koji obećava
              klik. Slovo ostaje da se vidi šema rime, i to je sav njegov posao. */
           + `<span class="vrhyme" aria-hidden="true">${letters[idx]||''}</span>`;
@@ -4306,7 +4375,7 @@ function renderKlasici(){
     card.appendChild(body);
     const foot = document.createElement('div'); foot.className='poem-foot';
     const nm = SCHEME_NAMES[firstScheme];
-    foot.innerHTML = `<span class="poem-scheme">Šema rime (1. strofa): <b>${firstScheme||'—'}</b>${nm?' · '+nm:''}</span> · `;
+    foot.innerHTML = `<span class="poem-scheme">Šema rime (1. strofa): <b>${firstScheme||'–'}</b>${nm?' · '+nm:''}</span> · `;
     const btn = document.createElement('button'); btn.className='link-btn'; btn.textContent='prebaci u brojač slogova';
     btn.onclick = ()=>{ sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'}); };
     foot.appendChild(btn);
@@ -4315,7 +4384,7 @@ function renderKlasici(){
   });
   /* OSLUŠKIVAČ KLIKA JE OBRISAN 27.08.2026, odluka vlasnice.
      Slovo šeme rime je ranije bilo dugme koje traži rime za završnu reč stiha.
-     Vlasnica: klasici su prave pesme koje već postoje — nema šta da se traži za
+     Vlasnica: klasici su prave pesme koje već postoje – nema šta da se traži za
      te reči. Uz to je uputstvo obećavalo „klikni na završnu REČ“, a klikalo se
      SLOVO sa strane, pa je i obećanje bilo netačno (nalaz E, otvoren 31.07.).
      I tekst i klik su uklonjeni; slovo ostaje kao oznaka. Ne vraćati. */
@@ -4324,7 +4393,7 @@ function renderKlasici(){
 /* ====================== DARK MODE ====================== */
 /* `dark-mode-init.js` postavlja klasu na <html> još u <head> (tamo `body` ne
    postoji), a na `body` je prenosi tek na DOMContentLoaded. `app.js` stoji na
-   kraju <body> i izvršava se PRE toga — bez ove linije bi tema bila tamna, a
+   kraju <body> i izvršava se PRE toga – bez ove linije bi tema bila tamna, a
    ikonica bi pokazivala 🌙, dakle suprotno od stanja. */
 if(document.documentElement.classList.contains('dark-mode')) document.body.classList.add('dark-mode');
 const darkToggle = document.getElementById('darkToggle');
@@ -4332,16 +4401,29 @@ function applyDarkIcon(){
   if(!darkToggle) return;
   darkToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
 }
+/* Dok korisnik nije birao temu, sajt prati sistem i UŽIVO (telefon pređe u noćni režim → i sajt),
+   kao što rade veliki sajtovi; posle prvog klika važi samo izbor (v. dark-mode-init.js, 08.09.2026). */
+try{
+  const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+  if(mq && mq.addEventListener) mq.addEventListener('change', e => {
+    if(window.__rimotekaTemaIzbor !== null && window.__rimotekaTemaIzbor !== undefined) return;
+    document.body.classList.toggle('dark-mode', e.matches); document.documentElement.classList.toggle('dark-mode', e.matches);
+    const meta = document.querySelector('meta[name="theme-color"]'); if(meta) meta.content = e.matches ? '#1a1230' : '#5a3fd0';
+    applyDarkIcon();
+  });
+}catch(e){}
 if(darkToggle) darkToggle.onclick = ()=>{
   document.body.classList.toggle('dark-mode');
   const dark = document.body.classList.contains('dark-mode');
-  // Klasa stoji i na <html> — nju postavlja dark-mode-init.js pre iscrtavanja,
+  // Klasa stoji i na <html> – nju postavlja dark-mode-init.js pre iscrtavanja,
   // da pri sledećem učitavanju ne bude belog bljeska (nalaz K1).
   document.documentElement.classList.toggle('dark-mode', dark);
   lsSet('rimoteka_dark', dark ? '1' : '0');
+  window.__rimotekaTemaIzbor = dark ? '1' : '0';   // od sada sajt više NE prati sistem (izričit izbor, 08.09.2026)
+  { const meta = document.querySelector('meta[name="theme-color"]'); if(meta) meta.content = dark ? '#1a1230' : '#5a3fd0'; }
   applyDarkIcon();
   // Boje rima u beležnici su upisane INLINE u HTML pri iscrtavanju, pa ih
-  // promena teme sama ne dira — bez ovoga bi posle prebacivanja ostale boje
+  // promena teme sama ne dira – bez ovoga bi posle prebacivanja ostale boje
   // stare teme i reč bi opet bila nečitljiva.
   const ed = document.getElementById('noteEditor');
   if(ed && typeof setNoteText === 'function' && typeof getEditorText === 'function'){
@@ -4354,7 +4436,7 @@ applyDarkIcon();
 
 /* Kopiranje cele liste rima na stranama /rime-za/[reč]/.
    Ranije je stajalo kao inline `onclick` u HTML-u, a CSP (`script-src 'self'`)
-   inline kod blokira — dugme je bilo mrtvo na 1.988 strana (nalaz V2). */
+   inline kod blokira – dugme je bilo mrtvo na 1.988 strana (nalaz V2). */
 document.querySelectorAll('.copy-all-btn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     const reci = btn.dataset.words || '';
@@ -4370,12 +4452,12 @@ document.querySelectorAll('.copy-all-btn').forEach(btn=>{
 document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
 if(script === 'cyr') applyScriptToUI();
 /* Beležnica se učitava iz memorije uređaja PRE nego što se primeni pismo, pa
-   pri osvežavanju strane u ćirilici mora i ona da se prebaci — inače je posle
+   pri osvežavanju strane u ćirilici mora i ona da se prebaci – inače je posle
    F5 ceo sajt ćirilica a pesma opet latinica. */
 if(script === 'cyr') prebaciBelesku();
 prikaziUputstvoZaTastaturu();
 document.body.dataset.tab = 'rime';   // podrazumevani tab pri učitavanju
-/* Na SEO podstranama `switchTab` se nikad ne pozove (tamo nema panela — aktivan
+/* Na SEO podstranama `switchTab` se nikad ne pozove (tamo nema panela – aktivan
    tab dolazi već označen iz šablona), pa se `aria-current` i pomeranje trake
    moraju uraditi i ovde. Bez ovoga je aktivan tab na telefonu ostajao izvan
    vidljivog dela trake, do 309 px desno. */
@@ -4408,7 +4490,7 @@ function initFromURL(){
       doRhymes();
       return true;
     }
-    // Podeljena pesma — otvori u beležnicu BEZ brisanja postojeće beleške
+    // Podeljena pesma – otvori u beležnicu BEZ brisanja postojeće beleške
     // (localStorage se ne dira dok korisnik sam ne počne da kuca)
     const pesma = params.get('pesma');
     if(pesma){
@@ -4426,7 +4508,7 @@ function initFromURL(){
         renderNoteRhymes();
         // skloni parametar da refresh ne bi uvek vraćao podeljenu pesmu
         history.replaceState(null, '', location.pathname);
-        toast('Pesma je otvorena — tvoja sačuvana beleška je netaknuta dok ne počneš da kucaš.');
+        toast('Pesma je otvorena – tvoja sačuvana beleška je netaknuta dok ne počneš da kucaš.');
         return true;
       }
     }
@@ -4448,7 +4530,7 @@ const proClose = document.getElementById('proClose');
 const proSubscribe = document.getElementById('proSubscribe');
 const proDonate = document.getElementById('proDonate');
 
-// Pro dugme je privremeno sakriveno u HTML-u (backend nije deployovan) — zato guard
+// Pro dugme je privremeno sakriveno u HTML-u (backend nije deployovan) – zato guard
 if (proToggle) proToggle.onclick = () => { proModal.classList.add('show'); };
 if (proClose) proClose.onclick = () => { proModal.classList.remove('show'); };
 if (proModal) proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
@@ -4462,7 +4544,7 @@ if (proDonate) proDonate.onclick = () => {
 /* ====================== PRO PRETPLATA (Stripe) ======================
  * VAŽNO: localStorage je ovde SAMO keš da stranica ne trepne pri učitavanju.
  * O tome ko je zaista Pro odlučuje isključivo server (GET /api/status).
- * Izmena keša u DevTools ne otključava ništa — sve Pro funkcije koje nešto
+ * Izmena keša u DevTools ne otključava ništa – sve Pro funkcije koje nešto
  * koštaju moraju se proveravati na serveru.
  * ==================================================================== */
 const PRO_CACHE_KEY = 'rimoteka_pro_cache';
@@ -4495,7 +4577,7 @@ async function api(path, options = {}) {
 function renderPro(state) {
   proState = state || { authenticated: false, pro: false };
 
-  // Reklame i Pro oznaka — CSS reaguje na klasu na <body>
+  // Reklame i Pro oznaka – CSS reaguje na klasu na <body>
   document.body.classList.toggle('is-pro', !!proState.pro);
   if (proToggle) {
     proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
@@ -4531,7 +4613,7 @@ async function refreshPro() {
   try {
     renderPro(await api('/status'));
   } catch (e) {
-    // Backend nedostupan — ostavljamo besplatnu verziju, alat i dalje radi
+    // Backend nedostupan – ostavljamo besplatnu verziju, alat i dalje radi
     console.warn('[pro] Status nije dostupan:', e.message);
   }
 }
@@ -4577,7 +4659,7 @@ async function handleProReturn() {
 
   // Webhook ume da stigne koji trenutak posle povratka korisnika,
   // pa proveravamo nekoliko puta pre nego što odustanemo.
-  toast('Plaćanje primljeno — aktiviram Pro…');
+  toast('Plaćanje primljeno – aktiviram Pro…');
   for (let i = 0; i < 6; i++) {
     await refreshPro();
     if (proState.pro) {
@@ -4587,7 +4669,7 @@ async function handleProReturn() {
     }
     await new Promise((r) => setTimeout(r, 1500));
   }
-  toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak — osveži stranicu.');
+  toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak – osveži stranicu.');
 }
 
 if (loginForm) loginForm.onsubmit = async (e) => {
@@ -4637,7 +4719,7 @@ if (portalBtn) portalBtn.onclick = async () => {
 };
 
 /* Pro backend još nije deployovan i Pro dugme je sakriveno u index.html.
-   Zato NE zovemo /api/status pri svakom učitavanju — to je bio 404 zahtev
+   Zato NE zovemo /api/status pri svakom učitavanju – to je bio 404 zahtev
    na svakoj poseti (usporava i zagađuje konzolu). Kad se Pro uključi
    (proToggle se odkomentariše u HTML-u), provera se sama vraća. */
 if (proToggle) {
@@ -4647,7 +4729,7 @@ if (proToggle) {
   });
 }
 
-/* ====================== IGRA RIMA — zarazna verzija ====================== */
+/* ====================== IGRA RIMA – zarazna verzija ====================== */
 let gamePlayers = 1;
 let gameWordsPerPlayer = 10;
 let gameTimePerWord = 15;
@@ -4676,7 +4758,7 @@ const gameWordCountEl = el('gameWordCount');
 const gameProgress = el('gameProgress');
 const gameResultsList = el('gameResultsList');
 
-// Zvuk — Web Audio API
+// Zvuk – Web Audio API
 let audioCtx = null;
 function playSound(freq, duration, type = 'sine'){
   try{
@@ -4709,7 +4791,7 @@ function confetti(){
   }
 }
 
-// Setup — izbor opcija
+// Setup – izbor opcija
 document.querySelectorAll('.game-setup-options').forEach(group => {
   group.addEventListener('click', e => {
     const btn = e.target.closest('.game-option');
@@ -4742,7 +4824,7 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
 
   gamePlayersData = [];
   for(let i = 0; i < gamePlayers; i++){
-    // `ishodi` pamti REDOSLED tačnih i netačnih odgovora — bez toga tačkice
+    // `ishodi` pamti REDOSLED tačnih i netačnih odgovora – bez toga tačkice
     // napretka ne mogu da pokažu koja je reč promašena (nalaz N4).
     gamePlayersData.push({ score: 0, correct: 0, wrong: 0, streak: 0, bestStreak: 0, maxCombo: 0, ishodi: [] });
   }
@@ -4805,9 +4887,9 @@ function showHandoff(){
 }
 
 /* Postoji li odgovor koji bi igra PRIHVATILA za ovu reč?
-   Mora da koristi isto pravilo kao checkGameAnswer (savršena rima ILI asonanca) —
+   Mora da koristi isto pravilo kao checkGameAnswer (savršena rima ILI asonanca) –
    inače bi izbacivala reči koje se sasvim lepo igraju. Npr. „valjda" nema
-   savršenu rimu, ali ima „heljda", „vajda", „možda" — i igra ih priznaje.
+   savršenu rimu, ali ima „heljda", „vajda", „možda" – i igra ih priznaje.
    Indeks se gradi jednom, pri prvom pokretanju igre. */
 let RHYME_COUNTS = null, LOOSE_COUNTS = null;
 function imaRimu(w){
@@ -4836,16 +4918,16 @@ function nextWord(){
       showResults();
       return;
     }
-    // Ima još igrača — stani i čekaj da se zamene.
+    // Ima još igrača – stani i čekaj da se zamene.
     showHandoff();
     return;
   }
 
   for(let t = 0; t < 50; t++){
-    // biramo iz bazena poznatih reči — igra sa arhaizmima nije igra —
+    // biramo iz bazena poznatih reči – igra sa arhaizmima nije igra –
     // i OBAVEZNO reč koja uopšte ima rimu (npr. „valjda" je nema, pa je
     // igrač ne može rešiti ni kad zna sve reči srpskog jezika).
-    // Ijekavski oblici nikad (pravilo projekta — v. `jeJekavskaRec`).
+    // Ijekavski oblici nikad (pravilo projekta – v. `jeJekavskaRec`).
     const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
     if(w){
       gameCurrentWord = w;
@@ -4868,7 +4950,7 @@ function nextWord(){
 }
 
 /* Pauza igre pri odlasku na drugi tab (nalaz S7).
-   `igraPauzirana` pamti da je odbrojavanje ZAUSTAVLJENO, a ne završeno — pa se
+   `igraPauzirana` pamti da je odbrojavanje ZAUSTAVLJENO, a ne završeno – pa se
    pri povratku nastavlja od preostalih sekundi umesto da počne iznova ili da
    reč propadne. */
 let igraPauzirana = false;
@@ -4889,14 +4971,14 @@ function nastaviIgru(){
 
 /* PARTIJA PREŽIVI PRELAZAK NA DRUGU STRANU (nalaz A4, audit 07.09.2026).
    Google šalje ljude pravo na `/igra-rimovanja/`. Ta strana ima samo panel igre, pa je
-   klik na bilo koji drugi tab PUNO učitavanje druge strane — i partija je nestajala.
+   klik na bilo koji drugi tab PUNO učitavanje druge strane – i partija je nestajala.
    Zato se stanje partije čuva u `sessionStorage` (samo ova kartica pregledača, do
    zatvaranja) pri svakoj promeni i pri napuštanju strane, a vraća se čim je rečnik
    spreman na strani koja ima panel igre. Vraćena partija stoji PAUZIRANA dok se tab
-   igre ne vidi — isti mehanizam kao pri prelasku taba (nalaz S7). */
+   igre ne vidi – isti mehanizam kao pri prelasku taba (nalaz S7). */
 const IGRA_KLJUC = 'rimoteka_igra';
 function ssGet(k){ try{ return sessionStorage.getItem(k); }catch(e){ return null; } }
-function ssSet(k, v){ try{ sessionStorage.setItem(k, v); }catch(e){ /* privatni režim — tiho */ } }
+function ssSet(k, v){ try{ sessionStorage.setItem(k, v); }catch(e){ /* privatni režim – tiho */ } }
 function ssDel(k){ try{ sessionStorage.removeItem(k); }catch(e){} }
 function sacuvajIgru(){
   if(gameState !== 'play' && gameState !== 'handoff'){ ssDel(IGRA_KLJUC); return; }
@@ -4942,7 +5024,7 @@ function vratiIgru(){
 }
 window.addEventListener('pagehide', sacuvajIgru);
 
-/* Pauza kad se ekran sakrije — poziv, zaključavanje, druga aplikacija (nalaz S-04).
+/* Pauza kad se ekran sakrije – poziv, zaključavanje, druga aplikacija (nalaz S-04).
    Bez ovoga je tajmer tekao i reč propadala dok telefon leži u džepu. */
 document.addEventListener('visibilitychange', () => {
   if(document.hidden){ pauzirajIgru(); sacuvajIgru(); }
@@ -4998,12 +5080,12 @@ function checkGameAnswer(){
     return;
   }
   if(answer === gameCurrentWord){
-    gameFeedback.textContent = uiTxt('To je ista reč — probaj drugu');
+    gameFeedback.textContent = uiTxt('To je ista reč – probaj drugu');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
   if(!SET.has(answer)){
-    gameFeedback.textContent = uiTxt('Ta reč nije u rečniku — probaj drugu');
+    gameFeedback.textContent = uiTxt('Ta reč nije u rečniku – probaj drugu');
     gameFeedback.className = 'game-feedback hint';
     return;
   }
@@ -5061,7 +5143,7 @@ function renderProgress(){
     const dot = document.createElement('span');
     dot.className = 'game-progress-dot';
     /* Nalaz N4: ranije je stajalo `correct > i`, pa su prve tačkice UVEK bile
-       zelene bez obzira na to koja je reč zaista promašena — promašiš prvu i
+       zelene bez obzira na to koja je reč zaista promašena – promašiš prvu i
        pogodiš drugu, a igra prikaže obrnuto. Sada se čita stvaran ishod. */
     const ishodi = (gamePlayersData[gameCurrentPlayerIdx] || {}).ishodi || [];
     if(i < gameCurrentWordIdx) dot.classList.add(ishodi[i] ? 'correct' : 'wrong');
@@ -5074,7 +5156,7 @@ function showResults(){
   clearInterval(gameTimer);
   clearTimeout(gameNextTimeout);
   gameState = 'results';
-  sacuvajIgru();               // briše sačuvanu partiju — gotova je
+  sacuvajIgru();               // briše sačuvanu partiju – gotova je
   gamePlay.style.display = 'none';
   if(gameHandoff) gameHandoff.style.display = 'none';
   gameResults.style.display = 'block';
@@ -5128,7 +5210,7 @@ gameInput.addEventListener('keydown', e => {
 // pokreni igru kad se otvori tab
 function initGame(){
   /* Partija u toku se NE prekida kad se korisnik vrati na tab.
-     Ranije je svaki povratak vraćao početni ekran i brisao partiju — a otkad se
+     Ranije je svaki povratak vraćao početni ekran i brisao partiju – a otkad se
      igra pauzira pri odlasku (nalaz S7), to bi značilo i da odbrojavanje teče
      nevidljivo iza početnog ekrana. Zato se resetuje samo kad partija ne traje. */
   if(gameState === 'play' || gameState === 'handoff') return;
@@ -5138,7 +5220,7 @@ function initGame(){
     gameResults.style.display = 'none';
     if(gameHandoff) gameHandoff.style.display = 'none';
   } else {
-    // rečnik još nije učitan — prikaži poruku ispod setup-a, ne uništavaj ga
+    // rečnik još nije učitan – prikaži poruku ispod setup-a, ne uništavaj ga
     if(!document.getElementById('gameLoading')){
       const loading = document.createElement('p');
       loading.id = 'gameLoading';
@@ -5150,7 +5232,7 @@ function initGame(){
   }
 }
 
-/* Bootstrap — poziva se odavde u normalnom toku, a iz sigurnosne mreže
+/* Bootstrap – poziva se odavde u normalnom toku, a iz sigurnosne mreže
    na vrhu fajla ako skripta pukne pre ove linije. Funkcija je deklarativna
    (hoisted) baš zato da bude dostupna i u tom slučaju. */
 /* Poslednja linija odbrane: ako rečnik ipak ne uspe da se učita, korisnik NE
@@ -5176,7 +5258,7 @@ function bootstrap(){
   if(BOOTED) return;
   BOOTED = true;
   /* Rečnik treba samo alatima koji traže reči (rime, pretraga, igra, beležnica).
-     Strane sa čistim brojačem slogova nemaju nijedan od njih, a rečnik je 2,6 MB —
+     Strane sa čistim brojačem slogova nemaju nijedan od njih, a rečnik je 2,6 MB –
      bez ovog izuzetka bi se skidao potpuno bez potrebe. Brojanje slogova je
      čista funkcija nad tekstom i radi odmah, bez ijedne učitane reči. */
   const trebaRecnik = !el('rimeInput').__noop || !el('searchInput').__noop
@@ -5186,7 +5268,7 @@ function bootstrap(){
     return;
   }
   /* Nalaz A5 (07.09.2026): strana je „gotova" na 1,3 s, a rime na sporoj mreži rade tek
-     posle 7 s — dugme je izgledalo spremno dok rečnik još nije stigao. Sad dugme nosi
+     posle 7 s – dugme je izgledalo spremno dok rečnik još nije stigao. Sad dugme nosi
      `aria-busy` i prigušeno je dok rečnik ne stigne; klik i dalje radi (reč se zapamti,
      v. `cekaRec`). Sam rečnik kreće ranije: `<link rel="preload" as="fetch">` u zaglavlju. */
   const rb = el('rimeBtn');
@@ -5202,7 +5284,7 @@ function bootstrap(){
   }).catch(e=>{
     recnikSpreman();
     /* Ako korisnik ode sa strane dok se rečnik još skida, pregledač prekine
-       preuzimanje i ovde stigne „Failed to fetch". To NIJE kvar — strana koju
+       preuzimanje i ovde stigne „Failed to fetch". To NIJE kvar – strana koju
        napuštamo nema kome da prijavi grešku, a poruka o neuspehu bi bljesnula
        na izlasku. Zato se pri napuštanju strane ćuti; svaki drugi neuspeh se i
        dalje prijavljuje i pokazuje korisniku. */
@@ -5227,7 +5309,7 @@ function bootstrap(){
      Ranije je `definicije.json` (20 MB sirovo, 5,3 MB gzip) kretao na SVAKOM
      učitavanju strane, samo da bi prvi prelazak mišem preko ⓘ bio trenutan.
      Izmereno u auditu: kretao je ~4 ms posle `reci.txt` i time gurao spremnost
-     rečnika sa 7,3 s na 10,6 s — dakle 3,3 sekunde čekanja na rime, zbog
+     rečnika sa 7,3 s na 10,6 s – dakle 3,3 sekunde čekanja na rime, zbog
      oblačića koji većina korisnika nikad ne otvori.
      Sada se skida tek kad zaista zatreba, i to SAMO fajl sa slovom te reči (S-20):
      `fetchDefinition()` zove `loadLocalDefs(word)`. Da prvi klik ne bi bio spor,
@@ -5276,7 +5358,7 @@ bootstrap();
 })();
 
 /* ── NOTA U FUTERU SE NA KLIK PRETVARA U SRCE (03.08.2026) ──────────────────
-   Zahtev vlasnice. Sitnica koja se ne traži i ne objavljuje — ko klikne notu
+   Zahtev vlasnice. Sitnica koja se ne traži i ne objavljuje – ko klikne notu
    na notnom sistemu iznad futera, dobije srce; ko klikne ponovo, vrati notu.
 
    Zašto ovako, a ne sa srcem već upisanim u svaki SVG: nota se u futeru
@@ -5285,12 +5367,12 @@ bootstrap();
 
    Srce se crta NA MESTU GLAVE note: svaka nota ima svoj `translate(x y)` (glava
    sedi na svojoj liniji notnog sistema), pa se iste vrednosti prepisuju na
-   putanju srca — inače bi srce svima iskočilo na istoj visini, a note stoje na
+   putanju srca – inače bi srce svima iskočilo na istoj visini, a note stoje na
    pet različitih linija. */
 (function notaUSrce(){
   /* Dve grupe nota: notni sistem u futeru i traka sa pozivom na saradnju iznad
      njega. Osluškuje se `document`, pa se ne mora znati koje su tačno na strani
-     — statične strane nemaju traku, a početna ima obe. */
+     – statične strane nemaju traku, a početna ima obe. */
   const grupe = document.querySelectorAll('.futer-notni, .saradnja-note');
   if(!grupe.length) return;
   const SRCE = 'M0,3.8 C-5.8,-0.4 -5.6,-5.6 -2.7,-5.6 C-1.1,-5.6 -0.3,-4.5 0,-3.7 ' +
@@ -5303,7 +5385,7 @@ bootstrap();
       if(!g) return;
       /* DVA elementa, ne jedan: spoljni `g` nosi POLOŽAJ (translate na glavu
          note), unutrašnja putanja nosi POKRET (uvećanje pri ulasku). Da su na
-         istom elementu, CSS `transform` bi pregazio `transform` iz atributa —
+         istom elementu, CSS `transform` bi pregazio `transform` iz atributa –
          provereno: srce je odletelo u gornji levi ugao note. */
       const omot = document.createElementNS('http://www.w3.org/2000/svg', 'g');
       omot.setAttribute('class', 'nota-srce-omot');
@@ -5320,7 +5402,7 @@ bootstrap();
 })();
 
 /* ====================== PRIJAVA GREŠKE (06.09.2026) ======================
-   Zašto postoji: korisnik je 06.09.2026. mejlom prijavio da „Iran" ima 1 slog —
+   Zašto postoji: korisnik je 06.09.2026. mejlom prijavio da „Iran" ima 1 slog –
    tačno, i mesecima neprimećeno. Sa ovim isti kvar stiže istog dana, sa tačnom
    reči, brojem i traženom reči, na tri dodira. Bez imena, bez mejla, bez naloga.
    Telefon: peto dugme u traci nad reči. Računar: četvrta ikonica (zastavica) uz reč.
@@ -5402,7 +5484,7 @@ function otvoriPrijavu(rec, anchor){
     let left = r.left + r.width/2 - bw/2 + window.scrollX;
     left = Math.max(8, Math.min(left, window.scrollX + document.documentElement.clientWidth - bw - 8));
     /* Ispod reči kad ima mesta, inače iznad; ako ne staje ni gore ni dole (reč na
-       sredini, nizak prozor), ide ispod i PRITEGNE se u ekran — pre 06.09.2026 je u tom
+       sredini, nizak prozor), ide ispod i PRITEGNE se u ekran – pre 06.09.2026 je u tom
        slučaju odletao iznad gornje ivice i test ga nije video. */
     let top;
     if(r.bottom + 12 + bh <= window.innerHeight - 8) top = r.bottom + window.scrollY + 12;
@@ -5419,7 +5501,7 @@ async function posaljiPrijavu(rec, upit, slog, box){
   const razlog = (box.querySelector('input[name=prijava-razlog]:checked') || {}).value;
   if(!razlog) return;
   const stanje = prijavaDanas();
-  if(stanje.n >= PRIJAVA_DNEVNO){ prijavaHvala(box, uiTxt('Za danas je dosta — hvala! Nastavi sutra.'), false); return; }
+  if(stanje.n >= PRIJAVA_DNEVNO){ prijavaHvala(box, uiTxt('Za danas je dosta – hvala! Nastavi sutra.'), false); return; }
   dugme.disabled = true; dugme.textContent = uiTxt('Šaljem…');
   const telo = {
     rec, upit, slogova: slog, razlog,
@@ -5427,7 +5509,7 @@ async function posaljiPrijavu(rec, upit, slog, box){
     strana: location.pathname + (upit ? '?rec=' + encodeURIComponent(upit) : ''),
     mejl: box.querySelector('.prijava-mejl').value || '',
     /* PROBU (sanduče proveri, ne zapiše) šalje SAMO test, preko `rimoteka_proba`. Do 07.09.2026.
-       je to radio i `rimoteka_interno` — pa su prijave vlasnice i njenog muža sa uređaja
+       je to radio i `rimoteka_interno` – pa su prijave vlasnice i njenog muža sa uređaja
        označenih za analitiku (`?interno=1`) tiho nestajale. „Interno" gasi samo merenje posete. */
     proba: lsGet('rimoteka_proba') === '1',
   };
@@ -5454,7 +5536,7 @@ function prijavaHvala(box, html, uspeh){
   box.setAttribute('role', 'status'); box.setAttribute('aria-live', 'polite');   // čitač ekrana čuje poruku (S-14)
   box.innerHTML = (uspeh ? '<div class="prijava-ok"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>' : '') +
     `<p class="prijava-hvala-tekst">${html}</p>`;
-  /* Tajmer zatvara samo prozorčić koji je poslat — ne novu prijavu koju korisnik možda
+  /* Tajmer zatvara samo prozorčić koji je poslat – ne novu prijavu koju korisnik možda
      već piše (nalaz A2, audit 07.09.2026). */
   setTimeout(() => { if(prijavaBox === box) zatvoriPrijavu(); }, uspeh ? 2600 : 3200);
 }

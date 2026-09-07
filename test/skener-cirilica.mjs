@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BASE = process.env.BASE || 'http://localhost:8765';
 const PARALELNO = Number(process.env.PARALELNO || 4);
-const DOZVOLJENO = /^(Powered by Orbita Code|Orbita Code|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Rimoteka|eureka@rimoteka\.com|rimoteka\.com|orbitacode\.com|PDF|ABAB|AABB|ABBA|R)$/;
+const DOZVOLJENO = /^(·? ?Powered by( Orbita Code)?|Orbita Code|latinica|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Rimoteka|eureka@rimoteka\.com|rimoteka\.com|orbitacode\.com|PDF|ABAB|AABB|ABBA|R)$/;
 const LAT = /[A-Za-zČĆŽŠĐčćžšđ]/;
 
 const sm = readFileSync(path.join(ROOT, 'public', 'sitemap.xml'), 'utf8');
@@ -43,7 +43,7 @@ function dodaj(tekst, gde, vrsta) {
 
 // U strani: sve što se vidi ili čita (tekst, atributi), osim dozvoljenih zona.
 const SKUPI = () => {
-  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript';
+  const IZUZETO = '.brand, .brand-logo, .footer-brand, .footer-orbita, kbd, code, script, style, noscript, #noteEditor, #noteTitle, .ml, .vrhyme, #panel-klasici, #scriptToggle button';   // tekst korisnika, klasici u originalu, slova šeme, dugmad pisma
   const out = [];
   const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let n; while ((n = w.nextNode())) { if (!n.textContent.trim()) continue; const el = n.parentElement; if (!el || el.closest(IZUZETO)) continue; const skriven = !el.getClientRects().length && !el.closest('[hidden]') ? false : false; out.push(['tekst', n.textContent, el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : '') + (el.closest('[hidden]') ? ' (skriveno)' : '')]); }
@@ -52,7 +52,7 @@ const SKUPI = () => {
     for (const a of ['placeholder', 'title', 'aria-label', 'alt', 'data-placeholder']) { const v = el.getAttribute(a); if (v) out.push([a, v, el.tagName.toLowerCase() + (el.id ? '#' + el.id : '')]); }
   }
   out.push(['title', document.title, 'head']);
-  const md = document.querySelector('meta[name="description"]'); if (md) out.push(['description', md.content, 'head']);
+  // meta description se ne prijavljuje: nevidljiv je, a Google čita HTML (latinicu), ne stanje posle prebacivanja
   return out;
 };
 

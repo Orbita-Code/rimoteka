@@ -226,7 +226,7 @@ zarez — **prepisuje se rečenica**:
 - **Zavisna rečenica ispred glavne** odvaja se zarezom: *Kad je došao, svi su ućutali.*
 - **Umetnuta rečenica** zatvara se sa obe strane: *Rima, koja je duža, jače zvuči.*
 - **Navodnici su srpski** — „ovako", ne "ovako" ni “ovako”.
-- **Crta (—) nije minus (-).**
+- **Crta je KRATKA (–), sa razmacima; dugačka (—) je ZABRANJENA na sajtu** (odluka vlasnice 08.09.2026 — dugačku pravi samo AI). Crtica (-) je za složenice.
 - **Trotačka je jedan znak (…)**, ne tri tačke zaredom.
 
 > Ko piše tekst: agent **`tekstopisac`** (`.claude/agents/tekstopisac.md`) — sva ova

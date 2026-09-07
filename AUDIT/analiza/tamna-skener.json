@@ -1,0 +1,15 @@
+{
+ "base": "http://localhost:8765",
+ "strana": 30,
+ "stanje": {
+  "klik": true,
+  "f5": true,
+  "drugaStrana": true,
+  "noviTab": true,
+  "ponovniDolazak": true,
+  "metaThemeColor": "#1a1230",
+  "colorScheme": "dark",
+  "sistemTamnaBezIzbora": true
+ },
+ "nalazi": []
+}

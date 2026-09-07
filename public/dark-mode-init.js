@@ -17,8 +17,20 @@
 // localStorage je u try/catch: u privatnom režimu i uz blokirane kolačiće
 // čitanje baca SecurityError, a to ne sme da obori stranu.
 (function () {
-  var dark = false;
-  try { dark = localStorage.getItem('rimoteka_dark') === '1'; } catch (e) {}
+  /* KAKO TO RADE SAJTOVI (istraženo 08.09.2026, zahtev vlasnice): dva pravila.
+     1) Ako je čovek jednom kliknuo (svetla ili tamna), to se pamti u pregledaču i važi na svakoj
+        strani, posle osvežavanja, u novom tabu i kad se vrati posle zatvaranja — dok sam ne promeni.
+     2) Ako NIJE birao, sajt prati podešavanje telefona/računara (`prefers-color-scheme`), i menja se
+        kad se sistem prebaci (noću na telefonu). Do 08.09. je bez izbora uvek bila svetla tema.
+     `rimoteka_dark`: '1' = tamna, '0' = svetla (izričit izbor), nema = prati sistem. */
+  var izbor = null;
+  try { izbor = localStorage.getItem('rimoteka_dark'); } catch (e) {}
+  var sistem = false;
+  try { sistem = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); } catch (e) {}
+  var dark = izbor === '1' || (izbor === null && sistem);
+  window.__rimotekaTemaIzbor = izbor;                       // app.js: prati sistem samo dok nema izbora
+  var meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = dark ? '#1a1230' : '#5a3fd0';    // boja trake pregledača prati temu
   if (!dark) return;
   document.documentElement.classList.add('dark-mode');
   var naBody = function () {

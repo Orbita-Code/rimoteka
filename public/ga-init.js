@@ -2,21 +2,21 @@
  *
  * Do 06.09.2026. se Analytics učitavao bez pitanja. Od sada se biblioteka (gtag.js)
  * učitava TEK POSLE „Prihvati sve" ili posle uključenog prekidača u „Podesi".
- * Bez odluke — nema kolačića i nema merenja. Odluka se pamti u localStorage
+ * Bez odluke – nema kolačića i nema merenja. Odluka se pamti u localStorage
  * (`rimoteka_kolacici`), a menja se linkom „Kolačići" u futeru.
  *
- * Baner NE blokira sajt (reči se vide i alat radi) — zid preko celog ekrana Google
+ * Baner NE blokira sajt (reči se vide i alat radi) – zid preko celog ekrana Google
  * tretira kao nametljiv međuekran na telefonu i spušta rangiranje, a nama je
  * indeksiranje najveći problem. „Prihvati sve" je jedan klik; „Podesi" traži još
  * dva (prekidač + „Sačuvaj").
  *
- * `?interno=1` (vlasnica, test) i dalje gasi merenje na uređaju — i tada baner ne
+ * `?interno=1` (vlasnica, test) i dalje gasi merenje na uređaju – i tada baner ne
  * smeta, jer odluke nema šta da menja.
  *
- * TEKST BANERA JE ODREDILA VLASNICA 07.09.2026 — isti kao na orbitacode.com. Kratak i
+ * TEKST BANERA JE ODREDILA VLASNICA 07.09.2026 – isti kao na orbitacode.com. Kratak i
  * uopšten, NAMERNO: ne objašnjava šta se meri. Prihvatanje 1 klik, odbijanje kroz „Podesi"
- * — i to je namerno. Ne „poboljšavati", ne dodavati „Odbij", ne pominjati EU/GDPR (sajt je
- * za Srbiju i Balkan — odluka vlasnice, globalni CLAUDE.md „Kolačići i pravo").
+ * – i to je namerno. Ne „poboljšavati", ne dodavati „Odbij", ne pominjati EU/GDPR (sajt je
+ * za Srbiju i Balkan – odluka vlasnice, globalni CLAUDE.md „Kolačići i pravo").
  *
  * `gtag` stub postoji UVEK, da `gtag('event', …)` iz app.js nikad ne pukne; dok
  * nema pristanka, događaji se samo slažu u `dataLayer` i nikud ne odlaze. */
@@ -27,7 +27,7 @@
   var KLJUC_KOLACICI = 'rimoteka_kolacici';
 
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
-  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* privatni režim — tiho */ } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* privatni režim – tiho */ } }
   function lsDel(k) { try { localStorage.removeItem(k); } catch (e) { /* tiho */ } }
 
   /* ---------- interni režim (bez merenja na ovom uređaju) ---------- */
@@ -73,7 +73,7 @@
             .replace(/[a-zčćđšž]/g, function (ch) { return CYR[ch] || ch; })
             .replace(/[A-ZČĆĐŠŽ]/g, function (ch) { var m = CYR[ch.toLowerCase()]; return m ? m.toUpperCase() : ch; });
   }
-  /* Ime brenda (Google Analytics) ostaje latinicom i u ćirilici — isto pravilo kao za
+  /* Ime brenda (Google Analytics) ostaje latinicom i u ćirilici – isto pravilo kao za
      logo, mejl i skraćenice u app.js. */
   function t(s) {
     if (lsGet('rimoteka_script') !== 'cyr') return s;
@@ -136,7 +136,7 @@
        dok baner stoji, strana pri pomeranju do fokusa ostavlja mesta za njega. */
     try { document.documentElement.style.scrollPaddingBottom = (baner.offsetHeight + 24) + 'px'; } catch (e) {}
   }
-  /* Escape sklanja baner za ovu posetu, BEZ odluke (nalaz S-16) — pri sledećem
+  /* Escape sklanja baner za ovu posetu, BEZ odluke (nalaz S-16) – pri sledećem
      učitavanju se vraća. Odbijanje i dalje ide kroz „Podesi“ (odluka vlasnice). */
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && baner) zatvori(); });
 
@@ -150,8 +150,8 @@
   function start() {
     var o = odluka();
     if (o && o.analitika) { ucitajAnalitiku(); return; }
-    if (o) return;                               // odbio merenje — ništa
-    if (interno) return;                         // vlasnica/test — bez banera
+    if (o) return;                               // odbio merenje – ništa
+    if (interno) return;                         // vlasnica/test – bez banera
     otvoriBaner(false);
     /* Link „Kolačići" u futeru otvara baner kad god (promena odluke). */
   }

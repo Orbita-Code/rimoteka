@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * OBAVEZAN PRE-DEPLOY TEST — Rimoteka
+ * OBAVEZAN PRE-DEPLOY TEST – Rimoteka
  *
  * Pokreće pravi Chromium, otvara sajt i proverava da SVE ZAISTA RADI, ne samo
  * da se kod kompajlira. Nastao posle 26.07.2026, kad je jedan `TypeError`
@@ -28,12 +28,12 @@ const greske = [];
 
 function ok(ime, uslov, detalj = '') {
   if (uslov) { pass++; console.log(`  ✅ ${ime}`); }
-  else { greske.push(`${ime}${detalj ? ' — ' + detalj : ''}`); console.log(`  ❌ ${ime}${detalj ? ' — ' + detalj : ''}`); }
+  else { greske.push(`${ime}${detalj ? ' – ' + detalj : ''}`); console.log(`  ❌ ${ime}${detalj ? ' – ' + detalj : ''}`); }
 }
 
 const pauza = ms => new Promise(r => setTimeout(r, ms));
 
-/* Lokalni server za test živi u ZASEBNOM PROCESU — `test/static-server.mjs`.
+/* Lokalni server za test živi u ZASEBNOM PROCESU – `test/static-server.mjs`.
    Objašnjenje zašto (jednonitni python, zaglavljivanje, deljena Node petlja,
    keš zaglavlja) stoji u zaglavlju tog fajla. */
 
@@ -54,46 +54,46 @@ async function main() {
   const browser = await chromium.launch();
 
   /* MERENJE NE SME DA ULAZI U ANALITIKU (26.08.2026).
-     Test otvara 34 sveža konteksta po prolazu, svaki bez kolačića — a to je za
+     Test otvara 34 sveža konteksta po prolazu, svaki bez kolačića – a to je za
      GA4 svaki put NOV KORISNIK. Pušten protiv produkcije, jedan prolaz je u
      statistiku ubacivao desetine lažnih poseta kratkog trajanja. Izmereno pre
      popravke: grad iz kog se test pušta imao je 206 korisnika, od toga 203
-     „nova", uz prosečno zadržavanje od 12 sekundi — dok je stvarna publika
+     „nova", uz prosečno zadržavanje od 12 sekundi – dok je stvarna publika
      imala 2m 56s.
 
      PRVI POKUŠAJ je bio `--host-resolver-rules` (preusmeravanje domena u prazno)
      i bio je pogrešan: pregledač tada prijavi `ERR_CONNECTION_REFUSED`, pa je
      svaka provera „nula grešaka u konzoli" počela da pada. Umesto da se izuzetak
      dopisuje u svaki osluškivač redom, zahtev se PRESREĆE i odgovara mu se
-     praznim 200 — nijedan bajt ne izađe, a konzola ostaje čista.
+     praznim 200 – nijedan bajt ne izađe, a konzola ostaje čista.
 
      Presretanje se kači na SVAKI kontekst, tako što se `newContext` i `newPage`
      umotaju jednom, ovde. Da se kači ručno, promašio bi se prvi sledeći kontekst
      koji neko doda. Zaglavlje `x-blokirano-u-testu` je dokaz za sekciju 43. */
   /* Omotač je ZAJEDNIČKI modul `test/bez-analitike.mjs` (od 07.09.2026). Do tada je ovde stajala
-     kopija — pa izmene u modulu (unapred prihvaćeni kolačići, ključ probe za prijave) nisu ulazile
+     kopija – pa izmene u modulu (unapred prihvaćeni kolačići, ključ probe za prijave) nisu ulazile
      u pravi test, a tri probne prijave su 07.09. otišle u pravo sanduče. Jedno mesto, ne dva. */
   umotaj(browser);
 
   /* SVAKA NOVA STRANA: izdašan rok + PONAVLJANJE NAVIGACIJE.
      Test otvara preko trideset zasebnih strana, svaku sa svojim praznim kešom.
      Izmereno 29.07.2026: otprilike svako drugo pokretanje se zaglavi na jednoj
-     `page.goto` — pregledač u tom trenutku NE pošalje nijedan zahtev
+     `page.goto` – pregledač u tom trenutku NE pošalje nijedan zahtev
      (server pokazuje 0 veza i na `curl` odgovara za 0,21 s), dakle nije kvar
      sajta ni servera nego zastoj u samom Chromiumu.
      Zato se navigacija ponavlja do tri puta. Zastoj koji se ponovi tri puta
-     zaredom se i dalje prijavljuje kao pad — pravi kvar se ovim ne sakriva. */
+     zaredom se i dalje prijavljuje kao pad – pravi kvar se ovim ne sakriva. */
   /* Greške iz konzole se skupljaju sa SVIH strana, ne samo sa prve.
      Nalaz iz dopune audita: sekcija 13 je tvrdila da pokriva „ceo test", a
-     osluškivač je bio zakačen samo na prvu stranu — sve što je puklo na
+     osluškivač je bio zakačen samo na prvu stranu – sve što je puklo na
      `/rimovanje-reci/`, `/slogovi/`, `/pisanje-pesama/` ili na stranama reči
      prolazilo je nezapaženo. Sada svaka strana koju test otvori prijavljuje. */
   const konzolaGreske = [];
   /* Neke provere NAMERNO ruše mrežu (502 na `reci.txt`, 503 na `definicije.json`,
      namerni 404, brza navigacija koja prekine `fetch` u letu). Te greške je test
-     sam izazvao, pa ih sekcija 13 ne sme brojati kao kvar sajta — inače provera
+     sam izazvao, pa ih sekcija 13 ne sme brojati kao kvar sajta – inače provera
      „nula grešaka u konzoli" pada uvek i prestane da išta znači.
-     Bitno: obrasci se vezuju za TAČNU stranu koja kvar izaziva, ne globalno —
+     Bitno: obrasci se vezuju za TAČNU stranu koja kvar izaziva, ne globalno –
      da ista greška na nekoj drugoj strani i dalje bude prijavljena. */
   function ocekujGreske(p, ...obrasci) { p.__ocekivano = obrasci; return p; }
   function prijaviGreske(p, gde) {
@@ -103,9 +103,9 @@ async function main() {
       const t = m.text();
       const loc = (m.location() && m.location().url) || '';
       /* Fontovi sa Google-a nisu naš bug ni u jednom obliku: u headless
-         okruženju bivaju blokirani (`net::ERR_FAILED` — tada URL stoji u
+         okruženju bivaju blokirani (`net::ERR_FAILED` – tada URL stoji u
          TEKSTU poruke), a 16.08.2026. je Google-ov CDN poživeo da na neke
-         Rubik woff2 podatke odgovara 404 — tada je tekst poruke generičan
+         Rubik woff2 podatke odgovara 404 – tada je tekst poruke generičan
          („Failed to load resource… 404"), a URL stoji samo u `location()`.
          Zato se filtrira i jedno i drugo. */
       if (/fonts\.googleapis|fonts\.gstatic/.test(t) || /fonts\.googleapis|fonts\.gstatic/.test(loc)) return;
@@ -113,11 +113,11 @@ async function main() {
       /* Ista klasa kao fontovi gore: Google Analitika je spoljni CDN koji u
          headless okruženju povremeno padne na mreži (`ERR_CONNECTION_CLOSED`,
          viđeno 19.08.2026. na localhostu i produkciji, dok `curl` isti URL
-         učitava normalno). Nije naš resurs ni naš bug — a zbog nje bi test
+         učitava normalno). Nije naš resurs ni naš bug – a zbog nje bi test
          padao nasumično. */
       if (/googletagmanager\.com|google-analytics\.com|analytics\.google\.com/.test(t) || /googletagmanager\.com|google-analytics\.com/.test(loc)) return;
       if (dozvoljeno(t)) return;
-      /* „Failed to load resource" bez URL-a resursa je nedijagnosticira —
+      /* „Failed to load resource" bez URL-a resursa je nedijagnosticira –
          poruka nosi samo adresu STRANE. `location().url` je izvor resursa. */
       const izvor = loc ? ' ← ' + loc.slice(0, 160) : '';
       konzolaGreske.push(`[${gde || p.url()}] ${t}${izvor}`);
@@ -131,7 +131,7 @@ async function main() {
   function ojacajStranu(p) {
     /* Omotač SME da se primeni samo jednom.
        `browser.newPage()` interno pravi kontekst, pa je strana prolazila i kroz
-       omotač konteksta i kroz omotač pregledača — ponavljanje se ugnezdilo
+       omotač konteksta i kroz omotač pregledača – ponavljanje se ugnezdilo
        3×3 = 9 puta i test je umesto da se oporavi tonuo u lavinu pokušaja. */
     if (p.__ojacana) return p;
     p.__ojacana = true;
@@ -144,7 +144,7 @@ async function main() {
         try { return await _goto(url, { timeout: 45000, ...opt }); }
         catch (e) {
           poslednja = e;
-          console.log(`  ↻ navigacija na ${url} nije uspela (${i}/3) — ponavljam`);
+          console.log(`  ↻ navigacija na ${url} nije uspela (${i}/3) – ponavljam`);
           await pauza(1500);
         }
       }
@@ -152,7 +152,7 @@ async function main() {
     };
     /* Pre zatvaranja strane prekini sve što je još u toku.
        Strane se zatvaraju usred skidanja `reci.txt` (2,5 MB); ako se ta veza ne
-       prekine uredno, pregledač ume da zaglavi sledeću navigaciju — izmereno:
+       prekine uredno, pregledač ume da zaglavi sledeću navigaciju – izmereno:
        server u tom trenutku pokazuje nula veza i na `curl` odgovara za 0,21 s,
        dakle zastoj je u Chromiumu, ne na serveru. */
     const _close = p.close.bind(p);
@@ -175,15 +175,15 @@ async function main() {
   const page = await browser.newPage();   // osluškivač greške je već zakačen
 
   try {
-    console.log(`\n▶ PRE-DEPLOY TEST — ${BASE}\n`);
+    console.log(`\n▶ PRE-DEPLOY TEST – ${BASE}\n`);
 
     console.log('1) Učitavanje i rečnik');
     await page.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
     // Na produkciji reci.txt (2,5 MB) ide bez keša pa je učitavanje sporije od
-    // lokalnog. Timeout je zato izdašan, a istek NE gutamo tiho — ako rečnik ne
+    // lokalnog. Timeout je zato izdašan, a istek NE gutamo tiho – ako rečnik ne
     // stigne, to je nalaz i test mora da padne sa jasnom porukom.
     // Kod PRVE posete service worker preuzme kontrolu i strana se jednom osveži
-    // (to je namerno — tako se zaglavljeni korisnici sami odglave). Testu to
+    // (to je namerno – tako se zaglavljeni korisnici sami odglave). Testu to
     // obriše izvršni kontekst usred čekanja, pa čekanje ponavljamo.
     let recnikStigao = false;
     for (let pokusaj = 0; pokusaj < 3 && !recnikStigao; pokusaj++) {
@@ -201,7 +201,7 @@ async function main() {
     ok('rečnik se učitao (>250.000 reči)', brojReci > 250000, `učitano ${brojReci}`);
     ok('konzola bez grešaka', konzolaGreske.length === 0, konzolaGreske.slice(0, 3).join(' | '));
 
-    console.log('\n2) RIMOVANJE REČI — glavna namena sajta');
+    console.log('\n2) RIMOVANJE REČI – glavna namena sajta');
     const rime = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       document.getElementById('rimeInput').value = 'ljubav';
@@ -224,7 +224,7 @@ async function main() {
     ok('rime za „nada" postoje', rimeNada.length > 5, `nađeno ${rimeNada.length}`);
 
     /* č≡ć pri merenju sličnosti (prijava vlasnice 16.08.2026): „partnera" je
-       bila među „najboljima" za „šećera" jer je slovno „era" = „era" — a
+       bila među „najboljima" za „šećera" jer je slovno „era" = „era" – a
        „večera" (bolja rima, č≈ć) je gubila na učestalost. Sada „večera" mora
        biti IZNAD „partnera", a dijalekatske „većera" više nema u rečniku. */
     const secer = await page.evaluate(async () => {
@@ -267,7 +267,7 @@ async function main() {
 
       await pSeo.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await pSeo.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5, { timeout: 180000 }).catch(() => {});
-      /* Kanonikal za `?rec=` se postavlja tek kad stigne `rime-strane.json` (u pozadini) —
+      /* Kanonikal za `?rec=` se postavlja tek kad stigne `rime-strane.json` (u pozadini) –
          na produkciji izmereno 0,1–1,3 s POSLE rezultata. Čeka se stanje, do 15 s. */
       await pSeo.waitForFunction(() => /\/rime-za\//.test(document.querySelector('link[rel="canonical"]')?.href || ''), null, { timeout: 15000 }).catch(() => {});
       const seo2 = await pSeo.evaluate(() => document.querySelector('link[rel="canonical"]')?.href || '');
@@ -284,7 +284,7 @@ async function main() {
       for (const v of RANK.values()) if (v < 0) neg++;
       return { sinonima: Object.keys(SYNONYMS).length, saFrekvencijom: neg };
     });
-    ok('sinonimi se učitavaju (kurirani rečnik — bez mašinskog šuma)', extras.sinonima >= 2, `${extras.sinonima}`);
+    ok('sinonimi se učitavaju (kurirani rečnik – bez mašinskog šuma)', extras.sinonima >= 2, `${extras.sinonima}`);
     ok('frekvencijsko rangiranje radi', extras.saFrekvencijom > 100000, `${extras.saFrekvencijom} reči`);
     const sinGrupa = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
@@ -297,7 +297,7 @@ async function main() {
     });
     ok('grupa „Sinonimi" se prikazuje za kuriranu reč („sunce")', sinGrupa.some(g => /Sinonimi/i.test(g)), sinGrupa.join(' / '));
     /* Od 20.08.2026. sinonimi su KURIRANI (vlasnica: „bolje nijedan nego
-       gluposti") — reč bez kuriranog unosa NE sme pokazivati grupu. */
+       gluposti") – reč bez kuriranog unosa NE sme pokazivati grupu. */
     const sinLjubav = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       document.getElementById('rimeInput').value = 'ljubav';
@@ -364,9 +364,9 @@ async function main() {
     });
     ok('beležnica prima tekst', beleznica === 'ok', beleznica);
 
-    console.log('\n7a) BELEŽNICA — gutter, šema rime i panel sa rimama');
+    console.log('\n7a) BELEŽNICA – gutter, šema rime i panel sa rimama');
     // Pesma sa ukrštenom rimom: gutter mora dati red po stihu, slogove,
-    // slova šeme (ABAB) i rime za reč pod kursorom — sve bez menjanja taba.
+    // slova šeme (ABAB) i rime za reč pod kursorom – sve bez menjanja taba.
     await page.evaluate(() => {
       const ed = document.getElementById('noteEditor');
       ed.innerHTML = 'Volim te ko nada<br>zvezda sja u tami<br>u srcu mom je mlada<br>i sanjamo je sami';
@@ -423,12 +423,12 @@ async function main() {
 
     // Sinonimi NE smeju u panel uz stih: kurirana reč „šišarka" ima sinonim
     // („šišarica") koji se ne rimuje, pa uz stih izgleda kao greška u alatu.
-    // (Do 20.08.2026. ovde je bila „naći" — tad su sinonimi bili mašinski;
+    // (Do 20.08.2026. ovde je bila „naći" – tad su sinonimi bili mašinski;
     // sada su kurirani, pa se proverava na kuriranoj reči. „šišarka" ima
     // dovoljno rima i za tok „još N rima" ispod.)
     const bezSinonima = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      // glavni rezultati dobiju „šišarka" (kurirana reč) — kartica sinonima
+      // glavni rezultati dobiju „šišarka" (kurirana reč) – kartica sinonima
       document.getElementById('rimeInput').value = 'šišarka';
       document.getElementById('rimeBtn').click();
       await w(1000);
@@ -449,7 +449,7 @@ async function main() {
     const sinonimiUPanelu = ['šišarica']
       .filter(w => bezSinonima.reci.includes(w));
     ok('„šišarka" ima sinonime u glavnim rezultatima (kurirani)', bezSinonima.imaSinonimaUGlavnom > 0,
-      'nema sinonima — provera je bezvredna');
+      'nema sinonima – provera je bezvredna');
     ok('sinonimi NE ulaze u panel uz stih', sinonimiUPanelu.length === 0, sinonimiUPanelu.join(', '));
     ok('panel uz stih i dalje ima prave rime', bezSinonima.reci.some(w => /arka$/.test(w)),
       bezSinonima.reci.slice(0, 8).join(', '));
@@ -486,7 +486,7 @@ async function main() {
     ok('„još N rima" otvara ostatak u samom panelu', jos.posle > jos.pre, `${jos.pre} → ${jos.posle}`);
     ok('lista se može skupiti nazad', jos.nazad === jos.pre, `${jos.nazad}`);
 
-    console.log('\n7b) BELEŽNICA — premeštanje stihova (drag & drop)');
+    console.log('\n7b) BELEŽNICA – premeštanje stihova (drag & drop)');
     await page.evaluate(() => {
       const ed = document.getElementById('noteEditor');
       ed.innerHTML = 'prvi stih<br>drugi stih<br>treci stih';
@@ -525,7 +525,7 @@ async function main() {
     const posleKucanja = await page.evaluate(() => document.getElementById('noteEditor').innerText);
     ok('Enter posle premeštanja pravi novi red', posleKucanja.split('\n').length === 4, JSON.stringify(posleKucanja));
 
-    console.log('\n7c) BELEŽNICA — metar (ritam stiha)');
+    console.log('\n7c) BELEŽNICA – metar (ritam stiha)');
     // Metar sme da tvrdi samo ono što je sigurno po akcenatskim pravilima:
     // dvosložna reč = naglašen + nenaglašen, klitika = nenaglašena,
     // reč od 3+ sloga = poslednji nenaglašen, ostali NEPOZNATI (ne nagađamo).
@@ -576,7 +576,7 @@ async function main() {
     await page.click('#toggleMeter');   // vrati u pređašnje stanje
     await pauza(300);
 
-    console.log('\n8) IGRA RIMA — ceo krug');
+    console.log('\n8) IGRA RIMA – ceo krug');
     const igra = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'igra').click();
@@ -594,19 +594,19 @@ async function main() {
       if (!inp || !sub) return { greska: 'nema polje ili dugme Proveri' };
       const igraPokrenuta = getComputedStyle(document.getElementById('gamePlay')).display !== 'none';
 
-      // a) reč koje nema u rečniku — mora da javi da je nema
+      // a) reč koje nema u rečniku – mora da javi da je nema
       inp.value = 'zzzznepostojeca';
       sub.click();
       await w(600);
       const fbNepoznata = (document.getElementById('gameFeedback') || {}).textContent || '';
 
-      // b) PRAVA rima za zadatu reč — mora da bude priznata kao tačna.
+      // b) PRAVA rima za zadatu reč – mora da bude priznata kao tačna.
       // Tražimo je istim algoritmom koji koristi i sam alat (rhymeKey),
       // pa ovaj test pada i ako se pokvari samo prepoznavanje rime.
       const cilj = (typeof gameCurrentWord === 'string' && gameCurrentWord) ? gameCurrentWord : rec;
       // Odgovor tražimo ISTIM pravilom koje igra i priznaje (savršena rima ILI
       // asonanca). Ranije se tražila samo savršena, pa je test umeo da ne nađe
-      // ništa za reč tipa „valjda" i prijavi „nije testirano" — a igra je bila
+      // ništa za reč tipa „valjda" i prijavi „nije testirano" – a igra je bila
       // sasvim ispravna.
       let rima = null;
       if (typeof rhymeKey === 'function') {
@@ -633,8 +633,8 @@ async function main() {
        `rima „${igra.rima}" za „${igra.rec}" → „${igra.fbTacna}"`);
 
     /* Ijekavica u igri NIKAD (prijava vlasnice 16.08.2026: igra je ponudila
-       „dvije"). Bazen poznatih reči se gradi po frekvenciji iz celog WORDS —
-       dakle i iz ijekavskog dela — pa se sada filtrira pri izboru. Ista
+       „dvije"). Bazen poznatih reči se gradi po frekvenciji iz celog WORDS –
+       dakle i iz ijekavskog dela – pa se sada filtrira pri izboru. Ista
        provera štiti i kockicu kad kvačica „ijekavica" nije uključena. */
     const jek = await page.evaluate(() => {
       const izborIgre = x => !BLOCKED.has(x) && !jeJekavskaRec(x) && imaRimu(x);
@@ -644,7 +644,7 @@ async function main() {
         if (w && jeJekavskaRec(w)) { profulo = w; break; }
       }
       /* Igra ne sme ponuditi ijekavicu NI KAD je kvačica „uključi ijekavicu"
-         uključena — pravilo je apsolutno. Privremeno uključimo i probamo. */
+         uključena – pravilo je apsolutno. Privremeno uključimo i probamo. */
       const bilo = includeJek;
       includeJek = true;
       let profuloJek = null;
@@ -666,10 +666,10 @@ async function main() {
        jek.profuloJek === null, jek.profuloJek ? `ponudila: „${jek.profuloJek}"` : '');
     ok('rečnik ima „znanstveni" (prijava vlasnice 16.08.2026)', jek.znanstveni === true);
 
-    console.log('\n8b) PREDAJA IGRAČA — igra mora da stane između igrača');
+    console.log('\n8b) PREDAJA IGRAČA – igra mora da stane između igrača');
     const predaja = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      // 2 igrača, 5 reči po igraču — pa odigraj prvog do kraja
+      // 2 igrača, 5 reči po igraču – pa odigraj prvog do kraja
       [...document.querySelectorAll('#tabs [data-tab]')].find(b => b.dataset.tab === 'igra').click();
       await w(250);
       document.querySelector('#gamePlayers .game-option[data-value="2"]').click();
@@ -682,11 +682,11 @@ async function main() {
         const inp = document.getElementById('gameInput');
         const sub = document.getElementById('gameSubmit');
         if (!inp || !sub) break;
-        // dugme je onemoguceno ~1,5s posle odgovora — cekaj da se otkoci
+        // dugme je onemoguceno ~1,5s posle odgovora – cekaj da se otkoci
         for (let t = 0; t < 40 && sub.disabled; t++) await w(100);
         if (document.getElementById('gameHandoff') &&
             getComputedStyle(document.getElementById('gameHandoff')).display !== 'none') break;
-        // Reč koja POSTOJI u rečniku ali se NE rimuje — samo takav odgovor
+        // Reč koja POSTOJI u rečniku ali se NE rimuje – samo takav odgovor
         // troši reč i pomera igru. Nepostojeća reč se odbija ("probaj drugu")
         // i wordIdx ostaje isti, pa se do predaje nikad ne bi stiglo.
         const cilj = gameCurrentWord;
@@ -737,7 +737,7 @@ async function main() {
     ok('brojač igrača pokazuje 2', nastavak.igrac.trim() === '2', `pokazuje „${nastavak.igrac}"`);
     ok('drugi igrač je dobio reč', nastavak.rec.length > 0, `reč: „${nastavak.rec}"`);
 
-    console.log('\n2b) RANGIRANJE RIMA — isti broj slogova je najbolja rima');
+    console.log('\n2b) RANGIRANJE RIMA – isti broj slogova je najbolja rima');
     const rang = await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
       document.getElementById('rimeInput').value = 'rima';
@@ -770,7 +770,7 @@ async function main() {
                        'obrstim','obrste','njači','njačite','njače','njačem','njaču',
                        'amin','aminati','aminovati',
                        'štima','štimati','štimam','štimaš','štimaju'];
-      // Ovi oblici NE SMEJU da postoje — vlasnica je potvrdila da u srpskom
+      // Ovi oblici NE SMEJU da postoje – vlasnica je potvrdila da u srpskom
       // „njakati" ima samo palatalizovani prezent (njačem/njače), ne „njakam".
       const nesmeju = ['njakam','njakaš','njakamo','njakate','njakaju','njakaj','njakajte',
                        'njaka','obrstenje'];
@@ -809,11 +809,11 @@ async function main() {
     ok('tamni režim se prebacuje', dark === 'ok', dark);
 
     // Nalaz K1: `dark-mode-init.js` je stajao u <head> i pisao po `document.body`,
-    // koji tada JOŠ NE POSTOJI — postavka se gubila baš pri osvežavanju. Test je
+    // koji tada JOŠ NE POSTOJI – postavka se gubila baš pri osvežavanju. Test je
     // dotle samo klikao dugme (bez ponovnog učitavanja) i zato je bag preživeo.
     console.log('\n10b) TAMNI REŽIM PREŽIVLJAVA OSVEŽAVANJE I ODLAZAK NA STRANU REČI');
     const pDark = await browser.newPage();
-    // Prva strana u pozadini skida definicije.json (20 MB) — lokalni server je
+    // Prva strana u pozadini skida definicije.json (20 MB) – lokalni server je
     // tada spor, pa podrazumevanih 30 s zna da istekne bez ijednog pravog kvara.
     pDark.setDefaultNavigationTimeout(120000);
     const darkGreske = [];
@@ -845,11 +845,11 @@ async function main() {
 
     // Vlasnica je 29.07.2026. prijavila tri stvari koje merenje pre toga nije
     // videlo: reč koja uđe u polje se ne vidi, tabela na /slogovi/ se ne vidi, a
-    // linkovi u tekstu se „jedva čitaju". Sve tri su bile ista greška — boja
+    // linkovi u tekstu se „jedva čitaju". Sve tri su bile ista greška – boja
     // teksta se menja sa temom, a podloga (ili boja linka) ne. Ova provera meri
     // SVAKI vidljivi tekst na više strana i tabova, u OBE teme, sa upisanim
     // sadržajem, i pada ako ijedan padne ispod praga.
-    console.log('\n10c) KONTRAST U OBE TEME — svaki tekst, sa upisanim sadržajem');
+    console.log('\n10c) KONTRAST U OBE TEME – svaki tekst, sa upisanim sadržajem');
     const MERI_KONTRAST = () => {
       const lum = c => {
         const m = (c || '').match(/[\d.]+/g);
@@ -919,7 +919,7 @@ async function main() {
         const svoj = [...e.childNodes].filter(n => n.nodeType === 3 && n.textContent.trim()).map(n => n.textContent).join(' ');
         if (svoj.trim()) proveri(e, svoj);
       });
-      // polja se mere SA UPISANOM VREDNOŠĆU — vrednost živi u `.value`, ne u `textContent`
+      // polja se mere SA UPISANOM VREDNOŠĆU – vrednost živi u `.value`, ne u `textContent`
       document.querySelectorAll('input:not([type=checkbox]):not([type=radio]), textarea, [contenteditable]').forEach(e => {
         proveri(e, e.value !== undefined ? e.value : e.textContent);
       });
@@ -928,14 +928,14 @@ async function main() {
 
     // JEDNA strana za svih 12 merenja, namerno. Svaki `browser.newPage()` pravi
     // nov kontekst sa praznim kešom, pa bi svako merenje iznova skinulo reci.txt
-    // (2,6 MB) i definicije.json (20 MB) — 12 × 22 MB obori lokalni server i test
+    // (2,6 MB) i definicije.json (20 MB) – 12 × 22 MB obori lokalni server i test
     // padne bez ijednog pravog kvara.
     const pk = await browser.newPage();
     for (const tema of ['tamna', 'svetla']) {
       for (const [put, tab] of [['/', null], ['/', 'slogovi'], ['/', 'beleznica'], ['/', 'klasici'],
                                 ['/slogovi/', null], ['/rime-za/ljubav/', null]]) {
         await pk.goto(BASE + put, { waitUntil: 'domcontentloaded' });
-        // Tema se postavlja I preko klase, ne samo preko localStorage — da provera
+        // Tema se postavlja I preko klase, ne samo preko localStorage – da provera
         // radi i protiv STARE verzije, gde se tema pri učitavanju gubila (K1).
         await pk.evaluate(t => {
           try { localStorage.setItem('rimoteka_dark', t === 'tamna' ? '1' : '0'); } catch (e) {}
@@ -962,18 +962,18 @@ async function main() {
         const n = await pk.evaluate(MERI_KONTRAST);
         const ime = put + (tab ? ` [tab ${tab}]` : '');
         ok(`${tema} tema · ${ime} → svaki tekst čitljiv`, n === null,
-           n ? `${n.gde} „${n.tekst}" = ${n.odnos}:1 (treba ${n.prag}) — ${n.boja} na ${n.pozadina}` : '');
+           n ? `${n.gde} „${n.tekst}" = ${n.odnos}:1 (treba ${n.prag}) – ${n.boja} na ${n.pozadina}` : '');
       }
     }
     await pk.close();
 
     /* Do 30.07.2026. je logo bio Fredoka, a ostatak sajta Quicksand. Vlasnica je tog dana
-       odlučila: **jedan font na celoj temi** — Rubik. Razlog nije ukus nego kvar: Fredoka
-       NEMA slova č, ć, đ ni ђ ћ њ љ џ (izmereno — imala su tačno širinu sistemskog serifa),
+       odlučila: **jedan font na celoj temi** – Rubik. Razlog nije ukus nego kvar: Fredoka
+       NEMA slova č, ć, đ ni ђ ћ њ љ џ (izmereno – imala su tačno širinu sistemskog serifa),
        pa je svako „reč" u naslovu mešalo dva fonta, na svih 1.993 strane. Quicksand nema
        ćirilicu uopšte. Rubik ima sve, provereno merenjem širine glifa.
        Pravilo 8a i dalje važi: veličina i debljina logotipa se NE diraju. */
-    console.log('\n11) LOGO — mora ostati veliki, sa fontom Rubik (jedan font na celom sajtu)');
+    console.log('\n11) LOGO – mora ostati veliki, sa fontom Rubik (jedan font na celom sajtu)');
     const logo = await page.evaluate(() => {
       const el = document.querySelector('.brand-logo, .brand h1, .brand-h');
       if (!el) return { greska: 'nema logo' };
@@ -985,7 +985,7 @@ async function main() {
     ok('nijedan stari font nije ostao u logotipu', !/Fredoka|Quicksand|Fira Sans/i.test(logo.font || ''), `font: ${logo.font}`);
     ok('logo nije smanjen (font-size ≥ 32px)', logo.px >= 32, `${logo.px}px`);
 
-    console.log('\n12) SEO — jedan h1 po strani');
+    console.log('\n12) SEO – jedan h1 po strani');
     for (const put of ['/', '/rimovanje-reci/', '/rime-za/ljubav/']) {
       const p2 = await browser.newPage();
       const resp = await p2.goto(BASE + put, { waitUntil: 'domcontentloaded' });
@@ -1005,7 +1005,7 @@ async function main() {
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
          pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
-         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         namerne blokade, ne kvar sajta – inače bi provera „nula grešaka" padala uvek
          i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
       if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
       if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
@@ -1026,7 +1026,7 @@ async function main() {
       }
     }
     ok('/rimovanje-reci/ → rečnik se učitao u alatu', alatRecnik, 'nije stigao');
-    // sinonimi.json (2 MB) se učitava u pozadini — na produkciji stigne posle
+    // sinonimi.json (2 MB) se učitava u pozadini – na produkciji stigne posle
     // rečnika, pa ga sačekamo pre provere grupe „Sinonimi"
     await pAlat.waitForFunction(() => typeof SYNONYMS !== 'undefined' && Object.keys(SYNONYMS).length > 0,
                                 { timeout: 180000 }).catch(() => {});
@@ -1058,7 +1058,7 @@ async function main() {
     ok('/rimovanje-reci/ → rime za „ljubav" rade NA STRANI', (alat.broj || 0) > 5,
        JSON.stringify(alat).slice(0, 140));
     ok('/rimovanje-reci/ → poznata rima „grbav" je tu', alat.imaGrbav === true, `dobio ${alat.broj} rima`);
-    /* Sinonimi su od 20.08.2026. kurirani (bez mašinskog šuma) — proverava se
+    /* Sinonimi su od 20.08.2026. kurirani (bez mašinskog šuma) – proverava se
        na kuriranoj reči („sunce"), jer „ljubav" kurirani sinonim još nema. */
     const sinNaStrani = await pAlat.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
@@ -1075,7 +1075,7 @@ async function main() {
     await pAlat.close();
 
     console.log('\n12c) ŽIVI BROJAČ na /slogovi/');
-    // Strana cilja „brojanje slogova i karaktera" — mora da IMA brojač, ne samo
+    // Strana cilja „brojanje slogova i karaktera" – mora da IMA brojač, ne samo
     // tekst o njemu. I ne sme da skida rečnik (2,6 MB) koji joj ne treba.
     const pSlog = await browser.newPage();
     const slogGreske = [], slogZahtevi = [];
@@ -1086,7 +1086,7 @@ async function main() {
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
          pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
-         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         namerne blokade, ne kvar sajta – inače bi provera „nula grešaka" padala uvek
          i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
       if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
       if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
@@ -1120,7 +1120,7 @@ async function main() {
     ok('/slogovi/ → broji slogove po redu', slog.brojevi === '12,6,2', slog.brojevi);
     ok('/slogovi/ → pokazuje i broj znakova (na hover)', /znak/.test(slog.znakovi || ''), slog.znakovi);
     ok('/slogovi/ → tekst se ne ponavlja ispod polja', slog.ponovljen === 0, `${slog.ponovljen}`);
-    // Oblik zavisi od broja (61 znak · 2 znaka · 5 znakova) — zato koren, ne ceo oblik.
+    // Oblik zavisi od broja (61 znak · 2 znaka · 5 znakova) – zato koren, ne ceo oblik.
     ok('/slogovi/ → ukupan zbir ima slogove, reči i znakove',
        /slog/.test(slog.ukupno) && /reč|reči/.test(slog.ukupno) && /znak/.test(slog.ukupno), slog.ukupno);
     ok('/slogovi/ → naslov cilja i karaktere', /karaktera/i.test(slog.naslov || ''), slog.naslov);
@@ -1143,7 +1143,7 @@ async function main() {
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
          pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
-         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         namerne blokade, ne kvar sajta – inače bi provera „nula grešaka" padala uvek
          i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
       if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
       if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
@@ -1201,13 +1201,13 @@ async function main() {
     /* Bag 28.07.2026: ko je ikad nešto napisao u beležnici, na početnoj je
        dočekivala poruka „Učitavam rečnik…" iako nije upisao nijednu reč.
        Beležnica pri učitavanju računa rime za reč pod kursorom i za to
-       POZAJMLJUJE vidljivi panel #rimeResults — pa je u njemu ostajala poruka.
+       POZAJMLJUJE vidljivi panel #rimeResults – pa je u njemu ostajala poruka.
        Panel na početnoj mora da bude prazan dok korisnik sam ne zatraži rime. */
     const pCist = await browser.newPage();
     await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
     await pCist.evaluate(() => localStorage.setItem('rimoteka_notes', 'Volim te ko nada\nzvezda sja u tami'));
     await pCist.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
-    /* Od 31.07.2026. panel NIJE prazan — u njemu stoji prazno stanje (`.prazno-stanje`),
+    /* Od 31.07.2026. panel NIJE prazan – u njemu stoji prazno stanje (`.prazno-stanje`),
        tekst koji jedini kaže da uz rime idu značenje, sinonimi i beležnica. Provera zato
        više ne traži prazan panel nego ono zbog čega je i nastala: da tu NEMA rima ni
        poruke o učitavanju dok korisnik sam ne zatraži. Tražiti doslovno prazno značilo bi
@@ -1235,7 +1235,7 @@ async function main() {
       document.getElementById('rimeBtn').click();
       await w(700);
       const pre = document.querySelectorAll('#rimeResults .chip').length;
-      // beležnica u međuvremenu računa svoje rime — ne sme da obriše tuđe rezultate
+      // beležnica u međuvremenu računa svoje rime – ne sme da obriše tuđe rezultate
       document.dispatchEvent(new Event('selectionchange'));
       await w(900);
       return { pre, posle: document.querySelectorAll('#rimeResults .chip').length };
@@ -1279,7 +1279,7 @@ async function main() {
     await pPis2.close();
 
     console.log('\n12g) ĆIRILICA PREBACUJE CEO TEKST, NA SVIM TIPOVIMA STRANA');
-    /* Prekidač je ranije menjao samo okvir alata i rezultate — naslov, uvod,
+    /* Prekidač je ranije menjao samo okvir alata i rezultate – naslov, uvod,
        SEO tekst i odgovori na česta pitanja ostajali su na latinici. Uz to ga
        generisane strane uopšte nisu ni imale u zaglavlju. Ne sme da se prebaci:
        logo (pravilo 8a), mejl adresa i skraćenice (PDF, ABAB). */
@@ -1301,7 +1301,7 @@ async function main() {
           logo: (document.querySelector('.brand-word') || {}).textContent || '',
           /* Adresa za saradnju je od 02.08.2026. `eureka@`, ne više `info@`.
              `info@` i dalje radi kao rezerva, ali se NIGDE na sajtu ne
-             prikazuje — zato se ovde traži nova, a stara se proverava zasebno
+             prikazuje – zato se ovde traži nova, a stara se proverava zasebno
              (niže) da nije negde ostala. */
           mejl: document.body.innerText.includes('eureka@rimoteka.com'),
           mejlHref: [...document.querySelectorAll('a[href^="mailto:"]')]
@@ -1317,7 +1317,7 @@ async function main() {
         ok(`${put} → skraćenice ostaju latinicom`,
            !/ПДФ|АБАБ|ААББ/.test(r.maticniTekst),
            (r.maticniTekst.match(/ПДФ|АБАБ|ААББ/g) || []).join(','));
-        /* Adresa se od 03.08.2026. više NE ispisuje — nosi je dugme „Saradnja"
+        /* Adresa se od 03.08.2026. više NE ispisuje – nosi je dugme „Saradnja"
            preko `mailto:`. Provera zato gleda samu adresu u `href`-u: ono zbog
            čega je nastala (da se `eureka` ne pretvori u `еурека`) i dalje važi. */
         if (put === '/') ok('početna → mejl adresa se ne prebacuje u ćirilicu',
@@ -1332,7 +1332,7 @@ async function main() {
     /* Digrafi su ovde cela poenta: posle „l" stoji „л", ali čim stigne „j"
        ceo niz mora da se pročita kao „lj" → „љ" (ne „лј"). Zato se prebacuje
        preko latinice, a ne slovo po slovo.
-       Beležnica se NAMERNO ne dira — tamo je tekst korisnika. */
+       Beležnica se NAMERNO ne dira – tamo je tekst korisnika. */
     const pU = await browser.newPage();
     await pU.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
     await pU.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0,
@@ -1362,16 +1362,16 @@ async function main() {
     await pauza(600);
     const pesmaTekst = await pU.evaluate(() => document.getElementById('noteEditor').innerText.trim());
     /* PROMENJENO 29.07.2026. na odluku vlasnice. Ranije je ovde stajalo
-       „beležnica se NE prekucava u ćirilicu (tekst je korisnikov)" — namerno
+       „beležnica se NE prekucava u ćirilicu (tekst je korisnikov)" – namerno
        ponašanje, koje je u praksi značilo da je pola strane ćirilica a pesma
        latinica. Sada i beležnica prati pismo, u oba smera (sekcija 21). */
-    ok('i beležnica prati pismo — otkucano u ćirilici je ćirilica',
+    ok('i beležnica prati pismo – otkucano u ćirilici je ćirilica',
        pesmaTekst === 'моја песма', pesmaTekst);
     await pU.close();
 
     console.log('\n12i) NIŠTA NE IZLAZI IZVAN OKVIRA ČIPA');
     /* Kolona je bila uža (11.5rem) od sadržaja čipa, a čip nije smeo da prelomi
-       sadržaj — pa je ikonica „nađi rime" stajala IZVAN pilule. Videlo se samo
+       sadržaj – pa je ikonica „nađi rime" stajala IZVAN pilule. Videlo se samo
        na širem ekranu i najviše kod grupe „dobre rime", gde je okvir beo na
        belom. Meri se na više širina jer se na telefonu bag NIJE video. */
     for (const sirina of [1440, 1024, 390]) {
@@ -1392,11 +1392,11 @@ async function main() {
               const eb = e.getBoundingClientRect();
               /* Od 31.07.2026. su ⓘ ♡ 🔁 na telefonu sklonjeni iz pilule i
                  pojavljuju se iznad reči na dodir. Sakriven element ima
-                 pravougaonik 0×0 na koordinati 0,0 — što je levo od čipa, pa
+                 pravougaonik 0×0 na koordinati 0,0 – što je levo od čipa, pa
                  bi ga ova provera prijavila kao „viri". Ne vidi se uopšte,
                  dakle ne može da viri; ono što se VIDI i dalje se meri. */
               if (eb.width === 0 && eb.height === 0) return;
-              // 2px tolerancije — okvir čipa je debeo 2px
+              // 2px tolerancije – okvir čipa je debeo 2px
               if (eb.right > cb.right - 2 || eb.left < cb.left + 2) {
                 viri++;
                 if (!najgore) najgore = `${c.querySelector('.word').textContent}: ${Math.round(eb.right - cb.right)}px`;
@@ -1416,7 +1416,7 @@ async function main() {
     // na njima nema `app.js` (prekidač za pismo i tamni režim = mrtva dugmad),
     // nema `#toast` ni `#printArea`, a „Kopiraj sve rime" je bio inline
     // `onclick` koji CSP blokira. Nalazi V1, V2, K6, S5, S6, N9.
-    console.log('\n12j) STRANA REČI /rime-za/ljubav/ — alat, ne samo tekst');
+    console.log('\n12j) STRANA REČI /rime-za/ljubav/ – alat, ne samo tekst');
     const ctxRec = await browser.newContext({ permissions: ['clipboard-read', 'clipboard-write'] });
     const pRec = await ctxRec.newPage();
     pRec.setDefaultNavigationTimeout(120000);
@@ -1428,7 +1428,7 @@ async function main() {
       if (/fonts\.googleapis|fonts\.gstatic/.test((m.location() && m.location().url) || '')) return;
       /* Od 26.08.2026. test SAM blokira Google-ovu analitiku (v. `chromium.launch`),
          pa pregledač za nju prijavi `ERR_CONNECTION_REFUSED`. To je posledica naše
-         namerne blokade, ne kvar sajta — inače bi provera „nula grešaka" padala uvek
+         namerne blokade, ne kvar sajta – inače bi provera „nula grešaka" padala uvek
          i prestala da išta znači. Isti izuzetak već postoji u globalnom osluškivaču. */
       if (/googletagmanager|google-analytics|analytics\.google/.test(t)) return;
       if (/googletagmanager|google-analytics|analytics\.google/.test((m.location() && m.location().url) || '')) return;
@@ -1476,7 +1476,7 @@ async function main() {
     });
     ok('/rime-za/ljubav/ → dugme „ћирилица" zaista prebacuje reči u ćirilicu',
        pismoRec.cirilica === true && pismoRec.pre !== pismoRec.posle,
-       `„${pismoRec.pre}" → „${pismoRec.posle}"${pismoRec.greska ? ' — ' + pismoRec.greska : ''}`);
+       `„${pismoRec.pre}" → „${pismoRec.posle}"${pismoRec.greska ? ' – ' + pismoRec.greska : ''}`);
 
     // „Kopiraj sve rime": ranije inline onclick koji CSP blokira. Dugme koje
     // ne promeni tekst posle klika je mrtvo dugme, ma šta pisalo na njemu.
@@ -1490,8 +1490,8 @@ async function main() {
       return { pre, posle: b.textContent.trim(), reci: (b.dataset.words || '').length };
     });
     ok('/rime-za/ljubav/ → „Kopiraj sve rime" reaguje na klik', kopiraj.posle === 'Kopirano!',
-       `„${kopiraj.pre}" → „${kopiraj.posle}"${kopiraj.greska ? ' — ' + kopiraj.greska : ''}`);
-    // Kontrast se meri u OBE teme i sa stvarnim tekstom — pozadina tvrdo upisana
+       `„${kopiraj.pre}" → „${kopiraj.posle}"${kopiraj.greska ? ' – ' + kopiraj.greska : ''}`);
+    // Kontrast se meri u OBE teme i sa stvarnim tekstom – pozadina tvrdo upisana
     // u CSS-u uz boju koja se menja sa temom je obrazac koji je već dao 1,23:1 na
     // glavnom polju (K2) i 1,15:1 na definiciji reči kad je tamni režim stigao
     // na ove strane. Merenje ide na SAMOM elementu, ne na roditelju.
@@ -1523,7 +1523,7 @@ async function main() {
         };
         let najgori = null;
         // `.landing-meta` je namerno izostavljen: on koristi `--muted`, koji u
-        // svetloj temi daje 2,90:1 na CELOM sajtu — to je zaseban, već zaveden
+        // svetloj temi daje 2,90:1 na CELOM sajtu – to je zaseban, već zaveden
         // nalaz S8. Kad se S8 popravi, `.landing-meta` se dodaje ovde.
         ['.landing-def', '.landing-def strong', '.chip .word', '.chip .syl',
          '.landing-lead', '.landing-faq summary'].forEach(sel => {
@@ -1543,10 +1543,10 @@ async function main() {
 
     console.log('\n14) GLAVNO DUGME NIJE U TIHOM REŽIMU + PORUKE NA NEVALIDAN UNOS');
     /* Nalaz V3: `onclick = doRhymes` je prosleđivao `MouseEvent` kao zastavicu
-       `silent`, pa je svaki klik radio tiho — bez `?rec=` u URL-u i bez GA4.
+       `silent`, pa je svaki klik radio tiho – bez `?rec=` u URL-u i bez GA4.
        Nalaz V4: zbog istog uzroka je na „a", „123", „😀" panel ostajao PRAZAN.
        Nalaz N2: „constructor" je rušio prikaz (`excluded.has is not a function`).
-       Sve tri provere su puštene protiv produkcije dok je tamo bio stari kod —
+       Sve tri provere su puštene protiv produkcije dok je tamo bio stari kod –
        i sve tri su pale. */
     {
       const g14 = await browser.newPage();
@@ -1562,7 +1562,7 @@ async function main() {
       ok('V3 klik na dugme upisuje ?rec= u URL',
          new URL(g14.url()).searchParams.get('rec') === 'ljubav', g14.url());
 
-      // klik i Enter moraju da vode istim putem — ranije su se razlikovali
+      // klik i Enter moraju da vode istim putem – ranije su se razlikovali
       await g14.fill('#rimeInput', 'nada');
       await g14.press('#rimeInput', 'Enter');
       await pauza(400);
@@ -1684,7 +1684,7 @@ async function main() {
       await g15.close();
     }
 
-    console.log('\n15b) URL PRATI TAB — adresa je stanje (V7, N3)');
+    console.log('\n15b) URL PRATI TAB – adresa je stanje (V7, N3)');
     /* Ranije je adresa ostajala `/?rec=ljubav` na svih 7 tabova: nije bilo
        deljivog linka, „Nazad" nije radio, osvežavanje je vraćalo na rime. */
     {
@@ -1736,7 +1736,7 @@ async function main() {
       await g15c.close();
     }
 
-    console.log('\n16) SAJT NE UMIRE — zabranjen i pokvaren localStorage (K4, K5)');
+    console.log('\n16) SAJT NE UMIRE – zabranjen i pokvaren localStorage (K4, K5)');
     /* Reprodukovano na produkciji: oba slučaja daju 0 rima. Zabranjen pristup
        baca `SecurityError` još pri čitanju, a to je stajalo IZNAD `const VOWELS`,
        pa je i sigurnosna mreža pucala na TDZ grešci. */
@@ -1792,7 +1792,7 @@ async function main() {
         await w(700);
         return (document.getElementById('rimeResults').textContent || '').trim();
       });
-      ok('loadDict proverava r.ok — HTML strana greške NIJE rečnik',
+      ok('loadDict proverava r.ok – HTML strana greške NIJE rečnik',
          !/Nema rime/i.test(t), `„${t.slice(0, 80)}"`);
       await p16b.close();
     }
@@ -1871,9 +1871,9 @@ async function main() {
       await p16e.close();
     }
 
-    console.log('\n17) ĆIRILICA — kucanje, naslovi, legenda, sinonimi, igra, bojenje (S3, S4, N14)');
+    console.log('\n17) ĆIRILICA – kucanje, naslovi, legenda, sinonimi, igra, bojenje (S3, S4, N14)');
     /* Sve provere iz ove sekcije puštene su protiv produkcije dok je tamo bio
-       stari kod — svih deset je palo, uključujući „надживети" → „наџивети". */
+       stari kod – svih deset je palo, uključujući „надживети" → „наџивети". */
     {
       const p17 = await browser.newPage();
       await p17.goto(BASE, { waitUntil: 'domcontentloaded' });
@@ -1918,8 +1918,8 @@ async function main() {
         uputstvo: (document.querySelector('.game-instruction')?.textContent || '').trim(),
         proveri: (document.getElementById('gameSubmit')?.textContent || '').trim(),
       }));
-      ok('ekran igre nije pola latinica — uputstvo', /Нађи риму/i.test(igra.uputstvo), igra.uputstvo);
-      ok('ekran igre nije pola latinica — dugme „Провери"', /Провери/i.test(igra.proveri), igra.proveri);
+      ok('ekran igre nije pola latinica – uputstvo', /Нађи риму/i.test(igra.uputstvo), igra.uputstvo);
+      ok('ekran igre nije pola latinica – dugme „Провери"', /Провери/i.test(igra.proveri), igra.proveri);
 
       // S4: bojenje rima mora da radi i kad je pesma ćirilicom
       await p17.click('#tabs [data-tab="beleznica"]');
@@ -1928,7 +1928,7 @@ async function main() {
       await p17.click('#noteEditor');
       await p17.keyboard.type('Пада киша\nЈа сам тиша');
       /* Bojenje ide na odloženo iscrtavanje (500 ms) i traži učitan rečnik, pa
-         fiksno čekanje od 1,5 s protiv PRODUKCIJE ume da promaši — pao je
+         fiksno čekanje od 1,5 s protiv PRODUKCIJE ume da promaši – pao je
          jednom 29.07.2026, a izolovano na istom sajtu radio. Fiksno čekanje se
          zato menja čekanjem na sam ishod: provera i dalje pada ako bojenja
          nema, ali više ne prijavljuje kvar tamo gde je uzrok bio sporija mreža. */
@@ -1960,7 +1960,7 @@ async function main() {
       await pauza(2500);
       const t3 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
       ok('S7 odbrojavanje se NASTAVLJA po povratku', Number(t3) < Number(t2), `${t2} → ${t3}`);
-      /* Povratak na tab ne sme da vrati POČETNI ekran — inače bi odbrojavanje
+      /* Povratak na tab ne sme da vrati POČETNI ekran – inače bi odbrojavanje
          teklo nevidljivo iza njega, a partija bi se izgubila. */
       const ekran = await p17b.evaluate(() => ({
         igra: getComputedStyle(document.getElementById('gamePlay')).display,
@@ -1972,9 +1972,9 @@ async function main() {
       await p17b.close();
     }
 
-    console.log('\n18) DEČJI REŽIM — sedam pogrešno blokiranih reči, vulgarne ostaju (K3, odeljak 1)');
+    console.log('\n18) DEČJI REŽIM – sedam pogrešno blokiranih reči, vulgarne ostaju (K3, odeljak 1)');
     /* Lista `BLOCKED` je pisana bez kvačica, pa je umesto vulgarnog „pišati"
-       hvatala obično „pisati" — na sajtu za pisanje pesama. Vlasnica je odobrila
+       hvatala obično „pisati" – na sajtu za pisanje pesama. Vlasnica je odobrila
        uklanjanje tačno sedam reči: pisao, pisa, krvavi, krvava, krvavo,
        smetlar, kura. Vulgarne ostaju blokirane i to se ovde proverava. */
     {
@@ -1982,7 +1982,7 @@ async function main() {
       await p18.goto(BASE, { waitUntil: 'domcontentloaded' });
       await p18.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
 
-      // pretraga rečnika je NAJDIREKTNIJA provera liste — rangiranje ne utiče
+      // pretraga rečnika je NAJDIREKTNIJA provera liste – rangiranje ne utiče
       const pretrazi = async q => p18.evaluate(async (q) => {
         const w = ms => new Promise(r => setTimeout(r, ms));
         document.querySelector('#searchMode').value = 'contains';
@@ -2039,10 +2039,10 @@ async function main() {
           lead: document.querySelector('.landing-lead')?.textContent || '',
           cta: document.querySelector('.landing-cta')?.getAttribute('href') || ''
         }));
-        /* Obrazac hvata PADEŽE — srpski je padežan jezik, pa „sa dečjim režimom" i „uključi
+        /* Obrazac hvata PADEŽE – srpski je padežan jezik, pa „sa dečjim režimom" i „uključi
            dečji režim" moraju oba da prođu. Do 31.07.2026. je tražen samo nominativ
            („dečji režim"), pa je provera pala na tekstu koji uredno pominje režim u
-           instrumentalu. Provera ne sme da diktira padež — samo da traži da je pomenut. */
+           instrumentalu. Provera ne sme da diktira padež – samo da traži da je pomenut. */
         ok(`${s} pominje dečji režim umesto da tvrdi da je uvek uključen`,
            /dečj\w*\s+režim\w*/i.test(d.lead), d.lead.slice(0, 90));
         ok(`${s} dugme vodi na alat sa uključenim režimom`, /decji=1/.test(d.cta), d.cta);
@@ -2050,16 +2050,16 @@ async function main() {
       await p18b.close();
     }
 
-    console.log('\n19) SEO I STRUKTURA — hub /rime-za/, breadcrumb, naslovi, robots, društvena slika');
+    console.log('\n19) SEO I STRUKTURA – hub /rime-za/, breadcrumb, naslovi, robots, društvena slika');
     {
       const p19 = await browser.newPage();
       /* Niže se namerno otvara /ova-strana-ne-postoji-xyz/ da bi se proverila
          404 strana. Obrazac mora da pokrije OBA oblika poruke: lokalni server
-         šalje „404 (Not Found)", a nginx na produkciji „404 ()" — sa praznom
+         šalje „404 (Not Found)", a nginx na produkciji „404 ()" – sa praznom
          zagradom. Prva verzija je hvatala samo lokalni oblik, pa je provera
          prošla lokalno a pala protiv produkcije. */
       ocekujGreske(p19, /status of 404/);
-      // /rime-za/ je vraćao 403 — ceo srednji nivo strukture nije postojao
+      // /rime-za/ je vraćao 403 – ceo srednji nivo strukture nije postojao
       const odg = await p19.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
       ok('/rime-za/ vraća 200 (ranije 403)', odg && odg.status() === 200, `status ${odg && odg.status()}`);
       const hub = await p19.evaluate(() => ({
@@ -2079,7 +2079,7 @@ async function main() {
       }));
       // S9: strane za mama/tata/deka… uopšte nisu postojale (404)
       ok('S9 /rime-za/mama/ postoji', /mama/i.test(rec.title), rec.title);
-      /* PADEŽ U NASLOVU — pravilo, ne određen tekst.
+      /* PADEŽ U NASLOVU – pravilo, ne određen tekst.
          „Rime za mama" je pogrešno (treba „za mamu"), a padež se NE SME izvoditi iz
          završetka: „-a" imaju i imenice, i pridevi, i glagoli. Ranije se to rešavalo
          umetanjem reči „reč" („Rime za reč „mama“"), pa je i provera tražila baš taj
@@ -2095,11 +2095,11 @@ async function main() {
       ok('naslov nema „N reči koje" kad je N%10===1',
          !/\b\d*1 reči koje/.test(rec.title), rec.title);
       ok('breadcrumb ima sva tri nivoa', rec.mrve.length >= 3, rec.mrve.join(' › '));
-      /* Uvod je 31.07.2026. prepisan („Sve što se rimuje sa „mama" — 86 reči…"), pa provera
+      /* Uvod je 31.07.2026. prepisan („Sve što se rimuje sa „mama" – 86 reči…"), pa provera
          više ne traži predikat nego ono zbog čega je i postojala: da se OBLIK reči slaže sa
-         brojem. U srpskom oblik zavisi od POSLEDNJE cifre — 1 reč, 2 reči, 21 reč, 11 reči. */
+         brojem. U srpskom oblik zavisi od POSLEDNJE cifre – 1 reč, 2 reči, 21 reč, 11 reči. */
       /* NE koristiti \b: u JS-u je granica reči definisana samo nad [A-Za-z0-9_], pa „č“
-         važi kao NE-slovo — zbog toga „reč\b“ pogađa i unutar „reči“ i provera daje
+         važi kao NE-slovo – zbog toga „reč\b“ pogađa i unutar „reči“ i provera daje
          tačno obrnut rezultat. Zato duži oblik ide prvi i traži se da posle njega
          nema slova (\p{L} uz zastavicu u). */
       /* Od 07.09.2026 uvod kaže „N pravih rima" (nalaz N-08: strana crta i bliske rime, pa
@@ -2112,9 +2112,9 @@ async function main() {
       ok('og:image je društvena slika 1200×630', /og-slika\.png/.test(rec.og), rec.og);
       ok('twitter:card je summary_large_image', rec.tw === 'summary_large_image', rec.tw);
 
-      // robots.txt — do 19.08.2026. je gasio ~50.000 parametarskih duplikata
+      // robots.txt – do 19.08.2026. je gasio ~50.000 parametarskih duplikata
       // početne; tada je `?rec=` NAMERNO odblokiran (dinamičke adrese su SEO
-      // nosilac za reči bez statičke strane — v. sekciju 2b). Blokirani moraju
+      // nosilac za reči bez statičke strane – v. sekciju 2b). Blokirani moraju
       // ostati ostali upitnici.
       await p19.goto(BASE + '/robots.txt', { waitUntil: 'domcontentloaded' });
       const rb = await p19.evaluate(() => document.body.innerText);
@@ -2133,7 +2133,7 @@ async function main() {
       await p19.close();
     }
 
-    console.log('\n19b) PRISTUPAČNOST — najava rezultata, tastatura, imena polja (N1, N5, N7, N8)');
+    console.log('\n19b) PRISTUPAČNOST – najava rezultata, tastatura, imena polja (N1, N5, N7, N8)');
     {
       const p19b = await browser.newPage();
       await p19b.goto(BASE, { waitUntil: 'domcontentloaded' });
@@ -2163,13 +2163,13 @@ async function main() {
       ok('N8 aktivan tab ima aria-current', a11y.aktivan === 'page', a11y.aktivan);
       ok('N6 dugme ♡ ima ime, ne samo emodži', a11y.srce.length > 3, a11y.srce);
 
-      // N13 — escapeHtml mora da štiti i navodnike
+      // N13 – escapeHtml mora da štiti i navodnike
       const esc = await p19b.evaluate(() => escapeHtml('a"b\'c<d>&'));
       ok('N13 escapeHtml štiti i navodnike', /&quot;/.test(esc) && /&#39;/.test(esc), esc);
       await p19b.close();
     }
 
-    console.log('\n19c) PERFORMANSE — rečnik se ne skida bez potrebe, pretraga čeka rečnik (V5)');
+    console.log('\n19c) PERFORMANSE – rečnik se ne skida bez potrebe, pretraga čeka rečnik (V5)');
     {
       const p19c = await browser.newPage();
       const zahtevi = [];
@@ -2198,7 +2198,7 @@ async function main() {
 
     console.log('\n19d) KONTRAST NA EKRANU IGRE U TAMNOM REŽIMU');
     /* Ekran igre nikad nije bio meren u tamnom režimu: brojač igrača i reči
-       (`.game-value`) padao je na 4,13:1 — ispod praga 4,5:1. Uzrok je isti
+       (`.game-value`) padao je na 4,13:1 – ispod praga 4,5:1. Uzrok je isti
        obrazac kao K2: podloga tvrdo upisana (`rgba(90,63,208,.09)`), a boja
        teksta promenljiva koja se menja sa temom. */
     {
@@ -2236,8 +2236,8 @@ async function main() {
       await p19e.close();
     }
 
-    console.log('\n20) TAB „OMILJENE" — funkcionalna provera, ne samo visina panela');
-    /* Nalaz iz dopune: sekcija 4 je bila lažno zelena — merila je samo da panel
+    console.log('\n20) TAB „OMILJENE" – funkcionalna provera, ne samo visina panela');
+    /* Nalaz iz dopune: sekcija 4 je bila lažno zelena – merila je samo da panel
        ima visinu. Ni jedno srce nikad nije bilo kliknuto. */
     {
       const p20 = await browser.newPage();
@@ -2255,7 +2255,7 @@ async function main() {
       await p20.click('.chip-actions .ca-btn[data-act="fav"]');
       await pauza(400);
       /* Od 02.08.2026. sačuvana reč više NE dobija puno srce nego PUNU
-         LJUBIČASTU NOTU — isti crtež kao note u futeru (zahtev vlasnice).
+         LJUBIČASTU NOTU – isti crtež kao note u futeru (zahtev vlasnice).
          Zato se ne gleda tekst dugmeta nego: da li je nota vidljiva, da li je
          srce sklonjeno i da li je nota u boji note, a ne u boji srca. */
       const posle = await p20.evaluate(() => {
@@ -2308,7 +2308,7 @@ async function main() {
 
     console.log('\n20b) TRI OPCIJE GLAVNOG ALATA ZAISTA MENJAJU REZULTAT');
     /* Nalaz iz dopune: „i šire rime", „ijekavica" i „dečji režim" imali su NULA
-       provera — a ceo test rima je počivao na reči „ljubav", kod koje nijedna
+       provera – a ceo test rima je počivao na reči „ljubav", kod koje nijedna
        od tri opcije ne pravi razliku. Zato se ovde biraju druge reči. */
     {
       const p20b = await browser.newPage();
@@ -2342,10 +2342,10 @@ async function main() {
          Provera je ranije koristila „mrak" i uvek prolazila kao pad: nijedna od
          125 rima za „mrak" (brak, rak, zrak, krak, frak…) NIJE u KIDS_BLOCKED,
          pa režim nije imao šta da izbaci. Kod je bio ispravan, reč pogrešna.
-         „brat" je izabran jer mu je „rat" prava rima i jeste u KIDS_BLOCKED —
+         „brat" je izabran jer mu je „rat" prava rima i jeste u KIDS_BLOCKED –
          izmereno: 119 → 118, nestaje tačno „rat". (Isto važi za „sat" i „vrat".)
          PRAVILO 18 iz PROPUSTI.md: dozvoljenost reči se meri na najkraćem putu,
-         a ne preko rangiranja — zato se dole poredi SPISAK, ne samo broj. */
+         a ne preko rangiranja – zato se dole poredi SPISAK, ne samo broj. */
       const bezDecjeg = await broj('krevetu');
       const imaRat = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
       await p20b.check('#kidsToggle');
@@ -2353,14 +2353,14 @@ async function main() {
       const saDecjim = await p20b.evaluate(() => [...document.querySelectorAll('#rimeResults .word')].map(e => e.textContent.trim()));
       /* NE poredi se BROJ rezultata: lista je odsečena (90 po grupi), pa čim
          jedna reč ispadne, sledeća po redu popuni njeno mesto i zbir ostane
-         isti — 180 → 180. Prva verzija ove provere je baš tako pala na
+         isti – 180 → 180. Prva verzija ove provere je baš tako pala na
          ISPRAVNOM kodu. Pravilo 18 iz PROPUSTI.md: dozvoljenost reči se meri
          na najkraćem putu, ne preko rangiranja i odsecanja. Zato se gleda samo
          da li je TA reč nestala sa spiska. */
       ok('dečji režim izbacuje reč u PADEŽU („krevetu" → „dupetu")',
          imaRat.includes('dupetu') && !saDecjim.includes('dupetu'),
          `${bezDecjeg} → ${saDecjim.length}, „dupetu" pre=${imaRat.includes('dupetu')} posle=${saDecjim.includes('dupetu')}`);
-      /* Odluka vlasnice 29.07.2026: „rat" i porodica NISU više blokirani —
+      /* Odluka vlasnice 29.07.2026: „rat" i porodica NISU više blokirani –
          deca se igraju rata i reč im nije strana. Provera to čuva, da se ne
          vrati tiho pri sledećoj izmeni liste. */
       const ratOstaje = await p20b.evaluate(async () => {
@@ -2389,10 +2389,10 @@ async function main() {
       await p20c.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       /* Očekivane rime su IZMERENE u alatu, ne pretpostavljene.
          Dva ranija para bila su izmišljena pa su provere padale na ispravnom kodu:
-         · „srce"/„sunce" — poklapa se samo „-ce"; alat ih spaja tek uz „i šire
+         · „srce"/„sunce" – poklapa se samo „-ce"; alat ih spaja tek uz „i šire
            rime", a ova sekcija radi u strogom režimu. Par se sada proverava dole,
            izričito sa uključenom opcijom.
-         · „nebo"/„rebro" — nije rima ni u širem režimu („-ebo" prema „-ebro").
+         · „nebo"/„rebro" – nije rima ni u širem režimu („-ebo" prema „-ebro").
          Zamene su potvrđene: pesma→česma, srce→perce, dete→pete, nebo→bebo,
          zima→rima, sunce→mladunce. */
       const primeri = [
@@ -2412,7 +2412,7 @@ async function main() {
            `prvih 6: ${r.slice(0, 6).join(', ')}`);
       }
 
-      /* „sunce"/„srce" je asonanca, ne prava rima — poklapa se samo „-ce".
+      /* „sunce"/„srce" je asonanca, ne prava rima – poklapa se samo „-ce".
          Zato mora da IZOSTANE u strogom režimu i da se POJAVI uz „i šire rime".
          Provera hvata obe strane: i da opcija radi, i da strogi režim ne popušta. */
       const strogo = await p20c.evaluate(() =>
@@ -2434,7 +2434,7 @@ async function main() {
       await p20c.close();
     }
 
-    console.log('\n20d) TAB „REČNIK" — sva tri režima pretrage i filter po slogovima');
+    console.log('\n20d) TAB „REČNIK" – sva tri režima pretrage i filter po slogovima');
     {
       const p20d = await browser.newPage();
       await p20d.goto(BASE + '/?tab=pretraga', { waitUntil: 'domcontentloaded' });
@@ -2454,7 +2454,7 @@ async function main() {
       const poc = await trazi('starts', 'cvet');
       /* Poređenje ide malim slovima: od 02.08.2026. u rečniku stoje i vlastita
          imena velikim slovom (`Cveta`, `Beograd`), pa `startsWith('cvet')` na
-         zapisu daje lažan pad — reč JESTE pogodak, samo počinje velikim C. */
+         zapisu daje lažan pad – reč JESTE pogodak, samo počinje velikim C. */
       ok('režim „počinje na…" vraća samo reči na „cvet"',
          poc.length > 2 && poc.every(w => w.toLowerCase().startsWith('cvet')),
          `${poc.length}: ${poc.slice(0, 3).join(', ')}`);
@@ -2476,7 +2476,7 @@ async function main() {
       const p20e = await browser.newPage();
       /* 35 navigacija jedna za drugom na istoj strani: svaka strana krene da skida
          `reci.txt`, a sledeća navigacija taj `fetch` prekine. „Failed to fetch" je
-         posledica gašenja strane, ne kvara sajta — status svake rute se proverava
+         posledica gašenja strane, ne kvara sajta – status svake rute se proverava
          zasebno, kroz `o.status()`. */
       ocekujGreske(p20e, /Failed to fetch/, /ERR_ABORTED/, /net::ERR_FAILED/);
       const rute = [
@@ -2502,7 +2502,7 @@ async function main() {
 
     console.log('\n20f) TAČKICE NAPRETKA U IGRI PRATE STVARAN REDOSLED (N4)');
     /* Ranije je stajalo `correct > i`, pa su PRVE tačkice uvek bile zelene:
-       promašiš prvu reč a pogodiš drugu — igra prikaže obrnuto. */
+       promašiš prvu reč a pogodiš drugu – igra prikaže obrnuto. */
     {
       const p20f = await browser.newPage();
       await p20f.goto(BASE + '/?tab=igra', { waitUntil: 'domcontentloaded' });
@@ -2514,7 +2514,7 @@ async function main() {
         const inp = document.getElementById('gameInput');
         const sub = document.getElementById('gameSubmit');
 
-        // 1. reč — namerno POGREŠNO (postoji u rečniku, ali se ne rimuje)
+        // 1. reč – namerno POGREŠNO (postoji u rečniku, ali se ne rimuje)
         const cilj1 = gameCurrentWord;
         let neRima = null;
         const k1 = rhymeKey(cilj1), lk1 = looseKey(cilj1);
@@ -2524,7 +2524,7 @@ async function main() {
         inp.value = neRima; sub.click();
         await w(1900);
 
-        // 2. reč — TAČNO
+        // 2. reč – TAČNO
         const cilj2 = gameCurrentWord;
         let rima = null;
         const k2 = rhymeKey(cilj2), lk2 = looseKey(cilj2);
@@ -2537,7 +2537,7 @@ async function main() {
         const tacke = [...document.querySelectorAll('#gameProgress .game-progress-dot')]
           .map(d => d.classList.contains('correct') ? 'tačno'
                   : d.classList.contains('wrong') ? 'netačno'
-                  : d.classList.contains('current') ? 'trenutna' : '—');
+                  : d.classList.contains('current') ? 'trenutna' : '–');
         return { tacke, neRima, rima, cilj1, cilj2 };
       });
       ok('N4 prva tačkica je NETAČNO (prva reč promašena)',
@@ -2558,7 +2558,7 @@ async function main() {
       const p20h = await browser.newPage();
       const syn = await p20h.goto(BASE + '/sinonimi.json', { waitUntil: 'domcontentloaded' })
         .then(r => r.json()).catch(() => null);
-      ok('sinonimi.json se učitava (kurirani — bez mašinskog šuma)',
+      ok('sinonimi.json se učitava (kurirani – bez mašinskog šuma)',
          syn && Object.keys(syn).length >= 2, syn ? `${Object.keys(syn).length}` : 'nije učitan');
       /* Odrednica je prepisana po Rečniku srpskoga jezika (Matica srpska, 2011),
          odrednica „сунце": 1б „централна ЗВЕЗДА неког другог космичког
@@ -2583,11 +2583,11 @@ async function main() {
     console.log('\n20g) SVI ČIPOVI STAJU U JEDAN RED (ikonice ne beže u drugi)');
     /* Prijava vlasnice 29.07.2026, sa slikom. Mreža je imala kolone fiksne
        širine (15rem), pa kod duže reči („dobročiniteljka", „bogomoljka",
-       „hraniteljka") ikonica „nađi rime" nije stala i selila se u drugi red —
+       „hraniteljka") ikonica „nađi rime" nije stala i selila se u drugi red –
        a pošto u mreži sve ćelije jedne vrste imaju istu visinu, jedan
        prelomljen čip razvlačio je i sve susede.
        Meri se VISINA čipa, ne položaj ikonica: ikonice i tekst imaju različitu
-       visinu pa im se vrhovi prirodno razlikuju i u jednom redu — poređenje
+       visinu pa im se vrhovi prirodno razlikuju i u jednom redu – poređenje
        vrhova daje lažan nalaz „sve je prelomljeno". Visina je jednoznačna. */
     {
       const p20g = await browser.newPage();
@@ -2598,7 +2598,7 @@ async function main() {
         const m = await p20g.evaluate(async () => {
           const w = ms => new Promise(r => setTimeout(r, ms));
           // „ljka" namerno: daje 100+ reči vrlo različite dužine, od „biljka"
-          // do „dobročiniteljka" — tačno raspon na kome je bag i nastao
+          // do „dobročiniteljka" – tačno raspon na kome je bag i nastao
           document.getElementById('searchMode').value = 'ends';
           document.getElementById('searchInput').value = 'ljka';
           document.getElementById('searchBtn').click();
@@ -2632,7 +2632,7 @@ async function main() {
        · pesma nalepljena na latinici ostajala je latinica i kad se sajt prebaci
          na ćirilicu (pola strane ćirilica, pesma latinica);
        · na američkom rasporedu nije bilo načina da se otkucaju `ћ ч ш ђ ж`;
-       · usput izmereno: lepljenje je GUTALO prelome redova — pesma od četiri
+       · usput izmereno: lepljenje je GUTALO prelome redova – pesma od četiri
          stiha postajala je jedan red, pa su nestali i slogovi po stihu i šema
          rime. To je najteži od tri, jer tiho uništava tuđi tekst. */
     {
@@ -2685,7 +2685,7 @@ async function main() {
          Beležnica se prazni TASTATUROM, ne pozivom unutrašnje funkcije: kad se
          ova sekcija pusti protiv produkcije na kojoj stoji stariji `app.js`,
          poziv nepostojeće funkcije obori ceo test i preostale provere se nikad
-         ne izvrše — a baš one treba da padnu i dokažu da valjaju. */
+         ne izvrše – a baš one treba da padnu i dokažu da valjaju. */
       await p21.click('#noteEditor');
       await p21.keyboard.press('ControlOrMeta+A');
       await p21.keyboard.press('Backspace');
@@ -2719,11 +2719,11 @@ async function main() {
          `„${await p21.inputValue('#rimeInput')}"`);
       ok('uputstvo o srpskim slovima se vidi u ćirilici', await p21.isVisible('#kbdHelp'), 'nije vidljivo');
 
-      /* Sledeće dve provere PROLAZE i na starom kodu — i tako treba da bude.
+      /* Sledeće dve provere PROLAZE i na starom kodu – i tako treba da bude.
          One nisu tu da dokažu da nova funkcija radi, nego da ne curi tamo gde
          joj nije mesto: u latinici uputstvo mora da ostane skriveno, a tasteri
          `[ ] ; ' \` moraju i dalje da daju interpunkciju. Ovo su kontrole
-         protiv preterivanja, ne provere funkcije — pravilo 17 iz PROPUSTI.md
+         protiv preterivanja, ne provere funkcije – pravilo 17 iz PROPUSTI.md
          („provera koja prođe na starom kodu ne valja") se na njih NE odnosi. */
       await naPismo('lat');
       ok('uputstvo je skriveno u latinici', !(await p21.isVisible('#kbdHelp')), 'vidi se i u latinici');
@@ -2743,18 +2743,18 @@ async function main() {
 
     console.log('\n22) OSVEŽAVANJE VRAĆA NA VRH STRANE, A „NAZAD" I DALJE PAMTI POLOŽAJ');
     /* Prijava vlasnice 29.07.2026: „ako sam na dnu strane, na futeru, i uradim
-       refresh — ostanem na futeru." Alat se osvežavanjem resetuje (polje prazno,
+       refresh – ostanem na futeru." Alat se osvežavanjem resetuje (polje prazno,
        rime nestanu), pa čovek gleda dno prazne strane, bez logotipa i bez polja.
        Izmereno na produkciji pre popravke: /rime-za/ljubav/ 1999,5 px → 1999,5 px.
 
        Dve provere, i obe su potrebne:
        · osvežavanje mora da vrati na 0;
-       · „Nazad" NE SME da izgubi položaj — na hubu `/rime-za/` ima 1.988 linkova
+       · „Nazad" NE SME da izgubi položaj – na hubu `/rime-za/` ima 1.988 linkova
          i ko se vrati sa jedne reči mora da nastavi odakle je stao. Popravka
          zato pali `scrollRestoration='manual'` samo za osvežavanje i vraća ga
          na `auto` posle učitavanja.
        Merenje ide 2× po strani, sa čekanjem, jer strana posle učitavanja PORASTE
-       (rime se vrate) — a baš tada pregledač pokušava da vrati stari položaj. */
+       (rime se vrate) – a baš tada pregledač pokušava da vrati stari položaj. */
     {
       const p22 = ojacajStranu(await browser.newPage());
 
@@ -2781,7 +2781,7 @@ async function main() {
            await p22.evaluate(() => history.scrollRestoration));
       }
 
-      // „Nazad" sa strane reči na hub — položaj mora da ostane
+      // „Nazad" sa strane reči na hub – položaj mora da ostane
       await p22.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' });
       await p22.evaluate(() => window.scrollTo(0, 4000));
       await pauza(900);
@@ -2801,10 +2801,10 @@ async function main() {
        Uzrok: 28.07. u `b3bd730b2` je `.chip` prebačen sa `inline-flex` na `flex`
        (uz popravku ikonica). `flex` je BLOK, pa čip u pasusu zauzme ceo red.
        Nijedna sesija to nije videla jer je test gledao samo čipove unutar
-       `.results` — tamo razlike nema, flex kontejner ionako blokira svoje
+       `.results` – tamo razlike nema, flex kontejner ionako blokira svoje
        stavke. Zato se ovde meri baš ono što je bilo pokvareno: koliko redova
        zauzimaju čipovi UNUTAR pasusa i koliko je čip širok u odnosu na pasus.
-       Dve strane imaju takve čipove — obe se proveravaju. */
+       Dve strane imaju takve čipove – obe se proveravaju. */
     {
       const p23 = ojacajStranu(await browser.newPage());
       await p23.setViewportSize({ width: 1440, height: 1000 });
@@ -2832,7 +2832,7 @@ async function main() {
 
     console.log('\n24) STRANA SE NE POMERA DOK SE UČITAVA (CLS)');
     /* Nalaz 29.07.2026. Strana se iscrta rezervnim fontom, pa kad Quicksand i
-       Fredoka stignu sa Google-a tekst promeni širinu — red filtera izgubi
+       Fredoka stignu sa Google-a tekst promeni širinu – red filtera izgubi
        jednu liniju i sve ispod skoči 50 px, u 736 ms.
        Izmereno na produkciji PRE popravke: `/` 0,2853 (Google to zove „loše"),
        `/rimovanje-reci/` 0,1104. Posle usklađivanja mera rezervnog fonta
@@ -2844,7 +2844,7 @@ async function main() {
        Granica 0,1 je Google-ova granica za „dobro". */
     /* Dve zamke, obe uhvaćene 29.07. na sopstvenom kodu:
 
-       1) `addInitScript` se NE sme zvati u petlji nad istom stranom — skripte se
+       1) `addInitScript` se NE sme zvati u petlji nad istom stranom – skripte se
           GOMILAJU, pa bi druga strana dobila dva posmatrača i CLS bi se brojao
           dvostruko. Zato svaka strana dobija svoj kontekst.
 
@@ -2854,7 +2854,7 @@ async function main() {
           nakratko stigne sporo i strana se iscrta neuređena. Pod usporenim
           procesorom (4×) i sporom mrežom nije se ponovilo nijednom.
           Zato se meri NAJBOLJE OD TRI: jedan loš pokušaj ne obara deploy, ali
-          ako su sva tri loša — kvar je stvaran i ne prolazi. */
+          ako su sva tri loša – kvar je stvaran i ne prolazi. */
     {
       for (const put of ['/', '/rimovanje-reci/']) {
         let najbolji = Infinity, svi = [];
@@ -2873,7 +2873,7 @@ async function main() {
           svi.push(cls);
           najbolji = Math.min(najbolji, cls);
           await ctx24.close();
-          if (najbolji < 0.1) break;   // dobar rezultat — nema potrebe za još
+          if (najbolji < 0.1) break;   // dobar rezultat – nema potrebe za još
         }
         ok(`${put} · strana se ne pomera dok se učitava (CLS < 0,1)`,
            najbolji < 0.1,
@@ -2881,13 +2881,13 @@ async function main() {
       }
     }
 
-    console.log('\n25) ADRESA SAJTA JE JEDNA — www trajno vodi na adresu bez www');
+    console.log('\n25) ADRESA SAJTA JE JEDNA – www trajno vodi na adresu bez www');
     /* Do 29.07.2026. je `https://www.rimoteka.com/` vraćao **200**: ista strana
        na dve adrese. Kanonik je pokazivao na adresu bez www, pa Google nije
-       indeksirao duplikat — ali kanonik je nagoveštaj, a 301 je pravilo; tek on
+       indeksirao duplikat – ali kanonik je nagoveštaj, a 301 je pravilo; tek on
        prenosi težinu linkova. Popravljeno zasebnim `server` blokom u nginx.conf.
 
-       Provera radi SAMO protiv produkcije — lokalni server nema `www`. Kad se
+       Provera radi SAMO protiv produkcije – lokalni server nema `www`. Kad se
        preskoči, to se i ispiše, da se preskakanje ne pomeša sa prolaskom
        (pravilo: nikad ne ulepšavati pokrivenost). */
     if (BASE === 'https://rimoteka.com') {
@@ -2908,18 +2908,18 @@ async function main() {
         ok(`${odakle} vodi tačno na ${dokle}`, r.gde === dokle, `vodi na ${r.gde}`);
       }
     } else {
-      console.log('  ⏭  preskočeno — radi samo protiv produkcije (BASE=https://rimoteka.com)');
+      console.log('  ⏭  preskočeno – radi samo protiv produkcije (BASE=https://rimoteka.com)');
     }
 
     console.log('\n26) MOBILNA BELEŽNICA I TELEFON (M1–M4) + SIGURNOSNA MREŽA PESME');
     /* Prijava vlasnice 29.07.2026: „otvorila sam sajt na svom telefonu i jeziv
-       je — beležnica posebno nikakve veze sa vezom nema". Izmereno na
+       je – beležnica posebno nikakve veze sa vezom nema". Izmereno na
        produkciji, iPhone 13 kontekst: M1 (0 obojenih reči na SVIM širinama),
        M2 (editor počinje na x=80 od 390 px), M3 (editor na y=713, ekran 664),
        M4 (traka tabova beži do 248 px van ekrana).
 
        Uzrok M1 je bio dublji od izgleda: mobilni Chrome/Safari na Enter prave
-       <div> po redu, ne <br> — a `getEditorText()` je poznavao samo <br>.
+       <div> po redu, ne <br> – a `getEditorText()` je poznavao samo <br>.
        Redovi su se LEPILI u jedan („…nekadu tvom…"), pa je pokvaren tekst
        išao i u localStorage: pesma je bila uništena, ne samo neobojena.
        Zato se ovde kuca sa <div> strukturom redova, ne samo sa <br>. */
@@ -2929,7 +2929,7 @@ async function main() {
       await p26.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
       await pauza(1800);
 
-      // M1: <div> struktura redova (mobilni) — redovi se ne lepe, rime se boje
+      // M1: <div> struktura redova (mobilni) – redovi se ne lepe, rime se boje
       await p26.evaluate(() => {
         const ed = document.getElementById('noteEditor');
         ed.innerHTML = 'Voli me kao nekad<div>u tvom srcu je lek</div><div>dolazi tiho vek</div><div>ostani jos malo tu</div>';
@@ -2966,7 +2966,7 @@ async function main() {
       ok('M3 · editor se vidi bez skrolanja na telefonu (podstrana)', m3.y < m3.visina,
          `editor na y=${m3.y}, ekran ${m3.visina} px`);
 
-      // M3 na početnoj — tu je nalaz i izmeren (y=713): početna ima hero i tabove
+      // M3 na početnoj – tu je nalaz i izmeren (y=713): početna ima hero i tabove
       const ctx26h = await browser.newContext({ viewport: { width: 390, height: 664 }, hasTouch: true, isMobile: true });
       const p26h = ojacajStranu(await ctx26h.newPage());
       await p26h.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -2981,9 +2981,9 @@ async function main() {
          `editor na y=${m3h.y}, ekran ${m3h.visina} px`);
       await ctx26h.close();
 
-      // M4: ništa ne širi stranicu preko ekrana; traka tabova se PRELAMA —
+      // M4: ništa ne širi stranicu preko ekrana; traka tabova se PRELAMA –
       // svaka stavka je CELA vidljiva (odluka vlasnice 16.08.2026: ništa se ne
-      // seče — ranija maska je pilule pravila odsečenim na ivici ekrana)
+      // seče – ranija maska je pilule pravila odsečenim na ivici ekrana)
       const m4 = await p26.evaluate(() => {
         const lose = [...document.querySelectorAll('#tabs [data-tab]')].filter(a => {
           const r = a.getBoundingClientRect();
@@ -3051,22 +3051,22 @@ async function main() {
     console.log('\n27) UČESTALOST JE SABRANA, NE PREPISANA (nalaz F1)');
     /* Do 30.07.2026. je `frekvencija.json` za svaki oblik čuvao ZADNJE pročitano
        čitanje iz srLex-a umesto SUME. Dokaz: oblik `voda` ima u srLex-u četiri reda
-       (1.346 + 12.793 + 32.283 + 876 = 47.298), a u fajlu je stajalo **876** —
+       (1.346 + 12.793 + 32.283 + 876 = 47.298), a u fajlu je stajalo **876** –
        vrednost zadnjeg reda, i to glagola `vodati`. Zato je `voda` ispadala iz
        bazena „poznatih reči" za kockicu i igru, a `dva` (9) i `veliki` (34) su bili
        prijavljeni kao ređi od reči koje niko ne govori.
-       Ove provere su puštene protiv STAROG fajla i pale su — tek tad su uzete kao
+       Ove provere su puštene protiv STAROG fajla i pale su – tek tad su uzete kao
        valjane (pravilo iz PROPUSTI.md). */
     {
       const f = await (await fetch(`${BASE}/frekvencija.json?v=20260730a`)).json();
-      // 1) sabrano, ne prepisano — granice su znatno ispod stvarnih suma
+      // 1) sabrano, ne prepisano – granice su znatno ispod stvarnih suma
       ok('frekvencija · „voda" je sabrana (> 40.000, bilo 876)',
          (f['voda'] || 0) > 40000, `voda = ${f['voda']}`);
       ok('frekvencija · „dva" je sabrano (> 300.000, bilo 9)',
          (f['dva'] || 0) > 300000, `dva = ${f['dva']}`);
       ok('frekvencija · „veliki" je sabran (> 150.000, bilo 34)',
          (f['veliki'] || 0) > 150000, `veliki = ${f['veliki']}`);
-      // 2) česta reč ne sme biti ređa od retke — obrnut poredak je bio simptom
+      // 2) česta reč ne sme biti ređa od retke – obrnut poredak je bio simptom
       ok('frekvencija · „voda" je češća od „zavoda"',
          (f['voda'] || 0) > (f['zavoda'] || 0), `voda ${f['voda']} vs zavoda ${f['zavoda']}`);
       // 3) Matica pokriva rupe u srLex-u
@@ -3087,7 +3087,7 @@ async function main() {
     console.log('\n28) JEKAVSKI OBLICI NE IZLAZE BEZ KVAČICE (nalaz J1)');
     /* Prijava vlasnice 30.07.2026: „naizmjence izašlo iako nije čekirana ijekavica".
        Uzrok: ijekavica se uključuje širenjem granice (`limit = includeJek ?
-       WORDS.length : jekStart`), a `naizmjence` stoji u `reci.txt` — PRE granice —
+       WORDS.length : jekStart`), a `naizmjence` stoji u `reci.txt` – PRE granice –
        pa je izlazilo uvek. Takvih reči je 1.127; 850 nedvosmislenih se filtrira
        preko `jekavski.json`, a 277 spornih (`ded`, `dio`, `dobivati`) čeka odluku
        vlasnice jer su u Rečniku Matice srpske kao standardne.
@@ -3104,7 +3104,7 @@ async function main() {
       await p28.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
       await p28.waitForFunction(() => typeof JEKAVSKI !== 'undefined' && JEKAVSKI.size > 0, { timeout: 25000 })
         .catch(() => {});
-      // kvačica je podrazumevano ISKLJUČENA — jekavski oblik ne sme izaći
+      // kvačica je podrazumevano ISKLJUČENA – jekavski oblik ne sme izaći
       const bez = await p28.evaluate(() => {
         const rez = { kvacica: document.getElementById('jekToggle')?.checked, ima: null, ukupno: 0 };
         document.getElementById('rimeInput').value = 'naizmence';
@@ -3128,14 +3128,14 @@ async function main() {
 
     console.log('\n29) FONT IMA SVA SRPSKA SLOVA (nalaz T1)');
     /* 30.07.2026: vlasnica je primetila da slovo „č" u naslovima izgleda drugačije.
-       Ispalo je da Fredoka NEMA `č ć đ` ni `ђ ћ њ љ џ` — pregledač je za svako to slovo
+       Ispalo je da Fredoka NEMA `č ć đ` ni `ђ ћ њ љ џ` – pregledač je za svako to slovo
        tiho uzimao sistemski serif, pa je „reč" u naslovu mešalo dva fonta, na svih
        1.993 strane. Isto je i Quicksand bio bez cele ćirilice, a Fira Sans bez `ђ ћ њ љ џ`.
 
-       KLJUČNO: `document.fonts.check()` i `unicode-range` NE POMAŽU — oni najavljuju
+       KLJUČNO: `document.fonts.check()` i `unicode-range` NE POMAŽU – oni najavljuju
        opseg, a ne garantuju da glyph postoji. Fredoka je za `č` vraćala `true`.
        Jedini pouzdan način je MERENJE ŠIRINE: ako slovo u našem fontu ima potpuno istu
-       širinu kao u sistemskom serifu, a obično slovo (npr. „a") nema — glifa nema. */
+       širinu kao u sistemskom serifu, a obično slovo (npr. „a") nema – glifa nema. */
     {
       const SLOVA = ['č','ć','đ','š','ž','Č','Ć','Đ','Š','Ž',      // srpska latinica
                      'ђ','ћ','њ','љ','џ','Ђ','Ћ','Њ','Љ','Џ',      // srpska ćirilica
@@ -3158,11 +3158,11 @@ async function main() {
       }, SLOVA);
 
       ok(`font strane se učitao (${nalaz.font})`, nalaz.ucitan === true,
-         nalaz.ucitan ? '' : 'meri se rezervni font — provera ispod ne vredi');
+         nalaz.ucitan ? '' : 'meri se rezervni font – provera ispod ne vredi');
       ok(`font „${nalaz.font}" ima sva srpska slova`, nalaz.ucitan && nalaz.fali.length === 0,
-         nalaz.fali.length ? `FALI: ${nalaz.fali.join(' ')} — ta slova padaju na sistemski serif` : '');
+         nalaz.fali.length ? `FALI: ${nalaz.fali.join(' ')} – ta slova padaju na sistemski serif` : '');
 
-      // isto za font naslova — može biti drugi ako neko opet uvede dva fonta
+      // isto za font naslova – može biti drugi ako neko opet uvede dva fonta
       const nalazH = await page.evaluate(async (slova) => {
         const h = document.querySelector('h1') || document.body;
         const fam = getComputedStyle(h).fontFamily;
@@ -3185,24 +3185,24 @@ async function main() {
     }
 
     /* ─────────────────────────────────────────────────────────────────────
-       30) MOBILNA VERZIJA — 31.07.2026
+       30) MOBILNA VERZIJA – 31.07.2026
 
        Tri prijave/nalaza, sve tri izmerene pre popravke na 390×844:
 
        · TASTATURA JE ZAKLANJALA RIME U BELEŽNICI (prijava vlasnice). Panel je
          `position:fixed; bottom:0`, a to se meri prema layout viewport-u koji
          se pri otvaranju tastature NE smanjuje. Panel je stajao 557–844 px, a
-         tastatura pokriva od ~508 naniže — dakle nijedna rima se nije videla.
+         tastatura pokriva od ~508 naniže – dakle nijedna rima se nije videla.
        · RIME SU BILE JEDNA ISPOD DRUGE. Čip sa tri ikonice bio je širok 228 px
          od 390, pa je u red stajala jedna reč: 195 rima = spisak od 12.524 px.
        · IKONICE SU SE GUBILE. Sklonjene su iz pilule, pa mora da postoji drugi
-         put do njih — dodir na reč.
+         put do njih – dodir na reč.
 
        Provere su prvo puštene protiv STAROG koda (`git stash`) i tamo padaju
-       — inače ne bi ništa dokazivale. Rezultat na starom kodu: pala prva
+       – inače ne bi ništa dokazivale. Rezultat na starom kodu: pala prva
        (panel 557 > 508), pala treća (2,83 → 1,00 reč po redu), pala peta
        (nema `.chip-actions` uopšte). */
-    console.log('\n30) MOBILNA VERZIJA — tastatura, mreža rima, traka nad rečju');
+    console.log('\n30) MOBILNA VERZIJA – tastatura, mreža rima, traka nad rečju');
     {
       const ctx30 = await browser.newContext({
         viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true,
@@ -3212,7 +3212,7 @@ async function main() {
 
       // ── A. RIME: pilule grle reč i pakuju se gusto (2–4 u redu), bez ikonica
       // u piluli. Od 16.08.2026 (druga prijava vlasnice) više nema mreže sa
-      // jednakim kolonama — pilula je široka tačno koliko reč, pa u red staje
+      // jednakim kolonama – pilula je široka tačno koliko reč, pa u red staje
       // onoliko koliko stvarno stane; granica od 4 sprečava povratak na
       // „jedna ispod druge" i na „natrpanih 6 u redu".
       await p30.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -3249,7 +3249,7 @@ async function main() {
          a30.broj > 50 && a30.niski === 0, `nižih od 44 px: ${a30.niski}`);
       ok('mobilni · strana se ne širi preko ekrana', a30.preliv === false);
 
-      /* REČ SE NE SEČE — NIKAD (odluka vlasnice 16.08.2026, posle „aerobi…",
+      /* REČ SE NE SEČE – NIKAD (odluka vlasnice 16.08.2026, posle „aerobi…",
          „aforist…" na njenom telefonu). Elipsa je uklonjena iz CSS-a, a
          `izmeriCipove()` širi pilulu za svaki manjak. Provera: ni jedna `.word`
          ne sme imati sadržaj širi od svog okvira. */
@@ -3293,7 +3293,7 @@ async function main() {
       // radnja „omiljene" mora zaista da radi, ne samo da postoji
       /* Svaki korak niže PROVERAVA da element postoji pre nego što ga dodirne.
          Bez toga jedan `null.click()` obara ceo test i sve sekcije POSLE ove
-         ostanu nepokrenute — a test koji stane nije test koji je prošao. */
+         ostanu nepokrenute – a test koji stane nije test koji je prošao. */
       const b30b = await p30.evaluate(async () => {
         const w = ms => new Promise(r => setTimeout(r, ms));
         const dug = document.querySelector('.chip-actions .ca-btn[data-act="fav"]');
@@ -3305,7 +3305,7 @@ async function main() {
         const rec = document.querySelector('.chip-actions').dataset.w;
         /* Traži se po REČI, ne po `.chip-izabran`: traka se zatvara na svako
            pomeranje strane, pa bi provera zavisila od toga da li se pomeranje
-           u međuvremenu smirilo — a meri se nešto sasvim drugo (ostaje li
+           u međuvremenu smirilo – a meri se nešto sasvim drugo (ostaje li
            puno srce na sačuvanoj reči). */
         const cip = document.querySelector(`#rimeResults .chip[data-w="${CSS.escape(rec)}"]`);
         return { pre, posle: posle.length, sadrzi: posle.includes(rec),
@@ -3347,7 +3347,9 @@ async function main() {
           return {
             kb: getComputedStyle(document.documentElement).getPropertyValue('--kb').trim(),
             vrhTastature: nova,
-            panelDno: Math.round(p.bottom), panelVisina: Math.round(p.height),
+            panelDno: Math.round(p.bottom), panelVisina: Math.round(p.height), panelVrh: Math.round(p.top),
+            /* red sa kursorom (poslednji red pesme) mora da bude ISPOD trake i iznad tastature (08.09.2026) */
+            kursorRed: (() => { const ed = document.getElementById('noteEditor'); const zadnji = [...ed.childNodes].reverse().find(n => n.textContent && n.textContent.trim()); const e = zadnji && zadnji.nodeType === 1 ? zadnji : ed; const r = e.getBoundingClientRect(); return { top: Math.round(r.top), bottom: Math.round(r.bottom) }; })(),
             rima: box.querySelectorAll('.chip').length,
             prvaRimaDno: c ? Math.round(c.bottom) : null,
             imaStrelicu: !!box.querySelector('.nr-toggle'),
@@ -3361,11 +3363,15 @@ async function main() {
         ok(`${put} · prva ponuđena rima se vidi`,
            c30.prvaRimaDno !== null && c30.prvaRimaDno <= c30.vrhTastature,
            `rima do ${c30.prvaRimaDno} px`);
+        /* Od 08.09.2026 traka stoji na VRHU vidljivog ekrana (iOS je traku „iznad tastature" crtao na sredini
+           ekrana, preko reda koji se kuca – dve slike vlasnice). Red sa kursorom je između trake i tastature. */
+        ok(`${put} · traka sa rimama je na VRHU vidljivog ekrana, ne preko teksta`, c30.panelVrh <= 1, `vrh trake ${c30.panelVrh} px`);
+        ok(`${put} · red u kome se kuca vidi se ISPOD trake i IZNAD tastature`, c30.kursorRed.top >= c30.panelDno - 1 && c30.kursorRed.bottom <= c30.vrhTastature + 1, `red ${c30.kursorRed.top}–${c30.kursorRed.bottom}, traka do ${c30.panelDno}, tastatura od ${c30.vrhTastature}`);
         ok(`${put} · traka je niska da bi se video i stih (do 130 px)`,
            c30.panelVisina > 0 && c30.panelVisina <= 130, `${c30.panelVisina} px`);
         ok(`${put} · ima bar 8 rima nadohvat prsta`, c30.rima >= 8, `${c30.rima}`);
 
-        // strelica razvija traku u pun list — i on mora da ostane iznad tastature
+        // strelica razvija traku u pun list – i on mora da ostane iznad tastature
         const d30 = await p30.evaluate(async () => {
           const box = document.getElementById('noteRhymes');
           const s = box.querySelector('.nr-toggle');
@@ -3386,7 +3392,7 @@ async function main() {
       }
 
       // ── D. Traka alata u beležnici: sedam dugmadi, sva dodirljiva
-      /* Na /pisanje-pesama/ NEMA `#panel-beleznica` — postojeće pravilo za
+      /* Na /pisanje-pesama/ NEMA `#panel-beleznica` – postojeće pravilo za
          44 px bilo je vezano samo za taj id, pa se na strani koja SLUŽI za
          pisanje pesama nikad nije primenilo. Izmereno: 23 px. */
       const e30 = await p30.evaluate(() => {
@@ -3400,7 +3406,7 @@ async function main() {
       });
       ok('/pisanje-pesama/ · sve akcije u beležnici su bar 44 px visoke',
          e30.broj >= 7 && e30.najnize >= 44, `${e30.broj} dugmadi, najniže ${e30.najnize} px`);
-      /* Akcije se PRELAMAJU u više redova — nijedna ne sme biti odsečena ivicom
+      /* Akcije se PRELAMAJU u više redova – nijedna ne sme biti odsečena ivicom
          ekrana (odluka vlasnice 16.08.2026; ranije su „preuzmi…", „štampaj…"
          bile usečene u redu koji se pomerao u stranu). */
       const e30v = await p30.evaluate(() =>
@@ -3414,7 +3420,7 @@ async function main() {
          /^rgb\(1(7|8)\d,\s*\d+,\s*\d+\)$/.test(e30.obrisiCrven), e30.obrisiCrven);
 
       /* Ista dugmad u TAMNOM režimu. Svetla pravila nose `id` u selektoru, pa
-         su bila teža od tamnih — tamnocrvena #b3372a je ostajala na podlozi
+         su bila teža od tamnih – tamnocrvena #b3372a je ostajala na podlozi
          #241f38, izmereno 2,4:1. Meri se odnos, ne boja. */
       await p30.evaluate(() => { localStorage.setItem('rimoteka_dark', '1'); });
       await p30.reload({ waitUntil: 'domcontentloaded' });
@@ -3441,7 +3447,7 @@ async function main() {
       /* Pregledač sam pomeri POLJE u vidokrug kad se tastatura otvori, ali ne
          zna za ono što stoji ispod polja. Izmereno pre popravke: polje i dugme
          na 668–725 px, poruka o tačnosti na 739–763, a tastatura počinje na
-         641 — igrač nije video ni šta kuca ni da li je pogodio. */
+         641 – igrač nije video ni šta kuca ni da li je pogodio. */
       await p30.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
       await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
       await p30.click('#gameStart');
@@ -3467,13 +3473,13 @@ async function main() {
          `dno ${f30.poruka}, tastatura od ${f30.vrh}`);
 
       // ── F. KLASICI: slovo šeme rime je OZNAKA, ne dugme
-      /* Odluka vlasnice 27.08.2026: klasici su prave, postojeće pesme — nema
+      /* Odluka vlasnice 27.08.2026: klasici su prave, postojeće pesme – nema
          smisla tražiti rime za reči koje je pesnik već izabrao. Klik je uklonjen
          zajedno sa uputstvom koje ga je obećavalo.
          Istorija, da se ne vrati: slovo je 31.07. bilo MRTVO DUGME na `/klasici/`
          (tamo nema taba sa rimama, pa klik nije radio ništa na 138 stihova); tada
          je popravljeno da vodi na `/?rec=…`. Uz to je uputstvo govorilo „klikni na
-         završnu REČ", a klikalo se SLOVO — dakle i obećanje je bilo netačno.
+         završnu REČ", a klikalo se SLOVO – dakle i obećanje je bilo netačno.
          Sada nema ni klika ni obećanja, pa nema ni nesklada. */
       await p30.goto(BASE + '/klasici/', { waitUntil: 'domcontentloaded' });
       await pauza(2500);
@@ -3497,7 +3503,7 @@ async function main() {
       ok('/klasici/ · slovo šeme rime je veći cilj za prst (bilo 24×18)',
          g30.slovoSirina >= 34 && g30.slovo >= 28, `${g30.slovoSirina}×${g30.slovo}`);
       /* Stih mora da stane u JEDAN red na telefonu (prijava vlasnice 16.08.2026:
-         „Emina" se lomila — 96 od 138 stihova na 375 px). Bočne oznake su
+         „Emina" se lomila – 96 od 138 stihova na 375 px). Bočne oznake su
          stišane, a kartica izlazi na ivicu ekrana da stih dobije mesta. */
       const g30l = await p30.evaluate(() =>
         [...document.querySelectorAll('.verse .vtext')].filter(t =>
@@ -3509,7 +3515,7 @@ async function main() {
          'nijedan .vrhyme');
       ok('/klasici/ · slovo šeme rime NIJE dugme (odluka vlasnice 27.08.2026)',
          g30.jeDugme === false, 'slovo se i dalje ponaša kao dugme');
-      /* Uputstvo ne sme da obećava klik — to je bio nalaz E: tekst je govorio
+      /* Uputstvo ne sme da obećava klik – to je bio nalaz E: tekst je govorio
          „klikni na završnu reč", a klikalo se slovo. */
       const uput = await p30.evaluate(() =>
         [...document.querySelectorAll('.hint')].map(e => e.textContent).join(' '));
@@ -3520,14 +3526,14 @@ async function main() {
     }
 
     /* ─────────────────────────────────────────────────────────────────────
-       30G) MOBILNI — DRUGA PRIJAVA VLASNICE 16.08.2026
+       30G) MOBILNI – DRUGA PRIJAVA VLASNICE 16.08.2026
        Tabovi su lomili tekst u piluli i svaki red je počinjao drugde;
        pilule rima su bile dvostruko šire od reči; „obriši pesmu" je stajala
        sama u redu uz prazninu; „Powered by" i „Orbita Code" u dva reda;
        ~120 px praznine između alata i teksta; na omiljenim se objašnjenje
        ponavljalo ispod liste; traka rima je pri skrolu „plovila" preko
        editora, a na iPhone-u je Safari traka prekrivala pilule. */
-    console.log('\n30G) MOBILNI — tabovi, gustina pilula, futer, razmaci, traka rima');
+    console.log('\n30G) MOBILNI – tabovi, gustina pilula, futer, razmaci, traka rima');
     {
       const ctx30g = await browser.newContext({
         viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true,
@@ -3573,7 +3579,7 @@ async function main() {
         });
         return labudovi;
       });
-      ok('mobilni · pilula grli reč — bez praznog prostora u njoj',
+      ok('mobilni · pilula grli reč – bez praznog prostora u njoj',
          gustina.length === 0, gustina.slice(0, 6).join(', '));
 
       // G3. AKCIJE BELEŽNICE: svaki red je pun (nema usamljene pilule uz prazninu)
@@ -3590,7 +3596,7 @@ async function main() {
       ok('mobilni · akcije beležnice pune svaki red (nema praznog desnog kraja)',
          punRed.every(f => f >= 0.9), punRed.map(f => (f * 100).toFixed(0) + '%').join(', '));
 
-      // G4. OMILJENE: bez dvostrukog objašnjenja — hero se na tom tabu ne prikazuje
+      // G4. OMILJENE: bez dvostrukog objašnjenja – hero se na tom tabu ne prikazuje
       await p30g.evaluate(() => switchTab('omiljene'));
       const o30 = await p30g.evaluate(() => getComputedStyle(document.querySelector('.hero')).display);
       ok('mobilni · na omiljenim se objašnjenje ne ponavlja ispod liste', o30 === 'none', o30);
@@ -3619,7 +3625,7 @@ async function main() {
          f30 !== null && f30.visina <= 48 && f30.istiRed, JSON.stringify(f30));
 
       // G7. TRAKA RIMA SE LEPI ZA VIDOKRUG i kad se strana pomera prstom
-      // (lažni „scroll" događaj: vidokrug sklizne 150 px — traka mora da ostane
+      // (lažni „scroll" događaj: vidokrug sklizne 150 px – traka mora da ostane
       // na dnu VIDOKRUGA, ne da plovi preko teksta. Na iOS UA: −56 px Safari trake.)
       await p30g.evaluate(() => switchTab('beleznica'));
       await p30g.click('#noteEditor');
@@ -3649,18 +3655,18 @@ async function main() {
        31) OZNAKE UZ STIH SU PORAVNATE SA STIHOM
 
        Nađeno 31.07.2026. pri sređivanju mobilne beležnice, ali NIJE mobilni
-       nalaz — isto se dešava i na 1440 px.
+       nalaz – isto se dešava i na 1440 px.
 
        `getEditorText()` je 29.07. naučen da svaki BLOK (`<div>`, `<p>`) računa
        kao novi red, jer mobilni Chrome i Safari na Enter prave blokove a ne
        `<br>` (nalaz M1). Ali `editorTextIndex()`, koji kaže GDE se koje slovo
-       tog teksta nalazi u DOM-u, ostao je da broji samo slova i `<br>`-ove —
+       tog teksta nalazi u DOM-u, ostao je da broji samo slova i `<br>`-ove –
        pa mu je posle svakog bloka nedostajao po jedan znak.
 
        Izmereno na starom kodu: pesma otkucana na telefonu imala je poslednja
        dva stiha pomerena za ceo red (−30 px na 390, −35 na 1440), a pesma sa
        praznim redom između strofa za DVA reda (−59 odnosno −68 px). Pesme
-       kucane na računaru (`<br>`) bile su u redu — zato se i nije primetilo.
+       kucane na računaru (`<br>`) bile su u redu – zato se i nije primetilo.
 
        Provera pušta šest oblika unosa na dve širine. Na starom kodu pada
        6 od 12. */
@@ -3698,7 +3704,7 @@ async function main() {
             return { redova: lines.length, razlike };
           });
           const najgore = Math.max(...m.razlike.map(Math.abs));
-          ok(`${sirina}px · „${ime}" — oznake stoje uz svoj stih`, najgore <= 2,
+          ok(`${sirina}px · „${ime}" – oznake stoje uz svoj stih`, najgore <= 2,
              `${m.redova} redova, odstupanja ${JSON.stringify(m.razlike)} px`);
         }
         await ctx31.close();
@@ -3709,8 +3715,8 @@ async function main() {
        32) REČ NAVEDENA KAO RIMA MORA DA BUDE RIMA
 
        Nalaz T2 (31.07.2026): u „Čestim pitanjima" na šest tematskih strana stajalo je
-       49 reči navedenih kao rime — i **nijedna se nije rimovala**. Za „majka" je pisalo
-       „reka, čeka, njega, lepa, neba" (0 od 8), za „prijatelj" — „smeh, dnevnik,
+       49 reči navedenih kao rime – i **nijedna se nije rimovala**. Za „majka" je pisalo
+       „reka, čeka, njega, lepa, neba" (0 od 8), za „prijatelj" – „smeh, dnevnik,
        željeznički" (0 od 6). Jedna navedena „rima" (`bliza`) ne postoji ni u rečniku.
 
        ZAŠTO NIJEDNA AUTOMATIKA OVO NIJE UHVATILA: reči iz bloka „Rime za druge reči"
@@ -3718,23 +3724,23 @@ async function main() {
        provera „da li reč postoji na strani /rime-za/X/" zato prolazi i za reč koja
        nije rima. Ova provera zato PRVO odseca sve od tog bloka nadalje.
 
-       PRVA VERZIJA OVE PROVERE BILA JE LAŽNO ZELENA — i to je uhvaćeno tek puštanjem
+       PRVA VERZIJA OVE PROVERE BILA JE LAŽNO ZELENA – i to je uhvaćeno tek puštanjem
        protiv produkcije (pravilo H4). Ona je uzimala RUČNU TABELU tačnih rima i
-       proveravala nju protiv strane — a tabela je po definiciji tačna, pa je provera
+       proveravala nju protiv strane – a tabela je po definiciji tačna, pa je provera
        prolazila i na produkciji, gde u tekstu piše „majka: reka, čeka, njega". Provera
        koja ne može da padne ne čuva ništa (PROPUSTI, pravilo 50).
 
        ZATO OVA VERZIJA ČITA SPISAK IZ SAMOG TEKSTA STRANE: uzima prvu rečenicu odgovora,
        deli je po zarezima i tačkama-zarezima, uzima POSLEDNJU reč svakog dela (tako
-       „…rimuje — imaš neljubav" daje `neljubav`) i traži svaku od njih među pravim
+       „…rimuje – imaš neljubav" daje `neljubav`) i traži svaku od njih među pravim
        rimama. Ništa se ne poredi sa unapred upisanim spiskom.
        ───────────────────────────────────────────────────────────────────────── */
     console.log('\n32) REČ NAVEDENA KAO RIMA MORA DA BUDE RIMA (nalaz T2)');
     {
       /* Gde stoji tvrdnja: strana + pitanje po kom se nalazi odgovor + kako se čita.
-         `oblik: 'spisak'` — jedna ciljna reč, spisak rima („Majka: bajka, hajka…").
-         `oblik: 'parovi'` — više parova u jednom odgovoru („sunce — unce, lonce;
-         zvezda — gnezda…"), pa se ciljna reč čita IZ TEKSTA, za svaki par posebno. */
+         `oblik: 'spisak'` – jedna ciljna reč, spisak rima („Majka: bajka, hajka…").
+         `oblik: 'parovi'` – više parova u jednom odgovoru („sunce – unce, lonce;
+         zvezda – gnezda…"), pa se ciljna reč čita IZ TEKSTA, za svaki par posebno. */
       const TVRDNJE = [
         { strana: '/rime-za-roditelje/',            pitanje: /majka/i,        oblik: 'spisak', slug: 'majka' },
         { strana: '/rime-za-prijatelje/',           pitanje: /prijatelj/i,    oblik: 'spisak', slug: 'prijatelj' },
@@ -3751,7 +3757,7 @@ async function main() {
       const p32 = await (await browser.newContext()).newPage();
       const kesRima = new Map();
 
-      /* prave rime za reč — SVE POSLE bloka „Rime za druge reči" se odbacuje, jer te
+      /* prave rime za reč – SVE POSLE bloka „Rime za druge reči" se odbacuje, jer te
          reči nose istu klasu `.word` a nisu rime (upravo zbog toga je nalaz T2 i nastao) */
       const praveRime = async (slug) => {
         if (!kesRima.has(slug)) {
@@ -3772,9 +3778,9 @@ async function main() {
         return kesRima.get(slug);
       };
 
-      /* Iz dela spiska uzima POSLEDNJU reč — tako „…rimuje — imaš neljubav" daje `neljubav`.
+      /* Iz dela spiska uzima POSLEDNJU reč – tako „…rimuje – imaš neljubav" daje `neljubav`.
          Delovi duži od tri reči su rečenica, ne stavka spiska, pa se preskaču (npr.
-         „kruga — ali izaberi one koje nose pravo značenje"). */
+         „kruga – ali izaberi one koje nose pravo značenje"). */
       const stavke = (deo) => deo.split(/[,;]/)
         .map(d => d.trim().replace(/[.„“"]/g, ''))
         .filter(d => d && d.split(/\s+/).length <= 3)
@@ -3804,14 +3810,14 @@ async function main() {
         } else {
           let ukupno = 0; const lose = [];
           for (const par of prvaRecenica.split(';')) {
-            const [cilj, spisak] = par.split(/\s[—–-]\s/);
+            const [cilj, spisak] = par.split(/\s[––-]\s/);
             if (!spisak) continue;
             const slug = SLUG[cilj.trim().toLowerCase()];
             if (!slug) { lose.push(`nepoznata ciljna reč: ${cilj.trim()}`); continue; }
             const prave = await praveRime(slug);
-            for (const r of stavke(spisak)) { ukupno++; if (!prave.has(r)) lose.push(`${cilj.trim()} — ${r}`); }
+            for (const r of stavke(spisak)) { ukupno++; if (!prave.has(r)) lose.push(`${cilj.trim()} – ${r}`); }
           }
-          ok(`${t.strana} · svaki par „reč — rima" se ZAISTA rimuje`,
+          ok(`${t.strana} · svaki par „reč – rima" se ZAISTA rimuje`,
              ukupno > 0 && lose.length === 0,
              lose.length ? `NIJE RIMA: ${lose.join(', ')}` : `${ukupno} para provereno`);
         }
@@ -3827,7 +3833,7 @@ async function main() {
        beležnica. Provera pokriva ono što se lako pokvari:
          · da se uopšte vidi pre pretrage,
          · da ga rezultati zamene (ne da ostane iznad njih),
-         · da se VRATI posle klika na logo — `goHome()` ga je ranije brisao u prazno,
+         · da se VRATI posle klika na logo – `goHome()` ga je ranije brisao u prazno,
          · da je čitljiv u TAMNOJ temi (tvrdo upisana boja je česta zamka).
        ───────────────────────────────────────────────────────────────────────── */
     console.log('\n33) PRAZNO STANJE PANELA SA RIMAMA');
@@ -3860,13 +3866,13 @@ async function main() {
       ok('pretraga zamenjuje prazno stanje rezultatima',
          posle.rima > 0 && !posle.praznoOstalo, `rima: ${posle.rima}, prazno ostalo: ${posle.praznoOstalo}`);
 
-      // klik na logo vraća „na početak" — prazno stanje mora ponovo da se pojavi
+      // klik na logo vraća „na početak" – prazno stanje mora ponovo da se pojavi
       await p33.evaluate(() => (window.goHome ? window.goHome() : document.querySelector('.brand-h')?.click()));
       await pauza(500);
       const nazad = await p33.evaluate(() => !!document.querySelector('#rimeResults .prazno-stanje'));
       ok('povratak na početak vraća prazno stanje (ne ostavlja prazan panel)', nazad, `vraćeno: ${nazad}`);
 
-      // kontrast u TAMNOJ temi — boja teksta naspram pozadine panela
+      // kontrast u TAMNOJ temi – boja teksta naspram pozadine panela
       await p33.evaluate(() => document.getElementById('darkToggle')?.click());
       await pauza(400);
       const kontrast = await p33.evaluate(() => {
@@ -3887,28 +3893,28 @@ async function main() {
     }
 
     /* ─────────────────────────────────────────────────────────────────────────
-       34) PRAVOPIS — ZAREZ SE NE PIŠE ISPRED „I", „PA", „TE", „NI"
+       34) PRAVOPIS – ZAREZ SE NE PIŠE ISPRED „I", „PA", „TE", „NI"
 
        Prijava vlasnice 02.08.2026: „zarez u srpskom jeziku NIKADA ne ide ispred
        slova i". Pravilo je stajalo u projektu (`GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`,
-       odeljak 8.5), ali ga ništa nije proveravalo — pa je na sajtu bilo šest mesta.
+       odeljak 8.5), ali ga ništa nije proveravalo – pa je na sajtu bilo šest mesta.
 
        Rečenica se NE popravlja brisanjem zareza nego se PREPIŠE: ako je zarez tu
        „potreban", rečenica je loše sastavljena.
 
-       PROVERAVA SE SAMO „I" — namerno. Prva verzija je hvatala i `pa`, `te`, `ni` i
+       PROVERAVA SE SAMO „I" – namerno. Prva verzija je hvatala i `pa`, `te`, `ni` i
        odmah pala na pet mesta, a NIJEDNO nije bila greška: „Klikni je, pa iz spiska
-       izaberi rimu" — tu `pa` znači *zatim*, uvodi posledicu i redosled, i zarez po
+       izaberi rimu" – tu `pa` znači *zatim*, uvodi posledicu i redosled, i zarez po
        pravopisu STOJI. Pravilo glasi „ne piše se ispred i, pa, te, ni **kad povezuju
        istorodne delove**", a to razlikovanje traži značenje, ne obrazac. Provera koja
-       pada na tačnom tekstu tera pisca da kvari jezik da bi je zadovoljio — gore je
+       pada na tačnom tekstu tera pisca da kvari jezik da bi je zadovoljio – gore je
        od nikakve. Zato ostaje samo `i`, gde je pravilo jednoznačno.
 
        Izuzetak koji pravopis dozvoljava: nabrajanje sa PONOVLJENIM veznikom
        („i imenice, i pridevi, i glagoli"). Zato se prijavljuje samo kad se veznik
        ne ponavlja neposredno pre zareza.
        ───────────────────────────────────────────────────────────────────────── */
-    console.log('\n34) PRAVOPIS — zarez ispred „i"');
+    console.log('\n34) PRAVOPIS – zarez ispred „i"');
     {
       const p34 = await (await browser.newContext()).newPage();
       const STRANE = ['/', '/rimovanje-reci/', '/rime-za-decu/', '/rime-za-roditelje/',
@@ -3922,14 +3928,14 @@ async function main() {
             // Dozvoljeno je SAMO nabrajanje sa ponovljenim veznikom („i imenice, i pridevi"),
             // a ono se prepoznaje po tome što deo NEPOSREDNO pre zareza POČINJE sa „i".
             //
-            // Ranije je ovde stajalo `new RegExp(\`\\b${m[2]} [a-zćčšđž]\`).test(pre)` — dakle
+            // Ranije je ovde stajalo `new RegExp(\`\\b${m[2]} [a-zćčšđž]\`).test(pre)` – dakle
             // „ima li „i" BILO GDE u prethodnih 60 znakova". Zbog toga je provera tiho
             // preskakala svaku rečenicu u kojoj se „i" pojavilo ranije, a takvih je većina.
             // Bila je LAŽNO ZELENA: 02.08.2026. je prošla 496/496 dok je na
             // `/rimovanje-reci/` stajalo „…pišeš pesmu i vidiš rime u boji, i igru rima…".
             // Provera koja javlja da je čisto, a ne gleda, gora je od nikakve provere.
             const pre = m[1];
-            const posl = pre.split(/[,;:—]/).pop().trim();
+            const posl = pre.split(/[,;:–]/).pop().trim();
             if (/^i\s+[a-zćčšđž]/i.test(posl)) continue;
             out.push(`„…${pre.slice(-45)}, ${m[2]} ${m[3].slice(0, 25)}…"`);
           }
@@ -3942,7 +3948,7 @@ async function main() {
     }
 
     /* ─────────────────────────────────────────────────────────────────────
-       35) POČETNA STRANA — POLOŽAJ POLJA, KONTRAST ISPUNA, AKTIVAN TAB
+       35) POČETNA STRANA – POLOŽAJ POLJA, KONTRAST ISPUNA, AKTIVAN TAB
 
        Sve četiri provere su napisane iz merenja od 02.08.2026 na produkciji i
        svaka bi tada PALA (provereno protiv produkcije dok je tamo stario kod):
@@ -3953,11 +3959,11 @@ async function main() {
          · naslovni blok se pojavljivao tek kad stigne app.js i gurao polje za
            130 px naniže (skakanje strane 0,12 pri granici 0,1).
 
-       Kontrast se NE čita iz `getComputedStyle` za ispune sa prelivom — preliv
+       Kontrast se NE čita iz `getComputedStyle` za ispune sa prelivom – preliv
        vraća providnu `backgroundColor`, pa se boje vade iz `background-image`
        i meri se GORI kraj preliva. Ta zamka je već jednom dala lažno „prolazi".
        ───────────────────────────────────────────────────────────────────── */
-    console.log('\n35) POČETNA — polje u gornjem delu, kontrast ispuna, aktivan tab');
+    console.log('\n35) POČETNA – polje u gornjem delu, kontrast ispuna, aktivan tab');
     {
       const MERE35 = `
         function pRGB(s){const m=String(s).match(/rgba?\\(([^)]+)\\)/);if(!m)return null;
@@ -3989,7 +3995,7 @@ async function main() {
         /* Granica je bila 45% dok se traka tabova pomerala u stranu (jedan red
            od 48 px). Od 16.08.2026. se traka PRELAMA u tri reda dodirnih ciljeva
            od 44 px (odluka vlasnice: nijedna stavka se ne seče ivicom), pa polje
-           stoji na ~52% — i dalje na PRVOM ekranu, sa dugmetom i filterima,
+           stoji na ~52% – i dalje na PRVOM ekranu, sa dugmetom i filterima,
            bez skrolanja. Granica 55% i dalje hvata regresiju tipa 60,5%. */
         const polozaj = await p35.evaluate(() => {
           const r = document.getElementById('rimeInput').getBoundingClientRect();
@@ -4000,7 +4006,7 @@ async function main() {
            polozaj.procenat <= 55,
            `polje na ${polozaj.top} px od ${polozaj.vh} px = ${polozaj.procenat}% (granica 55%, bilo 60,5%)`);
 
-        // B) kontrast ispunjenih dugmadi — najgori kraj preliva, granica 4,5
+        // B) kontrast ispunjenih dugmadi – najgori kraj preliva, granica 4,5
         const kontrasti = await p35.evaluate(({ MERE35 }) => {
           eval(MERE35);
           const meta = {};
@@ -4024,7 +4030,7 @@ async function main() {
              k !== null && k >= 4.5, `izmereno ${String(k).replace('.', ',')} (granica 4,5)`);
         }
 
-        // C) aktivan tab mora da se razlikuje od neaktivnog — i bojom i bez boje
+        // C) aktivan tab mora da se razlikuje od neaktivnog – i bojom i bez boje
         const tabovi = await p35.evaluate(({ MERE35 }) => {
           eval(MERE35);
           const a = document.querySelector('.tabs a.active'), n = document.querySelector('.tabs a:not(.active)');
@@ -4036,7 +4042,7 @@ async function main() {
         }, { MERE35 });
         ok(`početna (${tema}) · aktivan tab se razlikuje od neaktivnog (bar 3,0)`,
            tabovi && tabovi.razlika >= 3,
-           `razlika pozadina ${String(tabovi?.razlika).replace('.', ',')} (u tamnoj temi je bila 1,0 — isti piksel)`);
+           `razlika pozadina ${String(tabovi?.razlika).replace('.', ',')} (u tamnoj temi je bila 1,0 – isti piksel)`);
         ok(`početna (${tema}) · razlika aktivnog taba se vidi i bez boje (debljina slova)`,
            tabovi && Number(tabovi.fwA) > Number(tabovi.fwN),
            `aktivan ${tabovi?.fwA} prema neaktivnom ${tabovi?.fwN}`);
@@ -4054,7 +4060,7 @@ async function main() {
       /* app.js se zamenjuje PRAZNIM fajlom, ne prekida se (`abort`): prekinut
          zahtev pregledač upiše kao grešku u konzolu, pa bi provera „nula
          grešaka u konzoli" pala zbog samog testa. Prazan fajl daje isti uslov
-         — skripta se nikad ne izvrši — bez lažne greške. */
+         – skripta se nikad ne izvrši – bez lažne greške. */
       await ctx35b.route('**/app.js*', r => r.fulfill({ status: 200, contentType: 'text/javascript', body: '' }));
       const p35b = await ctx35b.newPage();
       await p35b.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -4077,7 +4083,7 @@ async function main() {
 
       ok('početna · polje stoji na istom mestu i bez app.js (nema skoka pri učitavanju)',
          Math.abs(bezSkripte.top - saSkriptom) <= 8,
-         `bez app.js ${bezSkripte.top} px, sa app.js ${saSkriptom} px — razlika ${Math.abs(bezSkripte.top - saSkriptom)} px (bilo 130 px)`);
+         `bez app.js ${bezSkripte.top} px, sa app.js ${saSkriptom} px – razlika ${Math.abs(bezSkripte.top - saSkriptom)} px (bilo 130 px)`);
 
       /* E) Sklopivi blokovi: tekst mora OSTATI u HTML-u (SEO) i mora da se
             otvara sa tastature. `<details>` to radi sam, pa se proverava da
@@ -4099,7 +4105,7 @@ async function main() {
          `${blokovi.znakova} znakova, ${blokovi.linkova} linkova`);
 
       /* Otvaranje tastaturom. Sve je null-sigurno: kad blokova nema (stara
-         verzija strane), provera mora da PADNE, ne da obori ceo test —
+         verzija strane), provera mora da PADNE, ne da obori ceo test –
          provereno 02.08.2026, prvi pokušaj je pukao na `.focus()` nad `null`
          i prekinuo preostalih pet provera. */
       const imaSummary = await p35d.evaluate(() => {
@@ -4122,7 +4128,7 @@ async function main() {
         rima: document.querySelectorAll('.futer-v2 .futer-rime-spisak .footer-link').length,
         imaCta: !!document.querySelector('.saradnja-traka .saradnja-cta[href^="mailto:eureka@rimoteka.com"]'),
       }));
-      /* 54, ne 55: ispisana adresa u bloku saradnje je 03.08.2026. uklonjena —
+      /* 54, ne 55: ispisana adresa u bloku saradnje je 03.08.2026. uklonjena –
          stajala je odmah ispod dugmeta koje vodi na istu adresu. Dugme se broji
          posebno (`.futer-cta`), pa se proverava i ono. */
       ok('futer · svi linkovi su tu (23 u kolonama + 30 rima + kontakt + Orbita)',
@@ -4144,29 +4150,29 @@ async function main() {
                  preliv: document.documentElement.scrollWidth > window.innerWidth };
       });
       /* `ukupno > 50` NIJE ukras: bez njega je provera LAŽNO ZELENA na staroj
-         verziji futera — selektor tamo ne pogodi nijedan element, spisak
+         verziji futera – selektor tamo ne pogodi nijedan element, spisak
          „preniskih" je prazan, i provera prolazi iako futer uopšte ne postoji.
          Provereno 02.08.2026 protiv produkcije: prvi oblik ove provere je
          prošao nad starim kodom. Provera koja ne padne nad starim kodom ne
-         valja — mora se proveriti i DA IMA šta da se meri. */
+         valja – mora se proveriti i DA IMA šta da se meri. */
       ok('futer na telefonu · svaki link je dodirni cilj od bar 44 px',
          futerMob.ukupno > 50 && futerMob.brojNiskih === 0,
          futerMob.ukupno <= 50
-           ? `nađeno samo ${futerMob.ukupno} linkova — nov futer nije na strani`
+           ? `nađeno samo ${futerMob.ukupno} linkova – nov futer nije na strani`
            : (futerMob.brojNiskih ? `${futerMob.brojNiskih} nižih: ${futerMob.niski.join(', ')} (bilo 16–19 px)`
                                   : `svih ${futerMob.ukupno} prolazi`));
       ok('futer na telefonu · nema horizontalnog skrolovanja', futerMob.preliv === false);
       await ctx35e.close();
     }
 
-    console.log('\n36) FUTER — note, dugme „Saradnja", kompozicija, sitan tekst');
+    console.log('\n36) FUTER – note, dugme „Saradnja", kompozicija, sitan tekst');
     {
       /* Zašto ova sekcija postoji: 02.08.2026. je futer bio zanatski tačan
          (dodirni ciljevi, kolone), ali je vlasnica rekla „gde su note, zašto
-         je sve levo poravnato, gde je redizajn" — i bila je u pravu. Nije bilo
+         je sve levo poravnato, gde je redizajn" – i bila je u pravu. Nije bilo
          ni nota, ni dugmeta za kontakt, ni kompozicije.
          Provere ispod čuvaju SVE troje. Puštene su protiv produkcije dok je
-         tamo stajao stari futer i tamo PADAJU — provera koja ne padne nad
+         tamo stajao stari futer i tamo PADAJU – provera koja ne padne nad
          starim kodom ne valja. */
       const MERE36 = `
         function pRGB(s){const m=String(s).match(/rgba?\\(([^)]+)\\)/);if(!m)return null;
@@ -4178,7 +4184,7 @@ async function main() {
           const iz=[...String(cs.backgroundImage||'').matchAll(/rgba?\\([^)]+\\)/g)].map(m=>pRGB(m[0])).filter(Boolean);
           const sam=pRGB(cs.backgroundColor); if(sam&&sam.a>0.99) iz.push(sam);
           return iz;}
-        /* Podloga se traži naviše kroz pretke — futer ima PRELIV, pa boja
+        /* Podloga se traži naviše kroz pretke – futer ima PRELIV, pa boja
            pozadine samog pasusa ne postoji. Uzimaju se sve boje preliva i
            vraća se NAJGORI odnos. */
         function najgoriPremaPodlozi(el){const fg=pRGB(getComputedStyle(el).color);
@@ -4200,18 +4206,18 @@ async function main() {
         const p36 = ojacajStranu(await ctx.newPage());
         await p36.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
         await pauza(700);
-        // note ulaze tek kad futer uđe u vidno polje — dovedi ga tamo
+        // note ulaze tek kad futer uđe u vidno polje – dovedi ga tamo
         await p36.evaluate(() => document.querySelector('footer.site-footer')?.scrollIntoView({ block: 'center' }));
         await pauza(800);
 
         const f = await p36.evaluate(({ MERE36 }) => {
           eval(MERE36);
           /* Dugme „Saradnja" od 03.08.2026. stoji u TRACI IZNAD futera, ne u
-             samom futeru — poruka je bila ista na oba mesta. Provere ostaju
+             samom futeru – poruka je bila ista na oba mesta. Provere ostaju
              iste, samo gledaju tamo gde dugme sada jeste.
              04.08.2026: poziv je na početnom tabu u futeru, na ostalim tabovima
              u traci (CSS po `data-tab` na <html>). Oba dugmeta postoje u DOM-u,
-             a skriveno daje okvir 0×0 — meri se ono koje je STVARNO prikazano. */
+             a skriveno daje okvir 0×0 – meri se ono koje je STVARNO prikazano. */
           const cta = [document.querySelector('.saradnja-traka .saradnja-cta'),
                        document.querySelector('.futer-v2 .futer-cta')]
                       .find(e => e && e.getBoundingClientRect().width > 0)
@@ -4248,14 +4254,14 @@ async function main() {
             const e = document.querySelector(s);
             r.sitno[k] = e ? Math.round(najgoriPremaPodlozi(e) * 100) / 100 : null;
           }
-          // dodirni ciljevi — SVI linkovi futera, i oni usred rečenice
+          // dodirni ciljevi – SVI linkovi futera, i oni usred rečenice
           const linkovi = [...document.querySelectorAll(
             '.futer-v2 .futer-kolona .footer-link, .futer-v2 .futer-rime-spisak .footer-link, ' +
             '.saradnja-traka .saradnja-cta, .futer-v2 .footer-orbita a')];
           r.linkova = linkovi.length;
           /* `offsetParent` je null kad je element ili predak `display:none`.
              Od 04.08.2026. traka i futerski poziv se smenjuju po tabu, pa jedno
-             od dva „Kontakt" dugmeta uvek NIJE prikazano — a skriven link nije
+             od dva „Kontakt" dugmeta uvek NIJE prikazano – a skriven link nije
              dodirni cilj i ne meri se. */
           r.ispod44 = linkovi.filter(a => a.offsetParent !== null && a.getBoundingClientRect().height < 44)
             .map(a => `${a.textContent.trim().slice(0, 22)}=${Math.round(a.getBoundingClientRect().height)}px`);
@@ -4264,10 +4270,10 @@ async function main() {
           /* Meri se do VRHA celog bloka sa pozivom, ne do dugmeta: od
              03.08.2026. iznad dugmeta stoji rečenica koja kaže kome je saradnja
              namenjena, pa prostor između opisa i dugmeta više nije prazan.
-             Provera i dalje hvata ono zbog čega je nastala — praznu rupu. */
+             Provera i dalje hvata ono zbog čega je nastala – praznu rupu. */
           const blok = document.querySelector('.futer-v2 .futer-akcija');
           if (opis && blok) r.rupaGlave = Math.round(blok.getBoundingClientRect().top - opis.getBoundingClientRect().bottom);
-          else r.rupaGlave = 0;   // bloka više nema u futeru — nema ni rupe
+          else r.rupaGlave = 0;   // bloka više nema u futeru – nema ni rupe
           return r;
         }, { MERE36 });
 
@@ -4303,7 +4309,7 @@ async function main() {
 
         ok(`futer (${tema}) · na telefonu je svaki link dodirni cilj od bar 44 px`,
            f.linkova > 50 && f.ispod44.length === 0,
-           f.linkova <= 50 ? `nađeno samo ${f.linkova} linkova — nov futer nije na strani`
+           f.linkova <= 50 ? `nađeno samo ${f.linkova} linkova – nov futer nije na strani`
                            : `nižih: ${f.ispod44.join(', ')}`);
         /* Rupa od 250 px između opisa i dugmeta nastala je od `flex:1 1 320px`,
            koje u uspravnom redu znači VISINU od 320 px. Izgledalo je kao da je
@@ -4344,20 +4350,20 @@ async function main() {
         };
       });
       ok('futer na računaru · linkovi su u četiri kolone', d.kolona === 4, `nađeno kolona: ${d.kolona}`);
-      /* Kolona „Namene" je imala 12 stavki prema 6 i 5 u ostalima — bila je
+      /* Kolona „Namene" je imala 12 stavki prema 6 i 5 u ostalima – bila je
          duža za ~300 px i desno je zjapila rupa. */
       ok('futer na računaru · nijedna kolona nije duplo duža od ostalih',
          d.najduza > 0 && d.najduza <= 7, `najduža kolona ima ${d.najduza} linkova (granica 7, bilo 12)`);
       /* Provera je nastala kad je dugme stajalo u futeru i bilo zbijeno uz levu
          ivicu. Od 03.08.2026. poziv živi u traci iznad futera i tamo je
-         CENTRIRAN — pa se meri to: da stoji po sredini trake, a ne uz ivicu. */
+         CENTRIRAN – pa se meri to: da stoji po sredini trake, a ne uz ivicu. */
       ok('traka sa pozivom · dugme „Kontakt" je po sredini trake',
          d.ctaSredina === true, 'dugme nije centrirano u traci');
       ok('futer na računaru · vidi se svih osam nota', d.nota === 8, `prikazano ${d.nota}`);
       await ctx36d.close();
 
       /* Smanjen pokret: note NE SMEJU da nestanu. Globalno pravilo gasi samo
-         trajanje, a animacija vezana za skrol trajanje ne koristi — zato futer
+         trajanje, a animacija vezana za skrol trajanje ne koristi – zato futer
          ima svoje izričito pravilo, i ovde se proverava da ono radi. */
       const ctx36r = await browser.newContext({
         viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce',
@@ -4375,11 +4381,11 @@ async function main() {
       await ctx36r.close();
     }
 
-    console.log('\n37) ŠIRINA — jedan omotač, rime u više kolona, proza ostaje uska');
+    console.log('\n37) ŠIRINA – jedan omotač, rime u više kolona, proza ostaje uska');
     {
       /* Zašto ova sekcija postoji: vlasnica je 02.08.2026. pitala „ko je smislio
          da logo i tabovi budu skoro 100% širine ekrana, a rime u sredini gde
-         staju samo 3 kapsule". Bila je u pravu — samo je `main` imao granicu
+         staju samo 3 kapsule". Bila je u pravu – samo je `main` imao granicu
          od 940 px, pa je na SVAKOM ekranu preko 1024 px spisak rima bio širok
          857 px i primao tačno 3 kapsule, dok su zaglavlje i tabovi išli preko
          cele širine (2.560 px na velikom monitoru).
@@ -4388,12 +4394,12 @@ async function main() {
            1) zaglavlje, tabovi i sadržaj imaju ISTU širinu omotača;
            2) na širokom ekranu u red staje bar 4 kapsule (bilo 3);
            3) proza ostaje u rasponu 65–75 znakova (mreža kapsula nije proza,
-              ali pasus jeste — širenje omotača ne sme da razvuče tekst).
+              ali pasus jeste – širenje omotača ne sme da razvuče tekst).
 
          Četvrta provera je za regresiju koju sam sam napravio i uhvatio
          merenjem: `margin-inline:auto` na stavci uspravnog flex kontejnera
          gasi razvlačenje, pa se traka tabova skupila na svoj sadržaj i izašla
-         iz ekrana — 641 px vodoravnog skrolovanja na telefonu od 360 px. */
+         iz ekrana – 641 px vodoravnog skrolovanja na telefonu od 360 px. */
       const ctx37 = await browser.newContext({ viewport: { width: 1600, height: 900 } });
       const p37 = ojacajStranu(await ctx37.newPage());
       await p37.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -4410,7 +4416,7 @@ async function main() {
         chips.forEach(c => { const t = Math.round(c.getBoundingClientRect().top); red.set(t, (red.get(t) || 0) + 1); });
         /* Meri se NAJPUNIJI red, ne najprazniji. Rime su podeljene u grupe
            („Najbolje rime", „Dobre rime", sinonimi), pa poslednji red svake
-           grupe legitimno ima jednu ili dve kapsule — `Math.min` bi zato uvek
+           grupe legitimno ima jednu ili dve kapsule – `Math.min` bi zato uvek
            vraćao 1 i provera ne bi merila ono što tvrdi da meri. Kapacitet
            reda je ono što je vlasnica pitala: koliko reči STANE u red. */
         const v = [...red.values()];
@@ -4450,10 +4456,10 @@ async function main() {
       }
     }
 
-    console.log('\n38) LIST IZ BELEŽNICE — blokovi sa tekstom o alatu');
+    console.log('\n38) LIST IZ BELEŽNICE – blokovi sa tekstom o alatu');
     {
       /* Zašto ova sekcija postoji: blokovi su 02.08.2026. bili sklopivi i
-         ispravni, ali bez ijedne crte karaktera — vlasnica je rekla „stavi
+         ispravni, ali bez ijedne crte karaktera – vlasnica je rekla „stavi
          tekst u blokove koji su ZANIMLJIVI, možda kao notes za pisanje
          pesama". Motiv (papir, margina, slovo šeme rime, linije za pisanje)
          se ovde čuva, zajedno sa tvrdim granicama koje ne smeju da padnu:
@@ -4488,7 +4494,7 @@ async function main() {
             znakova: blokovi.filter(x => x.querySelector('.seo-blok-znak')).length,
             margina: getComputedStyle(prvi, '::before').backgroundColor,
             linije: getComputedStyle(telo).backgroundImage,
-            // korak linija mora da bude jednak visini reda — inače tekst ne sedi na liniji
+            // korak linija mora da bude jednak visini reda – inače tekst ne sedi na liniji
             visinaReda: getComputedStyle(telo.querySelector('p')).lineHeight,
             duzinaTeksta: telo.innerText.trim().length,
             kTelo: kontrast('.seo-blok-telo p'),
@@ -4523,7 +4529,7 @@ async function main() {
 
       /* Dodirni cilj i to da se polje za unos NIJE spustilo preko prvog ekrana.
          Prag je bio 263 px dok se traka tabova pomerala u stranu; od 16.08.2026.
-         se prelama u tri reda po 44 px (odluka vlasnice — ništa se ne seče), pa
+         se prelama u tri reda po 44 px (odluka vlasnice – ništa se ne seče), pa
          polje stoji na ~344 px, i dalje vidljivo bez skrolanja. */
       const ctx38m = await browser.newContext({ viewport: { width: 390, height: 664 }, isMobile: true, hasTouch: true });
       const p38m = ojacajStranu(await ctx38m.newPage());
@@ -4531,7 +4537,7 @@ async function main() {
       await pauza(900);
       const m = await p38m.evaluate(() => ({
         /* `-1` kad blokova nema: `Math.min()` bez argumenata vraća `Infinity`,
-           pa bi provera „bar 44 px" prolazila i na strani BEZ ijednog bloka —
+           pa bi provera „bar 44 px" prolazila i na strani BEZ ijednog bloka –
            lažno zelena provera, tačno ono što protokol zabranjuje. */
         red: document.querySelector('.seo-blok summary')
           ? Math.min(...[...document.querySelectorAll('.seo-blok summary')].map(s => s.getBoundingClientRect().height))
@@ -4545,7 +4551,7 @@ async function main() {
       ok('blokovi · nema vodoravnog skrolovanja na 390 px', m.skrol <= 0, `preliva ${m.skrol} px`);
       await ctx38m.close();
 
-      /* Smanjen pokret: tekst i slovo ostaju vidljivi — ne gubi se podatak. */
+      /* Smanjen pokret: tekst i slovo ostaju vidljivi – ne gubi se podatak. */
       const ctx38r = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });
       const p38r = ojacajStranu(await ctx38r.newPage());
       await p38r.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
@@ -4553,7 +4559,7 @@ async function main() {
       await p38r.evaluate(() => document.querySelectorAll('.seo-blok').forEach(x => x.open = true));
       /* Mora da prođe bar jedan iscrtan kadar. Ako se `opacity` čita u ISTOM
          potezu u kome je blok otvoren, dobije se početna vrednost animacije
-         (0) — a to nije stanje koje čovek vidi. Provereno merenjem: već posle
+         (0) – a to nije stanje koje čovek vidi. Provereno merenjem: već posle
          50 ms je 1, i u režimu „smanji pokret" i bez njega. */
       await pauza(250);
       const rr = await p38r.evaluate(() => {
@@ -4596,7 +4602,7 @@ async function main() {
            st.url === putanja && st.h1.startsWith(naslov) && st.title.startsWith(naslovKartice || naslov),
            `adresa ${st.url}, h1 „${st.h1.slice(0, 40)}", naslov „${st.title.slice(0, 40)}"`);
       }
-      /* Jedan korak unazad vraća na PRETHODNI tab (Klasici), ne na početnu —
+      /* Jedan korak unazad vraća na PRETHODNI tab (Klasici), ne na početnu –
          svaki tab je svoj unos u istoriji. Bitno je da se sa adresom vrati i
          naslov; zato se poredi sa tabom na koji se stvarno vratilo. */
       await p39.goBack();
@@ -4619,9 +4625,9 @@ async function main() {
        red". Vraćanje kursora posle osvežavanja je pomeralo kursor sa KRAJA reda
        na POČETAK sledećeg, pa su se sledeća slova kucala tamo.
        Provera pokriva sva tri slučaja koja se ovde sudaraju: kraj reda, novi red
-       posle Entera i sredina reči (nalaz D4 — položaj koji niko ne testira). */
+       posle Entera i sredina reči (nalaz D4 – položaj koji niko ne testira). */
     {
-      console.log('\n12h) Beležnica — kursor posle osvežavanja');
+      console.log('\n12h) Beležnica – kursor posle osvežavanja');
       const ctx40 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
       const p40 = ojacajStranu(await ctx40.newPage());
       await p40.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
@@ -4634,7 +4640,7 @@ async function main() {
 
       /* ČITAJ JEDNOM, PA TVRDI I PRIJAVI ISTU VREDNOST.
          Do 27.08.2026. je ovde stajalo `ok(..., (await tekst()).startsWith(x), await tekst())`
-         — dva ODVOJENA čitanja iste stvari. Pod opterećenjem bi prvo čitanje stiglo
+         – dva ODVOJENA čitanja iste stvari. Pod opterećenjem bi prvo čitanje stiglo
          pre nego što `restoreCursorPosition` završi, pa bi provera pala, a drugo
          čitanje (ono koje se ispisuje) bi već bilo tačno. Zbog toga je poruka o padu
          izgledala besmisleno: „palo je, a evo tačne vrednosti".
@@ -4682,7 +4688,7 @@ async function main() {
       ok('beležnica · kursor usred reči ostaje usred reči', t3.startsWith('prviX red'), t3);
 
       /* Objašnjenje reči i u bočnom panelu (04.08.2026). Dugme ⓘ tamo ne
-         postoji — panel je uzak — pa se značenje pokazuje zadržavanjem
+         postoji – panel je uzak – pa se značenje pokazuje zadržavanjem
          kursora. Provera traži da se oblačić otvori i da se zatvori kad miš
          ode, i da u njemu bude STVARNO objašnjenje, ne prazan okvir. */
       await p40.evaluate(() => { document.querySelector('.notepad-text').innerText = 'ide baba ljuta'; });
@@ -4734,9 +4740,9 @@ async function main() {
       await ctx40.close();
     }
 
-    console.log('\n39) REDOSLED RIMA — strana i alat moraju da daju ISTO (nalaz K1)');
+    console.log('\n39) REDOSLED RIMA – strana i alat moraju da daju ISTO (nalaz K1)');
     {
-      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz K1.
+      /* Zašto ova sekcija postoji – audit 20.08.2026, nalaz K1.
          Test je do tada imao provere „strana postoji", „strana ima rime" i „broj
          rima se poklapa sa naslovom", i sve su prolazile. Nijedna nije pitala
          DA LI JE TO ISTI SPISAK ISTIM REDOM KAO U ALATU. A nije bio:
@@ -4753,10 +4759,10 @@ async function main() {
          (Python generator i JavaScript alat), u test ide provera koja ih POREDI.
          Provera „A radi" i provera „B radi" ne daju zajedno „A i B daju isto". */
 
-      /* Poredi se SAMO „Najbolje rime" i „Dobre rime" — grupe na koje se nalaz K1
+      /* Poredi se SAMO „Najbolje rime" i „Dobre rime" – grupe na koje se nalaz K1
          odnosi. Sve ostalo na ekranu se izuzima, iz dva razloga:
            · sinonimi žive u zasebnoj kartici (`.syn-card`) i nema ih na statičkoj
-             strani — bez ovoga bi „sunce" padalo uvek, jer alat tu ubacuje
+             strani – bez ovoga bi „sunce" padalo uvek, jer alat tu ubacuje
              `zvezda, svetlost, toplota`;
            · kod reči sa malo rima („sunce" ih ima 6) u prvih deset bi se uvukle
              „Bliske rime" i „Rime po broju slogova", pa bi provera padala na
@@ -4770,7 +4776,7 @@ async function main() {
       const ctx39 = await browser.newContext();
       const alat = ojacajStranu(await ctx39.newPage());
       await alat.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
-      /* Ne meri se dok frekvencija nije stigla — inače bi test poredio azbučni
+      /* Ne meri se dok frekvencija nije stigla – inače bi test poredio azbučni
          spisak sa azbučnim i prolazio i sa pokvarenim kodom. `RANK.get('čeka')`
          je negativan tek kad je frekvencija primenjena. */
       let rangSpreman = true;
@@ -4791,7 +4797,7 @@ async function main() {
       }
 
       if (rangSpreman) {
-        /* Uzorak je STALAN, ne nasumičan — build mora biti ponovljiv, a pad mora
+        /* Uzorak je STALAN, ne nasumičan – build mora biti ponovljiv, a pad mora
            da se može reprodukovati istom komandom. Bira raznolike dužine, oba
            roda, reči sa kvačicama i slugove koji se razlikuju od reči. */
         const uzorak = ['reka', 'ljubav', 'glava', 'sunce', 'voda', 'dete', 'pesma',
@@ -4803,9 +4809,9 @@ async function main() {
           if (!r.ok) { ok(`/rime-za/${slug}/ postoji`, false, `HTTP ${r.status}`); continue; }
           const html = await r.text();
           /* Slug NIJE reč: `/rime-za/noc/` je strana za „noć". Ciljna reč se čita
-             iz H1 — inače bi test poredio rime za dve različite reči. */
+             iz H1 – inače bi test poredio rime za dve različite reči. */
           const rec = (html.match(/<h1[^>]*>Rime za reč „([^“]+)“/) || [])[1];
-          if (!rec) { ok(`/rime-za/${slug}/ — ciljna reč se čita iz H1`, false, 'H1 nije prepoznat'); continue; }
+          if (!rec) { ok(`/rime-za/${slug}/ – ciljna reč se čita iz H1`, false, 'H1 nije prepoznat'); continue; }
           ispitano++;
           const alatLista = await izAlata(rec);
           /* Isto sečenje kao gore, samo nad HTML-om strane: sve posle „Najboljih"
@@ -4817,7 +4823,7 @@ async function main() {
             .map(m => m[1]).slice(0, 10);
           const isto = alatLista.length > 0 && alatLista.join(',') === naStrani.join(',');
           if (!isto) razlicito++;
-          ok(`/rime-za/${slug}/ („${rec}") — prvih 10 rima isto kao u alatu`, isto,
+          ok(`/rime-za/${slug}/ („${rec}") – prvih 10 rima isto kao u alatu`, isto,
              `strana: ${naStrani.slice(0, 6).join(', ')} | alat: ${alatLista.slice(0, 6).join(', ')}`);
         }
         ok(`uzorak je pun (ispitano ${ispitano} od ${uzorak.length})`, ispitano >= 18, `ispitano ${ispitano}`);
@@ -4838,7 +4844,7 @@ async function main() {
           await pauza(3000);
           const preko = imaRima ? await p.evaluate(uzmiRime) : [];
           await c.close();
-          ok(`/?rec=${w} — isti redosled kao kad se reč ukuca ručno`,
+          ok(`/?rec=${w} – isti redosled kao kad se reč ukuca ručno`,
              imaRima && rucno.length > 0 && rucno.join(',') === preko.join(','),
              `?rec=: ${preko.slice(0, 6).join(', ')} | ručno: ${rucno.slice(0, 6).join(', ')}`);
         }
@@ -4854,16 +4860,16 @@ async function main() {
       await ctx39.close();
     }
 
-    console.log('\n40) ADRESE ZA GUGLA — pilule bez svoje strane nisu linkovi, prazan upit je noindex (nalaz K2)');
+    console.log('\n40) ADRESE ZA GUGLA – pilule bez svoje strane nisu linkovi, prazan upit je noindex (nalaz K2)');
     {
-      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz K2.
+      /* Zašto ova sekcija postoji – audit 20.08.2026, nalaz K2.
          Svaka rima je bila `<a href="/?rec=…">`, pa je 2.007 strana zajedno
-         nudilo 98.115 različitih adresa za obilazak — 48 puta više nego što ceo
+         nudilo 98.115 različitih adresa za obilazak – 48 puta više nego što ceo
          sitemap ima. Na svaku od njih server vraća BAJT-IDENTIČAN HTML početne;
          naslov i opis upisuje tek JavaScript. Uz to `noindex` nije postojao
          nigde u projektu, pa je `/?rec=<bilo šta>` bila indeksabilna strana bez
          ijedne rime.
-         Odluka od 19.08. da `?rec=` bude SEO nosilac za reči bez strane OSTAJE —
+         Odluka od 19.08. da `?rec=` bude SEO nosilac za reči bez strane OSTAJE –
          proverava se samo da ih ne nudimo robotu na stotine hiljada. */
 
       // 40a) na strani reči nijedna rima nije ?rec= link, a dugmadi ima
@@ -4871,11 +4877,11 @@ async function main() {
         const html = await (await fetch(BASE + '/rime-za/ljubav/')).text();
         const linkovi = (html.match(/href="\/\?rec=/g) || []).length;
         const dugmad  = (html.match(/class="chip chip-btn"/g) || []).length;
-        ok('/rime-za/ljubav/ — nijedna rima nije `?rec=` link', linkovi === 0, `našao ${linkovi}`);
-        ok('/rime-za/ljubav/ — reči bez svoje strane su dugmad', dugmad > 20, `našao ${dugmad}`);
+        ok('/rime-za/ljubav/ – nijedna rima nije `?rec=` link', linkovi === 0, `našao ${linkovi}`);
+        ok('/rime-za/ljubav/ – reči bez svoje strane su dugmad', dugmad > 20, `našao ${dugmad}`);
       }
 
-      // 40b) dugme i dalje radi za čoveka — klik vodi na /?rec=…
+      // 40b) dugme i dalje radi za čoveka – klik vodi na /?rec=…
       {
         const c = await browser.newContext();
         const p = ojacajStranu(await c.newPage());
@@ -4911,11 +4917,11 @@ async function main() {
             rima: document.querySelectorAll('#rimeResults .word').length
           }));
         };
-        /* MERILO JE REČNIK, NE BROJ RIMA — i to je nauk iz prvog pokušaja ove
+        /* MERILO JE REČNIK, NE BROJ RIMA – i to je nauk iz prvog pokušaja ove
            provere. Prvo je pisalo „adresa bez ijedne rime dobija noindex", pa je
            pala: `xqzwptrv` nije reč, ali se završava na `-rv`, pa alat uredno
            vrati `strv, krv, crv, hrv, brv`. Po tom merilu bi svaki niz slova sa
-           srpskim završetkom pravio novu stranu za Gugla — tačno ono što nalaz
+           srpskim završetkom pravio novu stranu za Gugla – tačno ono što nalaz
            K2 sprečava. Zato se ovde traži DVOJE: niz slova koji ima rime, ali
            nije reč, i niz koji nema ni rime. */
         const nijeRec = await stanje('/?rec=xqzwptrv');
@@ -4929,13 +4935,13 @@ async function main() {
 
         const puno = await stanje('/?rec=ljubav');
         ok('`?rec=ljubav` NEMA `noindex`', !/noindex/.test(puno.robots), `robots="${puno.robots}"`);
-        ok('`?rec=ljubav` — `h1` pominje reč', /ljubav/i.test(puno.h1), puno.h1);
-        ok('`?rec=ljubav` — `og:title` prati reč', /ljubav/i.test(puno.ogt), puno.ogt.slice(0, 90));
-        ok('`?rec=ljubav` — `og:url` je jednak kanonikalu', puno.ogu === puno.kan,
+        ok('`?rec=ljubav` – `h1` pominje reč', /ljubav/i.test(puno.h1), puno.h1);
+        ok('`?rec=ljubav` – `og:title` prati reč', /ljubav/i.test(puno.ogt), puno.ogt.slice(0, 90));
+        ok('`?rec=ljubav` – `og:url` je jednak kanonikalu', puno.ogu === puno.kan,
            `og:url ${puno.ogu} | kanonikal ${puno.kan}`);
-        ok('`?rec=ljubav` — kanonikal ide na statičku stranu', /\/rime-za\/ljubav\//.test(puno.kan), puno.kan);
+        ok('`?rec=ljubav` – kanonikal ide na statičku stranu', /\/rime-za\/ljubav\//.test(puno.kan), puno.kan);
 
-        /* Naslov strane se vraća kad se polje isprazni — inače bi `h1` ostao
+        /* Naslov strane se vraća kad se polje isprazni – inače bi `h1` ostao
            zaglavljen na poslednjoj traženoj reči. */
         await p.fill('#rimeInput', '');
         await p.evaluate(() => document.getElementById('rimeBtn').click());
@@ -4955,16 +4961,16 @@ async function main() {
 
     console.log('\n41) VERZIJE PODATAKA PRATE SADRŽAJ (nalaz V5)');
     {
-      /* Zašto ova sekcija postoji — audit 20.08.2026, nalaz V5.
+      /* Zašto ova sekcija postoji – audit 20.08.2026, nalaz V5.
          Adrese podataka nose `?v=…` da bi pregledač i service worker znali kad da
          povuku novu verziju: keš gleda ADRESU, ne datum fajla. Taj broj je kucao
          čovek, pa se desilo ovo: `reci.txt` i `definicije.json` izmenjeni 20.08.
-         (izbačen `kapučino`), `?v=` ostao od 17.08. — svako ko je već bio na sajtu
+         (izbačen `kapučino`), `?v=` ostao od 17.08. – svako ko je već bio na sajtu
          dobijao je stari rečnik, sa rečju koju je vlasnica tražila da se izbaci.
          Sada je `?v=` prvih osam znakova otiska samog fajla, a ova provera pada ako
          se sadržaj promenio a verzija nije. Popravka:
              node scripts/osvezi-verzije-podataka.mjs
-         Provera radi nad REPOOM, ne nad mrežom — zato je ista i lokalno i protiv
+         Provera radi nad REPOOM, ne nad mrežom – zato je ista i lokalno i protiv
          produkcije, i hvata grešku PRE nego što ode na sajt. */
       const { stanjeVerzija } = await import('../scripts/osvezi-verzije-podataka.mjs');
       const stanje = stanjeVerzija(ROOT);
@@ -4979,17 +4985,17 @@ async function main() {
          Object.entries(stanje).filter(([, v]) => !v.upisano).map(([i]) => i).join(', ') || 'ok');
     }
 
-    console.log('\n42) NASLOVI I OPISI — dužina i ključne reči (nalaz V1 + analitika 25.08.)');
+    console.log('\n42) NASLOVI I OPISI – dužina i ključne reči (nalaz V1 + analitika 25.08.)');
     {
       /* Zašto ova sekcija postoji. Audit 20.08.2026. je našao 1.739 od 1.994 naslova
          duže od 65 znakova, a revizija pokrivenosti je pokazala da test dužinu
-         naslova i opisa NE MERI NIGDE — regresija koja vrati opise na 205 znakova
+         naslova i opisa NE MERI NIGDE – regresija koja vrati opise na 205 znakova
          prošla bi 600/600. Gugl seče naslov oko 600 px (~60 znakova) i opis oko
          155–160, pa se odseca upravo rep u kome stoji ime „Rimoteka".
 
          Uz to, analitika od 25.08.2026. je pokazala dva promašaja koje ova sekcija
          čuva da se ne vrate:
-           · početna: 13.091 prikaz, CTR 2,5 % — a `/rimovanje-reci/` na skoro istoj
+           · početna: 13.091 prikaz, CTR 2,5 % – a `/rimovanje-reci/` na skoro istoj
              poziciji ima 6,1 %. Uzrok je naslov, ne rangiranje;
            · upit `rime`: 522 prikaza, 0 klikova, a Gugl za njega pokazuje deset naših
              strana koje se međusobno guše.
@@ -4998,7 +5004,7 @@ async function main() {
       const OPSEG_TITLE = [40, 65];   // znakova; preko 65 Gugl seče rep
       const OPSEG_DESC  = [110, 165]; // znakova
 
-      // 42a) glavne strane — dužina i jedinstvenost
+      // 42a) glavne strane – dužina i jedinstvenost
       {
         const strane = ['/', '/rimovanje-reci/', '/slogovi/', '/klasici/', '/vrste-rima/',
                         '/igra-rimovanja/', '/pisanje-pesama/', '/rime-po-zavrsetku/',
@@ -5006,14 +5012,14 @@ async function main() {
         const viđeni = { title: new Map(), desc: new Map() };
         for (const u of strane) {
           const r = await fetch(BASE + u);
-          if (!r.ok) { ok(`${u} — strana postoji`, false, `HTTP ${r.status}`); continue; }
+          if (!r.ok) { ok(`${u} – strana postoji`, false, `HTTP ${r.status}`); continue; }
           const html = await r.text();
           const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
           const desc = (html.match(/name="description" content="([^"]*)"/) || [])[1] || '';
-          ok(`${u} — naslov u opsegu ${OPSEG_TITLE[0]}–${OPSEG_TITLE[1]} znakova`,
+          ok(`${u} – naslov u opsegu ${OPSEG_TITLE[0]}–${OPSEG_TITLE[1]} znakova`,
              title.length >= OPSEG_TITLE[0] && title.length <= OPSEG_TITLE[1],
              `${title.length}: „${title}"`);
-          ok(`${u} — opis u opsegu ${OPSEG_DESC[0]}–${OPSEG_DESC[1]} znakova`,
+          ok(`${u} – opis u opsegu ${OPSEG_DESC[0]}–${OPSEG_DESC[1]} znakova`,
              desc.length >= OPSEG_DESC[0] && desc.length <= OPSEG_DESC[1],
              `${desc.length}: „${desc.slice(0, 80)}…"`);
           viđeni.title.set(title, (viđeni.title.get(title) || 0) + 1);
@@ -5027,7 +5033,7 @@ async function main() {
            dupliD.map(([t]) => t.slice(0, 50)).join(' | '));
       }
 
-      // 42b) ko „drži" koji upit — da se strane ne guše međusobno
+      // 42b) ko „drži" koji upit – da se strane ne guše međusobno
       {
         const poc = await (await fetch(BASE + '/')).text();
         const pocT = (poc.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
@@ -5042,7 +5048,7 @@ async function main() {
            /\brime\b/i.test(rimT), rimT);
       }
 
-      // 42c) brojevi koji rastu ne smeju u opis — pravilo vlasnice
+      // 42c) brojevi koji rastu ne smeju u opis – pravilo vlasnice
       {
         const poc = await (await fetch(BASE + '/')).text();
         const desc = (poc.match(/name="description" content="([^"]*)"/) || [])[1] || '';
@@ -5050,7 +5056,7 @@ async function main() {
            !/\d{2,3}[.\s]\d{3}/.test(desc), desc);
       }
 
-      // 42d) uzorak generisanih strana reči — dužina naslova
+      // 42d) uzorak generisanih strana reči – dužina naslova
       {
         const uzorak = ['ljubav', 'reka', 'nada', 'sunce', 'glava', 'dete', 'srce',
                         'mama', 'zima', 'voda'];
@@ -5062,10 +5068,10 @@ async function main() {
           const t2 = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
           const d2 = (html.match(/name="description" content="([^"]*)"/) || [])[1] || '';
           if (t2.length > OPSEG_TITLE[1]) { predugih++; if (t2.length > najduzi) { najduzi = t2.length; primer = t2; } }
-          ok(`/rime-za/${w}/ — opis do ${OPSEG_DESC[1]} znakova`, d2.length <= OPSEG_DESC[1],
+          ok(`/rime-za/${w}/ – opis do ${OPSEG_DESC[1]} znakova`, d2.length <= OPSEG_DESC[1],
              `${d2.length} znakova`);
         }
-        /* Naslovi strana reči su NAMERNO još uvek predugi — to je otvoren nalaz V1
+        /* Naslovi strana reči su NAMERNO još uvek predugi – to je otvoren nalaz V1
            iz audita 20.08. (1.739 od 1.994 preko 65 znakova). Ova provera ih ne
            obara, nego BROJI, da se vidi kad se nalaz zatvori i da posle toga ne
            sme da se vrati. Kad se šablon skrati, uslov ispod se menja na `=== 0`. */
@@ -5078,9 +5084,9 @@ async function main() {
     {
       /* Zašto ova sekcija postoji.
          Vlasnica otvara svoj sajt svaki dan, a pre-deploy test otvara 34 sveža
-         konteksta po prolazu — svaki bez kolačića, dakle za GA4 NOV KORISNIK.
+         konteksta po prolazu – svaki bez kolačića, dakle za GA4 NOV KORISNIK.
          Izmereno pre popravke: grad iz kog se test pušta imao je 206 korisnika,
-         203 „nova", uz prosečno zadržavanje od 12 sekundi — dok je stvarna
+         203 „nova", uz prosečno zadržavanje od 12 sekundi – dok je stvarna
          publika imala 2m 56s. Na sajtu ove veličine to je bio veći deo podataka.
 
          Dve popravke koje ova sekcija čuva:
@@ -5088,7 +5094,7 @@ async function main() {
            · sam test blokira Google-ove merne domene na nivou pregledača
              (presretanje zahteva, v. vrh fajla), pa nijedan njegov
              prolaz više ne ulazi u statistiku.
-         ⚠️ Važi samo unapred — već izbrojane posete GA4 ne briše. */
+         ⚠️ Važi samo unapred – već izbrojane posete GA4 ne briše. */
 
       const c43 = await browser.newContext();
       const p43 = ojacajStranu(await c43.newPage());
@@ -5128,7 +5134,7 @@ async function main() {
       await c43.close();
 
       /* Prekidač NE SME da obori stranu kad je `localStorage` zabranjen
-         (privatni režim, blokirani kolačići) — tada se ponaša kao da ga nema. */
+         (privatni režim, blokirani kolačići) – tada se ponaša kao da ga nema. */
       {
         const cz = await browser.newContext();
         await cz.addInitScript(() => {
@@ -5137,7 +5143,7 @@ async function main() {
         });
         const pz = ojacajStranu(await cz.newPage());
         await pz.goto(BASE + '/?interno=1', { waitUntil: 'domcontentloaded' });
-        /* Čeka se STANJE (rečnik u memoriji), ne fiksno 2,5 s — na produkciji pod opterećenjem
+        /* Čeka se STANJE (rečnik u memoriji), ne fiksno 2,5 s – na produkciji pod opterećenjem
            rečnik od 2,7 MB stiže i posle 3 s (pao 07.09.2026 kao trka). */
         await pz.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 0, null, { timeout: 60000 }).catch(() => {});
         const zivo = await pz.evaluate(() => ({
@@ -5149,7 +5155,7 @@ async function main() {
         await cz.close();
       }
 
-      /* Sam test ne sme da šalje ništa Google-u — merni domeni su blokirani na
+      /* Sam test ne sme da šalje ništa Google-u – merni domeni su blokirani na
          nivou pregledača, pa se skripta ne učita ni na jednoj strani. */
       {
         const cb = await browser.newContext();
@@ -5162,7 +5168,7 @@ async function main() {
         pb.on('response', async r => {
           if (!/googletagmanager\.com|google-analytics\.com|analytics\.google\.com/.test(r.url())) return;
           /* Presretnut zahtev nosi naše zaglavlje. Ako ga nema, odgovor je stigao
-             SA MREŽE — dakle nešto je ipak otišlo Google-u. */
+             SA MREŽE – dakle nešto je ipak otišlo Google-u. */
           try { if (!(await r.allHeaders())['x-blokirano-u-testu']) stigloDoGoogla++; }
           catch { stigloDoGoogla++; }
         });
@@ -5174,16 +5180,16 @@ async function main() {
       }
     }
 
-    console.log('\n44) TAMNA TEMA — pilule nemaju beo okvir (nalaz M12)');
+    console.log('\n44) TAMNA TEMA – pilule nemaju beo okvir (nalaz M12)');
     {
-      /* Zašto ova sekcija postoji — nalaz M12, otvoren 31.07.2026.
+      /* Zašto ova sekcija postoji – nalaz M12, otvoren 31.07.2026.
          `.chip` ima `border:2px solid #fff`, a tamni režim je menjao samo pozadinu,
          pa je oko svake „dobre rime" stajao BEO prsten na podlozi #1e1a2e.
-         Izmereno: odnos prema podlozi 15,1:1, a razdelnoj liniji treba oko 3:1 —
+         Izmereno: odnos prema podlozi 15,1:1, a razdelnoj liniji treba oko 3:1 –
          pet puta jače nego što treba, pa svetli kao neon.
 
          Popravka je 31.07. bila upisana UNUTAR `@media(max-width:560px)`, pa je
-         važila samo na telefonu — na računaru i tabletu je okvir ostao beo kroz
+         važila samo na telefonu – na računaru i tabletu je okvir ostao beo kroz
          TRI audita. Zato se ovde meri na obe širine, ne samo na jednoj.
 
          Pravilo šire od ovog nalaza: kad se nešto popravi „za telefon", proveri se
@@ -5197,7 +5203,7 @@ async function main() {
         await p44.fill('#rimeInput', 'ljubav');
         await p44.evaluate(() => document.getElementById('rimeBtn').click());
         /* Rezultati na produkciji (rečnik od 2,5 MB preko mreže) umeju da stignu posle
-           1,5 s — čeka se grupa „Dobre rime" do 20 s, ne fiksno vreme. */
+           1,5 s – čeka se grupa „Dobre rime" do 20 s, ne fiksno vreme. */
         await p44.waitForFunction(() => [...document.querySelectorAll('#rimeResults .res-group h2')].some(h => /^Dobre rime/.test(h.textContent.trim())), null, { timeout: 20000 }).catch(() => {});
         await pauza(300);
 
@@ -5237,12 +5243,12 @@ async function main() {
       }
     }
 
-    console.log('\n45) SLOGOVI — veliko početno slovo broji se isto kao malo (prijava korisnika 06.09.2026)');
+    console.log('\n45) SLOGOVI – veliko početno slovo broji se isto kao malo (prijava korisnika 06.09.2026)');
     {
-      /* Zašto ova sekcija postoji — prijava korisnika (Dragan M.) od 06.09.2026:
+      /* Zašto ova sekcija postoji – prijava korisnika (Dragan M.) od 06.09.2026:
          za „nepostojan" filter „1 slog" nudi „Iran", a u „2 sloga" ga nema.
          Uzrok: `countSyl` u app.js NIJE prebacivao reč u mala slova, a `VOWELS`
-         sadrži samo mala — pa veliko početno A/E/I/O/U nije bilo samoglasnik.
+         sadrži samo mala – pa veliko početno A/E/I/O/U nije bilo samoglasnik.
          `vowelPositions` je istu popravku dobio 02.08. (za „Amerika"), `countSyl`
          nije. Isti kvar i u `build/gen_pages.py` (`count_syl`, `rhyme_key`…).
          Izmereno pre popravke: 155 reči rečnika počinje velikim samoglasnikom;
@@ -5250,9 +5256,9 @@ async function main() {
          umesto 3 na /rime-za/slobodan/).
 
          Pravilo šire od nalaza: kad se ista logika popravi u JEDNOJ funkciji,
-         pretražiti sve funkcije nad istim podatkom — kvar je klasa, ne instanca.
+         pretražiti sve funkcije nad istim podatkom – kvar je klasa, ne instanca.
          Ovde se proverava (a) ceo rečnik u alatu, (b) korisnikov tok, (c) statička
-         strana — da Python i JS daju isti broj. */
+         strana – da Python i JS daju isti broj. */
       const c45 = await browser.newContext();
       const p45 = ojacajStranu(await c45.newPage());
       await p45.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
@@ -5268,7 +5274,7 @@ async function main() {
       ok('rečnik ima reči velikim slovom (test nešto proverava)', recnik.velikih > 100, `${recnik.velikih}`);
       /* 06.09.2026, odluka vlasnice: ime ne sme da stoji i malim slovom („Iran" i „iran"
          jedno do drugog među rimama). Obrisano 488 malih oblika; prave reči koje se
-         samo pišu isto (rima/Rima, prag/Prag, danska/Danska) ostaju — zato prag 130. */
+         samo pišu isto (rima/Rima, prag/Prag, danska/Danska) ostaju – zato prag 130. */
       const blizanci = await p45.evaluate(() => {
         const male = new Set(WORDS.filter(w => !/^[A-ZČĆŠĐŽ]/.test(w)));
         const dup = WORDS.filter(w => /^[A-ZČĆŠĐŽ]/.test(w) && male.has(w.toLowerCase()));
@@ -5276,7 +5282,7 @@ async function main() {
       });
       ok('ime velikim slovom nema dvojnika malim slovom (osim pravih reči, najviše 130)',
          blizanci.n <= 130, `${blizanci.n}: ${blizanci.primeri.join(', ')}`);
-      /* Učestalost se učitava u pozadini (`loadExtras`), na produkciji i po nekoliko sekundi —
+      /* Učestalost se učitava u pozadini (`loadExtras`), na produkciji i po nekoliko sekundi –
          čeka se da stigne, ne fiksno vreme (na produkciji je 06.09. pala baš zbog toga). */
       await p45.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('Srbija') < 0, null, { timeout: 20000 }).catch(() => {});
       const rangImena = await p45.evaluate(() => {
@@ -5303,7 +5309,7 @@ async function main() {
          dvaSamoglasnika.map(x => `${x.w}:${x.s}`).join(', '));
       await p45.click('#rimeSyl button[data-syl="2"]'); await pauza(700);
       const dva = await citaj45();
-      ok('„nepostojan" · filter „2 sloga" — svaka pilula piše 2', dva.length > 0 && dva.every(x => x.s === '2'),
+      ok('„nepostojan" · filter „2 sloga" – svaka pilula piše 2', dva.length > 0 && dva.every(x => x.s === '2'),
          dva.filter(x => x.s !== '2').map(x => `${x.w}:${x.s}`).join(', '));
 
       // (c) statička strana: broj na piluli (Python) = broj u alatu (JS)
@@ -5324,16 +5330,16 @@ async function main() {
       await c45.close();
     }
 
-    console.log('\n46) „PRIJAVI GREŠKU" — dugme, prozorčić i slanje u sanduče (06.09.2026)');
+    console.log('\n46) „PRIJAVI GREŠKU" – dugme, prozorčić i slanje u sanduče (06.09.2026)');
     {
       /* Zašto ova sekcija postoji: 06.09.2026. korisnik je MEJLOM prijavio da „Iran" ima
          jedan slog. Tačno, i mesecima neprimećeno. Odluka vlasnice: uz svaku reč ide
-         prijava na tri dodira — telefon: peto dugme u traci nad reči; računar: četvrta
+         prijava na tri dodira – telefon: peto dugme u traci nad reči; računar: četvrta
          ikonica (zastavica) uz reč, pored ⓘ ♡ 🔁. Šalje se u `worker/prijave.js` (Cloudflare KV).
 
          Test šalje PRAVI zahtev sanduču sa `proba:true` (uređaj označen `rimoteka_interno`):
          sanduče sve proveri (poreklo, polja, razlog) i vrati ok, a ne zapiše ništa. Tako se
-         proverava i CSP (`connect-src` u nginx.conf) — kad bi adresa sanduča ispala iz CSP-a,
+         proverava i CSP (`connect-src` u nginx.conf) – kad bi adresa sanduča ispala iz CSP-a,
          zahtev bi pukao u pregledaču i ova sekcija bi pala. Ne proverava se samo da dugme
          postoji nego da ceo tok radi: dugme → prozorčić → šest odgovora → slanje → „Hvala". */
       const SANDUCE = 'https://rimoteka-prijave.jovana-daskovic.workers.dev/prijava';
@@ -5369,9 +5375,9 @@ async function main() {
          && forma.opcije[4] === 'Nije za decu' && forma.opcije[5] === 'Nešto drugo', forma && forma.opcije.join(' | '));
       ok('telefon · prvi odgovor (slogovi) je unapred izabran', !!forma && forma.izabrano === 'slogovi', forma && forma.izabrano);
       ok('telefon · ceo prozorčić je u ekranu (ne seče se)', !!forma && forma.uEkranu === true, JSON.stringify(forma));
-      await p46.fill('.prijava-napomena', 'Proba iz testa — ne čuvati.');
+      await p46.fill('.prijava-napomena', 'Proba iz testa – ne čuvati.');
       await p46.tap('.prijava-posalji');
-      /* Sanduče na hladnom startu ume da odgovori tek posle 2–4 s — čeka se „Hvala" do 8 s,
+      /* Sanduče na hladnom startu ume da odgovori tek posle 2–4 s – čeka se „Hvala" do 8 s,
          ne fiksne 2 s (prvi prolaz testa je pao baš na tome). */
       await p46.waitForSelector('.prijava.hvala', { timeout: 8000 }).catch(() => {});
       const posle = await p46.evaluate(() => { const b = document.querySelector('.prijava'); return b ? b.textContent.trim() : 'NEMA'; });
@@ -5384,7 +5390,7 @@ async function main() {
       ok('telefon · prozorčić se sam zatvara posle „Hvala"', await p46.evaluate(() => !document.querySelector('.prijava')), 'još stoji');
       await c46.close();
       // (a2) uređaj označen SAMO sa `?interno=1` (analitika ugašena) mora da šalje PRAVU prijavu, ne probu
-      //      (07.09.2026: prijave vlasnice i njenog muža su nestajale). Zahtev se presreće — ništa se ne čuva.
+      //      (07.09.2026: prijave vlasnice i njenog muža su nestajale). Zahtev se presreće – ništa se ne čuva.
       const c46i = await browser.newContext({ viewport: { width: 1280, height: 800 } });
       await c46i.addInitScript(() => { try { localStorage.removeItem('rimoteka_proba'); localStorage.setItem('rimoteka_interno', '1'); } catch (e) {} });
       const p46i = ojacajStranu(await c46i.newPage()); let teloInterno = null;
@@ -5411,14 +5417,14 @@ async function main() {
           legenda: (document.querySelector('.res-legend') || {}).textContent || '' }; });
       ok('računar · u kapsuli nema vidljivih ikonica (radnje su u traci)', kapsule.cipova > 0 && kapsule.vidljiveIkonice === 0, JSON.stringify(kapsule));
       ok('računar · u red stane bar 7 reči (na 1280 px; bilo 4 sa ikonicama)', kapsule.poRedu >= 7, `${kapsule.poRedu}`);
-      /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU — stara je imala
+      /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU – stara je imala
          tri uputstva u jednom redu, a test je proveravao samo ključne reči pa je prolazila. */
       ok('računar · legenda je tačno tekst vlasnice (08.09.2026)', /^2\s*Broj u kružiću označava koliko slogova ima data reč\.\s*Pređi mišem preko reči i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()), kapsule.legenda);
       await p46b.evaluate(() => document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'center' })); await pauza(300);
       await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
       const traka2 = await p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act) : []; });
       ok('računar · prelazak mišem otvara traku sa pet radnji (značenje, omiljene, rime, kopiraj, prijavi)', traka2.join(',') === 'def,fav,rime,kopiraj,prijavi', traka2.join(','));
-      /* LEPLJIVA traka (prijava vlasnice 06.09.): na putu do „prijavi" kursor okrzne susednu reč —
+      /* LEPLJIVA traka (prijava vlasnice 06.09.): na putu do „prijavi" kursor okrzne susednu reč –
          traka NE sme da preskoči ni da nestane. Prolazak preko tri reči je ne pomera; tek
          zadržavanje na drugoj reči (350 ms) je prebacuje; izlazak iz spiska (700 ms) je zatvara. */
       const kutija = async i => await p46b.locator('#rimeResults .chip').nth(i).boundingBox();
@@ -5436,8 +5442,8 @@ async function main() {
       ok('računar · zadržavanje na drugoj reči prebacuje traku na nju', (await stanjeTrake()) !== rec12 && (await stanjeTrake()) !== 'zatvorena', await stanjeTrake());
       await p46b.mouse.move(640, 5); await pauza(900);
       ok('računar · kad kursor napusti spisak, traka se zatvori', (await stanjeTrake()) === 'zatvorena', await stanjeTrake());
-      /* Reč se dovede u gornju trećinu ekrana da ISPOD nje ima mesta — tada prozorčić mora dole.
-         (Kad nema mesta ni gore ni dole, prozorčić se priteže u ekran — to je druga provera.) */
+      /* Reč se dovede u gornju trećinu ekrana da ISPOD nje ima mesta – tada prozorčić mora dole.
+         (Kad nema mesta ni gore ni dole, prozorčić se priteže u ekran – to je druga provera.) */
       await p46b.evaluate(() => { document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'start' }); window.scrollBy(0, -140); }); await pauza(300);
       await p46b.locator('#rimeResults .chip').first().hover(); await pauza(500);
       await p46b.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
@@ -5479,17 +5485,17 @@ async function main() {
       ok('sanduče · pregled prijava bez ključa ne otvara (403)', pregled.status === 403, `${pregled.status}`);
     }
 
-    console.log('\n47) BANER ZA KOLAČIĆE — GA tek posle pristanka, ne blokira sajt (06.09.2026)');
+    console.log('\n47) BANER ZA KOLAČIĆE – GA tek posle pristanka, ne blokira sajt (06.09.2026)');
     {
       /* Odluka vlasnice 06.09.2026: Google Analytics se učitava TEK POSLE pristanka.
          „Prihvati sve" jedan klik; „Podesi" otvara prekidače. Baner NE blokira sajt
-         (Google kažnjava nametljive međuekrane na telefonu — vlasnica: „ne želim da
+         (Google kažnjava nametljive međuekrane na telefonu – vlasnica: „ne želim da
          stanem Google-u na žulj"). Svi drugi konteksti u testu kreću sa prihvaćenim
          kolačićima (v. bez-analitike.mjs); ovde se odluka briše da se baner vidi. */
       const GA = /googletagmanager\.com\/gtag\/js/;
       const svez = async (sirina, dodatno) => {
         const c = await browser.newContext({ viewport: { width: sirina, height: sirina < 600 ? 780 : 800 }, isMobile: sirina < 600, hasTouch: sirina < 600 });
-        /* Briše odluku SAMO pri prvom učitavanju u kontekstu — init skripta se izvršava pri svakoj
+        /* Briše odluku SAMO pri prvom učitavanju u kontekstu – init skripta se izvršava pri svakoj
            navigaciji, pa bi inače obrisala i odluku koju test upravo proverava posle osvežavanja. */
         await c.addInitScript(() => { try { if (!sessionStorage.getItem('t47')) { localStorage.removeItem('rimoteka_kolacici'); localStorage.removeItem('rimoteka_interno'); sessionStorage.setItem('t47', '1'); } } catch (e) {} });
         if (dodatno) await c.addInitScript(dodatno);
@@ -5532,7 +5538,7 @@ async function main() {
       await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1500);
       const b5 = await p.evaluate(() => ({ naslov: (document.querySelector('.kolacici-naslov') || {}).textContent || '', dugme: (document.querySelector('.kolacici-prihvati') || {}).textContent || '', tekst: (document.querySelector('.kolacici-tekst') || {}).textContent || '', red: (document.querySelectorAll('.kolacici-red-tekst b')[1] || {}).textContent || '' }));
       ok('ćirilica · baner je na ćirilici („Колачићи на Римотеци", „Прихвати све")', b5.naslov === 'Колачићи на Римотеци' && b5.dugme === 'Прихвати све', JSON.stringify(b5));
-      /* Tekst je ODREDILA VLASNICA 07.09.2026 (isti kao orbitacode.com) — namerno kratak i
+      /* Tekst je ODREDILA VLASNICA 07.09.2026 (isti kao orbitacode.com) – namerno kratak i
          uopšten. Provera štiti od „poboljšanja" u nekoj budućoj sesiji. */
       ok('tekst banera je tačno onaj koji je vlasnica odredila (ćirilicom)', b5.tekst === 'Користимо колачиће како бисмо побољшали ваше искуство на нашем сајту.', b5.tekst);
       ok('ćirilica · ime brenda „Google Analytics" (red u „Podesi") ostaje latinicom', /Google Analytics/.test(b5.red) && !/Гоогле/.test(b5.red), b5.red);
@@ -5550,7 +5556,7 @@ async function main() {
          Google svaki put video „sve se promenilo" i prestao da veruje (GSC: statičke
          strane „Discovered – not indexed"). Sada `build/strane-otisci.json` čuva otisak
          svake strane; lastmod se menja samo kad se otisak promeni. Ovde: mapa postoji,
-         pokriva sve adrese iz sitemapa, i sitemap nosi baš te datume. Samo lokalno —
+         pokriva sve adrese iz sitemapa, i sitemap nosi baš te datume. Samo lokalno –
          produkcija ne servira `build/`. */
       const fs = await import('node:fs');
       const otisci = JSON.parse(fs.readFileSync(path.join(ROOT, 'build', 'strane-otisci.json'), 'utf8'));
@@ -5562,24 +5568,24 @@ async function main() {
       ok('svaka adresa iz sitemapa ima otisak u build/strane-otisci.json', bezOtiska.length === 0, bezOtiska.slice(0, 3).map(u => u.url).join(', '));
       ok('lastmod u sitemapu je onaj iz mape otisaka (ne datum gradnje)', drugiDatum.length === 0, drugiDatum.slice(0, 3).map(u => `${u.url} ${u.lastmod}≠${otisci[u.url].lastmod}`).join(', '));
     } else {
-      console.log('  (preskočeno na produkciji — mapa otisaka je u build/, ne na sajtu)');
+      console.log('  (preskočeno na produkciji – mapa otisaka je u build/, ne na sajtu)');
     }
 
-    console.log('\n49) POPRAVKE IZ AUDITA 07.09. — tastatura u traci, tajmer prijave, 320 px, filter, omiljene');
+    console.log('\n49) POPRAVKE IZ AUDITA 07.09. – tastatura u traci, tajmer prijave, 320 px, filter, omiljene');
     {
       /* Šest nalaza audita 06–07.09.2026 (A1, A2, A3, S-01, S-02, S-05). Svaka provera je
          napisana da PADNE na kodu od 06.09. (proverena ručno pre popravke):
-         A1 — Tab sa reči nikad nije ulazio u traku (400 Tab-ova nije bilo dovoljno);
-         A2 — tajmer prve prijave zatvarao je drugu; A3 — traka 8→327 na 320 px, ćirilica 344;
-         S-01 — traka ostajala otvorena posle nove pretrage; S-02 — „sunce" sve 9, filter „2" 95;
-         S-05 — `<img onerror>` iz omiljenih ulazio u DOM. */
+         A1 – Tab sa reči nikad nije ulazio u traku (400 Tab-ova nije bilo dovoljno);
+         A2 – tajmer prve prijave zatvarao je drugu; A3 – traka 8→327 na 320 px, ćirilica 344;
+         S-01 – traka ostajala otvorena posle nove pretrage; S-02 – „sunce" sve 9, filter „2" 95;
+         S-05 – `<img onerror>` iz omiljenih ulazio u DOM. */
       const c49 = await browser.newContext({ viewport: { width: 1280, height: 800 } });
       await c49.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
       const p49 = ojacajStranu(await c49.newPage());
       await p49.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await p49.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 });
       /* Kad stigne učestalost (`loadExtras`, na produkciji i 1–3 s posle rezultata), rezultati se
-         TIHO PONOVO ISCRTAJU — kapsula na kojoj je fokus nestane iz DOM-a i traka se izgubi. Zato se
+         TIHO PONOVO ISCRTAJU – kapsula na kojoj je fokus nestane iz DOM-a i traka se izgubi. Zato se
          pre rada tastaturom čeka da učestalost stigne (pao na produkciji 07.09.2026 kao trka). */
       await p49.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
       await pauza(800);
@@ -5626,7 +5632,7 @@ async function main() {
       const s05 = await p49b.evaluate(() => ({ img: document.querySelectorAll('#favResults img, #rimeResults img').length, omiljenih: document.querySelectorAll('#favResults .chip').length }));
       ok('omiljene · zloban zapis iz localStorage-a ne ulazi u DOM (escapeHtml + samo slova)', s05.img === 0 && s05.omiljenih === 1 && dijaloga === 0, JSON.stringify(s05));
       await c49b.close();
-      // A3 — 320 px, latinica i ćirilica
+      // A3 – 320 px, latinica i ćirilica
       for (const cyr of [false, true]) {
         const c = await browser.newContext({ viewport: { width: 320, height: 780 }, isMobile: true, hasTouch: true });
         await c.addInitScript(([cyr]) => { localStorage.setItem('rimoteka_interno', '1'); if (cyr) localStorage.setItem('rimoteka_script', 'cyr'); }, [cyr]);
@@ -5644,11 +5650,11 @@ async function main() {
       }
     }
 
-    console.log('\n50) SVE STRANE — brza provera svih strana iz sitemapa (fajlovi), i uzorak na sajtu');
+    console.log('\n50) SVE STRANE – brza provera svih strana iz sitemapa (fajlovi), i uzorak na sajtu');
     {
       /* Audit 07.09.: test je u pregledaču otvarao 3 od 1.991 strane reči. Ovo NE otvara
          pregledač (to bi trajalo sat): čita svaki generisani fajl i proverava ono što se
-         u fajlu vidi — tačno jedan h1, kanonikal = adresa iz sitemapa, JSON-LD validan,
+         u fajlu vidi – tačno jedan h1, kanonikal = adresa iz sitemapa, JSON-LD validan,
          bar 8 rima u HTML-u, bez `?rec=` linkova (K2), verzija app.js ista kao na početnoj.
          Na produkciji: nasumičan uzorak od 30 adresa iz sitemapa mora da vrati 200 sa h1. */
       const fs = await import('node:fs');
@@ -5692,6 +5698,10 @@ async function main() {
         /* S-19 (08.09.2026): reč sa <5 pravih rima nema stranu; nijedan link na stranama reči ne sme da vodi na
            stranu koje nema (od 08.09. je to 404, ne 301). Ukinute adrese stoje u nginx-stare-strane.map. */
         ok('S-19 · nijedna strana reči nema manje od 5 pravih rima', tanke.length === 0, tanke.slice(0, 6).join(', '));
+        /* Dugačka crta (em dash, U+2014) je ZABRANJENA na sajtu (odluka vlasnice 08.09.2026): koristi se kratka (–). */
+        const saCrtom = ['index.html', 'app.js', 'ga-init.js', '404.html', 'style.css', 'sw.js', 'manifest.json'].filter(f => fs.readFileSync(path.join(ROOT, 'public', f), 'utf8').includes('\u2014'));
+        let stranaSaCrtom = 0; for (const u of adrese) { const f = path.join(ROOT, 'public', u.replace('https://rimoteka.com', '').replace(/\/$/, ''), 'index.html'); if (fs.existsSync(f) && fs.readFileSync(f, 'utf8').includes('\u2014')) stranaSaCrtom++; }
+        ok('crta · nijedna dugačka crta (—) u fajlovima sajta ni na generisanim stranama (koristi se kratka –)', saCrtom.length === 0 && stranaSaCrtom === 0, `${saCrtom.join(', ')} · strana ${stranaSaCrtom}`);
         /* A6 (08.09.2026, odluka vlasnice): logo-icon.png je 128 px (bio 512 px / 298 KB = 57 % težine strane); veliki
            ostaje kao logo-512.png samo za manifest (ikonica na početnom ekranu). Izgled logotipa se NE menja. */
         const logoB = fs.statSync(path.join(ROOT, 'public', 'logo-icon.png')).size, logo512 = fs.existsSync(path.join(ROOT, 'public', 'logo-512.png'));
@@ -5709,7 +5719,7 @@ async function main() {
       }
     }
 
-    console.log('\n51) POPRAVKE IZ AUDITA 07.09. — DRUGI KRUG: rečnik sa HTML-om, igra preživi stranu, 44 px, baner, oblačić, statičke strane');
+    console.log('\n51) POPRAVKE IZ AUDITA 07.09. – DRUGI KRUG: rečnik sa HTML-om, igra preživi stranu, 44 px, baner, oblačić, statičke strane');
     {
       /* Nalazi A4, A5, S-04, S-08, S-09, S-10, S-11, S-12, S-13, S-15, S-16, S-17, N-01, N-02,
          N-03, N-04, N-05, N-08, N-09, N-10, N-R1 (audit 06–07.09.2026). Svaka provera je
@@ -5803,7 +5813,7 @@ async function main() {
         ok('S-10 · linkovi u futeru ≥ 44 px (bilo 16–19)', mini(mere.futer) >= 44 && mere.futer.length > 20, `min ${mini(mere.futer)} od ${mere.futer.length}`);
         ok('S-10 · link „Kolačići" ≥ 44 px (bio 16)', mini(mere.kolacici) >= 44, `${mere.kolacici}`);
         // prijava na telefonu: opcije i „Pošalji" ≥ 44; sa tastaturom prozorčić iznad nje (S-12)
-        /* Na produkciji učestalost stiže 1–3 s posle rezultata i rezultati se TIHO ponovo iscrtaju — traka
+        /* Na produkciji učestalost stiže 1–3 s posle rezultata i rezultati se TIHO ponovo iscrtaju – traka
            koju je test otvorio nestane (ista trka kao u sekciji 49). Zato se čeka učestalost, a tap na traku
            je u try/catch: ako traka nije tu, provere PADNU, test se ne ruši (pao na produkciji 08.09.). */
         await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
@@ -5829,11 +5839,11 @@ async function main() {
         await c.close();
       }
 
-      // ---------- S-13, S-16: baner — prvi u telu, Escape sklanja bez odluke, ne zaklanja fokus ----------
+      // ---------- S-13, S-16: baner – prvi u telu, Escape sklanja bez odluke, ne zaklanja fokus ----------
       {
         const c = await browser.newContext({ viewport: { width: 320, height: 780 }, isMobile: true, hasTouch: true });
         /* Omotač `bez-analitike.mjs` svakom kontekstu ubacuje PRIHVAĆENE kolačiće (označene `"test":true`) kad
-           odluke nema — ovde se to briše na SVAKOM učitavanju, da bi se video baner (i posle osvežavanja). */
+           odluke nema – ovde se to briše na SVAKOM učitavanju, da bi se video baner (i posle osvežavanja). */
         await c.addInitScript(() => { try { const v = localStorage.getItem('rimoteka_kolacici'); if (!v || /"test":true/.test(v)) localStorage.removeItem('rimoteka_kolacici'); localStorage.removeItem('rimoteka_interno'); } catch (e) {} });
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1200);
@@ -5842,7 +5852,7 @@ async function main() {
         ok('S-16 · baner je PRVI element u telu (bio 93. Tab-zaustavljanje)', b.prvi, JSON.stringify(b));
         ok('S-13 · baner na 320 px zauzima manje od 20 % ekrana (bilo 25 %)', b.visina > 0 && b.visina < b.ekran * 0.2, `${b.visina} od ${b.ekran}`);
         ok('S-13 · dok baner stoji, strana ostavlja mesta za fokus ispod (scroll-padding-bottom)', /^\d+px$/.test(b.sp) && parseInt(b.sp) >= b.visina, b.sp);
-        /* app.js na učitavanju fokusira polje za reč, a Chrome pamti polaznu tačku i posle blur-a — zato se
+        /* app.js na učitavanju fokusira polje za reč, a Chrome pamti polaznu tačku i posle blur-a – zato se
            proverava REDOSLED: prvi element koji prima fokus na strani je u baneru (bio je 93.). */
         const fokus = await p.evaluate(() => { const prvi = document.querySelector('a[href], button, input, textarea, [tabindex]:not([tabindex="-1"])'); return !!(prvi && prvi.closest('.kolacici')); });
         ok('S-16 · prvi element koji prima fokus je u baneru (bio 93.)', fokus);
@@ -5867,7 +5877,7 @@ async function main() {
         await pauza(600);
         const nr1 = await p.evaluate(() => { const g = [...document.querySelectorAll('#rimeResults .res-group')].find(x => /isti završni slog/.test(x.querySelector('h2')?.textContent || '')); return g ? (g.querySelector('.res-note') || {}).textContent || '' : 'nema grupe'; });
         ok('N-R1 · grupa „Dobre rime (isti završni slog)" nosi rečenicu da su to slabije rime', /samo u poslednjem slogu/.test(nr1), nr1);
-        // S-15: oblačić otvoren tastaturom — role=tooltip, Escape ga zatvara
+        // S-15: oblačić otvoren tastaturom – role=tooltip, Escape ga zatvara
         await p.focus('#rimeResults .chip .word'); await pauza(250); await p.keyboard.press('Tab'); await pauza(100); await p.keyboard.press('Enter');
         await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/učitavanje/.test(t.textContent); }, null, { timeout: 60000 }).catch(() => {});
         const t1 = await p.evaluate(() => { const t = document.getElementById('deftip'); return { vidljiv: !!t && t.style.display === 'block', role: t && t.getAttribute('role') }; });
@@ -5879,18 +5889,18 @@ async function main() {
         await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
         const n1 = await p.evaluate(() => ({ posalji: getComputedStyle(document.querySelector('.prijava-posalji')).backgroundImage, glavno: getComputedStyle(document.getElementById('rimeBtn')).backgroundImage }));
         ok('N-01 · „Pošalji" ima isti gradijent kao „Nađi rime" (belo na plavom kraju bilo 2,76)', n1.posalji === n1.glavno && /gradient/.test(n1.glavno), n1.posalji.slice(0, 80));
-        // N-02: tamna tema — napomena u prijavi ≥ 4,5
+        // N-02: tamna tema – napomena u prijavi ≥ 4,5
         const n2 = await p.evaluate(() => { const pRGB = s => (s.match(/[\d.]+/g) || [0,0,0]).slice(0,3).map(Number); const lum = ([r,g,b]) => { const f = c => { c/=255; return c<=0.03928 ? c/12.92 : Math.pow((c+0.055)/1.055,2.4); }; return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }; const odnos = (a,b) => { const la=lum(a), lb=lum(b); return (Math.max(la,lb)+0.05)/(Math.min(la,lb)+0.05); }; document.body.classList.add('dark-mode');
           const e = document.querySelector('.prijava-napomena-tekst'); const box = document.querySelector('.prijava');
           const r = odnos(pRGB(getComputedStyle(e).color), pRGB(getComputedStyle(box).backgroundColor)); document.body.classList.remove('dark-mode'); return Math.round(r * 100) / 100; });
         ok('N-02 · tamna tema: napomena u prijavi ≥ 4,5 (bilo 4,36)', n2 >= 4.5, `${n2}`);
         await p.keyboard.press('Escape'); await pauza(200);
-        // N-03: okvir kapsule „Najbolje rime" u svetloj temi ≥ 3 naspram njene pozadine („srce" nema tu grupu — uzima se „ljubav")
+        // N-03: okvir kapsule „Najbolje rime" u svetloj temi ≥ 3 naspram njene pozadine („srce" nema tu grupu – uzima se „ljubav")
         await p.fill('#rimeInput', 'ljubav'); await p.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(500);
         const n3 = await p.evaluate(() => { const pRGB = s => (s.match(/[\d.]+/g) || [0,0,0]).slice(0,3).map(Number); const lum = ([r,g,b]) => { const f = c => { c/=255; return c<=0.03928 ? c/12.92 : Math.pow((c+0.055)/1.055,2.4); }; return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }; const odnos = (a,b) => { const la=lum(a), lb=lum(b); return (Math.max(la,lb)+0.05)/(Math.min(la,lb)+0.05); }; const c = document.querySelector('#rimeResults .strong-tier .chip'); if (!c) return -1;
           const cs = getComputedStyle(c); return Math.round(odnos(pRGB(cs.borderTopColor), pRGB(cs.backgroundColor)) * 100) / 100; });
         ok('N-03 · okvir kapsule „Najbolje rime" u svetloj temi ≥ 3 (bilo 1,97)', n3 >= 3, `${n3}`);
-        // N-05: upit od 200 slova se seče na 60 — naslov, h1, adresa
+        // N-05: upit od 200 slova se seče na 60 – naslov, h1, adresa
         const dugo = 'ljubav'.repeat(34);
         await p.fill('#rimeInput', dugo); await p.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(600);
         const n5 = await p.evaluate(() => ({ naslov: document.title.length, h1: document.querySelector('h1').textContent.length, rec: (new URLSearchParams(location.search).get('rec') || '').length, kan: document.querySelector('link[rel="canonical"]').href.length }));
@@ -5902,7 +5912,7 @@ async function main() {
         await c.close();
       }
 
-      // ---------- S-08 + S-09: statička strana /rime-za/ — traka nad reči, ćirilica futera i naslova kapsula ----------
+      // ---------- S-08 + S-09: statička strana /rime-za/ – traka nad reči, ćirilica futera i naslova kapsula ----------
       {
         const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
         await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
@@ -5950,7 +5960,7 @@ async function main() {
       // ---------- S-17, N-08, N-09, N-10: tekstovi u fajlovima ----------
       if (LOKALNO) {
         const hub = citaj('rime-za/index.html');
-        ok('S-17 · hub ne tvrdi „Rime za sve srpske reči" (0,7 % rečnika)', !/sve srpske reči/i.test(hub) && /<title>Rime po rečima — azbučni spisak strana/.test(hub), (hub.match(/<title>[^<]*/) || [''])[0]);
+        ok('S-17 · hub ne tvrdi „Rime za sve srpske reči" (0,7 % rečnika)', !/sve srpske reči/i.test(hub) && /<title>Rime po rečima – azbučni spisak strana/.test(hub), (hub.match(/<title>[^<]*/) || [''])[0]);
         ok('N-09 · hub ne piše broj reči koji raste („1991 reči")', !/<strong>\d{3,}<\/strong> reči/.test(hub) && !/\d\.?\d{3} reči postoji/.test(hub));
         const lj = citaj('rime-za/ljubav/index.html');
         const meta = (lj.match(/class="landing-meta">([^<]*)/) || ['', ''])[1];
@@ -5966,7 +5976,7 @@ async function main() {
       }
     }
 
-    console.log('\n52) POPRAVKE IZ AUDITA 07.09. — TREĆI KRUG: font sa našeg servera, filter u adresi, tema ne zatvara prijavu, „preskoči na sadržaj"');
+    console.log('\n52) POPRAVKE IZ AUDITA 07.09. – TREĆI KRUG: font sa našeg servera, filter u adresi, tema ne zatvara prijavu, „preskoči na sadržaj"');
     {
       /* S-06, S-03, S-24, S-25 (audit 06–07.09.2026). Svaka provera pada na kodu pre popravke. */
       // S-06: nijedan zahtev ka Google Fonts; Rubik se učitava sa /fonts/ i zaista je primenjen
@@ -5993,7 +6003,7 @@ async function main() {
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + '/?rec=sunce', { waitUntil: 'domcontentloaded' });
         await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 3, null, { timeout: 180000 });
-        /* Na produkciji dopunski podaci (učestalost) stižu 1–3 s posle rezultata i rezultati se ponovo iscrtaju —
+        /* Na produkciji dopunski podaci (učestalost) stižu 1–3 s posle rezultata i rezultati se ponovo iscrtaju –
            broj rima pre i posle F5 se poredi tek kad su svi podaci tu (pao na produkciji 08.09.: 2 pre, 5 posle). */
         await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {}); await pauza(600);
         await p.click('#rimeSyl button[data-syl="2"]'); await pauza(400);
@@ -6016,14 +6026,14 @@ async function main() {
         await p.click('#darkToggle'); await p.keyboard.press('Escape');
         await c.close();
       }
-      // S-25: „preskoči na sadržaj" — prvi element koji prima fokus, vidi se kad ga dobije, Enter vodi na sadržaj.
+      // S-25: „preskoči na sadržaj" – prvi element koji prima fokus, vidi se kad ga dobije, Enter vodi na sadržaj.
       // Na početnoj app.js odmah fokusira polje za reč, pa se tamo proverava REDOSLED u DOM-u; na statičkoj strani pravi Tab.
       for (const put of ['/', '/rime-za/ljubav/']) {
         const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
         await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + put, { waitUntil: 'domcontentloaded' }); await pauza(500);
-        if (put === '/') await p.evaluate(() => { document.activeElement && document.activeElement.blur(); const sl = document.querySelector('.skip-link'); if (sl) sl.focus(); });   // na starom kodu nema skip-linka — provera pada, ne ruši test
+        if (put === '/') await p.evaluate(() => { document.activeElement && document.activeElement.blur(); const sl = document.querySelector('.skip-link'); if (sl) sl.focus(); });   // na starom kodu nema skip-linka – provera pada, ne ruši test
         else await p.keyboard.press('Tab');
         await pauza(150);
         const s25 = await p.evaluate(() => { const a = document.activeElement; const r = a.getBoundingClientRect();
@@ -6037,7 +6047,7 @@ async function main() {
       }
     }
 
-    console.log('\n53) DEFINICIJE PO SLOVIMA — jedno značenje ne skida 5,4 MB (nalaz S-20, 07.09.2026)');
+    console.log('\n53) DEFINICIJE PO SLOVIMA – jedno značenje ne skida 5,4 MB (nalaz S-20, 07.09.2026)');
     {
       /* Do 07.09. je prvi dodir „značenje" skidao ceo `definicije.json` (20,7 MB, 5,4 MB gzip):
          3,7 s na WiFi, ~27 s na 1,6 Mb/s. Sada se skida samo fajl sa slovom te reči. Provere:
@@ -6069,7 +6079,7 @@ async function main() {
       await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
       await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
       await pauza(500);
-      // klik na „značenje" tastaturom za prvu reč (gubav / neljubav … — sve na slovo koje ima svoj fajl)
+      // klik na „značenje" tastaturom za prvu reč (gubav / neljubav … – sve na slovo koje ima svoj fajl)
       await p.focus('#rimeResults .chip .word'); await pauza(200);
       const rec1 = await p.evaluate(() => document.activeElement.textContent.trim());
       await p.keyboard.press('Tab'); await p.keyboard.press('Enter');
@@ -6093,9 +6103,9 @@ async function main() {
       await c.close();
     }
 
-    console.log('\n54) SVAKA REČ U REČNIKU — stara ili nova, veliko ili malo slovo — broji slogove i ulazi u rime (pravilo vlasnice 08.09.2026)');
+    console.log('\n54) SVAKA REČ U REČNIKU – stara ili nova, veliko ili malo slovo – broji slogove i ulazi u rime (pravilo vlasnice 08.09.2026)');
     {
-      /* Vlasnica: „nove reči koje unosimo na sajt moraju da se tretiraju kao i stare — da im se broje slogovi
+      /* Vlasnica: „nove reči koje unosimo na sajt moraju da se tretiraju kao i stare – da im se broje slogovi
          i da ulaze u rime; ne želim propust kao sa rečima sa velikim slovom". Ovo NE proverava uzorak nego
          SVE reči, u OBA sistema (alat i generator): broj slogova ne sme da zavisi od velikog slova, svaka
          reč ima ≥1 slog, ključ rime ne zavisi od velikog slova, svaka reč je u skupu za pretragu. Uz to
@@ -6137,7 +6147,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
       await c.close();
     }
 
-    console.log('\n55) RUPE IZ AUDITA (TODO 24) + HUB — ćirilica×telefon, dečji×telefon, 320 px, rubni unosi, pretraga u spisku');
+    console.log('\n55) RUPE IZ AUDITA (TODO 24) + HUB – ćirilica×telefon, dečji×telefon, 320 px, rubni unosi, pretraga u spisku');
     {
       /* Audit 07.09. („šta test ne dodiruje"): ćirilica i dečji režim nikad na telefonu; 320 px samo u par
          sekcija; rubni unosi u #rimeInput samo prazno. Plus S-23: hub dobio lepljivu azbuku i pretragu. */
@@ -6170,7 +6180,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         await p.locator('#kidsToggle').tap(); await pauza(600);
         const posle = await p.evaluate(() => ({ ukljucen: document.getElementById('kidsToggle').checked, reci: [...document.querySelectorAll('#rimeResults .chip')].map(x => x.dataset.w) }));
         ok('dečji×telefon · kvačica se dodirom uključi i rezultati se ponovo iscrtaju', posle.ukljucen && posle.reci.length > 0, JSON.stringify({ pre: pre.length, posle: posle.reci.length }));
-        ok('dečji×telefon · reč koju dečji režim blokira nestaje iz rezultata' + (blokirana ? ` („${blokirana}")` : ' (u ovom uzorku nije bilo blokirane reči — provera prolazi)'), !blokirana || !posle.reci.includes(blokirana), blokirana || '');
+        ok('dečji×telefon · reč koju dečji režim blokira nestaje iz rezultata' + (blokirana ? ` („${blokirana}")` : ' (u ovom uzorku nije bilo blokirane reči – provera prolazi)'), !blokirana || !posle.reci.includes(blokirana), blokirana || '');
         await c.close();
       }
       // 320 px: rezultati, traka i prijava ne prelivaju ivicu; beležnica sa panelom rima
@@ -6193,6 +6203,20 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         await p.click('#noteEditor'); await p.evaluate(() => { const ed = document.getElementById('noteEditor'); ed.innerHTML = 'Volim te kao sunce'; ed.dispatchEvent(new InputEvent('input', { bubbles: true })); }); await pauza(1200);
         const b = await p.evaluate(() => ({ sirina: document.documentElement.scrollWidth, rime: document.querySelectorAll('#noteRhymes .chip').length }));
         ok('320 px · beležnica sa panelom rima ne širi stranu, rime uz stih postoje', b.sirina <= 320 && b.rime > 0, JSON.stringify(b));
+        await c.close();
+      }
+      // brojač slogova na telefonu: dodir u PRAZNO polje ne sme da odnese stranu na dno polja (vlasnica, treći put 08.09.2026)
+      {
+        const c = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+        await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/slogovi/', { waitUntil: 'domcontentloaded' }); await pauza(600);
+        await p.tap('#sylInput');
+        const r = await p.evaluate(async (kbH) => { const t = document.getElementById('sylInput'); const pre = { scrollY: window.scrollY, top: Math.round(t.getBoundingClientRect().top) };
+          const VV = window.visualViewport; const nova = window.innerHeight - kbH; Object.defineProperty(VV, 'height', { get: () => nova, configurable: true }); Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true }); VV.dispatchEvent(new Event('resize')); window.dispatchEvent(new Event('resize'));
+          await new Promise(r => setTimeout(r, 400));
+          return { pre, posle: { scrollY: window.scrollY, top: Math.round(t.getBoundingClientRect().top) }, vidljivo: nova }; }, 336);
+        ok('brojač slogova · telefon: dodir u prazno polje pomeri stranu najviše koliko treba da se vidi prvi red (≤ 120 px), vrh polja ostaje u kadru', r.posle.scrollY - r.pre.scrollY <= 120 && r.posle.top > 60 && r.posle.top < r.vidljivo, JSON.stringify(r));
         await c.close();
       }
       // rubni unosi u #rimeInput (računar): nijedan ne sme da sruši alat ni da ostavi prazan panel bez poruke
@@ -6238,7 +6262,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         ok('hub · pretraga „ljub" ostavlja samo reči sa „ljub" i sakriva prazna slova', h1.vidljivi.length > 0 && h1.vidljivi.length < 30 && h1.vidljivi.every(w => /ljub/i.test(w)) && h1.grupe <= 3, JSON.stringify(h1).slice(0, 200));
         await p.fill('#hubPretraga', 'xqzw'); await pauza(300);
         ok('hub · nepostojeća reč: poruka „Nema te reči na spisku"', await p.evaluate(() => !document.querySelector('.hub-nema').hidden && [...document.querySelectorAll('.hub-lista a')].every(a => a.hidden)));
-        await p.fill('#hubPretraga', ''); await pauza(300);   // vrati sve linkove — sa sakrivenim linkovima strana je prekratka za skrol
+        await p.fill('#hubPretraga', ''); await pauza(300);   // vrati sve linkove – sa sakrivenim linkovima strana je prekratka za skrol
         await p.evaluate(() => window.scrollTo(0, 6000)); await pauza(200);
         ok('hub · posle skrola od 5.000+ px azbuka je i dalje na vrhu ekrana', await p.evaluate(() => window.scrollY > 4000 && Math.round(document.querySelector('.hub-alat').getBoundingClientRect().top) <= 1), await p.evaluate(() => `scrollY ${window.scrollY}, top ${Math.round(document.querySelector('.hub-alat').getBoundingClientRect().top)}`));
         await c.close();

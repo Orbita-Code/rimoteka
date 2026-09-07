@@ -8,10 +8,10 @@
  *    služi samo kao offline rezerva.
  * 2. U precache NE idu veliki fajlovi (definicije.json je 20 MB,
  *    reci.txt 2,6 MB). Aplikacija ih učitava sama kad zatreba.
- * 3. Precache je tolerantan — `cache.addAll` je sve-ili-ništa, pa jedan
+ * 3. Precache je tolerantan – `cache.addAll` je sve-ili-ništa, pa jedan
  *    neuspeo fajl obori celu instalaciju, novi SW se ne aktivira i
  *    stari keš se NIKAD ne obriše. Zato keširamo fajl po fajl.
- * 4. Pri svakoj promeni ovog fajla podigni CACHE verziju — `activate`
+ * 4. Pri svakoj promeni ovog fajla podigni CACHE verziju – `activate`
  *    briše sve keševe koji nisu tekući.
  * ============================================================ */
 const CACHE = 'rimoteka-v6';   // v6 08.09.2026: logo-icon.png 512→128 px (A6), stari keš se baca
@@ -26,7 +26,7 @@ const ASSETS = [
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    // fajl po fajl — jedan neuspeh ne sme da obori instalaciju
+    // fajl po fajl – jedan neuspeh ne sme da obori instalaciju
     await Promise.all(ASSETS.map(a => cache.add(a).catch(() => {})));
     await self.skipWaiting();
   })());
@@ -41,7 +41,7 @@ self.addEventListener('activate', e => {
 
     // Ako smo zamenili STARIJU verziju, sami osveži otvorene strane.
     // Ovo mora da radi SW, ne skripta na strani: zaglavljeni korisnik učitava
-    // stari index.html, pa i stari sw-register.js — dakle na njega se ne može
+    // stari index.html, pa i stari sw-register.js – dakle na njega se ne može
     // računati. `client.navigate()` radi odavde i ne zavisi ni od čega na strani.
     // Uslov `stari.length` znači da ovo NIJE prva instalacija (tada nema šta da
     // se osvežava), pa nema nepotrebnog reload-a ni petlje: nova verzija se
@@ -60,8 +60,8 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
 
   const url = new URL(req.url);
-  if (url.origin !== self.location.origin) return;      // strani domeni (GA i sl.) — ne diramo
-  if (url.pathname.includes('/api/')) return;            // Pro backend — nikad keš
+  if (url.origin !== self.location.origin) return;      // strani domeni (GA i sl.) – ne diramo
+  if (url.pathname.includes('/api/')) return;            // Pro backend – nikad keš
 
   // HTML uvek network-first: keš je samo offline rezerva.
   const wantsHTML = req.mode === 'navigate' ||
@@ -83,7 +83,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Ostalo (slike, css, js, json) — stale-while-revalidate:
+  // Ostalo (slike, css, js, json) – stale-while-revalidate:
   // odmah iz keša ako ima, a u pozadini se osvežava. Bezbedno je jer
   // app.js i style.css imaju ?v= u putanji, pa nova verzija = nov URL.
   e.respondWith((async () => {

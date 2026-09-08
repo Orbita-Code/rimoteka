@@ -1988,8 +1988,8 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
    Bilo: reči u tekstu sa „·" i line-height 1,9, a na telefonu svaki link 44 px visok – po 3–4 reči u redu razmaknute
    po celom ekranu. Sad: isti izgled kao na početnoj (`.futer-rime-spisak`) – natpis u svom redu, reči kao pilule u
    ravnim redovima, bez tačkica; razmak pravi `gap`. Na telefonu pilule su 44 px (dodirni cilj) ali zbijene. */
-.footer-rimes,.footer-guides{max-width:760px;margin:1rem 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .45rem;font-size:.82rem;line-height:1.25;color:var(--muted)}
-.footer-rimes-label{flex-basis:100%;font-weight:700;color:var(--ink-soft);margin:0 0 .15rem;font-size:.82rem}
+.footer-rimes,.footer-guides{max-width:760px;margin:1rem auto 0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.4rem .45rem;font-size:.82rem;line-height:1.25;color:var(--muted)}
+.footer-rimes-label{flex-basis:100%;text-align:center;font-weight:700;color:var(--ink-soft);margin:0 0 .15rem;font-size:.82rem}
 .footer-rimes .footer-link,.footer-guides .footer-link{
   display:inline-flex;align-items:center;justify-content:center;
   min-height:34px;padding:.15rem .75rem;font-size:.85rem;font-weight:600;
@@ -2160,8 +2160,8 @@ body.dark-mode .footer-rimes .footer-link,body.dark-mode .footer-guides .footer-
 
   /* Footer – pregledan */
   .footer-inner{padding:1rem}
-  .footer-rimes,.footer-guides{gap:.35rem .35rem;margin-top:.9rem}
-  .footer-rimes .footer-link,.footer-guides .footer-link{min-height:44px;padding:.2rem .8rem;font-size:.86rem}
+  .footer-rimes,.footer-guides{gap:.3rem .3rem;margin-top:.9rem}
+  .footer-rimes .footer-link,.footer-guides .footer-link{min-height:44px;padding:.2rem .7rem;font-size:.85rem}
   /* Na telefonu se futer koristi prstom – puni dodirni cilj od 44 px. */
   .futer-v2 .futer-kolona .footer-link{min-height:44px}
   /* Bez unutrašnjeg paddinga: futer već ima 1,5rem sa strane, pa bi sadržaj

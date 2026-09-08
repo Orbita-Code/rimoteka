@@ -6,6 +6,18 @@
 > Cilj vlasnice: **10/10 na svim dimenzijama**, telefon prvi (većina posetilaca).
 
 
+
+## Pun test brže: rečnik jednom, ne 100 puta (tačka 2 iz „deploy traje 3 sata", 09.09.2026)
+
+Izmereno 09.09. protiv produkcije (`AUDIT/lanac/20260909-013535/predeploy.log`, vreme uz svaku sekciju): pun test
+**709 s = 11,8 min u 94 sekcije**, prosečno 7,5 s po sekciji, nijedna ne dominira (najsporije: 10c kontrast 48 s,
+51 rečnik/HTML 32 s, 39 redosled rima 32 s, 56 Dragan+Reč dana 25 s, 46 prijava 25 s). Vreme odlazi na to što
+svaka sekcija otvara SVOJ kontekst i pregledač iznova skida i parsira rečnik (5 MB + učestalost 2 MB, ~1,5–2 s po
+kontekstu, ~100 konteksta ≈ 3 min) i na fiksne `pauza(…)` (zbir ~2 min). Plan: (1) jedan `browser.newContext()` po
+GRUPI sekcija koje ne menjaju localStorage, sa jednom stranom koja se ponovo koristi (`p.goto` samo kad treba);
+(2) `pauza(N)` zameniti čekanjem na uslov (`waitForFunction`); (3) sekciju 50 (fajlovi) i 54 (sve reči) ostaviti
+kakve jesu – one su sekunde. Cilj: ispod 6 min. Paralelni lanac je već 11 min 51 s ukupno (bilo ~28 u nizu).
+
 ## „Oblik reči X“ – glavna reč pod navodnicima + značenje u zagradi (zahtev vlasnice 08.09.2026 uveče)
 
 Vlasnica: „ako navodimo glavnu reč, npr. „čad“, onda da u zagradi i napišemo šta ta reč znači – sjajno iskustvo korisnika“.

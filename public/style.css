@@ -1980,8 +1980,21 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
 .slog-table tbody tr:last-child td,.slog-table tr:last-child td{border-bottom:0}
 
 /* FOOTER POPULARNE RIME + VODIČI */
-.footer-rimes,.footer-guides{max-width:760px;margin:.4rem 0 0;font-size:.82rem;line-height:1.9;color:var(--muted)}
-.footer-rimes-label{font-weight:700;color:var(--ink-soft);margin-right:.3rem}
+/* Futer generisanih strana (08.09.2026, vlasnica sa telefona: „razvukle se ove reči, katastrofa, futer kilometarski").
+   Bilo: reči u tekstu sa „·" i line-height 1,9, a na telefonu svaki link 44 px visok – po 3–4 reči u redu razmaknute
+   po celom ekranu. Sad: isti izgled kao na početnoj (`.futer-rime-spisak`) – natpis u svom redu, reči kao pilule u
+   ravnim redovima, bez tačkica; razmak pravi `gap`. Na telefonu pilule su 44 px (dodirni cilj) ali zbijene. */
+.footer-rimes,.footer-guides{max-width:760px;margin:1rem 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .45rem;font-size:.82rem;line-height:1.25;color:var(--muted)}
+.footer-rimes-label{flex-basis:100%;font-weight:700;color:var(--ink-soft);margin:0 0 .15rem;font-size:.82rem}
+.footer-rimes .footer-link,.footer-guides .footer-link{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:34px;padding:.15rem .75rem;font-size:.85rem;font-weight:600;
+  background:var(--card-bg);border:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:999px;
+  color:var(--ink-soft);white-space:nowrap;
+}
+.footer-rimes .footer-link:hover,.footer-guides .footer-link:hover{border-color:var(--lavender);color:var(--lavender-deep);border-bottom-color:var(--lavender)}
+.footer-rimes .footer-link:focus-visible,.footer-guides .footer-link:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:2px}
+body.dark-mode .footer-rimes .footer-link,body.dark-mode .footer-guides .footer-link{background:#2a2540;border-color:#3d3660;color:#e8e6f5}
 
 /* FOOTER */
 .site-footer{margin-top:auto;border-top:1px solid var(--line);background:#fff;padding:2.2rem 1.5rem}
@@ -2143,7 +2156,8 @@ body.dark-mode .landing-tool{background:linear-gradient(180deg,var(--zona-a) 0%,
 
   /* Footer – pregledan */
   .footer-inner{padding:1rem}
-  .footer-rimes,.footer-guides{flex-wrap:wrap;gap:.5rem}
+  .footer-rimes,.footer-guides{gap:.35rem .35rem;margin-top:.9rem}
+  .footer-rimes .footer-link,.footer-guides .footer-link{min-height:44px;padding:.2rem .8rem;font-size:.86rem}
   /* Na telefonu se futer koristi prstom – puni dodirni cilj od 44 px. */
   .futer-v2 .futer-kolona .footer-link{min-height:44px}
   /* Bez unutrašnjeg paddinga: futer već ima 1,5rem sa strane, pa bi sadržaj

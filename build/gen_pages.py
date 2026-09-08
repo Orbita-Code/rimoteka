@@ -303,7 +303,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908h">
+<link rel="stylesheet" href="/style.css?v=20260908i">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -392,11 +392,11 @@ FOOTER_TMPL = """<footer class="site-footer">
     </nav>
     <nav class="footer-guides" aria-label="Vodiči">
       <span class="footer-rimes-label">Vodiči:</span>
-      <a href="/rimovanje-reci/" class="footer-link">Rimovanje reči</a> · <a href="/slogovi/" class="footer-link">Brojač slogova</a> · <a href="/vrste-rima/" class="footer-link">Vrste rima</a> · <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> · <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
+      <a href="/rimovanje-reci/" class="footer-link">Rimovanje reči</a> <a href="/slogovi/" class="footer-link">Brojač slogova</a> <a href="/vrste-rima/" class="footer-link">Vrste rima</a> <a href="/kako-napisati-pesmu/" class="footer-link">Kako napisati pesmu</a> <a href="/rimovanje-za-pocetnike/" class="footer-link">Rimovanje za početnike</a>
     </nav>
     <nav class="footer-guides" aria-label="Namene">
       <span class="footer-rimes-label">Namene:</span>
-      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> · <a href="/rime-za-decu-o-zivotinjama/" class="footer-link">Životinje</a> · <a href="/rime-za-decu-o-prirodi/" class="footer-link">Priroda</a> · <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> · <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> · <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> · <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> · <a href="/rime-za-svadbu/" class="footer-link">Svadba</a> · <a href="/rime-za-prijatelje/" class="footer-link">Prijatelji</a> · <a href="/rime-za-roditelje/" class="footer-link">Roditelji</a> · <a href="/rime-za-novu-godinu/" class="footer-link">Nova godina</a> · <a href="/rime-za-tugu-i-secanje/" class="footer-link">Tuga i sećanje</a>
+      <a href="/rime-za-decu/" class="footer-link">Rime za decu</a> <a href="/rime-za-decu-o-zivotinjama/" class="footer-link">Životinje</a> <a href="/rime-za-decu-o-prirodi/" class="footer-link">Priroda</a> <a href="/rime-za-pesmu/" class="footer-link">Rime za pesmu</a> <a href="/rime-za-rep/" class="footer-link">Rime za rep</a> <a href="/rime-za-ljubavne-pesme/" class="footer-link">Ljubavne pesme</a> <a href="/rime-za-rodjendanske-pesmice/" class="footer-link">Rođendan</a> <a href="/rime-za-svadbu/" class="footer-link">Svadba</a> <a href="/rime-za-prijatelje/" class="footer-link">Prijatelji</a> <a href="/rime-za-roditelje/" class="footer-link">Roditelji</a> <a href="/rime-za-novu-godinu/" class="footer-link">Nova godina</a> <a href="/rime-za-tugu-i-secanje/" class="footer-link">Tuga i sećanje</a>
     </nav>
     <!-- Isti red kao na početnoj. Ranije je ovde umesto „Sva prava zadržana"
          stajao link „Početna" – dodat radi internog povezivanja, ali je pao u
@@ -925,7 +925,8 @@ def main():
 
     # popularne (footer) – prvih 30 iz liste koje postoje
     popular = targets[:30]
-    poprime_html = ' · '.join(
+    # Bez „·" između reči (08.09.2026, vlasnica: „razvukle se ove reči, katastrofa") – razmak pravi CSS (pilule)
+    poprime_html = '\n      '.join(
         f'<a href="/rime-za/{quote(slugify(w))}/" class="footer-link">{esc(w)}</a>' for w in popular
     )
     footer = FOOTER_TMPL.format(poprime=poprime_html)

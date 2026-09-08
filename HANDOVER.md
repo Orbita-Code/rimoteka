@@ -105,8 +105,8 @@ tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih
 
 - Pre svakog deploya: `node test/predeploy.mjs` (~830 provera, 55 sekcija) + `node test/predeploy-motori.mjs` (WebKit = iPhone,
   Firefox, Chromium) + `node test/skener-cirilica.mjs` (0 latinice van dozvoljenog) + `node test/skener-tamna.mjs` (0 nalaza)
-  + `node test/igra-kao-covek.mjs` (2–3 igrača, bodovi, predaja, nerešeno, varke, tri rime, glas: 0 nalaza).
-  `igra-100-partija.mjs` NIJE obavezan (vlasnica: jednokratno) – samo na zahtev ili u punom auditu.
+  **Igra se pre objave NE IGRA** (vlasnica 08.09. uveče): ni `igra-kao-covek.mjs` ni `igra-100-partija.mjs` nisu u lancu –
+  samo na njen zahtev. Lanac pre objave = predeploy + motori + skener-cirilica + skener-tamna.
   Bazen reči igre: `node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` (izveštaj za odluku). Svi u CLAUDE.md 9a.
 - **Igra prima rimu po završnom slogu, ne po poslednjem slovu** (I-1) i traži bar 3 slova (I-2). Ne vraćati `looseKey` u igru.
 - **Igra zadaje samo reči iz `igra-reci.json`** (imenice/glagoli/pridevi 2–4 sloga); režim „tri rime"; odgovor glasom

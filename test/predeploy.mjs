@@ -2251,8 +2251,8 @@ async function main() {
       const rec = await p20.evaluate(() => document.querySelector('#rimeResults .chip .word')?.textContent.trim());
       /* Od 06.09.2026 (varijanta B) ikonice ne stoje u kapsuli: prelazak mišem otvara
          traku nad reči, pa se „omiljene" bira u njoj. Stanje (`.fav.on`) ostaje na čipu. */
-      await p20.locator('#rimeResults .chip').first().hover();
-      await pauza(650);
+      await p20.locator('#rimeResults .chip').first().click();   // 08.09.: kartica se otvara klikom
+      await pauza(350);
       await p20.click('.chip-actions .ca-btn[data-act="fav"]');
       await pauza(400);
       /* Od 02.08.2026. sačuvana reč više NE dobija puno srce nego PUNU
@@ -5399,7 +5399,7 @@ async function main() {
       const p46i = ojacajStranu(await c46i.newPage()); let teloInterno = null;
       await p46i.route(SANDUCE, r => { teloInterno = r.request().postDataJSON(); r.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' }); });
       await p46i.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' }); await p46i.waitForSelector('#rimeResults .chip', { timeout: 20000 }); await pauza(800);
-      await p46i.locator('#rimeResults .chip').first().hover(); await pauza(650); await p46i.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300); await p46i.click('.prijava-posalji'); await pauza(1000);
+      await p46i.locator('#rimeResults .chip').first().click(); await pauza(350); await p46i.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300); await p46i.click('.prijava-posalji'); await pauza(1000);
       ok('interno · uređaj označen samo za analitiku šalje PRAVU prijavu (proba:false), ne probu', !!teloInterno && teloInterno.proba === false, JSON.stringify(teloInterno));
       await c46i.close();
 
@@ -5424,9 +5424,9 @@ async function main() {
       ok('računar · u red stane bar 5 reči (na 1280 px; ravne kolone od 08.09.; bilo 4 sa ikonicama)', kapsule.poRedu >= 5, `${kapsule.poRedu}`);
       /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU – stara je imala
          tri uputstva u jednom redu, a test je proveravao samo ključne reči pa je prolazila. */
-      ok('računar · legenda je tačno tekst vlasnice (08.09.2026)', /^2\s*Broj u kružiću označava koliko slogova ima data reč\.\s*Pređi mišem preko reči i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()), kapsule.legenda);
+      ok('računar · legenda je tačno tekst vlasnice (08.09.2026 uveče: „Klikni na reč…")', /^2\s*Broj u kružiću označava koliko slogova ima data reč\.\s*Klikni na reč i otvoriće se kartica sa njenim objašnjenjem, a tu možeš i da je sačuvaš, nađeš rime za nju, kopiraš je ili prijaviš kao grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()), kapsule.legenda);
       await p46b.evaluate(() => document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'center' })); await pauza(300);
-      await p46b.locator('#rimeResults .chip').first().hover(); await pauza(650);
+      await p46b.locator('#rimeResults .chip').first().click(); await pauza(350);
       const traka2 = await p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? [...t.querySelectorAll('.ca-btn')].map(b => b.dataset.act) : []; });
       ok('računar · prelazak mišem otvara traku sa pet radnji (značenje, omiljene, rime, kopiraj, prijavi)', traka2.join(',') === 'def,fav,rime,kopiraj,prijavi', traka2.join(','));
       /* LEPLJIVA traka (prijava vlasnice 06.09.): na putu do „prijavi" kursor okrzne susednu reč –
@@ -5450,7 +5450,7 @@ async function main() {
       /* Reč se dovede u gornju trećinu ekrana da ISPOD nje ima mesta – tada prozorčić mora dole.
          (Kad nema mesta ni gore ni dole, prozorčić se priteže u ekran – to je druga provera.) */
       await p46b.evaluate(() => { document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'start' }); window.scrollBy(0, -140); }); await pauza(300);
-      await p46b.locator('#rimeResults .chip').first().hover(); await pauza(650);
+      await p46b.locator('#rimeResults .chip').first().click(); await pauza(350);
       await p46b.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(500);
       const forma2 = await p46b.evaluate(() => { const b = document.querySelector('.prijava'); if (!b) return null; const r = b.getBoundingClientRect();
         const cip = document.querySelector('#rimeResults .chip').getBoundingClientRect();
@@ -5467,7 +5467,7 @@ async function main() {
       await p46b.waitForSelector('.prijava', { state: 'detached', timeout: 5000 }).catch(() => {});
       await p46b.evaluate(() => { if (typeof zatvoriPrijavu === 'function') zatvoriPrijavu(); });   // da otvoren prozorčić ne presretne sledeće klikove
       // „značenje" iz trake: oblačić mora da stane UZ reč, ne u gornji levi ugao (prijava vlasnice 06.09.)
-      await p46b.locator('#rimeResults .chip').nth(2).hover(); await pauza(650);
+      await p46b.locator('#rimeResults .chip').nth(2).click(); await pauza(350);
       const rimeNatpis = await p46b.evaluate(() => (document.querySelector('.chip-actions .ca-btn[data-act="rime"] .ca-txt') || {}).textContent || '');
       ok('računar · dugme za rime u traci piše „nađi rime" (kao glavno dugme), ne „rime"', rimeNatpis === 'nađi rime', rimeNatpis);
       await p46b.click('.chip-actions .ca-btn[data-act="def"]'); await pauza(1500);
@@ -5475,7 +5475,7 @@ async function main() {
         return { vidljiv: t.style.display !== 'none', razmakIspod: Math.round(r.top - cip.bottom), levo: Math.round(r.left - cip.left), top: Math.round(r.top) }; });
       ok('računar · oblačić značenja iz trake stoji odmah ispod reči (ne u uglu)', oblacic.vidljiv && oblacic.razmakIspod >= 0 && oblacic.razmakIspod <= 40 && oblacic.levo >= -20 && oblacic.levo <= 200, JSON.stringify(oblacic));
       await p46b.keyboard.press('Escape'); await p46b.mouse.click(5, 5); await pauza(300);
-      await p46b.locator('#rimeResults .chip').nth(1).hover(); await pauza(650);
+      await p46b.locator('#rimeResults .chip').nth(1).click(); await pauza(350);
       await p46b.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
       await p46b.keyboard.press('Escape'); await pauza(200);
       ok('računar · Escape zatvara prozorčić bez slanja', await p46b.evaluate(() => !document.querySelector('.prijava')) && poslato2.length === 1, `zahteva: ${poslato2.length}`);
@@ -5612,16 +5612,16 @@ async function main() {
       await p49.keyboard.press('Tab');
       ok('tastatura · Tab sa poslednjeg dugmeta ide na sledeću reč, ne na dno strane', (await p49.evaluate(() => document.activeElement.className)) === 'word', await p49.evaluate(() => document.activeElement.className));
       // A2
-      await p49.mouse.move(5, 5); await p49.locator('#rimeResults .chip').nth(0).hover(); await pauza(650);
+      await p49.mouse.move(5, 5); await p49.locator('#rimeResults .chip').nth(0).click(); await pauza(350);
       await p49.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(200); await p49.click('.prijava-posalji');
       await p49.waitForSelector('.prijava.hvala', { timeout: 8000 }).catch(() => {});
-      await p49.mouse.move(5, 5); await pauza(300); await p49.locator('#rimeResults .chip').nth(3).hover(); await pauza(650);
+      await p49.mouse.move(5, 5); await pauza(300); await p49.locator('#rimeResults .chip').nth(3).click(); await pauza(350);
       await p49.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(3300);
       ok('prijava · druga prijava otvorena odmah posle prve NE nestaje zbog tajmera prve', await p49.evaluate(() => !!document.querySelector('.prijava:not(.hvala)')));
       await p49.keyboard.press('Escape');
       ok('prijava · posle zatvaranja fokus je na reči, ne na body', (await p49.evaluate(() => document.activeElement.className)) === 'word', await p49.evaluate(() => document.activeElement.tagName + '.' + document.activeElement.className));
       // S-01
-      await p49.locator('#rimeResults .chip').nth(1).hover(); await pauza(650);
+      await p49.locator('#rimeResults .chip').nth(1).click(); await pauza(350);
       await p49.fill('#rimeInput', 'srce'); await p49.evaluate(() => document.getElementById('rimeBtn').click()); await pauza(400);
       ok('traka · nova pretraga zatvara traku nad reči (i ne otvara je dok se miš ne pomeri)', await p49.evaluate(() => { const t = document.querySelector('.chip-actions'); return !t || t.hidden; }));
       // S-02
@@ -5891,7 +5891,7 @@ async function main() {
         await p.keyboard.press('Escape'); await pauza(150);
         ok('S-15 · Escape zatvara oblačić', await p.evaluate(() => { const t = document.getElementById('deftip'); return !!t && t.style.display === 'none'; }));
         // N-01: „Pošalji" i „Prihvati sve" imaju ISTI gradijent kao „Nađi rime" (izmereno ≥4,9 za belo slovo)
-        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).hover(); await pauza(650);
+        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).click(); await pauza(350);
         await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
         const n1 = await p.evaluate(() => ({ posalji: getComputedStyle(document.querySelector('.prijava-posalji')).backgroundImage, glavno: getComputedStyle(document.getElementById('rimeBtn')).backgroundImage }));
         ok('N-01 · „Pošalji" ima isti gradijent kao „Nađi rime" (belo na plavom kraju bilo 2,76)', n1.posalji === n1.glavno && /gradient/.test(n1.glavno), n1.posalji.slice(0, 80));
@@ -5924,7 +5924,7 @@ async function main() {
         await c.addInitScript(() => localStorage.setItem('rimoteka_interno', '1'));
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' }); await pauza(800);
-        await p.mouse.move(5, 5); await p.locator('.res-group .results .chip').first().hover(); await pauza(650);
+        await p.mouse.move(5, 5); await p.locator('.res-group .results .chip').first().click(); await pauza(350);
         const s8 = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return { traka: !!t && !t.hidden, dugmadi: t ? t.querySelectorAll('.ca-btn').length : 0, link: document.querySelector('.res-group .results .chip').tagName }; });
         ok('S-08 · na statičkoj strani prelazak mišem preko reči otvara traku sa 5 radnji', s8.traka && s8.dugmadi === 5, JSON.stringify(s8));
         await p.click('.chip-actions .ca-btn[data-act="def"]');
@@ -6024,7 +6024,7 @@ async function main() {
         await p.click('#rimeSyl button[data-syl="0"]'); await pauza(300);
         ok('S-03 · „sve" sklanja `slog=` iz adrese', !/slog=/.test(await p.evaluate(() => location.search)));
         // S-24: klik na temu dok je prijava otvorena je ne zatvara
-        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).hover(); await pauza(650);
+        await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(0).click(); await pauza(350);
         await p.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300);
         await p.fill('.prijava-napomena', 'proba napomene'); await p.click('#darkToggle'); await pauza(300);
         const s24 = await p.evaluate(() => ({ otvorena: !!document.querySelector('.prijava'), napomena: (document.querySelector('.prijava-napomena') || {}).value, tamna: document.body.classList.contains('dark-mode') }));
@@ -6287,11 +6287,12 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
       await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5 && typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 180000 }); await pauza(500);
       const kol = await p.evaluate(() => { const w = document.querySelector('#rimeResults .res-group .results'); const s = [...w.querySelectorAll('.chip')].map(c => Math.round(c.getBoundingClientRect().width)); return { poravnato: w.classList.contains('poravnato'), min: Math.min(...s), max: Math.max(...s), red: Math.round(w.clientWidth), n: s.length }; });
       ok('D-4 · pilule u grupi su iste širine (ravne kolone), najviše 48 % reda', kol.poravnato && kol.n > 10 && kol.max - kol.min <= 1 && kol.max <= kol.red * 0.49, JSON.stringify(kol));
-      await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(2).hover(); await pauza(150);
-      const t150 = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return !!(t && !t.hidden); });
-      await pauza(500);
-      const t650 = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return !!(t && !t.hidden); });
-      ok('D-3 · traka nad reči ne iskače odmah (150 ms: ne), a posle zadržavanja se otvori (650 ms: da)', !t150 && t650, `150 ms: ${t150}, 650 ms: ${t650}`);
+      // D-3 (08.09. uveče, odluka vlasnice): kartica se otvara SAMO klikom – prelazak miša je ne otvara ni posle 650 ms
+      await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(2).hover(); await pauza(650);
+      const hov = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return !!(t && !t.hidden); });
+      await p.locator('#rimeResults .chip').nth(2).click(); await pauza(350);
+      const klik = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return !!(t && !t.hidden) && t.querySelectorAll('.ca-btn').length === 5; });
+      ok('D-3 · kartica nad reči se NE otvara prelaskom miša (650 ms), a otvara se klikom (5 radnji)', !hov && klik, `prelazak: ${hov}, klik: ${klik}`);
       await p.keyboard.press('Escape');
       await p.click('#azbukaToggle'); await pauza(500);
       const az = await p.evaluate(() => { const red = 'abcčćdđefghijklmnoprsštuvzž'; const g = [...document.querySelectorAll('#rimeResults .res-group')].map(x => [...x.querySelectorAll('.chip')].map(c => c.dataset.w || '')); const sortirano = g.every(r => r.every((w, i) => i === 0 || red.indexOf(r[i - 1][0]) <= red.indexOf(w[0]))); return { grupe: g.length, sortirano, prvih: g[0].slice(0, 4), upamceno: localStorage.getItem('rimoteka_azbuka') }; });

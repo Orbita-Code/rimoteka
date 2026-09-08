@@ -291,8 +291,7 @@ Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
 Podrazumevani redosled ostaje po sličnosti (6.2a). Ko uključi „po azbuci" (uz filtere), grupe se sortiraju po
 pismu na ekranu: **azbuka** za ćirilicu (`RED_AZBUKA`), **abeceda** za latinicu (`RED_ABECEDA`) – nisu isti
 redosled (ћ, џ, љ). Izbor se pamti (`rimoteka_azbuka`). Uz to: pilule u grupi su iste širine (`poravnajCipove`,
-najviše 48 % reda) i traka nad reči čeka 320 ms zadržavanja (`TRAKA_PRVA_MS`) – obe stvari su njegove prijave,
-ne vraćati. Grupa rezerve se zove „Isti završni slog (nisu prave rime)".
+najviše 48 % reda) – njegova prijava; kartica nad reči se otvara samo klikom (odluka vlasnice, 9d). Ne vraćati. Grupa rezerve se zove „Isti završni slog (nisu prave rime)".
 
 ### 6.2b Tri merila redosleda — ZAPAMTI REDOM, i ne pretpostavljaj
 
@@ -699,8 +698,10 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 
 **Od 06.09.2026 kapsule sa rimama na računaru nemaju ikonice** (odluka vlasnice, varijanta B):
-sve radnje (značenje, omiljene, rime, kopiraj, prijavi grešku) su u traci `.chip-actions` koja
-se otvara na dodir (telefon), prelazak mišem ili fokus (računar). Ne vraćati ikonice u kapsulu.
+sve radnje (značenje, omiljene, rime, kopiraj, prijavi grešku) su u kartici `.chip-actions`. **Od 08.09.2026 uveče
+kartica se otvara SAMO klikom/dodirom na reč ili fokusom tastaturom – prelazak mišem je NE otvara** (vlasnica: „da ne
+smeta ljudima dok prelaze pogledom preko svih reči"; ranije Dragan M. tražio zadršku). Legenda: „Klikni na reč i
+otvoriće se kartica…" (telefon: „Dodirni reč…"). Ne vraćati ikonice u kapsulu ni otvaranje na prelazak.
 
 Dugme „Prijavi grešku" (peto dugme u toj traci) šalje
 prijavu u Cloudflare worker **`worker/prijave.js`** → `https://rimoteka-prijave.jovana-daskovic.workers.dev`.

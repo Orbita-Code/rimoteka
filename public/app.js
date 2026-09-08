@@ -646,8 +646,9 @@ function renderLegend(container){
      glasi „Dodirni reč" (miša nema). Ne menjati bez nje; test 46 čuva tačan tekst. */
   l.innerHTML =
     '<span class="legend-item"><span class="syl">2</span> ' + uiTxt('Broj u kružiću označava koliko slogova ima data reč.') + '</span>' +
-    '<span class="legend-item legend-tap">' + uiTxt((jeTelefon() ? 'Dodirni reč' : 'Pređi mišem preko reči')
-      + ' i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku.') + '</span>';
+    /* 08.09.2026 uveče, vlasnica: kartica se otvara KLIKOM, pa legenda kaže „Klikni na reč" (telefon: „Dodirni reč"). */
+    '<span class="legend-item legend-tap">' + uiTxt((jeTelefon() ? 'Dodirni reč' : 'Klikni na reč')
+      + ' i otvoriće se kartica sa njenim objašnjenjem, a tu možeš i da je sačuvaš, nađeš rime za nju, kopiraš je ili prijaviš kao grešku.') + '</span>';
   container.appendChild(l);
 }
 
@@ -989,8 +990,10 @@ function postaviCipTraku(cip){
    `onclick` sa samog `.word`, pa bi se reč i kopirala i otvorila traka.
    Ne dira: panel uz stih (tamo klik ubacuje reč), statične strane `/rime-za/`
    (tamo je čip link) i sve iznad 560 px. */
+/* OD 08.09.2026 UVEČE (odluka vlasnice): kartica sa radnjama se na SVIM širinama otvara KLIKOM/dodirom na reč,
+   ne prelaskom miša – „da ne smeta ljudima dok prelaze pogledom preko svih reči". Prelazak miša više ne radi
+   ništa; tastatura (fokus) i dalje otvara. Ranije: telefon = dodir, računar = prelazak posle 110 ms (varijanta B). */
 document.addEventListener('click', (e) => {
-  if(!jeTelefon()) return;
   const t = e.target;
   if(!t || !t.closest) return;
   if(t.closest('.chip-actions')) return;
@@ -1044,6 +1047,7 @@ function cipZaTraku(el){
   return cip;
 }
 document.addEventListener('mouseover', (e) => {
+  if(true) return;   // 08.09.2026: prelazak miša NE otvara karticu (odluka vlasnice) – ostaje klik i tastatura; kod ispod čuvan za slučaj povratka
   if(jeTelefon() || trakaCekaPokret) return;
   const t = e.target;
   if(!t || !t.closest) return;

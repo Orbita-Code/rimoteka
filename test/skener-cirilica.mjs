@@ -89,12 +89,12 @@ await skeniraj(c, '/?rec=ljubav#stanja', async (p) => {
   await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {});
   await p.waitForTimeout(500);
   // traka + oblačić + prijava
-  await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').first().hover(); await p.waitForTimeout(650);
+  await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').first().click(); await p.waitForTimeout(350);
   const s1 = await p.evaluate(SKUPI); for (const [v, t, g] of s1) dodaj(t, `početna · rezultati+traka · ${g}`, v);
   await p.click('.chip-actions .ca-btn[data-act="def"]').catch(() => {}); await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/учитавање|učitavanje/.test(t.textContent); }, null, { timeout: 60000 }).catch(() => {});
   for (const [v, t, g] of await p.evaluate(SKUPI)) dodaj(t, `početna · oblačić · ${g}`, v);
   await p.keyboard.press('Escape');
-  await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(1).hover(); await p.waitForTimeout(650); await p.click('.chip-actions .ca-btn[data-act="prijavi"]').catch(() => {}); await p.waitForTimeout(300);
+  await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(1).click(); await p.waitForTimeout(350); await p.click('.chip-actions .ca-btn[data-act="prijavi"]').catch(() => {}); await p.waitForTimeout(300);
   for (const [v, t, g] of await p.evaluate(SKUPI)) dodaj(t, `početna · prijava · ${g}`, v);
   await p.click('.prijava-posalji').catch(() => {}); await p.waitForTimeout(1200);
   for (const [v, t, g] of await p.evaluate(SKUPI)) dodaj(t, `početna · prijava-hvala · ${g}`, v);

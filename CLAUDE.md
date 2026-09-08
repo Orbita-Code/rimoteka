@@ -412,10 +412,12 @@ BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv pr
 node test/predeploy-motori.mjs        # ključni mobilni tokovi u WebKit-u (= Safari i Chrome na iPhone-u), Firefox-u i Chromiumu
 node test/skener-cirilica.mjs         # SVE strane + sva stanja alata u ćirilici: 0 latiničnih tekstova (osim dozvoljenih)
 node test/skener-tamna.mjs            # čitljivost i stanje tamne teme na svim vrstama strana: 0 nalaza
-node test/igra-100-partija.mjs        # 100 partija igre (10/15/20 s) kao dete: 0 nalaza
 node test/igra-kao-covek.mjs          # 12 partija sa 2–3 igrača, odgovori kao čovek: bodovi, predaja, nerešeno, varke, režim „tri rime", glas, spisak reči: 0 nalaza
 node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py   # bazen reči koje igra sme da zada: vrste reči, hrvatski, zastarele, preteške (izveštaj, ne pada)
 ```
+**`node test/igra-100-partija.mjs` NIJE u obaveznom lancu** (odluka vlasnice 08.09.2026: „to sam rekla da se uradi samo
+jednom"). Traje ~80 min. Urađeno 08.09. tri puta (staro pravilo, novo pravilo, produkcija) – sve 0 nalaza. Pokreće se
+samo na njen zahtev ili u punom auditu kad se menja logika igre.
 Svaki mora da završi sa izlaznim kodom 0. Posle deploya: isto sa `BASE=https://rimoteka.com`.
 
 Test proverava, u pravom Chromiumu:
@@ -682,7 +684,7 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | Režim „tri rime" | opcija „Koliko rima za svaku reč: jedna / tri". Sa tri: svaka priznata rima donosi bodove i ne troši zadatak (1/3, 2/3), ista rima se odbija, pogrešna seče niz a tajmer teče, treća završava reč; reč je „tačna" samo sa 3/3. |
 | Odgovor glasom | dugme 🎤 uz polje, vidi se samo gde pregledač ima prepoznavanje govora (Chrome, Safari). `sr-RS`, do 5 prepisa; uzima se prva reč iz rečnika (gleda i poslednju reč rečenice). Bez mikrofona/dozvole – poruka, igra ide dalje kucanjem. |
 | Rezultati | svi sa najviše bodova su pobednici (🤝 „Nerešeno!"); tekst „najduži niz", ne „combo". |
-| Test | `igra-100-partija.mjs` (1 igrač, 100 partija) + `igra-kao-covek.mjs` (2–3 igrača, glas, tri rime) – oba pre svakog deploya. |
+| Test | `igra-kao-covek.mjs` (2–3 igrača, glas, tri rime, spisak reči) pre svakog deploya; `igra-100-partija.mjs` samo na zahtev vlasnice ili u punom auditu (jednokratno, ~80 min). |
 
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 

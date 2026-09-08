@@ -1,57 +1,88 @@
-# SINONIMI ZA PREGLED – 812 reči (izvor: Srpski Vikirečnik, CC BY-SA)
+# SINONIMI ZA PREGLED
 
-Kako se ispravlja (pravila su ispod, sve u ovom fajlu, ništa drugo ne treba):
+Kako se ispravlja (sve u ovom fajlu, ništa drugo ne treba):
 
 - Svaki red je: reč: sinonim, sinonim, sinonim
-- Obriši sinonim koji ne valja (samo ga izbriši iz reda).
-- Dodaj sinonim tako što ga dopišeš u red, odvojen zarezom.
-- Ako cela reč ne treba – obriši ceo red.
-- Komentar za mene: napiši iza znaka # na kraju reda (npr. „# ovo je hrvatski“).
-- Redosled je po tome koliko se reč traži (najčešće prve). Ne moraš sve odjednom – ono što ostane neizmenjeno ulazi kako jeste.
-- Kad završiš, samo mi reci „sinonimi su pregledani“. Ja učitavam ovaj fajl i pravim sinonimi.json.
+- Obriši sinonim koji ne valja (samo ga izbriši iz reda). Dodaj sinonim tako što ga dopišeš, odvojen zarezom.
+- Ako cela reč ne treba – obriši ceo red. Komentar za mene: iza znaka # na kraju reda.
+- Sinonim je JEDNA reč (na sajtu je dugme koje traži rime za nju) – „razume se“ ili „zbog toga“ ne mogu.
+- Ne moraš sve odjednom – što ostane neizmenjeno ulazi kako jeste. Kad završiš, reci „sinonimi su pregledani“.
 
----
+## A) VEĆ ODOBRENO 28.08. – OVO JE NA SAJTU (54 reči). Menjaj samo ako hoćeš nešto da ispraviš.
+
+sunce: zvezda, svetlost, toplota
+šišarka: šišarica
+put: drum, staza, puteljak
+ipak: ali, međutim, no, pak
+rad: posao, delo, rabota, rintanje, šljaka
+posebno: naročito, specijalno, specifično
+dovoljno: dosta, potaman, taman
+zaista: stvarno, doista
+godina: doba
+nešto: ponešto, pomalo
+broj: brojka, cifra
+život: življenje, postojanje, bitisanje
+često: neretko, učestalo
+reč: beseda, slovo
+isto: takvo
+onda: dakle, ergo
+drugi: drugačiji, drukčiji, različit, ostali, preostali
+zbog: usled, poradi, radi, zahvaljujući
+vreme: doba, period, razdoblje
+danas: sad, sada
+način: metod, postupak, manir
+zato: stoga, dakle, pa
+deo: komad, fragment
+možda: valjda
+novi: nov, svež
+iako: mada, premda
+problem: teškoća, izazov
+međutim: ali, ipak, no
+veliki: krupan, golem, ogroman
+ukoliko: ako, kad
+odsto: procenat, posto
+naravno: dakako
+mesto: prostor, lokacija, tačka
+pošto: jer
+biće: stvor, stvorenje
+država: zemlja
+potpuno: sasvim
+osim: izuzev, sem
+posao: rad, rabota, zanimanje
+sistem: poredak, uređenje
+dakle: pa, znači, stoga
+imati: posedovati
+pomoć: potpora, podrška
+ponovo: opet, iznova, nanovo
+čovek: osoba
+moguće: izvodljivo
+opet: ponovo, iznova
+primer: uzorak, model
+ljudi: osobe
+ime: naziv
+pitanje: dilema
+program: plan
+stvari: predmeti
+nekoliko: par, nekolicina, malo
+
+## B) NOVO ZA PREGLED (izvor: Srpski Vikirečnik, CC BY-SA; najtraženije reči prve)
 
 samo: tek, odmah, svega, jedino, ukupno, isključivo, strogo, naglo, iznenada, neočekivano, naprasno, iznenadno, neslućeno
 kada: kad, kade
 tako: dobro, veoma, vrlo, jako, ovako, puno, izuzetno, znatno, prilično, značajno, vidljivo, izraženo, osetno, grdno, dobrano, gadno, temeljito, dozlaboga
 ako: jer, može, iako, ukoliko, neka, slobodno, važi
-godina: leto
 sada: sad, odmah, trenutno
-ljudi: narod, svet, građani, nacija, stanovništvo, stanovnici, osoblje, čovečanstvo, raja, žitelji, građanstvo, kolegijum, živalj, ljudstvo, rulja, etnos
-danas: sada, sadašnjost, današnjost
-vreme: period, doba, sezona, ciklus, odsek, razdoblje, era, večnost, razmak, etapa, epoha, interval, dob, mena, stoleće
 svi: svako
-onda: dakle, ergo
 malo: pomalo, nedovoljno, donekle, ponešto, simbolično, neznatno
 prvi: najbliži, raniji, čelni, nadmoćni
 uvek: stalno, svakodnevno, neprestano, uporno, trajno, neprekidno, kontinuirano, svagda, vazda, danonoćno, postojano, nepromenljivo, svakad, ustrajno, neprestance
-broj: brojka
-deo: ostatak, komad, parče, delić, odlomak, komadić, fragment, trun, krhotina, trunka
 veoma: mnogo, vrlo, posebno, toliko, dosta, jako, naročito, puno, izuzetno, znatno, prilično, značajno, duboko, itekako, žestoko, debelo, osobito, izvanredno, silno, izraženo, osetno, podosta, obilno, svojski, iznimno, temeljito, nemalo, vraški
-drugi: poseban, izuzetan, čudan, neobičan, različit, svojevrstan, drukčiji, neočekivan, osoben, unikatan, bizaran, vanserijski, misteriozan, vanredan, nekonvencionalan, atipičan, netipičan, ekscentričan, besprimeran
-put: trasa, drum
 mora: prilika, zmaj, privid, fantom, strašilo, utvara, avet, priviđenje, simulakrum, sablast, fantazma, sanjarija, pričina
 ovde: vode, ovamo
 odnosno: ipak, zapravo, doduše, faktički, praktički, faktično
-ipak: odnosno, zapravo, doduše, faktički, praktički, faktično
-pitanje: pita, piton, potpitanje, zapitkivanje
-problem: briga, prepreka, muka, nesreća, nevolja, tegoba, poteškoća, glavobolja, nezgoda, mučenje, breme, patnja, smetnja, neprijatnost, vrag, nedaća, neprilika, jaram, strahota, začkoljica, neugodnost
 sad: sada, danas, odmah, trenutno, momentalno, današnjica, današnjost
-stvari: torbe, kovčezi
 vrlo: mnogo, veoma, posebno, toliko, dosta, jako, naročito, puno, izuzetno, znatno, prilično, značajno, duboko, itekako, žestoko, užasno, debelo, osobito, izvanredno, silno, izraženo, osetno, nadaleko, grdno, podosta, obilno, svojski, iznimno, temeljito, nemalo, vraški, dozlaboga
-mesto: grad, kraj, prostor, položaj, stan, oblast, selo, tačka, lokacija, područje, zona, naselje, sredina, teritorija, središte, centrala, predeo, lokalitet, boravište, naseobina, rejon
-posebno: naročito, izuzetno, drugačije, savršeno, neobično, specijalno, jedinstveno, osobito, odvojeno, drukčije, izvanredno, vanredno, originalno, optimalno, neuobičajeno, iznimno, neponovljivo, vanserijski, osobeno, unikatno, nenadmašno, besprimerno, odelito
-potpuno: sasvim, totalno, skroz, kompletno, odreda, listom, posve, potpun, potpunost
 upravo: čak
-posao: delo, postupak, zadatak, položaj, poziv, aktivnost, služba, misija, dužnost, zvanje, struka, zanimanje, zaposlenje, profesija, zaduženje, šljaka, angažovanost, poslanje, nameštenje, vokacija, uposlenje
-sistem: organizacija, pristup, postupak, red, mreža, skup, struktura, metoda, mašina, stil, aparat, uređenje, postavka, sklop, splet, ustrojstvo, mašinerija, sistematičnost
-zaista: naravno, jeste, sigurno, svakako, stvarno, apsolutno, definitivno, prirodno, savršeno, izvesno, itekako, pouzdano, zasigurno, doista, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
-program: plan, raspored
-ponovo: opet, ponovno, iznova, snova, nanovo, opetovano
-ime: lice, naziv, lik, veličina, klasa, figura, obraz, marka, maestro, kalibar, njuška, besmrtnik, uglednik
-opet: ponovo, ponovno, iznova, snova, ispočetka, nanovo, opetovano
-primer: model, obrazac, primerak, uzor, uzorak, ideal, prototip, norma, paradigma, neprikosnovenost, savršenost, perfekcija
 cilj: odluka, plan, želja, namera, volja, smer, ambicija, zamisao, ideal, nastojanje, pretenzija, intencija, naum, aspiracija, stremljenje, htenje, nakana, primisao, namisao
 razvoj: rast, povećanje, visina, širenje, porast, razvitak, skupljanje, dotok, povećavanje, akumulacija, sazrevanje, stas, bujanje, nicanje, nakupljanje, uvećavanje, koncentrisanje, debljanje, rastenje, doticanje, naviranje
 zajedno: skupa
@@ -328,7 +359,6 @@ uslov: preduslov
 novine: list, izdanje, dnevnik, časopis, magazin, štampa, glasnik, publikacija, revija, nedeljnik, glasilo, žurnal, zabavnik, tabloid, periodika, dvobroj, tisak, podlistak, večernjak
 beba: novorođenče, odojče, bebica, detence, prinova, dojenče, detešce
 vratiti: formirati, uspostaviti, odbiti, renovirati, vrnuti
-sunce: svetlo, zraka, zrak, breme, mlaz, bala, svežanj, plast, zavežljaj, stog, luč, zamotuljak, babura, zavijutak, smotak
 uzrok: početak, izvor, osnova, poreklo, platforma, koren, podloga, matica, pozadina, leglo, vrelo, polazište, stožer, ishodište, začetak, polaznica, zametak, prapočetak, praizvor
 pokret: saobraćaj, prevoz, promet, potez, kretanje, pokretanje, transport, vožnja, gest, pomeranje, prenošenje, premeštanje, pomicanje, prevoženje, saobraćanje, micanje
 prisustvo: učešće, postojanje

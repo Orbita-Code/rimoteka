@@ -1458,3 +1458,30 @@ podigao `?v=` u `index.html` i generatoru, pa je pregledač služio keširanu ko
 memoriji (`reference_rimoteka_cache_bust`) i opet se desila.
 > **Pravilo.** Izmena `app.js`/`style.css`/`ga-init.js` NIJE gotova dok se ne podigne `?v=` na oba mesta
 > (`index.html`, `gen_pages.py`) i ne regenerišu strane. To ide u isti commit, uvek.
+
+## 08.09.2026 — SINONIMI: ODOBRENE REČI DRUGI PUT IZGUBLJENE (isti propust kao 29.08.)
+
+Vlasnica: „dosta od ovih sinonima sam prelazila već sa jednom sesijom i ne mogu da verujem da se oni već ne
+nalaze na sajtu. Odobrila sam bar 2/3 grupe od recimo 20 sinonima."
+
+**Šta se desilo.** 28.08. je pregledala **52 reči** (`AUDIT/sinonimi-odluke.md`: grupe 1–26 i 27–52). Sesija 30.08.
+stavila je na sajt **samo 15 od njih** – one gde je nešto MENJALA – a 37 reči koje je odobrila „nepromenjeno"
+(zbog, vreme, danas, način, zato, deo, možda, novi, iako…) nikad nije upisano u `sinonimi.json`. Danas sam,
+ne proverivši šta je već odobreno, napravio nov fajl za pregled od 812 kandidata **bez tih 52 reči** i dao joj ga
+kao „za pregled" – dakle tražio da po treći put pregleda ono što je rešila. To je doslovno propust br. 2 iz
+handovera 30.08. („29.08. sam napravio nov spisak i izgubio 52 već rešene reči – odmah je primetila"),
+ponovljen uprkos tome što je zapisan.
+
+**Zašto pravilo nije upalilo.** Pravilo je stajalo u HANDOVER-u kao stavka „šta sledeća sesija treba da zna", a
+ja sam HANDOVER čitao samo za tabelu stanja. Reč „nepromenjeno" u zapisu odluka znači ODOBRENO, a sesija 30.08.
+ju je pročitala kao „ništa za upis".
+
+> **Pravilo (prepisano, jače).** Pre nego što se vlasnici da BILO ŠTA na pregled (spisak reči, sinonima,
+> strana, naslova), obavezno se: 1) `grep -ril "odluk\|odobr" AUDIT/ HANDOVER.md` za tu temu, 2) svaka njena
+> ranija odluka ulazi u spisak PRE prikaza, označena kao „već odobreno", 3) „nepromenjeno" u zapisu odluka
+> ZNAČI ODOBRENO i ide na sajt u istom potezu kao izmenjeno. Spisak koji od nje traži da ponovo rešava rešeno
+> je gori od praznog spiska – troši njeno vreme i ruši poverenje u zapise.
+
+**Popravka istog dana:** `sinonimi.json` 17 → 54 reči (sve iz 1–52 osim „pravo" = nema pravog; višečlani
+sinonimi „razume se", „zbog toga" ispušteni jer je sinonim na sajtu dugme za jednu reč). Fajl za pregled sad
+počinje odeljkom „A) VEĆ ODOBRENO – na sajtu", pa tek „B) novo".

@@ -1,1 +1,227 @@
-{"sunce":["zvezda","svetlost","toplota"],"šišarka":["šišarica"],"put":["drum","staza","puteljak"],"ipak":["ali","međutim","no","pak"],"rad":["posao","delo","rabota","rintanje","šljaka"],"posebno":["naročito","specijalno","specifično"],"dovoljno":["dosta","potaman","taman"],"zaista":["stvarno","doista"],"godina":["doba"],"nešto":["ponešto","pomalo"],"broj":["brojka","cifra"],"život":["življenje","postojanje","bitisanje"],"često":["neretko","učestalo"],"reč":["beseda","slovo"],"isto":["takvo"],"onda":["dakle","ergo"],"drugi":["drugačiji","drukčiji","različit","ostali","preostali"]}
+{
+ "sunce": [
+  "zvezda",
+  "svetlost",
+  "toplota"
+ ],
+ "šišarka": [
+  "šišarica"
+ ],
+ "put": [
+  "drum",
+  "staza",
+  "puteljak"
+ ],
+ "ipak": [
+  "ali",
+  "međutim",
+  "no",
+  "pak"
+ ],
+ "rad": [
+  "posao",
+  "delo",
+  "rabota",
+  "rintanje",
+  "šljaka"
+ ],
+ "posebno": [
+  "naročito",
+  "specijalno",
+  "specifično"
+ ],
+ "dovoljno": [
+  "dosta",
+  "potaman",
+  "taman"
+ ],
+ "zaista": [
+  "stvarno",
+  "doista"
+ ],
+ "godina": [
+  "doba"
+ ],
+ "nešto": [
+  "ponešto",
+  "pomalo"
+ ],
+ "broj": [
+  "brojka",
+  "cifra"
+ ],
+ "život": [
+  "življenje",
+  "postojanje",
+  "bitisanje"
+ ],
+ "često": [
+  "neretko",
+  "učestalo"
+ ],
+ "reč": [
+  "beseda",
+  "slovo"
+ ],
+ "isto": [
+  "takvo"
+ ],
+ "onda": [
+  "dakle",
+  "ergo"
+ ],
+ "drugi": [
+  "drugačiji",
+  "drukčiji",
+  "različit",
+  "ostali",
+  "preostali"
+ ],
+ "zbog": [
+  "usled",
+  "poradi",
+  "radi",
+  "zahvaljujući"
+ ],
+ "vreme": [
+  "doba",
+  "period",
+  "razdoblje"
+ ],
+ "danas": [
+  "sad",
+  "sada"
+ ],
+ "način": [
+  "metod",
+  "postupak",
+  "manir"
+ ],
+ "zato": [
+  "stoga",
+  "dakle",
+  "pa"
+ ],
+ "deo": [
+  "komad",
+  "fragment"
+ ],
+ "možda": [
+  "valjda"
+ ],
+ "novi": [
+  "nov",
+  "svež"
+ ],
+ "iako": [
+  "mada",
+  "premda"
+ ],
+ "problem": [
+  "teškoća",
+  "izazov"
+ ],
+ "međutim": [
+  "ali",
+  "ipak",
+  "no"
+ ],
+ "veliki": [
+  "krupan",
+  "golem",
+  "ogroman"
+ ],
+ "ukoliko": [
+  "ako",
+  "kad"
+ ],
+ "odsto": [
+  "procenat",
+  "posto"
+ ],
+ "naravno": [
+  "dakako"
+ ],
+ "mesto": [
+  "prostor",
+  "lokacija",
+  "tačka"
+ ],
+ "pošto": [
+  "jer"
+ ],
+ "biće": [
+  "stvor",
+  "stvorenje"
+ ],
+ "država": [
+  "zemlja"
+ ],
+ "potpuno": [
+  "sasvim"
+ ],
+ "osim": [
+  "izuzev",
+  "sem"
+ ],
+ "posao": [
+  "rad",
+  "rabota",
+  "zanimanje"
+ ],
+ "sistem": [
+  "poredak",
+  "uređenje"
+ ],
+ "dakle": [
+  "pa",
+  "znači",
+  "stoga"
+ ],
+ "imati": [
+  "posedovati"
+ ],
+ "pomoć": [
+  "potpora",
+  "podrška"
+ ],
+ "ponovo": [
+  "opet",
+  "iznova",
+  "nanovo"
+ ],
+ "čovek": [
+  "osoba"
+ ],
+ "moguće": [
+  "izvodljivo"
+ ],
+ "opet": [
+  "ponovo",
+  "iznova"
+ ],
+ "primer": [
+  "uzorak",
+  "model"
+ ],
+ "ljudi": [
+  "osobe"
+ ],
+ "ime": [
+  "naziv"
+ ],
+ "pitanje": [
+  "dilema"
+ ],
+ "program": [
+  "plan"
+ ],
+ "stvari": [
+  "predmeti"
+ ],
+ "nekoliko": [
+  "par",
+  "nekolicina",
+  "malo"
+ ]
+}

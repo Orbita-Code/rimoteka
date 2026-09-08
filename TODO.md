@@ -5,6 +5,19 @@
 > Rešeno se **briše**, ne štriklira. Trag rešenog: `AUDIT/NALAZI-OTVORENI.md` i `HANDOVER.md`.
 > Cilj vlasnice: **10/10 na svim dimenzijama**, telefon prvi (većina posetilaca).
 
+
+## „Oblik reči X“ – glavna reč pod navodnicima + značenje u zagradi (zahtev vlasnice 08.09.2026 uveče)
+
+Vlasnica: „ako navodimo glavnu reč, npr. „čad“, onda da u zagradi i napišemo šta ta reč znači – sjajno iskustvo korisnika“.
+**Skripta je gotova i probana (samo probni prolaz):** `python3 build/oblik_reci_navodnici.py` → sa `--primeni` upisuje.
+Izmereno u `definicije.json`: 129.470 objašnjenja „Oblik reči X“; 125.946 dobija navodnike („X“); 2.691 dobija
+značenje glavne reči iz njenog objašnjenja (prva rečenica, malo slovo); 61 ostaje bez zagrade (glavne reči nema u
+rečniku); 3.524 već bila u novom obliku. Primer: `Oblik reči van.` → `Oblik reči „van“ (prilog i predlog: izvan, napolju).`
+Posle primene OBAVEZNO: `python3 build/podeli_definicije.py && node scripts/osvezi-verzije-podataka.mjs && python3 build/gen_pages.py`,
+pa pun test (53 proverava deljene fajlove). Ostalih ~88.000 objašnjenja „Oblik prisvojnog prideva od prezimena…“ i
+sl. NE menjaju (nisu „Oblik reči X“). Uraditi u sledećoj sesiji, kad Mac nije preopterećen (08.09. uveče: opterećenje 138
+zbog iOS simulatora druge sesije).
+
 ## STANJE 08.09.2026
 
 | | |

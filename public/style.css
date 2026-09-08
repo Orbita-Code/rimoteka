@@ -912,6 +912,10 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
 .chip .word{font-size:1.05rem;font-weight:600;cursor:pointer;color:var(--ink)}
 .chip .word:hover{color:var(--rose-deep)}
 .chip .syl{font-size:.7rem;font-weight:700;color:var(--syl-ink);background:var(--syl-bg);border-radius:999px;padding:.08rem .45rem}
+/* Kružić sa brojem slogova DESNO u kapsuli (odluka vlasnice 08.09.2026 uveče): sa ravnim kolonama svi kružići stoje
+   u istoj vertikali uz desnu ivicu – „tako je lepše oku". Reč ostaje levo. Panel u beležnici (`.note-rhymes`) ne dira. */
+.res-group .results .chip .syl{order:2;margin-left:auto}
+.res-group .results .chip .word{order:1}
 .chip .mini{border:0;background:transparent;cursor:pointer;font-size:.95rem;padding:.12rem .3rem;border-radius:999px;color:var(--muted);line-height:1;transition:.15s}
 .chip .mini:hover{background:#f6f0fc;transform:scale(1.15)}
 .chip .fav.on{color:var(--rose-deep)}

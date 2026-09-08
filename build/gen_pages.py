@@ -303,7 +303,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908i">
+<link rel="stylesheet" href="/style.css?v=20260908j">
 <script type="application/ld+json">
 {schema}
 </script>

@@ -6347,6 +6347,29 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         const pom = await (await fetch(BASE + '/igra-rimovanja/')).text();
         ok('igra · „Kako se igra?" pominje tri rime i mikrofon (odobreno 08.09.)', /tri rime za svaku reč/.test(pom) && /mikrofon/.test(pom));
       }
+      // beležnica na telefonu: Enter usred pesme ne baca na dno (prijava vlasnice 08.09.2026)
+      {
+        const c = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+        await c.addInitScript(() => { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, v: 1, test: true })); });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000 && typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 180000 });
+        await p.tap('#noteEditor').catch(() => p.click('#noteEditor'));
+        await p.evaluate(async () => { const VV = window.visualViewport; const nova = window.innerHeight - 336; Object.defineProperty(VV, 'height', { get: () => nova, configurable: true }); Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true }); VV.dispatchEvent(new Event('resize')); window.dispatchEvent(new Event('resize')); await new Promise(r => setTimeout(r, 400)); });
+      /* ENTER USRED PESME (prijava vlasnice 08.09.2026: „Enter za novi red me baci na poslednji red beležnice"):
+         12 stihova, kursor na kraju 2. reda, Enter → strana sme da se pomeri najviše za jedan red, a novi red
+         mora da ostane između trake i tastature. Uzrok je bio pravougaonik CELOG editora kao zamena za prazan red. */
+      await p.evaluate((st) => { const ed = document.getElementById('noteEditor'); ed.innerHTML = st.join('<br>'); ed.dispatchEvent(new InputEvent('input', { bubbles: true })); }, ['Mesec po bregu mesečinu sipa','pospana polja on umiva zrakom','a mati moja šećerom posipa','kolače što ću podeliti s Markom','Kroz prozor gledam tu haljinu belu','i čekam kad će zvono da zazvrči','jer lavež pasa odzvanja po selu','zbog Milice što sokakom trči','Zvono se začu a misao puče','i slika što se kroz prozor nazrla','Da li je to ona moje milo luče','Pred vratima behu dva oka vrla']);
+      await pauza(500);
+      await p.evaluate(() => { const ed = document.getElementById('noteEditor'); const sel = window.getSelection(); const r = document.createRange(); let tn = null, k = 0; for (const n of ed.childNodes) { if (n.nodeType === 3 && n.data.trim()) { k++; if (k === 2) { tn = n; break; } } } r.setStart(tn, tn.data.length); r.collapse(true); sel.removeAllRanges(); sel.addRange(r); });
+      await pauza(500);
+      const preEnter = await p.evaluate(() => Math.round(window.scrollY));
+      await p.keyboard.press('Enter'); await pauza(700);
+      const e2 = await p.evaluate(() => { const ed = document.getElementById('noteEditor'); const box = document.getElementById('noteRhymes'); const tr = box.getBoundingClientRect(); const vv = window.visualViewport; const sel = window.getSelection(); const rng = sel.getRangeAt(0); let r = rng.getBoundingClientRect(); if (!r.height) { const sc = rng.startContainer; const pre = sc.nodeType === 1 && rng.startOffset > 0 ? sc.childNodes[rng.startOffset - 1] : null; if (pre && pre.getBoundingClientRect) { const pr = pre.getBoundingClientRect(); r = { top: pr.bottom, bottom: pr.bottom + 30 }; } } const edr = ed.getBoundingClientRect(); return { scrollY: Math.round(window.scrollY), kursorTop: Math.round(r.top), kursorDno: Math.round(r.bottom), trakaDno: Math.round(tr.bottom), vid: vv.height, dnoEditora: Math.round(edr.bottom), redova: (ed.innerText.match(/\n/g) || []).length }; });
+      ok(`beležnica × telefon · Enter usred pesme NE baca na dno (pomak ${e2.scrollY - preEnter} px, dozvoljeno ≤ 40)`, Math.abs(e2.scrollY - preEnter) <= 40, JSON.stringify({ preEnter, e2 }));
+      ok(`beležnica × telefon · posle Entera novi red je između trake i tastature`, e2.kursorTop >= e2.trakaDno - 2 && e2.kursorDno <= e2.vid + 2, JSON.stringify(e2));
+        await c.close();
+      }
     }
 
     console.log('\n13) Konzola na kraju svih interakcija');

@@ -2488,7 +2488,23 @@ function drziKursorIspodTrake(){
     if(!sel || !sel.rangeCount || !noteEditor.contains(sel.getRangeAt(0).startContainer)) return;
     const rng = sel.getRangeAt(0);
     let r = rng.getClientRects()[0] || rng.getBoundingClientRect();
-    if(!r || (!r.height && !r.top)){ const e = rng.startContainer.nodeType === 3 ? rng.startContainer.parentElement : rng.startContainer; r = e.getBoundingClientRect(); }
+    if(!r || (!r.height && !r.top)){
+      /* Prazan red odmah posle Enter-a nema pravougaonik (prijava vlasnice 08.09.2026: „Enter za novi red
+         me baci na poslednji red beležnice"). Ranije se ovde uzimao pravougaonik RODITELJA – a to je bio
+         CEO editor, pa je strana skrolovala do njegovog dna. Sad: red se računa od <br> ispred kursora
+         (njegovo dno = vrh novog reda), a ako ni to ne može – ne pomera se ništa. */
+      r = null;
+      const sc = rng.startContainer;
+      if(sc.nodeType === 1 && rng.startOffset > 0){
+        const pre = sc.childNodes[rng.startOffset - 1];
+        const pr = pre && pre.getBoundingClientRect ? pre.getBoundingClientRect() : null;
+        if(pr && (pr.height || pr.top)){
+          const lh = parseFloat(getComputedStyle(noteEditor).lineHeight) || 30;
+          r = { top: pr.bottom, bottom: pr.bottom + lh, height: lh };
+        }
+      }
+      if(!r) return;
+    }
     const traka = noteRhymesBox.getBoundingClientRect();
     const vv = window.visualViewport; const dno = vv ? (vv.height) : window.innerHeight;
     if(r.top < traka.bottom + 6) window.scrollBy({ top: r.top - traka.bottom - 28, behavior: 'auto' });

@@ -62,7 +62,7 @@ const SKUPI = () => {
 const browser = await chromium.launch();
 async function kontekst() {
   const c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_script', 'cyr'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
+  await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1');   /* prijave iz skenera su PROBE – 08.09. je skener 11 puta upisao „ubav“ u pravo sanduče */ localStorage.setItem('rimoteka_script', 'cyr'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
   await c.route(/googletagmanager|google-analytics/, r => r.fulfill({ status: 200, body: '' }));
   return c;
 }

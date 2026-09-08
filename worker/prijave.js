@@ -42,7 +42,7 @@ async function limitProbijen(env, ip) {
 
 /* --- mejl vlasnici: mali SMTP klijent (Workers nemaju ugrađen mejl bez Cloudflare Email Routing-a) --- */
 function b64(s) { return btoa(unescape(encodeURIComponent(s))); }
-async function posaljiMejl(env, zapis) {
+async function posaljiMejl(env, zapis, poreklo) {
   if (!env.SMTP_KORISNIK || !env.SMTP_LOZINKA || !env.MEJL_ZA) return;
   const sock = connect({ hostname: 'smtp.gmail.com', port: 465 }, { secureTransport: 'on', allowHalfOpen: false });
   const w = sock.writable.getWriter(); const r = sock.readable.getReader();
@@ -78,7 +78,8 @@ async function posaljiMejl(env, zapis) {
       zapis.napomena ? 'Napomena: ' + zapis.napomena : '',
       'Strana: ' + citljivaAdresa(zapis.strana),
       'Uređaj: ' + zapis.uredjaj + ' · ' + zapis.kad,
-      '', 'Pregled svih prijava: ' + (env.PREGLED_ADRESA || '(ključ u ~/.config/rimoteka/prijave-kljuc.json)')
+      /* Link sa ključem: mejl ide samo vlasnici, a bez ključa je sanduče vraćalo „Nema pristupa" (08.09.2026). */
+      '', 'Pregled svih prijava (privatan link, ne prosleđuj): ' + (poreklo || 'https://rimoteka-prijave.jovana-daskovic.workers.dev') + '/prijave?kljuc=' + encodeURIComponent(env.KLJUC || '')
     ].filter(Boolean).join('\r\n');
     const poruka = [
       'From: Rimoteka <' + (env.MEJL_OD || 'eureka@rimoteka.com') + '>',
@@ -113,7 +114,7 @@ async function primi(request, env, ctx) {
   const zapis = { ...p, kad, ko: await otisak(ip + '|' + (request.headers.get('User-Agent') || '').slice(0, 80)),
                   uredjaj: /Mobi|Android|iPhone/i.test(request.headers.get('User-Agent') || '') ? 'telefon' : 'računar' };
   await env.PRIJAVE.put(`prijava:${Date.now()}:${Math.random().toString(36).slice(2, 7)}`, JSON.stringify(zapis), { expirationTtl: CUVANJE_SEK });
-  if (ctx && ctx.waitUntil) ctx.waitUntil(posaljiMejl(env, zapis).catch(e => console.log('mejl nije poslat: ' + (e && e.message))));
+  if (ctx && ctx.waitUntil) ctx.waitUntil(posaljiMejl(env, zapis, new URL(request.url).origin).catch(e => console.log('mejl nije poslat: ' + (e && e.message))));
   /* Brojač `broj:ukupno` je UKINUT (N-13): KV nema atomično uvećanje, pa su dve prijave u istoj sekundi
      brojale jednu; „ukupno" se sada uvek prebroji iz spiska ključeva (v. pregled). */
   return json({ ok: true }, 200, h);
@@ -157,7 +158,7 @@ export default {
     /* Proba mejla (samo sa ključem): pošalje probnu poruku i vrati grešku ako SMTP ne prođe. */
     if (request.method === 'POST' && url.pathname === '/proba-mejla') {
       if (!env.KLJUC || (request.headers.get('X-Kljuc') || '') !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
-      try { await posaljiMejl(env, { rec: 'proba', razlog: 'drugo', napomena: 'Ovo je proba slanja iz sanduča.', strana: 'https://rimoteka.com/', uredjaj: 'proba', kad: new Date().toISOString() }); return json({ ok: true }); }
+      try { await posaljiMejl(env, { rec: 'proba', razlog: 'drugo', napomena: 'Ovo je proba slanja iz sanduča.', strana: 'https://rimoteka.com/', uredjaj: 'proba', kad: new Date().toISOString() }, url.origin); return json({ ok: true }); }
       catch (e) { return json({ ok: false, greska: String(e && e.message), duzine: { korisnik: String(env.SMTP_KORISNIK || '').length, lozinka: String(env.SMTP_LOZINKA || '').length } }, 500); }
     }
     if (request.method === 'GET' && url.pathname === '/prijave') return pregled(request, env);

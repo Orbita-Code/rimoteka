@@ -46,7 +46,7 @@ const MERI = () => {
 
 const browser = await chromium.launch();
 const c = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'light' });
-await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_dark', '1'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
+await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1');   /* prijave iz skenera su PROBE – 08.09. je skener 11 puta upisao „ubav“ u pravo sanduče */ localStorage.setItem('rimoteka_dark', '1'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, kad: '2026-09-06T00:00:00.000Z', v: 1, test: true })); } catch (e) {} });
 await c.route(/googletagmanager|google-analytics/, r => r.fulfill({ status: 200, body: '' }));
 const svi = new Map();
 const upisi = (gde, lista) => { for (const x of lista) { const k = `${x.vrsta}|${x.el}|${x.kontrast || ''}|${x.tekst || ''}`; const z = svi.get(k) || { ...x, gde: new Set() }; z.gde.add(gde); svi.set(k, z); } };
@@ -89,7 +89,7 @@ const pb = await cb.newPage(); await pb.goto(BASE + '/', { waitUntil: 'domconten
 
 // STANJE TEME: F5, druga strana, „zatvori i vrati se", sistemska postavka bez izbora
 const stanje = {};
-{ const c2 = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'light' }); await c2.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, v: 1, test: true })); } catch (e) {} });
+{ const c2 = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'light' }); await c2.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1');   /* prijave iz skenera su PROBE – 08.09. je skener 11 puta upisao „ubav“ u pravo sanduče */ localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, v: 1, test: true })); } catch (e) {} });
   const q = await c2.newPage(); await q.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await q.click('#darkToggle'); await q.waitForTimeout(200);
   stanje.klik = await q.evaluate(() => document.body.classList.contains('dark-mode'));
   await q.reload({ waitUntil: 'domcontentloaded' }); stanje.f5 = await q.evaluate(() => document.body.classList.contains('dark-mode'));
@@ -100,7 +100,7 @@ const stanje = {};
   stanje.metaThemeColor = await q3.evaluate(() => (document.querySelector('meta[name="theme-color"]') || {}).content);
   stanje.colorScheme = await q3.evaluate(() => getComputedStyle(document.documentElement).colorScheme);
   await c2.close();
-  const c3 = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'dark' }); await c3.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.removeItem('rimoteka_dark'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, v: 1, test: true })); } catch (e) {} });
+  const c3 = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'dark' }); await c3.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1');   /* prijave iz skenera su PROBE – 08.09. je skener 11 puta upisao „ubav“ u pravo sanduče */ localStorage.removeItem('rimoteka_dark'); localStorage.setItem('rimoteka_kolacici', JSON.stringify({ analitika: true, v: 1, test: true })); } catch (e) {} });
   const q4 = await c3.newPage(); await q4.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); stanje.sistemTamnaBezIzbora = await q4.evaluate(() => document.body.classList.contains('dark-mode')); await c3.close();
 }
 await browser.close();

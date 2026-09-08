@@ -1485,3 +1485,23 @@ ju je pročitala kao „ništa za upis".
 **Popravka istog dana:** `sinonimi.json` 17 → 54 reči (sve iz 1–52 osim „pravo" = nema pravog; višečlani
 sinonimi „razume se", „zbog toga" ispušteni jer je sinonim na sajtu dugme za jednu reč). Fajl za pregled sad
 počinje odeljkom „A) VEĆ ODOBRENO – na sajtu", pa tek „B) novo".
+
+## 08.09.2026 — SKENER ĆIRILICE JE 11 PUTA UPISAO PRAVU PRIJAVU U SANDUČE
+
+Vlasnica: „da li je ovu reč „ubav" i „mržnja" prijavio neko drugi ili je to bio test neke sesije? kako ću znati
+ubuduće je l' korisnik ili test".
+
+**Šta se desilo.** `test/skener-cirilica.mjs` klikće „Prijavi grešku" i „Pošalji" da izmeri prozorčić u ćirilici,
+ali njegov kontekst nije umotan u `umotaj()` (koji svakom kontekstu upiše `rimoteka_proba=1`). Zato je svako
+pokretanje skenera – i lokalno (sanduče prima `localhost`) i protiv produkcije – upisalo PRAVU prijavu „ubav ·
+slogovi · ?rec=ljubav": 11 zapisa od 07.09. 21:19 do 08.09. 16:55, svi sa istim otiskom uređaja (ovaj računar).
+Obrisani. Zapis „pitanja · nije-za-decu · ?rec=mržnja" od 06.09. 22:51 je sa istog računara, na dan kad je sanduče
+pravljeno – sesijska proba, ne korisnik. Jedina prava prijava od korisnika je „odeljenja" (06.09. 16:10, drugi otisak).
+
+> **Pravilo.** Svaki test koji dodirne dugme „Pošalji" u prijavi MORA da ide kroz `umotaj()` ili da sam upiše
+> `rimoteka_proba=1` – bez izuzetka, i lokalno, jer sanduče prima i `localhost`. Provera: posle pokretanja svakog
+> novog testa koji dira prijave, `curl` spisak sanduča i uporediti broj pre/posle (mora biti isti). **Kako se
+> razlikuje korisnik od testa:** test se u sanduču NE VIDI NIKAD (proba se ne čuva); ono što je u sanduču je od
+> čoveka. Otisak `ko` (skraćen hash IP + pregledač) je isti za sve sa istog računara – po njemu se vidi „naš
+> računar" naspram tuđeg. Sesija koja iz bilo kog razloga pošalje pravu prijavu briše je odmah (`/obrisi`) i to
+> kaže vlasnici.

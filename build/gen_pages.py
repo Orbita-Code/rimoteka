@@ -261,6 +261,14 @@ def load_izbor():
 # `kiša`. Ovde idu PRAVE reči, sa kvačicama, jer se traže u `reci.txt`.
 GA_RECI = 'kiša anastasija antifona bajka duša kajanje'.split()
 
+# PROBNA ZAMENA STRANA (odluka vlasnice 08.09.2026: „15 slabih dole, 19 jakih gore, da vidimo kako izgleda").
+# Izvor: AUDIT/analiza/istraga-strane-reci.md. Slabe = nikad na kraju stiha u korpusu pesama, 0–1 rima,
+# učestalost ispod 30.000 (gradovi/države NISU dirani – posebna odluka 10.08.). Jake = na kraju stiha bar 7 puta,
+# bar 5 rima („momče" ima 3 rime pa bi ispalo kao tanka strana – preskočeno). Ukinute adrese su u
+# nginx-stare-strane.map (301 na hub). Ako proba prođe, ostatak (60 + 60) ide istim putem.
+BEZ_STRANE = set('breskva krajnji vođstvo intervju dugme mržnje detaljno evro krajnje izložba sumnje srebro ujutro sumnja sportski'.split())
+PESNICKE_RECI = 'čeka radi mira jada sprema brata oka meni vila jeka vuče čedo sjaj nosi baba drugo iznenada zraka dar'.split()
+
 # ---------------- HTML delovi (deljeni) ----------------
 HEAD_TMPL = """<!DOCTYPE html>
 <html lang="sr">
@@ -295,7 +303,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908g">
+<link rel="stylesheet" href="/style.css?v=20260908h">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -472,7 +480,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908r"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908s"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -819,11 +827,11 @@ def main():
         return target in RHYME_EXCLUSIONS and w in RHYME_EXCLUSIONS[target]
 
     # 1) finalna lista meta-reči: postoje u rečniku, jedinstven slug
-    TARGET_COUNT = 2000
+    TARGET_COUNT = 2000 + len(PESNICKE_RECI) - len(BEZ_STRANE)   # zamena 1:1, ne širenje (2.004)
     targets, seen_slug, chosen = [], {}, set()
 
     def add_target(t):
-        if t not in wset or t in chosen or is_blocked(t):
+        if t not in wset or t in chosen or is_blocked(t) or t in BEZ_STRANE:
             return
         sl = slugify(t)
         if sl in seen_slug:
@@ -839,6 +847,8 @@ def main():
 
     # a2) reči koje su ljudi ZAISTA tražili (Google Analytics) – obavezne
     for t in GA_RECI:
+        add_target(t)
+    for t in PESNICKE_RECI:      # reči sa kraja stiha (proba 08.09.)
         add_target(t)
     ga_count = len(targets) - curated_count
 
@@ -1455,7 +1465,8 @@ def main():
              sections=[
                  ('Kako se igra?',
                   'Izabereš broj igrača i koliko reči svako dobija, pa kreće. Za svaku zadatu reč upisuješ reč '
-                  'koja se sa njom rimuje. Tačan odgovor nosi poene, a niz tačnih odgovora ih umnožava.'),
+                  'koja se sa njom rimuje. Tačan odgovor nosi poene, a niz tačnih odgovora ih umnožava. '
+                  'Možeš da biraš i tri rime za svaku reč, a rimu možeš i da kažeš u mikrofon.'),
                  ('Igraj sam ili sa društvom',
                   'U igri za više igrača uređaj se predaje iz ruke u ruku – između igrača stoji ekran za predaju '
                   'da niko ne vidi tuđu reč. Na kraju ide tabela sa rezultatima.'),

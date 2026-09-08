@@ -846,6 +846,9 @@ button.ghost:hover{transform:translateY(-2px) rotate(-8deg)}
    Prelamanje UNUTAR čipa ostaje kao poslednja zaštita (v. `.chip`), za slučaj
    duge reči na uskom telefonu. */
 .results{display:flex;flex-wrap:wrap;gap:.55rem;align-content:start;align-items:flex-start}
+/* Ravne kolone (prijava korisnika Dragana M., 08.09.2026): pilule različite širine lome kolone, pa oko ne može
+   brzo da klizi. Sve pilule u grupi dobiju širinu najšire (JS meri, `poravnajCipove`), najviše 48 % reda. */
+.results.poravnato .chip{min-width:var(--cip-w,0)}
 /* Prazno stanje – stoji dok se ne uradi prva pretraga. Boje idu iz promenljivih, da bi
    radilo i u tamnoj temi; tvrdo upisana pozadina bi u tamnoj temi dala nečitljiv tekst
    (AUDIT-PROTOKOL, provera br. 2 – kontrast u obe teme). */
@@ -2355,6 +2358,17 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 .game-input-row .game-mic.slusa{border-color:#e0457b;box-shadow:0 0 0 4px rgba(224,69,123,.22);animation:mic-puls 1s ease-in-out infinite}
 @keyframes mic-puls{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
 body.dark-mode .game-input-row .game-mic{background:#2a2440;border-color:var(--line);color:var(--ink)}
+/* Reč dana (08.09.2026) */
+.game-daily-btn{display:inline-block;margin-top:.7rem;padding:.7rem 1.2rem;border-radius:14px;border:2px solid var(--lavender);background:#fff;color:var(--lavender-deep);font:inherit;font-weight:700;cursor:pointer}
+.game-daily-btn:hover{background:#f3eefe}
+.game-daily-hint{margin:.4rem 0 0;font-size:.85rem;color:var(--ink-soft)}
+.game-share{margin:0 0 1.2rem;padding:1rem;border-radius:14px;background:#f8f0fe;text-align:center}
+.game-share-text{margin:0 0 .6rem;white-space:pre-line;font-weight:600;line-height:1.5}
+.game-share-ok{display:block;margin-top:.4rem;font-size:.9rem;color:var(--lavender-deep);min-height:1.2em}
+body.dark-mode .game-daily-btn{background:#2a2540;color:var(--lavender);border-color:var(--lavender)}
+body.dark-mode .game-daily-btn:hover{background:#352e52}
+body.dark-mode .game-share{background:#2a2540;color:#e8e6f5}
+body.dark-mode .game-share-ok{color:var(--lavender)}
 @media (max-width:480px){.game-input-row{gap:.4rem}.game-input-row input{padding:.85rem .7rem}.game-input-row button{padding:.85rem .9rem}.game-input-row .game-mic{padding:.85rem .55rem}}   /* sa mikrofonom polje na 390 px ostaje čitljivo */
 @media (max-width:360px){.game-input-row{flex-wrap:wrap}.game-input-row input{flex-basis:100%}.game-input-row button{flex:1}}   /* na 320 px polje je bilo 70 px – polje u svoj red, dugmad ispod */
 

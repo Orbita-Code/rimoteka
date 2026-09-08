@@ -1033,7 +1033,10 @@ document.addEventListener('mousemove', (e) => {
    ne ODSTOJI na njoj 350 ms – samo prolazak preko nje ne menja ništa; (2) ulazak u traku
    otkazuje svako zatvaranje; (3) traka se zatvara tek kad kursor 700 ms nije ni na reči ni
    na traci. Prva traka (kad nijedna nije otvorena) otvara se brzo, posle 110 ms. */
-const TRAKA_PRVA_MS = 110, TRAKA_PREBACI_MS = 350, TRAKA_ZATVORI_MS = 700;
+/* 08.09.2026, prijava korisnika Dragana M.: traka je iskakala čim se pređe preko reči (110 ms) i prekrivala
+   red iznad dok oko klizi po spisku. Sad traži kratko zadržavanje na reči (320 ms); prebacivanje na susednu
+   reč 400 ms. Klik, dodir i fokus tastaturom otvaraju odmah, kao i pre. Testovi posle prelaska čekaju ≥ 600 ms. */
+const TRAKA_PRVA_MS = 320, TRAKA_PREBACI_MS = 400, TRAKA_ZATVORI_MS = 700;
 function cipZaTraku(el){
   const cip = el && el.closest ? el.closest('.chip') : null;
   if(!cip || cip.closest('.note-rhymes')) return null;
@@ -1153,6 +1156,50 @@ function renderCombo(){
   else { b.hidden = true; }
 }
 
+/* REDOSLED PO AZBUCI (prijava korisnika Dragana M., 08.09.2026): „najbolja rima, zatim ostale po azbučnom redu"
+   – kad oko traži reč po spisku, azbuka je brža od skrivenog merila. Isključeno je podrazumevano (redosled
+   po sličnosti ostaje pravilo 6.2a); ko uključi, pamti se na uređaju. Sortira se po pismu koje je na ekranu:
+   azbuka za ćirilicu, abeceda za latinicu – nisu isti redosled (ћ, џ, љ…). */
+let azbukaRed = lsGet('rimoteka_azbuka') === '1';
+const RED_AZBUKA = 'абвгдђежзијклљмнњопрстћуфхцчџш';
+const RED_ABECEDA = 'абцчћдџђефгхијклљмнњопрсштувзж';
+function porediAzbuka(a, b){
+  const red = script === 'cyr' ? RED_AZBUKA : RED_ABECEDA;
+  const x = toCyr(String(a).toLowerCase()), y = toCyr(String(b).toLowerCase());
+  const n = Math.min(x.length, y.length);
+  for(let i = 0; i < n; i++){
+    if(x[i] === y[i]) continue;
+    const ix = red.indexOf(x[i]), iy = red.indexOf(y[i]);
+    if(ix === -1 || iy === -1) return x[i] < y[i] ? -1 : 1;
+    return ix - iy;
+  }
+  return x.length - y.length;
+}
+/* RAVNE KOLONE (Dragan M.): sve pilule u grupi široke koliko najšira reč, najviše 48 % reda – da oko klizi po
+   kolonama. Meri se posle iscrtavanja (i posle učitavanja fonta, promene širine i pisma). Samo glavni spisak
+   rima; panel u beležnici i tematske strane imaju svoj raspored. */
+function poravnajCipove(wrap){
+  if(!wrap) return;
+  wrap.classList.remove('poravnato');
+  wrap.style.removeProperty('--cip-w');
+  const cips = wrap.querySelectorAll('.chip');
+  if(cips.length < 2) return;
+  let max = 0;
+  cips.forEach(c => { max = Math.max(max, c.getBoundingClientRect().width); });
+  const cap = wrap.clientWidth * 0.48;
+  if(!max || !cap) return;
+  wrap.style.setProperty('--cip-w', Math.ceil(Math.min(max, cap)) + 'px');
+  wrap.classList.add('poravnato');
+}
+function poravnajSve(){
+  const box = document.getElementById('rimeResults');
+  if(!box) return;
+  box.querySelectorAll('.res-group .results').forEach(poravnajCipove);
+}
+let poravnajTimer = null;
+window.addEventListener('resize', () => { clearTimeout(poravnajTimer); poravnajTimer = setTimeout(poravnajSve, 120); });
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(() => setTimeout(poravnajSve, 0));
+
 function renderGroup(container, title, words, strong){
   if(!words.length) return;
   const g = document.createElement('div');
@@ -1165,7 +1212,7 @@ function renderGroup(container, title, words, strong){
   if(title){ const h=document.createElement('h2'); h.textContent=uiTxt(title); g.appendChild(h); }
   /* Prijava korisnika iz sanduča („odeljenja" ≠ rima za „grižnja", nalaz N-R1): rezervna
      grupa se poklapa samo u poslednjem slogu, pa to mora da piše – inače deluje kao greška. */
-  if(title && title.startsWith('Dobre rime (isti završni slog)')){
+  if(title && /isti završni slog/i.test(title)){
     const n = document.createElement('p'); n.className = 'res-note';
     n.textContent = uiTxt('Ove reči se sa tvojom slažu samo u poslednjem slogu, pa zvuče slabije od pravih rima.');
     g.appendChild(n);
@@ -1174,6 +1221,7 @@ function renderGroup(container, title, words, strong){
   words.forEach(w => wrap.appendChild(makeChip(w)));
   g.appendChild(wrap);
   container.appendChild(g);
+  if(container && container.id === 'rimeResults') requestAnimationFrame(() => poravnajCipove(wrap));
 }
 
 /* ====================== RIME ====================== */
@@ -1348,6 +1396,7 @@ function doRhymes(silent){
     finalExtra = filterSyl(fin).slice(0,90);
   }
 
+  if(azbukaRed){ best.sort(porediAzbuka); good.sort(porediAzbuka); finalExtra.sort(porediAzbuka); }
   if(!best.length && !good.length && !finalExtra.length && !loose){
     box.innerHTML = '<p class="empty">' + uiTxt('Nema čiste rime za ovu reč. Štikliraj „i šire (slabije) rime“ ispod polja – tada ulaze i bliske rime. Ako ni tada nema, probaj kraću reč ili neku drugu sa kraja stiha.') + '</p>';
   }
@@ -1365,7 +1414,7 @@ function doRhymes(silent){
   }
 
   renderGroup(box, good.length?'Dobre rime':'', good, false);
-  renderGroup(box, finalExtra.length?'Dobre rime (isti završni slog)':'', finalExtra, false);
+  renderGroup(box, finalExtra.length?'Isti završni slog (nisu prave rime)':'', finalExtra, false);
 
   /* Nalaz N1: rezultati se ubacuju u DOM bez ijedne najave, pa čitač ekrana
      ćuti i posle 195 pronađenih rima. Sam spisak NE ide u `aria-live` (čitao bi
@@ -1431,7 +1480,7 @@ function slugLat(w){
 let rimeStraneSlugovi = null;
 async function imasStranu(slug){
   if(rimeStraneSlugovi === null){
-    rimeStraneSlugovi = await fetch('/rime-strane.json?v=2')   // v=2: 08.09.2026, S-19 (6 strana ukinuto; keš je 365 d)
+    rimeStraneSlugovi = await fetch('/rime-strane.json?v=3')   // v=2: 08.09.2026, S-19 (6 strana ukinuto; keš je 365 d)
       .then(r => r.ok ? r.json() : [])
       .then(a => new Set(a))
       .catch(() => new Set());
@@ -1596,6 +1645,15 @@ kidsToggle.addEventListener('change', e=>{
   if(rimeInput.value.trim()) doRhymes();
   if(searchInput.value.trim()) doSearch();
 });
+const azbukaToggle = el('azbukaToggle');
+if(azbukaToggle){
+  azbukaToggle.checked = azbukaRed;
+  azbukaToggle.addEventListener('change', e=>{
+    azbukaRed = e.target.checked;
+    lsSet('rimoteka_azbuka', azbukaRed ? '1' : '0');
+    if(rimeInput.value.trim()) doRhymes(true);
+  });
+}
 /* ============ POZNATE REČI (za kockicu i igru) ============
  * Nasumičan izbor iz celog rečnika daje uglavnom arhaične i nepoznate
  * oblike ("praotaca") – kockica i igra su zbog toga bile neupotrebljive.
@@ -4048,6 +4106,7 @@ function applyScriptToUI(){
   if(rb && rb.title) rb.title = fn(rb.title);
   /* Naslovi (`title`) kapsula i broja slogova na statičkim stranama (nalaz S-09). */
   document.querySelectorAll('.chip[title], .chip .syl[title]').forEach(c => { c.title = fn(c.title); });
+  if(typeof poravnajSve === 'function') setTimeout(poravnajSve, 0);   // širine pilula zavise od pisma
 }
 
 let toastTimer;
@@ -4863,7 +4922,10 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   gameTimePerWord = parseInt(timeBtn.dataset.value);
   const rimaBtn = document.querySelector('#gameRima .game-option.active');
   gameRimaPoReci = rimaBtn && rimaBtn.dataset.value === '3' ? 3 : 1;
-
+  gameDnevna = false; gameDnevneReci = [];
+  pokreniPartiju();
+};
+function pokreniPartiju(){
   gamePlayersData = [];
   for(let i = 0; i < gamePlayers; i++){
     // `ishodi` pamti REDOSLED tačnih i netačnih odgovora – bez toga tačkice
@@ -4889,6 +4951,22 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   /* Prva reč čeka spisak reči za igru najviše 1,5 s – ako ne stigne, kreće sa starim bazenom. */
   Promise.race([ucitajIgraReci(), new Promise(r => setTimeout(r, 1500))])
     .then(() => { if(gameState === 'play' && !gameCurrentWord) nextWord(); });
+}
+const gameDailyBtn = document.getElementById('gameDaily');
+if(gameDailyBtn) gameDailyBtn.onclick = () => {
+  gameDailyBtn.disabled = true;
+  ucitajIgraReci().then(() => {
+    gameDailyBtn.disabled = false;
+    const reci = dnevneReci();
+    if(reci.length < 5){
+      gameFeedback.textContent = uiTxt('Reč dana nije stigla – probaj ponovo za koji trenutak.');
+      gameFeedback.className = 'game-feedback hint';
+      return;
+    }
+    gamePlayers = 1; gameWordsPerPlayer = 5; gameTimePerWord = 15; gameRimaPoReci = 1;
+    gameDnevna = true; gameDnevneReci = reci;
+    pokreniPartiju();
+  });
 };
 
 /* Zakazani prelaz na sledeću reč i stanje igre.
@@ -4927,6 +5005,29 @@ function randomIgraRec(extraFilter){
    zadatak, samo seče niz. `gameNadjene` pamti rime date za tekuću reč (ista se ne priznaje dvaput). */
 let gameRimaPoReci = 1;
 let gameNadjene = [];
+/* REČ DANA (odluka vlasnice 08.09.2026, prva verzija „da vidimo kako izgleda"): svakog dana SVI dobiju istih
+   pet reči – bira ih seme iz datuma nad spiskom `igra-reci.json` (isti fajl kod svih), uvek sa dečjim filterom
+   da svako dobije isto. 1 igrač, 15 s, jedna rima. Na kraju: rezultat kao kvadratići + bodovi, dugme kopira
+   tekst da ga dete pošalje drugu ili u razred. Bez naloga, bez servera. */
+let gameDnevna = false, gameDnevneReci = [];
+function danasnjiDatum(){
+  const d = new Date();
+  return { kljuc: d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'),
+           prikaz: d.getDate() + '. ' + (d.getMonth() + 1) + '. ' + d.getFullYear() + '.' };
+}
+function semeIzTeksta(t){ let h = 2166136261; for(let i = 0; i < t.length; i++){ h ^= t.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+function mulberry32(a){ return function(){ a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function dnevneReci(){
+  if(!IGRA_RECI) return [];
+  const rnd = mulberry32(semeIzTeksta('rimoteka-rec-dana-' + danasnjiDatum().kljuc));
+  const out = [];
+  for(let t = 0; t < 400 && out.length < 5; t++){
+    const w = IGRA_RECI[Math.floor(rnd() * IGRA_RECI.length)];
+    if(!w || out.includes(w) || BLOCKED.has(w) || isKidsBlocked(w) || jeJekavskaRec(w) || !imaRimu(w)) continue;
+    out.push(w);
+  }
+  return out;
+}
 function osveziUputstvoIgre(){
   const ins = gamePlay ? gamePlay.querySelector('.game-instruction') : null;
   if(ins) ins.textContent = uiTxt(gameRimaPoReci === 3 ? 'Nađi tri rime za reč:' : 'Nađi rimu za reč:');
@@ -5011,7 +5112,9 @@ function nextWord(){
     // i OBAVEZNO reč koja uopšte ima rimu (npr. „valjda" je nema, pa je
     // igrač ne može rešiti ni kad zna sve reči srpskog jezika).
     // Ijekavski oblici nikad (pravilo projekta – v. `jeJekavskaRec`).
-    const w = randomIgraRec(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
+    const w = gameDnevna
+      ? (gameDnevneReci[gameCurrentWordIdx] || null)
+      : randomIgraRec(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
     if(w){
       gameCurrentWord = w;
       gameNadjene = [];
@@ -5072,7 +5175,8 @@ function sacuvajIgru(){
     players: gamePlayers, wpp: gameWordsPerPlayer, tpw: gameTimePerWord, data: gamePlayersData,
     pi: gameCurrentPlayerIdx, wi: gameCurrentWordIdx, word: gameCurrentWord, left: gameTimeLeft,
     combo: gameCombo, maxCombo: gameMaxCombo,
-    mod: gameRimaPoReci, nadjene: gameNadjene
+    mod: gameRimaPoReci, nadjene: gameNadjene,
+    dnevna: gameDnevna, dnevne: gameDnevneReci, dan: danasnjiDatum().kljuc
   }));
 }
 function vratiIgru(){
@@ -5087,6 +5191,7 @@ function vratiIgru(){
   gameCurrentPlayerIdx = o.pi; gameCurrentWordIdx = o.wi; gameCurrentWord = o.word;
   gameTimeLeft = o.left; gameCombo = o.combo || 0; gameMaxCombo = o.maxCombo || 0;
   gameRimaPoReci = o.mod === 3 ? 3 : 1; gameNadjene = Array.isArray(o.nadjene) ? o.nadjene : [];
+  gameDnevna = !!o.dnevna && o.dan === danasnjiDatum().kljuc; gameDnevneReci = gameDnevna && Array.isArray(o.dnevne) ? o.dnevne : [];
   osveziUputstvoIgre();
   clearInterval(gameTimer); gameTimer = null; clearTimeout(gameNextTimeout);
   gameSetup.style.display = 'none';
@@ -5296,6 +5401,21 @@ function showResults(){
   const nereseno = sorted.length > 1 && pobednika > 1;
 
   gameResultsList.innerHTML = '';
+  const share = document.getElementById('gameShare');
+  if(share){
+    share.hidden = !gameDnevna;
+    const ok = document.getElementById('gameShareOk'); if(ok) ok.textContent = '';
+    if(gameDnevna && gamePlayersData[0]){
+      const p0 = gamePlayersData[0];
+      const kocke = Array.from({ length: gameWordsPerPlayer }, (_, i) => p0.ishodi[i] ? '🟩' : '🟥').join('');
+      const naslov = document.createElement('p');
+      naslov.className = 'game-result-tie';
+      naslov.textContent = `📅 ${uiTxt('Reč dana')} – ${danasnjiDatum().prikaz}`;
+      gameResultsList.appendChild(naslov);
+      const txt = document.getElementById('gameShareText');
+      if(txt) txt.textContent = `${uiTxt('Rimoteka – Reč dana')} ${danasnjiDatum().prikaz}\n${kocke} ${p0.score} ${uiTxt(poenRec(p0.score))}\nrimoteka.com/igra-rimovanja/`;
+    }
+  }
   if(nereseno){
     const t = document.createElement('p');
     t.className = 'game-result-tie';
@@ -5334,6 +5454,15 @@ if (gameHandoffStart) gameHandoffStart.onclick = () => {
   nextWord();          // gameCurrentWordIdx je 0, pa ovo samo daje reč
 };
 
+const gameShareCopy = document.getElementById('gameShareCopy');
+if(gameShareCopy) gameShareCopy.onclick = () => {
+  const txt = (document.getElementById('gameShareText') || {}).textContent || '';
+  const ok = document.getElementById('gameShareOk');
+  const gotovo = () => { if(ok) ok.textContent = uiTxt('Kopirano – nalepi drugu u poruku.'); };
+  const rucno = () => { if(ok) ok.textContent = uiTxt('Označi tekst iznad i kopiraj ga.'); };
+  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(gotovo, rucno);
+  else rucno();
+};
 const gameAgainBtn = document.getElementById('gameAgain');
 if (gameAgainBtn) gameAgainBtn.onclick = () => {
   gameSetup.style.display = 'block';

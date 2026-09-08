@@ -43,7 +43,7 @@
      kao ranije, v. handover sesije 12). Bez nje bi se sadržaj pomerio kad
      stigne app.js. -->
 <script src="/tab-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=20260908g">
+<link rel="stylesheet" href="style.css?v=20260908h">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,6 +177,7 @@
         <button data-syl="5">5+</button>
       </div>
       <label class="loose-toggle"><input type="checkbox" id="looseToggle"> i šire (slabije) rime</label>
+      <label class="loose-toggle azbuka-toggle"><input type="checkbox" id="azbukaToggle"> po azbuci</label>
       <label class="loose-toggle"><input type="checkbox" id="jekToggle"> uključi ijekavicu</label>
       <label class="loose-toggle kids-toggle"><input type="checkbox" id="kidsToggle"> dečji režim</label>
     </div>
@@ -316,6 +317,8 @@
       </div>
 
       <button class="game-start-btn" id="gameStart">Počni igru</button>
+      <button class="game-daily-btn" id="gameDaily" type="button">📅 Reč dana</button>
+      <p class="game-daily-hint">Svakog dana istih pet reči za sve – uporedi rezultat sa drugarima.</p>
     </div>
 
     <!-- PREDAJA IGRAČA – pauza da se igrači zamene -->
@@ -358,6 +361,11 @@
     <div class="game-results" id="gameResults" style="display:none">
       <p class="game-results-title">Rezultati</p>
       <div class="game-results-list" id="gameResultsList"></div>
+      <div class="game-share" id="gameShare" hidden>
+        <p class="game-share-text" id="gameShareText"></p>
+        <button class="game-daily-btn" id="gameShareCopy" type="button">Kopiraj rezultat</button>
+        <span class="game-share-ok" id="gameShareOk" aria-live="polite"></span>
+      </div>
       <button class="game-start-btn" id="gameAgain">Igraj ponovo</button>
     </div>
   </section>
@@ -658,7 +666,7 @@
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=20260908r"></script>
+<script src="app.js?v=20260908s"></script>
 <!-- Pokret na karticama ISPOD alata. `defer` – ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>

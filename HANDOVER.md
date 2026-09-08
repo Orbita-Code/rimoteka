@@ -41,9 +41,11 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 | 12 | **Analitika, 3 preporuke** (naslov početne sa „rimovanje", naslov strana reči, prepis `/vrste-rima/`) – naslovi su njena odluka | da, sa merenjem 22.09. |
 | 13 | **Rime po naglasku** (inovacija, TODO 2a) – prvi korak je provera akcenata u skeniranom Rečniku | posle S-18/S-19 rezultata u GSC |
 | 14 | ~~Reči koje igra zadaje~~ – **odluka 08.09.: imenice, glagoli, pridevi 2–4 sloga → urađeno** (`igra-reci.json`, 6.634 reči) | – |
-| 16 | **Tekst „Kako se igra?"** na `/igra-rimovanja/` ne pominje nove mogućnosti (tri rime, glas). Predlog rečenice: „Možeš da biraš i tri rime za svaku reč, a rimu možeš i da kažeš u mikrofon." | dodati uz njeno „da" (tekst na sajtu = njena odluka) |
-| 17 | **„Reč dana"** (nije razumela): svakog dana svi igrači dobiju ISTIH 5 reči (od datuma, bez servera); rezultat se pokaže kao mala slika sa kvadratićima (🟩🟩🟥🟩🟩 + bodovi) koju dete kopira i pošalje drugu ili u razred – kao Wordle. Svrha: razlog da se vraćaju svaki dan i besplatno širenje sajta. Ne traži nalog ni bazu | uraditi kad kaže „da" |
-| 18 | **75 strana za ukidanje** (v. odeljak 2a ispod) | odluka vlasnice |
+| 16 | ~~Tekst „Kako se igra?"~~ – **odobreno i dodato 08.09.** | – |
+| 17 | ~~„Reč dana"~~ – **odobreno „da vidimo kako izgleda", urađena prva verzija 08.09.** (dugme na početnom ekranu igre). Sledeći korak ako joj se svidi: da se u rezultatu vidi i koliko ljudi je danas igralo (traži sanduče/worker) | čeka njen utisak |
+| 18 | ~~75 strana za ukidanje~~ – **odluka 08.09.: proba 15 dole / 19 gore, urađeno.** Ostatak (60 slabih + 60 jakih) čeka njen utisak posle probe i GSC merenja | čeka |
+| 19 | **Push 6** – sve iz 08.09. popodne (Dragan D-1…D-4, Reč dana, zamena strana, tekst igre). Lokalni lanac: v. dnevnik. **Nije puširano – čeka „da"** | – |
+| 20 | **Odgovor Draganu** – nacrt ćirilicom u odeljku 2b ispod; šalje ga vlasnica kad pogleda šta je urađeno | – |
 | 15 | **Pravilo rime u igri** promenjeno bez pitanja jer je bila rupa (I-1): za „kuća" se priznavala i „žena" (55.231 reč); sad završni slog („sreća", „vruća") + bar 3 slova. Ako vlasnica hoće još strože (samo savršena rima) – jedan red u `checkGameAnswer` | ostaviti završni slog (deca inače ne mogu da reše „valjda", „srce") |
 
 ### 2a. Šta znači „75 strana za ukidanje" (obrazloženje za vlasnicu, 08.09.)
@@ -60,6 +62,32 @@ indeksira („Discovered – not indexed"), a svaka takva strana razvodnjava ost
 **79 reči** je obrnut slučaj: stoje na kraju stiha bar 3 puta u pesmama, imaju bar 5 rima, a NEMAJU stranu (`čeka`,
 `radi`, `momče`…). Za njih važi tvoja zabrana novih strana dok indeksiranost ne pređe 40 % – zato se ne dodaju bez
 tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih), ne širenje.
+
+### 2b. Nacrt odgovora Draganu (ćirilicom, persiranje – on njoj sme na „ti")
+
+```
+Поштовани Драгане,
+
+хвала Вам на песми и на примедбама – тачно су такве какве нам требају: од човека који алат стварно
+користи. Ево шта смо урадили по свакој:
+
+1. Редослед. Подразумевани редослед остаје по сличности риме (најпре речи са истим бројем слогова), али
+   уз филтере сад постоји квачица „по азбуци“. Кад је укључите, свака група је поређана азбучно (на
+   ћирилици по азбуци, на латиници по абецеди) и избор се памти на Вашем уређају.
+2. Мушка рима. У праву сте. Група која се појављивала кад реч има мало правих рима звала се „Добре риме
+   (исти завршни слог)“, а у њој су речи које се слажу само у последњем слогу. Сад се зове „Исти завршни
+   слог (нису праве риме)“, уз напомену.
+3. Прозорче с опцијама. Отварало се после 110 милисекунди – чим прелетите преко речи. Сад тражи кратко
+   задржавање на речи (око трећине секунде), па не прекрива ред изнад док прелазите погледом.
+4. Ширина поља. Све речи у једној групи сад имају исту ширину (колико најшира реч у групи), па колоне
+   стоје равно.
+
+Све четири измене су на сајту. Ако Вам нешто и даље смета, или приметите нешто ново, пишите слободно –
+свака оваква порука нам је драгоцена.
+
+Срдачан поздрав,
+Јована
+```
 
 ## 3. TODO ZA SLEDEĆU SESIJU (po redu)
 

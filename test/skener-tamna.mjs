@@ -63,9 +63,9 @@ await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
 await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
 await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 30000 }).catch(() => {}); await p.waitForTimeout(500);
 upisi('/ rezultati', await p.evaluate(MERI));
-await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').first().hover(); await p.waitForTimeout(400); upisi('/ traka', await p.evaluate(MERI));
+await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').first().hover(); await p.waitForTimeout(650); upisi('/ traka', await p.evaluate(MERI));
 await p.click('.chip-actions .ca-btn[data-act="def"]').catch(() => {}); await p.waitForFunction(() => { const t = document.getElementById('deftip'); return t && t.style.display === 'block' && !/učitavanje/.test(t.textContent); }, null, { timeout: 60000 }).catch(() => {}); upisi('/ oblačić', await p.evaluate(MERI)); await p.keyboard.press('Escape');
-await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(1).hover(); await p.waitForTimeout(400); await p.click('.chip-actions .ca-btn[data-act="prijavi"]').catch(() => {}); await p.waitForTimeout(300); upisi('/ prijava', await p.evaluate(MERI)); await p.keyboard.press('Escape');
+await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(1).hover(); await p.waitForTimeout(650); await p.click('.chip-actions .ca-btn[data-act="prijavi"]').catch(() => {}); await p.waitForTimeout(300); upisi('/ prijava', await p.evaluate(MERI)); await p.keyboard.press('Escape');
 await p.fill('#rimeInput', 'xqzwptr'); await p.evaluate(() => document.getElementById('rimeBtn').click()); await p.waitForTimeout(300); upisi('/ nema rime', await p.evaluate(MERI));
 for (const tab of ['pretraga', 'slogovi', 'beleznica', 'klasici', 'igra', 'omiljene']) {
   await p.evaluate((t) => switchTab(t), tab); await p.waitForTimeout(300);

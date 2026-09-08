@@ -286,6 +286,14 @@ rima, padalo je na 111. mesto.
 Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
 **Ne vraćati staro pravilo.**
 
+### 6.2a-1 Kvačica „po azbuci" (08.09.2026, prijava korisnika Dragana M.)
+
+Podrazumevani redosled ostaje po sličnosti (6.2a). Ko uključi „po azbuci" (uz filtere), grupe se sortiraju po
+pismu na ekranu: **azbuka** za ćirilicu (`RED_AZBUKA`), **abeceda** za latinicu (`RED_ABECEDA`) – nisu isti
+redosled (ћ, џ, љ). Izbor se pamti (`rimoteka_azbuka`). Uz to: pilule u grupi su iste širine (`poravnajCipove`,
+najviše 48 % reda) i traka nad reči čeka 320 ms zadržavanja (`TRAKA_PRVA_MS`) – obe stvari su njegove prijave,
+ne vraćati. Grupa rezerve se zove „Isti završni slog (nisu prave rime)".
+
 ### 6.2b Tri merila redosleda — ZAPAMTI REDOM, i ne pretpostavljaj
 
 Kod: `app.js:593` (`strong.sort`), `:630` (rezervna grupa), `:685` („šire rime").
@@ -684,6 +692,7 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | Režim „tri rime" | opcija „Koliko rima za svaku reč: jedna / tri". Sa tri: svaka priznata rima donosi bodove i ne troši zadatak (1/3, 2/3), ista rima se odbija, pogrešna seče niz a tajmer teče, treća završava reč; reč je „tačna" samo sa 3/3. |
 | Odgovor glasom | dugme 🎤 uz polje, vidi se samo gde pregledač ima prepoznavanje govora (Chrome, Safari). `sr-RS`, do 5 prepisa; uzima se prva reč iz rečnika (gleda i poslednju reč rečenice). Bez mikrofona/dozvole – poruka, igra ide dalje kucanjem. |
 | Rezultati | svi sa najviše bodova su pobednici (🤝 „Nerešeno!"); tekst „najduži niz", ne „combo". |
+| Reč dana | dugme na početnom ekranu: 1 igrač, 5 reči, 15 s; reči = seme iz datuma (`danasnjiDatum`, `mulberry32`) nad `igra-reci.json` sa dečjim filterom UVEK (da svi dobiju isto). Rezultat za deljenje: kvadratići + bodovi + adresa, „Kopiraj rezultat". Menjanje spiska `igra-reci.json` menja i reči dana – to je u redu, isti dan svi imaju isti fajl. |
 | Test | `igra-kao-covek.mjs` (2–3 igrača, glas, tri rime, spisak reči) pre svakog deploya; `igra-100-partija.mjs` samo na zahtev vlasnice ili u punom auditu (jednokratno, ~80 min). |
 
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)

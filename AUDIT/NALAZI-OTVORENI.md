@@ -80,6 +80,23 @@ Nađeno proverom koju je vlasnica tražila („nove reči kao stare"), na prvom 
 
 | S-19 | 6 strana sa 3–4 prave rime (bukurest, konkurs, krv, kurs, vec, vrh) + 18 sa 5–7 | prag 5 pravih rima (ne 8 — ispod 8 bi ispale sunce, zvezda, tekst, park, cilj; vlasnici ponuđeno da vrati na 8): 6 strana ukinuto, adrese u `nginx-stare-strane.map` (301 na hub), izbačene iz `rime-strane.json` (v=2), nijedan link ka njima (provera mrtvih linkova) | 50 (S-19 ×3) + nginx-provera (`/rime-za/krv/` → 301) |
 
+### PRIJAVE KORISNIKA DRAGANA M. (mejl vlasnici, 08.09.2026) – korisnik, pesnik, ranije rimovanje.com
+
+| # | Prijava | Presuda | Popravka | Provera |
+|---|---|---|---|---|
+| D-1 | „rezultati: najbolja rima, zatim ostale po azbučnom redu" | opravdano za PREGLED oka (traženje reči po spisku), ali podrazumevani redosled ostaje po sličnosti (pravilo 6.2a vlasnice) | kvačica „po azbuci" uz filtere; sortira po pismu na ekranu (azbuka za ćirilicu, abeceda za latinicu – nisu isti redosled); izbor upamćen na uređaju | 56 (D-1) |
+| D-2 | „problem sa muškom rimom od jednog sloga – nije sve rima što se završava istim poslednjim slogom" | tačno: grupa rezerve za reči sa malo rima zvala se „Dobre rime (isti završni slog)", a sadrži reči koje se slažu samo u poslednjem slogu (srce → borce, jezerce) | naslov grupe: „Isti završni slog (nisu prave rime)" + postojeća napomena | 56 (D-2), N-R1 |
+| D-3 | „prozorče sa opcijama iskače čim se pređe na reč, prekriva reči iznad; treba mala zadrška" | tačno: traka se otvarala posle 110 ms, prebacivala za 350 ms | 320 ms zadržavanja na reči pre otvaranja, 400 ms za prebacivanje; klik, dodir i tastatura odmah | 56 (D-3) |
+| D-4 | „ovalna polja nisu jednake širine, kolone su izlomljene, posle dužeg rada umara; širinu prema najširoj reči" | tačno: pilule široke koliko reč, kolone se ne poklapaju | sve pilule u grupi široke koliko najšira (najviše 48 % reda, da na telefonu stanu bar dve); meri se posle iscrtavanja, fonta, promene širine i pisma | 56 (D-4) |
+| D-5 | „raniije sam koristio rimovanje.com, nisu ni blizu" | pohvala | – | – |
+
+### REČ DANA + PROBNA ZAMENA STRANA (odluke vlasnice 08.09.2026)
+
+| Šta | Stanje |
+|---|---|
+| **Reč dana** (prva verzija „da vidimo kako izgleda") | dugme „📅 Reč dana" na početnom ekranu igre: 1 igrač, 5 reči, 15 s; svi istog dana dobiju iste reči (seme iz datuma nad `igra-reci.json`, uvek sa dečjim filterom); rezultat: kvadratići + bodovi + adresa, dugme „Kopiraj rezultat". Test 56. |
+| **Zamena strana 15 → 19** | ukinuto 15 (breskva, vođstvo, intervju, evro, dugme, mržnje, sumnje, izložba, krajnje, krajnji, detaljno, srebro, ujutro, sumnja, sportski → 301 na hub), dodato 19 reči sa kraja stiha (čeka, radi, mira, jada, sprema, brata, oka, meni, vila, jeka, vuče, čedo, sjaj, nosi, baba, drugo, iznenada, zraka, dar). Sitemap 2.008 → 2.012. Ako proba zadovolji, ostatak (60 + 60) istim putem. Test 56. |
+
 ### IGRA RIMOVANJA 08.09.2026 – partije sa 2–3 igrača, odgovori kao čovek (zahtev vlasnice: reči, prelaz igrača, bodovi)
 
 > Skripta `igra-100-partija.mjs` igrala je samo 1 igrača i odgovarala prvom rečju po abecedi; nije gledala ni reči

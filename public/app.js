@@ -914,11 +914,13 @@ document.addEventListener('keydown', (e) => {
     e.preventDefault(); const w = cipTrakaZa && cipTrakaZa.querySelector('.word'); if(w) w.focus();
   }
 });
+let trakaOtvorenaU = 0;
 function otvoriCipTraku(cip, rec){
   const t = napraviCipTraku();
   if(cipTrakaZa === cip && !t.hidden){ zatvoriCipTraku(); return; }   // drugi dodir zatvara
   zatvoriCipTraku();
   cipTrakaZa = cip;
+  trakaOtvorenaU = Date.now();
   cip.classList.add('chip-izabran');
   const omiljena = isFav(rec);
   t.innerHTML =
@@ -1006,9 +1008,13 @@ document.addEventListener('click', (e) => {
   }
   e.preventDefault();
   e.stopPropagation();
+  /* Dugme (statičke strane `/rime-za/`) dobije fokus PRE klika, pa je `focusin` već otvorio karticu –
+     klik ne sme da je odmah zatvori kao „drugi dodir" (08.09.2026: na statičkim stranama klik nije radio). */
+  if(cipTrakaZa === cip && cipTraka && !cipTraka.hidden && Date.now() - trakaOtvorenaU < 600) return;
   otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
 }, true);
-window.addEventListener('scroll', zatvoriCipTraku, { passive: true });
+/* Skrol zatvara karticu – ali ne skrol koji pregledač sam napravi dok dovodi kliknuto dugme u kadar. */
+window.addEventListener('scroll', () => { if(Date.now() - trakaOtvorenaU > 600) zatvoriCipTraku(); }, { passive: true });
 
 /* RAČUNAR – traka nad reči na prelazak mišem ili fokus tastaturom (06.09.2026,
    odluka vlasnice, varijanta B). Ikonice ⓘ ♡ 🔁 ⚑ više ne stoje u kapsuli (CSS
@@ -1024,6 +1030,7 @@ let trakaCekaPokret = false;
 document.addEventListener('mousemove', (e) => {
   if(!trakaCekaPokret) return;
   trakaCekaPokret = false;
+  return;   // 08.09.2026: kartica se otvara samo klikom (odluka vlasnice) – ni ovaj put ne otvara na prelazak
   /* Pregledač šalje `mouseover` PRE `mousemove`, pa je prvi ulazak u reč posle pretrage
      već propušten – zato se ovde otvara traka za reč pod kursorom (inače bi korisnik
      morao da izađe iz reči i vrati se). */

@@ -4890,14 +4890,20 @@ async function main() {
         const p = ojacajStranu(await c.newPage());
         await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
         await pauza(900);
+        /* 08.09.2026 uveče (odluka vlasnice): klik na reč otvara KARTICU (i na statičkoj strani), a do rima za tu reč
+           se stiže preko dugmeta „nađi rime" u kartici. Ranije je klik odmah vodio na `/?rec=`. */
+        await p.waitForFunction(() => typeof otvoriCipTraku === 'function', null, { timeout: 60000 }).catch(() => {});
         const dugme = p.locator('.chip[data-rec]').first();
-        let rec = '';
+        let rec = '', kartica = 'zatvorena';
         if (await dugme.count()) {
           rec = await dugme.getAttribute('data-rec');
-          await dugme.click();
+          await dugme.click(); await pauza(500);
+          kartica = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? t.dataset.w : 'zatvorena'; });
+          await p.click('.chip-actions .ca-btn[data-act="rime"]').catch(() => {});
           await pauza(1500);
         }
-        ok('klik na pilulu-dugme vodi na `/?rec=<ta reč>`',
+        ok('klik na pilulu-dugme na statičkoj strani otvara karticu za tu reč', !!rec && kartica === rec, `reč „${rec}", kartica: ${kartica}`);
+        ok('„nađi rime" iz kartice vodi na `/?rec=<ta reč>`',
            !!rec && decodeURIComponent(p.url()).includes('?rec=' + rec),
            `reč „${rec}", adresa ${decodeURIComponent(p.url())}`);
         await c.close();
@@ -5434,19 +5440,25 @@ async function main() {
          zadržavanje na drugoj reči (350 ms) je prebacuje; izlazak iz spiska (700 ms) je zatvara. */
       const kutija = async i => await p46b.locator('#rimeResults .chip').nth(i).boundingBox();
       const stanjeTrake = () => p46b.evaluate(() => { const t = document.querySelector('.chip-actions'); return t && !t.hidden ? t.dataset.w : 'zatvorena'; });
-      const k12 = await kutija(12); await p46b.mouse.move(k12.x + k12.width / 2, k12.y + k12.height / 2); await pauza(300);
+      /* 08.09.2026 uveče: kartica se otvara SAMO klikom. Prelazak i zadržavanje na drugoj reči je NE prebacuju, izlazak iz
+         spiska je NE zatvara; klik na drugu reč je prebacuje, Escape i nova pretraga je zatvaraju. */
+      await p46b.locator('#rimeResults .chip').nth(12).click(); await pauza(350);
       const rec12 = await stanjeTrake();
       const kTr = await p46b.locator('.chip-actions').boundingBox(); const k13 = await kutija(13);
       await p46b.mouse.move(k13.x + 10, k13.y + k13.height / 2, { steps: 4 }); await pauza(120);
       await p46b.mouse.move(kTr.x + kTr.width - 30, kTr.y + kTr.height / 2, { steps: 6 }); await pauza(300);
       const podKursorom = await p46b.evaluate(([x, y]) => { const el = document.elementFromPoint(x, y); return el ? ((el.closest('.ca-btn') || {}).dataset || {}).act || el.className : 'ništa'; }, [kTr.x + kTr.width - 30, kTr.y + kTr.height / 2]);
-      ok('računar · traka ostaje na istoj reči kad kursor na putu do „prijavi" okrzne susednu reč', rec12 !== 'zatvorena' && (await stanjeTrake()) === rec12 && podKursorom === 'prijavi', `${rec12} → ${await stanjeTrake()}, pod kursorom: ${podKursorom}`);
+      ok('računar · kartica ostaje na istoj reči kad kursor na putu do „prijavi" okrzne susednu reč', rec12 !== 'zatvorena' && (await stanjeTrake()) === rec12 && podKursorom === 'prijavi', `${rec12} → ${await stanjeTrake()}, pod kursorom: ${podKursorom}`);
       for (const i of [14, 15, 16]) { const k = await kutija(i); await p46b.mouse.move(k.x + k.width / 2, k.y + k.height / 2, { steps: 2 }); await pauza(90); }
-      ok('računar · brz prolazak preko tri reči ne pomera traku', (await stanjeTrake()) === rec12, await stanjeTrake());
-      await pauza(450);
-      ok('računar · zadržavanje na drugoj reči prebacuje traku na nju', (await stanjeTrake()) !== rec12 && (await stanjeTrake()) !== 'zatvorena', await stanjeTrake());
+      ok('računar · prolazak preko tri reči ne pomera karticu', (await stanjeTrake()) === rec12, await stanjeTrake());
+      await pauza(700);
+      ok('računar · zadržavanje na drugoj reči NE prebacuje karticu (otvara se samo klikom)', (await stanjeTrake()) === rec12, await stanjeTrake());
       await p46b.mouse.move(640, 5); await pauza(900);
-      ok('računar · kad kursor napusti spisak, traka se zatvori', (await stanjeTrake()) === 'zatvorena', await stanjeTrake());
+      ok('računar · kad kursor napusti spisak, kartica ostaje otvorena', (await stanjeTrake()) === rec12, await stanjeTrake());
+      await p46b.locator('#rimeResults .chip').nth(13).click(); await pauza(350);
+      ok('računar · klik na drugu reč prebacuje karticu na nju', (await stanjeTrake()) !== rec12 && (await stanjeTrake()) !== 'zatvorena', await stanjeTrake());
+      await p46b.keyboard.press('Escape'); await pauza(200);
+      ok('računar · Escape zatvara karticu', (await stanjeTrake()) === 'zatvorena', await stanjeTrake());
       /* Reč se dovede u gornju trećinu ekrana da ISPOD nje ima mesta – tada prozorčić mora dole.
          (Kad nema mesta ni gore ni dole, prozorčić se priteže u ekran – to je druga provera.) */
       await p46b.evaluate(() => { document.querySelector('#rimeResults .chip').scrollIntoView({ block: 'start' }); window.scrollBy(0, -140); }); await pauza(300);

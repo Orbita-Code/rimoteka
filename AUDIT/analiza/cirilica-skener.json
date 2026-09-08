@@ -1,15 +1,6 @@
 {
- "base": "https://rimoteka.com",
+ "base": "http://localhost:8765",
  "strana": 2010,
- "nalaza": 1,
- "lista": [
-  {
-   "tekst": "Učitavam rečnik…",
-   "vrsta": "title",
-   "strana": 1,
-   "primeri": [
-    "/rimovanje-reci/ · button#rimeBtn"
-   ]
-  }
- ]
+ "nalaza": 0,
+ "lista": []
 }

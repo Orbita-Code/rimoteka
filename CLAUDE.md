@@ -414,13 +414,16 @@ BASE=https://rimoteka.com node test/predeploy.mjs    # posle deploy-a, protiv pr
 
 **Deploy je dozvoljen SAMO ako test ispiše „Sme deploy" (izlazni kod 0).** Ako bilo šta padne — popraviti, pa ponovo testirati.
 
-**Od 08.09.2026 uz njega OBAVEZNO idu i (zahtev vlasnice: „neću da mi neki pretraživač bude frankenštajn"):**
+**Od 09.09.2026 (vlasnica: „deploy traje 3 sata, skrati") sve ide JEDNOM KOMANDOM, četiri alata PARALELNO:**
 ```bash
-node test/predeploy-motori.mjs        # ključni mobilni tokovi u WebKit-u (= Safari i Chrome na iPhone-u), Firefox-u i Chromiumu
-node test/skener-cirilica.mjs         # SVE strane + sva stanja alata u ćirilici: 0 latiničnih tekstova (osim dozvoljenih)
-node test/skener-tamna.mjs            # čitljivost i stanje tamne teme na svim vrstama strana: 0 nalaza
-node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py   # bazen reči koje igra sme da zada: vrste reči, hrvatski, zastarele, preteške (izveštaj, ne pada)
+bash test/lanac.sh            # pun test + motori (WebKit/Firefox/Chromium) + skener ćirilice + skener tamne, istovremeno
+bash test/lanac.sh --gen      # isto, ali prvo regeneriši strane (posle izmene gen_pages.py, app.js, style.css, index.html)
+BASE=https://rimoteka.com bash test/lanac.sh     # posle deploya, protiv produkcije
+bash test/lanac-brzi.sh       # TOKOM RADA (≈1 min): tri motora + dimna proba glavnih namena – ne zamenjuje pun lanac
 ```
+U nizu su četiri alata trajala ~28 min; paralelno traju koliko najduži (pun test). Dnevnici: `AUDIT/lanac/<datum>/`.
+`node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` je izveštaj o rečima igre, samo na zahtev.
+**Pun test ispisuje `[NN s]` uz svaku sekciju** – kad se traži gde odlazi vreme, gleda se to, ne nagađa.
 **IGRA SE PRE OBJAVE NE IGRA – ODLUKA VLASNICE 08.09.2026 („da li sam rekla da se igrica više ne igra… i više nikada").**
 Ni `igra-100-partija.mjs` (100 partija, ~80 min) ni `igra-kao-covek.mjs` (12 partija sa 2–3 igrača, ~8 min) NISU u
 obaveznom lancu. Bile su potrebne za testiranje 08.09. (sve 0 nalaza, i na produkciji) i pokreću se SAMO na njen izričit

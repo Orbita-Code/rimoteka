@@ -1505,3 +1505,19 @@ pravljeno – sesijska proba, ne korisnik. Jedina prava prijava od korisnika je 
 > čoveka. Otisak `ko` (skraćen hash IP + pregledač) je isti za sve sa istog računara – po njemu se vidi „naš
 > računar" naspram tuđeg. Sesija koja iz bilo kog razloga pošalje pravu prijavu briše je odmah (`/obrisi`) i to
 > kaže vlasnici.
+
+## 08.09.2026 — BELEŽNICA: ENTER USRED PESME BACAO NA DNO, A TEST JE PROŠAO 55/55 U TRI MOTORA
+
+Vlasnica: „beležnica ponovo ima ogroman bag na mobilnom: kad se klikne Enter za novi red, on me baci na poslednji
+red beležnice… rekla sam milion puta da beležnica mora biti savršena".
+
+**Šta se desilo.** Popravka od 08.09. ujutru (traka na vrhu + `drziKursorIspodTrake`) je za prazan red posle Entera
+uzimala pravougaonik roditelja kursora – a roditelj je ceo editor. Svaki Enter usred teksta skrolovao je do dna
+beležnice (WebKit 165 px). **Zašto test nije video:** provere beležnice na telefonu (30, motori) stavljaju kursor
+na KRAJ teksta i kucaju – nikad Enter usred pesme; a Enter na kraju daje isti ishod kao bag (dno je i tako u kadru).
+Isti obrazac kao 07.09. (matrica stanja: kvar živi na preseku „tastatura otvorena × Enter × kursor usred teksta").
+
+> **Pravilo.** Svaka radnja u beležnici na telefonu se testira na ČETIRI položaja kursora (početak, sredina, kraj,
+> prazan red) i posle svake se meri POMAK STRANE (`scrollY` pre/posle) – ne samo da li je kursor vidljiv. Zamena
+> za nepostojeći pravougaonik kursora sme da bude SAMO susedni čvor (`<br>` ili tekst), nikad roditelj – roditelj je
+> po pravilu ceo editor. Provera se prvo pusti protiv produkcije sa STARIM kodom: mora da padne (08.09.: pala u WebKit-u).

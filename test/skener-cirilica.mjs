@@ -132,3 +132,4 @@ const md = [`# Skener ćirilice — ${new Date().toISOString().slice(0, 10)} (${
 writeFileSync(path.join(ROOT, 'AUDIT', 'analiza', 'cirilica-skener.md'), md.join('\n') + '\n');
 console.log(`\nstrana ${adrese.length} · tekstova sa latinicom: ${lista.length} → AUDIT/analiza/cirilica-skener.md`);
 for (const x of lista.slice(0, 40)) console.log(`  [${x.strana}] ${x.vrsta}: ${x.tekst.slice(0, 90)}  ← ${x.primeri[0].slice(0, 60)}`);
+process.exit(lista.length ? 1 : 0);   // do 08.09. je vraćao 0 i sa nalazima

@@ -1,81 +1,78 @@
 # Igra rimovanja – 12 partija sa 2–3 igrača, odgovori kao čovek (2026-09-08, https://rimoteka.com)
 
-Poteza 150 · tačnih 120 · zadatih reči 150 (jedinstvenih 149) · greške u konzoli 0 · **nalaza 3** (vrsta: 3)
+Poteza 150 · tačnih 120 · zadatih reči 150 (jedinstvenih 149) · greške u konzoli 0 · **nalaza 0** (vrsta: 0)
 
 ## Nalazi
 
 | partija | igrač | potez | reč | šta ne valja |
 |---|---|---|---|---|
-| 1 | 3 | 0 | pozicije | rečca od 2 slova „je" nije odbijena (game-feedback correct) |
-| 3 | 3 | 0 | vremena | rečca od 2 slova „na" nije odbijena (game-feedback correct) |
-| 9 | 3 | 0 | cenama | rečca od 2 slova „ma" nije odbijena (game-feedback correct) |
 
 ## Zadate reči (šta bi dete dobilo)
 
-građevinskog, nikoga, evro, političari, koristite, pesnika, specijalne, uključe, one, profil, vremenima, plaćanje, izlazak, kojeg, usta, okolinu, poboljšanju, istakao, znalo, alata, pozicije, otkrića, generalno, jednom, obradu, glasaju, sedamdesetih, tehničkim, vaša, važni, momci, tvoje, uradila, pokrenuti, poginuo, izazvalo, telefona, prvenstva, reaguju, zabavu, zamenik, okruženju, religije, intervju, pokreće, vremena, izdaje, omogućava, zadatke, planom, segment, čoveka, postojao, aktivno, obraća, gradnju, pozdrav, aspekt, električne, veštine, kućišta, snosi, dovede, jeseni, greška, normalno, radiš, alat, pronađu, investitori, teške, srpskim, ranije, rečenice, odbio, okuplja, sata, mada, visokom, sedište, hoćeš, njihovim, dobitnik, gradskom, obuke, idealno, usvoji, imamo, predsednici, naročito, telefon, poznat, carstva, ugla, trenutak, glavno, predlaže, njenog, platu, prima, reda, podršku, ista, ostale, pomogli, prisustvovao, popularnost, odjednom, zbirka, savetu, posvećen, ugrožena, pojedinca, dvadesetak, časa, stolom, trajanje, hitno, pravda, poslodavac, cenama, odbor, organizaciju, vrste, pomenuti, ženama, time, telekom, žele, traži, tiče, proverite, ispitivanja, zemlju, zelena, bogu, utakmice, pravac, usred, jednom, osnov, proceduru, iznosu, svedoka, krajem, potpisivanja, sledeći, polju, suđenja, kraljica
+proveru, dovoljno, novoj, putevima, ciljem, evropskoj, upozna, prvenstveno, stanovnika, potez, nacionalnom, socijalista, značaja, državnu, različitih, metra, tehničkih, oslobođenja, tebi, pripadaju, blogu, spomenik, informaciju, jednostavan, pokušao, uči, nastavnika, ovakvu, iznutra, pozorištu, svesna, možda, gorivo, oblici, opremu, priznanje, obale, prodajom, zelene, strelac, ćerka, bolje, osamdesetih, spratu, profesora, brigu, vraćaju, poginulo, marta, pokažu, osoba, metra, izveštaje, celoj, cenama, toka, pogledaju, pismo, preti, pravoslavne, krugova, srećan, kada, robu, pregovore, radnog, radikali, nemačkog, izabrana, stvaraju, status, pomaže, smatrali, naročito, poklone, pravne, radni, istih, zove, udarac, članovi, partnerom, utakmici, dajući, bola, strategiju, kuhinje, izjavio, kuhinja, pojavljuju, građevine, polovini, srcem, sadašnje, predstavio, sinoć, one, izvori, baka, glasati, skupu, pala, njegovog, kratke, računare, daljem, viziju, saradnju, likova, doneli, rade, pročitati, bombe, glasom, sportom, sastavu, pravilnik, članovima, taksi, ovakvih, ženi, uštede, dnevnik, engleskom, brže, discipline, namera, dobru, udaljen, ishod, nastavila, najteže, formalno, scena, jula, episkop, cela, učinilo, povezani, budite, jedu, priznao, benda, lige, pola, filmovi, prateći, decom, jede, vina
 
 ## Dnevnik poteza (prvih 60)
 
 | partija | igrač | reč | odgovor | vrsta | ishod | sek | poruka |
 |---|---|---|---|---|---|---|---|
-| 0 | 1 | građevinskog | zbog | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
-| 0 | 1 | nikoga | toga | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
-| 0 | 1 | evro | dobro | siroka | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
-| 0 | 1 | političari | stvari | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
-| 0 | 1 | koristite | nije | varka-isto-slovo | wrong | 10 | ✗ „nije" se ne rimuje sa „koristite" |
-| 0 | 2 | pesnika | velika | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
-| 0 | 2 | specijalne | Lokalne | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
-| 0 | 2 | uključe | juče | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
-| 0 | 2 | one | сезоне | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
-| 0 | 2 | profil | koji | pogresna | wrong | 8 | ✗ „koji" se ne rimuje sa „profil" |
-| 1 | 1 | vremenima | ima | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
-| 1 | 1 | plaćanje | pitanje | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
-| 1 | 1 | izlazak | čak | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
-| 1 | 1 | kojeg | našeg | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
-| 1 | 1 | usta | koja | varka-isto-slovo | wrong | 10 | ✗ „koja" se ne rimuje sa „usta" |
-| 1 | 2 | okolinu | godinu | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
-| 1 | 2 | poboljšanju | Pitanju | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
-| 1 | 2 | istakao | kao | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
-| 1 | 2 | znalo | мало | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
-| 1 | 2 | alata | koja | varka-isto-slovo | wrong | 10 | ✗ „koja" se ne rimuje sa „alata" |
-| 1 | 3 | pozicije | nije | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
-| 1 | 3 | otkrića | bića | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
-| 1 | 3 | generalno | stalno | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
-| 1 | 3 | jednom | Ovom | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
-| 1 | 3 | obradu | mogu | varka-isto-slovo | wrong | 8 | ✗ „mogu" se ne rimuje sa „obradu" |
-| 2 | 1 | glasaju | imaju | savrsena | correct | 9 | ✓ Tačno! +24 poena (9s + 1x niz) |
-| 2 | 1 | sedamdesetih | njih | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
-| 2 | 1 | tehničkim | tim | savrsena | correct | 9 | ✓ Tačno! +34 poena (9s + 3x niz) |
-| 2 | 1 | vaša | naša | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
-| 2 | 1 | važni | koji | varka-isto-slovo | wrong | 9 | ✗ „koji" se ne rimuje sa „važni" |
-| 2 | 2 | momci | potomci | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
-| 2 | 2 | tvoje | Koje | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
-| 2 | 2 | uradila | bila | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
-| 2 | 2 | pokrenuti | чути | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
-| 2 | 2 | poginuo | kako | varka-isto-slovo | wrong | 10 | ✗ „kako" se ne rimuje sa „poginuo" |
-| 3 | 1 | izazvalo | malo | savrsena | correct | 9 | ✓ Тачно! +24 поена (9s + 1x низ) |
-| 3 | 1 | telefona | ona | savrsena | correct | 10 | ✓ Тачно! +30 поена (10s + 2x низ) |
-| 3 | 1 | prvenstva | sveštenstva | savrsena | correct | 9 | ✓ Тачно! +34 поена (9s + 3x низ) |
-| 3 | 1 | reaguju | pokazuju | savrsena | correct | 10 | ✓ Тачно! +40 поена (10s + 4x низ) |
-| 3 | 1 | zabavu | mogu | varka-isto-slovo | wrong | 9 | ✗ „могу" се не римује са „забаву" |
-| 3 | 2 | zamenik | predsednik | savrsena | correct | 9 | ✓ Тачно! +24 поена (9s + 1x низ) |
-| 3 | 2 | okruženju | Saopštenju | savrsena | correct | 8 | ✓ Тачно! +28 поена (8s + 2x низ) |
-| 3 | 2 | religije | nije | savrsena | correct | 9 | ✓ Тачно! +34 поена (9s + 3x низ) |
-| 3 | 2 | intervju | коју | siroka | correct | 8 | ✓ Тачно! +38 поена (8s + 4x низ) |
-| 3 | 2 | pokreće | nije | varka-isto-slovo | wrong | 9 | ✗ „није" се не римује са „покреће" |
-| 3 | 3 | vremena | žena | savrsena | correct | 10 | ✓ Тачно! +25 поена (10s + 1x низ) |
-| 3 | 3 | izdaje | daje | savrsena | correct | 8 | ✓ Тачно! +28 поена (8s + 2x низ) |
-| 3 | 3 | omogućava | prava | savrsena | correct | 10 | ✓ Тачно! +35 поена (10s + 3x низ) |
-| 3 | 3 | zadatke | Podatke | savrsena | correct | 8 | ✓ Тачно! +38 поена (8s + 4x низ) |
-| 3 | 3 | planom | koji | pogresna | wrong | 10 | ✗ „који" се не римује са „планом" |
-| 4 | 1 | segment | dokument | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
-| 4 | 1 | čoveka | neka | savrsena | correct | 10 | ✓ Tačno! +30 poena (10s + 2x niz) |
-| 4 | 1 | postojao | kao | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
-| 4 | 1 | aktivno | relativno | savrsena | correct | 10 | ✓ Tačno! +40 poena (10s + 4x niz) |
-| 4 | 1 | obraća | koja | varka-isto-slovo | wrong | 8 | ✗ „koja" se ne rimuje sa „obraća" |
-| 4 | 2 | gradnju | saradnju | savrsena | correct | 9 | ✓ Tačno! +24 poena (9s + 1x niz) |
-| 4 | 2 | pozdrav | Takav | savrsena | correct | 10 | ✓ Tačno! +30 poena (10s + 2x niz) |
-| 4 | 2 | aspekt | projekt | savrsena | correct | 9 | ✓ Tačno! +34 poena (9s + 3x niz) |
-| 4 | 2 | električne | сличне | savrsena | correct | 10 | ✓ Tačno! +40 poena (10s + 4x niz) |
-| 4 | 2 | veštine | nije | varka-isto-slovo | wrong | 9 | ✗ „nije" se ne rimuje sa „veštine" |
+| 0 | 1 | proveru | karijeru | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
+| 0 | 1 | dovoljno | nedovoljno | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
+| 0 | 1 | novoj | broj | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
+| 0 | 1 | putevima | ima | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
+| 0 | 1 | ciljem | koji | pogresna | wrong | 10 | ✗ „koji" se ne rimuje sa „ciljem" |
+| 0 | 2 | evropskoj | broj | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
+| 0 | 2 | upozna | Prepozna | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
+| 0 | 2 | prvenstveno | istovremeno | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
+| 0 | 2 | stanovnika | велика | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
+| 0 | 2 | potez | koji | pogresna | wrong | 8 | ✗ „koji" se ne rimuje sa „potez" |
+| 1 | 1 | nacionalnom | ovom | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
+| 1 | 1 | socijalista | zaista | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
+| 1 | 1 | značaja | kraja | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
+| 1 | 1 | državnu | glavnu | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
+| 1 | 1 | različitih | koji | pogresna | wrong | 10 | ✗ „koji" se ne rimuje sa „različitih" |
+| 1 | 2 | metra | vetra | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
+| 1 | 2 | tehničkih | Njih | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
+| 1 | 2 | oslobođenja | rešenja | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
+| 1 | 2 | tebi | себи | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
+| 1 | 2 | pripadaju | mogu | varka-isto-slovo | wrong | 10 | ✗ „mogu" se ne rimuje sa „pripadaju" |
+| 1 | 3 | blogu | mogu | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
+| 1 | 3 | spomenik | predsednik | savrsena | correct | 9 | ✓ Tačno! +29 poena (9s + 2x niz) |
+| 1 | 3 | informaciju | situaciju | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
+| 1 | 3 | jednostavan | Jedan | savrsena | correct | 9 | ✓ Tačno! +39 poena (9s + 4x niz) |
+| 1 | 3 | pokušao | kako | varka-isto-slovo | wrong | 8 | ✗ „kako" se ne rimuje sa „pokušao" |
+| 2 | 1 | uči | zvuči | savrsena | correct | 9 | ✓ Tačno! +24 poena (9s + 1x niz) |
+| 2 | 1 | nastavnika | velika | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
+| 2 | 1 | ovakvu | takvu | savrsena | correct | 9 | ✓ Tačno! +34 poena (9s + 3x niz) |
+| 2 | 1 | iznutra | sutra | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
+| 2 | 1 | pozorištu | mogu | varka-isto-slovo | wrong | 9 | ✗ „mogu" se ne rimuje sa „pozorištu" |
+| 2 | 2 | svesna | izvesna | savrsena | correct | 10 | ✓ Tačno! +25 poena (10s + 1x niz) |
+| 2 | 2 | možda | Vožda | savrsena | correct | 8 | ✓ Tačno! +28 poena (8s + 2x niz) |
+| 2 | 2 | gorivo | nivo | savrsena | correct | 10 | ✓ Tačno! +35 poena (10s + 3x niz) |
+| 2 | 2 | oblici | представници | savrsena | correct | 8 | ✓ Tačno! +38 poena (8s + 4x niz) |
+| 2 | 2 | opremu | mogu | varka-isto-slovo | wrong | 10 | ✗ „mogu" se ne rimuje sa „opremu" |
+| 3 | 1 | priznanje | pitanje | savrsena | correct | 9 | ✓ Тачно! +24 поена (9s + 1x низ) |
+| 3 | 1 | obale | ostale | savrsena | correct | 10 | ✓ Тачно! +30 поена (10s + 2x низ) |
+| 3 | 1 | prodajom | ovom | savrsena | correct | 9 | ✓ Тачно! +34 поена (9s + 3x низ) |
+| 3 | 1 | zelene | mene | savrsena | correct | 10 | ✓ Тачно! +40 поена (10s + 4x низ) |
+| 3 | 1 | strelac | koji | pogresna | wrong | 9 | ✗ „који" се не римује са „стрелац" |
+| 3 | 2 | ćerka | teniserka | savrsena | correct | 9 | ✓ Тачно! +24 поена (9s + 1x низ) |
+| 3 | 2 | bolje | Najbolje | savrsena | correct | 8 | ✓ Тачно! +28 поена (8s + 2x низ) |
+| 3 | 2 | osamdesetih | njih | savrsena | correct | 9 | ✓ Тачно! +34 поена (9s + 3x низ) |
+| 3 | 2 | spratu | рату | savrsena | correct | 8 | ✓ Тачно! +38 поена (8s + 4x низ) |
+| 3 | 2 | profesora | koja | varka-isto-slovo | wrong | 9 | ✗ „која" се не римује са „професора" |
+| 3 | 3 | brigu | knjigu | savrsena | correct | 10 | ✓ Тачно! +25 поена (10s + 1x низ) |
+| 3 | 3 | vraćaju | imaju | savrsena | correct | 8 | ✓ Тачно! +28 поена (8s + 2x низ) |
+| 3 | 3 | poginulo | krenulo | savrsena | correct | 10 | ✓ Тачно! +35 поена (10s + 3x низ) |
+| 3 | 3 | marta | Karta | savrsena | correct | 8 | ✓ Тачно! +38 поена (8s + 4x низ) |
+| 3 | 3 | pokažu | mogu | varka-isto-slovo | wrong | 10 | ✗ „могу" се не римује са „покажу" |
+| 4 | 1 | osoba | doba | savrsena | correct | 8 | ✓ Tačno! +23 poena (8s + 1x niz) |
+| 4 | 1 | metra | vetra | savrsena | correct | 10 | ✓ Tačno! +30 poena (10s + 2x niz) |
+| 4 | 1 | izveštaje | daje | savrsena | correct | 8 | ✓ Tačno! +33 poena (8s + 3x niz) |
+| 4 | 1 | celoj | broj | savrsena | correct | 10 | ✓ Tačno! +40 poena (10s + 4x niz) |
+| 4 | 1 | cenama | koja | varka-isto-slovo | wrong | 8 | ✗ „koja" se ne rimuje sa „cenama" |
+| 4 | 2 | toka | visoka | savrsena | correct | 9 | ✓ Tačno! +24 poena (9s + 1x niz) |
+| 4 | 2 | pogledaju | Imaju | savrsena | correct | 10 | ✓ Tačno! +30 poena (10s + 2x niz) |
+| 4 | 2 | pismo | nismo | savrsena | correct | 9 | ✓ Tačno! +34 poena (9s + 3x niz) |
+| 4 | 2 | preti | видети | savrsena | correct | 10 | ✓ Tačno! +40 poena (10s + 4x niz) |
+| 4 | 2 | pravoslavne | nije | varka-isto-slovo | wrong | 9 | ✗ „nije" se ne rimuje sa „pravoslavne" |
 

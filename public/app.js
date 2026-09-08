@@ -5285,7 +5285,7 @@ function initGame(){
       const loading = document.createElement('p');
       loading.id = 'gameLoading';
       loading.className = 'empty';
-      loading.textContent = 'Učitavam rečnik...';
+      loading.textContent = uiTxt('Učitavam rečnik…');   // u izabranom pismu (skener na produkciji 08.09.)
       gameSetup.appendChild(loading);
     }
     setTimeout(initGame, 1000);
@@ -5332,7 +5332,7 @@ function bootstrap(){
      `aria-busy` i prigušeno je dok rečnik ne stigne; klik i dalje radi (reč se zapamti,
      v. `cekaRec`). Sam rečnik kreće ranije: `<link rel="preload" as="fetch">` u zaglavlju. */
   const rb = el('rimeBtn');
-  if(!rb.__noop){ rb.classList.add('ucitava'); rb.setAttribute('aria-busy', 'true'); rb.title = 'Učitavam rečnik…'; }
+  if(!rb.__noop){ rb.classList.add('ucitava'); rb.setAttribute('aria-busy', 'true'); rb.title = uiTxt('Učitavam rečnik…'); }
   function recnikSpreman(){ if(rb.__noop) return; rb.classList.remove('ucitava'); rb.removeAttribute('aria-busy'); rb.removeAttribute('title'); }
   loadDict().then(()=>{
     recnikSpreman();

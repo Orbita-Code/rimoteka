@@ -713,7 +713,8 @@ prijavu u Cloudflare worker **`worker/prijave.js`** → `https://rimoteka-prijav
 | **mejl vlasnici** (08.09.2026) | svaka prava prijava ide i mejlom na `jovana.daskovic@gmail.com` sa `Rimoteka <eureka@rimoteka.com>` – worker šalje preko Gmail SMTP-a (`smtp.gmail.com:465`, **AUTH LOGIN**, Google app-lozinka „rimoteka-prijave“; AUTH PLAIN Gmail iz Workera odbija). Secrets: `SMTP_KORISNIK`, `SMTP_LOZINKA`, `MEJL_ZA`; vrednosti u `~/.config/rimoteka/smtp-prijave.json` (**nikad u repo**). Proba: `curl -X POST -H "X-Kljuc: …" <worker>/proba-mejla` → `{"ok":true}`. Mejl ide posle odgovora sajtu (`ctx.waitUntil`) – prijava se čuva i kad mejl ne prođe. Režim probe (`proba:true`) ne šalje mejl. |
 | režim probe | **samo test**, preko `localStorage.rimoteka_proba=1` (postavlja `test/bez-analitike.mjs`) → sanduče proveri, ne čuva. `?interno=1` gasi SAMO analitiku (od 07.09.2026 — pre toga je gutao i prijave) |
 | CSP | adresa sanduča mora biti u `connect-src` (`nginx.conf`) — bez toga pregledač ćutke odbije slanje |
-| test | sekcija 46 — pada ako CSP, dugme, prozorčić ili sanduče ne rade |
+| test | sekcija 46 — pada ako CSP, dugme, prozorčić ili sanduče ne rade. **Svaki test koji klikne „Pošalji“ ide kroz `umotaj()` ili upiše `rimoteka_proba=1`** – i lokalno (sanduče prima `localhost`). 08.09. je skener ćirilice bez toga upisao 11 pravih prijava. |
+| korisnik ili test? | u sanduču su SAMO ljudi (probe se ne čuvaju). Otisak `ko` je isti za sve sa istog računara – naš računar se prepoznaje po otisku (06–08.09.: `543342…`). |
 
 **Na početku sesije proveriti nove prijave** (`curl "<pregled>&format=json"`) i uneti ih u
 rad kao prijave korisnika — one imaju prednost nad nalazima alata (protokol, D8).

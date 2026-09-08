@@ -70,6 +70,10 @@ for (let g = 0; g < PARTIJA; g++) {
       const oblik = potez % 9 === 8 ? 'cir' : potez % 7 === 6 ? 'veliko' : 'obicno';
       if (oblik === 'cir') unos = await p.evaluate((u) => toCyr(u), unos);
       if (oblik === 'veliko') unos = ' ' + unos[0].toUpperCase() + unos.slice(1) + ' ';
+      if (potez % 11 === 10) {   // rečca od 2 slova sa istim završetkom mora da bude odbijena bez trošenja poteza – PRE pravog odgovora (posle njega je dugme ugašeno, pa klik ne radi ništa)
+        const kratka = await p.evaluate((w) => { const k = finalSylKey(w); for (const x of ['je', 'ma', 'da', 'se', 'ne', 'ti', 'mi', 'su', 'li', 'ga', 'na', 'te', 'to', 'ko']) if (finalSylKey(x) === k || rhymeKey(x) === rhymeKey(w)) return x; return null; }, st.rec);
+        if (kratka) { await p.fill('#gameInput', kratka); const fk = await p.evaluate(() => { document.getElementById('gameSubmit').click(); return document.getElementById('gameFeedback').className; }); if (!/hint/.test(fk)) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: kratka, greska: `rečca od 2 slova „${kratka}" nije odbijena (${fk})` }); }
+      }
       await p.fill('#gameInput', unos);
       await new Promise(r => setTimeout(r, 300 + ((potez * 3 + g * 7 + pl * 2) % 6) * 400));   // čovek razmišlja 0,3–2,3 s, različito po potezu i igraču (5 reči × 7 ≡ 0 mod 5 je davalo iste bodove svima)
       const pre = await p.evaluate(() => ({ t: gameTimeLeft, score: gamePlayersData[gameCurrentPlayerIdx].score, combo: gameCombo }));
@@ -80,10 +84,6 @@ for (let g = 0; g < PARTIJA; g++) {
       dnevnik.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos.trim(), tip: odg.tip, ishod: fb.k.replace('game-feedback', '').trim(), poruka: fb.t.slice(0, 80), sek: t });
       if (vrsta === 'tacna' && !tacno) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos, greska: `${odg.tip} rima „${unos.trim()}" (${oblik}) nije priznata: „${fb.t.slice(0, 70)}"` });
       if (vrsta === 'pogresna' && tacno) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: unos, greska: `reč koja se ne rimuje priznata kao tačna (${odg.tip})` });
-      if (potez % 11 === 10) {   // rečca od 2 slova sa istim završetkom mora da bude odbijena bez trošenja poteza
-        const kratka = await p.evaluate((w) => { const k = finalSylKey(w); for (const x of ['je', 'ma', 'da', 'se', 'ne', 'ti', 'mi', 'su', 'li', 'ga', 'na', 'te', 'to', 'ko']) if (finalSylKey(x) === k || rhymeKey(x) === rhymeKey(w)) return x; return null; }, st.rec);
-        if (kratka) { await p.fill('#gameInput', kratka); const fk = await p.evaluate(() => { document.getElementById('gameSubmit').click(); return document.getElementById('gameFeedback').className; }); if (!/hint/.test(fk)) nalazi.push({ partija: g, igrac: pl + 1, potez: i, rec: st.rec, odgovor: kratka, greska: `rečca od 2 slova „${kratka}" nije odbijena (${fk})` }); }
-      }
       if (tacno) {
         niz++;
         const ocek = 10 + t + Math.min(50, niz * 5);

@@ -4983,8 +4983,8 @@ async function main() {
       ok('svaki fajl sa podacima ima ?v= koji odgovara svom sadržaju',
          nesloge.length === 0,
          nesloge.join(' | ') + (nesloge.length ? ' → pusti: node scripts/osvezi-verzije-podataka.mjs' : ''));
-      ok('svih sedam fajlova sa podacima je pokriveno proverom',
-         Object.keys(stanje).length === 7 && Object.values(stanje).every(v => v.upisano),
+      ok('svih osam fajlova sa podacima je pokriveno proverom (igra-reci.json od 08.09.)',
+         Object.keys(stanje).length === 8 && Object.values(stanje).every(v => v.upisano),
          Object.entries(stanje).filter(([, v]) => !v.upisano).map(([i]) => i).join(', ') || 'ok');
     }
 
@@ -5709,7 +5709,8 @@ async function main() {
            ostaje kao logo-512.png samo za manifest (ikonica na početnom ekranu). Izgled logotipa se NE menja. */
         const logoB = fs.statSync(path.join(ROOT, 'public', 'logo-icon.png')).size, logo512 = fs.existsSync(path.join(ROOT, 'public', 'logo-512.png'));
         const manifest = fs.readFileSync(path.join(ROOT, 'public', 'manifest.json'), 'utf8');
-        ok('A6 · logo-icon.png je mali (< 40 KB), a manifest koristi logo-512.png za ikonice', logoB < 40000 && logo512 && !/logo-icon\.png/.test(manifest) && /logo-512\.png/.test(manifest), `${logoB} B`);
+        // 08.09.2026, odluka vlasnice: logo-icon.png je 224 px (~56 KB) da bude oštar na iPhone-u (3×); prag 70 KB
+        ok('A6 · logo-icon.png je mali (< 70 KB, 224 px), a manifest koristi logo-512.png za ikonice', logoB < 70000 && logo512 && !/logo-icon\.png/.test(manifest) && /logo-512\.png/.test(manifest), `${logoB} B`);
         ok('S-19 · nijedan link sa strana reči ne vodi na stranu koje nema (mrtav link = 404)', mrtvi.size === 0, [...mrtvi].slice(0, 6).join(', '));
         const mapa = fs.readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
         const uGeneratoru = (fs.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/if len\(all_r\) < (\d+):/) || [])[1];

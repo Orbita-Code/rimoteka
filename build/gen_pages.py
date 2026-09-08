@@ -1006,6 +1006,31 @@ def main():
     loosegroup = defaultdict(list)
     for w in words:
         loosegroup[loose_key(w)].append(w)
+    # BRZI IZBOR BLISKIH RIMA (09.09.2026, vlasnica: „deploy traje 3 sata"). Do sada je za SVAKU od 1.989 reči ceo
+    # `loosegroup` (za reči na -a: 55.000 kandidata) filtriran i sortiran po (-common_suffix, rank) – 80 % vremena
+    # generisanja (izmereno faulthandler-om). Sad: reči su unapred razvrstane po završetku dužine 1–8 (č≡ć, dž≡đ kao
+    # u common_suffix), pa se za reč uzimaju kandidati od najdužeg zajedničkog završetka naniže i staje se kod 70.
+    # Rezultat je ISTI redosled (duži zajednički završetak → učestalost), samo bez sortiranja 55.000 reči.
+    MAXK = 8
+    def _norm(w): return w.replace('č', 'ć').replace('dž', 'đ')
+    sufgroup = [None] + [defaultdict(list) for _ in range(MAXK)]
+    for w in words:
+        n = _norm(w.lower())
+        for k in range(1, min(len(n), MAXK) + 1):
+            sufgroup[k][n[-k:]].append(w)
+    def top_slicne(t, dozvoljena, limit):
+        tn = _norm(t.lower()); out = []; videno = set()
+        for k in range(min(len(tn), MAXK), 0, -1):
+            nivo = []
+            for w in sufgroup[k].get(tn[-k:], ()):
+                if w in videno: continue
+                videno.add(w)
+                if dozvoljena(w): nivo.append(w)
+            if k == MAXK: nivo.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
+            else: nivo.sort(key=lambda w: rank[w])
+            out.extend(nivo)
+            if len(out) >= limit: break
+        return out[:limit]
 
     generated = 0
     napravljene = []          # meta-reči koje su ZAISTA dobile stranu (za hub i brojke)
@@ -1051,9 +1076,7 @@ def main():
         # Bliske rime (asonanca) – reči sa istim završnim samoglasnikom (kao u alatu: 70)
         lk = loose_key(t)
         seen_loose = set(best + good + final_extra)
-        loose_cands = [w for w in loosegroup[lk] if w.lower() != tl and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w)]
-        loose_cands.sort(key=lambda w: (-common_suffix(t, w), rank[w]))
-        loose = loose_cands[:70]
+        loose = top_slicne(t, lambda w: loose_key(w) == lk and w.lower() != tl and w not in seen_loose and not is_blocked(w) and not is_excluded(t, w), 70)
 
         all_r = best + good + final_extra
         # S-19 (audit 07.09.2026): strana sa 3–4 prave rime je za Google „tanka" i vuče ostale naniže.

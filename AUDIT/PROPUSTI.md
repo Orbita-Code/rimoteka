@@ -1521,3 +1521,18 @@ Isti obrazac kao 07.09. (matrica stanja: kvar živi na preseku „tastatura otvo
 > prazan red) i posle svake se meri POMAK STRANE (`scrollY` pre/posle) – ne samo da li je kursor vidljiv. Zamena
 > za nepostojeći pravougaonik kursora sme da bude SAMO susedni čvor (`<br>` ili tekst), nikad roditelj – roditelj je
 > po pravilu ceo editor. Provera se prvo pusti protiv produkcije sa STARIM kodom: mora da padne (08.09.: pala u WebKit-u).
+
+## 09.09.2026 — COMMIT DOK JE GENERATOR BRISAO STRANE: 1.990 STRANA NESTALO IZ REPOA
+
+Commit `c185142ac` napravljen je dok je `gen_pages.py` u pozadini tek obrisao `public/rime-za/` (rmtree na početku) i još
+ništa nije upisao – pa je `git add -A` zabeležio BRISANJE svih 1.990 strana. Nije stiglo do `main` (push 6 još čeka), ali
+bi na produkciji značilo 404 na svakoj strani reči.
+
+> **Pravilo.** Dok `gen_pages.py` radi, NEMA commita. Pre svakog commita koji hvata `public/`:
+> `git ls-files public/rime-za | wc -l` mora biti ≈ broj strana (1.989 + hub) i `pgrep -f gen_pages` prazan.
+> Skripta lanca (`test/lanac.sh`) sama regeneriše strane PRE testova i ne dira git – commit ide tek posle lanca.
+
+**Usput, ista sesija:** generator je za svaku od 1.989 reči sortirao do 55.000 „bliskih rima" (80 % vremena, izmereno
+`faulthandler`-om); zamenjeno kantama po završetku (`sufgroup`, `top_slicne`) – 5 min 36 s → 43 s procesorskog vremena,
+isti izlaz na 1.978 strana; 12 strana sa velikim slovom (Atina, Kina, Niš…) sada dobija bolje bliske rime, jer se
+zajednički završetak meri malim slovima (pravilo 6.4), što staro sortiranje nije radilo.

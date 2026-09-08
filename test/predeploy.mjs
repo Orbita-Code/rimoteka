@@ -1708,7 +1708,7 @@ async function main() {
       ok('V7 „Nazad" vraća prethodni tab', nazad === 'klasici', `aktivan: ${nazad}`);
 
       await g15b.goto(BASE + '/?tab=igra', { waitUntil: 'domcontentloaded' });
-      await pauza(900);
+      await g15b.waitForFunction(() => document.querySelector('#tabs [data-tab].active')?.dataset.tab === 'igra', null, { timeout: 8000 }).catch(() => {});   // do 5 s (trka pri sporom računaru)
       const igra = await g15b.evaluate(() => document.querySelector('#tabs [data-tab].active')?.dataset.tab);
       ok('N3 ?tab=igra otvara igru (ranije se ignorisao)', igra === 'igra', `aktivan: ${igra}`);
       await g15b.close();
@@ -4842,9 +4842,11 @@ async function main() {
             await p.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 3,
                                     null, { timeout: 60000 });
           } catch { imaRima = false; }
-          /* Pauza je namerna: frekvencija stiže POSLE prvog iscrtavanja. Ako se
-             prikaz ne osveži kad stigne, ovde se to vidi. */
-          await pauza(3000);
+          /* Frekvencija stiže POSLE prvog iscrtavanja – čeka se da stigne (najviše 30 s), pa još malo da se prikaz
+             osveži. Ako se prikaz ne osveži kad stigne, ovde se to vidi. Ranije fiksna pauza od 3 s je pod
+             opterećenjem računara padala lažno (08.09.). */
+          await p.waitForFunction((w) => typeof RANK !== 'undefined' && RANK.get(w) < 0, w, { timeout: 30000 }).catch(() => {});
+          await pauza(1500);
           const preko = imaRima ? await p.evaluate(uzmiRime) : [];
           await c.close();
           ok(`/?rec=${w} – isti redosled kao kad se reč ukuca ručno`,

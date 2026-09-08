@@ -5643,7 +5643,9 @@ function bootstrap(){
        adrese, da `initGame` iz `switchTab` zatekne partiju u toku i ne vrati početni ekran. */
     try{ vratiIgru(); }catch(e){ console.warn('[Rimoteka] partija nije vraćena:', e); }
     if(cekaRec){ pokreniOdlozenuPretragu(); return; }
-    if(!initFromURL()) rimeInput.focus();
+    /* Fokus na polje tek kad rečnik stigne – ali NE otimati fokus onome ko je već negde (08.09.2026, S-25 trka:
+       korisnik tastaturom stane na „Preskoči na sadržaj", rečnik stigne, fokus skoči u polje, Enter ode u polje). */
+    if(!initFromURL() && (!document.activeElement || document.activeElement === document.body)) rimeInput.focus();
   }).catch(e=>{
     recnikSpreman();
     /* Ako korisnik ode sa strane dok se rečnik još skida, pregledač prekine

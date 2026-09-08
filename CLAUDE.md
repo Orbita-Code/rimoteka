@@ -413,7 +413,7 @@ node test/predeploy-motori.mjs        # ključni mobilni tokovi u WebKit-u (= Sa
 node test/skener-cirilica.mjs         # SVE strane + sva stanja alata u ćirilici: 0 latiničnih tekstova (osim dozvoljenih)
 node test/skener-tamna.mjs            # čitljivost i stanje tamne teme na svim vrstama strana: 0 nalaza
 node test/igra-100-partija.mjs        # 100 partija igre (10/15/20 s) kao dete: 0 nalaza
-node test/igra-kao-covek.mjs          # 12 partija sa 2–3 igrača, odgovori kao čovek: bodovi potez po potezu, predaja, rezultati, nerešeno, varke: 0 nalaza
+node test/igra-kao-covek.mjs          # 12 partija sa 2–3 igrača, odgovori kao čovek: bodovi, predaja, nerešeno, varke, režim „tri rime", glas, spisak reči: 0 nalaza
 node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py   # bazen reči koje igra sme da zada: vrste reči, hrvatski, zastarele, preteške (izveštaj, ne pada)
 ```
 Svaki mora da završi sa izlaznim kodom 0. Posle deploya: isto sa `BASE=https://rimoteka.com`.
@@ -667,9 +667,22 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | **`definicije.json`** | sajt ga više NE skida ceo. Posle svake izmene: `python3 build/podeli_definicije.py` (224 fajla u `public/definicije/`, po slovu; velika slova po dva slova) **pa** `node scripts/osvezi-verzije-podataka.mjs`. Deljeni fajlovi nose isti `?v=` kao ceo. Test 53 pada ako se razilaze. `app.js` računa ime fajla istim pravilom kao skripta (`DEF_SLOVA`, `DEF_IME`). |
 | **`reci.txt`** | ima **preload** u `index.html` i `gen_pages.py` (`RECI_PRELOAD`); adresa mora biti slovo u slovo ista kao u `app.js` — inače se rečnik skida dva puta. `osvezi-verzije-podataka.mjs` prepisuje sva tri mesta; posle toga `python3 build/gen_pages.py`. Test 51 broji zahteve (tačno 1). |
 | **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
+| **`igra-reci.json`** | reči koje IGRA zadaje (odluka vlasnice 08.09.2026: samo imenice, glagoli i pridevi od 2 do 4 sloga; 6.634 reči). Pravi ga `node test/igra-bazen.mjs && python3 scripts/igra-reci-napravi.py`, pa `node scripts/osvezi-verzije-podataka.mjs`. Skida se tek kad se igra otvori; ako ne stigne za 1,5 s, igra pada na stari bazen. Kockica i dalje koristi bazen od 8.000. |
 | **Prag za stranu reči** | reč dobija stranu tek sa **≥5 pravih rima** (`gen_pages.py`, S-19). Kad se prag menja ili reč ispadne, njena adresa se **dopisuje u `nginx-stare-strane.map`** (301 na hub) i podiže se `rime-strane.json?v=` u `app.js` (keš je 365 d). Test 50 pada na mrtvom linku i na strani ispod praga. |
 | **Velika slova u adresi** | `nginx-strane-mala.map` (generiše `gen_pages.py`, kopira Dockerfile): `/rime-za/Beograd/` → 301 na `/rime-za/beograd/`. nginx `map` ne razlikuje velika i mala slova. Fajl se NE piše ručno — regeneracija ga osvežava; ide u isti push sa `nginx.conf` (uključuje ga). |
 | **Stare `/rime-za/` adrese** | `nginx-stare-strane.map` (1.670 adresa iz sitemapa od 29.07.) → 301 na hub; **sve ostalo pod `/rime-za/` je 404** sa `404.html`. Kad se ukine strana, njena adresa se DOPISUJE u mapu. `Dockerfile` kopira mapu uz `nginx.conf`; `nginx-provera.sh` je testira. |
+
+## 9g. IGRA RIMOVANJA – PRAVILA (08.09.2026, odluke vlasnice)
+
+| Šta | Pravilo |
+|---|---|
+| Vreme po reči | 10 / 15 / 20 / 30 s. **Ne dodavati 5 s** – vlasnica: prekratko. |
+| Priznata rima | ista savršena rima (`rhymeKey`) ILI isti završni slog (`finalSylKey`). **Ne vraćati `looseKey`** – priznavao je svaku reč sa istim poslednjim slovom (I-1). Odgovor bar 3 slova (I-2). |
+| Reči koje igra zadaje | `igra-reci.json` (9f). Nikad zamenice, veznici, prilozi, imena. |
+| Režim „tri rime" | opcija „Koliko rima za svaku reč: jedna / tri". Sa tri: svaka priznata rima donosi bodove i ne troši zadatak (1/3, 2/3), ista rima se odbija, pogrešna seče niz a tajmer teče, treća završava reč; reč je „tačna" samo sa 3/3. |
+| Odgovor glasom | dugme 🎤 uz polje, vidi se samo gde pregledač ima prepoznavanje govora (Chrome, Safari). `sr-RS`, do 5 prepisa; uzima se prva reč iz rečnika (gleda i poslednju reč rečenice). Bez mikrofona/dozvole – poruka, igra ide dalje kucanjem. |
+| Rezultati | svi sa najviše bodova su pobednici (🤝 „Nerešeno!"); tekst „najduži niz", ne „combo". |
+| Test | `igra-100-partija.mjs` (1 igrač, 100 partija) + `igra-kao-covek.mjs` (2–3 igrača, glas, tri rime) – oba pre svakog deploya. |
 
 ## 9d. SANDUČE ZA PRIJAVE GREŠAKA (06.09.2026)
 

@@ -4861,6 +4861,8 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
     : parseInt(playersBtn.dataset.value);
   gameWordsPerPlayer = parseInt(wordsBtn.dataset.value);
   gameTimePerWord = parseInt(timeBtn.dataset.value);
+  const rimaBtn = document.querySelector('#gameRima .game-option.active');
+  gameRimaPoReci = rimaBtn && rimaBtn.dataset.value === '3' ? 3 : 1;
 
   gamePlayersData = [];
   for(let i = 0; i < gamePlayers; i++){
@@ -4881,8 +4883,12 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
   if(gameHandoff) gameHandoff.style.display = 'none';
   clearTimeout(gameNextTimeout);
   gameState = 'play';
+  gameCurrentWord = '';
+  gameWordEl.textContent = '...';
 
-  nextWord();
+  /* Prva reč čeka spisak reči za igru najviše 1,5 s – ako ne stigne, kreće sa starim bazenom. */
+  Promise.race([ucitajIgraReci(), new Promise(r => setTimeout(r, 1500))])
+    .then(() => { if(gameState === 'play' && !gameCurrentWord) nextWord(); });
 };
 
 /* Zakazani prelaz na sledeću reč i stanje igre.
@@ -4893,6 +4899,38 @@ if (gameStartBtn) gameStartBtn.onclick = () => {
    pa nextWord() ne radi ništa ako igra nije u toku. */
 let gameNextTimeout = null;
 let gameState = 'setup';   // 'setup' | 'play' | 'handoff' | 'results'
+
+/* REČI KOJE IGRA ZADAJE – odluka vlasnice 08.09.2026: samo imenice, glagoli i pridevi od 2 do 4 sloga.
+   Bazen od 8.000 najčešćih reči (kockica) je iz veb-korpusa novina, pa je dete dobijalo „kojima",
+   „ministarstva". Spisak pravi `scripts/igra-reci-napravi.py` (srLex vrsta reči), skida se tek kad se
+   igra otvori; dok ne stigne (ili ako ne stigne), igra pada na stari bazen – nikad ne čeka. */
+let IGRA_RECI = null, igraReciZahtev = null;
+function ucitajIgraReci(){
+  if(IGRA_RECI) return Promise.resolve(IGRA_RECI);
+  if(igraReciZahtev) return igraReciZahtev;
+  igraReciZahtev = fetch('/igra-reci.json?v=e0ba2019').then(r => r.ok ? r.json() : null)
+    .then(a => { if(Array.isArray(a) && a.length > 500) IGRA_RECI = a; return IGRA_RECI; })
+    .catch(() => null);
+  return igraReciZahtev;
+}
+function randomIgraRec(extraFilter){
+  if(!IGRA_RECI) return randomCommonWord(extraFilter);
+  for(let t = 0; t < 60; t++){
+    const w = IGRA_RECI[Math.floor(Math.random() * IGRA_RECI.length)];
+    if(!w || (extraFilter && !extraFilter(w))) continue;
+    return w;
+  }
+  return randomCommonWord(extraFilter);
+}
+/* Režim „tri rime za jednu reč" (odluka vlasnice 08.09.2026): za svaku reč se traže TRI različite rime
+   dok vreme teče; svaka priznata donosi bodove, reč je „tačna" tek sa 3/3. Pogrešna reč ne troši
+   zadatak, samo seče niz. `gameNadjene` pamti rime date za tekuću reč (ista se ne priznaje dvaput). */
+let gameRimaPoReci = 1;
+let gameNadjene = [];
+function osveziUputstvoIgre(){
+  const ins = gamePlay ? gamePlay.querySelector('.game-instruction') : null;
+  if(ins) ins.textContent = uiTxt(gameRimaPoReci === 3 ? 'Nađi tri rime za reč:' : 'Nađi rimu za reč:');
+}
 
 function zakaziSledecuRec(ms){
   clearTimeout(gameNextTimeout);
@@ -4973,9 +5011,11 @@ function nextWord(){
     // i OBAVEZNO reč koja uopšte ima rimu (npr. „valjda" je nema, pa je
     // igrač ne može rešiti ni kad zna sve reči srpskog jezika).
     // Ijekavski oblici nikad (pravilo projekta – v. `jeJekavskaRec`).
-    const w = randomCommonWord(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
+    const w = randomIgraRec(x => !BLOCKED.has(x) && !(kidsMode && isKidsBlocked(x)) && !jeJekavskaRec(x) && imaRimu(x));
     if(w){
       gameCurrentWord = w;
+      gameNadjene = [];
+      osveziUputstvoIgre();
       gameWordEl.textContent = disp(w);
       gameInput.value = '';
       gameInput.focus();
@@ -5031,7 +5071,8 @@ function sacuvajIgru(){
     v: 1, kad: Date.now(), state: gameState,
     players: gamePlayers, wpp: gameWordsPerPlayer, tpw: gameTimePerWord, data: gamePlayersData,
     pi: gameCurrentPlayerIdx, wi: gameCurrentWordIdx, word: gameCurrentWord, left: gameTimeLeft,
-    combo: gameCombo, maxCombo: gameMaxCombo
+    combo: gameCombo, maxCombo: gameMaxCombo,
+    mod: gameRimaPoReci, nadjene: gameNadjene
   }));
 }
 function vratiIgru(){
@@ -5045,6 +5086,8 @@ function vratiIgru(){
   gamePlayers = o.players; gameWordsPerPlayer = o.wpp; gameTimePerWord = o.tpw; gamePlayersData = o.data;
   gameCurrentPlayerIdx = o.pi; gameCurrentWordIdx = o.wi; gameCurrentWord = o.word;
   gameTimeLeft = o.left; gameCombo = o.combo || 0; gameMaxCombo = o.maxCombo || 0;
+  gameRimaPoReci = o.mod === 3 ? 3 : 1; gameNadjene = Array.isArray(o.nadjene) ? o.nadjene : [];
+  osveziUputstvoIgre();
   clearInterval(gameTimer); gameTimer = null; clearTimeout(gameNextTimeout);
   gameSetup.style.display = 'none';
   gameResults.style.display = 'none';
@@ -5104,7 +5147,9 @@ function startTimer(){
 }
 
 function timeUp(){
-  gameFeedback.textContent = `⏰ ${uiTxt('Vreme isteklo! Rima za')} „${disp(gameCurrentWord)}" ${uiTxt('nije uneta.')}`;
+  gameFeedback.textContent = (gameRimaPoReci === 3 && gameNadjene.length)
+    ? `⏰ ${uiTxt('Vreme isteklo! Za')} „${disp(gameCurrentWord)}" ${uiTxt('si našao')} ${gameNadjene.length} ${uiTxt('od 3 rime.')}`
+    : `⏰ ${uiTxt('Vreme isteklo! Rima za')} „${disp(gameCurrentWord)}" ${uiTxt('nije uneta.')}`;
   gameFeedback.className = 'game-feedback wrong';
   gamePlayersData[gameCurrentPlayerIdx].wrong++;
   gamePlayersData[gameCurrentPlayerIdx].ishodi[gameCurrentWordIdx] = false;
@@ -5136,12 +5181,19 @@ function checkGameAnswer(){
     gameFeedback.className = 'game-feedback hint';
     return;
   }
+  if(gameRimaPoReci === 3 && gameNadjene.includes(answer)){
+    gameFeedback.textContent = uiTxt('Tu rimu si već rekao – daj drugu');
+    gameFeedback.className = 'game-feedback hint';
+    return;
+  }
 
-  clearInterval(gameTimer);
   const player = gamePlayersData[gameCurrentPlayerIdx];
   const qKey = rhymeKey(gameCurrentWord);
   const aKey = rhymeKey(answer);
   const isRhyme = qKey === aKey || finalSylKey(gameCurrentWord) === finalSylKey(answer);   // ne looseKey – v. imaRimu
+  /* U režimu „tri rime" reč se završava tek trećom rimom; dotle tajmer teče i dugme ostaje. */
+  const zavrsava = gameRimaPoReci !== 3 || (isRhyme && gameNadjene.length + 1 >= 3);
+  if(zavrsava) clearInterval(gameTimer);
 
   if(isRhyme){
     gameCombo++;
@@ -5153,17 +5205,44 @@ function checkGameAnswer(){
     const comboBonus = Math.min(50, gameCombo * 5);
     const points = 10 + timeBonus + comboBonus;
     player.score += points;
-    player.correct++;
-    player.ishodi[gameCurrentWordIdx] = true;     // redosled ishoda za tačkice (N4)
     player.streak++;
     if(player.streak > player.bestStreak) player.bestStreak = player.streak;
 
-    gameFeedback.textContent = `✓ ${uiTxt('Tačno!')} +${points} ${uiTxt(poenRec(points))} (${gameTimeLeft}s + ${gameCombo}x ${uiTxt('niz')})`;
+    if(gameRimaPoReci === 3){
+      gameNadjene.push(answer);
+      if(!zavrsava){
+        gameFeedback.textContent = `✓ ${gameNadjene.length}/3 · +${points} ${uiTxt(poenRec(points))} · ${uiTxt('još')} ${3 - gameNadjene.length}`;
+        gameFeedback.className = 'game-feedback correct';
+        playCorrect();
+        gameInput.value = '';
+        gameInput.focus();
+        sacuvajIgru();
+        return;
+      }
+      gameFeedback.textContent = `✓ 3/3 ${uiTxt('Tačno!')} +${points} ${uiTxt(poenRec(points))} (${gameTimeLeft}s + ${gameCombo}x ${uiTxt('niz')})`;
+    } else {
+      gameFeedback.textContent = `✓ ${uiTxt('Tačno!')} +${points} ${uiTxt(poenRec(points))} (${gameTimeLeft}s + ${gameCombo}x ${uiTxt('niz')})`;
+    }
+    player.correct++;
+    player.ishodi[gameCurrentWordIdx] = true;     // redosled ishoda za tačkice (N4)
     gameFeedback.className = 'game-feedback correct';
 
     playCorrect();
     if(gameCombo >= 3) playCombo(gameCombo);
     confetti();
+  } else if(gameRimaPoReci === 3){
+    /* pogrešna reč u režimu „tri rime": seče niz, ne troši zadatak, tajmer teče dalje */
+    player.streak = 0;
+    gameCombo = 0;
+    renderCombo();
+    gameFeedback.textContent = `✗ „${disp(answer)}" ${uiTxt('se ne rimuje sa')} „${disp(gameCurrentWord)}" · ${gameNadjene.length}/3`;
+    gameFeedback.className = 'game-feedback wrong';
+    playWrong();
+    gameWordEl.style.animation = 'shake 0.5s';
+    setTimeout(() => gameWordEl.style.animation = '', 500);
+    gameInput.value = '';
+    gameInput.focus();
+    return;
   } else {
     player.wrong++;
     player.ishodi[gameCurrentWordIdx] = false;    // redosled ishoda za tačkice (N4)
@@ -5267,8 +5346,75 @@ gameInput.addEventListener('keydown', e => {
   if(e.key === 'Enter' && !gameSubmit.disabled) checkGameAnswer();
 });
 
+/* ODGOVOR GLASOM (odluka vlasnice 08.09.2026): deca sporo kucaju, a tajmer teče. Koristi se
+   prepoznavanje govora ugrađeno u pregledač (Chrome, Safari; bez našeg servera). Dugme se vidi
+   samo gde pregledač to ume. Od ponuđenih prepisa uzima se prva REČ IZ REČNIKA (gleda se i
+   poslednja reč rečenice – dete kaže „rima je sreća"); ako nijedna nije u rečniku, uzima se
+   poslednja reč prvog prepisa pa je igra odbija kao i otkucanu. */
+const gameMic = document.getElementById('gameMic');
+const Prepoznavanje = window.SpeechRecognition || window.webkitSpeechRecognition;
+let prepoznavac = null, micSlusa = false;
+function micStanje(slusa){
+  micSlusa = slusa;
+  if(!gameMic) return;
+  gameMic.classList.toggle('slusa', slusa);
+  gameMic.setAttribute('aria-pressed', slusa ? 'true' : 'false');
+}
+function izGlasaURec(alternative){
+  const ocisti = t => toLatin(String(t || '').trim().toLowerCase()).replace(/[^a-zčćžšđ ]/g, ' ').trim();
+  for(const t of alternative){
+    const reci = ocisti(t).split(/\s+/).filter(Boolean).reverse();
+    for(const w of reci) if(SET.has(w)) return w;
+  }
+  const prva = ocisti(alternative[0]).split(/\s+/).filter(Boolean);
+  return prva.length ? prva[prva.length - 1] : '';
+}
+function pokreniSlusanje(){
+  try{
+    prepoznavac = new Prepoznavanje();
+    prepoznavac.lang = 'sr-RS';
+    prepoznavac.interimResults = false;
+    prepoznavac.maxAlternatives = 5;
+    prepoznavac.onstart = () => micStanje(true);
+    prepoznavac.onend = () => micStanje(false);
+    prepoznavac.onerror = (e) => {
+      micStanje(false);
+      const kod = e && e.error;
+      if(kod === 'not-allowed' || kod === 'service-not-allowed'){
+        gameFeedback.textContent = uiTxt('Mikrofon nije dozvoljen – upiši rimu');
+        gameFeedback.className = 'game-feedback hint';
+      } else if(kod && kod !== 'aborted'){
+        gameFeedback.textContent = uiTxt('Nisam razumeo – reci ponovo ili upiši');
+        gameFeedback.className = 'game-feedback hint';
+      }
+    };
+    prepoznavac.onresult = (ev) => {
+      const alt = [];
+      const rs = ev.results || [];
+      for(let i = 0; i < rs.length; i++){ const r = rs[i]; for(let j = 0; j < r.length; j++) alt.push(r[j].transcript); }
+      const w = izGlasaURec(alt);
+      if(!w || gameState !== 'play' || gameSubmit.disabled) return;
+      gameInput.value = script === 'cyr' ? toCyr(w) : w;
+      checkGameAnswer();
+    };
+    prepoznavac.start();
+  }catch(e){
+    micStanje(false);
+    if(gameMic) gameMic.hidden = true;
+  }
+}
+if(gameMic && Prepoznavanje){
+  gameMic.hidden = false;
+  gameMic.onclick = () => {
+    if(micSlusa){ try{ prepoznavac.stop(); }catch(e){} return; }
+    if(gameState !== 'play' || gameSubmit.disabled) return;
+    pokreniSlusanje();
+  };
+}
+
 // pokreni igru kad se otvori tab
 function initGame(){
+  ucitajIgraReci();
   /* Partija u toku se NE prekida kad se korisnik vrati na tab.
      Ranije je svaki povratak vraćao početni ekran i brisao partiju – a otkad se
      igra pauzira pri odlasku (nalaz S7), to bi značilo i da odbrojavanje teče

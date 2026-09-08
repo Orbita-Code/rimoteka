@@ -31,6 +31,7 @@ const APP = path.join(ROOT, 'public', 'app.js');
 export const FAJLOVI = [
   'reci.txt', 'reci_jekavica.txt', 'definicije.json',
   'frekvencija.json', 'sinonimi.json', 'matica.json', 'jekavski.json',
+  'igra-reci.json',
 ];
 
 export function otisak(root, ime) {

@@ -2350,6 +2350,13 @@ body.dark-mode .syn-hint{color:var(--ink-soft)}
 }
 .game-input-row input:focus{outline:none;border-color:var(--lavender-deep);box-shadow:0 0 0 4px rgba(90,63,208,.13)}
 .game-input-row button{padding:.85rem 1.4rem;border-radius:14px;white-space:nowrap}
+/* Odgovor glasom (odluka vlasnice 08.09.2026): dugme se vidi samo kad pregledač ume da prepozna govor */
+.game-input-row .game-mic{padding:.85rem .9rem;min-width:44px;border:2px solid var(--line);background:#fff;font-size:1.15rem;line-height:1;cursor:pointer}
+.game-input-row .game-mic.slusa{border-color:#e0457b;box-shadow:0 0 0 4px rgba(224,69,123,.22);animation:mic-puls 1s ease-in-out infinite}
+@keyframes mic-puls{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+body.dark-mode .game-input-row .game-mic{background:#2a2440;border-color:var(--line);color:var(--ink)}
+@media (max-width:480px){.game-input-row{gap:.4rem}.game-input-row input{padding:.85rem .7rem}.game-input-row button{padding:.85rem .9rem}.game-input-row .game-mic{padding:.85rem .55rem}}   /* sa mikrofonom polje na 390 px ostaje čitljivo */
+@media (max-width:360px){.game-input-row{flex-wrap:wrap}.game-input-row input{flex-basis:100%}.game-input-row button{flex:1}}   /* na 320 px polje je bilo 70 px – polje u svoj red, dugmad ispod */
 
 .game-feedback{margin:.85rem 0 0;min-height:1.5rem;text-align:center;font-weight:600;font-size:.98rem}
 .game-feedback.correct{color:#0f9b63;animation:fb-in .25s ease-out}

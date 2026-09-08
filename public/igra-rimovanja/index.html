@@ -32,7 +32,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=20260908f">
+<link rel="stylesheet" href="/style.css?v=20260908g">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -171,6 +171,14 @@
         </div>
       </div>
 
+      <div class="game-setup-group">
+        <label class="game-setup-label">Koliko rima za svaku reč:</label>
+        <div class="game-setup-options" id="gameRima">
+          <button class="game-option active" data-value="1">jedna</button>
+          <button class="game-option" data-value="3">tri</button>
+        </div>
+      </div>
+
       <button class="game-start-btn" id="gameStart">Počni igru</button>
     </div>
 
@@ -201,6 +209,7 @@
 
       <div class="game-input-row">
         <input type="text" id="gameInput" placeholder="upiši rimu" autocomplete="off" spellcheck="false">
+        <button id="gameMic" class="game-mic" type="button" hidden aria-pressed="false" title="Reci rimu glasom"><span aria-hidden="true">🎤</span><span class="sr-only">Reci rimu glasom</span></button>
         <button id="gameSubmit" class="primary">Proveri</button>
       </div>
 
@@ -254,6 +263,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=20260908q"></script>
+<script src="/app.js?v=20260908r"></script>
 </body>
 </html>

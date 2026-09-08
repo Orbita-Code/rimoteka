@@ -1,0 +1,826 @@
+# SINONIMI ZA PREGLED – 812 reči (izvor: Srpski Vikirečnik, CC BY-SA)
+
+Kako se ispravlja (pravila su ispod, sve u ovom fajlu, ništa drugo ne treba):
+
+- Svaki red je: reč: sinonim, sinonim, sinonim
+- Obriši sinonim koji ne valja (samo ga izbriši iz reda).
+- Dodaj sinonim tako što ga dopišeš u red, odvojen zarezom.
+- Ako cela reč ne treba – obriši ceo red.
+- Komentar za mene: napiši iza znaka # na kraju reda (npr. „# ovo je hrvatski“).
+- Redosled je po tome koliko se reč traži (najčešće prve). Ne moraš sve odjednom – ono što ostane neizmenjeno ulazi kako jeste.
+- Kad završiš, samo mi reci „sinonimi su pregledani“. Ja učitavam ovaj fajl i pravim sinonimi.json.
+
+---
+
+samo: tek, odmah, svega, jedino, ukupno, isključivo, strogo, naglo, iznenada, neočekivano, naprasno, iznenadno, neslućeno
+kada: kad, kade
+tako: dobro, veoma, vrlo, jako, ovako, puno, izuzetno, znatno, prilično, značajno, vidljivo, izraženo, osetno, grdno, dobrano, gadno, temeljito, dozlaboga
+ako: jer, može, iako, ukoliko, neka, slobodno, važi
+godina: leto
+sada: sad, odmah, trenutno
+ljudi: narod, svet, građani, nacija, stanovništvo, stanovnici, osoblje, čovečanstvo, raja, žitelji, građanstvo, kolegijum, živalj, ljudstvo, rulja, etnos
+danas: sada, sadašnjost, današnjost
+vreme: period, doba, sezona, ciklus, odsek, razdoblje, era, večnost, razmak, etapa, epoha, interval, dob, mena, stoleće
+svi: svako
+onda: dakle, ergo
+malo: pomalo, nedovoljno, donekle, ponešto, simbolično, neznatno
+prvi: najbliži, raniji, čelni, nadmoćni
+uvek: stalno, svakodnevno, neprestano, uporno, trajno, neprekidno, kontinuirano, svagda, vazda, danonoćno, postojano, nepromenljivo, svakad, ustrajno, neprestance
+broj: brojka
+deo: ostatak, komad, parče, delić, odlomak, komadić, fragment, trun, krhotina, trunka
+veoma: mnogo, vrlo, posebno, toliko, dosta, jako, naročito, puno, izuzetno, znatno, prilično, značajno, duboko, itekako, žestoko, debelo, osobito, izvanredno, silno, izraženo, osetno, podosta, obilno, svojski, iznimno, temeljito, nemalo, vraški
+drugi: poseban, izuzetan, čudan, neobičan, različit, svojevrstan, drukčiji, neočekivan, osoben, unikatan, bizaran, vanserijski, misteriozan, vanredan, nekonvencionalan, atipičan, netipičan, ekscentričan, besprimeran
+put: trasa, drum
+mora: prilika, zmaj, privid, fantom, strašilo, utvara, avet, priviđenje, simulakrum, sablast, fantazma, sanjarija, pričina
+ovde: vode, ovamo
+odnosno: ipak, zapravo, doduše, faktički, praktički, faktično
+ipak: odnosno, zapravo, doduše, faktički, praktički, faktično
+pitanje: pita, piton, potpitanje, zapitkivanje
+problem: briga, prepreka, muka, nesreća, nevolja, tegoba, poteškoća, glavobolja, nezgoda, mučenje, breme, patnja, smetnja, neprijatnost, vrag, nedaća, neprilika, jaram, strahota, začkoljica, neugodnost
+sad: sada, danas, odmah, trenutno, momentalno, današnjica, današnjost
+stvari: torbe, kovčezi
+vrlo: mnogo, veoma, posebno, toliko, dosta, jako, naročito, puno, izuzetno, znatno, prilično, značajno, duboko, itekako, žestoko, užasno, debelo, osobito, izvanredno, silno, izraženo, osetno, nadaleko, grdno, podosta, obilno, svojski, iznimno, temeljito, nemalo, vraški, dozlaboga
+mesto: grad, kraj, prostor, položaj, stan, oblast, selo, tačka, lokacija, područje, zona, naselje, sredina, teritorija, središte, centrala, predeo, lokalitet, boravište, naseobina, rejon
+posebno: naročito, izuzetno, drugačije, savršeno, neobično, specijalno, jedinstveno, osobito, odvojeno, drukčije, izvanredno, vanredno, originalno, optimalno, neuobičajeno, iznimno, neponovljivo, vanserijski, osobeno, unikatno, nenadmašno, besprimerno, odelito
+potpuno: sasvim, totalno, skroz, kompletno, odreda, listom, posve, potpun, potpunost
+upravo: čak
+posao: delo, postupak, zadatak, položaj, poziv, aktivnost, služba, misija, dužnost, zvanje, struka, zanimanje, zaposlenje, profesija, zaduženje, šljaka, angažovanost, poslanje, nameštenje, vokacija, uposlenje
+sistem: organizacija, pristup, postupak, red, mreža, skup, struktura, metoda, mašina, stil, aparat, uređenje, postavka, sklop, splet, ustrojstvo, mašinerija, sistematičnost
+zaista: naravno, jeste, sigurno, svakako, stvarno, apsolutno, definitivno, prirodno, savršeno, izvesno, itekako, pouzdano, zasigurno, doista, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+program: plan, raspored
+ponovo: opet, ponovno, iznova, snova, nanovo, opetovano
+ime: lice, naziv, lik, veličina, klasa, figura, obraz, marka, maestro, kalibar, njuška, besmrtnik, uglednik
+opet: ponovo, ponovno, iznova, snova, ispočetka, nanovo, opetovano
+primer: model, obrazac, primerak, uzor, uzorak, ideal, prototip, norma, paradigma, neprikosnovenost, savršenost, perfekcija
+cilj: odluka, plan, želja, namera, volja, smer, ambicija, zamisao, ideal, nastojanje, pretenzija, intencija, naum, aspiracija, stremljenje, htenje, nakana, primisao, namisao
+razvoj: rast, povećanje, visina, širenje, porast, razvitak, skupljanje, dotok, povećavanje, akumulacija, sazrevanje, stas, bujanje, nicanje, nakupljanje, uvećavanje, koncentrisanje, debljanje, rastenje, doticanje, naviranje
+zajedno: skupa
+grad: mesto, svet, naselje, prestonica, palanka, utvrđenje, metropola, zamak, čaršija, naseobina
+odmah: trenutno, uskoro, hitno, hitro
+zakon: pravilo, teorija, teza, premisa, postulat, aksioma
+narod: ljudi, svet, građani, nacija, stanovništvo, stanovnici, raja, žitelji, jato, građanstvo, živalj, ljudstvo, navala, etnos, svetina, nakot
+skoro: trebalo, tek, gotovo, nedavno, blizu, čisto, otprilike, maltene, umalo, zamalo, maločas, nemalo
+verovatno: moguće, izgleda, valjda, eventualno, zacelo, izgledno
+sigurno: svakako, apsolutno, definitivno, izvesno, nesumnjivo, bezbedno, neminovno, pouzdano, zasigurno, obezbeđeno, dakako, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+vlada: sistem, moć, vrh, vođstvo, kormilo, vodstvo, starešinstvo, carevanje
+izgleda: valjda, eventualno, zacelo, izgledno
+kompanija: mafija, banda, ološ, talog, šljam, podzemlje, gamad, klapa, gadovi, fajta, podlaci, škvadra, manguparija
+jako: tako, dobro, veoma, vrlo, naročito, puno, izuzetno, znatno, prilično, značajno, vidljivo, izraženo, osetno, grdno, propisno, dobrano, gadno, temeljito, dozlaboga
+pravi: čitav, lep, ozbiljan, živ, istinski, čist, realan, solidan, propisan, objektivan, stvaran, istinit, efektivan, formalan, odistinski, izistinski, zbiljski, nepatvoren
+uglavnom: obično, najčešće, mahom, ponajviše
+sasvim: potpuno, totalno, skroz, kompletno, odreda, listom, posve
+direktor: šef, menadžer, rukovodilac, upravnik, komesar, administrator, bos, upravitelj, poslovođa, ravnatelj, rukovoditelj, delovođa, kapo
+gotovo: trebalo, skoro, kraj, blizu, čisto, otprilike, maltene, umalo, zamalo, nemalo
+ranije: pre, jednom, tada, odavno, nekad, davno, svojevremeno, nekoć, svojedobno
+stvar: predmet, proizvod, roba, produkt, vešt, spev, epigram, izrađevina, popevka
+novac: sredstva, pare, blago, kapital, zlato, lova, keš, moneta
+vlast: sistem, vlada, moć, vrh, režim, rukovodstvo, vođstvo, administracija, kruna, kormilo, vodstvo, vrhuška, starešinstvo, carevanje
+dobar: ljudski, iskren, pouzdan, pošten, ispravan, korektan, pravedan, valjan, častan, odan, besprekoran, pravičan, moralan, plemenit, čestit, savestan, lojalan, uzoran, primeran, dobroćudan, dobrodušan, karakteran, duševan, etičan, doličan, neporočan, nepodmitljiv, nepokvaren
+svet: ljudi, sistem, grad, narod, selo, okruženje, sredina, raja, kosmos, čaršija, maštarija, mikrokosmos
+grupa: tim, ekipa, skup, sastav, bend, orkestar, trupa, grupacija, skupina, klapa
+ministar: sekretar
+brzo: ubrzano, munjevito, hitro, naglavačke, žurno, ažurno, naprečac, naglavce, uraganski, vratolomno
+centar: srce, osnova, suština, duša, sredina, fokus, jezgro, središte, žarište, grotlo
+knjiga: roman, rečnik, zbirka, biografija, priručnik, monografija, kuvar, atlas, antologija, autobiografija, slikovnica
+dete: sin, beba, devojčica, dečak, čedo, tinejdžer, novorođenče, derište, balavac, deran, zelembać
+puno: tako, dobro, veoma, vrlo, jako, naročito, izuzetno, znatno, prilično, značajno, vidljivo, izraženo, osetno, grdno, propisno, dobrano, gadno, temeljito, dozlaboga
+osoba: biće, čovek, lice, prilika, pojava, lik, tip, glava, ličnost, organizam, duša, građanin, pojedinac, obraz, stanovnik, individua, faca, jedinka, persona, njuška, smrtnik
+svakako: naravno, jeste, zaista, sigurno, stvarno, apsolutno, definitivno, prirodno, savršeno, izvesno, itekako, pouzdano, zasigurno, doista, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+izuzetno: posebno, naročito, drugačije, savršeno, neobično, specijalno, jedinstveno, osobito, drukčije, izvanredno, vanredno, originalno, neuobičajeno, iznimno, neponovljivo, vanserijski, osobeno, unikatno, antika, nenadmašno, besprimerno, odelito
+deca: devojčica, dečak, dečji
+kraj: smrt, finale, završetak, raspad, predeo, konac, provincija, finiš, agonija, zalazak, umiranje, nestajanje, izumiranje, suton, vilajet, krajolik, rejon, okoliš, svršetak
+glavni: osnovni, životni, neophodan, centralni, dominantan, presudan, najbitniji, istaknut, ključan, nužan, središnji, primaran, vitalan, pretežan, akutan, životan
+zapravo: odnosno, upravo, zaista, istina, doduše, faktički, uistinu, praktički, faktično
+rezultat: cilj, uspeh, korist, proizvod, efekat, ishod, ostvarenje, učinak, plod, podvig, ispunjenje, domet, skor, produkt, norma, tekovina, dostignuće, delotvornost, postignuće, stečevina
+organizacija: sistem, kompanija, grupa, društvo, klub, red, zajednica, udruženje, savez, struktura, unija, koalicija, sindikat, uređenje, asocijacija, zadruga, federacija, bratstvo, družina, alijansa, ceh, mašinerija, sistematičnost, konzorcij
+jedini: sam, jedan, jedinstven, stalan, neograničen, usamljen, trajan, nedostižan, postojan, večan, beskrajan, apsolutan, nepromenljiv, totalan, neprolazan, bezvremen
+stanje: duh, miris, klima, atmosfera, raspoloženje, ozračje
+mali: mini, smanjen, sitan, umanjen, neznatan, neprimetan, džepni, mikroskopski, nerazvijen, neupadljiv, sićušan, premalen, minijaturan, omalen, patuljast
+dugo: tako, dobro, veoma, vrlo, jako, naročito, puno, izuzetno, znatno, prilično, značajno, vidljivo, izraženo, osetno, grdno, propisno, dobrano, gadno, temeljito, dozlaboga
+igra: akcija, sukob, trud, zabava, igranje, ples, preduzetništvo, tuča, bal, igranka, razonoda, sukobljavanje, fajt, pregalaštvo
+proces: sistem, razvoj, postupak, metoda, tok, procedura, tehnika, metodologija, razvitak, parnica, raspra
+autor: razlog, motor, pisac, proizvođač, motiv, umetnik, podsticaj, slikar, tvorac, muzičar, motivacija, stimulans, priređivač, perjanica, izumitelj, poticaj
+stav: pogled, znanje, vid, pozicija, vizija, aspekt, shvatanje, perspektiva, opseg, panorama, gledište, polazište, stajalište, vidik, vidokrug, domašaj, nazor, svetonazor
+stvarno: naravno, jeste, zaista, sigurno, definitivno, prirodno, savršeno, izvesno, nesumnjivo, zasigurno, doista, dakako, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+prostor: kraj, oblast, sektor, teren, područje, okruženje, zona, sredina, teritorija, pojas, regija, okolina, raspon, rastojanje, predeo, zahvat, milje, okružje
+tekst: posao, rezultat, akcija, proizvod, aktivnost, delatnost, delovanje, dejstvo, ruka, preduzetništvo, tvorevina, preduzimanje, pregalaštvo, poduzimanje
+istovremeno: paralelno, uporedo, istodobno, sinhronizovano
+zemlja: država, svet, zemljište, imovina, tlo, imanje, suvo, posed, njiva, kontinent, oranica, kopno, hum, humus, suho, treset, zemljoposed
+izbor: rešenje, odluka, selekcija, opredeljenje, odabir, asortiman, biranje, odabiranje, probiranje
+stalno: uvek, svakodnevno, neprestano, uporno, trajno, neprekidno, kontinuirano, svagda, vazda, danonoćno, postojano, nepromenljivo, svakad, ustrajno, neprestance, danomice
+vrata: ulaz, izlaz, dvorište, dveri, kapija, predvorje, vratar
+nivo: stepen, visina, ravan, stupanj, razina
+vrednost: cena, značaj, veličina, značenje, važnost, težina, težište, važenje, validnost, velesila, dragocenost, bonitet, znamenitost, bitnost, vrednoća
+slika: doživljaj, viđenje, ilustracija, portret, crtež, pejzaž, skica, veduta, predodžba
+jezik: glas, izraz, govor, varijanta, rečnik, redakcija, beseda, recenzija, vokabular, žargon, dijalekt, dijalekat, ekavski, štokavski, narečje, kajkavski, čakavski, idiom, ikavski
+najmanje: samo, nešto, bar, barem, minimum, ama
+odluka: cilj, rešenje, plan, želja, zaključak, kombinacija, namera, volja, opredeljenje, ambicija, težnja, zamisao, ideal, nastojanje, pretenzija, intencija, naum, aspiracija, stremljenje, htenje, umišljaj, determinacija, nakana, primisao
+razlog: činjenica, dokaz, motor, motiv, povod, obrazloženje, argument, podsticaj, opravdanje, motivacija, pokretač, afirmacija, stimulans, poticaj, argumenat, potkrepa
+plan: projekat, slika, ideja, predlog, želja, pregled, verzija, namera, okvir, prikaz, nacrt, projekt, težnja, zamisao, crtež, koncepcija, šema, nastojanje, skica, kostur, maketa, stremljenje, obris, kroki
+vrsta: način, oblik, verzija, pojava, opcija, lik, tip, vid, metoda, stil, rod, varijanta, forma, aspekt, figura, žanr, konfiguracija, interpretacija, varijacija, modus, varijetet, inačica, dubleta
+pare: novac, sredstva, blago, kapital, zlato, lova, keš, moneta
+situacija: uslovi, prilika, pozicija, momenat, okolnost
+ljubav: prijateljstvo, sloga, hemija, naklonost, bliskost, privlačnost, privrženost, odanost, nežnost, toplina, zaljubljenost, intimnost, magnetizam, prisnost, familijarnost
+odnos: veza, unija, dodir, povezanost, zavisnost, jednakost, interakcija, bliskost, slaganje, relacija, korelacija, vezanost, srodstvo, srodnost, istovetnost, homogenost, uzajamnost, koherencija, međuodnos, spojivost, združenost
+model: primer, plan, standard, ugled, obrazac, kriterijum, uzor, projekt, original, crtež, koncepcija, merilo, prototip, norma, putokaz, paradigma, savršenstvo, maketa, satnica, obris
+nedavno: tek, skoro, onomad, maločas
+informacija: činjenica, vest, izjava, obaveštenje, saznanje, novost, objava, obavest, obznana
+tema: predmet, motiv, lajtmotiv
+lice: biće, čovek, osoba, lik, ličnost, duša, obraz, faca, njuška, grimasa
+ugovor: red, sporazum, saradnja, mir, dogovor, savez, razumevanje, saglasnost, sloga, zasedanje, pristanak, sklad, usaglašavanje, slaganje, harmonija, namirenje, dopuštenje, nagodba, pogodba, skladnost, harmoničnost, složnost
+videti: pogledati, uočiti, nastojati, snimiti, težiti, ugledati, zapaziti, razabrati, osmotriti, spaziti
+period: vreme, doba, stepen, vek, faza, sezona, ciklus, razdoblje, era, razmak, etapa, epoha, interval, dob, mena
+mesec: plata, najam
+akcija: delo, borba, aktivnost, napad, nasilje, sukob, akt, udar, osvajanje, agresija, juriš, ofanziva, nalet, navala, prepad, diverzija, nasrtaj
+sutra: ubrzo
+ponekad: nekada, povremeno, katkad, pokatkad
+strana: krilo, banda, bok
+uskoro: sad, odmah, ubrzo
+telo: stvar, predmet, figura, trup
+istina: sigurnost, realnost, stvarnost, pouzdanost, ispravnost, tačnost, vernost, autentičnost, verodostojnost, izvesnost, određenost, izvornost
+iskustvo: znanje, praksa, navika, rutina, izvežbanost
+nekada: pre, jednom, tada, ranije, ponekad, odavno, nekad, davno, nazad, svojevremeno, natrag, obratno, katkad, obrnuto, pokatkad, unatraške
+izvor: oko, uzrok, ključ, bunar, vrelo, vir, izvorište, slatina, buk, istočnik, izdan, toplice, studenac, kladenac, zdenac
+doba: vreme, stanje, period, stepen, vek, faza, sezona, ciklus, momenat, razdoblje, era, razmak, etapa, epoha, stadijum, interval, stepenik, dob, mena
+nikako: nipošto, jok
+institucija: ustanova, služba, kancelarija, zavod, komora, administracija, direkcija, sekretarijat, biro, ured, ispostava, poslovnica, pisarnica, ofis, zapovedništvo, nadleštvo
+voda: more, reka, jezero, tečnost, potok, kišnica, tekućina, tekućica
+agencija: preduzeće, firma, sektor, direkcija, predstavništvo, poslovnica, povereništvo, agentura
+korak: potez
+rast: razvoj, visina, širenje, koncentracija, priliv, razvitak, skupljanje, povećavanje, akumulacija, sazrevanje, gomilanje, stas, bujanje, nicanje, nakupljanje, taloženje, debljanje, rastenje
+policija: milicija
+delo: rad, posao, akcija, postupak, aktivnost, delatnost, potez, operacija, delovanje, dejstvo, akt, radnja, poduhvat, gest, preduzetništvo, zahvat, preduzimanje, pothvat, pregalaštvo, poduzimanje
+poslednji: zadnji, krajnji
+ekipa: tim, kompanija, grupa, društvo, jedinica, krug, savez, družina, bratija, društvance, škvadra
+podaci: izvor, materijal, dokument, materija, dokumentacija, literatura, gradivo, građa, monografija, korpus
+para: banka, kovanica, groš
+komentar: napomena, prigovor, primedba, zapažanje, pojašnjenje, opaska, opservacija
+rat: borba, sukob, vojna, bitka, boj, okršaj
+zvezda: jedinica, pobednik, šampion, prvak, adut, heroina, rekorder, primadona
+posledica: rezultat, proizvod, efekat, ishod, odraz, odjek, implikacija
+dati: pružiti, poslužiti, predati, izneti, prepustiti, pokloniti, dodeliti, servirati, uručiti, prineti, darovati, udeliti
+studija: istraživanje, analiza, opis, istraga, inspekcija, anketa, proučavanje, upit, uočavanje, iznalaženje, anketiranje, izviđanje, saznavanje, raspitivanje
+kvalitet: znak, simbol, priroda, karakteristika, oznaka, logo, crta, odlika, grb, svojstvo, atribut, odličje, logotip, amblem, beleg, dispozicija, znamen, značajka
+zdravlje: zdrav, zdravstveno, forma, otpornost, vitalnost, kondicija, krepost, krepkost
+savet: predlog, skup, preporuka, uputstvo, kolektiv, sugestija, zbor
+postupak: rad, posao, akcija, korak, delo, aktivnost, sredstvo, delatnost, potez, operacija, delovanje, dejstvo, akt, radnja, poduhvat, gest, preduzetništvo, zahvat, pothvat, pregalaštvo, poduzimanje
+uspeh: proizvod, efekat, ishod, ostvarenje, učinak, plod, podvig, ispunjenje, domet, skor, produkt, norma, tekovina, dostignuće, delotvornost, postignuće, stečevina
+znatno: mnogo, vrlo, dosta, jako, prilično, strašno, preterano, izrazito, poprilično, vidljivo, silno, primetno, ludo, osetno, strahovito, grdno, podosta, grozno, stravično
+odgovornost: duša, garancija, savest
+profesor: predavač
+porodica: narod, rodbina, ukućani, porodičan
+otac: autor, razlog, proizvođač, osnivač, tvorac, istraživač, pokretač, generator, inicijator, uzročnik, predak, priređivač, začetnik, perjanica, izazivač, stvoritelj, izumitelj, utemeljivač, tragač, praotac, nalazač
+gospodin: čika, ujak, stric, gospon, barba, šjor, tetak
+snaga: akcija, moć, aktivnost, sila, energija, volja, intenzitet, dinamika, jačina, vitalnost, polet, elan, živost, energičnost, silina, razigranost, srčanost, živahnost, krepost, jakost, bodrost, voljnost, krepkost, silovitost, žustrina, temperamentnost, čilost
+valjda: moguće, verovatno, izgleda, eventualno, zacelo, izgledno
+obaveza: rad, posao, ugovor, zadatak, dužnost, angažovanje, zaduženje, angažovanost, ugovaranje, upošljavanje, obveza, obligacija
+nekako: zapravo, jedva, svakojako
+auto: kola, vozilo, mašina, transport, motorizacija
+raditi: činiti, vršiti, obavljati, delovati, izvoditi, poslovati, dejstvovati, odrađivati, šljakati, službovati
+makar: samo, nešto, najmanje, bar, barem, minimum, ama
+vlasnik: domaćin, gazda, gospodar, imalac, spahija, posednik, sopstvenik, kućevlasnik
+uticaj: moć, delovanje, upliv
+vesti: valjati, drndati, sliniti
+banka: decenija, papir, dekada, leptirica, banknota
+redovno: uvek, neprestano, trajno, konstantno, neprekidno, svagda, vazda, nepromenljivo, svakad, danomice
+kola: auto, automobil, vozilo, mašina, transport, kolica, limuzina, motorizacija
+razlika: odvajanje, suprotnost, različitost, neslaganje, razdvajanje, posebnost, razlikovanje, distinkcija, disparitet, neujednačenost, raznorodnost, razlučivanje, diferenciranost, neskladnost
+pogled: osećaj, vera, teorija, uverenje, teza, shvatanje, moto, načelo, perspektiva, postavka, verovanje, stanovište, gledište, ubeđenje, uverenost, uzdanje, ubeđenost, kredo
+glas: informacija, novina, zvuk, govor, bas, obaveštenje, novost, sopran, tenor, bariton, mecosopran, obavest
+zadatak: posao, cilj, obaveza, uloga, funkcija, smisao, dužnost, svrha, poenta, namena, zadaća
+nauka: iskustvo, znanje, sposobnost, umetnost, praksa, tehnika, stručnost, umeće, zanat, spretnost, umešnost, majstorstvo, obučenost, umnost, kvalifikovanost, uvežbanost, umenje, izvežbanost
+stoga: zato
+prednost: čast, vođstvo, dostojanstvo, obraz, odlika, čistoća, primat, poštenje, dika, preimućstvo, čestitost, pozitivnost, krepost, časnost
+znanje: obrazovanje, glava, školovanje, poznavanje, edukacija, stručnost, obaveštenost, obrazovanost, prosvećenost, upućenost, trezvenost, pronicljivost, učenost, oštroumnost, bistrina, načitanost, školovanost
+obrazovanje: znanje, kurs, čas, predavanje, obuka, seminar, školovanje, edukacija, stručnost, lekcija, pouka, kolegijum, referat, obučavanje, podučavanje, prosvećenost, učenost, erudicija, načitanost, školovanost
+utisak: osećaj, osećanje, dojam, impresija, predosećaj
+zajednica: kompanija, grupa, organizacija, društvo, klub, udruženje, veza, savez, unija, koalicija, liga, zadruga, federacija, bratstvo, lobi, družina, alijansa, naznaka, nagoveštaj, ceh, aluzija, prizvuk, implikacija, konotacija, konzorcij
+sudija: arbitar
+znak: vest, signal, pokazatelj, glasnik, sindrom, novost, indikator, simptom, naznaka, nagoveštaj, objava, indikacija, indicija, znamenje, pokazivač, vesnik, znamen, obznana
+majka: mama, mater, majčica
+nagrada: dokaz, priznanje, potvrda, počast, afirmacija, reputacija, potvrđivanje, odlikovanje
+teme: vrh, čelo, temelj, vis, šiljak, vršak, kičica, sleme
+polako: postepeno, lagano, sporo, postupno, polagano, usporeno
+siguran: krajnji, obezbeđen, pouzdan, izvestan, bezbedan, zaštićen, potvrđen, istinit, osiguran, izričit, nedvosmislen, proveren, nesumnjiv, uverljiv, nesporan, neosporan, kredibilan, neoboriv, nepobitan, bezuslovan, proverljiv, neporeciv, iskustven, činjeničan
+odavno: dugo, davno, onomad, odvajkada, odavna
+prilika: mora, slučaj, situacija, pojava, šansa, drama, epizoda, okolnost, dešavanje, fantom, utvara, zbivanje, zgoda, prigoda, sablast, sanjarija
+blizu: pored, trebalo, skoro, gotovo, kraj, čisto, otprilike, maltene, umalo, pokraj, zamalo, nadomak, nemalo
+predmet: stvar, telo
+maj: majski
+crkva: zakon, din, vera, hram, verovanje, kanon, veroispovest, bogomolja, pobožnost, bazilika, religioznost, konfesija, iman
+korist: račun, interes, profit, dobit, dobitak, vajda, berićet
+mera: zakon, standard, princip, pravilo, pokazatelj, kriterijum, propis, vaga, norma, zakonitost, skala, kanon, pokazivač, lestvica, kriterij
+osnovni: bitan, suštinski, ključni, osnovan, najbitniji, radikalan, principijelan, primaran, temeljan, vitalan, nasušni, načelan, korenit, kardinalan
+sat: čas, časovnik, čuka
+priprema: vežbanje, vežba, pripremanje, ogled, uvežbavanje, isprobavanje
+sporazum: ugovor, red, saradnja, mir, dogovor, savez, razumevanje, saglasnost, sloga, zasedanje, pristanak, sklad, usaglašavanje, slaganje, harmonija, namirenje, dopuštenje, nagodba, pogodba, skladnost, harmoničnost, složnost
+boja: mast, farba
+pozdrav: uzdarje
+dug: velik, dugačak, svestran, izdužen, neizmeran
+proizvod: stvar, rezultat, delo, predmet, roba, učinak, podvig, tvorevina, domet, produkt, opus, vešt, rukotvorina, umotvorina, tvorba, izrađevina
+upravljanje: uprava, menadžment, vođstvo, administracija, postupanje, rukovanje, komanda, liderstvo, dominacija, rukovođenje, upućivanje, vladanje, manipulisanje, manevrisanje, starešinstvo, nadziranje, dirigovanje, manevriranje, kormilarenje
+srce: centar, duša, sedište, sredina, fokus, jezgro, stecište, žarište, čuka, grotlo
+petak: petica
+nekad: pre, jednom, tada, ranije, odavno, davno, nazad, svojevremeno, natrag, obratno, obrnuto, nekoć, svojedobno, unatraške
+poziv: posao, zadatak, položaj, aktivnost, služba, misija, dužnost, zvanje, zanimanje, zaposlenje, profesija, zaduženje, šljaka, angažovanost, poslanje, nameštenje, vokacija, uposlenje
+telefon: aparat, tel
+odakle: otkud
+jedva: tek, teško, najzad, slabo, svakojako
+sport: igra, trening, obuka, vežbanje, vežba, treniranje, gimnastika, dril, fiskultura
+pritisak: uticaj, nasilje, pretnja, ucena, represija, prinuda, pritiskanje, prisila, stiskanje, presija, pritiskivanje
+potreban: pogodan, zahtevan, poželjan, željan, nužan, dobrodošao
+fakultet: student
+nastavak: deo, knjiga, epizoda, produžetak, nastavljanje, svezak, produživanje
+iznos: vrednost, količina, zbir, svota
+bezbednost: policija, osiguranje, sigurnost, obezbeđenje
+smrt: kraj, odlazak, mrak, konac, umiranje, nestajanje, ništavilo, svršetak, izdisaj
+oblik: način, sistem, izgled, verzija, opcija, struktura, sastav, stil, konstrukcija, forma, spoj, aspekt, figura, kompozicija, žanr, sklop, ustrojstvo, naličje, modus, ustroj
+pad: rušenje, raspad, sniženje, spuštanje, slom, havarija, padanje, srozavanje, nazadovanje
+list: papir, časopis, magazin, hartija, revija, zabavnik, dvobroj, podlistak
+pismo: poruka, ćirilica, dopis, pošiljka, azbuka, abeceda, bukvica
+partija: brigada
+dokaz: činjenica, znak, potvrda, obrazloženje, argument, svedočanstvo, atest, znamen
+pregled: indeks, registar, popis, proučavanje, imenik, iznalaženje, anketiranje, adresar, izviđanje, kazalo, saznavanje, raspitivanje
+sem: van, mimo, izuzev, pokraj, povrh
+servis: usluga, služenje, posluga, posluživanje, dvorenje
+zgrada: građevina, zdanje, soliter, neboder, višespratnica
+plus: više, onda, zatim
+vest: informacija, glas, novina, obaveštenje, novost, obavest
+dom: kuća, stan, sedište, adresa, krov, domaćinstvo, matica, prag, apartman, leglo, stanište, gnezdo, konak, ognjište, rezidencija, boravište, nastamba
+smanjenje: gubitak, smanjivanje, slabljenje, umanjenje, snižavanje, nestajanje, devalvacija, splašnjavanje
+poseban: drugi, drugačiji, jedinstven, izuzetan, neobičan, različit, izvanredan, originalan, redak, svojstven, nesvakidašnji, specijalan, izdvojen, drukčiji, zaseban, neočekivan, osoben, neuobičajen, naročit, unikatan, vanredan, atipičan, nekonvencionalan, netipičan, osobit, ekscentričan, ekstravagantan, besprimeran
+retko: izuzetno, ponekad, katkad, iznimno
+materijal: sredstva, naprave, roba, oprema, masa, aparat, materija, alat, sirovine, pomagala, sastojci, pribor, gradivo, građa, sprave, alatka, tkanina, tkanje, tvar
+susret: utakmica, takmičenje, borba, saglasnost, rasprava, zasedanje, nadmetanje, nalet, plenum, natjecanje, susretanje, sretanje
+zadovoljstvo: čast, radost, počast, užitak, veselje
+stan: kuća, dom, sedište, adresa, krov, domaćinstvo, matica, prag, apartman, leglo, stanište, gnezdo, konak, rezidencija, boravište, kut, nastamba
+veza: kontakt, most, dodir, spoj, sklop, konekcija, zglob, relacija, spona, spojnica, fuga, protekcija, sastavnica, poveznica, sastavak
+interes: račun, korist, procenat, profit, dobit, dobitak, vajda, berićet
+plata: novac, plaća, zarada, prihod, primanja, dobit, naknada, isplata, dohodak, nadnica, primitak
+doprinos: učešće, obaveza, delovanje, intervencija, angažovanje, angažman, učestvovanje, dažbina, participacija, angažovanost, trošarina
+granica: grana, ograničenje, ivica, atar, međa, obod, graničar, graničnik, međaš
+fotografija: slika, fotka
+izgled: potencijal, šansa, verovatnoća, fasada, stas, spoljašnost, verovatnost, vanjština
+februar: tašta
+strah: bojazan, jeza, fobija, strepnja, drhtanje, drhtavica, uplašenost
+uloga: posao, cilj, razlog, obaveza, zadatak, lik, sprovođenje, ličnost, glumac, dužnost, glumica, izvođenje, svrha, poenta, junak, namena, gluma, glumački
+automobil: auto, kola, vozilo, mašina, transport, motorizacija
+svuda: okolo, svugde, naokolo, posvuda, gdegod
+super: poseban, sjajan, savršen, istaknut, izvrstan, genijalan, fascinantan, vrstan, vanserijski, vanredan, antika, osobit
+trenutak: čas, momenat, amin, sekund, treptaj, časak
+april: aprilski, travanj
+kurs: obuka, seminar, pravac, smer, tečaj
+stvaranje: nastanak, pojavljivanje, rođenje, rađanje, zora, nastajanje, javljanje, izbijanje, postanak, geneza, nicanje, postanje
+uprava: aparat, administracija, kabinet, magistrat, egzekutiva, nadzorništvo
+funkcija: posao, zadatak, položaj, poziv, aktivnost, služba, delatnost, misija, delovanje, dužnost, struka, zanimanje, zaposlenje, profesija, zaduženje, šljaka, angažovanost, poslanje, nameštenje, vokacija, uposlenje
+jedinica: element, komponenta, karika, atom, zrnce
+skup: skupština, razgovor, sastanak, konferencija, forum, rasprava, sednica, seminar, diskusija, sabor, okupljanje, kongres, konvencija, debata, zasedanje, pretres, usaglašavanje, sesija, simpozijum, dogovaranje, plenum, većanje
+borba: utakmica, susret, takmičenje, sukob, trud, nadmetanje, tuča, natjecanje, sukobljavanje, fajt, makljaža
+razgovor: priča, dogovor, dijalog, komunikacija, govor, rasprava, diskusija, okupljanje, svađa, debata, obraćanje, izražavanje, zbor, sesija, pričanje, komuniciranje, pripovedanje, kazivanje, konverzacija, naracija, govorenje, govorancija
+stepen: stanje, nivo, mera, faza, visina, razmera, ravan, domet, etapa, stadijum, kvantitet, stepenik, stupanj, razina
+kultura: nastava, civilizacija, plemenitost, prefinjenost, obrazovanost, rafiniranost, dostojanstvenost
+nastaviti: dodati, produžiti, dopuniti, dometnuti
+sav: ceo, kompletan, ukupan, celokupan, sveobuhvatan, celovit, upotpunjen, kompletiran, apsolutan, totalan, integralan, temeljit, nepodeljen
+podatak: činjenica, informacija, vest, izjava, obaveštenje, saznanje, novost, objava, obavest, obznana
+ustanova: institucija, služba, kancelarija, zavod, komora, administracija, direkcija, sekretarijat, biro, ured, ispostava, poslovnica, pisarnica, ofis, zapovedništvo, nadleštvo
+napraviti: učiniti, uraditi, ostvariti, izvršiti, stvoriti, izvesti, obaviti, sprovesti, realizovati, pripremiti, proizvesti, urediti, izraditi, srediti, načiniti, spremiti, prirediti, zaokružiti, narediti, počiniti, pripraviti, zgotoviti
+svesti: umanjiti, redukovati, prepoloviti, saseći, skresati
+sastanak: grupa, skupština, skup, razgovor, saglasnost, konferencija, forum, rasprava, sednica, seminar, diskusija, okupljanje, aranžman, kongres, debata, miting, zasedanje, pretres, usaglašavanje, sesija, slaganje, simpozijum, nagodba, dogovaranje, plenum, većanje, kongruencija
+znati: vladati, upotrebljavati, manipulisati, operisati, baratati
+koncept: projekat, slika, ideja, plan, predlog, pregled, verzija, okvir, prikaz, projekt, zamisao, crtež, koncepcija, šema, skica, kostur, maketa, sinopsis, satnica, obris, kroki
+verzija: način, oblik, vid, varijanta, interpretacija, varijacija, prerada, inačica
+bolest: slabost, nemoć, boljka, nemoral, blud, pokvarenost, beščašće, bestidnost, iskvarenost, opscenost, poročnost, raspuštenost, razvratnost
+definitivno: naravno, jeste, zaista, sigurno, svakako, stvarno, apsolutno, prirodno, savršeno, izvesno, itekako, neminovno, pouzdano, zasigurno, doista, dakako, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+pojava: biće, čovek, slučaj, lice, prilika, događaj, lik, tip, glava, ličnost, organizam, duša, fenomen, pojedinac, obraz, individua, faca, jedinka, persona, njuška, smrtnik
+istorija: povest
+kontakt: veza, most, dodir, spoj, sklop, zglob, relacija, spona, spojnica, fuga, sastavnica, poveznica, sastavak
+more: voda, kupanje, bara
+hotel: hostel
+aktivnost: rad, posao, akcija, korak, delo, postupak, mera, delatnost, operacija, delovanje, dejstvo, akt, radnja, poduhvat, preduzetništvo, preduzimanje, pothvat, pregalaštvo, poduzimanje
+spreman: rad, završen, napravljen, kadar, rešen, gotov, pripremljen, sklon, raspoložen, voljan, dovršen, pripreman, zagrejan, pripravan, oran, rezolutan
+kredit: dug, poverenje, crta, zajam, posuda, pozajmica, zalog, otplata, poček, kreda, veresija
+pomalo: imalo, ponešto
+napad: akcija, nasilje, sukob, udar, osvajanje, agresija, zahvat, zavera, juriš, ofanziva, nalet, navala, digresija, prepad, sabotaža, diverzija, nasrtaj
+pita: gibanica, štrudla, banica, savijača
+pamet: duh, glava, inteligencija, intelekt, rezon, logos, inventivnost, razboritost, lucidnost, trezvenost, pronicljivost, oštroumnost, bistrina, umnost, promišljenost, dosetljivost, razbor, promućurnost
+hrana: namirnica, ishrana, obrok, jelo, rana, hranjenje
+osnova: podrška, fond, baza, baba, stub, podloga, oslonac, uporište, nosač, osnovica, postolje, atlas, stožer, potpora, naslon, babica, stalak, zaleđe, stativ, poštapalica, podupirač, kotva
+porez: obaveza, doprinos, prilog, davanje, akciza, zaduženje, dažbina, namet, glavnica, obaveznost, trošarina, kontribucija, glavarina
+doneti: dati, dovesti, navesti, preneti, dostaviti, isporučiti, prineti, dogurati, doterati, dopremiti, dovući, dobaciti
+predstavnik: veza, most, lanac, nit, poverenik, trgovac, spona, otpravnik, opunomoćenik, poveznica
+san: cilj, odluka, plan, želja, odmor, namera, spavanje, ambicija, težnja, zamisao, nastojanje, intencija, naum, relaksacija, aspiracija, stremljenje, htenje, sanak, sanjanje, nakana, primisao, snivanje
+analiza: studija, istraživanje, pregled, test, opis, ispitivanje, istraga, utvrđivanje, proba, proučavanje, eksperiment, pretraga, ogled, uočavanje, iznalaženje, izviđanje, promatranje, opit, propitivanje
+republika: država, svet, zemljište, carstvo, pokrajina, tlo, kolonija, federacija, suvo, kontinent, kraljevstvo, provincija, konfederacija, kopno, protektorat, vojvodstvo, humus, suho, treset
+opcija: mogućnost, varijanta
+krug: kompanija, društvo, ekipa, kolo, venac, prsten, družina, bratija, obruč, kolut, društvance, kotur, alka, beočug, kružnica, bandaža, vitica, obrub, škvadra
+sila: akcija, napad, nasilje, sukob, udar, osvajanje, agresija, juriš, ofanziva, nalet, prepad, diverzija, nasrtaj
+otvoren: čestit, komunikativan, društven, druželjubiv, socijalan, prostodušan, istinoljubiv, nepokvaren
+uraditi: učiniti, napraviti, rešiti, ostvariti, završiti, izvršiti, izvesti, obaviti, preduzeti, sprovesti, realizovati, pripremiti, proizvesti, urediti, izraditi, srediti, načiniti, okončati, spremiti, razrešiti, prirediti, dovršiti, svršiti, počiniti, dokrajčiti, uglaviti, pripraviti, apsolvirati, zgotoviti
+vojska: snage, jedinica, vojnici, armija, trupe, bataljon, ljudstvo, čizma, soldateska
+ustav: brana
+sramota: mana, skandal, bruka, sram, stid, mrlja, poniženje, blam, stidljivost, blamaža, ljaga
+motor: podsticaj, motivacija, pokretač, podstrek, stimulans, skuter, poticaj, motocikla
+napredak: razvoj, rast, povećanje, poboljšanje, kretanje, porast, oporavak, pomak, uspon, prosperitet, progres, boljitak, procvat, ekspanzija, ozdravljenje, cvetanje, uzdizanje, eskalacija, pomicanje, oporavljanje, odmicanje
+automatski: mašinski, mehanički, programiran, automatizovan, upravljan
+usta: vrat, vilica, guša
+visok: velik, suv, uzak, vitak, stasit, žgoljav, povisok, istegnut, koštunjav
+uslov: preduslov
+novine: list, izdanje, dnevnik, časopis, magazin, štampa, glasnik, publikacija, revija, nedeljnik, glasilo, žurnal, zabavnik, tabloid, periodika, dvobroj, tisak, podlistak, večernjak
+beba: novorođenče, odojče, bebica, detence, prinova, dojenče, detešce
+vratiti: formirati, uspostaviti, odbiti, renovirati, vrnuti
+sunce: svetlo, zraka, zrak, breme, mlaz, bala, svežanj, plast, zavežljaj, stog, luč, zamotuljak, babura, zavijutak, smotak
+uzrok: početak, izvor, osnova, poreklo, platforma, koren, podloga, matica, pozadina, leglo, vrelo, polazište, stožer, ishodište, začetak, polaznica, zametak, prapočetak, praizvor
+pokret: saobraćaj, prevoz, promet, potez, kretanje, pokretanje, transport, vožnja, gest, pomeranje, prenošenje, premeštanje, pomicanje, prevoženje, saobraćanje, micanje
+prisustvo: učešće, postojanje
+savez: ugovor, red, zajednica, sporazum, saradnja, mir, dogovor, razumevanje, saglasnost, federacija, sloga, zasedanje, pristanak, družina, sklad, usaglašavanje, ceh, slaganje, harmonija, namirenje, dopuštenje, nagodba, pogodba, skladnost, harmoničnost, složnost
+priznanje: hvala, uticaj, dokaz, potvrda, ugled, autoritet, afirmacija, prestiž, potvrđivanje
+sloboda: nezavisnost, suverenitet, autonomija, samostalnost, suverenost, samoupravljanje, smelost, odvojenost, autonomnost, odvažnost, herojstvo, viteštvo, neustrašivost, samosvojnost, nepokolebljivost, zasebnost
+barem: samo, nešto, najmanje, makar, bar, minimum, ama
+dovesti: uvesti, navesti, preneti, dostaviti, isporučiti, prineti, dogurati, doterati, dopremiti, dovući, dobaciti
+car: vrh, kralj, stariji, vođa, knez, čelo, komandant, razum, upravnik, gospodar, kruna, starešina, upravljač, ban, župan, poglavica, glavešina, kormilar, vlastodržac, glavar
+lik: čovek, prilika, pojava, glava, ličnost, duša, obraz, faca, jedinka, njuška, grimasa
+tip: način, vrsta, red, verzija, pojava, opcija, lik, vid, metoda, stil, kategorija, rod, klasa, grana, forma, aspekt, figura, marka, žanr, konfiguracija, interpretacija, sorta, varijacija, modus, soj, varijetet, dubleta
+nezavisnost: sloboda, suverenitet, autonomija, samostalnost, suverenost, samoupravljanje, odvojenost, autonomnost, samosvojnost, zasebnost
+povratak: dolazak, vraćanje
+vrh: teme, krov, čelo, kruna, vis, špic, šiljak, vršak, kičica, sleme
+nedostatak: greška, deficit, manjak, slabost, propust, nestašica, odstupanje, anomalija, izuzetnost, nepravilnost, nesklad, neispravnost, oskudica, neobičnost, pomanjkanje, omaška, iznimka, feler, nepotpunost, nenormalnost
+briga: problem, zaštita, pažnja, muka, nevolja, mar, glavobolja, bojazan, jad, breme, staranje, starateljstvo, nedaća, pozornost, napast, savesnost, tutorstvo, brižnost, pažljivost
+oktobar: oktobarski
+ostatak: komad, parče, odlomak, patrljak
+mleko: sir, krava, sisa, dojenje, duda, muzara, varenika
+poverenje: poštovanje, vera, ugled, kredibilitet, verovanje, pouzdanje
+ustava: brana
+govoriti: vesti, pričati, tvrditi, objavljivati, pevati, izlagati, opisivati, izgovarati, kazivati, iskazivati, plesti, zboriti, pripovedati, besediti, divaniti
+duh: prilika, miris, prikaza, mašta, privid, fantom, utvara, avet, sablast, fantazma, sanjarija, pričina
+linija: prava, vrsta, niz, red, kurs, duž, pravac, smer, kriva, pruga, crta, kolona, redak, paralela, vertikala, brazda, riga, krivulja, normala, meandar
+vek: vreme, doba, postojanje, glava, sezona, trajanje, razdoblje, era, etapa, nedogled, epoha, egzistencija, interval, življenje, dob, beskraj, stoleće, beskrajnost, egzistiranje
+skupa: zajedno
+polje: ravan, paša, livada, pašnjak, ledina, proplanak, zaravan, ispaša, čistina
+nov: mali, mlad, svež, originalan, zelen, skorašnji, nezreo, novcat, nedozreo
+vid: način, pogled, oblik, izgled, verzija, lik, tip, manifestacija, metoda, stil, rod, varijanta, forma, aspekt, figura, žanr, konfiguracija, modus
+procenat: račun, interes, profit, dobit, dobitak, vajda, berićet
+sposobnost: iskustvo, znanje, umetnost, praksa, veština, kvalifikacija, navika, mudrost, stručnost, umeće, kompetencija, rutina, spretnost, umešnost, majstorstvo, obučenost, majstorija, okretnost, upućenost, uvežbanost, umenje, izvežbanost
+dokument: činjenica, znak, potvrda, obrazloženje, svedočanstvo, isprava, papiri, atest, legitimacija, znamen, iskaznica
+roman: rečnik, zbirka, biografija, priručnik, monografija, kuvar, atlas, antologija, autobiografija, slikovnica
+smisao: cilj, značaj, sadržaj, suština, duša, značenje, svrha, poenta, logika, bit, esencija, rezon, bitnost, poanta
+predstava: slika, doživljaj, viđenje, predrasuda, predodžba
+vozilo: auto, kola, automobil, mašina, transport, kolica, motorizacija
+postojanje: vek, glava, trajanje, egzistencija, življenje, živost, egzistiranje, opstojanje
+muzika: sastav, orkestar, melodija, svirka, svirači
+interesovanje: koji, jedan, ovim, kojih, prva, zavisi, procesu, osnovnih, interes, odvija, faktora, omogućuje, najvažnijih, glavnim, pamćenje, zanimanje, fazama, zainteresovanost, pamćenja, karika, lančanom
+kralj: ime, lice, lik, veličina, klasa, figura, obraz, marka, maestro, kalibar, monarh, besmrtnik, ekscelencija
+generacija: godina, klasa, razred, godište, koleno, naraštaj, vršnjak, pokolenje, parnjak
+struktura: organizacija, red, mreža, skup, mašina, aparat, uređenje, postavka, sklop, splet, ustrojstvo, mašinerija, sistematičnost
+umetnost: iskustvo, stvaranje, sposobnost, veština, kvalifikacija, kreativnost, stvaralaštvo, produktivnost, stručnost, umeće, kreacija, umešnost, inventivnost, invencija, tvorba, umenje
+blago: sredstva, pare, kapital, zlato, lova, keš, moneta
+zadovoljan: srećan, raspoložen, lagan, radostan, nasmejan, vedar, optimističan, živahan, vitalan, blažen, zanesen, obradovan, ozaren, razdragan, razigran, poletan, oran, lepršav, krepak, raspevan, žovijalan, razgaljen
+manifestacija: oblik, izgled, skup, vid, prijem, praznik, protest, akademija, demonstracije, koktel, primanje, smotra, ispoljavanje, povorka, priredba, banket
+uzeti: prihvatiti, preuzeti, primiti, oteti, oštetiti, dohvatiti, ugrabiti, istrgnuti, zgrabiti, prigrabiti
+svest: duh, duša, svestan, svesno, razum, podsvest, svesnost, racionalnost, prisebnost, pribranost
+potencijal: mogućnost, snaga, moć, sposobnost, kapacitet, navala, kondicional
+nazad: iza, unazad, pozadi, natrag, obratno, obrnuto, unatraške, straga
+gubitak: pad, šteta, propast, nesreća, stečaj, neuspeh, raspad, bankrot, slom, prokletstvo, debakl, likvidacija, krah, havarija, fijasko, brodolom, neman, provalija, bankrotstvo, nazadovanje, podbačaj, ruina, prokletinja
+strategija: način, put, sistem, program, model, pristup, oblik, praksa, metoda, stil, običaj, obrazac, metodologija, šema, matrica, kalup, manir, modus, kliše, predložak, slog, modalitet, prosede
+izraz: idiom
+odlazak: odvajanje, napuštanje, oproštaj, razdvajanje, razlaz, doviđenja, razilaženje, odlaženje
+dolazak: pojava, skok, približavanje, stupanje, dolaženje, dospeće, nailazak, pristizanje, stizanje, prispeće, primicanje
+sredstvo: rad, posao, akcija, delo, postupak, aktivnost, delatnost, operacija, delovanje, dejstvo, akt, radnja, poduhvat, preduzetništvo, pothvat, pregalaštvo, poduzimanje
+publika: posetioci, posmatrači, auditorijum, gledalište, publikum, audijencija
+praksa: primena, navika, vršenje, rutina
+neverovatno: toliko, izuzetno, more, čudo, masa, reka, planina, brdo, ogromno, silno, obilje, neshvatljivo, grdno, podosta, neopisivo, kamara, dozlaboga
+obezbediti: osiguravati
+odjednom: samo, brzo, naglo, iznenada, neočekivano, najednom, naprasno, iznenadno, nenadano, promptno, naprečac, neslućeno
+voditi: upravljati, predvoditi, rukovoditi, predsedavati, gospodariti, drmati, stolovati
+izjava: obaveštenje, saopštenje, iskaz, obraćanje, konstatacija, objava
+brat: brata, bata, braca, brale, burazer, buraz, bratac, bratić
+uvid: vid, sagledavanje, uviđanje
+sastav: sistem, izgled, struktura, stil, konstrukcija, forma, spoj, kompozicija, sklop, ustrojstvo, naličje, ustroj
+promeniti: prilagoditi, izmeniti, podesiti, srediti, adaptirati, preinačiti, preoblikovati
+metoda: način, put, sistem, program, plan, model, pristup, postupak, oblik, sredstvo, praksa, stil, pravilo, procedura, tehnika, metod, obrazac, modus, slog, modalitet, indukcija, dedukcija
+izabran: kvalitetan, biran, izdvojen, uvažen, sortiran, probran
+prevoz: saobraćaj, promet, putovanje, kretanje, pravac, transport, vožnja, transfer, prenošenje, prevoženje, saobraćanje
+devojka: žena, riba, ženska, mačka, gospođica, ljubavnica, snajka, devojče, cica, ženskinja
+razumevanje: pogled, ocena, čitanje, shvatanje, milost, interpretacija, poimanje, saučešće, gledište, simpatija, spoznaja, saosećanje, vidik, osećajnost, empatija, samilost, saosećajnost, prosuđivanje, nazor, duševnost, saosećaj
+prijatelj: brat, drug, drugar, bata, poznanik, saputnik, kompanjon, jaro, sapatnik, sudrug
+zarada: novac, nagrada, plaća, plata, profit, prihod, primanja, dobit, naknada, dobitak, honorar, dnevnica, dohodak, nadnica, primitak
+otprilike: oko, trebalo, uglavnom, gotovo, nekih, blizu, čisto, dobrih, približno, maltene, zamalo, naoko, nasumice, cirka, nemalo
+faktor: činilac
+amandman: nastavak, dodatak
+kandidat: takmičar, konkurent, takmac, pretendent, aspirant
+meso: pečenje, piletina, jagnjetina, govedina, svinjetina, teletina, ćuretina, junetina, prasetina, ovčetina, konjetina, pačetina
+most: veza, predstavnik, lanac, nit, prelaz, poverenik, trgovac, spona, otpravnik, nadvožnjak, opunomoćenik, poveznica, vijadukt
+student: fakultet
+pojam: reč, misao
+zlo: briga, kamen, zločin, muka, nesreća, nevolja, tegoba, stradanje, mučenje, patnja, nedaća, trpljenje, strahota, tortura, napast, golgota, nedelo, zlodelo, mrcvarenje, neugodnost, kalvarija
+igrati: plesati, skakutati, poskakivati
+kriv: odgovoran, kos, nagnut, savijen, iskrivljen, krivudav, iskošen, vijugav
+prilog: posao, akcija, aktivnost, delatnost, delovanje, dejstvo, ruka, preduzetništvo, preduzimanje, pregalaštvo, poduzimanje
+kupiti: uzeti, kupovati, nabaviti, pribaviti, mazati, pazariti, premazivati, maznuti, pridobijati, podmazivati, podmićivati
+glava: glavni, telo, poglavlje, poglavar, glavica, glavnica, poglavica, glavešina, glavar
+povremeno: ponekad, nekada, katkad, pokatkad
+poklon: plata, poštovanje, priznanje, dar, počast, odlikovanje, naklon, poklonstvo
+dole: odozdo
+dodati: dati, pružiti, predati, dostaviti, prebaciti
+lep: interesantan, atraktivan, fin, elegantan, zgodan, sladak, privlačan, mio, dopadljiv, blistav, primamljiv, krasan, naočit, rafiniran, stasit, meden, graciozan, ubav, lepuškast, kićen, dražestan
+rado: odmah, namerno, svesno, spremno, volonterski, zdušno, svesrdno, svojevoljno, milom, voljno, oberučke, dragovoljno
+nasilje: zlostavljanje, mučenje, nemilost, surovost, brutalnost, prinuda, okrutnost, divljaštvo, ugnjetavanje, prisila, žestina, prisiljavanje, nasilništvo, tlačenje, nehumanost, nemilosrdnost, neljudskost, silovitost, neumoljivost, nečoveštvo
+tok: rast, povećanje, kurs, kretanje, porast, smer, ekspanzija, proširivanje, povećavanje, strujanje, eskalacija, rastakanje, proticanje, tečenje
+vazduh: prostor, sloboda, duh, duša, atmosfera, disanje, dah, kiseonik, provetravanje, ozon
+promet: saobraćaj, kretanje, transport, vožnja, transfer, prenošenje, prevoženje, saobraćanje
+nada: želja, poverenje, vera, verovanje, uzdanica, pouzdanje
+pesma: stvar, spev, epigram, popevka
+seks: kresanje, snošaj, obljuba, zveketanje
+novina: list, novinar, časopis, inovacija, novinarstvo, novinarka, novost
+karakter: duh, krv, ličnost, identitet, duša, priroda, osobine, unutrašnjost, mentalitet, psihologija, ego, individualnost, narav, senzibilitet, temperament, natura, psiha, ćud, kov, nastrojenost
+sigurnost: obaveza, vera, uverenje, obećanje, pouzdanost, kredibilitet, iskrenost, vernost, istinitost, zalog, izvesnost, pouzdanje, uverenost, određenost
+trening: igra, sport, obuka, vežbanje, vežba, treniranje, gimnastika, dril, fiskultura
+najzad: konačno, jedva, napokon, naposletku
+stil: način, put, sistem, program, plan, pristup, postupak, oblik, sredstvo, praksa, metoda, pravilo, procedura, tehnika, obrazac, metodologija, šema, matrica, slog, modalitet
+energija: snaga, aktivnost, pogon, zamah, polet
+novembar: novembarski
+lokacija: mesto, kraj, prostor, oblast, područje, zona, sredina, teritorija, predeo, nalazište, kop, rejon
+poseta: gost, obilazak, pohod, posetilac, pohode, obilaženje, regrutacija, vizita
+park: parka
+tajna: nepoznanica, zagonetka, tajanstvo
+slobodan: oslobođen, samostalan, nezavisan, autonoman, samoupravni, ispražnjen, samosvojan, nesputan
+avgust: kolovoz
+radost: sreća, veselje, lakoća, vedrina, veselost, razigranost, živahnost, razdraganost, lepršavost, poletnost, ozarenost, ushit
+novinar: kolumnista, publicista
+unija: kompanija, grupa, organizacija, društvo, klub, zajednica, savez, koalicija, sindikat, asocijacija, zadruga, federacija, bratstvo, družina, alijansa, ceh, konzorcij
+opis: studija, istraživanje, pregled, analiza, istraga, inspekcija, utvrđivanje, anketa, proučavanje, pretraga, upit, uočavanje, iznalaženje, anketiranje, izviđanje, promatranje, saznavanje, propitivanje, raspitivanje
+upotreba: rad, pokret, primena, energija, primenjivanje, upotrebljavanje
+zvuk: glas, ritam, šum, melodija
+princip: pogled, vera, uverenje, shvatanje, načelo, verovanje, gledište, uverenost, ubeđenost
+vladika: episkop, prvosveštenik
+poraz: pad, šteta, propast, stečaj, neuspeh, raspad, bankrot, slom, prokletstvo, debakl, krah, fijasko, brodolom, neman, srozavanje, nazadovanje, podbačaj, nizbrdica, ruina, rasap, prokletinja
+staviti: ostaviti, postaviti, smestiti, odložiti, položiti, namestiti, locirati, nabiti, metnuti, turiti
+roba: stvar, rezultat, predmet, ostvarenje, produkt, toaleta, garderoba, vešt, nošnja, presvlaka, prnje, trikotaža, preobuka, izrađevina
+saglasnost: red, mir, jedinstvo, prihvatanje, odobrenje, odobravanje, sloga, pristanak, slaganje, harmonija, pristajanje, dopuštenje, nagodba, pogodba, ugodnost, skladnost, harmoničnost, složnost, sazvučje
+dijalog: razgovor, komunikacija, sukob, rasprava, spor, diskusija, razmatranje, konflikt, polemika, pretres, dokazivanje, nesuglasica, opštenje, raspravljanje, konverzacija, obrazlaganje, prepirka, govorenje, većanje, prepiranje
+potez: akcija, korak, delo, postupak, tačka, dejstvo, akt, radnja, gest, zahvat
+kategorija: način, grupa, vrsta, strana, red, oblik, tip, linija, rod, klasa, grana, marka, žanr, sorta, soj
+ozbiljan: značajan, bitan, znatan, fokusiran, cenjen, istaknut, relevantan, pažljiv, smiren, sređen, uvažen, trezven, pribran, sabran, priseban, hladnokrvan, zamašan
+komunikacija: priča, veza, razgovor, kontakt, dijalog, govor, rasprava, diskusija, informisanje, debata, obraćanje, izražavanje, pričanje, komuniciranje, pripovedanje, kazivanje, opštenje, konverzacija, naracija, govorenje, govorancija
+radionica: laboratorija, atelje, oružarnica
+pozicija: mesto, uslovi, prilika, tačka, lokacija, momenat, okolnost, središte
+oprema: sredstva, materijal, naprave, aparat, alat, pomagala, pribor, sprave, alatka
+identitet: ličnost, opredeljenje, pripadnost, jednakost, individualnost, istovetnost, osobnost
+fudbal: sport, fudbaler
+pravilo: zakon, odredba, uredba, propis
+unazad: pre, jednom, tada, ranije, odavno, nekad, davno, nazad, svojevremeno, natrag, obratno, obrnuto, nekoć, svojedobno, unatraške
+jasan: određen, stabilan, pouzdan, precizan, definisan, utvrđen, suv, detaljan, ustanovljen, razumljiv, blag, svetao, nedvosmislen, objašnjen, nesumnjiv, bistar, eksplicitan, shvatljiv, podroban, decidiran, domišljen
+mama: baba, mater, svekrva, zaštitnica, dada, matera
+trend: fazon, šik, pomodarstvo
+svetlost: svetlo, videlo, osvetljenje, sijalica, vidljivost, rasveta, osvetljenost, belina, svetiljka, lučka, luč, iluminacija
+institut: institucija, zavod
+konferencija: veće, skupština, skup, razgovor, sastanak, forum, rasprava, sednica, sabor, okupljanje, zbor, tečaj, raspravljanje, plenum
+ekonomija: tržište, privreda, trgovina, privređivanje
+pokazati: prikazati
+supruga: žena, gospođa, baba, saputnica
+brzina: agilnost, ekspeditivnost, hitrost
+jak: jako, jačina
+kompletan: ceo, sav, ukupan, celokupan, sveobuhvatan, celovit, upotpunjen, kompletiran, apsolutan, totalan, integralan, temeljit, nepodeljen
+stranica: strana
+boravak: život, bavljenje, stanovanje, bivanje, prebivanje, obitavanje, boravljenje
+ulje: zejtin
+jednostavan: jasan, običan, lak, prosečan, skroman, očigledan, uobičajen, razumljiv, osrednji, banalan, očit, konvencionalan, svakidašnji, shvatljiv, nemaštovit, jednolik, neukrašen
+lekar: doktor, hirurg, pedijatar, terapeut, ortoped, zubar, vrač, iscelitelj, medicinar, travar, vidar, lečnik, biljar
+mirno: umereno, opušteno, nepomično, hladnokrvno, ležerno, trezveno, uzdržano, odmereno, nepokretno, neusiljeno, umireno
+sajam: skup, sabor, pazar
+procedura: sistem, proces, postupak, metoda, tehnika, metodologija
+koalicija: kompanija, grupa, društvo, klub, zajednica, udruženje, savez, unija, sindikat, asocijacija, zadruga, federacija, bratstvo, družina, alijansa, ceh, konzorcij
+prijem: pristup, prihvatanje, doček, kapija, prihvat, recepcija, dobrodošlica, prihvaćanje
+redom: odreda
+oduvek: odvajkada, odavna
+govor: jezik, izraz, predavanje, slovo, obraćanje, beseda, propoved, istup, žargon, dijalekt, zdravica, ekavski, štokavski, narečje, kajkavski, čakavski, idiom, ikavski, oracija
+hitno: odmah, važno, nužno, hitan, žurno, hitnost, neodložno, hitnja
+kapital: imetak
+post: odricanje, apstinencija, obuzdavanje, suzdržavanje, stoicizam
+kombinacija: veza, sastanak, kontakt, most, dodir, spajanje, sklop, konekcija, zglob, relacija, spona, fuga, sastavnica, poveznica, sastavak
+tehnika: način, put, sistem, program, proces, model, pristup, oblik, strategija, praksa, metoda, stil, procedura, običaj, forma, obrazac, protokol, metodologija, šema, matrica, kalup, manir, modus, kliše, predložak, modalitet, prosede
+doktor: hirurg, pedijatar, terapeut, ortoped, zubar, vrač, iscelitelj, medicinar, travar, vidar, druid, biljar
+ambasador: diplomata, izaslanik, konzul, ataše, veleposlanik
+prenos: transfer, prenošenje, premeštanje, premeštaj
+praznik: zadovoljstvo, prijem, akademija, koktel, primanje, užitak, raspust, milina, milje, blaženstvo, banket, ugodnost, ugoda, dragost
+faza: stanje, period, stepen, momenat, etapa, stadijum, stepenik
+kamen: dragulj, mermer, živac, granit, alem, mramor, stanac
+normalan: zdrav, stabilan, redovan, utvrđen, propisan, uobičajen, stalan, uravnotežen, regularan, ustaljen, svakidašnji, priseban, svagdašnji, redovit
+soba: prostorija, kuhinja, kupatilo, trpezarija, odaja, sobni
+privreda: saobraćaj, industrija, ekonomija, turizam, trgovina, poljoprivreda, građevinarstvo, rudarstvo, zanatstvo
+profit: račun, interes, dobit, dobitak, vajda, berićet
+preporuka: veće, predlog, uputstvo, sugestija, zauzimanje, referenca, zagovaranje
+svetlo: svetlost, videlo, osvetljenje, sijalica, vidljivost, rasveta, osvetljenost, belina, svetiljka, lučka, luč, iluminacija
+bas: vest, govor, sopran, kontrabas, bariton, mecosopran
+teret: opterećenje, tovar, balast
+realnost: stvarnost, ispravnost, tačnost, vernost, autentičnost, istinitost, verodostojnost, izvornost
+kazna: nesreća, nevolja, tegoba, beda, mučenje, breme, patnja, vrag, bič, jaram, strahota, mrcvarenje, kalvarija, pokora
+kancelarija: sekretarijat, biro, ured, pisarnica, ofis, tajništvo
+sukob: rasprava, spor, obračun, konflikt, svađa, neslaganje, okršaj, nesuglasica, razdor, rascep, konfrontacija, nesloga, razmirica, procep, kolizija, raspra, kavga, zavada, trvenje, opreka
+zid: otpor, prepreka, sprečavanje, ograničenje, teškoća, blokada, kočnica, smetnja, hendikep, ćorsokak, zavrzlama, začkoljica, inhibicija, zapreka, duvar
+termin: vreme, rok
+misija: posao, cilj, projekat, obaveza, zadatak, putovanje, dužnost, delegacija, poduhvat, predstavništvo, ekspedicija, izaslanici, poslanstvo, zadaća, izaslanstvo, poslanje
+uticati: delovati
+vera: zakon, crkva, din, religija, verovanje, kult, vernost, ubeđenje, kanon, veroispovest, pobožnost, religioznost, konfesija, iman
+jela: bor, jelka, lug, borić
+priznati: reći, prihvatiti, otkriti, proveriti, potpisati, poveriti, progovoriti, propevati
+mlada: nevesta, snajka, mladenka
+finale: kraj, završetak, prestanak, konac, svršetak, dovršetak
+ostaviti: odustati, napustiti, prekinuti, zanemariti, odbaciti, zaobići, ignorisati, obustaviti, potisnuti, izostaviti, mimoići, prenebregnuti, zapustiti
+rasprava: razgovor, sastanak, sukob, sednica, spor, kongres, konflikt, neslaganje, nesuglasica, raskol, razdor, rascep, nesloga, razmirica, začkoljica, procep, kolizija, kavga, zavada, većanje, trvenje
+kapacitet: snaga, moć, potencijal, šansa, veličina, verovatnoća, verovatnost, potencija
+podjednako: isto, jednako, uporedo, ravno, ravnopravno, ujednačeno
+nadzor: pregled, kontrola, inspekcija, obilazak, provera, revizija, pretres, smotra, nadgledanje, pregledanje, verifikacija, proveravanje, promatranje, nadziranje, pregledavanje, nadzorništvo
+nebo: visine, lepota, nebesa, idila
+masa: more, sila, čudo, kupa, reka, milijardu, mnoštvo, brdo, poplava, obilje, sijaset, štos, kamara, hrpa, nakupina
+kretanje: put, pokret, saobraćaj, prevoz, promet, pokretanje, transport, vožnja, izlet, pomeranje, prenošenje, premeštanje, pomicanje, prevoženje, saobraćanje, micanje
+uspeti: postići, postignuti, prodreti
+teorija: zakon, pogled, vera, uverenje, teza, shvatanje, načelo, postavka, verovanje, gledište, aksiom, postulat, uverenost, uzdanje, ubeđenost, kredo
+ostvariti: učiniti, napraviti, uraditi, završiti, izvršiti, stvoriti, izvesti, obaviti, sprovesti, realizovati, proizvesti, izraditi, načiniti, okončati, prirediti, narediti, dovršiti, svršiti, počiniti, dokrajčiti, pripraviti, apsolvirati, oživotvoriti, zgotoviti
+namera: cilj, rešenje, ideja, odluka, plan, želja, zaključak, volja, smer, opredeljenje, ambicija, pomisao, težnja, zamisao, nastojanje, pretenzija, intencija, naum, aspiracija, stremljenje, htenje, umišljaj, determinacija, nakana, primisao, namisao
+predavanje: obrazovanje, kurs, čas, govor, obuka, seminar, davanje, nastava, izlaganje, lekcija, dostavljanje, pouka, kolegijum, tečaj, referat, obučavanje, podučavanje, istupanje, istup
+nalog: propis, komanda, naređenje, zapovest, zapoved
+sudbina: sutra, bogatstvo, perspektiva, potomstvo, udes, usud, ispis, kob, sutrašnjica
+svojevremeno: pre, jednom, tada, ranije, odavno, nekad, davno, nekoć, svojedobno
+delovanje: rad, posao, akcija, postupak, aktivnost, delatnost, potez, operacija, dejstvo, akt, radnja, poduhvat, gest, preduzetništvo, zahvat, preduzimanje, pothvat, pregalaštvo, poduzimanje
+rukovodstvo: sistem, vlada, vlast, vrh, vođstvo, administracija, kormilo, vodstvo, vrhuška, starešinstvo
+priroda: kraj, prostor, oblast, sektor, duh, teren, karakter, područje, ličnost, identitet, duša, polovina, okruženje, osobine, klima, zona, teritorija, regija, središte, okolina, mentalitet, psihologija, ego, predeo, milje, individualnost, narav, podneblje, psiha, rejon, kov, nastrojenost
+odeljenje: grupa, skup, sektor, razred, odeljak, skupina
+okvir: granice, veličina, obim, opseg, širina, raspon, dohvat, zamah, dijapazon, rasprostranjenost, obuhvat, vidik, amplituda, domak, raširenost, domašaj, doseg, dalekosežnost
+drvo: koren, stablo, lamperija
+polovina: sredina, pola, polovica, polutka
+pozitivan: saglasan
+karakteristika: kvalitet, znak, simbol, priroda, oznaka, logo, crta, odlika, grb, svojstvo, atribut, odličje, logotip, amblem, beleg, dispozicija, znamen, značajka
+radnik: zaposleni, službenik, većnik, činovnik, referent, proleter, beležnik, delatnik, dužnosnik, nameštenik, zaposlenik
+ukus: aroma, okus
+staza: put, linija, koridor, putanja, ruta
+detaljno: pažljivo, precizno, sistematski, temeljno, podrobno, temeljito, pedantno, sistematično, razborito, metodično, analitično
+neprestano: večito, doveka
+ljudski: dobar, funkcionalan, valjan, zemni, ovozemaljski, čovečji, neoštećen, čovečanski, nepokvaren
+grudi: prsa, grbača
+glumac: zvezda, junak, izvođač, komičar, imitator, lakrdijaš, komedijaš
+pogledati: videti, uočiti, snimiti, ugledati, zapaziti, razabrati, osmotriti, spaziti
+trka: kros, utrka
+opozicija: osporavanje, antipod, pobijanje, antiteza, opreka, oprečnost
+brod: tender, lađa, podmornica, jahta, plovilo, krstarica, razarač, tanker, jedrenjak, ledolomac, teretnjak, korveta, katamaran, minolovac
+sednica: grupa, skup, razgovor, saglasnost, rasprava, seminar, okupljanje, aranžman, kongres, konvencija, debata, miting, zasedanje, pretres, sesija, slaganje, simpozijum, nagodba, plenum, konkordat, okup, većanje, kongruencija
+gost: turista, posetilac, svat, namernik
+gorivo: ogrev
+zaboraviti: ostaviti, propustiti, izbrisati
+hleb: pogača
+bogatstvo: dobro, novac, pare, budućnost, blago, kapital, imovina, vlasništvo, sjaj, luksuz, lova, svojina, blagostanje, aktiva, raskoš, glamur, izobilje, imućnost
+zdravo: pozdrav, ćao, adio
+gledati: videti, pratiti, čekati, juriti, viđati, motriti, primećivati, osmatrati, opažati, uočavati, sačekivati
+otpor: protest, nezadovoljstvo, prigovor, žaljenje, neslaganje, protivljenje, negodovanje, bura, povika, revolt, suprotstavljanje, ogorčenje, osporavanje, ogorčenost, gorčina, gunđanje, ozlojeđenost, odupiranje, buntovništvo, nepokornost, jadanje
+miris: kad, aroma, nota, vonj, miomiris, miloduh
+vojni: armijski, ratoboran
+prozor: okno, rozeta
+bitan: važan, značajan, ozbiljan, znatan, presudan, relevantan, zamašan
+ulaz: pristup, prijem, hodnik, hol, predvorje, predsoblje, vestibil
+prikaz: ocena, kritika, predstavljanje
+smanjiti: svesti, umanjiti, popustiti, opasti, redukovati, saseći, utišati, splasnuti, skresati
+volja: cilj, odluka, plan, snaga, želja, moć, sila, energija, namera, spremnost, sklonost, ambicija, težnja, zamisao, dinamika, nastojanje, polet, intencija, elan, živost, aspiracija, stremljenje, htenje, energičnost, srčanost, krepost, jakost, primisao, voljnost, krepkost, čilost
+misao: program, stav, ideja, plan, zaključak, učenje, uverenje, razmišljanje, ideologija, saznanje, pomisao, zamisao, koncepcija, pouka, ubeđenje, rasuđivanje, umovanje, primisao, mozganje
+ukupan: ceo, čitav, sav, kompletan, celokupan, potpun, sveobuhvatan, zaokružen, radikalan, upotpunjen, kompletiran, apsolutan, totalan, integralan, temeljit, nepodeljen
+zdrav: čitav, normalan, živ, snažan, sposoban, stabilan, čvrst, nepovređen, priseban, krepak, jedar, neozleđen
+deficit: nedostatak, rupa, nesreća, manjak, nevolja, tegoba, nepostojanje, mučenje, nestašica, praznina, breme, patnja, vrag, jaram, strahota, oskudica, pomanjkanje, nepotpunost
+scena: pozorište, platforma, plato, bina, amfiteatar, podijum, estrada, kazalište, kabare, uzvišenje, glumište, varijete
+sjajno: savršeno
+zanimljiv: izuzetan, interesantan, neobičan, zabavan, duhovit, uzbudljiv, privlačan, upečatljiv, dopadljiv, živopisan, primamljiv, dojmljiv
+baza: podrška, fond, osnova, baba, stub, podloga, oslonac, uporište, osnovica, postolje, stožer, potpora, naslon, babica, zaleđe, poštapalica, podupirač, kotva
+prisutan: predstavljen
+ubistvo: likvidacija, pogubljenje, egzekucija, smaknuće, umorstvo
+trajati: teći, prolaziti, izdržavati, opstajati, preživljavati, proticati, durati
+dnevnik: list, izdanje, sećanja, štampa, nedeljnik, glasilo, zabavnik, tabloid, autobiografija, memoari, feljton, periodika, dvobroj, anali, tisak
+dozvoliti: dati, omogućiti, prihvatiti, pustiti, dopustiti, pristati, odobriti, legalizovati, ovlastiti, blagosloviti, ozakoniti, aminovati, autorizovati, opunomoćiti
+prihvatiti: dati, dozvoliti, proveriti, pustiti, potpisati, dopustiti, odobriti, blagosloviti, aminovati
+shvatiti: naći, videti, razumeti, uhvatiti, ustanoviti, uvideti, spoznati, razlučiti, dokučiti, dohvatiti, razaznati, razabrati, pojmiti, pohvatati, prozreti
+stvarnost: stvarno, ispravnost, tačnost, vernost, autentičnost, istinitost, stvaran, verodostojnost, izvornost
+adresa: mesto, kraj, stan, lokacija, sedište, destinacija, domaćinstvo, natpis, apartman, odredište, ognjište
+integracija: udruženje, spajanje, ujedinjenje, udruživanje, objedinjavanje, pripajanje, fuzija, sjedinjenje, stapanje, aneksija, srastanje, združivanje
+motiv: razlog, tema, predmet, motor, podsticaj, motivacija, pokretač, podstrek, stimulans, poticaj, lajtmotiv
+presuda: cilj, rešenje, plan, zaključak, kombinacija, namera, volja, smer, opredeljenje, težnja, zamisao, ideal, pretenzija, naum, aspiracija, stremljenje, htenje, umišljaj, determinacija, primisao
+izmena: promena, menjanje, transformacija, adaptacija, modifikacija, preoblikovanje, transformisanje, preinačenje, prepravljanje
+hram: crkva
+selektor: birač, izbornik
+iskoristiti: uzeti, primeniti, upotrebiti, potrošiti, zloupotrebiti, eksploatisati, dokrajčiti, istrošiti, iscrpsti
+pratiti: voditi, sprovoditi, slediti, prebacivati, prevoziti, odvoditi, špijunirati, uhoditi
+jedinstvo: red, sporazum, saradnja, mir, dogovor, razumevanje, saglasnost, sloga, ravnoteža, pristanak, slaganje, harmonija, namirenje, dopuštenje, nagodba, pogodba, ugodnost, skladnost, harmoničnost, sazvučje, složnost
+riba: ženska, mačka, snajka, devojče, cica, ženskinja
+sestra: seka, sestrica
+izlazak: život, zabava, provod, opuštanje, veselje, rekreacija, relaksacija, igranka, razonoda, poselo
+dozvola: karta
+klima: stanje, duh, miris, atmosfera, raspoloženje, ugođaj, ozračje
+totalno: potpuno, sasvim, skroz, kompletno, odreda, listom, posve, totalan
+dodatak: prilog, dopuna, dopis, aneks, popuna, apendiks
+spomenik: kip, bista
+imovina: dobro, blago, kapital, bogatstvo, vlasništvo, svojina, aktiva
+neophodan: glavni, osnovni, potreban, najvažniji, suštinski, životni, centralni, zahtevan, nužan, središnji, temeljan, vitalan, esencijalan
+papir: ovoj, hartija, dara, ambalaža, omotač, omot, uvijač
+atmosfera: stanje, duh, miris, klima, raspoloženje, kiseonik, ugođaj, ozračje
+sumnja: oprez, bojazan, ograda, nepoverenje, rezerva, opreznost, budnost, skepticizam, podozrenje, neverica, zatvorenost, sumnjičavost, nevera, suzdržanost, obazrivost, neverovanje, rezervisanost, nepoverljivost, pažljivost, dvojba, sumnjanje
+sindikat: kompanija, grupa, organizacija, društvo, klub, zajednica, savez, unija, koalicija, asocijacija, zadruga, federacija, bratstvo, družina, alijansa, ceh, konzorcij
+ekran: monitor, platno
+tradicija: navika, uobičajenost
+terapija: lečenje, oporavak, nega, negovanje, saniranje, ozdravljenje, kura, oporavljanje, vidanje, isceljivanje
+trajno: večito, doveka
+visina: rast, stepen, ravan, uzrast, stupanj, razina, stas
+vuk: junak, zmaj, heroj, orao, vitez, protagonista, kurjak
+donekle: malo, imalo, delimično, dovde
+pobednik: šampion, pobedilac, uglednik
+vrhunski: odličan, poseban, sjajan, neverovatan, fantastičan, ekstra, izvanredan, fenomenalan, optimalan, impresivan, istaknut, izvrstan, majstorski, neponovljiv, genijalan, fascinantan, vrstan, briljantan, vanserijski, nestvaran, vanredan, osobit, predobar, legendaran, bogovski
+ocena: prikaz, kritika, procena, recenzija
+usvajanje: usvojenje
+konstantno: večito, doveka
+uveliko: odavno
+kosa: pad, dlaka, greben, padina, pramen, vlakno, litica, uzbrdica, nizbrdica, griva, strmina, hrid, obronak, ćuba
+kolo: igra, krug, venac, prsten, serijal, obruč, kotur, alka, beočug, kotač, bandaža, vitica, obrub
+menjati: prilagođavati, podešavati, transformisati, uređivati, modifikovati, adaptirati, sređivati, prepravljati, preobražavati, preokretati
+preuzeti: postaviti, prihvatiti, primiti, ukrasti, dohvatiti, otkinuti, ugrabiti, istrgnuti, zgrabiti
+savetnik: konsultant, instruktor, većnik, savetodavac
+aparat: uređaj, mašina, mehanizam, robot, sprava, naprava, mašinerija, automat, trakt, aparatura, skalamerija
+poslati: pratiti, uputiti, usmeriti, nameniti, odaslati, otpraviti
+materija: cilj, sadržaj, smisao, duša, svrha, poenta, meta, jezgro, srž, građa, supstanca, sadržina, bit, tvar, esencija, rezon, supstancija, bitnost, poanta
+prezentacija: opis, reklama, predstavljanje, podnesak, raport
+obuka: kurs, čas, predavanje, seminar, izlaganje, lekcija, pouka, kolegijum, referat, tečaj, obučavanje, podučavanje, dresura, dril
+osmeh: smeh, smešak, osmejak, kikot
+ishod: cilj, rezultat, uspeh, korist, proizvod, pobeda, efekat, ostvarenje, učinak, plod, ispunjenje, domet, produkt, tekovina, dostignuće, delotvornost, postignuće, stečevina
+garancija: odgovornost, osiguranje, obezbeđenje, obećanje, hipoteka, jemstvo, zalog, taloženje, akontacija, kaucija, jamstvo, predujam, kapara, polog
+unutra: iznutra
+signal: znak, pokazatelj, indikator, simptom, nagoveštaj, indikacija, predznak, indicija, znamenje, pokazivač
+preterano: previše, suviše, beskrajno, neumereno, dozlaboga
+obim: granice, okvir, veličina, opseg, širina, raspon, dohvat, zamah, dijapazon, rasprostranjenost, obuhvat, vidik, amplituda, domak, raširenost, domašaj, doseg, dalekosežnost
+porast: rast, povećanje, napredak, poboljšanje, koncentracija, priliv, pomak, uvećanje, progres, ekspanzija, skupljanje, dotok, akumulacija, cvetanje, gomilanje, pojačavanje, nagomilavanje, prirast, uvećavanje, doticanje, naviranje
+trag: osećaj, dokaz, osećanje, otisak, dojam, impresija
+restoran: lokal, kafana, svratište, poslastičarnica, picerija, gostionica, menza, kantina, taverna, gostiona, konoba
+otvoriti: napraviti, postaviti, organizovati, formirati, uspostaviti, ustanoviti, osnovati, obrazložiti, zasnovati, otključati, konstituisati, ustrojiti, odškrinuti
+um: znanje, pamet, glava, razum, logika, mudrost, inteligencija, intelekt, rezon, logos, razboritost, lucidnost, trezvenost, pronicljivost, pribranost, oštroumnost, logičnost, bistrina, razumnost, razbor
+krila: krilo
+ostrvo: ada, otok
+udarac: zvuk, udar, šamar, bat, nokaut, tresak, pljuska, pljesak, ćuška, mlat
+dobit: novac, nagrada, plaća, plata, procenat, profit, prihod, primanja, naknada, dobitak, honorar, dnevnica, dohodak, nadnica, primitak
+dejstvo: mogućnost, vlast, snaga, uticaj, osećaj, efekat, sposobnost, potencijal, kapacitet, efikasnost, delovanje, osećanje, jačina, dojam, impresija, premoć, potencija
+kafe: klub, bar, lokal, vinarija, kafić, pivnica, bife, kafeterija
+vezan: povezan, spojen, privezan, stegnut, nezgrapan, svezan, sjedinjen, skopčan, uvezan, drven, smušen, zavezan, smeten, združen, sapet
+objasniti: opisati, komentarisati, približiti, izložiti, protumačiti, precizirati, pojasniti, obrazložiti, dočarati, nacrtati, osvetliti, ilustrovati, raščistiti, rasvetliti, razložiti, razbistriti
+tata: otac, stari, baba, roditelj, matori, deka, ćale, ćaća, tatica, babo, matorac
+seminar: obrazovanje, kurs, čas, obuka, davanje, nastava, izlaganje, lekcija, dostavljanje, pouka, kolegijum, tečaj, referat, obučavanje, podučavanje
+poreklo: pogled, znanje, vid, pozicija, vizija, aspekt, shvatanje, perspektiva, opseg, stanovište, panorama, gledište, stajalište, vidik, domašaj, nazor, svetonazor
+pivo: piva
+kupac: potrošač
+mehanizam: uređaj, aparat, robot, sprava, naprava, mašinerija, mehanika, aparatura
+rod: porod, svojta
+povod: činjenica, dokaz, motor, motiv, podsticaj, opravdanje, motivacija, pokretač, afirmacija, stimulans, poticaj
+kolena: koleno
+prepreka: granica, linija, crta, blokada, brana, ograda, barijera, smetnja, barikada, branik, pregrada, prepona, baraž, začkoljica, zabran, zapreka, polutka
+klasa: način, vrsta, red, tip, kategorija, rod, grana, godište, koleno, sorta, soj, naraštaj, vršnjak, pokolenje, parnjak
+spremnost: stanje, pojava, tehnika, kondicija, pripremljenost, gotovost, uvežbanost
+platiti: kupiti, isplatiti, nadoknaditi, nadomestiti, namiriti, otplatiti, kompenzovati, podmiriti, obeštetiti
+raspored: program, red, poredak, aranžman, redosled, distribucija, raspodela, raspoređivanje, satnica, svrstavanje, razmeštaj, dispozicija
+elita: autoritet, cvet, krem, velikaši, doajen, aristokratija, uglednici, besmrtnik, uglednik
+potvrda: dokaz, dokument, obrazloženje, svedočanstvo, atest, overa, potkrepa
+pravac: škola, kurs, tok, smer
+komad: deo, jedinica, ostatak, element, čestica, parče, komponenta, sastojak, delić, karika, odlomak, atom, komadić, fragment, zrnce, trun, trunka, sastavnica
+krenuti: poći, udariti, kročiti, zakoračiti, potegnuti, ganuti, zapucati
+sjajan: savršen, svetao, vrstan, briljantan, blistav, vanserijski, vanredan, svetlucav, bleštav
+izlaz: život, rešenje, kraj, vrata, završetak, spas, zabava, prolaz, provod, spasenje, opuštanje, kapija, razrešenje, rasplet, rekreacija, solucija, relaksacija, izbavljenje, razonoda
+zakonski: ispravan, odobren, propisan, legalan, valjan, validan, priznat, dopušten, punovažan, ustavan, pravosnažan
+reditelj: lider, glava, vođa, prvak, starešina, režiser, perjanica, redatelj, kormilar, glavar
+istinski: pravi, suštinski, realan, stvaran, istinit
+kanal: korito, rov, jarak, brazda, graba, jaruga, žleb, vodojaža, vododerina
+utvrditi: objasniti, izložiti, protumačiti, pojasniti, obrazložiti, dočarati, nacrtati, osvetliti, ilustrovati, raščistiti, razložiti, utemeljiti, razbistriti
+kupovina: nabavka, šoping, pribavljanje, akvizicija, nabavljanje
+naglo: samo, odmah, brzo, iznenada, neočekivano, najednom, naprasno, iznenadno, nenadano, naprečac, neslućeno
+akt: rad, posao, akcija, delo, postupak, delatnost, potez, operacija, delovanje, dejstvo, radnja, poduhvat, gest, preduzetništvo, zahvat, pothvat, pregalaštvo, poduzimanje
+slava: ugled, proslava, proslavljen, slavan
+specijalno: naročito, izuzetno, drugačije, neobično, jedinstveno, osobito, odvojeno, drukčije, izvanredno, vanredno, originalno, neuobičajeno, iznimno, neponovljivo, vanserijski, osobeno, unikatno, nenadmašno, besprimerno, odelito
+sportista: vežbač, gimnastičar, sportaš
+protest: otpor, nezadovoljstvo, prigovor, neslaganje, protivljenje, negodovanje, povika, revolt, suprotstavljanje, ogorčenje, osporavanje, ogorčenost, opiranje, gunđanje, odupiranje, buntovništvo
+ostvarenje: rezultat, delo, proizvod, ishod, učinak, podvig, ispunjenje, tvorevina, domet, produkt, opus, dostignuće, rukotvorina, postignuće, umotvorina, tvorba
+ukidanje: povlačenje, raskid, poništavanje, opoziv, poništenje, obustavljanje, poništaj, ukinuće, abolicija, opozivanje, anuliranje, razvrgnuće
+sredina: kraj, prostor, oblast, sektor, teren, krv, karakter, područje, ličnost, duša, okruženje, osobine, zona, teritorija, unutrašnjost, regija, okolina, mentalitet, srž, psihologija, predeo, milje, narav, senzibilitet, temperament, psiha, rejon, kov, okružje
+oporavak: razvoj, rast, povećanje, napredak, porast, uspon, prosperitet, progres, procvat, ekspanzija, ozdravljenje, cvetanje, uzdizanje, eskalacija, pomicanje, odmicanje, asanacija
+trud: napor, nastojanje, predanost, angažovanost, revnost, agilnost, preduzimljivost, ustrajnost
+vredan: aktivan, zaposlen, ambiciozan, predan, savestan, neumoran, agilan, marljiv, radin, požrtvovan, revnostan, učinkovit, delatan, brižljiv, maran, revan, usrdan, ustrajan, radišan
+brz: lak, živ, hitan, ubrzan, živahan, okretan, ažuran, neuhvatljiv, agilan, pokretljiv, munjevit, hitar, vrtoglav, užurban, žustar, krilat, ekspeditivan, vratoloman
+nesumnjivo: jeste, zaista, sigurno, svakako, apsolutno, definitivno, prirodno, savršeno, itekako, pouzdano, zasigurno, doista, posve, bezuslovno, garantovano, zacelo, jamačno, neupitno
+ugled: hvala, uticaj, čast, položaj, poštovanje, priznanje, poverenje, slava, popularnost, autoritet, ugledni, uvažavanje, prestiž, ugledan, uglednik
+jutro: zora
+dugme: puce
+ruka: posao, aktivnost, delatnost, delovanje, dejstvo, šaka, preduzimanje, dlan, šapa, mišica, nadlaktica, pregalaštvo, poduzimanje
+ispitivanje: studija, istraživanje, pregled, analiza, opis, istraga, inspekcija, utvrđivanje, anketa, proučavanje, pretraga, upit, uočavanje, iznalaženje, anketiranje, izviđanje, saznavanje, propitivanje, raspitivanje
+baviti: biti, stanovati, bivati, stojati, prebivati, obitavati, opstojati, odsedati, bivstvovati
+kriminal: zločin, ubistvo, korupcija, krađa, pljačka, falsifikat, razbojništvo, pedofilija, pronevera, nedelo, kriminalitet, nasilništvo, odmetništvo
+liga: kompanija, grupa, društvo, klub, zajednica, udruženje, savez, unija, koalicija, sindikat, asocijacija, zadruga, federacija, bratstvo, družina, alijansa, ceh, konzorcij
+portparol: glasnogovornik
+nekretnina: posed, nepokretnost
+smatrati: držati, verovati, misliti, razmišljati
+pesnik: poeta, bard, liričar, lirik, stihotvorac, versifikator
+gora: gomila, brdo, vis, breg, masiv, hum, čuka, uzvišenje, brežuljak, humka, elevacija, busija
+varijanta: način, vrsta, oblik, verzija, pojava, opcija, lik, tip, vid, metoda, stil, rod, forma, aspekt, figura, žanr, konfiguracija, interpretacija, varijacija, modus, varijetet, inačica, dubleta
+organizovati: napraviti, postaviti, utvrditi, uvesti, uspostaviti, ustanoviti, osnovati, sklopiti, bazirati, zasnovati, konstituisati, utemeljiti, ustrojiti, zapodenuti
+osoblje: vlada, društvo, ekipa, aparat, kadar, administracija, štab, kolektiv, kolegijum, ljudstvo, činovništvo
+nastava: kurs, čas, predavanje, obuka, seminar, izlaganje, lekcija, pouka, kolegijum, tečaj, referat, obučavanje, podučavanje
+muka: briga, kamen, nesreća, nevolja, tegoba, stradanje, beda, mučenje, jad, breme, patnja, vrag, nedaća, trpljenje, jaram, strahota, tortura, napast, golgota, mrcvarenje, neugodnost, kalvarija
+spor: dijalog, sukob, rasprava, diskusija, razmatranje, konflikt, debata, polemika, pretres, dokazivanje, nesuglasica, nesloga, raspravljanje, raspra, prepiranje
+prostorija: soba, sala, kuhinja, kupatilo, salon, hala, dvorana, hodnik, amfiteatar, trpezarija, ostava, tavan, odaja, predsoblje, spavaonica
+uvod: uvođenje, predgovor, guša
+zadnji: krajnji, stražnji
+zatvor: kavez, tamnica, aps, haps, kaznionica, pržun
+asocijacija: kompanija, grupa, organizacija, društvo, klub, zajednica, udruženje, veza, savez, unija, koalicija, liga, zadruga, federacija, bratstvo, lobi, družina, alijansa, naznaka, nagoveštaj, ceh, aluzija, prizvuk, implikacija, konotacija, konzorcij
+kompletno: potpuno, sasvim, kompletan, totalno, skroz, komplet, odreda, listom, posve
+dodir: kontakt, most, spoj, sklop, konekcija, zglob, relacija, spona, spojnica, fuga, sastavnica, poveznica, sastavak
+naknada: plaća, zarada, prihod, primanja, dobit, isplata, dohodak, nadnica, primitak
+meda: grmalj
+ciklus: stanje, stepen, etapa, stadijum, stepenik
+pisati: napisati, opisati, potpisati, upisati, pripisati, raspisati, propisati, prepisati, ispisati, zapisati, otpisati, beležiti, popisati, zapisivati, dopisati, popisivati
+reklama: oglas, plakat, brošura, letak, prospekt, flajer
+istraga: studija, istraživanje, analiza, opis, inspekcija, anketa, proučavanje, upit, uočavanje, iznalaženje, anketiranje, izviđanje, saznavanje, raspitivanje
+kamata: račun, korist, interes, procenat, profit, dobit, dobitak, vajda
+razumeti: videti, shvatiti, uočiti, uhvatiti, ustanoviti, uvideti, spoznati, razlučiti, dokučiti, dohvatiti, razaznati, razabrati, pojmiti, pohvatati, prozreti
+mlad: mali, zelen, neiskusan, nezreo, detinjast, infantilan, mlađan, balav, nedozreo, golobrad
+praviti: činiti, peći, formirati, proizvoditi, stvarati, mešati, kuvati, pripremati, oblikovati, obrazovati, pržiti, dinstati, izrađivati, mutiti, sačinjavati, tvoriti, uobličavati, pripravljati
+ritam: mera, tempo, ponavljanje, frekvencija, takt, naglašavanje, opetovanje
+top: kula, šah
+idealan: najbolji, savršen, zamišljen, idejni, perfektan, besprekoran, nestvaran, fiktivan, pojmovni, imaginaran, prvorazredan, nadrealan, misaon, izmišljen, besprimeran
+drug: kolega, brat, prijatelj, drugar, bata, ortak, poznanik, saputnik, burazer, kompanjon, jaro, sapatnik, sudrug
+krov: stan, sedište, domaćinstvo, apartman, leglo, stanište, ognjište, rezidencija, obitavalište
+mladost: sazrevanje, pubertet, adolescencija, devojaštvo, momaštvo
+planina: gora, brdo, planinski, breg, planinarenje, visoravan, masiv, palatalizacija
+lepota: sjaj, sklad, privlačnost, šarm, milina, draž, čar, prijatnost, krasota, skladnost, blistavost, ljupkost, neodoljivost, čudesnost, božanstvenost, simpatičnost
+lopta: sfera
+momak: tip, muškarac, dečko, mladić, ljubavnik, momče, verenik, izabranik, dasa, zaručnik
+greh: glupost, krivica, zabluda, propust, biser, promašaj, kiks, zabuna, ispad, lapsus, gaf, previd, pogreška, omaška, nesmotrenost, feler
+razum: pamet, svest, duša, razumno, razuman, svesnost, racionalnost, razboritost, prisebnost, pribranost, razumnost, razumski
+mrak: noć, zaostatak, tama, zaostalost, tmina, neprosvećenost, cupkanje, pomračina
+droga: narkotik, opijat, narkoza
+strast: zanos, pomama, požuda, vrelina, čulnost, orgijanje, zanesenost, nevaljalstvo, sladostrašće, vatrenost, uzavrelost, razvratnost, lascivnost, razbludnost
+raj: nebo, lepota, nebesa, idila
+ponos: čast, poštovanje, dostojanstvo, držanje, obraz, drskost, gordost, dika, arogancija, dignitet, bezobzirnost, pouzdanje, nadmenost, obest, umišljenost, izveštačenost, naduvenost, časnost, razmetljivost, uobraženje, osornost
+baka: stara, baja, babuška
+kafa: kava
+kraljica: matica
+afera: slučaj, događaj, haos, doživljaj, drama, incident, skandal, cirkus, krš, senzacija, neprilika, zbrka, romansa, ispad, pustolovina, dogodovština, zgoda, izgred
+trava: travnjak, pašnjak, busen, travka
+dah: disanje, zadah, uzdah, izdah
+tuga: žalost, bol, muka, seta, tegoba, jad, očaj, žal, čemer, gorčina, potištenost, tugovanje
+princ: kraljević
+cvet: cveće, krem, velikaši, aristokratija, uglednici, dostojanstvenik
+vatra: oduševljenje, plamen, oganj, žar, zanos, ushićenje, pijanstvo, žestina, opijenost, zanesenost, ushićenost, zaluđenost, očaranost, vatrenost, ushit, opojnost
+kruna: sistem, moć, vrh, režim, rukovodstvo, vođstvo, vladar, kormilo, vodstvo, vrhuška, starešinstvo, carevanje
+drugarica: druga
+krivica: vina, greška, greh, zabluda, propust, biser, kiks, zabuna, ispad, lapsus, gaf, previd, nesmotrenost, feler, krivnja
+pakao: muka, stradanje, beda, mučenje, izdržavanje, patnja, agonija, trpljenje, strahota, tortura, mrcvarenje, ispaštanje
+konj: koja, putu, konja, stazi, zmija, ujeda, vranac, belac, guja, kičicu
+grlo: glas, guša
+akcioni: dinamičan
+senka: sena, hlad, hladovina
+zmija: ala, kuja, kučka, guja, jadnica, otrovnica, bednica
+akademski: teorijski, univerzitetski, fakultetski, knjiški, pojmovni
+agent: špijun, detektiv, informator, obaveštajac, provokator, dostavljač, cinkaroš, potkazivač, dojavljivač, diverzant
+malina: jagodnjak
+zub: kljun, zubac
+bajka: priča, delo, mit, legenda, predanje, fantastika, fantazija, predaja, fikcija, saga, pripovetka, pripovest, fabula
+biser: vrednost, cvet, apsurd, dragulj, budalaština, dragocenost, besmislenost, perla, neosnovanost, bezumnost, bezrazložnost
+balon: lopta, sfera, klobuk
+stih: poezija, metar, versifikacija
+jagoda: malina, dud
+gitara: tambura
+zora: zar, počelo, jutro, podloga, leglo, osnovica, izvorište, klica, svitanje, osvit, svanuće, prauzrok
+vitez: vuk, junak, zmaj, heroj, orao, džentlmen, kavaljer
+sumrak: veče, predvečerje, smiraj, suton, polumrak, polutama, sumračje
+maca: devojka, mače, mačor
+bubanj: vrška, timpan
+agrar: poljoprivreda, stočarstvo, ratarstvo, zemljoradnja
+lisica: lija, lisac, profiter, zvrk
+dlan: pomoć, sloj, šaka, šapa, mišica, nadlaktica
+sef: sanduče
+dijamant: kamen, dragulj, rubin, safir, alem
+akcionar: deoničar
+afirmacija: nagrada, dokaz, potvrda, reputacija, potvrđivanje
+lutka: vila, kraljica, igračka, boginja, marioneta, barbika, božica, gracija, lepojka, krasotica
+ljubavnik: tip, momak, dečko, mladić, verenik, izabranik, dasa, zaručnik
+leptir: delfin, leptirica, leptirić
+kolac: drvo, štap, batina, poluga, šipka, palica, prut, šiba, kljuka, toljaga, pritka
+truba: sirena
+rastanak: odvajanje, napuštanje, oproštaj, razdvajanje, razlaz, doviđenja, razilaženje, odlaženje
+patka: plovka
+zelje: zeleniš
+daljina: prostor, udaljenost, raspon, rastojanje, razmak, relacija, interval, distanca, dalj, odstojanje, odmak
+oprost: oslobađanje, oslobođenje, milost, zaborav, oproštaj, pomilovanje, amnestija, praštanje, oproštenje, ukinuće, abolicija, pošteda, proštenje
+kajanje: žaljenje, pokajanje, skrušenost
+agresor: protivnik, neprijatelj, napadač, osvajač, nasilnik, uzurpator, otimač
+breskva: praska
+agilnost: rad, briga, delatnost, trud, mar, nastojanje, predanost, angažovanost, revnost, požrtvovanost, radinost, marljivost, savesnost, preduzimljivost, vrednoća, pregalaštvo, ustrajnost, gorljivost, neumornost
+adaptirati: složiti, prilagoditi, izmeniti, urediti, podesiti, smestiti, obraditi, opremiti, ukrasiti, namestiti, preraditi, doterati, udesiti, aranžirati, pospremiti
+sirenje: sir
+akcionarski: deoničarski
+zao: loš, bezobrazan, pokvaren, drzak, zlonameran, nedostojan, nemoralan, nepošten, perfidan, sramotan, opak, zloban, podmukao, ohol, bezvezan, nečastan, osion, podao, pakostan, prepreden, nevaljao, bezočan, amoralan, zloćudan, bestidan, besraman, zločest, prefrigan
+abolicija: povlačenje, oslobađanje, milost, raskid, zaborav, oproštaj, poništavanje, opoziv, oprost, poništenje, pomilovanje, amnestija, obustavljanje, poništaj, ukinuće, opozivanje, anuliranje, pošteda, razvrgnuće
+abakus: računalo, digitron
+akacija: bagrema
+abecedni: azbučni
+ablaut: prevoj, alternacija
+ajgir: ždrebac
+skola: bok
+skole: fakultet
+suma: broj, iznos, količina, masa, zbir, kvantitet, ukupnost

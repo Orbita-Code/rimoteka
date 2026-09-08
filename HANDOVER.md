@@ -28,20 +28,38 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 | # | Pitanje | Moj predlog |
 |---|---|---|
 | 1 | ~~Push sajta na `main`~~ – **urađeno 08.09. u 01:45** po njenom „javi kad prođe pa pushuj"; testovi protiv produkcije: v. dnevnik sesije ispod | – |
-| 2 | **Igra: opcija od 5 sekundi** – tražila je 100 partija „od 5, 10, 15 s", a igra nudi 10/15/20/30 | dodati „5 s" kao opciju |
-| 3 | **Logo 128 px** – primenjeno po njenom „da"; ali logo se crta na 70 px, pa je na iPhone-u (3×) blago mekši; 224 px = 67 KB oštar svuda | 224 px |
+| 2 | ~~Igra: opcija od 5 sekundi~~ – **odluka 08.09.: NE**, prekratko; ostaje 10/15/20/30 | – |
+| 3 | ~~Logo 128 px~~ – **odobreno i urađeno 08.09.: 224 px** (56 KB), sw.js keš v7 | – |
 | 4 | **Rimoteka Pro** (skriveni prozor pretplate): „Римотека Про" ili „Pro" latinicom | „Pro" latinicom (ime proizvoda) |
 | 5 | **Sekunde u igri** („10s") u ćirilici: „10с" ili „10 сек." | „10 с" |
 | 6 | **75 strana reči** koje po sva tri merila ne zaslužuju stranu (breskva, vođstvo, intervju, evro…) + 79 pesničkih reči bez strane – menja adrese | ukinuti 75 (adrese u mapu), dodati 79 |
 | 7 | **Izbor reči za strane** ubuduće: prvo kurirane + gradovi, pa reči sa kraja stiha, pa broj rima, pa tek učestalost u novinama | da |
-| 8 | **Sinonimi (V2)**: 812 kandidata u `AUDIT/sinonimi/` čeka njen pregled | po 50 u poruci |
+| 8 | **Sinonimi (V2)**: vlasnica pregleda SAMA u `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (812 redova, otvoren u TextEdit-u 08.09.; briše/dodaje/komentariše iza `#`). Kad kaže „sinonimi su pregledani" → napraviti `scripts/sinonimi-iz-pregleda.py` koji čita taj fajl i pravi `public/sinonimi.json` (pa osveži verziju) | čekati njen znak |
 | 9 | **S6** jedan red rima u beležnici na telefonu (traka na vrhu sad pokazuje 1 red, strelica razvija) | ostaviti |
 | 10 | **N-18** 38 zareza ispred „pa" | ostaviti (Pravopis dozvoljava) |
 | 11 | **Tekst „ubaci rimu"** zapravo ZAMENJUJE reč pod kursorom (utisak pisca) | preimenovati u „zameni reč" |
 | 12 | **Analitika, 3 preporuke** (naslov početne sa „rimovanje", naslov strana reči, prepis `/vrste-rima/`) – naslovi su njena odluka | da, sa merenjem 22.09. |
 | 13 | **Rime po naglasku** (inovacija, TODO 2a) – prvi korak je provera akcenata u skeniranom Rečniku | posle S-18/S-19 rezultata u GSC |
-| 14 | **Reči koje igra zadaje** (I-6): bazen je 8.000 najčešćih reči iz novina – 304 zamenice/veznici (koji, kao, ali, nije), 432 priloga, 678 predugih (ministarstva, istraživanja); hrvatskih i zastarelih 0. Spisak: `AUDIT/analiza/igra-bazen.md` | igra zadaje samo imenice, glagole i prideve od 2–4 sloga; spisak se pravi jednom (srLex vrsta reči + Matica) i šalje kao `igra-reci.json` |
+| 14 | ~~Reči koje igra zadaje~~ – **odluka 08.09.: imenice, glagoli, pridevi 2–4 sloga → urađeno** (`igra-reci.json`, 6.634 reči) | – |
+| 16 | **Tekst „Kako se igra?"** na `/igra-rimovanja/` ne pominje nove mogućnosti (tri rime, glas). Predlog rečenice: „Možeš da biraš i tri rime za svaku reč, a rimu možeš i da kažeš u mikrofon." | dodati uz njeno „da" (tekst na sajtu = njena odluka) |
+| 17 | **„Reč dana"** (nije razumela): svakog dana svi igrači dobiju ISTIH 5 reči (od datuma, bez servera); rezultat se pokaže kao mala slika sa kvadratićima (🟩🟩🟥🟩🟩 + bodovi) koju dete kopira i pošalje drugu ili u razred – kao Wordle. Svrha: razlog da se vraćaju svaki dan i besplatno širenje sajta. Ne traži nalog ni bazu | uraditi kad kaže „da" |
+| 18 | **75 strana za ukidanje** (v. odeljak 2a ispod) | odluka vlasnice |
 | 15 | **Pravilo rime u igri** promenjeno bez pitanja jer je bila rupa (I-1): za „kuća" se priznavala i „žena" (55.231 reč); sad završni slog („sreća", „vruća") + bar 3 slova. Ako vlasnica hoće još strože (samo savršena rima) – jedan red u `checkGameAnswer` | ostaviti završni slog (deca inače ne mogu da reše „valjda", „srce") |
+
+### 2a. Šta znači „75 strana za ukidanje" (obrazloženje za vlasnicu, 08.09.)
+
+Sajt ima 1.985 strana `/rime-za/<reč>/`. Istraga (`AUDIT/analiza/istraga-strane-reci.md`) je za svaku reč merila tri stvari:
+1. **da li se reč javlja na kraju stiha** u korpusu srpskih pesama (ako se nikad ne rimuje u pesmi, niko ne traži rimu za nju),
+2. **koliko rima ima** (strana sa 0–1 rimom je prazna strana – Google je ne prima, a čovek ode razočaran),
+3. **koliko se reč uopšte koristi** (učestalost u korpusu).
+
+**75 strana pada na SVA TRI merila** – npr. `breskva` (0 rima), `vođstvo`, `intervju`, `evro`, `dugme`, `mržnje`,
+`sumnje`, `izložba` (0 rima), plus 4 grada (Delhi, Moskva, Oslo, Zimbabve) sa 0 rima. Te strane Google uglavnom NE
+indeksira („Discovered – not indexed"), a svaka takva strana razvodnjava ostatak sajta. Ukidanje = adresa ide u
+`nginx-stare-strane.map` (301 na hub `/rime-za/`), ništa se ne briše iz rečnika, reč i dalje radi u alatu.
+**79 reči** je obrnut slučaj: stoje na kraju stiha bar 3 puta u pesmama, imaju bar 5 rima, a NEMAJU stranu (`čeka`,
+`radi`, `momče`…). Za njih važi tvoja zabrana novih strana dok indeksiranost ne pređe 40 % – zato se ne dodaju bez
+tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih), ne širenje.
 
 ## 3. TODO ZA SLEDEĆU SESIJU (po redu)
 
@@ -61,6 +79,9 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
   + `node test/igra-100-partija.mjs` (0 nalaza) + `node test/igra-kao-covek.mjs` (2–3 igrača, bodovi, predaja, nerešeno, varke: 0 nalaza).
   Bazen reči igre: `node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` (izveštaj za odluku). Svi u CLAUDE.md 9a.
 - **Igra prima rimu po završnom slogu, ne po poslednjem slovu** (I-1) i traži bar 3 slova (I-2). Ne vraćati `looseKey` u igru.
+- **Igra zadaje samo reči iz `igra-reci.json`** (imenice/glagoli/pridevi 2–4 sloga); režim „tri rime"; odgovor glasom
+  (`SpeechRecognition`, `sr-RS`); 5 s NE. Pravila u CLAUDE.md 9g. Test lažira prepoznavanje govora (`window.SpeechRecognition`
+  klasa u `addInitScript`) – pravi mikrofon se proverava samo ručno, na telefonu.
 - **Kratka crta (–), nikad dugačka (—)** – globalno pravilo, test pada.
 - **Nove reči kao stare** (CLAUDE.md 6.4): slogovi i ključ rime ne zavise od velikog slova; test 54 nad svim rečima.
 - **Ćirilica**: prebacuje se cela strana; izuzeci: logo, „Powered by Orbita Code", imena firmi (ZASTICENO u app.js),

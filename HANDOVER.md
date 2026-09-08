@@ -14,8 +14,8 @@
 | Šta | Stanje |
 |---|---|
 | Grana sa svim radom | `fix/audit-0709-drugi-krug` (lokalno; sve komitovano) |
-| `main` na GitHub-u | = grana, **push 4 objavljen 08.09. u 01:45** (24 commita: mobilni audit, ćirilica cele strane, kratka crta, tamna prati sistem, logo 128 px, S-19, S-23, N-13, legenda, igra I-1…I-5) |
-| Na sajtu (rimoteka.com) | sve gore; produkcija je na `app.js?v=20260908p`, `style.css?v=20260908f`; deploy stigao za 40 s; sanduče `wrangler deploy` urađen (verzija f3e11a0c) |
+| `main` na GitHub-u | = grana. **Push 4** 08.09. 01:45 (mobilni audit, ćirilica, igra I-1…I-5) i **push 5** 08.09. 10:14 (igra: spisak reči `igra-reci.json`, režim „tri rime", odgovor glasom; logo 224 px; 37 odobrenih sinonima; „Učitavam rečnik…" u pismu) |
+| Na sajtu (rimoteka.com) | sve gore; produkcija je na `app.js?v=20260908r`, `style.css?v=20260908g`, sw keš v7; sanduče `wrangler deploy` urađen (f3e11a0c). Pre push 5: lokalno 835/835 (dva puta), motori 54/54, partije 230 poteza 0 nalaza, skeneri 0 |
 | NIJE na sajtu | ništa – čeka se samo odluka vlasnice za tačke iz odeljka 2 |
 | Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) 500 poteza, 0 nalaza; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
 

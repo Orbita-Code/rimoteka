@@ -1,6 +1,9 @@
 # Sanduče za prijave grešaka sa sajta (dugme „Prijavi grešku"). 06.09.2026.
 # Deploy:  cd worker && npx wrangler deploy
 # Ključ za pregled:  npx wrangler secret put KLJUC   (vrednost u ~/.config/rimoteka/prijave-kljuc.json)
+# Mejl vlasnici (08.09.2026): npx wrangler secret put SMTP_KORISNIK (jovana.daskovic@gmail.com), SMTP_LOZINKA (Google
+# app-lozinka „rimoteka-prijave“), MEJL_ZA (kome stiže); [vars] MEJL_OD i PREGLED_ADRESA ispod.
+compatibility_flags = ["nodejs_compat"]
 name = "rimoteka-prijave"
 main = "prijave.js"
 compatibility_date = "2024-09-01"
@@ -8,3 +11,7 @@ compatibility_date = "2024-09-01"
 [[kv_namespaces]]
 binding = "PRIJAVE"
 id = "ebcf750c21af49f1b15b26f3dbbf23f5"
+
+[vars]
+MEJL_OD = "eureka@rimoteka.com"
+PREGLED_ADRESA = "https://rimoteka-prijave.jovana-daskovic.workers.dev/prijave"

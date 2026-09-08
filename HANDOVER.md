@@ -46,6 +46,7 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 | 18 | ~~75 strana za ukidanje~~ – **odluka 08.09.: proba 15 dole / 19 gore, urađeno.** Ostatak (60 slabih + 60 jakih) čeka njen utisak posle probe i GSC merenja | čeka |
 | 19 | **Push 6** – sve iz 08.09. popodne (Dragan D-1…D-4, Reč dana, zamena strana, tekst igre). Lokalni lanac: v. dnevnik. **Nije puširano – čeka „da"** | – |
 | 20 | **Odgovor Draganu** – nacrt ćirilicom u odeljku 2b ispod; šalje ga vlasnica kad pogleda šta je urađeno | – |
+| 21 | ~~Mejl kad neko prijavi grešku~~ – **urađeno i objavljeno 08.09.** (worker `rimoteka-prijave` v. f41c503d+, Gmail SMTP AUTH LOGIN, app-lozinka „rimoteka-prijave“ – vlasnica je napravila na Google strani, sesija je pročitala i upisala kao secret). Provereno IMAP-om: 2 mejla u Inbox-u, 0 u spamu | – |
 | 15 | **Pravilo rime u igri** promenjeno bez pitanja jer je bila rupa (I-1): za „kuća" se priznavala i „žena" (55.231 reč); sad završni slog („sreća", „vruća") + bar 3 slova. Ako vlasnica hoće još strože (samo savršena rima) – jedan red u `checkGameAnswer` | ostaviti završni slog (deca inače ne mogu da reše „valjda", „srce") |
 
 ### 2a. Šta znači „75 strana za ukidanje" (obrazloženje za vlasnicu, 08.09.)

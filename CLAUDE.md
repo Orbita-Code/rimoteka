@@ -541,7 +541,7 @@ Ako je prošlo **3 ili više dana** — sam prijaviti vlasnici i predložiti aud
 - `AUDIT/GGGG-MM-DD-audit.md` — svaki audit je NOV fajl, nikad se ne prepisuje stari
 - `AUDIT/NALAZI-OTVORENI.md` — živi spisak; ažurirati posle svakog audita i posle svake popravke
 
-**Stanje na 08.09.2026 (posle push 5, 10:14 – igra: spisak reči, tri rime, glas; logo 224; sinonimi 54):** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga, pa
+**Stanje na 09.09.2026 (posle push 6, 01:34 – kartica samo klikom, ravne kolone, kružić desno, Reč dana, zamena strana 15→19, futer pilule, beležnica Enter, mejl za prijave; pre toga push 5 08.09.: igra spisak reči, tri rime, glas, logo 224, sinonimi 54):** posle audita 07.09. (7,3/10) zatvoreno **27 nalaza** u tri kruga, pa
 **mobilni audit** (MOB-1…6 + agenti), **ćirilica cele strane**, **igra** (I-1 rupa u bodovanju, I-2…I-5) – sve objavljeno
 (produkcija `app.js?v=20260908p`; lokalni test 834/834, motori 55/55, skeneri 0, igra 100 partija 0 + 12 partija sa 2–3
 igrača 0). Otvoreno: V2 sinonimi (čeka pregled), S-18 (meri se u GSC 22.09.), I-6 bazen reči igre (čeka odluku), A-R4/A-R6

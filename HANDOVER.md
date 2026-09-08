@@ -15,7 +15,7 @@
 |---|---|
 | Grana sa svim radom | `fix/audit-0709-drugi-krug` (lokalno; sve komitovano) |
 | `main` na GitHub-u | = grana. **Push 4** 08.09. 01:45 (mobilni audit, ćirilica, igra I-1…I-5) i **push 5** 08.09. 10:14 (igra: spisak reči `igra-reci.json`, režim „tri rime", odgovor glasom; logo 224 px; 37 odobrenih sinonima; „Učitavam rečnik…" u pismu) |
-| Na sajtu (rimoteka.com) | sve gore; produkcija je na `app.js?v=20260908r`, `style.css?v=20260908g`, sw keš v7; sanduče `wrangler deploy` urađen (f3e11a0c). Pre push 5: lokalno 835/835 (dva puta), motori 54/54, partije 230 poteza 0 nalaza, skeneri 0 |
+| Na sajtu (rimoteka.com) | **push 6 (09.09. 01:34)**: `app.js?v=20260908x`, `style.css?v=20260908k`, sw keš v7. Sanduče šalje mejl (f41c503d+). Lanac protiv produkcije: v. `AUDIT/lanac/` |
 | NIJE na sajtu | ništa – čeka se samo odluka vlasnice za tačke iz odeljka 2 |
 | Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) 500 poteza, 0 nalaza; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
 
@@ -44,7 +44,7 @@ deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com 
 | 16 | ~~Tekst „Kako se igra?"~~ – **odobreno i dodato 08.09.** | – |
 | 17 | ~~„Reč dana"~~ – **odobreno „da vidimo kako izgleda", urađena prva verzija 08.09.** (dugme na početnom ekranu igre). Sledeći korak ako joj se svidi: da se u rezultatu vidi i koliko ljudi je danas igralo (traži sanduče/worker) | čeka njen utisak |
 | 18 | ~~75 strana za ukidanje~~ – **odluka 08.09.: proba 15 dole / 19 gore, urađeno.** Ostatak (60 slabih + 60 jakih) čeka njen utisak posle probe i GSC merenja | čeka |
-| 19 | **Push 6** – odobren 09.09. („komituj, push i merge") – ide čim paralelni lanac prođe. Sadrži: Dragan D-1…D-4 (kartica SAMO klikom), Reč dana, zamena strana 15→19, tekst igre, futer generisanih strana (pilule), kružić slogova desno, beležnica Enter (MOB-7), fokus se ne otima (S-25), sanduče (mejl) | – |
+| 19 | ~~Push 6~~ – **objavljen 09.09. u 01:34** (vlasnica: „čekam 3 dana" – pušteno pre nego što je paralelni lanac završio; lanac protiv produkcije pušten odmah posle). Sadrži: Dragan D-1…D-4 (kartica SAMO klikom), Reč dana, zamena strana 15→19, tekst igre, futer generisanih strana (pilule), kružić slogova desno, beležnica Enter (MOB-7), fokus se ne otima (S-25), sanduče (mejl) | – |
 | 22 | **Brzina objave (vlasnica 09.09.: „deploy traje 3 sata")** – urađeno 4/4: (1) `test/lanac.sh` četiri alata paralelno; (2) pun test ispisuje vreme po sekciji – sledeći korak je da 100 prozora ne skida rečnik iznova (v. TODO); (3) `test/lanac-brzi.sh` ≈ 1 min tokom rada; (4) generator strana 5 min 36 s → 43 s (bliske rime iz kanti po završetku, isti izlaz). Čist lanac pre objave sad = regeneracija ~1,5 min + najduži alat (pun test) | – |
 | 20 | **Odgovor Draganu** – nacrt ćirilicom u odeljku 2b ispod; šalje ga vlasnica kad pogleda šta je urađeno | – |
 | 21 | ~~Mejl kad neko prijavi grešku~~ – **urađeno i objavljeno 08.09.** (worker `rimoteka-prijave` v. f41c503d+, Gmail SMTP AUTH LOGIN, app-lozinka „rimoteka-prijave“ – vlasnica je napravila na Google strani, sesija je pročitala i upisala kao secret). Provereno IMAP-om: 2 mejla u Inbox-u, 0 u spamu | – |

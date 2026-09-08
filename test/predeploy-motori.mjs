@@ -124,7 +124,8 @@ try {
       const rec = await p.evaluate(() => gameCurrentWord);
       await p.fill('#gameInput', 'xqzwv'); await dodir(p, '#gameSubmit'); await pauza(300);
       const fb1 = await p.evaluate(() => document.getElementById('gameFeedback').className);
-      const tacna = await p.evaluate((w) => { const k = rhymeKey(w); for (let i = 0; i < jekStart; i++) if (WORDS[i] !== w && KEYS[i] === k && !BLOCKED.has(MALE[i])) return WORDS[i]; return null; }, rec);
+      /* Isto pravilo kao igra: savršena rima ILI završni slog, bar 3 slova (09.09.: „sportska“ ima samo rimu po završnom slogu). */
+      const tacna = await p.evaluate((w) => { const k = rhymeKey(w), fk = finalSylKey(w), m = w.toLowerCase(); for (let i = 0; i < jekStart; i++) if (MALE[i] !== m && WORDS[i].length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i])) return WORDS[i]; for (let i = 0; i < jekStart; i++) if (MALE[i] !== m && WORDS[i].length >= 3 && finalSylKey(WORDS[i]) === fk && !BLOCKED.has(MALE[i])) return WORDS[i]; return null; }, rec);
       await p.fill('#gameInput', tacna || 'kuća'); await dodir(p, '#gameSubmit'); await pauza(300);
       const fb2 = await p.evaluate(() => document.getElementById('gameFeedback').className);
       ok(`${ime} · igra · „${rec}": nepostojeća reč odbijena, tačna rima „${tacna}" priznata`, /hint/.test(fb1) && /correct/.test(fb2), `${fb1} / ${fb2}`);

@@ -480,7 +480,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=20260908s"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=20260908t"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1075,7 +1075,7 @@ def main():
             # Ista rečenica kao u alatu (app.js `renderGroup`, nalaz N-R1): rezervna grupa
             # se poklapa samo u poslednjem slogu, pa to mora da piše.
             nota = ('<p class="res-note">Ove reči se sa tvojom slažu samo u poslednjem slogu, pa zvuče slabije od pravih rima.</p>'
-                    if title.startswith('Dobre rime (isti završni slog)') else '')
+                    if title.startswith('Isti završni slog') else '')
             return f'<div class="{cls}"><h2>{title}</h2>{nota}<div class="results">{chips}</div></div>'
 
         # Grupe po broju slogova kao zaseban blok – UKLONJENE 20.08.2026: iste
@@ -1090,7 +1090,7 @@ def main():
         # prvih ~20 – posetilac nije video celu ponudu na samoj strani.
         groups = (group_html('Najbolje rime', best, True)
                   + group_html('Dobre rime', good, False)
-                  + (group_html('Dobre rime (isti završni slog)', final_extra, False) if final_extra else '')
+                  + (group_html('Isti završni slog (nisu prave rime)', final_extra, False) if final_extra else '')   # isti naslov kao u alatu (D-2, 08.09.2026)
                   + loose_html)
 
         # copy-all reči (za lakše korišćenje)

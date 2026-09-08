@@ -4772,7 +4772,7 @@ async function main() {
              razlici koja sa redosledom nema veze. */
       const uzmiRime = () => [...document.querySelectorAll('#rimeResults .res-group')]
         .filter(g => { const h = g.querySelector('h2');
-                       return h && /^(Najbolje|Dobre) rime/.test(h.textContent.trim()); })
+                       return h && /^(Najbolje rime|Dobre rime|Isti završni slog)/.test(h.textContent.trim()); })   // rezervna grupa se od 08.09. zove „Isti završni slog (nisu prave rime)" (D-2)
         .flatMap(g => [...g.querySelectorAll('.word')])
         .map(x => x.textContent.trim()).slice(0, 10);
 
@@ -5419,7 +5419,9 @@ async function main() {
         const poRedu = Object.values(redovi); return { cipova: c.length, vidljiveIkonice: vidljive, poRedu: poRedu.length > 1 ? poRedu.slice(0, -1).reduce((a, b) => a + b, 0) / (poRedu.length - 1) : poRedu[0],
           legenda: (document.querySelector('.res-legend') || {}).textContent || '' }; });
       ok('računar · u kapsuli nema vidljivih ikonica (radnje su u traci)', kapsule.cipova > 0 && kapsule.vidljiveIkonice === 0, JSON.stringify(kapsule));
-      ok('računar · u red stane bar 7 reči (na 1280 px; bilo 4 sa ikonicama)', kapsule.poRedu >= 7, `${kapsule.poRedu}`);
+      /* Od 08.09.2026 (prijava Dragana M.) sve pilule u grupi su široke koliko najšira reč (ravne kolone),
+         pa u red stane manje – prag je spušten sa 7 na 5. Bez ikonica je bilo 4; regresija bi bila ≤ 4. */
+      ok('računar · u red stane bar 5 reči (na 1280 px; ravne kolone od 08.09.; bilo 4 sa ikonicama)', kapsule.poRedu >= 5, `${kapsule.poRedu}`);
       /* Legenda je od 08.09.2026 JEDNA rečenica (prijava vlasnice). Provera gleda i DUŽINU – stara je imala
          tri uputstva u jednom redu, a test je proveravao samo ključne reči pa je prolazila. */
       ok('računar · legenda je tačno tekst vlasnice (08.09.2026)', /^2\s*Broj u kružiću označava koliko slogova ima data reč\.\s*Pređi mišem preko reči i videćeš njeno objašnjenje, možeš da je sačuvaš, nađeš rime za nju, možeš da je kopiraš ili da reč prijaviš kao grešku\.$/.test(kapsule.legenda.replace(/\s+/g, ' ').trim()), kapsule.legenda);
@@ -5712,7 +5714,7 @@ async function main() {
         // 08.09.2026, odluka vlasnice: logo-icon.png je 224 px (~56 KB) da bude oštar na iPhone-u (3×); prag 70 KB
         ok('A6 · logo-icon.png je mali (< 70 KB, 224 px), a manifest koristi logo-512.png za ikonice', logoB < 70000 && logo512 && !/logo-icon\.png/.test(manifest) && /logo-512\.png/.test(manifest), `${logoB} B`);
         ok('S-19 · nijedan link sa strana reči ne vodi na stranu koje nema (mrtav link = 404)', mrtvi.size === 0, [...mrtvi].slice(0, 6).join(', '));
-        const mapa = fs.readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
+        const mapa = (await import('node:fs')).readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
         const uGeneratoru = (fs.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/if len\(all_r\) < (\d+):/) || [])[1];
         ok('S-19 · prag u generatoru je 5 pravih rima, a ukinute adrese (krv, kurs, vrh…) su u mapi starih strana', uGeneratoru === '5' && /\/rime-za\/krv\/ 1;/.test(mapa) && /\/rime-za\/vrh\/ 1;/.test(mapa), `prag ${uGeneratoru}`);
       } else {
@@ -5879,7 +5881,7 @@ async function main() {
         await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
         await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {});
         await pauza(600);
-        const nr1 = await p.evaluate(() => { const g = [...document.querySelectorAll('#rimeResults .res-group')].find(x => /isti završni slog/.test(x.querySelector('h2')?.textContent || '')); return g ? (g.querySelector('.res-note') || {}).textContent || '' : 'nema grupe'; });
+        const nr1 = await p.evaluate(() => { const g = [...document.querySelectorAll('#rimeResults .res-group')].find(x => /isti završni slog/i.test(x.querySelector('h2')?.textContent || '')); return g ? (g.querySelector('.res-note') || {}).textContent || '' : 'nema grupe'; });
         ok('N-R1 · grupa „Isti završni slog (nisu prave rime)" nosi rečenicu da su to slabije rime', /samo u poslednjem slogu/.test(nr1), nr1);
         // S-15: oblačić otvoren tastaturom – role=tooltip, Escape ga zatvara
         await p.focus('#rimeResults .chip .word'); await pauza(250); await p.keyboard.press('Tab'); await pauza(100); await p.keyboard.press('Enter');
@@ -6339,7 +6341,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         const st = async (u) => { try { const r = await fetch(BASE + u, { redirect: 'manual' }); return r.status; } catch { return 0; } };
         const d = []; for (const w of dole) d.push(await st(`/rime-za/${w}/`));
         const g = []; for (const w of gore) g.push(await st(`/rime-za/${w}/`));
-        const mapa = fs.readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
+        const mapa = (await import('node:fs')).readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
         ok('zamena strana · 15 slabih više nema (404 lokalno / 301 na produkciji) i sve su u mapi starih adresa', d.every(x => x === 404 || x === 301) && dole.every(w => mapa.includes(`/rime-za/${w}/ 1;`)), d.join(','));
         ok('zamena strana · 19 jakih reči sa kraja stiha ima stranu (200)', g.every(x => x === 200), g.join(','));
         const pom = await (await fetch(BASE + '/igra-rimovanja/')).text();

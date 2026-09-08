@@ -1182,6 +1182,7 @@ function poravnajCipove(wrap){
   if(!wrap) return;
   wrap.classList.remove('poravnato');
   wrap.style.removeProperty('--cip-w');
+  if(jeTelefon()) return;   // na telefonu pilula grli reč (2–3 u redu, pravilo M-varijante); kolone su tamo ionako kratke
   const cips = wrap.querySelectorAll('.chip');
   if(cips.length < 2) return;
   let max = 0;

@@ -1,7 +1,7 @@
 # TODO — Rimoteka (sajt i alati)
 
 > Rečnik ima svoj spisak u `TODO-RECNIK.md`, tekstovi na sajtu u `TODO-TEKSTOVI.md`. Ovde je sve ostalo.
-> **Poslednje prepisano: 8. septembar 2026.** (posle tri kruga popravki iz audita 07.09.).
+> **Poslednje prepisano: 9. septembar 2026, 02:00** (posle push 6). Handoff: `HANDOVER.md`, vrh.
 > Rešeno se **briše**, ne štriklira. Trag rešenog: `AUDIT/NALAZI-OTVORENI.md` i `HANDOVER.md`.
 > Cilj vlasnice: **10/10 na svim dimenzijama**, telefon prvi (većina posetilaca).
 
@@ -30,19 +30,20 @@ pa pun test (53 proverava deljene fajlove). Ostalih ~88.000 objašnjenja „Obli
 sl. NE menjaju (nisu „Oblik reči X“). Uraditi u sledećoj sesiji, kad Mac nije preopterećen (08.09. uveče: opterećenje 138
 zbog iOS simulatora druge sesije).
 
-## STANJE 08.09.2026
+## STANJE 09.09.2026 (02:00, posle push 6)
 
 | | |
 |---|---|
-| Ocena audita | **7,3/10** na dan 07.09. (`AUDIT/2026-09-06-audit.md`); posle 27 zatvorenih nalaza ocena se meri u sledećem auditu, ne prepisuje |
-| Test | 53 sekcije, lokalno 804 provera |
-| Na sajtu (objavljeno 08.09., dva pusha) | baner (tekst vlasnice), legenda (tekst vlasnice), A4, A5, S-03, S-04, S-06, S-08–S-13, S-15–S-17, S-20, S-24–S-26, N-01–N-05, N-08–N-10, N-R1, nginx (404 za nepostojeće, keš fontova, CSP bez Google Fonts). Produkcija `app.js?v=20260908e`; test protiv produkcije **791/791** |
+| Ocena audita | **7,3/10** na dan 07.09. (`AUDIT/2026-09-06-audit.md`); od tada zatvoreno 27 + mobilni audit + igra + Dragan – ocena se meri u sledećem auditu (10.09.), ne prepisuje |
+| Test | pun test 94 sekcije, ~850 provera lokalno (831 protiv produkcije); + motori 60 + skener ćirilice + skener tamne; sve u `bash test/lanac.sh` (≈ 12 min paralelno) |
+| Na sajtu | sve iz push 4–6 (v. HANDOVER §1); poslednji lanac protiv produkcije: sve prošlo |
 
-## 1. ODMAH POSLE OBJAVE
+## 1. ODMAH NA POČETKU SLEDEĆE SESIJE
 
-4. **S-19 — tanke strane** (6 sa <5 rima, 32 sa 5–9): ne generisati stranu ispod 8 rima; stare adrese dodati u `nginx-stare-strane.map` (301 na hub).
-7. **Sanduče za prijave:** dnevni mejl na `eureka@` sa novim prijavama (cron na Hetzneru + Gmail SMTP iz `server-guard.sh`). N-13 urađen u kodu 08.09. — **`cd worker && npx wrangler deploy` čeka „da"**.
-8. **Brzina, ostalo:** brotli NIJE moguć u `nginx:alpine` (nema modul; N-14 ostaje dok se ne promeni slika servera); `ga-init.js` sa `defer`; drugi dolazak kroz service worker izmeriti (audit: ISTEKLO VREME); rime na sporoj mreži izmeriti PRE i POSLE preload-a (`emulateNetworkConditions`, cilj ≤4 s).
+1. **GSC Request Indexing za 19 novih strana** (`čeka radi mira jada sprema brata oka meni vila jeka vuče čedo sjaj nosi baba drugo iznenada zraka dar`) – `osascript scripts/gsc-zatrazi-indeksiranje.applescript`, kvota ~10/dan; i pregled da 15 ukinutih daje 301.
+2. **Nove prijave u sanduču** (`curl -H "X-Kljuc: …" <worker>/prijave?format=json`) – od 09.09. stižu i mejlom.
+3. **Roboti na `?rec=`**: `ssh root@88.198.218.69`, `docker stats` za kontejner rimoteke (RAM limit 512 MB) – ako je pri vrhu, `limit_req` u nginx-u.
+4. **Brzina, ostalo:** brotli NIJE moguć u `nginx:alpine`; drugi dolazak kroz service worker izmeriti (ISTEKLO VREME u auditu); deploy bez 502 (health check / rolling u Coolify-ju).
 
 ## 2. OVOG MESECA — struktura i brzina
 
@@ -74,11 +75,14 @@ redosled promenio, na pregled vlasnici.
 
 ## 3. ČEKA ODLUKU VLASNICE (ne raditi bez „da")
 
-- **A6** logo 298 KB → 24 KB (128 px verzija; izgled isti) — pravilo „logo se ne dira".
 - **N-18** 38 zareza ispred „pa" (kućno pravilo; Pravopis dozvoljava).
 - **Politika `?rec=`** (15.500 indeksiranih dinamičkih adresa guše 1.991 statičkih) — posle brojeva iz GSC.
 - **S6** jedan red rima u beležnici na telefonu (nameran; 3 od 16 vidljivo).
-- **V2 sinonimi** — pregled kandidata od 19. reči (`AUDIT/sinonimi/redosled-pregleda.json`), grupe od ~18.
+- **V2 sinonimi** — vlasnica SAMA pregleda `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (deo A = 54 na sajtu, deo B = 787); kad kaže „pregledano“ → skripta koja čita fajl.
+- **Ostatak zamene strana** (60 + 60) posle probe 15→19 i GSC 22.09.
+- **Futer na telefonu kraći** samo ako se prikazuje manje reči (odluka o sadržaju).
+- **Reč dana** – njen utisak; sledeći korak broj igrača dana (worker).
+- **Prijava „pitanja/mržnja“ 06.09.** u sanduču (sesijska proba) – obrisati uz „da“.
 - **Login** (Google + mejl preko Supabase-a, organizacija Orbita Code; Apple kad bude Developer nalog na njeno ime) — sinhronizacija beležnice/omiljenih/istorije, politika privatnosti, brisanje naloga, praćenje samo uz kvačicu.
 
 ## 4. STARI SREDNJI I NISKI KOJI OSTAJU

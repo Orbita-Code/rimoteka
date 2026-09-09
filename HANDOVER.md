@@ -4,68 +4,58 @@
 
 ---
 
-# HANDOFF ZA SLEDEĆU SESIJU – stanje na kraju 08.09.2026 (sesija 22, najduža do sada)
+# HANDOFF ZA SLEDEĆU SESIJU – stanje na kraju 09.09.2026 u 02:00 (sesija 22, najduža do sada: 07.09. 23:00 – 09.09. 02:00)
 
 > Ovo se čita PRVO. Ispod (od „Sesija 7–8. septembar 2026") stoji dnevnik cele sesije; ovde je samo ono
-> što sledeća sesija mora da zna da bi nastavila bez pitanja.
+> što sledeća sesija mora da zna da bi nastavila bez pitanja. Izvor istine za nalaze: `AUDIT/NALAZI-OTVORENI.md`.
 
 ## 1. Gde je kod i šta je na sajtu
 
 | Šta | Stanje |
 |---|---|
-| Grana sa svim radom | `fix/audit-0709-drugi-krug` (lokalno; sve komitovano) |
-| `main` na GitHub-u | = grana. **Push 4** 08.09. 01:45 (mobilni audit, ćirilica, igra I-1…I-5) i **push 5** 08.09. 10:14 (igra: spisak reči `igra-reci.json`, režim „tri rime", odgovor glasom; logo 224 px; 37 odobrenih sinonima; „Učitavam rečnik…" u pismu) |
-| Na sajtu (rimoteka.com) | **push 6 (09.09. 01:34)**: `app.js?v=20260908x`, `style.css?v=20260908k`, sw keš v7. Sanduče šalje mejl (f41c503d+). Lanac protiv produkcije: v. `AUDIT/lanac/` |
-| NIJE na sajtu | ništa – čeka se samo odluka vlasnice za tačke iz odeljka 2 |
-| Poslednji pun test | 834/834 (test 17, posle regeneracije strana); motori: 55/55 (WebKit, Firefox, Chromium); skener ćirilice: 2.010 strana, 0 latiničnih tekstova; skener tamne 30 strana + ekrani igre, 0 nalaza; 100 partija: 100 partija (1 igrač) 500 poteza, 0 nalaza; 12 partija sa 2–3 igrača 150 poteza, 0 nalaza |
+| Grana | `fix/audit-0709-drugi-krug` = `main` + nekoliko commita dokumentacije/izveštaja (samo `.md` i `AUDIT/`); poslednji push na `main` je push 6, 09.09. u 01:34 |
+| Na sajtu (rimoteka.com) | `app.js?v=20260908x`, `style.css?v=20260908k`, `sw.js` keš v7, `igra-reci.json`, `sinonimi.json` 54 reči; sanduče prijava šalje mejl (worker f41c503d+); nginx: HSTS godina, 301 za velika slova, 301 za ukinute strane |
+| Objavljeno u ovoj sesiji | push 4 (mobilni audit, ćirilica cele strane, kratka crta, tamna prati sistem, igra I-1…I-5), push 5 (igra: spisak reči, tri rime, glas; logo 224; 37 sinonima), push 6 (kartica SAMO klikom, ravne kolone, kružić desno, „po azbuci", Reč dana, zamena strana 15→19, futer pilule, beležnica Enter, fokus se ne otima, tekst igre) |
+| Poslednji lanac protiv produkcije | `AUDIT/lanac/20260909-013535/`: pun test 831 provera, motori 60/60, ćirilica 0, tamna 0 – **11 min 51 s paralelno** |
+| Lokalni pregled | `node test/static-server.mjs public 8765` → `http://localhost:8765/`; sa telefona na istom Wi-Fi: `http://192.168.0.80:8765/` |
 
-**Redosled objave sajta (push 4):** `git push origin fix/audit-0709-drugi-krug:main` (grana je FF na main) →
-deploy ~30 s (kratak 504 dok se kontejner menja) → `BASE=https://rimoteka.com node test/predeploy.mjs` +
-`BASE=https://rimoteka.com node test/predeploy-motori.mjs` → `cd worker && npx wrangler deploy` (N-13) → test 46.
+## 2. KAKO SE SADA OBJAVLJUJE (novo od 09.09.)
 
-## 2. ŠTA ČEKA ODOBRENJE VLASNICE (ne raditi bez „da")
+```bash
+bash test/lanac-brzi.sh        # tokom rada, ≈ 41 s: tri motora + dimna proba glavnih namena
+bash test/lanac.sh --gen       # pre objave: regeneracija (43 s) + pun test + motori + 2 skenera PARALELNO (≈ 12 min)
+git push origin fix/audit-0709-drugi-krug:main     # SAMO uz njeno „da" – jedno „da" = jedan push
+BASE=https://rimoteka.com bash test/lanac.sh        # posle objave, protiv produkcije
+```
+- **Igra se pre objave NE IGRA** (`igra-100-partija.mjs`, `igra-kao-covek.mjs` samo na njen zahtev).
+- **Nikad `git commit` dok `gen_pages.py` radi** – 09.09. je jedan commit obrisao 1.990 strana iz repoa (vraćeno pre pusha).
+- Pun test ispisuje `[NN s]` uz svaku sekciju – kad se traži gde ide vreme, gleda se to.
+- Pre svakog spiska za vlasnicu (sinonimi, reči, strane): `grep -ril "odluk\|odobr" AUDIT/ HANDOVER.md` – njene ranije odluke ulaze u spisak kao „već odobreno" (09.09. je drugi put izgubljeno 52 rešene reči).
+- Test koji klikne „Pošalji" u prijavi ide kroz `umotaj()` ili upiše `rimoteka_proba=1` – i lokalno (sanduče prima `localhost`).
 
-| # | Pitanje | Moj predlog |
+## 3. ŠTA ČEKA VLASNICU (ne raditi bez „da")
+
+| # | Šta | Moj predlog |
 |---|---|---|
-| 1 | ~~Push sajta na `main`~~ – **urađeno 08.09. u 01:45** po njenom „javi kad prođe pa pushuj"; testovi protiv produkcije: v. dnevnik sesije ispod | – |
-| 2 | ~~Igra: opcija od 5 sekundi~~ – **odluka 08.09.: NE**, prekratko; ostaje 10/15/20/30 | – |
-| 3 | ~~Logo 128 px~~ – **odobreno i urađeno 08.09.: 224 px** (56 KB), sw.js keš v7 | – |
-| 4 | **Rimoteka Pro** (skriveni prozor pretplate): „Римотека Про" ili „Pro" latinicom | „Pro" latinicom (ime proizvoda) |
-| 5 | **Sekunde u igri** („10s") u ćirilici: „10с" ili „10 сек." | „10 с" |
-| 6 | **75 strana reči** koje po sva tri merila ne zaslužuju stranu (breskva, vođstvo, intervju, evro…) + 79 pesničkih reči bez strane – menja adrese | ukinuti 75 (adrese u mapu), dodati 79 |
-| 7 | **Izbor reči za strane** ubuduće: prvo kurirane + gradovi, pa reči sa kraja stiha, pa broj rima, pa tek učestalost u novinama | da |
-| 8 | **Sinonimi (V2)**: vlasnica pregleda SAMA u `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (812 redova, otvoren u TextEdit-u 08.09.; briše/dodaje/komentariše iza `#`). Kad kaže „sinonimi su pregledani" → napraviti `scripts/sinonimi-iz-pregleda.py` koji čita taj fajl i pravi `public/sinonimi.json` (pa osveži verziju) | čekati njen znak |
-| 9 | **S6** jedan red rima u beležnici na telefonu (traka na vrhu sad pokazuje 1 red, strelica razvija) | ostaviti |
-| 10 | **N-18** 38 zareza ispred „pa" | ostaviti (Pravopis dozvoljava) |
-| 11 | **Tekst „ubaci rimu"** zapravo ZAMENJUJE reč pod kursorom (utisak pisca) | preimenovati u „zameni reč" |
-| 12 | **Analitika, 3 preporuke** (naslov početne sa „rimovanje", naslov strana reči, prepis `/vrste-rima/`) – naslovi su njena odluka | da, sa merenjem 22.09. |
-| 13 | **Rime po naglasku** (inovacija, TODO 2a) – prvi korak je provera akcenata u skeniranom Rečniku | posle S-18/S-19 rezultata u GSC |
-| 14 | ~~Reči koje igra zadaje~~ – **odluka 08.09.: imenice, glagoli, pridevi 2–4 sloga → urađeno** (`igra-reci.json`, 6.634 reči) | – |
-| 16 | ~~Tekst „Kako se igra?"~~ – **odobreno i dodato 08.09.** | – |
-| 17 | ~~„Reč dana"~~ – **odobreno „da vidimo kako izgleda", urađena prva verzija 08.09.** (dugme na početnom ekranu igre). Sledeći korak ako joj se svidi: da se u rezultatu vidi i koliko ljudi je danas igralo (traži sanduče/worker) | čeka njen utisak |
-| 18 | ~~75 strana za ukidanje~~ – **odluka 08.09.: proba 15 dole / 19 gore, urađeno.** Ostatak (60 slabih + 60 jakih) čeka njen utisak posle probe i GSC merenja | čeka |
-| 19 | ~~Push 6~~ – **objavljen 09.09. u 01:34** (vlasnica: „čekam 3 dana" – pušteno pre nego što je paralelni lanac završio; lanac protiv produkcije pušten odmah posle). Sadrži: Dragan D-1…D-4 (kartica SAMO klikom), Reč dana, zamena strana 15→19, tekst igre, futer generisanih strana (pilule), kružić slogova desno, beležnica Enter (MOB-7), fokus se ne otima (S-25), sanduče (mejl) | – |
-| 22 | **Brzina objave (vlasnica 09.09.: „deploy traje 3 sata")** – urađeno 4/4: (1) `test/lanac.sh` četiri alata paralelno; (2) pun test ispisuje vreme po sekciji – sledeći korak je da 100 prozora ne skida rečnik iznova (v. TODO); (3) `test/lanac-brzi.sh` ≈ 1 min tokom rada; (4) generator strana 5 min 36 s → 43 s (bliske rime iz kanti po završetku, isti izlaz). Čist lanac pre objave sad = regeneracija ~1,5 min + najduži alat (pun test) | – |
-| 20 | **Odgovor Draganu** – nacrt ćirilicom u odeljku 2b ispod; šalje ga vlasnica kad pogleda šta je urađeno | – |
-| 21 | ~~Mejl kad neko prijavi grešku~~ – **urađeno i objavljeno 08.09.** (worker `rimoteka-prijave` v. f41c503d+, Gmail SMTP AUTH LOGIN, app-lozinka „rimoteka-prijave“ – vlasnica je napravila na Google strani, sesija je pročitala i upisala kao secret). Provereno IMAP-om: 2 mejla u Inbox-u, 0 u spamu | – |
-| 15 | **Pravilo rime u igri** promenjeno bez pitanja jer je bila rupa (I-1): za „kuća" se priznavala i „žena" (55.231 reč); sad završni slog („sreća", „vruća") + bar 3 slova. Ako vlasnica hoće još strože (samo savršena rima) – jedan red u `checkGameAnswer` | ostaviti završni slog (deca inače ne mogu da reše „valjda", „srce") |
+| 1 | **Odgovor Draganu** – nacrt ćirilicom u 3b ispod, sve četiri tačke su na sajtu | pošalje ona |
+| 2 | **Sinonimi** – ona sama pregleda `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (deo A = 54 na sajtu, deo B = 787 novih); rekla je „sad nemam vremena" | kad kaže „sinonimi su pregledani" → napraviti `scripts/sinonimi-iz-pregleda.py` (čita fajl, pravi `sinonimi.json`, osveži verziju) |
+| 3 | **Ostatak zamene strana** (60 slabih dole + 60 jakih gore) posle probe 15→19 | posle GSC merenja 22.09. |
+| 4 | **Reč dana** – prva verzija je na sajtu („da vidimo kako izgleda"); sledeći korak: broj ljudi koji su danas igrali (traži worker) | čeka njen utisak |
+| 5 | **Futer na telefonu**: sad pilule, 4 u redu, ali 30 reči + vodiči + namene = 1.281 px; kraće samo ako se na telefonu prikazuje manje reči (npr. 16) | njena odluka o sadržaju |
+| 6 | **„Oblik reči X“** → navodnici + značenje u zagradi (skripta gotova, probana; TODO) | primeniti kad kaže |
+| 7 | **Prijava „pitanja/mržnja" 06.09.** u sanduču – sa ovog računara, sesijska proba; nije obrisana | obrisati uz „da" |
+| 8 | Stare odluke koje još stoje: N-18 (zarez ispred „pa"), S6 (jedan red rima u beležnici), politika `?rec=`, login/nalozi | – |
 
-### 2a. Šta znači „75 strana za ukidanje" (obrazloženje za vlasnicu, 08.09.)
+### 3a. Šta je vlasnica ODLUČILA u ovoj sesiji (ne otvarati ponovo)
+- Reči u igri: samo imenice, glagoli, pridevi 2–4 sloga. **5 s u igri: NE.** Igra se pre objave ne igra.
+- Kartica nad reči: **samo klikom/dodirom** (i tastaturom), nikad na prelazak miša. Legenda: „Klikni na reč…".
+- Kružić sa brojem slogova **desno** u kapsuli; kapsule iste širine (Dragan); kvačica „po azbuci" (podrazumevano isključena).
+- Beležnica: „red" ostaje „red" (ne „stih"); Enter usred pesme ne sme da pomera stranu.
+- Logo 224 px (ostaje pravilo „logo se ne dira" za sve ostalo).
+- Mejl za svaku prijavu greške – app-lozinka „rimoteka-prijave" (vrednost u `~/.config/rimoteka/smtp-prijave.json`).
+- Analytics posle 06.09. broji trećinu (baner) – **poseta se meri po GSC klikovima**, ne po GA.
 
-Sajt ima 1.985 strana `/rime-za/<reč>/`. Istraga (`AUDIT/analiza/istraga-strane-reci.md`) je za svaku reč merila tri stvari:
-1. **da li se reč javlja na kraju stiha** u korpusu srpskih pesama (ako se nikad ne rimuje u pesmi, niko ne traži rimu za nju),
-2. **koliko rima ima** (strana sa 0–1 rimom je prazna strana – Google je ne prima, a čovek ode razočaran),
-3. **koliko se reč uopšte koristi** (učestalost u korpusu).
-
-**75 strana pada na SVA TRI merila** – npr. `breskva` (0 rima), `vođstvo`, `intervju`, `evro`, `dugme`, `mržnje`,
-`sumnje`, `izložba` (0 rima), plus 4 grada (Delhi, Moskva, Oslo, Zimbabve) sa 0 rima. Te strane Google uglavnom NE
-indeksira („Discovered – not indexed"), a svaka takva strana razvodnjava ostatak sajta. Ukidanje = adresa ide u
-`nginx-stare-strane.map` (301 na hub `/rime-za/`), ništa se ne briše iz rečnika, reč i dalje radi u alatu.
-**79 reči** je obrnut slučaj: stoje na kraju stiha bar 3 puta u pesmama, imaju bar 5 rima, a NEMAJU stranu (`čeka`,
-`radi`, `momče`…). Za njih važi tvoja zabrana novih strana dok indeksiranost ne pređe 40 % – zato se ne dodaju bez
-tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih), ne širenje.
-
-### 2b. Nacrt odgovora Draganu (ćirilicom, persiranje – on njoj sme na „ti")
+### 3b. Nacrt odgovora Draganu (ćirilicom, persiranje – on njoj sme na „ti")
 
 ```
 Поштовани Драгане,
@@ -82,7 +72,7 @@ tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih
 3. Прозорче с опцијама. Отварало се чим прелетите преко речи и прекривало ред изнад. Сад се отвара само
    кликом на реч (и тастатуром), а изнад списка пише „Кликни на реч…“ – док прелазите погледом, ништа не искаче.
 4. Ширина поља. Све речи у једној групи сад имају исту ширину (колико најшира реч у групи), па колоне
-   стоје равно.
+   стоје равно, а број слогова је уз десну ивицу сваке.
 
 Све четири измене су на сајту. Ако Вам нешто и даље смета, или приметите нешто ново, пишите слободно –
 свака оваква порука нам је драгоцена.
@@ -91,34 +81,26 @@ tvog „da", i ako ih dodaš, radi se ZAMENA (ukinuti 75 slabih, dodati 79 jakih
 Јована
 ```
 
-## 3. TODO ZA SLEDEĆU SESIJU (po redu)
+## 4. TODO ZA SLEDEĆU SESIJU (po redu)
 
-1. **Push 4 + `wrangler deploy` + testovi protiv produkcije** (svi: predeploy, motori, skener ćirilice `BASE=`, skener tamne `BASE=`, `igra-kao-covek.mjs` `BASE=`).
-2. **Pravi iPhone**: vlasnica da proveri beležnicu sa tastaturom (traka na VRHU, red sa kursorom vidljiv), brojač slogova (dodir u prazno polje), spisak strana (azbuka). Njene slike imaju prednost nad emulacijom. Ako Safari/Chrome i dalje pomera traku – `visualViewport.offsetTop` je rešenje na kom se stoji, ali se meri na uređaju.
-3. **Otvoreno iz agenata (nisko):** A-R4 „i šire rime" za reč sa 180 rima ne pokazuje ništa novo (grupe sečene na 90) · A-R6 dugmad trake 41 px na 320 · „sačuvaj rime" bez kursora uzima poslednju reč bez naznake · na iPhone-u „kopiraj pesmu" umesto „preuzmi" · `/slogovi/` sad pamti tekst za karticu (sessionStorage) – proveriti da li vlasnica to hoće.
-4. **Nije provereno ni od koga:** landscape na telefonu, spora mreža na telefonu (`emulateNetworkConditions` iz protokola), prevlačenje stihova prstom, 30+ stihova, drugi dolazak kroz service worker.
-5. **Deploy bez prekida**: pri svakoj objavi sajt vraća 504 nekoliko sekundi dok Coolify menja kontejner – proveriti health check / rolling u Coolify-ju.
-6. **GSC 22.09.**: polazna tačka od 08.09. je u `AUDIT/analitika/2026-09-08.md` – „Page with redirect" 974, „Discovered – not indexed" 1.123, CTR početne 2,5 %, upit „rime" 3 klika. Posle promena (404, susedne reči, tanke strane) meriti da li se pomerilo. `osascript scripts/gsc-zatrazi-indeksiranje.applescript` za nove/izmenjene strane (kvota ~10/dan).
-7. **TODO.md** – ostatak (S3 objašnjenja rečnika, S-22 na sporoj mreži, sanduče dnevni mejl, brotli nemoguć u nginx:alpine, rupe u testu).
-8. **Pun audit po protokolu** – poslednji 06–07.09.; ritam je 3 dana → 10.09.
+1. **Pravi iPhone** – vlasnica proverava: beležnica (Enter usred pesme, traka na vrhu), futer, kartica na dodir, mikrofon u igri (jedino što test ne može sa pravim glasom). Njene slike imaju prednost nad emulacijom.
+2. **GSC Request Indexing za 19 novih strana** + provera da 15 ukinutih daje 301 (v. `TODO.md` §1) – nije urađeno u ovoj sesiji.
+3. **Pun test ispod 6 min** – plan sa merenjem u `TODO.md` (709 s u 94 sekcije; ~100 konteksta skida rečnik iznova; fiksne pauze ~2 min).
+4. **„Oblik reči X“** – `python3 build/oblik_reci_navodnici.py --primeni` + podela definicija + verzije + gen + lanac (kad ona kaže).
+5. **Sinonimi iz pregleda** – skripta koja čita njen fajl (kad ona kaže).
+6. **GSC 22.09.** – polazna tačka `AUDIT/analitika/2026-09-08.md` (07.09.: GA 22/36 vs GSC 75 klikova u 24 h); meriti efekat zamene strana, 404/301, naslova.
+7. **Roboti na `?rec=`** – 08.09. talas od 12.000+ IP adresa (47.79.*, 162.120.*); pratiti RAM kontejnera (limit 512 MB); ako guši – `limit_req` u nginx-u ili blokada opsega.
+8. **Deploy bez prekida** – pri svakoj objavi 502/504 ~10–30 s dok Coolify menja kontejner; health check / rolling.
+9. **Pun audit po protokolu** – poslednji 06–07.09.; ritam 3 dana → 10.09.
+10. Nisko iz agenata: A-R4 („i šire rime" za 180 rima ne menja ništa vidljivo), A-R6 (dugmad trake 41 px na 320), „sačuvaj rime" bez kursora uzima poslednju reč, „kopiraj pesmu" na iPhone-u.
 
-## 4. Nova merila i pravila (da se ne zaborave)
-
-- Pre svakog deploya: `node test/predeploy.mjs` (~830 provera, 55 sekcija) + `node test/predeploy-motori.mjs` (WebKit = iPhone,
-  Firefox, Chromium) + `node test/skener-cirilica.mjs` (0 latinice van dozvoljenog) + `node test/skener-tamna.mjs` (0 nalaza)
-  **Igra se pre objave NE IGRA** (vlasnica 08.09. uveče): ni `igra-kao-covek.mjs` ni `igra-100-partija.mjs` nisu u lancu.
-  **Lanac pre objave = `bash test/lanac.sh`** (četiri alata paralelno, 09.09.); tokom rada `bash test/lanac-brzi.sh`.
-  Bazen reči igre: `node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` (izveštaj za odluku). Svi u CLAUDE.md 9a.
-- **Igra prima rimu po završnom slogu, ne po poslednjem slovu** (I-1) i traži bar 3 slova (I-2). Ne vraćati `looseKey` u igru.
-- **Igra zadaje samo reči iz `igra-reci.json`** (imenice/glagoli/pridevi 2–4 sloga); režim „tri rime"; odgovor glasom
-  (`SpeechRecognition`, `sr-RS`); 5 s NE. Pravila u CLAUDE.md 9g. Test lažira prepoznavanje govora (`window.SpeechRecognition`
-  klasa u `addInitScript`) – pravi mikrofon se proverava samo ručno, na telefonu.
-- **Kratka crta (–), nikad dugačka (—)** – globalno pravilo, test pada.
-- **Nove reči kao stare** (CLAUDE.md 6.4): slogovi i ključ rime ne zavise od velikog slova; test 54 nad svim rečima.
-- **Ćirilica**: prebacuje se cela strana; izuzeci: logo, „Powered by Orbita Code", imena firmi (ZASTICENO u app.js),
-  tekst korisnika, dugmad pisma. Šema rime se preslovljava (АБАБ). Digrafi na granici prefiksa u NE_DIGRAF.
-- **Traka rima na telefonu je na VRHU** vidljivog ekrana; naslov/tabovi se sklanjaju dok je tastatura otvorena.
-- **Tekst koji korisnik vidi piše vlasnica** (baner, legenda) – test čuva tačan tekst.
+## 5. Nova pravila iz ove sesije (sva su i u CLAUDE.md / PROPUSTI.md)
+- Kratka crta (–), nikad dugačka (—). Ćirilica: cela strana, izuzeci logo/„Powered by Orbita Code"/imena firmi; šema rime se preslovljava (АБАБ).
+- Nove reči kao stare (6.4): slogovi i ključ rime ne zavise od velikog slova; test 54 nad svim rečima.
+- Igra prima rimu po završnom slogu, ne po poslednjem slovu; odgovor bar 3 slova; reči samo iz `igra-reci.json` (9g).
+- Prijave: u sanduču su SAMO ljudi (probe se ne čuvaju); otisak `543342…` = ovaj računar.
+- Sinonimi: „nepromenjeno" u zapisu odluka ZNAČI ODOBRENO i ide na sajt.
+- Beležnica na telefonu: svaka radnja se testira na četiri položaja kursora + meri se pomak strane.
 - EU/GDPR se na ovom sajtu ne pominje (globalni CLAUDE.md „KOLAČIĆI I PRAVO").
 
 ---

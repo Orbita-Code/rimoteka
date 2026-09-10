@@ -99,7 +99,43 @@ try {
       const e2 = await p.evaluate(() => { const ed = document.getElementById('noteEditor'); const box = document.getElementById('noteRhymes'); const tr = box.getBoundingClientRect(); const vv = window.visualViewport; const sel = window.getSelection(); const rng = sel.getRangeAt(0); let r = rng.getBoundingClientRect(); if (!r.height) { const sc = rng.startContainer; const pre = sc.nodeType === 1 && rng.startOffset > 0 ? sc.childNodes[rng.startOffset - 1] : null; if (pre && pre.getBoundingClientRect) { const pr = pre.getBoundingClientRect(); r = { top: pr.bottom, bottom: pr.bottom + 30 }; } } const edr = ed.getBoundingClientRect(); return { scrollY: Math.round(window.scrollY), kursorTop: Math.round(r.top), kursorDno: Math.round(r.bottom), trakaDno: Math.round(tr.bottom), vid: vv.height, dnoEditora: Math.round(edr.bottom), redova: (ed.innerText.match(/\n/g) || []).length }; });
       ok(`${ime} · beležnica · Enter usred pesme NE baca na dno (pomak ${e2.scrollY - preEnter} px, dozvoljeno ≤ 40)`, Math.abs(e2.scrollY - preEnter) <= 40, JSON.stringify({ preEnter, e2 }));
       ok(`${ime} · beležnica · posle Entera novi red je između trake i tastature`, e2.kursorTop >= e2.trakaDno - 2 && e2.kursorDno <= e2.vid + 2, JSON.stringify(e2));
+      /* KURSOR POSLE ENTERA (prijava vlasnice 10.09.2026: „Enter za novi red baci kursor
+         na poslednji red i pisanje je nemoguće"). Tajmer za bojenje rima (500 ms) prepisuje
+         innerHTML editora; stari restoreCursorPosition je brojao samo tekst-čvorove, pa
+         prazan red posle Entera za njega nije postojao i kursor je klizio u sledeći
+         neprazan red. Provera: slovo otkucano posle Entera mora da završi u NOVOM redu,
+         a ne slepljeno uz sledeći stih. */
+      await p.evaluate(() => { const ed = document.getElementById('noteEditor'); ed.innerHTML = 'kuca srce sada<br>pored mora nada<br>pesma dolazi kada'; ed.dispatchEvent(new InputEvent('input', { bubbles: true })); });
+      await pauza(1300);
+      // Kursor na SAM kraj 1. reda: posle obojene reči „sada" (bojenje je upakuje
+      // u span, pa „prvi tekst-čvor" nije kraj reda nego sredina rečenice).
+      await p.evaluate(() => { const ed = document.getElementById('noteEditor'); const sel = window.getSelection(); const r = document.createRange(); const cilj = ed.querySelector('.rhyme-word'); if (cilj && cilj.firstChild) { r.setStart(cilj.firstChild, cilj.firstChild.data.length); } else { const tw = document.createTreeWalker(ed, NodeFilter.SHOW_TEXT); const t = tw.nextNode(); r.setStart(t, t.data.length); } r.collapse(true); sel.removeAllRanges(); sel.addRange(r); });
+      await p.keyboard.press('Enter');
+      await pauza(1100);
+      await p.keyboard.type('Z');
+      await pauza(1100);
+      const kursorTekst = await p.evaluate(() => document.getElementById('noteEditor').innerText);
+      ok(`${ime} · beležnica · posle Entera kursor OSTAJE u novom redu (slovo se ne lepi uz sledeći stih)`, /\nZ\n/.test(kursorTekst) && !/Zpored/.test(kursorTekst), JSON.stringify(kursorTekst));
       }
+      await c.close();
+    }
+    /* 2b) BELEŽNICA: dodir van editora sklanja zalepljenu traku rima.
+       Prijava vlasnice 10.09.2026: na iPhone-u traka „RIME ZA …" ostane fiksirana
+       preko navigacije i ne može da se skloni – iOS ne skida fokus sa contenteditable
+       kad se dodirne ne-interaktivan deo strane, pa režim kucanja ostaje uključen
+       zauvek. Zato postoji document-level pointerdown koji blur-uje editor. */
+    {
+      const c = await ctx(); const p = await stranica(c);
+      await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+      await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+      await dodir(p, '#noteEditor');
+      await pauza(600);
+      const preKlasa = await p.evaluate(() => document.body.classList.contains('notes-typing'));
+      ok(`${ime} · beležnica · fokus na editor uključuje režim kucanja (traka zalepljena)`, preKlasa);
+      await dodir(p, '.notepad-legend');
+      await pauza(500);
+      const posleKlasa = await p.evaluate(() => document.body.classList.contains('notes-typing'));
+      ok(`${ime} · beležnica · dodir van editora SKLANJA traku (režim kucanja OFF)`, posleKlasa === false, `notes-typing=${posleKlasa}`);
       await c.close();
     }
     // 3) BROJAČ SLOGOVA: dodir u prazno polje ne odnosi stranu

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rimoteka – preview Pisanje pesama (dizajn 2026)</title>
+<style>
+/* ============================================================
+   RIMOTEKA · PISANJE PESAMA – DIZAJN PREVIEW 2026
+   Radna soba pesnika: papir, mastilo, tisinje. Nista ne vristi.
+   Jedan akcenat (vino) znaci „ovde se radi nesto".
+   ============================================================ */
+:root{
+  --papir:#FAF6EF;
+  --papir-2:#F3EEE3;
+  --kartica:#FFFDF9;
+  --tinta:#26211D;
+  --tinta-mek:#5C564E;
+  --tinta-bleda:#8A8378;
+  --vino:#7C2D4A;
+  --vino-dub:#63223A;
+  --vino-mek:#F4E6EB;
+  --zad:#3F6651;
+  --linija:#E4DCCB;
+  --senka:0 1px 2px rgba(38,33,29,.05),0 8px 24px -12px rgba(38,33,29,.18);
+  --senka-veca:0 2px 6px rgba(38,33,29,.06),0 24px 48px -16px rgba(38,33,29,.22);
+  --rad-l:22px;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:Charter,"Bitstream Charter",Cambria,Georgia,"Times New Roman",serif;
+  /* bojenje rima: meka podloga + donja crta, tekst ostaje tinta */
+  --rima-a:#7C2D4A;  --rima-a-poz:#F4E6EB;
+  --rima-b:#3F6651;  --rima-b-poz:#E4EFE8;
+  --rima-c:#8A5A18;  --rima-c-poz:#F6EBD8;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:var(--sans);background:var(--papir);color:var(--tinta);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--vino);color:#fff}
+a{color:var(--vino);text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+:focus-visible{outline:2px solid var(--vino);outline-offset:2px;border-radius:4px}
+.omot{max-width:1140px;margin:0 auto;padding:0 clamp(14px,3.4vw,32px)}
+
+/* ---------- VRH + TABOVI (isti kao pocetna) ---------- */
+.vrh{
+  position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb,var(--papir) 88%,transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linija);
+}
+.vrh-unutra{display:flex;align-items:center;gap:14px;height:58px}
+.logo{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--tinta)}
+.logo-znak{width:32px;height:32px;flex:none}
+.logo-rec{font-family:var(--serif);font-weight:700;font-size:1.3rem;letter-spacing:-.01em}
+.logo-rec b{color:var(--vino)}
+.vrh-desno{margin-left:auto;display:flex;align-items:center;gap:8px}
+.pismo-prekidac{
+  display:flex;background:var(--papir-2);border:1px solid var(--linija);
+  border-radius:999px;padding:3px;font-size:.8rem;font-weight:600;
+}
+.pismo-prekidac span{padding:4px 12px;border-radius:999px;color:var(--tinta-mek)}
+.pismo-prekidac span.aktivno{background:var(--tinta);color:var(--papir)}
+.tema-dugme{
+  width:36px;height:36px;border-radius:50%;display:grid;place-items:center;
+  color:var(--tinta-mek);border:1px solid var(--linija);background:var(--kartica);
+}
+.tabovi{border-bottom:1px solid var(--linija);background:var(--papir)}
+.tabovi-unutra{display:flex;gap:8px;padding:10px 0;overflow-x:auto;scrollbar-width:none}
+.tabovi-unutra::-webkit-scrollbar{display:none}
+.tab{
+  flex:none;padding:8px 16px;border-radius:999px;font-size:.86rem;font-weight:600;
+  color:var(--tinta-mek);white-space:nowrap;text-decoration:none;
+}
+.tab:hover{color:var(--tinta);background:var(--papir-2)}
+.tab.aktivan{background:var(--vino);color:#fff;box-shadow:var(--senka)}
+.tab .brojac{opacity:.65;font-weight:500;margin-left:4px;font-size:.78em}
+
+/* ---------- TRAKA SA ALATKAMA: tihuje ---------- */
+.alatke{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:14px 0 0;
+}
+.naslov-pesme{
+  flex:1;min-width:180px;border:none;outline:none;background:transparent;
+  font-family:var(--serif);font-size:1.15rem;font-style:italic;color:var(--tinta);
+  border-bottom:1px dashed var(--linija);padding:6px 2px;
+}
+.naslov-pesme::placeholder{color:var(--tinta-bleda)}
+.alatka{
+  display:inline-flex;align-items:center;gap:7px;
+  padding:8px 14px;border-radius:999px;font-size:.84rem;font-weight:600;
+  color:var(--tinta-mek);border:1px solid var(--linija);background:var(--kartica);
+  transition:border-color .15s,color .15s;
+}
+.alatka:hover{border-color:var(--vino);color:var(--vino)}
+.alatka.aktivna{background:var(--vino-mek);border-color:var(--vino);color:var(--vino)}
+.alatka svg{width:15px;height:15px}
+
+/* ---------- GLAVNI RADNI DEO ---------- */
+.radno{
+  display:grid;gap:22px;align-items:start;
+  grid-template-columns:1fr;
+  padding:18px 0 10px;
+}
+@media(min-width:960px){
+  .radno{grid-template-columns:minmax(0,1fr) 320px}
+}
+
+/* --- papir --- */
+.papir{
+  --stih-fs:clamp(1.06rem,2.4vw,1.22rem);
+  background:var(--kartica);border:1px solid var(--linija);border-radius:var(--rad-l);
+  box-shadow:var(--senka);padding:clamp(20px,4vw,44px) clamp(14px,4vw,48px);
+  display:grid;grid-template-columns:auto 1fr;gap:clamp(10px,2vw,22px);
+}
+/* gutter: slova sheme + slogovi, tiho; svaki red TACNO u visinu jednog stiha */
+.gutter{
+  display:flex;flex-direction:column;text-align:right;
+  font-size:.72rem;color:var(--tinta-bleda);
+  user-select:none;
+}
+.gutter .g-red{
+  display:flex;align-items:center;gap:6px;justify-content:flex-end;
+  height:calc(var(--stih-fs) * 2.05);
+}
+.gutter .g-hvat{width:10px;color:var(--linija);cursor:grab;font-size:.9rem}
+.gutter .g-slovo{font-weight:700;color:var(--vino);opacity:.55;font-size:.68rem}
+.gutter .g-slog{font-weight:600}
+/* editor: mesto gde pesma zivi */
+.editor{
+  font-family:var(--serif);font-size:var(--stih-fs);
+  line-height:2.05;letter-spacing:.002em;color:var(--tinta);
+  outline:none;caret-color:var(--vino);min-height:14em;
+}
+.editor .r-a,.editor .r-b,.editor .r-c{
+  border-radius:4px;padding:1px 2px;
+  border-bottom:2px solid;
+}
+.editor .r-a{background:var(--rima-a-poz);border-color:var(--rima-a)}
+.editor .r-b{background:var(--rima-b-poz);border-color:var(--rima-b)}
+.editor .r-c{background:var(--rima-c-poz);border-color:var(--rima-c)}
+/* statistika i legenda ispod papira */
+.ispod-papira{
+  display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;
+  padding:12px 4px 0;font-size:.8rem;color:var(--tinta-bleda);
+}
+.ispod-papira .legenda{margin-left:auto;display:flex;gap:14px}
+.ispod-papira .legenda span{display:inline-flex;align-items:center;gap:5px}
+.ispod-papira .tacka{width:9px;height:9px;border-radius:3px;display:inline-block}
+
+/* --- panel sa rimama: tih, po strani --- */
+.panel-rime{
+  background:var(--papir-2);border:1px solid var(--linija);border-radius:var(--rad-l);
+  padding:18px;position:sticky;top:78px;
+}
+.panel-rime h2{
+  font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--tinta-bleda);margin-bottom:12px;
+}
+.panel-rime h2 b{color:var(--vino);font-size:.82rem;letter-spacing:0;text-transform:none}
+.kapsula{
+  display:flex;align-items:center;gap:6px;min-width:0;width:100%;
+  background:var(--kartica);border:1px solid var(--linija);border-radius:999px;
+  padding:8px 13px;font-size:.92rem;font-weight:600;color:var(--tinta);
+  transition:border-color .15s,background .15s,transform .15s;text-decoration:none;
+}
+.kapsula:hover{border-color:var(--vino);background:var(--vino-mek);transform:translateY(-1px)}
+.kapsula .rec{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kapsula .slog{
+  flex:none;margin-left:auto;min-width:20px;height:20px;padding:0 5px;
+  display:grid;place-items:center;border-radius:999px;
+  background:var(--papir-2);color:var(--tinta-mek);font-size:.72rem;font-weight:700;
+}
+.kapsula:hover .slog{background:#fff}
+/* fiksne kolone: u panelu uvek 2 (reči se ne seku); mobilna traka ima 3 */
+.mreza-kapsula{display:grid;gap:8px;grid-template-columns:repeat(2,1fr)}
+.jos-rima{
+  display:block;text-align:center;margin-top:12px;font-size:.84rem;font-weight:600;
+  color:var(--vino);padding:8px;border-radius:10px;
+}
+.jos-rima:hover{background:var(--vino-mek);text-decoration:none}
+.sinonimi-napomena{
+  margin-top:14px;padding-top:12px;border-top:1px solid var(--linija);
+  font-size:.78rem;color:var(--tinta-bleda);line-height:1.5;
+}
+
+/* ---------- Mobilno: panel postaje traka ispod tabova ---------- */
+@media(max-width:959px){
+  .radno{display:flex;flex-direction:column}
+  .panel-rime{
+    order:-1;position:sticky;top:58px;z-index:40;
+    border-radius:0 0 var(--rad-l) var(--rad-l);
+    margin:0 -14px;padding:12px 14px;
+    box-shadow:0 12px 24px -18px rgba(38,33,29,.25);
+  }
+  .panel-rime h2{margin-bottom:8px}
+  .mreza-kapsula{grid-template-columns:repeat(3,1fr)}
+  .gutter .g-hvat{display:none}
+  .papir{padding:18px 14px}
+}
+@media(max-width:400px){
+  .mreza-kapsula{grid-template-columns:repeat(3,1fr)}
+  .kapsula{font-size:.84rem;padding:7px 10px}
+}
+</style>
+</head>
+<body>
+
+<header class="vrh">
+  <div class="omot vrh-unutra">
+    <a class="logo" href="pocetna.html">
+      <svg class="logo-znak" viewBox="0 0 36 36" aria-hidden="true">
+        <rect width="36" height="36" rx="9" fill="#7C2D4A"/>
+        <text x="18" y="25" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#FAF6EF">R</text>
+      </svg>
+      <span class="logo-rec"><b>R</b>imoteka</span>
+    </a>
+    <div class="vrh-desno">
+      <div class="pismo-prekidac" role="group" aria-label="Pismo">
+        <span class="aktivno">latinica</span><span>ћирилица</span>
+      </div>
+      <button class="tema-dugme" aria-label="Tamna tema">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="tabovi" aria-label="Alati">
+    <div class="omot tabovi-unutra">
+      <a class="tab" href="pocetna.html">Rimovanje reči</a>
+      <a class="tab aktivan" href="#">Pisanje pesama</a>
+      <a class="tab" href="#">Brojač slogova</a>
+      <a class="tab" href="#">Pretraga reči</a>
+      <a class="tab" href="#">Igra rimovanja</a>
+      <a class="tab" href="#">Klasici</a>
+      <a class="tab" href="#">Omiljene <span class="brojac">0</span></a>
+    </div>
+  </nav>
+</header>
+
+<main class="omot">
+  <!-- ALATKE: tihuje, nista ne vristi -->
+  <div class="alatke">
+    <input class="naslov-pesme" type="text" placeholder="Naslov pesme (opciono)" aria-label="Naslov pesme">
+    <button class="alatka" title="Štampa / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+      PDF
+    </button>
+    <button class="alatka" title="Podeli linkom">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+      Podeli
+    </button>
+    <button class="alatka" title="Metar (ritam stiha)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+      Metar
+    </button>
+  </div>
+
+  <div class="radno">
+    <!-- PAPIR -->
+    <div>
+      <div class="papir">
+        <div class="gutter" aria-hidden="true">
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">A</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">B</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">A</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">B</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">C</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">D</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">C</span><span class="g-slog">11</span></div>
+          <div class="g-red"><span class="g-hvat">⠿</span><span class="g-slovo">D</span><span class="g-slog">11</span></div>
+        </div>
+        <div class="editor" contenteditable="true" spellcheck="false" aria-label="Tekst pesme">Mesec po bregu mesečinu <span class="r-a">sipa</span><br>
+pospana polja on umiva <span class="r-b">zrakom</span><br>
+a mati moja šećerom <span class="r-a">posipa</span><br>
+kolače što ću podeliti s <span class="r-b">Markom</span><br>
+Kroz prozor gledam tu haljinu <span class="r-c">belu</span><br>
+i čekam kad će zvono da zazvrči<br>
+jer lavež pasa odzvanja po <span class="r-c">selu</span><br>
+zbog Milice što sokakom trči</div>
+      </div>
+      <div class="ispod-papira">
+        <span>8 stihova · 88 slogova · šema ABAB CDCD</span>
+        <div class="legenda">
+          <span><i class="tacka" style="background:var(--rima-a)"></i> rima se</span>
+          <span><i class="tacka" style="background:var(--rima-b)"></i> rima se</span>
+          <span><i class="tacka" style="background:var(--rima-c)"></i> rima se</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL SA RIMAMA -->
+    <aside class="panel-rime" aria-label="Rime za reč pod kursorom">
+      <h2>Rime za <b>belu</b></h2>
+      <div class="mreza-kapsula">
+        <a class="kapsula" href="#"><span class="rec">selu</span><span class="slog">2</span></a>
+        <a class="kapsula" href="#"><span class="rec">delu</span><span class="slog">2</span></a>
+        <a class="kapsula" href="#"><span class="rec">smelu</span><span class="slog">2</span></a>
+        <a class="kapsula" href="#"><span class="rec">strelu</span><span class="slog">2</span></a>
+        <a class="kapsula" href="#"><span class="rec">veselu</span><span class="slog">3</span></a>
+        <a class="kapsula" href="#"><span class="rec">po belu</span><span class="slog">3</span></a>
+      </div>
+      <a class="jos-rima" href="#">još 41 rima ▾</a>
+      <div class="sinonimi-napomena">
+        Klik na reč ubacuje je u stih na mesto kursora. Rima ne odgovara po smislu? Pogledaj sinonime ispod reči.
+      </div>
+    </aside>
+  </div>
+</main>
+
+</body>
+</html>

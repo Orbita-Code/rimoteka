@@ -6,6 +6,21 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## POPRAVLJENO 10.09.2026 — kursor u beležnici, zalepljena traka rima, rečnik (prijave vlasnice)
+
+| Šta je bilo | Popravka | Provera |
+|---|---|---|
+| Enter za novi red bacao kursor na poslednji red beležnice, pisanje nemoguće | tajmer bojenja rima (prepis `innerHTML`) sada koristi `<br>`-svesni par `getCaretTextPos`/`setCaretAtTextPos` umesto `saveCursorPosition`/`restoreCursorPosition` — stari par je brojao samo tekst-čvorove, pa prazan red posle Entera „nije video" i kursor je klizio u sledeći neprazan red | motori 2: „kursor OSTAJE u novom redu" |
+| Traka „RIME ZA …" ostajala fiksirana preko navigacije bez načina da se skloni (iOS ne skida fokus sa contenteditable na dodir van njega) | document-level `pointerdown`: dodir van editora/panela → `noteEditor.blur()` → `setTypingMode(false)`; bez `preventDefault`, linkovi rade | motori 2b: „dodir van editora SKLANJA traku" |
+| „glada" kao oblik reči „glad" (ne postoji; objašnjenje iz LLM talasa nad narodnim oblikom iz OpenSubtitles korpusa) | obrisano iz `reci.txt` i `definicije.json` po naredbi vlasnice. Napomena: isti obrazac je greškom primenjen i na 9 reči bez njene naredbe — vraćene istog dana; lista čeka njenu odluku u TODO-RECNIK.md | — |
+| „bica" kao oblik reči „bića" — fantom: gen. od „bič" je „biča" (sa č), odrednice u Matici nema, u srLex-u nema | obrisano iz `reci.txt`, `definicije.json` i `matica.json` po naredbi vlasnice | — |
+| „dionica" — nije srpski ekavski standard; srLex je vodi samo kao ijekavski površni oblik leme „deonica" | obrisano iz `reci.txt` i `definicije.json` po naredbi vlasnice (deonica ostaje) | — |
+| Pogrešne definicije: „luča" (samostalna imenica, ne „oblik reči"), „nemoća" (nemost, ne slabost), „pepita" (nepromenljivi pridev, ne imenica) | ispravljene po Matici | — |
+
+Novo u testu (motori): regresije za kursor posle Entera i za sklanjanje trake. Verzija `app.js?v=20260910a`.
+
+**Novo otvoreno (nisko):** latentni isti kursor-rizik postoji u ćiriličnom režimu beležnice (`osveziBelesku` zove stari `restoreCursorPosition`, ali nad konzistentnom `textContent` merom — prazan red posle Entera u ćirilici proveriti posebno; nije hitno dok nema prijava).
+
 ## POPRAVLJENO 07.09.2026 (kasno veče) — prijave sa „internog" uređaja su nestajale
 
 Prijava vlasnice: muž poslao dve prijave sa računara označenog `?interno=1`, ništa nije stiglo. Uzrok:

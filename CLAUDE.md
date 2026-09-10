@@ -254,6 +254,18 @@ oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
 3. **Pogrešna reč u rečniku je gora od reči koja fali.** Kad nisi siguran,
    napravi listu i pitaj vlasnicu. Ona je izvorni govornik i konačni autoritet;
    svaka njena ispravka se upisuje u dnevnik u tom dokumentu.
+4. **Naredba vlasnice za brisanje reči se izvršava ODMAH, bez provere.** (odluka
+   vlasnice, 10.09.2026) Kad vlasnica kaže da se reč briše — briše se u istom
+   koraku, bez dokazivanja da li je u pravu. Provere po srLex-u/Matici se rade
+   SAMO kad ih ona zatraži (npr. „proveri ima li još takvih") ili kad ja sam
+   predlažem brisanje. Procedura ostaje ista: svi fajlovi (`reci.txt`,
+   `definicije.json`, po potrebi `matica.json`), pa lanac podataka
+   (`podeli_definicije.py`, `osvezi-verzije-podataka.mjs`) i pun test.
+   **I obrnuto važi isto tako strogo:** bez njene naredbe se NIJEDNA reč ne
+   briše, pa makar dokaz delovao očigledno. Provera koju ona zatraži se završava
+   PREDLOGOM na njenu odluku (u TODO-RECNIK.md, „Sporno"), ne izvršenjem.
+   (Precedent 10.09.2026: 9 reči obrisano na osnovu provere bez naredbe i
+   vraćeno isti dan; uzrok: pročitano „proveri" kao „obriši".)
 
 ---
 

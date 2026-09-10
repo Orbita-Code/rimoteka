@@ -151,6 +151,13 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 
 ## Sporno / čeka odluku vlasnice
 
+- [ ] **Devet kandidata obrasca „ž.r. na suglasnik + -a"** — provera 10.09.2026
+      (srLex + Rečnik Matice): `koba` (gen. kobi), `peća` (gen. peći), `radosta`
+      (gen. radosti), `vlasa` (gen. vlasi), `zoba` (gen. zobi), `zvera` (gen. zveri)
+      ne postoje u izvorima; `kosta` i `vlasta` su IMENA (vlasnica, 10.09.);
+      `pričesta` je validna po vlasnici („za vreme pričesta"). Greškom su bili
+      obrisani bez njene naredbe i istog dana vraćeni. **Čeka njenu odluku:**
+      koje od njih (ako koje) brišemo.
 - [ ] **Parovi „ista reč, dva pisma" (č/ć)** — nađeno 16.08.2026. Izbačeni su
       `većera` i `većeras` (odluka vlasnice: „rečnik prati pravopis, ne govor").
       Grubo skeniranje daje ~180 parova gde obe č/ć varijante postoje, ali je
@@ -182,6 +189,10 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 - [x] `aminati` — postoji, ostaje; značenja razdvojena od *aminovati*
 - [x] `obrstenje` — ne postoji, nije dodato
 - [x] Padeži za *brst* i oblici za *brstiti*/*obrstiti* — dodato
+- [x] `glada` — nepostojeći oblik (glad ž.r., gen. gladi), obrisana iz `reci.txt` i `definicije.json` po NAREDBI vlasnice (10.09.2026)
+- [x] `bica` — obrisana iz `reci.txt`, `matica.json` i `definicije.json` po NAREDBI vlasnice (10.09.2026)
+- [x] `dionica` — obrisana iz `reci.txt` i `definicije.json` po NAREDBI vlasnice; srpski ekavski standard je `deonica` (10.09.2026)
+- [x] definicije ispravljene po Matici: `luča` (samostalna imenica, ne „oblik reči"), `nemoća` (nemost), `pepita` (nepromenljivi pridev) (10.09.2026)
 
 ## Zamrznuto do završetka provere
 

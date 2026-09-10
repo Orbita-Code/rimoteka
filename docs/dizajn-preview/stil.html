@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rimoteka – stil (dizajn sistem 2026)</title>
+<style>
+:root{
+  --papir:#FAF6EF; --papir-2:#F3EEE3; --kartica:#FFFDF9;
+  --tinta:#26211D; --tinta-mek:#5C564E; --tinta-bleda:#8A8378;
+  --vino:#7C2D4A; --vino-dub:#63223A; --vino-mek:#F4E6EB;
+  --zad:#3F6651; --zad-mek:#E4EFE8; --linija:#E4DCCB;
+  --senka:0 1px 2px rgba(38,33,29,.05),0 8px 24px -12px rgba(38,33,29,.18);
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:Charter,"Bitstream Charter",Cambria,Georgia,"Times New Roman",serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--papir);color:var(--tinta);line-height:1.6;-webkit-font-smoothing:antialiased}
+.omot{max-width:960px;margin:0 auto;padding:40px clamp(16px,4vw,32px) 80px}
+h1{font-family:var(--serif);font-size:2rem;letter-spacing:-.02em;margin-bottom:6px}
+h2{font-family:var(--serif);font-size:1.35rem;margin:44px 0 14px;padding-top:22px;border-top:1px solid var(--linija)}
+h2:first-of-type{border-top:none;margin-top:26px;padding-top:0}
+.podnaslov{color:var(--tinta-mek);max-width:64ch}
+.napomena{font-size:.86rem;color:var(--tinta-mek);max-width:70ch;margin-top:8px}
+.napomena b{color:var(--tinta)}
+a{color:var(--vino)}
+/* paleta */
+.paleta{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:16px}
+.boja{border:1px solid var(--linija);border-radius:14px;overflow:hidden;background:var(--kartica)}
+.boja .uzorak{height:74px}
+.boja .o-boji{padding:10px 12px}
+.boja .ime{font-weight:700;font-size:.88rem}
+.boja .hex{font-size:.76rem;color:var(--tinta-bleda);font-variant-numeric:tabular-nums}
+.boja .uloga{font-size:.76rem;color:var(--tinta-mek);margin-top:2px}
+/* tipografija */
+.tipografija{display:grid;gap:14px;margin-top:14px}
+.tip-red{border-bottom:1px dashed var(--linija);padding-bottom:12px}
+.tip-red .oznaka{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tinta-bleda);margin-bottom:4px}
+.serif-veliki{font-family:var(--serif);font-size:2rem;letter-spacing:-.02em}
+.serif-naslov{font-family:var(--serif);font-size:1.3rem}
+.serif-stih{font-family:var(--serif);font-size:1.2rem;line-height:2.05}
+.sans-ui{font-size:.95rem}
+.sans-sitno{font-size:.8rem;color:var(--tinta-mek)}
+/* kapsule */
+.kapsula{
+  display:flex;align-items:center;gap:6px;min-width:0;width:100%;
+  background:var(--kartica);border:1px solid var(--linija);border-radius:999px;
+  padding:8px 13px;font-size:.92rem;font-weight:600;color:var(--tinta);
+}
+.kapsula:hover{border-color:var(--vino);background:var(--vino-mek)}
+.kapsula .rec{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kapsula .slog{
+  flex:none;margin-left:auto;min-width:20px;height:20px;padding:0 5px;
+  display:grid;place-items:center;border-radius:999px;
+  background:var(--papir-2);color:var(--tinta-mek);font-size:.72rem;font-weight:700;
+}
+.mreza-kapsula{display:grid;gap:8px;grid-template-columns:repeat(3,1fr);margin-top:14px}
+@media(min-width:760px){.mreza-kapsula{grid-template-columns:repeat(4,1fr)}}
+.stanje{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tinta-bleda);margin:18px 0 6px}
+/* dugmad */
+.dugmad{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.dugme{padding:12px 26px;border-radius:999px;font-weight:700;font-size:.95rem;border:none;cursor:pointer}
+.dugme-primarno{background:var(--vino);color:#fff}
+.dugme-primarno:hover{background:var(--vino-dub)}
+.dugme-sporedno{background:var(--kartica);color:var(--tinta);border:1px solid var(--linija)}
+.dugme-sporedno:hover{border-color:var(--vino);color:var(--vino)}
+/* akordeon */
+.akordeon{border-top:1px solid var(--linija);margin-top:14px}
+.akordeon details{border-bottom:1px solid var(--linija)}
+.akordeon summary{display:flex;align-items:baseline;gap:16px;cursor:pointer;padding:16px 4px;list-style:none}
+.akordeon summary::-webkit-details-marker{display:none}
+.akordeon .rb{font-family:var(--serif);font-style:italic;color:var(--vino);width:2.2em;flex:none}
+.akordeon h3{font-family:var(--serif);font-size:1.1rem;flex:1}
+.akordeon .znak{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--linija);display:grid;place-items:center;color:var(--tinta-mek);align-self:center}
+.akordeon details[open] .znak{transform:rotate(45deg);background:var(--vino);color:#fff;border-color:var(--vino)}
+.akordeon .telo{padding:0 4px 18px calc(2.2em + 20px);font-size:.92rem;color:var(--tinta-mek)}
+/* bojenje rima */
+.rime-boje{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--serif);font-size:1.15rem;margin-top:14px}
+.r-a,.r-b,.r-c{border-radius:4px;padding:1px 3px;border-bottom:2px solid}
+.r-a{background:#F4E6EB;border-color:#7C2D4A}
+.r-b{background:#E4EFE8;border-color:#3F6651}
+.r-c{background:#F6EBD8;border-color:#8A5A18}
+</style>
+</head>
+<body>
+<div class="omot">
+  <h1>Stil Rimoteke 2026</h1>
+  <p class="podnaslov">Dizajn sistem iza dva preview-a (<a href="pocetna.html">početna</a> · <a href="pisanje-pesama.html">pisanje pesama</a>). Smer: „tinta i papir" – stranica kao stranica knjige, alat kao alat.</p>
+
+  <h2>Boje i zašto baš one</h2>
+  <div class="paleta">
+    <div class="boja"><div class="uzorak" style="background:#FAF6EF"></div><div class="o-boji"><div class="ime">Papir</div><div class="hex">#FAF6EF</div><div class="uloga">pozadina</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#F3EEE3"></div><div class="o-boji"><div class="ime">Papir 2</div><div class="hex">#F3EEE3</div><div class="uloga">zone, paneli</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#FFFDF9;border-bottom:1px solid #E4DCCB"></div><div class="o-boji"><div class="ime">Kartica</div><div class="hex">#FFFDF9</div><div class="uloga">polja, kapsule</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#26211D"></div><div class="o-boji"><div class="ime">Tinta</div><div class="hex">#26211D</div><div class="uloga">tekst, futer</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#5C564E"></div><div class="o-boji"><div class="ime">Tinta mek</div><div class="hex">#5C564E</div><div class="uloga">sporedni tekst</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#7C2D4A"></div><div class="o-boji"><div class="ime">Vino</div><div class="hex">#7C2D4A</div><div class="uloga">akcenat, CTA</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#3F6651"></div><div class="o-boji"><div class="ime">Žad</div><div class="hex">#3F6651</div><div class="uloga">tiha potvrda</div></div></div>
+    <div class="boja"><div class="uzorak" style="background:#E4DCCB"></div><div class="o-boji"><div class="ime">Linija</div><div class="hex">#E4DCCB</div><div class="uloga">kosi borderi</div></div></div>
+  </div>
+  <p class="napomena"><b>Zašto ovo odmara oči:</b> čista bela (#FFFFFF) na ekranu se ponaša kao sijalica, a čista crna na njoj „treperi" (halacija) – zato su pozadina topla (papir) a tekst mastilo (#26211D), kontrast oko 13:1, iznad WCAG AA. Niske saturacije i jedan jedini jak akcenat (vino) znače da oko uvek zna gde je akcija, a sve ostalo je tisinje. Žad (zelena srednjeg spektra) je fiziološki najodmornija boja za dugo gledanje – zato je rezervisana za tihu potvrdu i SEO oznake, nikad za paniku.</p>
+
+  <h2>Tipografija</h2>
+  <div class="tipografija">
+    <div class="tip-red"><div class="oznaka">serif · hero naslov</div><div class="serif-veliki">Svaka reč ima svoju rimu.</div></div>
+    <div class="tip-red"><div class="oznaka">serif · naslov bloka</div><div class="serif-naslov">Najbolji alat za pisanje pesama</div></div>
+    <div class="tip-red"><div class="oznaka">serif · stih (editor)</div><div class="serif-stih">Mesec po bregu mesečinu sipa,<br>pospana polja on umiva zrakom.</div></div>
+    <div class="tip-red"><div class="oznaka">sans · interfejs</div><div class="sans-ui">Nađi rime · Pisanje pesama · 12 stihova · šema ABAB</div></div>
+    <div class="tip-red"><div class="oznaka">sans · sitni tekst</div><div class="sans-sitno">Uz svaku reč piše koliko slogova ima.</div></div>
+  </div>
+  <p class="napomena"><b>Pravilo:</b> poezija i naslovi su serif (književni ton), dugmad i interfejs su sans (čitljivost na ekranu). Stih ide na 2.05 prored – redovi „dise" i ne lepe se jedan uz drugi. U produkciji bi se serif samohostovao (npr. Source Serif), kao što se danas hostuje Rubik.</p>
+
+  <h2>Kapsule: uvek iste širine</h2>
+  <p class="napomena" style="margin-top:0">Mreža je fiksna: mobilno <b>3 kolone</b>, srednje <b>4</b>, široko <b>6</b>. Broj slogova sedi potpuno desno u svakoj kapsuli, pa oko pri čitanju nadole ne skače levo-desno. Dugačka reč se ne lomi u drugi red nego dobije „…" – kolone se nikad ne pomeraju.</p>
+  <div class="stanje">uobičajeno</div>
+  <div class="mreza-kapsula">
+    <span class="kapsula"><span class="rec">sada</span><span class="slog">2</span></span>
+    <span class="kapsula"><span class="rec">kada</span><span class="slog">2</span></span>
+    <span class="kapsula"><span class="rec">grada</span><span class="slog">2</span></span>
+  </div>
+  <div class="stanje">predugačka reč (ellipsis, kolone mirne)</div>
+  <div class="mreza-kapsula">
+    <span class="kapsula"><span class="rec">preobrazhabanjaštvo</span><span class="slog">7</span></span>
+    <span class="kapsula"><span class="rec">rada</span><span class="slog">2</span></span>
+    <span class="kapsula"><span class="rec">brada</span><span class="slog">2</span></span>
+  </div>
+  <div class="stanje">hover (vino)</div>
+  <div class="mreza-kapsula">
+    <span class="kapsula" style="border-color:var(--vino);background:var(--vino-mek)"><span class="rec">snada</span><span class="slog" style="background:#fff">2</span></span>
+    <span class="kapsula"><span class="rec">hlada</span><span class="slog">2</span></span>
+    <span class="kapsula"><span class="rec">stada</span><span class="slog">2</span></span>
+  </div>
+
+  <h2>Dugmad</h2>
+  <div class="dugmad">
+    <button class="dugme dugme-primarno">Nađi rime</button>
+    <button class="dugme dugme-sporedno">Podeli</button>
+  </div>
+  <p class="napomena"><b>Jedna strana, jedna primarna akcija.</b> Oblik je potpuna pilula (999 px) – najjače asocira „polje/dugme", nema oštrih ivica koje vizuelno „bodu". Sporedne akcije su duh-dugmad (border), nikad dve primarne jedna do druge.</p>
+
+  <h2>Bojenje rima u stihu</h2>
+  <div class="rime-boje">
+    <span>sipa / <span class="r-a">posipa</span></span>
+    <span>zrakom / <span class="r-b">Markom</span></span>
+    <span>belu / <span class="r-c">selu</span></span>
+  </div>
+  <p class="napomena">Reč ostaje boja mastila; rima se čita iz meke podloge i donje crte u boji grupe. Bez jakih boja teksta koje „viču" dok se piše.</p>
+
+  <h2>Akordeon (SEO zona)</h2>
+  <div class="akordeon">
+    <details>
+      <summary><span class="rb">01</span><h3>Tekst je u stranici, Google ga vidi</h3><span class="znak">+</span></summary>
+      <div class="telo">Sadržaj stoji u HTML-u unutar details/summary – pretraživači ga čitaju uredno, a čovek koji je došao po rimu ne gazi kroz pet pasusa. Otvori ga samo onaj koga zanima.</div>
+    </details>
+    <details>
+      <summary><span class="rb">02</span><h3>Brojčano i mirno</h3><span class="znak">+</span></summary>
+      <div class="telo">Redni brojevi u kurzivu serifa, naslovi serifom, znak plus se okreće u iks. Bez ikonica, bez buke.</div>
+    </details>
+  </div>
+</div>
+</body>
+</html>

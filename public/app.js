@@ -339,7 +339,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=228fac2f';
+const DEFINICIJE_ADRESA = '/definicije.json?v=356cd2d5';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -406,7 +406,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=c233afa9', true),
+    uzmiTekst('/reci.txt?v=d6e115f6', true),
     uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -475,7 +475,7 @@ async function loadExtras(){
          bazen treba 5.074 – ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
          drugi, nezavistan signal: da li Matica srpska tu reč ima kao odrednicu.
          Frekvencija kaže KOLIKO se reč koristi; Matica kaže DA LI je standardna. */
-      fetch('/matica.json?v=fb9dfdde').then(r=>r.json()).catch(()=> ([]))
+      fetch('/matica.json?v=a14c0c6c').then(r=>r.json()).catch(()=> ([]))
     ]);
     SYNONYMS = synRes;
     MATICA = new Set(Array.isArray(maticaRes) ? maticaRes : []);
@@ -2336,14 +2336,18 @@ function scheduleEditorUpdate(){
   }, 150);
   clearTimeout(editorColorTimer);
   editorColorTimer = setTimeout(() => {
-    const pos = saveCursorPosition();
+    // Pozicija kursora u koordinatama getEditorText (sa <br>): saveCursorPosition
+    // broji samo tekst-cvorove, pa posle Entera kursor "sklizne" u sledeci
+    // neprazan red (prazan red za nju ne postoji). getCaretTextPos/setCaretAtTextPos
+    // su <br>-svesni par i vracaju kursor i na prazan red.
+    const pos = getCaretTextPos();
     const text = getEditorText();
     // renderuj kad ima rimskih grupa – ili kad grupe VIŠE nema, a stari obojeni
     // spanovi su ostali u editoru (brisanjem reči grupa pukne, boja bi zastala)
     const { colorMap } = analyzeRhymes(text);
     if(colorMap.size > 0 || noteEditor.querySelector('.rhyme-word')){
       noteEditor.innerHTML = renderColoredText(text);
-      restoreCursorPosition(pos);
+      if(pos != null) setCaretAtTextPos(pos);
     }
   }, 500);
 }
@@ -2540,6 +2544,15 @@ function setTypingMode(on){
 }
 noteEditor.addEventListener('focus', () => { setTypingMode(true); setTimeout(keepCaretVisible, 250); });
 noteEditor.addEventListener('blur', () => setTypingMode(false));
+/* iOS ne skida fokus sa contenteditable kad se dodirne ne-interaktivan deo strane,
+   pa bi traka rima ostala fiksirana preko navigacije dok se ne napusti strana.
+   Dodir bilo gde van editora i panela gasi režim kucanja – blur sam okida
+   setTypingMode(false). Bez preventDefault: linkovi i dugmad rade normalno. */
+document.addEventListener('pointerdown', (e) => {
+  if(!document.body.classList.contains('notes-typing')) return;
+  if(e.target.closest('#noteEditor, #noteRhymes')) return;
+  noteEditor.blur();
+}, { passive: true });
 // Klik na rimu ne sme da oduzme fokus editoru – inače se izgubi pozicija kursora
 // i reč nema gde da se ubaci.
 noteRhymesBox.addEventListener('pointerdown', (e) => {

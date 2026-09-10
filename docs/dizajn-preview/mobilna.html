@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rimoteka – rešenje mobilne verzije (preview)</title>
+<style>
+:root{
+  --papir:#FAF6EF; --papir-2:#F3EEE3; --kartica:#FFFDF9;
+  --tinta:#26211D; --tinta-mek:#5C564E; --tinta-bleda:#8A8378;
+  --vino:#7C2D4A; --vino-dub:#63223A; --vino-mek:#F4E6EB;
+  --zad:#3F6651; --linija:#E4DCCB;
+  --senka:0 1px 2px rgba(38,33,29,.05),0 8px 24px -12px rgba(38,33,29,.18);
+  --senka-veca:0 2px 6px rgba(38,33,29,.06),0 24px 48px -16px rgba(38,33,29,.22);
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:Charter,"Bitstream Charter",Cambria,Georgia,"Times New Roman",serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--papir);color:var(--tinta);line-height:1.6;-webkit-font-smoothing:antialiased}
+.omot{max-width:1240px;margin:0 auto;padding:40px clamp(16px,4vw,32px) 80px}
+h1{font-family:var(--serif);font-size:clamp(1.7rem,3.4vw,2.2rem);letter-spacing:-.02em;margin-bottom:8px}
+.podnaslov{color:var(--tinta-mek);max-width:66ch;margin-bottom:36px}
+.podnaslov b{color:var(--tinta)}
+a{color:var(--vino)}
+h2{font-family:var(--serif);font-size:1.35rem;margin:48px 0 18px;padding-top:24px;border-top:1px solid var(--linija)}
+h2:first-of-type{border-top:none;margin-top:0;padding-top:0}
+
+/* ---------- telefonski ramovi ---------- */
+.galerija{display:flex;gap:44px;flex-wrap:wrap;align-items:flex-start}
+.telefon-blok{display:flex;flex-direction:column;gap:14px;max-width:420px}
+.telefon{
+  width:390px;height:780px;max-width:100%;
+  border:10px solid var(--tinta);border-radius:48px;overflow:hidden;
+  background:var(--kartica);box-shadow:var(--senka-veca);position:relative;flex:none;
+}
+.telefon .vrh-telefona{
+  height:26px;background:var(--tinta);display:flex;align-items:center;justify-content:center;
+}
+.telefon .vrh-telefona span{width:110px;height:16px;background:#000;border-radius:0 0 12px 12px;display:block}
+.telefon iframe{width:100%;height:calc(100% - 26px);border:none;display:block}
+.telefon-naslov{font-family:var(--serif);font-size:1.1rem}
+.beleške{list-style:none;display:grid;gap:9px;font-size:.88rem;color:var(--tinta-mek)}
+.beleške li{display:flex;gap:9px;align-items:baseline}
+.beleške li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--zad);transform:translateY(-1px)}
+.beleške b{color:var(--tinta)}
+
+/* ---------- pre/posle kapsula ---------- */
+.pre-posle{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:860px){.pre-posle{grid-template-columns:1fr 1fr}}
+.poredi{
+  background:var(--kartica);border:1px solid var(--linija);border-radius:20px;
+  padding:20px;box-shadow:var(--senka);
+}
+.poredi h3{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.poredi.staro h3{color:#A33}
+.poredi.novo h3{color:var(--zad)}
+/* stari raspored: kapsule se sire po sadrzaju – 3, 4, 5 u redu */
+.kapsule-staro{display:flex;flex-wrap:wrap;gap:8px}
+.kapsule-staro span{
+  background:var(--papir-2);border:1px solid var(--linija);border-radius:999px;
+  padding:7px 12px;font-size:.85rem;font-weight:600;white-space:nowrap;
+}
+.kapsule-staro span i{font-style:normal;opacity:.55;font-size:.75em;margin-left:5px}
+/* novi raspored: mreza fiksnih kolona */
+.kapsule-novo{display:grid;gap:8px;grid-template-columns:repeat(3,1fr)}
+.kapsule-novo span{
+  display:flex;align-items:center;min-width:0;
+  background:var(--papir-2);border:1px solid var(--linija);border-radius:999px;
+  padding:7px 12px;font-size:.85rem;font-weight:600;
+}
+.kapsule-novo span b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.kapsule-novo span i{
+  font-style:normal;margin-left:auto;flex:none;min-width:18px;height:18px;padding:0 4px;
+  display:grid;place-items:center;border-radius:999px;background:#fff;
+  color:var(--tinta-mek);font-size:.72rem;font-weight:700;
+}
+.poredi .opis{font-size:.82rem;color:var(--tinta-mek);margin-top:12px}
+</style>
+</head>
+<body>
+<div class="omot">
+  <h1>Mobilna verzija – rešenje</h1>
+  <p class="podnaslov">Dva telefonska rama ispod su <b>živa strana</b>, ne slika: početna i pisanje pesama na širini 390 px. Suži prozor browsera ili otvori <a href="pocetna.html">pocetna.html</a> i <a href="pisanje-pesama.html">pisanje-pesama.html</a> na telefonu – isto izgleda.</p>
+
+  <div class="galerija">
+    <div class="telefon-blok">
+      <div class="telefon">
+        <div class="vrh-telefona"><span></span></div>
+        <iframe src="pocetna.html" title="Početna na 390 px"></iframe>
+      </div>
+      <div class="telefon-naslov">Početna</div>
+      <ul class="beleške">
+        <li><span><b>Pretraga je cela scena:</b> polje pune širine, dugme ispod (na mobilnom se ne gura u isti red), autofokus.</span></li>
+        <li><span><b>Tabovi se skroluju vodoravno</b> bez lomljenja – ništa ne preliva ekran.</span></li>
+        <li><span><b>Kapsule uvek 3 u redu</b>, jednake širine, broj slogova potpuno desno.</span></li>
+        <li><span><b>SEO tekst u akordeonima:</b> Google ga čita, čovek ga ne gazi.</span></li>
+        <li><span><b>Dodirni ciljevi 44 px</b> – dugmad, kapsule, linkovi u futeru.</span></li>
+      </ul>
+    </div>
+
+    <div class="telefon-blok">
+      <div class="telefon">
+        <div class="vrh-telefona"><span></span></div>
+        <iframe src="pisanje-pesama.html" title="Pisanje pesama na 390 px"></iframe>
+      </div>
+      <div class="telefon-naslov">Pisanje pesama</div>
+      <ul class="beleške">
+        <li><span><b>Traka rima stoji na vrhu</b> dok se kuca (3 jednake kapsule + „još rima"), a sklanja se dodirom bilo gde van editora.</span></li>
+        <li><span><b>Papir je glavni:</b> stih 1.06 rem, prored 2.05, gutter sa šemom u visini svakog stiha.</span></li>
+        <li><span><b>Ništa ne prekriva stihove:</b> alatke su jedan red tihih dugmića iznad papira.</span></li>
+        <li><span><b>Font od 16 px+ u poljima</b> – iOS ne zumira stranu kad fokusira polje.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Kapsule: pre i posle</h2>
+  <div class="pre-posle">
+    <div class="poredi staro">
+      <h3>Pre – kapsule se šire po sadržaju (negde 3, negde 5 u redu)</h3>
+      <div class="kapsule-staro">
+        <span>sada<i>2</i></span><span>kada<i>2</i></span><span>grada<i>2</i></span>
+        <span>snada<i>2</i></span><span>rada<i>2</i></span><span>brada<i>2</i></span>
+        <span>jada<i>2</i></span><span>stradanja<i>4</i></span><span>hlada<i>2</i></span>
+        <span>stada<i>2</i></span><span>pada<i>2</i></span><span>izabrana<i>4</i></span>
+      </div>
+      <p class="opis">Oko pri skeniranju stalno menja kolonu; redovi „dišu" neravnomerno; korisnici prijavili umor.</p>
+    </div>
+    <div class="poredi novo">
+      <h3>Posle – mreža fiksnih kolona (uvek 3, broj slogova desno)</h3>
+      <div class="kapsule-novo">
+        <span><b>sada</b><i>2</i></span><span><b>kada</b><i>2</i></span><span><b>grada</b><i>2</i></span>
+        <span><b>snada</b><i>2</i></span><span><b>rada</b><i>2</i></span><span><b>brada</b><i>2</i></span>
+        <span><b>jada</b><i>2</i></span><span><b>stradanja</b><i>4</i></span><span><b>hlada</b><i>2</i></span>
+        <span><b>stada</b><i>2</i></span><span><b>pada</b><i>2</i></span><span><b>izabrana</b><i>4</i></span>
+      </div>
+      <p class="opis">Svaka kapsula ista širina; dugačka reč dobija „…" umesto da pomeri ostale. Oko klizi pravo nadole.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

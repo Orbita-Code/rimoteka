@@ -275,7 +275,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="/ga-init.js?v=5"></script>
+<script src="/ga-init.js?v=6"></script>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
@@ -486,12 +486,12 @@ TOOL_SCRIPT = '<script src="/app.js?v=20260910a"></script>\n'
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
 # – inače pregledač skine rečnik DVA puta. Test to poredi. Ubacuje se samo na strane
 # koje rečnik stvarno skidaju (v. `trebaRecnik` u app.js).
-RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=88997c8f" crossorigin>'
+RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=9914cf17" crossorigin>'
 def sa_preloadom_recnika(html):
     treba = any(m in html for m in ('id="rimeInput"', 'id="searchInput"', 'id="noteEditor"', 'id="gameSetup"'))
     if not treba or RECI_PRELOAD in html:
         return html
-    return html.replace('<script src="/ga-init.js?v=5"></script>', '<script src="/ga-init.js?v=5"></script>\n' + RECI_PRELOAD, 1)
+    return html.replace('<script src="/ga-init.js?v=6"></script>', '<script src="/ga-init.js?v=6"></script>\n' + RECI_PRELOAD, 1)
 
 
 # Živi brojač slogova i karaktera. Isti ID-jevi kao u tabu „Slogovi i znakovi“,

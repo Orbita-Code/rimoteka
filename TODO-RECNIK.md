@@ -151,6 +151,23 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 
 ## Sporno / čeka odluku vlasnice
 
+### 12.09.2026 – posle naredbe vlasnice (gdja, ca, pla, sla, tma + dj umesto đ) – ČEKA ODLUKU
+
+Obrisano po naredbi 12.09.: gdja, ca, pla, sla, tma; i dj-oblici čiji đ-oblik već postoji: andjela, andjele,
+andjeli, andjelom, andjelu, djavo, rodjena, sundjer, zaradjuješ, djumbiri (15 reči, definicije obrisane).
+Napomena: Matica ima „тма" (ж, в. тама; „тма људи") – obrisano ipak po naredbi.
+
+| Reč | Šta je sporno | Predlog |
+|---|---|---|
+| pra | Matica ima samo „пра-" kao prefiks | OBRISANO 12.09. po naredbi |
+| ma | Matica ima „ма" kao rečcu („ма шта", „ма немој", „ма даj") – samostalna je | zadržati |
+| djed | ijekavski oblik (dj+e), ne greška za đ; „đed" je crnogorski/dijalekatski i takođe u rečniku | zadržati oba |
+| ođednom, ođedanput, ođek, ođeka, pođednako | obrnuta greška (od+jednom, od+jek, pod+jednako) | OBRISANO 12.09. po naredbi |
+| djedica, djevica, zdjela, dječarac, pradjed, svagdje, usidjelica, ludjeti, štedjeti, izvidjeti, izblijedjeli (44 reči) | ijekavski oblici u reci.txt – po pravilu ijekavica ULAZI | zadržati |
+| adjektiv, nenadjačan, vindjakna | legitimno „dj" (ad+jektiv, nad+jačan, vindjakna od Windjacke) | zadržati |
+| ćklać | vlasnica videla na sajtu; NIJE u reci.txt ni reci_jekavica.txt (grep) – treba reč uz koju se pojavila | proveriti gde se pojavljuje |
+
+
 - [ ] **Parovi „ista reč, dva pisma" (č/ć)** — nađeno 16.08.2026. Izbačeni su
       `većera` i `većeras` (odluka vlasnice: „rečnik prati pravopis, ne govor").
       Grubo skeniranje daje ~180 parova gde obe č/ć varijante postoje, ali je

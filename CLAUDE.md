@@ -672,13 +672,21 @@ put ima sa čim da se poredi.
 
 ---
 
-## 9e. KOLAČIĆI I GOOGLE ANALYTICS (06.09.2026)
+## 9e. KOLAČIĆI I GOOGLE ANALYTICS (06.09.2026; napredni Consent Mode od 12.09.2026)
 
-GA se učitava **tek posle pristanka** u baneru (`public/ga-init.js`). Ne vraćati statični
-`<script src="…gtag/js…">` u zaglavlje. Baner **ne blokira** sajt (Google kažnjava
-međuekrane). Odluka: `localStorage.rimoteka_kolacici` `{analitika:true|false}`; link
-„Kolačići“ u futeru je menja. Od 06.09. GA broji samo one koji prihvate — pad brojeva u
-Analyticsu posle tog datuma NIJE pad posete (upisati u svaki izveštaj analitike).
+**Od 12.09.2026 — NAPREDNI CONSENT MODE (odluka vlasnice: „obavezno").** `public/ga-init.js`
+(v6) učitava gtag.js **uvek** (osim `?interno=1`), ali pre toga šalje `gtag('consent','default',
+{sve: 'denied'})`; dok čovek ne klikne „Prihvati sve" Google ne postavlja kolačiće i šalje samo
+anoniman signal bez kolačića, iz koga Analytics PROCENJUJE ukupnu posetu. „Prihvati sve" šalje
+`consent update → analytics_storage: granted`; „Podesi" sa isključenim merenjem ostavlja „denied".
+Ne vraćati statični `<script src="…gtag/js…">` u zaglavlje (consent default mora ići PRE njega).
+Test 47 proverava: gtag učitan i bez pristanka, `rimotekaKolacici.pristanak()` = 'denied' →
+'granted' posle klika, nijedan „granted" posle odbijanja, `?interno=1` bez skripte.
+Baner **ne blokira** sajt (Google kažnjava međuekrane). Odluka: `localStorage.rimoteka_kolacici`
+`{analitika:true|false}`; link „Kolačići“ u futeru je menja.
+Od 06.09. do 12.09. GA je brojao samo one koji prihvate — pad brojeva u Analyticsu u tom
+periodu NIJE pad posete (poseta po GSC: 07–09.09. 91 → 118 → 140 klikova/dan). Posle 12.09.
+Analytics prikazuje i procenjeni deo (oznaka „modeled"); poseta iz Googla se i dalje proverava po GSC.
 
 **Tekst banera je odredila vlasnica 07.09.2026** — „Koristimo kolačiće kako bismo poboljšali
 vaše iskustvo na našem sajtu." Namerno kratak i uopšten; prihvatanje 1 klik, odbijanje kroz

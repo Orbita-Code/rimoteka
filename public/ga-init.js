@@ -1,9 +1,18 @@
-/* Google Analytics + BANER ZA KOLAČIĆE (06.09.2026, odluka vlasnice).
+/* Google Analytics + BANER ZA KOLAČIĆE (06.09.2026, odluka vlasnice)
+ * + NAPREDNI CONSENT MODE (12.09.2026, odluka vlasnice: „obavezno napredni").
  *
- * Do 06.09.2026. se Analytics učitavao bez pitanja. Od sada se biblioteka (gtag.js)
- * učitava TEK POSLE „Prihvati sve" ili posle uključenog prekidača u „Podesi".
- * Bez odluke – nema kolačića i nema merenja. Odluka se pamti u localStorage
- * (`rimoteka_kolacici`), a menja se linkom „Kolačići" u futeru.
+ * Do 06.09.2026. se Analytics učitavao bez pitanja. Od 06.09. do 12.09. se gtag.js
+ * učitavao TEK POSLE „Prihvati sve" – pa je Analytics video samo one koji kliknu, a
+ * brojke su pale iako je poseta po Search Console rasla (07–09.09: 91 → 118 → 140 klikova).
+ *
+ * OD 12.09.2026 – napredni Consent Mode: gtag.js se učitava UVEK (osim `?interno=1`), ali
+ * pre bilo koje odluke šalje se `consent default` sa SVIM zastavicama „denied". U tom
+ * stanju Google ne postavlja kolačiće i ne prepoznaje čoveka – šalje samo anoniman signal
+ * bez kolačića („bila je jedna poseta, ovoj strani"), iz koga Analytics PROCENJUJE ukupan
+ * broj posetilaca. Posle „Prihvati sve" ide `consent update` → `analytics_storage: granted`
+ * (od tada kolačić `_ga` i normalno merenje). Odbijanje kroz „Podesi" ostavlja „denied".
+ * Baner, tekst i dugmad su NEPROMENJENI (odluka vlasnice 07.09.).
+ * Odluka se pamti u localStorage (`rimoteka_kolacici`), a menja se linkom „Kolačići" u futeru.
  *
  * Baner NE blokira sajt (reči se vide i alat radi) – zid preko celog ekrana Google
  * tretira kao nametljiv međuekran na telefonu i spušta rangiranje, a nama je
@@ -44,6 +53,22 @@
   function gtag() { dataLayer.push(arguments); }
   window.gtag = gtag;
 
+  /* ---------- NAPREDNI CONSENT MODE: podrazumevano SVE odbijeno ----------
+     Mora da stoji PRE `config` i pre učitavanja gtag.js. `wait_for_update` daje
+     500 ms da se sačuvana odluka („prihvatio ranije") primeni pre prvog pogotka. */
+  var pristanak = 'denied';
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500
+  });
+  function postaviPristanak(dozvoljeno) {
+    pristanak = dozvoljeno ? 'granted' : 'denied';
+    gtag('consent', 'update', { analytics_storage: pristanak });
+  }
+
   /* ---------- odluka o kolačićima ---------- */
   function odluka() {
     var s = lsGet(KLJUC_KOLACICI);
@@ -52,9 +77,12 @@
   }
   function sacuvaj(analitika) {
     lsSet(KLJUC_KOLACICI, JSON.stringify({ analitika: !!analitika, kad: new Date().toISOString(), v: 1 }));
+    postaviPristanak(!!analitika);
   }
 
   var ucitano = false;
+  /* Učitava gtag.js. Od 12.09.2026 se zove UVEK (osim interno) – i bez pristanka, jer
+     u stanju „denied" Google ne postavlja kolačiće (napredni Consent Mode). */
   function ucitajAnalitiku() {
     if (ucitano || interno) return;
     ucitano = true;
@@ -115,7 +143,7 @@
     sacuvajBtn.type = 'button';
     sacuvajBtn.onclick = function () {
       var a = podesi.querySelector('input[name=analitika]').checked;
-      sacuvaj(a); zatvori(); if (a) ucitajAnalitiku();
+      sacuvaj(a); zatvori();
     };
     podesi.appendChild(sacuvajBtn);
     baner.appendChild(podesi);
@@ -123,7 +151,7 @@
     var dugmad = el('div', 'kolacici-dugmad');
     var prihvati = el('button', 'kolacici-dugme kolacici-prihvati', t('Prihvati sve'));
     prihvati.type = 'button';
-    prihvati.onclick = function () { sacuvaj(true); zatvori(); ucitajAnalitiku(); };
+    prihvati.onclick = function () { sacuvaj(true); zatvori(); };
     var podesiBtn = el('button', 'kolacici-dugme kolacici-podesi-btn', t('Podesi'));
     podesiBtn.type = 'button';
     podesiBtn.setAttribute('aria-expanded', saPodesavanjem ? 'true' : 'false');
@@ -144,14 +172,16 @@
   window.rimotekaKolacici = {
     otvori: function () { otvoriBaner(true); },
     odluka: odluka,
-    ucitano: function () { return ucitano; }
+    ucitano: function () { return ucitano; },
+    pristanak: function () { return pristanak; }   // 'granted' | 'denied' (test 47)
   };
 
   function start() {
     var o = odluka();
-    if (o && o.analitika) { ucitajAnalitiku(); return; }
-    if (o) return;                               // odbio merenje – ništa
-    if (interno) return;                         // vlasnica/test – bez banera
+    if (o && o.analitika) postaviPristanak(true);   // ranije prihvatio → odmah „granted"
+    ucitajAnalitiku();                               // uvek (osim interno) – napredni režim
+    if (o) return;                                   // odluka postoji – bez banera
+    if (interno) return;                             // vlasnica/test – bez banera
     otvoriBaner(false);
     /* Link „Kolačići" u futeru otvara baner kad god (promena odluke). */
   }

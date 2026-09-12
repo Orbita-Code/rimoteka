@@ -4,6 +4,101 @@
 
 ---
 
+# MEMORIJA SESIJE 10–12.09.2026 (upisano na zahtev vlasnice: „sve što smo pričali i razmišljali")
+
+> Ovo je zapis za sve buduće sesije: šta je urađeno, šta je odlučeno, šta se razmišljalo
+> i šta iz Draganovog mejla treba razmotriti. Izvor istine za nalaze: `AUDIT/NALAZI-OTVORENI.md`.
+
+## 1. Objavljeno (uživo, provereno na produkciji)
+
+| Kada | Commit | Sadržaj |
+|---|---|---|
+| 10.09. | `a77753910` | Enter u beležnici ne baca kursor (`getCaretTextPos`/`setCaretAtTextPos` umesto starog para koji nije video prazne redove); traka rima se sklanja `pointerdown` van editora (iOS ne bluruje sam); obrisane glada/bica/dionica; `app.js?v=20260910a`; regresije u motorima (kursor + traka) |
+| 12.09. | `c08b1df08` + `d0401cc88` | 6+14 reči obrisano po naredbi (koba, peća, radosta, vlasa, zoba, zvera + divita, preveza, priona, progovora, smoka, zasita, šarafa, bubasvaba, deriste, gace, kocija, obarac, spageti, virsla); 7 definicija ispravljeno (luča, nemoća, pepita, žesta, vlasta, mladunce, vesala); `goja` zadržana kao slikar; matica.json bez bica/koba/peća; 29 strana rima regenerisano; `reci.txt` = **279.965** reči; TODO: **sinonimi = PRVA STVAR** |
+
+Kontrole: 3× pun lanac zelen (921 provera); produkcija 12.09: obrisane = 0, zadržane (kosta, goja, pričesta) = 1.
+
+## 2. Pravilo nastalo u ovoj sesiji (CLAUDE.md tačka 4, 10.09.)
+
+**Brisanje reči samo po NAREDBI vlasnice, odmah, bez provere** — srpski joj je maternji.
+Provere po srLex-u/Matici SAMO kad ih ona zatraži. I obrnuto: bez naredbe se NIJEDNA
+reč ne briše, pa makar dokaz delovao očigledno — provera se završava PREDLOGOM
+(u TODO-RECNIK.md, „Sporno"), ne izvršenjem. Precedent: 10.09. je 9 reči greškom
+obrisano bez naredbe i vraćeno isti dan.
+
+## 3. Dizajn preview — `docs/dizajn-preview/` (8 fajlova + font Caveat)
+
+Vlasnica bira pravac; kandidati: **vino/papir**, **editorial**, **radna sveska**,
+**boje logoa**. Njena pravila za dizajn: tekstovi se NE menjaju (Google istorija),
+samo forma; bez generičkih blokova; futer linkovi netaknuti (temeljno istraženi);
+kapsule uvek fiksne širine; pravopis „rimuje se" (ne „rima se"); logo sa lupom se
+ne dira bez odobrenja. **Radna sveska** (najnovije): pero piše stih „u vrtu tiho
+cveta grana / i pesma dolazi bez srama" → „bez srama" štrichan, „sama" upisana
+iznad i štrichana ali OSTAJE vidljiva, „vama" pored nje ZAOKRUŽENA; pero prati
+svako slovo (write-on-arrival: slovo se pojavi kad vrh stigne), y zaključan na
+baznu liniju, sve u mastilu #3A3340; visibility-change pauza; prefers-reduced-motion
+ima statičku verziju.
+
+## 4. Dragan Milićević (korisnik, pesnik) — hronologija i šta RAZMOTRITI
+
+- 06.09.: mejlom prijavio da „Iran" ima 1 slog (tačno) → iz toga je nastalo dugme
+  „prijavi grešku" (3 dodira na telefonu / zastavica na računaru; worker `prijave.js`).
+- 08.09.: prijavio nejednake kapsule → sređeno (iste širine, bedž slogova desno).
+- Poslednji mejl (ćirilica): pesma **„KROZ PROZOR"** (28.03.2022); pohvalio pismo
+  ćirilicom; ranije koristio rimovanje.com („nisu ni blizu ovo što ste vi napravili").
+- **Obećanje vlasnice (obaveza!):** ako Dragan ikad objavi zbirku, promovisaće je
+  na Rimoteci **besplatno**. Zapisano u mejlu koji mu je poslat.
+- Odgovor mu je poslat ćirilicom: izvinjenje za kašnjenje, rimovanje.com priča
+  („ljudima treba više od samih reči"), mlad sajt + postepene izmene, poziv za
+  buduće prijave.
+
+### Šta iz njegovog mejla treba razmotriti (status)
+
+1. **Azbučni redosled** — predlog: najbolje po važnosti (kao sad), dobre i ostale
+   azbučno. PRIHVAĆENO i njemu najavljeno („jednoj od narednih objava"). Drugi
+   korisnik (Goran) nezavisno predložio isto. Nijansa: prvih 6–12 najčešćih
+   „dobrih" pinovati na vrh grupe (kriterijum: `frekvencija.json` iz korpusa
+   titlova; reči bez podataka idu u azbučni deo; tie-break azbuka). Princip:
+   kratka lista = rang bitan, duga lista = azbuka bitna.
+2. **Muška rima (jednosložna)** — tvrdio „nije sve rima što se završava istim
+   poslednjim slogom". PROVERENO (prozodija, enciklopedije, lektorska pravila):
+   **u pravu je**. Rimovani slog mora biti naglašen (klitike bi/li/se otpadaju);
+   potpuna istovetnost = odjek, ne rima (dom–tom jeste, dom–dom nije; homofoni
+   = identitet); podudarnost od naglašenog vokala nadalje (sloboda–voda nije
+   prava); za čistu rimu i isti akcenat/dužina (dȃn–grȁd pravilna, ne čista).
+   Implementacija pri sređivanju rangiranja: reč nikad samoj sebi, homofoni/
+   identitet posebno ili napolje, klitike napolje; obrazac RhymeZone perfect vs
+   near. Obećano mu „javimo kad bude".
+3. **Prozorče sa opcijama** — već rešeno ranije: otvara se tek na klik/dodir,
+   ne na hover. Tako mu i odgovoreno.
+4. **Kapsule** — rešeno posle njegovog mejla od 08.09. (v. gore).
+
+## 5. Razmišljanja i odluke vlasnice (otvoreno)
+
+- **9 reči** (bruja, jeda, naplava, trusa, žura, zabita, strna, hrida, opseci):
+  data značenja iz Matice — sve ih IMAJU (legitimni genitivi/pridevi/imperativ);
+  vlasnica je rekla „za sada ne" — NE DIRATI do njene odluke.
+- **Dizajn pravac:** čeka njen izbor (sveska / editorial / vino / boje logoa),
+  pa plan implementacije po fazama (najpre hero + futer, sve kroz testove).
+- **Inovacija predložena (za sinonim zadatak):** „sinonim sa proverom rime" —
+  uz svaki sinonim oznaka da li se i ON rimuje sa ostatkom pesme, da zamena reči
+  ne ubije rimu. Jedinstveno na tržištu; ključ rime već postoji.
+
+## 6. Sledeći koraci redom
+
+1. **Sinonimi (V2, PRVA STVAR)** — 787 parova čeka njen pregled:
+   `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (54 odobrenih već live). Kad pregleda:
+   upis → lanac podataka → pun test → deploy.
+2. **Azbučni raspored rima** (najavljeno Draganu; pinovanje vrha „dobrih").
+3. **Muška rima u rangiranju** (obećano Draganu; v. tačku 4.2).
+4. **Dizajn pravac** → implementacija.
+5. **AItomation** (poseban projekat, `~/Projects/AItomation`): čeka odluku
+   privatan/javan repo; klijent duguje Cloudflare DNS pristup (2 A zapisa →
+   88.198.218.69, proxy OFF) i Outlook app lozinku za formu; pa deploy na Coolify
+   (512 MB), GoDaddy DNS, GA4 prvog dana.
+
+---
+
 # HANDOFF ZA SLEDEĆU SESIJU – stanje na kraju 09.09.2026 u 02:00 (sesija 22, najduža do sada: 07.09. 23:00 – 09.09. 02:00)
 
 > Ovo se čita PRVO. Ispod (od „Sesija 7–8. septembar 2026") stoji dnevnik cele sesije; ovde je samo ono

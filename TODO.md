@@ -17,6 +17,13 @@ mašinski sinonimi koji se ne rimuju sa ostatkom pesme su gori nego da ih nema
 (prijava Dragana M. ranije: sinonimi NE smeju u panel uz stih ako se ne rimuju).
 Kad pregled bude gotov: upis, lanac podataka, pun test, deploy.
 
+**Predlog za isti zadatak (zapisati, ne zaboraviti): „sinonim sa proverom rime".**
+Uz svaki odobreni sinonim, u panelu uz stih, odmah stoji i oznaka da li se i ON
+rimuje sa ostatkom pesme (ključ rime već imamo — provera je jeftina). Tako pesnik
+zameni reč po smislu, a NE IZGUBI rimu. Niko to na tržištu nema; za pesnike je to
+tačno ono „razume se njihov proces" iskustvo. Implementirati zajedno sa upisom
+odobrenih sinonima, kao posebna izmena sa svojim testovima.
+
 ## Pun test brže: rečnik jednom, ne 100 puta (tačka 2 iz „deploy traje 3 sata", 09.09.2026)
 
 Izmereno 09.09. protiv produkcije (`AUDIT/lanac/20260909-013535/predeploy.log`, vreme uz svaku sekciju): pun test

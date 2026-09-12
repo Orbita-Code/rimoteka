@@ -1536,3 +1536,52 @@ bi na produkciji značilo 404 na svakoj strani reči.
 `faulthandler`-om); zamenjeno kantama po završetku (`sufgroup`, `top_slicne`) – 5 min 36 s → 43 s procesorskog vremena,
 isti izlaz na 1.978 strana; 12 strana sa velikim slovom (Atina, Kina, Niš…) sada dobija bolje bliske rime, jer se
 zajednički završetak meri malim slovima (pravilo 6.4), što staro sortiranje nije radilo.
+
+## 12.09.2026 — BANER OD 06.09. UGASIO MERENJE ZA VEĆINU, A NAPREDNI CONSENT MODE NIJE NI PONUĐEN
+
+**Šta se desilo.** Sesija 06.09. napravila je baner tako da se gtag.js učitava TEK POSLE „Prihvati sve" (osnovni
+režim). Od tog dana Analytics je brojao samo one koji kliknu, pa su „aktivni korisnici" padali danima, dok je poseta
+po Search Console rasla (07–09.09: 91 → 118 → 140 klikova/dan, najviše ikad). Vlasnica je 12.09. pitala „zašto mi
+aktivni korisnici padaju" i „zašto mi to niko ranije nije uključio". Napredni Consent Mode (gtag uvek, ali sa
+`consent default` „denied" pa anonimni signali bez kolačića i procena posete) postoji od 2020. i baš je za sajtove sa
+banerom. Sesija 06.09. je vlasnici ponudila samo „pune podatke ili bez kolačića" – treća, standardna mogućnost nije
+pomenuta, a audit 08.09. je pad samo OBJASNIO („nije pad posete") umesto da ga REŠI.
+
+> **Pravilo.** Kad se uvodi bilo kakav pristanak/baner ispred merenja, obavezno se ponudi i sprovede Consent Mode
+> u naprednom režimu (gtag uvek + `consent default` sve „denied" + `update` posle pristanka) – to je podrazumevano,
+> ne opcija. Nalaz u auditu koji glasi „brojke padaju zbog X" nije završen dok ne kaže i ŠTA SE MENJA da brojke
+> ponovo budu tačne. Popravljeno 12.09.: `public/ga-init.js` (v6), test 47 prepisan.
+
+## 12.09.2026 — POPRAVKA „SKLANJANJE TRAKE" IMALA DVA SPREDNA EFEKTA KOJA NISAM TESTIRAO (moj propust)
+
+**Šta se desilo.** Popravka od 10.09. (vlasnica: „traka ne može da se skloni na telefonu") je uvela
+`pointerdown → noteEditor.blur()` na nivou dokumenta. Audit 12.09. je adversarijalno potvrdio dva
+sporedna efekta: (1) **U-1**: blur je sinhron u `pointerdown`, traka odlepi pre nego što se `click`
+raspodeli — raspored se pomera (Δ346 px) i klik padne u tekst editora, pa dodir na dugmad dok se
+kuca **ne uradi ništa** (progutan dodir); (2) **U-2**: zaštita panela od sklanjanja važila je samo
+za `.chip, .nr-more, .nr-toggle` — dodir na **naslov trake (h4)** nije bio pokriven, pa ga dodir
+sklanja i gasi tastaturu, i to **i na iOS-u** (jer `<main tabindex="-1">` obilazi pretpostavku
+„iOS ne skida fokus"). Regresioni test je pokrivao samo „dodir van editora sklanja" i „dodir na
+editor/panel ne sklanja (preko čipa)", a nijedan dodir na dugmad van panela ni na naslov panela.
+
+> **Pravilo.** Kad se dodaje globalni osluškivač (`document.addEventListener('pointerdown'…)`),
+> test matrica mora obuhvatiti: dodir na svaki INTERAKTIVNI element izvan ciljne zone (dugmad,
+> linkovi, polja), dodir na svaki POD-ELEMENT unutar same zone (naslov, razmaci, ivice), i vremenski
+> raspored `pointerdown → (pomeraj DOM) → click`. Popravka se ne pušta dok bar jedan dodir iz svake
+> ćelije ne prođe — zapisati u test/mobili kao obavezne ćelije matrice.
+
+## 12.09.2026 — VERZIJA `app.js` SE DIŽE RUČNO, PA JE PROMENA PODATAKA IZAŠLA POD STAROM VERZIJOM (moj procesni propust)
+
+**Šta se desilo.** Deploy rečnika 12.09. je promenio SADRŽAJ `app.js` (skripta
+`osvezi-verzije-podataka.mjs` upisuje nove heš-adrese podataka u njega), ali verzija
+`app.js?v=20260910a` je ista od 10.09. — niko nije podigao verziju samog `app.js`, a ona se diže
+ručno (skripta prepisuje haševe podataka, ne i verziju). Posledica: posetilac od 10–11.09. kešira
+stari `app.js` (max-age 7 dana) → stari `app.js` traži podatke po starim heš-adresama → rečnik
+**bez poslednjih 14 obrisanih reči** do nedelju dana posle deploy-a. Mereno i prijavljeno od
+revizora performansi (P-1) isti dan — dakle nije prošlo neopaženo, ali je prošlo bez reakcije pre
+deploy-a.
+
+> **Pravilo.** Verzija `app.js` (i `style.css`) mora biti AUTOMATSKA posledica SVAKE promene njegovog
+> sadržaja — isti sha256 obrazac kao za podatke (`?v=sha256[:8]`), u istoj skripti koja već prepisuje
+> haševe, korak pre deploy-a; ručno dizanje verzije „kad se setimo" je zabranjeno. Posle skripte,
+> `git diff public/index.html build/gen_pages.py` mora biti prazan samo ako se `app.js` nije menjao.

@@ -6,6 +6,22 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## POPRAVLJENO 12.09.2026 — zatvaranja iz punog audita (`AUDIT/2026-09-12-audit.md`, ocena 8,3/10)
+
+| Nalaz | Zašto se zatvara | Provera |
+|---|---|---|
+| **A6** logo 298 KB (čekao odluku vlasnice od 07.09.) | `logo-icon.png` je danas 56.290 B (SW v7 224 px); problem ne postoji više | izmereno na produkciji |
+| **N-13** sanduče worker (čekao deploy) | deploy stigao: `proba:true` → ok, zamka tiho 200 bez čuvanja, tuđi origin → 403 | curl na produkciji |
+
+Reverifikovano (već zatvoreno ranije, potvrđeno da drži): **A3** (07.09.) — 0 px preliva na 28 kombinacija; **S-26** (08.09.) — nepostojeće i obrisane reči → 404.
+
+### NOVO OTVORENO IZ AUDITA 12.09.2026 (puni opis u `AUDIT/2026-09-12-audit.md`)
+
+**VISOKO:** T-1 (nema branika za 20 obrisanih reči — regeneracija ih tiho vraća; sekcija 53 poredi samo broj ključeva) · T-2 (provera azbuke gleda samo prvo slovo, bez digrafa).
+**SREDNJE:** K-1 (samorima vlastitih imena — rezervna+loose petlja bez `MALE[i]`) · K-2 (filter sa rezervnom grupom: 77 % reči van prikazanog skupa; čeka odluku vlasnice) · U-1 (pointerdown-blur progutava dodir na dugmad dok se kuca) · U-2 (dodir na naslov trake je sklanja i gasi tastaturu, i na iOS-u) · U-3 (mišji klik na padding kapsule → fokus ostaje na `main` posle Escape; A1 za tastaturu ostaje zatvoren) · P-1 (`app.js?v=` se diže ručno — 12.09. promenjeni app.js pod starom verzijom) · SEO-1 („Kopiraj sve rime" kopira samo 60, tvrdnja „ceo spisak") · B-1 (sanduče: burst prolazi ceo, 24 mejla/2,5 min, nema globalnog plafona ni dedup-a; šteta samo u vlasničko sanduče) · A-1 (prsten fokusa na poljima 1,26:1 < 3:1) · M-2 (768 px: navigacija 40, dugmad beležnice 36, nr-more 41, nr-word-btn 38×18).
+**NISKO:** A-2 (Escape ne gasi režim kucanja) · A-3 (autofocus zaobilazi skip-link) · P-2 (`frekvencija.json` skida se i bez pretrage) · P-3 (fontovi bez `?v=`) · S-1 (3 lanca definicija ka obrisanim rečima: dionici→dionica, virsle→virsla, zvjera→zvera×2+„plašljivo gleda") · B-2 (`disp(rec)` bez escapeHtml na 7 mesta — hardening) · B-3 (`GET /prijave` bez limita na pogrešan ključ) · B-4 (HSTS bez includeSubDomains/preload) · U-4 (dodir u razmak kapsula → nehotična zamena reči, touch adjustment).
+**Napomena za čišćenje:** adversarijalni agent ostavio ~27 test zapisa u KV sanduču i ~24 mejla u vlasničkom Gmailu — obrisati uz odobrenje (endpoint postoji u `prijave.js`).
+
 ## POPRAVLJENO 10.09.2026 — kursor u beležnici, zalepljena traka rima, rečnik (prijave vlasnice)
 
 | Šta je bilo | Popravka | Provera |

@@ -3,26 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rimoteka – preview početne (dizajn 2026)</title>
+<title>Rimoteka – preview početne (dizajn 2026, tekstovi nepromenjeni)</title>
 <style>
 /* ============================================================
    RIMOTEKA – DIZAJN PREVIEW 2026 · „Tinta i papir"
-   Smer: topla pozadina koja ne bode oči (papir), mastilo umesto
-   čiste crne (tinta), jedan akcenat (vino) + jedan pomoćni (žad).
-   Serif za poeziju/naslove, sans za interfejs.
+   PRAVILO OVE VERZIJE: svi tekstovi su SLOVO U SLOVO kao na
+   rimoteka.com (SEO istorija se ne dira) – menja se samo izgled.
    ============================================================ */
 :root{
-  --papir:#FAF6EF;          /* topla bela – manje odsjaja od čiste bele */
-  --papir-2:#F3EEE3;        /* malo dublji papir za zone */
+  --papir:#FAF6EF;
+  --papir-2:#F3EEE3;
   --kartica:#FFFDF9;
-  --tinta:#26211D;          /* mastilo – nije čista crna */
-  --tinta-mek:#5C564E;      /* sekundarni tekst */
-  --tinta-bleda:#8A8378;    /* najbledji tekst */
-  --vino:#7C2D4A;           /* glavni akcenat */
-  --vino-dub:#63223A;       /* hover */
-  --vino-mek:#F4E6EB;       /* pozadina akcenata */
-  --zad:#3F6651;            /* sekundarni akcenat (odmorna zelena) */
-  --linija:#E4DCCB;         /* kosi borderi */
+  --tinta:#26211D;
+  --tinta-mek:#5C564E;
+  --tinta-bleda:#8A8378;
+  --vino:#7C2D4A;
+  --vino-dub:#63223A;
+  --vino-mek:#F4E6EB;
+  --zad:#3F6651;
+  --linija:#E4DCCB;
   --senka:0 1px 2px rgba(38,33,29,.05),0 8px 24px -12px rgba(38,33,29,.18);
   --senka-veca:0 2px 6px rgba(38,33,29,.06),0 24px 48px -16px rgba(38,33,29,.22);
   --rad-s:10px; --rad-m:16px; --rad-l:22px;
@@ -42,7 +41,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 :focus-visible{outline:2px solid var(--vino);outline-offset:2px;border-radius:4px}
 .omot{max-width:1140px;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
 
-/* ---------- VRH: tanka traka ---------- */
+/* ---------- VRH ---------- */
 .vrh{
   position:sticky;top:0;z-index:50;
   background:color-mix(in srgb,var(--papir) 88%,transparent);
@@ -67,21 +66,19 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   color:var(--tinta-mek);border:1px solid var(--linija);background:var(--kartica);
 }
 
-/* ---------- TABOVI: tihi, pregledni ---------- */
+/* ---------- TABOVI ---------- */
 .tabovi{border-bottom:1px solid var(--linija);background:var(--papir)}
-.tabovi-unutra{
-  display:flex;gap:8px;padding:10px 0;overflow-x:auto;scrollbar-width:none;
-}
+.tabovi-unutra{display:flex;gap:8px;padding:10px 0;overflow-x:auto;scrollbar-width:none}
 .tabovi-unutra::-webkit-scrollbar{display:none}
 .tab{
   flex:none;padding:8px 16px;border-radius:999px;font-size:.86rem;font-weight:600;
-  color:var(--tinta-mek);border:1px solid transparent;white-space:nowrap;
+  color:var(--tinta-mek);border:1px solid transparent;white-space:nowrap;text-decoration:none;
 }
 .tab:hover{color:var(--tinta);background:var(--papir-2)}
 .tab.aktivan{background:var(--vino);color:#fff;box-shadow:var(--senka)}
 .tab .brojac{opacity:.65;font-weight:500;margin-left:4px;font-size:.78em}
 
-/* ---------- HERO: samo pretraga ---------- */
+/* ---------- HERO ---------- */
 .hero{padding:clamp(44px,7vh,84px) 0 clamp(36px,5vh,56px);text-align:center;position:relative}
 .hero-pozadina{
   position:absolute;inset:0;pointer-events:none;overflow:hidden;
@@ -104,7 +101,6 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   color:var(--tinta-mek);font-size:clamp(.98rem,1.6vw,1.12rem);
   max-width:46ch;margin:0 auto 30px;
 }
-/* Pretraga – glavni glumac stranice */
 .pretraga{
   display:flex;align-items:center;gap:8px;
   max-width:620px;margin:0 auto;padding:8px 8px 8px 24px;
@@ -126,8 +122,6 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .pretraga .dugme:active{transform:scale(.97)}
 .brze-reci{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:18px}
 .brze-reci span.naslov{font-size:.82rem;color:var(--tinta-bleda);align-self:center;margin-right:2px}
-
-/* ---------- KAPSULE: fiksna sirina, mirne ---------- */
 .kapsula{
   display:inline-flex;align-items:center;gap:6px;min-width:0;
   background:var(--kartica);border:1px solid var(--linija);border-radius:999px;
@@ -139,57 +133,18 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .kapsula .slog{
   flex:none;margin-left:auto;min-width:20px;height:20px;padding:0 5px;
   display:grid;place-items:center;border-radius:999px;
-  background:var(--papir-2);color:var(--tinta-mek);
-  font-size:.72rem;font-weight:700;
+  background:var(--papir-2);color:var(--tinta-mek);font-size:.72rem;font-weight:700;
 }
 .kapsula:hover .slog{background:#fff}
-/* Mreza kapsula: ISTE SIRINE uvek – oko klizi dole bez preskakanja */
-.mreza-kapsula{
-  display:grid;gap:10px;
-  grid-template-columns:repeat(3,1fr);            /* mobilno: 3 u redu, uvek 3 */
-}
-@media(min-width:640px){.mreza-kapsula{grid-template-columns:repeat(4,1fr)}}
-@media(min-width:1024px){.mreza-kapsula{grid-template-columns:repeat(6,1fr)}}
-.mreza-kapsula .kapsula{display:flex;width:100%}
 
-/* ---------- DEMO REZULTATI (na samoj pocetnoj) ---------- */
-.demo{padding:8px 0 40px}
-.demo-okvir{
-  max-width:860px;margin:0 auto;background:var(--kartica);
-  border:1px solid var(--linija);border-radius:var(--rad-l);
-  padding:clamp(20px,3.4vw,34px);box-shadow:var(--senka);text-align:left;
-}
-.demo-naslov{
-  font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--tinta-bleda);margin-bottom:14px;
-}
-.demo-naslov b{color:var(--vino)}
-
-/* ---------- TRI PREDNOSTI ---------- */
-.prednosti{padding:clamp(30px,5vh,54px) 0}
-.prednosti-mreza{display:grid;gap:14px;grid-template-columns:1fr}
-@media(min-width:760px){.prednosti-mreza{grid-template-columns:repeat(3,1fr)}}
-.prednost{
-  background:var(--kartica);border:1px solid var(--linija);border-radius:var(--rad-l);
-  padding:26px 24px;transition:transform .18s,box-shadow .18s;
-}
-.prednost:hover{transform:translateY(-3px);box-shadow:var(--senka-veca)}
-.prednost .broj{
-  font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--vino);
-  display:block;margin-bottom:10px;
-}
-.prednost h3{font-family:var(--serif);font-size:1.28rem;margin-bottom:8px;letter-spacing:-.01em}
-.prednost p{font-size:.92rem;color:var(--tinta-mek)}
-
-/* ---------- SEO ZONA: uredna, sklopiva ---------- */
-.seo-zona{background:var(--papir-2);border-top:1px solid var(--linija);padding:clamp(36px,6vh,64px) 0}
-.seo-uvod{max-width:70ch;color:var(--tinta-mek);font-size:.98rem;margin-bottom:30px}
-.seo-uvod strong{color:var(--tinta);font-weight:600}
-.seo-naslov{
+/* ---------- SEO ZONA (tekstovi: netaknuti, sa zivog sajta) ---------- */
+.seo-zona{background:var(--papir-2);border-top:1px solid var(--linija);padding:clamp(36px,6vh,64px) 0;margin-top:clamp(24px,4vh,44px)}
+.seo-h-glavni{
   font-family:var(--serif);font-size:clamp(1.4rem,2.6vw,1.9rem);
-  letter-spacing:-.01em;margin-bottom:16px;max-width:26ch;
+  letter-spacing:-.01em;margin-bottom:16px;max-width:30ch;
 }
-/* Akordeon blokovi: brojcano, uredno */
+.seo-uvod{max-width:72ch;color:var(--tinta-mek);font-size:.98rem;margin-bottom:30px}
+.seo-uvod strong{color:var(--tinta);font-weight:600}
 .akordeon{border-top:1px solid var(--linija)}
 .akordeon details{border-bottom:1px solid var(--linija)}
 .akordeon summary{
@@ -200,7 +155,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .akordeon summary:hover{background:rgba(255,253,249,.6)}
 .akordeon .redni-broj{
   font-family:var(--serif);font-style:italic;color:var(--vino);
-  font-size:.95rem;flex:none;width:2.2em;
+  font-size:.95rem;flex:none;width:1.6em;
 }
 .akordeon h3{font-family:var(--serif);font-size:1.15rem;font-weight:700;flex:1;letter-spacing:-.01em}
 .akordeon .znak{
@@ -209,29 +164,46 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   color:var(--tinta-mek);font-size:.9rem;transition:transform .2s,background .2s;
 }
 .akordeon details[open] .znak{transform:rotate(45deg);background:var(--vino);color:#fff;border-color:var(--vino)}
-.akordeon .telo{padding:0 4px 22px calc(2.2em + 20px);max-width:72ch}
+.akordeon .telo{padding:0 4px 22px calc(1.6em + 20px);max-width:74ch}
 .akordeon .telo p{margin-bottom:12px;font-size:.94rem;color:var(--tinta-mek)}
 .akordeon .telo p:last-child{margin-bottom:0}
 .akordeon .telo strong{color:var(--tinta);font-weight:600}
+.seo-h-pitanja{
+  font-family:var(--serif);font-size:clamp(1.2rem,2.2vw,1.5rem);
+  letter-spacing:-.01em;margin:34px 0 6px;
+}
+.faq details{border-bottom:1px solid var(--linija)}
+.faq summary{
+  display:flex;align-items:center;gap:14px;cursor:pointer;
+  padding:15px 4px;list-style:none;font-weight:600;font-size:.96rem;
+  transition:background .15s;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{background:rgba(255,253,249,.6)}
+.faq summary .znak{
+  margin-left:auto;flex:none;width:24px;height:24px;border-radius:50%;
+  border:1px solid var(--linija);display:grid;place-items:center;
+  color:var(--tinta-mek);font-size:.85rem;transition:transform .2s,background .2s;
+}
+.faq details[open] summary .znak{transform:rotate(45deg);background:var(--vino);color:#fff;border-color:var(--vino)}
+.faq details p{padding:0 4px 16px;max-width:74ch;font-size:.92rem;color:var(--tinta-mek)}
 
-/* ---------- SARADNJA: tiho ---------- */
+/* ---------- SARADNJA ---------- */
 .saradnja{padding:clamp(30px,5vh,48px) 0}
 .saradnja-okvir{
   display:flex;flex-wrap:wrap;align-items:center;gap:18px;
   background:var(--tinta);color:var(--papir);border-radius:var(--rad-l);
   padding:clamp(22px,3.4vw,34px);
 }
-.saradnja-okvir h2{font-family:var(--serif);font-size:clamp(1.2rem,2.2vw,1.5rem);letter-spacing:-.01em;flex:1;min-width:240px}
-.saradnja-okvir p{color:#B9B2A8;font-size:.9rem;flex-basis:100%;margin-top:-8px}
+.saradnja-okvir h2{font-family:var(--serif);font-size:clamp(1.15rem,2.2vw,1.45rem);letter-spacing:-.01em;flex:1;min-width:240px}
 .saradnja-okvir .dugme{
   padding:12px 26px;border-radius:999px;background:var(--papir);color:var(--tinta);
   font-weight:700;font-size:.95rem;text-decoration:none;
 }
 .saradnja-okvir .dugme:hover{background:#fff;text-decoration:none}
 
-/* ---------- FUTER ---------- */
-.futer{background:var(--tinta);color:#CFC8BC;margin-top:0}
-/* notni sistem: pet linija + note (motiv identiteta, svedenije) */
+/* ---------- FUTER (sadrzaj: netaknut, sa zivog sajta) ---------- */
+.futer{background:var(--tinta);color:#CFC8BC}
 .notni-sistem{
   height:72px;position:relative;overflow:hidden;
   background:repeating-linear-gradient(to bottom,transparent 0 13px,rgba(250,246,239,.14) 13px 14px);
@@ -240,26 +212,47 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 }
 .notni-sistem svg{color:rgba(250,246,239,.35);height:44px;width:auto}
 .futer-unutra{padding:clamp(36px,5vh,56px) 0 26px}
-.futer-mreza{
-  display:grid;gap:32px;grid-template-columns:1fr;
-}
-@media(min-width:760px){.futer-mreza{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.futer-glava{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start;justify-content:space-between;margin-bottom:34px}
 .futer-marka .logo-rec{color:var(--papir);font-size:1.4rem}
-.futer-marka p{font-size:.9rem;margin-top:12px;max-width:32ch;color:#A89F90}
-.futer-kolona h4{
+.futer-marka p{font-size:.9rem;margin-top:12px;max-width:36ch;color:#A89F90}
+.futer-marka strong{color:#CFC8BC}
+.futer-poziv{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.futer-poziv p{color:#CFC8BC;font-size:.95rem;max-width:34ch}
+.futer-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 24px;border-radius:999px;background:var(--papir);color:var(--tinta);
+  font-weight:700;font-size:.92rem;text-decoration:none;white-space:nowrap;
+}
+.futer-cta:hover{background:#fff;text-decoration:none}
+.futer-mreza{
+  display:grid;gap:28px;grid-template-columns:repeat(2,1fr);
+  padding-top:28px;border-top:1px solid rgba(250,246,239,.12);
+}
+@media(min-width:860px){.futer-mreza{grid-template-columns:repeat(4,1fr)}}
+.futer-naslov{
   font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
-  color:#8A8378;margin-bottom:14px;
+  color:#8A8378;margin-bottom:12px;
 }
 .futer-kolona a{
   display:block;color:#CFC8BC;font-size:.92rem;padding:7px 0;
   transition:color .15s,padding-left .15s;
 }
 .futer-kolona a:hover{color:#fff;text-decoration:none;padding-left:4px}
-.futer-dno{
-  border-top:1px solid rgba(250,246,239,.12);margin-top:34px;padding-top:20px;
-  display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;
-  font-size:.8rem;color:#8A8378;
+.futer-rime{margin-top:30px;padding-top:26px;border-top:1px solid rgba(250,246,239,.12)}
+.futer-rime-uvod{font-size:.86rem;color:#A89F90;margin-bottom:14px}
+.futer-rime-spisak{display:flex;flex-wrap:wrap;gap:8px}
+.futer-rime-spisak a{
+  display:inline-block;color:#CFC8BC;font-size:.86rem;
+  border:1px solid rgba(250,246,239,.18);border-radius:999px;padding:5px 13px;
+  transition:color .15s,border-color .15s;
 }
+.futer-rime-spisak a:hover{color:#fff;border-color:rgba(250,246,239,.5);text-decoration:none}
+.futer-dno{
+  border-top:1px solid rgba(250,246,239,.12);margin-top:30px;padding-top:18px;
+  font-size:.78rem;color:#8A8378;
+}
+.footer-keys{margin-bottom:10px}
+.futer-dno-red{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 .futer-dno a{color:#A89F90}
 
 /* ---------- Mobilno ---------- */
@@ -273,14 +266,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 </head>
 <body>
 
-<!-- VRH -->
 <header class="vrh">
   <div class="omot vrh-unutra">
     <a class="logo" href="#">
-      <svg class="logo-znak" viewBox="0 0 36 36" aria-hidden="true">
-        <rect width="36" height="36" rx="9" fill="#7C2D4A"/>
-        <text x="18" y="25" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#FAF6EF">R</text>
-      </svg>
+      <img class="logo-znak" src="logo-icon.png" alt="Rimoteka logo" width="36" height="36" style="border-radius:9px;box-shadow:0 2px 8px -2px rgba(38,33,29,.35)">
       <span class="logo-rec"><b>R</b>imoteka</span>
     </a>
     <div class="vrh-desno">
@@ -296,7 +285,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
     <div class="omot tabovi-unutra">
       <a class="tab aktivan" href="#">Rimovanje reči</a>
       <a class="tab" href="pisanje-pesama.html">Pisanje pesama</a>
-      <a class="tab" href="#">Brojač slogova</a>
+      <a class="tab" href="#">Brojač slogova i karaktera</a>
       <a class="tab" href="#">Pretraga reči</a>
       <a class="tab" href="#">Igra rimovanja</a>
       <a class="tab" href="#">Klasici</a>
@@ -305,7 +294,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   </nav>
 </header>
 
-<!-- HERO -->
+<!-- HERO (odobren prva trećina; ostaje) -->
 <section class="hero">
   <div class="hero-pozadina"></div>
   <div class="omot hero-unutra">
@@ -328,102 +317,80 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   </div>
 </section>
 
-<!-- DEMO REZULTATA: kapsule fiksne sirine -->
-<section class="demo">
-  <div class="omot">
-    <div class="demo-okvir">
-      <div class="demo-naslov">Najbolje rime za <b>nada</b> · kapsule su uvek iste širine, oko klizi nadole bez preskakanja</div>
-      <div class="mreza-kapsula">
-        <a class="kapsula" href="#"><span class="rec">sada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">kada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">grada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">snada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">vlada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">rada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">brada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">jada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">strada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">hlada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">stada</span><span class="slog">2</span></a>
-        <a class="kapsula" href="#"><span class="rec">pada</span><span class="slog">2</span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TRI PREDNOSTI -->
-<section class="prednosti">
-  <div class="omot prednosti-mreza">
-    <div class="prednost">
-      <span class="broj">01</span>
-      <h3>Rime u sekundi</h3>
-      <p>Preko 279.000 reči, na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku reč odmah piše i šta znači.</p>
-    </div>
-    <div class="prednost">
-      <span class="broj">02</span>
-      <h3>Piši bez prekida</h3>
-      <p>U pisanju pesama rime dolaze same, do stiha u kom kucaš. Klik i reč je u stihu. Ne otvaraš drugu stranu, ne gubiš misao.</p>
-    </div>
-    <div class="prednost">
-      <span class="broj">03</span>
-      <h3>Slogovi i metar</h3>
-      <p>Pored svakog stiha stoji broj slogova i slovo šeme rime, a obojene reči pokazuju šta se s kim rimuje. Golim okom vidiš da li se pesma sklapa.</p>
-    </div>
-  </div>
-</section>
-
-<!-- SEO ZONA -->
+<!-- SEO ZONA: tekstovi su SLOVO U SLOVO sa živog sajta -->
 <section class="seo-zona">
   <div class="omot">
-    <h2 class="seo-naslov">Sve za pisanje pesme na jednom mestu</h2>
-    <p class="seo-uvod">Rimoteka je besplatan alat za <strong>rimovanje reči</strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom, na vrhu one sa istim brojem slogova. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
+    <h2 class="seo-h-glavni">Sve za pisanje pesme na jednom mestu – rime, slogovi, značenja i beležnica</h2>
+    <p class="seo-uvod">Rimoteka je besplatan alat za <strong><a href="/rimovanje-reci/">rimovanje reči</a></strong> i <strong>rečnik rima</strong> na srpskom jeziku. Upiši reč i odmah dobiješ sve <strong>reči koje se rimuju</strong> sa njom – na vrhu one sa istim brojem slogova, jer one najlakše legnu u stih. Uz svaku piše koliko slogova ima. Rečnik pokriva ceo srpski jezik, a uz svaku reč ide objašnjenje, pa vidiš i šta reč znači pre nego što je staviš u stih.</p>
 
     <div class="akordeon">
       <details>
-        <summary><span class="redni-broj">01</span><h3>Najbolji alat za pisanje pesama i rimovanje</h3><span class="znak">+</span></summary>
+        <summary><span class="redni-broj">A</span><h3>Najbolji alat za pisanje pesama i rimovanje</h3><span class="znak">+</span></summary>
         <div class="telo">
-          <p>Rimoteka nije samo <strong>rečnik rima</strong>, u njoj se pesma i piše. Otvoriš <a href="#"><strong>pisanje pesama</strong></a> i kucaš: pored svakog stiha odmah stoji <strong>broj slogova</strong>, slovo šeme rime (ABAB, AABB, ABBA), a reči koje se rimuju obojene su istom bojom.</p>
-          <p>A ono najvažnije: <strong>rime dolaze same</strong>. Klikneš na bilo koju reč u svom stihu i sa strane se pojave sve reči koje se sa njom rimuju; klik na rimu ubacuje je pravo u stih. Ne prekidaš pisanje, ne otvaraš drugu stranicu, ne gubiš misao. Ako ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; ako ti ritam ne štima, uključiš <strong>metar</strong>.</p>
-          <p>Kad je pesma gotova: <strong>odštampaš je ili sačuvaš kao PDF</strong>, preuzmeš kao tekstualni fajl ili <strong>podeliš linkom</strong>. Tekst se sam čuva na tvom uređaju. Sve besplatno i bez registracije.</p>
+          <p>Rimoteka nije samo <strong>rečnik rima</strong> – u njoj se pesma i piše. Otvoriš <a href="/pisanje-pesama/"><strong>pisanje pesama</strong></a> i kucaš: pored svakog stiha odmah stoji <strong><a href="/slogovi/">broj slogova</a></strong>, slovo šeme rime (<a href="/vrste-rima/">ABAB, AABB, ABBA</a>) i reči koje se rimuju obojene su istom bojom, pa golim okom vidiš da li ti se pesma sklapa.</p>
+          <p>A ono najvažnije – <strong>rime dolaze same</strong>. Klikneš na bilo koju reč u svom stihu i sa strane se pojave sve reči koje se sa njom rimuju; klik na rimu je ubacuje pravo u stih, na mesto kursora. Ne prekidaš pisanje, ne otvaraš drugu stranicu, ne gubiš misao. Ako ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; ako ti ritam ne štima, uključiš <strong>metar</strong> pa vidiš meru stiha i gde pada cezura. Stih koji ne stoji dobro prevučeš na drugo mesto.</p>
+          <p>Kad je pesma gotova, sve je i dalje na istom mestu: <strong>odštampaš je ili sačuvaš kao PDF</strong>, preuzmeš kao tekstualni fajl ili <strong>podeliš linkom</strong> – onaj ko ga otvori vidi tvoju pesmu. Tekst se sam čuva na tvom uređaju i čeka te kad se vratiš. Sve besplatno i bez registracije.</p>
         </div>
       </details>
       <details>
-        <summary><span class="redni-broj">02</span><h3>Brojač slogova i karaktera</h3><span class="znak">+</span></summary>
+        <summary><span class="redni-broj">B</span><h3>Brojač slogova i karaktera</h3><span class="znak">+</span></summary>
         <div class="telo">
-          <p>Kad ti treba samo mera, tu je poseban <strong><a href="#">brojač slogova i karaktera</a></strong>. Nalepiš tekst i uz svaki red stoji <strong>broj slogova</strong>, a na dnu ukupan zbir: slogovi, reči i znakovi, sa razmacima i bez njih. Radi i za jednu reč i za celu pesmu, na računaru i na telefonu.</p>
+          <p>Kad ti treba samo mera, tu je poseban <strong><a href="/slogovi/">brojač slogova i karaktera</a></strong>. Nalepiš tekst i uz svaki red stoji <strong>broj slogova</strong>, a na dnu ukupan zbir – slogovi, reči i znakovi, sa razmacima i bez njih. <strong>Brojanje slogova</strong> ti treba da stihovi budu ujednačeni i da se pesma lepo peva; <strong>brojač karaktera</strong> kad tekst mora da stane u zadatu dužinu – čestitka, slogan, opis ili poruka. Radi i za jednu reč i za celu pesmu, na računaru i na telefonu.</p>
         </div>
       </details>
       <details>
-        <summary><span class="redni-broj">03</span><h3>Za pesnike, tekstopisce, repere i decu</h3><span class="znak">+</span></summary>
+        <summary><span class="redni-broj">A</span><h3>Za pesnike, tekstopisce, repere i decu</h3><span class="znak">+</span></summary>
         <div class="telo">
-          <p>Kad ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; kad ti treba slobodniji zvuk, tu su <strong>bliske rime</strong>; kad pišeš za decu, <strong>dečji režim</strong> ostavlja samo primerene reči. Kako su rimu gradili veliki pesnici vidi kod <a href="#">klasika</a>, a ako hoćeš da je uvežbaš, tu je <a href="#">igra rimovanja</a>. Rimoteka radi na latinici i ćirilici, na ekavici i ijekavici.</p>
+          <p>Kad ti rima ne odgovara po smislu, tu su <strong>sinonimi</strong>; kad ti treba slobodniji zvuk, tu su <a href="/vrste-rima/"><strong>bliske rime</strong></a>; kad pišeš za decu, <strong>dečji režim</strong> ostavlja samo primerene reči – više o tome na strani <a href="/rime-za-decu/">rime za decu</a>. Reč po zadatim slovima nađi u <a href="/rime-po-zavrsetku/">rimama po završetku</a>, kako su rimu gradili veliki pesnici vidi kod <a href="/klasici/">klasika</a>, a ako hoćeš da je uvežbaš – tu je <a href="/igra-rimovanja/">igra rimovanja</a>. Rimoteka radi na latinici i ćirilici, na ekavici i ijekavici, na računaru i telefonu – besplatno i bez registracije.</p>
         </div>
       </details>
+    </div>
+
+    <h2 class="seo-h-pitanja">Česta pitanja</h2>
+    <div class="faq">
       <details>
-        <summary><span class="redni-broj">04</span><h3>Česta pitanja</h3><span class="znak">+</span></summary>
-        <div class="telo">
-          <p><strong>Kako da pronađem rime za neku reč?</strong> Upiši reč u polje i klikni „Nađi rime“. Na vrhu su rime sa istim brojem slogova, a možeš i da filtriraš po broju slogova.</p>
-          <p><strong>Da li je Rimoteka besplatna?</strong> Da, potpuno. Rečnik rima, brojač slogova i pisanje pesama su besplatni, bez registracije.</p>
-          <p><strong>Kako se broje slogovi?</strong> Reč ima onoliko slogova koliko ima samoglasnika, uz slogotvorno „r“ (prst, vrt). Brojač to radi sam, red po red.</p>
-          <p><strong>Kakve rime pronalazi?</strong> Čiste, dobre i šire (asonantne) rime. Sve vrste su objašnjene na strani <a href="#">vrste rima</a>.</p>
-        </div>
+        <summary>Kako da pronađem rime za neku reč?<span class="znak">+</span></summary>
+        <p>Upiši reč u polje „Rime“ i klikni „Nađi rime“. Rimoteka odmah izlistava sve reči koje se rimuju – na vrhu one sa istim brojem slogova kao tvoja reč, jer one najlakše legnu u stih. Možeš i da filtriraš po broju slogova.</p>
+      </details>
+      <details>
+        <summary>Šta je rimovanje reči?<span class="znak">+</span></summary>
+        <p>Rimovanje reči je pronalaženje reči koje se slično završavaju i skladno zvuče na kraju stiha. Rimoteka za svaku reč odmah pronalazi najbolje i dobre rime, pa je rimovanje brzo i lako – za pesme, tekstove i rep.</p>
+      </details>
+      <details>
+        <summary>Da li je Rimoteka besplatna?<span class="znak">+</span></summary>
+        <p>Da, potpuno je besplatna. Rimoteka je alat za rimovanje reči – rečnik rima, <a href="/slogovi/">brojač slogova</a> i <a href="/pisanje-pesama/">pisanje pesama</a> i tekstova na srpskom jeziku.</p>
+      </details>
+      <details>
+        <summary>Kako se broje slogovi u reči?<span class="znak">+</span></summary>
+        <p>Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u), uz slogotvorno „r“ (npr. prst, vrt). <a href="/slogovi/">Brojač slogova i karaktera</a> to radi sam: broj slogova stoji levo od svakog reda, pa svi stihovi mogu da budu sličnog ritma.</p>
+      </details>
+      <details>
+        <summary>Kako se reč deli na slogove?<span class="znak">+</span></summary>
+        <p>Svaki slog ima jedan samoglasnik kao nosioca, pa reč ima onoliko slogova koliko ima samoglasnika: ja-bu-ka (3), de-voj-či-ca (4). Kada je „r“ između suglasnika, ono nosi slog: vrt i prst imaju po jedan slog, sr-ce dva. Za podelu celog teksta koristi <a href="/slogovi/">brojač slogova</a>.</p>
+      </details>
+      <details>
+        <summary>Postoji li brojač karaktera i reči?<span class="znak">+</span></summary>
+        <p>Postoji – isti alat. <a href="/slogovi/">Brojač slogova i karaktera</a> uz svaki red pokazuje broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, broj reči i broj redova. Korisno kad tekst mora da stane u zadatu dužinu.</p>
+      </details>
+      <details>
+        <summary>Kakve rime Rimoteka pronalazi?<span class="znak">+</span></summary>
+        <p>Rimoteka nalazi čiste rime, dobre rime i šire (asonantne) rime. Na vrhu su one sa istim brojem slogova kao tvoja reč. Rezultate možeš filtrirati po broju slogova da lakše nađeš reč koja se uklapa u stih. Sve vrste su objašnjene na strani <a href="/vrste-rima/">vrste rima</a>.</p>
       </details>
     </div>
   </div>
 </section>
 
-<!-- SARADNJA -->
+<!-- SARADNJA (tekst netaknut) -->
 <section class="saradnja">
   <div class="omot">
     <div class="saradnja-okvir">
       <h2>Treba ti promocija knjige, kursa pisanja ili knjižare?</h2>
-      <p>Javi se za saradnju.</p>
       <a class="dugme" href="#">Kontakt</a>
     </div>
   </div>
 </section>
 
-<!-- FUTER -->
+<!-- FUTER: sadržaj SLOVO U SLOVO sa živog sajta, samo nova forma -->
 <div class="futer">
   <div class="notni-sistem" aria-hidden="true">
     <svg viewBox="0 0 26 72" fill="currentColor"><g transform="translate(10 40)"><ellipse rx="5.4" ry="4" transform="rotate(-18)"/><rect x="4.1" y="-34" width="2.2" height="35" rx="1.1"/><path d="M6.3,-34c7.4,3.6 9.8,9.2 7.1,16.1c0.7,-6.2 -1.9,-9.8 -7.1,-12.6z"/></g></svg>
@@ -434,40 +401,101 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   </div>
   <footer>
     <div class="omot futer-unutra">
-      <div class="futer-mreza">
+      <div class="futer-glava">
         <div class="futer-marka">
           <span class="logo-rec"><b style="color:var(--vino-mek)">R</b>imoteka</span>
-          <p>Besplatan alat za rimovanje reči na srpskom: rečnik rima, brojač slogova, beležnica za pisanje pesama i igra rimovanja.</p>
+          <p>Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rime po završetku, brojač slogova, beležnica za pisanje pesama i igra rimovanja.</p>
         </div>
-        <div class="futer-kolona">
-          <h4>Alati</h4>
-          <a href="#">Rimovanje reči</a>
-          <a href="#">Pisanje pesama</a>
-          <a href="#">Brojač slogova</a>
-          <a href="#">Pretraga reči</a>
-          <a href="#">Igra rimovanja</a>
-          <a href="#">Klasici</a>
-        </div>
-        <div class="futer-kolona">
-          <h4>Popularno</h4>
-          <a href="#">Rime za ljubav</a>
-          <a href="#">Rime za srce</a>
-          <a href="#">Rime za pesma</a>
-          <a href="#">Rime po završetku</a>
-          <a href="#">Vrste rima</a>
-          <a href="#">Rime za decu</a>
-        </div>
-        <div class="futer-kolona">
-          <h4>Rimoteka</h4>
-          <a href="#">O nama</a>
-          <a href="#">Kontakt</a>
-          <a href="#">Privatnost</a>
-          <a href="#">Saradnja</a>
+        <div class="futer-poziv">
+          <p>Treba ti promocija knjige, kursa pisanja ili knjižare? Javi se za saradnju.</p>
+          <a class="futer-cta" href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 6.5L21 6"/></svg>
+            <span>Kontakt</span>
+          </a>
         </div>
       </div>
+
+      <div class="futer-mreza">
+        <nav class="futer-kolona" aria-label="Alati">
+          <p class="futer-naslov">Alati</p>
+          <a href="/rimovanje-reci/">Rimovanje reči</a>
+          <a href="/rime-po-zavrsetku/">Rime po završetku</a>
+          <a href="/slogovi/">Brojač slogova i karaktera</a>
+          <a href="/pisanje-pesama/">Pisanje pesama</a>
+          <a href="/klasici/">Klasici</a>
+          <a href="/igra-rimovanja/">Igra rimovanja</a>
+        </nav>
+        <nav class="futer-kolona" aria-label="Vodiči">
+          <p class="futer-naslov">Vodiči</p>
+          <a href="/rimovanje-reci/">Rimovanje reči</a>
+          <a href="/slogovi/">Brojač slogova</a>
+          <a href="/vrste-rima/">Vrste rima</a>
+          <a href="/kako-napisati-pesmu/">Kako napisati pesmu</a>
+          <a href="/rimovanje-za-pocetnike/">Rimovanje za početnike</a>
+        </nav>
+        <nav class="futer-kolona" aria-label="Rime po temi">
+          <p class="futer-naslov">Rime po temi</p>
+          <a href="/rime-za-decu/">Rime za decu</a>
+          <a href="/rime-za-decu-o-zivotinjama/">Životinje</a>
+          <a href="/rime-za-decu-o-prirodi/">Priroda</a>
+          <a href="/rime-za-pesmu/">Rime za pesmu</a>
+          <a href="/rime-za-rep/">Rime za rep</a>
+          <a href="/rime-za-ljubavne-pesme/">Ljubavne pesme</a>
+        </nav>
+        <nav class="futer-kolona" aria-label="Rime za priliku">
+          <p class="futer-naslov">Rime za priliku</p>
+          <a href="/rime-za-rodjendanske-pesmice/">Rođendan</a>
+          <a href="/rime-za-svadbu/">Svadba</a>
+          <a href="/rime-za-prijatelje/">Prijatelji</a>
+          <a href="/rime-za-roditelje/">Roditelji</a>
+          <a href="/rime-za-novu-godinu/">Nova godina</a>
+          <a href="/rime-za-tugu-i-secanje/">Tuga i sećanje</a>
+        </nav>
+      </div>
+
+      <nav class="futer-rime" aria-label="Rime za česte reči">
+        <p class="futer-naslov">Rime za česte reči</p>
+        <p class="futer-rime-uvod">Pogledaj koje se reči rimuju sa rečima koje pesnici često traže.</p>
+        <div class="futer-rime-spisak">
+          <a href="/rime-za/ljubav/">ljubav</a>
+          <a href="/rime-za/srce/">srce</a>
+          <a href="/rime-za/dusa/">duša</a>
+          <a href="/rime-za/sreca/">sreća</a>
+          <a href="/rime-za/tuga/">tuga</a>
+          <a href="/rime-za/bol/">bol</a>
+          <a href="/rime-za/radost/">radost</a>
+          <a href="/rime-za/nada/">nada</a>
+          <a href="/rime-za/strast/">strast</a>
+          <a href="/rime-za/ceznja/">čežnja</a>
+          <a href="/rime-za/samoca/">samoća</a>
+          <a href="/rime-za/osecaj/">osećaj</a>
+          <a href="/rime-za/zagrljaj/">zagrljaj</a>
+          <a href="/rime-za/poljubac/">poljubac</a>
+          <a href="/rime-za/neznost/">nežnost</a>
+          <a href="/rime-za/zelja/">želja</a>
+          <a href="/rime-za/sanjarenje/">sanjarenje</a>
+          <a href="/rime-za/ljubomora/">ljubomora</a>
+          <a href="/rime-za/sunce/">sunce</a>
+          <a href="/rime-za/mesec/">mesec</a>
+          <a href="/rime-za/zvezda/">zvezda</a>
+          <a href="/rime-za/nebo/">nebo</a>
+          <a href="/rime-za/oblak/">oblak</a>
+          <a href="/rime-za/kisa/">kiša</a>
+          <a href="/rime-za/sneg/">sneg</a>
+          <a href="/rime-za/vetar/">vetar</a>
+          <a href="/rime-za/munja/">munja</a>
+          <a href="/rime-za/more/">more</a>
+          <a href="/rime-za/reka/">reka</a>
+          <a href="/rime-za/jezero/">jezero</a>
+        </div>
+      </nav>
+
       <div class="futer-dno">
-        <span>© 2026 Rimoteka. Sva prava zadržana.</span>
-        <span>Powered by <a href="#">Orbita Code</a></span>
+        <p class="footer-keys">Rimovanje reči · Rime · Rime po završetku · Brojač slogova · Beležnica za pesme · Pisanje poezije i tekstova</p>
+        <div class="futer-dno-red">
+          <p>© 2026 Rimoteka · Sva prava zadržana · <a href="#">Kolačići</a></p>
+          <p>Powered by <a href="https://orbitacode.com">Orbita Code</a></p>
+        </div>
       </div>
     </div>
   </footer>

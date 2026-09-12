@@ -339,7 +339,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=356cd2d5';
+const DEFINICIJE_ADRESA = '/definicije.json?v=606951de';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -406,7 +406,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=d6e115f6', true),
+    uzmiTekst('/reci.txt?v=88997c8f', true),
     uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -475,7 +475,7 @@ async function loadExtras(){
          bazen treba 5.074 – ne bi pomoglo, a bio bi izmišljen podatak). Rešenje je
          drugi, nezavistan signal: da li Matica srpska tu reč ima kao odrednicu.
          Frekvencija kaže KOLIKO se reč koristi; Matica kaže DA LI je standardna. */
-      fetch('/matica.json?v=a14c0c6c').then(r=>r.json()).catch(()=> ([]))
+      fetch('/matica.json?v=643f065c').then(r=>r.json()).catch(()=> ([]))
     ]);
     SYNONYMS = synRes;
     MATICA = new Set(Array.isArray(maticaRes) ? maticaRes : []);

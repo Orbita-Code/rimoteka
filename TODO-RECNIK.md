@@ -151,13 +151,6 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 
 ## Sporno / čeka odluku vlasnice
 
-- [ ] **Devet kandidata obrasca „ž.r. na suglasnik + -a"** — provera 10.09.2026
-      (srLex + Rečnik Matice): `koba` (gen. kobi), `peća` (gen. peći), `radosta`
-      (gen. radosti), `vlasa` (gen. vlasi), `zoba` (gen. zobi), `zvera` (gen. zveri)
-      ne postoje u izvorima; `kosta` i `vlasta` su IMENA (vlasnica, 10.09.);
-      `pričesta` je validna po vlasnici („za vreme pričesta"). Greškom su bili
-      obrisani bez njene naredbe i istog dana vraćeni. **Čeka njenu odluku:**
-      koje od njih (ako koje) brišemo.
 - [ ] **Parovi „ista reč, dva pisma" (č/ć)** — nađeno 16.08.2026. Izbačeni su
       `većera` i `većeras` (odluka vlasnice: „rečnik prati pravopis, ne govor").
       Grubo skeniranje daje ~180 parova gde obe č/ć varijante postoje, ali je
@@ -193,6 +186,8 @@ ista kružnost, samo šira. Sme se koristiti samo za:
 - [x] `bica` — obrisana iz `reci.txt`, `matica.json` i `definicije.json` po NAREDBI vlasnice (10.09.2026)
 - [x] `dionica` — obrisana iz `reci.txt` i `definicije.json` po NAREDBI vlasnice; srpski ekavski standard je `deonica` (10.09.2026)
 - [x] definicije ispravljene po Matici: `luča` (samostalna imenica, ne „oblik reči"), `nemoća` (nemost), `pepita` (nepromenljivi pridev) (10.09.2026)
+- [x] `koba`, `peća`, `radosta`, `vlasa`, `zoba`, `zvera` — nepostojeći oblici obrasca „ž.r. na suglasnik + -a" (gen. je na -i), obrisani iz `reci.txt` i `definicije.json` po NAREDBI vlasnice; `koba` i `peća` i iz `matica.json` (OCR artefakti). `kosta`/`vlasta` (imena) i `pričesta` (validna) ostaju (10.09.2026)
+- [x] Sken celog rečnika (srLex 1,9M formi + Matica, 10–11.09.2026): po NAREDBI vlasnice obrisano još 14 — `divita`, `preveza`, `priona`, `progovora`, `smoka`, `zasita`, `šarafa` (leme-fantomi) i `bubasvaba`, `deriste`, `gace`, `kocija`, `obarac`, `spageti`, `virsla` (ćelava latinica; prave reči sa kvačicama postoje). `goja` zadržana kao ime (Fransisko Goja, slikar), definicija ispravljena. Definicije ispravljene i kod: `žesta` (žarg. alkohol), `vlasta` (žensko ime), `mladunce` (akuz. mn. od mladunac), `vesala` (samo mn.)
 
 ## Zamrznuto do završetka provere
 

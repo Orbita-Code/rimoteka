@@ -7,6 +7,16 @@
 
 
 
+## PRVA STVAR: sinonimi (prioritet vlasnice, 12.09.2026)
+
+Prva stvar koja se rešava. Nalaz **V2** (otvoren od audita): sinonimi su sada kurirani
+(54 odobrenih već na sajtu), ali **787 parova čeka pregled** u
+`AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt`. Vlasnica pregleda sama — pravilo: sinonim
+smije samo ono što pesnik STVARNO može da zameni u stihu bez da promeni smisao;
+mašinski sinonimi koji se ne rimuju sa ostatkom pesme su gori nego da ih nema
+(prijava Dragana M. ranije: sinonimi NE smeju u panel uz stih ako se ne rimuju).
+Kad pregled bude gotov: upis, lanac podataka, pun test, deploy.
+
 ## Pun test brže: rečnik jednom, ne 100 puta (tačka 2 iz „deploy traje 3 sata", 09.09.2026)
 
 Izmereno 09.09. protiv produkcije (`AUDIT/lanac/20260909-013535/predeploy.log`, vreme uz svaku sekciju): pun test

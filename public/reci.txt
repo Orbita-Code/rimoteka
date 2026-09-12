@@ -3551,11 +3551,6 @@ andergraund
 andersen
 andersena
 andima
-andjela
-andjele
-andjeli
-andjelom
-andjelu
 andora
 andore
 andori
@@ -19148,7 +19143,6 @@ bušotinu
 bzenić
 bžežinski
 bžežinskog
-ca
 caca
 caciki
 cadik
@@ -26936,7 +26930,6 @@ dižite
 dižonu
 dižu
 dižući
-djavo
 djed
 djedica
 djedov
@@ -26959,7 +26952,6 @@ djevičanstvo
 dječarac
 dječjoj
 dječjom
-djumbiri
 dlaci
 dlaka
 dlakama
@@ -41519,7 +41511,6 @@ gdekoji
 gdešto
 gdin
 gdina
-gdja
 ge
 gebels
 gec
@@ -148115,7 +148106,6 @@ pjongjangu
 pjotr
 pjotra
 pkb
-pla
 plac
 placebo
 placenta
@@ -197564,7 +197554,6 @@ rodićeš
 rodiću
 rodiš
 rodiše
-rodjena
 rodna
 rodne
 rodni
@@ -208816,7 +208805,6 @@ skvrči
 skvrčila
 skvrčio
 sl
-sla
 slab
 slaba
 slabačak
@@ -221229,7 +221217,6 @@ suncokrete
 suncokreti
 suncokretu
 suncu
-sundjer
 sune
 sunet
 sunetiti
@@ -228200,7 +228187,6 @@ tlocrtima
 tlocrtom
 tlocrtu
 tlu
-tma
 tmast
 tmaste
 tmasti
@@ -261898,7 +261884,6 @@ zaradićete
 zaradićeš
 zaradiću
 zaradiš
-zaradjuješ
 zaradom
 zaradova
 zaradovalo

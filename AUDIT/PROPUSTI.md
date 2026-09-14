@@ -1600,3 +1600,27 @@ i lanac je prijavio NE DEPLOYUJ iako su svi testovi do tada prolazili.
 > (3) uzrok zauzetog porta tražiti u padu ALATA (koji je proces prvi zauzeo port), ne u procesu koji
 > port drži. Ubijanje se sme samo za procese starije od svih aktivnih zadataka ili sa dokazom da su
 > siroci (roditelj mrtav).
+
+## 14.09.2026 — NAPISAO SAM KONTROLNE PAROVE AZBUKE SA POGRŠNIM SMEROM (moj propust)
+
+**Šta se desilo.** Prilikom ispravke provere azbuke (T-2) napisao sam kontrolne parove
+iz glave: `ljubav < lubim` i `džak < đak` (ćirilicom). Oba smera su bila pogrešna:
+`л` stoji PRE `љ` (pa je `lubim < ljubav`), a `ђ` stoji PRE `џ` (pa je `đak < džak`).
+Provera je zbog toga padala iako je redosled u aplikaciji bio ispravan — lažan pad koji
+me je koštao jedne vožnje lanca.
+
+> **Pravilo.** Kontrolni parovi za redosled se NIKAD ne pišu napamet: pre pisanja proveriti
+> redosled direktno nad izvornom azbukom (pogl. 10 gramatike / `RED_AZBUKA`/`RED_ABECEDA`
+> u kodu), a par se bira tako da jedan član pokriva granicu koja se testira (ovde: prelaz
+> l→љ i d→dž/ђ→џ). Zapisnik: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, pogl. 10.4.
+
+## 14.09.2026 — DUGAČKA CRTA U KOMENTARU U `app.js` (moj propust, ponovljen)
+
+**Šta se desilo.** U komentar K-1 ispravke u `app.js` upisao sam dugačku crtu (—) iako je
+projektno pravilo „na sajtovima se dugačka crta ne koristi" (test `crta` je hvata). Vožnja
+je pala samo na tome. Greška je posebno neozbiljna jer sam isti princip dokumentovao u
+AItomation projektu nedelju dana ranije.
+
+> **Pravilo.** Pre commit-a za fajlove iz `public/`: `grep -n "—" <fajl>` mora biti prazan
+> (test `crta` to hvata, ali jeftinije je uhvatiti pre vožnje nego posle). U dokumentaciji
+> (.md) projekat toleriše dugačku crtu po postojećoj konvenciji; u fajlovima sajta nikad.

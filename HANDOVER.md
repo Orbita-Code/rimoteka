@@ -4,6 +4,74 @@
 
 ---
 
+# HANDOFF — sesija 13–14.09.2026 (audit 12.09 + popravke T-1/T-2/K-1/P-1, deploy `2427db10af`)
+
+> Ovo se čita PRVO posle memorije od 10–12.09. Ispod je dnevnik cele sesije; ovde samo ono
+> što sledeća sesija mora da zna.
+
+## 1. Stanje na main-u (produkcija)
+
+- `main = 2427db10af` (merge: moj `0deea3310e` + merge paralelne sesije `7a0f1dae69`).
+  U produkciji su ZAJEDNO: ispravke iz mog audit-kruga (T-1, T-2, K-1, P-1) i rad paralelne
+  sesije (Consent Mode v6 + 21 reč obrisana po naredbi: gdja/ca/pla/sla/tma/pra/ođednom/
+  ođedanput/ođek/ođeka/pođednako + njihovih 15).
+- Poslednji zeleni lanac: **852 + 70 + 0 + 0** (`AUDIT/lanac/20260914-095526`), uz gen
+  1.989 strana. Deploy gate zadovoljen.
+- `app.js?v=f74422f8`, `style.css?v=b805cac7`, preload `reci.txt?v=ab3ac8e8` — sve iz
+  sadržaja (osvezi skripta sa P-1 logikom).
+
+## 2. Šta je ova sesija uradila (i gde stoji)
+
+| Tema | Stanje |
+|---|---|
+| **T-1** (branik za 23 zabranjene reči) | u sekciji 54: red u `reci.txt`, ključ u `definicije.json`, split fajlovi, `matica.json` — pada čim se ijedna vrati. Lista od 23: glada, bica, dionica, koba, peća, radosta, vlasa, zoba, zvera, divita, preveza, priona, progovora, smoka, zasita, šarafa, bubasvaba, deriste, gace, kocija, obarac, spageti, virsla |
+| **T-2** (azbuka) | provera sortira kopiju reda istom `porediAzbuka` i poredi CELE reči + kontrolni parovi sa digrafima. Zapisnik srpske azbuke: gramatika **pogl. 10** (dva redosleda, digrafi kao jedno slovo, zamke za testove) |
+| **K-1** (samorima vlastitih imena) | rezervna+loose petlja: zabrane preko `MALE[i]`; izbacivanje upita diskriminatorom — `WORDS.includes(q)` ? tačan zapis (dvojnik ostaje, Detinjci ✓) : po malom slovu (Oslo ne izlazi sam sebi ✓) |
+| **P-1** (verzije) | `scripts/osvezi-verzije-podataka.mjs` podiže `app.js?v=` i `style.css?v=` iz sha256[:8] sadržaja pri SVAKOJ promeni (i index.html i gen_pages.py); ručno dizanje ukinuto (nalaz P-1 iz audita) |
+| Consent Mode baner u testu | 11 konteksta dobilo `rimoteka_interno=1` u `addInitScript` (baner novog Consent Mode-a prekrivao elemente; `?interno=1` ga gasi — `ga-init.js:22`) |
+| Naslov /slogovi/ | provera otporna na obe varijante („Brojač slogova…") — naslov se menjao dvaput kroz dve sesije |
+| KV sanduče | 24/24 test zapisa obrisano (13.09.); **mejlovi u Gmailu vlasnice ostaju za ručno brisanje** (~24 test mejla) |
+
+## 3. Koordinacija sa paralelnom sesijom (bitno!)
+
+- Dve sesije rade **u istom repou**: njena (Consent Mode, rečnik po naredbama) i moja
+  (audit-popravke). Njena commita: `4e978f793d`, `edff99300d`, merge `7a0f1dae69`.
+- **U radnom stablu je i njena nekmitovana izmena**: `reci.txt` nema red `kla`
+  (HEAD ga ima; oni su ga obrisali, nisu commitovali) — ušlo u moj commit `0deea3310e`.
+  Ako to nije bilo namerno, vratiti: `git show HEAD:public/reci.txt | grep -n "^kla$"`.
+- **Koalicija naslova /slogovi/**: naslov se menja kroz obe sesije — provera je otporna,
+  ali ko god sledeći dira `slog_title`/`slog_desc` u `gen_pages.py` neka ne menja bez
+  usklađivanja sa drugom sesijom.
+- Njihovih 21+15 obrisanih reči NIJE u mom braniku T-1 (mojih 23) — odluka vlasnice:
+  unifikovati listu branika (mojih 23 + njihovih ~36) ili svaka sesija vodi svoju.
+
+## 4. Otvoreno (po prioritetu; pun opis u `AUDIT/2026-09-12-audit.md` i `NALAZI-OTVORENI.md`)
+
+1. **Sinonimi (V2, PRVA STVAR iz TODO)** — 787 parova čeka pregled vlasnice
+   (`AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt`); specifikacija uključuje „sinonim sa
+   proverom rime" (uz svaki sinonim oznaka da li se i on rimuje sa ostatkom pesme).
+2. **K-2 (odluka vlasnice!)** — filter slogova uz rezervnu grupu: „sve" 93, filter „2" 92
+   od kojih 71 reč VAN prikazanog skupa (rezerva se seče na 90 POSLE filtera). Izbor:
+   (a) seći na 90 PRE filtera (strogi podskup) ili (b) dosipanje namerno ostaje.
+3. **Azbučni redosled rima** (najavljeno Draganu): najbolje po važnosti, dobre+ostale
+   azbučno, uz pinovanje prvih 6-12 najčešćih „dobrih" na vrh.
+4. **Muška rima u rangiranju** (obećano Draganu): bez reči same sebi (delom rešeno kroz
+   K-1!), klitike napolje, odjek posebno.
+5. Srednji nalazi iz audita: U-1 (blur na `click`, ne `pointerdown`), U-2 (preventDefault
+   za sav pogodak unutar panela), U-3 (fokus na `.word` pri kliku na kapsulu), SEO-1
+   (`', '.join(all_r)` ili natpis „prvih 60"), B-1 (rate limit sandučeta: CF Rate Limiting
+   ili Durable Object + dedup), A-1 (border-color pri fokusu ≥3:1), M-2 (44 px na 768 px).
+6. **AItomation** (poseban projekat): čeka odluku privatan/javan repo; klijent duguje
+   Cloudflare DNS (2 A zapisa → 88.198.218.69, proxy OFF) i Outlook app lozinku; pa
+   deploy na Coolify (512 MB), GoDaddy DNS, GA4 prvog dana.
+
+## 5. Lekcije (u PROPUSTI.md)
+
+Kill živog servera lanca · verzija app.js ručno (→ P-1 automatika) · kontrolni parovi
+azbuke sa pogrešnim smerom (л<љ, ђ<џ) · dugačka crta u komentaru u public/ (grep pre commit-a).
+
+---
+
 # MEMORIJA SESIJE 10–12.09.2026 (upisano na zahtev vlasnice: „sve što smo pričali i razmišljali")
 
 > Ovo je zapis za sve buduće sesije: šta je urađeno, šta je odlučeno, šta se razmišljalo

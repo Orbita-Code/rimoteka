@@ -17,10 +17,16 @@ Reverifikovano (već zatvoreno ranije, potvrđeno da drži): **A3** (07.09.) —
 
 ### NOVO OTVORENO IZ AUDITA 12.09.2026 (puni opis u `AUDIT/2026-09-12-audit.md`)
 
-**VISOKO:** T-1 (nema branika za 20 obrisanih reči — regeneracija ih tiho vraća; sekcija 53 poredi samo broj ključeva) · T-2 (provera azbuke gleda samo prvo slovo, bez digrafa).
-**SREDNJE:** K-1 (samorima vlastitih imena — rezervna+loose petlja bez `MALE[i]`) · K-2 (filter sa rezervnom grupom: 77 % reči van prikazanog skupa; čeka odluku vlasnice) · U-1 (pointerdown-blur progutava dodir na dugmad dok se kuca) · U-2 (dodir na naslov trake je sklanja i gasi tastaturu, i na iOS-u) · U-3 (mišji klik na padding kapsule → fokus ostaje na `main` posle Escape; A1 za tastaturu ostaje zatvoren) · P-1 (`app.js?v=` se diže ručno — 12.09. promenjeni app.js pod starom verzijom) · SEO-1 („Kopiraj sve rime" kopira samo 60, tvrdnja „ceo spisak") · B-1 (sanduče: burst prolazi ceo, 24 mejla/2,5 min, nema globalnog plafona ni dedup-a; šteta samo u vlasničko sanduče) · A-1 (prsten fokusa na poljima 1,26:1 < 3:1) · M-2 (768 px: navigacija 40, dugmad beležnice 36, nr-more 41, nr-word-btn 38×18).
+**ZATVORENO 14.09.2026 (commit `0deea3310e`, na main-u `2427db10af`):**
+- **T-1** → branik u sekciji 54: 23 zabranjene reči ne smeju biti red u `reci.txt`, ključ u `definicije.json`, ni u jednom split fajlu ni `matica.json`; pada čim se ijedna vrati.
+- **T-2** → provera azbuke sortira kopiju reda funkcijom `porediAzbuka` i poredi CELE reči + kontrolni parovi sa digrafima (`lubim < ljubav < moka`, lat `dž<đ`, ćir `ђ<џ`); zapisnik srpske azbuke: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, pogl. 10.
+- **K-1** → rezervna i loose petlja rade zabrane preko `MALE[i]`; tražena reč se izbacuje diskriminatorom: mali zapis upita izbacuje se tačno (dvojnik velikim slovom ostaje kao rima, Detinjci ✓), a upit koji postoji samo velikim zapisom izbacuje se po malom slovu (Oslo ne izlazi sam sebi ✓).
+- **P-1** → `scripts/osvezi-verzije-podataka.mjs` sada podiže verziju `app.js` i `style.css` IZ SADRŽAJA (sha256[:8]) u `index.html` i `gen_pages.py` pri svakoj promeni; ručno dizanje verzije ukinuto.
+
+**VISOKO:** (nema otvorenih)
+**SREDNJE:** K-2 (filter sa rezervnom grupom: 77 % reči van prikazanog skupa; čeka odluku vlasnice) · U-1 (pointerdown-blur progutava dodir na dugmad dok se kuca) · U-2 (dodir na naslov trake je sklanja i gasi tastaturu, i na iOS-u) · U-3 (mišji klik na padding kapsule → fokus ostaje na `main` posle Escape; A1 za tastaturu ostaje zatvoren) · SEO-1 („Kopiraj sve rime" kopira samo 60, tvrdnja „ceo spisak") · B-1 (sanduče: burst prolazi ceo, 24 mejla/2,5 min, nema globalnog plafona ni dedup-a; šteta samo u vlasničko sanduče) · A-1 (prsten fokusa na poljima 1,26:1 < 3:1) · M-2 (768 px: navigacija 40, dugmad beležnice 36, nr-more 41, nr-word-btn 38×18).
 **NISKO:** A-2 (Escape ne gasi režim kucanja) · A-3 (autofocus zaobilazi skip-link) · P-2 (`frekvencija.json` skida se i bez pretrage) · P-3 (fontovi bez `?v=`) · S-1 (3 lanca definicija ka obrisanim rečima: dionici→dionica, virsle→virsla, zvjera→zvera×2+„plašljivo gleda") · B-2 (`disp(rec)` bez escapeHtml na 7 mesta — hardening) · B-3 (`GET /prijave` bez limita na pogrešan ključ) · B-4 (HSTS bez includeSubDomains/preload) · U-4 (dodir u razmak kapsula → nehotična zamena reči, touch adjustment).
-**Napomena za čišćenje:** adversarijalni agent ostavio ~27 test zapisa u KV sanduču i ~24 mejla u vlasničkom Gmailu — obrisati uz odobrenje (endpoint postoji u `prijave.js`).
+**Napomena za čišćenje:** adversarijalni agent ostavio ~27 test zapisa u KV sanduču i ~24 mejla u vlasničkom Gmailu — obrisati uz odobrenje (endpoint postoji u `prijave.js`). **KV zapisi obrisani 13.09. (24/24); mejlovi u Gmailu ostaju za ručno brisanje.**
 
 ## POPRAVLJENO 10.09.2026 — kursor u beležnici, zalepljena traka rima, rečnik (prijave vlasnice)
 

@@ -612,4 +612,53 @@ Zapisivati svaku ispravku — to je najpouzdaniji izvor u ovom dokumentu.
 
 ---
 
-*Poslednje ažuriranje: 27. jul 2026.*
+## 10. SRPSKA AZBUKA — redosled za sortiranje (zapis za buduće sesije, 13.09.2026)
+
+> Nastalo iz nalaza T-2 (audit 12.09.2026): provera azbuke u testu je gledala samo
+> prvo slovo reči, pa su pogrešni redosledi od drugog znaka i digrafi prolazili
+> neopaženo. Ovde stoji tačno kako srpska azbuka radi, da se ista greška ne ponovi.
+
+### 10.1 Dva pisma, DVA RAZLIČITA redosleda (ne preslikavaju se!)
+
+**Latinica (azbuka), 30 znakova:**
+`a b c č ć d dž đ e f g h i j k l lj m n nj o p r s š t u v z ž`
+
+**Ćirilica (азбука), 30 znakova:**
+`а б в г д ђ е ж з и ј к л љ м н њ о п р с т ћ у ф х ц ч џ ш`
+
+Pažnja: redosledi se NE poklapaju. Latinica prati zapadni obrazac (c, č, ć, d…),
+ćirilica prati istočni (в, г, д, ђ…ц, ч, џ, ш na kraju). Sortiranje se uvek radi
+u pismu prikaza, sa odgovarajućim nizom (`RED_ABECEDA` / `RED_AZBUKA` u `app.js`).
+
+### 10.2 Digrafi su JEDNO SLOVO (i to menja sve)
+
+`lj`, `nj`, `dž` (latinicom) se u azbučnom redu računaju kao **jedan znak**, sa
+svojim mestom u nizu: `…k l **lj** m n **nj** o…` i `…d **dž** đ e…`.
+Posledice za sortiranje:
+
+- `lubim` < `ljubav` — prvo slovo je odlučujuće: `л` (12. mesto) stoji PRE `љ` (13. mesto);
+- `ljubav` < `moka` — `љ` stoji pre `m`;
+- dakle azbučni red je: `lubim` < `ljubav` < `moka`;
+- `duo` < `džak` < `đak` (latinica: d < dž < đ); u ćirilici je obrnuto za đ/dž: `ђ` (5. mesto) PRE `џ` (28. mesto), dakle `đak` < `džak`;
+- Ćirilicom su љ, њ, џ već pojedina slova, pa tamo digrafe ne treba spajati —
+  ali latinica se za poredenje mapira u ćirilicu (`toCyr`), pa `lj→љ`, `nj→њ`, `dž→џ`.
+
+### 10.3 Komparator koji projekat koristi (`porediAzbuka` u `app.js`)
+
+1. obe reči spusti na mala slova i prevede u ćirilicu (latinica: `lj→љ`, `nj→њ`, `dž→џ`);
+2. poredi znak-po-znak po `RED_AZBUKA` (ćirilica) ili `RED_ABECEDA` (latinica);
+3. kraća reč pre duže kad je jedna prefiks druge;
+4. znak van azbuke (broj, apostrof) ide po vrednosti karaktera.
+
+### 10.4 Zamka za testove (lekcija iz T-2)
+
+Provera redosleda „po prvom slovu" NIJE provera azbuke: prolazi i redosled pokvaren
+od drugog znaka, i pogrešno spojeni digrafi („ljubav" tretirana kao „l…"). Ispravno:
+kopiju reda sortirati istom funkcijom `porediAzbuka` i porediti sa prikazanim redom,
+uz kontrolne parove sa digrafima (`lubim` < `ljubav` < `moka`; latinicom
+`duo` < `džak` < `đak`; ћirilicom `лава` < `љубав`, `цела` < `чело` < `џак` < `шала`,
+a `đak` < `džak` jer je `ђ` pre `џ`).
+
+---
+
+*Poslednje ažuriranje: 13. septembar 2026.*

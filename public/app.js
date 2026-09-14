@@ -339,7 +339,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=7ba8c7f2';
+const DEFINICIJE_ADRESA = '/definicije.json?v=bbe1c680';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -406,7 +406,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=9914cf17', true),
+    uzmiTekst('/reci.txt?v=ab3ac8e8', true),
     uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -1395,9 +1395,20 @@ function doRhymes(silent){
     const fk = finalSylKey(q);
     const seen = new Set(strong); seen.add(q);
     const fin = [];
+    /* Izbaciti traženu reč iz ponuda, ALI pravilno: ako upit postoji kao mali zapis u
+       rečniku (npr. „detinjci"), izbacuje se SAMO tačan zapis (detinjci), a dvojnik sa
+       velikim slovom (Detinjci) ostaje kao rima; to očekuje i sekcija 54 (25 parova).
+       Ako upit postoji samo velikim zapisom („Oslo"), izbacuje se po malom slovu, da
+       ne izađe kao rima sam sebi (nalaz K-1, audit 12.09.2026). */
+    const upitImaMaliZapis = WORDS.includes(q);
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w)) || seen.has(w)) continue;
+      /* Zabrane su malim slovima, a zapis u rečniku može biti velikim („Oslo") – zato se
+         zabrane proveravaju preko `MALE[i]` (kao u glavnoj petlji). */
+      const m = MALE[i];
+      if(BLOCKED.has(m) || excluded.has(m) || (kidsMode && isKidsBlocked(m))) continue;
+      if(upitImaMaliZapis ? (w === q) : (m === q)) continue;
+      if(seen.has(w)) continue;
       if(finalSylKey(w)===fk) fin.push(w);
     }
     fin.sort((a,b)=>{
@@ -1451,9 +1462,16 @@ function doRhymes(silent){
     const seen = new Set(strong);
     finalExtra.forEach(w=>seen.add(w));
     const wide = [];
+    /* Isti diskriminator kao u rezervnoj petlji iznad: mali zapis upita izbacuje se
+       tačno, dvojnik sa velikim slovom ostaje; upit koji postoji samo velikim zapisom
+       izbacuje se po malom slovu (ne izlazi kao rima sam sebi). */
+    const upitImaMaliZapisL = WORDS.includes(q);
     for(let i=0;i<limit;i++){
       const w = WORDS[i];
-      if(BLOCKED.has(w) || excluded.has(w) || (kidsMode && isKidsBlocked(w)) || w===q || seen.has(w)) continue;
+      const m = MALE[i];
+      if(BLOCKED.has(m) || excluded.has(m) || (kidsMode && isKidsBlocked(m))) continue;
+      if(upitImaMaliZapisL ? (w === q) : (m === q)) continue;
+      if(seen.has(w)) continue;
       if(looseKey(w)===lk) wide.push(w);
     }
     /* Isti redosled merila kao kod čistih rima (CLAUDE.md, 6.2a): PRVO blizina

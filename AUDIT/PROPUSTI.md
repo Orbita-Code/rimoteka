@@ -1585,3 +1585,18 @@ deploy-a.
 > sadržaja — isti sha256 obrazac kao za podatke (`?v=sha256[:8]`), u istoj skripti koja već prepisuje
 > haševe, korak pre deploy-a; ručno dizanje verzije „kad se setimo" je zabranjeno. Posle skripte,
 > `git diff public/index.html build/gen_pages.py` mora biti prazan samo ako se `app.js` nije menjao.
+
+## 14.09.2026 — UBIO SAM ŽIVI SERVER LANCA USRED VOŽNJE (moj propust)
+
+**Šta se desilo.** Pokrenut `bash test/lanac.sh` (00:50:19); njegov interni statički server na
+portu 8799 startovao 00:51:42 (PID 94787). Ja sam u međuvremenu, tražeći uzrok pada dva alata
+(EADDRINUSE na 8799), procenio da je 94787 „zaostali sirota" i ubio ga (`kill`) — a to je bio
+ŽIVI server samog lanca. Posledica: `predeploy` pao na `ERR_CONNECTION_REFUSED` usred vožnje,
+i lanac je prijavio NE DEPLOYUJ iako su svi testovi do tada prolazili.
+
+> **Pravilo.** Pre ubijanja procesa koji servira projekat, obavezno: (1) uporediti vreme starta
+> procesa sa vremenom starta aktivnih zadataka (`ps -o pid,lstart,command` + TaskList), (2) ako se
+> vremena poklapaju sa bilo kojim aktivnim lancom/testom — proces je DEO tog zadatka i ne dira se,
+> (3) uzrok zauzetog porta tražiti u padu ALATA (koji je proces prvi zauzeo port), ne u procesu koji
+> port drži. Ubijanje se sme samo za procese starije od svih aktivnih zadataka ili sa dokazom da su
+> siroci (roditelj mrtav).

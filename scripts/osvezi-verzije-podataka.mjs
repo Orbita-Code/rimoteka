@@ -76,6 +76,22 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     const posle = pre.replace(/(href="\/reci\.txt\?v=)([0-9a-f]+)(" crossorigin>)/g, (_, a, staro, b) => { if (staro !== hReci) { console.log(`  preload u ${path.basename(f)}  ${staro} → ${hReci}`); promena++; } return a + hReci + b; });
     if (posle !== pre) writeFileSync(f, posle);
   }
+  /* Verzija SAMOG app.js i style.css (nalaz P-1, audit 12.09.2026): adrese se dižu iz
+     otiska sadržaja, isto kao za podatke — nema ručnog dizanja verzije „kad se setimo".
+     Bez ovoga je promena podataka izašla pod starom adresom app.js, pa su povratnici
+     do 7 dana imali stari rečnik (max-age=604800 + SW stale-while-revalidate).
+     Heš app.js se računa POSLE prepisa podataka iznad, pa obuhvata i njih. */
+  for (const [ime, heš] of [
+    ['app.js', createHash('sha256').update(readFileSync(APP)).digest('hex').slice(0, 8)],
+    ['style.css', otisak(ROOT, 'style.css')],
+  ]) {
+    for (const f of [path.join(ROOT, 'public', 'index.html'), path.join(ROOT, 'build', 'gen_pages.py')]) {
+      const pre = readFileSync(f, 'utf8');
+      const re = new RegExp(`(\\/?${ime.replace('.', '\\.')}\\?v=)([^'"\`)\\s]+)`, 'g');
+      const posle = pre.replace(re, (_, glava, staro) => { if (staro !== heš) { console.log(`  ${ime} u ${path.basename(f)}  ${staro} → ${heš}`); promena++; } return glava + heš; });
+      if (posle !== pre) writeFileSync(f, posle);
+    }
+  }
   console.log(promena ? `\nOsveženo verzija: ${promena}` : '\nSve verzije su već usklađene.');
   if (promena) console.log('Posle promene rečnika pusti i: python3 build/gen_pages.py (preload na generisanim stranama)');
 }

@@ -406,8 +406,8 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=ab3ac8e8', true),
-    uzmiTekst('/reci_jekavica.txt?v=f4d9466d', false)
+    uzmiTekst('/reci.txt?v=c8784bf5', true),
+    uzmiTekst('/reci_jekavica.txt?v=e88c5a8a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,

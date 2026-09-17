@@ -161,7 +161,7 @@ Napomena: Matica ima „тма" (ж, в. тама; „тма људи") – obri
 |---|---|---|
 | pra | Matica ima samo „пра-" kao prefiks | OBRISANO 12.09. po naredbi |
 | ma | Matica ima „ма" kao rečcu | ZADRŽANO (odluka vlasnice 13.09.) |
-| djed | ijekavski oblik | ZADRŽANO (odluka vlasnice 13.09.) |
+| djed | ijekavski oblik | PREMEŠTEN u reci_jekavica.txt 17.09. (odluka vlasnice: samo uz ijekavicu) |
 | ođednom, ođedanput, ođek, ođeka, pođednako | obrnuta greška (od+jednom, od+jek, pod+jednako) | OBRISANO 12.09. po naredbi |
 | djedica, djevica, zdjela, dječarac, pradjed, svagdje, usidjelica, ludjeti, štedjeti, izvidjeti, izblijedjeli (44 reči) | ijekavski oblici u reci.txt – po pravilu ijekavica ULAZI | zadržati |
 | adjektiv, nenadjačan, vindjakna | legitimno „dj" (ad+jektiv, nad+jačan, vindjakna od Windjacke) | zadržati |

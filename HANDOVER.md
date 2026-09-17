@@ -4,6 +4,70 @@
 
 ---
 
+# HANDOFF — sesija 12–17.09.2026 (paralelna: Gmail + analitika + Consent Mode + rečnik)
+
+> Čita se posle handoffa 13–14.09. Sve sa brojevima je iz Search Console ili iz izveštaja agenata u
+> `AUDIT/analitika/2026-09-12.md` (upiti i strane) i `AUDIT/analitika/2026-09-12-kljucne-reci.md` (ključne reči i konkurenti).
+
+## 1. Šta je objavljeno (merge `7a0f1dae69`, 12.09.; kasnije ušlo u `2427db10af`)
+
+| Šta | Detalj |
+|---|---|
+| **Napredni Consent Mode** | `public/ga-init.js` v6: gtag se učitava uvek, `consent default` sve „denied", posle „Prihvati sve" `update → granted`. Test 47 i S-16 prepisani. Razlog: od 06.09. Analytics je brojao samo one koji kliknu, pa su „aktivni korisnici" padali dok je poseta po GSC rasla. |
+| **Rečnik** | 21 reč obrisana po naredbi vlasnice (gdja, ca, pla, sla, tma, pra; dj-duplikati anđela/đavo/rođena/sunđer/zarađuješ/đumbiri; pogrešni đ-oblici ođednom/ođedanput/ođek/ođeka/pođednako). |
+| **GSC** | Request indexing za `/` i `/rimovanje-reci/` (12.09.) – Google je u rezultatima još prikazivao naslov sa dugačkom crtom. |
+
+## 2. Šta stoji NEOBJAVLJENO (ovaj commit, čeka „da" za push)
+
+- `kla` obrisano (definicija je pominjala KLA – naredba vlasnice 13.09.).
+- `djed` premešten iz `reci.txt` u `reci_jekavica.txt` – pojavljuje se samo uz ijekavicu (odluka 17.09.). `ma` ostaje.
+- Verzije rečnika i preload regenerisani.
+
+## 3. Rezultati (Search Console, 28 dana do 09.09.)
+
+| Merilo | Vrednost | Šta znači |
+|---|---|---|
+| Klikovi iz Googla | **1.970** za 28 dana; 07–09.09: 91 → 118 → 140/dan (najviše ikad), posle vrh nije održan, nivo ~63/dan | pravi rast je spor: 55 → 87 klikova/dan za mesec |
+| Prikazi | 47.400; 09.09: 3.800 u danu | Google nas pokazuje 3× češće nego pre mesec dana (početak škole) |
+| CTR | 4,2 % (09.09: 3,7 %) | za mesto 6 normalno; novi prikazi dolaze na mestima 6–9 i ne donose klik |
+| Prosečno mesto | 6,0 | **9 od 10 najjačih upita je na 2,5–3,3**; prosek vuku 325 upita u pojasu 8–20 (1.545 prikaza, 2 klika) |
+| Indeksiranost | **15.531 indeksirano, 5.193 ne** (12.09.) | u julu 124 indeksiranih – pravilo „ne dodavati strane" više ne stoji na starim brojkama |
+| Analytics | od 06.09. do 12.09. brojao samo one koji prihvate baner | pad u GA u tom periodu NIJE pad posete |
+
+## 4. Šta je agent analitike NAŠAO
+
+1. **Tri promene naslova iz audita 08.09. nikad nisu objavljene** – merenje 22.09. nema šta da meri.
+2. Za upite `rimovanje*` **početna i `/rimovanje-reci/` stoje obe u rezultatima**; niska CTR početne (2,3 %) je posledica toga što je drugi rezultat, ne naslova.
+3. Naslov jeste kriv kod upita `rime` (795 prikaza, 8 klikova, mesto 4,8) i `sta se rimuje sa` (208 prikaza, 3 klika) – početna počinje sa „Rečnik rima".
+4. `/slogovi/`: 1.847 prikaza, 12 klikova, naslov 65 znakova (Google seče). `/vrste-rima/`: 1.164 prikaza, 20 klikova.
+5. `/rime-za/<reč>/` (577 strana sa prikazima): CTR 1,7 %. `/rime-za-rep/`: 410 prikaza na tuđim upitima, nula klikova.
+6. **Ne dirati:** `/rimovanje-reci/` (1.161 klik, CTR 9,6 %, raste), ijekavicu (874 prikaza, 58 klikova, „riječi koje se rimuju" CTR 35,9 %), brend (6,6 %), pojas 8–20, robots.txt.
+
+## 5. Šta je agent za ključne reči NAŠAO (3.678 Googleovih predloga + 5 konkurenata)
+
+- **Najveća rupa:** od 47 najtraženijih reči iza „šta se rimuje sa" **20 nema stranu** (tebe, mene, ja, sam, ti, ona, nije, znam, ima, volim, da, ne, kad, kao, treba, tiho, mala, moja, dana, ljude) – generator ih namerno preskače. Od 344 reči iz predloga stranu ima 146 (42 %).
+- **Imena:** ana, ivan, luka, petra, filip, jana, ema, marija, andrea, andrej – 12 od 12 u rečniku, 0 strana.
+- **Ijekavica:** 1.004 prikaza, 46 klikova, a reč „riječ" se ne pojavljuje na 4 glavne strane.
+- Fraze bez naslova: „reči koje se rimuju" (517 prikaza), „kako napisati rep" (2 predloga), „online" (21 predlog), „za pesnike/repere/tekstopisce" (AZRhymes ima u h1).
+- Konkurenti (rimovanje.com, sr.azrhymes.com, rime.com.hr, rhymebook): niko nema značenje uz rimu, dečji režim ni beležnicu; oni imaju „online", „generator", zanimanja i broj rima u naslovu.
+
+## 6. Šta treba PROMENITI (preporuke, po važnosti) – ništa od ovoga još nije urađeno
+
+1. Prva rečenica i opis početne i `/rimovanje-reci/` da „prodaju" (šta dobijaš), pa tek onda koraci uputstva – Google za snippet uzima numerisane korake „1. Upiši reč…" umesto opisa. **Pokušaj 14.09. vlasnica ODBILA** („Vrste rima i rime", „besplatno i online" = nabijanje ključnih reči). Sledeći put: 2–3 rečenice njenim tonom U RAZGOVORU, bez diranja koda, dok ne kaže „ova".
+2. Naslov `/slogovi/` skratiti ispod 60 (sad 65). Naslov početne da nosi „šta se rimuje sa" (a zadrži „rečnik rima" – test 42b).
+3. `/vrste-rima/`: oba oblika (rima/rime) u tekstu, ne u naslovu.
+4. Interni linkovi sa tekstom = ključna reč (spisak u `2026-09-12-kljucne-reci.md` §D2) – u TEKST strana, ne u traku ni futer.
+5. Kad se odluči o novim stranama: 20 zamenica + 12 imena kroz spisak `TRAZENE_RECI` u `gen_pages.py`; 301 `/rime-za-rodjendan/`; ne praviti strane za svadbu/novu godinu (Google nema predloge).
+6. Merenje: GSC 22.09. (efekat objave 12.09.), Analytics posle 14.09. prikazuje procenjeni deo („modeled") – uporediti sa GSC.
+
+## 7. Ostalo iz sesije
+
+- Nacrt odgovora Draganu Milićeviću (prijave: azbučni poredak, muška rima, prozorče, kapsule) stoji u Gmail Drafts od eureka@rimoteka.com – **vlasnica šalje**. Njegova zamisao „najbolje rime gore, ostalo azbučno" je obećana u mejlu → TODO.
+- Gmail: 21 folder + filteri, ~7.000 poruka u Kanti; alati u `~/.claude-pw-tools/gmail/`.
+- Propust upisan u `AUDIT/PROPUSTI.md` (12.09.): baner bez naprednog Consent Mode-a.
+
+---
+
 # HANDOFF — sesija 13–14.09.2026 (audit 12.09 + popravke T-1/T-2/K-1/P-1, deploy `2427db10af`)
 
 > Ovo se čita PRVO posle memorije od 10–12.09. Ispod je dnevnik cele sesije; ovde samo ono

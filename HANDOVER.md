@@ -6,6 +6,22 @@
 
 # HANDOFF — sesija 12–17.09.2026 (paralelna: Gmail + analitika + Consent Mode + rečnik)
 
+## 0. ČEKLISTA ZA SESIJU KOJA NASTAVLJA (18.09.2026) – šta stoji otvoreno
+
+| # | Šta | Stanje | Šta treba |
+|---|---|---|---|
+| 1 | Commit `c5783de361` (kla obrisano, djed → `reci_jekavica.txt`, verzije, regenerisane strane, ovaj handoff) | na grani `fix/audit-0709-drugi-krug`, **nije puširan** | pun lanac (`bash test/lanac.sh`), pa push + merge u main **tek uz „da" vlasnice** |
+| 2 | Sporne reči | SVE REŠENO: kla/pra/ođednom… obrisano, ma ostaje, djed samo ijekavica (`TODO-RECNIK.md` „Sporno") | ništa |
+| 3 | SEO tekstovi (korak 1a plana ključnih reči) | vlasnica ODBILA 14.09. moje verzije, kod vraćen | pisati 2–3 rečenice NJENIM tonom u razgovoru, bez diranja koda, dok ne kaže „ova"; tek onda kod |
+| 4 | Nacrt mejla Draganu Milićeviću | u Gmail Drafts (od eureka@rimoteka.com) | vlasnica šalje; njegova zamisao „najbolje rime gore, ostalo azbučno" je obećana → ubaciti u TODO |
+| 5 | Consent Mode | objavljen 12.09. | posle 14.09. proveriti u Analyticsu da postoji procenjeni deo („modeled") i uporediti sa GSC |
+| 6 | GSC | request indexing za `/` i `/rimovanje-reci/` urađen 12.09.; 15.531 indeksirano | merenje efekta 22.09. (polazni brojevi u `AUDIT/analitika/2026-09-12.md`) |
+| 7 | Plan ključnih reči | `AUDIT/analitika/2026-09-12-kljucne-reci.md` §D (naslovi, 15 internih linkova, nove strane) | redosled u odeljku 6 ispod |
+
+**Zamke za ovu granu:** `build/edit_words.py` radi `git reset --mixed origin/main` + commit + **push na main bez pitanja** – NE koristiti;
+brisati reči ručno (reci.txt + definicije.json), pa `podeli_definicije.py`, `osvezi-verzije-podataka.mjs`, `gen_pages.py`.
+Dve sesije rade u ISTOM radnom stablu: commitovati samo svoje putanje (`git commit -- <putanje>`), nikad `git add -A`.
+
 > Čita se posle handoffa 13–14.09. Sve sa brojevima je iz Search Console ili iz izveštaja agenata u
 > `AUDIT/analitika/2026-09-12.md` (upiti i strane) i `AUDIT/analitika/2026-09-12-kljucne-reci.md` (ključne reči i konkurenti).
 

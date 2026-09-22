@@ -6,6 +6,35 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## STANJE NA DAN 22.09.2026 — pun audit (`AUDIT/2026-09-22-audit.md`, ocena 6,9/10, 12/12 dimenzija)
+
+> Ovo je jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u odeljak
+> „POPRAVLJENO <datum>" (šta je bilo → šta je sada → koja provera to čuva). Podsetnik na početku sesije
+> (`scripts/podsetnik-audit.sh`) broji redove ispod i ispisuje prvih pet po važnosti.
+
+**KRITIČNO:** (nema)
+
+**VISOKO (9, viđeno 22.09.):**
+- **G-1** igra pokrenuta pre nego što rečnik stigne ostaje na „…" zauvek, keš rima zatrovan pa ni „Reč dana" ne radi do F5 (`app.js:5008, 1735, 5196, 5137`; spora veza: prozor 3,8 s na `/igra-rimovanja/`)
+- **UI-1** beležnica gubi razmak pri Enter na granici reči + Backspace („nova jemuka"), sačuva se, ide u link/fajl (`style.css:928` nema `white-space:pre-wrap`; naš Enter ubacuje `<br>`)
+- **C-1** rimovana pesma: Enter + pauza ≥500 ms guta prazan red, slovo se lepi na prethodni stih, Backspace briše tuđe slovo (`app.js:2355–2370`, `3489–3512` `setCaretAtTextPos` bez `cursor-br`); Chromium i WebKit
+- **SJ-1** 75 ijekavskih reči u OBA rečnika → dupla kapsula sa ijekavicom, ijekavski oblik izlazi i bez ijekavice i na `/rime-za/zvezda/`; `djedov*` ostali u `reci.txt` (`app.js:419` bez dedup)
+- **BZ-1** `nginx.conf:53,79` `Permissions-Policy: microphone=()` → glas u igri (🎤) mrtav od 08.09. u Chrome/Edge; **zaseban deploy** + `nginx-provera.sh`
+- **PF-2** CLS 0,70 (5/5) na sporoj vezi kad rime stignu posle Entera i gurnu SEO tekst (`app.js:1302–1311`); uticaj na Google neproveren (nema CrUX)
+- **TP-1** test ne normalizuje NBSP u beležnici (`predeploy.mjs:4655`) — pad lanca 22.09. + UI-1/C-3 nevidljivi
+- **TP-2** test nema stanje „rečnik još nije stigao" za igru/pretragu (`:1624–1640`) — G-1/G-3 nevidljivi
+- **TP-3** test nikad ne radi F5 posle „obriši pesmu", sa pesmom + panel, usred partije na statičkoj — UI-2/3/4 nevidljivi
+
+**SREDNJE (23 + 8 od ranije):** G-2 (status pretrage zastareo) · G-3 (pretraga pre rečnika se gubi) · UI-2 („obriši pesmu" se vrati posle F5 — istorija) · UI-3 (posle F5 panel rima „Nema pronađenih" do klika) · L-1 (kockica bez dečjeg filtera i zabrana: nasilje, ubistvo, genocid u bazenu) · KS-1 (prvi dodir na Ћирилица na telefonu otvori uputstvo 582 px i sakrije polje i tabove) · MB-1/KS-2 (posle „Počni igru" tajmer iznad kadra na 390×664 Safari i 360×640 Android) · MB-2 (reč u traci beležnice 42×18 px, 10,9 px) · C-2 (prebacivanje pisma sa kursorom na praznom redu skoči u sledeći stih) · PR-1 (dijalog prijave `aria-modal` bez zamke fokusa i dugmeta Zatvori) · PR-3 (oblačić bez `aria-live`, kontrast 2,76/2,18) · PR-4 (igra nema za čitač: reč/tajmer/poruka bez `aria-live`, polje bez etikete, bez pauze, niz 2,11:1) · PF-1 (prva rima na sporoj 7,1 s, granica 5) · PF-3 (`app.js` neminifikovan 105 KB gzip → 44,5) · PF-4 (INP 448 ms; frekvencija blokira 1,1 s posle prikaza) · PF-5 (`app.js` bez `defer`, FCP 2,54 s spora) · SJ-2/3/4 (ASCII zatvoreni navodnik: 2 HTML, 5 poruka, 283 objašnjenja) · SJ-5 (12.435 „Oblik reči X" ka nepostojećoj osnovi) · SJ-6 (također, kruhova, „obitelj" — odluka) · SJ-7 (15.314 objašnjenja završava samom reči) · TP-4 (kockica/BLOCKED bez provere) · TP-5 (BLOCKED JS 38 vs Python ~50; `count_syl`≠`countSyl` bez poređenja) · TP-6/7/8 (kanonikal posle JS; click 197 vs Enter 8; stanja koja test ne uspostavi)
+Od ranije: K-2 (odluka vlasnice) · U-1 · U-2 · U-3 · SEO-1 · B-1 · A-1 · M-2
+
+**NISKO (37 + 9 od ranije):** G-4 · UI-4 (partija posle F5 na statičkoj pauzirana do prve tačne rime) · UI-5..8 · L-2 (BLOCKED bez kvačica: smeće, đubre) · L-3 (zarđati 3 sloga, žanr 2) · L-4 · L-5 · C-3 (NBSP u izvozima) · SEO-2 (sirovi kanonikal `?rec=` — meriti 14 dana, NE 301) · SEO-3..8 · PR-2 (≤560 px kartica tastaturom ne, click da) · PR-2b (600 px Enter zatvori karticu, fokus na body) · PR-5..7 · PF-6 (logo WebP — odluka) · PF-7 · BZ-2..5 · MB-3 (resize TypeError na stranama bez brojača) · MB-4..7 · SJ-8..13 · TP-9..11
+Od ranije: A-2 · A-3 · P-2 · P-3 · S-1 · B-2 · B-3 · B-4 · U-4
+
+**ČEKA ODLUKU VLASNICE:** K-2 · sporne reči (75 dupli, `djedov*` 5, 131 kraćih od 3 slova, 48 skraćenica bez samoglasnika, ~12 šum sa „r", 2.443 ćelave — uzorak 5/13 nema u Matici, prezimena malim slovom) · PF-6 logo · PF-7 · SJ-6 · S6 · N-18
+
+**Zatvoreno ovim auditom (bez popravke, izmereno da ne važi):** „1.739 predugih naslova" (max 65, 0 preko 70, 0 duplih) · A6 (logo 56 KB) potvrđeno · A1 (traka tastaturom) drži · A-3, A-1 drže.
+
 ## POPRAVLJENO 12.09.2026 — zatvaranja iz punog audita (`AUDIT/2026-09-12-audit.md`, ocena 8,3/10)
 
 | Nalaz | Zašto se zatvara | Provera |

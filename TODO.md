@@ -10,8 +10,10 @@
 ## PRVA STVAR: sinonimi (prioritet vlasnice, 12.09.2026)
 
 Prva stvar koja se rešava. Nalaz **V2** (otvoren od audita): sinonimi su sada kurirani
-(54 odobrenih već na sajtu), ali **787 parova čeka pregled** u
-`AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt`. Vlasnica pregleda sama — pravilo: sinonim
+(54 odobrenih već na sajtu), ali **905 reči čeka pregled** u
+`AUDIT/sinonimi/03-RED-ZA-PREGLED.txt` (19 grupa po 50; stanje i postupak: `AUDIT/sinonimi/00-STANJE.md`).
+**Od 17.09. se pregleda U SESIJI, grupa po grupa**: Claude predloži ≤5 po reči, vlasnica komentariše,
+ćutanje = odobreno; nije više „vlasnica pregleda sama kroz fajl". Pravilo: sinonim
 smije samo ono što pesnik STVARNO može da zameni u stihu bez da promeni smisao;
 mašinski sinonimi koji se ne rimuju sa ostatkom pesme su gori nego da ih nema
 (prijava Dragana M. ranije: sinonimi NE smeju u panel uz stih ako se ne rimuju).
@@ -95,7 +97,7 @@ redosled promenio, na pregled vlasnici.
 - **N-18** 38 zareza ispred „pa" (kućno pravilo; Pravopis dozvoljava).
 - **Politika `?rec=`** (15.500 indeksiranih dinamičkih adresa guše 1.991 statičkih) — posle brojeva iz GSC.
 - **S6** jedan red rima u beležnici na telefonu (nameran; 3 od 16 vidljivo).
-- **V2 sinonimi** — vlasnica SAMA pregleda `AUDIT/sinonimi/SINONIMI-ZA-PREGLED.txt` (deo A = 54 na sajtu, deo B = 787); kad kaže „pregledano“ → skripta koja čita fajl.
+- **V2 sinonimi** — pregled u sesiji, grupa po grupa iz `AUDIT/sinonimi/03-RED-ZA-PREGLED.txt` (905 reči); stanje u `AUDIT/sinonimi/00-STANJE.md`.
 - **Ostatak zamene strana** (60 + 60) posle probe 15→19 i GSC 22.09.
 - **Futer na telefonu kraći** samo ako se prikazuje manje reči (odluka o sadržaju).
 - **Reč dana** – njen utisak; sledeći korak broj igrača dana (worker).

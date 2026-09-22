@@ -1,3 +1,25 @@
+# HANDOFF — sesija 17–22.09.2026 (sinonimi sređeni, pun audit 22.09., agenti mobilni/tablet/podsetnik)
+
+> Čita se PRVO. Izvor istine za nalaze: `AUDIT/NALAZI-OTVORENI.md` (odeljak „STANJE NA DAN 22.09.2026").
+> Pun izveštaj: `AUDIT/2026-09-22-audit.md` (ocena **6,9/10**, 12/12 dimenzija, 12/12 adversarijalnih provera).
+
+## 1. Šta je urađeno
+- **Sinonimi:** 9 fajlova → 3 živa u `AUDIT/sinonimi/` (`00-STANJE.md`, `02-ODLUKE.md`, `03-RED-ZA-PREGLED.txt`, 905 reči u 19 grupa); 125 reči iz predloga od 20.08. vraćeno u red (bile izgubljene — PROPUSTI 17.09.). Pregled ide **u sesiji, grupa po grupa** (≤5 sinonima po reči, ćutanje = odobreno). Grupa 1 predložena vlasnici 17.09., čeka njen odgovor (i „prvi": Ćosić daje vodeći, čelni).
+- **Pun audit 22.09.:** 9 visokih, 23 srednja, 37 niskih; NIŠTA nije popravljeno u kodu — audit je samo izmerio. Redosled posla u izveštaju, odeljak „REDOSLED POSLA".
+- **Novi agenti:** `.claude/agents/mobilni.md` (telefon), `tablet.md`, `podsetnik.md` (zaostatak iz audita). **SessionStart hook** `scripts/podsetnik-audit.sh` ispisuje otvorene nalaze na početku svake sesije (zahtev vlasnice 22.09.).
+- **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
+- **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
+
+## 2. Šta sledeća sesija radi PRVO
+1. Krug popravki po redosledu iz audita: C-1 + UI-1 + C-3 + C-2 (beležnica) → G-1 + G-3 + G-2 (red čekanja za rečnik) → UI-2 + UI-3 → SJ-1 (75 reči, odluka za `djedov*`) → L-1 + L-2 → **BZ-1 u zaseban deploy** (`microphone=(self)`, `nginx-provera.sh`). Za svaki: provera u testu prvo pada na produkciji.
+2. Sinonimi grupa 1 → čeka vlasnicu; kad odgovori: upis u `sinonimi.json`, `02-ODLUKE.md`, brisanje grupe iz reda.
+3. Analitika 14 dana od 12.09. (26.09.): `?rec=` grupa, CWV u GSC (PF-2 uticaj), indeksiranost.
+
+## 3. Lekcije (u PROPUSTI.md 22.09.)
+Lažni API u testu sakrio mrtvu funkciju (BZ-1) · test proverava radnje a ne stanja (10 bagova) · performansni broj bez metode (6,2 s).
+
+---
+
 # Handover — Rimoteka
 
 > Najnovije je na vrhu. Ispod stoje handoveri prethodnih sesija.

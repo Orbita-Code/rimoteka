@@ -37,5 +37,17 @@
       "Bash(pkill -f \"http.server\")",
       "Bash(node test/static-server.mjs:*)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/podsetnik-audit.sh"
+          }
+        ]
+      }
+    ]
   }
 }

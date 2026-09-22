@@ -1624,3 +1624,55 @@ AItomation projektu nedelju dana ranije.
 > **Pravilo.** Pre commit-a za fajlove iz `public/`: `grep -n "—" <fajl>` mora biti prazan
 > (test `crta` to hvata, ali jeftinije je uhvatiti pre vožnje nego posle). U dokumentaciji
 > (.md) projekat toleriše dugačku crtu po postojećoj konvenciji; u fajlovima sajta nikad.
+
+## 17.09.2026 — 125 REČI IZ PREDLOGA OD 20.08. ISPALO IZ SPISKA ZA PREGLED (propust sesije 08.09., otkriven 17.09.)
+
+**Šta se desilo:** spisak `SINONIMI-ZA-PREGLED.txt` (08.09.) spojen je iz Vikirečnika i Ćosića (812 reči), a predlozi iz
+Matice od 20.08. (`sinonimi-predlog-serija-1.md` i `-2.md`, 276 reči) ušli su samo kroz 52 već odobrene. Ostale 224
+niko nije preneo: 99 su se slučajno poklopile sa Vikirečnikom, **125 (duša, noć, kiša, bol, mir, kuća, oči…) nisu bile
+nigde** – baš pesničke reči za koje je spisak i pravljen. Isti obrazac kao 29.08. (izgubljene 52 rešene reči), treći put.
+
+**Zašto:** svaki nov spisak je pravljen od NOVOG izvora, a stari fajlovi su ostajali pored njega kao „istorija" – niko ih
+nije programski poredio sa novim. Devet fajlova o istom poslu, a nijedan ne kaže šta je gde. Vlasnica: „ne mogu da
+pohvatam šta treba da se pregleda, šta je pregledano, šta je na sajtu".
+
+**Pravilo (prepisuje ono od 09.09. jer nije bilo dovoljno):** za jedan posao postoji **JEDAN red za pregled** i
+**JEDAN dnevnik odluka**. Nov izvor se **spaja u postojeći red skriptom** koja na kraju ispiše: koliko reči iz svakog starog
+fajla je u novom redu, a koliko nije – i taj broj mora biti 0 pre nego što se stari fajl arhivira. Fajl koji „ostaje za
+istoriju" ide u `arhiva/`, ne pored živih. Ovde: `AUDIT/sinonimi/00-STANJE.md`, `02-ODLUKE.md`, `03-RED-ZA-PREGLED.txt`.
+
+## 22.09.2026 — GLAS U IGRI OBJAVLJEN MRTAV: TEST JE ZAMENIO PRAVI MIKROFON LAŽNIM (propust 08.09., otkriven auditom)
+
+**Šta se desilo:** `nginx.conf` od 28.05. šalje `Permissions-Policy: microphone=()`. Glas u igri (🎤) uveden je
+08.09. i od tog dana u Chrome/Edge ne radi — pregledač ni ne pita za dozvolu, odmah „Mikrofon nije dozvoljen".
+Test `igra-kao-covek.mjs:42` je `SpeechRecognition` zamenio lažnom klasom koja odmah vrati rezultat, pa je
+„glas radi" bilo zeleno dve nedelje. Nijedna provera nije čitala zaglavlje ni zvala pravi API.
+
+**Pravilo:** kad se uvodi funkcija koja zavisi od DOZVOLE pregledača (mikrofon, kamera, lokacija, obaveštenja,
+međuspremnik), u test ide (1) provera zaglavlja `Permissions-Policy` za tu funkciju i (2)
+`document.featurePolicy.allowsFeature('<funkcija>') === true` u strani. Lažna klasa u testu sme da postoji samo
+uz komentar „NE dokazuje da pravi uređaj radi — to pokriva provera X". Pre objave nove funkcije: `grep -n
+'<funkcija>' nginx.conf`.
+
+## 22.09.2026 — DESET BAGOVA KOJE TEST NIJE MOGAO DA VIDI: SVI ŽIVE U STANJIMA KOJA TEST NIKAD NE USPOSTAVI
+
+**Šta se desilo:** pun test prolazi 829/830, a audit je našao G-1, G-3 (pre rečnika), UI-1, C-1, C-3 (Enter +
+Backspace/pauza u rimovanoj pesmi), UI-2, UI-3, UI-4 (F5 posle radnje), L-1, L-2 (kockica u dečjem režimu;
+zabranjene reči naspram rečnika). Zajednički imenitelj: test proverava RADNJE, ne STANJA U KOJIMA se radnje
+dešavaju. „Rečnik još nije stigao" postoji samo za poruku pretrage; F5 se radi 12 puta ali nikad posle brisanja
+ili usred partije; kursor se postavlja Range API-jem na prvi čvor, nikad pauzom od pola sekunde.
+
+**Pravilo:** svaka sekcija testa koja proverava radnju dobija i **tri stanja**: (a) pre nego što podaci stignu
+(`route` sa zadrškom), (b) posle F5 usred radnje, (c) posle pauze duže od svakog tajmera u kodu (`grep -n
+setTimeout public/app.js` — najduži + 200 ms). Provera koja ne padne ni u jednom od tri stanja na starom kodu ne
+dokazuje ništa (protokol H4).
+
+## 22.09.2026 — BROJ IZ AUDITA BEZ METODE: „6,2 s" OD 12.09. NIJE MOGLO DA SE UPOREDI
+
+**Šta se desilo:** izveštaj 12.09. beleži „prva rima na sporoj 6,2 s" — bez skripte, bez raspona, bez opisa kako
+je mereno. Danas je prvi revizor izmerio 10,1 s (`waitForFunction` po tekstu + `Date.now()`), adversarijalni 7,1 s
+(posmatrač DOM-a, 5 prolaza). Razlika je u metodi, ne u sajtu; „pogoršanje" nije moglo ni da se potvrdi ni da se
+odbaci.
+
+**Pravilo:** uz svaki performansni broj u izveštaju ide **ime skripte, broj prolaza, medijana i raspon**. Broj bez
+tog četvorstva se ne upisuje. Skripte za merenje žive u `test/` (`meri-*.mjs`), ne u scratchpadu sesije.

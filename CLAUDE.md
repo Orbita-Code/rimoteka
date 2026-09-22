@@ -489,6 +489,13 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
     usred partije na statičkoj strani, tajmer u kadru posle Starta na 390×664; kockica u dečjem režimu (usmerena na zabranjenu
     reč); 75 ijekavskih reči nisu u oba rečnika; `Permissions-Policy` dozvoljava mikrofon; 404 bez Google fontova.
 
+22. **Srednji i niski nalazi 22.09.** (sekcija 58, 30 provera): robots/SW/HSTS/301; BLOCKED isti u alatu i generatoru; slogovi i
+    ključ rime isti za 2.008 reči (`count_syl` = `countSyl`); kanonikal `?rec=` sirovi vs JS; logo vraća kanonikal; zabranjene reči sa
+    kvačicama; „Beograd" u statusu; filter slogova podskup; `&slog=` u adresi taba; aria-pressed/lang/oblačić; prijava (Tab kruži,
+    Zatvori); klik na ivicu kapsule; Enter u pretrazi + `?kraj=`; strana bez igre bez upozorenja; mreža ≠ „nema objašnjenja"; igra
+    (aria-live, Pauza); telefon (uputstvo za ćirilicu sklopljeno, kartica tastaturom, mete 44 px, položen telefon, panel drži fokus,
+    Escape, resize bez greške); sistemska tamna; okvir fokusa. Na kraju testa čuvar: bar 900 provera.
+
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 **Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test
 traje 15 minuta, a nova provera najčešće prvo padne na sopstvenoj grešci.

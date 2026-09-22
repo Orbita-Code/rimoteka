@@ -14,7 +14,7 @@
  * 4. Pri svakoj promeni ovog fajla podigni CACHE verziju – `activate`
  *    briše sve keševe koji nisu tekući.
  * ============================================================ */
-const CACHE = 'rimoteka-v7';   // v7 08.09.2026: logo-icon.png 128→224 px (oštar na iPhone-u 3×, odluka vlasnice); v6: 512→128 (A6)
+const CACHE = 'rimoteka-v8';   // v7 08.09.2026: logo-icon.png 128→224 px (oštar na iPhone-u 3×, odluka vlasnice); v6: 512→128 (A6)
 
 // Samo mali fajlovi ljuske. BEZ definicije.json i reci.txt (preveliki),
 // bez verzionisanih ?v= putanja (menjaju se pri svakom deployu).
@@ -70,7 +70,10 @@ self.addEventListener('fetch', e => {
     e.respondWith((async () => {
       try {
         const fresh = await fetch(req);
-        if (fresh && fresh.ok) {
+        /* BZ-5 (22.09.2026): u keš ide SAMO početna (`/`, `/index.html`) – ranije je svaka posećena `?rec=` i
+           `/rime-za/…` adresa (48 KB) ostajala u kešu bez granice. Offline rezerva je alat na početnoj. */
+        const putanja = url.pathname;
+        if (fresh && fresh.ok && (putanja === '/' || putanja === '/index.html') && !url.search) {
           const cache = await caches.open(CACHE);
           cache.put(req, fresh.clone());
         }

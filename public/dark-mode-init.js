@@ -2,14 +2,14 @@
 // nego što se bilo šta vidi: tamni režim i položaj skrola.
 //
 // Zašto sve stoji u ovom fajlu, a ne kao inline <script>: CSP sajta je
-// `script-src 'self' https://*.googletagmanager.com` — bez `'unsafe-inline'`,
+// `script-src 'self' https://*.googletagmanager.com` – bez `'unsafe-inline'`,
 // pa bi inline skripta bila tiho blokirana. A zaseban fajl bi značio još jedan
 // zahtev koji blokira iscrtavanje.
 //
 // ── 1) TAMNI REŽIM ──────────────────────────────────────────────────────────
 //
 // Ranije je ova skripta stajala u <head> i pisala po `document.body`, a `body`
-// tada JOŠ NE POSTOJI — `classList` na `null` baci grešku i postavka se gubila
+// tada JOŠ NE POSTOJI – `classList` na `null` baci grešku i postavka se gubila
 // baš pri učitavanju (nalaz K1). Zato:
 //   1) klasa ide na <html>, koji u <head> uvek postoji → pozadina je odmah tamna;
 //   2) čim `body` postoji, ista klasa se prenosi i na njega, jer se svih 117
@@ -19,7 +19,7 @@
 (function () {
   /* KAKO TO RADE SAJTOVI (istraženo 08.09.2026, zahtev vlasnice): dva pravila.
      1) Ako je čovek jednom kliknuo (svetla ili tamna), to se pamti u pregledaču i važi na svakoj
-        strani, posle osvežavanja, u novom tabu i kad se vrati posle zatvaranja — dok sam ne promeni.
+        strani, posle osvežavanja, u novom tabu i kad se vrati posle zatvaranja – dok sam ne promeni.
      2) Ako NIJE birao, sajt prati podešavanje telefona/računara (`prefers-color-scheme`), i menja se
         kad se sistem prebaci (noću na telefonu). Do 08.09. je bez izbora uvek bila svetla tema.
      `rimoteka_dark`: '1' = tamna, '0' = svetla (izričit izbor), nema = prati sistem. */
@@ -43,19 +43,19 @@
 // ── 2) OSVEŽAVANJE VRAĆA NA VRH STRANE ────────────────────────────────────────
 //
 // Pregledač po pravilu vrati skrol tamo gde je bio pre osvežavanja. Na običnom
-// sajtu to je korisno, na Rimoteci nije: alat se osvežavanjem RESETUJE — polje
+// sajtu to je korisno, na Rimoteci nije: alat se osvežavanjem RESETUJE – polje
 // je prazno, rima nema, pesma se ne prikazuje. Ko pritisne F5 dok je kod futera
 // ostane da gleda dno prazne strane, bez logotipa i bez polja za unos.
 // Izmereno na produkciji, `/rime-za/ljubav/`: pre osvežavanja 1999,5 px →
 // posle osvežavanja 1999,5 px (ništa se nije pomerilo).
 //
 // Tri stvari koje ovo NE sme da pokvari:
-//   · „Nazad" — na hub strani `/rime-za/` ima 1.988 linkova; ko se vrati sa
+//   · „Nazad" – na hub strani `/rime-za/` ima 1.988 linkova; ko se vrati sa
 //     jedne reči mora da nastavi odakle je stao. Zato se `scrollRestoration`
 //     postavlja na `manual` SAMO za osvežavanje, i vraća na `auto` čim strana
 //     završi učitavanje;
-//   · sidra (`#nesto` u adresi) — ako ih ima, ne diramo ništa;
-//   · korisnika koji je već krenuo da skroluje dok se strana učitavala — čim
+//   · sidra (`#nesto` u adresi) – ako ih ima, ne diramo ništa;
+//   · korisnika koji je već krenuo da skroluje dok se strana učitavala – čim
 //     dodirne točkić, ekran ili taster, prestajemo da ga vraćamo na vrh.
 (function () {
   if (!('scrollRestoration' in history)) return;

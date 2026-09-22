@@ -5,6 +5,8 @@
 # app-lozinka „rimoteka-prijave“), MEJL_ZA (kome stiže); [vars] MEJL_OD ispod. Link za pregled u mejlu nosi KLJUC (mejl ide samo vlasnici).
 compatibility_flags = ["nodejs_compat"]
 name = "rimoteka-prijave"
+# Nalog vlasnice (22.09.2026: wrangler vidi dva naloga i bez ovoga odbija deploy van interaktivnog režima).
+account_id = "a84e1dc704830d528a1b94e6e93ec4de"
 main = "prijave.js"
 compatibility_date = "2024-09-01"
 

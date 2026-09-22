@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="/ga-init.js?v=6"></script>
-<link rel="preload" as="fetch" href="/reci.txt?v=c33c2046" crossorigin>
+<link rel="preload" as="fetch" href="/reci.txt?v=275d5819" crossorigin>
 <title>Igra rimovanja – nađi rimu pre isteka vremena | Rimoteka</title>
 <meta name="description" content="Na zadatu reč pronađeš rimu pre nego što isteknu sekunde. Za jednog ili više igrača, sa poenima. Zabavan način da deca i odrasli vežbaju rimu.">
 <link rel="canonical" href="https://rimoteka.com/igra-rimovanja/">
@@ -22,17 +22,17 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
 <!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
-     slao adresu Google-u pre ikakvog pristanka, i čekao dva strana servera. Varijabilni
+     slao adresu Google-u pre ikakvog pristanka i čekao dva strana servera. Varijabilni
      font (jedan fajl za sve debljine), četiri pisma; latinica i latinica-ext (č, ć, š, ž, đ)
      se najavljuju odmah da zamena fonta ne pomera tekst. -->
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2?v=2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2?v=2" crossorigin>
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=12b728d4">
+<link rel="stylesheet" href="/style.css?v=8e977ad6">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -143,10 +143,10 @@
       <div class="game-setup-group">
         <label class="game-setup-label">Broj igrača:</label>
         <div class="game-setup-options" id="gamePlayers">
-          <button class="game-option active" data-value="1">1</button>
-          <button class="game-option" data-value="2">2</button>
-          <button class="game-option" data-value="3">3</button>
-          <button class="game-option" data-value="custom">više</button>
+          <button class="game-option active" data-value="1" aria-pressed="true">1</button>
+          <button class="game-option" data-value="2" aria-pressed="false">2</button>
+          <button class="game-option" data-value="3" aria-pressed="false">3</button>
+          <button class="game-option" data-value="custom" aria-pressed="false">više</button>
         </div>
         <input type="number" id="gamePlayersCustom" class="game-custom-input" placeholder="broj" min="1" max="10" style="display:none">
       </div>
@@ -154,28 +154,28 @@
       <div class="game-setup-group">
         <label class="game-setup-label">Broj reči po igraču:</label>
         <div class="game-setup-options" id="gameWords">
-          <button class="game-option" data-value="5">5</button>
-          <button class="game-option active" data-value="10">10</button>
-          <button class="game-option" data-value="15">15</button>
-          <button class="game-option" data-value="20">20</button>
+          <button class="game-option" data-value="5" aria-pressed="false">5</button>
+          <button class="game-option active" data-value="10" aria-pressed="true">10</button>
+          <button class="game-option" data-value="15" aria-pressed="false">15</button>
+          <button class="game-option" data-value="20" aria-pressed="false">20</button>
         </div>
       </div>
 
       <div class="game-setup-group">
         <label class="game-setup-label">Vreme po reči (sekunde):</label>
         <div class="game-setup-options" id="gameTime">
-          <button class="game-option" data-value="10">10s</button>
-          <button class="game-option active" data-value="15">15s</button>
-          <button class="game-option" data-value="20">20s</button>
-          <button class="game-option" data-value="30">30s</button>
+          <button class="game-option" data-value="10" aria-pressed="false">10s</button>
+          <button class="game-option active" data-value="15" aria-pressed="true">15s</button>
+          <button class="game-option" data-value="20" aria-pressed="false">20s</button>
+          <button class="game-option" data-value="30" aria-pressed="false">30s</button>
         </div>
       </div>
 
       <div class="game-setup-group">
         <label class="game-setup-label">Koliko rima za svaku reč:</label>
         <div class="game-setup-options" id="gameRima">
-          <button class="game-option active" data-value="1">jedna</button>
-          <button class="game-option" data-value="3">tri</button>
+          <button class="game-option active" data-value="1" aria-pressed="true">jedna</button>
+          <button class="game-option" data-value="3" aria-pressed="false">tri</button>
         </div>
       </div>
 
@@ -201,21 +201,22 @@
           <span class="game-label">Reč:</span> <span id="gameWordCount" class="game-value">1/10</span>
           <span id="gameComboBadge" class="game-combo" hidden></span>
         </div>
-        <div class="game-timer" id="gameTimer">15</div>
+        <div class="game-timer" id="gameTimer" aria-label="Preostalo sekundi">15</div>
+        <button type="button" id="gamePause" class="game-pause" aria-pressed="false" title="Zaustavi odbrojavanje">Pauza</button>
       </div>
 
       <div class="game-word-box">
         <p class="game-instruction">Nađi rimu za reč:</p>
-        <p id="gameWord" class="game-word">...</p>
+        <p id="gameWord" class="game-word" aria-live="polite">…</p>
       </div>
 
       <div class="game-input-row">
-        <input type="text" id="gameInput" placeholder="upiši rimu" autocomplete="off" spellcheck="false">
+        <input type="text" id="gameInput" placeholder="upiši rimu" aria-label="Tvoja rima" autocomplete="off" spellcheck="false">
         <button id="gameMic" class="game-mic" type="button" hidden aria-pressed="false" title="Reci rimu glasom"><span aria-hidden="true">🎤</span><span class="sr-only">Reci rimu glasom</span></button>
         <button id="gameSubmit" class="primary">Proveri</button>
       </div>
 
-      <p id="gameFeedback" class="game-feedback"></p>
+      <p id="gameFeedback" class="game-feedback" role="status" aria-live="polite"></p>
 
       <div class="game-progress" id="gameProgress"></div>
     </div>
@@ -299,6 +300,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=0c691edc"></script>
+<script defer src="/app.js?v=6fa8532f"></script>
 </body>
 </html>

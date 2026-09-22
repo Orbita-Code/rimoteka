@@ -1,6 +1,6 @@
-# Skener tamnog režima — 2026-09-22 (https://rimoteka.com)
+# Skener tamnog režima — 2026-09-22 (http://localhost:8765)
 
-Strana (vrste): 30 + 12 stanja alata + baner. Nalaza: **0**.
+Strana (vrste): 30 + 12 stanja alata + baner. Nalaza: **1**.
 
 ## Stanje teme
 
@@ -12,3 +12,4 @@ Strana (vrste): 30 + 12 stanja alata + baner. Nalaza: **0**.
 
 | vrsta | element | tekst | kontrast | treba | boja / pozadina | gde |
 |---|---|---|---|---|---|---|
+| tekst | a | Pisanje pesama | 1.05 | 4.5 | rgb(26, 18, 48) / rgb(18,16,24) | / tab klasici |

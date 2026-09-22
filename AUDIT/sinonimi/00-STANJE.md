@@ -15,8 +15,8 @@
 
 | | Koliko |
 |---|---|
-| Na sajtu (`public/sinonimi.json`) | **54 reči** – sve pregledane sa vlasnicom 28.08. |
-| Čeka pregled (`03-RED-ZA-PREGLED.txt`) | **905 reči, 8.181 predloženih sinonima, 19 grupa po 50** |
+| Na sajtu (`public/sinonimi.json`) | **55 reči** – 54 pregledane 28.08. + „prvi" 22.09. |
+| Čeka pregled (`03-RED-ZA-PREGLED.txt`) | **904 reči** (grupa 1: 49 čeka odgovor vlasnice na predlog od 17.09.), 19 grupa |
 | Od toga vraćeno u red 17.09. | 125 reči iz predloga od 20.08. (serija 1 i 2: duša, noć, kiša, bol, mir…) koje su pri spajanju 08.09. ispale iz spiska – niko ih nije pregledao |
 | Bez ijednog predloga, pa nisu u redu | dan, jezero, oblak, poljubac, pravo (odluka 28.08.: nema pravog), ptica, škola – ako vlasnica zna sinonim, dopiše se ručno |
 

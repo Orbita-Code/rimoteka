@@ -6,7 +6,10 @@ import { connect } from 'cloudflare:sockets';
    odgovora sajtu (ctx.waitUntil) i nikad ne obara prijavu: ako mejl ne prođe, prijava je ipak u sanduču.
    POST /prijava   ← sajt šalje {rec, upit, slogova, razlog, napomena, strana, mejl(zamka), proba}
    GET  /prijave?kljuc=…&format=json|html   ← privatni pregled (ključ je secret KLJUC)
-   Bez imena, bez mejla, bez kolačića. IP se čuva samo kao skraćen otisak (za brojanje). */
+   Bez imena, bez mejla, bez kolačića. IP se čuva samo kao skraćen otisak (za brojanje).
+   22.09.2026 (audit, BZ-2/BZ-3/B-3/B-1): ključ se poredi u stalnom vremenu (`istiKljuc`); `/proba-mejla` ne odaje
+   dužine tajni; pogrešan ključ na pregledu se broji po IP-u (10 u 10 min → 429); sanduče ima globalni plafon
+   (60 prijava na sat → 429, ništa se ne čuva ni ne šalje) i ne čuva istu prijavu (reč+razlog+otisak) dva puta u 10 min. */
 
 const DOZVOLJENA_POREKLA = ['https://rimoteka.com', 'https://www.rimoteka.com'];
 /* Lokalni razvoj i test: bilo koji port na localhost/127.0.0.1 (pre-deploy test bira svoj
@@ -15,7 +18,11 @@ const LOKALNO = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
 const dozvoljeno = o => DOZVOLJENA_POREKLA.includes(o) || LOKALNO.test(o);
 const RAZLOZI = new Set(['slogovi', 'nije-rec', 'pogresno-napisana', 'ne-rimuje-se', 'nije-za-decu', 'drugo']);
 const GRANICE = { rec: 60, upit: 60, napomena: 500, strana: 200 };
-const LIMIT_PO_SATU = 10;
+const LIMIT_PO_SATU = 10;              // prijava po IP-u na sat
+const PLAFON_PO_SATU = 60;             // B-1: prijava UKUPNO na sat (svi zajedno) – preko toga 429, ništa se ne čuva ni ne šalje
+const DUPLIKAT_SEK = 600;              // B-1: ista reč+razlog+otisak u ovom roku se ne čuva drugi put
+const KLJUC_GRESAKA_MAX = 10;          // B-3: pogrešnih ključeva po IP-u u 10 min pre 429
+const KLJUC_GRESAKA_SEK = 600;
 const CUVANJE_SEK = 365 * 24 * 3600;
 
 function cors(request) {
@@ -39,6 +46,45 @@ async function limitProbijen(env, ip) {
   await env.PRIJAVE.put(k, String(n + 1), { expirationTtl: 3600 });
   return false;
 }
+/* B-1: globalni plafon – KV nema atomično uvećanje, pa dve prijave u istoj sekundi mogu brojati jednu (podbroj);
+   prva prijava u satu NIKAD nije odbijena jer `get` vrati null → 0. Vraća sekunde do isteka sata ako je plafon pun. */
+async function plafonPun(env) {
+  const sad = new Date();
+  const k = `plafon:${sad.toISOString().slice(0, 13).replace('T', '-')}`;
+  const n = parseInt((await env.PRIJAVE.get(k)) || '0', 10);
+  if (n >= PLAFON_PO_SATU) return 3600 - (sad.getUTCMinutes() * 60 + sad.getUTCSeconds());
+  await env.PRIJAVE.put(k, String(n + 1), { expirationTtl: 3600 });
+  return 0;
+}
+/* B-1: ista prijava (reč + razlog + otisak) u poslednjih 10 min → ne čuva se ni ne šalje drugi put. */
+async function duplikat(env, p, ko) {
+  const k = `dup:${await otisak(p.rec + '|' + p.razlog + '|' + ko)}`;
+  if (await env.PRIJAVE.get(k)) return true;
+  await env.PRIJAVE.put(k, '1', { expirationTtl: DUPLIKAT_SEK });
+  return false;
+}
+/* BZ-2: poređenje ključa u stalnom vremenu – `!==` staje na prvom različitom bajtu, pa se ključ može pogađati merenjem.
+   `crypto.subtle.timingSafeEqual` je proširenje Workers-a; ako ga nema, XOR petlja preko svih bajtova. */
+function istiKljuc(dat, pravi) {
+  if (typeof dat !== 'string' || typeof pravi !== 'string' || !pravi) return false;
+  const a = new TextEncoder().encode(dat), b = new TextEncoder().encode(pravi);
+  if (a.byteLength !== b.byteLength) return false;
+  if (crypto.subtle && typeof crypto.subtle.timingSafeEqual === 'function') return crypto.subtle.timingSafeEqual(a, b);
+  let r = 0; for (let i = 0; i < a.length; i++) r |= a[i] ^ b[i]; return r === 0;
+}
+/* B-3: pogrešan ključ se broji po IP-u; posle KLJUC_GRESAKA_MAX u 10 min → 429 (i sa tačnim ključem, dok ne istekne). */
+async function kljucBlokiran(env, ip) {
+  const n = parseInt((await env.PRIJAVE.get(`kljuc-greske:${ip}`)) || '0', 10);
+  return n >= KLJUC_GRESAKA_MAX;
+}
+async function zabeleziPogresanKljuc(env, ip) {
+  const k = `kljuc-greske:${ip}`;
+  const n = parseInt((await env.PRIJAVE.get(k)) || '0', 10);
+  await env.PRIJAVE.put(k, String(n + 1), { expirationTtl: KLJUC_GRESAKA_SEK });
+}
+const ipOd = request => request.headers.get('CF-Connecting-IP') || 'nepoznat';
+const nemaPristupa = (extra) => new Response('Nema pristupa.', { status: 403, headers: extra || {} });
+const previsePokusaja = () => new Response('Previše pokušaja. Pokušaj kasnije.', { status: 429, headers: { 'Retry-After': String(KLJUC_GRESAKA_SEK), 'Cache-Control': 'no-store' } });
 
 /* --- mejl vlasnici: mali SMTP klijent (Workers nemaju ugrađen mejl bez Cloudflare Email Routing-a) --- */
 function b64(s) { return btoa(unescape(encodeURIComponent(s))); }
@@ -108,10 +154,14 @@ async function primi(request, env, ctx) {
               razlog: RAZLOZI.has(t.razlog) ? t.razlog : null, napomena: polje(t.napomena, GRANICE.napomena), strana: polje(t.strana, GRANICE.strana) };
   if (!p.rec || !p.razlog) return json({ ok: false, greska: 'nepotpuno' }, 400, h);
   if (t.proba === true) return json({ ok: true, proba: true }, 200, h);            // test sajta: proveri sve, ne čuvaj ništa
-  const ip = request.headers.get('CF-Connecting-IP') || 'nepoznat';
+  const ip = ipOd(request);
   if (await limitProbijen(env, ip)) return json({ ok: false, greska: 'previse' }, 429, h);
+  const ko = await otisak(ip + '|' + (request.headers.get('User-Agent') || '').slice(0, 80));
+  if (await duplikat(env, p, ko)) return json({ ok: true, duplikat: true }, 200, h);   // B-1: ista prijava u 10 min – ne čuva se, mejl ne ide
+  const cekaj = await plafonPun(env);
+  if (cekaj) return json({ ok: false, greska: 'plafon' }, 429, { ...h, 'Retry-After': String(cekaj) });   // B-1: sanduče puno za ovaj sat
   const kad = new Date().toISOString();
-  const zapis = { ...p, kad, ko: await otisak(ip + '|' + (request.headers.get('User-Agent') || '').slice(0, 80)),
+  const zapis = { ...p, kad, ko,
                   uredjaj: /Mobi|Android|iPhone/i.test(request.headers.get('User-Agent') || '') ? 'telefon' : 'računar' };
   await env.PRIJAVE.put(`prijava:${Date.now()}:${Math.random().toString(36).slice(2, 7)}`, JSON.stringify(zapis), { expirationTtl: CUVANJE_SEK });
   if (ctx && ctx.waitUntil) ctx.waitUntil(posaljiMejl(env, zapis, new URL(request.url).origin).catch(e => console.log('mejl nije poslat: ' + (e && e.message))));
@@ -130,7 +180,9 @@ async function pregled(request, env) {
   /* Ključ ide u ZAGLAVLJU `X-Kljuc` (N-13: u adresi ostaje u logovima); `?kljuc=` je zadržan samo za HTML
      pregled u pregledaču (tamo se zaglavlje ne može poslati). */
   const kljuc = request.headers.get('X-Kljuc') || url.searchParams.get('kljuc');
-  if (!env.KLJUC || kljuc !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+  const ip = ipOd(request);
+  if (await kljucBlokiran(env, ip)) return previsePokusaja();                     // B-3: 10 pogrešnih ključeva u 10 min → 429
+  if (!istiKljuc(kljuc, env.KLJUC)) { await zabeleziPogresanKljuc(env, ip); return nemaPristupa(); }   // BZ-2: stalno vreme
   const posle = url.searchParams.get('posle') || '';                           // ISO vreme: vrati samo novije (za dnevni izveštaj)
   const lista = await env.PRIJAVE.list({ prefix: 'prijava:', limit: 1000 });
   const sve = [];
@@ -157,15 +209,15 @@ export default {
     if (request.method === 'POST' && url.pathname === '/prijava') return primi(request, env, ctx);
     /* Proba mejla (samo sa ključem): pošalje probnu poruku i vrati grešku ako SMTP ne prođe. */
     if (request.method === 'POST' && url.pathname === '/proba-mejla') {
-      if (!env.KLJUC || (request.headers.get('X-Kljuc') || '') !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+      if (!istiKljuc(request.headers.get('X-Kljuc') || '', env.KLJUC)) return nemaPristupa();   // BZ-2
       try { await posaljiMejl(env, { rec: 'proba', razlog: 'drugo', napomena: 'Ovo je proba slanja iz sanduča.', strana: 'https://rimoteka.com/', uredjaj: 'proba', kad: new Date().toISOString() }, url.origin); return json({ ok: true }); }
-      catch (e) { return json({ ok: false, greska: String(e && e.message), duzine: { korisnik: String(env.SMTP_KORISNIK || '').length, lozinka: String(env.SMTP_LOZINKA || '').length } }, 500); }
+      catch (e) { return json({ ok: false, greska: String(e && e.message), postavljeno: { korisnik: !!env.SMTP_KORISNIK, lozinka: !!env.SMTP_LOZINKA } }, 500); }   // BZ-3: ne odaje dužine tajni
     }
     if (request.method === 'GET' && url.pathname === '/prijave') return pregled(request, env);
     if (request.method === 'GET' && url.pathname === '/zdravlje') return json({ ok: true });
     /* Brisanje jedne prijave (samo sa ključem) – za probne zapise koji su omaškom ušli (07.09.2026). */
     if (request.method === 'POST' && url.pathname === '/obrisi') {
-      if (!env.KLJUC || (request.headers.get('X-Kljuc') || url.searchParams.get('kljuc')) !== env.KLJUC) return new Response('Nema pristupa.', { status: 403 });
+      if (!istiKljuc(request.headers.get('X-Kljuc') || url.searchParams.get('kljuc'), env.KLJUC)) return nemaPristupa();   // BZ-2
       const id = url.searchParams.get('id') || '';
       if (!/^prijava:\d+:[a-z0-9]+$/.test(id)) return json({ ok: false, greska: 'id' }, 400);
       await env.PRIJAVE.delete(id);

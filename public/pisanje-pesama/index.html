@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="/ga-init.js?v=6"></script>
-<link rel="preload" as="fetch" href="/reci.txt?v=c33c2046" crossorigin>
+<link rel="preload" as="fetch" href="/reci.txt?v=275d5819" crossorigin>
 <title>Pisanje pesama – beležnica sa rimama i slogovima | Rimoteka</title>
 <meta name="description" content="Piši pesmu i odmah vidi rime za reč na kojoj si, broj slogova po stihu i šemu rime. Tekst ostaje sačuvan na tvom uređaju.">
 <link rel="canonical" href="https://rimoteka.com/pisanje-pesama/">
@@ -22,17 +22,17 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
 <!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
-     slao adresu Google-u pre ikakvog pristanka, i čekao dva strana servera. Varijabilni
+     slao adresu Google-u pre ikakvog pristanka i čekao dva strana servera. Varijabilni
      font (jedan fajl za sve debljine), četiri pisma; latinica i latinica-ext (č, ć, š, ž, đ)
      se najavljuju odmah da zamena fonta ne pomera tekst. -->
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2?v=2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2?v=2" crossorigin>
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=12b728d4">
+<link rel="stylesheet" href="/style.css?v=8e977ad6">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -148,7 +148,7 @@
     <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) – pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
     <div class="notepad-layout">
       <div class="notepad-main">
-        <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
+        <input type="text" id="noteTitle" class="notepad-title" aria-label="Naslov pesme (nije obavezno)" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
         <div class="notepad">
           <div id="noteGutter" class="gutter"><div id="noteGutterInner" class="gutter-inner"></div></div>
           <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
@@ -233,6 +233,6 @@
 </footer>
 <div id="toast" class="toast"></div>
 <div id="printArea" aria-hidden="true"></div>
-<script src="/app.js?v=0c691edc"></script>
+<script defer src="/app.js?v=6fa8532f"></script>
 </body>
 </html>

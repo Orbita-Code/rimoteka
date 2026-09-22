@@ -6,7 +6,7 @@
 <!-- Google Analytics se učitava TEK POSLE pristanka u baneru – v. ga-init.js (06.09.2026) -->
 <script src="ga-init.js?v=6"></script>
 <!-- Rečnik kreće sa HTML-om, ne tek posle app.js (nalaz A5). Adresa MORA biti ista kao u app.js – test poredi. -->
-<link rel="preload" as="fetch" href="/reci.txt?v=c33c2046" crossorigin>
+<link rel="preload" as="fetch" href="/reci.txt?v=275d5819" crossorigin>
 <title>Rečnik rima – rime, slogovi i značenje svake reči | Rimoteka</title>
 <meta name="description" content="Upiši reč i dobiješ sve rime – uz svaku piše broj slogova i šta znači. Rečnik rima srpskog jezika, sa beležnicom za pesmu. Besplatno, bez reklama.">
 <link rel="canonical" href="https://rimoteka.com/">
@@ -25,11 +25,11 @@
 <meta name="twitter:description" content="Rimovanje za lakše štimovanje! Rečnik rima sa objašnjenjem svake reči, brojač slogova, beležnica za pesme i igra rimovanja.">
 <meta name="twitter:image" content="https://rimoteka.com/og-slika.png">
 <!-- Font Rubik je na NAŠEM serveru (nalaz S-06, 07.09.2026): do tada je svaki posetilac
-     slao adresu Google-u pre ikakvog pristanka, i čekao dva strana servera. Varijabilni
+     slao adresu Google-u pre ikakvog pristanka i čekao je dva strana servera. Varijabilni
      font (jedan fajl za sve debljine), četiri pisma; latinica i latinica-ext (č, ć, š, ž, đ)
      se najavljuju odmah da zamena fonta ne pomera tekst. -->
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin.woff2?v=2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-latin-ext.woff2?v=2" crossorigin>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -43,7 +43,7 @@
      kao ranije, v. handover sesije 12). Bez nje bi se sadržaj pomerio kad
      stigne app.js. -->
 <script src="/tab-init.js?v=1"></script>
-<link rel="stylesheet" href="style.css?v=12b728d4">
+<link rel="stylesheet" href="style.css?v=8e977ad6">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,12 +111,11 @@
     <p class="tagline">rimovanje za lakše štimovanje</p>
   </div>
   <div class="script-toggle" id="scriptToggle" title="Prebaci pismo – prikaz reči u rezultatima (latinica/ćirilica)">
-    <button data-script="lat" class="active">latinica</button>
-    <button data-script="cyr">ћирилица</button>
+    <button data-script="lat" class="active" aria-pressed="true">latinica</button>
+    <button data-script="cyr" aria-pressed="false">ћирилица</button>
   </div>
-  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Tamni režim">🌙</button>
+  <button class="dark-toggle" id="darkToggle" title="Prebaci tamni režim" aria-label="Uključi tamni režim" aria-pressed="false">🌙</button>
   <!-- Pro dugme je sakriveno dok backend ne bude deployovan -->
-  <!-- <button class="pro-toggle" id="proToggle" title="Rimoteka Pro">Pro</button> -->
 </header>
 
 <!-- Uputstvo se prikazuje SAMO u ćiriličnom režimu (app.js: prikaziUputstvoZaTastaturu).
@@ -169,10 +168,10 @@
     <div class="filters">
       <span class="flabel">Slogova:</span>
       <div class="syl-filter" id="rimeSyl" role="group" aria-label="Filter po broju slogova">
-        <button data-syl="0" class="active">sve</button>
-        <button data-syl="1">1</button>
-        <button data-syl="2">2</button>
-        <button data-syl="3">3</button>
+        <button data-syl="0" class="active" aria-pressed="true">sve</button>
+        <button data-syl="1" aria-pressed="false">1</button>
+        <button data-syl="2" aria-pressed="false">2</button>
+        <button data-syl="3" aria-pressed="false">3</button>
         <button data-syl="4">4</button>
         <button data-syl="5">5+</button>
       </div>
@@ -246,7 +245,7 @@
     <p class="note-warn" id="noteStorageWarn" hidden>Čuvanje ne radi u ovom pregledaču (privatni režim ili blokirano skladište) – pesma se neće sačuvati na uređaju. Preuzmi je dugmetom „preuzmi pesmu" da je ne izgubiš.</p>
     <div class="notepad-layout">
       <div class="notepad-main">
-        <input type="text" id="noteTitle" class="notepad-title" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
+        <input type="text" id="noteTitle" class="notepad-title" aria-label="Naslov pesme (nije obavezno)" placeholder="Naslov pesme (opciono)" autocomplete="off" spellcheck="false">
         <div class="notepad">
           <div id="noteGutter" class="gutter"><div id="noteGutterInner" class="gutter-inner"></div></div>
           <div id="noteEditor" class="notepad-text" contenteditable="true" data-placeholder="Ovde piši svoju pesmu…"></div>
@@ -280,10 +279,10 @@
       <div class="game-setup-group">
         <label class="game-setup-label">Broj igrača:</label>
         <div class="game-setup-options" id="gamePlayers">
-          <button class="game-option active" data-value="1">1</button>
-          <button class="game-option" data-value="2">2</button>
-          <button class="game-option" data-value="3">3</button>
-          <button class="game-option" data-value="custom">više</button>
+          <button class="game-option active" data-value="1" aria-pressed="true">1</button>
+          <button class="game-option" data-value="2" aria-pressed="false">2</button>
+          <button class="game-option" data-value="3" aria-pressed="false">3</button>
+          <button class="game-option" data-value="custom" aria-pressed="false">više</button>
         </div>
         <input type="number" id="gamePlayersCustom" class="game-custom-input" placeholder="broj" min="1" max="10" style="display:none">
       </div>
@@ -291,28 +290,28 @@
       <div class="game-setup-group">
         <label class="game-setup-label">Broj reči po igraču:</label>
         <div class="game-setup-options" id="gameWords">
-          <button class="game-option" data-value="5">5</button>
-          <button class="game-option active" data-value="10">10</button>
-          <button class="game-option" data-value="15">15</button>
-          <button class="game-option" data-value="20">20</button>
+          <button class="game-option" data-value="5" aria-pressed="false">5</button>
+          <button class="game-option active" data-value="10" aria-pressed="true">10</button>
+          <button class="game-option" data-value="15" aria-pressed="false">15</button>
+          <button class="game-option" data-value="20" aria-pressed="false">20</button>
         </div>
       </div>
 
       <div class="game-setup-group">
         <label class="game-setup-label">Vreme po reči (sekunde):</label>
         <div class="game-setup-options" id="gameTime">
-          <button class="game-option" data-value="10">10s</button>
-          <button class="game-option active" data-value="15">15s</button>
-          <button class="game-option" data-value="20">20s</button>
-          <button class="game-option" data-value="30">30s</button>
+          <button class="game-option" data-value="10" aria-pressed="false">10s</button>
+          <button class="game-option active" data-value="15" aria-pressed="true">15s</button>
+          <button class="game-option" data-value="20" aria-pressed="false">20s</button>
+          <button class="game-option" data-value="30" aria-pressed="false">30s</button>
         </div>
       </div>
 
       <div class="game-setup-group">
         <label class="game-setup-label">Koliko rima za svaku reč:</label>
         <div class="game-setup-options" id="gameRima">
-          <button class="game-option active" data-value="1">jedna</button>
-          <button class="game-option" data-value="3">tri</button>
+          <button class="game-option active" data-value="1" aria-pressed="true">jedna</button>
+          <button class="game-option" data-value="3" aria-pressed="false">tri</button>
         </div>
       </div>
 
@@ -338,21 +337,22 @@
           <span class="game-label">Reč:</span> <span id="gameWordCount" class="game-value">1/10</span>
           <span id="gameComboBadge" class="game-combo" hidden></span>
         </div>
-        <div class="game-timer" id="gameTimer">15</div>
+        <div class="game-timer" id="gameTimer" aria-label="Preostalo sekundi">15</div>
+        <button type="button" id="gamePause" class="game-pause" aria-pressed="false" title="Zaustavi odbrojavanje">Pauza</button>
       </div>
 
       <div class="game-word-box">
         <p class="game-instruction">Nađi rimu za reč:</p>
-        <p id="gameWord" class="game-word">...</p>
+        <p id="gameWord" class="game-word" aria-live="polite">…</p>
       </div>
 
       <div class="game-input-row">
-        <input type="text" id="gameInput" placeholder="upiši rimu" autocomplete="off" spellcheck="false">
+        <input type="text" id="gameInput" placeholder="upiši rimu" aria-label="Tvoja rima" autocomplete="off" spellcheck="false">
         <button id="gameMic" class="game-mic" type="button" hidden aria-pressed="false" title="Reci rimu glasom"><span aria-hidden="true">🎤</span><span class="sr-only">Reci rimu glasom</span></button>
         <button id="gameSubmit" class="primary">Proveri</button>
       </div>
 
-      <p id="gameFeedback" class="game-feedback"></p>
+      <p id="gameFeedback" class="game-feedback" role="status" aria-live="polite"></p>
 
       <div class="game-progress" id="gameProgress"></div>
     </div>
@@ -378,7 +378,7 @@
 </div>
 </main>
 
-<div id="toast" class="toast"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 
 <section class="seo-content" aria-label="O Rimoteci">
   <div class="seo-inner">
@@ -639,63 +639,11 @@
   </div>
 </footer>
 
-<!-- PRO MODAL -->
-<div class="pro-modal" id="proModal" role="dialog" aria-modal="true" aria-labelledby="proTitle">
-  <div class="pro-modal-content">
-    <button class="close" id="proClose" aria-label="Zatvori">×</button>
-    <h2 id="proTitle">Rimoteka Pro</h2>
-    <p>Otključaj pun potencijal Rimoteke – bez reklama, sa naprednim alatima za pisanje.</p>
-
-    <div class="pro-feature"><span class="icon">🚫</span><span><strong>Bez reklama</strong> – čisto okruženje za pisanje</span></div>
-    <div class="pro-feature"><span class="icon">🎯</span><span><strong>Prioritetna podrška</strong> – odgovor u roku od 24h</span></div>
-    <div class="pro-feature"><span class="icon">⭐</span><span><strong>Pro oznaka</strong> – podržavaš razvoj Rimoteke</span></div>
-    <div class="pro-feature soon"><span class="icon">💾</span><span><strong>Čuvanje u oblaku</strong> – pesme na svim uređajima <em>uskoro</em></span></div>
-
-    <!-- KORAK 1 – prijava (vidljivo kad korisnik nije prijavljen) -->
-    <div class="pro-step" id="proStepLogin">
-      <p class="pro-step-label">Upiši mejl – poslaćemo ti link za prijavu.</p>
-      <form class="pro-form" id="proLoginForm">
-        <input type="email" id="proEmail" placeholder="tvoj@email.com" autocomplete="email" required>
-        <button type="submit" class="pro-btn" id="proLoginBtn">Pošalji mi link</button>
-      </form>
-      <p class="pro-hint" id="proLoginHint" hidden></p>
-    </div>
-
-    <!-- KORAK 2 – izbor plana (vidljivo kad je prijavljen, a nije Pro) -->
-    <div class="pro-step" id="proStepPlan" hidden>
-      <div class="pro-plans">
-        <label class="pro-plan">
-          <input type="radio" name="proPlan" value="monthly" checked>
-          <span class="pro-plan-name">Mesečno</span>
-          <span class="pro-plan-price">3 €<small>/mes</small></span>
-        </label>
-        <label class="pro-plan">
-          <input type="radio" name="proPlan" value="yearly">
-          <span class="pro-plan-name">Godišnje</span>
-          <span class="pro-plan-price">30 €<small>/god</small></span>
-          <span class="pro-plan-badge">2 meseca gratis</span>
-        </label>
-      </div>
-      <button class="pro-btn" id="proSubscribe">Aktiviraj Pro</button>
-      <p class="pro-hint" id="proPlanHint"></p>
-    </div>
-
-    <!-- KORAK 3 – aktivan Pro -->
-    <div class="pro-step" id="proStepActive" hidden>
-      <p class="pro-active-msg">✅ <strong>Pro je aktivan.</strong> Hvala što podržavaš Rimoteku!</p>
-      <p class="pro-hint" id="proActiveInfo"></p>
-      <button class="pro-btn" id="proPortal">Upravljaj pretplatom</button>
-    </div>
-
-    <button class="donate-btn" id="proDonate">Podrži jednokratno</button>
-
-    <p class="pro-note">Cena uključuje PDV. Otkaži kad god. Sredstva idu na održavanje i razvoj Rimoteke.</p>
-  </div>
-</div>
+<!-- Pro modal uklonjen 22.09.2026 (TP-10): paywall traži odobrenje vlasnice (CLAUDE.md §8), a kod je bio mrtav. -->
 
 <div id="printArea" aria-hidden="true"></div>
 
-<script src="app.js?v=0c691edc"></script>
+<script defer src="app.js?v=6fa8532f"></script>
 <!-- Pokret na karticama ISPOD alata. `defer` – ne sme da uspori dolazak do
      rime; ako se ne učita, kartice su i dalje vidljive i čitljive. -->
 <script src="/kartice.js?v=1" defer></script>

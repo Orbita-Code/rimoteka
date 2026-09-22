@@ -159,6 +159,7 @@ function sacuvajOmiljene(){
 
 /* ====================== Stanje ====================== */
 let WORDS = [];          // sve reči (ekavske + ijekavske na kraju), latinica
+const NASLOV_POCETNE = document.title;   // UI-6: naslov strane pre nego što ga `?rec=` prepiše
 /* OBEĆANJE „REČNIK JE STIGAO" – jedno mesto na koje čekaju igra, Reč dana i pretraga (audit 22.09.2026,
    nalazi G-1 i G-3). Do tada je red čekanja postojao samo za rime (`cekaRec`), pa je igra pokrenuta pre
    rečnika ostajala na „…" zauvek, a pretraga ukucana pre rečnika se tiho gubila. */
@@ -192,7 +193,7 @@ let favorites = lsJSON('rimoteka_favorites', []).filter(w => typeof w === 'strin
 const VOWELS = new Set(['a','e','i','o','u']);
 
 /* Reči koje se NE prikazuju kao rime (neprikladne, vulgarnosti, anatomija) */
-const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','srao','serem','sere','picka','picku','pice','kurac','kurca','dupeta','dubre','dubretar','pisaju','guzi','guziti','seronja','seronje','pickica','pickice','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smece','smetlarka']);
+const BLOCKED = new Set(['dupe','guzica','guzice','govno','govna','srao','serem','sere','pička','pičku','pičke','piče','kurac','kurca','dupeta','đubre','đubreta','đubretu','đubretar','đubretara','đubrad','đubradi','pisaju','guzi','guziti','seronja','seronje','pičkica','pičkice','kurvetine','jebem','jebi','jebanje','jebeno','jebeni','jebena','jebalo','jebaci','jebac','govnar','govnari','smeće','smeća','smeću','smetlarka']);
 /* 04.08.2026: `guz`, `sranje`, `kurvetina` su izašli odavde – odluka vlasnice:
    vulgarne reči POSTOJE u rečniku (odrasli ih vide), a skriva ih dečji režim
    (dakle su u KIDS_BLOCKED, ne ovde). */
@@ -331,6 +332,10 @@ function countSyl(w){
       if(!prevV && !nextV) c++;        // slogotvorno r (prst, srce, vrt)
     }
   }
+  /* L-3 (22.09.2026): „r" posle prefiksa koji se završava samoglasnikom nosi slog (za-r-đa-ti, po-r-va-ti: Pravopis), a
+     „r" na kraju reči iza suglasnika ne (žanr je jednosložno). Isti izuzeci su u `build/gen_pages.py` (`count_syl`). */
+  if(/^(zarđ|zarz|porv)/.test(w)) c++;
+  if(/^(pod)?žanr$/.test(w)) c--;
   return c;
 }
 // Prikaz pojedinačne reči: bar 1 slog. Usamljeni suglasnički predlog (s, k, z) = 0.
@@ -344,7 +349,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=bbe1c680';
+const DEFINICIJE_ADRESA = '/definicije.json?v=295d6960';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -411,8 +416,8 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=c33c2046', true),
-    uzmiTekst('/reci_jekavica.txt?v=e88c5a8a', false)
+    uzmiTekst('/reci.txt?v=275d5819', true),
+    uzmiTekst('/reci_jekavica.txt?v=6f84cbce', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -440,7 +445,7 @@ async function loadDict(){
   const male = new Array(svi.length);     // isti niz, sve malim slovima – v. niže
   const rang = new Map();
   const skup = new Set();
-  const KOMAD = 20000;
+  const KOMAD = 5000;   // PF-4 (22.09.2026): 20.000 je blokiralo nit 100–190 ms po komadu na sporom procesoru
   for(let i = 0; i < svi.length; i += KOMAD){
     const kraj = Math.min(i + KOMAD, svi.length);
     for(let j = i; j < kraj; j++){
@@ -477,7 +482,7 @@ async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
       fetch('/frekvencija.json?v=e1f29b29').then(r=>r.json()).catch(()=> ({})),
-      fetch('/sinonimi.json?v=06e40989').then(r=>r.json()).catch(()=> ({})),
+      fetch('/sinonimi.json?v=27108c13').then(r=>r.json()).catch(()=> ({})),
       /* matica.json – spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
          srLex (veb-korpus) ne poznaje sve standardne srpske reči – `hiljada` i
@@ -524,6 +529,7 @@ async function loadExtras(){
     const PRAG = 10;
     const POMAK = WORDS.length;
     for(let i=0;i<WORDS.length;i++){
+      if(i && i % 20000 === 0) await new Promise(r => setTimeout(r, 0));   // PF-4: rangiranje u komadima, strana ne zamrzava
       const w = WORDS[i];
       /* Učestalost i Matica su zapisane MALIM slovima, a vlastita imena u rečniku
          velikim (`Beograd`). Do 06.09.2026. se tražilo `freqRes['Beograd']` – nema
@@ -610,7 +616,7 @@ function makeChip(word){
     /* Reč ide u HTML escapovana (nalaz S-05, audit 07.09.2026): rime iz rečnika su naše,
        ali omiljene dolaze iz localStorage-a – `<img onerror>` je ulazio u DOM (CSP ga je
        zaustavio, ali to je mreža, ne brava). */
-    `<span class="word" tabindex="0" role="button" title="${uiTxt('klikni da kopiraš')}">${escapeHtml(disp(word))}</span>` +
+    `<span class="word" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" title="${uiTxt('klikni da kopiraš')}">${escapeHtml(disp(word))}</span>` +
     `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
     `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${escapeHtml(disp(word))}">ⓘ</button>` +
     `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${escapeHtml(disp(word))}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
@@ -675,9 +681,10 @@ function renderLegend(container){
 /* Isti prag koji CSS koristi za mobilni raspored. Čita se pri svakom pozivu,
    ne kešira se – okretanje telefona menja odgovor. */
 function jeTelefon(){
-  return window.matchMedia
-    ? window.matchMedia('(max-width:560px)').matches
-    : window.innerWidth <= 560;
+  if(!window.matchMedia) return window.innerWidth <= 560;
+  /* MB-5 (22.09.2026): položen telefon (844×390) je širi od 560 px, ali je i dalje prst + niska visina. */
+  return window.matchMedia('(max-width:560px)').matches
+      || window.matchMedia('(pointer:coarse) and (max-height:500px)').matches;
 }
 
 /* ── VISINA TASTATURE NA EKRANU ─────────────────────────────────────────────
@@ -725,15 +732,18 @@ function osveziVisinuTastature(){
      2. na „scroll" događaj se samo prati visina tastature (--kb), a red se
         dovraća u vidokrug samo na „resize" (tastatura se otvorila/zatvorila),
         pri fokusu i pri kucanju – nikad usred skrola. */
-let korisnikSkroluje = false, korisnikSkrolujeTimer = null;
+let korisnikSkroluje = false, korisnikSkrolujeTimer = null, poslednjiGestSkrola = 0;
 function oznaciSkrolanje(){
   korisnikSkroluje = true;
   clearTimeout(korisnikSkrolujeTimer);
   korisnikSkrolujeTimer = setTimeout(() => { korisnikSkroluje = false; }, 350);
 }
 ['touchmove', 'wheel'].forEach(dog =>
-  window.addEventListener(dog, oznaciSkrolanje, { passive: true, capture: true }));
-window.addEventListener('scroll', oznaciSkrolanje, { passive: true });
+  window.addEventListener(dog, () => { poslednjiGestSkrola = Date.now(); oznaciSkrolanje(); }, { passive: true, capture: true }));
+/* „scroll" bez prsta ili točkića u poslednjih 400 ms je pregledačev (fokus polja pomeri stranu 2 px) ili naš –
+   ne sme da blokira dovođenje polja u kadar (22.09.2026: posle fokusa na brojač slogova tastatura je ostajala
+   preko polja jer je taj sitni pomak brojan kao korisnikov skrol). */
+window.addEventListener('scroll', () => { if(Date.now() - poslednjiGestSkrola < 400) oznaciSkrolanje(); }, { passive: true });
 
 function zakaziOsveziTastaturu(samoVisina){
   if(kbZakazano) return;
@@ -893,7 +903,7 @@ function zatvoriCipTraku(){
   const fokusUTraci = document.activeElement && cipTraka.contains(document.activeElement);
   const rec = cipTrakaZa;
   cipTraka.hidden = true;
-  if(cipTrakaZa) cipTrakaZa.classList.remove('chip-izabran');
+  if(cipTrakaZa){ cipTrakaZa.classList.remove('chip-izabran'); const wz = cipTrakaZa.querySelector('.word'); if(wz) wz.setAttribute('aria-expanded', 'false'); }
   cipTrakaZa = null;
   if(fokusUTraci && rec){ const w = rec.querySelector('.word') || rec; if(w.focus){ trakaBezFokusina = true; w.focus({ preventScroll: true }); trakaBezFokusina = false; } }
 }
@@ -936,6 +946,7 @@ function otvoriCipTraku(cip, rec){
   cipTrakaZa = cip;
   trakaOtvorenaU = Date.now();
   cip.classList.add('chip-izabran');
+  { const wz = cip.querySelector('.word'); if(wz) wz.setAttribute('aria-expanded', 'true'); }
   const omiljena = isFav(rec);
   t.innerHTML =
     `<button type="button" class="ca-btn" data-act="def" aria-label="${uiTxt('značenje reči')} ${disp(rec)}">` +
@@ -1025,6 +1036,9 @@ document.addEventListener('click', (e) => {
   /* Dugme (statičke strane `/rime-za/`) dobije fokus PRE klika, pa je `focusin` već otvorio karticu –
      klik ne sme da je odmah zatvori kao „drugi dodir" (08.09.2026: na statičkim stranama klik nije radio). */
   if(cipTrakaZa === cip && cipTraka && !cipTraka.hidden && Date.now() - trakaOtvorenaU < 600) return;
+  /* U-3 (22.09.2026): mišji klik na ivicu kapsule (ne na samu reč) ostavljao je fokus na `main`, pa je Escape
+     posle toga vraćao fokus nigde. Fokus ide na reč pre otvaranja – bez ponovnog okidanja `focusin`. */
+  { const wz = cip.querySelector('.word'); if(wz && document.activeElement !== wz && wz.focus){ trakaBezFokusina = true; try{ wz.focus({ preventScroll: true }); } finally { trakaBezFokusina = false; } } }
   otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
 }, true);
 /* Skrol zatvara karticu – ali ne skrol koji pregledač sam napravi dok dovodi kliknuto dugme u kadar. */
@@ -1093,7 +1107,7 @@ document.addEventListener('mouseout', (e) => {
   if(cip && cipTrakaZa !== cip && !(e.relatedTarget && cip.contains(e.relatedTarget))) clearTimeout(hoverTimer);
 });
 document.addEventListener('focusin', (e) => {
-  if(jeTelefon() || trakaBezFokusina) return;
+  if(trakaBezFokusina) return;   // PR-2 (22.09.2026): i na uskom ekranu fokus tastaturom otvara karticu; dodir je štićen kroz `trakaOtvorenaU`
   const cip = cipZaTraku(e.target);
   if(cip && cipTrakaZa !== cip) otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
   else if(!cip && cipTraka && !cipTraka.hidden && !cipTraka.contains(e.target) && !(prijavaBox && prijavaBox.contains(e.target))) zatvoriCipTraku();
@@ -1366,9 +1380,9 @@ function doRhymes(silent){
     if(!includeJek && JEKAVSKI.has(m)) continue;
     if(KEYS[i]===key && m!==q) strong.push(w);
   }
-  /* Redosled rima – tri merila, ovim redom:
-     1. duži zajednički završetak (bogatija rima)
-     2. BLIŽI BROJ SLOGOVA traženoj reči
+  /* Redosled rima – tri merila, ovim redom (v. CLAUDE.md 6.2b; komentar ispravljen 22.09.2026, L-4):
+     1. BLIŽI BROJ SLOGOVA traženoj reči (po tome se i deli na „Najbolje" / „Dobre")
+     2. duži zajednički završetak (bogatija rima)
      3. učestalost reči
 
      Zašto broj slogova: prava rima počinje od poslednjeg NAGLAŠENOG
@@ -1436,7 +1450,7 @@ function doRhymes(silent){
       if(d) return d;
       return RANK.get(a)-RANK.get(b);
     });
-    finalExtra = filterSyl(fin).slice(0,90);
+    finalExtra = filterSyl(fin.slice(0,90));   // K-2 (22.09.2026): filter je PODSKUP prikazanih 90, ne dosipanje reči van „sve"
   }
 
   if(azbukaRed){ best.sort(porediAzbuka); good.sort(porediAzbuka); finalExtra.sort(porediAzbuka); }
@@ -1465,7 +1479,7 @@ function doRhymes(silent){
   if(!silent){
     const ukupno = best.length + good.length + finalExtra.length;
     el('rimeStatus').textContent = ukupno
-      ? `${ukupno} ${uiTxt(rimaRec(ukupno))} ${uiTxt('za')} „${disp(q)}“`
+      ? `${ukupno} ${uiTxt(rimaRec(ukupno))} ${uiTxt('za')} „${disp(((rimeInput.value || '').trim().toLowerCase() === q ? (rimeInput.value || '').trim() : q))}“`   // L-5: „Beograd", ne „beograd"
       : uiTxt('Nema rime za tu reč.');
   }
 
@@ -1884,6 +1898,14 @@ function doSearch(){
   if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči sa tim slovima. Probaj kraći niz – na primer „ost“ umesto „nost“ – ili promeni način pretrage gore.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
   el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}`;
+  /* UI-8 (22.09.2026): upit ide u adresu (`?kraj=…&nacin=…`) pa F5 i podeljen link vraćaju isto; robots.txt
+     te adrese ne indeksira. Samo na strani pretrage – da se ne dira `?rec=` na početnoj. */
+  try{
+    if(location.pathname.startsWith('/rime-po-zavrsetku')){
+      const u = new URL(location.href); u.searchParams.set('kraj', q); u.searchParams.set('nacin', mode);
+      history.replaceState(null, '', u);
+    }
+  }catch(e){}
 }
 el('searchBtn').onclick = doSearch;
 searchInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
@@ -1965,6 +1987,7 @@ function renderSylGutter(lines){
 }
 
 function updateSyl(){
+  if(typeof HTMLTextAreaElement !== 'undefined' && !(sylInput instanceof HTMLTextAreaElement)) return;   // MB-3: strane bez brojača (stub) – `resize` ne sme da baca grešku
   const out = el('sylOutput');
   const text = sylInput.value;
   const lines = text.split('\n');
@@ -2474,6 +2497,7 @@ noteEditor.addEventListener('paste', (e) => {
 
 // iOS Safari fix – Enter ne radi u contenteditable nakon renderovanja HTML-a
 noteEditor.addEventListener('keydown', (e) => {
+  if(e.key === 'Escape'){ noteEditor.blur(); return; }   // A-2: Escape gasi režim kucanja (traka se sklanja)
   if(e.key === 'Enter'){
     e.preventDefault();
     // Ručno insertujemo <br> da bi Enter radio na iOS
@@ -2644,7 +2668,9 @@ noteEditor.addEventListener('blur', () => setTypingMode(false));
    setTypingMode(false). Bez preventDefault: linkovi i dugmad rade normalno. */
 document.addEventListener('pointerdown', (e) => {
   if(!document.body.classList.contains('notes-typing')) return;
-  if(e.target.closest('#noteEditor, #noteRhymes')) return;
+  /* U-1 (22.09.2026): dugmad, linkovi i polja dobijaju fokus sami – `blur` ovde je zatvarao tastaturu pre klika,
+     pa je klik promašivao pomerenu stranu. Gasi se samo dodir u prazno. */
+  if(e.target.closest('#noteEditor, #noteRhymes, button, a, input, select, textarea, label, summary, [role=button]')) return;
   noteEditor.blur();
 }, { passive: true });
 // Klik na rimu ne sme da oduzme fokus editoru – inače se izgubi pozicija kursora
@@ -2652,7 +2678,8 @@ document.addEventListener('pointerdown', (e) => {
 noteRhymesBox.addEventListener('pointerdown', (e) => {
   /* I dugme „još N rima" i strelica (mobilni audit 08.09.2026: dodir na „još" gasio je tastaturu i bacao
      traku na dno – fokus je odlazio iz editora, jer je zaštita važila samo za kapsule). */
-  if(e.target.closest('.chip, .nr-more, .nr-toggle')) e.preventDefault();
+  /* U-2 (22.09.2026): i naslov trake i prazan deo panela – dodir bilo gde u panelu ne sme da skloni tastaturu. */
+  e.preventDefault();
 });
 // Na telefonu panel sa rimama stoji preko dna ekrana – browser to ne zna kad
 // sam skroluje do kursora, pa red u kome se kuca može da završi ispod panela.
@@ -3927,7 +3954,10 @@ function urlZaTab(name){
   let url = tabHref(name);
   if(name === 'rime'){
     const q = toLatin(rimeInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
-    if(q.length >= 2) url += (url.includes('?') ? '&' : '?') + 'rec=' + encodeURIComponent(q);
+    if(q.length >= 2){
+      url += (url.includes('?') ? '&' : '?') + 'rec=' + encodeURIComponent(q);
+      if(rimeSyl) url += '&slog=' + encodeURIComponent(String(rimeSyl));   // UI-5: filter ne ispada iz adrese pri povratku na tab
+    }
   }
   return url;
 }
@@ -3979,6 +4009,12 @@ try{ pamtiPraznoStanje(); }catch(e){}
 
 function goHome(){
   rimeInput.value = '';
+  /* UI-6 (22.09.2026): kanonikal i naslov iz `?rec=` ne smeju da ostanu na početnoj. */
+  try{
+    const c = document.querySelector('link[rel=canonical]'); if(c) c.href = 'https://rimoteka.com/';
+    document.querySelectorAll('meta[name=robots]').forEach(m => m.remove());
+    if(typeof NASLOV_POCETNE === 'string' && NASLOV_POCETNE) document.title = NASLOV_POCETNE;
+  }catch(e){}
   el('rimeResults').innerHTML = pamtiPraznoStanje();
   if(script === 'cyr') convertTextNodes(el('rimeResults'), toCyr);   // zapamćeno stanje je latinicom
   hideAutocomplete();
@@ -3995,7 +4031,8 @@ el('scriptToggle').addEventListener('click', e=>{
   const b=e.target.closest('button'); if(!b) return;
   script=b.dataset.script;
   lsSet('rimoteka_script', script);
-  document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
+  document.querySelectorAll('#scriptToggle button').forEach(x=>{ x.classList.toggle('active', x.dataset.script===script); x.setAttribute('aria-pressed', String(x.dataset.script===script)); });
+  try{ document.documentElement.lang = script === 'cyr' ? 'sr-Cyrl' : 'sr-Latn'; }catch(e){}   // PR-7: čitač bira pravi glas
   applyScriptToUI();
   prebaciBelesku();          // i pesma u beležnici prelazi u izabrano pismo
   prikaziUputstvoZaTastaturu();
@@ -4189,7 +4226,9 @@ function prikaziUputstvoZaTastaturu(){
   if(script !== 'cyr') return;
   const det = b.querySelector('details');
   if(det && lsGet('rimoteka_kbd_seen') !== '1'){
-    det.open = true;
+    /* KS-1 (22.09.2026): rašireno samo tamo gde ima fizičke tastature (miš i prelazak). Na telefonu je
+       uputstvo o tasterima „; ' [ ]" nevažeće, a rašireno (582 px) je sakrivalo i tabove i polje za reč. */
+    det.open = !!(window.matchMedia && window.matchMedia('(hover:hover) and (pointer:fine)').matches);
     lsSet('rimoteka_kbd_seen', '1');
   }
 }
@@ -4343,7 +4382,8 @@ function fetchSaRokom(url, ms = 6000){
 
 async function fetchDefinition(word){
   if(defCache.has(word)) return defCache.get(word);
-  await loadLocalDefs(word).catch(() => {});  // samo fajl sa slovom te reči (S-20)
+  let lokalnoStiglo = true;
+  await loadLocalDefs(word).catch(() => { lokalnoStiglo = false; });  // samo fajl sa slovom te reči (S-20)
   if(DEFS.has(word)){ const r = { text: DEFS.get(word), src:'Rimoteka' }; defCache.set(word, r); return r; }
   let result = null;
   try{
@@ -4365,6 +4405,11 @@ async function fetchDefinition(word){
        neuspeh `definicije.json`) zauvek upisivao „Nema objašnjenja za ovu reč"
        u keš, pa je i posle povratka veze ta reč ostajala bez objašnjenja do
        osvežavanja strane. */
+    /* G-4 (22.09.2026): kad naš fajl sa objašnjenjima nije stigao (mreža), ne sme da piše „nema objašnjenja"
+       za reč koja ga ima – to je neistina. Kaže se šta je stvarno: ne može da se učita. */
+    if(!lokalnoStiglo || (typeof navigator !== 'undefined' && navigator.onLine === false)){
+      return { text: uiTxt('Objašnjenje sad ne mogu da učitam – proveri vezu i probaj ponovo.'), src:'' };
+    }
     return { text:'Nema objašnjenja za ovu reč.', src:'' };
   }
   defCache.set(word, result);
@@ -4664,7 +4709,10 @@ if(document.documentElement.classList.contains('dark-mode')) document.body.class
 const darkToggle = document.getElementById('darkToggle');
 function applyDarkIcon(){
   if(!darkToggle) return;
-  darkToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+  const tamno = document.body.classList.contains('dark-mode');
+  darkToggle.textContent = tamno ? '☀️' : '🌙';
+  darkToggle.setAttribute('aria-pressed', String(tamno));   // PR-5
+  darkToggle.setAttribute('aria-label', uiTxt(tamno ? 'Isključi tamni režim' : 'Uključi tamni režim'));
 }
 /* Dok korisnik nije birao temu, sajt prati sistem i UŽIVO (telefon pređe u noćni režim → i sajt),
    kao što rade veliki sajtovi; posle prvog klika važi samo izbor (v. dark-mode-init.js, 08.09.2026). */
@@ -4714,7 +4762,8 @@ document.querySelectorAll('.copy-all-btn').forEach(btn=>{
 });
 
 /* ====================== START ====================== */
-document.querySelectorAll('#scriptToggle button').forEach(x=>x.classList.toggle('active', x.dataset.script===script));
+document.querySelectorAll('#scriptToggle button').forEach(x=>{ x.classList.toggle('active', x.dataset.script===script); x.setAttribute('aria-pressed', String(x.dataset.script===script)); });
+  try{ document.documentElement.lang = script === 'cyr' ? 'sr-Cyrl' : 'sr-Latn'; }catch(e){}   // PR-7: čitač bira pravi glas
 if(script === 'cyr') applyScriptToUI();
 /* Beležnica se učitava iz memorije uređaja PRE nego što se primeni pismo, pa
    pri osvežavanju strane u ćirilici mora i ona da se prebaci – inače je posle
@@ -4788,211 +4837,7 @@ function initFromURL(){
   }catch(e){}
   return false;
 }
-/* ====================== PRO MODAL ====================== */
-const proModal = document.getElementById('proModal');
-const proToggle = document.getElementById('proToggle');
-const proClose = document.getElementById('proClose');
-const proSubscribe = document.getElementById('proSubscribe');
-const proDonate = document.getElementById('proDonate');
-
-// Pro dugme je privremeno sakriveno u HTML-u (backend nije deployovan) – zato guard
-if (proToggle) proToggle.onclick = () => { proModal.classList.add('show'); };
-if (proClose) proClose.onclick = () => { proModal.classList.remove('show'); };
-if (proModal) proModal.onclick = (e) => { if(e.target === proModal) proModal.classList.remove('show'); };
-document.addEventListener('keydown', (e) => { if(e.key === 'Escape' && proModal) proModal.classList.remove('show'); });
-
-if (proDonate) proDonate.onclick = () => {
-  window.open('https://buymeacoffee.com/rimoteka', '_blank');
-  proModal.classList.remove('show');
-};
-
-/* ====================== PRO PRETPLATA (Stripe) ======================
- * VAŽNO: localStorage je ovde SAMO keš da stranica ne trepne pri učitavanju.
- * O tome ko je zaista Pro odlučuje isključivo server (GET /api/status).
- * Izmena keša u DevTools ne otključava ništa – sve Pro funkcije koje nešto
- * koštaju moraju se proveravati na serveru.
- * ==================================================================== */
-const PRO_CACHE_KEY = 'rimoteka_pro_cache';
-
-const stepLogin   = document.getElementById('proStepLogin');
-const stepPlan    = document.getElementById('proStepPlan');
-const stepActive  = document.getElementById('proStepActive');
-const loginForm   = document.getElementById('proLoginForm');
-const loginInput  = document.getElementById('proEmail');
-const loginBtn    = document.getElementById('proLoginBtn');
-const loginHint   = document.getElementById('proLoginHint');
-const planHint    = document.getElementById('proPlanHint');
-const activeInfo  = document.getElementById('proActiveInfo');
-const portalBtn   = document.getElementById('proPortal');
-
-let proState = { authenticated: false, pro: false };
-
-async function api(path, options = {}) {
-  const res = await fetch(`/api${path}`, {
-    credentials: 'same-origin',
-    headers: { 'Content-Type': 'application/json' },
-    ...options,
-  });
-  let data = null;
-  try { data = await res.json(); } catch (e) {}
-  if (!res.ok) throw new Error(data?.error || `Greška ${res.status}`);
-  return data;
-}
-
-function renderPro(state) {
-  proState = state || { authenticated: false, pro: false };
-
-  // Reklame i Pro oznaka – CSS reaguje na klasu na <body>
-  document.body.classList.toggle('is-pro', !!proState.pro);
-  if (proToggle) {
-    proToggle.textContent = proState.pro ? 'Pro ✓' : 'Pro';
-    proToggle.title = proState.pro ? 'Rimoteka Pro je aktivan' : 'Rimoteka Pro';
-  }
-
-  stepLogin.hidden  = proState.authenticated;
-  stepPlan.hidden   = !proState.authenticated || proState.pro;
-  stepActive.hidden = !proState.pro;
-
-  if (proState.pro && proState.currentPeriodEnd) {
-    const datum = new Date(proState.currentPeriodEnd).toLocaleDateString('sr-RS');
-    activeInfo.textContent = proState.cancelAtPeriodEnd
-      ? `Pretplata je otkazana i važi do ${datum}.`
-      : `Sledeća naplata: ${datum}.`;
-  }
-  if (proState.authenticated && !proState.pro) {
-    planHint.textContent = `Prijavljena/prijavljen kao ${proState.email}.`;
-  }
-
-  try {
-    lsSet(PRO_CACHE_KEY, JSON.stringify({ pro: !!proState.pro }));
-  } catch (e) {}
-}
-
-// Keš primenjujemo odmah da reklamni prostor ne bljesne Pro korisniku
-try {
-  const cached = lsJSON(PRO_CACHE_KEY, null);
-  if (cached?.pro) document.body.classList.add('is-pro');
-} catch (e) {}
-
-async function refreshPro() {
-  try {
-    renderPro(await api('/status'));
-  } catch (e) {
-    // Backend nedostupan – ostavljamo besplatnu verziju, alat i dalje radi
-    console.warn('[pro] Status nije dostupan:', e.message);
-  }
-}
-
-/* Povratak sa magic-link mejla: Supabase vrati #access_token=... */
-async function handleAuthRedirect() {
-  if (!location.hash.includes('access_token')) return false;
-
-  const token = new URLSearchParams(location.hash.slice(1)).get('access_token');
-  history.replaceState(null, '', location.pathname + location.search);
-  if (!token) return false;
-
-  try {
-    await api('/auth/session', {
-      method: 'POST',
-      body: JSON.stringify({ access_token: token }),
-    });
-    await refreshPro();
-    proModal.classList.add('show');
-    toast('Prijava uspešna.');
-  } catch (e) {
-    toast(e.message);
-  }
-  return true;
-}
-
-/* Povratak sa Stripe Checkout-a */
-async function handleProReturn() {
-  const params = new URLSearchParams(location.search);
-  const status = params.get('pro');
-  if (!status) return;
-
-  params.delete('pro');
-  params.delete('session_id');
-  const rest = params.toString();
-  history.replaceState(null, '', location.pathname + (rest ? `?${rest}` : ''));
-
-  if (status === 'cancel') {
-    toast('Plaćanje je otkazano.');
-    return;
-  }
-  if (status !== 'success') return;
-
-  // Webhook ume da stigne koji trenutak posle povratka korisnika,
-  // pa proveravamo nekoliko puta pre nego što odustanemo.
-  toast('Plaćanje primljeno – aktiviram Pro…');
-  for (let i = 0; i < 6; i++) {
-    await refreshPro();
-    if (proState.pro) {
-      toast('Pro je aktivan. Hvala! 🎉');
-      proModal.classList.add('show');
-      return;
-    }
-    await new Promise((r) => setTimeout(r, 1500));
-  }
-  toast('Plaćanje je prošlo. Aktivacija traje još koji trenutak – osveži stranicu.');
-}
-
-if (loginForm) loginForm.onsubmit = async (e) => {
-  e.preventDefault();
-  const email = loginInput.value.trim();
-  if (!email) return;
-
-  loginBtn.disabled = true;
-  loginBtn.textContent = 'Šaljem…';
-  try {
-    await api('/auth/request', { method: 'POST', body: JSON.stringify({ email }) });
-    loginHint.hidden = false;
-    loginHint.textContent = `Poslali smo link na ${email}. Otvori mejl i klikni na njega.`;
-    loginForm.hidden = true;
-  } catch (err) {
-    loginHint.hidden = false;
-    loginHint.textContent = err.message;
-  } finally {
-    loginBtn.disabled = false;
-    loginBtn.textContent = 'Pošalji mi link';
-  }
-};
-
-if (proSubscribe) proSubscribe.onclick = async () => {
-  const plan = document.querySelector('input[name="proPlan"]:checked')?.value || 'monthly';
-  proSubscribe.disabled = true;
-  proSubscribe.textContent = 'Otvaram plaćanje…';
-  try {
-    const { url } = await api('/checkout', { method: 'POST', body: JSON.stringify({ plan }) });
-    location.href = url;
-  } catch (e) {
-    toast(e.message);
-    proSubscribe.disabled = false;
-    proSubscribe.textContent = 'Aktiviraj Pro';
-  }
-};
-
-if (portalBtn) portalBtn.onclick = async () => {
-  portalBtn.disabled = true;
-  try {
-    const { url } = await api('/portal', { method: 'POST' });
-    location.href = url;
-  } catch (e) {
-    toast(e.message);
-    portalBtn.disabled = false;
-  }
-};
-
-/* Pro backend još nije deployovan i Pro dugme je sakriveno u index.html.
-   Zato NE zovemo /api/status pri svakom učitavanju – to je bio 404 zahtev
-   na svakoj poseti (usporava i zagađuje konzolu). Kad se Pro uključi
-   (proToggle se odkomentariše u HTML-u), provera se sama vraća. */
-if (proToggle) {
-  handleAuthRedirect().then((handled) => {
-    handleProReturn();
-    if (!handled) refreshPro();
-  });
-}
+/* Pro/paywall kod uklonjen 22.09.2026 (TP-10): paywall i nalozi traže odobrenje vlasnice (CLAUDE.md §8), a kod je bio mrtav i neproveren. */
 
 /* ====================== IGRA RIMA – zarazna verzija ====================== */
 let gamePlayers = 1;
@@ -5351,7 +5196,20 @@ function nastaviIgru(){
   if(!igraPauzirana) return;
   igraPauzirana = false;
   if(gameTimeLeft > 0) pokreniOdbrojavanje();
+  osveziDugmePauze();
 }
+/* PR-4 (22.09.2026, WCAG 2.2.1): igrač može SAM da zaustavi odbrojavanje – ranije je pauza postojala samo
+   automatska (skriven tab). Dugme `#gamePause` je u zaglavlju igre. */
+const gamePauseBtn = document.getElementById('gamePause');
+function osveziDugmePauze(){
+  if(!gamePauseBtn) return;
+  gamePauseBtn.textContent = uiTxt(igraPauzirana ? 'Nastavi' : 'Pauza');
+  gamePauseBtn.setAttribute('aria-pressed', String(!!igraPauzirana));
+}
+if(gamePauseBtn) gamePauseBtn.onclick = () => {
+  if(gameState !== 'play') return;
+  if(igraPauzirana) nastaviIgru(); else { pauzirajIgru(); osveziDugmePauze(); }
+};
 
 /* PARTIJA PREŽIVI PRELAZAK NA DRUGU STRANU (nalaz A4, audit 07.09.2026).
    Google šalje ljude pravo na `/igra-rimovanja/`. Ta strana ima samo panel igre, pa je
@@ -5376,7 +5234,7 @@ function sacuvajIgru(){
   }));
 }
 function vratiIgru(){
-  if(gameSetup.__noop || !gamePlay) return false;
+  if(!gameSetup || gameSetup.__noop || !gamePlay) return false;   // UI-7: strane bez panela igre (`/rime-po-zavrsetku/`)
   const s = ssGet(IGRA_KLJUC);
   if(!s) return false;
   let o = null;
@@ -5813,6 +5671,12 @@ function bootstrap(){
     /* Pretraga po završetku ukucana pre rečnika sad se sama izvrši (G-3), a panel rima u beležnici se
        iscrta bez čekanja na klik (UI-3: posle F5 sa sačuvanom pesmom stajalo je „Nema pronađenih rima"). */
     if(pretragaCeka){ pretragaCeka = false; try{ doSearch(); }catch(e){} }
+    else try{   // UI-8: `?kraj=` iz adrese
+      const u = new URLSearchParams(location.search);
+      if(u.get('kraj') && location.pathname.startsWith('/rime-po-zavrsetku') && searchInput && !searchInput.__noop){
+        searchInput.value = u.get('kraj'); const m = u.get('nacin'); if(m && el('searchMode')) el('searchMode').value = m; doSearch();
+      }
+    }catch(e){}
     try{ if(noteEditor && !noteEditor.__noop && getEditorText().trim()) renderNoteRhymes(); }catch(e){}
     if(cekaRec){ pokreniOdlozenuPretragu(); return; }
     /* Fokus na polje tek kad rečnik stigne – ali NE otimati fokus onome ko je već negde (08.09.2026, S-25 trka:
@@ -5970,7 +5834,7 @@ function prijavaDanas(){
 }
 let prijavaSidro = null;
 function zatvoriPrijavu(){
-  const vrati = prijavaBox && (prijavaBox.contains(document.activeElement) || document.activeElement === document.body);
+  const vrati = !!prijavaBox;   // PR-1: fokus se vraća na reč i kad je Tab-om pobegao van dijaloga
   if(prijavaBox){ prijavaBox.remove(); prijavaBox = null; }
   /* Fokus nazad na reč (nalaz A1/S-14, 07.09.2026), ne na `body`. */
   if(vrati && prijavaSidro && prijavaSidro.isConnected){ const w = prijavaSidro.querySelector ? (prijavaSidro.querySelector('.word') || prijavaSidro) : prijavaSidro; if(w.focus) w.focus({ preventScroll: true }); }
@@ -6001,9 +5865,10 @@ function otvoriPrijavu(rec, anchor){
       return `<label class="prijava-opcija${i === 0 ? ' on' : ''}"><input type="radio" name="prijava-razlog" value="${k}"${i === 0 ? ' checked' : ''}><i></i>${tekst}</label>`;
     }).join('');
   box.innerHTML =
+    `<button type="button" class="prijava-zatvori" aria-label="${uiTxt('Zatvori')}">×</button>` +
     `<h3 class="prijava-naslov" id="prijava-naslov">${uiTxt('Šta ne valja kod reči')} „<b>${escapeHtml(disp(rec))}</b>“?</h3>` +
-    opcije +
-    `<textarea class="prijava-napomena" rows="2" maxlength="500" placeholder="${uiTxt('Napomena (nije obavezno)')}"></textarea>` +
+    `<div role="radiogroup" aria-labelledby="prijava-naslov">${opcije}</div>` +
+    `<textarea class="prijava-napomena" rows="2" maxlength="500" aria-label="${uiTxt('Napomena (nije obavezno)')}" placeholder="${uiTxt('Napomena (nije obavezno)')}"></textarea>` +
     `<input type="text" class="prijava-mejl" name="mejl" tabindex="-1" autocomplete="off" aria-hidden="true">` +
     `<div class="prijava-red"><small class="prijava-napomena-tekst" id="prijava-opis">${uiTxt('Poruka je anonimna.')}<br>${uiTxt('Hvala što pomažeš da Rimoteka bude tačna.')}</small>` +
     `<button type="button" class="prijava-posalji">${uiTxt('Pošalji')}</button></div>`;
@@ -6019,6 +5884,17 @@ function otvoriPrijavu(rec, anchor){
     box.querySelectorAll('.prijava-opcija').forEach(x => x.classList.toggle('on', x.querySelector('input').checked));
   }));
   box.addEventListener('click', ev => ev.stopPropagation());
+  box.querySelector('.prijava-zatvori').onclick = zatvoriPrijavu;
+  /* PR-1 (22.09.2026): `aria-modal` obećava da je ostatak strane nedostupan, a Tab je posle „Pošalji" izlazio na
+     `body` i skip-link dok je dijalog otvoren. Tab i Shift+Tab sada kruže unutar dijaloga. */
+  box.addEventListener('keydown', ev => {
+    if(ev.key !== 'Tab') return;
+    const f = [...box.querySelectorAll('button, textarea, input[type=radio]')].filter(x => !x.disabled && x.tabIndex !== -1 && x.getAttribute('aria-hidden') !== 'true' && x.offsetParent !== null);
+    if(!f.length) return;
+    const prvi = f[0], zadnji = f[f.length - 1], akt = document.activeElement;
+    if(ev.shiftKey && (akt === prvi || !box.contains(akt))){ ev.preventDefault(); zadnji.focus(); }
+    else if(!ev.shiftKey && (akt === zadnji || !box.contains(akt))){ ev.preventDefault(); prvi.focus(); }
+  });
   if(!telefon && anchor && anchor.getBoundingClientRect){
     const r = anchor.getBoundingClientRect();
     const bw = box.offsetWidth, bh = box.offsetHeight;

@@ -23,6 +23,14 @@ Novo od vlasnice: dodir usred reči u beležnici na iPhone-u sad stavlja kursor 
 `djedov*` (5 oblika) ostaje u `reci.txt` – čeka njenu odluku. Ostaje otvoreno: 15 srednjih (KS-1, MB-2, PR-1, PR-3, PR-4, PF-1,
 PF-3, PF-4, PF-5, SJ-2..7, TP-5..8) + 33 niska.
 
+## 1b. DRUGI KRUG ISTOG DANA (22.09., naredba vlasnice „svih 22 srednja i 27 niskih")
+Popravljeno **41 od 49** (sekcija testa **58**, 30 provera; sanduče kroz worker `73b53eff`; sadržaj kroz agenta – 283 navodnika,
+15.912 objašnjenja bez ponovljene reči, 7 linkova tematskih strana). Nije rađeno, sa razlogom, u `NALAZI-OTVORENI.md` „STANJE": PF-1
+(rečnik po kantama – zaseban poduhvat), PF-3 (minifikacija traži Docker korak), SEO-3 (Traefik/Coolify), BZ-4/P-2/A-3 (prihvaćeno
+namerno), PR-2b, TP-9, TP-11 (pauze), SJ-5/SJ-6/SJ-13 (odluke vlasnice). Uklonjen Pro/paywall kod (TP-10). `djedov*` premešten
+u ijekavicu (naredba). Sinonim „prvi: vodeći, čelni" na sajtu (55 reči). Nginx: `/index.html` i `/RIME-ZA/` → 301, HSTS
+`includeSubDomains` – **zaseban deploy** kao i pre.
+
 ## 2. Šta sledeća sesija radi PRVO
 1. ~~Krug popravki visokih~~ URAĐENO 22.09. (v. 1a). Sledeći krug: KS-1 (uputstvo za ćirilicu na telefonu), MB-2, PR-1, PR-3, PR-4, PF-3 + PF-5 (minifikacija + defer, jedan deploy, pa izmeriti), PF-1 (rečnik po kantama), SJ-5/SJ-7 skripte nad objašnjenjima → spisak za odluku.
 2. Sinonimi grupa 1 → čeka vlasnicu; kad odgovori: upis u `sinonimi.json`, `02-ODLUKE.md`, brisanje grupe iz reda.

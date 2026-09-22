@@ -1,5 +1,5 @@
 {
- "base": "https://rimoteka.com",
+ "base": "http://localhost:8765",
  "strana": 30,
  "stanje": {
   "klik": true,
@@ -11,5 +11,18 @@
   "colorScheme": "dark",
   "sistemTamnaBezIzbora": true
  },
- "nalazi": []
+ "nalazi": [
+  {
+   "vrsta": "tekst",
+   "el": "a",
+   "tekst": "Pisanje pesama",
+   "kontrast": 1.05,
+   "granica": 4.5,
+   "boja": "rgb(26, 18, 48)",
+   "pozadina": "rgb(18,16,24)",
+   "gde": [
+    "/ tab klasici"
+   ]
+  }
+ ]
 }

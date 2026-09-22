@@ -6657,9 +6657,214 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
       }
     }
 
+    sek('\n58) AUDIT 22.09.2026 – srednji i niski nalazi: pristupačnost, telefon, adresa, definicije, dva sistema, mrtav kod');
+    {
+      const fs58 = await import('node:fs');
+      const { execFileSync: exec58 } = await import('node:child_process');
+      const svez = async (opts = {}, init) => {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 }, ...opts });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1'); } catch (e) {} });
+        if (init) await c.addInitScript(init);
+        const p = ojacajStranu(await c.newPage());
+        p.on('dialog', d => d.accept());
+        return { c, p };
+      };
+      const recnik = (p) => p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+      const NA_PRODUKCIJI = /^https:/.test(BASE);
+
+      // A) fajlovi i server: robots, sw.js, HSTS, /index.html, dva sistema (BLOCKED, slogovi, ključ)
+      {
+        const robots = await (await fetch(BASE + '/robots.txt')).text();
+        ok('robots.txt · blokira i „&decji=", „&tab=" i „?kraj=" (SEO-8/UI-8)', /Disallow:\s*\/\*&decji=/.test(robots) && /Disallow:\s*\/\*&tab=/.test(robots) && /Disallow:\s*\/\*\?kraj=/.test(robots), robots.slice(0, 200));
+        const sw = fs58.readFileSync(path.join(ROOT, 'public/sw.js'), 'utf8');
+        ok('sw.js · keš v8 i HTML se pamti samo za početnu (BZ-5)', /rimoteka-v8/.test(sw) && /putanja === '\/'/.test(sw));
+        if (NA_PRODUKCIJI) {
+          const h = await fetch(BASE + '/');
+          ok('HSTS · includeSubDomains (B-4)', /includeSubDomains/i.test(h.headers.get('strict-transport-security') || ''), h.headers.get('strict-transport-security'));
+          const r1 = await fetch(BASE + '/index.html', { redirect: 'manual' });
+          const r2 = await fetch(BASE + '/rime-za/ljubav/index.html', { redirect: 'manual' });
+          const r3 = await fetch(BASE + '/RIME-ZA/ljubav/', { redirect: 'manual' });
+          ok('SEO-5 · /index.html, /rime-za/x/index.html i /RIME-ZA/ → 301 na čistu adresu', r1.status === 301 && r2.status === 301 && r3.status === 301 && /\/rime-za\/ljubav\/$/.test(r3.headers.get('location') || ''), `${r1.status} ${r2.status} ${r3.status} ${r3.headers.get('location')}`);
+        }
+        const js = new Set([...fs58.readFileSync(path.join(ROOT, 'public/app.js'), 'utf8').match(/const BLOCKED = new Set\(\[([\s\S]*?)\]\);/)[1].matchAll(/'([^']+)'/g)].map(m => m[1]));
+        const py = new Set([...fs58.readFileSync(path.join(ROOT, 'build/gen_pages.py'), 'utf8').match(/    BLOCKED = \{([^}]*)\}/)[1].matchAll(/'([^']+)'/g)].map(m => m[1]));
+        ok('TP-5 · spisak zabranjenih reči je ISTI u alatu i generatoru', js.size === py.size && [...js].every(w => py.has(w)), `js ${js.size} / py ${py.size}`);
+        const reci = fs58.readFileSync(path.join(ROOT, 'public/reci.txt'), 'utf8').split('\n').filter(Boolean);
+        const uzorak = []; let s = 22; for (let i = 0; i < 2000; i++) { s = (s * 1103515245 + 12345) % 2147483648; uzorak.push(reci[s % reci.length]); }
+        uzorak.push('zarđati', 'zarzati', 'porvati', 'žanr', 'podžanr', 'Iran', 'prst', 'Beograd');
+        fs58.writeFileSync(path.join(ROOT, 'AUDIT/lanac/.uzorak-58.json'), JSON.stringify(uzorak));
+        const pyOut = JSON.parse(exec58('python3', ['-c', `
+import json
+src=open('build/gen_pages.py',encoding='utf-8').read(); src=src.split('\\nif __name__')[0]
+ns={'__file__':'build/gen_pages.py','__name__':'gp'}
+exec(compile(src,'gen_pages.py','exec'),ns)
+u=json.load(open('AUDIT/lanac/.uzorak-58.json'))
+print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u]))
+`], { cwd: ROOT, maxBuffer: 50 * 1024 * 1024 }).toString());
+        const { c, p } = await svez();
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        const jsOut = await p.evaluate((u) => u.map(w => [w, countSyl(w), rhymeKey(w.toLowerCase())]), uzorak);
+        const razlike = pyOut.filter((x, i) => x[1] !== jsOut[i][1] || x[2] !== jsOut[i][2]).slice(0, 6);
+        ok('TP-5 · slogovi i ključ rime isti u alatu i generatoru za 2.008 reči (uklj. zarđati=4, žanr=1, podžanr=2)', razlike.length === 0 && jsOut.find(x => x[0] === 'zarđati')[1] === 4 && jsOut.find(x => x[0] === 'žanr')[1] === 1 && jsOut.find(x => x[0] === 'podžanr')[1] === 2, JSON.stringify(razlike));
+        // TP-6: kanonikal `?rec=` – sirovi HTML nosi početnu (odluka), JS stavlja stranu reči
+        const sirovo = await (await fetch(BASE + '/?rec=ljubav')).text();
+        await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(800);
+        const kan = await p.evaluate(() => document.querySelector('link[rel=canonical]').href);
+        ok('TP-6 · ?rec=: sirovi kanonikal je početna (zapisana odluka), a posle JS strana reči', /rel="canonical" href="https:\/\/rimoteka\.com\/"/.test(sirovo) && /\/rime-za\/ljubav\/$/.test(kan), kan);
+        // UI-6: logo vraća kanonikal i naslov
+        await p.evaluate(() => goHome()); await pauza(300);
+        const posle = await p.evaluate(() => ({ kan: document.querySelector('link[rel=canonical]').href, t: document.title, robots: !!document.querySelector('meta[name=robots]') }));
+        ok('UI-6 · logo „na početak" vraća kanonikal na / i naslov početne', posle.kan === 'https://rimoteka.com/' && !/Rime za reč/.test(posle.t) && !posle.robots, JSON.stringify(posle));
+        // L-2: zabranjene reči sa kvačicama više ne izlaze; L-5: ime u statusu; K-2: filter je podskup
+        const l2 = await p.evaluate(() => {
+          const iz = (q) => { rimeInput.value = q; doRhymes(); return [...document.querySelectorAll('#rimeResults .chip .word')].map(e => e.textContent.trim()); };
+          const a = iz('sreća'), b = iz('sreće'), c = iz('Beograd'); const st = document.getElementById('rimeStatus').textContent;
+          return { smeca: a.includes('smeća'), smece: b.includes('smeće'), djubrad: c.includes('đubrad'), status: st };
+        });
+        ok('L-2 · „smeća", „smeće", „đubrad" ne izlaze kao rime (zabrana sa kvačicama)', !l2.smeca && !l2.smece && !l2.djubrad, JSON.stringify(l2));
+        ok('L-5 · status kaže „Beograd", ne „beograd"', /„Beograd“/.test(l2.status), l2.status);
+        const k2 = await p.evaluate(() => {
+          const iz = (q, sl) => { rimeInput.value = q; rimeSyl = sl; doRhymes(); return [...document.querySelectorAll('#rimeResults .chip .word')].map(e => e.textContent.trim()); };
+          const sve = new Set(iz('srce', 0)); const dva = iz('srce', 2); rimeSyl = 0;
+          return { sve: sve.size, dva: dva.length, van: dva.filter(w => !sve.has(w)) };
+        });
+        ok('K-2 · filter „2 sloga" za „srce" je PODSKUP prikazanih „sve" (0 reči van)', k2.van.length === 0 && k2.dva > 0, JSON.stringify(k2));
+        // UI-5: filter ostaje u adresi pri povratku na tab rima
+        await p.goto(BASE + '/?rec=ljubav&slog=2', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(600);
+        await p.evaluate(() => { switchTab('beleznica'); switchTab('rime'); });
+        await pauza(200);
+        const u5 = await p.evaluate(() => location.search);
+        ok('UI-5 · povratak na tab rima čuva &slog=2 u adresi', /rec=ljubav/.test(u5) && /slog=2/.test(u5), u5);
+        // PR-5/PR-7: prekidači i lang
+        const pr5 = await p.evaluate(() => {
+          document.querySelector('#scriptToggle [data-script="cyr"]').click();
+          const cyr = document.querySelector('#scriptToggle [data-script="cyr"]').getAttribute('aria-pressed');
+          const lang = document.documentElement.lang;
+          document.getElementById('darkToggle').click();
+          const dark = document.getElementById('darkToggle').getAttribute('aria-pressed');
+          document.getElementById('darkToggle').click();
+          document.querySelector('#scriptToggle [data-script="lat"]').click();
+          return { cyr, lang, dark, lat: document.documentElement.lang, toast: document.getElementById('toast').getAttribute('aria-live'), slog: document.querySelector('#rimeSyl button').getAttribute('aria-pressed') };
+        });
+        ok('PR-5/PR-7/PR-3 · pismo, tema i filter nose aria-pressed; lang sr-Cyrl/sr-Latn; oblačić je aria-live', pr5.cyr === 'true' && pr5.lang === 'sr-Cyrl' && pr5.dark === 'true' && pr5.lat === 'sr-Latn' && pr5.toast === 'polite' && pr5.slog !== null, JSON.stringify(pr5));
+        // PR-1: dijalog prijave – Tab kruži, ima Zatvori, textarea ima ime, radiogroup
+        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); });
+        await pauza(300);
+        await p.click('#rimeResults .chip .word'); await pauza(300);
+        await p.click('.chip-actions [data-act="prijavi"]'); await pauza(400);
+        const pr1 = await p.evaluate(() => { const b = document.querySelector('.prijava'); if (!b) return null; b.querySelector('.prijava-posalji')?.focus(); return { zatvori: !!b.querySelector('.prijava-zatvori[aria-label]'), ta: !!b.querySelector('textarea[aria-label]'), rg: !!b.querySelector('[role=radiogroup]') }; });
+        await p.keyboard.press('Tab'); await pauza(100);
+        const posleTab = await p.evaluate(() => !!(document.activeElement && document.activeElement.closest('.prijava')));
+        await p.evaluate(() => document.querySelector('.prijava input[type=radio]')?.focus());
+        await p.keyboard.press('Shift+Tab'); await pauza(100);
+        const posleShift = await p.evaluate(() => !!(document.activeElement && document.activeElement.closest('.prijava')));
+        await p.keyboard.press('Escape'); await pauza(200);
+        ok('PR-1 · prijava: dugme „Zatvori", imenovana napomena, radiogroup, Tab i Shift+Tab ostaju u prozorčiću', !!pr1 && pr1.zatvori && pr1.ta && pr1.rg && posleTab && posleShift, JSON.stringify({ pr1, posleTab, posleShift }));
+        // U-3: klik na ivicu kapsule → fokus na reč
+        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await pauza(400);
+        { const cip = p.locator('#rimeResults .chip').first(); const bb = await cip.boundingBox(); await cip.click({ position: { x: 4, y: bb.height / 2 } }); await pauza(300); }
+        const u3b = await p.evaluate(() => ({ act: document.activeElement && document.activeElement.className, otv: !!document.querySelector('.chip-actions:not([hidden])') }));
+        ok('U-3 · klik na ivicu kapsule stavlja fokus na reč i otvara karticu', /\bword\b/.test(u3b.act || '') && u3b.otv, JSON.stringify(u3b));
+        // TP-7: Enter u pretrazi = klik
+        await p.goto(BASE + '/rime-po-zavrsetku/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        await p.fill('#searchInput', 'ost'); await p.keyboard.press('Enter'); await pauza(400);
+        const e1 = await p.evaluate(() => ({ n: document.querySelectorAll('#searchResults .word').length, url: location.search }));
+        await p.evaluate(() => { document.getElementById('searchInput').value = 'ost'; document.getElementById('searchBtn').click(); }); await pauza(400);
+        const e2 = await p.evaluate(() => document.querySelectorAll('#searchResults .word').length);
+        ok('TP-7/UI-8 · Enter u pretrazi daje isto što i klik, a upit je u adresi (?kraj=ost)', e1.n > 0 && e1.n === e2 && /kraj=ost/.test(e1.url), JSON.stringify({ e1, e2 }));
+        await p.goto(BASE + '/rime-po-zavrsetku/?kraj=ost&nacin=ends', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(800);
+        const e3 = await p.evaluate(() => document.querySelectorAll('#searchResults .word').length);
+        ok('UI-8 · adresa ?kraj=ost posle F5 vraća rezultate', e3 > 0, String(e3));
+        // UI-7: strana bez igre – konzola bez upozorenja o partiji
+        const upoz = []; p.on('console', m => { if (m.type() === 'warning' && /partija nije vraćena/.test(m.text())) upoz.push(m.text()); });
+        await p.goto(BASE + '/rime-po-zavrsetku/', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(500);
+        ok('UI-7 · /rime-po-zavrsetku/ bez upozorenja „partija nije vraćena"', upoz.length === 0, upoz.join(' | '));
+        await c.close();
+      }
+      // B) G-4 – kvar mreže nije „nema objašnjenja"
+      {
+        const { c, p } = await svez();
+        if (typeof ocekujGreske === 'function') ocekujGreske(p, /ERR_FAILED|definicije\//);   // namerno prekinuti zahtevi (tekst poruke nosi samo ERR_FAILED, adresa je u location())
+        await p.route('**/definicije/**', r => r.abort());
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        const g4 = await p.evaluate(async () => { const r = await fetchDefinition('gubav'); return r.text; });
+        ok('G-4 · kad fajl sa objašnjenjima ne stigne, piše da ne može da se učita (ne „nema objašnjenja")', /ne mogu da učitam|proveri vezu/i.test(g4), g4);
+        await c.close();
+      }
+      // C) igra: PR-4 (aria-live, etiketa, pauza)
+      {
+        const { c, p } = await svez();
+        await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        const a = await p.evaluate(() => { const g = id => document.getElementById(id); return { live: g('gameWord')?.getAttribute('aria-live'), fb: g('gameFeedback')?.getAttribute('role'), inp: g('gameInput')?.getAttribute('aria-label'), opt: document.querySelector('.game-option')?.getAttribute('aria-pressed'), pause: !!g('gamePause') }; });
+        await p.click('#gameStart'); await p.waitForFunction(() => gameCurrentWord !== '', null, { timeout: 8000 }); await pauza(1200);
+        if (a.pause) await p.click('#gamePause'); await pauza(200);
+        const t1 = await p.evaluate(() => ({ t: Number(document.getElementById('gameTimer').textContent), p: igraPauzirana, pressed: document.getElementById('gamePause')?.getAttribute('aria-pressed') }));
+        await pauza(1600);
+        const t2 = await p.evaluate(() => Number(document.getElementById('gameTimer').textContent));
+        if (a.pause) await p.click('#gamePause'); await pauza(1300);
+        const t3 = await p.evaluate(() => ({ t: Number(document.getElementById('gameTimer').textContent), p: igraPauzirana }));
+        ok('PR-4 · igra: reč i poruka aria-live, polje ima ime, opcije aria-pressed, „Pauza" zaustavlja i „Nastavi" pušta tajmer', a.live === 'polite' && a.fb === 'status' && !!a.inp && a.opt !== null && a.pause && t1.p === true && t1.pressed === 'true' && t2 === t1.t && t3.p === false && t3.t < t2, JSON.stringify({ a, t1, t2, t3 }));
+        await c.close();
+      }
+      // D) telefon: KS-1, PR-2, MB-2/MB-4/M-2 mete, MB-5, U-2, A-2, MB-3, A-1, TP-8 sistemska tamna
+      {
+        const { c, p } = await svez({ viewport: { width: 360, height: 740 }, isMobile: true, hasTouch: true });
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await p.waitForSelector('#scriptToggle');
+        await p.tap('#scriptToggle [data-script="cyr"]'); await pauza(700);
+        const ks1 = await p.evaluate(() => ({ open: document.querySelector('#kbdHelp details')?.open, polje: Math.round(document.getElementById('rimeInput').getBoundingClientRect().bottom), h: innerHeight }));
+        ok('KS-1 · prvi izbor ćirilice na telefonu: uputstvo sklopljeno, polje za reč u kadru', ks1.open === false && ks1.polje <= ks1.h, JSON.stringify(ks1));
+        await p.tap('#scriptToggle [data-script="lat"]'); await recnik(p);
+        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await pauza(500);
+        await p.evaluate(() => document.querySelector('#rimeResults .chip .word').focus()); await pauza(300);
+        const pr2 = await p.evaluate(() => ({ otv: !!document.querySelector('.chip-actions:not([hidden])'), exp: document.querySelector('#rimeResults .chip .word').getAttribute('aria-expanded'), pop: document.querySelector('#rimeResults .chip .word').getAttribute('aria-haspopup') }));
+        await p.keyboard.press('Escape'); await pauza(200);
+        const pr2b = await p.evaluate(() => document.querySelector('#rimeResults .chip .word').getAttribute('aria-expanded'));
+        ok('PR-2 · na telefonu fokus tastaturom otvara karticu; aria-haspopup/aria-expanded prate stanje', pr2.otv && pr2.exp === 'true' && pr2.pop === 'true' && pr2b === 'false', JSON.stringify({ pr2, pr2b }));
+        const mete = await p.evaluate(() => [...document.querySelectorAll('#tabs a, .syl-filter button, .script-toggle button, .dark-toggle')].map(e => ({ s: (e.id || e.className || e.textContent).toString().slice(0, 14), h: Math.round(e.getBoundingClientRect().height) })).filter(x => x.h > 0 && x.h < 44));
+        ok('M-2 · na dodirnom ekranu tabovi, filteri i prekidači su bar 44 px visoki', mete.length === 0, JSON.stringify(mete));
+        await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+        const mb4 = await p.evaluate(() => [...document.querySelectorAll('.crumbs a')].map(a => Math.round(a.getBoundingClientRect().height)));
+        ok('MB-4 · linkovi putanje su mete od bar 44 px', mb4.length > 0 && mb4.every(h => h >= 44), JSON.stringify(mb4));
+        const seo1 = await p.evaluate(() => (document.querySelector('.copy-all-btn').dataset.words || '').split(', ').length);
+        ok('SEO-1 · „Kopiraj sve rime" nosi CEO spisak (ljubav: više od 60)', seo1 > 60, String(seo1));
+        await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        await p.tap('#noteEditor'); await p.keyboard.type('moja nada', { delay: 20 }); await p.keyboard.press('Enter'); await p.keyboard.type('tvoja lada', { delay: 20 }); await pauza(900);
+        const mb2 = await p.evaluate(() => { const b = document.querySelector('.note-rhymes .nr-word-btn'); if (!b) return null; const r = b.getBoundingClientRect(); return { h: Math.round(r.height), fs: parseFloat(getComputedStyle(b).fontSize) }; });
+        ok('MB-2 · reč u zaglavlju trake rima je meta od bar 44 px sa slovima bar 12 px', !!mb2 && mb2.h >= 44 && mb2.fs >= 12, JSON.stringify(mb2));
+        const h4 = await p.evaluate(() => { const h = document.querySelector('#noteRhymes h4'); if (!h) return null; const r = h.getBoundingClientRect(); return { x: r.left + 4, y: r.top + r.height / 2 }; });
+        if (h4) { await p.touchscreen.tap(h4.x, h4.y); await pauza(300); }
+        const u2 = await p.evaluate(() => document.activeElement && document.activeElement.id);
+        ok('U-2 · dodir na naslov trake rima ne oduzima fokus beležnici', u2 === 'noteEditor', String(u2));
+        await p.keyboard.press('Escape'); await pauza(200);
+        const a2 = await p.evaluate(() => document.activeElement && document.activeElement.id);
+        ok('A-2 · Escape u beležnici gasi kucanje (fokus napušta editor)', a2 !== 'noteEditor', String(a2));
+        const greske = []; p.on('pageerror', e => greske.push(e.message));
+        await p.goto(BASE + '/vrste-rima/', { waitUntil: 'domcontentloaded' }); await p.waitForFunction(() => typeof updateSyl === 'function', null, { timeout: 30000 }); await pauza(300);
+        await p.evaluate(() => window.dispatchEvent(new Event('resize'))); await pauza(400);
+        ok('MB-3 · strana bez brojača posle kucanja u beležnici: resize bez greške', greske.length === 0, greske.join(' | '));
+        await c.close();
+        const { c: c2, p: p2 } = await svez({ viewport: { width: 844, height: 390 }, isMobile: true, hasTouch: true });
+        await p2.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await p2.waitForSelector('#rimeInput');
+        const mb5 = await p2.evaluate(() => jeTelefon());
+        ok('MB-5 · položen telefon (844×390) se računa kao telefon', mb5 === true);
+        await c2.close();
+        const { c: c3, p: p3 } = await svez({ colorScheme: 'dark' });
+        await p3.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(300);
+        const tp8 = await p3.evaluate(() => ({ dark: document.body.classList.contains('dark-mode'), bg: getComputedStyle(document.body).backgroundColor }));
+        await p3.keyboard.press('Tab'); await p3.keyboard.press('Tab'); await pauza(150);
+        const a1 = await p3.evaluate(() => { const e = document.activeElement; const cs = getComputedStyle(e); return { id: e.id, ow: cs.outlineWidth, os: cs.outlineStyle }; });
+        ok('TP-8 · sistemska tamna tema (bez klika) daje tamnu stranu', tp8.dark === true, JSON.stringify(tp8));
+        ok('A-1 · fokus tastaturom na polju ima vidljiv okvir (outline 3 px)', a1.os !== 'none' && parseFloat(a1.ow) >= 2, JSON.stringify(a1));
+        await c3.close();
+      }
+    }
+
     sek('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));
+    /* TP-11 (22.09.2026): broj provera je deo provere – provera koja tiho nestane (petlja nad praznim skupom,
+       preskočena sekcija) ne sme da prođe kao „sve zeleno". 14.09. je bilo 851, 22.09. 830 bez zabeležene izmene. */
+    ok(`ukupno provera bar 900 (izvršeno ${pass})`, pass >= 900, String(pass));
 
   } finally {
     await browser.close();

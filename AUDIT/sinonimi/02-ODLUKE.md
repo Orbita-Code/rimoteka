@@ -57,3 +57,12 @@
 i ni za jedno nema pravu zamenu. Pitanje vlasnice zavedeno ovde da se ne vraća.
 
 **Nepromenjeno (27–52):** 27, 28, 30, 32–40, 44, 46, 49, 50, 52.
+
+
+## Odobreno 22.09.2026 — grupa 1 (pregled u sesiji), reč 1
+
+| # | Reč | Konačni sinonimi | Napomena |
+|---|---|---|---|
+| 1 | prvi | vodeći, čelni | Ćosić (Rečnik sinonima, 2008) za „prvi" 1. značenje: prvoplasirani, vodeći, predvodeći, čelni, nadmoćni; 2. najbliži; 3. raniji. Vlasnica prihvatila „vodeći, čelni" (18.09. predloženo, 22.09. odobreno). |
+
+Ostatak grupe 1 (reči 2–50, predlog od 17.09.) čeka njen odgovor – ćutanje NIJE odobrenje dok ne kaže „grupa 1 gotova".

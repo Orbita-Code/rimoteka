@@ -10,6 +10,10 @@ Disallow: /*?tab=
 Disallow: /*?pesma=
 Disallow: /*?naslov=
 Disallow: /*?decji=
+Disallow: /*&decji=
+Disallow: /*&tab=
+Disallow: /*?kraj=
+Disallow: /*&kraj=
 # Slika za Gmail potpis (06.09.2026) — nije sadržaj za pretragu.
 Disallow: /potpis/
 

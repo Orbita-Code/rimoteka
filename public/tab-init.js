@@ -2,7 +2,7 @@
    traku za saradnju na početnom tabu, a poziv prikazuje u futeru (04.08.2026).
 
    Mora kao SPOLJNI fajl: CSP zaglavlje na produkciji (`script-src 'self'`)
-   blokira inline skripte — ista ova logika je u HTML-u ćutke bila blokirana,
+   blokira inline skripte – ista ova logika je u HTML-u ćutke bila blokirana,
    pa su na početnoj traka ostajala vidljiva, a futerski poziv skriven
    (uhvatio test protiv produkcije, BASE=rimoteka.com). Zato je ovde, rame uz
    rame sa `dark-mode-init.js` koji iz istog razloga živi kao fajl. */

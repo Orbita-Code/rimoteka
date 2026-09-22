@@ -54,7 +54,7 @@ for (let g = 0; g < PARTIJA; g++) {
     kl('gamePlayers', igraci); kl('gameWords', WPP); kl('gameTime', T); kl('gameRima', mod);
   }, { igraci, T, WPP, mod });
   await p.tap('#gameStart').catch(async () => { await p.evaluate(() => document.getElementById('gameStart').click()); });
-  await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && gameCurrentWord && document.getElementById('gameWord').textContent !== '...', null, { timeout: 10000 }).catch(() => N(g, { greska: 'igra nije počela' }));
+  await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && gameCurrentWord && typeof gameCurrentWord !== 'undefined' && gameCurrentWord !== '', null, { timeout: 10000 }).catch(() => N(g, { greska: 'igra nije počela' }));
   const spisak = await p.evaluate(() => Array.isArray(IGRA_RECI) ? IGRA_RECI.length : 0);
   if (spisak < 500) N(g, { greska: `spisak reči za igru nije učitan (${spisak})` });
   const ocekivano = Array.from({ length: igraci }, () => ({ score: 0, correct: 0 }));
@@ -187,7 +187,7 @@ for (let g = 0; g < PARTIJA; g++) {
         if (h.combo !== 0 || h.badgeVidi) N(g, { igrac: pl + 1, greska: `niz prethodnog igrača (${h.combo}) prenet na sledećeg` });
         if (/[a-zčćžšđ]/i.test(h.naslov + h.sub) && cir) N(g, { igrac: pl + 1, greska: `ekran predaje latinicom u ćirilici: „${(h.naslov + ' ' + h.sub).slice(0, 60)}"` });
         await p.tap('#gameHandoffStart').catch(async () => { await p.evaluate(() => document.getElementById('gameHandoffStart').click()); });
-        await p.waitForFunction(() => gameState === 'play' && gameCurrentWord && document.getElementById('gameWord').textContent !== '...', null, { timeout: 5000 }).catch(() => N(g, { igrac: pl + 2, greska: 'posle „Spreman sam" igra ne kreće' }));
+        await p.waitForFunction(() => gameState === 'play' && gameCurrentWord && typeof gameCurrentWord !== 'undefined' && gameCurrentWord !== '', null, { timeout: 5000 }).catch(() => N(g, { igrac: pl + 2, greska: 'posle „Spreman sam" igra ne kreće' }));
         const s2 = await p.evaluate(() => ({ igrac: document.getElementById('gameCurrentPlayer').textContent, brojac: document.getElementById('gameWordCount').textContent, tajmer: +document.getElementById('gameTimer').textContent }));
         if (+s2.igrac !== pl + 2 || s2.brojac !== `1/${WPP}`) N(g, { igrac: pl + 2, greska: `posle predaje piše Igrač ${s2.igrac}, reč ${s2.brojac}` });
         if (s2.tajmer < T - 1) N(g, { igrac: pl + 2, greska: `tajmer novog igrača počeo od ${s2.tajmer}` });

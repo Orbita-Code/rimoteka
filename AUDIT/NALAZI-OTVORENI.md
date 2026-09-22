@@ -6,6 +6,28 @@
 > Pun opis svakog nalaza: `AUDIT/2026-08-20-audit.md` (najnoviji), pa `2026-08-10-audit.md`,
 > `2026-07-28-audit.md`, `2026-07-29-dopuna.md`. Metod rada: `~/.claude/AUDIT-PROTOKOL.md`
 
+## POPRAVLJENO 22.09.2026 — isti dan kad je audit nađen (sekcija testa 57, 24 provere; na produkciji sa starim kodom padalo 21/24)
+
+| Nalaz | Šta je bilo → šta je sada | Provera |
+|---|---|---|
+| **G-1** | igra pokrenuta pre rečnika ostajala na „…" zauvek, keš rima zatrovan → `RECNIK_P` (obećanje „rečnik stigao"): igra i Reč dana ga čekaju, „Učitavam rečnik…" u polju reči, `aria-busy` na dugmadima, `imaRimu` ne gradi keš nad praznim rečnikom, keš se poništi kad rečnik stigne | 57: „igra pre rečnika" ×2, „Reč dana pre rečnika" |
+| **G-3 / G-2** | pretraga pre rečnika se gubila; status „N reči pronađeno" ostajao iznad „Nema reči" → `pretragaCeka` + pokretanje iz `loadDict().then`; status se briše na početku `doSearch` | 57: „pretraga pre rečnika", „status prazan" |
+| **UI-1** | Enter na granici reči + Backspace gutao razmak („nova jemuka") → `.notepad-text{white-space:pre-wrap}` | 57: ×2 (ispred i iza razmaka) |
+| **C-1** | Enter + pauza ≥500 ms u rimovanoj pesmi gutao prazan red, slovo na kraj prethodnog stiha → `setCaretAtTextPos` iza završnog `<br>` postavlja `cursor-br` i kursor ispred njega (Chromium i WebKit) | 57: ×2 (slovo, Backspace) |
+| **C-3** | čvrsti razmak (U+00A0) u linku, fajlu, štampi, skladištu → `getEditorText` i `paste` ga zamenjuju običnim | 57: „bez čvrstog razmaka" |
+| **C-2** | prebacivanje pisma sa kursorom na praznom redu skakalo u sledeći stih → `getCaretTextPos`/`setCaretAtTextPos` umesto starog para | 57: „prebacivanje pisma" |
+| **NOVO (prijava vlasnice 22.09.)** | dodir usred reči na iPhone-u stavljao kursor na granicu reči (ponašanje iOS-a) → `touchend` + `caretRangeFromPoint` postavlja kursor pod prst (kratak, miran, jednostruki dodir; dugi pritisak i označavanje netaknuti); WebKit 60 % → offset 8 (bilo 10) | 57: „dodir na 60 % reči" (Chromium); WebKit provereno ručno |
+| **UI-2** | „obriši pesmu" + F5 vraćao pesmu iz istorije → briše se i `rimoteka_notes_istorija` | 57 |
+| **UI-3** | posle F5 panel rima „Nema pronađenih" do klika → `renderNoteRhymes()` kad rečnik stigne | 57 |
+| **UI-4** | partija posle F5 na `/igra-rimovanja/` pauzirana do prve tačne rime → `tabIzURLa` prihvata dugme `.active` bez `#panel-` | 57: „nastavlja odbrojavanje" |
+| **SJ-1** | 75 ijekavskih oblika u oba rečnika → premešteni samo u `reci_jekavica.txt` (spisak `AUDIT/SJ-1-premesteni-u-ijekavicu-22-09-2026.txt`); `loadDict` preskače jek-reč koja je već u osnovnom; `djedov*` (5) ČEKA odluku vlasnice | 57: presek = 0, jedinstvene kapsule, bez ijekavskih bez ijekavice |
+| **BZ-1** | `Permissions-Policy: microphone=()` gušio glas u igri od 08.09. → `microphone=(self)` u `nginx.conf` (oba mesta) i u `test/static-server.mjs`; **zaseban deploy** | 57: zaglavlje + `featurePolicy.allowsFeature`; `nginx-provera.sh` ✅ |
+| **PF-2** | CLS 0,70 kad rime stignu posle Entera i gurnu uvodni tekst → `.seo-content` se sklanja odmah pri Enteru pre rečnika (pomak unutar prozora unosa) | 57: „skok strane" (mehanizam); CLS merenje ostaje za sledeći audit |
+| **L-1** | kockica bez dečjeg filtera i zabrana → isti filter kao igra | 57: 20 usmerenih + 60 bacanja (na produkciji hvatalo „nasilje" ×5) |
+| **MB-1 / KS-2** | posle „Počni igru" tajmer iznad kadra → `gamePlay.scrollIntoView({block:'start'})` + `focus({preventScroll:true})` | 57: 390×664 tajmer/reč/polje/Proveri u kadru |
+| **SEO-4 / MB-8** | 404 sa Google fontovima (CSP greške), kanonikal na sebe, h1 = logo → lokalni Rubik, bez kanonikala, h1 = „404", logo `<div class="brand-h">` | 57: „404" |
+| **TP-1 / TP-2 / TP-3 / TP-4** | test bez stanja „pre rečnika", bez F5 posle radnje, bez NBSP provere, kockica bez filtera → sve u sekciji 57 (spor rečnik `route` 3 s; F5 posle brisanja, sa pesmom, usred partije; NBSP u tekstu i skladištu; usmerena kockica) | 57 |
+
 ## STANJE NA DAN 22.09.2026 — pun audit (`AUDIT/2026-09-22-audit.md`, ocena 6,9/10, 12/12 dimenzija)
 
 > Ovo je jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u odeljak
@@ -14,21 +36,12 @@
 
 **KRITIČNO:** (nema)
 
-**VISOKO (9, viđeno 22.09.):**
-- **G-1** igra pokrenuta pre nego što rečnik stigne ostaje na „…" zauvek, keš rima zatrovan pa ni „Reč dana" ne radi do F5 (`app.js:5008, 1735, 5196, 5137`; spora veza: prozor 3,8 s na `/igra-rimovanja/`)
-- **UI-1** beležnica gubi razmak pri Enter na granici reči + Backspace („nova jemuka"), sačuva se, ide u link/fajl (`style.css:928` nema `white-space:pre-wrap`; naš Enter ubacuje `<br>`)
-- **C-1** rimovana pesma: Enter + pauza ≥500 ms guta prazan red, slovo se lepi na prethodni stih, Backspace briše tuđe slovo (`app.js:2355–2370`, `3489–3512` `setCaretAtTextPos` bez `cursor-br`); Chromium i WebKit
-- **SJ-1** 75 ijekavskih reči u OBA rečnika → dupla kapsula sa ijekavicom, ijekavski oblik izlazi i bez ijekavice i na `/rime-za/zvezda/`; `djedov*` ostali u `reci.txt` (`app.js:419` bez dedup)
-- **BZ-1** `nginx.conf:53,79` `Permissions-Policy: microphone=()` → glas u igri (🎤) mrtav od 08.09. u Chrome/Edge; **zaseban deploy** + `nginx-provera.sh`
-- **PF-2** CLS 0,70 (5/5) na sporoj vezi kad rime stignu posle Entera i gurnu SEO tekst (`app.js:1302–1311`); uticaj na Google neproveren (nema CrUX)
-- **TP-1** test ne normalizuje NBSP u beležnici (`predeploy.mjs:4655`) — pad lanca 22.09. + UI-1/C-3 nevidljivi
-- **TP-2** test nema stanje „rečnik još nije stigao" za igru/pretragu (`:1624–1640`) — G-1/G-3 nevidljivi
-- **TP-3** test nikad ne radi F5 posle „obriši pesmu", sa pesmom + panel, usred partije na statičkoj — UI-2/3/4 nevidljivi
+**VISOKO:** (nema – svih 9 popravljeno 22.09., v. odeljak „POPRAVLJENO 22.09.2026" ispod)
 
-**SREDNJE (23 + 8 od ranije):** G-2 (status pretrage zastareo) · G-3 (pretraga pre rečnika se gubi) · UI-2 („obriši pesmu" se vrati posle F5 — istorija) · UI-3 (posle F5 panel rima „Nema pronađenih" do klika) · L-1 (kockica bez dečjeg filtera i zabrana: nasilje, ubistvo, genocid u bazenu) · KS-1 (prvi dodir na Ћирилица na telefonu otvori uputstvo 582 px i sakrije polje i tabove) · MB-1/KS-2 (posle „Počni igru" tajmer iznad kadra na 390×664 Safari i 360×640 Android) · MB-2 (reč u traci beležnice 42×18 px, 10,9 px) · C-2 (prebacivanje pisma sa kursorom na praznom redu skoči u sledeći stih) · PR-1 (dijalog prijave `aria-modal` bez zamke fokusa i dugmeta Zatvori) · PR-3 (oblačić bez `aria-live`, kontrast 2,76/2,18) · PR-4 (igra nema za čitač: reč/tajmer/poruka bez `aria-live`, polje bez etikete, bez pauze, niz 2,11:1) · PF-1 (prva rima na sporoj 7,1 s, granica 5) · PF-3 (`app.js` neminifikovan 105 KB gzip → 44,5) · PF-4 (INP 448 ms; frekvencija blokira 1,1 s posle prikaza) · PF-5 (`app.js` bez `defer`, FCP 2,54 s spora) · SJ-2/3/4 (ASCII zatvoreni navodnik: 2 HTML, 5 poruka, 283 objašnjenja) · SJ-5 (12.435 „Oblik reči X" ka nepostojećoj osnovi) · SJ-6 (također, kruhova, „obitelj" — odluka) · SJ-7 (15.314 objašnjenja završava samom reči) · TP-4 (kockica/BLOCKED bez provere) · TP-5 (BLOCKED JS 38 vs Python ~50; `count_syl`≠`countSyl` bez poređenja) · TP-6/7/8 (kanonikal posle JS; click 197 vs Enter 8; stanja koja test ne uspostavi)
+**SREDNJE (15 + 8 od ranije):** KS-1 (prvi dodir na Ћирилица na telefonu otvori uputstvo 582 px i sakrije polje i tabove) · MB-2 (reč u traci beležnice 42×18 px, 10,9 px) · PR-1 (dijalog prijave `aria-modal` bez zamke fokusa i dugmeta Zatvori) · PR-3 (oblačić bez `aria-live`, kontrast 2,76/2,18) · PR-4 (igra nema za čitač: reč/tajmer/poruka bez `aria-live`, polje bez etikete, bez pauze, niz 2,11:1) · PF-1 (prva rima na sporoj 7,1 s, granica 5) · PF-3 (`app.js` neminifikovan 105 KB gzip → 44,5) · PF-4 (INP 448 ms; frekvencija blokira 1,1 s posle prikaza) · PF-5 (`app.js` bez `defer`, FCP 2,54 s spora) · SJ-2/3/4 (ASCII zatvoreni navodnik: 2 HTML, 5 poruka, 283 objašnjenja) · SJ-5 (12.435 „Oblik reči X" ka nepostojećoj osnovi) · SJ-6 (također, kruhova, „obitelj" — odluka) · SJ-7 (15.314 objašnjenja završava samom reči) · TP-5 (BLOCKED JS 38 vs Python ~50; `count_syl`≠`countSyl` bez poređenja) · TP-6/7/8 (kanonikal posle JS; click 197 vs Enter 8; stanja koja test ne uspostavi)
 Od ranije: K-2 (odluka vlasnice) · U-1 · U-2 · U-3 · SEO-1 · B-1 · A-1 · M-2
 
-**NISKO (37 + 9 od ranije):** G-4 · UI-4 (partija posle F5 na statičkoj pauzirana do prve tačne rime) · UI-5..8 · L-2 (BLOCKED bez kvačica: smeće, đubre) · L-3 (zarđati 3 sloga, žanr 2) · L-4 · L-5 · C-3 (NBSP u izvozima) · SEO-2 (sirovi kanonikal `?rec=` — meriti 14 dana, NE 301) · SEO-3..8 · PR-2 (≤560 px kartica tastaturom ne, click da) · PR-2b (600 px Enter zatvori karticu, fokus na body) · PR-5..7 · PF-6 (logo WebP — odluka) · PF-7 · BZ-2..5 · MB-3 (resize TypeError na stranama bez brojača) · MB-4..7 · SJ-8..13 · TP-9..11
+**NISKO (33 + 9 od ranije):** G-4 · UI-5..8 · L-2 (BLOCKED bez kvačica: smeće, đubre) · L-3 (zarđati 3 sloga, žanr 2) · L-4 · L-5 · SEO-2 (sirovi kanonikal `?rec=` — meriti 14 dana, NE 301) · SEO-3 · SEO-5..8 · PR-2 (≤560 px kartica tastaturom ne, click da) · PR-2b (600 px Enter zatvori karticu, fokus na body) · PR-5..7 · PF-6 (logo WebP — odluka) · PF-7 · BZ-2..5 · MB-3 (resize TypeError na stranama bez brojača) · MB-4..7 · SJ-8..13 · TP-9..11
 Od ranije: A-2 · A-3 · P-2 · P-3 · S-1 · B-2 · B-3 · B-4 · U-4
 
 **ČEKA ODLUKU VLASNICE:** K-2 · sporne reči (75 dupli, `djedov*` 5, 131 kraćih od 3 slova, 48 skraćenica bez samoglasnika, ~12 šum sa „r", 2.443 ćelave — uzorak 5/13 nema u Matici, prezimena malim slovom) · PF-6 logo · PF-7 · SJ-6 · S6 · N-18

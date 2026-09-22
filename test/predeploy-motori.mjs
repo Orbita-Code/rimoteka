@@ -156,7 +156,7 @@ try {
       await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
       await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 }); await pauza(300);
       await dodir(p, '#gameStart');
-      await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && document.getElementById('gameWord').textContent !== '...', null, { timeout: 15000 }).catch(() => {});
+      await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && typeof gameCurrentWord !== 'undefined' && gameCurrentWord !== '', null, { timeout: 15000 }).catch(() => {});
       const rec = await p.evaluate(() => gameCurrentWord);
       await p.fill('#gameInput', 'xqzwv'); await dodir(p, '#gameSubmit'); await pauza(300);
       const fb1 = await p.evaluate(() => document.getElementById('gameFeedback').className);

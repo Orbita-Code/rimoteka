@@ -34,7 +34,7 @@ for (let g = 0; g < PARTIJA; g++) {
   const izabrano = await p.evaluate(() => +((document.querySelector('#gameTime .game-option.active') || {}).dataset || {}).value);
   if (izabrano !== t) nalazi.push({ partija: g, greska: `opcija ${t} s se nije izabrala (aktivno ${izabrano})` });
   await p.tap('#gameStart').catch(async () => { await p.evaluate(() => document.getElementById('gameStart').click()); });
-  await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && document.getElementById('gameWord').textContent !== '...', null, { timeout: 10000 }).catch(() => nalazi.push({ partija: g, greska: 'igra nije počela' }));
+  await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && typeof gameCurrentWord !== 'undefined' && gameCurrentWord !== '', null, { timeout: 10000 }).catch(() => nalazi.push({ partija: g, greska: 'igra nije počela' }));
   let ocekivano = 0;
   for (let i = 0; i < 5; i++) {
     const stanje = await p.evaluate(() => ({ rec: gameCurrentWord, prikaz: document.getElementById('gameWord').textContent, tajmer: +document.getElementById('gameTimer').textContent, idx: gameCurrentWordIdx }));

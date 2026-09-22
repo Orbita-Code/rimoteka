@@ -10,8 +10,15 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 1a. ISTI DAN (22.09., posle audita) – popravljeno svih 9 visokih + što je vlasnica tražila
+Sve u `app.js`/`style.css`/`404.html`/`reci.txt` + `nginx.conf` (mikrofon, ZASEBAN deploy). Sekcija testa **57** (24 provere;
+na produkciji sa starim kodom padalo 21/24 – dokaz da hvataju). Spisak: `AUDIT/NALAZI-OTVORENI.md`, odeljak „POPRAVLJENO 22.09.2026".
+Novo od vlasnice: dodir usred reči u beležnici na iPhone-u sad stavlja kursor pod prst (`touchend` + `caretRangeFromPoint`).
+`djedov*` (5 oblika) ostaje u `reci.txt` – čeka njenu odluku. Ostaje otvoreno: 15 srednjih (KS-1, MB-2, PR-1, PR-3, PR-4, PF-1,
+PF-3, PF-4, PF-5, SJ-2..7, TP-5..8) + 33 niska.
+
 ## 2. Šta sledeća sesija radi PRVO
-1. Krug popravki po redosledu iz audita: C-1 + UI-1 + C-3 + C-2 (beležnica) → G-1 + G-3 + G-2 (red čekanja za rečnik) → UI-2 + UI-3 → SJ-1 (75 reči, odluka za `djedov*`) → L-1 + L-2 → **BZ-1 u zaseban deploy** (`microphone=(self)`, `nginx-provera.sh`). Za svaki: provera u testu prvo pada na produkciji.
+1. ~~Krug popravki visokih~~ URAĐENO 22.09. (v. 1a). Sledeći krug: KS-1 (uputstvo za ćirilicu na telefonu), MB-2, PR-1, PR-3, PR-4, PF-3 + PF-5 (minifikacija + defer, jedan deploy, pa izmeriti), PF-1 (rečnik po kantama), SJ-5/SJ-7 skripte nad objašnjenjima → spisak za odluku.
 2. Sinonimi grupa 1 → čeka vlasnicu; kad odgovori: upis u `sinonimi.json`, `02-ODLUKE.md`, brisanje grupe iz reda.
 3. Analitika 14 dana od 12.09. (26.09.): `?rec=` grupa, CWV u GSC (PF-2 uticaj), indeksiranost.
 

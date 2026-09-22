@@ -5810,7 +5810,7 @@ async function main() {
         await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
         await pauza(300);
         await p.click('#gameStart');
-        await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && document.getElementById('gameWord').textContent !== '...', null, { timeout: 15000 });
+        await p.waitForFunction(() => document.getElementById('gamePlay').style.display === 'block' && typeof gameCurrentWord !== 'undefined' && gameCurrentWord !== '', null, { timeout: 15000 });
         await pauza(1200);
         const pre = await p.evaluate(() => ({ rec: document.getElementById('gameWord').textContent, tajmer: +document.getElementById('gameTimer').textContent, sacuvano: !!sessionStorage.getItem('rimoteka_igra') }));
         ok('A4 · partija u toku je sačuvana u sessionStorage', pre.sacuvano, JSON.stringify(pre));
@@ -6450,6 +6450,209 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
       const e2 = await p.evaluate(() => { const ed = document.getElementById('noteEditor'); const box = document.getElementById('noteRhymes'); const tr = box.getBoundingClientRect(); const vv = window.visualViewport; const sel = window.getSelection(); const rng = sel.getRangeAt(0); let r = rng.getBoundingClientRect(); if (!r.height) { const sc = rng.startContainer; const pre = sc.nodeType === 1 && rng.startOffset > 0 ? sc.childNodes[rng.startOffset - 1] : null; if (pre && pre.getBoundingClientRect) { const pr = pre.getBoundingClientRect(); r = { top: pr.bottom, bottom: pr.bottom + 30 }; } } const edr = ed.getBoundingClientRect(); return { scrollY: Math.round(window.scrollY), kursorTop: Math.round(r.top), kursorDno: Math.round(r.bottom), trakaDno: Math.round(tr.bottom), vid: vv.height, dnoEditora: Math.round(edr.bottom), redova: (ed.innerText.match(/\n/g) || []).length }; });
       ok(`beležnica × telefon · Enter usred pesme NE baca na dno (pomak ${e2.scrollY - preEnter} px, dozvoljeno ≤ 40)`, Math.abs(e2.scrollY - preEnter) <= 40, JSON.stringify({ preEnter, e2 }));
       ok(`beležnica × telefon · posle Entera novi red je između trake i tastature`, e2.kursorTop >= e2.trakaDno - 2 && e2.kursorDno <= e2.vid + 2, JSON.stringify(e2));
+        await c.close();
+      }
+    }
+
+    sek('\n57) AUDIT 22.09.2026 – visoki nalazi: igra pre rečnika, beležnica (razmak, prazan red, dodir), 75 dupliranih reči, mikrofon, 404, kockica, F5');
+    {
+      const fs57 = await import('node:fs');
+      const svez = async (opts = {}, init) => {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 }, ...opts });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1'); } catch (e) {} });
+        if (init) await c.addInitScript(init);
+        const p = ojacajStranu(await c.newPage());
+        p.on('dialog', d => d.accept());
+        return { c, p };
+      };
+      const recnik = (p) => p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+      const kasniRecnik = (p, ms) => p.route('**/reci.txt*', r => setTimeout(() => r.continue(), ms));
+
+      // A) BZ-1 – mikrofon dozvoljen sopstvenom sajtu (zaglavlje + featurePolicy)
+      {
+        const h = (await fetch(BASE + '/igra-rimovanja/')).headers.get('permissions-policy') || '';
+        ok('mikrofon · zaglavlje Permissions-Policy dozvoljava mikrofon sajtu (microphone=(self), ne ())', /microphone=\(self\)/.test(h) && !/microphone=\(\)/.test(h), h);
+        const { c, p } = await svez();
+        await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
+        const fp = await p.evaluate(() => document.featurePolicy ? document.featurePolicy.allowsFeature('microphone') : null);
+        ok('mikrofon · pregledač na strani igre sme da koristi mikrofon (featurePolicy)', fp === true || fp === null, String(fp));
+        await c.close();
+      }
+      // B) SEO-4/MB-8 – 404 bez Google fontova, sa jednim h1, bez kanonikala na sebe
+      {
+        const r = await fetch(BASE + '/nema-ovoga-404-' + Date.now() + '/'); const t = await r.text();
+        ok('404 · status 404, bez Google fontova, tačno jedan h1, bez kanonikala na 404.html', r.status === 404 && !/fonts\.g/.test(t) && (t.match(/<h1[\s>]/g) || []).length === 1 && !/rel="canonical"/.test(t), `${r.status} fonts=${/fonts\.g/.test(t)} h1=${(t.match(/<h1[\s>]/g) || []).length}`);
+      }
+      // C) SJ-1 – nijedna reč u oba rečnika; sa ijekavicom kapsule jedinstvene; bez ijekavice nijedna ijekavska
+      {
+        const ek = new Set(fs57.readFileSync(path.join(ROOT, 'public/reci.txt'), 'utf8').split('\n').filter(Boolean));
+        const jek = fs57.readFileSync(path.join(ROOT, 'public/reci_jekavica.txt'), 'utf8').split('\n').filter(Boolean);
+        const presek = jek.filter(w => ek.has(w));
+        ok('rečnik · nijedna reč nije i u reci.txt i u reci_jekavica.txt', presek.length === 0, presek.slice(0, 8).join(','));
+        const { c, p } = await svez();
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        const bez = await p.evaluate(async (jekSet) => {
+          const iz = (q) => { rimeInput.value = q; doRhymes(); return [...document.querySelectorAll('#rimeResults .chip .word')].map(e => e.textContent.trim()); };
+          const s = new Set(jekSet); const out = {};
+          for (const q of ['zvezda', 'vetrenjača', 'devica']) { const r = iz(q); out[q] = { n: r.length, jek: r.filter(w => s.has(w)) }; }
+          return out;
+        }, jek);
+        ok('rečnik · bez ijekavice nijedna ijekavska reč među rimama (zvezda, vetrenjača, devica)', Object.values(bez).every(x => x.jek.length === 0), JSON.stringify(bez));
+        await p.click('#jekToggle'); await pauza(300);
+        const sa = await p.evaluate(() => {
+          const iz = (q) => { rimeInput.value = q; doRhymes(); return [...document.querySelectorAll('#rimeResults .chip .word')].map(e => e.textContent.trim()); };
+          const out = {};
+          for (const q of ['zvezda', 'vetrenjača', 'devica']) { const r = iz(q); const st = (document.getElementById('rimeStatus').textContent.match(/\d+/) || [0])[0]; out[q] = { n: r.length, jedinstvenih: new Set(r).size, status: Number(st) }; }
+          return out;
+        });
+        ok('rečnik · sa ijekavicom nijedna reč dvaput, a broj u statusu = broj kapsula', Object.values(sa).every(x => x.n === x.jedinstvenih && x.status === x.n), JSON.stringify(sa));
+        await c.close();
+      }
+      // D) L-1 – kockica u dečjem režimu nikad ne da zabranjenu reč
+      {
+        const { c, p } = await svez({}, () => { try { localStorage.setItem('rimoteka_kids', '1'); } catch (e) {} });
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        await p.waitForFunction(() => typeof getCommonPool === 'function' && (getCommonPool() || []).length > 1000, null, { timeout: 60000 });   // bazen kockice traži učestalost
+        /* Deterministički: prvi bačaj se NAMERNO usmeri na zabranjenu reč iz bazena (Math.random se podmetne za
+           jedan poziv). Stari kod (bez filtera) bi je upisao u polje; novi je mora preskočiti. Plus 60 običnih bacanja. */
+        const r = await p.evaluate(() => {
+          const pool = getCommonPool() || []; const orig = Math.random;
+          const idx = pool.findIndex(w => isKidsBlocked(String(w).toLowerCase()));
+          const lose = []; let n = 0, ciljano = 0;
+          for (let i = 0; i < 20 && idx >= 0; i++) { let k = 0; Math.random = () => (k++ === 0 ? (idx + 0.5) / pool.length : orig()); el('randomBtn').click(); Math.random = orig; const w = rimeInput.value.trim().toLowerCase(); ciljano++; if (BLOCKED.has(w) || isKidsBlocked(w)) lose.push(w); }
+          for (let i = 0; i < 60; i++) { el('randomBtn').click(); const w = rimeInput.value.trim().toLowerCase(); if (!w) continue; n++; if (BLOCKED.has(w) || isKidsBlocked(w)) lose.push(w); }
+          return { n, ciljano, idx, lose, kids: kidsMode, primer: idx >= 0 ? pool[idx] : null };
+        });
+        ok('kockica · dečji režim: 20 bacanja usmerenih na zabranjenu reč iz bazena + 60 običnih, nijedna zabranjena', r.kids === true && r.idx >= 0 && r.ciljano === 20 && r.n >= 50 && r.lose.length === 0, JSON.stringify(r));
+        await c.close();
+      }
+      // E) G-1 – igra pokrenuta pre rečnika ČEKA pa krene sama; Reč dana isto; G-3 pretraga pre rečnika; PF-2 seo tekst
+      {
+        const { c, p } = await svez();
+        await kasniRecnik(p, 3000);
+        await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
+        await p.waitForSelector('#gameStart');
+        const pre = await p.evaluate(() => ({ busy: document.getElementById('gameStart').getAttribute('aria-busy'), words: WORDS.length }));
+        await p.click('#gameStart'); await pauza(300);
+        const tok = await p.evaluate(() => ({ rec: document.getElementById('gameWord').textContent, submit: document.getElementById('gameSubmit').disabled, state: gameState }));
+        await recnik(p);
+        await p.waitForFunction(() => gameCurrentWord !== '', null, { timeout: 6000 }).catch(() => {});
+        const posle = await p.evaluate(() => ({ rec: gameCurrentWord, kes: RHYME_COUNTS ? RHYME_COUNTS.size : 0, tajmer: document.getElementById('gameTimer').textContent, busy: document.getElementById('gameStart').getAttribute('aria-busy') }));
+        ok('igra pre rečnika · dugme nosi aria-busy, posle klika piše „Učitavam rečnik…" i „Proveri" je ugašeno', pre.words === 0 && pre.busy === 'true' && /re[čc]nik|речник/i.test(tok.rec) && tok.submit === true, JSON.stringify({ pre, tok }));
+        ok('igra pre rečnika · kad rečnik stigne, reč se zada SAMA, keš rima pun, dugme više nije busy', posle.rec !== '' && posle.kes > 1000 && posle.busy === null, JSON.stringify(posle));
+        await c.close();
+        // Reč dana pre rečnika
+        const { c: c2, p: p2 } = await svez();
+        await kasniRecnik(p2, 2500);
+        await p2.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' });
+        await p2.waitForSelector('#gameDaily'); await p2.click('#gameDaily');
+        await recnik(p2);
+        await p2.waitForFunction(() => gameState === 'play' && gameCurrentWord !== '', null, { timeout: 8000 }).catch(() => {});
+        const rd = await p2.evaluate(() => ({ st: gameState, rec: gameCurrentWord, dn: typeof gameDnevna !== 'undefined' ? gameDnevna : null }));
+        ok('Reč dana pre rečnika · klik pre rečnika ipak pokrene partiju kad rečnik stigne', rd.st === 'play' && rd.rec !== '' && rd.dn === true, JSON.stringify(rd));
+        await c2.close();
+        // G-3 pretraga pre rečnika + G-2 status; PF-2 seo tekst
+        const { c: c3, p: p3 } = await svez();
+        await kasniRecnik(p3, 2500);
+        await p3.goto(BASE + '/rime-po-zavrsetku/', { waitUntil: 'domcontentloaded' });
+        await p3.waitForSelector('#searchInput'); await p3.fill('#searchInput', 'ljub'); await p3.keyboard.press('Enter'); await pauza(200);
+        const pre3 = await p3.evaluate(() => document.getElementById('searchResults').textContent);
+        await recnik(p3); await pauza(600);
+        const r3 = await p3.evaluate(() => ({ n: document.querySelectorAll('#searchResults .word').length, status: document.getElementById('searchStatus').textContent }));
+        ok('pretraga pre rečnika · ukucano pre rečnika se izvrši samo kad rečnik stigne', /re[čc]nik|речник/i.test(pre3) && r3.n > 0 && /\d+/.test(r3.status), JSON.stringify({ pre3: pre3.slice(0, 40), r3 }));
+        const r3b = await p3.evaluate(() => { document.getElementById('searchInput').value = 'xyzqw'; doSearch(); return { txt: document.getElementById('searchResults').textContent.slice(0, 30), status: document.getElementById('searchStatus').textContent }; });
+        ok('pretraga · posle „Nema reči" status je prazan (ne stari broj)', /Nema/.test(r3b.txt) && r3b.status === '', JSON.stringify(r3b));
+        await c3.close();
+        const { c: c4, p: p4 } = await svez({ viewport: { width: 390, height: 844 } });
+        await kasniRecnik(p4, 2500);
+        await p4.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await p4.waitForSelector('#rimeInput'); await p4.fill('#rimeInput', 'ljubav'); await p4.keyboard.press('Enter'); await pauza(150);
+        const seo = await p4.evaluate(() => [...document.querySelectorAll('.seo-content')].map(s => s.hidden));
+        ok('skok strane · Enter pre rečnika odmah sklanja uvodni tekst (da ga rime kasnije ne gurnu – CLS)', seo.length > 0 && seo.every(Boolean), JSON.stringify(seo));
+        await c4.close();
+      }
+      // F) beležnica – UI-1 razmak, C-1 prazan red posle pauze, C-3 bez čvrstog razmaka
+      {
+        const { c, p } = await svez();
+        await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        const ocisti = () => p.evaluate(() => { const e = document.getElementById('noteEditor'); e.innerHTML = ''; e.focus(); });
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('nova je muka', { delay: 30 });
+        for (let i = 0; i < 4; i++) await p.keyboard.press('ArrowLeft');
+        await p.keyboard.press('Enter'); await pauza(150); await p.keyboard.press('Backspace'); await pauza(300);
+        const t1 = await p.evaluate(() => getEditorText());
+        ok('beležnica · Enter ispred reči pa Backspace vraća razmak („nova je muka", ne „nova jemuka")', t1 === 'nova je muka', JSON.stringify(t1));
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('nova je muka', { delay: 30 });
+        for (let i = 0; i < 5; i++) await p.keyboard.press('ArrowLeft');
+        await p.keyboard.press('Enter'); await pauza(150); await p.keyboard.press('Backspace'); await pauza(300);
+        const t1b = await p.evaluate(() => getEditorText());
+        ok('beležnica · Enter iza reči (ispred razmaka) pa Backspace vraća razmak', t1b === 'nova je muka', JSON.stringify(t1b));
+        // C-1: rimovana pesma + pauza duža od tajmera boja
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('gde je moja lada', { delay: 30 }); await p.keyboard.press('Enter');
+        await p.keyboard.type('tu je moja nada', { delay: 30 }); await p.keyboard.press('Enter');
+        await pauza(900);
+        await p.keyboard.type('Tu', { delay: 30 }); await pauza(200);
+        const t2 = await p.evaluate(() => getEditorText());
+        ok('beležnica · Enter na kraju rimovane pesme + pauza 0,9 s → slovo ide u NOV red, ne na kraj prethodnog stiha', t2 === 'gde je moja lada\ntu je moja nada\nTu', JSON.stringify(t2));
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('gde je moja lada', { delay: 30 }); await p.keyboard.press('Enter');
+        await p.keyboard.type('tu je moja nada', { delay: 30 }); await p.keyboard.press('Enter');
+        await pauza(900); await p.keyboard.press('Backspace'); await pauza(200);
+        const t2b = await p.evaluate(() => getEditorText());
+        ok('beležnica · Backspace posle pauze briše prazan red, ne slovo prethodnog stiha', t2b === 'gde je moja lada\ntu je moja nada', JSON.stringify(t2b));
+        // C-3: slovo usred reda ispred obojene rime → bez čvrstog razmaka u tekstu i skladištu
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('prvi red', { delay: 30 }); await p.keyboard.press('Enter'); await p.keyboard.type('treći red', { delay: 30 }); await pauza(900);
+        await p.evaluate(() => { const e = document.getElementById('noteEditor'); const t = e.firstChild; const r = document.createRange(); r.setStart(t, 4); r.collapse(true); const s = getSelection(); s.removeAllRanges(); s.addRange(r); });
+        await p.keyboard.type('X'); await pauza(900);
+        const t3 = await p.evaluate(() => ({ txt: getEditorText(), ls: localStorage.getItem('rimoteka_notes') || '' }));
+        ok('beležnica · slovo umetnuto ispred obojene rime ne ostavlja čvrsti razmak ni u tekstu ni u skladištu', t3.txt.startsWith('prviX red') && !/ /.test(t3.txt) && !/ /.test(t3.ls), JSON.stringify(t3.txt));
+        // C-2: prebacivanje pisma sa kursorom na praznom srednjem redu
+        await ocisti(); await p.click('#noteEditor');
+        await p.keyboard.type('prva nada', { delay: 20 }); await p.keyboard.press('Enter'); await p.keyboard.press('Enter'); await p.keyboard.type('druga lada', { delay: 20 }); await pauza(700);
+        await p.evaluate(() => setCaretAtTextPos(10));
+        await p.click('#scriptToggle [data-script="cyr"]'); await pauza(500);
+        await p.evaluate(() => document.getElementById('noteEditor').focus({ preventScroll: true })); await pauza(100);   // fokus nazad, označeno mesto ostaje
+        await p.keyboard.type('т'); await pauza(300);
+        const t4 = await p.evaluate(() => getEditorText());
+        ok('beležnica · prebacivanje pisma sa kursorom na praznom redu ostavlja kursor tamo (slovo ide u prazan red)', t4 === 'прва нада\nт\nдруга лада', JSON.stringify(t4));
+        await p.click('#scriptToggle [data-script="lat"]').catch(() => {});
+        // UI-2: obriši pesmu je trajno (i istorija)
+        await ocisti(); await p.click('#noteEditor'); await p.keyboard.type('pesma za brisanje', { delay: 20 }); await pauza(800);
+        await p.click('#clearNotes'); await pauza(400);
+        await p.reload({ waitUntil: 'domcontentloaded' }); await pauza(800);
+        const t5 = await p.evaluate(() => ({ txt: getEditorText().trim(), ist: localStorage.getItem('rimoteka_notes_istorija') }));
+        ok('beležnica · „obriši pesmu" + F5 → i dalje prazno (istorija obrisana)', t5.txt === '' && (!t5.ist || t5.ist === '[]'), JSON.stringify(t5));
+        // UI-3: posle F5 sa pesmom panel rima se iscrta bez klika
+        await ocisti(); await p.click('#noteEditor'); await p.keyboard.type('moja luda', { delay: 20 }); await p.keyboard.press('Enter'); await p.keyboard.type('tvoja buda', { delay: 20 }); await pauza(900);
+        await p.reload({ waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(1200);
+        const t6 = await p.evaluate(() => ({ empty: !!document.querySelector('#noteRhymes .nr-empty'), chips: document.querySelectorAll('#noteRhymes .chip').length, txt: getEditorText() }));
+        ok('beležnica · posle F5 panel rima je iscrtan bez klika (nema „Nema pronađenih rima")', t6.empty === false && t6.chips > 0, JSON.stringify(t6));
+        await c.close();
+      }
+      // G) dodir usred reči (telefon) stavlja kursor tamo; MB-1 posle „Počni igru" tajmer u kadru; UI-4 partija posle F5 teče
+      {
+        const { c, p } = await svez({ viewport: { width: 390, height: 664 }, isMobile: true, hasTouch: true });
+        await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        await p.evaluate(() => { const e = document.getElementById('noteEditor'); e.innerHTML = 'gde je moja lada<br>tu je moja nada'; e.dispatchEvent(new Event('input', { bubbles: true })); });
+        await pauza(900);
+        const rr = await p.evaluate(() => { const e = document.getElementById('noteEditor'); const w = document.createTreeWalker(e, NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) { if (n.data.startsWith('tu je')) { const i = n.data.indexOf('moja'); const r = document.createRange(); r.setStart(n, i); r.setEnd(n, i + 4); const b = r.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; } } });
+        await p.touchscreen.tap(rr.x + rr.w * 0.6, rr.y + rr.h / 2); await pauza(400);
+        const kur = await p.evaluate(() => { const s = getSelection(); const r = s.getRangeAt(0); return { off: r.startOffset, txt: r.startContainer.nodeType === 3 ? r.startContainer.data : r.startContainer.nodeName }; });
+        ok('beležnica × telefon · dodir na 60 % reči „moja" stavlja kursor USRED reči (ne na početak/kraj)', kur.txt === 'tu je moja ' && kur.off >= 7 && kur.off <= 9, JSON.stringify(kur));
+        await p.goto(BASE + '/igra-rimovanja/', { waitUntil: 'domcontentloaded' }); await recnik(p);
+        await p.tap('#gameStart'); await p.waitForFunction(() => gameCurrentWord !== '', null, { timeout: 8000 }).catch(() => {}); await pauza(500);
+        const kadar = await p.evaluate(() => { const g = id => { const r = document.getElementById(id).getBoundingClientRect(); return { top: Math.round(r.top), bottom: Math.round(r.bottom) }; }; return { h: innerHeight, tajmer: g('gameTimer'), rec: g('gameWord'), polje: g('gameInput'), proveri: g('gameSubmit') }; });
+        ok('igra × telefon (390×664) · posle „Počni igru" tajmer, reč, polje i „Proveri" su svi u kadru', kadar.tajmer.top >= 0 && kadar.rec.top >= 0 && kadar.polje.bottom <= kadar.h && kadar.proveri.bottom <= kadar.h, JSON.stringify(kadar));
+        // UI-4: F5 usred partije na statičkoj strani → tajmer teče
+        const pre4 = await p.evaluate(() => Number(document.getElementById('gameTimer').textContent));
+        await p.reload({ waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(2500);
+        const a = await p.evaluate(() => ({ t: Number(document.getElementById('gameTimer').textContent), pauza: typeof igraPauzirana !== 'undefined' ? igraPauzirana : null, st: gameState }));
+        await pauza(2000);
+        const b = await p.evaluate(() => Number(document.getElementById('gameTimer').textContent));
+        ok('igra · partija vraćena posle F5 na /igra-rimovanja/ nastavlja odbrojavanje (nije pauzirana)', a.st === 'play' && a.pauza === false && b < a.t, JSON.stringify({ pre4, a, b }));
         await c.close();
       }
     }

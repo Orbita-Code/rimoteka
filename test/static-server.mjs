@@ -70,6 +70,8 @@ const srv = http.createServer((req, res) => {
 
   res.writeHead(200, {
     'Content-Type': TIPOVI[path.extname(fajl).toLowerCase()] || 'application/octet-stream',
+    // isto kao nginx.conf – da test i lokalno proveri da sajt sme da koristi mikrofon (BZ-1, 22.09.2026)
+    'Permissions-Policy': 'geolocation=(), microphone=(self), camera=()',
     'Cache-Control': 'public, max-age=3600',
     'ETag': etag,
     'Content-Length': st.size

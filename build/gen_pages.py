@@ -303,7 +303,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=b805cac7">
+<link rel="stylesheet" href="/style.css?v=12b728d4">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -480,13 +480,13 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script src="/app.js?v=a73176b5"></script>\n'
+TOOL_SCRIPT = '<script src="/app.js?v=0c691edc"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
 # – inače pregledač skine rečnik DVA puta. Test to poredi. Ubacuje se samo na strane
 # koje rečnik stvarno skidaju (v. `trebaRecnik` u app.js).
-RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=c8784bf5" crossorigin>'
+RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=c33c2046" crossorigin>'
 def sa_preloadom_recnika(html):
     treba = any(m in html for m in ('id="rimeInput"', 'id="searchInput"', 'id="noteEditor"', 'id="gameSetup"'))
     if not treba or RECI_PRELOAD in html:

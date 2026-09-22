@@ -483,6 +483,12 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
 20. **Svaka reč u rečniku** (sekcija 54) — SVE reči, alat i generator: slogovi i ključ rime ne zavise od
     velikog slova, svaka ≥1 slog, svaka u pretrazi; 25 reči sa velikim slovom izlaze kao rime (pravilo 6.4)
 
+21. **Audit 22.09. – stanja koja test ranije nije uspostavljao** (sekcija 57, 24 provere): rečnik koji KASNI (`route` 3 s) pa
+    igra/Reč dana/pretraga pokrenute pre njega; beležnica – Enter+Backspace čuva razmak, Enter+pauza 0,9 s u rimovanoj pesmi,
+    bez čvrstog razmaka, pismo sa praznog reda, dodir usred reči (telefon), „obriši pesmu"+F5, panel rima posle F5; igra – F5
+    usred partije na statičkoj strani, tajmer u kadru posle Starta na 390×664; kockica u dečjem režimu (usmerena na zabranjenu
+    reč); 75 ijekavskih reči nisu u oba rečnika; `Permissions-Policy` dozvoljava mikrofon; 404 bez Google fontova.
+
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 **Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test
 traje 15 minuta, a nova provera najčešće prvo padne na sopstvenoj grešci.

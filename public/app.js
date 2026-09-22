@@ -159,6 +159,11 @@ function sacuvajOmiljene(){
 
 /* ====================== Stanje ====================== */
 let WORDS = [];          // sve reči (ekavske + ijekavske na kraju), latinica
+/* OBEĆANJE „REČNIK JE STIGAO" – jedno mesto na koje čekaju igra, Reč dana i pretraga (audit 22.09.2026,
+   nalazi G-1 i G-3). Do tada je red čekanja postojao samo za rime (`cekaRec`), pa je igra pokrenuta pre
+   rečnika ostajala na „…" zauvek, a pretraga ukucana pre rečnika se tiho gubila. */
+let recnikStigaoResolve = null;
+const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
 let KEYS = [];           // jak ključ rime za svaku reč
 let MALE = [];           // ista reč malim slovima – za poređenja (v. `Beograd`)
 let RANK = new Map();    // reč -> indeks (manji = češća)
@@ -406,7 +411,7 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek] = await Promise.all([
-    uzmiTekst('/reci.txt?v=c8784bf5', true),
+    uzmiTekst('/reci.txt?v=c33c2046', true),
     uzmiTekst('/reci_jekavica.txt?v=e88c5a8a', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -415,7 +420,11 @@ async function loadDict(){
     throw new Error('reci.txt je stigao nepotpun (' + ek.length + ' bajtova)');
   }
   const ekWords = ek.split('\n').filter(Boolean);
-  const jekWords = jek.split('\n').filter(Boolean);
+  /* Ijekavska reč koja već stoji u osnovnom rečniku se NE dodaje drugi put (audit 22.09.2026, SJ-1):
+     75 oblika (zvijezda, grijeh, bijes…) bilo je u oba fajla, pa je ista reč izlazila kao dve kapsule.
+     Podaci su očišćeni; ovo je branik da se to ne vrati kroz sledeći uvoz reči. */
+  const uOsnovnom = new Set(ekWords);
+  const jekWords = jek.split('\n').filter(w => w && !uOsnovnom.has(w));
   const svi = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
 
   /* OBRADA U KOMADIMA, NE U JEDNOM DAHU.
@@ -453,6 +462,11 @@ async function loadDict(){
   }
   jekStart = ekWords.length;
   WORDS = svi; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup;
+  /* Keš broja rima (igra) se gradi tek nad punim rečnikom – ako ga je neko dodirnuo pre ovoga,
+     ovde se poništava (G-1: prazan keš je trajno lomio igru i Reč dana). Pa se obaveštavaju svi
+     koji čekaju rečnik. */
+  RHYME_COUNTS = null; LOOSE_COUNTS = null;
+  if(recnikStigaoResolve){ recnikStigaoResolve(); recnikStigaoResolve = null; }
 
   // Zatim učitaj frekvenciju i sinonime u pozadini – ne blokiraju rime
   loadExtras();
@@ -1243,6 +1257,7 @@ let loose = false;
 let lastTrackedRhyme = '';   // GA4: da isti pojam ne šalje event na svaki filter-klik
 /* Reč koju je korisnik tražio dok rečnik još nije bio spreman (nalaz V5). */
 let cekaRec = '';
+let pretragaCeka = false;   // pretraga po završetku ukucana pre nego što je rečnik stigao (G-3)
 function pokreniOdlozenuPretragu(){
   el('rimeBtn').classList.remove('ucitava');
   el('rimeBtn').disabled = false;
@@ -1308,6 +1323,11 @@ function doRhymes(silent){
       box.innerHTML = '<p class="empty">' + uiTxt('Učitavam rečnik… rime za tu reč stižu čim bude gotovo.') + '</p>';
       el('rimeBtn').classList.add('ucitava');
       el('rimeBtn').disabled = true;
+      /* Uvodni tekst ispod rezultata se sklanja ODMAH, u istom trenutku kad je čovek pritisnuo Enter
+         (audit 22.09.2026, PF-2): rime na sporoj vezi stignu 3–4 s kasnije i gurnu taj tekst 300 px
+         naniže – pomak van 500 ms od unosa ulazi u CLS (koliko strana poskakuje), izmereno 0,70 na
+         granici 0,1. Sklonjen odmah, pomak se pripisuje unosu i CLS ostaje 0. */
+      document.querySelectorAll('.seo-content').forEach(s => { s.hidden = true; });
     }
     return;
   }
@@ -1747,7 +1767,10 @@ function randomCommonWord(extraFilter){
 }
 
 el('randomBtn').onclick = ()=>{
-  const w = randomCommonWord();
+  /* Kockica poštuje ISTI filter kao igra (audit 22.09.2026, L-1): bazen od 8.000 najčešćih reči sadrži
+     „nasilje", „ubistvo", „genocid", „mrtav" – sa uključenim dečjim režimom te reči ne smeju u polje,
+     naslov i adresu. Zabranjene reči (BLOCKED) nikad. */
+  const w = randomCommonWord(x => { const m = x.toLowerCase(); return !BLOCKED.has(m) && !(kidsMode && isKidsBlocked(m)); });
   if(w){ rimeInput.value = disp(w); doRhymes(); }
 };
 
@@ -1826,6 +1849,8 @@ function doSearch(){
   const q = toLatin(searchInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
   const box = el('searchResults');
   box.innerHTML='';
+  el('searchStatus').textContent = '';   // G-2 (22.09.2026): stari „2 reči pronađeno" ne sme da stoji iznad „Nema reči"
+  pretragaCeka = false;
   if(q.length<2){
     box.innerHTML = (searchInput.value.trim().length && !q.length)
       ? '<p class="empty">' + uiTxt('Upiši slova – brojevi i znaci se ne pretražuju.') + '</p>'
@@ -1835,7 +1860,13 @@ function doSearch(){
   /* Dok rečnik nije stigao, `WORDS` je prazan i petlja ispod ne nađe ništa –
      ranije je zbog toga pisalo „Nema reči koje odgovaraju", što je neistina:
      reči ima, samo još nisu učitane. */
-  if(WORDS.length === 0){ box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>'; return; }
+  if(WORDS.length === 0){
+    /* G-3 (22.09.2026): pretraga ukucana pre rečnika se pamti i sama pokrene čim rečnik stigne –
+       isti red čekanja koji rime imaju od nalaza V5. */
+    box.innerHTML='<p class="empty">' + uiTxt('Učitavam rečnik…') + '</p>';
+    pretragaCeka = true;
+    return;
+  }
   const out=[];
   const limit = includeJek ? WORDS.length : jekStart;
   for(let i=0;i<limit && out.length<600;i++){
@@ -2114,7 +2145,10 @@ function getEditorText(){
     });
   };
   walk(noteEditor);
-  return out;
+  /* Čvrsti razmak (U+00A0) nikad ne izlazi iz beležnice (audit 22.09.2026, C-3): pregledač ga ubaci
+     kad se kuca ispred obojene rime ili kad se nalepi tekst iz Worda, a odavde bi otišao u link,
+     preuzeti fajl, štampu i skladište. Zamena znak-za-znak – dužina teksta (i pozicija kursora) ostaje ista. */
+  return out.replace(/ /g, ' ');
 }
 
 // Postavi plain text u editor (bez boja)
@@ -2252,10 +2286,15 @@ function prebaciBelesku(){
   if(!stari.trim()) return;
   const novi = uPismo(stari);
   if(novi === stari) return;
-  const poz = pozicijaKursoraUBelesci();
-  const novaPoz = poz == null ? null : uPismo(noteEditor.textContent.slice(0, poz)).length;
+  /* Pozicija se meri i vraća parom koji BROJI PRELOME (`getCaretTextPos`/`setCaretAtTextPos`), ne starim
+     parom nad `textContent` – on prazan red ne vidi, pa je kursor sa praznog reda skakao na početak
+     sledećeg stiha i slovo se lepilo za tuđu reč („тдруга лада"; audit 22.09.2026, C-2). `uPismo` ne dira
+     `\n`, pa je dužina prevedenog odsečka do kursora tačno nova pozicija. */
+  const poz = getCaretTextPos();
+  const novaPoz = poz == null ? null : uPismo(stari.slice(0, poz)).length;
   setEditorText(novi);
-  osveziBelesku(novi, novaPoz);
+  osveziBelesku(novi, null);
+  if(novaPoz != null) setCaretAtTextPos(novaPoz);   // označeno mesto ostaje i kad je fokus na dugmetu pisma
 }
 
 /* Dok se KUCA: u ćirilici i otkucano slovo odmah prelazi u ćirilicu, isto kao
@@ -2392,7 +2431,7 @@ noteEditor.addEventListener('paste', (e) => {
   e.preventDefault();
   let text = (e.clipboardData || window.clipboardData).getData('text/plain');
   if(!text) return;
-  text = text.replace(/\r\n?/g, '\n');
+  text = text.replace(/\r\n?/g, '\n').replace(/ /g, ' ');   // čvrsti razmak iz Worda → običan (C-3)
   // Nalepljena pesma odmah ulazi u izabrano pismo. Prevodi se ceo tekst
   // odjednom, da digrafi na granicama reči ostanu ispravni.
   if(script === 'cyr') text = uPismo(text);
@@ -2465,6 +2504,43 @@ noteEditor.addEventListener('keydown', (e) => {
     scheduleEditorUpdate();
   }
 });
+
+/* DODIR USRED REČI STAVLJA KURSOR TAČNO TAMO GDE JE PRST (zahtev vlasnice 22.09.2026: „za sada može
+   samo na početak i kraj reči da se klikne"). iOS Safari na jedan dodir u tekstu koji se uređuje sam
+   prebaci kursor na GRANICU reči (početak ili kraj); Android to ne radi. Zato se posle kratkog dodira
+   (bez pomeranja, jedan prst, nije dupli dodir) kursor postavi po koordinatama dodira – pregledač zna
+   koje slovo je pod prstom (`caretRangeFromPoint`). Dugi pritisak (lupa, označavanje) i prevlačenje
+   se ne diraju. */
+let dodirStart = null, poslednjiDodir = 0;
+noteEditor.addEventListener('touchstart', (e) => {
+  if(e.touches.length !== 1){ dodirStart = null; return; }
+  const t = e.touches[0];
+  dodirStart = { x: t.clientX, y: t.clientY, t: Date.now() };
+}, { passive: true });
+noteEditor.addEventListener('touchend', (e) => {
+  const s = dodirStart; dodirStart = null;
+  if(!s || e.changedTouches.length !== 1) return;
+  const t = e.changedTouches[0];
+  const sad = Date.now();
+  const kratak = sad - s.t < 350, mirno = Math.abs(t.clientX - s.x) < 8 && Math.abs(t.clientY - s.y) < 8;
+  const dupli = sad - poslednjiDodir < 350;
+  poslednjiDodir = sad;
+  if(!kratak || !mirno || dupli) return;
+  const x = t.clientX, y = t.clientY;
+  setTimeout(() => {
+    try{
+      let r = null;
+      if(document.caretRangeFromPoint) r = document.caretRangeFromPoint(x, y);
+      else if(document.caretPositionFromPoint){ const p = document.caretPositionFromPoint(x, y); if(p){ r = document.createRange(); r.setStart(p.offsetNode, p.offset); } }
+      if(!r || !noteEditor.contains(r.startContainer) || r.startContainer.nodeType !== Node.TEXT_NODE) return;
+      const sel = window.getSelection();
+      if(sel && !sel.isCollapsed) return;   // označen tekst se ne dira
+      r.collapse(true);
+      sel.removeAllRanges(); sel.addRange(r);
+      if(document.activeElement !== noteEditor) noteEditor.focus({ preventScroll: true });
+    }catch(err){}
+  }, 0);
+}, { passive: true });
 
 // Rime prate kursor – klik mišem ili strelice prebacuju ciljnu reč
 let caretTimer = null;
@@ -2637,6 +2713,9 @@ el('clearNotes').onclick = () => {
     sacuvajBelesku('');
     lsRemove('rimoteka_notes');
     lsRemove('rimoteka_notes_title');
+    /* I istorija (UI-2, 22.09.2026): učitavanje vraća poslednju stavku istorije kad je glavni zapis prazan,
+       pa se „obrisana" pesma posle osvežavanja vraćala. Ko obriše – obrisao je. */
+    lsRemove('rimoteka_notes_istorija');
     renderGutter();
     updateNoteStats();
     renderNoteRhymes();
@@ -3505,8 +3584,33 @@ function setCaretAtTextPos(pos){
     }
   };
   walk(noteEditor);
-  if(!done){ range.selectNodeContents(noteEditor); range.collapse(false); }
-  else range.collapse(true);
+  if(!done){
+    /* Pozicija je IZA ZAVRŠNOG preloma (prazan red na kraju pesme). Kursor ne ume da stoji posle
+       poslednjeg <br> – pregledač ga vrati na kraj prethodnog reda, pa sledeće slovo ode na kraj
+       prethodnog stiha, a Backspace obriše njegovo poslednje slovo (audit 22.09.2026, C-1: tajmer boja
+       prepiše HTML posle 500 ms i pozove ovu funkciju; Chromium i WebKit isto). Zato isti pomoćni
+       <br class="cursor-br"> koji Enter i lepljenje već koriste – kursor staje ISPRED njega. */
+    let last = null;
+    for(let i = noteEditor.childNodes.length - 1; i >= 0; i--){
+      const c = noteEditor.childNodes[i];
+      if(c.nodeType === Node.TEXT_NODE && c.data === '') continue;
+      if(c.nodeName === 'BR' && c.classList.contains('cursor-br')) continue;
+      last = c; break;
+    }
+    if(last && last.nodeName === 'BR'){
+      let cb = last.nextSibling;
+      while(cb && cb.nodeType === Node.TEXT_NODE && cb.data === '') cb = cb.nextSibling;
+      if(!(cb && cb.nodeName === 'BR' && cb.classList.contains('cursor-br'))){
+        cb = document.createElement('br');
+        cb.className = 'cursor-br';
+        last.after(cb);
+      }
+      range.setStartBefore(cb);
+    } else {
+      range.selectNodeContents(noteEditor); range.collapse(false);
+    }
+  }
+  range.collapse(true);
   sel.removeAllRanges();
   sel.addRange(range);
 }
@@ -3810,7 +3914,10 @@ function tabIzURLa(){
     const put = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/';
     for(const b of document.querySelectorAll('#tabs [data-tab]')){
       const h = b.getAttribute('href');
-      if(h && h === put && document.getElementById('panel-' + b.dataset.tab)) return b.dataset.tab;
+      /* Statička strana igre (`/igra-rimovanja/`) nema omotač `#panel-igra` – igra joj je direktno u
+         <main>. Zato se putanja poklapa po dugmetu, a panel se traži samo kao potvrda (UI-4, 22.09.2026:
+         vraćena partija je posle F5 ostajala pauzirana jer je ovde izlazilo 'rime'). */
+      if(h && h === put && (document.getElementById('panel-' + b.dataset.tab) || b.classList.contains('active'))) return b.dataset.tab;
     }
   }catch(e){}
   return 'rime';
@@ -5005,16 +5112,36 @@ function pokreniPartiju(){
   clearTimeout(gameNextTimeout);
   gameState = 'play';
   gameCurrentWord = '';
-  gameWordEl.textContent = '...';
+  /* Dok rečnik nije stigao, piše šta se čeka, a „Proveri" je ugašeno (G-1, 22.09.2026: na sporoj vezi je
+     dugme „Počni igru" aktivno ~4 s pre rečnika, klik je igru ostavljao na „…" zauvek). */
+  const cekaRecnik = WORDS.length === 0;
+  gameWordEl.textContent = cekaRecnik ? uiTxt('Učitavam rečnik…') : '…';
+  gameSubmit.disabled = true;
+  /* Panel igre u kadar (MB-1, prijava vlasnice 22.09.2026: „pobegao mi je ekran ka dnu strane"): dugme
+     „Počni igru" je na dubini od ~1.000 px, a fokus na polje bi doveo samo polje – tajmer i zaglavlje bi
+     ostali iznad ivice ekrana. Ovo je svesna radnja korisnika, pa se strana sme pomeriti. */
+  try{ gamePlay.scrollIntoView({ block: 'start', behavior: 'auto' }); }catch(e){}
 
-  /* Prva reč čeka spisak reči za igru najviše 1,5 s – ako ne stigne, kreće sa starim bazenom. */
-  Promise.race([ucitajIgraReci(), new Promise(r => setTimeout(r, 1500))])
+  /* Prva reč čeka REČNIK (bez roka – bez njega igra ne može) i spisak reči za igru najviše 1,5 s –
+     ako spisak ne stigne, kreće sa starim bazenom. */
+  Promise.all([RECNIK_P, Promise.race([ucitajIgraReci(), new Promise(r => setTimeout(r, 1500))])])
     .then(() => { if(gameState === 'play' && !gameCurrentWord) nextWord(); });
 }
+/* Dugmad za pokretanje igre nose „učitavam" dok rečnik ne stigne – isti obrazac kao „Nađi rime" (A5). Važi
+   i pri direktnom ulasku na statičku stranu igre (tu se `initGame` iz `switchTab` ne zove). */
+(function oznaciDugmadIgre(){
+  const dugmad = ['gameStart', 'gameDaily'].map(id => document.getElementById(id)).filter(Boolean);
+  if(!dugmad.length) return;
+  if(WORDS.length === 0){
+    dugmad.forEach(b => { b.classList.add('ucitava'); b.setAttribute('aria-busy', 'true'); b.title = uiTxt('Učitavam rečnik…'); });
+    RECNIK_P.then(() => dugmad.forEach(b => { b.classList.remove('ucitava'); b.removeAttribute('aria-busy'); b.removeAttribute('title'); }));
+  }
+})();
 const gameDailyBtn = document.getElementById('gameDaily');
 if(gameDailyBtn) gameDailyBtn.onclick = () => {
   gameDailyBtn.disabled = true;
-  ucitajIgraReci().then(() => {
+  /* I Reč dana čeka rečnik (G-1): `dnevneReci` zove `imaRimu`, koji bez rečnika ne zna ništa. */
+  Promise.all([RECNIK_P, ucitajIgraReci()]).then(() => {
     gameDailyBtn.disabled = false;
     const reci = dnevneReci();
     if(reci.length < 5){
@@ -5136,6 +5263,9 @@ function showHandoff(){
    Indeks se gradi jednom, pri prvom pokretanju igre. */
 let RHYME_COUNTS = null, LOOSE_COUNTS = null;
 function imaRimu(w){
+  /* Bez rečnika nema odgovora – i, važnije, nema GRADNJE keša: prazan keš je ostajao zauvek i lomio
+     igru i Reč dana do osvežavanja strane (G-1, 22.09.2026). */
+  if(WORDS.length === 0) return false;
   if(!RHYME_COUNTS){
     RHYME_COUNTS = new Map();
     LOOSE_COUNTS = new Map();
@@ -5180,7 +5310,14 @@ function nextWord(){
       osveziUputstvoIgre();
       gameWordEl.textContent = disp(w);
       gameInput.value = '';
-      gameInput.focus();
+      /* Fokus bez sopstvenog skrola: pregledač bi doveo samo polje u kadar, a tajmer iznad njega ostavio
+         van ekrana (MB-1). Ako polje ipak nije vidljivo, u kadar se dovodi ceo panel od vrha. */
+      gameInput.focus({ preventScroll: true });
+      try{
+        const rp = gameInput.getBoundingClientRect(), rt = gamePlay.getBoundingClientRect();
+        const dno = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+        if(rt.top < 0 || rp.bottom > dno) gamePlay.scrollIntoView({ block: 'start', behavior: 'auto' });
+      }catch(e){}
       gameFeedback.textContent = '';
       gameFeedback.className = 'game-feedback';
       gameSubmit.disabled = false;
@@ -5673,6 +5810,10 @@ function bootstrap(){
     /* Partija igre koja je preživela prelazak strane (nalaz A4) vraća se PRE čitanja
        adrese, da `initGame` iz `switchTab` zatekne partiju u toku i ne vrati početni ekran. */
     try{ vratiIgru(); }catch(e){ console.warn('[Rimoteka] partija nije vraćena:', e); }
+    /* Pretraga po završetku ukucana pre rečnika sad se sama izvrši (G-3), a panel rima u beležnici se
+       iscrta bez čekanja na klik (UI-3: posle F5 sa sačuvanom pesmom stajalo je „Nema pronađenih rima"). */
+    if(pretragaCeka){ pretragaCeka = false; try{ doSearch(); }catch(e){} }
+    try{ if(noteEditor && !noteEditor.__noop && getEditorText().trim()) renderNoteRhymes(); }catch(e){}
     if(cekaRec){ pokreniOdlozenuPretragu(); return; }
     /* Fokus na polje tek kad rečnik stigne – ali NE otimati fokus onome ko je već negde (08.09.2026, S-25 trka:
        korisnik tastaturom stane na „Preskoči na sadržaj", rečnik stigne, fokus skoči u polje, Enter ode u polje). */

@@ -92,6 +92,20 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
       if (posle !== pre) writeFileSync(f, posle);
     }
   }
+  /* KANTE (PF-1): verzija kanti = otisak manifesta (`build/kante.py` ga piše). */
+  try {
+    const man = readFileSync(path.join(ROOT, 'public', 'kante', '_manifest.json'));
+    const hk = createHash('sha256').update(man).digest('hex').slice(0, 8);
+    app = readFileSync(APP, 'utf8');
+    const pre = app; app = app.replace(/(const KANTE_V = ')([^']*)(')/, (_, a, staro, b) => { if (staro !== hk) { console.log(`  kante/_manifest.json  ${staro} → ${hk}`); promena++; } return a + hk + b; });
+    const imena = Object.keys(JSON.parse(man.toString()).kante).sort().join(',');
+    app = app.replace(/(const KANTE_IMENA = ')([^']*)(')/, (_, a, staro, b) => { if (staro !== imena) { console.log('  kante: imena kanti osvežena'); promena++; } return a + imena + b; });
+    if (app !== pre) writeFileSync(APP, app);
+  } catch (e) { console.error('  ⚠️  kante: ' + e.message + ' (pokreni python3 build/kante.py)'); }
   console.log(promena ? `\nOsveženo verzija: ${promena}` : '\nSve verzije su već usklađene.');
+  /* PF-3: minifikovan app.min.js prati app.js (server ga servira pod /app.js). */
+  const { minifikuj } = await import('./minifikuj.mjs');
+  const r = await minifikuj();
+  console.log(`app.min.js: ${(r.pre / 1024).toFixed(0)} KB → ${(r.posle / 1024).toFixed(0)} KB`);
   if (promena) console.log('Posle promene rečnika pusti i: python3 build/gen_pages.py (preload na generisanim stranama)');
 }

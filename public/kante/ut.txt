@@ -1,0 +1,286 @@
+284
+ablaut		
+adut	2521	
+akut		
+apsolut	149	
+arnaut		
+astronaut	704	
+atribut	1001	
+aut	2212	
+autoput	4359	
+azimut	84	
+barut	392	
+bejrut		
+beknut		
+beloput		
+bizmut	29	
+blutut		
+borut		
+brut	16	
+burmut		M
+but	626	
+centaršut	1041	
+cikut		
+connecticut		
+crknut	13	
+cvrkut	294	
+dignut	258	
+dirnut	249	
+disput		M
+dodirnut	31	
+dometnut		
+dosegnut	66	
+dostignut	564	
+dvaput	2807	
+elektroterapeut		
+farmaceut	517	
+fizioterapeut	500	
+ganut	126	
+golokut		
+grejpfrut	333	
+gugut		M
+gurnut	264	
+gut		
+helmut		
+hitnut		
+homut		
+input	435	
+institut	14815	
+iskinut		
+iskrenut		
+ispljunut		
+istaknut	1324	
+istegnut	16	
+istisnut	54	
+istrgnut	66	
+istrunut		
+izbegnut	394	
+izdignut	92	
+izmaknut	10	
+izokrenut	15	
+izvrgnut	52	
+izvrnut	47	
+jedamput		
+jedanput	5033	
+kaput	1125	
+kažiput		
+kleut		
+knut		
+kohut		
+koknut		
+kolut	279	
+kosmonaut	433	
+košut		
+krenut		
+krknut		
+krut	330	
+kut	199	
+lecnut		
+liliput		
+limunžut		
+ljut	2414	
+mahmut		
+maknut	20	
+maksut		
+mamut	245	
+maznut	10	
+mazut	825	
+metnut	21	
+minut	11562	
+mut		
+nadahnut	468	
+nadut	48	
+nagnut	247	
+najedanput		M
+nametnut	788	
+napadnut	1365	
+napregnut	32	
+nasut	96	
+nataknut	13	
+nategnut	81	
+naviknut	281	
+navrnut		
+nedirnut	49	
+nedodirnut		
+neizvrnut		
+nenaviknut		
+neprekinut	70	
+netaknut	351	
+nezategnut		
+nezbrinut		
+nijedanput	85	
+nokaut	534	
+obasut	52	
+obmanut	146	
+obrnut	467	
+odenut	13	
+odgonetnut		
+odgurnut	46	
+odjedanput		M
+odjenut		J
+odmaknut	33	
+ogrnut	138	
+okrenut	2369	
+okrznut	11	
+omrznut	46	
+opadnut		
+opomenut	205	
+opsednut	804	
+osmehnut	15	
+osut		
+otegnut	12	
+otisnut	66	
+otkinut	51	
+otrgnut	70	
+out	791	
+perut	374	
+podignut	4539	
+podmetnut	234	
+podstaknut	693	
+podstignut		
+podugnut		
+podvrgnut	956	
+poginut		
+pognut	69	
+pokrenut	5438	
+pomaknut	20	
+pomenut	921	
+pomognut	113	
+ponekiput		
+poodmaknut		
+poput	87717	
+porinut	89	
+posednut	42	
+postignut	7969	
+posut	325	
+potaknut	89	
+potisnut	323	
+potonut		
+potpomognut	395	
+potrgnut		
+prekinut	2102	
+preljut		
+prenapregnut	33	
+prenebregnut		
+prenut	10	
+preokrenut	40	
+prepadnut		
+presretnut		
+prevrnut	48	
+primaknut		
+pritisnut	491	
+priviknut		
+promaknut		
+prometnut		
+proniknut		
+prosut	46	
+protegnut	10	
+prsnut		
+prut	300	
+pršut	282	
+psihoterapeut	864	
+puknut	11	
+put	241023	
+raskinut	898	
+raspadnut	33	
+rasplinut	19	
+raspuknut		
+rastegnut	40	
+rastrgnut	30	
+rasut	131	
+razasut	17	
+razgrnut		
+razmahnut		
+razminut		
+redut		M
+regrut		M
+rut		
+sagnut	19	
+salut		M
+saut		
+sinut		
+skaut	156	
+skinut	1084	
+skoknut		
+skorbut	80	
+skrajnut	168	
+skut	137	
+smaknut	64	
+smrknut	31	
+smrznut	94	
+spomenut	372	
+spregnut	24	
+srkut		
+statut	6046	
+stegnut	122	
+stignut		
+stisnut	53	
+stoput	61	
+stvrdnut	11	
+sumanut	281	
+supstitut	76	
+sustignut	10	
+sućut	42	
+svetložut		
+sviknut		
+svrgnut	433	
+tajmaut	76	
+tamnoput	30	
+tamnožut		
+terapeut	1040	
+trgnut		
+tribut		
+triput	1037	
+trnut		
+trokut	56	
+tronut	43	
+trut	96	
+udahnut	47	
+udenut		
+uganut		
+ugnut		
+ujedanput		M
+ukinut	1802	
+umetnut	86	
+upregnut	58	
+usput	10325	
+ustrgnut		
+utegnut	59	
+utisnut	241	
+uvrnut	69	
+uzdignut	243	
+uzput		
+užasnut	206	
+vaskrsnut		
+vermut	67	
+vrgnut		
+zabezeknut	111	
+zablenut		
+zabrinut	2262	
+zadenut	17	
+zagluhnut		
+zagrcnut	16	
+zagrnut		
+zakinut	72	
+zamrznut	400	
+zaodenut		
+zaogrnut	35	
+zaposednut	41	
+zasut	115	
+zategnut		M
+zavrnut	26	
+zbrinut	298	
+zgranut	147	
+zgusnut	103	
+zlatnožut		
+zloslut		M
+ćaknut		M
+ćut		
+ćušnut		M
+četvorokut		M
+škrgut	98	
+šut	4715	
+šutnut	18	
+žacnut		
+žut	466	
+opsjednut		

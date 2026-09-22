@@ -496,6 +496,10 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
     (aria-live, Pauza); telefon (uputstvo za ćirilicu sklopljeno, kartica tastaturom, mete 44 px, položen telefon, panel drži fokus,
     Escape, resize bez greške); sistemska tamna; okvir fokusa. Na kraju testa čuvar: bar 900 provera.
 
+23. **Treći krug 22.09.** (sekcija 59): `app.min.js` iz tekućeg `app.js` i servira se pod `/app.js`; kante = manifest = reči, `KANTE_V`
+    = otisak manifesta, 300 reči u svojoj kanti; rime iz kante PRE celog rečnika i ISTI spisak kao ceo rečnik (5 reči); ukucano pre
+    rečnika iz kante; učestalost se ne skida bez potrebe; na produkciji: sirovi kanonikal `?rec=` i CSP host.
+
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
 **Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test
 traje 15 minuta, a nova provera najčešće prvo padne na sopstvenoj grešci.
@@ -715,6 +719,9 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
 | **Brzina `gen_pages.py`** | 09.09.2026: bliske rime se biraju iz kanti po završetku (`sufgroup`/`top_slicne`), ne sortiranjem 55.000 kandidata po reči – 43 s umesto 5 min 36 s, isti izlaz. **Nikad commit dok generator radi** (obrisao je 1.990 strana iz repoa 09.09.; pravilo u PROPUSTI). |
 | **`igra-reci.json`** | reči koje IGRA zadaje (odluka vlasnice 08.09.2026: samo imenice, glagoli i pridevi od 2 do 4 sloga; 6.634 reči). Pravi ga `node test/igra-bazen.mjs && python3 scripts/igra-reci-napravi.py`, pa `node scripts/osvezi-verzije-podataka.mjs`. Skida se tek kad se igra otvori; ako ne stigne za 1,5 s, igra pada na stari bazen. Kockica i dalje koristi bazen od 8.000. |
+| **`public/kante/`** (22.09.2026) | rečnik po kantama za prvu rimu pre celog rečnika (PF-1). Pravi `python3 build/kante.py` (posle SVAKE izmene `reci.txt`/`reci_jekavica.txt`/`frekvencija.json`/`matica.json`/`jekavski.json`), pa `node scripts/osvezi-verzije-podataka.mjs` (upisuje `KANTE_V` u `app.js`). Test 59 pada ako se manifest i `KANTE_V` razilaze ili ako kanta daje drugačiji spisak od celog rečnika. |
+| **`public/app.min.js`** (22.09.2026) | minifikovan `app.js`, pravi ga `osvezi-verzije-podataka.mjs` (ili `node scripts/minifikuj.mjs`); nginx i lokalni test-server ga serviraju POD `/app.js`. **Nikad ga ne uređivati ručno**; test 59 pada ako mu otisak ne odgovara `app.js`. |
+| **`nginx-kanon-rec.map`** (22.09.2026) | `?rec=` → kanonikal strane reči u sirovom HTML-u (SEO-2); piše ga `gen_pages.py`, kopira Dockerfile, proverava `nginx-provera.sh` 3b. |
 | **Prag za stranu reči** | reč dobija stranu tek sa **≥5 pravih rima** (`gen_pages.py`, S-19). Kad se prag menja ili reč ispadne, njena adresa se **dopisuje u `nginx-stare-strane.map`** (301 na hub) i podiže se `rime-strane.json?v=` u `app.js` (keš je 365 d). Test 50 pada na mrtvom linku i na strani ispod praga. |
 | **Velika slova u adresi** | `nginx-strane-mala.map` (generiše `gen_pages.py`, kopira Dockerfile): `/rime-za/Beograd/` → 301 na `/rime-za/beograd/`. nginx `map` ne razlikuje velika i mala slova. Fajl se NE piše ručno — regeneracija ga osvežava; ide u isti push sa `nginx.conf` (uključuje ga). |
 | **Stare `/rime-za/` adrese** | `nginx-stare-strane.map` (1.670 adresa iz sitemapa od 29.07.) → 301 na hub; **sve ostalo pod `/rime-za/` je 404** sa `404.html`. Kad se ukine strana, njena adresa se DOPISUJE u mapu. `Dockerfile` kopira mapu uz `nginx.conf`; `nginx-provera.sh` je testira. |

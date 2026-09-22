@@ -165,6 +165,55 @@ const NASLOV_POCETNE = document.title;   // UI-6: naslov strane pre nego što ga
    rečnika ostajala na „…" zauvek, a pretraga ukucana pre rečnika se tiho gubila. */
 let recnikStigaoResolve = null;
 const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
+/* REČNIK PO KANTAMA (PF-1, 22.09.2026). Dok ceo `reci.txt` (666 KB gzip) putuje – na sporoj vezi ~5 s –
+   za ukucanu reč se skine SAMO njena kanta (`/kante/<xy>.txt`, reči koje se završavaju na ista dva slova,
+   tipično par KB; pravi je `build/kante.py`). Rime, rezerva i „šire rime" dele završetak reči, pa je kanta
+   dovoljna za CEO spisak; rangiranje unutar kante daje isti redosled kao ceo rečnik (učestalost i Matica su
+   upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
+   `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
+const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
+const KANTE_V = 'aa06f440';
+function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
+const kanteKes = new Map();
+let kantaUToku = 0;
+async function rimeIzKante(q){
+  if(WORDS.length > 0 || q.length < 2) return;
+  const ime = imeKante(q);
+  if(!/^[a-zčćžšđ]{1,2}$/.test(ime) || !(',' + KANTE_IMENA + ',').includes(',' + ime + ',')) return;   // nema kante = nema rime iz kante (bez 404 u konzoli)
+  const moj = ++kantaUToku;
+  let redovi = kanteKes.get(ime);
+  if(!redovi){
+    try{
+      const r = await fetch(`/kante/${encodeURIComponent(ime)}.txt?v=${KANTE_V}`);
+      if(!r.ok) return;
+      redovi = (await r.text()).split('\n');
+      kanteKes.set(ime, redovi);
+    }catch(e){ return; }
+  }
+  if(moj !== kantaUToku || WORDS.length > 0) return;   // stigla druga reč ili ceo rečnik
+  const q2 = toLatin((rimeInput.value || '').trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
+  if(q2 !== q) return;
+  const granicaLinija = parseInt(redovi[0], 10) || 0;   // prvi red kante: koliko je ekavskih redova (pre ijekavskih)
+  let jekStartK = 0;
+  const reci = [], male = [], kljucevi = [], rang = new Map(), skup = new Set();
+  const PRAG = 10, POMAK = redovi.length;
+  for(let i = 1; i < redovi.length; i++){
+    const red = redovi[i]; if(!red) continue;
+    const [w, f, m] = red.split('\t');
+    if(!includeJek && m && m.includes('J')) continue;   // jekavski oblik zaostao u ekavskom rečniku – isti filter kao JEKAVSKI
+    const j = reci.length; const malo = w.toLowerCase();
+    reci.push(w); male.push(malo); kljucevi.push(rhymeKey(malo)); skup.add(malo);
+    if(i - 1 < granicaLinija) jekStartK = reci.length;   // granica se broji po UPISANIM rečima (preskočene ne pomeraju indeks)
+    const freq = f ? parseInt(f, 10) : 0;
+    rang.set(w, freq >= PRAG ? -freq : ((m && m.includes('M')) ? j : j + POMAK));
+  }
+  const stari = [WORDS, MALE, KEYS, RANK, SET, jekStart];
+  WORDS = reci; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup; jekStart = jekStartK;
+  try{ doRhymes(); }
+  finally{ [WORDS, MALE, KEYS, RANK, SET, jekStart] = stari; }
+  cekaRec = q;   // ceo rečnik će ponoviti pretragu (potpun redosled, jekavski filter)
+  el('rimeBtn').classList.add('ucitava'); el('rimeBtn').disabled = true;
+}
 let KEYS = [];           // jak ključ rime za svaku reč
 let MALE = [];           // ista reč malim slovima – za poređenja (v. `Beograd`)
 let RANK = new Map();    // reč -> indeks (manji = češća)
@@ -478,10 +527,24 @@ async function loadDict(){
 }
 
 // Lazy load frekvencije i sinonima – ne blokira rime
+/* P-2 (22.09.2026): `frekvencija.json` (957 KB gzip) se skidao na svakoj poseti, i kad niko ništa ne traži.
+   Sada čeka PRVU potrebu (rime, kockica, beležnica, igra) ili prazan hod od 6 s posle rečnika – ko samo
+   pročita stranu, ne skida ga. Redosled rima ostaje isti kao na stranama: prikaz se osveži kad stigne
+   (postojeći mehanizam ispod, nalaz K1). */
+let frekvencijaTrazena = null, extrasSpremni = false, extrasResolve = null;
+const EXTRAS_P = new Promise(r => { extrasResolve = r; });
+function zatraziFrekvenciju(){ if(frekvencijaTrazena) frekvencijaTrazena(); }
+function cekajFrekvenciju(){
+  return new Promise(r => {
+    frekvencijaTrazena = () => { r(); frekvencijaTrazena = null; };
+    const kasnije = () => zatraziFrekvenciju();
+    setTimeout(kasnije, 6000);   // ne `requestIdleCallback` – on se javi ČIM je prazan hod, dakle odmah
+  });
+}
 async function loadExtras(){
   try{
     const [freqRes, synRes, maticaRes] = await Promise.all([
-      fetch('/frekvencija.json?v=e1f29b29').then(r=>r.json()).catch(()=> ({})),
+      cekajFrekvenciju().then(() => fetch('/frekvencija.json?v=e1f29b29').then(r=>r.json()).catch(()=> ({}))),
       fetch('/sinonimi.json?v=27108c13').then(r=>r.json()).catch(()=> ({})),
       /* matica.json – spisak naših reči koje su ODREDNICA u Rečniku Matice srpske.
          Zašto postoji kao poseban fajl, a ne kao izmišljen broj u frekvenciji:
@@ -559,6 +622,7 @@ async function loadExtras(){
   }catch(e){
     console.warn('Extras nisu učitani:', e);
   }
+  extrasSpremni = true; if(extrasResolve){ extrasResolve(); extrasResolve = null; }
 }
 
 /* OBRISANA FUNKCIJA `loadDefs()` (nalaz N11).
@@ -651,7 +715,7 @@ function makeChip(word){
 function renderLegend(container){
   const l = document.createElement('div');
   l.className = 'res-legend';
-  /* Na telefonu ikonice NISU u pil\u0443\u043b\u0438 \u2014 pojave se iznad re\u010di kad se na nju
+  /* Na telefonu ikonice NISU u pil\u0443\u043b\u0438 \u2013 pojave se iznad re\u010di kad se na nju
      kucne (v. \u201eMOBILNA VERZIJA"). Legenda zato mora da ka\u017ee drugu stvar: ne
      \u201e\u0161ta zna\u010di ova ikonica" nego \u201ekako da do nje do\u0111e\u0161". Stara legenda je na
      telefonu opisivala tri ikonice kojih na ekranu nema. */
@@ -1179,7 +1243,7 @@ function renderSynonyms(container, word, syns){
     + uiTxt('Druge re\u010di za') + ' \u201e' + disp(word) + '\u201c';
   const hint = document.createElement('p');
   hint.className = 'syn-hint';
-  hint.textContent = uiTxt('Kad rima ne odgovara po smislu \u2014 zameni re\u010d na kraju stiha i potra\u017ei rime za nju.');
+  hint.textContent = uiTxt('Kad rima ne odgovara po smislu \u2013 zameni re\u010d na kraju stiha i potra\u017ei rime za nju.');
   const wrap = document.createElement('div');
   wrap.className = 'results';
   syns.forEach(w => wrap.appendChild(makeChip(w)));
@@ -1279,6 +1343,9 @@ function pokreniOdlozenuPretragu(){
   const q = cekaRec;
   cekaRec = '';
   if(!rimeInput.value.trim()) rimeInput.value = disp(q);
+  /* Spisak iz kante (PF-1) već stoji sa tačnim redosledom; dok učestalost nije stigla, ceo rečnik bi ga
+     prepisao AZBUČNIM – zato se čeka `loadExtras`, koji sam osveži prikaz (K1). */
+  if(!extrasSpremni && document.querySelector('#rimeResults .chip .word')) return;
   doRhymes();
 }
 
@@ -1342,6 +1409,7 @@ function doRhymes(silent){
          naniže – pomak van 500 ms od unosa ulazi u CLS (koliko strana poskakuje), izmereno 0,70 na
          granici 0,1. Sklonjen odmah, pomak se pripisuje unosu i CLS ostaje 0. */
       document.querySelectorAll('.seo-content').forEach(s => { s.hidden = true; });
+      rimeIzKante(q);   // PF-1: prva rima iz kante, ne čeka ceo rečnik
     }
     return;
   }
@@ -1359,6 +1427,7 @@ function doRhymes(silent){
     }catch(e){}
   }
 
+  zatraziFrekvenciju();   // P-2: prva stvarna potreba za učestalošću
   const key = rhymeKey(q);
   const keyLen = key.length;
   /* `RHYME_EXCLUSIONS` je običan objekat, pa `RHYME_EXCLUSIONS['constructor']`
@@ -1740,6 +1809,7 @@ function jeJekavskaRec(w){
   return jekReciSkup.has(w) || JEKAVSKI.has(w.toLowerCase());
 }
 function getCommonPool(){
+  zatraziFrekvenciju();   // P-2
   if(commonPool) return commonPool;
   /* Bazen ide ISKLJUČIVO po frekvenciji – namerno, i to je provereno.
      30.07.2026. je probano da se u bazen dodaju i reči potvrđene u Rečniku Matice
@@ -1780,7 +1850,21 @@ function randomCommonWord(extraFilter){
   return null;
 }
 
-el('randomBtn').onclick = ()=>{
+/* `?rec=` iz adrese – rime iz kante pre nego što rečnik stigne (PF-1); `initFromURL` posle ponavlja ceo tok. */
+try{
+  const _rec = new URLSearchParams(location.search).get('rec');
+  if(_rec && _rec.trim() && WORDS.length === 0 && rimeInput && !rimeInput.__noop){
+    const _q = toLatin(_rec.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
+    if(_q.length >= 2){
+      const _sl = parseInt(new URLSearchParams(location.search).get('slog') || '0', 10);   // i filter iz adrese (S-03)
+      if(_sl >= 1 && _sl <= 5){ rimeSyl = _sl; document.querySelectorAll('#rimeSyl button').forEach(x => x.classList.toggle('active', +x.dataset.syl === _sl)); }
+      rimeInput.value = disp(_q); rimeIzKante(_q);
+    }
+  }
+}catch(e){}
+el('randomBtn').onclick = async ()=>{
+  /* Bazen kockice traži učestalost (P-2: skida se tek na potrebu) – dok ne stigne, dugme „radi". */
+  if(!getCommonPool()){ el('randomBtn').classList.add('ucitava'); try{ await EXTRAS_P; } finally { el('randomBtn').classList.remove('ucitava'); } }
   /* Kockica poštuje ISTI filter kao igra (audit 22.09.2026, L-1): bazen od 8.000 najčešćih reči sadrži
      „nasilje", „ubistvo", „genocid", „mrtav" – sa uključenim dečjim režimom te reči ne smeju u polje,
      naslov i adresu. Zabranjene reči (BLOCKED) nikad. */

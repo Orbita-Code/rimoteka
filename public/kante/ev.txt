@@ -1,0 +1,351 @@
+337
+Kijev		
+alenićev		
+andrejev		
+andrićev		
+antićev		
+antonijev		
+apotekarev		
+aveljev		
+bakićev		
+batićev	24	
+belićev		
+berđajev		
+bogosavljev		
+bojićev		
+boškovićev		
+božićev		
+bratovljev		
+brborićev		
+brežnjev		
+brozovićev		
+bunićev		
+carev	512	
+cerovićev		
+cev	2864	
+cicvarićev		
+cukićev		
+cvijićev		
+dangićev		
+danićićev		
+daničićev		
+davinićev		
+delčev		
+dev		M
+dešićev		
+dimčev		
+dizdarev		
+dokićev		
+dorićev		
+dositejev		
+dožićev		
+drljevićev		
+drulićev		
+držićev		
+dudajev		
+dućićev		
+dučićev		
+dvopev		
+gadafijev		
+gajev		
+gajićev		
+gandijev		
+georgijev		
+glavašev		
+gledaočev		
+glišićev		
+glumčev		
+gnev	2304	
+gnjev	348	
+gordijev		
+gospodarev		
+grnčarev		
+grujev		
+grujićev		
+grujičićev		
+husrev		
+hvalospev	153	
+ilijev		
+ilićev		
+ivanićev		
+ivančev		
+ivićev		
+ivkovićev		
+izdavačev		
+izljev	12	J
+izuzev	6650	
+jakovljev		
+jakšićev		
+janičarev		
+janjićev		
+jankovićev		
+jarčev	12	
+jelačićev		
+jev		M
+jevtićev		
+jezdićev		
+jonićev		
+jurjev		
+kalabićev		
+kalijev		
+karadžićev		
+karađorđev		
+karićev		
+kartašev		
+kačićev		
+knežev	104	
+kneževićev		
+kobasičarev		
+kolarčev		
+komnenićev		
+konjev		
+kopitarev		
+koraćev		
+kostićev		
+kovačev	37	
+kovačićev		
+kočijašev		
+kočićev		
+kraljev	294	
+krečarev		
+krgovićev		
+križanićev		
+krmpotićev		
+krojačev		
+krstivojev		
+lalićev		
+lazarev		
+lev	255	
+ljotićev		
+ljubimcev		
+lobačev		
+lončarev		
+lovčev		
+luburićev		
+lukićev		
+lukovićev		
+lučev		
+lučićev		
+malešev		
+mandušićev		
+maretićev		
+marićev		
+markovićev		
+matejev		
+matićev		
+mađarev		
+maškovićev		
+medvedev		
+mesarev		
+mesečev	87	
+mesićev		
+miletićev		
+milivojev		
+milićev		
+miljkovićev		
+milojev		
+milosavljev		
+milošev		
+mirčev		
+mitrovićev		
+mišićev	25	
+mladićev	176	
+mlinarev		M
+mojsijev		
+moljevićev		
+molotovljev	42	
+mrtvačev		
+muškarčev	11	
+mužev		
+muževljev	17	
+nadev	274	
+nadničarev		
+napev	47	
+natrijev		
+nedićev		
+neprijateljev		
+nerićev		
+nikolajev		
+nikolićev		
+nikčevićev		
+njegošev		
+noev		
+nojev	43	
+nušićev		
+oberknežev		
+obilićev		
+odsev		M
+ogrev	890	
+ostojićev		
+očev	232	
+panićev		
+pančev		
+pančićev		
+pavelićev		
+pavićev		
+pavkovićev		
+pavlovićev		
+pašićev		
+pekićev		
+pelagićev		
+perićev		
+petkovićev		
+petrovićev		
+pev		
+pešićev		
+piletićev		
+piljarev		
+pisarev		
+piščev	52	
+pjev		J
+pobediočev		
+policajčev		
+popovićev		
+počev		
+preljev	14	J
+prepev	101	
+prev		
+pridev	782	
+prijateljev		
+priljev	25	
+princev		
+prinčev	20	
+pripev	43	
+pripovedačev		
+prispev		
+prohtev		
+prokofjev		
+protićev		
+prćićev		
+radivojev		
+radićev		
+radičev		
+radojev		
+radonjićev		
+radovićev		
+rajićev		
+rakićev		
+rankovićev		
+račićev		
+rašićev		
+rediteljev	24	
+ristićev		
+rogićev		
+rumenićev		
+samardžićev		
+savićev		
+selenićev		
+sergejev		
+sev		
+silićev		
+simićev		
+sinovljev		M
+sinovčev		
+skerlićev		
+slavujev	27	
+slepčev		
+slikarev		
+solovjev		
+spasiteljev	27	
+spasićev		
+spev	228	
+sremčev		
+stanićev		
+stanišev		
+stanišićev		
+stančev		
+starcev		
+starčev	28	
+stojićev		
+stojčev		
+stražarev		
+strelčev		
+stričev	12	
+sunčev	330	
+svečev		
+sviračev		
+tadićev		
+tanovićev		
+tokarev		
+tomašev		
+tomićev		
+tončev		
+tošev		
+trešnjev	10	
+tropev		
+trumbićev		
+tupoljev		
+turgenjev		
+tužiočev		
+urošev		
+usev	542	
+učiteljev	19	
+vasiljev		
+vasićev		
+velikašev		
+verdijev		
+vesovićev		
+videv		
+višnjićev		
+vladaočev		
+vozačev	21	
+vračev	17	
+vujačićev		
+vujićev		
+vukčevićev		
+vučićev	242	
+zahtev	46338	
+zaljev	34	
+zečev		
+zinovjev		
+zmajev	76	
+zmajevićev		
+zvjagincev		
+ćirićev		
+ćopićev		
+ćorovićev		
+ćosićev		
+ćurovićev		
+čapajev		
+čarapićev		
+čavićev		
+čehovljev		
+čiplićev		
+čitaočev		
+čkrebićev		
+čolićev		
+čovićev		
+čumićev		
+čupićev		
+čuvarev		
+đajdev		
+đavoljev		
+đinđićev		
+đokovićev		
+đorićev		
+đorđev		
+đurićev		
+đurkovićev		
+đurđev		
+đurđevićev		
+šakićev		
+šantićev		
+ševarlićev		
+šešeljev		
+šišićev		
+šubićev		
+želev		
+živkovićev		
+cijev	165	
+hvalospjev		
+kijev		
+lijev	20	
+mjesečev	14	
+nadjev		
+odsjev		
+ogrjev		
+pridjev		
+usjev		
+zahtijev		
+zahtjev		
+zijev	16	

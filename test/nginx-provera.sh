@@ -47,12 +47,15 @@ cp "$PROJ/public/rime-po-zavrsetku/index.html" "$RAD/html/rime-po-zavrsetku/" 2>
 # mapa starih strana (S-26) živi u zasebnom fajlu koji Dockerfile kopira uz nginx.conf
 cp "$PROJ/nginx-stare-strane.map" "$RAD/conf.d/rime-stare-strane.map"
 cp "$PROJ/nginx-strane-mala.map" "$RAD/conf.d/rime-strane-mala.map"
+cp "$PROJ/nginx-kanon-rec.map" "$RAD/conf.d/rime-kanon-rec.map"     # SEO-2 (22.09.2026)
+cp "$PROJ/public/app.min.js" "$RAD/html/app.min.js" 2>/dev/null             # PF-3: /app.js → app.min.js
 mkdir -p "$RAD/html/fonts"; echo "font" > "$RAD/html/fonts/rubik-latin.woff2"
 sed -e "s|listen 80 default_server;|listen $PORT default_server;|" \
     -e "s|listen 80;|listen $PORT;|" \
     -e "s|/usr/share/nginx/html|$RAD/html|" \
     -e "s|include /etc/nginx/conf.d/rime-stare-strane.map;|include $RAD/conf.d/rime-stare-strane.map;|" \
     -e "s|include /etc/nginx/conf.d/rime-strane-mala.map;|include $RAD/conf.d/rime-strane-mala.map;|" \
+    -e "s|include /etc/nginx/conf.d/rime-kanon-rec.map;|include $RAD/conf.d/rime-kanon-rec.map;|" \
     "$PROJ/nginx.conf" > "$RAD/conf.d/rimoteka.conf"
 
 MIME=/opt/homebrew/etc/nginx/mime.types
@@ -147,6 +150,24 @@ if curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/rime-za/xqzwptr/" | g
 if curl -s -D - -o /dev/null -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/fonts/rubik-latin.woff2" | grep -qi 'cache-control: max-age=31536000'; then echo "  ✓ /fonts/*.woff2 keš godinu dana"; else echo "  ✗ /fonts/*.woff2 nema keš od godinu"; PALO=$((PALO+1)); fi
 
 echo
+# --- 22.09.2026: kanonikal za ?rec= u sirovom HTML-u (SEO-2), /app.js = minifikovan (PF-3), /index.html i /RIME-ZA/ → 301 (SEO-5) ---
+echo ""
+echo "3b) Kanonikal ?rec=, minifikovan app.js, duple adrese"
+kan() { curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/?rec=$1" | grep -o 'rel="canonical" href="[^"]*"' | head -1; }
+K1=$(kan ljubav); K2=$(kan xyzqw); K3=$(kan %C4%8Deka)
+if [ "$K1" = 'rel="canonical" href="https://rimoteka.com/rime-za/ljubav/"' ] && [ "$K2" = 'rel="canonical" href="https://rimoteka.com/"' ] && [ "$K3" = 'rel="canonical" href="https://rimoteka.com/rime-za/ceka/"' ]; then
+  echo "  ✓ ?rec=ljubav → kanonikal /rime-za/ljubav/; ?rec=čeka → /rime-za/ceka/; nepoznata reč → /"
+else
+  echo "  ✗ kanonikal ?rec=: [$K1] [$K2] [$K3]"; PALO=$((PALO+1))
+fi
+if [ -f "$RAD/html/app.min.js" ]; then
+  A=$(curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/app.js?v=x" | head -c 40)
+  case "$A" in "/* Rimoteka app.min.js"*) echo "  ✓ /app.js servira minifikovan app.min.js";; *) echo "  ✗ /app.js nije app.min.js: $A"; PALO=$((PALO+1));; esac
+fi
+proveri_kraj "rimoteka.com" "/index.html"            301 "/"
+proveri_kraj "rimoteka.com" "/rime-za/voda/index.html" 301 "/rime-za/voda/"
+proveri_kraj "rimoteka.com" "/RIME-ZA/voda/"          301 "/rime-za/voda/"
+
 echo "4) Preimenovana strana: /recnik-srpskog-jezika/ → /rime-po-zavrsetku/ (26.08.2026)"
 # Stara adresa je obećavala rečnik srpskog jezika, a alat traži reči po slovima.
 # 301 mora da radi i SA kosom crtom na kraju i BEZ nje — Gugl zna obe.

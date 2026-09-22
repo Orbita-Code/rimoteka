@@ -1,0 +1,680 @@
+647
+Beogradi		
+Islandi		
+Judi		
+Kanadi		
+Madridi		
+abecedi	150	
+adenoidi		
+agendi	503	
+akordi	125	
+aldehidi	27	
+alkaloidi	49	
+amandi		
+ambasadi	2803	
+amplitudi	49	
+androidi	95	
+antipodi	62	
+apatridi		
+apsidi	146	
+apsurdi	94	
+armadi	69	
+asteroidi	355	
+audi		
+autostradi		
+avangardi	201	
+bakenbardi		
+baladi	99	
+bandi	430	
+barikadi	230	
+bazdi	80	
+bdi	346	
+besedi	1700	
+bezbradi		
+bilbordi	485	
+biljojedi	142	
+bledi	1088	
+blendi	37	
+blokadi	2398	
+bludi	72	
+bodi	208	
+bogoradi		
+bolidi	142	
+bradi	409	
+brazdi	114	
+brendi		M
+bridi		
+brigadi	350	
+brodi	83	
+budi	13296	
+bujadi	12	
+bundi	136	
+buradi	411	
+burundi		
+cedi	447	
+cevovodi	135	
+cijanidi		
+crnobradi		
+crvenobradi		
+dajbudi		
+dalekovidi		
+dalekovodi	107	
+dandi		
+daždi		
+dedi	572	
+dekadi	652	
+dendi	28	
+di		M
+didi		M
+dividendi	647	
+dogledi		
+dogodi	9874	
+dogradi	100	
+dogrdi		
+dohodi	32	
+dojadi	68	
+dojenčadi	16	
+doradi	340	
+dosadi	1113	
+dosudi	229	
+dovedi	268	
+dovodi	25822	
+dreždi		
+droidi	20	
+druidi	57	
+drvoredi	173	
+dudi	35	
+dugmadi	201	
+dugobradi		
+dvogledi	73	
+dvosedi	46	
+džidi		
+edi		
+efendi		M
+elektrodi	23	
+endi		
+epizodi	1365	
+estradi	595	
+etidi		
+fadi		
+fasadi	1215	
+feudi	72	
+floridi		
+fluidi	97	
+fredi		
+gadi	757	
+gajdi	68	
+gamadi	175	
+gandi		
+gardi	191	
+garibaldi		
+gasovodi	134	
+gazdi	540	
+genocidi	72	
+gepardi	92	
+gildi	13	
+gladi	6230	
+gnezdi		M
+godi	1000	
+golobradi	153	
+golsvordi		
+gordi	353	
+gospodi	881	
+gradi	15917	
+granadi		
+grdi	299	
+gredi	201	
+gromadi	44	
+grudi	12229	
+gudi	75	
+haciendi		
+hacijendi	17	
+hajdi		
+hamdi		
+hardi		
+hedi		
+hemoroidi	358	
+herbicidi	180	
+hibridi	705	
+hiljadi		
+hindi		M
+hladi	1903	
+hloridi	50	
+hodi	634	
+hordi	301	
+hridi	181	
+humanoidi	33	
+idi	6701	
+ilijadi		
+insekticidi	155	
+invalidi	1171	
+iscedi	272	
+ishodi	825	
+iskradi		
+ispadi	440	
+isporedi		
+ispovedi	513	
+izbledi	209	
+izbodi		
+izbudi		
+izgladi	132	
+izgledi	2183	
+izgradi	6105	
+izgrdi	80	
+izgredi	50	
+izludi	64	
+izmoždi		
+iznenadi	2196	
+iznudi	265	
+izoldi		
+izradi	13666	
+izrodi	483	
+izvadi	2539	
+izvedi	111	
+izvidi	126	
+izvodi	10458	
+jadi	224	
+jagnjadi	168	
+jagodi	50	
+jajovodi	66	
+jaradi	30	
+jardi	407	
+jedi	799	
+jezdi	140	
+judi		
+junadi		
+kadi	1000	
+kasidi		
+kendi		
+kenedi		
+kikindi		
+kladi	205	
+kljusadi		
+kodi		
+kokardi		
+komadi	2088	
+komandi	1801	
+komodi	78	
+kopiladi	12	
+koridi	58	
+kradi	159	
+kratkovidi		
+kredi	214	
+kudi	229	
+kurdi		
+kučadi		
+labudi	13	
+lebdi	1134	
+ledi	771	
+legendi	2908	
+lejdi	477	
+leopardi	63	
+limunadi	21	
+lipidi	87	
+livadi	1136	
+ljudi	478636	
+longitudi	13	
+ludi	3978	
+mansardi		
+marinadi	68	
+medi	121	
+medvedi	808	
+melodi		
+mesojedi	82	
+metodi	2544	
+midi		
+mikrosekundi	40	
+milijadi		
+milijardi	59666	
+milisekundi	239	
+mimohodi		
+mladi	55210	
+mladunčadi	38	
+modi	2920	
+momčadi	238	
+mongoloidi		
+mopedi		
+mravojedi	17	
+mrgodi		
+nabodi	17	
+nadeždi		
+nadgradi	40	
+nadi	4866	
+nadljudi	78	
+nadogradi	193	
+nadoknadi	3418	
+nadvladi		
+nadvojvodi	15	
+naftovodi	46	
+nagodi	149	
+nagradi	2235	
+nagrdi	67	
+nahodi	158	
+nahudi		
+najedi	21	
+najezdi	218	
+nakaradi		
+nakladi	47	
+naknadi	1081	
+namrgodi	18	
+nanosekundi	60	
+napadi	5774	
+naredi	5708	
+narodi	8178	
+nasadi	55	
+nasladi	36	
+nasledi	827	
+naudi	308	
+navadi	15	
+navedi	322	
+navodi	79838	
+nazimadi		
+načudi	89	
+naškodi	497	
+neljudi		M
+nepravdi	1200	
+neradi	476	
+neredi	918	
+neslobodi	59	
+nevadi		
+nezgodi	541	
+nomadi	200	
+novorođenčadi	321	
+nudi	49355	
+nuždi	521	
+obadi	28	
+obedi		
+obezbedi	22735	
+obezvredi	200	
+oblagorodi		
+oblandi	93	
+obnevidi		
+obodi	55	
+obradi	3785	
+obredi	500	
+ocedi	169	
+odeždi	131	
+odgodi	181	
+odgudi		
+odledi	30	
+odmazdi	160	
+odnarodi		
+odojčadi	843	
+odradi	3700	
+odredi	7851	
+odrodi	30	
+odvedi	100	
+odvodi	1190	
+ogadi	92	
+ogledi	531	
+ogradi	1000	
+ohladi	2363	
+ojadi	68	
+okadi	93	
+okladi		
+oksidi	158	
+oladi		
+olimpijadi	1832	
+ophodi	390	
+opkladi	49	
+oplodi	197	
+opsadi	298	
+orodi		
+osladi	44	
+oslobodi	5404	
+osudi	2359	
+otpadi	103	
+otpozadi		
+ozledi	44	
+ozlijedi		J
+ozlojedi		
+pagodi		
+pandi	110	
+parabrodi		
+paradi	1377	
+parobrodi	29	
+parčadi	30	
+paščadi		
+peludi	17	
+peradi	158	
+periodi	1262	
+peroksidi	12	
+pesticidi	536	
+petardi	319	
+piladi		
+piramidi	287	
+plavobradi		
+plejadi	107	
+plodi	33	
+pobedi	13902	
+pobledi	19	
+pobodi		
+pobudi	269	
+podmladi	151	
+podredi	240	
+podvodi	192	
+pogladi	38	
+pogledi	2446	
+pogodi	2699	
+pogordi		
+pogradi		
+pohodi	441	
+pojedi	155	
+pokadi		
+pokudi	18	
+poljoprivredi	7892	
+poludi	465	
+polunomadi		
+ponudi	27784	
+poradi	930	
+poredi	2523	
+porodi	602	
+posadi	923	
+posedi	385	
+posredi	1052	
+postidi	193	
+posudi	1239	
+potrudi	1382	
+potvrdi	5475	
+povadi	77	
+povedi	295	
+povodi	342	
+povredi	2826	
+pozadi	4076	
+pozavidi	81	
+poštedi	479	
+požudi	69	
+pradedi	39	
+praljudi	39	
+prasadi	240	
+pravdi	3672	
+prdi	98	
+prebledi	16	
+prebrodi	632	
+prebudi		
+predi	30	
+predrasudi	68	
+predupredi	383	
+predvidi	1866	
+predvodi	5015	
+pregledi	2993	
+pregradi	156	
+prehladi	193	
+prekadi		
+prekidi	454	
+premladi	66	
+prepadi	23	
+preporodi	150	
+preradi	1620	
+presadi	82	
+presedi	25	
+presudi	3453	
+prethodi	2154	
+preuredi	228	
+prevedi	65	
+previdi	217	
+prevodi	3418	
+prigodi	56	
+prigradi		
+prihodi	9492	
+prilagodi	2845	
+prinudi	265	
+pripovjedi		J
+priredi	548	
+prirodi	21759	
+privedi	30	
+prividi	41	
+privodi	1661	
+privredi	12239	
+prištedi	51	
+probodi	13	
+probudi	3944	
+procedi	277	
+prodi		
+prohladi	411	
+prohodi	55	
+proishodi	133	
+proizvodi	44104	
+promenadi	127	
+propagandi		
+propovedi	1065	
+proradi	1626	
+proredi	62	
+prosedi	44	
+prosledi	926	
+prosudi	125	
+provedi	99	
+providi	74	
+provodi	6084	
+radi	357328	
+randi		
+rapsodi		
+rashladi	255	
+rashodi	2966	
+raskidi	84	
+rasporedi	819	
+rasrdi	79	
+rasudi		
+razbudi	226	
+razgradi	192	
+razonodi	126	
+razradi	789	
+razredi	492	
+razudi		
+razvadi		
+razvedi	22	
+razvodi	524	
+redi	221	
+redosledi		
+rekordi	498	
+rendi		
+riđobradi	17	
+rodi	5858	
+romboidi	13	
+rotondi		
+ruandi		
+rudi	284	
+rukovodi	4441	
+rundi	2176	
+sadi	1020	
+sagradi	1280	
+samoosudi		
+sandi		
+sedi	12073	
+sefardi		
+sekundi	22488	
+sendi		
+sidi	208	
+simonidi		
+sindi		
+sinodi		
+siročadi	112	
+skinhedi		
+sladi	104	
+sladoledi	170	
+sledi	24014	
+sljedi		J
+slobodi	6873	
+sludi	29	
+smaragdi	34	
+smrdi	1873	
+snuždi	22	
+sondi	547	
+spermatozoidi	300	
+sprovedi	35	
+sprovodi	20849	
+srdi	64	
+sredi	3436	
+srodi	26	
+srpčadi		
+standardi	7031	
+starčadi		
+steroidi	165	
+stidi	1733	
+stjuardi	40	
+sudi	5554	
+suludi	241	
+susedi	1724	
+susjedi		J
+svidi	1297	
+svodi	8372	
+svudi		
+tabloidi	813	
+teladi	162	
+tesnogrudi		
+tiradi	19	
+torpedi		
+trigliceridi	230	
+trijadi	45	
+trudi	6012	
+tvrdi	46294	
+ubedi	3178	
+ubodi	175	
+ubradi		
+udi	138	
+ugandi		
+ugladi		
+ugledi	11	
+ugnezdi	37	
+ugodi	383	
+ugradi	1356	
+uhodi	117	
+ujedi	145	
+ukradi	70	
+uljudi	27	
+ultraludi		
+unapredi	3758	
+unazadi	50	
+uneredi	29	
+unučadi	171	
+upadi	195	
+uparadi		
+uporedi	2287	
+uradi	30399	
+uredi	3024	
+urodi	215	
+usadi	225	
+uskladi	1326	
+uskogrudi		
+usledi	1254	
+usmrdi	37	
+usredsredi	403	
+ustvrdi	95	
+usudi	918	
+utvrdi	12278	
+uvedi		
+uvidi	955	
+uvodi	9554	
+uvredi	782	
+uzbudi	261	
+uzdi	106	
+uštedi	2367	
+užadi	107	
+vadi	3194	
+vagabundi	13	
+vajdi	21	
+velosipedi		
+verandi	91	
+verdi		
+vidi	106478	
+vikendi	166	
+vinogradi	1630	
+vladi	34445	
+vodi	95198	
+vodopadi	360	
+vodovodi	221	
+vojevodi		
+vojvodi	496	
+vraždi		
+vredi	22798	
+vudi		
+zabludi	2181	
+zabodi		
+zabradi		
+zagadi	168	
+zagladi	42	
+zagradi	580	
+zagudi		
+zahladi	89	
+zaledi	288	
+zaludi	37	
+zapadi		
+zapovedi	579	
+zapovijedi	187	J
+zapovjedi		J
+zaradi	6565	
+zaredi		
+zarudi	19	
+zasadi	858	
+zasedi	256	
+zasladi	104	
+zasmrdi	26	
+zastidi	58	
+zavadi	683	
+zavedi	33	
+zavidi		
+zavodi	1247	
+zavredi	23	
+zazviždi	13	
+začudi	680	
+zaštedi		
+zaždi		
+zažudi		
+zelandi		
+zgadi	121	
+zgradi	15163	
+zloćudi		
+zluradi	193	
+zvezdi	5332	
+zviždi	317	
+zvjeradi		J
+ćebadi	180	
+ćeramidi		
+ćudi	560	
+čardi	122	
+čedi		
+čeljadi	94	
+čokoladi	468	
+čudi	10029	
+đačadi		
+đubradi	13	
+šeherezadi		
+škodi	1339	
+štedi	3946	
+štenadi	66	
+živadi		
+žlezdi	261	
+žudi	632	
+žutobradi		
+besjedi		
+bijedi	94	
+blijedi	90	
+cijedi	35	
+gnijezdi		
+iscijedi		
+ispovijedi	63	
+ispovjedi		
+izblijedi		
+medvjedi		
+naslijedi	54	
+obezbijedi		
+objedi		
+pobijedi	258	
+pobjedi		
+poblijedi	11	
+posjedi		
+posrijedi	94	
+povrijedi	69	
+preblijedi		
+propovijedi	205	
+proslijedi	29	
+sijedi	20	
+sjedi	911	
+slijedi	1503	
+srijedi	70	
+ubijedi	86	
+uslijedi	62	
+uvrijedi	55	
+vrijedi	1573	
+zasjedi		
+zvijezdi	96	

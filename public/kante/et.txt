@@ -1,0 +1,402 @@
+390
+Fikret		
+Magbet		
+Mljet		
+Nazaret		
+adet		
+admiralitet	19	
+afinitet	351	
+aktivitet	21	
+alfabet	269	
+amanet		M
+amulet		M
+analfabet		
+animozitet	556	
+antikvitet	37	
+anuitet	119	
+apologet		M
+asket	18	
+autoportret	290	
+autoritet	5646	
+avet	232	
+bafet		
+baget		M
+bajonet		M
+balet	1689	
+banket	298	
+baronet		M
+basket	1436	
+bašmet		
+berićet	105	
+bermet	380	
+blagodet	358	
+blanket		M
+bonitet	389	
+briket	74	
+brudet		
+brzoplet	83	
+budžet		M
+buket	765	
+cigaret		
+cimet	820	
+cvet	4483	
+deformitet	404	
+dekret	517	
+deset	70427	
+devedeset	1984	
+devet	33561	
+dignitet	353	
+dijabet		
+diskontinuitet		
+disparitet	144	
+diverzitet	185	
+domazet		M
+domet	2771	
+donet	4302	
+donijet	39	J
+dramolet	17	
+dualitet	56	
+duet	1056	
+dvadeset	22489	
+dvadesetpet		
+dženet		M
+džet		
+egzoskelet	54	
+ekstremitet	107	
+elasticitet	42	
+elektricitet	472	
+elektromagnet	42	
+elizabet		
+entitet	1860	
+epitet	2462	
+eržebet		
+estet		
+etnicitet	101	
+fakticitet		
+fakultet	29308	
+falset	10	
+faset		
+fertilitet	76	
+filaret		
+filet	55	
+floret	17	
+gadžet		
+gaset		
+generalitet		M
+geodet		
+golet	26	
+gorocvet		M
+graviditet	92	
+hamlet		
+hiperaciditet		
+hipermarket	254	
+identitet	15041	
+imunitet	4695	
+individualitet		
+integritet	5552	
+intenzitet	3244	
+internet	58857	
+intranet	293	
+invaliditet	443	
+ismet		
+izet		
+izgorjet		J
+izlet	3556	
+izmet	708	
+iznet	526	
+iznijet		J
+izuzet	155	
+kabaret		
+kabinet	3990	
+kabriolet	724	
+kadet	525	
+kamionet	108	
+kapacitet	13106	
+karnet	56	
+kačket	351	
+kijamet		M
+kismet	31	
+klaret		
+klarinet	367	
+klepet	21	
+klet	58	
+klozet	198	
+kmet	320	
+kolektivitet		
+koloplet	77	
+komet	312	
+komitet	5428	
+komoditet	117	
+komplet	3978	
+kontinuitet	5745	
+kornet	85	
+korset	141	
+kosmet		
+kostret	40	
+kotlet	34	
+kredibilitet	3315	
+kreket	16	
+krevet	8117	
+kriket	244	
+kriminalitet	189	
+kroket	17	
+krstoplet		
+kuplet		
+kuriozitet		M
+kvalitet	43203	
+kvantitet	951	
+kvartet	1090	
+kvintet	221	
+lafet		M
+latinitet		
+lazaret		M
+legalitet	295	
+legitimitet	3773	
+lepet	60	
+let	7016	
+letjet		J
+lokalitet	1698	
+lornjet		
+magnet	1273	
+margaret		
+market	1895	
+marmozet		
+mediokritet	151	
+mehmet		
+meket		
+mentalitet	3490	
+menuet	44	
+merhamet		
+milet		
+minaret	132	
+modalitet	296	
+modernitet	35	
+morbiditet	154	
+mortalitet	477	
+motet		
+mrzisvet		
+muhamet		
+mukajet		
+nacionalitet		M
+nalet	799	
+namet	811	
+nanet	106	
+naodmet		M
+napamet	4210	
+napet	456	
+natalitet	1171	
+načet	40	
+nenačet		
+nepamet		
+net	6203	
+nezauzet		
+novitet	1208	
+nusret		
+obuzet	68	
+odmet	1495	
+odnet	123	
+odnijet		J
+oduzet	263	
+ofset	254	
+okret	293	
+oktet	79	
+omlet	220	
+opet	124036	
+osamdeset	2190	
+oset	38	
+osjet		J
+otet	310	
+paket	16531	
+pamet	22189	
+pamflet	551	
+parapet		
+paritet	333	
+parket	1949	
+paternitet		M
+pedeset	8479	
+pet	137853	
+pijetet	158	
+piket		
+planet	654	
+plavet	29	
+podmet		
+podnet	1329	
+podnijet	18	J
+poet		
+poket		
+pokret	20535	
+polaritet	132	
+polet	1140	
+poletjet		J
+polisindet		M
+polusvet	173	
+pomet		
+ponet	27	
+ponijet		J
+portret	3171	
+potkomitet	13	
+počet	47	
+preboljet		J
+predmet	34280	
+preduzet	154	
+prelet	302	
+premet	48	
+prenapet		
+prenet	608	
+prenijet	16	J
+preokret	7053	
+preplet		M
+preuzet	1363	
+prezauzet		
+preživjet		J
+prinet		
+prioritet	12834	
+pripet		
+probisvet	78	
+profet		M
+proklet	534	
+promet	16191	
+promiskuitet	132	
+pronet		
+propalitet	37	
+propet		
+prosperitet	2443	
+prostret		
+prožet	271	
+pubertet	813	
+publicitet	1148	
+puškomet	89	
+raritet	315	
+raspet	165	
+rasplet	1847	
+razapet	210	
+raznet	17	
+raznijet		J
+razumet		
+razumjet		J
+realitet	133	
+reciprocitet	457	
+reket	2059	
+relativitet	21	
+reset		
+rikošet		M
+rivalitet	431	
+rukomet	2440	
+rukovet	94	
+rulet	473	
+safet		
+salinitet	79	
+salvet		
+samet		
+sanitet	335	
+sapet		
+savet	42904	
+sažet	475	
+sedamdeset	2622	
+sekret	1177	
+sekstet	67	
+senzibilitet	835	
+sepet		M
+septet		
+set	12689	
+siget		
+sijaset	1140	
+singularitet		
+skelet	731	
+skerlet		M
+skrlet		M
+slet	167	
+smet		M
+sonet	184	
+sorbet		
+sovjet	291	
+specijalitet	1370	
+splet	1328	
+sterilitet	382	
+stodvadeset		
+stopedeset		
+strelomet		
+suncokret	1491	
+sunet		M
+supermarket		M
+susret	26733	
+suverenitet	4511	
+svet	89801	
+tablet	6316	
+target		
+teget		M
+tenet		
+tercet	14	
+teret	13466	
+tibet		
+tiket		M
+toalet		M
+tonalitet	109	
+totalitet	202	
+trepet	394	
+treset	164	
+trideset	11144	
+tridesetpet		
+triplet		M
+trotinet		
+tucet		
+uklet	60	
+ulet		
+umrijet		J
+unet	312	
+univerzitet	13037	
+uspet		
+uspjet		J
+ususret	80	
+uvidjet		J
+uvjet		J
+uzet	1821	
+uzlet	394	
+uznet		
+užet		
+vagonet	10	
+varijetet	218	
+vatromet	1713	
+vilajet	424	
+vitalitet		
+vodencvet		
+voljet		J
+vrlet	10	
+zaklet	16	
+zakret		
+zalet	466	
+zanet	33	
+zanovet		M
+zaokret	2253	
+zapet	20	
+zaplet	1318	
+započet	1688	
+zauzet	332	
+zavet	2145	
+zavoljet		J
+začet	148	
+zet	1568	
+zveket	160	
+četrdeset	6129	
+šefket		
+šefćet		
+šerbet		
+šeret		M
+ševrolet		
+šezdeset	2852	
+šporet		M
+žaket		
+željet		J
+žilet		M
+žoržet		
+cvijet	382	
+dijet		
+klijet		
+kostrijet	15	
+savijet		
+savjet		
+svijet	6899	
+svjet		
+unijet		
+zavjet		
+žilijet		

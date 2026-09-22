@@ -485,7 +485,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=6fa8532f"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=4b470341"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1309,6 +1309,17 @@ def main():
         f.write('# GENERISANO (build/gen_pages.py, S9): adresa strane → ista adresa; nginx map ne razlikuje velika i mala slova\n')
         for _sl in sorted(target_slugs):
             f.write(f'/rime-za/{_sl}/ /rime-za/{_sl}/;\n')
+    # SEO-2 (22.09.2026): `?rec=<reč>` → kanonikal statičke strane u SIROVOM HTML-u (nginx map + sub_filter).
+    # Ključ je onako kako stiže u `$arg_rec`: percent-enkodiran (č → %C4%8D) i malim slovima; nginx map ga
+    # poredi bez razlike velikih i malih slova. Fajl kopira Dockerfile.
+    from urllib.parse import quote as _quote
+    with open(os.path.join(HERE, '..', 'nginx-kanon-rec.map'), 'w', encoding='utf-8') as f:
+        f.write('# GENERISANO (build/gen_pages.py, SEO-2): ?rec= → kanonikal strane reči\n')
+        for _sl in sorted(target_slugs):
+            f.write(f'"{_quote(_sl)}" "/rime-za/{_sl}/";\n')
+            _w = str(seen_slug.get(_sl, '')).lower()
+            if _w and _quote(_w) != _sl:   # i reč sa kvačicama (?rec=%C4%8Deka), ne samo ASCII slug
+                f.write(f'"{_quote(_w)}" "/rime-za/{_sl}/";\n')
 
     # ---- S-18: upis strana sa susedima po azbuci (kružno: prva i poslednja su susedi) ----
     AZBUKA = 'abcčćdđefghijklmnoprsštuvzž'

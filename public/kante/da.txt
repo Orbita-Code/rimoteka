@@ -1,0 +1,934 @@
+903
+Beograda		
+Davida		
+Islanda		
+Juda		
+Kanada		
+Madrida		
+Petrograda		
+Tajlanda		
+abeceda	184	
+ada	2780	
+agenda	843	
+ahmeda		
+ajlenda		
+akobogda		
+akorda	170	
+alfreda		
+alkaloida	109	
+amanda		
+ambasada	4787	
+amplituda	266	
+anakonda	38	
+androida	1075	
+anoda	82	
+antipoda	88	
+aparthejda	367	
+apatrida		
+apsida	186	
+apsurda	1429	
+arenda		M
+arhimeda		
+arkada	173	
+armada	229	
+arnolda		
+arpada		
+artemida		
+asteroida	1796	
+atlantida		
+autostrada		M
+avangarda	636	
+avokada	238	
+bagdada		
+bakljada	63	
+balada	692	
+balustrada	22	
+banda	1420	
+barakuda	31	
+barda	144	
+barikada	1377	
+beda	2236	
+belinda		
+benda	8027	
+berda		
+bermuda	32	
+bernarda		
+beseda	1195	
+bevanda		M
+bezbrada		
+bezizgleda		
+bilborda	861	
+biljojeda	72	
+biograda		
+bleda	951	
+blenda	182	
+blokada	2963	
+bluda	278	
+boda	8362	
+bolida	629	
+brada	1050	
+branda	164	
+bratučeda		M
+brazda	277	
+brda	7216	
+breda		
+brenda	7363	
+brigada	2309	
+broda	7707	
+brucošijada	12	
+brunda	33	
+buda		
+buhenvalda		
+bunda	106	
+carigrada		
+celuloida	19	
+cerada	77	
+cevovoda	1078	
+cijanida	118	
+cirada		
+da	13528990	
+dabogda		M
+dada	355	
+dalekovida		
+dalekovoda	784	
+dalida		
+darda		
+dažda	38	
+deblokada	122	
+deda	9783	
+dejvida		
+dekada	414	
+denda		
+derida		
+dida		M
+dioda	787	
+dioksida	1184	
+dividenda	349	
+diznilenda		
+doda	5617	
+dogleda	22	
+dopada	8648	
+dorada	320	
+dortmunda		
+dosada	2530	
+dosuda		
+dotada	385	
+dovoda	147	
+drnda	81	
+droida	20	
+drozda		
+druida	45	
+drvoreda	426	
+duda	686	
+dunda		M
+dužda	109	
+dvogleda	275	
+dvoreda		
+dvoseda	391	
+džada		M
+dževada		
+džida		M
+džihada	323	
+eda		
+eduarda		
+edvarda		
+egida		
+eldorada	18	
+elektroda	567	
+elektroprivreda	1599	
+empanada		
+enćilada		
+enčilada		
+epizoda	4714	
+esada		
+esplanada	19	
+estakada		
+estrada	524	
+etida	90	
+euripida		
+fajda		M
+fasada	3901	
+ferdinanda		
+ferida		
+feuda	108	
+fjorda	44	
+florida		
+fluida	807	
+fluorida	121	
+fonda	31204	
+forda	191	
+formaldehida	105	
+frenda	52	
+frida		
+frojda		
+fuada		
+gada	107	
+gajda		
+gamzigrada		
+garda	1004	
+gasovoda	3524	
+gauda		M
+gazda	6442	
+gazivoda		
+genocida	5057	
+geparda	71	
+gerharda		
+gertruda		
+gilda	39	
+girlanda		
+gitarijada	134	
+glavurda		
+gleda	25621	
+gluperda		
+gnezda	1698	
+gnjida	140	
+goda	83	
+golobrda		
+gorazda		
+goražda		
+gorda	142	
+gospoda	5316	
+goveda	2359	
+grada	148940	
+granada		
+granda	1460	
+grda	42	
+greda	904	
+grenada		
+grenlanda		
+gromada	445	
+grozda	149	
+gruda	114	
+hacienda		
+hacijenda	22	
+hada		
+hajda		
+halebarda		
+halida		
+hamada		
+hamida		
+haralda		
+harolda		
+harvarda		
+hasida		
+hazarda	87	
+heda		
+helada		
+helebarda		
+heljda	243	
+hemoroida	583	
+hepienda	44	
+herbicida	636	
+hibrida	1398	
+hidroksida	55	
+hilda		
+hiljada		M
+hlada	204	
+hlorida	200	
+hoda	5539	
+holivuda		
+hominida	81	
+honda		
+horda	249	
+hrida		
+huda		
+humanoida	60	
+ikada	22294	
+ikeda		
+ikuda	11	
+ilijada		
+insekticida	371	
+intifada	28	
+invalida	2694	
+iroda		
+ishoda	3155	
+iskida	60	
+iskomada		
+iskrada	32	
+ispada	7432	
+ispoveda	582	
+ispreda	99	
+isprepada	24	
+ispripoveda	37	
+izbrazda		
+izda	3416	
+izgleda	103586	
+izgreda	126	
+izida		
+izjada	43	
+izjeda	280	
+iznenada	8031	
+iznuda	126	
+izolda		
+izolirbanda		
+izrada	11050	
+izreda	17	
+izroda	137	
+izvida	22	
+izvoda	1420	
+izvrda		
+jada	1532	
+jagoda	2003	
+jajovoda	290	
+jarda	126	
+jasnovida		
+jeda		
+jednoseda	105	
+jeremijada		M
+jezda	173	
+joda	740	
+jolanda		
+juda		
+jugozapada	141	
+kada	914643	
+kaida		
+kandida	264	
+kanonada	116	
+karijatida	24	
+karotida	34	
+kaskada	107	
+katkada	532	
+katoda	68	
+kačavenda		
+kida	765	
+kikinda		
+kilibarda		
+klada	95	
+kliforda		
+klivlanda		
+klivlenda		
+kloda		
+klorida		
+koda	4979	
+kojekuda		
+kokarda	58	
+koleda	35	
+kolinda		
+kolonada	48	
+kolorada		
+komada	12322	
+komanda	2572	
+komoda	226	
+konrada		
+kontrabanda		M
+kontranapada	763	
+koperfilda		
+korida	93	
+kratkovida		
+krda	335	
+kreda	221	
+krivda	47	
+krivuda	112	
+kuda	8856	
+kunigunda		
+kurda		
+kustoda		
+kućegazda		
+labuda	399	
+lada		
+lagoda		
+lambda	219	
+landa		
+laprda	33	
+lavanda	338	
+leda	5746	
+legenda	5785	
+lenjingrada		
+leonarda		
+leonida		
+leoparda	158	
+leopolda		
+libida	335	
+likvida		M
+limunada	256	
+linda		
+lipida	402	
+livada	1374	
+loboda	28	
+logopeda	335	
+lokarda		
+longituda		
+lorda	464	
+luanda		
+lubarda		M
+lucprda		
+luda	2752	
+mada	79151	
+magda		
+magnituda	349	
+mahmuda		
+majda		
+manfreda		
+mansarda		M
+marinada	76	
+marmelada	181	
+maskarada		M
+masuda		
+matilda		
+maškarada	19	
+meda	8476	
+medveda	1595	
+megazvezda	47	
+mehmeda		
+melinda		
+merida		
+mesuda		
+metoda	17044	
+međeda		
+međunaroda		
+mida		
+mikada		
+mikrokoda		
+milijarda	1625	
+milorada		
+milorda		
+mimohoda	20	
+miokarda	971	
+miranda		
+mirijada	11	
+mirsada		
+mlada	13218	
+moda	4351	
+mohameda		
+monada	68	
+monokorda		
+monoksida	126	
+mopeda	196	
+možda	234224	
+mravojeda	17	
+mrda	522	
+mrgoda		M
+mrguda	52	
+muda	918	
+muhameda		
+munjovoda		
+mutivoda		M
+nabada	60	
+nada	16182	
+nadežda		
+nadgleda	871	
+nadoda	10	
+nadoknada	1862	
+nadvlada	364	
+nadvojvoda	96	
+nadzida		
+naftovoda	493	
+nagleda	74	
+nagrada	35249	
+nagrda		M
+nahlada		M
+najada		M
+najezda	474	
+nakarada	42	
+naklada	30	
+naknada	8537	
+napada	28964	
+naroda	95595	
+nasada	46	
+naseda	154	
+naslada	85	
+nastrada	392	
+navada	16	
+navoda	2127	
+nazida		
+neda		
+nedogleda	21	
+nedžada		
+negda		M
+nekada	48725	
+nekuda	467	
+nelagoda	176	
+nematoda		
+nenada		M
+nepogoda	2298	
+nepravda	2745	
+nerada	709	
+nereda	2284	
+neroda		
+neruda		
+nesklada	175	
+nesloboda	101	
+nevada		
+nezgoda	2157	
+nigda		
+nikada	118542	
+nikuda	912	
+niodkuda		
+niotkuda	611	
+nomada	208	
+nožurda		M
+nukleotida	136	
+nužda	454	
+obada	37	
+obeda	223	
+oblada		
+oblanda	39	
+oboda	418	
+obrada	5844	
+obreda	1581	
+obuzda	627	
+oda	1795	
+odasvuda		
+odbrunda		
+odežda	78	
+odgleda	330	
+odgoda	34	
+odmazda	440	
+odnekuda		
+odonda	94	
+odonuda		
+odovuda		
+odozada	27	
+odreda	3192	
+odsada	171	
+odseda	92	
+odsvakuda		
+odsvuda		
+odvajkada	727	
+odvoda	248	
+odzada		
+ofsajda		
+ogleda	9242	
+ograda	2353	
+ogrozda	46	
+ohrida		
+okida	75	
+oklada		
+oksforda		
+oksida	572	
+oktopoda	48	
+olimpijada	1170	
+onda	364799	
+onuda	129	
+opada	4862	
+ophoda	128	
+opklada	223	
+opravda	2255	
+opsada	485	
+opseda	190	
+orada	47	
+oranžada		
+orlanda		
+ortopeda	344	
+osuda	1594	
+osvalda		
+otada	910	
+otkada	929	
+otkida	198	
+otkuda	1800	
+otpada	18141	
+otuda	10280	
+ovada		
+ovda		
+ovlada	709	
+ovuda	717	
+ozida	57	
+ozleda	194	
+ozljeda		J
+pada	40140	
+pagoda	83	
+palamida	22	
+palisada	38	
+panda	545	
+parada	3737	
+paralelopipeda		
+paranoida		
+parobroda	161	
+perioda	28111	
+peroksida	87	
+persida		
+pesticida	2116	
+petarda	147	
+pikada	52	
+piramida	1804	
+plejada	347	
+ploda	3186	
+pobada		
+pobeda	21007	
+pobuda	1106	
+poda	3155	
+podbada	31	
+podvojvoda		
+pogleda	17843	
+pogrda	63	
+pohoda	1377	
+pokatkada		
+pokida	178	
+poklada	67	
+pokuda	61	
+poljoprivreda	6118	
+poluluda		
+poluproizvoda	212	
+poluraspada	127	
+polusijeda		J
+pomada	44	
+ponada	50	
+ponekada	1742	
+ponuda	22784	
+popada	26	
+popivoda		
+poroda	497	
+portlanda		
+posada	3184	
+poseda	1934	
+poskida	41	
+postrada	706	
+posuda	1691	
+posvuda	488	
+potkrada	206	
+potpada	540	
+potvrda	9508	
+pouzda	64	
+povoda	2274	
+povreda	13192	
+pošteda	43	
+požuda	338	
+prada		
+pradeda	642	
+prapradeda		
+pravda	8545	
+prebeda		
+preda	5918	
+predrasuda	4388	
+predseda		
+predsjeda		J
+pregleda	15146	
+pregrada	768	
+prehlada	1068	
+prejeda	20	
+prekida	9566	
+prekomanda		M
+premda	5613	
+premlada	77	
+preovlada	142	
+prepada	138	
+preporoda	1009	
+preproda	121	
+prerada	1589	
+presada		
+preseda		
+presuda	11257	
+preuda	26	
+previda	117	
+prevlada	472	
+prevoda	2959	
+prezida		
+prida	112	
+pridoda	260	
+prigoda	117	
+prihoda	23480	
+prikrada	105	
+prinuda	364	
+pripada	28258	
+pripoveda	1103	
+priroda	12610	
+priseda		
+privida	446	
+privreda	13629	
+probada	136	
+proda	10466	
+progleda	429	
+prohlada		
+prohoda	319	
+proizvoda	80343	
+prokrada		
+promenada	154	
+promrda		
+propada	3358	
+propaganda		M
+propoveda	894	
+proreda	38	
+proseda	21	
+provoda	1337	
+prozvižda		
+proćerda	41	
+prvobratučeda		
+rada	157723	
+rajmonda		
+rajmunda		
+rasada	612	
+raseda	70	
+rashoda	4080	
+raskida	2964	
+raskomada	36	
+raspada	8019	
+rasporeda	2406	
+raspreda	103	
+rasproda	401	
+razbluda		
+razda	56	
+razgleda	370	
+razjeda		
+razmrda		
+razonoda	330	
+razrada	581	
+razreda	17363	
+razuzda		
+razvoda	2864	
+rašida		
+reda	26886	
+redosleda	693	
+rekorda	3197	
+renda		
+reverenda		
+rida	92	
+rigveda		
+riharda		
+ripida		M
+roda	10605	
+rohada		
+rokada		
+roksanda		
+rolada		
+rolanda		
+romboida	16	
+ronalda		
+rotonda		M
+roštiljada		
+ruanda		
+ruda	1163	
+rukosada		
+runda	1149	
+ručerda		M
+sada	510216	
+safalada		
+sagleda	2525	
+saida		
+salda	179	
+samojeda		
+samoosuda		
+samovlada		
+sarabanda		
+savlada	3385	
+sazda	87	
+sazida	364	
+seada		
+seda	1203	
+sefarda		
+sekunda	831	
+senada		
+serdžada		
+serenada	64	
+severozapada	176	
+sida	676	
+sigmunda		
+simonida		
+sinoda	2083	
+sinusoida		
+skejtborda		
+skida	4067	
+skinheda		
+sklada	498	
+slabovida	170	
+slada	225	
+sladoleda	1510	
+slajda	199	
+sleda	151	
+sloboda	20193	
+smaragda	96	
+smrada		
+soda	466	
+solenoida		
+sonda	1344	
+spada	18068	
+spermatozoida	1111	
+spopada	88	
+sprda	288	
+spreda	516	
+sprovoda	37	
+spruda	35	
+srbenda		
+sreda	4873	
+stada	1538	
+staljingrada		
+stampeda	80	
+standarda	21776	
+steroida	352	
+stida	2122	
+stjuarda	72	
+strada	2101	
+strahovlada	68	
+suada		
+suda		
+suhozida	13	
+suicida	381	
+sulfida	67	
+suluda	367	
+superzvezda	94	
+suseda	2769	
+susjeda		J
+svagda	2806	
+svakada		
+svakuda		
+svetovida		
+svoboda		
+svoda	440	
+svuda	25240	
+svukuda		
+tabloida	1149	
+tada	186943	
+talmuda		
+tamarinda		M
+tamponada	35	
+telekomanda		
+tenda		
+tesnogruda		
+tilda		
+tirada	118	
+toplovoda	425	
+torcida		
+tornada	398	
+torpeda	162	
+traheida		
+trenda	2288	
+triglicerida	696	
+trijada	109	
+troseda	125	
+truda	7139	
+tuda	1670	
+tvida	73	
+tvrda	1692	
+ubada	123	
+uboda	1215	
+uda	1534	
+uganda		
+ugleda	6145	
+ugljendioksida	530	
+ugoda	12	
+uhoda	185	
+ujeda	1517	
+ukida	2771	
+upada	3105	
+upreda		
+urda		
+useda		
+uskogruda		
+usuda	151	
+utvrda	155	
+uvida	3371	
+uvoda	950	
+uvreda	3571	
+uzda	492	
+uzida	19	
+uzvrda		
+ušteda	4711	
+vajda	882	
+vajkada		
+valjda	40713	
+vanda		
+vanreda		
+vazda	2281	
+velegrada	290	
+veleposeda	13	
+veranda	54	
+vida	7120	
+vikenda	15819	
+vinograda	2933	
+višegrada		
+vlada	104649	
+voda	47298	
+vodopada	840	
+vodoprivreda		
+vodovoda	4142	
+vojevoda		
+vojvoda	4586	
+vožda	405	
+vražda		
+vrluda	28	
+zabada	179	
+zabluda	3690	
+zabrunda		
+zada	476	
+zagleda	744	
+zagrada	211	
+zahoda	29	
+zajeda		
+zakida	138	
+zaklada	46	
+zapada	17567	
+zaposeda	75	
+zapoveda	540	
+zarada	16854	
+zarida	22	
+zasada	2716	
+zaseda	833	
+zasvagda		M
+zauzda	161	
+zavada	58	
+zavazda		M
+zavida		
+zavlada	788	
+zavoda	16910	
+zazida	47	
+zelanda		
+zelenkada		M
+zgoda	148	
+zgrada	27549	
+zida	10043	
+ziglinda		
+zinaida		
+zlehuda		
+zlorada		
+zlurada	42	
+zonda		
+zoraida		
+zvezda	43970	
+zvezdopada		
+zvizda		
+ćeramida		M
+ćorda		M
+čada		
+čarda	237	
+čeda	3292	
+čioda		M
+čokolada	2986	
+čorda		
+čuda	9961	
+čukundeda		
+đeda		J
+đida		
+đokonda		
+šahida		
+šarada	74	
+šeherezada		
+šida		
+škoda	2722	
+škuda		
+špada		
+štanda	1421	
+šveda		
+žada	118	
+žida		
+žigmunda		
+živorada		
+žlezda	2043	
+besjeda		
+bijeda	152	
+blijeda	96	
+cjevovoda		
+djeda	294	
+gnijezda	110	
+ispovijeda	41	
+medvjeda		
+objeda		
+odsjeda		
+opsjeda		
+ozlijeda		
+pobjeda		
+posjeda		
+pradjeda		
+prijevoda	60	
+propovijeda	88	
+rasjeda		
+sijeda	41	
+sjeda		
+sjeverozapada		
+slijeda	14	
+sprijeda	57	
+srijeda	79	
+superzvijezda		
+zapovijeda	112	
+zasjeda		
+zvijezda	1667	
+zvjezda		
+žlijezda	66	

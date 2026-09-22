@@ -9,7 +9,7 @@ dovoljna kanta reči koje se završavaju na ista DVA slova. Kanta ima u proseku 
 reči (najveće par desetina hiljada), dakle par kilobajta umesto 666.
 
 Šta se piše: `public/kante/<xy>.txt` – jedan red po reči: `reč<TAB>učestalost<TAB>M`
-(učestalost prazna kad je ispod praga 10; `M` kad je reč odrednica u Rečniku Matice srpske).
+(učestalost prazna kad je ispod praga 10; `M` = odrednica u Rečniku Matice srpske; `J` = jekavski oblik iz `jekavski.json`).
 Redosled: prvo reči iz `reci.txt` (ekavski), pa iz `reci_jekavica.txt`, u istom redosledu kao u
 fajlovima – da rangiranje reči bez učestalosti (po rednom broju) da ISTI redosled kao ceo rečnik.
 Plus `public/kante/_manifest.json` (spisak kanti i brojevi) po kome `osvezi-verzije-podataka.mjs`
@@ -38,13 +38,14 @@ def main():
     jek = [w for w in jek if w not in u_ek]   # isto pravilo kao `loadDict` (SJ-1)
     freq = json.load(open(os.path.join(PUB, 'frekvencija.json'), encoding='utf-8'))
     matica = set(json.load(open(os.path.join(PUB, 'matica.json'), encoding='utf-8')))
+    jekavski = set(json.load(open(os.path.join(PUB, 'jekavski.json'), encoding='utf-8')))   # isti filter kao `JEKAVSKI` u app.js
 
     kante = {}
     def dodaj(w):
         m = w.lower()
         f = freq.get(w) or freq.get(m) or 0
         fs = str(f) if f >= PRAG else ''
-        ms = 'M' if (w in matica or m in matica) else ''
+        ms = ('M' if (w in matica or m in matica) else '') + ('J' if m in jekavski else '')
         kante.setdefault(ime_kante(w), []).append(f'{w}\t{fs}\t{ms}')
     for w in ek: dodaj(w)
     granica = {k: len(v) for k, v in kante.items()}   # koliko je ekavskih u svakoj kanti (jekStart)

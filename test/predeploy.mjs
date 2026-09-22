@@ -333,9 +333,12 @@ async function main() {
       document.getElementById('searchInput').value = 'ljubav';
       document.getElementById('searchBtn').click();
       await w(900);
-      return document.getElementById('searchResults').querySelectorAll('.word').length;
+      const reci = [...document.getElementById('searchResults').querySelectorAll('.word')].map(e => e.textContent.trim().toLowerCase());
+      const q = 'ljubav', nacin = document.getElementById('searchMode').value;
+      const uslov = r => nacin === 'ends' ? r.endsWith(q) : nacin === 'starts' ? r.startsWith(q) : r.includes(q);
+      return { n: reci.length, nacin, lose: reci.filter(r => !uslov(r)).slice(0, 5) };
     });
-    ok('pretraga vraća rezultate', pretraga > 0, `${pretraga} rezultata`);
+    ok('pretraga vraća rezultate i SVI odgovaraju traženom nizu i režimu (TP-9)', pretraga.n > 0 && pretraga.lose.length === 0, JSON.stringify(pretraga));
 
     sek('\n6) SLOGOVI I KARAKTERI');
     const slogovi = await page.evaluate(async () => {
@@ -793,10 +796,11 @@ async function main() {
       const pool = typeof getCommonPool === 'function' ? getCommonPool() : null;
       document.getElementById('randomBtn').click();
       await w(700);
-      return { bazen: pool ? pool.length : 0, rec: document.getElementById('rimeInput').value };
+      const rec = document.getElementById('rimeInput').value;
+      return { bazen: pool ? pool.length : 0, rec, uRecniku: SET.has(rec.toLowerCase()), rang: RANK.get(rec) ?? RANK.get(rec.toLowerCase()) ?? 1 };
     });
     ok('bazen poznatih reči je izgrađen', kockica.bazen > 1000, `${kockica.bazen} reči`);
-    ok('kockica je popunila polje', kockica.rec.length > 0, `„${kockica.rec}"`);
+    ok('kockica je popunila polje rečju iz rečnika sa poznatom učestalošću (TP-9)', kockica.rec.length > 0 && kockica.uRecniku === true && kockica.rang < 0, `„${kockica.rec}" uRecniku=${kockica.uRecniku} rang=${kockica.rang}`);
 
     sek('\n10) Tamni režim');
     const dark = await page.evaluate(async () => {
@@ -1293,8 +1297,8 @@ async function main() {
       const pc = await browser.newPage();
       await pc.goto(BASE + put, { waitUntil: 'domcontentloaded' });
       await pauza(1200);
-      const imaPrekidac = await pc.evaluate(() => !!document.getElementById('scriptToggle'));
-      ok(`${put} → prekidač za pismo postoji`, imaPrekidac);
+      const imaPrekidac = await pc.evaluate(() => { const b = document.querySelector('#scriptToggle [data-script="cyr"]'); if (!b) return { ima: false }; b.click(); const tab = document.querySelector('#tabs [data-tab="rime"], #tabs a'); const cir = tab ? /[А-Яа-я]/.test(tab.textContent) : true; document.querySelector('#scriptToggle [data-script="lat"]').click(); return { ima: true, cir }; });
+      ok(`${put} → prekidač za pismo postoji i stvarno prebacuje u ćirilicu (TP-9)`, imaPrekidac.ima && imaPrekidac.cir, JSON.stringify(imaPrekidac));
       if (imaPrekidac) {
         await pc.click('#scriptToggle button[data-script="cyr"]');
         await pauza(900);
@@ -2132,10 +2136,11 @@ async function main() {
       const o404 = await p19.goto(BASE + '/ova-strana-ne-postoji-xyz/', { waitUntil: 'domcontentloaded' });
       const s404 = await p19.evaluate(() => ({
         polje: !!document.getElementById('rec404'),
+        forma: (() => { const f = document.getElementById('rec404') && document.getElementById('rec404').closest('form'); return !!f && /\/$|\/\?/.test(f.getAttribute('action') || '/') && (document.getElementById('rec404').getAttribute('name') === 'rec'); })(),
         css: [...document.querySelectorAll('link[rel=stylesheet]')].map(l => l.getAttribute('href')).join(' '),
       }));
       ok('404 vraća status 404', o404 && o404.status() === 404, `status ${o404 && o404.status()}`);
-      ok('N10 404 strana ima polje za pretragu', s404.polje, 'nema polja');
+      ok('N10 404 strana ima polje za pretragu koje vodi na rime (forma ka /?rec=) (TP-9)', s404.polje && s404.forma === true, JSON.stringify(s404));
       ok('N10 404 strana koristi aktuelni CSS', !/20260715b/.test(s404.css), s404.css);
       await p19.close();
     }
@@ -2158,7 +2163,7 @@ async function main() {
           fokus: w ? w.getAttribute('tabindex') : null,
           uloga: w ? w.getAttribute('role') : null,
           ime: document.getElementById('searchMode')?.getAttribute('aria-label') || '',
-          labela: !!document.querySelector('label[for="rimeInput"]'),
+          labela: !!document.querySelector('label[for="rimeInput"]'), labelaTekst: (document.querySelector('label[for="rimeInput"]') || {}).textContent,
           aktivan: document.querySelector('#tabs [data-tab].active')?.getAttribute('aria-current') || '',
           srce: document.querySelector('#rimeResults .fav')?.getAttribute('aria-label') || '',
         };
@@ -2166,7 +2171,7 @@ async function main() {
       ok('N5 reč u rezultatu je dostupna tastaturi', a11y.fokus === '0' && a11y.uloga === 'button',
          `tabindex=${a11y.fokus} role=${a11y.uloga}`);
       ok('N7 #searchMode ima pristupačno ime', a11y.ime.length > 3, a11y.ime);
-      ok('N7 polje za rime ima <label>', a11y.labela, 'nema label[for=rimeInput]');
+      ok('N7 polje za rime ima <label> sa tekstom (TP-9)', a11y.labela && (a11y.labelaTekst || '').length > 2, `label=${a11y.labela} tekst=„${a11y.labelaTekst}"`);
       ok('N8 aktivan tab ima aria-current', a11y.aktivan === 'page', a11y.aktivan);
       ok('N6 dugme ♡ ima ime, ne samo emodži', a11y.srce.length > 3, a11y.srce);
 
@@ -2198,8 +2203,7 @@ async function main() {
       await p19d.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5,
                                  { timeout: 60000 }).catch(() => {});
       const posle = await p19d.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
-      ok('V5 pretraga pre učitanog rečnika se pokrene SAMA kad rečnik stigne',
-         odmah === 0 && posle > 5, `odmah=${odmah} posle=${posle}`);
+      ok('V5 pretraga pre učitanog rečnika: rime iz kante stižu ODMAH, a kad rečnik stigne spisak ostaje (isti broj)', odmah > 5 && posle > 5 && posle === odmah, `odmah=${odmah} posle=${posle}`);
       await p19c.close(); await p19d.close();
     }
 
@@ -5332,7 +5336,7 @@ async function main() {
       await p45.click('#rimeSyl button[data-syl="1"]'); await pauza(700);
       const jedan = await citaj45();
       const dvaSamoglasnika = jedan.filter(x => (x.w.toLowerCase().match(/[aeiou]/g) || []).length >= 2);
-      ok('„nepostojan" · filter „1 slog" daje rezultate', jedan.length > 0, `${jedan.length}`);
+      ok('„nepostojan" · filter „1 slog" daje rezultate i SVAKA ima 1 slog (TP-9)', jedan.length > 0 && jedan.every(x => x.s === '1'), `${jedan.length}, ne-1: ${jedan.filter(x => x.s !== '1').map(x => x.w).slice(0, 4)}`);
       ok('„nepostojan" · filter „1 slog" ne nudi „Iran"', !jedan.some(x => x.w === 'Iran'),
          jedan.filter(x => /^[AEIOU]/.test(x.w)).map(x => `${x.w}:${x.s}`).join(', '));
       ok('„nepostojan" · u „1 slog" nema reči sa dva ili više samoglasnika', dvaSamoglasnika.length === 0,
@@ -6038,7 +6042,7 @@ async function main() {
         const google = zahtevi.filter(u => /fonts\.g(oogleapis|static)\.com/.test(u));
         const nasi = zahtevi.filter(u => /\/fonts\/rubik-.*\.woff2/.test(u));
         ok('S-06 · nijedan zahtev ka fonts.googleapis.com / fonts.gstatic.com (IP posetioca ne ide Google-u)', google.length === 0, google.slice(0, 3).join(' | '));
-        ok('S-06 · font Rubik stiže sa našeg servera (/fonts/rubik-*.woff2)', nasi.length >= 1, nasi.join(' | '));
+        ok('S-06 · font Rubik stiže sa našeg servera (/fonts/rubik-*.woff2), sa verzijom ?v= (TP-9/P-3)', nasi.length >= 1 && nasi.every(u => /\?v=/.test(u)), nasi.join(' | '));
         const f = await p.evaluate(async () => { await document.fonts.ready; const h1 = document.querySelector('h1');
           return { primenjen: document.fonts.check('700 16px Rubik'), lica: [...document.fonts].filter(x => x.family.replace(/"/g, '') === 'Rubik' && x.status === 'loaded').length, h1: getComputedStyle(h1).fontFamily }; });
         ok('S-06 · Rubik je zaista učitan i primenjen (document.fonts)', f.primenjen && f.lica >= 1 && /Rubik/.test(f.h1), JSON.stringify(f));
@@ -6783,7 +6787,7 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
       }
       // B) G-4 – kvar mreže nije „nema objašnjenja"
       {
-        const { c, p } = await svez();
+        const { c, p } = await svez({ serviceWorkers: 'block' });   // na produkciji bi SW dao definicije iz keša i zaobišao route.abort
         if (typeof ocekujGreske === 'function') ocekujGreske(p, /ERR_FAILED|definicije\//);   // namerno prekinuti zahtevi (tekst poruke nosi samo ERR_FAILED, adresa je u location())
         await p.route('**/definicije/**', r => r.abort());
         await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p);
@@ -6859,12 +6863,100 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
       }
     }
 
+    sek('\n59) AUDIT 22.09.2026 – treći krug: rečnik po kantama (PF-1), minifikacija (PF-3), učestalost na potrebu (P-2), kanonikal ?rec= (SEO-2), CSP (BZ-4)');
+    {
+      const fs59 = await import('node:fs');
+      const { createHash: hash59 } = await import('node:crypto');
+      const svez = async (opts = {}, init) => {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 }, ...opts });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_proba', '1'); } catch (e) {} });
+        if (init) await c.addInitScript(init);
+        const p = ojacajStranu(await c.newPage());
+        return { c, p };
+      };
+      const recnik = (p) => p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+      const NA_PRODUKCIJI = /^https:/.test(BASE);
+
+      // A) app.min.js prati app.js (isti otisak) i server pod /app.js daje minifikovan kod
+      {
+        const src = fs59.readFileSync(path.join(ROOT, 'public/app.js'));
+        const sha = hash59('sha256').update(src).digest('hex').slice(0, 12);
+        const min = fs59.readFileSync(path.join(ROOT, 'public/app.min.js'), 'utf8');
+        ok('PF-3 · app.min.js je generisan iz TEKUĆEG app.js (otisak se poklapa)', min.slice(0, 160).includes('sha:' + sha), min.slice(0, 120));
+        const sr = await (await fetch(BASE + '/app.js')).text();
+        ok('PF-3 · pod adresom /app.js server daje minifikovan kod (bez komentara, manji od 60 % izvora)', sr.startsWith('/* Rimoteka app.min.js') && sr.length < src.length * 0.6, `${sr.length} vs ${src.length}`);
+      }
+      // B) kante: manifest = fajlovi = reči; svaka reč iz uzorka je u svojoj kanti; KANTE_V u app.js = otisak manifesta
+      {
+        const man = JSON.parse(fs59.readFileSync(path.join(ROOT, 'public/kante/_manifest.json'), 'utf8'));
+        const fajlova = fs59.readdirSync(path.join(ROOT, 'public/kante')).filter(f => f.endsWith('.txt')).length;
+        const hk = hash59('sha256').update(fs59.readFileSync(path.join(ROOT, 'public/kante/_manifest.json'))).digest('hex').slice(0, 8);
+        const app = fs59.readFileSync(path.join(ROOT, 'public/app.js'), 'utf8');
+        const kv = (app.match(/const KANTE_V = '([^']+)'/) || [])[1];
+        ok('PF-1 · kante: manifest = broj fajlova, ukupno reči ≥ 280.000, KANTE_V u app.js = otisak manifesta', man.kanti === fajlova && man.reci >= 280000 && kv === hk, `${man.kanti}/${fajlova} reči ${man.reci} v ${kv}/${hk}`);
+        const reci = fs59.readFileSync(path.join(ROOT, 'public/reci.txt'), 'utf8').split('\n').filter(Boolean);
+        let s = 7; const uz = []; for (let i = 0; i < 300; i++) { s = (s * 1103515245 + 12345) % 2147483648; uz.push(reci[s % reci.length]); }
+        const nema = uz.filter(w => { const m = w.toLowerCase(); const k = m.length >= 2 ? m.slice(-2) : m; try { return !fs59.readFileSync(path.join(ROOT, 'public/kante', k + '.txt'), 'utf8').includes('\n' + w + '\t'); } catch { return true; } });
+        ok('PF-1 · 300 nasumičnih reči stoji u svojoj kanti', nema.length === 0, nema.slice(0, 5).join(','));
+      }
+      // C) prva rima iz kante PRE celog rečnika, i isti spisak kao iz celog rečnika (5 reči)
+      {
+        const reci = ['ljubav', 'nada', 'srce', 'Beograd', 'sloboda', 'sunce'];
+        const rez = [];
+        for (const q of reci) {
+          const { c, p } = await svez();
+          await p.route('**/reci.txt*', r => setTimeout(() => r.continue(), 4000));
+          const t0 = Date.now();
+          await p.goto(BASE + '/?rec=' + encodeURIComponent(q), { waitUntil: 'domcontentloaded' });
+          await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip .word').length > 0, null, { timeout: 3500 }).catch(() => {});
+          const brzo = await p.evaluate(() => ({ n: document.querySelectorAll('#rimeResults .chip .word').length, reci: [...document.querySelectorAll('#rimeResults .chip .word')].filter(e => !e.closest('.syn-card')).map(e => e.textContent.trim()), w: WORDS.length, t: performance.now() }));
+          const tBrzo = Date.now() - t0;
+          await recnik(p);
+          await p.waitForFunction(() => typeof extrasSpremni !== 'undefined' && extrasSpremni, null, { timeout: 60000 }).catch(() => {});
+          await pauza(800);
+          const puno = await p.evaluate(() => [...document.querySelectorAll('#rimeResults .chip .word')].filter(e => !e.closest('.syn-card')).map(e => e.textContent.trim()));   // bez kartice sinonima – ona stiže sa učestalošću, ne iz kante
+          rez.push({ q, brzoN: brzo.n, brzoPreRecnika: brzo.w === 0, tBrzo, isto: JSON.stringify(brzo.reci) === JSON.stringify(puno), punoN: puno.length });
+          await c.close();
+        }
+        ok('PF-1 · rime iz kante stižu PRE celog rečnika (rečnik kasni 4 s; spisak > 0 dok je WORDS prazan) za 6 reči', rez.every(r => r.brzoN > 0 && r.brzoPreRecnika), JSON.stringify(rez));
+        ok('PF-1 · spisak iz kante je ISTI kao iz celog rečnika (redosled i sadržaj) za 6 reči', rez.every(r => r.isto), JSON.stringify(rez.filter(r => !r.isto)));
+        // kucanje pre rečnika – takođe kanta
+        const { c, p } = await svez();
+        await p.route('**/reci.txt*', r => setTimeout(() => r.continue(), 4000));
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await p.waitForSelector('#rimeInput');
+        await p.fill('#rimeInput', 'nada'); await p.keyboard.press('Enter');
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip .word').length > 0, null, { timeout: 3500 }).catch(() => {});
+        const k = await p.evaluate(() => ({ n: document.querySelectorAll('#rimeResults .chip .word').length, w: WORDS.length, url: location.search, h1: document.querySelector('h1').textContent }));
+        ok('PF-1 · ukucana reč pre rečnika dobija rime iz kante, adresa i naslov prate reč', k.n > 0 && k.w === 0 && /rec=nada/.test(k.url) && /nada/i.test(k.h1), JSON.stringify(k));
+        await c.close();
+      }
+      // D) P-2: frekvencija.json se ne skida bez potrebe; skida se čim se traže rime
+      {
+        const { c, p } = await svez();
+        const zahtevi = []; p.on('request', r => { if (/frekvencija\.json/.test(r.url())) zahtevi.push(Date.now()); });
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(1500);
+        const bez = zahtevi.length;
+        await p.fill('#rimeInput', 'nada'); await p.keyboard.press('Enter'); await pauza(1500);
+        ok('P-2 · učestalost se ne skida na strani bez pretrage (1,5 s posle rečnika), a skida se čim se traže rime', bez === 0 && zahtevi.length >= 1, `bez ${bez}, posle ${zahtevi.length}`);
+        await c.close();
+      }
+      // E) SEO-2 (samo produkcija): sirovi kanonikal /?rec=<reč sa stranom> je strana reči; bez strane ostaje /
+      if (NA_PRODUKCIJI) {
+        const a = await (await fetch(BASE + '/?rec=ljubav')).text();
+        const b = await (await fetch(BASE + '/?rec=xyzqw')).text();
+        const c2 = await (await fetch(BASE + '/?rec=%C4%8Deka')).text();
+        ok('SEO-2 · sirovi HTML: /?rec=ljubav nosi kanonikal /rime-za/ljubav/, /?rec=čeka → /rime-za/ceka/, nepoznata reč → /', /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ljubav\/"/.test(a) && /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ceka\/"/.test(c2) && /canonical" href="https:\/\/rimoteka\.com\/"/.test(b), 'ljubav/čeka/xyzqw');
+        const h = (await fetch(BASE + '/')).headers.get('content-security-policy') || '';
+        ok('BZ-4 · CSP dozvoljava skripte samo sa www.googletagmanager.com (ne ceo domen)', /script-src 'self' https:\/\/www\.googletagmanager\.com;/.test(h) && !/script-src[^;]*\*\.googletagmanager/.test(h), h.slice(0, 120));
+      }
+    }
+
     sek('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));
     /* TP-11 (22.09.2026): broj provera je deo provere – provera koja tiho nestane (petlja nad praznim skupom,
        preskočena sekcija) ne sme da prođe kao „sve zeleno". 14.09. je bilo 851, 22.09. 830 bez zabeležene izmene. */
-    ok(`ukupno provera bar 900 (izvršeno ${pass})`, pass >= 900, String(pass));
+    ok(`ukupno provera bar ${LOKALNO ? 900 : 870} (izvršeno ${pass})`, pass >= (LOKALNO ? 900 : 870), String(pass));   // na produkciji se preskaču provere nad lokalnim fajlovima
 
   } finally {
     await browser.close();

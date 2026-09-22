@@ -1,0 +1,357 @@
+354
+Pariza		
+acidoza	57	
+ajvaza		
+akciza	3105	
+alojza		
+amilaza		
+amiloidoza	25	
+anabaza		
+analiza	21823	
+anamneza	367	
+anamorfoza		
+androgeneza		
+antifriza	166	
+antiteza	213	
+aplauza	512	
+apoteoza	119	
+arterioskleroza	90	
+arza		
+askeza	62	
+avaza	162	
+avitaminoza		
+aškenaza		
+bakroreza	45	
+baksuza		
+baza	11536	
+berza	2502	
+betelgeza		
+beza		M
+bezizlaza	93	
+bilmeza		
+bluza	344	
+bogaza	19	
+boza	132	
+breza	708	
+bronza	904	
+broza		
+brza	5341	
+buraza	29	
+burza		
+celuloza	165	
+cijanoza	55	
+ciroza	135	
+deviza	2472	
+dijagnoza	4690	
+dijaliza	152	
+dijeceza	38	
+divokoza	116	
+diza		
+dokaza	14094	
+dopuza		
+doseza		
+dovoza	38	
+doza	4945	
+druza		M
+drvoreza	74	
+dubioza	315	
+duboreza	87	
+džeza	1282	
+egzegeza	32	
+ekspertiza	490	
+ekstaza	158	
+elektroliza	99	
+eleza		
+elza		
+engleza	1000	
+epifiza	102	
+etnogeneza		
+faleza		
+faza	13683	
+feza		
+fibroza	140	
+fotosinteza	71	
+francuza	1483	
+franšiza	880	
+fraza	2673	
+friteza	26	
+friza	74	
+fruktoza	211	
+gaza	207	
+geneza	334	
+geza		
+glikoza	31	
+glukoza	364	
+gmaza	16	
+gologuza		
+groza	14	
+guza	766	
+hamza		
+hemoliza		
+hereza	29	
+hidroliza	27	
+hiperveza	29	
+hipnoza	267	
+hipofiza	111	
+hipostaza	24	
+hipotenuza	22	
+hipoteza	1374	
+homeostaza	26	
+idriza		
+ilijaza		
+irokeza		
+iskaza	2437	
+iza	84302	
+izbliza	1818	
+izgriza		
+izlaza	3078	
+izraza	6333	
+izreza	39	
+izvoza	12857	
+jakuza		
+janeza		
+jaza	672	
+jeza	850	
+kalauza		
+kamikaza	111	
+karađoza		
+katarza	243	
+kauza	15	
+kaveza	1210	
+kavkaza		
+kineza	1845	
+kliza	182	
+kneza	8383	
+knjaza		
+kolhoza	44	
+kolovoza	2743	
+kondoliza		
+kontroverza	182	
+korza	19	
+koza	1673	
+kriza	26591	
+kroza	658	
+kruza		
+krza		
+kukuruza	9411	
+kuruza		
+kviza	937	
+laktaza		
+laktoza	137	
+laza		M
+lepeza	543	
+leukoza		
+lipaza		
+liza		M
+loza	1263	
+lufthanza		
+luiza		
+lujza		
+luksuza	1110	
+magaza		M
+majoneza	333	
+makaza	246	
+maltoza		
+mamlaza		
+mamuza	52	
+markiza	182	
+marseljeza		
+matroza		
+maza	241	
+meduza	292	
+meleza		
+menopauza	285	
+menza	148	
+metamorfoza	238	
+metaproza		
+metastaza	415	
+metateza	13	
+meza		M
+međufaza	40	
+međuveza		
+mihiza		
+mikoza	21	
+mikroanaliza		
+mimoza	158	
+miraza	145	
+mirza		
+mitoza	33	
+mitraljeza		
+mlaza	274	
+mnogobrza		
+mononukleoza	97	
+moreuza		
+mraza	1258	
+muza	599	
+nadoveza		
+nadveza		
+nagriza	330	
+nakaza	390	
+nalaza	2986	
+namaza	645	
+naniza		
+narkoza	33	
+nebuloza	676	
+nekroza	93	
+nemeza		
+nervoza	1759	
+neuroza	260	
+niza	9962	
+oaza	1772	
+obaveza	40473	
+obliza		
+oborkneza		
+obraza	3265	
+obveza	363	
+odgmiza		
+odgriza		
+odraza	471	
+odreza		
+odveza		
+odvoza	115	
+omraza		M
+opreza	963	
+oroza		M
+orteza		
+osmoza	66	
+osteoporoza	450	
+otkaza	2463	
+paradajza	2823	
+parafraza	266	
+paraliza	477	
+parenteza		
+patogeneza		
+pauza	4320	
+pecikoza		
+pegaza		
+pekmeza	189	
+perifraza		
+pervaza		
+piza	82	
+podgriza		
+podmaza		
+podreza		
+pokaza	1571	
+poliza		
+pomaza	16	
+poraza	13102	
+poreza	26082	
+postiza		
+poteza	5585	
+potkaza		
+poveza	202	
+poza	1187	
+prebrza	108	
+predskaza		
+prelaza	5299	
+premaza	690	
+prereza		
+prevoza	9284	
+prikaza	4069	
+prilaza	828	
+princeza	3252	
+prireza	42	
+priveza	50	
+prognoza	3804	
+prokaza		
+prokliza		
+prolaza	1813	
+proreza	124	
+proteza	788	
+provenza		
+provoza	274	
+proza	1287	
+psihoanaliza	303	
+psihoza	308	
+psorijaza	273	
+putokaza	415	
+puza		
+puškomitraljeza	75	
+ramiza		
+rastrza		
+razlaza	588	
+razveza		
+remiza		
+repriza	945	
+reza	800	
+rinfuza		
+riza		
+rogoza	40	
+roza		
+ruiza		
+saharoza	77	
+samoanaliza		
+sarkoidoza	84	
+saveza	34108	
+simbioza	496	
+sinteza	1389	
+skleroza	311	
+skolioza	183	
+sleza	189	
+sljeza		J
+smaza		
+spinoza		
+sreza	907	
+sroza	128	
+staza	12371	
+striptiza	56	
+superbrza	11	
+suza	4991	
+sveza	213	
+telekineza	22	
+tereza		
+teza	7133	
+tirkiza	49	
+topaza	15	
+topuza		
+torza	77	
+trapeza	107	
+traverza		
+treviza		
+trihinoza		
+tromboza	205	
+trpeza	1241	
+trza	275	
+tuberkuloza	470	
+tuluza		
+ubrza	2553	
+ugriza	259	
+ugursuza		
+ukaza	504	
+ulaza	6354	
+uljeza	349	
+ureza	43	
+uveza	16	
+uvoza	8040	
+uza	1706	
+vaza	333	
+veza	26606	
+viroza	85	
+virtuoza	162	
+viskoza	87	
+viteza	1128	
+viza	4147	
+voza	2825	
+vrza		
+za	5745705	
+zabrza		
+zaraza	1069	
+zareza	348	
+zaveza		
+zbrza	17	
+zeza	1122	
+ćumeza		
+ćurguza		
+čangriza		
+čankoliza	14	
+čerkeza		
+čeza		
+čimpanza		
+đuza		
+šimpanza	116	
+škrofuloza		
+špajza		
+železa	115	
+željeza		J
+prijelaza	92	
+prijevoza	96	

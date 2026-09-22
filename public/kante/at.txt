@@ -1,0 +1,540 @@
+539
+Egipat		
+acetat	95	
+adresat	35	
+advokat	3743	
+aerostat		
+afekat		
+aglomerat		M
+agregat	2662	
+ahat	106	
+akcenat	7046	
+akrobat	19	
+alat	6774	
+antikvarijat	16	
+aparat	10587	
+aperkat	25	
+arafat		
+ararat		
+argat		
+argumenat	175	
+arhiđakonat		
+aristokrat	17	
+aspekat	249	
+astat		
+at		
+atentat	1730	
+autokrat		
+automat	753	
+azijat	41	
+bahat	361	
+bajat	113	
+banat		
+bankomat	340	
+barbiturat		
+bat	632	
+batat	27	
+begovat		
+belcat		
+berat		
+bikarbonat	23	
+birokrat		
+blagodat	2321	
+bogat	9096	
+bojat		
+bradat	39	
+brat	17190	
+brkat	28	
+brokat	27	
+brsnat		M
+bulat		
+cavtat		
+celcat		
+celibat	109	
+certifikat	430	
+citat	5017	
+citrat	43	
+cvat	68	
+darovat		
+dat	3375	
+dekanat	71	
+delegat	1151	
+demokrat	54	
+denuncijat		
+deputat		M
+derivat	476	
+destilat	62	
+dijalekat	263	
+diktat	476	
+diplomat	84	
+direktorat	543	
+dodat		
+dohvat	1481	
+doksat		M
+doktorat	1569	
+dokumenat	752	
+domišljat	65	
+dorat		M
+doznat		
+dugovat		
+dukat	655	
+duplikat	235	
+dželat		M
+džemat	132	
+dževat		
+efekat	20183	
+egzarhat	22	
+ekonomat		
+eksperimenat		
+eksplantat		
+eksponat		M
+eksudat		
+elaborat	1048	
+elemenat	1816	
+emirat	109	
+episkopat	57	
+esat		
+etomidat		
+eufrat		
+fabrikat		
+fakat	1151	
+falsifikat	869	
+fat		
+feldspat		
+ferat		
+ferhat		
+fiat	1379	
+fijat	3562	
+filtrat		
+format	6062	
+fosfat	108	
+fotoaparat	3540	
+gat	165	
+generalat		
+glasat		
+glasovat		
+glavat	12	
+golcat	18	
+golijat		
+granat		M
+granulat	93	
+grlat	18	
+habitat	130	
+hajat		
+hat		
+hemostat		
+hidrat	48	
+higrostat		
+hijat		M
+hipokrat		
+hlorat		
+horvat		
+hrbat	35	
+hrvat		
+hvat	228	
+ignjat		
+imperfekat		M
+implantat	146	
+inat	2193	
+insekat		
+inspektorat	435	
+internat	299	
+iskopat		
+ispisat		
+ispitat		
+ispitivat		
+istjerat		J
+istorijat	2561	
+istraživat		
+izbjegavat		J
+izbrisat		
+izdat	674	
+izdržat		
+izgledat		
+izravnat		
+izračunat	94	
+izrezat		
+iščupat		
+jat		M
+javljat		
+jedincat		M
+kafemat		
+kalifat	67	
+kandidat	16774	
+kantat		
+karat	34	
+karbonat	102	
+kat		
+kazamat	101	
+kilovat	810	
+klasat		M
+kolovrat		
+komandat		
+kombinat	1262	
+komesarijat	550	
+konat		
+koncentrat	514	
+kondenzat	98	
+konektikat		
+konglomerat	441	
+konkordat	177	
+konkubinat		
+konzulat	763	
+kopat		
+koreferat		
+korelat		M
+kosat		M
+kosmat	19	
+kosnat		
+koverat	613	
+koščat	34	
+krakat	13	
+krcat	320	
+krepat		
+krilat	25	
+krivovrat		
+kvadrat	2534	
+kvarat		
+lakat	729	
+laktat		
+laminat	332	
+laureat	842	
+ledomat		
+legat	705	
+lektorat	33	
+lisnat		M
+literat		M
+magistrat	241	
+magnat	318	
+mandat	13108	
+mat	2409	
+matrijarhat	85	
+mecenat		M
+megavat	167	
+mesnat	56	
+međukat		M
+međusprat	30	
+midhat		
+mijat		
+mlat	14	
+momenat	8185	
+morat		
+mulat	12	
+murat		
+muskat		M
+muškat	17	
+nadgledat		
+nadohvat	576	
+nadzirat		
+napisat		
+narezat		
+nastat		
+natjerat		J
+navijat		
+navrat	64	
+nazvat		
+nebahat		
+nebrat		M
+nedomišljat		
+nedžat		
+nehat	108	
+nehrvat		
+neizdat		
+nemat		
+nepovrat	505	
+nepoznat	3064	
+neprepoznat	24	
+nepriznat	51	
+neprodat		
+netalenat		
+neupoznat		
+nevzat		
+nitrat	78	
+nogat		M
+nokat	596	
+nosat	16	
+novcat	25	
+nugat	33	
+obilat	50	
+objekat	26034	
+obrat	84	
+obračunat	158	
+obrijat		
+obrisat		
+obuhvat	627	
+ocat	50	
+odat		
+odrezat		
+održat		
+odustat		
+okat		
+opat	144	
+opijat	57	
+opisat		
+opljačkat		
+ornat		
+osnovat		
+otkazat		
+otpjevat		J
+otrčat		
+očekivat		
+pansionat		
+papirnat		
+paprat	162	
+pasat	300	
+pat	751	
+patrijarhat	268	
+patronat	84	
+paškanat	59	
+penetrat		
+perfekat		
+pernat		
+pečat	7074	
+pilat		
+pirat	151	
+plagijat	444	
+plakat	1482	
+plesat		
+plećat	29	
+plivat		
+pljosnat		M
+pluskvamperfekat		
+pobrat		
+podhvat		
+poduhvat	5903	
+pogađat		
+pogledat		
+pokazat		
+pokopat		
+pokrivat		
+pokucat		
+polubrat	163	
+poluhrvat		
+polusprat		
+pomagat		
+pomiješat		J
+ponašat		
+pontifikat	45	
+popričat		
+poravnat	36	
+poslat		
+poslovat		
+poslušat		
+postat		
+postojat		
+postulat	494	
+pothvat	174	
+potpisat		
+potplat		
+potrajat		
+potrgat		
+povezat		
+povećat		
+povjerovat		J
+povrat	939	
+povraćat		
+poznat	29536	
+pozvat		
+prat		
+prebogat	133	
+predat	559	
+predikat	196	
+prefabrikat		
+pregledat		
+pregovarat		
+preklinjat		
+prelat	47	
+preobrat		
+preparat	3035	
+prepisat		
+prepoznat	1375	
+prespavat		
+prestat		
+pretvarat		
+prevrat	632	
+pridat		
+pridodat	78	
+pridržat		
+prihvat	788	
+prijat		
+prikazat		
+primat	2531	
+principat	22	
+priorat		
+pripjat		
+pristat		
+priznat	608	
+pričat		
+pričekat		
+pričuvat		
+probat		
+procenat	18553	
+procvat	1338	
+prodat	1605	
+prodavat		
+produkat		
+projekat	79491	
+proletarijat	323	
+proleterijat	87	
+propjevat		J
+proračunat	44	
+protektorat	760	
+protivkandidat	470	
+provjeravat		J
+provozat		
+pročitat		
+prstohvat	194	
+psihopat	19	
+puncat		
+putovat		
+rabat	349	
+rascvat		
+raspitat		
+rasplakat		
+rasprodat	130	
+rat	44912	
+razgranat	147	
+razmišljat		
+razočarat		
+razrezat		
+razvrat	218	
+računat		
+referat	691	
+rektorat	212	
+renegat	18	
+reostat	16	
+repat		
+rezervat	1274	
+rezultat	72147	
+rešat		
+rifat		
+rogat	22	
+rolat	521	
+rukohvat	285	
+sabat		
+sabrat	306	
+sahat		M
+sakat	51	
+samcat	35	
+samcijat		
+samizdat	167	
+saslušat		
+sastat		
+sat	33314	
+savjetovat		J
+sačekat		
+sačuvat		
+sedat		
+sekretarijat	5724	
+senat	1441	
+separat	57	
+sertifikat	7395	
+silikat	27	
+sindikat	10892	
+skat		
+skontat		
+slikat		
+sociopat		
+sokrat		
+soldat		M
+spoznat		
+sprat	4190	
+sračunat	106	
+stabat		
+stajat		
+stradat		
+strnat		
+stvarat		
+subjekat	1180	
+sublimat	60	
+suhomesnat		
+sulfat	217	
+sultanat		
+sunovrat	1397	
+supstrat	394	
+surogat	792	
+suvat		M
+svat	256	
+sviđat		
+talenat	7486	
+telepat		
+temat		M
+tempomat	290	
+termostat	436	
+tivat		
+traktat	257	
+transplantat	17	
+trasat	71	
+travnat		
+trebat		
+trenirat		
+trijumvirat	139	
+triplikat		
+tvrdovrat		
+ubijat		
+ubrzat		
+udarat		
+udat		
+udebljat		
+ugljikohidrat		
+ugurat		
+uhat		
+ukrcat		
+umiljat	121	
+unijat	46	
+unikat	259	
+upisat		
+upoznat	770	
+upravljat		
+uračunat	438	
+usnat		
+uspavat		
+utrkivat		
+uzimat		
+uzrokovat		
+uzvrat	2227	
+vajat		M
+vat	413	
+većkrat		
+večerat		
+večkrat		
+vikarijat	11	
+vladat		
+vlat	67	
+vombat		
+vrat	5430	
+vukobrat		
+vunat		M
+zabat	75	
+zadat	99	
+zadržat		
+zahtijevat		J
+zahvaljivat		
+zahvat	1905	
+zakazat		
+zaklat		
+zakopat		
+zanat	3083	
+zapisat		
+zaspat		
+zastupat		
+zauzvrat	3373	
+zavezat		
+zbrisat		
+zigurat	11	
+zubat		
+čudnovat	104	
+čvornat		
+đakonat		
+đogat		M
+šabat	75	
+šahmat		
+šampionat	2856	
+šapat	496	
+šeikat		
+šerijat	138	
+šiljat	38	
+šogunat		
+špinat	38	
+šumnat		
+živcat		M

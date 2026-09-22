@@ -41,6 +41,8 @@ const srv = http.createServer((req, res) => {
   res.on('close', () => aktivni--);
   const put = decodeURIComponent(req.url.split('?')[0]);
   let fajl = path.join(KOREN, path.normalize(put).replace(/^(\.\.[/\\])+/, ''));
+  // PF-3: kao nginx – pod /app.js ide minifikovan app.min.js ako postoji (test onda proverava baš ono što je na sajtu)
+  if (put === '/app.js') { try { fs.statSync(path.join(KOREN, 'app.min.js')); fajl = path.join(KOREN, 'app.min.js'); } catch {} }
   let st;
   try { st = fs.statSync(fajl); } catch { st = null; }
   if (st && st.isDirectory()) {

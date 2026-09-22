@@ -31,6 +31,15 @@ namerno), PR-2b, TP-9, TP-11 (pauze), SJ-5/SJ-6/SJ-13 (odluke vlasnice). Uklonje
 u ijekavicu (naredba). Sinonim „prvi: vodeći, čelni" na sajtu (55 reči). Nginx: `/index.html` i `/RIME-ZA/` → 301, HSTS
 `includeSubDomains` – **zaseban deploy** kao i pre.
 
+## 1c. TREĆI KRUG ISTOG DANA (22.09., „sredi 3 nisko 8")
+**Rečnik po kantama** (`build/kante.py` → `public/kante/`, `KANTE_V` u app.js iz manifesta, `rimeIzKante` u app.js): prva rima ~0,3 s i pre
+celog rečnika, isti spisak kao ceo rečnik (test 59, 5 reči). **Minifikacija** (`scripts/minifikuj.mjs` → `public/app.min.js`, servira se pod
+`/app.js` kroz nginx `alias` i lokalni server; `osvezi-verzije-podataka.mjs` je pravi posle svake izmene). **Učestalost na potrebu** (P-2).
+**Kanonikal `?rec=` u sirovom HTML-u** (nginx `map`+`sub_filter`, `nginx-kanon-rec.map` iz generatora, Dockerfile kopira). CSP samo
+`www.googletagmanager.com`. 8 provera pooštreno (TP-9). Ostaje: SJ-5 (odluka), SEO-3 (Coolify), A-3 (namerno), TP-11 (pauze).
+**Lanac posle svake izmene app.js:** `node scripts/osvezi-verzije-podataka.mjs` (verzije + KANTE_V + app.min.js) → `python3 build/gen_pages.py`.
+Posle izmene rečnika i: `python3 build/kante.py` PRE osvezi skripte.
+
 ## 2. Šta sledeća sesija radi PRVO
 1. ~~Krug popravki visokih~~ URAĐENO 22.09. (v. 1a). Sledeći krug: KS-1 (uputstvo za ćirilicu na telefonu), MB-2, PR-1, PR-3, PR-4, PF-3 + PF-5 (minifikacija + defer, jedan deploy, pa izmeriti), PF-1 (rečnik po kantama), SJ-5/SJ-7 skripte nad objašnjenjima → spisak za odluku.
 2. Sinonimi grupa 1 → čeka vlasnicu; kad odgovori: upis u `sinonimi.json`, `02-ODLUKE.md`, brisanje grupe iz reda.

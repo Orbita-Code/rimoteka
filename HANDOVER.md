@@ -10,6 +10,12 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0. STANJE OBJAVE (22.09.2026, ~05:40)
+- `main` = `c415a5d1ee` (nginx mikrofon) nad `9059f0f26b` (kod + podaci + test 57 + docs). Dva odvojena deploya (kod, pa nginx – pravilo 9a-1), oba uživo.
+- Produkcija: `app.js?v=0c691edc`, `style.css?v=12b728d4`, `reci.txt` 279.867 reči (75 ijekavskih premešteno), `Permissions-Policy: microphone=(self)`.
+- Lanac protiv produkcije posle oba deploya: **855 + 70 + 0 + 0, sekcija 57 = 24/24** (`AUDIT/lanac/20260922-052648`). Lokalno pre toga 876 + 70 + 0 + 0.
+- Grana `fix/audit-0709-drugi-krug` = `main` (nema razlike). Vlasnica odobrila commit/push/merge 22.09. („kad završiš sve, commit, push i merge to main").
+
 ## 1a. ISTI DAN (22.09., posle audita) – popravljeno svih 9 visokih + što je vlasnica tražila
 Sve u `app.js`/`style.css`/`404.html`/`reci.txt` + `nginx.conf` (mikrofon, ZASEBAN deploy). Sekcija testa **57** (24 provere;
 na produkciji sa starim kodom padalo 21/24 – dokaz da hvataju). Spisak: `AUDIT/NALAZI-OTVORENI.md`, odeljak „POPRAVLJENO 22.09.2026".

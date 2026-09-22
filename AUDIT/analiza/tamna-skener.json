@@ -1,5 +1,5 @@
 {
- "base": "http://localhost:8765",
+ "base": "https://rimoteka.com",
  "strana": 30,
  "stanje": {
   "klik": true,

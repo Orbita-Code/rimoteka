@@ -56,7 +56,9 @@
 
 **VISOKO:** (nema – svih 9 popravljeno 22.09., v. odeljak „POPRAVLJENO 22.09.2026" ispod)
 
-**SREDNJE (1):** SJ-5 (10.143 „Oblik reči X" ka nepostojećoj osnovi – spisak za odluku u `AUDIT/SJ-5-za-odluku.md`; reči se ne dodaju bez provere i objašnjenja)
+**SREDNJE (1):** SJ-5 (10.143 „Oblik reči X" ka nepostojećoj osnovi). **25.09.2026: razvrstano po Matici i objašnjenja NAPISANA, čeka „da" vlasnice.**
+`scripts/sj5-razvrstaj-matica.py` → `AUDIT/SJ-5-razvrstano/`: A – Matica ima osnovu: 1.101 (2.017 oblika); B – Matica nema, oblici žive (učestalost ≥ 10): 1.434 (3.168 oblika); C – bez traga: 3.532 (4.958 oblika). Pažnja: OCR Matice je pun rupa, pa i u C ima pravih reči (obremeniti, zaodenuti, nebrojan, uprezati) – C traži isti prolaz sa pisanjem objašnjenja.
+Za A i B napisano 2.535 objašnjenja svojim rečima (22 agenta, Matica samo izvor značenja) → `PREDLOG-objasnjenja.md` (+ `.json` za unos). 123 označeno „proveriti" (3 u A, 120 u B – pretežno hrvatski/ijekavski oblici čiji OBLICI stoje u `reci.txt`: suradnja, kisik, knjižnica, putovnica…; isti problem kao SJ-6). Unos u rečnik tek posle odluke po grupi (skripta za unos se piše kad stigne „da").
 
 **NISKO (3):** SEO-3 (`http://www.` 2 skoka – Traefik pred nginx-om, podešava se u Coolify-ju; aplikacija Rimoteka nije nađena u listi projekta 22.09.) · A-3 (autofokus na polje zaobilazi skip-link – namerno, alat je polje; skip-link je Shift+Tab) · TP-11 (298 fiksnih pauza u testu – čuvar broja provera dodat, pauze nisu zamenjene; TODO „pun test ispod 6 min")
 

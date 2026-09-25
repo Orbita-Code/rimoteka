@@ -32,6 +32,14 @@ function ok(ime, uslov, detalj = '') {
 }
 
 const pauza = ms => new Promise(r => setTimeout(r, ms));
+/* PF-1 (22.09.2026): rime se prvo iscrtaju iz KANTE, pa ih ceo rečnik + učestalost iscrtaju PONOVO – stari
+   elementi tada nestanu iz DOM-a. Lokator uzet pre toga puca sa „Element is not attached" (pao lanac protiv
+   produkcije 22.09.). Zato se pre hvatanja kapsule čeka da rečnik i učestalost stignu i prikaz se smiri. */
+const cekajMirneRime = async (p, ms = 400) => {
+  await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 }).catch(() => {});
+  await p.waitForFunction(() => typeof extrasSpremni === 'undefined' || extrasSpremni, null, { timeout: 60000 }).catch(() => {});
+  await pauza(ms);
+};
 const T0_SEKCIJE = Date.now();   // 09.09.2026: vreme po sekciji, da se vidi gde odlazi 15 min
 const sek = (naslov) => console.log(`\n[${((Date.now() - T0_SEKCIJE) / 1000) | 0} s] ${naslov}`);
 
@@ -2199,11 +2207,12 @@ async function main() {
       await pauza(400);
       await p19d.fill('#rimeInput', 'ljubav');
       await p19d.click('#rimeBtn');
-      const odmah = await p19d.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
-      await p19d.waitForFunction(() => document.querySelectorAll('#rimeResults .word').length > 5,
-                                 { timeout: 60000 }).catch(() => {});
-      const posle = await p19d.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
-      ok('V5 pretraga pre učitanog rečnika: rime iz kante stižu ODMAH, a kad rečnik stigne spisak ostaje (isti broj)', odmah > 5 && posle > 5 && posle === odmah, `odmah=${odmah} posle=${posle}`);
+      // kanta putuje mrežom (na produkciji ~0,3 s) – čeka se do 2,5 s, ali se broji DOK JE REČNIK JOŠ PRAZAN
+      await p19d.waitForFunction(() => document.querySelectorAll('#rimeResults .chip .word').length > 0 || WORDS.length > 0, null, { timeout: 2500 }).catch(() => {});
+      const odmah = await p19d.evaluate(() => WORDS.length > 0 ? -1 : [...document.querySelectorAll('#rimeResults .chip .word')].filter(e => !e.closest('.syn-card')).length);
+      await cekajMirneRime(p19d, 600);
+      const posle = await p19d.evaluate(() => [...document.querySelectorAll('#rimeResults .chip .word')].filter(e => !e.closest('.syn-card')).length);
+      ok('V5 pretraga pre učitanog rečnika: rime iz kante stižu ODMAH (pre rečnika), a kad rečnik stigne spisak ostaje (isti broj)', odmah > 5 && posle > 5 && posle === odmah, `odmah=${odmah} posle=${posle} (−1 = rečnik stigao pre kante)`);
       await p19c.close(); await p19d.close();
     }
 
@@ -5388,7 +5397,7 @@ async function main() {
       p46.on('response', async r => { if (r.url() === SANDUCE && r.request().method() === 'POST') odgovori.push({ status: r.status(), telo: await r.text().catch(() => '') }); });
       await p46.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
       await p46.waitForSelector('#rimeResults .chip', { timeout: 20000 });
-      await pauza(1200);
+      await cekajMirneRime(p46, 1200);
       await p46.click('#rimeSyl button[data-syl="2"]'); await pauza(500);
       const cip46 = p46.locator('#rimeResults .chip').nth(5);
       await cip46.scrollIntoViewIfNeeded(); await cip46.tap(); await pauza(500);
@@ -5429,7 +5438,7 @@ async function main() {
       await c46i.addInitScript(() => { try { localStorage.removeItem('rimoteka_proba'); localStorage.setItem('rimoteka_interno', '1'); } catch (e) {} });
       const p46i = ojacajStranu(await c46i.newPage()); let teloInterno = null;
       await p46i.route(SANDUCE, r => { teloInterno = r.request().postDataJSON(); r.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' }); });
-      await p46i.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' }); await p46i.waitForSelector('#rimeResults .chip', { timeout: 20000 }); await pauza(800);
+      await p46i.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' }); await p46i.waitForSelector('#rimeResults .chip', { timeout: 20000 }); await cekajMirneRime(p46i, 800);
       await p46i.locator('#rimeResults .chip').first().click(); await pauza(350); await p46i.click('.chip-actions .ca-btn[data-act="prijavi"]'); await pauza(300); await p46i.click('.prijava-posalji'); await pauza(1000);
       ok('interno · uređaj označen samo za analitiku šalje PRAVU prijavu (proba:false), ne probu', !!teloInterno && teloInterno.proba === false, JSON.stringify(teloInterno));
       await c46i.close();
@@ -5442,7 +5451,7 @@ async function main() {
       p46b.on('request', r => { if (r.url() === SANDUCE && r.method() === 'POST') poslato2.push(r.postDataJSON()); });
       await p46b.goto(BASE + '/?rec=nepostojan', { waitUntil: 'domcontentloaded' });
       await p46b.waitForSelector('#rimeResults .chip', { timeout: 20000 });
-      await pauza(1200);
+      await cekajMirneRime(p46b, 1200);
       /* Varijanta B (odluka vlasnice 06.09.): kapsula bez ikonica, traka na prelazak mišem. */
       const kapsule = await p46b.evaluate(() => { const c = [...document.querySelectorAll('#rimeResults .chip')];
         const vidljive = c.reduce((n, x) => n + [...x.querySelectorAll('.mini')].filter(m => m.getBoundingClientRect().width > 0).length, 0);
@@ -5690,7 +5699,7 @@ async function main() {
         await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(1200);
         const pre = await p.evaluate(() => document.documentElement.scrollWidth);
         await p.fill('#rimeInput', 'ljubav'); await p.evaluate(() => document.getElementById('rimeBtn').click());
-        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 }); await pauza(500);
+        await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 60000 }); await cekajMirneRime(p, 500);
         const cip = p.locator('#rimeResults .chip').nth(2); await cip.scrollIntoViewIfNeeded(); await cip.tap(); await pauza(400);
         const m = await p.evaluate(() => { const r = document.querySelector('.chip-actions').getBoundingClientRect(); return { levo: Math.round(r.left), desno: Math.round(r.right), sw: document.documentElement.scrollWidth, iw: innerWidth }; });
         const ime = cyr ? 'ćirilica' : 'latinica';
@@ -6714,7 +6723,9 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         const sirovo = await (await fetch(BASE + '/?rec=ljubav')).text();
         await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' }); await recnik(p); await pauza(800);
         const kan = await p.evaluate(() => document.querySelector('link[rel=canonical]').href);
-        ok('TP-6 · ?rec=: sirovi kanonikal je početna (zapisana odluka), a posle JS strana reči', /rel="canonical" href="https:\/\/rimoteka\.com\/"/.test(sirovo) && /\/rime-za\/ljubav\/$/.test(kan), kan);
+        // SEO-2 (22.09.): na produkciji nginx `sub_filter` već u sirovom HTML-u upiše stranu reči; lokalni test-server nema sub_filter pa daje početnu
+        const sirovoOk = /^https:/.test(BASE) ? /rel="canonical" href="https:\/\/rimoteka\.com\/rime-za\/ljubav\/"/.test(sirovo) : /rel="canonical" href="https:\/\/rimoteka\.com\/"/.test(sirovo);
+        ok('TP-6 · ?rec=: sirovi kanonikal (produkcija: strana reči kroz nginx, SEO-2; lokalno: početna), a posle JS strana reči', sirovoOk && /\/rime-za\/ljubav\/$/.test(kan), kan);
         // UI-6: logo vraća kanonikal i naslov
         await p.evaluate(() => goHome()); await pauza(300);
         const posle = await p.evaluate(() => ({ kan: document.querySelector('link[rel=canonical]').href, t: document.title, robots: !!document.querySelector('meta[name=robots]') }));
@@ -6753,9 +6764,9 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         ok('PR-5/PR-7/PR-3 · pismo, tema i filter nose aria-pressed; lang sr-Cyrl/sr-Latn; oblačić je aria-live', pr5.cyr === 'true' && pr5.lang === 'sr-Cyrl' && pr5.dark === 'true' && pr5.lat === 'sr-Latn' && pr5.toast === 'polite' && pr5.slog !== null, JSON.stringify(pr5));
         // PR-1: dijalog prijave – Tab kruži, ima Zatvori, textarea ima ime, radiogroup
         await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); });
-        await pauza(300);
-        await p.click('#rimeResults .chip .word'); await pauza(300);
-        await p.click('.chip-actions [data-act="prijavi"]'); await pauza(400);
+        await cekajMirneRime(p, 300);
+        await p.evaluate(() => document.querySelector('#rimeResults .chip .word').click()); await pauza(300);
+        await p.evaluate(() => document.querySelector('.chip-actions [data-act="prijavi"]').click()); await pauza(400);
         const pr1 = await p.evaluate(() => { const b = document.querySelector('.prijava'); if (!b) return null; b.querySelector('.prijava-posalji')?.focus(); return { zatvori: !!b.querySelector('.prijava-zatvori[aria-label]'), ta: !!b.querySelector('textarea[aria-label]'), rg: !!b.querySelector('[role=radiogroup]') }; });
         await p.keyboard.press('Tab'); await pauza(100);
         const posleTab = await p.evaluate(() => !!(document.activeElement && document.activeElement.closest('.prijava')));
@@ -6765,7 +6776,7 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         await p.keyboard.press('Escape'); await pauza(200);
         ok('PR-1 · prijava: dugme „Zatvori", imenovana napomena, radiogroup, Tab i Shift+Tab ostaju u prozorčiću', !!pr1 && pr1.zatvori && pr1.ta && pr1.rg && posleTab && posleShift, JSON.stringify({ pr1, posleTab, posleShift }));
         // U-3: klik na ivicu kapsule → fokus na reč
-        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await pauza(400);
+        await cekajMirneRime(p, 0); await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await pauza(400);
         { const cip = p.locator('#rimeResults .chip').first(); const bb = await cip.boundingBox(); await cip.click({ position: { x: 4, y: bb.height / 2 } }); await pauza(300); }
         const u3b = await p.evaluate(() => ({ act: document.activeElement && document.activeElement.className, otv: !!document.querySelector('.chip-actions:not([hidden])') }));
         ok('U-3 · klik na ivicu kapsule stavlja fokus na reč i otvara karticu', /\bword\b/.test(u3b.act || '') && u3b.otv, JSON.stringify(u3b));
@@ -6818,7 +6829,7 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         const ks1 = await p.evaluate(() => ({ open: document.querySelector('#kbdHelp details')?.open, polje: Math.round(document.getElementById('rimeInput').getBoundingClientRect().bottom), h: innerHeight }));
         ok('KS-1 · prvi izbor ćirilice na telefonu: uputstvo sklopljeno, polje za reč u kadru', ks1.open === false && ks1.polje <= ks1.h, JSON.stringify(ks1));
         await p.tap('#scriptToggle [data-script="lat"]'); await recnik(p);
-        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await pauza(500);
+        await p.evaluate(() => { rimeInput.value = 'ljubav'; doRhymes(); }); await cekajMirneRime(p, 500);   // učestalost stiže na potrebu (P-2) i ponovo iscrta kapsule – fokus ide na SMIREN prikaz
         await p.evaluate(() => document.querySelector('#rimeResults .chip .word').focus()); await pauza(300);
         const pr2 = await p.evaluate(() => ({ otv: !!document.querySelector('.chip-actions:not([hidden])'), exp: document.querySelector('#rimeResults .chip .word').getAttribute('aria-expanded'), pop: document.querySelector('#rimeResults .chip .word').getAttribute('aria-haspopup') }));
         await p.keyboard.press('Escape'); await pauza(200);

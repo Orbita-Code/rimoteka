@@ -1676,3 +1676,62 @@ odbaci.
 
 **Pravilo:** uz svaki performansni broj u izveštaju ide **ime skripte, broj prolaza, medijana i raspon**. Broj bez
 tog četvorstva se ne upisuje. Skripte za merenje žive u `test/` (`meri-*.mjs`), ne u scratchpadu sesije.
+
+
+## 22.09.2026 — PROVERA SA `route.abort` PROŠLA LOKALNO, PALA NA PRODUKCIJI: SERVICE WORKER JE ODGOVORIO IZ KEŠA
+
+**Šta se desilo:** provera G-4 (kad fajl sa objašnjenjima ne stigne, sajt kaže „ne mogu da učitam") prekida zahteve
+`/definicije/**` Playwright-ovim `route.abort`. Lokalno prolazi (nema service workera). Na produkciji je SW servirao
+definicije iz keša – Playwright `route` ne vidi zahteve koje obradi SW – pa je stiglo pravo objašnjenje i provera je pala.
+
+**Pravilo:** svaka provera koja SIMULIRA kvar mreže (`route.abort`, `fulfill 500`, kašnjenje) pravi kontekst sa
+`serviceWorkers: 'block'`. Inače na produkciji ne meri kvar nego keš. Isto važi za merenja brzine (CDP prigušenje ne
+važi za SW – v. adversarijalnu proveru PF-1/PF-2 od 22.09.).
+
+## 22.09.2026 — `requestIdleCallback` NIJE „POSLE N SEKUNDI": JAVI SE ČIM JE NIT SLOBODNA
+
+**Šta se desilo:** odlaganje `frekvencija.json` (P-2) sa `requestIdleCallback(fn, {timeout: 6000})` skidalo je fajl odmah po
+učitavanju – nit je bila slobodna, pa se „prazan hod" javio u prvoj sekundi. Test 59 to je uhvatio (bez pretrage 1 zahtev umesto 0).
+
+**Pravilo:** za „ako niko ne zatraži za N sekundi" se koristi `setTimeout(fn, N)`; `requestIdleCallback` je „čim nema posla",
+a `timeout` mu je samo gornja granica.
+
+## 22.09.2026 — LANAC PROTIV PRODUKCIJE PAO POSLE OBJAVE KANTI: LOKATOR UZET PRE PONOVNOG ISCRTAVANJA
+
+**Šta se desilo:** posle objave rečnika po kantama (PF-1) lokalni lanac je prošao, a protiv produkcije su pale
+dve stvari. (1) Provera V5 je brojala rime „odmah" posle klika – lokalno kanta stigne za par milisekundi, na
+produkciji putuje mrežom ~0,3 s, pa je brojač video 0. (2) Sekcija 46 je uhvatila kapsulu (`locator`) čim se
+pojavila – to je bila kapsula iz kante; kad je stigao ceo rečnik sa učestalošću, prikaz se iscrtao ponovo i stari
+element je nestao iz DOM-a: `Element is not attached to the DOM`, ceo test se srušio. Lokalno se ponovno
+iscrtavanje desi PRE nego što test stigne da uhvati kapsulu, pa se greška nije videla.
+
+**Pravilo:** kad kod iscrtava isti spisak u dve faze (brzo pa potpuno), test pre hvatanja elementa čeka
+**signal potpune faze**, ne prisustvo elementa. U `predeploy.mjs` je to `cekajMirneRime(p)` (rečnik + `extrasSpremni`
++ kratka pauza) i koristi se pre SVAKOG `locator('#rimeResults .chip')`. Provera koja meri BRZU fazu radi obrnuto:
+čeka element sa rokom (2,5 s) i pamti da li je rečnik u tom trenutku još prazan. I dalje važi: lokalno prošlo ne
+znači da je deploy prošao – lanac protiv produkcije je obavezan i ne preskače se zbog toga što je „isti kod".
+
+## 25.09.2026 — DVA PUNA LANCA ISTOVREMENO PREOPTERETE RAČUNAR: PADAJU NA ISTEKU VREMENA, NE NA KVARU
+
+**Šta se desilo:** lokalni lanac i lanac protiv produkcije pušteni su paralelno (8 pregledača + 2 skenera odjednom).
+Opterećenje računara je skočilo na 57 (za 10 jezgara sve preko ~10 znači čekanje u redu): Firefox se nije pokrenuo za
+180 s, skener ćirilice nije otvorio stranu za 60 s, jedan klik nije prošao za 30 s. Sve tri „greške" su nestale kad je
+lanac pušten sam. Pre toga je isti par lanaca prošao 3 dana ranije – jer je računar tada bio manje opterećen.
+Dodatno: lanac pušten pre spavanja računara (22.09.) nastavio je posle buđenja 25.09. sa `ERR_INTERNET_DISCONNECTED` i
+`[11187 s]` – taj rezultat je nevažeći i mora se ponoviti, ne tumačiti.
+
+**Pravilo:** puni lanci se puštaju **jedan za drugim**, ne istovremeno – prvo protiv produkcije (on odlučuje), pa lokalni.
+Rezultat u kome padaju SAMO isteci vremena (`Timeout`, `browserType.launch`, `page.goto`) na više alata odjednom nije
+nalaz o sajtu nego o računaru: proveriti `uptime` (opterećenje) i `[NN s]` oznake u dnevniku (skok preko 1.000 s = računar
+spavao), pa ponoviti. Nikad ne prijaviti takav pad kao bag ni takav prolaz preskočiti kao „isti kod".
+
+## 25.09.2026 — PROVERA ČITA STANJE KOJE KOD SAM BRIŠE POSLE 1,5 s: „TAČNO" PROČITANO KAO PRAZNO
+
+**Šta se desilo:** motori (Firefox, produkcija) prijavili da igra NE priznaje „Amsterdam" za „slušam". Igra je priznaje
+(proveren klik u istom pregledaču: `game-feedback correct`, ključ rime `am` = `am`). Test je posle dodira čekao 300 ms pa
+čitao klasu poruke – a igra 1,5 s posle tačnog odgovora prelazi na sledeću reč i vraća klasu na praznu. U Firefoxu je dodir
+sam trajao dovoljno da čitanje stigne posle brisanja.
+
+**Pravilo:** kad kod posle radnje **sam menja stanje po tajmeru**, provera čita stanje **u istom koraku** kao radnja
+(`evaluate` koji klikne i odmah vrati), ne „pauza pa čitanje". Pre nego što se pad prijavi kao kvar igre, isti odgovor se
+ponovi ručno u istom motoru (`grep -n setTimeout` oko te funkcije kaže koliko stanje živi).

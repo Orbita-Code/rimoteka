@@ -10,6 +10,21 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0a. STANJE OBJAVE POSLE TREĆEG KRUGA (22.09.2026, ~12:00)
+- `main` = `46ad02cd0b` (nginx: /app.js→app.min.js, kanonikal ?rec=, CSP www) nad `0e2273b6f4` (kante, min, P-2, test 59). Pre toga krug 2:
+  `05dab95af1` (nginx) nad `c0f4ed4e44` (41 nalaz). Svaki nginx commit je bio zaseban deploy (pravilo 9a-1).
+- Produkcija: `app.js?v=4b470341` (servira se `app.min.js`, 45 KB gzip), `public/kante/` 378 fajlova, `/?rec=ljubav` sirovi kanonikal `/rime-za/ljubav/`,
+  `/?rec=čeka` → `/rime-za/ceka/`, nepoznata reč → `/`; CSP `script-src 'self' https://www.googletagmanager.com`.
+- Lanac protiv produkcije posle kruga 3 je prvo PAO (ne sajt – test): V5 brojao rime pre nego što kanta stigne mrežom, sekcija 46 i
+  motori (Firefox) uhvatili kapsulu iz kante koju je ceo rečnik posle zamenio („Element is not attached"), TP-6 očekivao stari sirovi
+  kanonikal (SEO-2 ga sad menja kroz nginx). Popravljeno u testu (`cekajMirneRime`, v. PROPUSTI 22.09. poslednji unos). 25.09. još dve trke u
+  testu (PR-2 fokus pre ponovnog iscrtavanja; motori Firefox čitali poruku igre posle 1,5 s kad je igra već obriše) – oba
+  popravljena u testu, sajt ispravan (potvrđeno ručno u Firefoxu na produkciji). **Ponovljeni lanci 25.09.: produkcija
+  898/898 + motori 70 + skeneri 0/0 (`AUDIT/lanac/20260925-140849`), lokalno 915/915 + 70 + 0/0 (`20260925-142655`).**
+  Pouka o paralelnim lancima (opterećenje 57, lažni isteci vremena) i o računaru koji spava usred lanca: PROPUSTI 25.09. Kopija repoa `~/Projects/rimoteka-prodtest` (worktree na `main`) je služila za lanac protiv
+  produkcije bez blokiranja rada u glavnoj; briše se posle objave ovog commita (`git worktree remove ~/Projects/rimoteka-prodtest`).
+- Podsetnik: otvoreno srednje 1 (SJ-5 – odluka vlasnice), nisko 3 (SEO-3 Coolify, A-3 namerno, TP-11 pauze).
+
 ## 0. STANJE OBJAVE (22.09.2026, ~05:40)
 - `main` = `c415a5d1ee` (nginx mikrofon) nad `9059f0f26b` (kod + podaci + test 57 + docs). Dva odvojena deploya (kod, pa nginx – pravilo 9a-1), oba uživo.
 - Produkcija: `app.js?v=0c691edc`, `style.css?v=12b728d4`, `reci.txt` 279.867 reči (75 ijekavskih premešteno), `Permissions-Policy: microphone=(self)`.

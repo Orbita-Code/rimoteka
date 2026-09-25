@@ -22,6 +22,13 @@ const MOTORI = (process.env.MOTORI || 'webkit,firefox,chromium').split(',');
 let pass = 0; const greske = [];
 const ok = (ime, uslov, detalj = '') => { if (uslov) { pass++; console.log('  ✅ ' + ime); } else { greske.push(ime + (detalj ? ' – ' + detalj : '')); console.log('  ❌ ' + ime + (detalj ? ' – ' + detalj : '')); } };
 const pauza = ms => new Promise(r => setTimeout(r, ms));
+/* PF-1 (22.09.2026): rime se iscrtaju iz kante pa ponovo iz celog rečnika sa učestalošću – kapsula uzeta pre toga nestane
+   iz DOM-a („Element is not attached", Firefox 22.09.). Pre hvatanja kapsule čeka se da učitavanje učestalosti ZAVRŠI. */
+const cekajMirneRime = async (p, ms = 500) => {
+  await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 }).catch(() => {});
+  await p.waitForFunction(() => typeof extrasSpremni === 'undefined' || extrasSpremni, null, { timeout: 60000 }).catch(() => {});
+  await pauza(ms);
+};
 const TASTATURA = async (p) => p.evaluate(async () => { const VV = window.visualViewport; const nova = window.innerHeight - 336; Object.defineProperty(VV, 'height', { get: () => nova, configurable: true }); Object.defineProperty(VV, 'offsetTop', { get: () => 0, configurable: true }); VV.dispatchEvent(new Event('resize')); window.dispatchEvent(new Event('resize')); await new Promise(r => setTimeout(r, 500)); return nova; });
 
 let server = null;
@@ -51,7 +58,7 @@ try {
       const c = await ctx(); const p = await stranica(c);
       await p.goto(BASE + '/?rec=nada', { waitUntil: 'domcontentloaded' });
       await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5, null, { timeout: 180000 });
-      await p.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('ljubav') < 0, null, { timeout: 30000 }).catch(() => {}); await pauza(500);
+      await cekajMirneRime(p, 500);
       const r1 = await p.evaluate(() => ({ chip: document.querySelectorAll('#rimeResults .chip').length, prvi: (document.querySelector('#rimeResults .chip .word') || {}).textContent, grupe: [...document.querySelectorAll('#rimeResults h2')].map(h => h.textContent), sirina: document.documentElement.scrollWidth }));
       ok(`${ime} · rime za „nada": ${r1.chip} kapsula, grupe ${r1.grupe.join('/')}`, r1.chip > 20 && /Najbolje/.test(r1.grupe[0] || ''), JSON.stringify(r1));
       ok(`${ime} · strana ne preliva vodoravno`, r1.sirina <= 390, `${r1.sirina}`);
@@ -162,8 +169,11 @@ try {
       const fb1 = await p.evaluate(() => document.getElementById('gameFeedback').className);
       /* Isto pravilo kao igra: savršena rima ILI završni slog, bar 3 slova (09.09.: „sportska“ ima samo rimu po završnom slogu). */
       const tacna = await p.evaluate((w) => { const k = rhymeKey(w), fk = finalSylKey(w), m = w.toLowerCase(); for (let i = 0; i < jekStart; i++) if (MALE[i] !== m && WORDS[i].length >= 3 && KEYS[i] === k && !BLOCKED.has(MALE[i])) return WORDS[i]; for (let i = 0; i < jekStart; i++) if (MALE[i] !== m && WORDS[i].length >= 3 && finalSylKey(WORDS[i]) === fk && !BLOCKED.has(MALE[i])) return WORDS[i]; return null; }, rec);
-      await p.fill('#gameInput', tacna || 'kuća'); await dodir(p, '#gameSubmit'); await pauza(300);
-      const fb2 = await p.evaluate(() => document.getElementById('gameFeedback').className);
+      /* 25.09.2026: posle tačnog odgovora igra za 1,5 s pređe na sledeću reč i OBRIŠE boju poruke – dodir pa čitanje posle
+         300 ms je u Firefoxu stizalo prekasno (klasa prazna). Zato se klik i čitanje rade u ISTOM koraku, bez trke; isti dugme,
+         isti obrađivač (`checkGameAnswer`). Dodir na dugme kao takav je već proveren gornjim, pogrešnim odgovorom. */
+      await p.fill('#gameInput', tacna || 'kuća');
+      const fb2 = await p.evaluate((w) => { if (gameCurrentWord !== w) return 'REC-PROMENJENA:' + gameCurrentWord; document.getElementById('gameSubmit').click(); return document.getElementById('gameFeedback').className; }, rec).catch(e => 'GREŠKA:' + e.message);
       ok(`${ime} · igra · „${rec}": nepostojeća reč odbijena, tačna rima „${tacna}" priznata`, /hint/.test(fb1) && /correct/.test(fb2), `${fb1} / ${fb2}`);
       await c.close();
     }

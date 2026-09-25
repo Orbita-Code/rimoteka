@@ -434,6 +434,9 @@ BASE=https://rimoteka.com bash test/lanac.sh     # posle deploya, protiv produkc
 bash test/lanac-brzi.sh       # TOKOM RADA (≈1 min): tri motora + dimna proba glavnih namena – ne zamenjuje pun lanac
 ```
 U nizu su četiri alata trajala ~28 min; paralelno traju koliko najduži (pun test). Dnevnici: `AUDIT/lanac/<datum>/`.
+**Lokalni lanac i lanac protiv produkcije NE ISTOVREMENO** (25.09.2026): dva lanca odjednom dižu opterećenje računara na 50+ i
+padaju na istecima vremena (Firefox se ne pokrene za 180 s), a ne na kvaru. Prvo protiv produkcije, pa lokalni. Pad u kome su
+SVE greške `Timeout` na više alata, ili `[NN s]` skoči preko 1.000 s (računar spavao), nije nalaz – ponavlja se (PROPUSTI 25.09.).
 `node test/igra-bazen.mjs && python3 scripts/igra-bazen-analiza.py` je izveštaj o rečima igre, samo na zahtev.
 **Pun test ispisuje `[NN s]` uz svaku sekciju** – kad se traži gde odlazi vreme, gleda se to, ne nagađa.
 **IGRA SE PRE OBJAVE NE IGRA – ODLUKA VLASNICE 08.09.2026 („da li sam rekla da se igrica više ne igra… i više nikada").**
@@ -501,6 +504,9 @@ Posle deploy-a **ponovo pokrenuti test protiv produkcije** (`BASE=...`) — loka
     rečnika iz kante; učestalost se ne skida bez potrebe; na produkciji: sirovi kanonikal `?rec=` i CSP host.
 
 **Kad se doda nova funkcija, u `test/predeploy.mjs` MORA da se doda i provera za nju.**
+**Kapsula se hvata tek posle `cekajMirneRime(p)`** (22.09.2026): rime se iscrtaju iz kante pa PONOVO iz celog rečnika –
+lokator uzet pre toga puca na produkciji („Element is not attached"), a lokalno prolazi. Provere brze faze (V5, 59-C)
+čekaju element sa rokom i pamte da li je rečnik još prazan.
 **Novu proveru prvo pustiti SAMU** (ciljana skripta sa `static-server.mjs`, v. PROPUSTI 08.09.) — pun test
 traje 15 minuta, a nova provera najčešće prvo padne na sopstvenoj grešci.
 

@@ -2383,8 +2383,9 @@
 "matica": "полушанса ж в. Полуприлика.",
 "def": "U sportu, situacija koja tek može da preraste u pravu priliku za gol.",
 "vrsta": "imenica",
-"sigurnost": "proveriti",
-"greske": []
+"sigurnost": "sigurno",
+"greske": [],
+"odluka": "vlasnica 29.09.2026: ok, moje objašnjenje"
 },
 {
 "x": "profilni",
@@ -5489,15 +5490,16 @@
 "greske": []
 },
 {
-"x": "Lipica",
+"x": "lipica",
 "grupa": "A",
 "serija": 5,
 "primeri": "lipicama, lipice",
 "matica": "липица ж бот. једногодишња зељаста биљка Аби оп Амлсеппае из ф. Мајуасезе.",
-"def": "Mesto u Sloveniji poznato po ergeli belih konja lipicanera.",
+"def": "Jednogodišnja zeljasta biljka iz porodice sleza, srodna lipi po listu.",
 "vrsta": "imenica",
-"sigurnost": "proveriti",
-"greske": []
+"sigurnost": "sigurno",
+"greske": [],
+"odluka": "vlasnica 29.09.2026: malim slovom, biljka kao u Matici; oblici lipice/lipicama upućuju na „lipica\""
 },
 {
 "x": "baladičan",
@@ -9278,10 +9280,11 @@
 "serija": 8,
 "primeri": "odbranaška",
 "matica": "одбранашки, -4, -0 који се односи на одбранаше, својствен одбранашима.",
-"def": "Koji se odnosi na odbranaše, one koji nekoga ili nešto brane.",
+"def": "Koji se odnosi na branioce, one koji brane.",
 "vrsta": "pridev",
-"sigurnost": "proveriti",
-"greske": []
+"sigurnost": "sigurno",
+"greske": [],
+"odluka": "vlasnica 29.09.2026: ok"
 },
 {
 "x": "odlunjati",

@@ -19,7 +19,11 @@
 - **Test u 4 radnika (TP-11):** `lanac.sh` → `DEO=1..4`; lokalno 994 provere, 10 min 45 s (bilo 16–23 min u jednom procesu).
   Radnici su trajali ~450 s svaki uz opterećenje računara 37 – kad računar nije zauzet drugim, treba da bude kraće. Vraćanje: `RADNIKA=1`.
 - **A-3** zatvoren odlukom vlasnice (ostaje autofokus na polje).
-- **Sledeće:** lanac protiv produkcije posle objave; odluke za C i 42 sporne; audit (poslednji 22.09.).
+- **Objavljeno 01.10. ~14:04** (`main` = `07b2d16665`, produkcija `app.js?v=94304869`, `reci.txt?v=0ad4ddb2` 2,74 MB). Lanac protiv
+  produkcije u 4 radnika: 977 provera, motori 69, skeneri 0/0, 12 min 31 s (`AUDIT/lanac/20261001-140506`). Ručno: nove reči na
+  produkciji (grohotati, termalan, lipica, humanitaran), ijekavske osnove u `reci_jekavica.txt`, hrvatski oblici (suradnje, kisika…) nema.
+- **Neobjavljeno (lokalni commiti posle objave, čekaju „da" za push):** `B-ostalo-42-za-odluku.md`, dopune HANDOVER/NALAZI.
+- **Sledeće:** odluke vlasnice za C (`PREDLOG-C-objasnjenja.md`) i 42 sporne iz B; pun audit (poslednji 22.09.).
 
 ## 0a. STANJE OBJAVE POSLE TREĆEG KRUGA (22.09.2026, ~12:00)
 - `main` = `46ad02cd0b` (nginx: /app.js→app.min.js, kanonikal ?rec=, CSP www) nad `0e2273b6f4` (kante, min, P-2, test 59). Pre toga krug 2:

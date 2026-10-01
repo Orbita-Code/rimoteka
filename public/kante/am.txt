@@ -1,4 +1,4 @@
-1919
+1929
 Amsterdam		
 Avram		
 Vijetnam		
@@ -6,6 +6,7 @@ abortiram	19
 adam		
 adaptiram	51	
 adresiram	12	
+adventizam		
 aforizam	395	
 agnosticizam	51	
 akademizam		
@@ -120,6 +121,7 @@ cenkam	13
 centralizam	320	
 cepam	128	
 cerekam		
+cezarizam		
 ciljam	127	
 cimam	341	
 cinizam	1082	
@@ -267,6 +269,7 @@ formalizam	145
 formiram	169	
 forsiram	133	
 fotokopiram	19	
+frankizam		
 frazeologizam		M
 frojdizam		
 fundamentalizam	403	
@@ -274,6 +277,7 @@ funkcionalizam
 futurizam	92	
 fućkam		
 gacam	10	
+galicizam		
 galopiram		
 gangsterizam		
 ganjam	63	
@@ -391,6 +395,7 @@ iskupljam
 iskušam	11	
 iskušavam	15	
 islam	4242	
+islamizam		
 ismejavam		
 ismevam	26	
 ismijavam		J
@@ -651,6 +656,7 @@ merkantilizam	27
 metabolizam	3260	
 metamorfizam		
 mešam	707	
+mikrokozam		
 mikroorganizam	125	
 miligram	167	
 militarizam	144	
@@ -976,7 +982,9 @@ perfekcionizam
 pesimizam	863	
 petljam	138	
 pevam	1294	
+pijetizam		
 pijuckam	72	
+piktogram		
 pilotiram	10	
 pipam	81	
 pipkam	18	
@@ -1116,6 +1124,7 @@ predam	586
 predomišljam	11	
 predosećam	65	
 predočavam	25	
+predromantizam		
 predsedavam	52	
 predstavljam	824	
 predujam	137	
@@ -1587,6 +1596,7 @@ tribalizam
 trkam	41	
 trljam	115	
 trockizam	38	
+tropizam		
 trpam	100	
 trzam	21	
 trčkaram	48	

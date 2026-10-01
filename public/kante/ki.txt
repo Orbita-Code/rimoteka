@@ -1,12 +1,14 @@
-3926
+4156
 Helsinki		
 Mozambiki		
 abadžijski		
+abiotički		
 aboridžinski	15	
 adamski		
 administratorski	160	
 admiralitetski		M
 admiralski	30	
+adolescentski		
 adrenalinski	150	
 advokatski	446	
 aerodinamički	254	
@@ -36,6 +38,7 @@ aksiomatski
 akterski		
 aktovki		
 akustički	170	
+akušerski		
 akviziterski		M
 alaski		M
 alatki	1308	
@@ -44,10 +47,13 @@ albanki	63
 albanski	3880	
 aleksandrijski	383	
 alergijski	490	
+aleutski		
 alfabetski	45	
+alfanumerički		
 algebarski	37	
 alhemijski	60	
 alhemičarski	17	
+aligatorski		
 aljaski		
 alkoholičarski	16	
 alpijski		
@@ -68,6 +74,7 @@ amerikanki
 amerikanski	52	
 američki	31094	
 amiški		
+amsterdamski		
 anafilaktički	102	
 analfabetski		M
 analitički	1349	
@@ -77,6 +84,7 @@ anatomski	546
 andaluzijski	40	
 anegdotski	66	
 anestetički		
+anglikanski		
 anglosaksonski	246	
 angolski	13	
 animalistički		
@@ -120,6 +128,7 @@ aranđelovački	44
 arapski	1928	
 arbanaški	155	
 argentinski	763	
+arhajski		
 arheološki	1671	
 arhetipski	216	
 arhiepiskopski		M
@@ -149,8 +158,10 @@ astraganski
 astrološki	213	
 astronautski		M
 astronomski	961	
+atavistički		
 ateistički	106	
 atenski		
+atentatorski		
 atinski	385	
 atički	22	
 atlantski	484	
@@ -172,6 +183,7 @@ autobiografski	273
 autobuski	869	
 autokratski	132	
 automatski	20832	
+automehaničarski		
 automobilistički	17	
 automobilski	921	
 autonomistički		M
@@ -179,11 +191,15 @@ autorki	769
 autorski	2180	
 avalski		
 avanturistički	511	
+avarski		
 avetinjski	174	
 avganistanski	274	
+avgustovski		
+avijacijski		
 avinjonski		
 avionski	407	
 avlijski		
+avnojski		
 azijatski	66	
 azijski	666	
 azilantski		
@@ -191,13 +207,16 @@ ačanski
 aždajski		M
 babilonski		
 babuški	29	
+bacački		
 badenski	29	
 badnjački		
+bagdadski		
 bagerski		M
 bajkerski	36	
 bajki	1588	
 bajmočki		
 bajorski		
+bakalski		
 bakarski		
 baki	624	
 bakterijski	211	
@@ -206,6 +225,7 @@ balalajki
 baletski	416	
 balistički	102	
 balkanski	3603	
+balkonski		
 balonski	11	
 balski		
 baltimorski		
@@ -229,6 +249,7 @@ barometarski	28
 baronski		M
 barovski		
 barski	270	
+baršunski		
 baskijski	89	
 bastionski		
 batajnički		
@@ -240,6 +261,7 @@ baćuški	21
 bački	3381	
 bačvanski		
 baštenski	257	
+baštinski		
 baštovanski	12	
 bebisiterki	17	
 beduinski	22	
@@ -258,6 +280,7 @@ beljanski
 belocrkvanski		
 beloruski	387	
 belosvetski	265	
+benediktinski		
 bengalski	57	
 benzinski	1446	
 beogradski	14574	
@@ -275,6 +298,7 @@ besednički		M
 beskućnički		
 besplanski		
 besposličarski		M
+bestežinski		
 betonski	1188	
 bezatomski		M
 bezbožnički	31	
@@ -309,6 +333,7 @@ biometrijski	300
 biometrički		
 bionički	20	
 bioskopski	290	
+biotehnološki		
 birački	1966	
 birokratski	601	
 biseksualki		
@@ -329,6 +354,7 @@ blaževski
 bledoliki	37	
 bliski	6379	
 blizanački	22	
+blokovski		
 bludnički		M
 bodrilački		
 boemski	191	
@@ -362,6 +388,7 @@ borki
 borski	790	
 bosanki		
 bosanski	4211	
+bosanskohercegovački		
 bosforski		
 bosporski		
 bostonski	154	
@@ -379,11 +406,13 @@ božinovski
 brahmanski		
 bramanski		M
 branilački		M
+branički		
 branki		
 bratinski		
 bratislavski		
 bratoubilački	158	
 bratski	1147	
+bratstvenički		
 bravarski	70	
 brazilijanski		
 brazilki		
@@ -440,6 +469,7 @@ carski	2667
 cediljki	19	
 cehovski	18	
 cejlonski		
+celjski		
 centaurski		
 centimetarski		
 centralistički	126	
@@ -482,6 +512,7 @@ crvenooki
 cuki		
 cvanciki		
 cvećarski		M
+dablinski		
 dahijski		M
 daktilografski	12	
 daleki	1506	
@@ -570,6 +601,7 @@ direktorski	106
 dirigentski	24	
 disciplinski	1224	
 disidentski	54	
+diskografski		
 diskriminatorski	380	
 dispanzerski		M
 dispečerski	93	
@@ -615,6 +647,7 @@ dostavljački
 dostojevski		
 doušnički		
 došljački		M
+drakonski		
 dramatski	19	
 dramaturški	255	
 dramski	2796	
@@ -634,6 +667,7 @@ dualistički
 dubinski	788	
 duboki	1965	
 dubrovački	766	
+duetski		
 dugački	917	
 dugodlaki	50	
 dugoruki		
@@ -712,6 +746,7 @@ empirijski	599
 enciklopedijski	150	
 enciklopedistički		
 endemijski		
+endemski		
 energetski	7904	
 energijski	18	
 engleski	17089	
@@ -719,6 +754,7 @@ enklitićki
 enklitički		
 enkripcijski		
 entitetski	92	
+enzimski		
 eparhijski		
 epidemijski	72	
 epigonski		
@@ -738,9 +774,11 @@ esnafski		M
 estetički	140	
 estetski	3098	
 estonski	130	
+etarski		
 etatistički		
 eterski		
 etimološki	156	
+etiološki		
 etiopijski	12	
 etiopski	91	
 etički	2078	
@@ -748,6 +786,7 @@ etnički	4070
 etnogenetički		
 etnografski	523	
 etnološki	138	
+etološki		
 etrurski	56	
 eugenički		
 euharistički		
@@ -790,6 +829,7 @@ feljtonski
 feministički	212	
 feničanski	29	
 fenički	34	
+fenomenološki		
 feudalistički		M
 filadelfijski	33	
 filantropski	45	
@@ -810,6 +850,7 @@ fiziološki	938
 fizičarski		M
 fizički	8607	
 flamanski	156	
+flanelski		
 flaski		
 floridski		
 foki	12	
@@ -822,6 +863,7 @@ formalistički
 forumski		
 fotki	855	
 fotografski	579	
+fotometrijski		
 fotonski	32	
 fočanski	19	
 frajerski	12	
@@ -841,6 +883,7 @@ frizijski	25
 friški	30	
 frojdovski		M
 frontovski	18	
+fudbalerski		
 fudbalski	7659	
 furtimaški		
 futoški	254	
@@ -852,6 +895,7 @@ galenski	38
 galerijski	218	
 galilejski		M
 galički		
+galopski		
 galski	91	
 galvanizerski		
 galvanski	62	
@@ -861,6 +905,9 @@ gardijski	32
 garnizonski		
 gastronomski	279	
 gatalački		M
+gatački		
+gavanski		
+gavranski		
 gazdaški		M
 gazdinski		M
 gejzirski		
@@ -894,6 +941,7 @@ gipki		M
 gipsarski		
 gitarski	167	
 glagoljaški		
+glagoljički		
 glagoljski	16	
 glagolski	158	
 glasački	627	
@@ -906,7 +954,10 @@ glumački	933
 glupanski		
 gnjavatorski		
 gnjilanski		
+gnjurački		
+gnomski		
 gnostički	19	
+golfski		
 golgeterski		
 golmanski		
 goloruki	253	
@@ -933,6 +984,7 @@ govedarski	14
 govornički	56	
 gradacijski		M
 gradački	11	
+graditeljski		
 gradiški		
 gradski	15090	
 grafijski		
@@ -967,6 +1019,7 @@ gruzijski	396
 gruzinski		
 gružanski		
 grčki	6983	
+gubitaški		
 gubitnički	136	
 gudački	443	
 gugutki	21	
@@ -980,7 +1033,9 @@ guvernerski
 gušterski		M
 gvožđarski		M
 habsburški	21	
+habzburški		
 hadronski	90	
+hadžijski		
 hagiografski	20	
 haićanski	18	
 hajdučki	229	
@@ -1019,6 +1074,7 @@ heroinski	59
 herojski	724	
 heruvimski		M
 hideki		
+hidrantski		
 hidraulički	101	
 hidroavionski		
 hidrogenski	14	
@@ -1039,12 +1095,14 @@ hipodromski		M
 hipotetički	849	
 hipotetski	28	
 hirurški	1342	
+histološki		
 historijski		
 hitlerovski		
 hladionički		
 hlebarski		M
 hobistički		
 hodnički		
+hohštaplerski		
 hokejaški	75	
 holandski	2432	
 holistički	503	
@@ -1082,11 +1140,13 @@ huškački	24
 hvarski	21	
 hvostanski	336	
 ibarski		
+iberijski		
 idealistički	126	
 identifikacijski	28	
 ideološki	3343	
 idilski		
 idiomatski		
+idiopatski		
 idiotski	277	
 igranki	58	
 igrački	1280	
@@ -1095,6 +1155,7 @@ ilinski		M
 ilirski	314	
 iločki	33	
 ilustratorski		
+iluzionistički		
 imendanski		M
 imenički		
 imenski	63	
@@ -1102,6 +1163,7 @@ imitatorski		M
 imovinski	443	
 imperatorski	37	
 imperijalistički	141	
+impresionistički		
 imunološki	1091	
 imunski	153	
 inadžijski		M
@@ -1119,6 +1181,7 @@ informatorski
 inkubatorski		
 inkvizitorski	19	
 inovatorski		M
+insajderski		
 inspiratorski		
 instalaterski	36	
 instruktorski	45	
@@ -1142,9 +1205,11 @@ ironijski	83
 irski	1002	
 isceliteljski		
 iseljenički	10	
+ishemijski		
 iskariotski		
 iskonski	404	
 iskušenički		M
+islamistički		
 islamski	1989	
 islandski	221	
 islednički		M
@@ -1159,11 +1224,13 @@ istoriografski	109
 istoriski		
 istoričarski		M
 istočnjački	158	
+istočnoevropski		
 istočnonemački	45	
 istražiteljski		
 istraživački	4897	
 italijanki		
 italijanski	9659	
+ivanjički		
 ivanjski	15	
 izazivački	95	
 izbaviteljski		M
@@ -1175,6 +1242,8 @@ izistinski	98
 izlagački	158	
 izletnički	89	
 izolaterski		
+izolatorski		
+izrabljivački		
 izraelski	2499	
 izumiteljski		
 izvanjski	13	
@@ -1218,6 +1287,7 @@ jednoćelijski	89
 jednočinki	20	
 jedriličarski	129	
 jegarski	137	
+jekavski		
 jeki		
 jelenski	43	
 jelinski	80	
@@ -1258,6 +1328,7 @@ južnjački	110
 južnoafrički	271	
 južnoamerički	144	
 južnobački		
+južnoslovenski		
 kabaretski	26	
 kabinetski	86	
 kablarski		
@@ -1268,6 +1339,7 @@ kadivki
 kadrovski	1292	
 kafanski	431	
 kafki		
+kairski		
 kajakaški	160	
 kajkavski	120	
 kajmakčalanski		
@@ -1277,8 +1349,10 @@ kalendarski	402
 kalibarski		
 kalifornijski	290	
 kaligrafski	89	
+kalorijski		
 kaluđerski		M
 kambodžanski	32	
+kamenarski		
 kamenorezački		M
 kamerunski	37	
 kamilavki		
@@ -1288,6 +1362,7 @@ kamperski	21
 kanadski	1653	
 kanalizacijski	13	
 kanalski	48	
+kanarski		
 kancelarijski	1039	
 kandidatski	81	
 kandijski		
@@ -1300,13 +1375,16 @@ kantonski	21
 kapelski		
 kapetanski	33	
 kapitalistički	651	
+kapitenski		
 kapitulantski	40	
 kaplarski		M
 kapucinski		
 karavanski	67	
 karbonski	124	
 karburatorski		
+kardanski		
 kardinalski		
+kardiografski		
 karikaturistički		
 karipski	31	
 karlovački	286	
@@ -1330,8 +1408,10 @@ kataloški	251
 katarki		
 katarski	102	
 katastarski	344	
+katedarski		
 kategorički	709	
 katolički	1602	
+katunski		
 kaubojki		
 kaubojski	145	
 kaurski		
@@ -1383,9 +1463,12 @@ kičerski		M
 kladanjski	11	
 kladovski	88	
 klanički		
+klanovski		
+klasicistički		
 klavirski	363	
 klesarski		
 klevetnički	70	
+klijentski		
 kliki	56	
 klimatološki		
 klimatski	1028	
@@ -1424,6 +1507,7 @@ kolarski
 kolačarski		M
 kolekcijski		
 kolekcionarski	92	
+kolektorski		
 kolenski		
 kolevki	53	
 koliki	10583	
@@ -1431,6 +1515,7 @@ količinski	529
 koljački	11	
 kolodvorski		
 kolonistički		M
+kolonjski		
 kolporterski		M
 kolski	238	
 kolubarski	329	
@@ -1471,6 +1556,7 @@ konobarski	18
 konsonantski		M
 konstruktorski	88	
 kontiki		
+kontracepcijski		
 konzervatorski	379	
 kopaonički		
 kopački	48	
@@ -1482,9 +1568,11 @@ korejanski
 korejski	647	
 korektorski		M
 korenski		M
+koreografski		
 korespondentski		
 korintski	91	
 korisnički	2865	
+korovski		
 korparski		M
 korporacijski	92	
 koruški	15	
@@ -1546,6 +1634,7 @@ krijumčarski	21
 kriminalistički	219	
 kriminološki	15	
 krimski	102	
+kriptografski		
 kritičarski	60	
 kritički	3322	
 kritski	66	
@@ -1567,12 +1656,14 @@ kruškoliki	13
 krvnički	159	
 krznarski		
 krčmarski		
+krški		
 kubanski	520	
 kubistički		
 kuglaški	129	
 kuhinjski	665	
 kukavički	416	
 kuki	69	
+kulački		
 kulinarski	443	
 kulturološki	988	
 kumanovski	273	
@@ -1588,6 +1679,8 @@ kuvajtski	84
 kuvarski		M
 kućanski	40	
 kučki		
+kvantaški		
+kvartovski		
 kvekerski		
 kvislinški		
 kćerki	467	
@@ -1613,7 +1706,10 @@ lavovski	447
 lazanski		
 lazarevski		
 lađarski		
+lažovski		
 ledenički		
+lednički		
+legionarski		
 lekarki	50	
 lekarski	1565	
 leki		
@@ -1623,6 +1719,7 @@ leksikonski
 leksički	152	
 lektorski	22	
 lenjingradski	58	
+lenjinski		
 lenki		
 lepenski		
 lepoliki		
@@ -1630,7 +1727,9 @@ leski
 leskovački	482	
 letački	120	
 letonski		
+levantinski		
 levantski	13	
+levački		
 levitski		M
 levičarski	429	
 levoruki	200	
@@ -1678,8 +1777,10 @@ litvanski	267
 livadski	136	
 livački		M
 livničarski		
+livnički		
 livonski		
 lički	128	
+lišćarski		
 ljubavnički	18	
 ljubinki		
 ljubiteljski		M
@@ -1700,6 +1801,7 @@ logorski	28
 londonski	1867	
 lončarski	49	
 lopovski	187	
+losanđeleski		
 lovački	1003	
 lovćenski		
 lozinki	711	
@@ -1729,7 +1831,9 @@ magijski	350
 magistarski	700	
 magistratski		M
 magički		M
+magmatski		
 magnetofonski	14	
+magnetoskopski		
 magnetski	158	
 magnezijumski		M
 majakovski		
@@ -1746,6 +1850,7 @@ makadamski	139
 makaki	21	
 makedonski	2174	
 maki		
+makroekonomski		
 makroskopski		
 maksimalistički		
 malajski	43	
@@ -1762,6 +1867,7 @@ malteški	242
 mamutski	44	
 manastirski	783	
 mandarinski	78	
+mandatski		
 manekenki	459	
 manekenski	66	
 manevarski	834	
@@ -1831,6 +1937,7 @@ meksikanski	16
 meksički	686	
 melodijski	56	
 melodramski	50	
+membranski		
 memoarski	42	
 memorijski	971	
 menadžerski	396	
@@ -1843,6 +1950,8 @@ mesijanski	65
 metabolički	514	
 metafizički	373	
 metaforički	263	
+metaloprerađivački		
+metalostrugarski		
 metalski	214	
 metalurški	149	
 metarski	98	
@@ -1850,6 +1959,7 @@ meteorološki	401
 meteorski	245	
 meterski		
 metlarski		M
+metodistički		
 metodički	128	
 metodološki	633	
 metodski	88	
@@ -1858,15 +1968,19 @@ metrički	71
 mečki		
 međugradski	154	
 međuljudski	458	
+međuopštinski		
+međusektorski		
 međuverski	54	
 međuzonski		
 mešetarski		M
 miholjski		M
 miki		
+mikroklimatski		
 mikroskopski	244	
 mikserski		
 milanki		
 milanski	559	
+milenijski		
 milenijumski	170	
 mileševski		
 milicijski	10	
@@ -1928,6 +2042,7 @@ mnogoliki
 mnogooki		
 mnogostruki	91	
 množinski		
+mobilizatorski		
 modemski	41	
 modernistički	105	
 moldavki		
@@ -1984,6 +2099,7 @@ murdarski
 musaki	10	
 muslimanki	170	
 muslimanski	1810	
+muslinski		
 mutantski		
 muzejski	733	
 muzeološki	56	
@@ -2001,6 +2117,7 @@ nabavljački		M
 nacionalistički	864	
 nacistički	638	
 nadljudski	89	
+nadmorski		
 nadnebeski		
 nadničarski		
 nadrealistički	86	
@@ -2037,6 +2154,7 @@ naskovski
 naslednički		
 nastavnički	212	
 nastojnički		M
+natovski		
 naturalistički	70	
 natčovečanski		M
 nautički	271	
@@ -2063,6 +2181,7 @@ neherojski
 nehigijenski	74	
 nehrišćanski	79	
 neimarski		M
+neimovinski		
 neistinski		
 neistorijski		M
 nejaki	254	
@@ -2094,8 +2213,10 @@ neporeski
 neprijateljski	1821	
 neradnički	23	
 nerijetki		J
+neruski		
 nesemitski		
 nesistematski		
+neslovenski		
 nesportski	175	
 nesrpski	76	
 nestranački		
@@ -2133,6 +2254,7 @@ nitrogenski
 nizijski	34	
 nizinski		
 ničeanski		
+nišanski		
 nišavski	137	
 niški	3005	
 nišlijski		
@@ -2183,6 +2305,8 @@ oceanski
 ocenjivački	45	
 odbojkaški	851	
 odbornički	380	
+odbranaški		
+odeljenjski		
 odeljenski	107	
 odistinski	127	
 odmetnički	18	
@@ -2198,6 +2322,7 @@ oksigenski
 oktobarski	586	
 okupatorski	128	
 olaki	11	
+oleinski		
 oligarhijski	59	
 olimpijski	3514	
 olimpski	12	
@@ -2206,7 +2331,9 @@ oltarski	156
 omaški	62	
 omladinki		
 omladinski	2806	
+onirički		
 oniski		
+onkološki		
 onolicki		
 onoliki	496	
 ontarijski		
@@ -2227,6 +2354,7 @@ opservatorijski
 optimistički	427	
 optičarski		
 optički	2369	
+optuženički		
 opšteruski		
 opštinski	5317	
 orahovački	20	
@@ -2234,6 +2362,8 @@ oranski
 oratorski	10	
 organizatorski	28	
 organski	2704	
+orguljaški		
+orguljski		
 orijaški	12	
 orijentalski		M
 orkanski	59	
@@ -2250,12 +2380,14 @@ osaki
 osiječki		
 osječki		
 oslobodilački	345	
+osmanlijski		
 osmanski	112	
 osmatrački	49	
 osmoletki	40	
 osnivački	1102	
 osobenjački		M
 osovinski	44	
+ostavinski		
 ostrovski		
 ostroški		
 ostrvski	249	
@@ -2289,6 +2421,7 @@ padinski
 padobranski	127	
 paganski	410	
 pakistanski	311	
+pakrački		
 palanački		M
 palanki	38	
 palačinki	191	
@@ -2305,6 +2438,8 @@ paničarski
 panofski		
 panonski	324	
 panoramski	711	
+panteistički		
+panterski		
 pančevački	1715	
 papagajski	158	
 papinski	15	
@@ -2316,6 +2451,7 @@ parafinski	41
 paragvajski	40	
 paravojski	43	
 parazitski	212	
+paraćinski		
 parijski		
 pariski	719	
 pariški	95	
@@ -2364,6 +2500,7 @@ peloponeski	30
 penzijski	911	
 penzionerski	191	
 peradarski		
+peraški		
 pergamski	37	
 periferijski	38	
 periodički	10	
@@ -2396,6 +2533,7 @@ peševski
 peštanski	63	
 pešterski		
 pijanki	37	
+pikarski		
 piljarki		
 piljarski	14	
 pilotski	53	
@@ -2405,14 +2543,17 @@ pionirski	1054
 piperski		
 piranski		
 piratski	373	
+pirinejski		
 pirotehničarski		
 pirotski	566	
 pisarski	10	
+pivarski		
 pivničarski		
 pivnički		
 pivski	346	
 piški	376	
 pištaljki	59	
+plafonski		
 plagijatorski		
 planinarski	782	
 planinski	1919	
@@ -2432,6 +2573,7 @@ plećki	50
 plimski		
 plinski	154	
 plitki	333	
+plitvički		
 plivački	702	
 pljačkaški	182	
 pljački	1463	
@@ -2456,8 +2598,10 @@ podmornički	14
 podmorski	52	
 podnarednički		M
 podoficirski		M
+podravski		
 podražavalački		
 podrinjski		
+podrivački		
 podrumarski		
 podrumski	98	
 podrški	85	
@@ -2476,6 +2620,7 @@ pogromaški		M
 pokajnički	122	
 pokeraški	18	
 poklonički		
+pokosovski		
 pokrajinski	7431	
 pokretački	190	
 pokrivački		
@@ -2484,9 +2629,12 @@ pokvarenjački		M
 polanski		
 polemičarski		M
 polemički	209	
+polenski		
 policajki	32	
 policijski	4707	
+polietilenski		
 polinezijski		
+polipski		
 politeistički		
 politikantski	166	
 političarski	16	
@@ -2498,6 +2646,7 @@ poljoprivrednički		M
 poljski	3673	
 poltronski	94	
 poluautomatski		
+poluteški		
 polutki	113	
 pomodarski		
 pomoravski		M
@@ -2513,14 +2662,17 @@ porculanski	33
 poreski	6835	
 porečki	28	
 pornografski	252	
+porodiljski		
 portirski		M
 portorikanski	21	
 portretski		
 portugalski	1261	
+poručnički		
 posavski	91	
 posetiteljki		
 poslanički	1785	
 poslastičarski		M
+poslenički		
 posmatrački	141	
 posrednički	89	
 postavki	1028	
@@ -2551,6 +2703,7 @@ požarski
 požeški	63	
 prabaki		
 pradedovski	11	
+pragmatički		
 pragmatski		
 praiskonski	46	
 praistorijski	251	
@@ -2580,6 +2733,7 @@ predstavnički	452
 predugački	50	
 preduzetnički	879	
 preduzimački		M
+predškolski		
 pregalački		M
 pregovarački	2101	
 preistorijski	37	
@@ -2592,6 +2746,7 @@ prekookeanski	153
 prekratki	59	
 prekrivki		
 prelatski		M
+preljubnički		
 prenebeski		
 prepirki	124	
 prepisivački	33	
@@ -2599,6 +2754,7 @@ prepiski	63
 prepotopski		
 prepravki	149	
 prepredenjački		
+prerađivački		
 prerijski	14	
 preslatki	101	
 preslavski		
@@ -2620,6 +2776,7 @@ prezentski
 prečanski	39	
 prečki	98	
 preševski	30	
+pribojski		
 pridevski	14	
 prigradski	208	
 prijateljski	4197	
@@ -2641,6 +2798,7 @@ prištinski	807
 prnjavorski		
 problemski	164	
 proceniteljski		
+producentski		
 produkcijski	301	
 profesorki	343	
 profesorski	294	
@@ -2651,8 +2809,10 @@ projektantski	187
 prokupački	46	
 prokurdski		
 proleterski	89	
+prometejski		
 pronalazački	28	
 pronemački		
+propagandistički		
 propagatorski		M
 propovednički		M
 proračunski	81	
@@ -2697,6 +2857,7 @@ pudarski		M
 puhovski		
 puki	1210	
 pukovnički	14	
+pukovski		
 pulski	55	
 purgerski		
 puristički		
@@ -2706,6 +2867,7 @@ pustinjski	331
 putnički	1755	
 pučanki		
 pučinski		
+pučistički		
 pučki	55	
 pušački	132	
 puškarski		
@@ -2723,6 +2885,7 @@ radiofonski		M
 radiološki	125	
 radionički	47	
 radnički	10915	
+rajnski		
 rajski	317	
 raki		
 rakijski	34	
@@ -2771,6 +2934,7 @@ redovski
 reflektorski		
 reformski	914	
 refrenski		
+regentski		
 registarski	282	
 regrutski		M
 regulatorski		
@@ -2792,6 +2956,7 @@ restoranski	78
 retki	4478	
 retorički	275	
 retorski		M
+reumatski		
 revanšistički		
 revizorski	219	
 revolucionarski		M
@@ -2881,6 +3046,7 @@ samarićanski		M
 samački	117	
 samoglasnički		M
 samostanski	10	
+samotnički		
 samotnjački	19	
 samoubilački	322	
 samouki	264	
@@ -2902,20 +3068,24 @@ saradnički	113
 sarajevski	1455	
 sardinski		
 sardski		
+saski		
 satanistički	71	
 satanski	105	
 satelitski	826	
 satenski	52	
 satirički	34	
+satirski		
 saudijski	261	
 saučesnički		M
 savetnički	36	
 savetski		
 saveznički	227	
+savojski		
 savski	1579	
 scenski	1396	
 sebarski		
 sebičnjački		M
+secesionistički		
 sedeljki	38	
 sedećki		
 sedlarski		
@@ -2924,6 +3094,7 @@ sefardski	19
 segedinski		
 seizmički	121	
 seizmografski		
+sejšelski		
 seki	88	
 seksistički	59	
 sektaški	119	
@@ -2949,8 +3120,10 @@ senzorski	85
 senćanski	72	
 seoski	2342	
 separatistički	360	
+septembarski		
 septički	17	
 serijski	2506	
+serološki		
 serumski	34	
 sestrinski	102	
 seulski		
@@ -2973,7 +3146,9 @@ siledžijski	97
 silicijumski		
 silikonski	284	
 simbiotski	25	
+simbolistički		
 simbolički	1779	
+simentalski		
 simfonijski	535	
 simki		
 simplicistički		
@@ -2984,6 +3159,7 @@ sindikatski
 sinemaskopski		
 singapurski	75	
 sinodski	14	
+sinonimski		
 sinoptički	11	
 sinovski	21	
 sintaksički	79	
@@ -3000,6 +3176,7 @@ sirtaki
 sistematski	5123	
 sistemski	3868	
 sistolički	14	
+sitničarski		
 sitnooki		
 sjenički	135	
 sjevernokorejski		J
@@ -3039,6 +3216,7 @@ slavonski	178
 slavski	1550	
 sledbenički		
 slepački	19	
+sletski		
 slikarki	130	
 slikarski	609	
 slobodanki		
@@ -3058,17 +3236,21 @@ smoki	241
 smrtnički		M
 smučarski	155	
 snajperski	60	
+snimateljski		
 snobovski	65	
+socijaldemokratski		
 socijalistički	1073	
 sociološki	671	
 sociopatski	10	
 sofijski	100	
 sofistički	28	
 softverski	2066	
+sokački		
 soki		
 sokolski	279	
 sokratski		
 solistički	385	
+solomonski		
 solunski	503	
 somalijski	58	
 somborski	784	
@@ -3087,6 +3269,7 @@ spasiteljski	12
 specijalistički	831	
 spektarski		
 spikerski	14	
+spiritistički		
 spisateljski	123	
 splavarski		
 splavski		
@@ -3105,6 +3288,7 @@ srbijanki
 srbijanski	1096	
 srbski		
 srebrenički	293	
+srednjoevropski		
 srednjoškolki	69	
 srednjoškolski	317	
 sremački	115	
@@ -3118,8 +3302,10 @@ srpskohrvatski		M
 srpskoslovenski		M
 stadionski	30	
 stajski	16	
+staklarski		
 staklenki		
 staleški	53	
+staljinistički		
 staljinski		
 stambolski		
 stamenki		
@@ -3143,6 +3329,7 @@ starovremski		M
 statistički	4679	
 statički	530	
 stavki	2387	
+stearinski		
 stenografski	25	
 stentorski		
 stepski	449	
@@ -3185,14 +3372,18 @@ subotički	1789
 sudanski	48	
 sudarski		
 sudbinski	631	
+sudetski		
 sudijski	690	
 sudski	7920	
 suecki		
 suglasnički		
 sultanski	24	
 sumerski	36	
+sunitski		
 suparnički	76	
+superteški		
 supružanski		
+suptropski		
 suradnički		
 surferski	14	
 surogatski		
@@ -3202,6 +3393,7 @@ susetki
 suterenski		
 sutonski		
 suverenski		
+suvozački		
 suzuki	268	
 suštinski	11711	
 svadbarski	124	
@@ -3213,6 +3405,7 @@ svađalački	82
 sveamerički		
 svekoliki	114	
 svemirski		M
+svesrpski		
 svesvetski		M
 svetački	88	
 svetiljki	655	
@@ -3241,6 +3434,7 @@ tajvanski	207
 takmičarki	676	
 takmičarski	2778	
 taktički	1175	
+talački		
 talevski		
 talibanski	127	
 talijanski	508	
@@ -3264,6 +3458,7 @@ tautološki	21
 tavanski	121	
 tački	5106	
 teatarski	218	
+teheranski		
 tehničarski		M
 tehnički	15211	
 tehnološki	8258	
@@ -3292,6 +3487,7 @@ teokratski	24
 teološki	421	
 teoretski	2980	
 teorijski	3985	
+teozofski		
 terapeutski	310	
 terapijski	928	
 terazijski		M
@@ -3337,6 +3533,7 @@ toki	40
 tokijski	88	
 toksikološki	64	
 toliki	2636	
+tomistički		
 tonički		
 tonski	440	
 topalski		
@@ -3357,6 +3554,7 @@ trafikantski		M
 tragalački	20	
 tragački		M
 tragički		M
+trakijski		
 traktorski	51	
 tramvajski	161	
 transilvanijski		
@@ -3365,6 +3563,7 @@ traumatski	74
 travarski		M
 travnički	21	
 tračerski	14	
+trački		
 trebinjski	120	
 trenerki	81	
 trenerski	513	
@@ -3399,6 +3598,7 @@ trudnički	132
 trunki		
 tršćanski	60	
 tucanički		
+tumorski		
 tunelski	34	
 tuniski	56	
 turistički	6198	
@@ -3429,10 +3629,12 @@ ugarski	663
 ugljenički		M
 ugnjetački		M
 ugostiteljski	1116	
+ugovarački		
 ukrajinki		
 ukrajinski	1672	
 ulagački	17	
 ulagivački	10	
+ulanski		
 ulcinjski	30	
 ulizički	27	
 uličarki		
@@ -3443,6 +3645,7 @@ unionistički
 unitaristički	30	
 univerzitetski	2187	
 unkovski		
+unutrašnjopolitički		
 upraviteljski		M
 upravljački	775	
 upravnički		M
@@ -3475,10 +3678,13 @@ uvoznički	294
 uzbečki	11	
 uzurpatorski	19	
 učenički	741	
+učenjački		
 učiteljski	497	
 užički	892	
 vagonski		
 vajarski	85	
+vakufski		
+vakuumski		
 valjevki		
 valjevski	1237	
 valonski	26	
@@ -3486,6 +3692,7 @@ vampirski	144
 vanblokovski		
 vanbrodski	57	
 vandalski	224	
+vanevropski		
 vanserijski	318	
 vansudski	76	
 vanvremenski	176	
@@ -3501,16 +3708,19 @@ varšavski	241
 vaseljenski	649	
 vasionski	130	
 vaskoliki	59	
+vaspitački		
 vatikanski	322	
 vaučerski		
 vavilonski	167	
 vazalski	45	
+vazelinski		
 vašarski	130	
 vašingtonski	300	
 vaški	44	
 veganski	28	
 vegetarijanski	164	
 vektorski	154	
+velebitski		
 velegradski	36	
 veleposednički		
 veleški		
@@ -3525,10 +3735,12 @@ ventilacijski	12
 ventilski	12	
 verenički	231	
 vernički		
+verozakonski		
 versajski	83	
 versifikatorski		M
 verski	4253	
 veslački	274	
+veteranski		
 veterinarski	954	
 vetrobranski		
 vezirski		M
@@ -3546,6 +3758,7 @@ vilinski	80
 viljuški	30	
 vilovski		
 vinarski	85	
+vinkovački		
 vinogradarski	133	
 vinogradski	26	
 vinski	1294	
@@ -3582,8 +3795,11 @@ voajerski	49
 vodeničarski		M
 vodenički	34	
 voditeljki	279	
+voditeljski		
+vodnički		
 vodoinstalaterski	12	
 vodonički		
+vodviljski		
 vojki		
 vojnički	1108	
 vojnoistorijski		
@@ -3624,8 +3840,8 @@ vulkanski	177
 vunarski		
 vučitrnski		
 vučki		
+zabavljački		
 zabeleški	96	
-zabilješki		J
 zabušantski		M
 zadarski	114	
 zadrugarski		M
@@ -3652,6 +3868,7 @@ zanesenjački
 zapadnjački	297	
 zapadnoevropski	198	
 zapadnonemački	23	
+zapaljenski		
 zapisnički	92	
 zapovednički	58	
 zapreminski	96	
@@ -3659,6 +3876,7 @@ zarobljenički	44
 zaručnički		
 zastavnički		
 zastupnički	53	
+zatonski		
 zatočenički		
 zatvorenički	25	
 zatvorski	445	
@@ -3667,10 +3885,12 @@ zaverenički	65
 zavetnički		M
 zavodnički	106	
 zavodski		
+začinski		
 zaštitnički	321	
 zbiljski	38	
 zbirki	1910	
 zdravorazumski	252	
+zelenaški		
 zemaljski	1248	
 zemički		
 zemljački		M
@@ -3682,6 +3902,7 @@ zetski	153
 zidarski	116	
 zimski	3311	
 zlatarski	106	
+zlatiborski		
 zlikovački	50	
 zlobnički		
 zloguki		
@@ -3767,6 +3988,7 @@ zvrki
 čitanki	116	
 čitaonički		
 čitateljki	155	
+čitlučki		
 čivutski		M
 čizmarski		
 čičovački		
@@ -3784,6 +4006,7 @@ zvrki
 đakonski	52	
 đakovački	24	
 đakovički		
+đaurski		
 đavolski		M
 đački	640	
 đeneralski		
@@ -3801,6 +4024,8 @@ zvrki
 šajkaški		M
 šajki	39	
 šakački		
+šalterski		
+šampanjski		
 šampionki	113	
 šampionski	730	
 šangajski	159	
@@ -3821,6 +4046,7 @@ zvrki
 šengenski	259	
 šeretski	236	
 šerijatski	148	
+šestokraki		
 šeširdžijski		M
 šibenički		
 šibenski	38	
@@ -3839,6 +4065,7 @@ zvrki
 školski	7250	
 škotski	683	
 šleski		
+šljivarski		
 šloserski		M
 šmekerski		
 šminkerski	42	
@@ -3848,6 +4075,8 @@ zvrki
 šoferski		M
 šokački	30	
 šoklovački		
+šopski		
+šovenski		
 šovinistički	171	
 španjolski	93	
 španski	5767	
@@ -3919,6 +4148,7 @@ zvrki
 žonglerski		
 županijski	219	
 županski	26	
+župljanski		
 župnički		
 župski	71	
 žurki	994	
@@ -3948,5 +4178,6 @@ svjetiljki
 svjetski		
 umjetnički		
 vjerski		M
+zabilješki		J
 zamjerki		
 zvjerski		

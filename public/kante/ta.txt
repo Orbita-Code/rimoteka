@@ -1,4 +1,4 @@
-2670
+2678
 Budimpešta		
 Bukurešta		
 Cveta	4675	
@@ -438,6 +438,7 @@ efta
 egipta		
 egoista	161	
 egzibicionista	106	
+egzistencijalista		
 egzita		
 egzorcista	52	
 ekologista		
@@ -492,6 +493,7 @@ etiketa	1559
 etniciteta	213	
 eufrata		
 evangelista	82	
+evanđelista		
 evita		
 fabrikanta		
 fajita		
@@ -854,6 +856,7 @@ kitnjasta	38
 kišovita	41	
 kjota		
 klarineta	162	
+klasicista		
 klavijaturista	281	
 klavirista	49	
 klementa		
@@ -1293,6 +1296,7 @@ nedžata
 negromanta		
 nehata	445	
 nehrvata	14	
+neisplata		
 neistinita	283	
 neizdata		
 neizrazita		
@@ -1922,6 +1926,7 @@ reprinta	36
 resita		
 respekta		M
 restarta	300	
+retorta		
 revanšista		
 revolta	427	
 rezervata	1195	
@@ -2035,6 +2040,7 @@ shvata	6753
 sidrišta	91	
 siesta	30	
 sijaseta	10	
+sijesta		M
 silikata	55	
 silovita	80	
 silueta	459	
@@ -2280,6 +2286,7 @@ tlocrta	16
 toaleta	1659	
 tojota	924	
 tokata		
+tomista		
 tonaliteta	89	
 toplota	1989	
 topota	13	
@@ -2364,6 +2371,7 @@ uplata	3157
 uporišta	1187	
 upoznata	1246	
 upregnuta	54	
+uputa	634	
 upušta	897	
 urasta	44	
 uračunata	406	
@@ -2695,7 +2703,6 @@ premješta
 prenijeta	31	
 procvjeta		
 savjeta		
-sijesta		M
 sjedišta		
 smjesta	115	
 smješta		

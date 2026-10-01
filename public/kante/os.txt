@@ -1,4 +1,4 @@
-113
+116
 Hristos		
 abonos		M
 adios		
@@ -43,6 +43,8 @@ komandos	39
 kos	331	
 kosmos	2416	
 kozmos	25	
+kratkokos		
+krivonos		
 kronos		
 kros	1097	
 kustos	1483	
@@ -109,6 +111,7 @@ uprkos	40845
 uprokos		
 venizelos		
 zanos	777	
+zlatokos		
 ćaos		
 štos	703	
 žutokos		

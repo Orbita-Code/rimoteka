@@ -1,4 +1,4 @@
-2928
+3013
 abnormalnost	66	
 adekvatnost		
 aerodinamičnost		
@@ -42,6 +42,7 @@ antikrist
 antipatičnost		
 aorist	64	
 apatičnost		M
+apodiktičnost		
 apolitičnost		
 apriornost		
 apsolutnost	42	
@@ -196,6 +197,7 @@ bokorast		M
 bolest	23100	
 bolećivost	49	
 bolešljivost		M
+bombast		
 bombastičnost		
 borbenost	908	
 bornost		
@@ -207,6 +209,7 @@ brašnast
 brbljavost		
 brbljivost	19	
 brdovitost		
+bregast		
 bremenitost		
 breskvast		M
 brest	315	
@@ -286,6 +289,7 @@ devetnaest	892
 dežmekast		M
 didaktičnost		
 diferenciranost	23	
+difuznost		
 dinamičnost	432	
 dinast		
 direktnost	68	
@@ -339,6 +343,7 @@ dražesnost
 dražest		
 dremljivost		M
 drevnost	72	
+drečavost		
 drskost	811	
 drugost	128	
 društvenost		
@@ -402,6 +407,7 @@ elastičnost	1448
 elegičnost		
 električnost		
 elementarnost		
+elipsast		
 eliptičnost		
 elitnost		
 elokventnost	45	
@@ -427,6 +433,7 @@ evanđelist	132
 eventualnost		
 everest		
 evidentnost		
+fakultativnost		
 familijarnost	43	
 fanatičnost		
 fantastičnost		
@@ -444,6 +451,7 @@ filmičnost
 finalist	11	
 flagrantnost		
 fleksibilnost	3752	
+fluidnost		
 fobičnost		
 folklorist	17	
 formalnost	610	
@@ -457,6 +465,8 @@ gadljivost	48
 gadost	156	
 ganutljivost		M
 ganutost	15	
+garavost		
+gaćast		
 genijalnost	492	
 germanist		
 gest	3563	
@@ -485,8 +495,10 @@ gojaznost	2332
 golemost		
 golicavost		
 golišavost		
+golobradast		
 golobradost		
 golubast		M
+gomilast		
 gordost	804	
 gorivost		
 gorkost		
@@ -495,6 +507,7 @@ goropadnost
 gospodstvenost		M
 gost	12017	
 gostoljubivost	291	
+gostoprimljivost		
 gotovost	220	
 govorljivost	14	
 grabežljivost	19	
@@ -558,6 +571,7 @@ humanost	1744
 humornost		
 hvalisavost	29	
 idealist	39	
+idejnost		
 identičnost	119	
 idiličnost		
 iglast		M
@@ -600,6 +614,7 @@ iscrpljenost	514
 iscrpnost	24	
 iskidanost		
 isključivost	449	
+iskonstruisanost		
 iskorišćenost	626	
 iskrenost	2480	
 iskrivljenost	37	
@@ -613,6 +628,7 @@ ispraznost	115
 ispražnjenost	25	
 isprekidanost		
 isprepletanost		
+ispucalost		
 ispunjenost	577	
 ispust	144	
 ist		
@@ -627,9 +643,11 @@ istovremenost	54
 istrajnost	1148	
 istrošenost	89	
 isušenost		
+iverast		
 izabranost		
 izbezumljenost		
 izbirljivost		
+izbornost		
 izdašnost	148	
 izdržljivost	2044	
 izdvojenost	61	
@@ -667,6 +685,8 @@ izvornost	107
 izvrsnost	467	
 izvršnost	32	
 iščašenost		M
+jabučast		
+jagodast		
 jajast	15	
 jakost	50	
 jalovost	114	
@@ -714,6 +734,7 @@ kašast	16
 kažiprst	560	
 kažnjivost	30	
 kestenast		M
+kestenjast		
 kilavost		
 kiselkast	85	
 kiselost	606	
@@ -730,6 +751,7 @@ klimavost
 klinast	12	
 klizavost	11	
 kljast		
+kljunast		
 klonulost	45	
 klupčast		M
 knjiženost		
@@ -761,6 +783,7 @@ konformist
 konfuznost		M
 konkretnost	98	
 konkurentnost	3619	
+konspirativnost		
 konstantnost		
 konstruktivnost		
 kontekst	5798	
@@ -786,6 +809,7 @@ korumpiranost	228
 kosmatost		M
 kost	2761	
 koturast		
+kovrdžast		
 kovrčast		
 kočopernost		M
 koštunjavost		
@@ -816,6 +840,7 @@ krošnjast
 krst	11345	
 krstast		M
 krtost	22	
+krunast		
 krutost	291	
 kruškast		
 krvoločnost		
@@ -860,6 +885,7 @@ lenost	41
 lepezast	17	
 lepljivost	48	
 lepršavost	72	
+leptirast		
 lepuškast	27	
 letimičnost		
 leukoplast		
@@ -879,6 +905,7 @@ list	28251
 listast		M
 ličnost	15210	
 lišenost	31	
+ljigavost		
 ljubaznost	1040	
 ljubičast	48	
 ljubopitljivost	49	
@@ -895,12 +922,16 @@ lokalnost	16
 lomljivost	25	
 lomnost		M
 lopatast		M
+loptast		
+lozast		
 lucidnost	210	
 luckast	44	
 ludost	1067	
 lukavost	151	
 luksuznost		
 magičnost	40	
+maglast		
+magličast		
 maglovitost		
 mahnitost	26	
 mahunast		
@@ -925,9 +956,11 @@ masovnost	453
 mast	2393	
 materijalnost		M
 mazohist		
+mačkast		
 mašinist		
 maštovitost	429	
 mehurast		
+mekost		
 mekušast		
 melodičnost	46	
 mentalist		
@@ -1091,6 +1124,7 @@ nedorečenost
 nedoslednost	503	
 nedostižnost	13	
 nedostojnost	66	
+nedostupnost		
 nedozrelost	17	
 nedruželjubivost		
 neduhovitost		
@@ -1470,6 +1504,7 @@ okrutnost	234
 okupiranost		
 omamljenost	26	
 omekšanost		
+ometenost		
 omiljenost	38	
 omraženost		
 opakost	21	
@@ -1501,6 +1536,7 @@ opuštenost	483
 opčinjenost		
 opširnost	33	
 opštost	136	
+orašast		
 organist		
 organizovanost	365	
 originalnost	1233	
@@ -1563,6 +1599,7 @@ pakost	401
 palimpsest	26	
 pamfletist		
 paperjast		
+papist		
 paralelnost		
 paralizovanost		
 parlamentarnost		
@@ -1591,10 +1628,12 @@ pijanost
 piktijast		M
 pipavost		
 pismenost	1678	
+pitkost		
 pitomost	38	
 plahovitost		
 plamenost		
 plast	175	
+plastičnost		
 platinast		
 plavičast	43	
 plavkast	12	
@@ -1616,7 +1655,9 @@ podatnost	14
 podcast		
 podeljenost	403	
 podesnost		
+podest		
 podivljalost		
+podjarmljenost		
 podkast		
 podlost	170	
 podložnost	168	
@@ -1662,6 +1703,7 @@ polnost	55
 polovičnost	18	
 poltergajst		
 poltergeist		
+polusvest		
 polučvrst		
 pomahnitalost		M
 pomast	10	
@@ -1716,6 +1758,7 @@ potuljenost		M
 potčinjenost	206	
 pouzdanost	3723	
 poučljivost		
+poučnost		
 poverljivost	495	
 povest	1104	
 povezanost	5073	
@@ -1726,10 +1769,12 @@ povremenost
 povređenost		
 površnost	533	
 povučenost	83	
+pozitivist		
 pozitivnost	157	
 poznatost		
 pozornost	548	
 počast	2435	
+počest		
 pošast	566	
 poželjnost	69	
 požrtvovanost	428	
@@ -1744,6 +1789,7 @@ pravovaljanost	14
 pravovernost		
 pravovremenost	69	
 praznost		
+prašinast		
 praškast		
 preciznost	2770	
 predanost	877	
@@ -1755,6 +1801,7 @@ predtekst	20
 predusretljivost	151	
 preduzetnost		
 preduzimljivost	168	
+predvidivost		
 predvidljivost	210	
 prefinjenost	228	
 prefriganost		M
@@ -1801,6 +1848,7 @@ prezaposlenost
 prezasićenost	64	
 prezauzetost	29	
 prezrelost		
+prečest		
 prečist		
 preživelost		
 prgavost		
@@ -1822,10 +1870,12 @@ priličnost
 prilježnost		
 primamljivost	42	
 primarnost	23	
+primenjivost		
 primenljivost		
 primerenost		
 primernost		M
 primitivnost	54	
+prinadležnost		
 principijelnost	280	
 pripadnost	4444	
 pripovest	375	
@@ -1893,6 +1943,7 @@ prosečnost	127
 prost	2059	
 prostodušnost	38	
 prostornost	61	
+prostranost		
 prosutost		
 prosvećenost	216	
 protegljast		M
@@ -1927,6 +1978,8 @@ pufnast
 punokrvnost		
 punoletnost	13	
 punovažnost	159	
+pupčast		
+purist		
 pust	470	
 pustopašnost		
 pustošnost		M
@@ -2011,6 +2064,7 @@ raznobojnost	10
 raznolikost	1923	
 raznorodnost	53	
 raznovrsnost	2241	
+razornost		
 razočaranost	165	
 razrađenost		
 razređenost	14	
@@ -2074,6 +2128,7 @@ rodnost	188
 rodoljubivost		M
 rogljast		
 romantičnost		
+rozikast		
 ročnost	131	
 rođenost		
 rošavost		
@@ -2098,6 +2153,7 @@ sabornost	383
 sabranost	80	
 sadašnjost	2925	
 sadist		
+sadržajnost		
 saglasnost	15151	
 sakatost		
 sakralnost		
@@ -2184,10 +2240,12 @@ slaboumnost
 slabunjavost		M
 sladostrasnost		M
 sladunjavost	14	
+slankast		
 slanost	13	
 slast	783	
 slatkast	108	
 slatkorečivost	51	
+slatkost		
 slavist	16	
 slavodobitnost		
 slavoljubivost		M
@@ -2209,11 +2267,13 @@ smenjivost	62
 smernost	181	
 smetenost	23	
 smećkast		
+smeđast		
 smežuranost		
 smirenost	772	
 smisaonost		
 smislenost	114	
 smišljenost		M
+smolast		
 smotrenost		M
 smrtnost	1443	
 smućenost		
@@ -2238,6 +2298,7 @@ spaljenost
 specifičnost	2574	
 specijalist	58	
 specijalnost	1044	
+spiritualnost		
 spljoštenost		
 spojenost		M
 spojivost	15	
@@ -2297,6 +2358,7 @@ strogost	408
 strojnost		
 strpljivost	287	
 stručnost	3886	
+stubast		
 studioznost		
 stupast		
 stvarnost	11294	
@@ -2338,6 +2400,7 @@ suvost
 suzdržanost	155	
 suzdržljivost		
 sušičavost		
+sušnost		
 suštastvenost		
 suženost		
 svadljivost	18	
@@ -2358,6 +2421,7 @@ svezanost
 svećanost		
 svečanost	3547	
 svilast		
+svilenkast		
 svirepost	113	
 svojeglavost	21	
 svojevoljnost		
@@ -2395,6 +2459,7 @@ teskobnost
 test	20234	
 testerast		M
 tečnost	4391	
+tigrast		
 tihost		
 tikvast		
 tipičnost	16	
@@ -2414,6 +2479,7 @@ traljavost
 transcendentnost		
 transparentnost	3369	
 trapavost		M
+trapezast		
 trapist	92	
 traženost		
 trbušast	11	
@@ -2430,6 +2496,7 @@ trolist	19
 tromost	182	
 tronutost		M
 trostrukost		
+trouglast		
 troznamenkast		
 trošnost	21	
 trpeljivost	159	
@@ -2537,6 +2604,7 @@ uračunljivost	63
 urednost	255	
 uređenost	245	
 urgentnost	55	
+uronjenost		
 urođenost	13	
 usaglašenost		
 usamljenost	896	
@@ -2569,6 +2637,7 @@ utišanost		M
 utrnulost	156	
 utučenost	46	
 utvrđenost		
+uvaženost		
 uvenulost		
 uverenost	204	
 uverljivost	263	
@@ -2634,6 +2703,7 @@ vest	27504
 vetrenjast		M
 vetropirast		M
 vezanost	717	
+vezist		
 večitost		M
 večnost	2119	
 vickast		M
@@ -2658,6 +2728,7 @@ vičnost		M
 višestrukost		
 višeznačnost		
 vižlast		M
+vižljast		
 vlaknast	21	
 vlasnost	10	
 vlast	91067	
@@ -2688,6 +2759,7 @@ zabezeknutost		M
 zaboravljivost		
 zaboravnost	182	
 zabrinutost	6345	
+zadatost		
 zadihanost		
 zadivljenost		
 zadovoljenost		
@@ -2711,6 +2783,7 @@ zakošenost
 zakrivljenost	190	
 zakrčenost		
 zakržljalost	10	
+zakučast		
 zaljubljenost	735	
 zaludnost		M
 zaluđenost	53	
@@ -2764,6 +2837,7 @@ zatrovanost
 zatrpanost		
 zatubast		M
 zatucanost		M
+zatupast		
 zatupljenost		
 zatvorenost	340	
 zauzetost	176	
@@ -2779,6 +2853,7 @@ završenost
 zazornost		
 začaranost		
 začepljenost		
+začudnost		
 začuđenost	62	
 zaštićenost		
 zažarenost		M
@@ -2788,6 +2863,7 @@ zbunjenost	642
 zdepast	62	
 združenost		
 zelenkast	33	
+zeljast		
 zemljanost		
 zemljast		
 zgađenost		M
@@ -2796,6 +2872,7 @@ zgrbljenost
 zgrušanost		
 zgrčenost		
 zgusnutost	26	
+zlatast		
 zlatoust	109	
 zlodušnost		
 zlonamernost		
@@ -2820,12 +2897,16 @@ zubatost
 zupčast		
 zvaničnost		M
 zvezdast		
+zvonast		
 zvonkost		
 zvučnost	57	
 ćelavost	148	
 ćopavost		M
 ćoravost		
+ćoškast		
+ćubast		
 ćudljivost	41	
+ćurkast		
 ćutljivost		M
 čarapast		M
 čarobnost		
@@ -2868,6 +2949,7 @@ zvučnost	57
 čupavost		
 čupkast		
 čuvarnost		M
+čuvenost		
 čvrst	3232	
 đavolast		
 šahist	12	
@@ -2880,6 +2962,7 @@ zvučnost	57
 šeprtljavost		
 šesnaest	2244	
 šest	84733	
+šestoprst		
 šiljast	17	
 širokogrudost		
 šištavost		
@@ -2892,6 +2975,7 @@ zvučnost	57
 šlampavost		
 šokantnost	12	
 šokiranost	22	
+špicast		
 štapićast		
 štedljivost	161	
 štetnost	686	
@@ -2926,13 +3010,16 @@ zvučnost	57
 žurnalist		
 žurnost		M
 žućkast	75	
+žučljivost		
 žučnost		M
 bezbjednost		
 bijednost		
+bjelokost		
 djelatnost		
 djetinjast		
 ispovijest	70	
 istovjetnost		
+nedosljednost		
 neizvjesnost		
 nesvijest	56	
 nesvjest		

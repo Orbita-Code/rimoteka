@@ -1,4 +1,4 @@
-47
+50
 blud	446	
 bud		M
 dud	326	
@@ -43,6 +43,9 @@ uskogrud		M
 usud	701	
 uzalud	5663	
 zalud	472	
+zlehud		
+zlohud		
+zloćud		
 ćud	517	
 širokogrud		M
 želud		

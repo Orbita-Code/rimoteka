@@ -1,4 +1,4 @@
-6771
+6772
 Budimpešte		
 Bukurešte		
 Cvete		
@@ -92,7 +92,6 @@ atlante
 atlete	105	
 atribute	1119	
 aute	328	
-autoceste	124	
 autokrate		
 automate	192	
 autoritete	381	
@@ -732,6 +731,7 @@ gasovite	80
 gate		
 gazete	110	
 gazite	191	
+gazište		
 gaćaste		
 gađajte	25	
 gađate	96	
@@ -1319,6 +1319,7 @@ iščupate	42
 jadovite		
 jahalište		
 jahte	1261	
+jalovište		
 jamčite		
 jauknućete		
 javiste		
@@ -4706,6 +4707,7 @@ rvite
 saberete	272	
 saberite	261	
 sabirajte	35	
+sabiralište		
 sabirate	49	
 sablaznite		
 saborište		M
@@ -5997,7 +5999,6 @@ uštedećete	184
 uštedite	971	
 uštinite	19	
 ušunjate		
-ušutite		
 užasavate	12	
 užasnute	18	
 uželite	30	
@@ -6028,7 +6029,6 @@ varirate
 varite	37	
 vaspitalište		M
 vate	330	
-vaterpoliste	412	
 vatrište	13	
 vatromete	84	
 vazdušaste	41	
@@ -6556,6 +6556,7 @@ zgusnute	45
 zidajte	19	
 zidate	66	
 zimovalište		
+zimovište		
 zinite		
 zlataste	29	
 zlate	30	

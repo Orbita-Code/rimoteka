@@ -1,4 +1,4 @@
-250
+254
 abiturijent		
 abonent		M
 absint		
@@ -161,6 +161,8 @@ mastodont	30
 maturant	452	
 medikament	162	
 menadžment	14852	
+migrant		
+militant		
 ministrant	20	
 mint	269	
 moment	1926	
@@ -198,6 +200,7 @@ procent	90
 producent	3736	
 projektant	1027	
 protestant	139	
+reaktant		
 recenzent	641	
 recipijent		M
 referent	805	
@@ -206,6 +209,7 @@ rekonvalescent	17
 rembrant		
 remitent	22	
 remont	2378	
+reprezent		
 reprint	224	
 rezident	361	
 sakrament	45	

@@ -1,4 +1,4 @@
-3387
+3388
 Angolo		
 Oslo		
 adaptiralo	27	
@@ -1845,6 +1845,7 @@ preterivalo	41
 prethodilo	1027	
 preticalo		
 pretilo	480	
+pretkolo		
 pretopilo	11	
 pretoplo	111	
 pretpostavljalo	594	

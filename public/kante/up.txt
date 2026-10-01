@@ -1,4 +1,4 @@
-38
+40
 arhibiskup		M
 biskup	1658	
 ejup		
@@ -27,11 +27,13 @@ prestup		M
 priglup	79	
 pristup	52300	
 prokup		
+prvokup		
 sirup	1836	
 skorup	29	
 skup	24574	
 stup	276	
 sup	637	
+superkup		
 trup	669	
 tup	443	
 ustup		

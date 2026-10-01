@@ -1,4 +1,4 @@
-1430
+1435
 abortiraš		
 aferaš		
 aktiviraš	84	
@@ -25,6 +25,7 @@ baziraš	19
 baš	184103	
 bejzbolaš		
 bektaš		
+bezemljaš		
 biraš	913	
 birtaš		
 bivaš	27	
@@ -137,6 +138,7 @@ filozofiraš	53
 finansiraš	43	
 fokusiraš	65	
 foliraš	55	
+folkloraš		
 formatiraš	70	
 formiraš	46	
 forsiraš	58	
@@ -306,6 +308,7 @@ jurcaš	30
 kajakaš	116	
 kaljaš		
 kapiraš	396	
+kaputaš		
 karakaš		
 karataš	68	
 karaš	317	
@@ -374,6 +377,7 @@ lansiraš	14
 laparaš		
 laprdaš	15	
 laskaš	10	
+latinaš		
 laćaš		
 lažiraš		
 licitiraš	15	
@@ -764,6 +768,7 @@ poznaš	97
 pozobaš		
 počivaš	13	
 počupaš		
+pravaš		
 pravdaš	101	
 praštaš	23	
 prebijaš		

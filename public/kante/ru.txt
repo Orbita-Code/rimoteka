@@ -1,4 +1,4 @@
-1274
+1273
 Jupiteru		
 Kairu		
 Peru	2474	
@@ -651,7 +651,6 @@ nemiru	110
 neseseru		
 nesrazmeru	49	
 neveru	95	
-nevjeru	34	J
 nigeru		
 nikanoru		
 nikiforu		
@@ -1278,6 +1277,7 @@ ljekaru
 mjehuru		
 mjeru		
 namjeru		
+nevjeru	34	J
 pjeru		
 potjeru		
 prijevaru		

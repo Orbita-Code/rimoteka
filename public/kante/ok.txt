@@ -1,4 +1,4 @@
-100
+106
 Bangkok		
 amok		
 bajbok		M
@@ -32,6 +32,7 @@ jok	2065
 jugoistok	604	
 kazačok		M
 kok		
+kosook		
 kružok	137	
 krvolok	64	
 krvotok	1302	
@@ -79,6 +80,8 @@ severoistok	203
 skok	5723	
 sok	6180	
 srok	10	
+stafilokok		
+streptokok		
 svedok	7855	
 timok		
 tok	16262	
@@ -94,8 +97,11 @@ vok
 vostok		
 vrljook		
 vudstok		
+zaseok		
 zaskok		
+zelenook		
 širok	9988	
+šlafrok		
 šok	4103	
 štok		
 žestok	1204	

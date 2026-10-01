@@ -1,4 +1,4 @@
-284
+287
 ablaut		
 adut	2521	
 akut		
@@ -119,6 +119,7 @@ odgurnut	46
 odjedanput		M
 odjenut		J
 odmaknut	33	
+odmetnut		
 ogrnut	138	
 okrenut	2369	
 okrznut	11	
@@ -268,8 +269,10 @@ zaogrnut	35
 zaposednut	41	
 zasut	115	
 zategnut		M
+zavinut		
 zavrnut	26	
 zbrinut	298	
+zeznut		
 zgranut	147	
 zgusnut	103	
 zlatnožut		

@@ -1,4 +1,4 @@
-1502
+1509
 Moskvo		
 Pančevo		
 Sarajevo		
@@ -50,6 +50,7 @@ bezglavo	287
 bibliotekarstvo	287	
 bigovo		
 bikovo	12	
+biogorivo		
 biserovo		
 biskupovo		
 biskupstvo		
@@ -1015,6 +1016,7 @@ rakićevo
 ranjavo		
 ranjivo	147	
 rasipništvo	218	
+raspikućstvo		
 raspoloživo	273	
 raspusništvo		M
 rastegljivo	52	
@@ -1217,6 +1219,7 @@ tetovo
 teturavo	11	
 tigrovo	28	
 tikvo		
+tiranstvo		
 titovo		
 tkivo	4327	
 todovićevo		
@@ -1278,6 +1281,7 @@ uputstvo	7018
 uredništvo	1094	
 urokljivo	17	
 uroševo		
+usamljeništvo		
 uspavljivo		
 ustaštvo	140	
 ustrojstvo	991	
@@ -1296,6 +1300,7 @@ užarstvo
 uživo	8771	
 vajarstvo	264	
 valentinovo		
+vandalstvo		
 varivo	126	
 varljivo	255	
 varvarstvo	256	
@@ -1323,6 +1328,7 @@ viteštvo	210
 vizionarstvo		
 vladičanstvo		M
 vlasništvo	10093	
+vlastelinstvo		
 vlasteostvo		
 vlastoljubivo		
 vo		M
@@ -1376,6 +1382,7 @@ zapovjedništvo		J
 zapravo	73648	
 zarobljeništvo	201	
 zastupništvo	201	
+zastupstvo		
 zatočeništvo	103	
 zavarljivo		
 zavidljivo		M

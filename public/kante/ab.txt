@@ -1,4 +1,4 @@
-14
+16
 astrolab		
 baobab	54	
 generalštab	373	
@@ -6,10 +6,12 @@ grab	164
 kebab	112	
 korab		
 lab		
+pab		
 pandžab		
 preslab	177	
 rab		M
 slab	5396	
 svrab	1696	
 zurab		
+ćitab		
 štab	4636	

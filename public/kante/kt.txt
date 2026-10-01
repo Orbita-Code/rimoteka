@@ -1,4 +1,4 @@
-48
+49
 afekt	41	
 akt	9213	
 akvadukt	74	
@@ -30,6 +30,7 @@ konstrukt	274
 kontakt	22910	
 kontrakt	30	
 kontrapunkt	194	
+konvikt		
 nusprodukt	152	
 objekt	1409	
 pakt	2906	

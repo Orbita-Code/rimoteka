@@ -67,6 +67,7 @@ bijednu
 bijedom
 bijedu
 bijeg
+bijega
 bijegom
 bijel
 bijela
@@ -96,7 +97,6 @@ bijelom
 bijelu
 bijelče
 bijem
-bijen
 bijena
 bijene
 bijeni
@@ -115,7 +115,10 @@ bijesom
 bijesu
 biješe
 biježi
-biserje
+bilježenja
+bilježenje
+bilježnik
+bilježnika
 bjeg
 bjegaju
 bjegović
@@ -133,6 +136,8 @@ bjekstva
 bjekstvo
 bjekstvu
 bjelac
+bjelanjak
+bjelanjaka
 bjelančevina
 bjelasice
 bjelasicom
@@ -153,6 +158,8 @@ bjelkinja
 bjelkinje
 bjelkinju
 bjeloglavi
+bjelokost
+bjelokosti
 bjeloruski
 bjelović
 bjelošević
@@ -397,6 +404,11 @@ djeda
 djede
 djedice
 djedom
+djedov
+djedova
+djedove
+djedovi
+djedovu
 djedu
 djela
 djelatnost
@@ -634,7 +646,6 @@ gnijezdi
 gnijezdo
 gnijezdu
 golijeni
-gorje
 gorjela
 gorjeli
 gorjelo
@@ -704,7 +715,6 @@ htješe
 hvalospjev
 igdje
 ijedna
-ijekavac
 ijekavci
 ijekavica
 ijekavice
@@ -968,7 +978,6 @@ kijeva
 kijevo
 kijevom
 kijevu
-klasje
 klijet
 klijeti
 kliješta
@@ -1587,6 +1596,8 @@ nedjeljnu
 nedjeljom
 nedjelju
 nedjelo
+nedosljednost
+nedosljednosti
 negdje
 neizbježan
 neizbježna
@@ -1695,6 +1706,7 @@ nevjerovatno
 nevjerovatnog
 nevjerovatnom
 nevjerovatnu
+nevjeru
 nevjerujem
 nevjesta
 nevjeste
@@ -1980,7 +1992,6 @@ onesvjestila
 onesvjestio
 onesvjestiti
 opijelo
-opijen
 opjevana
 opredijele
 opredijeli
@@ -3510,7 +3521,6 @@ riješivši
 riješićemo
 riješiću
 riješiš
-rivijera
 rivijere
 rivijeru
 rjesenje
@@ -3563,7 +3573,6 @@ rješimo
 rješio
 rješiti
 rupje
-saglasje
 sagorijeva
 sagorijevanje
 sagorjelo
@@ -3662,7 +3671,6 @@ sijera
 sijere
 sijeri
 sijeru
-sijesta
 sijeste
 sijeva
 sijevaju
@@ -3736,6 +3744,7 @@ sjemenom
 sjen
 sjena
 sjenci
+sjeni
 sjenica
 sjenice
 sjenima
@@ -3863,6 +3872,8 @@ slijeva
 slijeće
 slijećemo
 slijeću
+sljepoočnica
+sljepoočnicu
 slovjenski
 smijeh
 smijeha
@@ -4263,7 +4274,6 @@ svrbjeli
 svugdje
 takodjer
 tijek
-tijeka
 tijeku
 tijela
 tijelima
@@ -5025,6 +5035,11 @@ vučijem
 zabijele
 zabijeli
 zabijelila
+zabilješci
+zabilješka
+zabilješke
+zabilješki
+zabilješku
 zacijele
 zacijeli
 zacijelila
@@ -5033,7 +5048,6 @@ zacjeljuje
 zacjeljuju
 zadrijemala
 zadrijemao
-zagorje
 zagorjele
 zagrmje
 zagrmjeli
@@ -5066,6 +5080,9 @@ zahtjevni
 zahtjevno
 zahtjevom
 zahtjevu
+zakašnjela
+zakašnjele
+zakašnjeti
 zaletjela
 zalijepe
 zalijepi
@@ -5339,8 +5356,3 @@ zvjezdicu
 žlijezde
 žudjela
 žudjeti
-djedov
-djedova
-djedove
-djedovi
-djedovu

@@ -1,4 +1,4 @@
-99
+100
 antipod	254	
 barkod	174	
 bod	4008	
@@ -72,6 +72,7 @@ prohod	37
 proishod		
 proizvod	31912	
 provod	4300	
+rapsod		
 rashod	456	
 rasplod	30	
 razvod	3161	

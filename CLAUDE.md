@@ -434,6 +434,13 @@ BASE=https://rimoteka.com bash test/lanac.sh     # posle deploya, protiv produkc
 bash test/lanac-brzi.sh       # TOKOM RADA (≈1 min): tri motora + dimna proba glavnih namena – ne zamenjuje pun lanac
 ```
 U nizu su četiri alata trajala ~28 min; paralelno traju koliko najduži (pun test). Dnevnici: `AUDIT/lanac/<datum>/`.
+**Od 01.10.2026 pun test ide kao 4 RADNIKA** (odluka vlasnice, TP-11): `lanac.sh` pušta `DEO=1..4 DELOVA=4 node test/predeploy.mjs`
+paralelno; svaki radnik izvršava svoju četvrtinu sekcija (`RASPORED` u `predeploy.mjs`, po izmerenom trajanju). Sekcije koje dele
+prvu stranu (2–11, 19b, 27, 29) su sve u radniku 1. `RADNIKA=1 bash test/lanac.sh` vraća jedan proces. Čuvar broja provera
+(≥ 900 lokalno / 870 produkcija) računa se kao ZBIR radnika u `lanac.sh`. Promenljive sa vrha sekcija su podignute na vrh `main`
+(sekcije su blokovi) – nova sekcija koja deklariše `const` na vrhu i koristi ga u drugoj sekciji mora ime da doda u taj `let`.
+Server za test (port 8799) diže `lanac.sh` jednom; `predeploy.mjs` ne diže svoj ako port već odgovara.
+**Ne menjati `lanac.sh` dok radi** – bash čita skriptu u toku izvršavanja, pa izmena obori prolaz koji traje (01.10.: `syntax error near else`).
 **Lokalni lanac i lanac protiv produkcije NE ISTOVREMENO** (25.09.2026): dva lanca odjednom dižu opterećenje računara na 50+ i
 padaju na istecima vremena (Firefox se ne pokrene za 180 s), a ne na kvaru. Prvo protiv produkcije, pa lokalni. Pad u kome su
 SVE greške `Timeout` na više alata, ili `[NN s]` skoči preko 1.000 s (računar spavao), nije nalaz – ponavlja se (PROPUSTI 25.09.).

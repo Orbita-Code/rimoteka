@@ -1,4 +1,4 @@
-539
+555
 Egipat		
 acetat	95	
 adresat	35	
@@ -14,6 +14,7 @@ alat	6774
 antikvarijat	16	
 aparat	10587	
 aperkat	25	
+apostolat		
 arafat		
 ararat		
 argat		
@@ -42,6 +43,7 @@ birokrat
 blagodat	2321	
 bogat	9096	
 bojat		
+bokat		
 bradat	39	
 brat	17190	
 brkat	28	
@@ -77,6 +79,7 @@ domišljat	65
 dorat		M
 doznat		
 dugovat		
+dugovrat		
 dukat	655	
 duplikat	235	
 dželat		M
@@ -111,14 +114,17 @@ fosfat	108
 fotoaparat	3540	
 gat	165	
 generalat		
+gigavat		
 glasat		
 glasovat		
 glavat	12	
 golcat	18	
 golijat		
+golovrat		
 granat		M
 granulat	93	
 grlat	18	
+guzat		
 habitat	130	
 hajat		
 hat		
@@ -164,6 +170,7 @@ kandidat	16774
 kantat		
 karat	34	
 karbonat	102	
+kastrat		
 kat		
 kazamat	101	
 kilovat	810	
@@ -247,6 +254,7 @@ neprepoznat	24
 nepriznat	51	
 neprodat		
 netalenat		
+neudat		
 neupoznat		
 nevzat		
 nitrat	78	
@@ -272,6 +280,7 @@ opat	144
 opijat	57	
 opisat		
 opljačkat		
+opštepoznat		
 ornat		
 osnovat		
 otkazat		
@@ -308,6 +317,7 @@ pokazat
 pokopat		
 pokrivat		
 pokucat		
+polikarbonat		
 polubrat	163	
 poluhrvat		
 polusprat		
@@ -336,6 +346,7 @@ povraćat
 poznat	29536	
 pozvat		
 prat		
+pravcat		
 prebogat	133	
 predat	559	
 predikat	196	
@@ -383,6 +394,7 @@ protivkandidat	470
 provjeravat		J
 provozat		
 pročitat		
+prsat		
 prstohvat	194	
 psihopat	19	
 puncat		
@@ -410,6 +422,7 @@ rešat
 rifat		
 rogat	22	
 rolat	521	
+rožnat		
 rukohvat	285	
 sabat		
 sabrat	306	
@@ -433,6 +446,7 @@ silikat	27
 sindikat	10892	
 skat		
 skontat		
+slamnat		
 slikat		
 sociopat		
 sokrat		
@@ -515,6 +529,7 @@ zakazat
 zaklat		
 zakopat		
 zanat	3083	
+zapat		
 zapisat		
 zaspat		
 zastupat		
@@ -522,6 +537,7 @@ zauzvrat	3373
 zavezat		
 zbrisat		
 zigurat	11	
+zrnat		
 zubat		
 čudnovat	104	
 čvornat		

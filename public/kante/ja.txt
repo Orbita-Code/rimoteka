@@ -1,4 +1,4 @@
-7019
+7069
 Albanija		
 Australija		
 Austrija		
@@ -188,6 +188,7 @@ apolonija
 apopleksija	11	
 aporija		
 apozicija	18	
+aproksimacija		
 apsolutizacija		M
 apsolutnija		
 apsolventkinja		
@@ -249,6 +250,7 @@ audijencija	34
 aukcija	1020	
 aurelija		
 autentifikacija	86	
+autentikacija		
 autobiografija	452	
 autohtonija		
 autokratija	79	
@@ -256,6 +258,7 @@ automatizacija	631
 autonomija	3696	
 autopsija	127	
 autorizacija	156	
+autosugestija		
 avanturistkinja	13	
 avelja		
 avenija	244	
@@ -367,7 +370,6 @@ bikinija	137
 bilbija		
 bilija		
 bilja	5730	
-bilježenja	16	J
 biografija	4211	
 biohemija	200	
 biologija	1252	
@@ -669,6 +671,8 @@ demoliranja	67
 demonstracija	3389	
 demoralizacija	15	
 dendija	18	
+denivelacija		
+denominacija		
 denuncijacija	42	
 depilacija	504	
 deponija	3870	
@@ -681,12 +685,15 @@ deratizacija	176
 derbija	2379	
 dereglija		M
 deregulacija	207	
+derivacija		
 dermatologija	33	
 dernja		
 derogacija		M
 dervišija		
 desetogodišnja	239	
+deskripcija		
 despotija	78	
+destabilizacija		
 destilacija	97	
 destilerija	123	
 destinacija	6374	
@@ -717,7 +724,9 @@ dečurlija	105
 dešavanja	14103	
 dešifrovanja	114	
 dešnjakinja		M
+difamacija		
 diferencija	34	
+diferencijacija		
 difrakcija	25	
 difterija	86	
 difuzija	150	
@@ -774,6 +783,7 @@ distrakcija	31
 distribucija	3012	
 distrofija	108	
 divergencija	38	
+diversifikacija		
 diverzantkinja		M
 diverzija	183	
 divija		
@@ -798,6 +808,7 @@ dobrivoja
 dobročinitelja	139	
 dociranja	11	
 docnija		
+docnja		
 dodavanja	1926	
 dodeljivanja	641	
 dodija	37	
@@ -1010,7 +1021,6 @@ emigriranja	21
 emilija		
 eminencija	186	
 emisija	12417	
-emitiranja	52	
 emitovanja	2608	
 emocija	7685	
 emotivnija	22	
@@ -1039,6 +1049,7 @@ epopeja	245
 erdelja		
 erekcija	229	
 eremija		
+ergonomija		
 eritreja		
 erotomanija		
 erozija	495	
@@ -1197,12 +1208,14 @@ galja
 galonja		
 gambija		
 gandija		
+ganglija		
 ganja	175	
 garancija	10287	
 gardenija	22	
 garniranja		
 garonja		M
 garsija		
+gasifikacija		
 gatanja	123	
 gazdija		
 gazdovanja	456	
@@ -1224,6 +1237,7 @@ geografija	1401
 geologija	224	
 geometrija	655	
 georgija		
+gerijatrija		
 gerontologija	19	
 gestikulacija	102	
 gibanja	214	
@@ -1244,8 +1258,8 @@ glavonja		M
 glačanja	31	
 glađenja	10	
 gledanja	4856	
-gledatelja	93	
 gležnja	69	
+glicinija		
 globalizacija	2114	
 gloginja		
 glorifikacija	105	
@@ -1325,7 +1339,6 @@ grinja	412
 grizenja		
 grizlija	50	
 grizodušja		
-griženja	31	
 grižnja	18	
 grkinja		
 grljenja	75	
@@ -1510,6 +1523,7 @@ imigrantkinja	22
 imitacija	850	
 imitiranja	71	
 imperija	2531	
+implantacija		
 implementacija	3043	
 implikacija	437	
 implozija	40	
@@ -1522,6 +1536,8 @@ imućnija	17
 inadžija		M
 inauguracija	166	
 indicija	824	
+indiferencija		
+indignacija		
 indikacija	972	
 indiskrecija	10	
 individualizacija	112	
@@ -1543,6 +1559,7 @@ infuzija	291
 inhalacija	203	
 inhibicija	138	
 inicijacija	174	
+inicijalizacija		
 iniciranja	171	
 injekcija		
 inkarnacija	282	
@@ -1588,6 +1605,7 @@ intoniranja	158
 intrigantkinja		M
 intrigiranja		
 introdukcija	21	
+introspekcija		
 intubacija	50	
 intuicija	774	
 invazija	773	
@@ -1613,6 +1631,7 @@ iscrtavanja	92
 isecanja	67	
 iseljavanja	777	
 iseljenja	411	
+ishemija		
 isijavanja	56	
 iskakanja	241	
 iskanja	22	
@@ -1647,7 +1666,6 @@ ispadanja	1015
 ispaljivanja	112	
 isparavanja	385	
 isparenja	716	
-isparivanja	10	
 ispaštanja	53	
 ispetlja	18	
 ispija	351	
@@ -1815,6 +1833,7 @@ jaja	14497
 jalija		
 janićija		
 janja		M
+japija		
 jarinja		
 jaroslavlja		
 jarosnija		
@@ -1869,6 +1888,7 @@ judeja
 jugohemija		
 jugoslavija		
 jugovizija		
+jukstapozicija		
 julija		
 junakinja	1304	
 junačenja	38	
@@ -1931,6 +1951,7 @@ kapadžija
 kapanja	61	
 kapetanija	246	
 kapija	2847	
+kapitalizacija		
 kapitulacija	533	
 kaplja	70	
 karakterizacija	271	
@@ -2021,6 +2042,7 @@ klaustrofobija	45
 klaćenja	18	
 klađenja	396	
 klecanja	18	
+klekinja		
 klelija		
 kleptomanija	18	
 klesanja	18	
@@ -2080,6 +2102,7 @@ kolonoskopija	146
 kolundžija		
 komadanja	169	
 komandovanja	346	
+komasacija		
 kombija	797	
 kombinacija	13800	
 kombinovanja	623	
@@ -2087,6 +2110,7 @@ komedija	3720
 komemoracija	464	
 komešanja	154	
 komisija	35372	
+komocija		
 komordžija		
 kompaktnija	80	
 kompanija	100881	
@@ -2101,10 +2125,12 @@ komponovanja	197
 kompostiranja	77	
 kompozicija	3555	
 kompresija	516	
+kompromitacija		
 komunalija	535	
 komuniciranja	1468	
 komunikacija	15107	
 komunistkinja	30	
+komutacija		
 komšija	7455	
 konačenja		
 koncentracija	5944	
@@ -2131,6 +2157,7 @@ konja	10635
 konjugacija	27	
 konjunkcija	84	
 konkordija		
+konkretizacija		
 konkretnija	211	
 konkurencija	9172	
 konkurentkinja		M
@@ -2167,6 +2194,7 @@ konverzacija	335
 konverzija	1269	
 konvoja	339	
 konvulzija	125	
+konzervacija		
 konzorcija	51	
 konzultacija	22	
 konzumacija	682	
@@ -2182,6 +2210,7 @@ koplija
 koplja	1926	
 kopnjenja		
 koprodukcija	348	
+kopulacija		
 korablja	13	
 koralja		
 koračaja	36	
@@ -2212,6 +2241,7 @@ kosmografija		M
 kosmologija	137	
 kostobolja	36	
 kotacija	73	
+koterija		
 kotiranja	39	
 kotizacija	931	
 kotlaja		
@@ -2332,6 +2362,7 @@ kurbalija
 kurija	142	
 kurtoazija	31	
 kuršumlija		
+kusonja		
 kutija	4683	
 kuvanja	1881	
 kućenja		
@@ -2532,6 +2563,7 @@ mantija	136
 mapiranja	286	
 marakuja		
 mardarija		
+marginalija		
 markiranja	75	
 markonija		
 marksistkinja		
@@ -2575,6 +2607,7 @@ meandžija
 medalja	8224	
 medeja		
 medija	49090	
+medijacija		
 meditacija	968	
 meditiranja	44	
 medičija		
@@ -2655,6 +2688,7 @@ misurija
 mitja		
 mitohondrija	151	
 mitologija	744	
+mitomanija		
 mitropolija	609	
 mizantropija	26	
 mizerija	154	
@@ -3130,6 +3164,7 @@ natezanja	441
 natrija		
 natrlja	25	
 natucanja		
+naturalizacija		
 naturanja		
 naukovanja	25	
 navaljivanja	63	
@@ -3232,6 +3267,7 @@ nesaglasja	42
 nesaradnja	46	
 nesećanja		
 neshvatanja	111	
+nesimpatija		
 neslaganja	2578	
 nesnosnija		
 nespavanja	152	
@@ -3615,6 +3651,7 @@ opravlja	116
 opraštanja	264	
 opredeljenja	3521	
 opremanja	1236	
+opresija		
 opreznija	98	
 oproštaja	341	
 oproštenja	42	
@@ -4033,6 +4070,7 @@ podnožja	660
 podoja	589	
 podosoja		
 podozrenja	179	
+podregija		
 podrhtavanja	200	
 podrigivanja	40	
 podrinja		
@@ -4317,7 +4355,6 @@ počinjenja	54
 počivanja	40	
 poštenija	83	
 poštenja	1253	
-poštivanja	111	
 poštovanja	8820	
 pošćenja		
 poželjnija	84	
@@ -4363,6 +4400,7 @@ predestinacija
 predikcija	60	
 predilja		M
 predispozicija	702	
+predistorija		
 predlaganja	721	
 predloženja		
 prednja	2206	
@@ -4695,6 +4733,7 @@ pronicanja	31
 propadanja	2432	
 proporcija	757	
 propovedanja	129	
+propozicija		
 propulzija	11	
 propuštanja	436	
 proricanja	210	
@@ -4812,6 +4851,7 @@ radonja
 radosnija	20	
 radovanja	203	
 radoznalija		
+rafinacija		
 rafinerija	1351	
 rafiniranja	12	
 ragbija	147	
@@ -4960,7 +5000,6 @@ regresija	180
 regrutacija	93	
 regrutovanja	175	
 regulacija	1260	
-reguliranja	22	
 regulisanja	1516	
 rehabilitacija	1572	
 reinkarnacija	308	
@@ -4984,10 +5023,12 @@ religija	6728
 relija	1259	
 relikvija	314	
 relja		
+relokacija		
 remenja	53	
 remećenja	244	
 remija	1228	
 reminiscencija	139	
+remisija		
 rendgenologija		
 renoviranja	1025	
 reorganizacija	827	
@@ -5013,6 +5054,7 @@ restrikcija	693
 restruktuiranja	481	
 retencija	67	
 retenzija		
+retorzija		
 retuširanja	53	
 revidiranja	129	
 revija	1916	
@@ -5177,6 +5219,7 @@ sandžaklija
 sangrija		
 sanija		
 saniranja	437	
+sanitacija		
 sanitarija	199	
 sanja	4805	
 sanjanja	124	
@@ -5208,6 +5251,7 @@ sastavljanja	854
 satiranja	79	
 satisfakcija	789	
 satnija	23	
+satrapija		
 saturacija	46	
 savatija		
 savetovanja	2891	
@@ -5239,6 +5283,7 @@ sedekija
 sedenja	1422	
 sedimentacija	130	
 sedmogodišnja	160	
+segmentacija		
 segregacija	185	
 seizmologija	16	
 seja		M
@@ -5248,6 +5293,7 @@ sekcija	5471
 sekiracija		M
 sekrecija	262	
 sektašenja		
+sekularizacija		
 sekvestracija		
 sekvoja	75	
 selekcija	6759	
@@ -5268,6 +5314,7 @@ sepija	53
 sergeja		
 sergija		
 serija	18249	
+sertifikacija		
 serviranja	398	
 sesija	1357	
 sevanja	26	
@@ -5687,6 +5734,7 @@ suzbijanja	1791
 suzdržavanja	61	
 sučelja	107	
 sučeljavanja	411	
+suđaja		
 suđenja	7847	
 sušenja	1507	
 sušija		
@@ -5888,6 +5936,7 @@ transpiracija	17
 transplantacija	1232	
 transpozicija	75	
 tranzicija	2152	
+traumatologija		
 travestija	64	
 travnja	578	
 traćenja	29	
@@ -6157,6 +6206,7 @@ urgencija	112
 uricanja		
 urlanja	62	
 urologija	73	
+urtikarija		
 uručenja	784	
 uručivanja	310	
 urušavanja	976	
@@ -6203,6 +6253,7 @@ ustaljenja
 ustanovljenja	196	
 ustavlja		
 ustavobranitelja	136	
+ustaškinja		
 ustezanja	430	
 ustoličenja	359	
 ustručavanja	293	
@@ -6942,7 +6993,6 @@ zvučanja	36
 štipanja	30	
 štipkanja	11	
 štirkanja		
-štovanja	40	
 štucanja	137	
 šukrija		
 šulja	27	
@@ -7021,6 +7071,7 @@ zvučanja	36
 bdijenja	14	
 bdjenja		
 bijelkinja		
+bilježenja	16	J
 bjelkinja		
 bježanja		
 cijepanja	39	

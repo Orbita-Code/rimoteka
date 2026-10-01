@@ -1,11 +1,13 @@
-145
+149
 agaluk		
 argatluk		
+arlauk		
 arnautluk		
 bajbuk		
 bakaluk		M
 baksuzluk		M
 bauk		M
+bašibozuk		
 begluk		M
 bezobrazluk		
 bezruk		M
@@ -14,6 +16,7 @@ bruk
 buk	388	
 buljuk		
 ciganluk		
+cigarluk		
 cijuk	17	
 desetorostruk		
 desetostruk		
@@ -131,6 +134,7 @@ zvuk	15369
 čiviluk		
 čivluk		
 čuk		M
+čukununuk		
 čučuk		
 đavoluk		
 šejtanluk		

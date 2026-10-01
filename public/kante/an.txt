@@ -1,4 +1,4 @@
-4300
+4714
 Aranđelovdan		
 Avganistan		
 Ilindan		
@@ -18,11 +18,13 @@ Savindan
 Spasovdan		M
 Sudan		
 Vidovdan		
+abdominalan		
 abnormalan	65	
 aboliran	56	
 abonman		
 abrazivan		
 adaptiran	390	
+adaptivan		
 adekvatan	5552	
 administrativan	23	
 adoptiran		
@@ -31,11 +33,14 @@ aerodinamičan	58
 aeroplan	37	
 afektivan		
 afganistan		
+afirmativan		
 afirmisan	131	
 aforističan		
 agilan	175	
+agraran		
 agreman		
 agresivan	1472	
+ahromatičan		
 akcentovan	44	
 akcidentalan		
 akreditovan	1083	
@@ -58,6 +63,7 @@ aluzivan
 aman		M
 amandman	16797	
 ambiciozan	1215	
+ambijentalan		
 amfiteatralan		
 amnestiran	127	
 amoralan	36	
@@ -75,12 +81,16 @@ anemičan	79
 angažman	4381	
 angažovan	3378	
 animalan		
+animiran		
+anketiran		
 anksiozan	27	
 anoniman	999	
 anormalan		
+antikvaran		
 antinaučan		
 antipatičan	77	
 antireligiozan		
+antiseptičan		
 antoan		
 anuliran	55	
 apartan		M
@@ -92,17 +102,21 @@ apodiktičan		M
 apokaliptičan		
 apokrifan		
 apolitičan	117	
+aprioran		
 apsolutan	192	
 apsolviran	19	
 apsorbovan	41	
 apstraktan	264	
 apsurdan	238	
+aranžiran		
 aranžman	4666	
 arbitraran	28	
 arhaičan	119	
+arhiviran		
 aritmičan		
 arizan		
 arkan		
+armiran		
 arogantan	319	
 aromatičan	143	
 arslan		
@@ -112,6 +126,7 @@ asfaltiran	330
 asimetričan	144	
 asimilovan	23	
 asocijalan	62	
+asocijativan		
 asortiman	3991	
 astigmatičan		
 astmatičan		
@@ -143,6 +158,7 @@ bajan	89
 bakaran		
 baksuzan		M
 balaban		
+baladičan		
 balansiran	105	
 baletan	46	
 balkan		
@@ -151,9 +167,11 @@ balvan
 ban	1682	
 banalan	442	
 bandažiran		
+bankrotiran		
 basnoslovan	22	
 batinan		
 baziran	3726	
+bazičan		
 baštovan		M
 bedan	531	
 belodan		
@@ -181,8 +199,10 @@ beskvasan
 beslovesan		M
 besmrtan	294	
 besomučan	31	
+bespilotan		
 besplatan	9806	
 besplodan	17	
+bespogovoran		
 bespokojan		
 bespomoćan	217	
 besporočan		M
@@ -200,12 +220,14 @@ besraman	27
 bestelesan	51	
 bestidan	30	
 bestijalan	16	
+besvestan		
 bezalkoholan		
 bezazoran		M
 bezbedan	3666	
 bezbojan	116	
 bezbolan	550	
 bezbožan	25	
+bezbračan		
 bezbrižan	358	
 bezbrojan		
 bezdan	594	
@@ -215,16 +237,22 @@ bezglasan	17
 bezgnevan		
 bezgraničan	56	
 bezgrešan	242	
+bezidejan		
+beziman		
 bezizgledan		
 bezizlazan	44	
 bezizrazan		M
 bezličan	147	
+bezloban		
 bezlogičan		
+bezmasan		
+bezmeran		
 bezmesan		
 bezmilostan		M
 beznadan	11	
 beznadežan	162	
 beznačajan	550	
+beznačelan		
 bezobličan	22	
 bezobrazan	691	
 bezobziran	182	
@@ -233,12 +261,14 @@ bezosećajan	84
 bezotporan		
 bezočan	41	
 bezrazložan	76	
+bezrezervan		
 bezrodan		
 bezukusan		M
 bezuman	113	
 bezuslovan	84	
 bezuspešan	99	
 bezutešan		
+bezuzročan		
 bezvazdušan		M
 bezveran		
 bezvezan	78	
@@ -247,16 +277,19 @@ bezvodan	19
 bezvoljan	84	
 bezvredan	288	
 bezvučan		
+bešavan		
 bešuman	90	
 bešćutan		
 beščastan		M
 beščedan		
 beživotan	40	
+bežičan		
 biblioman		M
 bigotan		M
 bilateralan	22	
 bilingualan		
 bilingvalan		
+binaran		
 bipolaran	37	
 biran	1304	
 biseksualan		
@@ -280,6 +313,7 @@ blagozvučan
 blasfemičan		
 blatan		
 blatobran	59	
+blaziran		
 blebetan		
 blesan	13	
 blindiran	17	
@@ -287,10 +321,12 @@ blokiran	1865
 bludan		
 boban		
 bogdan		
+bogodan		
 bogohulan		
 bogomdan	48	
 bogonosan		
 bogougodan	78	
+bogovetan		
 bojan	159	
 bojazan	2480	
 bojkotovan	21	
@@ -312,16 +348,20 @@ bradan		M
 brahman	10	
 brajan		
 bran	92	
+bravurozan		
 brendan		
 brijan	11	
 brilijantan		
 briljantan	451	
 brisan	173	
+brizantan		
 brižan	254	
 brložan		
 brojan	122	
 bronzan		
+broširan		
 brutalan	638	
+brzopotezan		
 bršljan	186	
 bucan		
 budan	818	
@@ -340,9 +380,11 @@ bučan	597
 bušman		
 cakan		
 celishodan	55	
+celobrojan		
 celodnevan		
 celofan	244	
 celokupan	4190	
+centralizovan		
 centrifugalan		
 centripetalan		M
 centriran	113	
@@ -352,13 +394,19 @@ ceremonijalan
 cican		
 cikličan	35	
 cilindričan	33	
+ciljan		
 ciničan	450	
+cinkan		
 cinčan		
+cirkularan		
 citiran	438	
 civilizovan	664	
+crtan		
+crvotočan		
 cvetan	56	
 cvijan		
 dajan		
+dalekometan		
 dalekosežan	117	
 damjan		
 damljan		
@@ -375,9 +423,11 @@ deaktiviran	36
 debeljušan		M
 debilan	42	
 deblokiran	78	
+decentralizovan		
 decidan	87	
 decidiran	69	
 decimalan		
+deduktivan		
 defanzivan	108	
 defektan	94	
 deficitaran	133	
@@ -389,6 +439,7 @@ deformisan	130
 degenerativan		
 degenerisan		
 degradiran	164	
+degutantan		
 dehidriran	27	
 dejan		
 dekadentan	32	
@@ -400,6 +451,7 @@ deklasiran	36
 dekodiran	14	
 dekoncentrisan	49	
 dekorativan	116	
+dekorisan		
 dekuražiran		
 delatan	66	
 delegiran	117	
@@ -414,7 +466,9 @@ dembelan		M
 dementan	16	
 demijan		
 demobilisan		
+demodiran		
 demoliran	94	
+demonstrativan		
 demontiran	131	
 demoralisan	36	
 denunciran		
@@ -427,11 +481,13 @@ depresivan	320
 deprimiran	38	
 deran	100	
 desetkovan	114	
+deskriptivan		
 desperatan		M
 destimulativan		
 destruktivan	265	
 detaljan	2916	
 detaljisan		
+detašman		
 detektovan	205	
 devalviran	48	
 devastiran	146	
@@ -448,13 +504,16 @@ diferencijalan
 difteričan		M
 difuzan		
 digitalan	81	
+dijaboličan		
 dijagnosticiran	23	
 dijagnostikovan	367	
 dijagnoziran		
+dijametralan		
 dijetalan	15	
 diktiran	79	
 dilan		
 dinamičan	2287	
+dinstan		
 diplomiran	16	
 diran	34	
 direktan	7222	
@@ -462,8 +521,10 @@ dirigovan	71
 discipliniran		
 disciplinovan	238	
 disharmoničan		
+diskordantan		
 diskreditovan	71	
 diskretan	455	
+diskurzivan		
 diskutabilan	294	
 diskutovan	17	
 diskvalificiran		
@@ -471,23 +532,27 @@ diskvalifikovan	299
 disleksičan		
 dislociran	49	
 disonantan	25	
+disparatan		
 disponiran		
 disproporcionalan		
 distanciran	90	
 distingviran		
 distinktivan		
+distributivan		
 divan	4960	
 divergentan		
 divljan		M
 divljačan		M
 divotan		
 dizajniran	7062	
+dizenteričan		
 dičan	16	
 dišan		
 dlan	1443	
 dobavljan		
 doberman	73	
 dobijan	25	
+dobitan		
 dobran		
 dobrodušan	74	
 dobronameran	784	
@@ -499,6 +564,8 @@ dodan	84
 dodatan	744	
 dodavan	50	
 dodeljivan	67	
+dogledan		
+dogmatičan		
 dograđivan	46	
 doguran		
 dokazan	545	
@@ -526,8 +593,10 @@ dostojan	2989
 dostupan	13337	
 doteran	223	
 dotiran	36	
+dotičan		
 dovoljan	14865	
 dozidan	100	
+doziran		
 dozvan	11	
 dozvoljavan		
 dočaran	56	
@@ -539,6 +608,7 @@ dragan		M
 dragodan		
 dragoman		M
 dragovan		
+dragovoljan		
 dramatizovan	14	
 dramatičan	1099	
 drastičan	921	
@@ -556,6 +626,9 @@ druškan		M
 druževan		M
 drčan	73	
 držan	326	
+državotvoran		
+dualan		
+dubiozan		
 dubokouman	14	
 dugoročan	812	
 dugotrajan	1596	
@@ -564,6 +637,7 @@ duhan	51	J
 duhovan	122	
 dupliran	263	
 duran		M
+durativan		
 durašan		M
 durijan		
 duvan	3145	
@@ -578,15 +652,20 @@ dvodelan
 dvodimenzionalan		
 dvojezičan	56	
 dvokratan		
+dvokrevetan		
+dvokrilan		
 dvoličan	82	
 dvomesečan		
+dvonožan		
 dvopolan	13	
+dvosložan		
 dvosmeran	102	
 dvosoban	368	
 dvospolan		M
 dvospratan		
 dvostran	52	
 dvovalentan		M
+dvoznačan		
 dvočlan		
 džamadan		
 džordan		
@@ -609,6 +688,7 @@ eklektičan
 ekonomičan	641	
 ekran	10890	
 ekscentričan	86	
+ekscesan		
 ekskluzivan	475	
 ekskomuniciran	32	
 ekspanzivan	27	
@@ -628,6 +708,7 @@ ekvivalentan	346
 elan	689	
 elastičan	489	
 elegantan	1621	
+elegičan		
 elektrisan		
 električan	25	
 elementaran		
@@ -640,6 +721,7 @@ emancipovan	29
 emboličan		
 emfatičan		
 emilijan		
+eminentan		
 emitovan	1255	
 emocionalan	64	
 emotivan	595	
@@ -649,6 +731,8 @@ enkodiran
 enorman	211	
 entuzijastičan	20	
 epigramatičan		
+epileptičan		
+epizodan		
 epizodičan		
 epohalan	70	
 erbakan		
@@ -685,6 +769,8 @@ fan	4039
 fanatizovan		
 fanatičan	49	
 fantastičan	3560	
+fantazmagoričan		
+farban		
 farsičan		
 fascinantan	556	
 fasciniran	657	
@@ -692,6 +778,7 @@ fatalan	388
 fauliran	174	
 favorizovan	118	
 fazan	207	
+faširan		
 febrilan		
 federativan		
 feminiziran	27	
@@ -699,22 +786,33 @@ fenomenalan	2064
 ferman	186	
 fermentisan	16	
 fernan		
+fertilan		
+feudalan		
 fidan		
+figuralan		
+figurativan		
+fikcionalan		
 fiksan	97	
 fiksiran	394	
 fiktivan	125	
 filcan		M
 fildžan		M
 filigran	46	
+filovan		
+filtriran		
 finalan		
 finansiran	1462	
 fingiran		
 fiskalan		
 fizikalan		
+flagrantan		
+flaširan		
 flegmatičan	18	
 fleksibilan	1435	
 florijan		
+fluidan		
 fluorescentan		
+fobičan		
 fokusiran	1484	
 formalan	377	
 forman		
@@ -723,6 +821,7 @@ formiran	4689
 formulisan	488	
 forsiran	62	
 fosforescentan		
+fosilan		
 fotogeničan	25	
 fotografisan	160	
 fragmentaran		
@@ -758,13 +857,17 @@ generisan	200
 genijalan	581	
 genocidan	240	
 german		
+gestualan		
 gilan		
 gipsan		
 gladan	2495	
 glamurozan	214	
 glasan	660	
 glavan		
+glaziran		
+glačan		
 gledan	282	
+gljivičan		
 globalan	184	
 glomazan	302	
 glorifikovan	14	
@@ -772,6 +875,7 @@ glupan	126
 gnevan	135	
 gnjevan		
 gnjusan		
+gnojan		
 gnusan	87	
 gojan		
 gojazan	116	
@@ -790,12 +894,15 @@ gotivan
 gotovan	11	
 gracilan		
 graciozan	48	
+gradobitan		
+gradonosan		
 gran		
 granatiran	35	
 grandiozan	125	
 grandoman		
 granularan		
 gravidan		
+graviran		
 grdan	117	
 grehotan		
 grešan	383	
@@ -803,6 +910,7 @@ grimizan
 gripozan		M
 grkljan	252	
 groban		
+grogiran		
 grohotan	46	
 gromadan		
 gromobran	135	
@@ -817,10 +925,12 @@ grudobolan
 grudobran	45	
 grupisan	37	
 gubijan		
+gumiran		
 guran	73	
 gurman	181	
 gusan	65	
 gutman		
+guturalan		
 hadrijan		
 hajvan		
 hakovan		
@@ -845,6 +955,7 @@ heteromorfan
 heteroseksualan	26	
 hetman		M
 hibridan	11	
+hidrauličan		
 himeričan		
 hiperaktivan	83	
 hipermangan		
@@ -865,16 +976,21 @@ hladan	3442
 hladnokrvan	95	
 hofman		
 homofobičan	28	
+homologan		
 homoniman		
 homoseksualan	21	
+honoraran		
 horizontalan	118	
 hospitalizovan	249	
 hotimičan		
+hromatičan		
 hromiran	14	
 hroničan	414	
 huan		
 huligan		M
 human	1032	
+humanitaran		
+humanoidan		
 humoran	12	
 humorističan		
 hučan		
@@ -892,6 +1008,7 @@ iguman	2992
 ijan		
 ijedan		M
 ilegalan	234	
+ilustrativan		
 ilustrovan	247	
 iluzoran	40	
 imaginaran	90	
@@ -901,6 +1018,8 @@ imbecilan	21
 imendan	188	
 imenovan	3753	
 imobilisan		
+imovan		
+imperativan		
 implantiran	30	
 impliciran	17	
 implicitan	44	
@@ -909,17 +1028,22 @@ impozantan	474
 impresioniran	780	
 impresivan	1428	
 improvizovan	51	
+impulsan		
 impulsivan	118	
 impulzivan		
 imućan	220	
+incestuozan		
+incidentan		
 indiferentan	130	
 indijan		
+indikativan		
 indirektan	617	
 indiskretan	22	
 indisponiran	36	
 individualan	575	
 individualizovan	77	
 indolentan		M
+indukovan		
 inertan	172	
 infaman		
 infantilan	70	
@@ -927,13 +1051,17 @@ infektivan	32
 inferioran	238	
 inficiran	161	
 infiltriran	15	
+inflatoran		
 informativan	286	
 informisan	1206	
 infostan	522	
+ingeniozan		
 inherentan	38	
+inicijalan		
 inicijativan		
 iniciran	371	
 inkarniran		
+inkriminisan		
 inokosan	20	
 inostran	16	
 inovativan	1096	
@@ -953,6 +1081,7 @@ integrisan	1721
 intelektualan	66	
 inteligentan	1608	
 intenzivan	1659	
+interaktivan		
 interesantan	6063	
 internacionalan		
 interniran	138	
@@ -960,6 +1089,7 @@ interpretiran	109
 intervjuisan	54	
 intiman	336	
 intoniran	80	
+intravenozan		
 intrigantan	263	
 intrigiran		
 introvertan	56	
@@ -967,11 +1097,13 @@ intubiran	14
 intuitivan	477	
 invalidan	12	
 invarijantan		
+invazivan		
 inventivan	160	
 inverzan		
 investiran	150	
 iracionalan	218	
 irealan	16	
+irelevantan		
 irfan		
 iritantan	135	
 iritiran	66	
@@ -996,6 +1128,7 @@ iskopavan
 iskorišćavan	10	
 iskovan	93	
 iskrcan	13	
+iskrzan		
 iskusan	1922	
 iskušan	25	
 iskušavan	10	
@@ -1020,6 +1153,7 @@ isprazan	73
 isprebijan	50	
 isprekidan	101	
 isprepadan	17	
+isprepletan		
 ispresecan	121	
 ispreturan	11	
 isprevrtan		
@@ -1037,6 +1171,7 @@ istesan	12
 istetoviran	40	
 istican	99	
 istodoban		
+istopolan		
 istoričan		M
 istorodan		
 istosmeran		
@@ -1055,6 +1190,7 @@ ivan	397
 ivanjdan		
 izabran	16987	
 izagnan		
+izazivan		
 izazovan	519	
 izazvan	1819	
 izbalansiran	659	
@@ -1075,6 +1211,7 @@ izdrpan
 izdržavan	16	
 izglasan	847	
 izglasavan		
+izgledan		
 izglodan		
 izgnan	102	
 izgrađivan	40	
@@ -1106,6 +1243,7 @@ izražavan
 izrezan	54	
 izrešetan	80	
 izriban		
+izričan		
 izrovan		
 izrugan		
 izrugivan		
@@ -1117,6 +1255,7 @@ izuvijan		M
 izuzetan	7353	
 izučavan	39	
 izvagan		
+izvajan		
 izvan	19349	
 izvanredan	3093	
 izvesan		
@@ -1125,6 +1264,7 @@ izveštan
 izveštavan	10	
 izvežban	20	
 izvikan	69	
+izvojevan		
 izvoran	55	
 izvrsan		
 izvrstan	1292	
@@ -1139,6 +1279,7 @@ jablan	143
 jadan	2295	
 jadovan		M
 jadran		
+jagodičan		
 jan		M
 jaran		M
 jarostan	12	
@@ -1153,12 +1294,19 @@ jednakosmeran
 jednakozvučan		
 jednobitan		
 jednobojan	36	
+jednodimenzionalan		
+jednodoman		
 jednodušan	29	
 jednoglasan	105	
+jednokratan		
+jednokrevetan		
 jednoličan	171	
+jednomesečan		
 jednonožan		
 jednoobrazan	73	
+jednoredan		
 jednorodan		
+jednosatan		
 jednosmeran	114	
 jednosoban	267	
 jednospolan		
@@ -1167,6 +1315,7 @@ jednostran	299
 jednouman		
 jednovrstan		M
 jednozvučan		M
+jednočlan		
 jerevan		
 ješan		M
 joan		
@@ -1176,6 +1325,7 @@ jorgan	234
 jorgovan	220	
 jovan		
 juan	281	
+jubilaran		
 jugozapadan		
 julijan		
 junan		
@@ -1202,6 +1352,7 @@ kankan	14
 kaotičan		
 kapelan	143	
 kapetan	4414	
+kapilaran		
 kapitalan	87	
 kaplan		
 kapriciozan	13	
@@ -1215,12 +1366,14 @@ kardigan	38
 kardinalan	20	
 karikaturalan	28	
 karikaturan		M
+karikiran		
 kariran		
 karitativan		M
 karizmatičan		
 kastelan		
 kastriran	59	
 katamaran	56	
+katarzičan		
 katastrofalan	1187	
 katatoničan		
 kategorisan	177	
@@ -1231,6 +1384,7 @@ kauzalan
 kavran		
 kazan	733	
 kazivan		
+kaširan		
 kaštelan		
 kažnjavan	222	
 kecman		
@@ -1241,9 +1395,11 @@ kigan
 kilijan		
 kiprijan		
 kirgistan		
+kitan		
 kivan		M
 kišan	29	
 kišobran	1115	
+kišonosan		
 klajderman		
 klan	992	
 klasan		
@@ -1266,6 +1422,7 @@ književan	18
 koban	299	
 kodiran	114	
 kogan		
+kognitivan		
 koherentan	240	
 kohezivan	14	
 kokan		
@@ -1275,11 +1432,13 @@ kolegijalan	35
 kolektivan	103	
 koleričan		M
 kolman		
+kolokvijalan		
 koloman		
 kolonizovan	23	
 kolorisan		M
 kolosalan	39	
 komaran		
+komatozan		
 kombinatoran		
 kombiniran		
 kombinovan	375	
@@ -1317,12 +1476,15 @@ konfiniran	16
 konfiskovan	31	
 konfliktan		
 konfuzan	363	
+kongruentan		
 koničan		
 konjugovan		
 konkavan	11	
+konkordantan		
 konkretan	5330	
 konkretizovan	54	
 konkurentan	1206	
+konsekutivan		
 konspirativan		
 konstantan	1814	
 konsterniran	24	
@@ -1332,9 +1494,12 @@ konstruisan	794
 konstruktivan	1333	
 kontaktiran	108	
 kontaminiran	113	
+kontemplativan		
 kontinentalan		
+kontinuiran		
 kontradiktoran	248	
 kontrarevolucionaran		
+kontrastan		
 kontrolisan	759	
 kontroverzan	251	
 kontuzovan		M
@@ -1343,7 +1508,10 @@ konveksan	28
 konvencionalan	150	
 konvergentan	10	
 konzervativan	402	
+konzerviran		
+konzistentan		
 konzularan		
+konzuman		
 konzumiran	35	
 končan		
 kooperativan	209	
@@ -1353,19 +1521,26 @@ koordinisan	88
 kopan	30	
 kopilan		M
 kopiran	116	
+koporan		
 koran		
 korektan	2415	
+korektivan		
 korelativan		
+korespondentan		
 korigovan	205	
 korisan		
 koristan	5541	
 korman		
 kormoran		
+koronaran		
 korotan		
+korozivan		
+korporativan		
 korpulentan	17	
 korumpiran	434	
 koruptivan	37	
 kosan		
+kostimiran		
 kotrljan		
 kovan	138	
 kovaran		M
@@ -1397,6 +1572,7 @@ križan	15
 kroasan	88	
 krsman		
 krstan		
+krucijalan		
 krunisan	562	
 krupan	1555	
 kružan	24	
@@ -1415,8 +1591,10 @@ kuran
 kurativan		
 kuražan		M
 kurban	107	
+kurentan		
 kurgan		
 kuriozan		M
+kurtoazan		
 kusan		
 kuvan	252	
 kuzman		
@@ -1424,6 +1602,7 @@ kućevan
 kušan	45	
 kužan	11	
 kvalifikovan	582	
+kvalitativan		
 kvalitetan	10188	
 kvaran	76	
 laban		
@@ -1433,14 +1612,17 @@ lagan	2036
 lagodan	438	
 lakan		
 lakiran	62	
+lakoničan		
 lakovan		
 lakoveran	66	
 lan	3656	
 lansiran	1687	
 lantan		M
+lančan		
 lapidaran	19	
 lascivan	14	
 latentan	39	
+lazuran		
 lažan	737	
 lažiran	24	
 ledan		M
@@ -1472,6 +1654,7 @@ linearan	135
 linčovan	42	
 lipljan	154	
 liričan		M
+listopadan		
 literaran	18	
 ličan	418	
 lišavan		
@@ -1493,9 +1676,11 @@ lovan
 lucidan	204	
 lukijan		
 lukobran	14	
+lukrativan		
 luksuzan	639	
 lumbalan		
 luminiscentan		
+lunaran		
 lupan	23	
 luteran		
 lužan		M
@@ -1504,14 +1689,19 @@ maestralan	205
 magelan		
 magistralan		
 magičan	323	
+magnetičan		
+mahinalan		
 majdan		M
 majestetičan		M
 majoran	91	
 majušan		M
 maksimalan	2877	
 maksimilijan		
+malaričan		
 malerozan		
+maliciozan		
 maligan	33	
+malignan		
 mališan	1033	
 malobrojan	50	
 malodoban		
@@ -1527,8 +1717,10 @@ maltretiran	159
 mamuran	130	
 man		M
 mangan	346	
+manijakalan		
 manipulativan	44	
 maničan		
+manuelan		
 maran	39	
 marcipan	90	
 marginalan	125	
@@ -1547,6 +1739,7 @@ mastan	185
 materijalan	71	
 materijalizovan	50	
 matiran	33	
+matičan		
 mazan	25	
 mašan		
 mažuran		
@@ -1554,6 +1747,7 @@ mecosopran	87
 medan	19	
 meditativan		
 mediteran		
+medonosan		
 megaloman	59	
 megdan		M
 mehanizovan	12	
@@ -1568,14 +1762,18 @@ melodramatičan		M
 membranozan		
 memorisan	30	
 menjan	627	
+mentalan		
 merdžan		
 meridijan	231	
+meritoran		
 merkantilan		
+mermeran		
 merodavan	409	
 mesingan		
 mestimičan		
 metaforičan		
 metalan	29	
+metamorfan		
 metan	737	
 metodičan	63	
 međusoban	35	
@@ -1594,10 +1792,12 @@ milosrdan	159
 milovan	604	
 milozvučan	21	
 mimogredan		
+mineralan		
 minijaturan	60	
 minimalan	1850	
 miniran	127	
 minivan	60	
+minoran		
 mintan		
 minuciozan	21	
 miomirisan		
@@ -1618,6 +1818,7 @@ mnogoljudan	22
 mnogostran	27	
 mnogovidan		
 mnogovrstan		M
+mnogočlan		
 mnogoželjan		
 mobilan	160	
 mobilisan	247	
@@ -1626,6 +1827,7 @@ modan		M
 modelovan		
 moderan	5964	
 modifikovan	526	
+modularan		
 moduliran		
 mogućan	68	
 moleban	479	
@@ -1633,6 +1835,7 @@ momentalan	56
 momentan		
 monblan		
 mondrijan		
+monetaran		
 monogaman	12	
 monolitan	58	
 monoman		
@@ -1646,9 +1849,12 @@ morbidan	103
 morgan		
 mostobran	136	
 motivisan	1316	
+motorizovan		
+mozaičan		
 moćan	3724	
 močaran		
 močvaran	12	
+mramoran		
 mračan	567	
 mrgodan	11	
 mrsan	13	
@@ -1657,6 +1863,7 @@ mrzovoljan	141
 mrđan		
 mukotrpan	793	
 muljan		
+multinacionalan		
 mumificiran	12	
 municipalan		
 munćan		
@@ -1684,6 +1891,7 @@ nadjačan	14
 nadležan	3963	
 nadmoćan	151	
 nadnacionalan	13	
+nadnaravan		
 nadobudan	74	
 nadomeštan		
 nadprosečan	39	
@@ -1692,9 +1900,11 @@ nadrealan	74
 nadrljan		
 nadrndan		
 nadrogiran	16	
+nadstvaran		
 naduvan	136	
 naduvavan		
 nadvladan	18	
+nadzeman		
 nadziran		
 nadčulan		
 nadžupan		
@@ -1738,11 +1948,14 @@ napisan	4046
 naplaćivan	58	
 naporan	2032	
 naporedan		
+naprasan		
 napredan	730	
 napucan	35	
+napuhan		
 napumpan	32	
 napuštan		
 narativan	19	
+naravan		
 narcisoidan	55	
 naredan	21	
 narezan	79	
@@ -1757,18 +1970,22 @@ nasledan	74
 naslikan	257	
 nasmejan	660	
 nasmijan	44	J
+naspraman		
 nastavljan	16	
 nastran	83	
 nastrugan		
 nasukan	62	
 nasumičan	51	
 nasuprotan		M
+nasušan		
 natan		
 nateran	197	
 natprirodan	21	
 natprosečan		
 natrpan	43	
+naturalan		
 naturalizovan	12	
+natčulan		
 nauman		M
 naučan	64	
 navalan		
@@ -1789,10 +2006,14 @@ neadekvatan	706
 neagilan		
 neaktivan	272	
 neangažovan		
+neanoniman		
+neartikulisan		
 neatraktivan		
+neažuran		
 nebezbedan	132	
 nebitan	812	
 neblagorodan		M
+nebran		
 nebrižan		
 nebudan		M
 nebulozan		
@@ -1803,11 +2024,13 @@ nedelatan
 nedisciplinovan		M
 nedobronameran	32	
 nedogledan		
+nedohvatan		
 nedokazan	30	
 nedoličan	77	
 nedomašan		
 nedosežan		
 nedosledan	134	
+nedostatan		
 nedostižan	497	
 nedostojan	402	
 nedostupan	874	
@@ -1821,10 +2044,12 @@ neefikasan	504
 neelastičan	21	
 neemotivan		
 neenergičan		
+neetičan		
 nefleksibilan	36	
 neformalan	249	
 nefunkcionalan	165	
 negativan	6870	
+negaziran		
 negiran	33	
 negovan	283	
 nehajan	21	
@@ -1841,17 +2066,23 @@ neiscrpan	267
 neiskazan	45	
 neiskusan	336	
 neispavan	73	
+neispisan		
 neispitan	24	
 neispravan	741	
 neistrajan		
 neizazvan		
 neizbežan	1308	
 neizmeran	105	
+neizostavan		
 neizvestan	1346	
 neizvežban		
 nejahan		
 nejasan	932	
+nejavan		
 nekidan	53	
+neklasičan		
+neknjiževan		
+nekompatibilan		
 nekompetentan	137	
 nekompletan	107	
 nekontrolisan	158	
@@ -1872,12 +2103,17 @@ nelažan
 nelegalan	661	
 nelegitiman	178	
 neliberalan		
+nelikvidan		
+nelinearan		
 neljubazan	68	
 nelogičan	167	
 nelojalan	32	
 neman	343	
 nemaran	186	
 nemarkiran		
+nemasan		
+nemastan		
+nematerijalan		
 nemerodavan		
 nemilosrdan	384	
 neminovan	882	
@@ -1899,6 +2135,7 @@ nenapisan
 nenasilan	97	
 nenaučan		
 nenormalan	346	
+nenovčan		
 neobavezan	179	
 neobilazan		
 neobičan	3697	
@@ -1938,6 +2175,7 @@ neosporan	298
 neosuđivan	18	
 neotesan	42	
 neotporan	45	
+neotrovan		
 neovisan		
 neozbiljan	633	
 neočekivan	724	
@@ -1950,6 +2188,7 @@ nepisan	15
 neplaniran	54	
 neplodan	34	
 nepobitan	128	
+nepobožan		
 nepodesan	65	
 nepodložan		
 nepodmazan		
@@ -1963,6 +2202,7 @@ nepokajan	10
 nepokoran	39	
 nepokretan	343	
 nepoliran		
+nepolitičan		
 nepomazan		
 nepomičan	248	
 nepopisan		
@@ -2004,6 +2244,7 @@ neprikladan	197
 nepriličan	46	
 neprimeran	16	
 neprimetan	377	
+neprincipijelan		
 nepripravan		
 neprirodan	264	
 nepriseban		
@@ -2017,14 +2258,18 @@ neprivlačan	46
 neprobojan	56	
 neproduktivan	88	
 neprofesionalan	134	
+neprofitan		
 neprohodan	161	
 neproizvodan		
 neprolazan	43	
 nepropisan	61	
 neproporcionalan	25	
+nepropustan		
+neprospavan		
 neprovidan	17	
 neproziran	37	
 neprozračan		
+nepročitan		
 nepunoletan		
 neracionalan		
 neradan	222	
@@ -2079,6 +2324,7 @@ nesputan	51
 nesrazmeran	120	
 nesretan	135	
 nesrećan	1073	
+nesrodan		
 nestabilan	696	
 nestalan	83	
 nestašan	140	
@@ -2093,8 +2339,11 @@ netaktičan	20
 netalentovan	48	
 netačan	572	
 netipičan	133	
+netkan		
 netoksičan	73	
 netolerantan	175	
+netrajan		
+netransparentan		
 netretiran		
 netrezan		
 netruležan		
@@ -2105,12 +2354,14 @@ neugodan
 neukaljan		
 neukusan	90	
 neuljudan		
+neuman		
 neumesan		
 neumestan		
 neumešan		M
 neumitan	52	
 neumoran	249	
 neupisan	15	
+neupitan		
 neupotrebljavan		
 neupravan		
 neuprljan		
@@ -2119,6 +2370,7 @@ neuralgičan
 neurasteničan		M
 neuredan	247	
 neurotičan	55	
+neuslovan		
 neuslužan		
 neuspešan	695	
 neustavan	479	
@@ -2138,6 +2390,7 @@ neverbalan	14
 neverovatan	4103	
 nevezan	81	
 nevečan		
+nevidan		
 nevičan	19	
 nevoljan	70	
 nevredan		
@@ -2148,6 +2401,7 @@ nezainteresiran
 nezainteresovan		M
 nezaludan		
 nezaobilazan		
+nezarazan		
 nezasitan		
 nezaslužan		
 nezavidan	239	
@@ -2156,8 +2410,10 @@ nezavistan	569
 nezazoran		
 nezgodan	888	
 nezgrapan	115	
+nezloban		
 neznan	79	
 neznatan	604	
+neznačajan		
 nezvan	39	
 nezvaničan	103	
 nečastan	75	
@@ -2168,6 +2424,7 @@ nečovečan	23
 nečujan	302	
 neškolovan	37	
 nežan	1133	
+neživotan		
 nijedan	24479	
 niklovan		
 nimfoman		
@@ -2175,6 +2432,7 @@ nipodaštavan	13
 niskokaloričan		
 nišan	551	
 ništavan	230	
+nižerazredan		
 njegovan		
 nježan		J
 nokautiran	40	
@@ -2238,6 +2496,7 @@ obrisan	351
 obrtan		
 obrukan		
 obrvan		
+obuhvatan		
 obuzdan	25	
 obuzdavan		
 obučavan	68	
@@ -2293,6 +2552,8 @@ odštampan	553
 ofanzivan	89	
 ofarban	182	
 ofenzivan		
+oficijalan		
+oficijelan		
 ofucan	31	
 ogavan	64	
 oglašavan	19	
@@ -2305,10 +2566,12 @@ ogrejan
 ogroman	17997	
 ojačan	502	
 okaljan	15	
+okazionalan		
 okean	2043	
 okeran		
 okivan		
 oklevetan	88	
+okolišan		
 okončan	2927	
 okopan		
 okoran		
@@ -2319,6 +2582,7 @@ okrutan		M
 oktan		
 oktavijan		
 oktroisan		
+okultan		
 okupan	206	
 okupiran	381	
 okviran	65	
@@ -2345,6 +2609,7 @@ operativan	429
 operiran		
 operisan	1008	
 operušan		
+opetovan		
 opevan	103	
 opevavan		
 ophrvan		
@@ -2367,12 +2632,14 @@ opsedan	12
 opsesivan	32	
 opsežan		
 opsidijan	31	
+opskuran		
 opstruiran		
 optimalan	1680	
 optimističan	521	
 optuživan	229	
 opčaran		
 opširan	441	
+oralan		
 oran	85	
 orangutan	40	
 orban		
@@ -2388,6 +2655,7 @@ orkan	85
 orlean		
 orman	756	
 ornamentalan		
+ortodoksan		
 oružan	27	
 osebujan	46	
 osedlan		
@@ -2401,6 +2669,7 @@ oslepljivan
 oslikan	289	
 oslobađan	18	
 osman		
+osmostran		
 osnivan	24	
 osnovan	9938	
 osoban		
@@ -2445,6 +2714,7 @@ oveštan
 ovisan		
 ovladan		
 ovlašan	23	
+ovostran		
 ozbiljan	15133	
 ozidan	112	
 označavan	65	
@@ -2464,11 +2734,13 @@ padobran	489
 pagan		
 pajkan		
 pakostan	61	
+palatalan		
 pametan	7306	
 pamučan	11	
 pan		M
 pandan	1119	
 paničan	96	
+paraboličan		
 paradoksalan		
 parafiran	215	
 paralelan	266	
@@ -2477,6 +2749,7 @@ paralizovan	150
 paran	128	
 paranoidan	28	
 paranoičan	180	
+paranormalan		
 paravan	1006	
 parcijalan	32	
 paritetan		M
@@ -2489,6 +2762,7 @@ partikularan
 partizan	13456	
 pasioniran	12	
 pasivan	673	
+pastoralan		
 patentiran	175	
 patetičan	229	
 patlidžan	457	
@@ -2501,6 +2775,7 @@ pejorativan
 pelikan	95	
 pelivan		M
 penzionisan	615	
+perceptivan		
 perfektan	643	
 perfidan	256	
 perforiran	27	
@@ -2510,6 +2785,7 @@ personalan
 perspektivan	401	
 perverzan	75	
 pesimističan	142	
+petočlan		
 petrosjan		
 pevan	18	
 pečalan		M
@@ -2521,15 +2797,20 @@ pikantan	90
 pipan		
 piramidalan		
 piran		M
+pirinčan		
 piroman	76	
 pisan	2030	
 pitan	170	
+pitoreskan		
 plan	58926	
 planiran	4441	
 plasiran	614	
 plasman	14807	
+plastificiran		
 plastičan	247	
 platan		M
+platežan		
+plauzibilan		
 plavetan		
 plavušan		
 plaćan	138	
@@ -2541,6 +2822,7 @@ plesan	260
 plijesan	12	J
 plisiran		
 plitkouman		
+plišan		
 pljačkan	60	
 pljosan		
 pljuvan		
@@ -2565,6 +2847,8 @@ podbadan
 podebljan	19	
 poderan	10	
 podesan	253	
+podgrejan		
+podgrevan		
 podizan	77	
 podlokan		
 podložan	1005	
@@ -2595,6 +2879,7 @@ pogađan
 pogibeljan	18	
 pogodan	4812	
 pogoršan	144	
+pograničan		
 pogrdan	106	
 pogreban		
 pogrešan	4924	
@@ -2628,6 +2913,7 @@ polaran
 polaskan	74	
 polemičan	36	
 poletan	96	
+poliran		
 politiran		
 političan	20	
 polivan		
@@ -2637,6 +2923,9 @@ polovičan	366
 polugladan		
 poluglasan		
 poluhladan		
+poluilegalan		
+polukružan		
+polukrvan		
 polukvalifikovan		
 polulegalan		
 polumastan		M
@@ -2649,10 +2938,12 @@ poluravan
 polusan	14	
 polusvestan		
 polutan	21	
+polutrajan		
 poluukopan		
 poluzvaničan		
 pomagan	75	
 pomaman	24	
+poman		
 pomazan	31	
 pomeran	54	
 pomešan	459	
@@ -2689,6 +2980,7 @@ porozan	75
 poročan	46	
 portman		
 porugan		
+poručivan		
 posan		
 poseban	27139	
 posejan	126	
@@ -2698,18 +2990,22 @@ posipan
 poslan	567	
 posledičan		
 poslovan	333	
+poslovičan		
 poslušan	566	
 posmatran	427	
 pospan	152	
+posprdan		
 posredan	517	
 posredovan	72	
 postajan		
 postan	35	
 postavljan	121	
+posthuman		
 postidan		
 postizan	13	
 postmoderan		
 postojan	486	
+postoperativan		
 postupan	84	
 posvađan	21	
 potajan		
@@ -2718,6 +3014,7 @@ potcenjivan	15
 potencijalan	86	
 potenciran	61	
 potentan	76	
+poteran		
 potican	11	
 potiskivan	45	
 potkazan		
@@ -2742,6 +3039,7 @@ pouzdan	4643
 poučan	551	
 poučavan		
 povazdan		M
+poveravan		
 povezan	8257	
 povezivan	156	
 povećan	9392	
@@ -2751,6 +3049,7 @@ povoljan	3708
 povratan	46	
 površan	548	
 pozamašan	253	
+pozan		
 pozdravljan	24	
 pozicioniran	736	
 pozitivan	12513	
@@ -2770,6 +3069,7 @@ pran	21
 pravedan	1299	
 pravilan	3620	
 pravičan	526	
+pravnosnažan		
 pravoslavan	196	
 pravosnažan	44	
 pravoveran	29	
@@ -2791,6 +3091,7 @@ precrtan	94
 predan	619	
 predavan	29	
 predestiniran		
+predimenzioniran		
 predisponiran	21	
 predivan	1905	
 predlagan	61	
@@ -2820,6 +3121,7 @@ prekidan	200
 preklan		
 prekobrojan	49	
 prekodan		M
+prekograničan		
 prekomandovan	172	
 prekomeran	144	
 prekopan	20	
@@ -2834,10 +3136,12 @@ preležan
 preliminaran		
 preljubazan		
 preloman		M
+premastan		
 premazan	145	
 premekan	14	
 premeštan	35	
 premoćan	10	
+prenaporan		
 prenatrpan	162	
 preobilan		
 preobiman	91	
@@ -2862,12 +3166,14 @@ prepravljan	29
 prepričan	40	
 prepuštan		
 preradikalan		
+preradostan		
 preran		
 prerađivan	18	
 prerezan	218	
 presan	36	
 presedan	2371	
 presiguran		
+presitan		
 presjajan		
 preskroman	33	
 preslan	14	
@@ -2891,6 +3197,7 @@ pretresan	19
 pretrpan	258	
 pretrpavan		
 preturoban		
+pretužan		
 pretvaran	13	
 pretvoran		
 preukusan		
@@ -2899,6 +3206,7 @@ preuveličan	75
 preuzan		
 preuziman	15	
 prevaran	26	
+prevashodan		
 prevažan		
 prevejan	13	
 preventivan	54	
@@ -2909,6 +3217,8 @@ prezgodan
 preziran	13	
 preziđivan		
 prećutan	74	
+prečasan		
+prečudan		
 prečudesan		
 prešan		
 preštampan		
@@ -2959,10 +3269,12 @@ priseban	139
 prisilan	68	
 prisiljavan	10	
 prisluškivan	63	
+prisojan		
 pristan	172	
 pristojan	2822	
 pristran	18	
 pristrasan	458	
+pristrastan		
 pristupan		
 pristupačan	1235	
 prisutan	11530	
@@ -2973,6 +3285,7 @@ pritiskan	11
 pritiskivan		
 pritvoran		M
 privatan	1023	
+privatizovan		
 privezan	169	
 prividan	179	
 privilegovan	421	
@@ -2993,6 +3306,7 @@ problematičan	1331
 probojan	11	
 probran	31	
 procenjivan	62	
+procentualan		
 procesuiran	502	
 prodan	165	
 prodavan	384	
@@ -3019,6 +3333,7 @@ proizvodan		M
 proizvoljan	324	
 projektovan	1864	
 prokazan	58	
+proklamativan		
 proklamovan	60	
 proklinjan		
 prokockan	12	
@@ -3031,6 +3346,7 @@ promešan
 prominentan		
 promiskuitetan	33	
 promovisan	1424	
+promptan		
 promućkan		
 promućuran	48	
 pronominalan		
@@ -3052,6 +3368,8 @@ prostran	1495
 proteran	680	
 proterivan	23	
 protivan	379	
+protivpravan		
+protivprirodan		
 protivrečan	157	
 protivustavan	368	
 protkan	190	
@@ -3059,6 +3377,8 @@ prouzrokovan	358
 proučavan	110	
 proveravan	62	
 providan	467	
+provincijalan		
+provizoran		
 provociran	31	
 provokativan	367	
 prozaičan	64	
@@ -3079,6 +3399,7 @@ prvoklasan	134
 prvoplasiran		
 prvorazredan	76	
 prvorodan		
+psihodeličan		
 psihotičan	21	
 psovan		
 publikovan	314	
@@ -3093,11 +3414,15 @@ punovažan	163
 puran		M
 purpuran	14	
 pustolovan	12	
+pustopašan		
 pustošan		M
 puštan	93	
+pšeničan		
+rabatan		
 rabijatan		
 racionalan	1281	
 radan		M
+radijalan		
 radijan		M
 radikalan	720	
 radioaktivan	83	
@@ -3107,6 +3432,7 @@ radosan
 radostan	849	
 radovan		
 rafiniran	86	
+rafinisan		
 rafinovan		M
 rahitičan		
 rahman		
@@ -3118,6 +3444,7 @@ ran	675
 rangiran	570	
 ranjavan	69	
 rapidan	67	
+raritetan		
 rascepan		
 rascepkan	28	
 rascvetan		
@@ -3159,6 +3486,8 @@ ravnomeran	434
 ravnopravan	1809	
 ravnosilan		
 ravnostran		M
+ravnozvučan		
+razan		
 razapinjan	14	
 razaran	58	
 razbacan	63	
@@ -3184,6 +3513,9 @@ razmazan	20
 razmeran		
 razmetan		
 raznobojan	22	
+raznoglasan		
+raznoličan		
+raznorazan		
 raznorodan	44	
 raznostran		M
 raznovrstan	1300	
@@ -3211,7 +3543,10 @@ reaktivan	58
 realan	5707	
 realističan	360	
 realizovan	4951	
+recentan		
 recenziran	14	
+receptivan		
+recesivan		
 recikliran	104	
 recipročan	33	
 redigovan		
@@ -3221,12 +3556,14 @@ redukovan	309
 reduktivan		
 referentan	91	
 refleksan		
+refleksivan		
 reformisan	129	
 refundiran	50	
 regan		
 regionalan	66	
 registrovan	3494	
 regleman		
+regresivan		
 regrutovan	91	
 regularan	485	
 regulativan		
@@ -3239,17 +3576,23 @@ reklamiran	123
 rekonstruisan	767	
 rekordan	1144	
 rekreativan		
+rektalan		
+rekurzivan		
 relaksiran	82	
 relativan	407	
+relativizovan		
 relevantan	1231	
 religiozan	330	
 remontovan	55	
+renomiran		
 renoviran	1155	
 rentabilan	100	
 represivan	77	
+reprezentativan		
 reproduktivan		
 reprogramiran	58	
 resantiman		
+respektabilan		
 restauriran	103	
 restoran	10102	
 restriktivan		
@@ -3271,6 +3614,7 @@ rezigniran	163
 rezimiran		
 rezistentan		
 rezolutan	36	
+rezonantan		
 rešavan	169	
 režiran	119	
 riban		
@@ -3292,6 +3636,7 @@ rogobatan	65
 rohan		
 rolan	47	
 roman	18437	
+romansiran		
 romantičan	681	
 romboidan		
 rosan	13	
@@ -3302,6 +3647,7 @@ rugoban		M
 ruiniran	144	
 rujan	151	
 rukobran		
+ruralan		
 ruslan		
 rustikalan		
 rustičan	48	
@@ -3319,10 +3665,13 @@ saglasan	1469
 sagledan	191	
 sahan		M
 sahranjivan	26	
+sakralan		
 sakristan		
 salivan		
 salman		
+samilosan		
 samilostan		
+samobitan		
 samodestruktivan		
 samodopadan		
 samodovoljan		
@@ -3333,12 +3682,14 @@ samokritičan
 samopouzdan	69	
 samopožrtvovan		
 samopregoran	32	
+samorodan		
 samostalan	2057	
 samostan	336	
 samosvestan	80	
 samosvojan	110	
 samotan	25	
 samoupravan		
+samovlastan		
 samovoljan	57	
 samozadovoljan	22	
 samrtan		
@@ -3346,6 +3697,8 @@ san	21885
 sanan		M
 sangviničan		
 saniran	371	
+sanitaran		
+sanjan		
 saobrazan		M
 saodgovoran		
 saosećajan	79	
@@ -3377,6 +3730,8 @@ sejan	21
 sekantan		M
 seksipilan	16	
 seksualan	66	
+sekularan		
+sekundaran		
 selektivan	281	
 selman		
 senilan	50	
@@ -3388,11 +3743,13 @@ senzualan	137
 separatističan		
 separiran		
 septičan		
+sertifikovan		
 servilan	45	
 serviran	157	
 setan	101	
 sezan		
 sečuan		
+sferičan		
 shematičan		
 shodan	37	
 shrvan		
@@ -3409,6 +3766,7 @@ simptomatičan	63
 simuliran	40	
 simultan	11	
 sinan		
+sindikalan		
 sinhronizovan	270	
 sinoniman		
 sintetičan	18	
@@ -3429,6 +3787,7 @@ skandalozan	321
 skaredan	18	
 skeniran	125	
 skeptičan	871	
+skerletan		
 skidan	62	
 skladan	613	
 sklapan	54	
@@ -3437,6 +3796,7 @@ sklupčan	67
 skockan	72	
 skoncentrisan	326	
 skopčan	97	
+skotan		
 skovan	126	
 skovran		
 skraćivan	16	
@@ -3452,9 +3812,11 @@ slabodušan		M
 slabokrvan		
 slabomoćan		
 slabouman		
+sladostan		
 sladostrastan		
 slagan	13	
 slan	187	
+slasan		
 slastan	31	
 slavan	770	
 slavodobitan		
@@ -3484,6 +3846,7 @@ smrskan	34
 smrtan	196	
 smrtonosan	270	
 smrzavan		
+smutan		
 smućivan		
 snabdevan	29	
 snažan	8715	
@@ -3495,6 +3858,7 @@ sofisticiran	374
 sofističan		
 solidan	3476	
 solidaran	131	
+solventan		
 sopran	404	
 sortiran	63	
 sočan	190	
@@ -3506,9 +3870,11 @@ specifičan	5245
 specijalan	1271	
 specijalizovan	889	
 spektakularan	880	
+spektralan		
 spekulativan		
 spevan		
 spiralan	10	
+spiritualan		
 splašnjavan		
 spljeskan		
 spokojan	362	
@@ -3519,6 +3885,7 @@ sporan	1357
 sporazuman	27	
 sporedan	199	
 sporečkan		
+sporohodan		
 sposoban	6748	
 spravljan	15	
 spreman	22749	
@@ -3554,15 +3921,20 @@ starodrevan
 staromodan	193	
 starovečan		
 statičan	241	
+statutaran		
 stavljan	140	
 stefan		
 stenografisan		
 stepan		
+stereotipan		
 sterilan	223	
 sterilizovan		
 stevan		
 stešnjavan		
+stican		
 stidan	22	
+stihijan		
+stihovan		
 stilizovan	234	
 stimulativan	144	
 stimulisan	111	
@@ -3571,6 +3943,8 @@ stišan	16
 stojan		M
 stondiran		
 stopiran	114	
+stopostotan		
+stoprocentan		
 strahotan		
 stran	863	
 strasan		
@@ -3584,6 +3958,7 @@ strikan
 striktan	71	
 strpan	43	
 strugan	29	
+strukturalan		
 stručan	2389	
 stucan		
 studiozan	97	
@@ -3612,10 +3987,12 @@ suman
 sumaran	25	
 sumiran	24	
 sumoran	166	
+sumračan		
 suncobran	315	
 sunčan	769	
 suočavan		
 superioran	604	
+supermasivan		
 supermoćan		
 suprotan	2846	
 suptilan	404	
@@ -3650,6 +4027,7 @@ svezan	106
 svezivan		
 svečan	380	
 sviran	144	
+svojeručan		
 svojevoljan	25	
 svojevrstan	2685	
 svrsishodan	176	
@@ -3671,6 +4049,7 @@ taman	3892
 tamjan	374	
 tanan	75	
 tankoćutan		
+tanušan		
 tarzan		
 tavan	485	
 tačan	7262	
@@ -3684,11 +4063,13 @@ telesan
 temeljan	371	
 temperamentan	116	
 tempiran	50	
+temporalan		
 tendenciozan		
 teofan		
 teran	90	
 teretan	15	
 teritorijalan		
+termalan		
 terminalan		
 tertulijan		
 tesan	405	
@@ -3705,6 +4086,7 @@ timpan	13
 tipiziran	18	
 tipičan	3185	
 tiran		
+tirkizan		
 titan	601	
 titlovan	59	
 titulisan		
@@ -3726,11 +4108,13 @@ tragikomičan
 tragičan	960	
 trajan	1382	
 transcendentalan		
+transcendentan		
 transformisan	193	
 transgresivan		M
 transkontinentalan		
 transparentan	1175	
 transportovan	265	
+transverzalan		
 trasiran	115	
 traumatiziran		
 traumatizovan		
@@ -3748,6 +4132,7 @@ trivan
 trivijalan	134	
 trobojan		
 trodelan	10	
+trodimenzionalan		
 trojan		
 trojasan		
 trokrilan		
@@ -3755,9 +4140,12 @@ trolistan
 trorodan		
 trosložan		
 trosoban	264	
+trospratan		
+trostran		
 trovan	31	
 tročlan		
 trošan	40	
+trtičan		
 trudan	108	
 truležan		
 truman		
@@ -3812,6 +4200,7 @@ uklanjan	26
 uklesan	186	
 ukopan	332	
 ukovan		M
+ukrasan		
 ukrcan	42	
 ukucan	30	
 ukupan	11617	
@@ -3835,13 +4224,16 @@ umešan	1186
 umilan	25	
 umirivan		
 umobolan	19	
+umoboljan		
 umoljavan		
 umoran	2296	
 umotan	215	
 umrljan	20	
+unakrsan		
 uniforman	44	
 uniformisan	33	
 unikatan	398	
+unitaran		
 univerzalan	646	
 uništavan	98	
 unosan	720	
@@ -3948,6 +4340,7 @@ ušuškan	260
 užasan	1141	
 užurban	83	
 vagan	10	
+vaginalan		
 vajan		M
 vakcinisan	192	
 valerijan		
@@ -3962,17 +4355,20 @@ vaspitan	519
 vaspitavan	181	
 vatan		M
 vatikan		
+vatrootporan		
 vazalan		
 vazdan		M
 vazdušan		
 važan	25192	
 vedran		
 vegan	161	
+veleban		
 velelepan	58	
 veleuman		M
 velikan	557	
 velikodušan	233	
 veličan	24	
+veneričan		
 venčan	55	
 venčavan		
 veran	2309	
@@ -3988,7 +4384,9 @@ vezan	9944
 vezivan	73	
 večan	440	
 vešan		
+vibrantan		
 vidan	448	
+vihoran		
 vijan		
 vinkelman		
 vinorodan		
@@ -3996,6 +4394,7 @@ virman	52
 virtuelan	94	
 virtuozan	32	
 virulentan		
+viskozan		
 visokofrekventan		
 visokokvalifikovan		
 visokoparan		M
@@ -4010,12 +4409,15 @@ viđan	94
 višebojan		M
 višeglasan		
 višeslojan	114	
+višesložan		
 višesmeran		
 višestran	13	
+višeznačan		
 višečlan		
 vladan		
 vlastan		M
 vlažan	580	
+vodonepropusan		
 vodootporan	291	
 vodoplavan		M
 vodoravan	31	
@@ -4030,8 +4432,10 @@ vragolan	46
 vran	30	
 vratoloman		
 vraćan	74	
+vrbovan		
 vredan	9079	
 vrednovan	226	
+vremešan		
 vređan	73	
 vrletan		
 vrstan	535	
@@ -4079,6 +4483,7 @@ zakopčan	51
 zakovan	62	
 zakucan	140	
 zalivan		
+zalizan		
 zališan		M
 zaljuljan		
 zaludan	151	
@@ -4145,9 +4550,11 @@ zavičajan
 zavrbovan	21	
 zavrzan		M
 završavan	17	
+zazidan		
 zazoran	10	
 zazvan		
 začaran	168	
+začešljan		
 začudan	21	
 zbacivan		
 zbran		
@@ -4163,18 +4570,22 @@ zgomilan
 zgođušan		
 zgrudvan		
 zgrušan		
+zgubidan		
 zgužvan	46	
 zidan	248	
 zimogrozan		
 zimomoran		
+ziratan		
 zlatan	1140	
 zlatonosan		
+zlatotkan		
 zlaćan		
 zloban	187	
 zloglasan		
 zlokoban	69	
 zlonameran	445	
 zloslutan	31	
+zlosrećan		
 zlostavljan	155	
 zlovoljan	50	
 zloćudan	36	
@@ -4212,6 +4623,7 @@ zvučan	66
 čemeran	23	
 česan		
 četvoronožan		
+četvoročlan		
 činjeničan		
 čipkan		
 čistokrvan	11	
@@ -4219,6 +4631,7 @@ zvučan	66
 član	121705	
 čoban	182	
 čohan		M
+čokoladan		
 čovečan	28	
 čudan	3719	
 čudesan	746	
@@ -4280,6 +4693,7 @@ zvučan	66
 žan		M
 žban		M
 žedan	620	
+želatinozan		
 željan	1118	
 žigosan	96	
 žitorodan		

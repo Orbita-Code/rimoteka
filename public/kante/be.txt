@@ -1,4 +1,4 @@
-228
+226
 Kube	258	
 Zagrebe	232	
 abe		
@@ -118,14 +118,12 @@ pogrebe	123
 pogube	232	
 poljube	222	
 porobe	133	
-postrojbe	242	
 potrebe	80240	
 prababe	112	
 praizvedbe	47	
 predodžbe	53	
 pregibe	46	
 preljube	372	
-preobrazbe	30	
 preslabe	54	
 pretvorbe	28	
 prigrabe	129	

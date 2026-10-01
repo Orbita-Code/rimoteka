@@ -1,4 +1,4 @@
-2946
+2944
 Bugarsku	470	
 Dansku	90	
 Francusku	1374	
@@ -1380,7 +1380,6 @@ nepriliku	164
 neradniku		
 neradničku		
 nerodimku		
-nesretniku	29	
 nesrećniku	64	
 nestanku	597	
 neuku	34	
@@ -2669,7 +2668,6 @@ vučku
 zabavljačku	11	
 zabavniku	239	
 zabelešku	118	
-zabilješku	13	J
 zadarsku	32	
 zadatku	3375	
 zadršku	74	
@@ -2993,5 +2991,6 @@ umjetniku
 umjetničku		
 vijeku	1687	
 vjeronauku		
+zabilješku	13	J
 zamjeniku		
 čovjeku		

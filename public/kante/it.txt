@@ -1,4 +1,5 @@
-512
+530
+amonit		
 antisemit	11	
 antracit	58	
 apetit	2491	
@@ -59,12 +60,16 @@ git
 glasit		M
 glasovit	13	
 glibovit		
+gorovit		
 govorit		
 grafit	914	
 granit	372	
 grifit		
+grmovit		
 gromovit		
+grozovit		
 grčevit	22	
+gvožđevit		
 habit		
 hematit		
 hematokrit	44	
@@ -163,6 +168,7 @@ mnogoočit
 mnogorečit		
 monolit	157	
 mrazovit		
+muljevit		
 munjevit	119	
 nabusit	18	
 nadoknadit		
@@ -189,9 +195,11 @@ navalit
 navratit		
 navršit		
 nazdravit		
+necelovit		
 nedarovit		
 neduhovit	20	
 neistinit	126	
+neizrazit		
 nemaštovit	36	
 nenasit		
 neofit	92	
@@ -278,6 +286,7 @@ postavit
 postupit		
 potopit		
 potražit		
+potrebit		
 potrošit		
 potvrdit		
 povalit		
@@ -345,6 +354,7 @@ provalit
 proverit		
 provjerit		J
 provodit		
+prozelit		
 prudovit		
 pružit		
 rasporit		
@@ -399,6 +409,7 @@ spržit
 srdit	46	
 stalagmit		
 stalaktit		
+stanovit		
 stasit	72	
 steatit		
 stenovit	21	
@@ -421,10 +432,12 @@ termit	12
 transvestit	51	
 tranzit	1285	
 travestit		
+trilobit		
 trnovit	397	
 troglodit		M
 trombocit		
 trudit		
+tvit		
 ubacit		
 ubojit	78	
 udarit		
@@ -438,6 +451,7 @@ ugušit
 uključit		
 uklonit		
 uklopit		
+uljevit		
 unajmit		
 uništit		
 upalit		
@@ -453,6 +467,7 @@ usrećit
 utopit		
 uvalit		
 uvjerit		J
+uznosit		
 uzorit	22	
 uzvisit		M
 uzvratit		
@@ -463,6 +478,7 @@ velebit
 vetrovit	58	
 večit	69	
 vidovit	257	
+vilovit		
 vit		
 vlastit		
 volstrit		
@@ -504,8 +520,10 @@ znamenit	113
 čestit	459	
 čivit		
 člankovit		
+čudovit		
 čvornovit		
 šehit		M
+šiit		
 širit		M
 štit	1890	
 šumovit	27	

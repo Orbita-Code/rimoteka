@@ -1,4 +1,4 @@
-11926
+12582
 Budimpešti		
 Bukurešti		
 Cveti		
@@ -57,6 +57,7 @@ alati	2603
 alfabeti	15	
 alimentirati		
 aljkavosti		
+alocirati		
 alpinisti	218	
 alterirati		
 alternirati		
@@ -71,6 +72,7 @@ amerikanizirati
 aminati		M
 aminovati	48	
 amnestirati	128	
+amortizovati		
 amputirati	42	
 amuleti		
 analizirati	2364	
@@ -119,6 +121,7 @@ argati
 argatovati		
 argonauti		
 argumenti	3465	
+argumentovati		
 arhitekti	1259	
 arhivirati	95	
 aristokrati	36	
@@ -129,6 +132,7 @@ arnauti
 arondirati		M
 artefakti	236	
 artifakti		
+artikulisati		
 artisti	96	
 arčiti	26	
 asertivnosti		
@@ -143,6 +147,7 @@ asocirati	98
 aspekti	3053	
 aspiranti	32	
 astronauti	1222	
+atakovati		
 ateisti	886	
 atentati	89	
 aterirati	12	
@@ -300,7 +305,6 @@ bivati	158
 bivstvovati		
 bizarnosti	174	
 bičevati	13	
-bjelokosti	23	J
 blagodariti	70	
 blagodarnosti		
 blagodati	1942	
@@ -337,6 +341,7 @@ bližiti
 bljesnuti	16	
 blješti		
 bljucnuti		
+bljunuti		
 bljuvati	11	
 blokirati	1182	
 bludeti		
@@ -387,10 +392,12 @@ braniti	4657
 brati	310	
 bratimiti	16	
 bratiti		
+bratovati		
 brbljati	28	
 brbljivosti	21	
 brdoviti	87	
 brecati		M
+brecnuti		
 bregoviti		
 brektati		M
 breskvasti		
@@ -515,6 +522,7 @@ citati	954
 citirati	711	
 civilizovanosti	122	
 civilizovati	36	
+cizelirati		
 cičati		
 cjenkati		J
 cjepidlačiti		J
@@ -534,6 +542,7 @@ crpiti	53
 crpsti	39	
 crtati	341	
 crti	356	
+crtkati		
 crvati		M
 crveneti	21	
 crveniti	16	
@@ -549,6 +558,7 @@ cveliti
 cvetati	184	
 cvileti		
 cviliti	11	
+cvoknuti		
 cvokotati		
 cvrknuti		M
 cvrkutati		
@@ -593,6 +603,7 @@ deficiti	369
 defilovati	15	
 definirati		
 definisati	5326	
+deformisati		
 degenerisati		M
 degradirati	79	
 degustirati		
@@ -605,6 +616,7 @@ dekadenti
 deklamovati		M
 deklarirati		
 deklarisati	116	
+deklasirati		
 deklinirati		
 dekodirati	64	
 dekorisati	176	
@@ -666,6 +678,7 @@ despoti	135
 desti		M
 destilisati		M
 destilovati	10	
+destruisati		
 detektovati	577	
 deterdženti	207	
 detinjasti	84	
@@ -698,6 +711,7 @@ digitalizovati	47
 dignuti	219	
 dihtovati		
 dijagnosticirati		
+dijagnostikovati		
 dijalekti	169	
 dijamanti	437	
 dijeliti	357	J
@@ -710,6 +724,7 @@ dilovati
 dimiti	14	
 dinamiti		
 dinamizirati		
+dinamizovati		
 dinasti		
 dinstati	495	
 diplomati	394	
@@ -727,6 +742,7 @@ disidenti	315
 disimilirati		
 disketi	75	
 diskreditovati	100	
+diskriminisati		
 diskutanti	94	
 diskutovati	1116	
 diskvalifikovati	118	
@@ -870,6 +886,7 @@ dopremiti	144
 dopreti	396	
 doprineti	9728	
 doprinositi	341	
+doprti		
 dopuniti	1216	
 dopunjavati	410	
 dopusti	1976	
@@ -966,6 +983,7 @@ dočuti
 došapnuti	10	
 došaptavati		
 došetati	10	
+došivati		
 doškolovati		
 došuljati		
 došunjati		M
@@ -997,6 +1015,7 @@ dreždati		M
 drhtati	68	
 drhti	559	
 drhturiti		
+driblati		
 driblovati		M
 drijemati		J
 driti		
@@ -1074,6 +1093,7 @@ egoisti	91
 egzistencijalisti	15	
 egzistirati	103	
 egzorcisti	24	
+ejakulirati		
 ejaleti		
 ekipirati		
 ekologisti		
@@ -1120,6 +1140,7 @@ eliti	1931
 elitisti	31	
 elizabeti		
 emaljirati		
+emancipovati		
 emanirati		
 emigranti	561	
 emigrirati	38	
@@ -1200,6 +1221,7 @@ filmovati		M
 filozofirati	90	
 filtrirati	158	
 finalisti	740	
+finalizovati		
 finansirati	3305	
 fingirati		
 fićukati		
@@ -1249,6 +1271,7 @@ fundirati		M
 funkcionalnosti	3962	
 funkcionisati	2219	
 funti	7164	
+furati		
 furnirati		
 fusnoti	278	
 futuristi	60	
@@ -1264,6 +1287,7 @@ gakati		M
 galamiti	55	
 galeristi	33	
 galopirati		
+galvanizirati		
 gamizati		M
 ganjati	69	
 ganuti	81	
@@ -1306,6 +1330,7 @@ gladiti	22
 gladneti		M
 gladovati	162	
 glagoljati		
+glancati		
 glasati	6934	
 glasiti	272	
 glasnosti	45	
@@ -1318,6 +1343,8 @@ glazirati
 glačati	18	
 gledanosti	1147	
 gledati	11815	
+glednuti		
+gleduckati		
 gletovati		
 gleđosati		M
 globalisti	242	
@@ -1332,6 +1359,7 @@ gluparati		M
 glupeti		M
 glupirati	13	
 gluposti	13085	
+gluvariti		
 gluveti		M
 glušiti		
 gmizati	10	
@@ -1429,8 +1457,10 @@ griznuti		M
 grlati	45	
 grliti	88	
 grmeti	13	
+grmnuti		
 grmoviti		
 grnuti		M
+grohotati		
 groktati		M
 gromoviti	15	
 grozdasti		
@@ -1467,6 +1497,7 @@ gusariti
 guslati	15	
 gusnuti		M
 gusti	508	
+gustirati		
 gutati	145	
 gutnuti		M
 guzati	10	
@@ -1508,6 +1539,7 @@ hinduisti	26
 hiniti		
 hipnotisati	24	
 hiroviti	41	
+histerisati		
 histerizirati		
 hitati	29	
 hiti	32	
@@ -1565,6 +1597,7 @@ hvastati
 hvatati	380	
 hvati		
 idealisti	214	
+idealizovati		
 idejnosti	20	
 identifikovati	1503	
 identiteti	474	
@@ -1583,10 +1616,13 @@ imenovati	1018
 imigranti	652	
 imigrirati		
 imitirati	194	
+imobilisati		
 imobilizirati		
 imperijalisti	173	
 implantati	212	
 implanti	250	
+implantirati		
+implementirati		
 implicirati	32	
 implodirati		
 imponovati	21	
@@ -1604,6 +1640,7 @@ inatiti	39
 inaugurisati	10	
 incidenti	1446	
 indicirati		
+indignirati		
 individualnosti	837	
 indoktrinirati		
 indosirati	12	
@@ -1617,6 +1654,7 @@ infiltrirati	36
 informisanosti	1167	
 informisati	1789	
 inhalirati	50	
+inhibirati		
 inicirati	655	
 injektovati		
 inkarnirati		
@@ -1665,6 +1703,7 @@ ironizirati
 iscediti	231	
 isceliti	151	
 isceljivati	49	
+iscenirati		
 iscepati	21	
 iscepkati		M
 isceriti		
@@ -1684,6 +1723,7 @@ iseljavati	46
 isfabrikovati		M
 isfenirati		
 isflekati		M
+isforsirati		
 ishitrenosti		
 ishlapeti		
 ishlapljivati		
@@ -1727,6 +1767,7 @@ iskobeljati	31
 iskolačiti		
 iskomadati		M
 iskomplikovati	97	
+iskompromitovati		
 iskontrolisati	101	
 iskopati	330	
 iskopavati	25	
@@ -1773,6 +1814,7 @@ iskuljati		M
 iskupati		
 iskupiti	126	
 iskupljati		M
+iskupljivati		
 iskusiti	575	
 iskusnosti		
 iskuvati		M
@@ -1785,6 +1827,7 @@ iskvasiti		M
 islamisti	654	
 islediti		M
 isleđivati		M
+islužiti		
 ismejati	74	
 ismejavati	43	
 ismevati	110	
@@ -1795,6 +1838,8 @@ ispakovati
 ispaliti	127	
 ispaljivati	27	
 isparati		
+isparavati		
+isparcelisati		
 ispariti	104	
 ispasti	1523	
 ispatiti		
@@ -1807,6 +1852,7 @@ ispevati	16
 ispijati	51	
 ispiliti	10	
 ispipati	11	
+ispipavati		
 ispirati	222	
 ispisati	488	
 ispisivati	127	
@@ -1826,7 +1872,9 @@ isplivavati
 ispljunuti	44	
 ispljuskati		
 ispljuvati	32	
+ispljuvavati		
 isploviti	35	
+isplovljavati		
 ispolirati	51	
 ispoljavati	223	
 ispoljiti	550	
@@ -1882,6 +1930,7 @@ ispričavati	12
 isprljati	67	
 isprobati	777	
 isprobavati	98	
+isprodavati		
 isprogramirati		
 isprositi	22	
 isprosjačiti		M
@@ -1911,6 +1960,8 @@ istakati		M
 istaknuti	2487	
 istaložiti		
 istanjiti	72	
+istanjivati		
+istančati		
 istegnuti	71	
 isterati	627	
 isterivati	39	
@@ -1921,22 +1972,27 @@ isteturati
 istezati	51	
 isti	92941	
 isticati	833	
+istimariti		
 istiniti	1095	
 istinitosti	666	
 istinoljubivosti	54	
 istiskivati	23	
 istisnuti	234	
+istkati		
 istopiti	281	
+istovarati		
 istovariti	36	
 istovarivati		
 istovetnosti	194	
 istočiti	11	
 istrajati	677	
+istrajavati		
 istrajnosti	690	
 istražiti	1525	
 istraživati	903	
 istrebiti	221	
 istrebljavati		
+istrebljivati		
 istrenirati	39	
 istresati	17	
 istresti	113	
@@ -1947,6 +2003,7 @@ istrljati	71
 istrošiti	92	
 istrpeti	147	
 istrti		M
+istrtljati		
 istrugati		M
 istruleti		
 istruliti	24	
@@ -1977,6 +2034,7 @@ izazvati	7641
 izbaciti	2922	
 izbacivati	258	
 izbalansirati	146	
+izbalaviti		
 izbatinati		
 izbaviti	410	
 izbavljati	12	
@@ -1984,6 +2042,7 @@ izbegavati	4027
 izbegnuti	172	
 izbeleti		M
 izbeliti		
+izbeljivati		
 izbetonirati		
 izbezobraziti		M
 izbezumiti	13	
@@ -2004,6 +2063,7 @@ izboriti	2183
 izbornosti	30	
 izbosti	39	
 izbočiti		
+izbrazdati		
 izbrbljati		
 izbrijati		
 izbrisati	1223	
@@ -2026,6 +2086,7 @@ izdeljati		M
 izderati		
 izdevati		M
 izdevetati		
+izdešavati		
 izdiferencirati		M
 izdignuti	98	
 izdiktirati	31	
@@ -2056,6 +2117,7 @@ izeti
 izgalamiti		
 izganjati		
 izgarati	31	
+izgasiti		
 izgaziti	18	
 izginuti	163	
 izgladiti	75	
@@ -2094,6 +2156,7 @@ izgubljenosti	147
 izguliti		
 izgurati	208	
 izguravati		
+izgutati		
 izgužvati		
 izidati		M
 izigrati	98	
@@ -2105,6 +2168,8 @@ izjahati
 izjaloviti	25	
 izjasniti	1169	
 izjaviti	666	
+izjavljivati		
+izjašnjavati		
 izjedati	12	
 izjednačavati	262	
 izjednačiti	660	
@@ -2153,6 +2218,7 @@ izmanipulisati	55
 izmasakrirati		
 izmasirati	38	
 izmastiti		M
+izmazati		
 izmaštati		
 izmeniti	2400	
 izmenjati	11	
@@ -2163,6 +2229,7 @@ izmestiti	353
 izmetnuti		M
 izmećariti		
 izmešati	935	
+izmeštati		
 izmicati	38	
 izmigoljiti	20	
 izmiksati	129	
@@ -2180,12 +2247,14 @@ izmoriti	23
 izmotavati		
 izmozgati		
 izmrcvariti		
+izmrljati		
 izmrviti		M
 izmršaviti		M
 izmucati		M
 izmudriti		
 izmudrovati		M
 izmusti	22	
+izmućkati		
 izmučiti		
 izmuštrati		M
 iznajmiti	855	
@@ -2212,6 +2281,7 @@ iznuđavati
 iznuđivati		
 izobilovati		M
 izobičajiti		M
+izobličavati		
 izobličiti	38	
 izobraziti	23	
 izobražavati	12	
@@ -2226,6 +2296,7 @@ izostajati	19
 izostati	1221	
 izostaviti	528	
 izostavljati	30	
+izoštravati		
 izoštriti	76	
 izrabiti		
 izrabljivati		
@@ -2248,6 +2319,7 @@ izrađivati	336
 izražavati	288	
 izrecitovati		M
 izreckati		M
+izredati		
 izrediti		
 izreklamirati		
 izrendisati		
@@ -2268,11 +2340,13 @@ izrojiti		M
 izroniti	53	
 izronjavati		M
 izrositi		
+izrovati		
 izrugati		
 izrugivati	21	
 izručiti	359	
 izručivati	34	
 izružiti		M
+izubijati		
 izudarati	13	
 izujedati		M
 izukrštati		M
@@ -2289,10 +2363,12 @@ izuzetnosti	316
 izuzimati		
 izučavati	270	
 izučiti	110	
+izvabiti		
 izvaditi	1908	
 izvagati	89	
 izvajati		M
 izvaliti	34	
+izvaljati		
 izvaljivati		
 izvarati		
 izvedriti		M
@@ -2436,6 +2512,7 @@ ječati
 ježiti		
 jogunasti	13	
 joguniti		
+jonizovati		
 jotovati		M
 judaisti		
 junačiti	17	
@@ -2451,6 +2528,8 @@ kaditi
 kajati	337	
 kakati		
 kalajisati		
+kalati		
+kaldrmisati		
 kalemiti	41	
 kaliti	28	
 kaljati	14	
@@ -2467,7 +2546,9 @@ kamuflirati	37
 kanalisati	144	
 kandidati	11859	
 kandidovati	751	
+kandirati		
 kaniti		
+kanonizovati		
 kantati		
 kanti	898	
 kanuti	16	
@@ -2480,6 +2561,7 @@ kapitalizirati
 kapitulirati	74	
 kapnuti	22	
 kapricirati		M
+kaptirati		
 kaputi	203	
 karakterisati	214	
 karati	46	
@@ -2528,6 +2610,7 @@ kelti	402
 kenjkati		
 kerebečiti		
 keti		
+kevtati		
 keziti		M
 kibicovati		
 kicošiti		
@@ -2538,11 +2621,13 @@ kidnuti		M
 kihati		M
 kihnuti		
 kijati		M
+kikotati		
 kimati		
 kinjiti	39	
 kinuti		M
 kinđuriti		M
 kipeti		
+kiptati		
 kipteti		
 kipti	116	
 kiseliti	13	
@@ -2596,10 +2681,12 @@ klistirati
 klizati	56	
 kliziti	66	
 kliznuti	19	
+kliširati		
 kljasti	13	
 kljucati		
 kljukati	13	
 kljunasti		
+kljunuti		
 kljuvati		
 ključati	16	
 klobučati		
@@ -2616,6 +2703,7 @@ kmeknuti		M
 kmetovati		M
 kmečati		M
 knezovati		M
+knjavati		
 književnosti	20658	
 knjižiti	94	
 koalirati		
@@ -2626,6 +2714,7 @@ kodificirati
 kodirati	40	
 koeficijenti		
 koegzistirati	34	
+koincidirati		
 kojoti	57	
 koketirati	21	
 koknuti		M
@@ -2674,6 +2763,7 @@ komplimenti	373
 komponenti	5797	
 komponovati	56	
 kompoti	73	
+komprimovati		
 kompromitirati		
 kompromitovati	143	
 komunicirati	916	
@@ -2686,8 +2776,10 @@ koncentrisati	479
 koncepti	1245	
 koncerti	2812	
 koncertirati		
+koncipirati		
 konciznosti	26	
 kondenzovati	22	
+konektovati		
 konferisati		M
 konfeti		
 konfinirati		
@@ -2748,6 +2840,7 @@ kopkati
 kopneti		
 koprcati	14	
 kopti		
+kopčati		
 koraknuti	14	
 koračati	161	
 koračiti		M
@@ -2761,6 +2854,7 @@ koristiti	39698
 koriti	77	
 kormilariti		
 korneti		
+korodirati		
 korseti	56	
 korumpiranosti	316	
 korumpirati		
@@ -2847,6 +2941,7 @@ krivudati	10
 krizmati		
 kričati		
 križati		
+krkati		
 krkljati		
 krknuti		M
 krljušti	218	
@@ -2873,6 +2968,7 @@ krstiti	255
 krti	81	
 krunisati	109	
 kruniti	15	
+krupnjati		
 kruti	297	
 krutiti		M
 krutosti	189	
@@ -2898,6 +2994,7 @@ kukasti	257
 kukati	536	
 kukavnosti		
 kukičati		
+kukurekati		
 kukurikati		
 kukuriknuti		
 kulirati		
@@ -2908,6 +3005,7 @@ kulučiti		M
 kumiti		
 kumovati	24	
 kumulirati		
+kundačiti		
 kunjati		
 kupasti	32	
 kupati	493	
@@ -2921,6 +3019,7 @@ kusnuti		M
 kusurati		M
 kuvati	2055	
 kuverti		
+kućariti		
 kućiti	11	
 kušati	72	
 kužiti		M
@@ -2933,6 +3032,7 @@ kvasiti	81
 kvačiti		
 kvocati		
 kvoti	142	
+kvrcati		
 kvrcnuti		
 kvrčati		M
 labaviti		
@@ -2958,6 +3058,7 @@ landarati		M
 landati		
 lansirati	578	
 lanuti		
+laparati		
 larmati		
 laskati	51	
 lasti		M
@@ -2976,6 +3077,7 @@ lažljivosti	15
 lažnosti	49	
 lebdeti	52	
 lecati		
+lecnuti		
 lediti	25	
 legalisti	170	
 legalizovati	414	
@@ -3006,6 +3108,7 @@ leti	10787
 letiti	21	
 letovati	178	
 leukociti	270	
+levitirati		
 lečiti	2481	
 lešiti		M
 leškariti		M
@@ -3080,9 +3183,11 @@ logorovati
 lojalisti	29	
 lojalnosti	1182	
 lokaliteti	429	
+lokalizovati		
 lokalnosti	17	
 lokati		
 lolati		
+lomatati		
 lomiti	339	
 lomljivosti	13	
 lopati	16	
@@ -3099,6 +3204,7 @@ luditi		M
 ludjeti		J
 ludosti	760	
 ludovati	32	
+luftirati		
 lukaviti		M
 lukavosti	121	
 lumpovati		
@@ -3252,6 +3358,7 @@ mignuti		M
 migoljiti		
 migranti	395	
 migrirati		
+mijaukati		
 mileti		M
 milijarditi		
 milioniti		
@@ -3264,6 +3371,7 @@ milovati	130
 milošti		
 mimoilaziti	11	
 minesoti		
+minimizovati		
 minirati	56	
 ministrirati		
 minuti	2513	
@@ -3298,6 +3406,8 @@ mleti	48
 mlečnosti	122	
 mlitavosti	26	
 mljackati		
+mljacnuti		
+mljaskati		
 mljeskati		M
 mljeti		J
 mniti		
@@ -3312,6 +3422,7 @@ modalnosti	14
 modelirati	59	
 modelovati		
 modernisti	114	
+modernizovati		
 modernosti	545	
 modifikovati	370	
 modreti		M
@@ -3369,6 +3480,7 @@ mrknuti		M
 mrljati		
 mrmljati	14	
 mrmoljiti		M
+mrmoriti		
 mrmoti	37	
 mrndžati		M
 mrsiti	22	
@@ -3380,6 +3492,7 @@ mrziti	116
 mrzjeti		J
 mrznuti		
 mrzosti	24	
+mrčiti		
 mršati		M
 mršaviti		M
 mršavosti	82	
@@ -3442,6 +3555,7 @@ nabrojati	887
 nabrojiti	47	
 nabrusiti		M
 nabubati	15	
+nabubreti		
 nabubriti		
 nabujati		
 naburiti		
@@ -3477,6 +3591,7 @@ nadgovarati		M
 nadgovoriti		M
 nadgraditi	45	
 nadgrađivati		
+nadignuti		
 nadigrati	40	
 nadigravati		
 nadilaziti	14	
@@ -3485,6 +3600,7 @@ nadimiti		M
 nadirati	14	
 nadisati		
 nadjačati	107	
+nadjačavati		
 nadlagivati		M
 nadlakti		
 nadletati		
@@ -3504,6 +3620,7 @@ nadnositi
 nadodati	24	
 nadodavati		
 nadograditi	361	
+nadograđivati		
 nadojiti		M
 nadoknaditi	2121	
 nadoknađavati		
@@ -3537,20 +3654,26 @@ naduriti
 naduti	38	
 nadutosti	288	
 naduvati	64	
+naduvavati		
+nadvijati		
 nadvikati		M
 nadvikivati		
 nadvirivati		M
 nadvisiti	31	
+nadvisivati		
 nadviti	22	
 nadvišavati		M
 nadvladati	257	
 nadvladavati		
+nadvlačiti		
+nadzidati		
 nadzirati		M
 nadžidžati		M
 nadživeti	183	
 nadživljavati		
 nadživljivati		
 naelektrisati		M
+nafrakati		
 nafti	468	
 naganjati		
 nagaraviti		M
@@ -3590,6 +3713,7 @@ nagrejati		M
 nagristi	10	
 nagrizati	17	
 nagrnuti	42	
+nagrtati		
 nagruvati		
 nagrđivati		M
 nagurati	34	
@@ -3639,6 +3763,7 @@ nakiti	47
 nakititi	11	
 naklapati	10	
 naklati		M
+nakljukati		
 nakloniti		
 naklonosti	847	
 naklopiti		
@@ -3655,6 +3780,7 @@ nakrenuti
 nakresati		M
 nakriviti		
 nakruniti		M
+nakucati		
 nakupiti	89	
 nakupljati	23	
 nakupovati		
@@ -3679,6 +3805,7 @@ naljoskati
 naljuti	732	
 naljutiti	341	
 nalokati		
+naloviti		
 naložiti	491	
 nalupati	17	
 namagarčiti		
@@ -3762,6 +3889,7 @@ napetosti	3046
 napijati	17	
 napinjati	11	
 napipati	148	
+napipavati		
 napisati	5776	
 napiti	183	
 naplati	4756	
@@ -3869,6 +3997,7 @@ nasmijati	95	J
 nasmijavati		J
 naspavati	56	
 naspeti		M
+naspremati		
 nasrnuti	57	
 nasrtati	19	
 nastajati	89	
@@ -3878,6 +4007,7 @@ nastati	3748
 nastavati	15	
 nastaviti	23771	
 nastavljati	247	
+nastirati		
 nastojati	2424	
 nastojavati		
 nastradati	150	
@@ -3887,6 +4017,7 @@ nastupati	1479
 nastupiti	5142	
 nasukati	22	
 nasuti	127	
+natakariti		
 natakati		
 nataknuti	19	
 nataložiti	20	
@@ -3898,9 +4029,12 @@ naterati	3117
 naterivati		
 natezati	36	
 naticati		
+natirati		
 natiskati		
+natisnuti		
 natjecati	47	
 natkriliti		
+natkriljivati		
 natkriti		
 natkrivati		
 natmuriti		M
@@ -3908,6 +4042,7 @@ natopiti	106
 natovariti	97	
 natočiti	36	
 natpevati		M
+natrabunjati		
 natrapati		
 natresati		M
 natrgati		
@@ -3929,6 +4064,7 @@ natuštiti		M
 nauditi	374	
 nauljiti	48	
 naumiti		M
+naučavati		
 naučiti	9047	
 naučnosti		
 nauživati	20	
@@ -3965,14 +4101,17 @@ navršiti	89
 nazadovati	37	
 nazdraviti	67	
 nazdravljati	15	
+nazebsti		
 nazepsti		M
 nazirati	68	
 nazivati	1189	
 naznačavati		
 naznačiti	496	
+naznačivati		
 nazreti	363	
 nazubiti		
 nazuti		M
+nazuvati		
 nazvati	7650	
 naćuliti		
 načekati	87	
@@ -3983,7 +4122,9 @@ načiniti	1183
 načinjati	13	
 načičkati		
 načuditi	125	
+načuknuti		
 načuljiti		M
+načupati		
 načuti	11	
 nađubriti		M
 našaliti	69	
@@ -4008,7 +4149,6 @@ nedeljivosti	83
 nedirnuti	63	
 nedoraslosti	55	
 nedoslednosti	666	
-nedosljednosti	40	J
 nedostajati	966	
 nedostati		
 nedostižnosti	21	
@@ -4082,7 +4222,6 @@ neprekinuti	108
 neprepoznatljivosti	258	
 neprijatnosti	2242	
 nepristojnosti	100	
-nepristranosti	10	
 nepriznati	103	
 neprodati		
 neprohodnosti	47	
@@ -4174,6 +4313,7 @@ nipodaštavati	61
 niskosti	106	
 niti	111675	
 nitrati	148	
+nivelisati		
 nizati	67	
 nišaniti	27	
 niškoristi		
@@ -4240,6 +4380,7 @@ obazreti	12
 obazrivosti	81	
 obdarenosti	67	
 obdariti	28	
+obdarivati		
 obdelavati		
 obediti		M
 obedovati	37	
@@ -4250,7 +4391,9 @@ obeliti
 obelodaniti	306	
 obelodanjivati		
 obeshrabriti	248	
+obeshrabrivati		
 obesiti	178	
+obesmisliti		
 obesmrti		
 obesmrtiti		
 obesnažiti		M
@@ -4263,10 +4406,12 @@ obesvetiti
 obezbediti	17281	
 obezbeđivati	603	
 obezglaviti	14	
+obezličavati		
 obeznaniti		M
 obezobraziti		M
 obezoružati		
 obezvrediti	92	
+obezvređivati		
 obećati	426	
 obećavati	219	
 obeđivati		
@@ -4297,6 +4442,7 @@ objaviti	5316
 objavljivati	1384	
 objašnjavati	1368	
 objediniti	556	
+objedinjavati		
 objekti	12761	
 objektivnosti	1123	
 oblagati	28	
@@ -4333,6 +4479,7 @@ obodriti	18
 obogaljiti		
 obogati	1157	
 obogatiti	1202	
+obogaćivati		
 obojadisati		
 obojati		
 obojenosti	133	
@@ -4411,7 +4558,9 @@ ocinkariti
 ocrniti	76	
 ocrnjivati		
 ocrtati	69	
+ocrtavati		
 ocrveniti		M
+ocvasti		
 odabirati		M
 odabrati	4305	
 odagnati	180	
@@ -4434,10 +4583,12 @@ odbacivati	229
 odbačenosti	136	
 odbijati	284	
 odbiti	2093	
+odblokirati		
 odbojnosti	244	
 odbolovati	14	
 odbraniti	1327	
 odbraviti		M
+odbrojati		
 odbrojavati	23	
 odbrojiti		
 odbrusiti	13	
@@ -4452,6 +4603,7 @@ odevati	23
 odgajati	202	
 odgajiti	61	
 odgađati		
+odgegati		
 odgledati	279	
 odglumiti	80	
 odgoditi	133	
@@ -4468,6 +4620,7 @@ odgrtati		M
 odgurati	13	
 odgurivati		
 odgurnuti	82	
+odignuti		
 odigrati	3883	
 odigravati	136	
 odijevati	10	J
@@ -4497,9 +4650,11 @@ odleti	477
 odležati	41	
 odlikovati	221	
 odliti	35	
+odlivati		
 odljutiti		
 odlomiti	19	
 odložiti	1353	
+odlunjati		
 odlutati	40	
 odlučiti	6776	
 odlučivati	2964	
@@ -4523,6 +4678,7 @@ odmoriti	651
 odmotati	36	
 odmotavati	37	
 odmrsiti		
+odmrzavati		
 odmrznuti	80	
 odnaroditi		
 odnegovati		M
@@ -4548,9 +4704,11 @@ odrastati	118
 odrasti	255	
 odrati	126	
 odraziti	2567	
+odračunavati		
 odrađivati	98	
 odražavati	176	
 odreagovati	270	
+odrecitovati		
 odrediti	8171	
 odremati		
 odreti		
@@ -4559,9 +4717,11 @@ odrezivati
 određenosti	134	
 određivati	941	
 odrešiti	65	
+odrešivati		
 odricati	288	
 odrijemati		J
 odrinuti		M
+odrobijati		
 odroditi		
 odroniti		
 odronjavati		M
@@ -4576,14 +4736,18 @@ odsecati	34
 odsedati	15	
 odsedlati		M
 odseliti	82	
+odseljavati		
 odsesti	139	
 odsevati		M
 odsipati		M
 odsjajivati		M
 odskakati	14	
 odskakivati		M
+odskakutati		
 odskitati		M
 odskočiti	35	
+odslikati		
+odslikavati		
 odslušati		
 odslužiti	53	
 odsluživati		
@@ -4620,6 +4784,7 @@ oduševiti	751
 oduševljavati	68	
 odužati		M
 odužiti	377	
+oduživati		
 odvabiti		
 odvaditi		M
 odvagati		
@@ -4652,9 +4817,11 @@ odvrtati	14
 odvrteti		
 odvrti		
 odzvanjati	29	
+odzvati		
 odzvoniti		
 odšetati	27	
 odšiti		M
+odškolovati		
 odškrinuti	40	
 odšrafiti		M
 odštampati	594	
@@ -4662,11 +4829,13 @@ odšteti	64
 odštetiti		
 odšunjati		M
 odšuteti		
+odšvrljati		
 odžaliti		
 odživeti		
 odživljavati		
 ofarbati	149	
 oformiti	413	
+oformljavati		
 ofucati		M
 ogaditi	28	
 ogaraviti		
@@ -4691,6 +4860,7 @@ ogoleti
 ogoliti	43	
 ogoljavati		
 ogoljenosti	38	
+ogoljivati		
 ogoreti		M
 ogorčavati		M
 ogorčenosti	206	
@@ -4762,6 +4932,7 @@ okolišati	13
 okolišiti		
 okolnosti	20445	
 okomiti	47	
+okomljivati		
 okončati	1121	
 okončavati		
 okopati	20	
@@ -4778,6 +4949,7 @@ okotiti	13
 okovanosti		
 okovati	40	
 okoziti		M
+okoštati		
 okošti		
 okrastati		M
 okratiti		
@@ -4792,9 +4964,11 @@ okrečiti	66
 okrilati		
 okriviti	372	
 okrivljavati	57	
+okrivljivati		
 okrnjiti	23	
 okrpiti		M
 okruniti	13	
+okrupnjati		
 okrutnosti	293	
 okružavati		M
 okružiti	86	
@@ -4802,6 +4976,7 @@ okruživati	24
 okrvaviti	13	
 okrznuti	34	
 oksidirati		M
+oksidisati		
 oktroisati		
 okukati		
 okultisti	40	
@@ -4814,6 +4989,7 @@ okuražiti
 okusiti	183	
 okućiti		
 okušati	148	
+okušavati		
 okužiti		
 okvalifikovati		
 okvasiti		M
@@ -4829,6 +5005,7 @@ olinjati		M
 olistati		M
 olizati		M
 oličavati		
+oličiti		
 oljutiti		
 oljušti	73	
 oljuštiti	312	
@@ -4850,6 +5027,7 @@ omađijati
 omašiti	22	
 omeknuti		M
 omekšati	175	
+omekšavati		
 omesti	242	
 ometati	626	
 ometenosti	217	
@@ -4857,6 +5035,7 @@ ometi
 omeđašiti		
 omeđenosti		
 omeđiti	33	
+omeđivati		
 omileti		
 omiliti		M
 omiljenosti	46	
@@ -4897,6 +5076,7 @@ opaljivati
 opameti	283	
 opametiti	234	
 opanjkati		M
+opanjkavati		
 opapriti		
 oparati		M
 opariti	12	
@@ -4916,9 +5096,11 @@ opervaziti
 opetovati		
 opevati	39	
 ophoditi	179	
+ophrvati		
 opijati	135	
 opijenosti	191	
 opipati	166	
+opipavati		
 opirati	124	
 opisati	4532	
 opisivati	361	
@@ -4949,6 +5131,7 @@ opljunuti		M
 oploditi	95	
 oploviti	19	
 oplođavati		M
+oplođivati		
 opoganiti		M
 opojati		M
 opojnosti	13	
@@ -4991,6 +5174,7 @@ oprečnosti	33
 oprijateljiti		
 oprljiti		M
 oprobati	273	
+oprobavati		
 oprosti	3881	
 oprostiti	2394	
 opružati		M
@@ -5010,11 +5194,13 @@ opsovati	36
 opstajati	108	
 opstati	2701	
 opstojati	19	
+opstruisati		
 optanti		
 optereti	467	
 opteretiti	599	
 opterećivati	566	
 optimisti	1175	
+optirati		
 optočiti		
 optrčati		
 optrčavati		M
@@ -5042,6 +5228,7 @@ oraspoložiti	124
 orati	97	
 orašasti	160	
 orbiti	1801	
+orbitirati		
 ordinirati		
 orezati		
 orezivati	56	
@@ -5107,6 +5294,7 @@ oslaniti
 oslanjati	826	
 oslepeti		
 oslepiti	19	
+oslepljivati		
 oslijepiti		J
 oslikati	129	
 oslikavati	71	
@@ -5126,7 +5314,9 @@ osmisliti	993
 osmišljavati		
 osmotriti	85	
 osmočiti		
+osmuditi		
 osnažiti	514	
+osnaživati		
 osnivati	332	
 osnovati	1312	
 osobenosti	1701	
@@ -5143,6 +5333,7 @@ osramoti	99
 osramotiti	113	
 osrednjosti	132	
 ostajati	382	
+ostakliti		
 ostanuti		
 ostareti		
 ostariti	126	
@@ -5157,6 +5348,7 @@ ostvarivati	1168
 osuditi	1236	
 osujeti	324	
 osujetiti	130	
+osumnjičiti		
 osunčati		
 osuti	49	
 osuđenosti		
@@ -5176,6 +5368,7 @@ osvetljenosti	424
 osvećivati	19	
 osveštati	45	
 osveštavati		
+osvešćivati		
 osvežavati	88	
 osvežiti	738	
 osvježiti		J
@@ -5184,7 +5377,9 @@ osvrnuti	950
 osvrtati	240	
 osvrti	144	
 otakati		M
+otaljati		
 otaljavati		M
+otapati		
 otarasiti	267	
 otcepiti	99	
 otegliti		
@@ -5230,6 +5425,7 @@ otkopčati	19
 otkopčavati		
 otkotrljati	11	
 otkovati		M
+otkočiti		
 otkraviti		M
 otkriti	5894	
 otkrivati	649	
@@ -5237,6 +5433,7 @@ otkucati	137
 otkucavati	12	
 otkulučiti		M
 otkupiti	599	
+otkupljivati		
 otkvačiti		
 otmenosti	185	
 otopiti	333	
@@ -5265,6 +5462,7 @@ otplaćivati	417
 otplesati	18	
 otplesti		M
 otplivati	11	
+otpljunuti		
 otploviti	52	
 otplutati		
 otpojati		M
@@ -5298,6 +5496,7 @@ otresati
 otresiti	26	
 otresti	126	
 otrezniti	92	
+otrežnjavati		
 otrgnuti	275	
 otrijezniti		J
 otromboljiti		
@@ -5324,14 +5523,19 @@ otčepiti		M
 otčepljivati		M
 ovaploti	93	
 ovaplotiti	29	
+ovaploćivati		
 ovarisati		M
 ovejati		M
+ovekovečiti		
 ovenčati	19	
+ovenčavati		
 overavati	72	
 overiti	290	
 oveseliti		M
 oveštati		M
+ovijati		
 ovisnosti	228	
+oviti		
 ovladati	381	
 ovladavati		
 ovlasti	796	
@@ -5339,16 +5543,20 @@ ovlastiti	168
 ovlašćivati		
 ovlažiti	23	
 ozakoniti	88	
+ozakonjivati		
 ozarenosti	18	
 ozariti	12	
 ozbiljnosti	1980	
 ozdraviti	293	
 ozdravljati		
+ozdravljivati		
 ozeleneti	14	
 ozeleniti	26	
+ozelenjavati		
 ozepsti		M
 ozidati	13	
 ozlediti	20	
+ozleđivati		
 ozlijediti	11	J
 ozljediti		J
 ozlobiti		
@@ -5364,6 +5572,7 @@ ozračiti
 ozvaničiti	110	
 ozvučavati		
 ozvučiti	13	
+oćelaveti		
 oćelaviti		
 oćutati		M
 oćuti	40	
@@ -5392,6 +5601,7 @@ očuvanosti	158
 očuvati	1257	
 očvrsnuti	31	
 očvršćavati		M
+ošacovati		
 ošamariti	11	
 ošamuti	25	
 ošamutiti		
@@ -5401,6 +5611,7 @@ ošišati	100
 ošteniti		
 ošteti	1222	
 oštetiti	1098	
+oštećivati		
 oštriti	16	
 oštroumnosti	51	
 ošugati		
@@ -5424,6 +5635,7 @@ pabirčiti
 pacifisti	70	
 pacijenti	9806	
 padati	1246	
+paginirati		
 pahuljasti		
 paketi	2372	
 pakosti	586	
@@ -5458,7 +5670,9 @@ paralizovati	16
 parati	28	
 paraziti	1095	
 parazitirati		
+parcelisati		
 pardonirati		M
+parfimisati		
 parirati	362	
 pariteti	102	
 pariti	115	
@@ -5469,6 +5683,7 @@ parložiti
 parničiti	10	
 parnosti		
 parodirati	11	
+parsirati		
 parti	240	
 participirati		
 partijati		
@@ -5498,6 +5713,7 @@ pačeti
 pašovati		M
 pašteti	37	
 pašti	10	
+paštiti		
 pažljivosti	20	
 pecati	183	
 peckati		
@@ -5524,6 +5740,7 @@ percipirati	87
 pergamenti		
 perjati		M
 pernati	33	
+personalizovati		
 personifikovati		
 perutati		
 peruti	570	
@@ -5539,6 +5756,7 @@ petoprsti
 petstoti		
 pevati	1248	
 pevušiti	29	
+pečalbariti		
 pečaliti		
 pečati	413	
 pečatiti	12	
@@ -5587,9 +5805,11 @@ pjevušiti		J
 plagirati		
 plahoviti	27	
 plakati	2187	
+plakatirati		
 plaketi	14	
 plaknuti		
 plamenosti		
+plamsati		
 plamteti		
 plamti	133	
 plandovati		
@@ -5653,6 +5873,7 @@ pobediti	5151
 pobeleti		M
 pobeležiti		M
 pobeliti		
+pobenaviti		
 pobesneti	10	
 pobeđivati	224	
 pobiberiti		
@@ -5661,6 +5882,7 @@ pobiti	792
 pobjegnuti		J
 pobjeđivati		J
 pobledeti		
+poblesaveti		
 pobojati		
 pobojavati		
 pobolevati		
@@ -5682,6 +5904,8 @@ pobuniti	188
 pobuđivati		
 pocakliti		
 pocepati	121	
+pocikivati		
+pociknuti		
 pocinkovati		M
 pocrkati	39	
 pocrneti	23	
@@ -5711,8 +5935,10 @@ podbunjivati		M
 podceniti	57	
 podcenjivati	81	
 podcijeniti		J
+podcrtavati		
 poddijalekti		
 podebljati	23	
+podebljavati		
 podeliti	5614	
 poderati	25	
 podesiti	2166	
@@ -5738,6 +5964,7 @@ podjarmljivati		M
 podlagati		
 podlegati	45	
 podleteti		
+podliti		
 podlokati		
 podlosti	148	
 podložiti	14	
@@ -5760,9 +5987,11 @@ podnaduti		M
 podnapiti		M
 podnesti		
 podneti	6933	
+podnimiti		
 podnjeti		J
 podnositi	936	
 podobnosti	714	
+podobriti		
 podojiti	10	
 podozrevati		M
 podraniti		M
@@ -5774,6 +6003,7 @@ podrediti	153
 podrezati		
 podrezivati		M
 podređenosti	161	
+podređivati		
 podrhtavati	15	
 podrignuti	11	
 podriti	41	
@@ -5782,10 +6012,12 @@ podrugivati		M
 podrugnuti		M
 podržati	8598	
 podržavati	2064	
+podržaviti		
 podseti	2428	
 podsetiti	3416	
 podsećati	1038	
 podsjetiti		J
+podskakivati		
 podsmehivati		
 podsmehnuti		M
 podsmevati	72	
@@ -5804,6 +6036,7 @@ poduplati
 podupreti	85	
 poduprijeti	36	J
 poduprti	30	
+poduvati		
 poduzeti	268	
 poduzimati	49	
 podučavati	167	
@@ -5814,14 +6047,18 @@ podvaljivati	15
 podvesti	678	
 podvezati	21	
 podvijati		M
+podvikivati		
 podviknuti		
 podviti	15	
+podvizavati		
 podvlačiti	74	
 podvoditi	17	
+podvojiti		
 podvoriti		
 podvostručiti		M
 podvrgavati	56	
 podvrgnuti	1006	
+podvriskivati		
 podvrnuti		
 podvrtati		M
 podzidati		
@@ -5830,6 +6067,7 @@ podšišati
 poenti	132	
 poentirati	56	
 poeti	15	
+poetizovati		
 poetičnosti	55	
 poganiti		M
 poganosti		
@@ -5856,15 +6094,21 @@ pogosti
 pogostiti		
 pogovarati		
 pograbiti		
+pograditi		
 pogrbiti		
 pogrditi		
+pogrebati		
 pogrepsti		
 pogrešiti	1602	
+pogružiti		
 pogubiti	312	
+pogubljivati		
 pogubnosti	153	
 pogurati	230	
 poguriti		M
 pogurnuti		
+pogušiti		
+pogužvati		
 pohabati	23	
 pohapsiti		M
 poharati	18	
@@ -5879,6 +6123,7 @@ pohovati	27
 pohraniti	91	
 pohranjivati		
 pohrliti	137	
+pohrvati		
 pohrvatiti		
 pohuliti		M
 pohvaliti	4271	
@@ -5887,8 +6132,10 @@ pohvatati	164
 poigrati	187	
 poigravati	111	
 poimati	27	
+poispadati		
 poistoveti	233	
 poistovetiti	316	
+poistovećivati		
 poišti		
 pojadati		
 pojagmiti		
@@ -5902,11 +6149,14 @@ pojačati	2131
 pojačavati	163	
 pojedinosti	2404	
 pojednostaviti	433	
+pojeftiniti		
 pojesti	2106	
 pojiti	51	
 pojmiti	226	
 pojuriti	52	
+pokaditi		
 pokajati	671	
+pokaluđeriti		
 pokapati		
 pokarati	14	
 pokazati	14729	
@@ -5924,6 +6174,7 @@ pokleknuti	159
 poklepati		
 pokliknuti		M
 pokliznuti		
+pokljucati		
 pokloniti	2120	
 poklopiti	556	
 pokolebati	298	
@@ -5935,6 +6186,7 @@ pokornosti	373
 pokositi	85	
 pokovati		M
 pokoškati		
+pokradati		
 pokrasti	147	
 pokrenuti	7682	
 pokretati	1127	
@@ -5972,6 +6224,7 @@ polarnosti	46
 polaskati		
 polaziti	279	
 polegati		
+polegnuti		
 polemisati	547	
 poletati	36	
 poleteti	309	
@@ -6033,6 +6286,7 @@ pomokriti
 pomoliti	120	
 pomoriti	10	
 pomračiti	37	
+pomračivati		
 pomreti	72	
 pomrknuti		
 pomrsiti	70	
@@ -6046,17 +6300,21 @@ ponapiti
 ponavljati	2078	
 ponašati	2827	
 ponesenosti	16	
+ponestajati		
 ponestati	68	
 poneti	3382	
 poniklovati		
 poniknuti		
 ponirati	10	
 poniziti	211	
+ponizivati		
 poniznosti	208	
+poništavati		
 poništi	1799	
 poništiti	958	
 ponižavati	153	
 ponjeti		J
+ponjušiti		
 ponositi	624	
 ponositosti		
 ponoviti	5102	
@@ -6065,6 +6323,8 @@ ponukati	12
 poobarati		
 poodrasti		M
 poorati	17	
+pootvarati		
+pooštravati		
 pooštriti	302	
 popadati	23	
 popaliti	40	
@@ -6085,6 +6345,7 @@ poplaveti		M
 poplaviti	51	
 poplaćati		
 poplašiti	19	
+popljačkati		
 popljuvati	66	
 popločati	29	
 popločavati		
@@ -6098,6 +6359,7 @@ popretiti		M
 poprimati	24	
 poprimiti	276	
 popričati	183	
+popričekati		
 poprskati	301	
 popržiti		
 popucati	32	
@@ -6117,6 +6379,7 @@ poradovati
 poraniti	37	
 porasti	2319	
 poravnati	253	
+poravnavati		
 poravniti		M
 poravnjavati		M
 poravnjivati		
@@ -6159,6 +6422,7 @@ poručivati	60
 porušiti	163	
 poružneti		M
 posaditi	301	
+posakrivati		
 posavetovati	508	
 posađivati		
 posebnosti	1418	
@@ -6204,16 +6468,21 @@ poslušnosti	902
 poslužiti	5724	
 posluživati	34	
 posmatrati	5803	
+posmicati		
+posmotriti		
 posoliti	1038	
 pospanosti	179	
+pospati		
 pospavati		M
 pospešiti	509	
 pospešivati	26	
 pospremati		
 pospremiti	38	
 posramiti	55	
+posramljivati		
 posrati		
 posrbiti		
+posrebriti		
 posredovati	146	
 posrećiti	50	
 posrkati		M
@@ -6236,6 +6505,7 @@ postojanosti	352
 postojati	6745	
 postradati	132	
 postreljati		
+postrojavati		
 postrojiti	32	
 postulati	308	
 postulirati		
@@ -6259,6 +6529,7 @@ posvetiti	4040
 posvetliti	24	
 posvećenosti	1900	
 posvećivati	146	
+posvirati		
 posvojiti		
 posvršavati		
 potabati		M
@@ -6266,6 +6537,7 @@ potaknuti	281
 potamaniti	28	
 potamneti	43	
 potamniti	18	
+potamnjivati		
 potankosti	31	
 potapati	53	
 potapkati		M
@@ -6278,6 +6550,7 @@ potegnuti	142
 potencirati		
 poterati	86	
 potezati	131	
+pothraniti		
 pothranjivati	25	
 pothvatiti		
 poticati	220	
@@ -6298,17 +6571,21 @@ potkovati
 potkožiti		M
 potkradati	15	
 potkrasti	19	
+potkratiti		
 potkrepiti	223	
 potkresati	11	
 potkupiti	76	
+potkupljivati		
 potkusiti		M
 potkusuriti		M
 potlačiti		
+potlačivati		
 potonuti	306	
 potopiti	451	
 potpadati		
 potpaliti	48	
 potpaljivati		
+potpasati		
 potpasti	56	
 potpiriti		
 potpirivati		
@@ -6327,6 +6604,7 @@ potražiti	2543
 potraživati	99	
 potrebiti	25	
 potrebovati		
+potrefiti		
 potresati	31	
 potresti	106	
 potrgati		
@@ -6352,6 +6630,7 @@ potčinjenosti	268
 poubijati	94	
 poudavati		M
 poumirati	17	
+poustajati		
 pouzdanosti	2167	
 pouzdati	246	
 pouzdavati		
@@ -6378,6 +6657,7 @@ povešati	12
 povijati	35	
 povikati	37	
 povikivati		
+poviknuti		
 povinovati	172	
 poviriti		
 povisiti	133	
@@ -6395,6 +6675,7 @@ povratiti	1560
 povraćati	64	
 povrediti	953	
 povređivati	49	
+povrnuti		
 povrveti		M
 površnosti	431	
 pozabaviti	1323	
@@ -6447,6 +6728,7 @@ počupati	51
 počuti		
 pođubriti		
 pošaliti		M
+pošandrcati		
 pošasti	780	
 pošetati		M
 pošećeriti		M
@@ -6518,6 +6800,7 @@ prebivati	74
 prebledeti		M
 prebogati	264	
 prebojati		
+prebojiti		
 preboleti	169	
 preboliti		
 preboljeti		
@@ -6526,6 +6809,7 @@ prebrinuti
 prebrisati	94	
 prebroditi	358	
 prebrojati	294	
+prebrojavati		
 prebrojiti	21	
 preceniti	97	
 precenjivati	82	
@@ -6589,11 +6873,14 @@ prefarbati	49
 prefekti	16	
 preferirati		
 prefinjenosti	223	
+preformulisati		
 preforsirati		
+preganjati		
 pregaziti	187	
 pregibati		M
 pregladneti		M
 preglasati	14	
+preglasavati		
 pregledati	1967	
 pregledavati	75	
 preglednosti	393	
@@ -6614,9 +6901,11 @@ prehladiti	54
 prehraniti	168	
 prehranjivati	16	
 preimenovati	116	
+preinačavati		
 preinačiti	146	
 preispitati	1159	
 preispitivati	160	
+preispuniti		
 prejedati	23	
 prejesti	45	
 prekaliti		M
@@ -6625,6 +6914,7 @@ prekidati	439
 prekiniti		
 prekinuti	3288	
 prekipeti		
+prekisnuti		
 prekivati		M
 preklapati	72	
 preklati		M
@@ -6637,6 +6927,8 @@ prekopavati	12
 prekopirati		
 prekoravati		
 prekoračiti	193	
+prekoračivati		
+prekorevati		
 prekoriti	21	
 prekovati		
 prekrajati	37	
@@ -6646,6 +6938,7 @@ prekraćivati	11
 prekrcati		
 prekrenuti		M
 prekretati		M
+prekriliti		
 prekriti	697	
 prekrivati	50	
 prekrižiti		
@@ -6656,9 +6949,11 @@ prekrstiti	84
 prekrupiti		
 prekršiti	301	
 prekucati		M
+prekucavati		
 prekupiti		
 prekuvati		M
 prekvalifikovati		
+prelagati		
 prelamati	35	
 prelasti		
 prelati	43	
@@ -6673,10 +6968,13 @@ preliti	1850
 prelivati		M
 prelomiti	240	
 preložiti		
+premalterisati		
+premamiti		
 premazati	1235	
 premazivati	75	
 premašati		
 premašiti	744	
+premašivati		
 premeravati	12	
 premeriti		M
 premesiti		
@@ -6698,8 +6996,11 @@ premoriti
 premosti	481	
 premostiti	304	
 premotati	17	
+premotavati		
+premošćivati		
 premreti		M
 premrežiti	12	
+premrznuti		
 premudrosti		
 prenaglasiti		
 prenagliti	23	
@@ -6721,22 +7022,27 @@ preoblikovati	103
 preobrati	196	
 preobratiti	128	
 preobraziti	219	
+preobraćati		
 preobražavati	20	
 preokrenuti	467	
 preokretati		
 preokreti	144	
+preokupirati		
 preoptereti	41	
 preopteretiti	38	
 preorati	37	
 preoravati		M
 preorijentisati	56	
+preostajati		
 preostati	135	
 preoteti	84	
+preotimati		
 preovladati	173	
 preovladavati		
 preovlađivati	41	
 prepadati		M
 prepadnuti	12	
+prepakivati		
 prepakovati		
 preparati	3187	
 preparirati	15	
@@ -6751,6 +7057,7 @@ prepirati	88
 prepisati	576	
 prepisivati	176	
 prepiti		
+preplakati		
 preplanuti		M
 preplatiti	12	
 preplaviti	146	
@@ -6763,11 +7070,13 @@ preplivati	55
 preploviti	15	
 prepokrivati		M
 prepoloviti	305	
+preporađati		
 preporoditi	132	
 preporučiti	1600	
 preporučivati	133	
 prepoznati	7350	
 prepoznavati	273	
+preprati		
 prepraviti	127	
 prepravljati	70	
 prepredenosti	28	
@@ -6778,6 +7087,7 @@ prepričavati	301
 preprodati	67	
 preprodavati	35	
 prepržiti	17	
+prepucavati		
 prepuknuti		
 prepuniti	25	
 prepunosti		
@@ -6795,11 +7105,14 @@ preračunati	71
 prerađivati	183	
 prerezati	48	
 preriti		M
+preroditi		
 preroniti		
 preručiti		M
 prerušiti		
 presaditi	125	
+presahnjivati		
 presahnuti	24	
+presaldumiti		
 presamiti		
 presamititi		M
 presavijati		
@@ -6819,6 +7132,8 @@ preskočiti	887
 presladiti		M
 preslikati	162	
 preslikavati	26	
+preslišati		
+preslišavati		
 presložiti		
 preslušati	177	
 preslušavati	30	
@@ -6881,17 +7196,21 @@ pretražiti	164
 pretraživati	524	
 pretresati	64	
 pretresti	108	
+pretrgnuti		
 pretrnuti		
 pretrpati	14	
+pretrpavati		
 pretrpeti	710	
 pretrčati	77	
 pretrčavati		
+pretucati		
 pretumbati		
 preturati	20	
 preturiti	20	
 pretvarati	454	
 pretvoriti	3798	
 preudati		
+preudesiti		
 preurediti	187	
 preuređivati	10	
 preusmeravati	47	
@@ -6935,6 +7254,7 @@ prevršiti
 prezaduženosti		
 prezadužiti		
 prezalogajiti	19	
+prezasititi		
 prezati	110	
 prezauzeti		
 prezdraviti		M
@@ -6944,6 +7264,7 @@ prezimiti	80
 prezimljavati		
 prezirati	128	
 prezivati	23	
+preziđivati		
 preznojavati	11	
 preznojiti	21	
 prezreti	74	
@@ -6959,6 +7280,7 @@ prešarati
 prešetati		
 prešećeriti		
 prešišati		
+preštampati		
 prežaliti	78	
 prežderati		
 prežderavati		
@@ -6998,11 +7320,13 @@ pridobijati	32
 pridobiti	513	
 pridobivati		
 pridodati	521	
+pridodavati		
 pridolaziti		M
 pridoneti	83	
 pridonijeti	92	J
 pridremati		
 pridružiti	2602	
+pridruživati		
 pridržati	28	
 pridržavati	1583	
 prigledati		
@@ -7014,11 +7338,15 @@ prigoniti		M
 prigovarati	98	
 prigovoriti	454	
 prigrabiti	49	
+prigraditi		
 prigristi		
 prigrliti	120	
 prigrnuti		M
 prigusti	57	
+prigustiti		
 prigušiti	52	
+prigušivati		
+prihodovati		
 prihvatati	558	
 prihvati	14424	
 prihvatiti	11384	
@@ -7047,6 +7375,7 @@ prikradati
 prikrasti	12	
 prikriti	435	
 prikrivati	100	
+prikrpiti		
 prikucati		
 prikupiti	1163	
 prikupljati	742	
@@ -7056,7 +7385,9 @@ prilagoditi	3496
 prilagodljivosti	220	
 prilagođavati	670	
 prilaziti	202	
+prilegnuti		
 prilepiti	69	
+prilepljivati		
 priliti		M
 prilivati		M
 priličiti		
@@ -7085,20 +7416,26 @@ prinadležnosti
 prineti	405	
 prinositi	147	
 prinuditi	113	
+prinuđavati		
+prinuđivati		
 prionuti	126	
 priopšti		
 prioriteti	3356	
 pripadati	612	
 pripadnosti	5065	
+pripajati		
 pripaliti	13	
 pripasati		
+pripasivati		
 pripasti	1240	
 pripaziti	222	
+pripevati		
 pripijati		
 pripisati	1440	
 pripisivati	249	
 pripitati		M
 pripiti	118	
+pripitivati		
 pripitomiti	83	
 pripojiti	174	
 pripomagati		
@@ -7122,6 +7459,7 @@ pripucati
 pripusti	19	
 pripustiti	21	
 pripuštati		
+prirastati		
 prirasti	21	
 prirediti	685	
 priređivati	60	
@@ -7168,12 +7506,14 @@ pritegnuti	40
 priterati		M
 pritesniti		
 pritezati		
+pritešnjiti		
 priticati		M
 pritiskati	310	
 pritiskivati	10	
 pritisnuti	1212	
 pritrpeti		M
 pritrčati	11	
+pritrčavati		
 pritužiti		M
 pritvarati		
 pritvoriti	19	
@@ -7185,6 +7525,7 @@ priučiti
 priušiti		
 priušti	1405	
 priuštiti	1221	
+privaliti		
 privatnosti	4378	
 privesti	604	
 privezati	49	
@@ -7221,10 +7562,12 @@ pričesti	453
 pričestiti	83	
 pričešćivati	53	
 pričiniti	91	
+pričinjati		
 pričinjavati	26	
 pričuvati	35	
 pričvrsti	170	
 pričvrstiti	239	
+pričvršćivati		
 prišapnuti		
 prišaptavati		
 prišarafiti		
@@ -7236,6 +7579,7 @@ prišuljati
 prišunjati		M
 priželjkivati	30	
 priženiti		
+prižmiriti		
 prkositi	64	
 prljati	70	
 proanalizirati	39	
@@ -7254,13 +7598,17 @@ proboraviti
 probosti	39	
 probrati	45	
 probuditi	1743	
+probuncati		
 proburaziti		
 probušiti	77	
 procediti	496	
 proceniti	2797	
 procenjivati	546	
 procenti	677	
+procesirati		
 procesuirati	355	
+procunjati		
+procureti		
 procuriti	25	
 procvasti		
 procvetati	258	
@@ -7292,12 +7640,15 @@ produžavati		M
 produžiti	2294	
 profesionalnosti	619	
 profeti		
+profilisati		
 profinjenosti	17	
 profiti	384	
 profitirati	676	
+profunkcionisati		
 profućkati		
 proganjati	142	
 proglasiti	2016	
+proglašavati		
 progledati	224	
 prognati	80	
 prognozirati	571	
@@ -7314,6 +7665,7 @@ progutati	769
 prohladiti	126	
 prohodati	65	
 prohteti		
+prohujati		
 proigrati		
 proishoditi		
 proisticati		M
@@ -7333,12 +7685,14 @@ prokapati		M
 prokartati		M
 prokazati	20	
 prokazivati		
+prokašljati		
 prokisnuti		
 prokišnjavati		
 proklamovati	18	
 prokleti	998	
 proklijati	28	
 proklinjati	87	
+proklizavati		
 prokliziti		
 prokljuvati		M
 prokljuviti	12	
@@ -7350,6 +7704,7 @@ prokontrolisati
 prokopati	36	
 prokrasti		M
 prokrijumčariti	14	
+prokrkljati		
 prokrstariti	10	
 prokrvariti		
 prokrčiti	37	
@@ -7376,6 +7731,7 @@ prolomiti
 prolongirati	114	
 prolupati		
 promaknuti	11	
+promaljati		
 promarširati		
 promatrati	292	
 promašiti	268	
@@ -7392,6 +7748,7 @@ promileti		M
 prominuti		M
 promisliti	177	
 promišljati	102	
+promoliti		
 promotriti	20	
 promovisati	2042	
 promozgati		M
@@ -7433,8 +7790,10 @@ propitati
 propiti	15	
 propitivati	42	
 propišati		
+propištati		
 proplakati	15	
 proplivati		
+proploviti		
 propovedati	157	
 proprati	194	
 propratiti	170	
@@ -7456,6 +7815,7 @@ prorezati
 proređivati	10	
 prorešetati		M
 proricati	18	
+prorokovati		
 prosecati		M
 prosedeti		
 prosejati	56	
@@ -7508,6 +7868,7 @@ prosvirati
 protagonisti	910	
 protegliti		M
 protegnuti	75	
+protepati		
 proterati	439	
 proterivati	29	
 protestanti	616	
@@ -7530,6 +7891,7 @@ protkati
 protokolisati		M
 protratiti		
 protraćiti		M
+protresati		
 protresti	109	
 protrljati	38	
 protrnuti		
@@ -7538,6 +7900,7 @@ protrčavati		M
 protumačiti	1019	
 proturati		
 proturiti	54	
+protutnjati		
 prouzrokovati	1401	
 prouzročavati		
 prouzročiti		
@@ -7578,6 +7941,7 @@ prozračnosti	50
 prozreti	90	
 prozuknuti		M
 prozvati	200	
+prozviždati		
 proćaskati	15	
 proćerdati	31	
 pročavrljati		M
@@ -7594,10 +7958,13 @@ pročuti	22
 prošaptati		
 prošarati	12	
 prošetati	673	
+prošibati		
+prošikljati		
 proširiti	3493	
 proširivati	290	
 prošiti	21	
 prošišati		
+prošištati		
 prošlosti	28674	
 prošvercati		
 prošvercovati	23	
@@ -7691,6 +8058,8 @@ raditi	39712
 radosti	8156	
 radovati	1009	
 radoznalosti	1182	
+rafinirati		
+rafinisati		
 ragbisti		
 raketi	296	
 raketirati		
@@ -7720,9 +8089,12 @@ raseliti	69
 raseljavati	19	
 rasformirati	98	
 rashladiti	218	
+rashlađivati		
 rashodovati		
 rasipati	98	
 rasisti	250	
+raskalašiti		
+raskaljati		
 raskidati	50	
 raskinuti	764	
 raskiseliti		M
@@ -7752,6 +8124,7 @@ raskrivati		M
 raskrsti	133	
 raskrstiti	96	
 raskrupnjati		M
+raskrvariti		
 raskrvaviti		
 raskrčiti	15	
 raskrčivati		M
@@ -7789,11 +8162,13 @@ raspinjati
 raspiriti	17	
 raspirivati	23	
 raspisati	1170	
+raspisivati		
 raspitati	532	
 raspitivati	170	
 raspištoljiti		
 rasplakati	97	
 rasplamsati	110	
+rasplamsavati		
 rasplamteti		M
 rasplamti	15	
 rasplašiti		M
@@ -7801,6 +8176,7 @@ rasplesati
 rasplesti	44	
 raspletati		
 raspleti	39	
+rasplinjavati		
 rasplinuti	37	
 rasplitati	12	
 raspljeskati		M
@@ -7834,17 +8210,20 @@ rasprodati	461
 rasprodavati	35	
 rasprostirati	27	
 rasprostranjenosti	568	
+rasprostranjivati		
 rasprostreti		
 rasprskavati		
 rasprsnuti	34	
 rasprtiti		M
 raspršiti	109	
+raspršivati		
 rasprštati		M
 raspucati		
 raspuknuti		
 raspusnosti		
 raspusti	496	
 raspustiti	215	
+raspuštati		
 raspuštenosti	30	
 rasrditi		
 rastajati	18	
@@ -7883,6 +8262,7 @@ rastumačiti	79
 rasturati	55	
 rasturiti	250	
 rastužiti	76	
+rastuživati		
 rastvarati	22	
 rastvoriti	174	
 rasuditi		M
@@ -7935,20 +8315,25 @@ razboljeti		J
 razboriti	110	
 razboritosti	147	
 razbrajati		M
+razbrbljati		
 razbrojiti		
 razbucati	52	
 razbuditi	124	
 razbuktati	51	
+razbuktavati		
 razbukti		M
+razbuđivati		
 razdaniti		
 razdati	17	
 razdavati	29	
 razdeliti	112	
+razdeljivati		
 razderati		
 razdirati		
 razdragati		M
 razdraženosti	40	
 razdražiti	19	
+razdraživati		
 razdremati		M
 razdreti		M
 razdrešiti		M
@@ -7962,7 +8347,11 @@ razdvajati	252
 razdvojenosti	185	
 razdvojiti	1039	
 razgaliti	40	
+razgaljivati		
+razgarati		
+razgaziti		
 razgibati	12	
+razgibavati		
 razglabati	59	
 razglasiti	28	
 razglaviti		M
@@ -7970,6 +8359,7 @@ razglašavati	10
 razgledati	275	
 razgledavati		
 razglobiti		M
+razgnati		
 razgneviti		M
 razgnječiti		M
 razgoditi		M
@@ -7983,12 +8373,15 @@ razgovoriti		M
 razgrabiti	16	
 razgraditi	100	
 razgranati	100	
+razgraničavati		
 razgraničiti	227	
 razgrađivati	22	
 razgrejati		M
 razgrnuti	33	
+razgrtati		
 razgruvati		M
 razigrati	14	
+razigravati		
 razilaziti	58	
 razjapiti		
 razjarenosti	15	
@@ -8005,11 +8398,14 @@ razlagati	32
 razlegati		
 razleteti	11	
 razleti	33	
+razlevati		
 razlikovati	3401	
+razlistati		
 razliti	84	
 razlivati		M
 različiti	12295	
 različitosti	4327	
+razljuljati		
 razljuti	153	
 razljutiti	40	
 razlokati		M
@@ -8050,9 +8446,11 @@ razmontirati	47
 razmotati		
 razmotavati		M
 razmotriti	3413	
+razmrdati		
 razmrsiti	65	
 razmrskati		
 razmrviti		
+razmrznuti		
 razmršavati		M
 razmršivati		
 razmutiti	235	
@@ -8065,6 +8463,7 @@ raznolikosti	1277
 raznositi	27	
 raznovrsnosti	1694	
 razobličavati		
+razobličiti		
 razobručiti		M
 razonoditi	39	
 razoravati		M
@@ -8072,7 +8471,9 @@ razoriti	272
 razornosti	15	
 razortačiti		M
 razoružati	98	
+razoružavati		
 razotkriti	276	
+razotkrivati		
 razočarati	717	
 razočaravati		
 razraditi	429	
@@ -8115,6 +8516,7 @@ razvedriti	54
 razvejati	67	
 razvenčati		M
 razveseliti	193	
+razveseljavati		
 razvesti	198	
 razvezati	38	
 razvideti		
@@ -8127,6 +8529,7 @@ razvlačiti	110
 razvlašćivati		
 razvoditi	27	
 razvodniti	16	
+razvoziti		
 razvrati		
 razvratiti		M
 razvratnosti		
@@ -8165,6 +8568,7 @@ ražalovati		M
 ražariti		
 ražesti	13	
 ražestiti		
+reafirmisati		
 reagovati	4080	
 reaktivirati	60	
 realisti	243	
@@ -8212,6 +8616,7 @@ reketirati
 reklamirati	394	
 rekognoscirati		
 rekompenzirati		
+rekompenzovati		
 rekonstruisati	790	
 rekreirati		
 rekvirirati		M
@@ -8226,13 +8631,16 @@ remetiti	143
 remizirati		
 remonti	260	
 remontirati		
+remontovati		
 rendisati		M
 renegati	16	
 renovirati	209	
 renti	135	
 rentirati		M
+reorganizovati		
 reparirati	28	
 repati	27	
+repatrirati		
 repetirati		
 replicirati	87	
 repovati		M
@@ -8243,6 +8651,7 @@ reprogramirati	89
 resetovati	148	
 resiti	505	
 reskirati	38	
+respektovati		
 restartovati	143	
 restaurirati	60	
 restaurisati		M
@@ -8297,6 +8706,7 @@ riknuti	26
 riljati		M
 rimovati		
 rintati		
+risati		
 riskirati		M
 risti		M
 ritati	13	
@@ -8311,6 +8721,7 @@ roditi	1558
 rodnosti	249	
 rogati	63	
 rogušiti		
+rojiti		
 rokati		
 roknuti	11	
 roktati		M
@@ -8360,6 +8771,7 @@ ružiti	76
 ružičasti	763	
 rvati		M
 rzati		
+rđati		
 rđavosti		
 sabijati	29	
 sabirati	170	
@@ -8369,6 +8781,7 @@ sablazniti	35
 sablažnjavati	15	
 sabljasti	11	
 sabornosti	366	
+saborovati		
 sabotirati	50	
 sabranosti	50	
 sabrati	371	
@@ -8449,6 +8862,7 @@ sapinjati		M
 saplesti	37	
 sapleti		
 saplitati	36	
+saprati		
 sapunati		M
 sapuniti		M
 sarađivati	2617	
@@ -8482,6 +8896,7 @@ savijati	136
 saviti	240	
 savjetovati		MJ
 savladati	1813	
+savladavati		
 savlađivati	30	
 savremenosti	610	
 savršenosti	196	
@@ -8506,17 +8921,20 @@ sažeti	559
 sažetosti	62	
 sažimati	15	
 saživeti	24	
+sažizati		
 sažvakati	62	
 scenaristi	432	
 sebičnosti	479	
 secirati	27	
 seckati	67	
 sedamnaesti	169	
+sedamstoti		
 sedati	27	
 sedefasti	17	
 sedeti	2148	
 sedimenti	130	
 sediti	64	
+sedlati		
 segmenti	1151	
 segnuti		
 sejati	362	
@@ -8568,6 +8986,7 @@ signalizirati
 signirati		M
 sigurnosti	11004	
 sijati	208	
+siknuti		
 siktati		
 silaziti	118	
 silikati	39	
@@ -8578,16 +8997,19 @@ silovitosti	29
 silueti	63	
 simbolisati		
 simbolisti	25	
+simbolizovati		
 simboličnosti		
 simpatisati	16	
 simulirati	187	
 sindikati	6560	
 singularnosti	52	
+sinhronizovati		
 sinuti	45	
 sipati	1874	
 sipiti		
 sirasti	12	
 siriti	64	
+siromašiti		
 siroti	692	
 sirotovati		M
 sisati	106	
@@ -8610,6 +9032,7 @@ sjedinjavati	18
 sjediti		J
 sjesti		
 sjetiti		J
+sjuriti		
 skakati	285	
 skakutati	32	
 skalpirati		
@@ -8638,12 +9061,14 @@ sklapati	354
 sklepati	36	
 skliziti		M
 skliznuti	135	
+skljokati		
 skloniti	1429	
 sklonosti	3061	
 sklonuti		
 sklopiti	869	
 sklupčati	17	
 sklupčavati		M
+skockati		
 skoknuti	86	
 skokoviti	11	
 skoliti		M
@@ -8660,11 +9085,13 @@ skovati	21
 skovitlati		M
 skočanjiti		M
 skočiti	748	
+skrahirati		
 skrajnuti	208	
 skrasiti	63	
 skrati	1027	
 skratiti	956	
 skraćivati	108	
+skrckati		
 skrenuti	1582	
 skresati	91	
 skretati	179	
@@ -8694,7 +9121,9 @@ skučavati		M
 skučenosti	122	
 skučiti		M
 skužiti	22	
+skvasiti		
 skvičati		
+skvrčiti		
 slabeti		
 slabiti	198	
 slabosti	6366	
@@ -8756,6 +9185,8 @@ slušati	4000
 službovati		
 služiti	4827	
 smaknuti	84	
+smalaksati		
+smalaksavati		
 smandrljati		M
 smanjiti	11644	
 smanjivati	1294	
@@ -8883,6 +9314,7 @@ spaliti	447
 spaljivati	98	
 spanđati		M
 spariti	21	
+sparivati		
 sparušiti		M
 spasavati	310	
 spasiti	2999	
@@ -8940,7 +9372,9 @@ sposobnosti	24088
 spotaknuti		
 spoticati	18	
 spoznati	584	
+spoznavati		
 spočitati	21	
+spočitavati		
 sprati	102	
 spratnosti	424	
 spraviti	29	
@@ -8980,6 +9414,7 @@ sravniti	130
 sravnjivati	11	
 sračunati	102	
 srašćivati		M
+srbizirati		
 srbovati	22	
 srdačnosti	107	
 srditi	90	
@@ -8999,6 +9434,7 @@ srkati	15
 srknuti		
 srkutati		M
 srljati	143	
+srnuti		
 sroditi	12	
 srodnosti	435	
 srozanosti		
@@ -9067,6 +9503,7 @@ stilisti	271
 stilizirati		
 stilizovati	25	
 stimulisati	997	
+stinuti		
 stipendirati	81	
 stiskati	63	
 stisnuti	317	
@@ -9086,6 +9523,7 @@ stradavati
 strahoti	35	
 strahovati	175	
 strahoviti	184	
+stranstvovati		
 strasnosti		
 strasti	8583	
 straćiti		M
@@ -9126,6 +9564,7 @@ stucati		M
 studenti	42413	
 studirati	841	
 stuknuti		M
+stuliti		
 stupati	80	
 stupiti	1607	
 stupnjevati		
@@ -9137,9 +9576,12 @@ stuživati		M
 stvarati	2521	
 stvarnosti	14054	
 stvoriti	8251	
+stvrdnjavati		
 stvrdnuti	41	
 subjekti	2975	
 subjektivnosti	483	
+sublimirati		
+sublimisati		
 suboti	88	
 subvencionisati	320	
 sudarati	30	
@@ -9202,6 +9644,7 @@ sustizati	10
 suvati		
 suvislosti	13	
 suvišnosti	39	
+suvomesnati		
 suvratiti		M
 suzbijati	204	
 suzbiti	495	
@@ -9246,6 +9689,7 @@ svezati	45
 svezivati		M
 svečanosti	8321	
 svideti	1205	
+svijati		
 svijetliti		J
 sviknuti	10	
 svilasti		
@@ -9307,6 +9751,7 @@ tananosti	30
 tandrkati		M
 tangirati		
 tanjirasti		
+tanjiti		
 tapacirati		
 tapeti	64	
 tapetirati		M
@@ -9325,15 +9770,18 @@ teisti	30
 teknuti		
 telaliti		M
 telefonirati	73	
+telegrafisati		
 telepati		
 teleportovati		
 telesnosti	118	
 teliti		
+tematizovati		
 temeljiti	218	
 tempirati	42	
 tendirati		
 tenkisti	34	
 tentati		M
+teoretisati		
 teoretizirati		
 tepati	29	
 terakoti	108	
@@ -9354,6 +9802,7 @@ teti	60
 tetovirati	19	
 tetošiti	14	
 teturati		
+tezgariti		
 tečnosti	8558	
 tešiti	112	
 teškati		M
@@ -9365,6 +9814,7 @@ tihosti
 tihovati		
 tikati		
 tiketi		
+tiktakati		
 timariti	11	
 tinjati	21	
 tipizirati		
@@ -9430,6 +9880,7 @@ transliterirati
 transmitirati		
 transparentnosti	2700	
 transplantirati		
+transponovati		
 transporti	90	
 transportovati	359	
 transvestiti	35	
@@ -9451,6 +9902,7 @@ tražiti	17541
 trebati	4367	
 trebiti	12	
 trebovati	14	
+trefiti		
 trenirati	958	
 trenuti		
 treperiti		
@@ -9499,6 +9951,7 @@ trpeti	1541
 trpiti		
 trsiti		
 trti		M
+trtljati		
 trubiti	36	
 truckati		
 truditi	2391	
@@ -9535,6 +9988,7 @@ turiti	27
 turnuti		
 turpijati	10	
 turčiti		M
+tutkati		
 tutnjati		
 tutnjiti		
 tutnuti	16	
@@ -9579,6 +10033,7 @@ ubrati	181
 ubrisati		M
 ubrizgati	116	
 ubrizgavati	42	
+ubrljati		
 ubrojati	195	
 ubrojiti	90	
 ubrzati	2433	
@@ -9588,6 +10043,7 @@ ucenjivati	189
 ucepiti		
 ucijeniti	12	J
 ucmekati		
+ucrtati		
 ucrtavati		
 ucrvljati		M
 ucveliti		M
@@ -9604,6 +10060,7 @@ udavati	98
 udaviti	145	
 udebljati	50	
 udeliti	74	
+udeljivati		
 udenuti		M
 udesetostručiti		
 udesiti	76	
@@ -9626,6 +10083,8 @@ udruživati	115
 udržati		M
 udubiti	59	
 udubljivati	16	
+udušiti		
+udvajati		
 udvarati	57	
 udvojiti		
 udvoriti		
@@ -9636,6 +10095,7 @@ ufurati
 uganuti		
 ugariti		M
 ugasiti	1489	
+ugasnuti		
 ugaziti	18	
 ugađati	78	
 ugibati		
@@ -9686,14 +10146,17 @@ ugurati	174
 ugušiti	364	
 ugušivati		M
 uhapsiti	643	
+uhladiti		
 uhlebiti		
 uhljebiti		
 uhodati	16	
+uhodavati		
 uhoditi		
 uhraniti		
 uhvati	6106	
 uhvatiti	2010	
 uigranosti	53	
+uigrati		
 uigravati	31	
 ujaloviti		M
 ujarmiti		
@@ -9703,8 +10166,10 @@ ujediniti	700
 ujedinjavati	33	
 ujednačavati		
 ujednačiti	121	
+ujednačivati		
 ujesti	92	
 ukaljati	27	
+ukalkulisati		
 ukalupiti	33	
 ukamatiti		
 ukapirati	111	
@@ -9715,11 +10180,13 @@ ukidati	338
 ukinuti	4579	
 ukipiti		
 ukiseliti	15	
+ukivati		
 uklanjati	395	
 uklapati	142	
 uklesati	13	
 ukleti	122	
 ukletosti	18	
+uklizati		
 uključenosti	409	
 uključiti	5056	
 uključivati	1060	
@@ -9727,6 +10194,7 @@ ukloniti	3676
 uklopiti	1758	
 uknjižiti	117	
 ukokati		
+ukomponovati		
 ukonačiti		M
 ukopati	82	
 ukopavati	22	
@@ -9737,6 +10205,7 @@ ukoravati
 ukoreniti	25	
 ukorenjivati		M
 ukoriti	26	
+ukoričavati		
 ukoričiti	29	
 ukositi		
 ukotviti	13	
@@ -9753,6 +10222,7 @@ ukresati		M
 ukriviti		M
 ukroti	281	
 ukrotiti	172	
+ukročiti		
 ukrsti	134	
 ukrstiti	268	
 ukruti	48	
@@ -9768,8 +10238,10 @@ ukvariti		M
 ukvasiti		M
 ulagati	2576	
 ulagivati	19	
+ulančavati		
 ulaziti	2011	
 ulaštiti		M
+ulegnuti		
 uleniti		
 ulepiti		
 ulepšati	594	
@@ -9855,21 +10327,28 @@ umreti	2930
 umrežiti		
 umrljati		
 umrtviti	37	
+umrtvljivati		
 umudriti		M
 umuknuti	16	
 umuti	69	
 umutiti	1489	
 unajmiti	97	
+unajmljivati		
 unakaraditi		M
 unakaziti	39	
+unakazivati		
 unaprediti	3346	
 unapređivati	463	
 unazaditi	71	
+unazađivati		
 unerediti		
 unervoziti		
 unesrećiti	27	
+unesrećivati		
 uneti	4154	
 unezveriti		M
+unificirati		
+uniformisati		
 uniformnosti	125	
 unijati	106	
 unikati	87	
@@ -9885,6 +10364,7 @@ unižavati	10
 unjkati		M
 unositi	1375	
 unovačiti		M
+unovčavati		
 unovčiti	207	
 unovčivati		
 unutrašnjosti	8145	
@@ -9896,6 +10376,7 @@ uobraziti	32
 uobražavati		
 uobraženosti	70	
 uokviriti	46	
+uokvirivati		
 uopštavati		M
 uopšti		
 uopštiti	34	
@@ -9913,6 +10394,7 @@ upamtiti	310
 upaničiti		
 uparaditi		M
 upariti	143	
+uparivati		
 upasti	634	
 upecati	147	
 uperiti	76	
@@ -9944,6 +10426,7 @@ upletenosti	28
 upleti		
 uplitati	86	
 uplivati		
+upljačkati		
 upljuvati		M
 uploviti	88	
 uplovljavati		
@@ -9954,6 +10437,7 @@ upoređivati	774
 upornosti	1471	
 uposliti	444	
 upotpuniti	798	
+upotpunjavati		
 upotpunosti		
 upotrebiti	4097	
 upotrebljavati	1450	
@@ -9966,18 +10450,23 @@ upošljavati	35
 upratiti		
 upraviti	39	
 upravljati	3228	
+uprazniti		
+uprašiti		
 upražnjavati	234	
 upredati		M
 upregnuti	140	
 upresti		M
 upreti	42	
 upriličiti	139	
+upristojiti		
 uprljati	68	
 upropasti	938	
 upropastiti	571	
+upropaštavati		
 upropašćivati		M
 uprosti	66	
 uprostiti	66	
+uprošćavati		
 uprskati	15	
 uprtiti		
 upržiti		
@@ -9998,15 +10487,20 @@ uramiti	37
 uraniti	10	
 uranjati		
 urastati		
+urasti		
+uravnati		
+uravnavati		
 uravnotežiti	122	
 urazumiti	90	
 uračunati	702	
+uračunavati		
 uračunljivosti	103	
 urbanisti	432	
 urbanizovati		M
 urediti	2323	
 urednosti	210	
 uredovati		
+ureknuti		
 uresiti		
 urezati	80	
 urezivati	14	
@@ -10018,10 +10512,12 @@ urinirati
 urlati	40	
 urlikati	11	
 urliknuti		
+urnisati		
 uroditi	319	
 uroniti	108	
 uronjenosti	14	
 uroti	30	
+urotiti		
 uročiti		
 urođenosti		
 uručiti	703	
@@ -10030,6 +10526,7 @@ urušavati	65
 urušiti	301	
 usaditi	147	
 usaglasiti	619	
+usaglašavati		
 usahnuti	17	
 usalamuriti		
 usamljenosti	1042	
@@ -10061,9 +10558,11 @@ usiriti		M
 usisati	110	
 usisavati	42	
 usitniti	172	
+usitnjavati		
 uskakati	23	
 uskakivati		M
 uskipeti		
+uskisnuti		
 uskladiti	1571	
 uskladišti	147	
 uskladištiti	115	
@@ -10086,8 +10585,10 @@ uslikati	85
 uslišavati		
 uslišiti	103	
 usloviti	413	
+uslovljavati		
 uslovljenosti	246	
 uslovnosti	104	
+usložnjavati		
 uslužiti	51	
 usluživati	26	
 uslužnosti	40	
@@ -10098,8 +10599,10 @@ usmoliti		M
 usmrdeti		
 usmrti	141	
 usmrtiti	67	
+usmrćivati		
 usniti	15	
 usnuti	13	
+usoliti		
 uspaliti		M
 uspaljivati		M
 uspaničiti		
@@ -10121,6 +10624,7 @@ uspostaviti	3621
 uspostavljati	188	
 uspraviti	87	
 uspravljati	13	
+uspremati		
 usprotiviti	194	
 uspuhati		
 uspuzati		M
@@ -10131,9 +10635,12 @@ usredsređenosti	91
 usredsređivati		M
 usrećavati		M
 usrećiti	415	
+usrkati		
 ustajati	164	
+ustakliti		
 ustalasati		M
 ustaliti	64	
+ustaljivati		
 ustanoviti	1769	
 ustanovljavati	31	
 ustanovljivati		
@@ -10147,15 +10654,18 @@ ustoličiti	38
 ustostručiti		M
 ustožiti		
 ustrajati	60	
+ustraviti		
 ustrašiti	12	
 ustrebati	16	
 ustreliti	12	
+ustreljivati		
 ustremiti	26	
 ustremljivati		M
 ustreperiti		
 ustreptalosti	10	
 ustreptati		
 ustrepti		
+ustrgnuti		
 ustrijeliti		J
 ustrojiti	94	
 ustručavati	178	
@@ -10166,12 +10676,14 @@ ustupati	98
 ustupiti	702	
 ustupljivati		
 ustvrditi	186	
+ustvrđivati		
 usuditi	485	
 usukati		
 usukivati		M
 usuti	75	
 usuđivati	17	
 usvajati	339	
+usvinjiti		
 usvojiti	3163	
 utabati	40	
 utaboriti		
@@ -10183,12 +10695,15 @@ utamanjivati		M
 utamničiti		
 utanačiti	21	
 utanjiti		
+utančati		
 utapati	27	
 utapkati	27	
 utažiti		
 utegnuti	41	
 uteloviti		
+utelovljavati		
 utemeljiti	110	
+utemeljivati		
 uterati	113	
 uterivati	30	
 utezati		M
@@ -10218,6 +10733,7 @@ utoviti
 utočiti		M
 utrapiti	19	
 utreti		
+utrgnuti		
 utrkivati	60	
 utrljati	115	
 utrljavati		
@@ -10228,11 +10744,14 @@ utrošiti	534
 utrpati	16	
 utrti	66	
 utrčati	13	
+utrčavati		
 utržiti		
 utucati		M
 utuliti		M
 uturiti		M
+ututkati		
 utuviti	40	
+utuvljivati		
 utučenosti	30	
 utužiti		
 utvrditi	9281	
@@ -10241,6 +10760,7 @@ uvaliti	189
 uvaljati	303	
 uvaljivati	25	
 uvatiti	16	
+uvašljiviti		
 uvažavati	600	
 uvaženosti		
 uvažiti	937	
@@ -10275,6 +10795,7 @@ uvježbavati		J
 uvlačiti	119	
 uvoditi	891	
 uvoziti	697	
+uvoštiti		
 uvrati		M
 uvratiti		M
 uvraćati		M
@@ -10287,19 +10808,24 @@ uvrnuti	112
 uvrnutosti		
 uvrsti	1285	
 uvrstiti	933	
+uvrtati		
 uvrteti		M
 uvrtiti		
+uvrštavati		
 uvršćivati		
 uzabrati		M
 uzajmiti	12	
 uzajmljivati		M
 uzaludnosti	143	
 uzastopnosti		
+uzavirati		
 uzavreti		
 uzbrati		M
 uzbuditi	210	
 uzbuniti	13	
+uzbunjivati		
 uzburkati	84	
+uzburkavati		
 uzbuđenosti	120	
 uzbuđivati	102	
 uzdahnuti	24	
@@ -10312,6 +10838,7 @@ uzdrhtalosti
 uzdrhtati		
 uzdrhti	19	
 uzdrmati	291	
+uzdrmavati		
 uzdržanosti	188	
 uzdržati	270	
 uzdržavati	141	
@@ -10324,6 +10851,7 @@ uzgojiti	45
 uzidati	23	
 uzilaziti		
 uzimati	4720	
+uziđivati		
 uzjahati	32	
 uzjoguniti		
 uzlaziti		M
@@ -10358,6 +10886,7 @@ uzrujati	11
 uzrujavati	23	
 uzurpirati	26	
 uzveličati		
+uzverati		
 uzvikivati	31	
 uzviknuti	62	
 uzvisiti	49	
@@ -10391,6 +10920,7 @@ učtivosti
 učuti		
 učvrsti	1022	
 učvrstiti	675	
+učvršćivati		
 ušančiti		M
 ušeprtljiti		
 ušetati	51	
@@ -10401,17 +10931,21 @@ ušivati		M
 ušićariti	21	
 uškopiti		
 ušmrkati		M
+ušmrkavati		
+ušmrkivati		
 ušmrknuti		M
+ušoriti		
 uštedeti	2264	
 uštediti		
+ušteđivati		
 uštinuti	20	
 uštipnuti		M
+uštirkati		
 uštrcati		
 uštrcavati		
 uštrojiti		M
 ušuljati		
 ušunjati		
-ušuti	28	
 ušutiti		
 ušutkati	22	
 ušutkavati		
@@ -10421,6 +10955,7 @@ užagriti		M
 užariti		
 užasavati		
 užasnuti	177	
+užegnuti		
 uželeti	11	
 užiliti		M
 užinati		M
@@ -10442,6 +10977,7 @@ vagnuti
 vagoneti		
 vajati		M
 vajdisati		
+vajditi		
 vajkati	11	
 vakcinisati	268	
 vakti		
@@ -10449,6 +10985,7 @@ validnosti	320
 valjanosti	312	
 valjati	335	
 valjkasti	64	
+valorizovati		
 valoviti	30	
 valuti	2483	
 vapiti	40	
@@ -10589,7 +11126,9 @@ vračati
 vrbovati	28	
 vrcati	36	
 vrckati		M
+vrcnuti		
 vrdati		
+vrdnuti		
 vrduckati		
 vrebati	70	
 vredeti		M
@@ -10600,6 +11139,7 @@ vreti	14
 vrečati		M
 vređati	433	
 vrgnuti		M
+vrhuniti		
 vrijediti	56	J
 vrijeđati	71	J
 vriskati		
@@ -10654,19 +11194,24 @@ zabiti	566
 zablatiti		
 zablejati		
 zablenuti		
+zablesaviti		
 zablistati	184	
 zabljesnuti		
+zablokirati		
 zabludeti		
+zabluđivati		
 zaboleti	144	
 zaboljeti		J
 zaboraviti	11988	
 zaboravljati	229	
 zaboravnosti	120	
 zabosti	63	
+zabraditi		
 zabraniti	3027	
 zabranjivati	221	
 zabraviti	11	
 zabrazditi		
+zabrbljati		
 zabrinjavati	29	
 zabrinuti	3657	
 zabrinutosti	1523	
@@ -10674,6 +11219,7 @@ zabrkati		M
 zabrljati	33	
 zabroditi		
 zabrujati		
+zabrzati		
 zabuljiti		
 zabundati		
 zabuniti		
@@ -10685,13 +11231,16 @@ zacariti	19
 zaceliti	57	
 zaceniti		M
 zacepiti		M
+zacičati		
 zacopati		
+zacrneti		
 zacrniti		
 zacrtati		
 zacrtavati		
 zacrveneti	13	
 zacrveniti		
 zacvileti		M
+zacvokotati		
 zacvrkutati		
 zadahnuti		M
 zadaniti		M
@@ -10714,6 +11263,7 @@ zadisati		M
 zadiviti	150	
 zadivljavati		M
 zadivljenosti	21	
+zadizati		
 zadobijati	13	
 zadobiti	448	
 zadocniti		M
@@ -10726,6 +11276,7 @@ zadreti
 zadrhtati	30	
 zadrhti	157	
 zadrijemati		J
+zadrmati		
 zadrti	178	
 zadržati	6171	
 zadržavati	522	
@@ -10740,13 +11291,16 @@ zafrknuti
 zafućkati		
 zagaditi	86	
 zagalamiti		
+zagarantovati		
 zagasiti	11	
 zagatiti		M
 zagaziti	35	
 zagađenosti	601	
+zagađivati		
 zagladiti	27	
 zaglaviti	117	
 zaglavljivati		
+zaglađivati		
 zagledati	115	
 zaglibiti	23	
 zagluhnuti		M
@@ -10754,10 +11308,13 @@ zaglupeti
 zaglupiti	10	
 zaglupljivati	12	
 zaglušiti	13	
+zaglušivati		
+zagnati		
 zagnjuriti	12	
 zagnojiti		
 zagolicati	73	
 zagoreti		
+zagorevati		
 zagorčati	82	
 zagorčavati		
 zagorčiti		
@@ -10767,6 +11324,8 @@ zagovoriti		M
 zagrabiti	17	
 zagraditi	13	
 zagrajati		M
+zagraktati		
+zagrađivati		
 zagrcnuti	32	
 zagrebati	51	
 zagrejati	1008	
@@ -10779,13 +11338,18 @@ zagriznuti		M
 zagrliti	180	
 zagrmeti		
 zagrnuti		
+zagroktati		
 zagroziti		
 zagrtati		
 zagubiti	29	
+zaguliti		
+zagunđati		
 zagurati		
+zagusnuti		
 zagusti	299	
 zagustiti		M
 zagušiti	32	
+zagušivati		
 zaheftati		
 zahiti		
 zahititi		
@@ -10796,6 +11360,8 @@ zahoditi		M
 zahrkati		
 zahtevati	3819	
 zahuktati	25	
+zahuktavati		
+zahučati		
 zahvaliti	1185	
 zahvaljivati	99	
 zahvalnosti	3595	
@@ -10804,13 +11370,16 @@ zahvati	1555
 zahvatiti	524	
 zahvaćati		
 zaigrati	595	
+zaigravati		
 zailaziti		
+zaimati		
 zainati	30	
 zainatiti		
 zaintačiti		
 zainteresovanosti	1169	
 zainteresovati	562	
 zaiskati		
+zaiskriti		
 zajahati	21	
 zajamčiti	26	
 zajapuriti		
@@ -10825,6 +11394,7 @@ zaječati		M
 zajmiti		M
 zakaliti		
 zakamuflirati	13	
+zakapati		
 zakartati		
 zakasniti	194	
 zakazati	1003	
@@ -10833,6 +11403,7 @@ zakačiti	299
 zakašljati		
 zakašnjavati		M
 zakerati		M
+zakevtati		
 zakidati	21	
 zakinuti	198	
 zakipeti		
@@ -10844,7 +11415,9 @@ zakivati
 zaklanjati	56	
 zaklapati		
 zaklati	177	
+zaklatiti		
 zaklecati		
+zaklepetati		
 zakleti	589	
 zaklimati		
 zaklinjati	65	
@@ -10853,7 +11426,9 @@ zaključavati	50
 zaključiti	9192	
 zaključivati	230	
 zakloniti	118	
+zakloparati		
 zaklopiti	13	
+zakokotati		
 zakolutati		
 zakomplikovati	134	
 zakoniti	391	
@@ -10863,6 +11438,7 @@ zakopavati	20
 zakopčati	23	
 zakopčavati		
 zakoračiti	203	
+zakoračivati		
 zakositi		
 zakotiti		M
 zakotrljati		
@@ -10875,17 +11451,21 @@ zakočiti	64
 zakrabuljiti		
 zakrati		
 zakratiti		M
+zakreketati		
 zakrenuti		
 zakretati		
 zakreštati		
 zakrešti		
 zakriliti		
 zakriti		
+zakrivati		
 zakriviti		
 zakrivljenosti	132	
+zakrkljati		
 zakrmačiti		
 zakrpati	12	
 zakrpiti	115	
+zakrvariti		
 zakrvaviti		M
 zakrviti		
 zakrčiti	14	
@@ -10896,6 +11476,7 @@ zakucavati
 zakuckati		
 zakukati		M
 zakukuljiti		
+zakukurekati		
 zakumiti		M
 zakuniti		
 zakunjati		M
@@ -10912,8 +11493,10 @@ zalajati	10
 zalamati		M
 zalaziti	148	
 zalediti	83	
+zalegnuti		
 zalemiti	22	
 zalepiti	342	
+zalepršati		
 zaletati	70	
 zaleteti	37	
 zaleti	193	
@@ -10935,11 +11518,13 @@ založiti	454
 zaludeti		M
 zaluditi		
 zaludnosti		
+zalupati		
 zalupiti	38	
 zalutati	109	
 zaluđivati	36	
 zamagliti	71	
 zamagljenosti	18	
+zamagljivati		
 zamahati		
 zamahivati		
 zamahnuti	24	
@@ -10956,6 +11541,7 @@ zamastiti
 zamatati		
 zamazati	48	
 zamazivati		M
+zamaštati		
 zameketati		
 zameniti	6383	
 zamenjivati	223	
@@ -10976,6 +11562,7 @@ zamiriti		M
 zamisliti	6470	
 zamišljati	190	
 zamladiti		M
+zamlaćivati		
 zamoliti	612	
 zamonašiti		
 zamoriti	34	
@@ -10996,6 +11583,7 @@ zamršivati		M
 zamucati		
 zamuckivati		
 zamuknuti		
+zamumlati		
 zamuti	167	
 zamutiti	64	
 zamućivati		
@@ -11012,19 +11600,24 @@ zanijeti	17	J
 zanimati	687	
 zanimljivosti	2614	
 zanitovati		
+zanjihati		
 zanositi	175	
 zanovetati	10	
 zanoveti		
 zanovijetati		J
 zanoćiti	27	
+zanoćivati		
 zaobilaziti	217	
 zaobliti	10	
 zaogrnuti	27	
+zaogrtati		
+zaokoliti		
 zaokrenuti	29	
 zaokretati		
 zaokreti	78	
 zaokrugliti		M
 zaokružiti	532	
+zaokruživati		
 zaokupiti	82	
 zaokupljati	22	
 zaokupljivati		
@@ -11037,14 +11630,17 @@ zaostati	57
 zaoštravati	43	
 zaoštriti	137	
 zapadati	29	
+zapahivati		
 zapahnuti		
 zapajati		M
 zapakovati	41	
 zapaliti	671	
+zapaljivati		
 zapamti	1183	
 zapamtiti	1080	
 zapanjenosti	22	
 zapanjiti	53	
+zapanjivati		
 zapapriti		
 zaparati	12	
 zaparložiti		M
@@ -11062,6 +11658,7 @@ zapetljavati
 zapevati	136	
 zapečati	154	
 zapečatiti	54	
+zapečaćivati		
 zapiljiti		
 zapinjati	16	
 zapirati		M
@@ -11076,6 +11673,7 @@ zapišti	63
 zaplakati	274	
 zaplamteti		M
 zaplamti		
+zaplaviti		
 zaplašiti	100	
 zapleniti	97	
 zaplenjivati		
@@ -11104,6 +11702,7 @@ zaposlenosti	3409
 zaposliti	2821	
 zapostaviti	244	
 zapostavljati	60	
+zapostiti		
 zapovedati	36	
 zapovediti	24	
 zapovesti	2553	
@@ -11113,24 +11712,32 @@ započeti	6535
 započinjati	196	
 zapošljavati	578	
 zaprašiti	19	
+zaprašivati		
+zapraštati		
 zapregnuti		M
 zapremati		M
 zapremiti		
 zaprepasti	180	
 zaprepastiti	38	
+zaprepašćivati		
+zapresti		
 zapretati		
 zapreti	534	
 zapretiti	111	
 zaprezati		M
+zaprećivati		
 zaprečavati		M
 zaprečiti	11	
 zapričati		
 zaprljati	27	
 zaprositi	57	
+zaprskati		
+zaprštati		
 zapržiti	38	
 zaptiti		M
 zaptivati		M
 zapucati	29	
+zapucketati		
 zapuhnuti		
 zapusti	75	
 zapustiti	40	
@@ -11139,7 +11746,9 @@ zaputiti	93
 zapušavati		M
 zapušiti	113	
 zaraditi	3124	
+zaradovati		
 zaraniti		
+zaranjati		
 zarastati		
 zarasti	59	
 zarati	171	
@@ -11149,14 +11758,21 @@ zaraziti	317
 zaračunati		
 zaračunavati		
 zarađivati	669	
+zaražavati		
+zaredati		
+zarediti		
 zarezati	22	
 zarezivati		
 zaređati		M
+zarežati		
 zaribati		
 zaricati		M
 zaridati	12	
+zarikati		
 zariti	23	
+zarivati		
 zarobiti	116	
+zarobljavati		
 zaroniti	129	
 zarozati		
 zarubiti		M
@@ -11185,9 +11801,12 @@ zasićivati		M
 zasjati	43	
 zaskočiti	27	
 zasladiti	148	
+zaslađivati		
+zaslepeti		
 zaslepiti	20	
 zaslepljivati		
 zaslijepiti		J
+zasloniti		
 zaslužiti	398	
 zasluživati	20	
 zasmejati		M
@@ -11210,6 +11829,7 @@ zastideti	22
 zastiditi		
 zastirati		
 zastraniti	16	
+zastranjivati		
 zastrašiti	128	
 zastrašivati	39	
 zastrepiti		
@@ -11252,7 +11872,9 @@ zatraviti
 zatražiti	2740	
 zatrebati	610	
 zatreperiti	11	
+zatreptati		
 zatrepti		
+zatreskati		
 zatresti	52	
 zatreti	11	
 zatrovanosti	44	
@@ -11311,6 +11933,7 @@ zaveštavati		M
 zavideti		M
 zavidnosti	20	
 zavijati	32	
+zavijoriti		
 zavikati		
 zaviknuti		
 zaviriti	260	
@@ -11331,9 +11954,11 @@ zavoljeti		J
 zavratiti		M
 zavraćati		M
 zavrbovati		
+zavrediti		
 zavreti		
 zavređivati		
 zavrgnuti		M
+zavriskati		
 zavrištati		
 zavrišti	19	
 zavrljati		M
@@ -11351,9 +11976,11 @@ zazimiti
 zazirati	56	
 zazivati		
 zazjavati		M
+zazoriti		
 zazornosti		
 zazreti		M
 zazvati		
+zazveketati		
 zazviždati		
 zazvoniti	48	
 zazvučati	75	
@@ -11361,6 +11988,7 @@ zaćutati	40
 zaćuti	205	
 začamati		M
 začarati	17	
+začaravati		
 začepiti	78	
 začepljivati		
 začeprkati		M
@@ -11377,6 +12005,7 @@ začitati		M
 začuditi	264	
 začudnosti	46	
 začuti	38	
+začuđivati		
 zašarafiti		
 zašareniti		
 zašećeriti		
@@ -11388,12 +12017,14 @@ zašivati
 zaškripati		
 zašrafiti		
 zaštedeti		
+zaštektati		
 zaštiti	30088	
 zaštititi	3535	
 zaštićavati		
 zašuti	20	
 zašutjeti		J
 zašuškati		
+zašuštati		
 zašušti		
 zažaliti	322	
 zažariti		M
@@ -11402,7 +12033,9 @@ zaželeti	53
 zaželiti		
 zaželjeti		J
 zaživeti	742	
+zažizati		
 zažmiriti		
+zažmirkati		
 zažmuriti	97	
 zažudeti		M
 zažuteti		M
@@ -11426,6 +12059,7 @@ zbrinjavati	40
 zbrinuti	693	
 zbrisati	152	
 zbrkati		M
+zbrojiti	16	
 zbrzati		
 zbrčkati		M
 zbuniti	418	
@@ -11441,6 +12075,7 @@ zdraviti
 zdrmati		
 zdrobiti	18	
 združiti	21	
+združivati		
 zelenašiti		M
 zeleneti		
 zeleniti		
@@ -11464,12 +12099,15 @@ zgrabiti	96
 zgranuti	146	
 zgranutosti		
 zgražati	13	
+zgražavati		
 zgrejati		M
+zgrepsti		
 zgrešiti	11	
 zgrnuti	24	
 zgromiti		
 zgroziti	30	
 zgrtati	17	
+zgrudvati		
 zgruvati		M
 zgrušati		
 zgrušavati		
@@ -11479,6 +12117,7 @@ zguliti
 zgurati		
 zguriti		
 zgusnuti	118	
+zgušnjavati		
 zgužvati	21	
 zibati		M
 zidati	295	
@@ -11526,6 +12165,7 @@ zračnosti
 zrcaliti		
 zrelosti	2094	
 zreti	12	
+zrikati		
 zrnasti	26	
 zubati	24	
 zucati		M
@@ -11535,6 +12175,7 @@ zujati	27
 zumirati	79	
 zupčasti	168	
 zuriti	40	
+zurlati		
 zvati	4142	
 zveckati		
 zveketati		
@@ -11547,6 +12188,7 @@ zviždati	80
 zviždukati	10	
 zvocati	19	
 zvoniti	93	
+zvrcati		
 zvrcnuti		
 zvrjati		M
 zvrktati		M
@@ -11606,6 +12248,7 @@ zvučnosti	172
 čekati	6129	
 čekinjasti		
 čekirati		
+čekićati		
 čeličiti		
 čeljusti	645	
 čemerikovati		
@@ -11677,6 +12320,7 @@ zvučnosti	172
 šahirati		M
 šahisti	376	
 šaketati		M
+šalabazati		
 šaliti	237	
 šaljivosti		
 šamarati	31	
@@ -11749,7 +12393,9 @@ zvučnosti	172
 škrabati		
 škrgutati		
 škripati	15	
+škripeti		
 škripiti		
+škripnuti		
 škriputati		M
 škropiti		
 škrtariti	12	
@@ -11757,15 +12403,20 @@ zvučnosti	172
 škrtosti	54	
 šlagvorti		
 šlepati		
+šlepovati		
+šlifovati		
 šljakati	19	
 šljapati		M
 šljapkati		M
+šljapnuti		
+šljašteti		
 šljašti		
 šljemati		M
 šljisnuti		M
 šljiviti		
 šlogirati		M
 šminkati	53	
+šmrcati		
 šmrkati		
 šmrknuti		M
 šmugnuti		
@@ -11781,6 +12432,7 @@ zvučnosti	172
 špartati	12	
 špekulanti	325	
 špekulirati		
+špekulisati		
 špijunirati	42	
 špikovati		
 šporeti		
@@ -11793,6 +12445,7 @@ zvučnosti	172
 štedjeti		J
 štedljivosti	129	
 štektati		M
+štelovati		
 šteniti		M
 šteti	2896	
 štetiti	356	
@@ -11803,6 +12456,7 @@ zvučnosti	172
 štipati	10	
 štipkati		
 štipnuti		
+štirkati		
 štiti	13201	
 štititi	1716	
 štopovati		
@@ -11824,6 +12478,7 @@ zvučnosti	172
 štuknuti		
 šturosti		
 šuljati		
+šumeti		
 šumoviti	67	
 šunjati	11	
 šuperiti		
@@ -11903,6 +12558,7 @@ zvučnosti	172
 žmigati		
 žmiriti		
 žmirkati		
+žmirnuti		
 žmuriti	22	
 žnjeti	57	
 žonglirati	27	
@@ -11930,6 +12586,7 @@ besvijesti	44
 besvjesti		
 bezbjednosti		
 bijednosti		
+bjelokosti	23	J
 bježati		
 bliješti		
 cijelosti	401	
@@ -12005,6 +12662,7 @@ nasjesti
 naslijediti	91	
 nasmiješiti		
 natjerati		
+nedosljednosti	40	J
 neizvjesnosti		
 nesvijesti	24	
 nesvjesti		
@@ -12219,6 +12877,7 @@ vrijednosti	5273
 zacijeliti	11	
 zahtijevati	168	
 zahtjevati		
+zakašnjeti		
 zalijepiti	29	
 zalijetati		
 zaliječiti	15	

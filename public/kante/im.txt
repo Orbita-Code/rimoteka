@@ -1,4 +1,4 @@
-7656
+7658
 Jerusalim		
 Rim		M
 abecednim	92	
@@ -1161,6 +1161,7 @@ hokejaškim	17
 holandskim	383	
 holivudskim	560	
 homogenim	80	
+homonim		
 homoseksualnim	236	
 horizontalnim	341	
 hormonskim	147	
@@ -1192,6 +1193,7 @@ hvalim	1039
 hvaljenim	20	
 ibarskim		
 ibrahim		
+ibrišim		
 idealnim	1702	
 idejnim	422	
 identičnim	758	
@@ -3832,6 +3834,7 @@ ozbiljnim	4895
 ozdravim	74	
 ozelenjelim		
 ozidanim		
+ozim		
 ozimim	111	
 ozloglašenim	73	
 označenim	148	
@@ -6218,7 +6221,6 @@ totalnim	285
 tovarim	21	
 tovarnim	70	
 točim	36	
-tradicijskim	33	
 tradicionalnim	3803	
 tragičnim	723	
 trajnim	737	

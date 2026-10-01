@@ -1,7 +1,8 @@
-62
+64
 agitprop		
 antilop		
 arhiepiskop	2159	
+autostop		
 bioskop	4479	
 desktop	4728	
 endoskop	68	
@@ -33,6 +34,7 @@ nonstop
 oklop	1026	
 op		
 opkop	20	
+otkop		
 periskop	64	
 pokop	34	
 pop	6782	

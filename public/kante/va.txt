@@ -892,6 +892,7 @@ konklava	79
 konstantinova		
 kontraofanziva		M
 konzerva	252	
+kooperativa		
 kopitareva		
 kopova	985	
 kopriva	501	
@@ -910,7 +911,6 @@ kotva	36
 kova	806	
 kovačeva	19	
 kovrdžava		
-kovrčava	13	
 kočijaševa		
 kočićeva		
 košava	599	
@@ -1226,6 +1226,7 @@ mrazova	29
 mračnjaštva	63	
 mrkaljeva		
 mrkova		
+mrkva		
 mrtva	3309	
 mrtvačeva		
 mrva	187	
@@ -2385,7 +2386,6 @@ slamova	23
 slapova	119	
 slatkorečiva		
 slava	9207	
-slavenstva	24	
 slavnićeva		
 slavujeva		
 sledstva		M
@@ -3303,6 +3303,7 @@ crijeva	319
 cvjetova	75	
 dijelova	857	
 dijeva		
+djedova	92	
 djelova		
 djetetova		
 djetinjstva		
@@ -3396,4 +3397,3 @@ zbjegova
 zijeva		
 čovjekova		
 čovječanstva		
-djedova	92	

@@ -1,4 +1,4 @@
-598
+619
 adamov		
 admiralov		
 ahilov		
@@ -30,6 +30,7 @@ bademov
 bagremov	139	
 bajazitov		
 balzakov		
+bambusov		
 banov	33	
 baronov	10	
 baćkov		
@@ -41,6 +42,7 @@ bećarov
 bikov	11	
 bilov	15	
 birov		
+biserov		
 biskupov	14	
 blagoslov	4787	
 blerov		
@@ -109,6 +111,7 @@ dudov
 duhovnikov		
 dušanov		
 duškov		
+dužnikov		
 edipov		
 eolov		
 episkopov		
@@ -121,6 +124,7 @@ gadov
 garov		M
 gatilov		
 gavrilov		
+generalov		
 geteov		
 glazgov		
 gligorov		
@@ -139,6 +143,7 @@ gotov	5317
 govornikov		
 grabov		
 gradonačelnikov	36	
+grahov		
 grnčarov		
 grobarov	10	
 grofov	12	
@@ -178,6 +183,7 @@ jasminov
 jastrebov	119	
 javorov	55	
 jelenov	12	
+jelov		
 jerkov		
 jevrejinov		
 jevremov		
@@ -241,9 +247,12 @@ krakov	60
 krasnov		
 krešimirov		
 krivolov	104	
+krompirov		
 krov	7870	
 krumov		
+kruškov		
 kumov	27	
+kupinov		
 kurjakov		
 kuzmanov		
 kuznjecov		
@@ -253,6 +262,7 @@ lavrov
 lazarov		
 lažov	659	
 leonardov		
+leopardov		
 leopoldov		
 leptirov	21	
 leskov		M
@@ -265,6 +275,7 @@ lopov	2526
 lotosov	44	
 lov	5582	
 lovorov	248	
+lozov		
 lukov		M
 lužkov		
 majmunov		
@@ -319,6 +330,7 @@ mitrov
 miškov		
 mladenov		
 mocartov		
+molerov		
 molotov		
 momirov		
 momkov		
@@ -406,9 +418,11 @@ polov	22
 popov	30	
 porterov		
 poručnikov		
+poslanikov		
 potkov		
 potokov		
 pov		M
+pradedov		
 prašnikov		
 predsednikov	191	
 preduslov	7141	
@@ -455,6 +469,7 @@ sadamov
 saharov		
 samokov		
 samsonov		
+sandalov		
 saturnov		
 seljakov	10	
 senatorov		
@@ -471,7 +486,9 @@ skotov
 slavistov		
 slavkov		
 slezov		
+slonov		
 smirnov		
+smrekov		
 sokolov	80	
 sokurov		
 solomonov		
@@ -508,6 +525,7 @@ titanov	16
 titov		
 todorov		
 topalov		
+topolov		
 toškov		
 trefov		
 trenerov	13	
@@ -554,6 +572,7 @@ vukašinov
 vukosavov		
 vukov	614	
 zdravkov		
+zetov		
 zeusov		
 zevsov		
 zjuganov		
@@ -578,12 +597,14 @@ zov	649
 đavolov	94	
 đumbirov		
 đurov		
+šaranov		
 šarov		
 šefov	14	
 šekspirov		
 šerifov		
 šećerov	24	
 šimširov		
+šljivov		
 šogorov		
 šopenov		
 šopov		
@@ -597,10 +618,10 @@ zov	649
 žukov		
 županov	12	
 župnikov		
+djedov	14	J
 djetetov		
 dječakov		
 ljermontov		
 ljeskov		
 predsjednikov		
 čovjekov		
-djedov	14	J

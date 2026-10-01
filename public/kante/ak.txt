@@ -1,10 +1,12 @@
-975
+998
 Irak		
+Kozjak		
 aerosnimak		
 afrodizijak	506	
 alčak		
 amonijak	482	
 anatemnjak		
+antijunak		
 anđelak	25	
 arak	25	
 armanjak		
@@ -15,6 +17,7 @@ badrljak
 badžanak		
 bajrak		
 bak		M
+bakrenjak		
 bakrotisak		
 balzak		
 balčak	24	
@@ -99,6 +102,7 @@ divljak	194
 dobitak	2839	
 dodatak	10989	
 dohodak	1025	
+dokonjak		
 dolazak	17450	
 domak	246	
 dometak		
@@ -185,6 +189,7 @@ izdanak	702
 izdatak	694	
 izlazak	11087	
 izložak		
+iznalazak		
 iznimak		M
 izostanak	2279	
 izrezak		
@@ -205,6 +210,7 @@ jednak	3887
 jednjak	306	
 jedrenjak	171	
 jelenak	109	
+jetak		
 jezičak		M
 ječmičak		M
 jichak		
@@ -224,6 +230,7 @@ kačamak		M
 kijak		
 kiseljak	140	
 kitnjak		M
+kičmenjak		
 klak		M
 klizak		M
 kljunak		
@@ -303,6 +310,7 @@ megalomanijak
 merak		M
 metak	2531	
 međukorak		
+mirovnjak		
 mišjak		
 mlak	341	
 mlaznjak	61	
@@ -375,6 +383,7 @@ neporedak
 nepočetak		
 nepoštenjak		
 nepristanak		
+neredak		
 nerijedak		J
 nesposobnjak		
 nespretnjak		M
@@ -453,6 +462,7 @@ otpadak	118
 otpravak	92	
 ovčinjak		
 očnjak	78	
+oštrodlak		
 ožiljak	975	
 pabirak		
 pak	35082	
@@ -468,6 +478,7 @@ pašnjak	240
 pedesetak	3522	
 pedesetogodišnjak	64	
 pepeljak		
+perolak		
 perverznjak	48	
 pesak	3878	
 petak	31194	
@@ -574,7 +585,9 @@ preostatak	27
 prepredenjak	14	
 preredak		
 presladak	94	
+preslatak		
 prestanak	3469	
+pretanak		
 pretežak	320	
 pretisak		
 preuzak	40	
@@ -584,6 +597,7 @@ prhak
 pridolazak		
 priglavak		
 priključak	3851	
+prikrajak		
 prikumak		
 prilazak	101	
 prilepak	35	
@@ -629,6 +643,7 @@ raskorak	628
 rastanak	959	
 ravnokrak		M
 razdeljak	262	
+razilazak		
 različak	127	
 razlomak	73	
 razmak	2111	
@@ -657,6 +672,7 @@ sažetak	1296
 sebičnjak	23	
 sedamdesetak		
 sedamdesetogodišnjak		
+sedamnaestogodišnjak		
 sedlak		
 sedmak	24	
 sedmogodišnjak	45	
@@ -693,6 +709,7 @@ spartak
 spisak		M
 spojak		
 spomenak	119	
+srebrenjak		
 srebrnjak	69	
 srednjak	68	
 stalak	464	
@@ -712,6 +729,7 @@ stričak
 stručak	129	
 stručnjak	11006	
 studenjak		
+suharak		
 sumrak	1697	
 superjunak	13	
 superlepak		
@@ -749,6 +767,7 @@ torbak		M
 torlak		
 tornjak		
 točak		M
+trak		
 travnjak	555	
 tračak	745	
 trenutak	25117	
@@ -781,6 +800,7 @@ ukorak	136
 ulazak	18652	
 ulomak	37	
 uložak	338	
+ultralak		
 umak	219	
 umerenjak		
 umetak	202	
@@ -807,6 +827,7 @@ uzlazak		M
 uzmak	51	
 uzorak	3417	
 učenjak	122	
+učevnjak		
 učinak	8205	
 ušitak		
 uštipak	12	
@@ -828,6 +849,7 @@ visuljak		M
 vitak	250	
 vivak		
 višak	10989	
+vlak	206	
 vodenjak	146	
 vosak	1303	
 voćnjak	784	
@@ -964,6 +986,7 @@ zvrčak		M
 šurjak	10	
 žabljak		
 žak		M
+žarak		
 žavornjak		
 židak		
 žirovnjak		M
@@ -974,6 +997,7 @@ zvrčak		M
 žutak		
 žućak		
 žvak		
+bjelanjak		
 cvijetak		
 djecak		
 dječak		

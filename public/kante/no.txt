@@ -1,4 +1,4 @@
-5520
+5517
 Argentino		
 Kino	602	
 Ljubljano		
@@ -1423,7 +1423,6 @@ kukavno	71
 kukuruzno	193	
 kultivisano	54	
 kultno	348	
-kulturalno	46	
 kulturno	10427	
 kumulativno		
 kuno		
@@ -3209,7 +3208,6 @@ potapano
 potcenjeno	62	
 potencijalno	6273	
 pothranjeno	27	
-poticajno	23	
 potišteno	63	
 potkoleno		
 potkopano	14	
@@ -3514,7 +3512,6 @@ prečišćeno	34
 prečudesno		
 prečudno		
 prešno		
-prešutno	27	
 preživljeno		
 pribavljano		
 pribavljeno	114	

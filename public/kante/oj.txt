@@ -1,4 +1,4 @@
-4057
+4056
 Bugarskoj	577	
 Danskoj	131	
 Francuskoj	1559	
@@ -51,6 +51,7 @@ aninoj
 anketnoj	19	
 anksioznoj		
 anonimnoj	113	
+antiheroj		
 antiratnoj	14	
 antiterorističkoj	34	
 antičkoj	465	
@@ -3183,6 +3184,7 @@ striktnoj	58
 stričevoj		
 strmoj	105	
 strogoj	482	
+stroj	834	
 strožoj	20	
 strpljivoj	15	
 strukovnoj	74	
@@ -3197,7 +3199,6 @@ stvarnoj	705
 stvorenoj	157	
 subotičkoj	758	
 subotnjoj	107	
-sudačkoj		
 sudbinskoj	39	
 sudbonosnoj	38	
 sudijskoj	383	
@@ -3356,7 +3357,6 @@ torinskoj	22
 totalnoj	425	
 tovarnoj		
 točnoj		
-tradicijskoj	22	
 tradicionalnoj	2012	
 tragičnoj	351	
 trajnoj	257	
@@ -3677,7 +3677,6 @@ visokoj	4241
 vitalnoj	45	
 viteškoj	51	
 vitkoj	45	
-vizualnoj	13	
 vizuelnoj	297	
 viđenoj	45	
 višeboj	189	

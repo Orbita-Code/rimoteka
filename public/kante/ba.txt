@@ -1,4 +1,4 @@
-286
+288
 Kuba	60	
 Zagreba	353	
 aba		
@@ -30,6 +30,7 @@ družba	178
 dvogrba		
 dvoguba		
 dvojba	17	
+dvorba		
 džaba		M
 džomba		M
 elba		
@@ -242,6 +243,7 @@ uporedba
 upotreba	15385	
 uredaba	105	
 uredba	3210	
+usporedba	122	
 ustreba	197	
 utroba	322	
 uvežba	102	

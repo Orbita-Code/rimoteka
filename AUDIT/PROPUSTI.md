@@ -1735,3 +1735,18 @@ sam trajao dovoljno da čitanje stigne posle brisanja.
 **Pravilo:** kad kod posle radnje **sam menja stanje po tajmeru**, provera čita stanje **u istom koraku** kao radnja
 (`evaluate` koji klikne i odmah vrati), ne „pauza pa čitanje". Pre nego što se pad prijavi kao kvar igre, isti odgovor se
 ponovi ručno u istom motoru (`grep -n setTimeout` oko te funkcije kaže koliko stanje živi).
+
+## 01.10.2026 — PODELA TESTA NA RADNIKE: TRI STVARI KOJE SU PUKLE PRE NEGO ŠTO JE PROŠLO
+
+**Šta se desilo:** (1) Svaki od četiri radnika dizao je svoj server na istom portu – tri su pala na `EADDRINUSE`, a greška je
+glasila „lokalni server se nije podigao za 15 s", ne „port zauzet". (2) `lanac.sh` je izmenjen DOK JE RADIO; bash skriptu čita u
+toku izvršavanja, pa je prolaz pao na `syntax error near else` iako je fajl bio ispravan. (3) Pri podizanju promenljivih iz
+sekcija na vrh `main`, red `const a = [], b = [];` je pretvoren u `a = [], b = [];` – `b` nikad nije deklarisano, radnik 4 pao na
+`slogZahtevi is not defined`. Uz to, sekcija 20 (omiljene) je kao prvi posao radnika 2, pod opterećenjem od 37, pala na istoj trci
+kante → ceo rečnik koja je već popravljena u 46/PR-2 (`cekajMirneRime`).
+
+**Pravilo:** kad se jedan proces deli na više, prvo se popiše šta taj proces drži EKSKLUZIVNO (port, fajl, folder, keš) i to
+se iznese van radnika, pre prvog pokretanja. Skripta koja se izvršava se ne menja dok traje – izmena ide posle, ili u kopiju.
+Mehanička izmena koda (hoisting, omotavanje) se proverava pretragom za obrasce koje regex NIJE pokrio (`, ime = ` u istom redu),
+ne samo `node --check`. I: svaka provera koja hvata kapsulu posle pretrage ide kroz `cekajMirneRime` – bez izuzetka, jer pod
+opterećenjem ponovno iscrtavanje kasni više nego lokalno u miru.

@@ -1,4 +1,4 @@
-36
+37
 arhetip	426	
 biotip		
 džip	1411	
@@ -23,6 +23,7 @@ opip	24
 osip	1164	
 parip		M
 particip	17	
+podtip		
 polip	103	
 princip	15304	
 prototip	2371	

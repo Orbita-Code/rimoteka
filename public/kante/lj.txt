@@ -1,4 +1,4 @@
-213
+218
 Marselj		
 Napulj		
 akropolj		
@@ -106,6 +106,7 @@ opunomoćitelj
 osiguravatelj	42	
 osnovatelj		
 ovlastitelj		
+označitelj		
 pasulj	3142	
 pazitelj	21	
 pedalj	572	
@@ -144,6 +145,7 @@ revnitelj	125
 roditelj	6490	
 rogalj		
 roštilj	1915	
+rubalj		
 rudelj		
 rukovatelj		M
 rukovoditelj	43	
@@ -177,6 +179,7 @@ uništitelj
 upravitelj	659	
 upropastitelj		
 usrećitelj	21	
+ustavobranitelj		
 usvojitelj	64	
 utemeljitelj	121	
 utešitelj	83	
@@ -196,9 +199,11 @@ zločinitelj
 čagalj		
 češalj	362	
 činitelj	11	
+čitatelj		
 čkalj	40	
 čukalj		
 šešelj		
+širitelj		
 školj	22	
 šmrkalj		
 štagalj		

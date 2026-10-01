@@ -1,4 +1,4 @@
-8748
+8832
 Albanije		
 Australije		
 Austrije		
@@ -161,6 +161,7 @@ apatije	502
 apelacije	101	
 apeluje	1910	
 aplaudiranje		
+apliciranje		
 aplikacije	18095	
 apologije	56	
 aproksimacije	71	
@@ -367,6 +368,7 @@ biranje	988
 birokracije	33	
 birokratije	1533	
 birtije		
+biserje	30	
 biskupije	565	
 bistrije	76	
 bistroumlje		
@@ -843,6 +845,7 @@ dobovanje
 dobrivoje		
 dobroje		
 dobuje	68	
+dociranje		
 docnije		
 docnje	256	
 dodaje	34473	
@@ -888,6 +891,7 @@ domahivanje
 domahuje		
 domašaje	30	
 dominacije	2568	
+dominiranje		
 domišljanje	28	
 domoljublje	63	
 donacije	5503	
@@ -1131,6 +1135,7 @@ erupcije	789
 eseje	752	
 esencije	278	
 eskalacije	647	
+etabliranje		
 etikecije		
 etiketiranje	356	
 etnologije	413	
@@ -1354,6 +1359,7 @@ gonjenje	1574
 gonoreje	110	
 gordoumlje		
 gorenje	1330	
+gorje	39	
 gornje	5064	
 gorđenje		
 gospodnje		
@@ -1502,7 +1508,6 @@ hirotonije
 hirurgije	2464	
 histerektomije	26	
 histerije	699	
-historije	499	J
 hitnije	712	
 hitrije	36	
 hladnije	1083	
@@ -1717,6 +1722,7 @@ iskorenjenije
 iskorenjivanje	455	
 iskorenjuje	68	
 iskorišćavanje	1063	
+iskorišćenje		
 iskorišćuje		
 iskradanje		
 iskrcavanje	268	
@@ -1765,6 +1771,7 @@ ispoljavanje	1190
 isporučivanje	192	
 isporučuje	4119	
 isposluje	104	
+ispostavljanje		
 ispovedanje	472	
 ispoštuje	1393	
 ispravljanje	1241	
@@ -1986,6 +1993,7 @@ izvornije	18
 izvođenje	9038	
 izvoženje	20	
 izvrdavanje		
+izvrgavanje		
 izvrtanje	252	
 izvršavanje	2074	
 izvršenje	6816	
@@ -2196,6 +2204,7 @@ klasifikacije	1160
 klasifikovanje	115	
 klasifikuje	414	
 klasiranje		
+klasje	209	
 klaudije		
 klaustrofobije	67	
 klaćenje	45	
@@ -2294,6 +2303,7 @@ komplikovanje
 komplikuje	1276	
 komponovanje	235	
 komponuje	507	
+kompostiranje		
 kompozicije	3841	
 kompresije	793	
 komprimiranje		
@@ -2430,6 +2440,7 @@ kočenje	837
 kočije	485	
 košenje	477	
 koškanje	74	
+koštanje		
 košulje	1758	
 koščatije		
 kraguje		
@@ -2467,6 +2478,7 @@ krivaje
 krivljenje	148	
 krivnje	199	
 krivotvorenje	141	
+krivoumlje		
 krivoverje		
 krivovjerje		J
 krivošije		
@@ -2656,6 +2668,7 @@ ljubljenje	589
 ljubovije		
 ljudskije	65	
 ljuljanje	386	
+ljuljuškanje		
 ljutitije		
 ljutnje	1041	
 ljuštenje	198	
@@ -3033,6 +3046,7 @@ nadevanje
 nadgledanje	1452	
 nadgradnje	461	
 nadgrađuje	102	
+nadigravanje		
 nadilaženje	41	
 nadimanje	314	
 nadiranje	117	
@@ -3490,6 +3504,7 @@ nastavljanje	440
 nastojanje	2004	
 nastoje	3629	
 nastupanje	543	
+nasukanje		
 natalije		
 natapanje	53	
 nateruje		
@@ -3519,6 +3534,7 @@ navodnjavanje	3843
 navođenje	1314	
 navraćanje		
 navrtanje		
+navršavanje		
 navršenje		
 nazadovanje	225	
 nazaduje	155	
@@ -3538,6 +3554,8 @@ nebožje
 nedavanje	78	
 nedelanje		
 nedelje	65104	
+nedelovanje		
+nedolaženje		
 nedonošenje	114	
 nedostajanje	63	
 nedostaje	14967	
@@ -3566,17 +3584,20 @@ nekadanje	35
 nekadašnje	6455	
 nekoje	32	
 nekolebanje		
+nekretanje		
 nekupanje		
 nelagodnije		
 nemanje		
 nemarenje		
 nemarnije		
+nemenjanje		
 nemešanje	130	
 nemilosrdnije	19	
 nemirenje	77	
 nemirnije	18	
 nemoćnije	24	
 nenadanje		
+nenapadanje		
 nenasilje	228	
 neobičnije	126	
 neobraćanje		
@@ -3605,8 +3626,10 @@ neprijavljivanje	138
 neprimanje	34	
 nepristajanje	179	
 nepristupačnije		
+nepriznavanje		
 nepružanje	43	
 neraspoloženje	361	
+nerazlikovanje		
 nerazumevanje	1531	
 nerazumnije	15	
 nerađanje		
@@ -3615,6 +3638,7 @@ neroptanje
 nerotkinje	85	
 nerviranje	266	
 nervoznije	82	
+nesaglasje		
 nesaradnje	86	
 nesebičnije		
 neshvatanje	162	
@@ -3679,6 +3703,7 @@ neviđenje
 nevolje	3748	
 nevraćanje	24	
 nevršenje	19	
+nezameranje		
 neznanje	2851	
 nezrelije		
 nećakinje	11	
@@ -3689,11 +3714,13 @@ nečinjenje	326
 nečitanje	21	
 nečuvenije		
 neđelje		J
+neširenje		
 neželjenje		
 neženje	119	
 neživljenje		
 nežnije	294	
 nicanje	323	
+nijansiranje		
 nije	1517787	
 nikodije		
 nikozije		
@@ -3721,6 +3748,7 @@ noje
 nominacije	726	
 nominovanje	46	
 nominuje	91	
+normalizovanje		
 normalizuje	724	
 normalnije	435	
 normandije		
@@ -3878,6 +3906,7 @@ obzorje	31
 ocenjivanje	3216	
 ocenjuje	8839	
 ocepljenje		
+ocrnjivanje		
 ocrnjuje	34	
 ocrtavanje	52	
 odabiranje	152	
@@ -3920,6 +3949,7 @@ odlaganje	6836
 odlaženje	111	
 odlepljivanje	27	
 odlepljuje	49	
+odleđivanje		
 odlije	62	
 odlikovanje	832	
 odlikuje	5934	
@@ -4054,6 +4084,7 @@ ojačanje	280
 ojačavanje	348	
 oje		
 okajanje	11	
+okajavanje		
 okamenjuje		
 okapanje		M
 okeanije		
@@ -4068,6 +4099,7 @@ okončanje	1343
 okončavanje	52	
 okopavanje	149	
 okoštanje		
+okoštavanje		
 okrepljenje	182	
 okrepljuje	120	
 okresivanje	10	
@@ -4243,6 +4275,8 @@ orhideje	252
 originalnije	134	
 orijentacije		
 orijentisanje		
+oročavanje		
+oročenje		
 orođavanje		
 orođivanje		
 orođuje		
@@ -4263,7 +4297,9 @@ osamljuje	23
 osamostaljenje	217	
 osamostaljivanje	349	
 osamostaljuje	80	
+osavremenjavanje		
 oscilacije	1627	
+osciliranje		
 oscilovanje		
 osenčenje		M
 osetljivije	338	
@@ -4323,6 +4359,7 @@ ostvaruje	13266
 osujećenje	27	
 osujećivanje	23	
 osujećuje		
+osunčavanje		
 osuđivanje	176	
 osuđuje	2779	
 osvajanje	5933	
@@ -4400,6 +4437,7 @@ otrežnjuje	22
 otrovanje		
 otrovnije	30	
 otruje	200	
+otupljivanje		
 otupljuje	79	
 oturanje		
 otuđenje	771	
@@ -4431,6 +4469,7 @@ ozaruje
 ozbiljnije	8192	
 ozdravljenje	1015	
 ozdravljuje	25	
+ozleđivanje		
 ozleđuje		
 ozlojeđuje		
 ozlovolje		
@@ -4438,6 +4477,7 @@ označavanje	1090
 označuje	132	
 oznoje	74	
 ozračenje		
+ozračivanje		
 ozračje	60	
 ozvaničenje	84	
 ozvučavanje		
@@ -4646,6 +4686,7 @@ plenjenje
 plesanje	85	
 pletenije		
 pletenje	307	
+plevljenje		
 plije		M
 plinije		
 plisiranje		
@@ -4715,6 +4756,7 @@ podmićivanje	360
 podmićuje	72	
 podmlađivanje	629	
 podmlađuje	277	
+podmorje		
 podmuklije	34	
 podnaslovljavanje		
 podneblje	792	
@@ -4817,8 +4859,11 @@ pojavljuje	14798
 pojačanije		
 pojačanje	3684	
 pojačavanje	499	
+pojašnjavanje		
 pojašnjenje	761	
 poje	317	
+pojednostavljenje		
+pojednostavljivanje		
 pojednostavljuje	686	
 pojenje	76	
 pokajanje	1656	
@@ -5254,10 +5299,12 @@ pregovaranje	851
 pregrađivanje	66	
 pregrađuje	29	
 pregreje	102	
+pregrevanje		
 pregrešenje		
 pregrupisavanje	114	
 prehranjivanje	87	
 prehranjuje	92	
+preimenovanje		
 preimenuje	289	
 preinačenje	124	
 preinačuje	100	
@@ -5430,11 +5477,13 @@ previje	60
 previranje	89	
 previđanje	44	
 previšnje		
+prevladavanje		
 prevlačenje	150	
 prevlađuje		
 prevoje	40	
 prevođenje	2069	
 prevoženje	66	
+prevrednovanje		
 prevrtanje	232	
 prezanje		
 prezentacije	11561	
@@ -5470,6 +5519,7 @@ pridizanje
 pridobijanje	311	
 pridobije	882	
 pridodaje	213	
+pridruženje		
 pridruživanje	1270	
 pridružuje	1547	
 pridržavanje	577	
@@ -5895,6 +5945,7 @@ radovanje	580
 raduje	7004	
 rafinacije	123	
 rafinerije	2197	
+rafiniranje		
 raje		
 raketiranje	69	
 rakije	4085	
@@ -5912,6 +5963,7 @@ rasađuje
 rascepljuje		
 rasecanje	43	
 rasedanje		
+rasejanje		
 rasejavanje		
 raseje		
 raseljavanje	393	
@@ -5929,6 +5981,7 @@ raskrije
 raskriljuje		
 raskrivanje	25	
 raslinje		
+raslojavanje		
 raspadanje	357	
 raspakivanje		
 raspakuje		
@@ -5993,6 +6046,7 @@ ratuje	1136
 ravnanje	243	
 ravnije	59	
 ravnjanje		
+ravnodušje		
 ravnodušnije		
 razabiranje		
 razapinjanje	58	
@@ -6028,6 +6082,7 @@ razdvajanje	1483
 razdvoje	580	
 razgaljuje	43	
 razgibavanje	121	
+razglabanje		
 razglašuje		
 razgledanje	1957	
 razgledavanje	20	
@@ -6063,6 +6118,7 @@ razmeravanje
 razmetanje	92	
 razmeštaje	17	
 razmeštanje	339	
+razmicanje		
 razmimoilaženje	128	
 razmišljanje	8101	
 razmnožavanje	1330	
@@ -6082,6 +6138,7 @@ razočaranje	1459
 razočarenje	1858	
 razrastanje		
 razračunavanje	113	
+razrađivanje		
 razrađuje	590	
 razrezivanje	11	
 razrezuje	40	
@@ -6198,6 +6255,7 @@ reosiguranje	130
 reparacije	348	
 repariranje		
 repeticije	31	
+repetiranje		
 repovanje		
 represalije	120	
 represije	1204	
@@ -6339,6 +6397,7 @@ sadržaje	7840
 sagibanje		
 saginjanje	45	
 saginje	152	
+saglasje	164	
 saglašavanje	28	
 sagledanje		
 sagledavanje	2381	
@@ -6378,12 +6437,14 @@ samoodržavanje
 samoopredeljenje	1315	
 samoočuvanje		M
 samoposluživanje	224	
+samoposmatranje		
 samopotvrđivanje		
 samopouzdanje	5289	
 samopovređivanje	83	
 samopoštovanje	1011	
 samopožrtvovanje		M
 samopregorevanje		M
+samosaznanje		
 samosažaljenje		M
 samostalnije	139	
 samosuđenje		
@@ -6431,6 +6492,7 @@ saslušanje	1487
 saslušavanje	89	
 sastajanje	87	
 sastaje	1529	
+sastančenje		
 sastavljanje	1216	
 sastoje	2899	
 sasušuje		
@@ -6726,6 +6788,7 @@ sniženje	2005
 snoplje		
 snovanje	21	
 snoviđenje	106	
+snošenje		
 snošljivije	16	
 snuje	73	
 sobranje		
@@ -6792,6 +6855,7 @@ sposobnije	218
 spoticanje	46	
 spoznaje	1720	
 spoznanje	40	
+spoznavanje		
 spravljanje	475	
 sprdanje	79	
 sprdnje		
@@ -6884,6 +6948,7 @@ sticanje	7119
 stidljivije	27	
 stihije	385	
 stilizacije	211	
+stilizovanje		
 stilizuje	68	
 stimulacije	1552	
 stimuliranje	13	
@@ -6895,6 +6960,7 @@ stišavanje	79
 stogodišnje	131	
 stoje	21563	
 stolarije	1593	
+stolovanje		
 stoluje	143	
 stomatologije	1017	
 stopiranje	97	
@@ -6957,6 +7023,7 @@ sugestije	4171
 suhojedenje		
 sujetnije		
 sujeverje	327	
+sukanje		
 sukcesije	308	
 suknje	1525	
 sukobljavanje	176	
@@ -6977,7 +7044,6 @@ suprotstavljanje	801
 supstancije	177	
 supstitucije	201	
 suptilnije	290	
-suradnje	536	J
 surađivanje		
 surfanje	71	
 surfovanje	936	
@@ -7301,6 +7367,7 @@ tutnjanje	15
 tutnje	110	
 tuširanje	1236	
 tužakanje	48	
+tuženje		
 tužitelje	25	
 tužnije	348	
 tvituje	101	
@@ -7400,6 +7467,7 @@ uhodavanje	68
 uhođenje	59	
 uigravanje	237	
 ujedanje	40	
+ujedinjavanje		
 ujedinjenje	2683	
 ujedinjuje	813	
 ujednačavanje	294	
@@ -7432,6 +7500,7 @@ ukroćuje
 ukrupnjavanje	345	
 ukrućivanje		
 ukrštanje	515	
+ukucavanje		
 ukusnije	288	
 ukuvavanje		
 ulaganje	9297	
@@ -7516,6 +7585,7 @@ uobrazilje	143
 uobraženje	24	
 uokviravanje		
 uokviruje	158	
+uopštavanje		
 uopštenije		
 uopštenje		
 uozbilje	133	
@@ -7541,6 +7611,7 @@ uplašenije
 upletanje		
 uplitanje	489	
 upokoje	30	
+upokojenje		
 upoređenje	244	
 upoređivanje	844	
 upoređuje	963	
@@ -7573,6 +7644,7 @@ upuštanje	146
 uramljivanje		
 uramljuje		
 uranjanje	83	
+urastanje		
 uravnoteženje	222	
 urazumljuje		
 uračunavanje	63	
@@ -7615,6 +7687,7 @@ usisavanje	434
 usitnjavanje	209	
 uskakanje	74	
 uskladištenje	84	
+usklađenje		
 usklađivanje	3204	
 usklađuje	933	
 uskraćivanje	638	
@@ -7853,6 +7926,7 @@ veje
 vekuje		
 velebilje	16	
 veleizdaje	312	
+veleumlje		
 veličanje	418	
 veličanstvenije	30	
 velje		
@@ -7940,6 +8014,7 @@ vlaje
 vlastoljublje	86	
 vlasulje	13	
 vlatanje		
+vlaženje		
 vlažnije	50	
 vodanje	16	
 vodilje	205	
@@ -8005,6 +8080,7 @@ vukoje
 vučenje	120	
 vučije		
 vučje	320	
+zabacivanje		
 zabacuje	87	
 zabadanje	70	
 zabavljanje	188	
@@ -8020,6 +8096,7 @@ zabroje
 zabruje		
 zabušavanje	33	
 zacaruje		
+zaceljenje		
 zaceljivanje	91	
 zaceljuje	67	
 zacenjuje		
@@ -8066,6 +8143,7 @@ zaglušuje	14
 zagnjuruje		
 zagnojavanje		
 zagorevanje		
+zagorje	108	
 zagorkinje		
 zagovaranje	556	
 zagrađuje		
@@ -8247,6 +8325,7 @@ zarezuje	124
 zarije	105	
 zarivanje		
 zarobljavanje	175	
+zasađivanje		
 zasađuje		
 zasedanje	2322	
 zaseje	194	
@@ -8342,6 +8421,7 @@ začelje	157
 začepljenje	193	
 začepljivanje		
 začepljuje	27	
+začinjanje		
 začinjavanje	52	
 začinje	141	
 začuje	275	
@@ -8452,9 +8532,11 @@ zveranje
 zverinje	89	
 zviždanje	292	
 zviždukanje		
+zvocanje		
 zvonjenje	62	
 zvrjanje		
 zvrje	274	
+zvučanje		
 zvučnije	56	
 ćardžije		
 ćarlijanje		
@@ -8643,6 +8725,7 @@ zvučnije	56
 šrafiranje		
 štampanje	5036	
 štamparije	1141	
+štancovanje		
 štavljenje	46	
 štednje	11040	
 štedrije		
@@ -8719,6 +8802,7 @@ zvučnije	56
 žitelje	904	
 žitije	1278	
 živahnije	51	
+živciranje		
 življe	373	
 življenje	862	
 živopisanje		
@@ -8750,7 +8834,7 @@ zvučnije	56
 adje		
 bdijenje	13	
 bescjenje		
-biserje	30	
+bilježenje		
 bjelkinje		
 bježanje		
 borje	36	
@@ -8770,7 +8854,6 @@ drijemanje
 drugdje		
 dvije	13461	
 gdje		M
-gorje	39	
 gospodje		
 gradje		
 htje		
@@ -8787,7 +8870,6 @@ izmještanje
 izvještaje		
 izvještavanje		
 kadje		
-klasje	209	
 korijenje	107	
 kradje		
 lamje		
@@ -8896,7 +8978,6 @@ rjesenje
 rješavanje		
 rješenje		
 rupje		
-saglasje	164	
 sagorijevanje	39	
 saosjećanje		
 savjetovanje		
@@ -8961,7 +9042,6 @@ vrijednije
 vrijeđanje	119	
 vrjednije		
 zacjeljuje		
-zagorje	108	
 zagrmje		
 zamjenjuje		
 zasjedanje		

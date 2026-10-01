@@ -1,4 +1,4 @@
-2682
+2688
 Jupitera		
 Kaira		
 Venera		
@@ -836,6 +836,7 @@ jezdimira
 jezera	13478	
 jezgara	1215	
 jezgra	5335	
+jonosfera		
 jorkšira		
 juhora		
 juniora	1803	
@@ -943,6 +944,7 @@ klauzura
 klavijatura	118	
 klavira	1254	
 kleopatra		
+klepsidra		
 klera	229	
 klesara	24	
 klikera		
@@ -1307,6 +1309,7 @@ meštara
 meštera		
 midera		
 migrira	84	
+mikroflora		
 mikroprocesora	198	
 miksera	219	
 mikstura	11	
@@ -1728,6 +1731,7 @@ postponira
 postulira	75	
 potencira	1165	
 potera	848	
+potkultura		
 potočara		M
 potpara		
 potpora	800	
@@ -2001,9 +2005,9 @@ ribnikara
 ribočuvara	62	
 ridigera		
 rikošetira		
-risara	104	
 riskira		
 rivera	119	
+rivijera	379	
 rizničara	29	
 robera		
 rokera	292	
@@ -2032,6 +2036,7 @@ samira
 samobora		
 samoprezira		
 samovara		
+samsara		
 samura	11	
 sandra		
 sandučara		M
@@ -2639,6 +2644,7 @@ zvonimira
 štenara	11	
 štofara		
 štrebera		
+štukatura		
 štura	136	
 šubara	87	
 šudra		
@@ -2707,7 +2713,6 @@ protjera
 provjera		
 rastjera		
 razmjera		
-rivijera	379	
 sijera		
 sjekira		
 sjevera		

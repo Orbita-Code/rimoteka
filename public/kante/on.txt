@@ -1,4 +1,4 @@
-378
+383
 Boston		
 Lion		M
 Lisabon		
@@ -15,6 +15,7 @@ anahron	97
 analogon		
 anason		
 anjon		
+anticiklon		
 antifon		
 antimon	56	
 antiproton	17	
@@ -70,6 +71,7 @@ demon	845
 digitron	269	
 dijapazon	986	
 diktafon	168	
+divizion		
 dogon		
 dokon	219	
 dragon	422	
@@ -168,6 +170,7 @@ kordon	507
 kortizon	33	
 kotiljon		
 koton		
+krampon		
 krejon	50	
 kreton		
 kripton		M
@@ -284,6 +287,7 @@ preston
 pretklon	10	
 princeton		
 prinston		
+prion		
 progesteron	306	
 progon	1975	
 proton	232	
@@ -320,6 +324,7 @@ slon	731
 smartfon	700	
 smeon		M
 smion	20	
+smisaon		
 solon		
 spiridon		
 stadion	6976	

@@ -1,4 +1,4 @@
-390
+396
 Fikret		
 Magbet		
 Mljet		
@@ -29,6 +29,7 @@ basket	1436
 bašmet		
 berićet	105	
 bermet	380	
+bilet		
 blagodet	358	
 blanket		M
 bonitet	389	
@@ -56,6 +57,7 @@ donet	4302
 donijet	39	J
 dramolet	17	
 dualitet	56	
+dublet		
 duet	1056	
 dvadeset	22489	
 dvadesetpet		
@@ -90,6 +92,7 @@ graviditet	92
 hamlet		
 hiperaciditet		
 hipermarket	254	
+humanitet		
 identitet	15041	
 imunitet	4695	
 individualitet		
@@ -171,6 +174,7 @@ milet
 minaret	132	
 modalitet	296	
 modernitet	35	
+moralitet		
 morbiditet	154	
 mortalitet	477	
 motet		
@@ -246,6 +250,7 @@ prenet	608
 prenijet	16	J
 preokret	7053	
 preplet		M
+presvet		
 preuzet	1363	
 prezauzet		
 preživjet		J
@@ -278,6 +283,7 @@ realitet	133
 reciprocitet	457	
 reket	2059	
 relativitet	21	
+rentabilitet		
 reset		
 rikošet		M
 rivalitet	431	

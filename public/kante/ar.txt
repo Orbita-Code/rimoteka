@@ -1,4 +1,4 @@
-966
+991
 Madagaskar		
 Zaječar		
 adiđar		
@@ -147,10 +147,12 @@ desetar	99
 desničar	299	
 devar		
 deveničar		
+diedar		
 dijabetičar	223	
 dijagnostičar	45	
 dijalektičar	49	
 dijametar	109	
+dijetetičar		
 dimitar		
 dimničar		M
 dinamometar		
@@ -172,6 +174,7 @@ dozimetar
 draguljar	23	
 drakar		
 dramatičar	100	
+drndar		
 drotar		
 drugar	2599	
 drvar	104	
@@ -312,6 +315,7 @@ istoričar	5492
 istovar	489	
 itar		
 itinerar		
+izmećar		
 jabučar		M
 jadar		
 jaguar	452	
@@ -329,6 +333,7 @@ jursenar
 jutar		
 kablar		M
 kadar	8241	
+kaišar		
 kalendar	7716	
 kalibar	577	
 kalmar		
@@ -336,17 +341,21 @@ kamenar		M
 kamenjar	135	
 kancelar	943	
 kandahar		
+kandelabar		
 kanistar	20	
 kantar	172	
 kapar	46	
 kapilar		
 kaplar	270	
 kar		M
+karbonar		
 katar	474	
 katastar	1869	
 kavijar	434	
 kazuar		
 kačar		M
+kašikar		
+kašičar		
 kedar	125	
 keramičar	77	
 kesar		M
@@ -382,6 +391,7 @@ komentar	44976
 komesar	3527	
 komisionar	138	
 komičar	581	
+komunar		
 konačar		
 konjar		M
 konjušar	77	
@@ -409,6 +419,7 @@ kožar	19
 kožuhar		M
 krajcar		
 kramar		
+kravar		
 krečar		M
 krijumčar	43	
 kritičar	3628	
@@ -420,6 +431,7 @@ krčmar	170
 kuguar	19	
 kuhar	41	
 kulinar	28	
+kuloar		
 kulučar		M
 kunar		
 kupusar		
@@ -531,6 +543,7 @@ močar
 močvar		
 mrežar		
 mudar	1926	
+muhar		
 munar		
 murdar		
 musketar	19	
@@ -540,16 +553,19 @@ nadničar	92
 nadrilekar	46	
 nadripisar		
 nadripolitičar		
+nanometar		
 napoličar		M
 nar	534	
 nautičar	26	
 nazdravičar		
+nedobar		
 neimar		M
 nektar	645	
 nemar	857	
 nepar	30	
 nesebar		
 neurotičar	33	
+nogar		
 notar		M
 novembar	15827	
 novinar	15502	
@@ -706,6 +722,7 @@ rezervoar	2525
 rešetar		
 ribar	487	
 ribnikar		
+ribočuvar		
 rizničar	56	
 romantičar	140	
 rudar	533	
@@ -721,6 +738,7 @@ santimetar	267
 sapunar		
 sar		M
 satiričar	236	
+savladar		
 sebar	62	
 sedlar	32	
 sekretar	26589	
@@ -744,7 +762,9 @@ sitar		M
 sitničar	42	
 skadar		
 skelar		
+skeptičar		
 skiptar		M
+skolastičar		
 skretničar	273	
 sladoledar		M
 slastičar		
@@ -828,6 +848,7 @@ tovar	568
 trafalgar		
 tragičar	223	
 travar	108	
+tračar		
 trešnjar		
 trimestar		
 tropar	292	
@@ -849,6 +870,7 @@ uvodničar	210
 užar	19	
 vajar	833	
 valjar		M
+var		
 vardar		
 varvar		
 vašar		M
@@ -871,6 +893,7 @@ vinogradar	167
 virpazar		
 vitičar		
 vizionar	642	
+višnjar		
 vladar	3385	
 vlasuljar	13	
 vodeničar	124	
@@ -916,11 +939,13 @@ zvonar	51
 ćurčar		
 čabar		M
 čakar		
+čančar		
 čar	985	
 čarapar		
 časovničar	93	
 čedar		
 čegar		
+čekićar		
 čelar		
 čergar		
 čestar	29	

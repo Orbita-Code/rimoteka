@@ -1,4 +1,4 @@
-26
+27
 beočug	112	
 bug	626	
 cug		M
@@ -12,6 +12,7 @@ nedug		M
 okrug	3405	
 plačidrug		
 plug	484	
+podug		
 polukrug	111	
 predug	146	
 ranilug		

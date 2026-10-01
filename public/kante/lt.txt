@@ -1,4 +1,5 @@
-18
+20
+Kelt		
 alt	525	
 asfalt	2309	
 bazalt	26	
@@ -17,3 +18,4 @@ pult	533
 revolt	988	
 ruzvelt		
 volt	220	
+šilt		

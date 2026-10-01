@@ -1,4 +1,4 @@
-140
+141
 Judo		
 Kanado		
 abecedo		
@@ -78,6 +78,7 @@ ludo	2128
 medo	192	
 mikado	10	
 mlado	1656	
+mudo		
 nado	33	
 nakarado		
 naporedo		M

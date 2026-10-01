@@ -1,5 +1,7 @@
-720
+731
 Jupiter		
+Kmer		
+Kvarner		
 aber		
 adapter	1904	
 adler		
@@ -28,6 +30,7 @@ autsajder		M
 badenter		
 bafer		
 bager	996	
+bajker		
 balavander		
 baloner		
 bamper		
@@ -125,6 +128,7 @@ eksplorer
 eksporter		M
 eksterijer	491	
 ekstruder		
+elektroinženjer		
 elektrošoker		
 ementaler	46	
 emiter	344	
@@ -346,6 +350,7 @@ licemer	306
 licider		
 lider	22663	
 liker	297	
+lipicaner		
 lister		M
 ljudožder	96	
 loker		
@@ -386,7 +391,9 @@ milicioner	96
 milijarder	905	
 milioner	607	
 miločer		
+miner		
 mister	615	
+miteser		
 moamer		
 moher		
 moler	292	
@@ -479,6 +486,7 @@ prekjučer	55
 premer	123	
 premijer	33807	
 prezenter	178	
+prezviter		
 primer	123373	
 printer	387	
 profajler		
@@ -586,6 +594,7 @@ steper	43
 stiker	92	
 stoper	136	
 stožer	907	
+striper		
 strujomer	101	
 strvoder		M
 sudoper		M
@@ -624,6 +633,7 @@ transponder	20
 transporter	445	
 traper	30	
 tračer		
+treger		
 trejler	1071	
 trener	31073	
 triger		
@@ -648,6 +658,7 @@ vetromer
 večer	534	
 viceguverner	325	
 videorekorder		
+vikler		
 vinaver		
 visinomer	38	
 voajer	71	

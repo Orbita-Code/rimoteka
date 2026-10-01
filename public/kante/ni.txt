@@ -1,4 +1,4 @@
-7404
+7556
 Argentini		
 Atini		
 Berlini		
@@ -47,6 +47,7 @@ akni	1052
 akordni		
 akreditivni		M
 akreditovani	713	
+akrilni		
 aktivacioni		
 aktivirani	225	
 aktivni	8391	
@@ -173,6 +174,7 @@ bacani	164
 bagatelni	12	
 bajni		
 bakarni	459	
+bakelitni		
 bakini	17	
 bakreni	34	
 bakrorezni		
@@ -196,6 +198,7 @@ banjalučani
 banjani		
 bankovni	505	
 banovini	246	
+baražni		
 bareni	86	
 barmeni	82	
 barokni	443	
@@ -211,6 +214,7 @@ bataljoni	75
 batinani	11	
 batini	61	
 batočini		
+bazaltni		
 bazeni	1513	
 bazirani	1131	
 bazični	608	
@@ -481,6 +485,7 @@ cenovni	616
 centralizovani	217	
 centralni	7146	
 centrifugalni	57	
+centripetalni		
 centrirani	32	
 centurioni	24	
 cenzurisani	101	
@@ -502,6 +507,7 @@ cimni	31
 cinični	329	
 cirkularni		
 cisterni	567	
+cistični		
 citirani	354	
 civilizovani	409	
 civilni	1689	
@@ -515,6 +521,7 @@ crnini	131
 crnogorični		
 crpeni		
 crpljeni		
+crpni		
 crtani	1115	
 crveni	11880	
 crvotočini		
@@ -542,6 +549,7 @@ daščani	26
 debatni	303	
 debelokožni		
 debilni	56	
+debitni		
 debljini	460	
 decani		
 decentralizovani	91	
@@ -597,6 +605,7 @@ deprimirani	50
 derani	49	
 desankini		
 desantni	56	
+desertni		
 desetini	93	
 desetkovani	147	
 desetni		M
@@ -645,6 +654,7 @@ disciplini	5127
 disciplinirani		
 disciplinovani	409	
 disfunkcionalni	43	
+disketni		
 diskontni	81	
 diskordantni		
 diskretni	396	
@@ -695,6 +705,7 @@ dogovoreni	914
 dogovorni	28	
 dograđeni	69	
 dograđivani	21	
+dohodovni		
 dojeni		
 dokazani	739	
 dokazni	840	
@@ -718,11 +729,13 @@ donedavni	248
 doneseni	315	
 donošeni	231	
 dopisni	398	
+doplatni		
 dopremljeni	161	
 dopuni	1936	
 dopunjeni	278	
 dopusni		
 dopušteni	99	
+doradni		
 dorađeni	80	
 dosadni	1372	
 dosegni		
@@ -817,16 +830,20 @@ duševni	958
 dušmani	380	
 dužini	6806	
 dužni	8716	
+dužnosni		
 dvoazbučni		
 dvocifreni		
 dvodelni	180	
 dvodimenzionalni	116	
 dvodnevni	1081	
 dvodomni	37	
+dvofazni		
 dvoistočni		
 dvojeni		
 dvojezični	188	
 dvojni	360	
+dvokratni		
+dvokrevetni		
 dvokrilni	65	
 dvokružni	32	
 dvolični	121	
@@ -837,6 +854,7 @@ dvonedeljni	225
 dvonožni	16	
 dvopotezni		
 dvorani	4761	
+dvoredni		
 dvorišni	178	
 dvorjani	71	
 dvoručni		
@@ -891,6 +909,7 @@ eksterni		M
 ekstravagantni	111	
 ekstremni	1387	
 ekumeni	15	
+ekvatorijalni		
 elani		
 elastični	301	
 elegantni	623	
@@ -908,6 +927,7 @@ eliminisani	470
 elitni	796	
 elokventni	111	
 emancipirani		
+embrionalni		
 embrioni	184	
 eminentni	1023	
 emini		
@@ -930,6 +950,7 @@ epileptični	164
 epitelni		
 epizodni	41	
 epohalni	175	
+erektilni		
 erotični	39	
 eruptivni	26	
 eskadroni	38	
@@ -976,9 +997,11 @@ fazni	167
 fazoni	182	
 federalni	989	
 feferoni	29	
+fekalni		
 felini		
 feljtoni	51	
 felni		
+femoralni		
 feničani		
 fenomenalni	947	
 fenomeni	751	
@@ -1043,9 +1066,11 @@ garantovani	258
 garažni		
 garnizoni	78	
 gasni	905	
+gasovodni		
 gastrointestinalni	147	
 gavrani	117	
 gazirani	195	
+gazni		
 gađani	100	
 gašeni	22	
 gaženi	28	
@@ -1074,6 +1099,7 @@ glačani
 gledani	141	
 glineni	257	
 glini	410	
+gljivični		
 globalni	6579	
 globulini	26	
 glomazni	203	
@@ -1122,6 +1148,7 @@ građani	74578
 građanskopravni		M
 građeni	907	
 građevini	978	
+građevni		
 grdni	73	
 grebeni	157	
 grejani	50	
@@ -1192,6 +1219,8 @@ hladnokrvni	127
 hladovini	665	
 hlebni	13	
 hlorni		
+hlorovodonični		
+hodni		
 hodžini		
 holanđani		
 homeini		
@@ -1203,6 +1232,7 @@ horizontalni	585
 hormonalni	188	
 hormoni	1554	
 hospitalizovani	112	
+hramovni		
 hrani	11729	
 hranidbeni	14	
 hranjeni	211	
@@ -1260,6 +1290,7 @@ impulsni	104
 imuni	2449	
 imućni	478	
 incidentni	19	
+indeksni		
 indijani		
 indirektni	606	
 indiskretni		
@@ -1283,6 +1314,7 @@ informacioni	3226
 informativni	2559	
 informisani	2603	
 infracrveni	392	
+infrastrukturni		
 infuzioni		
 inhalacioni		
 inicijalni	961	
@@ -1300,6 +1332,7 @@ inspirisani	1081
 instalacioni		M
 instalirani	886	
 instinktivni	39	
+institucionalni		
 instrumentalni	235	
 insulini	67	
 integralni	2199	
@@ -1311,6 +1344,7 @@ intenzivni	1113
 interaktivni	1307	
 interesantni	1830	
 interesni	165	
+interkontinentalni		
 internacionalni	2911	
 interni	1658	
 interventni	190	
@@ -1364,6 +1398,7 @@ isitnjeni
 iskasapljeni	25	
 iskazani	387	
 iskazivani	18	
+iskazni		
 iskeženi	12	
 iskidani	19	
 iskićeni	15	
@@ -1650,6 +1685,7 @@ jagnjetini	47
 jagodini	53	
 jagodični		
 jahorini		
+jajni		
 jakni	558	
 jalni		
 jamajčani		
@@ -1666,6 +1702,7 @@ javni	28103
 jazbini	114	
 jačini	697	
 jedini	71670	
+jedinični		
 jedinstveni	8715	
 jednačini	276	
 jedni	23046	
@@ -1706,6 +1743,7 @@ jetreni	14
 jevtini		
 jezični	52	
 ječmeni	62	
+jodni		
 jogini		
 joni	358	
 jorgani	38	
@@ -1739,6 +1777,7 @@ kamermani
 kamerni		
 kamini	90	
 kamioni	1914	
+kamuflažni		
 kamuflirani	46	
 kanalisani	16	
 kanalizacioni	276	
@@ -1764,6 +1803,7 @@ karanteni
 karantini	18	
 karatni	34	
 karavani	319	
+kardijalni		
 kardinalni	79	
 kardiogeni		
 kardiovaskularni	598	
@@ -1773,10 +1813,12 @@ karlični	85
 karmini	81	
 karolini		
 karpalni	21	
+kartični		
 kartoni	306	
 kasacioni	838	
 kasapini		
 kasarni	1381	
+kasetni		
 kaskadni	55	
 kasni	4522	
 kasnonoćni		
@@ -1866,6 +1908,7 @@ kolotečini	52
 kolovozni	16	
 kolumni	931	
 komadni		
+komanditni		
 komandni	586	
 kombajni	191	
 kombinezoni	55	
@@ -1929,10 +1972,13 @@ konstruktivni	938
 kontaktirani	225	
 kontaktni	202	
 kontaminirani	123	
+kontekstni		
 kontinentalni	406	
 kontinuirani	1090	
 kontni	93	
+kontraceptivni		
 kontradiktorni	258	
+kontraobaveštajni		
 kontrarevolucionarni	29	
 kontrastni	83	
 kontrolisani	802	
@@ -1968,6 +2014,7 @@ korišćeni	3906
 koronarni	77	
 koroni	24	
 korporativni	1277	
+kortikalni		
 kortini		
 kortni		
 korumpirani	1427	
@@ -1985,6 +2032,7 @@ kovani	220
 kovini		
 kozarčani		
 kočioni	481	
+kočni		
 kočoperni	27	
 košmarni	73	
 koštani	287	
@@ -2016,6 +2064,7 @@ kremni
 kreni	856	
 kresani		
 kreteni	411	
+krevetni		
 krečeni	13	
 krečni	53	
 krilni	795	
@@ -2035,6 +2084,7 @@ krizni	1022
 križni	30	
 krmani		M
 krmeni	19	
+krmni		
 kroasani	47	
 krofni	137	
 krojeni	55	
@@ -2079,6 +2129,7 @@ kupovani	138
 kupovini	6480	
 kupovni	226	
 kurentni	12	
+kursni		
 kurzivni		
 kusni		
 kuvani	430	
@@ -2177,6 +2228,7 @@ limuzini	247
 linearni	310	
 lini		M
 linčovani	23	
+lipidni		
 lisni	57	
 literarni	1030	
 litreni		
@@ -2258,6 +2310,7 @@ malodušni	109
 malograđani	110	
 maloletni	725	
 maloljetni		J
+maloprodajni		
 maloumni	212	
 maloučeni		
 maloverni	49	
@@ -2271,6 +2324,7 @@ mandatni	166
 mandolini		
 manekeni	304	
 mani	985	
+manifestni		
 manijakalni	34	
 manikirani		
 manipulativni	148	
@@ -2353,6 +2407,8 @@ metalni	1954
 metni	83	
 metodični	27	
 međudržavni	598	
+međufazni		
+međuledeni		
 međumesni	79	
 međunarodni	26214	
 međuplanetarni	44	
@@ -2360,6 +2416,7 @@ međurasni
 međuratni	56	
 međuredni		
 međusobni	1858	
+međuspratni		
 međuzvezdani	96	
 mešani	121	
 mešavini	491	
@@ -2398,6 +2455,7 @@ mirovini	68
 mirovni	1382	
 misaoni	557	
 misleni	31	
+misni		
 misteriozni	700	
 mistični	272	
 mitralni	27	
@@ -2468,6 +2526,7 @@ mošusni	17
 moždani	1445	
 moždini	115	
 mramorni	60	
+mrazni		
 mračni	1012	
 mrdni	31	
 mrežni	1592	
@@ -2518,6 +2577,7 @@ nabudženi
 naciljani		
 nacionalni	25597	
 nacrtani	144	
+nacrtni		
 nadahni		
 nadani		
 nadareni	301	
@@ -2555,6 +2615,7 @@ naelektrisani	91
 naftini		
 naftni	1133	
 nagaravljeni		
+nagazni		
 nagibni	32	
 naglasni		
 naglašeni	383	
@@ -2577,6 +2638,7 @@ naivni	2633
 naizmenični	121	
 najamni	137	
 najavljeni	1657	
+najavni		
 najedeni		
 najmljeni	22	
 nakani	93	
@@ -2825,6 +2887,7 @@ nekamatni
 nekažnjeni	254	
 neklasični	11	
 neknjiževni	16	
+neknjižni		
 nekolicini	816	
 nekompatibilni	59	
 nekompetentni	228	
@@ -2981,6 +3044,7 @@ nepošteni	184
 nepoželjni	415	
 nepravedni	299	
 nepravilni	192	
+nepravni		
 nepredviđeni	133	
 neprekidni	454	
 neprelazni	23	
@@ -3015,6 +3079,7 @@ nepropisni
 neproučeni	10	
 neprozirni	50	
 nepuni	21	
+nepčani		
 neradni	713	
 nerasejani		
 neraspoloženi	201	
@@ -3277,6 +3342,7 @@ oblačni	77
 oblepljeni	71	
 obligacioni	104	
 oblikovani	425	
+oblikovni		
 obliveni	33	
 oblični		
 obloženi	294	
@@ -3820,6 +3886,7 @@ paladini
 palančani	70	
 palatalni		
 palestini		
+paletni		
 paljeni	55	
 paljevini	38	
 pametni	6989	
@@ -3855,16 +3922,19 @@ paritetni	16
 parižani		
 parkirališni		
 parkirani	340	
+parkirni		
 parlamentarni	1992	
 parni	1025	
 parnični	533	
 parodirani		
 parohijani	248	
+parterni		
 participni		
 partitivni		
 partizani	2418	
 parčini		
 pasatni		
+pashalni		
 pasionirani	446	
 pasirani	36	
 pasivni	1372	
@@ -3971,6 +4041,7 @@ platini	77
 platneni	176	
 platni	1260	
 plavetni	18	
+plavni		
 plazmeni		
 plaćani	169	
 plaćeni	4711	
@@ -3998,6 +4069,7 @@ plovni	619
 pločani		
 pluralni	19	
 plućni	147	
+plužni		
 pobacani	36	
 pobačajni		
 pobedni	28	
@@ -4067,6 +4139,7 @@ podržani	1232
 podržavani	68	
 podsećani		
 podstakni		
+podsticajni		
 podsticani	118	
 podsvesni	173	
 podudarni	145	
@@ -4079,6 +4152,7 @@ podvedeni	32
 podvikni		
 podvodni	658	
 podvojeni	25	
+podvozni		
 podvučeni	43	
 podzemni	1365	
 podčini	19	
@@ -4191,6 +4265,7 @@ polovni	801
 položajni	18	
 položeni	733	
 poltroni	388	
+poludnevni		
 polukružni	144	
 polukrvni	30	
 polumajmuni		
@@ -4198,6 +4273,7 @@ polupani	116
 polupijani	35	
 poluprazni	89	
 poluravni		
+polusatni		
 poluslužbeni		
 polusrušeni		
 polutani	34	
@@ -4222,6 +4298,7 @@ pominjani	526
 pomirbeni		
 pomireni	85	
 pomični	45	
+pomni		
 pomnoženi	10	
 pomodni	94	
 pomogni	57	
@@ -4255,6 +4332,7 @@ popisani	208
 popisivani	16	
 popisni		
 poplavljeni	140	
+poplavni		
 poplašeni	19	
 popločani	68	
 popni	60	
@@ -4294,10 +4372,12 @@ porumeni	433
 poručeni	69	
 porušeni	376	
 poružni		
+posadni		
 posavini		
 posađeni	80	
 posebni	4891	
 posedovani		
+posedovni		
 posegni		
 posejani	57	
 posesivni	116	
@@ -4345,6 +4425,7 @@ postojbini	277
 postojni		
 postoperativni	348	
 postotni	127	
+postporođajni		
 postpozitivni		
 postrani	44	
 postreljani	10	
@@ -4422,12 +4503,14 @@ povešani	13
 povijeni	72	
 povišeni	653	
 povlašćeni	737	
+povodni		
 povoljni	1973	
 povratni	629	
 povraćani		
 povraćeni	38	
 povremeni	1001	
 povređeni	2456	
+povrtni		
 površini	12971	
 površni	588	
 povučeni	727	
@@ -4436,6 +4519,7 @@ pozajmljeni	296
 pozdravljeni	205	
 pozdravni	210	
 pozeleni	54	
+pozicioni		
 pozicionirani	456	
 pozitivni	4522	
 pozivani	436	
@@ -4570,6 +4654,7 @@ preliminarni	1256
 preliveni	33	
 preljini		
 preljubazni	10	
+preljubni		
 prelomljeni	61	
 prelomni		
 premaleni	13	
@@ -4647,6 +4732,7 @@ presrećni	623
 prestani	792	
 prestigni		
 prestižni	699	
+prestolni		
 prestoni	194	
 prestravljeni	115	
 prestrašeni	97	
@@ -4667,8 +4753,10 @@ pretplatni	25
 pretplaćeni	135	
 pretpostavljeni	456	
 pretpotopni		
+pretpristupni		
 pretraženi		
 pretresani	27	
+pretresni		
 pretrpani	237	
 pretrpljeni		
 pretučeni	207	
@@ -4694,6 +4782,7 @@ prevečni
 previjeni	13	
 previđeni	13	
 prevladani	18	
+prevodni		
 prevozni	40	
 prevođeni	161	
 prevoženi	70	
@@ -4732,6 +4821,7 @@ prigni	13
 prigodni	507	
 prigoni		
 prigušeni	112	
+prihodni		
 prihvatani	56	
 prihvatni	132	
 prihvaćani		
@@ -4748,6 +4838,7 @@ prikačeni	114
 prikladni	258	
 priklješteni		
 priključeni	681	
+priključni		
 prikloni	264	
 priklonjeni	18	
 prikovani	95	
@@ -4871,6 +4962,7 @@ probodeni	18
 probrani	117	
 probuđeni	194	
 probušeni	58	
+proceduralni		
 proceni	10486	
 procenjeni	415	
 procentni	267	
@@ -4886,10 +4978,12 @@ produbljeni	50
 produhovljeni	52	
 produkcioni		M
 produktivni	466	
+produktni		
 produženi	995	
 produžni	335	
 profani	115	
 profesionalni	10027	
+profilni		
 profini		
 profinjeni	23	
 profitabilni	332	
@@ -4960,6 +5054,7 @@ prospektivni
 prostodušni	56	
 prostorni	1952	
 prostrani	635	
+prostrelni		
 prosvetljeni	125	
 prosvetni	2682	
 prosvećeni	319	
@@ -4972,13 +5067,17 @@ protini
 protivni	150	
 protivpožarni	414	
 protivprirodni	91	
+protivraketni		
+protivvazdušni		
 protoni	174	
+protočni		
 protraćeni	17	
 protumačeni	124	
 prouzrokovani	223	
 proučavani	71	
 proučeni	107	
 provaljeni	172	
+provalni		
 provedeni	237	
 provereni	915	
 providni	447	
@@ -5087,6 +5186,7 @@ raseljeni	524
 rasečeni		
 rashladni	475	
 rashlađeni	36	
+rashodni		
 rashodovani	49	
 rasijani	18	
 rasipani		
@@ -5271,6 +5371,7 @@ realni	5729
 rebreni		
 recentni	32	
 recesioni		
+reciklažni		
 reciklirani	176	
 recipročni	34	
 recitovani		
@@ -5284,6 +5385,7 @@ referentni	777
 refleksivni	35	
 refleksni	118	
 reflektovani	29	
+reformni		
 refreni	25	
 regalni		
 regenerativni	63	
@@ -5301,6 +5403,7 @@ rehabilitacioni	224
 rejoni	48	
 reklamni	1411	
 rekonstruisani		
+rekonstruktivni		
 rekordni	673	
 rekreacioni		
 rekreativni	1005	
@@ -5308,6 +5411,7 @@ rektalni	58
 rekurzivni	27	
 relacioni		M
 relativni	433	
+relejni		
 relevantni	2026	
 religiozni	1033	
 reliktni	10	
@@ -5350,6 +5454,7 @@ rezani	79
 rezbareni	26	
 rezervisani	804	
 rezervni	2357	
+rezidentni		
 rezidualni	75	
 rezimirani	23	
 rezonantni	47	
@@ -5464,6 +5569,7 @@ samosvesni	146
 samosvojni	69	
 samotni	31	
 samoupravni	226	
+samouslužni		
 samouvereni	368	
 samovoljni	69	
 samozadovoljni	61	
@@ -5536,6 +5642,7 @@ seksualni	4439
 sekularni	275	
 sekundarni	1003	
 sekvencijalni	104	
+selekcioni		
 selektivni	411	
 seleni		
 seljani	585	
@@ -5548,6 +5655,8 @@ senzacionalni	143
 senzibilni	75	
 senzitivni	98	
 senzorni	84	
+separatni		
+sertifikacioni		
 sertifikovani	663	
 servandoni		
 servirani	61	
@@ -5572,6 +5681,7 @@ signirani
 sigurni	15312	
 sigurnosni	1492	
 silazni	198	
+silikatni		
 silikoni	201	
 silini	56	
 silni	1467	
@@ -5595,6 +5705,7 @@ sireni	49
 sirni	44	
 siromašni	3436	
 sirotani		
+sirćetni		
 sisni		M
 sistolni		
 sitni	2264	
@@ -5607,7 +5718,6 @@ sjajni	4176
 sjedini		
 sjedinjeni	176	
 sjedni		J
-sjeni	148	
 skameni	52	
 skamenjeni	57	
 skandalozni	170	
@@ -5683,6 +5793,7 @@ slikani	161
 slikovni	118	
 slini	82	
 sliveni	22	
+slivni		
 slizani		
 slični	9375	
 slobini		
@@ -5772,6 +5883,7 @@ soprani	16
 sopstveni	11882	
 sorboni		
 sortirani	78	
+sortni		
 sotoni	15	
 sočni	161	
 spajani	24	
@@ -5782,7 +5894,6 @@ sparni	12
 spasavani	11	
 spaseni	325	
 spasonosni	273	
-spavaoni	11	
 spašeni	227	
 specifični	2759	
 specijalizovani	1849	
@@ -5812,6 +5923,7 @@ sporedni	861
 sporni	1937	
 sporovozni		
 sposobni	7589	
+spoznajni		
 spratni	153	
 spravljeni	29	
 spremani	42	
@@ -5896,6 +6008,7 @@ stihovni		M
 stimulativni	254	
 stisni	113	
 stoglasni		
+stojni		
 stoletni	63	
 stoljetni		J
 stolni	46	
@@ -5933,6 +6046,7 @@ studeni	237
 studiozni	40	
 stvarani	201	
 stvarni	4821	
+stvarnosni		
 stvoreni	3265	
 subduralni	19	
 subjektivni	1040	
@@ -5953,6 +6067,7 @@ sujeverni	149
 sukcesivni	24	
 sukneni	17	
 sukobljeni	86	
+sulfatni		
 sultani		
 sumarni	114	
 sumirani	136	
@@ -6037,6 +6152,7 @@ svršeni	629
 tabani	194	
 tabelarni	203	
 tablični	101	
+tabloidni		
 tabuisani		
 tacni		
 tajanstveni	758	
@@ -6047,6 +6163,7 @@ tajni	7898
 takni		
 takozvani	6656	
 takseni		M
+taktilni		
 taktični	76	
 talasni	78	
 talentovani	2380	
@@ -6098,8 +6215,10 @@ teretani	1472
 teretni	1097	
 teritorijalni	2602	
 termalni	446	
+terminalni		
 termini	2647	
 termogeni		
+termoizolacioni		
 termonuklearni	19	
 tesani	12	
 teskobni	18	
@@ -6127,6 +6246,7 @@ tipični	1295
 tirani	172	
 tiražni	97	
 tirkizni	27	
+tiroidni		
 tisni		
 titani		
 titularni	43	
@@ -6160,15 +6280,18 @@ tovljeni	13
 tovni	29	
 tradicionalni	6651	
 tragični	701	
+trajektni		
 trajni	2065	
 trambulini		
 trampolini		
+transferni		
 transkripcioni		
 transmisioni		
 transparentni	557	
 transponirani		
 transportni	856	
 transportovani	174	
+tranzicioni		
 tranzitni	437	
 tratini		
 traumatizovani		
@@ -6183,6 +6306,7 @@ trenirani	123
 trenutačni	30	
 trenutni	4586	
 trepni		
+tresetni		
 tresni		
 tretirani	1035	
 tretmani	1464	
@@ -6195,6 +6319,7 @@ trgovini	8988
 tribini	3832	
 tribuni	65	
 trijumfalni	174	
+trikotažni		
 trilioni	23	
 trivijalni	93	
 trkni	19	
@@ -6203,6 +6328,7 @@ trocevni
 trodelni	93	
 trodimenzionalni	345	
 trodnevni	751	
+trofazni		
 trofejni	390	
 trojedini		
 trojezični	27	
@@ -6211,6 +6337,7 @@ trokrevetni
 trokrilni	48	
 trokutni		
 troletni		
+trolisni		
 tromesečni	455	
 tromotorni		
 tronedeljni	80	
@@ -6274,6 +6401,7 @@ ubitačni	86
 ublažavani		
 ublaženi	142	
 ubodeni	20	
+ubodni		
 ubojni		M
 ubrani	73	
 ubrljani		
@@ -6345,6 +6473,7 @@ ujni	46
 ukaljani	19	
 ukalupljeni	18	
 ukazani	19	
+ukazni		
 ukidani		
 ukini	36	
 ukiseljeni	13	
@@ -6360,6 +6489,7 @@ uklopljeni	234
 uknjiženi	128	
 ukokani		
 ukopani	238	
+ukopni		
 ukoreni	103	
 ukorenjeni	225	
 ukoričeni	35	
@@ -6504,6 +6634,7 @@ urečeni
 uređeni	1233	
 uređivani	23	
 urgentni	1387	
+urinarni		
 urnebesni	103	
 urni	80	
 uroni	102	
@@ -6529,6 +6660,7 @@ usitni	86
 usitnjeni	108	
 uskladišteni	110	
 usklađeni	1115	
+usklični		
 uskogrudni		
 uskomešani		
 uskovitlani		
@@ -6566,6 +6698,7 @@ usrećeni
 ustaljeni	273	
 ustani	752	
 ustavni	9455	
+ustavotvorni		
 ustoličeni	39	
 ustrajni	28	
 ustrašeni	23	
@@ -6710,6 +6843,7 @@ vanmaterični
 vannastavni		
 vanparnični	67	
 vanredni	3142	
+vantelesni		
 vanvremeni		
 vapneni		
 varani	42	
@@ -6735,6 +6869,7 @@ vegani	101
 vegetativni	123	
 vekni	242	
 vekovni	430	
+velarni		
 veleglasni		
 velelepni	384	
 velemoćni		
@@ -6750,6 +6885,7 @@ velšani
 venerični		
 ventilacioni	316	
 ventilni		
+ventrikularni		
 venčani	379	
 veprini		
 verbalni	1095	
@@ -6765,6 +6901,7 @@ veronaučni
 veroni		
 verovatni	359	
 vertikalni	874	
+verzalni		
 vesni		M
 vesterni	44	
 veterani	1666	
@@ -6814,12 +6951,18 @@ vični	354
 viđani	54	
 viđeni	1522	
 višebajtni		
+višebojni		
+višecevni		
 višednevni	253	
+višefazni		
+višekratni		
 višemesečni		
+višenacionalni		
 višenitni		
 višerečeni		
 višesatni	73	
 višeslojni	194	
+višestepeni		
 višestrani	44	
 višetomni		M
 viševekovni		
@@ -6965,6 +7108,7 @@ zaključni	109
 zakloni	214	
 zaklonjeni	108	
 zaklopljeni		
+zaklopni		
 zakoni	14959	
 zakonodavni	1131	
 zakopani	186	
@@ -6999,6 +7143,7 @@ zamašni	34
 zameni	7641	
 zamenjeni	1208	
 zamenjivani	21	
+zametni		
 zamišljani	16	
 zamišljeni	655	
 zamoljeni	379	
@@ -7098,6 +7243,7 @@ zatamni	68
 zatamnjeni	72	
 zataškani	29	
 zategni		
+zatezni		
 zatečeni	920	
 zatiljni		
 zatomljeni		
@@ -7287,6 +7433,7 @@ zvučni	1759
 čuveni	9702	
 čuvstveni		
 čučni	18	
+čvorišni		
 čvorni		
 čvrstini	161	
 đakoni	200	
@@ -7310,6 +7457,7 @@ zvučni	1759
 šarmantni	530	
 šedrvani		
 šejtani	31	
+šestodnevni		
 šestomesečni	418	
 šećerani	116	
 šećerni	142	
@@ -7321,6 +7469,7 @@ zvučni	1759
 šini	79	
 šireni	12	
 širini	1446	
+širokopojasni		
 šivani		
 šiveni		
 šišani	12	
@@ -7342,6 +7491,7 @@ zvučni	1759
 štetni	1793	
 štetočini	25	
 štipni		
+štitni		
 štićeni	41	
 štofani		
 štucovani		
@@ -7358,6 +7508,7 @@ zvučni	1759
 žalošćeni		
 žaluzini		
 žargoni	12	
+žarišni		
 ždrebni		
 žedni	660	
 železni	79	
@@ -7378,6 +7529,7 @@ zvučni	1759
 žigosani	126	
 žitni	139	
 živahni	217	
+živežni		
 živini	82	
 živni		
 živodavni		
@@ -7515,6 +7667,7 @@ riječni	28
 riješeni	131	
 samouvjereni		
 sijeni		
+sjeni	148	
 sjeverni		
 sjeveroistočni		
 sjeverozapadni		M

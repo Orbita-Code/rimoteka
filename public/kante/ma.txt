@@ -1605,6 +1605,7 @@ flasterima	47
 flautama		
 flašama		
 flašicama		
+flegma		
 flekama	146	
 floskulama	199	
 flotama	34	
@@ -2696,7 +2697,6 @@ knjižarama	1160
 knjižarima	33	
 književnostima	274	
 knjižicama	271	
-knjižnicama	25	
 koautorima	29	
 kobasicama	200	
 kobilama	24	

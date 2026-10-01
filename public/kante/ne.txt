@@ -1,4 +1,4 @@
-7240
+7236
 Argentine		
 Atine		
 Berline		
@@ -4193,7 +4193,6 @@ posleratne	173
 posljedične		J
 poslovične	83	
 poslovne	26553	
-posložene	10	
 poslušne	295	
 posmatrane	390	
 posmrtne	339	
@@ -5582,7 +5581,6 @@ sparušene
 spasavane	19	
 spasene	77	
 spasonosne	210	
-spavaone	33	
 spašene	78	
 specifične	5753	
 specijalizovane	2796	
@@ -5602,7 +5600,6 @@ spojene	858
 spokojne	64	
 spoljašne		
 spoljne	3356	
-spolne	53	
 spomene	1215	
 spominjane	68	
 spone	342	
@@ -5993,7 +5990,6 @@ tražbine	14
 tražene	1874	
 trbušne	291	
 trenirane	25	
-trenutačne	39	
 trenutne	4388	
 trepne	172	
 trepčine		

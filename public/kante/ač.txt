@@ -1,4 +1,4 @@
-422
+430
 apač		
 bacač	298	
 bajač		M
@@ -206,6 +206,7 @@ pokazivač	494
 pokretač	2980	
 pokrivač	1290	
 polagač		
+polivač		
 pomagač	259	
 ponavljač	85	
 ponuđač	1712	
@@ -233,6 +234,7 @@ pregovarač	859
 prekidač	1411	
 prekrivač	410	
 prelamač		
+preletač		
 prepisač		
 prepisivač	137	
 preprodavač		
@@ -245,6 +247,7 @@ prevrtač
 prečistač		
 prigušivač	99	
 prikazivač	49	
+prikrivač		
 prilagač		M
 primač	139	
 pripovedač	1172	
@@ -300,6 +303,7 @@ sanjač
 santrač		M
 sarač		M
 sastavljač	170	
+savijač		
 sazivač	20	
 sač		M
 sejač		
@@ -352,6 +356,7 @@ ucenjivač	32
 udarač	109	
 udvarač	55	
 ugađač		
+ugnjetavač		
 ugnjetač	11	
 ugovarač		M
 ulagač	214	
@@ -361,6 +366,7 @@ uništavač	14
 upaljač	480	
 upijač	25	
 upravljač	2306	
+uprtač		
 uređivač	86	
 usekač		
 usisavač	29	
@@ -403,6 +409,7 @@ zaprašivač		M
 zaptivač	51	
 zapušač	43	
 zaslađivač	180	
+zasnivač		
 zastirač		M
 zatvarač	422	
 zavarivač	191	
@@ -419,6 +426,7 @@ zviždač	28
 šetač	141	
 šivač		
 štampač	2431	
+štrajkač		
 žarač		M
 žderač	17	
 istjerivač		

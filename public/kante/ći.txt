@@ -1,4 +1,4 @@
-2733
+2741
 Božići		
 afirmišući		
 agitujući		
@@ -155,6 +155,7 @@ crveneći	29
 crvići	61	
 crći	104	
 cupkajući	33	
+cvatući		
 cvetajući	24	
 cvetići	148	
 cvileći	42	
@@ -182,6 +183,7 @@ delajući
 deleći	726	
 delići	256	
 delujući	523	
+deprimirajući		
 derući	48	
 dešavajući		
 didanovići		
@@ -224,6 +226,7 @@ dopirući	30
 doprinoseći	460	
 dopunjujući	99	
 dopuštajući	378	
+doreći		
 dosadnjakovići	11	
 dosađujući	20	
 dosećajući		
@@ -1176,6 +1179,7 @@ opraštajući	156
 opremajući	27	
 opružajući		
 opsedajući		
+opseći		
 optužujući	889	
 opuštajući	331	
 opšteći	21	
@@ -1315,6 +1319,7 @@ plačući	744
 plašeći	878	
 plemići		
 pleneći	30	
+pletaći		
 pletući	39	
 pleći		M
 plešući	90	
@@ -2053,6 +2058,7 @@ stružući	18
 stubići		
 studirajući	152	
 stupajući	152	
+stući		
 stvarajući	3518	
 sudarajući	41	
 sudeći	14226	
@@ -2234,6 +2240,7 @@ umujući
 umući		
 unesreći	29	
 unizujući		
+unići		
 uništavajući	437	
 unoseći	489	
 unučići	100	
@@ -2730,6 +2737,7 @@ zvući
 žutaći		
 žutkovići		
 žući	45	
+žvakaći		
 žvaći		
 žvaćući		
 bježeći		

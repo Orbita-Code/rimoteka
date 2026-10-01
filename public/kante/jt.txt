@@ -1,4 +1,4 @@
-20
+23
 bajt	183	
 brajt		
 dvajt		
@@ -7,9 +7,11 @@ farenhajt
 fejt		
 flajt		
 kejt		
+kilobajt		
 kronkajt		
 kuvajt		
 lajt		
+megabajt		
 najt		
 nejt		
 olbrajt		
@@ -17,5 +19,6 @@ rajt
 sajt	38079	
 skejt	508	
 stejt		
+terabajt		
 vebsajt	429	
 votergejt		

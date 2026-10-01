@@ -1,14 +1,20 @@
-1174
+1211
+Carevac		
+Južnoafrikanac		
+Katarac		
 Kragujevac		
 Kruševac		
 Leskovac		
 Požarevac		
+Rakovac		
+Vardarac		
 abesinac		
 abisinac		
 afganistanac		
 afrikanac		
 afroamerikanac	43	
 afrokubanac		
+agrarac		
 agresivac	21	
 ajmokac		
 akademac	96	
@@ -20,6 +26,7 @@ alpinac
 alternativac		
 alžirac		
 amerikanac		M
+anglikanac		
 angloamerikanac		
 angolac		
 anonimac		
@@ -64,6 +71,7 @@ bihorac
 bioljubimac		
 biseksualac	75	
 bizantinac		
+bičevalac		
 bjelajac		
 blesavac		
 blizanac	804	
@@ -85,6 +93,7 @@ branilac	2391
 bratac	69	
 bratanac	167	
 bratunac		
+bravac		
 brazilac	1068	
 brazilijanac		
 brbljavac		
@@ -96,6 +105,7 @@ brljivac		M
 brodolomac	12	
 brojilac		M
 brunejac		
+brzopisac		
 bubac		
 bujanovac		
 bukavac	22	
@@ -113,6 +123,7 @@ crnoberzijanac		M
 crnoglavac		
 crnogorac		
 crnorizac	59	
+crnorukac		
 crvac		M
 crvenokožac		
 daljinac	205	
@@ -158,6 +169,7 @@ drekavac	104
 drenovac		
 dripac	86	
 drobac		
+dronjavac		
 drvorezac		M
 drvotočac		M
 držalac		M
@@ -200,6 +212,7 @@ franjevac	103
 frankovac		
 galilejac		
 ganac		
+gasilac		
 gatalac		M
 gačac		M
 gegavac		
@@ -210,6 +223,7 @@ gestapovac		M
 gimnazijalac	378	
 gladac	103	
 glavatac		M
+glavonožac		
 gledalac		M
 glinac		
 glinenac		
@@ -269,9 +283,11 @@ hromac
 hropac		M
 humac		
 humanitarac	109	
+hvalilac		
 hvalisavac	47	
 hvastavac		
 ignac		
+ijekavac	10	
 ikavac		
 ikonoborac		
 ikonopisac	226	
@@ -289,6 +305,7 @@ inoverac
 inozemac		
 intelektualac	1959	
 internacionalac		
+internirac		
 inženjerac		M
 irac	202	
 iranac		
@@ -308,6 +325,7 @@ izvojac
 izvršilac	1114	
 jadac	267	
 jaganjac	13	
+jakobinac		
 jalovac		M
 jamac	40	
 japanac	561	
@@ -572,6 +590,7 @@ nasrtljivac
 nazimac		M
 načistac		
 našinac		
+nealbanac		
 neandertalac	85	
 neborac		
 negativac	376	
@@ -613,6 +632,7 @@ opnokrilac
 orahovac	198	
 orašac		
 orijentalac		
+oskarovac		
 oslobodilac	153	
 oslonac	3872	
 osmerac	84	
@@ -637,6 +657,7 @@ pasivac
 paušalac		
 pavlovac		
 pašanac		
+pašićevac		
 pegavac	72	
 pelinkovac	84	
 persijanac		
@@ -672,6 +693,7 @@ plebejac	14
 plikavac		
 pobedilac	86	
 podgorac		
+podgrlac		
 podlac	43	
 podnosilac	5395	
 podobrazac		
@@ -698,6 +720,7 @@ popac	21
 popovac		
 portorikanac		
 portugalac	606	
+poručilac		
 posavac		
 posetilac	2065	
 poslodavac	7408	
@@ -724,11 +747,13 @@ pratilac	1459
 pravac	9500	
 pravdoljubac		M
 pravobranilac	429	
+pravokrilac		
 pravoslavac	720	
 praznoglavac	10	
 prdavac	15	
 prebranac	119	
 predilac		
+predškolac		
 prefriganac		
 pregalac		M
 prekomorac		
@@ -743,6 +768,7 @@ presolac		M
 pretinac	77	
 pretorijanac	15	
 prevodilac		M
+prevozilac		
 prevrtljivac	34	
 prezbiterijanac		
 prečac	279	
@@ -763,6 +789,7 @@ prokupac	262
 proneverilac		
 prosac	39	
 prosilac	11	
+prosinac	62	
 proučavalac		M
 provincijalac	95	
 proštac		M
@@ -796,6 +823,7 @@ ranilac		M
 ranoranilac		M
 rasejanac		
 rasporilac		
+ravnogorac		
 ravnokrilac		
 razmetljivac	12	
 razvigorac		
@@ -852,6 +880,7 @@ selevac
 semeništarac		
 senegalac		
 severac	107	
+sezonac		
 sibirac		
 sicilijanac		
 sindikalac	220	
@@ -860,6 +889,7 @@ sinovac	400
 sirac		M
 sirijac		
 sisavac	10	
+sivac		
 skakavac	147	
 skandinavac		
 skojevac		
@@ -925,6 +955,7 @@ sumnjivac
 supovac		
 surčinac		
 suzavac	788	
+sušac		
 svadljivac		
 svatovac	18	
 svemirac	17	
@@ -997,6 +1028,7 @@ usvojilac	74
 utešilac		M
 utrinac		M
 uvac		
+uvodilac		
 uvredilac		M
 uzelac		
 učinilac	338	
@@ -1046,6 +1078,7 @@ vrućac		M
 vršac		M
 vršilac		M
 vučac		M
+zagorac		
 zajedljivac		M
 zaječarac		
 zajmodavac	162	
@@ -1064,6 +1097,7 @@ zavidljivac	24
 zavodilac		
 zdenac	65	
 zdravac		M
+zelenac		
 zemljodelac		M
 zemljopisac		
 zemunac	232	
@@ -1122,6 +1156,7 @@ zvonolivac
 šarkamenac		
 šarplaninac	81	
 šatrovac		M
+šašavac		
 šekularac		
 šepavac		
 šesnaesterac	438	
@@ -1140,12 +1175,14 @@ zvonolivac
 šmrkavac		
 šofranac		
 španac		
+štapac		
 štekavac		
 štenac	10	
 štipavac		
 štokavac		
 štovalac		
 štrajkolomac		
+štrapac		
 šugarac		M
 šugavac		
 šumadinac		
@@ -1176,7 +1213,6 @@ zvonolivac
 bijelac	30	
 bjegunac		
 bjelac		
-ijekavac	10	
 mješanac		
 nijemac	56	
 obavještajac		

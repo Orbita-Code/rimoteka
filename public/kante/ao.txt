@@ -1,4 +1,4 @@
-3652
+3653
 abdicirao	165	
 adaptirao	328	
 adresirao	21	
@@ -920,6 +920,7 @@ motivisao	276
 mozgao	25	
 mrdao	76	
 mrmljao	156	
+mrzao		
 mucao	78	
 mudrovao	33	
 mukao		
@@ -1137,6 +1138,7 @@ negodovao	188
 negovao	392	
 nemao	168	
 nenavikao		
+neodrastao		
 nervirao	383	
 nesmisao		
 nestajao	234	
@@ -2635,7 +2637,6 @@ skidao	971
 skijao	166	
 skitao	33	
 skičao		
-skladao	20	
 sklanjao	169	
 sklapao	348	
 sklepao	83	

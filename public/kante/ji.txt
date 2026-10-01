@@ -1,4 +1,4 @@
-2633
+2641
 Albaniji		
 Australiji		
 Austriji		
@@ -751,6 +751,7 @@ klišeji
 klonji		
 kneginji	86	
 koaliciji	6952	
+kobilji		
 koheziji	116	
 koji	2805274	
 kokošiji		
@@ -859,6 +860,7 @@ kupelji	29
 kupoprodaji	1089	
 kuražniji		
 kuriji	106	
+kurji		
 kuršumliji		
 kutiji	2434	
 kućepazitelji		
@@ -935,6 +937,7 @@ manji	30573
 mantiji	140	
 marljiviji	20	
 masivniji	102	
+masmediji		
 masoneriji	68	
 masovniji	273	
 masturbaciji	80	
@@ -1099,9 +1102,11 @@ najdrskiji
 najdublji	521	
 najduhovitiji	78	
 najefikasniji	4154	
+najekonomičniji		
 najekskluzivniji	74	
 najekstremniji	158	
 najelegantniji	59	
+najenergičniji		
 najfantastičniji	12	
 najfenomenalniji		
 najfiniji	165	
@@ -1610,6 +1615,7 @@ pačji	14
 pažljiviji	366	
 pažnji	1482	
 pedagogiji	249	
+pedesetogodišnji		
 pedijatriji	159	
 penastiji		
 peniji		
@@ -1626,6 +1632,7 @@ perziji
 pesnikinji	111	
 peticiji	336	
 petlji	649	
+petnaestogodišnji		
 petogodišnji	994	
 pešadiji	92	
 philadelphiji		
@@ -1763,6 +1770,7 @@ predosećaji
 predradnji	19	
 predstoji	5569	
 predvečernji	10	
+predzadnji		
 prefinjeniji	70	
 pregoji		
 prekjučerašnji	34	

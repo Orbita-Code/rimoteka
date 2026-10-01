@@ -1,4 +1,4 @@
-834
+843
 Berlin		
 Dablin		
 Zrenjanin		
@@ -81,6 +81,7 @@ bihaćanin
 bilirubin	148	
 birčanin		
 bitkoin		
+bogorodičin		
 bojanin		
 boldvin		
 borin	30	
@@ -166,6 +167,7 @@ dublin
 dubrovčanin	68	
 dugin		M
 dukin		
+dunjin		
 dupin		
 durbin	149	
 dušin		
@@ -223,6 +225,7 @@ građanin	9810
 grbin		
 grenlanđanin		
 grin		
+grličin		
 grofičin		
 grozdanin		
 grubin		
@@ -552,6 +555,7 @@ paladin
 palankin		
 palančanin	30	
 palatin		
+palmin		
 pangolin		
 papin	139	
 parafin	139	
@@ -656,6 +660,7 @@ silvin		M
 simin		
 simonin		
 sin	28258	
+sirenin		
 skin	274	
 skopolamin		
 slađanin		
@@ -664,6 +669,7 @@ slovenkin
 smokvin	69	
 snahin		
 sofijin		
+sojin		
 solanin	33	
 sonjin		
 sorokin		
@@ -688,6 +694,7 @@ supin
 surčin		
 suseljanin		
 svastikin		
+svekrvin		
 tajlanđanin		
 talin		
 tamarin		
@@ -781,6 +788,7 @@ vukašin
 vulin		
 zagrepčanin	37	
 zaharijin		
+zastavin		
 zavišin		
 začin	1426	
 zejtin	258	
@@ -804,6 +812,7 @@ zvorničanin
 čarapin		
 čačanin		
 čađanin		
+čin		
 čičin		
 čobanin	291	
 đin		

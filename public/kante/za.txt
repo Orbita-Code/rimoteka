@@ -1,4 +1,4 @@
-354
+359
 Pariza		
 acidoza	57	
 ajvaza		
@@ -6,10 +6,12 @@ akciza	3105
 alojza		
 amilaza		
 amiloidoza	25	
+amniocenteza		
 anabaza		
 analiza	21823	
 anamneza	367	
 anamorfoza		
+anastomoza		
 androgeneza		
 antifriza	166	
 antiteza	213	
@@ -35,6 +37,7 @@ boza	132
 breza	708	
 bronza	904	
 broza		
+bruceloza		
 brza	5341	
 buraza	29	
 burza		
@@ -120,6 +123,7 @@ kauza	15
 kaveza	1210	
 kavkaza		
 kineza	1845	
+klinceza		
 kliza	182	
 kneza	8383	
 knjaza		
@@ -294,6 +298,7 @@ spinoza
 sreza	907	
 sroza	128	
 staza	12371	
+stenoza		
 striptiza	56	
 superbrza	11	
 suza	4991	

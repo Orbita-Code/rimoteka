@@ -1,4 +1,4 @@
-1481
+1480
 Hamburga		
 Pekinga		
 Praga	1425	
@@ -91,7 +91,6 @@ bezumnoga
 bezuslovnoga		
 bećarskoga		
 bečkoga	18	
-bijega	96	
 bijeloga		
 bijesnoga		
 biljnoga		
@@ -1480,6 +1479,7 @@ zvezdanoga
 životnoga	23	
 žrtvenoga		
 žutoga	11	
+bijega	96	
 brijega	210	
 cijeloga	194	
 ljepšega	10	

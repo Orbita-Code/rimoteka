@@ -1,4 +1,4 @@
-374
+373
 Marsi		
 Uskrsi		
 abakusi		
@@ -229,7 +229,6 @@ prenosi	28330
 prepisi	156	
 pretresi	166	
 preuznosi		
-pridonosi	249	
 prinesi	277	
 prinosi	2611	
 prkosi	566	

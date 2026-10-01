@@ -1,4 +1,5 @@
-489
+500
+Bofor		
 Ekvador		
 Sombor		
 administrator	2643	
@@ -32,6 +33,7 @@ centarfor	575
 cenzor	172	
 civilizator		
 copor		
+crnobor		
 cukor		
 dalekozor	123	
 dalibor		
@@ -184,7 +186,9 @@ kompozitor		M
 kompresor	686	
 komunikator	121	
 komutator	44	
+konclogor		
 kondenzator	392	
+konditor		
 kondor	136	
 konduktor		M
 konektor	1749	
@@ -206,6 +210,7 @@ ktitor	661
 kultivator	28	
 kurator	45	
 kursor	524	
+kvalifikator		
 kvestor		
 labrador	186	
 lahor	87	
@@ -261,6 +266,7 @@ narator	644
 navigator	341	
 nazor	111	
 negator		M
+neizbor		
 nejbor		
 nestor	36	
 neutralizator		
@@ -313,6 +319,7 @@ predugovor	434
 pregor		M
 pregovor	65	
 prekor	303	
+prekursor		
 premor	118	
 preparator		M
 prespor	72	
@@ -351,6 +358,7 @@ ratibor
 razbor	23	
 razdor	755	
 razgovor	24120	
+razvigor		
 reaktor	769	
 realizator	423	
 receptor	213	
@@ -366,6 +374,7 @@ regulator	1072
 reizbor	889	
 rektor	2578	
 repetitor	254	
+replikator		
 resor	1813	
 respirator	88	
 restaurator	97	
@@ -442,9 +451,11 @@ tranzistor	391
 tremor	170	
 trevor		
 trezor	1459	
+trikolor		
 tudor		
 tumor	2564	
 turbogenerator		
+turbokompresor		
 tutor	251	
 tvor	120	
 ugor		

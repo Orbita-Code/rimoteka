@@ -1,4 +1,4 @@
-903
+907
 Beograda		
 Davida		
 Islanda		
@@ -184,6 +184,7 @@ gnezda	1698
 gnjida	140	
 goda	83	
 golobrda		
+gonada		
 gorazda		
 goražda		
 gorda	142	
@@ -379,7 +380,9 @@ međunaroda
 mida		
 mikada		
 mikrokoda		
+mikrosekunda		
 milijarda	1625	
+milisekunda		
 milorada		
 milorda		
 mimohoda	20	
@@ -422,6 +425,7 @@ najezda	474
 nakarada	42	
 naklada	30	
 naknada	8537	
+nanosekunda		
 napada	28964	
 naroda	95595	
 nasada	46	
@@ -648,6 +652,7 @@ rajmonda
 rajmunda		
 rasada	612	
 raseda	70	
+rashlada		
 rashoda	4080	
 raskida	2964	
 raskomada	36	
@@ -750,7 +755,6 @@ strada	2101
 strahovlada	68	
 suada		
 suda		
-suhozida	13	
 suicida	381	
 sulfida	67	
 suluda	367	

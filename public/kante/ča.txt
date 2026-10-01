@@ -1,5 +1,7 @@
-531
+535
 Beča		
+Guča		
+Rača		
 alapača	51	
 apača		
 baburača		M
@@ -259,6 +261,7 @@ pača
 pekača		
 penjača	201	
 perača	68	
+petrovača		
 pevača	3667	
 pirinča		
 pisača	60	
@@ -365,6 +368,7 @@ razbijača	92
 raznosača	16	
 razređivača	83	
 rebrača		M
+remenjača		
 rezača	147	
 rešavača	15	
 rogača	94	

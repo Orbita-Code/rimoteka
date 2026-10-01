@@ -1,4 +1,4 @@
-337
+344
 Kijev		
 alenićev		
 andrejev		
@@ -11,6 +11,7 @@ bakićev
 batićev	24	
 belićev		
 berđajev		
+bogatašev		
 bogosavljev		
 bojićev		
 boškovićev		
@@ -45,6 +46,7 @@ držićev
 dudajev		
 dućićev		
 dučićev		
+duždev		
 dvopev		
 gadafijev		
 gajev		
@@ -84,10 +86,12 @@ jelačićev
 jev		M
 jevtićev		
 jezdićev		
+ježev		
 jonićev		
 jurjev		
 kalabićev		
 kalijev		
+kaljev		
 karadžićev		
 karađorđev		
 karićev		
@@ -192,6 +196,7 @@ perićev
 petkovićev		
 petrovićev		
 pev		
+pevačev		
 pešićev		
 piletićev		
 piljarev		
@@ -213,6 +218,7 @@ prinčev	20
 pripev	43	
 pripovedačev		
 prispev		
+prodavčev		
 prohtev		
 prokofjev		
 protićev		
@@ -262,6 +268,7 @@ stražarev
 strelčev		
 stričev	12	
 sunčev	330	
+suvozačev		
 svečev		
 sviračev		
 tadićev		

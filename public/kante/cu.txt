@@ -1,4 +1,4 @@
-1443
+1440
 Firencu		
 Leskovcu		
 Mesecu	13529	
@@ -907,7 +907,6 @@ pristupnicu	357
 priznanicu	266	
 pričaonicu	38	
 pričicu	179	
-prodavaonicu	10	
 prodavačicu	164	
 prodavcu	885	
 prodavnicu	3506	
@@ -935,7 +934,6 @@ pupavcu
 puricu	10	
 puslicu		
 putnicu	27	
-putovnicu	86	
 puškarnicu		
 pušnicu	21	
 pčelicu	31	
@@ -1053,7 +1051,6 @@ slepcu	95
 slepoočnicu	95	
 slikovnicu	143	
 sličicu	447	
-sljepoočnicu	15	J
 slovcu		
 slovencu		
 složenicu	29	
@@ -1473,6 +1470,7 @@ predsjednicu
 rječicu		
 sjednicu		
 slijepcu	20	
+sljepoočnicu	15	J
 svjećicu		
 tjesnacu		
 umjetnicu		

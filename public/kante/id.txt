@@ -1,4 +1,4 @@
-106
+109
 David		
 Madrid		
 aldehid		
@@ -45,6 +45,7 @@ humanoid	47
 ingrid		
 insekticid	176	
 invalid	917	
+izvid		
 jodid	22	
 kandid		
 karbid	16	
@@ -62,6 +63,7 @@ monosaharid
 ohrid		
 oksid	239	
 očevid	28	
+oštrovid		
 peptid	70	
 peroksid	113	
 pesticid	124	
@@ -90,6 +92,7 @@ suboksid
 suicid	206	
 sulfid	68	
 superoksid	29	
+suvozid		
 svetovid		
 tabloid	741	
 trapezoid		

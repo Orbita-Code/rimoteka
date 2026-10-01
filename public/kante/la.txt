@@ -1,4 +1,4 @@
-6083
+6089
 Angola		
 Brazila		
 Brisela		
@@ -174,12 +174,14 @@ brojgela
 brojila	1424	
 brokola		
 brokula	62	
+bronhiola		
 brstila		
 brujala	95	
 brčkala	21	
 bubala	143	
 budala	3879	
 budila	406	
+buhtla		
 bujala	62	
 buknula	205	
 buktala		
@@ -725,6 +727,7 @@ infiltrirala	23
 informisala	397	
 inicijala	150	
 inicirala	927	
+inkunabula		
 insistirala	1233	
 inspirisala	687	
 instalirala	244	
@@ -1225,6 +1228,7 @@ kažnjavala	141
 kegla	56	
 kemala		
 kezila		
+kibla		
 kidala	85	
 kidnapovala	54	
 kidnula		
@@ -2717,6 +2721,7 @@ penkala
 pentrala	12	
 penzionisala	61	
 pepela	2556	
+pergola		
 perikla		
 peristila	23	
 perla	167	
@@ -2851,7 +2856,6 @@ podrazumevala	1237
 podredila	81	
 podrhtavala	58	
 podrignula	14	
-podrijetla	153	J
 podrivala	23	
 podržala	4272	
 podržavala	1153	
@@ -2964,6 +2968,7 @@ poludela	436
 poludila		
 polufinala	2807	
 polugola	127	
+polukugla		
 polupala	36	
 poluzrela		
 pomagala	4120	
@@ -5313,6 +5318,7 @@ vala	1906
 valjala	289	
 valjuškala		
 vandala	308	
+vangla		
 vanila	337	
 vapila	45	
 varala	208	
@@ -5320,6 +5326,7 @@ varijabla	214
 varila	18	
 variola	91	
 varirala	226	
+varičela		
 vascela		
 vaskrsla	138	
 vaskrsnula	23	
@@ -5525,7 +5532,6 @@ zakasnila	364
 zakazala	852	
 zakazivala	34	
 zakačila	393	
-zakašnjela	12	
 zakerala		
 zakikotala		
 zakinula	41	
@@ -6280,6 +6286,7 @@ zabijelila
 zacijelila		
 zadrijemala		
 zahtijevala	83	
+zakašnjela	12	
 zaletjela		
 zalijepila	13	
 zamijenila	89	

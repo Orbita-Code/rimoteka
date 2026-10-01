@@ -1,4 +1,4 @@
-5500
+5512
 Bugarska	1035	
 Danska	436	
 Finska	933	
@@ -8,7 +8,9 @@ Hrvatska	6882
 Iraka		
 Irska	346	
 Jamajka		
+Makarska		
 Maroka		
+Mađarka		
 Mađarska	1896	
 Meksika		
 Mozambika		
@@ -392,12 +394,12 @@ bilderka
 bilijarska	12	
 biljaka	9644	
 bilješka		J
-bilježnika	34	J
 biljka	5927	
 bilogorska		
 binačka		
 bioenergetika		
 bioenergetičarka		
+bioetika		
 biofizika	29	
 biofizička	27	
 biogradska	31	
@@ -421,11 +423,9 @@ bitnika	26
 bitoljska		
 bivaka	49	
 bizantinka		
-bizantska	12	
 bizmarka		
 bičarka		
 bjanka		
-bjelanjaka	13	J
 blagajnika	284	
 blagajnička		
 blanka		
@@ -707,6 +707,7 @@ desetka	497
 desetnika		
 desetogodišnjaka	52	
 deska		
+desničarka		
 desničarska	283	
 desnoruka		
 despotovička		
@@ -1014,6 +1015,7 @@ fakultetska	195
 falinka		M
 fanatika	509	
 fantastika	1581	
+fantomka		
 fantomska	217	
 farisejska		
 farmaceutska	1188	
@@ -1032,6 +1034,7 @@ fijaska	193
 fijoka		
 fijuka	14	
 filigranska	27	
+filipika		
 filipinka		
 filipinska	45	
 filmska	2920	
@@ -1258,6 +1261,7 @@ gvinejka
 gvinejska		
 gvožđarska		
 hadžijska		
+hadžika		
 hadžiluka		
 hajduka		
 hajdučka	255	
@@ -1604,7 +1608,6 @@ jubanka
 jufka		M
 jugobanka		
 jugoistoka	402	
-jugoslavenska	105	
 jugoslovenka		
 jugoslovenska	2317	
 juka	81	
@@ -1741,7 +1744,6 @@ kiparska	343
 kipranka		
 kiseljaka	78	
 kiseonika	4869	
-kisika	239	
 kitnjaka		
 kićanka	17	
 kičmenjaka		M
@@ -2210,6 +2212,7 @@ manihejska	40
 manijaka	371	
 manikerka		M
 manikirka		M
+manioka		
 manipulatorka		
 manjinska	2646	
 manjka	2948	
@@ -2239,7 +2242,6 @@ maserka	38
 maska	3104	
 maslačaka	17	
 maslačka	353	
-maslinika	14	
 maslinjaka	104	
 masonska	166	
 maspoka	49	
@@ -2521,6 +2523,7 @@ nailazaka
 naivka	12	
 najamnika	224	
 najamnička	10	
+najlonka		
 naka		M
 nalicka		
 naloka		
@@ -2621,6 +2624,7 @@ nemačka	7384
 nemka		
 nemoćnika		
 neolitska	81	
+neonka		
 neonska	64	
 neorganska	106	
 neotesanka		
@@ -2807,6 +2811,7 @@ okulistika
 okupatorska	144	
 olaka	39	
 oleinska	50	
+olimpijka		
 olimpijska	1009	
 olimpika		
 olovaka	234	
@@ -2913,7 +2918,6 @@ otpornika	269
 otporuka		
 otpočetka	137	
 otpravnika	123	
-ovisnika	126	
 ovolika	757	
 ovosvetska		
 ovozemaljska	117	
@@ -3016,6 +3020,7 @@ patetika	249
 patika		M
 patka	933	
 patnika	21	
+patoka		
 patološka	498	
 patrijaršijska	39	
 patrika		
@@ -3114,6 +3119,7 @@ pionirka		M
 pionirska	298	
 pipaka	106	
 piperska		
+pipirevka		
 pipka	98	
 piratska	264	
 pirka	61	
@@ -3126,6 +3132,7 @@ piska	75
 pitka	351	
 pivarska	59	
 pivska	79	
+piška		
 pištaljka	547	
 pješačka		J
 plaka	494	
@@ -3369,6 +3376,7 @@ potkornjaka
 potoka	3084	
 potomaka	2156	
 potomka	378	
+potočarka		
 potočka		
 potpisnika	1147	
 potporučnika	164	
@@ -3546,7 +3554,6 @@ pripeka	20
 pripovedaka	1160	
 pripovedačka	72	
 pripovetka	464	
-pripravaka	24	
 pripravnika	1297	
 prirodnjaka		
 priručnika	1888	
@@ -3591,7 +3598,6 @@ prokurdska
 prolaska	1888	
 prolaznika	1830	
 proleterska	331	
-prometnika	69	
 prominska		
 promoterka	104	
 promućka	36	
@@ -3650,6 +3656,7 @@ prutka
 prvaka	8752	
 prvoaprilska	131	
 prvomajska	186	
+prvorotka		
 prvoslavka		
 prvosveštenika	192	
 prvouzroka		
@@ -3883,6 +3890,7 @@ rumenka	161
 rumunjska		
 rumunka		
 rumunska	889	
+rusalka		
 ruska	10579	
 rustika		
 rutinska	443	
@@ -4320,7 +4328,6 @@ subotička	1186
 subtropska		
 sudanka		
 sudanska	33	
-sudačka		
 sudbinska	167	
 sudeonika		
 sudijska	582	
@@ -4421,6 +4428,7 @@ taložnika	91
 tamburaška	80	
 tamilska		
 tamiška		
+tamjanika		
 tamnička	44	
 tanaka		
 tanaska		
@@ -4571,6 +4579,7 @@ trigonometrijska
 trika	259	
 trka	12187	
 trkačka	355	
+trmka		
 trnjaka	17	
 trobojka	178	
 trogodišnjaka	58	
@@ -4831,6 +4840,7 @@ veseljaka	84
 veslačka	104	
 vesnika	179	
 vestalka		
+veteranka		
 veteranska	52	
 veterinarka	52	
 veterinarska	1010	
@@ -5218,6 +5228,7 @@ zvučnika	3002
 čelnika	3525	
 čemerika	12	
 čeprka	87	
+čergarka		
 čerka		
 čerkeska		
 čestitka	790	
@@ -5464,6 +5475,7 @@ zvučnika	3002
 ženika	169	
 ženka	1715	
 ženska	6024	
+žeravka		
 žestoka	1473	
 žetelačka		
 žgoljavka		
@@ -5500,6 +5512,8 @@ zvučnika	3002
 žutoperka		M
 žvaka		M
 bijednika	14	
+bilježnika	34	J
+bjelanjaka	13	J
 bjelka		
 blijeska		
 covjeka		
@@ -5563,7 +5577,6 @@ svjedoka
 svjetiljka		
 svjetionika		
 svjetska		
-tijeka	27	
 trbosjeka		
 umjetnika		
 umjetnička		
@@ -5574,6 +5587,7 @@ vjernika
 vjerska		
 vještaka		
 vještačka		
+zabilješka		
 zamjenika		
 zamjerka		
 zvjerka		

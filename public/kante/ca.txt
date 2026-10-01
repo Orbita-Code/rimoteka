@@ -1,4 +1,4 @@
-3301
+3341
 Firenca		
 Leskovaca		
 Leskovca		
@@ -6,6 +6,7 @@ Loznica
 Meseca	85634	
 Podgorica		
 Požarevca		
+Sjenica	1208	
 Subotica		
 aca		
 advokatica	231	
@@ -214,6 +215,7 @@ britanca	161
 britvica	10	
 brizgalica	13	
 brnjica	84	
+brodarica		
 brodica	53	
 brojanica	154	
 brucošica		
@@ -417,6 +419,7 @@ dužnica	12
 dvadesetica		M
 dvadesetogodišnjica		
 dvadesetorica	32	
+dvadesetpetogodišnjica		
 dvanaesteraca		
 dvanaestica	46	
 dvanaestorica	94	
@@ -462,7 +465,9 @@ filipinca
 finaca		
 flamanaca		
 flašica		M
+flekica		
 forca	120	
+fortica		
 foteljica		
 fotokopirnica		
 franca		
@@ -470,10 +475,12 @@ franjevaca	154
 franjevca	32	
 frekvenca	150	
 frendica	53	
+frulica		
 fufica		M
 gabrovca		
 gadnica		
 gagrica		
+gajbica		
 galebica		
 galica	26	
 gasilaca		
@@ -509,6 +516,7 @@ glačalica		M
 glačaonica		
 gledalaca		
 gledaoca		
+glinica		
 gljivica	1202	
 glodalica	72	
 glodavaca	10	
@@ -563,6 +571,7 @@ grabovca
 grabovica		
 graca	272	
 gradaca		
+gradinica		
 gradonačelnica	1635	
 grahorica	44	
 granica	26030	
@@ -576,10 +585,12 @@ grbavca	19
 grbavica		M
 grbica	94	
 grdelica		
+grebalica		
 gredica	115	
 grejalica	131	
 greškica	31	
 grešnica	139	
+greščica		
 grickalica	559	
 grijalica		J
 grizlica		M
@@ -604,6 +615,7 @@ gumica	254
 gunjca		
 gusenica	347	
 guskica		
+gušica		
 gušterica	31	
 guščarica		
 gužvica		
@@ -627,6 +639,7 @@ hladilica		M
 hlačica		J
 hlebarnica		M
 hobotnica	302	
+hodalica		
 hodočasnica		
 hoklica		M
 homoseksualaca	1539	
@@ -653,8 +666,10 @@ iglica	297
 igraonica	951	
 igračica	2485	
 igračkica	87	
+igračnica		
 igrica	3767	
 ijekavaca	10	J
+ikavica		
 ikonica	830	
 ikonoborca		
 ikonopisca	114	
@@ -847,6 +862,7 @@ kašičica	917
 kašljuca	96	
 kažnjenica		M
 keca		M
+keceljica		
 kelnerica		M
 kepeca	37	
 kesica	680	
@@ -857,6 +873,7 @@ kijavica	336
 kikica		M
 kiloherca	43	
 kininovca		
+kiselica		
 kitica		
 kitolovaca		
 kitolovca		
@@ -1033,6 +1050,7 @@ krivolovaca	35
 kriščica		
 krofnica		M
 krojačica	103	
+krojačnica		
 krompirica		
 krpica	293	
 krsnica		M
@@ -1057,6 +1075,7 @@ kuca	3077
 kucavica	206	
 kudilaca		
 kudrica		
+kuglašica		
 kuglica	622	
 kuhinjica		
 kujica	26	
@@ -1154,6 +1173,7 @@ libanca
 libanonca		
 lica	89752	
 licenca	1853	
+lipica		
 lipovca		
 lisaca	12	
 lisica	1487	
@@ -1180,6 +1200,7 @@ ljuskica	18
 ljuspica	100	
 ljutenica		
 ljutica	64	
+ljušturica		
 ljuščica		M
 loca		
 logorašica	18	
@@ -1207,6 +1228,7 @@ ložnica	15
 lubenica	810	
 lubnica		
 ludaca		
+ludica		
 ludnica	578	
 lugarnica		
 lukavca	18	
@@ -1304,6 +1326,7 @@ metlica	72
 metvica	37	
 mezimca	165	
 mezimica	157	
+međica		
 međusobica		M
 međustanica		
 mešajica		
@@ -1348,6 +1371,7 @@ mojkovca
 mokranjca		
 mokrica		
 molbenica		
+molbica		
 moldavaca		
 molilaca		
 molioca		
@@ -1397,6 +1421,7 @@ naca		M
 nadgrobnica		
 nadica		
 nadlaktica	112	
+nadlanica		
 nadnica	335	
 nadstojnica		
 nadstrešnica	264	
@@ -1510,6 +1535,7 @@ notica	14
 novaca	2922	
 novca	69928	
 novica		
+novopridošlica		
 novčanica	1777	
 noćca		
 noćnica		
@@ -1660,6 +1686,7 @@ pakistanca
 paklica	214	
 pakosnica		
 pakraca		
+palačinkarnica		
 palestinaca		
 palica	467	
 palidrvaca		
@@ -1760,6 +1787,7 @@ pitanjca
 pitica		
 pitomaca	259	
 pitomca	62	
+pitomica		
 pivnica	416	
 pištalica		M
 pižurica		
@@ -1801,6 +1829,7 @@ podlaktica	122
 podlanica		
 podmornica	1017	
 podmuklica		
+podnica		
 podnosilaca	1099	
 podnosioca	4273	
 podobrasca		
@@ -1874,6 +1903,7 @@ portorikanca
 portugalaca	43	
 portugalca	119	
 porudžbenica		
+porukica		
 poručioca		
 poručnica		
 posetilaca	11715	
@@ -2081,6 +2111,7 @@ pročelnica
 proždrljivca	15	
 proždrljivica		M
 prskalica	223	
+prtljažnica		
 prugica	32	
 pružalaca	301	
 pružaoca	380	
@@ -2159,6 +2190,7 @@ raspuštenica	53
 ratnica	69	
 ravanica		
 ravnica	857	
+ravnodnevica		
 ravnodnevnica	30	
 razaračica		M
 razbaca	43	
@@ -2317,6 +2349,7 @@ semenica
 senatorica		
 sendvica		
 senica		M
+sentenca		
 senčica		
 seoca	65	
 sesteraca		
@@ -2393,6 +2426,7 @@ slovenca	60
 slovolivnica		M
 slovoslagačnica		
 složenica	106	
+sluznica		
 slušalaca		
 slušalica	1058	
 slušaoca		
@@ -2402,6 +2436,7 @@ službica		M
 smederevca	72	
 smernica	1553	
 smicalica	174	
+smokvica		
 smrdljivica		M
 smrtnica	14	
 smrtovnica	38	
@@ -2532,7 +2567,6 @@ stvarčica	520
 stvorenjca		
 subaštinica		
 substanca		
-sudaca	156	
 sudeonica		
 sudinica		
 sudnica	248	
@@ -2560,6 +2594,7 @@ surdulica
 susnežica	117	
 sutrašnjica	74	
 suučesnica		
+suvenirnica		
 suvlasnica	133	
 suvomrazica		M
 suzavca	340	
@@ -2653,6 +2688,7 @@ tiskanica
 tkanica	59	
 tkaonica		
 tkačnica		M
+tmica		
 tobolaca		
 topionica	391	
 toplica	144	
@@ -2704,6 +2740,7 @@ trospratnica		M
 trovačica		
 trozupca	17	
 trtica	44	
+trubica		
 trudbenica		M
 trudnica	3302	
 trunčica	50	
@@ -2732,6 +2769,7 @@ udaraca	2682
 udarca	3467	
 udarnica		
 udica	448	
+udolica		
 udomiteljica		
 udovca	48	
 udovica	1696	
@@ -2978,6 +3016,7 @@ zalogajnica
 založnica	12	
 zamajca	112	
 zamenica	1967	
+zamolnica		
 zamoraca	36	
 zamorca	51	
 zamuca	23	
@@ -3020,9 +3059,11 @@ zemljica
 zemljoradnica		M
 zemunica	90	
 zenica		M
+zerica		
 zevalica		M
 zezalica	66	
 zečica	227	
+zgodica		
 zidanica		
 zidarica		
 ziherica		
@@ -3214,7 +3255,6 @@ zvončica
 šoljica	687	
 španaca		
 španca		
-španjolaca		
 špica	988	
 šprica	179	
 štalica		
@@ -3352,6 +3392,7 @@ sjekirica
 sjenica	1208	
 slijedeca		
 slijepca	45	
+sljepoočnica		
 smjernica		
 stjenica		
 strijelaca	24	

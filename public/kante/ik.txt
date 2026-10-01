@@ -1,4 +1,4 @@
-896
+923
 Mozambik		
 aerobik	679	
 agnostik	160	
@@ -82,6 +82,7 @@ buntovnik	382
 butik	653	
 cadik		
 carinik	535	
+carostavnik		
 cenik		
 cenovnik	1991	
 cik	83	
@@ -132,6 +133,7 @@ dužnik	2752
 dužnosnik	117	
 dvoglasnik		
 dvojnik	334	
+dvolik		
 dvoličnik		
 dvomesečnik		
 dvornik		
@@ -222,6 +224,7 @@ jajnik	141
 jajolik	10	
 jednolik	10	
 jednomišljenik		M
+jelik		
 jelovnik	1134	
 jeretik	286	
 jezik	60066	
@@ -274,6 +277,7 @@ krivokletnik	16
 krivovernik		M
 krstolik		
 krušik		
+kruškolik		
 krvnik	230	
 krvoslednik		
 krštenik		
@@ -313,6 +317,7 @@ mađionik		M
 melanholik		
 mesečnik	215	
 metalik	875	
+mezozoik		
 međuspremnik		
 mik		M
 miljenik	928	
@@ -326,6 +331,7 @@ mladolik	66
 mladomisnik		
 mlaznik		
 mlekarnik		M
+mnogolik		
 množenik		
 molbenik		
 molitvenik	267	
@@ -339,6 +345,7 @@ nadarbenik
 nadglednik		
 nadnarednik		
 nadstojnik		
+nadvratnik		
 nadzornik	496	
 najamnik	95	
 nalik	6237	
@@ -348,6 +355,7 @@ nametnik
 nameštenik	103	
 namjesnik		J
 napasnik	70	
+naprsnik		
 narednik	436	
 narkotik	114	
 naručnik		
@@ -364,7 +372,9 @@ naučnik	4488
 navodnik		
 nazivnik	43	
 načelnik	12141	
+nebesnik		
 nedeljnik	1887	
+neistomišljenik		
 nekolik		M
 nepodobnik		
 neprovodnik		
@@ -375,6 +385,7 @@ neurastenik
 neurotik	16	
 nevelik	111	
 nevernik	130	
+nevlasnik		
 nevoljnik	31	
 nezadovoljnik	18	
 nezahvalnik		
@@ -382,6 +393,7 @@ nik		M
 novčanik	1977	
 numizmatik		
 nužnik	116	
+obaveznik		
 obećanik		
 oblik	28348	
 obraćenik		
@@ -398,6 +410,8 @@ okovratnik		M
 okrivljenik	30	
 okrutnik		
 olimpik	190	
+onolik		
+opasnik		
 optuženik	424	
 opunomoćenik	98	
 oružnik		
@@ -413,6 +427,7 @@ otpremnik	42
 otpuštenik		
 ovlaštenik	13	
 ovlašćenik		
+ovolik		
 ovratnik	13	
 očajnik	78	
 oštećenik	33	
@@ -530,6 +545,7 @@ predvodnik	1124
 preljubnik	47	
 premosnik		
 prenosnik	236	
+preobraćenik		
 prestolonaslednik	899	
 prestolonasljednik		J
 prestupnik	149	
@@ -602,6 +618,7 @@ resnik
 revnosnik		M
 reznik		
 rečnik	5458	
+ribolik		
 rik		
 rimokatolik	81	
 rizik	23903	
@@ -655,6 +672,7 @@ sledbenik	935
 slik		M
 slivnik	140	
 sljedbenik		J
+služavnik		
 službenik	3662	
 smokvik		
 smrtnik	231	
@@ -667,6 +685,8 @@ sputnik
 sputnjik		M
 sramnik		
 sramotnik		M
+srcolik		
+srebrnik		
 sretnik	43	
 srećnik	175	
 srodnik	330	
@@ -696,6 +716,8 @@ suputnik	19
 suučesnik		
 suvlasnik	1730	
 suđenik		M
+svakolik		
+svekolik		
 svetačnik		
 svetionik	859	
 svetlarnik		M
@@ -713,6 +735,7 @@ tipik	333
 titanik		
 tolik	23	
 tonik	361	
+topik		
 topnik		
 tornik		
 tovljenik		
@@ -745,6 +768,7 @@ umnik		M
 umobolnik	30	
 unesrećenik		
 unmik		
+upisnik		
 upitnik	2369	
 uporednik		
 uposlenik	44	
@@ -773,6 +797,7 @@ uzvičnik
 učenik	9945	
 učesnik	8044	
 uškopljenik	18	
+varenik		
 vaskolik	10	
 vaspitanik	33	
 veleposednik	108	
@@ -841,9 +866,11 @@ zemljovlasnik
 zimovnik	106	
 zlatnik	425	
 zlobnik	35	
+zlopatnik		
 zloslutnik		
 zlosrećnik		M
 zluradnik		M
+zmijolik		
 znanstvenik		
 znatiželjnik		
 zupčanik	137	
@@ -896,6 +923,7 @@ zvučnik	1105
 žrtvenik	329	
 župnik	757	
 bijednik		
+bilježnik		
 grješnik		
 ispovjednik		M
 mjesečnik		

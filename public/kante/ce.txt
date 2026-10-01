@@ -1,4 +1,4 @@
-2009
+2007
 Firence		
 Leskovce		
 Mesece	1000	
@@ -87,7 +87,6 @@ bogatašice	49
 bogomoljce	15	
 bogorodice	5411	
 bojice	209	
-bojnice	14	
 bokserice	181	
 bokvice	172	
 bolesnice	141	
@@ -667,7 +666,6 @@ kubance
 kudioce		
 kuglašice	208	
 kuglice	1076	
-kuharice	30	
 kuhinjice	22	
 kujice		
 kukavice	1022	
@@ -953,7 +951,6 @@ obojice	423
 obožavaoce	458	
 obožavateljice		
 obrasce	1920	
-obratnice	11	
 obrvice		
 obveznice	4768	
 odbace	777	
@@ -1940,6 +1937,7 @@ zvrčkice
 šerpice	42	
 šestice	313	
 šestorice	296	
+šećerce		
 šibice	345	
 šiparice		
 škarice		

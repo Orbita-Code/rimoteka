@@ -10,6 +10,17 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0b. STANJE 01.10.2026 – SJ-5 UNET, TEST U 4 RADNIKA
+- **Rečnik:** 282.180 reči u `reci.txt` (bilo 279.862), 5.358 u ijekavici; 290.159 objašnjenja. Unos po odluci vlasnice
+  (`scripts/sj5-unesi.py`, dnevnik `AUDIT/SJ-5-razvrstano/UNOS-2026-10-01.md`). Kante, definicije po slovima, verzije, strane regenerisane;
+  strana i dalje 1.989 (nema novih – nijedna nova osnova nije u `matica.json` sa frekvencijom).
+- **Grupa C** (3.532 osnove bez traga u OCR Matice): objašnjenja napisana (30 agenata), `PREDLOG-C-objasnjenja.md` čeka „da" vlasnice.
+  42 sporne iz B takođe čekaju (`B-sporne-odluka.json`).
+- **Test u 4 radnika (TP-11):** `lanac.sh` → `DEO=1..4`; lokalno 994 provere, 10 min 45 s (bilo 16–23 min u jednom procesu).
+  Radnici su trajali ~450 s svaki uz opterećenje računara 37 – kad računar nije zauzet drugim, treba da bude kraće. Vraćanje: `RADNIKA=1`.
+- **A-3** zatvoren odlukom vlasnice (ostaje autofokus na polje).
+- **Sledeće:** lanac protiv produkcije posle objave; odluke za C i 42 sporne; audit (poslednji 22.09.).
+
 ## 0a. STANJE OBJAVE POSLE TREĆEG KRUGA (22.09.2026, ~12:00)
 - `main` = `46ad02cd0b` (nginx: /app.js→app.min.js, kanonikal ?rec=, CSP www) nad `0e2273b6f4` (kante, min, P-2, test 59). Pre toga krug 2:
   `05dab95af1` (nginx) nad `c0f4ed4e44` (41 nalaz). Svaki nginx commit je bio zaseban deploy (pravilo 9a-1).

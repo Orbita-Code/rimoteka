@@ -1,4 +1,4 @@
-6976
+6974
 Albaniju		
 Australiju		
 Austriju		
@@ -2008,7 +2008,6 @@ kupaju	938
 kupanju	363	
 kupleraju		
 kupljenju		
-kupnju	259	
 kupoprodaju	220	
 kupovanju	71	
 kupuju	14293	
@@ -6924,7 +6923,6 @@ zvučanju	12
 štimaju	42	
 štipaju	35	
 štićenju		
-štovanju	14	
 štrajkaju		
 štrajkuju	1784	
 štrapaciraju		

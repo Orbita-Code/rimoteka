@@ -1,4 +1,4 @@
-1125
+1127
 Mumbaj		
 Paragvaj		
 Urugvaj		
@@ -196,6 +196,7 @@ izmotavaj
 izostavljaj		
 izravnaj		
 izračunaj	165	
+izraštaj		
 izražaj	108	
 izražavaj		
 izribaj		
@@ -879,6 +880,7 @@ tepaj	20
 teraj	406	
 testiraj	129	
 tečaj	691	
+titraj		
 tkaj		
 tornjaj	16	
 trabunjaj		

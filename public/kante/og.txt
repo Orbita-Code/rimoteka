@@ -1,4 +1,4 @@
-5859
+5864
 abecednog	15	
 abnormalnog	71	
 abrazivnog		
@@ -56,6 +56,7 @@ analognog	567
 anarhičnog	18	
 anatomskog	77	
 andrićevog		
+androlog		
 anesteziolog	325	
 angorskog		
 animalnog	251	
@@ -282,6 +283,7 @@ bezličnog	79
 bezmernog	13	
 beznadežnog	39	
 beznačajnog	105	
+beznog		
 bezobalnog		
 bezobraznog	102	
 bezobzirnog	138	
@@ -290,6 +292,7 @@ bezolovnog	238
 bezopasnog	58	
 bezosećajnog	24	
 bezočnog	51	
+bezrog		
 bezubog	12	
 bezumnog	124	
 bezuslovnog		
@@ -710,6 +713,7 @@ dudovog	10
 dugačkog	549	
 dugog	5499	
 dugokosog	21	
+dugonog		
 dugorog		
 dugoročnog	1517	
 dugorukog		
@@ -1788,6 +1792,7 @@ lajavog	14
 lakiranog	31	
 lakog	1485	
 lakomog	10	
+lakonog		
 lakovernog	32	
 lalićevog		
 lanenog	195	
@@ -4852,6 +4857,7 @@ tmurnog	98
 toaletnog	55	
 tog	158579	
 tokijskog	95	
+toksikolog		
 toksikološkog	17	
 toksičnog	252	
 tolikog	1077	
@@ -4869,7 +4875,6 @@ tovarnog	316
 tovnog	16	
 točenog	22	
 tošinog		
-tradicijskog	32	
 tradicionalnog	3621	
 tragikomičnog	42	
 tragičnog	980	
@@ -4919,6 +4924,7 @@ troličnog
 tromesečnog	338	
 tromog	31	
 tropskog	308	
+trorog		
 trosobnog	25	
 trostrukog	299	
 tročlanog	125	
@@ -5115,7 +5121,6 @@ urednog	275
 urezanog		
 uređenog	568	
 uređivanog		
-urešenog		
 urgentnog	721	
 urinarnog	497	
 urolog	238	

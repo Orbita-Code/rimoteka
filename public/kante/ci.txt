@@ -1,4 +1,4 @@
-2438
+2432
 Detinjci		
 Firenci		
 Leskovci		
@@ -267,7 +267,6 @@ dijalektici	112
 dimnjaci	214	
 dinamici	1670	
 dinarci	74	
-dionici	274	
 diplomci	2137	
 direci		
 direktorici		
@@ -700,7 +699,6 @@ komici	19
 komunalci	407	
 komšinici	174	
 konaci	503	
-konačnici	392	
 konci	323	
 konfederalci		
 konjaci		
@@ -929,6 +927,7 @@ meseci	86721
 metafizici	163	
 metaforici		
 metalci	196	
+metapodaci		
 metci	25	
 metrici	31	
 mezimci	52	
@@ -1059,7 +1058,6 @@ nepalci
 neprilici	233	
 neradnici	612	
 nesanici	71	
-nesretnici	110	
 nesrećnici	281	
 nestanci	93	
 nestašici	186	
@@ -1200,7 +1198,6 @@ otpornici	106
 otpravnici	40	
 otpremnici	39	
 ovci	211	
-ovisnici	126	
 oznaci	326	
 očajnici	74	
 očevici	908	
@@ -1566,7 +1563,6 @@ prognanici	100
 prohodnici		
 prokletnici	91	
 prolaznici	1260	
-prometnici	55	
 pronalasci	298	
 propalici		
 proplanci	81	
@@ -2199,7 +2195,6 @@ vukodlaci	104
 vučjaci	18	
 zabaci	122	
 zabelešci	41	
-zabilješci		J
 zadaci	5089	
 zadaćnici		
 zadnjici	455	
@@ -2395,7 +2390,6 @@ zvučnici	1807
 šminci		
 šoljici	156	
 španci		
-španjolci	23	
 špici	173	
 šprici		
 štapci		
@@ -2501,4 +2495,5 @@ vijećnici	160
 vjenčanici		
 vjernici		
 vještici		
+zabilješci		J
 zamjenici		

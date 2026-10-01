@@ -1,4 +1,4 @@
-161
+159
 Kubu	104	
 Zagrebu	62	
 aeroklubu	18	
@@ -82,7 +82,6 @@ plovidbu	1002
 pogodbu	188	
 pogrebu	194	
 porubu	11	
-posudbu	20	
 potrebu	24824	
 prababu	30	
 praizvedbu	48	
@@ -91,7 +90,6 @@ pregibu	57
 preljubu	322	
 primedbu	2688	
 priredbu	646	
-pristojbu	20	
 pritužbu	597	
 probu	2008	
 prosidbu	83	

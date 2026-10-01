@@ -1,4 +1,4 @@
-1579
+1578
 Moskvi		
 Varšavi		
 adamovi		
@@ -465,7 +465,6 @@ koturovi
 kotvi	12	
 kovi		M
 kovrdžavi		
-kovrčavi		
 kočićevi		
 košavi	81	
 koševi	198	
@@ -1584,6 +1583,7 @@ cijevi	374
 cjevi		
 cvjetovi	60	
 dijelovi	574	
+djedovi	86	
 djelovi		
 grijehovi		
 hljebovi		J
@@ -1607,4 +1607,3 @@ usjevi
 uvjerljivi		
 vjetrovi		
 zahtjevi		
-djedovi	86	

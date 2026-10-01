@@ -1,4 +1,4 @@
-3388
+3387
 Angole		
 Brazile		
 Brisele		
@@ -3091,7 +3091,6 @@ zakasnele
 zakasnile	36	
 zakazale	140	
 zakačile	24	
-zakašnjele	15	
 zaklale	16	
 zakle	11	
 zaklele		
@@ -3456,6 +3455,7 @@ vježbale
 zabijele		
 zacijele		
 zagorjele		
+zakašnjele	15	
 zalijepile		
 zamijenile	24	
 zastarjele	45	

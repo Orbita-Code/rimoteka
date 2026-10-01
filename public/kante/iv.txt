@@ -1,4 +1,4 @@
-572
+614
 ablativ		
 abraziv		
 aditiv	325	
@@ -25,19 +25,23 @@ brižljiv	52
 brljiv		
 celiv		
 cepljiv		M
+crvljiv		
 darezljiv		
 darežljiv	133	
 dativ	80	
 deljiv	96	
 deminutiv	77	
 detektiv	740	
+digestiv		
 dijapozitiv	22	
+dimljiv		
 dirljiv	413	
 dispozitiv	40	
 div	1195	
 dobrostiv		
 dodirljiv		
 dojmljiv		
+dokaziv		
 dokučiv	10	
 dokučljiv		
 dopadljiv	556	
@@ -60,6 +64,7 @@ gnevljiv		M
 gnjevljiv		
 golicljiv		M
 goriv		
+gorljiv		
 gostoljubiv	153	
 gostoprimljiv		
 govorljiv	42	
@@ -92,10 +97,13 @@ izliv	557
 izmenljiv		M
 izračunljiv		
 izreciv		
+izvediv		
+izvodiv		
 izvodljiv		M
 jestiv	77	
 jeziv	376	
 kažnjiv	128	
+kišljiv		
 kolebljiv	53	
 kolektiv	2858	
 komparativ	20	
@@ -127,19 +135,23 @@ memljiv	15
 merljiv	192	
 milostiv	586	
 miroljubiv	240	
+mirotočiv		
 mnogoglagoljiv		
 molećiv	11	
 motiv	11275	
 mrvljiv		
 mučaljiv		
 nadmašiv		
+nadoknadiv		
 nadražljiv		
 naknadiv		M
 nakvasiv		
 naliv		
 nametljiv	87	
+naplativ		
 naprotiv	17222	
 narativ	312	
+naseljiv		
 nasloniv		
 nasrtljiv	23	
 naziv	32057	
@@ -147,6 +159,7 @@ nebrižljiv
 nedarežljiv		
 nedeljiv	94	
 nedodirljiv	329	
+nedokaziv		
 nedokučiv	93	
 nedopadljiv		
 nedopustiv	375	
@@ -158,6 +171,7 @@ negnevljiv
 negostoljubiv	27	
 neiscrpljiv		
 neiskaziv		M
+neispunjiv		
 neizbrisiv	591	
 neizbrojiv		M
 neizdrživ	156	
@@ -171,6 +185,7 @@ neizraziv		M
 neizreciv	41	
 neizvodljiv	99	
 neizvršiv		M
+nejestiv		
 nekažnjiv		
 nekoristoljubiv		M
 nemarljiv		M
@@ -179,10 +194,12 @@ nemilostiv	35
 nenadoknadiv	177	
 nenametljiv	262	
 nenaplativ	45	
+nenarušiv		
 nenarušljiv		
 neobazriv		
 neobjašnjiv	261	
 neoboriv	130	
+neobradiv		
 neocenjiv		
 neodbranjiv	53	
 neodeljiv		
@@ -201,6 +218,7 @@ neosporiv	20
 neostvariv	153	
 neostvarljiv		
 neosvojiv	46	
+neotklonjiv		
 neotuđiv	29	
 nepažljiv	57	
 nepobediv	266	
@@ -243,12 +261,15 @@ neranjiv	28
 neraskidiv	76	
 nerasvetljiv		
 nerazdeljiv		
+nerazdruživ		
 nerazdvojiv	31	
 nerazjašnjiv		
 nerazmrsiv	17	
 nerazrešiv	19	
 nerazumljiv	336	
 nerešiv	414	
+nesaglediv		
+nesagoriv		
 nesalomiv		
 nesalomljiv	10	
 nesavitljiv	19	
@@ -281,8 +302,10 @@ neuračunljiv	98
 neuručiv		
 neuspavljiv		
 neustrašiv	194	
+neutaživ		
 neutešiv		
 neutoljiv		M
+neuverljiv		
 neuzdržljiv		
 neučtiv	14	
 nevidljiv	985	
@@ -300,6 +323,7 @@ nečastiv
 nečitljiv	39	
 neškodljiv		
 neštedljiv		
+neživ		
 nominativ	93	
 normativ	207	
 nosiv	17	
@@ -307,6 +331,8 @@ obazriv	541
 objašnjiv	71	
 objektiv	2487	
 obnovljiv	118	
+oboriv		
+obradiv		
 obuhvativ		
 odaziv	293	
 odbaciv		
@@ -340,6 +366,7 @@ pasiv	46
 pažljiv	1166	
 pejorativ		
 piskutljiv		
+pišljiv		
 plativ	13	
 plačljiv	26	
 plašljiv	159	
@@ -348,6 +375,7 @@ plovdiv
 pobediv		
 podliv		M
 podmitljiv	18	
+podnosiv		
 podnošljiv	265	
 podozriv	62	
 podrugljiv	88	
@@ -358,6 +386,7 @@ pojmljiv	17
 pokretljiv	120	
 pokriv		
 pokvarljiv		
+poluživ		
 pomirljiv	133	
 pomnjiv		M
 ponovljiv	29	
@@ -424,10 +453,13 @@ proziv	22
 proždrljiv	25	
 pudljiv		
 purgativ		
+pušljiv		
 ranjiv	308	
 rasklopljiv		
 raspadljiv		
+raspaljiv		
 raspoloživ	397	
+raspoznatljiv		
 rastavljiv		
 rastegljiv	172	
 rastvorljiv	119	
@@ -441,6 +473,7 @@ razrešiv
 razumljiv	1562	
 recidiv	306	
 recitativ		
+rečitativ		
 rešiv	305	
 riv		
 rodoljubiv	37	
@@ -459,6 +492,7 @@ sedativ	195
 shvatljiv	99	
 sipljiv		
 siv	626	
+sklopiv		
 skočiv		
 slatkorečiv		M
 slavoljubiv	25	
@@ -486,6 +520,7 @@ superlativ	45
 supstantiv		
 surevnjiv		M
 susretljiv	14	
+suzdržljiv		
 svadljiv	39	
 svarljiv	59	
 svodljiv		
@@ -502,6 +537,7 @@ ubedljiv	1706
 ugodljiv		M
 uhvatljiv	15	
 uključiv	215	
+uništiv		
 uočljiv	753	
 upadljiv	359	
 upaljiv		M
@@ -511,6 +547,9 @@ uporediv	255
 upotrebljiv	775	
 upravljiv	180	
 uračunljiv	63	
+urokljiv		
+useljiv		
+uspavljiv		
 ustrpljiv		
 usvojljiv		
 uteriv		
@@ -539,9 +578,11 @@ zagrižljiv
 zagušljiv	72	
 zajedljiv	93	
 zaliv	1474	
+zamamljiv		
 zamenjiv	23	
 zamenljiv	45	
 zamisliv	101	
+zanemariv		
 zanemarljiv	1207	
 zanimljiv	11544	
 zapaljiv	151	
@@ -551,6 +592,7 @@ zavidljiv		M
 zavodljiv	271	
 zazorljiv		M
 zbunljiv		M
+zebljiv		
 zemljiv		M
 zimljiv		M
 zimogrožljiv		M

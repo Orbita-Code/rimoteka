@@ -1,6 +1,8 @@
-14
+16
 cvrc		M
+gigaherc		
 herc		
+kiloherc		
 komerc	625	
 kvarc	172	
 megaherc		

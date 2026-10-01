@@ -1,4 +1,4 @@
-8322
+8341
 Argentina		
 Atina		
 Barselona		
@@ -926,6 +926,7 @@ drena	96
 drenažna	44	
 drenirana		
 drenjina	49	
+drenovina		
 dresina		M
 dresirana	33	
 drevna	1127	
@@ -940,6 +941,7 @@ droždina		M
 drtina		M
 drugorazredna	100	
 drugostepena	180	
+drumarina		
 druškana		
 društvena	7989	
 družbina		
@@ -1128,6 +1130,7 @@ evocirana
 evoluciona	95	
 evropljana		
 evropljanina		
+evrozona		
 ešelona		
 fabijana		
 facijalna	38	
@@ -1397,6 +1400,7 @@ guvna	33
 guzina		
 guščetina		
 gvajana		
+gvarana		
 gvozdena	783	
 hajdna		
 hajvana		
@@ -2442,7 +2446,6 @@ kremena	121
 kremirana	23	
 kremna		
 krepalina		
-kreposna	14	
 kretena	330	
 kretenčina	14	
 kretona		
@@ -2491,6 +2494,7 @@ krupna	1282
 krupnina		M
 kruškovina		
 kružna	522	
+krvarina		
 krvna	1686	
 krvoločna	44	
 krvožedna	30	
@@ -3151,6 +3155,7 @@ nagrađivana	348
 nagrižena		
 nagrđena	14	
 nahranjena	95	
+nahtkasna		
 nahuškana	12	
 naivna	1301	
 naivčina	90	
@@ -3369,6 +3374,7 @@ nehotična	21
 nehrišćana		
 nehumana	113	
 neidentifikovana		
+neimaština		
 neimenovana	133	
 neisceljena		
 neiscrpna	333	
@@ -3873,6 +3879,7 @@ nožna	40
 nuklearna	1852	
 numerisana	78	
 nuredina		
+nutrina		
 nuđena	171	
 nužna	1618	
 obaljena		
@@ -4092,6 +4099,7 @@ ogrebana	25
 ogrebotina	459	
 ogrevna		
 ogrešena		
+ogrizina		
 ogromna	12700	
 oguljena	40	
 ohlađena	107	
@@ -4843,6 +4851,7 @@ polupijana	14
 poluprazna	191	
 poluprerađevina		
 polupuna		
+polusezona		
 poluskrivena		
 polusna	46	
 polusrbina		
@@ -5007,6 +5016,7 @@ potpasana
 potpisana	1260	
 potporna	63	
 potpuna	6745	
+potrbušina		
 potrebna	43604	
 potrepština	371	
 potresana		
@@ -5195,6 +5205,7 @@ premoćna	10
 premošćena	25	
 premrežena	44	
 prenagljena		
+prenamena		
 prenatalna	109	
 prenatrpana	52	
 preneražena	31	
@@ -5352,6 +5363,7 @@ pridržavana
 prignječena		
 prigodna	432	
 prigušena	143	
+prihrana		
 prihvatana	48	
 prihvaćana		
 prihvaćena	3710	
@@ -6451,6 +6463,8 @@ sobna	427
 socijalna	9507	
 sofijina		
 sofisticirana	386	
+sokna		
+sokolana		
 solana	424	
 solanina	14	
 solarna	1260	
@@ -6709,6 +6723,7 @@ survana
 surčina		
 susedna	567	
 suspendovana	368	
+susvojina		
 sutona	111	
 suverena		
 suvišna	736	
@@ -7028,6 +7043,7 @@ trzana
 tržišna	3646	
 tržna	13	
 tucana	25	
+tufna		
 tulipana	29	
 tuljana	19	
 tulumina		M
@@ -7304,7 +7320,6 @@ urezivana
 urečena		
 uređena	3170	
 uređivana	26	
-urešena	12	
 urgentna	334	
 urina	1617	
 urna	151	
@@ -7818,6 +7833,7 @@ zalemljena	16
 zalepljena	215	
 zalečena	36	
 zaleđena	193	
+zaleđina		
 zalivena	81	
 zalizana	51	
 zališna		
@@ -8122,6 +8138,7 @@ zvučna	1549
 čeona	66	
 česmina		
 česna		
+čestina		
 česvina		
 četina	63	
 četrdesetina		
@@ -8178,6 +8195,7 @@ zvučna	1549
 šabana		
 šablona	1001	
 šafrana	151	
+šajbna		
 šalina		
 šaljivčina	24	
 šamana	129	
@@ -8236,6 +8254,7 @@ zvučna	1549
 šokirana	699	
 šopena		
 špijuna	777	
+špijunčina		
 štabna		
 štafetna	49	
 štampana	1826	

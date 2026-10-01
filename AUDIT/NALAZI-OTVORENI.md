@@ -56,11 +56,16 @@
 
 **VISOKO:** (nema – svih 9 popravljeno 22.09., v. odeljak „POPRAVLJENO 22.09.2026" ispod)
 
-**SREDNJE (1):** SJ-5 (10.143 „Oblik reči X" ka nepostojećoj osnovi). **25.09.2026: razvrstano po Matici i objašnjenja NAPISANA, čeka „da" vlasnice.**
-`scripts/sj5-razvrstaj-matica.py` → `AUDIT/SJ-5-razvrstano/`: A – Matica ima osnovu: 1.101 (2.017 oblika); B – Matica nema, oblici žive (učestalost ≥ 10): 1.434 (3.168 oblika); C – bez traga: 3.532 (4.958 oblika). Pažnja: OCR Matice je pun rupa, pa i u C ima pravih reči (obremeniti, zaodenuti, nebrojan, uprezati) – C traži isti prolaz sa pisanjem objašnjenja.
-Za A i B napisano 2.535 objašnjenja svojim rečima (22 agenta, Matica samo izvor značenja) → `PREDLOG-objasnjenja.md` (+ `.json` za unos). 123 označeno „proveriti" (3 u A, 120 u B – pretežno hrvatski/ijekavski oblici čiji OBLICI stoje u `reci.txt`: suradnja, kisik, knjižnica, putovnica…; isti problem kao SJ-6). Unos u rečnik tek posle odluke po grupi (skripta za unos se piše kad stigne „da").
+**SREDNJE (0):** SJ-5 **UNETO 01.10.2026** po odluci vlasnice („da za A i B sigurne, hrvatske izbriši, ijekavske u ijekavicu"):
+2.405 osnova + objašnjenja u `reci.txt`/`definicije.json`, 83 hrvatska oblika obrisana, 15 oblika + 8 osnova premešteno u
+`reci_jekavica.txt`, 10 ekavskih reči vraćeno iz ijekavice (greška SJ-1), `lipica` kao biljka. Dnevnik: `AUDIT/SJ-5-razvrstano/UNOS-2026-10-01.md`.
+Ostaje: **42 sporne osnove iz B** (`B-sporne-odluka.json`, „ostalo_ceka_odluku": kontati, trip, mob, jalan, bašča…) i **grupa C**
+(3.532 osnove, objašnjenja napisana: 2.972 sigurno / 560 za proveru po razlogu – `PREDLOG-C-objasnjenja.md`) – čekaju „da".
+Strane: 1.989, sitemap 2.012 – nepromenjeno (nova reč ne dobija stranu, pravilo 19.08.).
 
-**NISKO (3):** SEO-3 (`http://www.` 2 skoka – Traefik pred nginx-om, podešava se u Coolify-ju; aplikacija Rimoteka nije nađena u listi projekta 22.09.) · A-3 (autofokus na polje zaobilazi skip-link – namerno, alat je polje; skip-link je Shift+Tab) · TP-11 (298 fiksnih pauza u testu – čuvar broja provera dodat, pauze nisu zamenjene; TODO „pun test ispod 6 min")
+**NISKO (2):** SEO-3 (`http://www.` 2 skoka – Traefik pred nginx-om, podešava se u Coolify-ju; aplikacija Rimoteka nije nađena u listi projekta 22.09.) · TP-11 (298 fiksnih pauza u testu – čuvar broja provera dodat, pauze nisu zamenjene; TODO „pun test ispod 6 min")
+
+**ZATVORENO ODLUKOM 01.10.2026:** A-3 (autofokus na polje zaobilazi link „preskoči na sadržaj") – vlasnica: „ako je preporuka da ostavimo kako jeste, tako uradi". Kursor pri učitavanju ide u polje za reč, koje JESTE glavni sadržaj; link ostaje dostupan sa Shift+Tab. Ne otvarati ponovo bez novog razloga.
 
 **ČEKA ODLUKU VLASNICE:** sporne reči (131 kraćih od 3 slova, 48 skraćenica bez samoglasnika, ~12 šum sa „r", 2.443 ćelave — uzorak 5/13 nema u Matici, prezimena malim slovom) · SJ-5 (osnove kojih nema) · SJ-6 (također, kruhova) · SJ-13 („posto" u rečnik ili iz sinonima) · PF-6 logo WebP · PF-7 (strana reči pretražuje u mestu?) · S6 · N-18
 

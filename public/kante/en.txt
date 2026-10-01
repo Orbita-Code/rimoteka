@@ -1,4 +1,4 @@
-2175
+2265
 Kopenhagen		
 Minhen		
 abdomen	204	
@@ -31,6 +31,7 @@ bezazlen	336
 bezimen	30	
 bezisten		
 bezvremen	22	
+bijen	185	
 bilten	988	
 bitumen	118	
 bivstven		
@@ -56,6 +57,7 @@ bršljen
 busen	125	
 buđen		
 caklen		
+carinjen		
 cenjen	1352	
 ceđen	18	
 ciglen		
@@ -67,6 +69,7 @@ deljen	358
 den	537	
 desen		
 dezen		
+dimljen		
 diogen		
 doajen	310	
 dobavljen		
@@ -96,6 +99,7 @@ doveden	3010
 dovezen	146	
 dovežen		
 dovođen	174	
+dovožen		
 dovršen	516	
 dovučen	30	
 dozvoljen	2263	
@@ -105,19 +109,23 @@ drazen
 dražen	154	
 dren	293	
 drezden		
+drobljen		
 drugostepen		M
 društven	139	
 drven	69	
+dugovremen		
 dužen		
 dvocifren		M
 dvoimen		
 dvojben		
 dvosmislen	143	
+dvostepen		
 džentlemen		
 džentlmen	482	
 eden		M
 elen		
 en		M
+erogen		
 estrogen	499	
 etilen	95	
 etjen		
@@ -179,6 +187,7 @@ hvaljen	356
 ibuprofen	224	
 ibzen		
 ilinden		
+infracrven		
 isceljen	87	
 isceđen	70	
 iscrpen		
@@ -191,6 +200,7 @@ iskasapljen	33
 iskežen		
 iskićen	23	
 isključen	2852	
+iskolačen		
 iskorenjen	92	
 iskorišten	187	
 iskorišćen	2092	
@@ -219,6 +229,7 @@ ispošćen
 ispravljen	228	
 ispraćen	471	
 ispražnjen	226	
+isprepleten		
 isprečen		
 isprošen		
 ispružen	54	
@@ -246,8 +257,10 @@ izbečen
 izbijeljen		J
 izbijen	32	
 izboden	174	
+izboren		
 izbočen	23	
 izbrušen	39	
+izbuljen		
 izbušen	82	
 izdeljen	113	
 izdrobljen	14	
@@ -255,6 +268,7 @@ izdubljen	22
 izdužen	125	
 izdvojen	1041	
 izgažen	18	
+izglađen		
 izgnječen		
 izgoren		
 izgovoren	69	
@@ -262,8 +276,10 @@ izgrađen	7029
 izgreben		
 izgrđen		
 izgubljen	2210	
+izjavljen		
 izjeden	10	
 izjednačen	720	
+izlepljen		
 izlečen	242	
 izliven	117	
 izlomljen	63	
@@ -316,6 +332,7 @@ izvedren
 izvezen	196	
 izveštačen	56	
 izvešten	70	
+izvijen		
 izvlačen	31	
 izvođen	176	
 izvožen	44	
@@ -328,6 +345,7 @@ jasen	346
 javljen	18	
 jeden	64	
 jedinstven	10798	
+jednocifren		
 jednovremen		M
 jelen	2047	
 jemen		
@@ -335,6 +353,7 @@ jen		M
 jensen		
 jermen		
 jesen	13144	
+jetren		
 jirgen		
 johansen		
 jugoslaven	18	
@@ -364,6 +383,7 @@ korišćen	4610
 kositren		
 kosmopoliten		
 koven		
+košen		
 kraden	35	
 kraken		
 kratkovremen		M
@@ -371,9 +391,12 @@ krejven
 kremen	164	
 kren		M
 kreten	851	
+krečen		
+krijumčaren		
 krimen		
 kristensen		
 krivotvoren	16	
+krpen		
 krunidben		
 krznen		
 kršen	67	
@@ -386,6 +409,7 @@ kvaren
 laden		
 lafonten		
 lakomislen	36	
+lanen		
 larsen		
 leden	105	
 legen		
@@ -406,6 +430,7 @@ ložen
 lumen	102	
 madlen		
 maglen		M
+magnoven		
 malen	457	
 maljen		
 maneken	788	
@@ -429,6 +454,7 @@ mlavljen
 mlaćen		
 mlađen		
 mleven	44	
+modrozelen		
 molben		M
 molibden	61	
 molitven		
@@ -586,13 +612,17 @@ neisplaćen	11
 neispravljen		
 neispunjen	47	
 neistražen	73	
+neizgovoren		
+neizgrađen		
 neizlečen		
 neizložen		
 neizmenjen	111	
 neizmeren		
 neizmiren	17	
 neizrečen		
+neizveden		
 neizveštačen		M
+neizvršen		
 neiživljen		M
 nejavljen		
 nekažnjen	132	
@@ -614,6 +644,7 @@ nenastanjen	12
 nenaučen		
 nenaznačen		
 neobavešten	441	
+neobavljen		
 neobdaren		
 neobeležen		
 neobezbeđen		
@@ -632,8 +663,11 @@ neodobren
 neodređen	358	
 neogen		
 neograničen	1583	
+neograđen		
 neokrnjen		
 neoljušten	10	
+neometen		
+neomeđen		
 neomiljen	42	
 neopaljen		
 neopažen	55	
@@ -651,6 +685,7 @@ neovlašćen	76
 neozleđen	24	
 neozlijeđen		J
 neoznačen	10	
+neočišćen		
 neoštećen	165	
 neoženjen	156	
 nepatvoren	15	
@@ -660,8 +695,10 @@ neplaćen	70
 nepobeđen	25	
 nepodeljen	37	
 nepodređen		
+nepokoren		
 nepokriven	52	
 nepokvaren		
+nepoložen		
 nepomućen		M
 neponuđen		
 nepopunjen	24	
@@ -676,6 +713,8 @@ nepravovremen
 nepredviđen	34	
 nepresečen		
 nepresušen		
+neprevaziđen		
+neprijavljen		
 neprikosnoven		M
 neprilagođen	86	
 neprimeren	609	
@@ -686,10 +725,13 @@ neprogonjen
 nepromenjen	982	
 nepromišljen	173	
 neprosvećen		M
+neproučen		
 neproveren	15	
 neraspoložen	238	
+neraspoređen		
 neraspremljen		
 nerazbuđen		
+nerazjašnjen		
 nerazrešen		
 nerazvijen	203	
 nerešen	901	
@@ -701,15 +743,18 @@ nesavršen	164
 nesen		M
 neshvaćen	148	
 nesjedinjen		
+neskriven		
 neslomljen		
 nesložen		
 neslućen	22	
+neslužben		
 nesmanjen		
 nesmiren		
 nesmislen		
 nesmišljen		
 nesmotren	64	
 nesmućen		
+nesravnjen		
 nesređen	69	
 nestaložen		
 nesuđen		
@@ -725,13 +770,17 @@ neumiven
 neunakažen		
 neuobičajen	488	
 neuobličen		
+neuplaćen		
 neuposlen		
+neupotrebljen		
 neupućen	264	
 neuravnotežen	78	
 neuređen	119	
 neusiljen	26	
 neusklađen	50	
 neuslišen		
+neutemeljen		
+neutrošen		
 neutvrđen	54	
 neuvijen		M
 neuvršćen		
@@ -740,7 +789,10 @@ neučvršćen
 neven	629	
 neviđen	467	
 nevoljen	13	
+nevraćen		
 nezabeležen	222	
+nezaboravljen		
+nezaceljen		
 nezagađen	22	
 nezahvaćen		
 nezaklonjen		
@@ -751,6 +803,7 @@ nezapažen	155
 nezaposlen	864	
 nezarađen		
 nezasićen		
+nezaslužen		
 nezatvoren		
 nezavršen	160	
 nezaštićen	247	
@@ -763,7 +816,10 @@ nilsen
 nitrogen		
 njen	56626	
 novokršten		
+novootkriven		
 novopečen		
+novorođen		
+novostvoren		
 nošen	653	
 nuđen	153	
 obaren	48	
@@ -909,12 +965,14 @@ onemogućen	831
 oneraspoložen		
 onesposobljen	75	
 onesvešćen	46	
+onovremen		
 opaljen	47	
 opapren		
 oparen	75	
 opažen	35	
 open		
 opečen	23	
+opijen	206	
 opismenjen	14	
 opičen	10	
 opkoljen	273	
@@ -928,6 +986,7 @@ oprljen
 oprošten		
 opružen	25	
 opržen		
+opscen		
 opsenjen		
 opskrbljen	48	
 opterećen	1460	
@@ -938,6 +997,7 @@ opustošen	121
 opušten	1059	
 opčinjen	389	
 opšiven	19	
+opšteprihvaćen		
 oraspoložen		
 orden	2227	
 origen		
@@ -1007,6 +1067,8 @@ oven
 overen	1061	
 ovlašten	130	
 ovlašćen	1604	
+ovovremen		
+ovsen		
 ozakonjen	55	
 ozaren	120	
 ozleđen	17	
@@ -1034,6 +1096,7 @@ paljen	111
 pamćen	20	
 panten		
 papren	30	
+paraben		
 pataren		M
 paten		
 patogen	71	
@@ -1052,6 +1115,7 @@ plavljen
 plaćen	3870	
 plen	3350	
 plenjen		
+pleten		
 pleven		
 pljen		M
 plovidben		
@@ -1081,9 +1145,11 @@ podriven	26
 podvijen	10	
 podvlačen		
 podvlašćen		
+podvojen		
 podvučen	77	
 podčinjen	16	
 poen	4399	
+pogašen		
 pogažen	62	
 pogodben		
 pogonjen	95	
@@ -1120,6 +1186,7 @@ poluodeven
 poluotvoren	26	
 poluslužben		
 poluučen		
+poluzatvoren		
 pomamljen		
 pomen	2725	
 pomeren	1092	
@@ -1266,6 +1333,7 @@ preplašen	169
 prepolovljen	670	
 preporođen	77	
 preporučen	315	
+prepošten		
 prepravljen	122	
 prepreden	53	
 preprečen	24	
@@ -1292,6 +1360,7 @@ pretopljen	24
 pretovaren	37	
 pretočen	216	
 pretplaćen	119	
+pretpostavljen		
 pretražen	25	
 pretresen	39	
 pretrešen		
@@ -1311,6 +1380,7 @@ prevezen	517
 previjen	18	
 prevođen	203	
 prevožen	48	
+prevremen		
 prevučen	39	
 prezadužen	142	
 prezaposlen	18	
@@ -1429,8 +1499,12 @@ proživljen
 prsten	4585	
 prten		M
 pružen	183	
+prvenstven		
+prvorođen		
+prvostepen		
 pršljen	131	
 pržen	70	
+psihogen		
 pulen	154	
 punjen	153	
 puten	26	
@@ -1533,6 +1607,7 @@ ren		M
 rendgen	651	
 rengen		
 rentgen		
+rezbaren		
 rečen	31	
 ređen		
 rešen	7215	
@@ -1575,12 +1650,14 @@ sačinjen	2558
 sašiven	19	
 sažežen		
 selen	459	
+selidben		
 sen		M
 sečen	138	
 shvaćen	1062	
 siromašen		
 sitroen	168	
 sivozelen		
+sizeren		
 sjedinjen	101	
 skalupljen		
 skamenjen	91	
@@ -1600,6 +1677,7 @@ skupljen	107
 skupocen	104	
 skučen	238	
 skvrčen	10	
+slamen		
 slankamen		
 slaven		
 slavljen	411	
@@ -1654,6 +1732,7 @@ sprovođen	209
 spržen	33	
 spušten	530	
 sravnjen	111	
+srebren		
 sreten		
 sređen	640	
 sročen	148	
@@ -1688,6 +1767,7 @@ suveren		M
 suzbijen	54	
 suzen		
 suđen	203	
+sušen		
 suštastven		
 sužen	551	
 svaljen	15	
@@ -1697,6 +1777,7 @@ svetlocrven
 svetlozelen		
 svevremen		M
 svećen		
+svešten		
 svilen	207	
 svojstven	1511	
 svođen		
@@ -1859,7 +1940,6 @@ urazumljen
 urađen	6421	
 urečen		
 uređen	2925	
-urešen	13	
 uronjen	171	
 urođen	153	
 uručen	947	
@@ -1885,6 +1965,7 @@ uslužen	49
 usmen		
 usmeren	4752	
 usmrćen	86	
+usoljen		
 uspaljen		
 uspaničen	26	
 usplahiren	63	
@@ -1944,6 +2025,7 @@ učen	416
 učinjen	1768	
 učlanjen	80	
 učvršćen	120	
+ušećeren		
 ušiven	17	
 uškopljen		
 ušoren		
@@ -1960,6 +2042,7 @@ veličanstven	838
 veren	69	
 verlen		
 vezen	26	
+visokorazvijen		
 visokoučen		
 vispren	102	
 viđen	3279	
@@ -2032,6 +2115,7 @@ zaljubljen	1494
 založen	25	
 zaluđen	113	
 zamagljen	145	
+zamašćen		
 zamenjen	2128	
 zamešen		
 zamišljen	2442	
@@ -2147,6 +2231,7 @@ zlostavljen
 zloupotrebljen	276	
 znamen	60	
 znanstven		
+zoben		
 čašćen	19	
 čerečen		
 čečen		
@@ -2162,6 +2247,7 @@ znanstven
 šizofren		
 šopen		
 šoumen		
+štavljen		
 šteđen		
 štićen	28	
 šuriken		
@@ -2169,12 +2255,15 @@ znanstven
 žalošćen		
 žeden		
 željen	71	
+ženidben		
 ženjen	50	
 ženstven	71	
 žermen		
 žežen		
+živorođen		
 žnjeven		
-bijen	185	
+žutozelen		
+žuđen		
 cijenjen	79	
 dodijeljen	104	
 dodjeljen		
@@ -2203,7 +2292,6 @@ obavješten
 obješen		
 ocijenjen		
 odsječen		
-opijen	206	
 osvijetljen	23	
 otmjen		
 ovijen		

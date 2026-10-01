@@ -1743,6 +1743,7 @@ zvukove	838
 bjesove	13	
 cvjetove	56	
 dijelove	733	
+djedove	33	
 djelove		
 djeve		
 grijehove	30	
@@ -1772,4 +1773,3 @@ vjetrove
 zahtjeve		
 zbjegove		
 čovjekove		
-djedove	33	

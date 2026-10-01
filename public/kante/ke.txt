@@ -1,4 +1,4 @@
-3743
+3740
 Bugarske	2419	
 Danske	572	
 Francuske	7428	
@@ -2486,7 +2486,6 @@ prokurdske
 prolaznike	1182	
 proleterske	148	
 prometejske		
-prometnike	23	
 promoterke	196	
 pronalaske	233	
 pronalazačke		
@@ -2996,7 +2995,6 @@ subatomske	88
 subotičke	2015	
 subtropske		
 sudanske	62	
-sudačke		
 sudbinske	82	
 sudeonike		
 sudijske	1525	
@@ -3413,7 +3411,6 @@ vulkanske	120
 vučitrnske		
 zabavljačke	10	
 zabeleške	355	
-zabilješke	43	J
 zadarske	97	
 zadatke	9460	
 zadrške	381	
@@ -3782,6 +3779,7 @@ umjetničke
 vjeke		
 vjernike		
 vjerske		
+zabilješke	43	J
 zamjenike		
 zamjerke		
 zvjerke		

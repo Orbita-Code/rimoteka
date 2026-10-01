@@ -1,10 +1,11 @@
-178
+185
 Beograd		
 Petrograd		
 asad		
 bagdad		
 balad		
 belobrad		
+bezbrad		
 bhagavad		
 biograd		
 bosilegrad		
@@ -12,6 +13,7 @@ bosiljgrad
 bujad	18	
 burad	589	
 carigrad		
+crvenobrad		
 deligrad		
 devojčad		
 dojenčad	24	
@@ -20,6 +22,7 @@ dosad	11208
 dotad	1324	
 dragorad		
 dugmad	362	
+dugobrad		
 dževad		
 džihad	567	
 esad		
@@ -64,6 +67,7 @@ kosopad
 lad		
 lanad	13	
 lenjingrad		
+listopad	88	
 milorad		
 mirsad		
 mlad	8339	
@@ -107,6 +111,7 @@ perad	70
 pilad	12	
 pogdekad		
 pokatkad	406	
+poluraspad		
 ponad	85	
 ponekad	50115	
 porad		
@@ -124,6 +129,7 @@ rešad
 rijad		
 riđobrad		M
 ropčad		
+rukosad		
 sad	198035	
 samograd		
 sead		
@@ -177,4 +183,5 @@ zvjerad		J
 ždrebad	17	
 živad		
 živorad		
+žutobrad		
 sjeverozapad		

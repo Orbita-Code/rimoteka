@@ -1,4 +1,4 @@
-58
+60
 badanj	28	
 bubanj	1556	
 bucanj		
@@ -13,6 +13,7 @@ krnj
 krupanj		
 leganj		M
 lenj	833	
+lipanj	72	
 lokvanj	91	
 manj		
 mogranj		
@@ -51,6 +52,7 @@ vonj	107
 vranj		M
 vrganj	96	
 zavrtanj	89	
+češanj		
 čokanj		M
 čunj	90	
 čučanj	316	

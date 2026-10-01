@@ -1,4 +1,4 @@
-111
+113
 alfred		
 arhimed		
 biljojed	60	
@@ -28,6 +28,7 @@ jednosed	97
 junajted		
 lebed		
 led	10162	
+logoped		
 manfred		
 med	8146	
 medved	1274	
@@ -81,6 +82,7 @@ razred	8062
 red	41850	
 redosled	3345	
 samojed		
+sed		
 skinhed		
 sladoled	2744	
 sled	1625	

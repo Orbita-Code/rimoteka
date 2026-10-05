@@ -1,99 +1,99 @@
 98
-aleksij		
-andrij		
-antonij		
-auditorij	40	
-ciborij		
-diluvij		
-dimitrij		
-dobij	38	
-emporij		
-genadij		
-genij	106	
-georgij		
-grigorij		
-herbarij		
-hospicij		
-ij		
-ispij		
-izbij		
-izlij	13	
-izvij		
-jevgenij		
-jurij		
-kalcij	47	
-kalij	29	
-kolegij	70	
-kolokvij	20	
-konzervatorij	10	
-konzorcij	63	
-krematorij		
-krij	18	
-kriterij	291	
-laboratorij	88	
-lij	16	
-litij		
-magisterij	38	
-magnezij	38	
-mahagonij		
-medij	4523	
-mij	48	
-milenij	48	
-morfij		
-nabij	28	
-nalij		
-napij	25	
-nasmij		
-natrij	15	
-navij	15	
-nuncij		
-obavij		
-obij		
-obrij	20	
-odbij	63	
-ogrij		J
-otkrij	156	
-patrimonij		
-pij	290	
-plutonij		
-pobij	24	
-pokrij	110	
-polij		
-popij	159	
-porfirij		
-prebij		
-prekrij	10	
-prelij		
-presavij		
-previj		
-pribij		
-pridobij		
-prikrij		
-privij		
-probij		
-prolij	14	
-provizorij	12	
-purgatorij		M
-radij		
-razbij	28	
-razotkrij		
-razvij	14	
-sakrij	100	
-savij	28	
-scenarij	327	
-slomij		
-solsticij	45	
-stadij	87	
-ubij	712	
-ugrij		
-ulij	13	
-umij	61	
-upij		
-uvij	10	
-ušij		
-vitalij		
-zabij	18	
-zagrij		
-zalij	16	
-zavij	11	
-zašij		
+aleksij			2
+andrij			2
+antonij			2
+auditorij	40		2
+ciborij			2
+diluvij			2
+dimitrij			2
+dobij	38		2
+emporij			2
+genadij			2
+genij	106		2
+georgij			2
+grigorij			2
+herbarij			2
+hospicij			2
+ij			1
+ispij			2
+izbij			2
+izlij	13		2
+izvij			2
+jevgenij			2
+jurij			2
+kalcij	47		2
+kalij	29		2
+kolegij	70		2
+kolokvij	20		2
+konzervatorij	10		2
+konzorcij	63		2
+krematorij			2
+krij	18		1
+kriterij	291		2
+laboratorij	88		2
+lij	16		1
+litij			2
+magisterij	38		2
+magnezij	38		2
+mahagonij			2
+medij	4523		2
+mij	48		1
+milenij	48		2
+morfij			2
+nabij	28		2
+nalij			2
+napij	25		2
+nasmij			1
+natrij	15		2
+navij	15		2
+nuncij			2
+obavij			2
+obij			2
+obrij	20		2
+odbij	63		2
+ogrij		J	2
+otkrij	156		2
+patrimonij			2
+pij	290		1
+plutonij			2
+pobij	24		2
+pokrij	110		2
+polij			2
+popij	159		2
+porfirij			2
+prebij			2
+prekrij	10		2
+prelij			2
+presavij			2
+previj			2
+pribij			2
+pridobij			2
+prikrij			2
+privij			2
+probij			2
+prolij	14		2
+provizorij	12		2
+purgatorij		M	2
+radij			2
+razbij	28		2
+razotkrij			2
+razvij	14		2
+sakrij	100		2
+savij	28		2
+scenarij	327		2
+slomij			2
+solsticij	45		2
+stadij	87		2
+ubij	712		2
+ugrij			2
+ulij	13		2
+umij	61		2
+upij			2
+uvij	10		2
+ušij			2
+vitalij			2
+zabij	18		2
+zagrij			2
+zalij	16		2
+zavij	11		2
+zašij			2

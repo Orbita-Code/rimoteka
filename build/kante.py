@@ -8,7 +8,7 @@ ukucao reč čeka 7 s na prvu rimu. Sve rime za jednu reč dele njen ZAVRŠETAK:
 dovoljna kanta reči koje se završavaju na ista DVA slova. Kanta ima u proseku par stotina
 reči (najveće par desetina hiljada), dakle par kilobajta umesto 666.
 
-Šta se piše: `public/kante/<xy>.txt` – jedan red po reči: `reč<TAB>učestalost<TAB>M`
+Šta se piše: `public/kante/<xy>.txt` – jedan red po reči: `reč<TAB>učestalost<TAB>M<TAB>akcenat`
 (učestalost prazna kad je ispod praga 10; `M` = odrednica u Rečniku Matice srpske; `J` = jekavski oblik iz `jekavski.json`).
 Redosled: prvo reči iz `reci.txt` (ekavski), pa iz `reci_jekavica.txt`, u istom redosledu kao u
 fajlovima – da rangiranje reči bez učestalosti (po rednom broju) da ISTI redosled kao ceo rečnik.
@@ -34,6 +34,11 @@ def ime_kante(w):
 def main():
     ek = [l for l in open(os.path.join(PUB, 'reci.txt'), encoding='utf-8').read().split('\n') if l]
     jek = [l for l in open(os.path.join(PUB, 'reci_jekavica.txt'), encoding='utf-8').read().split('\n') if l]
+    # akcenat (05.10.2026): red po red uz reci.txt / reci_jekavica.txt – build/akcenat.py; 4. kolona kante
+    ak_ek = open(os.path.join(PUB, 'akcenat.txt'), encoding='utf-8').read().split()
+    ak_jek = open(os.path.join(PUB, 'akcenat_jekavica.txt'), encoding='utf-8').read().split()
+    assert len(ak_ek) == len(ek) and len(ak_jek) == len(jek), 'akcenat.txt nije poravnat sa rečnikom – pokreni python3 build/akcenat.py'
+    akc = dict(zip(ek, ak_ek)); akc.update(dict(zip(jek, ak_jek)))
     u_ek = set(ek)
     jek = [w for w in jek if w not in u_ek]   # isto pravilo kao `loadDict` (SJ-1)
     freq = json.load(open(os.path.join(PUB, 'frekvencija.json'), encoding='utf-8'))
@@ -46,7 +51,7 @@ def main():
         f = freq.get(w) or freq.get(m) or 0
         fs = str(f) if f >= PRAG else ''
         ms = ('M' if (w in matica or m in matica) else '') + ('J' if m in jekavski else '')
-        kante.setdefault(ime_kante(w), []).append(f'{w}\t{fs}\t{ms}')
+        kante.setdefault(ime_kante(w), []).append(f'{w}\t{fs}\t{ms}\t{akc.get(w, 2)}')
     for w in ek: dodaj(w)
     granica = {k: len(v) for k, v in kante.items()}   # koliko je ekavskih u svakoj kanti (jekStart)
     for w in jek: dodaj(w)
@@ -62,7 +67,11 @@ def main():
         with open(put, 'w', encoding='utf-8') as f: f.write(telo)
         manifest[k] = len(redovi); ukupno += len(redovi)
     with open(os.path.join(IZLAZ, '_manifest.json'), 'w', encoding='utf-8') as f:
-        json.dump({'kanti': len(manifest), 'reci': ukupno, 'kante': manifest}, f, ensure_ascii=False, sort_keys=True)
+        # `otisak` sadržaja: bez njega se KANTE_V (iz manifesta) ne menja kad se promeni samo SADRŽAJ kanti (npr. nova kolona
+        # akcenta 05.10.2026), pa bi pregledači 365 dana držali stare kante iz keša.
+        h = hashlib.sha256()
+        for k in sorted(manifest): h.update(open(os.path.join(IZLAZ, k + '.txt'), 'rb').read())
+        json.dump({'kanti': len(manifest), 'reci': ukupno, 'otisak': h.hexdigest()[:12], 'kante': manifest}, f, ensure_ascii=False, sort_keys=True)
     najvece = sorted(manifest.items(), key=lambda x: -x[1])[:5]
     velicine = sorted(os.path.getsize(os.path.join(IZLAZ, k + '.txt')) for k in manifest)
     print(f'Kanti: {len(manifest)} · reči: {ukupno} · najveće: {najvece} · najveći fajl: {velicine[-1]//1024} KB · medijana: {velicine[len(velicine)//2]//1024} KB')

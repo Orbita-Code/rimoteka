@@ -1,24 +1,24 @@
 23
-bob	812	
-dob	716	
-drob	54	
-glob		
-grob	5378	
-homofob	96	
-job		
-kob	428	
-ksenofob		
-lob	190	
-mikrob		
-nob		
-polurob		
-ponaosob	2422	
-rob	2182	
-skrob	450	
-snob	145	
-sob	126	
-sukob	13417	
-zglob	1283	
-zlokob		
-zob	269	
-škrob	16	
+bob	812		1
+dob	716		1
+drob	54		1
+glob			1
+grob	5378		1
+homofob	96		2
+job			1
+kob	428		1
+ksenofob			2
+lob	190		1
+mikrob			2
+nob			1
+polurob			2
+ponaosob	2422		2
+rob	2182		1
+skrob	450		1
+snob	145		1
+sob	126		1
+sukob	13417		2
+zglob	1283		1
+zlokob			2
+zob	269		1
+škrob	16		1

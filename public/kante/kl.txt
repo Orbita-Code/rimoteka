@@ -1,16 +1,16 @@
 15
-artikl		
-bicikl		M
-cirkl		
-debakl	908	
-fascikl		
-majkl		
-mjuzikl		M
-monocikl	12	
-monokl	14	
-motocikl		
-motorcikl		
-nikl	466	
-spektakl	3241	
-tabernakl		
-tricikl	116	
+artikl			2
+bicikl		M	1
+cirkl			1
+debakl	908		1
+fascikl			1
+majkl			1
+mjuzikl		M	2
+monocikl	12		2
+monokl	14		2
+motocikl			1
+motorcikl			2
+nikl	466		1
+spektakl	3241		1
+tabernakl			2
+tricikl	116		1

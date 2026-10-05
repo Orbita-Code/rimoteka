@@ -1,5 +1,5 @@
 4
-grejp	123	
-kejp		
-netskejp		
-selotejp		
+grejp	123		1
+kejp			1
+netskejp			2
+selotejp			3

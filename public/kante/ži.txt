@@ -1,296 +1,296 @@
 291
-ambalaži	1233	
-apanaži	13	
-arbitraži	357	
-badži		
-bandži		
-barži	155	
-beleži	8632	
-beži	4688	
-bilježi		J
-blaži	1075	
-bliži	8392	
-bodeži	43	
-brži	9496	
-crnokoži		
-crteži	1796	
-daidži		
-daveži		
-demontaži	105	
-diži	160	
-dokaži	138	
-dotuži	10	
-draži	1314	
-druži	1561	
-drži	28387	
-duži	12026	
-garaži	1314	
-gaži		
-gloži	12	
-golokoži		
-grabeži	169	
-griži	31	
-gruži		
-hadži		M
-hodži	26	
-ilidži		
-iskaži	13	
-isluži		
-ispruži	275	
-isprži	67	
-istraži	2005	
-istruži		
-izdrži	4419	
-izduži	44	
-izlaži		
-izloži	995	
-izreži		
-izruži		
-ježi	165	
-kambodži		
-kandži	362	
-kanjiži		
-kaži	2608	
-kilaži	294	
-kliži		
-knjiži	345	
-kolaži	130	
-koledži	114	
-konsijerži		
-koži	10264	
-krleži		
-kruži	1899	
-kuraži		
-kuži	28	
-kvareži		
-laži	10652	
-leži	17438	
-litraži		
-liži	60	
-loži	1094	
-lupeži		
-maharadži		
-marži	765	
-masaži	248	
-maži	42	
-meteži	23	
-mladeži	956	
-množi	413	
-montaži	899	
-mreži	15947	
-muži	368	
-nadraži	26	
-najblaži	130	
-najbliži	4483	
-najbrži	3588	
-najdraži	987	
-najduži	1536	
-naježi	140	
-najniži	1957	
-najstroži	98	
-najteži	3581	
-najuži	476	
-nalaži		
-naloži	1190	
-namaži	70	
-namnoži	31	
-napreži		
-narandži		
-nareži	33	
-naruži	53	
-naslaži		
-navlaži	40	
-neravnoteži	68	
-nidži		
-nindži	20	
-niži	6481	
-noži		
-obeleži	1195	
-obesnaži		
-obilježi	68	J
-oblaži		
-obloži	88	
-obnaži	33	
-obrazloži	921	
-obreži		
-odlaži	28	
-odleži	282	
-odloži	2241	
-odreži		
-održi	9945	
-odsluži	241	
-oduži	524	
-odvaži	161	
-odveži	24	
-okruži	137	
-okuraži	37	
-okuži		
-omalovaži	180	
-oneraspoloži	20	
-oniži	56	
-opruži	52	
-oprži	11	
-opsluži	135	
-optuži	914	
-oraspoloži	243	
-osnaži	713	
-osveži	562	
-oteži		
-otkaži	18	
-ovlaži	63	
-ožeži		
-padeži	105	
-paleži	21	
-paralaži	29	
-pasaži	105	
-pejzaži	577	
-persiflaži		
-pilotaži		
-plantaži	147	
-plaži	6816	
-pobeleži		
-pobliži		
-podiži	42	
-podleži	23	
-podloži	36	
-podmaži	19	
-podmreži		
-podrži	6712	
-poduži	410	
-podveži		
-pokaži	1000	
-polaži		
-poliži	16	
-položi	2598	
-pomaži	94	
-pomnoži	362	
-pomorandži	289	
-ponajuži		
-poseži		
-posloži	17	
-posluži	4518	
-postiži	12	
-poteži	17	
-potpomaži		
-potraži	2761	
-potuži	39	
-poveži	209	
-predloži	4547	
-predstraži		
-prekriži		
-preloži		
-premaži	16	
-prenemaži		
-preprži	11	
-prereži		
-pretraži	252	
-preži	16	
-pribeleži	47	
-približi	4383	
-pridruži	2566	
-pridrži	128	
-prikaži	285	
-prilaži		
-priloži	722	
-priteži		
-priveži	10	
-produži	3712	
-prokaži		
-proprži	68	
-proteži		
-protivteži		
-pruži	14058	
-prži	563	
-puži		
-raspolaži		
-raspoloži	20	
-rastuži	197	
-ravnoteži	1005	
-razdraži	27	
-razduži	57	
-razloži	120	
-razmaži		
-razmnoži	54	
-razneži	65	
-razreži		
-razveži		
-raži	309	
-reciklaži	602	
-reportaži	244	
-reži	263	
-rukopolaži		
-rukopoloži	133	
-ruži	361	
-sabotaži	53	
-sadrži	48046	
-serklaži		
-sitneži		
-slaži	53	
-složi	1208	
-sluzokoži	317	
-služi	28688	
-snaži	163	
-sneži	23	
-sniježi		J
-sniži		
-sprži	173	
-srži	2036	
-staleži	105	
-staloži	11	
-steži	22	
-straži	499	
-stroži	335	
-suzdrži	161	
-sveži	1315	
-taloži	466	
-tetovaži	48	
-teži	12261	
-tiraži	265	
-traži	54703	
-truleži	375	
-tuži	2571	
-ubeleži	55	
-ublaži	1654	
-udruži	420	
-ukaži	30	
-uknjiži	233	
-ulaži	18	
-uloži	4183	
-umnoži	314	
-upreži		
-uravnoteži	208	
-ureži		
-usluži	115	
-usteži		
-uvaži	886	
-uveži		
-uzdiži		
-uzdrži	390	
-užeži		
-uži	2253	
-važi	28988	
-velmoži		
-veži	158	
-vitraži	69	
-vlaži	247	
-zabeleži	1357	
-zadrži	7421	
-zaduži	1093	
-zakaži	17	
-založi	439	
-zaokruži	759	
-zareži	32	
-zasluži	510	
-zasneži		
-zateži	16	
-zatraži	4518	
-zaveži	43	
-zbliži	168	
-združi	42	
-šarži	19	
-špijunaži	132	
-žiži	962	
-biježi		
-bježi		
-osvježi		
-svježi		
+ambalaži	1233		2
+apanaži	13		2
+arbitraži	357		2
+badži			2
+bandži			2
+barži	155		2
+beleži	8632		2
+beži	4688		2
+bilježi		J	2
+blaži	1075		2
+bliži	8392		2
+bodeži	43		2
+brži	9496		2
+crnokoži			2
+crteži	1796		2
+daidži			2
+daveži			2
+demontaži	105		2
+diži	160		2
+dokaži	138		2
+dotuži	10		2
+draži	1314		2
+druži	1561		2
+drži	28387		2
+duži	12026		2
+garaži	1314		2
+gaži			2
+gloži	12		2
+golokoži			2
+grabeži	169		2
+griži	31		2
+gruži			2
+hadži		M	2
+hodži	26		2
+ilidži			2
+iskaži	13		2
+isluži			2
+ispruži	275		2
+isprži	67		2
+istraži	2005		2
+istruži			2
+izdrži	4419		2
+izduži	44		2
+izlaži			2
+izloži	995		2
+izreži			2
+izruži			2
+ježi	165		2
+kambodži			2
+kandži	362		2
+kanjiži			2
+kaži	2608		2
+kilaži	294		2
+kliži			2
+knjiži	345		2
+kolaži	130		2
+koledži	114		2
+konsijerži			2
+koži	10264		2
+krleži			2
+kruži	1899		2
+kuraži			2
+kuži	28		2
+kvareži			2
+laži	10652		2
+leži	17438		2
+litraži			2
+liži	60		2
+loži	1094		2
+lupeži			2
+maharadži			4
+marži	765		2
+masaži	248		2
+maži	42		2
+meteži	23		2
+mladeži	956		2
+množi	413		2
+montaži	899		2
+mreži	15947		2
+muži	368		2
+nadraži	26		2
+najblaži	130		3
+najbliži	4483		3
+najbrži	3588		3
+najdraži	987		3
+najduži	1536		3
+naježi	140		2
+najniži	1957		3
+najstroži	98		3
+najteži	3581		2
+najuži	476		3
+nalaži			2
+naloži	1190		2
+namaži	70		2
+namnoži	31		2
+napreži			2
+narandži			2
+nareži	33		2
+naruži	53		2
+naslaži			2
+navlaži	40		2
+neravnoteži	68		2
+nidži			2
+nindži	20		2
+niži	6481		2
+noži			2
+obeleži	1195		2
+obesnaži			2
+obilježi	68	J	2
+oblaži			2
+obloži	88		2
+obnaži	33		2
+obrazloži	921		2
+obreži			2
+odlaži	28		2
+odleži	282		2
+odloži	2241		2
+odreži			2
+održi	9945		2
+odsluži	241		2
+oduži	524		2
+odvaži	161		2
+odveži	24		2
+okruži	137		2
+okuraži	37		2
+okuži			2
+omalovaži	180		2
+oneraspoloži	20		2
+oniži	56		2
+opruži	52		2
+oprži	11		2
+opsluži	135		2
+optuži	914		2
+oraspoloži	243		2
+osnaži	713		2
+osveži	562		2
+oteži			2
+otkaži	18		2
+ovlaži	63		2
+ožeži			2
+padeži	105		2
+paleži	21		2
+paralaži	29		2
+pasaži	105		2
+pejzaži	577		2
+persiflaži			2
+pilotaži			2
+plantaži	147		2
+plaži	6816		2
+pobeleži			2
+pobliži			2
+podiži	42		2
+podleži	23		2
+podloži	36		2
+podmaži	19		2
+podmreži			2
+podrži	6712		2
+poduži	410		2
+podveži			2
+pokaži	1000		2
+polaži			2
+poliži	16		2
+položi	2598		2
+pomaži	94		2
+pomnoži	362		2
+pomorandži	289		2
+ponajuži			2
+poseži			2
+posloži	17		2
+posluži	4518		2
+postiži	12		2
+poteži	17		2
+potpomaži			2
+potraži	2761		2
+potuži	39		2
+poveži	209		2
+predloži	4547		2
+predstraži			2
+prekriži			2
+preloži			2
+premaži	16		2
+prenemaži			2
+preprži	11		2
+prereži			2
+pretraži	252		2
+preži	16		2
+pribeleži	47		2
+približi	4383		2
+pridruži	2566		2
+pridrži	128		2
+prikaži	285		2
+prilaži			2
+priloži	722		2
+priteži			2
+priveži	10		2
+produži	3712		2
+prokaži			2
+proprži	68		2
+proteži			2
+protivteži			2
+pruži	14058		2
+prži	563		2
+puži			2
+raspolaži			2
+raspoloži	20		2
+rastuži	197		2
+ravnoteži	1005		2
+razdraži	27		2
+razduži	57		2
+razloži	120		2
+razmaži			2
+razmnoži	54		2
+razneži	65		2
+razreži			2
+razveži			2
+raži	309		2
+reciklaži	602		2
+reportaži	244		2
+reži	263		2
+rukopolaži			2
+rukopoloži	133		2
+ruži	361		2
+sabotaži	53		2
+sadrži	48046		2
+serklaži			2
+sitneži			2
+slaži	53		2
+složi	1208		2
+sluzokoži	317		2
+služi	28688		2
+snaži	163		2
+sneži	23		2
+sniježi		J	2
+sniži			2
+sprži	173		2
+srži	2036		2
+staleži	105		2
+staloži	11		2
+steži	22		2
+straži	499		2
+stroži	335		2
+suzdrži	161		2
+sveži	1315		2
+taloži	466		2
+tetovaži	48		2
+teži	12261		2
+tiraži	265		2
+traži	54703		2
+truleži	375		2
+tuži	2571		2
+ubeleži	55		2
+ublaži	1654		2
+udruži	420		2
+ukaži	30		2
+uknjiži	233		2
+ulaži	18		2
+uloži	4183		2
+umnoži	314		2
+upreži			2
+uravnoteži	208		2
+ureži			2
+usluži	115		2
+usteži			2
+uvaži	886		2
+uveži			2
+uzdiži			2
+uzdrži	390		2
+užeži			2
+uži	2253		2
+važi	28988		2
+velmoži			2
+veži	158		2
+vitraži	69		2
+vlaži	247		2
+zabeleži	1357		2
+zadrži	7421		2
+zaduži	1093		2
+zakaži	17		2
+založi	439		2
+zaokruži	759		2
+zareži	32		2
+zasluži	510		2
+zasneži			2
+zateži	16		2
+zatraži	4518		2
+zaveži	43		2
+zbliži	168		2
+združi	42		2
+šarži	19		2
+špijunaži	132		2
+žiži	962		2
+biježi			2
+bježi			2
+osvježi			2
+svježi			2

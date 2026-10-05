@@ -1,139 +1,139 @@
 134
-anđa		
-beznađa	852	
-bezvlađa		
-bezvođa		
-bleđa		
-ceđa		
-delovođa	29	
-događa	13480	
-feđa		
-gađa	1000	
-gospođa	11679	
-goveđa	124	
-građa	2385	
-grožđa	4381	
-grđa	26	
-gunđa	181	
-gvožđa	4754	
-gđa	1307	
-horovođa	114	
-hrđa		
-izanđa		
-izrađa		
-izređa		
-izviđa	15	
-izvređa	69	
-karavađa		
-karađorđa		
-knjigovođa	504	
-kolovođa		M
-konđa		
-krađa	4612	
-labuđa		
-lađa	1067	
-leđa	16857	
-lođa	111	
-luđa	66	
-mašinovođa	447	
-medveđa	447	
-mesojeđa		
-međa	370	
-milosrđa	717	
-mlađa	3814	
-mrkogleđa		
-mrđa		
-nagađa	780	
-najluđa	140	
-najmlađa	1412	
-najređa	55	
-najslađa	141	
-najtvrđa	50	
-naređa		
-nasleđa	6460	
-nasljeđa		J
-nađa		
-nemilosrđa	16	
-ninđa		
-oruđa	1586	
-oslobađa	4538	
-oštrokonđa		
-perovođa		M
-peđa		
-pobrđa	88	
-podgrađa		
-pogađa	4663	
-pohađa	2564	
-polugođa		
-ponajmlađa		
-ponuđa		
-porađa	246	
-poređa	112	
-poslovođa	560	
-posuđa	1110	
-posvađa	203	
-pravosuđa	10141	
-predgrađa	1072	
-predviđa	17040	
-preporađa	77	
-previđa	540	
-pređa	48	
-priviđa	230	
-progunđa	71	
-proviđa		
-punđa	152	
-putovođa		M
-razmeđa	34	
-razvađa		
-razvođa	40	
-računovođa	747	
-rađa	5442	
-ređa	656	
-riđa	98	
-rođa		
-rđa	426	
-sazvežđa	920	
-slađa	313	
-sleđa	33	
-smeđa	576	
-smuđa	325	
-srđa		
-svađa	3061	
-svetlosmeđa		
-svetogrđa	38	
-sviđa	14810	
-tamnosmeđa	43	
-tromeđa		
-tuđa	1825	
-tvrđa	255	
-ugađa	208	
-urađa		
-urđa		
-uviđa	956	
-varmeđa		M
-veđa		M
-viđa	1358	
-vlakovođa		
-vojskovođa	1068	
-vozovođa	29	
-vođa	12559	
-vređa	3201	
-zabrđa	44	
-zagunđa		
-zaleđa	278	
-zaređa		
-zarđa		
-zavađa	52	
-zlopogleđa		M
-čađa	16	
-četovođa	28	
-đerđa		
-đorđa		
-đurađa		
-đurđa		
-žeđa	12	
-žitorađa		
-medvjeđa		
-naslijeđa	177	
-sazviježđa	23	
-vrijeđa	268	
+anđa			2
+beznađa	852		2
+bezvlađa			2
+bezvođa			2
+bleđa			2
+ceđa			2
+delovođa	29		4
+događa	13480		2
+feđa			2
+gađa	1000		2
+gospođa	11679		3
+goveđa	124		2
+građa	2385		2
+grožđa	4381		2
+grđa	26		2
+gunđa	181		2
+gvožđa	4754		2
+gđa	1307		1
+horovođa	114		4
+hrđa			2
+izanđa			2
+izrađa			2
+izređa			2
+izviđa	15		2
+izvređa	69		2
+karavađa			2
+karađorđa			2
+knjigovođa	504		3
+kolovođa		M	4
+konđa			2
+krađa	4612		2
+labuđa			3
+lađa	1067		2
+leđa	16857		2
+lođa	111		2
+luđa	66		2
+mašinovođa	447		2
+medveđa	447		2
+mesojeđa			2
+međa	370		2
+milosrđa	717		4
+mlađa	3814		2
+mrkogleđa			2
+mrđa			2
+nagađa	780		2
+najluđa	140		3
+najmlađa	1412		3
+najređa	55		2
+najslađa	141		3
+najtvrđa	50		3
+naređa			2
+nasleđa	6460		2
+nasljeđa		J	2
+nađa			2
+nemilosrđa	16		2
+ninđa			2
+oruđa	1586		2
+oslobađa	4538		2
+oštrokonđa			2
+perovođa		M	4
+peđa			2
+pobrđa	88		2
+podgrađa			2
+pogađa	4663		2
+pohađa	2564		2
+polugođa			4
+ponajmlađa			2
+ponuđa			2
+porađa	246		2
+poređa	112		2
+poslovođa	560		4
+posuđa	1110		2
+posvađa	203		2
+pravosuđa	10141		4
+predgrađa	1072		2
+predviđa	17040		2
+preporađa	77		2
+previđa	540		2
+pređa	48		2
+priviđa	230		2
+progunđa	71		2
+proviđa			2
+punđa	152		2
+putovođa		M	4
+razmeđa	34		2
+razvađa			2
+razvođa	40		2
+računovođa	747		2
+rađa	5442		2
+ređa	656		2
+riđa	98		2
+rođa			2
+rđa	426		2
+sazvežđa	920		2
+slađa	313		2
+sleđa	33		2
+smeđa	576		2
+smuđa	325		2
+srđa			2
+svađa	3061		2
+svetlosmeđa			2
+svetogrđa	38		4
+sviđa	14810		2
+tamnosmeđa	43		2
+tromeđa			2
+tuđa	1825		2
+tvrđa	255		2
+ugađa	208		2
+urađa			2
+urđa			2
+uviđa	956		2
+varmeđa		M	2
+veđa		M	2
+viđa	1358		2
+vlakovođa			4
+vojskovođa	1068		4
+vozovođa	29		4
+vođa	12559		2
+vređa	3201		2
+zabrđa	44		2
+zagunđa			2
+zaleđa	278		2
+zaređa			2
+zarđa			2
+zavađa	52		2
+zlopogleđa		M	2
+čađa	16		2
+četovođa	28		4
+đerđa			2
+đorđa			2
+đurađa			2
+đurđa			2
+žeđa	12		2
+žitorađa			2
+medvjeđa			2
+naslijeđa	177		3
+sazviježđa	23		2
+vrijeđa	268		2

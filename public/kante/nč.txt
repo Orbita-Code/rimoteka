@@ -1,9 +1,9 @@
 8
-branč		
-frenč		
-inč	159	
-klinč	127	
-linč	1066	
-punč	69	
-ranč	143	
-trenč		
+branč			1
+frenč			1
+inč	159		1
+klinč	127		1
+linč	1066		1
+punč	69		1
+ranč	143		1
+trenč			1

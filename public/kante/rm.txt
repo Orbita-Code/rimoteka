@@ -1,17 +1,17 @@
 16
-alarm	2127	
-ektoderm		
-endoderm		
-endosperm		
-epiderm		
-form		
-grm	390	
-hemofarm		
-hloroform	24	
-kloroform		
-medifarm		
-reform		
-storm		
-strm	185	
-šarm	1752	
-žandarm	201	
+alarm	2127		2
+ektoderm			2
+endoderm			2
+endosperm			2
+epiderm			2
+form			1
+grm	390		1
+hemofarm			2
+hloroform	24		2
+kloroform			3
+medifarm			2
+reform			2
+storm			1
+strm	185		1
+šarm	1752		1
+žandarm	201		2

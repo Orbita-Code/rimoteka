@@ -1,45 +1,45 @@
 44
-Prag	2981	
-antropofag		M
-arhipelag	633	
-bag	374	
-bestrag		
-blag	1484	
-bundestag		
-burag	22	
-dag		
-drag	1439	
-gulag	154	
-hag		
-krčag		M
-ljubodrag		
-mag	934	
-mijodrag		
-miodrag		
-mutljag	28	
-nag	362	
-natrag	3760	
-nedrag		
-odostrag		
-ostrag		
-otrag		M
-pag		
-poludrag		
-polunag		
-prag	2981	
-preblag	32	
-predrag	709	
-prtljag	1660	
-rajhstag		
-sag	86	
-sarkofag	262	
-sontag		
-trag	10110	
-unatrag	483	
-vrag	1020	
-zigzag		
-zontag		
-šiprag		M
-šlag	1629	
-želidrag		
-živodrag		
+Prag	2981		1
+antropofag		M	2
+arhipelag	633		2
+bag	374		1
+bestrag			2
+blag	1484		1
+bundestag			2
+burag	22		2
+dag			1
+drag	1439		1
+gulag	154		2
+hag			1
+krčag		M	2
+ljubodrag			2
+mag	934		1
+mijodrag			2
+miodrag			3
+mutljag	28		2
+nag	362		1
+natrag	3760		2
+nedrag			2
+odostrag			2
+ostrag			2
+otrag		M	2
+pag			1
+poludrag			2
+polunag			2
+prag	2981		1
+preblag	32		2
+predrag	709		2
+prtljag	1660		2
+rajhstag			2
+sag	86		1
+sarkofag	262		2
+sontag			2
+trag	10110		1
+unatrag	483		2
+vrag	1020		1
+zigzag			2
+zontag			2
+šiprag		M	2
+šlag	1629		1
+želidrag			2
+živodrag			2

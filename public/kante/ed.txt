@@ -1,131 +1,131 @@
 113
-alfred		
-arhimed		
-biljojed	60	
-bled	436	
-bratučed		M
-bred		
-bubojed		
-ded		M
-dogled	50	
-dred		
-drvored	382	
-dvared		M
-dvogled	577	
-dvored		
-dvosed	684	
-ed		
-fed		
-fred		
-ispoved	28	
-ispovijed	49	J
-ispred	72015	
-izgled	26013	
-izgred	39	
-jed		M
-jedared		M
-jednosed	97	
-junajted		
-lebed		
-led	10162	
-logoped		
-manfred		
-med	8146	
-medved	1274	
-mehmed		
-mesojed	51	
-mildred		
-milogled		
-mimogred		
-mohamed		
-moped	141	
-mravojed	32	
-muhamed		
-nadogled		
-naizgled	7192	
-najedared		M
-naočigled		M
-napred	23982	
-nasred	1306	
-nedogled	1979	
-nered	1389	
-nuzgred		
-obed	180	
-objed		
-obred	1204	
-odjedared		
-odred	1837	
-ogled	756	
-ortoped	436	
-očigled		
-paralelopiped		
-plodored	120	
-podrazred		
-podred	29	
-pogled	37236	
-pored	239785	
-posed	3290	
-posled		
-posred	560	
-praded	51	
-pradjed		J
-pred	187844	
-pregled	27928	
-prired		
-propoved	723	
-prored	77	
-prosed	28	
-prvobratučed		
-rased	39	
-raspored	9582	
-razred	8062	
-red	41850	
-redosled	3345	
-samojed		
-sed		
-skinhed		
-sladoled	2744	
-sled	1625	
-slijed	127	J
-spored		
-sred	6499	
-sused	778	
-susjed		J
-trosed	295	
-ugled	9006	
-ujed	469	
-unapred	33072	
-unedogled		M
-united		
-upored		
-ured	898	
-usled	31153	
-usljed		J
-usred	8605	
-uzgred	7017	
-veleposed		
-velosiped		M
-veroispoved		
-zapoved	50	
-zapovijed	142	J
-zemljoposed		
-četvorosed		
-đed		J
-šved		
-blijed	50	
-djed	555	J
-dvosjed		
-ispovjed		
-medvjed		
-naprijed	1486	
-posjed		
-prijed		
-propovijed	90	
-rasjed		
-redoslijed	90	
-sijed	18	
-sjed		M
-trosjed		
-unaprijed	1852	
-uslijed	410	
-zapovjed		
+alfred			2
+arhimed			2
+biljojed	60		3
+bled	436		1
+bratučed		M	2
+bred			1
+bubojed			3
+ded		M	1
+dogled	50		2
+dred			1
+drvored	382		3
+dvared		M	2
+dvogled	577		2
+dvored			2
+dvosed	684		2
+ed			1
+fed			1
+fred			1
+ispoved	28		3
+ispovijed	49	J	4
+ispred	72015		2
+izgled	26013		2
+izgred	39		2
+jed		M	1
+jedared		M	2
+jednosed	97		2
+junajted			2
+lebed			2
+led	10162		1
+logoped			2
+manfred			2
+med	8146		1
+medved	1274		2
+mehmed			2
+mesojed	51		3
+mildred			2
+milogled			3
+mimogred			2
+mohamed			2
+moped	141		2
+mravojed	32		3
+muhamed			2
+nadogled			3
+naizgled	7192		3
+najedared		M	2
+naočigled		M	2
+napred	23982		2
+nasred	1306		2
+nedogled	1979		3
+nered	1389		2
+nuzgred			2
+obed	180		2
+objed			2
+obred	1204		2
+odjedared			2
+odred	1837		2
+ogled	756		2
+ortoped	436		2
+očigled			3
+paralelopiped			2
+plodored	120		3
+podrazred			2
+podred	29		2
+pogled	37236		2
+pored	239785		2
+posed	3290		2
+posled			2
+posred	560		2
+praded	51		2
+pradjed		J	2
+pred	187844		1
+pregled	27928		2
+prired			2
+propoved	723		3
+prored	77		2
+prosed	28		2
+prvobratučed			2
+rased	39		2
+raspored	9582		3
+razred	8062		2
+red	41850		1
+redosled	3345		3
+samojed			3
+sed			1
+skinhed			2
+sladoled	2744		3
+sled	1625		1
+slijed	127	J	2
+spored			2
+sred	6499		1
+sused	778		2
+susjed		J	2
+trosed	295		2
+ugled	9006		2
+ujed	469		2
+unapred	33072		2
+unedogled		M	2
+united			2
+upored			3
+ured	898		2
+usled	31153		2
+usljed		J	2
+usred	8605		2
+uzgred	7017		2
+veleposed			2
+velosiped		M	2
+veroispoved			2
+zapoved	50		3
+zapovijed	142	J	4
+zemljoposed			2
+četvorosed			2
+đed		J	1
+šved			1
+blijed	50		1
+djed	555	J	1
+dvosjed			2
+ispovjed			3
+medvjed			2
+naprijed	1486		3
+posjed			2
+prijed			2
+propovijed	90		4
+rasjed			2
+redoslijed	90		4
+sijed	18		1
+sjed		M	1
+trosjed			2
+unaprijed	1852		3
+uslijed	410		3
+zapovjed			3

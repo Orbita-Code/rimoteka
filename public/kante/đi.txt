@@ -1,70 +1,70 @@
 66
-bleđi		
-buđi	307	
-dođi	2463	
-gleđi	238	
-gospođi	1587	
-goveđi	142	
-građi	980	
-grđi	31	
-gđi	101	
-horovođi		
-izađi	648	
-iziđi	104	
-knjigovođi	33	
-krađi	1373	
-labuđi		
-lađi	380	
-luiđi		
-luđi	210	
-mašinovođi	15	
-medveđi	267	
-međi	272	
-mlađi	10362	
-najgrđi	23	
-najluđi	210	
-najmlađi	5498	
-najređi	106	
-najslađi	223	
-najtvrđi	147	
-nađi	1245	
-obiđi	58	
-omeđi	42	
-otiđi	107	
-otuđi	257	
-peđi		
-poslovođi	23	
-pođi	356	
-prevaziđi	21	
-pređi	336	
-priđi	192	
-pronađi	462	
-prođi	184	
-raziđi		
-razmeđi		
-računovođi	18	
-ređi	715	
-riđi	65	
-rđi	26	
-silađi		
-siđi	163	
-slađi	258	
-smeđi	381	
-snađi	135	
-srđi		
-svađi	797	
-tromeđi	367	
-tuđi	1879	
-tvrđi	530	
-uziđi	10	
-uđi	514	
-vojskovođi	120	
-vođi	813	
-zaobiđi	148	
-zađi		
-čađi	543	
-žeđi	643	
-žitorađi		
-medvjeđi		
-prijeđi		
-rjeđi	27	
+bleđi			2
+buđi	307		2
+dođi	2463		2
+gleđi	238		2
+gospođi	1587		3
+goveđi	142		2
+građi	980		2
+grđi	31		2
+gđi	101		1
+horovođi			2
+izađi	648		2
+iziđi	104		2
+knjigovođi	33		3
+krađi	1373		2
+labuđi			3
+lađi	380		2
+luiđi			2
+luđi	210		2
+mašinovođi	15		2
+medveđi	267		2
+međi	272		2
+mlađi	10362		2
+najgrđi	23		3
+najluđi	210		3
+najmlađi	5498		3
+najređi	106		2
+najslađi	223		3
+najtvrđi	147		3
+nađi	1245		2
+obiđi	58		2
+omeđi	42		2
+otiđi	107		2
+otuđi	257		2
+peđi			2
+poslovođi	23		4
+pođi	356		2
+prevaziđi	21		2
+pređi	336		2
+priđi	192		2
+pronađi	462		2
+prođi	184		2
+raziđi			2
+razmeđi			2
+računovođi	18		2
+ređi	715		2
+riđi	65		2
+rđi	26		2
+silađi			2
+siđi	163		2
+slađi	258		2
+smeđi	381		2
+snađi	135		2
+srđi			2
+svađi	797		2
+tromeđi	367		2
+tuđi	1879		2
+tvrđi	530		2
+uziđi	10		2
+uđi	514		2
+vojskovođi	120		4
+vođi	813		2
+zaobiđi	148		2
+zađi			2
+čađi	543		2
+žeđi	643		2
+žitorađi			2
+medvjeđi			2
+prijeđi			2
+rjeđi	27		2

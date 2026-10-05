@@ -1,963 +1,963 @@
 952
-Amsterdame		
-Avrame		
-Rime	448	
-abrazivnome		
-adame		
-advokatskome		
-aerodrome	594	
-aforističnome		
-aforizme	248	
-ajme	145	
-aksiome	112	
-aktiviranome		
-aktivnome		
-akustičnome		
-akutnome		
-alabame		
-alarme	186	
-alarmiranome		
-albume	948	
-algoritme	360	
-ambicioznome		
-ambleme	59	
-anagrame	17	
-anateme	117	
-aneurizme	327	
-anglicizme	14	
-animalnome		
-anime	365	
-anksioznome		
-anonimnome		
-apelacionome		
-aplikativnome		
-apsolutnome		
-apstraktnome		
-aranđelovome		
-arapskome		
-arhaičnome		
-arheološkome		
-arhitektonskome		
-aromatičnome		
-arome	1447	
-aseksualnome		
-astmatičnome		
-astme	3853	
-astronome	305	
-atavizme	10	
-atome	396	
-autobuskome		
-autograme	280	
-autohtonome		
-autorovome		
-aćime		
-bademe	304	
-baglame		
-bagreme		
-bahame		
-bahatome		
-banalnome		
-bandažiranome		
-barskome		
-basme		
-basnoslovnome		
-batinanome		
-bebastome		
-bedeme	300	
-bednome		
-beknutome		
-belome		
-beogradskome		
-beskrajnome		
-beskrupuloznome		
-besmrtnome	19	
-besnome		
-besramnome		
-bezazlenome		
-bezbožnome		
-bezgraničnome		
-bezubome		
-bezumnome		
-bezuslovnome		
-bećarskome		
-bijelome		
-bijesnome		
-biseksualnome		
-bisernome		
-bičevanome		
-blagome	14	
-blame		
-blaženome	68	
-blebetanome		
-bledome		
-blentavome		
-blesavome		
-bleštavome		
-blijedome		
-blindiranome		
-blistavome		
-blještavome		
-bljutavome		
-bludnome		
-bodljikavome		
-bogatome	32	
-bogme	816	
-bogovskome		
-boheme		
-bojnome		
-bolesnome	16	
-bolnome		
-bome	213	
-bosanskome	38	
-božanskome		
-branome		
-braćenome		
-brdskome		
-breme	1548	
-brljavome		
-brzopletome		
-budnome		
-burme		
-carevome		
-carskome	44	
-celome	311	
-cetinjskome		
-cijelome	80	
-ciklame	113	
-citiranome		
-crkvenome		
-crnogorskome		
-crnome	42	
-crvenome	11	
-dabogme		
-dabome		
-dalekome		
-dame	16307	
-datome		
-datume	1388	
-debelome		
-dijademe	26	
-dijafragme	270	
-dijagrame	150	
-dileme	7623	
-dime	96	
-diplome	8077	
-divnome	17	
-dobrome	91	
-dogme	836	
-dolame		
-doličnome		
-dome	53	
-dopreme	204	
-doslovnome		
-dostojnome		
-dragome	26	
-drahme	137	
-drame	6142	
-drevnome		
-drugome	4137	
-drume		
-drumskome		
-dugme	8978	
-dugome	15	
-duhovnome	26	
-dume		M
-dvome		
-dvostranome		
-dvoume	194	
-džeme		
-ekonome	18	
-ekosisteme		
-ekstreme	168	
-ektoplazme	11	
-engleskome		
-enigme	184	
-enzime	540	
-epigrame	33	
-epskome		
-erotskome		
-eskime		
-esme		
-eufemizme	35	
-evropskome		
-fame	165	
-fantazme	59	
-fantome	22	
-farme	3806	
-fatime		
-ferme		
-firme	56797	
-foneme	43	
-formalnome		
-forme	11491	
-forume	924	
-galame	558	
-genome	32	
-germanizme	10	
-gladnome	41	
-glatkome		
-glavnome	74	
-gledanome		
-glumačkome		
-glume	4216	
-gluvome	10	
-gluvoneme		
-gnome	192	
-goleme	254	
-golemome		
-goletnome		
-golome		
-gordome		
-gorkome		
-gorskome		
-gospodskome		
-govornome		
-gradskome		
-gramatičkome		
-grame	60	
-građenome		
-grešnome	54	
-grme	100	
-grome	23	
-gubavome		
-gume	7591	
-hareme	29	
-harizme	353	
-heruvime		
-hipodrome		
-hirošime		
-hladnome		
-holograme	22	
-hrame		
-hristovome		
-hrizanteme	109	
-hrome	49	
-hromozome	89	
-hrvatskome	70	
-humanizme		
-hume		
-ibrahime		
-idiome	35	
-ijednome		
-ikome	805	
-imame	96	
-ime	127635	
-impresume		
-intime	460	
-intimnome		
-iracionalnome		
-isceljenome		
-iskrenome		
-ispovednome		
-ispravnome		
-istinitome	81	
-istinskome		
-istome	302	
-istočnome		
-izabranome		
-izlome	36	
-izmame	138	
-izme		
-iznajme	414	
-iznesenome		
-izume	231	
-izuzme	812	
-izvesnome		
-izvornome		
-ičime		
-jadnome		
-jagme		
-jakome		
-jame	2280	
-javnome	18	
-jaćime		
-jedinome	181	
-jedinstvenome		
-jednolikome		
-jednome	946	
-jerusalime		
-jevreme		
-jevrosime		
-joakime		
-jokohame		
-junakovome		
-junačkome		
-južnome	15	
-kajmakame		
-kaldrme		
-kaleme	87	
-kalijume		
-kame		
-kamenolome	26	
-kamenome	33	
-karaburme		
-karcinome	92	
-karizme		
-karme	273	
-kataklizme		
-kilograme	904	
-kime	1171	
-kičme	3032	
-klasičnome		
-kleme		
-klimanome		
-klime	5807	
-ključnome		
-književnome		
-koječime		
-kome	173128	
-komičnome		
-konačnome		
-kondome	400	
-konkretnome		
-konsome		
-kosatome		
-kosovskome		
-kostime	1315	
-kozačkome		
-kozme		
-kratkome		
-kreme	3361	
-kriterijume	7344	
-krivome		
-krizanteme		
-krme	222	
-kroatizme		
-krome	10	
-krotkome		
-krsnome		
-krupnome		
-krvavome	21	
-krčme	404	
-kume	638	
-kurkume	86	
-kuršume		
-kućnome		
-kučme		
-kvantume		
-lagume	46	
-lakome	32	
-lame	122	
-larme		
-latinskome	10	
-lažnome		
-lekseme	136	
-lepome	21	
-lime		
-ličkome		
-ličnome		
-lišenome		
-ljubljenome		
-ljudskome	48	
-lome	1518	
-ludome		
-lukavome		
-magme	157	
-majskome		
-majčinome		
-maksime	229	
-maksimume	96	
-malarme		
-malenome		
-malme		
-malome	151	
-maloumnome		
-mame	5417	
-marame	832	
-materijalnome		
-me	262106	
-medenome		
-medijume	78	
-mehanizme	4260	
-meleme	110	
-melodrame	183	
-memorandume	85	
-merime		
-međuforme		
-međuvreme	41	
-mikroklime	164	
-mikroorganizme	354	
-mikrosheme		
-mikrotalasnome		
-milenijume	88	
-milome	29	
-mime		
-mirnome		
-misaonome		
-misirskome		
-mislenome		
-misticizme		
-mladome	69	
-mlakome		
-mletačkome		
-mnogome	2678	
-mnome		
-modernome		
-mome		
-monodrame	300	
-monograme		
-monohrome		
-monstrume	189	
-moralnome		
-morfeme	28	
-moćnome		
-mrsnome		
-mrtvome	25	
-mrznome		
-mudrome	15	
-muselime		
-mušeme		
-muškome	10	
-naboranome		
-nadme	16	
-nadmenome		
-naglašenome		
-naglome		
-nagome		
-naime	53359	
-namame	99	
-name		
-napisanome		
-naprednome		
-narednome		
-narodnome	19	
-naročitome		
-naslikanome		
-naume	93	
-naučenome		
-navedenome	11	
-nazime		M
-nebeskome	64	
-nebesnome	16	
-negativnome		
-nejakome		
-nekakome		
-nekakvome		
-nekome	19940	
-neme	403	
-nemirnome		
-nemome		
-nemoćnome		
-neobičnome		
-nepomičnome		
-nepravednome		
-nesitome		
-nesporazume	701	
-nesretnome		
-nesrećnome		
-neukome		
-neumitnome		
-neumrlome		
-neupravnome		
-neutralnome		
-nevernome		
-neverovatnome		
-nevoljnome		
-nevreme	1638	
-neznanome		
-nečime	59	
-nečistome		
-nikime		
-nikome	14366	
-niskome		
-ničime	61	
-njegovome	40	
-njenome	22	
-njihovome	21	
-njime	10985	
-njinome		
-njome	913	
-normalnome		
-norme	6295	
-novome	403	
-noćnome		
-obame		
-obavijenome		
-obavljenome		
-običnome		
-objavljenome		
-obranome		
-obraćenome		
-obujme		
-obuzme	524	
-odalame		
-odglume	79	
-odlučnome		
-odmame		
-odrađenome		
-određenome	10	
-odsutnome		
-oduzetome		
-oduzme	3264	
-odvajanome		
-odvratnome		
-oforme	359	
-oglašenome		
-ogorčenome		
-ogromnome		
-oklahome		
-okome	43	
-okovanome		
-okružnome		
-okušanome		
-omame	37	
-onome	21424	
-oposume		
-opreme	34247	
-organizme	566	
-orgazme	225	
-osame	129	
-osme	1156	
-osnaženome		
-osnovnome		
-osunčanome		
-osuđenome		
-otme	1580	
-otmenome		
-otpalome		
-otpreme	236	
-otvorenome	21	
-ovime	810	
-ovome	20142	
-ozime	100	
-oštrome		
-oživelome		
-paklenome		
-palme	1103	
-pametnome	91	
-paname		
-panorame	394	
-pantomime	248	
-papskome		
-paradigme	1227	
-parfeme	457	
-parme		
-pažljivome		
-pegavome		
-peglanome		
-pesme	32039	
-petome		
-pidžame	199	
-pijanome		
-pisanome		
-pismenome		
-pitome	322	
-pitomome		
-pizme		
-piščevome		
-pižame		
-plame		
-planinskome		
-platforme	8197	
-plavome	18	
-plazme	1142	
-pleme	2391	
-plime	514	
-pobeđenome		
-pobratime	270	
-poddirektorijume		
-podforme		
-podijume	53	
-podjarme	25	
-podmuklome		
-podrume	473	
-podsisteme	115	
-podteme	34	
-poeme	530	
-pogrešnome		
-pogrome	99	
-pojme	89	
-pokazanome		
-pokojnome		
-polakome	24	
-polome	213	
-polutame		
-poluvreme	4028	
-pomame	146	
-pomamnome		
-pomenutome		
-pomnome		
-pomorskome		
-ponekome		
-poniženome		
-ponoćnome		
-poočime		
-popisanome		
-popovskome		
-poprime	128	
-porodičnome		
-poročnome		
-posavskome		
-posestrime	49	
-poslanome		
-posnome		
-pospreme	40	
-posrame	36	
-postepenome		
-potome		
-potprograme	15	
-povitome		
-pozajme	332	
-poznatome	14	
-pozvanome		
-praktičnome		
-pravednome	17	
-pravome	71	
-praznome		
-prašume	292	
-preblagome		
-preduzme	4588	
-pregoleme	15	
-prelome	418	
-premalome		
-premame		
-premilome		
-premudrome	10	
-preokrenutome		
-preotme	261	
-prepoznatljivome		
-preslabome		
-presudnome		
-pretežnome		
-prethodnome		
-pretpostavljenome		
-preuzme	9634	
-prevažnome		
-prevelikome		
-prezime	10127	
-prečistome		
-prijeme	327	
-prime	4191	
-pripitome	44	
-pripovednome		
-pripreme	24422	
-prirodnome		
-prisutnome		
-pritome		
-prizme	297	
-prizvanome		
-probleme	54039	
-programe	20745	
-programskome		
-prokletome		
-prolome		
-prostome		
-prostranome		
-proznome		
-prozorskome		
-prozračnome		
-prožme	84	
-prvome	304	
-psalame		
-psalme	203	
-pseudonime	43	
-pume	92	
-punome	11	
-pustome		
-radikalnome		
-radnome	15	
-rame	6190	
-ranjenome		
-ranome		
-raspetome		
-ratničkome		
-različnome		
-razneženome		
-raznome		
-razume	19239	
-razumnome		
-realnome		
-reforme	18945	
-reklame	7679	
-renome		M
-reume	275	
-rezime	1491	
-rezume		
-rečenome		
-rečnome		
-režime	711	
-riječnome		
-rime	448	
-rimskome	20	
-rodnome	27	
-rođenome		
-rume	26	
-rumenome		
-ruskome	33	
-rđavome		
-sajme		
-salame	317	
-salome		
-samome	1003	
-samrtnome		
-sarme	374	
-satkanome		
-saveznome		
-savršenome		
-sačme	520	
-sažme	154	
-sedme	1950	
-sedome		
-seme		M
-serafime		
-serume	97	
-sezame	23	
-sheme	414	
-sigme		
-sigurnome		
-silnome		
-silogizme		
-sime		
-simetričnome		
-simptome	4846	
-sindrome	50	
-sinonime	111	
-sintagme	509	
-sintaksičkome		
-sintetičnome		
-sirijskome		
-sisteme	11950	
-sitnome		
-sivome		
-skorome		
-skrame	49	
-skrivenome		
-skromnome		
-skrovitome		
-slame	1956	
-slatkome		
-slavljenome		
-slavnome	15	
-slavskome		
-sleme	37	
-slepome	44	
-slikarskome		
-slikovnome		
-sličnome	13	
-slobodnome		
-slome	571	
-sme	34006	
-smirenome		
-smradnome		
-smrtnome	19	
-snime	1200	
-sobnome		
-some	13	
-sopstvenome		
-spazme	22	
-sperme	1267	
-sporazume	2750	
-sporome		
-spreme	2441	
-srame	51	
-srbijašume		
-srebrnome		
-sreskome		
-srećnome		
-srme		
-srodnome		
-srpskome	201	
-stadijume	96	
-staklenome		
-stalnome		
-starmalome		
-starome	144	
-stenograme	130	
-stigme	215	
-stihovnome		
-stonome		
-stranome	10	
-strategeme		
-strašnome	39	
-streme	377	
-strme	422	
-strogome		
-stvarnome		
-stvorenome	14	
-sujetnome		
-sume	4548	
-suprotnome	25	
-suvome	12	
-svakome	8032	
-svačime	27	
-svemoćnome		
-svetlome		
-svetome	610	
-svetskome	11	
-svečanome		
-svilenome		
-svime	16	
-svome	12083	
-svršenome		
-tajnome		
-takme		
-takvome	122	
-talentovanome		
-tame	1900	
-tamnome		
-tantijeme	114	
-tekme	327	
-telegrame	165	
-telesnome		
-teme	35041	
-teoreme	268	
-terme	468	
-tesnome		
-tihome		
-time	95403	
-tišme		
-tome	325959	
-toplome	16	
-topolskome		
-toponime	100	
-toteme	21	
-tradicionalnome		
-tragičnome		
-traume	1828	
-traženome		
-treme	644	
-trenutnome		
-trinaestome		
-trojnome		
-trome	93	
-trudnome		
-tulume		
-turcizme	33	
-turskome	51	
-tužnome		
-tvome		M
-tvrdome	12	
-ubogome	13	
-uhvatljivome		
-ujdurme		
-uključenome		
-uleme	165	
-ultimatume	295	
-umetničkome		
-umnogome	4237	
-umnome		
-umornome		
-umrlome		
-unajme	68	
-uniforme	2073	
-univerzume	54	
-uniženome		
-uočenome		
-upravnome		
-urazume	121	
-urme		
-usame		
-usamljenome		
-uskome		
-uspešnome		
-ustreme	18	
-utučenome		
-uvređenome		
-uzajme		
-uzetome	22	
-uzme	18659	
-uzvišenome		
-učenome		
-učinjenome		
-vaganome		
-valjevskome		
-vandalizme		
-vanknjiževnome		
-vaskrslome	25	
-vatrenome		
-vazdušnome		
-vedrome		
-vekovnome		
-velikome	181	
-vernome	20	
-veselome		
-vezanome		
-večitome		
-večnome	45	
-vidljivome		
-vidnome		
-vijetname		
-vilinskome		
-vime	90	
-viđenome		
-vrelome		
-vreme	413506	
-vukovome		
-zadime	19	
-zagrme	79	
-zajme		
-zakonitome		
-zaljubljenome		
-zalutalome		
-zamislivome		
-zaneme	55	
-zanosnome		
-zapadnome		
-zasebnome		
-zaspalome		
-zatome	10	
-zauzme	3161	
-zavičajnome		
-zavrzlame	299	
-završnome		
-zdravome	12	
-zelenome		
-zemaljskome	24	
-zgusnutome		
-zime	11429	
-zlatnome	24	
-zlome		
-zločestome		
-znanome		
-znatnome		
-zubnome		
-zulume		
-zverskome		
-ćilime	109	
-ćoravome		
-ćutljivome		
-čalme		
-čame	177	
-časnome	29	
-česme		
-čestitome	23	
-četvrtome		
-čime	55389	
-čistome	27	
-čitavome	19	
-čizme	2196	
-čudesnome		
-čudnovatome		
-čulnome		
-đerme		
-đečerme		
-šarenome		
-šeme	1831	
-šestome		
-šećerleme		
-šime		M
-širokome	25	
-šizme	87	
-školskome		
-škrtome		
-šljame		
-šljeme		J
-španskome		
-šume	9525	
-žandarme	62	
-žednome	16	
-železničkome		
-željenome		
-željezničkome		
-ženskome	15	
-živome	174	
-nevrijeme	122	
-nijeme	22	
-pjesme		
-poluvrijeme	58	
-prijelome		
-sjeme	428	
-slijeme		
-tjeme	26	
-vrijeme	26757	
-vrjeme		
+Amsterdame			3
+Avrame			2
+Rime	448		2
+abrazivnome			5
+adame			2
+advokatskome			3
+aerodrome	594		2
+aforističnome			2
+aforizme	248		2
+ajme	145		2
+aksiome	112		2
+aktiviranome			3
+aktivnome			4
+akustičnome			3
+akutnome			4
+alabame			2
+alarme	186		2
+alarmiranome			3
+albume	948		2
+algoritme	360		2
+ambicioznome			6
+ambleme	59		2
+anagrame	17		2
+anateme	117		2
+aneurizme	327		2
+anglicizme	14		2
+animalnome			5
+anime	365		2
+anksioznome			2
+anonimnome			5
+apelacionome			2
+aplikativnome			2
+apsolutnome			5
+apstraktnome			3
+aranđelovome			2
+arapskome			3
+arhaičnome			3
+arheološkome			3
+arhitektonskome			3
+aromatičnome			3
+arome	1447		2
+aseksualnome			2
+astmatičnome			3
+astme	3853		2
+astronome	305		2
+atavizme	10		2
+atome	396		2
+autobuskome			2
+autograme	280		2
+autohtonome			3
+autorovome			2
+aćime			2
+bademe	304		2
+baglame			2
+bagreme			2
+bahame			2
+bahatome			4
+banalnome			3
+bandažiranome			2
+barskome			3
+basme			2
+basnoslovnome			5
+batinanome			3
+bebastome			2
+bedeme	300		2
+bednome			3
+beknutome			3
+belome			3
+beogradskome			3
+beskrajnome			3
+beskrupuloznome			5
+besmrtnome	19		3
+besnome			2
+besramnome			3
+bezazlenome			3
+bezbožnome			3
+bezgraničnome			5
+bezubome			3
+bezumnome			3
+bezuslovnome			2
+bećarskome			2
+bijelome			2
+bijesnome			3
+biseksualnome			2
+bisernome			2
+bičevanome			5
+blagome	14		3
+blame			2
+blaženome	68		2
+blebetanome			3
+bledome			3
+blentavome			2
+blesavome			2
+bleštavome			4
+blijedome			4
+blindiranome			2
+blistavome			4
+blještavome			4
+bljutavome			4
+bludnome			3
+bodljikavome			4
+bogatome	32		3
+bogme	816		2
+bogovskome			2
+boheme			2
+bojnome			2
+bolesnome	16		4
+bolnome			3
+bome	213		2
+bosanskome	38		3
+božanskome			2
+branome			3
+braćenome			2
+brdskome			3
+breme	1548		2
+brljavome			2
+brzopletome			4
+budnome			2
+burme			2
+carevome			4
+carskome	44		3
+celome	311		2
+cetinjskome			2
+cijelome	80		2
+ciklame	113		2
+citiranome			2
+crkvenome			3
+crnogorskome			4
+crnome	42		3
+crvenome	11		3
+dabogme			2
+dabome			2
+dalekome			3
+dame	16307		2
+datome			3
+datume	1388		2
+debelome			3
+dijademe	26		2
+dijafragme	270		2
+dijagrame	150		4
+dileme	7623		2
+dime	96		2
+diplome	8077		2
+divnome	17		3
+dobrome	91		3
+dogme	836		2
+dolame			2
+doličnome			2
+dome	53		2
+dopreme	204		2
+doslovnome			3
+dostojnome			3
+dragome	26		3
+drahme	137		2
+drame	6142		2
+drevnome			3
+drugome	4137		3
+drume			2
+drumskome			2
+dugme	8978		2
+dugome	15		3
+duhovnome	26		3
+dume		M	2
+dvome			2
+dvostranome			2
+dvoume	194		2
+džeme			2
+ekonome	18		2
+ekosisteme			2
+ekstreme	168		2
+ektoplazme	11		2
+engleskome			3
+enigme	184		2
+enzime	540		2
+epigrame	33		2
+epskome			2
+erotskome			3
+eskime			2
+esme			2
+eufemizme	35		2
+evropskome			3
+fame	165		2
+fantazme	59		2
+fantome	22		2
+farme	3806		2
+fatime			2
+ferme			2
+firme	56797		2
+foneme	43		2
+formalnome			3
+forme	11491		2
+forume	924		2
+galame	558		2
+genome	32		2
+germanizme	10		2
+gladnome	41		2
+glatkome			3
+glavnome	74		2
+gledanome			2
+glumačkome			2
+glume	4216		2
+gluvome	10		3
+gluvoneme			2
+gnome	192		2
+goleme	254		2
+golemome			3
+goletnome			2
+golome			3
+gordome			3
+gorkome			2
+gorskome			2
+gospodskome			3
+govornome			2
+gradskome			2
+gramatičkome			3
+grame	60		2
+građenome			3
+grešnome	54		3
+grme	100		2
+grome	23		2
+gubavome			4
+gume	7591		2
+hareme	29		2
+harizme	353		2
+heruvime			2
+hipodrome			4
+hirošime			2
+hladnome			2
+holograme	22		2
+hrame			2
+hristovome			2
+hrizanteme	109		2
+hrome	49		2
+hromozome	89		2
+hrvatskome	70		3
+humanizme			2
+hume			2
+ibrahime			2
+idiome	35		2
+ijednome			2
+ikome	805		3
+imame	96		2
+ime	127635		2
+impresume			2
+intime	460		2
+intimnome			4
+iracionalnome			7
+isceljenome			3
+iskrenome			4
+ispovednome			2
+ispravnome			4
+istinitome	81		5
+istinskome			4
+istome	302		3
+istočnome			3
+izabranome			5
+izlome	36		2
+izmame	138		2
+izme			2
+iznajme	414		2
+iznesenome			4
+izume	231		2
+izuzme	812		2
+izvesnome			4
+izvornome			2
+ičime			3
+jadnome			3
+jagme			2
+jakome			3
+jame	2280		2
+javnome	18		2
+jaćime			2
+jedinome	181		3
+jedinstvenome			3
+jednolikome			3
+jednome	946		2
+jerusalime			2
+jevreme			2
+jevrosime			2
+joakime			2
+jokohame			2
+junakovome			2
+junačkome			3
+južnome	15		2
+kajmakame			2
+kaldrme			2
+kaleme	87		2
+kalijume			2
+kame			2
+kamenolome	26		2
+kamenome	33		4
+karaburme			2
+karcinome	92		2
+karizme			2
+karme	273		2
+kataklizme			2
+kilograme	904		4
+kime	1171		2
+kičme	3032		2
+klasičnome			3
+kleme			2
+klimanome			2
+klime	5807		2
+ključnome			3
+književnome			2
+koječime			2
+kome	173128		2
+komičnome			3
+konačnome			3
+kondome	400		2
+konkretnome			3
+konsome			2
+kosatome			2
+kosovskome			4
+kostime	1315		2
+kozačkome			3
+kozme			2
+kratkome			2
+kreme	3361		2
+kriterijume	7344		2
+krivome			3
+krizanteme			2
+krme	222		2
+kroatizme			2
+krome	10		2
+krotkome			2
+krsnome			2
+krupnome			2
+krvavome	21		4
+krčme	404		2
+kume	638		2
+kurkume	86		2
+kuršume			2
+kućnome			3
+kučme			2
+kvantume			2
+lagume	46		2
+lakome	32		3
+lame	122		2
+larme			2
+latinskome	10		3
+lažnome			3
+lekseme	136		2
+lepome	21		3
+lime			2
+ličkome			2
+ličnome			3
+lišenome			2
+ljubljenome			3
+ljudskome	48		2
+lome	1518		2
+ludome			3
+lukavome			4
+magme	157		2
+majskome			2
+majčinome			4
+maksime	229		2
+maksimume	96		3
+malarme			2
+malenome			3
+malme			2
+malome	151		3
+maloumnome			5
+mame	5417		2
+marame	832		2
+materijalnome			6
+me	262106		1
+medenome			4
+medijume	78		2
+mehanizme	4260		2
+meleme	110		2
+melodrame	183		4
+memorandume	85		2
+merime			2
+međuforme			2
+međuvreme	41		2
+mikroklime	164		2
+mikroorganizme	354		2
+mikrosheme			2
+mikrotalasnome			2
+milenijume	88		2
+milome	29		3
+mime			2
+mirnome			2
+misaonome			5
+misirskome			3
+mislenome			2
+misticizme			2
+mladome	69		3
+mlakome			3
+mletačkome			4
+mnogome	2678		3
+mnome			2
+modernome			4
+mome			2
+monodrame	300		2
+monograme			2
+monohrome			2
+monstrume	189		2
+moralnome			3
+morfeme	28		2
+moćnome			3
+mrsnome			2
+mrtvome	25		2
+mrznome			2
+mudrome	15		2
+muselime			2
+mušeme			2
+muškome	10		3
+naboranome			2
+nadme	16		2
+nadmenome			2
+naglašenome			3
+naglome			2
+nagome			3
+naime	53359		2
+namame	99		2
+name			2
+napisanome			3
+naprednome			3
+narednome			2
+narodnome	19		3
+naročitome			4
+naslikanome			4
+naume	93		2
+naučenome			3
+navedenome	11		2
+nazime		M	2
+nebeskome	64		3
+nebesnome	16		2
+negativnome			5
+nejakome			4
+nekakome			2
+nekakvome			4
+nekome	19940		3
+neme	403		2
+nemirnome			4
+nemome			3
+nemoćnome			4
+neobičnome			5
+nepomičnome			5
+nepravednome			5
+nesitome			2
+nesporazume	701		5
+nesretnome			3
+nesrećnome			2
+neukome			3
+neumitnome			5
+neumrlome			2
+neupravnome			2
+neutralnome			5
+nevernome			4
+neverovatnome			2
+nevoljnome			2
+nevreme	1638		3
+neznanome			4
+nečime	59		3
+nečistome			3
+nikime			3
+nikome	14366		3
+niskome			3
+ničime	61		3
+njegovome	40		3
+njenome	22		3
+njihovome	21		4
+njime	10985		2
+njinome			2
+njome	913		2
+normalnome			4
+norme	6295		2
+novome	403		3
+noćnome			2
+obame			2
+obavijenome			5
+obavljenome			4
+običnome			3
+objavljenome			3
+obranome			2
+obraćenome			3
+obujme			2
+obuzme	524		2
+odalame			2
+odglume	79		2
+odlučnome			4
+odmame			2
+odrađenome			3
+određenome	10		3
+odsutnome			4
+oduzetome			3
+oduzme	3264		2
+odvajanome			3
+odvratnome			4
+oforme	359		2
+oglašenome			2
+ogorčenome			4
+ogromnome			4
+oklahome			2
+okome	43		2
+okovanome			3
+okružnome			2
+okušanome			2
+omame	37		2
+onome	21424		2
+oposume			4
+opreme	34247		3
+organizme	566		2
+orgazme	225		2
+osame	129		3
+osme	1156		2
+osnaženome			2
+osnovnome			4
+osunčanome			3
+osuđenome			3
+otme	1580		2
+otmenome			4
+otpalome			2
+otpreme	236		2
+otvorenome	21		4
+ovime	810		2
+ovome	20142		2
+ozime	100		2
+oštrome			3
+oživelome			2
+paklenome			3
+palme	1103		2
+pametnome	91		4
+paname			2
+panorame	394		2
+pantomime	248		2
+papskome			2
+paradigme	1227		2
+parfeme	457		2
+parme			2
+pažljivome			3
+pegavome			2
+peglanome			3
+pesme	32039		2
+petome			3
+pidžame	199		2
+pijanome			3
+pisanome			4
+pismenome			4
+pitome	322		3
+pitomome			3
+pizme			2
+piščevome			3
+pižame			2
+plame			2
+planinskome			3
+platforme	8197		2
+plavome	18		3
+plazme	1142		2
+pleme	2391		2
+plime	514		2
+pobeđenome			3
+pobratime	270		3
+poddirektorijume			2
+podforme			2
+podijume	53		2
+podjarme	25		2
+podmuklome			3
+podrume	473		2
+podsisteme	115		2
+podteme	34		2
+poeme	530		2
+pogrešnome			3
+pogrome	99		2
+pojme	89		2
+pokazanome			3
+pokojnome			2
+polakome	24		3
+polome	213		2
+polutame			4
+poluvreme	4028		2
+pomame	146		2
+pomamnome			2
+pomenutome			2
+pomnome			3
+pomorskome			2
+ponekome			2
+poniženome			3
+ponoćnome			2
+poočime			2
+popisanome			3
+popovskome			2
+poprime	128		2
+porodičnome			2
+poročnome			2
+posavskome			2
+posestrime	49		2
+poslanome			3
+posnome			2
+pospreme	40		2
+posrame	36		2
+postepenome			2
+potome			2
+potprograme	15		2
+povitome			2
+pozajme	332		2
+poznatome	14		4
+pozvanome			2
+praktičnome			3
+pravednome	17		2
+pravome	71		3
+praznome			2
+prašume	292		2
+preblagome			2
+preduzme	4588		2
+pregoleme	15		2
+prelome	418		2
+premalome			2
+premame			2
+premilome			2
+premudrome	10		2
+preokrenutome			3
+preotme	261		2
+prepoznatljivome			3
+preslabome			2
+presudnome			4
+pretežnome			2
+prethodnome			3
+pretpostavljenome			4
+preuzme	9634		2
+prevažnome			2
+prevelikome			4
+prezime	10127		2
+prečistome			2
+prijeme	327		2
+prime	4191		2
+pripitome	44		2
+pripovednome			2
+pripreme	24422		3
+prirodnome			3
+prisutnome			4
+pritome			2
+prizme	297		2
+prizvanome			3
+probleme	54039		2
+programe	20745		2
+programskome			3
+prokletome			4
+prolome			2
+prostome			3
+prostranome			3
+proznome			3
+prozorskome			2
+prozračnome			2
+prožme	84		2
+prvome	304		2
+psalame			2
+psalme	203		2
+pseudonime	43		2
+pume	92		2
+punome	11		3
+pustome			3
+radikalnome			5
+radnome	15		3
+rame	6190		2
+ranjenome			4
+ranome			3
+raspetome			2
+ratničkome			4
+različnome			2
+razneženome			3
+raznome			3
+razume	19239		3
+razumnome			4
+realnome			4
+reforme	18945		2
+reklame	7679		2
+renome		M	2
+reume	275		2
+rezime	1491		2
+rezume			2
+rečenome			4
+rečnome			3
+režime	711		2
+riječnome			4
+rime	448		2
+rimskome	20		3
+rodnome	27		3
+rođenome			3
+rume	26		2
+rumenome			2
+ruskome	33		3
+rđavome			3
+sajme			2
+salame	317		2
+salome			2
+samome	1003		3
+samrtnome			2
+sarme	374		2
+satkanome			2
+saveznome			3
+savršenome			4
+sačme	520		2
+sažme	154		2
+sedme	1950		2
+sedome			3
+seme		M	2
+serafime			2
+serume	97		2
+sezame	23		2
+sheme	414		2
+sigme			2
+sigurnome			4
+silnome			3
+silogizme			2
+sime			2
+simetričnome			3
+simptome	4846		2
+sindrome	50		2
+sinonime	111		2
+sintagme	509		2
+sintaksičkome			2
+sintetičnome			3
+sirijskome			4
+sisteme	11950		2
+sitnome			2
+sivome			3
+skorome			2
+skrame	49		2
+skrivenome			2
+skromnome			3
+skrovitome			3
+slame	1956		2
+slatkome			3
+slavljenome			4
+slavnome	15		3
+slavskome			2
+sleme	37		2
+slepome	44		3
+slikarskome			2
+slikovnome			2
+sličnome	13		3
+slobodnome			4
+slome	571		2
+sme	34006		1
+smirenome			3
+smradnome			2
+smrtnome	19		3
+snime	1200		2
+sobnome			2
+some	13		2
+sopstvenome			2
+spazme	22		2
+sperme	1267		2
+sporazume	2750		4
+sporome			3
+spreme	2441		2
+srame	51		2
+srbijašume			2
+srebrnome			4
+sreskome			2
+srećnome			3
+srme			2
+srodnome			3
+srpskome	201		3
+stadijume	96		2
+staklenome			3
+stalnome			2
+starmalome			2
+starome	144		3
+stenograme	130		2
+stigme	215		2
+stihovnome			2
+stonome			2
+stranome	10		3
+strategeme			2
+strašnome	39		2
+streme	377		2
+strme	422		2
+strogome			3
+stvarnome			3
+stvorenome	14		2
+sujetnome			3
+sume	4548		2
+suprotnome	25		3
+suvome	12		3
+svakome	8032		3
+svačime	27		3
+svemoćnome			4
+svetlome			2
+svetome	610		3
+svetskome	11		2
+svečanome			3
+svilenome			3
+svime	16		2
+svome	12083		2
+svršenome			3
+tajnome			3
+takme			2
+takvome	122		2
+talentovanome			2
+tame	1900		2
+tamnome			2
+tantijeme	114		2
+tekme	327		2
+telegrame	165		4
+telesnome			4
+teme	35041		2
+teoreme	268		2
+terme	468		2
+tesnome			2
+tihome			3
+time	95403		2
+tišme			2
+tome	325959		2
+toplome	16		3
+topolskome			2
+toponime	100		2
+toteme	21		2
+tradicionalnome			7
+tragičnome			3
+traume	1828		2
+traženome			2
+treme	644		2
+trenutnome			4
+trinaestome			2
+trojnome			2
+trome	93		2
+trudnome			2
+tulume			2
+turcizme	33		2
+turskome	51		2
+tužnome			2
+tvome		M	2
+tvrdome	12		3
+ubogome	13		4
+uhvatljivome			3
+ujdurme			2
+uključenome			2
+uleme	165		2
+ultimatume	295		2
+umetničkome			4
+umnogome	4237		2
+umnome			3
+umornome			4
+umrlome			2
+unajme	68		2
+uniforme	2073		2
+univerzume	54		2
+uniženome			3
+uočenome			3
+upravnome			2
+urazume	121		2
+urme			2
+usame			2
+usamljenome			4
+uskome			3
+uspešnome			3
+ustreme	18		2
+utučenome			3
+uvređenome			3
+uzajme			2
+uzetome	22		4
+uzme	18659		2
+uzvišenome			3
+učenome			4
+učinjenome			3
+vaganome			3
+valjevskome			2
+vandalizme			2
+vanknjiževnome			2
+vaskrslome	25		2
+vatrenome			4
+vazdušnome			2
+vedrome			3
+vekovnome			2
+velikome	181		3
+vernome	20		2
+veselome			4
+vezanome			2
+večitome			3
+večnome	45		3
+vidljivome			3
+vidnome			2
+vijetname			2
+vilinskome			2
+vime	90		2
+viđenome			4
+vrelome			3
+vreme	413506		2
+vukovome			2
+zadime	19		2
+zagrme	79		2
+zajme			2
+zakonitome			4
+zaljubljenome			2
+zalutalome			2
+zamislivome			3
+zaneme	55		2
+zanosnome			2
+zapadnome			4
+zasebnome			3
+zaspalome			2
+zatome	10		2
+zauzme	3161		2
+zavičajnome			2
+zavrzlame	299		2
+završnome			2
+zdravome	12		3
+zelenome			3
+zemaljskome	24		2
+zgusnutome			4
+zime	11429		2
+zlatnome	24		2
+zlome			2
+zločestome			3
+znanome			3
+znatnome			3
+zubnome			3
+zulume			2
+zverskome			2
+ćilime	109		2
+ćoravome			2
+ćutljivome			2
+čalme			2
+čame	177		2
+časnome	29		3
+česme			2
+čestitome	23		3
+četvrtome			3
+čime	55389		2
+čistome	27		3
+čitavome	19		4
+čizme	2196		2
+čudesnome			4
+čudnovatome			3
+čulnome			2
+đerme			2
+đečerme			2
+šarenome			3
+šeme	1831		2
+šestome			3
+šećerleme			2
+šime		M	2
+širokome	25		3
+šizme	87		2
+školskome			2
+škrtome			3
+šljame			2
+šljeme		J	2
+španskome			3
+šume	9525		2
+žandarme	62		2
+žednome	16		2
+železničkome			4
+željenome			3
+željezničkome			4
+ženskome	15		2
+živome	174		3
+nevrijeme	122		4
+nijeme	22		3
+pjesme			2
+poluvrijeme	58		2
+prijelome			3
+sjeme	428		2
+slijeme			2
+tjeme	26		2
+vrijeme	26757		2
+vrjeme			2

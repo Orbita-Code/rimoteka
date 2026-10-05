@@ -1,9 +1,9 @@
 8
-honoluluu		
-individuu	210	
-intervjuu	10478	
-kanuu	150	
-peruu		
-statuu	456	
-tabuu	20	
-vuduu		
+honoluluu			2
+individuu	210		2
+intervjuu	10478		2
+kanuu	150		2
+peruu			2
+statuu	456		2
+tabuu	20		3
+vuduu			2

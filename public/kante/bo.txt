@@ -1,61 +1,61 @@
 60
-Kubo		
-babo	109	
-barabo		
-bebo	32	
-berbo		
-bezubo		
-bobo	22	
-bombo		
-bonobo		
-borbo		
-bubašvabo		
-bubo		
-dvogubo		
-džambo		
-garbo		
-gazebo		
-grbo		
-grubo	4277	
-gubo		
-hobo		
-izbo	230	
-jerbo		
-kolumbo		
-lavabo		M
-limbo		
-ljubo		
-mambo	82	
-mobo		
-nebo	13029	
-osobo	16	
-placebo	848	
-potrebo		
-pregrubo	18	
-preslabo	43	
-probo	105	
-rambo		
-rembo		
-ribo	21	
-robo		
-rugobo		
-sabo		
-slabo	12198	
-slobo		
-službo		
-spodobo		
-srbo		
-sudbo		
-trubo		
-turbo		
-tužibabo		
-ubo	565	
-ugrubo	129	
-utrobo		
-vrbo		
-zabo		
-ćabo		
-škembo		
-škrbo		
-švabo	90	
-žabo	26	
+Kubo			2
+babo	109		2
+barabo			2
+bebo	32		2
+berbo			2
+bezubo			2
+bobo	22		2
+bombo			2
+bonobo			2
+borbo			2
+bubašvabo			2
+bubo			2
+dvogubo			2
+džambo			2
+garbo			2
+gazebo			2
+grbo			2
+grubo	4277		2
+gubo			2
+hobo			2
+izbo	230		2
+jerbo			2
+kolumbo			2
+lavabo		M	2
+limbo			2
+ljubo			2
+mambo	82		2
+mobo			2
+nebo	13029		2
+osobo	16		3
+placebo	848		2
+potrebo			3
+pregrubo	18		2
+preslabo	43		2
+probo	105		2
+rambo			2
+rembo			2
+ribo	21		2
+robo			2
+rugobo			2
+sabo			2
+slabo	12198		2
+slobo			2
+službo			2
+spodobo			2
+srbo			2
+sudbo			2
+trubo			2
+turbo			2
+tužibabo			2
+ubo	565		1
+ugrubo	129		2
+utrobo			3
+vrbo			2
+zabo			1
+ćabo			2
+škembo			2
+škrbo			2
+švabo	90		2
+žabo	26		2

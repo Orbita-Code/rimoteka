@@ -1,11 +1,11 @@
 10
-aloe		
-biroe	100	
-kanoe		
-lavaboe		
-metroe		
-nivoe	2692	
-oboe	44	
-panoe	204	
-podnivoe		
-sakoe	92	
+aloe			2
+biroe	100		2
+kanoe			2
+lavaboe			2
+metroe			2
+nivoe	2692		2
+oboe	44		2
+panoe	204		2
+podnivoe			2
+sakoe	92		2

@@ -1,15 +1,15 @@
 13
-Zagreb		
-galeb	972	
-hleb	11943	
-jastreb	206	
-leb		
-mekteb		
-nazeb	96	
-pogreb	290	
-tetreb	33	
-uleb		
-veb	7874	
-žleb	105	
-žreb	1690	
-hljeb		J
+Zagreb			2
+galeb	972		2
+hleb	11943		1
+jastreb	206		2
+leb			1
+mekteb			2
+nazeb	96		2
+pogreb	290		2
+tetreb	33		2
+uleb			2
+veb	7874		1
+žleb	105		1
+žreb	1690		1
+hljeb		J	1

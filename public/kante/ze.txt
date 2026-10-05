@@ -1,308 +1,308 @@
 307
-Parize		
-akcize	2936	
-analize	23580	
-anamneze	298	
-antiteze	72	
-aplauze	650	
-apoteoze	61	
-askeze	72	
-avitaminoze	46	
-baksuze		
-baze	12042	
-berze	4594	
-bezveze		
-blize		
-bluze	341	
-bogaze	52	
-bolonjeze		
-braze		
-breze	529	
-bronze	1271	
-bruceloze	40	
-brze	6804	
-celuloze	458	
-ciroze	189	
-dereze		
-dermatoze		
-devize	1673	
-dijagnoze	2856	
-dijalize	239	
-dijeceze	99	
-divokoze	108	
-dokaze	9742	
-dolaze	41820	
-doveze	235	
-dovoze	378	
-doze	3835	
-drvoreze	12	
-dubioze	194	
-ekspertize	824	
-ekspoze		
-ekstaze	256	
-elektrolize	161	
-engleze	559	
-faze	13623	
-fibroze	182	
-fotosinteze	265	
-francuze	746	
-franšize	2010	
-fraze	2039	
-friteze	36	
-fruktoze	196	
-gamze		
-garze		
-gaze	1555	
-geneze	200	
-glikoze	136	
-glukoze	1353	
-gmize		
-gologuze	20	
-grize	971	
-groze	78	
-hamze		
-hidrolize	51	
-hiperveze	52	
-hipnoze	274	
-hipofize	331	
-hipostaze	16	
-hipotenuze	27	
-hipoteze	884	
-hoze		
-iskaze	804	
-isplaze		
-izgaze	34	
-izgrize	13	
-izilaze		
-izlaze	9290	
-izmuze	52	
-iznalaze	124	
-izraze	3680	
-izuze		
-izveze	859	
-izvoze	1936	
-iščeze		
-jakuze		
-jeze	198	
-kaladze		
-kamikaze	574	
-kapreze		
-katarze	331	
-kaveze	238	
-keze		
-kineze	661	
-klinceze	141	
-klize	485	
-kneze		
-kontroverze	812	
-koze	1513	
-krauze		
-krize	44456	
-kukuruze	120	
-laktoze	382	
-laze	583	
-lepeze	356	
-leukoze		
-lojze		
-loze	2960	
-lufthanze		
-magaze		
-majoneze	25	
-makaze	810	
-malteze		
-mamlaze		
-mamuze	74	
-markize	20	
-markuze		
-maze	608	
-meduze	264	
-menopauze	725	
-menze	191	
-metamorfoze	335	
-metastaze	509	
-metateze	10	
-meze		M
-međuveze		
-mikoze	20	
-mimoilaze	143	
-mimoze	134	
-miraze		
-mitraljeze		
-monogeneze		
-mraze		
-mrze	3598	
-muze	465	
-nadilaze	208	
-nadolaze	101	
-nadveze		
-nagaze	50	
-nailaze	1399	
-nakaze	298	
-nalaze	68763	
-namrze		
-narkoze	48	
-naveze	55	
-navrze		
-nebuloze	1045	
-nekroze	233	
-nervoze	1674	
-neuroze	354	
-oaze	802	
-obaveze	40524	
-obezobraze		
-obilaze	1896	
-oblaze		
-obraze	881	
-obuze	198	
-odgrize	49	
-odlaze	9652	
-odraze	205	
-oduze	47	
-odveze	539	
-odvoze	284	
-omraze	64	
-opaze	102	
-oroze		
-osmoze	123	
-osteoporoze	992	
-otkaze	1123	
-paradajze	10	
-parafraze	64	
-paralize	1020	
-pauze	8357	
-paze	1385	
-pecikoze		
-pegaze		
-peroreze		
-pervaze		
-pizze	163	
-plaze	218	
-podilaze	143	
-podveze		
-pogaze	109	
-polaze	1345	
-poloneze		
-pomuze	53	
-ponize	207	
-poraze	1368	
-poreze	6022	
-poteze	4571	
-poveze	226	
-poze	889	
-prebrze	142	
-preduze	47	
-pregaze	140	
-pregrize	50	
-prelaze	6642	
-premaze	159	
-preneraze		
-preobraze	105	
-preuze	29	
-prevazilaze	1919	
-preveze	765	
-prevoze	1104	
-pridolaze		
-prijevoze		
-prikaze	1003	
-prilaze	1697	
-princeze	1815	
-pripaze	129	
-prireze	22	
-prognoze	5032	
-progrize	13	
-proizilaze	1739	
-proizlaze	769	
-proklize		
-prolaze	10396	
-pronalaze	2361	
-proreze	121	
-prosuze		
-proteze	1096	
-proveze	26	
-proze	2204	
-psihoanalize	549	
-psihoze	357	
-psorijaze	465	
-putokaze	308	
-puze	184	
-puškomitraljeze	17	
-razilaze	537	
-razlaze	17	
-razmaze	46	
-razmimoilaze		
-razveze		
-razvoze	63	
-reprize	553	
-restenoze		
-reze		
-rize		
-roze		M
-saharoze	115	
-saobraze		
-saveze	736	
-silaze	487	
-simbioze	276	
-sinteze	1159	
-sirakuze		
-skleroze	674	
-skorseze		
-sluze		
-snalaze	2150	
-snize	497	
-spaze	48	
-spinoze		
-staze	16335	
-stenoze	257	
-suze	8109	
-sveze	236	
-tamnoroze		
-taze		M
-telekineze	16	
-tereze		
-teze	5294	
-topaze		
-trapeze	43	
-tromboze	338	
-trpeze	1302	
-tuberkuloze	1881	
-ugrize	240	
-ugroze	1925	
-ugursuze		M
-ukaze	199	
-ulaze	10891	
-uljeze	118	
-ultrabrze		
-unakaze	55	
-unervoze		
-unize	63	
-uobraze	24	
-ureze	21	
-uveze	836	
-uvoze	1933	
-uze	2272	
-uzlaze	18	
-vaze	602	
-veze	70152	
-virtuoze	19	
-viskoze	79	
-viteze		
-vize	3473	
-voze	7715	
-vrze		
-zagaze	38	
-zagrize	214	
-zajaze		
-zalaze	573	
-zamrze	42	
-zaobilaze	1038	
-zapaze	121	
-zaraze	2253	
-zareze	74	
-zasuze	38	
-zauze	95	
-zgaze	88	
-zgroze	19	
-ćuze		
-čeze		M
-čimpanze	14	
-šimpanze	244	
+Parize			2
+akcize	2936		2
+analize	23580		2
+anamneze	298		2
+antiteze	72		2
+aplauze	650		3
+apoteoze	61		2
+askeze	72		2
+avitaminoze	46		2
+baksuze			2
+baze	12042		2
+berze	4594		2
+bezveze			2
+blize			2
+bluze	341		2
+bogaze	52		3
+bolonjeze			2
+braze			2
+breze	529		2
+bronze	1271		2
+bruceloze	40		2
+brze	6804		2
+celuloze	458		2
+ciroze	189		2
+dereze			2
+dermatoze			2
+devize	1673		2
+dijagnoze	2856		2
+dijalize	239		2
+dijeceze	99		2
+divokoze	108		2
+dokaze	9742		3
+dolaze	41820		2
+doveze	235		2
+dovoze	378		2
+doze	3835		2
+drvoreze	12		4
+dubioze	194		2
+ekspertize	824		2
+ekspoze			2
+ekstaze	256		2
+elektrolize	161		2
+engleze	559		2
+faze	13623		2
+fibroze	182		2
+fotosinteze	265		2
+francuze	746		2
+franšize	2010		2
+fraze	2039		2
+friteze	36		2
+fruktoze	196		2
+gamze			2
+garze			2
+gaze	1555		2
+geneze	200		2
+glikoze	136		2
+glukoze	1353		2
+gmize			2
+gologuze	20		2
+grize	971		2
+groze	78		2
+hamze			2
+hidrolize	51		2
+hiperveze	52		2
+hipnoze	274		2
+hipofize	331		2
+hipostaze	16		2
+hipotenuze	27		2
+hipoteze	884		2
+hoze			2
+iskaze	804		2
+isplaze			2
+izgaze	34		2
+izgrize	13		2
+izilaze			2
+izlaze	9290		3
+izmuze	52		2
+iznalaze	124		2
+izraze	3680		3
+izuze			2
+izveze	859		2
+izvoze	1936		2
+iščeze			2
+jakuze			2
+jeze	198		2
+kaladze			2
+kamikaze	574		2
+kapreze			2
+katarze	331		2
+kaveze	238		2
+keze			2
+kineze	661		2
+klinceze	141		2
+klize	485		2
+kneze			2
+kontroverze	812		2
+koze	1513		2
+krauze			2
+krize	44456		2
+kukuruze	120		2
+laktoze	382		2
+laze	583		2
+lepeze	356		2
+leukoze			2
+lojze			2
+loze	2960		2
+lufthanze			2
+magaze			2
+majoneze	25		2
+makaze	810		2
+malteze			2
+mamlaze			2
+mamuze	74		2
+markize	20		2
+markuze			2
+maze	608		2
+meduze	264		2
+menopauze	725		2
+menze	191		2
+metamorfoze	335		2
+metastaze	509		2
+metateze	10		2
+meze		M	2
+međuveze			2
+mikoze	20		2
+mimoilaze	143		2
+mimoze	134		2
+miraze			3
+mitraljeze			2
+monogeneze			2
+mraze			2
+mrze	3598		2
+muze	465		2
+nadilaze	208		2
+nadolaze	101		2
+nadveze			2
+nagaze	50		2
+nailaze	1399		2
+nakaze	298		2
+nalaze	68763		2
+namrze			2
+narkoze	48		2
+naveze	55		2
+navrze			2
+nebuloze	1045		2
+nekroze	233		2
+nervoze	1674		2
+neuroze	354		2
+oaze	802		2
+obaveze	40524		4
+obezobraze			2
+obilaze	1896		2
+oblaze			2
+obraze	881		2
+obuze	198		2
+odgrize	49		2
+odlaze	9652		2
+odraze	205		3
+oduze	47		2
+odveze	539		2
+odvoze	284		2
+omraze	64		2
+opaze	102		2
+oroze			2
+osmoze	123		2
+osteoporoze	992		2
+otkaze	1123		3
+paradajze	10		2
+parafraze	64		2
+paralize	1020		2
+pauze	8357		2
+paze	1385		2
+pecikoze			2
+pegaze			2
+peroreze			2
+pervaze			2
+pizze	163		2
+plaze	218		2
+podilaze	143		2
+podveze			2
+pogaze	109		2
+polaze	1345		2
+poloneze			2
+pomuze	53		2
+ponize	207		2
+poraze	1368		3
+poreze	6022		2
+poteze	4571		3
+poveze	226		2
+poze	889		2
+prebrze	142		2
+preduze	47		2
+pregaze	140		2
+pregrize	50		2
+prelaze	6642		2
+premaze	159		2
+preneraze			2
+preobraze	105		2
+preuze	29		2
+prevazilaze	1919		2
+preveze	765		2
+prevoze	1104		2
+pridolaze			2
+prijevoze			3
+prikaze	1003		2
+prilaze	1697		2
+princeze	1815		2
+pripaze	129		2
+prireze	22		2
+prognoze	5032		2
+progrize	13		2
+proizilaze	1739		2
+proizlaze	769		2
+proklize			2
+prolaze	10396		2
+pronalaze	2361		2
+proreze	121		2
+prosuze			2
+proteze	1096		2
+proveze	26		2
+proze	2204		2
+psihoanalize	549		2
+psihoze	357		2
+psorijaze	465		2
+putokaze	308		4
+puze	184		2
+puškomitraljeze	17		2
+razilaze	537		2
+razlaze	17		2
+razmaze	46		2
+razmimoilaze			2
+razveze			2
+razvoze	63		2
+reprize	553		2
+restenoze			2
+reze			2
+rize			2
+roze		M	2
+saharoze	115		2
+saobraze			2
+saveze	736		2
+silaze	487		2
+simbioze	276		2
+sinteze	1159		2
+sirakuze			2
+skleroze	674		2
+skorseze			2
+sluze			2
+snalaze	2150		2
+snize	497		2
+spaze	48		2
+spinoze			2
+staze	16335		2
+stenoze	257		2
+suze	8109		2
+sveze	236		2
+tamnoroze			2
+taze		M	2
+telekineze	16		2
+tereze			2
+teze	5294		2
+topaze			2
+trapeze	43		2
+tromboze	338		2
+trpeze	1302		2
+tuberkuloze	1881		2
+ugrize	240		2
+ugroze	1925		2
+ugursuze		M	2
+ukaze	199		2
+ulaze	10891		2
+uljeze	118		2
+ultrabrze			2
+unakaze	55		2
+unervoze			2
+unize	63		2
+uobraze	24		2
+ureze	21		2
+uveze	836		2
+uvoze	1933		2
+uze	2272		2
+uzlaze	18		2
+vaze	602		2
+veze	70152		2
+virtuoze	19		2
+viskoze	79		2
+viteze			3
+vize	3473		2
+voze	7715		2
+vrze			2
+zagaze	38		2
+zagrize	214		2
+zajaze			2
+zalaze	573		2
+zamrze	42		2
+zaobilaze	1038		2
+zapaze	121		2
+zaraze	2253		3
+zareze	74		2
+zasuze	38		2
+zauze	95		2
+zgaze	88		2
+zgroze	19		2
+ćuze			2
+čeze		M	2
+čimpanze	14		2
+šimpanze	244		2

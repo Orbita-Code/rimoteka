@@ -1,10 +1,10 @@
 9
-džojs		
-fejs	377	
-grejs	1320	
-interfejs	4805	
-najs		
-prajs		
-rajs		
-rojs		
-vajs		
+džojs			1
+fejs	377		1
+grejs	1320		1
+interfejs	4805		2
+najs			1
+prajs			1
+rajs			1
+rojs			1
+vajs			1

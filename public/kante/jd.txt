@@ -1,11 +1,11 @@
 10
-ajd		
-aparthejd	167	
-flojd		
-frojd		
-hajd	305	
-klajd		
-lojd		
-ofsajd		M
-pripejd		
-slajd	437	
+ajd			1
+aparthejd	167		3
+flojd			1
+frojd			1
+hajd	305		1
+klajd			1
+lojd			1
+ofsajd		M	2
+pripejd			2
+slajd	437		1

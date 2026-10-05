@@ -1,17 +1,17 @@
 16
-cvrc		M
-gigaherc		
-herc		
-kiloherc		
-komerc	625	
-kvarc	172	
-megaherc		
-merc		
-nerc		
-prc		M
-rikverc	521	
-šmrc	151	
-šorc	343	
-švarc		
-šverc	1594	
-švorc		M
+cvrc		M	1
+gigaherc			2
+herc			1
+kiloherc			2
+komerc	625		2
+kvarc	172		1
+megaherc			2
+merc			1
+nerc			1
+prc		M	1
+rikverc	521		2
+šmrc	151		1
+šorc	343		1
+švarc			1
+šverc	1594		1
+švorc		M	1

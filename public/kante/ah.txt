@@ -1,385 +1,385 @@
 384
-aah		
-ah	4108	
-ajatolah	180	
-aktivirah		
-alah		
-alarmirah		
-almanah	216	
-amfibrah		
-arlaukah		
-bah		
-bandažirah		
-bankrotirah		
-batinah		
-bauljah		
-bavljah		
-bejah		
-bežah		
-bijah	11	
-bičevah		
-blebetah		
-bojah		
-borah		
-brah		
-branjah		
-braćah		
-brbljah		
-brigah		
-celivah		
-cucah		
-dah	4544	
-darivah		
-darovah		
-davah		
-delah		
-divljah		
-dodah	18	
-dolažah		
-domišljah		
-doperjah		
-dočekah	53	
-drhtah		
-držah		
-fah		M
-fatah		
-felah		
-fojerbah		
-gledah		
-gnušah		
-gorah		
-govorah		
-grah	184	
-grebah		
-grljah		
-hodah		
-hođah		
-igrah		
-imah	12	
-imađah		
-inšalah		
-iskah		
-iskazah		
-iskopah	18	
-iskušah		
-isplivah		
-ispričah	74	
-isprobah		
-isterah		
-istraživah		
-isukah		
-izabrah	68	
-izazivah		
-izbivah		
-izbrisah	11	
-izbrojah	10	
-izdah	228	
-izdržah	22	
-izlažah		
-izračunah		
-iđah		
-iščekivah		
-javljah		
-jeromonah	1134	
-kazah	90	
-kazivah		
-klečah		
-klimah		
-kopah		
-krah	744	
-krijah		
-kupovah		
-ležah		
-ljubljah		
-mah	3972	
-mešah		
-miljah		
-mišljah		
-mogah		
-moljah		
-monah	3175	
-monomah		
-morah		
-mudrovah		
-nabrah		
-nabrojah	18	
-nadah		
-nadjačah		
-namah	435	
-nameravah		
-napisah	730	
-napuštah		
-naslađivah		
-nasmejah	148	
-naterah	13	
-nazvah	39	
-načekah		
-negodovah		
-negovah		
-nemah		
-nestajah		
-obamirah		
-obavezah		
-obećah	57	
-obradovah	63	
-obrah		
-obraćah		
-obrisah	21	
-odabrah	12	
-odah		
-odazvah		
-oderah		
-odevah		
-odlažah		
-odležah		
-odmah	117751	
-odmarah		
-odnegovah		
-odrezah		
-održah	21	
-odvraćah		
-ogledah		
-okajah		
-oklevetah		
-okupah		
-opijah		
-oprah	29	
-orah	1227	
-osedlah		
-osećah		
-ostah	82	
-osunčah		
-oterah		
-otpasah		
-otplakah		
-otrčah	17	
-otvarah		
-ovladah		
-oćutah		
-očekivah	26	
-očitah		
-padišah		
-pasah		
-peglah		
-pesah		
-pevah		
-pisah	17	
-pitah		
-plah	36	
-plakah		
-pobojah	14	
-poderah		
-podmetah		
-podnošah		
-podražavah		
-pogledah	421	
-pohitah	19	
-pokajah	16	
-pokazah	49	
-pokušah	101	
-pomazah		
-pomešah		
-pomilovah	11	
-pomirisah		
-pomišljah		
-ponadah	26	
-ponavljah		
-pootvarah		
-poradovah		
-posijah		
-poslah	118	
-poslušah	44	
-posmatrah		
-postah	10	
-postradah		
-potapšah		
-potrčah	27	
-pouzdah		
-poučavah		
-poverovah	25	
-povikah	30	
-poznah	44	
-pozvah	73	
-počekah		
-prah	2608	
-praznovah		
-prebivah		
-predah	1419	
-prelažah		
-premirah		
-prestajah		
-previjah		
-približavah		
-pribrah	10	
-prikazah		
-prikovah		
-primah		
-primetah		
-pripasah		
-pripremah		
-prisustvovah		
-pritrčah		
-priupitah	18	
-prizvah	12	
-pričekah		
-progledah	17	
-progutah	14	
-prokopah		
-prolažah		
-promucah	13	
-propovedah		
-protivljah		
-protrljah		
-proviđah		
-pročitah	1032	
-prošaputah		
-pružah		
-radovah		
-raspitah		
-ratovah		
-razabrah	15	
-razgledah		
-razmah	100	
-razmišljah		
-rikah		
-robovah		
-rukovah		
-sabah		M
-sabrah	12	
-sagledah		
-sanjah		
-saobraćah		
-saslušah		
-satirah		
-savladah		
-saznah	76	
-sačekah	29	
-sačuvah	34	
-sejah		
-sevdah		M
-seđah		
-siromah	808	
-skidah		
-sklanjah		
-skončah		
-skuckah		
-slagah	19	
-sledovah		
-slušah	10	
-smatrah		
-smejah		
-smilovah		
-smirivah		
-snevah		
-spoznah	23	
-spravljah		
-spremah		
-stajah		
-starah		
-starovlah		
-stiskah		
-stiđah		
-stradah		
-strah	25643	
-strpah		
-stvarah		
-suzdržah		
-svirah		
-taborah		
-telemah		
-terah		
-tražah		
-trebah		
-trčah		
-ubrah		
-ubrojah		
-ubrzah	12	
-udah	328	
-udubljivah		
-ugledah	362	
-ugurah		
-ukaljah		
-ukazah	10	
-ukebah		
-ukopčah		
-umah		
-umivah		
-upitah	600	
-upoznah	71	
-upravljah		
-uprljah		
-uskraćivah		
-ustah		
-ustajah		
-ustezah		
-ustreptah		
-utah		
-uzabrah		
-uzdah	793	
-uzdržah		
-uzimah		
-uzmah		
-uzorah		
-ućutah	11	
-ućutkah		
-užasavah		
-uživah		
-vagah		
-vapijah		
-varah		
-varirah		
-vaspitah		
-verovah		
-veslah		
-vezah		
-večerah		
-vikah		
-viđah		
-vlah		
-vodah		
-voljah		
-vraćah		
-zablejah		
-zadah	813	
-zadremah	10	
-zadrhtah	12	
-zadržah	30	
-zagledah	31	
-zaiskah		
-zaklah		
-zakucah	13	
-zakukah		
-zalutah		
-zamah	1343	
-zamišljah		
-zamucah		
-zapah		M
-zapevah		
-zapisah	20	
-zapitah	175	
-zaplakah	24	
-zaspah	42	
-zaticah		
-zatirah		
-zatreptah		
-zaustavljah		
-zavezah		
-zaveštah		
-zavikah		
-zazviždah		
-zaćutah		
-začamah		
-zbrisah		
-zidah		
-zijah		
-znah		
-ćulah		
-ćutah		
-čekah		
-čitah		
-čuvah		
-šah	2369	
-šarlah	148	
-šetah		
-željah		
-življah		
+aah			2
+ah	4108		1
+ajatolah	180		2
+aktivirah			2
+alah			2
+alarmirah			2
+almanah	216		2
+amfibrah			2
+arlaukah			2
+bah			1
+bandažirah			2
+bankrotirah			2
+batinah			2
+bauljah			2
+bavljah			2
+bejah			2
+bežah			2
+bijah	11		2
+bičevah			3
+blebetah			2
+bojah			2
+borah			2
+brah			1
+branjah			2
+braćah			2
+brbljah			2
+brigah			2
+celivah			2
+cucah			2
+dah	4544		1
+darivah			2
+darovah			2
+davah			2
+delah			2
+divljah			2
+dodah	18		2
+dolažah			2
+domišljah			2
+doperjah			2
+dočekah	53		2
+drhtah			2
+držah			2
+fah		M	1
+fatah			2
+felah			2
+fojerbah			2
+gledah			2
+gnušah			2
+gorah			2
+govorah			2
+grah	184		1
+grebah			2
+grljah			2
+hodah			2
+hođah			2
+igrah			2
+imah	12		2
+imađah			2
+inšalah			2
+iskah			2
+iskazah			2
+iskopah	18		2
+iskušah			2
+isplivah			2
+ispričah	74		2
+isprobah			2
+isterah			2
+istraživah			2
+isukah			2
+izabrah	68		2
+izazivah			2
+izbivah			2
+izbrisah	11		2
+izbrojah	10		2
+izdah	228		2
+izdržah	22		2
+izlažah			2
+izračunah			2
+iđah			2
+iščekivah			2
+javljah			2
+jeromonah	1134		2
+kazah	90		2
+kazivah			2
+klečah			2
+klimah			2
+kopah			2
+krah	744		1
+krijah			2
+kupovah			2
+ležah			2
+ljubljah			2
+mah	3972		1
+mešah			2
+miljah			2
+mišljah			2
+mogah			2
+moljah			2
+monah	3175		2
+monomah			2
+morah			2
+mudrovah			2
+nabrah			2
+nabrojah	18		2
+nadah			2
+nadjačah			2
+namah	435		2
+nameravah			2
+napisah	730		2
+napuštah			2
+naslađivah			2
+nasmejah	148		2
+naterah	13		2
+nazvah	39		2
+načekah			2
+negodovah			3
+negovah			3
+nemah			2
+nestajah			2
+obamirah			2
+obavezah			2
+obećah	57		2
+obradovah	63		3
+obrah			2
+obraćah			2
+obrisah	21		2
+odabrah	12		2
+odah			2
+odazvah			2
+oderah			2
+odevah			2
+odlažah			2
+odležah			2
+odmah	117751		2
+odmarah			2
+odnegovah			2
+odrezah			2
+održah	21		2
+odvraćah			2
+ogledah			2
+okajah			2
+oklevetah			2
+okupah			2
+opijah			2
+oprah	29		2
+orah	1227		2
+osedlah			2
+osećah			2
+ostah	82		2
+osunčah			2
+oterah			2
+otpasah			2
+otplakah			2
+otrčah	17		2
+otvarah			2
+ovladah			2
+oćutah			2
+očekivah	26		2
+očitah			2
+padišah			2
+pasah			1
+peglah			2
+pesah			2
+pevah			2
+pisah	17		2
+pitah			2
+plah	36		1
+plakah			2
+pobojah	14		2
+poderah			2
+podmetah			2
+podnošah			2
+podražavah			2
+pogledah	421		2
+pohitah	19		2
+pokajah	16		2
+pokazah	49		2
+pokušah	101		2
+pomazah			2
+pomešah			2
+pomilovah	11		3
+pomirisah			2
+pomišljah			2
+ponadah	26		2
+ponavljah			2
+pootvarah			2
+poradovah			2
+posijah			2
+poslah	118		2
+poslušah	44		2
+posmatrah			2
+postah	10		2
+postradah			2
+potapšah			2
+potrčah	27		2
+pouzdah			2
+poučavah			2
+poverovah	25		3
+povikah	30		2
+poznah	44		2
+pozvah	73		2
+počekah			2
+prah	2608		1
+praznovah			3
+prebivah			2
+predah	1419		2
+prelažah			2
+premirah			2
+prestajah			2
+previjah			2
+približavah			2
+pribrah	10		2
+prikazah			2
+prikovah			2
+primah			2
+primetah			2
+pripasah			2
+pripremah			2
+prisustvovah			3
+pritrčah			2
+priupitah	18		2
+prizvah	12		2
+pričekah			2
+progledah	17		2
+progutah	14		2
+prokopah			2
+prolažah			2
+promucah	13		2
+propovedah			2
+protivljah			2
+protrljah			2
+proviđah			2
+pročitah	1032		2
+prošaputah			2
+pružah			2
+radovah			3
+raspitah			2
+ratovah			3
+razabrah	15		2
+razgledah			2
+razmah	100		2
+razmišljah			2
+rikah			2
+robovah			2
+rukovah			3
+sabah		M	2
+sabrah	12		2
+sagledah			2
+sanjah			2
+saobraćah			2
+saslušah			2
+satirah			2
+savladah			2
+saznah	76		2
+sačekah	29		2
+sačuvah	34		2
+sejah			2
+sevdah		M	2
+seđah			2
+siromah	808		2
+skidah			2
+sklanjah			2
+skončah			2
+skuckah			2
+slagah	19		2
+sledovah			2
+slušah	10		2
+smatrah			2
+smejah			2
+smilovah			3
+smirivah			2
+snevah			2
+spoznah	23		2
+spravljah			2
+spremah			2
+stajah			2
+starah			2
+starovlah			2
+stiskah			2
+stiđah			2
+stradah			2
+strah	25643		1
+strpah			2
+stvarah			2
+suzdržah			2
+svirah			2
+taborah			2
+telemah			2
+terah			2
+tražah			2
+trebah			2
+trčah			2
+ubrah			2
+ubrojah			2
+ubrzah	12		2
+udah	328		2
+udubljivah			2
+ugledah	362		2
+ugurah			2
+ukaljah			2
+ukazah	10		2
+ukebah			2
+ukopčah			2
+umah			2
+umivah			2
+upitah	600		2
+upoznah	71		2
+upravljah			2
+uprljah			2
+uskraćivah			2
+ustah			2
+ustajah			2
+ustezah			2
+ustreptah			2
+utah			2
+uzabrah			2
+uzdah	793		2
+uzdržah			2
+uzimah			2
+uzmah			2
+uzorah			2
+ućutah	11		2
+ućutkah			2
+užasavah			2
+uživah			2
+vagah			2
+vapijah			2
+varah			2
+varirah			2
+vaspitah			2
+verovah			3
+veslah			2
+vezah			2
+večerah			2
+vikah			2
+viđah			2
+vlah			1
+vodah			2
+voljah			2
+vraćah			2
+zablejah			2
+zadah	813		2
+zadremah	10		2
+zadrhtah	12		2
+zadržah	30		2
+zagledah	31		2
+zaiskah			2
+zaklah			2
+zakucah	13		2
+zakukah			2
+zalutah			2
+zamah	1343		2
+zamišljah			2
+zamucah			2
+zapah		M	2
+zapevah			2
+zapisah	20		2
+zapitah	175		2
+zaplakah	24		2
+zaspah	42		2
+zaticah			2
+zatirah			2
+zatreptah			2
+zaustavljah			2
+zavezah			2
+zaveštah			2
+zavikah			2
+zazviždah			2
+zaćutah			2
+začamah			2
+zbrisah			2
+zidah			2
+zijah			2
+znah			1
+ćulah			2
+ćutah			2
+čekah			2
+čitah			2
+čuvah			2
+šah	2369		1
+šarlah	148		2
+šetah			2
+željah			2
+življah			2

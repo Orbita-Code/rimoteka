@@ -1,19 +1,19 @@
 18
-Melburn		
-Saturn		
-bajern		
-bern		
-crn	1384	
-hepbern		
-horn		
-kamgarn		
-kern		
-koncern	899	
-modern		
-precrn		
-sitnozrn		
-srebrn	61	
-strn		
-trn	1235	
-vestern	372	
-vučitrn		
+Melburn			2
+Saturn			2
+bajern			2
+bern			1
+crn	1384		1
+hepbern			2
+horn			1
+kamgarn			2
+kern			1
+koncern	899		2
+modern			2
+precrn			2
+sitnozrn			2
+srebrn	61		2
+strn			1
+trn	1235		1
+vestern	372		2
+vučitrn			2

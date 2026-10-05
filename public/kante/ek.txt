@@ -1,138 +1,138 @@
 113
-bek	2990	
-bečkerek		
-biftek	443	
-blekdžek		
-bogočovek		
-brzorek		M
-burek	1279	
-cvek		
-dalek	632	
-derek		
-dernek		
-direk		M
-dovek		
-doček	3876	
-drnovšek		
-dugovek		
-dulek		
-dušek	1105	
-dvopek	96	
-fenek		
-fišek		M
-flešbek		
-gepek	940	
-hajek		
-hečbek	310	
-hudeček		
-imlek		
-isek		M
-istek	281	
-jedek		
-jek		M
-jelek		M
-jendek		
-kambek		
-kek		
-klek		
-kodek		
-kolosek	1045	
-kratkovek		M
-kukurek	53	
-kvebek		
-kvoterbek	218	
-lampek		
-lek	16475	
-lelek		M
-lemek		
-lotrek		
-majdanpek		
-marek		
-maček		
-mek	789	
-nadčovek	60	
-napretek	265	
-navek		
-nedalek		
-nek	15885	
-nečovek		M
-odjek	1619	
-odsek	4045	
-oduvek	14058	
-opek		
-osek		
-ovek		
-pamtivek	19	
-pek		
-pendrek	241	
-podalek		
-podstrek	2354	
-podčovek		
-polumek		
-polučovek		
-poček	287	
-pračovek	41	
-predalek		
-prek	183	
-presek	2396	
-pretek	1408	
-prosek		M
-protek		
-prošek	73	
-prudek		
-ramstek		
-rebek		
-rek	1490	
-remek	1615	
-rundek		
-sek	622	
-sklek	160	
-tek	163119	
-trbosek		M
-uelbek		
-ulemek		
-usek	84	
-uvek	278223	
-vavek		
-vek	19039	
-zanavek		M
-zasek	15	
-zatopek		
-zauvek	11914	
-zevzek		M
-zvek	26	
-ćutek		
-čapek		
-ček	2281	
-čerek		M
-čovek	127356	
-čoček		M
-đerdek		
-đevrek		M
-šmek		
-šrek		
-štek		M
-covjek		
-dovijek		
-kolosijek	21	
-lijek	724	
-ljek		
-odsjek		
-oduvijek	808	
-oduvjek		
-osijek	326	
-ovjek		
-presjek		
-prosjek		
-tijek	88	
-trbosjek		
-uvijek	17522	
-uvjek		
-vijek	1036	
-vjek		
-zanavijek		
-zauvijek	837	
-zauvjek		
-ćovjek		
-čovijek		
-čovjek		M
+bek	2990		1
+bečkerek			2
+biftek	443		2
+blekdžek			2
+bogočovek			2
+brzorek		M	2
+burek	1279		2
+cvek			1
+dalek	632		2
+derek			2
+dernek			2
+direk		M	2
+dovek			2
+doček	3876		2
+drnovšek			2
+dugovek			2
+dulek			2
+dušek	1105		2
+dvopek	96		2
+fenek			2
+fišek		M	2
+flešbek			2
+gepek	940		2
+hajek			2
+hečbek	310		2
+hudeček			2
+imlek			2
+isek		M	2
+istek	281		2
+jedek			2
+jek		M	1
+jelek		M	2
+jendek			2
+kambek			2
+kek			1
+klek			1
+kodek			2
+kolosek	1045		3
+kratkovek		M	2
+kukurek	53		2
+kvebek			2
+kvoterbek	218		2
+lampek			2
+lek	16475		1
+lelek		M	2
+lemek			2
+lotrek			2
+majdanpek			2
+marek			2
+maček			2
+mek	789		1
+nadčovek	60		2
+napretek	265		2
+navek			2
+nedalek			2
+nek	15885		1
+nečovek		M	2
+odjek	1619		2
+odsek	4045		2
+oduvek	14058		2
+opek			2
+osek			2
+ovek			2
+pamtivek	19		2
+pek			1
+pendrek	241		2
+podalek			2
+podstrek	2354		2
+podčovek			2
+polumek			2
+polučovek			2
+poček	287		2
+pračovek	41		2
+predalek			2
+prek	183		1
+presek	2396		2
+pretek	1408		2
+prosek		M	2
+protek			2
+prošek	73		2
+prudek			2
+ramstek			2
+rebek			2
+rek	1490		1
+remek	1615		2
+rundek			2
+sek	622		1
+sklek	160		1
+tek	163119		1
+trbosek		M	2
+uelbek			2
+ulemek			2
+usek	84		2
+uvek	278223		2
+vavek			2
+vek	19039		1
+zanavek		M	2
+zasek	15		2
+zatopek			2
+zauvek	11914		2
+zevzek		M	2
+zvek	26		1
+ćutek			2
+čapek			2
+ček	2281		1
+čerek		M	2
+čovek	127356		2
+čoček		M	2
+đerdek			2
+đevrek		M	2
+šmek			1
+šrek			1
+štek		M	1
+covjek			2
+dovijek			3
+kolosijek	21		4
+lijek	724		1
+ljek			1
+odsjek			2
+oduvijek	808		3
+oduvjek			3
+osijek	326		3
+ovjek			2
+presjek			2
+prosjek			2
+tijek	88		1
+trbosjek			3
+uvijek	17522		3
+uvjek			2
+vijek	1036		1
+vjek			1
+zanavijek			3
+zauvijek	837		3
+zauvjek			3
+ćovjek			2
+čovijek			3
+čovjek		M	2

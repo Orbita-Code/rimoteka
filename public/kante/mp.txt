@@ -1,9 +1,9 @@
 8
-kamp	6619	
-kemp	116	
-komp	6974	
-kramp	62	
-olimp		
-tramp		M
-vamp	77	
-škamp		
+kamp	6619		1
+kemp	116		1
+komp	6974		1
+kramp	62		1
+olimp			2
+tramp		M	1
+vamp	77		1
+škamp			1

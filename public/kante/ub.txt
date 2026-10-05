@@ -1,37 +1,37 @@
 36
-aeroklub	110	
-bezub	14	
-bogoljub		
-bratoljub		
-domoljub	32	
-dragoljub	921	
-dub		
-dvogub		
-golub	1018	
-goroljub		
-grub	1025	
-kesizub		
-klub	50596	
-krezub	21	
-kub	236	
-lub		M
-miloljub		
-mioljub		
-miroljub		
-obrub	22	
-porub	52	
-pregrub	25	
-preljub	45	
-pub		M
-radoljub		
-rodoljub	843	
-rub	1183	
-rukoljub	22	
-slavoljub		
-srboljub		
-stogub		
-stub	5127	
-trogub		
-veroljub		
-zarub		M
-zub	2998	
+aeroklub	110		2
+bezub	14		2
+bogoljub			3
+bratoljub			3
+domoljub	32		3
+dragoljub	921		3
+dub			1
+dvogub			2
+golub	1018		2
+goroljub			3
+grub	1025		1
+kesizub			2
+klub	50596		1
+krezub	21		2
+kub	236		1
+lub		M	1
+miloljub			3
+mioljub			3
+miroljub			3
+obrub	22		2
+porub	52		2
+pregrub	25		2
+preljub	45		2
+pub		M	1
+radoljub			3
+rodoljub	843		3
+rub	1183		1
+rukoljub	22		3
+slavoljub			3
+srboljub			3
+stogub			2
+stub	5127		1
+trogub			2
+veroljub			3
+zarub		M	2
+zub	2998		1

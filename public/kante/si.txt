@@ -1,380 +1,380 @@
 373
-Marsi		
-Uskrsi		
-abakusi		
-abortusi	131	
-adresi	7241	
-agensi	235	
-alasi	123	
-albatrosi		
-aleksi		
-alijansi	770	
-alisi		
-almanasi	22	
-ambisi		
-ananasi		
-aneksi	199	
-antivirusi	69	
-apokalipsi	147	
-arbanasi		
-atlasi	71	
-autobusi	3134	
-avansi	92	
-bakropisi		
-baronesi	12	
-belorusi		
-besi		
-bicepsi	56	
-bilansi		
-bitlsi		
-biznisi		
-bonusi	495	
-bosi	562	
-brankusi		
-brusi	130	
-busi	19	
-cenzusi		
-cigarilosi		
-ciklusi	700	
-cirkusi	56	
-crnokosi	36	
-crvenokosi	31	
-debisi		
-delikatesi	51	
-dempsi		
-desi	22270	
-dezodoransi	125	
-dinosaursi		
-dinosaurusi	548	
-diptisi		
-donesi	498	
-donosi	43682	
-dopisi	231	
-doprinosi	14784	
-dugokosi	58	
-dusi	355	
-džersi		
-egzodusi		
-ekscesi	101	
-ekspresi		
-elipsi	70	
-epoksi		
-eposi		
-evnusi	46	
-farsi	229	
-fensi	297	
-fikusi	24	
-flamingosi		
-fokusi	22	
-fotosi		
-gasi	3151	
-glasi	10999	
-globusi	16	
-gorostasi	55	
-gresi	753	
-hapsi		
-hindusi	70	
-ikonostasi	55	
-impulsi	456	
-indeksi	1552	
-indusi		
-interesi	8339	
-irisi	16	
-irvasi	94	
-iskosi		
-iskusi	400	
-ispisi	62	
-isprosi	68	
-isprsi	123	
-istresi	21	
-izgasi	19	
-iznesi	107	
-iznosi	45223	
-izvesi		
-izvisi	45	
-jerarsi	79	
-jeresi	1122	
-jeromonasi	70	
-jesi	7643	
-kaktusi	121	
-kejsi		
-keksi	60	
-kesi	711	
-kinšasi		
-klasi	11871	
-kodeksi	219	
-kokosi	17	
-kolosi	33	
-komandosi	194	
-kompasi	21	
-kompleksi	959	
-kompromisi	495	
-kongresi	237	
-konkursi	1627	
-kontrabasi		
-korpusi	61	
-kosi	5509	
-kosinusi		
-krasi	2719	
-krimosi		
-kusi		
-kustosi	330	
-kutaisi		
-kvasi	133	
-lasi		
-lejkersi		
-lesi		
-letopisi	126	
-lezbosi		
-lososi	40	
-lusi		
-maksi	551	
-malorusi		
-masi	2834	
-medresi	237	
-mesi	1219	
-mikrotalasi		
-minusi	344	
-mirisi	1402	
-mitosi		
-modusi	37	
-monarsi	56	
-monasi	2775	
-mrsi	172	
-mungosi	20	
-nadnesi		
-nadnosi		
-nadvisi	64	
-naglasi	1079	
-nakosi		
-nakvasi	62	
-nanesi	63	
-nanosi	4022	
-napisi	478	
-naprosi		
-narcisi	103	
-narkosi		
-natpisi	1009	
-nebesi		
-nensi		
-neuspesi	414	
-nijansi	2569	
-nijesi		J
-nisi	26118	
-nosi	41151	
-obesi	297	
-obrisi	470	
-odbrusi	135	
-odesi		
-odnesi	166	
-odnosi	60977	
-oglasi	3459	
-okosi		
-oktopusi		
-okusi	335	
-okvasi		
-oligarsi	289	
-omrsi	39	
-opisi	1290	
-opusi	38	
-orasi	704	
-ordonansi		
-orosi	44	
-osi	1196	
-osmesi	556	
-otarasi	311	
-otkosi	97	
-otresi	17	
-ovisi	820	
-papirusi	11	
-paradoksi	158	
-parastosi	51	
-pasi	86	
-pasusi	77	
-patrijarsi	329	
-penisi	30	
-pepsi		
-performansi	6518	
-persi		
-piksi	133	
-plavokosi	156	
-plesi		
-podesi	1185	
-podnapisi		
-podnesi	134	
-podnosi	8232	
-podsmesi	13	
-pogasi	85	
-pohapsi		
-pojasi	34	
-pokosi	169	
-pokusi	14	
-pokvasi	125	
-polisi	353	
-pomirisi		
-pomrsi	130	
-ponesi	343	
-ponosi	1555	
-popisi	318	
-potpisi	1010	
-potresi	438	
-povisi	223	
-praksi	27324	
-pravopisi	32	
-prefiksi	40	
-premisi	102	
-prenaglasi	13	
-prenesi	252	
-prenosi	28330	
-prepisi	156	
-pretresi	166	
-preuznosi		
-prinesi	277	
-prinosi	2611	
-prkosi	566	
-procesi	6545	
-profilaksi	71	
-proglasi	3677	
-progresi		
-proiznosi		
-promrsi	36	
-pronesi		
-pronosi	176	
-propisi	5656	
-prosi	472	
-protresi		
-prsi		M
-prusi		
-psi	6281	
-pterosaursi		
-putopisi	214	
-radijusi	24	
-rasi	707	
-raspisi	19	
-rastresi		
-razglasi	103	
-razmrsi	65	
-raznesi		
-raznosi	326	
-reagensi	72	
-rebusi	20	
-refleksi	229	
-regresi	81	
-rendžersi		
-renesansi	218	
-resursi	4264	
-reversi		
-riđokosi	19	
-romansi	296	
-rukopisi	730	
-saglasi	342	
-samokresi		
-seansi	414	
-sedokosi	35	
-sedovlasi		
-seksi	4602	
-servisi	3527	
-si	171792	
-sijuksi		
-silosi	258	
-sinapsi	137	
-sinopsisi		
-sintaksi	120	
-sinusi	164	
-siromasi	291	
-sisi	191	
-sivokosi		
-skepsi	39	
-skrasi	153	
-smesi	187	
-smrsi	21	
-snesi		
-snosi	5286	
-spasi	3035	
-spisi	1153	
-stimulansi	200	
-stjuardesi	20	
-strasi		
-stresi	12	
-sufiksi	31	
-taksi	5364	
-talahasi		
-talambasi	21	
-talasi	2724	
-tamnokosi	24	
-tasi		
-tbilisi		
-tenesi		
-tepisi	445	
-terasi	2394	
-termosi		
-testisi	297	
-tisi	891	
-trasi	1266	
-trbusi	23	
-tresi	16	
-trolejbusi	137	
-trsi	38	
-trusi		
-tumulusi		
-tutsi		
-ubrusi	47	
-udesi	236	
-ugasi	3118	
-uhapsi	1085	
-ukosi		
-ukrasi	1209	
-ukusi	1253	
-ukvasi		
-umesi	118	
-unesi	141	
-unosi	5379	
-upisi	153	
-urnebesi		
-usaglasi	606	
-uspesi	2593	
-uzansi		
-uzdasi	284	
-uznesi		
-uznosi	244	
-uzusi	28	
-uzvisi	107	
-užasi	161	
-vasi		
-vaskrsi		
-virusi	2206	
-visi	2390	
-vlasi	2111	
-zadasi		
-zadesi	811	
-zagasi	24	
-zakosi		
-zakusi		
-zamasi	29	
-zamesi	80	
-zamrsi	38	
-zanesi	10	
-zanosi	387	
-zapisi	2806	
-zaprosi	235	
-zatresi		
-zavesi	71	
-zavisi	46055	
-zelenokosi		
-zemljotresi	542	
-zlatokosi		
-zlodusi	29	
-ćosi		
-časopisi	1731	
-čempresi	59	
-česi	1224	
-šansi	2955	
-šemsi		
-živopisi	27	
-životopisi	30	
-grijesi	116	
-mijesi	24	
-neuspjesi		
-objesi		
-umijesi	15	
-uspjesi		
+Marsi			2
+Uskrsi			2
+abakusi			3
+abortusi	131		2
+adresi	7241		2
+agensi	235		2
+alasi	123		2
+albatrosi			3
+aleksi			2
+alijansi	770		2
+alisi			2
+almanasi	22		2
+ambisi			2
+ananasi			4
+aneksi	199		2
+antivirusi	69		2
+apokalipsi	147		2
+arbanasi			2
+atlasi	71		2
+autobusi	3134		2
+avansi	92		2
+bakropisi			2
+baronesi	12		2
+belorusi			2
+besi			2
+bicepsi	56		2
+bilansi			2
+bitlsi			2
+biznisi			2
+bonusi	495		2
+bosi	562		2
+brankusi			2
+brusi	130		2
+busi	19		2
+cenzusi			2
+cigarilosi			2
+ciklusi	700		2
+cirkusi	56		2
+crnokosi	36		3
+crvenokosi	31		3
+debisi			2
+delikatesi	51		2
+dempsi			2
+desi	22270		2
+dezodoransi	125		2
+dinosaursi			2
+dinosaurusi	548		3
+diptisi			2
+donesi	498		2
+donosi	43682		2
+dopisi	231		2
+doprinosi	14784		4
+dugokosi	58		4
+dusi	355		2
+džersi			2
+egzodusi			2
+ekscesi	101		2
+ekspresi			2
+elipsi	70		2
+epoksi			2
+eposi			2
+evnusi	46		2
+farsi	229		2
+fensi	297		2
+fikusi	24		2
+flamingosi			2
+fokusi	22		2
+fotosi			2
+gasi	3151		2
+glasi	10999		2
+globusi	16		2
+gorostasi	55		4
+gresi	753		2
+hapsi			2
+hindusi	70		2
+ikonostasi	55		2
+impulsi	456		2
+indeksi	1552		2
+indusi			2
+interesi	8339		4
+irisi	16		2
+irvasi	94		3
+iskosi			2
+iskusi	400		2
+ispisi	62		2
+isprosi	68		2
+isprsi	123		2
+istresi	21		2
+izgasi	19		2
+iznesi	107		2
+iznosi	45223		2
+izvesi			2
+izvisi	45		2
+jerarsi	79		2
+jeresi	1122		2
+jeromonasi	70		2
+jesi	7643		2
+kaktusi	121		2
+kejsi			2
+keksi	60		2
+kesi	711		2
+kinšasi			2
+klasi	11871		2
+kodeksi	219		2
+kokosi	17		3
+kolosi	33		2
+komandosi	194		2
+kompasi	21		2
+kompleksi	959		2
+kompromisi	495		2
+kongresi	237		2
+konkursi	1627		2
+kontrabasi			2
+korpusi	61		2
+kosi	5509		2
+kosinusi			3
+krasi	2719		2
+krimosi			2
+kusi			2
+kustosi	330		3
+kutaisi			2
+kvasi	133		2
+lasi			2
+lejkersi			2
+lesi			2
+letopisi	126		4
+lezbosi			2
+lososi	40		3
+lusi			2
+maksi	551		2
+malorusi			2
+masi	2834		2
+medresi	237		2
+mesi	1219		2
+mikrotalasi			2
+minusi	344		2
+mirisi	1402		3
+mitosi			2
+modusi	37		2
+monarsi	56		2
+monasi	2775		2
+mrsi	172		2
+mungosi	20		2
+nadnesi			2
+nadnosi			2
+nadvisi	64		2
+naglasi	1079		2
+nakosi			2
+nakvasi	62		2
+nanesi	63		2
+nanosi	4022		2
+napisi	478		2
+naprosi			2
+narcisi	103		2
+narkosi			2
+natpisi	1009		2
+nebesi			2
+nensi			2
+neuspesi	414		4
+nijansi	2569		2
+nijesi		J	2
+nisi	26118		2
+nosi	41151		2
+obesi	297		2
+obrisi	470		3
+odbrusi	135		2
+odesi			2
+odnesi	166		2
+odnosi	60977		2
+oglasi	3459		3
+okosi			2
+oktopusi			2
+okusi	335		2
+okvasi			2
+oligarsi	289		2
+omrsi	39		2
+opisi	1290		2
+opusi	38		2
+orasi	704		2
+ordonansi			2
+orosi	44		2
+osi	1196		2
+osmesi	556		3
+otarasi	311		2
+otkosi	97		2
+otresi	17		2
+ovisi	820		2
+papirusi	11		4
+paradoksi	158		2
+parastosi	51		2
+pasi	86		2
+pasusi	77		3
+patrijarsi	329		2
+penisi	30		2
+pepsi			2
+performansi	6518		2
+persi			2
+piksi	133		2
+plavokosi	156		2
+plesi			2
+podesi	1185		2
+podnapisi			2
+podnesi	134		2
+podnosi	8232		2
+podsmesi	13		3
+pogasi	85		2
+pohapsi			2
+pojasi	34		3
+pokosi	169		2
+pokusi	14		2
+pokvasi	125		2
+polisi	353		2
+pomirisi			2
+pomrsi	130		2
+ponesi	343		2
+ponosi	1555		2
+popisi	318		2
+potpisi	1010		2
+potresi	438		2
+povisi	223		2
+praksi	27324		2
+pravopisi	32		4
+prefiksi	40		2
+premisi	102		2
+prenaglasi	13		2
+prenesi	252		2
+prenosi	28330		2
+prepisi	156		2
+pretresi	166		2
+preuznosi			2
+prinesi	277		2
+prinosi	2611		2
+prkosi	566		2
+procesi	6545		2
+profilaksi	71		2
+proglasi	3677		3
+progresi			2
+proiznosi			2
+promrsi	36		2
+pronesi			2
+pronosi	176		2
+propisi	5656		2
+prosi	472		2
+protresi			2
+prsi		M	2
+prusi			2
+psi	6281		1
+pterosaursi			2
+putopisi	214		4
+radijusi	24		4
+rasi	707		2
+raspisi	19		2
+rastresi			2
+razglasi	103		2
+razmrsi	65		2
+raznesi			2
+raznosi	326		2
+reagensi	72		2
+rebusi	20		2
+refleksi	229		2
+regresi	81		2
+rendžersi			2
+renesansi	218		2
+resursi	4264		2
+reversi			2
+riđokosi	19		2
+romansi	296		2
+rukopisi	730		4
+saglasi	342		2
+samokresi			4
+seansi	414		2
+sedokosi	35		2
+sedovlasi			2
+seksi	4602		2
+servisi	3527		2
+si	171792		1
+sijuksi			2
+silosi	258		2
+sinapsi	137		2
+sinopsisi			2
+sintaksi	120		2
+sinusi	164		2
+siromasi	291		2
+sisi	191		2
+sivokosi			2
+skepsi	39		2
+skrasi	153		2
+smesi	187		2
+smrsi	21		2
+snesi			2
+snosi	5286		2
+spasi	3035		2
+spisi	1153		2
+stimulansi	200		2
+stjuardesi	20		2
+strasi			2
+stresi	12		2
+sufiksi	31		2
+taksi	5364		2
+talahasi			2
+talambasi	21		2
+talasi	2724		3
+tamnokosi	24		2
+tasi			2
+tbilisi			2
+tenesi			2
+tepisi	445		2
+terasi	2394		2
+termosi			2
+testisi	297		3
+tisi	891		2
+trasi	1266		2
+trbusi	23		2
+tresi	16		2
+trolejbusi	137		2
+trsi	38		2
+trusi			2
+tumulusi			2
+tutsi			2
+ubrusi	47		2
+udesi	236		2
+ugasi	3118		2
+uhapsi	1085		2
+ukosi			2
+ukrasi	1209		3
+ukusi	1253		2
+ukvasi			2
+umesi	118		2
+unesi	141		2
+unosi	5379		2
+upisi	153		2
+urnebesi			2
+usaglasi	606		2
+uspesi	2593		2
+uzansi			2
+uzdasi	284		3
+uznesi			2
+uznosi	244		2
+uzusi	28		2
+uzvisi	107		2
+užasi	161		3
+vasi			2
+vaskrsi			2
+virusi	2206		2
+visi	2390		2
+vlasi	2111		2
+zadasi			3
+zadesi	811		2
+zagasi	24		2
+zakosi			2
+zakusi			2
+zamasi	29		2
+zamesi	80		2
+zamrsi	38		2
+zanesi	10		2
+zanosi	387		2
+zapisi	2806		2
+zaprosi	235		2
+zatresi			2
+zavesi	71		3
+zavisi	46055		2
+zelenokosi			2
+zemljotresi	542		4
+zlatokosi			2
+zlodusi	29		2
+ćosi			2
+časopisi	1731		4
+čempresi	59		2
+česi	1224		2
+šansi	2955		2
+šemsi			2
+živopisi	27		2
+životopisi	30		2
+grijesi	116		3
+mijesi	24		2
+neuspjesi			4
+objesi			2
+umijesi	15		2
+uspjesi			2

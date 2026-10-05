@@ -1,3399 +1,3399 @@
 3296
-Kijeva		
-Moskva		
-Sarajeva		
-Smedereva		
-Varšava		
-adamova		
-aditiva	1350	
-adjektiva		
-admiralova		
-advokatova		
-agava		
-ahilova		
-ahmatova		
-ajfelova		
-akreditiva	238	
-aktiva	1760	
-aktova	90	
-akuzativa	44	
-akušerstva	229	
-alahova		
-alava		
-albertova		
-aleksićeva		
-aleksova		
-aljkava		
-alternativa	6647	
-aluminijumova		
-alva	221	
-ambarova		
-ambasadorova		
-andrejeva		
-andrićeva		
-angažova		
-antidepresiva	306	
-antićeva		
-antonijeva		
-anđelova		
-aperitiva	49	
-apostolova		
-aranđelova		
-arapova		
-arhetipova	117	
-arhiva	6882	
-arkanova		
-aronova		
-arsenova		
-arsićeva		
-asimova		
-asova	731	
-autogolova	48	
-autoputeva	1014	
-autorova	245	
-autorstva	266	
-avgustova		
-avramova		
-azotova		
-ašikova		
-ašova	88	
-babićeva		
-badava	625	
-bagova	332	
-bagremova	27	
-bajićeva		
-bajova		
-bajronova		
-bajtova	223	
-bakalinova		
-bakarićeva		
-bakićeva		
-baklava	204	
-balava	22	
-balova	136	
-balzakova		
-bambadava		
-bambusova		
-bandoglava		
-banićeva		
-bankarstva	1642	
-bankrotstva	620	
-banova	86	
-banovićeva		
-barajeva		
-barbarstva	18	
-bardova	43	
-baronova		
-barova	1254	
-basova	61	
-batićeva	17	
-batlava		
-batova	11	
-bauljava		
-bačava	10	
-bačva	67	
-bašićeva		
-baštovanova		
-baštovanstava		
-baštovanstva	53	
-becićeva		
-bedževa	151	
-begićeva		
-begova	242	
-begovićeva		
-bekstava	15	
-bekstva	1271	
-beloslava		
-belovićeva		
-bendova	3258	
-berislava		
-berđajeva		
-besova	69	
-betovenova		
-bezboštva	29	
-bezglava	27	
-bikova	570	
-biogoriva	763	
-biokova		
-biserova		
-biskupova	10	
-bitova	347	
-bitva		
-biva	12382	
-bivstva	146	
-bizeova		
-bičeva	57	
-blagoeva		
-blagoglagoljiva		
-blagoslova	890	
-blagva		
-blamova		
-blatnjava	119	
-blaženstva	505	
-blaževa		
-bledunjava	48	
-blentava		
-blerova		
-blesava	318	
-bleskova	19	
-bleštava	22	
-blistava	500	
-blitva	194	
-bljeskova		
-blještava		
-bljutava	103	
-bljuva		
-blogova	1998	
-blokova	2750	
-bobićeva		
-bobova	32	
-bodlerova		
-bodljikava	144	
-bodova	20664	
-boforova		
-bogaljeva		
-bogataševa		
-bogatstava	965	
-bogatstva	6718	
-bogdanova		
-bogobojažljiva	40	
-bogosava		
-bogoslava		
-bogoslova	465	
-bogova	3099	
-boingova		
-bojanova		
-bojažljiva	31	
-bojeva		
-bojićeva		
-bojovićeva		
-bokićeva		
-bokova	402	
-boksova	212	
-bolećiva	32	
-bolešljiva	46	
-bolova	4367	
-borisava		
-borislava		
-borisova		
-borova	97	
-borščeva		
-bosova	122	
-botićeva		
-bova		
-boškova		
-božanstava	451	
-božanstva	1766	
-božidarova		
-božićeva		
-bradva	10	
-brakova	2462	
-braniočeva		
-branislava		
-braničeva	32	
-brankova		
-bratimstva		
-bratislava		
-bratova		
-bratovljeva		
-bratstava	212	
-bratstva	3279	
-brava	1141	
-brbljava		
-brbljiva	51	
-bregova	231	
-brendova	4893	
-breskva	333	
-brestova	83	
-brežnjeva		
-britva	65	
-brižljiva	36	
-brkićeva		
-brkova	450	
-brljava		
-brodareva		
-brodarstva	176	
-brodova	4984	
-brojeva	6539	
-brozova		
-broševa	40	
-brstova		
-bruseva		
-brusova		
-brzojava		
-bubnjeva	416	
-bubuljičava		
-budva		
-bukava	36	
-bukova	180	
-bukva	378	
-bulgakova		
-buljava	13	
-bundeva	490	
-bungalova	272	
-bunićeva		
-buntovništva	69	
-burićeva		
-buva	517	
-buđava	32	
-careva	2033	
-carova		
-carstava	191	
-carstva	9856	
-casanova		
-celiva	361	
-celzijusova	29	
-cerova	66	
-cerovićeva		
-cezarova	26	
-ciljeva	17687	
-cinkova		
-cmizdrava		
-crepova	203	
-creva	7991	
-crkava	7289	
-crkva	33947	
-crnoglava		
-crnoljeva		
-crnčeva		
-crva	1029	
-crvljiva	28	
-cugova		
-cukićeva		
-cvetajeva		
-cvetanova		
-cvetkova		
-cvetova	1593	
-cvijićeva		
-dabrova	96	
-damjanova		
-daneva		
-danilova		
-daničićeva		
-danova		
-darežljiva	114	
-dariva	107	
-darova	1285	
-darvinova		
-dativa	25	
-davidova		
-davinićeva		
-dedova		M
-defanziva		M
-defova		
-dejstava	1702	
-dejstva	6646	
-dejstvova		
-dekanova		
-delićeva	14	
-deljiva	108	
-delova	24555	
-delčeva		
-denjkova		
-dernjava	33	
-deronjićeva		
-despotova	120	
-detektiva	576	
-detetova	139	
-detinjstva	6862	
-deva	171	
-devičanstva	76	
-devojaštva	28	
-dezerterstva	35	
-dečakova	105	
-dečaštva	55	
-dešava	44296	
-dežurstva	885	
-dijakova		
-dimitrova		
-dimićeva		
-dimljiva		
-dimova	74	
-dinkićeva		
-direktiva	1865	
-direktorova	31	
-dirljiva	611	
-diskova	3552	
-disova		
-diva	1937	
-divljaštva	169	
-divova	263	
-dlakava	139	
-dlanova	434	
-dobava		M
-dobiva	709	
-dobrosava		
-dobroslava		
-dobročinstva	404	
-docvetava		
-dodijava		
-dodikova		
-dodvorava	139	
-dogoreva		
-dojava	559	
-dojčinova		
-dokaziva	99	
-dokićeva		
-dokova	79	
-doktorova	78	
-doliva		
-dolova	316	
-domaćinova	18	
-domaćinstava	7600	
-domaćinstva	8856	
-domova	4815	
-domunđava		
-dopadljiva	158	
-dopeva		
-dopliva	53	
-dopunjava	576	
-dopustiva	40	
-doputova	13	
-doseljava	109	
-dosetljiva	15	
-dositejeva		
-dospeva	1336	
-dostava	1022	
-dostojanstva	3907	
-dotrajava		
-dotrčava		
-dova		M
-dovitljiva	46	
-dovršava	290	
-doziva	442	
-dozreva	65	
-dozvoljava	12621	
-dočarava	722	
-dočuva		
-došaptava	34	
-došiva		
-doživljava	6935	
-draganova		
-dragačeva		
-dragoslava		
-drapava		
-drava		
-dračeva		
-drenova	60	
-dresova	488	
-dretva		
-drečava	22	
-drhtava	46	
-drinčićeva		
-drljevićeva		
-drobova		
-dronjava		
-dronova		
-drotova		
-drozdova		
-drugarstva	323	
-drugova	2490	
-drumova	187	
-društava	10322	
-društva	89857	
-druželjubiva	141	
-drva	3864	
-država	162955	
-državljanstva	2626	
-držićeva		
-dubova		
-dubrava	225	
-dudova	277	
-dugova	7229	
-duhova	1848	
-dunava		
-duva	2681	
-dućićeva		
-dučićeva		
-dušanova		
-duškova		
-duždeva	56	
-dužnikova	21	
-dva	344730	
-dvoglava	46	
-dvojstva	56	
-dvorova	286	
-džakova		
-džangrizava		
-džemova	154	
-džepova	1371	
-dževa		
-džezva		M
-džinglova	71	
-džinova		
-džipova	377	
-edipova		
-efektiva	265	
-egzekutiva	15	
-ekskluziva	307	
-eksploziva	1049	
-elektrošokova	33	
-enklava	624	
-episkopova		
-epova	111	
-erićeva		
-euprava		
-eva		
-fajlova	5146	
-faksova	135	
-fanova	3117	
-faraonova	18	
-farkašova		
-farmerova		
-farmerstva		
-farova		
-faulova	279	
-fesova		
-filipova		
-filmova	20597	
-fjodorova		
-fondova	10891	
-frakova		
-frendova	40	
-frizova	13	
-frojdova		
-frontova		
-gadljiva	61	
-gadova	61	
-gadžićeva		
-gafova	142	
-gagarinova		
-gajeva	49	
-gajevićeva		
-gajićeva		
-galebova	156	
-gandijeva		
-garava	65	
-garašaninova		
-garova		
-gasova	6720	
-gatarstva		
-gausova		
-gavranova		
-gavrilova		
-gazdanova		
-gazdinstva	3017	
-gegova	53	
-gejeva	286	
-gelova	236	
-generalova	25	
-genitiva	75	
-gestova	403	
-ginićeva		
-gistava		
-gizdava	32	
-glagoljiva		
-glasova	23578	
-glava	16486	
-glazgova		
-gledaočeva		
-gležnjeva	91	
-gligorova		
-gljiva	2169	
-glogova	24	
-glumčeva	32	
-glupava	172	
-gluva	459	
-gmazova	40	
-gneva	1242	
-gnevljiva		
-gnjecava		
-gnjeva	245	
-gnojiva	109	
-gnomova		
-gnuova		
-gojkova		
-golicava	27	
-golicljiva		
-golićeva		
-golišava		
-gologlava	28	
-golova	8522	
-golubova	1385	
-gorbačova		
-goriva	19317	
-gorljiva		
-gospareva		
-gospava		
-gospodareva		
-gospodinova	17	
-gospodova		
-gospodstva	201	
-gostoljubiva	74	
-gostoprimstva	344	
-gotova	3830	
-govornikova		
-grabljiva	12	
-grabova	30	
-gradiva	1779	
-gradonačelnikova	27	
-gradova	29514	
-grafova	131	
-grahova		
-gramziva	45	
-građanstva	1402	
-grbava	58	
-grbova	179	
-grehova	1756	
-griva	106	
-grkova		
-grmljava		M
-grmova	48	
-grnčarstva	35	
-grobova	1262	
-grofova	138	
-gromova	243	
-grozdova	133	
-grozničava	63	
-grudva	183	
-grujićeva		
-gruva	319	
-grčeva	771	
-guava	31	
-gubava	19	
-gunjeva		
-gurava		
-gurnjava		M
-guskova		
-gustava		
-guvernerova	22	
-guzova	90	
-gučeva		
-gušterova		
-gužva	3885	
-gvozdićeva		
-hajdukova		
-halilova		
-hamova		
-hanova		
-hava		
-hegelova		
-hercegova		
-herojstva	184	
-hečbekova		
-hipokratova		
-hirova	120	
-hitlerova		
-hitova	2130	
-hladnjikava		
-hlebova	277	
-hodova	62	
-holova	71	
-homerova		
-horova	921	
-hramova	2108	
-hranislava		
-hraniteljstva	180	
-hraniva	803	
-hranjiva	104	
-hranljiva	401	
-hrapava	125	
-hrastova	405	
-hristićeva		
-hristova		
-hrišćanstva	4036	
-hrskava	125	
-hruščova		
-hrvatstva	180	
-humova	10	
-hvaleslava		
-hvalisava	13	
-hvalospeva	257	
-idolopoklonstva	215	
-ignjatova		
-igorova		
-igračeva		
-igumanova	24	
-ikakva	507	
-ilieva		
-ilijeva		
-ilirstva	19	
-ilićeva		
-iličićeva		
-imejlova	76	
-imenoslova		
-imenova		
-imperativa	498	
-infinitiva	53	
-inicijativa	14158	
-inostranstva	12249	
-inozemstva	126	
-invalidova		
-invektiva		
-inženjerstva	1157	
-inžinjerstva	44	
-isakova		
-iscrtava	237	
-iseljava	194	
-isijava	369	
-isisava	172	
-iskašljava	44	
-isključiva	607	
-iskobeljava		
-iskopava	102	
-iskorišćava	588	
-iskova		
-iskrcava	38	
-iskrivljava	11	
-iskričava	27	
-iskrsava	150	
-iskustava	9387	
-iskustva	54903	
-iskušava	194	
-ismejava	125	
-ismeva	382	
-ismijava	49	J
-isparava	460	
-ispava	22	
-ispetljava		
-ispeva	66	
-ispipava	16	
-isplativa	835	
-ispliva	569	
-isplivava	140	
-ispljuvava		
-isplovljava	69	
-ispoljava	3387	
-ispostava	628	
-isprava	2179	
-ispražnjava		
-ispričava	18	
-isprobava	222	
-isprsava		
-isprva	1859	
-ispsova		
-ispucava	32	
-ispumpava	99	
-ispunjava	10601	
-ispunjiva		
-istančava		
-istinoljubiva	23	
-istrajava	434	
-istrčava	153	
-isusova		
-iva	327	
-ivanićeva		
-ivanova	194	
-ivićeva		
-ivkova		
-ivkovićeva		
-izaslanstva	95	
-izaziva	16934	
-izazova	4613	
-izazva	46	
-izbegava	3856	
-izbirljiva	95	
-izbiva	26	
-izbljuva	15	
-izbrisiva		
-izdajstava	18	
-izdajstva	178	
-izdavaštva	821	
-izdržava	2077	
-izdržljiva	288	
-izduva	183	
-izduvava		
-izglasava	76	
-izgnanstva	321	
-izgužva	19	
-izigrava	667	
-izjava	17245	
-izjašnjava	1231	
-izjednačava	857	
-izleva		
-izlečiva	183	
-izležava	71	
-izliva	1205	
-izljeva	16	J
-izmenjiva	26	
-izmenljiva		
-izmišljava		
-izmoljava		
-izmotava	25	
-izneverava	97	
-iznova	7666	
-iznurava		
-izobličava	101	
-izobražava	72	
-izopačava		
-izopštava		
-izoštrava	179	
-izravnava	37	
-izračunava	958	
-izražava	6118	
-izronjava		
-izuva	101	
-izučava	1158	
-izveštava	2752	
-izvinjava	1011	
-izvodljiva		
-izvojeva		
-izvoleva		
-izvrgava	117	
-izvršava	2893	
-iškolova		
-iščezava	423	
-iščitava	175	
-iščuđava	50	
-iživljava	219	
-jablanova	36	
-jagićeva		
-jakova		
-jakovljeva		
-jakšićeva		
-jalova	395	
-jankova		
-jarmova	22	
-jaroslava		
-jarčeva	31	
-jasenova	14	
-jastrebova	207	
-jastva	80	
-java	743	
-javorova	15	
-jazavčeva		
-jazova	40	
-jedinstava	16	
-jedinstva	7066	
-jedva	30132	
-jehova		
-jektičava		
-jelova	21	
-jemstava	58	
-jemstva	648	
-jenjava	938	
-jestiva	273	
-jetrva	39	
-jevrejstva	92	
-jevremova		
-jevtićeva		
-jezdićeva		
-jeziva	408	
-ježeva	139	
-josifova		
-jova		
-jovanova		
-jovova		
-jovovićeva		
-jugoslava		
-julijanova		
-junakova	15	
-junaštava		
-junaštva	581	
-jungova		
-jupiterova		
-jurićeva		
-jurjeva		
-jurnjava	419	
-justinijanova		
-kablova	3659	
-kadiva		M
-kadrova	143	
-kaiševa		
-kakova		
-kaktusova		
-kakva	44193	
-kalabićeva		
-kalašnjikova	224	
-kalenićeva		
-kaljava		
-kaljeva		
-kamenova	214	
-kampova	1233	
-kandićeva		
-kanova	25	
-kantova		
-kapetanova	42	
-kaplareva		
-karadžićeva		
-karamazova		
-karanova		
-karađorđeva		
-kardeljeva		
-kardinalova		
-karićeva		
-karlova		
-karpova		
-kasanova		
-kasparova		
-katanićeva		
-katićeva		
-katoličanstva	246	
-kava	370	
-kazanova	92	
-kazimirova		
-kaziva		
-kačareva		
-kačićeva		
-kažnjava	2522	
-kažnjenikova		
-kažnjiva	234	
-kedrova		
-kengurova		
-kestenova	10	
-keva		
-kečeva		
-kilava		
-kiltova		
-kipova	111	
-kirilova		
-kitova	411	
-kičeva	35	
-kišljiva		
-kišova		
-kladiva	80	
-kladova		
-klanova	496	
-klasova	68	
-klaunova		
-klecava		
-klepetava		
-kletava		
-kletva	702	
-klikova	842	
-kliktava		
-klimava	125	
-klinova	136	
-klipova	1034	
-klizava	160	
-kljajićeva		
-kljova	73	
-kljunova	38	
-ključeva	1005	
-klonova	293	
-klovnova	180	
-klubova	14392	
-kmetova	229	
-kmetstva	66	
-knezova	549	
-kneževa	334	
-knjava		
-knjaževa		
-knjigovodstva	777	
-koceljeva		
-kodova	863	
-kojekakva	122	
-kokosova	68	
-koksova		
-kolarova	137	
-kolarčeva		
-kolebljiva	50	
-kolektiva	2665	
-koljiva	99	
-kolova		
-kolutova	83	
-komandova		
-komesarova		
-komponova		
-kompozitorova		
-konjarstva	113	
-konjunktiva	28	
-konklava	79	
-konstantinova		
-kontraofanziva		M
-konzerva	252	
-kooperativa		
-kopitareva		
-kopova	985	
-kopriva	501	
-koraćeva		
-korenova	176	
-korisnikova	20	
-korova		
-kosačeva		
-kosova	451	
-kostićeva		
-kostova		
-kotlova	684	
-kotova		
-koturova		
-kotva	36	
-kova	806	
-kovačeva	19	
-kovrdžava		
-kočijaševa		
-kočićeva		
-košava	599	
-koševa	1251	
-koštunjava	11	
-kožarstva		
-kradljiva		
-krajeva	13588	
-krajova		
-krakova	459	
-kraljeva	4941	
-kraljevstava	111	
-kraljevstva	2068	
-krampova	14	
-krastava	13	
-krava	5241	
-krepava		
-krepova		
-kresiva	18	
-kreševa		
-kreštava	10	
-krgovićeva		
-krikova	52	
-krinova		
-kristalova		
-kriva	6198	
-krivokletstva	21	
-krivolova	108	
-krivudava	60	
-kričava		
-krmiva	23	
-krojačeva	13	
-krojeva	148	
-krompirova	16	
-krova	5873	
-krovova	1803	
-krsteva		
-krstićeva	28	
-krstova	451	
-krugova	7188	
-kruhova	24	
-krunislava		
-krunoslava		
-kruškova		
-krvava	942	
-krševa		
-krštava	155	
-kržljava	18	
-ktitorova		
-kubova	12	
-kudrava		
-kuhareva		
-kuknjava	341	
-kukova	1042	
-kukuruzova		
-kulinarstva	367	
-kultova	263	
-kumanova		
-kumova	491	
-kumstava	10	
-kumstva	158	
-kupidova		
-kupinova		
-kupova	719	
-kurativa		
-kurosava		
-kurseva	6075	
-kuteva	12	
-kutova	25	
-kuva	3028	
-kuštrava		
-kvarkova	125	
-kvarova	1536	
-kvartova		
-kvizova	247	
-kvrgava	21	
-labava	202	
-labudova	281	
-ladislava		
-lajava	21	
-lajkova	775	
-lajoševa		
-lajtmotiva	52	
-lakomstva		
-lakova	559	
-laksativa	86	
-laktova	217	
-laptopova	17	
-larva	328	
-laskava	103	
-lava	2462	
-lavova	705	
-lavrova		
-lazareva		
-lazarova		
-lazova		
-lačevićeva		
-lažljiva	139	
-lažova	365	
-legislativa	99	
-lejićeva		
-lekarstva	104	
-lekova	17366	
-lelujava	21	
-lenjinova		
-leopardova		
-lepkova	318	
-lepljiva	300	
-lepoglava		
-leposava		
-lepršava	165	
-leptirova	12	
-leskova		
-lestava	20	
-letava	36	
-letova	2712	
-letva	131	
-leva	2895	
-levova		
-leševa	1181	
-ležajeva	1086	
-liderstva	1191	
-liftova	1040	
-lihva		
-likova	7550	
-lilićeva		
-limareva		
-limova	509	
-limunova	69	
-linkova	2584	
-linčova		
-lipova		
-lipsava		
-listova	4975	
-litva		
-lišava	565	
-ljigava	67	
-ljotićeva		
-ljubopitljiva	17	
-ljudožderova		
-ljudstva	791	
-ljutoglava		
-lokativa	13	
-lokomotiva	1490	
-lokva	76	
-lomljava	59	
-lomljiva	108	
-lomova	460	
-lopova	3437	
-lordova	251	
-lordstva		
-losova	18	
-lova	3760	
-lovorova		
-lovova	24	
-lovstva	330	
-lozova	28	
-lugova	12	
-lukava	282	
-lukavstava	35	
-lukavstva	322	
-lukićeva		
-lukova	454	
-lukovićeva		
-lupnjava		M
-lutkarstva	109	
-lučeva		
-lužkova		
-magova	159	
-mahova	267	
-majeva		
-majmunova		
-majčinstva	217	
-makova	119	
-malaksava		
-maldiva		
-maleševa		
-mališeva		
-maljava	49	
-maljeva		
-managva		
-mandićeva		
-manekenstva	76	
-mangrova	21	
-manjkava	106	
-marićeva		
-marjanova		
-markova		
-marksova		
-marljiva	61	
-marovićeva		
-marsova		
-martinova		
-marva		M
-marčićeva		
-maršalova	18	
-marševa	72	
-masiva	570	
-maslinova	101	
-masonstva	76	
-mastiljava		
-materinstva	411	
-matićeva		
-matova		
-maziva	876	
-mačeva	305	
-mačva		
-mađioničareva		
-mašinstva	905	
-mašovićeva		
-medova	56	
-medvedeva		
-mehićeva		
-mehova	14	
-mehurova		
-mejlova	660	
-mekuštva		
-meljava	18	
-memljiva	12	
-mentorstva	193	
-merljiva	148	
-mermerova		
-mesečeva	280	
-mesićeva		
-metiljava		
-metkova		
-metva		
-mećava	420	
-mečava		
-mečeva	5503	
-migova	103	
-mihailova		
-mihajlova		
-mihalkova		
-mikelanđelova		
-mikročipova	82	
-milankova		
-milanova		
-miletićeva		
-mileva		
-mileševa		
-milisava		
-milivojeva		
-miljanova		
-miljkova		
-milkićeva		
-milkova		
-milojeva		
-milomirova		
-milosava		
-miloslava		
-milostiva	143	
-milova		
-milovanova		
-milovićeva		
-miloševa		
-milunova		
-milutinova		
-minerva		
-ministarstava	6601	
-ministarstva	67681	
-ministrova	59	
-minovićeva		
-miodragova		
-mirisava		
-mirišljava	107	
-mirkova		
-miroljubiva	229	
-miroslava		
-miteva		
-mitova	1628	
-mitreva		
-mitrova		
-mićićeva		
-mičićeva		
-miševa	1794	
-mišićava	102	
-mišićeva	27	
-mladenova		
-mladićeva	127	
-mlazeva	83	
-mlazova	26	
-mlekarstva	119	
-mlinova	296	
-mlitava	82	
-mlohava	34	
-mnogoglava		
-mnoštva	2302	
-mocartova		
-modifikova		
-mogućstva		
-mojsijeva		
-molerova	26	
-molitava	506	
-molitva	3698	
-moljevićeva		
-molova	158	
-momirova		
-momkova		
-momčilova		
-monahova		
-monaštva	768	
-morava		
-morzeova		
-morževa	10	
-mostova	3344	
-motiva	4874	
-mozgova		
-mrakova	16	
-mrava	863	
-mrazeva	440	
-mrazova	29	
-mračnjaštva	63	
-mrkaljeva		
-mrkova		
-mrkva		
-mrtva	3309	
-mrtvačeva		
-mrva	187	
-mršava	644	
-mucava	12	
-muhamedova		
-munćanova		
-murva		
-musava	63	
-mutava		
-mutnoplava		
-muva	1429	
-mučaljiva		
-mučenikova	15	
-mučeništva	567	
-mušičava		
-muškarčeva	27	
-muževa	573	
-muževljeva	38	
-nabokova		
-nadeva	113	
-nadglasava		
-nadjačava	128	
-nadleštava	45	
-nadleštva	89	
-naduva	142	
-naduvava	137	
-nadvišava		
-nadvladava	122	
-nadživljava		
-naglašava	13275	
-nagluva	30	
-nagomilava	235	
-nagoveštava	1897	
-naimenova		
-naiva	66	
-najamnikova		
-najava	6207	
-nakašljava		
-nakova		
-naleva		
-naliva		
-namerava	6390	
-nametljiva	94	
-namotava	68	
-naoružava	192	
-napadačeva		
-napeva	68	
-napipava	22	
-naplativa	62	
-naplava		M
-napliva		
-naprava	1176	
-napredova		
-narušava	2497	
-naseljava	731	
-naseljiva	21	
-nasilništva	100	
-nasledstva	614	
-nasljedstva	45	J
-naslova	8866	
-nasmejava	18	
-nasmijava		J
-naspava	72	
-nasrtljiva	18	
-nastava	8639	
-nastićeva		
-natkriva	26	
-natpeva		
-natrpava		
-naumova	16	
-naučava	17	
-nauživa	17	
-navikava	335	
-navodnjava	304	
-navršava	976	
-naziva	24593	
-naznačava	148	
-nazuva		
-nazva	86	
-načelstava		
-načelstva	256	
-nebeskoplava		
-nedeljiva	219	
-nedićeva		
-nedodirljiva	232	
-nedokaziva	30	
-nedokučiva	150	
-nedostiživa		
-negativa	252	
-negnevljiva		
-negodova		
-negosava		
-negostoljubiva	30	
-neimarstva		
-neiskaziva		
-neisključiva		
-neiskustva	247	
-neispunjiva		
-neizdrživa	134	
-neizlečiva	254	
-neizlječiva		J
-neizmenjiva	12	
-neizmenljiva		
-neizmeriva		
-neizraziva		
-neizreciva	107	
-nejestiva	21	
-nekakva	3039	
-nekvarljiva		
-nelažljiva		
-nemerljiva	312	
-nemilostiva	13	
-nemrtva		
-nenadićeva		
-nenadoknadiva	159	
-nenadova		
-nenarušiva		
-nenova		
-neobjašnjiva	238	
-neoboriva	119	
-neodeljiva		
-neodoljiva	466	
-neodrživa	638	
-neodvojiva	246	
-neopažljiva		
-neopipljiva	46	
-neopisiva	322	
-neoporeciva		
-neopoziva	122	
-neoprostiva	121	
-neosetljiva	83	
-neosporiva	32	
-neostvariva	152	
-neosvojiva	97	
-neotklonjiva		
-neotuđiva	98	
-nepažljiva	29	
-nepobediva	198	
-nepodnosiva		
-nepodnošljiva	502	
-nepogrešiva	118	
-nepojmljiva	87	
-nepokolebljiva	210	
-nepokretljiva		
-nepomerljiva		
-neponovljiva	389	
-nepopravljiva	153	
-nepopustljiva	47	
-neporeciva	74	
-nepotkupljiva	26	
-nepoverljiva	107	
-neprava	39	
-nepredvidiva	315	
-nepredvidljiva	103	
-nepremostiva	352	
-neprepoznatljiva	113	
-neprihvatljiva	1346	
-neprijateljstava	280	
-neprijateljstva	901	
-neprocenjiva	414	
-nepromenjiva	86	
-nepromenljiva	256	
-nepromočiva	36	
-neptunova		
-neranjiva	12	
-neraskidiva	242	
-nerava		
-nerazumljiva	283	
-neretva		
-nerešiva	251	
-nerva	580	
-nesagoriva		
-nesalomiva		
-nesalomljiva	15	
-nesavladiva	96	
-neshvatljiva	295	
-nesnošljiva	15	
-nespojiva	229	
-nespokojstva	58	
-nestorova	21	
-nestrpljiva	249	
-nesumnjiva	372	
-netrpeljiva	23	
-neubedljiva	94	
-neuhvatljiva	209	
-neukloniva		
-neukrotiva	76	
-neumoljiva	312	
-neuništiva	276	
-neupadljiva	78	
-neuporediva		
-neupotrebljiva	383	
-neuračunljiva	27	
-neuseljiva		
-neustrašiva	123	
-neutaživa	37	
-neutoljiva		
-neuverljiva	71	
-neučtiva		
-neva		
-nevaljalstva	49	
-neverstva	215	
-nevidljiva	1558	
-nezaborava	77	
-nezaboravljiva		
-nezadovoljstva	3811	
-nezadrživa	50	
-nezamenjiva	158	
-nezamenljiva	325	
-nezamisliva	627	
-nezamjenjiva		
-nezanimljiva	174	
-nezastariva		
-nezaustavljiva	137	
-nezdrava	418	
-nezlobiva	13	
-nečastiva	20	
-nečitljiva	25	
-nečlanstva		
-nečoveštva	46	
-neškodljiva	126	
-neživa	49	
-nikakova		
-nikakva	11153	
-nikaragva		
-nikiforova		
-nikolićeva		
-nikolova		
-ninoslava		
-nipodaštava	192	
-nitkova	76	
-niva		
-nizova	306	
-nišava		
-ništava		
-njegosava		
-njegoslava		
-njegova	87488	
-njegoševa		
-njihova	57623	
-njiva	2146	
-njutnova	59	
-nobelova		
-nojeva	301	
-nominativa	41	
-normativa	432	
-noseva	132	
-nosiva	71	
-nova	98758	
-novakova	149	
-novinarstva	3735	
-novićeva		
-nozdrva	204	
-noćeva		
-noćiva		
-noževa	676	
-nuspojava	400	
-nušićeva		
-obadva	343	
-obasjava	617	
-obaveštava	4979	
-obazriva	95	
-obeležava	7756	
-obespokojava		
-obećava	5251	
-obigrava	44	
-obilićeva		
-obilježava		J
-obitava	828	
-običava	18	
-objava	1297	
-objašnjava	36665	
-objašnjiva	80	
-objedinjava	226	
-objektiva	1941	
-oblagorođava		
-oblijeva		J
-obliva		
-obmotava		
-obnova	4062	
-obnovljiva	169	
-oboleva	167	
-oboriva	36	
-obožava	2341	
-obradiva	96	
-obradova	48	
-obrazova	10	
-obračunava	2585	
-obrenova		
-obrušava	224	
-obrva	1133	
-oburvava		M
-obustava	749	
-obuva	56	
-obuzdava	156	
-obučava	726	
-ocrtava	497	
-odaziva	544	
-odazva		
-odbrojava	205	
-odeva	94	
-odigrava	1829	
-odijeva	21	J
-odjava	244	
-odlikova		
-odliva	965	
-odmerava	259	
-odmotava	335	
-odmrzava	46	
-odnegova		
-odobrava	3665	
-odoleva	587	
-odračunava		
-odražava	5475	
-odrecitova		
-odronjava		
-održava	29121	
-održiva	1254	
-odsijeva		J
-odslikava	1195	
-odspava	128	
-odsustava	16	
-odsustva	3402	
-oduva	278	
-odučava		
-oduševljava	1043	
-odvikava	48	
-odvojiva	17	
-odziva	1155	
-ofanziva	877	
-ofenziva	26	
-oglašava	1445	
-ognjeva	10	
-ogorčava		
-ograničava	3451	
-ogreva	462	
-oivičava		
-ojačava	448	
-ojdanićeva		
-okajava		
-okinava		
-okiva	46	
-okleva	382	
-okončava	509	
-okopava	65	
-okova	891	
-okružava		
-oktava	92	
-okušava	26	
-olajava	26	
-olakšava	5221	
-olbrajtova		
-oliva		M
-oličava	389	
-olova	1878	
-omalovažava	535	
-omađijava		
-omekšava	254	
-omogućava	55582	
-onakva	1371	
-onemogućava	2799	
-onesposobljava	83	
-operativa	464	
-opeva	164	
-opevava		
-opipava	107	
-opipljiva	258	
-opkoljava	76	
-oplođava		M
-opova		
-opovrgava	291	
-opoziva	464	
-opozva		
-oprava		
-opravdava	3178	
-oprobava	35	
-opsova		
-opstojava		
-optrčava		
-opčinjava	119	
-orahova		
-organizova		
-orićeva		
-orkova	35	
-orlova	2004	
-oročava	63	
-orođava		
-orošava		
-orvelova		
-osetljiva	2489	
-osigurava	3114	
-oskudeva	249	
-oslikava	2179	
-oslovljava	215	
-osmišljava	450	
-osniva	3252	
-osnova	22110	
-osporava	2090	
-ostava	556	
-ostojićeva		
-ostrava		
-ostrova		
-ostrva	15035	
-ostvariva	328	
-ostvarljiva	129	
-osvajačeva		
-osvetljava	998	
-osvetljiva		
-osvetoljubiva	66	
-osveštava	78	
-osvežava	732	
-otaljava		
-otava	99	
-otačastva		
-otečestva		
-otežava	3275	
-otkiva	34	
-otključava	226	
-otklonjiva		
-otkopava	98	
-otkopčava	87	
-otkriva	15937	
-otkucava	411	
-otpeva	469	
-otpliva	34	
-otputova	36	
-otrcava		
-otrežnjava		
-otrova	1912	
-otuđiva		
-ova	235859	
-ovakva	17538	
-ovenčava	18	
-overava	614	
-ovladava	163	
-ovnova	269	
-ovčarstva	98	
-oziva		
-označava	10424	
-ozvaničava		
-očajava	102	
-očarava	208	
-očeva	756	
-očinstva	579	
-očitava	635	
-očuva	2243	
-oživljava	1173	
-pacijentova	22	
-pacova	1331	
-padobranstva	71	
-padova	1519	
-paganstva	119	
-pakova	19	
-paktova	32	
-palijativa		
-palčeva	53	
-panjeva	161	
-pančeva		
-pančićeva		
-papagajeva		
-papićeva		
-paradržava	60	
-paraskeva		
-parkova	2434	
-parova	4468	
-partnerstva	5594	
-pasiva	119	
-pasova	271	
-pasterova		
-pastorova		
-pastrva	58	
-pastuva	172	
-pastva	88	
-paukova	287	
-paunova	44	
-pava		M
-pavelićeva		
-pavićeva		
-pavlinova		
-pavlova		
-pazova		
-pašićeva		
-pažljiva	354	
-peciva	1423	
-pegava	41	
-pehova	127	
-pejićeva		
-pekićeva		
-penušava	173	
-pepeljava		
-perićeva		
-periševa		
-perišićeva		
-perovićeva		
-perspektiva	3796	
-pesnikova	86	
-pesništva	687	
-petlova	234	
-petrova		
-peva	7828	
-pevačeva	18	
-pezova		
-pećančeva		
-peševa	12	
-pešićeva		
-pijanstava	27	
-pijanstva	501	
-pikasova		
-pikova	89	
-pilava		
-pilotova		
-pinosava		
-piratstva	91	
-pirova	151	
-pirčeva		
-pisareva		
-piskova		
-piva	8448	
-pivarstva	42	
-pišljiva	60	
-piščeva	220	
-pješaštva		J
-placeva	516	
-plamenova		
-plankova		
-planova	10042	
-plastova		
-platonova		
-plava	5403	
-plavšićeva		
-plačljiva	64	
-plašljiva	107	
-plehova	19	
-plemstva	695	
-plesniva	10	
-plesova	476	
-pletiva	80	
-pleva	49	
-plikova	133	
-plinova	148	
-pliva	1829	
-pljuskova	255	
-plodova	3633	
-plotova	43	
-plovdiva		
-plugova	77	
-pluseva	291	
-poboleva		
-poboljšava	5464	
-pobolova		
-podaništva	104	
-podanstva	15	
-podciljeva		
-podcrtava	45	
-podebljava	15	
-podešava	1293	
-podgrejava		
-podgreva	286	
-podkova		
-podliva		
-podnaslova	198	
-podneva	1688	
-podnošljiva	145	
-podova	1115	
-podozriva	30	
-podrazumeva	43243	
-podražava	273	
-podrhtava	225	
-podriva	680	
-podrugljiva	31	
-podržava	22919	
-podsmeva	314	
-podsmešljiva	10	
-podstava		
-podujeva		
-podučava	758	
-podvrgava	381	
-podčinjava	16	
-pogledava	22	
-pogoršava	1647	
-pogružava		
-pogužava		
-pohotljiva	13	
-poigrava	625	
-pojaseva	710	
-pojava	22971	
-pojačava	3665	
-pojašnjava	1516	
-pojmljiva	21	
-pojmova	3799	
-poklizava		
-pokojnikova	32	
-pokorava	276	
-pokova		
-pokretljiva	77	
-pokriva	9488	
-pokrova	502	
-pokupova		
-pokućanstva		
-pokućstva	270	
-pokušava	22671	
-pokvarljiva		
-policajčeva		
-polijeva		J
-poliva		
-poljakova		
-polova	3544	
-polubogova	26	
-polumrtva	49	
-poluostrva	2417	
-poluprava		M
-polutonova		
-polušaljiva		
-poluživa		
-pomilova	29	
-pomirljiva	34	
-pomodarstva	129	
-pomorstva	341	
-ponikva		
-poništava	1183	
-ponižava	901	
-ponjava	46	
-ponova		
-ponovljiva	14	
-pooštrava	102	
-popeva		
-poplava	5215	
-popodneva	1602	
-popova	618	
-popovićeva		
-popunjava	1762	
-popustljiva	85	
-poravnava	160	
-poražava	101	
-poriva	403	
-porobljava	54	
-portirova		
-portova	802	
-poručnikova		
-posakriva		
-posavetova	22	
-poslanikova	18	
-poslanstva	349	
-posledova		
-poslepodneva	159	
-poslova	50378	
-pospava		
-posredništva	69	
-posredstva	68	
-postava	932	
-posteva		
-postova	2492	
-postrojava	46	
-posvršava	23	
-potkiva	71	
-potkopava	326	
-potkova	31	
-potomstva	842	
-potrova		
-potčinjava	166	
-poučava	375	
-poverava	679	
-poverljiva	300	
-poverova	30	
-povećava	19712	
-povinova		
-povodljiva	32	
-pozdrava	1817	
-pozijeva		J
-pozitiva	93	
-poziva	24924	
-poznanstava	406	
-poznanstva	1384	
-pozova		
-pozva	400	
-počiva	5755	
-poštareva		
-poštiva	16	
-poštova		
-pradedova	134	
-pragova	370	
-prahova	141	
-pramenova	337	
-prava	189654	
-pravdoljubiva	43	
-praznoglava	17	
-praškova	61	
-prašljiva		
-prašnjava	82	
-prebiva	423	
-prebrojava	143	
-precrtava	43	
-predislava		
-prediva	238	
-predićeva		
-predočava	553	
-predsedava	1653	
-predsednikova	124	
-predsedništva	7213	
-predstava	18416	
-predstavništva	2878	
-preduslova	2075	
-predusretljiva	70	
-preduzetništva	5786	
-preduzimljiva	82	
-predvidiva	168	
-predvidljiva	150	
-preglasava		
-pregledava	67	
-pregrejava		
-pregreva		
-pregrijava		J
-preimućstva	157	
-prejemstva		
-prekorava	18	
-prekoreva	84	
-prekova		
-prekriva	1008	
-prekrštava		
-prekuva		
-prelijeva	41	J
-prelistava	116	
-preliva		
-preljeva	12	J
-premerava	37	
-premijerova	66	
-premotava	40	
-premršava	50	
-prenebregava	209	
-prenosiva	318	
-preobražava	583	
-preosetljiva	108	
-preovladava	1008	
-prepeva	75	
-prepliva	104	
-preplivava		
-prepodneva	834	
-prepolovljava		
-prepoznatljiva	1922	
-prepričava	909	
-prepucava	78	
-prerogativa	98	
-prerova		
-prerušava	39	
-preseljava	168	
-presijava	124	
-preslava		M
-preslikava	260	
-preslišava	59	
-preslušava	33	
-prespava	319	
-prestava		
-pretrpava	10	
-pretrčava	92	
-pretstava		
-preudešava		
-preusmerava	421	
-preustrojava		
-preuveličava	138	
-preventiva	1078	
-prevladava	345	
-prevodiva	17	
-prevrtljiva	75	
-prezervativa	165	
-preziva	339	
-preznojava	62	
-prečišćava	228	
-preševa		
-preživa	39	
-preživljava	1242	
-prgava	34	
-pribegava	915	
-pribislava		
-približava	4321	
-pribojava	234	
-prideva	530	
-pridržava	1906	
-prihvatljiva	2208	
-prijateljeva	15	
-prijateljstava	511	
-prijateljstva	7385	
-prijava	15255	
-prijemčiva	104	
-prikiva	19	
-prikova		
-prikriva	1097	
-prilagodljiva	372	
-prilagođava	2680	
-prilepljiva		
-priliva	2326	
-priljeva	15	J
-primakova		
-primamljiva	500	
-primenjiva	416	
-primenljiva	424	
-primećava		
-primorava	1006	
-prinova	160	
-prinčeva	332	
-pripeva	20	
-pripisiva		
-priprava		
-prisiljava	523	
-prispava	44	
-pristava	25	
-prisustva	6872	
-pritešnjava		
-pritrčava		
-privikava	120	
-privoleva		
-priziva	1230	
-prizva	70	
-pričinjava	640	
-pričljiva	66	
-pričuva	131	
-prišaptava		
-prišiva	46	
-prišteva		
-prljava	1361	
-probava	113	
-probirljiva	76	
-prodanova		
-produva		
-produžava		
-profesorova	37	
-proglašava	2179	
-progledava		
-progonstva	237	
-prohteva	232	
-projava		
-projašnjava		
-prokišnjava	433	
-prokletstva	358	
-proklizava	95	
-proključava		
-prokofjeva		
-prokuva	239	
-proleva		
-proliva	810	
-promenjiva	140	
-promenljiva	1271	
-pronicljiva	96	
-propeva	79	
-propliva	10	
-prorokova	17	
-proročanstava	140	
-proročanstva	648	
-proroštava	28	
-proroštva	195	
-prosejava		
-prosijava	54	
-proslava	4749	
-prospava		
-prostaštva	38	
-prostranstava	191	
-prostranstva	897	
-prosvetiteljstva	790	
-protivofanziva		M
-protivotrova	25	
-protićeva		
-prototipova	387	
-protuotrova		
-protuva	135	
-proučava	1818	
-provejava	582	
-proverava	3833	
-proverljiva	71	
-provetrava	81	
-proziva	1079	
-prozorljiva		
-prozva	21	
-pročešljava	14	
-pročitava		
-pročišćava	314	
-proždrljiva	42	
-proživljava	466	
-prstenova	1187	
-prudova		
-prva	89674	
-prvenstava	654	
-prvenstva	17025	
-prvoslava		
-prčeva		
-pršljenova		
-psoglava		
-pucnjava	609	
-pucnjeva	52	
-pukova	196	
-pukovnikova		
-puletićeva		
-punktova		
-punoletstva	555	
-punomoćstva		
-pupavčeva		
-pupinova		
-pustolova	104	
-puteva	15355	
-putinova		
-putnikova	11	
-putova	90	
-puzava		
-pučanstva	129	
-pučeva	45	
-pučinijeva		
-puškinova		
-puževa	459	
-pčelarstva	665	
-radanova		
-radisava		
-radislava		
-radićeva		
-radmilova		
-radništva	254	
-radojeva		
-radosava		
-radoslava		
-radova	50286	
-radovanova		
-rafova		
-rajačićeva		
-rajićeva		
-rakitićeva		
-rakićeva		
-rakova	293	
-ramadanova		
-ramićeva		
-ramova		
-rangova	114	
-ranisava		
-ranjava	95	
-ranjiva	427	
-rančeva	70	
-rapava		
-rascvetava		
-rasejava		
-rasipništva	142	
-raskopava	33	
-raskopčava	33	
-raskriva		
-raskuva		
-raslojava		
-raspaljiva		
-rasparčava	81	
-rasplamsava	195	
-rasplinjava	28	
-raspoloživa	951	
-rasprava	13156	
-rasprskava	32	
-rastava	20	
-rastegljiva	116	
-rastezljiva		
-rastislava		
-rastrojava		
-rastrojstva	141	
-rasvetljava	177	
-ratarstva	238	
-ratislava		
-ratnikova		
-ratova	9631	
-razbojništva	708	
-razboljeva		J
-razbuktava	101	
-razdeljiva		
-razdražljiva	129	
-razduva		
-razgibava	21	
-razglašava	12	
-razgoreva		
-razgovorljiva		
-razgranava		
-razgranjava		
-razigrava	92	
-razjašnjava	197	
-razleva		
-razliva		
-razmetljiva	19	
-razmnožava	614	
-razmotava		
-razmrdava		
-raznežava		
-razoružava	80	
-razotkriva	783	
-razočarava	152	
-razrešava	935	
-razrešiva		
-razriva		
-razumeva	206	
-razumljiva	1096	
-razvedrava	37	
-razvejava		
-razveseljava	23	
-razvrgava		
-razvrstava	243	
-račićeva		
-računarstva	1524	
-računovodstva	2114	
-račva	168	
-raščišćava	105	
-reagova		
-rebrova		
-recidiva	452	
-rediteljeva	20	
-redova	10976	
-redžepova		
-regulativa	2563	
-renova		
-repova	219	
-retrospektiva	472	
-rezbarstva		
-rezerva	1326	
-rezova	494	
-rečitativa		
-rešava	11193	
-rešiva	67	
-režiserova		
-režnjeva	87	
-ribarstva	374	
-ribolova	1186	
-risova	38	
-ristićeva		
-ristova		
-ritmova	449	
-ritova	71	
-riva		M
-rivalstava	20	
-rivalstva	296	
-riznićeva		
-robeva		
-robova	1158	
-roditeljstva	783	
-rodoljubiva	128	
-rodoslova	132	
-rodova	691	
-rogova	479	
-rojeva	416	
-rokova	3509	
-romanova	35	
-rombova	18	
-ropstva	2234	
-rotativa		
-rotkva	87	
-rova	351	
-rovova	338	
-roždestva	270	
-rtova	26	
-rubova	206	
-rudareva		
-rudarstva	3394	
-rugova	80	
-rukava	1648	
-rukovodstava	364	
-rukovodstva	8104	
-rutava	18	
-ručava	16	
-ručkova	208	
-ružićeva		
-rzava	160	
-rđava	280	
-sablažnjava	108	
-sablažnjiva	15	
-sadejstva	99	
-sadržava	165	
-saglašava	70	
-sagledava	1333	
-sagoreva	686	
-sagova		
-sahranjiva		
-sajmova	1201	
-sajtova	9925	
-sakriva	621	
-salva		M
-samodiva		
-samoubistava	960	
-samoubistva	1737	
-samouprava	15177	
-samova		
-samozadovoljstva	83	
-samoživa	42	
-samožrtva		
-sanjiva	48	
-saobražava		
-saopštava	3234	
-saslušava	157	
-sastava	8861	
-satova	1491	
-saučesništva	143	
-sava		
-savezništva	462	
-savitljiva	97	
-savićeva		
-savladava	341	
-savladiva	18	
-savršenstva	1721	
-saziva	2369	
-sazreva	737	
-sazva	39	
-sačinjava	1357	
-sačuva	7008	
-sašaptava		
-sažaljeva		
-sažaljiva		
-sedativa	271	
-sefova	141	
-seksova		
-sektaštva	53	
-sekulićeva		
-selenićeva		
-seljakova	19	
-seljaštva	186	
-senatorova		
-serdareva		
-serva	59	
-sestrinstva	294	
-setova	985	
-setva	1869	
-seva	186	
-sečiva	597	
-shvatljiva	97	
-silva		
-simeonova		
-simićeva		
-simonova		
-simova		
-simovićeva		
-singlova	650	
-sinova	3152	
-sinovljeva		
-sinđelićeva		
-sipljiva		
-sireva	964	
-siromaštva	7284	
-sirova	894	
-sitničava	21	
-siva	2832	
-sivoplava		
-sizifova		
-sjedinjava	21	
-skakutava		
-skalpova	19	
-skapava	48	
-skerlićeva		
-skečeva	107	
-sklekova	232	
-sklopova	557	
-skokova	5117	
-skončava	27	
-skotova	67	
-skriptova	137	
-skriva	2432	
-skupova	3102	
-skuva	609	
-slabunjava		
-sladunjava	46	
-slajdova	452	
-slamova	23	
-slapova	119	
-slatkorečiva		
-slava	9207	
-slavnićeva		
-slavujeva		
-sledstva		M
-slepčeva		
-sleva	241	
-slikarstva	2907	
-slinava	24	
-sliva	1798	
-slivova	112	
-slogova	334	
-slojeva	4535	
-slomova	40	
-slonova	547	
-slova	12963	
-slovenstva	201	
-sluzava	80	
-slučajeva	26704	
-smalaksava		
-smekšava	27	
-smenjiva	44	
-smerova	1107	
-smetova		
-smečeva		
-smeđeplava		
-smilova		
-smirnova		
-smokava	176	
-smokva	191	
-smradova		
-smrdljiva	175	
-smrekova		M
-smrkava		M
-smrzava	158	
-smukova		
-smuva	112	
-snabdeva	2053	
-snalažljiva	94	
-snebiva	64	
-snegova	114	
-sneva		
-snishodljiva		
-sniva	73	
-snižava	1490	
-snobova	55	
-snopova	184	
-snova	7076	
-sojeva	291	
-sokolova	44	
-sokova	2053	
-sokratova		
-sokurova		
-solomonova		
-sopstva	322	
-sosova		
-sova	1008	
-sočiva	3407	
-spasava	1775	
-spasićeva		
-spasova	22	
-spava	8116	
-spašava		
-speva	145	
-spevova	26	
-spiskova		
-splava	421	
-splavova	656	
-splašnjava	54	
-spojeva	624	
-spojiva	46	
-spokojstva	212	
-spolova	116	
-sponzorstva	747	
-sporova	3186	
-sportova	6467	
-spotova	1242	
-spočitava	263	
-spratova	1910	
-sprava	1563	
-sprejeva	155	
-sprečava	10656	
-sprudova	49	
-sputava	877	
-spužva	23	
-sramežljiva	41	
-srbinova		
-srbislava		
-sredstava	60552	
-sredstva	76335	
-sremčeva		
-sretenova		
-srezova	180	
-srodstava		
-srodstva	372	
-srozava	218	
-srpova	10	
-srpstava		
-srpstva	2621	
-stajićeva		
-stanislava		
-staniševa		
-stankova		
-stanova	15928	
-stanovništva	35036	
-starateljstva	753	
-starešinstva	234	
-startova	166	
-starčeva	103	
-stasava	161	
-stativa	458	
-stava	17644	
-stavova	8735	
-stefanova		
-stenova		
-stepenova		
-stepova		
-steva		
-stevanova		
-stečajeva	117	
-stešnjava		
-stidljiva	404	
-stihova	2183	
-stijegova		J
-stilova	2635	
-stišava	234	
-stoglava	12	
-stogova	22	
-stojanova		
-stojkova		
-stojmenova		
-stolićeva		
-stolova	2167	
-stočarstva	1361	
-strahova	1331	
-strava	909	
-strašljiva	13	
-stražilova		
-streljaštva	256	
-streljiva	19	
-stresova	291	
-stripova	1514	
-stričeva	126	
-strpljiva	341	
-strukova	67	
-stršljenova	38	
-stubova	3255	
-stupnjeva	398	
-stupova	171	
-stvaralaštva	6328	
-stvoreva		
-stvorova	94	
-stvrdnjava	69	
-subotićeva		
-sudova	13454	
-sudstva	5506	
-suknareva		
-sukobljava	306	
-sultanova		
-sumnjicava		
-sumnjiva	1022	
-sumnjičava	159	
-sunčeva	1045	
-suočava	5837	
-suparništva	82	
-superlativa	54	
-supernova	385	
-supova	91	
-surova	1803	
-surva	58	
-survava	75	
-susedstva	555	
-suspendova		
-susretljiva		
-sutonova		
-suva	3475	
-suvonjava		
-suvorova		
-suvozačeva	27	
-suzdržava	75	
-sučeljava	67	
-sušičava		
-sužava	939	
-sva	90078	
-svadljiva	27	
-svakakva	148	
-svarljiva	94	
-svatova	338	
-svedočanstava	563	
-svedočanstva	1668	
-svekrva	836	
-svetislava		
-svetlosiva		
-svetlucava	85	
-svetoslava		
-svetova	1614	
-svečeva	10	
-sveštenikova	34	
-sveštenstva	2230	
-svežnjeva	23	
-sviftova		
-svinjarstva	54	
-svladava	13	
-svodova	161	
-svojeglava	64	
-svojstava	2415	
-svojstva	7634	
-svrgava	25	
-svrstava	2713	
-svršava	292	
-tadićeva		
-tajanstava		
-tajanstva	65	
-taktova	226	
-takva	45684	
-talasava		
-tamnava		
-tamnoplava	42	
-tamnosiva	30	
-tankova		
-taseva		
-tava	65	
-tegova	1055	
-tekstova	12396	
-temova		
-tenkova	1473	
-tenova		
-teodorova		
-testova	4932	
-tetiva	598	
-teturava		
-tečajeva	133	
-težakova		
-tigrova	119	
-tihomirova		
-tihonova		
-tikava	55	
-tikova	69	
-tikva	517	
-timova	6711	
-tipova	5159	
-tiraninova		
-tiranstva	16	
-titlova		
-tkiva	9492	
-tokova	3510	
-tomaševa		
-tomislava		
-tomićeva		
-tomova	663	
-tonova	1477	
-topalova		
-topništva		
-topova	1217	
-tornjeva	299	
-torova	67	
-točkova		M
-toševa		
-toškova		
-tragova	2581	
-trajanova		
-traljava	54	
-trapava	78	
-trapova	42	
-trava	4719	
-tračeva	229	
-trbosekova		
-tremova	34	
-trendova	2913	
-trenerova	18	
-treperava	29	
-trešnjeva		
-trešnjićeva		
-treštava		
-trgova	1023	
-triglava		
-trikova	1345	
-tričava	13	
-trnava		
-trnova	164	
-troglava	43	
-trojstva	418	
-trolova	79	
-tronova	23	
-trouglova	186	
-troškova	24474	
-trpeljiva	26	
-trubačova		
-truckava		
-trudoljubiva		
-trudova	263	
-trupova	42	
-trutova	182	
-tucovićeva		
-tugaljiva	23	
-tugova		
-tupava	83	
-tupoglava		
-turgenjeva		
-tutićeva		
-tutnjava	101	
-tutorova		
-tutorstva	145	
-tučnjava	13	
-tuševa	144	
-tužilaštva	8389	
-tužiočeva	33	
-tvitova	356	
-tvorova	28	
-tvrdoglava	357	
-tvrđava	3740	
-ubava	45	
-ubedljiva	1125	
-ubeležava		
-ubistava	2821	
-ubistva	13578	
-ublažava	1557	
-uboštva		
-ubrizgava	401	
-ubrzava	4105	
-ucrtava	31	
-udaljava	1173	
-udava	19	
-udešava		
-udostojava		
-udova	645	
-udovištva	21	
-udovoljava	197	
-udvostručava	91	
-ugljeva	37	
-uglova	1919	
-ugnjetava	122	
-ugostiteljstva	920	
-ugošćava	60	
-ugrožava	6462	
-ugruva		
-ugurava		
-uhodava	40	
-uhvatljiva	29	
-ujakova		
-ujedinjava	30	
-ukiva		
-ukljeva	14	
-ukopava	70	
-ukorava	20	
-ukova		
-ukrašava	334	
-ukrcava	68	
-ukucava	85	
-ukuva		
-ulepšava	351	
-ulijeva	77	
-uliva		
-ulova	491	
-umetnikova	62	
-umešava		
-umiljava	65	
-umiva	162	
-umnožava	578	
-umoljava		
-umorstva	40	
-umotava	47	
-umova	782	
-umrtvljava		
-uništava	4783	
-uništiva	13	
-unižava	130	
-unjkava		
-unovčava		
-uobičajava		
-uobličava	259	
-uobražava	48	
-uokvirava		
-uopštava		
-uočava	2475	
-uočljiva	833	
-upadljiva	352	
-upetljava		
-upevava		
-upečatljiva	459	
-upliva	578	
-uplovljava	64	
-upodobljava		
-uporediva	228	
-upotpunjava	141	
-upotrebljava	4997	
-upotrebljiva	398	
-upozorava	8900	
-upošljava	486	
-uprava	24770	
-upravnikova		
-upražnjava	535	
-upropaštava	73	
-upropašćava		
-uprošćava		
-upucava	18	
-upumpava	168	
-uputstava	1513	
-uputstva	7370	
-uravnava		
-uračunava	263	
-urbanova		
-urednikova		
-uredništva	640	
-urokljiva		
-uroševa		
-urušava	1021	
-usaglašava	308	
-usamljeništva		
-usavršava	1164	
-useljava	233	
-useljiva	70	
-useva	2829	
-usijava		
-usiljava		
-usisava	451	
-usitnjava	70	
-uskokova		
-uslišava	22	
-uslova	34056	
-uslovljava	1709	
-usložnjava	284	
-usmerava	3092	
-usova		
-uspava	326	
-uspavljiva		
-uspeva	8946	
-uspokojava		
-usporava	2815	
-uspostava	185	
-usrećava		
-ustalasava		
-ustanova	23695	
-ustava	19227	
-ustaštva	158	
-ustoličava		
-ustrojstva	911	
-ustručava	168	
-utišava	85	
-utkiva		
-utoljava		
-utopljava		
-utrčava	79	
-utva	337	
-uvažava	1768	
-uveličava	93	
-uverava	1646	
-uverljiva	259	
-uveseljava	183	
-uvećava	2935	
-uvežbava	182	
-uvredljiva	376	
-uvrštava	84	
-uzbudljiva	1534	
-uzburkava	48	
-uzdrmava	33	
-uzdržava	250	
-uzmuva		
-uznemirava	1015	
-uzrujava	46	
-uzvišava		
-ućutkava		
-učitava	813	
-učiteljeva	13	
-učiteljstva	31	
-učtiva	30	
-ušiva		
-ušljiva		
-ušmrkava	22	
-uščuva		
-užasava	350	
-uživa	10707	
-uživljava	44	
-vaclava		
-vajarstva	198	
-valjeva		
-valova	193	
-varava	20	
-variva	173	
-varljiva	250	
-varvarstva	262	
-vasićeva		
-vaskrsava	284	
-vaspitava	664	
-vatroslava		
-vazalstva		
-vazduhoplova	870	
-vazduhoplovstva	2404	
-vašljiva	12	
-vekoslava		
-vekova	6426	
-velimirova		
-velisava		
-velizareva		
-veličanstva	561	
-velova	85	
-venčava	146	
-veprova	98	
-veroslava		
-verova		
-vesovićeva		
-veterinarstva	63	
-vetrova	48	
-vezirova		
-vezova	265	
-vezuva		
-većeslava		
-viceva	485	
-vidikova		
-vidljiva	3155	
-vidosava		
-vidoslava		
-vidova	2749	
-vijugava	48	
-vinogradarstva	548	
-vinova	351	
-virova	119	
-visova	151	
-visočanstva	183	
-vitezova	1040	
-viteštva	240	
-vitlova		
-vitomirova		
-višeslava		
-viškova	1048	
-višnjićeva		
-vižljava		
-vjačeslava		
-vladanova		
-vladaočeva		
-vladareva		
-vladislava		
-vlasnikova	10	
-vlasništva	6664	
-vlastelinstva		
-vodotokova		
-vodova	579	
-vodstva	177	
-vojeva	11	
-vojislava		
-vojnikova		
-vojvodstva	282	
-vokativa	14	
-volova	302	
-vonjeva		
-vozačeva	50	
-vozova	2100	
-voćarstva	513	
-vođstva	2950	
-voždova	45	
-vragolova		
-vragova	22	
-vranova		
-vrančeva		
-vratova	105	
-vračeva	91	
-vrbova		
-vrcava		
-vrednova		
-vremeplova	134	
-vreva	155	
-vrhova	1801	
-vrljava		
-vroclava		
-vrtoglava	52	
-vrtova	587	
-vujićeva		
-vukanova		
-vukašinova		
-vukosava		
-vukoslava		
-vukova	1834	
-vulkanova		
-vulovićeva		
-vulva	50	
-vućićeva		
-vučićeva	287	
-zabadava	164	
-zabava	5662	
-zabeležava		
-zaborava	2539	
-zabrinjava	2798	
-zabušava	82	
-zadeva		
-zadivljava		
-zadovoljava	6158	
-zadovoljstava	394	
-zadovoljstva	7163	
-zadrugarstva	386	
-zadržava	6691	
-zaduva		
-zafrkava	44	
-zagoreva		
-zagorčava	131	
-zagrcava		
-zagrejava		
-zagreva	1365	
-zagrijava	63	J
-zagušljiva	32	
-zahteva	61311	
-zahuktava	489	
-zainteresova		
-zajedljiva	43	
-zajedništva	1665	
-zajmodavčeva		
-zajmova	1682	
-zakašnjava	18	
-zakiva	28	
-zakletva	591	
-zaključava	310	
-zakonodavstva	3554	
-zakopava	74	
-zakopčava	51	
-zakova		
-zakriva		
-zakucava	194	
-zakuva	83	
-zakuvava		
-zaleva	10	
-zaliva	2465	
-zaljeva	53	
-zamajava	344	
-zamenjiva	23	
-zamenljiva	40	
-zamisliva	84	
-zamkova	134	
-zamotava	20	
-zamrzava	268	
-zanatstva	450	
-zanemariva	105	
-zanemarljiva	784	
-zanimljiva	8959	
-zaodeva		
-zaorava		
-zaova	100	
-zaoštrava	283	
-zapaljiva	199	
-zapetljava	23	
-zapeva	488	
-zapliva	64	
-zapovedništva	20	
-zapovjedništva		J
-zapošljava	4860	
-zaprečava		
-zaradova		
-zaračunava	219	
-zaražava	16	
-zarfova		
-zariva	70	
-zarićeva		
-zarobljava	135	
-zarobljeništva	290	
-zaronjava		
-zasmejava	166	
-zasniva	10645	
-zasnova		
-zastareva		
-zastava	7855	
-zastrašava		
-zastupništva	137	
-zastupstva	33	
-zasvedočava		
-zataškava	171	
-zatočeništva	272	
-zatrpava	220	
-zaustava		
-zauzdava		
-zavarava	348	
-zaverava		
-zavetova	15	
-zaveštava		
-zavidljiva		
-zavijava		
-zavitlava		
-zavodljiva	308	
-zavrtnjeva		
-završava	17673	
-zazva		
-začešljava		
-začuđava		
-zašiva	33	
-zaštitnikova		
-zbegova	33	
-zbirova		
-zbiva	1519	
-zbližava	287	
-zborova	119	
-zbrinjava	240	
-zdrava	7323	
-zdravstva	5122	
-zebljiva		
-zekoslava		
-zelenaštva	30	
-zetova	63	
-zeva	214	
-zečeva	435	
-zgibova	90	
-zglobova	1973	
-zgražava	149	
-zgruva		
-zgrušava	39	
-zgušnjava	121	
-zgužva	41	
-zidarstva	99	
-zidova	5449	
-zimonjićeva		
-zjuganova		
-zlatarstva	71	
-zlodejstva		
-zloupotrebljava	1695	
-zločinstva		
-zmajeva	700	
-znakova	6051	
-znojava		
-znojeva		
-zoranova		
-zorislava		
-zova	227	
-zrakova	116	
-zrikava		
-zveketava		
-zverova		
-zverstava	109	
-zverstva	395	
-zvonareva		
-zvonjava	195	
-zvukova	1251	
-ćaletova	13	
-ćefova		
-ćelava	165	
-ćesareva		
-ćesarova		
-ćilimova		
-ćirilova		
-ćirićeva		
-ćopava		
-ćopićeva		
-ćorava		M
-ćorovićeva		
-ćosićeva		
-ćoškova		
-ćudljiva	74	
-ćupova	46	
-ćurkova		
-ćutljiva	122	
-čabrova		
-čajeva	964	
-čakova		
-čamova		
-čarobništva		
-čarobnjakova		
-čarobnjaštva	48	
-čaršava		
-časlava		
-časništva		
-časova	57241	
-čavićeva		
-čađava	43	
-čašćava	53	
-čehova	195	
-čekova	586	
-čelareva		
-čelikova		
-čelništva	13	
-čepova	202	
-česlava		
-četništva	116	
-češljeva	60	
-čežnjiva	18	
-čikova	13	
-činodejstva		
-činova	518	
-činovništva	66	
-čipova	1858	
-čireva	208	
-čistunstva	24	
-čitalaštva		
-čitaočeva		
-čitava	9469	
-čitljiva	157	
-čivava	90	
-članova	54266	
-članstava	19	
-članstva	6329	
-čmava		
-čojstva		
-čolićeva		
-čomićeva		
-čova	147	
-čovekova	1089	
-čovečanstva	6435	
-čoveštva	31	
-čovićeva		
-čumićeva		
-čunjeva	803	
-čunova		
-čupava	154	
-čupićeva		
-čuva	16063	
-čuvareva		
-čuvstava	25	
-čuvstva	127	
-čučnjeva	120	
-čvorova	1338	
-đakova	24	
-đapićeva		
-đavolova	36	
-đavolstva		
-đenova		
-đilasova		
-đinđićeva		
-đinđuva		M
-đokovićeva		
-đonova		
-đorovićeva		
-đorđeva		
-đubriva	4547	
-đurićeva		
-đurišićeva		
-đurovićeva		
-đurđeva		
-šakićeva		
-šaljiva	200	
-šalova	119	
-šantićeva		
-šančeva	114	
-šarićeva		
-šarova		
-šarovićeva		
-šatlova	232	
-šava	184	
-šavova	181	
-šašava	108	
-šefova	2493	
-šekarićeva		
-šekspirova		
-šepava		
-šerifova	10	
-ševa	228	
-šešeljeva		
-šimširova		
-šipova	317	
-škakljiva	133	
-škiljava		
-škodljiva	33	
-školova		
-školstva	1982	
-škrbava		
-škripava	12	
-škriputava		
-šlemova	203	
-šlepova	43	
-šliceva		
-šljiva	2588	
-šljivova		
-šoferova		
-šokova	256	
-šorova		
-špiceva	108	
-špilova	10	
-špriceva	111	
-šrafova		
-štabova	455	
-štandova	825	
-štapova	435	
-štedljiva	252	
-štihova		
-štitova	151	
-štiva	599	
-štofova		
-štosova	13	
-štrajkova	1006	
-štrokava		
-šubićeva		
-šugava	47	
-šumareva		
-šumarstva	3465	
-šumova	224	
-šupljikava	17	
-šupljoglava		
-šuteva	834	
-šutljiva	10	
-šuštava		
-žalostiva	10	
-žanrova	1669	
-žarkova		
-žbunova	115	
-ždralova	112	
-žekićeva		
-ženeva		
-žerajićeva		
-žetva	1699	
-žgoljava	14	
-židova	84	
-žigova	254	
-žilava	172	
-žireva	15	
-žitarstva		
-žiteljstva		
-živa	8328	
-živanova		
-živkova		
-živoslava		
-žižićeva		
-žlebova	74	
-žrtava	14296	
-žrtva	10035	
-žrtvova		
-žukova		
-žuljeva	219	
-žvrkova		
-bjekstva		
-bjesova	25	
-brijestova		
-cjeliva		
-crijeva	319	
-cvjetova	75	
-dijelova	857	
-dijeva		
-djedova	92	
-djelova		
-djetetova		
-djetinjstva		
-djetinstva		
-djeva		
-dječakova		
-dospijeva	57	
-grijehova	133	
-hljebova		
-izbjegava		
-izlijeva	14	
-izvještava		
-kijeva		
-lijekova	480	
-lijeva	219	
-ljekova		
-ljepljiva		
-ljeposava		
-ljeva		
-mjesečeva	40	
-nadjeva		
-nagovještava		
-namjerava		
-neosjetljiva		
-nepobjediva		
-neprocjenjiva		
-obavještava		
-odmjerava		
-odolijeva	34	
-oklijeva	27	
-osjetljiva		
-osvjetljava		
-osvježava		
-otpjeva		
-pijetlova		
-pjegava		
-pjenušava		
-pjeva		
-pobolijeva		
-podrazumijeva	1594	
-podrazumjeva		
-podsmijeva		
-popijeva		
-poslijepodneva	25	
-povjerava		
-povjerljiva		
-predsjedava		
-predsjednikova		
-preosjetljiva		
-preusmjerava		
-pribjegava		
-primjenjiva		
-prolijeva	38	
-promjenjiva		
-propjeva		
-provjerava		
-razlijeva	17	
-razrješava		
-razumijeva	19	
-riješava		
-rješava		
-sagorijeva	23	
-sazrijeva	33	
-sijeva	33	
-sječiva		
-slijeva	57	
-smjerova		
-snabdijeva	73	
-snijeva		
-spriječava		
-sprječava		
-svijetova		
-svjedočanstva		
-svjetlucava		
-svjetova	196	
-usjeva		
-usmjerava		
-uspijeva	383	
-uspjeva		
-uvjerava		
-uvjerljiva		
-vijekova	234	
-vjekoslava		
-vjekova	50	
-vjetrova		
-zahtijeva	975	
-zahtjeva		
-zalijeva	19	
-zapjeva		
-zbjegova		
-zijeva		
-čovjekova		
-čovječanstva		
+Kijeva			3
+Moskva			2
+Sarajeva			3
+Smedereva			4
+Varšava			2
+adamova			2
+aditiva	1350		2
+adjektiva			4
+admiralova			2
+advokatova			2
+agava			2
+ahilova			2
+ahmatova			2
+ajfelova			2
+akreditiva	238		2
+aktiva	1760		2
+aktova	90		3
+akuzativa	44		5
+akušerstva	229		2
+alahova			2
+alava			2
+albertova			2
+aleksićeva			2
+aleksova			2
+aljkava			2
+alternativa	6647		2
+aluminijumova			2
+alva	221		2
+ambarova			2
+ambasadorova			2
+andrejeva			2
+andrićeva			2
+angažova			2
+antidepresiva	306		2
+antićeva			2
+antonijeva			2
+anđelova			2
+aperitiva	49		2
+apostolova			2
+aranđelova			2
+arapova			2
+arhetipova	117		2
+arhiva	6882		2
+arkanova			2
+aronova			2
+arsenova			2
+arsićeva			2
+asimova			2
+asova	731		3
+autogolova	48		2
+autoputeva	1014		5
+autorova	245		2
+autorstva	266		2
+avgustova			2
+avramova			2
+azotova			2
+ašikova			2
+ašova	88		2
+babićeva			2
+badava	625		2
+bagova	332		2
+bagremova	27		2
+bajićeva			2
+bajova			2
+bajronova			2
+bajtova	223		3
+bakalinova			2
+bakarićeva			2
+bakićeva			2
+baklava	204		2
+balava	22		3
+balova	136		2
+balzakova			2
+bambadava			2
+bambusova			3
+bandoglava			2
+banićeva			2
+bankarstva	1642		2
+bankrotstva	620		2
+banova	86		3
+banovićeva			2
+barajeva			2
+barbarstva	18		2
+bardova	43		2
+baronova			2
+barova	1254		3
+basova	61		3
+batićeva	17		2
+batlava			2
+batova	11		3
+bauljava			2
+bačava	10		3
+bačva	67		2
+bašićeva			2
+baštovanova			2
+baštovanstava			2
+baštovanstva	53		2
+becićeva			2
+bedževa	151		2
+begićeva			2
+begova	242		3
+begovićeva			2
+bekstava	15		2
+bekstva	1271		2
+beloslava			4
+belovićeva			2
+bendova	3258		3
+berislava			3
+berđajeva			2
+besova	69		3
+betovenova			2
+bezboštva	29		2
+bezglava	27		2
+bikova	570		3
+biogoriva	763		2
+biokova			2
+biserova			2
+biskupova	10		2
+bitova	347		3
+bitva			2
+biva	12382		2
+bivstva	146		2
+bizeova			2
+bičeva	57		3
+blagoeva			2
+blagoglagoljiva			2
+blagoslova	890		4
+blagva			2
+blamova			3
+blatnjava	119		3
+blaženstva	505		2
+blaževa			2
+bledunjava	48		2
+blentava			2
+blerova			2
+blesava	318		2
+bleskova	19		3
+bleštava	22		3
+blistava	500		3
+blitva	194		2
+bljeskova			3
+blještava			3
+bljutava	103		3
+bljuva			2
+blogova	1998		2
+blokova	2750		3
+bobićeva			2
+bobova	32		3
+bodlerova			2
+bodljikava	144		3
+bodova	20664		3
+boforova			2
+bogaljeva			2
+bogataševa			2
+bogatstava	965		2
+bogatstva	6718		2
+bogdanova			2
+bogobojažljiva	40		2
+bogosava			2
+bogoslava			4
+bogoslova	465		4
+bogova	3099		3
+boingova			2
+bojanova			2
+bojažljiva	31		2
+bojeva			2
+bojićeva			2
+bojovićeva			2
+bokićeva			2
+bokova	402		3
+boksova	212		2
+bolećiva	32		2
+bolešljiva	46		2
+bolova	4367		3
+borisava			2
+borislava			3
+borisova			2
+borova	97		2
+borščeva			3
+bosova	122		3
+botićeva			2
+bova			2
+boškova			2
+božanstava	451		2
+božanstva	1766		2
+božidarova			2
+božićeva			2
+bradva	10		2
+brakova	2462		3
+braniočeva			2
+branislava			3
+braničeva	32		2
+brankova			2
+bratimstva			2
+bratislava			3
+bratova			2
+bratovljeva			2
+bratstava	212		2
+bratstva	3279		2
+brava	1141		2
+brbljava			3
+brbljiva	51		2
+bregova	231		3
+brendova	4893		3
+breskva	333		2
+brestova	83		3
+brežnjeva			2
+britva	65		2
+brižljiva	36		2
+brkićeva			2
+brkova	450		3
+brljava			2
+brodareva			2
+brodarstva	176		2
+brodova	4984		3
+brojeva	6539		3
+brozova			2
+broševa	40		3
+brstova			2
+bruseva			2
+brusova			3
+brzojava			4
+bubnjeva	416		3
+bubuljičava			2
+budva			2
+bukava	36		3
+bukova	180		3
+bukva	378		2
+bulgakova			2
+buljava	13		2
+bundeva	490		2
+bungalova	272		2
+bunićeva			2
+buntovništva	69		2
+burićeva			2
+buva	517		2
+buđava	32		2
+careva	2033		3
+carova			2
+carstava	191		3
+carstva	9856		2
+casanova			2
+celiva	361		2
+celzijusova	29		2
+cerova	66		3
+cerovićeva			2
+cezarova	26		2
+ciljeva	17687		3
+cinkova			2
+cmizdrava			2
+crepova	203		3
+creva	7991		2
+crkava	7289		2
+crkva	33947		2
+crnoglava			2
+crnoljeva			2
+crnčeva			2
+crva	1029		2
+crvljiva	28		2
+cugova			2
+cukićeva			2
+cvetajeva			2
+cvetanova			2
+cvetkova			2
+cvetova	1593		3
+cvijićeva			2
+dabrova	96		2
+damjanova			2
+daneva			2
+danilova			2
+daničićeva			2
+danova			3
+darežljiva	114		2
+dariva	107		2
+darova	1285		3
+darvinova			2
+dativa	25		2
+davidova			2
+davinićeva			2
+dedova		M	2
+defanziva		M	2
+defova			3
+dejstava	1702		3
+dejstva	6646		2
+dejstvova			2
+dekanova			2
+delićeva	14		2
+deljiva	108		2
+delova	24555		2
+delčeva			2
+denjkova			2
+dernjava	33		2
+deronjićeva			2
+despotova	120		2
+detektiva	576		2
+detetova	139		2
+detinjstva	6862		2
+deva	171		2
+devičanstva	76		2
+devojaštva	28		2
+dezerterstva	35		2
+dečakova	105		2
+dečaštva	55		2
+dešava	44296		2
+dežurstva	885		2
+dijakova			2
+dimitrova			2
+dimićeva			2
+dimljiva			2
+dimova	74		3
+dinkićeva			2
+direktiva	1865		2
+direktorova	31		2
+dirljiva	611		2
+diskova	3552		2
+disova			2
+diva	1937		2
+divljaštva	169		2
+divova	263		3
+dlakava	139		3
+dlanova	434		3
+dobava		M	2
+dobiva	709		2
+dobrosava			2
+dobroslava			4
+dobročinstva	404		2
+docvetava			2
+dodijava			2
+dodikova			2
+dodvorava	139		2
+dogoreva			2
+dojava	559		3
+dojčinova			2
+dokaziva	99		2
+dokićeva			2
+dokova	79		3
+doktorova	78		2
+doliva			2
+dolova	316		3
+domaćinova	18		2
+domaćinstava	7600		3
+domaćinstva	8856		2
+domova	4815		3
+domunđava			2
+dopadljiva	158		2
+dopeva			2
+dopliva	53		2
+dopunjava	576		2
+dopustiva	40		2
+doputova	13		2
+doseljava	109		2
+dosetljiva	15		2
+dositejeva			2
+dospeva	1336		2
+dostava	1022		3
+dostojanstva	3907		2
+dotrajava			2
+dotrčava			2
+dova		M	2
+dovitljiva	46		2
+dovršava	290		2
+doziva	442		2
+dozreva	65		2
+dozvoljava	12621		2
+dočarava	722		2
+dočuva			2
+došaptava	34		2
+došiva			2
+doživljava	6935		2
+draganova			2
+dragačeva			2
+dragoslava			4
+drapava			2
+drava			2
+dračeva			2
+drenova	60		3
+dresova	488		3
+dretva			2
+drečava	22		2
+drhtava	46		3
+drinčićeva			2
+drljevićeva			2
+drobova			3
+dronjava			2
+dronova			3
+drotova			2
+drozdova			3
+drugarstva	323		2
+drugova	2490		2
+drumova	187		3
+društava	10322		2
+društva	89857		2
+druželjubiva	141		2
+drva	3864		2
+država	162955		2
+državljanstva	2626		2
+držićeva			2
+dubova			2
+dubrava	225		2
+dudova	277		3
+dugova	7229		3
+duhova	1848		3
+dunava			2
+duva	2681		2
+dućićeva			2
+dučićeva			2
+dušanova			2
+duškova			2
+duždeva	56		3
+dužnikova	21		2
+dva	344730		1
+dvoglava	46		2
+dvojstva	56		2
+dvorova	286		3
+džakova			2
+džangrizava			2
+džemova	154		3
+džepova	1371		3
+dževa			2
+džezva		M	2
+džinglova	71		2
+džinova			3
+džipova	377		3
+edipova			2
+efektiva	265		2
+egzekutiva	15		2
+ekskluziva	307		2
+eksploziva	1049		2
+elektrošokova	33		2
+enklava	624		2
+episkopova			2
+epova	111		3
+erićeva			2
+euprava			2
+eva			2
+fajlova	5146		3
+faksova	135		3
+fanova	3117		3
+faraonova	18		2
+farkašova			2
+farmerova			2
+farmerstva			2
+farova			2
+faulova	279		2
+fesova			2
+filipova			2
+filmova	20597		3
+fjodorova			2
+fondova	10891		3
+frakova			2
+frendova	40		3
+frizova	13		3
+frojdova			2
+frontova			2
+gadljiva	61		2
+gadova	61		3
+gadžićeva			2
+gafova	142		2
+gagarinova			2
+gajeva	49		3
+gajevićeva			2
+gajićeva			2
+galebova	156		4
+gandijeva			2
+garava	65		3
+garašaninova			2
+garova			2
+gasova	6720		3
+gatarstva			2
+gausova			2
+gavranova			2
+gavrilova			2
+gazdanova			2
+gazdinstva	3017		2
+gegova	53		2
+gejeva	286		3
+gelova	236		2
+generalova	25		2
+genitiva	75		4
+gestova	403		2
+ginićeva			2
+gistava			3
+gizdava	32		2
+glagoljiva			2
+glasova	23578		3
+glava	16486		2
+glazgova			2
+gledaočeva			2
+gležnjeva	91		3
+gligorova			2
+gljiva	2169		2
+glogova	24		3
+glumčeva	32		2
+glupava	172		3
+gluva	459		2
+gmazova	40		3
+gneva	1242		2
+gnevljiva			2
+gnjecava			2
+gnjeva	245		2
+gnojiva	109		3
+gnomova			2
+gnuova			2
+gojkova			2
+golicava	27		2
+golicljiva			2
+golićeva			2
+golišava			2
+gologlava	28		2
+golova	8522		3
+golubova	1385		4
+gorbačova			2
+goriva	19317		2
+gorljiva			2
+gospareva			2
+gospava			2
+gospodareva			2
+gospodinova	17		2
+gospodova			2
+gospodstva	201		2
+gostoljubiva	74		2
+gostoprimstva	344		2
+gotova	3830		2
+govornikova			2
+grabljiva	12		2
+grabova	30		2
+gradiva	1779		3
+gradonačelnikova	27		2
+gradova	29514		3
+grafova	131		3
+grahova			3
+gramziva	45		2
+građanstva	1402		3
+grbava	58		3
+grbova	179		3
+grehova	1756		3
+griva	106		2
+grkova			2
+grmljava		M	2
+grmova	48		3
+grnčarstva	35		2
+grobova	1262		3
+grofova	138		3
+gromova	243		3
+grozdova	133		3
+grozničava	63		2
+grudva	183		2
+grujićeva			2
+gruva	319		2
+grčeva	771		3
+guava	31		2
+gubava	19		3
+gunjeva			2
+gurava			2
+gurnjava		M	2
+guskova			2
+gustava			3
+guvernerova	22		2
+guzova	90		2
+gučeva			2
+gušterova			2
+gužva	3885		2
+gvozdićeva			2
+hajdukova			2
+halilova			2
+hamova			2
+hanova			3
+hava			2
+hegelova			2
+hercegova			2
+herojstva	184		2
+hečbekova			2
+hipokratova			2
+hirova	120		3
+hitlerova			2
+hitova	2130		2
+hladnjikava			2
+hlebova	277		3
+hodova	62		3
+holova	71		2
+homerova			2
+horova	921		3
+hramova	2108		3
+hranislava			3
+hraniteljstva	180		2
+hraniva	803		2
+hranjiva	104		2
+hranljiva	401		2
+hrapava	125		3
+hrastova	405		3
+hristićeva			2
+hristova			2
+hrišćanstva	4036		2
+hrskava	125		3
+hruščova			2
+hrvatstva	180		2
+humova	10		3
+hvaleslava			2
+hvalisava	13		2
+hvalospeva	257		4
+idolopoklonstva	215		2
+ignjatova			2
+igorova			2
+igračeva			2
+igumanova	24		2
+ikakva	507		3
+ilieva			2
+ilijeva			2
+ilirstva	19		2
+ilićeva			2
+iličićeva			2
+imejlova	76		2
+imenoslova			2
+imenova			4
+imperativa	498		5
+infinitiva	53		5
+inicijativa	14158		2
+inostranstva	12249		2
+inozemstva	126		2
+invalidova			2
+invektiva			2
+inženjerstva	1157		2
+inžinjerstva	44		2
+isakova			2
+iscrtava	237		2
+iseljava	194		2
+isijava	369		2
+isisava	172		2
+iskašljava	44		2
+isključiva	607		2
+iskobeljava			2
+iskopava	102		2
+iskorišćava	588		2
+iskova			2
+iskrcava	38		2
+iskrivljava	11		2
+iskričava	27		4
+iskrsava	150		2
+iskustava	9387		2
+iskustva	54903		2
+iskušava	194		2
+ismejava	125		2
+ismeva	382		2
+ismijava	49	J	2
+isparava	460		2
+ispava	22		2
+ispetljava			2
+ispeva	66		2
+ispipava	16		2
+isplativa	835		2
+ispliva	569		2
+isplivava	140		2
+ispljuvava			2
+isplovljava	69		2
+ispoljava	3387		2
+ispostava	628		2
+isprava	2179		3
+ispražnjava			2
+ispričava	18		2
+isprobava	222		2
+isprsava			2
+isprva	1859		2
+ispsova			2
+ispucava	32		2
+ispumpava	99		2
+ispunjava	10601		2
+ispunjiva			2
+istančava			2
+istinoljubiva	23		2
+istrajava	434		2
+istrčava	153		2
+isusova			2
+iva	327		2
+ivanićeva			2
+ivanova	194		2
+ivićeva			2
+ivkova			2
+ivkovićeva			2
+izaslanstva	95		2
+izaziva	16934		2
+izazova	4613		4
+izazva	46		2
+izbegava	3856		2
+izbirljiva	95		2
+izbiva	26		2
+izbljuva	15		2
+izbrisiva			2
+izdajstava	18		3
+izdajstva	178		2
+izdavaštva	821		2
+izdržava	2077		2
+izdržljiva	288		2
+izduva	183		2
+izduvava			2
+izglasava	76		2
+izgnanstva	321		2
+izgužva	19		2
+izigrava	667		2
+izjava	17245		3
+izjašnjava	1231		2
+izjednačava	857		2
+izleva			2
+izlečiva	183		2
+izležava	71		2
+izliva	1205		2
+izljeva	16	J	2
+izmenjiva	26		2
+izmenljiva			2
+izmišljava			2
+izmoljava			2
+izmotava	25		2
+izneverava	97		2
+iznova	7666		3
+iznurava			2
+izobličava	101		2
+izobražava	72		2
+izopačava			2
+izopštava			2
+izoštrava	179		2
+izravnava	37		2
+izračunava	958		2
+izražava	6118		2
+izronjava			2
+izuva	101		2
+izučava	1158		2
+izveštava	2752		2
+izvinjava	1011		2
+izvodljiva			2
+izvojeva			2
+izvoleva			2
+izvrgava	117		2
+izvršava	2893		2
+iškolova			2
+iščezava	423		2
+iščitava	175		2
+iščuđava	50		2
+iživljava	219		2
+jablanova	36		4
+jagićeva			2
+jakova			2
+jakovljeva			2
+jakšićeva			2
+jalova	395		3
+jankova			2
+jarmova	22		2
+jaroslava			4
+jarčeva	31		3
+jasenova	14		2
+jastrebova	207		4
+jastva	80		2
+java	743		2
+javorova	15		2
+jazavčeva			2
+jazova	40		3
+jedinstava	16		2
+jedinstva	7066		2
+jedva	30132		2
+jehova			2
+jektičava			2
+jelova	21		2
+jemstava	58		2
+jemstva	648		2
+jenjava	938		2
+jestiva	273		2
+jetrva	39		2
+jevrejstva	92		2
+jevremova			2
+jevtićeva			2
+jezdićeva			2
+jeziva	408		2
+ježeva	139		3
+josifova			2
+jova			2
+jovanova			2
+jovova			2
+jovovićeva			2
+jugoslava			4
+julijanova			2
+junakova	15		2
+junaštava			2
+junaštva	581		2
+jungova			2
+jupiterova			2
+jurićeva			2
+jurjeva			2
+jurnjava	419		2
+justinijanova			2
+kablova	3659		2
+kadiva		M	2
+kadrova	143		2
+kaiševa			2
+kakova			2
+kaktusova			2
+kakva	44193		2
+kalabićeva			2
+kalašnjikova	224		2
+kalenićeva			2
+kaljava			2
+kaljeva			2
+kamenova	214		4
+kampova	1233		2
+kandićeva			2
+kanova	25		3
+kantova			2
+kapetanova	42		2
+kaplareva			2
+karadžićeva			2
+karamazova			2
+karanova			2
+karađorđeva			2
+kardeljeva			2
+kardinalova			2
+karićeva			2
+karlova			2
+karpova			2
+kasanova			2
+kasparova			2
+katanićeva			2
+katićeva			2
+katoličanstva	246		2
+kava	370		2
+kazanova	92		2
+kazimirova			2
+kaziva			2
+kačareva			2
+kačićeva			2
+kažnjava	2522		2
+kažnjenikova			2
+kažnjiva	234		2
+kedrova			2
+kengurova			2
+kestenova	10		4
+keva			2
+kečeva			2
+kilava			2
+kiltova			2
+kipova	111		3
+kirilova			2
+kitova	411		3
+kičeva	35		3
+kišljiva			2
+kišova			2
+kladiva	80		3
+kladova			2
+klanova	496		3
+klasova	68		3
+klaunova			4
+klecava			2
+klepetava			2
+kletava			3
+kletva	702		2
+klikova	842		3
+kliktava			2
+klimava	125		3
+klinova	136		3
+klipova	1034		3
+klizava	160		3
+kljajićeva			2
+kljova	73		2
+kljunova	38		3
+ključeva	1005		3
+klonova	293		3
+klovnova	180		3
+klubova	14392		3
+kmetova	229		3
+kmetstva	66		2
+knezova	549		3
+kneževa	334		3
+knjava			2
+knjaževa			2
+knjigovodstva	777		2
+koceljeva			2
+kodova	863		3
+kojekakva	122		2
+kokosova	68		2
+koksova			2
+kolarova	137		2
+kolarčeva			2
+kolebljiva	50		2
+kolektiva	2665		4
+koljiva	99		3
+kolova			2
+kolutova	83		4
+komandova			2
+komesarova			2
+komponova			2
+kompozitorova			2
+konjarstva	113		2
+konjunktiva	28		2
+konklava	79		2
+konstantinova			2
+kontraofanziva		M	2
+konzerva	252		2
+kooperativa			2
+kopitareva			2
+kopova	985		2
+kopriva	501		2
+koraćeva			2
+korenova	176		4
+korisnikova	20		2
+korova			2
+kosačeva			2
+kosova	451		3
+kostićeva			2
+kostova			2
+kotlova	684		3
+kotova			2
+koturova			2
+kotva	36		2
+kova	806		2
+kovačeva	19		2
+kovrdžava			2
+kočijaševa			2
+kočićeva			2
+košava	599		2
+koševa	1251		3
+koštunjava	11		2
+kožarstva			2
+kradljiva			2
+krajeva	13588		3
+krajova			2
+krakova	459		3
+kraljeva	4941		3
+kraljevstava	111		3
+kraljevstva	2068		2
+krampova	14		3
+krastava	13		3
+krava	5241		2
+krepava			2
+krepova			2
+kresiva	18		3
+kreševa			2
+kreštava	10		2
+krgovićeva			2
+krikova	52		3
+krinova			3
+kristalova			2
+kriva	6198		2
+krivokletstva	21		2
+krivolova	108		4
+krivudava	60		2
+kričava			3
+krmiva	23		3
+krojačeva	13		2
+krojeva	148		2
+krompirova	16		2
+krova	5873		2
+krovova	1803		3
+krsteva			2
+krstićeva	28		2
+krstova	451		3
+krugova	7188		3
+kruhova	24		3
+krunislava			3
+krunoslava			4
+kruškova			2
+krvava	942		3
+krševa			2
+krštava	155		2
+kržljava	18		3
+ktitorova			2
+kubova	12		2
+kudrava			2
+kuhareva			2
+kuknjava	341		2
+kukova	1042		3
+kukuruzova			2
+kulinarstva	367		2
+kultova	263		3
+kumanova			2
+kumova	491		3
+kumstava	10		2
+kumstva	158		2
+kupidova			2
+kupinova			2
+kupova	719		3
+kurativa			2
+kurosava			2
+kurseva	6075		3
+kuteva	12		3
+kutova	25		3
+kuva	3028		2
+kuštrava			2
+kvarkova	125		3
+kvarova	1536		3
+kvartova			2
+kvizova	247		3
+kvrgava	21		2
+labava	202		3
+labudova	281		4
+ladislava			3
+lajava	21		3
+lajkova	775		2
+lajoševa			2
+lajtmotiva	52		2
+lakomstva			2
+lakova	559		3
+laksativa	86		2
+laktova	217		3
+laptopova	17		2
+larva	328		2
+laskava	103		2
+lava	2462		2
+lavova	705		3
+lavrova			2
+lazareva			2
+lazarova			2
+lazova			2
+lačevićeva			2
+lažljiva	139		2
+lažova	365		2
+legislativa	99		2
+lejićeva			2
+lekarstva	104		2
+lekova	17366		3
+lelujava	21		2
+lenjinova			2
+leopardova			5
+lepkova	318		2
+lepljiva	300		2
+lepoglava			2
+leposava			2
+lepršava	165		2
+leptirova	12		2
+leskova			2
+lestava	20		3
+letava	36		3
+letova	2712		3
+letva	131		2
+leva	2895		2
+levova			2
+leševa	1181		3
+ležajeva	1086		4
+liderstva	1191		2
+liftova	1040		3
+lihva			2
+likova	7550		3
+lilićeva			2
+limareva			2
+limova	509		3
+limunova	69		4
+linkova	2584		3
+linčova			3
+lipova			2
+lipsava			2
+listova	4975		3
+litva			2
+lišava	565		2
+ljigava	67		3
+ljotićeva			2
+ljubopitljiva	17		2
+ljudožderova			2
+ljudstva	791		2
+ljutoglava			2
+lokativa	13		4
+lokomotiva	1490		2
+lokva	76		2
+lomljava	59		2
+lomljiva	108		2
+lomova	460		3
+lopova	3437		2
+lordova	251		3
+lordstva			2
+losova	18		3
+lova	3760		2
+lovorova			4
+lovova	24		3
+lovstva	330		2
+lozova	28		2
+lugova	12		3
+lukava	282		3
+lukavstava	35		4
+lukavstva	322		3
+lukićeva			2
+lukova	454		3
+lukovićeva			2
+lupnjava		M	2
+lutkarstva	109		2
+lučeva			2
+lužkova			2
+magova	159		2
+mahova	267		3
+majeva			3
+majmunova			2
+majčinstva	217		2
+makova	119		3
+malaksava			2
+maldiva			2
+maleševa			2
+mališeva			2
+maljava	49		2
+maljeva			3
+managva			2
+mandićeva			2
+manekenstva	76		2
+mangrova	21		2
+manjkava	106		2
+marićeva			2
+marjanova			2
+markova			2
+marksova			2
+marljiva	61		2
+marovićeva			2
+marsova			2
+martinova			2
+marva		M	2
+marčićeva			2
+maršalova	18		2
+marševa	72		3
+masiva	570		2
+maslinova	101		2
+masonstva	76		2
+mastiljava			2
+materinstva	411		2
+matićeva			2
+matova			2
+maziva	876		2
+mačeva	305		3
+mačva			2
+mađioničareva			2
+mašinstva	905		2
+mašovićeva			2
+medova	56		3
+medvedeva			2
+mehićeva			2
+mehova	14		3
+mehurova			2
+mejlova	660		2
+mekuštva			2
+meljava	18		2
+memljiva	12		2
+mentorstva	193		2
+merljiva	148		2
+mermerova			2
+mesečeva	280		2
+mesićeva			2
+metiljava			2
+metkova			2
+metva			2
+mećava	420		2
+mečava			2
+mečeva	5503		3
+migova	103		3
+mihailova			2
+mihajlova			2
+mihalkova			2
+mikelanđelova			2
+mikročipova	82		2
+milankova			2
+milanova			2
+miletićeva			2
+mileva			2
+mileševa			2
+milisava			2
+milivojeva			2
+miljanova			2
+miljkova			2
+milkićeva			2
+milkova			2
+milojeva			2
+milomirova			2
+milosava			2
+miloslava			4
+milostiva	143		3
+milova			2
+milovanova			2
+milovićeva			2
+miloševa			2
+milunova			2
+milutinova			2
+minerva			2
+ministarstava	6601		2
+ministarstva	67681		2
+ministrova	59		2
+minovićeva			2
+miodragova			2
+mirisava			2
+mirišljava	107		2
+mirkova			2
+miroljubiva	229		2
+miroslava			4
+miteva			2
+mitova	1628		3
+mitreva			2
+mitrova			2
+mićićeva			2
+mičićeva			2
+miševa	1794		3
+mišićava	102		3
+mišićeva	27		2
+mladenova			2
+mladićeva	127		2
+mlazeva	83		3
+mlazova	26		3
+mlekarstva	119		2
+mlinova	296		3
+mlitava	82		3
+mlohava	34		3
+mnogoglava			2
+mnoštva	2302		2
+mocartova			2
+modifikova			2
+mogućstva			2
+mojsijeva			2
+molerova	26		2
+molitava	506		3
+molitva	3698		2
+moljevićeva			2
+molova	158		3
+momirova			2
+momkova			2
+momčilova			2
+monahova			2
+monaštva	768		2
+morava			2
+morzeova			2
+morževa	10		3
+mostova	3344		3
+motiva	4874		2
+mozgova			3
+mrakova	16		3
+mrava	863		2
+mrazeva	440		3
+mrazova	29		3
+mračnjaštva	63		2
+mrkaljeva			2
+mrkova			2
+mrkva			2
+mrtva	3309		2
+mrtvačeva			2
+mrva	187		2
+mršava	644		3
+mucava	12		2
+muhamedova			2
+munćanova			2
+murva			2
+musava	63		2
+mutava			2
+mutnoplava			2
+muva	1429		2
+mučaljiva			2
+mučenikova	15		2
+mučeništva	567		4
+mušičava			3
+muškarčeva	27		2
+muževa	573		3
+muževljeva	38		2
+nabokova			2
+nadeva	113		2
+nadglasava			2
+nadjačava	128		2
+nadleštava	45		2
+nadleštva	89		2
+naduva	142		2
+naduvava	137		2
+nadvišava			2
+nadvladava	122		2
+nadživljava			2
+naglašava	13275		2
+nagluva	30		2
+nagomilava	235		2
+nagoveštava	1897		2
+naimenova			2
+naiva	66		2
+najamnikova			2
+najava	6207		3
+nakašljava			2
+nakova			2
+naleva			2
+naliva			2
+namerava	6390		2
+nametljiva	94		2
+namotava	68		2
+naoružava	192		2
+napadačeva			2
+napeva	68		2
+napipava	22		2
+naplativa	62		2
+naplava		M	2
+napliva			2
+naprava	1176		3
+napredova			3
+narušava	2497		2
+naseljava	731		2
+naseljiva	21		2
+nasilništva	100		2
+nasledstva	614		2
+nasljedstva	45	J	2
+naslova	8866		2
+nasmejava	18		2
+nasmijava		J	2
+naspava	72		2
+nasrtljiva	18		2
+nastava	8639		3
+nastićeva			2
+natkriva	26		2
+natpeva			2
+natrpava			2
+naumova	16		2
+naučava	17		2
+nauživa	17		2
+navikava	335		2
+navodnjava	304		2
+navršava	976		2
+naziva	24593		2
+naznačava	148		2
+nazuva			2
+nazva	86		2
+načelstava			2
+načelstva	256		2
+nebeskoplava			2
+nedeljiva	219		2
+nedićeva			2
+nedodirljiva	232		2
+nedokaziva	30		2
+nedokučiva	150		2
+nedostiživa			2
+negativa	252		2
+negnevljiva			2
+negodova			2
+negosava			2
+negostoljubiva	30		2
+neimarstva			2
+neiskaziva			2
+neisključiva			2
+neiskustva	247		2
+neispunjiva			2
+neizdrživa	134		2
+neizlečiva	254		2
+neizlječiva		J	2
+neizmenjiva	12		2
+neizmenljiva			2
+neizmeriva			2
+neizraziva			2
+neizreciva	107		2
+nejestiva	21		2
+nekakva	3039		3
+nekvarljiva			2
+nelažljiva			2
+nemerljiva	312		2
+nemilostiva	13		2
+nemrtva			2
+nenadićeva			2
+nenadoknadiva	159		2
+nenadova			2
+nenarušiva			2
+nenova			3
+neobjašnjiva	238		2
+neoboriva	119		2
+neodeljiva			2
+neodoljiva	466		2
+neodrživa	638		2
+neodvojiva	246		2
+neopažljiva			2
+neopipljiva	46		2
+neopisiva	322		2
+neoporeciva			2
+neopoziva	122		2
+neoprostiva	121		2
+neosetljiva	83		2
+neosporiva	32		2
+neostvariva	152		2
+neosvojiva	97		2
+neotklonjiva			2
+neotuđiva	98		2
+nepažljiva	29		2
+nepobediva	198		2
+nepodnosiva			2
+nepodnošljiva	502		2
+nepogrešiva	118		2
+nepojmljiva	87		2
+nepokolebljiva	210		2
+nepokretljiva			2
+nepomerljiva			2
+neponovljiva	389		2
+nepopravljiva	153		2
+nepopustljiva	47		2
+neporeciva	74		2
+nepotkupljiva	26		2
+nepoverljiva	107		2
+neprava	39		3
+nepredvidiva	315		2
+nepredvidljiva	103		2
+nepremostiva	352		2
+neprepoznatljiva	113		2
+neprihvatljiva	1346		2
+neprijateljstava	280		2
+neprijateljstva	901		2
+neprocenjiva	414		2
+nepromenjiva	86		2
+nepromenljiva	256		2
+nepromočiva	36		2
+neptunova			2
+neranjiva	12		2
+neraskidiva	242		2
+nerava			2
+nerazumljiva	283		2
+neretva			2
+nerešiva	251		2
+nerva	580		2
+nesagoriva			2
+nesalomiva			2
+nesalomljiva	15		2
+nesavladiva	96		2
+neshvatljiva	295		2
+nesnošljiva	15		2
+nespojiva	229		2
+nespokojstva	58		2
+nestorova	21		2
+nestrpljiva	249		2
+nesumnjiva	372		2
+netrpeljiva	23		2
+neubedljiva	94		2
+neuhvatljiva	209		2
+neukloniva			2
+neukrotiva	76		2
+neumoljiva	312		2
+neuništiva	276		2
+neupadljiva	78		2
+neuporediva			2
+neupotrebljiva	383		2
+neuračunljiva	27		2
+neuseljiva			2
+neustrašiva	123		2
+neutaživa	37		2
+neutoljiva			2
+neuverljiva	71		2
+neučtiva			2
+neva			2
+nevaljalstva	49		2
+neverstva	215		2
+nevidljiva	1558		2
+nezaborava	77		2
+nezaboravljiva			2
+nezadovoljstva	3811		2
+nezadrživa	50		2
+nezamenjiva	158		2
+nezamenljiva	325		2
+nezamisliva	627		2
+nezamjenjiva			2
+nezanimljiva	174		2
+nezastariva			2
+nezaustavljiva	137		2
+nezdrava	418		2
+nezlobiva	13		2
+nečastiva	20		2
+nečitljiva	25		2
+nečlanstva			2
+nečoveštva	46		2
+neškodljiva	126		2
+neživa	49		2
+nikakova			2
+nikakva	11153		3
+nikaragva			2
+nikiforova			2
+nikolićeva			2
+nikolova			2
+ninoslava			4
+nipodaštava	192		2
+nitkova	76		2
+niva			2
+nizova	306		3
+nišava			2
+ništava			2
+njegosava			2
+njegoslava			4
+njegova	87488		2
+njegoševa			2
+njihova	57623		3
+njiva	2146		2
+njutnova	59		3
+nobelova			2
+nojeva	301		3
+nominativa	41		5
+normativa	432		2
+noseva	132		3
+nosiva	71		2
+nova	98758		2
+novakova	149		2
+novinarstva	3735		2
+novićeva			2
+nozdrva	204		3
+noćeva			2
+noćiva			2
+noževa	676		3
+nuspojava	400		2
+nušićeva			2
+obadva	343		3
+obasjava	617		2
+obaveštava	4979		2
+obazriva	95		2
+obeležava	7756		2
+obespokojava			2
+obećava	5251		2
+obigrava	44		2
+obilićeva			2
+obilježava		J	2
+obitava	828		2
+običava	18		2
+objava	1297		3
+objašnjava	36665		2
+objašnjiva	80		2
+objedinjava	226		2
+objektiva	1941		2
+oblagorođava			2
+oblijeva		J	2
+obliva			2
+obmotava			2
+obnova	4062		3
+obnovljiva	169		2
+oboleva	167		2
+oboriva	36		2
+obožava	2341		2
+obradiva	96		2
+obradova	48		3
+obrazova	10		2
+obračunava	2585		2
+obrenova			2
+obrušava	224		2
+obrva	1133		3
+oburvava		M	2
+obustava	749		4
+obuva	56		2
+obuzdava	156		2
+obučava	726		2
+ocrtava	497		2
+odaziva	544		4
+odazva			2
+odbrojava	205		2
+odeva	94		2
+odigrava	1829		2
+odijeva	21	J	2
+odjava	244		3
+odlikova			3
+odliva	965		2
+odmerava	259		2
+odmotava	335		2
+odmrzava	46		2
+odnegova			2
+odobrava	3665		2
+odoleva	587		2
+odračunava			2
+odražava	5475		2
+odrecitova			2
+odronjava			2
+održava	29121		2
+održiva	1254		2
+odsijeva		J	2
+odslikava	1195		2
+odspava	128		2
+odsustava	16		3
+odsustva	3402		2
+oduva	278		2
+odučava			2
+oduševljava	1043		2
+odvikava	48		2
+odvojiva	17		2
+odziva	1155		3
+ofanziva	877		2
+ofenziva	26		2
+oglašava	1445		2
+ognjeva	10		2
+ogorčava			2
+ograničava	3451		2
+ogreva	462		2
+oivičava			2
+ojačava	448		2
+ojdanićeva			2
+okajava			2
+okinava			2
+okiva	46		2
+okleva	382		2
+okončava	509		2
+okopava	65		2
+okova	891		2
+okružava			2
+oktava	92		2
+okušava	26		2
+olajava	26		2
+olakšava	5221		2
+olbrajtova			2
+oliva		M	2
+oličava	389		2
+olova	1878		3
+omalovažava	535		2
+omađijava			2
+omekšava	254		2
+omogućava	55582		2
+onakva	1371		2
+onemogućava	2799		2
+onesposobljava	83		2
+operativa	464		2
+opeva	164		2
+opevava			2
+opipava	107		2
+opipljiva	258		2
+opkoljava	76		2
+oplođava		M	2
+opova			2
+opovrgava	291		2
+opoziva	464		2
+opozva			2
+oprava			3
+opravdava	3178		2
+oprobava	35		2
+opsova			2
+opstojava			2
+optrčava			2
+opčinjava	119		2
+orahova			2
+organizova			3
+orićeva			2
+orkova	35		2
+orlova	2004		2
+oročava	63		2
+orođava			2
+orošava			2
+orvelova			2
+osetljiva	2489		2
+osigurava	3114		2
+oskudeva	249		2
+oslikava	2179		2
+oslovljava	215		2
+osmišljava	450		2
+osniva	3252		2
+osnova	22110		3
+osporava	2090		2
+ostava	556		3
+ostojićeva			2
+ostrava			2
+ostrova			2
+ostrva	15035		3
+ostvariva	328		2
+ostvarljiva	129		2
+osvajačeva			2
+osvetljava	998		2
+osvetljiva			2
+osvetoljubiva	66		2
+osveštava	78		2
+osvežava	732		2
+otaljava			2
+otava	99		2
+otačastva			2
+otečestva			2
+otežava	3275		2
+otkiva	34		2
+otključava	226		2
+otklonjiva			2
+otkopava	98		2
+otkopčava	87		2
+otkriva	15937		2
+otkucava	411		2
+otpeva	469		2
+otpliva	34		2
+otputova	36		2
+otrcava			2
+otrežnjava			2
+otrova	1912		2
+otuđiva			2
+ova	235859		2
+ovakva	17538		2
+ovenčava	18		2
+overava	614		2
+ovladava	163		2
+ovnova	269		2
+ovčarstva	98		2
+oziva			2
+označava	10424		2
+ozvaničava			2
+očajava	102		2
+očarava	208		2
+očeva	756		2
+očinstva	579		3
+očitava	635		2
+očuva	2243		2
+oživljava	1173		2
+pacijentova	22		2
+pacova	1331		2
+padobranstva	71		2
+padova	1519		3
+paganstva	119		2
+pakova	19		3
+paktova	32		2
+palijativa			2
+palčeva	53		3
+panjeva	161		3
+pančeva			2
+pančićeva			2
+papagajeva			2
+papićeva			2
+paradržava	60		2
+paraskeva			2
+parkova	2434		3
+parova	4468		3
+partnerstva	5594		3
+pasiva	119		2
+pasova	271		3
+pasterova			2
+pastorova			2
+pastrva	58		3
+pastuva	172		3
+pastva	88		2
+paukova	287		4
+paunova	44		4
+pava		M	2
+pavelićeva			2
+pavićeva			2
+pavlinova			2
+pavlova			2
+pazova			2
+pašićeva			2
+pažljiva	354		2
+peciva	1423		3
+pegava	41		2
+pehova	127		3
+pejićeva			2
+pekićeva			2
+penušava	173		2
+pepeljava			2
+perićeva			2
+periševa			2
+perišićeva			2
+perovićeva			2
+perspektiva	3796		2
+pesnikova	86		2
+pesništva	687		2
+petlova	234		2
+petrova			2
+peva	7828		2
+pevačeva	18		2
+pezova			2
+pećančeva			2
+peševa	12		2
+pešićeva			2
+pijanstava	27		2
+pijanstva	501		2
+pikasova			2
+pikova	89		3
+pilava			2
+pilotova			2
+pinosava			2
+piratstva	91		2
+pirova	151		2
+pirčeva			2
+pisareva			2
+piskova			3
+piva	8448		2
+pivarstva	42		2
+pišljiva	60		2
+piščeva	220		2
+pješaštva		J	2
+placeva	516		3
+plamenova			2
+plankova			2
+planova	10042		3
+plastova			3
+platonova			2
+plava	5403		2
+plavšićeva			2
+plačljiva	64		2
+plašljiva	107		2
+plehova	19		3
+plemstva	695		2
+plesniva	10		2
+plesova	476		3
+pletiva	80		3
+pleva	49		2
+plikova	133		2
+plinova	148		3
+pliva	1829		2
+pljuskova	255		3
+plodova	3633		3
+plotova	43		3
+plovdiva			2
+plugova	77		3
+pluseva	291		2
+poboleva			2
+poboljšava	5464		2
+pobolova			2
+podaništva	104		2
+podanstva	15		2
+podciljeva			2
+podcrtava	45		2
+podebljava	15		2
+podešava	1293		2
+podgrejava			2
+podgreva	286		2
+podkova			2
+podliva			2
+podnaslova	198		2
+podneva	1688		2
+podnošljiva	145		2
+podova	1115		3
+podozriva	30		2
+podrazumeva	43243		2
+podražava	273		2
+podrhtava	225		2
+podriva	680		2
+podrugljiva	31		2
+podržava	22919		2
+podsmeva	314		2
+podsmešljiva	10		2
+podstava			3
+podujeva			2
+podučava	758		2
+podvrgava	381		2
+podčinjava	16		2
+pogledava	22		2
+pogoršava	1647		2
+pogružava			2
+pogužava			2
+pohotljiva	13		2
+poigrava	625		2
+pojaseva	710		4
+pojava	22971		3
+pojačava	3665		2
+pojašnjava	1516		2
+pojmljiva	21		2
+pojmova	3799		2
+poklizava			2
+pokojnikova	32		2
+pokorava	276		2
+pokova			2
+pokretljiva	77		2
+pokriva	9488		2
+pokrova	502		2
+pokupova			2
+pokućanstva			2
+pokućstva	270		2
+pokušava	22671		2
+pokvarljiva			2
+policajčeva			2
+polijeva		J	2
+poliva			2
+poljakova			2
+polova	3544		3
+polubogova	26		5
+polumrtva	49		2
+poluostrva	2417		2
+poluprava		M	2
+polutonova			2
+polušaljiva			2
+poluživa			2
+pomilova	29		3
+pomirljiva	34		2
+pomodarstva	129		2
+pomorstva	341		2
+ponikva			2
+poništava	1183		2
+ponižava	901		2
+ponjava	46		2
+ponova			3
+ponovljiva	14		2
+pooštrava	102		2
+popeva			2
+poplava	5215		3
+popodneva	1602		2
+popova	618		3
+popovićeva			2
+popunjava	1762		2
+popustljiva	85		2
+poravnava	160		2
+poražava	101		2
+poriva	403		2
+porobljava	54		2
+portirova			2
+portova	802		2
+poručnikova			2
+posakriva			2
+posavetova	22		2
+poslanikova	18		2
+poslanstva	349		2
+posledova			2
+poslepodneva	159		2
+poslova	50378		3
+pospava			2
+posredništva	69		2
+posredstva	68		2
+postava	932		3
+posteva			3
+postova	2492		3
+postrojava	46		2
+posvršava	23		2
+potkiva	71		2
+potkopava	326		2
+potkova	31		2
+potomstva	842		2
+potrova			2
+potčinjava	166		2
+poučava	375		2
+poverava	679		2
+poverljiva	300		2
+poverova	30		3
+povećava	19712		2
+povinova			2
+povodljiva	32		2
+pozdrava	1817		3
+pozijeva		J	2
+pozitiva	93		4
+poziva	24924		2
+poznanstava	406		2
+poznanstva	1384		2
+pozova			2
+pozva	400		2
+počiva	5755		2
+poštareva			2
+poštiva	16		2
+poštova			2
+pradedova	134		2
+pragova	370		3
+prahova	141		3
+pramenova	337		4
+prava	189654		2
+pravdoljubiva	43		2
+praznoglava	17		2
+praškova	61		2
+prašljiva			2
+prašnjava	82		3
+prebiva	423		2
+prebrojava	143		2
+precrtava	43		2
+predislava			3
+prediva	238		3
+predićeva			2
+predočava	553		2
+predsedava	1653		2
+predsednikova	124		2
+predsedništva	7213		2
+predstava	18416		3
+predstavništva	2878		2
+preduslova	2075		2
+predusretljiva	70		2
+preduzetništva	5786		2
+preduzimljiva	82		2
+predvidiva	168		2
+predvidljiva	150		2
+preglasava			2
+pregledava	67		2
+pregrejava			2
+pregreva			2
+pregrijava		J	2
+preimućstva	157		2
+prejemstva			2
+prekorava	18		2
+prekoreva	84		2
+prekova			2
+prekriva	1008		2
+prekrštava			2
+prekuva			2
+prelijeva	41	J	2
+prelistava	116		2
+preliva			2
+preljeva	12	J	2
+premerava	37		2
+premijerova	66		2
+premotava	40		2
+premršava	50		2
+prenebregava	209		2
+prenosiva	318		2
+preobražava	583		2
+preosetljiva	108		2
+preovladava	1008		2
+prepeva	75		2
+prepliva	104		2
+preplivava			2
+prepodneva	834		2
+prepolovljava			2
+prepoznatljiva	1922		2
+prepričava	909		2
+prepucava	78		2
+prerogativa	98		2
+prerova			2
+prerušava	39		2
+preseljava	168		2
+presijava	124		2
+preslava		M	2
+preslikava	260		2
+preslišava	59		2
+preslušava	33		2
+prespava	319		2
+prestava			3
+pretrpava	10		2
+pretrčava	92		2
+pretstava			3
+preudešava			2
+preusmerava	421		2
+preustrojava			2
+preuveličava	138		2
+preventiva	1078		2
+prevladava	345		2
+prevodiva	17		2
+prevrtljiva	75		2
+prezervativa	165		2
+preziva	339		2
+preznojava	62		2
+prečišćava	228		2
+preševa			2
+preživa	39		2
+preživljava	1242		2
+prgava	34		3
+pribegava	915		2
+pribislava			3
+približava	4321		2
+pribojava	234		2
+prideva	530		2
+pridržava	1906		2
+prihvatljiva	2208		2
+prijateljeva	15		2
+prijateljstava	511		2
+prijateljstva	7385		2
+prijava	15255		3
+prijemčiva	104		2
+prikiva	19		2
+prikova			2
+prikriva	1097		2
+prilagodljiva	372		2
+prilagođava	2680		2
+prilepljiva			2
+priliva	2326		2
+priljeva	15	J	2
+primakova			2
+primamljiva	500		2
+primenjiva	416		2
+primenljiva	424		2
+primećava			2
+primorava	1006		2
+prinova	160		3
+prinčeva	332		3
+pripeva	20		2
+pripisiva			2
+priprava			3
+prisiljava	523		2
+prispava	44		2
+pristava	25		3
+prisustva	6872		2
+pritešnjava			2
+pritrčava			2
+privikava	120		2
+privoleva			2
+priziva	1230		2
+prizva	70		2
+pričinjava	640		2
+pričljiva	66		2
+pričuva	131		2
+prišaptava			2
+prišiva	46		2
+prišteva			3
+prljava	1361		3
+probava	113		3
+probirljiva	76		2
+prodanova			2
+produva			2
+produžava			2
+profesorova	37		2
+proglašava	2179		2
+progledava			2
+progonstva	237		2
+prohteva	232		2
+projava			2
+projašnjava			2
+prokišnjava	433		2
+prokletstva	358		2
+proklizava	95		2
+proključava			2
+prokofjeva			2
+prokuva	239		2
+proleva			2
+proliva	810		2
+promenjiva	140		2
+promenljiva	1271		2
+pronicljiva	96		2
+propeva	79		2
+propliva	10		2
+prorokova	17		2
+proročanstava	140		2
+proročanstva	648		2
+proroštava	28		2
+proroštva	195		2
+prosejava			2
+prosijava	54		2
+proslava	4749		3
+prospava			2
+prostaštva	38		2
+prostranstava	191		2
+prostranstva	897		2
+prosvetiteljstva	790		2
+protivofanziva		M	2
+protivotrova	25		2
+protićeva			2
+prototipova	387		2
+protuotrova			5
+protuva	135		2
+proučava	1818		2
+provejava	582		2
+proverava	3833		2
+proverljiva	71		2
+provetrava	81		2
+proziva	1079		2
+prozorljiva			2
+prozva	21		2
+pročešljava	14		2
+pročitava			2
+pročišćava	314		2
+proždrljiva	42		2
+proživljava	466		2
+prstenova	1187		4
+prudova			2
+prva	89674		2
+prvenstava	654		3
+prvenstva	17025		2
+prvoslava			4
+prčeva			2
+pršljenova			2
+psoglava			2
+pucnjava	609		2
+pucnjeva	52		3
+pukova	196		3
+pukovnikova			2
+puletićeva			2
+punktova			2
+punoletstva	555		2
+punomoćstva			2
+pupavčeva			2
+pupinova			2
+pustolova	104		4
+puteva	15355		3
+putinova			2
+putnikova	11		2
+putova	90		3
+puzava			2
+pučanstva	129		2
+pučeva	45		3
+pučinijeva			2
+puškinova			2
+puževa	459		3
+pčelarstva	665		2
+radanova			2
+radisava			2
+radislava			3
+radićeva			2
+radmilova			2
+radništva	254		3
+radojeva			2
+radosava			2
+radoslava			4
+radova	50286		3
+radovanova			2
+rafova			2
+rajačićeva			2
+rajićeva			2
+rakitićeva			2
+rakićeva			2
+rakova	293		3
+ramadanova			2
+ramićeva			2
+ramova			2
+rangova	114		2
+ranisava			2
+ranjava	95		2
+ranjiva	427		2
+rančeva	70		2
+rapava			2
+rascvetava			2
+rasejava			2
+rasipništva	142		2
+raskopava	33		2
+raskopčava	33		2
+raskriva			2
+raskuva			2
+raslojava			2
+raspaljiva			2
+rasparčava	81		2
+rasplamsava	195		2
+rasplinjava	28		2
+raspoloživa	951		2
+rasprava	13156		3
+rasprskava	32		2
+rastava	20		3
+rastegljiva	116		2
+rastezljiva			2
+rastislava			3
+rastrojava			2
+rastrojstva	141		2
+rasvetljava	177		2
+ratarstva	238		2
+ratislava			3
+ratnikova			2
+ratova	9631		3
+razbojništva	708		3
+razboljeva		J	2
+razbuktava	101		2
+razdeljiva			2
+razdražljiva	129		2
+razduva			2
+razgibava	21		2
+razglašava	12		2
+razgoreva			2
+razgovorljiva			2
+razgranava			2
+razgranjava			2
+razigrava	92		2
+razjašnjava	197		2
+razleva			2
+razliva			2
+razmetljiva	19		2
+razmnožava	614		2
+razmotava			2
+razmrdava			2
+raznežava			2
+razoružava	80		2
+razotkriva	783		2
+razočarava	152		2
+razrešava	935		2
+razrešiva			2
+razriva			2
+razumeva	206		2
+razumljiva	1096		2
+razvedrava	37		2
+razvejava			2
+razveseljava	23		2
+razvrgava			2
+razvrstava	243		2
+račićeva			2
+računarstva	1524		2
+računovodstva	2114		2
+račva	168		2
+raščišćava	105		2
+reagova			2
+rebrova			2
+recidiva	452		2
+rediteljeva	20		2
+redova	10976		3
+redžepova			2
+regulativa	2563		2
+renova			3
+repova	219		3
+retrospektiva	472		2
+rezbarstva			2
+rezerva	1326		2
+rezova	494		3
+rečitativa			2
+rešava	11193		2
+rešiva	67		2
+režiserova			2
+režnjeva	87		2
+ribarstva	374		2
+ribolova	1186		4
+risova	38		3
+ristićeva			2
+ristova			2
+ritmova	449		2
+ritova	71		3
+riva		M	2
+rivalstava	20		2
+rivalstva	296		2
+riznićeva			2
+robeva			2
+robova	1158		3
+roditeljstva	783		2
+rodoljubiva	128		2
+rodoslova	132		2
+rodova	691		3
+rogova	479		3
+rojeva	416		3
+rokova	3509		3
+romanova	35		2
+rombova	18		3
+ropstva	2234		2
+rotativa			2
+rotkva	87		2
+rova	351		2
+rovova	338		3
+roždestva	270		2
+rtova	26		3
+rubova	206		3
+rudareva			2
+rudarstva	3394		2
+rugova	80		2
+rukava	1648		2
+rukovodstava	364		2
+rukovodstva	8104		2
+rutava	18		2
+ručava	16		2
+ručkova	208		2
+ružićeva			2
+rzava	160		2
+rđava	280		2
+sablažnjava	108		2
+sablažnjiva	15		2
+sadejstva	99		2
+sadržava	165		2
+saglašava	70		2
+sagledava	1333		2
+sagoreva	686		2
+sagova			3
+sahranjiva			2
+sajmova	1201		2
+sajtova	9925		2
+sakriva	621		2
+salva		M	2
+samodiva			2
+samoubistava	960		2
+samoubistva	1737		2
+samouprava	15177		2
+samova			2
+samozadovoljstva	83		2
+samoživa	42		2
+samožrtva			2
+sanjiva	48		2
+saobražava			2
+saopštava	3234		2
+saslušava	157		2
+sastava	8861		2
+satova	1491		3
+saučesništva	143		2
+sava			2
+savezništva	462		3
+savitljiva	97		2
+savićeva			2
+savladava	341		2
+savladiva	18		2
+savršenstva	1721		2
+saziva	2369		2
+sazreva	737		2
+sazva	39		2
+sačinjava	1357		2
+sačuva	7008		2
+sašaptava			2
+sažaljeva			2
+sažaljiva			2
+sedativa	271		2
+sefova	141		3
+seksova			2
+sektaštva	53		2
+sekulićeva			2
+selenićeva			2
+seljakova	19		2
+seljaštva	186		2
+senatorova			2
+serdareva			2
+serva	59		2
+sestrinstva	294		2
+setova	985		2
+setva	1869		2
+seva	186		2
+sečiva	597		3
+shvatljiva	97		2
+silva			2
+simeonova			2
+simićeva			2
+simonova			2
+simova			2
+simovićeva			2
+singlova	650		2
+sinova	3152		3
+sinovljeva			2
+sinđelićeva			2
+sipljiva			2
+sireva	964		3
+siromaštva	7284		2
+sirova	894		2
+sitničava	21		3
+siva	2832		2
+sivoplava			2
+sizifova			2
+sjedinjava	21		2
+skakutava			2
+skalpova	19		3
+skapava	48		2
+skerlićeva			2
+skečeva	107		3
+sklekova	232		3
+sklopova	557		3
+skokova	5117		3
+skončava	27		2
+skotova	67		3
+skriptova	137		2
+skriva	2432		2
+skupova	3102		3
+skuva	609		2
+slabunjava			2
+sladunjava	46		2
+slajdova	452		2
+slamova	23		2
+slapova	119		3
+slatkorečiva			2
+slava	9207		2
+slavnićeva			2
+slavujeva			2
+sledstva		M	2
+slepčeva			2
+sleva	241		2
+slikarstva	2907		2
+slinava	24		3
+sliva	1798		2
+slivova	112		2
+slogova	334		3
+slojeva	4535		3
+slomova	40		3
+slonova	547		3
+slova	12963		2
+slovenstva	201		2
+sluzava	80		3
+slučajeva	26704		4
+smalaksava			2
+smekšava	27		2
+smenjiva	44		2
+smerova	1107		3
+smetova			2
+smečeva			2
+smeđeplava			2
+smilova			3
+smirnova			3
+smokava	176		3
+smokva	191		2
+smradova			2
+smrdljiva	175		2
+smrekova		M	2
+smrkava		M	2
+smrzava	158		2
+smukova			2
+smuva	112		2
+snabdeva	2053		2
+snalažljiva	94		2
+snebiva	64		2
+snegova	114		3
+sneva			2
+snishodljiva			2
+sniva	73		2
+snižava	1490		2
+snobova	55		3
+snopova	184		3
+snova	7076		2
+sojeva	291		3
+sokolova	44		2
+sokova	2053		3
+sokratova			2
+sokurova			2
+solomonova			2
+sopstva	322		2
+sosova			2
+sova	1008		2
+sočiva	3407		3
+spasava	1775		2
+spasićeva			2
+spasova	22		2
+spava	8116		2
+spašava			2
+speva	145		2
+spevova	26		3
+spiskova			2
+splava	421		2
+splavova	656		3
+splašnjava	54		2
+spojeva	624		3
+spojiva	46		2
+spokojstva	212		2
+spolova	116		3
+sponzorstva	747		2
+sporova	3186		3
+sportova	6467		3
+spotova	1242		2
+spočitava	263		2
+spratova	1910		3
+sprava	1563		2
+sprejeva	155		3
+sprečava	10656		2
+sprudova	49		3
+sputava	877		2
+spužva	23		2
+sramežljiva	41		2
+srbinova			2
+srbislava			3
+sredstava	60552		2
+sredstva	76335		2
+sremčeva			2
+sretenova			2
+srezova	180		2
+srodstava			2
+srodstva	372		2
+srozava	218		2
+srpova	10		3
+srpstava			2
+srpstva	2621		2
+stajićeva			2
+stanislava			3
+staniševa			2
+stankova			2
+stanova	15928		3
+stanovništva	35036		2
+starateljstva	753		3
+starešinstva	234		2
+startova	166		2
+starčeva	103		3
+stasava	161		2
+stativa	458		2
+stava	17644		2
+stavova	8735		3
+stefanova			2
+stenova			3
+stepenova			2
+stepova			2
+steva			2
+stevanova			2
+stečajeva	117		4
+stešnjava			2
+stidljiva	404		2
+stihova	2183		3
+stijegova		J	2
+stilova	2635		3
+stišava	234		2
+stoglava	12		2
+stogova	22		3
+stojanova			2
+stojkova			2
+stojmenova			2
+stolićeva			2
+stolova	2167		2
+stočarstva	1361		2
+strahova	1331		3
+strava	909		2
+strašljiva	13		2
+stražilova			2
+streljaštva	256		2
+streljiva	19		3
+stresova	291		3
+stripova	1514		3
+stričeva	126		3
+strpljiva	341		2
+strukova	67		3
+stršljenova	38		4
+stubova	3255		3
+stupnjeva	398		3
+stupova	171		3
+stvaralaštva	6328		2
+stvoreva			2
+stvorova	94		3
+stvrdnjava	69		2
+subotićeva			2
+sudova	13454		3
+sudstva	5506		2
+suknareva			2
+sukobljava	306		2
+sultanova			2
+sumnjicava			2
+sumnjiva	1022		2
+sumnjičava	159		3
+sunčeva	1045		2
+suočava	5837		2
+suparništva	82		2
+superlativa	54		5
+supernova	385		2
+supova	91		3
+surova	1803		2
+surva	58		2
+survava	75		2
+susedstva	555		2
+suspendova			2
+susretljiva			2
+sutonova			2
+suva	3475		2
+suvonjava			2
+suvorova			2
+suvozačeva	27		2
+suzdržava	75		2
+sučeljava	67		2
+sušičava			2
+sužava	939		2
+sva	90078		1
+svadljiva	27		2
+svakakva	148		3
+svarljiva	94		2
+svatova	338		3
+svedočanstava	563		2
+svedočanstva	1668		2
+svekrva	836		3
+svetislava			3
+svetlosiva			2
+svetlucava	85		2
+svetoslava			4
+svetova	1614		3
+svečeva	10		2
+sveštenikova	34		2
+sveštenstva	2230		2
+svežnjeva	23		3
+sviftova			2
+svinjarstva	54		2
+svladava	13		2
+svodova	161		3
+svojeglava	64		2
+svojstava	2415		2
+svojstva	7634		2
+svrgava	25		2
+svrstava	2713		2
+svršava	292		2
+tadićeva			2
+tajanstava			2
+tajanstva	65		2
+taktova	226		3
+takva	45684		2
+talasava			2
+tamnava			2
+tamnoplava	42		3
+tamnosiva	30		2
+tankova			2
+taseva			2
+tava	65		2
+tegova	1055		3
+tekstova	12396		3
+temova			2
+tenkova	1473		3
+tenova			3
+teodorova			2
+testova	4932		3
+tetiva	598		2
+teturava			2
+tečajeva	133		4
+težakova			2
+tigrova	119		2
+tihomirova			2
+tihonova			2
+tikava	55		3
+tikova	69		2
+tikva	517		2
+timova	6711		3
+tipova	5159		3
+tiraninova			2
+tiranstva	16		2
+titlova			2
+tkiva	9492		2
+tokova	3510		3
+tomaševa			2
+tomislava			3
+tomićeva			2
+tomova	663		2
+tonova	1477		3
+topalova			2
+topništva			3
+topova	1217		3
+tornjeva	299		2
+torova	67		3
+točkova		M	2
+toševa			2
+toškova			2
+tragova	2581		3
+trajanova			2
+traljava	54		3
+trapava	78		3
+trapova	42		2
+trava	4719		2
+tračeva	229		3
+trbosekova			2
+tremova	34		3
+trendova	2913		3
+trenerova	18		2
+treperava	29		2
+trešnjeva			2
+trešnjićeva			2
+treštava			2
+trgova	1023		3
+triglava			2
+trikova	1345		3
+tričava	13		3
+trnava			2
+trnova	164		3
+troglava	43		2
+trojstva	418		2
+trolova	79		3
+tronova	23		3
+trouglova	186		2
+troškova	24474		3
+trpeljiva	26		3
+trubačova			2
+truckava			2
+trudoljubiva			2
+trudova	263		3
+trupova	42		3
+trutova	182		3
+tucovićeva			2
+tugaljiva	23		2
+tugova			2
+tupava	83		3
+tupoglava			2
+turgenjeva			2
+tutićeva			2
+tutnjava	101		2
+tutorova			2
+tutorstva	145		3
+tučnjava	13		2
+tuševa	144		3
+tužilaštva	8389		3
+tužiočeva	33		2
+tvitova	356		2
+tvorova	28		3
+tvrdoglava	357		2
+tvrđava	3740		2
+ubava	45		3
+ubedljiva	1125		2
+ubeležava			2
+ubistava	2821		2
+ubistva	13578		2
+ublažava	1557		2
+uboštva			2
+ubrizgava	401		2
+ubrzava	4105		2
+ucrtava	31		2
+udaljava	1173		2
+udava	19		2
+udešava			2
+udostojava			2
+udova	645		2
+udovištva	21		2
+udovoljava	197		2
+udvostručava	91		2
+ugljeva	37		3
+uglova	1919		3
+ugnjetava	122		2
+ugostiteljstva	920		2
+ugošćava	60		2
+ugrožava	6462		2
+ugruva			2
+ugurava			2
+uhodava	40		2
+uhvatljiva	29		2
+ujakova			2
+ujedinjava	30		2
+ukiva			2
+ukljeva	14		2
+ukopava	70		2
+ukorava	20		2
+ukova			2
+ukrašava	334		2
+ukrcava	68		2
+ukucava	85		2
+ukuva			2
+ulepšava	351		2
+ulijeva	77		2
+uliva			2
+ulova	491		2
+umetnikova	62		2
+umešava			2
+umiljava	65		2
+umiva	162		2
+umnožava	578		2
+umoljava			2
+umorstva	40		2
+umotava	47		2
+umova	782		3
+umrtvljava			2
+uništava	4783		2
+uništiva	13		2
+unižava	130		2
+unjkava			2
+unovčava			2
+uobičajava			2
+uobličava	259		2
+uobražava	48		2
+uokvirava			2
+uopštava			2
+uočava	2475		2
+uočljiva	833		2
+upadljiva	352		2
+upetljava			2
+upevava			2
+upečatljiva	459		2
+upliva	578		2
+uplovljava	64		2
+upodobljava			2
+uporediva	228		2
+upotpunjava	141		2
+upotrebljava	4997		2
+upotrebljiva	398		2
+upozorava	8900		2
+upošljava	486		2
+uprava	24770		3
+upravnikova			2
+upražnjava	535		2
+upropaštava	73		2
+upropašćava			2
+uprošćava			2
+upucava	18		2
+upumpava	168		2
+uputstava	1513		2
+uputstva	7370		2
+uravnava			2
+uračunava	263		2
+urbanova			2
+urednikova			2
+uredništva	640		2
+urokljiva			2
+uroševa			2
+urušava	1021		2
+usaglašava	308		2
+usamljeništva			2
+usavršava	1164		2
+useljava	233		2
+useljiva	70		2
+useva	2829		2
+usijava			2
+usiljava			2
+usisava	451		2
+usitnjava	70		2
+uskokova			2
+uslišava	22		2
+uslova	34056		2
+uslovljava	1709		2
+usložnjava	284		2
+usmerava	3092		2
+usova			2
+uspava	326		2
+uspavljiva			2
+uspeva	8946		2
+uspokojava			2
+usporava	2815		2
+uspostava	185		2
+usrećava			2
+ustalasava			2
+ustanova	23695		4
+ustava	19227		3
+ustaštva	158		2
+ustoličava			2
+ustrojstva	911		2
+ustručava	168		2
+utišava	85		2
+utkiva			2
+utoljava			2
+utopljava			2
+utrčava	79		2
+utva	337		2
+uvažava	1768		2
+uveličava	93		2
+uverava	1646		2
+uverljiva	259		2
+uveseljava	183		2
+uvećava	2935		2
+uvežbava	182		2
+uvredljiva	376		2
+uvrštava	84		2
+uzbudljiva	1534		2
+uzburkava	48		2
+uzdrmava	33		2
+uzdržava	250		2
+uzmuva			2
+uznemirava	1015		2
+uzrujava	46		2
+uzvišava			2
+ućutkava			2
+učitava	813		2
+učiteljeva	13		2
+učiteljstva	31		2
+učtiva	30		2
+ušiva			2
+ušljiva			2
+ušmrkava	22		2
+uščuva			2
+užasava	350		2
+uživa	10707		2
+uživljava	44		2
+vaclava			2
+vajarstva	198		2
+valjeva			2
+valova	193		3
+varava	20		3
+variva	173		2
+varljiva	250		2
+varvarstva	262		2
+vasićeva			2
+vaskrsava	284		2
+vaspitava	664		2
+vatroslava			4
+vazalstva			2
+vazduhoplova	870		5
+vazduhoplovstva	2404		2
+vašljiva	12		2
+vekoslava			4
+vekova	6426		3
+velimirova			2
+velisava			2
+velizareva			2
+veličanstva	561		2
+velova	85		3
+venčava	146		2
+veprova	98		2
+veroslava			4
+verova			2
+vesovićeva			2
+veterinarstva	63		2
+vetrova	48		2
+vezirova			2
+vezova	265		3
+vezuva			2
+većeslava			2
+viceva	485		3
+vidikova			2
+vidljiva	3155		2
+vidosava			2
+vidoslava			4
+vidova	2749		3
+vijugava	48		2
+vinogradarstva	548		2
+vinova	351		3
+virova	119		3
+visova	151		3
+visočanstva	183		2
+vitezova	1040		4
+viteštva	240		2
+vitlova			2
+vitomirova			2
+višeslava			2
+viškova	1048		2
+višnjićeva			2
+vižljava			2
+vjačeslava			2
+vladanova			2
+vladaočeva			2
+vladareva			2
+vladislava			3
+vlasnikova	10		2
+vlasništva	6664		3
+vlastelinstva			2
+vodotokova			2
+vodova	579		3
+vodstva	177		2
+vojeva	11		2
+vojislava			3
+vojnikova			2
+vojvodstva	282		3
+vokativa	14		4
+volova	302		3
+vonjeva			3
+vozačeva	50		2
+vozova	2100		3
+voćarstva	513		2
+vođstva	2950		2
+voždova	45		2
+vragolova			2
+vragova	22		3
+vranova			3
+vrančeva			2
+vratova	105		3
+vračeva	91		3
+vrbova			2
+vrcava			2
+vrednova			3
+vremeplova	134		4
+vreva	155		2
+vrhova	1801		3
+vrljava			2
+vroclava			2
+vrtoglava	52		3
+vrtova	587		3
+vujićeva			2
+vukanova			2
+vukašinova			2
+vukosava			2
+vukoslava			4
+vukova	1834		3
+vulkanova			2
+vulovićeva			2
+vulva	50		2
+vućićeva			2
+vučićeva	287		2
+zabadava	164		2
+zabava	5662		3
+zabeležava			2
+zaborava	2539		4
+zabrinjava	2798		2
+zabušava	82		2
+zadeva			2
+zadivljava			2
+zadovoljava	6158		2
+zadovoljstava	394		2
+zadovoljstva	7163		2
+zadrugarstva	386		2
+zadržava	6691		2
+zaduva			2
+zafrkava	44		2
+zagoreva			2
+zagorčava	131		2
+zagrcava			2
+zagrejava			2
+zagreva	1365		2
+zagrijava	63	J	2
+zagušljiva	32		2
+zahteva	61311		2
+zahuktava	489		2
+zainteresova			2
+zajedljiva	43		2
+zajedništva	1665		4
+zajmodavčeva			2
+zajmova	1682		2
+zakašnjava	18		2
+zakiva	28		2
+zakletva	591		2
+zaključava	310		2
+zakonodavstva	3554		2
+zakopava	74		2
+zakopčava	51		2
+zakova			2
+zakriva			2
+zakucava	194		2
+zakuva	83		2
+zakuvava			2
+zaleva	10		2
+zaliva	2465		2
+zaljeva	53		2
+zamajava	344		2
+zamenjiva	23		2
+zamenljiva	40		2
+zamisliva	84		2
+zamkova	134		2
+zamotava	20		2
+zamrzava	268		2
+zanatstva	450		2
+zanemariva	105		2
+zanemarljiva	784		2
+zanimljiva	8959		2
+zaodeva			2
+zaorava			2
+zaova	100		3
+zaoštrava	283		2
+zapaljiva	199		2
+zapetljava	23		2
+zapeva	488		2
+zapliva	64		2
+zapovedništva	20		2
+zapovjedništva		J	2
+zapošljava	4860		2
+zaprečava			2
+zaradova			2
+zaračunava	219		2
+zaražava	16		2
+zarfova			2
+zariva	70		2
+zarićeva			2
+zarobljava	135		2
+zarobljeništva	290		2
+zaronjava			2
+zasmejava	166		2
+zasniva	10645		2
+zasnova			3
+zastareva			2
+zastava	7855		3
+zastrašava			2
+zastupništva	137		2
+zastupstva	33		2
+zasvedočava			2
+zataškava	171		2
+zatočeništva	272		2
+zatrpava	220		2
+zaustava			2
+zauzdava			2
+zavarava	348		2
+zaverava			2
+zavetova	15		2
+zaveštava			2
+zavidljiva			2
+zavijava			2
+zavitlava			2
+zavodljiva	308		2
+zavrtnjeva			2
+završava	17673		2
+zazva			2
+začešljava			2
+začuđava			2
+zašiva	33		2
+zaštitnikova			2
+zbegova	33		2
+zbirova			3
+zbiva	1519		2
+zbližava	287		2
+zborova	119		3
+zbrinjava	240		2
+zdrava	7323		2
+zdravstva	5122		2
+zebljiva			2
+zekoslava			4
+zelenaštva	30		2
+zetova	63		3
+zeva	214		2
+zečeva	435		3
+zgibova	90		2
+zglobova	1973		3
+zgražava	149		2
+zgruva			2
+zgrušava	39		2
+zgušnjava	121		2
+zgužva	41		2
+zidarstva	99		2
+zidova	5449		3
+zimonjićeva			2
+zjuganova			2
+zlatarstva	71		2
+zlodejstva			2
+zloupotrebljava	1695		2
+zločinstva			2
+zmajeva	700		3
+znakova	6051		3
+znojava			2
+znojeva			3
+zoranova			2
+zorislava			3
+zova	227		2
+zrakova	116		3
+zrikava			2
+zveketava			2
+zverova			2
+zverstava	109		3
+zverstva	395		2
+zvonareva			2
+zvonjava	195		2
+zvukova	1251		3
+ćaletova	13		2
+ćefova			2
+ćelava	165		3
+ćesareva			2
+ćesarova			2
+ćilimova			2
+ćirilova			2
+ćirićeva			2
+ćopava			2
+ćopićeva			2
+ćorava		M	2
+ćorovićeva			2
+ćosićeva			2
+ćoškova			2
+ćudljiva	74		2
+ćupova	46		3
+ćurkova			2
+ćutljiva	122		2
+čabrova			2
+čajeva	964		3
+čakova			2
+čamova			2
+čarobništva			2
+čarobnjakova			2
+čarobnjaštva	48		2
+čaršava			2
+časlava			2
+časništva			2
+časova	57241		3
+čavićeva			2
+čađava	43		3
+čašćava	53		2
+čehova	195		2
+čekova	586		3
+čelareva			2
+čelikova			2
+čelništva	13		2
+čepova	202		3
+česlava			2
+četništva	116		2
+češljeva	60		3
+čežnjiva	18		2
+čikova	13		2
+činodejstva			2
+činova	518		3
+činovništva	66		2
+čipova	1858		3
+čireva	208		3
+čistunstva	24		2
+čitalaštva			2
+čitaočeva			2
+čitava	9469		3
+čitljiva	157		2
+čivava	90		2
+članova	54266		3
+članstava	19		2
+članstva	6329		2
+čmava			2
+čojstva			2
+čolićeva			2
+čomićeva			2
+čova	147		2
+čovekova	1089		2
+čovečanstva	6435		2
+čoveštva	31		2
+čovićeva			2
+čumićeva			2
+čunjeva	803		2
+čunova			3
+čupava	154		3
+čupićeva			2
+čuva	16063		2
+čuvareva			2
+čuvstava	25		2
+čuvstva	127		2
+čučnjeva	120		3
+čvorova	1338		3
+đakova	24		2
+đapićeva			2
+đavolova	36		2
+đavolstva			2
+đenova			3
+đilasova			2
+đinđićeva			2
+đinđuva		M	2
+đokovićeva			2
+đonova			3
+đorovićeva			2
+đorđeva			2
+đubriva	4547		2
+đurićeva			2
+đurišićeva			2
+đurovićeva			2
+đurđeva			2
+šakićeva			2
+šaljiva	200		2
+šalova	119		3
+šantićeva			2
+šančeva	114		3
+šarićeva			2
+šarova			2
+šarovićeva			2
+šatlova	232		2
+šava	184		2
+šavova	181		3
+šašava	108		3
+šefova	2493		3
+šekarićeva			2
+šekspirova			2
+šepava			3
+šerifova	10		2
+ševa	228		2
+šešeljeva			2
+šimširova			2
+šipova	317		2
+škakljiva	133		2
+škiljava			2
+škodljiva	33		2
+školova			2
+školstva	1982		2
+škrbava			2
+škripava	12		2
+škriputava			2
+šlemova	203		3
+šlepova	43		3
+šliceva			3
+šljiva	2588		2
+šljivova			2
+šoferova			2
+šokova	256		3
+šorova			2
+špiceva	108		3
+špilova	10		3
+špriceva	111		3
+šrafova			2
+štabova	455		3
+štandova	825		3
+štapova	435		3
+štedljiva	252		2
+štihova			2
+štitova	151		3
+štiva	599		2
+štofova			2
+štosova	13		3
+štrajkova	1006		3
+štrokava			2
+šubićeva			2
+šugava	47		3
+šumareva			2
+šumarstva	3465		2
+šumova	224		3
+šupljikava	17		2
+šupljoglava			2
+šuteva	834		2
+šutljiva	10		2
+šuštava			2
+žalostiva	10		2
+žanrova	1669		3
+žarkova			2
+žbunova	115		3
+ždralova	112		3
+žekićeva			2
+ženeva			2
+žerajićeva			2
+žetva	1699		2
+žgoljava	14		3
+židova	84		2
+žigova	254		3
+žilava	172		3
+žireva	15		3
+žitarstva			2
+žiteljstva			2
+živa	8328		2
+živanova			2
+živkova			2
+živoslava			4
+žižićeva			2
+žlebova	74		3
+žrtava	14296		3
+žrtva	10035		2
+žrtvova			3
+žukova			2
+žuljeva	219		3
+žvrkova			2
+bjekstva			2
+bjesova	25		3
+brijestova			4
+cjeliva			2
+crijeva	319		2
+cvjetova	75		3
+dijelova	857		4
+dijeva			2
+djedova	92		3
+djelova			2
+djetetova			2
+djetinjstva			2
+djetinstva			2
+djeva			2
+dječakova			2
+dospijeva	57		2
+grijehova	133		4
+hljebova			3
+izbjegava			2
+izlijeva	14		2
+izvještava			2
+kijeva			2
+lijekova	480		4
+lijeva	219		2
+ljekova			2
+ljepljiva			2
+ljeposava			2
+ljeva			2
+mjesečeva	40		2
+nadjeva			2
+nagovještava			2
+namjerava			2
+neosjetljiva			2
+nepobjediva			2
+neprocjenjiva			2
+obavještava			2
+odmjerava			2
+odolijeva	34		2
+oklijeva	27		2
+osjetljiva			2
+osvjetljava			2
+osvježava			2
+otpjeva			2
+pijetlova			2
+pjegava			2
+pjenušava			2
+pjeva			2
+pobolijeva			2
+podrazumijeva	1594		2
+podrazumjeva			2
+podsmijeva			2
+popijeva			2
+poslijepodneva	25		3
+povjerava			2
+povjerljiva			2
+predsjedava			2
+predsjednikova			2
+preosjetljiva			2
+preusmjerava			2
+pribjegava			2
+primjenjiva			2
+prolijeva	38		2
+promjenjiva			2
+propjeva			2
+provjerava			2
+razlijeva	17		2
+razrješava			2
+razumijeva	19		2
+riješava			2
+rješava			2
+sagorijeva	23		2
+sazrijeva	33		2
+sijeva	33		2
+sječiva			3
+slijeva	57		2
+smjerova			3
+snabdijeva	73		2
+snijeva			2
+spriječava			2
+sprječava			2
+svijetova			2
+svjedočanstva			2
+svjetlucava			2
+svjetova	196		3
+usjeva			2
+usmjerava			2
+uspijeva	383		2
+uspjeva			2
+uvjerava			2
+uvjerljiva			2
+vijekova	234		4
+vjekoslava			4
+vjekova	50		3
+vjetrova			2
+zahtijeva	975		2
+zahtjeva			2
+zalijeva	19		2
+zapjeva			2
+zbjegova			2
+zijeva			3
+čovjekova			2
+čovječanstva			2

@@ -1,502 +1,502 @@
 500
-Bofor		
-Ekvador		
-Sombor		
-administrator	2643	
-agitator	83	
-agresor	436	
-akcelerator	530	
-akceptor	12	
-aktivator	60	
-akumulator	1119	
-aligator	109	
-alternator	142	
-ambasador	13734	
-amor		
-analizator	179	
-animator	305	
-aplikator		
-arbitrator		
-aspirator	121	
-atentator	190	
-auditor		
-autor	67383	
-baltimor		
-blavor		
-blokator	108	
-bokor		
-bor	8605	
-bosfor		
-bospor		
-branibor		
-centarfor	575	
-cenzor	172	
-civilizator		
-copor		
-crnobor		
-cukor		
-dalekozor	123	
-dalibor		
-davor		M
-defibrilator	117	
-deflektor		
-degustator	61	
-deklamator		
-dekor	876	
-dekorator		
-demonstrator		
-depilator		
-destilator		
-detektor	1063	
-detonator	86	
-dezinfektor		M
-dezinformator		
-dezintegrator		M
-dezorganizator		
-diktator	1327	
-diodor		
-dior		
-direktor	94587	
-diskriminator		
-dobrotvor	509	
-dogovor	23892	
-doktor	13742	
-donator	1182	
-donor	267	
-dragor		
-dragstor	128	
-drmator		M
-durmitor		
-dvor	4044	
-editor	851	
-edukator	243	
-egzekutor	211	
-ekskavator		
-ekspeditor		M
-eksperimentator	47	
-eksploatator	26	
-ekstenzor		
-ekvator	133	
-elektor		M
-elektrofor		
-elektromotor	504	
-elevator	54	
-eliminator	30	
-emancipator		
-emulgator		
-eskalator		
-evaporator		
-evokator		
-faktor	16832	
-falsifikator	213	
-fedor		
-feodor		
-fiksator		
-fjodor		
-flor	125	
-fluor	365	
-fodor		
-folklor	1421	
-for		M
-fosfor	727	
-frajkor		M
-gabor	313	
-generator	2090	
-gladijator	164	
-gligor		
-gnjavator	37	
-govor	13979	
-grebator		
-gregor		
-grubor		
-gubernator	184	
-harbor		
-hator		
-haustor		
-hektor		
-hidrofor		
-hidrogenerator		
-hiperprostor		
-hlor	524	
-hor	6012	
-horor	3178	
-hristifor		
-hristofor		
-humor	4012	
-identifikator	139	
-idvor		
-igor		
-iluminator		
-ilustrator	486	
-imitator	92	
-imobilizator	12	
-imperator	706	
-improvizator	47	
-indikator	2277	
-induktor	26	
-informator	714	
-inhalator	170	
-inhibitor	158	
-inicijator	1759	
-inkasator		
-inkubator	1188	
-inkvizitor	158	
-inovator	394	
-inspektor	4359	
-inspirator		M
-instruktor	1822	
-interpretator	157	
-investitor	6656	
-irigator	53	
-isidor		
-izbor	62749	
-izgovor	5374	
-izolator	395	
-izvor	48210	
-javor	1185	
-jegor		
-juhor		
-junior	2850	
-kalkulator	872	
-kamfor	65	
-kantautor	353	
-kantor	199	
-kapor		
-karburator	102	
-kastor		
-katalizator	689	
-kfor		
-kjerkegor		
-klasifikator	24	
-klor		
-koautor	1362	
-kodifikator		
-kodirektor	17	
-kolaborator		
-kolektor	711	
-kolonizator	46	
-kolor		M
-komandor		
-komentator	2538	
-komfor	2796	
-komodor	74	
-kompilator	22	
-kompjutor	29	
-kompozitor		M
-kompresor	686	
-komunikator	121	
-komutator	44	
-konclogor		
-kondenzator	392	
-konditor		
-kondor	136	
-konduktor		M
-konektor	1749	
-konkvistador	17	
-konor		
-konstruktor	613	
-kontrolor	910	
-konvertor	392	
-konzervator	167	
-koordinator	6995	
-kor		M
-korektor	663	
-koridor	3473	
-kotor		
-kreator		M
-kreditor	275	
-kristifor		
-ktitor	661	
-kultivator	28	
-kurator	45	
-kursor	524	
-kvalifikator		
-kvestor		
-labrador	186	
-lahor	87	
-lapor	11	
-lavor		M
-legator		M
-lektor	466	
-licitator		
-likvidator	52	
-likvor	56	
-logor	3657	
-lokator	134	
-lovor	158	
-major	1946	
-majstor	7297	
-makgregor		
-mandator	10	
-manipulator	318	
-maribor		
-matador	62	
-mator	505	
-mačor	252	
-medijator	556	
-mentor	2060	
-merkator		
-meteor	707	
-međuprostor	167	
-mikroprocesor	148	
-mistifikator	17	
-mišomor	38	
-moderator	1816	
-modernizator		
-modulator	98	
-monitor	5590	
-monsinjor	147	
-mor		M
-moralizator		
-mosor		M
-motivator	243	
-motor	20848	
-mramor	99	
-mrmor	16	
-muljator	32	
-multiplikator	107	
-muvator		
-nabor	121	
-nadvor		
-nadzor	13041	
-nagovor	828	
-namćor		M
-napor	7578	
-narator	644	
-navigator	341	
-nazor	111	
-negator		M
-neizbor		
-nejbor		
-nestor	36	
-neutralizator		
-nikanor		
-nikifor		
-nićifor		
-nišador		M
-novator	20	
-novogovor	199	
-numerator		
-obor	167	
-obzor	63	
-odbor	33724	
-odgovor	81404	
-odmor	20940	
-okupator	686	
-omofor		
-operator	1213	
-opor	363	
-or		
-orator	53	
-organizator	11050	
-oscilator	139	
-otpor	11810	
-otvor	3036	
-pacifikator		
-paor	214	
-pastor	2150	
-pikador		M
-plagijator	104	
-pododbor	136	
-podsektor	18	
-podvor		
-pogovor	264	
-pokor		
-polihistor		
-pomor	597	
-ponor	898	
-popularizator	57	
-por		M
-potprostor		
-pozor	71	
-praizvor	20	
-pravogovor		
-predator	421	
-predgovor	938	
-predogovor		
-predsabor		
-predugovor	434	
-pregor		M
-pregovor	65	
-prekor	303	
-prekursor		
-premor	118	
-preparator		M
-prespor	72	
-pretor	35	
-pribor	3163	
-prigovor	3679	
-prijedor		
-primor		
-prior	104	
-pritvor	4297	
-prizor	3817	
-prnjavor		M
-procesor	8750	
-prodor	2884	
-profesor	41715	
-programator		
-prohor		
-projektor	1121	
-proktor		
-prokurator	24	
-promotor	122	
-propagator	125	
-prorektor	523	
-prosektor		
-prostor	67153	
-protektor		M
-protomajstor	62	
-provokator	251	
-prozor	11765	
-racionalizator		
-radijator	740	
-raptor		
-raspor		
-rastvor	1637	
-ratibor		
-razbor	23	
-razdor	755	
-razgovor	24120	
-razvigor		
-reaktor	769	
-realizator	423	
-receptor	213	
-recitator	74	
-redaktor	146	
-reduktor		
-reflektor	415	
-reformator	438	
-refraktor	236	
-regenerator	269	
-registrator	202	
-regulator	1072	
-reizbor	889	
-rektor	2578	
-repetitor	254	
-replikator		
-resor	1813	
-respirator	88	
-restaurator	97	
-retor	28	
-retraktor		
-retrovizor	317	
-revizor	1428	
-rezonator	45	
-ritmajstor		
-romor		M
-rotator		
-rotor	265	
-rukotvor		
-sabor	6341	
-salvador		
-samopregor	28	
-sektor	19896	
-selektor	11224	
-semafor	1464	
-senator	1174	
-senior	1245	
-senor		
-senzor	3266	
-separator	146	
-sevastokrator	38	
-sfor		
-simulator	344	
-sinjor		
-skor	2628	
-skulptor	136	
-snagator	50	
-sponzor	2811	
-spor	8620	
-stabilizator	359	
-stator	156	
-stavrofor	336	
-sterilizator	90	
-stimulator	107	
-stiropor	631	
-stvor	404	
-subnor		
-suinvestitor	73	
-sukcesor		
-sumor		
-sumpor	641	
-supervizor	498	
-suspenzor		
-suvobor		
-svetonazor	73	
-tabor	1049	
-tabulator		
-tejlor		
-televizor	3967	
-tenor	379	
-teodor		
-terminator	566	
-termofor	51	
-teror	2047	
-testator	15	
-thor		
-tibor		
-timor	131	
-tiodor		
-todor		
-topor		
-tor	973	
-toreador	84	
-totalizator		
-traktor	1795	
-transduktor		
-transformator		M
-translator		
-tranzistor	391	
-tremor	170	
-trevor		
-trezor	1459	
-trikolor		
-tudor		
-tumor	2564	
-turbogenerator		
-turbokompresor		
-tutor	251	
-tvor	120	
-ugor		
-ugovor	52411	
-ukor	371	
-umor	3615	
-unprofor		
-upor		M
-urlator		
-utor	68	
-uzor	4710	
-uzurpator	100	
-vektor	450	
-velemajstor	464	
-velibor		
-velociraptor		
-ventilator	2610	
-versifikator		
-vibrator	475	
-vihor	415	
-viktor		
-vizitator		
-zamor	1120	
-zapor		M
-zastor	177	
-zatvor	8583	
-zazor	226	
-zbor	1535	
-zlatibor		
-zlotvor	136	
-čador		M
-čopor	647	
-čvor	2381	
-šandor		
-šator	1489	
-šjor	145	
-šogor	32	
-šor		M
-štakor	22	
-šumor		M
-žagor	363	
-žamor		M
-žubor	240	
-prijekor	20	
+Bofor			2
+Ekvador			2
+Sombor			2
+administrator	2643		2
+agitator	83		2
+agresor	436		2
+akcelerator	530		2
+akceptor	12		2
+aktivator	60		2
+akumulator	1119		2
+aligator	109		2
+alternator	142		2
+ambasador	13734		2
+amor			2
+analizator	179		2
+animator	305		2
+aplikator			2
+arbitrator			2
+aspirator	121		2
+atentator	190		2
+auditor			2
+autor	67383		2
+baltimor			2
+blavor			2
+blokator	108		2
+bokor			2
+bor	8605		1
+bosfor			2
+bospor			2
+branibor			2
+centarfor	575		3
+cenzor	172		2
+civilizator			2
+copor			2
+crnobor			2
+cukor			2
+dalekozor	123		4
+dalibor			2
+davor		M	2
+defibrilator	117		2
+deflektor			2
+degustator	61		2
+deklamator			2
+dekor	876		2
+dekorator			2
+demonstrator			2
+depilator			2
+destilator			2
+detektor	1063		2
+detonator	86		2
+dezinfektor		M	2
+dezinformator			2
+dezintegrator		M	2
+dezorganizator			2
+diktator	1327		2
+diodor			2
+dior			2
+direktor	94587		2
+diskriminator			2
+dobrotvor	509		3
+dogovor	23892		3
+doktor	13742		2
+donator	1182		2
+donor	267		2
+dragor			2
+dragstor	128		2
+drmator		M	2
+durmitor			2
+dvor	4044		1
+editor	851		2
+edukator	243		2
+egzekutor	211		2
+ekskavator			2
+ekspeditor		M	2
+eksperimentator	47		2
+eksploatator	26		2
+ekstenzor			2
+ekvator	133		2
+elektor		M	2
+elektrofor			2
+elektromotor	504		2
+elevator	54		2
+eliminator	30		2
+emancipator			2
+emulgator			2
+eskalator			2
+evaporator			2
+evokator			2
+faktor	16832		2
+falsifikator	213		2
+fedor			2
+feodor			2
+fiksator			2
+fjodor			2
+flor	125		1
+fluor	365		2
+fodor			2
+folklor	1421		2
+for		M	1
+fosfor	727		2
+frajkor		M	2
+gabor	313		2
+generator	2090		2
+gladijator	164		2
+gligor			2
+gnjavator	37		2
+govor	13979		2
+grebator			2
+gregor			2
+grubor			2
+gubernator	184		2
+harbor			2
+hator			2
+haustor			2
+hektor			2
+hidrofor			2
+hidrogenerator			2
+hiperprostor			2
+hlor	524		1
+hor	6012		1
+horor	3178		2
+hristifor			2
+hristofor			2
+humor	4012		2
+identifikator	139		2
+idvor			2
+igor			2
+iluminator			2
+ilustrator	486		2
+imitator	92		2
+imobilizator	12		2
+imperator	706		2
+improvizator	47		2
+indikator	2277		2
+induktor	26		2
+informator	714		2
+inhalator	170		2
+inhibitor	158		2
+inicijator	1759		2
+inkasator			2
+inkubator	1188		2
+inkvizitor	158		2
+inovator	394		2
+inspektor	4359		2
+inspirator		M	2
+instruktor	1822		2
+interpretator	157		2
+investitor	6656		2
+irigator	53		2
+isidor			2
+izbor	62749		2
+izgovor	5374		3
+izolator	395		2
+izvor	48210		2
+javor	1185		2
+jegor			2
+juhor			2
+junior	2850		2
+kalkulator	872		2
+kamfor	65		2
+kantautor	353		2
+kantor	199		2
+kapor			2
+karburator	102		2
+kastor			2
+katalizator	689		2
+kfor			1
+kjerkegor			2
+klasifikator	24		2
+klor			1
+koautor	1362		2
+kodifikator			2
+kodirektor	17		2
+kolaborator			2
+kolektor	711		2
+kolonizator	46		2
+kolor		M	2
+komandor			2
+komentator	2538		2
+komfor	2796		2
+komodor	74		2
+kompilator	22		2
+kompjutor	29		2
+kompozitor		M	2
+kompresor	686		2
+komunikator	121		2
+komutator	44		2
+konclogor			2
+kondenzator	392		2
+konditor			2
+kondor	136		2
+konduktor		M	2
+konektor	1749		2
+konkvistador	17		2
+konor			2
+konstruktor	613		2
+kontrolor	910		2
+konvertor	392		2
+konzervator	167		2
+koordinator	6995		2
+kor		M	1
+korektor	663		2
+koridor	3473		2
+kotor			2
+kreator		M	2
+kreditor	275		2
+kristifor			2
+ktitor	661		2
+kultivator	28		2
+kurator	45		2
+kursor	524		2
+kvalifikator			2
+kvestor			2
+labrador	186		2
+lahor	87		2
+lapor	11		2
+lavor		M	2
+legator		M	2
+lektor	466		2
+licitator			2
+likvidator	52		2
+likvor	56		2
+logor	3657		2
+lokator	134		2
+lovor	158		2
+major	1946		2
+majstor	7297		2
+makgregor			2
+mandator	10		2
+manipulator	318		2
+maribor			2
+matador	62		2
+mator	505		2
+mačor	252		2
+medijator	556		2
+mentor	2060		2
+merkator			2
+meteor	707		2
+međuprostor	167		2
+mikroprocesor	148		2
+mistifikator	17		2
+mišomor	38		2
+moderator	1816		2
+modernizator			2
+modulator	98		2
+monitor	5590		2
+monsinjor	147		2
+mor		M	1
+moralizator			2
+mosor		M	2
+motivator	243		2
+motor	20848		2
+mramor	99		2
+mrmor	16		2
+muljator	32		2
+multiplikator	107		2
+muvator			2
+nabor	121		2
+nadvor			2
+nadzor	13041		2
+nagovor	828		3
+namćor		M	2
+napor	7578		2
+narator	644		2
+navigator	341		2
+nazor	111		2
+negator		M	2
+neizbor			2
+nejbor			2
+nestor	36		2
+neutralizator			2
+nikanor			2
+nikifor			2
+nićifor			2
+nišador		M	2
+novator	20		2
+novogovor	199		2
+numerator			2
+obor	167		2
+obzor	63		2
+odbor	33724		2
+odgovor	81404		3
+odmor	20940		2
+okupator	686		2
+omofor			2
+operator	1213		2
+opor	363		2
+or			1
+orator	53		2
+organizator	11050		2
+oscilator	139		2
+otpor	11810		2
+otvor	3036		2
+pacifikator			2
+paor	214		2
+pastor	2150		2
+pikador		M	2
+plagijator	104		2
+pododbor	136		2
+podsektor	18		2
+podvor			2
+pogovor	264		3
+pokor			2
+polihistor			2
+pomor	597		2
+ponor	898		2
+popularizator	57		2
+por		M	1
+potprostor			2
+pozor	71		2
+praizvor	20		3
+pravogovor			2
+predator	421		2
+predgovor	938		3
+predogovor			2
+predsabor			2
+predugovor	434		2
+pregor		M	2
+pregovor	65		3
+prekor	303		2
+prekursor			2
+premor	118		2
+preparator		M	2
+prespor	72		2
+pretor	35		2
+pribor	3163		2
+prigovor	3679		3
+prijedor			2
+primor			2
+prior	104		2
+pritvor	4297		2
+prizor	3817		2
+prnjavor		M	3
+procesor	8750		2
+prodor	2884		2
+profesor	41715		2
+programator			2
+prohor			2
+projektor	1121		2
+proktor			2
+prokurator	24		2
+promotor	122		2
+propagator	125		2
+prorektor	523		2
+prosektor			2
+prostor	67153		2
+protektor		M	2
+protomajstor	62		2
+provokator	251		2
+prozor	11765		2
+racionalizator			2
+radijator	740		2
+raptor			2
+raspor			2
+rastvor	1637		2
+ratibor			2
+razbor	23		2
+razdor	755		2
+razgovor	24120		3
+razvigor			2
+reaktor	769		2
+realizator	423		2
+receptor	213		2
+recitator	74		2
+redaktor	146		2
+reduktor			2
+reflektor	415		2
+reformator	438		2
+refraktor	236		2
+regenerator	269		2
+registrator	202		2
+regulator	1072		2
+reizbor	889		2
+rektor	2578		2
+repetitor	254		2
+replikator			2
+resor	1813		2
+respirator	88		2
+restaurator	97		2
+retor	28		2
+retraktor			2
+retrovizor	317		2
+revizor	1428		2
+rezonator	45		2
+ritmajstor			2
+romor		M	2
+rotator			2
+rotor	265		2
+rukotvor			3
+sabor	6341		2
+salvador			2
+samopregor	28		2
+sektor	19896		2
+selektor	11224		2
+semafor	1464		3
+senator	1174		2
+senior	1245		2
+senor			2
+senzor	3266		2
+separator	146		2
+sevastokrator	38		2
+sfor			1
+simulator	344		2
+sinjor			2
+skor	2628		1
+skulptor	136		2
+snagator	50		2
+sponzor	2811		2
+spor	8620		1
+stabilizator	359		2
+stator	156		2
+stavrofor	336		2
+sterilizator	90		2
+stimulator	107		2
+stiropor	631		3
+stvor	404		1
+subnor			2
+suinvestitor	73		2
+sukcesor			2
+sumor			2
+sumpor	641		2
+supervizor	498		4
+suspenzor			2
+suvobor			2
+svetonazor	73		2
+tabor	1049		2
+tabulator			2
+tejlor			2
+televizor	3967		2
+tenor	379		2
+teodor			2
+terminator	566		2
+termofor	51		2
+teror	2047		2
+testator	15		2
+thor			1
+tibor			2
+timor	131		2
+tiodor			2
+todor			2
+topor			2
+tor	973		1
+toreador	84		2
+totalizator			2
+traktor	1795		2
+transduktor			2
+transformator		M	2
+translator			2
+tranzistor	391		2
+tremor	170		2
+trevor			2
+trezor	1459		2
+trikolor			2
+tudor			2
+tumor	2564		2
+turbogenerator			2
+turbokompresor			2
+tutor	251		2
+tvor	120		1
+ugor			2
+ugovor	52411		3
+ukor	371		2
+umor	3615		2
+unprofor			2
+upor		M	2
+urlator			2
+utor	68		2
+uzor	4710		2
+uzurpator	100		2
+vektor	450		2
+velemajstor	464		2
+velibor			2
+velociraptor			2
+ventilator	2610		2
+versifikator			2
+vibrator	475		2
+vihor	415		2
+viktor			2
+vizitator			2
+zamor	1120		2
+zapor		M	2
+zastor	177		2
+zatvor	8583		2
+zazor	226		2
+zbor	1535		1
+zlatibor			2
+zlotvor	136		2
+čador		M	2
+čopor	647		2
+čvor	2381		1
+šandor			2
+šator	1489		2
+šjor	145		1
+šogor	32		2
+šor		M	1
+štakor	22		2
+šumor		M	2
+žagor	363		2
+žamor		M	2
+žubor	240		2
+prijekor	20		2

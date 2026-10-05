@@ -1,99 +1,99 @@
 98
-aerosol	104	
-alkohol	7473	
-anatol		
-apostol	2649	
-atol	12	
-aureol		
-autogol	468	
-bejzbol	861	
-benzol	19	
-bezbol	92	
-bisfenol	100	
-bivol	15	
-bol	18887	
-bristol		
-col		
-dodžbol		
-dorćol		
-eol		
-erol		
-etanol	341	
-evropol		
-fajervol		
-fenol	59	
-fol		
-glagol	826	
-glikol	54	
-gol	19936	
-haloperidol		
-hol	927	
-holesterol	1970	
-idol	1404	
-interpol		
-jarbol	244	
-jol		
-jugopetrol		
-kapitol		
-kaptol	20	
-karambol	78	
-karbol		
-karfiol	535	
-karol		
-kerol		
-kol		M
-kolesterol		
-kortizol	217	
-kostol		
-kreol		
-krušedol		
-limasol		
-lizol	12	
-luminol		
-mentol	241	
-metanol	117	
-metropol		
-mol	971	
-mongol		
-monopol	5438	
-napol		
-nikol		
-nol		
-obol	82	
-ohol	91	
-ol		M
-oreol		
-paracetamol	387	
-pejntbol		
-petrol	220	
-pinjol		
-pol	7823	
-polifenol		
-polugol		
-pomol		
-portparol	8818	
-postol		
-potparol	212	
-prestol	53	
-propofol		
-propranolol		
-protokol	5598	
-ragdol		
-raskol	1013	
-rasol	59	
-reketbol		
-rokenrol	1596	
-rol		
-simbol	14042	
-simvol		M
-softbol	79	
-sokol	119	
-sol	435	
-spol	100	
-stambol		
-staniol	13	
-tirol		
-trol	154	
-vinodol		
-vitriol		M
-vorhol		
+aerosol	104		4
+alkohol	7473		2
+anatol			2
+apostol	2649		2
+atol	12		2
+aureol			2
+autogol	468		2
+bejzbol	861		2
+benzol	19		2
+bezbol	92		2
+bisfenol	100		2
+bivol	15		2
+bol	18887		1
+bristol			2
+col			1
+dodžbol			2
+dorćol			2
+eol			2
+erol			2
+etanol	341		2
+evropol			2
+fajervol			2
+fenol	59		2
+fol			1
+glagol	826		2
+glikol	54		2
+gol	19936		1
+haloperidol			2
+hol	927		1
+holesterol	1970		2
+idol	1404		2
+interpol			2
+jarbol	244		2
+jol			1
+jugopetrol			2
+kapitol			2
+kaptol	20		2
+karambol	78		2
+karbol			2
+karfiol	535		2
+karol			2
+kerol			2
+kol		M	1
+kolesterol			2
+kortizol	217		2
+kostol			2
+kreol			2
+krušedol			2
+limasol			2
+lizol	12		2
+luminol			2
+mentol	241		2
+metanol	117		2
+metropol			2
+mol	971		1
+mongol			2
+monopol	5438		3
+napol			2
+nikol			2
+nol			1
+obol	82		2
+ohol	91		2
+ol		M	1
+oreol			2
+paracetamol	387		2
+pejntbol			2
+petrol	220		2
+pinjol			2
+pol	7823		1
+polifenol			2
+polugol			2
+pomol			2
+portparol	8818		2
+postol			2
+potparol	212		2
+prestol	53		2
+propofol			2
+propranolol			2
+protokol	5598		3
+ragdol			2
+raskol	1013		2
+rasol	59		2
+reketbol			2
+rokenrol	1596		2
+rol			1
+simbol	14042		2
+simvol		M	2
+softbol	79		2
+sokol	119		2
+sol	435		1
+spol	100		1
+stambol			2
+staniol	13		2
+tirol			2
+trol	154		1
+vinodol			2
+vitriol		M	2
+vorhol			2

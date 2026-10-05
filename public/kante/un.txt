@@ -1,108 +1,108 @@
 107
-Kejptaun		
-Neptun		
-arbun		
-autoimun		
-babun		M
-barbun		
-barun		
-baršun	21	
-bataljun		
-bilijun		
-bogatun	16	
-bokun	12	
-braun		
-brun		
-crvenokljun		
-drecun		
-dugokljun		
-dugorun		
-dun		
-faun		M
-gavun		
-gun	130	
-hamsun		
-harpun	30	
-harun		
-hun		
-iglun		
-imun	617	
-inćun		
-izračun	64	
-jun	29343	
-kamerun		
-kankun		
-katun	122	
-kaćun	11	
-klaun	19	
-kljun	548	
-kordun		
-kraun		
-kračun	12	
-krcun		
-krstokljun		
-kun		
-kuskun		M
-limun	1779	
-liskun		M
-majmun	852	
-mamun		
-medun		
-mejnkun		
-milijun	441	
-milun		
-mićun		
-monsun	39	
-mun		
-nepotpun	468	
-nepun	263	
-nokdaun		
-obračun	7618	
-oportun	19	
-paun	169	
-perun		
-peršun	978	
-pijun	30	
-plotun	93	
-podračun		
-poplun		
-potpun	2222	
-požun		
-predračun	431	
-prepun	3078	
-preračun		
-proračun	1461	
-pržun		
-pun	18761	
-radun		
-rakun	43	
-rangun		
-račun	39606	
-rumun		
-sadun		
-salun		
-sapun	1267	
-simeun		
-solomun		
-solun		
-somun	56	
-stoun		
-svilorun		M
-tajfun	286	
-tajkun	1089	
-tribun	204	
-trifun		
-tripun		
-trivun		
-trun	225	
-tutun		
-zasun	16	
-zemun		
-zubun		
-čukun		
-čun	169	
-šimun		
-šogun	21	
-špijun	958	
-žbun	467	
-žun		
+Kejptaun			2
+Neptun			2
+arbun			2
+autoimun			2
+babun		M	2
+barbun			2
+barun			2
+baršun	21		2
+bataljun			2
+bilijun			2
+bogatun	16		2
+bokun	12		2
+braun			2
+brun			1
+crvenokljun			2
+drecun			2
+dugokljun			2
+dugorun			2
+dun			1
+faun		M	2
+gavun			2
+gun	130		1
+hamsun			2
+harpun	30		2
+harun			2
+hun			1
+iglun			2
+imun	617		2
+inćun			2
+izračun	64		2
+jun	29343		1
+kamerun			3
+kankun			2
+katun	122		2
+kaćun	11		2
+klaun	19		2
+kljun	548		1
+kordun			2
+kraun			2
+kračun	12		2
+krcun			2
+krstokljun			3
+kun			1
+kuskun		M	2
+limun	1779		2
+liskun		M	2
+majmun	852		2
+mamun			2
+medun			2
+mejnkun			2
+milijun	441		2
+milun			2
+mićun			2
+monsun	39		2
+mun			1
+nepotpun	468		3
+nepun	263		2
+nokdaun			2
+obračun	7618		3
+oportun	19		3
+paun	169		2
+perun			2
+peršun	978		2
+pijun	30		2
+plotun	93		2
+podračun			2
+poplun			2
+potpun	2222		2
+požun			2
+predračun	431		2
+prepun	3078		2
+preračun			2
+proračun	1461		3
+pržun			2
+pun	18761		1
+radun			2
+rakun	43		2
+rangun			2
+račun	39606		2
+rumun			2
+sadun			2
+salun			2
+sapun	1267		2
+simeun			2
+solomun			3
+solun			2
+somun	56		2
+stoun			2
+svilorun		M	2
+tajfun	286		2
+tajkun	1089		2
+tribun	204		2
+trifun			2
+tripun			2
+trivun			2
+trun	225		1
+tutun			2
+zasun	16		2
+zemun			2
+zubun			2
+čukun			2
+čun	169		1
+šimun			2
+šogun	21		2
+špijun	958		2
+žbun	467		1
+žun			1

@@ -1,151 +1,151 @@
 149
-agaluk		
-argatluk		
-arlauk		
-arnautluk		
-bajbuk		
-bakaluk		M
-baksuzluk		M
-bauk		M
-bašibozuk		
-begluk		M
-bezobrazluk		
-bezruk		M
-boščaluk		
-bruk		
-buk	388	
-buljuk		
-ciganluk		
-cigarluk		
-cijuk	17	
-desetorostruk		
-desetostruk		
-desnoruk		M
-devetostruk		M
-domazluk		
-duduk		M
-dugoruk		M
-duk		M
-dvoruk		
-dvostruk	143	
-faruk		
-fijuk	100	
-fićuk		
-fuk		M
-gazdaluk		M
-goloruk	102	
-hadžiluk		M
-hajduk		M
-holbruk		
-huk	499	
-insbruk		
-jagluk		
-jastuk	1900	
-jauk	258	
-javašluk		M
-jednoruk		
-jednostruk		
-kadiluk		
-kauk		
-kaučuk	108	
-kijuk		
-klobuk	204	
-koltuk		
-komšiluk	1118	
-kratkoruk		
-kuk	986	
-kukavičluk	545	
-kuluk	128	
-kučuk		
-latinluk		
-levoruk	84	
-lopovluk	1306	
-luk	8486	
-mahmurluk		
-mamurluk	478	
-mangupluk	14	
-marduk		
-marifetluk		M
-mauk		
-mezetluk		
-milovuk		
-minderluk		
-mnogostruk	26	
-muk	811	
-muštuluk		
-nauk	1166	
-nestašluk		M
-neuk	280	
-nitkovluk		
-obešenjakluk		
-obluk		
-oluk	172	
-ortakluk		M
-osmostruk		M
-pamuk	780	
-pasavoluk		
-pauk	1189	
-pašaluk		M
-petorostruk		
-petostruk		
-pijuk	46	
-poganluk		
-potpuk		
-praunuk	211	
-praziluk	534	
-praznoruk		
-prizvuk	603	
-prostakluk	332	
-provodadžiluk		M
-prsluk	626	
-puk	1873	
-rahatluk		M
-ratluk		M
-ruk		
-samouk	208	
-sanduk	1184	
-sebičluk		M
-sedmostruk		
-slavoluk	98	
-smuk		M
-spahiluk		M
-stostruk		M
-struk	1080	
-sudžuk		M
-tepeluk		M
-trostruk	15	
-trozvuk		
-tvrdičluk	45	
-ugursuzluk		M
-ultrazvuk	1467	
-unuk	1773	
-ustuk	18	
-utuk		M
-višestruk	191	
-vuk	10828	
-zloguk		
-zvižduk	271	
-zvuk	15369	
-ćuk	235	
-četvorostruk		
-čibuk		M
-čifluk		
-čitluk		M
-čiviluk		
-čivluk		
-čuk		M
-čukununuk		
-čučuk		
-đavoluk		
-šejtanluk		
-šenluk		M
-šeretluk		M
-šestostruk		M
-šmuk		
-šopluk		
-štambuk		
-štruk		
-štuk		
-šuk		
-žvižduk		
-ljevoruk		
+agaluk			2
+argatluk			2
+arlauk			2
+arnautluk			2
+bajbuk			2
+bakaluk		M	2
+baksuzluk		M	2
+bauk		M	2
+bašibozuk			2
+begluk		M	2
+bezobrazluk			2
+bezruk		M	2
+boščaluk			2
+bruk			1
+buk	388		1
+buljuk			2
+ciganluk			2
+cigarluk			2
+cijuk	17		2
+desetorostruk			2
+desetostruk			2
+desnoruk		M	2
+devetostruk		M	2
+domazluk			2
+duduk		M	2
+dugoruk		M	2
+duk		M	1
+dvoruk			2
+dvostruk	143		2
+faruk			2
+fijuk	100		2
+fićuk			2
+fuk		M	1
+gazdaluk		M	2
+goloruk	102		2
+hadžiluk		M	2
+hajduk		M	2
+holbruk			2
+huk	499		1
+insbruk			2
+jagluk			2
+jastuk	1900		2
+jauk	258		2
+javašluk		M	2
+jednoruk			3
+jednostruk			2
+kadiluk			2
+kauk			2
+kaučuk	108		2
+kijuk			2
+klobuk	204		2
+koltuk			2
+komšiluk	1118		2
+kratkoruk			2
+kuk	986		1
+kukavičluk	545		2
+kuluk	128		2
+kučuk			2
+latinluk			2
+levoruk	84		2
+lopovluk	1306		2
+luk	8486		1
+mahmurluk			2
+mamurluk	478		2
+mangupluk	14		2
+marduk			2
+marifetluk		M	2
+mauk			2
+mezetluk			2
+milovuk			2
+minderluk			2
+mnogostruk	26		2
+muk	811		1
+muštuluk			2
+nauk	1166		2
+nestašluk		M	2
+neuk	280		2
+nitkovluk			2
+obešenjakluk			2
+obluk			2
+oluk	172		2
+ortakluk		M	2
+osmostruk		M	2
+pamuk	780		2
+pasavoluk			2
+pauk	1189		2
+pašaluk		M	2
+petorostruk			2
+petostruk			2
+pijuk	46		2
+poganluk			2
+potpuk			2
+praunuk	211		2
+praziluk	534		2
+praznoruk			2
+prizvuk	603		2
+prostakluk	332		2
+provodadžiluk		M	2
+prsluk	626		2
+puk	1873		1
+rahatluk		M	2
+ratluk		M	2
+ruk			1
+samouk	208		2
+sanduk	1184		2
+sebičluk		M	2
+sedmostruk			2
+slavoluk	98		3
+smuk		M	1
+spahiluk		M	2
+stostruk		M	2
+struk	1080		1
+sudžuk		M	2
+tepeluk		M	2
+trostruk	15		2
+trozvuk			2
+tvrdičluk	45		2
+ugursuzluk		M	2
+ultrazvuk	1467		3
+unuk	1773		2
+ustuk	18		2
+utuk		M	2
+višestruk	191		2
+vuk	10828		1
+zloguk			2
+zvižduk	271		2
+zvuk	15369		1
+ćuk	235		1
+četvorostruk			2
+čibuk		M	2
+čifluk			2
+čitluk		M	2
+čiviluk			2
+čivluk			2
+čuk		M	1
+čukununuk			2
+čučuk			2
+đavoluk			2
+šejtanluk			2
+šenluk		M	2
+šeretluk		M	2
+šestostruk		M	2
+šmuk			1
+šopluk			2
+štambuk			2
+štruk			1
+štuk			1
+šuk			1
+žvižduk			2
+ljevoruk			2

@@ -1,12 +1,12 @@
 11
-au		M
-dahau		
-donau		
-hau		
-kakau	33	
-landau		
-makau		
-mijau		
-mjau		M
-uau		
-čau		
+au		M	2
+dahau			2
+donau			2
+hau			2
+kakau	33		2
+landau			2
+makau			2
+mijau			2
+mjau		M	2
+uau			2
+čau			2

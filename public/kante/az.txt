@@ -1,62 +1,62 @@
 60
-avaz	665	
-bezizlaz	77	
-bogaz	11	
-buraz	168	
-burmaz		
-dikobraz		
-dokaz	27990	
-elmaz		
-fransoaz		
-gavaz		
-gaz	259	
-gmaz	41	
-igrokaz	186	
-ilijaz		
-iljaz		
-iskaz	2827	
-izlaz	9386	
-izraz	17639	
-jaz	2931	
-kamaz		
-kavkaz		
-knjaz		M
-mamlaz		M
-maz		
-miljokaz		
-miraz	670	
-mlaz	833	
-mraz	1708	
-nalaz	4308	
-namaz	773	
-nijaz		
-obraz	4699	
-odraz	5575	
-otkaz	6720	
-pegaz		
-pervaz		M
-plajvaz		
-pokaz	49	
-poraz	15273	
-povraz		
-prelaz	5021	
-premaz	869	
-preobraz		
-prikaz	11708	
-prilaz	2314	
-prolaz	5118	
-protivdokaz		
-putokaz	1788	
-raz		
-razlaz	627	
-razmaz	46	
-sraz		
-topaz	86	
-transgaz		
-ukaz	597	
-ulaz	11749	
-uzlaz	17	
-vetrokaz		M
-vodokaz		
-zalaz		
-prijelaz	119	
+avaz	665		2
+bezizlaz	77		2
+bogaz	11		2
+buraz	168		2
+burmaz			2
+dikobraz			3
+dokaz	27990		2
+elmaz			2
+fransoaz			2
+gavaz			2
+gaz	259		1
+gmaz	41		1
+igrokaz	186		3
+ilijaz			2
+iljaz			2
+iskaz	2827		2
+izlaz	9386		2
+izraz	17639		2
+jaz	2931		1
+kamaz			2
+kavkaz			2
+knjaz		M	1
+mamlaz		M	2
+maz			1
+miljokaz			2
+miraz	670		2
+mlaz	833		1
+mraz	1708		1
+nalaz	4308		2
+namaz	773		2
+nijaz			2
+obraz	4699		2
+odraz	5575		2
+otkaz	6720		2
+pegaz			2
+pervaz		M	2
+plajvaz			2
+pokaz	49		2
+poraz	15273		2
+povraz			2
+prelaz	5021		2
+premaz	869		2
+preobraz			2
+prikaz	11708		2
+prilaz	2314		2
+prolaz	5118		2
+protivdokaz			2
+putokaz	1788		3
+raz			1
+razlaz	627		2
+razmaz	46		2
+sraz			1
+topaz	86		2
+transgaz			2
+ukaz	597		2
+ulaz	11749		2
+uzlaz	17		2
+vetrokaz		M	2
+vodokaz			2
+zalaz			2
+prijelaz	119		2

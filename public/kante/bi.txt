@@ -1,213 +1,213 @@
 209
-Kubi		
-Najrobi		
-Zagrebi	11	
-alibi	1667	
-antibebi		
-babi	815	
-bambi		
-barabi		
-barbi	195	
-bebi	4277	
-berbi		
-bezubi	33	
-bi	1648126	
-bobi	290	
-bombi	2676	
-borbi	31980	
-bubašvabi		
-bubi		
-dangubi	54	
-debi	1922	
-deobi	736	
-derbi	5393	
-diobi	13	
-dobi	4690	
-dograbi	96	
-drobi	170	
-družbi	22	
-dugozubi		
-dvogubi		
-farbi	151	
-fbi		
-frizbi	95	
-galebi		
-garderobi	755	
-gnusobi	12	
-gobi		
-golubi	17	
-gozbi	228	
-grabi	707	
-grbi	25	
-grebi	12	
-grombi		
-grubi	847	
-gubi	17785	
-haubi		
-hobi	2359	
-istrebi	197	
-izdrobi	12	
-izdubi	23	
-izgubi	9258	
-izljubi	93	
-izložbi	10626	
-izvabi		
-izvedbi	1036	
-karibi		
-kasabi		
-katakombi	74	
-kobi	206	
-kolibi	392	
-kombi	2130	
-konobi	57	
-kordobi		
-kosidbi	64	
-krezubi	60	
-krozbi		
-ljubi	3521	
-lobi	2434	
-lokerbi		
-makabi		
-mektebi	16	
-mikrobi		
-molbi	1224	
-nagodbi	261	
-naredbi	1939	
-narudžbi	520	
-nastambi	39	
-nebi		
-nesrbi	115	
-obi	203	
-obljubi	55	
-odbi	153	
-odredbi	5438	
-odrubi	73	
-ogrebi	20	
-ogrubi		
-olbi		
-onesposobi	153	
-optužbi	3972	
-oslabi	1035	
-osobi	9714	
-osposobi	863	
-ozlobi		
-oštrozubi		
-oždrebi		
-paljbi	95	
-palubi	489	
-pandžabi		
-pečalbi		
-plenidbi	24	
-plombi	122	
-plovidbi	583	
-pobi	57	
-pogodbi	135	
-pograbi	25	
-pogrbi		
-pogrebi	30	
-pogubi	488	
-poljubi	1418	
-porobi	147	
-potrebi	14568	
-praizvedbi	34	
-prebi		
-predodžbi	19	
-pregrubi	10	
-preljubi	45	
-prepodobi		
-preslabi	76	
-pribi	11	
-pridobi	10	
-prigrabi	164	
-priljubi	67	
-primedbi	3370	
-priredbi	1088	
-pritužbi	1657	
-probi	1056	
-produbi	426	
-prosidbi	35	
-rabi	142	
-ragbi	796	
-razbi	78	
-razdeobi		
-razdrobi		
-razgrabi	55	
-ribi	756	
-robi	1573	
-rodoljubi	472	
-rubi		
-rugobi		
-sabljozubi		
-sebi	129389	
-selidbi	304	
-seobi	266	
-skladbi	40	
-skrbi	202	
-slabi	4639	
-slobi		
-službi	27450	
-sobi	13253	
-spodobi	28	
-srbi	2301	
-srdžbi	48	
-srubi		
-sudbi		
-sukobi	4512	
-superbombi		
-suzbi		
-svadbi	1367	
-svedodžbi	22	
-svrbi	709	
-tarabi	73	
-tebi	21787	
-tegobi	13	
-teskobi	93	
-torbi	1549	
-trubi	341	
-tužbi	4165	
-tvorbi	43	
-ubi	385	
-udadbi		
-udrobi		
-udubi	142	
-ugrabi	272	
-upodobi	113	
-uporedbi	10	
-upotrebi	14105	
-uredbi	1862	
-utrobi	970	
-užlebi		
-vabi	46	
-vasabi		
-vebi		
-veridbi	83	
-vežbi	5761	
-visibabi		
-vrbi	155	
-zadobi	17	
-zadubi	21	
-zagrabi	81	
-zagrebi	11	
-zagubi	122	
-zaljubi	636	
-zarobi	335	
-zasvrbi	48	
-zatrubi	59	
-zdrobi	32	
-zgrabi	580	
-zlokobi		
-zloupotrebi	1634	
-zobi	216	
-zombi	550	
-zubi	3165	
-čorbi	371	
-šibi		
-švabi	10	
-žabi	75	
-žalbi	4268	
-ždrijebi		J
-ženidbi	220	
-žurbi	878	
-primjedbi		
-tjeskobi		
-vježbi		
+Kubi			2
+Najrobi			2
+Zagrebi	11		2
+alibi	1667		2
+antibebi			2
+babi	815		2
+bambi			2
+barabi			2
+barbi	195		2
+bebi	4277		2
+berbi			2
+bezubi	33		2
+bi	1648126		1
+bobi	290		2
+bombi	2676		2
+borbi	31980		2
+bubašvabi			2
+bubi			2
+dangubi	54		2
+debi	1922		2
+deobi	736		2
+derbi	5393		2
+diobi	13		2
+dobi	4690		2
+dograbi	96		2
+drobi	170		2
+družbi	22		2
+dugozubi			2
+dvogubi			2
+farbi	151		2
+fbi			1
+frizbi	95		2
+galebi			3
+garderobi	755		2
+gnusobi	12		2
+gobi			2
+golubi	17		3
+gozbi	228		2
+grabi	707		2
+grbi	25		2
+grebi	12		2
+grombi			2
+grubi	847		2
+gubi	17785		2
+haubi			2
+hobi	2359		2
+istrebi	197		2
+izdrobi	12		2
+izdubi	23		2
+izgubi	9258		2
+izljubi	93		2
+izložbi	10626		2
+izvabi			2
+izvedbi	1036		2
+karibi			2
+kasabi			2
+katakombi	74		2
+kobi	206		2
+kolibi	392		2
+kombi	2130		2
+konobi	57		2
+kordobi			2
+kosidbi	64		2
+krezubi	60		2
+krozbi			2
+ljubi	3521		2
+lobi	2434		2
+lokerbi			2
+makabi			2
+mektebi	16		2
+mikrobi			2
+molbi	1224		2
+nagodbi	261		2
+naredbi	1939		2
+narudžbi	520		2
+nastambi	39		2
+nebi			2
+nesrbi	115		2
+obi	203		2
+obljubi	55		2
+odbi	153		2
+odredbi	5438		2
+odrubi	73		2
+ogrebi	20		2
+ogrubi			2
+olbi			2
+onesposobi	153		2
+optužbi	3972		2
+oslabi	1035		2
+osobi	9714		3
+osposobi	863		2
+ozlobi			2
+oštrozubi			2
+oždrebi			2
+paljbi	95		2
+palubi	489		3
+pandžabi			2
+pečalbi			2
+plenidbi	24		2
+plombi	122		2
+plovidbi	583		2
+pobi	57		2
+pogodbi	135		2
+pograbi	25		2
+pogrbi			2
+pogrebi	30		2
+pogubi	488		2
+poljubi	1418		2
+porobi	147		2
+potrebi	14568		3
+praizvedbi	34		2
+prebi			2
+predodžbi	19		2
+pregrubi	10		2
+preljubi	45		2
+prepodobi			2
+preslabi	76		2
+pribi	11		2
+pridobi	10		2
+prigrabi	164		2
+priljubi	67		2
+primedbi	3370		2
+priredbi	1088		2
+pritužbi	1657		2
+probi	1056		2
+produbi	426		2
+prosidbi	35		2
+rabi	142		2
+ragbi	796		2
+razbi	78		2
+razdeobi			2
+razdrobi			2
+razgrabi	55		2
+ribi	756		2
+robi	1573		2
+rodoljubi	472		4
+rubi			2
+rugobi			2
+sabljozubi			2
+sebi	129389		2
+selidbi	304		2
+seobi	266		2
+skladbi	40		2
+skrbi	202		2
+slabi	4639		2
+slobi			2
+službi	27450		2
+sobi	13253		2
+spodobi	28		2
+srbi	2301		2
+srdžbi	48		2
+srubi			2
+sudbi			2
+sukobi	4512		2
+superbombi			2
+suzbi			2
+svadbi	1367		2
+svedodžbi	22		2
+svrbi	709		2
+tarabi	73		2
+tebi	21787		2
+tegobi	13		2
+teskobi	93		2
+torbi	1549		2
+trubi	341		2
+tužbi	4165		2
+tvorbi	43		2
+ubi	385		2
+udadbi			2
+udrobi			2
+udubi	142		2
+ugrabi	272		2
+upodobi	113		2
+uporedbi	10		2
+upotrebi	14105		4
+uredbi	1862		2
+utrobi	970		3
+užlebi			2
+vabi	46		2
+vasabi			2
+vebi			2
+veridbi	83		2
+vežbi	5761		2
+visibabi			3
+vrbi	155		2
+zadobi	17		2
+zadubi	21		2
+zagrabi	81		2
+zagrebi	11		2
+zagubi	122		2
+zaljubi	636		2
+zarobi	335		2
+zasvrbi	48		2
+zatrubi	59		2
+zdrobi	32		2
+zgrabi	580		2
+zlokobi			2
+zloupotrebi	1634		5
+zobi	216		2
+zombi	550		2
+zubi	3165		2
+čorbi	371		2
+šibi			2
+švabi	10		2
+žabi	75		2
+žalbi	4268		2
+ždrijebi		J	2
+ženidbi	220		2
+žurbi	878		2
+primjedbi			2
+tjeskobi			2
+vježbi			2

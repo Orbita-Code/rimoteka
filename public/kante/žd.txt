@@ -1,5 +1,5 @@
 4
-dažd	144	
-dužd	116	
-vožd	462	
-zvižd		
+dažd	144		1
+dužd	116		1
+vožd	462		1
+zvižd			1

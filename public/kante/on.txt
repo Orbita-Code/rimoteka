@@ -1,384 +1,384 @@
 383
-Boston		
-Lion		M
-Lisabon		
-London		
-Pluton		
-Solomon		
-Vavilon		
-Vašington		
-aceton	138	
-agamemnon		
-amazon		
-amiodaron		
-anahron	97	
-analogon		
-anason		
-anjon		
-anticiklon		
-antifon		
-antimon	56	
-antiproton	17	
-apolon		
-argon		M
-arhiđakon	176	
-arlington		
-armagedon		
-autohton	102	
-avinjon		
-avion	10468	
-babilon		
-badminton	625	
-bajron		
-balkon	1608	
-balon	2335	
-bariton	204	
-baron	715	
-bastion	473	
-bataljon	997	
-bekgemon		
-bekon		
-beneton		
-benton		
-beton	2840	
-bezakon		
-bilion	354	
-bizon	88	
-blagonaklon	251	
-bolton		
-bombon	35	
-bon	487	
-bonbon	16	
-bonton	311	
-bourbon		
-bozon	357	
-braon		
-breton		
-bron		
-bujon	106	
-buljon		M
-burton		
-cejlon		
-centurion	101	
-ciceron		
-ciklon	223	
-cirkon	62	
-dalton		
-danon		
-dejton		
-demižon		
-demon	845	
-digitron	269	
-dijapazon	986	
-diktafon	168	
-divizion		
-dogon		
-dokon	219	
-dragon	422	
-dron		
-džekson		
-edmonton		
-egon		
-elektron	558	
-elington		
-elton		
-embrion	519	
-emotikon		
-enron		
-eon		
-epigon	31	
-epsilon	70	
-eskadron	82	
-estragon		M
-etalon		M
-ešalon	149	
-ešelon		M
-faraon	294	
-fazon	1574	
-feferon	11	
-feljton	339	
-feromon	39	
-fitoplankton	23	
-fon	3240	
-foton	226	
-framason		
-freon	179	
-furgon	67	
-futon		
-gabon		
-galon	109	
-garnizon	256	
-gekon		
-gibon		
-gledston		
-gon		M
-gordon		
-gospon	478	
-grafikon	1222	
-gramofon	343	
-graviton		
-grifon	86	
-hadron	10	
-hameleon		
-hamilton		
-hantington		
-hariton		
-hegemon		M
-helikon	14	
-hidroavion	23	
-hidrokodon		
-hilton		
-hjuston		
-hormon	1903	
-houston		
-ilarion		
-interferon	118	
-interfon	306	
-ipsilon	243	
-iskon	194	
-izgon	155	
-jeon		
-jerihon		
-jerođakon		
-jon	287	
-kameleon	188	
-kameron		
-kamion	3386	
-kanjon	1218	
-kanon	690	
-kantarion	297	
-kanton	208	
-kapon		
-karbon	434	
-karington		
-karton	4630	
-kasetofon	259	
-katjon		
-kazetofon		
-keson		
-kinston		
-klejton		
-klinton		
-klon	405	
-kolon	93	
-kombinezon	240	
-komision		
-kompanjon	86	
-kompton		
-kon		M
-kordon	507	
-kortizon	33	
-kotiljon		
-koton		
-krampon		
-krejon	50	
-kreton		
-kripton		M
-kron		
-ksenon		
-ksilofon	15	
-kulon		M
-kupidon		
-kupon	1226	
-kvadrilion		
-lampion	28	
-legion		
-lejton		
-leksikon	501	
-lenon		
-leon		
-leprikon		
-lisbon		
-lon		M
-lornjon		
-losion	547	
-magnetofon	96	
-mamon		M
-maraton	5083	
-maron		
-marton		
-mason		
-mastodon		
-mađaron	12	
-medaljon	173	
-megafon	148	
-megalodon		
-melon		
-metadon	247	
-mezon		
-mikrofon	2421	
-mikron	68	
-milion	27302	
-milton		
-minjon	36	
-miron		
-misaon	26	
-mon		
-monoton	247	
-mormon	27	
-moron		
-morton		
-muflon	61	
-nagon	1775	
-najlon	950	
-naklon	365	
-nakon	320060	
-nandrolon		
-napokon	8373	
-napoleon		
-napon	3852	
-naslon	745	
-natron	73	
-neon	170	
-neron		
-nesklon	67	
-neuron	98	
-neutron	97	
-nikon		
-njuton		
-oberon		
-odeon		
-odron	125	
-oksikodon		
-oksimoron	174	
-omikron	12	
-on	584324	
-onomastikon		M
-oregon		
-organon		
-orion		
-orlon		
-osion	72	
-oslon	20	
-otklon	761	
-oton		
-ozon	467	
-pansion	782	
-pantalon		
-pantelejmon		
-panteon	188	
-pardon	1834	
-partenon		
-patron	148	
-paviljon	988	
-pejton		
-pentagon		
-perlon		
-peron	217	
-pilon	160	
-pion	172	
-piton	176	
-pižon		
-plafon		M
-plankton	47	
-platon		
-pogon	9917	
-pokemon	20	
-poklon	16478	
-polifon		
-poligon	1680	
-poltron	160	
-poludemon		
-poluton		
-ponton	75	
-posejdon		
-prednizon		
-preston		
-pretklon	10	
-princeton		
-prinston		
-prion		
-progesteron	306	
-progon	1975	
-proton	232	
-protođakon	229	
-prvođakon		
-radon		M
-ralston		
-ramon		
-raspon	2898	
-rašomon		
-region	16670	
-rejon	351	
-remington		
-remon		
-rezon	507	
-robinzon		
-ron		
-rubikon		
-sajgon		
-sajmon		
-saksofon	370	
-salomon		
-salon	5478	
-sifon	107	
-silikon	391	
-simeon		
-simposion		
-sinhron		M
-sintelon		
-sion		
-sklon	3067	
-skorpion	21	
-slon	731	
-smartfon	700	
-smeon		M
-smion	20	
-smisaon		
-solon		
-spiridon		
-stadion	6976	
-ston		
-suton	432	
-talon	65	
-tampon	564	
-teatron		
-teflon	92	
-telefon	30178	
-teleton		
-testosteron	503	
-tifon		
-ton	5316	
-triatlon	681	
-trigon	67	
-trijatlon		
-trilion	154	
-triptihon		
-triton		M
-tromblon		
-trombon	102	
-tron	2101	
-udon		
-union	159	
-uspon	4102	
-uzgon	42	
-vagon	800	
-velington		
-vernon		
-veron		
-vibrafon	22	
-vijon		
-vimbldon		
-vinston		
-vodafon		
-zaklon	655	
-zakon	117220	
-zaron	340	
-zaslon	146	
-zaton	68	
-zvon	76	
-đakon	1368	
-đon		M
-šablon	972	
-šampinjon	17	
-šampion	8825	
-šampon	1130	
-šeraton		
-šezlon		
-šifon	12	
-šimon		
-škorpion	401	
-šon		M
-žargon	333	
-žeton	110	
-žigon		
+Boston			2
+Lion		M	2
+Lisabon			2
+London			2
+Pluton			2
+Solomon			2
+Vavilon			2
+Vašington			2
+aceton	138		2
+agamemnon			2
+amazon			2
+amiodaron			2
+anahron	97		2
+analogon			2
+anason			2
+anjon			2
+anticiklon			2
+antifon			3
+antimon	56		2
+antiproton	17		2
+apolon			2
+argon		M	2
+arhiđakon	176		3
+arlington			2
+armagedon			2
+autohton	102		2
+avinjon			2
+avion	10468		2
+babilon			3
+badminton	625		2
+bajron			2
+balkon	1608		2
+balon	2335		2
+bariton	204		2
+baron	715		2
+bastion	473		2
+bataljon	997		2
+bekgemon			2
+bekon			2
+beneton			2
+benton			2
+beton	2840		2
+bezakon			2
+bilion	354		2
+bizon	88		2
+blagonaklon	251		2
+bolton			2
+bombon	35		2
+bon	487		1
+bonbon	16		2
+bonton	311		2
+bourbon			2
+bozon	357		2
+braon			2
+breton			2
+bron			1
+bujon	106		2
+buljon		M	2
+burton			2
+cejlon			2
+centurion	101		2
+ciceron			2
+ciklon	223		2
+cirkon	62		2
+dalton			2
+danon			2
+dejton			2
+demižon			2
+demon	845		2
+digitron	269		2
+dijapazon	986		2
+diktafon	168		3
+divizion			2
+dogon			2
+dokon	219		2
+dragon	422		2
+dron			1
+džekson			2
+edmonton			2
+egon			2
+elektron	558		2
+elington			2
+elton			2
+embrion	519		3
+emotikon			2
+enron			2
+eon			2
+epigon	31		2
+epsilon	70		2
+eskadron	82		2
+estragon		M	2
+etalon		M	2
+ešalon	149		2
+ešelon		M	2
+faraon	294		2
+fazon	1574		2
+feferon	11		2
+feljton	339		2
+feromon	39		2
+fitoplankton	23		2
+fon	3240		1
+foton	226		2
+framason			2
+freon	179		2
+furgon	67		2
+futon			2
+gabon			2
+galon	109		2
+garnizon	256		2
+gekon			2
+gibon			2
+gledston			2
+gon		M	1
+gordon			2
+gospon	478		2
+grafikon	1222		2
+gramofon	343		2
+graviton			2
+grifon	86		2
+hadron	10		2
+hameleon			2
+hamilton			2
+hantington			2
+hariton			2
+hegemon		M	2
+helikon	14		2
+hidroavion	23		2
+hidrokodon			2
+hilton			2
+hjuston			2
+hormon	1903		2
+houston			2
+ilarion			2
+interferon	118		2
+interfon	306		3
+ipsilon	243		2
+iskon	194		2
+izgon	155		2
+jeon			2
+jerihon			2
+jerođakon			2
+jon	287		1
+kameleon	188		2
+kameron			2
+kamion	3386		2
+kanjon	1218		2
+kanon	690		2
+kantarion	297		2
+kanton	208		2
+kapon			2
+karbon	434		2
+karington			2
+karton	4630		2
+kasetofon	259		2
+katjon			2
+kazetofon			2
+keson			2
+kinston			2
+klejton			2
+klinton			2
+klon	405		1
+kolon	93		2
+kombinezon	240		2
+komision			2
+kompanjon	86		2
+kompton			2
+kon		M	1
+kordon	507		2
+kortizon	33		2
+kotiljon			2
+koton			2
+krampon			2
+krejon	50		2
+kreton			2
+kripton		M	2
+kron			1
+ksenon			2
+ksilofon	15		3
+kulon		M	2
+kupidon			2
+kupon	1226		2
+kvadrilion			2
+lampion	28		2
+legion			2
+lejton			2
+leksikon	501		2
+lenon			2
+leon			2
+leprikon			2
+lisbon			2
+lon		M	1
+lornjon			2
+losion	547		2
+magnetofon	96		2
+mamon		M	2
+maraton	5083		3
+maron			2
+marton			2
+mason			2
+mastodon			2
+mađaron	12		2
+medaljon	173		2
+megafon	148		3
+megalodon			2
+melon			2
+metadon	247		2
+mezon			2
+mikrofon	2421		3
+mikron	68		2
+milion	27302		2
+milton			2
+minjon	36		2
+miron			2
+misaon	26		3
+mon			1
+monoton	247		3
+mormon	27		2
+moron			2
+morton			2
+muflon	61		2
+nagon	1775		2
+najlon	950		2
+naklon	365		2
+nakon	320060		2
+nandrolon			2
+napokon	8373		3
+napoleon			2
+napon	3852		2
+naslon	745		2
+natron	73		2
+neon	170		2
+neron			2
+nesklon	67		2
+neuron	98		2
+neutron	97		2
+nikon			2
+njuton			2
+oberon			2
+odeon			2
+odron	125		2
+oksikodon			2
+oksimoron	174		2
+omikron	12		2
+on	584324		1
+onomastikon		M	2
+oregon			2
+organon			2
+orion			2
+orlon			2
+osion	72		2
+oslon	20		2
+otklon	761		2
+oton			2
+ozon	467		2
+pansion	782		2
+pantalon			2
+pantelejmon			2
+panteon	188		2
+pardon	1834		2
+partenon			2
+patron	148		2
+paviljon	988		2
+pejton			2
+pentagon			2
+perlon			2
+peron	217		2
+pilon	160		2
+pion	172		2
+piton	176		2
+pižon			2
+plafon		M	2
+plankton	47		2
+platon			2
+pogon	9917		2
+pokemon	20		2
+poklon	16478		2
+polifon			3
+poligon	1680		2
+poltron	160		2
+poludemon			2
+poluton			2
+ponton	75		2
+posejdon			2
+prednizon			2
+preston			2
+pretklon	10		2
+princeton			2
+prinston			2
+prion			2
+progesteron	306		2
+progon	1975		2
+proton	232		2
+protođakon	229		2
+prvođakon			2
+radon		M	2
+ralston			2
+ramon			2
+raspon	2898		2
+rašomon			2
+region	16670		2
+rejon	351		2
+remington			2
+remon			2
+rezon	507		2
+robinzon			2
+ron			1
+rubikon			2
+sajgon			2
+sajmon			2
+saksofon	370		3
+salomon			2
+salon	5478		2
+sifon	107		2
+silikon	391		2
+simeon			2
+simposion			2
+sinhron		M	2
+sintelon			2
+sion			2
+sklon	3067		1
+skorpion	21		2
+slon	731		1
+smartfon	700		2
+smeon		M	2
+smion	20		2
+smisaon			2
+solon			2
+spiridon			2
+stadion	6976		3
+ston			1
+suton	432		2
+talon	65		2
+tampon	564		2
+teatron			2
+teflon	92		2
+telefon	30178		2
+teleton			2
+testosteron	503		2
+tifon			2
+ton	5316		1
+triatlon	681		2
+trigon	67		2
+trijatlon			2
+trilion	154		2
+triptihon			2
+triton		M	2
+tromblon			2
+trombon	102		2
+tron	2101		1
+udon			2
+union	159		2
+uspon	4102		2
+uzgon	42		2
+vagon	800		2
+velington			2
+vernon			2
+veron			2
+vibrafon	22		3
+vijon			2
+vimbldon			2
+vinston			2
+vodafon			3
+zaklon	655		2
+zakon	117220		2
+zaron	340		2
+zaslon	146		2
+zaton	68		2
+zvon	76		1
+đakon	1368		2
+đon		M	1
+šablon	972		2
+šampinjon	17		2
+šampion	8825		2
+šampon	1130		2
+šeraton			2
+šezlon			2
+šifon	12		2
+šimon			2
+škorpion	401		2
+šon		M	1
+žargon	333		2
+žeton	110		2
+žigon			2

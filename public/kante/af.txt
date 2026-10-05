@@ -1,65 +1,65 @@
 64
-autograf		M
-barograf		
-batiskaf		M
-bibliograf	43	
-biograf	384	
-cinkograf		
-daktilograf	65	
-demograf	76	
-diktograf		
-diskograf		
-elektroencefalograf		
-elektrokardiograf		
-epigraf	22	
-epitaf	130	
-esnaf		
-etnograf	56	
-fonograf	23	
-fotograf	2521	
-gaf	357	
-geograf	298	
-graf	453	
-hagiograf		
-hidrograf		
-higrograf		
-ikonograf		
-joasaf		
-kaligraf	44	
-kartograf	50	
-kenotaf		
-kinematograf	55	
-komediograf	132	
-koreograf	665	
-kostimograf	306	
-kriptograf		
-laf		
-leksikograf	52	
-litograf	16	
-monograf		
-okeanograf		M
-olaf		
-paf		
-paleograf		
-paraf	288	
-paragraf	390	
-petrograf		
-pilaf		
-poligraf	192	
-pornograf		
-raf		
-scenograf	469	
-seizmograf	22	
-seraf		
-spektrograf	25	
-stenodaktilograf		
-stenograf	24	
-tahograf	105	
-telegraf	971	
-termograf		
-tipograf	15	
-topograf		
-zograf	86	
-čaršaf		
-šaraf		
-šraf		M
+autograf		M	2
+barograf			2
+batiskaf		M	2
+bibliograf	43		2
+biograf	384		2
+cinkograf			2
+daktilograf	65		2
+demograf	76		2
+diktograf			2
+diskograf			2
+elektroencefalograf			2
+elektrokardiograf			2
+epigraf	22		2
+epitaf	130		2
+esnaf			2
+etnograf	56		2
+fonograf	23		2
+fotograf	2521		2
+gaf	357		1
+geograf	298		2
+graf	453		1
+hagiograf			2
+hidrograf			2
+higrograf			2
+ikonograf			2
+joasaf			2
+kaligraf	44		2
+kartograf	50		2
+kenotaf			2
+kinematograf	55		2
+komediograf	132		2
+koreograf	665		2
+kostimograf	306		2
+kriptograf			2
+laf			1
+leksikograf	52		2
+litograf	16		2
+monograf			2
+okeanograf		M	2
+olaf			2
+paf			1
+paleograf			2
+paraf	288		2
+paragraf	390		2
+petrograf			2
+pilaf			2
+poligraf	192		2
+pornograf			2
+raf			1
+scenograf	469		2
+seizmograf	22		2
+seraf			2
+spektrograf	25		2
+stenodaktilograf			2
+stenograf	24		2
+tahograf	105		2
+telegraf	971		2
+termograf			2
+tipograf	15		2
+topograf			2
+zograf	86		2
+čaršaf			2
+šaraf			2
+šraf		M	1

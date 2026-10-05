@@ -1,31 +1,31 @@
 30
-beonjačo		
-bokačo		
-davičo		
-fočo		
-gaučo	16	
-glupačo	44	
-kornjačo		
-kočo		
-krastačo		
-krmačo	13	
-kutlačo		
-ljupčo		
-ludačo		
-lučo		
-mazačo		
-mačo	378	
-milčo		
-pončo		
-pretečo		
-pričo		
-slavčo		
-sočo		
-tečo	18	
-uspinjačo		
-učo		M
-varjačo		
-vetrenjačo		
-vjetrenjačo		
-vučo	13	
-čičo		
+beonjačo			2
+bokačo			2
+davičo			2
+fočo			2
+gaučo	16		2
+glupačo	44		2
+kornjačo			2
+kočo			2
+krastačo			2
+krmačo	13		2
+kutlačo			2
+ljupčo			2
+ludačo			2
+lučo			2
+mazačo			2
+mačo	378		2
+milčo			2
+pončo			2
+pretečo			3
+pričo			2
+slavčo			2
+sočo			2
+tečo	18		2
+uspinjačo			2
+učo		M	2
+varjačo			2
+vetrenjačo			2
+vjetrenjačo			2
+vučo	13		2
+čičo			2

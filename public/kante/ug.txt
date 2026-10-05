@@ -1,29 +1,29 @@
 27
-beočug	112	
-bug	626	
-cug		M
-delokrug	889	
-drug	8261	
-dug	32298	
-jug	5324	
-krug	21405	
-lug	357	
-nedug		M
-okrug	3405	
-plačidrug		
-plug	484	
-podug		
-polukrug	111	
-predug	146	
-ranilug		
-rug	31	
-sadrug		M
-strug	89	
-sudrug		
-suprug	5689	
-tanjug		
-ukrug	384	
-uokrug		
-vidokrug	157	
-zastrug		M
-djelokrug		
+beočug	112		2
+bug	626		1
+cug		M	1
+delokrug	889		3
+drug	8261		1
+dug	32298		1
+jug	5324		1
+krug	21405		1
+lug	357		1
+nedug		M	2
+okrug	3405		2
+plačidrug			3
+plug	484		1
+podug			2
+polukrug	111		3
+predug	146		2
+ranilug			2
+rug	31		1
+sadrug		M	2
+strug	89		1
+sudrug			2
+suprug	5689		2
+tanjug			2
+ukrug	384		2
+uokrug			3
+vidokrug	157		3
+zastrug		M	2
+djelokrug			3

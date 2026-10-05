@@ -172,7 +172,7 @@ const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
    upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
    `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
 const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,gn,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jc,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
-const KANTE_V = '334ed79d';
+const KANTE_V = 'f502c73a';
 function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
 const kanteKes = new Map();
 let kantaUToku = 0;
@@ -195,26 +195,42 @@ async function rimeIzKante(q){
   if(q2 !== q) return;
   const granicaLinija = parseInt(redovi[0], 10) || 0;   // prvi red kante: koliko je ekavskih redova (pre ijekavskih)
   let jekStartK = 0;
-  const reci = [], male = [], kljucevi = [], rang = new Map(), skup = new Set();
+  const reci = [], male = [], kljucevi = [], rang = new Map(), skup = new Set(), akc = [], akcmap = new Map(), akcn = new Map();
   const PRAG = 10, POMAK = redovi.length;
   for(let i = 1; i < redovi.length; i++){
     const red = redovi[i]; if(!red) continue;
-    const [w, f, m] = red.split('\t');
+    const [w, f, m, a] = red.split('\t');
     if(!includeJek && m && m.includes('J')) continue;   // jekavski oblik zaostao u ekavskom rečniku – isti filter kao JEKAVSKI
     const j = reci.length; const malo = w.toLowerCase();
     reci.push(w); male.push(malo); kljucevi.push(rhymeKey(malo)); skup.add(malo);
+    const an = parseInt(a, 10) || 2, ak = akcKey(malo, an); akc.push(ak); akcmap.set(malo, ak); akcn.set(malo, an);   // 4. kolona kante = akcenat (build/kante.py)
     if(i - 1 < granicaLinija) jekStartK = reci.length;   // granica se broji po UPISANIM rečima (preskočene ne pomeraju indeks)
     const freq = f ? parseInt(f, 10) : 0;
     rang.set(w, freq >= PRAG ? -freq : ((m && m.includes('M')) ? j : j + POMAK));
   }
-  const stari = [WORDS, MALE, KEYS, RANK, SET, jekStart];
-  WORDS = reci; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup; jekStart = jekStartK;
+  const stari = [WORDS, MALE, KEYS, RANK, SET, jekStart, AKC, AKCMAP, AKCN];
+  WORDS = reci; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup; jekStart = jekStartK; AKC = akc; AKCMAP = akcmap; AKCN = akcn;
   try{ doRhymes(); }
-  finally{ [WORDS, MALE, KEYS, RANK, SET, jekStart] = stari; }
+  finally{ [WORDS, MALE, KEYS, RANK, SET, jekStart, AKC, AKCMAP, AKCN] = stari; }
   cekaRec = q;   // ceo rečnik će ponoviti pretragu (potpun redosled, jekavski filter)
   el('rimeBtn').classList.add('ucitava'); el('rimeBtn').disabled = true;
 }
 let KEYS = [];           // jak ključ rime za svaku reč
+/* AKCENAT (05.10.2026, odluka vlasnice „da, ugradi akcente"): za svaku reč `AKC[i]` je ključ PRAVE rime – deo reči od
+   sloga od kog počinje akcenatska jedinica (podatak iz `akcenat.txt`, red po red uz `reci.txt`; pravi ga
+   `build/akcenat.py` iz Wiktionary-ja + srLex-a + pravila). Broj u fajlu = koji slog OD KRAJA (1 = poslednji, 2 =
+   pretposlednji…). `KEYS` i dalje bira KANDIDATE (isti završetak od poslednjeg samoglasnika), a `AKC` deli kandidate na
+   „Najbolje rime" (ista akcenatska jedinica: telèvīzor → -izor: revizor, retrovizor) i „Dobre rime" (poklapa se samo kraj:
+   ambasador, ventilator). Objašnjenje pravila: GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7a; AUDIT/akcenti/. */
+let AKC = [];
+let AKCMAP = new Map();  // mala slova → ključ prave rime (za tražene reči i brzo poređenje)
+let AKCN = new Map();    // mala slova → od kog sloga OD KRAJA počinje rima (mesto akcenta); za rezervu kad strogih rima nema
+function akcKey(malo, n){
+  const vp = vowelPositions(malo);
+  if(vp.length === 0) return malo;
+  const k = Math.max(0, vp.length - (n > 0 ? n : 2));
+  return malo.slice(vp[k]);
+}
 let MALE = [];           // ista reč malim slovima – za poređenja (v. `Beograd`)
 let RANK = new Map();    // reč -> indeks (manji = češća)
 let SET = new Set();     // za brzu proveru postojanja
@@ -464,9 +480,11 @@ async function uzmiTekst(url, obavezno){
 
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
-  const [ek, jek] = await Promise.all([
+  const [ek, jek, ak, akj] = await Promise.all([
     uzmiTekst('/reci.txt?v=0ad4ddb2', true),
-    uzmiTekst('/reci_jekavica.txt?v=1b2b14e1', false)
+    uzmiTekst('/reci_jekavica.txt?v=1b2b14e1', false),
+    uzmiTekst('/akcenat.txt?v=08b04d86', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
+    uzmiTekst('/akcenat_jekavica.txt?v=e20a683f', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -480,6 +498,11 @@ async function loadDict(){
   const uOsnovnom = new Set(ekWords);
   const jekWords = jek.split('\n').filter(w => w && !uOsnovnom.has(w));
   const svi = ekWords.concat(jekWords);   // ijekavske reči su na kraju (najniži rang)
+  /* Akcenat, poravnat sa `svi`: ekavski redovi 1:1 sa reci.txt; ijekavski se preskaču istim sitom kao `jekWords`. */
+  const akcenatSvi = new Array(svi.length);
+  { const akEk = ak.split('\n'), akJ = akj.split('\n'), jekAll = jek.split('\n'); let k = ekWords.length;
+    for(let j = 0; j < ekWords.length; j++) akcenatSvi[j] = parseInt(akEk[j], 10) || 2;
+    for(let i = 0; i < jekAll.length; i++){ const w = jekAll[i]; if(w && !uOsnovnom.has(w)) akcenatSvi[k++] = parseInt(akJ[i], 10) || 2; } }
 
   /* OBRADA U KOMADIMA, NE U JEDNOM DAHU.
      Računanje ključa rime za 278.000 reči je ranije zamrzavalo glavnu nit
@@ -491,6 +514,8 @@ async function loadDict(){
      `doRhymes` prepoznaje spremnost po `WORDS.length`, pa ne sme da vidi
      poluprazan `KEYS`. */
   const kljucevi = new Array(svi.length);
+  const akc = new Array(svi.length);      // ključ prave rime (akcenatska jedinica)
+  const akcmap = new Map(); const akcn = new Map();
   const male = new Array(svi.length);     // isti niz, sve malim slovima – v. niže
   const rang = new Map();
   const skup = new Set();
@@ -509,13 +534,14 @@ async function loadDict(){
       const malo = w.toLowerCase();
       male[j] = malo;
       kljucevi[j] = rhymeKey(malo);
+      akc[j] = akcKey(malo, akcenatSvi[j]); akcmap.set(malo, akc[j]); akcn.set(malo, akcenatSvi[j]);
       rang.set(w, j);
       skup.add(malo);
     }
     if(kraj < svi.length) await new Promise(r => setTimeout(r, 0));
   }
   jekStart = ekWords.length;
-  WORDS = svi; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup;
+  WORDS = svi; MALE = male; KEYS = kljucevi; RANK = rang; SET = skup; AKC = akc; AKCMAP = akcmap; AKCN = akcn;
   /* Keš broja rima (igra) se gradi tek nad punim rečnikom – ako ga je neko dodirnuo pre ovoga,
      ovde se poništava (G-1: prazan keš je trajno lomio igru i Reč dana). Pa se obaveštavaju svi
      koji čekaju rečnik. */
@@ -1486,8 +1512,26 @@ function doRhymes(silent){
      Podatke o akcentu nemamo. Isti broj slogova je najbolja zamena koju imamo,
      jer reči sličnog obima obično imaju i sličan raspored akcenta. */
   const strongFiltered = filterSyl(strong);
-  const best = strongFiltered.filter(w=>syllables(w) === qSyl).slice(0,90);
-  const good = strongFiltered.filter(w=>syllables(w) !== qSyl).slice(0,90);
+  /* PODELA PO AKCENTU (05.10.2026, odluka vlasnice). Prava rima počinje od naglašenog sloga (kod uzlaznog akcenta od
+     sloga iza njega) – `AKC`/`akcKey`. „Najbolje rime" = ista akcenatska jedinica kao tražena reč; „Dobre rime" = isti
+     završetak, akcenat drugde. Primer vlasnice 03.10.2026: za „televizor" je „revizor" (3 sloga) bio u „Dobrim", a
+     „ambasador" u „Najboljim" – jer je podela išla po broju slogova. Sada: revizor, retrovizor u „Najbolje", ambasador,
+     ventilator u „Dobre". Redosled UNUTAR grupe ostaje: bliži broj slogova → duži zajednički završetak → učestalost.
+     Tražena reč koje nema u rečniku dobija pretpostavku „pretposlednji slog" (najčešći obrazac). */
+  const akcQ = AKCMAP.get(q) || akcKey(q, 2);
+  const istaJedinica = w => { const m = w.toLowerCase(); return (AKCMAP.get(m) || akcKey(m, 2)) === akcQ; };
+  let best = strongFiltered.filter(istaJedinica);
+  /* REZERVA (05.10.2026): kad strogih rima gotovo nema (slȍbodan → „-obodan": nijedna), uzimaju se reči sa akcentom na
+     ISTOM slogu od kraja (pȍgodan, prìrodan…) – u stihu zvuče kao rima jer su naglašene na istom mestu. Strogo pravilo
+     ostaje prvo: za „televizor" rezerva ne radi (ima 3 stroge), pa „ambasador" (isto mesto akcenta) ostaje u „Dobrim". */
+  if(best.length < 3){
+    const nQ = AKCN.get(q) || 2, uBest = new Set(best);
+    for(const w of strongFiltered){ if(!uBest.has(w) && (AKCN.get(w.toLowerCase()) || 2) === nQ && countSyl(w) === countSyl(q)) best.push(w); }
+  }
+  const uBest2 = new Set(best);
+  best = best.slice(0,90);
+  /* Ukupno do 180 reci kao i pre podele po akcentu: kad je grupa Najbolje mala (ljubav: 3), grupa Dobre dobija ostatak. */
+  const good = strongFiltered.filter(w=>!uBest2.has(w)).slice(0, Math.max(90, 180 - best.length));
 
   // Fallback za reči sa malo savršenih rima (npr. srce, srp): isti završni slog
   let finalExtra = [];

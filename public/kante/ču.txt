@@ -1,342 +1,342 @@
 340
-Beču		
-arlauču		
-bacaču	21	
-bakraču		
-bašču	50	
-beonjaču	15	
-biču	52	
-borču		
-boršču		
-bošču		
-braču	36	
-brezovaču		
-brijaču		
-brojaču	46	
-buču		
-cijuču	14	
-cmaču	14	
-crtaču	23	
-daču		
-dobavljaču	277	
-domanoviču		
-doskaču		
-dostavljaču	21	
-dotiču	783	
-doču		
-draču	73	
-drljaču	31	
-drugaču		
-drvoseču	17	
-držaču	57	
-dvomeču	363	
-fijuču	21	
-foču		
-glamoču		
-gledališču		
-glupaču	18	
-gombroviču		
-goču		
-grbaču	248	
-grebenjaču		
-grmeču		
-grubaču		
-grču	509	
-guču	95	
-gušteraču	22	
-hladnjaču	309	
-hrču	75	
-huču	11	
-hvataču	15	
-igraču	1791	
-ilovaču	32	
-inču	261	
-iskaču	467	
-ispitivaču	21	
-ističu	13940	
-istraživaču	237	
-izazivaču	36	
-izbacivaču		
-izbiraču		
-izdavaču	469	
-izmiču	363	
-izniču	14	
-iznuđivaču		
-izriču	657	
-izveštaču	86	
-izviču	21	
-izviđaču		
-izvođaču	600	
-jabukovaču	24	
-jahaču	36	
-jauču	53	
-jaču	1787	
-kapuljaču	144	
-kauču	525	
-kazivaču		
-kaču		
-kijaču		
-klekovaču	15	
-klinču	105	
-kliču	177	
-ključu	1398	
-kokodaču	18	
-kolaču	150	
-koljaču	13	
-kopaču		
-kopču	175	
-kornjaču	207	
-kosaču		
-kovaču	88	
-koviljaču		
-kovrču		
-koču	47	
-krastaču	18	
-kreču	41	
-krkaču		
-krmaču	70	
-krnjaču		
-krojaču	36	
-krpenjaču		
-krstaču	38	
-kukuriču	33	
-kutlaču	71	
-kušaču		
-ledenjaču		
-leleču	22	
-letaču	11	
-levču		
-linču	140	
-ljupču		
-lomaču	212	
-lozovaču	42	
-ludaču		
-luču		
-makovnjaču		
-manjaču		
-mauču		
-maču	182	
-menjaču	318	
-meraču	55	
-meču	18423	
-mijauču		
-milču		
-miroču		
-miču	98	
-mladiču		
-moraču		
-moču		
-mrežnjaču	76	
-muču		
-najgorču		
-najjaču	490	
-namiču	34	
-napadaču	589	
-naprtnjaču		
-nariču	89	
-naskaču		
-naslonjaču	40	
-nasuču	11	
-navijaču	154	
-naču		
-niču	1373	
-njaču	15	
-nosaču	330	
-obaraču		
-obriču		
-obruču	150	
-odašiljaču		
-odgajivaču	24	
-odmiču	198	
-odriču	1355	
-odskaču	215	
-oglašivaču	50	
-ogrtaču	100	
-okidaču	63	
-omotaču	252	
-omču	453	
-opasaču	17	
-oplaču		
-oraču		
-osiguraču	23	
-osnivaču	890	
-osvajaču	233	
-otimaču		
-otiraču	18	
-otiču	200	
-otvaraču		
-palaču	25	
-pametnjakoviču		
-papuču	57	
-pekaču		
-peraču		
-petrovaču		
-pevaču	405	
-peču		
-pijuču		
-pirinču		
-piču		
-plaču	1856	
-plesaču	11	
-plivaču	53	
-pljuvaču		
-ploču	5407	
-plutaču		
-podmetaču	17	
-podstiču	4650	
-pogaču	494	
-pojaču		
-pokretaču	79	
-pokrivaču	88	
-pomiču	67	
-ponuđaču	309	
-poreču		
-poriču	402	
-porobljivaču		
-poskaču	20	
-posmatraču	549	
-potiču	6091	
-potrošaču	850	
-poviču	52	
-poču		
-požegaču		
-prakljaču		
-predavaču	171	
-predlagaču	373	
-pregaču	28	
-pregledaču	135	
-prekidaču	94	
-prekrivaču	28	
-preskaču	527	
-pretaču	109	
-preteču	236	
-pretiču		
-pretraživaču	976	
-primiču	113	
-pripovedaču	134	
-priskaču	94	
-pritiču		
-priču	37667	
-prodavaču	11	
-proističu		M
-proizvođaču	1354	
-promiču	365	
-pronalazaču		
-proniču	11	
-proplaču		
-proriču	93	
-protiču	345	
-proču	19	
-punču		
-puču	149	
-pušaču	47	
-radiču		
-ranču	158	
-rasplaču	77	
-rasturaču		
-razaraču	18	
-razbijaču		
-razmiču	31	
-raznosaču		
-razviču		
-raču		M
-rogaču		
-rožnjaču	100	
-saigraču	167	
-sakupljaču	19	
-sastavljaču	19	
-savijaču	15	
-sekaču		
-sendviču	132	
-severnjaču	29	
-seču	569	
-sijaču		
-skakaču	16	
-skaču	1222	
-skeču	49	
-slonovaču	15	
-smaraču		
-smrču		
-snabdevaču	28	
-spavaču	11	
-spotiču	40	
-sriču	44	
-srču	67	
-stiču	5056	
-stječu	34	
-strunjaču	74	
-sustiču		
-suču		
-sviraču	27	
-teferiču		
-tegljaču		
-temenjaču	24	
-teču	37	
-tiču	10234	
-tragaču	10	
-trepču		
-trkaču	106	
-trovaču		
-trubaču	53	
-tumaču	48	
-tuču	736	
-ubradaču		
-ucenjivaču		
-udaraču		
-udavaču	29	
-udvaraču	13	
-ugnjetaču		
-umaču	42	
-upaljaču	18	
-upravljaču	509	
-uređivaču	20	
-urliču	60	
-usisivaču	28	
-uskaču	162	
-uspinjaču		
-utiču	17371	
-uzmiču	68	
-varjaču		
-vaspitaču	79	
-veslaču		
-vetrenjaču	105	
-vijaču	54	
-vinču		
-viču	1378	
-višnjevaču	12	
-vodiču	576	
-vozaču	1899	
-vraču	42	
-vruču		
-vuču	551	
-zabavljaču	10	
-zamaču		
-zamiču	14	
-zamrzivaču	349	
-zapinjaču		
-zapisivaču		
-zaplaču	81	
-zaptivaču		
-zaskaču		
-zasuču	90	
-zatiču	152	
-zaviču		
-zavojevaču		
-začu	283	
-zlostavljaču	28	
-čajniču		
-čekaču		
-česmovaču		
-čistaču	20	
-čitaču	231	
-čiču		
-đuveču		
-šajkaču	170	
-šetaču		
-šmrču	26	
-štampaču	449	
-žderaču		
-ženturaču		
-žvakaču		
-žvaču	17	
-vjetrenjaču		
+Beču			2
+arlauču			2
+bacaču	21		2
+bakraču			2
+bašču	50		2
+beonjaču	15		2
+biču	52		2
+borču			2
+boršču			2
+bošču			2
+braču	36		2
+brezovaču			2
+brijaču			2
+brojaču	46		2
+buču			2
+cijuču	14		2
+cmaču	14		2
+crtaču	23		2
+daču			2
+dobavljaču	277		2
+domanoviču			2
+doskaču			2
+dostavljaču	21		2
+dotiču	783		2
+doču			2
+draču	73		2
+drljaču	31		2
+drugaču			2
+drvoseču	17		3
+držaču	57		2
+dvomeču	363		2
+fijuču	21		2
+foču			2
+glamoču			2
+gledališču			2
+glupaču	18		2
+gombroviču			2
+goču			2
+grbaču	248		2
+grebenjaču			2
+grmeču			2
+grubaču			2
+grču	509		2
+guču	95		2
+gušteraču	22		2
+hladnjaču	309		2
+hrču	75		2
+huču	11		2
+hvataču	15		2
+igraču	1791		2
+ilovaču	32		3
+inču	261		2
+iskaču	467		2
+ispitivaču	21		2
+ističu	13940		2
+istraživaču	237		2
+izazivaču	36		2
+izbacivaču			2
+izbiraču			2
+izdavaču	469		2
+izmiču	363		2
+izniču	14		2
+iznuđivaču			2
+izriču	657		2
+izveštaču	86		2
+izviču	21		2
+izviđaču			2
+izvođaču	600		2
+jabukovaču	24		5
+jahaču	36		2
+jauču	53		2
+jaču	1787		2
+kapuljaču	144		2
+kauču	525		3
+kazivaču			2
+kaču			2
+kijaču			2
+klekovaču	15		2
+klinču	105		2
+kliču	177		2
+ključu	1398		2
+kokodaču	18		2
+kolaču	150		2
+koljaču	13		2
+kopaču			2
+kopču	175		2
+kornjaču	207		2
+kosaču			2
+kovaču	88		2
+koviljaču			2
+kovrču			2
+koču	47		2
+krastaču	18		2
+kreču	41		2
+krkaču			2
+krmaču	70		2
+krnjaču			2
+krojaču	36		2
+krpenjaču			3
+krstaču	38		2
+kukuriču	33		2
+kutlaču	71		2
+kušaču			2
+ledenjaču			2
+leleču	22		2
+letaču	11		2
+levču			2
+linču	140		2
+ljupču			2
+lomaču	212		2
+lozovaču	42		2
+ludaču			2
+luču			2
+makovnjaču			2
+manjaču			2
+mauču			2
+maču	182		2
+menjaču	318		2
+meraču	55		2
+meču	18423		2
+mijauču			2
+milču			2
+miroču			2
+miču	98		2
+mladiču			2
+moraču			2
+moču			2
+mrežnjaču	76		2
+muču			2
+najgorču			2
+najjaču	490		3
+namiču	34		2
+napadaču	589		2
+naprtnjaču			3
+nariču	89		2
+naskaču			2
+naslonjaču	40		2
+nasuču	11		2
+navijaču	154		2
+naču			2
+niču	1373		2
+njaču	15		2
+nosaču	330		2
+obaraču			2
+obriču			2
+obruču	150		3
+odašiljaču			2
+odgajivaču	24		2
+odmiču	198		2
+odriču	1355		2
+odskaču	215		2
+oglašivaču	50		2
+ogrtaču	100		2
+okidaču	63		2
+omotaču	252		2
+omču	453		2
+opasaču	17		2
+oplaču			2
+oraču			2
+osiguraču	23		2
+osnivaču	890		2
+osvajaču	233		2
+otimaču			2
+otiraču	18		2
+otiču	200		2
+otvaraču			2
+palaču	25		2
+pametnjakoviču			2
+papuču	57		2
+pekaču			2
+peraču			2
+petrovaču			2
+pevaču	405		2
+peču			2
+pijuču			2
+pirinču			2
+piču			2
+plaču	1856		2
+plesaču	11		2
+plivaču	53		2
+pljuvaču			2
+ploču	5407		2
+plutaču			2
+podmetaču	17		2
+podstiču	4650		2
+pogaču	494		2
+pojaču			2
+pokretaču	79		2
+pokrivaču	88		2
+pomiču	67		2
+ponuđaču	309		2
+poreču			2
+poriču	402		2
+porobljivaču			2
+poskaču	20		2
+posmatraču	549		2
+potiču	6091		2
+potrošaču	850		2
+poviču	52		2
+poču			2
+požegaču			2
+prakljaču			2
+predavaču	171		2
+predlagaču	373		2
+pregaču	28		2
+pregledaču	135		2
+prekidaču	94		2
+prekrivaču	28		2
+preskaču	527		2
+pretaču	109		2
+preteču	236		3
+pretiču			2
+pretraživaču	976		2
+primiču	113		2
+pripovedaču	134		2
+priskaču	94		2
+pritiču			2
+priču	37667		2
+prodavaču	11		2
+proističu		M	2
+proizvođaču	1354		2
+promiču	365		2
+pronalazaču			2
+proniču	11		2
+proplaču			2
+proriču	93		2
+protiču	345		2
+proču	19		2
+punču			2
+puču	149		2
+pušaču	47		2
+radiču			2
+ranču	158		2
+rasplaču	77		2
+rasturaču			2
+razaraču	18		2
+razbijaču			2
+razmiču	31		2
+raznosaču			2
+razviču			2
+raču		M	2
+rogaču			2
+rožnjaču	100		2
+saigraču	167		2
+sakupljaču	19		2
+sastavljaču	19		2
+savijaču	15		2
+sekaču			2
+sendviču	132		3
+severnjaču	29		2
+seču	569		2
+sijaču			2
+skakaču	16		2
+skaču	1222		2
+skeču	49		2
+slonovaču	15		3
+smaraču			2
+smrču			2
+snabdevaču	28		2
+spavaču	11		2
+spotiču	40		2
+sriču	44		2
+srču	67		2
+stiču	5056		2
+stječu	34		2
+strunjaču	74		2
+sustiču			2
+suču			2
+sviraču	27		2
+teferiču			2
+tegljaču			2
+temenjaču	24		2
+teču	37		2
+tiču	10234		2
+tragaču	10		2
+trepču			2
+trkaču	106		2
+trovaču			2
+trubaču	53		2
+tumaču	48		2
+tuču	736		2
+ubradaču			2
+ucenjivaču			2
+udaraču			2
+udavaču	29		2
+udvaraču	13		2
+ugnjetaču			2
+umaču	42		2
+upaljaču	18		2
+upravljaču	509		2
+uređivaču	20		2
+urliču	60		2
+usisivaču	28		2
+uskaču	162		2
+uspinjaču			2
+utiču	17371		2
+uzmiču	68		2
+varjaču			2
+vaspitaču	79		2
+veslaču			2
+vetrenjaču	105		2
+vijaču	54		2
+vinču			2
+viču	1378		2
+višnjevaču	12		2
+vodiču	576		2
+vozaču	1899		2
+vraču	42		2
+vruču			2
+vuču	551		2
+zabavljaču	10		2
+zamaču			2
+zamiču	14		2
+zamrzivaču	349		3
+zapinjaču			2
+zapisivaču			2
+zaplaču	81		2
+zaptivaču			2
+zaskaču			2
+zasuču	90		2
+zatiču	152		2
+zaviču			2
+zavojevaču			2
+začu	283		2
+zlostavljaču	28		2
+čajniču			2
+čekaču			2
+česmovaču			2
+čistaču	20		2
+čitaču	231		2
+čiču			2
+đuveču			2
+šajkaču	170		2
+šetaču			2
+šmrču	26		2
+štampaču	449		2
+žderaču			2
+ženturaču			2
+žvakaču			2
+žvaču	17		2
+vjetrenjaču			2

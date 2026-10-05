@@ -1,57 +1,57 @@
 55
-Firenco		
-Podgorico		
-Subotico		
-antikvarnico		
-beskućnico		
-bistrico		
-braco	368	
-buco		M
-bušilico		
-debeljuco		
-deco		
-doco		
-eco		
-faco		
-glupaco		
-intermeco	116	
-izdajico		
-jedinico		
-joco		
-kraljico		
-krtico		
-kukavico		
-lisico		
-lorenco		
-maco	91	
-meco	14	
-mico		
-muco		
-neznalico		
-ovco	11	
-paparaco	233	
-pijanico		
-poglavico		
-porodico		
-propalico		
-ptico	38	
-puco		
-renco		
-skerco		M
-skitnico		
-sreco		
-stanico		
-stolico		
-taco		
-trojico		
-ubico		
-ubojico		
-ulizico		
-unesco		
-varalico		
-vico		
-vreco		
-zadušnico		
-činijico		
-škrtico		
-djeco		
+Firenco			2
+Podgorico			3
+Subotico			3
+antikvarnico			2
+beskućnico			3
+bistrico			2
+braco	368		2
+buco		M	2
+bušilico			2
+debeljuco			2
+deco			2
+doco			2
+eco			2
+faco			2
+glupaco			2
+intermeco	116		2
+izdajico			3
+jedinico			2
+joco			2
+kraljico			2
+krtico			2
+kukavico			2
+lisico			2
+lorenco			2
+maco	91		2
+meco	14		2
+mico			2
+muco			2
+neznalico			3
+ovco	11		2
+paparaco	233		2
+pijanico			3
+poglavico			3
+porodico			2
+propalico			2
+ptico	38		2
+puco			2
+renco			2
+skerco		M	2
+skitnico			2
+sreco			2
+stanico			2
+stolico			2
+taco			2
+trojico			2
+ubico			2
+ubojico			3
+ulizico			2
+unesco			2
+varalico			2
+vico			2
+vreco			2
+zadušnico			2
+činijico			2
+škrtico			2
+djeco			2

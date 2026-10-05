@@ -1,118 +1,118 @@
 115
-adidas		
-alas	295	
-alias	385	
-ananas	567	
-anastas		
-arbanas		
-arkanzas		
-as	3261	
-atanas		
-atlas	1444	
-bajpas	150	
-bas	13497	
-burgas		
-daglas		
-dalas		
-dallas		
-danas	416704	
-das		
-domaločas		M
-džambas		M
-elijas		
-erbas		
-fiberglas	73	
-fileas		
-fras	160	
-fugas		
-gas	15004	
-glas	37176	
-gorostas	181	
-gracias		
-gras		
-habermas		
-halas		M
-hamas		
-hamvas		
-has		
-honduras		
-iglesijas		
-ikonostas	1490	
-irvas	47	
-išijas	136	
-jesenas	1614	
-kansas		
-kanzas		
-karas		
-karitas		
-kas	331	
-kaunas		
-klas	424	
-kompas	1362	
-kontrabas	304	
-kras		M
-kvantas		
-kvas		
-las		M
-levinas		
-lukas		
-maločas	1080	
-mas		
-matijas		
-međuglas		
-mikrotalas		M
-naftagas		
-naglas	1240	
-nas	388386	
-nastas		
-navlas		
-načas	151	
-nikolas		
-noćas	3975	
-odspavas		
-oglas	4889	
-ovas		M
-očas		M
-palas		
-pampas		
-pankreas	366	
-parnas		
-pas	12670	
-pleksiglas	135	
-pojas	4092	
-poluglas	13	
-pretpostavljas		
-primas		
-proglas	780	
-ras	783	
-razglas	210	
-rosopas	11	
-sampras		
-spas	6881	
-stas	365	
-talambas	15	
-talas	7427	
-tapas		
-tas		M
-tehnogas		
-teksas		
-tomas		
-trijas	59	
-tumbas		
-uglas	426	
-ukras	2140	
-učas	20	
-užas	4014	
-vargas		
-vas	245333	
-vegas		
-veritas		
-večeras	18007	
-vlas	561	
-vrbas		
-začas	676	
-čas	21044	
-čukvas		
-đilas		
-osjecas		
-sjecas		
+adidas			2
+alas	295		2
+alias	385		2
+ananas	567		3
+anastas			2
+arbanas			2
+arkanzas			2
+as	3261		1
+atanas			2
+atlas	1444		2
+bajpas	150		2
+bas	13497		1
+burgas			2
+daglas			2
+dalas			2
+dallas			2
+danas	416704		2
+das			1
+domaločas		M	2
+džambas		M	2
+elijas			2
+erbas			2
+fiberglas	73		2
+fileas			2
+fras	160		1
+fugas			2
+gas	15004		1
+glas	37176		1
+gorostas	181		3
+gracias			2
+gras			1
+habermas			2
+halas		M	2
+hamas			2
+hamvas			2
+has			1
+honduras			3
+iglesijas			2
+ikonostas	1490		2
+irvas	47		2
+išijas	136		2
+jesenas	1614		2
+kansas			2
+kanzas			2
+karas			2
+karitas			2
+kas	331		1
+kaunas			2
+klas	424		1
+kompas	1362		2
+kontrabas	304		2
+kras		M	1
+kvantas			2
+kvas			1
+las		M	1
+levinas			2
+lukas			2
+maločas	1080		3
+mas			1
+matijas			2
+međuglas			2
+mikrotalas		M	2
+naftagas			2
+naglas	1240		2
+nas	388386		1
+nastas			2
+navlas			2
+načas	151		2
+nikolas			2
+noćas	3975		2
+odspavas			2
+oglas	4889		2
+ovas		M	2
+očas		M	2
+palas			2
+pampas			2
+pankreas	366		2
+parnas			2
+pas	12670		1
+pleksiglas	135		2
+pojas	4092		2
+poluglas	13		2
+pretpostavljas			2
+primas			2
+proglas	780		2
+ras	783		1
+razglas	210		2
+rosopas	11		2
+sampras			2
+spas	6881		1
+stas	365		1
+talambas	15		2
+talas	7427		2
+tapas			2
+tas		M	1
+tehnogas			2
+teksas			2
+tomas			2
+trijas	59		2
+tumbas			2
+uglas	426		2
+ukras	2140		2
+učas	20		2
+užas	4014		2
+vargas			2
+vas	245333		1
+vegas			2
+veritas			2
+večeras	18007		2
+vlas	561		1
+vrbas			2
+začas	676		2
+čas	21044		1
+čukvas			2
+đilas			2
+osjecas			2
+sjecas			2

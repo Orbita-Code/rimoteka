@@ -1,29 +1,29 @@
 27
-ambroz		
-autoprevoz	136	
-beovoz		
-broz		
-dovoz	115	
-izvoz	17664	
-jugoprevoz		
-karađoz		
-kolhoz	25	
-kolovoz	1098	
-koz		
-kroz	268721	
-loz	83	
-martoloz		M
-matroz		
-naskroz		
-navoz	19	
-odvoz	291	
-oroz		M
-oz	294	
-podvoz	22	
-prevoz	16971	
-rogoz	33	
-skroz	9638	
-uvoz	11079	
-virtuoz	297	
-voz	6984	
-prijevoz	144	
+ambroz			2
+autoprevoz	136		2
+beovoz			2
+broz			1
+dovoz	115		2
+izvoz	17664		2
+jugoprevoz			2
+karađoz			2
+kolhoz	25		2
+kolovoz	1098		3
+koz			1
+kroz	268721		1
+loz	83		1
+martoloz		M	2
+matroz			2
+naskroz			2
+navoz	19		2
+odvoz	291		2
+oroz		M	2
+oz	294		1
+podvoz	22		2
+prevoz	16971		2
+rogoz	33		2
+skroz	9638		1
+uvoz	11079		2
+virtuoz	297		2
+voz	6984		1
+prijevoz	144		2

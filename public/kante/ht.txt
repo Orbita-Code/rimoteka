@@ -1,7 +1,7 @@
 6
-breht		
-giht	130	
-liht		
-mastriht		
-vermaht		
-šaht	321	
+breht			1
+giht	130		1
+liht			1
+mastriht			2
+vermaht			2
+šaht	321		1

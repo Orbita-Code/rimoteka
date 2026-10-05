@@ -206,9 +206,18 @@ mir sreća zdravlje
 TARGETS = ' '.join(r for r in TARGETS.split('\n') if not r.strip().startswith('#')).split()
 
 # ---------------- Učitavanje rečnika ----------------
+AKCK = {}   # reč → ključ prave rime (akcenatska jedinica), iz public/akcenat.txt (build/akcenat.py), 05.10.2026
+AKCN = {}   # reč → od kog sloga od kraja počinje rima (mesto akcenta)
+def akc_key(w, n):
+    m = w.lower(); vp = vowel_positions(m)
+    if not vp: return m
+    return m[vp[max(0, len(vp) - (n if n > 0 else 2))]:]
 def load():
     with open(os.path.join(PUB, 'reci.txt'), encoding='utf-8') as f:
         words = [w for w in f.read().split('\n') if w]
+    ak = open(os.path.join(PUB, 'akcenat.txt'), encoding='utf-8').read().split()
+    assert len(ak) == len(words), 'akcenat.txt nije poravnat sa reci.txt – pokreni python3 build/akcenat.py'
+    for w, n in zip(words, ak): AKCK[w] = akc_key(w, int(n)); AKCN[w] = int(n)
     try:
         with open(os.path.join(PUB, 'definicije.json'), encoding='utf-8') as f:
             defs = json.load(f)
@@ -485,7 +494,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=94304869"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=31a579db"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1067,8 +1076,15 @@ def main():
         tl = t.lower()
         cands = [w for w in keygroup[key] if w.lower() != tl and not is_blocked(w) and not is_excluded(t, w)]
         cands.sort(key=lambda w: (abs(syllables(w)-tsyl), -common_suffix(t, w), rank[w]))
-        best = [w for w in cands if syllables(w) == tsyl][:90]
-        good = [w for w in cands if syllables(w) != tsyl][:90]
+        # Podela PO AKCENTU (05.10.2026, 1:1 sa app.js `doRhymes`): najbolje = ista akcenatska jedinica, dobre = ostalo.
+        akc_t = AKCK.get(t) or akc_key(t, 2)
+        best = [w for w in cands if (AKCK.get(w) or akc_key(w, 2)) == akc_t]
+        if len(best) < 3:   # rezerva kao u app.js: akcenat na istom slogu od kraja + isti broj slogova
+            n_t = AKCN.get(t, 2); u = set(best)
+            best += [w for w in cands if w not in u and AKCN.get(w, 2) == n_t and syllables(w) == tsyl]
+        u_best = set(best)
+        best = best[:90]
+        good = [w for w in cands if w not in u_best][:max(90, 180 - len(best))]   # ukupno do 180, kao u app.js
 
         # Fallback (kao doRhymes): reči sa malo savršenih rima -> „isti završni slog“
         final_extra = []
@@ -1115,7 +1131,7 @@ def main():
         loose_html = group_html('Bliske rime (asonanca)', loose, False)
 
         # Grupe nose iste naslove i isti izbor kao alat (app.js `doRhymes`) –
-        # „Najbolje rime" = isti broj slogova kao tražena reč (CLAUDE.md 6.2a).
+        # „Najbolje rime" = ista akcenatska jedinica kao tražena reč (CLAUDE.md 6.2a, od 05.10.2026).
         # Do 20.08.2026. je strana birala po dužem završetku i prikazivala samo
         # prvih ~20 – posetilac nije video celu ponudu na samoj strani.
         groups = (group_html('Najbolje rime', best, True)
@@ -1247,7 +1263,7 @@ def main():
         body = f"""<main class="landing" id="glavno" tabindex="-1">
   <nav class="crumbs" aria-label="Putanja"><a href="/">Rimoteka</a> › <a href="/rime-za/">Rime za reč</a> › <span>„{esc(t)}“</span></nav>
   <h1 class="landing-h1">Rime za reč „{esc(t)}“</h1>
-  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))}{' · još ' + str(len(loose)) + ' bliskih' if loose else ''} · {tsyl} {syl_word(tsyl)} · prvo one sa istim brojem slogova</p>
+  <p class="landing-meta">{len(all_r)} {rima_word(len(all_r))}{' · još ' + str(len(loose)) + ' bliskih' if loose else ''} · {tsyl} {syl_word(tsyl)} · prvo prave rime, koje se poklapaju od naglašenog sloga</p>
   <p class="landing-lead">Sve što se rimuje sa <strong>„{esc(t)}“</strong> – {len(all_r)} {prava_rima(len(all_r))}{', a ispod njih i bliske' if loose else ''}. Uz svaku piše koliko ima slogova i šta znači, pa odmah vidiš koja ti staje u stih. Klikni na reč i dobiješ njene rime, a dugme ispod kopira ceo spisak.</p>
   {mean}
   <div class="copy-bar">
@@ -1618,7 +1634,7 @@ def main():
              cta_href='/', cta_text='✍️ Otvori Rimoteku i počni da pišeš →',
              sections=[
                  ('1. Izaberi temu i osećaj', 'Odluči o čemu pišeš i koje osećanje želiš da preneseš – ljubav, tuga, radost, sećanje. Jasna tema drži pesmu na okupu.'),
-                 ('2. Pronađi rime', 'Za ključne reči na kraju stihova potraži rime. U Rimoteci upišeš reč i prvo dobiješ rime sa istim brojem slogova – one najlakše legnu u stih.'),
+                 ('2. Pronađi rime', 'Za ključne reči na kraju stihova potraži rime. U Rimoteci upišeš reč i prvo dobiješ prave rime, one koje se poklapaju od naglašenog sloga, pa se u stihu čuju kao rima.'),
                  ('3. Uskladi ritam i slogove', 'Da se pesma lepo peva, stihovi treba da imaju sličan broj slogova. Brojač slogova ti pomaže da uskladiš ritam red po red.'),
                  ('4. Dodaj refren', 'Refren je deo koji se ponavlja i najlakše se pamti. Neka bude kratak, melodičan i emotivno jak.'),
              ],
@@ -1667,7 +1683,7 @@ def main():
              lead=('<strong>Rimovanje reči</strong> na srpskom, za sekundu: upišeš reč i Rimoteka '
                    'izlista sve rime – sa brojem slogova, značenjem i sinonimima, '
                    'besplatno i bez reklama. '
-                   'Rečnik pokriva ceo srpski jezik, a na vrhu su rime sa istim brojem slogova '
+                   'Rečnik pokriva ceo srpski jezik, a na vrhu su prave rime, one koje se poklapaju od naglašenog sloga '
                    'kao tvoja reč – one najlakše legnu u stih. '
                    'Probaj sa nekom od ovih reči: ' + rimovanje_chips),
              cta_href='/', cta_text='🔍 Rimuj svoju reč →',
@@ -1751,7 +1767,7 @@ def main():
              lead='<strong>Rime za pesmu</strong>: upiši reč sa kraja stiha i dobiješ sve što se sa njom rimuje. Uz svaku reč piše broj slogova i šta znači. Ne moraš da otvaraš rečnik u drugom prozoru.',
              cta_href='/rime-za/pesma/', cta_text='✍️ Nađi rime za „pesma“ →',
              sections=[
-                 ('Kako koristiti Rimoteku za pisanje pesme?', 'Napiši stih, pa upiši njegovu poslednju reč. Prvo dobiješ rime sa istim brojem slogova kao ta reč – one najlepše legnu na kraj stiha. Ispod njih su duže i kraće, za slučaj da ti fali slog.'),
+                 ('Kako koristiti Rimoteku za pisanje pesme?', 'Napiši stih, pa upiši njegovu poslednju reč. Prvo dobiješ prave rime, one koje se poklapaju od naglašenog sloga, pa zvuče kao rima i kad su kraće ili duže. Ispod njih su reči sa istim završetkom, a drugačijim akcentom.'),
                  ('Rime za ljubavne i emotivne pesme', 'Za ljubavnu pesmu najčešće se traže rime za reči ljubav, srce, duša, sreća, tuga i nada. Klikni bilo koju i dobiješ njene rime sa brojem slogova.'),
                  ('Kad ti zapne – promeni poslednju reč', 'Ako reč nema rimu koja ti odgovara, otvori sinonime i uzmi bližu reč. Sunce nema mnogo rima, dan ima. Pesma se ne kvari zbog jedne zamene.'),
              ],
@@ -1942,7 +1958,7 @@ def main():
              ],
              faqs=[
                  ('Da li moram da znam metriku da bih pisao pesme?', 'Ne moraš. Dovoljno je da stihovi imaju sličan broj slogova i da se rime poklapaju.'),
-                 ('Kako da znam koja rima je bolja?', 'Čista rima je jača od asonance. Rimoteka prvo prikazuje rime sa istim brojem slogova kao tvoja reč, a bliske rime dobiješ tek kad uključiš kvačicu „i šire (slabije) rime“.'),
+                 ('Kako da znam koja rima je bolja?', 'Čista rima je jača od asonance. Rimoteka prvo prikazuje prave rime, one koje se poklapaju od naglašenog sloga tvoje reči, zatim reči sa istim završetkom, a bliske rime dobiješ tek kad uključiš kvačicu „i šire (slabije) rime“.'),
                  ('Odakle da počnem da pišem?', 'Počni od jedne ideje ili osećanja. Napiši prvi stih, pa potraži rimu za poslednju reč i nastavi.'),
              ]),
     ]

@@ -1,218 +1,218 @@
 207
-alpi		
-antilopi		
-arapi	1145	
-bezrepi		
-bioskopi	552	
-biskupi	334	
-crpi	1120	
-crvenkapi		
-dolapi		
-drpi	51	
-dugorepi	11	
-ekipi	11419	
-episkopi	1359	
-etapi	1648	
-evropi		
-filantropi	50	
-filipi		
-glupi	3778	
-gospi	88	
-gripi	11	
-grupi		
-hepi		M
-hipi	262	
-horoskopi	84	
-hrpi	103	
-hrupi		
-iscrpi	281	
-iskapi	57	
-iskasapi	26	
-iskipi		
-iskopi	31	
-iskupi	342	
-istopi	556	
-istrpi	370	
-istupi	751	
-izotopi	82	
-jupi		
-kalupi	168	
-kanapi	38	
-kapi	5559	
-kasapi	81	
-kiklopi	16	
-kipi	167	
-klompi	42	
-klupi	5862	
-korpi	1107	
-krepi	184	
-krijepi	24	J
-krpi	407	
-krupi		
-kupi	18902	
-lampi		
-lepi	5174	
-lupi	625	
-mangupi	494	
-mapi	3337	
-mikroskopi	67	
-misisipi		
-mississippi		
-mizantropi		
-mutapi		
-nadbiskupi	25	
-nahrupi	26	
-naklopi		
-nakupi	482	
-nalepi	111	
-nasipi	257	
-naspi		
-nastupi	4493	
-natopi	122	
-nelepi		
-obaspi		
-odcepi		
-odlepi	351	
-odstupi	674	
-okapi		
-oklopi	106	
-okrepi	134	
-okrpi		
-okupi	2711	
-oslepi	137	
-osmorepi		
-otcepi	340	
-otkupi	1638	
-otopi	536	
-otrpi	102	
-otupi	105	
-otčepi		
-papi	840	
-pepi		
-pi	691	
-pipi	153	
-pohlepi	295	
-poklopi	531	
-pokupi	1753	
-polipi	159	
-popi	54	
-poskupi	1385	
-pospi		
-postupi	1627	
-potkrepi	258	
-potkupi	69	
-potopi	367	
-poškropi	20	
-preglupi		
-prekipi	101	
-preklopi	118	
-prekupi		
-prelepi	1237	
-preskupi	529	
-prespi		
-prestupi	139	
-pretopi	59	
-pretrpi	642	
-priglupi	95	
-priklopi		
-prikrpi		
-prikupi	1861	
-prilepi	186	
-principi	5466	
-pripi		
-pristupi	4763	
-pritrpi		
-procijepi		J
-propi		
-prospi		
-prototipi	61	
-prpi		M
-prstenorepi		
-pulpi	27	
-pumpi		
-pupi	51	
-rampi	986	
-rascepi	107	
-rasklopi	87	
-raspopi		
-rastopi	318	
-repi	148	
-rudokopi		
-rupi	1093	
-sakupi	1487	
-sapi	77	
-satrapi		
-sirupi	198	
-skampi		
-sklopi	1458	
-skupi	4944	
-slepi	2604	
-stepi	177	
-stereotipi	932	
-stopi	3384	
-strepi	562	
-strpi	209	
-stupi	2705	
-supi	195	
-svirepi	173	
-talpi		
-teleskopi	527	
-tipi		M
-topi	1720	
-tropi	25	
-trpi	6847	
-trupi	183	
-tupi	322	
-ugljenokopi	16	
-ukalupi	26	
-uklopi	1187	
-ukopi	23	
-ukrepi	206	
-uskipi		
-ustupi	1406	
-utopi	248	
-utrapi	31	
-uškopi		
-vadičepi		
-vapi	732	
-zacepi		
-zaklopi	50	
-zakrpi	264	
-zakupi	272	
-zalepi	594	
-zalupi	94	
-zaokupi	89	
-zaslepi	90	
-zaspi	1104	
-zastrepi		
-zastupi	19	
-zatupi	15	
-zavapi	239	
-začepi	186	
-zaškripi	127	
-zdipi	12	
-zjapi	212	
-ćevapi	283	
-čarapi	55	
-čepi		
-đipi		
-šapi	48	
-šargarepi	110	
-šerpi		
-škampi	78	
-škripi	668	
-škropi	11	
-štampi		
-šupi	203	
-žiroskopi	56	
-župi	727	
-lijepi	406	
-ljepi		
-okrijepi	12	
-oslijepi	12	
-potkrijepi	13	
-prelijepi	47	
-prilijepi	15	
-slijepi	208	
-zalijepi	27	
-zaslijepi	15	
+alpi			2
+antilopi			2
+arapi	1145		2
+bezrepi			2
+bioskopi	552		4
+biskupi	334		3
+crpi	1120		2
+crvenkapi			2
+dolapi			2
+drpi	51		2
+dugorepi	11		2
+ekipi	11419		2
+episkopi	1359		3
+etapi	1648		2
+evropi			2
+filantropi	50		2
+filipi			2
+glupi	3778		2
+gospi	88		2
+gripi	11		2
+grupi			2
+hepi		M	2
+hipi	262		2
+horoskopi	84		4
+hrpi	103		2
+hrupi			2
+iscrpi	281		2
+iskapi	57		2
+iskasapi	26		2
+iskipi			2
+iskopi	31		2
+iskupi	342		2
+istopi	556		2
+istrpi	370		2
+istupi	751		2
+izotopi	82		2
+jupi			2
+kalupi	168		2
+kanapi	38		2
+kapi	5559		2
+kasapi	81		2
+kiklopi	16		2
+kipi	167		2
+klompi	42		2
+klupi	5862		2
+korpi	1107		2
+krepi	184		2
+krijepi	24	J	2
+krpi	407		2
+krupi			2
+kupi	18902		2
+lampi			2
+lepi	5174		2
+lupi	625		2
+mangupi	494		2
+mapi	3337		2
+mikroskopi	67		4
+misisipi			2
+mississippi			2
+mizantropi			2
+mutapi			2
+nadbiskupi	25		3
+nahrupi	26		2
+naklopi			2
+nakupi	482		2
+nalepi	111		2
+nasipi	257		2
+naspi			2
+nastupi	4493		2
+natopi	122		2
+nelepi			2
+obaspi			2
+odcepi			2
+odlepi	351		2
+odstupi	674		2
+okapi			2
+oklopi	106		2
+okrepi	134		2
+okrpi			2
+okupi	2711		2
+oslepi	137		2
+osmorepi			2
+otcepi	340		2
+otkupi	1638		2
+otopi	536		2
+otrpi	102		2
+otupi	105		2
+otčepi			2
+papi	840		2
+pepi			2
+pi	691		1
+pipi	153		2
+pohlepi	295		3
+poklopi	531		2
+pokupi	1753		2
+polipi	159		2
+popi	54		2
+poskupi	1385		2
+pospi			2
+postupi	1627		2
+potkrepi	258		3
+potkupi	69		2
+potopi	367		2
+poškropi	20		2
+preglupi			2
+prekipi	101		2
+preklopi	118		2
+prekupi			2
+prelepi	1237		2
+preskupi	529		2
+prespi			2
+prestupi	139		2
+pretopi	59		2
+pretrpi	642		2
+priglupi	95		2
+priklopi			2
+prikrpi			2
+prikupi	1861		2
+prilepi	186		2
+principi	5466		2
+pripi			2
+pristupi	4763		2
+pritrpi			2
+procijepi		J	3
+propi			2
+prospi			2
+prototipi	61		2
+prpi		M	2
+prstenorepi			2
+pulpi	27		2
+pumpi			2
+pupi	51		2
+rampi	986		2
+rascepi	107		2
+rasklopi	87		2
+raspopi			2
+rastopi	318		2
+repi	148		2
+rudokopi			2
+rupi	1093		2
+sakupi	1487		2
+sapi	77		2
+satrapi			2
+sirupi	198		2
+skampi			2
+sklopi	1458		2
+skupi	4944		2
+slepi	2604		2
+stepi	177		2
+stereotipi	932		2
+stopi	3384		2
+strepi	562		2
+strpi	209		2
+stupi	2705		2
+supi	195		2
+svirepi	173		2
+talpi			2
+teleskopi	527		4
+tipi		M	2
+topi	1720		2
+tropi	25		2
+trpi	6847		2
+trupi	183		2
+tupi	322		2
+ugljenokopi	16		2
+ukalupi	26		2
+uklopi	1187		2
+ukopi	23		2
+ukrepi	206		2
+uskipi			2
+ustupi	1406		2
+utopi	248		2
+utrapi	31		2
+uškopi			2
+vadičepi			3
+vapi	732		2
+zacepi			2
+zaklopi	50		2
+zakrpi	264		2
+zakupi	272		2
+zalepi	594		2
+zalupi	94		2
+zaokupi	89		2
+zaslepi	90		2
+zaspi	1104		2
+zastrepi			2
+zastupi	19		2
+zatupi	15		2
+zavapi	239		2
+začepi	186		2
+zaškripi	127		2
+zdipi	12		2
+zjapi	212		2
+ćevapi	283		2
+čarapi	55		2
+čepi			2
+đipi			2
+šapi	48		2
+šargarepi	110		2
+šerpi			2
+škampi	78		2
+škripi	668		2
+škropi	11		2
+štampi			2
+šupi	203		2
+žiroskopi	56		2
+župi	727		2
+lijepi	406		3
+ljepi			2
+okrijepi	12		2
+oslijepi	12		2
+potkrijepi	13		2
+prelijepi	47		2
+prilijepi	15		2
+slijepi	208		3
+zalijepi	27		2
+zaslijepi	15		2

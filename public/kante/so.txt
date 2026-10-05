@@ -1,43 +1,43 @@
 42
-adreso		
-alekso		
-alfonso		
-baroneso		
-boso	70	
-eliso		
-eso		
-espreso	490	
-haso		
-huso		
-inkaso		
-ipso		
-iso		
-jeso		
-joso		
-konteso		
-korso		
-koso	27	
-kruso		
-kuso		
-laso	40	
-marso		
-meso	16761	
-pikaso		
-plavokoso		
-poraso		
-potreso		
-proso	280	
-raso		
-roso		
-ruso		
-so	8834	
-spaso		
-stjuardeso		
-taso		
-tiso		
-ukoso		M
-vaskrso		
-vaso		
-zaveso		
-zlatokoso		
-ćoso		
+adreso			2
+alekso			2
+alfonso			2
+baroneso			2
+boso	70		2
+eliso			2
+eso			2
+espreso	490		2
+haso			2
+huso			2
+inkaso			2
+ipso			2
+iso			2
+jeso			2
+joso			2
+konteso			2
+korso			2
+koso	27		2
+kruso			2
+kuso			2
+laso	40		2
+marso			2
+meso	16761		2
+pikaso			2
+plavokoso			2
+poraso			2
+potreso			2
+proso	280		2
+raso			2
+roso			2
+ruso			2
+so	8834		1
+spaso			2
+stjuardeso			2
+taso			2
+tiso			2
+ukoso		M	3
+vaskrso			2
+vaso			2
+zaveso			3
+zlatokoso			2
+ćoso			2

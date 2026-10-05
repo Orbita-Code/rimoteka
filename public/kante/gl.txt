@@ -1,8 +1,8 @@
 7
-bigl		
-džingl	89	
-gugl		
-singl	4017	
-triangl	29	
-vergl		
-špigl		
+bigl			1
+džingl	89		1
+gugl			1
+singl	4017		1
+triangl	29		1
+vergl			1
+špigl			1

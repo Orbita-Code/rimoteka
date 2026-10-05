@@ -1,59 +1,59 @@
 53
-almanahe	22	
-auspuhe	51	
-aždahe		
-brahe		
-buhe	81	
-diptihe	40	
-ehe		
-epohe	3226	
-evnuhe	14	
-gluhe	26	
-grehe	2092	
-he		M
-horhe		
-johe	22	
-juhe	25	
-kožuhe	13	
-mahe	25	
-maćehe	156	
-metohe	28	
-monahe	799	
-monarhe	17	
-muhe	254	
-natruhe	15	
-neuspehe	915	
-oligarhe	105	
-orahe	861	
-osmehe	845	
-ovrhe	99	
-patrijarhe	64	
-pazuhe	53	
-plahe	28	
-plohe	44	
-podsmehe	48	
-posluhe		
-predahe	18	
-psihe	779	
-siromahe	183	
-snahe	177	
-strehe	113	
-suhe	142	J
-svrhe	16531	
-tepihe	394	
-tihe	836	
-trbuhe	27	
-uspehe	5146	
-utehe	954	
-uzdahe	593	
-vlahe		
-zalihe	4709	
-zamahe	37	
-zapahe		
-čehe	123	
-čohe		M
-grijehe	389	
-neuspjehe		
-osmijehe	12	
-uspjehe		
-utjehe		
+almanahe	22		2
+auspuhe	51		3
+aždahe			2
+brahe			2
+buhe	81		2
+diptihe	40		2
+ehe			2
+epohe	3226		2
+evnuhe	14		2
+gluhe	26		2
+grehe	2092		2
+he		M	1
+horhe			2
+johe	22		2
+juhe	25		2
+kožuhe	13		2
+mahe	25		2
+maćehe	156		3
+metohe	28		2
+monahe	799		2
+monarhe	17		2
+muhe	254		2
+natruhe	15		3
+neuspehe	915		4
+oligarhe	105		2
+orahe	861		2
+osmehe	845		3
+ovrhe	99		3
+patrijarhe	64		2
+pazuhe	53		3
+plahe	28		2
+plohe	44		2
+podsmehe	48		3
+posluhe			2
+predahe	18		3
+psihe	779		2
+siromahe	183		2
+snahe	177		2
+strehe	113		2
+suhe	142	J	2
+svrhe	16531		2
+tepihe	394		2
+tihe	836		2
+trbuhe	27		2
+uspehe	5146		2
+utehe	954		2
+uzdahe	593		3
+vlahe			2
+zalihe	4709		3
+zamahe	37		2
+zapahe			2
+čehe	123		2
+čohe		M	2
+grijehe	389		3
+neuspjehe			4
+osmijehe	12		4
+uspjehe			2
+utjehe			2

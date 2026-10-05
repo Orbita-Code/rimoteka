@@ -1,56 +1,56 @@
 55
-biroš		
-botoš		
-boš		
-brioš		
-broš	304	
-brucoš	186	
-cinkaroš	47	
-divoš		
-doboš		M
-dođoš		
-dragoš		
-džabalebaroš		M
-džeparoš		M
-gajdoš		
-groš	213	
-horgoš		
-iđoš		
-jagoš		
-janoš		
-još	749533	
-kartaroš		
-kesaroš		M
-kicoš	95	
-kokoš	286	
-koš	4048	
-krmanoš	37	
-lajoš		
-lakoš		
-loš	17715	
-ludoš		
-martonoš		
-mesaroš		M
-miloš		
-mućkaroš		M
-njegoš		
-ološ	939	
-paloš		
-pasoš	5169	
-pecaroš		M
-pustoš	971	
-raboš	55	
-radoš		
-raskoš	762	
-roš		
-skvoš	248	
-spletkaroš	33	
-tapkaroš		
-tarpoš		
-tvrdoš		
-uroš		
-varoš		M
-vrtogoš		
-čikoš		
-đilkoš		M
-ženskaroš	124	
+biroš			2
+botoš			2
+boš			1
+brioš			2
+broš	304		1
+brucoš	186		2
+cinkaroš	47		2
+divoš			2
+doboš		M	2
+dođoš			2
+dragoš			2
+džabalebaroš		M	2
+džeparoš		M	2
+gajdoš			2
+groš	213		1
+horgoš			2
+iđoš			2
+jagoš			2
+janoš			2
+još	749533		1
+kartaroš			2
+kesaroš		M	2
+kicoš	95		2
+kokoš	286		2
+koš	4048		1
+krmanoš	37		2
+lajoš			2
+lakoš			2
+loš	17715		1
+ludoš			2
+martonoš			2
+mesaroš		M	2
+miloš			2
+mućkaroš		M	2
+njegoš			2
+ološ	939		2
+paloš			2
+pasoš	5169		2
+pecaroš		M	2
+pustoš	971		2
+raboš	55		2
+radoš			2
+raskoš	762		2
+roš			1
+skvoš	248		1
+spletkaroš	33		2
+tapkaroš			2
+tarpoš			2
+tvrdoš			2
+uroš			2
+varoš		M	2
+vrtogoš			2
+čikoš			2
+đilkoš		M	2
+ženskaroš	124		2

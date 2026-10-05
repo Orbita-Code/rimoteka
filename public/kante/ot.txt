@@ -1,90 +1,90 @@
 89
-antidot		
-autopilot	33	
-azot	826	
-bankrot	3485	
-baškot		
-beškot		
-bojkot	2271	
-bot	840	
-cajtnot	72	
-cvokot		M
-depot		
-despot	2595	
-drot		
-džekpot		M
-eliot		
-fagot	86	
-feribot	74	
-fokstrot	32	
-fot		
-fotorobot	45	
-grohot	43	
-helot		
-herodot		
-idiot	1093	
-jackpot	40	
-kabot		
-kamelot		
-kihot		
-kikot	99	
-klokot	84	
-klopot		
-klot		
-kojot	211	
-kokot	33	
-komplot	20	
-kompot	225	
-kontrafagot		
-kopilot	145	
-kot		
-lanselot		
-lapot		
-lokot	20	
-lot		
-margot		
-merlot	214	
-mot		
-mrmot	136	
-nakot	110	
-nanobot		
-nasuprot	8815	
-nepot		
-not		
-okot	75	
-omot	626	
-ot		
-panajot		
-patriot	534	
-pilot	5108	
-pirot		
-pivot	395	
-plot	281	
-poliglot		
-pot	952	
-predživot		
-redengot		
-robot	2324	
-sankilot		
-saživot		
-sirot		
-skot		
-slot	1635	
-somot		
-sopot		
-spot	6106	
-suprot		
-suživot	806	
-tarot	341	
-topot	126	
-trenčkot	10	
-troskot		
-turandot		
-zelot		
-zigot		
-ćivot	184	
-čokot	174	
-šamot	83	
-škot		
-štropot		
-život	165708	
+antidot			2
+autopilot	33		2
+azot	826		2
+bankrot	3485		2
+baškot			2
+beškot			2
+bojkot	2271		2
+bot	840		1
+cajtnot	72		2
+cvokot		M	2
+depot			2
+despot	2595		2
+drot			1
+džekpot		M	2
+eliot			2
+fagot	86		2
+feribot	74		2
+fokstrot	32		2
+fot			1
+fotorobot	45		2
+grohot	43		2
+helot			2
+herodot			2
+idiot	1093		2
+jackpot	40		2
+kabot			2
+kamelot			2
+kihot			2
+kikot	99		2
+klokot	84		2
+klopot			2
+klot			1
+kojot	211		2
+kokot	33		2
+komplot	20		2
+kompot	225		2
+kontrafagot			2
+kopilot	145		2
+kot			1
+lanselot			2
+lapot			2
+lokot	20		2
+lot			1
+margot			2
+merlot	214		2
+mot			1
+mrmot	136		2
+nakot	110		2
+nanobot			2
+nasuprot	8815		3
+nepot			2
+not			1
+okot	75		2
+omot	626		2
+ot			1
+panajot			2
+patriot	534		2
+pilot	5108		2
+pirot			2
+pivot	395		2
+plot	281		1
+poliglot			2
+pot	952		1
+predživot			2
+redengot			2
+robot	2324		2
+sankilot			2
+saživot			2
+sirot			2
+skot			1
+slot	1635		1
+somot			2
+sopot			2
+spot	6106		1
+suprot			2
+suživot	806		3
+tarot	341		2
+topot	126		2
+trenčkot	10		2
+troskot			2
+turandot			2
+zelot			2
+zigot			2
+ćivot	184		2
+čokot	174		2
+šamot	83		2
+škot			1
+štropot			2
+život	165708		2

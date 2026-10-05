@@ -1,209 +1,209 @@
 207
-ambalaža	1442	
-amidža		
-apanaža	64	
-arbitraža	452	
-badža		M
-balotaža		
-bandaža	29	
-barža	55	
-bedža	97	
-blamaža	270	
-blaža	517	
-bliža	2166	
-bodeža	67	
-boža		
-bridža	111	
-brža	2037	
-budža		M
-crteža	3721	
-daidža		
-daveža	13	
-demontaža	341	
-derikoža		M
-deža		
-doža		
-draža	860	
-dremeža	138	
-drenaža	391	
-duža	2169	
-džidža		M
-ermitaža		
-eskivaža		
-etaža	397	
-feredža	28	
-fotomontaža	127	
-gadža		
-galogaža		
-gandža		
-garaža	1728	
-gaža	10	
-gedža		M
-glavudža		
-gnjavaža	103	
-grabeža	49	
-griža	184	
-gruža		
-gulikoža	12	
-hadža	106	
-hatidža		
-hodža	382	
-ilidža		
-imidža	2120	
-izdrža		
-jaža		M
-ježa	394	
-joža		
-kabotaža		
-kaleža		
-kambodža		
-kamuflaža	123	
-kandža	106	
-kanjiža		
-kaptaža		
-kartonaža	10	
-kembridža		
-kilaža	232	
-kilometraža	584	
-kiretaža		
-kolaža	388	
-koledža	1736	
-kolportaža		
-konsijerža		
-kovrdža	70	
-koža	10588	
-križa	300	
-krleža		
-kubikaža		
-kupaža		
-ladoleža		
-laveža	88	
-laža	680	
-leža		M
-litraža		
-lopuža	159	
-loža	765	
-lupeža		
-madeža		
-maharadža	49	
-makljaža	45	
-mandža		
-manježa		
-marža	896	
-masaža	3017	
-menaža		
-meteža	192	
-metraža		
-minutaža	134	
-miraža		
-mladeža	601	
-montaža	2693	
-morža	14	
-mreža	26573	
-muljaža	24	
-muža	7373	
-najbliža	1491	
-najbrža	606	
-najdraža	582	
-najduža	837	
-najniža	2146	
-najstroža	102	
-najteža	1820	
-najuža	79	
-naoruža	184	
-narandža		M
-nerandža		
-neravnoteža	412	
-nindža	352	
-niža	6372	
-noža	1396	
-odleža		
-održa	22	
-omaža		
-oniža		
-opaža	478	
-oruža	17	
-oteža	406	
-oštrokondža		
-padeža	274	
-paleža	33	
-pandža	12	
-paralaža	91	
-pasaža	188	
-patronaža		
-paža		M
-pejsaža	208	
-pejzaža	1454	
-persiflaža	16	
-pilotaža		M
-plantaža	539	
-plaža	6005	
-podmreža		
-podrža		
-poduža	106	
-položa		
-pomorandža	400	
-ponajteža		
-potaža	16	
-poteža		
-predstraža	49	
-prestiža	970	
-pridrža		
-protivteža		M
-protuteža	24	
-pruža	41507	
-puža	367	
-radža	70	
-ravnoteža	2464	
-razoruža	109	
-raža	60	
-reciklaža	1149	
-redža		
-remorkaža		
-reportaža	961	
-reža		
-riža	151	
-roža		
-ruža	3222	
-sabotaža	210	
-sadrža		
-serklaža	42	
-silaža		
-skrapeža		
-sluzokoža	308	
-sondaža		
-spuža		
-stalaža		
-staleža	748	
-staža	6048	
-steža		
-straža	1012	
-striža		M
-stroža	233	
-suzdrža		
-sveža	1944	
-tetovaža	651	
-teža	2549	
-tiraža	831	
-tonaža	22	
-trijaža	74	
-trikotaža	57	
-trčilaža		M
-uholaža		
-uzdrža		
-uža	936	
-veleža		
-velmoža		M
-veža		
-vitraža	159	
-vodojaža	48	
-voltaža	264	
-vreža	17	
-zadrža	45	
-zapaža	1268	
-zareža		
-zgraža	27	
-šarža		
-špijunaža	243	
-žiža	143	
-svježa		
+ambalaža	1442		2
+amidža			2
+apanaža	64		2
+arbitraža	452		2
+badža		M	2
+balotaža			2
+bandaža	29		2
+barža	55		2
+bedža	97		2
+blamaža	270		2
+blaža	517		2
+bliža	2166		2
+bodeža	67		2
+boža			2
+bridža	111		2
+brža	2037		2
+budža		M	2
+crteža	3721		2
+daidža			2
+daveža	13		2
+demontaža	341		2
+derikoža		M	2
+deža			2
+doža			2
+draža	860		2
+dremeža	138		2
+drenaža	391		2
+duža	2169		2
+džidža		M	2
+ermitaža			2
+eskivaža			2
+etaža	397		2
+feredža	28		2
+fotomontaža	127		2
+gadža			2
+galogaža			2
+gandža			2
+garaža	1728		2
+gaža	10		2
+gedža		M	2
+glavudža			2
+gnjavaža	103		2
+grabeža	49		2
+griža	184		2
+gruža			2
+gulikoža	12		3
+hadža	106		2
+hatidža			2
+hodža	382		2
+ilidža			2
+imidža	2120		2
+izdrža			2
+jaža		M	2
+ježa	394		2
+joža			2
+kabotaža			2
+kaleža			3
+kambodža			2
+kamuflaža	123		2
+kandža	106		2
+kanjiža			2
+kaptaža			2
+kartonaža	10		2
+kembridža			2
+kilaža	232		2
+kilometraža	584		2
+kiretaža			2
+kolaža	388		2
+koledža	1736		2
+kolportaža			2
+konsijerža			2
+kovrdža	70		2
+koža	10588		2
+križa	300		2
+krleža			2
+kubikaža			2
+kupaža			2
+ladoleža			2
+laveža	88		2
+laža	680		2
+leža		M	2
+litraža			2
+lopuža	159		2
+loža	765		2
+lupeža			2
+madeža			3
+maharadža	49		4
+makljaža	45		2
+mandža			2
+manježa			2
+marža	896		2
+masaža	3017		2
+menaža			2
+meteža	192		2
+metraža			2
+minutaža	134		2
+miraža			2
+mladeža	601		2
+montaža	2693		2
+morža	14		2
+mreža	26573		2
+muljaža	24		2
+muža	7373		2
+najbliža	1491		3
+najbrža	606		3
+najdraža	582		3
+najduža	837		3
+najniža	2146		3
+najstroža	102		3
+najteža	1820		2
+najuža	79		3
+naoruža	184		2
+narandža		M	2
+nerandža			2
+neravnoteža	412		2
+nindža	352		2
+niža	6372		2
+noža	1396		2
+odleža			2
+održa	22		2
+omaža			2
+oniža			2
+opaža	478		2
+oruža	17		2
+oteža	406		2
+oštrokondža			2
+padeža	274		2
+paleža	33		2
+pandža	12		2
+paralaža	91		2
+pasaža	188		2
+patronaža			2
+paža		M	2
+pejsaža	208		2
+pejzaža	1454		2
+persiflaža	16		2
+pilotaža		M	2
+plantaža	539		2
+plaža	6005		2
+podmreža			2
+podrža			2
+poduža	106		2
+položa			2
+pomorandža	400		2
+ponajteža			2
+potaža	16		2
+poteža			2
+predstraža	49		2
+prestiža	970		3
+pridrža			2
+protivteža		M	2
+protuteža	24		2
+pruža	41507		2
+puža	367		2
+radža	70		2
+ravnoteža	2464		2
+razoruža	109		2
+raža	60		2
+reciklaža	1149		2
+redža			2
+remorkaža			2
+reportaža	961		2
+reža			2
+riža	151		2
+roža			2
+ruža	3222		2
+sabotaža	210		2
+sadrža			2
+serklaža	42		2
+silaža			2
+skrapeža			2
+sluzokoža	308		2
+sondaža			2
+spuža			2
+stalaža			2
+staleža	748		2
+staža	6048		2
+steža			2
+straža	1012		2
+striža		M	2
+stroža	233		2
+suzdrža			2
+sveža	1944		2
+tetovaža	651		2
+teža	2549		2
+tiraža	831		2
+tonaža	22		2
+trijaža	74		2
+trikotaža	57		2
+trčilaža		M	2
+uholaža			2
+uzdrža			2
+uža	936		2
+veleža			2
+velmoža		M	2
+veža			2
+vitraža	159		2
+vodojaža	48		2
+voltaža	264		2
+vreža	17		2
+zadrža	45		2
+zapaža	1268		2
+zareža			2
+zgraža	27		2
+šarža			2
+špijunaža	243		2
+žiža	143		2
+svježa			2

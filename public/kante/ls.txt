@@ -1,11 +1,11 @@
 10
-engels		
-gebels		
-impuls	2167	
-majls		
-mils		
-nils		
-puls	2483	
-rols		
-vals		
-vels		
+engels			2
+gebels			2
+impuls	2167		2
+majls			1
+mils			1
+nils			1
+puls	2483		1
+rols			1
+vals			1
+vels			1

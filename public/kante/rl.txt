@@ -1,6 +1,6 @@
 5
-carl		
-huserl		
-karl		
-orl	24	
-perl		
+carl			1
+huserl			2
+karl			1
+orl	24		1
+perl			1

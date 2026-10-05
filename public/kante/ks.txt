@@ -1,79 +1,79 @@
 78
-ajaks		
-aleks		
-aneks	1606	
-antiklimaks	22	
-antraks	79	
-apendiks	41	
-boks	1823	
-boraks	27	
-botoks	332	
-cerviks	73	
-deluks		
-duks		M
-dupleks		
-džuboks	100	
-eks	1242	
-faks	1902	
-feliks		
-feniks	519	
-fiks	166	
-floks		
-fluks	122	
-foks		
-fudeks		
-fuks		
-geneks		
-heks		
-heliks		
-hemotoraks		
-hoaks		
-iks	657	
-indeks	8982	
-ineks		
-keks	1415	
-kikboks		
-kiks	764	
-klimaks	211	
-kniks		M
-kodeks	2406	
-koks	216	
-kompleks	9741	
-kornfleks	70	
-korteks	173	
-kseroks		
-lasteks		
-lateks	156	
-leks		
-linuks		
-luks	151	
-maks		
-marks		
-matriks	219	
-miks	1511	
-minimaks		
-multipleks	244	
-narteks		
-neokorteks		
-oniks	53	
-oriks	31	
-ortodoks		
-paradoks	2660	
-pneumotoraks	74	
-poluks		
-prefiks	633	
-refleks	825	
-refluks	130	
-reks		
-remiks	167	
-roleks		
-saks		
-seks	16163	
-semteks		
-spandeks		
-stiks		
-sufiks	212	
-telefaks	64	
-teleks	20	
-uniseks		
-vorteks		
+ajaks			2
+aleks			2
+aneks	1606		2
+antiklimaks	22		2
+antraks	79		2
+apendiks	41		2
+boks	1823		1
+boraks	27		2
+botoks	332		2
+cerviks	73		2
+deluks			2
+duks		M	1
+dupleks			2
+džuboks	100		2
+eks	1242		1
+faks	1902		1
+feliks			2
+feniks	519		2
+fiks	166		1
+floks			1
+fluks	122		1
+foks			1
+fudeks			2
+fuks			1
+geneks			2
+heks			1
+heliks			2
+hemotoraks			2
+hoaks			2
+iks	657		1
+indeks	8982		2
+ineks			2
+keks	1415		1
+kikboks			2
+kiks	764		1
+klimaks	211		2
+kniks		M	1
+kodeks	2406		2
+koks	216		1
+kompleks	9741		2
+kornfleks	70		2
+korteks	173		2
+kseroks			2
+lasteks			2
+lateks	156		2
+leks			1
+linuks			2
+luks	151		1
+maks			1
+marks			1
+matriks	219		2
+miks	1511		1
+minimaks			2
+multipleks	244		2
+narteks			2
+neokorteks			2
+oniks	53		2
+oriks	31		2
+ortodoks			2
+paradoks	2660		2
+pneumotoraks	74		2
+poluks			2
+prefiks	633		2
+refleks	825		2
+refluks	130		2
+reks			1
+remiks	167		2
+roleks			2
+saks			1
+seks	16163		1
+semteks			2
+spandeks			2
+stiks			1
+sufiks	212		2
+telefaks	64		2
+teleks	20		2
+uniseks			2
+vorteks			2

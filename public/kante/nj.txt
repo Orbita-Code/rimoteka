@@ -1,61 +1,61 @@
 60
-badanj	28	
-bubanj	1556	
-bucanj		
-gibanj		M
-gležanj	45	
-gunj		M
-kladanj		
-konj	3777	
-kočanj		M
-kranj		
-krnj		
-krupanj		
-leganj		M
-lenj	833	
-lipanj	72	
-lokvanj	91	
-manj		
-mogranj		
-nakovanj	155	
-oganj	2267	
-panj	414	
-patišpanj	77	
-pladanj	25	
-potporanj	31	
-povodanj	23	
-prilenj		M
-pucanj	733	
-ranj		
-ražanj	408	
-režanj	164	
-ripanj		
-rovinj		
-rtanj		M
-senj		
-sečanj		
-sinj		
-srpanj	57	
-stupanj	837	
-sušanj		
-sužanj	153	
-svežanj	212	
-svibanj	91	
-tiganj	851	
-toranj	2416	
-travanj	95	
-tutanj	142	
-ulcinj		
-viganj		
-vodotoranj	105	
-vonj	107	
-vranj		M
-vrganj	96	
-zavrtanj	89	
-češanj		
-čokanj		M
-čunj	90	
-čučanj	316	
-šampanj		
-šušanj	68	
-žrvanj	85	
+badanj	28		2
+bubanj	1556		2
+bucanj			2
+gibanj		M	2
+gležanj	45		2
+gunj		M	1
+kladanj			2
+konj	3777		1
+kočanj		M	2
+kranj			1
+krnj			1
+krupanj			2
+leganj		M	2
+lenj	833		1
+lipanj	72		2
+lokvanj	91		2
+manj			1
+mogranj			2
+nakovanj	155		3
+oganj	2267		2
+panj	414		1
+patišpanj	77		2
+pladanj	25		2
+potporanj	31		2
+povodanj	23		2
+prilenj		M	2
+pucanj	733		2
+ranj			1
+ražanj	408		2
+režanj	164		2
+ripanj			2
+rovinj			2
+rtanj		M	2
+senj			1
+sečanj			2
+sinj			1
+srpanj	57		2
+stupanj	837		2
+sušanj			2
+sužanj	153		2
+svežanj	212		2
+svibanj	91		2
+tiganj	851		2
+toranj	2416		2
+travanj	95		2
+tutanj	142		2
+ulcinj			2
+viganj			2
+vodotoranj	105		2
+vonj	107		1
+vranj		M	1
+vrganj	96		2
+zavrtanj	89		2
+češanj			2
+čokanj		M	2
+čunj	90		1
+čučanj	316		2
+šampanj			2
+šušanj	68		2
+žrvanj	85		2

@@ -1,9 +1,9 @@
 8
-bojl		
-emajl	93	
-fajl	7388	
-gargojl		
-imejl	733	
-karlajl		
-majl		
-mejl	3589	
+bojl			1
+emajl	93		2
+fajl	7388		1
+gargojl			2
+imejl	733		2
+karlajl			2
+majl			1
+mejl	3589		1

@@ -1,10 +1,10 @@
 9
-glib	175	
-hatib		
-munib		
-nagib	981	
-nedžib		
-pregib	107	
-ugib		M
-zgib		
-šib		
+glib	175		1
+hatib			2
+munib			2
+nagib	981		2
+nedžib			2
+pregib	107		2
+ugib		M	2
+zgib			1
+šib			1

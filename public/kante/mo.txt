@@ -1,5536 +1,5536 @@
 5413
-adaptiramo	98	
-afirmišemo		
-ajdemo		
-ajmo		
-aktivirajmo		
-aktiviramo	269	
-aktivirasmo		
-aktiviraćemo	11	
-alarmirajmo		
-alarmiramo		
-alarmirasmo		
-alarmiraćemo		
-amo		M
-amputiramo	12	
-analizirajmo	43	
-analiziramo	1173	
-analiziraćemo	107	
-angažovaćemo	78	
-angažujemo	716	
-animiramo	221	
-apelujemo	1359	
-aplaudiramo	84	
-arlaukasmo		
-arlaukaćemo		
-arlaučemo		
-arlaučimo		
-astmo		
-ašikujemo		
-ažuriramo	93	
-bacajmo	16	
-bacamo	529	
-bacaćemo		
-bacimo	686	
-bacismo		
-bacićemo	27	
-bakćemo	34	
-bandažirajmo		
-bandažiramo		
-bandažirasmo		
-bandažiraćemo		
-banemo		
-bankrotirajmo		
-bankrotiramo	41	
-bankrotirasmo		
-bankrotiraćemo		
-baratamo	110	
-batalimo	88	
-batinajmo		
-batinamo		
-batinasmo		
-batinaćemo		
-bauljajmo		
-bauljamo		
-bauljasmo		
-bauljaćemo		
-bavimo	5863	
-bavićemo	206	
-bavljasmo		
-baziramo	125	
-baštinimo	84	
-bdijemo		
-bdimo	17	
-bejasmo		
-beknemo		
-beknimo		
-beknusmo		
-beknućemo		
-beležimo	713	
-beremo	146	
-bergamo		
-berimo		
-besedimo		
-besmo		
-besnimo	12	
-bežaćemo		
-bežimo	706	
-bijasmo		
-bijemo	270	
-birajmo	93	
-biramo	2796	
-biraćemo	29	
-bismo	61214	
-bistrimo	18	
-bivajmo		
-bivamo	229	
-bićemo	2984	
-bičevasmo		
-bičevaćemo		
-bičujemo		
-bičujmo		
-bježmo		J
-blagodarimo	171	
-blagosiljamo	51	
-blagoslovimo	20	
-blamiramo	21	
-blažimo		
-blebetasmo		
-blebetaćemo		
-blebećemo		
-blebećimo		
-bledimo		
-blefiramo		
-blejimo	76	
-bližimo	119	
-blokiramo	218	
-blokiraćemo	42	
-bludimo		
-bludićemo		
-bludničimo		
-bocnemo		
-bodemo	11	
-bogatimo	46	
-bojimo	999	
-bojkotujemo	137	
-boksujemo	17	
-bolujemo	97	
-bolujmo		
-bombardovaćemo		
-bombardujemo	61	
-borasmo		
-boravimo	234	
-borimo	4837	
-borismo		
-borićemo	543	
-branimo	2096	
-branismo		
-branićemo	127	
-brasmo		
-bratimimo	13	
-bratimo		
-bratićemo		
-braćasmo		
-braćemo		
-brbljajmo		
-brbljamo	11	
-brbljasmo		
-brbljaćemo		
-brboćemo		
-brecnusmo		
-brijemo	13	
-brinemo	1849	
-brinimo	21	
-brinućemo	17	
-brišemo	190	
-brišimo		
-brojasmo		
-brojaćemo		
-brojimo	285	
-brstimo		
-brukamo	105	
-brzajmo		
-brzamo	14	
-budemo	30734	
-budimo	2895	
-buljimo	33	
-bunimo	315	
-bušimo	38	
-carujemo		
-celivajmo		
-celivamo	47	
-cenimo	1477	
-cenjkamo	10	
-cenkamo	17	
-cepajmo		
-cepamo	55	
-cepasmo		
-cepidlačimo		
-ciljamo	97	
-cimamo	45	
-cimo		M
-citiramo	349	
-citirasmo		
-citiraćemo	55	
-crkavamo	25	
-crknemo	33	
-crpemo	17	
-crpimo	118	
-crtamo	155	
-crvenimo	30	
-cvilimo		
-cvrkućemo		
-dadnemo		
-dadosmo		
-dajemo	6122	
-dajmo	474	
-damo	7034	
-danemo		
-dangubimo	17	
-darujemo	129	
-darujmo	85	
-dasmo		
-davaćemo	60	
-davimo	108	
-daćemo	1134	
-deaktiviramo		
-debatujemo	32	
-debljamo		
-definišemo	1410	
-definišimo	19	
-dekodiramo	12	
-dekorišemo	17	
-delajmo		
-delamo		
-delimo	2956	
-delićemo	58	
-delujemo	957	
-delujmo	11	
-demo	2301	
-demonstriramo	165	
-demontiramo	30	
-deportujemo	12	
-deremo	51	
-detektujemo	81	
-detoniramo		
-dezinfikujemo	18	
-dešifrujemo	37	
-dignemo	508	
-dignimo	30	
-digosmo		
-dijademo		
-diktiramo	57	
-dilujemo		
-dinamo	822	
-diplomiramo		
-dirajmo		
-diramo	199	
-dirnemo		
-diskreditujemo	21	
-diskutovaćemo	19	
-diskutujemo	684	
-distribuiramo	146	
-divimo	550	
-divljamo	16	
-dizajniramo	110	
-dizasmo		
-dičimo	113	
-dišemo	540	
-dišimo		
-dižemo	528	
-dižimo		
-dobacujemo	28	
-dobavimo		
-dobijamo	6980	
-dobijemo	9109	
-dobijmo		
-dobismo		
-dobivamo	119	
-dobićemo	1221	
-dodadosmo		
-dodajemo	708	
-dodajmo	673	
-dodamo	2556	
-dodaćemo	141	
-dodelimo	166	
-dodeljujemo	177	
-dodijavamo		
-dodirnemo	96	
-dodirujemo	107	
-dogovaramo	616	
-dogovorimo	2396	
-dogovorismo		
-dogovorićemo	208	
-dograbimo		
-doguramo	87	
-dohvatimo	72	
-dojavimo		
-dokazaćemo	72	
-dokazujemo	475	
-dokažemo	896	
-dokažimo	23	
-dokončajmo		
-dokopamo	56	
-dokrajčimo	22	
-dokumentujemo	51	
-dokusurimo		
-dokučimo	71	
-dolazimo	6445	
-dolazićemo	13	
-doletimo		
-dolivamo		
-dominiramo	100	
-domišljamo		
-domognemo	120	
-donesemo	1759	
-donesimo	13	
-donesmo		
-donesosmo		
-donećemo	229	
-doniramo	57	
-donosimo	3422	
-dopadamo	10	
-dopadnemo	39	
-dopisujemo	225	
-doplovismo		
-dopratismo		
-dopremimo	13	
-dopremo	127	
-doprinesemo	934	
-doprinećemo	52	
-doprinosimo	422	
-dopunimo	149	
-dopunićemo		
-dopunjujemo	120	
-dopustimo	483	
-dopustićemo	10	
-dopuštamo	255	
-doručkovaćemo		
-doručkujemo	69	
-doručkujmo		
-dosadimo	13	
-dosađujemo	30	
-dosegnemo	116	
-doselimo		
-dospemo	78	
-dospećemo		
-dostavimo	257	
-dostavićemo	65	
-dostavljamo	596	
-dostignemo	522	
-dostigosmo		
-dostižemo	55	
-dotaknemo	171	
-doteramo	54	
-dotičemo	74	
-dovedemo	1907	
-dovedimo	22	
-dovezemo	29	
-dovešćemo	113	
-dovlačimo	15	
-dovodimo	745	
-dovozimo	34	
-dovršavamo	27	
-dovršimo	134	
-dovršićemo		
-dovukosmo		
-dovučemo	23	
-dozivamo	30	
-doziđujemo		
-doznajemo	229	
-doznajmo		
-doznamo	62	
-doznasmo		
-doznaćemo		
-dozovemo	85	
-dozvolimo	2297	
-dozvolićemo	33	
-dozvoljavamo	691	
-doćićemo		
-dočaramo	133	
-dočekajmo	18	
-dočekamo	797	
-dočekasmo		
-dočekaćemo	69	
-dočekujemo	440	
-dočepamo	38	
-dođemo	5140	
-dođimo	16	
-dođosmo		
-doživesmo		
-doživećemo	64	
-doživimo	627	
-doživljavamo	1556	
-dramatizujemo		
-dreknemo	10	
-dremajmo		
-dremamo	10	
-dremnemo		
-dresiramo		
-drhtimo	36	
-drmnemo		
-drobimo	10	
-drogiramo	24	
-drugujemo		
-družimo	1604	
-družićemo	58	
-drznemo		
-držasmo		
-držaćemo	83	
-držimo	3346	
-dugujemo	1458	
-duhnimo		
-dunemo	12	
-dupliramo	68	
-dupliraćemo		
-duvamo	59	
-dužimo	107	
-dvoličimo		
-dvoumimo	43	
-džogiramo		
-ekshumiramo		
-eksperimentišemo	84	
-eksplodiramo		
-eksplodiraćemo		
-eliminisaćemo		
-eliminišemo	281	
-emitovaćemo	40	
-emitujemo	221	
-emo	1062	
-erazmo		
-evakuiramo		
-evakuisaćemo		
-evakuišemo		
-evoluiramo	34	
-falsifikujemo	24	
-farbamo	62	
-fiksiramo	53	
-finansiramo	891	
-flertujemo	15	
-fokusirajmo	22	
-fokusiramo	590	
-fokusiraćemo	56	
-foliramo	74	
-formiramo	1063	
-formiraćemo	115	
-formulišemo		
-forsiramo	155	
-fotografišemo	134	
-funkcionišemo		
-furamo		
-gajimo	544	
-ganjamo	24	
-ganjaćemo		
-garantujemo	889	
-gasimo	209	
-gazdujemo	29	
-gazimo	225	
-gađamo	118	
-gađaćemo		
-generalisimo		
-gibajmo		
-gibamo		
-ginemo	136	
-ginusmo		
-ginućemo		
-gladujemo	97	
-gladujmo		
-glasajmo	87	
-glasamo	1647	
-glasaćemo	212	
-glasujmo		
-gledajmo	210	
-gledamo	9820	
-gledasmo		
-gledaćemo	459	
-gložimo	25	
-glumimo	206	
-glumićemo		
-glupiramo	17	
-gluvarimo		
-gluvonemo		M
-gmo		
-gnjavimo	26	
-gnušamo	47	
-gojimo	61	
-golemo	217	
-gomilamo	32	
-gonimo	83	
-gonićemo	11	
-gorimo	25	
-gospodujemo		
-gostimo	22	
-gostićemo		
-gostujemo	207	
-govorasmo		
-govorimo	20976	
-govorićemo	257	
-grabimo	73	
-gradimo	2753	
-gradićemo	107	
-graničimo	50	
-grdimo	38	
-grebemo	22	
-grebuckamo		
-gredimo		
-grejemo	215	
-grešimo	578	
-grickamo	53	
-gricnemo	13	
-grizemo	46	
-grlimo	85	
-grmimo		
-grupišimo		
-grčimo		
-gubimo	2400	
-gurajmo		
-guramo	499	
-gurnemo	93	
-gurnimo		
-gurnućemo		
-gutamo	137	
-gušimo	124	
-hajdemo		
-hajdmo		
-hajmo	350	
-hakujemo		
-hanumo		
-hapsimo		
-harčimo		
-hilmo		
-hitajmo		
-hitamo	56	
-hitimo		
-hladimo	37	
-hodajmo		
-hodamo	472	
-hodasmo		
-hodaćemo		
-hodimo	141	
-hodismo		
-hodićemo		
-homo		
-hoćemo	10814	
-hođasmo		
-hrabrimo	32	
-hramljemo		
-hranimo	891	
-hranićemo		
-hrlimo	100	
-hromo	20	
-htednemo		
-htedosmo		
-hulimo	14	
-hvalimo	625	
-hvalićemo	10	
-hvališemo		
-hvatajmo		
-hvatamo	305	
-idemo	18242	
-identifikujemo	388	
-idimo	47	
-idosmo		
-ignorisaćemo		
-ignorišemo	339	
-igrajmo	92	
-igramo	6706	
-igrasmo		
-igraćemo	402	
-ikamo		
-imademo		
-imadosmo		
-imajmo	192	
-imamo	131038	
-imasmo		
-imaćemo	4542	
-imenujemo	177	
-imitiramo	70	
-impresioniramo		
-improvizovaćemo		
-improvizujemo	67	
-infiltriramo		
-informišemo	536	
-insceniramo		
-insistiramo	1349	
-inspirišemo		
-instaliramo	162	
-integrišemo		
-interesujemo	88	
-intervenišemo		
-intervjuišemo	19	
-intubiramo		
-investiramo	491	
-iscedimo	24	
-iscelimo	23	
-iscelismo		
-isceljujemo	14	
-iscrpimo	33	
-iseckamo	45	
-iselimo	99	
-isečemo	137	
-isflekamo		
-isisamo		
-iskazaćemo		
-iskazujemo	219	
-iskačemo	19	
-iskažemo	321	
-isklasmo		
-isključimo	402	
-isključićemo	11	
-isključujemo	260	
-iskombinujemo	25	
-iskontrolišemo	46	
-iskopajmo		
-iskopamo	86	
-iskopavamo	17	
-iskopaćemo		
-iskorenimo	153	
-iskoristimo	2898	
-iskoristićemo	286	
-iskorišćavamo	28	
-iskočimo	24	
-iskrademo		
-iskrcamo		
-iskrcasmo		
-iskrcavamo	11	
-iskrcaćemo		
-iskrivljujemo		
-iskupimo	44	
-iskupismo		
-iskusimo	129	
-iskušamo		
-iskušavamo	10	
-ismejavamo		
-ismevamo	37	
-ismijavamo		J
-ispadamo	114	
-ispadnemo	207	
-ispadosmo		
-ispalimo	14	
-ispalismo		
-ispalićemo		
-ispaljujemo		
-isparimo		
-ispaštamo	147	
-ispašćemo		
-isperemo	33	
-ispesmo		
-ispečemo	45	
-ispijamo	52	
-ispijemo	14	
-ispijmo		
-ispisasmo		
-ispisujemo	66	
-ispitajmo	20	
-ispitamo	338	
-ispitasmo		
-ispitaćemo	61	
-ispitivaćemo		
-ispitujemo	269	
-ispićemo		
-ispišemo	62	
-isplaniramo	75	
-isplatimo	285	
-isplatismo		
-isplatićemo	16	
-isplaćujemo	186	
-isplačemo	20	
-isplivamo	37	
-isplovimo	11	
-isplovićemo		
-isplovljavamo		
-ispomažemo	29	
-isporučimo	236	
-isporučićemo	17	
-isporučujemo	405	
-ispovedimo	32	
-ispoštujemo	411	
-ispratimo	348	
-ispratismo		
-ispratićemo	15	
-ispravimo	897	
-ispravismo		
-ispravićemo	40	
-ispravljamo	267	
-ispraznimo	58	
-ispraznićemo		
-ispraćamo	100	
-isprašimo		
-isprašićemo		
-isprebijamo		
-ispredamo		
-isprepadamo		
-isprevrćemo		
-ispričajmo		
-ispričamo	332	
-ispričasmo		
-ispričavamo	11	
-ispričaćemo	26	
-isprljamo		
-isprobajmo		
-isprobamo	297	
-isprobavamo	64	
-isprobaćemo	11	
-isprosimo		
-ispružimo	35	
-ispržimo	11	
-ispumpamo		
-ispunimo	1343	
-ispunismo		
-ispunićemo	63	
-ispunjavamo	707	
-ispustimo	87	
-ispušimo		
-ispuštajmo		
-ispuštamo	62	
-istaknemo	717	
-istaknimo	45	
-isterajmo		
-isteramo	177	
-isteraćemo	17	
-isterujemo	40	
-istežemo	39	
-istisnemo	18	
-ističemo	1425	
-istopimo	28	
-istopismo		
-istovarimo	14	
-istrajemo	395	
-istrajmo	14	
-istražimo	285	
-istražismo		
-istraživaćemo	10	
-istražićemo	35	
-istražujemo	620	
-istražujmo		
-istrebimo	28	
-istrebismo		
-istrebljujmo		
-istresemo	22	
-istrgnemo	12	
-istrpimo	68	
-istrunemo		
-istrčimo	77	
-istupimo	30	
-isturismo		
-istuširamo	31	
-isušimo		
-izaberemo	1142	
-izaberimo	34	
-izabiremo		
-izabrasmo		
-izabraćemo	84	
-izazivamo	120	
-izazovemo	119	
-izazvaćemo		
-izaćemo		
-izaćićemo		
-izađemo	3133	
-izađimo	92	
-izađosmo		
-izbacimo	468	
-izbacismo		
-izbacićemo	23	
-izbacujemo	160	
-izbavimo	74	
-izbavismo		
-izbavićemo		
-izbegavamo	537	
-izbegnemo	1047	
-izbegnimo		
-izbegosmo		
-izbijamo	34	
-izbijemo		
-izbismo		
-izborimo	1463	
-izborićemo	32	
-izbrisaćemo		
-izbrišemo	163	
-izbrišimo		
-izbrojimo	51	
-izbušimo	25	
-izdajemo	304	
-izdajmo		
-izdamo	210	
-izdaćemo	17	
-izdevetamo		
-izdignemo	87	
-izdrobimo		
-izdržasmo		
-izdržavamo	159	
-izdržaćemo	96	
-izdržimo	510	
-izduvamo	20	
-izdvajamo	2393	
-izdvojimo	467	
-izdvojismo		
-izgibosmo		
-izginemo	82	
-izginućemo	11	
-izgladimo	32	
-izgladnimo		
-izgladnjujemo		
-izglasamo	204	
-izgledajmo		
-izgledamo	496	
-izgledaćemo		
-izgorećemo		
-izgorimo	35	
-izgovaramo	247	
-izgovorimo	181	
-izgradimo	1312	
-izgradićemo	127	
-izgrađujemo	173	
-izgrađujmo		
-izgubimo	2015	
-izgubismo	10	
-izgubićemo	204	
-izguramo	119	
-izguraćemo	10	
-izigravamo	90	
-iziskujemo		
-iziđemo	41	
-iziđimo	10	
-iziđosmo		
-izjadamo		
-izjasnimo	220	
-izjavimo	44	
-izjavljujemo	76	
-izjednačimo	180	
-izlazimo	1489	
-izlazismo		
-izlažemo	293	
-izletimo	12	
-izlečimo	137	
-izlečismo		
-izlečićemo		
-izležavamo	13	
-izlijemo	18	
-izljubismo		
-izložimo	199	
-izložićemo	52	
-izludimo		
-izlučujemo		
-izmaknemo	21	
-izmamimo	32	
-izmaštamo		
-izmenimo	342	
-izmenjujemo		
-izmerimo	233	
-izmestimo	84	
-izmešamo	80	
-izmešasmo		
-izmirimo	161	
-izmislimo	122	
-izmislićemo		
-izmičemo	11	
-izmišljamo	239	
-izmjenjujemo		J
-izmlatimo		
-izmolimo	24	
-izmotavamo		
-iznajmimo	82	
-iznajmićemo		
-iznajmljujemo	82	
-iznađemo	103	
-iznašamo		
-iznedrimo	26	
-iznenadimo	281	
-iznenadićemo	19	
-iznerviramo	29	
-iznesemo	612	
-iznesimo		
-iznesmo		
-iznesosmo		
-izneverimo	40	
-iznećemo	111	
-iznosimo	645	
-iznudimo	10	
-izobličimo		
-izolujemo	100	
-izostanemo		
-izostavimo	115	
-izostavljamo	23	
-izoštrimo	13	
-izradimo	174	
-izranjamo	27	
-izravnamo	18	
-izravnismo		
-izrazimo	633	
-izračunamo	192	
-izrađujemo	493	
-izražavamo	722	
-izreknemo	22	
-izrekosmo		
-izređamo		
-izrežemo	14	
-izričemo	35	
-izronimo		
-izručimo	50	
-izručujemo	18	
-izumiremo	43	
-izumremo	28	
-izustimo		
-izuzimamo	33	
-izuzmemo	1128	
-izučavamo	75	
-izučimo	25	
-izvadimo	244	
-izvadićemo		
-izvedemo	622	
-izvedimo	13	
-izvestimo	47	
-izvezemo	340	
-izveštavamo	121	
-izvešćemo	56	
-izvidimo		
-izvinemo	26	
-izvinimo	119	
-izvinjavamo	786	
-izvisimo		
-izvičemo		
-izviđamo		
-izvlačimo	283	
-izvlačićemo		
-izvodimo	581	
-izvojujemo		
-izvozimo	1239	
-izvrgavamo		
-izvrćemo	13	
-izvršavamo	151	
-izvršimo	871	
-izvršićemo	104	
-izvršujemo	10	
-izvucimo	17	
-izvukosmo		
-izvućemo		
-izvućićemo		
-izvučemo	1152	
-ićemo		
-iđasmo		
-ištemo	69	
-ištimo		
-išunjamo		
-iščekujemo	305	
-iščeprkamo		
-iščezosmo		
-iščitavamo	36	
-iščupamo	60	
-jadikujemo	24	
-jadikujmo		
-jahaćemo		
-jamo		
-jamčimo	13	
-javimo	246	
-javismo		
-javićemo	68	
-javljamo	245	
-javljaćemo		
-jačamo	416	
-jašemo	33	
-jašimo		
-jedemo	3035	
-jedimo	49	
-jedosmo		
-jedrimo	11	
-jesmo	6830	
-jeđasmo		
-ješćemo	63	
-jurcamo	31	
-jurimo	507	
-jurićemo		
-jurišamo	24	
-jurnimo		
-jurnusmo		
-kajemo	146	
-kalemimo	10	
-kamo	4325	
-kampovaćemo		
-kampujemo	19	
-kamufliramo		
-kandidujemo	125	
-kapiramo	96	
-kartamo		
-kasamo		
-kasnimo	569	
-kasnićemo		
-kazasmo		
-kazaćemo	34	
-kaznimo	202	
-kaznićemo	13	
-kazujemo	33	
-kazujmo		
-kačimo	76	
-kažemo	15643	
-kažimo	72	
-kažnjavamo	163	
-kidajmo		
-kidamo	42	
-kidnapujemo		
-kidnemo		
-kikoćemo	14	
-kinjimo	13	
-kladimo	254	
-klanjamo	315	
-kleknemo	35	
-kleknimo		
-klevećemo		
-klečimo	38	
-kliknemo	227	
-kliknimo	39	
-kliknusmo		
-klimajmo		
-klimamo		
-klimasmo		
-klimaćemo		
-klimo		
-klisnemo		
-klizamo	22	
-klizimo	69	
-kličemo	83	
-kličimo		
-klonemo	42	
-klonimo	92	
-kloniramo	12	
-klopamo		
-kockamo	40	
-koketiramo	12	
-koknemo		
-kolebamo	17	
-koljemo		
-koljimo		
-kombinujemo	219	
-komentarišemo	731	
-komo		
-kompletiramo	104	
-komplikujemo	74	
-komuniciramo	758	
-konačimo		
-koncentrišemo	251	
-koncentrišimo		
-konfiskujemo		
-konstatiramo		
-konsultujemo	207	
-kontaktiramo	305	
-kontaktiraćemo	73	
-kontamo	32	
-kontrolisaćemo	26	
-kontrolišemo	995	
-konzumiramo	362	
-koordiniramo		
-kopamo	233	
-kopaćemo		
-kopiramo	182	
-koračajmo	22	
-koračamo	237	
-korigujemo	187	
-koristimo	10133	
-koristićemo	304	
-kosimo	40	
-kosnemo		
-kostrešimo		
-kotrljamo	27	
-kočimo	48	
-krademo	188	
-kreiramo	931	
-kreiraćemo	57	
-kremiramo		
-krenemo	4890	
-krenimo	963	
-krenusmo	33	
-krenućemo	294	
-kresnemo	20	
-kretaćemo		
-kretosmo		
-krećemo	3188	
-krećimo		
-krečemo		
-krečimo	43	
-krešemo	24	
-krijemo	474	
-krijumčarimo		
-kritikujemo	817	
-krivimo	289	
-krićemo		
-krojimo	91	
-kročimo	38	
-krpimo	98	
-krstarimo	22	
-krstimo	155	
-krstismo		
-kružimo	23	
-krvarimo	19	
-krvimo		
-krčimo	37	
-krčićemo		
-krčkamo	21	
-krčmo		
-kršimo	190	
-krštavamo	38	
-kuburimo	66	
-kucajmo		
-kucamo	133	
-kucnemo	17	
-kucnimo		
-kudikamo	691	
-kuglajmo		
-kuglamo		
-kujemo	33	
-kukamo	588	
-kuliramo		
-kumimo	11	
-kumo	42	
-kunemo	227	
-kupamo	208	
-kupaćemo		
-kupimo	2231	
-kupićemo	119	
-kupovaćemo	34	
-kupujemo	2274	
-kurtališemo		
-kuvamo	278	
-kuvaćemo		
-kušajmo		
-kušamo	16	
-kužimo		
-kvarimo	124	
-lajemo	44	
-lakomo	31	
-lansiramo	77	
-lansiraćemo		
-laskamo	16	
-laćamo		
-lažemo	1844	
-lažiramo		
-lebdimo	48	
-legalizujemo	88	
-legnemo	141	
-legosmo		
-lenčarimo		
-lepimo	92	
-letećemo		
-letimo	357	
-letujemo	64	
-lečimo	557	
-lečismo		
-lečićemo		
-ležimo	154	
-licitiramo	87	
-lijemo	21	
-likujemo	40	
-likujmo		
-likvidiramo	26	
-limo		
-listamo	52	
-ličimo	349	
-ličićemo		
-lišavajmo		
-lišavamo	57	
-lišimo	72	
-lišismo		
-ližemo	41	
-ljubimo	612	
-ljuljamo	34	
-ljutimo	239	
-ljuštimo		
-lobiramo		
-lociramo	80	
-lomimo	130	
-loptamo		
-lovimo	159	
-lovićemo		
-ložimo	84	
-ludimo		
-ludiramo		
-ludujemo	34	
-ludujmo		
-lumpujemo		
-lupamo	114	
-lupimo	32	
-lutamo	159	
-makljamo		
-maknemo	58	
-malakšemo		
-maltretiramo	90	
-mamo		
-manevrišemo		
-manipulišemo	67	
-mapiramo	26	
-marširajmo		
-marširamo	22	
-marširaćemo		
-maskiramo	31	
-maturiramo		
-maznemo	27	
-mašemo	75	
-mašimo	13	
-maštamo	274	
-mažemo	120	
-mažnjavamo		
-meditiramo	31	
-meljemo	21	
-menjajmo	69	
-menjamo	3711	
-menjaćemo	62	
-merimo	594	
-merićemo	12	
-mesimo	37	
-metanišemo		
-metnemo	18	
-metnimo		
-metnusmo		
-mećemo	28	
-mešajmo	19	
-mešamo	512	
-milujemo	20	
-mimo	8380	
-mimoilazimo	23	
-mimoiđemo	18	
-miniramo	15	
-minućemo		
-mirimo	167	
-mirišemo	35	
-mirišimo		
-mirujemo	24	
-mislimo	13275	
-mislićemo	24	
-mitimo		
-mičemo	20	
-mičimo		
-mlatimo	94	
-množimo	47	
-mo		M
-mobilišemo	70	
-modernizujemo	165	
-modifikujemo	57	
-mogasmo		
-mogosmo		
-molimo	9935	
-molismo		
-molićemo	35	
-moljakamo	18	
-momo		
-montiramo	104	
-moramo	55267	
-moraćemo	1935	
-morimo		
-morismo		
-motamo	19	
-motivišemo		
-motrimo	21	
-motrićemo		
-mozgamo	14	
-moćemo		
-moćićemo		
-možemo	113347	
-mrdamo	45	
-mrdnemo	63	
-mremo		
-mrmoljimo		
-mrsimo	15	
-mrzimo	714	
-mrznemo	12	
-mucimo		
-mudrujemo	27	
-mudrujmo		
-muljamo	14	
-muvamo	25	
-muzemo	37	
-mučimo	329	
-mučismo		
-mučićemo		
-nabacimo	39	
-nabacujemo	16	
-nabasamo	13	
-nabasasmo		
-nabavimo	446	
-nabavićemo	39	
-nabavljamo	279	
-nabijamo	34	
-nabijemo	37	
-nabrajamo	276	
-nabrojimo	150	
-naciljamo		
-nacrtamo	81	
-nadahnimo		
-nadajmo	1381	
-nadamo	14999	
-nadasmo		
-nadenemo		
-nadgledamo		
-nadgledaćemo		
-nadigramo	30	
-nadilazimo		
-nadimamo		
-nadimo		
-nadiđemo		
-nadjunačimo		
-nadjunačismo		
-nadmašimo	56	
-nadmemo		
-nadmećemo	69	
-nadmudrimo	18	
-nadmudrismo		
-nadnesmo		
-nadoknadimo	369	
-nadoknadićemo	29	
-nadoknađujemo	72	
-nadrastemo		
-nadrljamo	14	
-nadrljaćemo		
-naduvamo	11	
-nadvladamo	23	
-nadziremo		
-nadživimo		
-nagazimo		
-nagazićemo		
-nagađamo	454	
-naginjemo	35	
-naglasimo	476	
-naglasismo		
-nagnemo	18	
-nagodimo	43	
-nagodićemo		
-nagovorimo	48	
-nagrabimo		
-nagradimo	239	
-nagrađujemo	207	
-nagrdismo		
-nagrnusmo		
-nahodimo	10	
-nahranimo	121	
-nahranismo		
-nahranićemo		
-nailazimo	1346	
-naiđemo	219	
-naiđosmo		
-najavimo	175	
-najavljujemo	295	
-najedemo	41	
-najurimo	53	
-nakačimo		
-nakitimo		
-naklopimo		
-nalazimo	9074	
-nalazićemo		
-nalažemo	30	
-naletećemo		
-naletimo	88	
-nalećemo	23	
-nalijemo	42	
-naljutimo	59	
-naložimo	26	
-namaknemo	29	
-namamimo		
-namamićemo		
-namažemo	78	
-namažimo		
-nameravamo	825	
-namerimo		
-namestimo	94	
-namestićemo		
-nametnemo	281	
-namećemo	160	
-nameštamo	52	
-namirimo	47	
-namirišemo	11	
-nanesemo	115	
-nanosimo	208	
-naoružajmo		
-naoružamo	41	
-naovamo	1421	
-naoštrimo		
-napadamo	394	
-napadnemo	232	
-napadnimo		
-napajamo	34	
-napatismo		
-napašćemo	42	
-napijamo		
-napijemo	76	
-napijmo		
-napisasmo		
-napisaćemo	35	
-napićemo		
-napišemo	666	
-napišimo	20	
-naplatimo	359	
-naplatićemo	17	
-naplaćujemo	260	
-naplačemo		
-napojimo	13	
-napojismo		
-napomenemo	476	
-napomenimo	231	
-napominjemo	1552	
-napravimo	8817	
-napravismo		
-napravićemo	705	
-napredujemo	865	
-napredujmo		
-napregnemo	16	
-napregnimo		
-naprežemo	20	
-napumpamo		
-napunimo	287	
-napunićemo		
-napustimo	423	
-napustićemo		
-napušimo		
-napuštamo	241	
-naradimo		
-naredimo	28	
-naredićemo		
-naređujemo	80	
-naričemo	12	
-narugamo		
-narugasmo		
-naručimo	114	
-naručićemo		
-naručujemo	102	
-narušavamo	78	
-narušimo	47	
-narušismo		
-naružismo		
-nasamo	790	
-nasedamo	71	
-nasednemo	38	
-naselimo	36	
-naselićemo		
-naseljavamo	19	
-nasitimo		
-nasitićemo		
-nasladimo		
-nasladismo		
-naslanjamo	17	
-nasledimo	27	
-naslikajmo		
-naslonimo	22	
-naslovimo		
-naslutimo	148	
-nasmejemo	178	
-nasmijemo		J
-naspavamo	15	
-nasrnemo		
-nastanimo	20	
-nastanismo		
-nastavimo	4897	
-nastavismo		
-nastavićemo	1489	
-nastavljamo	3233	
-nastojasmo		
-nastojimo	1605	
-nastojmo	18	
-nastradamo	10	
-nastupamo	424	
-nastupasmo		
-nastupimo	174	
-nastupismo		
-nasusmo		
-naterajmo	13	
-nateramo	400	
-naterasmo		
-nateraćemo	27	
-natežemo	39	
-natovarimo	29	
-natovarismo		
-natočimo	11	
-natrljamo		
-natučemo		
-naudimo	21	
-naučimo	2709	
-naučismo		
-naučićemo	141	
-navalimo	42	
-navalismo		
-navalićemo		
-navedemo	487	
-navedimo	188	
-navedosmo		
-navešćemo	648	
-navijamo	436	
-navikavamo	144	
-naviknemo	243	
-naviknimo		
-navikosmo		
-navlačimo	28	
-navodimo	1142	
-navozimo		
-navratimo		
-navučemo	38	
-nazadujemo	43	
-nazdravimo	106	
-nazdravićemo		
-nazdravljamo	37	
-naziremo	91	
-nazivamo	2799	
-naznačimo	33	
-nazovemo	824	
-nazovimo	873	
-nazremo	22	
-nazvasmo		
-nazvaćemo	51	
-naćemo		
-naćićemo		
-načekasmo		
-načekaćemo	21	
-načinimo	254	
-načinismo		
-načinjemo		
-nađemo	4561	
-nađimo	57	
-nađosmo		
-našalimo	68	
-našminkamo	14	
-nedostajemo	13	
-negiramo	137	
-negodujemo	22	
-negovaćemo	12	
-negujemo	895	
-negujmo	38	
-nekamo		
-nemamo	34173	
-nemo	1327	
-nemojmo	1896	
-nerviramo	147	
-nestajemo	208	
-nestanemo	230	
-nestanimo		
-nestaćemo	60	
-neutrališemo	71	
-nevidimo		
-nećemo		
-nijesmo		MJ
-nikamo		
-nismo	85660	
-njačemo		
-njegujemo		
-njišemo	10	
-njušimo		
-njuškamo		
-normiramo	12	
-nosimo	2602	
-nosismo		
-nosićemo	22	
-noćimo	35	
-noćivamo		
-nudimo	6223	
-obaramo	71	
-obasjamo		
-obavestimo	868	
-obavestićemo	195	
-obaveštavamo	3077	
-obaveštavaćemo	49	
-obavežemo	96	
-obavijemo		
-obavijmo		
-obavimo	622	
-obavismo		
-obavićemo	76	
-obavljamo	896	
-obaziremo	95	
-obazrimo		
-obedujemo	10	
-obeležavamo	655	
-obeležimo	395	
-obelodanimo	29	
-oberemo		
-oberimo		
-obeshrabrimo	21	
-obesimo	40	
-obesismo		
-obesićemo		
-obezbedimo	4007	
-obezbedićemo	321	
-obezbeđujemo	899	
-obećajmo		
-obećamo	146	
-obećasmo		
-obećavamo	502	
-obijamo	11	
-obijemo	10	
-obilazimo	443	
-obilježimo	28	J
-obitavamo	67	
-običavajmo		
-obiđemo	435	
-obiđimo		
-objasnimo	1440	
-objasnićemo	135	
-objavimo	737	
-objavićemo	286	
-objavljujemo	1619	
-objašnjavamo	451	
-objedinimo	153	
-oblazimo		
-oblačimo	183	
-oblažemo	14	
-oblikujemo	194	
-obmanemo		
-obmanjujemo	90	
-obnavljajmo		
-obnavljamo	281	
-obnažimo		
-obnažujemo		
-obnevidimo		
-obnovimo	604	
-obnovićemo	48	
-obodrimo	10	
-obogatimo	227	
-obogatićemo	10	
-obogaćujemo	91	
-obojimo	69	
-oborimo	152	
-oborićemo	11	
-obožavamo	234	
-obradimo	210	
-obradićemo	37	
-obradujemo	319	
-obradujmo	14	
-obranimo		
-obrasmo		
-obratimo	1322	
-obratismo		
-obratićemo	148	
-obrazujemo	229	
-obraćajmo		
-obraćamo	1244	
-obraćaćemo		
-obraćemo		
-obračunamo	138	
-obračunaćemo	12	
-obrađujemo	343	
-obrađujmo		
-obrećemo		
-obrešćemo		
-obrežimo		
-obrijemo		
-obrisaćemo	13	
-obrišemo	99	
-obrnemo	83	
-obrstimo		
-obrukamo	65	
-obrćemo	16	
-obujmimo		
-obukosmo		
-obustavimo	88	
-obustavljamo	24	
-obuzdajmo		
-obuzdamo	47	
-obuzdavamo	10	
-obučavajmo		
-obučavamo	115	
-obučemo	203	
-obučimo	135	
-obznanimo	12	
-obznanjujmo		
-ocenimo	276	
-ocenjujemo	410	
-oceđujemo		
-ocrnimo	16	
-odaberemo	445	
-odabiremo		
-odabraćemo	40	
-odadosmo		
-odagnamo	28	
-odahnemo	75	
-odajemo	215	
-odajmo	28	
-odamo	251	
-odazivamo	48	
-odazovemo	51	
-odaćemo	11	
-odašiljemo	20	
-odbacimo	420	
-odbacismo		
-odbacićemo		
-odbacujemo	353	
-odbacujmo		
-odbijajmo		
-odbijamo	323	
-odbijemo	317	
-odbismo		
-odbićemo	12	
-odbranimo	673	
-odbranismo		
-odbrojavamo	24	
-odemo	3458	
-odenemo	13	
-oderemo	26	
-odevamo	13	
-odgajamo	75	
-odgajimo	17	
-odgajismo		
-odgađamo	12	
-odgledamo	106	
-odglumimo	10	
-odgodimo	12	
-odgojimo		
-odgonetamo		
-odgonetnemo	81	
-odgovaramo	683	
-odgovorimo	1685	
-odgovorićemo	89	
-odguramo		
-odgurnemo	17	
-odigrajmo		
-odigramo	1290	
-odigraćemo	80	
-odjavimo	22	
-odjavljujemo		
-odjašemo		
-odjenemo		
-odjurimo		
-odlazimo	1257	
-odlažemo	236	
-odlepimo	54	
-odletećemo		
-odletimo	29	
-odlikujemo	21	
-odložimo	243	
-odložićemo	17	
-odlučimo	1038	
-odlučismo		
-odlučićemo	98	
-odlučujemo	965	
-odmaglimo		
-odmaknemo	71	
-odmaknimo		
-odmakosmo		
-odmaramo	229	
-odmeravamo	22	
-odmerimo	109	
-odmerićemo		
-odmećimo		
-odmičemo	29	
-odmognemo		
-odmorimo	455	
-odmorićemo	12	
-odmotamo		
-odnesemo	133	
-odnesimo		
-odnećemo	10	
-odnosimo	577	
-odobravamo	305	
-odobrimo	102	
-odolevamo	31	
-odolećemo		
-odolimo	95	
-odosmo		
-odradimo	602	
-odradismo		
-odradićemo	40	
-odrastamo	75	
-odrastemo	132	
-odrazimo		
-odraćemo		
-odrađujemo	46	
-odražavamo		
-odrecimo	10	
-odredimo	882	
-odredićemo	55	
-odreknemo	865	
-odreknimo	24	
-odrekosmo		
-odremamo		
-odrečemo		
-određujemo	449	
-odrešimo		
-odrežemo	12	
-odrežimo		
-odričemo	512	
-održasmo		
-održavajmo		
-održavamo	1111	
-održavaćemo	17	
-održaćemo	130	
-održimo	1363	
-odsecajmo		
-odsecamo		
-odsecimo		
-odsedamo	15	
-odsednemo		
-odselimo	24	
-odsečemo	58	
-odsešćemo		
-odslužimo	13	
-odspavajmo		
-odspavamo	24	
-odstojimo		
-odstranimo	96	
-odstupamo	89	
-odstupimo	55	
-odsvirajmo		
-odsviramo	48	
-odugovlačimo	42	
-odupiremo	45	
-odupremo	237	
-oduprećemo		
-odustajemo	558	
-odustanemo		
-odustanimo		
-odustaćemo	22	
-oduvamo	21	
-oduvaćemo		
-oduzećemo		
-oduzimamo	142	
-oduzmemo	240	
-oduševimo	34	
-odužimo	222	
-odužujemo	24	
-odvajamo	266	
-odvalimo	13	
-odvedemo	147	
-odvedimo		
-odvezemo	60	
-odvezimo		
-odvezujemo		
-odvešćemo	17	
-odvežemo		
-odviknemo	17	
-odvlačimo		
-odvodimo	15	
-odvojimo	455	
-odvojismo		
-odvojićemo	22	
-odvratimo	32	
-odvraćamo	21	
-odvučemo	12	
-odšetamo	10	
-odškrinemo	16	
-odštampamo	68	
-ofarbamo	37	
-ofarbaćemo		
-oformimo	125	
-oformićemo	17	
-ogladnimo	12	
-oglasimo	52	
-oglasismo		
-ogledamo	84	
-oglušimo	16	
-ogorčavamo		
-ogorčimo		
-ogovaramo	70	
-ogradimo	79	
-ograničavamo	152	
-ograničimo	247	
-ograđujemo	69	
-ogrejemo	30	
-ogrejmo		
-ogrešimo	34	
-ohladimo	65	
-ohladnimo		
-ohrabrimo	280	
-ohrabrujemo	301	
-ojačamo	526	
-ojađujemo		
-okajemo		
-okamenimo		
-okanemo		
-okanimo	39	
-okačimo	77	
-okačićemo		
-okitimo	34	
-okitismo		
-oklevamo	25	
-okliznemo	20	
-okolišamo	12	
-okončajmo		
-okončamo	176	
-okončaćemo		
-okopamo		
-okopavamo		
-okoristimo	12	
-okoštamo		
-okrenemo	1626	
-okrenimo	266	
-okrenusmo		
-okrenućemo	38	
-okrepimo	34	
-okrepismo		
-okretaćemo		
-okrećemo	775	
-okrećimo		
-okrečimo	36	
-okrivimo	63	
-okrivićemo		
-okrivljujemo	61	
-okrivljujmo		
-okrnjimo		
-okružimo	17	
-okružismo		
-okumimo		
-okupamo	64	
-okupaćemo		
-okupimo	955	
-okupirajmo	72	
-okupismo		
-okupićemo	50	
-okupljamo	498	
-okusimo	36	
-okusismo		
-okušamo	44	
-okušavamo		
-oladimo		
-olakšajmo	15	
-olakšamo	577	
-olakšavamo	90	
-olakšaćemo	23	
-omanemo	12	
-omekšamo	13	
-ometamo	65	
-omeđimo	12	
-omogućavamo	575	
-omogućimo	2171	
-omrznemo	10	
-omrznimo		
-onamo	1070	
-onemogućimo	113	
-onesposobimo		
-onesvestimo		
-opalimo	27	
-opalismo		
-opaljujemo		
-opametimo	145	
-opazimo	37	
-opašimo		
-opažamo	193	
-opelješimo		
-operemo	163	
-operimo		
-operisaćemo		
-operišemo	87	
-opevamo	13	
-ophodimo	135	
-opijamo	13	
-opipamo	23	
-opipasmo		
-opipavamo		
-opiremo	50	
-opisaćemo	130	
-opisujemo	242	
-opišemo	278	
-opišimo	12	
-opkladimo		
-opkolimo	16	
-opkolićemo		
-oplakujemo	33	
-oplakujmo		
-oplačemo		
-oplačimo		
-oplemenimo	94	
-oplenimo		
-opljačkajmo		
-opljačkamo	18	
-opljačkaćemo		
-opomenemo	53	
-opomenimo		
-opomenusmo		
-opominjemo	100	
-opominjimo		
-oponašajmo		
-oponašamo	41	
-oporavimo	246	
-oporavismo		
-oporavljamo	56	
-opovrgnemo	23	
-opozovemo		
-opravdamo	376	
-opravdavamo	127	
-opravljamo	20	
-opraćemo		
-opraštajmo		
-opraštamo	319	
-opredelimo	328	
-opremimo	177	
-opremo		
-oprobamo	68	
-oprobasmo		
-oprobaćemo		
-oprostimo	494	
-oprostismo		
-oprostićemo	34	
-opstadosmo		
-opstajemo	102	
-opstanemo		
-opstaćemo	10	
-opteretimo	85	
-opterećujemo	250	
-optrčavamo		
-optužimo	73	
-optužićemo		
-optužujemo	191	
-opustimo	383	
-opustićemo		
-opuštamo	75	
-opštimo	26	
-oraspoložimo	18	
-orbitiramo		
-organizovaćemo	437	
-organizujemo	4534	
-organizujmo	44	
-orgazmo		
-orodimo		
-orosimo		
-osakatimo		
-osamimo	10	
-osetimo	1134	
-osetismo		
-osetićemo	71	
-osećamo	4580	
-osećaćemo	36	
-osečemo		
-osigurajmo		
-osiguramo	362	
-osiguravamo	165	
-osiguraćemo	21	
-oslabimo	28	
-oslanjamo	492	
-oslobađamo	246	
-oslobodimo	1146	
-oslobodićemo	35	
-oslonimo	349	
-oslovljavamo	41	
-osluškujemo	173	
-oslušnemo	79	
-oslušnimo	24	
-osmatramo	20	
-osmehnusmo		
-osmelimo		
-osmelismo		
-osmeljujemo		
-osmislimo	269	
-osmo	926	
-osmotrimo	84	
-osmotrićemo		
-osnažimo	176	
-osnažismo		
-osnažićemo		
-osnažujemo	31	
-osnivamo	108	
-osnovaćemo	40	
-osnujemo	320	
-osnujmo		
-osporavamo	234	
-osporimo	86	
-osposobimo	255	
-osramotimo	14	
-osramotismo		
-osramotićemo		
-ostadosmo		
-ostajemo	1744	
-ostanemo		
-ostanimo		
-ostarimo	73	
-ostarismo		
-ostarićemo		
-ostavimo	3200	
-ostavismo		
-ostavićemo	194	
-ostavljamo	1332	
-ostaćemo	440	
-ostvarimo	3208	
-ostvarićemo	106	
-ostvarujemo	916	
-osudimo	277	
-osudismo		
-osunčajmo		
-osunčamo		
-osunčasmo		
-osunčaćemo		
-osusmo		
-osuđujemo	741	
-osuđujmo	11	
-osušimo	29	
-osvajamo	333	
-osvanusmo		
-osvanućemo		
-osvestimo	234	
-osvetimo	92	
-osvetićemo		
-osvetlimo	132	
-osvećujemo	43	
-osvežimo	179	
-osvojimo	1300	
-osvojismo		
-osvojićemo	30	
-osvrnemo	692	
-osvrnimo	135	
-osvrnućemo	116	
-osvrćemo	156	
-otamo	23	
-otarasimo	131	
-otarasićemo		
-otcepimo	13	
-oterajmo	30	
-oteramo	265	
-oterasmo		
-oteraćemo	19	
-otesmo		
-otećemo		
-otežamo	34	
-otežavamo	62	
-othranimo		
-otidosmo		
-otimamo	119	
-otisnemo	47	
-otisnusmo		
-otićemo		
-otiđemo		
-otiđimo		
-otkazaćemo		
-otkazujemo	25	
-otkačimo	43	
-otkažemo	85	
-otkažimo		
-otkidamo		
-otkinemo	26	
-otklanjamo	112	
-otključamo	14	
-otklonimo	462	
-otklonismo		
-otkopamo	18	
-otkopavamo	23	
-otkrijemo	1192	
-otkrijmo	31	
-otkrismo		
-otkrivajmo		
-otkrivamo	1306	
-otkrićemo	183	
-otkucamo	25	
-otkucavamo		
-otkupimo	99	
-otkupićemo		
-otkupljujemo	78	
-otmemo	119	
-otpadamo		
-otpadnemo		
-otpadosmo		
-otpevajmo		
-otpevamo	30	
-otpevasmo		
-otpevaćemo		
-otpisujemo	36	
-otpišemo	53	
-otplatimo	85	
-otplaćujemo	135	
-otplivamo		
-otplovimo	11	
-otplovićemo		
-otpočesmo		
-otpočinemo		
-otpočinjemo	26	
-otpočnemo	127	
-otpočnimo		
-otpratimo	11	
-otpratićemo		
-otpustimo	122	
-otpustićemo		
-otputovaćemo		
-otputujemo	107	
-otputujmo		
-otpuštamo	65	
-otresamo		
-otresemo	58	
-otresimo		
-otreznimo	47	
-otrgnemo	107	
-otrovaćemo		
-otrujemo	10	
-otrčimo		
-otuđimo	19	
-otvarajmo		
-otvaramo	1333	
-otvorimo	2341	
-otvorismo		
-otvorićemo	210	
-ovamo	6188	
-ovekovečimo	24	
-overimo	78	
-ovladamo	73	
-ovlažimo		
-ozdravimo	35	
-ozimo		
-ozlojedimo		
-označavamo	115	
-označimo	193	
-označismo		
-oznojimo	26	
-ozvaničimo	30	
-ozvučimo		
-oćutasmo		
-oćutimo		
-očajavajmo		
-očajavamo	50	
-očekivasmo		
-očekujemo	19365	
-očekujmo	69	
-očeličimo		
-očistimo	1909	
-očistismo		
-očistićemo	25	
-očitamo	11	
-očitavamo	20	
-očupamo		
-očuvajmo	25	
-očuvamo	579	
-očuvasmo		
-očvrsnemo		
-ošišamo	13	
-oštetimo	64	
-oštrimo	18	
-ožalimo		
-ožalostimo		
-oženimo	20	
-oživesmo		
-oživimo	329	
-oživljavamo	67	
-padamo	387	
-padnemo	266	
-padosmo		
-pakujemo	275	
-pakujmo		
-palermo		
-palimo	248	
-palmo		
-pametujemo	57	
-pamtimo	1398	
-pamtićemo	130	
-paničarimo		
-paničimo	34	
-parimo	13	
-parkiramo	90	
-parkiraćemo		
-partijamo		
-pasemo	26	
-pasimo		
-patimo	413	
-patroliramo		
-pauziramo	19	
-pazarimo	65	
-pazimo	566	
-pazićemo		
-pašćemo	15	
-pecamo	84	
-peglajmo		
-peglamo		
-peglasmo		
-peglaćemo		
-penjemo	407	
-penjimo		
-pentramo		
-penzionišemo		
-percipiramo	117	
-peremo	260	
-pesmo	21	
-petljamo	29	
-pevajmo	39	
-pevamo	609	
-pevaćemo	18	
-pećemo		
-pečemo	195	
-pečimo		
-pešačimo	54	
-pešačićemo		
-pijanisimo		
-pijemo	1472	
-pijmo	38	
-pijuckamo	47	
-pipajmo		
-pipamo	22	
-pipkamo		
-pipnemo	23	
-pisasmo		
-pisaćemo	134	
-pismo	28075	
-pitajmo	64	
-pitamo	5213	
-pitasmo		
-pitaćemo	100	
-pitomo	210	
-pićemo	19	
-pičimo		
-pišemo	2487	
-pišimo	21	
-plakasmo		
-plamtimo		
-planinarimo	11	
-planiramo	4455	
-plasiramo	914	
-platimo	2423	
-platićemo	152	
-plaćamo	5532	
-plaćaćemo	83	
-plačemo	369	
-plačimo	16	
-plašimo	1218	
-plesaćemo		
-pletemo	32	
-plešemo	130	
-plešimo		
-plivamo	252	
-plivaćemo		
-pljačkamo	36	
-pljujemo	358	
-pljunimo		
-plovimo	139	
-plovismo		
-plovićemo		
-plovljasmo		
-plutamo	22	
-pobacamo	13	
-pobacasmo		
-pobedimo	2965	
-pobedićemo	259	
-pobegnemo	301	
-pobegnimo		
-pobegosmo		
-pobeležimo		
-poberemo		
-pobećićemo		
-pobeđujemo	536	
-pobeđujmo		
-pobijamo	11	
-pobijemo	132	
-pobijmo		
-pobismo		
-pobićemo	22	
-pobojasmo		
-pobojmo		
-poboljšamo	1106	
-poboljšavamo	234	
-pobratimo		
-pobrinemo	132	
-pobrinimo		
-pobrinućemo	32	
-pobrkamo	14	
-pobrojimo	48	
-pobudimo	19	
-pobunimo	87	
-pobuđujemo	12	
-pobuđujmo		
-pocepamo	15	
-pocrkamo	97	
-pocrpemo		
-pocrvenimo	15	
-podajemo		
-podamo		
-podarimo	58	
-podastremo		
-podavimo		
-podavismo		
-podavljujmo		
-podelimo	1573	
-podelićemo	123	
-podesimo	145	
-podesićemo	11	
-podešavamo	78	
-podignemo	1630	
-podignimo	86	
-podigosmo		
-podižemo	625	
-podlegnemo	64	
-podležemo	55	
-podložimo		
-podmažemo		
-podmetnemo	19	
-podmećemo	30	
-podmitimo		
-podnesemo	545	
-podnesimo		
-podnesmo		
-podnesosmo		
-podnećemo	79	
-podnosimo	493	
-podrazumevamo	818	
-podređujemo	30	
-podržavamo	3020	
-podržaćemo	282	
-podržimo	1952	
-podsetimo	9691	
-podsetismo		
-podsećamo	3722	
-podstaknemo	673	
-podstičemo	620	
-podstičimo		
-podudaramo		
-podupiremo	18	
-podupremo	13	
-podučavamo	61	
-podučimo	15	
-podučićemo		
-podvedemo	29	
-podvlačimo	104	
-podvojimo		
-podvrgavamo	29	
-podvrgnemo	33	
-podvucimo	16	
-podvučemo	204	
-pogasimo	17	
-pogazimo	18	
-pogazismo		
-pogađamo	110	
-pogađasmo		
-pogibosmo		
-poginemo	62	
-poginućemo	10	
-pogledajmo	2041	
-pogledamo	4851	
-pogledasmo		
-pogledaćemo	105	
-pognemo	35	
-pognimo		
-pogodimo	136	
-pogodismo		
-pogodićemo		
-pogoresmo		
-pogoršamo	13	
-pogoršavamo	23	
-pogrešimo	146	
-pogubimo	31	
-pogubićemo		
-poguramo	68	
-pogušismo		
-pohapsimo		
-poharamo		
-pohađamo	20	
-pohitajmo	13	
-pohodimo	14	
-pohvalimo	574	
-pohvaljujemo	111	
-pohvatamo	51	
-poigrajmo		
-poigramo	94	
-poigraćemo		
-poimamo	38	
-pojasnimo	334	
-pojavimo	280	
-pojavljujemo	102	
-pojačajmo		
-pojačamo	362	
-pojačavamo	85	
-pojačaćemo	38	
-pojašemo		
-pojedemo	469	
-pojedimo		
-pojednostavimo	171	
-pojemo		
-poješćemo	14	
-pojimo	10	
-pojmimo	64	
-pojurimo	29	
-pokajaćemo		
-pokajemo	103	
-pokajmo	33	
-pokazasmo		
-pokazaćemo	478	
-pokazujemo	1141	
-pokazujmo		
-pokažemo	4594	
-pokažimo	283	
-pokidajmo		
-pokidamo	17	
-pokisnemo	11	
-poklanjajmo		
-poklanjamo	671	
-poklapamo	16	
-poklasmo		
-pokleknemo	67	
-poklonimo	594	
-poklonismo		
-poklopimo	31	
-pokopamo		
-pokopaćemo		
-pokoravamo	44	
-pokorimo	42	
-pokosimo	18	
-pokrademo	11	
-pokrenemo	1525	
-pokrenimo	665	
-pokrenućemo	182	
-pokrećemo	482	
-pokrijemo	505	
-pokrijmo		
-pokrivamo	462	
-pokrivaćemo		
-pokrićemo	32	
-pokrstismo		
-pokucajmo		
-pokucamo	15	
-pokupimo	224	
-pokupićemo		
-pokušajmo	347	
-pokušamo	3003	
-pokušavamo	4337	
-pokušavaćemo	14	
-pokušaćemo	2150	
-pokvarimo	72	
-pokvasimo		
-polagaćemo		
-polazimo	504	
-polažemo	285	
-polažimo		
-polegnemo		
-poletećemo		
-poletimo	69	
-polećemo	56	
-poljubimo	75	
-poljubismo		
-poljubićemo		
-polomimo	35	
-polomićemo		
-položimo	183	
-položismo		
-položićemo	18	
-poludećemo		
-poludimo	44	
-polučimo		
-pomagaćemo	41	
-pomaknemo	27	
-pomaknimo		
-pomazimo	12	
-pomažemo	2078	
-pomažimo	11	
-pomenemo	907	
-pomenimo	763	
-pomenusmo		
-pomenućemo	369	
-pomeramo	321	
-pomerimo	338	
-pomerićemo	15	
-pomešajmo		
-pomešamo	87	
-pomilujemo		
-pominjemo	1786	
-pominjimo		
-pomirimo	512	
-pomirišemo	14	
-pomislimo	940	
-pomičemo	19	
-pomišljajmo		
-pomišljamo	104	
-pomlatimo		
-pomnožimo	112	
-pomo		
-pomognemo	6101	
-pomognimo	46	
-pomolimo	343	
-pomolismo		
-pomolićemo		
-pomorismo		
-pomozimo	379	
-pomoćićemo		
-pomračimo		
-pomremo	51	
-pomresmo		
-pomrećemo	10	
-pomutismo		
-pomućujemo		
-pomučimo	40	
-ponadamo	28	
-ponavljamo	1218	
-ponašajmo	27	
-ponašamo	1712	
-ponašaćemo	22	
-ponesemo	235	
-ponesimo	10	
-ponećemo	11	
-poniremo		
-ponizimo	38	
-poništimo	88	
-ponižavamo	82	
-ponosimo	837	
-ponovimo	1202	
-ponovismo		
-ponovićemo	75	
-ponudimo	2971	
-ponudismo		
-ponudićemo	195	
-pooštrimo	22	
-popalimo	15	
-popalismo		
-popesmo		
-popećemo		
-popijemo	708	
-popijmo		
-popićemo	37	
-poplavimo		
-poplašismo		
-popnemo	180	
-popnimo		
-popravimo	1219	
-popravićemo	42	
-popravljamo	276	
-popričajmo		
-popričamo	415	
-popričaćemo	10	
-poprskamo	28	
-popunimo	201	
-popunićemo	12	
-popunjavamo	125	
-popustimo	104	
-popušimo	17	
-popuštajmo		
-popuštamo	68	
-poradimo	221	
-poradićemo		
-poranimo		
-porastemo	58	
-poravnamo	28	
-porazgovarajmo		
-porazgovaramo	383	
-porazgovaraćemo		
-porazimo	39	
-porazićemo		
-porazmislimo	48	
-poredimo	711	
-poreknemo	24	
-poremetimo	37	
-poređamo	62	
-poričamo		
-poričemo	70	
-porobimo		
-porodimo		
-poručimo	232	
-poručujemo	388	
-porušimo	32	
-posadimo	101	
-posavetujemo	94	
-posedesmo		
-posedimo	26	
-posednemo		
-posedujemo	1949	
-posegnemo	77	
-posejemo	45	
-posestrimo		
-posetimo	548	
-posetismo		
-posetićemo	93	
-posećujemo	350	
-posečemo	30	
-posežemo	104	
-posinismo		
-poskakasmo		
-poskačemo		
-poskidamo	20	
-poslasmo		
-poslaćemo	264	
-poslujemo	743	
-poslušajmo	105	
-poslušamo	193	
-poslušaćemo	17	
-poslužimo	304	
-poslužismo		
-poslužićemo	60	
-poslužujemo	16	
-posmatrajmo	110	
-posmatramo	3087	
-posmatraćemo	46	
-posmotrimo		
-pospemo		
-pospešimo	66	
-pospremimo	16	
-posramimo		
-posrebrimo		
-posrnemo		
-posrnusmo		
-posrćemo	17	
-postadosmo		
-postajemo	1993	
-postanemo		
-postanimo		
-postarajmo	27	
-postaramo	66	
-postaraćemo	31	
-postasmo		
-postavimo	2814	
-postavismo		
-postavićemo	282	
-postavljamo	1965	
-postaćemo	241	
-postidimo	38	
-postignemo	2336	
-postignimo		
-postigosmo		
-postimo	133	
-postismo		
-postižemo	809	
-postojimo	1242	
-postradamo	10	
-postrižemo		
-postrojimo		
-postupajmo		
-postupamo	321	
-postupimo	120	
-posudimo		
-posumnjamo	90	
-posusmo		
-posustajmo		
-posuđujemo		
-posvajamo		
-posvađamo	121	
-posvađasmo		
-posvetimo	990	
-posvetićemo	140	
-posvećujemo	629	
-potaknemo	10	
-potamanimo		
-potapajmo		
-potcenimo	99	
-potcenjujemo	149	
-potecimo		
-potegnemo	12	
-poteramo	29	
-potežemo	49	
-potiremo	10	
-potiskujemo	94	
-potisnemo	65	
-potičemo	141	
-potkidamo		
-potkopavajmo		
-potkradamo	12	
-potkrepimo	42	
-potkujemo		
-potonemo	80	
-potonimo		
-potonućemo		
-potopimo	54	
-potopismo		
-potopićemo		
-potpadamo	11	
-potpadnemo		
-potpadosmo		
-potpalimo	10	
-potpisaćemo	53	
-potpisujemo	314	
-potpišemo	662	
-potpišimo		
-potražimo	519	
-potražismo		
-potražićemo	43	
-potrebujemo	17	
-potremo		
-potresamo	12	
-potrošimo	598	
-potrošićemo	36	
-potrpamo	21	
-potrudimo	721	
-potrudićemo	661	
-potrčasmo		
-potrčimo	34	
-potucamo	13	
-potučemo	29	
-potvrdimo	600	
-potvrdićemo	16	
-potvrđujemo	354	
-potčinimo	14	
-potčinjavamo	12	
-poubijamo	47	
-poubijasmo		
-pouzdamo	30	
-poučavajmo		
-poučavamo	27	
-poučimo	27	
-povadimo	19	
-povalimo		
-povedemo	351	
-povedimo	12	
-povedosmo		
-poveravamo	59	
-poverimo	77	
-poverujemo	592	
-poverujmo		
-povesmo	20	
-povezaćemo	25	
-povezemo	22	
-povezujemo	428	
-povećajmo	15	
-povećamo	1422	
-povećavamo	536	
-povećaćemo	91	
-povešćemo	19	
-povežemo	723	
-povežimo	48	
-povikasmo		
-povinujemo	64	
-povinujmo		
-povisimo	21	
-povičemo	10	
-povlačimo	336	
-povodimo	27	
-povratimo	501	
-povratismo		
-povratićemo	13	
-povraćamo	13	
-povredimo	116	
-povredićemo		
-povređujemo	48	
-povucimo	34	
-povučemo	517	
-pozabavimo	730	
-pozabavićemo	84	
-pozajmimo	98	
-pozajmićemo		
-pozajmljujemo	102	
-pozdravimo	381	
-pozdravićemo		
-pozdravljamo	1227	
-poziramo		
-pozivamo	7767	
-pozivaćemo	12	
-pozlatimo		
-poznajemo	3562	
-poznajmo		
-poznamo	99	
-poznasmo		
-poznaćemo		
-pozovemo	1163	
-pozovimo	33	
-pozvaćemo	191	
-pozvonimo		
-počastimo	51	
-počesmo		
-počećemo	498	
-počinemo		
-počinimo	23	
-počinismo		
-počinjemo	2214	
-počinjimo		
-počinusmo		
-počistimo	139	
-počistićemo		
-počnemo	4092	
-počnimo	484	
-počujmo		
-pođemo	772	
-pođimo	496	
-pođosmo		
-pošaljemo	1305	
-pošaljimo	22	
-pošiljemo		
-poštedećemo		
-poštedimo	59	
-poštovaćemo	102	
-poštujemo	3339	
-poštujmo	126	
-požalimo	35	
-požalismo		
-poželećemo	17	
-poželimo	780	
-poživimo	34	
-požnjećemo		
-požurimo	139	
-požurićemo		
-požurujemo	20	
-praktikujemo	180	
-pratimo	3880	
-pratićemo	241	
-pravdamo	153	
-pravimo	6186	
-pravićemo	171	
-praznimo	51	
-praznujemo	161	
-prašimo		
-praštamo	149	
-prašumo		
-prebacimo	453	
-prebacismo		
-prebacićemo	15	
-prebacujemo	232	
-prebijamo		
-prebijemo	26	
-prebijmo		
-prebiramo	18	
-prebivajmo		
-prebivamo	23	
-prebivasmo		
-prebićemo		
-prebolimo	38	
-prebrodimo	199	
-prebrodićemo	10	
-prebrojimo	143	
-precenjujmo		
-precrtamo	20	
-predadosmo		
-predahnemo	50	
-predahnimo		
-predajemo	452	
-predajmo	33	
-predamo	528	
-predanimo		
-predaćemo	46	
-predemo	16	
-predlažemo	4495	
-predložimo	492	
-predložićemo	170	
-predomislimo	19	
-predočimo	140	
-predstavimo	2169	
-predstavićemo	583	
-predstavljamo	4600	
-preduhitrimo	18	
-predupredimo	111	
-preduzećemo	116	
-preduzimamo	441	
-preduzmemo	640	
-preduzmimo		
-predvidimo	344	
-predviđamo	343	
-prefarbamo		
-preferiramo	69	
-preganjamo		
-pregazimo	23	
-pregledajmo		
-pregledamo	256	
-pregledavamo	11	
-pregledaćemo	15	
-pregnemo		
-pregnimo		
-pregolemo		
-pregovarajmo		
-pregovaramo	798	
-pregovaraćemo	28	
-pregrizemo		
-pregrupišemo		
-preguramo	47	
-preguraćemo		
-prehranimo	70	
-preinačimo		
-preispitamo	283	
-preispitujemo	147	
-prejedemo	10	
-prekidajmo		
-prekidamo	210	
-prekidosmo		
-prekinemo	636	
-prekinimo	35	
-prekinusmo		
-prekinućemo	28	
-preklinjemo	25	
-prekopamo		
-prekorimo		
-prekratimo	34	
-prekrijemo	57	
-prekrstimo	49	
-prekršimo	37	
-prelazimo	1109	
-preletimo	24	
-prelijemo	113	
-prelistamo	26	
-prelivamo		
-premaramo		
-premestimo	86	
-premestićemo		
-premeštamo	48	
-premišljamo		
-premlatimo		
-premostimo	70	
-premotamo	18	
-prenaglimo		
-prenagljujemo		
-prenagljujmo		
-prenesemo	1074	
-prenesimo	17	
-prenećemo	61	
-prenimo		
-prenosimo	2114	
-prenoćimo	39	
-prenoćićemo		
-preobratimo	15	
-preokrenemo	183	
-preokrenućemo		
-preopteretimo	12	
-preostajemo		
-prepadamo		
-prepadnemo		
-prepiremo	95	
-prepisujemo	114	
-prepišemo	75	
-preplašimo		
-preplivamo	11	
-prepolovimo	50	
-preporučimo	196	
-preporučujemo	5531	
-prepoznajemo	1341	
-prepoznamo	1086	
-prepravimo	25	
-prepustimo	659	
-prepustićemo	33	
-prepuštamo	359	
-preradimo	53	
-prerežemo	15	
-prerušimo		
-presecamo	14	
-presecimo		
-preselimo	230	
-preselićemo	18	
-presečemo	104	
-preskačemo	141	
-preskačimo		
-preskočimo	299	
-preskočismo		
-preskočićemo	26	
-preslikamo	41	
-preslušamo	15	
-prespavamo	82	
-prespavaćemo		
-presretnemo	10	
-presrećemo		
-presrešćemo		
-prestajemo	203	
-prestajmo		
-prestanemo	1055	
-prestanimo	121	
-prestarimo		
-prestasmo		
-prestaćemo	31	
-prestignemo	67	
-prestižemo	15	
-prestrmo		
-prestupimo		
-presudimo	20	
-presuđujemo	18	
-presvlačimo	30	
-presvucimo		
-presvučemo	37	
-preteknemo	25	
-preteknimo		
-preteramo	82	
-preterujemo	205	
-preterujmo	14	
-pretimo	177	
-pretopimo		
-pretpostavimo	1834	
-pretpostavićemo	51	
-pretpostavljamo	1473	
-pretražimo	20	
-pretražićemo		
-pretražujemo	69	
-pretresamo	17	
-pretresemo	51	
-pretresimo		
-pretrešćemo		
-pretrpimo	42	
-preturamo	15	
-preturismo		
-preturićemo		
-pretvarajmo		
-pretvaramo	361	
-pretvaraćemo		
-pretvorimo	526	
-pretvorićemo	48	
-preuredimo	48	
-preuređujemo		
-preusmeravamo	18	
-preusmerimo	81	
-preuzećemo	35	
-preuzimamo	526	
-preuzmemo	730	
-preuzmimo	12	
-prevarimo	98	
-prevaziđemo	685	
-prevedemo	277	
-prevedimo		
-prevedosmo		
-prevezemo	58	
-prevešćemo		
-previdimo	69	
-previjemo		
-previđamo	48	
-prevladamo	39	
-prevodimo	158	
-prevozimo	85	
-prevratimo		
-prevrnemo	22	
-prevrnimo		
-prevrnućemo		
-prevrćemo	28	
-prezalogajimo	18	
-prezentujemo	374	
-prezimimo	27	
-preziremo	125	
-prezivamo	12	
-prezremo	20	
-prezresmo		
-prezrećemo		
-prezrimo		
-prećićemo		
-prećutimo	60	
-prečistimo		
-pređemo	1555	
-pređimo	162	
-pređosmo		
-prežimo		
-preživećemo	75	
-preživimo	594	
-preživljavamo	267	
-pribavimo	72	
-pribegnemo	43	
-pribegnimo		
-pribegosmo		
-priberemo	19	
-približavamo	599	
-približimo	1225	
-približismo		
-približićemo	27	
-približujemo	10	
-pribrojimo	10	
-pricamo		
-pridajemo	254	
-pridamo	13	
-pridaćemo		
-pridobijemo	109	
-pridobismo		
-pridodajemo	25	
-pridodajmo		
-pridodamo	111	
-pridružimo	349	
-pridružićemo	15	
-pridružujemo	131	
-pridržavamo	414	
-prignusmo		
-prigrlimo	59	
-prigrlismo		
-prigušimo		
-prihvatamo	1935	
-prihvatimo	3626	
-prihvatismo		
-prihvatićemo	111	
-prihvaćamo	27	
-prijavimo	314	
-prijavićemo	27	
-prijavljujemo	113	
-prikazaćemo	220	
-prikazujemo	718	
-prikačimo	27	
-prikažemo	916	
-priklanjamo	38	
-priključimo	314	
-priključićemo	10	
-priklonimo	77	
-prikopčamo		
-prikradamo		
-prikrademo		
-prikrijemo	31	
-prikrivamo	44	
-prikupimo	435	
-prikupismo		
-prikupljamo	406	
-prikučimo		
-prilagodimo	741	
-prilagodićemo	12	
-prilagođavamo	432	
-prilazimo	251	
-prilažemo	187	
-prilegnemo		
-prilegnimo		
-prilepimo	11	
-priličimo		
-priljubimo		
-priložimo	36	
-primajmo		
-primaknemo	38	
-primamo	1405	
-primenimo	947	
-primenićemo	60	
-primenjujemo	1148	
-primenjujmo		
-primetimo	937	
-primetismo		
-primetićemo	160	
-primećujemo	1356	
-primimo	949	
-primirimo	19	
-primirismo		
-primismo		
-primićemo	53	
-primičemo	34	
-primo		
-primoramo	26	
-prinesemo	68	
-prinesimo	19	
-prinesmo		
-prinećemo		
-prinosimo	127	
-prinudimo	10	
-prionemo	59	
-prionimo	12	
-pripadamo	1222	
-pripadnemo	11	
-pripadnimo		
-pripalimo	10	
-pripazimo	23	
-pripazićemo		
-pripisujemo	167	
-pripitamo		
-pripišemo	64	
-pripišimo		
-pripojimo	29	
-pripovedajmo		
-pripremamo	1641	
-pripremimo	1166	
-pripremićemo	69	
-priredimo	103	
-priredićemo	26	
-priređujemo	60	
-prisetimo	832	
-prisećajmo		
-prisećamo	205	
-prisilimo	29	
-prisiljavamo	15	
-prisluškujemo	15	
-pristajemo	567	
-pristanemo	392	
-pristaćemo		
-pristupamo	537	
-pristupasmo		
-pristupimo	607	
-prisustvujemo	776	
-prisvajamo	29	
-prisvojimo	22	
-pritajimo		
-pritajićemo		
-pritegnemo		
-priteknemo		
-priteknimo		
-pritesnimo		
-pritiskamo	103	
-pritisnemo	228	
-pritisnimo	18	
-pritisnućemo		
-pritičemo		
-pritrčasmo		
-pritvorimo		
-priučimo		
-priuštimo	344	
-privedemo	306	
-privedimo		
-privezasmo		
-privešćemo		
-privežemo		
-privijamo		
-privijemo		
-privijmo		
-privikavamo	42	
-priviknemo	56	
-privirimo		
-privlačimo	185	
-privodimo	150	
-privučemo	676	
-prizemljimo	11	
-prizivajmo		
-prizivamo	193	
-priznajemo	951	
-priznajmo	126	
-priznamo	1629	
-priznaćemo	85	
-prizovemo	72	
-prizovimo	20	
-pričajmo	68	
-pričamo	11095	
-pričaćemo	301	
-pričekajmo	15	
-pričekamo	82	
-pričekaćemo	12	
-pričestimo	51	
-pričuvamo		
-pričvrstimo	63	
-priđemo	285	
-priđimo	21	
-priđosmo		
-prišijemo		
-prišivamo		
-prišunjamo		
-priželjkujemo	243	
-prkosimo	46	
-prljamo	37	
-probajmo	68	
-probamo	1622	
-probaćemo	334	
-probijamo	102	
-probijemo	146	
-probićemo		
-problemo		
-probudimo	732	
-probudismo		
-probudićemo	15	
-probušimo	11	
-procenimo	557	
-procenjujemo	531	
-procesuiramo	50	
-prodadosmo		
-prodajemo	1626	
-prodajmo	14	
-prodamo	1443	
-prodavaćemo	17	
-prodaćemo	71	
-prodiskutujemo	121	
-prodremo	32	
-prodrmajmo		
-prodrmamo	20	
-produbljujemo	60	
-produžavamo		
-produžimo	380	
-produžismo		
-profitiramo	63	
-proganjajmo		
-proganjamo	16	
-proglasimo	323	
-proglasićemo	40	
-proglašavamo	165	
-progledamo	65	
-prognajmo		
-prognamo		
-prognaćemo		
-progonimo	17	
-progovorimo	201	
-proguramo	50	
-progurasmo		
-proguraćemo		
-progutamo	156	
-progutasmo		
-prohodamo		
-prohujamo		
-proizvedemo	604	
-proizvodimo	1911	
-projektujemo	244	
-projezdimo		
-projurimo		
-projurismo		
-proklijamo		
-proklinjemo	32	
-prokljuvimo		
-prokopamo	10	
-prolazimo	1290	
-prolazismo		
-prolijemo	19	
-prolijmo		
-prolivamo		
-prolićemo		
-promatramo	67	
-promašimo	49	
-promenimo	3438	
-promenismo		
-promenićemo	138	
-prometnemo		
-promešamo	56	
-promislimo	87	
-promolimo		
-promotrimo	21	
-promovišemo	1225	
-promuvamo		
-promućkamo		
-pronalazimo	573	
-pronaćemo		
-pronaćićemo		
-pronađemo	2181	
-pronađimo	49	
-pronađosmo		
-proniknemo	55	
-proniknimo		
-proničemo		
-pronjuškamo		
-propadamo	356	
-propadnemo	178	
-propadosmo		
-propatimo		
-propašćemo	40	
-propismo		
-propovedamo	67	
-propratimo	53	
-propustimo	317	
-propustićemo	17	
-propuštamo	182	
-proradimo	11	
-proračunamo	12	
-proračunasmo		
-prosimo	61	
-prosipamo	30	
-proslavimo	617	
-proslavićemo	43	
-proslavljamo	726	
-prosledimo	129	
-prospemo		
-prostiremo	17	
-prostremo	11	
-prostrimo		
-prosudimo	37	
-prosućemo		
-prosuđujemo	42	
-protecimo		
-protegnemo	25	
-proterajmo		
-proteramo	74	
-protestujemo	188	
-protestvujemo	48	
-protivimo	273	
-protraćimo		
-protresemo	17	
-protumačimo	106	
-proturimo	12	
-proučavamo	203	
-proučimo	151	
-proučićemo	12	
-provalimo	33	
-provalićemo		
-provaljujemo	12	
-provedemo	814	
-provedimo	17	
-provedosmo		
-proveravamo	462	
-proverimo	991	
-proverićemo	116	
-provetrimo	11	
-provešćemo	61	
-provežbamo		
-provirimo	18	
-provociramo	49	
-provodimo	942	
-provodismo		
-provodićemo		
-provozajmo		
-provozamo	68	
-provozaćemo		
-provučemo	67	
-prozborimo	36	
-proziremo		
-prozivamo	153	
-prozovemo	41	
-prozremo	12	
-proćaskamo	36	
-proćićemo		
-pročešljamo	19	
-pročešljaćemo		
-pročistimo	52	
-pročitajmo	35	
-pročitamo	923	
-pročitasmo		
-pročitaćemo	14	
-prođemo	1102	
-prođimo	10	
-prođosmo		
-prošetajmo		
-prošetamo		
-prošetaćemo	22	
-prošećemo		
-prošećimo		
-proširimo	900	
-proširićemo	49	
-proširujemo	212	
-prošvercujemo		
-proždiremo	11	
-proživimo	94	
-proživljavamo	194	
-prskamo	34	
-pružajmo		
-pružamo	2336	
-pružimo	2737	
-pružismo		
-pružićemo	186	
-pržimo	75	
-psujemo	100	
-pucajmo		
-pucamo	160	
-pucasmo		
-pucaćemo	12	
-puknemo	38	
-pumpamo	17	
-punimo	368	
-pustimo	1464	
-pustismo		
-pustićemo	89	
-putovaćemo	30	
-putujemo	1251	
-putujmo	21	
-puzimo	39	
-pušimo	164	
-puštamo	488	
-pužemo		
-radimo	29374	
-radićemo	928	
-radovaćemo	29	
-radujemo	1886	
-radujmo	133	
-ramo		
-ranimo	21	
-ranjavajmo		
-ranjavamo		
-rashladimo	39	
-rasipamo	112	
-raskidamo	39	
-raskinemo	129	
-raskinimo		
-raskomotimo		
-raskopajmo		
-raskopasmo		
-raskrinkamo	33	
-raskrstimo	50	
-raspadamo	32	
-raspakujemo		
-raspalimo	20	
-raspesmo		
-raspećemo		
-raspinjemo		
-raspitamo	73	
-raspitaćemo		
-raspitujemo	46	
-raspišemo	137	
-raspnemo		
-raspnimo		
-raspodelimo	57	
-raspolažemo	1779	
-rasporedimo	130	
-rasporedićemo		
-rasporimo		
-raspoznamo	14	
-raspravimo	200	
-raspravićemo		
-raspravljamo		
-raspravljaćemo		
-rasprodamo	55	
-raspršimo		
-raspustimo	34	
-raspuštamo	10	
-rastadosmo		
-rastajemo	167	
-rastanemo		
-rastanimo		
-rastavimo	18	
-rastavićemo		
-rastavljamo	11	
-rastaćemo		
-rastegnemo	12	
-rastemo	425	
-rastimo	102	
-rastočimo		
-rastočismo		
-rastržemo		
-rasturamo	30	
-rasturimo	53	
-rasturićemo		
-rastužimo		
-rastvorimo	13	
-rasudimo		
-rasuđujemo	35	
-rasuđujmo		
-rasvetlimo	56	
-ratovasmo		
-ratovaćemo	12	
-ratujemo	343	
-ratujmo		
-ravnamo	39	
-razaberemo	15	
-razabiramo		
-razabrasmo		
-razapinjemo	13	
-razapnemo	19	
-razaramo	26	
-razaznajemo	35	
-razaznamo	20	
-razaznasmo		
-razbacujemo	69	
-razbesnimo		
-razbijamo	113	
-razbijemo	304	
-razbijmo	10	
-razbiramo		
-razbistrimo	10	
-razbićemo	19	
-razbolimo	86	
-razbucamo	18	
-razdajemo		
-razdajmo		
-razdelimo	23	
-razderemo		
-razdiremo		
-razdrešimo		
-razdrmamo	18	
-razdvajamo	94	
-razdvojimo	189	
-razdvojićemo		
-razdvojmo		
-razglabamo	44	
-razglasimo	10	
-razgledajmo		
-razgledamo	117	
-razgledavamo		
-razgonimo		
-razgorimo		
-razgovarajmo	50	
-razgovaramo	6003	
-razgovaraćemo	478	
-razgovorimo		
-razilazimo	125	
-raziđemo	131	
-raziđimo		
-raziđosmo		
-razjasnimo	853	
-razjasnićemo	12	
-razlikujemo	1782	
-razljutimo		
-razložimo	25	
-razlučimo	48	
-razmatrajmo		
-razmatramo	835	
-razmenimo	505	
-razmenićemo		
-razmenjujemo	509	
-razmeštamo		
-razmilesmo		
-razmislimo	1142	
-razmislićemo	48	
-razmičemo		
-razmišljajmo	50	
-razmišljamo	4096	
-razmnožavamo	18	
-razmotrimo	942	
-razmotrićemo	211	
-razmrdamo		
-razmrsimo		
-raznesemo		
-raznesimo		
-raznećemo		
-raznežimo		
-raznosimo		
-razonodimo	11	
-razorimo	11	
-razoružamo		
-razotkrijemo	59	
-razotkrivamo	34	
-razotkrićemo		
-razočaramo	87	
-razradimo	91	
-razradićemo		
-razrađujemo	69	
-razrešimo	278	
-razrušimo		
-razumemo	8045	
-razumevamo	72	
-razumećemo	56	
-razumimo		
-razvalimo	24	
-razvalismo		
-razvalićemo		
-razvaljujemo		
-razvedemo	45	
-razvedrimo		
-razveselimo	15	
-razvešćemo		
-razvijamo	2212	
-razvijemo	880	
-razvićemo	32	
-razvlačimo	33	
-razvodimo	25	
-razvrstamo	17	
-razvučemo	32	
-računamo	2174	
-računasmo		
-rađamo	317	
-raširimo	75	
-raširićemo		
-raščistimo	354	
-raščistićemo		
-raščlanimo	30	
-reagujemo	1374	
-realizujemo	1571	
-recikliramo	94	
-recimo	61061	
-redizajniramo	12	
-redukujemo	56	
-referiramo		
-registrujemo	280	
-regrupišemo		
-regrutujemo	37	
-regulišemo	289	
-rekapituliramo	13	
-reklamiramo	140	
-reknemo	37	
-rekonstruišemo	197	
-rekosmo		
-remetimo	63	
-renoviramo	102	
-rentiramo		
-reorganizujemo	47	
-reprogramiramo	25	
-resetujemo	35	
-restartujemo	16	
-revidiramo	43	
-rezervisaćemo		
-rezervišemo		
-rezimiramo	391	
-rezonujemo	20	
-rećićemo		
-rečemo	111	
-ređamo	82	
-ređasmo		
-rešavajmo	12	
-rešavamo	2052	
-rešimo	4108	
-rešismo		
-rešićemo	248	
-režemo	34	
-režiramo	31	
-ribamo		
-ridajmo		
-ridamo		
-riskiramo		
-rizikovaćemo		
-rizikujemo	366	
-rizikujmo		
-robimo		
-robujemo	116	
-rodimo	122	
-rodismo		
-rokajmo		
-rokamo		
-roknemo		
-rolamo		
-ronimo	67	
-ropćemo		
-ropćimo		
-rotiramo	45	
-rovarimo		
-roštiljamo	16	
-rugamo	39	
-rukovodimo	271	
-rukujemo	72	
-rukujmo		
-ručajmo		
-ručamo	125	
-ručaćemo		
-rušimo	378	
-rušićemo	17	
-ružimo	24	
-rvemo		
-saberemo	436	
-saberimo	21	
-sabijemo	12	
-sabiramo	216	
-sablaznimo		
-sabotiramo	28	
-sabrasmo		
-sabraćemo	11	
-sadimo	216	
-saginjemo	29	
-saglasimo	70	
-sagledajmo	41	
-sagledamo	1491	
-sagledasmo		
-sagledavamo	328	
-sagnemo	20	
-sagorevamo	20	
-sagorimo	27	
-sagradimo	150	
-sagradismo		
-sagradićemo	18	
-sagrešimo		
-sagrešismo		
-sahranimo	91	
-sahranismo		
-sahranićemo		
-sahranjujemo	41	
-sakrijemo	215	
-sakrijmo		
-sakrivamo	45	
-sakrićemo		
-sakupimo	358	
-sakupićemo	15	
-sakupljamo	201	
-sameljemo	25	
-samo	1164715	
-saniramo	213	
-sanjajmo	16	
-sanjamo	952	
-saobraćajmo		
-saobraćamo		
-saobraćasmo		
-saobraćaćemo		
-saopštavamo	132	
-saopštimo	265	
-saosećajmo		
-saosećamo	121	
-sapletemo	16	
-saplešćemo		
-saplićemo	49	
-sarađivaćemo	93	
-sarađujemo	2946	
-sarađujmo		
-sasečemo	20	
-saslušajmo	16	
-saslušamo	242	
-saslušavamo		
-saslušaćemo	23	
-saspemo		
-sastajemo	234	
-sastanemo	247	
-sastanimo		
-sastavimo	219	
-sastavismo		
-sastavićemo	20	
-sastavljamo	119	
-sastaćemo	32	
-sateramo		
-satiremo		
-savetujemo	1787	
-savijamo	55	
-savijemo	84	
-savladajmo		
-savladamo	421	
-savlađujemo	25	
-savlađujmo		
-sazdamo		
-sazidajmo		
-sazivamo	16	
-saznadosmo		
-saznajemo	6433	
-saznajmo	19	
-saznamo	2382	
-saznasmo		
-saznaćemo	641	
-sazovemo	29	
-sazvaćemo		
-sačekajmo	333	
-sačekamo	1477	
-sačekaćemo	358	
-sačinimo	64	
-sačinjavamo	26	
-sačmo		
-sačuvajmo	262	
-sačuvamo	2131	
-sačuvasmo		
-sačuvaćemo	88	
-sažalimo	13	
-sažaljevamo		
-sažimamo		
-saživimo	11	
-sažižemo		
-sažmemo	38	
-secimo		
-seciramo	13	
-seckamo	14	
-sedamo	119	
-sedesmo		
-sedećemo	16	
-sedimo	1699	
-sedmo	1246	
-sednemo	792	
-sednimo		
-sedosmo		
-sejemo	135	
-sekiramo	63	
-selimo	265	
-selićemo		
-serviramo	78	
-setimo	4251	
-setismo		
-setićemo	98	
-sevamo		
-sećajmo	16	
-sećamo	2069	
-sećaćemo	18	
-sečemo	191	
-seđasmo		
-sešćemo	66	
-shvatamo	1783	
-shvataćemo		
-shvatimo	3907	
-shvatismo		
-shvatićemo	236	
-shvaćamo		
-silazimo	166	
-silujemo	20	
-simo		
-simuliramo	53	
-sinhronizujemo	29	
-sipamo	223	
-sipaćemo		
-sisamo	12	
-siđemo	113	
-siđimo	11	
-siđosmo		
-sjedinimo		
-sjednimo		
-sjurismo		
-skakaćemo		
-skakućemo	17	
-skačemo	137	
-skačimo		
-skeniramo	52	
-skiciramo	26	
-skidamo	359	
-skijamo	88	
-skinemo	701	
-skinimo	30	
-skinućemo	28	
-skitamo		
-skladištimo	74	
-sklanjajmo		
-sklanjamo	135	
-sklapamo	159	
-sklepamo	16	
-sklonimo	447	
-sklonismo		
-sklonićemo	20	
-sklopimo	216	
-sklopićemo		
-skoknemo	63	
-skoncentrišemo	88	
-skoncentrišimo		
-skontamo	26	
-skontaćemo		
-skončamo		
-skočimo	103	
-skočismo		
-skočićemo		
-skrasimo	10	
-skratimo	263	
-skratićemo	10	
-skraćujemo	73	
-skrenemo	861	
-skrenimo		
-skrenućemo	28	
-skretaćemo		
-skrećemo	688	
-skrećimo		
-skrešemo	17	
-skrhamo		
-skrijemo		
-skrivamo	131	
-skrivaćemo		
-skrivimo		
-skrnavimo	16	
-skršimo		
-skujemo		
-skupimo	547	
-skupismo		
-skupićemo	29	
-skupljamo	362	
-skuvamo	97	
-skuvaćemo		
-skužimo		
-slabimo	34	
-slagaćemo		
-slavimo	1922	
-slavićemo	60	
-slaćemo	20	
-slažemo	3171	
-sledimo	683	
-sledićemo	10	
-sledovasmo		
-sledujemo	25	
-sledujmo		
-slegnemo	13	
-sletećemo		
-sletimo	29	
-slećemo	31	
-slikajmo		
-slikamo	443	
-slikaćemo		
-sličimo		
-slomimo	46	
-slomićemo		
-složimo	906	
-složismo		
-složićemo	250	
-sludovasmo		
-slupamo		
-slupaćemo		
-slutimo	187	
-slušajmo	24	
-slušamo	3691	
-slušasmo		
-slušaćemo	91	
-služimo	849	
-služismo		
-služićemo	17	
-smaknemo	14	
-smanjimo	1699	
-smanjićemo	141	
-smanjujemo	604	
-smaramo	61	
-smatrajmo	18	
-smatramo	16079	
-smatrasmo		
-smatraćemo	120	
-smejaćemo		
-smejemo	888	
-smejmo	10	
-smekšamo		
-smemo	6896	
-smenićemo	16	
-smenjivaćemo		
-smenjujemo	66	
-smeramo		
-smestimo	316	
-smestićemo	17	
-smetamo	168	
-smetnemo	40	
-smešimo	23	
-smeštamo	155	
-smilujmo		
-smirimo	174	
-smirićemo		
-smirujemo	35	
-smislimo	286	
-smislićemo	37	
-smišljajmo		
-smišljamo	104	
-smo	725386	
-smognemo	55	
-smotamo		
-smotrimo		
-smoždićemo		
-smrdimo	29	
-smrvimo		
-smrzavamo	50	
-smrznemo	29	
-smrznućemo		
-smuvamo	32	
-smućujemo		
-snabdemo		
-snabdevamo	223	
-snabdećemo		
-snalazimo	482	
-snađemo	203	
-snažimo	19	
-snesemo		
-snevamo		
-snevaćemo		
-snimajmo		
-snimamo	447	
-snimaćemo	26	
-snimimo	422	
-snimićemo	30	
-snizimo	99	
-snizićemo		
-snosimo	390	
-snosićemo	14	
-snujemo		
-sortiramo	23	
-spadamo	395	
-spadnemo	11	
-spajamo	215	
-spakovaćemo		
-spakujemo	121	
-spakujmo		
-spalimo	45	
-spalićemo		
-spaljujemo	31	
-sparingujemo		
-spasavajmo	11	
-spasavamo	212	
-spasemo	360	
-spasimo	476	
-spasićemo	29	
-spasosmo		
-spavajmo		
-spavamo	942	
-spavasmo		
-spavaćemo	26	
-spazismo		
-spašavamo		
-spašćemo	13	
-speremo	23	
-spojimo	369	
-spojićemo	12	
-spomenemo	381	
-spomenimo	255	
-spomenusmo		
-spominjemo	856	
-sponzorišemo	28	
-sporazumemo	58	
-sporazumesmo		
-sporazumećemo		
-sporimo	334	
-spotaknemo	14	
-spotičemo	22	
-spoznajemo	106	
-spoznajmo		
-spoznamo	245	
-spoznaćemo		
-sprdamo	45	
-spremajmo	21	
-spremamo	1327	
-spremaćemo	24	
-spremimo	503	
-spremismo		
-spremićemo	35	
-sprečavamo	230	
-sprečimo	1381	
-sprečićemo	55	
-sprijateljimo	16	
-sprovedemo	908	
-sprovešćemo	63	
-sprovodimo	1198	
-spržimo		
-spustimo	489	
-spustismo		
-spustićemo	19	
-spuštamo	363	
-sramimo	21	
-sramotimo	39	
-sravnimo	19	
-sravnićemo		
-sravnjujemo		
-srbujemo	13	
-srdimo		
-sredimo	552	
-sredićemo	71	
-sretamo		
-sretaćemo	16	
-sretnemo	937	
-sretnimo		
-sretosmo		
-srećemo	1566	
-sređujemo	129	
-srešćemo	103	
-srljamo	216	
-srozamo	15	
-sručismo		
-srušimo	277	
-srušismo		
-srušićemo	45	
-stabilizujemo	175	
-stadosmo		
-stajasmo		
-stajaćemo	15	
-stajemo	228	
-stanemo	1069	
-stanimo	52	
-stanjimo		
-stanujemo	124	
-starajmo	15	
-staramo	145	
-starimo	259	
-startujemo	126	
-stavimo	3122	
-stavismo		
-stavićemo	150	
-stavljamo	1387	
-staćemo	63	
-stecimo		
-stegnemo	57	
-steknemo	489	
-steknimo		
-stekosmo		
-stenjemo		
-sterilišemo	18	
-stesnimo		
-stečemo	10	
-stidećemo	11	
-stidimo	621	
-stignemo	1497	
-stigosmo		
-stimulišemo		
-stiskamo	31	
-stiskaćemo		
-stisnemo	86	
-stisnimo	10	
-stisnućemo		
-stićićemo		
-stičemo	534	
-stičimo		
-stišamo		
-stižemo	1378	
-stojimo	1920	
-stojmo	29	
-stopimo	14	
-stopiramo	25	
-stradamo	167	
-stradasmo		
-strahujemo	270	
-strahujmo		
-strašimo		
-stražarimo		
-streljamo	29	
-stremimo	292	
-strepimo	192	
-stresemo	16	
-strmo	253	
-strpamo	43	
-strpasmo		
-strpaćemo		
-strpimo	147	
-stružemo		
-studiramo	110	
-stupamo	149	
-stupimo	313	
-stupismo		
-stupićemo	23	
-stvarajmo	34	
-stvaramo	2718	
-stvaraćemo	19	
-stvorimo	2692	
-stvorismo		
-stvorićemo	160	
-sudaramo	44	
-sudarimo	15	
-sudarismo		
-sudarićemo		
-sudimo	588	
-sudićemo	12	
-sugerišemo		
-sukobimo	35	
-sukobljavamo	69	
-sumiramo	287	
-sumnjamo	1504	
-sumnjičimo		
-sumo		
-sunčamo	47	
-suočavamo	1689	
-suočimo	1033	
-suočićemo	66	
-suprotstavimo	407	
-suprotstavljamo	152	
-surfujemo	23	
-survavamo		
-suspendujemo	32	
-susretnemo	168	
-susretnimo		
-susrećemo	1554	
-susrećimo		
-susrešćemo	22	
-sustignemo	39	
-sustižemo	15	
-suzbijamo	40	
-suzbijemo	97	
-suzdržimo	20	
-suzimo	43	
-sučemo		
-sušimo	67	
-sužavamo	18	
-svalimo	26	
-svarimo	37	
-svađajmo		
-svađamo	539	
-svađasmo		
-svađaćemo		
-svedemo	464	
-svedimo	10	
-svedočimo	268	
-svedočismo		
-svetimo	45	
-svetkovasmo		
-svetkujemo	12	
-svetlimo	18	
-svezasmo		
-svežemo	11	
-svijamo		
-svirajmo		
-sviramo	781	
-sviraćemo	63	
-sviđamo	21	
-svlačimo	15	
-svodimo	133	
-svratimo	152	
-svratićemo	10	
-svraćamo	55	
-svrgavamo		
-svrgnemo	14	
-svrnusmo		
-svrstavamo	165	
-svršimo	33	
-svršismo		
-svučemo	22	
-tajimo	13	
-takmičimo	435	
-taknemo		
-tamo	145522	
-tapkamo	107	
-tapšemo	19	
-telefoniramo	32	
-teleportovaćemo		
-teleportujemo		
-tepamo	58	
-terajmo		
-teramo	398	
-terasmo		
-teretimo	12	
-testirajmo		
-testiramo	453	
-testiraćemo	13	
-teturamo	18	
-tečemo	16	
-tešemo		
-tešimo	118	
-težimo	2037	
-težićemo	53	
-tikamo		
-titramo		
-tlačimo		
-tolerišemo	218	
-tomo		
-tonemo	373	
-topimo	34	
-tovarimo	27	
-točimo	14	
-tragajmo		
-tragamo	504	
-trampimo	33	
-transformišemo	89	
-transportujemo	52	
-trapamo		
-tratimo		
-traćimo	39	
-tračarimo		
-tražimo	10868	
-tražismo		
-tražićemo	731	
-trebamo	3253	
-trebaćemo		
-tremo		
-treniramo	581	
-treniraćemo	26	
-treptimo		
-tresemo	29	
-treskamo		
-tresnućemo		
-tretiramo	503	
-tretiraćemo	16	
-treznimo		
-trešćemo		
-trgnemo	103	
-trgovaćemo		
-trgujemo	181	
-trkajmo		
-trkamo	53	
-trkaćemo		
-trknemo		
-trljamo	49	
-tromo	279	
-trošimo	1744	
-trpamo	77	
-trpećemo	14	
-trpimo	1487	
-trudimo	4513	
-trudismo		
-trudićemo	994	
-trujemo	130	
-trunemo	20	
-trzamo	11	
-trzasmo		
-trčaćemo	12	
-trčimo	716	
-tucnemo		
-tugujemo	112	
-tugujmo		
-tumaramo	80	
-tumačimo	423	
-tupimo	24	
-turimo	24	
-tučemo	143	
-tuširamo	53	
-tužimo	287	
-tužićemo	42	
-tvorimo	37	
-tvrdimo	1131	
-ubacimo	432	
-ubacismo		
-ubacićemo	32	
-ubacujemo	158	
-ubacujmo		
-ubedimo	579	
-ubedićemo		
-uberemo	52	
-ubeđujemo	189	
-ubijamo	361	
-ubijaćemo		
-ubijemo	263	
-ubijmo	15	
-ubismo		
-ubićemo	49	
-ublažavamo	24	
-ublažimo	212	
-ubodemo	19	
-ubrajamo	295	
-ubrizgamo		
-ubrizgaćemo		
-ubrojimo	40	
-ubrojmo		
-ubrzajmo		
-ubrzamo	350	
-ubrzavamo	72	
-ubrzaćemo	20	
-ucenimo		
-ucenjujemo	60	
-udahnemo	121	
-udahnimo	16	
-udajemo	20	
-udaljavajmo		
-udaljavamo	164	
-udaljimo	117	
-udaljismo		
-udaljićemo		
-udaljujemo	28	
-udaljujmo		
-udamo	23	
-udaramo	140	
-udarasmo		
-udarimo	199	
-udarismo		
-udarićemo	19	
-udavimo	41	
-udavićemo		
-udaćemo		
-udelimo	10	
-udenemo		
-udesimo		
-udesismo		
-udesićemo		
-udišemo	312	
-udostojimo	95	
-udovoljimo	105	
-udrimo		
-udružimo	328	
-udružićemo		
-udružujemo	56	
-udubimo	58	
-udubljujemo	23	
-udvostručimo	70	
-udvostručićemo		
-ugasimo	238	
-ugasićemo	16	
-ugađajmo		
-ugađamo	40	
-uginemo		
-uglavimo	11	
-ugledajmo	106	
-ugledamo	734	
-ugledasmo		
-ugledaćemo	15	
-ugodimo	49	
-ugojimo	15	
-ugonimo		
-ugostimo	346	
-ugovorimo	77	
-ugovorićemo		
-ugrabimo	27	
-ugrabismo		
-ugradimo	254	
-ugradićemo	16	
-ugrađujemo	248	
-ugrejemo	45	
-ugrozimo	198	
-ugrozićemo		
-ugrožavamo	180	
-uguramo	45	
-ugušimo	40	
-ugušićemo		
-ugušujemo		
-uhapsimo	107	
-uhapsićemo	17	
-uhodimo		
-uhranimo		
-uhvatimo	741	
-uhvatismo		
-uhvatićemo	12	
-uigramo	125	
-ujašimo		
-ujedamo	24	
-ujedinimo	444	
-ujedinićemo		
-ujedinjujmo		
-ukazaćemo	85	
-ukazujemo	817	
-ukažemo	1426	
-ukažimo	14	
-ukidamo	237	
-ukinemo	558	
-ukinimo	54	
-ukinusmo		
-ukinućemo	55	
-uklanjamo	155	
-uklanjaćemo		
-uklapamo	137	
-uključimo	1262	
-uključismo		
-uključićemo	69	
-uključujemo	358	
-uklonimo	457	
-uklonićemo	26	
-uklopimo	232	
-ukopamo	20	
-ukorenimo		
-ukorimo		
-ukrademo	59	
-ukradimo		
-ukrasimo	49	
-ukrasićemo		
-ukrašavamo	34	
-ukrašćemo		
-ukrcajmo		
-ukrcamo	38	
-ukrcavamo	40	
-ukrcaćemo		
-ukrotimo	25	
-ukrstimo	81	
-ukrstićemo		
-ulazimo	3819	
-ulažemo	1544	
-ulepšamo	169	
-ulepšavamo	56	
-uletećemo		
-uletimo	35	
-ulećemo	18	
-ulivamo		
-ulizujemo	20	
-ulogorimo		
-ulogorićemo		
-ulovimo	46	
-ulovićemo		
-uložimo	812	
-uložićemo	141	
-umaknemo		
-umanjimo	187	
-umanjujemo	96	
-umaramo	20	
-umemo	1789	
-umeravajmo		
-umetnemo	15	
-umećemo	10	
-umešamo	68	
-umijmo		
-umilimo		
-umiremo	299	
-umirimo	63	
-umirismo		
-umivamo	20	
-umišljamo	28	
-umnožavamo	36	
-umnožimo	51	
-umnožićemo		
-umolimo	20	
-umoljavajmo		
-umoljavamo		
-umorimo	47	
-umorićemo		
-umotamo	13	
-umočimo	15	
-umremo	264	
-umresmo		
-umrećemo	42	
-umrimo	16	
-umrljamo		
-umrtvimo	13	
-umudrimo		
-umuknemo		
-unajmimo	15	
-unajmićemo		
-unajmljujemo		
-unapredimo	1149	
-unapređujemo	514	
-unesemo	566	
-unesimo	15	
-unesrećimo		
-unećemo	31	
-uništavamo	347	
-uništimo	410	
-uništićemo	35	
-unižavamo	11	
-unosimo	982	
-unovčimo	36	
-uobličimo	50	
-uobrazimo		
-uopštimo		
-uortačimo		
-uozbiljimo	193	
-uočavamo	545	
-uočimo	434	
-uočićemo	93	
-upadamo	206	
-upadnemo	153	
-upadosmo		
-upakujemo	56	
-upalimo	108	
-upalismo		
-upalićemo		
-upamtimo	59	
-uparimo	32	
-upašćemo	15	
-upecamo	18	
-uperimo	26	
-upećemo		
-upinjemo	12	
-upiremo	54	
-upisaćemo	25	
-upisujemo	226	
-upitajmo	88	
-upitamo	283	
-upitasmo		
-upitaćemo		
-upišemo	307	
-uplatimo	169	
-uplatićemo		
-uplaćujemo	116	
-uplašimo	84	
-uplašićemo		
-upletemo	10	
-uplićemo	28	
-upljačkamo		
-uplovismo		
-upnemo		
-upodobimo	43	
-uporedimo	1524	
-uporedićemo	46	
-upoređujemo	293	
-uposlimo	147	
-upotpunimo	93	
-upotrebimo	623	
-upotrebićemo	64	
-upotrebljavajmo		
-upotrebljavamo	486	
-upoznajemo	950	
-upoznajmo	177	
-upoznamo	2612	
-upoznasmo		
-upoznaćemo	196	
-upozoravamo	778	
-upozorimo	318	
-upošljavamo	42	
-upravimo		
-upravićemo		
-upravljamo	490	
-upravljaćemo		
-upražnjavamo	72	
-upregnemo	22	
-upregnimo		
-uprijesmo		J
-uprljamo	10	
-upropastimo	97	
-upropastićemo		
-uprostimo	67	
-uprskamo		
-upucajmo		
-upucamo		
-upucaćemo		
-upustimo	181	
-uputimo	616	
-uputismo		
-uputićemo	123	
-upućujemo	787	
-upuštamo	160	
-uradimo	8192	
-uradismo		
-uradićemo	451	
-uranjamo	25	
-urastamo		
-urazumimo	49	
-uračunamo	74	
-uredimo	717	
-uredićemo	38	
-uređujemo	230	
-urlamo	35	
-uronimo	32	
-uručimo	45	
-uručujemo	29	
-usadimo	44	
-usaglasimo	297	
-usavršavamo	235	
-usavršimo	70	
-uselimo	63	
-uselićemo		
-useljavamo	26	
-ushtemo		
-usidrimo	11	
-usisamo		
-uskačemo	23	
-uskladimo	383	
-uskorimo		
-uskočimo	32	
-uskratimo	99	
-uslikamo	38	
-uslišimo		
-uslužimo	27	
-uslužujemo	14	
-usmeravamo	274	
-usmerimo	660	
-usnimo		
-uspaljujemo		
-uspavamo	46	
-uspavaćemo		
-uspemo	1571	
-uspesmo		
-uspevamo	878	
-uspećemo	179	
-uspinjemo	21	
-uspnemo	10	
-uspokojimo		
-usporavamo	46	
-usporimo	125	
-usporićemo		
-uspostavimo	1121	
-uspostavićemo	52	
-uspostavljamo	202	
-uspravimo	56	
-usprotivimo	32	
-usredsredimo	162	
-usrećimo	52	
-usrećujemo		
-ustadosmo		
-ustajemo	212	
-ustajmo		
-ustanemo	252	
-ustanimo	34	
-ustanovimo	318	
-ustasmo		
-ustaćemo		
-ustegnemo		
-ustežemo	14	
-ustrajemo	24	
-ustremimo		
-ustrojimo	16	
-ustuknemo	25	
-ustupamo	59	
-ustupimo	96	
-usudimo	55	
-usudićemo	15	
-usuđujemo	118	
-usvajamo	530	
-usvojimo	1001	
-usvojismo		
-usvojićemo	49	
-utaložimo		
-utanačimo	24	
-utapamo	26	
-utegnimo		
-uteknemo		
-utelovimo		
-uterasmo		
-uterujemo		
-utečemo		
-utešimo	46	
-utešismo		
-utisnemo	12	
-utičemo	1730	
-utišamo	23	
-utkamo	11	
-utolimo	14	
-utonemo	34	
-utopimo	35	
-utoplimo		
-utovarimo	20	
-utrkujemo	32	
-utrkujmo		
-utuvimo	24	
-utučemo		
-utvrdimo	1395	
-utvrdićemo	109	
-utvrđujemo	259	
-utvrđujmo		
-uvalimo	55	
-uvaljamo	30	
-uvaljujemo	12	
-uvažavamo	377	
-uvažimo	190	
-uvedemo		
-uvedimo		
-uveličamo	16	
-uveravamo	211	
-uverimo	741	
-uverićemo	32	
-uvezemo	210	
-uvećamo	146	
-uvećavamo	91	
-uvešćemo	132	
-uvežbamo	29	
-uvežbavamo	44	
-uvidećemo	37	
-uvidimo	273	
-uviđamo	298	
-uvlačimo	65	
-uvodimo	946	
-uvozimo	1482	
-uvredimo	74	
-uvrstimo	193	
-uvrtimo		
-uvršćujemo		
-uvukosmo		
-uvučemo	62	
-uzajmimo		
-uzajmićemo		
-uzađimo		
-uzbunimo		
-uzburkajmo		
-uzbuđujemo	33	
-uzdajmo	30	
-uzdamo	286	
-uzdasmo		
-uzdignemo	103	
-uzdignimo	13	
-uzdišemo	45	
-uzdižemo	77	
-uzdrmamo	12	
-uzdržavajmo		
-uzdržavamo	37	
-uzdržimo	45	
-uzesmo		
-uzećemo	318	
-uzgajamo	130	
-uzgojimo		
-uzidamo		
-uzimamo	1825	
-uzimaćemo	10	
-uzimljemo		
-uziđemo		
-uziđimo		
-uziđosmo		
-uzjašimo		
-uzlazimo		
-uzlazićemo		
-uzletimo	12	
-uzlećemo		
-uzmemo	4904	
-uzmimo	2021	
-uznemiravamo	48	
-uznemirimo	14	
-uznemirujemo		
-uznesemo	35	
-uznesimo		
-uznosimo	93	
-uzrastemo		
-uzrokujemo	18	
-uzviknemo	20	
-uzviknimo		
-uzvikujemo	17	
-uzvisimo	11	
-uzvratimo	179	
-uzvratismo		
-uzvratićemo	14	
-uzvraćamo	65	
-ućutimo	23	
-ućutkamo	13	
-učestvujemo	2553	
-učimo	3074	
-učinimo	4596	
-učinismo		
-učinićemo	775	
-učićemo	36	
-učlanimo	60	
-učvrstimo	198	
-učvršćujmo		
-uđemo	3813	
-uđimo	31	
-uđosmo		
-ušetamo		
-ušijemo		
-uštedećemo	53	
-uštedimo	361	
-ušunjamo		
-ušunjaćemo		
-ušuškamo	21	
-užasavamo	14	
-užasavasmo		
-užasnemo		
-uživajmo	101	
-uživamo	2593	
-uživaćemo	72	
-uživimo	21	
-vabimo		
-vadimo	391	
-vagajmo		
-vagamo		
-vagasmo		
-vagaćemo		
-valjamo	150	
-vamo		
-vapimo	54	
-varajmo		
-varakamo		
-varamo	217	
-varasmo		
-varimo	20	
-variramo	12	
-varirasmo		
-varićemo		
-vaskrsnemo	24	
-vaspitamo	42	
-važemo		
-važimo	58	
-veličamo	120	
-veličaćemo		
-venemo		
-venčajmo		
-venčamo	117	
-venčavamo	22	
-venčaćemo	11	
-veremo		
-verimo		
-verovasmo		
-verovaćemo	31	
-verujemo	11826	
-verujmo	79	
-veselimo	191	
-veslamo	46	
-veslasmo		
-vezaćemo	11	
-vezemo	21	
-vezujemo	398	
-večerajmo		
-večeramo	100	
-večeraćemo		
-vešamo		
-vešćemo		
-vežbajmo	11	
-vežbamo	493	
-vežbaćemo		
-vežemo	341	
-vidamo	17	
-videćemo	9830	
-vidimo	44395	
-vijasmo		
-viknemo	13	
-viknusmo		
-virimo	23	
-visimo	74	
-vičemo	164	
-viđamo	1194	
-viđasmo		
-viđaćemo	17	
-vježbajmo		J
-vladamo	249	
-vladasmo		
-vladaćemo		
-vodimo	5056	
-vodismo		
-vodićemo	163	
-vojujemo		
-vojujmo		
-volesmo		
-volećemo	18	
-volimo	7632	
-volontiramo	19	
-vozikamo	13	
-vozimo	1244	
-vozićemo	50	
-vratimo	9357	
-vratismo		
-vratićemo	455	
-vraćajmo		
-vraćamo	3684	
-vraćaćemo	23	
-vračamo		
-vrbujemo		
-vrdalamo		
-vrebamo		
-vredimo	276	
-vrednujemo	157	
-vređamo	255	
-vrisnusmo		
-vrištimo	50	
-vrtimo	424	
-vršimo	1961	
-vučemo	289	
-zabadamo	19	
-zabarikadiramo		
-zabavimo	264	
-zabavićemo		
-zabavljajmo		
-zabavljamo	301	
-zabavljaćemo		
-zabeležimo	310	
-zabijemo	25	
-zabićemo		
-zablistamo	21	
-zabodemo		
-zaboravimo	4707	
-zaboravismo		
-zaboravićemo	54	
-zaboravljajmo	11	
-zaboravljamo	1415	
-zabranimo	244	
-zabranismo		
-zabranjujemo	81	
-zabrinemo	108	
-zabrljamo	30	
-zacarimo		
-zadajemo	54	
-zadamo	57	
-zadavimo		
-zadiremo	34	
-zadirkujemo	11	
-zadivimo	21	
-zadivismo		
-zadivićemo		
-zadobijemo	94	
-zadobismo		
-zadobićemo		
-zadojimo		
-zadovoljavamo	217	
-zadovoljimo	671	
-zadremamo		
-zadržasmo		
-zadržavamo	550	
-zadržaćemo	146	
-zadržimo	1588	
-zadužimo	254	
-zafrkavamo		
-zagladimo	11	
-zaglavimo	44	
-zaglavićemo		
-zagledajmo	13	
-zagledamo	144	
-zagledasmo		
-zaglibismo		
-zagnjurismo		
-zagovaramo	109	
-zagrejemo	110	
-zagrejmo		
-zagrevajmo		
-zagrevamo	53	
-zagrijavamo		J
-zagrlimo	91	
-zagrlismo		
-zahladnimo		
-zahtevamo	1524	
-zahvalimo	1094	
-zahvalićemo	16	
-zahvaljujemo	2900	
-zahvaljujmo		
-zahvatamo	13	
-zaigrajmo	22	
-zaigramo	111	
-zaigraćemo		
-zainteresujemo	170	
-zaištemo		
-zakasnimo	50	
-zakasnićemo	12	
-zakazaćemo	18	
-zakazujemo	76	
-zakačimo	57	
-zakažemo	158	
-zakažimo		
-zaklaćemo	14	
-zaklinjemo	117	
-zaključajmo		
-zaključamo	31	
-zaključavamo	25	
-zaključaćemo		
-zaključimo	1248	
-zaključismo		
-zaključujemo	628	
-zaklonimo		
-zakmečimo		
-zakoljemo		
-zakopajmo		
-zakopamo	56	
-zakopavamo	18	
-zakopaćemo		
-zakoračimo	108	
-zakrivimo		
-zakrpimo	32	
-zakrpićemo		
-zakucamo	25	
-zakunemo	22	
-zakunimo		
-zakupimo	25	
-zakupićemo		
-zalagaćemo	136	
-zalazimo	140	
-zalažemo	2067	
-zaledimo		
-zalepimo	41	
-zalepićemo		
-zaletimo	14	
-zalečimo	24	
-zalijemo	50	
-zalivamo		
-zaljubimo	98	
-zaljubljujemo	76	
-založimo	74	
-založićemo	20	
-zalutamo	41	
-zalutasmo		
-zamajavamo	114	
-zamaramo	68	
-zamačimo		
-zamažemo	12	
-zamenimo	653	
-zamenismo		
-zamenićemo	40	
-zamenjujemo	91	
-zamenjujmo		
-zameramo	230	
-zamislimo	2106	
-zamislismo		
-zamišljamo	506	
-zamolimo	324	
-zamolismo		
-zamolićemo	45	
-zamorimo		
-zamotamo		
-zamrzimo	10	
-zamrznemo	68	
-zamucamo		
-zamuckujemo		
-zamuknemo		
-zanemarimo	1033	
-zanemarićemo	27	
-zanemarujemo	208	
-zanesemo	22	
-zanimajmo		
-zanimamo	67	
-zanosimo	126	
-zanoćimo		
-zaobilazimo	88	
-zaobiđemo	121	
-zaobiđimo		
-zaogrćemo		
-zaokrenemo		
-zaokružimo	281	
-zaokupimo		
-zaostajemo	417	
-zaostanemo	11	
-zaoštrimo	16	
-zapadamo	28	
-zapadnemo	40	
-zapakujemo		
-zapalimo	149	
-zapalićemo	14	
-zapamtimo	226	
-zapazimo	100	
-zapazićemo	26	
-zapažamo	250	
-zapevajmo	31	
-zapevamo	76	
-zapečatimo	22	
-zapijemo		
-zapisaćemo		
-zapisujemo	46	
-zapitajmo	286	
-zapitamo	1160	
-zapitasmo		
-zapitaćemo	21	
-zapićemo		
-zapišemo	59	
-zapišimo		
-zaplačemo	15	
-zaplačimo		
-zaplašimo		
-zaplenimo	14	
-zapletemo		
-zaplešemo	10	
-zaplešimo		
-zaplešćemo		
-zaplićemo	21	
-zaplješćimo		
-zaplovimo	18	
-zapnemo	51	
-zapnimo		
-zapopimo		
-zaposlimo	685	
-zaposlićemo	84	
-zapovedamo	25	
-započesmo		
-započećemo	70	
-započinjemo	420	
-započnemo	629	
-započnimo	31	
-zapošljavamo	326	
-zapretimo	18	
-zaprećemo		
-zapucamo		
-zaputimo	22	
-zaputićemo		
-zapušimo	33	
-zaradimo	636	
-zaradićemo	17	
-zaranjamo	16	
-zaratimo	44	
-zarazimo	28	
-zarađujemo	352	
-zarekosmo		
-zaređamo		
-zaridajmo		
-zarijemo		
-zaričemo		
-zarobimo	20	
-zarobismo		
-zarobićemo		
-zaronimo	74	
-zaronićemo		
-zasadimo	64	
-zasednemo	23	
-zasenimo		
-zasijaćemo		
-zasipamo	11	
-zasitimo	19	
-zaskočimo		
-zasladimo	34	
-zaslužimo	110	
-zaslužićemo		
-zaslužujemo	741	
-zasnivamo	106	
-zasnujemo	32	
-zaspemo		
-zaspimo	124	
-zastadosmo		
-zastajemo	44	
-zastanemo	179	
-zastanimo	29	
-zastenjemo		
-zastenjimo		
-zastidimo	18	
-zastupamo	586	
-zasučemo	111	
-zasvirajmo		
-zasviramo	18	
-zataškamo		
-zataškavamo	18	
-zategnemo		
-zateknemo	86	
-zatekosmo		
-zatežemo	27	
-zatiremo		
-zatičemo	376	
-zatražimo	281	
-zatrebamo	10	
-zatremo	19	
-zatrovasmo		
-zatrpamo	35	
-zatrpavamo	37	
-zatrudnimo		
-zatvarajmo	11	
-zatvaramo	453	
-zatvorimo	727	
-zatvorismo		
-zatvorićemo	38	
-zaustavimo	1194	
-zaustavićemo	65	
-zaustavljamo	172	
-zauzećemo	10	
-zauzimamo	210	
-zauzmemo	295	
-zauzmimo		
-zavadimo	13	
-zavalimo	13	
-zavapimo	34	
-zavaramo	21	
-zavaravajmo	52	
-zavaravamo	350	
-zavedemo	36	
-zavetujemo	22	
-zavežemo	10	
-zavidimo		
-zavijemo	10	
-zavikasmo		
-zavirimo	276	
-zavisimo	526	
-zavladamo	11	
-zavlačimo	30	
-zavodimo	14	
-zavolimo	144	
-zavoljesmo		J
-zavrnemo	52	
-zavrtesmo		
-zavrtimo	22	
-završavamo	860	
-završimo	3141	
-završismo		
-završićemo	262	
-zavukosmo		
-zavučemo	28	
-zaziremo	39	
-zaćutasmo		
-zaćutimo	24	
-začepimo	12	
-začinimo	66	
-začnemo		
-začudismo		
-začudićemo		
-začusmo		
-zađemo	78	
-zašijemo		
-zaštitimo	1675	
-zaštitićemo	43	
-zažalimo	24	
-zaželesmo		
-zaželimo	39	
-zaživimo		
-zažmirimo		
-zažmurimo	73	
-zbacimo	40	
-zbacujemo		
-zbijamo	13	
-zbijemo	61	
-zbližavamo	18	
-zbližimo	57	
-zbližismo		
-zborimo	28	
-zbrinemo	67	
-zbrisaćemo		
-zbrišemo	20	
-zbrišimo		
-zbunimo	26	
-zbunismo		
-zbunjujemo	31	
-zdrobimo		
-zdrpimo		
-združimo	10	
-združujemo		
-zevamo	27	
-zezamo	274	
-zeznemo	29	
-zgazimo	29	
-zgledasmo		
-zgnječimo		
-zgrabimo	19	
-zgrabićemo		
-zgranusmo		
-zgrejemo		
-zgriješimo		J
-zgrčimo		
-zidajmo		
-zidamo	111	
-zijamo		
-zimo		
-zinemo		
-zinusmo		
-zlopatimo	11	
-znademo	29	
-znadosmo		
-znajmo	50	
-znamo	56523	
-znaćemo	631	
-značimo	48	
-znojimo	88	
-zobamo		
-zovemo	3103	
-zovimo	54	
-zovnemo	19	
-zračimo	61	
-zumiramo	13	
-zurimo	30	
-zvaćemo	126	
-zveknemo		
-zvonimo	10	
-zvučimo	50	
-ćaskamo	104	
-ćemo	148730	
-ćukamo		
-ćutasmo		
-ćutaćemo		
-ćutimo	1270	
-čamimo	16	
-časimo		
-častimo	90	
-častismo		
-častićemo		
-čavrljamo	25	
-čačkamo	34	
-čekajmo	51	
-čekamo	7430	
-čekasmo		
-čekaćemo	187	
-čepasmo		
-čestitajmo		
-čestitamo	1723	
-četujemo	11	
-čeznemo	102	
-čeznimo		
-činimo	4081	
-činismo		
-činićemo	52	
-čistimo	463	
-čitajmo	43	
-čitamo	3399	
-čitaćemo	62	
-čudimo	687	
-čujasmo		
-čujemo	6674	
-čujmo	65	
-čupamo	54	
-čusmo		
-čuvajmo	331	
-čuvamo	2057	
-čuvasmo		
-čuvaćemo	58	
-čuvstvujmo		
-čućemo	204	
-čučimo	13	
-đakomo		
-đuskamo		
-šalimo	245	
-šaljemo	1984	
-šamaramo	10	
-šaptaćemo		
-šapućemo	23	
-šapćemo		
-šetajmo	32	
-šetamo	531	
-šetaćemo		
-šetkamo		
-šećerlemo		
-šibajmo		
-šibamo	14	
-šijemo	49	
-šimo		
-širimo	804	
-šićarimo		
-šišamo	50	
-škakljamo		
-školujemo	327	
-školujmo		
-škrgućemo		
-šljakamo	11	
-šminkaćemo		
-šokiramo	14	
-špijuniramo	15	
-štampamo	244	
-štampaćemo	11	
-štedimo	605	
-štetimo	29	
-štimamo		
-štipkamo		
-štitimo	953	
-štitićemo	22	
-štrajkujemo	132	
-štujemo		
-šunjamo		
-šutimo	24	
-šutiramo	46	
-šutnemo	20	
-švrljamo		
-ščepajmo		
-ščepamo		
-ščepaćemo		
-žalimo	1022	
-žalićemo	37	
-žalostimo	13	
-žanjemo	62	
-žderemo	15	
-žednimo		
-želećemo	14	
-želimo	35122	
-ženimo	23	
-žigošemo	32	
-živahnusmo		
-živesmo		
-živećemo	189	
-živimo	21728	
-žrtvovaćemo	11	
-žrtvujemo	247	
-žudimo	136	
-žurimo	371	
-žvaćemo		
-bjesmo		
-bježimo		
-cijenimo	83	
-cijepamo		
-cjelivamo		
-dijelimo	194	
-djelimo		
-djelujemo		
-dospijemo		
-griješimo	30	
-istjeramo		
-izbjegavamo		
-izbjegnemo		
-izliječimo		
-izmjerimo		
-izvještavamo		
-lijepimo		
-liječimo	23	
-mijenjamo	90	
-miješamo	29	
-mjerimo		
-namjeravamo		
-namjestimo		
-natjeramo		
-nesmijemo		
-nijemo	119	
-obavijestimo	33	
-obavještavamo		
-objesimo		
-ocijenimo		
-odsiječemo		
-osjecamo		
-osjetimo		
-osjećamo		
-otjeramo		
-pjevajmo		
-pjevamo		
-pobijedimo	30	
-pobjedimo		
-pobjegnemo		
-pobjegnimo		
-pobjeđujemo		
-podijelimo	87	
-podjelimo		
-podsjetimo		
-podsjećamo		
-pogriješimo	13	
-polijećemo		
-pomjeramo		
-pomjerimo		
-posjedimo		
-posjedujemo		
-posjetimo		
-posjećujemo		
-povjeravamo		
-povjerujemo		
-povrijedimo		
-premjestimo		
-premještamo		
-pretjerujemo		
-prijetimo		
-prijeđemo	10	
-prijeđimo		
-primjetimo		
-prisjetimo		
-procijenimo		
-procjenjujemo		
-promijenimo	90	
-promjenimo		
-provjeravamo		
-provjerimo		
-provjerićemo		
-razmijenimo	12	
-razmjenjujemo		
-razriješimo	10	
-razumijemo	417	
-riješavamo		
-riješimo	174	
-riješićemo		
-rješavamo		
-rješimo		
-saosjećamo		
-savjetujemo		
-sijemo		
-sjedimo	87	
-sjednemo		
-sjetimo		
-sjećamo		
-slijedimo	68	
-slijećemo		
-smijemo	650	
-smjestimo		
-spriječimo		
-svjedočimo		
-tjeramo		
-ubijedimo	10	
-ubjeđujemo		
-udijelimo		
-umijemo	81	
-umiješamo		
-usmjerimo		
-uspijemo	65	
-uspijevamo	30	
-uspjećemo		
-utječemo		
-utješimo		
-uvjeravamo		
-uvjerimo		
-uvrijedimo		
-vidjećemo		
-vjenčajmo		
-vjenčamo		
-vjenčavamo		
-vjenčaćemo		
-vjerujemo		
-vježbamo		
-vrijedimo		
-zahtijevamo	84	
-zahtjevamo		
-zamijenimo	28	
-zamjenimo		
-zapjevajmo		
+adaptiramo	98		2
+afirmišemo			2
+ajdemo			2
+ajmo			2
+aktivirajmo			2
+aktiviramo	269		2
+aktivirasmo			2
+aktiviraćemo	11		3
+alarmirajmo			2
+alarmiramo			2
+alarmirasmo			2
+alarmiraćemo			3
+amo		M	2
+amputiramo	12		2
+analizirajmo	43		2
+analiziramo	1173		2
+analiziraćemo	107		3
+angažovaćemo	78		2
+angažujemo	716		2
+animiramo	221		2
+apelujemo	1359		4
+aplaudiramo	84		2
+arlaukasmo			2
+arlaukaćemo			2
+arlaučemo			2
+arlaučimo			2
+astmo			2
+ašikujemo			4
+ažuriramo	93		2
+bacajmo	16		2
+bacamo	529		2
+bacaćemo			3
+bacimo	686		2
+bacismo			2
+bacićemo	27		3
+bakćemo	34		2
+bandažirajmo			2
+bandažiramo			2
+bandažirasmo			2
+bandažiraćemo			2
+banemo			2
+bankrotirajmo			2
+bankrotiramo	41		2
+bankrotirasmo			2
+bankrotiraćemo			3
+baratamo	110		2
+batalimo	88		2
+batinajmo			2
+batinamo			2
+batinasmo			2
+batinaćemo			3
+bauljajmo			2
+bauljamo			2
+bauljasmo			2
+bauljaćemo			3
+bavimo	5863		3
+bavićemo	206		4
+bavljasmo			3
+baziramo	125		2
+baštinimo	84		4
+bdijemo			3
+bdimo	17		2
+bejasmo			2
+beknemo			2
+beknimo			2
+beknusmo			2
+beknućemo			3
+beležimo	713		3
+beremo	146		3
+bergamo			2
+berimo			3
+besedimo			3
+besmo			2
+besnimo	12		2
+bežaćemo			3
+bežimo	706		2
+bijasmo			3
+bijemo	270		3
+birajmo	93		2
+biramo	2796		2
+biraćemo	29		3
+bismo	61214		2
+bistrimo	18		2
+bivajmo			2
+bivamo	229		2
+bićemo	2984		3
+bičevasmo			4
+bičevaćemo			5
+bičujemo			4
+bičujmo			3
+bježmo		J	2
+blagodarimo	171		2
+blagosiljamo	51		2
+blagoslovimo	20		2
+blamiramo	21		2
+blažimo			2
+blebetasmo			2
+blebetaćemo			3
+blebećemo			2
+blebećimo			2
+bledimo			2
+blefiramo			2
+blejimo	76		2
+bližimo	119		2
+blokiramo	218		2
+blokiraćemo	42		3
+bludimo			2
+bludićemo			2
+bludničimo			4
+bocnemo			3
+bodemo	11		2
+bogatimo	46		3
+bojimo	999		2
+bojkotujemo	137		2
+boksujemo	17		2
+bolujemo	97		2
+bolujmo			2
+bombardovaćemo			2
+bombardujemo	61		2
+borasmo			2
+boravimo	234		3
+borimo	4837		2
+borismo			2
+borićemo	543		3
+branimo	2096		2
+branismo			2
+branićemo	127		3
+brasmo			2
+bratimimo	13		2
+bratimo			2
+bratićemo			2
+braćasmo			2
+braćemo			3
+brbljajmo			2
+brbljamo	11		2
+brbljasmo			2
+brbljaćemo			3
+brboćemo			2
+brecnusmo			2
+brijemo	13		3
+brinemo	1849		3
+brinimo	21		3
+brinućemo	17		4
+brišemo	190		3
+brišimo			3
+brojasmo			2
+brojaćemo			3
+brojimo	285		2
+brstimo			2
+brukamo	105		3
+brzajmo			2
+brzamo	14		2
+budemo	30734		3
+budimo	2895		3
+buljimo	33		2
+bunimo	315		2
+bušimo	38		2
+carujemo			2
+celivajmo			2
+celivamo	47		2
+cenimo	1477		2
+cenjkamo	10		3
+cenkamo	17		3
+cepajmo			2
+cepamo	55		2
+cepasmo			2
+cepidlačimo			2
+ciljamo	97		2
+cimamo	45		3
+cimo		M	2
+citiramo	349		2
+citirasmo			2
+citiraćemo	55		2
+crkavamo	25		3
+crknemo	33		3
+crpemo	17		3
+crpimo	118		2
+crtamo	155		3
+crvenimo	30		2
+cvilimo			2
+cvrkućemo			3
+dadnemo			3
+dadosmo			3
+dajemo	6122		2
+dajmo	474		2
+damo	7034		2
+danemo			2
+dangubimo	17		3
+darujemo	129		2
+darujmo	85		2
+dasmo			2
+davaćemo	60		3
+davimo	108		2
+daćemo	1134		3
+deaktiviramo			2
+debatujemo	32		2
+debljamo			2
+definišemo	1410		2
+definišimo	19		2
+dekodiramo	12		2
+dekorišemo	17		2
+delajmo			2
+delamo			2
+delimo	2956		2
+delićemo	58		3
+delujemo	957		4
+delujmo	11		3
+demo	2301		2
+demonstriramo	165		2
+demontiramo	30		2
+deportujemo	12		2
+deremo	51		2
+detektujemo	81		2
+detoniramo			2
+dezinfikujemo	18		2
+dešifrujemo	37		2
+dignemo	508		3
+dignimo	30		3
+digosmo			3
+dijademo			2
+diktiramo	57		2
+dilujemo			2
+dinamo	822		2
+diplomiramo			2
+dirajmo			2
+diramo	199		2
+dirnemo			2
+diskreditujemo	21		2
+diskutovaćemo	19		2
+diskutujemo	684		2
+distribuiramo	146		2
+divimo	550		2
+divljamo	16		2
+dizajniramo	110		2
+dizasmo			3
+dičimo	113		2
+dišemo	540		2
+dišimo			2
+dižemo	528		3
+dižimo			3
+dobacujemo	28		2
+dobavimo			2
+dobijamo	6980		3
+dobijemo	9109		3
+dobijmo			2
+dobismo			2
+dobivamo	119		2
+dobićemo	1221		3
+dodadosmo			2
+dodajemo	708		2
+dodajmo	673		2
+dodamo	2556		2
+dodaćemo	141		3
+dodelimo	166		2
+dodeljujemo	177		2
+dodijavamo			2
+dodirnemo	96		2
+dodirujemo	107		2
+dogovaramo	616		2
+dogovorimo	2396		2
+dogovorismo			2
+dogovorićemo	208		3
+dograbimo			2
+doguramo	87		2
+dohvatimo	72		3
+dojavimo			2
+dokazaćemo	72		3
+dokazujemo	475		2
+dokažemo	896		2
+dokažimo	23		2
+dokončajmo			2
+dokopamo	56		2
+dokrajčimo	22		3
+dokumentujemo	51		2
+dokusurimo			2
+dokučimo	71		2
+dolazimo	6445		3
+dolazićemo	13		4
+doletimo			2
+dolivamo			2
+dominiramo	100		2
+domišljamo			2
+domognemo	120		2
+donesemo	1759		3
+donesimo	13		3
+donesmo			2
+donesosmo			3
+donećemo	229		3
+doniramo	57		2
+donosimo	3422		2
+dopadamo	10		3
+dopadnemo	39		3
+dopisujemo	225		2
+doplovismo			2
+dopratismo			2
+dopremimo	13		2
+dopremo	127		2
+doprinesemo	934		3
+doprinećemo	52		3
+doprinosimo	422		2
+dopunimo	149		3
+dopunićemo			4
+dopunjujemo	120		2
+dopustimo	483		2
+dopustićemo	10		3
+dopuštamo	255		2
+doručkovaćemo			5
+doručkujemo	69		4
+doručkujmo			3
+dosadimo	13		2
+dosađujemo	30		2
+dosegnemo	116		2
+doselimo			2
+dospemo	78		2
+dospećemo			3
+dostavimo	257		3
+dostavićemo	65		4
+dostavljamo	596		3
+dostignemo	522		3
+dostigosmo			3
+dostižemo	55		3
+dotaknemo	171		2
+doteramo	54		2
+dotičemo	74		2
+dovedemo	1907		2
+dovedimo	22		2
+dovezemo	29		2
+dovešćemo	113		2
+dovlačimo	15		2
+dovodimo	745		2
+dovozimo	34		2
+dovršavamo	27		2
+dovršimo	134		2
+dovršićemo			3
+dovukosmo			2
+dovučemo	23		2
+dozivamo	30		2
+doziđujemo			2
+doznajemo	229		2
+doznajmo			2
+doznamo	62		2
+doznasmo			2
+doznaćemo			3
+dozovemo	85		3
+dozvolimo	2297		2
+dozvolićemo	33		3
+dozvoljavamo	691		2
+doćićemo			2
+dočaramo	133		2
+dočekajmo	18		3
+dočekamo	797		3
+dočekasmo			3
+dočekaćemo	69		4
+dočekujemo	440		2
+dočepamo	38		2
+dođemo	5140		2
+dođimo	16		2
+dođosmo			2
+doživesmo			2
+doživećemo	64		3
+doživimo	627		2
+doživljavamo	1556		2
+dramatizujemo			2
+dreknemo	10		2
+dremajmo			2
+dremamo	10		2
+dremnemo			3
+dresiramo			2
+drhtimo	36		2
+drmnemo			2
+drobimo	10		2
+drogiramo	24		2
+drugujemo			2
+družimo	1604		2
+družićemo	58		3
+drznemo			3
+držasmo			2
+držaćemo	83		3
+držimo	3346		2
+dugujemo	1458		2
+duhnimo			2
+dunemo	12		2
+dupliramo	68		2
+dupliraćemo			2
+duvamo	59		2
+dužimo	107		2
+dvoličimo			2
+dvoumimo	43		2
+džogiramo			2
+ekshumiramo			2
+eksperimentišemo	84		2
+eksplodiramo			2
+eksplodiraćemo			3
+eliminisaćemo			2
+eliminišemo	281		2
+emitovaćemo	40		2
+emitujemo	221		2
+emo	1062		2
+erazmo			2
+evakuiramo			2
+evakuisaćemo			2
+evakuišemo			2
+evoluiramo	34		2
+falsifikujemo	24		2
+farbamo	62		3
+fiksiramo	53		2
+finansiramo	891		2
+flertujemo	15		4
+fokusirajmo	22		2
+fokusiramo	590		2
+fokusiraćemo	56		3
+foliramo	74		2
+formiramo	1063		2
+formiraćemo	115		3
+formulišemo			2
+forsiramo	155		2
+fotografišemo	134		2
+funkcionišemo			2
+furamo			2
+gajimo	544		2
+ganjamo	24		2
+ganjaćemo			3
+garantujemo	889		4
+gasimo	209		2
+gazdujemo	29		2
+gazimo	225		3
+gađamo	118		2
+gađaćemo			3
+generalisimo			2
+gibajmo			2
+gibamo			2
+ginemo	136		3
+ginusmo			2
+ginućemo			4
+gladujemo	97		2
+gladujmo			2
+glasajmo	87		2
+glasamo	1647		2
+glasaćemo	212		3
+glasujmo			3
+gledajmo	210		3
+gledamo	9820		3
+gledasmo			3
+gledaćemo	459		4
+gložimo	25		2
+glumimo	206		2
+glumićemo			3
+glupiramo	17		2
+gluvarimo			2
+gluvonemo		M	2
+gmo			1
+gnjavimo	26		2
+gnušamo	47		2
+gojimo	61		2
+golemo	217		2
+gomilamo	32		2
+gonimo	83		2
+gonićemo	11		3
+gorimo	25		2
+gospodujemo			2
+gostimo	22		2
+gostićemo			3
+gostujemo	207		2
+govorasmo			2
+govorimo	20976		2
+govorićemo	257		3
+grabimo	73		3
+gradimo	2753		2
+gradićemo	107		3
+graničimo	50		3
+grdimo	38		2
+grebemo	22		2
+grebuckamo			2
+gredimo			2
+grejemo	215		2
+grešimo	578		2
+grickamo	53		3
+gricnemo	13		3
+grizemo	46		3
+grlimo	85		3
+grmimo			2
+grupišimo			2
+grčimo			2
+gubimo	2400		2
+gurajmo			2
+guramo	499		2
+gurnemo	93		3
+gurnimo			3
+gurnućemo			4
+gutamo	137		2
+gušimo	124		2
+hajdemo			2
+hajdmo			2
+hajmo	350		2
+hakujemo			2
+hanumo			2
+hapsimo			2
+harčimo			2
+hilmo			2
+hitajmo			3
+hitamo	56		3
+hitimo			3
+hladimo	37		2
+hodajmo			2
+hodamo	472		2
+hodasmo			2
+hodaćemo			3
+hodimo	141		2
+hodismo			2
+hodićemo			3
+homo			2
+hoćemo	10814		3
+hođasmo			2
+hrabrimo	32		2
+hramljemo			2
+hranimo	891		2
+hranićemo			3
+hrlimo	100		2
+hromo	20		2
+htednemo			3
+htedosmo			3
+hulimo	14		2
+hvalimo	625		2
+hvalićemo	10		3
+hvališemo			3
+hvatajmo			3
+hvatamo	305		3
+idemo	18242		2
+identifikujemo	388		5
+idimo	47		2
+idosmo			2
+ignorisaćemo			2
+ignorišemo	339		2
+igrajmo	92		2
+igramo	6706		2
+igrasmo			2
+igraćemo	402		3
+ikamo			3
+imademo			2
+imadosmo			3
+imajmo	192		2
+imamo	131038		2
+imasmo			2
+imaćemo	4542		3
+imenujemo	177		5
+imitiramo	70		2
+impresioniramo			2
+improvizovaćemo			5
+improvizujemo	67		4
+infiltriramo			2
+informišemo	536		2
+insceniramo			2
+insistiramo	1349		2
+inspirišemo			2
+instaliramo	162		2
+integrišemo			2
+interesujemo	88		2
+intervenišemo			2
+intervjuišemo	19		2
+intubiramo			2
+investiramo	491		2
+iscedimo	24		2
+iscelimo	23		2
+iscelismo			2
+isceljujemo	14		2
+iscrpimo	33		2
+iseckamo	45		2
+iselimo	99		2
+isečemo	137		3
+isflekamo			2
+isisamo			2
+iskazaćemo			3
+iskazujemo	219		2
+iskačemo	19		2
+iskažemo	321		2
+isklasmo			2
+isključimo	402		2
+isključićemo	11		3
+isključujemo	260		2
+iskombinujemo	25		2
+iskontrolišemo	46		2
+iskopajmo			2
+iskopamo	86		2
+iskopavamo	17		2
+iskopaćemo			3
+iskorenimo	153		2
+iskoristimo	2898		3
+iskoristićemo	286		4
+iskorišćavamo	28		2
+iskočimo	24		2
+iskrademo			3
+iskrcamo			2
+iskrcasmo			2
+iskrcavamo	11		3
+iskrcaćemo			3
+iskrivljujemo			2
+iskupimo	44		2
+iskupismo			2
+iskusimo	129		2
+iskušamo			3
+iskušavamo	10		2
+ismejavamo			2
+ismevamo	37		2
+ismijavamo		J	2
+ispadamo	114		3
+ispadnemo	207		3
+ispadosmo			3
+ispalimo	14		2
+ispalismo			2
+ispalićemo			2
+ispaljujemo			2
+isparimo			2
+ispaštamo	147		2
+ispašćemo			3
+isperemo	33		3
+ispesmo			2
+ispečemo	45		3
+ispijamo	52		2
+ispijemo	14		3
+ispijmo			2
+ispisasmo			2
+ispisujemo	66		2
+ispitajmo	20		2
+ispitamo	338		2
+ispitasmo			2
+ispitaćemo	61		3
+ispitivaćemo			3
+ispitujemo	269		2
+ispićemo			3
+ispišemo	62		2
+isplaniramo	75		2
+isplatimo	285		2
+isplatismo			2
+isplatićemo	16		3
+isplaćujemo	186		2
+isplačemo	20		2
+isplivamo	37		3
+isplovimo	11		2
+isplovićemo			3
+isplovljavamo			2
+ispomažemo	29		2
+isporučimo	236		2
+isporučićemo	17		3
+isporučujemo	405		2
+ispovedimo	32		2
+ispoštujemo	411		2
+ispratimo	348		3
+ispratismo			3
+ispratićemo	15		4
+ispravimo	897		3
+ispravismo			3
+ispravićemo	40		4
+ispravljamo	267		3
+ispraznimo	58		2
+ispraznićemo			3
+ispraćamo	100		2
+isprašimo			2
+isprašićemo			2
+isprebijamo			2
+ispredamo			2
+isprepadamo			2
+isprevrćemo			2
+ispričajmo			2
+ispričamo	332		2
+ispričasmo			2
+ispričavamo	11		2
+ispričaćemo	26		3
+isprljamo			2
+isprobajmo			2
+isprobamo	297		2
+isprobavamo	64		2
+isprobaćemo	11		3
+isprosimo			2
+ispružimo	35		2
+ispržimo	11		2
+ispumpamo			2
+ispunimo	1343		3
+ispunismo			3
+ispunićemo	63		4
+ispunjavamo	707		2
+ispustimo	87		2
+ispušimo			2
+ispuštajmo			2
+ispuštamo	62		2
+istaknemo	717		2
+istaknimo	45		2
+isterajmo			3
+isteramo	177		3
+isteraćemo	17		4
+isterujemo	40		2
+istežemo	39		2
+istisnemo	18		3
+ističemo	1425		3
+istopimo	28		2
+istopismo			2
+istovarimo	14		3
+istrajemo	395		2
+istrajmo	14		2
+istražimo	285		2
+istražismo			2
+istraživaćemo	10		3
+istražićemo	35		3
+istražujemo	620		2
+istražujmo			2
+istrebimo	28		2
+istrebismo			2
+istrebljujmo			2
+istresemo	22		3
+istrgnemo	12		2
+istrpimo	68		2
+istrunemo			2
+istrčimo	77		2
+istupimo	30		2
+isturismo			2
+istuširamo	31		2
+isušimo			2
+izaberemo	1142		3
+izaberimo	34		3
+izabiremo			3
+izabrasmo			2
+izabraćemo	84		3
+izazivamo	120		2
+izazovemo	119		3
+izazvaćemo			3
+izaćemo			2
+izaćićemo			2
+izađemo	3133		2
+izađimo	92		2
+izađosmo			2
+izbacimo	468		2
+izbacismo			2
+izbacićemo	23		3
+izbacujemo	160		2
+izbavimo	74		3
+izbavismo			3
+izbavićemo			4
+izbegavamo	537		2
+izbegnemo	1047		2
+izbegnimo			2
+izbegosmo			3
+izbijamo	34		2
+izbijemo			3
+izbismo			2
+izborimo	1463		2
+izborićemo	32		3
+izbrisaćemo			4
+izbrišemo	163		3
+izbrišimo			3
+izbrojimo	51		2
+izbušimo	25		2
+izdajemo	304		2
+izdajmo			2
+izdamo	210		2
+izdaćemo	17		3
+izdevetamo			2
+izdignemo	87		2
+izdrobimo			2
+izdržasmo			2
+izdržavamo	159		3
+izdržaćemo	96		3
+izdržimo	510		2
+izduvamo	20		2
+izdvajamo	2393		2
+izdvojimo	467		2
+izdvojismo			2
+izgibosmo			2
+izginemo	82		3
+izginućemo	11		4
+izgladimo	32		2
+izgladnimo			2
+izgladnjujemo			2
+izglasamo	204		2
+izgledajmo			2
+izgledamo	496		2
+izgledaćemo			3
+izgorećemo			3
+izgorimo	35		2
+izgovaramo	247		2
+izgovorimo	181		2
+izgradimo	1312		2
+izgradićemo	127		3
+izgrađujemo	173		2
+izgrađujmo			2
+izgubimo	2015		2
+izgubismo	10		2
+izgubićemo	204		3
+izguramo	119		2
+izguraćemo	10		2
+izigravamo	90		2
+iziskujemo			2
+iziđemo	41		2
+iziđimo	10		2
+iziđosmo			2
+izjadamo			3
+izjasnimo	220		2
+izjavimo	44		2
+izjavljujemo	76		2
+izjednačimo	180		2
+izlazimo	1489		3
+izlazismo			2
+izlažemo	293		2
+izletimo	12		2
+izlečimo	137		2
+izlečismo			2
+izlečićemo			3
+izležavamo	13		2
+izlijemo	18		2
+izljubismo			2
+izložimo	199		2
+izložićemo	52		3
+izludimo			2
+izlučujemo			2
+izmaknemo	21		2
+izmamimo	32		2
+izmaštamo			2
+izmenimo	342		2
+izmenjujemo			2
+izmerimo	233		3
+izmestimo	84		2
+izmešamo	80		2
+izmešasmo			2
+izmirimo	161		2
+izmislimo	122		3
+izmislićemo			4
+izmičemo	11		3
+izmišljamo	239		2
+izmjenjujemo		J	2
+izmlatimo			2
+izmolimo	24		2
+izmotavamo			2
+iznajmimo	82		2
+iznajmićemo			3
+iznajmljujemo	82		2
+iznađemo	103		2
+iznašamo			2
+iznedrimo	26		2
+iznenadimo	281		2
+iznenadićemo	19		3
+iznerviramo	29		2
+iznesemo	612		3
+iznesimo			3
+iznesmo			2
+iznesosmo			3
+izneverimo	40		2
+iznećemo	111		3
+iznosimo	645		2
+iznudimo	10		3
+izobličimo			2
+izolujemo	100		4
+izostanemo			3
+izostavimo	115		3
+izostavljamo	23		3
+izoštrimo	13		2
+izradimo	174		2
+izranjamo	27		2
+izravnamo	18		2
+izravnismo			2
+izrazimo	633		2
+izračunamo	192		2
+izrađujemo	493		2
+izražavamo	722		2
+izreknemo	22		3
+izrekosmo			3
+izređamo			2
+izrežemo	14		3
+izričemo	35		2
+izronimo			2
+izručimo	50		2
+izručujemo	18		2
+izumiremo	43		3
+izumremo	28		2
+izustimo			2
+izuzimamo	33		3
+izuzmemo	1128		2
+izučavamo	75		2
+izučimo	25		2
+izvadimo	244		3
+izvadićemo			4
+izvedemo	622		2
+izvedimo	13		2
+izvestimo	47		2
+izvezemo	340		2
+izveštavamo	121		2
+izvešćemo	56		2
+izvidimo			3
+izvinemo	26		2
+izvinimo	119		2
+izvinjavamo	786		2
+izvisimo			2
+izvičemo			2
+izviđamo			2
+izvlačimo	283		2
+izvlačićemo			3
+izvodimo	581		2
+izvojujemo			2
+izvozimo	1239		2
+izvrgavamo			2
+izvrćemo	13		2
+izvršavamo	151		3
+izvršimo	871		2
+izvršićemo	104		3
+izvršujemo	10		2
+izvucimo	17		2
+izvukosmo			2
+izvućemo			2
+izvućićemo			2
+izvučemo	1152		2
+ićemo			2
+iđasmo			2
+ištemo	69		2
+ištimo			2
+išunjamo			2
+iščekujemo	305		2
+iščeprkamo			2
+iščezosmo			2
+iščitavamo	36		2
+iščupamo	60		2
+jadikujemo	24		4
+jadikujmo			3
+jahaćemo			4
+jamo			2
+jamčimo	13		3
+javimo	246		2
+javismo			2
+javićemo	68		3
+javljamo	245		2
+javljaćemo			3
+jačamo	416		2
+jašemo	33		3
+jašimo			3
+jedemo	3035		3
+jedimo	49		2
+jedosmo			2
+jedrimo	11		2
+jesmo	6830		2
+jeđasmo			2
+ješćemo	63		3
+jurcamo	31		2
+jurimo	507		2
+jurićemo			3
+jurišamo	24		2
+jurnimo			2
+jurnusmo			2
+kajemo	146		3
+kalemimo	10		3
+kamo	4325		2
+kampovaćemo			2
+kampujemo	19		2
+kamufliramo			2
+kandidujemo	125		2
+kapiramo	96		2
+kartamo			3
+kasamo			2
+kasnimo	569		2
+kasnićemo			3
+kazasmo			2
+kazaćemo	34		3
+kaznimo	202		3
+kaznićemo	13		4
+kazujemo	33		2
+kazujmo			2
+kačimo	76		2
+kažemo	15643		2
+kažimo	72		2
+kažnjavamo	163		2
+kidajmo			3
+kidamo	42		3
+kidnapujemo			2
+kidnemo			2
+kikoćemo	14		2
+kinjimo	13		2
+kladimo	254		3
+klanjamo	315		3
+kleknemo	35		3
+kleknimo			3
+klevećemo			2
+klečimo	38		2
+kliknemo	227		3
+kliknimo	39		3
+kliknusmo			3
+klimajmo			2
+klimamo			2
+klimasmo			2
+klimaćemo			2
+klimo			2
+klisnemo			2
+klizamo	22		2
+klizimo	69		2
+kličemo	83		3
+kličimo			3
+klonemo	42		2
+klonimo	92		2
+kloniramo	12		2
+klopamo			2
+kockamo	40		3
+koketiramo	12		2
+koknemo			2
+kolebamo	17		2
+koljemo			2
+koljimo			2
+kombinujemo	219		2
+komentarišemo	731		2
+komo			2
+kompletiramo	104		2
+komplikujemo	74		4
+komuniciramo	758		2
+konačimo			2
+koncentrišemo	251		2
+koncentrišimo			2
+konfiskujemo			2
+konstatiramo			2
+konsultujemo	207		2
+kontaktiramo	305		2
+kontaktiraćemo	73		3
+kontamo	32		2
+kontrolisaćemo	26		2
+kontrolišemo	995		2
+konzumiramo	362		2
+koordiniramo			2
+kopamo	233		2
+kopaćemo			3
+kopiramo	182		2
+koračajmo	22		2
+koračamo	237		2
+korigujemo	187		2
+koristimo	10133		3
+koristićemo	304		4
+kosimo	40		2
+kosnemo			2
+kostrešimo			2
+kotrljamo	27		2
+kočimo	48		2
+krademo	188		3
+kreiramo	931		2
+kreiraćemo	57		3
+kremiramo			2
+krenemo	4890		2
+krenimo	963		2
+krenusmo	33		2
+krenućemo	294		3
+kresnemo	20		3
+kretaćemo			3
+kretosmo			2
+krećemo	3188		2
+krećimo			2
+krečemo			2
+krečimo	43		2
+krešemo	24		2
+krijemo	474		3
+krijumčarimo			2
+kritikujemo	817		2
+krivimo	289		2
+krićemo			3
+krojimo	91		2
+kročimo	38		2
+krpimo	98		3
+krstarimo	22		3
+krstimo	155		2
+krstismo			2
+kružimo	23		2
+krvarimo	19		3
+krvimo			2
+krčimo	37		2
+krčićemo			3
+krčkamo	21		3
+krčmo			2
+kršimo	190		2
+krštavamo	38		2
+kuburimo	66		2
+kucajmo			3
+kucamo	133		3
+kucnemo	17		3
+kucnimo			3
+kudikamo	691		2
+kuglajmo			2
+kuglamo			2
+kujemo	33		2
+kukamo	588		3
+kuliramo			2
+kumimo	11		2
+kumo	42		2
+kunemo	227		3
+kupamo	208		2
+kupaćemo			3
+kupimo	2231		2
+kupićemo	119		3
+kupovaćemo	34		3
+kupujemo	2274		2
+kurtališemo			2
+kuvamo	278		3
+kuvaćemo			4
+kušajmo			3
+kušamo	16		3
+kužimo			2
+kvarimo	124		2
+lajemo	44		3
+lakomo	31		3
+lansiramo	77		2
+lansiraćemo			3
+laskamo	16		3
+laćamo			3
+lažemo	1844		2
+lažiramo			2
+lebdimo	48		2
+legalizujemo	88		2
+legnemo	141		3
+legosmo			3
+lenčarimo			2
+lepimo	92		2
+letećemo			2
+letimo	357		2
+letujemo	64		2
+lečimo	557		2
+lečismo			2
+lečićemo			3
+ležimo	154		2
+licitiramo	87		2
+lijemo	21		3
+likujemo	40		2
+likujmo			2
+likvidiramo	26		2
+limo			2
+listamo	52		2
+ličimo	349		2
+ličićemo			3
+lišavajmo			2
+lišavamo	57		2
+lišimo	72		2
+lišismo			2
+ližemo	41		2
+ljubimo	612		2
+ljuljamo	34		2
+ljutimo	239		2
+ljuštimo			2
+lobiramo			2
+lociramo	80		2
+lomimo	130		2
+loptamo			3
+lovimo	159		2
+lovićemo			3
+ložimo	84		2
+ludimo			2
+ludiramo			2
+ludujemo	34		2
+ludujmo			2
+lumpujemo			2
+lupamo	114		2
+lupimo	32		3
+lutamo	159		2
+makljamo			2
+maknemo	58		2
+malakšemo			2
+maltretiramo	90		2
+mamo			2
+manevrišemo			2
+manipulišemo	67		2
+mapiramo	26		2
+marširajmo			2
+marširamo	22		2
+marširaćemo			2
+maskiramo	31		2
+maturiramo			2
+maznemo	27		3
+mašemo	75		2
+mašimo	13		2
+maštamo	274		2
+mažemo	120		3
+mažnjavamo			2
+meditiramo	31		2
+meljemo	21		3
+menjajmo	69		2
+menjamo	3711		2
+menjaćemo	62		3
+merimo	594		3
+merićemo	12		4
+mesimo	37		2
+metanišemo			2
+metnemo	18		2
+metnimo			2
+metnusmo			2
+mećemo	28		2
+mešajmo	19		2
+mešamo	512		2
+milujemo	20		4
+mimo	8380		2
+mimoilazimo	23		3
+mimoiđemo	18		2
+miniramo	15		2
+minućemo			3
+mirimo	167		2
+mirišemo	35		2
+mirišimo			2
+mirujemo	24		2
+mislimo	13275		3
+mislićemo	24		4
+mitimo			2
+mičemo	20		3
+mičimo			3
+mlatimo	94		2
+množimo	47		2
+mo		M	1
+mobilišemo	70		2
+modernizujemo	165		2
+modifikujemo	57		2
+mogasmo			3
+mogosmo			3
+molimo	9935		2
+molismo			2
+molićemo	35		3
+moljakamo	18		2
+momo			2
+montiramo	104		2
+moramo	55267		2
+moraćemo	1935		3
+morimo			2
+morismo			2
+motamo	19		2
+motivišemo			2
+motrimo	21		2
+motrićemo			3
+mozgamo	14		2
+moćemo			2
+moćićemo			2
+možemo	113347		3
+mrdamo	45		2
+mrdnemo	63		2
+mremo			2
+mrmoljimo			2
+mrsimo	15		2
+mrzimo	714		2
+mrznemo	12		2
+mucimo			2
+mudrujemo	27		2
+mudrujmo			2
+muljamo	14		2
+muvamo	25		2
+muzemo	37		3
+mučimo	329		3
+mučismo			3
+mučićemo			4
+nabacimo	39		2
+nabacujemo	16		2
+nabasamo	13		2
+nabasasmo			2
+nabavimo	446		3
+nabavićemo	39		4
+nabavljamo	279		3
+nabijamo	34		2
+nabijemo	37		3
+nabrajamo	276		2
+nabrojimo	150		2
+naciljamo			2
+nacrtamo	81		3
+nadahnimo			2
+nadajmo	1381		2
+nadamo	14999		2
+nadasmo			2
+nadenemo			3
+nadgledamo			2
+nadgledaćemo			2
+nadigramo	30		2
+nadilazimo			2
+nadimamo			3
+nadimo			2
+nadiđemo			2
+nadjunačimo			2
+nadjunačismo			2
+nadmašimo	56		3
+nadmemo			2
+nadmećemo	69		2
+nadmudrimo	18		2
+nadmudrismo			2
+nadnesmo			2
+nadoknadimo	369		3
+nadoknadićemo	29		4
+nadoknađujemo	72		2
+nadrastemo			2
+nadrljamo	14		2
+nadrljaćemo			2
+naduvamo	11		2
+nadvladamo	23		2
+nadziremo			2
+nadživimo			2
+nagazimo			2
+nagazićemo			2
+nagađamo	454		2
+naginjemo	35		3
+naglasimo	476		2
+naglasismo			2
+nagnemo	18		2
+nagodimo	43		2
+nagodićemo			3
+nagovorimo	48		2
+nagrabimo			2
+nagradimo	239		2
+nagrađujemo	207		2
+nagrdismo			2
+nagrnusmo			2
+nahodimo	10		2
+nahranimo	121		2
+nahranismo			2
+nahranićemo			3
+nailazimo	1346		3
+naiđemo	219		2
+naiđosmo			2
+najavimo	175		2
+najavljujemo	295		2
+najedemo	41		3
+najurimo	53		2
+nakačimo			2
+nakitimo			2
+naklopimo			2
+nalazimo	9074		3
+nalazićemo			4
+nalažemo	30		2
+naletećemo			2
+naletimo	88		2
+nalećemo	23		2
+nalijemo	42		2
+naljutimo	59		2
+naložimo	26		2
+namaknemo	29		2
+namamimo			2
+namamićemo			3
+namažemo	78		3
+namažimo			3
+nameravamo	825		2
+namerimo			2
+namestimo	94		3
+namestićemo			4
+nametnemo	281		3
+namećemo	160		2
+nameštamo	52		2
+namirimo	47		2
+namirišemo	11		2
+nanesemo	115		2
+nanosimo	208		2
+naoružajmo			2
+naoružamo	41		2
+naovamo	1421		2
+naoštrimo			2
+napadamo	394		3
+napadnemo	232		3
+napadnimo			3
+napajamo	34		2
+napatismo			3
+napašćemo	42		3
+napijamo			2
+napijemo	76		3
+napijmo			2
+napisasmo			2
+napisaćemo	35		3
+napićemo			3
+napišemo	666		2
+napišimo	20		2
+naplatimo	359		2
+naplatićemo	17		2
+naplaćujemo	260		2
+naplačemo			2
+napojimo	13		2
+napojismo			2
+napomenemo	476		2
+napomenimo	231		2
+napominjemo	1552		3
+napravimo	8817		3
+napravismo			3
+napravićemo	705		4
+napredujemo	865		4
+napredujmo			3
+napregnemo	16		2
+napregnimo			2
+naprežemo	20		2
+napumpamo			3
+napunimo	287		3
+napunićemo			4
+napustimo	423		2
+napustićemo			3
+napušimo			2
+napuštamo	241		2
+naradimo			2
+naredimo	28		2
+naredićemo			2
+naređujemo	80		2
+naričemo	12		2
+narugamo			2
+narugasmo			2
+naručimo	114		2
+naručićemo			3
+naručujemo	102		2
+narušavamo	78		2
+narušimo	47		2
+narušismo			2
+naružismo			2
+nasamo	790		3
+nasedamo	71		2
+nasednemo	38		2
+naselimo	36		2
+naselićemo			3
+naseljavamo	19		2
+nasitimo			3
+nasitićemo			4
+nasladimo			2
+nasladismo			2
+naslanjamo	17		3
+nasledimo	27		2
+naslikajmo			3
+naslonimo	22		2
+naslovimo			2
+naslutimo	148		2
+nasmejemo	178		2
+nasmijemo		J	2
+naspavamo	15		2
+nasrnemo			2
+nastanimo	20		2
+nastanismo			2
+nastavimo	4897		3
+nastavismo			3
+nastavićemo	1489		4
+nastavljamo	3233		3
+nastojasmo			3
+nastojimo	1605		3
+nastojmo	18		2
+nastradamo	10		2
+nastupamo	424		2
+nastupasmo			2
+nastupimo	174		2
+nastupismo			2
+nasusmo			2
+naterajmo	13		3
+nateramo	400		3
+naterasmo			3
+nateraćemo	27		4
+natežemo	39		2
+natovarimo	29		2
+natovarismo			2
+natočimo	11		2
+natrljamo			2
+natučemo			2
+naudimo	21		3
+naučimo	2709		2
+naučismo			2
+naučićemo	141		3
+navalimo	42		2
+navalismo			2
+navalićemo			3
+navedemo	487		3
+navedimo	188		3
+navedosmo			3
+navešćemo	648		3
+navijamo	436		2
+navikavamo	144		2
+naviknemo	243		3
+naviknimo			3
+navikosmo			3
+navlačimo	28		2
+navodimo	1142		2
+navozimo			2
+navratimo			2
+navučemo	38		2
+nazadujemo	43		4
+nazdravimo	106		3
+nazdravićemo			4
+nazdravljamo	37		3
+naziremo	91		2
+nazivamo	2799		2
+naznačimo	33		2
+nazovemo	824		3
+nazovimo	873		3
+nazremo	22		2
+nazvasmo			2
+nazvaćemo	51		3
+naćemo			2
+naćićemo			2
+načekasmo			2
+načekaćemo	21		2
+načinimo	254		2
+načinismo			2
+načinjemo			2
+nađemo	4561		2
+nađimo	57		2
+nađosmo			2
+našalimo	68		2
+našminkamo	14		2
+nedostajemo	13		3
+negiramo	137		2
+negodujemo	22		4
+negovaćemo	12		5
+negujemo	895		4
+negujmo	38		3
+nekamo			3
+nemamo	34173		2
+nemo	1327		2
+nemojmo	1896		3
+nerviramo	147		2
+nestajemo	208		3
+nestanemo	230		3
+nestanimo			3
+nestaćemo	60		3
+neutrališemo	71		2
+nevidimo			2
+nećemo			3
+nijesmo		MJ	2
+nikamo			3
+nismo	85660		2
+njačemo			2
+njegujemo			4
+njišemo	10		2
+njušimo			3
+njuškamo			3
+normiramo	12		2
+nosimo	2602		2
+nosismo			2
+nosićemo	22		3
+noćimo	35		2
+noćivamo			2
+nudimo	6223		3
+obaramo	71		2
+obasjamo			2
+obavestimo	868		2
+obavestićemo	195		3
+obaveštavamo	3077		2
+obaveštavaćemo	49		3
+obavežemo	96		2
+obavijemo			4
+obavijmo			3
+obavimo	622		3
+obavismo			3
+obavićemo	76		4
+obavljamo	896		3
+obaziremo	95		2
+obazrimo			2
+obedujemo	10		4
+obeležavamo	655		2
+obeležimo	395		2
+obelodanimo	29		2
+oberemo			2
+oberimo			2
+obeshrabrimo	21		2
+obesimo	40		3
+obesismo			3
+obesićemo			4
+obezbedimo	4007		2
+obezbedićemo	321		2
+obezbeđujemo	899		2
+obećajmo			2
+obećamo	146		2
+obećasmo			2
+obećavamo	502		2
+obijamo	11		2
+obijemo	10		3
+obilazimo	443		3
+obilježimo	28	J	2
+obitavamo	67		2
+običavajmo			2
+obiđemo	435		2
+obiđimo			2
+objasnimo	1440		2
+objasnićemo	135		3
+objavimo	737		2
+objavićemo	286		3
+objavljujemo	1619		2
+objašnjavamo	451		2
+objedinimo	153		2
+oblazimo			2
+oblačimo	183		2
+oblažemo	14		2
+oblikujemo	194		4
+obmanemo			2
+obmanjujemo	90		2
+obnavljajmo			2
+obnavljamo	281		2
+obnažimo			2
+obnažujemo			2
+obnevidimo			2
+obnovimo	604		2
+obnovićemo	48		3
+obodrimo	10		2
+obogatimo	227		3
+obogatićemo	10		4
+obogaćujemo	91		2
+obojimo	69		2
+oborimo	152		2
+oborićemo	11		3
+obožavamo	234		2
+obradimo	210		2
+obradićemo	37		3
+obradujemo	319		4
+obradujmo	14		3
+obranimo			2
+obrasmo			2
+obratimo	1322		2
+obratismo			2
+obratićemo	148		3
+obrazujemo	229		4
+obraćajmo			3
+obraćamo	1244		3
+obraćaćemo			4
+obraćemo			2
+obračunamo	138		2
+obračunaćemo	12		3
+obrađujemo	343		2
+obrađujmo			2
+obrećemo			2
+obrešćemo			2
+obrežimo			3
+obrijemo			2
+obrisaćemo	13		4
+obrišemo	99		3
+obrnemo	83		2
+obrstimo			2
+obrukamo	65		3
+obrćemo	16		3
+obujmimo			2
+obukosmo			2
+obustavimo	88		3
+obustavljamo	24		3
+obuzdajmo			2
+obuzdamo	47		2
+obuzdavamo	10		2
+obučavajmo			2
+obučavamo	115		2
+obučemo	203		2
+obučimo	135		2
+obznanimo	12		2
+obznanjujmo			2
+ocenimo	276		2
+ocenjujemo	410		2
+oceđujemo			2
+ocrnimo	16		2
+odaberemo	445		3
+odabiremo			2
+odabraćemo	40		3
+odadosmo			3
+odagnamo	28		2
+odahnemo	75		2
+odajemo	215		2
+odajmo	28		2
+odamo	251		2
+odazivamo	48		2
+odazovemo	51		3
+odaćemo	11		3
+odašiljemo	20		2
+odbacimo	420		2
+odbacismo			2
+odbacićemo			3
+odbacujemo	353		2
+odbacujmo			2
+odbijajmo			2
+odbijamo	323		2
+odbijemo	317		3
+odbismo			2
+odbićemo	12		3
+odbranimo	673		2
+odbranismo			2
+odbrojavamo	24		2
+odemo	3458		2
+odenemo	13		3
+oderemo	26		2
+odevamo	13		2
+odgajamo	75		2
+odgajimo	17		2
+odgajismo			2
+odgađamo	12		2
+odgledamo	106		2
+odglumimo	10		2
+odgodimo	12		2
+odgojimo			2
+odgonetamo			2
+odgonetnemo	81		2
+odgovaramo	683		2
+odgovorimo	1685		2
+odgovorićemo	89		3
+odguramo			2
+odgurnemo	17		2
+odigrajmo			3
+odigramo	1290		3
+odigraćemo	80		4
+odjavimo	22		2
+odjavljujemo			2
+odjašemo			3
+odjenemo			3
+odjurimo			2
+odlazimo	1257		3
+odlažemo	236		2
+odlepimo	54		2
+odletećemo			3
+odletimo	29		2
+odlikujemo	21		4
+odložimo	243		2
+odložićemo	17		2
+odlučimo	1038		2
+odlučismo			2
+odlučićemo	98		3
+odlučujemo	965		2
+odmaglimo			2
+odmaknemo	71		2
+odmaknimo			2
+odmakosmo			3
+odmaramo	229		2
+odmeravamo	22		2
+odmerimo	109		3
+odmerićemo			4
+odmećimo			2
+odmičemo	29		3
+odmognemo			3
+odmorimo	455		2
+odmorićemo	12		3
+odmotamo			2
+odnesemo	133		2
+odnesimo			2
+odnećemo	10		3
+odnosimo	577		2
+odobravamo	305		2
+odobrimo	102		2
+odolevamo	31		2
+odolećemo			3
+odolimo	95		2
+odosmo			2
+odradimo	602		2
+odradismo			2
+odradićemo	40		3
+odrastamo	75		2
+odrastemo	132		2
+odrazimo			2
+odraćemo			2
+odrađujemo	46		2
+odražavamo			2
+odrecimo	10		3
+odredimo	882		2
+odredićemo	55		3
+odreknemo	865		3
+odreknimo	24		3
+odrekosmo			3
+odremamo			2
+odrečemo			3
+određujemo	449		2
+odrešimo			2
+odrežemo	12		3
+odrežimo			3
+odričemo	512		2
+održasmo			2
+održavajmo			3
+održavamo	1111		3
+održavaćemo	17		4
+održaćemo	130		3
+održimo	1363		2
+odsecajmo			2
+odsecamo			2
+odsecimo			3
+odsedamo	15		2
+odsednemo			2
+odselimo	24		2
+odsečemo	58		3
+odsešćemo			2
+odslužimo	13		2
+odspavajmo			2
+odspavamo	24		2
+odstojimo			2
+odstranimo	96		2
+odstupamo	89		2
+odstupimo	55		2
+odsvirajmo			2
+odsviramo	48		2
+odugovlačimo	42		2
+odupiremo	45		2
+odupremo	237		2
+oduprećemo			3
+odustajemo	558		3
+odustanemo			3
+odustanimo			3
+odustaćemo	22		3
+oduvamo	21		2
+oduvaćemo			2
+oduzećemo			3
+oduzimamo	142		3
+oduzmemo	240		2
+oduševimo	34		2
+odužimo	222		2
+odužujemo	24		2
+odvajamo	266		2
+odvalimo	13		2
+odvedemo	147		2
+odvedimo			2
+odvezemo	60		2
+odvezimo			2
+odvezujemo			2
+odvešćemo	17		2
+odvežemo			2
+odviknemo	17		2
+odvlačimo			2
+odvodimo	15		2
+odvojimo	455		2
+odvojismo			2
+odvojićemo	22		3
+odvratimo	32		2
+odvraćamo	21		3
+odvučemo	12		2
+odšetamo	10		2
+odškrinemo	16		2
+odštampamo	68		2
+ofarbamo	37		3
+ofarbaćemo			4
+oformimo	125		2
+oformićemo	17		2
+ogladnimo	12		2
+oglasimo	52		2
+oglasismo			2
+ogledamo	84		2
+oglušimo	16		2
+ogorčavamo			2
+ogorčimo			2
+ogovaramo	70		2
+ogradimo	79		2
+ograničavamo	152		2
+ograničimo	247		3
+ograđujemo	69		2
+ogrejemo	30		3
+ogrejmo			2
+ogrešimo	34		2
+ohladimo	65		2
+ohladnimo			2
+ohrabrimo	280		2
+ohrabrujemo	301		2
+ojačamo	526		2
+ojađujemo			2
+okajemo			2
+okamenimo			2
+okanemo			2
+okanimo	39		2
+okačimo	77		2
+okačićemo			2
+okitimo	34		3
+okitismo			3
+oklevamo	25		2
+okliznemo	20		2
+okolišamo	12		2
+okončajmo			2
+okončamo	176		2
+okončaćemo			3
+okopamo			2
+okopavamo			2
+okoristimo	12		2
+okoštamo			2
+okrenemo	1626		2
+okrenimo	266		2
+okrenusmo			2
+okrenućemo	38		3
+okrepimo	34		2
+okrepismo			2
+okretaćemo			3
+okrećemo	775		2
+okrećimo			2
+okrečimo	36		3
+okrivimo	63		2
+okrivićemo			3
+okrivljujemo	61		2
+okrivljujmo			2
+okrnjimo			2
+okružimo	17		2
+okružismo			2
+okumimo			2
+okupamo	64		2
+okupaćemo			2
+okupimo	955		3
+okupirajmo	72		2
+okupismo			3
+okupićemo	50		4
+okupljamo	498		2
+okusimo	36		3
+okusismo			3
+okušamo	44		2
+okušavamo			2
+oladimo			2
+olakšajmo	15		2
+olakšamo	577		2
+olakšavamo	90		2
+olakšaćemo	23		3
+omanemo	12		2
+omekšamo	13		2
+ometamo	65		2
+omeđimo	12		3
+omogućavamo	575		2
+omogućimo	2171		2
+omrznemo	10		2
+omrznimo			2
+onamo	1070		2
+onemogućimo	113		2
+onesposobimo			2
+onesvestimo			2
+opalimo	27		2
+opalismo			2
+opaljujemo			2
+opametimo	145		2
+opazimo	37		3
+opašimo			2
+opažamo	193		2
+opelješimo			2
+operemo	163		3
+operimo			3
+operisaćemo			2
+operišemo	87		2
+opevamo	13		2
+ophodimo	135		2
+opijamo	13		2
+opipamo	23		3
+opipasmo			3
+opipavamo			2
+opiremo	50		2
+opisaćemo	130		3
+opisujemo	242		2
+opišemo	278		2
+opišimo	12		2
+opkladimo			2
+opkolimo	16		2
+opkolićemo			3
+oplakujemo	33		2
+oplakujmo			2
+oplačemo			3
+oplačimo			3
+oplemenimo	94		2
+oplenimo			2
+opljačkajmo			3
+opljačkamo	18		3
+opljačkaćemo			4
+opomenemo	53		2
+opomenimo			2
+opomenusmo			2
+opominjemo	100		3
+opominjimo			3
+oponašajmo			2
+oponašamo	41		2
+oporavimo	246		3
+oporavismo			3
+oporavljamo	56		3
+opovrgnemo	23		3
+opozovemo			3
+opravdamo	376		3
+opravdavamo	127		2
+opravljamo	20		2
+opraćemo			3
+opraštajmo			2
+opraštamo	319		2
+opredelimo	328		2
+opremimo	177		2
+opremo			3
+oprobamo	68		2
+oprobasmo			2
+oprobaćemo			2
+oprostimo	494		2
+oprostismo			2
+oprostićemo	34		3
+opstadosmo			3
+opstajemo	102		2
+opstanemo			3
+opstaćemo	10		3
+opteretimo	85		3
+opterećujemo	250		2
+optrčavamo			2
+optužimo	73		2
+optužićemo			3
+optužujemo	191		2
+opustimo	383		2
+opustićemo			3
+opuštamo	75		2
+opštimo	26		2
+oraspoložimo	18		2
+orbitiramo			2
+organizovaćemo	437		5
+organizujemo	4534		4
+organizujmo	44		3
+orgazmo			2
+orodimo			2
+orosimo			2
+osakatimo			3
+osamimo	10		2
+osetimo	1134		3
+osetismo			3
+osetićemo	71		4
+osećamo	4580		3
+osećaćemo	36		4
+osečemo			2
+osigurajmo			2
+osiguramo	362		2
+osiguravamo	165		2
+osiguraćemo	21		3
+oslabimo	28		3
+oslanjamo	492		3
+oslobađamo	246		2
+oslobodimo	1146		2
+oslobodićemo	35		3
+oslonimo	349		2
+oslovljavamo	41		2
+osluškujemo	173		2
+oslušnemo	79		2
+oslušnimo	24		2
+osmatramo	20		2
+osmehnusmo			2
+osmelimo			2
+osmelismo			2
+osmeljujemo			2
+osmislimo	269		2
+osmo	926		2
+osmotrimo	84		2
+osmotrićemo			3
+osnažimo	176		2
+osnažismo			2
+osnažićemo			2
+osnažujemo	31		2
+osnivamo	108		2
+osnovaćemo	40		3
+osnujemo	320		2
+osnujmo			2
+osporavamo	234		2
+osporimo	86		2
+osposobimo	255		2
+osramotimo	14		2
+osramotismo			2
+osramotićemo			3
+ostadosmo			3
+ostajemo	1744		3
+ostanemo			3
+ostanimo			3
+ostarimo	73		2
+ostarismo			2
+ostarićemo			2
+ostavimo	3200		3
+ostavismo			3
+ostavićemo	194		4
+ostavljamo	1332		3
+ostaćemo	440		3
+ostvarimo	3208		2
+ostvarićemo	106		3
+ostvarujemo	916		2
+osudimo	277		2
+osudismo			2
+osunčajmo			2
+osunčamo			2
+osunčasmo			2
+osunčaćemo			3
+osusmo			2
+osuđujemo	741		2
+osuđujmo	11		2
+osušimo	29		2
+osvajamo	333		2
+osvanusmo			2
+osvanućemo			3
+osvestimo	234		2
+osvetimo	92		2
+osvetićemo			3
+osvetlimo	132		2
+osvećujemo	43		2
+osvežimo	179		3
+osvojimo	1300		2
+osvojismo			2
+osvojićemo	30		3
+osvrnemo	692		2
+osvrnimo	135		2
+osvrnućemo	116		2
+osvrćemo	156		2
+otamo	23		2
+otarasimo	131		2
+otarasićemo			3
+otcepimo	13		2
+oterajmo	30		3
+oteramo	265		3
+oterasmo			3
+oteraćemo	19		4
+otesmo			2
+otećemo			3
+otežamo	34		2
+otežavamo	62		2
+othranimo			2
+otidosmo			2
+otimamo	119		3
+otisnemo	47		2
+otisnusmo			2
+otićemo			2
+otiđemo			2
+otiđimo			2
+otkazaćemo			3
+otkazujemo	25		2
+otkačimo	43		2
+otkažemo	85		2
+otkažimo			2
+otkidamo			2
+otkinemo	26		3
+otklanjamo	112		3
+otključamo	14		2
+otklonimo	462		2
+otklonismo			2
+otkopamo	18		2
+otkopavamo	23		2
+otkrijemo	1192		3
+otkrijmo	31		2
+otkrismo			2
+otkrivajmo			2
+otkrivamo	1306		2
+otkrićemo	183		3
+otkucamo	25		2
+otkucavamo			2
+otkupimo	99		2
+otkupićemo			2
+otkupljujemo	78		2
+otmemo	119		2
+otpadamo			3
+otpadnemo			3
+otpadosmo			3
+otpevajmo			2
+otpevamo	30		2
+otpevasmo			2
+otpevaćemo			2
+otpisujemo	36		2
+otpišemo	53		2
+otplatimo	85		2
+otplaćujemo	135		2
+otplivamo			3
+otplovimo	11		2
+otplovićemo			3
+otpočesmo			2
+otpočinemo			3
+otpočinjemo	26		2
+otpočnemo	127		2
+otpočnimo			2
+otpratimo	11		2
+otpratićemo			2
+otpustimo	122		2
+otpustićemo			3
+otputovaćemo			3
+otputujemo	107		2
+otputujmo			2
+otpuštamo	65		2
+otresamo			2
+otresemo	58		2
+otresimo			2
+otreznimo	47		2
+otrgnemo	107		2
+otrovaćemo			3
+otrujemo	10		2
+otrčimo			2
+otuđimo	19		2
+otvarajmo			2
+otvaramo	1333		2
+otvorimo	2341		2
+otvorismo			2
+otvorićemo	210		3
+ovamo	6188		2
+ovekovečimo	24		2
+overimo	78		3
+ovladamo	73		2
+ovlažimo			2
+ozdravimo	35		2
+ozimo			2
+ozlojedimo			2
+označavamo	115		2
+označimo	193		2
+označismo			2
+oznojimo	26		2
+ozvaničimo	30		2
+ozvučimo			2
+oćutasmo			2
+oćutimo			2
+očajavajmo			2
+očajavamo	50		2
+očekivasmo			2
+očekujemo	19365		2
+očekujmo	69		2
+očeličimo			3
+očistimo	1909		3
+očistismo			3
+očistićemo	25		4
+očitamo	11		2
+očitavamo	20		2
+očupamo			2
+očuvajmo	25		2
+očuvamo	579		2
+očuvasmo			2
+očvrsnemo			2
+ošišamo	13		2
+oštetimo	64		3
+oštrimo	18		2
+ožalimo			2
+ožalostimo			2
+oženimo	20		2
+oživesmo			2
+oživimo	329		2
+oživljavamo	67		2
+padamo	387		3
+padnemo	266		3
+padosmo			3
+pakujemo	275		4
+pakujmo			3
+palermo			2
+palimo	248		2
+palmo			2
+pametujemo	57		2
+pamtimo	1398		3
+pamtićemo	130		4
+paničarimo			2
+paničimo	34		2
+parimo	13		2
+parkiramo	90		2
+parkiraćemo			3
+partijamo			2
+pasemo	26		3
+pasimo			3
+patimo	413		3
+patroliramo			2
+pauziramo	19		2
+pazarimo	65		2
+pazimo	566		3
+pazićemo			4
+pašćemo	15		3
+pecamo	84		3
+peglajmo			2
+peglamo			2
+peglasmo			2
+peglaćemo			3
+penjemo	407		2
+penjimo			2
+pentramo			2
+penzionišemo			2
+percipiramo	117		2
+peremo	260		3
+pesmo	21		2
+petljamo	29		2
+pevajmo	39		3
+pevamo	609		3
+pevaćemo	18		4
+pećemo			2
+pečemo	195		3
+pečimo			2
+pešačimo	54		2
+pešačićemo			3
+pijanisimo			2
+pijemo	1472		3
+pijmo	38		2
+pijuckamo	47		2
+pipajmo			2
+pipamo	22		2
+pipkamo			3
+pipnemo	23		2
+pisasmo			2
+pisaćemo	134		3
+pismo	28075		2
+pitajmo	64		2
+pitamo	5213		2
+pitasmo			2
+pitaćemo	100		3
+pitomo	210		2
+pićemo	19		3
+pičimo			2
+pišemo	2487		2
+pišimo	21		2
+plakasmo			3
+plamtimo			2
+planinarimo	11		2
+planiramo	4455		2
+plasiramo	914		2
+platimo	2423		2
+platićemo	152		3
+plaćamo	5532		2
+plaćaćemo	83		3
+plačemo	369		3
+plačimo	16		3
+plašimo	1218		3
+plesaćemo			3
+pletemo	32		3
+plešemo	130		2
+plešimo			2
+plivamo	252		3
+plivaćemo			4
+pljačkamo	36		3
+pljujemo	358		3
+pljunimo			3
+plovimo	139		2
+plovismo			2
+plovićemo			3
+plovljasmo			2
+plutamo	22		2
+pobacamo	13		2
+pobacasmo			2
+pobedimo	2965		2
+pobedićemo	259		3
+pobegnemo	301		3
+pobegnimo			3
+pobegosmo			3
+pobeležimo			2
+poberemo			2
+pobećićemo			2
+pobeđujemo	536		2
+pobeđujmo			2
+pobijamo	11		2
+pobijemo	132		3
+pobijmo			2
+pobismo			2
+pobićemo	22		3
+pobojasmo			2
+pobojmo			2
+poboljšamo	1106		2
+poboljšavamo	234		2
+pobratimo			2
+pobrinemo	132		2
+pobrinimo			2
+pobrinućemo	32		2
+pobrkamo	14		2
+pobrojimo	48		2
+pobudimo	19		2
+pobunimo	87		2
+pobuđujemo	12		2
+pobuđujmo			2
+pocepamo	15		2
+pocrkamo	97		2
+pocrpemo			2
+pocrvenimo	15		2
+podajemo			2
+podamo			2
+podarimo	58		2
+podastremo			2
+podavimo			2
+podavismo			2
+podavljujmo			2
+podelimo	1573		2
+podelićemo	123		3
+podesimo	145		3
+podesićemo	11		4
+podešavamo	78		2
+podignemo	1630		3
+podignimo	86		3
+podigosmo			3
+podižemo	625		3
+podlegnemo	64		2
+podležemo	55		2
+podložimo			2
+podmažemo			3
+podmetnemo	19		3
+podmećemo	30		3
+podmitimo			2
+podnesemo	545		3
+podnesimo			3
+podnesmo			2
+podnesosmo			3
+podnećemo	79		3
+podnosimo	493		2
+podrazumevamo	818		2
+podređujemo	30		2
+podržavamo	3020		3
+podržaćemo	282		3
+podržimo	1952		2
+podsetimo	9691		3
+podsetismo			3
+podsećamo	3722		3
+podstaknemo	673		2
+podstičemo	620		3
+podstičimo			3
+podudaramo			3
+podupiremo	18		2
+podupremo	13		2
+podučavamo	61		2
+podučimo	15		2
+podučićemo			3
+podvedemo	29		3
+podvlačimo	104		2
+podvojimo			2
+podvrgavamo	29		2
+podvrgnemo	33		3
+podvucimo	16		2
+podvučemo	204		2
+pogasimo	17		2
+pogazimo	18		2
+pogazismo			2
+pogađamo	110		2
+pogađasmo			2
+pogibosmo			2
+poginemo	62		3
+poginućemo	10		4
+pogledajmo	2041		3
+pogledamo	4851		3
+pogledasmo			3
+pogledaćemo	105		4
+pognemo	35		2
+pognimo			2
+pogodimo	136		2
+pogodismo			2
+pogodićemo			3
+pogoresmo			2
+pogoršamo	13		2
+pogoršavamo	23		2
+pogrešimo	146		2
+pogubimo	31		2
+pogubićemo			2
+poguramo	68		2
+pogušismo			2
+pohapsimo			2
+poharamo			2
+pohađamo	20		2
+pohitajmo	13		3
+pohodimo	14		2
+pohvalimo	574		2
+pohvaljujemo	111		2
+pohvatamo	51		2
+poigrajmo			2
+poigramo	94		2
+poigraćemo			2
+poimamo	38		3
+pojasnimo	334		2
+pojavimo	280		2
+pojavljujemo	102		2
+pojačajmo			2
+pojačamo	362		2
+pojačavamo	85		2
+pojačaćemo	38		3
+pojašemo			2
+pojedemo	469		3
+pojedimo			3
+pojednostavimo	171		2
+pojemo			2
+poješćemo	14		3
+pojimo	10		2
+pojmimo	64		2
+pojurimo	29		2
+pokajaćemo			2
+pokajemo	103		2
+pokajmo	33		2
+pokazasmo			2
+pokazaćemo	478		3
+pokazujemo	1141		2
+pokazujmo			2
+pokažemo	4594		2
+pokažimo	283		2
+pokidajmo			3
+pokidamo	17		3
+pokisnemo	11		3
+poklanjajmo			3
+poklanjamo	671		3
+poklapamo	16		2
+poklasmo			2
+pokleknemo	67		3
+poklonimo	594		2
+poklonismo			2
+poklopimo	31		2
+pokopamo			2
+pokopaćemo			3
+pokoravamo	44		2
+pokorimo	42		2
+pokosimo	18		2
+pokrademo	11		3
+pokrenemo	1525		2
+pokrenimo	665		2
+pokrenućemo	182		3
+pokrećemo	482		3
+pokrijemo	505		3
+pokrijmo			2
+pokrivamo	462		2
+pokrivaćemo			3
+pokrićemo	32		3
+pokrstismo			2
+pokucajmo			2
+pokucamo	15		2
+pokupimo	224		3
+pokupićemo			4
+pokušajmo	347		3
+pokušamo	3003		3
+pokušavamo	4337		2
+pokušavaćemo	14		3
+pokušaćemo	2150		4
+pokvarimo	72		2
+pokvasimo			3
+polagaćemo			3
+polazimo	504		3
+polažemo	285		2
+polažimo			2
+polegnemo			2
+poletećemo			3
+poletimo	69		2
+polećemo	56		2
+poljubimo	75		2
+poljubismo			2
+poljubićemo			3
+polomimo	35		2
+polomićemo			3
+položimo	183		2
+položismo			2
+položićemo	18		3
+poludećemo			3
+poludimo	44		2
+polučimo			2
+pomagaćemo	41		3
+pomaknemo	27		2
+pomaknimo			2
+pomazimo	12		2
+pomažemo	2078		2
+pomažimo	11		2
+pomenemo	907		2
+pomenimo	763		2
+pomenusmo			2
+pomenućemo	369		2
+pomeramo	321		2
+pomerimo	338		2
+pomerićemo	15		2
+pomešajmo			2
+pomešamo	87		2
+pomilujemo			4
+pominjemo	1786		2
+pominjimo			2
+pomirimo	512		2
+pomirišemo	14		2
+pomislimo	940		3
+pomičemo	19		3
+pomišljajmo			2
+pomišljamo	104		2
+pomlatimo			2
+pomnožimo	112		2
+pomo			2
+pomognemo	6101		2
+pomognimo	46		2
+pomolimo	343		2
+pomolismo			2
+pomolićemo			3
+pomorismo			2
+pomozimo	379		2
+pomoćićemo			2
+pomračimo			2
+pomremo	51		2
+pomresmo			2
+pomrećemo	10		2
+pomutismo			2
+pomućujemo			2
+pomučimo	40		2
+ponadamo	28		2
+ponavljamo	1218		2
+ponašajmo	27		2
+ponašamo	1712		2
+ponašaćemo	22		3
+ponesemo	235		2
+ponesimo	10		2
+ponećemo	11		2
+poniremo			2
+ponizimo	38		2
+poništimo	88		3
+ponižavamo	82		2
+ponosimo	837		2
+ponovimo	1202		2
+ponovismo			2
+ponovićemo	75		3
+ponudimo	2971		3
+ponudismo			3
+ponudićemo	195		4
+pooštrimo	22		2
+popalimo	15		2
+popalismo			2
+popesmo			2
+popećemo			3
+popijemo	708		3
+popijmo			2
+popićemo	37		3
+poplavimo			2
+poplašismo			3
+popnemo	180		2
+popnimo			2
+popravimo	1219		3
+popravićemo	42		4
+popravljamo	276		3
+popričajmo			2
+popričamo	415		2
+popričaćemo	10		3
+poprskamo	28		2
+popunimo	201		3
+popunićemo	12		4
+popunjavamo	125		2
+popustimo	104		2
+popušimo	17		3
+popuštajmo			2
+popuštamo	68		2
+poradimo	221		2
+poradićemo			3
+poranimo			3
+porastemo	58		2
+poravnamo	28		2
+porazgovarajmo			2
+porazgovaramo	383		2
+porazgovaraćemo			2
+porazimo	39		2
+porazićemo			3
+porazmislimo	48		2
+poredimo	711		2
+poreknemo	24		3
+poremetimo	37		3
+poređamo	62		2
+poričamo			2
+poričemo	70		2
+porobimo			2
+porodimo			2
+poručimo	232		2
+poručujemo	388		2
+porušimo	32		3
+posadimo	101		2
+posavetujemo	94		2
+posedesmo			2
+posedimo	26		2
+posednemo			2
+posedujemo	1949		4
+posegnemo	77		2
+posejemo	45		2
+posestrimo			2
+posetimo	548		3
+posetismo			3
+posetićemo	93		4
+posećujemo	350		2
+posečemo	30		3
+posežemo	104		2
+posinismo			2
+poskakasmo			2
+poskačemo			2
+poskidamo	20		2
+poslasmo			2
+poslaćemo	264		3
+poslujemo	743		2
+poslušajmo	105		3
+poslušamo	193		3
+poslušaćemo	17		4
+poslužimo	304		2
+poslužismo			2
+poslužićemo	60		3
+poslužujemo	16		2
+posmatrajmo	110		2
+posmatramo	3087		2
+posmatraćemo	46		3
+posmotrimo			2
+pospemo			2
+pospešimo	66		2
+pospremimo	16		2
+posramimo			2
+posrebrimo			2
+posrnemo			2
+posrnusmo			2
+posrćemo	17		3
+postadosmo			3
+postajemo	1993		2
+postanemo			3
+postanimo			3
+postarajmo	27		2
+postaramo	66		2
+postaraćemo	31		2
+postasmo			2
+postavimo	2814		3
+postavismo			3
+postavićemo	282		4
+postavljamo	1965		3
+postaćemo	241		3
+postidimo	38		2
+postignemo	2336		3
+postignimo			3
+postigosmo			3
+postimo	133		2
+postismo			2
+postižemo	809		3
+postojimo	1242		3
+postradamo	10		2
+postrižemo			2
+postrojimo			2
+postupajmo			2
+postupamo	321		2
+postupimo	120		2
+posudimo			2
+posumnjamo	90		2
+posusmo			2
+posustajmo			2
+posuđujemo			2
+posvajamo			2
+posvađamo	121		2
+posvađasmo			2
+posvetimo	990		2
+posvetićemo	140		3
+posvećujemo	629		2
+potaknemo	10		2
+potamanimo			2
+potapajmo			2
+potcenimo	99		2
+potcenjujemo	149		2
+potecimo			2
+potegnemo	12		2
+poteramo	29		2
+potežemo	49		2
+potiremo	10		2
+potiskujemo	94		2
+potisnemo	65		2
+potičemo	141		3
+potkidamo			2
+potkopavajmo			2
+potkradamo	12		2
+potkrepimo	42		2
+potkujemo			2
+potonemo	80		2
+potonimo			2
+potonućemo			3
+potopimo	54		2
+potopismo			2
+potopićemo			3
+potpadamo	11		2
+potpadnemo			2
+potpadosmo			2
+potpalimo	10		2
+potpisaćemo	53		3
+potpisujemo	314		2
+potpišemo	662		2
+potpišimo			2
+potražimo	519		2
+potražismo			2
+potražićemo	43		3
+potrebujemo	17		4
+potremo			2
+potresamo	12		2
+potrošimo	598		2
+potrošićemo	36		3
+potrpamo	21		2
+potrudimo	721		2
+potrudićemo	661		3
+potrčasmo			2
+potrčimo	34		2
+potucamo	13		2
+potučemo	29		2
+potvrdimo	600		2
+potvrdićemo	16		3
+potvrđujemo	354		3
+potčinimo	14		2
+potčinjavamo	12		2
+poubijamo	47		2
+poubijasmo			2
+pouzdamo	30		2
+poučavajmo			2
+poučavamo	27		2
+poučimo	27		2
+povadimo	19		2
+povalimo			2
+povedemo	351		3
+povedimo	12		3
+povedosmo			3
+poveravamo	59		2
+poverimo	77		3
+poverujemo	592		4
+poverujmo			3
+povesmo	20		2
+povezaćemo	25		3
+povezemo	22		3
+povezujemo	428		2
+povećajmo	15		2
+povećamo	1422		2
+povećavamo	536		2
+povećaćemo	91		3
+povešćemo	19		3
+povežemo	723		2
+povežimo	48		2
+povikasmo			2
+povinujemo	64		2
+povinujmo			2
+povisimo	21		2
+povičemo	10		2
+povlačimo	336		2
+povodimo	27		2
+povratimo	501		2
+povratismo			2
+povratićemo	13		3
+povraćamo	13		3
+povredimo	116		2
+povredićemo			3
+povređujemo	48		2
+povucimo	34		2
+povučemo	517		2
+pozabavimo	730		2
+pozabavićemo	84		2
+pozajmimo	98		2
+pozajmićemo			3
+pozajmljujemo	102		2
+pozdravimo	381		3
+pozdravićemo			4
+pozdravljamo	1227		3
+poziramo			2
+pozivamo	7767		2
+pozivaćemo	12		3
+pozlatimo			2
+poznajemo	3562		2
+poznajmo			2
+poznamo	99		2
+poznasmo			2
+poznaćemo			3
+pozovemo	1163		3
+pozovimo	33		3
+pozvaćemo	191		3
+pozvonimo			2
+počastimo	51		2
+počesmo			2
+počećemo	498		3
+počinemo			3
+počinimo	23		2
+počinismo			2
+počinjemo	2214		3
+počinjimo			3
+počinusmo			3
+počistimo	139		3
+počistićemo			4
+počnemo	4092		2
+počnimo	484		2
+počujmo			2
+pođemo	772		2
+pođimo	496		2
+pođosmo			2
+pošaljemo	1305		3
+pošaljimo	22		3
+pošiljemo			2
+poštedećemo			3
+poštedimo	59		2
+poštovaćemo	102		3
+poštujemo	3339		2
+poštujmo	126		2
+požalimo	35		2
+požalismo			2
+poželećemo	17		3
+poželimo	780		2
+poživimo	34		2
+požnjećemo			2
+požurimo	139		2
+požurićemo			3
+požurujemo	20		2
+praktikujemo	180		2
+pratimo	3880		3
+pratićemo	241		4
+pravdamo	153		3
+pravimo	6186		3
+pravićemo	171		4
+praznimo	51		2
+praznujemo	161		4
+prašimo			2
+praštamo	149		2
+prašumo			2
+prebacimo	453		2
+prebacismo			2
+prebacićemo	15		3
+prebacujemo	232		2
+prebijamo			2
+prebijemo	26		3
+prebijmo			2
+prebiramo	18		2
+prebivajmo			2
+prebivamo	23		2
+prebivasmo			2
+prebićemo			3
+prebolimo	38		2
+prebrodimo	199		2
+prebrodićemo	10		3
+prebrojimo	143		2
+precenjujmo			2
+precrtamo	20		2
+predadosmo			3
+predahnemo	50		2
+predahnimo			2
+predajemo	452		2
+predajmo	33		2
+predamo	528		2
+predanimo			2
+predaćemo	46		3
+predemo	16		3
+predlažemo	4495		2
+predložimo	492		2
+predložićemo	170		3
+predomislimo	19		3
+predočimo	140		2
+predstavimo	2169		3
+predstavićemo	583		4
+predstavljamo	4600		3
+preduhitrimo	18		2
+predupredimo	111		2
+preduzećemo	116		2
+preduzimamo	441		2
+preduzmemo	640		2
+preduzmimo			2
+predvidimo	344		3
+predviđamo	343		2
+prefarbamo			2
+preferiramo	69		2
+preganjamo			2
+pregazimo	23		2
+pregledajmo			2
+pregledamo	256		2
+pregledavamo	11		2
+pregledaćemo	15		2
+pregnemo			2
+pregnimo			2
+pregolemo			2
+pregovarajmo			2
+pregovaramo	798		2
+pregovaraćemo	28		3
+pregrizemo			3
+pregrupišemo			2
+preguramo	47		2
+preguraćemo			2
+prehranimo	70		2
+preinačimo			2
+preispitamo	283		2
+preispitujemo	147		2
+prejedemo	10		2
+prekidajmo			2
+prekidamo	210		2
+prekidosmo			2
+prekinemo	636		3
+prekinimo	35		3
+prekinusmo			3
+prekinućemo	28		4
+preklinjemo	25		2
+prekopamo			2
+prekorimo			2
+prekratimo	34		2
+prekrijemo	57		3
+prekrstimo	49		2
+prekršimo	37		2
+prelazimo	1109		3
+preletimo	24		2
+prelijemo	113		2
+prelistamo	26		2
+prelivamo			2
+premaramo			2
+premestimo	86		2
+premestićemo			2
+premeštamo	48		2
+premišljamo			2
+premlatimo			2
+premostimo	70		2
+premotamo	18		2
+prenaglimo			2
+prenagljujemo			2
+prenagljujmo			2
+prenesemo	1074		3
+prenesimo	17		3
+prenećemo	61		3
+prenimo			3
+prenosimo	2114		2
+prenoćimo	39		2
+prenoćićemo			3
+preobratimo	15		2
+preokrenemo	183		2
+preokrenućemo			3
+preopteretimo	12		2
+preostajemo			3
+prepadamo			2
+prepadnemo			3
+prepiremo	95		3
+prepisujemo	114		2
+prepišemo	75		2
+preplašimo			3
+preplivamo	11		3
+prepolovimo	50		2
+preporučimo	196		2
+preporučujemo	5531		2
+prepoznajemo	1341		2
+prepoznamo	1086		2
+prepravimo	25		2
+prepustimo	659		2
+prepustićemo	33		3
+prepuštamo	359		2
+preradimo	53		2
+prerežemo	15		3
+prerušimo			3
+presecamo	14		2
+presecimo			3
+preselimo	230		2
+preselićemo	18		3
+presečemo	104		3
+preskačemo	141		2
+preskačimo			2
+preskočimo	299		2
+preskočismo			2
+preskočićemo	26		3
+preslikamo	41		3
+preslušamo	15		2
+prespavamo	82		2
+prespavaćemo			3
+presretnemo	10		3
+presrećemo			3
+presrešćemo			3
+prestajemo	203		3
+prestajmo			2
+prestanemo	1055		3
+prestanimo	121		3
+prestarimo			2
+prestasmo			2
+prestaćemo	31		3
+prestignemo	67		3
+prestižemo	15		3
+prestrmo			2
+prestupimo			2
+presudimo	20		2
+presuđujemo	18		2
+presvlačimo	30		2
+presvucimo			3
+presvučemo	37		3
+preteknemo	25		2
+preteknimo			2
+preteramo	82		3
+preterujemo	205		2
+preterujmo	14		2
+pretimo	177		2
+pretopimo			2
+pretpostavimo	1834		3
+pretpostavićemo	51		4
+pretpostavljamo	1473		3
+pretražimo	20		2
+pretražićemo			3
+pretražujemo	69		2
+pretresamo	17		2
+pretresemo	51		2
+pretresimo			2
+pretrešćemo			2
+pretrpimo	42		2
+preturamo	15		2
+preturismo			2
+preturićemo			2
+pretvarajmo			2
+pretvaramo	361		2
+pretvaraćemo			3
+pretvorimo	526		2
+pretvorićemo	48		3
+preuredimo	48		2
+preuređujemo			2
+preusmeravamo	18		2
+preusmerimo	81		2
+preuzećemo	35		3
+preuzimamo	526		3
+preuzmemo	730		2
+preuzmimo	12		2
+prevarimo	98		3
+prevaziđemo	685		2
+prevedemo	277		2
+prevedimo			2
+prevedosmo			2
+prevezemo	58		2
+prevešćemo			2
+previdimo	69		2
+previjemo			2
+previđamo	48		2
+prevladamo	39		2
+prevodimo	158		2
+prevozimo	85		2
+prevratimo			2
+prevrnemo	22		2
+prevrnimo			2
+prevrnućemo			3
+prevrćemo	28		3
+prezalogajimo	18		2
+prezentujemo	374		2
+prezimimo	27		2
+preziremo	125		3
+prezivamo	12		2
+prezremo	20		2
+prezresmo			2
+prezrećemo			3
+prezrimo			2
+prećićemo			2
+prećutimo	60		2
+prečistimo			2
+pređemo	1555		2
+pređimo	162		2
+pređosmo			2
+prežimo			3
+preživećemo	75		3
+preživimo	594		2
+preživljavamo	267		2
+pribavimo	72		3
+pribegnemo	43		2
+pribegnimo			2
+pribegosmo			2
+priberemo	19		2
+približavamo	599		2
+približimo	1225		2
+približismo			2
+približićemo	27		3
+približujemo	10		2
+pribrojimo	10		2
+pricamo			2
+pridajemo	254		2
+pridamo	13		2
+pridaćemo			2
+pridobijemo	109		3
+pridobismo			2
+pridodajemo	25		2
+pridodajmo			2
+pridodamo	111		2
+pridružimo	349		2
+pridružićemo	15		3
+pridružujemo	131		2
+pridržavamo	414		3
+prignusmo			2
+prigrlimo	59		2
+prigrlismo			2
+prigušimo			2
+prihvatamo	1935		2
+prihvatimo	3626		3
+prihvatismo			3
+prihvatićemo	111		4
+prihvaćamo	27		3
+prijavimo	314		2
+prijavićemo	27		3
+prijavljujemo	113		2
+prikazaćemo	220		3
+prikazujemo	718		2
+prikačimo	27		2
+prikažemo	916		2
+priklanjamo	38		3
+priključimo	314		2
+priključićemo	10		2
+priklonimo	77		2
+prikopčamo			2
+prikradamo			2
+prikrademo			3
+prikrijemo	31		3
+prikrivamo	44		2
+prikupimo	435		3
+prikupismo			3
+prikupljamo	406		2
+prikučimo			2
+prilagodimo	741		2
+prilagodićemo	12		3
+prilagođavamo	432		2
+prilazimo	251		3
+prilažemo	187		2
+prilegnemo			2
+prilegnimo			2
+prilepimo	11		2
+priličimo			3
+priljubimo			2
+priložimo	36		2
+primajmo			2
+primaknemo	38		2
+primamo	1405		2
+primenimo	947		2
+primenićemo	60		3
+primenjujemo	1148		2
+primenjujmo			2
+primetimo	937		2
+primetismo			2
+primetićemo	160		3
+primećujemo	1356		2
+primimo	949		2
+primirimo	19		2
+primirismo			2
+primismo			2
+primićemo	53		3
+primičemo	34		3
+primo			2
+primoramo	26		2
+prinesemo	68		2
+prinesimo	19		2
+prinesmo			2
+prinećemo			2
+prinosimo	127		2
+prinudimo	10		2
+prionemo	59		2
+prionimo	12		2
+pripadamo	1222		3
+pripadnemo	11		3
+pripadnimo			3
+pripalimo	10		2
+pripazimo	23		3
+pripazićemo			4
+pripisujemo	167		2
+pripitamo			2
+pripišemo	64		2
+pripišimo			2
+pripojimo	29		2
+pripovedajmo			2
+pripremamo	1641		2
+pripremimo	1166		2
+pripremićemo	69		3
+priredimo	103		2
+priredićemo	26		3
+priređujemo	60		2
+prisetimo	832		3
+prisećajmo			3
+prisećamo	205		3
+prisilimo	29		3
+prisiljavamo	15		2
+prisluškujemo	15		2
+pristajemo	567		3
+pristanemo	392		3
+pristaćemo			3
+pristupamo	537		2
+pristupasmo			2
+pristupimo	607		2
+prisustvujemo	776		4
+prisvajamo	29		2
+prisvojimo	22		2
+pritajimo			2
+pritajićemo			2
+pritegnemo			2
+priteknemo			2
+priteknimo			2
+pritesnimo			2
+pritiskamo	103		2
+pritisnemo	228		3
+pritisnimo	18		3
+pritisnućemo			4
+pritičemo			2
+pritrčasmo			2
+pritvorimo			2
+priučimo			2
+priuštimo	344		2
+privedemo	306		3
+privedimo			3
+privezasmo			2
+privešćemo			3
+privežemo			2
+privijamo			2
+privijemo			2
+privijmo			2
+privikavamo	42		2
+priviknemo	56		3
+privirimo			2
+privlačimo	185		2
+privodimo	150		2
+privučemo	676		2
+prizemljimo	11		2
+prizivajmo			2
+prizivamo	193		2
+priznajemo	951		2
+priznajmo	126		2
+priznamo	1629		2
+priznaćemo	85		3
+prizovemo	72		3
+prizovimo	20		3
+pričajmo	68		2
+pričamo	11095		2
+pričaćemo	301		3
+pričekajmo	15		3
+pričekamo	82		3
+pričekaćemo	12		4
+pričestimo	51		2
+pričuvamo			2
+pričvrstimo	63		2
+priđemo	285		2
+priđimo	21		2
+priđosmo			2
+prišijemo			2
+prišivamo			2
+prišunjamo			2
+priželjkujemo	243		2
+prkosimo	46		3
+prljamo	37		2
+probajmo	68		2
+probamo	1622		2
+probaćemo	334		3
+probijamo	102		2
+probijemo	146		3
+probićemo			3
+problemo			2
+probudimo	732		2
+probudismo			2
+probudićemo	15		3
+probušimo	11		2
+procenimo	557		2
+procenjujemo	531		2
+procesuiramo	50		2
+prodadosmo			3
+prodajemo	1626		2
+prodajmo	14		2
+prodamo	1443		2
+prodavaćemo	17		3
+prodaćemo	71		3
+prodiskutujemo	121		2
+prodremo	32		2
+prodrmajmo			2
+prodrmamo	20		2
+produbljujemo	60		2
+produžavamo			2
+produžimo	380		2
+produžismo			2
+profitiramo	63		2
+proganjajmo			2
+proganjamo	16		2
+proglasimo	323		2
+proglasićemo	40		3
+proglašavamo	165		2
+progledamo	65		2
+prognajmo			2
+prognamo			2
+prognaćemo			3
+progonimo	17		2
+progovorimo	201		2
+proguramo	50		2
+progurasmo			2
+proguraćemo			2
+progutamo	156		2
+progutasmo			2
+prohodamo			2
+prohujamo			2
+proizvedemo	604		3
+proizvodimo	1911		2
+projektujemo	244		2
+projezdimo			2
+projurimo			2
+projurismo			2
+proklijamo			2
+proklinjemo	32		3
+prokljuvimo			2
+prokopamo	10		2
+prolazimo	1290		3
+prolazismo			2
+prolijemo	19		3
+prolijmo			2
+prolivamo			2
+prolićemo			3
+promatramo	67		2
+promašimo	49		3
+promenimo	3438		2
+promenismo			2
+promenićemo	138		3
+prometnemo			2
+promešamo	56		2
+promislimo	87		3
+promolimo			2
+promotrimo	21		2
+promovišemo	1225		2
+promuvamo			2
+promućkamo			2
+pronalazimo	573		3
+pronaćemo			2
+pronaćićemo			2
+pronađemo	2181		3
+pronađimo	49		3
+pronađosmo			3
+proniknemo	55		3
+proniknimo			3
+proničemo			3
+pronjuškamo			2
+propadamo	356		3
+propadnemo	178		3
+propadosmo			3
+propatimo			3
+propašćemo	40		3
+propismo			2
+propovedamo	67		2
+propratimo	53		2
+propustimo	317		2
+propustićemo	17		3
+propuštamo	182		2
+proradimo	11		2
+proračunamo	12		2
+proračunasmo			2
+prosimo	61		2
+prosipamo	30		2
+proslavimo	617		3
+proslavićemo	43		4
+proslavljamo	726		2
+prosledimo	129		2
+prospemo			2
+prostiremo	17		3
+prostremo	11		2
+prostrimo			2
+prosudimo	37		2
+prosućemo			2
+prosuđujemo	42		2
+protecimo			2
+protegnemo	25		2
+proterajmo			3
+proteramo	74		3
+protestujemo	188		2
+protestvujemo	48		2
+protivimo	273		2
+protraćimo			2
+protresemo	17		2
+protumačimo	106		2
+proturimo	12		2
+proučavamo	203		2
+proučimo	151		2
+proučićemo	12		3
+provalimo	33		2
+provalićemo			3
+provaljujemo	12		2
+provedemo	814		2
+provedimo	17		2
+provedosmo			2
+proveravamo	462		2
+proverimo	991		3
+proverićemo	116		4
+provetrimo	11		2
+provešćemo	61		2
+provežbamo			2
+provirimo	18		2
+provociramo	49		2
+provodimo	942		2
+provodismo			2
+provodićemo			3
+provozajmo			2
+provozamo	68		2
+provozaćemo			2
+provučemo	67		2
+prozborimo	36		2
+proziremo			2
+prozivamo	153		2
+prozovemo	41		3
+prozremo	12		2
+proćaskamo	36		3
+proćićemo			2
+pročešljamo	19		2
+pročešljaćemo			2
+pročistimo	52		2
+pročitajmo	35		2
+pročitamo	923		2
+pročitasmo			2
+pročitaćemo	14		3
+prođemo	1102		3
+prođimo	10		3
+prođosmo			3
+prošetajmo			2
+prošetamo			2
+prošetaćemo	22		3
+prošećemo			2
+prošećimo			2
+proširimo	900		2
+proširićemo	49		3
+proširujemo	212		2
+prošvercujemo			2
+proždiremo	11		2
+proživimo	94		2
+proživljavamo	194		2
+prskamo	34		2
+pružajmo			2
+pružamo	2336		2
+pružimo	2737		3
+pružismo			3
+pružićemo	186		4
+pržimo	75		3
+psujemo	100		2
+pucajmo			3
+pucamo	160		3
+pucasmo			3
+pucaćemo	12		4
+puknemo	38		3
+pumpamo	17		2
+punimo	368		3
+pustimo	1464		2
+pustismo			2
+pustićemo	89		3
+putovaćemo	30		3
+putujemo	1251		2
+putujmo	21		2
+puzimo	39		2
+pušimo	164		3
+puštamo	488		2
+pužemo			3
+radimo	29374		2
+radićemo	928		3
+radovaćemo	29		5
+radujemo	1886		4
+radujmo	133		3
+ramo			2
+ranimo	21		3
+ranjavajmo			2
+ranjavamo			2
+rashladimo	39		2
+rasipamo	112		3
+raskidamo	39		2
+raskinemo	129		3
+raskinimo			3
+raskomotimo			2
+raskopajmo			2
+raskopasmo			2
+raskrinkamo	33		2
+raskrstimo	50		2
+raspadamo	32		3
+raspakujemo			2
+raspalimo	20		2
+raspesmo			2
+raspećemo			2
+raspinjemo			2
+raspitamo	73		2
+raspitaćemo			3
+raspitujemo	46		2
+raspišemo	137		2
+raspnemo			2
+raspnimo			2
+raspodelimo	57		2
+raspolažemo	1779		2
+rasporedimo	130		2
+rasporedićemo			3
+rasporimo			2
+raspoznamo	14		2
+raspravimo	200		3
+raspravićemo			4
+raspravljamo			2
+raspravljaćemo			2
+rasprodamo	55		2
+raspršimo			2
+raspustimo	34		2
+raspuštamo	10		2
+rastadosmo			3
+rastajemo	167		3
+rastanemo			3
+rastanimo			3
+rastavimo	18		3
+rastavićemo			4
+rastavljamo	11		3
+rastaćemo			3
+rastegnemo	12		2
+rastemo	425		2
+rastimo	102		2
+rastočimo			2
+rastočismo			2
+rastržemo			2
+rasturamo	30		2
+rasturimo	53		2
+rasturićemo			2
+rastužimo			2
+rastvorimo	13		2
+rasudimo			2
+rasuđujemo	35		2
+rasuđujmo			2
+rasvetlimo	56		2
+ratovasmo			4
+ratovaćemo	12		5
+ratujemo	343		4
+ratujmo			3
+ravnamo	39		2
+razaberemo	15		3
+razabiramo			2
+razabrasmo			2
+razapinjemo	13		3
+razapnemo	19		2
+razaramo	26		2
+razaznajemo	35		2
+razaznamo	20		2
+razaznasmo			2
+razbacujemo	69		2
+razbesnimo			2
+razbijamo	113		2
+razbijemo	304		3
+razbijmo	10		2
+razbiramo			2
+razbistrimo	10		2
+razbićemo	19		3
+razbolimo	86		2
+razbucamo	18		2
+razdajemo			2
+razdajmo			2
+razdelimo	23		2
+razderemo			2
+razdiremo			3
+razdrešimo			2
+razdrmamo	18		2
+razdvajamo	94		2
+razdvojimo	189		2
+razdvojićemo			3
+razdvojmo			2
+razglabamo	44		2
+razglasimo	10		2
+razgledajmo			2
+razgledamo	117		2
+razgledavamo			2
+razgonimo			2
+razgorimo			2
+razgovarajmo	50		2
+razgovaramo	6003		2
+razgovaraćemo	478		3
+razgovorimo			2
+razilazimo	125		3
+raziđemo	131		2
+raziđimo			2
+raziđosmo			2
+razjasnimo	853		2
+razjasnićemo	12		2
+razlikujemo	1782		4
+razljutimo			2
+razložimo	25		2
+razlučimo	48		2
+razmatrajmo			2
+razmatramo	835		2
+razmenimo	505		2
+razmenićemo			3
+razmenjujemo	509		2
+razmeštamo			2
+razmilesmo			2
+razmislimo	1142		3
+razmislićemo	48		4
+razmičemo			3
+razmišljajmo	50		2
+razmišljamo	4096		2
+razmnožavamo	18		2
+razmotrimo	942		2
+razmotrićemo	211		3
+razmrdamo			2
+razmrsimo			2
+raznesemo			3
+raznesimo			3
+raznećemo			3
+raznežimo			2
+raznosimo			2
+razonodimo	11		2
+razorimo	11		2
+razoružamo			2
+razotkrijemo	59		3
+razotkrivamo	34		2
+razotkrićemo			3
+razočaramo	87		2
+razradimo	91		2
+razradićemo			3
+razrađujemo	69		2
+razrešimo	278		2
+razrušimo			3
+razumemo	8045		2
+razumevamo	72		2
+razumećemo	56		3
+razumimo			2
+razvalimo	24		2
+razvalismo			2
+razvalićemo			3
+razvaljujemo			2
+razvedemo	45		3
+razvedrimo			2
+razveselimo	15		2
+razvešćemo			3
+razvijamo	2212		2
+razvijemo	880		3
+razvićemo	32		3
+razvlačimo	33		2
+razvodimo	25		2
+razvrstamo	17		2
+razvučemo	32		2
+računamo	2174		2
+računasmo			2
+rađamo	317		2
+raširimo	75		2
+raširićemo			3
+raščistimo	354		2
+raščistićemo			2
+raščlanimo	30		3
+reagujemo	1374		4
+realizujemo	1571		2
+recikliramo	94		2
+recimo	61061		3
+redizajniramo	12		2
+redukujemo	56		2
+referiramo			2
+registrujemo	280		2
+regrupišemo			2
+regrutujemo	37		2
+regulišemo	289		2
+rekapituliramo	13		2
+reklamiramo	140		2
+reknemo	37		3
+rekonstruišemo	197		2
+rekosmo			3
+remetimo	63		3
+renoviramo	102		2
+rentiramo			2
+reorganizujemo	47		2
+reprogramiramo	25		2
+resetujemo	35		2
+restartujemo	16		2
+revidiramo	43		2
+rezervisaćemo			2
+rezervišemo			2
+rezimiramo	391		2
+rezonujemo	20		2
+rećićemo			2
+rečemo	111		3
+ređamo	82		2
+ređasmo			2
+rešavajmo	12		2
+rešavamo	2052		2
+rešimo	4108		2
+rešismo			2
+rešićemo	248		3
+režemo	34		3
+režiramo	31		2
+ribamo			2
+ridajmo			3
+ridamo			3
+riskiramo			2
+rizikovaćemo			2
+rizikujemo	366		2
+rizikujmo			2
+robimo			2
+robujemo	116		2
+rodimo	122		2
+rodismo			2
+rokajmo			2
+rokamo			3
+roknemo			2
+rolamo			2
+ronimo	67		2
+ropćemo			2
+ropćimo			2
+rotiramo	45		2
+rovarimo			2
+roštiljamo	16		2
+rugamo	39		2
+rukovodimo	271		2
+rukujemo	72		4
+rukujmo			3
+ručajmo			2
+ručamo	125		2
+ručaćemo			3
+rušimo	378		3
+rušićemo	17		4
+ružimo	24		2
+rvemo			2
+saberemo	436		3
+saberimo	21		3
+sabijemo	12		3
+sabiramo	216		3
+sablaznimo			2
+sabotiramo	28		2
+sabrasmo			2
+sabraćemo	11		3
+sadimo	216		2
+saginjemo	29		3
+saglasimo	70		2
+sagledajmo	41		3
+sagledamo	1491		3
+sagledasmo			3
+sagledavamo	328		2
+sagnemo	20		2
+sagorevamo	20		2
+sagorimo	27		2
+sagradimo	150		2
+sagradismo			2
+sagradićemo	18		3
+sagrešimo			2
+sagrešismo			2
+sahranimo	91		2
+sahranismo			2
+sahranićemo			3
+sahranjujemo	41		2
+sakrijemo	215		3
+sakrijmo			2
+sakrivamo	45		2
+sakrićemo			3
+sakupimo	358		3
+sakupićemo	15		4
+sakupljamo	201		2
+sameljemo	25		3
+samo	1164715		2
+saniramo	213		2
+sanjajmo	16		2
+sanjamo	952		2
+saobraćajmo			2
+saobraćamo			2
+saobraćasmo			2
+saobraćaćemo			2
+saopštavamo	132		2
+saopštimo	265		2
+saosećajmo			2
+saosećamo	121		2
+sapletemo	16		3
+saplešćemo			3
+saplićemo	49		3
+sarađivaćemo	93		3
+sarađujemo	2946		2
+sarađujmo			2
+sasečemo	20		3
+saslušajmo	16		2
+saslušamo	242		2
+saslušavamo			2
+saslušaćemo	23		2
+saspemo			2
+sastajemo	234		3
+sastanemo	247		3
+sastanimo			3
+sastavimo	219		3
+sastavismo			3
+sastavićemo	20		4
+sastavljamo	119		3
+sastaćemo	32		3
+sateramo			2
+satiremo			2
+savetujemo	1787		4
+savijamo	55		2
+savijemo	84		3
+savladajmo			2
+savladamo	421		2
+savlađujemo	25		2
+savlađujmo			2
+sazdamo			2
+sazidajmo			2
+sazivamo	16		2
+saznadosmo			3
+saznajemo	6433		2
+saznajmo	19		2
+saznamo	2382		2
+saznasmo			2
+saznaćemo	641		3
+sazovemo	29		3
+sazvaćemo			3
+sačekajmo	333		3
+sačekamo	1477		3
+sačekaćemo	358		4
+sačinimo	64		2
+sačinjavamo	26		2
+sačmo			2
+sačuvajmo	262		2
+sačuvamo	2131		2
+sačuvasmo			2
+sačuvaćemo	88		3
+sažalimo	13		3
+sažaljevamo			2
+sažimamo			3
+saživimo	11		2
+sažižemo			2
+sažmemo	38		2
+secimo			3
+seciramo	13		2
+seckamo	14		3
+sedamo	119		3
+sedesmo			2
+sedećemo	16		3
+sedimo	1699		2
+sedmo	1246		2
+sednemo	792		3
+sednimo			3
+sedosmo			3
+sejemo	135		3
+sekiramo	63		2
+selimo	265		2
+selićemo			3
+serviramo	78		2
+setimo	4251		3
+setismo			3
+setićemo	98		4
+sevamo			2
+sećajmo	16		3
+sećamo	2069		3
+sećaćemo	18		4
+sečemo	191		3
+seđasmo			2
+sešćemo	66		3
+shvatamo	1783		3
+shvataćemo			4
+shvatimo	3907		3
+shvatismo			3
+shvatićemo	236		4
+shvaćamo			2
+silazimo	166		3
+silujemo	20		4
+simo			2
+simuliramo	53		2
+sinhronizujemo	29		2
+sipamo	223		3
+sipaćemo			4
+sisamo	12		3
+siđemo	113		2
+siđimo	11		2
+siđosmo			2
+sjedinimo			2
+sjednimo			3
+sjurismo			2
+skakaćemo			3
+skakućemo	17		2
+skačemo	137		2
+skačimo			2
+skeniramo	52		2
+skiciramo	26		2
+skidamo	359		2
+skijamo	88		3
+skinemo	701		3
+skinimo	30		3
+skinućemo	28		4
+skitamo			2
+skladištimo	74		2
+sklanjajmo			3
+sklanjamo	135		3
+sklapamo	159		2
+sklepamo	16		2
+sklonimo	447		2
+sklonismo			2
+sklonićemo	20		3
+sklopimo	216		2
+sklopićemo			3
+skoknemo	63		2
+skoncentrišemo	88		2
+skoncentrišimo			2
+skontamo	26		2
+skontaćemo			2
+skončamo			2
+skočimo	103		2
+skočismo			2
+skočićemo			3
+skrasimo	10		2
+skratimo	263		2
+skratićemo	10		3
+skraćujemo	73		2
+skrenemo	861		2
+skrenimo			2
+skrenućemo	28		3
+skretaćemo			3
+skrećemo	688		2
+skrećimo			2
+skrešemo	17		2
+skrhamo			2
+skrijemo			2
+skrivamo	131		2
+skrivaćemo			3
+skrivimo			2
+skrnavimo	16		3
+skršimo			2
+skujemo			2
+skupimo	547		3
+skupismo			3
+skupićemo	29		4
+skupljamo	362		2
+skuvamo	97		3
+skuvaćemo			4
+skužimo			2
+slabimo	34		3
+slagaćemo			3
+slavimo	1922		3
+slavićemo	60		4
+slaćemo	20		3
+slažemo	3171		2
+sledimo	683		2
+sledićemo	10		3
+sledovasmo			2
+sledujemo	25		2
+sledujmo			2
+slegnemo	13		2
+sletećemo			2
+sletimo	29		2
+slećemo	31		2
+slikajmo			3
+slikamo	443		3
+slikaćemo			4
+sličimo			2
+slomimo	46		2
+slomićemo			3
+složimo	906		2
+složismo			2
+složićemo	250		3
+sludovasmo			2
+slupamo			2
+slupaćemo			3
+slutimo	187		2
+slušajmo	24		3
+slušamo	3691		3
+slušasmo			3
+slušaćemo	91		4
+služimo	849		2
+služismo			2
+služićemo	17		3
+smaknemo	14		2
+smanjimo	1699		2
+smanjićemo	141		3
+smanjujemo	604		2
+smaramo	61		2
+smatrajmo	18		2
+smatramo	16079		2
+smatrasmo			2
+smatraćemo	120		3
+smejaćemo			3
+smejemo	888		2
+smejmo	10		2
+smekšamo			2
+smemo	6896		2
+smenićemo	16		3
+smenjivaćemo			3
+smenjujemo	66		2
+smeramo			2
+smestimo	316		3
+smestićemo	17		4
+smetamo	168		2
+smetnemo	40		2
+smešimo	23		2
+smeštamo	155		2
+smilujmo			3
+smirimo	174		2
+smirićemo			3
+smirujemo	35		2
+smislimo	286		3
+smislićemo	37		4
+smišljajmo			2
+smišljamo	104		2
+smo	725386		1
+smognemo	55		3
+smotamo			2
+smotrimo			2
+smoždićemo			2
+smrdimo	29		2
+smrvimo			2
+smrzavamo	50		3
+smrznemo	29		3
+smrznućemo			4
+smuvamo	32		2
+smućujemo			2
+snabdemo			2
+snabdevamo	223		2
+snabdećemo			3
+snalazimo	482		3
+snađemo	203		3
+snažimo	19		2
+snesemo			2
+snevamo			2
+snevaćemo			2
+snimajmo			2
+snimamo	447		2
+snimaćemo	26		3
+snimimo	422		2
+snimićemo	30		3
+snizimo	99		2
+snizićemo			3
+snosimo	390		2
+snosićemo	14		2
+snujemo			3
+sortiramo	23		2
+spadamo	395		3
+spadnemo	11		3
+spajamo	215		2
+spakovaćemo			5
+spakujemo	121		4
+spakujmo			3
+spalimo	45		2
+spalićemo			3
+spaljujemo	31		2
+sparingujemo			2
+spasavajmo	11		2
+spasavamo	212		2
+spasemo	360		3
+spasimo	476		2
+spasićemo	29		3
+spasosmo			3
+spavajmo			2
+spavamo	942		2
+spavasmo			2
+spavaćemo	26		3
+spazismo			3
+spašavamo			2
+spašćemo	13		3
+speremo	23		3
+spojimo	369		2
+spojićemo	12		3
+spomenemo	381		2
+spomenimo	255		2
+spomenusmo			2
+spominjemo	856		3
+sponzorišemo	28		2
+sporazumemo	58		2
+sporazumesmo			2
+sporazumećemo			3
+sporimo	334		2
+spotaknemo	14		2
+spotičemo	22		2
+spoznajemo	106		2
+spoznajmo			2
+spoznamo	245		2
+spoznaćemo			3
+sprdamo	45		2
+spremajmo	21		2
+spremamo	1327		2
+spremaćemo	24		3
+spremimo	503		2
+spremismo			2
+spremićemo	35		3
+sprečavamo	230		2
+sprečimo	1381		2
+sprečićemo	55		3
+sprijateljimo	16		2
+sprovedemo	908		3
+sprovešćemo	63		3
+sprovodimo	1198		2
+spržimo			2
+spustimo	489		2
+spustismo			2
+spustićemo	19		3
+spuštamo	363		2
+sramimo	21		2
+sramotimo	39		2
+sravnimo	19		2
+sravnićemo			3
+sravnjujemo			2
+srbujemo	13		2
+srdimo			2
+sredimo	552		2
+sredićemo	71		3
+sretamo			2
+sretaćemo	16		4
+sretnemo	937		3
+sretnimo			3
+sretosmo			3
+srećemo	1566		3
+sređujemo	129		2
+srešćemo	103		3
+srljamo	216		2
+srozamo	15		2
+sručismo			2
+srušimo	277		3
+srušismo			3
+srušićemo	45		4
+stabilizujemo	175		2
+stadosmo			3
+stajasmo			3
+stajaćemo	15		4
+stajemo	228		3
+stanemo	1069		3
+stanimo	52		3
+stanjimo			2
+stanujemo	124		2
+starajmo	15		3
+staramo	145		3
+starimo	259		3
+startujemo	126		2
+stavimo	3122		3
+stavismo			3
+stavićemo	150		4
+stavljamo	1387		2
+staćemo	63		3
+stecimo			2
+stegnemo	57		2
+steknemo	489		2
+steknimo			2
+stekosmo			2
+stenjemo			2
+sterilišemo	18		2
+stesnimo			2
+stečemo	10		2
+stidećemo	11		3
+stidimo	621		2
+stignemo	1497		3
+stigosmo			3
+stimulišemo			2
+stiskamo	31		2
+stiskaćemo			3
+stisnemo	86		3
+stisnimo	10		3
+stisnućemo			4
+stićićemo			2
+stičemo	534		2
+stičimo			2
+stišamo			2
+stižemo	1378		3
+stojimo	1920		3
+stojmo	29		2
+stopimo	14		2
+stopiramo	25		2
+stradamo	167		2
+stradasmo			2
+strahujemo	270		2
+strahujmo			2
+strašimo			3
+stražarimo			2
+streljamo	29		2
+stremimo	292		2
+strepimo	192		2
+stresemo	16		2
+strmo	253		2
+strpamo	43		2
+strpasmo			2
+strpaćemo			2
+strpimo	147		2
+stružemo			2
+studiramo	110		2
+stupamo	149		2
+stupimo	313		2
+stupismo			2
+stupićemo	23		3
+stvarajmo	34		2
+stvaramo	2718		2
+stvaraćemo	19		3
+stvorimo	2692		2
+stvorismo			2
+stvorićemo	160		3
+sudaramo	44		2
+sudarimo	15		3
+sudarismo			3
+sudarićemo			4
+sudimo	588		2
+sudićemo	12		3
+sugerišemo			2
+sukobimo	35		2
+sukobljavamo	69		2
+sumiramo	287		2
+sumnjamo	1504		2
+sumnjičimo			3
+sumo			2
+sunčamo	47		2
+suočavamo	1689		2
+suočimo	1033		2
+suočićemo	66		3
+suprotstavimo	407		3
+suprotstavljamo	152		3
+surfujemo	23		2
+survavamo			2
+suspendujemo	32		2
+susretnemo	168		3
+susretnimo			3
+susrećemo	1554		3
+susrećimo			3
+susrešćemo	22		3
+sustignemo	39		3
+sustižemo	15		3
+suzbijamo	40		2
+suzbijemo	97		3
+suzdržimo	20		2
+suzimo	43		3
+sučemo			2
+sušimo	67		2
+sužavamo	18		2
+svalimo	26		2
+svarimo	37		2
+svađajmo			3
+svađamo	539		3
+svađasmo			2
+svađaćemo			4
+svedemo	464		3
+svedimo	10		3
+svedočimo	268		2
+svedočismo			2
+svetimo	45		2
+svetkovasmo			2
+svetkujemo	12		2
+svetlimo	18		2
+svezasmo			2
+svežemo	11		2
+svijamo			2
+svirajmo			2
+sviramo	781		2
+sviraćemo	63		3
+sviđamo	21		2
+svlačimo	15		2
+svodimo	133		2
+svratimo	152		2
+svratićemo	10		3
+svraćamo	55		3
+svrgavamo			2
+svrgnemo	14		3
+svrnusmo			2
+svrstavamo	165		3
+svršimo	33		2
+svršismo			2
+svučemo	22		2
+tajimo	13		2
+takmičimo	435		3
+taknemo			2
+tamo	145522		2
+tapkamo	107		3
+tapšemo	19		2
+telefoniramo	32		2
+teleportovaćemo			2
+teleportujemo			2
+tepamo	58		3
+terajmo			3
+teramo	398		3
+terasmo			3
+teretimo	12		2
+testirajmo			2
+testiramo	453		2
+testiraćemo	13		3
+teturamo	18		2
+tečemo	16		2
+tešemo			2
+tešimo	118		2
+težimo	2037		2
+težićemo	53		3
+tikamo			3
+titramo			3
+tlačimo			2
+tolerišemo	218		2
+tomo			2
+tonemo	373		2
+topimo	34		2
+tovarimo	27		2
+točimo	14		2
+tragajmo			2
+tragamo	504		2
+trampimo	33		3
+transformišemo	89		2
+transportujemo	52		2
+trapamo			2
+tratimo			3
+traćimo	39		3
+tračarimo			2
+tražimo	10868		2
+tražismo			2
+tražićemo	731		3
+trebamo	3253		3
+trebaćemo			4
+tremo			2
+treniramo	581		2
+treniraćemo	26		3
+treptimo			2
+tresemo	29		2
+treskamo			3
+tresnućemo			2
+tretiramo	503		2
+tretiraćemo	16		3
+treznimo			2
+trešćemo			2
+trgnemo	103		3
+trgovaćemo			4
+trgujemo	181		3
+trkajmo			2
+trkamo	53		3
+trkaćemo			2
+trknemo			2
+trljamo	49		2
+tromo	279		2
+trošimo	1744		2
+trpamo	77		2
+trpećemo	14		3
+trpimo	1487		2
+trudimo	4513		2
+trudismo			2
+trudićemo	994		3
+trujemo	130		2
+trunemo	20		3
+trzamo	11		3
+trzasmo			3
+trčaćemo	12		3
+trčimo	716		2
+tucnemo			2
+tugujemo	112		2
+tugujmo			2
+tumaramo	80		2
+tumačimo	423		2
+tupimo	24		2
+turimo	24		2
+tučemo	143		2
+tuširamo	53		2
+tužimo	287		2
+tužićemo	42		3
+tvorimo	37		2
+tvrdimo	1131		2
+ubacimo	432		2
+ubacismo			2
+ubacićemo	32		3
+ubacujemo	158		2
+ubacujmo			2
+ubedimo	579		2
+ubedićemo			2
+uberemo	52		3
+ubeđujemo	189		2
+ubijamo	361		2
+ubijaćemo			3
+ubijemo	263		3
+ubijmo	15		2
+ubismo			2
+ubićemo	49		3
+ublažavamo	24		2
+ublažimo	212		2
+ubodemo	19		2
+ubrajamo	295		2
+ubrizgamo			3
+ubrizgaćemo			4
+ubrojimo	40		2
+ubrojmo			2
+ubrzajmo			2
+ubrzamo	350		2
+ubrzavamo	72		3
+ubrzaćemo	20		3
+ucenimo			2
+ucenjujemo	60		2
+udahnemo	121		2
+udahnimo	16		2
+udajemo	20		2
+udaljavajmo			2
+udaljavamo	164		2
+udaljimo	117		2
+udaljismo			2
+udaljićemo			3
+udaljujemo	28		2
+udaljujmo			2
+udamo	23		2
+udaramo	140		3
+udarasmo			3
+udarimo	199		3
+udarismo			3
+udarićemo	19		4
+udavimo	41		2
+udavićemo			3
+udaćemo			3
+udelimo	10		2
+udenemo			2
+udesimo			2
+udesismo			2
+udesićemo			2
+udišemo	312		3
+udostojimo	95		2
+udovoljimo	105		2
+udrimo			2
+udružimo	328		2
+udružićemo			3
+udružujemo	56		2
+udubimo	58		2
+udubljujemo	23		2
+udvostručimo	70		3
+udvostručićemo			4
+ugasimo	238		2
+ugasićemo	16		3
+ugađajmo			2
+ugađamo	40		2
+uginemo			3
+uglavimo	11		2
+ugledajmo	106		3
+ugledamo	734		3
+ugledasmo			3
+ugledaćemo	15		4
+ugodimo	49		2
+ugojimo	15		2
+ugonimo			2
+ugostimo	346		2
+ugovorimo	77		2
+ugovorićemo			3
+ugrabimo	27		3
+ugrabismo			3
+ugradimo	254		2
+ugradićemo	16		3
+ugrađujemo	248		2
+ugrejemo	45		3
+ugrozimo	198		2
+ugrozićemo			3
+ugrožavamo	180		2
+uguramo	45		2
+ugušimo	40		2
+ugušićemo			3
+ugušujemo			2
+uhapsimo	107		3
+uhapsićemo	17		4
+uhodimo			2
+uhranimo			2
+uhvatimo	741		3
+uhvatismo			3
+uhvatićemo	12		4
+uigramo	125		2
+ujašimo			3
+ujedamo	24		2
+ujedinimo	444		2
+ujedinićemo			3
+ujedinjujmo			2
+ukazaćemo	85		3
+ukazujemo	817		2
+ukažemo	1426		2
+ukažimo	14		2
+ukidamo	237		2
+ukinemo	558		3
+ukinimo	54		3
+ukinusmo			3
+ukinućemo	55		4
+uklanjamo	155		3
+uklanjaćemo			4
+uklapamo	137		2
+uključimo	1262		2
+uključismo			2
+uključićemo	69		3
+uključujemo	358		2
+uklonimo	457		2
+uklonićemo	26		3
+uklopimo	232		2
+ukopamo	20		2
+ukorenimo			2
+ukorimo			2
+ukrademo	59		3
+ukradimo			3
+ukrasimo	49		2
+ukrasićemo			3
+ukrašavamo	34		2
+ukrašćemo			3
+ukrcajmo			2
+ukrcamo	38		2
+ukrcavamo	40		3
+ukrcaćemo			3
+ukrotimo	25		2
+ukrstimo	81		2
+ukrstićemo			3
+ulazimo	3819		3
+ulažemo	1544		2
+ulepšamo	169		2
+ulepšavamo	56		2
+uletećemo			2
+uletimo	35		2
+ulećemo	18		2
+ulivamo			2
+ulizujemo	20		2
+ulogorimo			2
+ulogorićemo			2
+ulovimo	46		2
+ulovićemo			3
+uložimo	812		2
+uložićemo	141		3
+umaknemo			2
+umanjimo	187		2
+umanjujemo	96		2
+umaramo	20		2
+umemo	1789		2
+umeravajmo			2
+umetnemo	15		3
+umećemo	10		3
+umešamo	68		2
+umijmo			2
+umilimo			2
+umiremo	299		3
+umirimo	63		3
+umirismo			2
+umivamo	20		2
+umišljamo	28		2
+umnožavamo	36		2
+umnožimo	51		2
+umnožićemo			2
+umolimo	20		2
+umoljavajmo			2
+umoljavamo			2
+umorimo	47		2
+umorićemo			3
+umotamo	13		2
+umočimo	15		2
+umremo	264		2
+umresmo			2
+umrećemo	42		3
+umrimo	16		2
+umrljamo			2
+umrtvimo	13		2
+umudrimo			2
+umuknemo			2
+unajmimo	15		2
+unajmićemo			3
+unajmljujemo			2
+unapredimo	1149		2
+unapređujemo	514		2
+unesemo	566		2
+unesimo	15		2
+unesrećimo			2
+unećemo	31		3
+uništavamo	347		2
+uništimo	410		3
+uništićemo	35		4
+unižavamo	11		2
+unosimo	982		2
+unovčimo	36		3
+uobličimo	50		2
+uobrazimo			2
+uopštimo			2
+uortačimo			2
+uozbiljimo	193		2
+uočavamo	545		2
+uočimo	434		2
+uočićemo	93		3
+upadamo	206		3
+upadnemo	153		3
+upadosmo			3
+upakujemo	56		2
+upalimo	108		2
+upalismo			2
+upalićemo			3
+upamtimo	59		3
+uparimo	32		2
+upašćemo	15		3
+upecamo	18		3
+uperimo	26		2
+upećemo			2
+upinjemo	12		2
+upiremo	54		3
+upisaćemo	25		3
+upisujemo	226		2
+upitajmo	88		2
+upitamo	283		2
+upitasmo			2
+upitaćemo			3
+upišemo	307		2
+uplatimo	169		2
+uplatićemo			2
+uplaćujemo	116		2
+uplašimo	84		3
+uplašićemo			4
+upletemo	10		2
+uplićemo	28		2
+upljačkamo			2
+uplovismo			2
+upnemo			2
+upodobimo	43		2
+uporedimo	1524		2
+uporedićemo	46		2
+upoređujemo	293		2
+uposlimo	147		2
+upotpunimo	93		2
+upotrebimo	623		2
+upotrebićemo	64		3
+upotrebljavajmo			2
+upotrebljavamo	486		2
+upoznajemo	950		2
+upoznajmo	177		2
+upoznamo	2612		2
+upoznasmo			2
+upoznaćemo	196		3
+upozoravamo	778		2
+upozorimo	318		2
+upošljavamo	42		2
+upravimo			2
+upravićemo			2
+upravljamo	490		3
+upravljaćemo			4
+upražnjavamo	72		2
+upregnemo	22		2
+upregnimo			2
+uprijesmo		J	2
+uprljamo	10		2
+upropastimo	97		2
+upropastićemo			3
+uprostimo	67		2
+uprskamo			2
+upucajmo			2
+upucamo			2
+upucaćemo			2
+upustimo	181		2
+uputimo	616		2
+uputismo			2
+uputićemo	123		3
+upućujemo	787		2
+upuštamo	160		2
+uradimo	8192		2
+uradismo			2
+uradićemo	451		3
+uranjamo	25		2
+urastamo			2
+urazumimo	49		2
+uračunamo	74		2
+uredimo	717		2
+uredićemo	38		3
+uređujemo	230		2
+urlamo	35		2
+uronimo	32		2
+uručimo	45		2
+uručujemo	29		2
+usadimo	44		2
+usaglasimo	297		2
+usavršavamo	235		3
+usavršimo	70		2
+uselimo	63		2
+uselićemo			3
+useljavamo	26		2
+ushtemo			2
+usidrimo	11		3
+usisamo			3
+uskačemo	23		2
+uskladimo	383		2
+uskorimo			2
+uskočimo	32		2
+uskratimo	99		2
+uslikamo	38		2
+uslišimo			2
+uslužimo	27		2
+uslužujemo	14		2
+usmeravamo	274		2
+usmerimo	660		3
+usnimo			2
+uspaljujemo			2
+uspavamo	46		2
+uspavaćemo			3
+uspemo	1571		2
+uspesmo			2
+uspevamo	878		2
+uspećemo	179		3
+uspinjemo	21		3
+uspnemo	10		2
+uspokojimo			2
+usporavamo	46		2
+usporimo	125		2
+usporićemo			3
+uspostavimo	1121		3
+uspostavićemo	52		4
+uspostavljamo	202		3
+uspravimo	56		2
+usprotivimo	32		2
+usredsredimo	162		2
+usrećimo	52		2
+usrećujemo			2
+ustadosmo			3
+ustajemo	212		3
+ustajmo			2
+ustanemo	252		3
+ustanimo	34		3
+ustanovimo	318		2
+ustasmo			2
+ustaćemo			3
+ustegnemo			2
+ustežemo	14		2
+ustrajemo	24		3
+ustremimo			2
+ustrojimo	16		2
+ustuknemo	25		2
+ustupamo	59		2
+ustupimo	96		2
+usudimo	55		2
+usudićemo	15		3
+usuđujemo	118		2
+usvajamo	530		2
+usvojimo	1001		2
+usvojismo			2
+usvojićemo	49		3
+utaložimo			2
+utanačimo	24		2
+utapamo	26		2
+utegnimo			2
+uteknemo			2
+utelovimo			2
+uterasmo			2
+uterujemo			2
+utečemo			2
+utešimo	46		3
+utešismo			3
+utisnemo	12		2
+utičemo	1730		3
+utišamo	23		2
+utkamo	11		3
+utolimo	14		2
+utonemo	34		2
+utopimo	35		2
+utoplimo			2
+utovarimo	20		3
+utrkujemo	32		3
+utrkujmo			2
+utuvimo	24		2
+utučemo			2
+utvrdimo	1395		2
+utvrdićemo	109		3
+utvrđujemo	259		3
+utvrđujmo			2
+uvalimo	55		2
+uvaljamo	30		2
+uvaljujemo	12		2
+uvažavamo	377		2
+uvažimo	190		2
+uvedemo			2
+uvedimo			2
+uveličamo	16		2
+uveravamo	211		2
+uverimo	741		3
+uverićemo	32		4
+uvezemo	210		2
+uvećamo	146		2
+uvećavamo	91		2
+uvešćemo	132		2
+uvežbamo	29		3
+uvežbavamo	44		2
+uvidećemo	37		4
+uvidimo	273		3
+uviđamo	298		2
+uvlačimo	65		2
+uvodimo	946		2
+uvozimo	1482		2
+uvredimo	74		2
+uvrstimo	193		2
+uvrtimo			2
+uvršćujemo			2
+uvukosmo			2
+uvučemo	62		2
+uzajmimo			2
+uzajmićemo			2
+uzađimo			2
+uzbunimo			2
+uzburkajmo			3
+uzbuđujemo	33		2
+uzdajmo	30		2
+uzdamo	286		2
+uzdasmo			2
+uzdignemo	103		2
+uzdignimo	13		2
+uzdišemo	45		2
+uzdižemo	77		2
+uzdrmamo	12		2
+uzdržavajmo			3
+uzdržavamo	37		3
+uzdržimo	45		2
+uzesmo			2
+uzećemo	318		3
+uzgajamo	130		2
+uzgojimo			2
+uzidamo			2
+uzimamo	1825		3
+uzimaćemo	10		4
+uzimljemo			3
+uziđemo			3
+uziđimo			3
+uziđosmo			3
+uzjašimo			3
+uzlazimo			2
+uzlazićemo			2
+uzletimo	12		2
+uzlećemo			2
+uzmemo	4904		2
+uzmimo	2021		2
+uznemiravamo	48		2
+uznemirimo	14		2
+uznemirujemo			2
+uznesemo	35		2
+uznesimo			2
+uznosimo	93		2
+uzrastemo			2
+uzrokujemo	18		4
+uzviknemo	20		2
+uzviknimo			2
+uzvikujemo	17		2
+uzvisimo	11		2
+uzvratimo	179		2
+uzvratismo			2
+uzvratićemo	14		2
+uzvraćamo	65		2
+ućutimo	23		2
+ućutkamo	13		2
+učestvujemo	2553		4
+učimo	3074		2
+učinimo	4596		2
+učinismo			2
+učinićemo	775		3
+učićemo	36		3
+učlanimo	60		2
+učvrstimo	198		2
+učvršćujmo			2
+uđemo	3813		2
+uđimo	31		2
+uđosmo			2
+ušetamo			2
+ušijemo			2
+uštedećemo	53		3
+uštedimo	361		2
+ušunjamo			2
+ušunjaćemo			2
+ušuškamo	21		3
+užasavamo	14		2
+užasavasmo			2
+užasnemo			2
+uživajmo	101		2
+uživamo	2593		2
+uživaćemo	72		3
+uživimo	21		2
+vabimo			2
+vadimo	391		3
+vagajmo			2
+vagamo			2
+vagasmo			2
+vagaćemo			3
+valjamo	150		2
+vamo			2
+vapimo	54		2
+varajmo			3
+varakamo			2
+varamo	217		3
+varasmo			3
+varimo	20		2
+variramo	12		2
+varirasmo			2
+varićemo			3
+vaskrsnemo	24		2
+vaspitamo	42		2
+važemo			2
+važimo	58		2
+veličamo	120		2
+veličaćemo			2
+venemo			2
+venčajmo			2
+venčamo	117		2
+venčavamo	22		2
+venčaćemo	11		3
+veremo			2
+verimo			2
+verovasmo			4
+verovaćemo	31		5
+verujemo	11826		4
+verujmo	79		3
+veselimo	191		2
+veslamo	46		2
+veslasmo			2
+vezaćemo	11		3
+vezemo	21		2
+vezujemo	398		2
+večerajmo			3
+večeramo	100		3
+večeraćemo			4
+vešamo			3
+vešćemo			2
+vežbajmo	11		3
+vežbamo	493		3
+vežbaćemo			4
+vežemo	341		2
+vidamo	17		2
+videćemo	9830		4
+vidimo	44395		3
+vijasmo			2
+viknemo	13		2
+viknusmo			2
+virimo	23		2
+visimo	74		2
+vičemo	164		2
+viđamo	1194		2
+viđasmo			2
+viđaćemo	17		3
+vježbajmo		J	3
+vladamo	249		2
+vladasmo			2
+vladaćemo			3
+vodimo	5056		2
+vodismo			2
+vodićemo	163		3
+vojujemo			2
+vojujmo			2
+volesmo			2
+volećemo	18		3
+volimo	7632		2
+volontiramo	19		2
+vozikamo	13		2
+vozimo	1244		2
+vozićemo	50		3
+vratimo	9357		2
+vratismo			2
+vratićemo	455		3
+vraćajmo			3
+vraćamo	3684		3
+vraćaćemo	23		4
+vračamo			2
+vrbujemo			2
+vrdalamo			2
+vrebamo			2
+vredimo	276		2
+vrednujemo	157		4
+vređamo	255		2
+vrisnusmo			2
+vrištimo	50		2
+vrtimo	424		2
+vršimo	1961		2
+vučemo	289		2
+zabadamo	19		2
+zabarikadiramo			2
+zabavimo	264		3
+zabavićemo			4
+zabavljajmo			3
+zabavljamo	301		3
+zabavljaćemo			4
+zabeležimo	310		2
+zabijemo	25		3
+zabićemo			3
+zablistamo	21		2
+zabodemo			2
+zaboravimo	4707		3
+zaboravismo			3
+zaboravićemo	54		4
+zaboravljajmo	11		3
+zaboravljamo	1415		3
+zabranimo	244		2
+zabranismo			2
+zabranjujemo	81		2
+zabrinemo	108		3
+zabrljamo	30		2
+zacarimo			3
+zadajemo	54		2
+zadamo	57		2
+zadavimo			2
+zadiremo	34		2
+zadirkujemo	11		2
+zadivimo	21		2
+zadivismo			2
+zadivićemo			3
+zadobijemo	94		2
+zadobismo			2
+zadobićemo			2
+zadojimo			2
+zadovoljavamo	217		2
+zadovoljimo	671		2
+zadremamo			2
+zadržasmo			2
+zadržavamo	550		3
+zadržaćemo	146		3
+zadržimo	1588		2
+zadužimo	254		2
+zafrkavamo			2
+zagladimo	11		2
+zaglavimo	44		2
+zaglavićemo			3
+zagledajmo	13		2
+zagledamo	144		2
+zagledasmo			2
+zaglibismo			2
+zagnjurismo			2
+zagovaramo	109		2
+zagrejemo	110		3
+zagrejmo			2
+zagrevajmo			2
+zagrevamo	53		2
+zagrijavamo		J	2
+zagrlimo	91		3
+zagrlismo			3
+zahladnimo			2
+zahtevamo	1524		2
+zahvalimo	1094		2
+zahvalićemo	16		3
+zahvaljujemo	2900		2
+zahvaljujmo			2
+zahvatamo	13		3
+zaigrajmo	22		2
+zaigramo	111		2
+zaigraćemo			2
+zainteresujemo	170		2
+zaištemo			2
+zakasnimo	50		2
+zakasnićemo	12		3
+zakazaćemo	18		3
+zakazujemo	76		2
+zakačimo	57		2
+zakažemo	158		2
+zakažimo			2
+zaklaćemo	14		2
+zaklinjemo	117		3
+zaključajmo			2
+zaključamo	31		2
+zaključavamo	25		2
+zaključaćemo			2
+zaključimo	1248		2
+zaključismo			2
+zaključujemo	628		2
+zaklonimo			2
+zakmečimo			2
+zakoljemo			2
+zakopajmo			2
+zakopamo	56		2
+zakopavamo	18		2
+zakopaćemo			3
+zakoračimo	108		2
+zakrivimo			2
+zakrpimo	32		2
+zakrpićemo			2
+zakucamo	25		2
+zakunemo	22		3
+zakunimo			3
+zakupimo	25		2
+zakupićemo			2
+zalagaćemo	136		3
+zalazimo	140		3
+zalažemo	2067		2
+zaledimo			2
+zalepimo	41		2
+zalepićemo			2
+zaletimo	14		2
+zalečimo	24		2
+zalijemo	50		3
+zalivamo			2
+zaljubimo	98		2
+zaljubljujemo	76		2
+založimo	74		2
+založićemo	20		3
+zalutamo	41		2
+zalutasmo			2
+zamajavamo	114		2
+zamaramo	68		2
+zamačimo			2
+zamažemo	12		2
+zamenimo	653		2
+zamenismo			2
+zamenićemo	40		3
+zamenjujemo	91		2
+zamenjujmo			2
+zameramo	230		2
+zamislimo	2106		3
+zamislismo			3
+zamišljamo	506		2
+zamolimo	324		2
+zamolismo			2
+zamolićemo	45		3
+zamorimo			2
+zamotamo			2
+zamrzimo	10		2
+zamrznemo	68		3
+zamucamo			2
+zamuckujemo			2
+zamuknemo			2
+zanemarimo	1033		2
+zanemarićemo	27		3
+zanemarujemo	208		2
+zanesemo	22		2
+zanimajmo			2
+zanimamo	67		2
+zanosimo	126		2
+zanoćimo			2
+zaobilazimo	88		2
+zaobiđemo	121		2
+zaobiđimo			2
+zaogrćemo			2
+zaokrenemo			2
+zaokružimo	281		2
+zaokupimo			2
+zaostajemo	417		3
+zaostanemo	11		3
+zaoštrimo	16		2
+zapadamo	28		3
+zapadnemo	40		3
+zapakujemo			2
+zapalimo	149		2
+zapalićemo	14		3
+zapamtimo	226		3
+zapazimo	100		3
+zapazićemo	26		4
+zapažamo	250		2
+zapevajmo	31		2
+zapevamo	76		2
+zapečatimo	22		2
+zapijemo			2
+zapisaćemo			3
+zapisujemo	46		2
+zapitajmo	286		2
+zapitamo	1160		2
+zapitasmo			2
+zapitaćemo	21		3
+zapićemo			2
+zapišemo	59		2
+zapišimo			2
+zaplačemo	15		2
+zaplačimo			2
+zaplašimo			3
+zaplenimo	14		2
+zapletemo			2
+zaplešemo	10		2
+zaplešimo			2
+zaplešćemo			2
+zaplićemo	21		2
+zaplješćimo			2
+zaplovimo	18		2
+zapnemo	51		2
+zapnimo			2
+zapopimo			2
+zaposlimo	685		2
+zaposlićemo	84		3
+zapovedamo	25		2
+započesmo			2
+započećemo	70		3
+započinjemo	420		2
+započnemo	629		2
+započnimo	31		2
+zapošljavamo	326		2
+zapretimo	18		2
+zaprećemo			2
+zapucamo			2
+zaputimo	22		2
+zaputićemo			2
+zapušimo	33		2
+zaradimo	636		2
+zaradićemo	17		3
+zaranjamo	16		2
+zaratimo	44		3
+zarazimo	28		2
+zarađujemo	352		2
+zarekosmo			3
+zaređamo			2
+zaridajmo			2
+zarijemo			2
+zaričemo			2
+zarobimo	20		2
+zarobismo			2
+zarobićemo			2
+zaronimo	74		2
+zaronićemo			2
+zasadimo	64		2
+zasednemo	23		2
+zasenimo			3
+zasijaćemo			2
+zasipamo	11		2
+zasitimo	19		3
+zaskočimo			2
+zasladimo	34		2
+zaslužimo	110		2
+zaslužićemo			3
+zaslužujemo	741		2
+zasnivamo	106		2
+zasnujemo	32		2
+zaspemo			2
+zaspimo	124		2
+zastadosmo			3
+zastajemo	44		3
+zastanemo	179		3
+zastanimo	29		3
+zastenjemo			2
+zastenjimo			2
+zastidimo	18		2
+zastupamo	586		2
+zasučemo	111		2
+zasvirajmo			2
+zasviramo	18		2
+zataškamo			3
+zataškavamo	18		2
+zategnemo			2
+zateknemo	86		3
+zatekosmo			3
+zatežemo	27		2
+zatiremo			2
+zatičemo	376		2
+zatražimo	281		2
+zatrebamo	10		2
+zatremo	19		2
+zatrovasmo			2
+zatrpamo	35		2
+zatrpavamo	37		2
+zatrudnimo			2
+zatvarajmo	11		2
+zatvaramo	453		2
+zatvorimo	727		2
+zatvorismo			2
+zatvorićemo	38		3
+zaustavimo	1194		3
+zaustavićemo	65		4
+zaustavljamo	172		3
+zauzećemo	10		3
+zauzimamo	210		3
+zauzmemo	295		2
+zauzmimo			2
+zavadimo	13		3
+zavalimo	13		2
+zavapimo	34		2
+zavaramo	21		3
+zavaravajmo	52		2
+zavaravamo	350		2
+zavedemo	36		3
+zavetujemo	22		2
+zavežemo	10		2
+zavidimo			2
+zavijemo	10		3
+zavikasmo			2
+zavirimo	276		2
+zavisimo	526		3
+zavladamo	11		2
+zavlačimo	30		2
+zavodimo	14		2
+zavolimo	144		2
+zavoljesmo		J	2
+zavrnemo	52		2
+zavrtesmo			2
+zavrtimo	22		2
+završavamo	860		3
+završimo	3141		2
+završismo			2
+završićemo	262		3
+zavukosmo			2
+zavučemo	28		2
+zaziremo	39		2
+zaćutasmo			2
+zaćutimo	24		2
+začepimo	12		2
+začinimo	66		2
+začnemo			2
+začudismo			3
+začudićemo			4
+začusmo			2
+zađemo	78		2
+zašijemo			2
+zaštitimo	1675		2
+zaštitićemo	43		3
+zažalimo	24		3
+zaželesmo			2
+zaželimo	39		2
+zaživimo			2
+zažmirimo			2
+zažmurimo	73		2
+zbacimo	40		2
+zbacujemo			2
+zbijamo	13		2
+zbijemo	61		3
+zbližavamo	18		2
+zbližimo	57		2
+zbližismo			2
+zborimo	28		2
+zbrinemo	67		3
+zbrisaćemo			4
+zbrišemo	20		3
+zbrišimo			3
+zbunimo	26		2
+zbunismo			2
+zbunjujemo	31		2
+zdrobimo			2
+zdrpimo			2
+združimo	10		2
+združujemo			2
+zevamo	27		2
+zezamo	274		2
+zeznemo	29		2
+zgazimo	29		2
+zgledasmo			2
+zgnječimo			2
+zgrabimo	19		3
+zgrabićemo			4
+zgranusmo			2
+zgrejemo			2
+zgriješimo		J	2
+zgrčimo			2
+zidajmo			2
+zidamo	111		2
+zijamo			2
+zimo			2
+zinemo			3
+zinusmo			3
+zlopatimo	11		3
+znademo	29		3
+znadosmo			3
+znajmo	50		2
+znamo	56523		2
+znaćemo	631		3
+značimo	48		2
+znojimo	88		2
+zobamo			2
+zovemo	3103		2
+zovimo	54		3
+zovnemo	19		2
+zračimo	61		2
+zumiramo	13		2
+zurimo	30		2
+zvaćemo	126		3
+zveknemo			3
+zvonimo	10		2
+zvučimo	50		2
+ćaskamo	104		3
+ćemo	148730		2
+ćukamo			3
+ćutasmo			2
+ćutaćemo			3
+ćutimo	1270		2
+čamimo	16		2
+časimo			2
+častimo	90		2
+častismo			2
+častićemo			3
+čavrljamo	25		2
+čačkamo	34		3
+čekajmo	51		3
+čekamo	7430		3
+čekasmo			3
+čekaćemo	187		4
+čepasmo			2
+čestitajmo			2
+čestitamo	1723		2
+četujemo	11		2
+čeznemo	102		3
+čeznimo			3
+činimo	4081		2
+činismo			2
+činićemo	52		3
+čistimo	463		3
+čitajmo	43		2
+čitamo	3399		2
+čitaćemo	62		3
+čudimo	687		3
+čujasmo			2
+čujemo	6674		3
+čujmo	65		2
+čupamo	54		2
+čusmo			2
+čuvajmo	331		2
+čuvamo	2057		2
+čuvasmo			2
+čuvaćemo	58		3
+čuvstvujmo			2
+čućemo	204		3
+čučimo	13		2
+đakomo			2
+đuskamo			3
+šalimo	245		3
+šaljemo	1984		3
+šamaramo	10		2
+šaptaćemo			3
+šapućemo	23		2
+šapćemo			2
+šetajmo	32		2
+šetamo	531		2
+šetaćemo			3
+šetkamo			3
+šećerlemo			2
+šibajmo			2
+šibamo	14		2
+šijemo	49		3
+šimo			2
+širimo	804		2
+šićarimo			2
+šišamo	50		2
+škakljamo			2
+školujemo	327		4
+školujmo			3
+škrgućemo			3
+šljakamo	11		3
+šminkaćemo			2
+šokiramo	14		2
+špijuniramo	15		2
+štampamo	244		3
+štampaćemo	11		4
+štedimo	605		2
+štetimo	29		3
+štimamo			3
+štipkamo			3
+štitimo	953		3
+štitićemo	22		4
+štrajkujemo	132		4
+štujemo			2
+šunjamo			2
+šutimo	24		2
+šutiramo	46		2
+šutnemo	20		2
+švrljamo			2
+ščepajmo			2
+ščepamo			2
+ščepaćemo			3
+žalimo	1022		3
+žalićemo	37		4
+žalostimo	13		2
+žanjemo	62		3
+žderemo	15		2
+žednimo			2
+želećemo	14		3
+želimo	35122		2
+ženimo	23		2
+žigošemo	32		2
+živahnusmo			2
+živesmo			2
+živećemo	189		3
+živimo	21728		2
+žrtvovaćemo	11		5
+žrtvujemo	247		4
+žudimo	136		2
+žurimo	371		2
+žvaćemo			2
+bjesmo			2
+bježimo			2
+cijenimo	83		3
+cijepamo			3
+cjelivamo			2
+dijelimo	194		3
+djelimo			2
+djelujemo			4
+dospijemo			3
+griješimo	30		3
+istjeramo			3
+izbjegavamo			2
+izbjegnemo			2
+izliječimo			3
+izmjerimo			3
+izvještavamo			2
+lijepimo			3
+liječimo	23		3
+mijenjamo	90		3
+miješamo	29		3
+mjerimo			3
+namjeravamo			2
+namjestimo			3
+natjeramo			3
+nesmijemo			2
+nijemo	119		2
+obavijestimo	33		3
+obavještavamo			2
+objesimo			3
+ocijenimo			3
+odsiječemo			4
+osjecamo			2
+osjetimo			3
+osjećamo			3
+otjeramo			3
+pjevajmo			3
+pjevamo			3
+pobijedimo	30		3
+pobjedimo			2
+pobjegnemo			3
+pobjegnimo			3
+pobjeđujemo			2
+podijelimo	87		3
+podjelimo			2
+podsjetimo			3
+podsjećamo			3
+pogriješimo	13		3
+polijećemo			3
+pomjeramo			2
+pomjerimo			2
+posjedimo			2
+posjedujemo			4
+posjetimo			3
+posjećujemo			2
+povjeravamo			2
+povjerujemo			4
+povrijedimo			3
+premjestimo			2
+premještamo			2
+pretjerujemo			2
+prijetimo			3
+prijeđemo	10		3
+prijeđimo			3
+primjetimo			2
+prisjetimo			3
+procijenimo			3
+procjenjujemo			2
+promijenimo	90		3
+promjenimo			2
+provjeravamo			2
+provjerimo			3
+provjerićemo			4
+razmijenimo	12		3
+razmjenjujemo			2
+razriješimo	10		2
+razumijemo	417		3
+riješavamo			2
+riješimo	174		3
+riješićemo			4
+rješavamo			3
+rješimo			2
+saosjećamo			2
+savjetujemo			4
+sijemo			3
+sjedimo	87		2
+sjednemo			3
+sjetimo			3
+sjećamo			3
+slijedimo	68		3
+slijećemo			2
+smijemo	650		2
+smjestimo			3
+spriječimo			3
+svjedočimo			2
+tjeramo			3
+ubijedimo	10		2
+ubjeđujemo			2
+udijelimo			2
+umijemo	81		3
+umiješamo			2
+usmjerimo			3
+uspijemo	65		3
+uspijevamo	30		3
+uspjećemo			3
+utječemo			3
+utješimo			3
+uvjeravamo			2
+uvjerimo			3
+uvrijedimo			3
+vidjećemo			4
+vjenčajmo			2
+vjenčamo			2
+vjenčavamo			2
+vjenčaćemo			3
+vjerujemo			4
+vježbamo			3
+vrijedimo			2
+zahtijevamo	84		3
+zahtjevamo			2
+zamijenimo	28		3
+zamjenimo			2
+zapjevajmo			2

@@ -1,51 +1,51 @@
 50
-blud	446	
-bud		M
-dud	326	
-ehud		
-feud	158	
-grinvud		
-grud		
-holivud		
-hud		M
-ikud		
-kojekud		M
-kud	6459	
-labud	430	
-likud		
-lud	6237	
-mahmud		
-masud		
-mesud		
-mrgud	153	
-nekud	846	
-nikud	494	
-niotkud	172	
-odasvud	283	
-odnekud		M
-odonud		
-odovud		
-otkud	6267	
-otud		M
-pelud	27	
-polulud		
-posvud		
-presud		
-sprud	117	
-sud		
-sulud	114	
-svud	754	
-svukud		
-talmud		
-trud	9106	
-ud	536	
-uskogrud		M
-usud	701	
-uzalud	5663	
-zalud	472	
-zlehud		
-zlohud		
-zloćud		
-ćud	517	
-širokogrud		M
-želud		
+blud	446		1
+bud		M	1
+dud	326		1
+ehud			2
+feud	158		2
+grinvud			2
+grud			1
+holivud			2
+hud		M	1
+ikud			2
+kojekud		M	2
+kud	6459		1
+labud	430		2
+likud			2
+lud	6237		1
+mahmud			2
+masud			2
+mesud			2
+mrgud	153		2
+nekud	846		2
+nikud	494		2
+niotkud	172		2
+odasvud	283		2
+odnekud		M	2
+odonud			2
+odovud			2
+otkud	6267		2
+otud		M	2
+pelud	27		2
+polulud			2
+posvud			2
+presud			2
+sprud	117		1
+sud			1
+sulud	114		2
+svud	754		1
+svukud			2
+talmud			2
+trud	9106		1
+ud	536		1
+uskogrud		M	2
+usud	701		2
+uzalud	5663		3
+zalud	472		2
+zlehud			2
+zlohud			2
+zloćud			2
+ćud	517		1
+širokogrud		M	2
+želud			2

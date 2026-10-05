@@ -1,442 +1,442 @@
 430
-apač		
-bacač	298	
-bajač		M
-bakrač	59	
-berač	102	
-birač	744	
-boksač		
-brač	145	
-brijač	247	
-brisač	99	
-brojač	605	
-brusač	10	
-buhač	20	
-bukač		M
-bušač	18	
-cepač		M
-crtač	571	
-davač	49	
-derač		
-derkač		
-dingač		
-divljač	1673	
-dizač	89	
-dobavljač	924	
-dodavač	31	
-dojavljivač	12	
-dostavljač	140	
-drač	284	
-drvoprerađivač		
-držač	640	
-dubač		M
-duvač		M
-gađač		M
-glasač	517	
-glodač		
-gnjurač		
-grejač	497	
-grijač	12	J
-grubač		
-gudač		
-gurač		M
-gutač	48	
-hajkač		M
-harač		M
-hodač	60	
-hrkač		
-hrvač		
-huškač	70	
-hvatač	146	
-igrač	21511	
-isparivač	136	
-ispirač	24	
-ispitivač	237	
-ispovedač		
-ispravljač	184	
-isterivač	44	
-istraživač	3507	
-istrebljivač	35	
-izazivač	487	
-izbacivač	94	
-izbeljivač	53	
-izbirač		M
-izdavač	4663	
-izlagač	439	
-izmenjivač	190	
-iznuđivač		M
-izrabljivač		
-izrađivač	38	
-izveštač	614	
-izvikivač		
-izviđač	150	
-izvlakač		
-izvođač	4086	
-jahač	443	
-kasač		
-kazivač	55	
-klepač		
-klesač		
-klizač	187	
-kolač	4277	
-koljač	63	
-komorač	96	
-koosnivač	106	
-kopač	94	
-korač		
-korbač		M
-koromač		
-kosač	41	
-kotač	46	
-kovač	984	
-košarač		
-krivač		
-krojač	398	
-krovopokrivač	11	
-krpač		M
-kuglač		
-kupač	31	
-kušač	38	
-letač	182	
-levač		
-ložač	164	
-lukač		
-lumpač		M
-mazač		
-mač	4062	
-menjač	2872	
-merač	696	
-metaloglodač		
-mešač		M
-mijač		
-minobacač	43	
-minopolagač		
-montirač		
-morač		
-muljač		
-nabavljač	28	
-nabijač	11	
-nadmetač		
-nadzirač		
-najavljivač	19	
-nalazač	51	
-napadač	6138	
-naslonjač	22	
-nasrtač		
-nastavljač	329	
-natikač		M
-navijač	2077	
-nejač	215	
-neplivač	44	
-nepušač	204	
-nosač	1817	
-obarač		M
-obeleživač		M
-obijač	35	
-obmanjivač	18	
-obrađivač	115	
-ocenjivač	90	
-odapinjač		M
-odašiljač	127	
-odgajivač	216	
-odmagač		
-odmicač		
-održač		
-odstranjivač	43	
-odvijač	44	
-odvrtač		M
-odčepljivač		
-oglašivač	216	
-ogovarač		
-ogrtač	450	
-okidač	1603	
-omamljivač		
-omekšivač	160	
-ometač	34	
-omotač	1184	
-opadač		
-opasač	109	
-opisivač		
-opskrbljivač		
-orač	62	
-osiguravač	396	
-osigurač	472	
-osmatrač	85	
-osnivač	11965	
-ostavljač		
-osvajač	1775	
-osveživač	111	
-otimač	32	
-otirač	147	
-otkupljivač		
-otpirač		
-otpušač		
-otpušivač		
-otvarač	141	
-ovlaživač	83	
-oštrač		M
-pecač		M
-pekač	41	
-penjač	104	
-perač	82	
-pevač	5560	
-pirinač	2538	
-pisač	113	
-pitač	22	
-plač	2613	
-plesač	215	
-pletač	20	
-plevač		
-plivač	818	
-pljuvač	35	
-pobuđivač		
-podbadač		M
-podizač	73	
-podizvođač	287	
-podmazivač		M
-podmetač	167	
-podrivač		
-podstrekač		M
-podupirač	58	
-podvodač	22	
-pogađač	19	
-pojačavač	296	
-pojačivač	149	
-pokazivač	494	
-pokretač	2980	
-pokrivač	1290	
-polagač		
-polivač		
-pomagač	259	
-ponavljač	85	
-ponuđač	1712	
-popisivač	179	
-popravljač		
-porobljivač		
-posmatrač	2491	
-postavljač	57	
-potiskivač		
-potkazivač	20	
-potkivač	24	
-potkupljivač		
-potpaljivač		
-potrošač	2834	
-pozajmljivač		
-pozivač		
-pošiljač		
-prebacivač		
-predavač	4496	
-predlagač	3924	
-preduzimač	229	
-pregibač		
-pregledač	266	
-pregovarač	859	
-prekidač	1411	
-prekrivač	410	
-prelamač		
-preletač		
-prepisač		
-prepisivač	137	
-preprodavač		
-prerađivač	132	
-preslikač		
-presretač	87	
-pretraživač	2808	
-pretvarač	129	
-prevrtač		
-prečistač		
-prigušivač	99	
-prikazivač	49	
-prikrivač		
-prilagač		M
-primač	139	
-pripovedač	1172	
-priređivač	672	
-prisluškivač	88	
-pritiskač	14	
-prizivač		
-probač		
-probirač		M
-procenjivač	23	
-prodavač	99	
-proizvođač	14523	
-prokazivač		M
-promatrač	57	
-pronalazač		M
-prostirač	15	
-prouzrokovač		
-pročistač		
-psovač	17	
-pucač	16	
-punjač	1422	
-pušač	976	
-rasipač		
-rasplinjač		
-raspršivač	67	
-rastavljač		
-rasturač	17	
-rastvarač	101	
-razarač	270	
-razbijač	98	
-razdvajač		M
-razlagač		
-razmatrač		
-razmenjivač		
-raznosač	46	
-razređivač	62	
-razvađač		
-razvijač	26	
-računopolagač		M
-rezač	529	
-rešavač		
-ribač		
-rogač	87	
-rovokopač	44	
-rugač		M
-rvač	175	
-sabijač		M
-sabirač		M
-saigrač	628	
-sakupljač	261	
-samoupravljač		
-sanjač		
-santrač		M
-sarač		M
-sastavljač	170	
-savijač		
-sazivač	20	
-sač		M
-sejač		
-sekač	71	
-sijač	25	
-sisač		
-skakač	403	
-skidač		
-skitač	11	
-skrivač		
-skupljač	100	
-slagač		
-slovoslagač	24	
-slušač	14	
-smarač		
-snabdevač	541	
-snevač	49	
-snimač	153	
-spaljivač		
-spavač	113	
-stezač		M
-streljač		
-strugač	18	
-sudarač	101	
-suigrač		
-suosnivač	604	
-suvozač	565	
-sušač	90	
-svirač	179	
-takač		
-tegljač	98	
-tenisač	22	
-tesač		M
-tipkač		
-tkač		M
-tragač	231	
-trač	558	
-tresač		
-trkač	827	
-trovač	46	
-trubač	320	
-tucač		
-tumač	996	
-ubirač		
-ubrizgavač		
-ubrizgivač		
-ubrzavač	13	
-ubrzivač	21	
-ucenjivač	32	
-udarač	109	
-udvarač	55	
-ugađač		
-ugnjetavač		
-ugnjetač	11	
-ugovarač		M
-ulagač	214	
-ulagivač		
-unapređivač		
-uništavač	14	
-upaljač	480	
-upijač	25	
-upravljač	2306	
-uprtač		
-uređivač	86	
-usekač		
-usisavač	29	
-usisač		
-usisivač	659	
-usmerivač	44	
-uspavljivač		M
-usporivač		
-utajivač		
-utemeljivač	263	
-uterivač	25	
-utikač	163	
-utovarivač		
-uvijač	58	
-uvlakač		M
-uzbunjivač	200	
-uzemljivač		
-uzgajivač	136	
-učvršćivač		
-vaspitač	948	
-veslač	108	
-vezač	23	
-vežbač	123	
-vikač		M
-visokoletač		
-vozač	11641	
-vrač	285	
-vrebač		M
-vrstač		M
-zabavljač	235	
-zadirkivač		
-zagađivač	346	
-zagonetač		
-zagovarač	29	
-zalagač		M
-zamrzivač	627	
-zapinjač		
-zapisivač	36	
-zaprašivač		M
-zaptivač	51	
-zapušač	43	
-zaslađivač	180	
-zasnivač		
-zastirač		M
-zatvarač	422	
-zavarivač	191	
-zaveštač		M
-zavojevač		M
-zduhač		M
-zlostavljač	105	
-zviždač	28	
-čekač		
-čistač	444	
-čitač	1882	
-čupač		
-šaptač	56	
-šetač	141	
-šivač		
-štampač	2431	
-štrajkač		
-žarač		M
-žderač	17	
-istjerivač		
-izbjeljivač		
-mjenjač		
-mjerač		
-osvježivač	10	
-pjevač		
-pripovjedač		
-razrjeđivač		
-sjekač		
-ucjenjivač		
-utjerivač		
+apač			2
+bacač	298		2
+bajač		M	2
+bakrač	59		2
+berač	102		2
+birač	744		2
+boksač			2
+brač	145		1
+brijač	247		2
+brisač	99		2
+brojač	605		2
+brusač	10		2
+buhač	20		2
+bukač		M	2
+bušač	18		2
+cepač		M	2
+crtač	571		2
+davač	49		2
+derač			2
+derkač			2
+dingač			2
+divljač	1673		2
+dizač	89		2
+dobavljač	924		2
+dodavač	31		2
+dojavljivač	12		2
+dostavljač	140		2
+drač	284		1
+drvoprerađivač			2
+držač	640		2
+dubač		M	2
+duvač		M	2
+gađač		M	2
+glasač	517		2
+glodač			2
+gnjurač			2
+grejač	497		2
+grijač	12	J	2
+grubač			2
+gudač			2
+gurač		M	2
+gutač	48		2
+hajkač		M	2
+harač		M	2
+hodač	60		2
+hrkač			2
+hrvač			2
+huškač	70		2
+hvatač	146		2
+igrač	21511		2
+isparivač	136		2
+ispirač	24		2
+ispitivač	237		2
+ispovedač			2
+ispravljač	184		2
+isterivač	44		2
+istraživač	3507		2
+istrebljivač	35		2
+izazivač	487		2
+izbacivač	94		2
+izbeljivač	53		2
+izbirač		M	2
+izdavač	4663		2
+izlagač	439		2
+izmenjivač	190		2
+iznuđivač		M	2
+izrabljivač			2
+izrađivač	38		2
+izveštač	614		2
+izvikivač			2
+izviđač	150		2
+izvlakač			2
+izvođač	4086		2
+jahač	443		2
+kasač			2
+kazivač	55		2
+klepač			2
+klesač			2
+klizač	187		2
+kolač	4277		2
+koljač	63		2
+komorač	96		2
+koosnivač	106		2
+kopač	94		2
+korač			2
+korbač		M	2
+koromač			2
+kosač	41		2
+kotač	46		2
+kovač	984		2
+košarač			2
+krivač			2
+krojač	398		2
+krovopokrivač	11		2
+krpač		M	2
+kuglač			2
+kupač	31		2
+kušač	38		2
+letač	182		2
+levač			2
+ložač	164		2
+lukač			2
+lumpač		M	2
+mazač			2
+mač	4062		1
+menjač	2872		2
+merač	696		2
+metaloglodač			2
+mešač		M	2
+mijač			2
+minobacač	43		2
+minopolagač			2
+montirač			2
+morač			2
+muljač			2
+nabavljač	28		2
+nabijač	11		2
+nadmetač			2
+nadzirač			2
+najavljivač	19		2
+nalazač	51		2
+napadač	6138		2
+naslonjač	22		2
+nasrtač			2
+nastavljač	329		2
+natikač		M	2
+navijač	2077		2
+nejač	215		2
+neplivač	44		2
+nepušač	204		2
+nosač	1817		2
+obarač		M	2
+obeleživač		M	2
+obijač	35		2
+obmanjivač	18		2
+obrađivač	115		2
+ocenjivač	90		2
+odapinjač		M	2
+odašiljač	127		2
+odgajivač	216		2
+odmagač			2
+odmicač			2
+održač			2
+odstranjivač	43		2
+odvijač	44		2
+odvrtač		M	2
+odčepljivač			2
+oglašivač	216		2
+ogovarač			2
+ogrtač	450		2
+okidač	1603		2
+omamljivač			2
+omekšivač	160		2
+ometač	34		2
+omotač	1184		2
+opadač			2
+opasač	109		2
+opisivač			2
+opskrbljivač			2
+orač	62		2
+osiguravač	396		2
+osigurač	472		2
+osmatrač	85		2
+osnivač	11965		2
+ostavljač			2
+osvajač	1775		2
+osveživač	111		2
+otimač	32		2
+otirač	147		2
+otkupljivač			2
+otpirač			2
+otpušač			2
+otpušivač			2
+otvarač	141		2
+ovlaživač	83		2
+oštrač		M	2
+pecač		M	2
+pekač	41		2
+penjač	104		2
+perač	82		2
+pevač	5560		2
+pirinač	2538		2
+pisač	113		2
+pitač	22		2
+plač	2613		1
+plesač	215		2
+pletač	20		2
+plevač			2
+plivač	818		2
+pljuvač	35		2
+pobuđivač			2
+podbadač		M	2
+podizač	73		2
+podizvođač	287		2
+podmazivač		M	2
+podmetač	167		2
+podrivač			2
+podstrekač		M	2
+podupirač	58		2
+podvodač	22		2
+pogađač	19		2
+pojačavač	296		2
+pojačivač	149		2
+pokazivač	494		2
+pokretač	2980		2
+pokrivač	1290		2
+polagač			2
+polivač			2
+pomagač	259		2
+ponavljač	85		2
+ponuđač	1712		2
+popisivač	179		2
+popravljač			2
+porobljivač			2
+posmatrač	2491		2
+postavljač	57		2
+potiskivač			2
+potkazivač	20		2
+potkivač	24		2
+potkupljivač			2
+potpaljivač			2
+potrošač	2834		2
+pozajmljivač			2
+pozivač			2
+pošiljač			2
+prebacivač			2
+predavač	4496		2
+predlagač	3924		2
+preduzimač	229		2
+pregibač			2
+pregledač	266		2
+pregovarač	859		2
+prekidač	1411		2
+prekrivač	410		2
+prelamač			2
+preletač			2
+prepisač			2
+prepisivač	137		2
+preprodavač			2
+prerađivač	132		2
+preslikač			2
+presretač	87		2
+pretraživač	2808		2
+pretvarač	129		2
+prevrtač			2
+prečistač			2
+prigušivač	99		2
+prikazivač	49		2
+prikrivač			2
+prilagač		M	2
+primač	139		2
+pripovedač	1172		2
+priređivač	672		2
+prisluškivač	88		2
+pritiskač	14		2
+prizivač			2
+probač			2
+probirač		M	2
+procenjivač	23		2
+prodavač	99		2
+proizvođač	14523		2
+prokazivač		M	2
+promatrač	57		2
+pronalazač		M	2
+prostirač	15		2
+prouzrokovač			2
+pročistač			2
+psovač	17		2
+pucač	16		2
+punjač	1422		2
+pušač	976		2
+rasipač			2
+rasplinjač			2
+raspršivač	67		2
+rastavljač			2
+rasturač	17		2
+rastvarač	101		2
+razarač	270		2
+razbijač	98		2
+razdvajač		M	2
+razlagač			2
+razmatrač			2
+razmenjivač			2
+raznosač	46		2
+razređivač	62		2
+razvađač			2
+razvijač	26		2
+računopolagač		M	2
+rezač	529		2
+rešavač			2
+ribač			2
+rogač	87		2
+rovokopač	44		2
+rugač		M	2
+rvač	175		2
+sabijač		M	2
+sabirač		M	2
+saigrač	628		2
+sakupljač	261		2
+samoupravljač			2
+sanjač			2
+santrač		M	2
+sarač		M	2
+sastavljač	170		2
+savijač			2
+sazivač	20		2
+sač		M	1
+sejač			2
+sekač	71		2
+sijač	25		2
+sisač			2
+skakač	403		2
+skidač			2
+skitač	11		2
+skrivač			2
+skupljač	100		2
+slagač			2
+slovoslagač	24		2
+slušač	14		2
+smarač			2
+snabdevač	541		2
+snevač	49		2
+snimač	153		2
+spaljivač			2
+spavač	113		2
+stezač		M	2
+streljač			2
+strugač	18		2
+sudarač	101		2
+suigrač			2
+suosnivač	604		2
+suvozač	565		3
+sušač	90		2
+svirač	179		2
+takač			2
+tegljač	98		2
+tenisač	22		2
+tesač		M	2
+tipkač			2
+tkač		M	1
+tragač	231		2
+trač	558		1
+tresač			2
+trkač	827		2
+trovač	46		2
+trubač	320		2
+tucač			2
+tumač	996		2
+ubirač			2
+ubrizgavač			2
+ubrizgivač			2
+ubrzavač	13		2
+ubrzivač	21		2
+ucenjivač	32		2
+udarač	109		2
+udvarač	55		2
+ugađač			2
+ugnjetavač			2
+ugnjetač	11		2
+ugovarač		M	2
+ulagač	214		2
+ulagivač			2
+unapređivač			2
+uništavač	14		2
+upaljač	480		2
+upijač	25		2
+upravljač	2306		2
+uprtač			2
+uređivač	86		2
+usekač			2
+usisavač	29		2
+usisač			2
+usisivač	659		2
+usmerivač	44		2
+uspavljivač		M	2
+usporivač			2
+utajivač			2
+utemeljivač	263		2
+uterivač	25		2
+utikač	163		2
+utovarivač			2
+uvijač	58		2
+uvlakač		M	2
+uzbunjivač	200		2
+uzemljivač			2
+uzgajivač	136		2
+učvršćivač			2
+vaspitač	948		2
+veslač	108		2
+vezač	23		2
+vežbač	123		2
+vikač		M	2
+visokoletač			2
+vozač	11641		2
+vrač	285		1
+vrebač		M	2
+vrstač		M	2
+zabavljač	235		2
+zadirkivač			2
+zagađivač	346		2
+zagonetač			2
+zagovarač	29		2
+zalagač		M	2
+zamrzivač	627		2
+zapinjač			2
+zapisivač	36		2
+zaprašivač		M	2
+zaptivač	51		2
+zapušač	43		2
+zaslađivač	180		2
+zasnivač			2
+zastirač		M	2
+zatvarač	422		2
+zavarivač	191		2
+zaveštač		M	2
+zavojevač		M	2
+zduhač		M	2
+zlostavljač	105		2
+zviždač	28		2
+čekač			2
+čistač	444		2
+čitač	1882		2
+čupač			2
+šaptač	56		2
+šetač	141		2
+šivač			2
+štampač	2431		2
+štrajkač			2
+žarač		M	2
+žderač	17		2
+istjerivač			2
+izbjeljivač			2
+mjenjač			2
+mjerač			2
+osvježivač	10		2
+pjevač			2
+pripovjedač			2
+razrjeđivač			2
+sjekač			2
+ucjenjivač			2
+utjerivač			2

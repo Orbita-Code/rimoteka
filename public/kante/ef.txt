@@ -1,19 +1,19 @@
 18
-alef		
-bareljef	28	
-bitef		
-blef		M
-def	432	
-jef		
-josef		
-jožef		
-lagerlef		
-podšef		
-reljef	718	
-sedef	52	
-sef	1443	
-tref		
-unicef		
-ćef		M
-đerđef		M
-šef	30671	
+alef			2
+bareljef	28		2
+bitef			2
+blef		M	1
+def	432		1
+jef			1
+josef			2
+jožef			2
+lagerlef			2
+podšef			2
+reljef	718		2
+sedef	52		2
+sef	1443		1
+tref			1
+unicef			2
+ćef		M	1
+đerđef		M	2
+šef	30671		1

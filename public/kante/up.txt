@@ -1,42 +1,42 @@
 40
-arhibiskup		M
-biskup	1658	
-ejup		
-glup	4204	
-iskup		
-istup	336	
-jakup		
-kalup	1220	
-krup		M
-kup	8228	
-mangup	281	
-mup		
-nadbiskup	1099	
-nadskup		
-nastup	15042	
-nogostup		
-odstup		
-okup	75	
-otkup	4808	
-podskup	108	
-podzakup	116	
-poup		
-preglup		
-preskup	812	
-prestup		M
-priglup	79	
-pristup	52300	
-prokup		
-prvokup		
-sirup	1836	
-skorup	29	
-skup	24574	
-stup	276	
-sup	637	
-superkup		
-trup	669	
-tup	443	
-ustup		
-zakup	7497	
-ćup	276	
-prijestup	32	
+arhibiskup		M	2
+biskup	1658		2
+ejup			2
+glup	4204		1
+iskup			2
+istup	336		2
+jakup			2
+kalup	1220		2
+krup		M	1
+kup	8228		1
+mangup	281		2
+mup			1
+nadbiskup	1099		2
+nadskup			2
+nastup	15042		2
+nogostup			3
+odstup			2
+okup	75		2
+otkup	4808		2
+podskup	108		2
+podzakup	116		2
+poup			2
+preglup			2
+preskup	812		2
+prestup		M	2
+priglup	79		2
+pristup	52300		2
+prokup			2
+prvokup			2
+sirup	1836		2
+skorup	29		2
+skup	24574		1
+stup	276		1
+sup	637		1
+superkup			2
+trup	669		1
+tup	443		1
+ustup			2
+zakup	7497		2
+ćup	276		1
+prijestup	32		2

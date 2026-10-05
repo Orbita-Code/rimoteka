@@ -1,136 +1,136 @@
 130
-anđe		
-beznađe	782	
-bezvlađe		
-blagorođe		
-bleđe		
-dođe	70776	
-feđe		
-glađe	14	
-glođe	95	
-gospođe	4104	
-goveđe	363	
-građe	5416	
-grožđe	2613	
-grđe	109	
-gvožđe	2693	
-gđe	481	
-horovođe	42	
-hrđe		
-izađe	17968	
-iziđe	1485	
-iznađe	438	
-karađorđe		
-knjigovođe	332	
-kolovođe		
-komađe		
-krađe	6517	
-labuđe		
-lađe	1195	
-lođe	79	
-luđe	181	
-mašinovođe	176	
-medveđe	512	
-mesojeđe		
-međe	474	
-milosrđe	715	
-mimoiđe	165	
-mlađe	8717	
-mrđe		
-nadgrađe		
-nadiđe	46	
-nadođe	215	
-naiđe	2348	
-najgrđe	28	
-najluđe	250	
-najmlađe	2984	
-najrađe		
-najređe	264	
-najslađe	459	
-najtvrđe	104	
-nasleđe	7246	
-nasljeđe		J
-nađe	25528	
-nemilosrđe	18	
-neđe		J
-ninđe		
-niđe		
-obiđe	1771	
-oglođe		
-oruđe	1909	
-otiđe	45	
-otuđe	93	
-ođe		J
-peđe		
-pobrđe	56	
-podgrađe		
-podiđe	48	
-pograđe		
-polugođe		
-poređe		
-porođe		
-poslovođe	295	
-posuđe	1199	
-pođe	4508	
-pravosuđe	6407	
-predgrađe	520	
-predziđe	25	
-prevaziđe	2243	
-pređe	10065	
-priđe	3324	
-proizađe	124	
-proiziđe	32	
-pronađe	9417	
-prođe	21813	
-punđe	187	
-raziđe	151	
-razmeđe	34	
-razvođe	45	
-računovođe	500	
-rađe		
-ređe	5311	
-riđe	121	
-rođe		
-rđe	332	
-sazvežđe	508	
-sađe	17	
-siđe	1541	
-slađe	584	
-smeđe	1132	
-smuđe		
-snađe	1538	
-srđe		
-suđe	204	
-svađe	3727	
-svetogrđe	168	
-takođe	285401	
-tamnosmeđe	76	
-tromeđe	97	
-tuđe	8045	
-tvrđe	436	
-uniđe	12	
-usrđe		
-uzađe	15	
-uziđe	132	
-uđe	18191	
-veđe		
-viđe		
-vojskovođe	564	
-vozovođe	18	
-vođe	6559	
-zabrđe	38	
-zaleđe	291	
-zaobiđe	811	
-zađe	579	
-zlopogleđe		
-četovođe	17	
-đe		M
-đerđe		
-đorđe		
-đurđe		
-žitorađe		
-medvjeđe		
-naslijeđe	194	
-prijeđe	90	
-rjeđe	164	
-sazviježđe	11	
+anđe			2
+beznađe	782		2
+bezvlađe			2
+blagorođe			2
+bleđe			2
+dođe	70776		2
+feđe			2
+glađe	14		2
+glođe	95		2
+gospođe	4104		3
+goveđe	363		2
+građe	5416		2
+grožđe	2613		2
+grđe	109		2
+gvožđe	2693		2
+gđe	481		1
+horovođe	42		2
+hrđe			2
+izađe	17968		2
+iziđe	1485		2
+iznađe	438		2
+karađorđe			2
+knjigovođe	332		3
+kolovođe			2
+komađe			2
+krađe	6517		2
+labuđe			2
+lađe	1195		2
+lođe	79		2
+luđe	181		2
+mašinovođe	176		2
+medveđe	512		2
+mesojeđe			2
+međe	474		2
+milosrđe	715		4
+mimoiđe	165		2
+mlađe	8717		2
+mrđe			2
+nadgrađe			2
+nadiđe	46		2
+nadođe	215		2
+naiđe	2348		2
+najgrđe	28		3
+najluđe	250		3
+najmlađe	2984		3
+najrađe			2
+najređe	264		2
+najslađe	459		3
+najtvrđe	104		3
+nasleđe	7246		2
+nasljeđe		J	2
+nađe	25528		2
+nemilosrđe	18		2
+neđe		J	2
+ninđe			2
+niđe			2
+obiđe	1771		2
+oglođe			2
+oruđe	1909		2
+otiđe	45		2
+otuđe	93		2
+ođe		J	2
+peđe			2
+pobrđe	56		2
+podgrađe			2
+podiđe	48		2
+pograđe			2
+polugođe			2
+poređe			2
+porođe			2
+poslovođe	295		4
+posuđe	1199		2
+pođe	4508		2
+pravosuđe	6407		4
+predgrađe	520		2
+predziđe	25		2
+prevaziđe	2243		2
+pređe	10065		2
+priđe	3324		2
+proizađe	124		2
+proiziđe	32		2
+pronađe	9417		2
+prođe	21813		2
+punđe	187		2
+raziđe	151		2
+razmeđe	34		2
+razvođe	45		2
+računovođe	500		2
+rađe			2
+ređe	5311		2
+riđe	121		2
+rođe			2
+rđe	332		2
+sazvežđe	508		2
+sađe	17		2
+siđe	1541		2
+slađe	584		2
+smeđe	1132		2
+smuđe			2
+snađe	1538		2
+srđe			2
+suđe	204		2
+svađe	3727		2
+svetogrđe	168		4
+takođe	285401		2
+tamnosmeđe	76		2
+tromeđe	97		2
+tuđe	8045		2
+tvrđe	436		2
+uniđe	12		2
+usrđe			2
+uzađe	15		2
+uziđe	132		2
+uđe	18191		2
+veđe			2
+viđe			2
+vojskovođe	564		4
+vozovođe	18		2
+vođe	6559		2
+zabrđe	38		2
+zaleđe	291		2
+zaobiđe	811		2
+zađe	579		2
+zlopogleđe			2
+četovođe	17		2
+đe		M	1
+đerđe			2
+đorđe			2
+đurđe			2
+žitorađe			2
+medvjeđe			2
+naslijeđe	194		3
+prijeđe	90		2
+rjeđe	164		2
+sazviježđe	11		2

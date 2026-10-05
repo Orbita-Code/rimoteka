@@ -9,9 +9,9 @@
 
 | X | oblici | predlog | odluka |
 |---|---|---|---|
-| Amerka | amerke | Amerikanka (razgovorno, skraćeno). | |
-| Banovac | banovca | Stari srednjovekovni novac koji su kovali banovi; prezime. | |
-| Istočanin | istočana | Čovek iz Istoka, grada na Kosovu i Metohiji. | |
+| Amerka | amerke | Amerikanka (razgovorno, skraćeno). | | *Amerka je neispravno. ispravno je Amerika, Amerikanac, američki, Amerikanka, američkom (na američkom engleskom, sa američkom vizom)
+| Banovac | banovca | Stari srednjovekovni novac koji su kovali banovi; prezime. | | *izbrisi
+| Istočanin | istočana | Čovek iz Istoka, grada na Kosovu i Metohiji. | |*izbriši
 | Mitrev | mitreva | Prezime makedonskog porekla. | |
 | Parašin | parašinu | Koji pripada Paraši; oblik nije pouzdano potvrđen. | |
 | Rečanin | rečana | Stanovnik oblasti Reka ili mesta Rečane. | |
@@ -21,24 +21,24 @@
 | arhiver | arhiverom | Program koji pakuje više datoteka u jednu sažetu arhivu. | |
 | arhižupan | arhižupanu | Veliki župan, starešina nad više župana. | |
 | autostaza | autostazi | Put namenjen samo automobilima, autoput. | |
-| bagi | bagijem | Lako otvoreno terensko vozilo za pesak i blato. | |
-| banderaš | banderaši | Onaj koji nosi barjak, zastavnik. | |
-| beganje | beganjem | Bežanje, trčanje od nekoga ili nečega. | |
-| blesač | blesača | Blesav čovek, budala (pogrdno). | |
+| bagi | bagijem | Lako otvoreno terensko vozilo za pesak i blato. | |*može, dodaj
+| banderaš | banderaši | Onaj koji nosi barjak, zastavnik. | | *izbriši, pravi naziv za onoga koji nosi barjak je "barjaktar" proveri da li ga imamo u recniku.
+| beganje | beganjem | Bežanje, trčanje od nekoga ili nečega. | |*beganje stavi sa tim objašnjenjem, ali nisam sigurna da je i "beganjem" prava rec.
+| blesač | blesača | Blesav čovek, budala (pogrdno). | |*blesača može ali blesač nisam sigurna, mada možes da ga staviš.
 | bogočašće | bogočašću, bogočašća | Poštovanje Boga, pobožnost (zastarelo). | |
 | bođenje | bođenja | Ubadanje, bockanje. | |
 | bračnik | bračnika, bračnici | Supružnik, bračni drug (retko). | |
 | bučnuti | bučnete | Iznenada zabučati, zahučati. | |
 | celosan | celosnom | Koji je ceo, celovit. | |
 | cimerman | cimermanom | Drvodelja, tesar (nemačka reč). | |
-| cipelka | cipelke | Mala cipela, cipelica. | |
+| cipelka | cipelke | Mala cipela, cipelica. | | *može, tako se kaže u narodu samo ne znam da li je to žargon ili da objasnimo kako si i ti napisao kao mala cipela, cipelica.
 | crkvenac | crkvenca | Čovek koji pomaže u crkvi, crkvenjak; revan posetilac crkve. | |
 | crnokož | crnokoži | Koji je crne kože. | |
 | cviljav | cviljavim | Koji cvili, plačljiv. | |
 | davljenica | davljenicu | Žena koja se udavila, utopljenica. | |
-| duvaniti | duvanio | Pušiti duvan. | |
+| duvaniti | duvanio | Pušiti duvan. | | *duvaniti je ispravna, "duvanilo" ne
 | duvanjar | duvanjaru | Čovek koji gaji ili prodaje duvan; duvandžija. | |
-| dvojčica | dvojčice | Devojčica bliznakinja. | |
+| dvojčica | dvojčice | Devojčica bliznakinja. | | *dvojčica se kaze za broj dva ili dobija je dvojčicu u skoli, ali se nikada ne kaze za bliznakinje
 | dvoličiti | dvoličimo, dvoličeći, dvoličahu | Ponašati se dvolično, pretvarati se, biti licemer. | |
 | dvornica | dvornice | Velika svečana sala; dvorana. | |
 | eben | ebena | Ebanovina, tvrdo crno drvo. | |
@@ -48,8 +48,8 @@
 | glupar | glupara | Glup čovek; glupak. | |
 | ispodmukao | ispodmukla | Podmukao, koji radi krišom; (ispodmukla) podmuklo, krišom. | |
 | istranski | istranskog | Koji se odnosi na Istru i Istrane. | |
-| izlažirati | izlažirao | Namestiti, falsifikovati (rezultat, izbore). | |
-| izrađati | izrađa, izrađaju, izrađale | Rađati jedno za drugim, izroditi mnogo dece. | |
+| izlažirati | izlažirao | Namestiti, falsifikovati (rezultat, izbore). | | *ispravan oblik, dodati
+| izrađati | izrađa, izrađaju, izrađale | Rađati jedno za drugim, izroditi mnogo dece. | |*ispravno
 | izvestije | izvestija | Izveštaj, obaveštenje, vest (zastarelo). | |
 | izvrljati | izvrljivši | Izbacati, pobacati napolje (narodski). | |
 | iđenje | idenje | Hodanje, odlaženje nekuda (razgovorno). | |
@@ -57,13 +57,13 @@
 | jedinačni | jedinačke | Koji se odnosi na jedinku, pojedinačan. | |
 | kadifka | kadifke | Kadifa, baštensko cveće narandžaste boje. | |
 | kamišovina | kamišovine | Trska od koje se prave kamiši, cevi za lulu. | |
-| kaznica | kaznicu | Mala, blaga kazna. | |
+| kaznica | kaznicu | Mala, blaga kazna. | |*ispravno
 | kača | kaču | Zmija (u južnim govorima). | |
 | klenovac | klenovca | Štap ili predmet od klenovog drveta; klenov šumarak. | |
 | koleso | kolesa | Točak (zastarelo). | |
 | kolivo | koliviji | Kuvana pšenica koja se sprema za slavu i pomen; koljivo. | |
 | komat | komati | Komad, parče (najčešće hleba). | |
-| konjarnik | konjarniku | Štala za konje; konjušnica. | |
+| konjarnik | konjarniku | Štala za konje; konjušnica. | |*Konjarnik sa velikim K je deo Beograda
 | konjušni | konjušnog | Koji se odnosi na konjušnicu ili na konje. | |
 | kopljač | kopljači | Ratnik naoružan kopljem; kopljanik. | |
 | korenički | korenička, koreničkog | Koji se odnosi na Korenicu (mesto u Lici). | |
@@ -86,7 +86,7 @@
 | maskolik | maskoliki | Koji liči na masku. | |
 | mašeta | mašete | Veliki široki nož za sečenje šiblja; mačeta. | |
 | meana | meane, meani | Mehana, krčma; narodni oblik bez glasa „h". | |
-| merenga | merenge | Slatkiš od ulupanih belanaca sa šećerom; vrsta latinoameričkog plesa. | |
+| merenga | merenge | Slatkiš od ulupanih belanaca sa šećerom; vrsta latinoameričkog plesa. | |*mereng je vazdušasti krem od belanaca i šećera.
 | mnogobolan | mnogobolne, mnogobolnu | Koji mnogo boluje ili trpi mnoge bolove. | |
 | mnogomoćan | mnogomoćni, mnogomoćne | Koji ima veliku moć; vrlo moćan. | |
 | mnogorodan | mnogorodna, mnogorodno | Koji mnogo rađa; plodan. | |
@@ -95,7 +95,7 @@
 | monotreme | monotrema | Sisari koji polažu jaja, kao kljunar; kljunaši. | |
 | mramorje | mramorjem | Mramor kao celina; stari kameni nadgrobni spomenici. | |
 | mrdalica | mrdalice | Ono što se stalno mrda, pokretna stvar. | |
-| mrtvonoša | mrtvonoše | Onaj koji nosi mrtvaca na sahrani. | |
+| mrtvonoša | mrtvonoše | Onaj koji nosi mrtvaca na sahrani. | |*ispravno
 | mul | mulom | Mulj, blato na dnu vode; u primorju i pristanište. | |
 | nadbrojan | nadbrojani | Koji je preko propisanog broja, prekobrojan. | |
 | nadpritisak | nadpritiska | Pritisak veći od okolnog ili uobičajenog. | |
@@ -103,7 +103,7 @@
 | nakarađivati | nakarađivali | Činiti nakaradnim, izobličavati, kvariti. | |
 | nakesiti | nakesih | Iskesiti zube; razvući usta u osmeh ili grimasu. | |
 | namoriti | namorao | Izmučiti, umoriti; namoriti se – namučiti se. | |
-| namrčiti | namrčio | Namrgoditi se, natmuriti lice. | |
+| namrčiti | namrčio | Namrgoditi se, natmuriti lice. | |*moze biti i da se nebo zatvrori i smrkne bez kisu, oluju i sl
 | narečenije | narečenija | Naredba ili naimenovanje; starinski, crkvenoslovenski oblik. | |
 | nazadački | nazadačke | Koji je nazadan, protivan napretku. | |
 | nekaznen | nekaznenog | Koji nije kazneni, koji ne spada u kazneno pravo. | |
@@ -115,7 +115,7 @@
 | neštedan | neštednu, neštedno, neštedni | Koji ne štedi, rasipan; obilan. | |
 | nitnica | nitnicama | Mali metalni klin kojim se spajaju delovi; zakovica. | |
 | nuždnost | nuždnosti | Nužnost, neophodnost. | |
-| odbljesnuti | odbljesnu, odbljesnuo, odbljesnuše | Sinuti odbijenom svetlošću, zablistati na trenutak. | |
+| odbljesnuti | odbljesnu, odbljesnuo, odbljesnuše | Sinuti odbijenom svetlošću, zablistati na trenutak. | |*Odbiti svetlost ili sjaj sa neke površine
 | odnjihati | odnjihanog | Odgajiti ljuljajući u kolevci; odljuljati. | |
 | olajisati | olajisanim, olajisanom | Namazati uljem, nauljiti (pokrajinski, od mađarskog „olaj"). | |
 | opstojavati | opstojava | Postojati, održavati se, trajati. | |
@@ -128,7 +128,7 @@
 | pirlitan | pirlitana | Išaran, ukrašen šarama (turcizam). | |
 | pismenica | pismenici, pismenicom | Starinski naziv za gramatiku, knjigu o pravilima pisanja. | |
 | pljesniv | pljesnivi, pljesnivo | Buđav, prekriven plesni. | |
-| plovčić | plovčića | Mali plovak; mladunče plovke (patke). | |
+| plovčić | plovčića | Mali plovak; mladunče plovke (patke). | | *ispravno
 | podrt | podrto | Poderan, iskidan, pocepan. | |
 | pojan | pojanom | Koji je otpevan u crkvi (o crkvenoj pesmi). | |
 | poklizavati | poklizava | Pomalo klizati, klizati se s vremena na vreme. | |
@@ -160,7 +160,7 @@
 | preuzneti | preuzneo, preuzneli, preuznese | Uzdići previsoko; preuzneti se – pogorditi se, uzoholiti se. | |
 | prevagivanje | prevagivanjem | Pretezanje, odlučivanje prevagom. | |
 | prevečan | prevečni, prevečna, prevečno | Koji traje predugo, beskrajno dug. | |
-| prevojnica | prevojnice | Linija pregiba; greben ili sedlo u brdu. | |
+| prevojnica | prevojnice | Linija pregiba; greben ili sedlo u brdu. | |*linija pregiba, previjena traka, takođe i put koji vodi preko planinskog prevoja
 | priminuti | priminulog | Proći, minuti; umreti. | |
 | prislužiti | prisluže | Dodatno poslužiti; pomoći pri služenju. | |
 | prismaka | prismače | Ono što se jede uz hleb; zalogaj. | |
@@ -205,7 +205,7 @@
 | suknjić | suknjići | Mala suknja, suknjica. | |
 | sunovratica | sunovratice | Vrsta narcisa; sunovrat, cvet. | |
 | takmica | takmice | Takmičenje, nadmetanje; suparnica. | |
-| tamnjan | tamnjana, tamnjanom | Mirisna smola koja se pali u crkvi; tamjan. | |
+| tamnjan | tamnjana, tamnjanom | Mirisna smola koja se pali u crkvi; tamjan. | |*pravilno se kaže "tamjan" pa proveri da li ga imamo u recniku
 | tačkan | tačkana | Koji je prekriven tačkama; tačkast. | |
 | tikvar | tikvari, tikvara | Čovek koji gaji ili prodaje tikve; glupak. | |
 | torni | tornih, tornog, torno | Koji se odnosi na tor, ogradu za stoku. | |
@@ -219,20 +219,20 @@
 | umudravati | umudravaj | Činiti mudrim, poučavati. | |
 | unazadan | unazadne | Koji ide unazad, nazadan, zaostao. | |
 | upalica | upalice | Fitilj ili kapisla koja pali punjenje. | |
-| uricanje | uricanja | Zakazivanje, određivanje vremena; bacanje uroka. | |
-| ushtedeti | ushtede, ushtedne, ushtednu | Zaželeti, prohteti se; iznenada hteti. | |
+| uricanje | uricanja | Zakazivanje, određivanje vremena; bacanje uroka. | |*Arhaični izraz za bacanje uroka
+| ushtedeti | ushtede, ushtedne, ushtednu | Zaželeti, prohteti se; iznenada hteti. | |*ovo je neispravno. proveri da li imamo reč "uštedeti", ušteda, šteđevina, štednja, sve te reči znaci čuvanje novca i treba da ih imamo pojedinačno
 | uspomenica | uspomenici | Predmet ili knjiga koja se čuva za uspomenu. | |
 | varni | varnom | Koji se odnosi na var, zavarivanje. | |
 | velehvala | velehvali | Preterano hvaljenje, velika pohvala. | |
 | vešticin | vešticinu, vešticino, vešticina | Koji pripada veštici (pravilno: veštičin). | |
-| veštičar | veštičara | Čovek koji se bavi vradžbinama; vrač, čarobnjak. | |
-| višnjin | višnjina, višnjino | Koji pripada višnji ili ženi po imenu Višnja. | |
+| veštičar | veštičara | Čovek koji se bavi vradžbinama; vrač, čarobnjak. | | *ispravno
+| višnjin | višnjina, višnjino | Koji pripada višnji ili ženi po imenu Višnja. | |*ispravno
 | vodičica | vodičicu, vodičicom | Žena vodič. | |
 | zakivka | zakivke, zakivki | Mali klin ili zakovica za zakivanje. | |
 | zaraćunati | zaraćunata | Uračunati u cenu, naplatiti; ispravan oblik je zaračunati. | |
 | zatrk | zatrke | Zalet, trk pre skoka; običniji oblik je zatrka. | |
 | zavodnjen | zavodnjene | Koji je natopljen vodom, razvodnjen. | |
-| ziper | ziperu | Rajsferšlus, patent-zatvarač (anglicizam). | |
+| ziper | ziperu | Rajsferšlus, patent-zatvarač (anglicizam). | | *ispravno
 | zjena | zjenama | Zenica oka; oko (pesnički). | |
 | zlokuća | zlokuće, zlokućani, zlokućane |  | |
 | zuk | zuku | Zujanje, zuj. | |
@@ -255,7 +255,7 @@
 | Dobrodol | dobrodolci | Naziv više sela; stanovnici su Dobrodolci. | |
 | Kalinjin | kalinina | Sovjetski političar Mihail Kalinjin; staro ime grada Tver. | |
 | Komod | komodusa | Rimski car iz drugog veka, sin Marka Aurelija; oblik „komodusa“ je od reči Komodus. | |
-| Ligurija | ligure | Oblast u severozapadnoj Italiji uz more, sa Đenovom; oblik „ligure“ je od reči Ligur. | |
+| Ligurija | ligure | Oblast u severozapadnoj Italiji uz more, sa Đenovom; oblik „ligure“ je od reči Ligur. | |*Ligurija može, ligure izbaci. Ligurija jeste oblast u Italiji
 | Medeljin | medelinu | Grad u Kolumbiji; oblik „medelinu“ je od zapisa Medelin. | |
 | Mijaci | mijač | Makedonska etnička grupa iz zapadne Makedonije; oblik „mijač“ ne pripada ovoj reči. | |
 | Mijak | mijača | Pripadnik Mijaka, makedonske etničke grupe; oblik „mijača“ ne pripada ovoj reči. | |
@@ -266,16 +266,16 @@
 | blestati | blješte | Jako sijati, blistati; ispravno bleštati. | |
 | borniran | bornirala | Koji je ograničen, uskih pogleda, tvrdoglav u svom mišljenju. | |
 | branš | branšom, branši | Grana delatnosti, struka (oblici su od imenice „branša"). | |
-| brekćati | brekće | Teško, hripavo disati; dahtati. | |
+| brekćati | brekće | Teško, hripavo disati; dahtati. | |*ispravno je brektati, brektao, brektala / teško disanje čoveka ili životinje , može i brekće, brekću i ostale promene(voz po šinama),
 | brkljača | brkljačem | Drveni štap sa račvama za mešanje; brkata žena. | |
 | brojler | brojerom | Pile koje se tovi za meso. | |
-| despotovački | despotovička, despotovičke, despotovičkom | Koji se odnosi na Despotovac i njegove stanovnike. | |
-| ekces | ekscesa | Prekoračenje mere; ispad, izgred. | |
+| despotovački | despotovička, despotovičke, despotovičkom | Koji se odnosi na Despotovac i njegove stanovnike. | |*ispravno
+| ekces | ekscesa | Prekoračenje mere; ispad, izgred. | |*pravilno je "eksces, ekscesan, ekscesno, ekscesi" kao ispad, incident ili nedopusten postupak
 | figurirati | figurišu | Pojavljivati se, biti prisutan kao deo nečega. | |
-| finiširati | finiše | Završiti trku ili posao; dovršiti. | |
+| finiširati | finiše | Završiti trku ili posao; dovršiti. | |*znači pojačati tempo, ubrzati, privesti kraju neki posao, projekat ili zadatak
 | furšet | furšom | Prijem na kome se jelo uzima stojeći. | |
 | gobelen | gobela | Umetnički tkani zidni ćilim sa slikom. | |
-| hasijenda | haciende | Veliko imanje u Španiji i Latinskoj Americi. | |
+| hasijenda | haciende | Veliko imanje u Španiji i Latinskoj Americi. | |*pravilno je hacijenda - proveri da li je imamo u recniku
 | hidžra | hidžrija | Preseljenje Muhameda iz Meke u Medinu, početak muslimanskog računanja godina. | |
 | isprodati | isprodajete | Prodati sve do kraja, rasprodati. | |
 | izmiran | izmirna, izmirno | Mirisna smola, smirna (oblici su od imenice „izmirna"). | |
@@ -283,12 +283,12 @@
 | kapričo | kapričos | Muzička kompozicija slobodnog, hirovitog oblika. | |
 | kelneranje | kelneraja | Posluživanje gostiju, rad kao kelner. | |
 | klikt | kliktaji, kliktajima | Krik radosti, kliktanje (oblici su od imenice „kliktaj"). | |
-| lelujati | lelulaju | Lagano se njihati, talasati se. | |
+| lelujati | lelulaju | Lagano se njihati, talasati se. | |*ispravno. 
 | mešeršmit | meseršmit, meseršmita | Nemački borbeni avion iz Drugog svetskog rata; pravilno „meseršmit". | |
 | mironosice | mironosci | Žene koje su po Jevanđelju donele mirisno ulje na Hristov grob. | |
 | mnogomanji | mnogomanja | Mnogo manji (dve reči spojene). | |
 | monoatomski | monoatomi | Koji se sastoji od jednog atoma. | |
-| monohroman | monohroma, monohrome | Koji je u jednoj boji; jednobojan. | |
+| monohroman | monohroma, monohrome | Koji je u jednoj boji; jednobojan. | |*ispravno
 | mostovni | mostovoj | Koji se odnosi na most. | |
 | mrkogled | mrkogleđa | Koji mrko, natmureno gleda. | |
 | mrš | mršu | Uzvik kojim se tera pas. | |
@@ -296,7 +296,7 @@
 | navrzti | navrzao, navrze | Navrsti se – nametnuti se, prikačiti se za nekoga; pravilan infinitiv je „navrsti". | |
 | nepadati | nepadajući | Koji ne pada (oblik je pridev „nepadajući", ne glagol). | |
 | nepresahnut | nepresahle | Koji nije presahnuo, koji još teče (o izvoru); oblik „nepresahle" ide uz „nepresahao". | |
-| neuklonjiv | neuklonjeni, neukloniva | Koji se ne može ukloniti. | |
+| neuklonjiv | neuklonjeni, neukloniva | Koji se ne može ukloniti. | |*ispravno samo neuklonjiv. Neuklonjeni i neukloniva nije
 | odiranje | odranja | Skidanje kože; guljenje, deranje. | |
 | okoštalost | okoštost | Krutost, ukočenost; otpornost na promene. | |
 | oplenak | oplenac, oplenca, oplencu | Oplenac, brdo kod Topole sa zadužbinom Karađorđevića. | |

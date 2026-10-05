@@ -1,345 +1,345 @@
 338
-Isuse		
-Marse		
-Tunise		
-Uskrse		
-abakuse		
-abortuse	137	
-adrese	9329	
-agense	140	
-alase	21	
-alekse		
-alijanse	3435	
-alise		
-ambise	16	
-anekse	265	
-anuse		
-apokalipse	719	
-arbanase		
-asparaguse		
-atlase	42	
-autobuse	1788	
-avanse	78	
-bakropise		
-baronese	58	
-beatrise		
-beloruse		
-bese		
-bicepse	90	
-bijese		
-bijonse		
-bilanse		
-biomase	1932	
-biznise		
-bonuse	908	
-borise		
-bose	247	
-bruse	82	
-buritose		
-burse		
-cigarilose		
-cikluse	673	
-cirkuse	38	
-crnokose	51	
-crvenokose	120	
-debalanse	10	
-delikatese	53	
-dinosauruse	170	
-diskurse	83	
-donese	19064	
-donose	16565	
-dopise	549	
-doprinese	5308	
-doprinose	12901	
-dugokose	28	
-ekscese	81	
-eksprese		
-elipse	291	
-elise	204	
-etose		
-farse	332	
-fenikse		
-fetuse	29	
-fikse		
-fikuse	14	
-finese	444	
-flamingose		
-fotose		
-gase	1681	
-glase	937	
-glose	38	
-gnose		
-gorostase	21	
-grimase	331	
-guse		
-haose		
-hapse		
-hese		
-hinduse	14	
-hose		
-hostese	246	
-ikonostase	73	
-impulse	748	
-indekse	431	
-interese	19865	
-irvase	71	
-iskuse	561	
-ispise	57	
-isprose	23	
-istrese	194	
-iznese	4196	
-iznose	11495	
-jose		
-kaktuse	94	
-kase	4620	
-kekse	76	
-kese	3547	
-kinšase		
-klase	18049	
-klimakse		
-kljuse	536	
-kodekse	220	
-kokose		
-kolapse	35	
-komandose	35	
-kompase	28	
-komplekse	1249	
-kompromise	1796	
-kongrese	247	
-konkurse	1381	
-konsenzuse	11	
-korpuse	26	
-kose	15056	
-kosinuse		
-kosmose		
-kotangense		
-krase	1834	
-kratkokose		
-kulise	297	
-kuse		
-kvase	75	
-larise		
-lese		
-letopise	33	
-license		
-losose	22	
-maloruse		
-mase	15617	
-medrese	776	
-melase	74	
-menase		
-mese	227	
-metrese		
-mikrotalase		
-minuse	1075	
-miomirise	12	
-mirise	1797	
-mise	780	
-moduse	59	
-movense		
-mrse	65	
-mungose		
-muse		
-nadnese	32	
-nadnose		
-naglase	348	
-najlepse		
-nanese	1666	
-nanose	1994	
-napase		
-napose	353	
-naprose		
-narcise	41	
-narkose		
-natpise	651	
-natrese		
-nijanse	4104	
-nose	20488	
-notese	24	
-obese	259	
-obrise	896	
-odese		
-odnese	2376	
-odnose	53803	
-oglase	2794	
-okuse	145	
-omnibuse		
-omrse	37	
-opise	916	
-opuse	38	
-ordonanse		
-orose		
-ose	2440	
-otarase	249	
-otkose	22	
-otrese	227	
-ovise	126	
-paradokse	124	
-parastose	46	
-pase	372	
-pasuse	126	
-penise	41	
-performanse	11726	
-perse		
-plavokose	70	
-plise	17	
-podese	393	
-podklase	31	
-podnese	9106	
-podnose	5053	
-pogase	156	
-pohapse		
-pojase	40	
-pokose	77	
-pokuse	18	
-pokvase	53	
-polise	1166	
-polušanse	40	
-ponese	2966	
-ponose	957	
-popise	150	
-potklase		
-potpise	1890	
-potrese	695	
-prakse	21591	
-prase	1495	
-pravopise	32	
-predase		
-predokuse		
-premise	512	
-prenaglase		
-prenese	5388	
-prenose	12302	
-prepise	106	
-prese		
-pretrese	228	
-preudese		
-preuznese		
-preuznose		
-primese	371	
-prinese	694	
-prinose	1929	
-prkose	309	
-procese	8418	
-proglase	1757	
-progrese		
-proiznose		
-pronese	247	
-pronose	209	
-propise	5717	
-prose	499	
-protrese	143	
-putopise	212	
-rakurse		
-rase	4612	
-raspise	76	
-rastrese	28	
-razglase	30	
-razmrse	22	
-raznese	215	
-raznose	232	
-reagense	54	
-rebuse	41	
-reflekse	244	
-regrese	106	
-renesanse	1295	
-rese	416	
-resurse	8127	
-reverse	60	
-rise		
-riđokose	34	
-romanse	517	
-rose	980	
-rukopise	551	
-saglase	262	
-salse	256	
-samose		
-saragose		
-se	8545501	
-seanse	592	
-sepse	263	
-servise	3353	
-silose	291	
-sinapse	109	
-sintakse	317	
-sinuse	144	
-sise	1989	
-skepse	223	
-skrase	81	
-skvase		
-smese	584	
-snese	166	
-snose	2881	
-sose		
-spase	3496	
-spise	1282	
-statuse	482	
-stimulanse	220	
-stipse	54	
-stjuardese	458	
-strese	203	
-sufikse	18	
-takse		
-talambase	70	
-talase	1619	
-tangense		
-tase		
-terase	3017	
-testise	203	
-tise	1925	
-trase	2042	
-traverse		
-trese	1634	
-tricepse	48	
-trolejbuse	105	
-ubruse	83	
-udese	137	
-ugase	1150	
-uhapse	827	
-ukrase	935	
-ukuse	1336	
-umese	22	
-unese	3217	
-unose	4255	
-upise	170	
-usaglase	870	
-usose		
-uznese	270	
-uznose	128	
-uzuse	59	
-uzvise	16	
-užase	283	
-vase		
-vaskrese		
-vaskrse	510	
-velikoruse		
-velse		
-viruse	1310	
-vitese		
-vlase		
-voskrese		
-zadese	153	
-zamrse	26	
-zanese	211	
-zanose	188	
-zapise	2372	
-zaprose	30	
-zatrese	498	
-zavese	2802	
-zavise	6040	
-zemljotrese	269	
-zlakuse		
-zlatokose	40	
-časopise	1740	
-čipse		
-šanse	28590	
-šemse		
-špirituse		
-živopise		
-životopise	44	
-mijese		
-objese		
-prijenose	10	
-primjese		
-smjese		
-zavjese		
+Isuse			2
+Marse			2
+Tunise			2
+Uskrse			2
+abakuse			3
+abortuse	137		2
+adrese	9329		2
+agense	140		2
+alase	21		2
+alekse			2
+alijanse	3435		2
+alise			2
+ambise	16		2
+anekse	265		2
+anuse			2
+apokalipse	719		2
+arbanase			2
+asparaguse			2
+atlase	42		2
+autobuse	1788		2
+avanse	78		2
+bakropise			2
+baronese	58		2
+beatrise			2
+beloruse			2
+bese			2
+bicepse	90		2
+bijese			3
+bijonse			2
+bilanse			2
+biomase	1932		2
+biznise			2
+bonuse	908		2
+borise			2
+bose	247		2
+bruse	82		2
+buritose			2
+burse			2
+cigarilose			2
+cikluse	673		2
+cirkuse	38		2
+crnokose	51		3
+crvenokose	120		3
+debalanse	10		2
+delikatese	53		2
+dinosauruse	170		3
+diskurse	83		2
+donese	19064		2
+donose	16565		2
+dopise	549		2
+doprinese	5308		2
+doprinose	12901		4
+dugokose	28		4
+ekscese	81		2
+eksprese			2
+elipse	291		2
+elise	204		2
+etose			2
+farse	332		2
+fenikse			2
+fetuse	29		2
+fikse			2
+fikuse	14		2
+finese	444		2
+flamingose			2
+fotose			2
+gase	1681		2
+glase	937		2
+glose	38		2
+gnose			2
+gorostase	21		4
+grimase	331		2
+guse			2
+haose			3
+hapse			2
+hese			2
+hinduse	14		2
+hose			2
+hostese	246		2
+ikonostase	73		2
+impulse	748		2
+indekse	431		2
+interese	19865		4
+irvase	71		3
+iskuse	561		2
+ispise	57		2
+isprose	23		2
+istrese	194		2
+iznese	4196		2
+iznose	11495		2
+jose			2
+kaktuse	94		2
+kase	4620		2
+kekse	76		2
+kese	3547		2
+kinšase			2
+klase	18049		2
+klimakse			2
+kljuse	536		2
+kodekse	220		2
+kokose			3
+kolapse	35		2
+komandose	35		2
+kompase	28		2
+komplekse	1249		2
+kompromise	1796		2
+kongrese	247		2
+konkurse	1381		2
+konsenzuse	11		2
+korpuse	26		2
+kose	15056		2
+kosinuse			3
+kosmose			2
+kotangense			2
+krase	1834		2
+kratkokose			2
+kulise	297		2
+kuse			2
+kvase	75		2
+larise			2
+lese			2
+letopise	33		4
+license			2
+losose	22		3
+maloruse			2
+mase	15617		2
+medrese	776		2
+melase	74		2
+menase			2
+mese	227		2
+metrese			2
+mikrotalase			2
+minuse	1075		2
+miomirise	12		2
+mirise	1797		3
+mise	780		2
+moduse	59		2
+movense			2
+mrse	65		2
+mungose			2
+muse			2
+nadnese	32		2
+nadnose			2
+naglase	348		2
+najlepse			2
+nanese	1666		2
+nanose	1994		2
+napase			2
+napose	353		2
+naprose			2
+narcise	41		2
+narkose			2
+natpise	651		2
+natrese			2
+nijanse	4104		2
+nose	20488		2
+notese	24		2
+obese	259		2
+obrise	896		3
+odese			2
+odnese	2376		2
+odnose	53803		2
+oglase	2794		3
+okuse	145		2
+omnibuse			2
+omrse	37		2
+opise	916		2
+opuse	38		2
+ordonanse			2
+orose			2
+ose	2440		2
+otarase	249		2
+otkose	22		2
+otrese	227		2
+ovise	126		2
+paradokse	124		2
+parastose	46		2
+pase	372		2
+pasuse	126		3
+penise	41		2
+performanse	11726		2
+perse			2
+plavokose	70		2
+plise	17		2
+podese	393		2
+podklase	31		2
+podnese	9106		2
+podnose	5053		2
+pogase	156		2
+pohapse			2
+pojase	40		3
+pokose	77		2
+pokuse	18		2
+pokvase	53		2
+polise	1166		2
+polušanse	40		2
+ponese	2966		2
+ponose	957		2
+popise	150		2
+potklase			2
+potpise	1890		2
+potrese	695		2
+prakse	21591		2
+prase	1495		2
+pravopise	32		4
+predase			2
+predokuse			2
+premise	512		2
+prenaglase			2
+prenese	5388		2
+prenose	12302		2
+prepise	106		2
+prese			2
+pretrese	228		2
+preudese			2
+preuznese			2
+preuznose			2
+primese	371		3
+prinese	694		2
+prinose	1929		2
+prkose	309		2
+procese	8418		2
+proglase	1757		3
+progrese			2
+proiznose			2
+pronese	247		2
+pronose	209		2
+propise	5717		2
+prose	499		2
+protrese	143		2
+putopise	212		4
+rakurse			2
+rase	4612		2
+raspise	76		2
+rastrese	28		2
+razglase	30		2
+razmrse	22		2
+raznese	215		2
+raznose	232		2
+reagense	54		2
+rebuse	41		2
+reflekse	244		2
+regrese	106		2
+renesanse	1295		2
+rese	416		2
+resurse	8127		2
+reverse	60		2
+rise			2
+riđokose	34		2
+romanse	517		2
+rose	980		2
+rukopise	551		4
+saglase	262		2
+salse	256		2
+samose			2
+saragose			2
+se	8545501		1
+seanse	592		2
+sepse	263		2
+servise	3353		2
+silose	291		2
+sinapse	109		2
+sintakse	317		2
+sinuse	144		2
+sise	1989		2
+skepse	223		2
+skrase	81		2
+skvase			2
+smese	584		2
+snese	166		2
+snose	2881		2
+sose			2
+spase	3496		2
+spise	1282		2
+statuse	482		2
+stimulanse	220		2
+stipse	54		2
+stjuardese	458		2
+strese	203		2
+sufikse	18		2
+takse			2
+talambase	70		2
+talase	1619		3
+tangense			2
+tase			2
+terase	3017		2
+testise	203		3
+tise	1925		2
+trase	2042		2
+traverse			2
+trese	1634		2
+tricepse	48		2
+trolejbuse	105		2
+ubruse	83		2
+udese	137		2
+ugase	1150		2
+uhapse	827		2
+ukrase	935		3
+ukuse	1336		2
+umese	22		2
+unese	3217		2
+unose	4255		2
+upise	170		2
+usaglase	870		2
+usose			2
+uznese	270		2
+uznose	128		2
+uzuse	59		2
+uzvise	16		2
+užase	283		3
+vase			2
+vaskrese			2
+vaskrse	510		2
+velikoruse			2
+velse			2
+viruse	1310		2
+vitese			2
+vlase			2
+voskrese			2
+zadese	153		2
+zamrse	26		2
+zanese	211		2
+zanose	188		2
+zapise	2372		2
+zaprose	30		2
+zatrese	498		2
+zavese	2802		3
+zavise	6040		2
+zemljotrese	269		4
+zlakuse			2
+zlatokose	40		2
+časopise	1740		4
+čipse			2
+šanse	28590		2
+šemse			2
+špirituse			2
+živopise			2
+životopise	44		2
+mijese			2
+objese			2
+prijenose	10		3
+primjese			3
+smjese			2
+zavjese			3

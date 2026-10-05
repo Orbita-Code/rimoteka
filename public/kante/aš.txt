@@ -1,1477 +1,1477 @@
 1435
-abortiraš		
-aferaš		
-aktiviraš	84	
-alarmiraš		
-aludiraš	34	
-analiziraš	79	
-andraš		
-apaš		M
-aplaudiraš		
-asistiraš		
-asociraš		
-autonomaš	166	
-ažuriraš		
-bacaš	257	
-balansiraš	17	
-baljezgaš		
-bandažiraš		
-bankrotiraš	12	
-barataš	59	
-batinaš	38	
-bauljaš		
-bazaš		
-baziraš	19	
-baš	184103	
-bejzbolaš		
-bektaš		
-bezemljaš		
-biraš	913	
-birtaš		
-bivaš	27	
-bjelaš		M
-blagosiljaš	11	
-blamiraš	38	
-blefiraš		
-blistaš	17	
-blokiraš	46	
-bockaš		
-bogataš	693	
-bombaš		M
-bradaš		
-brbljaš	20	
-brecaš		
-brkaš	54	
-brljaš		
-brukaš	91	
-brzaš		
-brčkaš	11	
-budalaš		
-buljaš		
-buncaš	20	
-burgijaš		M
-celivaš	16	
-cenjkaš	10	
-cenkaš		
-cepaš	54	
-cerekaš		
-ciljaš	54	
-cimaš	150	
-citiraš	107	
-crkavaš		
-crnokošuljaš		
-crtaš	86	
-cugaš		
-cupkaš		
-cvetaš		
-cvikaš		
-cvikeraš		M
-dadiljaš		
-daš	3396	
-deaktiviraš		
-debljaš		
-dehidriraš		
-delaš		
-deljaš		
-demonstriraš	18	
-depiliraš		
-deprimiraš		
-dernjaš		
-detoniraš		
-dezertiraš		
-dežuraš	12	
-diktiraš	17	
-dilaš		
-dinamitaš		
-diplomiraš	27	
-diraš	190	
-distanciraš	10	
-divljaš	16	
-dizajniraš	27	
-dizelaš	701	
-dobijaš	1368	
-dobraš		
-dodaš	675	
-dogovaraš	20	
-doguraš	25	
-doimaš		
-dokopaš	12	
-dominiraš	11	
-doniraš		
-dopadaš	59	
-dopuštaš	60	
-dospevaš		
-dostavljaš		
-doteraš	40	
-dovijaš		
-dozivaš	18	
-doznaš	20	
-dozvoljavaš	117	
-dočekaš	83	
-dočepaš	21	
-doživljavaš	160	
-dragaš		
-dremaš	10	
-dresiraš		
-driblaš		
-drmaš		
-drndaš	13	
-drogeraš		
-drogiraš	35	
-drugoligaš	117	
-dudlaš		
-dugoprugaš		
-dupliraš	19	
-dupljaš		M
-duvaš	50	
-dvometraš	35	
-džogiraš		
-eksplodiraš		
-eskiviraš	10	
-fantaziraš		
-farbaš	86	
-farkaš		
-fasciniraš		
-fiksiraš	24	
-filmaš		M
-filozofiraš	53	
-finansiraš	43	
-fokusiraš	65	
-foliraš	55	
-folkloraš		
-formatiraš	70	
-formiraš	46	
-forsiraš	58	
-foteljaš		
-frakcionaš		
-friziraš		
-frontaš		M
-frulaš	97	
-furaš		
-fućkaš		
-gacaš		
-gajdaš	57	
-ganjaš	14	
-gardaš		
-gataš		
-gazdaš		
-gađaš	84	
-glagoljaš		
-glancaš		
-glasaš	230	
-glavaš	205	
-gledaš	3220	
-glumataš		
-glupiraš	15	
-gnušaš		
-golicaš		
-gomilaš		
-grabancijaš		M
-grickaš	40	
-grmaš		
-gubitaš	341	
-gulaš	574	
-gunđaš	12	
-guraš	227	
-gutaš	56	
-gužvaš		
-gvaš		
-haluciniraš	15	
-hamvaš		
-harangiraš		
-haraš	13	
-harmonikaš	224	
-hitaš	15	
-hodaš	248	
-hokejaš	63	
-hvataš	170	
-igraš	1518	
-ikraš		
-ilijaš		
-imaš	30724	
-imitiraš	15	
-impliciraš		
-impresioniraš	13	
-inficiraš		
-infiltriraš		
-insinuiraš	15	
-insistiraš	103	
-instaliraš	565	
-investiraš	43	
-iritiraš		
-iscepaš		
-iseckaš		
-iseljavaš		
-isflekaš		
-isisavaš		
-isisaš		
-iskijaš		
-iskopavaš		
-iskopaš	44	
-iskopiraš	61	
-iskorišćavaš		
-iskradaš		
-iskrcaš		
-iskuliraš		
-iskušavaš		
-iskušaš		
-ismejavaš	12	
-ismevaš	19	
-ismijavaš		
-ispadaš	87	
-ispavaš		
-ispaštaš		
-ispeglaš		
-ispijaš	13	
-ispiraš	17	
-ispitaš	45	
-isplaniraš	24	
-ispoliraš	12	
-ispoljavaš	27	
-ispovedaš	38	
-ispovraćaš	15	
-ispravljaš	64	
-ispraćaš		
-isprebijaš		
-ispredaš		
-isprepadaš		
-ispričavaš		
-ispričaš	165	
-isprljaš	10	
-isprobavaš	34	
-isprobaš	90	
-isprovociraš	15	
-isprskaš		
-ispunjavaš	122	
-ispuštaš	18	
-isteraš	59	
-istetoviraš		
-istrajavaš		
-istreniraš		
-istresaš	10	
-istrljaš		
-istuširaš	12	
-izazivaš	60	
-izbavljaš	15	
-izbegavaš	127	
-izbijaš		
-izblamiraš		
-izbrbljaš		
-izdaš	71	
-izdržavaš	30	
-izduvaš	24	
-izdvajaš	37	
-izgaraš		
-izgledaš	601	
-izgovaraš	74	
-izguraš	31	
-izigravaš	62	
-izigraš		
-izjadaš		
-izjašnjavaš	22	
-izjedaš		
-izjednačavaš	16	
-izležavaš	14	
-izlivaš		
-izmasiraš		
-izmešaš	10	
-izmišljaš	121	
-izmotavaš	14	
-iznerviraš	47	
-izobražavaš		
-izostavljaš		
-izravnaš		
-izračunaš	88	
-izražavaš	66	
-izribaš		
-izudaraš		
-izučavaš	19	
-izveštavaš		
-izvežbaš		
-izvinjavaš	106	
-izvređaš		
-izvrgavaš		
-izvršavaš	21	
-išetaš		
-išibaš		
-išunjaš		
-iščetkaš		
-iščitavaš		
-iščupaš	53	
-iščuđavaš		
-iživljavaš	25	
-javljaš	269	
-jačaš	15	
-jecaš		
-jonaš		
-jurcaš	30	
-kajakaš	116	
-kaljaš		
-kapiraš	396	
-kaputaš		
-karakaš		
-karataš	68	
-karaš	317	
-kardaš		
-karikiraš	10	
-kartaš		
-kasaš		
-kaskaš		
-kastriraš		
-kažnjavaš	54	
-kidaš	39	
-klanjaš	58	
-klimaš	23	
-klizaš	10	
-kljukaš		
-kljunaš		
-klokotaš		
-klopaš		
-knjavaš		
-kockaš	21	
-kokaš		
-koketiraš		
-kolebaš		
-kolutaš		
-komedijaš	25	
-kompjuteraš	20	
-komuniciraš	78	
-konstruiraš		
-kontaktiraš	118	
-kontaš	103	
-kontraš	49	
-konzumiraš	30	
-koordiniraš		
-kopaš	105	
-kopiraš	158	
-koprcaš	10	
-kopčaš		
-koračaš	58	
-kornjaš		
-korodiraš		
-kotrljaš	11	
-kočijaš	232	
-košarkaš	2570	
-koštaš	11	
-krajputaš		M
-kratkoprugaš		
-kraš		M
-kreiraš	164	
-krepaš		
-krstaš	561	
-krznaš		
-kubikaš		M
-kucaš	287	
-kuckaš	38	
-kuglaš	65	
-kukaš	225	
-kulaš		M
-kuliraš		
-kupaš	75	
-kuvaš	153	
-kušaš	18	
-lakiraš		
-lakrdijaš	40	
-laktaš		M
-lansiraš	14	
-laparaš		
-laprdaš	15	
-laskaš	10	
-latinaš		
-laćaš		
-lažiraš		
-licitiraš	15	
-ligaš	136	
-likvidiraš		
-linjaš		
-listaš	21	
-lišavaš	19	
-ljubakaš		
-ljuljaš	16	
-ljuskaš		
-lobiraš		
-lociraš	16	
-logoraš	116	
-ludiraš		
-lulaš		M
-lunjaš		
-lupaš	372	
-lupetaš	228	
-lupkaš		
-lutaš	70	
-mafijaš	292	
-mahnitaš		
-malaksavaš		
-maltretiraš	69	
-maraš		
-marjaš		M
-markiraš	12	
-marširaš		
-masiraš	15	
-maskiraš	10	
-masturbiraš		
-maturiraš		
-maštaš	106	
-meditiraš	23	
-menjaš	956	
-merkaš		
-međaš	102	
-mešaš	282	
-miniraš		
-miraš		
-mitingaš		M
-mlataraš		
-montiraš	72	
-moraš	12828	
-motaš	30	
-mozgaš		
-mrdaš	39	
-mrmljaš		
-mucaš		
-mudrijaš	20	
-muktaš		M
-muljaš	29	
-mumlaš		
-mumljaš		
-muvaš	40	
-nabasaš		
-nabavljaš	27	
-nabijaš	50	
-nabrajaš	20	
-naciljaš		
-nacrtaš	74	
-nadaš	423	
-nadgledaš		
-nadimaš		
-nadodaš		
-nadrljaš		
-naduvaš	13	
-naftaš	89	
-nagađaš	27	
-naglašavaš	19	
-nagledaš		
-nagovaraš	14	
-nagoveštavaš		
-naguraš	13	
-nalivaš		
-nameravaš	150	
-nameštaš	35	
-namoraš		
-naoružavaš		
-napadaš	187	
-napajaš	20	
-napasaš		
-napijaš		
-napumpaš		
-napuštaš	57	
-narušavaš	12	
-nasedaš	17	
-naslanjaš	10	
-naslikaš	10	
-nasmejavaš		
-nasmijavaš		J
-naspavaš	17	
-nastavljaš	123	
-nastradaš	18	
-nastupaš	70	
-natapaš		
-nateraš	135	
-natrapaš		
-natrljaš		
-naučaš		
-navijaš	179	
-navikavaš	28	
-navlaš		M
-navraćaš		
-nazdravljaš		
-nazivaš	426	
-naš	121856	
-našminkaš	11	
-negiraš	35	
-nemaš	8381	
-nerviraš	254	
-nećkaš		
-nikogaš		
-nipodaštavaš	19	
-njuškaš		
-nokautiraš		
-obaraš	37	
-obasjavaš		
-obaveštavaš	13	
-obavljaš	110	
-obeležavaš	10	
-obećavaš	105	
-obećaš	81	
-obijaš		
-obitavaš	23	
-objašnjavaš	274	
-obnavljaš	21	
-obožavaš	71	
-obraćaš	268	
-obračunaš	14	
-obrukaš	20	
-obuvaš		
-obuzdavaš		
-obuzdaš	18	
-obuzimaš		
-obučavaš		
-odagnaš		
-odazivaš		
-odaš	32	
-odbijaš	95	
-odbojkaš	233	
-odbrojavaš		
-odevaš		
-odgajaš	10	
-odgledaš	62	
-odgovaraš	397	
-odguraš		
-odigraš	89	
-odijevaš		J
-odlepršaš		
-odlikaš	64	
-odlutaš		
-odmaraš	69	
-odmeravaš		
-odmotaš		
-odobravaš	14	
-odrastaš	25	
-odremaš		
-održavaš	135	
-odsecaš		
-odsedaš		
-odslušaš	18	
-odspavaš	25	
-odstupaš		
-odsviraš	10	
-oduvaš		
-oduzimaš	48	
-oduševljavaš	20	
-odvajaš	47	
-odvijaš		
-odvraćaš	16	
-odšetaš		
-odštampaš	32	
-ofarbaš	45	
-ogledaš	16	
-ogovaraš	22	
-ograničavaš	20	
-ojačaš	35	
-okaljaš		
-oklevaš	23	
-okolišaš		
-okončaš		
-okupaš	40	
-okupljaš	10	
-okušaš	11	
-olajavaš		
-olakšavaš	14	
-olakšaš	35	
-omalovažavaš	44	
-omekšaš		
-ometaš	21	
-opažaš	18	
-opevaš		
-opijaš	13	
-opipaš	17	
-opkopaš		
-opljačkaš	14	
-oponašaš		
-oponiraš		
-oporavljaš		
-opozivaš		
-opravdavaš	54	
-opravdaš	78	
-opraštaš	55	
-oprobaš	39	
-opsedaš		
-opuštaš	16	
-orguljaš	76	
-oribaš		
-orijaš	13	
-oružaš		
-osedlaš		
-osećaš	1802	
-osiguravaš		
-osiguraš	33	
-oskudevaš		
-oslanjaš	60	
-oslobađaš	28	
-oslovljavaš	16	
-osmatraš		
-osnivaš	11	
-osporavaš	32	
-ostavljaš	390	
-osunčaš		
-osvajaš	30	
-osvetlaš		
-osveštavaš		
-osvežavaš		
-oteraš	79	
-otežavaš	12	
-otežaš		
-otimaš	58	
-otkidaš		
-otklanjaš		
-otključaš	35	
-otkopčaš		
-otkrivaš	93	
-otkucaš	57	
-otpadaš		
-otpevaš	20	
-otplivaš		
-otporaš	64	
-otpuštaš	27	
-otuširaš		
-otvaraš	270	
-ovladavaš		
-ovladaš	19	
-ovlaš		M
-ovuliraš		
-očajavaš	18	
-očenaš		
-očešljaš		
-očijukaš		
-očitavaš		
-očitaš	14	
-očuvaš	20	
-ošišaš	19	
-oživljavaš		
-padaš	176	
-pajdaš		
-pajtaš		M
-paprikaš	577	
-paradiraš		
-parkiraš	96	
-partijaš		
-patroliraš		
-pauziraš	15	
-paš		
-pecaš	30	
-peglaš	26	
-perjaš		
-persiraš		
-petljaš	65	
-petokolonaš	23	
-pevaš	298	
-pijuckaš	13	
-pilotiraš		
-pipaš	23	
-pipkaš		
-pitaš	2748	
-pišaš	29	
-planiraš	753	
-plasiraš	52	
-plaćaš	1218	
-plemenitaš		
-plećaš		
-plivaš	107	
-pljačkaš	289	
-plutaš		
-pobadaš		
-poboljšavaš		
-poboljšaš	44	
-pobrkaš	10	
-pocepaš	19	
-podbadaš		
-podešavaš	124	
-podgrevaš		
-podivljaš		
-podrazumevaš	133	
-podražavaš	10	
-podrepaš		M
-podrivaš		
-podržavaš	207	
-podsećaš	106	
-podsmevaš	32	
-podučavaš	12	
-podvijaš		
-podvrgavaš		
-podšišaš		
-poentiraš	13	
-pogađaš	56	
-pogledaš	1888	
-pogoršavaš		
-pogoršaš		
-poguraš	16	
-pohađaš	35	
-pohitaš		
-pohvataš	24	
-poigravaš	16	
-poigraš	30	
-poimaš		
-pojačavaš	21	
-pojačaš	49	
-pokaraš		
-pokeraš	17	
-pokidaš	14	
-poklanjaš	72	
-poklapaš		
-pokopaš		
-pokoravaš	16	
-pokrivaš	28	
-pokucaš	13	
-pokušavaš	797	
-pokušaš	653	
-poliraš	17	
-polivaš		
-pomeraš	89	
-pomešaš	38	
-pomišljaš	52	
-ponavljaš	197	
-ponašaš	376	
-poništavaš	10	
-ponižavaš	51	
-popišaš		
-popravljaš	56	
-popricaš		
-poprimaš		
-popričaš	92	
-poprskaš	13	
-popunjavaš	48	
-popuštaš	19	
-poravnaš		
-porazgovaraš	63	
-porađaš		
-poražavaš		
-poređaš	14	
-posipaš		
-posisaš		
-poslušaš	202	
-posmatraš	350	
-pospremaš		
-postaraš	11	
-postavljaš	337	
-postradaš	10	
-postupaš	51	
-posumnjaš	26	
-posvađaš	20	
-potapaš		
-poteraš	40	
-potkopavaš		
-potkopaš		
-potkradaš		
-potresaš	10	
-potucaš		
-poturaš	28	
-poubijaš		
-pouzdaš	11	
-poučavaš		
-poveravaš	16	
-povećavaš	60	
-povećaš	162	
-povraćaš	25	
-pozdravljaš	22	
-poziraš	13	
-pozivaš	206	
-poznaš	97	
-pozobaš		
-počivaš	13	
-počupaš		
-pravaš		
-pravdaš	101	
-praštaš	23	
-prebijaš		
-prebivaš	10	
-prebrajaš		
-precrtaš		
-predaš	184	
-predomišljaš		
-predoziraš		
-predstavljaš	203	
-preduzimaš	31	
-predviđaš	21	
-preferiraš	34	
-pregledavaš		
-pregledaš	68	
-pregovaraš	31	
-preguraš	17	
-preispitaš	22	
-prekidaš	47	
-prekopiraš	31	
-prekoravaš		
-prekrivaš		
-prelamaš		
-prelivaš		
-premeštaš	14	
-premišljaš		
-premotavaš		
-premotaš		
-prepadaš		
-preplivaš		
-preponaš	12	
-prepoznaš	224	
-prepravljaš		
-prepričavaš	14	
-prepuštaš	28	
-prerušavaš		
-preslušavaš		
-preslušaš	11	
-prespavaš	21	
-pretapaš		
-preteraš	56	
-pretpostavljaš	68	
-pretresaš		
-preturaš	14	
-pretvaraš	97	
-preuveličavaš	11	
-preuzimaš	45	
-prevladaš		
-prezaš		
-prezivaš	16	
-preznojavaš		
-preživljavaš	26	
-pribavljaš		
-pribegavaš	11	
-pribiraš		
-približavaš	36	
-pridržavaš	71	
-prigovaraš	22	
-prihvataš	176	
-prihvaćaš		
-prikradaš		
-prikrivaš	14	
-prikupljaš	22	
-prilagođavaš	30	
-primaš	394	
-primoravaš	11	
-primoraš		
-pripadaš	334	
-pripijaš		
-pripovedaš	10	
-pripremaš	76	
-prisećaš	17	
-prisiljavaš		
-pristupaš	111	
-prisvajaš		
-pritiskaš	47	
-priupitaš	18	
-privikavaš		
-priviđaš		
-prizivaš	43	
-priznaš	277	
-pričaš	3994	
-pričekaš	14	
-pričuvaš	11	
-prišunjaš		
-prljaš	24	
-probadaš		
-probaš	1296	
-probijaš	19	
-probiraš		
-prodaš	675	
-prodrmaš		
-produžavaš		
-profitiraš	12	
-proganjaš	12	
-progledaš	22	
-prognaš		
-progovaraš		
-programiraš	79	
-proguraš	24	
-progutaš	89	
-prohodaš		
-projiciraš		
-prokockaš		
-prokuvaš		
-prolepšaš		
-prolivaš		
-promešaš		
-promuvaš		
-pronjuškaš		
-propadaš	36	
-propagiraš	33	
-propevaš		
-propovedaš	57	
-propuštaš	66	
-prosijaš		
-prosipaš	103	
-proslavljaš	12	
-prosviraš		
-protekcionaš		M
-proteraš	20	
-protrljaš	10	
-proučavaš	16	
-proveravaš	77	
-provociraš	92	
-provozaš	54	
-prozivaš	176	
-proćerdaš		
-pročeprkaš		
-pročešljaš	12	
-pročitaš	1019	
-prošetaš		
-proživljavaš		
-prskaš	32	
-pružaš	109	
-prvoligaš	401	
-pucaš	148	
-pumpaš		
-puškaš		
-puštaš	218	
-raketaš		
-rakijaš		
-ranjavaš		
-raportiraš		
-rasipaš	18	
-raskidaš		
-raskopaš		
-raskrinkaš		
-raspadaš	10	
-raspitaš	245	
-raspoznaš		
-raspravljaš		
-rastavljaš		
-rasteraš		
-rasturaš	19	
-rastvaraš		
-ratosiljaš		
-ravnaš		
-razaraš	10	
-razbijaš	60	
-razbiraš		
-razbucaš		
-razdaš		
-razdremaš		
-razdvajaš	18	
-razgledaš	15	
-razgovaraš	340	
-razigraš		
-razmatraš	22	
-razmišljaš	1345	
-razmrdaš		
-razoružaš		
-razočaravaš		
-razočaraš	82	
-razrešavaš		
-razvijaš	119	
-računaš	250	
-rađaš	60	
-recikliraš	17	
-reketaš		
-reklamiraš	118	
-renoviraš	11	
-reprogramiraš		
-reskiraš	15	
-revidiraš		
-revoltiraš		
-revolveraš	65	
-ređaš	18	
-rešavaš	122	
-režiraš		
-ribaš		
-ridaš		
-rintaš	10	
-riskiraš		
-robijaš	149	
-rokaš		
-rovaš		
-roštiljaš		
-rugaš	39	
-rukometaš	387	
-ručaš	32	
-sabiraš	31	
-sabljaš		M
-sabotiraš	11	
-sagledavaš	20	
-sagledaš	109	
-sakrivaš	22	
-sakupljaš	19	
-salaš		M
-salutiraš		
-samosažaljevaš		
-sanjaš	420	
-saobraćaš		
-saopštavaš	16	
-saosećaš	15	
-saslušaš	65	
-sastavljaš	32	
-sataraš		
-sateraš		
-savijaš	19	
-savladaš	142	
-saznaš	564	
-sačekaš	295	
-sačinjavaš		
-sačuvaš	241	
-sažaljevaš		
-seciraš		
-seckaš	24	
-sedaš	45	
-sekiraš	134	
-sektaš	60	
-serviraš	36	
-sećaš	1311	
-sečaš		
-shvataš	792	
-shvaćaš		
-sijaš	40	
-simuliraš	13	
-sipaš	180	
-sisaš	18	
-sjaš		
-sječaš		J
-skapavaš		
-skapaš		
-skapiraš	65	
-skeniraš	52	
-skidaš	313	
-skijaš	658	
-skitaš		
-sklanjaš	20	
-sklapaš	58	
-sklupčaš		
-skontaš	89	
-skončaš		
-skrckaš		
-skrhaš		
-skrivaš	53	
-skupljaš	105	
-skuvaš	66	
-slalomaš		
-slamaš		
-slikaš	229	
-slivaš		
-slupaš		
-slušaš	1089	
-smaraš	194	
-smatraš	924	
-smekšaš		
-smeraš		
-smetaš	94	
-smeškaš	44	
-smeštaš	18	
-smišljaš	43	
-smotaš		
-smrzavaš	14	
-smršaš	75	
-smucaš		
-smuvaš	39	
-snabdevaš		
-snevaš		
-snimaš	193	
-snivaš		
-sortiraš	13	
-spadaš	137	
-spajaš	47	
-spasavaš	59	
-spavaš	771	
-spašavaš		
-spetljaš		
-spiskaš		
-spletkaš		M
-spopadaš		
-sportaš	35	
-spoznaš	74	
-sprdaš	35	
-spremaš	281	
-sprečavaš	16	
-sputavaš		
-spuštaš	102	
-srednjoprugaš		
-srljaš	21	
-staraš	26	
-stavljaš	510	
-stažiraš		
-stiskaš	33	
-stišaš		
-stopiraš	10	
-stradaš	36	
-streljaš	13	
-stresiraš		
-strpaš	34	
-studiraš	326	
-stupaš	21	
-stvaraš	227	
-sumnjaš	163	
-sunčaš	16	
-suočavaš	17	
-suprotstavljaš	10	
-surfaš		
-survavaš		
-survaš		
-sutlijaš		M
-suzbijaš		
-suzdržavaš		
-svađaš	89	
-sviraš	229	
-sviđaš	162	
-svraćaš	20	
-svrdlaš		
-svrstavaš	25	
-svršavaš	22	
-tabaš	15	
-talasaš	25	
-taljigaš		M
-tamaš		
-tamburaš	35	
-tapkaš	16	
-taš		M
-telefoniraš	19	
-tepaš	26	
-teraš	320	
-testeraš		M
-testiraš	149	
-tetoviraš		
-teturaš		
-teškaš	55	
-tkaš		
-tomaš		
-tornjaš		
-trabunjaš	25	
-tragaš	50	
-trebaš	1007	
-treniraš	275	
-tretiraš	36	
-trećeligaš		
-trkaš	21	
-trljaš	24	
-trojkaš		M
-trpaš	56	
-trtljaš		
-trumbetaš		M
-trućaš		
-trzaš	17	
-trčkaraš	10	
-tumaraš		
-tuširaš	24	
-ubadaš	13	
-ubijaš	169	
-ubrajaš	18	
-ubrizgavaš		
-ubrizgaš		
-ubrzavaš	18	
-ubrzaš	44	
-udaljavaš	15	
-udaraš	141	
-udaš	183	
-udbaš		
-udebljaš		
-udovoljavaš		
-udvaraš	16	
-ufuraš		
-ugađaš	10	
-ugledaš	137	
-ugnjetavaš		
-ugovaraš		
-ugrožavaš	43	
-uguraš	31	
-uhodaš	15	
-ujedaš		
-ukaljaš		
-ukapiraš	96	
-ukidaš	11	
-ukivaš		
-uklanjaš	10	
-uklapaš	55	
-ukopavaš		
-ukopaš		
-ukrašavaš	12	
-ukrcaš		
-ukucaš	219	
-ulepšavaš	17	
-ulepšaš	25	
-ulivaš		
-umaraš	12	
-umešaš		
-umiljavaš		
-umišljaš	36	
-umještaš		J
-umotaš	10	
-umrtvljavaš		
-uništavaš	76	
-unižavaš	11	
-unjkaš		
-uobražavaš		
-uočavaš	18	
-upadaš	79	
-upecaš	23	
-upetljaš		
-upijaš	20	
-upitaš	70	
-upišaš		
-upotrebljavaš	55	
-upoznaš	600	
-upozoravaš	12	
-upravljaš	117	
-upražnjavaš	21	
-uprljaš	11	
-upropaštavaš		
-upropašćavaš		
-uprskaš		
-upucavaš		
-upucaš	10	
-upuštaš	50	
-uračunaš	19	
-urlaš	28	
-usavršavaš	63	
-useljavaš		
-usisavaš	11	
-usisaš	13	
-uslikaš	30	
-usmeravaš	27	
-uspavaš		
-uspevaš	159	
-usporavaš	15	
-uspostavljaš	16	
-ustrebaš		
-ustručavaš	15	
-ustupaš		
-usvajaš	11	
-utapaš		
-uteraš	12	
-utišavaš		
-utišaš	27	
-utrljavaš		
-utrljaš		
-uvaljaš		
-uvažavaš	14	
-uveličaš		
-uveravaš	12	
-uvećavaš		
-uvećaš	22	
-uvežbavaš		
-uvežbaš	14	
-uvijaš	15	
-uviđaš	51	
-uzdaš	42	
-uzdrmaš		
-uzdržavaš	13	
-uzgajaš	12	
-uzimaš	732	
-uznemiravaš	36	
-uzrujavaš		
-uzrujaš		
-uzvraćaš	16	
-ućutkavaš		
-ućutkaš	10	
-učestaš		
-ušetaš		
-ušunjaš		
-ušuškaš	11	
-užasavaš		
-uživaš	755	
-vagaš	10	
-valjaš	96	
-varaš	343	
-variraš		
-vaspitavaš	23	
-vaspitaš	19	
-vataš		
-vaš	63185	
-vegetiraš		
-velikaš	138	
-veličaš	32	
-venčavaš		
-venčaš	14	
-verglaš		
-veslaš	15	
-večeraš	18	
-vežbaš	200	
-vibriraš		
-vijaš	11	
-vikendaš	21	
-vitlaš		
-viđaš	131	
-vladaš	149	
-volaš		
-volontiraš	58	
-vozikaš	12	
-vraćaš	451	
-vračaš		
-vrckaš		
-vrdaš	23	
-vrebaš	11	
-vređaš	417	
-vrzmaš		
-vucaraš		
-zabadaš	12	
-zabavljaš	83	
-zabijaš		
-zablistaš	14	
-zaboravljaš	278	
-zabrinjavaš		
-zabrljaš	32	
-zabušavaš	19	
-zadaš	38	
-zadebljaš		
-zadovoljavaš	44	
-zadremaš		
-zadržavaš	57	
-zafrkavaš		
-zagledaš	61	
-zagolicaš		
-zagorčavaš		
-zagorčaš		
-zagovaraš	17	
-zagrevaš	12	
-zahtevaš	74	
-zaigraš	21	
-zakeraš		
-zakidaš		
-zaklanjaš		
-zaključavaš		
-zaključaš	41	
-zakopavaš		
-zakopaš	24	
-zakopčaš		
-zakoračaš		
-zakucavaš		
-zakucaš	25	
-zalivaš		
-zalutaš	19	
-zamajavaš	36	
-zamaraš	34	
-zameraš	78	
-zamišljaš	198	
-zamotaš		
-zanimaš	52	
-zanovetaš		
-zapajaš		
-zapažaš	21	
-zapetljaš		
-zapevaš	17	
-zapitaš	187	
-zapostavljaš		
-zapovedaš	24	
-zapošljavaš	24	
-zaprljaš		
-zapucaš	10	
-zaribaš		
-zasijaš		
-zasipaš		
-zasmejavaš	21	
-zasmetaš		
-zasnivaš	18	
-zastupaš	78	
-zasviraš		
-zataškavaš		
-zataškaš		
-zatrebaš		
-zatrpaš		
-zatvaraš	85	
-zaudaraš		
-zaustavljaš	22	
-zauzdaš		
-zauzimaš	23	
-zavaravaš	34	
-zavaraš	14	
-zavađaš		
-zavijaš		
-zavitlavaš		
-zavladaš		
-završavaš	97	
-zbijaš		
-zbližavaš		
-zbrajaš		
-zbrkaš		
-zelenaš		M
-zevaš	19	
-zezaš	258	
-zgražaš		
-zidaš	32	
-zijaš		
-zlostavljaš		
-zloupotrebljavaš	28	
-znaš	27555	
-zumiraš	20	
-zurlaš		M
-zveckaš		
-zveraš		
-zvezdaš		M
-zvocaš	12	
-ćarlijaš		
-ćaskaš		
-ćeraš		
-čardaš	52	
-čavrljaš		
-čačkaš	57	
-čekaš	1353	
-čekinjaš		
-čeprkaš		
-čestitaš	41	
-četvorotočkaš	63	
-češkaš		
-češljaš		
-čilaš		M
-čiraš		
-čitaš	1703	
-čordaš		
-čunjaš		
-čupaš	35	
-čuturaš		
-čuvaš	464	
-đelmaš		
-đogaš		
-đuskaš		
-šajkaš	91	
-šamaraš		
-šaraš	15	
-šarmiraš		
-šaš	164	
-šepaš		
-šetaš	216	
-šetkaš		
-šećeraš	17	
-šibaš		
-šišaš	26	
-škakljaš		
-šlihtaš		
-šminkaš	26	
-šokiraš	17	
-špijuniraš	11	
-štampaš	74	
-štimaš		
-štipaš		
-štrikaš		
-štucaš		
-šuljaš		
-šunjaš	11	
-šutiraš	18	
-šuškaš		
-švrljaš		
-ščepaš		
-ženiraš		
-živciraš		
-žongliraš	10	
-izbjegavaš		
-mijenjaš	32	
-miješaš		
-mjenjaš		
-mješaš		
-namjeravaš		
-namještaš		
-natjeraš		
-oklijevaš		
-osijecaš		
-osjecaš		
-osjećaš		
-otjeraš		
-otpjevaš		
-pjevaš		
-podrazumijevaš		
-podsjećaš		
-pomiješaš		
-pomjeraš		
-pretjeraš		
-prisjećaš		
-propovijedaš		
-provjeravaš		
-rješavaš		
-sjecaš		
-sjećaš		
-smjeraš		
-smješkaš		
-tjeraš		
-umiješaš		
-uspijevaš		
-uspjevaš		
-uvjeravaš		
-vjenčaš		
-vježbaš		
-vrijeđaš	25	
-zahtijevaš		
-zahtjevaš		
-zamjeraš		
-zapjevaš		
-zapovijedaš		
+abortiraš			2
+aferaš			2
+aktiviraš	84		2
+alarmiraš			2
+aludiraš	34		2
+analiziraš	79		2
+andraš			2
+apaš		M	2
+aplaudiraš			2
+asistiraš			2
+asociraš			2
+autonomaš	166		2
+ažuriraš			2
+bacaš	257		2
+balansiraš	17		2
+baljezgaš			2
+bandažiraš			2
+bankrotiraš	12		2
+barataš	59		2
+batinaš	38		2
+bauljaš			2
+bazaš			2
+baziraš	19		2
+baš	184103		1
+bejzbolaš			2
+bektaš			2
+bezemljaš			2
+biraš	913		2
+birtaš			2
+bivaš	27		2
+bjelaš		M	2
+blagosiljaš	11		2
+blamiraš	38		2
+blefiraš			2
+blistaš	17		2
+blokiraš	46		2
+bockaš			2
+bogataš	693		2
+bombaš		M	2
+bradaš			2
+brbljaš	20		2
+brecaš			2
+brkaš	54		2
+brljaš			2
+brukaš	91		2
+brzaš			2
+brčkaš	11		2
+budalaš			2
+buljaš			2
+buncaš	20		2
+burgijaš		M	2
+celivaš	16		2
+cenjkaš	10		2
+cenkaš			2
+cepaš	54		2
+cerekaš			2
+ciljaš	54		2
+cimaš	150		2
+citiraš	107		2
+crkavaš			2
+crnokošuljaš			2
+crtaš	86		2
+cugaš			2
+cupkaš			2
+cvetaš			2
+cvikaš			2
+cvikeraš		M	2
+dadiljaš			2
+daš	3396		1
+deaktiviraš			2
+debljaš			2
+dehidriraš			2
+delaš			2
+deljaš			2
+demonstriraš	18		2
+depiliraš			2
+deprimiraš			2
+dernjaš			2
+detoniraš			2
+dezertiraš			2
+dežuraš	12		2
+diktiraš	17		2
+dilaš			2
+dinamitaš			2
+diplomiraš	27		2
+diraš	190		2
+distanciraš	10		2
+divljaš	16		2
+dizajniraš	27		2
+dizelaš	701		2
+dobijaš	1368		2
+dobraš			2
+dodaš	675		2
+dogovaraš	20		2
+doguraš	25		2
+doimaš			2
+dokopaš	12		2
+dominiraš	11		2
+doniraš			2
+dopadaš	59		2
+dopuštaš	60		2
+dospevaš			2
+dostavljaš			2
+doteraš	40		2
+dovijaš			2
+dozivaš	18		2
+doznaš	20		2
+dozvoljavaš	117		2
+dočekaš	83		2
+dočepaš	21		2
+doživljavaš	160		2
+dragaš			2
+dremaš	10		2
+dresiraš			2
+driblaš			2
+drmaš			2
+drndaš	13		2
+drogeraš			2
+drogiraš	35		2
+drugoligaš	117		2
+dudlaš			2
+dugoprugaš			2
+dupliraš	19		2
+dupljaš		M	2
+duvaš	50		2
+dvometraš	35		2
+džogiraš			2
+eksplodiraš			2
+eskiviraš	10		2
+fantaziraš			2
+farbaš	86		2
+farkaš			2
+fasciniraš			2
+fiksiraš	24		2
+filmaš		M	2
+filozofiraš	53		2
+finansiraš	43		2
+fokusiraš	65		2
+foliraš	55		2
+folkloraš			2
+formatiraš	70		2
+formiraš	46		2
+forsiraš	58		2
+foteljaš			2
+frakcionaš			2
+friziraš			2
+frontaš		M	2
+frulaš	97		2
+furaš			2
+fućkaš			2
+gacaš			2
+gajdaš	57		2
+ganjaš	14		2
+gardaš			2
+gataš			2
+gazdaš			1
+gađaš	84		2
+glagoljaš			2
+glancaš			2
+glasaš	230		2
+glavaš	205		2
+gledaš	3220		2
+glumataš			2
+glupiraš	15		2
+gnušaš			2
+golicaš			2
+gomilaš			2
+grabancijaš		M	2
+grickaš	40		2
+grmaš			2
+gubitaš	341		2
+gulaš	574		2
+gunđaš	12		2
+guraš	227		2
+gutaš	56		2
+gužvaš			2
+gvaš			1
+haluciniraš	15		2
+hamvaš			2
+harangiraš			2
+haraš	13		2
+harmonikaš	224		2
+hitaš	15		2
+hodaš	248		2
+hokejaš	63		2
+hvataš	170		2
+igraš	1518		2
+ikraš			2
+ilijaš			2
+imaš	30724		2
+imitiraš	15		2
+impliciraš			2
+impresioniraš	13		2
+inficiraš			2
+infiltriraš			2
+insinuiraš	15		2
+insistiraš	103		2
+instaliraš	565		2
+investiraš	43		2
+iritiraš			2
+iscepaš			2
+iseckaš			2
+iseljavaš			2
+isflekaš			2
+isisavaš			2
+isisaš			2
+iskijaš			2
+iskopavaš			2
+iskopaš	44		2
+iskopiraš	61		2
+iskorišćavaš			2
+iskradaš			2
+iskrcaš			2
+iskuliraš			2
+iskušavaš			2
+iskušaš			2
+ismejavaš	12		2
+ismevaš	19		2
+ismijavaš			2
+ispadaš	87		2
+ispavaš			2
+ispaštaš			2
+ispeglaš			2
+ispijaš	13		2
+ispiraš	17		2
+ispitaš	45		2
+isplaniraš	24		2
+ispoliraš	12		2
+ispoljavaš	27		2
+ispovedaš	38		2
+ispovraćaš	15		2
+ispravljaš	64		2
+ispraćaš			2
+isprebijaš			2
+ispredaš			2
+isprepadaš			2
+ispričavaš			2
+ispričaš	165		2
+isprljaš	10		2
+isprobavaš	34		2
+isprobaš	90		2
+isprovociraš	15		2
+isprskaš			2
+ispunjavaš	122		2
+ispuštaš	18		2
+isteraš	59		2
+istetoviraš			2
+istrajavaš			2
+istreniraš			2
+istresaš	10		2
+istrljaš			2
+istuširaš	12		2
+izazivaš	60		2
+izbavljaš	15		2
+izbegavaš	127		2
+izbijaš			2
+izblamiraš			2
+izbrbljaš			2
+izdaš	71		2
+izdržavaš	30		2
+izduvaš	24		2
+izdvajaš	37		2
+izgaraš			2
+izgledaš	601		2
+izgovaraš	74		2
+izguraš	31		2
+izigravaš	62		2
+izigraš			2
+izjadaš			2
+izjašnjavaš	22		2
+izjedaš			2
+izjednačavaš	16		2
+izležavaš	14		2
+izlivaš			2
+izmasiraš			2
+izmešaš	10		2
+izmišljaš	121		2
+izmotavaš	14		2
+iznerviraš	47		2
+izobražavaš			2
+izostavljaš			2
+izravnaš			2
+izračunaš	88		2
+izražavaš	66		2
+izribaš			2
+izudaraš			2
+izučavaš	19		2
+izveštavaš			2
+izvežbaš			2
+izvinjavaš	106		2
+izvređaš			2
+izvrgavaš			2
+izvršavaš	21		2
+išetaš			2
+išibaš			3
+išunjaš			2
+iščetkaš			2
+iščitavaš			2
+iščupaš	53		2
+iščuđavaš			2
+iživljavaš	25		2
+javljaš	269		2
+jačaš	15		2
+jecaš			2
+jonaš			2
+jurcaš	30		2
+kajakaš	116		2
+kaljaš			2
+kapiraš	396		2
+kaputaš			2
+karakaš			2
+karataš	68		2
+karaš	317		2
+kardaš			2
+karikiraš	10		2
+kartaš			2
+kasaš			2
+kaskaš			2
+kastriraš			2
+kažnjavaš	54		2
+kidaš	39		2
+klanjaš	58		2
+klimaš	23		2
+klizaš	10		2
+kljukaš			2
+kljunaš			2
+klokotaš			2
+klopaš			2
+knjavaš			2
+kockaš	21		2
+kokaš			2
+koketiraš			2
+kolebaš			2
+kolutaš			2
+komedijaš	25		2
+kompjuteraš	20		2
+komuniciraš	78		2
+konstruiraš			2
+kontaktiraš	118		2
+kontaš	103		2
+kontraš	49		2
+konzumiraš	30		2
+koordiniraš			2
+kopaš	105		2
+kopiraš	158		2
+koprcaš	10		2
+kopčaš			2
+koračaš	58		2
+kornjaš			2
+korodiraš			2
+kotrljaš	11		2
+kočijaš	232		2
+košarkaš	2570		2
+koštaš	11		2
+krajputaš		M	2
+kratkoprugaš			2
+kraš		M	1
+kreiraš	164		2
+krepaš			2
+krstaš	561		2
+krznaš			2
+kubikaš		M	2
+kucaš	287		2
+kuckaš	38		2
+kuglaš	65		2
+kukaš	225		2
+kulaš		M	2
+kuliraš			2
+kupaš	75		2
+kuvaš	153		2
+kušaš	18		2
+lakiraš			2
+lakrdijaš	40		2
+laktaš		M	2
+lansiraš	14		2
+laparaš			2
+laprdaš	15		2
+laskaš	10		2
+latinaš			2
+laćaš			2
+lažiraš			2
+licitiraš	15		2
+ligaš	136		2
+likvidiraš			2
+linjaš			2
+listaš	21		2
+lišavaš	19		2
+ljubakaš			2
+ljuljaš	16		2
+ljuskaš			2
+lobiraš			2
+lociraš	16		2
+logoraš	116		2
+ludiraš			2
+lulaš		M	2
+lunjaš			2
+lupaš	372		2
+lupetaš	228		2
+lupkaš			2
+lutaš	70		2
+mafijaš	292		2
+mahnitaš			2
+malaksavaš			2
+maltretiraš	69		2
+maraš			2
+marjaš		M	2
+markiraš	12		2
+marširaš			2
+masiraš	15		2
+maskiraš	10		2
+masturbiraš			2
+maturiraš			2
+maštaš	106		2
+meditiraš	23		2
+menjaš	956		2
+merkaš			2
+međaš	102		2
+mešaš	282		2
+miniraš			2
+miraš			2
+mitingaš		M	2
+mlataraš			2
+montiraš	72		2
+moraš	12828		2
+motaš	30		2
+mozgaš			2
+mrdaš	39		2
+mrmljaš			2
+mucaš			2
+mudrijaš	20		2
+muktaš		M	2
+muljaš	29		2
+mumlaš			2
+mumljaš			2
+muvaš	40		2
+nabasaš			2
+nabavljaš	27		2
+nabijaš	50		2
+nabrajaš	20		2
+naciljaš			2
+nacrtaš	74		2
+nadaš	423		2
+nadgledaš			2
+nadimaš			2
+nadodaš			2
+nadrljaš			2
+naduvaš	13		2
+naftaš	89		2
+nagađaš	27		2
+naglašavaš	19		2
+nagledaš			2
+nagovaraš	14		2
+nagoveštavaš			2
+naguraš	13		2
+nalivaš			2
+nameravaš	150		2
+nameštaš	35		2
+namoraš			2
+naoružavaš			2
+napadaš	187		2
+napajaš	20		2
+napasaš			2
+napijaš			2
+napumpaš			2
+napuštaš	57		2
+narušavaš	12		2
+nasedaš	17		2
+naslanjaš	10		2
+naslikaš	10		2
+nasmejavaš			2
+nasmijavaš		J	2
+naspavaš	17		2
+nastavljaš	123		2
+nastradaš	18		2
+nastupaš	70		2
+natapaš			2
+nateraš	135		2
+natrapaš			2
+natrljaš			2
+naučaš			2
+navijaš	179		2
+navikavaš	28		2
+navlaš		M	2
+navraćaš			2
+nazdravljaš			2
+nazivaš	426		2
+naš	121856		1
+našminkaš	11		2
+negiraš	35		2
+nemaš	8381		2
+nerviraš	254		2
+nećkaš			2
+nikogaš			2
+nipodaštavaš	19		2
+njuškaš			2
+nokautiraš			2
+obaraš	37		2
+obasjavaš			2
+obaveštavaš	13		2
+obavljaš	110		2
+obeležavaš	10		2
+obećavaš	105		2
+obećaš	81		2
+obijaš			2
+obitavaš	23		2
+objašnjavaš	274		2
+obnavljaš	21		2
+obožavaš	71		2
+obraćaš	268		2
+obračunaš	14		2
+obrukaš	20		2
+obuvaš			2
+obuzdavaš			2
+obuzdaš	18		2
+obuzimaš			2
+obučavaš			2
+odagnaš			2
+odazivaš			2
+odaš	32		2
+odbijaš	95		2
+odbojkaš	233		2
+odbrojavaš			2
+odevaš			2
+odgajaš	10		2
+odgledaš	62		2
+odgovaraš	397		2
+odguraš			2
+odigraš	89		2
+odijevaš		J	2
+odlepršaš			2
+odlikaš	64		2
+odlutaš			2
+odmaraš	69		2
+odmeravaš			2
+odmotaš			2
+odobravaš	14		2
+odrastaš	25		2
+odremaš			2
+održavaš	135		2
+odsecaš			2
+odsedaš			2
+odslušaš	18		2
+odspavaš	25		2
+odstupaš			2
+odsviraš	10		2
+oduvaš			2
+oduzimaš	48		2
+oduševljavaš	20		2
+odvajaš	47		2
+odvijaš			2
+odvraćaš	16		2
+odšetaš			2
+odštampaš	32		2
+ofarbaš	45		2
+ogledaš	16		2
+ogovaraš	22		2
+ograničavaš	20		2
+ojačaš	35		2
+okaljaš			2
+oklevaš	23		2
+okolišaš			2
+okončaš			2
+okupaš	40		2
+okupljaš	10		2
+okušaš	11		2
+olajavaš			2
+olakšavaš	14		2
+olakšaš	35		2
+omalovažavaš	44		2
+omekšaš			2
+ometaš	21		2
+opažaš	18		2
+opevaš			2
+opijaš	13		2
+opipaš	17		2
+opkopaš			2
+opljačkaš	14		2
+oponašaš			2
+oponiraš			2
+oporavljaš			2
+opozivaš			2
+opravdavaš	54		2
+opravdaš	78		2
+opraštaš	55		2
+oprobaš	39		2
+opsedaš			2
+opuštaš	16		2
+orguljaš	76		2
+oribaš			2
+orijaš	13		2
+oružaš			2
+osedlaš			2
+osećaš	1802		2
+osiguravaš			2
+osiguraš	33		2
+oskudevaš			2
+oslanjaš	60		2
+oslobađaš	28		2
+oslovljavaš	16		2
+osmatraš			2
+osnivaš	11		2
+osporavaš	32		2
+ostavljaš	390		2
+osunčaš			2
+osvajaš	30		2
+osvetlaš			2
+osveštavaš			2
+osvežavaš			2
+oteraš	79		2
+otežavaš	12		2
+otežaš			2
+otimaš	58		2
+otkidaš			2
+otklanjaš			2
+otključaš	35		2
+otkopčaš			2
+otkrivaš	93		2
+otkucaš	57		2
+otpadaš			2
+otpevaš	20		2
+otplivaš			2
+otporaš	64		2
+otpuštaš	27		2
+otuširaš			2
+otvaraš	270		2
+ovladavaš			2
+ovladaš	19		2
+ovlaš		M	2
+ovuliraš			2
+očajavaš	18		2
+očenaš			2
+očešljaš			2
+očijukaš			2
+očitavaš			2
+očitaš	14		2
+očuvaš	20		2
+ošišaš	19		2
+oživljavaš			2
+padaš	176		2
+pajdaš			2
+pajtaš		M	2
+paprikaš	577		3
+paradiraš			2
+parkiraš	96		2
+partijaš			2
+patroliraš			2
+pauziraš	15		2
+paš			1
+pecaš	30		2
+peglaš	26		2
+perjaš			2
+persiraš			2
+petljaš	65		2
+petokolonaš	23		2
+pevaš	298		2
+pijuckaš	13		2
+pilotiraš			2
+pipaš	23		2
+pipkaš			2
+pitaš	2748		2
+pišaš	29		2
+planiraš	753		2
+plasiraš	52		2
+plaćaš	1218		2
+plemenitaš			2
+plećaš			2
+plivaš	107		2
+pljačkaš	289		2
+plutaš			2
+pobadaš			2
+poboljšavaš			2
+poboljšaš	44		2
+pobrkaš	10		2
+pocepaš	19		2
+podbadaš			2
+podešavaš	124		2
+podgrevaš			2
+podivljaš			2
+podrazumevaš	133		2
+podražavaš	10		2
+podrepaš		M	2
+podrivaš			2
+podržavaš	207		2
+podsećaš	106		2
+podsmevaš	32		2
+podučavaš	12		2
+podvijaš			2
+podvrgavaš			2
+podšišaš			2
+poentiraš	13		2
+pogađaš	56		2
+pogledaš	1888		2
+pogoršavaš			2
+pogoršaš			2
+poguraš	16		2
+pohađaš	35		2
+pohitaš			2
+pohvataš	24		2
+poigravaš	16		2
+poigraš	30		2
+poimaš			2
+pojačavaš	21		2
+pojačaš	49		2
+pokaraš			2
+pokeraš	17		2
+pokidaš	14		2
+poklanjaš	72		2
+poklapaš			2
+pokopaš			2
+pokoravaš	16		2
+pokrivaš	28		2
+pokucaš	13		2
+pokušavaš	797		2
+pokušaš	653		2
+poliraš	17		2
+polivaš			2
+pomeraš	89		2
+pomešaš	38		2
+pomišljaš	52		2
+ponavljaš	197		2
+ponašaš	376		2
+poništavaš	10		2
+ponižavaš	51		2
+popišaš			2
+popravljaš	56		2
+popricaš			2
+poprimaš			2
+popričaš	92		2
+poprskaš	13		2
+popunjavaš	48		2
+popuštaš	19		2
+poravnaš			2
+porazgovaraš	63		2
+porađaš			2
+poražavaš			2
+poređaš	14		2
+posipaš			2
+posisaš			2
+poslušaš	202		2
+posmatraš	350		2
+pospremaš			2
+postaraš	11		2
+postavljaš	337		2
+postradaš	10		2
+postupaš	51		2
+posumnjaš	26		2
+posvađaš	20		2
+potapaš			2
+poteraš	40		2
+potkopavaš			2
+potkopaš			2
+potkradaš			2
+potresaš	10		2
+potucaš			2
+poturaš	28		2
+poubijaš			2
+pouzdaš	11		2
+poučavaš			2
+poveravaš	16		2
+povećavaš	60		2
+povećaš	162		2
+povraćaš	25		2
+pozdravljaš	22		2
+poziraš	13		2
+pozivaš	206		2
+poznaš	97		2
+pozobaš			2
+počivaš	13		2
+počupaš			2
+pravaš			2
+pravdaš	101		2
+praštaš	23		2
+prebijaš			2
+prebivaš	10		2
+prebrajaš			2
+precrtaš			2
+predaš	184		2
+predomišljaš			2
+predoziraš			2
+predstavljaš	203		2
+preduzimaš	31		2
+predviđaš	21		2
+preferiraš	34		2
+pregledavaš			2
+pregledaš	68		2
+pregovaraš	31		2
+preguraš	17		2
+preispitaš	22		2
+prekidaš	47		2
+prekopiraš	31		2
+prekoravaš			2
+prekrivaš			2
+prelamaš			2
+prelivaš			2
+premeštaš	14		2
+premišljaš			2
+premotavaš			2
+premotaš			2
+prepadaš			2
+preplivaš			2
+preponaš	12		2
+prepoznaš	224		2
+prepravljaš			2
+prepričavaš	14		2
+prepuštaš	28		2
+prerušavaš			2
+preslušavaš			2
+preslušaš	11		2
+prespavaš	21		2
+pretapaš			2
+preteraš	56		2
+pretpostavljaš	68		2
+pretresaš			2
+preturaš	14		2
+pretvaraš	97		2
+preuveličavaš	11		2
+preuzimaš	45		2
+prevladaš			2
+prezaš			2
+prezivaš	16		2
+preznojavaš			2
+preživljavaš	26		2
+pribavljaš			2
+pribegavaš	11		2
+pribiraš			2
+približavaš	36		2
+pridržavaš	71		2
+prigovaraš	22		2
+prihvataš	176		2
+prihvaćaš			2
+prikradaš			2
+prikrivaš	14		2
+prikupljaš	22		2
+prilagođavaš	30		2
+primaš	394		2
+primoravaš	11		2
+primoraš			2
+pripadaš	334		2
+pripijaš			2
+pripovedaš	10		2
+pripremaš	76		2
+prisećaš	17		2
+prisiljavaš			2
+pristupaš	111		2
+prisvajaš			2
+pritiskaš	47		2
+priupitaš	18		2
+privikavaš			2
+priviđaš			2
+prizivaš	43		2
+priznaš	277		2
+pričaš	3994		2
+pričekaš	14		2
+pričuvaš	11		2
+prišunjaš			2
+prljaš	24		2
+probadaš			2
+probaš	1296		2
+probijaš	19		2
+probiraš			2
+prodaš	675		2
+prodrmaš			2
+produžavaš			2
+profitiraš	12		2
+proganjaš	12		2
+progledaš	22		2
+prognaš			2
+progovaraš			2
+programiraš	79		2
+proguraš	24		2
+progutaš	89		2
+prohodaš			2
+projiciraš			2
+prokockaš			2
+prokuvaš			2
+prolepšaš			2
+prolivaš			2
+promešaš			2
+promuvaš			2
+pronjuškaš			2
+propadaš	36		2
+propagiraš	33		2
+propevaš			2
+propovedaš	57		2
+propuštaš	66		2
+prosijaš			2
+prosipaš	103		2
+proslavljaš	12		2
+prosviraš			2
+protekcionaš		M	2
+proteraš	20		2
+protrljaš	10		2
+proučavaš	16		2
+proveravaš	77		2
+provociraš	92		2
+provozaš	54		2
+prozivaš	176		2
+proćerdaš			2
+pročeprkaš			2
+pročešljaš	12		2
+pročitaš	1019		2
+prošetaš			2
+proživljavaš			2
+prskaš	32		2
+pružaš	109		2
+prvoligaš	401		2
+pucaš	148		2
+pumpaš			2
+puškaš			2
+puštaš	218		2
+raketaš			2
+rakijaš			2
+ranjavaš			2
+raportiraš			2
+rasipaš	18		2
+raskidaš			2
+raskopaš			2
+raskrinkaš			2
+raspadaš	10		2
+raspitaš	245		2
+raspoznaš			2
+raspravljaš			2
+rastavljaš			2
+rasteraš			2
+rasturaš	19		2
+rastvaraš			2
+ratosiljaš			2
+ravnaš			2
+razaraš	10		2
+razbijaš	60		2
+razbiraš			2
+razbucaš			2
+razdaš			2
+razdremaš			2
+razdvajaš	18		2
+razgledaš	15		2
+razgovaraš	340		2
+razigraš			2
+razmatraš	22		2
+razmišljaš	1345		2
+razmrdaš			2
+razoružaš			2
+razočaravaš			2
+razočaraš	82		2
+razrešavaš			2
+razvijaš	119		2
+računaš	250		2
+rađaš	60		2
+recikliraš	17		2
+reketaš			2
+reklamiraš	118		2
+renoviraš	11		2
+reprogramiraš			2
+reskiraš	15		2
+revidiraš			2
+revoltiraš			2
+revolveraš	65		2
+ređaš	18		2
+rešavaš	122		2
+režiraš			2
+ribaš			2
+ridaš			2
+rintaš	10		2
+riskiraš			2
+robijaš	149		2
+rokaš			2
+rovaš			2
+roštiljaš			2
+rugaš	39		2
+rukometaš	387		2
+ručaš	32		2
+sabiraš	31		2
+sabljaš		M	2
+sabotiraš	11		2
+sagledavaš	20		2
+sagledaš	109		2
+sakrivaš	22		2
+sakupljaš	19		2
+salaš		M	2
+salutiraš			2
+samosažaljevaš			2
+sanjaš	420		2
+saobraćaš			2
+saopštavaš	16		2
+saosećaš	15		2
+saslušaš	65		2
+sastavljaš	32		2
+sataraš			2
+sateraš			2
+savijaš	19		2
+savladaš	142		2
+saznaš	564		2
+sačekaš	295		2
+sačinjavaš			2
+sačuvaš	241		2
+sažaljevaš			2
+seciraš			2
+seckaš	24		2
+sedaš	45		2
+sekiraš	134		2
+sektaš	60		2
+serviraš	36		2
+sećaš	1311		2
+sečaš			2
+shvataš	792		2
+shvaćaš			2
+sijaš	40		2
+simuliraš	13		2
+sipaš	180		2
+sisaš	18		2
+sjaš			1
+sječaš		J	2
+skapavaš			2
+skapaš			2
+skapiraš	65		2
+skeniraš	52		2
+skidaš	313		2
+skijaš	658		2
+skitaš			2
+sklanjaš	20		2
+sklapaš	58		2
+sklupčaš			2
+skontaš	89		2
+skončaš			2
+skrckaš			2
+skrhaš			2
+skrivaš	53		2
+skupljaš	105		2
+skuvaš	66		2
+slalomaš			2
+slamaš			2
+slikaš	229		2
+slivaš			2
+slupaš			2
+slušaš	1089		2
+smaraš	194		2
+smatraš	924		2
+smekšaš			2
+smeraš			2
+smetaš	94		2
+smeškaš	44		2
+smeštaš	18		2
+smišljaš	43		2
+smotaš			2
+smrzavaš	14		2
+smršaš	75		2
+smucaš			2
+smuvaš	39		2
+snabdevaš			2
+snevaš			2
+snimaš	193		2
+snivaš			2
+sortiraš	13		2
+spadaš	137		2
+spajaš	47		2
+spasavaš	59		2
+spavaš	771		2
+spašavaš			2
+spetljaš			2
+spiskaš			2
+spletkaš		M	2
+spopadaš			2
+sportaš	35		2
+spoznaš	74		2
+sprdaš	35		2
+spremaš	281		2
+sprečavaš	16		2
+sputavaš			2
+spuštaš	102		2
+srednjoprugaš			2
+srljaš	21		2
+staraš	26		2
+stavljaš	510		2
+stažiraš			2
+stiskaš	33		2
+stišaš			2
+stopiraš	10		2
+stradaš	36		2
+streljaš	13		2
+stresiraš			2
+strpaš	34		2
+studiraš	326		2
+stupaš	21		2
+stvaraš	227		2
+sumnjaš	163		2
+sunčaš	16		2
+suočavaš	17		2
+suprotstavljaš	10		2
+surfaš			2
+survavaš			2
+survaš			2
+sutlijaš		M	3
+suzbijaš			2
+suzdržavaš			2
+svađaš	89		2
+sviraš	229		2
+sviđaš	162		2
+svraćaš	20		2
+svrdlaš			2
+svrstavaš	25		2
+svršavaš	22		2
+tabaš	15		2
+talasaš	25		2
+taljigaš		M	2
+tamaš			2
+tamburaš	35		2
+tapkaš	16		2
+taš		M	1
+telefoniraš	19		2
+tepaš	26		2
+teraš	320		2
+testeraš		M	2
+testiraš	149		2
+tetoviraš			2
+teturaš			2
+teškaš	55		2
+tkaš			1
+tomaš			2
+tornjaš			2
+trabunjaš	25		2
+tragaš	50		2
+trebaš	1007		2
+treniraš	275		2
+tretiraš	36		2
+trećeligaš			2
+trkaš	21		2
+trljaš	24		2
+trojkaš		M	2
+trpaš	56		2
+trtljaš			2
+trumbetaš		M	2
+trućaš			2
+trzaš	17		2
+trčkaraš	10		2
+tumaraš			2
+tuširaš	24		2
+ubadaš	13		2
+ubijaš	169		2
+ubrajaš	18		2
+ubrizgavaš			2
+ubrizgaš			2
+ubrzavaš	18		2
+ubrzaš	44		2
+udaljavaš	15		2
+udaraš	141		2
+udaš	183		2
+udbaš			2
+udebljaš			2
+udovoljavaš			2
+udvaraš	16		2
+ufuraš			2
+ugađaš	10		2
+ugledaš	137		2
+ugnjetavaš			2
+ugovaraš			2
+ugrožavaš	43		2
+uguraš	31		2
+uhodaš	15		2
+ujedaš			2
+ukaljaš			2
+ukapiraš	96		2
+ukidaš	11		2
+ukivaš			2
+uklanjaš	10		2
+uklapaš	55		2
+ukopavaš			2
+ukopaš			2
+ukrašavaš	12		2
+ukrcaš			2
+ukucaš	219		2
+ulepšavaš	17		2
+ulepšaš	25		2
+ulivaš			2
+umaraš	12		2
+umešaš			2
+umiljavaš			2
+umišljaš	36		2
+umještaš		J	2
+umotaš	10		2
+umrtvljavaš			2
+uništavaš	76		2
+unižavaš	11		2
+unjkaš			2
+uobražavaš			2
+uočavaš	18		2
+upadaš	79		2
+upecaš	23		2
+upetljaš			2
+upijaš	20		2
+upitaš	70		2
+upišaš			2
+upotrebljavaš	55		2
+upoznaš	600		2
+upozoravaš	12		2
+upravljaš	117		2
+upražnjavaš	21		2
+uprljaš	11		2
+upropaštavaš			2
+upropašćavaš			2
+uprskaš			2
+upucavaš			2
+upucaš	10		2
+upuštaš	50		2
+uračunaš	19		2
+urlaš	28		2
+usavršavaš	63		2
+useljavaš			2
+usisavaš	11		2
+usisaš	13		2
+uslikaš	30		2
+usmeravaš	27		2
+uspavaš			2
+uspevaš	159		2
+usporavaš	15		2
+uspostavljaš	16		2
+ustrebaš			2
+ustručavaš	15		2
+ustupaš			2
+usvajaš	11		2
+utapaš			2
+uteraš	12		2
+utišavaš			2
+utišaš	27		2
+utrljavaš			2
+utrljaš			2
+uvaljaš			2
+uvažavaš	14		2
+uveličaš			2
+uveravaš	12		2
+uvećavaš			2
+uvećaš	22		2
+uvežbavaš			2
+uvežbaš	14		2
+uvijaš	15		2
+uviđaš	51		2
+uzdaš	42		2
+uzdrmaš			2
+uzdržavaš	13		2
+uzgajaš	12		2
+uzimaš	732		2
+uznemiravaš	36		2
+uzrujavaš			2
+uzrujaš			2
+uzvraćaš	16		2
+ućutkavaš			2
+ućutkaš	10		2
+učestaš			2
+ušetaš			2
+ušunjaš			2
+ušuškaš	11		2
+užasavaš			2
+uživaš	755		2
+vagaš	10		2
+valjaš	96		2
+varaš	343		2
+variraš			2
+vaspitavaš	23		2
+vaspitaš	19		2
+vataš			2
+vaš	63185		1
+vegetiraš			2
+velikaš	138		2
+veličaš	32		2
+venčavaš			2
+venčaš	14		2
+verglaš			2
+veslaš	15		2
+večeraš	18		2
+vežbaš	200		2
+vibriraš			2
+vijaš	11		2
+vikendaš	21		2
+vitlaš			2
+viđaš	131		2
+vladaš	149		2
+volaš			2
+volontiraš	58		2
+vozikaš	12		2
+vraćaš	451		2
+vračaš			2
+vrckaš			2
+vrdaš	23		2
+vrebaš	11		2
+vređaš	417		2
+vrzmaš			2
+vucaraš			2
+zabadaš	12		2
+zabavljaš	83		2
+zabijaš			2
+zablistaš	14		2
+zaboravljaš	278		2
+zabrinjavaš			2
+zabrljaš	32		2
+zabušavaš	19		2
+zadaš	38		2
+zadebljaš			2
+zadovoljavaš	44		2
+zadremaš			2
+zadržavaš	57		2
+zafrkavaš			2
+zagledaš	61		2
+zagolicaš			2
+zagorčavaš			2
+zagorčaš			2
+zagovaraš	17		2
+zagrevaš	12		2
+zahtevaš	74		2
+zaigraš	21		2
+zakeraš			2
+zakidaš			2
+zaklanjaš			2
+zaključavaš			2
+zaključaš	41		2
+zakopavaš			2
+zakopaš	24		2
+zakopčaš			2
+zakoračaš			2
+zakucavaš			2
+zakucaš	25		2
+zalivaš			2
+zalutaš	19		2
+zamajavaš	36		2
+zamaraš	34		2
+zameraš	78		2
+zamišljaš	198		2
+zamotaš			2
+zanimaš	52		2
+zanovetaš			2
+zapajaš			2
+zapažaš	21		2
+zapetljaš			2
+zapevaš	17		2
+zapitaš	187		2
+zapostavljaš			2
+zapovedaš	24		2
+zapošljavaš	24		2
+zaprljaš			2
+zapucaš	10		2
+zaribaš			2
+zasijaš			2
+zasipaš			2
+zasmejavaš	21		2
+zasmetaš			2
+zasnivaš	18		2
+zastupaš	78		2
+zasviraš			2
+zataškavaš			2
+zataškaš			2
+zatrebaš			2
+zatrpaš			2
+zatvaraš	85		2
+zaudaraš			2
+zaustavljaš	22		2
+zauzdaš			2
+zauzimaš	23		2
+zavaravaš	34		2
+zavaraš	14		2
+zavađaš			2
+zavijaš			2
+zavitlavaš			2
+zavladaš			2
+završavaš	97		2
+zbijaš			2
+zbližavaš			2
+zbrajaš			2
+zbrkaš			2
+zelenaš		M	2
+zevaš	19		2
+zezaš	258		2
+zgražaš			2
+zidaš	32		2
+zijaš			2
+zlostavljaš			2
+zloupotrebljavaš	28		2
+znaš	27555		1
+zumiraš	20		2
+zurlaš		M	2
+zveckaš			2
+zveraš			2
+zvezdaš		M	2
+zvocaš	12		2
+ćarlijaš			2
+ćaskaš			2
+ćeraš			2
+čardaš	52		2
+čavrljaš			2
+čačkaš	57		2
+čekaš	1353		2
+čekinjaš			2
+čeprkaš			2
+čestitaš	41		2
+četvorotočkaš	63		2
+češkaš			2
+češljaš			2
+čilaš		M	2
+čiraš			2
+čitaš	1703		2
+čordaš			2
+čunjaš			2
+čupaš	35		2
+čuturaš			2
+čuvaš	464		2
+đelmaš			2
+đogaš			2
+đuskaš			2
+šajkaš	91		2
+šamaraš			2
+šaraš	15		2
+šarmiraš			2
+šaš	164		1
+šepaš			2
+šetaš	216		2
+šetkaš			2
+šećeraš	17		2
+šibaš			2
+šišaš	26		2
+škakljaš			2
+šlihtaš			2
+šminkaš	26		2
+šokiraš	17		2
+špijuniraš	11		2
+štampaš	74		2
+štimaš			2
+štipaš			2
+štrikaš			2
+štucaš			2
+šuljaš			2
+šunjaš	11		2
+šutiraš	18		2
+šuškaš			2
+švrljaš			2
+ščepaš			2
+ženiraš			2
+živciraš			2
+žongliraš	10		2
+izbjegavaš			2
+mijenjaš	32		2
+miješaš			2
+mjenjaš			2
+mješaš			2
+namjeravaš			2
+namještaš			2
+natjeraš			2
+oklijevaš			2
+osijecaš			2
+osjecaš			2
+osjećaš			2
+otjeraš			2
+otpjevaš			2
+pjevaš			2
+podrazumijevaš			2
+podsjećaš			2
+pomiješaš			2
+pomjeraš			2
+pretjeraš			2
+prisjećaš			2
+propovijedaš			2
+provjeravaš			2
+rješavaš			2
+sjecaš			2
+sjećaš			2
+smjeraš			2
+smješkaš			2
+tjeraš			2
+umiješaš			2
+uspijevaš			2
+uspjevaš			2
+uvjeravaš			2
+vjenčaš			2
+vježbaš			2
+vrijeđaš	25		2
+zahtijevaš			2
+zahtjevaš			2
+zamjeraš			2
+zapjevaš			2
+zapovijedaš			2

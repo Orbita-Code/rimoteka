@@ -1,721 +1,721 @@
 697
-Angolu		
-Brazilu		
-Briselu		
-Istanbulu		
-Izraelu		
-Oslu		
-admiralu	63	
-ajkulu	154	
-akvarelu	41	
-alkoholu	887	
-amigdalu		
-ampulu	53	
-ansamblu		M
-anđelu	265	
-apelu	430	
-apostolu	337	
-aprilu	10532	
-aranđelu		
-arhangelu	39	
-arhanđelu		
-aristotelu		
-arsenalu	503	
-artiklu		
-astalu		
-atilu		
-atolu	17	
-aulu		
-aureolu	11	
-autogolu	16	
-automobilu	5076	
-avalu		
-azilu	558	
-bacilu		
-bademantilu		
-bagatelu		
-bakalu		
-balu	398	
-barelu	387	
-bejzbolu	74	
-belu		M
-bengalu		
-beskrilu		
-besmislu	211	
-besnilu	63	
-bezbolu		
-biciklu		
-bijenalu	659	
-bivolu		
-bledilu		
-bleštavilu		
-blu		M
-bokalu	29	
-bolu	1559	
-bordelu		
-bristolu		
-brokulu		
-budalu	692	
-bufalu		
-buhtlu		
-bunilu	279	
-busolu	22	
-cedilu	778	
-celu	25285	
-centralu	952	
-ciglu	516	
-ciklu	11	
-cimbalu		
-cipelu	415	
-citadelu	46	
-civilu	698	
-crnilu	55	
-crvenilu	55	
-cuclu		
-cveklu		
-danijelu		
-danilu		
-debelu	785	
-debilu	44	
-deblu	68	
-decilu		
-decimalu	69	
-delu	88890	
-dijagonalu	347	
-dobrilu		
-dobrodošlu	41	
-dodelu	5159	
-dogorelu		
-dolu	380	
-domicilu	17	
-dorćolu		
-dospelu	49	
-dotrajalu	77	
-dozvolu	13968	
-dragojlu		
-drakulu		
-duelu	4760	
-duplu	1002	
-džukelu	29	
-džunglu	291	
-ebolu		
-egzilu	472	
-emanuelu		
-enformelu		
-ergelu	167	
-eskadrilu	64	
-fabulu	169	
-fajlu	967	
-faksimilu	13	
-fasciklu	252	
-festivalu	14274	
-fibulu		
-filijalu	440	
-filu		
-finalu	12762	
-fiškalu		
-floskulu	216	
-flotilu	56	
-flu		
-formulu	2648	
-fosilu	17	
-frajlu		
-frulu	215	
-fudbalu	8750	
-futrolu		
-gabrijelu		
-garnišlu		
-gavrilu		
-gazelu	208	
-gelu	93	
-generalu	1347	
-gerilu	84	
-glagolu	50	
-glasilu	420	
-gnjilu	14	
-golu	3917	
-gomilu	6374	
-gondolu	143	
-gorgonzolu	30	
-gorilu		
-gralu	53	
-grenoblu		
-grilu	110	
-grlu	2471	
-grotlu	108	
-guglu		
-gungulu		
-gvatemalu		
-halilu		
-halu	1892	
-hegelu		
-hiperbolu	21	
-holu	3330	
-honolulu		
-horizontalu	80	
-hostelu	279	
-hotelu	12438	
-hvalu	473	
-idealu	470	
-idilu	406	
-idolu	252	
-igalu		
-iglu	605	
-ilegalu	225	
-imbecilu	12	
-imejlu	38	
-imelu	19	
-impalu		
-integralu	13	
-internacionalu	190	
-interpolu		
-intervalu	1701	
-ispucalu	67	
-izabelu		
-izbledelu		
-izgladnelu	22	
-izgorelu	25	
-izlapelu		
-izraslu		
-izumrlu		
-jarbolu	92	
-jelu	1026	
-julu	8259	
-kabalu	26	
-kablu	487	
-kabulu		
-kalu	97	
-kanalu	4297	
-kandilu	24	
-kanilu	19	
-kapelu	650	
-kapitalu	1949	
-kapsulu	404	
-kaptolu	23	
-karambolu	13	
-karamelu	42	
-karaulu	65	
-kardinalu	59	
-karfiolu	30	
-karlu		
-karnevalu	319	
-kartelu	90	
-kaselu		
-katedralu	359	
-kaštelu		
-kemalu		
-kiblu		
-kiflu	234	
-kilu	255	
-kirilu		
-kiselu	581	
-klauzulu	705	
-klijentelu	381	
-ključalu		
-klonulu		
-knedlu	299	
-koalu		
-kobilu	244	
-koktelu	559	
-kolu	18598	
-komercijalu	91	
-koncilu	35	
-kondicionalu	28	
-kontrolu	34284	
-konzolu	1121	
-konzulu	140	
-koralu	12	
-kormilu	214	
-kotlu	297	
-kriglu		
-krilu	2539	
-kriminalu	1917	
-kristalu	73	
-krmenadlu		
-krokodilu	30	
-krtolu		
-krušedolu		
-kuglu	948	
-kulu	1726	
-kupatilu	2272	
-kupolu	317	
-kvartalu	6700	
-kvazulu		
-lalu	81	
-leglu	278	
-lejlu		
-lelu		
-liberalu	15	
-ligeštulu		
-liverpulu		
-ljudmilu		
-lokalu	4274	
-lu		M
-ludilu	1120	
-lulu	412	
-maestralu		
-magistralu	642	
-maglu	2154	
-mahalu		
-majklu		
-malaksalu		
-malu	16044	
-mandalu	16	
-mandelu		
-mandulu		
-mangalu		
-manojlu		
-mantilu		
-mariolu		
-maršalu	110	
-maskenbalu		
-mastilu		
-materijalu	3051	
-mejlu	271	
-memlu		
-memorijalu	181	
-mentolu		
-merilu	166	
-metalu	353	
-metlu	307	
-metropolu	273	
-mihailu		
-mihajlu		
-milu	434	
-mineralu	49	
-minulu	145	
-mirakulu		
-mjuziklu		
-mnogouglu		
-mobilu	14	
-mocarelu		
-modelu	10333	
-modrilu		
-modulu	902	
-mogilu		
-molekulu	150	
-molu	404	
-momčilu		
-mondijalu		
-mongolu		
-monopolu	422	
-montrealu		
-moralu	1452	
-mortadelu		
-motelu	360	
-motociklu		
-motorciklu		
-motovilu		
-močilu		
-mrklu	18	
-mrtvilu	35	
-muklu		
-mundijalu		
-muralu	23	
-muštiklu		
-nabujalu	85	
-naglu	146	
-napuklu	13	
-naraslu	31	
-nargilu		
-nasilu	41	
-nastalu	1535	
-nastradalu	24	
-natrulu		
-navalu	286	
-načelu	3617	
-nebulu		
-nedelu	50	
-nekropolu	50	
-nemalu	65	
-nemilu	44	
-nemoralu	112	
-neodraslu		
-nepalu		
-nesazrelu		
-nestalu	114	
-neumrlu		
-neuspelu	96	
-nevaljalu	39	
-neveselu	52	
-nešpulu		
-nešvilu		
-niklu	48	
-nikolu		
-nilu		
-ništavilu	173	
-njukaslu		
-normalu	1218	
-novelu	179	
-nulu	1243	
-obalu	5056	
-obamrlu		
-oblu		
-obolelu	250	
-obraslu		
-odbeglu	46	
-odelu	1502	
-odraslu	406	
-ogledalu	2553	
-ognjilu		
-ogolelu		
-ohladnelu		
-ojačalu		
-okoštalu	25	
-okruglu	246	
-olinjalu	13	
-omekšalu		
-opelu	298	
-opustelu		
-oreolu		
-originalu	2025	
-orlu	167	
-oronulu	88	
-oslabelu		
-ostalu	1562	
-ostarelu	52	
-otežalu		
-ovalu	24	
-paklu	1301	
-palilulu		
-palu	63	
-panelu	1522	
-parabolu	114	
-paralelu	1201	
-parcelu	1020	
-parolu	655	
-pastoralu	21	
-patrolu	325	
-pavelu		
-pavlu		
-pedalu		
-pedofilu	27	
-peglu	339	
-penalu	82	
-penkalu		
-pepelu	300	
-pergolu	10	
-peristilu		
-perlu	40	
-personalu		
-pertlu	59	
-petlu	46	
-pijedestalu	75	
-pilulu	509	
-plavetnilu	122	
-plavilu		
-plovilu	142	
-pluralu	30	
-pocrnelu		
-podebelu		
-podelu	4475	
-podlu		
-podmuklu	69	
-podvalu	258	
-pohvalu	3984	
-pojilu	22	
-poleglu		
-polu	4073	
-polufinalu	6259	
-polugolu	20	
-pomolu	1371	
-poniklu		
-poodmaklu	31	
-poplavelu		
-poreklu	3962	
-portalu	4917	
-portiklu	23	
-portparolu	61	
-portugalu		
-poselu	42	
-poslu	29528	
-posrnulu	191	
-postradalu	18	
-posustalu	98	
-potamnelu		
-poteklu	17	
-potencijalu	1061	
-potmulu	17	
-potpalu	137	
-počelu	23	
-pravilu	13311	
-preambulu	217	
-predelu	3771	
-prekalu		
-prelu	65	
-premalu	22	
-preminulu	70	
-preostalu	533	
-preplanulu	38	
-prestarelu		
-prestolu	1225	
-presvetlu	28	
-pretkolu	20	
-pretprošlu	73	
-prezlu	75	
-preživelu	31	
-prisilu	124	
-pristalu		
-pristiglu	72	
-privolu	12	
-profilu	3522	
-proguralu		
-prohujalu		
-proisteklu	63	
-projektilu	32	
-proključalu		
-prokonzulu		
-promislu		
-propalu	450	
-proteklu	811	
-protokolu	1483	
-provalu	218	
-provrelu		
-prošlu	5111	
-pudlu	29	
-pulu		
-pčelu	179	
-racionalu		
-radmilu		
-radoznalu	44	
-rafailu		
-rahelu		
-ralu	17	
-rascvetalu		
-raselu		
-raskolu	216	
-rasolu	11	
-raspodelu	1838	
-rasulu	669	
-razbuktalu	14	
-razmekšalu		
-računalu	97	
-recitalu	24	
-regalu	37	
-regulu		
-reptilu		
-rilu	13	
-ringišpilu	101	
-ringlu	276	
-ritualu	333	
-rivalu		
-rokenrolu	194	
-rolu	491	
-romobilu		
-ruglu	729	
-rukolu	62	
-rumenilu	26	
-sajlu		
-salmonelu	55	
-salu	4618	
-samohvalu	12	
-samokontrolu	333	
-samoniklu	16	
-samovilu		
-samuilu		
-sandalu	34	
-sanjalu		
-sardelu		
-sedalu		
-sedlu	348	
-sekulu		
-selu	33626	
-serijalu	1292	
-seulu		
-signalu	210	
-sijalu		
-sijetlu		
-silu	9751	
-simbolu	376	
-simvolu		
-singlu	758	
-sivilu	169	
-skalu	515	
-skandalu	367	
-skelu	238	
-slepilu	131	
-smislu	72760	
-smolu	159	
-socijalu		
-sofoklu		
-sokolu	172	
-spadalu		
-spatulu		
-specijalu	111	
-spektaklu	511	
-spiralu	430	
-stablu	672	
-staklu	1031	
-stambolu		
-staniolu		
-stasalu		
-stelu	56	
-stilu	14328	
-stolu	7870	
-stopalu	467	
-stradalu	22	
-strašilu	13	
-strelu	301	
-supersilu	56	
-surlu	41	
-sustalu		
-suvislu	55	
-svelu		
-svetlu	9704	
-svilu	337	
-sviralu	88	
-tabelu	2086	
-tablu	2285	
-tantalu		
-tarantulu	31	
-tatulu		
-teglu	632	
-tekilu	79	
-tekstilu	202	
-telalu		
-telenovelu	28	
-telu	17014	
-teofilu		
-terminalu	463	
-teslu	629	
-titelu		
-titulu	17890	
-tlu	5634	
-tocilu		
-tombolu	60	
-toplu	2953	
-topolu	301	
-tribunalu	2974	
-triciklu	23	
-trijenalu	54	
-trolu	69	
-trouglu	895	
-trulu	136	
-truplu		
-tulu		
-tunelu	987	
-tuzlu		
-ubledelu		
-udelu	530	
-uginulu	66	
-uglu	6205	
-umrlu	38	
-upalu	1674	
-uralu		
-usnulu	75	
-uspelu	76	
-usplamtelu		
-ustajalu	58	
-ustreptalu	10	
-uvalu	100	
-uvelu		
-uzavrelu	101	
-učestalu	50	
-učmalu	61	
-užeglu		
-vandalu		
-vanilu	176	
-varijablu	79	
-vaterpolu	833	
-vazalu		
-velesilu	73	
-velu	47	
-venecuelu		
-ventilu	87	
-vertikalu	276	
-veselu	574	
-vestibilu	52	
-videlu	57	
-vilu	1833	
-vinilu	78	
-violončelu	58	
-violu	142	
-viršlu	55	
-vitlu	74	
-vlastelu	220	
-volu	174	
-vozilu	4485	
-vratilu	109	
-vrelu	798	
-vupertalu		
-zabelu		
-zabludelu	32	
-zahuktalu	37	
-zahvalu	51	
-zakasnelu		
-zalutalu	39	
-zamrzlu		
-zaostalu	224	
-zarđalu	29	
-zaspalu		
-zastarelu	220	
-zavrelu		
-zdelu	104	
-zdjelu		J
-zelenilu	810	
-zlatokrilu		
-zlodelu	33	
-zrelu	328	
-zulu		
-ćelu	44	
-ćirilu		
-čelu	29728	
-čembalu	14	
-černobilu		
-čerčilu		
-četvrtfinalu	2829	
-čilu		
-čulu	104	
-đavolu	706	
-đeneralu	101	
-šakalu		
-šalu	3574	
-šarenilu	128	
-šatlu	102	
-šestouglu		
-šinjelu		
-škatulu		
-školu	38551	
-šmirglu		
-šnalu		
-šniclu	234	
-šparglu		
-špiglu		
-špilu	47	
-špinelu		
-štalu	534	
-štanglu		
-štiklu		
-štrudlu	150	
-švarglu		
-žalu	86	
-ždralu		
-ždrelu	176	
-žezlu		
-žilu	138	
-žurnalu	601	
-žutilu	12	
-žvalu	18	
-bijelu		
-cijelu	1482	
-cjedilu		
-cjelu		
-dijelu	4118	
-djelu		
-dodjelu		
-odijelu	133	
-odjelu		
-ostarjelu		
-pijetlu		
-podjelu		
-porijeklu	308	
-posijelu		
-predjelu	229	
-prijestolu	58	
-raspodjelu		
-sijelu	24	
-strijelu	25	
-svijetlu	149	
-svjetlu		
-tijelu	1164	
-tjelu		
+Angolu			2
+Brazilu			2
+Briselu			2
+Istanbulu			3
+Izraelu			3
+Oslu			2
+admiralu	63		2
+ajkulu	154		3
+akvarelu	41		2
+alkoholu	887		3
+amigdalu			2
+ampulu	53		2
+ansamblu		M	2
+anđelu	265		3
+apelu	430		2
+apostolu	337		3
+aprilu	10532		2
+aranđelu			2
+arhangelu	39		2
+arhanđelu			3
+aristotelu			2
+arsenalu	503		2
+artiklu			2
+astalu			2
+atilu			2
+atolu	17		2
+aulu			2
+aureolu	11		2
+autogolu	16		2
+automobilu	5076		2
+avalu			2
+azilu	558		2
+bacilu			2
+bademantilu			2
+bagatelu			2
+bakalu			2
+balu	398		2
+barelu	387		2
+bejzbolu	74		2
+belu		M	2
+bengalu			2
+beskrilu			2
+besmislu	211		3
+besnilu	63		2
+bezbolu			2
+biciklu			2
+bijenalu	659		2
+bivolu			2
+bledilu			2
+bleštavilu			2
+blu		M	1
+bokalu	29		2
+bolu	1559		2
+bordelu			2
+bristolu			2
+brokulu			3
+budalu	692		2
+bufalu			2
+buhtlu			2
+bunilu	279		2
+busolu	22		2
+cedilu	778		2
+celu	25285		2
+centralu	952		2
+ciglu	516		2
+ciklu	11		2
+cimbalu			2
+cipelu	415		2
+citadelu	46		2
+civilu	698		2
+crnilu	55		2
+crvenilu	55		2
+cuclu			2
+cveklu			2
+danijelu			2
+danilu			2
+debelu	785		2
+debilu	44		2
+deblu	68		2
+decilu			2
+decimalu	69		2
+delu	88890		2
+dijagonalu	347		2
+dobrilu			2
+dobrodošlu	41		2
+dodelu	5159		2
+dogorelu			2
+dolu	380		2
+domicilu	17		2
+dorćolu			2
+dospelu	49		2
+dotrajalu	77		2
+dozvolu	13968		3
+dragojlu			2
+drakulu			2
+duelu	4760		2
+duplu	1002		2
+džukelu	29		2
+džunglu	291		2
+ebolu			2
+egzilu	472		2
+emanuelu			2
+enformelu			2
+ergelu	167		2
+eskadrilu	64		2
+fabulu	169		2
+fajlu	967		2
+faksimilu	13		2
+fasciklu	252		2
+festivalu	14274		2
+fibulu			3
+filijalu	440		2
+filu			2
+finalu	12762		2
+fiškalu			2
+floskulu	216		3
+flotilu	56		2
+flu			1
+formulu	2648		3
+fosilu	17		2
+frajlu			2
+frulu	215		2
+fudbalu	8750		3
+futrolu			2
+gabrijelu			2
+garnišlu			2
+gavrilu			2
+gazelu	208		2
+gelu	93		2
+generalu	1347		2
+gerilu	84		2
+glagolu	50		3
+glasilu	420		2
+gnjilu	14		2
+golu	3917		2
+gomilu	6374		2
+gondolu	143		2
+gorgonzolu	30		2
+gorilu			2
+gralu	53		2
+grenoblu			2
+grilu	110		2
+grlu	2471		2
+grotlu	108		2
+guglu			2
+gungulu			2
+gvatemalu			2
+halilu			2
+halu	1892		2
+hegelu			2
+hiperbolu	21		2
+holu	3330		2
+honolulu			2
+horizontalu	80		2
+hostelu	279		2
+hotelu	12438		2
+hvalu	473		2
+idealu	470		2
+idilu	406		2
+idolu	252		2
+igalu			2
+iglu	605		2
+ilegalu	225		2
+imbecilu	12		2
+imejlu	38		2
+imelu	19		2
+impalu			2
+integralu	13		2
+internacionalu	190		2
+interpolu			2
+intervalu	1701		2
+ispucalu	67		2
+izabelu			2
+izbledelu			2
+izgladnelu	22		2
+izgorelu	25		2
+izlapelu			2
+izraslu			2
+izumrlu			2
+jarbolu	92		3
+jelu	1026		2
+julu	8259		2
+kabalu	26		2
+kablu	487		2
+kabulu			2
+kalu	97		2
+kanalu	4297		2
+kandilu	24		2
+kanilu	19		2
+kapelu	650		2
+kapitalu	1949		2
+kapsulu	404		2
+kaptolu	23		2
+karambolu	13		2
+karamelu	42		2
+karaulu	65		2
+kardinalu	59		2
+karfiolu	30		2
+karlu			2
+karnevalu	319		2
+kartelu	90		2
+kaselu			2
+katedralu	359		2
+kaštelu			2
+kemalu			2
+kiblu			2
+kiflu	234		2
+kilu	255		2
+kirilu			2
+kiselu	581		3
+klauzulu	705		2
+klijentelu	381		2
+ključalu			2
+klonulu			2
+knedlu	299		2
+koalu			2
+kobilu	244		2
+koktelu	559		2
+kolu	18598		2
+komercijalu	91		2
+koncilu	35		2
+kondicionalu	28		2
+kontrolu	34284		2
+konzolu	1121		2
+konzulu	140		3
+koralu	12		2
+kormilu	214		2
+kotlu	297		2
+kriglu			2
+krilu	2539		2
+kriminalu	1917		2
+kristalu	73		2
+krmenadlu			2
+krokodilu	30		2
+krtolu			2
+krušedolu			2
+kuglu	948		2
+kulu	1726		2
+kupatilu	2272		2
+kupolu	317		2
+kvartalu	6700		2
+kvazulu			2
+lalu	81		2
+leglu	278		2
+lejlu			2
+lelu			2
+liberalu	15		2
+ligeštulu			2
+liverpulu			2
+ljudmilu			2
+lokalu	4274		2
+lu		M	1
+ludilu	1120		2
+lulu	412		2
+maestralu			2
+magistralu	642		2
+maglu	2154		2
+mahalu			2
+majklu			2
+malaksalu			2
+malu	16044		2
+mandalu	16		2
+mandelu			2
+mandulu			3
+mangalu			2
+manojlu			2
+mantilu			2
+mariolu			2
+maršalu	110		2
+maskenbalu			2
+mastilu			2
+materijalu	3051		2
+mejlu	271		2
+memlu			2
+memorijalu	181		2
+mentolu			2
+merilu	166		3
+metalu	353		2
+metlu	307		2
+metropolu	273		2
+mihailu			2
+mihajlu			2
+milu	434		2
+mineralu	49		2
+minulu	145		2
+mirakulu			2
+mjuziklu			2
+mnogouglu			2
+mobilu	14		2
+mocarelu			2
+modelu	10333		2
+modrilu			2
+modulu	902		2
+mogilu			2
+molekulu	150		2
+molu	404		2
+momčilu			2
+mondijalu			2
+mongolu			2
+monopolu	422		4
+montrealu			2
+moralu	1452		2
+mortadelu			2
+motelu	360		2
+motociklu			2
+motorciklu			2
+motovilu			2
+močilu			2
+mrklu	18		2
+mrtvilu	35		2
+muklu			2
+mundijalu			2
+muralu	23		2
+muštiklu			2
+nabujalu	85		2
+naglu	146		2
+napuklu	13		2
+naraslu	31		2
+nargilu			2
+nasilu	41		2
+nastalu	1535		2
+nastradalu	24		2
+natrulu			2
+navalu	286		2
+načelu	3617		2
+nebulu			2
+nedelu	50		2
+nekropolu	50		2
+nemalu	65		2
+nemilu	44		2
+nemoralu	112		4
+neodraslu			2
+nepalu			2
+nesazrelu			2
+nestalu	114		2
+neumrlu			2
+neuspelu	96		4
+nevaljalu	39		2
+neveselu	52		2
+nešpulu			2
+nešvilu			2
+niklu	48		2
+nikolu			2
+nilu			2
+ništavilu	173		2
+njukaslu			2
+normalu	1218		2
+novelu	179		2
+nulu	1243		2
+obalu	5056		3
+obamrlu			2
+oblu			2
+obolelu	250		2
+obraslu			2
+odbeglu	46		2
+odelu	1502		2
+odraslu	406		2
+ogledalu	2553		2
+ognjilu			2
+ogolelu			2
+ohladnelu			2
+ojačalu			2
+okoštalu	25		2
+okruglu	246		2
+olinjalu	13		2
+omekšalu			2
+opelu	298		2
+opustelu			2
+oreolu			2
+originalu	2025		2
+orlu	167		2
+oronulu	88		2
+oslabelu			2
+ostalu	1562		2
+ostarelu	52		2
+otežalu			2
+ovalu	24		2
+paklu	1301		2
+palilulu			2
+palu	63		2
+panelu	1522		2
+parabolu	114		2
+paralelu	1201		2
+parcelu	1020		2
+parolu	655		2
+pastoralu	21		2
+patrolu	325		2
+pavelu			2
+pavlu			2
+pedalu			2
+pedofilu	27		2
+peglu	339		2
+penalu	82		2
+penkalu			2
+pepelu	300		3
+pergolu	10		2
+peristilu			2
+perlu	40		2
+personalu			2
+pertlu	59		2
+petlu	46		2
+pijedestalu	75		2
+pilulu	509		2
+plavetnilu	122		2
+plavilu			2
+plovilu	142		2
+pluralu	30		2
+pocrnelu			2
+podebelu			2
+podelu	4475		3
+podlu			2
+podmuklu	69		2
+podvalu	258		3
+pohvalu	3984		3
+pojilu	22		2
+poleglu			2
+polu	4073		2
+polufinalu	6259		2
+polugolu	20		2
+pomolu	1371		2
+poniklu			2
+poodmaklu	31		2
+poplavelu			2
+poreklu	3962		2
+portalu	4917		2
+portiklu	23		2
+portparolu	61		2
+portugalu			2
+poselu	42		2
+poslu	29528		2
+posrnulu	191		2
+postradalu	18		2
+posustalu	98		2
+potamnelu			2
+poteklu	17		2
+potencijalu	1061		2
+potmulu	17		2
+potpalu	137		2
+počelu	23		2
+pravilu	13311		3
+preambulu	217		3
+predelu	3771		2
+prekalu			2
+prelu	65		2
+premalu	22		2
+preminulu	70		2
+preostalu	533		2
+preplanulu	38		2
+prestarelu			2
+prestolu	1225		2
+presvetlu	28		2
+pretkolu	20		2
+pretprošlu	73		2
+prezlu	75		2
+preživelu	31		2
+prisilu	124		3
+pristalu			2
+pristiglu	72		2
+privolu	12		3
+profilu	3522		2
+proguralu			2
+prohujalu			2
+proisteklu	63		2
+projektilu	32		2
+proključalu			2
+prokonzulu			2
+promislu			2
+propalu	450		2
+proteklu	811		2
+protokolu	1483		4
+provalu	218		3
+provrelu			2
+prošlu	5111		2
+pudlu	29		2
+pulu			2
+pčelu	179		2
+racionalu			2
+radmilu			2
+radoznalu	44		2
+rafailu			2
+rahelu			2
+ralu	17		2
+rascvetalu			2
+raselu			2
+raskolu	216		2
+rasolu	11		2
+raspodelu	1838		4
+rasulu	669		2
+razbuktalu	14		2
+razmekšalu			2
+računalu	97		2
+recitalu	24		2
+regalu	37		2
+regulu			3
+reptilu			2
+rilu	13		2
+ringišpilu	101		3
+ringlu	276		2
+ritualu	333		2
+rivalu			2
+rokenrolu	194		2
+rolu	491		2
+romobilu			2
+ruglu	729		2
+rukolu	62		2
+rumenilu	26		2
+sajlu			2
+salmonelu	55		2
+salu	4618		2
+samohvalu	12		2
+samokontrolu	333		2
+samoniklu	16		2
+samovilu			2
+samuilu			2
+sandalu	34		2
+sanjalu			2
+sardelu			2
+sedalu			3
+sedlu	348		2
+sekulu			2
+selu	33626		2
+serijalu	1292		2
+seulu			2
+signalu	210		2
+sijalu			2
+sijetlu			2
+silu	9751		2
+simbolu	376		2
+simvolu			2
+singlu	758		2
+sivilu	169		2
+skalu	515		2
+skandalu	367		2
+skelu	238		2
+slepilu	131		2
+smislu	72760		2
+smolu	159		2
+socijalu			2
+sofoklu			2
+sokolu	172		3
+spadalu			2
+spatulu			2
+specijalu	111		2
+spektaklu	511		2
+spiralu	430		2
+stablu	672		2
+staklu	1031		2
+stambolu			2
+staniolu			2
+stasalu			2
+stelu	56		2
+stilu	14328		2
+stolu	7870		2
+stopalu	467		2
+stradalu	22		2
+strašilu	13		3
+strelu	301		2
+supersilu	56		2
+surlu	41		2
+sustalu			2
+suvislu	55		2
+svelu			2
+svetlu	9704		2
+svilu	337		2
+sviralu	88		2
+tabelu	2086		2
+tablu	2285		2
+tantalu			2
+tarantulu	31		2
+tatulu			2
+teglu	632		2
+tekilu	79		2
+tekstilu	202		2
+telalu			2
+telenovelu	28		2
+telu	17014		2
+teofilu			2
+terminalu	463		2
+teslu	629		2
+titelu			2
+titulu	17890		3
+tlu	5634		1
+tocilu			2
+tombolu	60		3
+toplu	2953		2
+topolu	301		2
+tribunalu	2974		2
+triciklu	23		2
+trijenalu	54		2
+trolu	69		2
+trouglu	895		2
+trulu	136		2
+truplu			2
+tulu			2
+tunelu	987		2
+tuzlu			2
+ubledelu			2
+udelu	530		2
+uginulu	66		2
+uglu	6205		2
+umrlu	38		2
+upalu	1674		3
+uralu			2
+usnulu	75		2
+uspelu	76		2
+usplamtelu			2
+ustajalu	58		2
+ustreptalu	10		2
+uvalu	100		3
+uvelu			2
+uzavrelu	101		2
+učestalu	50		2
+učmalu	61		2
+užeglu			2
+vandalu			2
+vanilu	176		2
+varijablu	79		2
+vaterpolu	833		4
+vazalu			2
+velesilu	73		2
+velu	47		2
+venecuelu			2
+ventilu	87		2
+vertikalu	276		2
+veselu	574		3
+vestibilu	52		2
+videlu	57		2
+vilu	1833		2
+vinilu	78		2
+violončelu	58		2
+violu	142		2
+viršlu	55		2
+vitlu	74		2
+vlastelu	220		2
+volu	174		2
+vozilu	4485		2
+vratilu	109		2
+vrelu	798		2
+vupertalu			2
+zabelu			2
+zabludelu	32		2
+zahuktalu	37		2
+zahvalu	51		3
+zakasnelu			2
+zalutalu	39		2
+zamrzlu			2
+zaostalu	224		2
+zarđalu	29		2
+zaspalu			2
+zastarelu	220		2
+zavrelu			2
+zdelu	104		2
+zdjelu		J	2
+zelenilu	810		2
+zlatokrilu			2
+zlodelu	33		2
+zrelu	328		2
+zulu			2
+ćelu	44		2
+ćirilu			2
+čelu	29728		2
+čembalu	14		2
+černobilu			2
+čerčilu			2
+četvrtfinalu	2829		2
+čilu			2
+čulu	104		2
+đavolu	706		2
+đeneralu	101		2
+šakalu			3
+šalu	3574		2
+šarenilu	128		2
+šatlu	102		2
+šestouglu			2
+šinjelu			2
+škatulu			2
+školu	38551		2
+šmirglu			2
+šnalu			2
+šniclu	234		2
+šparglu			2
+špiglu			2
+špilu	47		2
+špinelu			2
+štalu	534		2
+štanglu			2
+štiklu			2
+štrudlu	150		2
+švarglu			2
+žalu	86		2
+ždralu			2
+ždrelu	176		2
+žezlu			2
+žilu	138		2
+žurnalu	601		2
+žutilu	12		2
+žvalu	18		2
+bijelu			2
+cijelu	1482		2
+cjedilu			2
+cjelu			2
+dijelu	4118		3
+djelu			2
+dodjelu			2
+odijelu	133		2
+odjelu			2
+ostarjelu			2
+pijetlu			2
+podjelu			3
+porijeklu	308		2
+posijelu			2
+predjelu	229		2
+prijestolu	58		2
+raspodjelu			4
+sijelu	24		2
+strijelu	25		2
+svijetlu	149		2
+svjetlu			2
+tijelu	1164		3
+tjelu			2

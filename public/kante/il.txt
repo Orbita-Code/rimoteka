@@ -1,116 +1,116 @@
 115
-Brazil		
-ahil		
-anglofil	25	
-april	25072	
-automobil	25322	
-azil	4449	
-bacil	105	
-bademantil		
-baril		
-beril	16	
-bibliofil	23	
-bil		
-bogumil		
-brazavil		
-cicmil		
-civil	424	
-daktil	18	
-danil		
-debil	346	
-decil		
-dil		M
-dimetil	18	
-domicil	32	
-dril	103	
-džemail		
-džemil		
-egzil	124	
-emanuil		
-emil		
-eshil		
-etil	94	
-fadil		
-faksimil	186	
-fentanil	11	
-fil		M
-filmofil	78	
-fosil	289	
-gavril		
-gerbil		
-germanofil		M
-gil		
-gril	359	
-halil		
-hil		
-hlorofil	136	
-idil		
-il		
-imbecil	72	
-ismail		
-kadril	68	
-kamil		
-karanfil	154	
-kargil		
-kil		
-kiril		
-kodicil		
-koncil	63	
-krokodil	295	
-lakokril		
-lil		
-lokomobil		
-mail	5798	
-mandril		
-mantil		M
-meil		
-meril		
-metil	145	
-mihail		
-mihovil		
-mil		
-mobil	107	
-muzil		
-nabil		
-nekrofil		
-nihil		
-nil		
-oil		
-pedofil	299	
-peristil		
-polivinil	53	
-profil	9097	
-projektil	609	
-promil	397	
-pterodaktil		
-reptil	51	
-ringišpil	417	
-romobil		
-rusofil		
-seksepil		M
-seksipil	154	
-sesil		
-sibil		
-skril		
-smail		
-stil	15865	
-superautomobil	154	
-tamil		
-tekstil	775	
-teofil		M
-til		
-tokvil		
-trandafil		
-trendafil		
-trotil		
-turkofil		M
-ventil	1491	
-vestibil	15	
-vinil	274	
-zlatokril		
-ćamil		
-černobil		
-čerčil		
-čil	23	
-špil	147	
-žil		
+Brazil			2
+ahil			2
+anglofil	25		2
+april	25072		2
+automobil	25322		2
+azil	4449		2
+bacil	105		2
+bademantil			2
+baril			2
+beril	16		2
+bibliofil	23		2
+bil			1
+bogumil			3
+brazavil			2
+cicmil			2
+civil	424		2
+daktil	18		2
+danil			2
+debil	346		2
+decil			2
+dil		M	1
+dimetil	18		2
+domicil	32		2
+dril	103		1
+džemail			2
+džemil			2
+egzil	124		2
+emanuil			2
+emil			2
+eshil			2
+etil	94		2
+fadil			2
+faksimil	186		2
+fentanil	11		2
+fil		M	1
+filmofil	78		2
+fosil	289		2
+gavril			2
+gerbil			2
+germanofil		M	2
+gil			1
+gril	359		1
+halil			2
+hil			1
+hlorofil	136		2
+idil			2
+il			1
+imbecil	72		2
+ismail			2
+kadril	68		2
+kamil			2
+karanfil	154		2
+kargil			2
+kil			1
+kiril			2
+kodicil			2
+koncil	63		2
+krokodil	295		2
+lakokril			2
+lil			1
+lokomobil			2
+mail	5798		2
+mandril			2
+mantil		M	2
+meil			2
+meril			2
+metil	145		2
+mihail			2
+mihovil			2
+mil			1
+mobil	107		2
+muzil			2
+nabil			2
+nekrofil			2
+nihil			2
+nil			1
+oil			2
+pedofil	299		2
+peristil			2
+polivinil	53		2
+profil	9097		2
+projektil	609		2
+promil	397		2
+pterodaktil			2
+reptil	51		2
+ringišpil	417		2
+romobil			2
+rusofil			2
+seksepil		M	3
+seksipil	154		3
+sesil			2
+sibil			2
+skril			1
+smail			2
+stil	15865		1
+superautomobil	154		2
+tamil			2
+tekstil	775		2
+teofil		M	2
+til			1
+tokvil			2
+trandafil			2
+trendafil			2
+trotil			2
+turkofil		M	2
+ventil	1491		2
+vestibil	15		2
+vinil	274		2
+zlatokril			2
+ćamil			2
+černobil			2
+čerčil			2
+čil	23		1
+špil	147		1
+žil			1

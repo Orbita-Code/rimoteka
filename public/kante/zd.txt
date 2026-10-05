@@ -1,5 +1,5 @@
 4
-drozd	19	
-gorazd		
-grozd	237	
-ogrozd	26	
+drozd	19		1
+gorazd			2
+grozd	237		1
+ogrozd	26		2

@@ -1,228 +1,228 @@
 225
-Kairo		
-alegro		
-aleksandro		
-astro	469	
-avanturo		
-baburo		
-bagro		
-bedro	68	
-biro	2943	
-bistro	586	
-bodro		
-bolero	152	
-boro	30	
-bubamaro		
-buro		
-cicero		M
-curo		
-dabro		
-daro		
-desetero	26	
-desetoro	884	
-devedesetoro	23	
-devetero	43	
-devetoro	932	
-didro		
-dinaro		
-dobro	283561	
-dopro	181	
-doskoro		M
-dvadesetoro	251	
-dvanaestoro	217	
-elektro	3443	
-ero	24	
-euro		
-evro	14254	
-figaro	214	
-floro		
-fukaro		
-gabro		
-gaduro		
-garo		
-gastro	305	
-gavro		
-gitaro		
-goro	36	
-gro	1102	
-hero		
-hetero		
-hidro	95	
-hitro	849	
-horo		
-hrabro	5235	
-ibro		
-ilustro		
-izumro	102	
-jaro	76	
-jedanaestoro	191	
-jedro	587	
-jero		
-jetro		
-jezero	10009	
-jezgro	5067	
-joširo		
-jutro	8998	
-karo	144	
-kastro		
-kiro		
-klaro		
-komoro		
-komunjaro		
-koro		
-kudro		
-kuštro		
-lavro		
-lazaro		
-lektiro		
-libero	182	
-liro		
-maestro	854	
-makro	1411	
-marlboro		
-maro		
-matoro	112	
-mero		
-metro	3327	
-mikro	2712	
-miro		M
-mitro		
-modro	195	
-mokro	444	
-monro		
-montenegro		
-moro		
-mudro	3714	
-munro		
-nahero		
-nalivpero	25	
-naskoro	153	
-navro	17	
-načetvoro		M
-nedobro		
-negro		
-nemudro		
-nero		
-neuro	112	
-niro		
-nitro	181	
-npro		
-obamro	20	
-odskoro		
-odupro	88	
-oporo	109	
-osamdesetoro	35	
-osamnaestoro	61	
-osmero	29	
-osmoro	1217	
-oštro	6714	
-paro		
-pedesetoro	143	
-pedro		
-pero	2650	
-petero	101	
-petnaestoro	191	
-petoro	3782	
-petro		
-pijanduro	11	
-pjetro		
-poaro		
-pobro		
-podobro		M
-podupro	42	
-poharo		
-politbiro	96	
-pomro		
-potero		
-potporo		
-prastaro	127	
-predobro	41	
-prehitro		
-premro		
-premudro	10	
-preoštro	15	
-presbiro		
-presporo	29	
-prestaro		
-prevaro		
-pro		M
-prodro	333	
-prostro	44	
-protro		
-proždro		
-ramiro		
-rasprostro	33	
-razastro		
-razdro		
-rebro	286	
-retro	1573	
-ro		M
-romero		
-ruđero		
-sandro		
-saporo		
-saro	36	
-satro	142	
-sedamdesetoro	49	
-sedmero	66	
-sedmoro	1505	
-seljančuro		
-sestro	453	
-severo		
-sidro	760	
-skoro	110053	
-sofro		
-sombrero	44	
-sporo	6246	
-srebro	3445	
-staro	9454	
-sudopero		
-suro		
-teatro		
-testero		
-torero		
-toro		
-tridesetoro	159	
-trinaestoro	132	
-trokadero		
-ujutro	8791	
-umro	16352	
-ungaro		
-upro	101	
-uskoro	49838	
-utvaro		
-učetvoro		M
-vatro		
-vedro	1383	
-vero	46	
-večero		
-zamro	228	
-zastro		
-zatro	53	
-zoro	45	
-zunzaro		
-ćero		
-ćiro		
-čabro		
-četrnaestero		
-četrnaestoro	102	
-četvero	178	
-četvoro	4929	
-đuro		
-šaro		
-šatro	133	
-šesnaestoro	83	
-šestero	89	
-šestoro	2064	
-šezdesetoro	44	
-škoro		
-škvadro		
-špiro		
-štedro		M
-šturo	351	
-šuro		
-žiro	1252	
-žičaro		
-žustro	467	
-pijetro		
-pjero		
+Kairo			2
+alegro			2
+aleksandro			2
+astro	469		2
+avanturo			2
+baburo			2
+bagro			2
+bedro	68		2
+biro	2943		2
+bistro	586		2
+bodro			2
+bolero	152		3
+boro	30		2
+bubamaro			2
+buro			2
+cicero		M	3
+curo			2
+dabro			2
+daro			2
+desetero	26		4
+desetoro	884		4
+devedesetoro	23		2
+devetero	43		4
+devetoro	932		4
+didro			2
+dinaro			2
+dobro	283561		2
+dopro	181		2
+doskoro		M	3
+dvadesetoro	251		2
+dvanaestoro	217		4
+elektro	3443		2
+ero	24		2
+euro			2
+evro	14254		2
+figaro	214		2
+floro			2
+fukaro			2
+gabro			2
+gaduro			2
+garo			2
+gastro	305		2
+gavro			2
+gitaro			2
+goro	36		2
+gro	1102		1
+hero			2
+hetero			3
+hidro	95		2
+hitro	849		2
+horo			2
+hrabro	5235		2
+ibro			2
+ilustro			2
+izumro	102		2
+jaro	76		2
+jedanaestoro	191		4
+jedro	587		2
+jero			2
+jetro			2
+jezero	10009		3
+jezgro	5067		2
+joširo			2
+jutro	8998		2
+karo	144		2
+kastro			2
+kiro			2
+klaro			2
+komoro			2
+komunjaro			2
+koro			2
+kudro			2
+kuštro			2
+lavro			2
+lazaro			2
+lektiro			2
+libero	182		3
+liro			2
+maestro	854		2
+makro	1411		2
+marlboro			3
+maro			2
+matoro	112		3
+mero			2
+metro	3327		2
+mikro	2712		2
+miro		M	2
+mitro			2
+modro	195		2
+mokro	444		2
+monro			2
+montenegro			2
+moro			2
+mudro	3714		2
+munro			2
+nahero			3
+nalivpero	25		2
+naskoro	153		3
+navro	17		2
+načetvoro		M	2
+nedobro			2
+negro			2
+nemudro			2
+nero			2
+neuro	112		2
+niro			2
+nitro	181		2
+npro			1
+obamro	20		2
+odskoro			3
+odupro	88		2
+oporo	109		3
+osamdesetoro	35		2
+osamnaestoro	61		2
+osmero	29		3
+osmoro	1217		3
+oštro	6714		2
+paro			2
+pedesetoro	143		3
+pedro			2
+pero	2650		2
+petero	101		3
+petnaestoro	191		2
+petoro	3782		3
+petro			2
+pijanduro	11		2
+pjetro			2
+poaro			2
+pobro			2
+podobro		M	2
+podupro	42		2
+poharo			2
+politbiro	96		2
+pomro			2
+potero			3
+potporo			3
+prastaro	127		3
+predobro	41		2
+prehitro			2
+premro			2
+premudro	10		2
+preoštro	15		2
+presbiro			2
+presporo	29		3
+prestaro			2
+prevaro			3
+pro		M	1
+prodro	333		2
+prostro	44		2
+protro			2
+proždro			2
+ramiro			2
+rasprostro	33		2
+razastro			2
+razdro			2
+rebro	286		2
+retro	1573		2
+ro		M	1
+romero			3
+ruđero			3
+sandro			2
+saporo			3
+saro	36		2
+satro	142		2
+sedamdesetoro	49		2
+sedmero	66		3
+sedmoro	1505		3
+seljančuro			2
+sestro	453		2
+severo			3
+sidro	760		2
+skoro	110053		2
+sofro			2
+sombrero	44		3
+sporo	6246		2
+srebro	3445		2
+staro	9454		2
+sudopero			3
+suro			2
+teatro			2
+testero			2
+torero			3
+toro			2
+tridesetoro	159		2
+trinaestoro	132		2
+trokadero			2
+ujutro	8791		3
+umro	16352		2
+ungaro			2
+upro	101		2
+uskoro	49838		3
+utvaro			3
+učetvoro		M	2
+vatro			2
+vedro	1383		2
+vero	46		2
+večero			2
+zamro	228		2
+zastro			2
+zatro	53		2
+zoro	45		2
+zunzaro			2
+ćero			2
+ćiro			2
+čabro			2
+četrnaestero			2
+četrnaestoro	102		2
+četvero	178		3
+četvoro	4929		3
+đuro			2
+šaro			2
+šatro	133		2
+šesnaestoro	83		2
+šestero	89		3
+šestoro	2064		3
+šezdesetoro	44		2
+škoro			2
+škvadro			2
+špiro			2
+štedro		M	2
+šturo	351		2
+šuro			2
+žiro	1252		2
+žičaro			2
+žustro	467		2
+pijetro			2
+pjero			2

@@ -1,105 +1,105 @@
 101
-anđu		
-beznađu	334	
-bezvlađu		
-buđu		
-dođu	26062	
-glađu	2920	
-glođu	72	
-gospođu	1610	
-goveđu	67	
-građu	2281	
-grožđu	422	
-gvožđu	124	
-gđu	111	
-horovođu		
-izađu	8283	
-iziđu	196	
-između	273861	
-iznađu	279	
-karavađu		
-karađorđu		
-knjigovođu	105	
-koleđu		
-kolovođu		
-konđu		
-krađu	3045	
-lađu	758	
-lođu	125	
-luđu	16	
-mašinovođu	28	
-medveđu	246	
-među	178046	
-milosrđu	220	
-mimoiđu	96	
-mlađu	1112	
-nadgrađu		
-nadođu	31	
-naiđu	754	
-najluđu	150	
-najmlađu	255	
-najslađu	45	
-najtvrđu	21	
-nasleđu	1501	
-nasljeđu		J
-nađu	14050	
-nemilosrđu		
-obiđu	1297	
-oruđu	51	
-otiđu	12	
-oštrokonđu		
-peđu		
-podgrađu		
-podiđu	25	
-polugođu		
-poslovođu	50	
-posuđu	119	
-pođu	893	
-pravosuđu	4016	
-predgrađu	1608	
-predziđu		
-prevaziđu	1685	
-pređu	4215	
-priđu	1027	
-proiziđu	12	
-pronađu	7161	
-prođu	6664	
-punđu	281	
-raziđu	366	
-razmeđu	155	
-razvođu	12	
-računovođu	70	
-ređu	58	
-riđu	66	
-rđu	137	
-sazvežđu	771	
-sazviježđu		
-sađu		
-siđu	342	
-slađu	29	
-smeđu	351	
-snađu	984	
-srđu		
-svađu	1148	
-tromeđu	31	
-tuđu	2267	
-tvrđu	105	
-uziđu		
-uđu	8464	
-vojskovođu	116	
-vozovođu		
-vođu	1351	
-zaiđu		
-zaleđu	574	
-zaobiđu	584	
-zapovijeđu		J
-zađu	149	
-čađu	21	
-četovođu		
-đorđu		
-đurđu		
-žeđu	364	
-žitorađu		
-medvjeđu		
-naslijeđu	40	
-prijeđu	11	
+anđu			2
+beznađu	334		2
+bezvlađu			2
+buđu			2
+dođu	26062		2
+glađu	2920		2
+glođu	72		2
+gospođu	1610		3
+goveđu	67		2
+građu	2281		2
+grožđu	422		2
+gvožđu	124		2
+gđu	111		1
+horovođu			2
+izađu	8283		2
+iziđu	196		2
+između	273861		3
+iznađu	279		2
+karavađu			2
+karađorđu			2
+knjigovođu	105		3
+koleđu			2
+kolovođu			2
+konđu			2
+krađu	3045		2
+lađu	758		2
+lođu	125		2
+luđu	16		2
+mašinovođu	28		2
+medveđu	246		2
+među	178046		2
+milosrđu	220		4
+mimoiđu	96		2
+mlađu	1112		2
+nadgrađu			2
+nadođu	31		2
+naiđu	754		2
+najluđu	150		3
+najmlađu	255		3
+najslađu	45		3
+najtvrđu	21		3
+nasleđu	1501		2
+nasljeđu		J	2
+nađu	14050		2
+nemilosrđu			2
+obiđu	1297		2
+oruđu	51		2
+otiđu	12		2
+oštrokonđu			2
+peđu			2
+podgrađu			2
+podiđu	25		2
+polugođu			2
+poslovođu	50		4
+posuđu	119		2
+pođu	893		2
+pravosuđu	4016		4
+predgrađu	1608		2
+predziđu			2
+prevaziđu	1685		2
+pređu	4215		2
+priđu	1027		2
+proiziđu	12		2
+pronađu	7161		2
+prođu	6664		2
+punđu	281		2
+raziđu	366		2
+razmeđu	155		2
+razvođu	12		2
+računovođu	70		2
+ređu	58		2
+riđu	66		2
+rđu	137		2
+sazvežđu	771		2
+sazviježđu			2
+sađu			2
+siđu	342		2
+slađu	29		2
+smeđu	351		2
+snađu	984		2
+srđu			2
+svađu	1148		2
+tromeđu	31		2
+tuđu	2267		2
+tvrđu	105		2
+uziđu			2
+uđu	8464		2
+vojskovođu	116		4
+vozovođu			2
+vođu	1351		2
+zaiđu			2
+zaleđu	574		2
+zaobiđu	584		2
+zapovijeđu		J	5
+zađu	149		2
+čađu	21		2
+četovođu			2
+đorđu			2
+đurđu			2
+žeđu	364		2
+žitorađu			2
+medvjeđu			2
+naslijeđu	40		3
+prijeđu	11		2

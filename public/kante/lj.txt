@@ -1,221 +1,221 @@
 218
-Marselj		
-Napulj		
-akropolj		
-avelj		
-bitolj		
-bodritelj		
-bogalj	124	
-branitelj	303	
-brodograditelj		
-brojitelj		
-burdelj		
-cilj	122478	
-dalj	780	
-darovatelj	11	
-davatelj	17	
-davitelj	57	
-delitelj	50	
-detalj	7139	
-divalj		M
-djelitelj		J
-dobročinitelj	107	
-donositelj		
-dragulj	1060	
-dražbovatelj		
-držitelj		
-emalj		
-epitrahilj		
-fitilj	390	
-frtalj	125	
-gogolj		
-gomolj		
-gonitelj		M
-graditelj	1007	
-grbalj		
-gredelj		
-grgolj		
-grmalj	59	
-gudelj		
-gundelj		M
-gutalj		
-hmelj	245	
-hranitelj	237	
-hulitelj		
-imenitelj	697	
-iscelitelj	209	
-iskupitelj	40	
-istražitelj	307	
-istrebitelj		
-izbavitelj	80	
-izložitelj		
-izmiritelj		
-izumitelj	326	
-izvršitelj	570	
-kardelj		
-karolj		
-kačkavalj		M
-kašalj	2787	
-kelj	434	
-kocelj	21	
-kodalj		
-konstantinopolj		
-koralj		
-koreditelj		
-kostelj		
-kožulj		
-kralj	18099	
-kremlj		M
-krivotvoritelj		
-krmelj	17	
-krotitelj	25	
-krpelj	363	
-krstitelj	330	
-kuditelj		
-kukolj	338	
-kupelj	21	
-kućepazitelj	24	
-ljubitelj	3928	
-ljulj	76	
-malj	147	
-matavulj		
-metilj	31	
-mihalj		
-mislitelj		
-modrulj	10	
-molitelj	26	
-mrkalj		M
-mrzitelj	134	
-mulj	1061	
-mučitelj	644	
-nadziratelj	15	
-naručitelj	296	
-narušitelj		
-negovatelj	47	
-neprijatelj	6446	
-njegovatelj		
-nositelj	107	
-obnovitelj	107	
-obožavatelj	118	
-odgajatelj		
-ogovaratelj		
-omišalj		
-oponašatelj		
-oporučitelj		
-opunomoćitelj		
-osiguravatelj	42	
-osnovatelj		
-ovlastitelj		
-označitelj		
-pasulj	3142	
-pazitelj	21	
-pedalj	572	
-pistolj		
-pištolj	4104	
-pogibelj	75	
-pokazatelj	7851	
-pokolj	967	
-pokrovitelj	2297	
-pomiritelj		
-popečitelj		
-portfelj	263	
-posetitelj		
-poslužitelj	100	
-potkralj		
-potražitelj		
-poučitelj		
-pozivatelj		
-poštovatelj		
-praroditelj	21	
-pratitelj	12	
-pravobranitelj	32	
-prekršitelj	14	
-preporoditelj		
-prijatelj	16906	
-primatelj	25	
-procenitelj	160	
-progonitelj	104	
-prokelj	188	
-prosuditelj		
-prosvetitelj	395	
-ravnatelj	202	
-redatelj	264	
-reditelj	9357	
-revnitelj	125	
-roditelj	6490	
-rogalj		
-roštilj	1915	
-rubalj		
-rudelj		
-rukovatelj		M
-rukovoditelj	43	
-rušitelj	43	
-sadržatelj	10	
-sačinitelj		
-silovatelj	164	
-skobalj		
-slavitelj		
-slušatelj	25	
-služitelj	141	
-snimatelj	692	
-spasitelj	1314	
-spisatelj	107	
-staratelj	579	
-stvaratelj		
-stvoritelj	341	
-svetitelj		
-svinjokolj		
-telohranitelj	385	
-temelj	5818	
-tešitelj		M
-tlačitelj	15	
-tužitelj	213	
-udalj		M
-ugalj	3300	
-ugostitelj	473	
-ujedinitelj	177	
-ukrotitelj	26	
-uništitelj		
-upravitelj	659	
-upropastitelj		
-usrećitelj	21	
-ustavobranitelj		
-usvojitelj	64	
-utemeljitelj	121	
-utešitelj	83	
-uvoditelj		
-uzdržavatelj		
-uzgojitelj		
-učitelj	5987	
-vaspitatelj		
-vatralj		M
-veroučitelj	325	
-vicekralj		
-voditelj	5171	
-vodvilj	113	
-vršitelj		
-zembilj		
-zločinitelj		
-čagalj		
-češalj	362	
-činitelj	11	
-čitatelj		
-čkalj	40	
-čukalj		
-šešelj		
-širitelj		
-školj	22	
-šmrkalj		
-štagalj		
-štambilj		M
-štavalj		M
-štovatelj		
-štrkalj		M
-šupalj		M
-žalitelj	13	
-žeželj		M
-žitelj	375	
-živalj	761	
-žulj	366	
-iscjelitelj		
-tjelohranitelj		
+Marselj			2
+Napulj			2
+akropolj			2
+avelj			2
+bitolj			2
+bodritelj			2
+bogalj	124		2
+branitelj	303		2
+brodograditelj			2
+brojitelj			2
+burdelj			2
+cilj	122478		1
+dalj	780		1
+darovatelj	11		2
+davatelj	17		2
+davitelj	57		2
+delitelj	50		2
+detalj	7139		2
+divalj		M	2
+djelitelj		J	2
+dobročinitelj	107		2
+donositelj			2
+dragulj	1060		2
+dražbovatelj			2
+držitelj			2
+emalj			2
+epitrahilj			2
+fitilj	390		2
+frtalj	125		2
+gogolj			2
+gomolj			2
+gonitelj		M	2
+graditelj	1007		2
+grbalj			2
+gredelj			2
+grgolj			2
+grmalj	59		2
+gudelj			2
+gundelj		M	2
+gutalj			2
+hmelj	245		1
+hranitelj	237		2
+hulitelj			2
+imenitelj	697		2
+iscelitelj	209		2
+iskupitelj	40		2
+istražitelj	307		2
+istrebitelj			2
+izbavitelj	80		2
+izložitelj			2
+izmiritelj			2
+izumitelj	326		2
+izvršitelj	570		2
+kardelj			2
+karolj			2
+kačkavalj		M	2
+kašalj	2787		2
+kelj	434		1
+kocelj	21		2
+kodalj			2
+konstantinopolj			2
+koralj			2
+koreditelj			2
+kostelj			2
+kožulj			2
+kralj	18099		1
+kremlj		M	1
+krivotvoritelj			2
+krmelj	17		2
+krotitelj	25		2
+krpelj	363		2
+krstitelj	330		2
+kuditelj			2
+kukolj	338		2
+kupelj	21		2
+kućepazitelj	24		2
+ljubitelj	3928		2
+ljulj	76		1
+malj	147		1
+matavulj			2
+metilj	31		2
+mihalj			2
+mislitelj			2
+modrulj	10		2
+molitelj	26		2
+mrkalj		M	2
+mrzitelj	134		2
+mulj	1061		1
+mučitelj	644		2
+nadziratelj	15		2
+naručitelj	296		2
+narušitelj			2
+negovatelj	47		2
+neprijatelj	6446		3
+njegovatelj			2
+nositelj	107		2
+obnovitelj	107		2
+obožavatelj	118		2
+odgajatelj			2
+ogovaratelj			2
+omišalj			2
+oponašatelj			2
+oporučitelj			2
+opunomoćitelj			2
+osiguravatelj	42		2
+osnovatelj			2
+ovlastitelj			2
+označitelj			2
+pasulj	3142		2
+pazitelj	21		2
+pedalj	572		2
+pistolj			2
+pištolj	4104		2
+pogibelj	75		2
+pokazatelj	7851		2
+pokolj	967		2
+pokrovitelj	2297		2
+pomiritelj			2
+popečitelj			2
+portfelj	263		2
+posetitelj			2
+poslužitelj	100		2
+potkralj			2
+potražitelj			2
+poučitelj			2
+pozivatelj			2
+poštovatelj			2
+praroditelj	21		2
+pratitelj	12		2
+pravobranitelj	32		2
+prekršitelj	14		2
+preporoditelj			2
+prijatelj	16906		3
+primatelj	25		2
+procenitelj	160		2
+progonitelj	104		2
+prokelj	188		2
+prosuditelj			2
+prosvetitelj	395		2
+ravnatelj	202		2
+redatelj	264		2
+reditelj	9357		2
+revnitelj	125		2
+roditelj	6490		2
+rogalj			2
+roštilj	1915		2
+rubalj			2
+rudelj			2
+rukovatelj		M	2
+rukovoditelj	43		2
+rušitelj	43		2
+sadržatelj	10		2
+sačinitelj			2
+silovatelj	164		2
+skobalj			2
+slavitelj			2
+slušatelj	25		2
+služitelj	141		2
+snimatelj	692		2
+spasitelj	1314		2
+spisatelj	107		2
+staratelj	579		2
+stvaratelj			2
+stvoritelj	341		2
+svetitelj			2
+svinjokolj			2
+telohranitelj	385		2
+temelj	5818		2
+tešitelj		M	2
+tlačitelj	15		2
+tužitelj	213		2
+udalj		M	2
+ugalj	3300		2
+ugostitelj	473		2
+ujedinitelj	177		2
+ukrotitelj	26		2
+uništitelj			2
+upravitelj	659		2
+upropastitelj			2
+usrećitelj	21		2
+ustavobranitelj			2
+usvojitelj	64		2
+utemeljitelj	121		2
+utešitelj	83		2
+uvoditelj			2
+uzdržavatelj			2
+uzgojitelj			2
+učitelj	5987		2
+vaspitatelj			2
+vatralj		M	2
+veroučitelj	325		2
+vicekralj			2
+voditelj	5171		2
+vodvilj	113		2
+vršitelj			2
+zembilj			2
+zločinitelj			2
+čagalj			2
+češalj	362		2
+činitelj	11		2
+čitatelj			2
+čkalj	40		1
+čukalj			2
+šešelj			2
+širitelj			2
+školj	22		1
+šmrkalj			2
+štagalj			2
+štambilj		M	2
+štavalj		M	2
+štovatelj			2
+štrkalj		M	2
+šupalj		M	2
+žalitelj	13		2
+žeželj		M	2
+žitelj	375		2
+živalj	761		2
+žulj	366		1
+iscjelitelj			2
+tjelohranitelj			2

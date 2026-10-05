@@ -1,12 +1,12 @@
 11
-biroi	152	
-boi	43	
-koi		
-metroi		
-nivoi	1816	
-oboi	12	
-panoi	300	
-pomoi		
-rešoi		
-sakoi	111	
-trikoi		
+biroi	152		2
+boi	43		2
+koi			2
+metroi			2
+nivoi	1816		2
+oboi	12		2
+panoi	300		2
+pomoi			2
+rešoi			2
+sakoi	111		2
+trikoi			2

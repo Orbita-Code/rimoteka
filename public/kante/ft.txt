@@ -1,12 +1,12 @@
 11
-draft		
-hoverkraft		
-kraft		
-lift	2671	
-luft		
-majkrosoft		
-saft		
-soft		
-svift		
-taft	54	
-zift		
+draft			1
+hoverkraft			3
+kraft			1
+lift	2671		1
+luft			1
+majkrosoft			2
+saft			1
+soft			1
+svift			1
+taft	54		1
+zift			1

@@ -1,8 +1,8 @@
 7
-individue	1524	
-intervjue	1403	
-kanue	18	
-revue		
-rolšue		
-statue	935	
-tabue	200	
+individue	1524		2
+intervjue	1403		2
+kanue	18		2
+revue			2
+rolšue			2
+statue	935		2
+tabue	200		3

@@ -1,18 +1,18 @@
 17
-Delhi		
-buhi	37	
-crnouhi		
-dugouhi	17	
-epohi	807	
-gluhi	45	
-hi		
-mahi		
-maćehi	39	
-plahi	44	
-psihi	333	
-snahi	61	
-suhi	80	J
-sushi	65	
-tihi	2278	
-zalihi	55	
-čohi		
+Delhi			2
+buhi	37		2
+crnouhi			2
+dugouhi	17		2
+epohi	807		2
+gluhi	45		2
+hi			1
+mahi			2
+maćehi	39		3
+plahi	44		2
+psihi	333		2
+snahi	61		2
+suhi	80	J	2
+sushi	65		2
+tihi	2278		2
+zalihi	55		3
+čohi			2

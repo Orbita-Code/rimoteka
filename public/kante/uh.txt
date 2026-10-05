@@ -1,114 +1,114 @@
 113
-auspuh	287	
-beknuh		
-brinuh		
-bruh		
-bubnuh		
-dahnuh		
-dodirnuh	12	
-dometnuh		
-dosluh	38	
-dreknuh		
-drznuh		
-dugouh		
-duh	19066	
-eunuh		
-evnuh	102	
-gluh	27	
-gurnuh	26	
-iskrenuh		
-klecnuh		
-kleknuh	12	
-kliknuh	14	
-klimnuh	37	
-klisnuh		
-konjuh		
-kožuh	96	
-krenuh	270	
-kruh		
-lopuh		
-mahnuh	12	
-miloduh	26	
-mrdnuh		
-naduh		
-nagnuh	15	
-namignuh		
-napomenuh	49	
-načuh	11	
-neposluh	25	
-njuh	249	
-nuh		M
-obrnuh		
-odahnuh		
-odenuh		
-odgurnuh		
-odmahnuh		
-ogrnuh		
-okliznuh		
-okrenuh	121	
-opomenuh		
-osmehnuh	17	
-osvanuh		
-osvrnuh	38	
-otisnuh		
-otkinuh		
-očuh	301	
-pastuh	33	
-pazuh	144	
-planuh		
-pljusnuh		
-podmetnuh		
-poginuh		
-pokrenuh	15	
-pomenuh	263	
-posluh		M
-posrnuh		
-potonuh		
-počinuh		
-predahnuh		
-prekinuh	16	
-prečuh		
-pritisnuh		
-propuh	19	
-prosuh		
-protegnuh		
-puh	37	
-seknuh		
-skinuh	49	
-skrenuh	21	
-slegnuh		
-sluh	1532	
-spomenuh	99	
-stisnuh	10	
-suh	82	
-svirnuh		
-trbuh	863	
-trenuh		
-trgnuh		
-udahnuh	10	
-uh	3610	
-uskliknuh		
-usnuh		
-utonuh	17	
-uvenuh		
-uzdahnuh	15	
-uzviknuh	44	
-vaskrsnuh		
-vazduh	16241	
-viknuh	44	
-virnuh		
-vrisnuh	16	
-zabrinuh		
-zametnuh		
-zapuh		
-zasuh		
-začuh	117	
-zevnuh		
-zgranuh		
-zinuh		
-zloduh	57	
-ćuh		
-ćušnuh		
-čuh	632	
-čučnuh		
-šapnuh	15	
+auspuh	287		2
+beknuh			2
+brinuh			2
+bruh			1
+bubnuh			2
+dahnuh			2
+dodirnuh	12		2
+dometnuh			2
+dosluh	38		2
+dreknuh			2
+drznuh			2
+dugouh			2
+duh	19066		1
+eunuh			2
+evnuh	102		2
+gluh	27		1
+gurnuh	26		2
+iskrenuh			2
+klecnuh			2
+kleknuh	12		2
+kliknuh	14		2
+klimnuh	37		2
+klisnuh			2
+konjuh			2
+kožuh	96		2
+krenuh	270		2
+kruh			1
+lopuh			2
+mahnuh	12		2
+miloduh	26		2
+mrdnuh			2
+naduh			2
+nagnuh	15		2
+namignuh			2
+napomenuh	49		2
+načuh	11		2
+neposluh	25		2
+njuh	249		1
+nuh		M	1
+obrnuh			2
+odahnuh			2
+odenuh			2
+odgurnuh			2
+odmahnuh			2
+ogrnuh			2
+okliznuh			2
+okrenuh	121		2
+opomenuh			2
+osmehnuh	17		2
+osvanuh			2
+osvrnuh	38		2
+otisnuh			2
+otkinuh			2
+očuh	301		2
+pastuh	33		2
+pazuh	144		2
+planuh			2
+pljusnuh			2
+podmetnuh			2
+poginuh			2
+pokrenuh	15		2
+pomenuh	263		2
+posluh		M	2
+posrnuh			2
+potonuh			2
+počinuh			2
+predahnuh			2
+prekinuh	16		2
+prečuh			2
+pritisnuh			2
+propuh	19		2
+prosuh			2
+protegnuh			2
+puh	37		1
+seknuh			2
+skinuh	49		2
+skrenuh	21		2
+slegnuh			2
+sluh	1532		1
+spomenuh	99		2
+stisnuh	10		2
+suh	82		1
+svirnuh			2
+trbuh	863		2
+trenuh			2
+trgnuh			2
+udahnuh	10		2
+uh	3610		1
+uskliknuh			2
+usnuh			2
+utonuh	17		2
+uvenuh			2
+uzdahnuh	15		2
+uzviknuh	44		2
+vaskrsnuh			2
+vazduh	16241		2
+viknuh	44		2
+virnuh			2
+vrisnuh	16		2
+zabrinuh			2
+zametnuh			2
+zapuh			2
+zasuh			2
+začuh	117		2
+zevnuh			2
+zgranuh			2
+zinuh			2
+zloduh	57		2
+ćuh			1
+ćušnuh			2
+čuh	632		1
+čučnuh			2
+šapnuh	15		2

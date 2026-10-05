@@ -1,22 +1,22 @@
 21
-atašei	63	
-ateljei	119	
-bifei	21	
-dosijei	314	
-dosjei	11	
-ekspozei		
-foajei		
-kabarei	31	
-kafei		
-kanapei	51	
-klišei	126	
-kominikei		
-kupei	59	
-rezimei	37	
-sensei		
-separei	33	
-sižei		
-suflei		
-tei		
-varijetei		
-želei	41	
+atašei	63		2
+ateljei	119		2
+bifei	21		2
+dosijei	314		2
+dosjei	11		2
+ekspozei			2
+foajei			2
+kabarei	31		2
+kafei			2
+kanapei	51		2
+klišei	126		2
+kominikei			2
+kupei	59		2
+rezimei	37		2
+sensei			2
+separei	33		2
+sižei			2
+suflei			2
+tei			2
+varijetei			2
+želei	41		2

@@ -289,41 +289,45 @@ koja radi za većinu srpskih reči jer akcenat retko pada na poslednji slog.
 
 ## 7a. PRAVILO: kako se rangiraju i prikazuju rime (obavezno)
 
-> Uvedeno 27.07.2026. na zahtev vlasnice.
+> Uvedeno 27.07.2026. (isti broj slogova), **zamenjeno 05.10.2026. pravilom po akcentu** – odluka vlasnice
+> („da, ugradi akcente") posle prijave 03.10.: za „televizor" je „revizor" padao u „Dobre", a „ambasador" bio u „Najboljima".
 
-**Najbolja rima je ona koja ima ISTI BROJ SLOGOVA kao tražena reč.**
+**Prava rima počinje od naglašenog sloga.** Kod **uzlaznog** akcenta ton prelazi i na sledeći slog, pa kad iza
+naglašenog ima bar dva sloga, rima počinje od sloga **iza** njega (akcenatska jedinica). **Silazni** akcenat ne prelazi.
 
-### Zašto
+| Reč | Akcenat | Prava rima od | Rimuje se | Ne rimuje se (samo isti kraj) |
+|---|---|---|---|---|
+| televizor | te**lè**vīzor (uzlazni, 3. od kraja) | -izor | revizor, retrovizor, prizor | ambasador (-ador), ventilator (-ator) |
+| direktor | **dì**rektor (uzlazni) | -ektor | korektor, selektor, inspektor | instruktor, autor |
+| rima | **rí**ma (uzlazni, pretposlednji) | -ima | štima, klima, zima | stvarima (**stvȃ**rima, silazni → -arima) |
+| sloboda | slo**bò**da | -oda | voda, loboda, naroda, metoda | vojvoda (**vȏj**voda → -ojvoda) |
+| iznenada | **ȉ**znenāda (silazni na prvom) | -iznenada | (nema) | nada, promenada |
 
-Prava rima počinje od **poslednjeg naglašenog samoglasnika** (poglavlje 7).
-Podatke o akcentu nemamo, a `rhymeKey` od pretposlednjeg samoglasnika je samo
-aproksimacija. Ta aproksimacija greši ovako:
+### Odakle akcenat
 
-| Tražena reč | Rima | Zajednička slova | Stvarni kvalitet |
-|---|---|---|---|
-| rima | **štima** | 3 (`ima`) | **jaka** — akcenat na istom mestu |
-| rima | stvarima | 4 (`rima`) | slaba — `rima` je tamo nenaglašeno |
+`build/akcenat.py` → `public/akcenat.txt` (jedan broj po redu `reci.txt`: od kog sloga OD KRAJA počinje rima;
+`akcenat_jekavica.txt` isto za ijekavicu). Izvori, redom: engleski Wiktionary (28.934 akcentovane osnove, CC BY-SA,
+`build/akcenti-osnove.json`); osnova reči preko srLex-a (mesto akcenta od početka se prenosi na oblik); pravilo za 1–2
+sloga (poslednji slog nikad nije naglašen); predviđanje po završetku (≥3 primera, ≥75 % slaganja); podrazumevano
+pretposlednji slog. Pokrivenost i izvor po reči: `AUDIT/akcenti/`. **Posle svake izmene rečnika:** `python3 build/akcenat.py`
+pre `kante.py`.
 
-Po starom pravilu („više zajedničkih slova = bolja rima") `stvarima` je bilo u
-„Najbolje rime", a `štima` je padalo na **111. mesto**. To je bilo pogrešno.
+### Kako se primenjuje (alat `doRhymes` i generator – 1:1, test 39 ih poredi)
 
-**Isti broj slogova je najbolja zamena za akcenat koju imamo**, jer reči
-sličnog obima obično imaju i sličan raspored akcenta.
+- **Kandidati** su kao i pre: isti završetak od poslednjeg samoglasnika (`rhymeKey`).
+- **„Najbolje rime"** = kandidati sa **istom akcenatskom jedinicom** kao tražena reč (`akcKey`/`AKC`).
+- **„Dobre rime"** = ostali kandidati (isti kraj, akcenat drugde).
+- **Rezerva** (kad strogih ima manje od 3): reči sa akcentom na **istom slogu od kraja** i istim brojem slogova ulaze u
+  „Najbolje" – slȍbodan → pȍgodan, prìgodan (strogo bi „-obodan" ostalo bez ijedne rime). Za „televizor" rezerva ne radi,
+  jer strogih ima 3, pa „ambasador" (isto mesto akcenta) ostaje u „Dobrim".
+- **Redosled unutar grupe:** bliži broj slogova → duži zajednički završetak → učestalost.
+- Tražena reč koje nema u rečniku dobija pretpostavku „pretposlednji slog".
 
-### Kako se primenjuje
+### Šta je bilo pre i zašto se ne vraća
 
-**Podela na grupe:**
-- **„Najbolje rime"** — reči sa **istim brojem slogova** kao tražena reč
-- **„Dobre rime"** — reči sa drugačijim brojem slogova
-
-**Redosled unutar grupe, ovim redom:**
-1. bliži broj slogova traženoj reči
-2. duži zajednički završetak (bogatija rima)
-3. učestalost reči
-
-**Ne vraćati staro pravilo** po kome je duži zajednički završetak bio prvo
-merilo. Ono na vrh izbacuje dative i instrumentale množine (*stvarima,
-centrima, dobrima, čarima, morima*) kod kojih je zajednički deo nenaglašen.
+Od 27.07. do 05.10. delilo se po **broju slogova** (najbolje = isti broj slogova). To je radilo za kratke reči (rima/štima),
+a grešilo za duge: svaka četvorosložna reč na „-or" bila je „najbolja rima" za televizor. Još starije pravilo („više
+zajedničkih slova") izbacivalo je na vrh *stvarima, centrima* – nenaglašen zajednički deo. Nijedno od ta dva se ne vraća.
 
 ## 8. Pravopis — najvažnije za sadržaj sajta
 

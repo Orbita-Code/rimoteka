@@ -1,7 +1,7 @@
 6
-ditiramb	14	
-gumb	40	
-jamb	104	
-limb		
-romb	48	
-tromb	155	
+ditiramb	14		2
+gumb	40		1
+jamb	104		1
+limb			1
+romb	48		1
+tromb	155		1

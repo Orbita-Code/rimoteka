@@ -1,1227 +1,1227 @@
 1211
-Carevac		
-Južnoafrikanac		
-Katarac		
-Kragujevac		
-Kruševac		
-Leskovac		
-Požarevac		
-Rakovac		
-Vardarac		
-abesinac		
-abisinac		
-afganistanac		
-afrikanac		
-afroamerikanac	43	
-afrokubanac		
-agrarac		
-agresivac	21	
-ajmokac		
-akademac	96	
-aktivac		M
-albanac		
-aleksinac		
-aljkavac		M
-alpinac		
-alternativac		
-alžirac		
-amerikanac		M
-anglikanac		
-angloamerikanac		
-angolac		
-anonimac		
-antiklerikalac		M
-aranđelovac		
-argentinac	850	
-arijevac	12	
-artiljerac		M
-asirac		
-australac		
-australijanac		
-austrijanac	474	
-avganistanac		
-azijac		
-babac	24	
-bajalac		M
-bakropisac		M
-balavac	109	
-balinovac		
-balkanac	142	
-bandoglavac		M
-banijac		
-baranac		
-baranjac		
-baskijac		
-basnopisac	10	
-begunac	366	
-bekvalac		
-belac	271	
-belaćevac		
-belgijanac		
-benediktinac		
-benzinac	1556	
-berlinac		
-bernardinac	28	
-bespopovac		
-betonirac		
-beznožac		
-bećarac	104	
-bečejac		
-bihorac		
-bioljubimac		
-biseksualac	75	
-bizantinac		
-bičevalac		
-bjelajac		
-blesavac		
-blizanac	804	
-bodrilac		M
-bogavac		
-bogomoljac	32	
-bogomrzac		M
-bogonosac		M
-bogutovac		
-bolivijac		
-bolivijanac		
-boljevac		
-bombajac		
-borac	5769	
-borovac		
-bosanac	753	
-bostonac		
-branilac	2391	
-bratac	69	
-bratanac	167	
-bratunac		
-bravac		
-brazilac	1068	
-brazilijanac		
-brbljavac		
-brbljivac	26	
-brestovac		M
-brezovac		
-britanac	748	
-brljivac		M
-brodolomac	12	
-brojilac		M
-brunejac		
-brzopisac		
-bubac		
-bujanovac		
-bukavac	22	
-bukovac		M
-bukvarac		M
-bunjac		
-bunjevac		
-bunuševac		
-burgundac	170	
-burmanac		
-cerovac		M
-cmizdravac		
-crnac	887	
-crnoberzijanac		M
-crnoglavac		
-crnogorac		
-crnorizac	59	
-crnorukac		
-crvac		M
-crvenokožac		
-daljinac	205	
-dalmatinac	199	
-damjanac		
-danac		
-darivalac		M
-darodavac	226	
-davalac	1499	
-debelokožac		
-dedinac		
-defanzivac		
-delilac	109	
-depresivac		M
-deseterac	162	
-despotovac		
-destruktivac		
-deveterac		
-dečarac	12	
-dinarac	28	
-diplomac	544	
-divac		
-dječarac		J
-dobivalac		
-dobrovoljac	729	
-dobročinac		M
-dokumentarac	1651	
-dolac	47	
-dolinac		M
-doljevac		
-dominikanac	41	
-domobranac		M
-domorodac	59	
-donosilac		M
-dorćolac		
-dovitljivac		
-draganac		
-dragačevac		
-dragosavac		
-dragovoljac	17	
-drainac		
-drekavac	104	
-drenovac		
-dripac	86	
-drobac		
-dronjavac		
-drvorezac		M
-drvotočac		M
-držalac		M
-dubac		M
-duborezac		M
-dubravac		
-dupeglavac		M
-dušanovac		
-dvanaesterac	16	
-dvizac		
-dvogodac		M
-dvojac	1642	
-dvokrilac	17	
-dvonožac	16	
-dvorac	2585	
-dvotrupac		
-dvoženac		M
-džangrizavac		
-džeparac	916	
-džukac	27	
-ekavac		
-ekvadorac		
-emotivac	80	
-epikurejac		
-ercegovac		
-erdeljac		
-eritrejac		
-erzac		
-esesovac		M
-estonac		
-etrurac		
-evropejac		
-federalac		
-feudalac		M
-filipinac	25	
-finac		
-firentinac		
-fizikalac	73	
-franjevac	103	
-frankovac		
-galilejac		
-ganac		
-gasilac		
-gatalac		M
-gačac		M
-gegavac		
-genijalac	280	
-gerilac	79	
-germanac		
-gestapovac		M
-gimnazijalac	378	
-gladac	103	
-glavatac		M
-glavonožac		
-gledalac		M
-glinac		
-glinenac		
-glodavac		
-glogovac		M
-glumac	12207	
-glušac		
-gmizavac	67	
-gnjurac	58	
-golišavac		
-golubac		
-goluždravac		
-gonilac		M
-goranac		
-goraždevac		
-gostiljac		
-gotovac	20	
-grabežljivac		
-grabilac		M
-grabljivac	65	
-grabovac		M
-grac		
-gradac	1062	
-gradilac		M
-gradištanac		
-grahovac		
-gramzivac		
-gramžljivac		
-graorac		
-gračanac		
-građevinac		M
-grbavac	53	
-grebenac		
-gregorac		
-gruzijac		
-gubavac	55	
-guberevac		
-gubilac		M
-gunjac		M
-gušavac		
-gvatemalac		
-gvinejac		
-gvozdac		
-havajac		
-hebrejac		
-hercegovac	212	
-heteroseksualac	79	
-hispanac		
-hitac	570	
-hlebac	27	
-homoseksualac	853	
-honorarac	59	
-hranilac	57	
-hrastovac		M
-hripavac		
-hromac		
-hropac		M
-humac		
-humanitarac	109	
-hvalilac		
-hvalisavac	47	
-hvastavac		
-ignac		
-ijekavac	10	
-ikavac		
-ikonoborac		
-ikonopisac	226	
-ilegalac	70	
-ilirac		
-imalac	419	
-imenilac	101	
-indijac	162	
-indijanac	201	
-individualac	122	
-industrijalac	249	
-informbirovac		
-inostranac		M
-inoverac		
-inozemac		
-intelektualac	1959	
-internacionalac		
-internirac		
-inženjerac		M
-irac	202	
-iranac		
-ispitivalac		
-ispolac		
-isporučilac	358	
-istinoljubac	15	
-istražilac	27	
-isusovac		
-izbavilac		M
-izdavalac		
-izložilac		M
-izraelac	228	
-izvanzemaljac		
-izvestilac	1006	
-izvojac		
-izvršilac	1114	
-jadac	267	
-jaganjac	13	
-jakobinac		
-jalovac		M
-jamac	40	
-japanac	561	
-jarac	1751	
-jasenovac		M
-jastrebac		
-jazavac	242	
-jedanaesterac	447	
-jedinac	389	
-jedrac		
-jekavac		J
-jelovac		
-jemac	241	
-jemenac		
-jezičac		
-ječmenac	10	
-jordanac		
-judejac		
-julovac		
-junac	23	
-južnoamerikanac	13	
-kac		
-kadrovac		M
-kajkavac		
-kakaovac	11	
-kalac		
-kamenac	449	
-kamenorezac	119	
-kamerunac		
-kamforovac		
-kanarinac	92	
-kanjac		
-kantovac		
-kapavac	16	
-kapitalac	87	
-karanovac		
-karlovac		
-katalonac		
-katanac	914	
-kaučukovac		
-kenijac		
-kenjac		
-kijac		
-kininovac		
-kitolovac	10	
-kladenac	84	
-kladilac		
-klanac	190	
-klepac		
-klerikalac	14	
-klinac		M
-kneževac		
-knjaževac		
-knjigovezac		M
-knjižarac		M
-kobac	188	
-kokošinjac	128	
-kolac	1005	
-kolarac		
-kolašinac		
-kolebljivac		
-kolumbijac		
-komarac	380	
-komunalac	430	
-konac	1590	
-kongoanac		
-konjovodac		
-konopac	711	
-kontinentalac		
-konzervativac	259	
-koreanac		
-korejac		
-korejanac		
-koristoljubac		M
-korzikanac		
-kosac	45	
-kosilac		M
-kosovac		M
-kostarikanac		
-kostolac		
-kostolomac	23	
-kotac		
-kotarac		
-kovitlac	176	
-kozarac		
-koštac	2235	
-kradljivac	250	
-kraguljac		
-kranjac		
-krastavac	906	
-kravojac		
-kreativac	115	
-kredenac	66	
-krelac		
-krevetac	604	
-kriminalac	1690	
-krivac	4395	
-krivolovac		
-krivoverac		
-krkljanac		M
-kromanjonac		
-kruhoborac		
-krupac		
-krušac		M
-kruškovac		
-krčilac		M
-kržljavac		
-kubanac		
-kudilac		M
-kudravac		
-kukac	17	
-kukavac		M
-kunovac		
-kupac	9775	
-kuštravac		
-kvasac	1361	
-lajavac	15	
-lajkovac		
-lakomac		
-laktac		
-lanac	6332	
-lapac		
-laponac		
-laporac		M
-laskavac	18	
-latinac		
-latinoamerikanac	20	
-lazarevac		
-lađevac		
-lažac		
-lažljivac	59	
-lebac	399	
-ledac		M
-ledolomac	139	
-lenivac		
-lenjivac	87	
-leovac		
-letnjikovac	351	
-letonac		
-letopisac	141	
-levantinac		
-libanac		
-libanonac		
-liberalac		
-liberijac		
-libijac		
-likovac		M
-liliputanac		M
-lipovac		M
-lisac	363	
-litavac		
-litvanac		
-livac	62	
-ličilac		
-ljetnikovac		
-ljigavac	59	
-ljotićevac		
-ljubac		
-ljubimac	2358	
-ljuskavac		
-lokalac	59	
-lonac	1182	
-londonac		
-lovac	2533	
-lovćenac		
-lukavac	56	
-lukovac		
-lutalac		M
-luteranac		
-lutovac		
-madrac	104	
-magarac	975	
-majurac		
-makedonac	384	
-malac	53	
-malijac		
-malinovac		
-maloprodavac		M
-mamac	1332	
-manuelac		
-maratonac	331	
-marginalac	69	
-marinac	137	
-markovac		
-marokanac		
-marovac		
-marsovac		
-maslac	946	
-matorac	107	
-matovilac	20	
-matrac		
-mačevalac	75	
-mađarac		
-mašinac	313	
-maštalac		M
-mediteranac		
-medljikovac		
-mekokrilac		
-meksikanac		
-mekušac	38	
-merilac	28	
-metalac	1792	
-metroseksualac	29	
-mezimac	119	
-mečkovac		
-mešanac	206	
-migavac	120	
-mihajlovac		
-miholjac		
-milanovac		
-miljakovac		
-minimalac	1346	
-minolovac	10	
-minonosac		
-miratovac		
-mirotvorac	174	
-mislilac	1162	
-mitraljezac		M
-mladac	29	
-mladenac	51	
-mladenovac		
-mladunac	49	
-mlečac		M
-mlinac	29	
-mlitavac		
-mljac	54	
-množilac		M
-mohikanac		
-mojkovac		
-mokranjac		
-moldavac		
-molilac		M
-moljac	210	
-moravac		
-moreplovac	200	
-mostarac		
-mrazovac	18	
-mrežokrilac		
-mrtvac	316	
-mrzilac		M
-mršavac		
-mucavac	15	
-mudrac	505	
-muhamedanac		M
-mulac		M
-mutavac		
-mučilac		M
-muškarac	13546	
-nadražljivac		
-naduvenac		
-nagradilac		
-naivac	76	
-nakupac		M
-nalogodavac		
-nametljivac		
-napolitanac		
-naprečac	259	
-naredbodavac	112	
-naručilac	1934	
-narušilac		M
-nasrtljivac		
-nazimac		M
-načistac		
-našinac		
-nealbanac		
-neandertalac	85	
-neborac		
-negativac	376	
-negrišorac		
-nemac	1833	
-neotesanac		
-nepalac		
-nepoznavalac		
-nestrpljivac		M
-neutralac	17	
-nevaljalac	40	
-neznabožac	118	
-neznalac		M
-neznanac	172	
-nigerijac		
-nikaragvanac		
-njemac		J
-nobelovac	862	
-norac		
-normalac		
-nosilac		M
-novac	91267	
-novopazarac		
-nudilac		M
-nuklearac		
-obaveštajac	288	
-obodac		
-obožavalac	465	
-obrazac	6409	
-obrenovac		
-obrovac		
-odašiljac		
-odrpanac	22	
-olimpijac	418	
-omladinac		M
-operativac	481	
-oplenac		
-opnokrilac		
-orahovac	198	
-orašac		
-orijentalac		
-oskarovac		
-oslobodilac	153	
-oslonac	3872	
-osmerac	84	
-osnovac	315	
-ostavilac	147	
-otac	41249	
-ovlastilac		
-očevidac	586	
-padobranac	226	
-pajac		M
-pakistanac		
-pakrac		
-palac	1010	
-palestinac		
-panamac		
-pančevac		
-paprac		M
-paragvajac		
-parlamentarac	171	
-partijac	30	
-pasivac		
-paušalac		
-pavlovac		
-pašanac		
-pašićevac		
-pegavac	72	
-pelinkovac	84	
-persijanac		
-peruanac		
-perućac		
-peručac		
-peterac		
-petljanac		
-petoparac		M
-petrovac		M
-pevac	172	
-pećanac		
-pečatorezac		
-pečenjevac		
-pešadinac	41	
-pešterac		
-pijac		
-pijanac	247	
-pikavac		M
-piroćanac		
-pisac	20124	
-piskavac	29	
-pitalac		
-pitomac	249	
-pjenušac		J
-plac	2346	
-plamenac	129	
-planinac		
-plavac	112	
-plačljivac		
-plašljivac	14	
-plebejac	14	
-plikavac		
-pobedilac	86	
-podgorac		
-podgrlac		
-podlac	43	
-podnosilac	5395	
-podobrazac		
-podražavalac		M
-podrugljivac		
-podunavac		
-podzakupac		M
-poganac	19	
-pogorelac		
-pohotljivac		M
-pojac		
-pojedinac	6134	
-poklopac	2259	
-pokrajac		
-pokrovac	13	
-poletarac	387	
-policajac	6257	
-poljubac	2635	
-polovac		
-pomorac	137	
-ponorac		
-ponovac		M
-popac	21	
-popovac		
-portorikanac		
-portugalac	606	
-poručilac		
-posavac		
-posetilac	2065	
-poslodavac	7408	
-posloprimac		
-pospanac		
-postdiplomac	121	
-poverilac	1712	
-povetarac	431	
-povodac	223	
-pozadinac		M
-pozitivac	101	
-pozivalac		
-poznavalac		M
-počinilac	735	
-pošarac		
-pošiljalac	566	
-poštovalac		M
-pramac	139	
-praotac	131	
-praporac		
-prasac	38	
-praskavac		
-pratilac	1459	
-pravac	9500	
-pravdoljubac		M
-pravobranilac	429	
-pravokrilac		
-pravoslavac	720	
-praznoglavac	10	
-prdavac	15	
-prebranac	119	
-predilac		
-predškolac		
-prefriganac		
-pregalac		M
-prekomorac		
-prekršilac	79	
-prekupac		
-prelac		
-premac		
-prenosilac		
-prepečenac		
-preprodavac	117	
-presolac		M
-pretinac	77	
-pretorijanac	15	
-prevodilac		M
-prevozilac		
-prevrtljivac	34	
-prezbiterijanac		
-prečac	279	
-prgavac		
-prigorac		
-prijedorac		
-primalac		M
-primitivac	129	
-primorac	106	
-prinosilac		M
-prisvojilac		M
-prljavac		
-prnjavac		
-probojac		
-prodavac	5344	
-profesionalac	2287	
-prokupac	262	
-proneverilac		
-prosac	39	
-prosilac	11	
-prosinac	62	
-proučavalac		M
-provincijalac	95	
-proštac		M
-proždrljivac	16	
-prskavac		
-prstac		
-prstenac	14	
-pružalac	279	
-prvenac	1290	
-prvoborac	158	
-prvotimac	733	
-psalmopevac		M
-pukovodac		
-punac		M
-punilac		M
-punoglavac	29	
-pupavac	83	
-pupovac		
-puritanac	25	
-putopisac	421	
-puzavac	17	
-radićevac		
-radmanovac		
-radovanac		
-radoznalac	33	
-radujevac		
-rajac		
-rakonjac		
-ranac	948	
-ranilac		M
-ranoranilac		M
-rasejanac		
-rasporilac		
-ravnogorac		
-ravnokrilac		
-razmetljivac	12	
-razvigorac		
-realac		
-rebac		
-rekovac		
-remac		
-renovac		
-repac		M
-reprezentativac	7254	
-republikanac	296	
-resavac		
-rezanac	28	
-ribanac	19	
-ribarac		
-ribolovac	370	
-rikavac		
-ristovac		
-rodoljubac		M
-romanopisac	276	
-ronac		
-ronilac	300	
-ropac	43	
-rovac	43	
-rožac		
-rubac	22	
-rugalac		
-rukavac	288	
-rukovalac	276	
-rukovodilac	7170	
-ruvarac		
-rušilac		M
-saborac	264	
-sadilac		
-sadržalac		
-sadržilac		M
-saizvršilac		
-saksonac		
-salinac		M
-salvadorac		
-samac	225	
-samaritanac		
-samodržac		M
-samoljubac		
-samostalac		
-samozvanac	43	
-samoživac		
-sanmarinac		
-saobraćajac	269	
-saudijac		
-savetodavac	211	
-sedmerac	191	
-selevac		
-semeništarac		
-senegalac		
-severac	107	
-sezonac		
-sibirac		
-sicilijanac		
-sindikalac	220	
-singapurac		
-sinovac	400	
-sirac		M
-sirijac		
-sisavac	10	
-sivac		
-skakavac	147	
-skandinavac		
-skojevac		
-skopljanac		
-sladokusac	30	
-slankamenac		
-slavonac	37	
-slavujevac		
-slepac	365	
-slinac		
-slovac		
-slovenac	135	
-složenac		
-slušalac		M
-smederevac	506	
-smrdljivac		
-smutljivac	24	
-sokolac		
-solunac		M
-somalijac		
-somborac		
-sočanac		
-spartanac		
-spasilac		M
-spavanac		
-specijalac	163	
-sramežljivac		
-srbijanac		
-srbomrzac		M
-srcelomac		
-srcolomac	24	
-srebrnac		
-srebroljubac	33	
-srednjoškolac	578	
-sremac		
-srećolovac		
-stajkovac		
-staklorezac		
-stanac	22	
-stanodavac	104	
-starac	5822	
-staralac	107	
-starinac		M
-starosedelac	125	
-sticalac	162	
-stidljivac		
-stihotvorac	27	
-stiskavac	31	
-stolac	61	
-stradalac		M
-stranac	3241	
-strašljivac	15	
-strelac	6805	
-strmac		
-stubac	48	
-studenac	109	
-stupac	29	
-stvaralac		M
-suborac		
-sudanac		
-sukrivac		
-sumnjivac		
-supovac		
-surčinac		
-suzavac	788	
-sušac		
-svadljivac		
-svatovac	18	
-svemirac	17	
-svetac	1259	
-svetlac		M
-svilajnac		
-svinjac	188	
-svirac	30	
-svitac	119	
-svrabljivac		
-tajac	332	
-takmac	313	
-talac	602	
-tasovac		
-tekstilac	63	
-tekstopisac	469	
-temeljac	1443	
-tenac		
-tepavac		M
-terenac		M
-tesnac	171	
-tetovac		M
-tečajac		
-tinjac		
-tkalac		
-tlačinac		
-tobolac	38	
-torijevac	15	
-tragalac		M
-traljavac		
-traminac		
-transeksualac		
-transseksualac	46	
-tražilac		M
-trbuhozborac	18	
-trebinjac		M
-trećepozivac		
-trećeškolac		
-trgovac	3936	
-trinaesterac	20	
-trnovac		
-trojac	212	
-trojanac		M
-tronožac	118	
-trozubac	45	
-trupac	66	
-tukac		M
-tulac		
-tupavac		
-tupoglavac		M
-tuđinac	68	
-tužilac	12581	
-tvorac	4246	
-tvrdoglavac		
-tvrdokrilac		
-ubilac		
-udarac	9993	
-udovac	235	
-ukoštac	140	
-ukrajinac		
-ukrotilac		
-umanjilac		M
-umokac		
-upropastilac		M
-uroševac		
-urugvajac		
-usrećilac		
-ustupilac		
-usvojilac	74	
-utešilac		M
-utrinac		M
-uvac		
-uvodilac		
-uvredilac		M
-uzelac		
-učinilac	338	
-ušenac		
-uživalac		M
-vabac		M
-valjevac		
-vanpartijac		M
-vanzemaljac	322	
-varaždinac		
-varilac	42	
-vatrogasac	437	
-vavilonac		
-vazduhoplovac		
-vašljivac		M
-vegetarijanac	296	
-veletrgovac	38	
-velikoškolac		
-venac	4919	
-venecijanac		
-venčac		
-veštac	57	
-videlac		
-vidikovac	664	
-vigovac		
-vijetnamac		
-vizantinac		
-višebojac	22	
-višnjevac	28	
-vladalac		M
-vlasac	49	
-vlastodavac	21	
-vlastodržac	78	
-vlašac		M
-vodilac		M
-vodonosac		M
-vodozemac	29	
-voždovac		
-vrabac	512	
-vranac	345	
-vranjanac		
-vrhovac		
-vrhunac	7300	
-vrskavac		
-vrtoglavac		
-vrućac		M
-vršac		M
-vršilac		M
-vučac		M
-zagorac		
-zajedljivac		M
-zaječarac		
-zajmodavac	162	
-zajmoprimac	113	
-zajmotražilac		M
-zaklopac		M
-zakonodavac	1542	
-zakonopisac	76	
-zakupac	1049	
-zalogoprimac		
-zamajac	1040	
-zamorac	30	
-zaponac		
-zaveštalac		M
-zavidljivac	24	
-zavodilac		
-zdenac	65	
-zdravac		M
-zelenac		
-zemljodelac		M
-zemljopisac		
-zemunac	232	
-zlatiborac		
-zlikovac	341	
-zločinac	1523	
-zmajevac		M
-zmijanac		
-znalac	610	
-znanac	107	
-zrikavac	11	
-zubac	113	
-zubatac	30	
-zvonolivac		
-ćelavac	27	
-ćićevac		
-ćorac		
-ćoravac		M
-ćudljivac		
-ćutljivac		M
-čakavac		
-čamac	2329	
-čaralac		M
-časlovac		M
-častoljubac		M
-čađavac		
-čeganjac		
-čepac		M
-četrnaesterac		
-četverac	450	
-čileanac		
-činilac	2283	
-čistac		
-čistunac	67	
-čitalac	4872	
-člankonožac		
-člankopisac	19	
-čobanac	21	
-čovekoljubac		M
-čovekomrzac		M
-čudotvorac	384	
-čupavac	20	
-čupoglavac		
-čučavac	45	
-đorđevac		
-đubretarac		M
-đurđevac		M
-Šabac		
-šaljivac	14	
-šamac		
-šampanjac	1279	
-šanac	450	
-šantavac		
-šarac	192	
-šarenac		
-šarkamenac		
-šarplaninac	81	
-šatrovac		M
-šašavac		
-šekularac		
-šepavac		
-šesnaesterac	438	
-šesterac		
-šestoperac		M
-ševac		
-šećerac	156	
-šiparac		M
-školarac	155	
-škopac		
-škriljac	51	
-škriljavac		
-škripac	68	
-škrtac	12	
-šljampavac		
-šmrkavac		
-šofranac		
-španac		
-štapac		
-štekavac		
-štenac	10	
-štipavac		
-štokavac		
-štovalac		
-štrajkolomac		
-štrapac		
-šugarac		M
-šugavac		
-šumadinac		
-šumarac		
-šumatovac		
-šupljoglavac		
-šuškavac		M
-šuštavac		M
-švajcarac		M
-žabac	185	
-žalac	98	
-žalilac	290	
-žderavac		
-ždrebac	62	
-žegarac		
-želudac	1982	
-ženomrzac	33	
-žetelac	21	
-žirondinac		
-živac	383	
-živoderac		M
-živopisac		M
-životopisac		
-životvorac		
-žmigavac	94	
-žutac		
-žutokljunac	20	
-bijelac	30	
-bjegunac		
-bjelac		
-mješanac		
-nijemac	56	
-obavještajac		
-pijevac	20	
-posjetilac		
-povjetarac		
-prvijenac	45	
-slijepac	81	
-strijelac	106	
-tjesnac		
-vijenac	578	
-vještac		
+Carevac			2
+Južnoafrikanac			2
+Katarac			2
+Kragujevac			3
+Kruševac			3
+Leskovac			2
+Požarevac			4
+Rakovac			2
+Vardarac			2
+abesinac			2
+abisinac			2
+afganistanac			2
+afrikanac			2
+afroamerikanac	43		2
+afrokubanac			2
+agrarac			2
+agresivac	21		2
+ajmokac			2
+akademac	96		2
+aktivac		M	2
+albanac			2
+aleksinac			3
+aljkavac		M	2
+alpinac			2
+alternativac			2
+alžirac			2
+amerikanac		M	2
+anglikanac			2
+angloamerikanac			2
+angolac			2
+anonimac			2
+antiklerikalac		M	2
+aranđelovac			2
+argentinac	850		2
+arijevac	12		4
+artiljerac		M	2
+asirac			2
+australac			2
+australijanac			2
+austrijanac	474		2
+avganistanac			2
+azijac			2
+babac	24		2
+bajalac		M	2
+bakropisac		M	2
+balavac	109		3
+balinovac			2
+balkanac	142		2
+bandoglavac		M	2
+banijac			2
+baranac			2
+baranjac			2
+baskijac			2
+basnopisac	10		2
+begunac	366		2
+bekvalac			2
+belac	271		2
+belaćevac			2
+belgijanac			2
+benediktinac			2
+benzinac	1556		2
+berlinac			2
+bernardinac	28		2
+bespopovac			2
+betonirac			2
+beznožac			2
+bećarac	104		2
+bečejac			2
+bihorac			2
+bioljubimac			2
+biseksualac	75		2
+bizantinac			2
+bičevalac			2
+bjelajac			2
+blesavac			2
+blizanac	804		2
+bodrilac		M	2
+bogavac			2
+bogomoljac	32		2
+bogomrzac		M	2
+bogonosac		M	2
+bogutovac			2
+bolivijac			2
+bolivijanac			2
+boljevac			2
+bombajac			2
+borac	5769		2
+borovac			2
+bosanac	753		2
+bostonac			2
+branilac	2391		2
+bratac	69		2
+bratanac	167		2
+bratunac			2
+bravac			2
+brazilac	1068		2
+brazilijanac			2
+brbljavac			2
+brbljivac	26		2
+brestovac		M	2
+brezovac			3
+britanac	748		2
+brljivac		M	2
+brodolomac	12		2
+brojilac		M	2
+brunejac			2
+brzopisac			2
+bubac			2
+bujanovac			3
+bukavac	22		2
+bukovac		M	2
+bukvarac		M	2
+bunjac			2
+bunjevac			2
+bunuševac			2
+burgundac	170		2
+burmanac			2
+cerovac		M	2
+cmizdravac			2
+crnac	887		2
+crnoberzijanac		M	2
+crnoglavac			2
+crnogorac			3
+crnorizac	59		2
+crnorukac			2
+crvac		M	2
+crvenokožac			2
+daljinac	205		2
+dalmatinac	199		2
+damjanac			2
+danac			2
+darivalac		M	2
+darodavac	226		2
+davalac	1499		2
+debelokožac			2
+dedinac			2
+defanzivac			2
+delilac	109		2
+depresivac		M	2
+deseterac	162		2
+despotovac			2
+destruktivac			2
+deveterac			2
+dečarac	12		2
+dinarac	28		2
+diplomac	544		2
+divac			2
+dječarac		J	2
+dobivalac			2
+dobrovoljac	729		2
+dobročinac		M	2
+dokumentarac	1651		2
+dolac	47		2
+dolinac		M	2
+doljevac			2
+dominikanac	41		2
+domobranac		M	2
+domorodac	59		2
+donosilac		M	2
+dorćolac			2
+dovitljivac			2
+draganac			2
+dragačevac			2
+dragosavac			2
+dragovoljac	17		2
+drainac			2
+drekavac	104		2
+drenovac			2
+dripac	86		2
+drobac			2
+dronjavac			2
+drvorezac		M	2
+drvotočac		M	2
+držalac		M	2
+dubac		M	2
+duborezac		M	2
+dubravac			2
+dupeglavac		M	2
+dušanovac			3
+dvanaesterac	16		2
+dvizac			2
+dvogodac		M	2
+dvojac	1642		2
+dvokrilac	17		2
+dvonožac	16		2
+dvorac	2585		2
+dvotrupac			2
+dvoženac		M	2
+džangrizavac			2
+džeparac	916		2
+džukac	27		2
+ekavac			2
+ekvadorac			2
+emotivac	80		2
+epikurejac			2
+ercegovac			2
+erdeljac			2
+eritrejac			2
+erzac			2
+esesovac		M	2
+estonac			2
+etrurac			2
+evropejac			2
+federalac			2
+feudalac		M	2
+filipinac	25		2
+finac			2
+firentinac			2
+fizikalac	73		2
+franjevac	103		2
+frankovac			2
+galilejac			2
+ganac			2
+gasilac			2
+gatalac		M	2
+gačac		M	2
+gegavac			2
+genijalac	280		2
+gerilac	79		2
+germanac			2
+gestapovac		M	2
+gimnazijalac	378		2
+gladac	103		2
+glavatac		M	2
+glavonožac			2
+gledalac		M	2
+glinac			2
+glinenac			2
+glodavac			3
+glogovac		M	2
+glumac	12207		2
+glušac			2
+gmizavac	67		3
+gnjurac	58		2
+golišavac			2
+golubac			2
+goluždravac			2
+gonilac		M	2
+goranac			2
+goraždevac			2
+gostiljac			2
+gotovac	20		2
+grabežljivac			2
+grabilac		M	2
+grabljivac	65		2
+grabovac		M	2
+grac			1
+gradac	1062		2
+gradilac		M	2
+gradištanac			2
+grahovac			2
+gramzivac			2
+gramžljivac			2
+graorac			2
+gračanac			2
+građevinac		M	2
+grbavac	53		3
+grebenac			2
+gregorac			2
+gruzijac			2
+gubavac	55		2
+guberevac			2
+gubilac		M	2
+gunjac		M	2
+gušavac			2
+gvatemalac			2
+gvinejac			2
+gvozdac			2
+havajac			2
+hebrejac			2
+hercegovac	212		3
+heteroseksualac	79		2
+hispanac			2
+hitac	570		2
+hlebac	27		2
+homoseksualac	853		2
+honorarac	59		2
+hranilac	57		2
+hrastovac		M	2
+hripavac			2
+hromac			2
+hropac		M	2
+humac			2
+humanitarac	109		2
+hvalilac			2
+hvalisavac	47		2
+hvastavac			3
+ignac			2
+ijekavac	10		2
+ikavac			2
+ikonoborac			2
+ikonopisac	226		2
+ilegalac	70		2
+ilirac			2
+imalac	419		2
+imenilac	101		2
+indijac	162		2
+indijanac	201		2
+individualac	122		2
+industrijalac	249		2
+informbirovac			2
+inostranac		M	2
+inoverac			2
+inozemac			2
+intelektualac	1959		2
+internacionalac			2
+internirac			2
+inženjerac		M	2
+irac	202		2
+iranac			2
+ispitivalac			2
+ispolac			2
+isporučilac	358		2
+istinoljubac	15		2
+istražilac	27		2
+isusovac			2
+izbavilac		M	2
+izdavalac			2
+izložilac		M	2
+izraelac	228		2
+izvanzemaljac			2
+izvestilac	1006		2
+izvojac			2
+izvršilac	1114		2
+jadac	267		2
+jaganjac	13		3
+jakobinac			2
+jalovac		M	2
+jamac	40		2
+japanac	561		2
+jarac	1751		2
+jasenovac		M	2
+jastrebac			2
+jazavac	242		3
+jedanaesterac	447		2
+jedinac	389		2
+jedrac			2
+jekavac		J	2
+jelovac			2
+jemac	241		2
+jemenac			2
+jezičac			2
+ječmenac	10		2
+jordanac			2
+judejac			2
+julovac			2
+junac	23		2
+južnoamerikanac	13		2
+kac			1
+kadrovac		M	2
+kajkavac			2
+kakaovac	11		3
+kalac			2
+kamenac	449		2
+kamenorezac	119		2
+kamerunac			2
+kamforovac			2
+kanarinac	92		2
+kanjac			2
+kantovac			2
+kapavac	16		2
+kapitalac	87		2
+karanovac			3
+karlovac			3
+katalonac			2
+katanac	914		2
+kaučukovac			2
+kenijac			2
+kenjac			2
+kijac			2
+kininovac			2
+kitolovac	10		2
+kladenac	84		2
+kladilac			2
+klanac	190		2
+klepac			2
+klerikalac	14		2
+klinac		M	2
+kneževac			2
+knjaževac			2
+knjigovezac		M	2
+knjižarac		M	2
+kobac	188		2
+kokošinjac	128		2
+kolac	1005		2
+kolarac			2
+kolašinac			2
+kolebljivac			2
+kolumbijac			2
+komarac	380		2
+komunalac	430		2
+konac	1590		2
+kongoanac			2
+konjovodac			2
+konopac	711		2
+kontinentalac			2
+konzervativac	259		2
+koreanac			2
+korejac			2
+korejanac			2
+koristoljubac		M	2
+korzikanac			2
+kosac	45		2
+kosilac		M	2
+kosovac		M	3
+kostarikanac			2
+kostolac			2
+kostolomac	23		2
+kotac			2
+kotarac			2
+kovitlac	176		2
+kozarac			2
+koštac	2235		2
+kradljivac	250		2
+kraguljac			2
+kranjac			2
+krastavac	906		3
+kravojac			2
+kreativac	115		2
+kredenac	66		2
+krelac			2
+krevetac	604		2
+kriminalac	1690		2
+krivac	4395		2
+krivolovac			2
+krivoverac			2
+krkljanac		M	2
+kromanjonac			2
+kruhoborac			2
+krupac			2
+krušac		M	2
+kruškovac			2
+krčilac		M	2
+kržljavac			2
+kubanac			2
+kudilac		M	2
+kudravac			2
+kukac	17		2
+kukavac		M	2
+kunovac			2
+kupac	9775		2
+kuštravac			2
+kvasac	1361		2
+lajavac	15		3
+lajkovac			2
+lakomac			2
+laktac			2
+lanac	6332		2
+lapac			2
+laponac			2
+laporac		M	2
+laskavac	18		2
+latinac			2
+latinoamerikanac	20		2
+lazarevac			2
+lađevac			2
+lažac			2
+lažljivac	59		2
+lebac	399		2
+ledac		M	2
+ledolomac	139		2
+lenivac			2
+lenjivac	87		2
+leovac			2
+letnjikovac	351		2
+letonac			2
+letopisac	141		2
+levantinac			2
+libanac			2
+libanonac			2
+liberalac			2
+liberijac			2
+libijac			2
+likovac		M	2
+liliputanac		M	2
+lipovac		M	2
+lisac	363		2
+litavac			3
+litvanac			2
+livac	62		2
+ličilac			2
+ljetnikovac			2
+ljigavac	59		2
+ljotićevac			2
+ljubac			2
+ljubimac	2358		2
+ljuskavac			2
+lokalac	59		2
+lonac	1182		2
+londonac			2
+lovac	2533		2
+lovćenac			2
+lukavac	56		3
+lukovac			2
+lutalac		M	2
+luteranac			2
+lutovac			2
+madrac	104		2
+magarac	975		2
+majurac			2
+makedonac	384		2
+malac	53		2
+malijac			2
+malinovac			2
+maloprodavac		M	2
+mamac	1332		2
+manuelac			2
+maratonac	331		2
+marginalac	69		2
+marinac	137		2
+markovac			2
+marokanac			2
+marovac			2
+marsovac			2
+maslac	946		2
+matorac	107		2
+matovilac	20		2
+matrac			2
+mačevalac	75		2
+mađarac			2
+mašinac	313		2
+maštalac		M	2
+mediteranac			2
+medljikovac			2
+mekokrilac			2
+meksikanac			2
+mekušac	38		2
+merilac	28		3
+metalac	1792		2
+metroseksualac	29		2
+mezimac	119		2
+mečkovac			2
+mešanac	206		2
+migavac	120		2
+mihajlovac			2
+miholjac			2
+milanovac			3
+miljakovac			2
+minimalac	1346		2
+minolovac	10		2
+minonosac			2
+miratovac			2
+mirotvorac	174		2
+mislilac	1162		2
+mitraljezac		M	2
+mladac	29		2
+mladenac	51		2
+mladenovac			2
+mladunac	49		2
+mlečac		M	2
+mlinac	29		2
+mlitavac			3
+mljac	54		1
+množilac		M	2
+mohikanac			2
+mojkovac			2
+mokranjac			2
+moldavac			2
+molilac		M	2
+moljac	210		2
+moravac			2
+moreplovac	200		2
+mostarac			2
+mrazovac	18		2
+mrežokrilac			2
+mrtvac	316		2
+mrzilac		M	2
+mršavac			2
+mucavac	15		2
+mudrac	505		2
+muhamedanac		M	2
+mulac		M	2
+mutavac			3
+mučilac		M	2
+muškarac	13546		2
+nadražljivac			2
+naduvenac			2
+nagradilac			2
+naivac	76		2
+nakupac		M	2
+nalogodavac			2
+nametljivac			2
+napolitanac			2
+naprečac	259		2
+naredbodavac	112		2
+naručilac	1934		2
+narušilac		M	2
+nasrtljivac			2
+nazimac		M	2
+načistac			2
+našinac			2
+nealbanac			2
+neandertalac	85		2
+neborac			2
+negativac	376		2
+negrišorac			2
+nemac	1833		2
+neotesanac			2
+nepalac			2
+nepoznavalac			2
+nestrpljivac		M	2
+neutralac	17		2
+nevaljalac	40		2
+neznabožac	118		2
+neznalac		M	2
+neznanac	172		2
+nigerijac			2
+nikaragvanac			2
+njemac		J	2
+nobelovac	862		3
+norac			2
+normalac			2
+nosilac		M	2
+novac	91267		2
+novopazarac			2
+nudilac		M	2
+nuklearac			2
+obaveštajac	288		2
+obodac			2
+obožavalac	465		2
+obrazac	6409		2
+obrenovac			2
+obrovac			2
+odašiljac			2
+odrpanac	22		2
+olimpijac	418		2
+omladinac		M	2
+operativac	481		2
+oplenac			2
+opnokrilac			2
+orahovac	198		2
+orašac			2
+orijentalac			2
+oskarovac			2
+oslobodilac	153		2
+oslonac	3872		2
+osmerac	84		2
+osnovac	315		2
+ostavilac	147		2
+otac	41249		2
+ovlastilac			2
+očevidac	586		2
+padobranac	226		2
+pajac		M	2
+pakistanac			2
+pakrac			2
+palac	1010		2
+palestinac			2
+panamac			2
+pančevac			2
+paprac		M	2
+paragvajac			2
+parlamentarac	171		2
+partijac	30		2
+pasivac			2
+paušalac			2
+pavlovac			2
+pašanac			2
+pašićevac			2
+pegavac	72		2
+pelinkovac	84		2
+persijanac			2
+peruanac			2
+perućac			2
+peručac			2
+peterac			2
+petljanac			2
+petoparac		M	2
+petrovac		M	2
+pevac	172		2
+pećanac			2
+pečatorezac			2
+pečenjevac			2
+pešadinac	41		2
+pešterac			2
+pijac			2
+pijanac	247		2
+pikavac		M	2
+piroćanac			2
+pisac	20124		2
+piskavac	29		3
+pitalac			2
+pitomac	249		2
+pjenušac		J	2
+plac	2346		1
+plamenac	129		2
+planinac			2
+plavac	112		2
+plačljivac			2
+plašljivac	14		2
+plebejac	14		2
+plikavac			2
+pobedilac	86		2
+podgorac			2
+podgrlac			2
+podlac	43		2
+podnosilac	5395		2
+podobrazac			2
+podražavalac		M	2
+podrugljivac			2
+podunavac			2
+podzakupac		M	2
+poganac	19		2
+pogorelac			2
+pohotljivac		M	2
+pojac			2
+pojedinac	6134		2
+poklopac	2259		2
+pokrajac			2
+pokrovac	13		2
+poletarac	387		2
+policajac	6257		2
+poljubac	2635		2
+polovac			2
+pomorac	137		2
+ponorac			2
+ponovac		M	2
+popac	21		2
+popovac			2
+portorikanac			2
+portugalac	606		2
+poručilac			2
+posavac			2
+posetilac	2065		2
+poslodavac	7408		2
+posloprimac			2
+pospanac			2
+postdiplomac	121		2
+poverilac	1712		2
+povetarac	431		2
+povodac	223		2
+pozadinac		M	2
+pozitivac	101		2
+pozivalac			2
+poznavalac		M	2
+počinilac	735		2
+pošarac			2
+pošiljalac	566		2
+poštovalac		M	2
+pramac	139		2
+praotac	131		2
+praporac			2
+prasac	38		2
+praskavac			2
+pratilac	1459		2
+pravac	9500		2
+pravdoljubac		M	2
+pravobranilac	429		2
+pravokrilac			2
+pravoslavac	720		2
+praznoglavac	10		2
+prdavac	15		2
+prebranac	119		2
+predilac			2
+predškolac			2
+prefriganac			2
+pregalac		M	2
+prekomorac			2
+prekršilac	79		2
+prekupac			2
+prelac			2
+premac			2
+prenosilac			2
+prepečenac			2
+preprodavac	117		2
+presolac		M	2
+pretinac	77		2
+pretorijanac	15		2
+prevodilac		M	2
+prevozilac			2
+prevrtljivac	34		2
+prezbiterijanac			2
+prečac	279		2
+prgavac			2
+prigorac			2
+prijedorac			2
+primalac		M	2
+primitivac	129		2
+primorac	106		2
+prinosilac		M	2
+prisvojilac		M	2
+prljavac			3
+prnjavac			2
+probojac			2
+prodavac	5344		2
+profesionalac	2287		2
+prokupac	262		2
+proneverilac			2
+prosac	39		2
+prosilac	11		2
+prosinac	62		2
+proučavalac		M	2
+provincijalac	95		2
+proštac		M	2
+proždrljivac	16		2
+prskavac			2
+prstac			2
+prstenac	14		2
+pružalac	279		2
+prvenac	1290		2
+prvoborac	158		2
+prvotimac	733		2
+psalmopevac		M	2
+pukovodac			2
+punac		M	2
+punilac		M	2
+punoglavac	29		2
+pupavac	83		2
+pupovac			2
+puritanac	25		2
+putopisac	421		2
+puzavac	17		3
+radićevac			2
+radmanovac			3
+radovanac			2
+radoznalac	33		2
+radujevac			2
+rajac			2
+rakonjac			2
+ranac	948		2
+ranilac		M	2
+ranoranilac		M	2
+rasejanac			2
+rasporilac			2
+ravnogorac			2
+ravnokrilac			2
+razmetljivac	12		2
+razvigorac			2
+realac			2
+rebac			2
+rekovac			2
+remac			2
+renovac			2
+repac		M	2
+reprezentativac	7254		2
+republikanac	296		2
+resavac			2
+rezanac	28		2
+ribanac	19		2
+ribarac			2
+ribolovac	370		2
+rikavac			2
+ristovac			2
+rodoljubac		M	2
+romanopisac	276		2
+ronac			2
+ronilac	300		2
+ropac	43		2
+rovac	43		2
+rožac			2
+rubac	22		2
+rugalac			2
+rukavac	288		2
+rukovalac	276		2
+rukovodilac	7170		2
+ruvarac			2
+rušilac		M	2
+saborac	264		2
+sadilac			2
+sadržalac			2
+sadržilac		M	2
+saizvršilac			2
+saksonac			2
+salinac		M	2
+salvadorac			2
+samac	225		2
+samaritanac			2
+samodržac		M	2
+samoljubac			2
+samostalac			2
+samozvanac	43		2
+samoživac			2
+sanmarinac			2
+saobraćajac	269		2
+saudijac			2
+savetodavac	211		2
+sedmerac	191		2
+selevac			2
+semeništarac			2
+senegalac			2
+severac	107		2
+sezonac			2
+sibirac			2
+sicilijanac			2
+sindikalac	220		2
+singapurac			2
+sinovac	400		2
+sirac		M	2
+sirijac			2
+sisavac	10		3
+sivac			2
+skakavac	147		3
+skandinavac			2
+skojevac			2
+skopljanac			2
+sladokusac	30		2
+slankamenac			2
+slavonac	37		2
+slavujevac			2
+slepac	365		2
+slinac			2
+slovac			2
+slovenac	135		2
+složenac			2
+slušalac		M	2
+smederevac	506		2
+smrdljivac			2
+smutljivac	24		2
+sokolac			2
+solunac		M	2
+somalijac			2
+somborac			2
+sočanac			2
+spartanac			2
+spasilac		M	2
+spavanac			2
+specijalac	163		2
+sramežljivac			2
+srbijanac			2
+srbomrzac		M	2
+srcelomac			2
+srcolomac	24		2
+srebrnac			2
+srebroljubac	33		2
+srednjoškolac	578		2
+sremac			2
+srećolovac			2
+stajkovac			2
+staklorezac			2
+stanac	22		2
+stanodavac	104		2
+starac	5822		2
+staralac	107		2
+starinac		M	2
+starosedelac	125		2
+sticalac	162		2
+stidljivac			2
+stihotvorac	27		2
+stiskavac	31		2
+stolac	61		2
+stradalac		M	2
+stranac	3241		2
+strašljivac	15		2
+strelac	6805		2
+strmac			2
+stubac	48		2
+studenac	109		2
+stupac	29		2
+stvaralac		M	2
+suborac			2
+sudanac			2
+sukrivac			2
+sumnjivac			2
+supovac			2
+surčinac			2
+suzavac	788		3
+sušac			2
+svadljivac			2
+svatovac	18		2
+svemirac	17		2
+svetac	1259		2
+svetlac		M	2
+svilajnac			2
+svinjac	188		2
+svirac	30		2
+svitac	119		2
+svrabljivac			2
+tajac	332		2
+takmac	313		2
+talac	602		2
+tasovac			2
+tekstilac	63		2
+tekstopisac	469		2
+temeljac	1443		2
+tenac			2
+tepavac		M	2
+terenac		M	2
+tesnac	171		2
+tetovac		M	2
+tečajac			2
+tinjac			2
+tkalac			2
+tlačinac			2
+tobolac	38		2
+torijevac	15		2
+tragalac		M	2
+traljavac			2
+traminac			2
+transeksualac			2
+transseksualac	46		2
+tražilac		M	2
+trbuhozborac	18		2
+trebinjac		M	2
+trećepozivac			2
+trećeškolac			2
+trgovac	3936		2
+trinaesterac	20		2
+trnovac			2
+trojac	212		2
+trojanac		M	2
+tronožac	118		2
+trozubac	45		2
+trupac	66		2
+tukac		M	2
+tulac			2
+tupavac			2
+tupoglavac		M	2
+tuđinac	68		2
+tužilac	12581		2
+tvorac	4246		2
+tvrdoglavac			2
+tvrdokrilac			2
+ubilac			2
+udarac	9993		2
+udovac	235		2
+ukoštac	140		2
+ukrajinac			2
+ukrotilac			2
+umanjilac		M	2
+umokac			2
+upropastilac		M	2
+uroševac			2
+urugvajac			2
+usrećilac			2
+ustupilac			2
+usvojilac	74		2
+utešilac		M	2
+utrinac		M	2
+uvac			2
+uvodilac			2
+uvredilac		M	2
+uzelac			2
+učinilac	338		2
+ušenac			2
+uživalac		M	2
+vabac		M	2
+valjevac			2
+vanpartijac		M	2
+vanzemaljac	322		2
+varaždinac			2
+varilac	42		2
+vatrogasac	437		2
+vavilonac			2
+vazduhoplovac			2
+vašljivac		M	2
+vegetarijanac	296		2
+veletrgovac	38		2
+velikoškolac			2
+venac	4919		2
+venecijanac			2
+venčac			2
+veštac	57		2
+videlac			2
+vidikovac	664		2
+vigovac			2
+vijetnamac			2
+vizantinac			2
+višebojac	22		2
+višnjevac	28		2
+vladalac		M	2
+vlasac	49		2
+vlastodavac	21		2
+vlastodržac	78		2
+vlašac		M	2
+vodilac		M	2
+vodonosac		M	2
+vodozemac	29		2
+voždovac			2
+vrabac	512		2
+vranac	345		2
+vranjanac			2
+vrhovac			2
+vrhunac	7300		2
+vrskavac			2
+vrtoglavac			2
+vrućac		M	2
+vršac		M	2
+vršilac		M	2
+vučac		M	2
+zagorac			2
+zajedljivac		M	2
+zaječarac			2
+zajmodavac	162		2
+zajmoprimac	113		2
+zajmotražilac		M	2
+zaklopac		M	2
+zakonodavac	1542		2
+zakonopisac	76		2
+zakupac	1049		2
+zalogoprimac			2
+zamajac	1040		2
+zamorac	30		2
+zaponac			2
+zaveštalac		M	2
+zavidljivac	24		2
+zavodilac			2
+zdenac	65		2
+zdravac		M	2
+zelenac			2
+zemljodelac		M	2
+zemljopisac			2
+zemunac	232		2
+zlatiborac			2
+zlikovac	341		3
+zločinac	1523		2
+zmajevac		M	2
+zmijanac			2
+znalac	610		2
+znanac	107		2
+zrikavac	11		2
+zubac	113		2
+zubatac	30		2
+zvonolivac			2
+ćelavac	27		3
+ćićevac			2
+ćorac			2
+ćoravac		M	3
+ćudljivac			2
+ćutljivac		M	2
+čakavac			2
+čamac	2329		2
+čaralac		M	2
+časlovac		M	2
+častoljubac		M	2
+čađavac			2
+čeganjac			2
+čepac		M	2
+četrnaesterac			2
+četverac	450		2
+čileanac			2
+činilac	2283		2
+čistac			2
+čistunac	67		2
+čitalac	4872		2
+člankonožac			2
+člankopisac	19		2
+čobanac	21		2
+čovekoljubac		M	2
+čovekomrzac		M	2
+čudotvorac	384		2
+čupavac	20		2
+čupoglavac			2
+čučavac	45		2
+đorđevac			2
+đubretarac		M	2
+đurđevac		M	2
+Šabac			2
+šaljivac	14		2
+šamac			2
+šampanjac	1279		2
+šanac	450		2
+šantavac			3
+šarac	192		2
+šarenac			2
+šarkamenac			2
+šarplaninac	81		2
+šatrovac		M	2
+šašavac			2
+šekularac			2
+šepavac			3
+šesnaesterac	438		2
+šesterac			2
+šestoperac		M	2
+ševac			2
+šećerac	156		2
+šiparac		M	2
+školarac	155		2
+škopac			2
+škriljac	51		2
+škriljavac			2
+škripac	68		2
+škrtac	12		2
+šljampavac			2
+šmrkavac			3
+šofranac			2
+španac			2
+štapac			2
+štekavac			2
+štenac	10		2
+štipavac			2
+štokavac			2
+štovalac			2
+štrajkolomac			2
+štrapac			2
+šugarac		M	2
+šugavac			2
+šumadinac			2
+šumarac			2
+šumatovac			2
+šupljoglavac			2
+šuškavac		M	2
+šuštavac		M	3
+švajcarac		M	2
+žabac	185		2
+žalac	98		2
+žalilac	290		2
+žderavac			2
+ždrebac	62		2
+žegarac			2
+želudac	1982		2
+ženomrzac	33		2
+žetelac	21		2
+žirondinac			2
+živac	383		2
+živoderac		M	2
+živopisac		M	2
+životopisac			2
+životvorac			2
+žmigavac	94		2
+žutac			2
+žutokljunac	20		2
+bijelac	30		2
+bjegunac			2
+bjelac			2
+mješanac			2
+nijemac	56		2
+obavještajac			2
+pijevac	20		2
+posjetilac			2
+povjetarac			2
+prvijenac	45		2
+slijepac	81		2
+strijelac	106		2
+tjesnac			2
+vijenac	578		2
+vještac			2

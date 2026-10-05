@@ -1,110 +1,110 @@
 109
-David		
-Madrid		
-aldehid		
-alkaloid	138	
-android	7521	
-antacid		
-apatrid		
-aristid		
-asteroid	1531	
-astrid		
-bolid	854	
-brid	25	
-bromid	20	
-celuloid	13	
-cijanid	137	
-dalekovid		M
-dejvid		
-deltoid		M
-dioksid	524	
-droid	106	
-druid	42	
-džavid		
-elipsoid		
-euklid		
-euripid		
-evropeid		
-ferid		
-fluid	482	
-fluorid	59	
-formaldehid	144	
-fungicid	75	
-genocid	8236	
-halid		
-hamid		
-hasid		
-hemoroid	37	
-herbicid	178	
-hibrid	1194	
-hidrid		
-hidroksid	60	
-hlorid	215	
-hrid	68	
-humanoid	47	
-ingrid		
-insekticid	176	
-invalid	917	
-izvid		
-jodid	22	
-kandid		
-karbid	16	
-kid		M
-klorid		
-kratkovid		M
-leonid		
-lid		
-lipid		
-ljutovid		
-mid		
-mongoloid	17	
-monoksid	129	
-monosaharid		
-ohrid		
-oksid	239	
-očevid	28	
-oštrovid		
-peptid	70	
-peroksid	113	
-pesticid	124	
-planetoid	31	
-polaroid		
-prekid	5315	
-prepaid		
-previd	307	
-privid	2127	
-radionuklid		
-rapid		
-raskid	2983	
-rašid		
-rid		
-romboid	10	
-said		
-sid		M
-slabovid		
-solenoid		
-spermatozoid	128	
-spermicid		
-splendid		
-steroid	56	
-stid	2010	
-suboksid		
-suicid	206	
-sulfid	68	
-superoksid	29	
-suvozid		
-svetovid		
-tabloid	741	
-trapezoid		
-tvid	25	
-ugljendioksid	151	
-usaid		
-uvid	17139	
-vatrozid		
-vid	18665	
-zemljovid		
-zid	13389	
-zigfrid		
-šahid		
-šid		
-žid		
+David			2
+Madrid			2
+aldehid			2
+alkaloid	138		2
+android	7521		2
+antacid			2
+apatrid			2
+aristid			2
+asteroid	1531		2
+astrid			2
+bolid	854		2
+brid	25		1
+bromid	20		2
+celuloid	13		2
+cijanid	137		2
+dalekovid		M	2
+dejvid			2
+deltoid		M	2
+dioksid	524		2
+droid	106		2
+druid	42		2
+džavid			2
+elipsoid			2
+euklid			2
+euripid			2
+evropeid			2
+ferid			2
+fluid	482		2
+fluorid	59		2
+formaldehid	144		2
+fungicid	75		2
+genocid	8236		3
+halid			2
+hamid			2
+hasid			2
+hemoroid	37		2
+herbicid	178		2
+hibrid	1194		2
+hidrid			2
+hidroksid	60		3
+hlorid	215		2
+hrid	68		1
+humanoid	47		2
+ingrid			2
+insekticid	176		2
+invalid	917		2
+izvid			2
+jodid	22		2
+kandid			2
+karbid	16		2
+kid		M	1
+klorid			2
+kratkovid		M	2
+leonid			2
+lid			1
+lipid			2
+ljutovid			2
+mid			1
+mongoloid	17		2
+monoksid	129		2
+monosaharid			2
+ohrid			2
+oksid	239		2
+očevid	28		2
+oštrovid			2
+peptid	70		2
+peroksid	113		2
+pesticid	124		2
+planetoid	31		2
+polaroid			2
+prekid	5315		2
+prepaid			2
+previd	307		2
+privid	2127		2
+radionuklid			2
+rapid			2
+raskid	2983		2
+rašid			2
+rid			1
+romboid	10		2
+said			2
+sid		M	1
+slabovid			2
+solenoid			2
+spermatozoid	128		2
+spermicid			2
+splendid			2
+steroid	56		2
+stid	2010		1
+suboksid			2
+suicid	206		2
+sulfid	68		2
+superoksid	29		2
+suvozid			2
+svetovid			2
+tabloid	741		2
+trapezoid			2
+tvid	25		1
+ugljendioksid	151		2
+usaid			2
+uvid	17139		2
+vatrozid			2
+vid	18665		1
+zemljovid			3
+zid	13389		1
+zigfrid			2
+šahid			2
+šid			1
+žid			1

@@ -1,83 +1,83 @@
 75
-agnes		
-anđeles		
-apsces	146	
-bes	4789	
-blues	427	
-borhes		
-bundes		
-ces		
-delikates	198	
-delišes	123	
-des		
-dijabetes	3131	
-dnes		
-dres	4229	
-efes		
-eksces	175	
-ekspres	949	
-enes		
-es		M
-fes		M
-fitnes		M
-hercules		
-herkules		
-hermes		
-herpes	511	
-hes		
-ines		
-interes	26191	
-jeres	1216	
-johanes		
-kalikles		
-karijes		M
-kertes		
-kongres	4339	
-kres	86	
-kupres		
-les	308	
-limes	115	
-lopes		
-lues		M
-maces		
-markes		
-mercedes	2975	
-nebes		
-nes	380	
-notes	208	
-pes		
-pilates	656	
-ples	5172	
-potes		M
-potproces		
-potres	981	
-preneses		
-pres		
-pretres	2192	
-proces	67586	
-progres	2217	
-ramzes		
-regres	953	
-res		M
-rodriges		
-samokres		
-servantes		
-stres	8230	
-suares		
-tabes		
-toples	123	
-udes	1167	
-ures	56	
-urnebes		
-velaskes		
-veles		
-vres		
-zemljotres	2922	
-čempres	76	
-bijes	331	
-krijes	34	
-lijes	21	
-razumijes		
-smijes		
-udjes		
-vjerujes		
+agnes			2
+anđeles			2
+apsces	146		2
+bes	4789		1
+blues	427		2
+borhes			2
+bundes			2
+ces			1
+delikates	198		2
+delišes	123		2
+des			1
+dijabetes	3131		2
+dnes			1
+dres	4229		1
+efes			2
+eksces	175		2
+ekspres	949		2
+enes			2
+es		M	1
+fes		M	1
+fitnes		M	2
+hercules			2
+herkules			2
+hermes			2
+herpes	511		2
+hes			1
+ines			2
+interes	26191		3
+jeres	1216		2
+johanes			2
+kalikles			2
+karijes		M	3
+kertes			2
+kongres	4339		2
+kres	86		1
+kupres			2
+les	308		1
+limes	115		2
+lopes			2
+lues		M	2
+maces			2
+markes			2
+mercedes	2975		2
+nebes			2
+nes	380		1
+notes	208		2
+pes			1
+pilates	656		2
+ples	5172		1
+potes		M	2
+potproces			2
+potres	981		2
+preneses			2
+pres			1
+pretres	2192		2
+proces	67586		2
+progres	2217		2
+ramzes			2
+regres	953		2
+res		M	1
+rodriges			2
+samokres			3
+servantes			2
+stres	8230		1
+suares			3
+tabes			2
+toples	123		2
+udes	1167		2
+ures	56		2
+urnebes			3
+velaskes			2
+veles			2
+vres			1
+zemljotres	2922		3
+čempres	76		2
+bijes	331		1
+krijes	34		2
+lijes	21		1
+razumijes			2
+smijes			2
+udjes			2
+vjerujes			2

@@ -1,73 +1,73 @@
 71
-Singapur		
-abažur		M
-artur		
-azur		M
-ažur		M
-bajkonur		
-biljur		M
-božur	209	
-centaur		M
-darfur		
-dinosaur	27	
-dondur		
-dotur		
-dur	136	
-eur		
-femur	17	
-futur	76	
-glamur	706	
-grgur		
-guvernadur		
-kalambur	69	
-kaur		M
-kengur	272	
-kentaur	98	
-kipur		
-kolotur		
-kostur	942	
-kotur	142	
-kur		
-kusur		M
-lemur	22	
-majur		M
-mehur	542	
-mensur		
-merkur	585	
-minotaur	63	
-monsieur	22	
-mosur		
-mugur		
-muhur		
-mur		M
-natur		
-nur		
-panađur		
-pandur		M
-parkour		
-pour		
-providur	133	
-pterosaur		
-purpur	49	
-rastur	90	
-rur		
-samur	14	
-strazbur		
-sur	145	
-tambur	37	
-timur		
-trubadur	78	
-tur	729	
-učkur		M
-ušur		
-velur	36	
-ćumur		M
-čimbur		
-čukur		
-đaur		
-šnjur		M
-šnur		M
-štur	98	
-šušur		
-žur		
-mjehur		
+Singapur			2
+abažur		M	2
+artur			2
+azur		M	2
+ažur		M	2
+bajkonur			2
+biljur		M	2
+božur	209		2
+centaur		M	2
+darfur			2
+dinosaur	27		2
+dondur			2
+dotur			2
+dur	136		1
+eur			2
+femur	17		2
+futur	76		2
+glamur	706		2
+grgur			2
+guvernadur			2
+kalambur	69		2
+kaur		M	2
+kengur	272		2
+kentaur	98		2
+kipur			2
+kolotur			3
+kostur	942		2
+kotur	142		2
+kur			1
+kusur		M	2
+lemur	22		2
+majur		M	2
+mehur	542		2
+mensur			2
+merkur	585		2
+minotaur	63		2
+monsieur	22		2
+mosur			2
+mugur			2
+muhur			2
+mur		M	1
+natur			2
+nur			1
+panađur			2
+pandur		M	2
+parkour			2
+pour			2
+providur	133		2
+pterosaur			2
+purpur	49		2
+rastur	90		2
+rur			1
+samur	14		2
+strazbur			2
+sur	145		1
+tambur	37		2
+timur			2
+trubadur	78		2
+tur	729		1
+učkur		M	2
+ušur			2
+velur	36		2
+ćumur		M	2
+čimbur			2
+čukur			2
+đaur			2
+šnjur		M	1
+šnur		M	1
+štur	98		1
+šušur			2
+žur			1
+mjehur			2

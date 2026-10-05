@@ -1,5 +1,5 @@
 4
-forbs		
-hobs		
-oebs		
-plebs		M
+forbs			1
+hobs			1
+oebs			2
+plebs		M	1

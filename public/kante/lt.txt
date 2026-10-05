@@ -1,21 +1,21 @@
 20
-Kelt		
-alt	525	
-asfalt	2309	
-bazalt	26	
-bolt		
-geštalt		
-humbolt		
-katapult	64	
-kilt	24	
-kobalt	135	
-kolt		
-komonvelt		
-kontraalt		
-kult	2971	
-megavolt		
-pult	533	
-revolt	988	
-ruzvelt		
-volt	220	
-šilt		
+Kelt			1
+alt	525		1
+asfalt	2309		2
+bazalt	26		2
+bolt			1
+geštalt			2
+humbolt			2
+katapult	64		2
+kilt	24		1
+kobalt	135		2
+kolt			1
+komonvelt			2
+kontraalt			2
+kult	2971		1
+megavolt			2
+pult	533		1
+revolt	988		2
+ruzvelt			2
+volt	220		1
+šilt			1

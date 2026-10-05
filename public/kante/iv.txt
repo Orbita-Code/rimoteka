@@ -1,628 +1,628 @@
 614
-ablativ		
-abraziv		
-aditiv	325	
-adjektiv		
-akreditiv	151	
-aktiv	700	
-akuzativ	80	
-antidepresiv	192	
-apelativ		
-aperitiv	492	
-arhiv	2603	
-augmentativ	13	
-baciv		
-biv		
-blagoglagoljiv	13	
-blagorečiv		M
-bogobojažljiv	65	
-bogoljubiv		
-bojažljiv	46	
-bolećiv	47	
-bolešljiv	94	
-brbljiv	28	
-brižljiv	52	
-brljiv		
-celiv		
-cepljiv		M
-crvljiv		
-darezljiv		
-darežljiv	133	
-dativ	80	
-deljiv	96	
-deminutiv	77	
-detektiv	740	
-digestiv		
-dijapozitiv	22	
-dimljiv		
-dirljiv	413	
-dispozitiv	40	
-div	1195	
-dobrostiv		
-dodirljiv		
-dojmljiv		
-dokaziv		
-dokučiv	10	
-dokučljiv		
-dopadljiv	556	
-dopustiv	25	
-dosetljiv	27	
-doskočljiv		
-dovitljiv	58	
-dremljiv		M
-drobljiv		M
-druželjubiv	135	
-durljiv		M
-džandrljiv		M
-eksploziv	813	
-frikativ		
-gadljiv	184	
-ganutljiv		
-genitiv	158	
-glagoljiv		M
-gnevljiv		M
-gnjevljiv		
-golicljiv		M
-goriv		
-gorljiv		
-gostoljubiv	153	
-gostoprimljiv		
-govorljiv	42	
-grabežljiv		
-grabljiv		
-gramziv	37	
-gramžljiv		
-grižljiv		M
-halapljiv	23	
-hiv		M
-hlapljiv		
-hranjiv	34	
-hranljiv	130	
-imperativ	3088	
-infinitiv	72	
-isceljiv		
-ishlapljiv		
-isključiv	327	
-iskoristiv	45	
-isparljiv		M
-isplativ	790	
-ispravljiv		
-istegljiv		M
-istinoljubiv	45	
-izbirljiv	73	
-izdržljiv	468	
-izdvojiv		
-izlečiv	137	
-izliv	557	
-izmenljiv		M
-izračunljiv		
-izreciv		
-izvediv		
-izvodiv		
-izvodljiv		M
-jestiv	77	
-jeziv	376	
-kažnjiv	128	
-kišljiv		
-kolebljiv	53	
-kolektiv	2858	
-komparativ	20	
-konjunktiv		
-korektiv	230	
-koristoljubiv	17	
-kradljiv		
-krasnorečiv	22	
-kriv	16552	
-krmeljiv	13	
-kurziv	276	
-kvarljiv	12	
-lajtmotiv	277	
-laksativ	100	
-lažljiv	39	
-leniv		
-lenjiv		M
-lepljiv	154	
-liv	294	
-lišajiv		M
-ljubopitljiv	20	
-lokativ	48	
-lomljiv	49	
-manljiv		
-marljiv	158	
-masiv	366	
-mašiv		
-memljiv	15	
-merljiv	192	
-milostiv	586	
-miroljubiv	240	
-mirotočiv		
-mnogoglagoljiv		
-molećiv	11	
-motiv	11275	
-mrvljiv		
-mučaljiv		
-nadmašiv		
-nadoknadiv		
-nadražljiv		
-naknadiv		M
-nakvasiv		
-naliv		
-nametljiv	87	
-naplativ		
-naprotiv	17222	
-narativ	312	
-naseljiv		
-nasloniv		
-nasrtljiv	23	
-naziv	32057	
-nebrižljiv		
-nedarežljiv		
-nedeljiv	94	
-nedodirljiv	329	
-nedokaziv		
-nedokučiv	93	
-nedopadljiv		
-nedopustiv	375	
-nedosetljiv		
-nedostiživ		
-nedruželjubiv		
-negativ	295	
-negnevljiv		
-negostoljubiv	27	
-neiscrpljiv		
-neiskaziv		M
-neispunjiv		
-neizbrisiv	591	
-neizbrojiv		M
-neizdrživ	156	
-neizdržljiv	42	
-neizgladiv		
-neizlečiv	53	
-neizmenjiv		
-neizmenljiv		M
-neizmeriv		
-neizraziv		M
-neizreciv	41	
-neizvodljiv	99	
-neizvršiv		M
-nejestiv		
-nekažnjiv		
-nekoristoljubiv		M
-nemarljiv		M
-nemerljiv	558	
-nemilostiv	35	
-nenadoknadiv	177	
-nenametljiv	262	
-nenaplativ	45	
-nenarušiv		
-nenarušljiv		
-neobazriv		
-neobjašnjiv	261	
-neoboriv	130	
-neobradiv		
-neocenjiv		
-neodbranjiv	53	
-neodeljiv		
-neodgodiv		
-neodgonetljiv		
-neodoljiv	448	
-neodredljiv		
-neodrživ	752	
-neodvojiv	225	
-neopipljiv	25	
-neopisiv	288	
-neopoziv	26	
-neoprostiv	110	
-neosetljiv	129	
-neosporiv	20	
-neostvariv	153	
-neostvarljiv		
-neosvojiv	46	
-neotklonjiv		
-neotuđiv	29	
-nepažljiv	57	
-nepobediv	266	
-nepodmitljiv	13	
-nepodnosiv		
-nepodnošljiv	471	
-nepogrešiv	381	
-nepogrešljiv		
-nepojmljiv	74	
-nepokolebljiv	300	
-nepokretljiv		M
-nepomirljiv	57	
-neponovljiv	589	
-nepopravljiv	117	
-nepopustljiv	92	
-neporeciv	32	
-nepotkupljiv	69	
-nepotopiv	20	
-nepoverljiv	194	
-nepovrediv	36	
-nepredusretljiv		
-nepreduzimljiv		M
-nepredvidiv	384	
-nepredvidljiv	159	
-nepremostiv	190	
-neprepoznatljiv	110	
-neprevodiv	29	
-neprihvatljiv	1516	
-neprijemčiv		
-neprilagodljiv		
-neprimenjiv	137	
-neprimenljiv		
-neprobavljiv		
-neprocenjiv	363	
-neprocenljiv		
-nepromenljiv	187	
-nepromočiv	15	
-nepronicljiv		
-neranjiv	28	
-neraskidiv	76	
-nerasvetljiv		
-nerazdeljiv		
-nerazdruživ		
-nerazdvojiv	31	
-nerazjašnjiv		
-nerazmrsiv	17	
-nerazrešiv	19	
-nerazumljiv	336	
-nerešiv	414	
-nesaglediv		
-nesagoriv		
-nesalomiv		
-nesalomljiv	10	
-nesavitljiv	19	
-nesavladiv	100	
-neshvatljiv	239	
-nesnalažljiv	15	
-nesnošljiv	36	
-nespojiv	89	
-nesravnjiv		
-nestrpljiv	459	
-nesumnjiv	520	
-nesusretljiv		
-nesvarljiv	10	
-nesvodljiv		
-netrpeljiv	52	
-neubedljiv	113	
-neugasiv	10	
-neuhvatljiv	203	
-neukrotiv	16	
-neukrotljiv		
-neulovljiv		
-neumoljiv	329	
-neuništiv	244	
-neupadljiv	118	
-neuporabiv		
-neuporabljiv		
-neuporediv		M
-neupotrebljiv	540	
-neuračunljiv	98	
-neuručiv		
-neuspavljiv		
-neustrašiv	194	
-neutaživ		
-neutešiv		
-neutoljiv		M
-neuverljiv		
-neuzdržljiv		
-neučtiv	14	
-nevidljiv	985	
-nezadrživ	84	
-nezajažljiv		M
-nezamenjiv	288	
-nezamenljiv	635	
-nezamisliv	616	
-nezanimljiv	229	
-nezapaljiv	51	
-nezaustavljiv	396	
-nezbunljiv		
-nezlobiv	61	
-nečastiv		
-nečitljiv	39	
-neškodljiv		
-neštedljiv		
-neživ		
-nominativ	93	
-normativ	207	
-nosiv	17	
-obazriv	541	
-objašnjiv	71	
-objektiv	2487	
-obnovljiv	118	
-oboriv		
-obradiv		
-obuhvativ		
-odaziv	293	
-odbaciv		
-odliv	1604	
-odrediv	25	
-odredljiv		M
-održiv	2135	
-održljiv		
-odvojiv	27	
-odziv	4041	
-opažljiv		
-opipljiv	331	
-opisiv		
-oporeziv	39	
-opoziv	764	
-oprostiv	11	
-optativ		
-opšiv		
-osetljiv	2767	
-osorljiv		
-osporiv		M
-osporljiv		
-ostaviv		
-ostvariv	396	
-ostvarljiv	170	
-osvetljiv		
-osvetoljubiv	77	
-otklonjiv		
-pamtljiv	25	
-pasiv	46	
-pažljiv	1166	
-pejorativ		
-piskutljiv		
-pišljiv		
-plativ	13	
-plačljiv	26	
-plašljiv	159	
-plesniv		
-plovdiv		
-pobediv		
-podliv		M
-podmitljiv	18	
-podnosiv		
-podnošljiv	265	
-podozriv	62	
-podrugljiv	88	
-podsmešljiv	41	
-pogrešiv		
-pohotljiv	12	
-pojmljiv	17	
-pokretljiv	120	
-pokriv		
-pokvarljiv		
-poluživ		
-pomirljiv	133	
-pomnjiv		M
-ponovljiv	29	
-popravljiv		
-popustljiv	175	
-poriv	766	
-potkupljiv	28	
-potrošljiv		
-poverljiv	284	
-povodljiv	58	
-povrativ		
-pozitiv	140	
-poziv	30541	
-pravdoljubiv	55	
-prašljiv		
-prebaciv		
-predarežljiv		
-predusretljiv	119	
-preduzimljiv	141	
-predvidiv	310	
-predvidljiv	257	
-prekriv		
-prekrstiv		
-preliv		M
-premostiv		
-prenosiv	254	
-preosetljiv	76	
-preporučiv		
-preporučljiv	314	
-prepoznatljiv	4081	
-prerogativ		M
-pretvoriv		M
-pretvorljiv		M
-prevodiv		
-prevodljiv		
-prevrtljiv	76	
-prezervativ	137	
-prezriv	49	
-prihvatljiv	3252	
-prijemčiv	246	
-prilagodljiv	531	
-prilepljiv		
-priliv	4393	
-primamljiv	359	
-primenjiv	501	
-primenljiv	576	
-primetljiv		
-prionljiv		
-pristupiv		
-pritvoriv		
-privredljiv		M
-priziv	225	
-pričljiv	102	
-probirljiv	52	
-proliv	1463	
-promenljiv	374	
-promjenjiv		J
-promoliv		
-pronicljiv	196	
-propustljiv		M
-protiv	278558	
-proverljiv	53	
-proziv	22	
-proždrljiv	25	
-pudljiv		
-purgativ		
-pušljiv		
-ranjiv	308	
-rasklopljiv		
-raspadljiv		
-raspaljiv		
-raspoloživ	397	
-raspoznatljiv		
-rastavljiv		
-rastegljiv	172	
-rastvorljiv	119	
-razdeljiv		
-razdražljiv	92	
-razdvojiv		
-razgovorljiv	16	
-razmenljiv		M
-razmetljiv	30	
-razrešiv		
-razumljiv	1562	
-recidiv	306	
-recitativ		
-rečitativ		
-rešiv	305	
-riv		
-rodoljubiv	37	
-sablažnjiv		
-sagledljiv		
-samoljubiv	24	
-samoodrživ	108	
-samoživ	42	
-sanjiv	55	
-savitljiv	96	
-savladiv	22	
-savladljiv		
-saziv	1288	
-sažaljiv	27	
-sedativ	195	
-shvatljiv	99	
-sipljiv		
-siv	626	
-sklopiv		
-skočiv		
-slatkorečiv		M
-slavoljubiv	25	
-sliv	441	
-slobodoljubiv		
-smenjiv		
-smrdljiv	75	
-smutljiv		
-snalažljiv	210	
-snebivljiv		M
-snishodljiv		M
-snošljiv	14	
-spavljiv		
-spaziv		
-spojiv	25	
-spoznatljiv		
-sramežljiv	37	
-srebroljubiv		M
-stativ	286	
-stidljiv	333	
-strašljiv	21	
-strpljiv	949	
-sumnjiv	1204	
-superlativ	45	
-supstantiv		
-surevnjiv		M
-susretljiv	14	
-suzdržljiv		
-svadljiv	39	
-svarljiv	59	
-svodljiv		
-svrabljiv		
-svrbljiv		
-tamnosiv		
-tegljiv		M
-topljiv	12	
-trpeljiv	84	
-trpljiv		
-trudoljubiv		M
-tugaljiv	14	
-ubedljiv	1706	
-ugodljiv		M
-uhvatljiv	15	
-uključiv	215	
-uništiv		
-uočljiv	753	
-upadljiv	359	
-upaljiv		M
-upečatljiv	1103	
-upliv	743	
-uporediv	255	
-upotrebljiv	775	
-upravljiv	180	
-uračunljiv	63	
-urokljiv		
-useljiv		
-uspavljiv		
-ustrpljiv		
-usvojljiv		
-uteriv		
-utešljiv		
-utoljiv		
-utuživ		
-uverljiv	454	
-uvjerljiv		J
-uvredljiv	573	
-uzbudljiv	1822	
-uzdržljiv	38	
-učiniv		
-učtiv	131	
-ušljiv		M
-varljiv	95	
-vašljiv		
-vidljiv	3556	
-vlastoljubiv	25	
-vododržljiv		
-vokativ	50	
-vrativ		
-zabavljiv		M
-zaboravljiv		
-zadovoljiv		M
-zagrižljiv		
-zagušljiv	72	
-zajedljiv	93	
-zaliv	1474	
-zamamljiv		
-zamenjiv	23	
-zamenljiv	45	
-zamisliv	101	
-zanemariv		
-zanemarljiv	1207	
-zanimljiv	11544	
-zapaljiv	151	
-zavaliv		
-zavarljiv		
-zavidljiv		M
-zavodljiv	271	
-zazorljiv		M
-zbunljiv		M
-zebljiv		
-zemljiv		M
-zimljiv		M
-zimogrožljiv		M
-zlobiv		M
-zlopamtljiv		M
-ćudljiv	38	
-ćutljiv	202	
-častoljubiv	12	
-čeznutljiv		
-čežnjiv	10	
-čitljiv	328	
-čovekoljubiv	67	
-šaljiv	271	
-škakljiv	35	
-škodljiv	32	
-štedljiv	504	
-šutljiv		
-žalostiv	35	
-živ	9355	
-žižljiv		
-ljepljiv		
-neosjetljiv		
-nepobjediv		
-nepovjerljiv		
-neprocjenjiv		
-nerješiv		
-nezamjenjiv		
-osjetljiv		
-povjerljiv		
-preosjetljiv		
-primjenjiv		M
-slatkorječiv		
-ubjedljiv		
+ablativ			3
+abraziv			2
+aditiv	325		2
+adjektiv			3
+akreditiv	151		2
+aktiv	700		2
+akuzativ	80		4
+antidepresiv	192		2
+apelativ			2
+aperitiv	492		2
+arhiv	2603		2
+augmentativ	13		4
+baciv			2
+biv			1
+blagoglagoljiv	13		2
+blagorečiv		M	2
+bogobojažljiv	65		2
+bogoljubiv			2
+bojažljiv	46		2
+bolećiv	47		2
+bolešljiv	94		2
+brbljiv	28		2
+brižljiv	52		2
+brljiv			2
+celiv			2
+cepljiv		M	2
+crvljiv			2
+darezljiv			2
+darežljiv	133		2
+dativ	80		2
+deljiv	96		2
+deminutiv	77		4
+detektiv	740		2
+digestiv			2
+dijapozitiv	22		2
+dimljiv			2
+dirljiv	413		2
+dispozitiv	40		2
+div	1195		1
+dobrostiv			2
+dodirljiv			2
+dojmljiv			2
+dokaziv			2
+dokučiv	10		2
+dokučljiv			2
+dopadljiv	556		2
+dopustiv	25		2
+dosetljiv	27		2
+doskočljiv			2
+dovitljiv	58		2
+dremljiv		M	2
+drobljiv		M	2
+druželjubiv	135		2
+durljiv		M	2
+džandrljiv		M	2
+eksploziv	813		2
+frikativ			3
+gadljiv	184		2
+ganutljiv			2
+genitiv	158		3
+glagoljiv		M	2
+gnevljiv		M	2
+gnjevljiv			2
+golicljiv		M	2
+goriv			2
+gorljiv			2
+gostoljubiv	153		2
+gostoprimljiv			2
+govorljiv	42		2
+grabežljiv			2
+grabljiv			2
+gramziv	37		2
+gramžljiv			2
+grižljiv		M	2
+halapljiv	23		2
+hiv		M	1
+hlapljiv			2
+hranjiv	34		2
+hranljiv	130		2
+imperativ	3088		4
+infinitiv	72		4
+isceljiv			2
+ishlapljiv			2
+isključiv	327		2
+iskoristiv	45		2
+isparljiv		M	2
+isplativ	790		2
+ispravljiv			2
+istegljiv		M	2
+istinoljubiv	45		2
+izbirljiv	73		2
+izdržljiv	468		2
+izdvojiv			2
+izlečiv	137		2
+izliv	557		2
+izmenljiv		M	2
+izračunljiv			2
+izreciv			2
+izvediv			2
+izvodiv			2
+izvodljiv		M	2
+jestiv	77		2
+jeziv	376		2
+kažnjiv	128		2
+kišljiv			2
+kolebljiv	53		2
+kolektiv	2858		3
+komparativ	20		4
+konjunktiv			2
+korektiv	230		2
+koristoljubiv	17		2
+kradljiv			2
+krasnorečiv	22		2
+kriv	16552		1
+krmeljiv	13		2
+kurziv	276		2
+kvarljiv	12		2
+lajtmotiv	277		2
+laksativ	100		2
+lažljiv	39		2
+leniv			2
+lenjiv		M	2
+lepljiv	154		2
+liv	294		1
+lišajiv		M	2
+ljubopitljiv	20		2
+lokativ	48		3
+lomljiv	49		2
+manljiv			2
+marljiv	158		2
+masiv	366		2
+mašiv			2
+memljiv	15		2
+merljiv	192		2
+milostiv	586		2
+miroljubiv	240		2
+mirotočiv			2
+mnogoglagoljiv			2
+molećiv	11		2
+motiv	11275		2
+mrvljiv			2
+mučaljiv			2
+nadmašiv			2
+nadoknadiv			2
+nadražljiv			2
+naknadiv		M	2
+nakvasiv			2
+naliv			2
+nametljiv	87		2
+naplativ			2
+naprotiv	17222		3
+narativ	312		2
+naseljiv			2
+nasloniv			2
+nasrtljiv	23		2
+naziv	32057		2
+nebrižljiv			2
+nedarežljiv			2
+nedeljiv	94		2
+nedodirljiv	329		2
+nedokaziv			2
+nedokučiv	93		2
+nedopadljiv			2
+nedopustiv	375		2
+nedosetljiv			2
+nedostiživ			2
+nedruželjubiv			2
+negativ	295		2
+negnevljiv			2
+negostoljubiv	27		2
+neiscrpljiv			2
+neiskaziv		M	2
+neispunjiv			2
+neizbrisiv	591		2
+neizbrojiv		M	2
+neizdrživ	156		2
+neizdržljiv	42		2
+neizgladiv			2
+neizlečiv	53		2
+neizmenjiv			2
+neizmenljiv		M	2
+neizmeriv			2
+neizraziv		M	2
+neizreciv	41		2
+neizvodljiv	99		2
+neizvršiv		M	2
+nejestiv			2
+nekažnjiv			2
+nekoristoljubiv		M	2
+nemarljiv		M	2
+nemerljiv	558		2
+nemilostiv	35		2
+nenadoknadiv	177		2
+nenametljiv	262		2
+nenaplativ	45		2
+nenarušiv			2
+nenarušljiv			2
+neobazriv			2
+neobjašnjiv	261		2
+neoboriv	130		2
+neobradiv			2
+neocenjiv			2
+neodbranjiv	53		2
+neodeljiv			2
+neodgodiv			2
+neodgonetljiv			2
+neodoljiv	448		2
+neodredljiv			2
+neodrživ	752		2
+neodvojiv	225		2
+neopipljiv	25		2
+neopisiv	288		2
+neopoziv	26		2
+neoprostiv	110		2
+neosetljiv	129		2
+neosporiv	20		2
+neostvariv	153		2
+neostvarljiv			2
+neosvojiv	46		2
+neotklonjiv			2
+neotuđiv	29		2
+nepažljiv	57		2
+nepobediv	266		2
+nepodmitljiv	13		2
+nepodnosiv			2
+nepodnošljiv	471		2
+nepogrešiv	381		2
+nepogrešljiv			2
+nepojmljiv	74		2
+nepokolebljiv	300		2
+nepokretljiv		M	2
+nepomirljiv	57		2
+neponovljiv	589		2
+nepopravljiv	117		2
+nepopustljiv	92		2
+neporeciv	32		2
+nepotkupljiv	69		2
+nepotopiv	20		2
+nepoverljiv	194		2
+nepovrediv	36		2
+nepredusretljiv			2
+nepreduzimljiv		M	2
+nepredvidiv	384		2
+nepredvidljiv	159		2
+nepremostiv	190		2
+neprepoznatljiv	110		2
+neprevodiv	29		2
+neprihvatljiv	1516		2
+neprijemčiv			2
+neprilagodljiv			2
+neprimenjiv	137		2
+neprimenljiv			2
+neprobavljiv			2
+neprocenjiv	363		2
+neprocenljiv			2
+nepromenljiv	187		2
+nepromočiv	15		2
+nepronicljiv			2
+neranjiv	28		2
+neraskidiv	76		2
+nerasvetljiv			2
+nerazdeljiv			2
+nerazdruživ			2
+nerazdvojiv	31		2
+nerazjašnjiv			2
+nerazmrsiv	17		2
+nerazrešiv	19		2
+nerazumljiv	336		2
+nerešiv	414		2
+nesaglediv			2
+nesagoriv			2
+nesalomiv			2
+nesalomljiv	10		2
+nesavitljiv	19		2
+nesavladiv	100		2
+neshvatljiv	239		2
+nesnalažljiv	15		2
+nesnošljiv	36		2
+nespojiv	89		2
+nesravnjiv			2
+nestrpljiv	459		2
+nesumnjiv	520		2
+nesusretljiv			2
+nesvarljiv	10		2
+nesvodljiv			2
+netrpeljiv	52		2
+neubedljiv	113		2
+neugasiv	10		2
+neuhvatljiv	203		2
+neukrotiv	16		2
+neukrotljiv			2
+neulovljiv			2
+neumoljiv	329		2
+neuništiv	244		2
+neupadljiv	118		2
+neuporabiv			2
+neuporabljiv			2
+neuporediv		M	2
+neupotrebljiv	540		2
+neuračunljiv	98		2
+neuručiv			2
+neuspavljiv			2
+neustrašiv	194		2
+neutaživ			2
+neutešiv			2
+neutoljiv		M	2
+neuverljiv			2
+neuzdržljiv			2
+neučtiv	14		2
+nevidljiv	985		2
+nezadrživ	84		2
+nezajažljiv		M	2
+nezamenjiv	288		2
+nezamenljiv	635		2
+nezamisliv	616		2
+nezanimljiv	229		2
+nezapaljiv	51		2
+nezaustavljiv	396		2
+nezbunljiv			2
+nezlobiv	61		2
+nečastiv			2
+nečitljiv	39		2
+neškodljiv			2
+neštedljiv			2
+neživ			2
+nominativ	93		4
+normativ	207		2
+nosiv	17		2
+obazriv	541		2
+objašnjiv	71		2
+objektiv	2487		2
+obnovljiv	118		2
+oboriv			2
+obradiv			2
+obuhvativ			2
+odaziv	293		3
+odbaciv			2
+odliv	1604		2
+odrediv	25		2
+odredljiv		M	2
+održiv	2135		2
+održljiv			2
+odvojiv	27		2
+odziv	4041		2
+opažljiv			2
+opipljiv	331		2
+opisiv			2
+oporeziv	39		2
+opoziv	764		2
+oprostiv	11		2
+optativ			2
+opšiv			2
+osetljiv	2767		2
+osorljiv			2
+osporiv		M	2
+osporljiv			2
+ostaviv			2
+ostvariv	396		2
+ostvarljiv	170		2
+osvetljiv			2
+osvetoljubiv	77		2
+otklonjiv			2
+pamtljiv	25		2
+pasiv	46		2
+pažljiv	1166		2
+pejorativ			4
+piskutljiv			2
+pišljiv			2
+plativ	13		2
+plačljiv	26		2
+plašljiv	159		2
+plesniv			2
+plovdiv			2
+pobediv			2
+podliv		M	2
+podmitljiv	18		2
+podnosiv			2
+podnošljiv	265		2
+podozriv	62		2
+podrugljiv	88		2
+podsmešljiv	41		2
+pogrešiv			2
+pohotljiv	12		2
+pojmljiv	17		2
+pokretljiv	120		2
+pokriv			2
+pokvarljiv			2
+poluživ			2
+pomirljiv	133		2
+pomnjiv		M	2
+ponovljiv	29		2
+popravljiv			2
+popustljiv	175		2
+poriv	766		2
+potkupljiv	28		2
+potrošljiv			2
+poverljiv	284		2
+povodljiv	58		2
+povrativ			2
+pozitiv	140		3
+poziv	30541		2
+pravdoljubiv	55		2
+prašljiv			2
+prebaciv			2
+predarežljiv			2
+predusretljiv	119		2
+preduzimljiv	141		2
+predvidiv	310		2
+predvidljiv	257		2
+prekriv			2
+prekrstiv			2
+preliv		M	2
+premostiv			2
+prenosiv	254		2
+preosetljiv	76		2
+preporučiv			2
+preporučljiv	314		2
+prepoznatljiv	4081		2
+prerogativ		M	2
+pretvoriv		M	2
+pretvorljiv		M	2
+prevodiv			2
+prevodljiv			2
+prevrtljiv	76		2
+prezervativ	137		2
+prezriv	49		2
+prihvatljiv	3252		2
+prijemčiv	246		2
+prilagodljiv	531		2
+prilepljiv			2
+priliv	4393		2
+primamljiv	359		2
+primenjiv	501		2
+primenljiv	576		2
+primetljiv			2
+prionljiv			2
+pristupiv			2
+pritvoriv			2
+privredljiv		M	2
+priziv	225		2
+pričljiv	102		2
+probirljiv	52		2
+proliv	1463		2
+promenljiv	374		2
+promjenjiv		J	2
+promoliv			2
+pronicljiv	196		2
+propustljiv		M	2
+protiv	278558		2
+proverljiv	53		2
+proziv	22		2
+proždrljiv	25		2
+pudljiv			2
+purgativ			2
+pušljiv			2
+ranjiv	308		2
+rasklopljiv			2
+raspadljiv			2
+raspaljiv			2
+raspoloživ	397		2
+raspoznatljiv			2
+rastavljiv			2
+rastegljiv	172		2
+rastvorljiv	119		2
+razdeljiv			2
+razdražljiv	92		2
+razdvojiv			2
+razgovorljiv	16		2
+razmenljiv		M	2
+razmetljiv	30		2
+razrešiv			2
+razumljiv	1562		2
+recidiv	306		2
+recitativ			2
+rečitativ			2
+rešiv	305		2
+riv			1
+rodoljubiv	37		2
+sablažnjiv			2
+sagledljiv			2
+samoljubiv	24		2
+samoodrživ	108		2
+samoživ	42		2
+sanjiv	55		2
+savitljiv	96		2
+savladiv	22		2
+savladljiv			2
+saziv	1288		2
+sažaljiv	27		2
+sedativ	195		2
+shvatljiv	99		2
+sipljiv			2
+siv	626		1
+sklopiv			2
+skočiv			2
+slatkorečiv		M	2
+slavoljubiv	25		2
+sliv	441		1
+slobodoljubiv			2
+smenjiv			2
+smrdljiv	75		2
+smutljiv			2
+snalažljiv	210		2
+snebivljiv		M	2
+snishodljiv		M	2
+snošljiv	14		2
+spavljiv			2
+spaziv			2
+spojiv	25		2
+spoznatljiv			2
+sramežljiv	37		2
+srebroljubiv		M	2
+stativ	286		2
+stidljiv	333		2
+strašljiv	21		2
+strpljiv	949		2
+sumnjiv	1204		2
+superlativ	45		4
+supstantiv			2
+surevnjiv		M	2
+susretljiv	14		2
+suzdržljiv			2
+svadljiv	39		2
+svarljiv	59		2
+svodljiv			2
+svrabljiv			2
+svrbljiv			2
+tamnosiv			2
+tegljiv		M	2
+topljiv	12		2
+trpeljiv	84		2
+trpljiv			2
+trudoljubiv		M	2
+tugaljiv	14		2
+ubedljiv	1706		2
+ugodljiv		M	2
+uhvatljiv	15		2
+uključiv	215		2
+uništiv			2
+uočljiv	753		2
+upadljiv	359		2
+upaljiv		M	2
+upečatljiv	1103		2
+upliv	743		2
+uporediv	255		2
+upotrebljiv	775		2
+upravljiv	180		2
+uračunljiv	63		2
+urokljiv			2
+useljiv			2
+uspavljiv			2
+ustrpljiv			2
+usvojljiv			2
+uteriv			2
+utešljiv			2
+utoljiv			2
+utuživ			2
+uverljiv	454		2
+uvjerljiv		J	2
+uvredljiv	573		2
+uzbudljiv	1822		2
+uzdržljiv	38		2
+učiniv			2
+učtiv	131		2
+ušljiv		M	2
+varljiv	95		2
+vašljiv			2
+vidljiv	3556		2
+vlastoljubiv	25		2
+vododržljiv			2
+vokativ	50		3
+vrativ			2
+zabavljiv		M	2
+zaboravljiv			2
+zadovoljiv		M	2
+zagrižljiv			2
+zagušljiv	72		2
+zajedljiv	93		2
+zaliv	1474		2
+zamamljiv			2
+zamenjiv	23		2
+zamenljiv	45		2
+zamisliv	101		2
+zanemariv			2
+zanemarljiv	1207		2
+zanimljiv	11544		2
+zapaljiv	151		2
+zavaliv			2
+zavarljiv			2
+zavidljiv		M	2
+zavodljiv	271		2
+zazorljiv		M	2
+zbunljiv		M	2
+zebljiv			2
+zemljiv		M	2
+zimljiv		M	2
+zimogrožljiv		M	2
+zlobiv		M	2
+zlopamtljiv		M	2
+ćudljiv	38		2
+ćutljiv	202		2
+častoljubiv	12		2
+čeznutljiv			2
+čežnjiv	10		2
+čitljiv	328		2
+čovekoljubiv	67		2
+šaljiv	271		2
+škakljiv	35		2
+škodljiv	32		2
+štedljiv	504		2
+šutljiv			2
+žalostiv	35		2
+živ	9355		1
+žižljiv			2
+ljepljiv			2
+neosjetljiv			2
+nepobjediv			2
+nepovjerljiv			2
+neprocjenjiv			2
+nerješiv			2
+nezamjenjiv			2
+osjetljiv			2
+povjerljiv			2
+preosjetljiv			2
+primjenjiv		M	2
+slatkorječiv			2
+ubjedljiv			2

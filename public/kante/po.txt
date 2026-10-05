@@ -1,52 +1,52 @@
 46
-antilopo		
-apropo		M
-crvenkapo		
-depo	554	
-ekipo	17	
-ekspo		
-evropo		
-gestapo		
-glupo	5493	
-gospo	79	
-grupo		
-hrpo		
-kampo		
-kapo	10	
-korpo		
-krpo		
-kupo		
-lepo	88552	
-lipo	17	
-naslepo	110	
-papo		
-pepo		
-pipo		
-po	1218580	
-popo		
-poskupo		M
-preglupo		
-prelepo	1019	
-preljepo		J
-preskupo	483	
-priglupo	21	
-prpo		
-pumpo		
-pupo		
-rampo		
-repo		
-simpo		
-skupo	7910	
-slepo	2795	
-stupo		
-svirepo	424	
-tempo	5219	
-tripo		
-tupo	269	
-šapo		M
-šargarepo		
-lijepo	3921	
-ljepo		
-naslijepo	12	
-prelijepo	46	
-slijepo	181	
+antilopo			2
+apropo		M	2
+crvenkapo			2
+depo	554		2
+ekipo	17		2
+ekspo			2
+evropo			2
+gestapo			2
+glupo	5493		2
+gospo	79		2
+grupo			2
+hrpo			2
+kampo			2
+kapo	10		2
+korpo			2
+krpo			2
+kupo			2
+lepo	88552		2
+lipo	17		2
+naslepo	110		3
+papo			2
+pepo			2
+pipo			2
+po	1218580		1
+popo			2
+poskupo		M	2
+preglupo			2
+prelepo	1019		2
+preljepo		J	2
+preskupo	483		2
+priglupo	21		2
+prpo			2
+pumpo			2
+pupo			2
+rampo			2
+repo			2
+simpo			2
+skupo	7910		2
+slepo	2795		2
+stupo			2
+svirepo	424		2
+tempo	5219		2
+tripo			2
+tupo	269		2
+šapo		M	2
+šargarepo			2
+lijepo	3921		2
+ljepo			2
+naslijepo	12		4
+prelijepo	46		2
+slijepo	181		3

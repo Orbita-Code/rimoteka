@@ -29,7 +29,7 @@ const APP = path.join(ROOT, 'public', 'app.js');
 /* Svi fajlovi sa podacima koje `app.js` skida sa adrese sa `?v=`. Kad se doda nov,
    dopisuje se ovde — i test i ova skripta ga tada odmah pokrivaju. */
 export const FAJLOVI = [
-  'reci.txt', 'reci_jekavica.txt', 'definicije.json',
+  'reci.txt', 'reci_jekavica.txt', 'akcenat.txt', 'akcenat_jekavica.txt', 'definicije.json',
   'frekvencija.json', 'sinonimi.json', 'matica.json', 'jekavski.json',
   'igra-reci.json',
 ];

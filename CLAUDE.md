@@ -283,20 +283,19 @@ oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
 - NOVE reči za isključenje dodavati SAMO na eksplicitni zahtev korisnice.
 - **NE uvoditi globalna pravila bez odobrenja** — svaka reč se razmatra posebno.
 
-### 6.2a Rangiranje rima — ISTI BROJ SLOGOVA JE NAJBOLJA RIMA
+### 6.2a Rangiranje rima — PRAVA RIMA POČINJE OD NAGLAŠENOG SLOGA (od 05.10.2026)
 
-**„Najbolje rime" = reči sa istim brojem slogova kao tražena reč.**
-**„Dobre rime" = drugačiji broj slogova.**
-Redosled unutar grupe: bliži broj slogova → duži zajednički završetak → učestalost.
+**„Najbolje rime" = ista akcenatska jedinica kao tražena reč** (deo od naglašenog sloga; kod uzlaznog akcenta od sloga
+iza njega); kad takvih ima manje od 3, rezerva su reči sa akcentom na istom slogu od kraja i istim brojem slogova
+(slȍbodan → pȍgodan). **„Dobre rime" = isti završetak, akcenat drugde.** Redosled unutar grupe: bliži broj slogova → duži zajednički
+završetak → učestalost. Podatak o akcentu po reči: `public/akcenat.txt` (+ `_jekavica`), pravi `build/akcenat.py`
+(Wiktionary + srLex + pravila) – **pokreće se posle svake izmene rečnika, pre `kante.py`**.
 
-Razlog: prava rima počinje od poslednjeg **naglašenog** samoglasnika, a podatke
-o akcentu nemamo. Isti broj slogova je najbolja zamena. Po starom pravilu
-(„više zajedničkih slova = bolja rima") za „rima" su na vrh izlazili
-*stvarima, centrima, dobrima* — gde je `rima` nenaglašeno — a `štima`, prava
-rima, padalo je na 111. mesto.
+Razlog: prijava vlasnice 03.10.2026 – za „televizor" je „revizor" bio u „Dobrim", a „ambasador", „ventilator" u
+„Najboljima", jer se delilo po broju slogova. Sada: revizor, retrovizor, prizor (-izor) u „Najbolje"; ambasador (-ador) u „Dobre".
+Pravilo 27.07.–05.10. (isti broj slogova) i starije (više zajedničkih slova) se **ne vraćaju**.
 
-Detaljno: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a.
-**Ne vraćati staro pravilo.**
+Detaljno, sa primerima i izvorima: `GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md`, poglavlje 7a; `AUDIT/akcenti/`.
 
 ### 6.2a-1 Kvačica „po azbuci" (08.09.2026, prijava korisnika Dragana M.)
 
@@ -305,23 +304,20 @@ pismu na ekranu: **azbuka** za ćirilicu (`RED_AZBUKA`), **abeceda** za latinicu
 redosled (ћ, џ, љ). Izbor se pamti (`rimoteka_azbuka`). Uz to: pilule u grupi su iste širine (`poravnajCipove`,
 najviše 48 % reda) – njegova prijava; kartica nad reči se otvara samo klikom (odluka vlasnice, 9d). Ne vraćati. Grupa rezerve se zove „Isti završni slog (nisu prave rime)".
 
-### 6.2b Tri merila redosleda — ZAPAMTI REDOM, i ne pretpostavljaj
+### 6.2b Merila — ZAPAMTI REDOM, i ne pretpostavljaj
 
-Kod: `app.js:593` (`strong.sort`), `:630` (rezervna grupa), `:685` („šire rime").
+Kod: `app.js` `doRhymes` (`strong.sort`, podela `istaJedinica`), `gen_pages.py` (`akc_key`, `AKCK`).
 
-| Red | Merilo | Koliko odlučuje |
+| Red | Merilo | Šta radi |
 |---|---|---|
-| **1** | **bliži broj slogova** traženoj reči | **najviše** — po tome se i deli na „Najbolje" / „Dobre rime" (`:616–617`) |
-| **2** | duži zajednički završetak | srednje |
-| **3** | učestalost (`RANK`) | **najmanje** — samo razdvaja reči koje su izjednačene po 1 i 2 |
+| **0** | **ista akcenatska jedinica** (`AKC`) | **deli** na „Najbolje" / „Dobre" |
+| 1 | bliži broj slogova traženoj reči | redosled unutar grupe |
+| 2 | duži zajednički završetak | redosled unutar grupe |
+| 3 | učestalost (`RANK`) | razdvaja izjednačene |
 
-> **ZABRANJENO tvrditi bilo šta o redosledu rima bez pokretanja pravog algoritma.**
-> 30.07.2026. je jedna sesija (Claude) tvrdila vlasnici da „`voda` pada na 31. mesto od
-> 99 rima za `sloboda`" — jer je u proveri sortirala **samo po učestalosti** i preskočila
-> merilo 1 i 2. Vlasnica je to uhvatila. Stvarno stanje: `sloboda` (3 sloga) i `voda`
-> (2 sloga) nisu ni u istoj grupi — `voda` je u „Dobrim rimama", a „Najbolje rime" za
-> `voda` su `svoda, proda, boda, broda, koda, moda, hoda` — tačno kako pravilo nalaže.
-> **Ako proveravaš redosled, prepiši sva tri merila iz `app.js:593`, ne jedno.**
+> **ZABRANJENO tvrditi bilo šta o redosledu rima bez pokretanja pravog algoritma** (30.07.2026. je sesija vlasnici
+> prijavila broj koji na sajtu ne postoji jer je simulirala samo jedno merilo). Za proveru: `scripts/akcenti-simulacija.py <reč>`
+> ili otvoriti sajt. Primer stvarnog stanja od 05.10.: „sloboda" → voda, loboda, naroda u „Najbolje"; vojvoda u „Dobre".
 
 ### 6.2c Reč BEZ frekvencije pada ispod reči koja se pojavila JEDAN put
 
@@ -732,6 +728,7 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
 | **Brzina `gen_pages.py`** | 09.09.2026: bliske rime se biraju iz kanti po završetku (`sufgroup`/`top_slicne`), ne sortiranjem 55.000 kandidata po reči – 43 s umesto 5 min 36 s, isti izlaz. **Nikad commit dok generator radi** (obrisao je 1.990 strana iz repoa 09.09.; pravilo u PROPUSTI). |
 | **`igra-reci.json`** | reči koje IGRA zadaje (odluka vlasnice 08.09.2026: samo imenice, glagoli i pridevi od 2 do 4 sloga; 6.634 reči). Pravi ga `node test/igra-bazen.mjs && python3 scripts/igra-reci-napravi.py`, pa `node scripts/osvezi-verzije-podataka.mjs`. Skida se tek kad se igra otvori; ako ne stigne za 1,5 s, igra pada na stari bazen. Kockica i dalje koristi bazen od 8.000. |
+| **`public/akcenat.txt`** (05.10.2026) | akcenat po reči, red po red uz `reci.txt` (+ `akcenat_jekavica.txt`): od kog sloga od kraja počinje prava rima. Pravi `python3 build/akcenat.py` (Wiktionary `build/akcenti-osnove.json` + srLex + pravila) – **posle svake izmene rečnika, pre `kante.py`** (kante nose akcenat kao 4. kolonu). Alat i generator iz toga prave `akcKey`/`AKC` i po tome dele „Najbolje"/„Dobre". Test 2b pada ako akcenat nije učitan ili ako televizor/revizor nisu u istoj grupi. |
 | **`public/kante/`** (22.09.2026) | rečnik po kantama za prvu rimu pre celog rečnika (PF-1). Pravi `python3 build/kante.py` (posle SVAKE izmene `reci.txt`/`reci_jekavica.txt`/`frekvencija.json`/`matica.json`/`jekavski.json`), pa `node scripts/osvezi-verzije-podataka.mjs` (upisuje `KANTE_V` u `app.js`). Test 59 pada ako se manifest i `KANTE_V` razilaze ili ako kanta daje drugačiji spisak od celog rečnika. |
 | **`public/app.min.js`** (22.09.2026) | minifikovan `app.js`, pravi ga `osvezi-verzije-podataka.mjs` (ili `node scripts/minifikuj.mjs`); nginx i lokalni test-server ga serviraju POD `/app.js`. **Nikad ga ne uređivati ručno**; test 59 pada ako mu otisak ne odgovara `app.js`. |
 | **`nginx-kanon-rec.map`** (22.09.2026) | `?rec=` → kanonikal strane reči u sirovom HTML-u (SEO-2); piše ga `gen_pages.py`, kopira Dockerfile, proverava `nginx-provera.sh` 3b. |

@@ -10,6 +10,17 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0c. STANJE 05.10.2026 – RIME PO AKCENTU (odluka vlasnice „da, ugradi akcente"), NEOBJAVLJENO – čeka „da" za push
+- **Zašto:** prijava vlasnice 03.10.: „televizor" → najbolje ambasador, ventilator; revizor u „Dobrim". Podela je išla po broju slogova.
+- **Šta je ugrađeno:** `public/akcenat.txt` (+ `_jekavica`), broj po reči = od kog sloga od kraja počinje prava rima; pravi `build/akcenat.py`
+  iz `build/akcenti-osnove.json` (engleski Wiktionary, 28.934 akcentovane osnove, CC BY-SA) + srLex (oblik → osnova) + pravila.
+  Pokrivenost: pravi podatak 136.426 reči (48 %), pravilo 1–2 sloga 15.846, predviđeno po završetku 33.726, podrazumevano 101.492.
+  `app.js`: `AKC/AKCMAP/AKCN`, `akcKey`; podela `doRhymes` po akcenatskoj jedinici + rezerva (akcenat na istom slogu, kad strogih < 3) +
+  ukupno do 180 reči; kante nose akcenat kao 4. kolonu (manifest ima otisak sadržaja → `KANTE_V` se menja); `gen_pages.py` 1:1.
+  Tekstovi na sajtu („isti broj slogova") prepisani; test 2b (akcenat učitan, televizor/revizor, rima/stvarima, sloboda/voda), 10 fajlova podataka.
+- **Dokumentacija:** GRAMATIKA 7a (novo pravilo, tabela primera, izvori), CLAUDE 6.2a/6.2b/9f, PROPUSTI (zamena za akcenat bez provere), TESTING.
+- **Sledeće:** lanac protiv produkcije posle objave; odluke vlasnice za SJ-5 grupu C i 42 sporne; pun audit (poslednji 22.09.).
+
 ## 0b. STANJE 01.10.2026 – SJ-5 UNET, TEST U 4 RADNIKA
 - **Rečnik:** 282.180 reči u `reci.txt` (bilo 279.862), 5.358 u ijekavici; 290.159 objašnjenja. Unos po odluci vlasnice
   (`scripts/sj5-unesi.py`, dnevnik `AUDIT/SJ-5-razvrstano/UNOS-2026-10-01.md`). Kante, definicije po slovima, verzije, strane regenerisane;

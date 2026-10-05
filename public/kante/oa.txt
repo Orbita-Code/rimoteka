@@ -1,52 +1,52 @@
 51
-biroa	3106	
-bistroa	38	
-boa	144	
-bordoa	307	
-delakroa		
-depoa	526	
-didroa		
-džudoa		
-fransoa		
-fukoa		
-gestapoa		
-getoa		
-godoa		
-gunoa		
-hidrozoa		
-igoa		
-informbiroa		
-jojoa		
-kakaoa		
-kinoa		
-korzoa		
-lavaboa		
-logoa	571	
-lotoa		
-makronivoa		
-maoa		
-metroa	1815	
-mikronivoa		
-moroa		
-nivoa	32178	
-noa		
-oboa	55	
-panoa	610	
-peroa		
-pesoa		
-pežoa		
-platoa	1154	
-politbiroa	204	
-protozoa		
-remboa		
-renoa		
-rešoa		
-rokokoa	105	
-rusoa		
-sakoa	330	
-samoa		
-sinaloa		
-sumoa		
-torzoa		
-vaterloa		
-šenoa		
+biroa	3106		2
+bistroa	38		2
+boa	144		2
+bordoa	307		2
+delakroa			2
+depoa	526		2
+didroa			2
+džudoa			2
+fransoa			2
+fukoa			2
+gestapoa			2
+getoa			2
+godoa			2
+gunoa			2
+hidrozoa			2
+igoa			2
+informbiroa			2
+jojoa			2
+kakaoa			2
+kinoa			2
+korzoa			2
+lavaboa			2
+logoa	571		2
+lotoa			2
+makronivoa			2
+maoa			2
+metroa	1815		2
+mikronivoa			2
+moroa			2
+nivoa	32178		2
+noa			2
+oboa	55		2
+panoa	610		2
+peroa			2
+pesoa			2
+pežoa			2
+platoa	1154		2
+politbiroa	204		2
+protozoa			2
+remboa			2
+renoa			2
+rešoa			2
+rokokoa	105		2
+rusoa			2
+sakoa	330		2
+samoa			2
+sinaloa			2
+sumoa			2
+torzoa			2
+vaterloa			2
+šenoa			2

@@ -1,23 +1,23 @@
 22
-Pariz		
-antifriz	305	
-deniz		
-friz	191	
-grimiz		
-griz	419	
-hafiz		
-idriz		
-iz	1831411	
-kviz	1584	
-markiz		M
-mihiz		
-niz	51041	
-ramiz		
-ruiz		
-seiz		
-serviz		M
-striptiz	429	
-tirkiz	128	
-ugriz	198	
-čankoliz		
-čikiriz		
+Pariz			2
+antifriz	305		2
+deniz			2
+friz	191		1
+grimiz			2
+griz	419		1
+hafiz			2
+idriz			2
+iz	1831411		1
+kviz	1584		1
+markiz		M	2
+mihiz			2
+niz	51041		1
+ramiz			2
+ruiz			2
+seiz			2
+serviz		M	2
+striptiz	429		2
+tirkiz	128		2
+ugriz	198		2
+čankoliz			2
+čikiriz			2

@@ -1,4 +1,4 @@
 3
-brz	9020	
-prebrz	102	
-trz		
+brz	9020		1
+prebrz	102		2
+trz			1

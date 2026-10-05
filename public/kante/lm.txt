@@ -1,10 +1,10 @@
 9
-Stokholm		
-film	73765	
-malkolm		
-mikrofilm	41	
-napalm	66	
-palm		
-psalm		
-vilhelm		
-čisholm		
+Stokholm			2
+film	73765		1
+malkolm			2
+mikrofilm	41		2
+napalm	66		2
+palm			1
+psalm			1
+vilhelm			2
+čisholm			2

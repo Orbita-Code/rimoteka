@@ -1,358 +1,358 @@
 344
-Kijev		
-alenićev		
-andrejev		
-andrićev		
-antićev		
-antonijev		
-apotekarev		
-aveljev		
-bakićev		
-batićev	24	
-belićev		
-berđajev		
-bogatašev		
-bogosavljev		
-bojićev		
-boškovićev		
-božićev		
-bratovljev		
-brborićev		
-brežnjev		
-brozovićev		
-bunićev		
-carev	512	
-cerovićev		
-cev	2864	
-cicvarićev		
-cukićev		
-cvijićev		
-dangićev		
-danićićev		
-daničićev		
-davinićev		
-delčev		
-dev		M
-dešićev		
-dimčev		
-dizdarev		
-dokićev		
-dorićev		
-dositejev		
-dožićev		
-drljevićev		
-drulićev		
-držićev		
-dudajev		
-dućićev		
-dučićev		
-duždev		
-dvopev		
-gadafijev		
-gajev		
-gajićev		
-gandijev		
-georgijev		
-glavašev		
-gledaočev		
-glišićev		
-glumčev		
-gnev	2304	
-gnjev	348	
-gordijev		
-gospodarev		
-grnčarev		
-grujev		
-grujićev		
-grujičićev		
-husrev		
-hvalospev	153	
-ilijev		
-ilićev		
-ivanićev		
-ivančev		
-ivićev		
-ivkovićev		
-izdavačev		
-izljev	12	J
-izuzev	6650	
-jakovljev		
-jakšićev		
-janičarev		
-janjićev		
-jankovićev		
-jarčev	12	
-jelačićev		
-jev		M
-jevtićev		
-jezdićev		
-ježev		
-jonićev		
-jurjev		
-kalabićev		
-kalijev		
-kaljev		
-karadžićev		
-karađorđev		
-karićev		
-kartašev		
-kačićev		
-knežev	104	
-kneževićev		
-kobasičarev		
-kolarčev		
-komnenićev		
-konjev		
-kopitarev		
-koraćev		
-kostićev		
-kovačev	37	
-kovačićev		
-kočijašev		
-kočićev		
-kraljev	294	
-krečarev		
-krgovićev		
-križanićev		
-krmpotićev		
-krojačev		
-krstivojev		
-lalićev		
-lazarev		
-lev	255	
-ljotićev		
-ljubimcev		
-lobačev		
-lončarev		
-lovčev		
-luburićev		
-lukićev		
-lukovićev		
-lučev		
-lučićev		
-malešev		
-mandušićev		
-maretićev		
-marićev		
-markovićev		
-matejev		
-matićev		
-mađarev		
-maškovićev		
-medvedev		
-mesarev		
-mesečev	87	
-mesićev		
-miletićev		
-milivojev		
-milićev		
-miljkovićev		
-milojev		
-milosavljev		
-milošev		
-mirčev		
-mitrovićev		
-mišićev	25	
-mladićev	176	
-mlinarev		M
-mojsijev		
-moljevićev		
-molotovljev	42	
-mrtvačev		
-muškarčev	11	
-mužev		
-muževljev	17	
-nadev	274	
-nadničarev		
-napev	47	
-natrijev		
-nedićev		
-neprijateljev		
-nerićev		
-nikolajev		
-nikolićev		
-nikčevićev		
-njegošev		
-noev		
-nojev	43	
-nušićev		
-oberknežev		
-obilićev		
-odsev		M
-ogrev	890	
-ostojićev		
-očev	232	
-panićev		
-pančev		
-pančićev		
-pavelićev		
-pavićev		
-pavkovićev		
-pavlovićev		
-pašićev		
-pekićev		
-pelagićev		
-perićev		
-petkovićev		
-petrovićev		
-pev		
-pevačev		
-pešićev		
-piletićev		
-piljarev		
-pisarev		
-piščev	52	
-pjev		J
-pobediočev		
-policajčev		
-popovićev		
-počev		
-preljev	14	J
-prepev	101	
-prev		
-pridev	782	
-prijateljev		
-priljev	25	
-princev		
-prinčev	20	
-pripev	43	
-pripovedačev		
-prispev		
-prodavčev		
-prohtev		
-prokofjev		
-protićev		
-prćićev		
-radivojev		
-radićev		
-radičev		
-radojev		
-radonjićev		
-radovićev		
-rajićev		
-rakićev		
-rankovićev		
-račićev		
-rašićev		
-rediteljev	24	
-ristićev		
-rogićev		
-rumenićev		
-samardžićev		
-savićev		
-selenićev		
-sergejev		
-sev		
-silićev		
-simićev		
-sinovljev		M
-sinovčev		
-skerlićev		
-slavujev	27	
-slepčev		
-slikarev		
-solovjev		
-spasiteljev	27	
-spasićev		
-spev	228	
-sremčev		
-stanićev		
-stanišev		
-stanišićev		
-stančev		
-starcev		
-starčev	28	
-stojićev		
-stojčev		
-stražarev		
-strelčev		
-stričev	12	
-sunčev	330	
-suvozačev		
-svečev		
-sviračev		
-tadićev		
-tanovićev		
-tokarev		
-tomašev		
-tomićev		
-tončev		
-tošev		
-trešnjev	10	
-tropev		
-trumbićev		
-tupoljev		
-turgenjev		
-tužiočev		
-urošev		
-usev	542	
-učiteljev	19	
-vasiljev		
-vasićev		
-velikašev		
-verdijev		
-vesovićev		
-videv		
-višnjićev		
-vladaočev		
-vozačev	21	
-vračev	17	
-vujačićev		
-vujićev		
-vukčevićev		
-vučićev	242	
-zahtev	46338	
-zaljev	34	
-zečev		
-zinovjev		
-zmajev	76	
-zmajevićev		
-zvjagincev		
-ćirićev		
-ćopićev		
-ćorovićev		
-ćosićev		
-ćurovićev		
-čapajev		
-čarapićev		
-čavićev		
-čehovljev		
-čiplićev		
-čitaočev		
-čkrebićev		
-čolićev		
-čovićev		
-čumićev		
-čupićev		
-čuvarev		
-đajdev		
-đavoljev		
-đinđićev		
-đokovićev		
-đorićev		
-đorđev		
-đurićev		
-đurkovićev		
-đurđev		
-đurđevićev		
-šakićev		
-šantićev		
-ševarlićev		
-šešeljev		
-šišićev		
-šubićev		
-želev		
-živkovićev		
-cijev	165	
-hvalospjev		
-kijev		
-lijev	20	
-mjesečev	14	
-nadjev		
-odsjev		
-ogrjev		
-pridjev		
-usjev		
-zahtijev		
-zahtjev		
-zijev	16	
+Kijev			2
+alenićev			2
+andrejev			2
+andrićev			2
+antićev			2
+antonijev			2
+apotekarev			2
+aveljev			2
+bakićev			2
+batićev	24		2
+belićev			2
+berđajev			2
+bogatašev			2
+bogosavljev			2
+bojićev			2
+boškovićev			2
+božićev			2
+bratovljev			2
+brborićev			2
+brežnjev			2
+brozovićev			2
+bunićev			2
+carev	512		2
+cerovićev			2
+cev	2864		1
+cicvarićev			2
+cukićev			2
+cvijićev			2
+dangićev			2
+danićićev			2
+daničićev			2
+davinićev			2
+delčev			2
+dev		M	1
+dešićev			2
+dimčev			2
+dizdarev			2
+dokićev			2
+dorićev			2
+dositejev			2
+dožićev			2
+drljevićev			2
+drulićev			2
+držićev			2
+dudajev			2
+dućićev			2
+dučićev			2
+duždev			2
+dvopev			2
+gadafijev			2
+gajev			2
+gajićev			2
+gandijev			2
+georgijev			2
+glavašev			2
+gledaočev			2
+glišićev			2
+glumčev			2
+gnev	2304		1
+gnjev	348		1
+gordijev			2
+gospodarev			2
+grnčarev			2
+grujev			2
+grujićev			2
+grujičićev			2
+husrev			2
+hvalospev	153		3
+ilijev			2
+ilićev			2
+ivanićev			2
+ivančev			2
+ivićev			2
+ivkovićev			2
+izdavačev			2
+izljev	12	J	2
+izuzev	6650		2
+jakovljev			2
+jakšićev			2
+janičarev			2
+janjićev			2
+jankovićev			2
+jarčev	12		2
+jelačićev			2
+jev		M	1
+jevtićev			2
+jezdićev			2
+ježev			2
+jonićev			2
+jurjev			2
+kalabićev			2
+kalijev			2
+kaljev			2
+karadžićev			2
+karađorđev			2
+karićev			2
+kartašev			2
+kačićev			2
+knežev	104		2
+kneževićev			2
+kobasičarev			2
+kolarčev			2
+komnenićev			2
+konjev			2
+kopitarev			2
+koraćev			2
+kostićev			2
+kovačev	37		2
+kovačićev			2
+kočijašev			2
+kočićev			2
+kraljev	294		2
+krečarev			2
+krgovićev			2
+križanićev			2
+krmpotićev			2
+krojačev			2
+krstivojev			2
+lalićev			2
+lazarev			2
+lev	255		1
+ljotićev			2
+ljubimcev			2
+lobačev			2
+lončarev			2
+lovčev			2
+luburićev			2
+lukićev			2
+lukovićev			2
+lučev			2
+lučićev			2
+malešev			2
+mandušićev			2
+maretićev			2
+marićev			2
+markovićev			2
+matejev			2
+matićev			2
+mađarev			2
+maškovićev			2
+medvedev			2
+mesarev			2
+mesečev	87		2
+mesićev			2
+miletićev			2
+milivojev			2
+milićev			2
+miljkovićev			2
+milojev			2
+milosavljev			2
+milošev			2
+mirčev			2
+mitrovićev			2
+mišićev	25		2
+mladićev	176		2
+mlinarev		M	2
+mojsijev			2
+moljevićev			2
+molotovljev	42		2
+mrtvačev			2
+muškarčev	11		2
+mužev			2
+muževljev	17		2
+nadev	274		2
+nadničarev			2
+napev	47		2
+natrijev			2
+nedićev			2
+neprijateljev			2
+nerićev			2
+nikolajev			2
+nikolićev			2
+nikčevićev			2
+njegošev			2
+noev			2
+nojev	43		2
+nušićev			2
+oberknežev			2
+obilićev			2
+odsev		M	2
+ogrev	890		2
+ostojićev			2
+očev	232		2
+panićev			2
+pančev			2
+pančićev			2
+pavelićev			2
+pavićev			2
+pavkovićev			2
+pavlovićev			2
+pašićev			2
+pekićev			2
+pelagićev			2
+perićev			2
+petkovićev			2
+petrovićev			2
+pev			1
+pevačev			2
+pešićev			2
+piletićev			2
+piljarev			2
+pisarev			2
+piščev	52		2
+pjev		J	1
+pobediočev			2
+policajčev			2
+popovićev			2
+počev			2
+preljev	14	J	2
+prepev	101		2
+prev			1
+pridev	782		2
+prijateljev			2
+priljev	25		2
+princev			2
+prinčev	20		2
+pripev	43		2
+pripovedačev			2
+prispev			2
+prodavčev			2
+prohtev			2
+prokofjev			2
+protićev			2
+prćićev			2
+radivojev			2
+radićev			2
+radičev			2
+radojev			2
+radonjićev			2
+radovićev			2
+rajićev			2
+rakićev			2
+rankovićev			2
+račićev			2
+rašićev			2
+rediteljev	24		2
+ristićev			2
+rogićev			2
+rumenićev			2
+samardžićev			2
+savićev			2
+selenićev			2
+sergejev			2
+sev			1
+silićev			2
+simićev			2
+sinovljev		M	2
+sinovčev			2
+skerlićev			2
+slavujev	27		2
+slepčev			2
+slikarev			2
+solovjev			2
+spasiteljev	27		2
+spasićev			2
+spev	228		1
+sremčev			2
+stanićev			2
+stanišev			2
+stanišićev			2
+stančev			2
+starcev			2
+starčev	28		2
+stojićev			2
+stojčev			2
+stražarev			2
+strelčev			2
+stričev	12		2
+sunčev	330		2
+suvozačev			2
+svečev			2
+sviračev			2
+tadićev			2
+tanovićev			2
+tokarev			2
+tomašev			2
+tomićev			2
+tončev			2
+tošev			2
+trešnjev	10		2
+tropev			2
+trumbićev			2
+tupoljev			2
+turgenjev			2
+tužiočev			2
+urošev			2
+usev	542		2
+učiteljev	19		2
+vasiljev			2
+vasićev			2
+velikašev			2
+verdijev			2
+vesovićev			2
+videv			2
+višnjićev			2
+vladaočev			2
+vozačev	21		2
+vračev	17		2
+vujačićev			2
+vujićev			2
+vukčevićev			2
+vučićev	242		2
+zahtev	46338		2
+zaljev	34		2
+zečev			2
+zinovjev			2
+zmajev	76		2
+zmajevićev			2
+zvjagincev			2
+ćirićev			2
+ćopićev			2
+ćorovićev			2
+ćosićev			2
+ćurovićev			2
+čapajev			2
+čarapićev			2
+čavićev			2
+čehovljev			2
+čiplićev			2
+čitaočev			2
+čkrebićev			2
+čolićev			2
+čovićev			2
+čumićev			2
+čupićev			2
+čuvarev			2
+đajdev			2
+đavoljev			2
+đinđićev			2
+đokovićev			2
+đorićev			2
+đorđev			2
+đurićev			2
+đurkovićev			2
+đurđev			2
+đurđevićev			2
+šakićev			2
+šantićev			2
+ševarlićev			2
+šešeljev			2
+šišićev			2
+šubićev			2
+želev			2
+živkovićev			2
+cijev	165		1
+hvalospjev			3
+kijev			2
+lijev	20		2
+mjesečev	14		2
+nadjev			2
+odsjev			2
+ogrjev			2
+pridjev			2
+usjev			2
+zahtijev			2
+zahtjev			2
+zijev	16		1

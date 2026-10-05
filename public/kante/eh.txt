@@ -1,86 +1,86 @@
 71
-beh		
-ceh	1255	
-doleteh		
-doneh		
-dospeh		
-doživeh	49	
-eh	5176	
-greh	6364	
-izgoreh		
-izneh		
-izvoleh		
-iščileh		
-leh		
-meh	151	
-nadživeh		
-neuspeh	5144	
-odoleh		
-oduzeh		
-ogladneh		
-osmeh	10397	
-otpočeh		
-oćuteh		
-ožedneh		
-ožednjeh		
-peh	594	
-pleh	1548	
-podneh		
-podsmeh	637	
-poludeh	17	
-poluosmeh		
-popeh	31	
-potsmeh		
-pozavideh		
-počeh	554	
-poželeh	111	
-poželjeh		
-preneh		
-prezreh		
-prispeh		
-procvileh		
-proneh		
-proživeh	11	
-raspeh		
-razapeh		
-razboleh	13	
-razneh		
-raznijeh	16	J
-razumeh	43	
-sedeh		
-smeh	6435	
-trpeh		
-uleteh	12	
-umreh	39	
-ushteh		
-uspeh	42473	
-uvideh	39	
-uzeh	433	
-videh	2326	
-voljeh		
-zakleh	24	
-zaneh		
-zanemeh		
-započeh	33	
-zavoleh	49	
-zavrteh		
-začeh		
-zaželeh	18	
-zreh		
-čeh	45	
-želeh		
-živeh		
-grijeh	1023	
-neuspijeh		
-neuspjeh		
-osmijeh	417	
-osmjeh		
-ostarjeh		
-podsmijeh	36	
-razumjeh		
-smijeh	527	
-smjeh		
-umrijeh	18	
-uspijeh		
-uspjeh		
-vidjeh		
+beh			1
+ceh	1255		1
+doleteh			2
+doneh			2
+dospeh			2
+doživeh	49		2
+eh	5176		1
+greh	6364		1
+izgoreh			2
+izneh			2
+izvoleh			2
+iščileh			2
+leh			1
+meh	151		1
+nadživeh			2
+neuspeh	5144		3
+odoleh			2
+oduzeh			2
+ogladneh			2
+osmeh	10397		2
+otpočeh			2
+oćuteh			2
+ožedneh			2
+ožednjeh			3
+peh	594		1
+pleh	1548		1
+podneh			2
+podsmeh	637		2
+poludeh	17		2
+poluosmeh			2
+popeh	31		2
+potsmeh			2
+pozavideh			2
+počeh	554		2
+poželeh	111		2
+poželjeh			2
+preneh			2
+prezreh			2
+prispeh			2
+procvileh			2
+proneh			2
+proživeh	11		2
+raspeh			2
+razapeh			2
+razboleh	13		2
+razneh			2
+raznijeh	16	J	2
+razumeh	43		2
+sedeh			2
+smeh	6435		1
+trpeh			2
+uleteh	12		2
+umreh	39		2
+ushteh			2
+uspeh	42473		2
+uvideh	39		2
+uzeh	433		2
+videh	2326		2
+voljeh			2
+zakleh	24		2
+zaneh			2
+zanemeh			2
+započeh	33		2
+zavoleh	49		2
+zavrteh			2
+začeh			2
+zaželeh	18		2
+zreh			1
+čeh	45		1
+želeh			2
+živeh			2
+grijeh	1023		1
+neuspijeh			2
+neuspjeh			3
+osmijeh	417		3
+osmjeh			2
+ostarjeh			3
+podsmijeh	36		3
+razumjeh			2
+smijeh	527		1
+smjeh			1
+umrijeh	18		2
+uspijeh			3
+uspjeh			2
+vidjeh			2

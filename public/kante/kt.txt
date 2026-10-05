@@ -1,50 +1,50 @@
 49
-afekt	41	
-akt	9213	
-akvadukt	74	
-apstrakt		
-arhitekt	283	
-artefakt	219	
-aspekt	5753	
-autodidakt		M
-benedikt		
-defekt		M
-delikt	346	
-dijalekt	323	
-direkt	378	
-distrikt	445	
-edikt	509	
-efekt	659	
-ekstrakt	1049	
-fakt	267	
-imperfekt	25	
-infarkt	1320	
-insekt	380	
-instinkt	978	
-intelekt	729	
-interdikt		
-katarakt		
-kompakt		
-konflikt	3358	
-konstrukt	274	
-kontakt	22910	
-kontrakt	30	
-kontrapunkt	194	
-konvikt		
-nusprodukt	152	
-objekt	1409	
-pakt	2906	
-perfekt	46	
-prefekt	192	
-produkt	2562	
-projekt	4590	
-prospekt	385	
-punkt		M
-relikt	354	
-respekt		M
-sankt		
-subjekt	2626	
-takt	943	
-trajekt	297	
-trakt	612	
-vijadukt	75	
+afekt	41		2
+akt	9213		1
+akvadukt	74		1
+apstrakt			2
+arhitekt	283		2
+artefakt	219		3
+aspekt	5753		2
+autodidakt		M	2
+benedikt			2
+defekt		M	2
+delikt	346		2
+dijalekt	323		2
+direkt	378		2
+distrikt	445		2
+edikt	509		2
+efekt	659		2
+ekstrakt	1049		2
+fakt	267		1
+imperfekt	25		3
+infarkt	1320		2
+insekt	380		2
+instinkt	978		2
+intelekt	729		2
+interdikt			2
+katarakt			2
+kompakt			2
+konflikt	3358		2
+konstrukt	274		2
+kontakt	22910		2
+kontrakt	30		2
+kontrapunkt	194		2
+konvikt			2
+nusprodukt	152		2
+objekt	1409		2
+pakt	2906		1
+perfekt	46		2
+prefekt	192		2
+produkt	2562		2
+projekt	4590		2
+prospekt	385		2
+punkt		M	1
+relikt	354		2
+respekt		M	2
+sankt			1
+subjekt	2626		2
+takt	943		1
+trajekt	297		2
+trakt	612		1
+vijadukt	75		2

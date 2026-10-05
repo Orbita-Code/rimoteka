@@ -1,161 +1,161 @@
 159
-crkoh	22	
-dadoh	366	
-digoh	36	
-dodadoh		
-donesoh	41	
-dorastoh		
-dođoh	540	
-enoh		
-htedoh		
-idoh		
-imadoh	111	
-isekoh		
-iskradoh		
-ispadoh	90	
-istakoh		
-istresoh	10	
-izađoh	105	
-izdadoh	14	
-izdigoh		
-iziđoh	83	
-izjedoh		
-iznemogoh		
-iznesoh	21	
-izrekoh	21	
-izvedoh	20	
-izvukoh	70	
-iščezoh		
-jaoh		
-jedoh		
-koh		M
-kretoh		
-legoh	49	
-makoh		
-mazoh		
-metoh	251	
-mimoiđoh		
-mogoh	104	
-moloh		
-nagoh		
-naiđoh	118	
-najedoh		
-nanesoh		
-napasoh		
-natukoh		
-navedoh	57	
-navikoh	12	
-navukoh	22	
-nađoh	809	
-nemadoh		
-obiđoh	25	
-obukoh	35	
-odigoh		
-odmakoh		
-odnesoh		
-odoh	1479	
-odrekoh	37	
-odsekoh		
-odustadoh	22	
-odvedoh		
-oh	1903	
-ostadoh	274	
-otidoh		
-otiđoh		
-otpadoh		
-otresoh		
-ozeboh		
-padoh	124	
-paroh	1825	
-pobegoh	52	
-pobodoh		
-podigoh	135	
-podnesoh	14	
-pogiboh		
-pojedoh	41	
-pometoh		
-pomogoh	11	
-posekoh		
-postadoh	68	
-postigoh		
-postrigoh		
-potegoh		
-povedoh	14	
-povukoh	40	
-poznadoh		
-pođoh	160	
-predadoh	46	
-prejedoh		
-prekidoh		
-prenesoh		
-prepadoh	21	
-prepoznadoh		
-presekoh		
-prestadoh	18	
-pretekoh		
-prevaziđoh		
-pređoh	61	
-pribegoh		
-prilegoh		
-primakoh		
-prinesoh	26	
-pripadoh		
-pristadoh	21	
-pritekoh		
-privukoh	17	
-priznadoh	15	
-priđoh	57	
-prodadoh	17	
-pronađoh	90	
-propadoh	13	
-protresoh		
-provedoh	93	
-prođoh	122	
-razdadoh		
-rekoh	8143	
-sagoh		
-sastadoh		
-saznadoh	125	
-sedoh	161	
-siđoh	46	
-skidoh		
-slegoh		
-smakoh		
-smedoh		
-smrzoh		
-spadoh		
-spotakoh		
-sretoh	114	
-stadoh	213	
-stegoh	11	
-stekoh	33	
-stigoh	292	
-stresoh	25	
-sustigoh		
-svukoh	11	
-trgoh	54	
-tukoh		
-ugrizoh		
-ulegoh		
-umakoh		
-upadoh	29	
-ustadoh	87	
-utekoh	22	
-uvukoh	13	
-uzdigoh		
-uznesoh		
-uđoh	155	
-vrgoh		
-zagrizoh		
-zanesoh		
-zaobiđoh		
-zapadoh	11	
-zarekoh		
-zastadoh	57	
-zatekoh	73	
-zatresoh		
-zavedoh		
-zavukoh	28	
-zađoh		
-znadoh	57	
-htjedoh		
+crkoh	22		2
+dadoh	366		2
+digoh	36		2
+dodadoh			2
+donesoh	41		2
+dorastoh			2
+dođoh	540		2
+enoh			2
+htedoh			2
+idoh			2
+imadoh	111		2
+isekoh			2
+iskradoh			2
+ispadoh	90		2
+istakoh			2
+istresoh	10		2
+izađoh	105		2
+izdadoh	14		2
+izdigoh			2
+iziđoh	83		2
+izjedoh			2
+iznemogoh			2
+iznesoh	21		2
+izrekoh	21		2
+izvedoh	20		2
+izvukoh	70		2
+iščezoh			2
+jaoh			2
+jedoh			2
+koh		M	1
+kretoh			2
+legoh	49		2
+makoh			2
+mazoh			2
+metoh	251		2
+mimoiđoh			2
+mogoh	104		2
+moloh			2
+nagoh			2
+naiđoh	118		2
+najedoh			2
+nanesoh			2
+napasoh			2
+natukoh			2
+navedoh	57		2
+navikoh	12		2
+navukoh	22		2
+nađoh	809		2
+nemadoh			2
+obiđoh	25		2
+obukoh	35		2
+odigoh			2
+odmakoh			2
+odnesoh			2
+odoh	1479		1
+odrekoh	37		2
+odsekoh			2
+odustadoh	22		2
+odvedoh			2
+oh	1903		1
+ostadoh	274		2
+otidoh			2
+otiđoh			2
+otpadoh			2
+otresoh			2
+ozeboh			2
+padoh	124		2
+paroh	1825		2
+pobegoh	52		2
+pobodoh			2
+podigoh	135		2
+podnesoh	14		2
+pogiboh			2
+pojedoh	41		2
+pometoh			2
+pomogoh	11		2
+posekoh			2
+postadoh	68		2
+postigoh			2
+postrigoh			2
+potegoh			2
+povedoh	14		2
+povukoh	40		2
+poznadoh			2
+pođoh	160		2
+predadoh	46		2
+prejedoh			2
+prekidoh			2
+prenesoh			2
+prepadoh	21		2
+prepoznadoh			2
+presekoh			2
+prestadoh	18		2
+pretekoh			2
+prevaziđoh			2
+pređoh	61		2
+pribegoh			2
+prilegoh			2
+primakoh			2
+prinesoh	26		2
+pripadoh			2
+pristadoh	21		2
+pritekoh			2
+privukoh	17		2
+priznadoh	15		2
+priđoh	57		2
+prodadoh	17		2
+pronađoh	90		2
+propadoh	13		2
+protresoh			2
+provedoh	93		2
+prođoh	122		2
+razdadoh			2
+rekoh	8143		2
+sagoh			2
+sastadoh			2
+saznadoh	125		2
+sedoh	161		2
+siđoh	46		2
+skidoh			2
+slegoh			2
+smakoh			2
+smedoh			2
+smrzoh			2
+spadoh			2
+spotakoh			2
+sretoh	114		2
+stadoh	213		2
+stegoh	11		2
+stekoh	33		2
+stigoh	292		2
+stresoh	25		2
+sustigoh			2
+svukoh	11		2
+trgoh	54		2
+tukoh			2
+ugrizoh			2
+ulegoh			2
+umakoh			2
+upadoh	29		2
+ustadoh	87		2
+utekoh	22		2
+uvukoh	13		2
+uzdigoh			2
+uznesoh			2
+uđoh	155		2
+vrgoh			2
+zagrizoh			2
+zanesoh			2
+zaobiđoh			2
+zapadoh	11		2
+zarekoh			2
+zastadoh	57		2
+zatekoh	73		2
+zatresoh			2
+zavedoh			2
+zavukoh	28		2
+zađoh			2
+znadoh	57		2
+htjedoh			2

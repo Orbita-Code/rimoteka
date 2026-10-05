@@ -1,43 +1,43 @@
 42
-Hamburg		M
-burg	26	
-demijurg		M
-dramaturg	863	
-edinburg		
-elektrometalurg		
-georg		
-geteborg		
-ginzberg		
-goldberg		
-gutenberg		
-hajdelberg		
-hajzenberg		
-hirurg	2172	
-ingeborg		
-jorg		
-kardiohirurg	89	
-kiborg	85	
-kirurg		
-koburg		
-kronenberg		
-likurg		
-lindberg		
-luksemburg		
-magdeburg		
-meklenburg		
-metalurg	77	
-morg		
-neurohirurg	190	
-neurokirurg		
-nirnberg		
-peterburg		
-pitsburg		
-rozenberg		
-salcburg		
-spilberg		
-strazberg		
-strindberg		
-trg	6959	
-valenberg		
-varburg		
-virtemberg		
+Hamburg		M	2
+burg	26		1
+demijurg		M	2
+dramaturg	863		2
+edinburg			2
+elektrometalurg			2
+georg			2
+geteborg			2
+ginzberg			2
+goldberg			2
+gutenberg			2
+hajdelberg			2
+hajzenberg			2
+hirurg	2172		2
+ingeborg			2
+jorg			1
+kardiohirurg	89		2
+kiborg	85		2
+kirurg			2
+koburg			2
+kronenberg			2
+likurg			2
+lindberg			2
+luksemburg			3
+magdeburg			2
+meklenburg			2
+metalurg	77		2
+morg			1
+neurohirurg	190		2
+neurokirurg			2
+nirnberg			2
+peterburg			2
+pitsburg			2
+rozenberg			2
+salcburg			2
+spilberg			2
+strazberg			2
+strindberg			2
+trg	6959		1
+valenberg			2
+varburg			2
+virtemberg			2

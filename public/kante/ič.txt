@@ -1,28 +1,28 @@
 27
-bič	807	
-branič	51	
-devič		
-dobrič		
-gombrovič		
-gonič	125	
-granič		
-isakovič		
-ivanovič		
-kidrič		
-kič	1099	
-maglič		
-mladič		
-poklič	325	
-protič		
-radič	114	
-rajič		
-ribič	29	
-sakovič		
-sendvič	1491	
-teferič		M
-teklič		
-vasiljevič		
-vodič	6264	
-vojnovič		
-ćerpič	15	
-žepič		
+bič	807		1
+branič	51		2
+devič			2
+dobrič			2
+gombrovič			2
+gonič	125		2
+granič			2
+isakovič			2
+ivanovič			2
+kidrič			2
+kič	1099		1
+maglič			2
+mladič			2
+poklič	325		2
+protič			2
+radič	114		2
+rajič			2
+ribič	29		2
+sakovič			2
+sendvič	1491		2
+teferič		M	2
+teklič			2
+vasiljevič			2
+vodič	6264		2
+vojnovič			2
+ćerpič	15		2
+žepič			2

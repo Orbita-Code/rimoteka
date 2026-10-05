@@ -1,83 +1,83 @@
 82
-aerotransport		
-albert		
-aport	70	
-art		
-bogart		
-dekart		
-dert		M
-desert	688	
-dezert	390	
-drt		
-ekart		
-ekhart		
-ekspert	4092	
-eksport		M
-eskort	92	
-flert		
-fort		
-frankfurt		
-gilbert		
-hart		
-herbert		
-hert		
-hilbert		
-hrt	692	
-hubert		
-import	371	
-insert		
-jogurt	3273	
-jrt		
-klagenfurt		
-koncert	11897	
-krt	82	
-kurt		
-kvart		
-lenart		
-mart	30461	
-mocart		
-mozart		
-nacrt	7387	
-nasmrt		M
-norbert		
-obrt	1974	
-ort		
-osvrt	2750	
-pert		
-pervert		
-poduprt	78	
-popart		
-port	3430	
-prednacrt	170	
-prostrt	36	
-raport	446	
-reeksport	34	
-restart	586	
-robert		
-rt	1108	
-rupert		
-samrt	15	
-sanskrt		
-satrt		
-smart		
-smrt	28361	
-sport	29770	
-start	6999	
-stjuart		
-tart		
-teleport		
-tlocrt	65	
-transport	8675	
-uprt		
-vrt	4072	
-zadrt	75	
-zastrt	18	
-zatrt	12	
-četvrt	2519	
-šegrt		
-škart		M
-škrt	152	
-šlagvort		M
-šort		
-štutgart		
-šubert		
+aerotransport			2
+albert			2
+aport	70		2
+art			1
+bogart			2
+dekart			2
+dert		M	1
+desert	688		2
+dezert	390		2
+drt			1
+ekart			2
+ekhart			2
+ekspert	4092		2
+eksport		M	2
+eskort	92		2
+flert			1
+fort			1
+frankfurt			2
+gilbert			2
+hart			1
+herbert			2
+hert			1
+hilbert			2
+hrt	692		1
+hubert			2
+import	371		2
+insert			2
+jogurt	3273		2
+jrt			1
+klagenfurt			2
+koncert	11897		2
+krt	82		1
+kurt			1
+kvart			1
+lenart			2
+mart	30461		1
+mocart			2
+mozart			2
+nacrt	7387		2
+nasmrt		M	2
+norbert			2
+obrt	1974		2
+ort			1
+osvrt	2750		2
+pert			1
+pervert			2
+poduprt	78		2
+popart			2
+port	3430		1
+prednacrt	170		2
+prostrt	36		2
+raport	446		2
+reeksport	34		2
+restart	586		2
+robert			2
+rt	1108		1
+rupert			2
+samrt	15		2
+sanskrt			2
+satrt			2
+smart			1
+smrt	28361		1
+sport	29770		1
+start	6999		1
+stjuart			2
+tart			1
+teleport			2
+tlocrt	65		2
+transport	8675		2
+uprt			2
+vrt	4072		1
+zadrt	75		2
+zastrt	18		2
+zatrt	12		2
+četvrt	2519		2
+šegrt			2
+škart		M	1
+škrt	152		1
+šlagvort		M	2
+šort			1
+štutgart			2
+šubert			2

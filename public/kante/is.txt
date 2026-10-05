@@ -1,159 +1,159 @@
 155
-Tunis		
-adonis		
-agrobiznis	572	
-ambis	733	
-anis	181	
-anubis		
-apendicitis		M
-apis		
-aramis		
-artritis	705	
-atlantis		
-bakropis	24	
-beatris		
-bis	1224	
-biznis		M
-boris		
-bris	932	
-bronhitis	698	
-brzopis		
-cis		
-cistitis		
-denis		
-dermatitis	424	
-digitalis		M
-dijabetis		
-dionis		
-dis		
-dopis	3340	
-džingis		
-elis		
-elvis		
-encefalitis	143	
-endokarditis	34	
-enis		
-epiglotis		
-faringitis		
-feris		
-fis	819	
-flis		
-francis		
-frensis		
-gastritis	279	
-gastroenteritis	56	
-gingivitis		
-ginis		
-gratis	1045	
-gravis		
-grinpis		
-gris		
-haris		
-hepatitis	1204	
-hingis		
-his	79	
-ibis	67	
-ikonopis	117	
-ilinois		
-illinois		
-iris	242	
-ispis	436	
-jaspis		M
-kanabis	235	
-kapris		
-katehizis		
-katihizis	105	
-kertis		
-kiparis		M
-klis		
-klitoris	737	
-kolitis	173	
-kompromis	5096	
-konjuktivitis	162	
-konjunktivitis	132	
-krasnopis		M
-kris		M
-lapis	55	
-laringitis	105	
-letopis	582	
-lis		
-louis		
-luis		
-mastitis		
-matis		
-medžlis		
-megalopolis		
-memfis		
-meningitis	389	
-metropolis	113	
-miokarditis		
-miomiris	51	
-miris	11793	
-mutandis		
-mutatis		
-napis	409	
-narcis	280	
-natpis	2874	
-nefritis		
-nemezis		
-nevis		
-obris	162	
-ofis	228	
-opis	15442	
-otis		
-otpis	1075	
-oziris		
-pankreatitis	96	
-paraklis	100	
-patris		
-pektoris		
-penis	1586	
-perikarditis		
-peritonitis	59	
-pis	31	
-pleuritis	36	
-pneumonitis		
-poliomielitis		
-polis	195	
-popis	6618	
-potpis	5945	
-pravopis	1483	
-prentis		
-prepis	762	
-prirodopis	14	
-propis	2593	
-prostatitis		
-putopis	569	
-rahitis	91	
-raspis	219	
-reis	549	
-remis		
-rinitis		
-ris	576	
-rukopis	2878	
-servis	27695	
-sifilis	380	
-sinopsis	550	
-solaris		
-spis	1107	
-tajnopis		
-tenis	5770	
-testis	175	
-tis		M
-ulis		
-upis	12575	
-usis	48	
-uvis	1109	
-vangelis		
-vaskulitis		
-vis	1517	
-zapis	4500	
-zemljopis	83	
-časopis	9969	
-šoubiznis	45	
-švrakopis		
-živopis	601	
-životopis	273	
-ljetopis		
-prijepis	22	
-sjedis		
+Tunis			2
+adonis			3
+agrobiznis	572		2
+ambis	733		2
+anis	181		2
+anubis			2
+apendicitis		M	2
+apis			2
+aramis			2
+artritis	705		2
+atlantis			2
+bakropis	24		3
+beatris			2
+bis	1224		1
+biznis		M	2
+boris			2
+bris	932		1
+bronhitis	698		2
+brzopis			3
+cis			1
+cistitis			2
+denis			2
+dermatitis	424		2
+digitalis		M	2
+dijabetis			2
+dionis			2
+dis			1
+dopis	3340		2
+džingis			2
+elis			2
+elvis			2
+encefalitis	143		2
+endokarditis	34		2
+enis			2
+epiglotis			2
+faringitis			2
+feris			2
+fis	819		1
+flis			1
+francis			2
+frensis			2
+gastritis	279		2
+gastroenteritis	56		2
+gingivitis			2
+ginis			2
+gratis	1045		2
+gravis			2
+grinpis			2
+gris			1
+haris			2
+hepatitis	1204		2
+hingis			2
+his	79		1
+ibis	67		2
+ikonopis	117		2
+ilinois			2
+illinois			2
+iris	242		2
+ispis	436		2
+jaspis		M	2
+kanabis	235		2
+kapris			2
+katehizis			2
+katihizis	105		2
+kertis			2
+kiparis		M	2
+klis			1
+klitoris	737		2
+kolitis	173		2
+kompromis	5096		2
+konjuktivitis	162		2
+konjunktivitis	132		2
+krasnopis		M	3
+kris		M	1
+lapis	55		2
+laringitis	105		2
+letopis	582		3
+lis			1
+louis			2
+luis			2
+mastitis			2
+matis			2
+medžlis			2
+megalopolis			2
+memfis			2
+meningitis	389		2
+metropolis	113		2
+miokarditis			2
+miomiris	51		2
+miris	11793		2
+mutandis			2
+mutatis			2
+napis	409		2
+narcis	280		2
+natpis	2874		2
+nefritis			2
+nemezis			2
+nevis			2
+obris	162		2
+ofis	228		2
+opis	15442		2
+otis			2
+otpis	1075		2
+oziris			2
+pankreatitis	96		2
+paraklis	100		2
+patris			2
+pektoris			2
+penis	1586		2
+perikarditis			2
+peritonitis	59		2
+pis	31		1
+pleuritis	36		2
+pneumonitis			2
+poliomielitis			2
+polis	195		2
+popis	6618		2
+potpis	5945		2
+pravopis	1483		3
+prentis			2
+prepis	762		2
+prirodopis	14		2
+propis	2593		2
+prostatitis			2
+putopis	569		3
+rahitis	91		2
+raspis	219		2
+reis	549		2
+remis			2
+rinitis			2
+ris	576		1
+rukopis	2878		3
+servis	27695		2
+sifilis	380		2
+sinopsis	550		2
+solaris			2
+spis	1107		1
+tajnopis			3
+tenis	5770		2
+testis	175		2
+tis		M	1
+ulis			2
+upis	12575		2
+usis	48		2
+uvis	1109		2
+vangelis			2
+vaskulitis			2
+vis	1517		1
+zapis	4500		2
+zemljopis	83		3
+časopis	9969		3
+šoubiznis	45		2
+švrakopis			3
+živopis	601		3
+životopis	273		2
+ljetopis			3
+prijepis	22		2
+sjedis			2

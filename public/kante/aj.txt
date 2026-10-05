@@ -1,1165 +1,1165 @@
 1127
-Mumbaj		
-Paragvaj		
-Urugvaj		
-abortiraj		
-aktiviraj	66	
-alarmiraj		
-alkalaj		
-analiziraj	38	
-animiraj		
-apeliraj		
-aplaudiraj		
-arhiviraj		
-asistiraj		
-avaj	1435	
-ažuriraj	23	
-bacaj	148	
-baksuziraj		
-balansiraj		
-bandažiraj		
-bankrotiraj		
-baterflaj		M
-batinaj		
-bauljaj		
-begaj		
-belaj		M
-beskraj	600	
-biraj	387	
-blagosiljaj	13	
-blamiraj		
-blefiraj		
-blistaj		
-blokiraj	27	
-bockaj		
-bombaj		
-brabonjaj		
-brbljaj		
-brkaj	12	
-brukaj	47	
-brzaj	14	
-bućkaj		
-celivaj		
-centriraj		
-cepaj	123	
-ciljaj	12	
-cimaj	23	
-citiraj	284	
-crtaj	28	
-cuclaj		
-cugaj		
-cvetaj		
-daj	17167	
-dalaj		
-davaj		
-deaktiviraj		
-deblokiraj		
-delaj		
-demonstriraj		
-demontiraj		
-detoniraj		
-diktiraj		
-diraj	476	
-divljaj		
-dodaj	5651	
-događaj	22378	
-dogovaraj	11	
-domašaj	133	
-doniraj	24	
-dopuštaj	11	
-doteraj	16	
-doticaj	34	
-dozivaj		
-doznaj		
-dozvoljavaj	12	
-dočaraj		
-dočekaj	30	
-doživljaj	7671	
-dremaj		
-drhtaj	159	
-driblaj		
-drmaj	11	
-drogiraj		
-drpaj	19	
-duljaj		
-dupliraj		
-duvaj	35	
-eksplodiraj		
-eskiviraj		
-faj		
-faksiraj		
-farbaj	10	
-fiksiraj	10	
-filtriraj		
-fokusiraj	52	
-foliraj	22	
-formiraj	33	
-forsiraj	23	
-fraj		M
-frizeraj	28	
-furaj		
-gaj	1098	
-gađaj	32	
-gibaj		
-glasaj	323	
-glačaj		
-gledaj	2732	
-glumataj		
-glupiraj	14	
-gnušaj		
-golicaj		
-gomilaj		
-grickaj	13	
-gruvaj		
-guglaj	48	
-gunđaj		
-guraj	188	
-gutaj	34	
-gutljaj	713	
-haj	418	
-haradinaj		
-haraj		
-hitaj	20	
-hodaj	108	
-hvataj	77	
-igraj	666	
-imaj	779	
-imitiraj	10	
-impresioniraj		
-insistiraj	22	
-instaliraj	336	
-investiraj	36	
-iscepaj		
-iscrtaj		
-iseckaj		
-isisaj		
-iskopaj	36	
-iskopiraj	30	
-iskraj		M
-iskrcaj	21	
-iskuliraj		
-iskušaj		
-iskušavaj		
-ismejavaj		
-ismevaj		
-ismijavaj		J
-ispadaj		
-ispavaj		
-ispeglaj		
-ispijaj		
-ispipaj		
-ispitaj	60	
-isplaniraj	16	
-ispoliraj		
-ispovedaj	16	
-ispravljaj	25	
-ispraćaj	432	
-isprintaj		
-ispričaj	185	
-ispričavaj		
-isprobaj	78	
-isprobavaj	21	
-isprskaj		
-ispucaj		
-ispunjavaj	11	
-ispuštaj	11	
-isteraj	22	
-istraj	42	
-istrajavaj		
-istresaj		
-istrljaj		
-istrčavaj		
-isturaj		
-istuširaj	11	
-izagnaj		
-izazivaj	17	
-izbavljaj		
-izbačaj	62	
-izbegavaj	190	
-izdaj	40	
-izdiktiraj		
-izdisaj	108	
-izduvaj	19	
-izdvajaj		
-izglancaj		
-izgledaj	14	
-izgovaraj	24	
-izguglaj		
-izguraj		
-izigravaj	22	
-izležavaj		
-izlivaj		
-izmasiraj		
-izmešaj	10	
-izmišljaj	37	
-izmotavaj		
-izostavljaj		
-izravnaj		
-izračunaj	165	
-izraštaj		
-izražaj	108	
-izražavaj		
-izribaj		
-izričaj	36	
-izudaraj		
-izučavaj		
-izveštaj	30632	
-izveštavaj		
-izvežbaj		
-izvinjavaj	24	
-izviđaj		
-izvrgavaj		
-izvršavaj		
-išetaj		
-iščupaj	25	
-iščuđavaj		
-javljaj	123	
-jačaj	31	
-jecaj	186	
-juraj		
-kaj	460	
-kalaj	214	
-kapiraj	16	
-katapultiraj		
-kažnjavaj	14	
-kelneraj		M
-kidaj	33	
-klanjaj	29	
-klevetaj		
-klimaj	11	
-klizaj		
-kloniraj		
-klopaj		
-knjavaj		
-kockaj	11	
-kolebaj		
-kompariraj		
-komuniciraj	16	
-koncentriraj		
-kontaktiraj	130	
-kopaj	73	
-kopiraj	129	
-kopkaj		
-koprcaj		
-koračaj	33	
-korodiraj		
-kosmaj		
-kotrljaj		
-kraj	74044	
-krckaj		
-kreiraj	178	
-krepaj		
-krštavaj		
-kucaj	151	
-kuckaj	10	
-kukaj	87	
-kuliraj		
-kupaj	16	
-kupleraj		M
-kuvaj	37	
-kušaj	21	
-kvocaj		
-laj	67	
-lansiraj	10	
-laprdaj	16	
-laskaj	15	
-ležaj	1507	
-likvidiraj		
-lišaj	85	
-lišavaj		
-ljuljaj	46	
-lociraj		
-lovostaj	64	
-ludiraj		
-lumperaj		M
-lupaj	296	
-lupetaj	234	
-lutaj	13	
-maglaj		
-mahaj		
-maj	33955	
-malaksavaj		
-maltretiraj		
-markiraj		
-marširaj		
-masakriraj		
-masiraj	12	
-maskiraj		
-mašaj		
-maštaj	22	
-meditiraj		
-menjaj	449	
-mešaj	124	
-mlataraj		
-montiraj	13	
-motaj	12	
-mrdaj	50	
-mrmljaj		
-mucaj		
-muljaj		
-mumlaj		
-nabijaj	16	
-naciljaj		
-nacrtaj	98	
-nadaj	241	
-nadgledaj		
-nadimaj		
-nadodaj		
-nadražaj	263	
-naduvaj		
-nagađaj		
-nagledaj		
-nagnaj		
-nagoveštaj	1509	
-naguraj		
-naj		
-nakraj	175	
-nameravaj		
-nameštaj	5768	
-namotaj	101	
-naoružaj	22	
-naoružavaj		
-napadaj	159	
-napajaj		
-napasaj		
-napijaj		
-napucaj		
-napumpaj		
-napuštaj	39	
-naračunaj		
-naraštaj	358	
-narušavaj		
-nasedaj	34	
-naslanjaj		
-naslikaj	21	
-nasmijavaj		J
-naspavaj	20	
-nasrtaj	143	
-nastavljaj		
-natapaj		
-nateraj	56	
-natrljaj		
-navijaj	73	
-navikavaj	20	
-nazivaj	24	
-našminkaj	15	
-nediraj		
-negiraj	11	
-nehaj	39	
-nemaj	58	
-nerviraj	44	
-nikolaj		
-njihaj		
-njuškaj		
-nokautiraj		
-noćivaj		
-obaraj		
-obasjaj	16	
-obaveštavaj	10	
-obavijaj		
-obavljaj	13	
-obeležavaj		
-obećaj	121	
-obećavaj	11	
-obitavaj		
-običaj	7213	
-objašnjavaj	24	
-obmotaj		
-obnavljaj		
-obožavaj		
-obraćaj	131	
-obrtaj	31	
-obuvaj		
-obuzdaj	16	
-obuzdavaj		
-obučavaj		
-odagnaj	24	
-odaj	32	
-odbijaj	17	
-odbrojavaj		
-odgledaj	34	
-odgovaraj	84	
-odguraj		
-odigraj	34	
-odlepršaj		
-odmaraj	55	
-odmeravaj		
-odmotaj		
-odnošaj		
-odolevaj		
-odremaj		
-održaj		
-održavaj	27	
-odsecaj		
-odsedlaj		
-odsjaj	713	
-odspavaj	19	
-odstupaj	17	
-odsviraj		
-odustaj	137	
-oduvaj		
-oduzimaj	18	
-oduševljavaj		
-odvajaj	11	
-odvraćaj		
-odšetaj		
-odštampaj	44	
-ofarbaj	29	
-ogledaj	11	
-ogovaraj		
-ojačaj	12	
-oklevaj	49	
-okolišaj		
-okončaj		
-okretaj	14	
-okršaj	1282	
-okupaj	27	
-okupiraj	92	
-okušaj		
-olakšaj	38	
-olakšavaj		
-omalovažavaj		
-omekšaj		
-ometaj	16	
-omotaj		
-onaj	86823	
-onkraj	36	
-opažaj	47	
-operušaj		
-opevaj		
-opijaj		
-opipaj	17	
-opkoljavaj		
-opljačkaj	13	
-oponašaj		
-opravdaj		
-opravdavaj		
-opraštaj	11	
-opremaj		
-oprobaj		
-oproštaj	1971	
-opticaj	665	
-opuštaj		
-oribaj		
-orošavaj		
-oružaj		
-osedlaj		
-osećaj	31231	
-osiguraj	11	
-oslanjaj	16	
-oslobađaj		
-oslovljavaj		
-osmatraj		
-osoljavaj		
-ostaj	128	
-ostavljaj	194	
-osunčaj		
-osvajaj		
-osvetlaj		
-osvežavaj		
-oteraj	45	
-otežavaj		
-otimaj	56	
-otključaj	18	
-otkopčaj	10	
-otkotrljaj		
-otkrivaj	13	
-otkucaj	155	
-otpevaj	15	
-otplivaj		
-otpuštaj		
-otuširaj		
-otvaraj	152	
-ovaj	422511	
-označavaj		
-očaj	1414	
-očajavaj	62	
-očešljaj		
-očitaj	13	
-očuvaj		
-ošišaj	13	
-oživljavaj		
-padaj	59	
-papagaj	637	
-parkiraj	58	
-pauziraj		
-pecaj	10	
-pedaliraj		
-peglaj	15	
-pegleraj		
-petljaj	14	
-pevaj	235	
-pipaj	33	
-pitaj	2717	
-pišaj	14	
-planiraj	64	
-plaćaj	116	
-plivaj	86	
-pljačkaj	15	
-plutaj		
-pobacaj		
-pobačaj	494	
-poboljšaj	16	
-poboljšavaj		
-pocepaj	20	
-podaj	253	
-podbačaj	182	
-podgrevaj		
-podražaj	30	
-podražavaj	14	
-podržavaj	19	
-podsećaj		
-podsmevaj		
-podsticaj	6380	
-podučavaj	10	
-podvrgavaj		
-podšišaj		
-pogađaj	19	
-pogledaj	8164	
-pogoršavaj		
-poguraj	12	
-pohitaj	83	
-poigraj	15	
-poigravaj		
-pojačaj	85	
-pokaj	97	
-pokaraj	21	
-pokidaj	10	
-poklanjaj	16	
-pokopaj		
-pokoravaj		
-pokraj	2701	
-pokrivaj	14	
-pokucaj		
-pokušaj	21430	
-pokušavaj	133	
-polivaj		
-položaj	32934	
-pomagaj		
-pomeraj	103	
-pomešaj	26	
-pomišljaj	42	
-ponadaj		
-ponavljaj	72	
-ponašaj	136	
-poništaj	302	
-ponižavaj	15	
-popaj		
-popevaj		
-popipaj		
-popločaj		
-popravljaj	26	
-popričaj	46	
-popričekaj		
-poprskaj	12	
-popuštaj	45	
-poravnaj	11	
-porazgovaraj	41	
-poredaj		
-poremećaj	5835	
-poređaj	10	
-porođaj	3065	
-posisaj		
-poslušaj	556	
-posmatraj	161	
-posrtaj		
-postaraj	76	
-postavljaj	57	
-postradaj		
-postupaj	37	
-posustaj	24	
-posviraj		
-potapšaj		
-poteraj	33	
-poticaj	290	
-potkopaj		
-potkraj	325	
-potsticaj		
-poubijaj		
-poučavaj		
-poveravaj		
-povećaj	99	
-povraćaj	4445	
-pozdravljaj		
-poziraj		
-pozivaj	22	
-poznaj	70	
-počekaj	25	
-počešljaj		
-počivaj	167	
-pošetaj		
-pravdaj	22	
-praćakaj		
-praštaj	32	
-prebačaj	120	
-prebiraj		
-prebivaj		
-precrtaj	17	
-predaj	218	
-predosećaj	195	
-predosječaj		J
-predumišljaj	33	
-preduzimaj		
-pregledaj	104	
-pregovaraj		
-preispitaj	45	
-prekidaj	68	
-preklapaj		
-prekopiraj	16	
-prekrajaj		
-prekršaj	4014	
-prelamaj		
-prelistaj	101	
-premašaj		M
-premeštaj	402	
-premišljaj		
-premotaj	24	
-preobražaj	1152	
-preoravaj		
-preporađaj		
-preporođaj		M
-prepoznaj	76	
-prepričaj		
-prepuštaj		
-preračunaj	20	
-preslikaj		
-preslišaj		
-preslušaj	10	
-prespavaj	10	
-prestaj	37	
-pretpostavljaj		
-pretresaj		
-preturaj		
-pretvaraj	24	
-preuveličavaj		
-preuzimaj		
-pribegavaj		
-približavaj		
-pridodaj		
-pridržavaj	23	
-prigovaraj		
-prihvataj	40	
-prihvaćaj		
-prikopčaj		
-prikradaj		
-prikucaj		
-prikupljaj		
-primaj	65	
-primoraj	11	
-primoravaj		
-pripadaj		
-pripremaj	20	
-priraštaj	704	
-prisećaj		
-prisiljavaj		
-pristaj	17	
-pristupaj		
-prisvajaj		
-pritiskaj	26	
-priupitaj		
-priučavaj		
-privijaj		
-prizivaj	24	
-priznaj	365	
-pričaj	957	
-pričekaj	98	
-pričuvaj	22	
-prljaj	16	
-probaj	4138	
-probijaj		
-probiraj		
-prodaj	586	
-prodavaj		
-prodrmaj		
-produžavaj		
-proganjaj		
-progledaj	35	
-prognaj		
-progovaraj		
-programiraj		
-proguraj		
-progutaj	90	
-prokuvaj		
-promatraj		
-promašaj	2143	
-promešaj	22	
-promišljaj		
-promuvaj		
-promućkaj	10	
-pronjuškaj		
-propadaj		
-propitaj		
-proplamsaj		
-propovedaj	22	
-propuštaj	24	
-proračunaj		
-prosipaj	32	
-proslavljaj		
-proteraj	14	
-protrljaj	11	
-proučavaj	10	
-proveravaj	21	
-provociraj		
-provozaj	40	
-pročešljaj	35	
-pročitaj	18331	
-pročitavaj		
-prošaraj		
-prošetaj		M
-prskaj	15	
-pružaj	15	
-pucaj	198	
-pumpaj	14	
-puštaj	117	
-raj	5637	
-ranjavaj		
-raportiraj		
-rasipaj		
-raskomadaj		
-raskopčaj		
-raspitaj	559	
-raspoznaj		
-raspravljaj		
-raspremaj		
-rastaj		
-rastegljaj		M
-rasteraj		
-rasturaj		
-rastvaraj		
-ravnaj		
-razbacaj		
-razbijaj	18	
-razbiraj		
-razbucaj		
-razdaj	33	
-razdvajaj		
-razgledaj	23	
-razgovaraj	111	
-razgranaj		
-razmatraj	10	
-razmekšaj		
-razmeštaj	325	
-razmišljaj	349	
-razmotaj		
-razmrdaj		
-razmrskaj		
-razoružaj		
-razvijaj	30	
-razvrstaj		
-računaj	402	
-rađaj	20	
-recikliraj	245	
-revoltiraj		
-ređaj		
-rešavaj	40	
-ribaj		
-ridaj	10	
-rintaj	10	
-riskiraj		
-rokaj		
-rondaj		
-rotiraj		
-rugaj	18	
-rusvaj		M
-ručaj	19	
-sabiraj	10	
-sadržaj	29323	
-sagledaj	32	
-sagledavaj		
-saj		
-sakrivaj		
-sakupljaj	38	
-salutiraj		
-samuraj	173	
-sanjaj	178	
-saobraćaj	17932	
-saopštavaj		
-saosećaj		
-saraj		M
-saslušaj	91	
-sateraj		
-savijaj		
-savladaj	12	
-sazdaj		
-saznaj	374	
-sačekaj	566	
-sačuvaj	1497	
-sažaljevaj		
-seckaj		
-sedaj	27	
-sedlaj		
-sekiraj	249	
-serviraj	14	
-sećaj	77	
-shvataj	25	
-signaliziraj		
-sijaj	11	
-sinaj		
-sipaj	120	
-sisaj	52	
-sjaj	6925	
-skapavaj		
-skapiraj	10	
-skeniraj	51	
-skidaj	193	
-sklanjaj	101	
-sklapaj	16	
-skockaj		
-skontaj	11	
-skrivaj	23	
-skuliraj		
-skupljaj	53	
-skuvaj	60	
-slikaj	178	
-slovkaj		
-slupaj		
-slučaj	59227	
-slušaj	1923	
-smaraj	47	
-smatraj	108	
-smekšaj		
-smetaj	28	
-smešaj		
-smeškaj	17	
-smeštaj	15303	
-smiraj	444	
-smišljaj	19	
-smotaj	11	
-smrskaj		
-smršaj		
-smuvaj		
-smućkaj	14	
-snabdevaj		
-snimaj	70	
-snivaj		
-snošaj	116	
-sortiraj		
-spajaj		
-spasavaj	114	
-spavaj	418	
-spašavaj		
-spoznaj	41	
-spravljaj		
-sprdaj		
-spremaj	114	
-sprečavaj		
-sputavaj		
-spuštaj	41	
-srljaj		
-staj	37	
-staraj	51	
-stavljaj	117	
-stečaj	5154	
-stešnjavaj		
-sticaj	394	
-stiskaj		
-stišaj	12	
-stopiraj		
-streljaj		
-strpaj	24	
-studiraj	26	
-stupaj	17	
-stvaraj	55	
-sumnjaj	55	
-sunčaj		
-suprotstavljaj		
-suzdržavaj		
-sužavaj		
-svađaj	24	
-svilaj		
-sviraj	181	
-svladaj		
-svraćaj	13	
-svrstaj		
-svršavaj	12	
-taj	359939	
-talasaj	79	
-tapkaj		
-telefoniraj	14	
-tepaj	20	
-teraj	406	
-testiraj	129	
-tečaj	691	
-titraj		
-tkaj		
-tornjaj	16	
-trabunjaj		
-tragaj	13	
-tramvaj	1380	
-treniraj	111	
-treptaj	247	
-tretiraj	18	
-trkaj		
-trljaj	32	
-trpaj	60	
-trtljaj		
-trupkaj		
-trzaj	491	
-tuširaj		
-ubačaj		
-ubijaj	56	
-ubrajaj		
-ubrizgaj		
-ubrzaj	25	
-ubrzavaj		
-udaj	109	
-udaljavaj		
-udaraj	78	
-udebljaj		
-udisaj	112	
-udvaraj		
-ugađaj	10	
-ugledaj	64	
-ugođaj	1366	
-uguraj	14	
-ujedaj		
-ukapiraj		
-ukidaj	10	
-uklanjaj		
-ukopaj	12	
-ukoravaj		
-ukraj		M
-ukrcaj	44	
-ukrcavaj		
-ukrštaj	30	
-ukucaj	188	
-ulepšaj	39	
-uljepšaj		J
-umešaj		
-umišljaj	105	
-umnožavaj		
-umotaj		
-umudravaj		
-uništavaj	20	
-upadaj	40	
-upecaj		
-upijaj		
-upitaj	93	
-upotrebljavaj	11	
-upoznaj	404	
-upozoravaj		
-upravljaj	42	
-upražnjavaj		
-uprljaj		
-upucaj	13	
-upuštaj	21	
-uračunaj	24	
-uračunavaj		
-uređaj	21401	
-urlaj		
-usisaj		
-uslikaj	22	
-usmeravaj		
-uspavaj		
-uspevaj		
-usporavaj		
-ustaj	278	
-ustraj		
-ustručavaj	12	
-ustupaj		
-usvajaj		
-uteraj		
-uticaj	38916	
-utišaj	22	
-utjecaj	662	J
-utrljaj		
-utucaj		
-uveličaj		
-uveravaj		
-uvećaj	21	
-uvijaj		
-uviđaj	1573	
-uvraćaj		
-uzdaj	94	
-uzdisaj	20	
-uzdržavaj		
-uzidaj		
-uzimaj	311	
-uznemiravaj	40	
-uzrujavaj		
-uzvraćaj		
-ućutkaj		
-učitaj	53	
-učitavaj		
-ušetaj		
-uštrcaj		M
-ušunjaj		
-ušutkaj		
-ušuškaj		
-užasavaj		
-uživaj	1171	
-vagaj		
-valjaj	20	
-vapaj	892	
-varaj	35	
-vaspitaj	12	
-vaspitavaj		
-veličaj	13	
-venčaj		
-venčavaj		
-versaj		
-veslaj	10	
-većaj		
-večeraj	19	
-vešaj		
-vešeraj		
-vežbaj	153	
-viđaj		
-vladaj	433	
-vodostaj	1454	
-vozaj	13	
-vraćaj	227	
-vračaj		
-vrckaj		
-vrdaj		
-vređaj	77	
-vrljaj		
-vrzaj		
-vršaj		
-zabadaj		
-zabavljaj	37	
-zablistaj	12	
-zaboravljaj	53	
-zabrinjavaj		
-zabušavaj		
-zadaj	21	
-zadržavaj	28	
-zafrkavaj		
-zagledaj	38	
-zagolicaj		
-zagovaraj		
-zagrevaj		
-zagrljaj	2360	
-zahtevaj	33	
-zaigraj	29	
-zajedaj		
-zaklanjaj		
-zaključaj	53	
-zaključavaj		
-zakopaj	29	
-zakopčaj	29	
-zakoračaj		
-zakotrljaj		
-zakucaj	19	
-zalaj		
-zalivaj		
-zaljuljaj		
-zalogaj	1560	
-zalupaj		
-zamajavaj	21	
-zamaraj	22	
-zamašaj		M
-zameraj		
-zamišljaj	31	
-zamotaj		
-zanimaj		
-zanovetaj		
-zaoštravaj		
-zapevaj	40	
-zapitaj	299	
-zapovedaj		
-zaranjaj		
-zarolaj		
-zasecaj		
-zasijaj		
-zasmejavaj	14	
-zastupaj		
-zasviraj	20	
-zataškaj		
-zatrpaj	12	
-zatvaraj	70	
-zaustavljaj	11	
-zauzdaj		
-zauzdavaj		
-zavaravaj	31	
-zaveslaj	39	
-zaveštaj		
-zavežljaj	106	
-zavijaj		
-zavitlavaj		
-zavičaj	1459	
-zavladaj		
-zavrtaj		M
-završavaj	30	
-zazivaj		
-začeprkaj		
-zbijaj		
-zevaj		
-zezaj	115	
-zgledaj		
-zidaj	21	
-zlostavljaj		
-zmaj	4203	
-znaj	1341	
-značaj	37660	
-zumiraj	10	
-zvocaj		
-ćaskaj		
-čaj	8980	
-čačkaj	30	
-čekaj	2714	
-čestitaj	18	
-češljaj		
-čikaj		
-čitaj	7070	
-čupaj	19	
-čuvaj	1253	
-Šangaj		
-šarmiraj		
-šetaj	92	
-šibaj	15	
-šinteraj	22	
-šivaj		
-šišaj	29	
-šokiraj	17	
-špijuniraj		
-štafelaj		
-štampaj	88	
-štikliraj		
-štimaj		
-štipaj		
-štipkaj		
-šuljaj		
-šunjaj		
-šutaj		
-šutiraj	16	
-šuškaj		
-ščepaj	10	
-živciraj		
-iscijepaj		
-istjeraj		
-izbjegavaj		
-izvjestaj		
-izvještaj		
-izvještavaj		
-mijenjaj	14	
-miješaj	10	
-mješaj		
-nagovještaj		
-namještaj		
-natjeraj		
-obavještavaj		
-odsjecaj		
-oklijevaj		
-osjecaj		
-osjećaj		
-otjeraj		
-otpjevaj		
-pjevaj		
-podsjećaj		
-pomiješaj		
-pomjeraj		
-potjeraj		
-predosjećaj		
-premještaj		
-promiješaj		
-provjeravaj		
-razmještaj		
-sjedaj		
-smješkaj		
-smještaj		
-strijeljaj		
-tjeraj		
-vježbaj		
-vrijeđaj		
-zapjevaj		
+Mumbaj			2
+Paragvaj			3
+Urugvaj			3
+abortiraj			2
+aktiviraj	66		2
+alarmiraj			2
+alkalaj			2
+analiziraj	38		2
+animiraj			2
+apeliraj			2
+aplaudiraj			2
+arhiviraj			2
+asistiraj			2
+avaj	1435		2
+ažuriraj	23		2
+bacaj	148		2
+baksuziraj			2
+balansiraj			2
+bandažiraj			2
+bankrotiraj			2
+baterflaj		M	2
+batinaj			2
+bauljaj			2
+begaj			2
+belaj		M	2
+beskraj	600		2
+biraj	387		2
+blagosiljaj	13		2
+blamiraj			2
+blefiraj			2
+blistaj			2
+blokiraj	27		2
+bockaj			2
+bombaj			2
+brabonjaj			2
+brbljaj			2
+brkaj	12		2
+brukaj	47		2
+brzaj	14		2
+bućkaj			2
+celivaj			2
+centriraj			2
+cepaj	123		2
+ciljaj	12		2
+cimaj	23		2
+citiraj	284		2
+crtaj	28		2
+cuclaj			2
+cugaj			2
+cvetaj			2
+daj	17167		1
+dalaj			2
+davaj			2
+deaktiviraj			2
+deblokiraj			2
+delaj			2
+demonstriraj			2
+demontiraj			2
+detoniraj			2
+diktiraj			2
+diraj	476		2
+divljaj			2
+dodaj	5651		2
+događaj	22378		3
+dogovaraj	11		2
+domašaj	133		2
+doniraj	24		2
+dopuštaj	11		2
+doteraj	16		2
+doticaj	34		2
+dozivaj			2
+doznaj			2
+dozvoljavaj	12		2
+dočaraj			2
+dočekaj	30		2
+doživljaj	7671		3
+dremaj			2
+drhtaj	159		2
+driblaj			2
+drmaj	11		2
+drogiraj			2
+drpaj	19		2
+duljaj			2
+dupliraj			2
+duvaj	35		2
+eksplodiraj			2
+eskiviraj			2
+faj			1
+faksiraj			2
+farbaj	10		2
+fiksiraj	10		2
+filtriraj			2
+fokusiraj	52		2
+foliraj	22		2
+formiraj	33		2
+forsiraj	23		2
+fraj		M	1
+frizeraj	28		2
+furaj			2
+gaj	1098		1
+gađaj	32		2
+gibaj			2
+glasaj	323		2
+glačaj			2
+gledaj	2732		2
+glumataj			3
+glupiraj	14		2
+gnušaj			2
+golicaj			2
+gomilaj			2
+grickaj	13		2
+gruvaj			2
+guglaj	48		2
+gunđaj			2
+guraj	188		2
+gutaj	34		2
+gutljaj	713		2
+haj	418		1
+haradinaj			2
+haraj			2
+hitaj	20		2
+hodaj	108		2
+hvataj	77		2
+igraj	666		2
+imaj	779		2
+imitiraj	10		2
+impresioniraj			2
+insistiraj	22		2
+instaliraj	336		2
+investiraj	36		2
+iscepaj			2
+iscrtaj			3
+iseckaj			2
+isisaj			2
+iskopaj	36		2
+iskopiraj	30		2
+iskraj		M	2
+iskrcaj	21		2
+iskuliraj			2
+iskušaj			2
+iskušavaj			2
+ismejavaj			2
+ismevaj			2
+ismijavaj		J	2
+ispadaj			2
+ispavaj			2
+ispeglaj			2
+ispijaj			2
+ispipaj			2
+ispitaj	60		2
+isplaniraj	16		2
+ispoliraj			2
+ispovedaj	16		2
+ispravljaj	25		2
+ispraćaj	432		3
+isprintaj			3
+ispričaj	185		2
+ispričavaj			2
+isprobaj	78		2
+isprobavaj	21		2
+isprskaj			2
+ispucaj			2
+ispunjavaj	11		2
+ispuštaj	11		2
+isteraj	22		2
+istraj	42		2
+istrajavaj			2
+istresaj			2
+istrljaj			2
+istrčavaj			2
+isturaj			2
+istuširaj	11		2
+izagnaj			2
+izazivaj	17		2
+izbavljaj			2
+izbačaj	62		3
+izbegavaj	190		2
+izdaj	40		2
+izdiktiraj			2
+izdisaj	108		2
+izduvaj	19		2
+izdvajaj			2
+izglancaj			2
+izgledaj	14		2
+izgovaraj	24		2
+izguglaj			2
+izguraj			2
+izigravaj	22		2
+izležavaj			2
+izlivaj			2
+izmasiraj			2
+izmešaj	10		2
+izmišljaj	37		2
+izmotavaj			2
+izostavljaj			2
+izravnaj			2
+izračunaj	165		2
+izraštaj			3
+izražaj	108		2
+izražavaj			2
+izribaj			2
+izričaj	36		3
+izudaraj			2
+izučavaj			2
+izveštaj	30632		3
+izveštavaj			2
+izvežbaj			2
+izvinjavaj	24		2
+izviđaj			2
+izvrgavaj			2
+izvršavaj			2
+išetaj			3
+iščupaj	25		2
+iščuđavaj			2
+javljaj	123		2
+jačaj	31		2
+jecaj	186		2
+juraj			2
+kaj	460		1
+kalaj	214		2
+kapiraj	16		2
+katapultiraj			2
+kažnjavaj	14		2
+kelneraj		M	2
+kidaj	33		2
+klanjaj	29		2
+klevetaj			3
+klimaj	11		2
+klizaj			2
+kloniraj			2
+klopaj			2
+knjavaj			2
+kockaj	11		2
+kolebaj			2
+kompariraj			2
+komuniciraj	16		2
+koncentriraj			2
+kontaktiraj	130		2
+kopaj	73		2
+kopiraj	129		2
+kopkaj			2
+koprcaj			2
+koračaj	33		3
+korodiraj			2
+kosmaj			2
+kotrljaj			2
+kraj	74044		1
+krckaj			2
+kreiraj	178		2
+krepaj			2
+krštavaj			2
+kucaj	151		2
+kuckaj	10		2
+kukaj	87		2
+kuliraj			2
+kupaj	16		2
+kupleraj		M	2
+kuvaj	37		2
+kušaj	21		2
+kvocaj			2
+laj	67		1
+lansiraj	10		2
+laprdaj	16		2
+laskaj	15		2
+ležaj	1507		2
+likvidiraj			2
+lišaj	85		2
+lišavaj			2
+ljuljaj	46		2
+lociraj			2
+lovostaj	64		3
+ludiraj			2
+lumperaj		M	2
+lupaj	296		2
+lupetaj	234		3
+lutaj	13		2
+maglaj			2
+mahaj			2
+maj	33955		1
+malaksavaj			2
+maltretiraj			2
+markiraj			2
+marširaj			2
+masakriraj			2
+masiraj	12		2
+maskiraj			2
+mašaj			2
+maštaj	22		2
+meditiraj			2
+menjaj	449		2
+mešaj	124		2
+mlataraj			2
+montiraj	13		2
+motaj	12		2
+mrdaj	50		2
+mrmljaj			2
+mucaj			2
+muljaj			2
+mumlaj			2
+nabijaj	16		2
+naciljaj			2
+nacrtaj	98		2
+nadaj	241		2
+nadgledaj			2
+nadimaj			2
+nadodaj			2
+nadražaj	263		2
+naduvaj			2
+nagađaj			2
+nagledaj			2
+nagnaj			2
+nagoveštaj	1509		2
+naguraj			2
+naj			1
+nakraj	175		2
+nameravaj			2
+nameštaj	5768		3
+namotaj	101		3
+naoružaj	22		2
+naoružavaj			2
+napadaj	159		3
+napajaj			2
+napasaj			2
+napijaj			2
+napucaj			2
+napumpaj			2
+napuštaj	39		2
+naračunaj			2
+naraštaj	358		3
+narušavaj			2
+nasedaj	34		2
+naslanjaj			2
+naslikaj	21		2
+nasmijavaj		J	2
+naspavaj	20		2
+nasrtaj	143		3
+nastavljaj			2
+natapaj			2
+nateraj	56		2
+natrljaj			2
+navijaj	73		2
+navikavaj	20		2
+nazivaj	24		2
+našminkaj	15		2
+nediraj			2
+negiraj	11		2
+nehaj	39		2
+nemaj	58		2
+nerviraj	44		2
+nikolaj			2
+njihaj			2
+njuškaj			2
+nokautiraj			2
+noćivaj			2
+obaraj			2
+obasjaj	16		2
+obaveštavaj	10		2
+obavijaj			2
+obavljaj	13		2
+obeležavaj			2
+obećaj	121		2
+obećavaj	11		2
+obitavaj			2
+običaj	7213		3
+objašnjavaj	24		2
+obmotaj			3
+obnavljaj			2
+obožavaj			2
+obraćaj	131		2
+obrtaj	31		3
+obuvaj			2
+obuzdaj	16		2
+obuzdavaj			2
+obučavaj			2
+odagnaj	24		2
+odaj	32		2
+odbijaj	17		2
+odbrojavaj			2
+odgledaj	34		2
+odgovaraj	84		2
+odguraj			2
+odigraj	34		2
+odlepršaj			2
+odmaraj	55		2
+odmeravaj			2
+odmotaj			2
+odnošaj			2
+odolevaj			2
+odremaj			2
+održaj			2
+održavaj	27		2
+odsecaj			2
+odsedlaj			2
+odsjaj	713		2
+odspavaj	19		2
+odstupaj	17		2
+odsviraj			2
+odustaj	137		2
+oduvaj			2
+oduzimaj	18		2
+oduševljavaj			2
+odvajaj	11		2
+odvraćaj			2
+odšetaj			3
+odštampaj	44		2
+ofarbaj	29		2
+ogledaj	11		2
+ogovaraj			2
+ojačaj	12		2
+oklevaj	49		2
+okolišaj			2
+okončaj			2
+okretaj	14		3
+okršaj	1282		3
+okupaj	27		2
+okupiraj	92		2
+okušaj			2
+olakšaj	38		2
+olakšavaj			2
+omalovažavaj			2
+omekšaj			2
+ometaj	16		2
+omotaj			2
+onaj	86823		2
+onkraj	36		2
+opažaj	47		2
+operušaj			2
+opevaj			2
+opijaj			2
+opipaj	17		2
+opkoljavaj			2
+opljačkaj	13		2
+oponašaj			2
+opravdaj			2
+opravdavaj			2
+opraštaj	11		2
+opremaj			2
+oprobaj			2
+oproštaj	1971		3
+opticaj	665		2
+opuštaj			2
+oribaj			2
+orošavaj			2
+oružaj			2
+osedlaj			2
+osećaj	31231		3
+osiguraj	11		2
+oslanjaj	16		2
+oslobađaj			2
+oslovljavaj			2
+osmatraj			2
+osoljavaj			2
+ostaj	128		2
+ostavljaj	194		2
+osunčaj			2
+osvajaj			2
+osvetlaj			2
+osvežavaj			2
+oteraj	45		2
+otežavaj			2
+otimaj	56		2
+otključaj	18		3
+otkopčaj	10		3
+otkotrljaj			2
+otkrivaj	13		2
+otkucaj	155		2
+otpevaj	15		2
+otplivaj			2
+otpuštaj			2
+otuširaj			2
+otvaraj	152		2
+ovaj	422511		2
+označavaj			2
+očaj	1414		2
+očajavaj	62		2
+očešljaj			2
+očitaj	13		3
+očuvaj			2
+ošišaj	13		2
+oživljavaj			2
+padaj	59		2
+papagaj	637		2
+parkiraj	58		2
+pauziraj			2
+pecaj	10		2
+pedaliraj			2
+peglaj	15		2
+pegleraj			2
+petljaj	14		2
+pevaj	235		2
+pipaj	33		2
+pitaj	2717		2
+pišaj	14		2
+planiraj	64		2
+plaćaj	116		2
+plivaj	86		2
+pljačkaj	15		2
+plutaj			2
+pobacaj			2
+pobačaj	494		3
+poboljšaj	16		2
+poboljšavaj			2
+pocepaj	20		2
+podaj	253		2
+podbačaj	182		3
+podgrevaj			2
+podražaj	30		3
+podražavaj	14		2
+podržavaj	19		2
+podsećaj			2
+podsmevaj			2
+podsticaj	6380		2
+podučavaj	10		2
+podvrgavaj			2
+podšišaj			2
+pogađaj	19		2
+pogledaj	8164		2
+pogoršavaj			2
+poguraj	12		2
+pohitaj	83		2
+poigraj	15		2
+poigravaj			2
+pojačaj	85		2
+pokaj	97		2
+pokaraj	21		2
+pokidaj	10		2
+poklanjaj	16		2
+pokopaj			2
+pokoravaj			2
+pokraj	2701		2
+pokrivaj	14		2
+pokucaj			2
+pokušaj	21430		3
+pokušavaj	133		2
+polivaj			2
+položaj	32934		3
+pomagaj			2
+pomeraj	103		2
+pomešaj	26		2
+pomišljaj	42		2
+ponadaj			2
+ponavljaj	72		2
+ponašaj	136		2
+poništaj	302		3
+ponižavaj	15		2
+popaj			2
+popevaj			2
+popipaj			2
+popločaj			3
+popravljaj	26		2
+popričaj	46		2
+popričekaj			2
+poprskaj	12		2
+popuštaj	45		2
+poravnaj	11		2
+porazgovaraj	41		2
+poredaj			2
+poremećaj	5835		4
+poređaj	10		2
+porođaj	3065		3
+posisaj			2
+poslušaj	556		2
+posmatraj	161		2
+posrtaj			3
+postaraj	76		2
+postavljaj	57		2
+postradaj			2
+postupaj	37		2
+posustaj	24		2
+posviraj			2
+potapšaj			2
+poteraj	33		2
+poticaj	290		2
+potkopaj			2
+potkraj	325		2
+potsticaj			2
+poubijaj			2
+poučavaj			2
+poveravaj			2
+povećaj	99		2
+povraćaj	4445		3
+pozdravljaj			2
+poziraj			2
+pozivaj	22		2
+poznaj	70		2
+počekaj	25		2
+počešljaj			2
+počivaj	167		2
+pošetaj			3
+pravdaj	22		2
+praćakaj			2
+praštaj	32		2
+prebačaj	120		3
+prebiraj			2
+prebivaj			2
+precrtaj	17		3
+predaj	218		2
+predosećaj	195		4
+predosječaj		J	2
+predumišljaj	33		2
+preduzimaj			2
+pregledaj	104		2
+pregovaraj			2
+preispitaj	45		2
+prekidaj	68		2
+preklapaj			2
+prekopiraj	16		2
+prekrajaj			2
+prekršaj	4014		2
+prelamaj			2
+prelistaj	101		2
+premašaj		M	2
+premeštaj	402		3
+premišljaj			2
+premotaj	24		2
+preobražaj	1152		2
+preoravaj			2
+preporađaj			2
+preporođaj		M	2
+prepoznaj	76		2
+prepričaj			2
+prepuštaj			2
+preračunaj	20		2
+preslikaj			2
+preslišaj			2
+preslušaj	10		2
+prespavaj	10		2
+prestaj	37		2
+pretpostavljaj			2
+pretresaj			2
+preturaj			2
+pretvaraj	24		2
+preuveličavaj			2
+preuzimaj			2
+pribegavaj			2
+približavaj			2
+pridodaj			2
+pridržavaj	23		2
+prigovaraj			2
+prihvataj	40		3
+prihvaćaj			2
+prikopčaj			3
+prikradaj			2
+prikucaj			2
+prikupljaj			2
+primaj	65		2
+primoraj	11		2
+primoravaj			2
+pripadaj			2
+pripremaj	20		2
+priraštaj	704		3
+prisećaj			2
+prisiljavaj			2
+pristaj	17		2
+pristupaj			2
+prisvajaj			2
+pritiskaj	26		2
+priupitaj			2
+priučavaj			2
+privijaj			2
+prizivaj	24		2
+priznaj	365		2
+pričaj	957		2
+pričekaj	98		2
+pričuvaj	22		2
+prljaj	16		2
+probaj	4138		2
+probijaj			2
+probiraj			2
+prodaj	586		2
+prodavaj			2
+prodrmaj			2
+produžavaj			2
+proganjaj			2
+progledaj	35		2
+prognaj			2
+progovaraj			2
+programiraj			2
+proguraj			2
+progutaj	90		2
+prokuvaj			2
+promatraj			2
+promašaj	2143		3
+promešaj	22		2
+promišljaj			2
+promuvaj			2
+promućkaj	10		2
+pronjuškaj			2
+propadaj			2
+propitaj			3
+proplamsaj			2
+propovedaj	22		2
+propuštaj	24		2
+proračunaj			2
+prosipaj	32		2
+proslavljaj			2
+proteraj	14		2
+protrljaj	11		2
+proučavaj	10		2
+proveravaj	21		2
+provociraj			2
+provozaj	40		2
+pročešljaj	35		2
+pročitaj	18331		2
+pročitavaj			2
+prošaraj			2
+prošetaj		M	3
+prskaj	15		2
+pružaj	15		2
+pucaj	198		2
+pumpaj	14		2
+puštaj	117		2
+raj	5637		1
+ranjavaj			2
+raportiraj			2
+rasipaj			2
+raskomadaj			2
+raskopčaj			3
+raspitaj	559		2
+raspoznaj			2
+raspravljaj			2
+raspremaj			2
+rastaj			2
+rastegljaj		M	2
+rasteraj			2
+rasturaj			2
+rastvaraj			2
+ravnaj			2
+razbacaj			2
+razbijaj	18		2
+razbiraj			2
+razbucaj			2
+razdaj	33		2
+razdvajaj			2
+razgledaj	23		2
+razgovaraj	111		2
+razgranaj			2
+razmatraj	10		2
+razmekšaj			2
+razmeštaj	325		3
+razmišljaj	349		2
+razmotaj			2
+razmrdaj			2
+razmrskaj			2
+razoružaj			2
+razvijaj	30		2
+razvrstaj			2
+računaj	402		2
+rađaj	20		2
+recikliraj	245		2
+revoltiraj			2
+ređaj			2
+rešavaj	40		2
+ribaj			2
+ridaj	10		2
+rintaj	10		2
+riskiraj			2
+rokaj			2
+rondaj			2
+rotiraj			2
+rugaj	18		2
+rusvaj		M	2
+ručaj	19		2
+sabiraj	10		2
+sadržaj	29323		3
+sagledaj	32		2
+sagledavaj			2
+saj			1
+sakrivaj			2
+sakupljaj	38		2
+salutiraj			2
+samuraj	173		2
+sanjaj	178		2
+saobraćaj	17932		4
+saopštavaj			2
+saosećaj			4
+saraj		M	2
+saslušaj	91		2
+sateraj			2
+savijaj			2
+savladaj	12		2
+sazdaj			2
+saznaj	374		2
+sačekaj	566		2
+sačuvaj	1497		2
+sažaljevaj			2
+seckaj			2
+sedaj	27		2
+sedlaj			2
+sekiraj	249		2
+serviraj	14		2
+sećaj	77		2
+shvataj	25		2
+signaliziraj			2
+sijaj	11		2
+sinaj			2
+sipaj	120		2
+sisaj	52		2
+sjaj	6925		1
+skapavaj			2
+skapiraj	10		2
+skeniraj	51		2
+skidaj	193		2
+sklanjaj	101		2
+sklapaj	16		2
+skockaj			2
+skontaj	11		2
+skrivaj	23		2
+skuliraj			2
+skupljaj	53		2
+skuvaj	60		2
+slikaj	178		2
+slovkaj			2
+slupaj			2
+slučaj	59227		2
+slušaj	1923		2
+smaraj	47		2
+smatraj	108		2
+smekšaj			2
+smetaj	28		2
+smešaj			2
+smeškaj	17		2
+smeštaj	15303		2
+smiraj	444		2
+smišljaj	19		2
+smotaj	11		2
+smrskaj			2
+smršaj			2
+smuvaj			2
+smućkaj	14		2
+snabdevaj			2
+snimaj	70		2
+snivaj			2
+snošaj	116		2
+sortiraj			2
+spajaj			2
+spasavaj	114		2
+spavaj	418		2
+spašavaj			2
+spoznaj	41		2
+spravljaj			2
+sprdaj			2
+spremaj	114		2
+sprečavaj			2
+sputavaj			2
+spuštaj	41		2
+srljaj			2
+staj	37		1
+staraj	51		2
+stavljaj	117		2
+stečaj	5154		2
+stešnjavaj			2
+sticaj	394		2
+stiskaj			2
+stišaj	12		2
+stopiraj			2
+streljaj			2
+strpaj	24		2
+studiraj	26		2
+stupaj	17		2
+stvaraj	55		2
+sumnjaj	55		2
+sunčaj			2
+suprotstavljaj			2
+suzdržavaj			2
+sužavaj			2
+svađaj	24		2
+svilaj			2
+sviraj	181		2
+svladaj			2
+svraćaj	13		2
+svrstaj			2
+svršavaj	12		2
+taj	359939		1
+talasaj	79		2
+tapkaj			2
+telefoniraj	14		2
+tepaj	20		2
+teraj	406		2
+testiraj	129		2
+tečaj	691		2
+titraj			2
+tkaj			1
+tornjaj	16		2
+trabunjaj			2
+tragaj	13		2
+tramvaj	1380		2
+treniraj	111		2
+treptaj	247		2
+tretiraj	18		2
+trkaj			2
+trljaj	32		2
+trpaj	60		2
+trtljaj			2
+trupkaj			2
+trzaj	491		2
+tuširaj			2
+ubačaj			3
+ubijaj	56		2
+ubrajaj			2
+ubrizgaj			2
+ubrzaj	25		2
+ubrzavaj			2
+udaj	109		2
+udaljavaj			2
+udaraj	78		2
+udebljaj			2
+udisaj	112		2
+udvaraj			2
+ugađaj	10		2
+ugledaj	64		2
+ugođaj	1366		3
+uguraj	14		2
+ujedaj			2
+ukapiraj			2
+ukidaj	10		2
+uklanjaj			2
+ukopaj	12		2
+ukoravaj			2
+ukraj		M	2
+ukrcaj	44		3
+ukrcavaj			2
+ukrštaj	30		3
+ukucaj	188		2
+ulepšaj	39		2
+uljepšaj		J	2
+umešaj			2
+umišljaj	105		2
+umnožavaj			2
+umotaj			3
+umudravaj			2
+uništavaj	20		2
+upadaj	40		2
+upecaj			2
+upijaj			2
+upitaj	93		2
+upotrebljavaj	11		2
+upoznaj	404		2
+upozoravaj			2
+upravljaj	42		2
+upražnjavaj			2
+uprljaj			2
+upucaj	13		2
+upuštaj	21		3
+uračunaj	24		2
+uračunavaj			2
+uređaj	21401		3
+urlaj			2
+usisaj			2
+uslikaj	22		2
+usmeravaj			2
+uspavaj			2
+uspevaj			2
+usporavaj			2
+ustaj	278		2
+ustraj			2
+ustručavaj	12		2
+ustupaj			2
+usvajaj			2
+uteraj			2
+uticaj	38916		3
+utišaj	22		2
+utjecaj	662	J	3
+utrljaj			2
+utucaj			2
+uveličaj			2
+uveravaj			2
+uvećaj	21		2
+uvijaj			2
+uviđaj	1573		3
+uvraćaj			3
+uzdaj	94		2
+uzdisaj	20		2
+uzdržavaj			2
+uzidaj			2
+uzimaj	311		2
+uznemiravaj	40		2
+uzrujavaj			2
+uzvraćaj			3
+ućutkaj			2
+učitaj	53		3
+učitavaj			2
+ušetaj			2
+uštrcaj		M	2
+ušunjaj			2
+ušutkaj			2
+ušuškaj			2
+užasavaj			2
+uživaj	1171		2
+vagaj			2
+valjaj	20		2
+vapaj	892		2
+varaj	35		2
+vaspitaj	12		3
+vaspitavaj			2
+veličaj	13		3
+venčaj			2
+venčavaj			2
+versaj			2
+veslaj	10		2
+većaj			2
+večeraj	19		2
+vešaj			2
+vešeraj			2
+vežbaj	153		2
+viđaj			2
+vladaj	433		2
+vodostaj	1454		3
+vozaj	13		2
+vraćaj	227		2
+vračaj			2
+vrckaj			2
+vrdaj			2
+vređaj	77		2
+vrljaj			2
+vrzaj			2
+vršaj			2
+zabadaj			2
+zabavljaj	37		2
+zablistaj	12		2
+zaboravljaj	53		2
+zabrinjavaj			2
+zabušavaj			2
+zadaj	21		2
+zadržavaj	28		2
+zafrkavaj			2
+zagledaj	38		2
+zagolicaj			2
+zagovaraj			2
+zagrevaj			2
+zagrljaj	2360		3
+zahtevaj	33		2
+zaigraj	29		2
+zajedaj			2
+zaklanjaj			2
+zaključaj	53		3
+zaključavaj			2
+zakopaj	29		2
+zakopčaj	29		3
+zakoračaj			2
+zakotrljaj			2
+zakucaj	19		2
+zalaj			2
+zalivaj			2
+zaljuljaj			2
+zalogaj	1560		3
+zalupaj			2
+zamajavaj	21		2
+zamaraj	22		2
+zamašaj		M	2
+zameraj			2
+zamišljaj	31		2
+zamotaj			3
+zanimaj			2
+zanovetaj			2
+zaoštravaj			2
+zapevaj	40		2
+zapitaj	299		2
+zapovedaj			2
+zaranjaj			2
+zarolaj			2
+zasecaj			2
+zasijaj			2
+zasmejavaj	14		2
+zastupaj			2
+zasviraj	20		2
+zataškaj			2
+zatrpaj	12		2
+zatvaraj	70		2
+zaustavljaj	11		2
+zauzdaj			2
+zauzdavaj			2
+zavaravaj	31		2
+zaveslaj	39		2
+zaveštaj			3
+zavežljaj	106		3
+zavijaj			2
+zavitlavaj			2
+zavičaj	1459		3
+zavladaj			2
+zavrtaj		M	3
+završavaj	30		2
+zazivaj			2
+začeprkaj			2
+zbijaj			2
+zevaj			2
+zezaj	115		2
+zgledaj			2
+zidaj	21		2
+zlostavljaj			2
+zmaj	4203		1
+znaj	1341		1
+značaj	37660		2
+zumiraj	10		2
+zvocaj			2
+ćaskaj			2
+čaj	8980		1
+čačkaj	30		2
+čekaj	2714		2
+čestitaj	18		2
+češljaj			2
+čikaj			2
+čitaj	7070		2
+čupaj	19		2
+čuvaj	1253		2
+Šangaj			2
+šarmiraj			2
+šetaj	92		2
+šibaj	15		2
+šinteraj	22		2
+šivaj			2
+šišaj	29		2
+šokiraj	17		2
+špijuniraj			2
+štafelaj			2
+štampaj	88		2
+štikliraj			2
+štimaj			2
+štipaj			2
+štipkaj			2
+šuljaj			2
+šunjaj			2
+šutaj			2
+šutiraj	16		2
+šuškaj			2
+ščepaj	10		2
+živciraj			2
+iscijepaj			2
+istjeraj			2
+izbjegavaj			2
+izvjestaj			3
+izvještaj			3
+izvještavaj			2
+mijenjaj	14		2
+miješaj	10		2
+mješaj			2
+nagovještaj			2
+namještaj			3
+natjeraj			2
+obavještavaj			2
+odsjecaj			2
+oklijevaj			2
+osjecaj			2
+osjećaj			3
+otjeraj			2
+otpjevaj			2
+pjevaj			2
+podsjećaj			2
+pomiješaj			2
+pomjeraj			2
+potjeraj			2
+predosjećaj			4
+premještaj			3
+promiješaj			2
+provjeravaj			2
+razmještaj			3
+sjedaj			2
+smješkaj			2
+smještaj			2
+strijeljaj			2
+tjeraj			2
+vježbaj			2
+vrijeđaj			2
+zapjevaj			2

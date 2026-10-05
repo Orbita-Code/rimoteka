@@ -1,37 +1,37 @@
 36
-Istanbul		
-Seul		
-bul		
-džul	12	
-faul	1140	
-folikul		
-ful	279	
-globul		
-herkul		
-istambul		
-jul	28344	
-kabul		
-karbunkul		
-konzul	1488	
-kraul	386	
-kul		
-liverpul		
-mirakul		
-modul	5877	
-mogul	127	
-molekul	661	
-muskul		M
-paul		
-pitbul	84	
-prokonzul		
-pul		
-radul		
-raul		
-saul		
-somnabul		
-somnambul		
-soul	500	
-trabakul		
-tul		
-vicekonzul	67	
-zumbul	74	
+Istanbul			2
+Seul			2
+bul			1
+džul	12		1
+faul	1140		2
+folikul			2
+ful	279		1
+globul			2
+herkul			2
+istambul			2
+jul	28344		1
+kabul			2
+karbunkul			2
+konzul	1488		2
+kraul	386		2
+kul			1
+liverpul			2
+mirakul			2
+modul	5877		2
+mogul	127		2
+molekul	661		2
+muskul		M	2
+paul			2
+pitbul	84		2
+prokonzul			2
+pul			1
+radul			2
+raul			2
+saul			2
+somnabul			2
+somnambul			2
+soul	500		2
+trabakul			2
+tul			1
+vicekonzul	67		2
+zumbul	74		2

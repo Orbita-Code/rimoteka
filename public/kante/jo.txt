@@ -1,246 +1,246 @@
 245
-Albanijo		
-Australijo		
-Austrijo		
-Belgijo		
-Estonijo		
-Etiopijo		
-Holandijo		
-Indijo		
-Indonezijo		
-Italijo		
-Kenijo		
-Kolumbijo		
-Korejo		
-Libijo		
-Litvanijo		
-Makedonijo		
-Malezijo		
-Marijo		
-Mongolijo		
-Nigerijo		
-Portugalijo		
-Rumunijo		
-Rusijo		
-Sirijo		
-Slovenijo		
-Sofijo		
-Srbijo	134	
-Venecijo		
-agentkinjo		
-akcijo		
-alergijo		
-ambrozijo		
-amfibijo		
-amortizacijo		
-anoreksijo		
-antropologijo		
-arheologijo		
-asistentkinjo		
-astronomijo		
-aždajo		
-bajo	29	
-bakljo		
-banjo		
-bekrijo		
-belkinjo		
-beštijo		
-biohemijo		
-biologijo		
-birokratijo		
-bjelkinjo		
-bodljo		
-boginjo	21	
-bojo		
-bostandžijo		
-bošnjo		
-bradonjo		
-bratijo	19	
-brbljo		M
-crnkinjo		
-cvejo		
-cvijo		
-dadiljo		
-delijo		
-demokratijo		
-dečkonjo		
-dečurlijo		
-dimiskijo		
-dojiljo		
-dojo		
-droljo	28	
-dugajlijo		
-dunjo	66	
-dućandžijo		
-efendijo		
-ekologijo		
-ekonomijo		
-ekscelencijo		
-ekselencijo	65	
-eminencijo		
-etnologijo		
-fakultetlijo		
-familijo		
-farmacijo		
-filozofijo		
-franjo		
-gajo		
-galaksijo		
-galamdžijo		
-geografijo		
-geologijo		
-glavonjo		
-goljo		
-gospojo		
-grujo		
-gujo		
-halapenjo		
-hemijo		
-huljo		
-hurijo		
-idiotkinjo		
-igumanijo		
-ilijo		
-iluzijo	17	
-inteligencijo	15	
-ironijo		
-istorijo		
-janjo		
-jo		
-jojo		
-kajo		
-kapijo		
-kapljo		
-kardiologijo		
-keceljo		
-klinjo		
-kneginjo		
-koeljo		
-kojo		
-komisijo		
-komšijo	30	
-košuljo		
-krnjo		
-krntijo		
-krvopijo		
-kujo	24	
-kutijo		
-lenjo		
-litijo		
-liturgijo		
-lobanjo		
-lovkinjo		
-lujo		
-luđakinjo		
-magijo		
-majo		
-maljo		
-manjo		
-medonjo		
-meteorologijo		
-mijo		
-milicijo	18	
-miljo		
-misijo		
-mladoženjo		
-mlakonjo		
-monahinjo		
-mrljo		
-mujo		
-mušterijo		
-nacijo		
-nedeljo		
-nerotkinjo		
-neurologijo		
-nevoljo		
-ništarijo		
-nosonjo		
-novajlijo		
-ohajo		
-oklagijo		
-olujo		
-ortakinjo		
-pajo		
-partijo		
-pedagogijo		
-pesnikinjo		
-petljo		
-pokajo		
-policijo	38	
-preljo		
-prevarantkinjo		
-prijo	37	
-prokletinjo		
-psihijatrijo		
-psihologijo		
-rajo		
-revolucijo		
-rmpalijo		
-robijo		
-robinjo		
-rogonjo		
-rospijo		
-rođakinjo		
-ruljo		
-sabljo		
-sanjo		
-sejo		
-seljo	15	
-siledžijo		
-sirotinjo	26	
-sivonjo		
-skijo		
-sluškinjo	17	
-smajo		
-snajo		
-sociologijo		
-sojo		
-srbadijo		
-srpkinjo		
-starkeljo		
-stomatologijo		
-strankinjo		
-sudijo	71	
-suljo		
-sutkinjo		
-svinjo	38	
-svojo		
-tekelijo		
-televizijo		
-tokijo		
-tradicijo		
-trbonjo		
-tupadžijo		
-turkinjo		
-ujo	24	
-veleizdajo		
-veljo		
-veresijo		
-verzijo		
-veziljo		
-vizijo		
-vojvotkinjo		
-zekonjo		
-zemljo	298	
-zmijo	13	
-zoologijo		
-čaršijo		
-čežnjo		
-čudakinjo		
-Španijo		
-šaljivdžijo		
-šaruljo		
-šeprtljo		
-šeširdžijo		
-šijo		
-šiljo		
-šmokljo		
-šoljo		
-šonjo		
-šujo		
-žderonjo		
-željo	20	
-žgadijo		
-žgoljo		
-životinjo	19	
-žudnjo		
+Albanijo			3
+Australijo			3
+Austrijo			2
+Belgijo			2
+Estonijo			3
+Etiopijo			2
+Holandijo			2
+Indijo			2
+Indonezijo			3
+Italijo			3
+Kenijo			3
+Kolumbijo			2
+Korejo			2
+Libijo			3
+Litvanijo			3
+Makedonijo			3
+Malezijo			3
+Marijo			2
+Mongolijo			3
+Nigerijo			3
+Portugalijo			3
+Rumunijo			3
+Rusijo			2
+Sirijo			3
+Slovenijo			3
+Sofijo			2
+Srbijo	134		2
+Venecijo			3
+agentkinjo			2
+akcijo			2
+alergijo			2
+ambrozijo			3
+amfibijo			3
+amortizacijo			2
+anoreksijo			2
+antropologijo			2
+arheologijo			2
+asistentkinjo			2
+astronomijo			2
+aždajo			2
+bajo	29		2
+bakljo			2
+banjo			2
+bekrijo			2
+belkinjo			3
+beštijo			2
+biohemijo			2
+biologijo			2
+birokratijo			2
+bjelkinjo			3
+bodljo			2
+boginjo	21		2
+bojo			2
+bostandžijo			2
+bošnjo			2
+bradonjo			2
+bratijo	19		2
+brbljo		M	2
+crnkinjo			2
+cvejo			2
+cvijo			2
+dadiljo			2
+delijo			2
+demokratijo			2
+dečkonjo			2
+dečurlijo			2
+dimiskijo			2
+dojiljo			2
+dojo			2
+droljo	28		2
+dugajlijo			2
+dunjo	66		2
+dućandžijo			2
+efendijo			2
+ekologijo			2
+ekonomijo			2
+ekscelencijo			2
+ekselencijo	65		2
+eminencijo			2
+etnologijo			2
+fakultetlijo			2
+familijo			2
+farmacijo			2
+filozofijo			2
+franjo			2
+gajo			2
+galaksijo			2
+galamdžijo			2
+geografijo			2
+geologijo			2
+glavonjo			2
+goljo			2
+gospojo			2
+grujo			2
+gujo			2
+halapenjo			2
+hemijo			2
+huljo			2
+hurijo			2
+idiotkinjo			2
+igumanijo			2
+ilijo			2
+iluzijo	17		2
+inteligencijo	15		2
+ironijo			2
+istorijo			3
+janjo			2
+jo			1
+jojo			2
+kajo			2
+kapijo			2
+kapljo			2
+kardiologijo			2
+keceljo			2
+klinjo			2
+kneginjo			2
+koeljo			2
+kojo			2
+komisijo			2
+komšijo	30		2
+košuljo			2
+krnjo			2
+krntijo			2
+krvopijo			2
+kujo	24		2
+kutijo			2
+lenjo			2
+litijo			2
+liturgijo			2
+lobanjo			2
+lovkinjo			2
+lujo			2
+luđakinjo			2
+magijo			2
+majo			2
+maljo			2
+manjo			2
+medonjo			2
+meteorologijo			2
+mijo			2
+milicijo	18		3
+miljo			2
+misijo			2
+mladoženjo			2
+mlakonjo			2
+monahinjo			2
+mrljo			2
+mujo			2
+mušterijo			2
+nacijo			3
+nedeljo			2
+nerotkinjo			3
+neurologijo			2
+nevoljo			2
+ništarijo			2
+nosonjo			2
+novajlijo			2
+ohajo			2
+oklagijo			2
+olujo			2
+ortakinjo			2
+pajo			2
+partijo			2
+pedagogijo			2
+pesnikinjo			4
+petljo			2
+pokajo			2
+policijo	38		2
+preljo			2
+prevarantkinjo			2
+prijo	37		2
+prokletinjo			2
+psihijatrijo			2
+psihologijo			2
+rajo			2
+revolucijo			2
+rmpalijo			2
+robijo			2
+robinjo			2
+rogonjo			2
+rospijo			2
+rođakinjo			2
+ruljo			2
+sabljo			2
+sanjo			2
+sejo			2
+seljo	15		2
+siledžijo			2
+sirotinjo	26		2
+sivonjo			2
+skijo			2
+sluškinjo	17		3
+smajo			2
+snajo			2
+sociologijo			2
+sojo			2
+srbadijo			2
+srpkinjo			2
+starkeljo			2
+stomatologijo			2
+strankinjo			3
+sudijo	71		2
+suljo			2
+sutkinjo			3
+svinjo	38		2
+svojo			2
+tekelijo			2
+televizijo			2
+tokijo			2
+tradicijo			3
+trbonjo			2
+tupadžijo			2
+turkinjo			2
+ujo	24		2
+veleizdajo			2
+veljo			2
+veresijo			2
+verzijo			2
+veziljo			2
+vizijo			3
+vojvotkinjo			3
+zekonjo			2
+zemljo	298		2
+zmijo	13		2
+zoologijo			2
+čaršijo			2
+čežnjo			2
+čudakinjo			2
+Španijo			3
+šaljivdžijo			2
+šaruljo			2
+šeprtljo			2
+šeširdžijo			2
+šijo			2
+šiljo			2
+šmokljo			2
+šoljo			2
+šonjo			2
+šujo			2
+žderonjo			2
+željo	20		2
+žgadijo			2
+žgoljo			2
+životinjo	19		2
+žudnjo			2

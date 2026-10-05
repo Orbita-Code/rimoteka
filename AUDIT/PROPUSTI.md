@@ -1750,3 +1750,17 @@ se iznese van radnika, pre prvog pokretanja. Skripta koja se izvršava se ne men
 Mehanička izmena koda (hoisting, omotavanje) se proverava pretragom za obrasce koje regex NIJE pokrio (`, ime = ` u istom redu),
 ne samo `node --check`. I: svaka provera koja hvata kapsulu posle pretrage ide kroz `cekajMirneRime` – bez izuzetka, jer pod
 opterećenjem ponovno iscrtavanje kasni više nego lokalno u miru.
+
+## 03–05.10.2026 — „ISTI BROJ SLOGOVA" JE BILA ZAMENA ZA AKCENAT, A NIKO NIJE PROVERIO KOLIKO GREŠI NA DUGIM REČIMA
+
+**Šta se desilo:** vlasnica je ukucala „televizor" i dobila „ambasador, ventilator, komentator" kao najbolje rime, a „revizor"
+u „Dobrim". Pravilo od 27.07. („najbolje = isti broj slogova") uvedeno je kao zamena za akcenat koji nismo imali, provereno
+na jednoj reči („rima") i proglašeno pravilom. Niko nije pitao šta daje za reč od četiri sloga sa kratkim ključem rime
+(„-or"): tamo je SVAKA četvorosložna reč na „-or" postajala najbolja rima. Podaci o akcentu su postojali sve vreme
+(engleski Wiktionary, slobodna licenca, 28.934 osnove), ali nisu traženi jer je zamena „radila" na primeru.
+
+**Pravilo:** heuristika koja menja pravi jezički podatak dobija ime „zamena za X" i spisak reči na kojima je proverena.
+Pre nego što postane pravilo, proverava se na bar 10 reči RAZLIČITE dužine i vrste (2, 3, 4 sloga; sa kratkim i dugim
+ključem rime). I: kad podatak X postoji u nekom slobodnom izvoru, prvo se traži izvor, pa tek onda zamena. Vlasnica je
+pogodila srž („broj slogova i akcenti i završeci jako utiču na rimu") i tražila da se istraži gramatika – to je trebalo
+uraditi 27.07., ne 04.10.

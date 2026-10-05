@@ -1,31 +1,31 @@
 30
-aplauz	2094	
-baksuz		M
-bircuz	45	
-bluz	1195	
-dibiduz		
-francuz	1181	
-gologuz	26	
-guz		
-hjuz		
-jonuz		
-junuz		
-kalauz		M
-klouz		
-kruz		
-kukuruz	6309	
-kuruz		
-luksuz	3974	
-moreuz		
-penrouz		
-rouz		
-sluz	645	
-sojuz		
-topuz		M
-tuluz		
-ugursuz		M
-uz	385737	
-vaduz		
-vindouz		
-zemljouz		
-ćurguz		
+aplauz	2094		2
+baksuz		M	2
+bircuz	45		2
+bluz	1195		1
+dibiduz			2
+francuz	1181		2
+gologuz	26		2
+guz			1
+hjuz			1
+jonuz			2
+junuz			2
+kalauz		M	2
+klouz			2
+kruz			1
+kukuruz	6309		2
+kuruz			2
+luksuz	3974		2
+moreuz			2
+penrouz			2
+rouz			2
+sluz	645		1
+sojuz			2
+topuz		M	2
+tuluz			2
+ugursuz		M	2
+uz	385737		1
+vaduz			2
+vindouz			2
+zemljouz			2
+ćurguz			2

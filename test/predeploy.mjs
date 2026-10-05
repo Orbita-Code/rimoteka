@@ -777,29 +777,36 @@ async function main() {
     ok('drugi igrač je dobio reč', nastavak.rec.length > 0, `reč: „${nastavak.rec}"`);
 
     }
-    if (moj('2b')) { sek('\n2b) RANGIRANJE RIMA – isti broj slogova je najbolja rima');
+    if (moj('2b')) { sek('\n2b) RANGIRANJE RIMA – prava rima počinje od naglašenog sloga (akcenat, 05.10.2026)');
     rang= await page.evaluate(async () => {
       const w = ms => new Promise(r => setTimeout(r, ms));
-      document.getElementById('rimeInput').value = 'rima';
-      document.getElementById('rimeBtn').click();
-      await w(1000);
-      const box = document.getElementById('rimeResults');
-      const grupe = {};
-      box.querySelectorAll('.res-group').forEach(g => {
-        const h = g.querySelector('h2, h3'); if (!h) return;
-        grupe[h.textContent.trim()] = [...g.querySelectorAll('.word')].map(e => e.textContent.trim());
-      });
-      const najbolje = grupe['Najbolje rime'] || [];
-      const sve = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
+      const grupeZa = async (rec) => {
+        document.getElementById('rimeInput').value = rec;
+        document.getElementById('rimeBtn').click();
+        await w(1000);
+        const box = document.getElementById('rimeResults'); const grupe = {};
+        box.querySelectorAll('.res-group').forEach(g => { const h = g.querySelector('h2, h3'); if (!h) return; grupe[h.textContent.trim()] = [...g.querySelectorAll('.word')].map(e => e.textContent.trim()); });
+        return { grupe, sve: [...box.querySelectorAll('.word')].map(e => e.textContent.trim()) };
+      };
+      const rima = await grupeZa('rima'); const tv = await grupeZa('televizor'); const slob = await grupeZa('sloboda');
+      await grupeZa('rima');   // vrati stanje strane kao pre (sledeće sekcije računaju na „rima")
+      const najbolje = rima.grupe['Najbolje rime'] || [];
       return {
-        najboljeSveDvosložne: najbolje.length > 0 && najbolje.every(x => syllables(x) === 2),
-        brojNajboljih: najbolje.length,
-        stimaPozicija: sve.indexOf('štima') + 1,
-        prvih5: sve.slice(0, 5)
+        rimaBezStvarima: najbolje.length > 0 && !najbolje.includes('stvarima') && !najbolje.includes('centrima'),
+        brojNajboljih: najbolje.length, stimaPozicija: rima.sve.indexOf('štima') + 1, prvih5: rima.sve.slice(0, 5),
+        tvNajbolje: tv.grupe['Najbolje rime'] || [], tvDobre: (tv.grupe['Dobre rime'] || []).slice(0, 6),
+        slobNajbolje: (slob.grupe['Najbolje rime'] || []),
+        akcTV: typeof AKCMAP !== 'undefined' ? AKCMAP.get('televizor') : null, akcRev: typeof AKCMAP !== 'undefined' ? AKCMAP.get('revizor') : null,
+        akcenataUcitano: typeof AKC !== 'undefined' ? AKC.length : 0,
       };
     });
-    ok('„Najbolje rime" za „rima" su SVE dvosložne', rang.najboljeSveDvosložne,
+    ok('akcenat učitan za svaku reč (AKC.length = WORDS.length)', rang.akcenataUcitano > 250000, `${rang.akcenataUcitano}`);
+    ok('„Najbolje rime" za „rima" ne sadrže „stvarima" ni „centrima" (silazni akcenat na prvom slogu – slaba rima)', rang.rimaBezStvarima,
        `${rang.brojNajboljih} reči, prvih 5: ${rang.prvih5.join(', ')}`);
+    ok('„televizor": revizor i retrovizor su u „Najbolje" (ista akcenatska jedinica -izor), ambasador NIJE (prijava vlasnice 03.10.2026)',
+       rang.tvNajbolje.includes('revizor') && rang.tvNajbolje.includes('retrovizor') && !rang.tvNajbolje.includes('ambasador') && rang.akcTV === 'izor' && rang.akcRev === 'izor',
+       `najbolje: ${rang.tvNajbolje.join(', ')} | dobre: ${rang.tvDobre.join(', ')} | ključ ${rang.akcTV}/${rang.akcRev}`);
+    ok('„sloboda": loboda i voda su u „Najbolje" (slobòda/vòda – uzlazni na pretposlednjem), vojvoda nije', rang.slobNajbolje.includes('loboda') && rang.slobNajbolje.includes('voda') && !rang.slobNajbolje.includes('vojvoda'), rang.slobNajbolje.slice(0, 14).join(', ') + '…');
     ok('„štima" je među prvih 30 rima za „rima"', rang.stimaPozicija > 0 && rang.stimaPozicija <= 30,
        `pozicija ${rang.stimaPozicija}`);
 
@@ -2028,7 +2035,9 @@ async function main() {
       await p17b.click('#tabs [data-tab="rime"]');
       await pauza(4000);
       const t2 = await p17b.evaluate(() => document.getElementById('gameTimer').textContent);
-      ok('S7 odbrojavanje STOJI dok si na drugom tabu', t1 === t2,
+      /* Dozvoljen je JEDAN otkucaj: između čitanja t1 i klika na drugi tab prođe do sekunde, pa tajmer sme da padne za 1
+         (pao pod opterećenjem 4 radnika, 05.10.2026: 14 → 13 posle 4 s – da je radio, pao bi za 4). */
+      ok('S7 odbrojavanje STOJI dok si na drugom tabu (do 1 otkucaja pri prelasku)', (+t1) - (+t2) <= 1 && (+t1) - (+t2) >= 0,
          `pre=${t1}, posle 4 s na drugom tabu=${t2}`);
       // i nastavlja kad se vratiš
       await p17b.click('#tabs [data-tab="igra"]');
@@ -2414,7 +2423,7 @@ async function main() {
       await p20b.uncheck('#looseToggle');
       await pauza(600);
 
-      const bezJek = await broj('dete');
+      const bezJek = await broj('mleko');   // 05.10.: dete ima 1.483 rime pa plafon od 90 po grupi sakrije ijekavske; mleko ima 28 + 3 ijekavske
       await p20b.check('#jekToggle');
       await pauza(1000);
       const saJek = await p20b.evaluate(() => document.querySelectorAll('#rimeResults .word').length);
@@ -5113,8 +5122,8 @@ async function main() {
       ok('svaki fajl sa podacima ima ?v= koji odgovara svom sadržaju',
          nesloge.length === 0,
          nesloge.join(' | ') + (nesloge.length ? ' → pusti: node scripts/osvezi-verzije-podataka.mjs' : ''));
-      ok('svih osam fajlova sa podacima je pokriveno proverom (igra-reci.json od 08.09.)',
-         Object.keys(stanje).length === 8 && Object.values(stanje).every(v => v.upisano),
+      ok('svih deset fajlova sa podacima je pokriveno proverom (igra-reci.json od 08.09.; akcenat.txt i akcenat_jekavica.txt od 05.10.)',
+         Object.keys(stanje).length === 10 && Object.values(stanje).every(v => v.upisano),
          Object.entries(stanje).filter(([, v]) => !v.upisano).map(([i]) => i).join(', ') || 'ok');
     }
 
@@ -6131,7 +6140,7 @@ async function main() {
         const kapsula = (glavni.match(/class="chip chip-btn"|class="chip"/g) || []).length;
         const zbir = m ? (+m[1] + (+(m[2] || 0))) : -1;
         ok('N-08 · broj u uvodu strane reči = broj kapsula na strani (pravih + bliskih)', zbir === kapsula && zbir > 0, `meta „${meta}" → ${zbir}, kapsula ${kapsula}`);
-        ok('N-08 · uvod kaže „pravih rima", ne „reči" (bliske su ispod)', /pravih rima|prava rima/.test(lj));
+        ok('N-08 · uvod kaže „pravih rima", ne „reči" (bliske su ispod)', /pravih rima|prava rima|prave rime/.test(lj));   // 2-4 → prave rime (ljubav: 93 od 05.10.)
         const idx = citaj('index.html');
         ok('N-10 · futer ne tvrdi „najčešće reči u pesmama" (spisak je ručno biran)', !/najčešćim rečima u pesmama/.test(idx) && /koje pesnici često traže/.test(idx));
         ok('N-R1 · statička strana „srce" nosi istu rečenicu uz rezervnu grupu kao alat', /res-note">Ove reči se sa tvojom slažu samo u poslednjem slogu/.test(citaj('rime-za/srce/index.html')));
@@ -6470,7 +6479,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
       const p = ojacajStranu(await c.newPage());
       await p.goto(BASE + '/?rec=ljubav', { waitUntil: 'domcontentloaded' });
       await p.waitForFunction(() => document.querySelectorAll('#rimeResults .chip').length > 5 && typeof RANK !== 'undefined' && RANK.get('gubav') < 0, null, { timeout: 180000 }); await pauza(500);
-      const kol = await p.evaluate(() => { const w = document.querySelector('#rimeResults .res-group .results'); const s = [...w.querySelectorAll('.chip')].map(c => Math.round(c.getBoundingClientRect().width)); return { poravnato: w.classList.contains('poravnato'), min: Math.min(...s), max: Math.max(...s), red: Math.round(w.clientWidth), n: s.length }; });
+      const kol = await p.evaluate(() => { const w = [...document.querySelectorAll('#rimeResults .res-group .results')].sort((a, b) => b.querySelectorAll('.chip').length - a.querySelectorAll('.chip').length)[0]; /* grupa sa najviše kapsula (05.10.: Najbolje za ljubav ima 3) */ const s = [...w.querySelectorAll('.chip')].map(c => Math.round(c.getBoundingClientRect().width)); return { poravnato: w.classList.contains('poravnato'), min: Math.min(...s), max: Math.max(...s), red: Math.round(w.clientWidth), n: s.length }; });
       ok('D-4 · pilule u grupi su iste širine (ravne kolone), najviše 48 % reda', kol.poravnato && kol.n > 10 && kol.max - kol.min <= 1 && kol.max <= kol.red * 0.49, JSON.stringify(kol));
       // D-3 (08.09. uveče, odluka vlasnice): kartica se otvara SAMO klikom – prelazak miša je ne otvara ni posle 650 ms
       await p.mouse.move(5, 5); await p.locator('#rimeResults .chip').nth(2).hover(); await pauza(650);

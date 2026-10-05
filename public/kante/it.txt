@@ -1,533 +1,533 @@
 530
-amonit		
-antisemit	11	
-antracit	58	
-apetit	2491	
-arhimandrit	1526	
-bajazit		
-bajkovit	119	
-bakelit		
-bandit		M
-barovit		
-benefit	884	
-biskvit	215	
-bit	913	
-boksit	57	
-branit		
-brdovit	72	
-bregovit		
-bremenit	55	
-bridžit		
-brit		
-celovit	877	
-celulit	1345	
-cistercit		
-cit		M
-darovit	235	
-deficit	11597	
-demokrit		
-depozit	2011	
-detroit		
-dinamit	191	
-divit		
-dobit	9981	
-dobrobit	5516	
-dolomit	35	
-dopustit		
-družit		
-drzovit		
-duhovit	1871	
-durnovit		M
-dvorit		
-džavit		
-džilit	25	
-edit		
-egzit		
-ekstraprofit		
-elektrolit		
-elit		
-epifit		
-eremit		
-eritrocit		
-eternit		
-favorit	3798	
-fit		M
-fluorit	36	
-gabarit	183	
-gambit	104	
-gasovit		
-git		
-glasit		M
-glasovit	13	
-glibovit		
-gorovit		
-govorit		
-grafit	914	
-granit	372	
-grifit		
-grmovit		
-gromovit		
-grozovit		
-grčevit	22	
-gvožđevit		
-habit		
-hematit		
-hematokrit	44	
-heraklit		M
-hermafrodit	37	
-hipokrit	16	
-hirovit	28	
-hit	8178	
-hladovit		
-hobit	190	
-hranit		
-hrizolit		
-hromit		M
-humovit		M
-inuit		
-iperit	21	
-isključit		
-iskoristit		
-iskočit		
-iskrvarit		
-ispalit		
-ispit	14800	
-isplatit		
-isporučit		
-istinit	938	
-istražit		
-it		M
-ivrit		
-izbavit		
-izgladit		
-izgradit		
-izgubit		
-izlazit		
-izliječit		J
-izložit		
-izludit		
-izmislit		
-izmjerit		J
-iznajmit		
-iznenadit		
-iznevjerit		J
-izradit		
-izrazit	276	
-izričit	740	
-izvadit		
-izvijestit		J
-jezgrovit	105	
-jezovit	20	
-jezuit	30	
-judit		
-kalcit	22	
-kamenit	41	
-kaznit		
-kit	1494	
-kišovit	74	
-kokpit	315	
-kolorit	628	
-konvertit		M
-korenit	25	
-kosmopolit		
-kredit	22536	
-kriptonit		
-krit		
-krševit		
-kvit		
-lekovit	253	
-lesonit		
-leukocit		
-levit		M
-lignit	217	
-limfocit		
-limit	2525	
-limonit		
-ljubit		
-ljudevit		
-ljutit	162	
-ljutovit		
-maglovit	103	
-magnetit	25	
-magnezit		M
-mahnit	34	
-malahit		
-manit		M
-margerit		
-margit		
-maštovit	397	
-meseršmit		M
-metabolit		
-meteorit	423	
-metropolit	16	
-međuispit		
-mešovit	99	
-mit	6395	
-mitropolit	6277	
-mnogoočit		
-mnogorečit		
-monolit	157	
-mrazovit		
-muljevit		
-munjevit	119	
-nabusit	18	
-nadoknadit		
-nagodit		
-nagovorit		
-nagradit		
-najavit		
-nakit	4798	
-namamit		
-namjestit		J
-naočit	118	
-napit	35	
-naplatit		
-naprasit	36	
-napravit		
-napunit		
-napustit		
-naredit		
-naročit	457	
-naslijedit		J
-nastavit		
-natočit		
-navalit		
-navratit		
-navršit		
-nazdravit		
-necelovit		
-nedarovit		
-neduhovit	20	
-neistinit	126	
-neizrazit		
-nemaštovit	36	
-nenasit		
-neofit	92	
-neolit	176	
-nerazborit	11	
-nesit		
-nesvrhovit		
-nezakonit	1085	
-nezasit	42	
-nit	5190	
-nizbrdit		
-nolit		
-obradit		
-obratit		
-odelit		
-odradit		
-odredit		
-odrešit		
-oduševit		
-odužit		
-odvojit		
-odvratit		
-ognjevit		
-okomit		
-opalit		
-opit	182	
-oporavit		
-optužit		
-oslobodit		
-osobit	130	
-osvetit		
-osvit	469	
-osvojit		
-otkrit		
-otkupit		
-otplatit		
-otpratit		
-otresit	31	
-otvorit		
-ozdravit		
-očistit		
-očit	262	
-paleolit		
-parazit	656	
-pavit		M
-peksimit		M
-pervertit		
-peskovit		
-petit	91	
-petrit		
-pirit	33	
-pit	65	
-plahovit	48	
-plamenit		
-plebiscit	112	
-plemenit	509	
-plodovit		
-pobit		
-podnapit		
-poglavit		
-pogodit		
-pogriješit		J
-pogubit		
-poklonit		
-poklopit		
-pokorit		
-pokrit		
-pokupit		
-polit		
-položit		
-pomfrit	465	
-pomirit		
-pomislit		
-poništit		
-ponosit	92	
-ponovit		
-ponudit		
-popravit		
-poradit		
-porazit		
-porit		
-poslužit		
-postavit		
-postupit		
-potopit		
-potražit		
-potrebit		
-potrošit		
-potvrdit		
-povalit		
-povit		
-povjerit		J
-povratit		
-pozabavit		
-pozdravit		
-pozlit		
-prebacit		
-prebit		
-prebrodit		
-predispit		
-predomislit		
-predstavit		
-pregazit		
-prehladit		
-prekrit		
-prekršit		
-premjestit		J
-prenoćit		
-preporučit		
-prepustit		
-preselit		
-presit	11	
-preskočit		
-preterit	13	
-pretpostavit		
-pretražit		
-pretvorit		
-prevarit		
-prečestit		
-približit		
-pridobit		
-pridružit		
-prihvatit		
-prijavit		
-priključit		
-primijetit		J
-primit		
-primjetit		J
-pripazit		
-pripit	113	
-pripremit		
-priredit		
-prisilit		
-pristavit		
-pritajit		
-privit		
-pričestit		
-probit		
-probudit		
-probušit		
-profit	13570	
-prokredit		
-promašit		
-promijenit		J
-promjenit		J
-propustit		
-prosit		
-proslavit		
-proslijedit		J
-protivzakonit	193	
-provalit		
-proverit		
-provjerit		J
-provodit		
-prozelit		
-prudovit		
-pružit		
-rasporit		
-raspravit		
-rastresit	58	
-razbit		
-razborit	141	
-razdvojit		
-različit	3403	
-razmazit		
-razmislit		
-razmotrit		
-razvalit		
-razvit		
-redovit		
-rekvizit	317	
-rečit	274	
-rit	601	
-rovit	103	
-sabit		
-sahit		
-sahranit		
-sait		
-sakrit		
-salonit		
-samit	2483	
-sanskrit	57	
-sastavit		
-satelit	3164	
-semit		
-senovit	13	
-sibarit		
-silovit	164	
-simit		M
-sit	881	
-skit		
-skokovit	31	
-skočit		
-skrovit		
-slikovit	531	
-slojevit	126	
-slomit		
-složit		
-smit		
-snegovit		
-spalit		
-split		
-spojit		
-spremit		
-spriječit		J
-spržit		
-srdit	46	
-stalagmit		
-stalaktit		
-stanovit		
-stasit	72	
-steatit		
-stenovit	21	
-strahovit	420	
-strelovit	19	
-strmenit		
-stvorit		
-sudarit		
-suficit	2536	
-sunit		
-svetovit		
-svratit		
-svrhovit	19	
-svršit		
-tacit		
-tajnovit	84	
-temeljit	69	
-teodolit	10	
-termit	12	
-transvestit	51	
-tranzit	1285	
-travestit		
-trilobit		
-trnovit	397	
-troglodit		M
-trombocit		
-trudit		
-tvit		
-ubacit		
-ubojit	78	
-udarit		
-udavit		
-udovoljit		
-udvostručit		
-ugasit		M
-ugovorit		
-ugrozit		
-ugušit		
-uključit		
-uklonit		
-uklopit		
-uljevit		
-unajmit		
-uništit		
-upalit		
-upamtit		
-upit	1621	
-uplašit		
-upozorit		
-uradit		
-uredit		
-uselit		
-ushit	30	
-usrećit		
-utopit		
-uvalit		
-uvjerit		J
-uznosit		
-uzorit	22	
-uzvisit		M
-uzvratit		
-učinit		
-učinkovit	105	
-valovit	30	
-velebit		
-vetrovit	58	
-večit	69	
-vidovit	257	
-vilovit		
-vit		
-vlastit		
-volstrit		
-vremenit		
-zabit	126	
-zadavit		
-zadovoljit		
-zagasit		
-zahvalit		
-zakasnit		
-zaklonit		M
-zakonit	667	
-zamijenit		J
-zamislit		
-zamjenit		J
-zamolit		
-zapalit		
-zapamtit		
-zaplijenit		J
-zaposlit		
-zaprosit		
-zaradit		
-zarazit		
-zarobit		
-zatražit		
-zatvorit		
-zavojit		
-završit		
-zdrobit		
-zenit	905	
-zeolit	468	
-zgazit		
-zgnječit		
-zgrabit		
-znakovit	29	
-znamenit	113	
-časovit		
-častit		
-čestit	459	
-čivit		
-člankovit		
-čudovit		
-čvornovit		
-šehit		M
-šiit		
-širit		M
-štit	1890	
-šumovit	27	
-žalovit		M
-žuljevit		
-cjelovit		
-rječit		
+amonit			2
+antisemit	11		2
+antracit	58		2
+apetit	2491		2
+arhimandrit	1526		2
+bajazit			2
+bajkovit	119		2
+bakelit			2
+bandit		M	2
+barovit			2
+benefit	884		2
+biskvit	215		2
+bit	913		1
+boksit	57		2
+branit			2
+brdovit	72		2
+bregovit			2
+bremenit	55		2
+bridžit			2
+brit			1
+celovit	877		2
+celulit	1345		2
+cistercit			2
+cit		M	1
+darovit	235		2
+deficit	11597		3
+demokrit			2
+depozit	2011		3
+detroit			2
+dinamit	191		2
+divit			2
+dobit	9981		2
+dobrobit	5516		3
+dolomit	35		2
+dopustit			2
+družit			2
+drzovit			2
+duhovit	1871		2
+durnovit		M	2
+dvorit			2
+džavit			2
+džilit	25		2
+edit			2
+egzit			2
+ekstraprofit			2
+elektrolit			2
+elit			2
+epifit			2
+eremit			2
+eritrocit			2
+eternit			2
+favorit	3798		2
+fit		M	1
+fluorit	36		2
+gabarit	183		2
+gambit	104		2
+gasovit			2
+git			1
+glasit		M	2
+glasovit	13		2
+glibovit			2
+gorovit			2
+govorit			2
+grafit	914		2
+granit	372		2
+grifit			2
+grmovit			2
+gromovit			2
+grozovit			2
+grčevit	22		2
+gvožđevit			2
+habit			2
+hematit			2
+hematokrit	44		2
+heraklit		M	2
+hermafrodit	37		2
+hipokrit	16		2
+hirovit	28		2
+hit	8178		1
+hladovit			2
+hobit	190		2
+hranit			2
+hrizolit			2
+hromit		M	2
+humovit		M	2
+inuit			2
+iperit	21		2
+isključit			2
+iskoristit			2
+iskočit			2
+iskrvarit			2
+ispalit			2
+ispit	14800		2
+isplatit			2
+isporučit			2
+istinit	938		3
+istražit			2
+it		M	1
+ivrit			2
+izbavit			2
+izgladit			2
+izgradit			2
+izgubit			2
+izlazit			2
+izliječit		J	2
+izložit			2
+izludit			2
+izmislit			2
+izmjerit		J	2
+iznajmit			2
+iznenadit			2
+iznevjerit		J	2
+izradit			2
+izrazit	276		2
+izričit	740		2
+izvadit			2
+izvijestit		J	2
+jezgrovit	105		2
+jezovit	20		2
+jezuit	30		2
+judit			2
+kalcit	22		2
+kamenit	41		2
+kaznit			2
+kit	1494		1
+kišovit	74		2
+kokpit	315		2
+kolorit	628		2
+konvertit		M	2
+korenit	25		2
+kosmopolit			2
+kredit	22536		2
+kriptonit			2
+krit			1
+krševit			2
+kvit			1
+lekovit	253		2
+lesonit			2
+leukocit			2
+levit		M	2
+lignit	217		2
+limfocit			2
+limit	2525		2
+limonit			2
+ljubit			2
+ljudevit			2
+ljutit	162		2
+ljutovit			2
+maglovit	103		2
+magnetit	25		2
+magnezit		M	2
+mahnit	34		2
+malahit			2
+manit		M	2
+margerit			2
+margit			2
+maštovit	397		2
+meseršmit		M	2
+metabolit			2
+meteorit	423		2
+metropolit	16		2
+međuispit			2
+mešovit	99		2
+mit	6395		1
+mitropolit	6277		2
+mnogoočit			2
+mnogorečit			2
+monolit	157		2
+mrazovit			2
+muljevit			2
+munjevit	119		2
+nabusit	18		2
+nadoknadit			2
+nagodit			2
+nagovorit			2
+nagradit			2
+najavit			2
+nakit	4798		2
+namamit			2
+namjestit		J	2
+naočit	118		2
+napit	35		2
+naplatit			2
+naprasit	36		2
+napravit			2
+napunit			2
+napustit			2
+naredit			2
+naročit	457		2
+naslijedit		J	2
+nastavit			2
+natočit			2
+navalit			2
+navratit			2
+navršit			2
+nazdravit			2
+necelovit			2
+nedarovit			2
+neduhovit	20		2
+neistinit	126		3
+neizrazit			2
+nemaštovit	36		2
+nenasit			2
+neofit	92		2
+neolit	176		2
+nerazborit	11		2
+nesit			2
+nesvrhovit			2
+nezakonit	1085		2
+nezasit	42		2
+nit	5190		1
+nizbrdit			2
+nolit			2
+obradit			2
+obratit			2
+odelit			2
+odradit			2
+odredit			2
+odrešit			2
+oduševit			2
+odužit			2
+odvojit			2
+odvratit			2
+ognjevit			2
+okomit			2
+opalit			2
+opit	182		2
+oporavit			2
+optužit			2
+oslobodit			2
+osobit	130		2
+osvetit			2
+osvit	469		2
+osvojit			2
+otkrit			2
+otkupit			2
+otplatit			2
+otpratit			2
+otresit	31		2
+otvorit			2
+ozdravit			2
+očistit			2
+očit	262		2
+paleolit			2
+parazit	656		2
+pavit		M	2
+peksimit		M	2
+pervertit			2
+peskovit			2
+petit	91		2
+petrit			2
+pirit	33		2
+pit	65		1
+plahovit	48		2
+plamenit			2
+plebiscit	112		2
+plemenit	509		2
+plodovit			2
+pobit			2
+podnapit			2
+poglavit			2
+pogodit			2
+pogriješit		J	2
+pogubit			2
+poklonit			2
+poklopit			2
+pokorit			2
+pokrit			2
+pokupit			2
+polit			2
+položit			2
+pomfrit	465		2
+pomirit			2
+pomislit			2
+poništit			2
+ponosit	92		2
+ponovit			2
+ponudit			2
+popravit			2
+poradit			2
+porazit			2
+porit			2
+poslužit			2
+postavit			2
+postupit			2
+potopit			2
+potražit			2
+potrebit			2
+potrošit			2
+potvrdit			2
+povalit			2
+povit			2
+povjerit		J	2
+povratit			2
+pozabavit			2
+pozdravit			2
+pozlit			2
+prebacit			2
+prebit			2
+prebrodit			2
+predispit			2
+predomislit			2
+predstavit			2
+pregazit			2
+prehladit			2
+prekrit			2
+prekršit			2
+premjestit		J	2
+prenoćit			2
+preporučit			2
+prepustit			2
+preselit			2
+presit	11		2
+preskočit			2
+preterit	13		2
+pretpostavit			2
+pretražit			2
+pretvorit			2
+prevarit			2
+prečestit			2
+približit			2
+pridobit			2
+pridružit			2
+prihvatit			2
+prijavit			2
+priključit			2
+primijetit		J	2
+primit			2
+primjetit		J	2
+pripazit			2
+pripit	113		2
+pripremit			2
+priredit			2
+prisilit			2
+pristavit			2
+pritajit			2
+privit			2
+pričestit			2
+probit			2
+probudit			2
+probušit			2
+profit	13570		2
+prokredit			2
+promašit			2
+promijenit		J	2
+promjenit		J	2
+propustit			2
+prosit			2
+proslavit			2
+proslijedit		J	2
+protivzakonit	193		2
+provalit			2
+proverit			2
+provjerit		J	2
+provodit			2
+prozelit			2
+prudovit			2
+pružit			2
+rasporit			2
+raspravit			2
+rastresit	58		2
+razbit			2
+razborit	141		2
+razdvojit			2
+različit	3403		2
+razmazit			2
+razmislit			2
+razmotrit			2
+razvalit			2
+razvit			2
+redovit			2
+rekvizit	317		2
+rečit	274		2
+rit	601		1
+rovit	103		2
+sabit			2
+sahit			2
+sahranit			2
+sait			2
+sakrit			2
+salonit			2
+samit	2483		2
+sanskrit	57		2
+sastavit			2
+satelit	3164		2
+semit			2
+senovit	13		2
+sibarit			2
+silovit	164		2
+simit		M	2
+sit	881		1
+skit			1
+skokovit	31		2
+skočit			2
+skrovit			2
+slikovit	531		2
+slojevit	126		2
+slomit			2
+složit			2
+smit			1
+snegovit			2
+spalit			2
+split			1
+spojit			2
+spremit			2
+spriječit		J	2
+spržit			2
+srdit	46		2
+stalagmit			2
+stalaktit			2
+stanovit			2
+stasit	72		2
+steatit			2
+stenovit	21		2
+strahovit	420		2
+strelovit	19		2
+strmenit			2
+stvorit			2
+sudarit			2
+suficit	2536		2
+sunit			2
+svetovit			2
+svratit			2
+svrhovit	19		2
+svršit			2
+tacit			2
+tajnovit	84		2
+temeljit	69		2
+teodolit	10		2
+termit	12		2
+transvestit	51		2
+tranzit	1285		2
+travestit			2
+trilobit			2
+trnovit	397		2
+troglodit		M	2
+trombocit			2
+trudit			2
+tvit			1
+ubacit			2
+ubojit	78		2
+udarit			2
+udavit			2
+udovoljit			2
+udvostručit			2
+ugasit		M	2
+ugovorit			2
+ugrozit			2
+ugušit			2
+uključit			2
+uklonit			2
+uklopit			2
+uljevit			2
+unajmit			2
+uništit			2
+upalit			2
+upamtit			2
+upit	1621		2
+uplašit			2
+upozorit			2
+uradit			2
+uredit			2
+uselit			2
+ushit	30		2
+usrećit			2
+utopit			2
+uvalit			2
+uvjerit		J	2
+uznosit			2
+uzorit	22		2
+uzvisit		M	2
+uzvratit			2
+učinit			2
+učinkovit	105		2
+valovit	30		2
+velebit			2
+vetrovit	58		2
+večit	69		2
+vidovit	257		2
+vilovit			2
+vit			1
+vlastit			2
+volstrit			2
+vremenit			2
+zabit	126		2
+zadavit			2
+zadovoljit			2
+zagasit			2
+zahvalit			2
+zakasnit			2
+zaklonit		M	2
+zakonit	667		2
+zamijenit		J	2
+zamislit			2
+zamjenit		J	2
+zamolit			2
+zapalit			2
+zapamtit			2
+zaplijenit		J	2
+zaposlit			2
+zaprosit			2
+zaradit			2
+zarazit			2
+zarobit			2
+zatražit			2
+zatvorit			2
+zavojit			2
+završit			2
+zdrobit			2
+zenit	905		2
+zeolit	468		2
+zgazit			2
+zgnječit			2
+zgrabit			2
+znakovit	29		2
+znamenit	113		2
+časovit			2
+častit			2
+čestit	459		2
+čivit			2
+člankovit			2
+čudovit			2
+čvornovit			2
+šehit		M	2
+šiit			2
+širit		M	2
+štit	1890		1
+šumovit	27		2
+žalovit		M	2
+žuljevit			2
+cjelovit			2
+rječit			2

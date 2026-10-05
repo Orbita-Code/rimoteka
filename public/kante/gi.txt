@@ -1,88 +1,88 @@
 87
-Hamburgi		
-Pragi		
-algi	1019	
-balegi		
-belegi		
-beznogi		
-bitangi	115	
-blagi	4088	
-bljuzgi		
-bosonogi	135	
-brzonogi	144	
-centrifugi	21	
-cugi		
-dragi	15285	
-drogi	290	
-drugi	246657	
-dugi	7397	
-dugonogi	29	
-dvorogi		
-evroligi		
-falangi	55	
-gagi		
-gi		M
-grogi		
-harangi	38	
-haringi	35	
-hedvigi		
-jednonogi		
-jednorogi		
-jogi	358	
-kacigi	81	
-karnegi		
-kavgi	22	
-kobajagi		
-kolegi	1990	
-kratkonogi	16	
-krivonogi		
-lakonogi		
-ligi	17254	
-ljagi		
-magi	118	
-mazgi	65	
-megi		
-mnogi	95680	
-nagi	208	
-nedragi		
-nemnogi		
-nogi		
-olgi		
-pegi		
-pepeljugi		
-podagi		
-podlogi		
-polunagi		
-porugi		
-požegi		
-preblagi	91	
-predragi	26	
-predugi	84	
-premnogi	16	
-prestrogi	81	
-prugi		
-putonogi		
-rigi	258	
-rupčagi		
-sagi	133	
-sinagogi	418	
-slogi		
-slugi	93	
-strogi	1645	
-strugi		
-superligi	1382	
-suprugi		
-tehnologi		
-tezgi	1464	
-tojagi		
-tronogi	11	
-trorogi	13	
-ubogi	345	
-uslugi		
-vagi	819	
-vitorogi		
-volgi		
-zagi		
-čergi	32	
-špagi		
-šugi		
+Hamburgi			2
+Pragi			2
+algi	1019		2
+balegi			3
+belegi			2
+beznogi			2
+bitangi	115		2
+blagi	4088		2
+bljuzgi			2
+bosonogi	135		2
+brzonogi	144		2
+centrifugi	21		2
+cugi			2
+dragi	15285		2
+drogi	290		2
+drugi	246657		2
+dugi	7397		2
+dugonogi	29		2
+dvorogi			2
+evroligi			2
+falangi	55		2
+gagi			2
+gi		M	1
+grogi			2
+harangi	38		2
+haringi	35		2
+hedvigi			2
+jednonogi			2
+jednorogi			2
+jogi	358		2
+kacigi	81		2
+karnegi			2
+kavgi	22		2
+kobajagi			2
+kolegi	1990		2
+kratkonogi	16		2
+krivonogi			2
+lakonogi			2
+ligi	17254		2
+ljagi			2
+magi	118		2
+mazgi	65		2
+megi			2
+mnogi	95680		2
+nagi	208		2
+nedragi			2
+nemnogi			2
+nogi			2
+olgi			2
+pegi			2
+pepeljugi			2
+podagi			2
+podlogi			2
+polunagi			2
+porugi			2
+požegi			2
+preblagi	91		2
+predragi	26		3
+predugi	84		2
+premnogi	16		2
+prestrogi	81		2
+prugi			2
+putonogi			2
+rigi	258		2
+rupčagi			2
+sagi	133		2
+sinagogi	418		2
+slogi			2
+slugi	93		2
+strogi	1645		2
+strugi			2
+superligi	1382		2
+suprugi			2
+tehnologi			2
+tezgi	1464		2
+tojagi			2
+tronogi	11		2
+trorogi	13		2
+ubogi	345		3
+uslugi			2
+vagi	819		2
+vitorogi			2
+volgi			2
+zagi			2
+čergi	32		2
+špagi			2
+šugi			2

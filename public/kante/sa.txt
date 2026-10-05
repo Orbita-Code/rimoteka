@@ -1,635 +1,635 @@
 628
-Isusa		
-Marsa		
-Tunisa		
-Uskrsa		
-abakusa	28	
-abonosa		
-abortusa	1256	
-adresa	11292	
-agensa	150	
-aidsa		
-ajaksa		
-alasa	123	
-albatrosa	24	
-aleksa		
-alfonsa		
-alijansa	1838	
-alisa		
-alosaurusa		
-ambisa	340	
-amosa		
-ananasa	417	
-anastasa		
-aneksa	1125	
-anisa	149	
-antraksa	128	
-anubisa		
-anusa	385	
-anđelesa		
-apisa		
-apokalipsa	460	
-apsa	35	
-apscesa	160	
-apscisa	10	
-arbanasa		
-arkanzasa		
-artritisa	899	
-asa	1339	
-asparagusa		
-atanasa		
-atlasa	374	
-atosa		
-autobusa	8164	
-avansa	469	
-bajpasa	84	
-bakropisa	21	
-balansa	972	
-balsa		
-bambusa	576	
-baronesa	111	
-basa	347	
-beatrisa		
-belorusa		
-besa	3259	
-bicepsa	78	
-bilansa		
-biomasa	621	
-bisa	191	
-bitlsa		
-biznisa		
-blesa		
-bluesa	66	
-bogatasa		
-boksa	764	
-bonusa	1155	
-borhesa		
-borisa		
-bosa	756	
-botoksa	216	
-bramsa		
-brisa	428	
-bronhitisa	591	
-brusa	268	
-brzopisa		
-buritosa		
-bursa		
-busa	417	
-celzijusa	717	
-cenzusa	1255	
-ciklusa	8739	
-cirkusa	782	
-citrusa	204	
-crnokosa	97	
-crvenokosa	136	
-daglasa		
-dalasa		
-dallasa		
-danasa		
-dasa	237	
-davosa		
-debalansa	117	
-delikatesa	187	
-denisa		
-depandansa	12	
-desa	133	
-dezodoransa	170	
-dijabetesa	4396	
-dikensa		
-diližansa		M
-dinosaurusa	898	
-dionisa		
-disa		
-disbalansa	292	
-diskosa		
-diskursa	1834	
-dopisa	1102	
-doprinosa	8286	
-dresa	571	
-drmusa	32	
-dugokosa	22	
-duktusa		
-duvankesa		M
-džambasa		
-džinsa	279	
-džojsa		
-džuboksa	36	
-džumbusa		
-efesa		
-egzodusa	301	
-ekscesa	268	
-ekspresa	194	
-elipsa	113	
-elisa	267	
-elvisa		
-encefalitisa	118	
-enesa		
-engelsa		
-eposa		
-erbasa		
-erosa	176	
-esa		
-espresa	103	
-etnosa	324	
-etosa	225	
-eukaliptusa	174	
-fajansa		
-faksa	1004	
-fakturisa		
-falusa	68	
-farsa	1533	
-feliksa		
-feniksa	104	
-fesa		
-fetusa	935	
-fiberglasa	125	
-fiksa	18	
-fikusa	59	
-filipsa		
-finesa	204	
-fitnesa		
-fizikusa		
-fjučersa	327	
-flamingosa		
-flisa		
-fluksa	142	
-foksa		
-fokusa	1338	
-fonozapisa		
-fotosa		
-fuksa		M
-fundusa	170	
-gasa	19806	
-gastritisa	222	
-gejtsa		
-generalisimusa		
-ginisa		
-gipsa	467	
-glasa	17781	
-globusa	589	
-glosa	72	
-gnusa		
-gorostasa	152	
-grasa		
-grimasa	186	
-grinpisa		
-grosa		
-habermasa		
-habitusa	92	
-hamasa		
-hansa		
-haosa	2636	
-hapsa		
-harisa		
-hepatitisa	1357	
-hermesa		
-herpesa	281	
-hibiskusa	124	
-hindusa	39	
-hipokampusa	49	
-hipotalamusa	125	
-hobsa		
-holmsa		
-hondurasa		
-hostesa	170	
-hristosa		
-humusa	308	
-husa		
-hvalisa		
-ikonopisa	223	
-ikonostasa	923	
-iksa	24	
-impulsa	1628	
-indeksa	3835	
-indusa		
-interesa	37919	
-interfejsa	2468	
-irisa	86	
-irvasa	152	
-isa		
-iskosa	868	
-iskresa		
-ispisa	319	
-istresa	100	
-izbrisa		
-izglasa	930	
-iznosa	8578	
-izoglosa		
-izohipsa		
-išijasa	113	
-jaspersa		
-jejtsa		
-jesa		
-johanesa		
-juventusa		
-kadisa		
-kaktusa	191	
-kampusa	894	
-kanabisa	373	
-kaosa		
-karijesa		
-karitasa		
-karlosa		
-kasa	2782	
-katihizisa	117	
-keksa	801	
-kertesa		
-kesa	2597	
-kiksa	271	
-kinšasa		
-kiparisa		
-kitsa		
-klasa	9636	
-klausa		
-klimaksa	96	
-klitorisa	348	
-kljusa		M
-kodeksa	1733	
-kokosa	374	
-koksa	170	
-kokusa	79	
-kolapsa	1636	
-kolesa		
-kolosa	116	
-komandosa	214	
-komodusa		
-kompasa	350	
-kompleksa	8680	
-kompromisa	3421	
-kongresa	5346	
-konkursa	13231	
-konsenzusa	2074	
-kontesa	60	
-kontrabasa	85	
-konusa		
-konzervansa	464	
-kornfleksa	27	
-korpusa	2952	
-korteksa	172	
-kosa	10688	
-kosinusa	15	
-kosmosa	1795	
-kotangensa		
-kozmosa	20	
-krausa		
-kremsa		
-krimosa		
-krosa	311	
-krunisa		
-kulisa	889	
-kupresa		
-kupusa	1854	
-kursa	9799	
-kurtalisa		
-kusa	71	
-kustosa	700	
-kvasa		
-lagosa		
-laosa		
-lapsusa	87	
-larisa		
-lasa		
-lateksa	178	
-lesa	116	
-letopisa	394	
-levinasa		
-lezbosa		
-limesa	109	
-lipsa		
-lisa		
-logosa	337	
-lopesa		
-lorensa		
-lososa	531	
-lotosa	95	
-lotusa	113	
-luisa		
-lukasa		
-lupusa	89	
-majlsa		
-maksa		
-malorusa		
-mantisa		
-markesa		
-marksa		
-masa	12970	
-matisa		
-medresa	321	
-melasa	48	
-melisa	195	
-melosa	131	
-memfisa		
-meningitisa	434	
-mensa		
-mercedesa	1437	
-metresa		
-metropolisa	31	
-mikrotalasa		
-miksa	316	
-mingusa		
-minusa	1791	
-miomirisa	31	
-mirisa	5856	
-misa	771	
-modusa	153	
-mopsa	29	
-morisa		
-mosa		
-mošusa	69	
-mungosa	25	
-musa	298	
-nabasa	67	
-nadglasa	36	
-naftagasa		
-nanosa	715	
-naosa		
-napasa	53	
-napisa	2282	
-narcisa	171	
-narkosa		
-nasisa		
-nastasa		
-natpisa	1297	
-natresa		
-nautilusa		
-načosa		
-nebesa	2200	
-nesa	118	
-neukusa	274	
-nijansa	808	
-nikolasa		
-nikosa		
-nosa	5981	
-notesa	39	
-nukleusa	211	
-obrisa	270	
-odesa		
-odnosa	50550	
-oebsa		
-oglasa	4441	
-okresa		
-oktopusa		
-okusa	150	
-omnibusa	76	
-oniksa	46	
-opasa		
-opisa	2789	
-opusa	1485	
-ordonansa		
-orleansa		
-osa	1298	
-otkasa		
-otkosa	133	
-otpasa		
-otpisa	553	
-otresa	68	
-ovsa		
-ozirisa		
-pankreasa	934	
-papirusa	127	
-paradoksa	822	
-paraklisa	127	
-paralaksa		
-parastosa	308	
-parnasa		
-pasa	10597	
-pasosa		
-pasusa	920	
-patosa	323	
-patrisa		
-patronesa		
-penisa	1564	
-penthausa	30	
-peresa		
-performansa	1374	
-persa		
-pesosa	22	
-pezosa		
-pikasa		
-pilatesa	184	
-pisa		M
-plavokosa	208	
-plebsa		
-pleksiglasa	181	
-pleksusa	87	
-plesa	2575	
-plusa	422	
-pneumotoraksa	40	
-podbilansa		
-podrasa		
-poetesa	58	
-pojasa	3176	
-polisa	1391	
-poluglasa	10	
-polušansa		
-pomirisa		
-ponosa	6262	
-popisa	4867	
-posisa		
-potesa		
-potklasa		
-potpisa	7381	
-potprocesa		
-potresa	2400	
-praksa	17330	
-pravopisa	1061	
-preferansa	54	
-prefiksa	221	
-premisa	688	
-prenosa	8885	
-prepisa	419	
-prepojasa		
-presa		M
-pretresa	1897	
-primasa	28	
-primesa	458	
-primirisa		
-primusa		
-prinosa	3188	
-pripasa		
-prkosa	293	
-procesa	39244	
-prodrmusa		
-profilaksa		
-proglasa	284	
-progresa	1460	
-prokasa		
-propisa	15036	
-prosa	159	
-provansa		
-prsa	1628	
-psa	10303	
-pterosaurusa		
-pulsa	763	
-pusa		
-putopisa	450	
-radijusa	214	
-rahitisa	104	
-rajsa		
-rajsferšlusa	38	
-rakursa	106	
-rasa	3924	
-raspasa		
-raspisa	100	
-rasplamsa	142	
-rastresa	21	
-razglasa	526	
-reagenasa		
-rebalansa	2318	
-rebusa	80	
-refleksa	327	
-regresa	614	
-reisa	321	
-reksa		
-remusa		
-renesansa	473	
-resa	97	
-resursa	15093	
-retrovirusa	23	
-ricinusa	22	
-risa	169	
-riđokosa	44	
-robertsa		
-rodosa		
-rojtersa		
-romansa	547	
-rosa	827	
-rukopisa	2759	
-rusa		M
-sa	3467795	
-salsa	514	
-samodoprinosa	1116	
-samokresa		
-santosa		
-saragosa		
-sasa		M
-seansa	184	
-secikesa	87	
-seksa	7011	
-sepsa	110	
-servantesa		
-servisa	19679	
-sifilisa	280	
-sijuksa		
-silosa	664	
-simensa		
-sinapsa	17	
-sinopsisa	69	
-sintaksa	327	
-sinusa	854	
-sisa	2003	
-skepsa	150	
-skresa		
-smesa	909	
-smeđokosa		
-smjesa		J
-sosa	601	
-spasa	3672	
-spensa		
-spisa	2292	
-stasa	340	
-statusa	14068	
-stegosaurusa		
-stilosa		
-stimulansa	323	
-stipsa	65	
-stjuardesa	465	
-stresa	7641	
-sufiksa	102	
-svilokosa		
-taksa		M
-talambasa	32	
-talasa	6852	
-tamnokosa	25	
-tamnorusa		
-tanatosa		
-tangensa		
-tarasa		
-tasa		M
-teksasa		
-telefaksa	65	
-teleksa	11	
-telesa	121	
-tenisa	2376	
-terasa	2249	
-termosa	22	
-testisa	885	
-tetanusa	304	
-tifusa	410	
-tiranosaurusa		
-tisa	740	
-tomasa		
-tonusa	317	
-toposa	58	
-transa	213	
-trasa	1739	
-triceratopsa		
-trijasa	64	
-trolejbusa	275	
-trsa		
-trusa		
-ubrisa		
-ubrusa	91	
-udesa	1955	
-ukrasa	1252	
-ukresa		
-ukusa	8831	
-uliksa		
-unosa	3457	
-upisa	5127	
-uresa	18	
-usisa	239	
-ustalasa		
-uzusa	45	
-užasa	1466	
-vanesa		
-vargasa		
-varijansa		
-vasa		
-vasilisa		
-vaskrsa	344	
-vegasa		
-velaskesa		
-velsa		
-vikontesa		
-virusa	8068	
-visa		
-vorteksa		
-vrbasa		
-zamirisa		
-zanosa	649	
-zapisa	5778	
-zatalasa	82	
-zavesa	1723	
-zbrisa		
-zemljopisa	35	
-zemljotresa	3969	
-zevsa		
-zlakusa		
-zlatokosa	149	
-ćasa		M
-ćosa		
-časa	14808	
-časopisa	15942	
-čempresa	177	
-česa		
-čipsa	446	
-čudesa	2172	
-đilasa		
-đusa		
-šansa	12669	
-šemsa		
-šinobusa	46	
-šoubiznisa	116	
-špiritusa		
-štosa	71	
-štrausa		
-žigosa		
-živopisa	445	
-životopisa	142	
-bijesa	177	
-lijesa		
-ljetopisa		
-prijenosa	141	
-primjesa		
-zavjesa		
+Isusa			2
+Marsa			2
+Tunisa			2
+Uskrsa			2
+abakusa	28		3
+abonosa			2
+abortusa	1256		2
+adresa	11292		2
+agensa	150		2
+aidsa			2
+ajaksa			2
+alasa	123		2
+albatrosa	24		3
+aleksa			2
+alfonsa			2
+alijansa	1838		2
+alisa			2
+alosaurusa			2
+ambisa	340		2
+amosa			2
+ananasa	417		4
+anastasa			2
+aneksa	1125		2
+anisa	149		2
+antraksa	128		2
+anubisa			2
+anusa	385		2
+anđelesa			2
+apisa			2
+apokalipsa	460		2
+apsa	35		2
+apscesa	160		2
+apscisa	10		2
+arbanasa			2
+arkanzasa			2
+artritisa	899		2
+asa	1339		2
+asparagusa			2
+atanasa			2
+atlasa	374		2
+atosa			2
+autobusa	8164		2
+avansa	469		2
+bajpasa	84		2
+bakropisa	21		2
+balansa	972		2
+balsa			2
+bambusa	576		2
+baronesa	111		2
+basa	347		2
+beatrisa			2
+belorusa			2
+besa	3259		2
+bicepsa	78		2
+bilansa			2
+biomasa	621		2
+bisa	191		2
+bitlsa			2
+biznisa			2
+blesa			2
+bluesa	66		2
+bogatasa			2
+boksa	764		2
+bonusa	1155		2
+borhesa			2
+borisa			2
+bosa	756		2
+botoksa	216		2
+bramsa			2
+brisa	428		2
+bronhitisa	591		2
+brusa	268		2
+brzopisa			4
+buritosa			2
+bursa			2
+busa	417		2
+celzijusa	717		2
+cenzusa	1255		2
+ciklusa	8739		2
+cirkusa	782		2
+citrusa	204		2
+crnokosa	97		3
+crvenokosa	136		3
+daglasa			2
+dalasa			2
+dallasa			2
+danasa			2
+dasa	237		2
+davosa			2
+debalansa	117		2
+delikatesa	187		2
+denisa			2
+depandansa	12		2
+desa	133		2
+dezodoransa	170		2
+dijabetesa	4396		2
+dikensa			2
+diližansa		M	2
+dinosaurusa	898		3
+dionisa			2
+disa			2
+disbalansa	292		2
+diskosa			2
+diskursa	1834		2
+dopisa	1102		2
+doprinosa	8286		4
+dresa	571		2
+drmusa	32		2
+dugokosa	22		4
+duktusa			2
+duvankesa		M	2
+džambasa			2
+džinsa	279		2
+džojsa			2
+džuboksa	36		2
+džumbusa			2
+efesa			2
+egzodusa	301		2
+ekscesa	268		2
+ekspresa	194		2
+elipsa	113		2
+elisa	267		2
+elvisa			2
+encefalitisa	118		2
+enesa			2
+engelsa			2
+eposa			2
+erbasa			2
+erosa	176		2
+esa			2
+espresa	103		2
+etnosa	324		2
+etosa	225		2
+eukaliptusa	174		2
+fajansa			2
+faksa	1004		2
+fakturisa			2
+falusa	68		3
+farsa	1533		2
+feliksa			2
+feniksa	104		2
+fesa			2
+fetusa	935		2
+fiberglasa	125		2
+fiksa	18		2
+fikusa	59		2
+filipsa			2
+finesa	204		2
+fitnesa			2
+fizikusa			2
+fjučersa	327		2
+flamingosa			2
+flisa			2
+fluksa	142		2
+foksa			2
+fokusa	1338		2
+fonozapisa			2
+fotosa			2
+fuksa		M	2
+fundusa	170		2
+gasa	19806		2
+gastritisa	222		2
+gejtsa			2
+generalisimusa			2
+ginisa			2
+gipsa	467		2
+glasa	17781		2
+globusa	589		2
+glosa	72		2
+gnusa			2
+gorostasa	152		4
+grasa			2
+grimasa	186		2
+grinpisa			2
+grosa			2
+habermasa			2
+habitusa	92		2
+hamasa			2
+hansa			2
+haosa	2636		3
+hapsa			2
+harisa			2
+hepatitisa	1357		2
+hermesa			2
+herpesa	281		2
+hibiskusa	124		2
+hindusa	39		2
+hipokampusa	49		2
+hipotalamusa	125		2
+hobsa			2
+holmsa			2
+hondurasa			2
+hostesa	170		2
+hristosa			2
+humusa	308		2
+husa			2
+hvalisa			2
+ikonopisa	223		2
+ikonostasa	923		2
+iksa	24		2
+impulsa	1628		2
+indeksa	3835		2
+indusa			2
+interesa	37919		4
+interfejsa	2468		2
+irisa	86		2
+irvasa	152		3
+isa			2
+iskosa	868		2
+iskresa			2
+ispisa	319		2
+istresa	100		2
+izbrisa			2
+izglasa	930		2
+iznosa	8578		2
+izoglosa			2
+izohipsa			2
+išijasa	113		2
+jaspersa			2
+jejtsa			2
+jesa			2
+johanesa			2
+juventusa			2
+kadisa			2
+kaktusa	191		2
+kampusa	894		2
+kanabisa	373		3
+kaosa			2
+karijesa			2
+karitasa			2
+karlosa			2
+kasa	2782		2
+katihizisa	117		2
+keksa	801		2
+kertesa			2
+kesa	2597		2
+kiksa	271		2
+kinšasa			2
+kiparisa			2
+kitsa			2
+klasa	9636		2
+klausa			2
+klimaksa	96		2
+klitorisa	348		3
+kljusa		M	2
+kodeksa	1733		2
+kokosa	374		3
+koksa	170		2
+kokusa	79		2
+kolapsa	1636		2
+kolesa			2
+kolosa	116		2
+komandosa	214		2
+komodusa			2
+kompasa	350		2
+kompleksa	8680		2
+kompromisa	3421		2
+kongresa	5346		2
+konkursa	13231		2
+konsenzusa	2074		2
+kontesa	60		2
+kontrabasa	85		2
+konusa			2
+konzervansa	464		2
+kornfleksa	27		3
+korpusa	2952		2
+korteksa	172		2
+kosa	10688		2
+kosinusa	15		3
+kosmosa	1795		2
+kotangensa			2
+kozmosa	20		3
+krausa			2
+kremsa			2
+krimosa			2
+krosa	311		2
+krunisa			2
+kulisa	889		2
+kupresa			2
+kupusa	1854		2
+kursa	9799		2
+kurtalisa			2
+kusa	71		2
+kustosa	700		3
+kvasa			2
+lagosa			2
+laosa			2
+lapsusa	87		2
+larisa			2
+lasa			2
+lateksa	178		2
+lesa	116		2
+letopisa	394		4
+levinasa			2
+lezbosa			2
+limesa	109		2
+lipsa			2
+lisa			2
+logosa	337		3
+lopesa			2
+lorensa			2
+lososa	531		3
+lotosa	95		3
+lotusa	113		2
+luisa			2
+lukasa			2
+lupusa	89		2
+majlsa			2
+maksa			2
+malorusa			2
+mantisa			2
+markesa			2
+marksa			2
+masa	12970		2
+matisa			2
+medresa	321		2
+melasa	48		2
+melisa	195		2
+melosa	131		2
+memfisa			2
+meningitisa	434		2
+mensa			2
+mercedesa	1437		2
+metresa			2
+metropolisa	31		3
+mikrotalasa			2
+miksa	316		2
+mingusa			2
+minusa	1791		2
+miomirisa	31		2
+mirisa	5856		3
+misa	771		2
+modusa	153		2
+mopsa	29		2
+morisa			2
+mosa			2
+mošusa	69		2
+mungosa	25		2
+musa	298		2
+nabasa	67		2
+nadglasa	36		2
+naftagasa			2
+nanosa	715		2
+naosa			2
+napasa	53		2
+napisa	2282		2
+narcisa	171		2
+narkosa			2
+nasisa			2
+nastasa			2
+natpisa	1297		2
+natresa			2
+nautilusa			2
+načosa			2
+nebesa	2200		2
+nesa	118		2
+neukusa	274		2
+nijansa	808		2
+nikolasa			2
+nikosa			2
+nosa	5981		2
+notesa	39		2
+nukleusa	211		4
+obrisa	270		3
+odesa			2
+odnosa	50550		2
+oebsa			2
+oglasa	4441		3
+okresa			2
+oktopusa			2
+okusa	150		2
+omnibusa	76		2
+oniksa	46		2
+opasa			2
+opisa	2789		2
+opusa	1485		2
+ordonansa			2
+orleansa			2
+osa	1298		2
+otkasa			2
+otkosa	133		2
+otpasa			2
+otpisa	553		2
+otresa	68		2
+ovsa			2
+ozirisa			2
+pankreasa	934		2
+papirusa	127		4
+paradoksa	822		2
+paraklisa	127		2
+paralaksa			2
+parastosa	308		2
+parnasa			2
+pasa	10597		2
+pasosa			2
+pasusa	920		3
+patosa	323		2
+patrisa			2
+patronesa			2
+penisa	1564		2
+penthausa	30		2
+peresa			2
+performansa	1374		2
+persa			2
+pesosa	22		2
+pezosa			2
+pikasa			2
+pilatesa	184		2
+pisa		M	2
+plavokosa	208		2
+plebsa			2
+pleksiglasa	181		2
+pleksusa	87		2
+plesa	2575		2
+plusa	422		2
+pneumotoraksa	40		2
+podbilansa			2
+podrasa			2
+poetesa	58		2
+pojasa	3176		3
+polisa	1391		2
+poluglasa	10		2
+polušansa			2
+pomirisa			2
+ponosa	6262		2
+popisa	4867		2
+posisa			2
+potesa			2
+potklasa			2
+potpisa	7381		2
+potprocesa			2
+potresa	2400		2
+praksa	17330		2
+pravopisa	1061		4
+preferansa	54		3
+prefiksa	221		2
+premisa	688		2
+prenosa	8885		2
+prepisa	419		2
+prepojasa			2
+presa		M	2
+pretresa	1897		2
+primasa	28		2
+primesa	458		3
+primirisa			2
+primusa			2
+prinosa	3188		2
+pripasa			2
+prkosa	293		2
+procesa	39244		2
+prodrmusa			2
+profilaksa			2
+proglasa	284		3
+progresa	1460		2
+prokasa			2
+propisa	15036		2
+prosa	159		2
+provansa			2
+prsa	1628		2
+psa	10303		1
+pterosaurusa			2
+pulsa	763		2
+pusa			2
+putopisa	450		4
+radijusa	214		4
+rahitisa	104		2
+rajsa			2
+rajsferšlusa	38		3
+rakursa	106		2
+rasa	3924		2
+raspasa			2
+raspisa	100		2
+rasplamsa	142		2
+rastresa	21		2
+razglasa	526		2
+reagenasa			2
+rebalansa	2318		4
+rebusa	80		2
+refleksa	327		2
+regresa	614		2
+reisa	321		2
+reksa			2
+remusa			2
+renesansa	473		2
+resa	97		2
+resursa	15093		2
+retrovirusa	23		2
+ricinusa	22		2
+risa	169		2
+riđokosa	44		2
+robertsa			2
+rodosa			2
+rojtersa			2
+romansa	547		2
+rosa	827		2
+rukopisa	2759		4
+rusa		M	2
+sa	3467795		1
+salsa	514		2
+samodoprinosa	1116		2
+samokresa			4
+santosa			2
+saragosa			2
+sasa		M	2
+seansa	184		2
+secikesa	87		2
+seksa	7011		2
+sepsa	110		2
+servantesa			2
+servisa	19679		2
+sifilisa	280		3
+sijuksa			2
+silosa	664		2
+simensa			2
+sinapsa	17		2
+sinopsisa	69		2
+sintaksa	327		2
+sinusa	854		2
+sisa	2003		2
+skepsa	150		2
+skresa			2
+smesa	909		2
+smeđokosa			2
+smjesa		J	2
+sosa	601		2
+spasa	3672		2
+spensa			2
+spisa	2292		2
+stasa	340		2
+statusa	14068		2
+stegosaurusa			2
+stilosa			2
+stimulansa	323		2
+stipsa	65		2
+stjuardesa	465		2
+stresa	7641		2
+sufiksa	102		2
+svilokosa			2
+taksa		M	2
+talambasa	32		2
+talasa	6852		3
+tamnokosa	25		2
+tamnorusa			2
+tanatosa			2
+tangensa			2
+tarasa			2
+tasa		M	2
+teksasa			2
+telefaksa	65		2
+teleksa	11		2
+telesa	121		2
+tenisa	2376		2
+terasa	2249		2
+termosa	22		2
+testisa	885		3
+tetanusa	304		2
+tifusa	410		2
+tiranosaurusa			2
+tisa	740		2
+tomasa			2
+tonusa	317		2
+toposa	58		2
+transa	213		2
+trasa	1739		2
+triceratopsa			2
+trijasa	64		3
+trolejbusa	275		2
+trsa			2
+trusa			2
+ubrisa			2
+ubrusa	91		2
+udesa	1955		2
+ukrasa	1252		3
+ukresa			2
+ukusa	8831		2
+uliksa			2
+unosa	3457		2
+upisa	5127		2
+uresa	18		2
+usisa	239		2
+ustalasa			2
+uzusa	45		2
+užasa	1466		3
+vanesa			2
+vargasa			2
+varijansa			2
+vasa			2
+vasilisa			2
+vaskrsa	344		2
+vegasa			2
+velaskesa			2
+velsa			2
+vikontesa			2
+virusa	8068		2
+visa			2
+vorteksa			2
+vrbasa			2
+zamirisa			2
+zanosa	649		2
+zapisa	5778		2
+zatalasa	82		2
+zavesa	1723		3
+zbrisa			2
+zemljopisa	35		4
+zemljotresa	3969		4
+zevsa			2
+zlakusa			2
+zlatokosa	149		2
+ćasa		M	2
+ćosa			2
+časa	14808		2
+časopisa	15942		4
+čempresa	177		2
+česa			2
+čipsa	446		2
+čudesa	2172		2
+đilasa			2
+đusa			2
+šansa	12669		2
+šemsa			2
+šinobusa	46		4
+šoubiznisa	116		2
+špiritusa			2
+štosa	71		2
+štrausa			2
+žigosa			2
+živopisa	445		2
+životopisa	142		2
+bijesa	177		3
+lijesa			3
+ljetopisa			4
+prijenosa	141		3
+primjesa			3
+zavjesa			3

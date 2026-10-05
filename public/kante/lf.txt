@@ -1,14 +1,14 @@
 13
-adolf		
-alf		
-centarhalf	44	
-elf	80	
-golf	4687	
-gvelf		
-minigolf	10	
-ralf		
-rodolf		
-rolf		
-rudolf		
-self		
-vulf		
+adolf			2
+alf			1
+centarhalf	44		3
+elf	80		1
+golf	4687		1
+gvelf			1
+minigolf	10		2
+ralf			1
+rodolf			2
+rolf			1
+rudolf			2
+self			1
+vulf			1

@@ -1,43 +1,43 @@
 39
-bež		M
-bodež	168	
-crtež	2917	
-cvilež		
-davež	35	
-dremež	96	
-garež		
-gnjavež		M
-gnjilež		M
-grabež	276	
-jež	760	
-kalež	13	
-krpež		
-kvarež		M
-ladolež		
-lavež	345	
-lupež		M
-madež	14	
-manež		M
-manjež		M
-metež	435	
-mladež	1037	
-mutež		
-padež	179	
-palež	91	
-pilež		M
-prdež	75	
-ribež		
-rudež		
-sitnež	31	
-smrdež		
-stalež	426	
-starež		
-svež	3221	
-svrabež		M
-svrbež	39	
-trulež	452	
-velež		
-čadež		
-bjež		
-drijemež		
-svjež		
+bež		M	1
+bodež	168		2
+crtež	2917		2
+cvilež			2
+davež	35		2
+dremež	96		2
+garež			2
+gnjavež		M	2
+gnjilež		M	2
+grabež	276		2
+jež	760		1
+kalež	13		2
+krpež			2
+kvarež		M	2
+ladolež			2
+lavež	345		2
+lupež		M	2
+madež	14		2
+manež		M	2
+manjež		M	2
+metež	435		2
+mladež	1037		2
+mutež			2
+padež	179		2
+palež	91		2
+pilež		M	2
+prdež	75		2
+ribež			2
+rudež			2
+sitnež	31		2
+smrdež			2
+stalež	426		2
+starež			2
+svež	3221		1
+svrabež		M	2
+svrbež	39		2
+trulež	452		2
+velež			2
+čadež			2
+bjež			1
+drijemež			2
+svjež			1

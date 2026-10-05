@@ -1,255 +1,255 @@
 254
-abiturijent		
-abonent		M
-absint		
-adolescent	217	
-adresant		M
-agent	3289	
-akcent	154	
-akceptant	10	
-akcident	126	
-ambijent		M
-antikoagulant		
-apelant		
-apsint	22	
-apsolvent	808	
-apstinent	35	
-argument	8152	
-ascendent		
-asendent		
-asistent	4230	
-aspirant	27	
-azilant		
-ađutant		M
-bizant		
-brajant		
-brent		
-brilijant		M
-bulent		
-bunt		
-cement	753	
-cent	973	
-cirkusant	23	
-cirkuzant		
-debitant	520	
-dekadent	13	
-delikvent	49	
-delinkvent		M
-demant	127	
-demonstrant		M
-dent		M
-denuncijant		M
-department		
-deponent		
-desant	209	
-detant	33	
-deterdžent	450	
-devijant		
-dešifrant		
-dijamant	1270	
-diletant		M
-dirigent	1659	
-disident	431	
-diskant		M
-diskont	242	
-diskutant	61	
-diverzant	11	
-docent	1794	
-doktorant	320	
-dokument	18461	
-džoint	191	
-eksperiment	3986	
-eksponent	317	
-ekvivalent	2630	
-element	8238	
-emigrant	417	
-emitent	120	
-energent	855	
-eskont	50	
-establišment	629	
-fabrikant		M
-fajront	754	
-fajrunt		
-ferment		
-folirant		M
-font	1171	
-fragment	524	
-front		M
-fundament		M
-galant		
-garant		M
-gigant	2193	
-gint		
-gradijent	103	
-grant		
-grunt		M
-hant		
-hidrant	68	
-hijacint		
-hiromant		
-horizont	1180	
-hospitant		
-ignorant		M
-imigrant	173	
-impičment		
-implant	344	
-incident	5410	
-indosament	61	
-indosant	44	
-infant	87	
-informant		
-inkasant		M
-instant		M
-instrument	7178	
-inteligent		
-intendant	34	
-interesent		
-interpelant		
-intrigant		M
-kaladont		
-kalkulant		
-kalodont		M
-kant		M
-kapitulant		
-kent		
-klement		
-klijent	6759	
-kliment		
-klint		
-koeficijent		
-kolaborant		M
-komandant	6590	
-komedijant		M
-komersant		
-komitent	206	
-komplement	52	
-kompliment	1065	
-koncedent		
-koncipijent		
-konkurent	1617	
-konsonant	20	
-konstant		
-konsultant	2634	
-kont		
-kontinent	1767	
-kontingent	471	
-konvent		M
-konzultant	19	
-konzument		
-kooperant		M
-koproducent	90	
-korespondent	53	
-korint		
-krokant		
-kurent		
-kvadrant	70	
-kvant	76	
-kvocijent	20	
-labirint	30	
-laborant	83	
-lament	174	
-lavirint	1063	
-lent		
-levant	36	
-liferant		
-ligament	114	
-lubrikant	164	
-magistrant		
-manifestant		
-manipulant		
-mastodont	30	
-maturant	452	
-medikament	162	
-menadžment	14852	
-migrant		
-militant		
-ministrant	20	
-mint	269	
-moment	1926	
-mont		
-monument	102	
-mutant	180	
-muzikant	48	
-nant		
-nekromant		M
-nerezident	78	
-oktant		
-oponent	215	
-optant		
-orijent	240	
-ornament	182	
-pacijent	8063	
-parlament	17511	
-patent	1784	
-pedant	23	
-pepermint	76	
-pergament	128	
-pigment	436	
-pijemont		
-point		
-politikant	105	
-postament		
-potkontinent		
-praktikant		M
-prenumerant		M
-pretendent	236	
-prevarant		M
-prezent	135	
-print	971	
-procent	90	
-producent	3736	
-projektant	1027	
-protestant	139	
-reaktant		
-recenzent	641	
-recipijent		M
-referent	805	
-regent	307	
-rekonvalescent	17	
-rembrant		
-remitent	22	
-remont	2378	
-reprezent		
-reprint	224	
-rezident	361	
-sakrament	45	
-sediment	89	
-segment	7786	
-sekstant	32	
-sekundant	15	
-sent		
-sentiment	252	
-sibilant		
-simbiont		
-simulant	14	
-sonant	13	
-sortiment	156	
-specijalizant	243	
-sprint	790	
-stent	170	
-stimulant		
-student	16737	
-superkontinent	30	
-suplent	42	
-talant		
-talent		
-taškent		
-temperament	766	
-tent		
-testament		
-tnt		
-trabant		M
-trafikant	28	
-transparent	1083	
-transplant		
-trasant		M
-trident		
-vermont		
-vikont		
-vinsent		
-vizant		
-zabušant		M
-zafrkant		M
-šifrant	10	
-špekulant	65	
-žirant	245	
+abiturijent			2
+abonent		M	2
+absint			2
+adolescent	217		2
+adresant		M	2
+agent	3289		2
+akcent	154		2
+akceptant	10		2
+akcident	126		2
+ambijent		M	2
+antikoagulant			2
+apelant			2
+apsint	22		2
+apsolvent	808		2
+apstinent	35		2
+argument	8152		2
+ascendent			2
+asendent			2
+asistent	4230		2
+aspirant	27		2
+azilant			2
+ađutant		M	2
+bizant			2
+brajant			2
+brent			1
+brilijant		M	2
+bulent			2
+bunt			1
+cement	753		2
+cent	973		1
+cirkusant	23		2
+cirkuzant			2
+debitant	520		2
+dekadent	13		2
+delikvent	49		2
+delinkvent		M	2
+demant	127		2
+demonstrant		M	2
+dent		M	1
+denuncijant		M	2
+department			2
+deponent			2
+desant	209		2
+detant	33		2
+deterdžent	450		2
+devijant			2
+dešifrant			2
+dijamant	1270		2
+diletant		M	2
+dirigent	1659		2
+disident	431		2
+diskant		M	2
+diskont	242		2
+diskutant	61		2
+diverzant	11		2
+docent	1794		2
+doktorant	320		2
+dokument	18461		2
+džoint	191		2
+eksperiment	3986		2
+eksponent	317		2
+ekvivalent	2630		2
+element	8238		2
+emigrant	417		2
+emitent	120		2
+energent	855		2
+eskont	50		2
+establišment	629		2
+fabrikant		M	2
+fajront	754		2
+fajrunt			2
+ferment			2
+folirant		M	2
+font	1171		1
+fragment	524		2
+front		M	1
+fundament		M	2
+galant			2
+garant		M	2
+gigant	2193		2
+gint			1
+gradijent	103		2
+grant			1
+grunt		M	1
+hant			1
+hidrant	68		2
+hijacint			2
+hiromant			2
+horizont	1180		2
+hospitant			2
+ignorant		M	2
+imigrant	173		2
+impičment			2
+implant	344		2
+incident	5410		2
+indosament	61		2
+indosant	44		2
+infant	87		2
+informant			2
+inkasant		M	2
+instant		M	2
+instrument	7178		2
+inteligent			2
+intendant	34		2
+interesent			2
+interpelant			2
+intrigant		M	2
+kaladont			2
+kalkulant			2
+kalodont		M	1
+kant		M	1
+kapitulant			2
+kent			1
+klement			2
+klijent	6759		2
+kliment			2
+klint			1
+koeficijent			2
+kolaborant		M	2
+komandant	6590		2
+komedijant		M	2
+komersant			2
+komitent	206		2
+komplement	52		2
+kompliment	1065		2
+koncedent			2
+koncipijent			2
+konkurent	1617		2
+konsonant	20		2
+konstant			2
+konsultant	2634		2
+kont			1
+kontinent	1767		2
+kontingent	471		2
+konvent		M	2
+konzultant	19		2
+konzument			2
+kooperant		M	2
+koproducent	90		2
+korespondent	53		2
+korint			2
+krokant			2
+kurent			2
+kvadrant	70		2
+kvant	76		1
+kvocijent	20		2
+labirint	30		2
+laborant	83		2
+lament	174		2
+lavirint	1063		2
+lent			1
+levant	36		2
+liferant			2
+ligament	114		2
+lubrikant	164		2
+magistrant			2
+manifestant			2
+manipulant			2
+mastodont	30		2
+maturant	452		2
+medikament	162		2
+menadžment	14852		2
+migrant			2
+militant			2
+ministrant	20		2
+mint	269		1
+moment	1926		2
+mont			1
+monument	102		2
+mutant	180		2
+muzikant	48		2
+nant			1
+nekromant		M	2
+nerezident	78		2
+oktant			2
+oponent	215		2
+optant			2
+orijent	240		2
+ornament	182		2
+pacijent	8063		2
+parlament	17511		2
+patent	1784		2
+pedant	23		2
+pepermint	76		2
+pergament	128		2
+pigment	436		2
+pijemont			2
+point			2
+politikant	105		2
+postament			2
+potkontinent			2
+praktikant		M	2
+prenumerant		M	2
+pretendent	236		2
+prevarant		M	2
+prezent	135		2
+print	971		1
+procent	90		2
+producent	3736		2
+projektant	1027		2
+protestant	139		2
+reaktant			2
+recenzent	641		2
+recipijent		M	2
+referent	805		2
+regent	307		2
+rekonvalescent	17		2
+rembrant			2
+remitent	22		2
+remont	2378		2
+reprezent			2
+reprint	224		2
+rezident	361		2
+sakrament	45		2
+sediment	89		2
+segment	7786		2
+sekstant	32		2
+sekundant	15		2
+sent			1
+sentiment	252		2
+sibilant			2
+simbiont			2
+simulant	14		2
+sonant	13		2
+sortiment	156		2
+specijalizant	243		2
+sprint	790		1
+stent	170		1
+stimulant			2
+student	16737		2
+superkontinent	30		2
+suplent	42		2
+talant			2
+talent			2
+taškent			2
+temperament	766		2
+tent			1
+testament			2
+tnt			1
+trabant		M	2
+trafikant	28		2
+transparent	1083		2
+transplant			2
+trasant		M	2
+trident			2
+vermont			2
+vikont			2
+vinsent			2
+vizant			2
+zabušant		M	2
+zafrkant		M	2
+šifrant	10		2
+špekulant	65		2
+žirant	245		2

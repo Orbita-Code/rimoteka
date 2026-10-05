@@ -1,57 +1,57 @@
 56
-alfi	297	
-apokrifi	30	
-autotrofi		
-biografi	215	
-delfi		
-demografi	137	
-elfi		
-epitafi	15	
-esnafi		
-fi		M
-fifi		
-filosofi		
-filozofi	1303	
-fotografi	1097	
-gadafi		
-geografi	145	
-haifi		
-harfi	87	
-hatišerifi		
-hijeroglifi	71	
-kadifi		
-kafi	846	
-kalfi	22	
-kartografi	45	
-katastrofi	634	
-kinematografi	17	
-kofi		
-koreografi	135	
-kuglofi		
-marfi		
-mustafi		
-nimfi	194	
-paragrafi	105	
-petefi		
-petroglifi	18	
-potrefi	112	
-profi		
-rafi		M
-reljefi	118	
-scenografi	77	
-selfi		
-stenografi	13	
-strefi	163	
-strofi	131	
-sufi		
-tarifi	1028	
-tartufi	195	
-teozofi	15	
-tofi		
-uefi		
-vakufi	27	
-zografi	43	
-zulufi		
-čaršafi		
-šerifi	53	
-žirafi	25	
+alfi	297		2
+apokrifi	30		2
+autotrofi			2
+biografi	215		2
+delfi			2
+demografi	137		2
+elfi			2
+epitafi	15		2
+esnafi			2
+fi		M	1
+fifi			2
+filosofi			2
+filozofi	1303		2
+fotografi	1097		2
+gadafi			2
+geografi	145		2
+haifi			2
+harfi	87		2
+hatišerifi			2
+hijeroglifi	71		2
+kadifi			2
+kafi	846		2
+kalfi	22		2
+kartografi	45		2
+katastrofi	634		2
+kinematografi	17		2
+kofi			2
+koreografi	135		2
+kuglofi			2
+marfi			2
+mustafi			2
+nimfi	194		2
+paragrafi	105		2
+petefi			2
+petroglifi	18		2
+potrefi	112		2
+profi			2
+rafi		M	2
+reljefi	118		2
+scenografi	77		2
+selfi			2
+stenografi	13		2
+strefi	163		2
+strofi	131		2
+sufi			2
+tarifi	1028		2
+tartufi	195		2
+teozofi	15		2
+tofi			2
+uefi			2
+vakufi	27		3
+zografi	43		2
+zulufi			2
+čaršafi			2
+šerifi	53		2
+žirafi	25		2

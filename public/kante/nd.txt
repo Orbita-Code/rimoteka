@@ -1,62 +1,62 @@
 61
-Island		
-Tajland		
-ajlend		
-andergraund		M
-bekend		
-bekgraund		
-bekhend	344	
-bend	10991	
-blond	25	
-bond		
-brand	881	
-brend	12392	
-dezmond		
-diznilend		
-doktorand		
-dortmund		
-edmond		
-edmund		
-end		
-ferdinand		
-fond	27290	
-forhend	355	
-frend	134	
-garland		
-gazmend		
-grand	1440	
-grenland		
-grund		
-hand		
-hend		
-hepiend	101	
-klivland		
-klivlend		
-korund	28	
-kulturbund		
-land		
-lind		
-lund		
-megatrend		
-merilend		
-paund		
-portland		
-rejmond		
-ričmond		
-roland		
-samarkand		
-sand		
-sekund	1566	
-sigmund		
-skotland		
-svazilend		
-tamarind		
-trend	14882	
-vagabund	21	
-vikend	10226	
-vunderkind		
-zeland		
-štand	2850	
-štrand	602	
-šund	506	
-žigmund		
+Island			2
+Tajland			2
+ajlend			2
+andergraund		M	2
+bekend			2
+bekgraund			2
+bekhend	344		2
+bend	10991		1
+blond	25		1
+bond			1
+brand	881		1
+brend	12392		1
+dezmond			2
+diznilend			2
+doktorand			2
+dortmund			2
+edmond			2
+edmund			2
+end			1
+ferdinand			2
+fond	27290		1
+forhend	355		2
+frend	134		1
+garland			2
+gazmend			2
+grand	1440		1
+grenland			2
+grund			1
+hand			1
+hend			1
+hepiend	101		2
+klivland			2
+klivlend			2
+korund	28		2
+kulturbund			2
+land			1
+lind			1
+lund			1
+megatrend			2
+merilend			2
+paund			2
+portland			2
+rejmond			2
+ričmond			2
+roland			2
+samarkand			2
+sand			1
+sekund	1566		2
+sigmund			2
+skotland			2
+svazilend			2
+tamarind			2
+trend	14882		1
+vagabund	21		2
+vikend	10226		2
+vunderkind			2
+zeland			2
+štand	2850		1
+štrand	602		1
+šund	506		1
+žigmund			2

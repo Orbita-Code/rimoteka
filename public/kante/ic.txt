@@ -1,19 +1,19 @@
 18
-aušvic		
-blic	5827	
-cigaršpic		M
-fric		M
-kanic		
-kapric	77	
-kibic		
-konjic	144	
-lajbnic		
-public		
-stric	1517	
-vic	6084	
-đurđic		
-šic		
-šlic	202	
-špic	715	
-špric	336	
-štiglic	68	
+aušvic			2
+blic	5827		1
+cigaršpic		M	2
+fric		M	1
+kanic			2
+kapric	77		2
+kibic			2
+konjic	144		2
+lajbnic			2
+public			2
+stric	1517		1
+vic	6084		1
+đurđic			2
+šic			1
+šlic	202		1
+špic	715		1
+špric	336		1
+štiglic	68		2

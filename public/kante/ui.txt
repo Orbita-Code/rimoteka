@@ -1,8 +1,8 @@
 7
-gurui	136	
-individui	132	
-intervjui	874	
-kanui	24	
-lui		
-statui	73	
-tabui	124	
+gurui	136		3
+individui	132		2
+intervjui	874		2
+kanui	24		2
+lui			2
+statui	73		2
+tabui	124		3

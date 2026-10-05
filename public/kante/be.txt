@@ -1,231 +1,231 @@
 226
-Kube	258	
-Zagrebe	232	
-abe		
-amebe	171	
-antisrbe		
-babe	3852	
-barabe	258	
-be		M
-bebe	15291	
-bejbe	18	
-berbe	2001	
-bezube	19	
-bobe	128	
-bombe	5682	
-borbe	29554	
-bubasvabe		
-bubašvabe	282	
-bube		
-dangube	96	
-deobe	754	
-diobe	44	
-dograbe	34	
-dragoljube	37	
-dražbe	49	
-drobe	77	
-družbe	91	
-dube	30	
-dvogube		
-dvojbe	209	
-dvorbe		
-džabe		M
-džombe		
-džube		
-elbe		
-farbe	715	
-gajbe		
-galebe	14	
-garderobe	2818	
-glibe		
-globe	403	
-gnusobe	44	
-golotrbe		
-golube	88	
-gozbe	342	
-grabe	473	
-grbe	102	
-grdobe	14	
-grebe	370	
-grobe		
-grube	1321	
-gube	8436	
-gumbe		
-haube		
-hekatombe		
-hlebe		
-istrebe	171	
-izbe	44	
-izdrobe		
-izgibe		
-izgrebe	62	
-izgube	4270	
-izljube	57	
-izložbe	17098	
-izvedbe	552	
-jastrebe		
-kanabe	111	
-karibe		
-kasabe		
-katakombe	172	
-kebabe		
-kobe		
-kolerabe		
-kolibe	736	
-konobe	73	
-kosidbe	146	
-krabe	114	
-krezube	15	
-krunidbe		
-kube	258	
-labe		
-ljube	1765	
-lube		
-mikrobe		
-mobe	13	
-molbe	2063	
-mugabe		
-mučibabe		
-nagodbe	606	
-nagrabe		
-naobrazbe	38	
-naredbe	2229	
-narudžbe	362	
-nastambe	47	
-nazebe	29	
-nesrbe	91	
-obe	2860	
-obljube	96	
-odredbe	16494	
-odrube	23	
-ogrebe	175	
-onesposobe	78	
-opskrbe	90	
-optužbe	9143	
-orobe	18	
-oslabe	463	
-osobe	57191	
-osposobe	698	
-ozebe		
-paljbe	260	
-palube	398	
-plenidbe	90	
-plombe	374	
-plovidbe	1658	
-pogibe		
-pogodbe	372	
-pogrebe	123	
-pogube	232	
-poljube	222	
-porobe	133	
-potrebe	80240	
-prababe	112	
-praizvedbe	47	
-predodžbe	53	
-pregibe	46	
-preljube	372	
-preslabe	54	
-pretvorbe	28	
-prigrabe	129	
-priljube	19	
-primedbe	8574	
-priredbe	1650	
-pritužbe	2072	
-probe	2504	
-prodube	420	
-prosidbe	91	
-rabe	66	
-razdiobe		
-razdrobe		
-razgrabe	53	
-ribe	12882	
-robe	27073	
-rodoljube	205	
-rube		
-rugobe	87	
-sabljozube		
-sambe	230	
-sebe	164900	
-selidbe	1547	
-seobe	1791	
-slabe	5418	
-slobe		
-službe	39944	
-snobe		
-sobe	18692	
-spodobe	239	
-srbe	6834	
-srdžbe	163	
-stube	62	
-sudbe		
-sukobe	3945	
-svadbe	2022	
-svedodžbe	27	
-svrbe	221	
-tarabe	181	
-tebe	33930	
-tegobe	4651	
-teskobe	357	
-tetrebe	10	
-tjeskobe		J
-torbe	2689	
-trebe		
-trube	1363	
-trudbe		
-tube	1005	
-tulbe		
-tumbe	68	
-turbe	116	
-tužbe	5971	
-tužibabe		
-tvorbe	90	
-udadbe		
-udbe	364	
-udube	82	
-ugrabe	119	
-uhlebe	33	
-uknjižbe	129	
-upodobe	62	
-upotrebe	20868	
-uredbe	5244	
-utrobe	691	
-užlebe		
-vabe	17	
-veridbe	234	
-vežbe	13110	
-visibabe	68	
-vrbe	778	
-vršidbe	48	
-zaglibe	13	
-zagrabe	22	
-zagrebe	232	
-zagube	57	
-zaljube	299	
-zarobe	203	
-zasvrbe	19	
-zatrube	18	
-zdrobe	13	
-zebe	82	
-zgrabe	130	
-zgrebe		
-zlobe	841	
-zloupotrebe	9117	
-zube	7661	
-ćabe		
-ćebe	760	
-ćitabe		
-ćube	14	
-čorbe	1456	
-šerbe		
-šibe	66	
-škembe	23	
-švabe	309	
-žabe	1971	
-žalbe	6819	
-ždrebe	218	
-ženidbe	437	
-žurbe	689	
-hljebe		J
-primjedbe		
-vježbe		
-ždrijebe	36	
+Kube	258		2
+Zagrebe	232		2
+abe			2
+amebe	171		2
+antisrbe			2
+babe	3852		2
+barabe	258		2
+be		M	1
+bebe	15291		1
+bejbe	18		2
+berbe	2001		2
+bezube	19		2
+bobe	128		2
+bombe	5682		2
+borbe	29554		2
+bubasvabe			2
+bubašvabe	282		2
+bube			2
+dangube	96		2
+deobe	754		2
+diobe	44		2
+dograbe	34		2
+dragoljube	37		4
+dražbe	49		2
+drobe	77		2
+družbe	91		2
+dube	30		2
+dvogube			2
+dvojbe	209		2
+dvorbe			2
+džabe		M	2
+džombe			2
+džube			2
+elbe			2
+farbe	715		2
+gajbe			2
+galebe	14		3
+garderobe	2818		2
+glibe			2
+globe	403		2
+gnusobe	44		2
+golotrbe			2
+golube	88		3
+gozbe	342		2
+grabe	473		2
+grbe	102		2
+grdobe	14		2
+grebe	370		2
+grobe			2
+grube	1321		2
+gube	8436		2
+gumbe			2
+haube			2
+hekatombe			2
+hlebe			2
+istrebe	171		2
+izbe	44		2
+izdrobe			2
+izgibe			2
+izgrebe	62		2
+izgube	4270		2
+izljube	57		2
+izložbe	17098		2
+izvedbe	552		2
+jastrebe			3
+kanabe	111		2
+karibe			2
+kasabe			2
+katakombe	172		2
+kebabe			2
+kobe			2
+kolerabe			2
+kolibe	736		2
+konobe	73		2
+kosidbe	146		2
+krabe	114		2
+krezube	15		2
+krunidbe			2
+kube	258		2
+labe			2
+ljube	1765		2
+lube			2
+mikrobe			2
+mobe	13		2
+molbe	2063		2
+mugabe			2
+mučibabe			2
+nagodbe	606		2
+nagrabe			2
+naobrazbe	38		4
+naredbe	2229		2
+narudžbe	362		2
+nastambe	47		2
+nazebe	29		2
+nesrbe	91		2
+obe	2860		2
+obljube	96		2
+odredbe	16494		2
+odrube	23		2
+ogrebe	175		2
+onesposobe	78		2
+opskrbe	90		2
+optužbe	9143		2
+orobe	18		2
+oslabe	463		2
+osobe	57191		3
+osposobe	698		2
+ozebe			2
+paljbe	260		2
+palube	398		3
+plenidbe	90		2
+plombe	374		2
+plovidbe	1658		2
+pogibe			2
+pogodbe	372		2
+pogrebe	123		2
+pogube	232		2
+poljube	222		2
+porobe	133		2
+potrebe	80240		3
+prababe	112		2
+praizvedbe	47		2
+predodžbe	53		2
+pregibe	46		2
+preljube	372		2
+preslabe	54		2
+pretvorbe	28		2
+prigrabe	129		2
+priljube	19		2
+primedbe	8574		2
+priredbe	1650		2
+pritužbe	2072		2
+probe	2504		2
+prodube	420		2
+prosidbe	91		2
+rabe	66		2
+razdiobe			3
+razdrobe			2
+razgrabe	53		2
+ribe	12882		2
+robe	27073		2
+rodoljube	205		4
+rube			2
+rugobe	87		2
+sabljozube			2
+sambe	230		2
+sebe	164900		2
+selidbe	1547		2
+seobe	1791		2
+slabe	5418		2
+slobe			2
+službe	39944		2
+snobe			2
+sobe	18692		2
+spodobe	239		2
+srbe	6834		2
+srdžbe	163		2
+stube	62		2
+sudbe			2
+sukobe	3945		2
+svadbe	2022		2
+svedodžbe	27		2
+svrbe	221		2
+tarabe	181		2
+tebe	33930		2
+tegobe	4651		2
+teskobe	357		2
+tetrebe	10		3
+tjeskobe		J	2
+torbe	2689		2
+trebe			2
+trube	1363		2
+trudbe			2
+tube	1005		2
+tulbe			2
+tumbe	68		2
+turbe	116		2
+tužbe	5971		2
+tužibabe			2
+tvorbe	90		2
+udadbe			2
+udbe	364		2
+udube	82		2
+ugrabe	119		2
+uhlebe	33		2
+uknjižbe	129		2
+upodobe	62		2
+upotrebe	20868		4
+uredbe	5244		2
+utrobe	691		3
+užlebe			2
+vabe	17		2
+veridbe	234		2
+vežbe	13110		2
+visibabe	68		3
+vrbe	778		2
+vršidbe	48		2
+zaglibe	13		2
+zagrabe	22		2
+zagrebe	232		2
+zagube	57		2
+zaljube	299		2
+zarobe	203		2
+zasvrbe	19		2
+zatrube	18		2
+zdrobe	13		2
+zebe	82		2
+zgrabe	130		2
+zgrebe			2
+zlobe	841		2
+zloupotrebe	9117		5
+zube	7661		2
+ćabe			2
+ćebe	760		2
+ćitabe			2
+ćube	14		2
+čorbe	1456		2
+šerbe			2
+šibe	66		2
+škembe	23		2
+švabe	309		2
+žabe	1971		2
+žalbe	6819		2
+ždrebe	218		2
+ženidbe	437		2
+žurbe	689		2
+hljebe		J	2
+primjedbe			2
+vježbe			2
+ždrijebe	36		2

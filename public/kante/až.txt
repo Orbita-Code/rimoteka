@@ -1,24 +1,24 @@
 23
-baraž	320	
-blaž		
-draž	1430	
-ermitaž		
-kolaž	609	
-korsaž		
-kuraž		M
-laž	8176	
-miraž		
-omaž		M
-pasaž	197	
-paž		M
-pejsaž	190	
-pejzaž	1274	
-potaž	51	
-raž	319	
-serklaž		
-staž	3929	
-tiraž	1689	
-tomaž		
-velelaž		
-viraž		M
-vitraž	125	
+baraž	320		2
+blaž			1
+draž	1430		1
+ermitaž			2
+kolaž	609		2
+korsaž			2
+kuraž		M	2
+laž	8176		1
+miraž			2
+omaž		M	2
+pasaž	197		2
+paž		M	1
+pejsaž	190		2
+pejzaž	1274		2
+potaž	51		2
+raž	319		1
+serklaž			2
+staž	3929		1
+tiraž	1689		2
+tomaž			2
+velelaž			2
+viraž		M	2
+vitraž	125		2

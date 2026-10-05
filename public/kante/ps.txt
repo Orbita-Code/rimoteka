@@ -1,20 +1,20 @@
 19
-aps	281	
-biceps	124	
-drops		
-eps		
-filips		
-forceps	26	
-gips	597	
-gps		
-haps	23	
-kolaps	2323	
-mops	46	
-prolaps	82	
-ps		
-rips	12	
-sps		
-triceps	65	
-triceratops		
-čips	666	
-šnaps		
+aps	281		1
+biceps	124		2
+drops			1
+eps			1
+filips			2
+forceps	26		2
+gips	597		1
+gps			1
+haps	23		1
+kolaps	2323		2
+mops	46		1
+prolaps	82		2
+ps			1
+rips	12		1
+sps			1
+triceps	65		2
+triceratops			2
+čips	666		1
+šnaps			1

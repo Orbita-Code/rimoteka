@@ -1,91 +1,91 @@
 90
-Sidnej		
-aleksej		
-andrej		
-arhijerej	506	
-bartolomej		
-begej		
-bečej		
-brodvej		
-brunej		
-dahomej		
-dej		
-didžej		
-displej	2417	
-dorotej		
-dositej		
-džokej	98	
-ehej		
-esej	2447	
-faradej		
-farisej	91	
-fej		
-frej		
-galilej		
-gej	8422	
-grej	94	
-hej	1819	
-hemingvej		
-hokej	514	
-holidej		
-irinej		
-jerej	1228	
-jernej		
-jevrej		
-jubilej		M
-kej	1393	
-klej		
-klišej		
-korifej		
-krej		
-lakej	42	
-lej	41	
-licej		M
-marej		
-marsej		
-matej		
-mauzolej	575	
-mej		
-mojsej		
-muzej	15805	
-nasmej	69	
-odisej		
-okej	767	
-orfej		
-orsej		
-persej		
-petrolej	211	
-pigmej	10	
-pirej		
-plej		
-podgrej		
-polijelej		
-polilej		M
-pompej		
-proklej		
-prometej		
-prosej		
-protojerej		M
-razumej		
-razvej		
-rej		
-relej	241	
-sandej		
-sej	55	
-sergej		
-skarabej	23	
-smej	220	
-sprej	1398	
-tajpej		
-tezej		
-timotej		
-trofej	5437	
-trohej	16	
-ugrej	11	
-vartolomej		
-volej	468	
-zagrej	54	
-zasmej		
-zavej		
-šarpej		
-šaćirbej		
+Sidnej			2
+aleksej			2
+andrej			2
+arhijerej	506		2
+bartolomej			2
+begej			2
+bečej			2
+brodvej			2
+brunej			2
+dahomej			2
+dej			1
+didžej			2
+displej	2417		2
+dorotej			2
+dositej			2
+džokej	98		2
+ehej			2
+esej	2447		2
+faradej			2
+farisej	91		2
+fej			1
+frej			1
+galilej			2
+gej	8422		1
+grej	94		1
+hej	1819		1
+hemingvej			2
+hokej	514		2
+holidej			2
+irinej			2
+jerej	1228		2
+jernej			2
+jevrej			2
+jubilej		M	2
+kej	1393		1
+klej			1
+klišej			2
+korifej			2
+krej			1
+lakej	42		2
+lej	41		1
+licej		M	2
+marej			2
+marsej			2
+matej			2
+mauzolej	575		2
+mej			1
+mojsej			2
+muzej	15805		2
+nasmej	69		1
+odisej			2
+okej	767		2
+orfej			2
+orsej			2
+persej			2
+petrolej	211		2
+pigmej	10		2
+pirej			2
+plej			1
+podgrej			2
+polijelej			2
+polilej		M	2
+pompej			2
+proklej			2
+prometej			2
+prosej			2
+protojerej		M	2
+razumej			2
+razvej			2
+rej			1
+relej	241		2
+sandej			2
+sej	55		1
+sergej			2
+skarabej	23		2
+smej	220		1
+sprej	1398		1
+tajpej			2
+tezej			2
+timotej			2
+trofej	5437		2
+trohej	16		2
+ugrej	11		2
+vartolomej			2
+volej	468		2
+zagrej	54		2
+zasmej			2
+zavej			2
+šarpej			2
+šaćirbej			2

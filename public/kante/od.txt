@@ -1,104 +1,104 @@
 100
-antipod	254	
-barkod	174	
-bod	4008	
-brod	12128	
-caribrod		
-cevovod	513	
-dalekovod	314	
-degod		
-dogod		
-dohod		
-doklegod		
-dovod	611	
-elektrovod		
-gasovod	2059	
-gdegod	191	
-god	89658	
-gospod		
-gromovod		
-hod	2655	
-irod		
-ishod	10387	
-ispod	76627	
-izrod	153	
-izvod	2977	
-jajovod	87	
-jod	519	
-kadgod	498	
-kakogod		M
-klod		
-kod	498155	
-kogod		M
-kolikogod	145	
-koproizvod		
-kudagod		M
-kudgod		
-metod	8627	
-mimohod	51	
-mod	3406	
-mokraćovod		
-naftovod	317	
-nahod		
-narod	110244	
-navod	636	
-novgorod		
-nusproizvod	203	
-obod	367	
-od	3792672	
-odrod	16	
-odvod	648	
-oktopod	79	
-ophod	169	
-parabrod		
-parobrod	386	
-period	51182	
-plinovod	37	
-plod	7714	
-pod	291571	
-pohod	2350	
-poluproizvod	93	
-porod	429	
-povod	9681	
-pranarod		
-prehod		
-preporod	1832	
-prevod	7360	
-prihod	12491	
-priplod	193	
-prirod	21	
-probod		
-prohod	37	
-proishod		
-proizvod	31912	
-provod	4300	
-rapsod		
-rashod	456	
-rasplod	30	
-razvod	3161	
-rod	9694	
-semenovod		
-sinod	1579	
-skorohod		
-sprovod	125	
-stagod		
-stogod		
-suzovod		
-svod	716	
-tkogod		
-toplovod	294	
-triod		M
-tripod		
-ubod	503	
-urod	72	
-uvod	8593	
-vod	1222	
-vodovod	4749	
-zahod	27	
-zavod	12149	
-štagod		M
-štogod		M
-žučovod		
-cjevovod		
-gdjegod		
-prijevod	160	
+antipod	254		2
+barkod	174		2
+bod	4008		1
+brod	12128		1
+caribrod			2
+cevovod	513		3
+dalekovod	314		2
+degod			2
+dogod			2
+dohod			2
+doklegod			2
+dovod	611		2
+elektrovod			2
+gasovod	2059		2
+gdegod	191		2
+god	89658		1
+gospod			2
+gromovod			3
+hod	2655		1
+irod			2
+ishod	10387		2
+ispod	76627		2
+izrod	153		2
+izvod	2977		2
+jajovod	87		3
+jod	519		1
+kadgod	498		2
+kakogod		M	2
+klod			1
+kod	498155		1
+kogod		M	2
+kolikogod	145		2
+koproizvod			2
+kudagod		M	2
+kudgod			2
+metod	8627		2
+mimohod	51		2
+mod	3406		1
+mokraćovod			2
+naftovod	317		3
+nahod			2
+narod	110244		2
+navod	636		2
+novgorod			2
+nusproizvod	203		2
+obod	367		2
+od	3792672		1
+odrod	16		2
+odvod	648		2
+oktopod	79		2
+ophod	169		2
+parabrod			2
+parobrod	386		3
+period	51182		2
+plinovod	37		3
+plod	7714		1
+pod	291571		1
+pohod	2350		2
+poluproizvod	93		2
+porod	429		2
+povod	9681		2
+pranarod			2
+prehod			2
+preporod	1832		3
+prevod	7360		2
+prihod	12491		2
+priplod	193		2
+prirod	21		2
+probod			2
+prohod	37		2
+proishod			2
+proizvod	31912		2
+provod	4300		2
+rapsod			2
+rashod	456		2
+rasplod	30		2
+razvod	3161		2
+rod	9694		1
+semenovod			2
+sinod	1579		2
+skorohod			2
+sprovod	125		2
+stagod			2
+stogod			2
+suzovod			3
+svod	716		1
+tkogod			2
+toplovod	294		3
+triod		M	2
+tripod			2
+ubod	503		2
+urod	72		2
+uvod	8593		2
+vod	1222		1
+vodovod	4749		3
+zahod	27		2
+zavod	12149		2
+štagod		M	2
+štogod		M	2
+žučovod			3
+cjevovod			3
+gdjegod			2
+prijevod	160		2

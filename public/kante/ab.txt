@@ -1,17 +1,17 @@
 16
-astrolab		
-baobab	54	
-generalštab	373	
-grab	164	
-kebab	112	
-korab		
-lab		
-pab		
-pandžab		
-preslab	177	
-rab		M
-slab	5396	
-svrab	1696	
-zurab		
-ćitab		
-štab	4636	
+astrolab			2
+baobab	54		2
+generalštab	373		2
+grab	164		1
+kebab	112		2
+korab			2
+lab			1
+pab			1
+pandžab			2
+preslab	177		2
+rab		M	1
+slab	5396		1
+svrab	1696		1
+zurab			2
+ćitab			2
+štab	4636		1

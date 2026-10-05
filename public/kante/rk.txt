@@ -1,38 +1,38 @@
 37
-Njujork		
-ataturk		
-belobrk		
-bizmark		
-brk	472	
-crk		
-crnobrk		
-cvrk		
-denkerk		
-dirk		
-grk		
-jork		
-kirk		
-klark		
-klerk		
-krk		M
-kvark	50	
-lunapark	15	
-mark		
-merk		
-mrk	102	
-netvork		
-palibrk		
-park	15735	
-polugrk		
-tandrk		M
-telemark		
-trk	565	
-turk		
-zvrk	106	
-ćulibrk		
-čekrk		M
-čvrk		M
-šmrk	42	
-štirk		
-štrk		
-žvrk		M
+Njujork			2
+ataturk			2
+belobrk			2
+bizmark			2
+brk	472		1
+crk			1
+crnobrk			2
+cvrk			1
+denkerk			2
+dirk			1
+grk			1
+jork			1
+kirk			1
+klark			1
+klerk			1
+krk		M	1
+kvark	50		1
+lunapark	15		2
+mark			1
+merk			1
+mrk	102		1
+netvork			2
+palibrk			2
+park	15735		1
+polugrk			2
+tandrk		M	2
+telemark			2
+trk	565		1
+turk			1
+zvrk	106		1
+ćulibrk			2
+čekrk		M	2
+čvrk		M	1
+šmrk	42		1
+štirk			1
+štrk			1
+žvrk		M	1

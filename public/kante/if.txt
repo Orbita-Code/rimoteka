@@ -1,21 +1,21 @@
 20
-Josif		
-apokrif	26	
-grif		M
-hatišerif		M
-hijeroglif	31	
-kadaif		
-kalif		M
-kif		
-klif	35	
-latif		
-mastif	49	
-nazif		
-petroglif		
-raif		
-redklif		
-rozbif		
-skif	41	
-šerif	351	
-šif		M
-šlif		M
+Josif			2
+apokrif	26		2
+grif		M	1
+hatišerif		M	2
+hijeroglif	31		2
+kadaif			2
+kalif		M	2
+kif			1
+klif	35		1
+latif			2
+mastif	49		2
+nazif			2
+petroglif			2
+raif			2
+redklif			2
+rozbif			2
+skif	41		1
+šerif	351		2
+šif		M	1
+šlif		M	1

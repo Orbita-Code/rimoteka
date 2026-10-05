@@ -1,196 +1,196 @@
 194
-Alžir		
-ajgir		
-ampir		M
-arhipastir	96	
-bir		M
-blagomir		
-bogomir		
-branimir		
-bratimir		
-brigadir	132	
-budimir		
-damir		
-dampir		
-demir		
-desimir		
-dir		M
-dobromir		
-dodir	8554	
-dragomir		
-dražimir		
-eliksir	582	
-elvir		
-emir		M
-epir		
-esmir		
-fakir		M
-fatmir		
-filir		
-fotokopir		
-frotir	38	
-furnir	93	
-garnir		
-gejzir	133	
-glasovir	23	
-gradimir		
-grenadir		M
-hir	570	
-ilir		
-ir		
-jaromir		
-jezdimir		
-jorkšir		M
-jugomir		
-juvelir		M
-kadir		
-kasir		
-kavalir	31	
-kazimir		
-kašmir	50	
-kefir	300	
-kir		
-klavir	2820	
-klistir	43	
-komandir	1357	
-kondir		
-kosir		M
-krešimir		
-krompir	5488	
-krstomir		
-kumir	15	
-kurir	4056	
-lenjir	161	
-lepomir		
-leptir	1050	
-lir		
-ljubomir		
-ljutomir		
-manastir	18028	
-manikir	593	
-manir	995	
-martir		M
-meir		
-međuzbir		
-mijomir		
-milomir		
-miomir		
-mir	25294	
-misir		
-mladomir		
-momir		
-mundir		M
-munir		
-musafir		
-mušketir		
-nadir		
-namastir		
-nazir		
-nemir	1874	
-nezir		
-njegomir		
-nokšir		
-obzir	27997	
-odabir	4230	
-odbir		M
-oficir		M
-okvir	12569	
-orijentir	432	
-palir		
-pancir	352	
-papir	10938	
-pastir	1123	
-pačir		
-pedikir	402	
-peškir	965	
-pionir	3066	
-pir	521	
-podoficir		M
-polumir		
-porfir		
-portir	451	
-prezir	1413	
-psaltir	279	
-putir	137	
-radimir		
-radomir		
-ratimir		
-ratmir		
-ratomir		
-revir	175	
-rusmir		
-rusomir		
-sabir		M
-safir	171	
-samir		
-samoprezir		
-satir	75	
-sehir		
-selimir		
-sibir		
-sindžir		M
-sir	6663	
-slavimir		
-slavomir		
-sosir		
-sotir		
-stanimir		
-strašimir		
-suvenir	766	
-svemir	3930	
-svetomir		
-tahir		
-talir		M
-tanjir	2410	
-tapir		
-tatomir		
-tihomir		
-točir		M
-trandafir		
-trir		
-trogir		
-tugomir		
-turnir	13043	
-uvir	27	
-vampir	751	
-velimir		
-vetropir	20	
-vezir		M
-vidomir		
-vir	1359	
-vitomir		
-vizir	131	
-vladimir		
-vlastimir		
-vodir		
-vojimir		
-vukmir		
-vukomir		
-zafir		
-zahir		
-zair		
-zamfir		
-zbir	2761	
-zefir		
-zećir		
-zlatimir		
-zlatomir		
-zvekir		M
-zvonimir		
-čair		
-čedomir		
-čir	583	
-đevđir		M
-đumbir	661	
-šaćir		
-šekspir		
-šešir	1968	
-šimšir	37	
-šir		M
-špacir		
-špalir		M
-žbir		
-želimir		
-žir	123	
-živomir		
-prijezir		
+Alžir			2
+ajgir			2
+ampir		M	2
+arhipastir	96		2
+bir		M	1
+blagomir			3
+bogomir			3
+branimir			2
+bratimir			2
+brigadir	132		2
+budimir			3
+damir			2
+dampir			2
+demir			2
+desimir			2
+dir		M	1
+dobromir			3
+dodir	8554		2
+dragomir			3
+dražimir			2
+eliksir	582		2
+elvir			2
+emir		M	2
+epir			2
+esmir			2
+fakir		M	2
+fatmir			2
+filir			2
+fotokopir			2
+frotir	38		2
+furnir	93		2
+garnir			2
+gejzir	133		2
+glasovir	23		3
+gradimir			2
+grenadir		M	2
+hir	570		1
+ilir			2
+ir			1
+jaromir			3
+jezdimir			2
+jorkšir		M	2
+jugomir			3
+juvelir		M	2
+kadir			2
+kasir			2
+kavalir	31		2
+kazimir			2
+kašmir	50		2
+kefir	300		2
+kir			1
+klavir	2820		2
+klistir	43		2
+komandir	1357		2
+kondir			2
+kosir		M	2
+krešimir			2
+krompir	5488		2
+krstomir			3
+kumir	15		2
+kurir	4056		2
+lenjir	161		2
+lepomir			3
+leptir	1050		2
+lir			1
+ljubomir			3
+ljutomir			3
+manastir	18028		3
+manikir	593		2
+manir	995		2
+martir		M	2
+meir			2
+međuzbir			2
+mijomir			3
+milomir			3
+miomir			3
+mir	25294		1
+misir			2
+mladomir			3
+momir			2
+mundir		M	2
+munir			2
+musafir			2
+mušketir			2
+nadir			2
+namastir			2
+nazir			2
+nemir	1874		2
+nezir			2
+njegomir			3
+nokšir			2
+obzir	27997		2
+odabir	4230		3
+odbir		M	2
+oficir		M	2
+okvir	12569		2
+orijentir	432		2
+palir			2
+pancir	352		2
+papir	10938		2
+pastir	1123		2
+pačir			2
+pedikir	402		2
+peškir	965		2
+pionir	3066		2
+pir	521		1
+podoficir		M	4
+polumir			2
+porfir			2
+portir	451		2
+prezir	1413		2
+psaltir	279		2
+putir	137		2
+radimir			3
+radomir			3
+ratimir			2
+ratmir			2
+ratomir			3
+revir	175		2
+rusmir			2
+rusomir			3
+sabir		M	2
+safir	171		2
+samir			2
+samoprezir			2
+satir	75		2
+sehir			2
+selimir			2
+sibir			2
+sindžir		M	2
+sir	6663		1
+slavimir			2
+slavomir			3
+sosir			2
+sotir			2
+stanimir			2
+strašimir			2
+suvenir	766		2
+svemir	3930		2
+svetomir			3
+tahir			2
+talir		M	2
+tanjir	2410		2
+tapir			2
+tatomir			3
+tihomir			3
+točir		M	2
+trandafir			2
+trir			1
+trogir			2
+tugomir			3
+turnir	13043		2
+uvir	27		2
+vampir	751		2
+velimir			3
+vetropir	20		2
+vezir		M	2
+vidomir			3
+vir	1359		1
+vitomir			3
+vizir	131		2
+vladimir			2
+vlastimir			2
+vodir			2
+vojimir			2
+vukmir			2
+vukomir			3
+zafir			2
+zahir			2
+zair			2
+zamfir			2
+zbir	2761		1
+zefir			2
+zećir			2
+zlatimir			2
+zlatomir			3
+zvekir		M	2
+zvonimir			3
+čair			2
+čedomir			2
+čir	583		1
+đevđir		M	2
+đumbir	661		2
+šaćir			2
+šekspir			2
+šešir	1968		2
+šimšir	37		2
+šir		M	1
+špacir			2
+špalir		M	2
+žbir			1
+želimir			3
+žir	123		1
+živomir			3
+prijezir			2

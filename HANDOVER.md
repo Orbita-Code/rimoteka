@@ -10,7 +10,7 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
-## 0c. STANJE 05.10.2026 – RIME PO AKCENTU (odluka vlasnice „da, ugradi akcente"), NEOBJAVLJENO – čeka „da" za push
+## 0c. STANJE 05.10.2026 – RIME PO AKCENTU (odluka vlasnice: da, ugradi akcente), OBJAVLJENO 05.10. 12:30 (`main` = `7f94d9aa38`, `app.js?v=31a579db`); lanac protiv produkcije 4 radnika 911 + motori 69 + skeneri 0/0, 9 min 52 s (`AUDIT/lanac/20261005-123007`); na produkciji: televizor → retrovizor, revizor, prizor
 - **Zašto:** prijava vlasnice 03.10.: „televizor" → najbolje ambasador, ventilator; revizor u „Dobrim". Podela je išla po broju slogova.
 - **Šta je ugrađeno:** `public/akcenat.txt` (+ `_jekavica`), broj po reči = od kog sloga od kraja počinje prava rima; pravi `build/akcenat.py`
   iz `build/akcenti-osnove.json` (engleski Wiktionary, 28.934 akcentovane osnove, CC BY-SA) + srLex (oblik → osnova) + pravila.

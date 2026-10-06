@@ -1,4 +1,4 @@
-12943
+12928
 Albanijom			3
 Amsterdamom			3
 Angolom			2
@@ -2543,7 +2543,6 @@ golmanom			2
 golom	5600		2
 golorukom	19		2
 golotinjom	80		2
-gološijanom			2
 golubanom			2
 golubarnikom			3
 golubijom			2
@@ -5925,7 +5924,6 @@ nedalekom	20		2
 nedavnom	1886		3
 nedaćom	13		2
 nedelatnom			2
-nedeljenom			2
 nedeljivom	30		2
 nedeljnom	1074		2
 nedeljom	3511		2
@@ -5947,7 +5945,6 @@ nedugom			2
 nedužnom	68		3
 negacijom	85		2
 negativnom	2370		4
-neglaziranom			2
 negom	485		2
 negovanom	14		4
 nehatom	40		2
@@ -6058,7 +6055,6 @@ nepodnošljivom	105		2
 nepogodnom	16		4
 nepogodom	142		4
 nepogrešivom	67		2
-nepojedenom			2
 nepojmljivom	31		2
 nepokolebljivom	88		2
 nepokornom	18		2
@@ -6066,7 +6062,6 @@ nepokrivenom	18		2
 nepomirljivom	34		2
 nepomičnom	28		4
 neponovljivom	141		2
-nepooranom			2
 neporočnom	34		2
 neposrednom	2262		4
 nepotpunom	223		4
@@ -6081,7 +6076,6 @@ nepravdom	390		2
 nepravednom	166		4
 nepravilnom	261		4
 nepravom			2
-nepredstavljivom			2
 nepredvidljivom	44		2
 nepreglednom	125		2
 neprekidnom	667		2
@@ -6139,14 +6133,12 @@ nesklonom			2
 neskrivenom	154		2
 neslanom	10		3
 neslavnom	115		3
-neslivenom			2
 neslobodom	21		2
 neslogom	39		2
 nesložnom			2
 neslućenom	35		2
 nesmanjenom	206		2
 nesmetanom	116		2
-nesmetenom			2
 nesmotrenom	26		2
 nesmućenom			2
 nesnosnom	28		2
@@ -6168,7 +6160,6 @@ nestalom	141		2
 nestankom	588		2
 nestašicom	245		3
 nestašnom	42		2
-nestrašnom			2
 nestručnom	73		2
 nestvarnom	117		3
 nesumnjivom	115		2
@@ -6177,17 +6168,14 @@ nesvarenom			2
 nesvesnom	498		2
 netaknutom	174		2
 netačnom	87		3
-netelesnom			2
 netom			2
 netragom	249		2
 neudobnom	29		4
-neugaslom			2
 neuglednom	45		4
 neugodnom			2
 neukom	94		2
 neukusnom	34		4
 neulaskom	21		2
-neumanjenom			2
 neumerenom	24		3
 neumesnom	15		4
 neumitnom	87		4
@@ -6215,7 +6203,6 @@ neustrašivom	51		2
 neutešnom	14		4
 neutoljivom			2
 neutralnom	461		4
-neuvelom			2
 nevaljalom	19		2
 nevarljivom			2
 nevažećom	28		2
@@ -6231,7 +6218,6 @@ nevesinjskom			2
 nevestom	80		2
 nevezanom	32		2
 neveštom	41		2
-nevidimkom			2
 nevidljivom	455		2
 nevilom			2
 nevinom	162		3
@@ -6249,7 +6235,6 @@ nezadovoljstvom	385		2
 nezadrživom	69		2
 nezahvalnom	57		4
 nezakonitom	457		3
-nezalaznom			2
 nezamislivom	64		2
 nezaposlenom	151		3
 nezasitom	13		2

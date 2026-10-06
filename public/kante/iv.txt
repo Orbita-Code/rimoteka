@@ -1,4 +1,4 @@
-614
+616
 ablativ			3
 abraziv			2
 aditiv	325		2
@@ -211,6 +211,7 @@ neodrživ	752		2
 neodvojiv	225		2
 neopipljiv	25		2
 neopisiv	288		2
+neoporeciv			2
 neopoziv	26		2
 neoprostiv	110		2
 neosetljiv	129		2
@@ -300,6 +301,7 @@ neuporediv		M	2
 neupotrebljiv	540		2
 neuračunljiv	98		2
 neuručiv			2
+neuseljiv			2
 neuspavljiv			2
 neustrašiv	194		2
 neutaživ			2

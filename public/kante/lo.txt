@@ -1,4 +1,4 @@
-3387
+3386
 Angolo			2
 Oslo			2
 adaptiralo	27		2
@@ -969,7 +969,6 @@ neodraslo			2
 nerviralo	356		2
 nestajalo	145		3
 nestalo	3920		2
-nesustalo			2
 nesuvislo	153		4
 neumrlo			2
 neuspelo	93		4

@@ -1,4 +1,4 @@
-3386
+3383
 Angole			2
 Brazile			2
 Brisele			2
@@ -1016,7 +1016,6 @@ našle	3438		2
 nažuljale			2
 nebule			2
 nedorasle			2
-nedospele			2
 nedostajale	253		3
 nedozrele	35		2
 negirale	53		2
@@ -1025,7 +1024,6 @@ nekropole	368		2
 nemale	79		2
 nemetale	40		2
 nemile	262		2
-nepotonule			2
 nepresahle			2
 nervirale	60		2
 nestajale	227		3
@@ -1033,7 +1031,6 @@ nestale	2441		2
 nestle			2
 nesuvisle	125		4
 nesvijetle		J	2
-neugasle			2
 neumrle			2
 neuspele	646		4
 nevaljale	208		2

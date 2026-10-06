@@ -1,4 +1,4 @@
-8337
+8282
 Argentina			2
 Atina			2
 Barselona			2
@@ -3330,10 +3330,7 @@ nebezbedna	99		2
 nebitna	810		3
 nebojšina			2
 neborbena	14		2
-nebrijana			2
-nebrojana			2
 nebrojena	111		3
-nebrojna			2
 nebulozna			2
 necenovna			2
 nedavna	1627		3
@@ -3368,6 +3365,7 @@ negirana	57		2
 negotina			3
 negovana	446		4
 neharmonična			2
+nehigijena			2
 nehomogena			2
 nehotična	21		3
 nehrišćana			2
@@ -3413,8 +3411,6 @@ nekonvencionalna	96		7
 nekorektna	171		2
 nekorisna	65		2
 nekorišćena			2
-nekovana			2
-nekošena			2
 nekretnina	8817		2
 nekritična	27		2
 nekrštena	40		2
@@ -3428,14 +3424,12 @@ nelegitimna	238		2
 nelikvidna	138		2
 nelinearna	60		2
 neljubazna	56		4
-neljubljena			2
 nelogična	215		2
 nelojalna	362		4
 nemanjina			2
 nemarna	85		3
 nemasna	80		2
 nemaština	438		2
-nemerena			2
 nemilosna			2
 nemilosrdna	431		5
 neminovna	758		4
@@ -3448,7 +3442,6 @@ nena		M	2
 nenadana	38		4
 nenadležna	31		2
 nenadmašna	130		4
-nenadmena			4
 nenajavljena	49		2
 nenaklonjena	29		2
 nenamerna	98		2
@@ -3458,12 +3451,9 @@ nenapisana	27		2
 nenarodna	59		2
 nenaseljena	113		3
 nenasilna	120		2
-nenasledna			2
 nenastanjena	36		2
 nenaučna			2
-nenavedena			2
 nenačelna			2
-nenegovana			2
 nenormalna	349		4
 nenovčana	28		2
 neobavezna	144		5
@@ -3478,7 +3468,6 @@ neobrezana	11		2
 neobrijana	12		3
 neobuzdana	156		5
 neobučena			2
-neoceđena			2
 neodgovorena	23		2
 neodgovorna	624		5
 neodložna	93		2
@@ -3486,12 +3475,9 @@ neodlučena			3
 neodlučna	183		4
 neodmerena	40		2
 neodređena	219		3
-neodvažna			2
-neodvezana			2
 neograničena	637		3
 neokaljana	19		2
 neokrnjena			2
-neomekšana			2
 neometana	41		2
 neometena			2
 neomiljena	26		2
@@ -3508,17 +3494,14 @@ neorganizovana			2
 neosedlana			2
 neosetna			2
 neosnovana	662		5
-neosporena			2
 neosporna	409		4
 neostvarena	262		3
-neosvećena			2
 neosvojena	16		2
 neotesana	27		5
 neotkrivena	138		2
 neotporna	28		2
 neotrovna	22		2
 neotvorena	42		2
-neoverena			2
 neovlašćena	195		2
 neozbiljna	527		2
 neoznačena			2
@@ -3549,17 +3532,13 @@ nepokorna	32		2
 nepokretna	647		4
 nepokrivena	51		2
 nepoložena	17		2
-nepomešana			2
 nepomična	169		4
 nepomućena			2
-nepoorana			2
 nepopularna	233		2
 nepopunjena	72		2
 neporažena	165		2
 neporočna	39		2
-neposejana			2
 neposlušna	92		4
-neposna			2
 neposredna	1306		4
 nepostižna			2
 nepostojana	59		3
@@ -3579,7 +3558,6 @@ nepraktična	113		4
 nepravedna	431		4
 nepravilna	607		4
 nepravična	36		4
-neprazna			2
 neprecizna	184		4
 nepredviđena	57		3
 nepregledna	301		2
@@ -3606,7 +3584,6 @@ nepristupačna	221		5
 neprisutna			3
 neprivlačna	58		2
 neprobojna	83		4
-neprobuđena			2
 neproduktivna	90		5
 neprofesionalna	58		7
 neprofitna	1078		4
@@ -3618,10 +3595,8 @@ nepromišljena	124		3
 nepropisna	23		2
 nepropusna	41		4
 neprospavana	41		2
-neprosvetljena			2
 neproučena			2
 neproverena	101		3
-neprovetrena			2
 neprovidna	26		4
 neprozirna	96		4
 nepročitana	22		2
@@ -3651,14 +3626,10 @@ nerođena	92		3
 nervna	203		2
 nervozna	1003		3
 nesaglasna			2
-nesanjana			2
 nesavesna	40		2
 nesavršena	117		3
-nesaznajna			2
 nesačuvana			2
 nesebična	183		4
-nesejana			2
-nesečena			2
 neshvaćena	83		3
 nesigurna	727		4
 nesimetrična	12		2
@@ -3666,22 +3637,18 @@ nesklona	38		2
 neskrivena	122		2
 neslana	122		3
 neslavna	64		3
-neslivena			2
 neslobodna	28		4
 nesložna	26		2
 neslućena	38		2
 neslužbena	36		3
 nesmanjena	19		2
 nesmetana	106		2
-nesmešana			2
 nesmirena			2
 nesmislena			2
 nesmišljena			2
 nesmotrena	55		2
 nesnosna	184		2
 nesolidna	11		2
-nespaljena			2
-nespevana			2
 nespokojna	23		2
 nesporna	627		2
 nesposobna	1576		4
@@ -3695,12 +3662,9 @@ nesređena	87		2
 nesrodna			2
 nestabilna	823		4
 nestalna	136		3
-nestambena			2
 nestašna	142		2
 nestručna	197		2
 nestvarna	222		3
-nestvorena			2
-nesuverena			2
 nesuđena	115		3
 nesvakodnevna			2
 nesvarena			2
@@ -3719,12 +3683,8 @@ neugašena	15		2
 neugažena			2
 neugledna	120		4
 neugodna			2
-neugrožena			2
 neuhranjena	54		2
-neuhvaćena			2
 neukaljana			2
-neuključena			2
-neukroćena			2
 neukusna	177		4
 neuljudna			4
 neumerena	55		3
@@ -3732,10 +3692,7 @@ neumesna	137		4
 neumitna	93		4
 neumivena			2
 neumorna	167		4
-neumrljana			2
 neuobičajena	414		3
-neuočena			2
-neuplašena			2
 neupotrebljena	21		2
 neuprljana			2
 neupućena	66		2
@@ -3749,7 +3706,6 @@ neurotična	95		2
 neurotoksina	10		2
 neuslišena			2
 neuslovna	54		2
-neusmerena			2
 neuspešna	655		4
 neustavna	291		4
 neutešna	70		4
@@ -3768,7 +3724,6 @@ nevena	715		2
 nevenčana	102		2
 neverbalna	217		2
 neverna	109		3
-neverodostojna			2
 neverovatna	3190		2
 nevestina			2
 nevezana	73		2
@@ -3784,22 +3739,16 @@ nevremena	1072		4
 nezaboravljena			2
 nezaboravna	520		5
 nezaceljena	12		2
-nezadovoljena	52		2
 nezadovoljna	1368		5
 nezahvalna	205		4
 nezainteresovana			2
 nezaključana			2
-nezakopčana			2
-nezalazna			2
-nezapadna			2
-nezapaljena			2
 nezapažena	79		3
 nezaposlena	1071		3
 nezasitna			4
 nezasićena	24		3
 nezaslužena	55		2
 nezavidna	84		2
-nezavijena			2
 nezavisna	6427		2
 nezavršena	170		2
 nezazorna			2
@@ -3811,12 +3760,9 @@ neznatna	375		3
 nezvana	36		3
 nezvanična	439		2
 nečasna	77		3
-nečinjena			2
-nečitana			2
 nečovečna	35		4
 nečujna	117		3
 nečuvena	116		2
-neštampana			2
 neželjena	959		3
 nežna	1633		2
 nigdina			2
@@ -5098,7 +5044,6 @@ pramena	136		3
 prana	82		2
 prapostojbina	66		2
 prasetina	93		2
-pravdana	40		3
 pravedna	853		2
 pravilna	1861		3
 pravična	351		2

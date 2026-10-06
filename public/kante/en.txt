@@ -1,4 +1,4 @@
-2265
+2270
 Kopenhagen			2
 Minhen			2
 abdomen	204		2
@@ -629,6 +629,7 @@ nekažnjen	132		2
 nekorišćen			2
 nekršten	30		2
 nelen			2
+nelečen			2
 nenadaren			2
 nenaglašen			2
 nenagrađen			2
@@ -714,6 +715,7 @@ nepredviđen	34		2
 nepresečen			2
 nepresušen			2
 neprevaziđen			2
+neprihvaćen			2
 neprijavljen			2
 neprikosnoven		M	2
 neprilagođen	86		2
@@ -760,6 +762,7 @@ nestaložen			2
 nesuđen			2
 nesvršen			2
 neugašen			2
+neugažen			2
 neuglađen			2
 neuhranjen	36		2
 neujednačen	198		2
@@ -776,6 +779,7 @@ neupotrebljen			2
 neupućen	264		2
 neuravnotežen	78		2
 neuređen	119		2
+neusaglašen			2
 neusiljen	26		2
 neusklađen	50		2
 neuslišen			2
@@ -784,6 +788,7 @@ neutrošen			2
 neutvrđen	54		2
 neuvijen		M	2
 neuvršćen			2
+neuzvraćen			2
 neučen			2
 neučvršćen			2
 neven	629		2

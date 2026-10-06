@@ -1,4 +1,4 @@
-8830
+8828
 Albanije			3
 Australije			3
 Austrije			2
@@ -1350,7 +1350,6 @@ golije	403		3
 golje			2
 golotinje	257		2
 golubije			2
-golublje			2
 gombanje			2
 gomilanje	516		2
 gomirje			2
@@ -3654,7 +3653,6 @@ nestaje	4665		2
 nesticanje			2
 nestorije			2
 nestrpljenje	343		2
-nesudije			2
 nesvakidašnje	998		2
 netačnije	12		4
 netolerancije	793		2

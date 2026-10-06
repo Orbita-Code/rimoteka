@@ -1,4 +1,4 @@
-12585
+12575
 Budimpešti			3
 Bukurešti			4
 Cveti			2
@@ -4161,7 +4161,6 @@ negirati	506		2
 negodovati	72		4
 negovati	1392		4
 nehajnosti			2
-nehatnosti			2
 neiskrenosti	135		4
 neispravnosti	638		2
 neistiniti	112		4
@@ -4191,13 +4190,11 @@ nenasiti			2
 nenormalnosti	80		2
 neobaveštenosti	283		2
 neobičnosti	172		2
-neobmanuti			2
 neodgovornosti	980		2
 neodlučnosti	276		2
 neodoljivosti	19		2
 neodređenosti	291		2
 neofašisti	38		2
-neokrznuti			2
 neonacisti	255		2
 neophodnosti	2209		2
 neopreznosti	73		2
@@ -4210,7 +4207,6 @@ nepobedivosti	171		3
 nepodudarnosti	65		2
 nepokornosti	58		2
 nepokretnosti	7581		2
-nepomenuti			2
 neposlušnosti	496		2
 nepouzdanosti	78		6
 nepoverovati			4
@@ -4233,7 +4229,6 @@ neravnopravnosti	299		2
 nerazvijenosti	239		2
 nerealnosti	72		2
 neregularnosti	689		2
-nerelevantnosti			2
 nervirati	410		2
 nesaglasnosti	255		2
 nesavršenosti	511		2
@@ -4241,7 +4236,6 @@ nesebičnosti	108		5
 neshvatljivosti			2
 nesigurnosti	2313		2
 nesiti	14		3
-neslanosti			2
 nesmotrenosti	99		2
 nesposobnosti	2289		2
 nespretnosti	87		2
@@ -4254,8 +4248,6 @@ nestudenti			2
 nestvarnosti	30		2
 nesvesnosti	38		2
 nesvesti	333		3
-nesveti			2
-nesvrhovitosti			2
 nesvrstanosti	147		2
 netaknuti	266		2
 netačnosti	349		2
@@ -4278,7 +4270,6 @@ neustrašivosti	97		3
 neutralisati	268		2
 neutralizovati	49		4
 neutralnosti	1699		2
-neuvelosti			2
 nevernosti	31		2
 neverovati			4
 nevesti	159		2
@@ -4299,7 +4290,6 @@ neznatnosti	17		2
 nezrelosti	366		3
 nećkati			2
 nečasnosti	12		2
-nečasti			2
 nečisti	263		2
 nečistoti	29		2
 nežnosti	1345		3

@@ -326,7 +326,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <a class="skip-link" href="#glavno">Preskoči na sadržaj</a>
 <header class="site-header">
   <a class="brand" href="/" title="Rimoteka – rime, rečnik i slogovi">
-    <div class="brand-h"><img src="/logo-icon.png" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
+    <div class="brand-h"><img src="/logo-icon.webp" class="logo-r" alt="R" width="512" height="512"><span class="brand-word">imoteka</span></div>
   </a>
   <div class="script-toggle" id="scriptToggle" title="Prebaci pismo – latinica ili ćirilica">
     <button data-script="lat" class="active">latinica</button>
@@ -391,7 +391,7 @@ def tabs_nav(active=''):
 FOOTER_TMPL = """<footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="/logo-icon.png" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
+      <img src="/logo-icon.webp" class="footer-logo" alt="R" width="512" height="512"><span class="footer-name">imoteka</span>
     </div>
     <p class="footer-desc">Besplatan alat za <strong>rimovanje reči</strong> na srpskom: rečnik rima, rime po završetku, brojač slogova, beležnica za pisanje pesama i igra rimovanja.</p>
     <!-- Kontakt stoji U FUTERU, dakle na jednom mestu – a futer je na svakoj strani.
@@ -494,13 +494,13 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=bf251757"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=6a9bcbdb"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
 # – inače pregledač skine rečnik DVA puta. Test to poredi. Ubacuje se samo na strane
 # koje rečnik stvarno skidaju (v. `trebaRecnik` u app.js).
-RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=130c18c1" crossorigin>'
+RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=813bab11" crossorigin>'
 def sa_preloadom_recnika(html):
     treba = any(m in html for m in ('id="rimeInput"', 'id="searchInput"', 'id="noteEditor"', 'id="gameSetup"'))
     if not treba or RECI_PRELOAD in html:

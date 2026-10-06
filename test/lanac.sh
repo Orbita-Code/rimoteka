@@ -25,7 +25,7 @@ fi
 # TP-11 (01.10.2026, odluka vlasnice): pun test ide kao RADNIKA procesa (DEO=1..N), svaki sa svojom četvrtinom sekcija
 # (raspored u predeploy.mjs, RASPORED). Jedan proces je trajao ~16 min; četiri paralelno traju koliko najduži radnik.
 # RADNIKA=1 vraća stari način (jedan proces, sve sekcije). Zbir provera sva četiri radnika mora biti ≥ 900 (lokalno) / 870 (produkcija).
-RADNIKA="${RADNIKA:-4}"
+RADNIKA="${RADNIKA:-6}"   # 07.10.2026: 6 (izmereno: radnici po ~235 s; raspored se računa za zadati broj)
 ALATI="predeploy-motori skener-cirilica skener-tamna"
 PIDOVI=""
 if [ "$RADNIKA" = "1" ]; then
@@ -48,7 +48,7 @@ ZBIR=0
 for t in $PREDEPLOY $ALATI; do
   K=$(grep -E '^IZLAZ=' "$DIR/$t.log" | tail -1 | cut -d= -f2)
   OK=$(grep -c '  ✅' "$DIR/$t.log"); NE=$(grep -c '❌' "$DIR/$t.log")
-  case "$t" in predeploy*) ZBIR=$((ZBIR + OK));; esac
+  case "$t" in predeploy*) ZBIR=$((ZBIR + OK)); if [ "$OK" -lt 20 ]; then GRESKA=1; echo "❌ $t je imao samo $OK provera – radnik bez posla (raspored ne pokriva ovaj broj radnika?)"; fi;; esac
   if [ "$K" = "0" ]; then echo "✅ $t (✅ $OK)"; else GRESKA=1; echo "❌ $t (❌ $NE) – v. $DIR/$t.log"; grep '❌\|Test je pao' "$DIR/$t.log" | head -5 | cut -c1-160; fi
 done
 MIN=900; [ -n "${BASE:-}" ] && MIN=870

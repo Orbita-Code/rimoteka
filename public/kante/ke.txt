@@ -1,4 +1,4 @@
-3739
+3734
 Bugarske	2419		3
 Danske	572		2
 Francuske	7428		2
@@ -1805,14 +1805,11 @@ načinske			2
 nealbanske	71		2
 nebeske	1737		2
 nebraske			2
-necarinske			2
 nedeljnike	37		2
 nedostatke	4069		2
 neengleske			2
 neetičke	25		2
 negotinske	445		2
-negrčke			2
-nehrvatske			2
 neimarske			2
 neimovinske	36		2
 neistorijske			2
@@ -1822,10 +1819,8 @@ nekanonske	54		2
 neke	202675		2
 nekolike	311		2
 nekritičke	48		2
-neletačke			2
 neljudske	68		3
 nemanjićke	199		2
-nemasonske			2
 nemačke	12109		2
 neolitske	183		2
 neonke	246		2

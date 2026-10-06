@@ -49,7 +49,18 @@ const T0_SEKCIJE = Date.now();   // 09.09.2026: vreme po sekciji, da se vidi gde
    ovde, a sa DEO ga `test/lanac.sh` računa kao zbir sva četiri radnika. Promenljive deklarisane na vrhu sekcija
    su podignute na vrh `main` (sekcije su sada blokovi) – bez toga bi `const` iz sekcije 2 bio nevidljiv sekciji 4. */
 const DEO = Number(process.env.DEO || 0), DELOVA = Number(process.env.DELOVA || 4);
-const RASPORED = {"2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "7a": 1, "7b": 1, "7c": 1, "8": 1, "8b": 1, "2b": 1, "8c": 1, "9": 1, "10": 1, "11": 1, "19b": 1, "27": 1, "29": 1, "57": 1, "55": 1, "19c": 1, "40": 1, "26": 1, "12g": 1, "16": 1, "17": 1, "14": 1, "15b": 1, "35": 1, "15": 1, "20d": 1, "12j": 1, "20h": 1, "12": 1, "50": 1, "59": 2, "51": 2, "22": 2, "21": 2, "54": 2, "47": 2, "53": 2, "16d": 2, "20g": 2, "20": 2, "36": 2, "16b": 2, "37": 2, "15c": 2, "32": 2, "14b": 2, "14c": 2, "23": 2, "25": 2, "41": 2, "42": 2, "48": 2, "39": 3, "46": 3, "58": 3, "52": 3, "31": 3, "20b": 3, "12b": 3, "24": 3, "17b": 3, "12h": 3, "20e": 3, "43": 3, "38": 3, "44": 3, "18b": 3, "33": 3, "16c": 3, "19": 3, "56": 4, "10c": 4, "49": 4, "30": 4, "18": 4, "20c": 4, "12i": 4, "45": 4, "16e": 4, "28": 4, "20f": 4, "12e": 4, "12f": 4, "12c": 4, "12d": 4, "19d": 4, "10b": 4, "34": 4};
+const TRAJANJE = {"2": 6, "3": 3, "4": 3, "5": 2, "6": 1, "7": 1, "7a": 6, "7b": 5, "7c": 3, "8": 4, "8b": 9, "2b": 5, "8c": 1, "9": 1, "10": 1, "11": 1, "19b": 4, "27": 3, "29": 1, "57": 69, "55": 46, "19c": 21, "40": 17, "26": 15, "12g": 13, "16": 19, "17": 19, "14": 7, "15b": 13, "35": 9, "15": 7, "20d": 5, "12j": 3, "20h": 5, "12": 3, "50": 23, "59": 86, "51": 55, "22": 33, "21": 22, "54": 34, "47": 16, "53": 17, "16d": 9, "20g": 10, "20": 8, "36": 14, "16b": 8, "37": 9, "15c": 5, "32": 11, "14b": 5, "14c": 1, "23": 2, "25": 1, "41": 1, "42": 1, "48": 1, "39": 69, "46": 53, "58": 36, "52": 27, "31": 27, "20b": 13, "12b": 16, "24": 11, "17b": 11, "12h": 14, "20e": 8, "43": 10, "38": 14, "44": 6, "18b": 4, "33": 16, "16c": 1, "19": 1, "56": 61, "10c": 49, "49": 30, "30": 28, "18": 25, "20c": 16, "12i": 14, "45": 12, "16e": 15, "28": 9, "20f": 11, "12e": 5, "12f": 5, "12c": 4, "12d": 5, "19d": 6, "10b": 4, "34": 5};   // izmereno trajanje sekcije u s (lanac 06.10.2026); za raspodelu po radnicima
+const DELJENA_STRANA = ["2", "3", "4", "5", "6", "7", "7a", "7b", "7c", "8", "8b", "2b", "8c", "9", "10", "11", "19b", "27", "29"];   // sekcije koje koriste prvu stranu `page` – uvek radnik 1, istim redom
+/* Raspored se računa za ZADATI broj radnika (DELOVA): sekcije sa deljenom stranom idu radniku 1, ostale se dele
+   „najduža prva, najmanje opterećenom radniku" – pa RADNIKA=6 stvarno koristi 6 radnika (07.10.: sa fiksnim rasporedom
+   za 4 radnika, radnici 5 i 6 su radili po 5 s). Isti ulaz → isti raspored, pa je prolaz ponovljiv. */
+const RASPORED = (() => {
+  const teret = Array.from({ length: Math.max(1, DELOVA) }, () => 0), r = {};
+  for (const k of DELJENA_STRANA) { r[k] = 1; teret[0] += TRAJANJE[k] || 5; }
+  const ostale = Object.keys(TRAJANJE).filter(k => !(k in r)).sort((a, b) => (TRAJANJE[b] - TRAJANJE[a]) || a.localeCompare(b));
+  for (const k of ostale) { let w = 0; for (let i = 1; i < teret.length; i++) if (teret[i] < teret[w]) w = i; r[k] = w + 1; teret[w] += TRAJANJE[k] || 5; }
+  return r;
+})();
 const moj = (k) => !DEO || (RASPORED[k] || 1) === DEO;
 if (DEO) console.log(`▶ radnik ${DEO}/${DELOVA} – sekcije: ${Object.keys(RASPORED).filter(k => RASPORED[k] === DEO).join(', ')}`);
 const sek = (naslov) => console.log(`\n[${((Date.now() - T0_SEKCIJE) / 1000) | 0} s] ${naslov}`);
@@ -5872,10 +5883,10 @@ async function main() {
         ok('crta · nijedna dugačka crta (—) u fajlovima sajta ni na generisanim stranama (koristi se kratka –)', saCrtom.length === 0 && stranaSaCrtom === 0, `${saCrtom.join(', ')} · strana ${stranaSaCrtom}`);
         /* A6 (08.09.2026, odluka vlasnice): logo-icon.png je 128 px (bio 512 px / 298 KB = 57 % težine strane); veliki
            ostaje kao logo-512.png samo za manifest (ikonica na početnom ekranu). Izgled logotipa se NE menja. */
-        const logoB = fs.statSync(path.join(ROOT, 'public', 'logo-icon.png')).size, logo512 = fs.existsSync(path.join(ROOT, 'public', 'logo-512.png'));
+        const logoB = fs.statSync(path.join(ROOT, 'public', 'logo-icon.webp')).size, logo512 = fs.existsSync(path.join(ROOT, 'public', 'logo-512.png'));
         const manifest = fs.readFileSync(path.join(ROOT, 'public', 'manifest.json'), 'utf8');
         // 08.09.2026, odluka vlasnice: logo-icon.png je 224 px (~56 KB) da bude oštar na iPhone-u (3×); prag 70 KB
-        ok('A6 · logo-icon.png je mali (< 70 KB, 224 px), a manifest koristi logo-512.png za ikonice', logoB < 70000 && logo512 && !/logo-icon\.png/.test(manifest) && /logo-512\.png/.test(manifest), `${logoB} B`);
+        ok('A6/PF-6 · logo-icon.webp je mali (< 70 KB, 224 px, lossless; 07.10.2026 PNG→WebP), a manifest koristi logo-512.png za ikonice', logoB < 70000 && logo512 && !/logo-icon\.png/.test(manifest) && /logo-512\.png/.test(manifest), `${logoB} B`);
         ok('S-19 · nijedan link sa strana reči ne vodi na stranu koje nema (mrtav link = 404)', mrtvi.size === 0, [...mrtvi].slice(0, 6).join(', '));
         const mapa = (await import('node:fs')).readFileSync(path.join(ROOT, 'nginx-stare-strane.map'), 'utf8');
         const uGeneratoru = (fs.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/if len\(all_r\) < (\d+):/) || [])[1];
@@ -6807,7 +6818,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         const robots = await (await fetch(BASE + '/robots.txt')).text();
         ok('robots.txt · blokira i „&decji=", „&tab=" i „?kraj=" (SEO-8/UI-8)', /Disallow:\s*\/\*&decji=/.test(robots) && /Disallow:\s*\/\*&tab=/.test(robots) && /Disallow:\s*\/\*\?kraj=/.test(robots), robots.slice(0, 200));
         const sw = fs58.readFileSync(path.join(ROOT, 'public/sw.js'), 'utf8');
-        ok('sw.js · keš v8 i HTML se pamti samo za početnu (BZ-5)', /rimoteka-v8/.test(sw) && /putanja === '\/'/.test(sw));
+        ok('sw.js · keš v9 i HTML se pamti samo za početnu (BZ-5)', /rimoteka-v9/.test(sw) && /putanja === '\/'/.test(sw));
         if (NA_PRODUKCIJI) {
           const h = await fetch(BASE + '/');
           ok('HSTS · includeSubDomains (B-4)', /includeSubDomains/i.test(h.headers.get('strict-transport-security') || ''), h.headers.get('strict-transport-security'));
@@ -7076,6 +7087,10 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         const c2 = await (await fetch(BASE + '/?rec=%C4%8Deka')).text();
         ok('SEO-2 · sirovi HTML: /?rec=ljubav nosi kanonikal /rime-za/ljubav/, /?rec=čeka → /rime-za/ceka/, nepoznata reč → /', /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ljubav\/"/.test(a) && /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ceka\/"/.test(c2) && /canonical" href="https:\/\/rimoteka\.com\/"/.test(b), 'ljubav/čeka/xyzqw');
         const h = (await fetch(BASE + '/')).headers.get('content-security-policy') || '';
+        // SEO-3 (07.10.2026): http://www → JEDAN skok pravo na https://rimoteka.com, sa putanjom i upitom (Traefik dinamički fajl rimoteka-301.yaml)
+        const www = await fetch('http://www.rimoteka.com/rime-za/ljubav/?x=1', { redirect: 'manual' }).catch(() => null);
+        const wwwLok = www ? (www.headers.get('location') || '') : '';
+        ok('SEO-3 · http://www.rimoteka.com/… → 301 pravo na https://rimoteka.com/… (jedan skok, putanja i upit sačuvani)', !!www && [301, 308].includes(www.status) && wwwLok === 'https://rimoteka.com/rime-za/ljubav/?x=1', `${www && www.status} ${wwwLok}`);
         ok('BZ-4 · CSP dozvoljava skripte samo sa www.googletagmanager.com (ne ceo domen)', /script-src 'self' https:\/\/www\.googletagmanager\.com;/.test(h) && !/script-src[^;]*\*\.googletagmanager/.test(h), h.slice(0, 120));
       }
     }

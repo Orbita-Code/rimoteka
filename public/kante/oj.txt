@@ -1,4 +1,4 @@
-4054
+4045
 Bugarskoj	577		3
 Danskoj	131		2
 Francuskoj	1559		2
@@ -1694,7 +1694,6 @@ neizvesnoj	498		4
 nejakoj	25		3
 nejasnoj	61		2
 nejednakoj	28		4
-nejezičkoj			2
 nekadašnjoj	1116		4
 nekakvoj	1233		3
 nekažnjivoj			2
@@ -1717,7 +1716,6 @@ nemogućoj	159		4
 nemoj	18531		2
 nemoralnoj	18		4
 nemoćnoj	40		3
-nemudroj			2
 nenadovoj			2
 nenasilnoj	55		2
 nenasitoj			2
@@ -1740,11 +1738,9 @@ neoranoj			2
 neotpornoj			2
 neočekivanoj	84		3
 neparnoj	32		3
-nepevačkoj			2
 neplodnoj	15		2
 nepokretnoj	111		4
 nepomičnoj			4
-nepooranoj			2
 neporočnoj			2
 neposrednoj	6837		4
 nepotpunoj	33		4
@@ -1765,7 +1761,6 @@ nerazumnoj	34		4
 nervnoj	117		2
 nervoznoj	51		3
 nesavesnoj			2
-nesazdanoj			2
 nesebičnoj	199		4
 nesigurnoj	69		4
 nesimetričnoj			2
@@ -1786,10 +1781,7 @@ nesuđenoj	29		3
 nesvesnoj	34		2
 netaknutoj	242		2
 netačnoj	35		3
-netelesnoj			2
-netvarnoj			2
 neudatoj	12		4
-neugasloj			2
 neuglednoj	24		4
 neugodnoj			2
 neukoj	28		2
@@ -1819,7 +1811,6 @@ neviđenoj	154		2
 nevladinoj	264		2
 nevoljnoj	12		2
 nezakonitoj	109		3
-nezalaznoj			2
 nezavidnoj	368		2
 nezavisnoj	873		2
 nezdravoj	89		2

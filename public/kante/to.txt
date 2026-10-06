@@ -1,4 +1,4 @@
-708
+706
 Budimpešto			3
 Cveto			2
 Toronto			2
@@ -267,8 +267,6 @@ nemaštovito	37		2
 nemušto	246		2
 nenasito		M	2
 nenaviknuto			2
-neobmanuto			2
-neoduzeto			2
 nepoznato	3358		4
 neprepoznato	20		2
 nepriznato	44		4

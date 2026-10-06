@@ -1,4 +1,4 @@
-5861
+5845
 abecednog	15		4
 abnormalnog	71		4
 abrazivnog			4
@@ -2353,21 +2353,17 @@ nedoglednog			2
 nedoličnog	307		2
 nedopečenog			2
 nedoraslog			2
-nedospelog			2
 nedostižnog	83		4
 nedovoljnog	1189		4
 nedovršenog	195		2
 nedozvoljenog	400		2
 nedragog	12		2
 nedugog			2
-neduhovnog			2
 nedužnog	202		3
 neetičkog	45		2
-nefatalnog			2
 nefrolog	74		2
 negativnog	2258		4
 negovanog	19		4
-negrčkog			2
 nehotičnog	38		3
 nehumanog	128		4
 neidentifikovanog			2
@@ -2385,7 +2381,6 @@ neistraženog	45		2
 neizbežnog	282		4
 neizgovorenog	15		2
 neizmernog	89		2
-neizraznog			2
 neizrecivog	81		2
 neizvesnog	223		4
 nejahanog			2
@@ -2409,24 +2404,20 @@ nelažnog			2
 nelegalnog	871		4
 neljudskog	100		3
 nelogičnog	40		2
-nelokalnog			2
 nemalog	81		2
 nemanjićkog	60		2
 nemarnog	92		3
 nemasnog	95		2
 nemačkog	10641		2
-nemešanog			2
 nemilog	308		2
 nemilosrdnog	205		5
 neminovnog	178		4
 nemirnog	269		3
-nemislenog			2
 nemodernog			4
 nemog	276		2
 nemoralnog	142		4
 nemoćnog	572		3
 nemuštog	74		2
-nenadahnutog			2
 nenadanog	34		4
 nenadmašnog	76		4
 nenajavljenog	28		2
@@ -2534,7 +2525,6 @@ nerealnog	164		4
 neredovnog	167		2
 neregistrovanog			2
 nerešenog	480		3
-nerobnog			2
 nerođenog	129		3
 neruskog	11		2
 nervnog	2092		2
@@ -2551,13 +2541,11 @@ nesklonog	13		2
 neskromnog			2
 neslanog	28		3
 neslavnog	76		3
-neslivenog			2
 nesložnog			2
 neslućenog	31		2
 nesmetanog	319		2
 nesmotrenog	51		2
 nesnosnog	77		2
-nesoljenog			2
 nespojivog	105		2
 nespornog	151		2
 nesposobnog	305		4
@@ -2577,12 +2565,9 @@ nestvarnog	136		3
 nesumnjivog	183		2
 nesuđenog	144		3
 nesvesnog	936		2
-nesvetog			2
 nesvršenog	30		2
 netaknutog	51		2
 netačnog	105		3
-netelesnog			2
-netvarnog			2
 neugodnog			2
 neuhranjenog			2
 neuhvatljivog	61		2
@@ -2629,7 +2614,6 @@ nevskog			2
 nezaboravnog	260		5
 nezadovoljnog	147		5
 nezahvalnog	72		4
-nezaklanog			2
 nezakonitog	1043		3
 nezamislivog	59		2
 nezaposlenog	355		3

@@ -1,4 +1,4 @@
-7658
+7635
 Jerusalim			2
 Rim		M	1
 abecednim	92		4
@@ -2837,9 +2837,7 @@ neaktivnim	62		4
 neažurnim	12		2
 nebeskim	1060		2
 nebesnim	70		2
-nebiranim			2
 nebitnim	364		3
-nebrojanim			2
 nebrojenim	202		3
 nebuloznim			2
 necenovnim			2
@@ -2869,13 +2867,11 @@ nedozvoljenim	401		2
 nedoživljenim	13		2
 nedragim			2
 nedržavnim	38		2
-neduhovnim			2
 nedužnim	308		3
 neetičkim	27		2
 nefunkcionalnim	55		2
 negativnim	2687		4
 negdašnjim	35		2
-negorkim			2
 negovanim	40		4
 nehotičnim	22		3
 nehumanim	252		4
@@ -2889,7 +2885,6 @@ neispitanim	19		2
 neispravnim	225		2
 neistorijskim			2
 neistraženim	80		2
-neisukanim			2
 neizbežnim	322		4
 neizlečivim	63		2
 neizmernim	81		2
@@ -2911,7 +2906,6 @@ nekolikim	174		2
 nekorisnim	46		2
 nekrštenim	17		2
 nelagodnim	19		4
-nelaskavim			2
 nelažnim			2
 nelegalnim	704		4
 neljudskim	173		3
@@ -2933,9 +2927,7 @@ nemogućnim			2
 nemoralnim	196		4
 nemoćnijim			4
 nemoćnim	333		3
-nemudrim			2
 nemuštim	123		2
-nemuževnim			2
 nenadanim	22		4
 nenarodnim	27		2
 nenasilnim	147		2
@@ -2972,9 +2964,7 @@ neopravdanim	145		3
 neoružanim			2
 neosetljivim	32		2
 neosetnim			2
-neoskudnim			2
 neosnovanim	284		5
-neosoljenim			2
 neospornim	64		4
 neostvarenim	158		3
 neostvarljivim			2
@@ -3077,7 +3067,6 @@ nesitim			2
 neskladnim			3
 neskromnim	10		2
 neslavnim	40		3
-neslivenim			2
 neslućenim	51		2
 nesmanjenim	160		2
 nesmetanim	30		2
@@ -3098,32 +3087,26 @@ nesrodnim			2
 nesrpskim	116		2
 nestabilnim	301		4
 nestalim	512		2
-nestandardizovanim			2
 nestašnim	66		2
 nestrpljivim	60		2
 nestručnim	209		2
 nestvarnim	116		3
 nesumnjivim	142		2
-nesustalim			2
 nesuvislim	81		4
 nesuđenim	30		3
 nesvesnim	225		2
-nesvetim			2
 netaknutim	147		2
 netačnim	346		3
 netipičnim	70		2
 netrajnim			2
 netržišnim	57		2
-netvarnim			2
 neudatim	31		4
 neudobnim	61		4
 neugaženim			2
 neuglednim	47		4
 neugodnim			2
-neugušenim			2
 neukim	140		2
 neukrotivim			2
-neukroćenim			2
 neukusnim	66		4
 neumerenim	58		3
 neumesnim	91		4
@@ -3151,10 +3134,6 @@ neustrašivim	73		2
 neutešnim			4
 neutoljivim			2
 neutralnim	405		4
-neuvelim			2
-neuzbudljivim			2
-neuzidanim			2
-nevalidnim			2
 nevaljalim	28		2
 nevažećim	354		2
 nevažnim	229		3
@@ -3180,7 +3159,6 @@ nezahvalnim	47		4
 nezainteresovanim			2
 nezakonitim	827		3
 nezamislivim	137		2
-nezapadnim			2
 nezaposlenim	669		3
 nezaustavljivim	51		2
 nezauzetim			2
@@ -3208,7 +3186,6 @@ nečitkim	19		3
 nečovečnim	48		4
 nečujnim	55		3
 nečuvenim	69		2
-neštetnim			2
 neželjenim	438		3
 neživim	35		2
 nežnijim	52		3

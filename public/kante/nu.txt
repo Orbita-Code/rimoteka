@@ -1,4 +1,4 @@
-5082
+5061
 Argentinu			2
 Atinu			2
 Berlinu			2
@@ -1982,16 +1982,13 @@ neimaštinu	28		2
 neisceljenu			2
 neiscrpnu	119		4
 neiskazanu	86		2
-neispečenu			2
 neispisanu			2
 neispravnu	194		2
 neispunjenu	20		2
 neistinu	849		3
 neistraženu	30		2
-neistrošenu			2
 neizazvanu			2
 neizbežnu	243		4
-neizdavanu			2
 neizgrađenu	19		2
 neizmenjenu	22		2
 neizmernu	309		2
@@ -2003,20 +2000,17 @@ neklasičnu			2
 nekolicinu	870		2
 nekontrolisanu	159		2
 nekorisnu	17		2
-nekošenu			2
 nekretninu	1282		2
 nekritičnu			2
 nekrštenu	16		2
 nektarinu			2
 nekuvanu			2
 nelagodnu	27		4
-nelažiranu			2
 nelažnu			2
 nelegalnu	396		4
 nelenu			2
 nelečenu			2
 nelinearnu	28		2
-neljubljenu			2
 nelojalnu	237		4
 nemanjinu			2
 nemarnu	10		3
@@ -2028,9 +2022,7 @@ nemirnu	87		3
 nemoralnu	77		4
 nemoćnu	71		3
 nenadmašnu	70		4
-nenamazanu			2
 nenamernu	29		2
-nenamirenu			2
 nenaoružanu			2
 nenapisanu	16		2
 nenarodnu	20		2
@@ -2058,12 +2050,9 @@ neopisanu			2
 neopranu			2
 neopreznu	19		4
 neosetnu			2
-neoskudnu			2
 neosnovanu	238		5
 neosnovnu			2
-neosporenu			2
 neospornu	105		4
-neosušenu			2
 neotkrivenu	22		2
 neotvorenu	25		2
 neovisnu			2
@@ -2081,12 +2070,10 @@ nepodeljenu	155		2
 nepogodnu			4
 nepokornu	16		2
 nepokretnu	382		4
-nepomešanu			2
 nepomičnu	26		4
 nepomućenu			2
 neporaženu	19		2
 neporočnu	26		2
-neposoljenu			2
 neposrednu	1375		4
 nepostižnu			2
 nepostojanu	10		3
@@ -2137,12 +2124,9 @@ neronu			2
 nerođenu	87		3
 nervnu	99		2
 nervoznu	70		3
-nesanjanu			2
 nesavršenu	28		3
-nesaznajnu			2
 nesažvakanu			2
 nesebičnu	639		4
-nesečenu			2
 neskrivenu	99		2
 neslanu	36		3
 neslavnu	118		3
@@ -2160,13 +2144,11 @@ nespremnu	65		2
 nesputanu	48		3
 nesrećnu	444		2
 nesređenu	34		2
-nesrčanu			2
 nestabilnu	168		4
 nestalnu	27		3
 nestanu	1760		2
 nestašnu	56		2
 nestvarnu	75		3
-nestvorenu			2
 nesuđenu	34		3
 nesvesnu	110		2
 nesvršenu			2
@@ -2208,9 +2190,7 @@ nevoljnu	26		2
 nevremenu	312		4
 nezaboravnu	346		5
 nezahvalnu	119		4
-nezalaznu			2
 nezapamćenu	131		2
-nezaprljanu			2
 nezasićenu	12		3
 nezavidnu	181		2
 nezavisnu	2468		2
@@ -2227,7 +2207,6 @@ nečasnu	71		3
 nečovečnu			4
 nečujnu	21		3
 nečuvenu	68		2
-nešivenu			2
 neštednu			2
 neželjenu	263		3
 neživotnu			2

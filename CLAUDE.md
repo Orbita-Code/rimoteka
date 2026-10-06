@@ -430,11 +430,13 @@ BASE=https://rimoteka.com bash test/lanac.sh     # posle deploya, protiv produkc
 bash test/lanac-brzi.sh       # TOKOM RADA (≈1 min): tri motora + dimna proba glavnih namena – ne zamenjuje pun lanac
 ```
 U nizu su četiri alata trajala ~28 min; paralelno traju koliko najduži (pun test). Dnevnici: `AUDIT/lanac/<datum>/`.
-**Od 01.10.2026 pun test ide kao 4 RADNIKA** (odluka vlasnice, TP-11): `lanac.sh` pušta `DEO=1..4 DELOVA=4 node test/predeploy.mjs`
-paralelno; svaki radnik izvršava svoju četvrtinu sekcija (`RASPORED` u `predeploy.mjs`, po izmerenom trajanju). Sekcije koje dele
-prvu stranu (2–11, 19b, 27, 29) su sve u radniku 1. `RADNIKA=1 bash test/lanac.sh` vraća jedan proces. Čuvar broja provera
-(≥ 900 lokalno / 870 produkcija) računa se kao ZBIR radnika u `lanac.sh`. Promenljive sa vrha sekcija su podignute na vrh `main`
-(sekcije su blokovi) – nova sekcija koja deklariše `const` na vrhu i koristi ga u drugoj sekciji mora ime da doda u taj `let`.
+**Od 01.10.2026 pun test ide kao više RADNIKA** (odluka vlasnice, TP-11; od 07.10. podrazumevano 6): `lanac.sh` pušta
+`DEO=1..N DELOVA=N node test/predeploy.mjs` paralelno; raspored sekcija se RAČUNA za zadati N iz izmerenog trajanja po sekciji
+(`TRAJANJE` u `predeploy.mjs`, „najduža prva, najmanje opterećenom"). Sekcije koje dele prvu stranu (2–11, 19b, 27, 29) su uvek u
+radniku 1. `RADNIKA=1 bash test/lanac.sh` vraća jedan proces. Čuvar: zbir provera svih radnika ≥ 900 lokalno / 870 produkcija, i
+nijedan radnik ispod 20 provera (07.10.: fiksan raspored za 4 je ostavio radnike 5 i 6 bez posla). Promenljive sa vrha sekcija su
+podignute na vrh `main` (sekcije su blokovi) – nova sekcija koja deklariše `const` na vrhu i koristi ga u drugoj sekciji mora ime da
+doda u taj `let`. Skener ćirilice ide sa 10 strana odjednom (`PARALELNO`), jer je sa 4 bio najduži alat u lancu (522 s).
 Server za test (port 8799) diže `lanac.sh` jednom; `predeploy.mjs` ne diže svoj ako port već odgovara.
 **Ne menjati `lanac.sh` dok radi** – bash čita skriptu u toku izvršavanja, pa izmena obori prolaz koji traje (01.10.: `syntax error near else`).
 **Lokalni lanac i lanac protiv produkcije NE ISTOVREMENO** (25.09.2026): dva lanca odjednom dižu opterećenje računara na 50+ i
@@ -728,6 +730,8 @@ za Srbiju i Balkan (globalni CLAUDE.md, odeljak „KOLAČIĆI I PRAVO"). Test 47
 | **Font Rubik** | u `public/fonts/` (varijabilni, 4 pisma). **Nema Google Fonts** ni u HTML-u ni u CSP-u (`font-src 'self'`). Test 52 pada na prvom zahtevu ka `fonts.g*`. |
 | **Brzina `gen_pages.py`** | 09.09.2026: bliske rime se biraju iz kanti po završetku (`sufgroup`/`top_slicne`), ne sortiranjem 55.000 kandidata po reči – 43 s umesto 5 min 36 s, isti izlaz. **Nikad commit dok generator radi** (obrisao je 1.990 strana iz repoa 09.09.; pravilo u PROPUSTI). |
 | **`igra-reci.json`** | reči koje IGRA zadaje (odluka vlasnice 08.09.2026: samo imenice, glagoli i pridevi od 2 do 4 sloga; 6.634 reči). Pravi ga `node test/igra-bazen.mjs && python3 scripts/igra-reci-napravi.py`, pa `node scripts/osvezi-verzije-podataka.mjs`. Skida se tek kad se igra otvori; ako ne stigne za 1,5 s, igra pada na stari bazen. Kockica i dalje koristi bazen od 8.000. |
+| **`www` i `http` preusmerenja – NA SERVERU, ne u nginx-u** (29.07. + 07.10.2026) | fajl `/data/coolify/proxy/dynamic/rimoteka-301.yaml` na `root@88.198.218.69` (Traefik ga sam učita, bez restarta; rezervna kopija `/root/rimoteka-301.yaml.bak-*`). `http://rimoteka.com` → 301 https; `http://www.rimoteka.com/<putanja>` → 301 pravo na `https://rimoteka.com/<putanja>` (SEO-3, jedan skok); `https://www` → non-www radi nginx. Coolify ovaj fajl NE briše pri deployu. Test 59 (produkcija) pada ako www ima dva skoka. Nema potrebe za prijavom u Coolify panel – SSH je dovoljan. |
+| **Logo `logo-icon.webp`** (07.10.2026, odluka vlasnice PF-6) | lossless WebP, 38 KB umesto PNG 56 KB, piksel za piksel isti (`ImageChops.difference` = prazno). `logo-icon.png` ostaje u repou kao izvor. Veličina, klasa, `width/height` i CSS logotipa NISU menjani (pravilo 8a). SW `rimoteka-v9`. |
 | **`public/akcenat.txt`** (05.10.2026) | akcenat po reči, red po red uz `reci.txt` (+ `akcenat_jekavica.txt`): od kog sloga od kraja počinje prava rima. Pravi `python3 build/akcenat.py` (Wiktionary `build/akcenti-osnove.json` + srLex + pravila) – **posle svake izmene rečnika, pre `kante.py`** (kante nose akcenat kao 4. kolonu). Alat i generator iz toga prave `akcKey`/`AKC` i po tome dele „Najbolje"/„Dobre". Test 2b pada ako akcenat nije učitan ili ako televizor/revizor nisu u istoj grupi. |
 | **`public/kante/`** (22.09.2026) | rečnik po kantama za prvu rimu pre celog rečnika (PF-1). Pravi `python3 build/kante.py` (posle SVAKE izmene `reci.txt`/`reci_jekavica.txt`/`frekvencija.json`/`matica.json`/`jekavski.json`), pa `node scripts/osvezi-verzije-podataka.mjs` (upisuje `KANTE_V` u `app.js`). Test 59 pada ako se manifest i `KANTE_V` razilaze ili ako kanta daje drugačiji spisak od celog rečnika. |
 | **`public/app.min.js`** (22.09.2026) | minifikovan `app.js`, pravi ga `osvezi-verzije-podataka.mjs` (ili `node scripts/minifikuj.mjs`); nginx i lokalni test-server ga serviraju POD `/app.js`. **Nikad ga ne uređivati ručno**; test 59 pada ako mu otisak ne odgovara `app.js`. |

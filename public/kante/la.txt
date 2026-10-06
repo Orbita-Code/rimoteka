@@ -1,4 +1,4 @@
-6088
+6084
 Angola			2
 Brazila			2
 Brisela			2
@@ -1941,14 +1941,12 @@ nedostajala	1098		3
 negirala	485		2
 negodovala	110		4
 negovala	383		4
-neizgorela			2
 nekropola	459		2
 nela			2
 nemala	64		2
 nemetala	333		2
 nemila	198		2
 nemorala	412		4
-neobrasla			2
 nepala			2
 nervirala	262		2
 nestajala	323		3
@@ -1956,12 +1954,10 @@ nestala	4666		2
 nesuvisla	68		4
 neumrla			2
 neuspela	318		4
-neuvela			2
 nevaljala	126		2
 nevesela	101		2
 nezrela	252		2
 nešpula			3
-nežnobela			2
 nicala	63		3
 nikla	1598		2
 nikola			2

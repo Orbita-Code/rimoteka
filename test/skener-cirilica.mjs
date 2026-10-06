@@ -22,7 +22,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BASE = process.env.BASE || 'http://localhost:8765';
-const PARALELNO = Number(process.env.PARALELNO || 4);
+const PARALELNO = Number(process.env.PARALELNO || 10);   // 07.10.2026: 4 → 10; sa 4 je skener trajao 522 s i bio najduži alat u lancu (TP-11)
 const DOZVOLJENO = /^(·? ?Powered by( Orbita Code)?|Orbita Code|latinica|Google Analytics|Google|YouTube|GitHub|Cloudflare|Chrome|Safari|Firefox|Android|iPhone|iPad|iOS|Windows|Wikipedia|Wiktionary|Rimoteka|eureka@rimoteka\.com|rimoteka\.com|orbitacode\.com|PDF|R)$/;
 const LAT = /[A-Za-zČĆŽŠĐčćžšđ]/;
 

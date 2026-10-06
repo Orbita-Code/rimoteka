@@ -1,4 +1,4 @@
-7069
+7051
 Albanija			3
 Australija			3
 Austrija			2
@@ -3186,24 +3186,19 @@ nazivlja	23		2
 naznačenja	60		2
 nažulja			2
 nažvrlja			2
-nebitija			2
-nebivstvovanja			2
 nedavanja	59		2
 nedelanja			2
 nedelja	27340		2
 nedelovanja	27		2
 nedolaženja	10		2
-nedomašaja			2
 nedonošenja	57		2
 nedođija	76		2
-nedržanja			2
 nedžmija			2
 negacija	696		2
 negdašnja	45		2
 negiranja	456		2
 negodovanja	749		2
 negovanja	847		2
-negrešenja			2
 nehaja	16		2
 nehtenja			2
 neigranja			2
@@ -3217,11 +3212,9 @@ nejedenja	16		2
 nejevreja			2
 nekadanja	10		2
 nekadašnja	2217		4
-nekajanja			2
 nekretanja	34		2
 nekrofilija			2
 nekupanja			2
-nelaganja			2
 nemanja			2
 nemenjanja	18		2
 nemešanja	149		2
@@ -3233,30 +3226,23 @@ nenadanja			2
 nenasilja	331		2
 neobičnija	56		5
 neobraćanja			2
-neodmaranja			2
 neodobravanja	93		3
 neodređenija			4
-neopiranja			2
-neopštenja			2
 nepamćenja			2
 nepažnja	203		2
 neplaćanja	738		2
-nepokajanja			2
-nepomaganja			2
 neporoznija			2
 nepostojanija			4
 nepostojanja	1494		3
 nepoverenja	1271		2
 nepoštenja	77		2
 nepoštovanja	1744		2
-nepranja			2
 nepravednija			5
 neprepoznavanja	116		3
 neprijatelja	10200		4
 neprimanja	28		2
 nepružanja	24		2
 neraspoloženja	143		3
-neraspoznavanja			3
 nerazlikovanja	19		3
 nerazumevanja	1235		3
 nerešavanja	61		2
@@ -3265,7 +3251,6 @@ nerviranja	414		2
 nervoznija	64		4
 nesaglasja	42		2
 nesaradnja	46		2
-nesećanja			2
 neshvatanja	111		2
 nesimpatija			2
 neslaganja	2578		2
@@ -3273,13 +3258,11 @@ nesnosnija			3
 nespavanja	152		2
 nespokoja	47		2
 nestajanja	704		2
-nestarenja			2
 nesticanja			2
 nestorija			3
 nestrpljenja	203		2
 nesvakidašnja	504		2
 nesvesnija			3
-nesvrstavanja			2
 netolerancija	418		2
 neugodnija			2
 neulaganja	51		2
@@ -3290,7 +3273,6 @@ neurologija	117		2
 neuropatija	105		2
 neusvajanja	91		2
 neuzimanja	26		2
-neučenja			2
 neučestvovanja	60		3
 nevaspitanja	76		2
 nevažnija			4

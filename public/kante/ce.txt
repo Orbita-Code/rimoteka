@@ -1,4 +1,4 @@
-2007
+2005
 Firence			2
 Leskovce			2
 Mesece	1000		3
@@ -179,7 +179,6 @@ daščice	120		2
 debeljuce	61		2
 dece	82929		2
 dedice	36		2
-dekanice	13		2
 dekice	63		2
 delce	30		2
 delimice		M	2
@@ -897,7 +896,6 @@ nemce	1674		2
 nemice			2
 nemilice	847		3
 neopazice			3
-neotrovnice			2
 nepce	244		2
 nepoznanice	275		5
 neprestance	26		4

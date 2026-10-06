@@ -1,4 +1,4 @@
-8457
+8455
 Albanijama			4
 Amsterdama			3
 Argentinama			2
@@ -4032,7 +4032,6 @@ nemirima	470		4
 nemoćima	37		4
 nemoćnima	140		4
 nemrtvima			2
-nemudrima			2
 neodlučnostima			2
 neologizma	13		2
 neonacizma	129		2
@@ -4098,7 +4097,6 @@ neznancima	55		2
 nećacima	16		4
 nečinjenjima			2
 nečistima	18		3
-nečuvanima			2
 neženjama	36		3
 nežnostima	52		4
 nihilizma	267		2

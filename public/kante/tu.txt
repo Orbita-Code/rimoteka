@@ -1,4 +1,4 @@
-1383
+1382
 Budimpeštu			3
 Bukureštu			4
 Cvetu	714		2
@@ -668,7 +668,6 @@ nepoznatu	725		4
 neprekinutu	58		3
 nerastu			3
 nesitu			3
-nesvetu			2
 netaknutu	179		2
 neudatu	16		4
 nevestu	388		2

@@ -1,4 +1,4 @@
-2678
+2672
 Budimpešta			3
 Bukurešta			4
 Cveta	4675		2
@@ -1293,7 +1293,6 @@ našta			2
 necelovita			2
 nedirnuta	102		2
 nedžata			2
-negromanta			2
 nehata	445		2
 nehrvata	14		2
 neisplata			2
@@ -1307,17 +1306,13 @@ neofašista	44		2
 neolita	780		2
 neonacista	367		2
 neoplanta			2
-neoskvrnuta			2
 nepatriota			2
-nepomenuta			2
-neposlata			2
 nepoznata	3133		4
 neprekinuta	94		3
 nepriznata	129		4
 nesita	14		3
 nesta			2
 netaknuta	707		2
-netemeljita			2
 neudata	172		4
 neupoznata			2
 neuropata			2
@@ -1325,7 +1320,6 @@ nevesta	774		2
 nevešta	77		2
 nezakonita	654		3
 nezasita	107		2
-nezačeta			2
 nečista	384		2
 nečistota	62		2
 nešta	401		2

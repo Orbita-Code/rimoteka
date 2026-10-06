@@ -1,4 +1,4 @@
-1480
+1478
 Hamburga			2
 Pekinga			2
 Praga	1425		2
@@ -707,7 +707,6 @@ nesnosnoga			3
 nesretnoga			3
 nestaloga			2
 nesvesnoga			3
-nesvetoga			2
 neupravnoga			2
 neurohirurga	144		2
 neurologa	482		2
@@ -721,7 +720,6 @@ nevrednoga			2
 neznatnoga			4
 nečega	8213		3
 nečistoga	19		3
-nečulnoga			2
 nežnoga			3
 nijednoga	156		2
 nikoga	14212		3

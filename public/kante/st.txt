@@ -1,4 +1,4 @@
-3013
+3014
 abnormalnost	66		2
 adekvatnost			2
 aerodinamičnost			2
@@ -1269,6 +1269,7 @@ nepreglednost	26		4
 neprekidnost			2
 neprelaznost			2
 nepremostivost			2
+neprepoznatljivost			2
 neprijatnost	1097		2
 neprikladnost	13		2
 neprikosnovenost	164		2

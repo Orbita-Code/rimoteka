@@ -63,7 +63,10 @@ Ostaje: **42 sporne osnove iz B** (`B-sporne-odluka.json`, „ostalo_ceka_odluku
 (3.532 osnove, objašnjenja napisana: 2.972 sigurno / 560 za proveru po razlogu – `PREDLOG-C-objasnjenja.md`) – čekaju „da".
 Strane: 1.989, sitemap 2.012 – nepromenjeno (nova reč ne dobija stranu, pravilo 19.08.).
 
-**NISKO (2):** SEO-3 (`http://www.` 2 skoka – Traefik pred nginx-om, podešava se u Coolify-ju; aplikacija Rimoteka nije nađena u listi projekta 22.09.) · TP-11 (298 fiksnih pauza u testu – čuvar broja provera dodat, pauze nisu zamenjene; TODO „pun test ispod 6 min")
+**NISKO (0):** SEO-3 **ZATVOREN 07.10.2026** – `http://www.rimoteka.com/…` → 301 pravo na `https://rimoteka.com/…` u jednom skoku
+(Traefik dinamički fajl `rimoteka-301.yaml` na serveru, `redirectRegex`; provera u testu 59, produkcija). TP-11 – test u 4 radnika
+(01.10.), 07.10. izmereno i sa 6 radnika (v. HANDOVER 0e); 350 fiksnih pauza i dalje stoje – cilj „ispod 6 min" prati se tamo.
+PF-6 **UNETO 07.10.2026** – logo kao lossless WebP (38 KB umesto 56 KB, piksel-identičan), odluka vlasnice.
 
 **ZATVORENO ODLUKOM 01.10.2026:** A-3 (autofokus na polje zaobilazi link „preskoči na sadržaj") – vlasnica: „ako je preporuka da ostavimo kako jeste, tako uradi". Kursor pri učitavanju ide u polje za reč, koje JESTE glavni sadržaj; link ostaje dostupan sa Shift+Tab. Ne otvarati ponovo bez novog razloga.
 

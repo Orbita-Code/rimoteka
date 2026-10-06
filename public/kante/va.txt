@@ -1,4 +1,4 @@
-3296
+3290
 Kijeva			3
 Moskva			2
 Sarajeva			3
@@ -1323,7 +1323,6 @@ negosava			2
 negostoljubiva	30		2
 neimarstva			2
 neiskaziva			2
-neisključiva			2
 neiskustva	247		2
 neispunjiva			2
 neizdrživa	134		2
@@ -1336,8 +1335,6 @@ neizraziva			2
 neizreciva	107		2
 nejestiva	21		2
 nekakva	3039		3
-nekvarljiva			2
-nelažljiva			2
 nemerljiva	312		2
 nemilostiva	13		2
 nemrtva			2
@@ -1352,7 +1349,6 @@ neodeljiva			2
 neodoljiva	466		2
 neodrživa	638		2
 neodvojiva	246		2
-neopažljiva			2
 neopipljiva	46		2
 neopisiva	322		2
 neoporeciva			2
@@ -1440,13 +1436,11 @@ nezamenljiva	325		2
 nezamisliva	627		2
 nezamjenjiva			2
 nezanimljiva	174		2
-nezastariva			2
 nezaustavljiva	137		2
 nezdrava	418		2
 nezlobiva	13		2
 nečastiva	20		2
 nečitljiva	25		2
-nečlanstva			2
 nečoveštva	46		2
 neškodljiva	126		2
 neživa	49		2

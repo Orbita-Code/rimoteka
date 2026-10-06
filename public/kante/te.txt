@@ -1,4 +1,4 @@
-6771
+6766
 Budimpešte			3
 Bukurešte			4
 Cvete			2
@@ -2232,10 +2232,7 @@ nenasite			2
 nenačete			2
 neoplante			2
 nepatriote			2
-nepomenute			2
-neposlate			2
 nepoznate	3104		4
-nepočete			2
 nepriznate	226		4
 neprodate			2
 neraste			3
@@ -2244,11 +2241,9 @@ nervirate	342		2
 nestajete	16		3
 nestanete	71		3
 nestanite	29		3
-nesvete			2
 netaknute	703		2
 nete			2
 neudate	206		4
-neunete			2
 neupoznate			2
 neveste	450		2
 nevešte	47		2

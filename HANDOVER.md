@@ -10,6 +10,19 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0e. STANJE 07.10.2026 – PF-6, SEO-3, TP-11 + odluke o rečima (vlasnica: „stavi logo kao web, reši seo-3 i tp-11, pa commit/push/merge, pa full audit")
+- **PF-6:** logo `logo-icon.webp` (lossless, 38 KB umesto PNG 56 KB, piksel-identičan), na svim stranama + SW v9. Izgled, veličina i CSS logotipa nisu dirani.
+- **SEO-3:** `http://www.rimoteka.com/…` → 301 pravo na `https://rimoteka.com/…` (jedan skok) – Traefik dinamički fajl na serveru
+  `/data/coolify/proxy/dynamic/rimoteka-301.yaml` (preko SSH; Coolify panel nije bio potreban). Provera u testu 59 (produkcija).
+- **TP-11:** raspored sekcija se računa za zadati broj radnika (`TRAJANJE`), podrazumevano 6 radnika; skener ćirilice 10 strana odjednom;
+  čuvar „radnik ispod 20 provera" u `lanac.sh`. **Lanac lokalno: 5 min 41 s** (bilo 16–23 min; 1.005 provera + 69 + skeneri 0/0).
+  Najduži alat je sad skener ćirilice (337 s), pa radnici (~225 s), pa motori (256 s).
+- **Reči (05–07.10.):** 42 sporne iz B presuđene (sve), nezadovoljen i pravdan obrisani, grupa C: dekanica, golublji, golokož, gološijan,
+  neoklasika odbijeni; svih 270 „ne-" tvorbi obrisano (402 oblika) osim 14 koje je vlasnica potvrdila (nehigijena, neinformisan, nelečen,
+  nemisleći, neoporeciv, neparlamentaran, neprskan, neprepoznatljivost, neprihvaćen, neugažen, neusaglašen, neuseljiv, neuzvraćen, nehigijenski).
+  Rečnik 281.726. Grupa C ostatak (740 sa tragom u Matici, 276 imena, ~1.670 bez traga) – vlasnica „baviću se rečima kasnije".
+- **Sledeće:** lanac protiv produkcije posle objave; PUN AUDIT (poslednji 22.09.).
+
 ## 0d. STANJE 06.10.2026 – 42 SPORNE IZ B PRESUĐENE (vlasnica, 05–06.10.), NEOBJAVLJENO – čeka push
 - 40 od 42 rešeno po njenoj reči (`AUDIT/SJ-5-razvrstano/ODLUKE.md`): obrisano 60+ oblika (numer, mesa, presijati, konfor, staničan, bašča, klaničar,
   premil, stešnjati, jalan, jamar, blek, preblažen, valiti, predjel, sleđe, planduvati, plačka, kumaš, Ludar, natruh, kozjak, nebošnjak, prevedriti,

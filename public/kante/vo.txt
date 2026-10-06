@@ -1,4 +1,4 @@
-1509
+1505
 Moskvo			2
 Pančevo			2
 Sarajevo			3
@@ -644,7 +644,6 @@ nedokazivo	81		2
 nedokučivo	139		2
 nedopustivo	4284		2
 nedovićevo			2
-nedremljivo			2
 negostoljubivo	35		2
 neimarstvo		M	2
 neiskazivo		M	2
@@ -694,7 +693,6 @@ neostvarivo	172		2
 neostvarljivo			2
 neotuđivo	239		2
 nepažljivo	87		2
-neplativo			2
 nepobedivo	130		2
 nepodnošljivo	826		2
 nepogrešivo	1074		2
@@ -727,14 +725,12 @@ nesagledivo	82		2
 nesagorivo			2
 nesavršenstvo		M	2
 neshvatljivo	1726		2
-nesmenljivo			2
 nesnošljivo	28		2
 nespojivo	553		2
 nespokojstvo	117		2
 nesravnjivo	52		2
 nestrpljivo	1304		2
 nesumnjivo	9013		2
-nesvodivo			2
 netrpeljivo	24		2
 neubedljivo	236		2
 neuhvatljivo	134		2

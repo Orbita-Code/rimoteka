@@ -1,4 +1,4 @@
-6972
+6960
 Albaniju			3
 Australiju			3
 Austriju			2
@@ -2663,13 +2663,10 @@ naznačenju	34		2
 naznačuju	31		2
 načinju	12		2
 našminkaju	54		2
-nebitiju			2
-nebrijanju			2
 nedelanju			2
 nedelju	38210		2
 nedostaju	5068		2
 nedođiju	114		2
-nedržanju			2
 negaciju	346		2
 negdašnju	41		2
 negiraju	1255		2
@@ -2678,7 +2675,6 @@ negodovanju	71		2
 negoduju	447		3
 neguju	2564		3
 neizvršenju	19		2
-nejavljanju			2
 nejedenju			2
 nekadanju			2
 nekadašnju	828		4
@@ -2690,21 +2686,15 @@ nemenjanju	13		2
 nemešanju	37		2
 nenapadanju	242		2
 nenasilju	72		2
-neobavljanju			2
-neopiranju			2
 neosećaju			2
-neoslanjanju			2
 nepažnju	136		2
 neplaćanju	82		2
 nepogodniju			5
-nepokajanju			2
-nepominjanju			2
 nepostojanju	485		3
 nepoverenju	282		2
 nepoštenju	31		2
 nepoštovanju	269		2
 neprijatelju	1474		4
-nepriznanju			2
 nepružanju			2
 nerazumevanju	268		2
 nerešavanju			2
@@ -2723,7 +2713,6 @@ nestajanju	322		2
 nestaju	3168		2
 nesticanju			2
 nestrpljenju	43		2
-nesuglasju			2
 netoleranciju	300		2
 netrpljenju			2
 neurohirurgiju	172		2
@@ -2740,7 +2729,6 @@ nečiju	1567		3
 nečinjenju	45		2
 neđelju		J	2
 neširenju	78		2
-nešišanju			2
 neželjenju			2
 neženju	20		2
 nežniju	57		3

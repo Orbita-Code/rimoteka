@@ -1,4 +1,4 @@
-7554
+7522
 Argentini			2
 Atini			2
 Berlini			2
@@ -2808,19 +2808,16 @@ nebitni	473		3
 neborbeni	10		3
 nebranjeni	115		3
 nebrižni			2
-nebrojani			2
 nebrojeni	208		3
 nebrušeni	30		3
 nebulozni			2
 necenovni			4
 necivilizovani			2
 necrkveni			3
-nedatirani			2
 nedavni	1724		3
 nedelatni			2
 nedeljni	1689		2
 nedisciplinovani			2
-nedodeljeni			2
 nedogledni			4
 nedohvatni			3
 nedolični	18		2
@@ -2843,7 +2840,6 @@ negativni	3570		4
 negašeni			3
 negirani	21		2
 negovani	174		4
-negrađani			2
 neharmonični			2
 nehigijeni			2
 nehomogeni			2
@@ -2855,7 +2851,6 @@ neimaštini	44		2
 neimenovani	1515		2
 neinformisani			2
 neiscrpni	178		4
-neiseljeni			2
 neiskazani	38		2
 neiskorišćeni	437		2
 neiskreni	171		3
@@ -2873,7 +2868,6 @@ neizdani			2
 neizloženi			2
 neizmenjeni	54		2
 neizmerni	58		4
-neizmešani			2
 neizmireni	57		2
 neizrečeni	20		2
 neizvedeni	14		2
@@ -2918,22 +2912,17 @@ neminovni	403		4
 nemirni	308		3
 nemoralni	281		4
 nemoćni	1378		3
-nemučeni			3
 nenadani	61		4
 nenadležni	55		2
 nenadmašni	183		4
 nenajavljeni	86		2
 nenaoružani			2
 nenapisani	23		2
-nenapredni			4
 nenarodni	90		4
 nenasilni	130		4
 nenastavni	20		4
-nenaterani			2
-nenatrpani			2
 nenaučeni			2
 nenaučni			2
-nenavedeni			2
 neni		M	2
 nenormalni	287		4
 nenovčani	86		2
@@ -2949,7 +2938,6 @@ neobrađeni	62		3
 neobrezani	24		2
 neobuzdani	153		5
 neobučeni			2
-neodabrani			2
 neodgojeni		J	2
 neodgovorni	942		5
 neodložni	53		2
@@ -2957,10 +2945,8 @@ neodlučni	350		4
 neodmereni	20		2
 neodobreni	15		2
 neodređeni	301		3
-neodrešeni			2
 neograničeni	501		3
 neograđeni			2
-neoguljeni			2
 neokaljani	25		2
 neokrečeni			2
 neokrnjeni			2
@@ -2973,15 +2959,11 @@ neophodni	6460		4
 neopisani			2
 neopravdani	224		3
 neoprezni	149		4
-neoprobani			2
 neorganizovani			2
 neosmišljeni			2
 neosnovani	444		5
 neosporni	206		4
 neostvareni	276		3
-neosuđeni			2
-neosušeni			2
-neosvećeni			2
 neosvojeni	11		2
 neotesani	55		5
 neotkriveni	145		2
@@ -3104,7 +3086,6 @@ nesebični	134		4
 neshvaćeni	168		3
 nesigurni	756		4
 neskloni	77		2
-neskrivani			2
 neskriveni	86		3
 neslani	32		3
 neslavni	173		3
@@ -3113,7 +3094,6 @@ nesložni	79		2
 neslućeni	60		3
 neslužbeni	58		3
 nesmetani	345		2
-nesmiljeni			3
 nesmireni			3
 nesmirni			2
 nesmotreni	54		3
@@ -3134,7 +3114,6 @@ nestani	55		2
 nestašni	253		2
 nestručni	481		2
 nestvarni	150		3
-nestvoreni			3
 nesuđeni	334		3
 nesvakodnevni			2
 nesvareni			3
@@ -3149,7 +3128,6 @@ netolerantni	204		2
 netrajni			3
 netruležni	11		2
 netržišni	29		3
-netvarni			2
 neudobni	50		4
 neugašeni	19		2
 neugledni	94		4
@@ -3162,11 +3140,9 @@ neuljudni			4
 neulovljeni			2
 neumereni	71		3
 neumesni	41		4
-neumireni			2
 neumitni	97		4
 neumni			2
 neumorni	534		4
-neuništeni			2
 neuobičajeni	224		3
 neupisani	21		2
 neuplaćeni	55		2
@@ -3179,7 +3155,6 @@ neuredni	115		4
 neuređeni	67		2
 neuroni	271		2
 neurotični	115		2
-neuručeni			2
 neusaglašeni			2
 neusiljeni	12		3
 neuslišeni			2
@@ -3192,11 +3167,9 @@ neutralni	1086		4
 neutrini	172		2
 neutroni	115		2
 neutvrđeni	43		2
-neuvereni			2
 neuvežbani			2
 neuzdržani			2
 neučeni			3
-nevalidni			4
 nevaspitani	183		2
 nevažni	246		3
 neveni	42		2
@@ -3213,15 +3186,11 @@ nevladini	66		2
 nevoljeni	19		3
 nevoljni	266		2
 nezaboravni	547		5
-nezadovoljeni	14		2
 nezadovoljni	6026		5
 nezahvalni	205		4
 nezainteresovani			2
-nezalazni			2
 nezapaženi	51		3
-nezapisani			2
 nezaposleni	2831		3
-nezasejani			2
 nezasićeni	13		3
 nezavidni	21		2
 nezavisni	5242		2
@@ -3239,7 +3208,6 @@ nečovečni	42		4
 nečujni	135		3
 nečuveni	80		3
 neštedni			2
-neštrojeni			3
 neželjeni	916		3
 neženjeni	20		3
 nežni	1036		2

@@ -1,4 +1,4 @@
-1741
+1736
 Kijeve			3
 Moskve			2
 Varšave			2
@@ -762,11 +762,9 @@ nedodirljive	208		2
 nedokazive	21		2
 nedokučive	85		2
 nedovićeve			2
-nedremljive			2
 negative	127		2
 negve		M	2
 neiskazive			2
-neisključive			2
 neispunjive			2
 neizdržive	71		2
 neizlečive	345		2
@@ -777,7 +775,6 @@ neizvršive			2
 nejestive	29		2
 nekakve	4583		3
 nekažnjive			2
-nelukave			2
 nemerljive	199		2
 nemrtve	10		2
 nenadove			2
@@ -822,14 +819,12 @@ nerve	818		2
 nesagorive			2
 neshvatljive	193		2
 nespojive	325		2
-nestrašive			2
 nestrpljive	155		2
 nesumnjive	344		2
 neubedljive	87		2
 neuhvatljive	90		2
 neukrotive	40		2
 neukrotljive			2
-neumirive			2
 neumoljive	179		2
 neuništive	127		2
 neupadljive	56		2

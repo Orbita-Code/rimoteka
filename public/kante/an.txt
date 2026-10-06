@@ -1,4 +1,4 @@
-4714
+4717
 Aranđelovdan			2
 Avganistan			2
 Ilindan			2
@@ -2059,6 +2059,7 @@ nehotičan	18		3
 nehuman	155		3
 neidentifikovan			2
 neimenovan			5
+neinformisan			2
 neinteligentan	59		2
 neinteresantan		M	2
 neinventivan	28		5
@@ -2184,6 +2185,7 @@ neočitan			4
 neošišan			2
 nepametan	11		4
 neparan	143		3
+neparlamentaran			6
 nepisan	15		2
 neplaniran	54		4
 neplodan	34		2
@@ -2270,6 +2272,7 @@ neprovidan	17		4
 neproziran	37		4
 neprozračan			2
 nepročitan			4
+neprskan			2
 nepunoletan			5
 neracionalan			6
 neradan	222		2

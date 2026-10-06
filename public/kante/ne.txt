@@ -1,4 +1,4 @@
-7232
+7188
 Argentine			2
 Atine			2
 Berline			2
@@ -2668,16 +2668,12 @@ nebojšine			2
 neborbene			2
 nebranjene	22		2
 nebrižne			2
-nebrojane			2
 nebrojene	469		3
-nebrojne			2
 nebulozne			2
 necenovne			2
-nedavane			2
 nedavne	2125		3
 nedelatne			2
 nedeljne	545		2
-nedobijene			2
 nedogledne	15		2
 nedohvatne			3
 nedokazane	79		2
@@ -2690,7 +2686,6 @@ nedostižne	235		4
 nedostojne	215		2
 nedostupne	449		2
 nedoterane			2
-nedotučene			2
 nedovoljne	1834		4
 nedovršene	502		2
 nedozvoljene	735		2
@@ -2714,7 +2709,6 @@ neimenovane	298		2
 neinventivne	22		2
 neisceljene			2
 neiscrpne	219		4
-neisitnjene			2
 neiskazane	181		2
 neiskrene	89		3
 neiskusne	222		4
@@ -2730,7 +2724,6 @@ neizlečene	10		2
 neizmenjene	43		2
 neizmerne	242		2
 neizmirene	304		2
-neizrađene			2
 neizrečene	48		2
 neizvesne	601		4
 neizvršene	60		2
@@ -2756,7 +2749,6 @@ nelegalne	1298		4
 nelečene			2
 nelikvidne	55		2
 nelinearne	92		2
-nelične			2
 nelogične	149		2
 nelojalne	489		4
 nemanjine			2
@@ -2775,7 +2767,6 @@ nenadmašne	86		4
 nenajavljene	92		2
 nenaoružane			2
 nenarodne	27		2
-nenaručene			2
 nenarušene	11		2
 nenaseljene	47		3
 nenasilne	335		2
@@ -2807,7 +2798,6 @@ neograđene	11		2
 neokaljane	21		2
 neokrečene			2
 neokrnjene			2
-neokušane			2
 neoljuštene	11		2
 neometane	40		2
 neomeđene			2
@@ -2816,12 +2806,9 @@ neopisane			2
 neoprane			2
 neopravdane	285		3
 neoprezne	72		4
-neoprobane			2
-neoskudne			2
 neosnovane	898		5
 neosporne	207		4
 neostvarene	307		3
-neosuđene			2
 neotkrivene	138		2
 neotporne	26		2
 neotrovne	40		2
@@ -2846,22 +2833,18 @@ nepobitne	214		4
 nepobožne			2
 nepodeljene	104		2
 nepodesne	27		2
-nepodešene			2
 nepodložne			2
 nepodobne	249		4
 nepodržane			2
 nepogodne	50		4
 nepojamne			2
 nepokajane	11		2
-nepokopane			2
 nepokorne	70		2
-nepokošene			2
 nepokretne	856		4
 nepomične	87		4
 nepomućene			2
 nepopularne	588		2
 neporočne	33		2
-neposećene			2
 neposlovne	28		2
 neposlušne	277		4
 neposredne	2561		4
@@ -2875,7 +2858,6 @@ nepovoljne	1230		4
 nepovratne	176		4
 nepovređene	59		2
 nepozvane	34		4
-nepočinjene			2
 nepoštedne	10		2
 nepoštene	154		4
 nepoželjne	542		4
@@ -2895,7 +2877,6 @@ neprijazne			2
 neprikladne	151		2
 neprikosnovene			2
 neprilične	50		2
-neprimenjene			2
 neprimerene	475		3
 neprimetne	193		4
 neprimećene	67		2
@@ -2914,11 +2895,9 @@ nepromišljene	170		3
 nepropusne	38		4
 neprospavane	258		2
 neproverene	347		3
-neprovetrene			2
 neprozirne	73		4
 nepročitane	58		2
 neprskane			2
-nepržene			2
 neptune			2
 nepune	858		2
 nepunoletne			2
@@ -2945,10 +2924,8 @@ nervne	730		2
 nervozne	341		3
 nesaglasne			2
 nesamostalne	29		5
-nesanjane			2
 nesavesne	282		2
 nesavršene	90		3
-nesaznajne			2
 nesačuvane			2
 nesebične	164		4
 neshvaćene	68		3
@@ -2960,7 +2937,6 @@ neskrivene	133		2
 neskromne	10		2
 neslane	87		3
 neslavne	136		3
-neslivene			2
 neslobodne	61		4
 neslovene			2
 nesložene			2
@@ -2970,7 +2946,6 @@ nesmetane	79		2
 nesmislene			2
 nesmišljene			2
 nesmotrene	76		2
-nesnimljene			2
 nesnosne	230		2
 nesolidne	25		2
 nespokojne	15		2
@@ -2989,28 +2964,21 @@ nestane	4838		2
 nestašne	117		2
 nestručne	254		2
 nestvarne	199		3
-nestvorene			2
-nesuverene			2
 nesuđene	55		3
 nesvesne	332		2
 nesvrstane	150		2
 netaktične	10		2
-netarifne			2
 netačne	1332		3
 netelesne			2
 netipične	77		2
 netkane	10		2
 netoksične	34		2
-netražene			2
 netruležne	43		2
 netržišne	37		2
-netvarne			2
 neudobne	149		4
-neudomljene			2
 neuglađene			2
 neugledne	121		4
 neugodne			2
-neuhodane			2
 neukaljane			2
 neukusne	140		4
 neumerene	79		3
@@ -3018,9 +2986,7 @@ neumesne	113		4
 neumitne	78		4
 neumivene			2
 neumorne	89		4
-neuništene			2
 neuobičajene	380		3
-neuočene			2
 neupućene	880		2
 neuralne	161		2
 neuravnotežene	48		3
@@ -3028,7 +2994,6 @@ neuredne	202		4
 neuređene	139		2
 neurone	169		2
 neurotične	130		2
-neuručene			2
 neuslišene			2
 neuslovne	59		2
 neuspešne	741		4
@@ -3041,8 +3006,6 @@ neutralne	1070		4
 neutrine			2
 neutrone	66		2
 neutvrđene	42		2
-neuverene			2
-neuzročne			2
 neuzvraćene	125		2
 neučene			2
 nevaljane			2
@@ -3058,22 +3021,16 @@ nevine	1456		3
 neviđene	680		2
 nevladine	6260		2
 nevoljne	154		2
-nevođene			2
 nezaboravne	793		5
 nezaceljene	11		2
 nezadovoljne	736		5
 nezahvalne	105		4
 nezainteresovane			2
-nezalazne			2
-nezapadne			2
-nezapakovane			2
 nezapamćene	255		2
 nezapažene	59		3
-nezapisane			2
 nezaposlene	2204		3
 nezasićene	284		3
 nezaslužene	120		2
-nezauzdane			2
 nezavidne	108		2
 nezavisne	6815		2
 nezavršene	188		2
@@ -4329,7 +4286,6 @@ prane	47		2
 pranjane			2
 prasetine	127		2
 prasne	51		2
-pravdane	21		3
 pravedne	610		2
 pravilne	1695		3
 pravične	259		2

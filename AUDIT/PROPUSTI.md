@@ -1764,3 +1764,27 @@ Pre nego što postane pravilo, proverava se na bar 10 reči RAZLIČITE dužine i
 ključem rime). I: kad podatak X postoji u nekom slobodnom izvoru, prvo se traži izvor, pa tek onda zamena. Vlasnica je
 pogodila srž („broj slogova i akcenti i završeci jako utiču na rimu") i tražila da se istraži gramatika – to je trebalo
 uraditi 27.07., ne 04.10.
+
+## 06.10.2026 — AGENTI SU 282 MEHANIČKE „NE-" TVORBE PROGLASILI SIGURNIM REČIMA
+
+**Šta se desilo:** u grupi C (osnove bez traga u skenu Matice) agenti su reči kao *nebrijan, nedavan, negrađanin, nedremljiv,
+negrešenje, nefatalan* označili „sigurno" i napisali im objašnjenja. Vlasnica ih je odbila odmah: „kaže se neobrijan",
+„bescarinski", „pa ti si uz sve prideve dodavao samo rečcu NE, pa ne ide srpski jezik tako". Oblici tih reči stoje u
+`reci.txt` od prvog uvoza rečnika (nisu dodati sad), ali je greška bila što ih je provera proglasila pravim rečima umesto
+da ih označi za proveru. Agent koji „zna srpski" prihvatio je svaku tvorbu koja se gramatički može sastaviti.
+
+**Pravilo:** reč nastala samo dodavanjem prefiksa (ne-, polu-, pod-, među-, samo-, opšte-, van-) na postojeću reč **nikad**
+ne dobija „sigurno" bez potvrde u Matici ili u korpusu (učestalost). Takve idu u zasebnu gomilu „tvorbe" sa pretpostavkom
+„nije reč dok vlasnica ne kaže". Gramatički moguće ≠ postoji u jeziku; test za agenta je „da li bi se ovo našlo u Matici",
+ne „može li se napraviti".
+
+## 07.10.2026 — „6 RADNIKA" JE ZNAČILO 4 KOJA RADE I 2 KOJA ČEKAJU: RASPORED JE BIO FIKSAN ZA ČETVORICU
+
+**Šta se desilo:** lanac pušten sa `RADNIKA=6` prijavio je 6 radnika, ali su radnici 5 i 6 završili za 5 s sa po 4 provere –
+raspored sekcija (`RASPORED`) je bio tabela upisana za tačno četiri radnika, pa je promena broja radnika u `lanac.sh` menjala
+samo broj procesa, ne i podelu posla. Prolaz je ipak ispisao „SVE PROŠLO" za tu dvojicu.
+
+**Pravilo:** kad se posao deli na N delova, N mora biti ulaz u podelu, ne pretpostavka upisana u tabelu. Raspored se računa
+iz izmerenog trajanja po sekciji za zadati broj radnika (`TRAJANJE` + raspodela „najduža prva, najmanje opterećenom"). I:
+radnik koji završi za 5 s sa 4 provere je znak greške, ne brzine – lanac bi trebalo da upozori kad je neki radnik ispod,
+recimo, 20 provera.

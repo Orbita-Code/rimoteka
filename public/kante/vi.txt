@@ -1,4 +1,4 @@
-1578
+1576
 Moskvi			2
 Varšavi			2
 adamovi			2
@@ -664,7 +664,6 @@ nastavi	27447		3
 nazdravi	106		2
 nazivi	2521		2
 nazovi	2162		2
-nebranjivi			2
 nebrižljivi			2
 nedeljivi	66		2
 nedićevi			2
@@ -682,7 +681,6 @@ neizmerivi			2
 neizrecivi	38		2
 nekakvi	569		3
 neljubavi			2
-nelukavi			2
 nemilostivi	21		2
 nemrtvi	22		2
 nenadoknadivi	45		2

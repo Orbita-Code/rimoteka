@@ -1,4 +1,4 @@
-8459
+8457
 Albanijama			4
 Amsterdama			3
 Argentinama			2
@@ -522,7 +522,6 @@ bačvama	135		3
 baštama	926		2
 baštinama	36		4
 baštovanstvima			2
-baščama	11		2
 bdenjima	42		2
 bebama	1726		2
 bebastima			2
@@ -2313,7 +2312,6 @@ jalovicama			5
 jama	1647		2
 jamajčanima			2
 jamama	395		3
-jamarima			2
 jamicama	13		4
 janičarima	85		2
 januarima			5

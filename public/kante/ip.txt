@@ -1,4 +1,4 @@
-37
+38
 arhetip	426		2
 biotip			2
 džip	1411		1
@@ -32,6 +32,7 @@ slip			1
 stereotip	970		2
 strip	5333		1
 tip	19782		1
+trip			1
 usip			2
 čip	2945		1
 šip	70		1

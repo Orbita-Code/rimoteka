@@ -1,4 +1,4 @@
-8341
+8337
 Argentina			2
 Atina			2
 Barselona			2
@@ -1964,7 +1964,6 @@ jahorina			2
 jajna	269		2
 jakna	557		2
 jakšina			2
-jalna	10		2
 jalovina	123		2
 jamčevina			3
 jana			2
@@ -5119,7 +5118,6 @@ prašna	10		2
 prebacena			2
 prebačena	1382		2
 prebijena	86		3
-preblažena			2
 prebolna			2
 prebrojana			2
 prebrođena	22		2
@@ -6386,7 +6384,6 @@ slična	12164		2
 sljemena		J	3
 slobina			2
 slobodana			2
-slobodina	10		2
 slobodna	7997		3
 slobodoumna	43		5
 slogana	752		2
@@ -6616,7 +6613,6 @@ stevčina			2
 stečajna	339		3
 stečena	2252		2
 stečevina			3
-stešnjena	51		2
 sticana	67		2
 stidna	49		2
 stihijna	12		2

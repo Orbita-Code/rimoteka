@@ -10,6 +10,17 @@
 - **Search Console (18.09.):** 65.800 primljenih + 7.740 odbijenih; objašnjeno vlasnici (rep `?rec=` linkova iz K2 pre 24.08.). Pratiti „Crawled – not indexed" 1.402 i „Duplicate, Google chose different canonical" 38.
 - **Mejl Draganu:** tačka 2 (muška rima) ispravljena u predlogu (17.09. u razgovoru) — preimenovana je samo rezervna grupa, „Dobre rime" postoje; naglasci NISU rešeni. Draft u Gmail-u vlasnica šalje sama.
 
+## 0d. STANJE 06.10.2026 – 42 SPORNE IZ B PRESUĐENE (vlasnica, 05–06.10.), NEOBJAVLJENO – čeka push
+- 40 od 42 rešeno po njenoj reči (`AUDIT/SJ-5-razvrstano/ODLUKE.md`): obrisano 60+ oblika (numer, mesa, presijati, konfor, staničan, bašča, klaničar,
+  premil, stešnjati, jalan, jamar, blek, preblažen, valiti, predjel, sleđe, planduvati, plačka, kumaš, Ludar, natruh, kozjak, nebošnjak, prevedriti,
+  kopac, Slobodin, crnobeo/crnobeli); dodate osnove kontati, trip, tripovati, seksati, uzrasni; oblici upućeni na pravu osnovu
+  (trune/trunem → trunuti, kunete → kleti, uzrasnim → uzrasni, guave → guava, tamnuje/tamnujući → tamnovati).
+- **Čekaju odluku:** pravdan (oblici pravdano/pravdane/pravdana → „pravdati" ili obrisati), nezadovoljen (nezadovoljena/eni/eno → dodati pridev ili obrisati).
+- Rečnik: 282.120 reči. Ceo lanac podataka pušten (definicije po slovima, akcenat, kante, verzije, strane 1.989).
+- Lokalni lanac 06.10.: 4 radnika 928 + skeneri 0/0 prošli; motori su u lancu pali u Firefoxu na otvaranju kartice (drugi put pod opterećenjem),
+  korak sad ponavlja dodir do 3 puta; motori sami 69/69.
+- SJ-5 grupa C i dalje čeka „da za C sigurne" (fajl `C-sigurne-za-odluku.md` otvoren vlasnici 05.10.).
+
 ## 0c. STANJE 05.10.2026 – RIME PO AKCENTU (odluka vlasnice: da, ugradi akcente), OBJAVLJENO 05.10. 12:30 (`main` = `7f94d9aa38`, `app.js?v=31a579db`); lanac protiv produkcije 4 radnika 911 + motori 69 + skeneri 0/0, 9 min 52 s (`AUDIT/lanac/20261005-123007`); na produkciji: televizor → retrovizor, revizor, prizor
 - **Zašto:** prijava vlasnice 03.10.: „televizor" → najbolje ambasador, ventilator; revizor u „Dobrim". Podela je išla po broju slogova.
 - **Šta je ugrađeno:** `public/akcenat.txt` (+ `_jekavica`), broj po reči = od kog sloga od kraja počinje prava rima; pravi `build/akcenat.py`

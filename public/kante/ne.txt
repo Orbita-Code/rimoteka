@@ -1,4 +1,4 @@
-7236
+7232
 Argentine			2
 Atine			2
 Berline			2
@@ -1572,7 +1572,6 @@ jagorčevine	99		2
 jahorine			2
 jajne	689		2
 jakne	1224		2
-jalne	18		2
 jalovine	865		2
 jamčevine			3
 jane			2
@@ -2003,7 +2002,6 @@ kukuruzne	114		2
 kultne	741		2
 kulturne	17035		2
 kumane			2
-kumašine	15		2
 kumulirane			2
 kundačine			2
 kune	1021		2
@@ -4353,7 +4351,6 @@ prebačene	404		2
 prebegne	87		2
 prebijane	13		2
 prebijene	100		3
-preblažene			2
 precenjene	144		2
 precizne	2558		3
 precrtane	25		2
@@ -5698,7 +5695,6 @@ stesne			2
 stevane			2
 stečajne	179		3
 stečene	1520		2
-stešnjene	19		2
 sticane	25		2
 stidne	218		2
 stigne	12979		2

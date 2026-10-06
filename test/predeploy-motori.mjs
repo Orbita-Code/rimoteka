@@ -62,7 +62,14 @@ try {
       const r1 = await p.evaluate(() => ({ chip: document.querySelectorAll('#rimeResults .chip').length, prvi: (document.querySelector('#rimeResults .chip .word') || {}).textContent, grupe: [...document.querySelectorAll('#rimeResults h2')].map(h => h.textContent), sirina: document.documentElement.scrollWidth }));
       ok(`${ime} · rime za „nada": ${r1.chip} kapsula, grupe ${r1.grupe.join('/')}`, r1.chip > 20 && /Najbolje/.test(r1.grupe[0] || ''), JSON.stringify(r1));
       ok(`${ime} · strana ne preliva vodoravno`, r1.sirina <= 390, `${r1.sirina}`);
-      const cip = p.locator('#rimeResults .chip').nth(1); await cip.scrollIntoViewIfNeeded(); await dodir(p, '#rimeResults .chip:nth-child(2)');
+      const cip = p.locator('#rimeResults .chip').nth(1); await cip.scrollIntoViewIfNeeded();
+      /* Pod opterećenjem (4 radnika + motori) Firefox ponekad ne otvori karticu na prvi dodir – pao 05. i 06.10. u lancu, a sam prolazi.
+         Zato: do 3 dodira, posle svakog se čeka da kartica bude vidljiva (najviše 1,5 s). Kvar sajta bi pao sva tri puta. */
+      for (let pokusaj = 0; pokusaj < 3; pokusaj++) {
+        await dodir(p, '#rimeResults .chip:nth-child(2)');
+        const otvorena = await p.waitForFunction(() => { const t = document.querySelector('.chip-actions'); return !!t && !t.hidden; }, null, { timeout: 1500 }).then(() => true).catch(() => false);
+        if (otvorena) break;
+      }
       await pauza(400);
       const t1 = await p.evaluate(() => { const t = document.querySelector('.chip-actions'); const r = t ? t.getBoundingClientRect() : null; return { traka: !!t && !t.hidden, dugmadi: t ? t.querySelectorAll('.ca-btn').length : 0, uEkranu: r ? r.left >= 0 && r.right <= 390 : false }; });
       ok(`${ime} · dodir na reč otvara traku sa 5 radnji, u ekranu`, t1.traka && t1.dugmadi === 5 && t1.uEkranu, JSON.stringify(t1));

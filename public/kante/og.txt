@@ -1,4 +1,4 @@
-5864
+5861
 abecednog	15		4
 abnormalnog	71		4
 abrazivnog			4
@@ -1395,7 +1395,6 @@ jagodastog	78		2
 jajolikog	22		2
 jakog	3723		2
 jakšićevog			2
-jalnog			2
 jalovog	111		3
 jamskog	37		2
 janjićevog			2
@@ -3643,7 +3642,6 @@ prelog			2
 prelomljenog			2
 prelomnog			2
 premijerovog	99		2
-premilog	13		2
 preminulog	1184		2
 premnogog			2
 premorenog			2
@@ -4587,7 +4585,6 @@ stamenog	51		2
 stanarskog	375		2
 standardizovanog			2
 standardnog	2440		2
-staničnog	37		2
 stanovitog	25		2
 staračkog	138		3
 starinskog	147		2

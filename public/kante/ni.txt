@@ -1,4 +1,4 @@
-7556
+7554
 Argentini			2
 Atini			2
 Berlini			2
@@ -1687,7 +1687,6 @@ jagodični			4
 jahorini			2
 jajni			2
 jakni	558		2
-jalni			2
 jamajčani			2
 jamčevini			3
 jani			2
@@ -2118,7 +2117,6 @@ kukuruzovini			2
 kultni	1255		2
 kulturni	13912		2
 kumani			2
-kumašini			2
 kumulirani	34		2
 kupani			2
 kupini	65		2
@@ -4577,7 +4575,6 @@ prebaceni			3
 prebačeni	1178		2
 prebijani	87		2
 prebijeni	97		3
-preblaženi	33		3
 prebrisani			2
 prebrojani	81		2
 prebukirani	84		2
@@ -6787,6 +6784,7 @@ uzmakni			2
 uznemireni	707		2
 uzneseni	17		3
 uzorni	276		2
+uzrasni			3
 uzrokovani	298		4
 uzročni	69		2
 uzrujani	54		2

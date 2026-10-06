@@ -1,4 +1,4 @@
-2944
+2942
 Bugarsku	470		3
 Dansku	90		2
 Francusku	1374		2
@@ -982,7 +982,6 @@ koviljku			2
 kozaku			2
 kozaračku	13		3
 kozarsku			2
-kozjaku	12		3
 kozmetiku	751		2
 kozmetičarku	17		2
 kozmetičku	127		2
@@ -1653,7 +1652,6 @@ plansku	251		2
 plastiku	1212		2
 platonsku	27		2
 plaćeničku	14		2
-plačku			2
 plemensku	75		3
 plemićku	85		2
 plećku	70		2

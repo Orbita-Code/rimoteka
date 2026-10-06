@@ -1,4 +1,4 @@
-1479
+1475
 Veneri			2
 absorberi			2
 adapteri			2
@@ -384,7 +384,6 @@ izviri	77		2
 izvori	11538		2
 iščauri			2
 jaguari	24		4
-jamari	12		2
 janičari	248		2
 janjičari	136		3
 januari			4
@@ -440,7 +439,6 @@ kinđuri			2
 kiri		M	2
 kladioničari	93		2
 klakeri			2
-klaničari	103		2
 klari			2
 klasteri	316		2
 klatari			2
@@ -583,7 +581,6 @@ lokatori	27		2
 lončari	16		2
 lopari			2
 lori	62		2
-ludari	25		2
 lugari			2
 lusteri	138		2
 lutkari	46		3
@@ -931,7 +928,6 @@ preturi	64		2
 pretvori	5409		2
 preusmeri	522		2
 prevari	2688		3
-prevedri	10		2
 preziri	18		3
 prezri	71		2
 preživari	32		2

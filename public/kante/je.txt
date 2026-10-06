@@ -1,4 +1,4 @@
-8832
+8830
 Albanije			3
 Australije			3
 Austrije			2
@@ -5416,7 +5416,6 @@ preseljavanje	119		2
 preseljenje		M	2
 presezanje			2
 presečenje			2
-presije	107		2
 presipanje	250		2
 preskakanje	581		2
 preskakuje			2
@@ -7889,7 +7888,6 @@ vajkanje			2
 vakcinacije	1294		2
 vakcinisanje	308		2
 valensije			2
-valije	39		2
 valjanije	17		2
 valjanje	267		2
 valorizuje	160		2

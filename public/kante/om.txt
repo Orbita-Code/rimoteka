@@ -1,4 +1,4 @@
-12949
+12943
 Albanijom			3
 Amsterdamom			3
 Angolom			2
@@ -4141,7 +4141,6 @@ konfekcionom			2
 konferencijom	558		2
 konferencijskom	119		2
 konfliktom	170		2
-konforom	30		3
 kongom			2
 kongresmenom	27		3
 kongresnom	428		2
@@ -6392,7 +6391,6 @@ nuklearkom	34		2
 nuklearnom	919		4
 nulom	367		2
 nultom	347		2
-numerom	228		3
 nušićevom			2
 nuždom	54		2
 nužnikom			3
@@ -8106,7 +8104,6 @@ predikatom	63		2
 predistorijom	22		2
 predivnom	916		3
 predićevom			2
-predjelom	39	J	2
 predlogom	5963		2
 predloženom	1028		2
 predložom			2
@@ -8177,7 +8174,6 @@ premetom			2
 premijerom	3431		2
 premijerovom	19		2
 premijom	125		2
-premilom			2
 preminulom	377		2
 premisom	63		2
 premnogom			2
@@ -10114,7 +10110,6 @@ stanarom	25		2
 standardnom	1643		2
 standardom	2192		2
 stanicom	785		2
-staničnom	30		2
 stankom	204		2
 stanom	475		2
 stanovništvom	3598		2
@@ -10169,7 +10164,6 @@ stevom			2
 steznikom	12		2
 stečajnom	647		3
 stečenom	157		2
-stešnjenom			3
 sticanom			2
 stidom	231		2
 stigom			2

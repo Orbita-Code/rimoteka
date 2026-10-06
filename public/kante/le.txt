@@ -1,4 +1,4 @@
-3387
+3386
 Angole			2
 Brazile			2
 Brisele			2
@@ -1863,7 +1863,6 @@ premale	162		2
 premašile	186		3
 premestile	37		2
 premeštale			2
-premile			2
 preminule	606		2
 premostile	28		2
 prenagle	11		2

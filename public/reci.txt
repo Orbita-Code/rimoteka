@@ -9643,13 +9643,10 @@ baštovanstvu
 baštovanu
 baštu
 bašu
-baščama
 baščaršije
 baščaršiji
 bašče
-bašči
 baščicu
-bašču
 baždar
 baždaren
 baždarena
@@ -13683,7 +13680,6 @@ blejimo
 blejite
 blejiš
 blejzer
-bleka
 blekdžek
 blenda
 blende
@@ -21060,8 +21056,6 @@ crno
 crnobarci
 crnobarske
 crnobarski
-crnobelih
-crnobelo
 crnoberzijanac
 crnoberzijanska
 crnobog
@@ -65344,14 +65338,6 @@ jala
 jalapeno
 jalija
 jaliju
-jalna
-jalne
-jalni
-jalnih
-jalno
-jalnog
-jalnoj
-jalnu
 jalov
 jalova
 jalovac
@@ -65389,10 +65375,6 @@ jamajčanima
 jamajčanin
 jamajčanski
 jamama
-jamara
-jamare
-jamari
-jamarima
 jamača
 jamačno
 jamb
@@ -73152,7 +73134,6 @@ klanice
 klanici
 klanicom
 klanicu
-klaničari
 klanička
 klanički
 klanična
@@ -77191,14 +77172,12 @@ konfliktno
 konfliktnu
 konfliktom
 konfliktu
-konfora
 konformist
 konformista
 konformistički
 konformizam
 konformizma
 konformizmu
-konforom
 konfrontacija
 konfrontacije
 konfrontaciju
@@ -77782,6 +77761,7 @@ kontaminirati
 kontamo
 kontao
 kontate
+kontati
 kontaš
 konte
 kontejner
@@ -78353,7 +78333,6 @@ kopačkom
 kopaču
 kopaš
 kopaše
-kopci
 kope
 kopejka
 kopejke
@@ -80000,7 +79979,6 @@ kozić
 kozića
 kozja
 kozjaka
-kozjaku
 kozje
 kozjeg
 kozjem
@@ -83966,9 +83944,6 @@ kumanovom
 kumanovska
 kumanovski
 kumanovu
-kumašin
-kumašine
-kumašini
 kumboru
 kume
 kumi
@@ -90652,7 +90627,6 @@ ludaku
 ludama
 ludara
 ludare
-ludari
 ludaru
 ludača
 ludače
@@ -96028,7 +96002,6 @@ mesarskim
 mesarskom
 mesarstvo
 mesaru
-mese
 mesec
 meseca
 mesece
@@ -111997,8 +111970,6 @@ natrpaše
 natrti
 natrtiš
 natruha
-natruhe
-natruhu
 natrula
 natrule
 natruli
@@ -113463,7 +113434,6 @@ neborbeno
 neborbenoj
 neborbenost
 neborbenu
-nebošnjaka
 nebožje
 nebran
 nebranjen
@@ -122850,7 +122820,6 @@ numeričkoj
 numeričku
 numerologija
 numerologiji
-numerom
 numeru
 numizmatik
 numizmatika
@@ -149426,8 +149395,6 @@ plandovale
 plandovanje
 plandovati
 plandovaše
-plandujete
-planduju
 plane
 planem
 planer
@@ -150004,9 +149971,7 @@ plači
 plačidrug
 plačimo
 plačite
-plačke
 plačko
-plačku
 plačljiv
 plačljiva
 plačljivac
@@ -168052,11 +168017,6 @@ preblagoga
 preblagom
 preblagome
 preblagu
-preblažena
-preblažene
-preblaženi
-preblaženo
-preblaženu
 preblede
 prebledela
 prebledeli
@@ -168555,7 +168515,6 @@ predićevom
 prediću
 predjela
 predjelo
-predjelom
 predlaga
 predlagahu
 predlagala
@@ -170918,12 +170877,6 @@ premijeru
 premijom
 premiju
 premijum
-premila
-premile
-premili
-premilog
-premilom
-premilome
 premine
 preminu
 preminula
@@ -172659,9 +172612,7 @@ presijava
 presijavanja
 presijavao
 presijavati
-presije
 presijom
-presiju
 presilna
 presing
 presingom
@@ -174415,8 +174366,6 @@ prevedimo
 prevedite
 prevedosmo
 prevedoše
-prevedre
-prevedri
 prevedroj
 prevedu
 prevejan
@@ -205545,6 +205494,7 @@ sekretom
 seks
 seksa
 seksaju
+seksati
 seksepil
 seksepila
 seksi
@@ -211334,7 +211284,6 @@ slećete
 slećeš
 sleći
 sleću
-sleđa
 sleđen
 sleđena
 sleđene
@@ -211653,7 +211602,6 @@ slobodaru
 slobode
 slobodi
 slobodica
-slobodina
 slobodištu
 slobodna
 slobodne
@@ -218487,11 +218435,7 @@ staničić
 stanična
 stanične
 stanični
-staničnih
-stanično
-staničnog
 staničnoj
-staničnom
 staničnu
 staniša
 staniše
@@ -219631,12 +219575,7 @@ stešnjavaju
 stešnjavan
 stešnjavati
 stešnjen
-stešnjena
-stešnjene
 stešnjeni
-stešnjeno
-stešnjenoj
-stešnjenom
 stešnjenost
 stešnjuj
 stešnjujući
@@ -232570,6 +232509,7 @@ trio
 triod
 triola
 triom
+trip
 triper
 triperu
 tripice
@@ -232584,6 +232524,7 @@ tripod
 tripoli
 tripolitanija
 tripovao
+tripovati
 tripove
 tripović
 triptih
@@ -248089,6 +248030,7 @@ uzrasla
 uzrasle
 uzrasli
 uzraslo
+uzrasni
 uzrasnim
 uzrasnu
 uzrast
@@ -249681,10 +249623,8 @@ validnost
 validnosti
 validnu
 valija
-valije
 valijum
 valijuma
-valio
 valić
 valja
 valjahu

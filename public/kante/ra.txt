@@ -1,4 +1,4 @@
-2688
+2686
 Jupitera			3
 Kaira			2
 Venera			2
@@ -816,7 +816,6 @@ išara	12		2
 jabučara			2
 jadra			2
 jaguara	146		4
-jamara	37		2
 janičara	229		2
 janjičara	132		3
 januara	40338		4
@@ -1011,7 +1010,6 @@ kondira			2
 konditora	118		2
 kondora	53		2
 konduktera	208		2
-konfora	128		2
 konjara			2
 konjunktura	39		2
 konjušara	65		2

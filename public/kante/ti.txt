@@ -1,4 +1,4 @@
-12582
+12585
 Budimpešti			3
 Bukurešti			4
 Cveti			2
@@ -2808,6 +2808,7 @@ konsumirati			2
 kontakti	2956		2
 kontaktirati	1807		2
 kontaminirati	43		2
+kontati			2
 konteksti	75		2
 kontinenti	182		2
 kontingenti	55		2
@@ -8942,6 +8943,7 @@ sekirati	97		2
 seknuti		M	2
 sekretarijati	173		2
 sekreti	21		2
+seksati			2
 seksisti	10		2
 seksualnosti	1680		2
 sekti	937		2
@@ -9927,6 +9929,7 @@ trideseti	156		2
 trijumfovati	154		4
 trilobiti	15		2
 trinaesti	408		2
+tripovati			2
 trivijalnosti	183		2
 trkati	62		2
 trknuti	13		2

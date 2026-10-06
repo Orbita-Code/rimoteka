@@ -1,4 +1,4 @@
-6974
+6972
 Albaniju			3
 Australiju			3
 Austriju			2
@@ -3531,7 +3531,6 @@ pladnju	42		2
 plakanju	47		3
 plameniju			4
 plamsaju			2
-planduju	30		3
 planinarenju	130		2
 planiraju	7887		2
 planiranju	4555		2
@@ -4170,7 +4169,6 @@ presavijaju			2
 presecaju	353		2
 presecanju	79		2
 preseljenju			2
-presiju	92		2
 presipaju	64		2
 preskakanju	90		2
 preskakuju			2

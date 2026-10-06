@@ -1,4 +1,4 @@
-1428
+1426
 Venere			2
 abažure			2
 adaptere			2
@@ -360,7 +360,6 @@ izvire	1638		2
 izvitopere	17		2
 izvore	7452		2
 jaguare	14		4
-jamare			2
 janičare	153		2
 janjičare	60		3
 jare	534		2
@@ -904,7 +903,6 @@ preture	13		2
 pretvore	2250		2
 preusmere	296		2
 prevare	5637		3
-prevedre			2
 previre	22		2
 prevre			2
 prezire	724		3

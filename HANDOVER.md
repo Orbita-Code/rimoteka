@@ -21,7 +21,11 @@
 5. **PF-6** logo lossless WebP (38 KB, piksel-identičan); **SEO-3** www u jednom skoku (Traefik fajl na serveru preko SSH – `/data/coolify/proxy/dynamic/rimoteka-301.yaml`); **A-3** zatvoren odlukom.
 6. **Pun audit 07.10.** (13 revizora + 28 adversarijalnih): 7,8/10.
 
-## 2a. STANJE 07.10.2026 POPODNE – SVA 4 VISOKA NALAZA REŠENA (neobjavljeno, čeka „da" za push)
+## 2a. STANJE 07.10.2026 POPODNE – SVA 4 VISOKA NALAZA REŠENA (commit `fdbb9d5ebc` na grani, neobjavljeno, čeka „da" za push)
+
+Pun lanac lokalno: **1.010/1.010 provera, motori 69, skeneri 0/0, 8 min 31 s** (`AUDIT/lanac/20261007-140736`). Tri prolaza
+pre toga pala su na ISTECIMA VREMENA pri opterećenju računara 40–50 (Xcode je bio otvoren i njegova kontrola verzija je
+neprestano skenirala ovaj repo zbog 2.223 izmenjena fajla; svaki pali radnik sam je prolazio) – nije nalaz, v. PROPUSTI 25.09.
 
 | Nalaz | Šta je urađeno | Gde |
 |---|---|---|

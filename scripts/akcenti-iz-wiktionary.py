@@ -28,11 +28,13 @@ def naglasen_slog_od_kraja(akc):
         c = d[i]; j = i + 1; marks = set()
         while j < len(d) and unicodedata.combining(d[j]): marks.add(d[j]); j += 1
         if c in VOK or (c == 'r' and marks & (STRESS | {'̄'})):
-            slogovi.append('uzlazni' if marks & {'\u0300', '\u0301'} else ('silazni' if marks & {'\u030f', '\u0311'} else ''))
+            slogovi.append(('uzlazni' if marks & {'\u0300', '\u0301'} else ('silazni' if marks & {'\u030f', '\u0311'} else '')) + ('+dug' if '\u0304' in marks else ''))
         i = j
-    if not slogovi or not any(slogovi): return None
-    n = len(slogovi); poz = max(k for k, s in enumerate(slogovi) if s)
-    return n, n - poz, slogovi[poz]
+    if not slogovi or not any(s.replace('+dug', '') for s in slogovi): return None
+    n = len(slogovi); poz = max(k for k, s in enumerate(slogovi) if s.replace('+dug', ''))
+    tip = slogovi[poz].replace('+dug', '')
+    iza_dug = poz + 1 < n and slogovi[poz + 1].endswith('+dug')
+    return n, n - poz, tip, iza_dug
 akc = {}; pos_count = collections.Counter(); bez = 0; ukupno = 0
 with open(SRC, encoding='utf-8') as f:
     for line in f:
@@ -43,11 +45,11 @@ with open(SRC, encoding='utf-8') as f:
         if not kan: bez += 1; continue
         r = naglasen_slog_od_kraja(kan)
         if not r: bez += 1; continue
-        n, od_kraja, tip = r
+        n, od_kraja, tip, iza_dug = r
         key = w.lower()
-        if key not in akc: akc[key] = {'akc': kan, 'slogova': n, 'od_kraja': od_kraja, 'tip': tip, 'pos': e.get('pos')}
+        if key not in akc: akc[key] = {'akc': kan, 'slogova': n, 'od_kraja': od_kraja, 'tip': tip, 'iza_dug': iza_dug, 'pos': e.get('pos')}
         pos_count[e.get('pos')] += 1
-json.dump(akc, open(os.path.join(IZ, 'akcenti-osnove.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+json.dump(akc, open(os.path.join(K, 'build', 'akcenti-osnove.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
 # most: srLex oblik → osnova
 reci = [l for l in open(os.path.join(K, 'public/reci.txt'), encoding='utf-8').read().split('\n') if l]
 R = set(reci); lema = {}

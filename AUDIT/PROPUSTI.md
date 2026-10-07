@@ -1788,3 +1788,16 @@ samo broj procesa, ne i podelu posla. Prolaz je ipak ispisao „SVE PROŠLO" za 
 iz izmerenog trajanja po sekciji za zadati broj radnika (`TRAJANJE` + raspodela „najduža prva, najmanje opterećenom"). I:
 radnik koji završi za 5 s sa 4 provere je znak greške, ne brzine – lanac bi trebalo da upozori kad je neki radnik ispod,
 recimo, 20 provera.
+
+## 07.10.2026 — PRAVILO PO AKCENTU PROVERENO NA 10 REČI KOJE SU MU IŠLE NARUKU; AUDIT NAŠAO DVA VISOKA NALAZA ZA DVA DANA
+
+**Šta se desilo:** 05.10. je uvedeno pravilo „kod uzlaznog akcenta rima počinje od sloga iza naglašenog" i proverena na 10 reči
+(televizor, rima, sloboda, nada, ljubav, motor, direktor, sunce, pesma, voda). Sve su to reči na kojima pravilo RADI. Audit 07.10.
+je uzeo 20 NASUMIČNIH reči i našao da pravilo greši za native reči sa 3+ sloga (kaniti → goniti ispred raniti; unuka → bazuka ispred
+jabuke): pomak važi samo kad je slog iza akcenta DUG (loanwords: tèlevīzor), ne uopšte. Druga greška: rezerva (akcenat na istom
+slogu) nije gledala završetak, pa je slobodan dobio bezvredan kao „najbolju rimu". Isti propust kao 27.07. (PROPUSTI 03–05.10.):
+pravilo potvrđeno na primerima koji su ga i rodili.
+
+**Pravilo:** svako novo jezičko pravilo se pre objave proverava na **20 nasumičnih reči iz rečnika** (seme, ne izbor), od kojih bar
+pola ima 3+ sloga, i uz tabelu „reč → akcenat → ko je u Najboljima → presuda govornika". Reči kojima je pravilo pravljeno NE ulaze
+u tu proveru. To ide u `scripts/akcenti-simulacija.py` kao `--nasumicno 20`.

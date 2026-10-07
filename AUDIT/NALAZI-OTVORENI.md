@@ -46,7 +46,21 @@
 | **PR-2b** | Enter na reči na 600 px – NIJE reprodukovano 22.09. (kartica ostaje, fokus na reči) – zatvoreno kao lažni trag | ručno |
 | **BZ-2 / BZ-3 / B-3 / B-1** (sanduče, `worker/prijave.js`) | ključ za pregled poređen `!==` (merljivo vreme) → `istiKljuc()` (`crypto.subtle.timingSafeEqual` posle provere dužine) na sva tri mesta; `/proba-mejla` odavao dužine SMTP korisnika i lozinke → samo `postavljeno: {korisnik, lozinka}` true/false; `GET /prijave` bez limita na pogrešan ključ → brojač `kljuc-greske:<ip>` u KV (TTL 600 s), 10 pogrešnih u 10 min → 429 + `Retry-After: 600`; sanduče bez plafona i dedup-a → `plafon:<YYYY-MM-DD-HH>` (TTL 3600 s, preko 60/sat → 429 + `Retry-After`, ne čuva se, mejl ne ide) i `dup:<otisak(reč|razlog|ko)>` (TTL 600 s → `{ok:true,duplikat:true}` bez čuvanja i mejla); `proba:true` i dalje ne čuva i ne broji. `wrangler.toml` dobio `account_id` (wrangler je video dva naloga i odbijao deploy). Objavljeno `wrangler deploy` 22.09., verzija `73b53eff` | uživo 22.09.: proba → `{ok,proba}` ×2; tuđi Origin 403; pravi ključ 200 + JSON; pogrešan ključ ×11 → 403×10 pa 429 `Retry-After: 600`; `/proba-mejla` bez ključa 403, sa ključem `{ok:true}` (mejl poslat); dedup proveren lokalno (`wrangler dev`: druga ista prijava → `duplikat:true`); plafon 60/sat NIJE probijen uživo (tražilo bi prave prijave) – ista logika kao `limitProbijen`. Sekcija 46 i dalje pokriva slanje; provera 429/dedup u testu NE postoji (tražila bi prave prijave u sanduče) |
 
-## STANJE NA DAN 22.09.2026 — pun audit (`AUDIT/2026-09-22-audit.md`, ocena 6,9/10, 12/12 dimenzija)
+## STANJE NA DAN 07.10.2026 — pun audit (`AUDIT/2026-10-07-audit.md`, ocena 7,8/10, 13/13 dimenzija, 28/28 adversarijalnih)
+
+> Jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u „POPRAVLJENO <datum>".
+
+**KRITIČNO:** (nema)
+
+**VISOKO (4):** AK-1 (ključ rime kod uzlaznog akcenta seče naglašeni slog: kaniti → goniti umesto raniti; popravka: pomak samo kad je slog iza dug) · AK-2 (rezerva ne gleda završetak: slobodan → bezvredan) · PR-1 (kartica nad reči nedostupna tastaturom na 1.990 statičkih strana; `app.js:1011` traži `.word`) · TP-1 (produkcijski test preskače 2.012 strana i logo – sekcija 50 samo lokalno)
+
+**SREDNJE (17):** G-1 (pad rečnika: upis pregazi poruku, dugme ugašeno) · SJ-1 (JSON-LD FAQ ≠ vidljive Najbolje, 348 strana) · TP-2 (nema pravog klika na dugme na 390 px) · KL-1 (dečji režim ne filtrira Pretragu) · UI-1 (prebaci u brojač bez adrese) · SEO-1 (`?rec=` bez strane: dva kanonikala) · SEO-2 (lastmod reset zbog logotipa) · PR-3 (deftip bez aria-live) · PR-4 (`.syl` bez aria-hidden) · PF-1 (frekvencija 957 → 325 KB) · PF-2 (brotli) · K-1 (duga reč razvlači telefon) · K-2 (crvena poruka igre 3,87:1) · MB-1 (hub na 320: lepljivi blok 34 %, azbuka 26 px) · AK-3 (podrazumevani akcenat ~1/3 pogrešan) · AK-4 (gen_pages ne filtrira jekavski.json) · TP-6 (sekcija 39: 20 kratkih reči)
+
+**NISKO (24):** G-2, G-3, G-4, KL-2, UI-2, UI-3, UI-4, C-1, C-2, SEO-3, SEO-4, SEO-5, PR-2, PR-5, PR-6, PF-3, PF-4, MB-2, MB-3, MB-4, BZ-1, BZ-2, BZ-3, BZ-4, SJ-4, SJ-5, SJ-6, TP-4, TP-5, TP-7–10, AK-6, AK-7 – opisi u izveštaju.
+
+**SPORNO / ODLUKA VLASNICE:** SJ-3 hrvatske reči u rečniku (također, točno, vlak, kruh… na 42 strane) · SJ-2 601 definicija > 80 % slična Matici · AK-7 Vukov akcenat vs. savremeni · grupa C ostatak · „ćelave" i kratke reči (odluka od 22.09.).
+
+## STANJE NA DAN 22.09.2026 — pun audit (zadržano za istoriju; važeće stanje je iznad)
 
 > Ovo je jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u odeljak
 > „POPRAVLJENO <datum>" (šta je bilo → šta je sada → koja provera to čuva). Podsetnik na početku sesije

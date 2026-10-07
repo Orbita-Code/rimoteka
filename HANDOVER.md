@@ -1,3 +1,74 @@
+# HANDOFF 07.10.2026 – ČITATI PRVO (sesija 22.09.–07.10.2026, vlasnica tražila nov početak)
+
+## 1. Gde smo: stanje repoa i produkcije
+
+| Šta | Stanje |
+|---|---|
+| grana | `fix/audit-0709-drugi-krug` (sve se radi na njoj, `main` se ff-uje posle odobrenja) |
+| `main` / produkcija | `3e091e2139` (07.10. ~01:53), `app.js?v=6a9bcbdb`, lanac protiv produkcije 989/989 + 69 + 0/0 |
+| lokalni commiti NEPUŠTENI | `1212431bf2` (izveštaj audita 07.10. + NALAZI + PROPUSTI + `build/akcenti-osnove.json` sa `iza_dug`) i ovaj handoff. **Push tek uz „da" vlasnice** (pravilo: jedno odobrenje = jedan push) |
+| necommitovano | samo `AUDIT/analiza/*skener*` (izlazi skenera) i scratchpad – ništa bitno |
+| rečnik | 281.726 reči (`reci.txt`), 5.358 ijekavica, 289.587 objašnjenja, 380 kanti, 1.989 strana, sitemap 2.012 |
+| test | `bash test/lanac.sh` = 6 radnika + motori + 2 skenera, **5 min 41 s lokalno / ~8 min produkcija**; `RADNIKA=1` vraća jedan proces |
+| audit | `AUDIT/2026-10-07-audit.md`, ocena **7,8/10**, 4 visoka otvorena (v. tačku 3) |
+
+## 2. Šta je urađeno u ovoj sesiji (hronološki, sve objavljeno osim audita i handoffa)
+
+1. **Lanac testova otporan na kante** (22.–25.09.): `cekajMirneRime(p)` pre hvatanja kapsula; lanci se puštaju JEDAN za drugim.
+2. **SJ-5 rečnik** (01.–07.10.): 6.067 osnova „Oblik reči X" bez X razvrstano po Matici (A 1.101 / B 1.434 / C 3.532, `scripts/sj5-razvrstaj-matica.py`); 52 agenta napisala objašnjenja; vlasnica odobrila A i B sigurne → **uneto 2.405 osnova**, hrvatske obrisane, ijekavske u `reci_jekavica.txt`; 42 sporne iz B presuđene reč po reč (`AUDIT/SJ-5-razvrstano/ODLUKE.md`); grupa C: 270 „ne-" tvorbi obrisano, 14 vraćeno na njenu reč, dekanica/golublji/golokož/gološijan/neoklasika odbijeni. **Ostatak C čeka nju** (740 sa tragom u Matici, 276 imena, ~1.670 bez traga – `C-nema-u-matici.md`, `C-sigurne-za-odluku.md`).
+3. **Test u N radnika** (TP-11): `DEO`/`DELOVA`, raspored po izmerenom trajanju (`TRAJANJE` u `predeploy.mjs`), podrazumevano 6; skener ćirilice 10 paralelno; čuvari u `lanac.sh` (zbir ≥ 900/870, radnik ≥ 20 provera). 16–23 min → 5 min 41 s.
+4. **Rime po akcentu** (05.10., odluka vlasnice posle prijave „televizor → ambasador"): `build/akcenat.py` → `public/akcenat.txt` (+ `_jekavica`) iz Wiktionary-ja (28.934 osnove, `build/akcenti-osnove.json`, CC BY-SA) + srLex most + pravila; `app.js` `AKC/AKCMAP/AKCN/akcKey`, podela Najbolje/Dobre po akcenatskoj jedinici + rezerva + ukupno 180; kante 4. kolona; `gen_pages.py` 1:1; tekstovi na sajtu prepisani; GRAMATIKA 7a, CLAUDE 6.2a/6.2b/9f.
+5. **PF-6** logo lossless WebP (38 KB, piksel-identičan); **SEO-3** www u jednom skoku (Traefik fajl na serveru preko SSH – `/data/coolify/proxy/dynamic/rimoteka-301.yaml`); **A-3** zatvoren odlukom.
+6. **Pun audit 07.10.** (13 revizora + 28 adversarijalnih): 7,8/10.
+
+## 3. ŠTA JE OSTALO – PRVO OVO, redom (vlasnica 07.10.: „reši sve visoke nalaze odmah" – NIJE urađeno, prekinuto za handoff)
+
+| # | Nalaz | Gde tačno | Popravka (gotov recept) |
+|---|---|---|---|
+| 1 | **AK-1** pravilo akcenta seče naglašeni slog (kaniti → goniti umesto raniti; unuka → bazuka) | `build/akcenat.py:63` (`start = op + 1 if (tip == 'uzlazni' and ns - op >= 2) else op`) | pomak SAMO kad je slog iza akcenta DUG: dodati `and iza_dug`; `iza_dug` već postoji u `build/akcenti-osnove.json` (tèlevīzor → True, kániti → False); preneti ga kroz granu `lema` i kroz prediktor po završetku (linija 44: u torku `(op, v['tip'], v['iza_dug'])`). Pa `python3 build/akcenat.py && python3 build/kante.py && node scripts/osvezi-verzije-podataka.mjs && python3 build/gen_pages.py`. Očekivano: televizor → revizor i dalje (dug ī), kaniti → raniti, unuka → praunuka/jabuka (preko rezerve), direktor → korektor preko rezerve |
+| 2 | **AK-2** rezerva ne gleda završetak (slobodan → bezvredan, domaćin → kornjačin) | `public/app.js:1527–1530` i `build/gen_pages.py:1082–1084` | uz `AKCN === nQ && countSyl ===` dodati `rimovanihSlogova(q, w) >= 2` (broj samoglasnika u zajedničkom završetku: `commonSuffix` + `vowelPositions`); isto u Python-u (`common_suffix` + `vowel_positions`). Test 2b: `slobodan` → prirodan DA, bezvredan NE; `kaniti` → raniti DA, goniti NE |
+| 3 | **PR-1** kartica nad reči nedostupna tastaturom na 1.990 statičkih strana | `public/app.js:1011` (`naReci` traži `.word`), `:996`, `:1039` (aria-expanded na span), `zatvoriCipTraku` (fokus na `.word`), `:5968` (Escape iz prijave), `gen_pages.py:449–453` (chip šablon) | helper `nosilacFokusa(cip)` = `.word` sa tabindex ako postoji, inače sam `cip` (button/a); `naReci = cipTrakaZa && (t === cipTrakaZa || cipTrakaZa.contains(t))`; aria-expanded/aria-haspopup na nosilac; u gen_pages na `<button class="chip chip-btn">` dodati `aria-haspopup="true" aria-expanded="false"`. Test: na `/rime-za/ljubav/` fokus na prvi `button.chip` → kartica; Tab → `document.activeElement` u `.chip-actions`; Escape → fokus na chip |
+| 4 | **TP-1** produkcijski test preskače 2.012 strana i logo | `test/predeploy.mjs:5894–5898` (grana `else` sekcije 50) | 100 nasumičnih strana sa `fetch`: 200, tačno jedan h1, kanonikal = adresa, JSON-LD parse, ≥ 8 `class="chip`, ista `app.js?v=` kao produkcijska početna, sadrži `logo-icon.webp` i NE sadrži `logo-icon.png`; plus `fetch('/logo-icon.webp')` 200 + `image/webp` + < 70 KB; u pregledaču `document.querySelector('.logo-r').naturalWidth > 0` |
+| 5 | 17 srednjih (G-1, SJ-1, TP-2, KL-1, UI-1, SEO-1, SEO-2, PR-3, PR-4, PF-1, PF-2 (nginx → zaseban deploy), K-1, K-2, MB-1, AK-3, AK-4, TP-6) | `AUDIT/2026-10-07-audit.md`, tabela SREDNJE | svaki red ima mesto, meru i popravku |
+| 6 | **Pre objave rima po akcentu (1+2): 20 NASUMIČNIH reči** vlasnici na pregled (novo pravilo, PROPUSTI 07.10.) | `scripts/akcenti-simulacija.py` (ažurirati na novo pravilo – pomak samo uz dug slog; dodati `--nasumicno 20`) | tabela reč → akcenat → Najbolje → presuda |
+| 7 | push: tražiti „da" (lokalni commiti + sve što dođe) | | posle objave `BASE=https://rimoteka.com bash test/lanac.sh` |
+
+**Odluke vlasnice koje čekaju:** grupa C ostatak („baviću se rečima kasnije"); SJ-3 hrvatske reči koje su već u rečniku (također, točno, vlak, kruh… na 42 strane) – isti prolaz kao za B kad kaže; SJ-2 601 definicija > 80 % slična Matici (preformulisati); AK-7 Vukov akcenat vs. savremeni; „ćelave" i kratke reči (mlje, žnje) iz audita 22.09.
+
+## 4. GREŠKE OVE SESIJE – da ih sledeća ne ponovi (puni zapisi u `AUDIT/PROPUSTI.md`, 22.09.–07.10.)
+
+1. **Pravilo po akcentu provereno na 10 reči koje su mu išle naruku** → audit našao 2 visoka za dva dana. Pravilo: 20 nasumičnih reči, pola sa 3+ sloga, bez reči kojima je pravilo pravljeno.
+2. **„Isti broj slogova" bio je zamena za akcenat bez provere na dugim rečima** (27.07.–05.10.). Kad podatak postoji u slobodnom izvoru, prvo izvor, pa zamena.
+3. **Agenti su 282 mehaničke „ne-" tvorbe proglasili „sigurnim" rečima** – vlasnica: „pa ti si uz sve prideve dodavao samo rečcu NE". Oznaka „sigurno" iz agenta NIJE dokaz; prefiksne tvorbe nikad „sigurno" bez Matice/korpusa.
+4. **Dva puna lanca istovremeno** → opterećenje 57, lažni isteci vremena. Lanci jedan za drugim; `Timeout` na više alata odjednom nije nalaz nego računar.
+5. **`lanac.sh` menjan dok je radio** → `syntax error near else`. Skripta koja se izvršava se ne menja.
+6. **Raspored za 4 radnika upisan fiksno** → `RADNIKA=6` dao 2 radnika bez posla. Broj radnika je ulaz, ne tabela.
+7. **Svaki radnik dizao svoj server na istom portu** (8799) → EADDRINUSE. Ekskluzivni resursi se iznesu pre deobe.
+8. **Hoisting `const a = [], b = []`** uhvatio samo prvo ime → `slogZahtevi is not defined`. Mehaničke izmene koda se proveravaju pretragom za obrasce koje regex nije pokrio.
+9. **Lokator kapsule uzet pre ponovnog iscrtavanja** (kante → ceo rečnik) → `Element is not attached`. Uvek `cekajMirneRime` pre `.chip`.
+10. **Provera čitala stanje koje kod briše po tajmeru** (poruka igre posle 1,5 s). Klik i čitanje u istom `evaluate`.
+11. **Python patch skripte sa srpskim navodnicima unutar običnih stringova** → `SyntaxError` ČETIRI puta u sesiji (poslednji put baš pri pisanju ovog handoffa); posledica: deo izmena tiho nije primenjen, a commit prošao bez njih. Patch skripte pisati u FAJL (heredoc sa `cat`), bez srpskih navodnika u Python stringovima, i posle svake izmene `grep` da je ušla.
+12. **10 običnih ekavskih reči (klasje, gorje, sijesta…) završilo u ijekavici 22.09.** jer je regex gledao samo „je" u reči – vraćeno 01.10.
+13. **Računar spavao usred lanca 3 dana** → `[11187 s]`, `ERR_INTERNET_DISCONNECTED` – rezultat nevažeći, ponoviti, ne tumačiti.
+
+## 5. Kako se radi sa vlasnicom (pokazalo se u ovoj sesiji)
+- Ona je **konačni sudija za reči**; Matica je provera, ne presuda („nehigijenski se kaže", „neprepoznatljivost se kaže" – i ima pravo). Kad kaže „izbriši" – odmah, bez provere; kad kaže „proveri" – Matica, pa predlog.
+- Spiskove za odluku hoće **u fajlu koji joj otvorim** (`open …md`) ILI „ovde" u razgovoru kad tako kaže; odluke daje glasom, pa dolaze ijekavski oblici i ponavljanja – prevesti u ekavicu, ne nagađati.
+- Objašnjenja reči hoće da pišem **sam, svojim rečima** (ne prepis Matice), pa ona odobrava po grupi; svaka njena odluka ide u `AUDIT/SJ-5-razvrstano/ODLUKE.md`.
+- Svaki stručni izraz uz objašnjenje u zagradi; brojevi sa jedinicom i granicom; **nikad procena trajanja**.
+- Push: jedno „da" = jedan push, bez izuzetka.
+
+## 6. Komande koje sledeća sesija koristi
+```bash
+bash scripts/podsetnik-audit.sh                       # zaostatak na početku
+bash test/lanac.sh                                    # pun lanac lokalno (6 radnika), ~6 min
+BASE=https://rimoteka.com bash test/lanac.sh          # posle objave, ~8 min
+python3 build/akcenat.py && python3 build/kante.py && node scripts/osvezi-verzije-podataka.mjs && python3 build/gen_pages.py   # posle izmene rečnika/akcenta
+python3 scripts/akcenti-simulacija.py <reč> …          # rime po akcentu, simulacija (ažurirati na novo pravilo)
+python3 scripts/sj5-c-odbij.py <reč> …                 # odbijanje reči iz grupe C po naredbi vlasnice
+ssh root@88.198.218.69                                 # server; Traefik dinamički fajlovi u /data/coolify/proxy/dynamic/
+```
+
 # HANDOFF — sesija 17–22.09.2026 (sinonimi sređeni, pun audit 22.09., agenti mobilni/tablet/podsetnik)
 
 > Čita se PRVO. Izvor istine za nalaze: `AUDIT/NALAZI-OTVORENI.md` (odeljak „STANJE NA DAN 22.09.2026").

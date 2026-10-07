@@ -1,5 +1,5 @@
 2672
-Budimpešta			3
+Budimpešta			4
 Bukurešta			4
 Cveta	4675		2
 Nazareta			2
@@ -12,52 +12,52 @@ adolescenata	949		2
 adolescenta	176		2
 adresata	51		2
 aduta	770		2
-adventista	66		2
+adventista	66		3
 advokata	2814		2
 aeronauta			2
-afekata	54		3
-afekta	83		2
+afekata	54		4
+afekta	83		3
 afiniteta	724		2
-afrodita			2
+afrodita			3
 afta			2
 agata			2
-agenata	1551		3
-agenta	1582		2
+agenata	1551		4
+agenta	1582		3
 agregata	2290		2
 ahata	23		3
 ahmeta			2
 akata	5847		3
-akcenata	138		3
-akcenta	337		2
-akrobata	243		2
+akcenata	138		4
+akcenta	337		3
+akrobata	243		3
 akta	6599		2
-aktivista	4035		2
+aktivista	4035		3
 aktiviteta	20		2
 akvadukta	83		2
 alata	7796		2
 alberta			2
 alfabeta	285		2
-alpinista	381		2
+alpinista	381		3
 altruista	42		2
 amaneta			2
 ambijenata			2
-ambijenta			2
-ambulanta	1466		2
+ambijenta			3
+ambulanta	1466		3
 amonita	12		2
 amuleta			2
 analfabeta	83		2
 analista			2
-anarhista	426		2
+anarhista	426		3
 anegdota	992		2
-anglista	40		2
+anglista	40		3
 animoziteta			2
-anita			2
+anita			3
 anketa	6376		2
 antanta	51		2
-antifašista	797		2
+antifašista	797		3
 antihrista	390		2
-antikomunista	269		2
-antikrista			3
+antikomunista	269		3
+antikrista			4
 antikviteta	241		2
 antisemita	158		2
 antoaneta			2
@@ -73,34 +73,34 @@ apsinta	10		2
 apsoluta	123		4
 apsolutista	57		2
 apsolvenata			2
-apsolventa	129		2
+apsolventa	129		3
 apstrakta			2
 arafata			2
 ararata			2
 argata			2
 argumenata	4375		2
-argumenta	902		2
-arhitekata	3183		3
-arhitekta	4235		2
-arhivista	170		2
+argumenta	902		3
+arhitekata	3183		4
+arhitekta	4235		3
+arhivista	170		3
 arhivolta			2
-aristokrata	191		2
+aristokrata	191		3
 arivista			2
 arnauta			2
 artefakata	367		5
 artefakta	126		4
 artifakata			2
-artista	102		2
-asfalta	2251		2
+artista	102		3
+asfalta	2251		3
 asimptota		M	2
-asistenata	997		3
-asistenta	1749		2
+asistenata	997		4
+asistenta	1749		3
 asketa	122		2
-aspekata	3609		3
-aspekta	8099		2
+aspekata	3609		4
+aspekta	8099		3
 aspiranata	33		2
-astronauta	1389		2
-ateista	1125		2
+astronauta	1389		3
+ateista	1125		3
 atentata	2253		2
 atesta	269		2
 atlanta			2
@@ -111,31 +111,31 @@ augusta			2
 auta	5450		2
 autokrata			2
 automata	819		2
-automobilista	262		2
+automobilista	262		3
 autopilota	37		2
-autoputa	5948		4
+autoputa	5948		5
 autoriteta	3327		2
 avalista			2
 avangardista	41		2
-avanturista	582		2
-avgusta	34453		2
+avanturista	582		3
+avgusta	34453		3
 aviokarta			2
-azbesta	231		2
-azijata	105		2
-azilanata	1268		3
-azota	1288		2
-ađutanta			2
+azbesta	231		3
+azijata	105		3
+azilanata	1268		4
+azota	1288		3
+ađutanta			3
 bagerista	119		2
 bageta			2
 bahata	271		3
-bajata	95		2
+bajata	95		3
 bajazita			2
 bajkovita	177		2
 bajoneta	105		2
 bajta	260		2
 bakelita	20		2
 bakuta		M	2
-balasta	393		2
+balasta	393		3
 baleta	1583		2
 balista	115		2
 balota	14		2
@@ -152,8 +152,8 @@ barbiturata	13		2
 barista			2
 baritonista			2
 baroneta			2
-baruta	791		2
-baršunasta	81		3
+baruta	791		3
+baršunasta	81		4
 baseta			2
 basista	636		2
 basketa	320		2
@@ -168,9 +168,9 @@ bebasta			2
 bedasta			3
 bejruta			2
 beketa			2
-beknuta			2
+beknuta			3
 bekuta			2
-belanceta	85		2
+belanceta	85		3
 beletrista			2
 belfasta			2
 beličasta	95		2
@@ -182,18 +182,18 @@ berićeta	69		2
 bermeta	92		2
 beta	9377		2
 beškota			2
-biciklista	2431		2
-bigamista			2
+biciklista	2431		3
+bigamista			3
 bihejviorista			2
 bikarbonata	62		2
 bileta			2
 bilošta			2
-birališta	995		3
+birališta	995		4
 birokrata	499		2
 biskvita	184		2
 bista	636		2
 bita	1093		2
-bjelanceta			2
+bjelanceta			3
 blagota		M	2
 blata	2484		2
 blatišta			2
@@ -201,46 +201,46 @@ blenta			2
 blesasta			2
 blista	897		2
 bogaljasta			2
-bogata	7707		2
+bogata	7707		3
 bogota			2
 bogznašta			2
 bojišta	315		2
-bojkota	616		2
+bojkota	616		3
 bokata			2
 boksita	562		2
 boktepita			2
 bonaparta			2
 boniteta	404		2
-boravišta	661		3
+boravišta	661		4
 borilišta	328		2
 borota			2
-bradata	32		2
+bradata	32		3
 bradavičasta	11		2
 brata	15109		2
-brdovita	80		3
+brdovita	80		4
 bregovita			2
 brehta			2
 bremenita	139		2
 breskvasta			2
 bresta	257		2
-brigita			2
+brigita			3
 briketa	295		2
-brilijanta			2
+brilijanta			3
 brineta	257		2
-brkata	44		2
-brodogradilišta	658		3
+brkata	44		3
+brodogradilišta	658		4
 brokata	31		2
 brsta			2
-brzopleta	84		3
+brzopleta	84		4
 bubeta			2
 buckasta			2
 bucmasta	46		3
-budalasta	61		2
-budista	202		2
+budalasta	61		3
+budista	202		3
 budžeta			2
 buketa	184		2
 bukinista			2
-bulumenta	277		2
+bulumenta	277		3
 bunjišta	33		2
 bunta			2
 burenceta			2
@@ -249,9 +249,9 @@ burmuta			2
 buta	296		2
 cefta			2
 celibata	83		2
-celovita	561		2
+celovita	561		3
 celulita	1651		2
-cementa	1576		2
+cementa	1576		3
 centa	1025		2
 centaršuta	751		2
 centralista	60		2
@@ -259,31 +259,31 @@ cesta			2
 cigareta	6839		2
 cikota			2
 cimenta			2
-cimeta	736		2
+cimeta	736		3
 cionista	114		2
 cista			2
 citata	1555		2
 crknuta	11		2
 crkvišta	124		2
-crnomanjasta	21		4
+crnomanjasta	21		5
 crta	3833		2
-crvenkasta	149		3
+crvenkasta	149		4
 cvata	25		2
 cveta	4675		2
 cvilidreta			2
 cvokota			2
 cvrkuta	38		2
-dadaista	30		2
+dadaista	30		3
 dakota			2
-daltonista	63		2
+daltonista	63		3
 daneta			2
-darovita	137		2
-darvinista	14		2
+darovita	137		3
+darvinista	14		3
 data	6936		2
 debata	3034		2
-debeljuškasta	22		2
-debitanata	219		3
-debitanta	281		2
+debeljuškasta	22		3
+debitanata	219		4
+debitanta	281		3
 decentralista			2
 defekata			2
 defekta			2
@@ -294,20 +294,20 @@ deista			2
 dekabrista	27		2
 dekadenata			2
 dekanata	124		2
-dekarta			3
+dekarta			2
 dekreta	197		2
 delegata	2612		2
-delikta	190		2
+delikta	190		3
 delikvenata	56		2
-delikventa	31		2
+delikventa	31		3
 delinkvenata			2
 delta	8371		2
-demokrata	5788		2
+demokrata	5788		3
 demokrita			2
 demonstranata			2
 dentista			2
-departmenta			2
-deponenta	61		2
+departmenta			3
+deponenta	61		3
 depozita	3409		4
 deputata			2
 dereta			2
@@ -317,19 +317,19 @@ derišteta			2
 derta			2
 derventa			2
 desanta	78		2
-deserta	165		2
+deserta	165		3
 deseta	962		2
-despota	2521		2
+despota	2521		3
 destilata	110		2
 detanta	35		2
 detelišta			2
-detenceta	15		2
-deterdženta	370		2
+detenceta	15		3
+deterdženta	370		3
 determinanta	118		2
-deteta	27437		2
-detinjasta	108		3
+deteta	27437		3
+detinjasta	108		4
 detroita			2
-devedeseta			2
+devedeseta			3
 devesta			2
 deveta	946		2
 devijanata			2
@@ -337,64 +337,64 @@ devojčeta	27		3
 dezerta	82		2
 digniteta	174		2
 dignuta	221		3
-dijalekata	361		3
-dijalekta	309		2
-dijamanata	817		3
-dijamanta	438		2
+dijalekata	361		4
+dijalekta	309		3
+dijamanata	817		4
+dijamanta	438		3
 dijeta	3517		2
 diktata	334		2
 diletanata			2
-diletanta			2
+diletanta			3
 dimčeta			2
 dinamita	120		2
 dinasta			2
 dinsta	119		2
-diplomata	4292		2
+diplomata	4292		3
 direktorata	742		2
-dirigenata	158		3
-dirigenta	684		2
-dirnuta	152		2
-disidenata	316		3
-disidenta	177		2
+dirigenata	158		4
+dirigenta	684		3
+dirnuta	152		3
+disidenata	316		4
+disidenta	177		3
 disketa	321		2
 diskonta	148		2
 disputa			2
 distrikata			2
 distrikta	822		2
 diverzanata	35		2
-diverzanta	17		2
+diverzanta	17		3
 divota	406		2
 dleta	103		2
 dobrota	936		2
 docenata	56		2
 docenta	786		2
 dodata			2
-dodirnuta	50		2
+dodirnuta	50		3
 dogmata			2
 dohvata	222		3
 doista	3514		3
 dojenčeta	24		2
 doksata			2
-doktoranta	72		2
+doktoranta	72		3
 doktorata	699		2
 dokumenata	16836		2
-dokumenta	19652		2
+dokumenta	19652		3
 dolomita	104		2
 domazeta			2
-dometa	2412		2
-dominanta	107		2
-domišljata	51		3
+dometa	2412		3
+dominanta	107		3
+domišljata	51		4
 doneta	9406		2
 doplata	890		3
 dopušta	3523		2
 dorata			2
 doratasta			2
-dosegnuta	48		2
+dosegnuta	48		3
 dosita			2
 dosta	117719		2
-dostignuta	343		3
+dostignuta	343		4
 dotaknuta	81		2
-doviknuta			2
+doviknuta			3
 došeta	23		2
 drafta	170		2
 drifta	38		2
@@ -407,9 +407,9 @@ dualista	19		2
 dualiteta	34		2
 dubleta	40		2
 dueta	272		2
-dugmeta	1450		2
+dugmeta	1450		3
 duguljasta	54		2
-duhovita	879		2
+duhovita	879		3
 dukata	1110		2
 dupenceta			2
 dupeta	535		2
@@ -427,55 +427,55 @@ dženeta			2
 dževata			2
 džihadista			2
 džilita			2
-džointa	66		2
+džointa	66		3
 džudista			2
 ebonita			2
 edikta	1676		2
 edita			2
-efekata	6868		3
-efekta	5325		2
+efekata	6868		4
+efekta	5325		3
 efta			2
 egipta			2
 egoista	161		2
 egzibicionista	106		2
-egzistencijalista			2
+egzistencijalista			3
 egzita			2
-egzorcista	52		2
+egzorcista	52		3
 ekologista			2
 ekonomista	7769		2
-eksperata	4981		3
-eksperimenata	1820		3
-eksperimenta	1948		2
-eksperta	1105		2
+eksperata	4981		4
+eksperimenata	1820		4
+eksperimenta	1948		3
+eksperta	1105		3
 eksponata			2
-eksponenta	65		2
+eksponenta	65		3
 eksporta			2
-ekstrakta	463		2
+ekstrakta	463		3
 ekstremista	1496		2
 ekstremiteta	1228		2
 ekumenista			2
 ekvilibrista			2
-ekvivalenta	250		2
+ekvivalenta	250		3
 elaborata	747		2
 elektriciteta	476		2
 elektrolita	545		2
 elektromagneta	52		2
-elemenata	16389		3
-elementa	4172		2
+elemenata	16389		4
+elementa	4172		3
 eliota			2
 elita	9578		2
 elitista	39		2
 elizabeta			2
-emigranata	902		3
-emigranta	189		2
+emigranata	902		4
+emigranta	189		3
 emirata	1264		2
 emitenata	72		2
-emitenta	162		2
-enciklopedista	49		2
+emitenta	162		3
+enciklopedista	49		3
 energenata	3512		2
-energenta	955		2
+energenta	955		3
 entiteta	3653		2
-entuzijasta	1610		2
+entuzijasta	1610		3
 epiteta	286		2
 epizodista	58		2
 epoleta	24		2
@@ -495,9 +495,9 @@ eufrata			2
 evangelista	82		2
 evanđelista			2
 evita			2
-fabrikanta			2
+fabrikanta			3
 fajita			2
-fajronta	90		2
+fajronta	90		3
 fajta	57		2
 fakata	183		3
 fakta	299		2
@@ -509,11 +509,11 @@ fantasta			2
 farenhajta			2
 farmaceuta	1127		2
 fata			2
-fatalista	36		2
+fatalista	36		3
 fausta			2
 favorita	3421		2
 fašista			2
-federalista	57		2
+federalista	57		3
 feldspata			2
 feljtonista			2
 feminista	26		2
@@ -528,35 +528,35 @@ fikreta			2
 filareta			2
 filatelista	82		2
 fileta	72		2
-finalista	1496		2
+finalista	1496		3
 finta			2
-fizioterapeuta	521		2
-flauta	355		2
-flautista	153		2
+fizioterapeuta	521		3
+flauta	355		3
+flautista	153		3
 flerta			2
 floreta			2
 flota	1186		2
 foliranata			2
-foliranta			2
-folklorista	89		2
+foliranta			3
+folklorista	89		3
 fonta	570		2
 forinta	91		2
-formalista	40		2
+formalista	40		3
 formata	6249		2
 fosfata	246		2
 fota			2
 fotoaparata	3094		2
-fragmenata	758		3
-fragmenta	228		2
+fragmenata	758		4
+fragmenta	228		3
 frankfurta			2
 fregata	130		2
 fronta	2811		2
-fundamenta			2
+fundamenta			3
 fundamentalista	274		2
 funta	576		2
 fusnota	479		3
 futa			2
-futurista	77		2
+futurista	77		3
 gabarita	713		2
 gadžeta			2
 galanterista			2
@@ -575,15 +575,15 @@ germanista	22		2
 gesta	560		2
 geta	418		2
 gigabajta	620		4
-giganata	546		3
-giganta	1948		2
+giganata	546		4
+giganta	1948		3
 gigavata	155		2
 gihta	222		2
 gimnazista			2
 gita			2
 gitarista	1867		2
-glasovita	42		2
-glavata	68		2
+glasovita	42		3
+glavata	68		3
 glavičasta	12		2
 gledališta	385		2
 gledišta	5522		3
@@ -596,7 +596,7 @@ glumišta	385		2
 glutamata	33		2
 gluvota			2
 godišta	1269		2
-golgota	311		2
+golgota	311		3
 golijata			2
 goneta			2
 gorovita			2
@@ -611,7 +611,7 @@ granita	462		2
 granta			2
 granulata	147		2
 grehota			2
-grejpfruta	309		2
+grejpfruta	309		3
 greota			2
 greta			2
 grobišta	42		2
@@ -627,7 +627,7 @@ gugleta			2
 gurnuta	262		3
 gusta	1433		2
 guta	1427		2
-guvernanta		M	2
+guvernanta		M	3
 guščeta			3
 habitata	60		2
 hajata			2
@@ -635,7 +635,7 @@ halata			3
 hamleta			2
 harfista	21		2
 harta			2
-hedonista	200		2
+hedonista	200		3
 hefta			2
 helenista	15		2
 helmuta			2
@@ -649,17 +649,17 @@ hidrata	2425		2
 hidrofita			2
 hinduista	13		2
 hipokrata			2
-hipokrita			2
+hipokrita			3
 hipolita			2
-hirovita	78		2
+hirovita	78		3
 hita	1468		2
 hladovita			2
-hobista	39		2
+hobista	39		3
 hobita	175		2
-holokausta	1492		2
+holokausta	1492		3
 horista	21		2
-horizonata	180		3
-horizonta	1177		2
+horizonata	180		4
+horizonta	1177		3
 hornista	35		2
 horvata			2
 hranilišta	179		2
@@ -668,133 +668,133 @@ hrbata	10		3
 hrista			2
 hrpta			2
 hrta	79		2
-hrvata			2
+hrvata			3
 huanita			2
 humanista	653		2
 humaniteta	85		2
 humorista	106		2
 hunta	180		2
 hvata	3743		2
-idealista	331		2
+idealista	331		3
 identiteta	15955		2
 idiolekta			2
-idiota	725		2
+idiota	725		3
 ignjata			2
-igrališta	3244		3
+igrališta	3244		4
 iluminata			2
-iluzionista	90		2
-imigranata	1667		3
-imigranta	124		2
+iluzionista	90		3
+imigranata	1667		4
+imigranta	124		3
 imperfekta	21		4
-imperijalista	168		2
-impičmenta			2
+imperijalista	168		3
+impičmenta			3
 implanata	95		2
 implanta	315		2
 implantata	467		2
-importa	75		2
+importa	75		3
 impresionista	89		2
 imuniteta	2449		2
 inata	1024		2
-incesta	233		2
-incidenata	3590		3
-incidenta	3903		2
+incesta	233		3
+incidenata	3590		4
+incidenta	3903		3
 individualista	56		2
 indosamenta	25		2
 infanta	29		2
-infarkta	1557		2
-inkasanta			2
+infarkta	1557		3
+inkasanta			3
 inputa	446		2
-insekata	2750		3
-insekta	554		2
+insekata	2750		4
+insekta	554		3
 inserata			2
-instinkata	43		3
-instinkta	258		2
+instinkata	43		4
+instinkta	258		3
 instituta	24795		2
 instrumenata	5146		2
-instrumenta	2028		2
+instrumenta	2028		3
 integriteta	4667		2
-intelekta	556		2
-intendanta	19		2
+intelekta	556		3
+intendanta	19		3
 intenziteta	3322		2
 internata	263		2
 interneta	28316		4
-internista	323		2
+internista	323		3
 intraneta	127		2
-intriganta			2
+intriganta			3
 inuita			2
 invaliditeta	1053		2
-iredenta	17		2
+iredenta	17		3
 iscrta	105		2
-ishodišta	178		3
+ishodišta	178		4
 isihasta	103		2
 iskrenuta			2
 islamista	747		2
 ismeta			2
 ispašta	369		2
-ispita	17543		2
+ispita	17543		3
 isplata	4912		3
 ispremeta			2
 ispusta	227		2
 ispušta	1489		2
 ista	33167		2
-istaknuta	1883		2
+istaknuta	1883		3
 istegnuta	30		2
 istinita	2147		4
-istisnuta	54		3
+istisnuta	54		4
 istorijata	266		2
 istrgnuta	77		2
 izaslata			2
 izbegnuta	523		2
-izdata	1963		2
+izdata	1963		3
 izdignuta	97		2
 izeta			2
 izlanuta			2
-izleta	1722		2
+izleta	1722		3
 izletišta	848		2
-izmeta	531		2
+izmeta	531		3
 izmetnuta			2
 izmešta	256		2
 izneta	722		2
 izokrenuta	30		2
 izraelita			2
 izrasta	719		2
-izravnata			2
-izrazita	554		3
-izračunata	110		2
+izravnata			3
+izrazita	554		4
+izračunata	110		3
 izričita	239		2
 izuzeta	387		2
-izvorišta	1529		3
+izvorišta	1529		4
 izvrgnuta	52		2
 izvrnuta	115		2
 izvrta			2
-išparta			3
+išparta			2
 išta	6226		2
 iščita	93		2
 jagnjeta	300		3
 jahta	592		2
-jajeta	1271		2
-jaketa			2
+jajeta	1271		3
+jaketa			3
 jalovišta	334		2
 janjeta	29	J	3
 jareta	55		3
 jata	3047		2
 jašta			2
 jedanaesta	210		2
-jedincata			2
+jedincata			3
 jefta			2
 jelisaveta			2
 jeta			2
 jevanđelista	226		2
 jevta			2
-jezerceta	90		2
-jezgrovita	55		2
-jezovita	21		2
+jezerceta	90		3
+jezgrovita	55		3
+jezovita	21		3
 jezuita	301		2
-jogunasta	18		3
-jogurta	1571		2
+jogunasta	18		4
+jogurta	1571		3
 jorgovanasta			2
 jota	38		2
-judita			2
+judita			3
 julijeta			2
 junta			2
 jurista			2
@@ -809,7 +809,7 @@ kalkuta			2
 kalota			2
 kalvinista	14		2
 kamata	8380		3
-kamenita	119		2
+kamenita	119		3
 kamioneta	92		2
 kanasta	15		2
 kandidata	31818		2
@@ -817,20 +817,20 @@ kanta	720		2
 kantata	61		2
 kanuta			2
 kapaciteta	22832		2
-kapitalista	922		2
+kapitalista	922		3
 kaputa	567		2
 karata	8869		2
 karatista	242		2
 karbonata	124		2
 karijerista	170		2
-karikaturista	337		2
+karikaturista	337		3
 karneta	80		2
 karpata			2
 karta	8960		2
 kaseta	1017		2
 kasta	300		2
 kata	555		2
-katapulta	59		2
+katapulta	59		3
 katarakta	231		2
 kateheta			2
 kateta	16		2
@@ -841,7 +841,7 @@ kazamata	140		2
 kazeta	10		2
 kačketa	98		2
 kašasta	59		2
-kažiprsta	319		3
+kažiprsta	319		4
 kelta	191		2
 kenta			2
 kerčeta			2
@@ -853,40 +853,40 @@ kilovolta			2
 kiselkasta	16		2
 kita	702		2
 kitnjasta	38		2
-kišovita	41		2
+kišovita	41		3
 kjota			2
 klarineta	162		2
 klasicista			2
 klavijaturista	281		2
-klavirista	49		2
+klavirista	49		3
 klementa			2
 kleta	73		2
-kleveta	914		2
+kleveta	914		3
 klešta	322		2
-klijenata	10239		3
-klijenta	6497		2
+klijenata	10239		4
+klijenta	6497		3
 klimata			2
 klimenta			2
 klimta			2
 klinasta	22		2
 klinta			2
-klizališta	335		3
+klizališta	335		4
 klizišta	1298		3
 klješta			2
 klokota	35		2
-klozeta	146		2
+klozeta	146		3
 klupčeta			2
 kmeta	213		2
 kneseta			2
 knuta			2
-kobalta	105		2
+kobalta	105		3
 kockasta	57		3
 koeficijenata			2
 koeficijenta			2
 koferčeta			2
 kohorta		M	2
 koješta		M	2
-kojota	60		2
+kojota	60		3
 koketa	109		2
 kokota	48		2
 kokpita	188		2
@@ -899,8 +899,8 @@ kolorita	422		2
 kolta			2
 kolumnista	1238		2
 koluta	137		3
-komandanata	620		3
-komandanta	3926		2
+komandanata	620		4
+komandanta	3926		3
 komandata			2
 kombinata	2113		2
 komercijalista	365		2
@@ -908,67 +908,67 @@ komesarijata	630		2
 kometa	1907		2
 komita	103		2
 komitenata	214		2
-komitenta	306		2
+komitenta	306		3
 komiteta	9419		2
 komonvelta			2
-kompleta	1562		2
+kompleta	1562		3
 komplimenata	246		2
-komplimenta	52		2
-komponenata	1382		3
-komponenta	3744		2
+komplimenta	52		3
+komponenata	1382		4
+komponenta	3744		3
 komposta	238		2
 kompota	136		2
-komunista	5988		2
-konačišta	100		3
-koncepata	1464		3
-koncepta	7788		2
-koncerata	4425		3
-koncerta	7738		2
+komunista	5988		3
+konačišta	100		4
+koncepata	1464		4
+koncepta	7788		3
+koncerata	4425		4
+koncerta	7738		3
 kondenzata	216		2
 konektikata			2
 konfeta	55		2
-konflikata	2112		3
-konflikta	2799		2
+konflikata	2112		4
+konflikta	2799		3
 konformista	63		2
 konglomerata	247		2
 konkordata	194		2
-konkurenata	1494		3
-konkurenta	1458		2
-konsonanata	38		3
+konkurenata	1494		4
+konkurenta	1458		3
+konsonanata	38		4
 konstanta	1149		2
 konstituanta			2
 konsultanata	1000		2
-konsultanta	729		2
+konsultanta	729		3
 konta	655		2
-kontakata	4110		3
-kontakta	4753		2
-konteksta	3757		2
-kontinenata	1605		3
-kontinenta	5143		2
+kontakata	4110		4
+kontakta	4753		3
+konteksta	3757		3
+kontinenata	1605		4
+kontinenta	5143		3
 kontinuiteta	2129		2
 kontrabasista	95		2
-kontrasta	1370		2
+kontrasta	1370		3
 konventa			2
 konvertita			2
 konvikta	20		2
 konzulata	907		2
-konzumenta			2
+konzumenta			3
 koordinata	485		2
 kopileta			4
 kopilota	53		2
 kopista			2
-kopita	384		2
+kopita	384		3
 kopta			2
-korenita	144		2
+korenita	144		3
 korinta			2
-korita	1887		2
+korita	1887		3
 korneta	78		2
-korota			2
+korota			3
 korseta	60		2
 korveta	81		2
 kosmata	16		2
 kosmeta			2
-kosmonauta	754		2
+kosmonauta	754		3
 kosta			2
 kota	350		2
 koteksta			2
@@ -976,8 +976,8 @@ kotleta	25		2
 koverata	131		2
 koverta	250		2
 košta	31667		2
-košuta	225		2
-koščata	30		2
+košuta	225		3
+koščata	30		3
 krasota	128		2
 krasta	126		2
 kravata	457		2
@@ -990,7 +990,7 @@ krempita	54		2
 kresta	37		2
 kreta			2
 kreveta	6753		3
-kriketa	81		2
+kriketa	81		3
 krilata	127		3
 kriminaliteta	761		2
 kripta	98		2
@@ -1003,14 +1003,14 @@ krstasta			2
 krta	110		2
 krunasta			2
 kruta	331		2
-krševita	23		3
-kubeta	183		2
+krševita	23		4
+kubeta	183		3
 kuglasta	30		2
 kukasta	10		2
 kukuta			2
 kulta	1473		2
-kumčeta	19		2
-kupališta	852		3
+kumčeta	19		3
+kupališta	852		4
 kupasta	35		2
 kursista			2
 kurta			2
@@ -1020,7 +1020,7 @@ kuverta			2
 kućišta	5302		2
 kučenceta			2
 kučeta	127		3
-kvadranta	92		2
+kvadranta	92		3
 kvadrata	9989		2
 kvaliteta	51014		2
 kvanta	44		2
@@ -1030,8 +1030,8 @@ kvarteta	586		2
 kvinta	57		2
 kvinteta	166		2
 kvota	2011		2
-labirinta	20		2
-laburista	196		2
+labirinta	20		3
+laburista	196		3
 lafeta	13		2
 lakata	364		3
 lakota	34		2
@@ -1043,15 +1043,15 @@ laneta	53		3
 lasta		M	2
 latinista			2
 laureata	509		2
-lauta		M	2
+lauta		M	3
 lavirinata			2
-lavirinta	474		2
+lavirinta	474		3
 ledišta			2
 legalista	220		2
 legaliteta	192		2
 legata	560		2
 legitimiteta	943		2
-lekovita	1853		2
+lekovita	1853		3
 lenta	41		2
 lepeta			2
 lepota	7373		2
@@ -1060,26 +1060,26 @@ lepuškasta	37		2
 leta	26395		2
 letovališta	1195		2
 leukocita	502		2
-levanta	62		2
+levanta	62		3
 lečilišta	386		2
 ležišta	1746		2
 libreta	131		2
 libretista	23		2
 liferanata			2
-liferanta			2
+liferanta			3
 lifta	1788		2
 ligamenata	616		2
-ligamenta	191		2
+ligamenta	191		3
 lignita	1131		2
 likota			2
 liliputa			2
 limeta	71		2
 limfocita	276		2
-limita	1315		2
+limita	1315		3
 limunžuta			2
 lineta			2
-lingvista	740		2
-lisnata	48		2
+lingvista	740		3
+lisnata	48		3
 lista	31143		2
 literata			2
 litota			2
@@ -1087,42 +1087,42 @@ ljubičasta	743		4
 ljudevita			2
 ljuta	2083		2
 ljutita	66		2
-lobista	739		2
+lobista	739		3
 lojalista	36		2
 lokaliteta	2762		2
 lokota	11		3
 lolita			2
 lomata			2
 lončeta			2
-lopata	338		2
+lopata	338		3
 lopta	7181		2
 lota	267		2
 lovišta	1404		3
 lozasta			2
 ložišta	333		3
-lubrikanta	76		2
+lubrikanta	76		3
 luckasta	88		3
 luneta			2
 lupeta	364		2
 luta	1137		2
-magareta	21		3
+magareta	21		4
 magbeta			2
 magenta			2
 magistrata	341		2
-maglovita	224		2
+maglovita	224		3
 magnata	269		2
 magneta	681		2
 magnetita	19		2
 magnezita			2
 magrita			2
 mahmuta			2
-mahnita	37		2
+mahnita	37		3
 maketa	693		2
-maknuta			2
+maknuta			3
 maksuta			2
 malahita	34		2
 malta			2
-mamuta	616		2
+mamuta	616		3
 mandata	18103		2
 manifesta	446		2
 manita			2
@@ -1143,19 +1143,19 @@ maršruta		M	2
 maršuta			2
 maskerata			2
 maskota	403		2
-maslinasta	27		3
-mastodonta	32		2
+maslinasta	27		4
+mastodonta	32		3
 mastrihta			2
 mata	374		2
 materijalista	142		2
 maturanata	1132		2
-maturanta	147		2
+maturanta	147		3
 mazohista	249		2
 mazuta	1017		2
-mačeta	242		2
+mačeta	242		3
 mašinista			2
 mašta	2880		2
-maštovita	283		2
+maštovita	283		3
 medikamenata	659		2
 mediokriteta	365		2
 mefista			2
@@ -1166,33 +1166,33 @@ mehta			2
 mekota	17		2
 melita			2
 memoarista	12		2
-menadžmenta	11186		2
+menadžmenta	11186		3
 menta	184		2
 mentalista			2
 mentaliteta	1912		2
 merkata	16		2
 merlota	26		2
 meseršmita			2
-mesnata	85		2
+mesnata	85		3
 mesta	151839		2
 meta	6347		2
 meteorita	611		2
-metnuta			2
-metodista			2
+metnuta			3
+metodista			3
 mezimčeta			2
 mečeta			2
 međuvrsta		M	2
 mešihata			2
-mešovita	700		2
+mešovita	700		3
 migranata	1075		2
 mijata			2
 mikrosveta			2
 mileta			3
 militanata	141		2
-militanta			2
+militanta			3
 milota		M	2
 milošta		M	2
-minareta	269		2
+minareta	269		3
 minesota			2
 minijaturista	12		2
 minimalista	18		2
@@ -1202,26 +1202,26 @@ mirčeta			3
 mista			2
 mita	4790		2
 mitropolita	3285		2
-mladunčeta	92		2
+mladunčeta	92		3
 mlata			2
 mnogošta			2
-mocarta			3
+mocarta			2
 modaliteta	455		2
 modernista	176		2
 modesta			2
 modrikasta			2
 momenata	1732		2
 momenta	10969		2
-momčeta	21		2
+momčeta	21		3
 monarhista	192		2
 monarhofašista			2
 moneta	577		2
 monogamista			2
 monolita	95		2
 monopolista	945		2
-monoteista			2
+monoteista			3
 montanista			2
-monumenta	47		2
+monumenta	47		3
 moralista	155		2
 moskita			2
 mosta	15238		2
@@ -1231,22 +1231,22 @@ motorista	167		2
 mrmota	123		2
 muhameta			2
 muleta			2
-muljevita	19		2
-munjevita	103		2
+muljevita	19		3
+munjevita	103		3
 munta			2
 murata			2
 musketa		M	2
 mutanata	107		2
 mutanta	85		2
 muzikanata	35		2
-muzikanta	24		2
+muzikanta	24		3
 mučilišta	94		2
-mušketa			2
+mušketa			3
 muškobanjasta	29		2
-nacionalista	2775		2
-nacista	1572		2
-nacrta	4630		2
-nadahnuta	304		2
+nacionalista	2775		3
+nacista	1572		3
+nacrta	4630		3
+nadahnuta	304		3
 nadneta			2
 nadomešta	54		2
 nadoplata			2
@@ -1254,39 +1254,39 @@ nadrasta	72		2
 nadrealista	357		2
 naduta	16		2
 nafta	3264		2
-nagnuta	276		2
+nagnuta	276		3
 nagota	13		2
 nagovešta			2
 nahvata			2
-nakita	4009		2
+nakita	4009		3
 nalazišta	2873		2
 naleta	600		2
-namaknuta	18		2
+namaknuta	18		3
 namesta			2
-nameta	1780		2
-nametnuta	1031		3
+nameta	1780		3
+nametnuta	1031		4
 namešta	632		2
 namota	37		2
 naneta	1084		2
 nanobota			2
-naočita	27		3
-napadnuta	1092		3
+naočita	27		4
+napadnuta	1092		4
 napeta	786		3
 napita			2
 naplata	3767		3
-naprasita	18		3
+naprasita	18		4
 napregnuta	31		2
 napušta	4437		2
 narandžasta	883		3
 narasta	313		2
-naročita	704		3
+naročita	704		4
 nasta	37		2
 nasuta	88		2
 nataliteta	1519		2
-nategnuta	129		2
+nategnuta	129		3
 naturalista	15		2
-naviknuta	224		3
-navrata	11646		2
+naviknuta	224		4
+navrata	11646		3
 nazimeta			2
 načeta	136		2
 našta			2
@@ -1296,7 +1296,7 @@ nedžata			2
 nehata	445		2
 nehrvata	14		2
 neisplata			2
-neistinita	283		4
+neistinita	283		5
 neizdata			2
 neizrazita			2
 nemušta	81		2
@@ -1305,10 +1305,10 @@ nenačeta			2
 neofašista	44		2
 neolita	780		2
 neonacista	367		2
-neoplanta			2
+neoplanta			3
 nepatriota			2
 nepoznata	3133		4
-neprekinuta	94		3
+neprekinuta	94		4
 nepriznata	129		4
 nesita	14		3
 nesta			2
@@ -1316,14 +1316,14 @@ netaknuta	707		2
 neudata	172		4
 neupoznata			2
 neuropata			2
-nevesta	774		2
-nevešta	77		2
-nezakonita	654		3
+nevesta	774		3
+nevešta	77		3
+nezakonita	654		4
 nezasita	107		2
-nečista	384		2
+nečista	384		3
 nečistota	62		2
 nešta	401		2
-nihilista	39		2
+nihilista	39		3
 nikita			2
 nikoleta			2
 nitrata	331		2
@@ -1331,7 +1331,7 @@ nizašta		M	2
 ništa	219539		2
 nogata			2
 nokata	301		3
-nokauta	80		2
+nokauta	80		3
 nokta	637		2
 nolita			2
 nosata	18		2
@@ -1341,28 +1341,28 @@ novelista	21		2
 noviteta	1128		2
 novorođenčeta	942		3
 noćišta			2
-nudista	52		2
+nudista	52		3
 nugata			2
 nulta	539		2
 nutricionista	768		2
 obasuta	35		2
-obdaništa	1984		3
-obilata	40		2
+obdaništa	1984		4
+obilata	40		3
 obitavališta	36		2
-objekata	37382		3
-objekta	25626		2
+objekata	37382		4
+objekta	25626		3
 obmanuta	80		2
 obmota	61		2
 oboista	19		2
 obrata	42		3
-obračunata	215		2
-obrnuta	869		2
-obrta	1140		2
+obračunata	215		3
+obrnuta	869		3
+obrta	1140		3
 obuhvata	24698		2
 obuzeta	162		2
 ocrta	71		3
 odaslata			2
-odata	188		2
+odata	188		3
 odašta			2
 odelita	16		2
 odeta			2
@@ -1370,18 +1370,18 @@ odgoneta			2
 odista	1412		3
 odlagališta	257		2
 odluta	170		2
-odmarališta	1193		3
+odmarališta	1193		4
 odmorišta	177		2
 odneta	201		2
 odojčeta	481		2
 odrasta	560		2
-odredišta	1494		3
+odredišta	1494		4
 odusta			2
 oduzeta	2637		2
 odviknuta			2
 odšaputa			2
 odšeta	58		2
-odškrinuta	116		2
+odškrinuta	116		3
 odšteta	534		3
 ofseta	38		2
 ogista			2
@@ -1390,9 +1390,9 @@ ognjišta	2273		2
 ogrnuta	83		2
 okata			2
 okleveta	75		2
-okomita	29		3
-okota	96		2
-okrenuta	2457		2
+okomita	29		4
+okota	96		3
+okrenuta	2457		3
 okreta	392		3
 okruglasta	41		2
 okta			2
@@ -1401,21 +1401,21 @@ okultista	43		2
 olista			2
 olta			2
 ometa	2452		2
-omleta	52		2
-omota	400		2
+omleta	52		3
+omota	400		3
 omrznuta	23		2
-opata	80		2
+opata	80		3
 opereta	92		2
 opijata	450		2
 opita	181		2
 oplata	302		3
-oponenata	339		3
-oponenta	171		2
+oponenata	339		4
+oponenta	171		3
 oportunista	158		2
-opovrgnuta	77		3
+opovrgnuta	77		4
 oprašta	898		2
-oprosta	209		2
-opsednuta	464		3
+oprosta	209		3
+opsednuta	464		4
 opsta			2
 optanata			2
 optimista	2786		2
@@ -1425,36 +1425,36 @@ općenita	15		2
 opšta	7485		2
 orbita	686		2
 ordinata	15		2
-orijenta	374		2
+orijenta	374		3
 orijentalista	56		2
 ornamenata	148		2
 osamnaesta	48		2
 oseta	64		2
 osjeta			2
-osobita	160		3
+osobita	160		4
 osta	184		2
 osuta	12		2
 osveta	1795		3
 osvešta	95		2
-osvrta	583		2
+osvrta	583		3
 otegnuta	10		2
 oteta	588		2
 otisnuta	30		2
-otkinuta	48		3
+otkinuta	48		4
 otplata	1051		3
 otposlata			2
 otpočeta	75		2
-otpusta	352		2
+otpusta	352		3
 otpušta	872		2
 otresita	48		2
 otrgnuta	59		2
 otškrinuta			2
 oćuta	32		2
-očita	670		2
+očita	670		3
 ošinuta			2
-pacifista	161		2
-pacijenata	19683		3
-pacijenta	9403		2
+pacifista	161		3
+pacijenata	19683		4
+pacijenta	9403		3
 padališta			2
 paketa	12225		2
 pakta	3967		2
@@ -1463,13 +1463,13 @@ palenta	87		2
 paleolita			2
 paleta	1875		2
 pamfleta	382		2
-pamfletista	12		2
+pamfletista	12		3
 panajota			2
 paneta			2
 panta			2
-panteista	11		2
+panteista	11		3
 paperjasta	17		2
-papirnata	46		2
+papirnata	46		3
 papista	33		2
 papratišta			2
 parapeta	53		2
@@ -1477,37 +1477,37 @@ parazita	1911		2
 parceta			2
 pariteta	279		2
 parketa	1255		2
-parkirališta	760		3
-parlamenta	23722		2
+parkirališta	760		4
+parlamenta	23722		3
 parta			2
-parčeta	516		2
+parčeta	516		3
 pasišta	26		2
 pasta	1473		2
 pata	247		2
-patenata	1689		3
-patenta	1020		2
+patenata	1689		4
+patenta	1020		3
 paterniteta			2
-patriota	3368		2
+patriota	3368		3
 patronata	55		2
 patuljasta	148		2
-pačeta	57		2
+pačeta	57		3
 pašteta	489		2
-pedanta			2
+pedanta			3
 pedeseta	64		2
-pejzažista	22		2
+pejzažista	22		3
 pekabeta			2
 penasta	57		2
 pendžeta			2
 penetrata			2
 pepelišta	100		2
 pepeljasta	24		4
-peperminta	57		2
+peperminta	57		3
 pepita		M	2
-perasta	160		2
+perasta	160		3
 perfekcionista	235		2
-perfekta	62		2
-pergamenta	76		2
-pernata	57		2
+perfekta	62		3
+pergamenta	76		3
+pernata	57		3
 pervertita			2
 peseta			2
 pesimista	649		2
@@ -1516,12 +1516,12 @@ peta	4371		2
 petnaesta	121		2
 petstota			2
 pezeta			2
-pečata	1918		2
+pečata	1918		3
 pešta			2
-pigmenta	458		2
+pigmenta	458		3
 pihtijasta			2
-pijanista	936		2
-pijemonta			2
+pijanista	936		3
+pijemonta			3
 pijeteta	257		2
 pilata			3
 pileta	173		3
@@ -1553,12 +1553,12 @@ plasta	60		2
 plata	26055		2
 platinasta	41		2
 platonista			2
-plavičasta	88		3
+plavičasta	88		4
 plavkasta	15		2
 plašta	208		2
 plebiscita	64		2
-plemenita	916		2
-plećata			2
+plemenita	916		3
+plećata			3
 pljosnata		M	2
 pljunuta	21		3
 plodovita			2
@@ -1569,57 +1569,57 @@ plutokrata	15		2
 poanta	112		2
 podata	13		2
 poddokumenata			2
-podesta	61		2
-podignuta	6015		3
+podesta	61		3
+podignuta	6015		4
 podmeta			2
-podmetnuta	223		3
+podmetnuta	223		4
 podnapita			2
 podneta	2381		2
 podosta	1320		2
-podstaknuta	509		2
+podstaknuta	509		3
 podteksta	32		2
 poduhvata	3157		4
 poduprta	93		2
-podvrgnuta	544		3
+podvrgnuta	544		4
 podvrsta	468		2
 poenta	8614		2
 poeta	314		2
 pognuta	53		2
-pohita	261		2
+pohita	261		3
 pohota	87		3
 pohvata	167		2
 pojata	53		2
 pojilišta	40		2
-pokrenuta	5001		2
+pokrenuta	5001		3
 pokreta	25982		3
 polariteta	134		2
 polazišta	414		2
-poleta	692		2
+poleta	692		3
 poligamista			2
 poliglota	183		2
 polikarbonata	130		2
 polita			2
 politeista			2
 poljančeta			2
-polubrata	112		2
+polubrata	112		3
 polugodišta	685		2
 polulopta	43		2
 polusveta	121		2
 pomahnita	11		2
-pomaknuta	29		2
+pomaknuta	29		3
 pomenuta	4975		2
 pometa			2
-pomfrita	127		2
+pomfrita	127		3
 pomognuta	102		2
 ponamešta			2
 poneta	65		2
-ponosita	74		3
+ponosita	74		4
 poprišta	212		3
-populista	155		2
-popusta	3379		2
+populista	155		3
+popusta	3379		3
 popušta	1141		2
 porasta	3670		3
-poravnata	30		2
+poravnata	30		3
 porazmešta			2
 porodilišta	1401		2
 porota	391		3
@@ -1630,13 +1630,13 @@ posednuta	28		2
 poseta	15740		3
 poslata			3
 posta	7137		2
-postamenta			2
-postignuta	2323		3
+postamenta			3
+postignuta	2323		4
 postulata	644		2
 posuta	153		2
 posveta	357		3
 pota	152		2
-potaknuta	69		2
+potaknuta	69		3
 pothvata	138		3
 potisnuta	507		2
 potrebita	18		2
@@ -1644,12 +1644,12 @@ pousta			2
 povrata	301		2
 pozlata	90		3
 poznata	24846		3
-pozorišta	20398		3
+pozorišta	20398		4
 poćuta			2
 početa	98		2
 pošeta			2
 pošta	3835		2
-praktikanta			2
+praktikanta			3
 praseta	397		3
 pravcata	94		2
 pračeta			2
@@ -1659,15 +1659,15 @@ prebivališta	2215		2
 prebogata	235		2
 precrta	95		2
 precveta			2
-predata	1143		2
+predata	1143		3
 predikata	196		2
-predmeta	34935		2
+predmeta	34935		3
 prednacrta	110		2
 preduzeta	321		2
-prefekata			3
-prefekta	93		2
+prefekata			4
+prefekta	93		3
 preispita	1680		2
-prekinuta	2453		3
+prekinuta	2453		4
 prekoputa	572		2
 prelata	59		3
 preleta	328		2
@@ -1678,9 +1678,9 @@ premota	23		2
 prenapeta			2
 preneta	1418		2
 prenoćišta	300		2
-preokrenuta	28		2
+preokrenuta	28		3
 preokreta	3420		4
-prepadnuta	13		3
+prepadnuta	13		4
 preparata	5579		2
 preplata	52		3
 prepleta			2
@@ -1693,27 +1693,27 @@ presretnuta			2
 presta			2
 presveta	638		2
 pretendenata	270		2
-pretendenta	153		2
+pretendenta	153		3
 preterita	10		2
 pretplata	1838		3
 preuzeta	1115		2
 prevaranata			2
-prevaranta			2
+prevaranta			3
 prevaspita			2
 prevrata	856		3
-prevrnuta	60		2
+prevrnuta	60		3
 prezauzeta			2
-prezenta	75		2
+prezenta	75		3
 prećuta			2
 prečeta			2
 prečista	246		2
 prhuta			2
 pribežišta	70		2
-pridodata	183		2
+pridodata	183		3
 prignuta			2
-prihvata	9443		2
-prihvatilišta	1108		3
-primaknuta			2
+prihvata	9443		3
+prihvatilišta	1108		4
+primaknuta			3
 primata	506		2
 prineta	24		2
 priorata	14		2
@@ -1725,34 +1725,34 @@ prirasta	212		2
 prista			2
 pristaništa	939		2
 pritegnuta	16		2
-pritisnuta	307		3
+pritisnuta	307		4
 priupita	236		2
-priznata	1031		2
+priznata	1031		3
 pričesta			2
 prišta	13		2
 prleta			2
 probisveta	113		2
-procenata	16316		3
-procenta	6136		2
+procenata	16316		4
+procenta	6136		3
 procvata	493		2
 procveta	470		2
-prodata	2713		2
+prodata	2713		3
 producenata	774		2
-producenta	899		2
+producenta	899		3
 produkata	847		2
 produkta	304		2
 profita	6617		2
 proguta	1580		2
 projekata	36422		2
 projekta	77633		2
-projektanta	630		2
+projektanta	630		3
 prokleta	955		3
 proletarijata	609		2
 prolista	19		2
-prometa	8810		2
+prometa	8810		3
 promiskuiteta	86		2
 proneta	11		2
-proniknuta			3
+proniknuta			4
 propagandista	229		2
 propaliteta	21		2
 propita	40		2
@@ -1760,14 +1760,14 @@ propišta			2
 propusta	3496		2
 propušta	2132		2
 prorasta			2
-proračunata	45		2
-proročišta	72		3
+proračunata	45		3
+proročišta	72		4
 prosikta			2
-prospekata	137		3
-prospekta	265		2
+prospekata	137		4
+prospekta	265		3
 prosperiteta	1540		2
 prosta	2420		2
-prostata	251		2
+prostata	251		3
 prostota	128		2
 prostrta	41		2
 prosuta	82		2
@@ -1776,11 +1776,11 @@ prota	1809		2
 protagonista	929		2
 protegljasta			2
 protegnuta	10		2
-protesta	11617		2
-protestanata	494		3
-protestanta	39		2
+protesta	11617		3
+protestanata	494		4
+protestanta	39		3
 protivzakonita	189		2
-provijanta			2
+provijanta			3
 prozaista	124		2
 prozelita	12		2
 prozorčeta			2
@@ -1790,7 +1790,7 @@ prošaputa			2
 prošeta			2
 prošišta			2
 prožeta	496		2
-prsata	42		2
+prsata	42		3
 prsta	4367		2
 prstenasta	45		2
 prstohvata	25		2
@@ -1799,9 +1799,9 @@ prusta			2
 pruta	70		2
 prvenčeta			2
 prvopomenuta			2
-pršuta	381		2
+pršuta	381		3
 pseta	48		2
-psihopata	603		2
+psihopata	603		3
 psihoterapeuta	476		2
 puberteta	906		2
 publicista	1195		2
@@ -1814,15 +1814,15 @@ pulta	371		2
 punkta			2
 punta	1431		2
 pupčasta			2
-purista	14		2
+purista	14		3
 pusta	1287		2
 puta	42706		2
-pučista	81		2
+pučista	81		3
 puškometa	10		4
 pušta	3653		2
 rabata	221		2
-rabota	808		2
-racionalista	67		2
+rabota	808		3
+racionalista	67		3
 radeta			2
 radgosta			2
 radilišta	107		2
@@ -1830,23 +1830,23 @@ radista			2
 radogosta			2
 ragbista			2
 raketa	5637		2
-rakita	81		2
+rakita	81		3
 raporata			2
-raporta	78		2
+raporta	78		3
 rariteta	91		2
 rascveta	53		2
-rasista	345		2
-raskinuta	221		3
+rasista	345		3
+raskinuta	221		4
 rasklimata			2
 raspadnuta	34		2
 raspeta	54		2
 raspita	426		2
 raspleta	632		2
 rasplinuta	24		2
-rasprodata	318		2
+rasprodata	318		3
 raspršta			2
 raspuknuta			2
-raspusta	2151		2
+raspusta	2151		3
 raspušta	139		2
 rasta	25250		2
 rastegnuta	29		2
@@ -1861,13 +1861,13 @@ razapeta	181		2
 razastrta			2
 razasuta	24		2
 razbojišta	16		2
-razborita	70		3
+razborita	70		4
 razbukta	50		2
 razdrta			2
 razgranata	262		2
 razgrnuta			2
-različita	12024		3
-razmaknuta	38		2
+različita	12024		4
+razmaknuta	38		3
 razmešta	74		2
 razmota	23		2
 razneta	25		2
@@ -1878,23 +1878,23 @@ računata			2
 račvasta	10		2
 rašeta			2
 reaktanata	19		2
-realista	457		2
+realista	457		3
 realiteta	84		2
 rebrasta	40		3
-recenzenta	168		2
-recepata	1698		3
-recepta	1570		2
+recenzenta	168		3
+recepata	1698		4
+recepta	1570		3
 reciprociteta	564		2
 reduta	14		2
 referata	658		2
 referenata	142		2
-referenta	475		2
-reformista	299		2
+referenta	475		3
+reformista	299		3
 regata	1116		2
 regenata			2
 regenta	182		2
 regesta			2
-regimenta	50		2
+regimenta	50		3
 regruta			2
 reketa	783		2
 rekonvalescenta	17		2
@@ -1906,7 +1906,7 @@ relikata	40		2
 relikta	25		2
 rembranta			2
 remeta		M	2
-remitenta	19		2
+remitenta	19		3
 remonata	116		2
 remonta	1108		2
 renata			2
@@ -1919,19 +1919,19 @@ repeta		M	2
 reprinta	36		2
 resita			2
 respekta		M	2
-restarta	300		3
+restarta	300		2
 retorta			2
 revanšista			2
-revolta	427		2
+revolta	427		3
 rezervata	1195		2
 rezervista	925		2
-rezidenata	181		3
-rezidenta	203		2
-rezultanta	136		2
+rezidenata	181		4
+rezidenta	203		3
+rezultanta	136		3
 rezultata	31800		2
-rečita	115		2
+rečita	115		3
 rešeta	164		2
-rešetkasta	56		3
+rešetkasta	56		4
 ribarčeta			2
 rifata			2
 rikošeta			2
@@ -1944,7 +1944,7 @@ robota	3139		3
 robusta			2
 rogata	56		2
 rogljasta			2
-rojalista	43		2
+rojalista	43		3
 rojta			2
 rolata	205		3
 romanista	25		2
@@ -1952,7 +1952,7 @@ rota			2
 rovita	74		2
 rozeta	214		2
 ročišta	1203		2
-rožnata			2
+rožnata			3
 rta	384		2
 rudimenata			2
 rukohvata	232		4
@@ -1965,24 +1965,24 @@ rđasta			2
 sabata			2
 sabirališta	16		2
 sabrata	182		2
-sadista	133		2
+sadista	133		3
 safeta			2
 sagnuta			2
 sahata			2
 sajmišta	224		3
 sajta	30583		2
-sakata	61		2
-sakramenta	225		2
-saksofonista	243		2
+sakata	61		3
+sakramenta	225		3
+saksofonista	243		3
 salata	2542		2
 saleta			2
 salta	76		2
 salveta	194		2
 samanta			2
 samcata	12		2
-samita	2985		2
+samita	2985		3
 samizdata	54		2
-samozaštita			2
+samozaštita			3
 sandučeta	167		2
 sandžakata			2
 saniteta	569		2
@@ -1993,7 +1993,7 @@ sata	48960		2
 satanista	133		2
 satelita	4862		2
 satrta			2
-saveta	48167		2
+saveta	48167		3
 savetovališta	1407		2
 sažeta	300		3
 saživota			2
@@ -2001,12 +2001,12 @@ scenarista	1936		2
 secesionista	133		2
 sedamstota			2
 sedefasta	16		2
-sedimenata	201		3
-sedimenta	130		2
+sedimenata	201		4
+sedimenta	130		3
 sedišta	12266		3
 sedmovrata			2
-segmenata	2659		3
-segmenta	3759		2
+segmenata	2659		4
+segmenta	3759		3
 segregacionista			2
 sekanta			2
 sekreta	1098		2
@@ -2014,17 +2014,17 @@ sekretarijata	6910		2
 seksista	16		2
 seksteta	34		2
 sekta	821		2
-sekundanta	10		2
+sekundanta	10		3
 selišta	93		2
 semita			2
 senata	1406		2
 senjorita			2
 senorita			2
-senovita	34		2
+senovita	34		3
 senta			2
-sentimenta	160		2
+sentimenta	160		3
 senzibiliteta	755		2
-seoceta	80		2
+seoceta	80		3
 separata	29		2
 separatista	824		2
 sertifikata	3823		2
@@ -2033,12 +2033,12 @@ sfumata			2
 shvata	6753		2
 sidrišta	91		3
 siesta	30		2
-sijaseta	10		2
+sijaseta	10		3
 sijesta		M	2
 silikata	55		2
-silovita	80		2
+silovita	80		3
 silueta	459		2
-simbionta			2
+simbionta			3
 simbiota			2
 simbolista	53		2
 simulanata			2
@@ -2047,16 +2047,16 @@ sindikata	31029		2
 sineasta	91		2
 sirišta	13		3
 sirota	480		2
-sirotišta	221		3
-siročeta	49		2
-sirćeta	941		2
+sirotišta	221		4
+siročeta	49		3
+sirćeta	941		3
 sisata			2
 sita	834		2
 sitasta			2
 sivkasta	62		3
-skauta	231		2
+skauta	231		3
 skejta	55		2
-skeleta	838		2
+skeleta	838		3
 skerleta			2
 skijališta	3019		2
 skinuta	1092		3
@@ -2064,23 +2064,23 @@ skita	230		2
 skladišta	4137		3
 skloništa	1312		3
 skonta	141		2
-skorbuta	86		2
+skorbuta	86		3
 skrajnuta	167		2
-skrenuta	395		2
+skrenuta	395		3
 skripta	631		2
 skrleta			2
-skrovita	51		2
+skrovita	51		3
 skrovišta	332		3
 skuta	150		2
 slagališta	23		2
 slankasta			2
 slatkasta	41		2
-slavista	300		2
+slavista	300		3
 sleta	67		2
 slikovita	180		2
-slojevita	164		2
+slojevita	164		3
 sluhista			2
-smaknuta	18		2
+smaknuta	18		3
 smesta		M	2
 smeta	18467		2
 smetlišta	440		3
@@ -2089,12 +2089,12 @@ smita			2
 smota	77		2
 smrknuta	41		2
 smrznuta	233		2
-snajperista	210		2
+snajperista	210		3
 socijaldemokrata	3143		2
 socijalista	5553		2
 sociopata			2
 sodomista			2
-sofista	93		2
+sofista	93		3
 softa			2
 sokrata			2
 soldata			2
@@ -2107,24 +2107,24 @@ sopota			2
 sopta			2
 sopčeta			2
 sorta	1866		2
-sortimenta	128		2
+sortimenta	128		3
 sovjeta	780		2
 sparta			2
 specijalista	5120		2
 specijaliteta	1490		2
 specijalizanata	76		2
 specijalizanta	64		2
-spekulanta			2
+spekulanta			3
 spiritista	11		2
 spiritualista			2
 spiroheta			2
 spleta	314		2
 splita			2
-spomenuta	690		2
+spomenuta	690		3
 sporta	23351		2
 sportista	9175		2
 spota	2055		2
-spoznata			2
+spoznata			3
 sprata	3685		2
 spregnuta	30		2
 spremišta	160		2
@@ -2134,7 +2134,7 @@ spušta	3637		2
 sramota	20851		2
 srasta	43		2
 sračunata	134		2
-srdita	17		2
+srdita	17		3
 srebrnasta	25		2
 srebrnkasta			2
 središta	1419		3
@@ -2145,54 +2145,54 @@ stalagmita	45		2
 stalaktita	57		2
 staljinista	109		2
 staništa	3199		3
-stanovita	29		2
-stanovišta	9079		3
+stanovita	29		3
+stanovišta	9079		4
 starleta	1333		2
 starta	4662		2
 stasita	51		2
-statista	337		2
+statista	337		3
 statueta	172		2
 statuta	8301		2
 stažista	174		2
 stecišta	81		2
-stegnuta	96		2
+stegnuta	96		3
 stenovita	120		2
 stepenasta	122		2
 stepeništa	1269		4
 steriliteta	719		2
 stevčeta			2
 stigmata			2
-stilista	505		2
+stilista	505		3
 stipendista	1428		2
 stisnuta	98		3
-stjuarta			3
+stjuarta			2
 stojančeta			2
 stojčeta			2
 stoleta			2
 stota	120		2
-stovarišta	309		3
+stovarišta	309		4
 strahota	503		2
-strahovita	360		2
+strahovita	360		3
 stratišta	455		2
 strelišta	300		2
 striptizeta	179		2
 strništa	67		2
 stropošta	54		2
 stubišta	26		3
-studenata	37189		3
-studenta	5773		2
+studenata	37189		4
+studenta	5773		3
 subjekata	6406		2
 subjekta	3237		2
-subota	5880		2
+subota	5880		3
 subreta			2
 sudišta	22		2
 suficita	474		2
-sujeta	1199		2
+sujeta	1199		3
 sulfata	207		2
 sumanuta	172		3
 sumatraista			2
 sumporasta			2
-suncokreta	2471		3
+suncokreta	2471		4
 sunita	228		2
 sunovrata	441		4
 sunđerasta			2
@@ -2202,7 +2202,7 @@ suplenta	36		2
 supstrata	365		2
 surikata			2
 surogata	118		4
-susreta	15766		2
+susreta	15766		3
 susretnuta			2
 suvata			2
 suvereniteta	4274		2
@@ -2228,46 +2228,46 @@ svrsta	449		2
 ta	195735		1
 tableta	4733		2
 tafta	29		2
-tajnovita	88		2
-taksista	1898		2
+tajnovita	88		3
+taksista	1898		3
 takta	1313		2
 talanta			2
-talasasta	215		2
-talenata	2485		3
-talenta	2498		2
-tamnoputa	104		2
-tangenta	57		2
+talasasta	215		3
+talenata	2485		4
+talenta	2498		3
+tamnoputa	104		3
+tangenta	57		3
 tanjirasta			2
 tankovrata			2
 tapeta	447		2
 taranta			2
-tarota	75		2
+tarota	75		3
 tasta	371		2
 tata	9906		2
 tačkasta	80		2
 tašta	400		2
 tehnokrata	126		2
-teista	26		2
+teista	26		3
 teksta	33320		2
-telefonista	22		2
-telegrafista	37		2
+telefonista	22		3
+telegrafista	37		3
 telepata			2
 teleporta			2
-teleta	208		2
-temeljita	77		2
-temperamenata	49		3
-temperamenta	590		2
+teleta	208		3
+temeljita	77		3
+temperamenata	49		4
+temperamenta	590		3
 teneta			2
-tenkista	39		2
+tenkista	39		3
 tenta			2
 terabajta	207		2
 terakota	92		2
-terapeuta	849		2
-tereta	4087		2
+terapeuta	849		3
+tereta	4087		3
 termita	63		2
-terorista	3145		2
+terorista	3145		3
 testa	7543		2
-testamenta			2
+testamenta			3
 teta	883		2
 teuta			2
 težišta	388		3
@@ -2289,16 +2289,16 @@ torta	1268		2
 tosta	134		2
 totaliteta	201		2
 trabanata			2
-tradicionalista	209		2
-trajekata			3
-trajekta	133		2
+tradicionalista	209		3
+trajekata			4
+trajekta	133		3
 trajčeta			2
 trakta	1682		2
 traktata	131		2
 traktorista	115		2
 transkripata	127		2
 transkripta	158		2
-transporta	6500		2
+transporta	6500		3
 transvestita	68		2
 tranzita	1019		2
 trapista	93		2
@@ -2307,16 +2307,16 @@ trasata	39		2
 trata		M	2
 travestita			2
 travijata			2
-travnata	96		2
+travnata	96		3
 trbušasta			2
 trepeta	32		3
 treseta			2
-trgovišta	377		3
+trgovišta	377		4
 trideseta	60		2
 trinaesta	212		2
 trista		M	2
 trkališta	54		2
-trnovita	22		3
+trnovita	22		4
 trockista	101		2
 trokuta	31		3
 trombocita	477		2
@@ -2328,22 +2328,22 @@ trta			2
 trusta	90		2
 truta	45		2
 tržišta	44236		3
-tuceta	138		2
+tuceta	138		3
 turbeta	68		2
-turista	10347		2
+turista	10347		3
 tusta			2
 tučeta			2
 tušta		M	2
 tvista	14		2
 ubita			2
-ubojita	106		3
+ubojita	106		4
 ucrta	48		2
-udahnuta	22		2
-udata	1386		2
+udahnuta	22		3
+udata	1386		3
 ugasita			2
 uglasta	28		2
 ugnuta			2
-ukinuta	3015		3
+ukinuta	3015		4
 ukleta	138		2
 ukršta	299		2
 uleta			2
@@ -2351,7 +2351,7 @@ uljasta	16		2
 ultraljubičasta	37		2
 umberta			2
 umeta			2
-umetnuta	97		3
+umetnuta	97		4
 umiljata	162		2
 umota	84		2
 uneta	626		2
@@ -2359,19 +2359,19 @@ unijata	90		2
 unionista	40		2
 unitarista	19		2
 univerziteta	48851		2
-unučeta	58		3
-upita	7072		2
+unučeta	58		4
+upita	7072		3
 uplata	3157		3
-uporišta	1187		3
-upoznata	1246		2
+uporišta	1187		4
+upoznata	1246		3
 upregnuta	54		2
 uputa	634		3
 upušta	897		2
 urasta	44		2
-uračunata	406		2
+uračunata	406		3
 urbanista	571		2
-urota	83		2
-ushita	16		2
+urota	83		3
+ushita	16		3
 usta	20815		2
 ustrepta			2
 ustrgnuta			2
@@ -2380,21 +2380,21 @@ utegnuta	72		2
 utilitarista	29		2
 utisnuta	150		2
 utopista	89		2
-utočišta	551		3
-uveta	416		2
+utočišta	551		4
+uveta	416		3
 uvrnuta	95		2
 uzdignuta	263		2
 uzdrhta			2
 uzeta	1342		3
 uzgajališta	87		2
 uzleta	278		2
-uzletišta	16		3
+uzletišta	16		4
 uzorita	13		2
 uzrasta	11970		3
 ućuta			2
 učesta	23		2
-učilišta	165		3
-učinkovita	76		2
+učilišta	165		4
+učinkovita	76		3
 učita	637		2
 ušata			2
 ušeta	103		2
@@ -2404,10 +2404,10 @@ užeta	432		3
 vajata			2
 vakta			2
 valjkasta	22		2
-valovita	82		2
+valovita	82		3
 valuta	5095		2
-varijanata	220		3
-varijanta	8680		2
+varijanata	220		4
+varijanta	8680		3
 varijeteta	387		2
 varišta			2
 vaskrsnuta			2
@@ -2416,7 +2416,7 @@ vata	560		2
 vatrišta	29		2
 vatrometa	441		4
 vazdušasta	23		2
-vašarišta	110		3
+vašarišta	110		4
 vedanta			2
 vedeta		M	2
 veduta	32		2
@@ -2424,16 +2424,16 @@ velebita			2
 vendeta	59		2
 vermahta			2
 vermonta			2
-vermuta	24		2
+vermuta	24		3
 vesta			2
 veta	950		2
-vetrovita	35		2
+vetrovita	35		3
 vezista	1017		2
-večita	1044		2
+večita	1044		3
 vešta	403		2
 vidovita	162		2
-vijadukata	18		3
-vijadukta	98		2
+vijadukata	18		4
+vijadukta	98		3
 vikarijata	14		2
 vikonta			2
 vilajeta	338		2
@@ -2444,7 +2444,7 @@ violista	42		2
 virovita			2
 vita	142		2
 vitalista			2
-vitičasta			3
+vitičasta			4
 vizita	58		2
 vizitkarta		M	2
 vižljasta	23		2
@@ -2456,10 +2456,10 @@ vodenasta	33		2
 volstrita			2
 volta	190		2
 voluta			2
-vragolasta	27		2
+vragolasta	27		3
 vrata	61583		2
 vrednota	35		2
-vremenita			2
+vremenita			3
 vresišta			2
 vrsta	58085		2
 vrta	2533		2
@@ -2469,14 +2469,14 @@ vulgata			2
 vunta			2
 vučeta			2
 zabata	79		2
-zabavišta	346		3
+zabavišta	346		4
 zabita			2
 zablista	460		2
-zabrinuta	1711		3
+zabrinuta	1711		4
 zabušanata			2
-zabušanta			2
-zacrta	57		2
-zadata	188		2
+zabušanta			3
+zacrta	57		3
+zadata	188		3
 zadosta			2
 zadrhta	10		2
 zadrta	28		2
@@ -2486,16 +2486,16 @@ zahvata	3916		2
 zaista	132719		3
 zakevta			2
 zakikota			2
-zakinuta	76		3
+zakinuta	76		4
 zakleta	27		2
 zaklikta			2
-zakonita	372		3
+zakonita	372		4
 zakrešta			2
-zaleta	131		2
+zaleta	131		3
 zaluta	374		2
 zamlata		M	3
 zamota	41		2
-zamrznuta	536		3
+zamrznuta	536		4
 zanata	3345		2
 zaneta	41		2
 zanoveta	58		2
@@ -2515,7 +2515,7 @@ zaprašta			2
 zapucketa	13		2
 zarasta	195		2
 zaraćunata			2
-zaračunata	11		2
+zaračunata	11		3
 zasmeta	374		2
 zastrta	16		2
 zasuta	109		2
@@ -2525,7 +2525,7 @@ zatisnuta			2
 zatrepta			2
 zatrta	23		2
 zauzeta	843		2
-zaveta	1682		2
+zaveta	1682		3
 zavešta	59		2
 zavojišta	131		2
 zavrišta			2
@@ -2540,7 +2540,7 @@ zašušta			2
 zblanuta			2
 zbrinuta	258		3
 zdepasta	46		3
-zelenkasta	117		2
+zelenkasta	117		3
 zelenožuta			2
 zeljasta	166		2
 zemljišta	26195		3
@@ -2555,13 +2555,13 @@ zimovišta			2
 zlata	11954		2
 zlatasta	11		2
 zlatnožuta	20		2
-zlatousta	150		2
-zločesta	48		2
+zlatousta	150		3
+zločesta	48		3
 zmijasta			2
-znamenita	290		2
+znamenita	290		3
 znata			2
 zrakasta			3
-zrnasta	79		2
+zrnasta	79		3
 zubata	15		2
 zupčasta	28		2
 zveketa	15		2
@@ -2570,7 +2570,7 @@ zvonceta			2
 ćabata			2
 ćaknuta			2
 ćata			2
-ćebeta	177		2
+ćebeta	177		3
 ćemaneta			2
 ćereta			2
 ćifta		M	2
@@ -2581,10 +2581,10 @@ zvonceta			2
 ćubasta	13		2
 ćufta			2
 čelista	71		2
-čeljadeta	32		2
+čeljadeta	32		3
 čembalista	23		2
 česta	4365		2
-čestita	1357		2
+čestita	1357		3
 čestota			2
 četa	1475		2
 četrdeseta	29		2
@@ -2600,7 +2600,7 @@ zvonceta			2
 čitališta	286		2
 čokota	421		3
 čorbasta			2
-čudnovata	208		2
+čudnovata	208		3
 čudovita			2
 čudovišta	1102		2
 čvorišta	371		2
@@ -2611,7 +2611,7 @@ zvonceta			2
 đuleta			2
 đulijeta			2
 šabata	33		2
-šahista	471		2
+šahista	471		3
 šahta	217		2
 šamota	42		2
 šampionata	5366		2
@@ -2621,7 +2621,7 @@ zvonceta			2
 šegrta			2
 šerbeta			2
 šereta			2
-šerijata	140		2
+šerijata	140		3
 šesnaesta	63		2
 šesta	1842		2
 šeta	2498		2
@@ -2636,22 +2636,22 @@ zvonceta			2
 šljahta			2
 šobota			2
 šogunata			2
-šovinista	321		2
+šovinista	321		3
 špageta	176		2
 šparta	63		2
 špinata	11		2
 šporeta			2
 šta	546594		1
 štafeta	660		2
-šteneta	247		2
+šteneta	247		3
 šteta	20400		2
 štita	1019		2
 štitasta	114		3
 štošta	1474		2
 štrafta		M	2
-štutgarta			3
+štutgarta			2
 šuberta			2
-šumovita	50		2
+šumovita	50		3
 šuta	2156		2
 šutnuta	15		2
 šušketa			2
@@ -2667,7 +2667,7 @@ zvonceta			2
 žita	5022		2
 živinčeta	20		2
 života	146901		2
-žumanceta	173		2
+žumanceta	173		3
 žurnalista			2
 žuta	3735		2
 žućkasta	149		3
@@ -2675,35 +2675,35 @@ brijesta	12		3
 cvijeta	387		2
 cvjeta			2
 dijeteta			2
-djeteta	1009		2
-djetinjasta			3
-dlijeta			2
+djeteta	1009		3
+djetinjasta			4
+dlijeta			3
 donijeta	192		3
 dvjesta			2
 izbjegnuta			2
 kliješta	31		2
-ljekovita			2
+ljekovita			3
 ljepota			2
 ljeta			2
 mijesta			2
 mjesta			2
-mješovita			2
+mješovita			3
 namješta			2
-nevjesta			2
-opsjednuta			3
+nevjesta			3
+opsjednuta			4
 podnijeta	49		3
 posjeta			3
 premješta			2
 prenijeta	31		3
 procvjeta			2
-savjeta			2
+savjeta			3
 sjedišta			3
 smjesta	115		2
 smješta			2
 svijeta	8308		3
 svjeta			2
 tijesta	63		3
-uvjeta			2
+uvjeta			3
 vješta			2
 zanovijeta			2
-zavjeta			2
+zavjeta			3

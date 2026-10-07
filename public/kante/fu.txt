@@ -1,17 +1,17 @@
 61
-Josifu			2
+Josifu			3
 adolfu			2
-biografu	47		2
+biografu	47		3
 bitefu			2
 diktografu			2
 diseldorfu			2
 dizeldorfu			2
-epitafu	12		2
+epitafu	12		3
 esnafu			2
 filosofu			2
-filozofu	231		2
-fonografu			2
-fotografu	208		2
+filozofu	231		3
+fonografu			3
+fotografu	208		3
 fu		M	1
 golfu	459		2
 grafu	363		2
@@ -30,33 +30,33 @@ katastrofu	2140		2
 kefu			2
 kifu			2
 kofu			2
-koreografu	30		2
+koreografu	30		3
 krfu			2
 lafu			2
 limfu	46		2
 litografu			2
 mustafu			2
 nimfu	109		2
-paragrafu	259		2
+paragrafu	259		3
 plejofu	59		2
-poligrafu	118		2
+poligrafu	118		3
 rafu		M	2
-reljefu	270		2
+reljefu	270		3
 rudolfu			2
-scenografu	21		2
+scenografu	21		3
 sefu	409		2
 senfu	15		2
 sofu	169		2
 stenografu			2
 strofu	159		2
 tarifu	619		2
-telegrafu	129		2
+telegrafu	129		3
 tofu	318		2
-trijumfu	830		2
+trijumfu	830		3
 uefu			2
 ćefu			2
 đerđefu			2
 šefu	1823		2
-šerifu	34		2
+šerifu	34		3
 štofu			2
 žirafu	119		2

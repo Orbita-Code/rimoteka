@@ -2,14 +2,14 @@
 Firence			2
 Leskovce			2
 Mesece	1000		3
-Podgorice			3
-Subotice			3
+Podgorice			4
+Subotice			4
 Užice			3
 ace			2
 admiralice			2
-advokatice	45		2
+advokatice	45		3
 afrikance			2
-agentice			3
+agentice			4
 akademce	134		2
 albance			2
 alkice			2
@@ -31,7 +31,7 @@ aščinice			2
 babice	489		3
 bace	1785		2
 bajalice	121		2
-bakalnice	71		2
+bakalnice	71		3
 bakice	195		2
 baladice			2
 balavce	13		3
@@ -58,16 +58,16 @@ belce	116		2
 beležnice			2
 belgijance			2
 beljanice			2
-beračice	16		2
+beračice	16		3
 berbernice	48		2
 besanice			2
-beskućnice	12		3
-besmislice	744		3
-besparice	507		3
-besposlice	55		3
+beskućnice	12		4
+besmislice	744		4
+besparice	507		4
+besposlice	55		4
 bestidnice			2
 bezdanice			2
-bezobraznice	16		3
+bezobraznice	16		4
 bezobzirce		M	2
 bečejce			2
 biljčice	111		2
@@ -80,7 +80,7 @@ blagovaonice			2
 blesavice			4
 blizance	904		2
 bljuzgavice			4
-bludnice	136		2
+bludnice	136		3
 bobice	618		2
 boce	2495		2
 bogatašice	49		2
@@ -89,20 +89,20 @@ bogorodice	5411		2
 bojice	209		2
 bokserice	181		4
 bokvice	172		3
-bolesnice	141		2
-boljetice			3
-bolnice	15858		2
+bolesnice	141		3
+boljetice			4
+bolnice	15858		3
 bombice	64		2
 bombonice			2
 borce	1300		2
-borovnice	1186		2
+borovnice	1186		3
 bosance	183		2
 bočice	685		3
-božice	66		2
+božice	66		3
 brace	151		2
-bradavice	2072		3
+bradavice	2072		4
 bradice	27		2
-branioce	283		3
+branioce	283		4
 brankice			2
 bratanice	46		2
 bratoubice			2
@@ -120,19 +120,19 @@ britance	217		2
 britvice			3
 brnjice	60		3
 brodarice	18		2
-brodice	41		2
+brodice	41		3
 brodolomce			2
 brojalice	32		2
 brojanice	263		2
 brošurice			2
-brusnice	539		2
+brusnice	539		3
 bubalice			2
 bubice	508		2
-bubuljice	717		2
+bubuljice	717		3
 buce			2
-budalice	11		2
-bugarštice	110		2
-bujice	451		2
+budalice	11		3
+bugarštice	110		3
+bujice	451		3
 bukovice			4
 buljarice			2
 bundevice			4
@@ -141,17 +141,17 @@ buntovnice	25		3
 buregdžinice	18		2
 burence		M	2
 burmice			2
-burmutice	10		3
+burmutice	10		4
 butkice			2
-bušilice	223		3
+bušilice	223		4
 carevce			2
 carice	1243		3
-carinarnice	352		2
+carinarnice	352		3
 cece		M	2
 ceduljice	88		2
-cepanice	109		3
-cevanice	68		2
-cevčice	252		2
+cepanice	109		4
+cevanice	68		3
+cevčice	252		3
 cice			2
 cimerice			2
 cipelice	479		2
@@ -162,20 +162,20 @@ crnce	310		2
 crnice	110		2
 crtice	425		3
 crvenice	15		2
-crvenkapice	20		4
+crvenkapice	20		5
 crvenokošce			2
 cuclice			2
 curice	182		3
 cvjećarnice		J	2
 dace			2
 damice			2
-današnjice	4331		3
+današnjice	4331		4
 danice			2
 danomice	16		4
 darodavce	35		2
 darovnice	27		2
-davaoce	423		3
-daščice	120		2
+davaoce	423		4
+daščice	120		3
 debeljuce	61		2
 dece	82929		2
 dedice	36		2
@@ -185,49 +185,49 @@ delimice		M	2
 delioce	27		2
 delovce			2
 denice			2
-deonice	5327		2
+deonice	5327		3
 deseterce	19		2
-desetice	31		3
+desetice	31		4
 desetnice			2
-desetorice	131		2
-desnice	2086		2
-despotice	75		3
+desetorice	131		3
+desnice	2086		3
+despotice	75		4
 detence	207		2
-detešce	16		2
+detešce	16		3
 detinjce			2
 devetnaestice			2
-devetorice	67		2
-device	1763		2
-devojčice	8850		2
+devetorice	67		3
+device	1763		3
+devojčice	8850		3
 dečice	261		2
 dimnice			2
 dinice		M	2
 diplomce	1101		2
 distance	3215		2
 dizalice	543		4
-djetešce		J	2
+djetešce		J	3
 dlačice	895		3
 dnevnice	1954		3
 dobace	131		2
-dobitnice	270		3
+dobitnice	270		4
 dobrice	687		2
-dobrodošlice	1062		2
+dobrodošlice	1062		3
 dobrovoljce	500		2
 doce			2
 dodolice			2
 dodvorice			2
 dojilice			2
 dokolenice	74		2
-dokolice	317		3
+dokolice	317		4
 doktorice			2
 dokumentarce	176		2
 dolamice			2
 dolinice			2
-domaćice	2387		2
+domaćice	2387		3
 domoroce	78		2
 domorodce	24		2
 donosioce			2
-dopisnice	121		3
+dopisnice	121		4
 doskočice	107		2
 doslovce	1609		2
 doviđence			2
@@ -243,7 +243,7 @@ družbenice	23		2
 drvce	203		2
 drznice			3
 držaljice			2
-državice	392		3
+državice	392		4
 dubice			2
 dubočice			2
 dubravice			4
@@ -252,21 +252,21 @@ dugmice			2
 dukserice	85		2
 dupence			2
 duplerice	26		2
-dušice	455		2
+dušice	455		3
 dužice	137		2
 dvadesetice			2
 dvadesetogodišnjice	114		2
-dvanaestorice	134		2
-dvojice	6883		2
+dvanaestorice	134		3
+dvojice	6883		3
 dvojnice	84		3
 dvojčice			2
 dvokolice	58		2
 dvorce	189		2
 dvornice			2
 dvoumice			2
-džigerice	214		3
+džigerice	214		4
 džukce			2
-ekavice	54		3
+ekavice	54		4
 esesovce			2
 evice			2
 evropejce			2
@@ -274,7 +274,7 @@ fabričice			2
 farmerice	408		2
 federalce			2
 feudalce			2
-figurice	432		2
+figurice	432		3
 finance			2
 fince			2
 flašice			2
@@ -299,52 +299,52 @@ generalice			2
 genijalce	90		2
 gepardice			2
 gerilce	38		2
-gibanice	131		3
+gibanice	131		4
 girice	61		2
 gladnice			2
-glagoljice	118		2
+glagoljice	118		3
 glasnice	61		2
-glavice	849		2
+glavice	849		3
 glavinice			2
-glavnice	977		2
+glavnice	977		3
 glačalice			2
 gledaoce			2
 glinice	216		2
 gljivice	1083		2
 glumce	1906		2
-glumice	2258		2
+glumice	2258		3
 glupačice			2
 gmizavce	104		3
 gnezdašce	11		2
 goce			2
 godinice	32		2
-godišnjice	5243		3
+godišnjice	5243		4
 gojzerice	43		2
 golenice	10		2
 golice			2
 golomrazice	14		2
-golubice	221		2
+golubice	221		3
 golubince			2
 gomilice	104		2
 gonioce			2
 gorance			2
 gorice	276		2
-gorušice	228		2
+gorušice	228		3
 gorčice			2
-gospodarice	103		2
+gospodarice	103		3
 gospojice			2
 gospođice	1074		4
 gospođince			2
-gostionice	166		2
+gostionice	166		3
 govance			2
 govedarice	27		2
 govornice	1771		2
 grabežljivce			2
 grabljivce	18		2
 grabljivice	422		4
-gradonačelnice	454		3
-granice	33054		2
-grančice	711		2
+gradonačelnice	454		4
+granice	33054		3
+grančice	711		3
 gračanice			2
 građevince			2
 grbavce			3
@@ -360,17 +360,17 @@ grizlice			2
 grlašce			2
 grlice	214		3
 grobnice	2069		3
-grofice	107		2
-groznice	1026		2
+grofice	107		3
+groznice	1026		3
 grožđice	55		2
 grudice	13		2
 grudvice	224		2
 grujice			2
-gruntovnice	13		2
+gruntovnice	13		3
 grupice	433		2
 gubavce	20		2
 gubice	42		3
-gubitnice	20		3
+gubitnice	20		4
 gumice	448		3
 gusenice	407		4
 gušterice	28		2
@@ -378,13 +378,13 @@ gđice	45		2
 hadžinice			2
 haljinice	235		2
 hartijice			2
-haubice	88		3
+haubice	88		4
 heftalice			2
-hercegovce	92		3
+hercegovce	92		4
 heteroseksualce	51		2
 hice	96		2
 hlačice			2
-hobotnice	241		3
+hobotnice	241		4
 hodalice	43		2
 hoklice			2
 homoseksualce	630		2
@@ -393,20 +393,20 @@ hranilice	317		2
 hrpice			2
 hrpimice		M	2
 hrskavice	578		4
-hrvatice	196		3
+hrvatice	196		4
 hvalisavce			2
-iglice	295		2
+iglice	295		3
 igraonice	679		2
-igračice	2523		2
+igračice	2523		3
 igračkice	117		2
 igračnice	32		2
 igrice	5146		2
 ikonice	830		2
 ikonoborce			2
 ilegalce	52		2
-imaoce	65		3
+imaoce	65		4
 imenice	739		4
-inačice	63		2
+inačice	63		3
 indijance	209		2
 indijce	50		2
 instance	828		2
@@ -425,19 +425,19 @@ iverice	250		2
 ivice	4729		3
 izabranice	777		2
 izbace	2209		2
-izbeglice	4932		3
+izbeglice	4932		4
 izbice			2
 izbiračice			2
-izdajice	341		3
+izdajice	341		4
 izdajnice	20		3
-izelice	20		3
-izjelice			3
+izelice	20		4
+izjelice			4
 izmaglice	118		2
 izmice			2
 iznutrice	217		2
 izraelce	122		2
 izvanzemaljce			2
-izvedenice	63		2
+izvedenice	63		3
 izvestioce	15		2
 izvidnice	32		2
 izviđačice			2
@@ -461,10 +461,10 @@ janješce		J	3
 jankovice			4
 japance	286		2
 jarce	35		2
-jarebice	135		2
+jarebice	135		3
 jarence		M	2
 jarice			2
-jasenice			2
+jasenice			3
 jaslice	277		2
 jasnice			2
 jastučnice	100		2
@@ -472,7 +472,7 @@ jatimice		M	2
 jatomice		M	4
 jazavce	24		3
 jedanaestice	18		2
-jedinice	21113		2
+jedinice	21113		3
 jedrilice	344		2
 jedvice	11		2
 jefimijice			2
@@ -485,43 +485,43 @@ jovanice			2
 jovice			2
 jošanice			2
 jufkice			2
-junice	451		2
+junice	451		3
 jurice			2
 juvelirnice			2
 jučerašnjice	16		2
-kabanice	97		2
+kabanice	97		3
 kace			2
-kadionice	66		4
+kadionice	66		5
 kafanice	84		2
-kajkavce	11		2
+kajkavce	11		3
 kajzerice	14		2
 kaluđerice	196		2
 kamenice	1190		4
-kamilice	787		2
+kamilice	787		3
 kanarince	59		2
 kandilce			2
 kantice	127		2
-kapelice	74		2
+kapelice	74		3
 kapetanice			2
 kapice	329		3
 kapljice	932		3
-kaprice	23		2
+kaprice	23		3
 karičice			2
-karlice	985		2
+karlice	985		3
 karlovce			2
-kartice	16815		2
+kartice	16815		3
 karuce		M	2
 kasapnice			2
 kasice	105		2
-katance	141		2
+katance	141		3
 katice			2
 katovice			4
 kaubojce			2
 kaznionice	28		2
 kašice	482		2
-kašičice	1239		3
+kašičice	1239		4
 kelnerice			2
-kepece			2
+kepece			3
 kesice	1220		2
 kibuce			2
 kiflice	293		2
@@ -537,12 +537,12 @@ kladence			2
 kladionice	1190		2
 klance	72		2
 klanice	637		2
-klaonice	32		2
+klaonice	32		3
 klarice			2
 klerikalce			2
 klice	880		2
 klince			2
-klizačice	33		2
+klizačice	33		3
 ključaonice	38		2
 klupice	128		2
 knedlice			2
@@ -550,8 +550,8 @@ kneginjice			2
 knjižarnice			2
 književnice	371		3
 knjižice	2867		3
-kobasice	1292		2
-kobilice	49		3
+kobasice	1292		3
+kobilice	49		4
 koce	56		2
 kockarnice	371		3
 kockice	3045		2
@@ -570,13 +570,13 @@ komarce	481		2
 komarice			2
 komovice	59		4
 komunalce	76		2
-komšinice	625		3
+komšinice	625		4
 konce	1489		2
 konjice	434		3
 konjokradice	20		2
 konjušnice	75		2
-konobarice	197		2
-konopce	175		2
+konobarice	197		3
+konopce	175		3
 konsekvence			2
 konstance			2
 konzervativce	151		2
@@ -602,40 +602,40 @@ kostajnice			2
 kosturnice	154		3
 kotarice	79		2
 kotlarnice	549		3
-kovanice	471		2
+kovanice	471		3
 kovačice			2
 kovačnice	117		3
 kovnice			2
-kozice	96		2
+kozice	96		3
 kočnice	2446		3
-košarice	20		3
-košarkašice	1064		2
+košarice	20		4
+košarkašice	1064		3
 košice			2
 košnice	2709		3
-koštice	416		2
+koštice	416		3
 koštunice			2
-košuljice	326		3
-koščice	78		2
+košuljice	326		4
+koščice	78		3
 kožice	322		3
 kožurice			2
 krabuljice			2
 kradimice		M	4
-kradljivce	128		2
+kradljivce	128		3
 kradljivice	12		4
 kradomice		M	4
-kralježnice	42		3
-kraljice	3275		2
+kralježnice	42		4
+kraljice	3275		3
 krasnice			2
-krasotice			3
+krasotice			4
 krastavce	320		3
-kratice	33		2
+kratice	33		3
 kravice	138		2
 krbuljice			2
 krelce			2
 kremice	85		2
 kresnice			2
 krezubice			2
-krijesnice	16		2
+krijesnice	16		3
 krilce	50		2
 kriminalce	1650		2
 krioce			2
@@ -644,20 +644,20 @@ krivce	1109		2
 krivice	6267		2
 kriščice			2
 krofnice			2
-krojačice	68		2
+krojačice	68		3
 krojačnice	10		2
 kromanjonce			2
 krpice	623		3
 krsnice			2
-krstarice	208		3
-krstionice	48		3
-krtice	239		2
+krstarice	208		4
+krstionice	48		4
+krtice	239		3
 krunice	412		3
 krupice	19		2
 kruškice			2
 kruščice			2
-kružnice	117		2
-krvavice	31		3
+kružnice	117		3
+krvavice	31		4
 krvnice			3
 krčmarice	29		2
 krštenice	108		4
@@ -670,13 +670,13 @@ kujice			2
 kukavice	1022		4
 kukice	112		2
 kukuljice	23		2
-kumice	29		2
+kumice	29		3
 kupačice	36		2
 kupce	6474		2
 kupice			2
 kusce			2
 kusturice			2
-kutijice	247		3
+kutijice	247		4
 kuvarice	366		2
 kućanice			4
 kućice	1553		3
@@ -685,41 +685,41 @@ kvazisvece			2
 kvačice	58		3
 kvržice	117		2
 kćerkice	55		2
-ladice	94		2
+ladice	94		3
 lafice			2
 lampice	486		2
 lance	1445		2
-lasice	100		2
+lasice	100		3
 lastavice	111		4
 latice	499		3
-latinice	1259		2
-lavice	282		2
+latinice	1259		3
+lavice	282		3
 lazarice			2
 lađice	45		2
-lažljivce	20		2
+lažljivce	20		3
 lažljivice	15		4
-ledenice	378		2
+ledenice	378		3
 lenjivce	59		2
 lenjivice			4
 lepenice			2
 lepinjice			2
-lepotice	1304		2
+lepotice	1304		3
 leptirice	58		2
 lestvice	1056		3
-letelice	2624		3
+letelice	2624		4
 letilice			2
 letimice		M	2
-levice	2708		2
+levice	2708		3
 lešnice			2
 lice	52433		2
 licence	5627		2
 lipice			2
-lisice	1351		2
-lisnice			2
+lisice	1351		3
+lisnice			3
 listice			2
-litice	858		2
+litice	858		3
 livnice			2
-lizalice	108		3
+lizalice	108		4
 lišce			2
 ljigavce	27		2
 ljotićevce			2
@@ -738,34 +738,34 @@ lokalce	54		2
 lokvice	11		2
 lonce	279		2
 lončarnice			3
-lopatice	481		3
+lopatice	481		4
 loptice	1286		3
 lovce	597		2
 lovice			2
-lovokradice	28		2
+lovokradice	28		3
 lozice			2
-ložnice	34		2
-lubenice	916		2
+ložnice	34		3
+lubenice	916		3
 ludice			2
-ludnice	238		2
+ludnice	238		3
 lukavice	46		4
 lukovice	252		4
-lutalice	968		3
+lutalice	968		4
 lutkice	186		3
 lučice	67		2
 lužnice	77		2
 mace	887		2
-madrace	35		2
-magarce	181		2
+madrace	35		3
+magarce	181		3
 magarence		M	2
-magarice	52		3
-maglice	70		2
+magarice	52		4
+maglice	70		3
 majevice			4
 majice	3595		3
 majmunice	14		2
 majstorice	126		2
 majčice	188		2
-makazice		M	3
+makazice		M	4
 makedonce	215		2
 malkice	665		2
 maloletnice	201		5
@@ -773,13 +773,13 @@ malčice	843		2
 mamce	242		2
 mamice	160		3
 manijace			2
-maramice	939		3
-marelice	34		2
+maramice	939		4
+marelice	34		3
 marice			2
 marince	94		2
 markice	805		2
 marsovce			2
-masnice	90		2
+masnice	90		3
 mastionice	12		2
 materice	4325		4
 maternice	98		4
@@ -793,7 +793,7 @@ mašice		M	2
 mašince	40		2
 mašnice	106		2
 medenice			2
-medvedice	23		3
+medvedice	23		4
 mekušce	30		2
 menice	1221		3
 menjačnice	526		3
@@ -802,14 +802,14 @@ mesece	1000		3
 mesnice	22		2
 mestance		M	2
 mestašce	298		2
-mestimice	76		3
+mestimice	76		4
 metalce	54		2
 metlice	133		2
-metvice	47		2
+metvice	47		3
 mezimce	46		2
-međice	69		2
+međice	69		3
 međusobice			2
-mešalice	150		3
+mešalice	150		4
 mešance	28		2
 mice		M	2
 milice			2
@@ -817,42 +817,42 @@ miljenice	68		4
 milojice			2
 minđušice			2
 mirotvorce	45		2
-mislioce	239		3
+mislioce	239		4
 mitovice			4
 mitraljesce			2
 mitrovice			4
 mišice	208		3
-mladence	355		2
+mladence	355		3
 mladice	365		2
 mladunce	308		2
 mlaznice	235		2
 mlekarice	11		2
 mlekce		M	2
-modrice	523		2
+modrice	523		3
 molioce			2
 moljce	45		2
 momce			2
 moravice			4
 moreplovce	19		2
-mornarice	1327		2
+mornarice	1327		3
 mozgalice	123		2
 mošnice	84		3
 mrdalice			2
 mrežice	375		2
-mrežnice	16		2
+mrežnice	16		3
 mrljice	40		2
-mrtvace	128		2
+mrtvace	128		3
 mrtvačnice	127		3
 mrvice	1034		3
 mršavice	62		4
-mudrace	125		2
+mudrace	125		3
 mudrice	27		2
 mućkalice			2
 mučenice	438		4
-mušice	1038		2
+mušice	1038		3
 muškarce	7268		2
 nabace	97		2
-nadlaktice	321		3
+nadlaktice	321		4
 nadnice	400		3
 nadstrešnice	395		2
 nadzornice	12		2
@@ -868,54 +868,54 @@ namirnice	8399		2
 napojnice	122		3
 napolice			2
 naramenice	68		2
-narednice			3
+narednice			4
 narudžbenice	179		2
-narukvice	1025		3
+narukvice	1025		4
 naručioce	153		2
-naslednice	300		3
+naslednice	300		4
 naslovnice	308		2
 nastavnice	601		3
 nastrešnice			2
-nasumce	99		2
-nasumice	593		3
-natuknice	25		3
+nasumce	99		3
+nasumice	593		4
+natuknice	25		4
 naučnice	123		2
-naušnice	224		3
+naušnice	224		4
 navalice			2
-navijačice	94		2
+navijačice	94		3
 navodnice			2
 nazuvice			4
 načelnice	353		2
 neandertalce	33		2
 nedeljice			2
-nedoumice	3080		3
+nedoumice	3080		4
 negativce	110		2
-negovateljice	164		2
-nehotice	946		3
+negovateljice	164		3
+nehotice	946		4
 nemce	1674		2
 nemice			2
-nemilice	847		3
-neopazice			3
+nemilice	847		4
+neopazice			4
 nepce	244		2
 nepoznanice	275		5
 neprestance	26		4
-neprijateljice	11		2
+neprijateljice	11		3
 nerodice			2
-nesanice	1065		3
+nesanice	1065		4
 nesretnice	26		2
 nesrećnice	55		2
-nestašice	1809		3
-nesuglasice	1377		3
+nestašice	1809		4
+nesuglasice	1377		4
 nesuđenice			2
-nesvestice	202		3
-netremice	381		3
+nesvestice	202		4
+netremice	381		4
 nevaljalce	14		2
 nevaljalice			2
-neverice	323		3
+neverice	323		4
 nevernice	15		3
 nevinašce	92		2
 nezahvalnice			5
-neznalice	942		3
+neznalice	942		4
 neznance	14		2
 nečlanice	53		2
 neštedimice		M	2
@@ -924,7 +924,7 @@ nizbrdice	76		2
 ničice	350		2
 njivice	52		2
 njuškice	29		2
-nogavice	252		3
+nogavice	252		4
 nogice			2
 noklice			2
 nosilice			2
@@ -934,7 +934,7 @@ nosnice	73		2
 novce	2759		2
 novice			2
 novopridošlice	11		2
-novčanice	1280		2
+novčanice	1280		3
 nožice	471		3
 nožnice		M	2
 obadvojice			2
@@ -943,25 +943,25 @@ obaveštajce	39		2
 obdanice			2
 obilaznice	1255		2
 oblačionice			2
-obljetnice	156	J	3
+obljetnice	156	J	4
 oboce			2
-obojice	423		2
-obožavaoce	458		3
+obojice	423		3
+obožavaoce	458		4
 obožavateljice			2
-obrasce	1920		2
+obrasce	1920		3
 obrvice			4
-obveznice	4768		3
+obveznice	4768		4
 odbace	777		2
-odbojkašice	1821		2
+odbojkašice	1821		3
 odbornice	207		2
 odelce		M	2
 odluce			2
 odmetnice			2
-odrednice	1469		3
+odrednice	1469		4
 odstupnice	53		2
 ogledalce	307		2
 ognjice			2
-ogrlice	867		3
+ogrlice	867		4
 okance			2
 okce	91		2
 okice	222		2
@@ -971,27 +971,27 @@ okretnice	430		2
 okruglice	12		2
 okružnice	21		2
 okućnice	245		2
-olakšice	2883		3
+olakšice	2883		4
 olimpijce	146		2
 olovčice			2
 omaglice	14		2
 omladince			2
-omotnice	25		3
-opatice	41		2
+omotnice	25		4
+opatice	41		3
 operativce	81		2
 opsenice			2
-optužnice	4127		3
-oranice	754		2
+optužnice	4127		4
+oranice	754		3
 oraovice			2
 orlovice			4
 oružarnice			2
-oskudice	386		3
-oslobodioce	153		3
-oslonce	112		2
+oskudice	386		4
+oslobodioce	153		4
+oslonce	112		3
 osmatračnice	163		2
-osmice	466		2
-osmorice	167		2
-osmrtnice			3
+osmice	466		3
+osmorice	167		3
+osmrtnice			4
 osnovce	878		2
 osnovice	1225		4
 ospice	84		3
@@ -999,7 +999,7 @@ ostružnice			2
 ostrvce	247		2
 osuđenice	33		2
 osvetnice			2
-otmice	1006		2
+otmice	1006		3
 otpremnice	192		2
 otrovnice	147		2
 ovce	5701		2
@@ -1008,11 +1008,11 @@ ovčice	164		2
 očajnice	19		2
 očevice	45		2
 očice	25		2
-oštrice	797		2
+oštrice	797		3
 padalice	103		2
 padavice	38		4
 padobrance	81		2
-pahuljice	849		2
+pahuljice	849		3
 pakistance			2
 paklice	207		2
 pakosnice			2
@@ -1039,36 +1039,36 @@ patarice			2
 patkice	40		3
 patkičice			2
 patosnice			2
-paunice	16		2
+paunice	16		3
 pašinice			2
 pedesetice			2
 pegice			2
 pekarnice			3
 pelenice			2
 penjalice	93		2
-penjačice	101		2
+penjačice	101		3
 perce	151		2
 perece	155		2
 perice			2
 perionice	179		2
-perjanice	466		3
+perjanice	466		4
 perlice	257		2
-pernice	56		2
+pernice	56		3
 persijance			2
 pesmarice	62		2
 pesmice	641		2
-pesnice	695		2
-petice	913		2
+pesnice	695		3
+petice	913		3
 petnice			2
-petorice	516		2
-pevačice	2935		2
+petorice	516		3
+pevačice	2935		3
 pevnice	152		2
 pećnice	217		2
 pečenice	98		2
 pešice	1337		3
 pijace			2
 pijance	41		2
-pijanice	148		3
+pijanice	148		4
 pijavice	408		4
 pikavce			2
 pilence	54		2
@@ -1086,7 +1086,7 @@ pitice			2
 pitomce	97		2
 pitomice			4
 pivce	185		2
-pivnice	340		2
+pivnice	340		3
 pićence	115		2
 planince			2
 planinice			2
@@ -1094,10 +1094,10 @@ plavce	78		2
 plavušice			2
 plačljivice			4
 plaštanice	112		2
-plesačice	288		2
-pletenice	441		2
+plesačice	288		3
+pletenice	441		3
 plitvice			2
-plivačice	84		2
+plivačice	84		3
 pljeskavice	529		4
 pljoštimice		M	2
 pločice	2964		3
@@ -1106,105 +1106,105 @@ pobednice	465		2
 poddeonice			2
 podgorce			2
 podgrlice			2
-podlaktice	449		3
+podlaktice	449		4
 podmornice	972		3
 podnice	38		2
-podnosioce	276		3
+podnosioce	276		4
 podobrasce			2
-podružnice	1206		3
+podružnice	1206		4
 podsetnice			2
 podstanice	330		2
 podstice			2
 podvezice	46		2
 pogačice	200		2
-poglavice	263		3
+poglavice	263		4
 pohvalnice	129		2
 poimence	373		2
 poimenice	159		2
 pojce			2
 pojedince	4067		2
 pokajnice	42		2
-poklopce	287		2
+poklopce	287		3
 pokojnice	78		2
 pokorice	63		2
 pokožice	123		2
 pokrovce			2
 poledice	223		2
 policajce	1690		2
-police	2236		2
+police	2236		3
 politrice			2
 poličice			2
 poljanice			2
 poljubce			2
-poljupce	540		2
+poljupce	540		3
 polovce			2
-polovice	308		2
+polovice	308		3
 poludnice			2
-pomorce	76		2
-pomoćnice	333		2
+pomorce	76		3
+pomoćnice	333		3
 ponornice	80		2
 porebrice	14		2
 porice			2
-porodice	52531		3
+porodice	52531		4
 porotnice			2
 portirnice	69		2
 portugalce	59		2
 porukice	43		2
-poručnice			3
+poručnice			4
 posadnice			2
-posebice	615		3
-posetioce	6974		3
-posetnice	18		3
+posebice	615		4
+posetioce	6974		4
+posetnice	18		4
 poskočice	43		2
-poslanice	1256		3
-poslastice	1057		3
+poslanice	1256		4
+poslastice	1057		4
 poslastičarnice	411		2
-posledice	33668		3
-posljedice		J	3
+posledice	33668		4
+posljedice		J	4
 poslodavce	2026		2
 poslovice	660		4
 poslovnice	549		2
-posrednice	18		3
+posrednice	18		4
 posteljice	336		4
 postrance	108		2
 posudice	139		2
-posuđenice			2
+posuđenice			3
 potajice	18		2
 poternice	759		3
 potkolenice	514		2
-potkovice	237		3
+potkovice	237		4
 potočnice			2
-potpetice	517		3
-potpisnice	841		3
+potpetice	517		4
+potpisnice	841		4
 potporice			2
-potpredsednice	733		3
+potpredsednice	733		4
 potpukovnice			2
 potpunce			2
 poturice	99		2
 potvorice			2
 poverioce	396		2
 povesnice	56		2
-poveznice	56		3
+poveznice	56		4
 povišice	387		2
-povlastice	1815		3
+povlastice	1815		4
 pozadince			2
 pozajmice	2350		2
 pozajmljenice	49		2
 pozivnice	935		3
-poznanice	131		3
+poznanice	131		4
 poznavaoce			2
-pozornice	1138		2
+pozornice	1138		3
 počasnice			2
-početnice	79		3
+početnice	79		4
 počinioce	1072		2
 pošalice	125		2
 poštovaoce			2
 praoce			2
-praonice	25		2
+praonice	25		3
 praporce	31		2
 prasence	124		2
 prasice	50		2
-pratioce	364		3
+pratioce	364		4
 pravce	1882		2
 pravnice	102		3
 prebace	1791		2
@@ -1212,11 +1212,11 @@ prebeglice			2
 predikaonice			2
 predilice			2
 predionice	34		2
-predsednice	3348		3
+predsednice	3348		4
 predstavnice	1357		3
 preference			2
 pregaoce			2
-prekretnice	271		3
+prekretnice	271		4
 prekršioce	263		2
 preljubnice	15		2
 premosnice			2
@@ -1226,47 +1226,47 @@ prepečenice	65		2
 presece			2
 preslice	77		3
 prestonice	5323		3
-prethodnice	219		3
-pretince	23		2
+prethodnice	219		4
+pretince	23		3
 prevarice			2
 preverice			2
 prevodioce			2
 prevodnice	219		2
 prevojnice			2
-prečice	1186		2
+prečice	1186		3
 pređice			2
-pridošlice	216		3
+pridošlice	216		4
 pridvorice			2
 prigrevice			4
-prijateljice	2212		2
+prijateljice	2212		3
 prijavnice	33		2
 prikolice	876		2
 primaoce			2
-primerice	187		3
-primjerice		J	3
+primerice	187		4
+primjerice		J	4
 primorce	10		2
 princezice			2
 prinosioce			2
-pripadnice	928		3
+pripadnice	928		4
 pripravnice	20		2
-pristalice	4385		3
+pristalice	4385		4
 priznanice	282		2
 pričalice	328		2
 pričaonice	41		2
 pričice	357		3
-prodavačice	377		2
+prodavačice	377		3
 prodavce	995		2
 prodavnice	8510		3
 profesionalce	2067		2
-prognanice			3
+prognanice			4
 progonioce			2
 projice			2
 prokletnice	11		2
 prokulice			2
-prolaznice	53		3
+prolaznice	53		4
 promice			2
 propalice	114		2
-propovedaonice	21		2
+propovedaonice	21		3
 propusnice	321		2
 proročice	66		2
 prosce	41		2
@@ -1275,7 +1275,7 @@ protivnice	538		3
 prskalice	315		2
 prtljažnice			2
 pružaoce	117		2
-prvence	39		2
+prvence	39		3
 prčvarnice			2
 prženice	92		4
 psetance	34		2
@@ -1283,7 +1283,7 @@ ptice	7118		2
 ptičice	326		3
 puce	36		2
 pucice			2
-pudlice	125		2
+pudlice	125		3
 pufnice			2
 pukovnice	11		2
 pumparice			2
@@ -1291,7 +1291,7 @@ pumpice	286		2
 punice	14		3
 punioce			2
 punionice	71		2
-punoglavce	32		2
+punoglavce	32		3
 pupavce			2
 purice			2
 puritance	24		2
@@ -1301,12 +1301,12 @@ putopisce	17		2
 puzavice	112		4
 puškarnice	61		2
 puškice	117		3
-pčelarice			2
-pčelice	388		2
-pšenice	11155		2
+pčelarice			3
+pčelice	388		3
+pšenice	11155		3
 radikalce			2
-radilice	432		3
-radionice	17415		2
+radilice	432		4
+radionice	17415		3
 radnice	946		3
 radojice			2
 radosnice	201		2
@@ -1316,7 +1316,7 @@ rakovice	356		4
 ralice	16		2
 rance	44		2
 ranice	277		3
-raskrsnice	1857		3
+raskrsnice	1857		4
 raspravice			4
 raspuštenice	45		2
 rastavice			4
@@ -1325,107 +1325,107 @@ ravanice			2
 ravnice	1368		2
 ravnodnevice	169		2
 ravnodnevnice	103		2
-razglednice	1025		3
-razmirice	538		3
+razglednice	1025		4
+razmirice	538		4
 razrešnice			2
 razvodnice			2
-razvratnice			3
+razvratnice			4
 računice	1075		2
 rebarce			2
 recenice			2
 redomice			4
-redovnice	33		2
+redovnice	33		3
 reference	2555		2
 rekavice			4
-repatice	29		3
+repatice	29		4
 repice	641		3
 republikance	162		2
 resice	97		2
 rezance	311		2
 rezonance	432		2
 rečce	52		2
-rečenice	6793		2
-rečice	587		2
+rečenice	6793		3
+rečice	587		3
 ribarice	10		2
-ribarnice	55		2
+ribarnice	55		3
 ribice	1041		3
 ribnice			2
 ribolovce	349		2
 rilce			2
-riznice	923		2
+riznice	923		3
 robinjice			2
 roditeljice			2
 rodoljupce			2
-rogatice			3
+rogatice			4
 rolice			2
 rolnice			2
-ronioce	197		3
+ronioce	197		4
 rotkvice	219		2
 rovce	11		2
-rozetice			3
+rozetice			4
 rođace			2
 rošce			2
 rožice			2
-rožnice	10		2
+rožnice	10		3
 rskavice			4
 rudice			2
 rudnice			2
-rugalice	29		3
+rugalice	29		4
 rukavce	79		2
-rukavice	2351		2
-rukice	88		2
-rukovodioce	761		3
+rukavice	2351		3
+rukice	88		3
+rukovodioce	761		4
 runce			2
 rupice	594		3
 ručaonice			2
-ručice	928		2
+ručice	928		3
 rušioce			2
 ružice	218		3
 sabljice			2
 saborce	220		2
-sadašnjice	333		3
-sadnice	1855		2
+sadašnjice	333		4
+sadnice	1855		3
 saksonce			2
 salvadorce			2
 samce	127		2
-samice	87		2
+samice	87		3
 samostalce	12		2
 samoubice	277		2
 sandalice			2
 sanjalice	359		2
 saobraćajce	64		2
 saobraćajnice	2671		2
-saonice	103		2
+saonice	103		3
 sapatnice			2
-sapunice	832		2
+sapunice	832		3
 saputnice	84		2
 saradnice	289		2
 sarmice	147		2
-sastavnice	88		3
+sastavnice	88		4
 satnice	297		3
 saudijce			2
 saučesnice			2
 savetnice	183		2
-saveznice	173		3
+saveznice	173		4
 savice			2
 sačmarice	129		4
 sašice			2
 sedmerice			2
-sedmice	11030		2
-sedmorice	266		2
+sedmice	11030		3
+sedmorice	266		3
 sednice	15673		3
 sekice			2
-sekirice	15		3
+sekirice	15		4
 sekretarice			2
 sekvence	795		2
 selance			2
 selce	15		2
-selice	137		2
+selice	137		3
 seljančice	30		2
 sendvice			2
 senice		M	2
 seoce	269		2
-sestrice	322		2
+sestrice	322		3
 severce			2
 sečice			2
 sečimice			2
@@ -1435,14 +1435,14 @@ sindikalce	142		2
 singerice			2
 sinovice	15		4
 sirce			2
-sirnice			2
-sirotice	80		3
+sirnice			3
+sirotice	80		4
 sisavce			3
 sitnice	3293		2
 skakaonice	311		2
 skakavce	75		3
 skice	1123		2
-skitnice	123		2
+skitnice	123		3
 skraćenice	588		4
 skračenice			2
 skretnice	141		2
@@ -1451,11 +1451,11 @@ slabice			2
 sladokusce	285		2
 slagalice	679		2
 slamarice	120		4
-slamčice	60		2
-slanice			2
+slamčice	60		3
+slanice			3
 slaninice			2
-slastice	17		2
-slastičarnice			4
+slastice	17		3
+slastičarnice			5
 slatkice	18		2
 slavice			2
 slavljenice	33		2
@@ -1464,29 +1464,29 @@ slađanice			2
 sledbenice	42		2
 slepce	50		2
 slepice			2
-slepoočnice	151		2
+slepoočnice	151		3
 slikovnice	492		2
 sličice	1005		2
-slonice	30		2
+slonice	30		3
 slonovace			2
 slovce	100		2
 slovence	153		2
 slovoslagačnice			2
-složenice	94		2
+složenice	94		3
 sluznice	784		2
 slušalice	3033		4
 slušaoce		M	2
 slušaonice	61		2
 službenice	348		4
 smederevce	60		2
-smernice	4311		2
+smernice	4311		3
 smicalice	214		4
 smokvice			2
 smrdljivice			4
 smrtnice	28		3
-smrtovnice	44		3
+smrtovnice	44		4
 smutljivce	14		2
-snohvatice			3
+snohvatice			4
 sobarice	236		4
 sobice	133		3
 sojenice	61		2
@@ -1494,17 +1494,17 @@ sojčice			2
 soknice			2
 sočice			2
 sošice			2
-spajalice	66		3
+spajalice	66		4
 spalionice	57		2
 spartance			2
 spasioce			2
-spavalice	51		3
-spavaonice	155		2
-spavaćice	93		2
+spavalice	51		4
+spavaonice	155		3
+spavaćice	93		3
 specijalce	155		2
 spiralice			2
-spisateljice	588		2
-spojnice	501		2
+spisateljice	588		3
+spojnice	501		3
 spomenice	376		2
 spravice	258		2
 spremačice	304		2
@@ -1527,33 +1527,33 @@ srpkinjice			2
 stabalce			2
 stakalce			2
 staklence			2
-stanice	20488		2
-stanovnice	52		2
-staraoce	21		3
+stanice	20488		3
+stanovnice	52		3
+staraoce	21		4
 starce	521		2
 staretinarnice			2
 starice	577		3
 starince			2
 starosedeoce	198		2
 stazice	79		2
-stenice	129		2
-stepenice	3124		2
+stenice	129		3
+stepenice	3124		3
 stevice			2
-stogodišnjice	721		3
-stolice	6480		2
+stogodišnjice	721		4
+stolice	6480		3
 stoličice	34		2
 stotice			2
-stramputice	16		3
+stramputice	16		4
 strance	2468		2
-stranice	15779		2
-stranputice	242		3
+stranice	15779		3
+stranputice	242		4
 strančice	40		2
 stražarnice	26		2
 stražnjice	123		3
 strelce	994		2
-strelice	678		2
+strelice	678		3
 strice			2
-strmoglavce			3
+strmoglavce			4
 strmoglavice		M	2
 studence	16		2
 studenice			2
@@ -1563,27 +1563,27 @@ stvaraoce			2
 stvarčice	458		2
 stvorenjce		M	2
 sudance			2
-sudnice	614		2
+sudnice	614		3
 suknjice	241		2
 sulice	10		2
-sumaglice	45		3
-sumnjivce	14		2
+sumaglice	45		4
+sumnjivce	14		3
 sunašce	72		3
 sunce	20579		2
 sunovratice		M	2
-sunčanice	159		3
+sunčanice	159		4
 sunčice			2
 suparnice	81		2
 supice	91		2
 supstance	4943		2
 surdulice			2
-susnežice	46		3
-sutrašnjice	471		3
+susnežice	46		4
+sutrašnjice	471		4
 suzavce	27		3
 suzice	54		3
 sučelice	16		2
 suđenice	50		2
-sušice	106		2
+sušice	106		3
 sušilice	12		2
 svakidašnjice	138		5
 svakodnevice	2131		5
@@ -1591,30 +1591,30 @@ svakodnevnice			2
 svađalice	38		2
 svece	371		2
 svemirce	18		2
-svetice	110		2
+svetice	110		3
 svetlace			2
 svetlice			2
 svezice			2
 sveznalice	120		2
-svećice	708		2
+svećice	708		3
 sveštenice	89		2
 svinjce	25		2
 svirce	30		2
-svlačionice	944		2
+svlačionice	944		3
 svotice			2
 svračice			2
-tabletice	84		3
-tablice	3242		2
+tabletice	84		4
+tablice	3242		3
 tacnice			2
 tajice			2
 tajnice	29		3
-takmace	88		2
+takmace	88		3
 takmice			2
 tamburice	166		2
-tamnice	1111		2
+tamnice	1111		3
 tance			2
 tangice	89		2
-taoce	685		2
+taoce	685		3
 tarnice			2
 tavanice	527		2
 tačkice	710		3
@@ -1626,18 +1626,18 @@ telašce	15		2
 telce			2
 temeljce	13		2
 terce			2
-tesnace	27		2
+tesnace	27		3
 tetice			3
 tetkice	127		3
 tice			2
-tigrice	158		2
+tigrice	158		3
 tikvice	816		3
 tinejdžerice			2
 tkanice	41		2
 tkačnice			2
 tmice			2
 topionice	643		2
-toplice	175		2
+toplice	175		3
 torbice	492		2
 tortice	51		2
 trafostanice	494		2
@@ -1645,7 +1645,7 @@ trakice			2
 traperice	55		4
 tratinčice	16		3
 travarice	21		2
-travice	30		2
+travice	30		3
 travčice	24		2
 tračice			2
 tračnice	27		3
@@ -1653,53 +1653,53 @@ trenice			2
 trepavice	1272		4
 treskavice	12		4
 trešnjice			2
-trgovce	1347		2
+trgovce	1347		3
 tripice			2
-trkačice	199		3
+trkačice	199		4
 trnce	60		2
 trobojnice			2
 trojance			2
-trojice	3769		2
-trtice	20		2
+trojice	3769		3
+trtice	20		3
 trubice	14		2
 trudnice	4322		3
 trunčice	54		2
 trupce	33		2
 trzalice	33		2
 trzavice	199		4
-tržnice	441		2
+tržnice	441		3
 tuce	417		2
 tufnice			2
 tukce			2
-tuđice	110		2
+tuđice	110		3
 tuđince	25		2
-tužbalice	84		3
-tužioce	785		3
+tužbalice	84		4
+tužioce	785		4
 tužiteljice			2
 tvorce	210		2
-tvrdice	52		2
+tvrdice	52		3
 tvrđavice			4
 ubace	1339		2
-ubice	2913		2
-udarce	1999		2
+ubice	2913		3
+udarce	1999		3
 udice	690		2
 udolice			2
 udovce	16		2
-udovice	851		2
+udovice	851		3
 udvorice			2
 udžerice			2
 ugodnice	19		2
 ugovornice	875		2
 ujace			2
-ukosnice	60		3
+ukosnice	60		4
 ukrajince			2
 ukrštenice	155		2
-ulaznice	4908		3
+ulaznice	4908		4
 ulice	32164		3
 ulizice	131		2
 uličice	253		4
 uljarice	205		2
-umetnice	1273		3
+umetnice	1273		4
 umrlice	124		4
 unce	80		2
 unučice			2
@@ -1710,17 +1710,17 @@ uplatnice	795		2
 upraviteljice			2
 upravnice	136		2
 uputnice	91		2
-urednice	426		3
+urednice	426		4
 urmašice			2
 usedelice	63		2
-usidjelice		J	3
+usidjelice		J	4
 usnice	91		2
 ustopce		M	2
 ustopice			2
 usvojioce			2
-utakmice	37032		3
-utičnice	686		3
-utopljenice	13		2
+utakmice	37032		4
+utičnice	686		4
+utopljenice	13		3
 uvce		M	2
 uvoznice	74		2
 uzajmice			2
@@ -1729,14 +1729,14 @@ uzastopice			2
 uzbrdice	120		4
 uzdanice	246		2
 uzice	163		3
-uzrečice	86		3
+uzrečice	86		4
 uzvišice	40		2
 učenice	1707		4
-učesnice	1402		3
+učesnice	1402		4
 učinioce	145		2
-učionice	2483		2
-učiteljice	1172		2
-ušice	47		2
+učionice	2483		3
+učiteljice	1172		3
+ušice	47		3
 valjaonice	223		2
 vampirice	22		2
 vanglice			2
@@ -1753,24 +1753,24 @@ vegetarijance	119		2
 vejavice	62		4
 veknice			2
 vence	1261		2
-venčanice	789		2
+venčanice	789		3
 verenice	149		2
 verice			2
 vernice	22		3
 vesalce			2
-veselice	26		2
+veselice	26		3
 vesnice	10		2
 veverice	475		4
 vezice	187		2
 većnice	145		2
 vešalice	128		4
 vešernice			2
-veštice	1351		2
+veštice	1351		3
 vežbaonice	37		2
 vice		M	2
 videoigrice	11		2
 vijetnamce			2
-vikendice	974		3
+vikendice	974		4
 vilice	1234		3
 vinarnice			2
 vince			2
@@ -1787,7 +1787,7 @@ vlakance			2
 vlasenice			2
 vlasnice	659		3
 vlasotince			2
-vodenice	601		2
+vodenice	601		3
 vodice	550		2
 voditeljice			2
 vodnice			2
@@ -1795,21 +1795,21 @@ vodozemce	60		2
 voluharice	51		2
 voćkice			2
 vođice	178		2
-voštanice	65		2
+voštanice	65		3
 vrance			2
 vrapce	91		2
 vratnice	88		3
 vretence			2
 vrećice	357		3
-vrhunce	112		2
+vrhunce	112		3
 vrpce	663		2
-vrtoglavice	703		4
+vrtoglavice	703		5
 vrućice	26		2
 vršalice			2
 vršioce			2
 vukice			2
 vunice	74		2
-vučice	139		2
+vučice	139		3
 zabace	25		2
 zabavljačice	14		2
 zadnjice	728		3
@@ -1821,62 +1821,62 @@ zajmodavce	24		2
 zaklopce			2
 zakonodavce	111		2
 zakupce	209		2
-zalagaonice	39		2
-zalogajnice			2
+zalagaonice	39		3
+zalogajnice			3
 založnice	34		2
 zamajce	12		2
 zamenice	533		4
 zamorce	35		2
-zanoktice	192		3
+zanoktice	192		4
 zaobilaznice	175		2
 zapovednice			2
-zarobljenice	14		2
-zaručnice	22		3
+zarobljenice	14		3
+zaručnice	22		4
 zastavice	385		4
 zastavnice			2
-zastupnice	60		3
-zatočenice	22		2
-zatvorenice	66		2
+zastupnice	60		4
+zatočenice	22		3
+zatvorenice	66		3
 zavesice			2
-zavidljivce	12		2
+zavidljivce	12		3
 zavisnice			2
-zavodnice	150		3
+zavodnice	150		4
 zavojnice	180		3
 završnice	955		2
 zazubice	67		2
 začetnice	11		2
 začkoljice	88		2
 zađevice			4
-zaštitnice	243		3
+zaštitnice	243		4
 zbace	147		2
 zbornice	110		2
 zdelice	18		2
 zdravice	257		2
 zemljice	75		2
-zemunice	106		2
+zemunice	106		3
 zenice			2
 zezalice	86		2
 zečice	109		2
-zimnice	512		2
-zjenice	41		2
+zimnice	512		3
+zjenice	41		3
 zlatarnice			3
-zlatice	235		2
+zlatice	235		3
 zlikovce	180		3
 zlobnice			2
-zločince	1167		2
-zmijice	20		2
+zločince	1167		3
+zmijice	20		3
 znalce	134		2
 znance	33		2
 zobnice	22		2
 zorice			2
-zrikavce	10		2
+zrikavce	10		3
 zrnašce		M	2
 zrnce	471		2
 zujalice	43		2
 zupce	51		2
 zvanice			2
 zverčice			2
-zvezdice	2429		2
+zvezdice	2429		3
 zvonce	656		2
 zvončice			2
 zvrčkice			2
@@ -1884,7 +1884,7 @@ zvrčkice			2
 ćelavce			3
 ćerkice	243		2
 ćesarice			2
-ćirilice	3583		2
+ćirilice	3583		3
 ćuftice			2
 ćuprijice			2
 čabrice			2
@@ -1896,23 +1896,23 @@ zvrčkice			2
 časomice		M	4
 čačkalice	159		4
 čašice	371		2
-čekaonice	250		2
+čekaonice	250		3
 česmice			2
 česnice	121		2
-čestice	4250		2
+čestice	4250		3
 četice			2
 četkice	1130		3
-četvorice	977		2
+četvorice	977		3
 činijice	77		2
-činioce	711		3
+činioce	711		4
 činjenice	30857		4
-čistačice	389		2
+čistačice	389		3
 čistionice			2
 čitančice			2
-čitaoce	4074		3
-čitaonice	1086		2
+čitaoce	4074		4
+čitaonice	1086		3
 čizmice	210		2
-članice	17825		2
+članice	17825		3
 čobanice	64		2
 čokoladice	355		2
 čorbice			2
@@ -1924,17 +1924,17 @@ zvrčkice			2
 đavolice			2
 đokice			2
 đurice			2
-šahovnice	43		2
+šahovnice	43		3
 šalvarice			2
 šapice	70		2
-šarenice	86		2
+šarenice	86		3
 šačice	273		3
 šašavice			4
 šefice	377		2
 šefovice			4
 šerpice	42		2
-šestice	313		2
-šestorice	296		2
+šestice	313		3
+šestorice	296		3
 šećerce			2
 šibice	345		3
 šiparice			2
@@ -1948,16 +1948,16 @@ zvrčkice			2
 šljivovice	334		4
 šljokice	270		2
 šnalice			2
-šogorice			2
+šogorice			3
 šoljice	810		2
 špance			2
 špice	295		2
 šprice			2
 štanglice	107		2
-štedionice	936		2
+štedionice	936		3
 štence	224		2
 štićenice	75		4
-štokavce			2
+štokavce			3
 štreberice			2
 štruce			2
 štrudlice			2
@@ -1972,15 +1972,15 @@ zvrčkice			2
 žabice	146		3
 žagubice			2
 žalce			2
-žalioce			3
+žalioce			4
 žbice	54		2
 ždrebence		M	2
-ždrebice	12		2
-železnice	5434		3
-željeznice		J	3
+ždrebice	12		3
+železnice	5434		4
+željeznice		J	4
 željice	32		2
-želuce	17		2
-ženice	91		2
+želuce	17		3
+ženice	91		3
 ženskice	18		2
 žeravice	77		4
 žestice			2
@@ -1991,75 +1991,75 @@ zvrčkice			2
 žigice			2
 žikice			2
 žilice	81		2
-žitarice	3049		2
+žitarice	3049		3
 žitnice	164		3
 živce	2016		2
-živice	148		2
+živice	148		3
 živinice			2
 živopisce			2
-životinjice	198		3
+životinjice	198		4
 žižice			2
 žmarce	60		2
 žmigavce	30		2
 žrece	30		2
 žumance	749		2
-žutice	388		2
-bijelce			2
+žutice	388		3
+bijelce			3
 bjegunce			2
 bjelasice			2
 bjelice	131		2
-cjepanice			3
-cjevčice			2
+cjepanice			4
+cjevčice			3
 covjece			2
 cvijece			2
 dijece			2
 djecace			2
 djece	4777		2
 djedice			2
-djevice			2
+djevice			3
 djevojcice			2
-djevojčice			2
+djevojčice			3
 dječice			2
 gusjenice			4
-ijekavice	65		3
-izbjeglice			3
-letjelice			3
-ljepotice			2
+ijekavice	65		4
+izbjeglice			4
+letjelice			4
+ljepotice			3
 ljestvice			3
 mjenice			3
 mjesece			3
 mjestašce			2
-nesvjestice			3
-nijemce	74		2
+nesvjestice			4
+nijemce	74		3
 odjece			2
 pijevnice			2
 pjegice			2
 pjesmice			2
-pjevačice			2
+pjevačice			3
 pješice			3
 pobjednice			2
-posjetioce			3
-posjetnice			3
+posjetioce			4
+posjetnice			4
 poslijedice			2
 potjernice			3
-potpredsjednice			3
-predsjednice			3
+potpredsjednice			4
+predsjednice			4
 savjetnice			2
 sjednice			3
-sjenice	866		2
+sjenice	866		3
 slijedece			2
-smjernice			2
-stjenice			2
-strijelce	10		2
+smjernice			3
+stjenice			3
+strijelce	10		3
 svijece			2
-svjećice			2
+svjećice			3
 vijece			2
-vijence	119		2
+vijence	119		3
 vijećnice	65		2
-vjenčanice			2
+vjenčanice			3
 vjeverice			4
 vješalice			4
-vještice			2
+vještice			3
 zamjenice			4
 zvijezdice			2
-zvjezdice			2
+zvjezdice			3

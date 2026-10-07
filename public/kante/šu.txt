@@ -4,7 +4,7 @@ ajšu			2
 alipašu			2
 apašu			2
 arambašu			2
-artikulišu	415		2
+artikulišu	415		3
 bakšišu			2
 balšu			2
 bangladešu			2
@@ -22,7 +22,7 @@ branšu			2
 brišu	1774		2
 brucošu			3
 buljubašu			2
-cenzurišu	148		2
+cenzurišu	148		3
 cinkarošu			2
 cirkulišu			2
 cvikerašu			2
@@ -36,10 +36,10 @@ demorališu	49		2
 depešu	181		2
 deregulišu			2
 dervišu			2
-deverušu			2
+deverušu			3
 dezavuišu	97		2
 diskriminišu			2
-divljakušu	16		2
+divljakušu	16		3
 dišu	967		2
 dobošu			2
 dolibašu			2
@@ -51,9 +51,9 @@ eksperimentišu	563		2
 eksploatišu	607		2
 eliminišu	1339		2
 evakuišu			2
-fetišu	26		2
+fetišu	26		3
 figurišu			2
-finišu	4278		2
+finišu	4278		3
 flašu		M	2
 formulišu			2
 fotografišu	710		2
@@ -74,7 +74,7 @@ hipnotišu	55		2
 histerišu			2
 honorišu			2
 horgošu			2
-hvališu	42		2
+hvališu	42		3
 ignorišu	1626		2
 imobilišu			2
 informišu	2610		2
@@ -85,8 +85,8 @@ intervjuišu	117		2
 isklešu			2
 ispašu	287		2
 ispišu	240		2
-izbrišu	611		2
-izdišu	35		2
+izbrišu	611		3
+izdišu	35		3
 jakšu			2
 janušu			2
 jašu	520		2
@@ -107,7 +107,7 @@ kešu	878		2
 kicošu			3
 kidišu	170		2
 kišu	2176		2
-klepetušu	10		2
+klepetušu	10		3
 klešu	22		2
 kliconošu			2
 knjigonošu			2
@@ -115,7 +115,7 @@ komedijašu			2
 komentarišu	3031		2
 koncentrišu	645		2
 konkurišu	3008		2
-konstruišu	341		2
+konstruišu	341		3
 kontrolišu	7102		2
 koordinišu			2
 kočijašu	34		2
@@ -123,7 +123,7 @@ košarkašu	128		2
 košu	613		2
 krešu	104		2
 kristališu	71		2
-krunišu	141		2
+krunišu	141		3
 kršu	206		2
 kulašu			2
 kultivišu	65		2
@@ -167,7 +167,7 @@ najlepšu	1160		3
 najljepšu	75		3
 najmekšu			3
 najtišu			3
-najvišu	1794		2
+najvišu	1794		3
 namirišu	74		2
 napišu	2577		2
 natašu			2
@@ -179,10 +179,10 @@ nivelišu	46		2
 nišu	23169		2
 njegošu			2
 njišu	156		2
-obrišu	422		2
+obrišu	422		3
 odbojkašu	14		2
 odišu	577		2
-odjašu			2
+odjašu			3
 okolišu	104		4
 ološu	123		3
 onanišu			2
@@ -191,7 +191,7 @@ operišu	675		2
 opišu	629		2
 opstruišu	142		2
 orijentišu			2
-oskorušu	11		3
+oskorušu	11		4
 ostragušu			2
 otešu			2
 otpišu	354		2
@@ -204,9 +204,9 @@ pasošu	361		3
 pašu	646		1
 penzionišu			2
 perišu			2
-pismonošu	10		2
+pismonošu	10		3
 pišu	17115		2
-plavušu	197		2
+plavušu	197		3
 plešu	590		2
 pljačkašu	41		2
 pojašu			2
@@ -248,7 +248,7 @@ regrupišu			2
 regulišu	3992		2
 rekonstruišu	495		2
 retušu			2
-revanšu	1419		2
+revanšu	1419		3
 revolverašu			2
 rezervišu			2
 rikšu	13		2
@@ -268,9 +268,9 @@ slatkišu	41		2
 slavišu			2
 smešu			2
 solidarišu	148		2
-spekulišu	466		2
+spekulišu	466		3
 sponzorišu	252		2
-sponzorušu	30		2
+sponzorušu	30		3
 stanišu			2
 stašu			2
 sterilišu	108		2
@@ -294,17 +294,17 @@ tranšu	419		2
 trišu			2
 tronošu			2
 tušu	43		2
-udišu	340		2
+udišu	340		3
 uglješu			2
 ukalkulišu			2
 uklešu	12		2
 uniformišu			2
 upišu	2939		2
 urošu			2
-usišu			2
+usišu			3
 ustašu	30		3
 uzdišu	186		2
-uzjašu	44		2
+uzjašu	44		3
 vakcinišu	432		2
 varešu			2
 vašu	17582		2
@@ -312,10 +312,10 @@ velikašu	23		2
 velišu			2
 vešu	509		2
 višu	3064		2
-vodonošu			2
+vodonošu			3
 vršu	27		2
 zadišu			2
-zajašu	52		2
+zajašu	52		3
 zamirišu	73		2
 zapišu	162		2
 zaplešu	39		2
@@ -326,10 +326,10 @@ zelenašu			2
 češu	137		2
 čilašu			2
 šašu	17		2
-šišmišu			2
+šišmišu			3
 špekulišu	100		2
-štedišu			2
-štitonošu			2
+štedišu			3
+štitonošu			3
 ženskarošu			2
 žigošu	141		2
 ljepšu	75		2

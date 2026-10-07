@@ -1,24 +1,24 @@
 1592
 akcijaši	72		2
-aktiviravši			2
-alarmiravši			2
+aktiviravši			3
+alarmiravši			3
 aljoši			2
 almaši			2
 amiši			2
 autonomaši	566		2
-bacivši	286		2
+bacivši	286		3
 balši			2
 bandažiravši			2
 banderaši			2
-bankrotiravši			2
+bankrotiravši			3
 banši			2
 batinaši			2
-beknuvši			2
+beknuvši			3
 beriši			2
 birtaši			2
 bivši	34776		2
 blaženopočivši	245		2
-blokiravši	15		2
+blokiravši	15		3
 bogataši	1159		2
 bolovavši			2
 bombaši			2
@@ -28,14 +28,14 @@ branivši			2
 branši			2
 briši	141		2
 brucoši	399		3
-buknuvši			2
+buknuvši			3
 carovavši			2
 celivavši			2
 cinkaroši	23		2
 crnokošuljaši	22		3
 cvikeraši			2
-dahnuvši			2
-darovavši	18		2
+dahnuvši			3
+darovavši	18		3
 davši	444		2
 definiši	69		2
 deformiši			2
@@ -46,56 +46,56 @@ desivši			3
 digavši	22		3
 dignuvši	14		3
 diši	149		2
-dobivši	1104		2
+dobivši	1104		3
 doboši			2
-dodavši	2967		2
-dodirnuvši	58		2
+dodavši	2967		3
+dodirnuvši	58		3
 dograbivši			2
 dogradivši			2
-dohvativši	34		3
-dokazavši	99		2
+dohvativši	34		4
+dokazavši	99		3
 domaši			2
 donevši	179		2
-doplivavši			3
+doplivavši			4
 doprinevši	29		2
-dopustivši	96		2
+dopustivši	96		3
 dorastavši			2
 dosegavši	17		3
-dosegnuvši	42		2
+dosegnuvši	42		3
 dosetivši	12		2
-dospevši	69		2
-dostigavši	535		3
+dospevši	69		3
+dostigavši	535		4
 dotakavši	33		2
 dotaknuvši	25		2
 doteravši			2
 dotukavši			2
 dovevši	50		2
-dovezavši			2
-doviknuvši			2
+dovezavši			3
+doviknuvši			3
 dovrši	920		2
-dovršivši	28		2
+dovršivši	28		3
 dovukavši			2
-doznavši	353		2
-dozvavši	70		2
-dozvolivši	351		2
-dočekavši	171		3
-dočepavši	13		2
+doznavši	353		3
+dozvavši	70		3
+dozvolivši	351		3
+dočekavši	171		4
+dočepavši	13		3
 dođoši			2
-došavši	1568		2
-doživevši	77		2
+došavši	1568		3
+doživevši	77		3
 dragiši			2
 dremnuvši			3
 dreši	54		2
 drmnuvši			2
 drogeraši			2
 državši			2
-dunuvši	10		2
+dunuvši	10		3
 durmiši			2
 duši	6005		2
 džeparoši			2
 eliminiši	13		2
 evakuiši			2
-fetiši	62		2
+fetiši	62		3
 flaši			2
 fotografiši	14		2
 frulaši	53		2
@@ -105,7 +105,7 @@ gaši			2
 gejši	62		2
 glasavši			2
 glasivši			2
-glasonoši			2
+glasonoši			3
 gledavši			2
 govorivši			2
 goši			2
@@ -122,156 +122,156 @@ histeriši			2
 hokejaši	213		2
 htevši			2
 hvalivši			2
-hvališi			2
+hvališi			3
 ignoriši	82		2
 igravši			2
-imavši	21		2
+imavši	21		3
 informiši	175		2
-iscelivši	15		2
-isekavši			3
-iselivši			2
-iskazavši	37		2
-isključivši	56		2
-iskopavši	14		2
+iscelivši	15		3
+isekavši			4
+iselivši			3
+iskazavši	37		3
+isključivši	56		3
+iskopavši	14		3
 iskoračivši	11		2
-iskoristivši	441		3
-iskočivši			2
-iskrcavši	15		2
+iskoristivši	441		4
+iskočivši			3
+iskrcavši	15		3
 iskrenuvši			2
 iskreši			2
-iskupivši			2
-iskusivši	25		2
-iskvarivši			2
-ismejavši			2
+iskupivši			3
+iskusivši	25		3
+iskvarivši			3
+ismejavši			3
 ispalivši	51		2
 ispaši	78		2
-ispekavši			3
+ispekavši			4
 ispevši			2
-ispitavši	54		2
-ispivši	16		2
+ispitavši	54		3
+ispivši	16		3
 ispiši	13		2
-isplativši	21		2
-isplivavši	21		3
+isplativši	21		3
+isplivavši	21		4
 ispoljivši	22		2
-isprativši	29		3
-ispravivši	18		3
+isprativši	29		4
+ispravivši	18		4
 ispraši	25		2
 isprašivši			2
-ispričavši	64		2
+ispričavši	64		3
 isprosivši	10		2
 isprsivši			2
-ispruživši	18		3
+ispruživši	18		4
 isprživši			2
-ispunivši	253		3
-ispustivši	40		2
+ispunivši	253		4
+ispustivši	40		3
 ispuzavši			2
 ispuši	24		2
-istakavši	3397		3
-istaknuvši	104		2
-isteravši	20		3
+istakavši	3397		4
+istaknuvši	104		3
+isteravši	20		4
 istrajavši			2
-istrebivši			2
+istrebivši			3
 istresavši			3
 istrgavši			2
 istrgnuvši			2
 istroši	227		2
-istrošivši			2
-istrčavši	43		2
-istupivši	20		2
+istrošivši			3
+istrčavši	43		3
+istupivši	20		3
 isuši	160		2
-izabravši	165		2
+izabravši	165		3
 izagnavši			2
-izazvavši	195		2
-izašavši	187		2
-izbacivši	130		2
-izbavivši	26		3
-izbegavši	119		3
+izazvavši	195		3
+izašavši	187		3
+izbacivši	130		3
+izbavivši	26		4
+izbegavši	119		4
 izbegnuvši			2
-izbivši	26		2
-izborivši	47		2
-izbrisavši			3
-izbriši	96		2
+izbivši	26		3
+izborivši	47		3
+izbrisavši			4
+izbriši	96		3
 izbrojavši			2
 izbuši	85		2
-izdavši	32		2
+izdavši	32		3
 izdigavši			2
-izdiši			2
-izdržavši	36		2
+izdiši			3
+izdržavši	36		3
 izduši			2
-izdvojivši	81		2
-izginuvši			3
+izdvojivši	81		3
+izginuvši			4
 izgladivši			2
-izgnavši			2
-izgradivši	66		2
+izgnavši			3
+izgradivši	66		3
 izgrdivši			2
-izgubivši	643		2
-izišavši	232		2
-izjasnivši			2
-izjavivši	307		2
+izgubivši	643		3
+izišavši	232		3
+izjasnivši			3
+izjavivši	307		3
 izlazivši			2
 izlegavši			2
-izlečivši	10		2
+izlečivši	10		3
 izlivši			2
-izljubivši			2
-izloživši	57		2
-izmakavši			3
-izmamivši	12		2
+izljubivši			3
+izloživši	57		3
+izmakavši			4
+izmamivši	12		3
 izmenivši	46		2
-izmerivši			3
+izmerivši			4
 izmilevši			2
 izmislivši			2
 izmolivši	42		2
 izmoždivši			2
 iznašavši			2
 iznevši	100		2
-iznudivši			3
+iznudivši			4
 iznurivši			2
 izopštivši			2
-izradivši	17		2
-izravnavši			2
-izrazivši	867		2
-izrekavši	39		3
-izrodivši			2
+izradivši	17		3
+izravnavši			3
+izrazivši	867		3
+izrekavši	39		4
+izrodivši			3
 izronivši	15		2
 izrugavši			2
 izudaravši			2
 izustivši	13		2
-izuvši			2
+izuvši			3
 izuzevši	118		2
-izučivši	29		2
-izvadivši	47		3
+izučivši	29		3
+izvadivši	47		4
 izvagavši			2
 izvalivši			2
-izvestivši			2
+izvestivši			3
 izvevši	63		2
 izvežbavši			2
 izvivši			2
 izvozivši			2
 izvrljivši			2
 izvrši	11405		2
-izvršivši	96		2
-izvukavši	63		2
+izvršivši	96		3
+izvukavši	63		3
 išavši			2
-iščaši	18		2
+iščaši	18		3
 iščitavši			2
 jakši			2
-javivši	77		2
+javivši	77		3
 jaši	130		2
 junoši	11		2
 jurivši			2
 jurišavši			2
 juriši	47		3
-jurnuvši	10		2
+jurnuvši	10		3
 kaiši			2
 kajakaši	224		2
 kamiši			2
 kartaši			2
-kazavši	193		2
+kazavši	193		3
 kaznivši	15		3
 kaćuši			2
 kaši	33		2
 kicoši	34		3
-kihnuvši			2
+kihnuvši			3
 kiši	1747		2
 kleknuvši	32		3
 kleši			2
@@ -288,17 +288,17 @@ korteši			2
 kočijaši	59		2
 košarkaši	6497		2
 krajputaši			2
-krenuvši	273		2
+krenuvši	273		3
 kresnuvši			3
-kriknuvši			2
-kročivši	16		2
+kriknuvši			3
+kročivši	16		3
 krstaši	426		2
-krstivši	48		2
-kruniši			2
+krstivši	48		3
+kruniši			3
 krši	4142		2
 kubikaši			2
 kuglaši	286		2
-kupivši	146		2
+kupivši	146		3
 kurtališi			2
 lakrdijaši	22		3
 laktaši			2
@@ -311,362 +311,362 @@ leši		M	2
 ligaši	389		2
 lipši	132		2
 liši	627		2
-lišivši	45		2
+lišivši	45		3
 ljubivši			2
 ljubiši			2
 logoraši	282		2
 loši	6263		2
 lupnuvši			2
 mafijaši	498		2
-mahnuvši	29		2
+mahnuvši	29		3
 mališi			2
 mantijaši			2
 maši	207		2
 mašivši			3
 mekši	472		2
 merivši			2
-metnuvši	48		2
+metnuvši	48		3
 međaši	51		2
-mimoišavši			2
+mimoišavši			3
 miriši	40		2
 mislivši			2
 mitingaši			2
 miši		M	2
 mogavši	359		3
-molivši			2
+molivši			3
 monaši			2
 mrdnuvši			2
 mudrijaši	31		2
 mugoši			2
 mućnuvši			2
-nabacivši			2
-nabrojavši			2
-nabrojivši			2
-nadenuvši	15		3
+nabacivši			3
+nabrojavši			3
+nabrojivši			3
+nadenuvši	15		4
 nadigravši	28		2
-nadjačavši			2
-nadmaši	669		2
-nadmašivši	74		3
-naduvši			2
+nadjačavši			3
+nadmaši	669		3
+nadmašivši	74		4
+naduvši			3
 naftaši	258		2
 nagazivši			2
-naglasivši	2101		2
+naglasivši	2101		3
 nagnavši			2
-nagnuvši	46		2
-nagradivši	19		2
-nahranivši	12		2
-naišavši	72		2
-najavivši	376		2
-naježivši			2
+nagnuvši	46		3
+nagradivši	19		3
+nahranivši	12		3
+naišavši	72		3
+najavivši	376		3
+naježivši			3
 najlakši	1625		3
 najlepši	5583		3
 najljepši	400	J	3
 najmekši	33		3
 najtiši	99		3
-najviši	9677		2
+najviši	9677		3
 nakostreši	37		2
 nakrivivši			2
-nakupivši			3
+nakupivši			4
 nalaktivši			2
 nalazivši			2
 nalivši			2
-naloživši	37		2
-namenivši	18		2
-namestivši	12		3
-nametnuvši	40		3
+naloživši	37		3
+namenivši	18		3
+namestivši	12		4
+nametnuvši	40		4
 namignuvši			2
 namiriši			2
 namislivši			2
 namrštivši			2
 nanevši	220		2
 nanjuši	70		2
-naoružavši	30		2
-napavši	22		2
-napisavši	213		2
-napivši	12		2
+naoružavši	30		3
+napavši	22		3
+napisavši	213		3
+napivši	12		3
 napiši	1015		2
 napojivši			2
-napravivši	287		3
+napravivši	287		4
 napregnuvši			2
-napunivši	51		3
-napustivši	218		2
+napunivši	51		4
+napustivši	218		3
 napuši	13		2
-narastavši			2
+narastavši			3
 naredivši	143		2
 naroguši	22		2
 narugavši			2
 naruši	906		2
 narušivši	19		2
-naselivši	15		2
-nasitivši			3
+naselivši	15		3
+nasitivši			4
 nasladivši			2
-nasledivši	71		2
-naslikavši			3
-naslonivši	47		2
-naslutivši	18		2
+nasledivši	71		3
+naslikavši			4
+naslonivši	47		3
+naslutivši	18		3
 naslušavši			2
 nasmehnuvši			2
-nasmejavši	31		2
+nasmejavši	31		3
 nasmeši	459		2
-nasrnuvši			2
-nastanivši	46		2
-nastavivši	110		3
-nastavši			2
-nasukavši			2
+nasrnuvši			3
+nastanivši	46		3
+nastavivši	110		4
+nastavši			3
+nasukavši			3
 nataši			2
-nateravši	79		3
-naumivši			2
-naučivši	117		2
-navalivši			2
+nateravši	79		4
+naumivši			3
+naučivši	117		3
+navalivši			3
 navevši	57		2
-navikavši	13		3
-naviknuvši			3
+navikavši	13		4
+naviknuvši			4
 navrši	301		2
-navršivši	10		2
+navršivši	10		3
 navukavši	19		2
-nazdravivši			3
+nazdravivši			4
 naznačivši	35		2
-nazvavši	489		2
-načinivši	165		2
-našavši	738		2
+nazvavši	489		3
+načinivši	165		3
+našavši	738		3
 naši	68767		2
 nebojši			2
-negiravši			2
-nestavši			2
+negiravši			3
+nestavši			3
 niknuvši			3
 nikši			2
 niši	128		2
 njiši			2
 njuši	54		2
 normiravši			2
-obasjavši			2
+obasjavši			3
 obasuvši			2
-obavezavši	17		2
-obavivši	66		3
+obavezavši	17		3
+obavivši	66		4
 obazrevši	28		2
-obdarivši	25		2
+obdarivši	25		3
 obeleživši	31		2
-obesivši	26		3
-obećavši	319		2
-obgrlivši	20		3
-obišavši	100		2
-objasnivši	514		2
-objavivši	226		2
-objedinivši	29		2
+obesivši	26		4
+obećavši	319		3
+obgrlivši	20		4
+obišavši	100		3
+objasnivši	514		3
+objavivši	226		3
+objedinivši	29		3
 oblivši			2
 obloživši			2
-obmanuvši			2
+obmanuvši			3
 obmotavši			2
 obnaživši			2
 obnevidevši			2
-obnovivši	67		2
+obnovivši	67		3
 obodrivši			2
-obogativši	37		3
+obogativši	37		4
 obolevši	12		2
-oborivši	166		2
-obradivši	16		2
-obrativši	194		2
+oborivši	166		3
+obradivši	16		3
+obrativši	194		3
 obravši			2
 obrecnuvši			2
 obrevši	21		2
-obriši	256		2
-obrnuvši			2
+obriši	256		3
+obrnuvši			3
 obruši	169		2
-obuhvativši	49		3
-obukavši	67		2
-obuvši			2
-obuzdavši			2
+obuhvativši	49		4
+obukavši	67		3
+obuvši			3
+obuzdavši			3
 obuzevši			2
 obzidavši			2
 obznanivši	11		2
-ocenivši	1355		2
-odabravši	54		2
+ocenivši	1355		3
+odabravši	54		3
 odagnavši	11		2
 odahnuvši	18		2
-odavši	32		2
-odazvavši	21		2
-odbacivši	229		2
-odbivši	205		2
+odavši	32		3
+odazvavši	21		3
+odbacivši	229		3
+odbivši	205		3
 odbojkaši	1660		2
-odbranivši	197		2
-odelivši			2
+odbranivši	197		3
+odelivši			3
 oderavši			2
 odglumivši			2
-odgovorivši	69		2
+odgovorivši	69		3
 odgurnuvši	40		2
-odigravši	190		3
-odjaši			2
-odletevši			2
+odigravši	190		4
+odjaši			3
+odletevši			3
 odležavši			2
 odlikaši	92		2
 odloživši	27		2
-odlučivši	225		2
+odlučivši	225		3
 odmahnuvši	17		2
-odmakavši	10		3
-odmaknuvši			2
-odmerivši	13		3
+odmakavši	10		4
+odmaknuvši			3
+odmerivši	13		4
 odmetnuvši	11		2
-odmorivši	17		2
+odmorivši	17		3
 odmrznuvši			2
 odnevši	99		2
-odobrivši	23		2
-odolevši	17		2
-odoljevši			2
+odobrivši	23		3
+odolevši	17		3
+odoljevši			3
 odomaćivši			2
-odradivši	10		2
-odrastavši	15		2
-odrazivši			2
-odredivši	93		2
-odrekavši	118		3
+odradivši	10		3
+odrastavši	15		3
+odrazivši			3
+odredivši	93		3
+odrekavši	118		4
 odreši	188		2
 odrešivši			2
-održavši	66		2
-odsekavši	28		3
+održavši	66		3
+odsekavši	28		4
 odsluživši	25		2
-odstupivši	56		2
+odstupivši	56		3
 oduhovivši			2
 oduprevši			2
-odustavši	41		2
+odustavši	41		3
 oduzevši	97		2
 oduševivši	19		2
 odvalivši			2
 odvevši	24		2
-odvezavši			2
+odvezavši			3
 odvikavši			2
-odvojivši	106		2
-odvrativši	10		2
-odvukavši	10		2
+odvojivši	106		3
+odvrativši	10		3
+odvukavši	10		3
 oglasivši	18		2
 ogluši	179		2
 oglušivši			2
 ogorčivši			2
-ogradivši	36		2
+ogradivši	36		3
 ogreši	102		2
 ogrešivši			2
 ohladnevši			2
-ohrabrivši	17		2
-ojačavši	65		2
+ohrabrivši	17		3
+ojačavši	65		3
 okačivši	15		2
 okliznuvši			2
 okoliši			4
-okončavši	140		2
-okovavši			2
-okrenuvši	283		2
-okruživši	22		2
+okončavši	140		3
+okovavši			3
+okrenuvši	283		3
+okruživši	22		3
 okrznuvši			2
 okumivši			2
 okupavši			2
 okupiravši			2
-okupivši	126		3
-okusivši	54		3
+okupivši	126		4
+okusivši	54		4
 okušavši			2
 okvasivši			2
-olakšavši	11		2
+olakšavši	11		3
 ološi	83		3
 omanuvši			2
 omaši	53		2
-omekšavši			2
+omekšavši			3
 omiriši			2
-omogućivši	316		2
+omogućivši	316		3
 omrznuvši			2
 onemoćavši			2
 onjuši	64		2
 opalivši			2
 opametivši			2
-opasavši	15		2
-opazivši	37		3
+opasavši	15		3
+opazivši	37		4
 opaši	21		2
-opekavši			3
+opekavši			4
 opelješi	25		2
 operiši			2
-opipavši			3
-opisavši	72		2
+opipavši			4
+opisavši	72		3
 opiši	104		2
-opkolivši	20		2
-opljačkavši	16		3
-opomenuvši	36		2
-oporavivši	42		3
-opovrgavši			3
+opkolivši	20		3
+opljačkavši	16		4
+opomenuvši	36		3
+oporavivši	42		4
+opovrgavši			4
 opravdavši	30		3
-opravši	12		2
+opravši	12		3
 opraši	15		2
-opremivši	22		2
-oprostivši	97		2
-optuživši	254		2
-opustivši			2
+opremivši	22		3
+oprostivši	97		3
+optuživši	254		3
+opustivši			3
 opustoši	72		2
-opčinivši			2
+opčinivši			3
 orosivši			2
-osakativši			3
+osakativši			4
 osamivši			2
-osetivši	402		3
-osiguravši	30		2
+osetivši	402		4
+osiguravši	30		3
 osilivši			2
-osiromaši	102		2
+osiromaši	102		3
 osirotevši			2
-oskoruši			3
-oslabivši	40		3
+oskoruši			4
+oslabivši	40		4
 oslepivši			2
-oslobodivši	185		2
-oslonivši	64		2
+oslobodivši	185		3
+oslonivši	64		3
 oslovivši	11		2
 osmehnuvši	51		2
 osmelivši			2
-osmotrivši	14		2
+osmotrivši	14		3
 osnaživši			2
-osnovavši	44		2
+osnovavši	44		3
 ostarevši			2
-ostavivši	1416		3
-ostavši	493		2
+ostavivši	1416		4
+ostavši	493		3
 ostrugavši			2
-ostvarivši	385		2
-osudivši	66		2
+ostvarivši	385		3
+osudivši	66		3
 osujetivši			2
-osunčavši			2
+osunčavši			3
 osuši	1554		2
 osvestivši			2
-osvetivši	26		2
+osvetivši	26		3
 osvetlivši	15		2
-osvojivši	1317		2
+osvojivši	1317		3
 osvrnuvši	504		2
 otcepivši			2
-oteravši	28		3
+oteravši	28		4
 otevši	43		2
-otišavši	308		2
-otklonivši	13		2
-otkrivši	313		2
+otišavši	308		3
+otklonivši	13		3
+otkrivši	313		3
 otkucavši			2
 otkupivši	29		2
-otopivši			2
+otopivši			3
 otpasavši			2
-otpavši	14		2
-otpisavši			2
+otpavši	14		3
+otpisavši			3
 otpiši	35		2
 otporaši	171		2
 otpočevši	17		2
 otprativši			2
-otpustivši	22		2
+otpustivši	22		3
 otpuši			2
 otresavši	11		2
 otreznivši			2
 otrgnuvši	13		2
 otrčavši			2
 otupevši			2
-otuđivši			2
-otvorivši	350		2
-overivši			3
+otuđivši			3
+otvorivši	350		3
+overivši			4
 oveselivši			2
-ovladavši	30		2
-ovlastivši			2
+ovladavši	30		3
+ovlastivši			3
 ozarivši			2
-označivši	113		2
+označivši	113		3
 oćutavši			2
-očistivši	73		3
+očistivši	73		4
 očitavši			2
-očuvavši	15		2
+očuvavši	15		3
 ošinuvši			2
-oštetivši	85		3
-oženivši	38		2
+oštetivši	85		4
+oženivši	38		3
 padnuvši			2
 pajdaši			2
 pajtaši			2
@@ -684,454 +684,454 @@ pitavši			2
 pivši		M	2
 piši	1440		2
 plakavši			2
-planuvši			2
-plasiravši	92		2
-plativši	149		2
-plavuši	61		2
+planuvši			3
+plasiravši	92		3
+plativši	149		3
+plavuši	61		3
 plaši	5854		2
 pleši	38		2
 pljačkaši	632		2
 pljesnuvši			2
 pljunuvši	16		3
 plovivši			2
-pobedivši	1198		2
-pobegavši	65		3
+pobedivši	1198		3
+pobegavši	65		4
 pobesnevši			2
-pobivši	37		2
+pobivši	37		3
 pobojavši	20		2
 pobravši			2
 pobrinuvši			2
-pobunivši			2
+pobunivši			3
 pocepavši			2
 pocrpevši			2
 pocrvenevši	13		2
 podarivši	45		2
 podavši			2
 podebljavši			2
-podelivši	118		2
-podigavši	483		3
-podignuvši	53		3
+podelivši	118		3
+podigavši	483		4
+podignuvši	53		4
 podivljavši			2
 podlegavši	15		2
 podnevši	33		2
 podrepaši			2
-podržavši	53		2
-podsetivši	1592		3
+podržavši	53		3
+podsetivši	1592		4
 poduprevši			2
 podvivši			2
-podvrgavši			3
+podvrgavši			4
 podvukavši	61		2
 pogazivši	21		2
-pogledavši	527		3
+pogledavši	527		4
 pognuvši			2
-pogodivši	156		2
+pogodivši	156		3
 pogreši	846		2
 pogubivši	20		2
-pohitavši			3
-pohodivši			2
+pohitavši			4
+pohodivši			3
 pohulivši			2
-pohvalivši	110		2
+pohvalivši	110		3
 pohvatavši			2
 poigravši			2
-pojasnivši	52		2
-pojavivši	112		2
-pojačavši	12		2
+pojasnivši	52		3
+pojavivši	112		3
+pojačavši	12		3
 pojaši			2
-pojevši	10		2
-pojmivši			2
-pojurivši			2
+pojevši	10		3
+pojmivši			3
+pojurivši			3
 pokajavši	25		2
-pokazavši	636		2
+pokazavši	636		3
 pokeraši	17		2
-pokidavši			3
+pokidavši			4
 pokleknuvši			3
-poklonivši	252		2
-pokorivši	53		2
-pokrenuvši	99		2
-pokrivši	57		2
+poklonivši	252		3
+pokorivši	53		3
+pokrenuvši	99		3
+pokrivši	57		3
 pokupivši	51		3
-pokušavši	115		3
-pokvarivši			2
+pokušavši	115		4
+pokvarivši			3
 polegavši			2
-poljubivši	51		2
-polomivši	22		2
-položivši	163		2
-pomazavši	29		3
+poljubivši	51		3
+polomivši	22		3
+položivši	163		3
+pomazavši	29		4
 pomenuvši	160		2
 pomerivši	26		2
-pomešavši	17		2
-pomirivši	15		2
+pomešavši	17		3
+pomirivši	15		3
 pomiriši	23		2
-pomislivši	118		3
-pomogavši	39		2
-pomolivši	192		2
+pomislivši	118		4
+pomogavši	39		3
+pomolivši	192		3
 pomračivši			2
 pomutivši			2
 ponesavši			2
 ponevši	102		2
-ponizivši	10		2
-poništivši	14		3
+ponizivši	10		3
+poništivši	14		4
 ponjuši			2
-ponovivši	136		2
-ponudivši	238		3
+ponovivši	136		3
+ponudivši	238		4
 popadavši			2
 popevši	107		2
-popivši	28		2
+popivši	28		3
 popiši			2
-poplavivši			2
-poplaši	60		2
-popravivši	28		3
-poprimivši			2
-popunivši	23		3
-popustivši	11		2
-popuši	196		2
-porazivši	62		2
-porekavši			3
-porobivši			2
-poručivši	416		2
-poruši	337		2
-porušivši	13		3
-posadivši	22		2
+poplavivši			3
+poplaši	60		3
+popravivši	28		4
+poprimivši			3
+popunivši	23		4
+popustivši	11		3
+popuši	196		3
+porazivši	62		3
+porekavši			4
+porobivši			3
+poručivši	416		3
+poruši	337		3
+porušivši	13		4
+posadivši	22		3
 posedavši			2
 posekavši			2
-posetivši	115		3
-poskočivši			2
-poslavši	277		2
-poslušavši	74		3
-posluživši	57		2
+posetivši	115		4
+poskočivši			3
+poslavši	277		3
+poslušavši	74		4
+posluživši	57		3
 pospeši	430		2
-posramivši			2
-posrnuvši			2
+posramivši			3
+posrnuvši			3
 postajavši			2
 postaravši			2
-postavivši	352		3
-postavši	627		2
-postidevši	10		2
-postigavši	513		3
+postavivši	352		4
+postavši	627		3
+postidevši	10		3
+postigavši	513		4
 postivši			2
-postupivši	23		2
+postupivši	23		3
 posuvši			2
 posvađavši			2
-posvetivši	132		2
+posvetivši	132		3
 potapši			2
-potegnuvši			2
+potegnuvši			3
 potekavši	10		2
 potisnuvši	47		2
 potiši			2
-potkopavši			2
-potonuvši	14		2
-potopivši			2
+potkopavši			3
+potonuvši	14		3
+potopivši			3
 potpavši			2
-potpisavši	101		2
+potpisavši	101		3
 potpiši	92		2
 potpraši			2
-potraživši	16		2
+potraživši	16		3
 potroši	3888		2
-potrošivši	39		2
-potrudivši	35		2
-potrčavši	16		2
+potrošivši	39		3
+potrudivši	35		3
+potrčavši	16		3
 potukavši	22		2
 poturčivši			2
-potvrdivši	234		2
+potvrdivši	234		3
 potčinivši	16		2
 pouzdavši			2
 poučivši	53		2
 povedavši			2
-poverivši	46		3
-povevši	31		2
-povezavši	44		3
-povećavši	127		2
+poverivši	46		4
+povevši	31		3
+povezavši	44		4
+povećavši	127		3
 povikavši	21		2
-povisivši	13		2
-povivši			2
+povisivši	13		3
+povivši			3
 poviši		M	2
-povrativši	54		2
-povredivši	61		2
+povrativši	54		3
+povredivši	61		3
 površi			2
-povukavši	101		2
-pozajmivši	26		2
-pozdravivši	151		3
-poznavši	133		2
-pozvavši	289		2
+povukavši	101		3
+pozajmivši	26		3
+pozdravivši	151		4
+poznavši	133		3
+pozvavši	289		3
 poćutavši			2
 počekavši	10		2
 počevši	5258		2
 počeši	11		2
-počinivši	25		2
-počinuvši			3
-počistivši			3
+počinivši	25		3
+počinuvši			4
+počistivši			4
 počivši	129		2
 počuvši			2
-pošavši	143		2
-poštedevši	14		2
-poželevši	494		2
-poželjevši			2
+pošavši	143		3
+poštedevši	14		3
+poželevši	494		3
+poželjevši			3
 poživevši	80		2
-požurivši	14		2
+požurivši	14		3
 prativši			2
 pravaši	36		2
 praši	76		2
-prebacivši	75		2
+prebacivši	75		3
 prebegavši			2
 prebolevši			2
 prebriši			2
 predavavši			2
-predavši	160		2
+predavši	160		3
 preduzevši	10		2
 pregazivši	22		2
 pregledavši	40		2
 prejevši			2
-prekinuvši	106		3
+prekinuvši	106		4
 preklavši			2
 prekorevši			2
-prekrivši	25		2
+prekrivši	25		3
 prekrstivši	70		2
 prekrši	724		2
-prekršivši	32		2
-preletevši	31		2
-prelomivši	20		2
+prekršivši	32		3
+preletevši	31		3
+prelomivši	20		3
 preloživši			2
-premaši	508		2
-premašivši	127		3
+premaši	508		3
+premašivši	127		4
 prenesavši			2
 prenevši	81		2
-prenoćivši			2
+prenoćivši			3
 prenuvši	53		3
 preotevši			2
-prepavši			2
+prepavši			3
 prepiši	21		2
-preplaši	50		2
+preplaši	50		3
 preprečivši			2
-preruši	38		2
+preruši	38		3
 presavivši			2
-presekavši	32		3
-preselivši	51		2
-preskočivši	99		2
-prestavši	26		2
-prestraši	30		2
-presudivši	11		2
+presekavši	32		4
+preselivši	51		3
+preskočivši	99		3
+prestavši	26		3
+prestraši	30		3
+presudivši	11		3
 presuši	175		2
 pretekavši	73		2
 pretočivši			2
 pretrpavši			2
-pretrpevši	77		2
+pretrpevši	77		3
 pretrčavši	24		2
-pretukavši			2
-pretvorivši	204		2
+pretukavši			3
+pretvorivši	204		3
 preuzevši	186		2
-prevarivši	18		3
-prevezavši	14		2
-prevrnuvši	19		2
+prevarivši	18		4
+prevezavši	14		3
+prevrnuvši	19		3
 prevrši	36		2
-prezrevši	58		2
-prešavši	438		2
-preživevši	34		2
-pribivši			2
+prezrevši	58		3
+prešavši	438		3
+preživevši	34		3
+pribivši			3
 pribravši	18		2
 pridavši			2
 pridigavši			2
-pridobivši	19		2
-pridodavši	19		2
+pridobivši	19		3
+pridodavši	19		3
 prignuvši			2
 prigrlivši	26		2
 priguši	65		2
-prihvativši	189		3
-prikazavši	77		2
+prihvativši	189		4
+prikazavši	77		3
 prikovavši	10		2
-prikrivši			2
-prikupivši	41		3
+prikrivši			3
+prikupivši	41		4
 prilegavši			2
 prilepivši	11		2
-priljubivši	16		2
+priljubivši	16		3
 priloživši	18		2
 primaši		M	2
-primenivši	44		2
+primenivši	44		3
 primerivši			2
-primetivši	341		2
-primivši	624		2
-primoravši	43		2
+primetivši	341		3
+primivši	624		3
+primoravši	43		3
 prinevši	22		2
 prinudivši	13		2
 prionuvši			2
 pripalivši			2
-pripavši	47		2
+pripavši	47		3
 pripaši			2
 pripiši			2
-priredivši	60		2
-prisetivši	37		3
-prisilivši	16		3
+priredivši	60		3
+prisetivši	37		4
+prisilivši	16		4
 prispevši	31		2
-pristavši	51		2
+pristavši	51		3
 pristaši			3
 pritajivši			2
 pritegnuvši			2
 pritekavši			2
-pritisnuvši	23		3
+pritisnuvši	23		4
 pritrčavši	19		2
 pritvrdivši			2
-priuštivši			2
-privevši	10		2
-privolevši	11		2
-privukavši	40		2
-priznavši	155		2
-prizvavši	65		2
-prišavši	126		2
-probavši	11		2
-probivši	72		2
-probudivši	197		2
+priuštivši			3
+privevši	10		3
+privolevši	11		3
+privukavši	40		3
+priznavši	155		3
+prizvavši	65		3
+prišavši	126		3
+probavši	11		3
+probivši	72		3
+probudivši	197		3
 probuši	143		2
-procenivši	65		2
-prodavši	95		2
+procenivši	65		3
+prodavši	95		3
 prodenuvši			2
 prodrevši			2
 prodrmavši			2
 produbivši			2
 produživši	26		2
-progovorivši	50		2
+progovorivši	50		3
 progunđavši			2
 proguravši			2
-proizvevši	23		2
+proizvevši	23		3
 prokasavši			2
 proklevši			2
 prokravši			2
 prokrčivši			2
-prolivši	16		2
-promaši	421		2
-promenivši	135		2
+prolivši	16		3
+promaši	421		3
+promenivši	135		3
 promolivši			2
 pronašavši	94		3
-pronikavši			3
+pronikavši			4
 pronjuši			2
-propativši			3
+propativši			4
 propevši			2
-propisavši			2
-propivši			2
-propustivši	89		2
-proračunavši			2
-prorekavši			3
+propisavši			3
+propivši			3
+propustivši	89		3
+proračunavši			3
+prorekavši			4
 prorezavši			2
 prosijavši			2
 prostrevši			2
 prosudivši			2
 prosuši	162		2
-proteravši	29		3
+proteravši	29		4
 protrčavši			2
 proturivši			2
-proučivši	38		2
-provalivši	12		2
+proučivši	38		3
+provalivši	12		3
 provevši	97		2
 providevši	36		2
 provirivši			2
-prozborivši			2
+prozborivši			3
 prozlivši			2
 prozrevši	35		2
-prozvavši			2
-pročitavši	412		2
+prozvavši			3
+pročitavši	412		3
 pročuvši			2
 prošaptavši			2
 prošavši	341		3
-proširivši	59		2
+proširivši	59		3
 proževši			2
 proživevši	32		2
 pruživši	185		3
 prvoligaši	100		2
 puniši		M	2
-pustivši	94		2
-pustoši	405		2
+pustivši	94		3
+pustoši	405		3
 puši	2579		2
 rabotavši			2
 radiši			2
 raduši			2
 ranivši	76		3
 rasejavši			2
-raskinuvši	12		3
-raskoši	657		2
-raskrstivši			2
+raskinuvši	12		4
+raskoši	657		3
+raskrstivši			3
 raspalivši	13		2
 raspevši			2
 raspitavši			2
 rasprši	171		2
-raspršivši			2
-rasrdivši			2
-rastavši			2
+raspršivši			3
+rasrdivši			3
+rastavši			3
 rasuši			2
-razabravši			2
+razabravši			3
 razapevši			2
-razbacavši			2
+razbacavši			3
 razbaruši			2
-razbivši	65		2
-razbolevši	15		2
-razdavši	42		2
-razdelivši	16		2
-razderavši			2
+razbivši	65		3
+razbolevši	15		3
+razdavši	42		3
+razdelivši	16		3
+razderavši			3
 razdravši			2
 razdreši			2
 razgorevši			2
-razišavši			2
-razjarivši	21		2
-razlivši			2
-razlučivši			2
+razišavši			3
+razjarivši	21		3
+razlivši			3
+razlučivši			3
 razmislivši			2
-razmotavši			2
+razmotavši			3
 raznevši			2
-razneživši			2
-razorivši	14		2
-razradivši			2
+razneživši			3
+razorivši	14		3
+razradivši			3
 razredivši			2
 razreši	1641		2
 razrešivši			2
-razruši	119		2
-razrušivši			3
-razumevši	69		2
-razvezavši			2
-razvivši	35		2
+razruši	119		3
+razrušivši			4
+razumevši	69		3
+razvezavši			3
+razvivši	35		3
 raši		M	2
-raširivši	53		2
+raširivši	53		3
 reguliši	12		2
 rekavši	5530		3
 reketaši			2
-revanši	75		2
+revanši	75		3
 revolveraši	31		2
 rezerviši			2
 reši	16325		2
-rešivši	57		2
+rešivši	57		3
 rikši	20		2
 robijaši	123		2
-rodivši	92		2
+rodivši	92		3
 roguši	11		2
 rukometaši	2580		2
 ruši	4320		2
-sabivši			2
-sabravši	126		2
+sabivši			3
+sabravši	126		3
 saglasivši	14		2
-sagledavši	73		3
-sagnuvši	30		2
-sagradivši	29		2
+sagledavši	73		4
+sagnuvši	30		3
+sagradivši	29		3
 sagreši	74		2
-sagrešivši	10		2
-sahranivši	17		2
-sakrivši	56		2
-sakupivši	104		3
+sagrešivši	10		3
+sahranivši	17		3
+sakrivši	56		3
+sakupivši	104		4
 salaši			2
 saletevši			2
-samlevši			2
+samlevši			3
 saopštivši	117		2
 saplevši			2
-sasekavši			3
+sasekavši			4
 saslušavši	158		2
-sastavivši	35		3
-sastavši	22		2
+sastavivši	35		4
+sastavši	22		3
 sasuši	74		2
-savladavši	734		2
+savladavši	734		3
 sazdavši			2
-saznavši	713		2
-sazrevši			2
-sazvavši	36		2
-sačekavši	121		3
-sačinivši	19		2
-sačuvavši	126		2
+saznavši	713		3
+sazrevši			3
+sazvavši	36		3
+sačekavši	121		4
+sačinivši	19		3
+sačuvavši	126		3
 saši			2
-sažalivši	53		3
+sažalivši	53		4
 sedavši			2
 sednuvši			2
 sektaši	132		2
@@ -1139,62 +1139,62 @@ setivši	144		3
 shvativši	905		3
 siniši			2
 siromaši	79		2
-sišavši	117		2
+sišavši	117		3
 siši			2
 sjahavši			3
 sjaši	195		2
 sjedinivši			2
 skijaši	775		2
 skinuvši	115		3
-sklonivši	29		2
-sklopivši	64		2
+sklonivši	29		3
+sklopivši	64		3
 sklupčavši			2
 skoncentriši	19		2
 skončavši	11		2
-skočivši	159		2
-skrenuvši	72		2
+skočivši	159		3
+skrenuvši	72		3
 skreši			2
 skrhavši			2
-skrstivši			2
+skrstivši			3
 skruši	17		2
 skrši	78		2
-skršivši			2
+skršivši			3
 skupivši	121		3
 slagavši			2
 slatkiši	1012		2
 slavivši	43		3
 slaviši			2
 slegnuvši	15		2
-sljubivši			2
-slomivši	36		2
-složivši	53		2
+sljubivši			3
+slomivši	36		3
+složivši	53		3
 slušavši			2
-smenivši	23		2
+smenivši	23		3
 smestivši	63		3
 smeši	952		2
 smilovavši			4
-smirivši	16		2
+smirivši	16		3
 smišljavši			2
 smutivši			2
-snabdevši	14		2
+snabdevši	14		3
 snaši			2
-snizivši	13		2
-spalivši	36		2
+snizivši	13		3
+spalivši	36		3
 sparuši			2
 spasavši	25		3
-spasivši	53		2
+spasivši	53		3
 spazivši	28		3
 spletkaroši	18		2
-spojivši	94		2
-spomenuvši	55		2
+spojivši	94		3
+spomenuvši	55		3
 sporivši			2
 sporiši			2
-spoznavši	43		2
-spremivši	50		2
-sprečivši	62		2
-spustivši	242		2
-sputavši			2
-sravnivši			2
+spoznavši	43		3
+spremivši	50		3
+sprečivši	62		3
+spustivši	242		3
+sputavši			3
+sravnivši			3
 sretnuvši			2
 srevši	18		2
 sruši	2396		2
@@ -1202,36 +1202,36 @@ srušivši	41		3
 staniši		M	2
 stavivši	225		3
 stavši	129		2
-stegnuvši	15		2
-stekavši	230		2
+stegnuvši	15		3
+stekavši	230		3
 stigavši	597		3
 stisnuvši	28		3
-stišavši			2
-stopivši			2
+stišavši			3
+stopivši			3
 straši	75		2
 stresavši			2
 strpavši	13		2
 strčavši			2
 strši	37		2
-stupivši	125		2
-stvorivši	360		2
+stupivši	125		3
+stvorivši	360		3
 sugeriši			2
-sukobivši	11		2
+sukobivši	11		3
 sumiravši			2
-suočivši	61		2
-susrevši	58		2
-suzbivši			2
+suočivši	61		3
+susrevši	58		3
+suzbivši			3
 suzivši			3
 suši	2051		2
-svarivši			2
-svezavši	26		2
-svrativši	21		2
+svarivši			3
+svezavši	26		3
+svrativši	21		3
 svrgnuvši	10		3
-svrstavši	29		2
+svrstavši	29		3
 svrši	697		2
-svršivši	65		2
-svukavši	22		2
-taknuvši			2
+svršivši	65		3
+svukavši	22		3
+taknuvši			3
 tamburaši	458		2
 tapkaroši			2
 tapši			2
@@ -1253,172 +1253,172 @@ tronoši			2
 troši	13210		2
 trpevši			2
 trčavši			2
-ubacivši	128		2
+ubacivši	128		3
 ubedivši	56		2
 ubeleživši			2
-ubivši	224		2
-ublaživši			2
+ubivši	224		3
+ublaživši			3
 ubriši			2
-ubrzavši	16		2
-udahnuvši	26		2
-udaljivši	58		2
-udarivši	179		3
-udavši	22		2
+ubrzavši	16		3
+udahnuvši	26		3
+udaljivši	58		3
+udarivši	179		4
+udavši	22		3
 udbaši			2
 udebljavši			2
 udesivši			2
-udiši			2
-udruživši	30		2
+udiši			3
+udruživši	30		3
 udubivši			2
 uduši			2
-ugasivši	25		2
+ugasivši	25		3
 ugazivši			2
-ugledavši	760		3
+ugledavši	760		4
 uglješi			2
 ugnezdivši			2
-ugodivši	39		2
-ugostivši	24		2
-ugrabivši			3
-ugrozivši	35		2
+ugodivši	39		3
+ugostivši	24		3
+ugrabivši			4
+ugrozivši	35		3
 uguši	715		2
-ugušivši	17		2
-uhapsivši	14		3
-uhvativši	219		3
-ujedinivši	27		2
+ugušivši	17		3
+uhapsivši	14		4
+uhvativši	219		4
+ujedinivši	27		3
 ukaljavši			2
-ukazavši	544		2
-ukinuvši	29		3
+ukazavši	544		3
+ukinuvši	29		4
 ukleši			2
-uključivši	203		2
-uklonivši	47		2
-ukorenivši			2
-ukorivši			2
-ukočivši			2
-ukrasivši	34		2
-ukravši	13		2
-ukrcavši	12		2
+uključivši	203		3
+uklonivši	47		3
+ukorenivši			3
+ukorivši			3
+ukočivši			3
+ukrasivši	34		3
+ukravši	13		3
+ukrcavši	12		3
 ukreši			2
-ukrotivši			2
-ukrstivši	16		2
+ukrotivši			3
+ukrstivši	16		3
 ulivši			2
-ulovivši			2
-uloživši	69		2
+ulovivši			3
+uloživši	69		3
 ulučivši			2
-umakavši			3
+umakavši			4
 umirivši	20		2
 umislivši			2
-umivši	12		2
-umjevši			2
+umivši	12		3
+umjevši			3
 umnoživši			2
 umolivši			2
-umorivši			2
+umorivši			3
 umočivši			2
 umrevši	13		2
 umrtvivši	15		2
-unakazivši			2
+unakazivši			3
 unevši	47		2
-uništivši	91		3
+uništivši	91		4
 uobličivši			2
-uobrazivši			2
-uočivši	84		2
-upavši	16		2
+uobrazivši			3
+uočivši	84		3
+upavši	16		3
 uperivši	43		2
 upetljavši			2
-upisavši	72		2
-upitavši	100		2
+upisavši	72		3
+upitavši	100		3
 upiši	287		2
 uplativši	14		2
-uplaši	1200		2
-uplašivši	72		3
+uplaši	1200		3
+uplašivši	72		4
 uplevši			2
 upodobivši			2
 upokojivši			2
 uporedivši	102		2
-upotrebivši	84		2
-upoznavši	191		2
-upozorivši	280		2
+upotrebivši	84		3
+upoznavši	191		3
+upozorivši	280		3
 upravivši			2
 upregnuvši			2
 uprtivši			2
 upustivši	18		2
-uputivši	232		2
-uradivši	44		2
+uputivši	232		3
+uradivši	44		3
 urazumivši			2
-uračunavši	12		2
-uredivši	40		2
-urezavši			3
-uronivši			2
-uručivši	72		2
+uračunavši	12		3
+uredivši	40		3
+urezavši			4
+uronivši			3
+uručivši	72		3
 uruši	451		2
 usavrši	431		2
-usavršivši			2
+usavršivši			3
 useknuvši			2
-uselivši	20		2
+uselivši	20		3
 usijavši			2
 uskladivši			2
 uskočivši	14		2
-uskrativši	19		2
+uskrativši	19		3
 usliši	347		2
 uslišivši			2
-usmerivši	51		3
+usmerivši	51		4
 usmrtivši	143		2
 usnuvši			2
 uspevavši			2
-uspevši	297		2
+uspevši	297		3
 uspravivši			2
 ustalivši			2
-ustavši	332		2
+ustavši	332		3
 ustaši	21		3
 ustraši	29		2
 ustrašivši			2
 ustremivši	16		2
-ustrojivši	12		2
+ustrojivši	12		3
 ustrčavši			2
-ustupivši	53		2
-ustvrdivši	88		2
-usudivši	14		2
-usvojivši	85		2
-utekavši			2
-utemeljivši	14		2
-uteši	521		2
-utešivši	18		3
+ustupivši	53		3
+ustvrdivši	88		3
+usudivši	14		3
+usvojivši	85		3
+utekavši			3
+utemeljivši	14		3
+uteši	521		3
+utešivši	18		4
 utisnuvši			2
-utonuvši	11		2
-utopivši	16		2
+utonuvši	11		3
+utopivši	16		3
 utroši	618		2
 utrčavši	15		2
-utvrdivši	146		2
+utvrdivši	146		3
 uvativši			2
-uverivši	94		3
+uverivši	94		4
 uvevši			2
-uvećavši	13		2
-uvidevši	529		3
-uvivši			2
-uvrstivši	32		2
-uvukavši	26		2
+uvećavši	13		3
+uvidevši	529		4
+uvivši			3
+uvrstivši	32		3
+uvukavši	26		3
 uzašavši			2
-uzdahnuvši	88		2
+uzdahnuvši	88		3
 uzdigavši	24		2
 uzdignuvši	10		2
 uzdiši			2
-uzdržavši			2
+uzdržavši			3
 uzevši	2256		2
 uzišavši	20		3
-uzjahavši			3
-uzjaši	102		2
-uzletevši			2
-uznemirivši			2
+uzjahavši			4
+uzjaši	102		3
+uzletevši			3
+uznemirivši			3
 uznevši	25		2
 uzrastavši			2
 uzrevši			2
-uzviknuvši	27		2
-uzvisivši			2
+uzviknuvši	27		3
+uzvisivši			3
 uzvrativši	21		2
-učinivši	345		2
+učinivši	345		3
 učivši			2
-učlanivši			2
-učvrstivši	37		2
-ušavši	561		2
+učlanivši			3
+učvrstivši	37		3
+ušavši	561		3
 uši	6202		2
 uškopivši			2
 užasnuvši			2
@@ -1427,141 +1427,141 @@ varoši			2
 vaskrsavši			2
 vaši	4500		2
 velikaši	437		2
-venčavši			2
-vezavši	69		2
+venčavši			3
+vezavši	69		3
 videvši	2838		3
-viknuvši	15		2
+viknuvši	15		3
 vinuvši	12		2
 vivši		M	2
 viši	15848		2
-vrativši	749		2
+vrativši	749		3
 vrši	37239		2
 zabacivši	30		2
-zaboravivši	247		3
-zabranivši	58		2
+zaboravivši	247		4
+zabranivši	58		3
 zabravivši			2
 zacrvenivši			2
 zacviljevši			2
-zadavši	29		2
+zadavši	29		3
 zadihavši			2
-zadivivši			2
+zadivivši			3
 zadobivši	84		2
-zadremavši			2
-zadržavši	218		2
-zadubivši			2
+zadremavši			3
+zadržavši	218		3
+zadubivši			3
 zagledavši	45		2
-zaglibivši			2
+zaglibivši			3
 zagluši	24		2
 zagnjurivši			2
 zagrabivši			2
-zagradivši			2
+zagradivši			3
 zagrcnuvši			2
-zagrejavši			3
-zagrizavši			3
-zagrlivši	93		3
+zagrejavši			4
+zagrizavši			4
+zagrlivši	93		4
 zaguši	68		2
-zahvalivši	523		2
-zahvativši	30		3
+zahvalivši	523		3
+zahvativši	30		4
 zaigravši	16		2
 zaintačivši			2
 zaiskavši			2
-zajaši	32		2
-zakasnivši			2
+zajaši	32		3
+zakasnivši			3
 zakačivši	17		2
 zakitivši			2
 zaklavši	10		2
 zaklevši	20		2
 zaključavši	19		2
-zaključivši	224		2
+zaključivši	224		3
 zakoračivši	34		2
 zakucavši	14		2
 zaljuljavši			2
-založivši	52		2
+založivši	52		3
 zamaglivši			2
-zamahnuvši	13		2
-zamenivši	154		2
-zamerivši	11		3
-zametnuvši			3
-zamislivši	23		3
-zamolivši	104		2
+zamahnuvši	13		3
+zamenivši	154		3
+zamerivši	11		4
+zametnuvši			4
+zamislivši	23		4
+zamolivši	104		3
 zamonaši	362		2
 zamorivši			2
 zamrzevši			2
 zanevši			2
 zanjiši			2
 zaobišavši	29		2
-zaostavši	36		2
-zapalivši	48		2
+zaostavši	36		3
+zapalivši	48		3
 zaparavši			2
-zapavši	12		2
-zapazivši	25		3
+zapavši	12		3
+zapazivši	25		4
 zapevavši			2
 zapevuši			2
-zapitavši	55		2
+zapitavši	55		3
 zapiši	116		2
-zaplaši	174		2
+zaplaši	174		3
 zaplenivši	13		2
 zaplevši			2
 zapleši			2
-zaplivavši			3
+zaplivavši			4
 započevši	120		2
 zapraši	16		2
 zapretivši	107		2
 zaputivši			2
 zapuši	271		2
-zapušivši			3
-zaradivši	112		2
+zapušivši			4
+zaradivši	112		3
 zarazivši	25		2
 zarezavši			2
 zarobivši	46		2
 zasednuvši			2
 zasijavši			2
-zasitivši			3
-zasluživši	18		2
-zaspavši	16		2
-zastavši	30		2
+zasitivši			4
+zasluživši	18		3
+zaspavši	16		3
+zastavši	30		3
 zastidevši			2
-zastraši	172		2
+zastraši	172		3
 zasukavši			2
 zasuvši			2
 zasuzivši			2
-zatekavši	45		3
-zatraživši	169		2
+zatekavši	45		4
+zatraživši	169		3
 zatrpavši			2
 zatrubivši			2
 zatrvši			2
-zatvorivši	143		2
-zaustavivši	96		3
+zatvorivši	143		3
+zaustavivši	96		4
 zauzevši	307		2
-zavadivši			3
+zavadivši			4
 zavalivši			2
 zavapivši			2
-zavevši			2
-zavezavši			2
-zavirivši	12		2
-zavladavši			2
-zavolevši	62		2
-zavoljevši			2
+zavevši			3
+zavezavši			3
+zavirivši	12		3
+zavladavši			3
+zavolevši	62		3
+zavoljevši			3
 završi	20475		2
-završivši	409		2
-zavukavši	10		2
+završivši	409		3
+zavukavši	10		3
 zazidavši			2
-začaravši			2
+začaravši			3
 začevši			2
-začudivši	12		3
+začudivši	12		4
 začuvši	15		2
-zašavši	19		2
+zašavši	19		3
 zaši			2
-zaštitivši	13		2
-zaželevši	35		2
+zaštitivši	13		3
+zaželevši	35		3
 zažmurivši	10		2
 zbacivši	33		2
-zbliživši			2
+zbliživši			3
 zbrinuvši			3
 zbriši			2
-zbunivši			2
+zbunivši			3
 zelenaši			2
-zevnuvši			2
+zevnuvši			3
 zgazivši			2
 zgrabivši	42		3
 zgreši	66		2
@@ -1573,11 +1573,11 @@ zvezdaši			2
 čauši			2
 čaši	1205		2
 čekavši			2
-čestitavši	51		2
+čestitavši	51		3
 čeznuvši			3
 češi			2
 čilaši			2
-činivši			2
+činivši			3
 čuvši	2173		2
 čučnuvši			3
 đilkoši			2
@@ -1587,35 +1587,35 @@ zvezdaši			2
 šećeraši			2
 šibavši			2
 šivši		M	2
-šišmiši	38		2
-štediši	21		2
-ščepavši			2
+šišmiši	38		3
+štediši	21		3
+ščepavši			3
 žigosavši			2
-griješi	141		2
-istjeravši			3
+griješi	141		3
+istjeravši			4
 iznijevši			3
 ljepši	274		2
-nasmiješi	41		2
-odijelivši			3
+nasmiješi	41		3
+odijelivši			4
 odriješi	30		2
 ogriješi	21		2
-osjetivši			3
+osjetivši			4
 pjevuši	17		2
-pogriješi	26		2
+pogriješi	26		3
 ponijevši			2
-posjetivši			3
+posjetivši			4
 primjetivši			2
 razriješi	66		2
-riješi	886		2
-riješivši			3
+riješi	886		3
+riješivši			4
 rješi			2
-sagriješi	28		2
-smiješi	56		2
+sagriješi	28		3
+smiješi	56		3
 smjestivši			3
 smješi			2
 tješi			2
 ubijedivši			2
-usmjerivši			3
-utješi			2
+usmjerivši			4
+utješi			3
 vidjevši			3
 zgriješi	27		2

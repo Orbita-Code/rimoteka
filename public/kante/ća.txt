@@ -1,5 +1,5 @@
 2293
-Božića			2
+Božića			3
 abramovića			2
 abraševića			2
 ackovića			2
@@ -26,7 +26,7 @@ antunovića			2
 ančića			2
 anđelića			4
 anđelovića			2
-anđelčića	29		2
+anđelčića	29		3
 anđića			2
 arambašića			2
 aračića			2
@@ -261,7 +261,7 @@ dejanovića			2
 dejovića			2
 delalića			2
 delibašića			2
-delića	392		2
+delića	392		3
 demirovića			2
 demića			2
 demončića			2
@@ -430,7 +430,7 @@ gojkovića			2
 golaća	60		2
 golemovića			2
 golića			2
-golubića	15		2
+golubića	15		3
 golubovića			2
 golupčića	22		2
 gonića			2
@@ -488,8 +488,8 @@ helića			2
 hitnoća			2
 hića			2
 hladnoća	1246		2
-hlepčića	19		2
-hodajuća	87		3
+hlepčića	19		3
+hodajuća	87		4
 hodočašća	479		4
 hodžića			2
 homića	14		3
@@ -528,7 +528,7 @@ ivića			2
 ivkovića			2
 ivoševića			2
 izmičuća			2
-iznenađujuća	347		3
+iznenađujuća	347		4
 izuzeća	242		2
 izvešća	11		2
 iščeznuća	60		2
@@ -551,7 +551,7 @@ jankovića			2
 janovića			2
 jančića			2
 jaredića			2
-jareća	10		2
+jareća	10		3
 jarića			2
 jasnića			2
 jasnoća	296		2
@@ -636,7 +636,7 @@ kapičića			2
 kaputića	28		2
 karadžića			2
 karalića			2
-karanfilića	123		2
+karanfilića	123		3
 karanovića			2
 karapešića			2
 karađorđevića			2
@@ -697,7 +697,7 @@ kolića			2
 koljevića			2
 kolonića			2
 kolutića	32		2
-komadića	412		2
+komadića	412		3
 komarčića			2
 komnenića			2
 kompića			2
@@ -733,7 +733,7 @@ kovačevića			2
 kovačića			2
 kovijanića			2
 kovjanića			2
-kovčežića	30		3
+kovčežića	30		4
 kozića			2
 kozlića	38		3
 kočića			2
@@ -741,7 +741,7 @@ koštunića			2
 košutića			2
 kragovića			2
 krajačića			2
-kraljevića	136		3
+kraljevića	136		4
 kranjčevića			2
 krapovića			2
 krasića			2
@@ -751,7 +751,7 @@ kratkoća	51		2
 kraća	1431		2
 krekića			2
 krestića			2
-krevetića	111		3
+krevetića	111		4
 krgovića			2
 krimića	136		3
 krivića			2
@@ -766,7 +766,7 @@ krompirića			2
 krsića			2
 krstajića			2
 krstareća	29		2
-krstića	55		2
+krstića	55		3
 krstovića			2
 krumpirića			2
 krunića			2
@@ -774,8 +774,8 @@ krupnoća			2
 kruća	24		2
 krušića			2
 kružeća			2
-kružića	49		2
-krvoprolića	603		2
+kružića	49		3
+krvoprolića	603		3
 krčažića			2
 krčića			2
 kuburovića			2
@@ -837,7 +837,7 @@ lelića			2
 lempića			2
 lentića			2
 leposavića			2
-leptirića	89		2
+leptirića	89		3
 leteća	186		2
 leća	113		2
 lečića			2
@@ -846,7 +846,7 @@ liderčića			2
 lilića			2
 lisičića			2
 lisovića			2
-listića	2614		2
+listića	2614		3
 lišća	1949		2
 ljajića			2
 ljotića			2
@@ -865,7 +865,7 @@ lolića			2
 lomića			2
 lonića			2
 lončarića			2
-lončića	53		2
+lončića	53		3
 lopandića			2
 lopičića			2
 lovića			2
@@ -951,9 +951,9 @@ medakovića			2
 medića			2
 medovića			2
 medunića			2
-medvedića	92		3
-medvjedića			3
-mehurića	311		2
+medvedića	92		4
+medvjedića			4
+mehurića	311		3
 mekoća	140		2
 menkovića			2
 mesića			2
@@ -1048,7 +1048,7 @@ mojaševića			2
 mojića			2
 mojovića			2
 mojsića			2
-mokraća	310		2
+mokraća	310		3
 moljevića			2
 momčića	52		2
 morankića			2
@@ -1086,13 +1086,13 @@ nadbića			2
 nadolazeća	105		2
 najdanovića			2
 najgušća	49		3
-najkraća	330		2
+najkraća	330		3
 najljuća	21		3
-najveća	30971		2
+najveća	30971		3
 najčešća	2280		3
 najčišća			3
 najčvršća	48		3
-najžešća	117		2
+najžešća	117		3
 najžuća			3
 nalazeća			2
 nanovića			2
@@ -1108,7 +1108,7 @@ nastasijevića			2
 nastića			2
 natalića			2
 naumovića			2
-navraća	73		2
+navraća	73		3
 načića			2
 nebića			2
 nebraća			2
@@ -1116,7 +1116,7 @@ nebrigića			2
 nedaća	700		2
 nedimovića			2
 nedića			2
-nedostajuća	237		3
+nedostajuća	237		4
 nedovića			2
 negirajuća			2
 nejasnoća	729		2
@@ -1129,11 +1129,11 @@ nemoća		M	2
 nenadića			2
 nenadovića			2
 nenezića			2
-neodgovarajuća	272		3
-nepostojeća	381		3
+neodgovarajuća	272		4
+nepostojeća	381		4
 nepunoća			2
 nesposobnjakovića	119		2
-nesreća	6574		2
+nesreća	6574		3
 nevažeća	116		2
 nečistoća	753		2
 nešića			2
@@ -1158,9 +1158,9 @@ noseća	258		2
 novakovića			2
 novića		M	2
 novkovića			2
-novčića	832		2
+novčića	832		3
 nožinića			2
-nožića	49		2
+nožića	49		3
 numića			2
 nušića			2
 obadovića			2
@@ -1172,27 +1172,27 @@ obilića			2
 oblačića	43		2
 obmanjujuća	24		2
 obradovića			2
-obraća	5284		2
+obraća	5284		3
 obraščića			2
 obrenovića			2
 obrenčića			2
-obuhvaća	210		2
-obuća	1957		2
+obuhvaća	210		3
+obuća	1957		3
 odabašića			2
 odalovića			2
 odanovića			2
 odavića			2
 odbijajuća			2
 odeća	3703		3
-odgovarajuća	4175		3
+odgovarajuća	4175		4
 odića			2
 odlazeća	180		2
-odlučujuća	700		3
+odlučujuća	700		4
 određujuća			2
 odvraća	506		2
 ognjanovića			2
 ognjenovića			2
-ohrabrujuća	312		3
+ohrabrujuća	312		4
 ojdanića			2
 okidajuća			2
 okrugića			2
@@ -1213,7 +1213,7 @@ orlića	152		2
 orlovića			2
 ormarića	295		2
 oručevića			2
-oseća	18389		2
+oseća	18389		3
 osiguravajuća	1490		2
 oslića	94		3
 oslobađajuća	484		2
@@ -1238,13 +1238,13 @@ pajkovića			2
 pajovića			2
 pajtića			2
 pajvančića			2
-paketića	1032		2
+paketića	1032		3
 pakovića			2
 palalića			2
 palikuća	53		2
 palića			2
 paloševića			2
-pametnjakovića	161		3
+pametnjakovića	161		4
 panića			2
 panjića			2
 panovića			2
@@ -1323,7 +1323,7 @@ pešakovića			2
 pešića			2
 pijaća	235		2
 piletića			2
-pileća	334		2
+pileća	334		3
 pilipovića			2
 pilića	874		2
 pindovića			2
@@ -1354,7 +1354,7 @@ plutajuća	121		2
 pluća	9057		2
 pobuđujuća			2
 podignuća			2
-podseća	21756		2
+podseća	21756		3
 podstičuća			2
 pogačića			2
 pokliznuća			2
@@ -1378,16 +1378,16 @@ pornića	194		2
 poslića	40		2
 posrnuća	210		2
 postignuća	1783		2
-postojeća	3423		3
+postojeća	3423		4
 poteškoća	2612		2
 potića			2
 potonuća	215		2
-potočića	102		3
+potočića	102		4
 povezujuća			2
 poveća	10480		2
 povića			2
-povraća	925		2
-povrća	10689		2
+povraća	925		3
+povrća	10689		3
 poštića			2
 poštujuća			2
 prasića			2
@@ -1411,10 +1411,10 @@ prethodeća			2
 preuzeća	117		2
 prevraća			2
 prevruća	38		2
-prihvaća	217		2
+prihvaća	217		3
 prijezdića			2
 primaća			2
-priseća	1572		2
+priseća	1572		3
 prispeća	206		2
 prića			2
 pričešća	891		2
@@ -1425,8 +1425,8 @@ probišića			2
 problemčića	62		2
 profića			2
 prokića			2
-proleća	9310		2
-proljeća		J	2
+proleća	9310		3
+proljeća		J	3
 promaknuća			2
 propraća			2
 prosvetljujuća			2
@@ -1453,7 +1453,7 @@ putića	102		2
 putujuća	181		2
 puzovića			2
 pušića			2
-pužića	21		2
+pužića	21		3
 racića			2
 radakovića			2
 radanovića			2
@@ -1513,7 +1513,7 @@ razočaravajuća	120		2
 razvića			2
 razvraća			2
 raća			2
-račića	117		2
+račića	117		3
 rađenovića			2
 rašića			2
 raškovića			2
@@ -1558,7 +1558,7 @@ rudića			2
 rukovodeća	392		2
 rumenića			2
 runjajića			2
-rupčića			2
+rupčića			3
 rusimovića			2
 rutovića			2
 ružića			2
@@ -1586,7 +1586,7 @@ sarajlića			2
 saračevića			2
 sardelića			2
 sarića			2
-saučešća	488		3
+saučešća	488		4
 savanovića			2
 savatića			2
 savića			2
@@ -1627,7 +1627,7 @@ simićevića			2
 simonića			2
 simonovića			2
 simovića			2
-sinčića	252		2
+sinčića	252		3
 sinđelića			2
 siročića	48		2
 sisića			2
@@ -1657,7 +1657,7 @@ smaknuća	110		2
 smeća	4935		2
 smiljanića			2
 smrdića			2
-snjegovića			3
+snjegovića			4
 sokića	50		2
 sokolića			2
 sokolovića			2
@@ -1704,7 +1704,7 @@ stanojevića			2
 stanojčića			2
 stančića	21		3
 starčevića			2
-starčića	25		2
+starčića	25		3
 stefanovića			2
 stejića			2
 stepančića			2
@@ -1728,8 +1728,8 @@ stojčića			2
 stojšića			2
 stokića			2
 stokuća			2
-stoleća	3204		2
-stolića	24		2
+stoleća	3204		3
+stolića	24		3
 stopića			2
 stočića		M	2
 stošića			2
@@ -1754,7 +1754,7 @@ svemoguća	145		4
 svetleća	169		2
 svevideća	13		2
 svevlašća			2
-sveznajuća	32		3
+sveznajuća	32		4
 sveća	2101		2
 svića			2
 svraća	210		2
@@ -1769,7 +1769,7 @@ tanasića			2
 tanića			2
 tanjevića			2
 tanjirića			2
-tanjurića			2
+tanjurića			3
 tankosića			2
 tankoća			2
 tanovića			2
@@ -1779,7 +1779,7 @@ tatića			2
 tegleća	17		2
 teklića			2
 tekuća	990		2
-teleća	82		2
+teleća	82		3
 teodosića			2
 tepića			2
 terzića			2
@@ -1805,7 +1805,7 @@ tomovića			2
 tomčića			2
 tontića			2
 topalovića			2
-topića	84		2
+topića	84		3
 topčića			2
 toća			2
 točkića	294		2
@@ -1842,7 +1842,7 @@ tutića			2
 tutundžića			2
 tuća			2
 tvrdišića			2
-tvrdoća	335		2
+tvrdoća	335		3
 ubavkića			2
 ubovića			2
 udovičića			2
@@ -1861,7 +1861,7 @@ unkovića			2
 unučića	139		2
 uroševića			2
 uskokovića			2
-uskrsnuća	163		2
+uskrsnuća	163		3
 usrećujuća			2
 ustića			2
 utrnuća			2
@@ -1897,7 +1897,7 @@ veljkovića			2
 veljovića			2
 vemića			2
 venclovića			2
-venčića	53		2
+venčića	53		3
 veprića			2
 verića			2
 verkića			2
@@ -1928,7 +1928,7 @@ vitoševića			2
 vića			2
 višića			2
 višnjića			2
-vladajuća	5941		3
+vladajuća	5941		4
 vlahovića			2
 vlajića			2
 vlajkovića			2
@@ -1965,8 +1965,8 @@ vrekića			2
 vreća	971		2
 vrhuneća			2
 vrišteća	13		2
-vrsnoća			2
-vrtića	5404		2
+vrsnoća			3
+vrtića	5404		3
 vruća	971		2
 vršaća			2
 vujanića			2
@@ -2014,22 +2014,22 @@ vučelića			2
 vučetića			2
 vučevića			2
 vučinića			2
-vučića	68		2
+vučića	68		3
 vučićevića			2
 vučkovića			2
 vučurevića			2
 vučurovića			2
 vušurovića			2
 zabrinjavajuća	623		2
-zadaća	265		2
+zadaća	265		3
 zadivljujuća	249		2
-zadovoljavajuća	869		3
+zadovoljavajuća	869		4
 zafirovića			2
 zagađujuća	12		2
 zaglušujuća	80		2
 zagušujuća			2
 zaharića			2
-zahvaća	39		2
+zahvaća	39		3
 zakića			2
 zakopća			2
 zaninovića			2
@@ -2038,7 +2038,7 @@ zapešća	10		2
 zarića			2
 zasenjujuća			2
 zaslepljujuća	45		2
-zastrašujuća	611		3
+zastrašujuća	611		4
 zauzeća	268		2
 zavišića			2
 začeća	1089		2
@@ -2054,7 +2054,7 @@ zelića			2
 zeljića			2
 zeljkovića			2
 zečevića			2
-zečića	28		2
+zečića	28		3
 zidića	39		2
 zimonića			2
 zimonjića			2
@@ -2073,7 +2073,7 @@ zoranića			2
 zorića			2
 zorčića			2
 zotovića			2
-zubića	452		2
+zubića	452		3
 zubkovića			2
 zubovića			2
 zukanovića			2
@@ -2120,7 +2120,7 @@ zvončića	50		2
 čavića			2
 čađenovića			2
 čejovića			2
-čekića	483		2
+čekića	483		3
 čekovića			2
 čelebića			2
 čeleketića			2
@@ -2154,10 +2154,10 @@ zvončića	50		2
 čurovića			2
 čurčića			2
 čutovića			2
-čuvarkuća	135		2
+čuvarkuća	135		3
 čvorića	135		2
 čvorovića			2
-čvrstoća	432		2
+čvrstoća	432		3
 čvršća	448		2
 đakovića			2
 đalovića			2
@@ -2250,7 +2250,7 @@ zvončića	50		2
 šoća		M	2
 šoškića			2
 španjevića			2
-štapića	640		2
+štapića	640		3
 štulića			2
 šubašića			2
 šukovića			2
@@ -2296,20 +2296,20 @@ bijelića			2
 bjelića			2
 cvijetića			2
 cvijeća	365		3
-djelića			2
+djelića			3
 dječačića			2
-mjehurića			2
+mjehurića			3
 odjeća		M	3
-osjeća			2
+osjeća			3
 osvježavajuća			2
-podsjeća			2
+podsjeća			3
 predosjeća			2
 prijeteća	14		2
-prisjeća			2
+prisjeća			3
 sjeća			2
 slijedeća			2
 svijeća	258		2
 svjetleća			2
 umijeća	86		2
-vijeća	3468		2
+vijeća	3468		3
 vjerovatnoća			2

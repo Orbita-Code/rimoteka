@@ -3,8 +3,8 @@ Beče			2
 Leskovče			2
 Požarevče			4
 afrikanče			2
-agnostiče			2
-alapače	27		2
+agnostiče			3
+alapače	27		3
 albanče			2
 amerikanče			2
 amonijače			2
@@ -26,13 +26,13 @@ beležniče			2
 beonjače	127		2
 bepče			2
 beskičmenjače			2
-beskućniče			3
+beskućniče			4
 besmrtniče			3
 bestidniče			2
-bezbožniče	31		3
+bezbožniče	31		4
 bezdušniče			2
 bezjače			3
-bezobrazniče	10		3
+bezobrazniče	10		4
 biberče			2
 birače	1709		2
 bivolče			2
@@ -50,7 +50,7 @@ bolesniče			2
 borče	48		2
 bošče			2
 božićnjače			2
-branioče			3
+branioče			4
 braniče			2
 bravče		M	2
 brbljivče			2
@@ -73,10 +73,10 @@ curče			2
 cvrče	35		2
 dalmatinče			2
 darodavče			2
-davaoče			3
+davaoče			4
 dereče			2
 deriče			2
-desetniče			3
+desetniče			4
 devojče	289		2
 dečače	107		2
 divljače			2
@@ -88,7 +88,7 @@ dojenče	45		2
 dokrajče	89		2
 dokuče	109		2
 donošče		M	2
-dopisniče			3
+dopisniče			4
 doreče			2
 doskače			2
 doskoče	66		2
@@ -109,7 +109,7 @@ drljače	39		2
 drugače			2
 drugojače			2
 drukče			2
-drvoseče	115		3
+drvoseče	115		4
 drzniče			3
 držače	209		2
 dubrovniče			2
@@ -127,34 +127,34 @@ glasniče			3
 gledališče			2
 gledaoče			2
 glumče			2
-glupače	70		2
+glupače	70		3
 gmizavče			3
 gnječe	38		2
 godišnjače			2
 golupče		M	2
-goluždravče			2
+goluždravče			3
 goniče	32		2
 gorštače			2
 goveče	185		2
 govorniče			3
-gradonačelniče	284		3
-graniče	444		2
+gradonačelniče	284		4
+graniče	444		3
 grbavče			3
-grbače	516		2
+grbače	516		3
 grejače	195		2
 grešniče	20		3
 grijače		J	2
 gromovniče			2
 grče	161		2
-gubitniče			3
+gubitniče			4
 gudače	118		2
 guče	221		2
-gušterače	128		2
+gušterače	128		3
 gušče			2
 hajduče			2
 hajkače			2
 harače	70		2
-hercegovče			3
+hercegovče			4
 hladnjače	981		3
 hlače	188		2
 hodače			2
@@ -166,20 +166,20 @@ huškače	30		2
 hvalisavče			2
 hvatače	50		2
 igrače	10538		2
-ilovače	121		3
+ilovače	121		4
 imenjače	100		4
 inače	106278		3
 indijanče			2
 inoče			2
 irče			2
-iseče	515		2
+iseče	515		3
 iskamče	36		2
 iskače	544		2
 isključe	1257		2
 iskorače	59		4
 iskoče	217		2
 isledniče			2
-ispeče	407		2
+ispeče	407		3
 ispisniče			2
 ispitivače	36		2
 isplače	66		2
@@ -187,10 +187,10 @@ isporuče	610		2
 isposniče			2
 ispovedniče			2
 ispreče	29		2
-istače	22		2
+istače	22		3
 isterivače			2
 isteče	128		2
-ističe	48154		2
+ističe	48154		3
 istječe	37	J	2
 istraživače	1335		2
 istrče	249		2
@@ -206,14 +206,14 @@ izgnječe			2
 izjednače	909		2
 izleče	438		2
 izluče	31		2
-izmače	49		2
+izmače	49		3
 izmenjivače	21		2
-izmiče	1138		2
+izmiče	1138		3
 izmuče	11		2
 izniče	43		2
 izobliče	15		2
 izopače	15		2
-izreče	324		2
+izreče	324		3
 izriče	1132		2
 izruče	179		2
 izuče	80		2
@@ -228,7 +228,7 @@ jadniče	66		3
 jahače	76		2
 jamče	75		2
 jarče	11		2
-jastuče	103		2
+jastuče	103		3
 jauče	104		3
 jazavče			3
 jače	11221		2
@@ -236,7 +236,7 @@ jedinče	27		2
 jelenče	39		2
 jeleče			2
 jemče	68		2
-jeziče			2
+jeziče			3
 ječe	88		2
 ješče			2
 jovanče			2
@@ -248,7 +248,7 @@ kajmače			2
 kaljače	33		2
 kamenče			2
 kamionče			2
-kapuljače	121		2
+kapuljače	121		3
 kasače	15		2
 kauče	26		3
 kazanče			2
@@ -269,29 +269,29 @@ kokodače	20		2
 kolače	1970		2
 koljače	64		2
 komorniče			2
-konače	11		2
+konače	11		3
 kongresniče			2
 konjče		M	2
-konopče			2
+konopče			3
 kopače	43		2
 kopče	285		2
-korisniče	17		3
-kornjače	1052		2
+korisniče	17		4
+kornjače	1052		3
 kosače	20		2
 kostolomče			2
 kovače	44		2
 koviljače			2
-kovrče	11		2
+kovrče	11		3
 kozače			2
 koče	975		2
-kradljivče			2
-krastače	60		2
+kradljivče			3
+krastače	60		3
 kravajče			2
 krače			2
 kreče	109		2
 kriče	13		2
-krkače		M	2
-krmače	292		2
+krkače		M	3
+krmače	292		3
 krmče			2
 krnjače			2
 krojače	37		2
@@ -307,7 +307,7 @@ kuluče			2
 kumče	84		2
 kupače	307		2
 kurjače			3
-kutlače	82		2
+kutlače	82		3
 kuče	865		2
 kušače			2
 kvoče			2
@@ -315,7 +315,7 @@ lajavče			3
 laskavče			2
 latinče			2
 lavče			2
-lažljivče			2
+lažljivče			3
 leleče	28		2
 lenjivče			2
 lenče			2
@@ -328,16 +328,16 @@ ljigavče			2
 ljubavniče			3
 ljubimče	29		2
 ljupče			2
-lomače	217		2
+lomače	217		3
 lonče	64		2
 lozovače	44		2
 ludače			2
 luče	828		2
 luđače			2
-magarče	131		2
-majmunče	59		2
+magarče	131		3
+majmunče	59		3
 makedonče			2
-manijače	21		3
+manijače	21		4
 manjače			2
 marvinče		M	2
 matejče			2
@@ -361,7 +361,7 @@ mirče			2
 miče	258		2
 mjauče	56		2
 mješanče		J	2
-mladenče			2
+mladenče			3
 mladunče	451		2
 mlinče			2
 momče	593		2
@@ -370,19 +370,19 @@ moče	31		2
 mrežnjače	376		2
 mrtvorođenče	62		3
 mrče	23		2
-mudrače			2
+mudrače			3
 murjače			2
 muče	3781		2
 mučeniče	44		4
 muškarče			2
 nabavljače			2
-nadnaredniče			3
+nadnaredniče			4
 nadstojniče			2
 nadvlače			2
 nadzorniče			3
-nahoče		M	2
+nahoče		M	3
 najače			2
-najgorče			2
+najgorče			3
 najjače	3302		3
 najpreče			2
 nakače			2
@@ -390,21 +390,21 @@ nakjuče		M	3
 naliče	24		2
 namače	16		2
 namesniče	29		2
-namiče	51		2
+namiče	51		3
 namjesniče		J	2
 namuče	63		2
 napadače	712		2
 napasniče			2
 naplače			2
 naranče	60		2
-naredniče	11		3
+naredniče	11		4
 narikače	79		2
 nariče	98		2
 naruče	508		2
 naseče	17		2
 nasilniče			3
 naskače	23		2
-nasledniče			3
+nasledniče			4
 naslonjače	25		2
 nastavljače	51		2
 nastavniče	54		3
@@ -417,14 +417,14 @@ natporučniče			5
 natrče	11		2
 natuče	14		2
 nauče	7942		2
-naučniče			3
+naučniče			4
 naveče			3
 navijače	4230		2
 naviče			2
 navlače	246		2
 navuče	533		2
 naznače	144		2
-načelniče	58		3
+načelniče	58		4
 nedonošče	121		2
 nejače			3
 neplivače	96		2
@@ -455,34 +455,34 @@ odašiljače	25		2
 odborniče			2
 odluče	6416		2
 odmače	50		3
-odmetniče			3
-odmiče	981		2
+odmetniče			4
+odmiče	981		3
 odojče	450		2
-odreče	308		2
+odreče	308		3
 odriče	1970		2
-odseče	545		2
+odseče	545		3
 odskače	497		2
-odskoče	17		2
+odskoče	17		3
 odugovlače	250		2
 oduče	20		2
 odviče			2
 odvlače	340		2
 odvuče	435		2
 oglašivače	268		2
-ograniče	878		2
+ograniče	878		3
 ogrtače	87		2
 okače	313		2
 okačenjače			2
 okidače	76		2
-okreče	108		2
+okreče	108		3
 omamljivače			2
 omače	25		2
 omotače	39		2
 omče	142		2
 opadače			2
 opasače	14		2
-opeče	159		2
-oplače	18		2
+opeče	159		3
+oplače	18		3
 opteče			2
 optrče	11		2
 orašče			2
@@ -490,17 +490,17 @@ ortače			3
 osenče			2
 oseče			2
 osigurače	125		2
-oslonče			2
+oslonče			3
 osmatrače	33		2
 osnivače	319		2
 osvajače	246		2
 osvedoče	10		2
-osvetniče			3
+osvetniče			4
 otimače	29		2
 otirače	22		2
-otiče	470		2
+otiče	470		3
 otkače	130		2
-otpadniče			3
+otpadniče			4
 otplače			2
 otpoče	215		2
 otrče	41		2
@@ -514,9 +514,9 @@ očajniče			2
 oče			2
 očnjače			2
 pabirče	12		2
-palače	61		2
+palače	61		3
 paniče	102		2
-papuče	821		2
+papuče	821		3
 parniče	21		2
 parnjače	29		2
 parče	4223		2
@@ -548,8 +548,8 @@ plesače	120		2
 plivače	252		2
 plovče			2
 ploče	10344		2
-plutače			2
-pobedniče	15		3
+plutače			3
+pobedniče	15		4
 poborniče			3
 pobunjeniče			2
 podboče			2
@@ -558,20 +558,20 @@ podmetače	72		2
 podnaredniče			2
 podrivače			2
 podseče			2
-podstače	40		2
-podstiče	9537		2
+podstače	40		3
+podstiče	9537		3
 podupirače	31		2
 poduče	73		2
 podvlače	259		2
 podvorniče			2
 podvuče	683		2
-pogače	654		2
+pogače	654		3
 poglavniče			2
 pokajniče			3
 pokatoliče			2
 pokliče	89		2
-poklopče			2
-pokretače	133		2
+poklopče			3
+pokretače	133		3
 pokrivače	115		2
 pokvarenjače			2
 polače			2
@@ -580,8 +580,8 @@ policajče			2
 poljanče			2
 poluče			2
 pomagače	208		2
-pomače	19		2
-pomiče	118		2
+pomače	19		3
+pomiče	118		3
 pomoćniče	15		2
 pomrače	21		2
 pomrče			2
@@ -590,29 +590,29 @@ poniče			2
 ponuđače	245		2
 poodmače			2
 popisivače	287		2
-poreče	26		2
+poreče	26		3
 poriče	982		2
-porotniče			3
+porotniče			4
 poruče	394		2
-poručniče	20		3
-posetioče	32		3
-poseče	427		2
+poručniče	20		4
+posetioče	32		4
+poseče	427		3
 posinče			2
 poskoče	18		2
-poslaniče	700		3
+poslaniče	700		4
 poslužavniče			3
 posmatrače	592		2
-posmrče		M	2
+posmrče		M	3
 postiče			2
 posvedoče	184		2
 posvojče		M	2
 poteče	431		2
-potiče	11908		2
-potječe	170	J	2
+potiče	11908		3
+potječe	170	J	3
 potkače			2
 potlače			2
 potporučniče			5
-potpredsedniče	408		3
+potpredsedniče	408		4
 potpukovniče			5
 potrošače	4148		2
 potrče	104		2
@@ -626,25 +626,25 @@ poviče	173		2
 povjereniče		J	2
 povlače	2553		2
 povuče	7674		2
-poznaniče			3
+poznaniče			4
 poznavaoče			2
 pozorniče			3
 poče	4310		2
-početniče			3
+početniče			4
 požegače			2
-praunuče	23		3
+praunuče	23		4
 pravedniče			2
 pravniče	24		3
-praznoglavče			2
+praznoglavče			3
 prače			2
 predavače	804		2
 prednjače	1196		2
 predoče	304		2
 predreče			2
-predsedniče	3499		3
+predsedniče	3499		4
 predstavniče	13		3
 predveče		M	2
-pregače	41		2
+pregače	41		3
 pregledače	70		2
 pregovarače	188		2
 preinače	45		2
@@ -655,11 +655,11 @@ prekrivače	105		2
 preoblače	29		2
 preobliče			2
 preobuče	53		2
-prepeče	17		2
+prepeče	17		3
 preporuče	310		2
 prepreče	21		2
 prepuče	13		2
-preseče	967		2
+preseče	967		3
 preskače	680		2
 preskoče	506		2
 presretače	37		2
@@ -675,17 +675,17 @@ pretvarače	41		2
 prevlače	38		2
 prevuče	97		2
 preče	972		2
-pribadače			2
+pribadače			3
 prigušivače	17		2
 prikače	126		2
 priključe	2159		2
 prikrivače			2
 prikuče			2
-priliče	205		2
-primače	99		2
-primiče	407		2
+priliče	205		3
+primače	99		3
+primiče	407		3
 prinče	21		2
-pripeče	11		2
+pripeče	11		3
 pripravniče			3
 priskače	138		2
 priskoče	89		2
@@ -705,20 +705,20 @@ proizvođače	5506		2
 prokletniče	11		2
 prokrče	40		2
 promatrače	14		2
-promače	24		2
-promiče	308		2
-proniče	54		2
+promače	24		3
+promiče	308		3
+proniče	54		3
 propešače			2
 propovedniče			2
-proreče	141		2
+proreče	141		3
 proriče	189		2
-proroče	11		2
+proroče	11		3
 proseče	24		2
 prosjače	76		3
 proteče	83		2
 protivniče			3
 protivreče	170		2
-protiče	2179		2
+protiče	2179		3
 protoče			2
 protrče	38		2
 protumače	298		2
@@ -726,10 +726,10 @@ prouče	517		2
 provlače	721		2
 provuče	705		2
 prozorče			2
-proždrljivče			2
+proždrljivče			3
 prsluče	17		2
 prvače			2
-prvenče	20		2
+prvenče	20		3
 prvorođenče	21		2
 prvosvešteniče			2
 ptiče	39		2
@@ -742,9 +742,9 @@ pušače	525		2
 rabotniče			2
 radniče	11		3
 ranjeniče			4
-raseče	61		2
+raseče	61		3
 rasipniče			2
-rasplače	189		2
+rasplače	189		3
 raspuče			2
 rastače	149		2
 rasteče			2
@@ -758,12 +758,12 @@ razbijače	26		2
 razbojniče	15		3
 razgraniče	83		2
 razluče	98		2
-razmače			2
-razmiče	50		2
+razmače			3
+razmiče	50		3
 razvlače	419		2
-razvodniče			3
+razvodniče			4
 razvojače			2
-razvratniče			3
+razvratniče			4
 razvuče	240		2
 rače	76		2
 raščereče	13		2
@@ -779,22 +779,22 @@ ropče			2
 roče			2
 rođače	114		3
 rožnjače	819		2
-rudače	18		2
+rudače	18		3
 rvače	27		2
 sadioče			2
 saigrače	690		2
 sakupljače	114		2
-sanduče	581		2
+sanduče	581		3
 sanče			2
 sapatniče			2
 saputniče			2
 saradniče			2
-saseče	97		2
-sastanče	28		2
+saseče	97		3
+sastanče	28		3
 sastavljače	15		2
 satniče			3
 saučesniče			2
-savetniče	30		3
+savetniče	30		4
 savijače	26		2
 sekirče		M	2
 seljanče			2
@@ -822,13 +822,13 @@ slepoočnjače			2
 slepče	19		2
 sliče	75		2
 sljedeče		J	2
-slonovače	767		3
+slonovače	767		4
 slonče		M	2
 slušaoče			2
 službeniče			4
 smače	15		2
 smetenjače			2
-smrdljivče			2
+smrdljivče			3
 smrtniče			3
 snabdevače	77		2
 snimače	18		2
@@ -870,15 +870,15 @@ studenče			2
 stuče	21		2
 stvaraoče			2
 suigrače			2
-sumnjiče	649		2
+sumnjiče	649		3
 suoče	1632		2
 suvače			2
 suče	17		2
-svedoče	5839		2
+svedoče	5839		3
 svemirče			2
 svetioniče			2
 sveče	30		2
-svešteniče	33		3
+svešteniče	33		4
 svinjače			2
 svinjče	84		2
 svirače	93		2
@@ -887,7 +887,7 @@ svlače	92		2
 svodniče			3
 svuče	214		2
 tajniče			3
-takmiče	3147		2
+takmiče	3147		3
 tandrče			2
 teferiče			2
 teče	7231		2
@@ -897,25 +897,25 @@ topovnjače	27		2
 toče	196		2
 tragače	50		2
 trepče			2
-trgovče			2
+trgovče			3
 trkače	638		2
 trubače	271		2
 trudbeniče			2
 trče	2806		2
 tumače	3360		2
 tupavče			2
-tupoglavče			2
+tupoglavče			3
 turče			2
 tuče	3375		2
 tuđinče			2
-tužioče	34		3
+tužioče	34		4
 tvorče	38		2
 ubojniče			2
 ucenjivače	12		2
 udarače	12		2
-udavače	98		2
+udavače	98		3
 udvarače	42		2
-udvostruče	151		2
+udvostruče	151		3
 ugledniče			2
 ugnjetače	15		2
 ugodniče			2
@@ -926,11 +926,11 @@ ukoče	58		2
 ulagače	820		2
 uluče			2
 umače	100		3
-umetniče			3
+umetniče			4
 umoče	29		2
 umuče	29		2
 unovče	217		2
-unuče	330		2
+unuče	330		3
 uobliče	113		2
 uoče	1004		2
 upaljače	104		2
@@ -939,9 +939,9 @@ upeče	52		2
 upliče			2
 upravljače	147		2
 upravniče	29		2
-upriliče	52		2
+upriliče	52		3
 uprtače			2
-uredniče	86		3
+uredniče	86		4
 uređivače			2
 urliče	62		3
 uruče	247		2
@@ -950,23 +950,23 @@ uskače	265		2
 uskoče	168		2
 uspaniče	26		2
 uspavljivače			2
-uspinjače	75		2
+uspinjače	75		3
 ustoliče	58		2
 ustrče			2
 utače			2
 uteče	279		2
-utiče	28722		2
-utječe		J	2
-utorče			2
-utrostruče	29		2
+utiče	28722		3
+utječe		J	3
+utorče			3
+utrostruče	29		3
 utuče	23		2
 uveče	16981		3
 uvlače	638		2
 uvuče	1103		2
 uzgajivače	116		2
 uzmače	13		2
-uzmiče	126		2
-uzroče			2
+uzmiče	126		3
+uzroče			3
 uče	13683		2
 učeniče	14		4
 učenjače			2
@@ -979,7 +979,7 @@ vereniče			4
 veseljače	23		2
 veslače	139		2
 vesniče			3
-vetrenjače	726		2
+vetrenjače	726		3
 većniče			3
 veče	18476		2
 vidače			2
@@ -998,7 +998,7 @@ vranče			2
 vrapče	49		2
 vrače			2
 vrtače	98		2
-vukodlače			2
+vukodlače			3
 vuče	7161		2
 zabavljače	54		2
 zagađivače	292		2
@@ -1011,29 +1011,29 @@ zakrče	42		2
 zakukuriče	24		2
 zakvače			2
 zaleče	91		2
-zamače	21		2
+zamače	21		3
 zameniče	31		4
-zamiče	30		2
+zamiče	30		3
 zamorče	58		2
 zamrače	22		2
 zamrzivače	72		3
 zamuče			2
-zapeče	186		2
+zapeče	186		3
 zaplače	437		2
 zapovedniče	22		2
 zapovjedniče		J	2
 započe	161		2
-zareče	12		2
+zareče	12		3
 zariče			2
 zaseče	63		2
 zaskače			2
 zaskoče	37		2
 zastavniče			4
 zastirače			2
-zastupniče			3
+zastupniče			4
 zasuče	126		2
 zatače			2
-zateče	270		2
+zateče	270		3
 zatiče	406		2
 zatoče			2
 zatočeniče			2
@@ -1042,13 +1042,13 @@ zatuče			2
 zatvoreniče			2
 zaviče	16		2
 zavlače	226		2
-zavodniče			3
+zavodniče			4
 zavojevače			2
 zavuče	358		2
 zazveče			2
 zazvuče	20		2
 zače	69		2
-zaštitniče	21		3
+zaštitniče	21		4
 zdravče			2
 zemljače	140		2
 zeče			2
@@ -1071,11 +1071,11 @@ zvuče	1802		2
 čarobnjače	20		2
 časniče			3
 čavče		M	2
-čeliče	20		2
+čeliče	20		3
 čereče	73		2
 činovniče			2
 čistače	87		2
-čitaoče	271		3
+čitaoče	271		4
 čitače	268		2
 čiče			2
 čobanče	27		2
@@ -1088,7 +1088,7 @@ zvuče	1802		2
 čuče	193		2
 đavolče			2
 đače	53		2
-šajkače	145		2
+šajkače	145		3
 šantavče			2
 šašavče			2
 šeiče			2
@@ -1099,11 +1099,11 @@ zvuče	1802		2
 šmrče	57		2
 šperploče			2
 štampače	662		2
-štitnjače	84		2
+štitnjače	84		3
 štrajkače	204		2
 štrče	264		2
 šumadinče			2
-šupljoglavče			2
+šupljoglavče			3
 šurače			2
 žapče			2
 ždrepče			2
@@ -1115,32 +1115,32 @@ zvuče	1802		2
 žutokljunče			2
 žvače	10		2
 bijedniče			4
-bijelče			2
-cviječe			2
+bijelče			3
+cviječe			3
 dječače			2
-drvosječe			3
-izliječe	19		2
-liječe	144		2
+drvosječe			4
+izliječe	19		3
+liječe	144		3
 mjeseče			3
 niječe	18		2
-odsiječe	51		3
-odsječe			2
+odsiječe	51		4
+odsječe			3
 optječe			2
 osječe			2
 pjevače			2
-posiječe	67		3
+posiječe	67		4
 posječe			2
-potpredsjedniče			3
-predsjedniče			3
-presiječe			3
+potpredsjedniče			4
+predsjedniče			4
+presiječe			4
 propovjedniče			2
-savjetniče			3
+savjetniče			4
 siječe	115		3
 sječe			2
-slijepče			2
-spriječe			2
-svjedoče			2
-vjetrenjače			2
+slijepče			3
+spriječe			3
+svjedoče			3
+vjetrenjače			3
 zamjeniče			4
 zapovijedniče			2
 zatječe			2

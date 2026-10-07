@@ -10,7 +10,7 @@ antidepresiv	192		2
 apelativ			2
 aperitiv	492		2
 arhiv	2603		2
-augmentativ	13		4
+augmentativ	13		5
 baciv			2
 biv			1
 blagoglagoljiv	13		2
@@ -133,7 +133,7 @@ masiv	366		2
 mašiv			2
 memljiv	15		2
 merljiv	192		2
-milostiv	586		2
+milostiv	586		3
 miroljubiv	240		2
 mirotočiv			2
 mnogoglagoljiv			2
@@ -531,7 +531,7 @@ svrbljiv			2
 tamnosiv			2
 tegljiv		M	2
 topljiv	12		2
-trpeljiv	84		2
+trpeljiv	84		3
 trpljiv			2
 trudoljubiv		M	2
 tugaljiv	14		2

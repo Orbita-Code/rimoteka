@@ -1,8 +1,8 @@
 98
 aerosol	104		4
-alkohol	7473		2
+alkohol	7473		3
 anatol			2
-apostol	2649		2
+apostol	2649		3
 atol	12		2
 aureol			2
 autogol	468		2
@@ -94,6 +94,6 @@ stambol			2
 staniol	13		2
 tirol			2
 trol	154		1
-vinodol			2
+vinodol			3
 vitriol		M	2
 vorhol			2

@@ -30,7 +30,7 @@ bademov			2
 bagremov	139		2
 bajazitov			2
 balzakov			2
-bambusov			2
+bambusov			3
 banov	33		2
 baronov	10		3
 baćkov			2
@@ -378,7 +378,7 @@ oficirov			2
 ojlerov			2
 okov	273		2
 olegov			2
-orahov		M	2
+orahov		M	3
 orhanov			3
 orlov	51		2
 osmanov			3

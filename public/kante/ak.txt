@@ -2,7 +2,7 @@
 Irak			2
 Kozjak			2
 aerosnimak			2
-afrodizijak	506		2
+afrodizijak	506		3
 alčak			2
 amonijak	482		2
 anatemnjak			2
@@ -14,7 +14,7 @@ atak		M	2
 baburak			2
 badnjak	756		2
 badrljak			2
-badžanak			2
+badžanak			3
 bajrak			2
 bak		M	1
 bakrenjak			2
@@ -35,7 +35,7 @@ besposlenjak		M	2
 bezbednjak	77		2
 bezimenjak		M	2
 bezveznjak	15		2
-biserak			2
+biserak			3
 bitak	110		2
 bivak	135		2
 blesak	236		2
@@ -47,9 +47,9 @@ bljesak			2
 bogomrzak		M	2
 boljitak	2161		2
 borak			2
-boravak	14534		2
+boravak	14534		3
 borovnjak		M	2
-bosiljak	794		2
+bosiljak	794		3
 bošnjak			2
 božićnjak			2
 božjak		M	2
@@ -60,7 +60,7 @@ bridak	12		2
 britak	114		2
 brzak	46		2
 bubotak			2
-bubrežnjak			2
+bubrežnjak			3
 budak	128		2
 budžak		M	2
 buvljak	577		2
@@ -86,7 +86,7 @@ debeljak		M	2
 dedak		M	2
 denjak		M	2
 desetak	27756		2
-desetogodišnjak	69		2
+desetogodišnjak	69		3
 devedesetak			2
 devetak		M	2
 devetnaestogodišnjak			2
@@ -101,16 +101,16 @@ divjak			2
 divljak	194		2
 dobitak	2839		2
 dodatak	10989		2
-dohodak	1025		2
+dohodak	1025		3
 dokonjak			2
-dolazak	17450		2
+dolazak	17450		3
 domak	246		2
 dometak			2
 donjak		M	2
 doplatak	38		2
-doručak	7542		2
+doručak	7542		3
 dovratak	47		2
-dovršetak	238		2
+dovršetak	238		3
 došljak	161		2
 drenjak			2
 drobnjak			2
@@ -135,7 +135,7 @@ dvogodišnjak	59		2
 dvojak	130		2
 dvokorak	26		2
 dvokrak		M	2
-dvoličnjak			2
+dvoličnjak			3
 dvonjak			2
 dvoznak			2
 džak		M	1
@@ -166,7 +166,7 @@ guštak			2
 gvozdenjak		M	2
 hak		M	1
 haljetak	18		2
-haversak			2
+haversak			3
 hladnjak	1254		2
 hrčak	380		2
 humak	18		2
@@ -175,33 +175,33 @@ imetak	665		2
 imutak			2
 ipak	219300		2
 isak			2
-iscjedak		J	2
+iscjedak		J	3
 isečak	564		2
 iskorak	2965		3
 ispljuvak	69		2
-ispravak	77		2
-isprdak			2
-istočnjak	33		2
-iverak	26		2
-ivičnjak		M	2
+ispravak	77		3
+isprdak			3
+istočnjak	33		3
+iverak	26		3
+ivičnjak		M	3
 izbljuvak			2
-izdanak	702		2
+izdanak	702		3
 izdatak	694		2
-izlazak	11087		2
+izlazak	11087		3
 izložak			2
 iznalazak			2
-iznimak		M	2
+iznimak		M	3
 izostanak	2279		2
-izrezak			2
+izrezak			3
 izuzetak	6290		2
-izvadak	26		2
+izvadak	26		3
 jabučnjak		M	2
 jadničak	125		2
 jagodnjak	17		3
 jak	14720		1
 jalovak		M	2
 jarak	458		2
-jasenak		M	2
+jasenak		M	3
 jatak	82		2
 jazak			2
 jašmak			2
@@ -209,7 +209,7 @@ jedak	36		2
 jednak	3887		2
 jednjak	306		2
 jedrenjak	171		2
-jelenak	109		2
+jelenak	109		3
 jetak			2
 jezičak		M	2
 ječmičak		M	2
@@ -226,7 +226,7 @@ kamičak		M	2
 kapak	397		2
 karabatak		M	2
 kardak			2
-kačamak		M	2
+kačamak		M	3
 kijak			2
 kiseljak	140		2
 kitnjak		M	2
@@ -260,17 +260,17 @@ krečnjak	171		2
 krhak	65		2
 krivolak			2
 krmak	42		2
-krnjadak		M	2
+krnjadak		M	3
 krnjak			2
 krotak	268		2
-krtičnjak	18		2
+krtičnjak	18		3
 kukuružnjak		M	2
 kulak		M	2
 kundak	270		2
 kurjak	190		2
 kutak	2893		2
 kutnjak	33		2
-kućerak	105		2
+kućerak	105		3
 kučak		M	2
 kušak			2
 kužnjak		M	2
@@ -298,11 +298,11 @@ lužnjak	106		2
 mak	838		1
 malinjak			2
 maličak		M	2
-manijak	555		2
+manijak	555		3
 manjak	5271		2
 maslačak	424		2
-maslinjak	43		2
-matičnjak	233		2
+maslinjak	43		3
+matičnjak	233		3
 mačak	1160		2
 medak			2
 medenjak	26		2
@@ -333,41 +333,41 @@ mućak	130		2
 mučnjak			2
 mužjak	1074		2
 nabujak			2
-nadimak	3247		2
+nadimak	3247		3
 nadolazak	28		2
-nadomak	522		2
-nadomestak	18		2
-nadomjestak		J	2
+nadomak	522		3
+nadomestak	18		3
+nadomjestak		J	3
 nadušak			2
-nadvožnjak	304		2
-nadzidak			2
+nadvožnjak	304		3
+nadzidak			3
 nadžak		M	2
-naglasak	3223		2
-naglavak			2
+naglasak	3223		3
+naglavak			3
 nailazak	100		2
-naizmak			2
-nalazak	13		2
-naopak	150		2
+naizmak			3
+nalazak	13		3
+naopak	150		3
 naočnjak			2
-napitak	2246		2
+napitak	2246		3
 naplatak			2
-napredak	20843		2
+napredak	20843		3
 naprednjak	273		2
 naprstak	49		2
-naputak	26		2
-naramak	67		2
-narezak	68		2
+naputak	26		3
+naramak	67		3
+narezak	68		3
 narodnjak	109		2
 nasdak			2
-nastanak	6800		2
-nastavak	29218		2
-nauznak		M	2
+nastanak	6800		3
+nastavak	29218		3
+nauznak		M	3
 naučenjak		M	2
 naučnjak		M	2
 navijutak		M	2
-naviljak		M	2
+naviljak		M	3
 navitak			2
-nazadak	44		2
+nazadak	44		3
 nazadnjak	17		2
 nazuvak		M	2
 nebitak		M	2
@@ -383,12 +383,12 @@ neporedak			2
 nepočetak			2
 nepoštenjak			2
 nepristanak			2
-neredak			2
+neredak			3
 nerijedak		J	2
 nesposobnjak			2
 nespretnjak		M	2
-nestanak	2803		2
-nestručnjak	15		2
+nestanak	2803		3
+nestručnjak	15		3
 neugodnjak			2
 neulazak	75		2
 nezaboravak		M	2
@@ -409,41 +409,41 @@ oblak	2930		2
 oblačak	92		2
 oblutak	83		2
 obojak		M	2
-obrisak			2
-obronak	44		2
+obrisak			3
+obronak	44		3
 odbitak	466		2
-odblesak	119		2
-odbljesak			2
-odeljak	2178		2
-odgrizak			2
-odlazak	17506		2
+odblesak	119		3
+odbljesak			3
+odeljak	2178		3
+odgrizak			3
+odlazak	17506		3
 odlivak		M	2
-odlomak	1175		2
+odlomak	1175		3
 odmak	139		2
-odrezak	110		2
+odrezak	110		3
 odsečak	71		2
 odustanak	125		2
 odušak	118		2
 odžak		M	2
-oglavak			2
-ogranak	2400		2
-ogrizak			2
+oglavak			3
+ogranak	2400		3
+ogrizak			3
 ogrljak		M	2
 okačenjak		M	2
 okrajak	54		2
 okratak		M	2
 olak	61		2
 ondak			2
-onizak	17		2
+onizak	17		3
 opak	190		2
-opanak	371		2
-opiljak	10		2
-oplavak			2
-oplećak			2
-oporavak	9137		2
+opanak	371		3
+opiljak	10		3
+oplavak			3
+oplećak			3
+oporavak	9137		3
 opršnjak			2
-opstanak	13843		2
-opušak	153		2
+opstanak	13843		3
+opušak	153		3
 ortak	1168		2
 osamdesetak			2
 osamdesetogodišnjak			2
@@ -453,22 +453,22 @@ osmejak	116		2
 osmogodišnjak	40		2
 osnutak	22		2
 osobenjak	91		2
-ostanak	1863		2
+ostanak	1863		3
 ostatak	19351		2
 osvitak			2
-otisak	1701		2
+otisak	1701		3
 otkivak			2
-otpadak	118		2
-otpravak	92		2
+otpadak	118		3
+otpravak	92		3
 ovčinjak			2
 očnjak	78		2
 oštrodlak			2
-ožiljak	975		2
+ožiljak	975		3
 pabirak			2
 pak	35082		1
 papak	116		2
 parnjak	95		2
-pasternak			2
+pasternak			3
 pastorak		M	3
 pastrnak		M	2
 patak	732		2
@@ -476,7 +476,7 @@ patrljak	130		2
 patuljak	759		2
 pašnjak	240		2
 pedesetak	3522		2
-pedesetogodišnjak	64		2
+pedesetogodišnjak	64		3
 pepeljak			2
 perolak			2
 perverznjak	48		2
@@ -502,17 +502,17 @@ pljusak	654		2
 plovak	383		2
 podarak			2
 podatak	23716		2
-podbradak	71		2
+podbradak	71		3
 podeljak			2
-podglavak			2
+podglavak			3
 podgušnjak		M	2
-podjednak	420		2
-podlistak	88		2
+podjednak	420		3
+podlistak	88		3
 podložak			2
-podmladak	684		2
-podnesak	608		2
+podmladak	684		3
+podnesak	608		3
 podnevak			2
-pododeljak		M	2
+pododeljak		M	3
 podočnjak			2
 podrepnjak			2
 podugačak	157		4
@@ -520,45 +520,45 @@ poduzorak			2
 podvaljak		M	2
 podvarak		M	2
 podvoljak			2
-podvožnjak	79		2
+podvožnjak	79		3
 podzadatak			2
 podznak	314		2
-pogodak	3463		2
+pogodak	3463		3
 pojak		M	2
 pokratak		M	2
 pokrštenjak			2
 pokvarenjak	51		2
 polak			2
-polazak	4581		2
+polazak	4581		3
 poljak			2
 polovnjak	247		2
 polukorak			2
 polukrvnjak		M	2
 polumrak	91		3
 pomak	4234		2
-ponedeljak	22603		2
-popravak	212		2
-poredak	7772		2
-posinak	46		2
+ponedeljak	22603		3
+popravak	212		3
+poredak	7772		3
+posinak	46		3
 poslovnjak			2
-postanak	378		2
-postotak	912		2
-postupak	42827		2
+postanak	378		3
+postotak	912		3
+postupak	42827		3
 posvojak		M	2
-potanak		M	2
-potiljak	502		2
-potisak	445		2
+potanak		M	3
+potiljak	502		3
+potisak	445		3
 potkonjak			2
 potkornjak			2
-potkožnjak			2
-potomak	1366		2
+potkožnjak			3
+potomak	1366		3
 potrošak			2
 poturčenjak	28		2
-povratak	19647		2
+povratak	19647		3
 povrtak			2
 povrtnjak	70		2
 početak	56349		2
-počinak	492		2
+počinak	492		3
 poštenjak			2
 pramičak	18		2
 prapočetak	49		2
@@ -567,62 +567,62 @@ praujak			2
 prašak	1146		2
 prcoljak			2
 prcvoljak			2
-preblizak			2
+preblizak			3
 predak	903		2
 predložak	487		2
-predmetak			2
+predmetak			3
 prednjak	20		2
 predugačak	244		2
 predznak	892		2
 pregorak			2
-pregradak	16		2
+pregradak	16		3
 prejak	398		2
 prekratak	204		2
 prekrotak			2
-prelazak	6763		2
-prenizak	63		2
+prelazak	6763		3
+prenizak	63		3
 preostatak	27		2
 prepredenjak	14		2
-preredak			2
-presladak	94		2
+preredak			3
+presladak	94		3
 preslatak			2
-prestanak	3469		2
-pretanak			2
+prestanak	3469		3
+pretanak			3
 pretežak	320		2
-pretisak			2
-preuzak	40		2
+pretisak			3
+preuzak	40		3
 prezimenjak	116		2
 prežitak			2
 prhak			2
 pridolazak			2
-priglavak			2
+priglavak			3
 priključak	3851		2
 prikrajak			2
-prikumak			2
-prilazak	101		2
-prilepak	35		2
-priljepak			2
+prikumak			3
+prilazak	101		3
+prilepak	35		3
+priljepak			3
 priložak			2
-primerak	5037		2
+primerak	5037		3
 primitak	23		2
 primrak			2
 prinovak			2
-prirepak	57		2
+prirepak	57		3
 prirodnjak		M	2
-pristanak	2318		2
-pritisak	29591		2
+pristanak	2318		3
+pritisak	29591		3
 priušak			2
-privesak	65		2
-privezak	653		2
-privjesak		J	2
+privesak	65		3
+privezak	653		3
+privjesak		J	3
 priznak			2
 prizrak			2
 prišivak			2
-procjepak		J	2
+procjepak		J	3
 produžetak	2054		2
-prolazak	2137		2
-pronalazak	1589		2
-proplanak	162		2
+prolazak	2137		3
+pronalazak	1589		3
+proplanak	162		3
 prosenjak			2
 prosjak	478		2
 prostak	170		2
@@ -634,18 +634,18 @@ punokrvnjak			2
 pupak	561		2
 pupoljak	239		3
 purenjak		M	2
-pustinjak	263		2
+pustinjak	263		3
 putak			2
 puteljak	88		2
-pčelinjak	559		2
+pčelinjak	559		3
 rak	8137		1
 raskorak	628		2
-rastanak	959		2
+rastanak	959		3
 ravnokrak		M	2
 razdeljak	262		2
-razilazak			2
+razilazak			3
 različak	127		2
-razlomak	73		2
+razlomak	73		3
 razmak	2111		2
 razvitak	1711		2
 račak			2
@@ -664,12 +664,12 @@ sak		M	1
 samotnjak	237		2
 sanak	136		2
 sandžak			2
-sastanak	23254		2
-sastavak	12		2
-sastojak	2808		2
+sastanak	23254		3
+sastavak	12		3
+sastojak	2808		3
 savijutak		M	2
 sažetak	1296		2
-sebičnjak	23		2
+sebičnjak	23		3
 sedamdesetak			2
 sedamdesetogodišnjak			2
 sedamnaestogodišnjak			2
@@ -681,7 +681,7 @@ semenjak			2
 senjak		M	2
 severnjak	15		2
 severoistočnjak			2
-silazak	766		2
+silazak	766		3
 sinak	95		2
 sipak			2
 sirak		M	2
@@ -708,7 +708,7 @@ sokak			2
 spartak			2
 spisak		M	2
 spojak			2
-spomenak	119		2
+spomenak	119		3
 srebrenjak			2
 srebrnjak	69		2
 srednjak	68		2
@@ -723,7 +723,7 @@ stogodišnjak			2
 stoljnjak			2
 stolnjak	203		2
 stomak	6491		2
-stotinak	5075		2
+stotinak	5075		3
 stotinjak	963		2
 stričak			2
 stručak	129		2
@@ -746,7 +746,7 @@ svitak	223		2
 svitnjak			2
 svlak	28		1
 svračak			2
-svršetak	252		2
+svršetak	252		3
 tabak	500		2
 tak			1
 tanak		M	2
@@ -758,7 +758,7 @@ teretnjak	84		2
 termitnjak			2
 tesak			2
 tetak	91		2
-tetrapak	146		2
+tetrapak	146		3
 tešak			2
 težak	18148		2
 tisak	138		2
@@ -778,7 +778,7 @@ tridesetak	5631		2
 tridesetogodišnjak			2
 trnjak	25		2
 trnutak			2
-trogodišnjak	51		2
+trogodišnjak	51		3
 trojak	11		2
 trokrak			2
 trošak	5932		2
@@ -789,16 +789,16 @@ trčuljak		M	2
 trščak			2
 tuljak			2
 tupak			2
-turčinak		M	2
+turčinak		M	3
 tuzlak			2
 tučak	52		2
 ugarak	81		2
-ugrizak		M	2
+ugrizak		M	3
 ugrušak	147		2
 ujak	1580		2
 ukorak	136		2
-ulazak	18652		2
-ulomak	37		2
+ulazak	18652		3
+ulomak	37		3
 uložak	338		2
 ultralak			2
 umak	219		2
@@ -809,28 +809,28 @@ umnožak	30		2
 unapredak			2
 upletak		M	2
 upljuvak			2
-uradak	115		2
-uranak		M	2
-usadak			2
-ustanak	4096		2
-ustupak	1043		2
-utisak	35823		2
-utorak	19276		2
+uradak	115		3
+uranak		M	3
+usadak			3
+ustanak	4096		3
+ustupak	1043		3
+utisak	35823		3
+utorak	19276		3
 utrošak	1036		2
-utržak			2
+utržak			3
 uvelak		M	2
 uvitak		M	2
-uvojak	16		2
+uvojak	16		3
 uzak	781		2
 uzglavak		M	2
-uzlazak		M	2
+uzlazak		M	3
 uzmak	51		2
-uzorak	3417		2
+uzorak	3417		3
 učenjak	122		2
 učevnjak			2
-učinak	8205		2
+učinak	8205		3
 ušitak			2
-uštipak	12		2
+uštipak	12		3
 užitak	2212		2
 valjak	1135		2
 valjušak			2
@@ -868,14 +868,14 @@ zabavnjak			2
 zadak			2
 zadatak	37113		2
 zadnjak		M	2
-zaglavak	21		2
+zaglavak	21		3
 zakivak		M	2
-zaključak	21296		2
+zaključak	21296		3
 zakutak			2
-zalazak	792		2
+zalazak	792		3
 zalistak	104		2
-zalizak			2
-zalomak		M	2
+zalizak			3
+zalomak		M	3
 zamak	1363		2
 zametak	214		2
 zamotuljak	76		2
@@ -883,34 +883,34 @@ zanesenjak	99		2
 zaobilazak	12		2
 zaostatak	1468		2
 zapadnjak	120		3
-zaperak		M	2
+zaperak		M	3
 zapećak	253		2
-zapisak			2
+zapisak			3
 zapučak			2
-zaranak		M	2
+zaranak		M	3
 zaravanak			2
-zaselak	204		2
-zasenak	200		2
-zastanak			2
-zatiljak	34		2
+zaselak	204		3
+zasenak	200		3
+zastanak			3
+zatiljak	34		3
 zaušak			2
-zavezak			2
+zavezak			3
 zavijutak	10		2
 zavitak			2
 zavojak		M	2
 zavratak			2
-završetak	9417		2
-začedak		M	2
+završetak	9417		3
+začedak		M	3
 začetak	520		2
 zdravljak			2
-zelenak			2
+zelenak			3
 zemljak	747		2
 zglavak	12		2
 zgoditak	68		2
 zlatotisak	37		2
 zmijak		M	2
 znak	35352		1
-zodijak	110		2
+zodijak	110		3
 zrak	1751		1
 zračak	184		2
 zubak			2
@@ -918,7 +918,7 @@ zverinjak	92		2
 zvečak			2
 zvonak	53		2
 zvrčak		M	2
-ćepenak		M	2
+ćepenak		M	3
 ćorak			2
 ćorsokak	681		2
 ćošak		M	2
@@ -1004,13 +1004,13 @@ dječak			2
 isječak			2
 lijevak	17		2
 ljevak			2
-odjeljak			2
+odjeljak			3
 odsječak			2
 pijesak	242		2
 pjesak			2
 pješak			2
-ponedjeljak			2
-primjerak			2
+ponedjeljak			3
+primjerak			3
 rijedak	151		2
 smiješak	45		2
 smješak			2

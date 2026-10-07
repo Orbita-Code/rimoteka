@@ -1,8 +1,8 @@
 116
 Hristos			2
-abonos		M	2
+abonos		M	3
 adios			2
-albatros	51		2
+albatros	51		3
 alkos			2
 amos			2
 atos			2
@@ -12,8 +12,8 @@ bos	801		1
 buenos			2
 burgos			2
 butros			2
-crnokos	17		2
-crvenokos			2
+crnokos	17		3
+crvenokos			3
 davos			2
 demos	104		2
 depos			2
@@ -85,7 +85,7 @@ pos			1
 prenos	13722		2
 prinos	5259		2
 prkos	459		2
-proletos	856		2
+proletos	856		3
 riđokos			2
 rodos			2
 ros			1

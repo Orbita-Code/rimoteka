@@ -76,6 +76,17 @@ def common_suffix(a, b):
         n += 1
     return n
 
+def rimovanih_slogova(a, b):
+    # AK-2 (07.10.2026), 1:1 sa app.js `rimovanihSlogova`: koliko slogova dele dve reči u zajedničkom
+    # završetku (č≡ć, dž≡đ kao u common_suffix). Rezerva za „Najbolje" traži bar 2.
+    a = a.lower().replace('č', 'ć').replace('dž', 'đ')
+    b = b.lower().replace('č', 'ć').replace('dž', 'đ')
+    n = 0
+    while n < len(a) and n < len(b) and a[len(a)-1-n] == b[len(b)-1-n]:
+        n += 1
+    od = len(b) - n
+    return sum(1 for i in vowel_positions(b) if i >= od)
+
 def count_syl(w):
     # Mala slova, uvek. Do 06.09.2026. veliko početno A/E/I/O/U nije bilo u VOWELS,
     # pa je „Ilindan“ na /rime-za/slobodan/ nosio 2 sloga umesto 3 – 146 pilula na
@@ -445,11 +456,13 @@ def chip(rword, syl, href):
     """
     telo = (f'<span class="word">{esc(rword)}</span>'
             f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span>')
+    # PR-1 (audit 07.10.2026): kapsula na statičkoj strani SAMA nosi fokus (nema `.word[tabindex]`), pa ona nosi
+    # i `aria-haspopup`/`aria-expanded` – app.js ih menja na istom elementu (`nosilacFokusa`).
     if href:
         # `data-rec` i na linku (nalaz S-08, 07.09.2026): po njemu app.js otvara traku
         # nad reči (značenje, omiljene, kopiraj, prijava) i na statičkim stranama.
-        return f'<a class="chip" href="{href}" data-rec="{esc(rword)}">{telo}</a>'
-    return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" '
+        return f'<a class="chip" href="{href}" data-rec="{esc(rword)}" aria-haspopup="true" aria-expanded="false">{telo}</a>'
+    return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" aria-haspopup="true" aria-expanded="false" '
             f'title="Nađi rime za „{esc(rword)}“">{telo}</button>')
 
 def rhyme_link(rword, target_slugs):
@@ -494,7 +507,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=6a9bcbdb"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=ccb0a1f3"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -1079,9 +1092,9 @@ def main():
         # Podela PO AKCENTU (05.10.2026, 1:1 sa app.js `doRhymes`): najbolje = ista akcenatska jedinica, dobre = ostalo.
         akc_t = AKCK.get(t) or akc_key(t, 2)
         best = [w for w in cands if (AKCK.get(w) or akc_key(w, 2)) == akc_t]
-        if len(best) < 3:   # rezerva kao u app.js: akcenat na istom slogu od kraja + isti broj slogova
+        if len(best) < 3:   # rezerva kao u app.js: akcenat na istom slogu od kraja + isti broj slogova + zajednički završetak ≥ 2 sloga (AK-2)
             n_t = AKCN.get(t, 2); u = set(best)
-            best += [w for w in cands if w not in u and AKCN.get(w, 2) == n_t and syllables(w) == tsyl]
+            best += [w for w in cands if w not in u and AKCN.get(w, 2) == n_t and syllables(w) == tsyl and rimovanih_slogova(t, w) >= 2]
         u_best = set(best)
         best = best[:90]
         good = [w for w in cands if w not in u_best][:max(90, 180 - len(best))]   # ukupno do 180, kao u app.js
@@ -1311,9 +1324,13 @@ def main():
     # Pilula koja je linkovala na ukinutu stranu postaje dugme (kao svaka reč bez strane, v. `chip`).
     target_slugs -= set(tanke)
     if tanke:
-        tanki_re = re.compile(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/" data-rec="([^"]+)">(.*?)</a>')
-        odlozene = [(sl, t, canonical, tanki_re.sub(lambda m: f'<button type="button" class="chip chip-btn" data-rec="{m.group(2)}" title="Nađi rime za „{m.group(2)}“">{m.group(3)}</button>', page))
+        # Oblik MORA da prati `chip()` (atributi i redosled) – 07.10.2026 su dodati aria-haspopup/aria-expanded (PR-1),
+        # regex ih nije znao, pa je link ka „već" ostao na stranama beč/meč/reč (test 50, S-19 mrtav link).
+        tanki_re = re.compile(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/" data-rec="([^"]+)" aria-haspopup="true" aria-expanded="false">(.*?)</a>')
+        odlozene = [(sl, t, canonical, tanki_re.sub(lambda m: f'<button type="button" class="chip chip-btn" data-rec="{m.group(2)}" aria-haspopup="true" aria-expanded="false" title="Nađi rime za „{m.group(2)}“">{m.group(3)}</button>', page))
                     for sl, t, canonical, page in odlozene]
+        assert not any(re.search(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/"', page) for _, _, _, page in odlozene), 'link ka ukinutoj strani preziveo zamenu – regex ne prati chip()'
+
         print(f'S-19: bez strane zbog premalo rima ({len(tanke)}): ' + ', '.join(tanke)
               + '  → svaka od ovih adresa mora u nginx-stare-strane.map (301 na hub)')
     with open(os.path.join(PUB, 'rime-strane.json'), 'w', encoding='utf-8') as f:

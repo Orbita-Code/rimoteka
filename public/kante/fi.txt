@@ -2,17 +2,17 @@
 alfi	297		2
 apokrifi	30		2
 autotrofi			2
-biografi	215		2
+biografi	215		3
 delfi			2
 demografi	137		2
 elfi			2
-epitafi	15		2
+epitafi	15		3
 esnafi			2
 fi		M	1
 fifi			2
 filosofi			2
-filozofi	1303		2
-fotografi	1097		2
+filozofi	1303		3
+fotografi	1097		3
 gadafi			2
 geografi	145		2
 haifi			2
@@ -22,36 +22,36 @@ hijeroglifi	71		2
 kadifi			2
 kafi	846		2
 kalfi	22		2
-kartografi	45		2
+kartografi	45		3
 katastrofi	634		2
 kinematografi	17		2
 kofi			2
-koreografi	135		2
+koreografi	135		3
 kuglofi			2
 marfi			2
 mustafi			2
 nimfi	194		2
-paragrafi	105		2
+paragrafi	105		3
 petefi			2
 petroglifi	18		2
-potrefi	112		2
+potrefi	112		3
 profi			2
 rafi		M	2
-reljefi	118		2
-scenografi	77		2
+reljefi	118		3
+scenografi	77		3
 selfi			2
 stenografi	13		2
 strefi	163		2
 strofi	131		2
 sufi			2
 tarifi	1028		2
-tartufi	195		2
-teozofi	15		2
+tartufi	195		3
+teozofi	15		3
 tofi			2
 uefi			2
 vakufi	27		3
 zografi	43		2
 zulufi			2
 čaršafi			2
-šerifi	53		2
+šerifi	53		3
 žirafi	25		2

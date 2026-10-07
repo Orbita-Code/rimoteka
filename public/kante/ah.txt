@@ -35,10 +35,10 @@ davah			2
 delah			2
 divljah			2
 dodah	18		2
-dolažah			2
+dolažah			3
 domišljah			2
 doperjah			2
-dočekah	53		2
+dočekah	53		3
 drhtah			2
 držah			2
 fah		M	1
@@ -61,21 +61,21 @@ inšalah			2
 iskah			2
 iskazah			2
 iskopah	18		2
-iskušah			2
-isplivah			2
+iskušah			3
+isplivah			3
 ispričah	74		2
 isprobah			2
-isterah			2
+isterah			3
 istraživah			2
 isukah			2
 izabrah	68		2
 izazivah			2
 izbivah			2
-izbrisah	11		2
+izbrisah	11		3
 izbrojah	10		2
 izdah	228		2
 izdržah	22		2
-izlažah			2
+izlažah			3
 izračunah			2
 iđah			2
 iščekivah			2
@@ -111,31 +111,31 @@ napisah	730		2
 napuštah			2
 naslađivah			2
 nasmejah	148		2
-naterah	13		2
+naterah	13		3
 nazvah	39		2
 načekah			2
-negodovah			3
+negodovah			4
 negovah			3
 nemah			2
-nestajah			2
+nestajah			3
 obamirah			2
 obavezah			2
 obećah	57		2
-obradovah	63		3
+obradovah	63		4
 obrah			2
-obraćah			2
-obrisah	21		2
+obraćah			3
+obrisah	21		3
 odabrah	12		2
 odah			2
 odazvah			2
 oderah			2
 odevah			2
-odlažah			2
+odlažah			3
 odležah			2
 odmah	117751		2
 odmarah			2
 odnegovah			2
-odrezah			2
+odrezah			3
 održah	21		2
 odvraćah			2
 ogledah			2
@@ -146,10 +146,10 @@ opijah			2
 oprah	29		2
 orah	1227		2
 osedlah			2
-osećah			2
+osećah			3
 ostah	82		2
 osunčah			2
-oterah			2
+oterah			3
 otpasah			2
 otplakah			2
 otrčah	17		2
@@ -169,17 +169,17 @@ plah	36		1
 plakah			2
 pobojah	14		2
 poderah			2
-podmetah			2
+podmetah			3
 podnošah			2
 podražavah			2
-pogledah	421		2
-pohitah	19		2
+pogledah	421		3
+pohitah	19		3
 pokajah	16		2
 pokazah	49		2
-pokušah	101		2
-pomazah			2
+pokušah	101		3
+pomazah			3
 pomešah			2
-pomilovah	11		3
+pomilovah	11		4
 pomirisah			2
 pomišljah			2
 ponadah	26		2
@@ -188,7 +188,7 @@ pootvarah			2
 poradovah			2
 posijah			2
 poslah	118		2
-poslušah	44		2
+poslušah	44		3
 posmatrah			2
 postah	10		2
 postradah			2
@@ -196,7 +196,7 @@ potapšah			2
 potrčah	27		2
 pouzdah			2
 poučavah			2
-poverovah	25		3
+poverovah	25		4
 povikah	30		2
 poznah	44		2
 pozvah	73		2
@@ -205,9 +205,9 @@ prah	2608		1
 praznovah			3
 prebivah			2
 predah	1419		2
-prelažah			2
+prelažah			3
 premirah			2
-prestajah			2
+prestajah			3
 previjah			2
 približavah			2
 pribrah	10		2
@@ -217,15 +217,15 @@ primah			2
 primetah			2
 pripasah			2
 pripremah			2
-prisustvovah			3
+prisustvovah			4
 pritrčah			2
 priupitah	18		2
 prizvah	12		2
-pričekah			2
+pričekah			3
 progledah	17		2
 progutah	14		2
 prokopah			2
-prolažah			2
+prolažah			3
 promucah	13		2
 propovedah			2
 protivljah			2
@@ -246,14 +246,14 @@ robovah			2
 rukovah			3
 sabah		M	2
 sabrah	12		2
-sagledah			2
+sagledah			3
 sanjah			2
 saobraćah			2
 saslušah			2
 satirah			2
 savladah			2
 saznah	76		2
-sačekah	29		2
+sačekah	29		3
 sačuvah	34		2
 sejah			2
 sevdah		M	2
@@ -296,7 +296,7 @@ ubrojah			2
 ubrzah	12		2
 udah	328		2
 udubljivah			2
-ugledah	362		2
+ugledah	362		3
 ugurah			2
 ukaljah			2
 ukazah	10		2
@@ -306,18 +306,18 @@ umah			2
 umivah			2
 upitah	600		2
 upoznah	71		2
-upravljah			2
+upravljah			3
 uprljah			2
 uskraćivah			2
 ustah			2
-ustajah			2
+ustajah			3
 ustezah			2
 ustreptah			2
 utah			2
 uzabrah			2
 uzdah	793		2
 uzdržah			2
-uzimah			2
+uzimah			3
 uzmah			2
 uzorah			2
 ućutah	11		2
@@ -332,7 +332,7 @@ vaspitah			2
 verovah			3
 veslah			2
 vezah			2
-večerah			2
+večerah			3
 vikah			2
 viđah			2
 vlah			1
@@ -362,7 +362,7 @@ zaspah	42		2
 zaticah			2
 zatirah			2
 zatreptah			2
-zaustavljah			2
+zaustavljah			3
 zavezah			2
 zaveštah			2
 zavikah			2

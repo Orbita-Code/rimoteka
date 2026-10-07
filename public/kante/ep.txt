@@ -30,7 +30,7 @@ slep	1316		1
 step	542		1
 svirep	246		2
 unep			2
-vadičep	38		2
+vadičep	38		3
 vertep			2
 vrtirep			2
 čep	604		1
@@ -38,7 +38,7 @@ vrtirep			2
 lijep	939		1
 ljep			1
 prelijep	76		2
-procijep			2
+procijep			3
 procjep			2
 rascjep			2
 slijep	144		1

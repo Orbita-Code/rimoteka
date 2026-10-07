@@ -1,7 +1,7 @@
 1736
 Kijeve			3
 Moskve			2
-Varšave			2
+Varšave			3
 Zimbabve			2
 adamove			2
 aditive	417		2
@@ -34,7 +34,7 @@ apostolove	17		2
 aranđelove			2
 arhive	2454		2
 asove	226		3
-autoputeve	481		5
+autoputeve	481		6
 autorove	263		2
 avgustove			2
 avramove			2
@@ -50,7 +50,7 @@ baklave	202		2
 balave	77		3
 balove	119		3
 balšićeve			2
-bambusove	19		3
+bambusove	19		4
 banove	51		3
 barove	303		3
 batinove			2
@@ -71,7 +71,7 @@ berberove			2
 berislave			2
 besove	28		3
 betovenove			2
-bezglave	16		2
+bezglave	16		3
 biciklove			2
 bikove	198		3
 biskupove			2
@@ -93,26 +93,26 @@ blitve	132		2
 bljeskove			3
 blještave			3
 bljutave	55		3
-blogove	1457		2
+blogove	1457		3
 blokove	976		3
-bodljikave	253		3
+bodljikave	253		4
 bodove	3759		3
-bogataševe			2
+bogataševe			3
 bogdanove			2
 bogosave			2
 bogoslove	103		4
 bogove	1325		3
-bojažljive	44		2
+bojažljive	44		3
 bojeve			2
 bojićeve			2
 bokove	424		3
 boksove	123		3
 bolećive	12		2
-bolešljive	11		2
+bolešljive	11		3
 bolnikove			2
 bolove	4275		3
 bonove	371		3
-borave	3859		2
+borave	3859		3
 borisove			2
 borićeve			2
 borove	352		3
@@ -134,7 +134,7 @@ breskve	1170		2
 brestove	13		3
 bridove			3
 britve	35		2
-brižljive	39		2
+brižljive	39		3
 brkove	783		3
 brljave			2
 brodove	2175		3
@@ -148,7 +148,7 @@ budve			2
 bukove	184		3
 bukve	643		2
 buljave	44		2
-bundeve	910		2
+bundeve	910		3
 bungalove	64		2
 buntove			3
 buve	527		2
@@ -162,25 +162,25 @@ cmizdrave			2
 crepove	77		3
 crkve	62339		2
 crve	296		2
-crvljive	27		2
+crvljive	27		3
 cvetove	648		3
 cvijićeve			2
 cvrkutave	10		2
-dabrove	34		2
+dabrove	34		3
 dahove			3
 damjanove			2
 dangićeve			2
 danilove			2
 daničićeve			2
 danteove			2
-darežljive	46		2
+darežljive	46		3
 darove	1715		3
 darvinove			2
 dave	532		2
 davidove			2
 dedove			3
 defanzive			2
-deljive	76		2
+deljive	76		3
 delove	17648		3
 deminutive	13		5
 dernjave	15		2
@@ -195,7 +195,7 @@ dimove	60		3
 dinkićeve			2
 direktive	1930		2
 direktorove	24		2
-dirljive	206		2
+dirljive	206		3
 diskove	2157		3
 dive	1621		2
 divove	71		3
@@ -205,7 +205,7 @@ dobave	20		2
 dodikove			2
 dogove			3
 dojave	692		3
-dokazive	50		2
+dokazive	50		3
 dokićeve			2
 dokove	40		3
 doktorove	54		2
@@ -214,10 +214,10 @@ domove	3254		3
 dopadljive	111		2
 doplove	21		3
 dorićeve			2
-dosetljive			2
+dosetljive			3
 dositejeve			2
 dostave	5549		3
-dozove	252		2
+dozove	252		3
 dožive	2105		2
 dožićeve			2
 draganove			2
@@ -234,10 +234,10 @@ dronove			3
 drotove			3
 drugove	1438		3
 drumove	184		3
-druželjubive	76		2
-države	150228		2
+druželjubive	76		3
+države	150228		3
 držićeve			2
-dubrave	139		2
+dubrave	139		3
 dudove	147		3
 dugove	7108		3
 duhove	1251		3
@@ -292,7 +292,7 @@ gadove	56		3
 gajeve	39		3
 gajićeve			2
 galebove	46		4
-ganutljive			2
+ganutljive			3
 garave	42		3
 gasove	1095		3
 gavranove			2
@@ -331,13 +331,13 @@ golove	2722		3
 golubove	615		4
 goluždrave	12		2
 goranove	28		2
-gorive	134		2
-gorljive	10		2
+gorive	134		3
+gorljive	10		3
 gospodareve			2
 gospodinove	14		2
-gostoljubive	58		2
-gotove	2051		2
-grabljive	33		2
+gostoljubive	58		3
+gotove	2051		3
+grabljive	33		3
 gradonačelnikove	35		2
 gradove	8275		3
 grbave	38		3
@@ -371,7 +371,7 @@ hlebove	155		3
 homerove			2
 horove	149		3
 hramove	1188		3
-hranjive	395		2
+hranjive	395		3
 hranljive	1279		2
 hrapave	111		3
 hrastove	307		3
@@ -381,7 +381,7 @@ hrskave	98		3
 hrtove	21		3
 hrđave			2
 humove			3
-hvalisave	20		2
+hvalisave	20		3
 hvalospeve	451		4
 hvatove	18		3
 igoreve			2
@@ -392,10 +392,10 @@ imejlove	60		2
 imperative	93		5
 inicijative	12433		2
 invektive			2
-isključive	265		2
+isključive	265		3
 iskrive	85		2
 iskričave	27		4
-isplative	279		2
+isplative	279		3
 isplove	30		2
 ispostave	930		2
 isprave	4024		3
@@ -407,16 +407,16 @@ ive	115		2
 ivićeve			2
 ivkovićeve			2
 izazove	12351		4
-izbave	155		2
-izbirljive	55		2
-izdržljive	241		2
+izbave	155		3
+izbirljive	55		3
+izdržljive	241		3
 izjalove	47		2
 izjave	21227		3
 izlive	378		2
 izljeve			2
 izmenljive			2
-izostave	138		2
-izvodive	11		2
+izostave	138		3
+izvodive	11		3
 izvodljive			2
 ižive	30		2
 jablanove			4
@@ -428,7 +428,7 @@ jakšićeve			2
 jalove	317		3
 janičareve			2
 jankove			3
-jarmove			2
+jarmove			3
 jarčeve	35		3
 jasenove	12		2
 jastrebove	50		4
@@ -437,11 +437,11 @@ javorove	28		2
 jazove	26		3
 jehove			3
 jelove	42		3
-jestive	272		2
-jetrve	47		2
+jestive	272		3
+jetrve	47		3
 jevremove			2
 jevtićeve			2
-jezive	404		2
+jezive	404		3
 ježeve	96		3
 josifove			2
 jovanove			2
@@ -450,13 +450,13 @@ jovove			3
 jugovićeve			2
 junakove	22		2
 jurnjave	410		2
-kablove	2437		2
+kablove	2437		3
 kadive			2
 kadrove	4008		3
 kaiševe			2
 kakve	40623		2
 kalatrave			2
-kalašnjikove	48		2
+kalašnjikove	48		3
 kaljave			2
 kaljeve			2
 kamenove	33		4
@@ -473,7 +473,7 @@ katove	12		3
 kaučeve			2
 kave	357		2
 kazanove	63		2
-kažnjive	66		2
+kažnjive	66		3
 kedrove			3
 kestenove	11		4
 keve			2
@@ -510,7 +510,7 @@ kojekakve	1202		2
 kokosove	45		2
 kolarove	12		2
 kolarčeve			2
-kolebljive	92		2
+kolebljive	92		3
 kolektive	152		4
 kolove			3
 kolutove	744		4
@@ -519,27 +519,27 @@ konklave	110		2
 konzerve	995		2
 kooperative			2
 kopove	177		3
-koprive	790		2
+koprive	790		3
 korenove	104		4
 korisnikove	64		2
 koristoljubive	36		2
 korove			3
 kosove	162		3
 kostićeve			2
-kotlove	250		2
+kotlove	250		3
 koturove			2
 kotve	40		2
 kove			2
 kovrdžave			2
 kočićeve			2
-košave	171		2
+košave	171		3
 koševe	218		3
-kradljive			2
+kradljive			3
 krahove			3
 krajeve	4359		3
 krakove	50		3
 kraljeve	759		3
-krasnorečive			2
+krasnorečive			3
 krastave	10		3
 krave	3460		2
 krckave			2
@@ -549,7 +549,7 @@ krgovićeve			2
 krikove	35		3
 krinove			3
 krive	3499		2
-krivudave	120		2
+krivudave	120		3
 krmeljive	28		2
 krnjave			2
 krojeve	69		2
@@ -562,7 +562,7 @@ krve	30		2
 krševe			2
 kržljave	19		3
 kudrave			2
-kuknjave	212		2
+kuknjave	212		3
 kukove	619		3
 kultove	130		3
 kumove	309		3
@@ -592,14 +592,14 @@ lave	396		2
 lavove	343		3
 lazareve			2
 lazarove			2
-lažljive	81		2
-lažove	128		2
+lažljive	81		3
+lažove	128		3
 lekove	10144		3
 lenive			2
 lenjinove			2
 leopardove	18		5
 lepetave			2
-lepljive	293		2
+lepljive	293		3
 lepoglave			2
 leposave			2
 lepršave	181		2
@@ -621,12 +621,12 @@ listove	2002		3
 ljestve			2
 ljigave	71		3
 ljotićeve			2
-ljubopitljive	27		2
+ljubopitljive	27		3
 lokomotive	1267		2
 lokve	205		2
-lomljive	122		2
+lomljive	122		3
 lomove	216		3
-lopove	1594		2
+lopove	1594		3
 lordove	19		3
 losove			3
 love	2458		2
@@ -650,7 +650,7 @@ maretićeve			2
 marićeve			2
 markove			3
 marksove			3
-marljive	61		2
+marljive	61		3
 marovićeve			2
 marsove			3
 marve			2
@@ -666,12 +666,12 @@ mačve			2
 mehove	46		3
 mejlove	678		3
 memljive	46		2
-merljive	262		2
+merljive	262		3
 mesečeve	467		2
 mesićeve			2
 metiljave			2
 metkove			3
-mećave	203		2
+mećave	203		3
 mečeve	3129		3
 međutonove			2
 međučinove			2
@@ -685,7 +685,7 @@ milisave			2
 milkićeve			2
 milosave			2
 miloslave			2
-milostive	43		3
+milostive	43		4
 miloševe			2
 miloševićeve			2
 milutinove			2
@@ -693,12 +693,12 @@ ministrove	58		2
 mirisave	14		2
 mirišljave	217		2
 mirkove			3
-miroljubive	383		2
+miroljubive	383		3
 miroslave			2
 mitićeve			2
 mitove	937		3
 miševe	856		3
-mišićave	132		3
+mišićave	132		4
 mladićeve	166		2
 mlave			2
 mlazeve	58		3
@@ -708,7 +708,7 @@ mlitave	62		3
 mlohave	11		3
 mocartove			2
 molerove	10		2
-molitve	6489		2
+molitve	6489		3
 moljevićeve			2
 molotovljeve	120		2
 momčilove			2
@@ -743,23 +743,23 @@ nagarave			2
 naive	216		2
 najave	6551		3
 nalove			3
-nametljive	66		2
+nametljive	66		3
 napeve	26		2
 naprave	16277		3
 naratorove	12		2
 narove			3
-naslove	2191		2
-nasrtljive	23		2
+naslove	2191		3
+nasrtljive	23		3
 nastave	24966		3
-nazdrave	28		2
-nazive	2200		2
-nazove	2358		2
+nazdrave	28		3
+nazive	2200		3
+nazove	2358		3
 naćve		M	2
 nebogove			2
-nedeljive	119		2
+nedeljive	119		3
 nedićeve			2
-nedodirljive	208		2
-nedokazive	21		2
+nedodirljive	208		3
+nedokazive	21		3
 nedokučive	85		2
 nedovićeve			2
 negative	127		2
@@ -767,87 +767,87 @@ negve		M	2
 neiskazive			2
 neispunjive			2
 neizdržive	71		2
-neizlečive	345		2
-neizlječive		J	2
-neizrecive	121		2
+neizlečive	345		3
+neizlječive		J	3
+neizrecive	121		3
 neizvodive			2
 neizvršive			2
-nejestive	29		2
+nejestive	29		3
 nekakve	4583		3
-nekažnjive			2
-nemerljive	199		2
+nekažnjive			3
+nemerljive	199		3
 nemrtve	10		2
 nenadove			2
 neobazrive			2
-neobjašnjive	208		2
-neoborive	176		2
+neobjašnjive	208		3
+neoborive	176		3
 neobradive			2
-neodoljive	316		2
+neodoljive	316		3
 neodredive	23		2
 neodržive	252		2
 neodvojive	85		2
-neopisive	164		2
-neopozive	87		2
-neoprostive	72		2
-neosporive	26		2
-neosvojive	43		2
-neotuđive			2
-nepažljive	26		2
-nepobedive	99		2
-nepodnošljive	324		2
-nepojmljive	80		2
-nepokolebljive	99		2
-nepomirljive	196		2
+neopisive	164		3
+neopozive	87		3
+neoprostive	72		3
+neosporive	26		3
+neosvojive	43		3
+neotuđive			3
+nepažljive	26		3
+nepobedive	99		3
+nepodnošljive	324		3
+nepojmljive	80		3
+nepokolebljive	99		3
+nepomirljive	196		3
 neponovljive	206		2
 nepopravljive	159		2
-neporecive	48		2
-nepovredive	25		2
+neporecive	48		3
+nepovredive	25		3
 neprave	27		2
 nepredvidive	346		2
-nepredvidljive	137		2
-nepremostive	331		2
-neprihvatljive	633		2
-neprocenjive	858		2
+nepredvidljive	137		3
+nepremostive	331		3
+neprihvatljive	633		3
+neprocenjive	858		3
 neprocenljive			2
 nepromenljive	201		2
 nepronicljive			2
 neranjive			2
-nerazumljive	261		2
+nerazumljive	261		3
 neretve			2
-nerešive	132		2
+nerešive	132		3
 nerve	818		2
-nesagorive			2
-neshvatljive	193		2
+nesagorive			3
+neshvatljive	193		3
 nespojive	325		2
-nestrpljive	155		2
-nesumnjive	344		2
+nestrpljive	155		3
+nesumnjive	344		3
 neubedljive	87		2
-neuhvatljive	90		2
-neukrotive	40		2
+neuhvatljive	90		3
+neukrotive	40		3
 neukrotljive			2
 neumoljive	179		2
-neuništive	127		2
-neupadljive	56		2
+neuništive	127		3
+neupadljive	56		3
 neuporedive			2
 neupotrebljive	280		2
 neuračunljive	29		2
-neustrašive	89		2
-neutažive	18		2
+neustrašive	89		3
+neutažive	18		3
 neutoljive			2
-neuverljive	45		2
-nevidljive	1320		2
+neuverljive	45		3
+nevidljive	1320		3
 nezadržive	29		2
 nezajažljive			2
-nezamenjive	43		2
+nezamenjive	43		3
 nezamenljive	120		2
-nezamislive	405		2
+nezamislive	405		3
 nezaustavljive	74		2
-nezdrave	568		2
+nezdrave	568		3
 nezlobive			2
 nečastive	54		2
-nečitljive	11		2
+nečitljive	11		3
 nečlanove			2
-neškodljive	67		2
+neškodljive	67		3
 nežive	137		2
 nikakove			2
 nikakve	27948		3
@@ -858,7 +858,7 @@ nizove	262		3
 nišave			2
 nišavićeve			2
 ništave			2
-njegove	84908		2
+njegove	84908		3
 njegoševe			2
 njihove	78740		3
 njive	3518		2
@@ -875,53 +875,53 @@ noževe	525		3
 nuspojave	510		2
 nušićeve			2
 obadve			2
-obave	3322		2
+obave	3322		3
 obazrive	56		2
 obesprave	18		2
 obezglave	19		2
 obilićeve			2
 objave	5264		3
-objašnjive	36		2
+objašnjive	36		3
 objektive	328		2
 obnove	7767		3
 obnovljive	1806		2
-oborive	11		2
-obradive	865		2
+oborive	11		3
+obradive	865		3
 obrve	1625		3
 obudove			2
 obustave	1473		4
 odave			2
-odazove	495		2
+odazove	495		3
 odjave	328		3
-održive	1852		2
+održive	1852		3
 odseve			2
 oduhove			2
 oduševe	177		2
-odvojive	24		2
+odvojive	24		3
 odzive	20		3
 odzove	12		3
 ofanzive	815		2
 ofenzive	21		2
 ogluve			2
 okinave			2
-okove	668		2
+okove	668		3
 okrive	185		2
-okrvave	10		2
+okrvave	10		3
 oktave	67		2
-olabave	51		3
+olabave	51		4
 onakve	1441		2
 operative	405		2
-opipljive	401		2
+opipljive	401		3
 opleve			2
-oporave	590		2
-oporezive	54		2
-opozove	235		2
+oporave	590		3
+oporezive	54		3
+opozove	235		3
 oprave	68		2
 oprostive			2
 orahove			2
-orlove	683		2
-osetljive	2697		2
-oskrnave	52		2
+orlove	683		3
+osetljive	2697		3
+oskrnave	52		3
 oslove	22		3
 osnove	12173		3
 ostave	5219		3
@@ -930,19 +930,19 @@ ostrve			2
 ostvarive	162		2
 ostvarljive	69		2
 ostve		M	2
-osvetljive			2
-osvetoljubive	49		2
-otave	67		2
+osvetljive			3
+osvetoljubive	49		3
+otave	67		3
 otplove	35		2
 otpozdrave			2
 otprve	17		2
-otrove	530		2
-otuđive			2
+otrove	530		3
+otuđive			3
 ovakve	32125		2
 ove	446535		2
-ovnove	147		2
+ovnove	147		3
 ozdrave	114		2
-očeve	1174		2
+očeve	1174		3
 očuhove			2
 ožive	839		2
 pabove	52		3
@@ -970,24 +970,24 @@ pavićeve			2
 pavlove			3
 pašićeve			2
 pašove			3
-pažljive	243		2
+pažljive	243		3
 pegave	27		2
 pekićeve			2
-penušave	50		2
+penušave	50		3
 pepeljave			2
 perićeve			2
 perišićeve			2
 perspektive	11280		2
 pesnikove	120		2
-petlove	48		2
+petlove	48		3
 pevljive			2
 pikove	60		3
 piletićeve			2
 pirove	51		3
 piskave			2
 pive			2
-pišljive	18		2
-piščeve	285		2
+pišljive	18		3
+piščeve	285		3
 placeve	374		3
 plamenove			2
 planove	12691		3
@@ -995,12 +995,12 @@ plastove	12		3
 platonove			2
 plave	5726		2
 plavšićeve			2
-plačljive	20		2
-plašljive	103		2
+plačljive	20		3
+plašljive	103		3
 plašteve			3
 plaštove			3
 plehove	25		3
-plesnive	16		2
+plesnive	16		3
 plesove	273		3
 pleve	172		2
 plikove	109		3
@@ -1014,9 +1014,9 @@ plove	829		2
 plugove	65		3
 poblesave	11		2
 podlive			2
-podnaslove	87		2
+podnaslove	87		3
 podnosive			2
-podnošljive	120		2
+podnošljive	120		3
 podove	665		3
 podrugljive	48		2
 poduprave			2
@@ -1025,41 +1025,41 @@ pohotljive			2
 pojaseve	505		4
 pojave	24598		3
 pojednostave	216		2
-pojmljive	17		2
-pojmove	2769		2
+pojmljive	17		3
+pojmove	2769		3
 pokojnikove	37		2
-pokretljive	80		2
-pokrove	24		2
+pokretljive	80		3
+pokrove	24		3
 poljakove			2
 polove	204		3
 polumrtve	31		2
 poluprave			2
 polužive			2
-pomirljive	64		2
+pomirljive	64		3
 ponikve	270		2
-ponjave	59		2
+ponjave	59		3
 ponove	1525		2
 poplave	3224		3
 poplesnive			2
 popove	362		3
 popovićeve			2
-poprave	2275		2
-popustljive	38		2
+poprave	2275		3
+popustljive	38		3
 porive	274		2
 portove	576		3
 porve			2
-poslove	41087		2
+poslove	41087		3
 postave	6663		2
 posteve			3
 postove	2427		3
 posve	2549		2
-potkove	28		2
-poverljive	1067		2
+potkove	28		3
+poverljive	1067		3
 povrve			2
 pozabave	1070		2
 pozdrave	1460		3
-pozive	4369		2
-pozove	5337		2
+pozive	4369		3
+pozove	5337		3
 požive	306		2
 pradedove	15		2
 pragove	462		3
@@ -1067,7 +1067,7 @@ prahove	13		3
 pramenove	476		4
 prave	45175		2
 praznoglave	17		2
-praškove	52		2
+praškove	52		3
 prašnjave	171		3
 precrkve			2
 predislave			2
@@ -1075,20 +1075,20 @@ predsednikove	150		2
 predstave	21997		3
 preduslove	1442		2
 predvidive	165		2
-predvidljive	145		2
+predvidljive	145		3
 prekomorčeve			2
 prelive			2
 premijerove	77		2
-prenosive	895		2
+prenosive	895		3
 prepeve	32		2
 preplave	154		2
 prepolove	130		2
-prepoznatljive	1346		2
+prepoznatljive	1346		3
 preprave	64		2
 prerogative	183		2
 preslave			2
 prestave			2
-pretpostave	211		2
+pretpostave	211		3
 preventive	589		2
 prevrtljive	62		2
 prezdrave			2
@@ -1096,14 +1096,14 @@ prezervative	93		2
 prezrive	23		2
 prežive	2467		2
 prgave	17		3
-pribave	594		2
-prideve	101		2
+pribave	594		3
+prideve	101		3
 prigotove			2
-prihvatljive	1331		2
+prihvatljive	1331		3
 prijateljeve	14		2
 prijave	25705		3
-prijemčive	67		2
-prilagodljive	252		2
+prijemčive	67		3
+prilagodljive	252		3
 prilive	184		2
 primamljive	343		2
 primaočeve			2
@@ -1111,16 +1111,16 @@ primenjive	198		2
 primenljive	225		2
 prinove	160		3
 prinčeve	114		3
-pripeve			2
+pripeve			3
 priprave	47		3
 prisnodeve			2
 prizive			2
-prizove	274		2
-pričljive	24		2
+prizove	274		3
+pričljive	24		3
 pričuve	22		2
 prljave	2412		3
 probave	223		3
-probirljive	88		2
+probirljive	88		3
 profesorove	31		2
 progneve			2
 prohteve	387		2
@@ -1131,14 +1131,14 @@ promenljive	1690		2
 pronicljive	73		2
 prorokove	22		2
 proslave	7086		3
-proslove			2
+proslove			3
 protive	2458		2
 protivnikove	27		2
 protićeve			2
 prototipove	169		2
 protuve	151		2
 proverljive	102		2
-prozove	305		2
+prozove	305		3
 proždrljive	50		2
 prožive	323		2
 prstenove	205		4
@@ -1146,7 +1146,7 @@ prutove	15		3
 prve	71444		2
 pršljenove			2
 pubove			3
-pucnjave	801		2
+pucnjave	801		3
 pucnjeve	24		3
 pukove	93		3
 pukovnikove			2
@@ -1172,9 +1172,9 @@ rakićeve			2
 rakove	220		3
 ramove			3
 ranjave	16		2
-ranjive	435		2
+ranjive	435		3
 rančeve	151		2
-raspoložive	1641		2
+raspoložive	1641		3
 rasprave	15804		3
 rastave	157		2
 rastegljive	79		2
@@ -1182,10 +1182,10 @@ ratislave			2
 ratnikove			2
 ratove	4143		3
 razmetljive	12		2
-razumljive	531		2
+razumljive	531		3
 račićeve			2
 račve		M	2
-ražnjeve	10		2
+ražnjeve	10		3
 rebićeve			2
 recidive	72		2
 rediteljeve	15		2
@@ -1202,13 +1202,13 @@ rihterove			2
 risove			3
 ristićeve			2
 ritave			2
-ritmove	420		2
+ritmove	420		3
 ritove	21		3
 rizvićeve			2
 rnićeve			2
 robeve			2
 robove	769		3
-rodoljubive	294		2
+rodoljubive	294		3
 rodoslove	34		2
 rodove	129		3
 rogove	662		3
@@ -1227,34 +1227,34 @@ rugove	37		3
 rukave	1515		2
 runjave			2
 rutave	15		2
-ručkove	356		2
-rđave	442		2
-sablažnjive	23		2
+ručkove	356		3
+rđave	442		3
+sablažnjive	23		3
 sadrugove			2
 sagove			3
-sajmove	564		2
+sajmove	564		3
 sajtove	4680		3
 salve			2
 samoljubive	24		2
 samoobnove			2
-samouprave	24302		2
+samouprave	24302		3
 samožive	57		2
 samožrtve			2
-sanjive	38		2
-sastave	1384		2
+sanjive	38		3
+sastave	1384		3
 satove	836		3
 save			2
-savitljive	91		2
+savitljive	91		3
 savićeve			2
-savladive	18		2
-sazove	643		2
+savladive	18		3
+sazove	643		3
 sažaljive	16		2
 sedative	170		2
 sefove	125		3
 senatorove			2
 setove	370		3
 seve			2
-shvatljive	58		2
+shvatljive	58		3
 simeonove			2
 simićeve			2
 simovićeve			2
@@ -1264,8 +1264,8 @@ sinđelićeve			2
 sipkave			2
 sipljive	10		2
 sireve	473		3
-sirove	2507		2
-sitničave	18		3
+sirove	2507		3
+sitničave	18		4
 sive	3955		2
 sivoplave			2
 skalpove	21		3
@@ -1276,7 +1276,7 @@ sklekove	196		3
 sklopove	241		3
 skokove	628		3
 skotove	54		3
-skrnave	193		2
+skrnave	193		3
 skupove	1651		3
 skutove			3
 sladunjave	71		2
@@ -1300,14 +1300,14 @@ smetove			3
 smislove	16		3
 smokve	641		2
 smradove			3
-smrdljive	237		2
+smrdljive	237		3
 smrve	15		2
 smuđeve	14		2
 snebivljive			2
 snobove	33		3
 snopove	183		3
 snove	5053		2
-snošljive			2
+snošljive			3
 soave			2
 sobove			3
 sokolove	24		2
@@ -1351,7 +1351,7 @@ stenove			3
 stepenove			2
 stevanove			2
 steve			2
-stidljive	243		2
+stidljive	243		3
 stihove	3401		3
 stilove	1270		3
 stogove	30		3
@@ -1366,7 +1366,7 @@ stresove	173		3
 stripove	984		3
 stričeve	71		3
 strmoglave	18		2
-strpljive	125		2
+strpljive	125		3
 strukove	21		3
 stršljenove	14		4
 stubove	1122		3
@@ -1374,25 +1374,25 @@ stupove	121		3
 stvorove	41		3
 subotićeve			2
 sudove	4665		3
-sumnjive	1884		2
-sumnjičave	76		3
+sumnjive	1884		3
+sumnjičave	76		4
 sunčeve	2288		2
 supernove	487		2
 supove	24		3
-suprotstave	1126		2
+suprotstave	1126		3
 surevnjive			2
-surove	1033		2
+surove	1033		3
 susedove	12		2
 suve	4057		2
 sušičave			2
-svadljive	20		2
+svadljive	20		3
 svakakve	1060		3
 svarljive	89		2
 svatove	395		3
 sve	735524		1
 svekrve	423		3
 svetloplave			2
-svetlucave	184		2
+svetlucave	184		3
 svetove	840		3
 svečeve	21		2
 sveštenikove	12		2
@@ -1402,7 +1402,7 @@ tadićeve			2
 taktove	320		3
 takve	53955		2
 tamnave			2
-tamnoplave	86		3
+tamnoplave	86		4
 tamnosive	25		2
 tasove		M	3
 tastove			3
@@ -1412,9 +1412,9 @@ tekstove	9654		3
 tenkove	749		3
 teodorove			2
 testove	4224		3
-tetive	745		2
+tetive	745		3
 tečajeve	141		4
-tigrove	197		2
+tigrove	197		3
 tikove	77		3
 tikve	877		2
 timove	2207		3
@@ -1428,7 +1428,7 @@ tomićeve			2
 tomove	81		3
 tonove	1121		3
 topove	740		3
-tornjeve	122		2
+tornjeve	122		3
 torove	98		3
 točkove			3
 toševe			2
@@ -1439,7 +1439,7 @@ trave	4160		2
 tračeve	266		3
 trendove	4708		3
 trenerove			2
-treperave	35		2
+treperave	35		3
 treptave			3
 trgove	480		3
 trikove	1101		3
@@ -1450,42 +1450,42 @@ trolove	42		3
 tronove	20		3
 trouglove	102		2
 troškove	27874		3
-trpeljive	13		3
+trpeljive	13		4
 trudove	256		3
 trumbićeve			2
 trupove	23		3
 trusove			3
-tugaljive	43		2
+tugaljive	43		3
 tukove			3
 tupave	77		3
 turove			3
 tutnjave	34		2
-tučnjave	24		2
+tučnjave	24		3
 tuševe	138		3
 tužiočeve	32		2
 tvitove	225		3
 tvorove	24		3
 tvrdoglave	164		2
-tvrđave	4819		2
+tvrđave	4819		3
 ubave	20		3
 ubedljive	998		2
 udave	138		2
 udove	433		3
 uglave	63		2
 uglove	784		3
-uhvatljive	21		2
+uhvatljive	21		3
 ujakove	14		2
-ukotve	11		2
-ulove	318		2
+ukotve	11		3
+ulove	318		3
 umetnikove	101		2
 umilostive	50		2
 umove	577		3
 umrtve	42		2
 unjkave			2
-uočljive	590		2
-upadljive	336		2
+uočljive	590		3
+upadljive	336		3
 upečatljive	440		2
-uplive	54		2
+uplive	54		3
 uplove	62		2
 uporedive	268		2
 upotrebljive	341		2
@@ -1493,7 +1493,7 @@ uprave	46023		3
 urokljive	45		2
 uroševe			2
 useve	1089		2
-uslove	47838		2
+uslove	47838		3
 uspostave	2932		2
 usprave	55		2
 usprotive	150		2
@@ -1502,16 +1502,16 @@ ustave	367		3
 usudove			2
 utuve	31		2
 utve	101		2
-uverljive	267		2
-uvredljive	723		2
-uzbudljive	1172		2
-uzdržljive			2
+uverljive	267		3
+uvredljive	723		3
+uzbudljive	1172		3
+uzdržljive			3
 učenikove	15		2
 učiteljeve			2
-učtive	27		2
+učtive	27		3
 ušljive			2
 valove	133		3
-varljive	107		2
+varljive	107		3
 vašljive			2
 vekove	3054		3
 velimirove			2
@@ -1521,7 +1521,7 @@ vesovićeve			2
 vetrove	372		3
 vezove	117		3
 viceve	571		3
-vidljive	3369		2
+vidljive	3369		3
 vidosave			2
 vidove	2414		3
 vijugave	64		2
@@ -1531,7 +1531,7 @@ visove	86		3
 vitezove	271		4
 vitlove	11		3
 višeglave			2
-viškove	645		2
+viškove	645		3
 višnjićeve			2
 vladaočeve			2
 vladareve		M	2
@@ -1554,7 +1554,7 @@ vrbove			3
 vreve	521		2
 vrhove	1290		3
 vriskove			3
-vrtoglave	134		3
+vrtoglave	134		4
 vrtove	359		3
 vrve	212		2
 vrčeve			3
@@ -1570,28 +1570,28 @@ zadave	20		2
 zadive	62		2
 zaglave	198		2
 zagušljive	66		2
-zahteve	18924		2
-zajedljive	84		2
+zahteve	18924		3
+zajedljive	84		3
 zajmove	1258		3
-zakletve	1209		2
+zakletve	1209		3
 zakrve	18		2
 zakržljave			2
-zalive	54		2
+zalive	54		3
 zamamljive			2
-zamenjive	29		2
+zamenjive	29		3
 zamenljive	85		2
-zamislive	66		2
+zamislive	66		3
 zamkove	111		3
-zanimljive	6526		2
+zanimljive	6526		3
 zaove	49		3
 zapaljive	392		2
 zaplove	41		2
-zapostave	106		2
+zapostave	106		3
 zarfove			3
 zastave	6920		3
 zaustave	2639		2
 zavidljive			2
-zavodljive	292		2
+zavodljive	292		3
 zažive	286		2
 zbegove	79		3
 zborove	96		3
@@ -1622,7 +1622,7 @@ zvukove	838		3
 ćorovićeve			2
 ćosićeve			2
 ćoškove			3
-ćudljive	59		2
+ćudljive	59		3
 ćupove	51		3
 ćutljive	51		2
 čabrove			3
@@ -1644,7 +1644,7 @@ zvukove	838		3
 čistačeve			2
 čitaočeve			2
 čitave	11038		3
-čitljive	123		2
+čitljive	123		3
 čivave	68		2
 članove	16672		3
 čmarove			3
@@ -1675,7 +1675,7 @@ zvukove	838		3
 đurđeve			2
 šafranove			2
 šakićeve			2
-šaljive	352		2
+šaljive	352		3
 šalove	182		3
 šantićeve			2
 šaranove	64		2
@@ -1692,7 +1692,7 @@ zvukove	838		3
 šišićeve			2
 škakljive	71		2
 škiljave			2
-škodljive	57		2
+škodljive	57		3
 škripave			2
 šlemove	166		3
 šljive	3204		2
@@ -1704,7 +1704,7 @@ zvukove	838		3
 štabove	120		3
 štandove	557		3
 štapove	372		3
-štedljive	487		2
+štedljive	487		3
 štihove			3
 štitove	186		3
 štofove			3
@@ -1746,25 +1746,25 @@ hljebove			3
 lijekove	285		4
 lijeve	544		2
 ljekove			3
-ljepljive			2
+ljepljive			3
 ljeposave			2
 ljeve			2
 mjehove	13		3
 mjesečeve	65		2
-nemjerljive			2
-neprocjenjive			2
+nemjerljive			3
+neprocjenjive			3
 odsjeve			2
-osjetljive			2
-pijetlove			2
-povjerljive			2
+osjetljive			3
+pijetlove			3
+povjerljive			3
 predsjednikove			2
 svijetove			2
-svjetlucave			2
+svjetlucave			3
 svjetove	63		3
 usjeve			2
-uvjerljive			2
+uvjerljive			3
 vjekove			3
 vjetrove			3
-zahtjeve			2
+zahtjeve			3
 zbjegove			3
 čovjekove			2

@@ -1,11 +1,11 @@
 137
 aha	1979		2
-ajatolaha	140		2
+ajatolaha	140		3
 akrostiha	18		4
 alaha			2
-almanaha	146		2
+almanaha	146		3
 apćiha			2
-auspuha	268		3
+auspuha	268		4
 aždaha			2
 baha			2
 blagouha			2
@@ -14,14 +14,14 @@ ceha	63		2
 ciriha			2
 daha	4273		2
 diptiha	52		2
-dojaha			2
-dosluha	23		2
+dojaha			3
+dosluha	23		3
 duha	17411		2
 egzarha	98		2
 enoha			2
 epoha	1652		2
 eriha			2
-evnuha	121		2
+evnuha	121		3
 faha			2
 fojerbaha			2
 fridriha			2
@@ -41,8 +41,8 @@ jeromonaha	655		2
 joha	24		2
 juha	58		2
 koha			2
-konjuha			2
-kožuha	29		2
+konjuha			3
+kožuha	29		3
 kraha			2
 krha			2
 kuha	91		2
@@ -54,26 +54,26 @@ meliha			2
 metoha	105		2
 miha			2
 moloha			2
-monaha	3746		2
-monarha	363		2
+monaha	3746		3
+monarha	363		3
 muha	257		2
 natruha			3
 neposluha	17		2
 neuspeha	3612		4
 njiha			2
 njuha	109		2
-odjaha			2
+odjaha			3
 oktoiha			2
-oligarha	504		2
+oligarha	504		3
 omaha			2
-oraha	1979		2
+oraha	1979		3
 osmeha	1840		3
 ovrha	87		3
 očuha	158		3
 paroha	1022		2
 pasha			2
 pastuha	15		3
-patrijarha	8342		2
+patrijarha	8342		3
 pazuha	796		3
 peha	70		2
 plaha	71		2
@@ -83,11 +83,11 @@ plutarha			2
 podsmeha	393		3
 poha			2
 pojaha			2
-posluha			2
+posluha			3
 praha	1382		2
 predaha	722		3
 prejaha			2
-projaha			2
+projaha			3
 psiha	527		2
 puha	35		2
 rajha	1042		2
@@ -112,13 +112,13 @@ streha	74		2
 suha	195	J	2
 svrha	8987		2
 tankovrha			2
-tepiha	1411		2
+tepiha	1411		3
 tiha	1816		2
-trbuha	960		2
-triptiha	78		2
+trbuha	960		3
+triptiha	78		3
 udaha	197		2
 uha	1926		2
-uspeha	23223		2
+uspeha	23223		3
 uteha	1644		2
 uzdaha	387		3
 uzjaha			2
@@ -126,16 +126,16 @@ vazduha	20018		3
 vlaha			2
 vrha	12272		2
 zadaha	270		3
-zaduha		M	2
+zaduha		M	3
 zaliha	3169		3
 zamaha	426		2
 zaniha			2
 zanjiha			2
-zloduha	57		2
+zloduha	57		3
 čeha	143		2
 čoha		M	2
 šaha	1232		2
-šarlaha	96		2
+šarlaha	96		3
 grijeha	659		3
 neuspjeha			4
 osmijeha	79		4
@@ -143,5 +143,5 @@ osmjeha			3
 podsmijeha	13		4
 smijeha	299		3
 uspijeha			2
-uspjeha			2
+uspjeha			3
 utjeha			3

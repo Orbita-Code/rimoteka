@@ -1,7 +1,7 @@
 842
 Berlin			2
 Dablin			2
-Zrenjanin			2
+Zrenjanin			3
 aboridžin			2
 acin			2
 adenozin	99		2
@@ -33,8 +33,8 @@ antivladin		M	2
 anđelin			2
 anđelkin			2
 apatin			2
-arabljanin			2
-arapin	211		2
+arabljanin			3
+arapin	211		3
 argatin			2
 arhirabin			2
 arlekin	54		2
@@ -58,7 +58,7 @@ balin			2
 bananin			2
 banaćanin			2
 banjalučanin			2
-banjanin			2
+banjanin			3
 banovčanin			2
 barbarin			2
 barin			2
@@ -72,17 +72,17 @@ benjamin			2
 bensedin	157		2
 benzin	4175		2
 benzodiazepin			2
-beograđanin	838		3
+beograđanin	838		4
 beočin			2
 berberin	221		2
 bernardin			2
-bečanin			2
+bečanin			3
 bihaćanin			2
 bilirubin	148		2
 birčanin			2
 bitkoin			2
 bogorodičin			2
-bojanin			2
+bojanin			3
 boldvin			2
 borin	30		2
 borodin			2
@@ -106,11 +106,11 @@ cecin			2
 cekin		M	2
 cepelin	136		2
 cerezin			2
-cetinjanin			3
+cetinjanin			4
 ciganin	291		3
 cincarin			2
 citrin			2
-crnišanin			2
+crnišanin			3
 crvenčanin			2
 curin			2
 cvejin			2
@@ -135,14 +135,14 @@ dedin	87		2
 dekstrin			2
 delfin	826		2
 delin			2
-deljanin			2
+deljanin			3
 dentin			2
 desankin			2
 devin	11		2
 devojkin			2
 devojčicin			2
 devojčin	14		2
-dijanin			2
+dijanin			3
 din	23603		1
 dinjin			2
 dioksin	81		2
@@ -155,14 +155,14 @@ dobričin			2
 dobrosin			2
 dojčin			2
 doksiciklin			2
-doljanin			2
+doljanin			3
 domaćin	17391		2
 dopamin	273		2
 dragin			2
 dragutin			2
 dražin			2
 drvodeljin			2
-državljanin	2930		3
+državljanin	2930		4
 dublin			2
 dubrovčanin	68		2
 dugin		M	2
@@ -172,24 +172,24 @@ dupin			2
 durbin	149		2
 dušin			2
 dušmanin	81		3
-dvoranin	33		2
-dvorjanin	42		2
+dvoranin	33		3
+dvorjanin	42		3
 džin		M	1
 edin			2
 edvin			2
 efedrin	98		2
-egipćanin			3
+egipćanin			4
 emin			2
 endorfin	173		2
 epinefrin	29		2
 ervin			2
-etiopljanin			2
+etiopljanin			3
 evelin			2
 evin			2
-evropljanin			2
+evropljanin			3
 fahrudin			2
 fakin	32		2
-feničanin			2
+feničanin			3
 filin			2
 fin	2013		1
 florin			2
@@ -212,7 +212,7 @@ glutamin			2
 goblin	27		2
 godomin			2
 gojin			2
-goranin			2
+goranin			3
 goraždanin			2
 gorčin			2
 gospin	17		2
@@ -223,7 +223,7 @@ gracin			2
 gračanin			2
 građanin	9810		3
 grbin			2
-grenlanđanin			2
+grenlanđanin			3
 grin			1
 grličin			2
 grofičin			2
@@ -246,28 +246,28 @@ hermelin	36		2
 heroin	1317		2
 hitin			2
 hodžin			2
-holanđanin			2
+holanđanin			3
 holesterin			2
 hondurašanin			2
-hrišćanin	2390		2
+hrišćanin	2390		3
 husein			2
 ilijin			2
 iljušin			2
 in		M	1
-indonežanin			2
+indonežanin			3
 insulin	1585		2
 inzulin			2
-iračanin			2
+iračanin			3
 irvin			2
 isidorin			2
-islanđanin			2
+islanđanin			3
 istoričarkin			2
 istranin			3
 ivin	16		2
 izvin			2
 jabučanin			2
 jagodin			2
-jamajčanin			2
+jamajčanin			3
 janjin			2
 jasmin	491		2
 jasminin			2
@@ -284,7 +284,7 @@ jeremijin			2
 jerinin			2
 jermenin			2
 jesenjin			2
-jevrejin			2
+jevrejin			3
 jevtin		M	2
 jin			1
 jokin			2
@@ -306,7 +306,7 @@ kalinin			2
 kaličanin			2
 kalvin		M	2
 kamin	569		2
-kanađanin			2
+kanađanin			3
 kaolin	35		2
 kapucin	18		2
 kapućin			2
@@ -318,7 +318,7 @@ karlovčanin			2
 karmin	635		2
 karolin			2
 karotin	102		2
-kasapin	175		2
+kasapin	175		3
 katalin			2
 katarinin			2
 katrin			2
@@ -331,7 +331,7 @@ ketrin			2
 kevin			2
 kin		M	1
 kinin	29		2
-kipranin			2
+kipranin			3
 klarin			2
 klicin			2
 klin	912		1
@@ -356,9 +356,9 @@ kosin			2
 kostadin			2
 kostantin			2
 kostin			2
-kotoranin			3
+kotoranin			4
 kovin			2
-kozarčanin			2
+kozarčanin			3
 kočin			2
 koštanin			2
 koštunicin			2
@@ -367,12 +367,12 @@ kragujevčanin			2
 kraljičin	55		2
 kreatin	460		2
 kreatinin	76		2
-krećanin			2
+krećanin			3
 krin			1
 krinolin		M	2
 kristin			2
 kristinin			2
-krićanin			2
+krićanin			3
 krležin			2
 krstin			2
 kruševljanin			2
@@ -393,7 +393,7 @@ lalin	12		2
 lamantin			2
 lamartin			2
 lanin			2
-laošanin			2
+laošanin			3
 larin			2
 lastin			2
 latin			2
@@ -411,7 +411,7 @@ lin		M	1
 linin		M	2
 lipin			2
 ličanin			2
-ljiljanin			2
+ljiljanin			3
 ljubičin			2
 ljubljančanin			2
 lolin			2
@@ -420,7 +420,7 @@ loptin			2
 lozničanin			2
 lubin	21		2
 lukin			2
-luksemburžanin			2
+luksemburžanin			3
 lužanin			2
 lužičanin			2
 macaklin			2
@@ -432,8 +432,8 @@ majin			2
 majkin			2
 majčin	141		2
 malin			2
-malograđanin	78		3
-maltežanin			2
+malograđanin	78		4
+maltežanin			3
 mamin	166		2
 manasijin			2
 mandarin		M	2
@@ -463,7 +463,7 @@ mezanin			2
 mečanin			2
 međuvladin	17		2
 međučin			2
-meštanin	559		2
+meštanin	559		3
 mikin			2
 miladin			2
 milašin			2
@@ -475,7 +475,7 @@ milutin			2
 min			1
 minin	21		2
 mirin			2
-mirjanin	67		2
+mirjanin	67		3
 mirkin			2
 mirtin			2
 mitin			2
@@ -527,11 +527,11 @@ ninin			2
 nitroglicerin	117		2
 njezin	907		2
 njin			1
-njujorčanin			3
+njujorčanin			4
 norin			2
-norvežanin			2
+norvežanin			3
 novokain			2
-novosađanin	575		3
+novosađanin	575		4
 nurudin			2
 obradin			2
 odin	10		2
@@ -541,7 +541,7 @@ olgin			2
 oliverin			2
 oljin			2
 onjegin			2
-orašanin			2
+orašanin			3
 orfelin			2
 organdin		M	2
 ostin			2
@@ -559,12 +559,12 @@ pangolin			2
 papin	139		2
 parafin	139		2
 paraćin			2
-parižanin			2
+parižanin			3
 parohijanin		M	2
 paulin			2
 pavlin	32		2
 pašin	39		2
-pekinžanin			2
+pekinžanin			3
 pektin	156		2
 pelin	144		2
 penicilin	376		2
@@ -577,7 +577,7 @@ petrijin			2
 petrovaradin			2
 peđin			2
 pingvin	329		2
-pivljanin			2
+pivljanin			3
 plastelin	126		2
 plavušin			2
 plin	1464		1
@@ -587,7 +587,7 @@ politikin			2
 popin			2
 potemkin			2
 požarevljanin			2
-požežanin			2
+požežanin			3
 prababin			2
 predin			2
 prefin		M	2
@@ -602,7 +602,7 @@ pulin			2
 pupin			2
 puplin		M	2
 putin	212		2
-pučanin	10		2
+pučanin	10		3
 puškin			2
 rabin	485		2
 racin			2
@@ -622,7 +622,7 @@ reljin			2
 repin			2
 ricin			2
 riječanin			2
-rimljanin			2
+rimljanin			3
 ristin			2
 ritalin			2
 robin	34		2
@@ -648,12 +648,12 @@ savin			2
 sašin			2
 sefedin			2
 sein			2
-seljanin	77		2
+seljanin	77		3
 senadin			2
 serotonin	302		2
 serpentin	31		2
 sestrin	32		2
-severin			2
+severin			3
 sibin			2
 silvin		M	2
 simin			2
@@ -688,13 +688,13 @@ strihnin			2
 strinin			2
 studeničanin			2
 sudijin	16		2
-sugrađanin	933		3
+sugrađanin	933		4
 supin			2
 surčin			2
 suseljanin			2
 svastikin			2
 svekrvin			2
-tajlanđanin			2
+tajlanđanin			3
 talin			2
 tamarin			2
 tamburin			2
@@ -703,7 +703,7 @@ tanjin			2
 tatarin			3
 tatin	168		2
 taštin			2
-teksašanin			2
+teksašanin			3
 telalin			2
 temerin			2
 teodorin			2
@@ -716,26 +716,26 @@ tetrodotoksin			2
 tiftin			2
 tikvin			2
 tin			1
-tiranin	332		2
+tiranin	332		3
 toksin	282		2
 tomin			2
 topličanin			2
 tošin			2
 trampolin			2
 travertin			2
-tračanin			2
+tračanin			3
 trešnjin	35		2
 troponin			2
-tršćanin			2
+tršćanin			3
 tuberkulin			2
-tunišanin			2
+tunišanin			3
 turmalin			2
 turčin			2
 tutin			2
 tuđin	129		2
 ubičin			2
-udovičin			2
-ugljanin			2
+udovičin			3
+ugljanin			3
 ukućanin	87		2
 ultramarin			2
 unin			2
@@ -750,12 +750,12 @@ vanjin			2
 varadin			2
 varaždin			2
 varfarin			2
-varošanin		M	2
+varošanin		M	3
 varvarin	309		2
 vasin			2
 vavilonjanin			2
 vazelin	181		2
-velegrađanin		M	3
+velegrađanin		M	4
 velin			2
 velšanin			2
 venerin			2
@@ -773,25 +773,25 @@ vladičin			2
 vlastelin	52		2
 vojin			2
 vojvodin	21		2
-vojvođanin			2
+vojvođanin			3
 vološin			2
 vođin			2
 vranin			2
 vrčin			2
-vršćanin			2
+vršćanin			3
 vrščanin			2
 vujadin			2
 vujičin			2
 vukadin			2
 vukašin			2
 vulin			2
-zagrepčanin	37		3
+zagrepčanin	37		4
 zaharijin			2
 zastavin			2
 zavišin			2
 začin	1426		2
 zejtin	258		2
-zemljanin			2
+zemljanin			3
 zemljin			2
 zepelin			2
 zlatičanin			2
@@ -825,10 +825,10 @@ zvorničanin			2
 šemsudin			2
 ševin			2
 šibenčanin			2
-škotlanđanin			2
-škoćanin			2
+škotlanđanin			3
+škoćanin			3
 šljivin			2
-šveđanin			2
+šveđanin			3
 žaklin			2
 žanin		M	2
 ždralin		M	2
@@ -840,7 +840,7 @@ zvorničanin			2
 živkin			2
 živojin			3
 žrtvin	16		2
-župljanin	36		2
+župljanin	36		3
 cvijetin			2
 djevojčin			2
-mještanin			2
+mještanin			3

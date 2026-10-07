@@ -1,7 +1,7 @@
 209
 Kubi			2
 Najrobi			2
-Zagrebi	11		2
+Zagrebi	11		3
 alibi	1667		2
 antibebi			2
 babi	815		2
@@ -10,7 +10,7 @@ barabi			2
 barbi	195		2
 bebi	4277		2
 berbi			2
-bezubi	33		2
+bezubi	33		3
 bi	1648126		1
 bobi	290		2
 bombi	2676		2
@@ -50,44 +50,44 @@ izdrobi	12		2
 izdubi	23		2
 izgubi	9258		2
 izljubi	93		2
-izložbi	10626		2
+izložbi	10626		3
 izvabi			2
-izvedbi	1036		2
+izvedbi	1036		3
 karibi			2
 kasabi			2
 katakombi	74		2
 kobi	206		2
-kolibi	392		2
+kolibi	392		3
 kombi	2130		2
-konobi	57		2
+konobi	57		3
 kordobi			2
-kosidbi	64		2
-krezubi	60		2
+kosidbi	64		3
+krezubi	60		3
 krozbi			2
 ljubi	3521		2
 lobi	2434		2
 lokerbi			2
 makabi			2
-mektebi	16		2
+mektebi	16		3
 mikrobi			2
 molbi	1224		2
-nagodbi	261		2
-naredbi	1939		2
-narudžbi	520		2
+nagodbi	261		3
+naredbi	1939		3
+narudžbi	520		3
 nastambi	39		2
 nebi			2
 nesrbi	115		2
 obi	203		2
 obljubi	55		2
 odbi	153		2
-odredbi	5438		2
+odredbi	5438		3
 odrubi	73		2
 ogrebi	20		2
 ogrubi			2
 olbi			2
 onesposobi	153		2
-optužbi	3972		2
-oslabi	1035		2
+optužbi	3972		3
+oslabi	1035		3
 osobi	9714		3
 osposobi	863		2
 ozlobi			2
@@ -99,30 +99,30 @@ pandžabi			2
 pečalbi			2
 plenidbi	24		2
 plombi	122		2
-plovidbi	583		2
+plovidbi	583		3
 pobi	57		2
 pogodbi	135		2
 pograbi	25		2
-pogrbi			2
-pogrebi	30		2
+pogrbi			3
+pogrebi	30		3
 pogubi	488		2
 poljubi	1418		2
 porobi	147		2
 potrebi	14568		3
 praizvedbi	34		2
 prebi			2
-predodžbi	19		2
+predodžbi	19		3
 pregrubi	10		2
-preljubi	45		2
+preljubi	45		3
 prepodobi			2
 preslabi	76		2
 pribi	11		2
 pridobi	10		2
 prigrabi	164		2
 priljubi	67		2
-primedbi	3370		2
-priredbi	1088		2
-pritužbi	1657		2
+primedbi	3370		3
+priredbi	1088		3
+pritužbi	1657		3
 probi	1056		2
 produbi	426		2
 prosidbi	35		2
@@ -131,7 +131,7 @@ ragbi	796		2
 razbi	78		2
 razdeobi			2
 razdrobi			2
-razgrabi	55		2
+razgrabi	55		3
 ribi	756		2
 robi	1573		2
 rodoljubi	472		4
@@ -139,7 +139,7 @@ rubi			2
 rugobi			2
 sabljozubi			2
 sebi	129389		2
-selidbi	304		2
+selidbi	304		3
 seobi	266		2
 skladbi	40		2
 skrbi	202		2
@@ -152,13 +152,13 @@ srbi	2301		2
 srdžbi	48		2
 srubi			2
 sudbi			2
-sukobi	4512		2
+sukobi	4512		3
 superbombi			2
 suzbi			2
 svadbi	1367		2
 svedodžbi	22		2
 svrbi	709		2
-tarabi	73		2
+tarabi	73		3
 tebi	21787		2
 tegobi	13		2
 teskobi	93		2
@@ -170,7 +170,7 @@ ubi	385		2
 udadbi			2
 udrobi			2
 udubi	142		2
-ugrabi	272		2
+ugrabi	272		3
 upodobi	113		2
 uporedbi	10		2
 upotrebi	14105		4
@@ -180,9 +180,9 @@ užlebi			2
 vabi	46		2
 vasabi			2
 vebi			2
-veridbi	83		2
+veridbi	83		3
 vežbi	5761		2
-visibabi			3
+visibabi			4
 vrbi	155		2
 zadobi	17		2
 zadubi	21		2
@@ -206,8 +206,8 @@ zubi	3165		2
 žabi	75		2
 žalbi	4268		2
 ždrijebi		J	2
-ženidbi	220		2
+ženidbi	220		3
 žurbi	878		2
-primjedbi			2
+primjedbi			3
 tjeskobi			2
 vježbi			2

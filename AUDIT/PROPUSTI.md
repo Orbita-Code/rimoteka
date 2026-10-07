@@ -1801,3 +1801,27 @@ pravilo potvrđeno na primerima koji su ga i rodili.
 **Pravilo:** svako novo jezičko pravilo se pre objave proverava na **20 nasumičnih reči iz rečnika** (seme, ne izbor), od kojih bar
 pola ima 3+ sloga, i uz tabelu „reč → akcenat → ko je u Najboljima → presuda govornika". Reči kojima je pravilo pravljeno NE ulaze
 u tu proveru. To ide u `scripts/akcenti-simulacija.py` kao `--nasumicno 20`.
+
+## 07.10.2026 — PROMENJEN ŠABLON KAPSULE, A NIJE PRETRAŽENO KO GA ČITA: LINK KA UKINUTOJ STRANI PREŽIVEO
+
+**Šta se desilo:** za PR-1 su u `gen_pages.py` `chip()` dodati `aria-haspopup`/`aria-expanded` na `<a class="chip">`. Na kraju
+generatora stoji regex (S-19) koji link ka strani ispod praga pretvara u dugme – pisan za TAČAN stari oblik
+(`… data-rec="…">`). Novi atributi su ga zaobišli, pa je `/rime-za/beč/` dobio živ link ka `/rime-za/vec/` (strana ne postoji,
+404). Uhvatio pun lanac (50, S-19 mrtav link), ne ja. Isti obrazac kao hoisting 01.10. (HANDOVER 4.8): mehanička izmena
+proverena samo tamo gde je napravljena.
+
+**Pravilo:** kad se menja oblik HTML-a koji generator PIŠE, odmah `grep` po celom projektu za regex/parsere koji taj oblik
+ČITAJU (`re.compile`, `match(`, `data-rec=`, `class="chip`). Svaki od njih se menja u istom koraku. Generator sada ima `assert` da
+posle zamene nijedan link ka ukinutoj strani nije preživeo – pada u generatoru, ne tek u testu.
+
+## 07.10.2026 — PROVERA „FILTER PO SLOGOVIMA RADI" BILA JE LAŽNO ZELENA: POREDILA BROJ REČI, A SPISAK JE SEČEN NA 180
+
+**Šta se desilo:** sekcija 12b je proveravala filter tako što je brojala kapsule pre i posle klika na „2 sloga" i tražila da se
+broj razlikuje. Za „ljubav" alat prikazuje najviše 180 reči i pre i posle filtera (3+177 → 2+178), pa se brojevi razlikuju samo
+slučajno – ranije su prolazili, posle AK-1 su se poklopili i provera je pala, iako filter RADI. Provera nikad nije gledala da li
+prikazane reči stvarno imaju 2 sloga.
+
+**Pravilo:** provera filtera gleda SADRŽAJ (svaka prikazana reč ispunjava filter, a pre filtera je bilo i drugih), ne broj. Isto
+važi za svaki filter, pretragu i sortiranje: „promenilo se" nije dokaz da se promenilo KAKO TREBA (v. TP-9, 22.09.). Pri padu
+provere posle promene pravila prvo se pita da li je provera merila pravu stvar, pa tek onda da li je pravilo pokvarilo nešto.
+

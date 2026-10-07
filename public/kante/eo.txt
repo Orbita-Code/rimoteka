@@ -6,39 +6,39 @@ arkanđeo			3
 bdeo	31		2
 beleo			2
 beo		M	2
-besneo	295		2
-bludeo			2
-boleo	254		2
+besneo	295		3
+bludeo			3
+boleo	254		3
 borneo			2
 ceo	74783		2
 crpeo			2
 crveneo	49		2
 cureo			2
 cvileo	43		2
-debeo	1211		2
+debeo	1211		3
 deo	261936		2
 dogoreo	17		2
 doleteo	329		2
 doneo	25738		2
 dopreo			2
 doprineo	5101		2
-dospeo	2456		2
+dospeo	2456		3
 doveo	13023		2
 dozreo	19		2
-doživeo	9152		2
+doživeo	9152		3
 galileo			2
 geo			2
 gladneo			2
 glumeo			2
-goreo	360		2
-grmeo	127		2
+goreo	360		3
+grmeo	127		3
 hoteo			2
 hteo	32749		2
 iscrpeo			2
 iscureo	83		2
 islabeo			2
 ispeo			2
-ispleo	65		2
+ispleo	65		3
 istrpeo	87		2
 istruleo			2
 izbledeo	101		2
@@ -58,25 +58,25 @@ izuzeo	87		2
 izveo	6184		2
 izvoleo	116		2
 iščileo			2
-kipeo			2
+kipeo			3
 kiseo	275		3
 kleo	631		2
-lebdeo	217		2
+lebdeo	217		3
 leo		M	2
 leteo			2
 ležeo			2
-ludeo	28		2
+ludeo	28		3
 mateo			2
 mileo			2
 misleo			2
 mleo			2
 mljeo		J	2
 mrzeo			2
-nadleteo	21		2
+nadleteo	21		3
 nadneo	37		2
-nadživeo	134		2
+nadživeo	134		3
 nagoreo			2
-najeo	166		2
+najeo	166		3
 nakiseo		M	2
 naleteo	1802		2
 naneo	2243		2
@@ -91,7 +91,7 @@ neo	1159		2
 nesazreo			2
 neuspeo	148		4
 neveseo	67		2
-nezreo	278		2
+nezreo	278		3
 obazreo	22		2
 obleteo	76		2
 obnevideo			2
@@ -100,10 +100,10 @@ obreo	715		2
 obudoveo		M	2
 obuzeo	274		2
 odapeo	61		2
-odeo			2
-odleteo	525		2
+odeo			3
+odleteo	525		3
 odneo	3992		2
-odoleo	540		2
+odoleo	540		3
 odsedeo			2
 odseo	270		2
 odupreo			2
@@ -121,11 +121,11 @@ okoreo			2
 omršaveo			2
 onemeo			2
 opleo	129		2
-opseo	64		2
+opseo	64		3
 opusteo	88		2
 osedeo			2
 osiroteo			2
-oslabeo			3
+oslabeo			4
 oslepeo			2
 ostareo	105		2
 oteo	1431		2
@@ -134,14 +134,14 @@ otrpeo	25		2
 otupeo	83		2
 ožedneo	19		2
 ožednjeo		J	2
-oživeo	816		2
+oživeo	816		3
 pareo	25		2
 pepeo	1925		3
 plamteo	26		2
 pleo	85		2
 pobeleo			2
 pobesneo	173		2
-pobledeo	17		2
+pobledeo	17		3
 poboleo			2
 pocrneo	64		2
 pocrpeo			2
@@ -149,12 +149,12 @@ pocrveneo	151		2
 podebeo			2
 podneo	11264		2
 poduzeo	80		2
-podveo	41		2
-pojeo	2003		2
-poleteo	871		2
+podveo	41		3
+pojeo	2003		3
+poleteo	871		3
 poludeo	836		2
 poluzreo			2
-pomeo	51		2
+pomeo	51		3
 pomodreo	17		2
 poneo	2879		2
 ponjeo		J	2
@@ -169,16 +169,16 @@ posjeo	16	J	2
 poskupeo	812		2
 posleo			2
 postareo			2
-postideo	265		2
+postideo	265		3
 potamneo	47		2
-poveo	4931		2
+poveo	4931		3
 pozavideo	194		2
 pozeleneo	27		2
 pozeleo			2
 počeo	55439		2
 pošizeo			2
-poštedeo	234		2
-poželeo	4840		2
+poštedeo	234		3
+poželeo	4840		3
 poživeo	228		2
 požnjeo	53		2
 požuteo	64		2
@@ -186,25 +186,25 @@ prebeo			2
 prebledeo			2
 preboleo	211		2
 predebeo	50		2
-predeo	2005		2
+predeo	2005		3
 predusreo			2
 preduzeo	1471		2
-predvideo	3120		3
+predvideo	3120		4
 pregladneo			2
 pregoreo	76		2
 pregrmeo	53		2
 prejeo	40		2
-prekipeo			2
+prekipeo			3
 prekiseo			2
 prekoreo			2
-preleteo	390		2
+preleteo	390		3
 preneo	9201		2
 preo	66		2
 preoteo	231		2
 presedeo			2
 preseo			2
-presreo	151		2
-pretrpeo	2408		2
+presreo	151		3
+pretrpeo	2408		3
 preuzeo	10055		2
 preuzneo			2
 preveo	2225		2
@@ -212,17 +212,17 @@ preveseo			2
 prevideo	365		2
 prevreo	16		2
 prezreo	150		2
-preživeo	3242		2
+preživeo	3242		3
 pridoneo	31		2
 prineo	292		2
 prisjeo		J	2
 prispeo	217		2
-priveo	727		2
+priveo	727		3
 privideo			2
-privoleo	121		2
-probdeo	19		2
+privoleo	121		3
+probdeo	19		3
 procureo	215		2
-proizveo	2052		2
+proizveo	2052		3
 prokleo	181		2
 proleteo	298		2
 proneo	191		2
@@ -237,51 +237,51 @@ raspeo	44		2
 rasplamteo			2
 razapeo	96		2
 razbesneo	168		2
-razboleo	801		2
-razdeo		M	2
+razboleo	801		3
+razdeo		M	3
 razgoreo	21		2
 razjeo			2
 razleteo	18		2
 razmileo			2
 razneo	159		2
-razumeo	6701		2
-razveo	449		2
-rodeo			2
+razumeo	6701		3
+razveo	449		3
+rodeo			3
 romeo			2
-sagoreo	97		2
+sagoreo	97		3
 samleo			2
-sapleo	245		2
+sapleo	245		3
 satreo			2
 sazreo	479		2
 sažeo	296		2
 saživeo	38		2
-sedeo	4831		2
+sedeo	4831		3
 seo	5039		2
 sjajnobeo			2
 sleteo	1403		2
-sludeo			2
+sludeo			3
 smeo	5275		2
-smrdeo	60		2
+smrdeo	60		3
 smršaveo			2
-snabdeo	106		2
+snabdeo	106		3
 spleo	20		2
-sporazumeo	58		2
-sproveo	4178		2
+sporazumeo	58		3
+sproveo	4178		3
 srebrnobeo			2
 sreo	3612		2
 stareo			3
 stereo	1733		2
-stideo	301		2
+stideo	301		3
 strepeo	135		2
-strpeo			2
-susreo	1766		2
+strpeo			3
+susreo	1766		3
 sveo	1273		2
 svetleo			2
 svideo	1425		3
-trpeo	990		2
+trpeo	990		3
 ubledeo			2
-udeo		M	2
-ujeo	451		2
+udeo		M	3
+ujeo	451		3
 ukleo			2
 uleteo	963		2
 umreo			2
@@ -291,18 +291,18 @@ upleo	214		2
 useo			2
 ushteo			2
 uskipeo			2
-usmrdeo			2
-uspeo	40623		2
+usmrdeo			3
+uspeo	40623		3
 usplamteo			2
-uveo		M	2
-uvideo	1511		3
+uveo		M	3
+uvideo	1511		4
 uvrteo			2
 uzavreo	20		2
 uzeo	19540		2
-uzleteo	141		2
+uzleteo	141		3
 uzneo	141		2
 uzreo			2
-uštedeo	595		2
+uštedeo	595		3
 uželeo	145		2
 uživeo	108		2
 veo	858		2
@@ -310,15 +310,15 @@ veroveo			2
 veseo	1240		3
 video	96371		3
 viđeo			2
-voleo	16934		2
+voleo	16934		3
 voljeo		J	2
-vredeo		M	2
+vredeo		M	3
 vreo	592		2
-vrteo	459		2
+vrteo	459		3
 vrveo	58		2
 zabeleo			2
 zabludeo	14		2
-zaboleo	157		2
+zaboleo	157		3
 zacrveneo	41		2
 zagoreo	42		2
 zagrmeo	43		2
@@ -342,27 +342,27 @@ zastrepeo			2
 zasvetleo			2
 zatrudneo	10		2
 zauzeo	6080		2
-zaveo	473		2
+zaveo	473		3
 zavideo			2
-zavoleo	1003		2
+zavoleo	1003		3
 zavrteo	182		2
 začeo	169		2
-zaželeo	184		2
+zaželeo	184		3
 zaživeo	960		2
 zreo	1361		2
-štedeo	545		2
+štedeo	545		3
 žedneo			2
-želeo	27277		2
+želeo	27277		3
 željeo		J	2
-živeo	13863		2
+živeo	13863		3
 žnjeo	10		2
-žudeo	135		2
+žudeo	135		3
 žuteo			2
 donijeo			2
 htjeo			2
 nasjeo			2
 odsjeo			2
-opsjeo			2
+opsjeo			3
 sjeo			2
 uspjeo			2
 vidjeo			2

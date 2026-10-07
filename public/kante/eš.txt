@@ -1,29 +1,29 @@
 1932
-aktiviraćeš			2
-alarmiraćeš			2
+aktiviraćeš			3
+alarmiraćeš			3
 angažuješ	70		2
 argatuješ			2
 arlaukaćeš			2
 arlaučeš			2
 avanzuješ			2
-bacićeš			2
+bacićeš			3
 bakćeš	37		2
 bandažiraćeš			2
 baneš			2
 bangladeš			3
-bankrotiraćeš			2
-batinaćeš			2
-bauljaćeš			2
+bankrotiraćeš			3
+batinaćeš			3
+bauljaćeš			3
 bavićeš			3
 bekneš			2
-beknućeš			2
+beknućeš			3
 bereš	72		2
-bežaćeš			2
+bežaćeš			3
 biješ	182		2
 bićeš	685		2
 bičevaćeš			4
 bičuješ			3
-blebetaćeš			2
+blebetaćeš			3
 blebećeš			2
 bleneš	29		2
 blesneš			2
@@ -33,11 +33,11 @@ bodeš	35		2
 boksuješ			2
 boluješ	34		2
 bombarduješ	15		2
-borićeš			2
-branićeš			2
+borićeš			3
+branićeš			3
 bratićeš			2
 braćeš			2
-brbljaćeš			2
+brbljaćeš			3
 briješ	25		2
 brineš	837		2
 brinućeš			3
@@ -45,8 +45,8 @@ brišeš	137		2
 budeš	1727		2
 carovaćeš			2
 caruješ	20		2
-cedićeš			2
-crkavaćeš			3
+cedićeš			3
+crkavaćeš			4
 crkneš	53		2
 crpeš			2
 dadeš	28		2
@@ -55,13 +55,13 @@ dahćeš			2
 daješ	1221		2
 danjuješ			2
 daruješ	28		2
-davaćeš			2
+davaćeš			3
 daćeš	51		2
 definišeš	128		2
-dejstvuješ			2
+dejstvuješ			3
 dekoncentrišeš			2
 dekorišeš			2
-delićeš			2
+delićeš			3
 deluješ	177		3
 dereš	114		2
 devuješ			2
@@ -75,35 +75,35 @@ dišeš	186		2
 dižeš	190		2
 dobacuješ	14		2
 dobijaćeš			3
-dobiješ	3630		2
-dobićeš	490		2
+dobiješ	3630		3
+dobićeš	490		3
 dodaješ	164		2
-dodaćeš			2
+dodaćeš			3
 dodirneš	79		2
 dodiruješ	54		2
-dokazaćeš			2
+dokazaćeš			3
 dokazuješ	146		2
 dokažeš	283		2
-dolazićeš			3
+dolazićeš			4
 domogneš			2
-doneseš	354		2
+doneseš	354		3
 donećeš			2
-donosićeš			2
-dopadneš	38		2
-dopašćeš			2
+donosićeš			3
+dopadneš	38		3
+dopašćeš			3
 dopisuješ	42		2
 dopreš	20		2
 doprineseš	36		2
 dopunjuješ			2
-dopustićeš			2
+dopustićeš			3
 dorasteš			2
-doručkuješ	20		3
+doručkuješ	20		4
 dosađuješ	28		2
 dosegneš	13		2
-dospećeš			2
+dospećeš			3
 dospeš	19		2
-dostigneš	38		2
-dostižeš			2
+dostigneš	38		3
+dostižeš			3
 dotakneš	63		2
 doteraćeš			2
 doteruješ			2
@@ -112,19 +112,19 @@ dovedeš	225		2
 dovezeš			2
 dovešćeš			2
 dovučeš	29		2
-doznaćeš			2
-dozoveš	12		2
-dozvolićeš			2
+doznaćeš			3
+dozoveš	12		3
+dozvolićeš			3
 doćićeš			2
 dočekuješ	20		2
 dođeš	2197		2
-doživećeš			2
+doživećeš			3
 dramatizuješ			2
 dremneš			2
-družićeš			2
+družićeš			3
 drzneš			2
-držaćeš			2
-dugovaćeš			2
+držaćeš			3
+dugovaćeš			3
 duguješ	138		2
 duneš	16		2
 eksperimentišeš	61		2
@@ -139,18 +139,18 @@ fleš	1477		1
 formulišeš			2
 fotografišeš	37		2
 funkcionišeš			2
-garantuješ	27		3
+garantuješ	27		4
 gazduješ			2
-gilgameš			2
+gilgameš			3
 gineš	28		2
 gladuješ	12		2
-glasaćeš			2
+glasaćeš			3
 gledaćeš	13		3
-glumićeš			2
+glumićeš			3
 goleš			2
-gorećeš			2
+gorećeš			3
 gostuješ	14		2
-govorićeš			2
+govorićeš			3
 grebeš	18		2
 greješ	60		2
 gricneš			2
@@ -162,114 +162,114 @@ haješ	18		2
 hakuješ			2
 hipnotišeš			2
 histerišeš			2
-hladićeš			2
-hodaćeš			2
+hladićeš			3
+hodaćeš			3
 hoćeš	11438		2
 hramlješ			2
-hranićeš			2
+hranićeš			3
 hrčeš	16		2
 htedneš	10		2
 hučeš			2
-hvalićeš			2
-hvališeš			2
+hvalićeš			3
+hvališeš			3
 idealizuješ			2
-identifikuješ	43		4
+identifikuješ	43		5
 ideš	4199		2
 ignorišeš	91		2
-igraćeš	14		2
+igraćeš	14		3
 imadeš			2
-imaćeš	491		2
+imaćeš	491		3
 imenuješ	23		4
-improvizuješ	12		3
+improvizuješ	12		4
 informišeš	138		2
 inspirišeš			2
 interesuješ	48		2
 intervenišeš			2
 intervjuišeš			2
-iscelićeš			2
+iscelićeš			3
 isceljuješ	13		2
 iscepaćeš			2
-iscrpljuješ			2
-isečeš	95		2
+iscrpljuješ			3
+isečeš	95		3
 iskaljuješ			2
 iskazuješ	21		2
 iskačeš			2
 iskažeš	61		2
 isključuješ	42		2
 iskontrolišeš			2
-iskopaćeš			2
-iskoristićeš			3
-iskradeš			2
-iskrvarićeš			3
+iskopaćeš			3
+iskoristićeš			4
+iskradeš			3
+iskrvarićeš			4
 iskupljuješ			2
-iskusićeš			2
-ispadneš	139		2
+iskusićeš			3
+ispadneš	139		3
 ispaljuješ			2
-ispašćeš	10		2
-ispereš	18		2
-ispečeš	20		2
-ispiješ	13		2
+ispašćeš	10		3
+ispereš	18		3
+ispečeš	20		3
+ispiješ	13		3
 ispisuješ	17		2
 ispituješ	59		2
 ispišeš	41		2
-isplatićeš			2
+isplatićeš			3
 isplaćuješ	13		2
 isplačeš	12		2
-ispleteš			2
+ispleteš			3
 ispljuneš	10		2
 isporučuješ			2
 ispoštuješ	50		2
-ispričaćeš			2
-isprljaćeš			2
-ispunićeš			3
+ispričaćeš			3
+isprljaćeš			3
+ispunićeš			4
 istakneš	38		2
 istegneš			2
-isteraćeš			3
+isteraćeš			4
 isteruješ			2
 istežeš			2
-istisneš			2
-ističeš	45		2
+istisneš			3
+ističeš	45		3
 istraješ	46		2
 istražuješ	95		2
 istreseš	31		2
 istruneš			2
 istučeš			2
-izabereš	667		2
-izabireš			2
-izabraćeš			2
-izazoveš	46		2
-izazvaćeš			2
+izabereš	667		3
+izabireš			3
+izabraćeš			3
+izazoveš	46		3
+izazvaćeš			3
 izaćićeš			2
 izađeš	853		2
-izbacićeš			2
+izbacićeš			3
 izbacuješ	52		2
-izbavićeš			3
+izbavićeš			4
 izbegneš	200		2
-izbiješ	15		2
+izbiješ	15		3
 izbodeš			2
-izbrisaćeš			3
-izbrišeš	71		2
+izbrisaćeš			4
+izbrišeš	71		3
 izdahneš			2
 izdaješ	68		2
-izdaćeš			2
+izdaćeš			3
 izdereš			2
 izdigneš	20		2
 izdižeš			2
-izdržaćeš			2
+izdržaćeš			3
 izgladnjuješ			2
-izgledaćeš	11		2
-izgnaćeš			2
-izgorećeš			2
+izgledaćeš	11		3
+izgnaćeš			3
+izgorećeš			3
 izgrađuješ	11		2
 izgrebeš			2
-izgubićeš	57		2
+izgubićeš	57		3
 iziđeš	22		2
-izjavićeš			2
+izjavićeš			3
 izjavljuješ	29		2
 izješćeš			2
 izlaneš			2
 izlažeš	39		2
-izlečićeš			2
+izlečićeš			3
 izliješ			2
 izludećeš			2
 izluduješ			2
@@ -277,43 +277,43 @@ izluđuješ	11		2
 izmakneš	11		2
 izmanipulišeš			2
 izmetneš			2
-izmičeš			2
+izmičeš			3
 iznajmljuješ	19		2
 iznađeš			2
 iznemogneš			2
-iznenadićeš	14		2
+iznenadićeš	14		3
 iznenađuješ	23		2
 izneseš	166		2
-izoluješ	35		3
-izostaješ			2
-izostaneš			2
+izoluješ	35		4
+izostaješ			3
+izostaneš			3
 izrađuješ			2
 izrecituješ			2
-izrekneš			2
-izrečeš			2
-izrežeš			2
+izrekneš			3
+izrečeš			3
+izrežeš			3
 izričeš			2
 izruguješ			2
-izuješ	19		2
+izuješ	19		3
 izuzmeš			2
-izvadićeš			3
+izvadićeš			4
 izvedeš	149		2
 izvezeš	15		2
 izvešćeš			2
 izvineš	73		2
-izvinićeš			2
+izvinićeš			3
 izvinućeš			2
 izvrneš	15		2
 izvrćeš	54		2
-izvršićeš			2
+izvršićeš			3
 izvršuješ	10		2
 izvućeš			2
 izvučeš	469		2
 išteš	68		2
-jadikuješ			3
+jadikuješ			4
 jahaćeš			3
 jaučeš			2
-javićeš			2
+javićeš			3
 jašeš	32		2
 jedeš	1012		2
 ješ			1
@@ -324,7 +324,7 @@ kamenuješ			4
 kampuješ			2
 kanališeš	11		2
 kandiduješ	26		2
-kazaćeš			2
+kazaćeš			3
 kaznićeš			3
 kazuješ	23		2
 kašlješ	12		2
@@ -343,27 +343,27 @@ klimneš	16		2
 kličeš			2
 kližeš			2
 kloneš	14		2
-klonićeš			2
+klonićeš			3
 kokneš			2
 kolješ			2
 komanduješ	16		2
 kombinuješ	60		2
 komentarišeš	418		2
 kompenzuješ			2
-komplikuješ	39		3
+komplikuješ	39		4
 komponuješ	11		2
-kompromituješ			3
+kompromituješ			4
 koncentrišeš	31		2
 konkurišeš	73		2
 konobarišeš			2
 konsultuješ	46		2
 kontrolišeš	161		2
-kopaćeš			2
-koristićeš			3
+kopaćeš			3
+koristićeš			4
 korteš			2
 kradeš	208		2
 kreneš	1189		2
-krenućeš			2
+krenućeš			3
 kresneš	30		2
 kresnućeš			3
 krećeš	301		2
@@ -376,12 +376,12 @@ kucneš	11		2
 kuješ	11		2
 kultivišeš			2
 kuneš	35		2
-kupićeš	15		2
+kupićeš	15		3
 kupuješ	1050		2
 kurtališeš			2
 kuvaćeš			3
 kvalifikuješ	11		2
-lagaćeš			2
+lagaćeš			3
 lajaćeš			3
 laješ	54		2
 lažeš	766		2
@@ -391,12 +391,12 @@ lemeš			2
 lenstvuješ			2
 letećeš			2
 leš	1347		1
-ležaćeš			2
+ležaćeš			3
 ležeš	33		2
 likovaćeš			2
 likuješ	26		2
 lizneš	15		2
-ličićeš			2
+ličićeš			3
 ližeš	39		2
 luduješ	18		2
 mahneš	16		2
@@ -427,10 +427,10 @@ mislićeš			3
 mičeš			2
 mlećeš			2
 mogneš			2
-molićeš			2
+molićeš			3
 moluješ			2
 morališeš			2
-moraćeš	362		2
+moraćeš	362		3
 moračeš			2
 motivišeš			2
 moćeš			2
@@ -442,210 +442,210 @@ mudruješ	17		2
 muzeš	15		2
 mučićeš			3
 nabacuješ	11		2
-nabavićeš			3
-nabereš			2
+nabavićeš			4
+nabereš			3
 nabeđuješ			2
-nabiješ	45		2
+nabiješ	45		3
 nabodeš	27		2
 nabrekuješ			2
 nadahnjuješ			2
-nadaćeš			2
-nadenućeš			3
+nadaćeš			3
+nadenućeš			4
 nadmećeš			2
 nadmeš			2
 nadmudruješ			2
-nadoknadićeš			3
+nadoknadićeš			4
 nadoknađuješ			2
 nadrljaćeš			2
 nadvisuješ			2
 nadzireš			2
-naginješ	19		2
+naginješ	19		3
 nagneš	10		2
 nagrađuješ	10		2
 naiđeš	165		2
 najavljuješ	18		2
-najedeš	32		2
-nalazićeš			3
+najedeš	32		3
+nalazićeš			4
 naliješ			2
-naljutićeš			2
-naložićeš			2
-namažeš	38		2
-nametneš	37		2
+naljutićeš			3
+naložićeš			3
+namažeš	38		3
+nametneš	37		3
 namećeš	40		2
 namigneš			2
 namiguješ			2
 namirišeš			2
 namiruješ			2
-namičeš			2
+namičeš			3
 naneseš	29		2
-napadneš	47		2
+napadneš	47		3
 napasaćeš			2
-napašćeš			2
-napijaćeš			2
-napiješ	63		2
-napinješ			2
-napisaćeš			2
-napićeš			2
+napašćeš			3
+napijaćeš			3
+napiješ	63		3
+napinješ			3
+napisaćeš			3
+napićeš			3
 napišeš	1310		2
 naplaćuješ	51		2
 napneš			2
 napojićeš			2
 napomeneš	25		2
-napravićeš	20		3
-napredovaćeš			4
-napreduješ	180		3
+napravićeš	20		4
+napredovaćeš			5
+napreduješ	180		4
 napregneš			2
 naprežeš	12		2
-napunićeš			3
-napustićeš			2
+napunićeš			4
+napustićeš			3
 narasteš			2
 naređuješ	65		2
 naručuješ	53		2
 nasedneš	10		2
-naselićeš			2
-nasitićeš			3
+naselićeš			3
+nasitićeš			4
 nasladićeš			2
 naslađuješ	20		2
-nasledićeš			2
+nasledićeš			3
 nasleđuješ			2
 naslućuješ			2
 nasmeješ	111		2
 nasmiješ	12	J	2
-naspavaćeš			2
-nasrćeš			2
+naspavaćeš			3
+nasrćeš			3
 nastanjuješ			2
-nastavićeš			3
-nastradaćeš			2
-nastupaćeš			2
+nastavićeš			4
+nastradaćeš			3
+nastupaćeš			3
 natakneš	11		2
 nategneš	15		2
-nateraćeš			3
+nateraćeš			4
 natežeš	11		2
-naučićeš	44		2
+naučićeš	44		3
 navaljuješ	12		2
 navedeš	182		2
 naviješ			2
-navikneš	228		2
-naviknućeš			3
+navikneš	228		3
+naviknućeš			4
 navićićeš			2
 navrćeš			2
 navučeš	87		2
-nazaduješ			3
+nazaduješ			4
 nazebeš			2
 naznačuješ			2
-nazoveš	175		2
-nazvaćeš			2
+nazoveš	175		3
+nazvaćeš			3
 naćićeš			2
 načekaćeš			2
-načinićeš			2
+načinićeš			3
 nađeš	2881		2
-nedostajaćeš	19		3
-nedostaješ	287		2
-negoduješ			3
+nedostajaćeš	19		4
+nedostaješ	287		3
+negoduješ			4
 neguješ	61		3
-nestaješ	45		2
-nestaneš	70		2
-nestaćeš			2
+nestaješ	45		3
+nestaneš	70		3
+nestaćeš			3
 nećeš	37		2
 njačeš			2
 njišeš			2
 njištaćeš			2
-nosićeš			2
-obavestićeš			2
+nosićeš			3
+obavestićeš			3
 obavežeš	16		2
-obaviješ			3
-obavićeš			3
+obaviješ			4
+obavićeš			4
 obazireš	29		2
-obeduješ			3
+obeduješ			4
 obereš			2
 obeshrabruješ			2
 obezbeđuješ	19		2
 obećaješ			2
-obgrlićeš			3
-obiješ			2
+obgrlićeš			4
+obiješ			3
 obiđeš	73		2
-objasnićeš			2
-objavićeš			2
+objasnićeš			3
+objavićeš			3
 objavljuješ	60		2
 oblećeš			2
-oblikuješ	30		3
+oblikuješ	30		4
 obmaneš	14		2
 obmanjuješ	48		2
-obnovićeš			2
-obogatićeš			3
-oborićeš			2
-obožavaćeš			2
-obraduješ	51		3
-obratićeš			2
+obnovićeš			3
+obogatićeš			4
+oborićeš			3
+obožavaćeš			3
+obraduješ	51		4
+obratićeš			3
 obrazlažeš			2
-obrazuješ	36		3
-obraćaćeš			3
+obrazuješ	36		4
+obraćaćeš			4
 obraćeš			2
 obrađuješ	45		2
 obrešćeš			2
 obriješ	21		2
-obrisaćeš			3
-obrišeš	213		2
+obrisaćeš			4
+obrišeš	213		3
 obrneš	59		2
-obrćeš	11		2
-obuješ	33		2
-obuzdaćeš			2
-obućeš			2
+obrćeš	11		3
+obuješ	33		3
+obuzdaćeš			3
+obućeš			3
 obučeš	208		2
 obzireš			2
 obznanjuješ			2
 ocenjuješ	73		2
-odabereš	312		2
+odabereš	312		3
 odabireš			2
 odaješ	28		2
 odapneš			2
-odazoveš			2
-odaćeš			2
+odazoveš			3
+odaćeš			3
 odašilješ			2
-odbacićeš			2
+odbacićeš			3
 odbacuješ	48		2
-odbiješ	142		2
-odbićeš			2
-odbranićeš			2
+odbiješ	142		3
+odbićeš			3
+odbranićeš			3
 odereš	18		2
 odeš	3103		1
 odgonetneš			2
-odgovaraćeš			2
-odgovorićeš			2
-odgrizeš			2
+odgovaraćeš			3
+odgovorićeš			3
+odgrizeš			3
 odgurneš	12		2
 odguruješ			2
-odjašeš			2
+odjašeš			3
 odlažeš	37		2
 odlepićeš			2
-odletećeš			2
+odletećeš			3
 odležaćeš			2
 odlučuješ	127		2
 odmakneš	20		2
 odmažeš			2
-odmičeš			2
-odmorićeš			2
+odmičeš			3
+odmorićeš			3
 odneseš	212		2
 odnećeš			2
-odolećeš			2
-odradićeš			2
+odolećeš			3
+odradićeš			3
 odrasteš	107		2
 odrađuješ	28		2
 odreaguješ	24		2
-odrekneš	125		2
-odrečeš			2
+odrekneš	125		3
+odrečeš			3
 određuješ	87		2
-odrežeš			2
+odrežeš			3
 odričeš	86		2
-održaćeš			2
+održaćeš			3
 odsedneš			2
-odsečeš	55		2
+odsečeš	55		3
 odsustvuješ			2
 odupireš			2
 odupreš	32		2
-odustaješ	105		2
-odustaneš			2
-odustaćeš			2
+odustaješ	105		3
+odustaneš			3
+odustaćeš			3
 oduzmeš	118		2
 oduševićeš			2
 odužuješ			2
@@ -662,96 +662,96 @@ ogorčuješ			2
 ogrebeš	33		2
 ogrneš			2
 ogrćeš			2
-ohladićeš			2
+ohladićeš			3
 ohrabruješ			2
 okaješ			2
 okaneš			2
 okačićeš			2
 oklizneš	11		2
 okreneš	903		2
-okrenućeš			2
+okrenućeš			3
 okrepljuješ			2
-okretaćeš			2
+okretaćeš			3
 okrećeš	152		2
 okrivljuješ	11		2
 okružuješ			2
-okusićeš			3
+okusićeš			4
 oližeš			2
 omaneš	10		2
 ometeš			2
 omirišeš			2
 onesvestićeš			2
-opasaćeš			2
+opasaćeš			3
 opasuješ			2
-opazićeš			3
-opereš	124		2
+opazićeš			4
+opereš	124		3
 operišeš	20		2
-opečeš	26		2
+opečeš	26		3
 opireš	18		2
 opisuješ	141		2
-opićeš			2
+opićeš			3
 opišeš	109		2
 oplakuješ	11		2
-oplačeš			2
-opljačkaćeš			3
+oplačeš			3
+opljačkaćeš			4
 opomeneš	22		2
-opominješ	12		2
-oporavićeš			3
-opovrgneš	15		2
-opozoveš			2
+opominješ	12		3
+oporavićeš			4
+opovrgneš	15		3
+opozoveš			3
 opravdaćeš			3
-opraćeš			2
+opraćeš			3
 opredeš			2
-oprostićeš	11		2
-opstaneš			2
+oprostićeš	11		3
+opstaneš			3
 opterećuješ	96		2
 optužuješ	91		2
-opustićeš			2
+opustićeš			3
 oreš	25		2
-organizuješ	164		3
-osetićeš	39		3
-osećaćeš	27		3
-osiguraćeš			2
+organizuješ	164		4
+osetićeš	39		4
+osećaćeš	27		4
+osiguraćeš			3
 oslepećeš			2
 oslepljuješ			2
-oslobodićeš			2
+oslobodićeš			3
 osluškuješ	30		2
 oslušneš	25		2
 osmehneš	24		2
 osmehuješ	18		2
 osnažićeš			2
 osnuješ	42		2
-osramotićeš			2
-ostaješ	318		2
-ostaneš			2
+osramotićeš			3
+ostaješ	318		3
+ostaneš			3
 ostarićeš			2
-ostavićeš	13		3
-ostaćeš	116		2
-ostvarićeš			2
+ostavićeš	13		4
+ostaćeš	116		3
+ostvarićeš			3
 ostvaruješ	62		2
-osunčaćeš			2
-osuđivaćeš			2
+osunčaćeš			3
+osuđivaćeš			3
 osuđuješ	90		2
 osvaneš	11		2
-osvetićeš			2
+osvetićeš			3
 osvećuješ			2
-osvojićeš			2
+osvojićeš			3
 osvrneš	61		2
 osvrćeš	37		2
-otarasićeš			2
-oteraćeš			3
+otarasićeš			3
+oteraćeš			4
 otideš			2
 otireš			2
 otićeš			2
 otiđeš			2
 otkazuješ			2
 otkažeš	19		2
-otkineš	16		2
-otkinućeš			3
-otkriješ	247		2
-otkrićeš	13		2
+otkineš	16		3
+otkinućeš			4
+otkriješ	247		3
+otkrićeš	13		3
 otmeš	52		2
-otpadneš			2
+otpadneš			3
 otpakuješ	16		2
 otpisuješ			2
 otpišeš			2
@@ -759,32 +759,32 @@ otplaćuješ	50		2
 otplešeš			2
 otpočneš			2
 otpratićeš			2
-otpustićeš			2
+otpustićeš			3
 otputuješ	37		2
 otreseš	28		2
 otrgneš	18		2
 otruješ	11		2
 otrčaćeš			2
-otvorićeš			2
-ovladaćeš			2
+otvorićeš			3
+ovladaćeš			3
 ozarićeš			2
 ozdravićeš	15		2
 očekuješ	1093		2
-očistićeš			3
+očistićeš			4
 očvrsneš			2
-oštetićeš			3
-oženićeš			2
-oživećeš			2
+oštetićeš			4
+oženićeš			3
+oživećeš			3
 padneš	332		2
 pakuješ	50		3
-palićeš			2
+palićeš			3
 pametuješ	81		2
 paneš			2
 paseš	22		2
 patićeš			3
 pazićeš			3
 pašćeš	19		2
-peglaćeš			2
+peglaćeš			3
 penješ	80		2
 penzionišeš			2
 pereš	142		2
@@ -792,30 +792,30 @@ pevaćeš			3
 pečeš	35		2
 piješ	755		2
 pipneš	67		2
-pisaćeš	13		2
+pisaćeš	13		3
 pisneš	13		2
-pitaćeš	17		2
+pitaćeš	17		3
 pićeš			2
 pišeš	3276		2
 plakaćeš	10		3
 planeš	13		2
-platićeš	56		2
-plaćaćeš			2
+platićeš	56		3
+plaćaćeš			3
 plaćeš			2
 plačeš	480		2
 plašićeš			3
-plesaćeš			2
+plesaćeš			3
 pleteš	22		2
 plešeš	45		2
 plivaćeš			3
 pljesneš			2
 pljuješ	313		2
 pljuneš	72		2
-pobedićeš	14		2
-pobegneš	175		2
+pobedićeš	14		3
+pobegneš	175		3
 pobeđuješ	64		2
-pobiješ	37		2
-pobićeš			2
+pobiješ	37		3
+pobićeš			3
 pobrineš			2
 pobrinućeš			2
 pobuđuješ			2
@@ -823,138 +823,138 @@ pocepaćeš			2
 pocupkuješ			2
 podaješ			2
 podcenjuješ	16		2
-podelićeš			2
+podelićeš			3
 podereš	10		2
-podgreješ			2
-podigneš	330		2
-podižeš	113		2
+podgreješ			3
+podigneš	330		3
+podižeš	113		3
 podlegneš			2
-podmažeš	34		2
-podmetneš	19		2
-podmećeš	50		2
+podmažeš	34		3
+podmetneš	19		3
+podmećeš	50		3
 podmiruješ			2
 podmićuješ			2
 podneseš	238		2
 podnećeš			2
-podrigneš			2
+podrigneš			3
 podriguješ			2
-podržaćeš			2
+podržaćeš			3
 podsečeš			2
 podstakneš	14		2
-podstičeš	22		2
+podstičeš	22		3
 podupireš			2
 podupreš			2
 podvežeš			2
 podvikneš			2
-podvrgneš			2
+podvrgneš			3
 podvučeš	29		2
-pogineš	101		2
-poginućeš	13		3
-pogledaćeš			3
-pogodićeš			2
+pogineš	101		3
+poginućeš	13		4
+pogledaćeš			4
+pogodićeš			3
 pogrebeš			2
-pogrešićeš			2
+pogrešićeš			3
 pogubićeš			2
 pogubljuješ			2
-pohvalićeš			2
+pohvalićeš			3
 poistovećuješ	19		2
-pojavićeš			2
-pojavljivaćeš			2
+pojavićeš			3
+pojavljivaćeš			3
 pojavljuješ	53		2
-pojedeš	254		2
+pojedeš	254		3
 pojednostavljuješ			2
 poješ			2
-poješćeš			2
+poješćeš			3
 pojićeš			2
 pokajaćeš	11		2
 pokaješ	68		2
-pokazaćeš			2
+pokazaćeš			3
 pokazuješ	293		2
 pokažeš	677		2
-pokisneš			2
-pokisnućeš			3
+pokisneš			3
+pokisnućeš			4
 poklaćeš			2
 poklekneš	11		2
-poklonićeš			2
+poklonićeš			3
 pokolješ			2
-pokradeš	13		2
+pokradeš	13		3
 pokreneš	364		2
-pokrenućeš			2
-pokrećeš	83		2
-pokriješ	67		2
-pokrivaćeš			2
-pokrićeš			2
+pokrenućeš			3
+pokrećeš	83		3
+pokriješ	67		3
+pokrivaćeš			3
+pokrićeš			3
 pokuljaćeš			2
 pokupićeš			3
-pokušaćeš			3
-pokvarićeš			2
-pokvasićeš			3
+pokušaćeš			4
+pokvarićeš			3
+pokvasićeš			4
 polažeš	194		2
-poliješ			2
+poliješ			3
 poližeš	84		2
-poljubićeš			2
-polomićeš			2
-položićeš	12		2
-poludećeš			2
-pomagaćeš			2
+poljubićeš			3
+polomićeš			3
+položićeš	12		3
+poludećeš			3
+pomagaćeš			3
 pomakneš			2
 pomažeš	208		2
 pomeneš	162		2
-pomiluješ	16		3
+pomiluješ	16		4
 pominješ	704		2
-pomirićeš			2
+pomirićeš			3
 pomirišeš			2
-pomislićeš			3
-pomičeš			2
+pomislićeš			4
+pomičeš			3
 pomogneš	620		2
 pomoćićeš			2
 pomračuješ			2
-pomuzeš			2
-ponašaćeš			2
+pomuzeš			3
+ponašaćeš			3
 poneseš	170		2
 ponećeš			2
-ponizićeš			2
-ponovićeš			2
-ponudićeš			3
+ponizićeš			3
+ponovićeš			3
+ponudićeš			4
 popenješ			2
 popećeš			2
-popiješ	349		2
-popićeš			2
+popiješ	349		3
+popićeš			3
 popneš	95		2
-popravićeš			3
+popravićeš			4
 popuješ	22		2
 poraduješ			2
 porasteš	178		2
-porazićeš			2
+porazićeš			3
 porašćeš			2
-porekneš			2
+porekneš			3
 poričeš	31		2
 poručuješ	39		2
 posavetuješ	37		2
-poseduješ	310		3
+poseduješ	310		4
 posegneš	15		2
 poseješ	35		2
-posetićeš			3
+posetićeš			4
 posećuješ	78		2
-posečeš	26		2
+posečeš	26		3
 posežeš			2
-poslaćeš			2
+poslaćeš			3
 posluješ	40		2
-poslušaćeš			3
-poslužićeš			2
+poslušaćeš			4
+poslužićeš			3
 poslužuješ			2
 pospeš			2
-posreduješ			3
-posrćeš			2
+posreduješ			4
+posrćeš			3
 postaješ	340		2
-postaneš			2
-postavićeš			3
-postaćeš	83		2
-postigneš	303		2
-postižeš	82		2
-postupićeš			2
-posustaješ			2
-posustaneš	15		2
+postaneš			3
+postavićeš			4
+postaćeš	83		3
+postigneš	303		3
+postižeš	82		3
+postupićeš			3
+posustaješ			3
+posustaneš	15		3
 posuđuješ			2
 posvećuješ	33		2
 potapšeš			2
@@ -963,120 +963,120 @@ potegneš	28		2
 potežeš	33		2
 potiskuješ			2
 potisneš	13		2
-potičeš	26		2
+potičeš	26		3
 potkuješ			2
 potoneš	25		2
-potonućeš			2
-potpisaćeš			2
+potonućeš			3
+potpisaćeš			3
 potpisuješ	95		2
 potpišeš	190		2
 potpomažeš			2
-potražićeš			2
-potrošićeš			2
+potražićeš			3
+potrošićeš			3
 potučeš			2
-potvrđuješ	46		2
+potvrđuješ	46		3
 poučićeš			2
 povaljuješ			2
-povedeš	89		2
-poverovaćeš			4
-poveruješ	285		3
-povezeš			2
+povedeš	89		3
+poverovaćeš			5
+poveruješ	285		4
+povezeš			3
 povezuješ	108		2
-povešćeš			2
+povešćeš			3
 povežeš	394		2
-poviješ	11		2
+poviješ	11		3
 povinuješ	14		2
 povlađuješ	12		2
-povratićeš			2
-povredićeš			2
+povratićeš			3
+povredićeš			3
 povređuješ	21		2
 povućeš			2
 povučeš	162		2
-pozajmićeš			2
+pozajmićeš			3
 pozajmljuješ	16		2
-pozdravićeš			3
+pozdravićeš			4
 poznaješ	1136		2
-poznaćeš	20		2
-pozoveš	381		2
-pozvaćeš			2
+poznaćeš	20		3
+pozoveš	381		3
+pozvaćeš			3
 počećeš	15		2
 počešeš	16		2
-počineš			2
-počinićeš			2
-počinješ	365		2
-počistićeš			3
+počineš			3
+počinićeš			3
+počinješ	365		3
+počistićeš			4
 počneš	1116		2
 pođeš	211		2
-pošalješ	624		2
-poštovaćeš			2
+pošalješ	624		3
+poštovaćeš			3
 poštuješ	407		2
 požalićeš			2
-poželećeš	15		2
-poželjećeš			2
+poželećeš	15		3
+poželjećeš			3
 požnješ			2
 požuruješ			2
 praktikuješ	26		2
 pratićeš			3
 pravićeš			3
 praćeš			2
-prebacićeš			2
+prebacićeš			3
 prebacuješ	110		2
-prebiješ	14		2
-prebićeš			2
+prebiješ	14		3
+prebićeš			3
 prebolećeš			2
 prebrineš			2
-prebrodićeš			2
+prebrodićeš			3
 precenjuješ	11		2
 predahneš			2
 predaješ	116		2
-predaćeš			2
+predaćeš			3
 predeš	11		2
 predlažeš	177		2
-predomislićeš			3
-predstavićeš			3
-predstavljaćeš			3
+predomislićeš			4
+predstavićeš			4
+predstavljaćeš			4
 preduzmeš	52		2
-pregrizeš			2
+pregrizeš			3
 preguraćeš			2
-prehladićeš			2
+prehladićeš			3
 preispituješ	28		2
 prejedeš			2
-prekineš	119		2
-prekinućeš			3
+prekineš	119		3
+prekinućeš			4
 preklinjaćeš			2
 preklinješ			2
-prekriješ	14		2
-prekršićeš			2
+prekriješ	14		3
+prekršićeš			3
 prenagljuješ			2
 prenebregnućeš			2
 prenemažeš	12		2
 preneseš	125		2
 prenećeš			2
-prenosićeš			2
+prenosićeš			3
 preokreneš	11		2
 preokrećeš			2
 preotmeš			2
-prepadneš			2
-prepireš	14		2
+prepadneš			3
+prepireš	14		3
 prepisuješ	41		2
 prepišeš	46		2
-preplašićeš			3
+preplašićeš			4
 preporučuješ	95		2
 prepoznaješ	132		2
-prepoznaćeš	19		2
-prepustićeš			2
+prepoznaćeš	19		3
+prepustićeš			3
 prerasteš			2
-prerežeš			2
+prerežeš			3
 presaviješ			2
-preselićeš			2
-presečeš	42		2
+preselićeš			3
+presečeš	42		3
 preskačeš	48		2
-prespavaćeš			2
-presretneš			2
-prestaješ	74		2
-prestaneš	357		2
-prestaćeš	12		2
-prestigneš			2
+prespavaćeš			3
+presretneš			3
+prestaješ	74		3
+prestaneš	357		3
+prestaćeš	12		3
+prestigneš			3
 prestravljuješ			2
 presvučeš	16		2
 pretekneš	14		2
@@ -1084,112 +1084,112 @@ preteruješ	183		2
 pretražuješ	15		2
 pretreseš			2
 pretrgneš			2
-pretrpećeš			2
+pretrpećeš			3
 pretučeš			2
-pretvaraćeš			2
-pretvorićeš			2
+pretvaraćeš			3
+pretvorićeš			3
 preuređuješ			2
 preuzećeš			2
 preuzmeš	167		2
 preuzneseš			2
-prevarićeš			3
+prevarićeš			4
 prevaziđeš	59		2
 prevedeš	66		2
 prevezeš			2
 prevrneš	21		2
-prevrćeš	29		2
-prezireš	46		2
+prevrćeš	29		3
+prezireš	46		3
 prezreš	12		2
 prećutkuješ	15		2
 pređeš	532		2
 prešućuješ			2
-preživećeš	14		2
+preživećeš	14		3
 pribegneš	10		2
 pribereš			2
 pridaješ	23		2
 pridikuješ			2
-pridobiješ	19		2
-pridodaćeš			2
-pridružićeš			2
+pridobiješ	19		3
+pridodaćeš			3
+pridružićeš			3
 pridružuješ	12		2
-prihvatićeš			3
-prijavićeš			2
+prihvatićeš			4
+prijavićeš			3
 prijavljuješ	76		2
 prikazuješ	36		2
 prikažeš	97		2
-prikriješ	19		2
+prikriješ	19		3
 prilažeš			2
 prilegneš	12		2
 primakneš			2
-primaćeš			2
+primaćeš			3
 primenjuješ	45		2
-primetićeš	45		2
+primetićeš	45		3
 primećuješ	225		2
-primićeš			2
+primićeš			3
 prineseš	106		2
 prinuđuješ			2
 prioneš			2
-pripadneš			2
+pripadneš			3
 pripisuješ	38		2
 pripišeš	15		2
 priređuješ			2
 prisluškuješ	12		2
-pristaješ	76		2
-pristaneš	79		2
-pristaćeš			2
-pristižeš			2
-prisustvuješ	36		3
+pristaješ	76		3
+pristaneš	79		3
+pristaćeš			3
+pristižeš			3
+prisustvuješ	36		4
 pritegneš			2
 pritekneš			2
-pritisneš	192		2
+pritisneš	192		3
 pritičeš			2
 pritišćeš			2
-privedeš	34		2
+privedeš	34		3
 privežeš			2
-privikneš	15		2
+privikneš	15		3
 privučeš	55		2
 priznaješ	137		2
-priznaćeš	50		2
-prizoveš	22		2
-pričaćeš	10		2
+priznaćeš	50		3
+prizoveš	22		3
+pričaćeš	10		3
 priđeš	157		2
 prišiješ			2
 priželjkuješ	37		2
-probaćeš			2
-probiješ	39		2
+probaćeš			3
+probiješ	39		3
 probodeš			2
-probudićeš			2
+probudićeš			3
 procenjuješ	47		2
 prodaješ	509		2
-prodavaćeš			2
-prodaćeš			2
+prodavaćeš			3
+prodaćeš			3
 prodreš			2
-prognaćeš			2
-progovorićeš			2
-progutaćeš			2
-proizvedeš	35		2
+prognaćeš			3
+progovorićeš			3
+progutaćeš			3
+proizvedeš	35		3
 projektuješ	46		2
-proklinješ	20		2
+proklinješ	20		3
 prokuneš			2
-proliješ	10		2
+proliješ	10		3
 promakneš			2
-promašićeš			3
+promašićeš			4
 promašuješ	15		2
-promenićeš	10		2
+promenićeš	10		3
 prometneš			2
 promovišeš	55		2
 pronađeš	512		2
 proneseš			2
-pronikneš			2
-propadneš	48		2
-propašćeš			2
+pronikneš			3
+propadneš	48		3
+propašćeš			3
 propevaćeš			2
 propinješ			2
 propitkuješ			2
-propustićeš			2
+propustićeš			3
 proričeš			2
 prospeš			2
-prostireš			2
+prostireš			3
 prostićeš			2
 prosućeš			2
 prosuđuješ			2
@@ -1198,14 +1198,14 @@ proteruješ			2
 protestuješ	12		2
 protestvuješ			2
 protreseš			2
-provalićeš			2
+provalićeš			3
 provaljuješ	14		2
 provedeš	276		2
-proverićeš			3
+proverićeš			4
 provešćeš			2
-provodićeš			2
+provodićeš			3
 provučeš	70		2
-pročitaćeš	10		2
+pročitaćeš	10		3
 pročuješ			2
 prođeš	572		2
 prošvercuješ			2
@@ -1218,22 +1218,22 @@ psuješ	100		2
 pucaćeš			3
 pucneš			2
 pukneš	113		2
-pustićeš			2
-putovaćeš			2
+pustićeš			3
+putovaćeš			3
 putuješ	354		2
 puzaćeš			3
 pušeš			2
 pušićeš			3
 pužeš			2
-racionalizuješ			3
-radićeš	29		2
+racionalizuješ			4
+radićeš	29		3
 radovaćeš			4
 raduješ	168		3
 raseješ			2
-rasečeš	13		2
-raskineš	54		2
-raskinućeš			3
-raspadneš			2
+rasečeš	13		3
+raskineš	54		3
+raskinućeš			4
+raspadneš			3
 raspakuješ			2
 raspaljuješ			2
 raspećeš			2
@@ -1241,13 +1241,13 @@ raspeš			2
 raspinješ			2
 raspirićeš			2
 raspituješ	53		2
-rasplakaćeš			3
-rasplačeš	15		2
+rasplakaćeš			4
+rasplačeš	15		3
 raspneš			2
 raspolažeš	94		2
 raspoređuješ			2
-rastaješ			2
-rastaneš			2
+rastaješ			3
+rastaneš			3
 rastegneš	13		2
 rasteruješ			2
 rasteš	104		2
@@ -1259,40 +1259,40 @@ ratovaćeš			4
 ratuješ	41		3
 razagnaćeš			2
 razapećeš			2
-razapinješ			2
+razapinješ			3
 razapneš			2
 razaznaješ			2
 razbacuješ	22		2
-razbiješ	97		2
-razbićeš			2
-razbolećeš			2
+razbiješ	97		3
+razbićeš			3
+razbolećeš			3
 razdaješ			2
 razdeljuješ			2
-razgalićeš			2
-razgovaraćeš			2
+razgalićeš			3
+razgovaraćeš			3
 raziđeš			2
 razjaruješ			2
-razlikuješ	144		3
-razmazićeš			2
+razlikuješ	144		4
+razmazićeš			3
 razmazuješ			2
 razmetneš			2
-razmećeš			2
-razmislićeš			3
-razmišljaćeš			2
+razmećeš			3
+razmislićeš			4
+razmišljaćeš			3
 razneseš			2
 raznećeš			2
-razotkriješ			2
-razočaraćeš			2
+razotkriješ			3
+razočaraćeš			3
 razrešuješ			2
-razumećeš	35		2
+razumećeš	35		3
 razumeš	2248		2
-razvalićeš			2
+razvalićeš			3
 razvaljuješ	11		2
-razvedeš	48		2
+razvedeš	48		3
 razvežeš			2
-razviješ	64		2
-razvićeš			2
-reaguješ	139		3
+razviješ	64		3
+razvićeš			3
+reaguješ	139		4
 recituješ	12		2
 referišeš			2
 registruješ	209		2
@@ -1303,58 +1303,58 @@ repuješ			2
 resetuješ	68		2
 rezervišeš			2
 reš		M	1
-rešićeš	19		2
+rešićeš	19		3
 režeš	41		2
 ridaćeš			3
 rikneš	10		2
 rimuješ			2
 rizikovaćeš			2
 rizikuješ	143		2
-rodićeš	25		2
+rodićeš	25		3
 rokneš	17		2
 ropćeš			2
 rukuješ	23		3
 rveš			2
-sabereš	142		2
-saginješ			2
+sabereš	142		3
+saginješ			3
 sagneš	26		2
 sagrađuješ			2
-sagrešićeš			2
-sahranićeš			2
+sagrešićeš			3
+sahranićeš			3
 sahranjuješ			2
-sakriješ	146		2
-sakrićeš			2
+sakriješ	146		3
+sakrićeš			3
 salićeš			2
-samelješ			2
+samelješ			3
 samuješ			2
 saobraćaćeš			2
-sapleteš	15		2
-saplićeš	14		2
+sapleteš	15		3
+saplićeš	14		3
 sarađuješ	75		2
-sasečeš	10		2
+sasečeš	10		3
 saslušaćeš			2
 saspeš			2
-sastaješ			2
-sastaneš			2
-sastaćeš			2
+sastaješ			3
+sastaneš			3
+sastaćeš			3
 satireš			2
 satreš			2
-savetuješ	88		3
-saviješ	31		2
-savićeš			2
-savladaćeš			2
+savetuješ	88		4
+saviješ	31		3
+savićeš			3
+savladaćeš			3
 savlađuješ			2
 sazdaćeš			2
 saznaješ	34		2
-saznaćeš	51		2
-sazoveš			2
-sačekaćeš			3
-sačuvaćeš			2
+saznaćeš	51		3
+sazoveš			3
+sačekaćeš			4
+sačuvaćeš			3
 sađeš			2
-sašiješ	11		2
+sašiješ	11		3
 sažižeš			2
 sažvaćeš			2
-sedećeš			2
+sedećeš			3
 sedneš	470		2
 seješ	107		2
 setićeš	25		3
@@ -1375,15 +1375,15 @@ skačeš	123		2
 skineš	832		2
 skinućeš			3
 sklizneš			2
-sklonićeš			2
+sklonićeš			3
 skokneš	35		2
 skoncentrišeš	18		2
-skočićeš			2
+skočićeš			3
 skreneš	142		2
-skrenućeš			2
+skrenućeš			3
 skrećeš	75		2
 skriješ			2
-skršićeš			2
+skršićeš			3
 skuješ			2
 skuvaćeš			3
 slavićeš			3
@@ -1392,23 +1392,23 @@ slećeš			2
 sležeš			2
 slikaćeš			3
 slomiješ			2
-slomićeš			2
-složićeš	55		2
+slomićeš			3
+složićeš	55		3
 sluđuješ			2
 slušaćeš			3
-služićeš			2
+služićeš			3
 smakneš			2
-smanjićeš			2
+smanjićeš			3
 smanjuješ	72		2
-smatraćeš			2
-smejaćeš			2
+smatraćeš			3
+smejaćeš			3
 smeješ	446		2
 smestićeš			3
 smetneš			2
 smećeš			2
 smeš	1640		1
 smiluješ	16		3
-smirićeš			2
+smirićeš			3
 smiruješ	10		2
 smislićeš			3
 smračuješ			2
@@ -1418,26 +1418,26 @@ smrznućeš			3
 smućuješ			2
 snađeš	139		2
 sneseš			2
-snimićeš			2
+snimićeš			3
 snosićeš			2
 spakuješ	74		3
-spalićeš			2
+spalićeš			3
 spaljuješ			2
 sparinguješ			2
 spaseš	128		2
-spasićeš			2
-spavaćeš	10		2
+spasićeš			3
+spavaćeš	10		3
 spašćeš	17		2
 speluješ			3
 spereš			2
 spomeneš	107		2
-spominješ	419		2
+spominješ	419		3
 sporazumeš			2
 spotakneš	12		2
-spremićeš			2
-sprovedeš	80		2
-spustićeš			2
-sredićeš			2
+spremićeš			3
+sprovedeš	80		3
+spustićeš			3
+sredićeš			3
 sretneš	253		2
 srećeš	64		2
 sređuješ	40		2
@@ -1451,7 +1451,7 @@ staneš	398		2
 stanuješ	65		2
 startuješ	95		2
 stavićeš			3
-stavljaćeš			2
+stavljaćeš			3
 staćeš			2
 stegneš	27		2
 stekneš	288		2
@@ -1466,33 +1466,33 @@ stisneš	127		2
 stičeš	110		2
 stišćeš			2
 stižeš	98		2
-stradaćeš			2
+stradaćeš			3
 strahuješ	38		2
 stremićeš			2
 stružeš			2
-studiraćeš			2
+studiraćeš			3
 stučeš			2
-stvorićeš			2
+stvorićeš			3
 sugerišeš			2
-suočićeš			2
+suočićeš			3
 surfuješ	47		2
 suspenduješ			2
-susretaćeš			3
-susretneš	29		2
-susrećeš	24		2
-susrešćeš			2
-sustaćeš			2
-sustigneš			2
-suzbiješ			2
+susretaćeš			4
+susretneš	29		3
+susrećeš	24		3
+susrešćeš			3
+sustaćeš			3
+sustigneš			3
+suzbiješ			3
 svaljuješ			2
 svedeš	32		2
-svedočićeš			2
+svedočićeš			3
 svetkuješ			2
 svežeš	11		2
 svidećeš			3
 svikneš			2
-sviraćeš			2
-svratićeš			2
+sviraćeš			3
+svratićeš			3
 svrgneš			2
 svučeš	10		2
 takneš	20		2
@@ -1505,7 +1505,7 @@ tolerišeš	14		2
 toneš	42		2
 traješ	24		2
 transformišeš			2
-tražićeš	10		2
+tražićeš	10		3
 trebaćeš			3
 trepneš	72		2
 trepćeš			2
@@ -1514,59 +1514,59 @@ tresneš	24		2
 treš			1
 trešćeš			2
 trgneš	22		2
-trguješ	85		2
+trguješ	85		3
 tripuješ			2
 trkaćeš			2
-trpećeš			2
+trpećeš			3
 truješ	71		2
 truneš			2
 trunućeš			3
-trčaćeš			2
+trčaćeš			3
 tuguješ	55		2
 turneš			2
 tutneš			2
 tučeš	55		2
-tužićeš			2
-ubacićeš			2
+tužićeš			3
+ubacićeš			3
 ubacuješ	113		2
 ubedićeš			2
-ubereš	35		2
+ubereš	35		3
 ubeđuješ	78		2
-ubiješ	466		2
-ubićeš	15		2
+ubiješ	466		3
+ubićeš	15		3
 ubodeš	228		2
 ubrišeš			2
 ucenjuješ	17		2
 udahneš	55		2
 udaješ	32		2
 udaljuješ			2
-udarićeš			3
-udavićeš			2
-udaćeš	15		2
-udišeš	43		2
+udarićeš			4
+udavićeš			3
+udaćeš	15		3
+udišeš	43		3
 udružuješ			2
 udubljuješ			2
 uganeš			2
-ugineš			2
-ugledaćeš	10		3
+ugineš			3
+ugledaćeš	10		4
 ugojićeš			2
-ugreješ			2
-ugrizeš	11		2
-ugrozićeš			2
-ugušićeš			2
-uhapsićeš			3
-uhvatićeš			3
+ugreješ			3
+ugrizeš	11		3
+ugrozićeš			3
+ugušićeš			3
+uhapsićeš			4
+uhvatićeš			4
 ujdurišeš			2
-ujedeš			2
+ujedeš			3
 ukapiraćeš			2
 ukazuješ	31		2
 ukažeš	37		2
-ukineš	28		2
-uključićeš			2
+ukineš	28		3
+uključićeš			3
 uključuješ	52		2
 uklopićeš			2
-ukradeš	98		2
-ukrašćeš			2
+ukradeš	98		3
+ukrašćeš			3
 ukroćuješ			2
 ukuješ			2
 ulaguješ			2
@@ -1580,15 +1580,15 @@ uloguješ	74		2
 umakneš			2
 umanjuješ	12		2
 umačeš			2
-umetneš			2
-umećeš			2
+umetneš			3
+umećeš			3
 umeš	1098		2
-umiraćeš			3
-umireš	87		2
+umiraćeš			4
+umireš	87		3
 umirićeš			2
 umiruješ			2
 umnožićeš			2
-umorićeš			2
+umorićeš			3
 umrećeš	38		2
 umreš	387		2
 umrtvljuješ			2
@@ -1596,184 +1596,184 @@ umuješ			2
 umukneš	13		2
 unajmljuješ			2
 uneseš	239		2
-uništićeš			3
-upadneš	127		2
+uništićeš			4
+upadneš	127		3
 upakuješ	20		2
-upašćeš			2
-upiješ			2
+upašćeš			3
+upiješ			3
 upinješ			2
-upireš			2
-upisaćeš			2
+upireš			3
+upisaćeš			3
 upisuješ	121		2
 upišeš	701		2
-uplašićeš			3
+uplašićeš			4
 upleteš			2
 uplećeš			2
 uplićeš	13		2
 upodobićeš			2
 upoređuješ	119		2
 upotpunjuješ			2
-upotrebićeš			2
+upotrebićeš			3
 upoznaješ	107		2
-upoznaćeš	34		2
-upropastićeš			2
+upoznaćeš	34		3
+upropastićeš			3
 upropašćuješ			2
 uprskaćeš			2
 upucaćeš			2
-uputićeš			2
+uputićeš			3
 upućuješ	41		2
-uradićeš			2
+uradićeš			3
 urasteš			2
-urekneš			2
+urekneš			3
 urezuješ			2
 uređuješ	29		2
-urežeš			2
-uselićeš			2
+urežeš			3
+uselićeš			3
 ushteš			2
 uskačeš			2
 uskraćuješ	19		2
 uslišićeš			2
 usmrćuješ			2
 uspavljuješ			2
-uspećeš	43		2
+uspećeš	43		3
 uspeš	653		2
-uspinješ			2
+uspinješ			3
 uspneš			2
 uspravićeš			2
 usrećićeš			2
 usrećuješ			2
-ustaješ	131		2
-ustaneš	227		2
-ustaćeš			2
+ustaješ	131		3
+ustaneš	227		3
+ustaćeš			3
 ustežeš			2
-ustraješ			2
+ustraješ			3
 ustukneš			2
 usuđuješ	85		2
 utemeljuješ			2
 uteruješ			2
 utežeš			2
 utisneš			2
-utičeš	108		2
-utrkuješ			2
+utičeš	108		3
+utrkuješ			3
 utučeš			2
-uvalićeš			2
+uvalićeš			3
 uvaljuješ	16		2
 uvedeš			2
-uverićeš	15		3
-uvećaćeš			2
+uverićeš	15		4
+uvećaćeš			3
 uvežeš			2
-uvidećeš	16		3
-uviješ	14		2
-uvredićeš			2
-uvrstićeš			2
+uvidećeš	16		4
+uviješ	14		3
+uvredićeš			3
+uvrstićeš			3
 uvrćeš			2
 uvučeš	53		2
 uzađeš			2
 uzbuđuješ	38		2
 uzdahneš	14		2
-uzdahnućeš			2
+uzdahnućeš			3
 uzdigneš	16		2
 uzdišeš	32		2
 uzdižeš	20		2
 uzećeš	13		2
-uzjašeš			2
+uzjašeš			3
 uzlećeš			2
 uzmeš	2984		2
 uzmogneš	13		2
-uznemirićeš			2
+uznemirićeš			3
 uznemiruješ			2
 uzneseš			2
 uzrasteš			2
-uzrokuješ			3
+uzrokuješ			4
 uzvikneš			2
 uzvikuješ			2
 ućutkuješ			2
-učestvovaćeš			4
-učestvuješ	242		3
-učinićeš	14		2
-učićeš			2
+učestvovaćeš			5
+učestvuješ	242		4
+učinićeš	14		3
+učićeš			3
 uđeš	1120		2
 ušiješ			2
-uštedećeš	13		2
+uštedećeš	13		3
 uštineš			2
 užasneš			2
-uživaćeš	21		2
-vagaćeš			2
+uživaćeš	21		3
+vagaćeš			3
 vapiješ			2
 vareš			2
 vaskrsneš	12		2
 važeš			2
 veneš			2
-venčaćeš			2
+venčaćeš			3
 vereš	66		2
 vermeš			2
 verovaćeš			4
 veruješ	2047		3
-vezaćeš			2
+vezaćeš			3
 vezeš	11		2
 vezuješ	77		2
-večeraćeš			3
+večeraćeš			4
 veš	5181		1
 vežbaćeš			3
 vežeš	211		2
 videćeš	1066		3
-vikaćeš			2
+vikaćeš			3
 vikneš	41		2
 vineš	15		2
 visićeš			2
 vičeš	152		2
-viđaćeš			2
-vladaćeš			2
-vodićeš			2
+viđaćeš			3
+vladaćeš			3
+vodićeš			3
 vojuješ			2
-volećeš			2
-vozićeš			2
+volećeš			3
+vozićeš			3
 vraneš			2
-vratićeš	35		2
+vratićeš	35		3
 vrbuješ			2
 vrednuješ	20		3
 vrgneš			2
 vrisneš			2
-vrištaćeš			2
+vrištaćeš			3
 vrneš	17		2
 vučeš	244		2
-zabiješ	21		2
-zabićeš			2
+zabiješ	21		3
+zabićeš			3
 zabluđuješ			2
 zabodeš	60		2
-zaboravićeš	21		3
+zaboravićeš	21		4
 zabranjuješ	19		2
-zabrineš	18		2
+zabrineš	18		3
 zadahneš			2
 zadaješ	16		2
 zadireš			2
 zadirkuješ			2
-zadivićeš			2
+zadivićeš			3
 zadivljuješ			2
 zadobiješ	21		2
 zadobićeš			2
-zadržaćeš			2
+zadržaćeš			3
 zagađuješ	13		2
-zaglavićeš			2
+zaglavićeš			3
 zagrađuješ			2
 zagrebeš	37		2
-zagrejaćeš			3
-zagreješ	56		2
-zagriješ		J	2
-zagrizeš	23		2
-zagrlićeš			3
-zahvalićeš			2
-zahvaljivaćeš			2
+zagrejaćeš			4
+zagreješ	56		3
+zagriješ		J	3
+zagrizeš	23		3
+zagrlićeš			4
+zahvalićeš			3
+zahvaljivaćeš			3
 zahvaljuješ	43		2
 zaigraćeš			2
 zainteresuješ	35		2
 zaišteš	16		2
-zajašeš			2
-zakasnićeš			2
+zajašeš			3
+zakasnićeš			3
 zakazuješ			2
 zakažeš	44		2
-zakineš			2
-zaklinješ	11		2
+zakineš			3
+zaklinješ	11		3
 zaključaćeš			2
 zaključuješ	63		2
 zakolješ			2
@@ -1782,8 +1782,8 @@ zakovrneš			2
 zakriljuješ			2
 zakuneš	18		2
 zalažeš	84		2
-zaliješ	18	J	2
-zaljubićeš			2
+zaliješ	18	J	3
+zaljubićeš			3
 zaljubljuješ	12		2
 zaluđuješ			2
 zamagljuješ			2
@@ -1793,23 +1793,23 @@ zamakneš			2
 zamaneš			2
 zamazuješ			2
 zamažeš			2
-zamenićeš			2
+zamenićeš			3
 zamenjuješ			2
-zametneš			2
+zametneš			3
 zamračuješ			2
-zamrzneš			2
+zamrzneš			3
 zanemaruješ	23		2
 zaneseš	18		2
 zaobiđeš	71		2
 zaogrneš			2
-zaostaješ			2
-zaostaneš			2
-zapadneš	13		2
-zapalićeš			2
+zaostaješ			3
+zaostaneš			3
+zapadneš	13		3
+zapalićeš			3
 zapamtićeš			3
-zapanjićeš			2
+zapanjićeš			3
 zapanjuješ			2
-zapisaćeš			2
+zapisaćeš			3
 zapisuješ	16		2
 zapitkuješ			2
 zapišeš	42		2
@@ -1819,54 +1819,54 @@ zaplešeš			2
 zapneš	55		2
 zapodeneš			2
 zapomažeš			2
-zaposlićeš			2
+zaposlićeš			3
 započećeš			2
 započinješ	31		2
 započneš	104		2
-zaprosićeš			2
-zaradićeš			2
-zarađivaćeš			2
+zaprosićeš			3
+zaradićeš			3
+zarađivaćeš			3
 zarađuješ	201		2
 zariješ			2
 zaslužuješ	319		2
 zasmeješ			2
 zasnuješ			2
-zaspaćeš			2
+zaspaćeš			3
 zaspeš			2
-zastaješ			2
-zastaneš	46		2
+zastaješ			3
+zastaneš	46		3
 zastrašuješ			2
 zasuzićeš			2
 zategneš			2
-zatekneš	33		2
+zatekneš	33		3
 zatežeš	10		2
 zatičeš			2
 zatreseš			2
-zatvorićeš			2
-zaustavićeš			3
-zauzdaćeš			2
+zatvorićeš			3
+zaustavićeš			4
+zauzdaćeš			3
 zauzećeš			2
 zauzmeš	50		2
-zavedeš	19		2
+zavedeš	19		3
 zavetuješ			2
 zavežeš	19		2
-zavijaćeš			2
-zaviješ			2
+zavijaćeš			3
+zaviješ			3
 zaviruješ			2
-zavolećeš			2
+zavolećeš			3
 zavrneš	26		2
 zavrćeš	13		2
-završićeš	35		2
+završićeš	35		3
 zavučeš	36		2
 zazireš			2
 začepljuješ			2
 začećeš			2
-začinješ			2
+začinješ			3
 začuješ			2
 začuđuješ			2
 zađeš	27		2
 zašiješ			2
-zaštitićeš			2
+zaštitićeš			3
 zažalićeš			3
 zbrineš			2
 zbrinućeš			3
@@ -1874,7 +1874,7 @@ zbrišeš	15		2
 zbunjuješ	28		2
 zezneš	67		2
 zgazićeš			2
-zgrnućeš			2
+zgrnućeš			3
 zineš	27		2
 znadeš	98		2
 znaćeš	112		2
@@ -1887,19 +1887,19 @@ zvizneš	10		2
 zviždućeš			2
 ćeš	23504		1
 ćuješ			2
-ćutaćeš			2
+ćutaćeš			3
 čalabrcneš			2
-častićeš			2
+častićeš			3
 čekaćeš	16		3
 četuješ			2
 čezneš	26		2
 češeš	34		2
 češneš			2
-činićeš			2
+činićeš			3
 čistićeš			3
-čitaćeš			2
+čitaćeš			3
 čuješ	1962		2
-čuvaćeš			2
+čuvaćeš			3
 čuvstvuješ			2
 čućeš	35		2
 čučneš	10		2
@@ -1908,10 +1908,10 @@ zviždućeš			2
 šapućeš	30		2
 šapćeš			2
 šefuješ			2
-šetaćeš			2
+šetaćeš			3
 šećeš			2
 šiješ	13		2
-širićeš			2
+širićeš			3
 školuješ	44		3
 šmrkneš			2
 šmrčeš			2
@@ -1923,9 +1923,9 @@ zviždućeš			2
 žalićeš			3
 žanješ	71		2
 ždereš	17		2
-želećeš			2
+želećeš			3
 žigošeš			2
-živećeš	36		2
+živećeš	36		3
 živneš			2
 žrtvovaćeš			4
 žrtvuješ	70		3
@@ -1933,38 +1933,38 @@ zviždućeš			2
 žvačeš			2
 djeluješ			3
 donijećeš			3
-dospiješ			2
+dospiješ			3
 griješ			2
 izbjegneš			2
 liješ	16		2
 nesmiješ			2
-odsiječeš			3
-osjetićeš			3
-pobjegneš			2
+odsiječeš			4
+osjetićeš			4
+pobjegneš			3
 pobjeđuješ			2
 podcjenjuješ			2
-posjeduješ			3
+posjeduješ			4
 posjećuješ			2
-povjeruješ			3
+povjeruješ			4
 povrijeđuješ			2
-povrjeđuješ			2
+povrjeđuješ			3
 precjenjuješ			2
 presječeš			2
 pretjeruješ			2
-prijeđeš			2
+prijeđeš			3
 primjećuješ			2
 procjenjuješ			2
-razumiješ	126		2
-razumjećeš			2
+razumiješ	126		3
+razumjećeš			3
 razumješ			2
 riješ	11		2
-savjetuješ			3
+savjetuješ			4
 sjedneš			2
 smiješ	174		2
 ucjenjuješ			2
-umiješ	64		2
+umiješ	64		3
 umrijećeš			3
-uspiješ	28		2
+uspiješ	28		3
 vidjećeš			3
 viješ			2
 vjeruješ			3

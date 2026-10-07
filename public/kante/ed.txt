@@ -94,7 +94,7 @@ susjed		J	2
 trosed	295		2
 ugled	9006		2
 ujed	469		2
-unapred	33072		2
+unapred	33072		3
 unedogled		M	2
 united			2
 upored			3
@@ -105,7 +105,7 @@ usred	8605		2
 uzgred	7017		2
 veleposed			2
 velosiped		M	2
-veroispoved			2
+veroispoved			3
 zapoved	50		3
 zapovijed	142	J	4
 zemljoposed			2
@@ -126,6 +126,6 @@ redoslijed	90		4
 sijed	18		1
 sjed		M	1
 trosjed			2
-unaprijed	1852		3
+unaprijed	1852		4
 uslijed	410		3
 zapovjed			3

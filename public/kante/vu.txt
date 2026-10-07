@@ -1,9 +1,9 @@
 1171
 Kijevu			3
 Moskvu			2
-Sarajevu			3
+Sarajevu			4
 Smederevu			4
-Varšavu			2
+Varšavu			3
 adamovu			2
 adjektivu			4
 advokatovu			2
@@ -43,8 +43,8 @@ bekstvu	1362		2
 berislavu			2
 besedništvu	275		2
 betovenovu			2
-bezboštvu			2
-bezglavu	18		2
+bezboštvu			3
+bezglavu	18		3
 bećirovu			2
 bijelićevu			2
 biokovu			2
@@ -59,7 +59,7 @@ blistavu	387		3
 blitvu	137		2
 blještavu			3
 bljutavu	40		3
-bodljikavu	182		3
+bodljikavu	182		4
 bogatstvu	1975		2
 bogdanovu			2
 bogosavu			2
@@ -84,15 +84,15 @@ bregovu			2
 breskvu	100		2
 brezovu			2
 britvu	32		2
-brižljivu	39		2
+brižljivu	39		3
 brljavu			2
 brodarevu			2
 brodarstvu	53		2
 brzojavu			4
 budvu			2
-bukovu	62		2
+bukovu	62		3
 bukvu	105		2
-bundevu	240		2
+bundevu	240		3
 bungalovu	37		2
 buvu	126		2
 buđavu	15		2
@@ -100,18 +100,18 @@ carevu	151		3
 carstvu	3777		2
 crevu	743		2
 crkvu	18969		2
-crvljivu	18		2
+crvljivu	18		3
 crvu	74		2
 cvijićevu			2
 danilovu			2
 daničićevu			2
-darežljivu	15		2
+darežljivu	15		3
 dativu	34		2
 dedovu			2
 defanzivu			2
 dejstvu	1303		2
 dekanovu			2
-deljivu	15		2
+deljivu	15		3
 delovu			2
 dernjavu	21		2
 detektivu	107		2
@@ -125,7 +125,7 @@ dežurstvu	129		2
 dinkićevu			2
 direktivu	568		2
 direktorovu	16		2
-dirljivu	152		2
+dirljivu	152		3
 divu	239		2
 dlakavu	63		3
 dobrićevu			2
@@ -137,12 +137,12 @@ doktorovu	12		2
 domaćinovu			2
 domaćinstvu	3038		2
 dopadljivu	65		2
-dopustivu			2
+dopustivu			3
 dositejevu			2
 dostavu	1435		3
 dostojanstvu	693		2
 dozivu			2
-dozovu	148		2
+dozovu	148		3
 dragačevu			2
 dragoslavu			2
 dravu			2
@@ -153,10 +153,10 @@ drhtavu	24		3
 drugarstvu	122		2
 društvu	43205		2
 drvu	46		2
-državljanstvu	1000		2
-državu	38342		2
+državljanstvu	1000		3
+državu	38342		3
 držićevu			2
-dubravu	40		2
+dubravu	40		3
 dudovu	49		2
 dumićevu			2
 dunavu			2
@@ -204,18 +204,18 @@ golicavu			2
 golišavu			2
 gologlavu			2
 goluždravu			2
-gorivu	483		2
-gorljivu			2
+gorivu	483		3
+gorljivu			3
 gospodarevu			2
 gospodstvu	67		2
 gostoprimstvu	704		2
-gotovu	624		2
-grabljivu			2
+gotovu	624		3
+grabljivu			3
 grabovu	11		2
 gradivu	150		3
 gradonačelnikovu	19		2
 grahovu			2
-gramzivu	11		2
+gramzivu	11		3
 granićevu			2
 građanstvu	463		3
 građevinarstvu	2349		2
@@ -236,13 +236,13 @@ hipokratovu			2
 hotićevu			2
 hranljivu	261		2
 hrapavu	55		3
-hrastovu	42		2
+hrastovu	42		3
 hristovu			2
 hrišćanstvu	1135		2
 hrskavu	51		3
 hrvatstvu	58		2
 hrđavu			2
-hvalisavu			2
+hvalisavu			3
 ikakvu	507		3
 ilirstvu			2
 ilićevu			2
@@ -255,9 +255,9 @@ inozemstvu	262		2
 invektivu			2
 inženjerstvu	215		2
 isakovu			2
-isključivu	329		2
+isključivu	329		3
 iskustvu	5408		2
-isplativu	91		2
+isplativu	91		3
 ispostavu	186		2
 ispravu	747		3
 isusovu			2
@@ -271,7 +271,7 @@ izdajstvu	84		2
 izdavaštvu	564		2
 izgnanstvu	439		2
 izjavu	12122		3
-izlečivu			2
+izlečivu			3
 izlivu	104		2
 jakovu			2
 jakšićevu			2
@@ -287,11 +287,11 @@ jedinstvu	2149		2
 jehovu			2
 jelovu	14		2
 jemstvu	151		2
-jestivu	37		2
-jetrvu	12		2
+jestivu	37		3
+jetrvu	12		3
 jevrejstvu	27		2
 jevremovu			2
-jezivu	190		2
+jezivu	190		3
 ježevu	35		3
 jokićevu			2
 jovanovu			2
@@ -312,7 +312,7 @@ karićevu			2
 kavu	462		2
 kačarevu			2
 kevu			2
-kitovu			2
+kitovu			3
 kičevu			2
 kladovu			2
 klajićevu			2
@@ -339,22 +339,22 @@ konjušarevu			2
 konklavu	26		2
 kontraofanzivu			2
 konzervu	315		2
-koprivu	126		2
+koprivu	126		3
 korisnikovu	28		2
 korovu			2
 kosovu	85		2
 kotvu	41		2
 kovačevu			2
 kovrdžavu			2
-kovrčavu			3
+kovrčavu			4
 kovu			2
 kozarstvu	43		2
 kočićevu			2
-košavu	64		2
+košavu	64		3
 koševu			2
 krakovu	46		3
-kraljevstvu	974		2
-kraljevu	1941		2
+kraljevstvu	974		3
+kraljevu	1941		3
 krastavu			3
 kravu	1072		2
 krečarevu			2
@@ -368,7 +368,7 @@ kruševu			2
 krvavu	476		3
 krvnikovu			2
 kudravu			2
-kuknjavu	185		2
+kuknjavu	185		3
 kukovu			2
 kulinarstvu	395		2
 kumanovu			2
@@ -389,10 +389,10 @@ laskavu	326		2
 lavovu	39		2
 lavu	536		2
 lazarovu			2
-lažljivu	36		2
-lažovu	19		2
+lažljivu	36		3
+lažovu	19		3
 lekarevu			2
-lepljivu	127		2
+lepljivu	127		3
 leposavu			2
 lepršavu	101		2
 letvu	107		2
@@ -409,8 +409,8 @@ ljuskavu			2
 lokativu	12		4
 lokomotivu	287		2
 lokvu	41		2
-lomljavu	30		2
-lopovu	159		2
+lomljavu	30		3
+lopovu	159		3
 lovorovu			4
 lovstvu	232		2
 lovu	2907		2
@@ -427,7 +427,7 @@ maleševu			2
 manekenstvu	32		2
 markovu			2
 marksovu			2
-marljivu			2
+marljivu			3
 marovićevu			2
 marsovu			2
 masivu	165		2
@@ -439,7 +439,7 @@ mašinstvu	200		2
 meljavu	36		2
 memljivu	17		2
 mesečevu	172		2
-mećavu	138		2
+mećavu	138		3
 milanovu			2
 miletićevu			2
 milevu			2
@@ -448,13 +448,13 @@ milisavu			2
 miljanovu			2
 milosavu			2
 miloslavu			2
-milostivu	23		3
+milostivu	23		4
 miloševu			2
 milutinovu			2
 ministarstvu	25361		2
 mirijevu			2
 mirišljavu	53		2
-miroljubivu	150		2
+miroljubivu	150		3
 miroslavu			2
 mićićevu			2
 mišićevu			2
@@ -469,7 +469,7 @@ mnogoboštvu	17		2
 mnogoglavu			2
 mnoštvu	1164		2
 mogućstvu			2
-molitvu	3959		2
+molitvu	3959		3
 moljevićevu			2
 momčilovu			2
 monahovu			2
@@ -492,95 +492,95 @@ muževljevu	61		2
 muževu			2
 mužjakovu			2
 nabavu	69		2
-nadevu			2
+nadevu			3
 nadleštvu	28		2
 nadnaslovu	30		2
 najavu	2406		3
-nametljivu	13		2
+nametljivu	13		3
 napevu	11		2
 napravu	398		3
 nasledstvu	121		2
 nasljedstvu		J	2
-naslovu	2723		2
-nasrtljivu			2
+naslovu	2723		3
+nasrtljivu			3
 nastavu	9431		3
-nazivu	2841		2
-nazovu	837		2
+nazivu	2841		3
+nazovu	837		3
 načelstvu	65		2
-nedeljivu	62		2
+nedeljivu	62		3
 nedićevu			2
 nedokučivu	31		2
 negativu	87		2
 negnevljivu			2
-neiscrpljivu			2
+neiscrpljivu			3
 neiskazivu			2
 neiskustvu	123		2
 neizdrživu	46		2
-neizlečivu	75		2
-neizlječivu		J	2
+neizlečivu	75		3
+neizlječivu		J	3
 neizrazivu			2
-neizrecivu	78		2
+neizrecivu	78		3
 nekakvu	3150		3
-nemerljivu	128		2
+nemerljivu	128		3
 nenadoknadivu	144		2
-neobjašnjivu	109		2
-neoborivu	42		2
+neobjašnjivu	109		3
+neoborivu	42		3
 neodgodivu			2
-neodoljivu	363		2
+neodoljivu	363		3
 neodvojivu	31		2
-neopisivu	195		2
-neopozivu	327		2
-neoprostivu	50		2
-neosetljivu			2
-neosporivu	11		2
-neosvojivu	31		2
-nepažljivu			2
-nepobedivu	57		2
+neopisivu	195		3
+neopozivu	327		3
+neoprostivu	50		3
+neosetljivu			3
+neosporivu	11		3
+neosvojivu	31		3
+nepažljivu			3
+nepobedivu	57		3
 nepodnosivu			2
-nepodnošljivu	125		2
-nepojmljivu	28		2
-nepokolebljivu	149		2
+nepodnošljivu	125		3
+nepojmljivu	28		3
+nepokolebljivu	149		3
 nepopravljivu	145		2
-neporecivu	36		2
+neporecivu	36		3
 nepravu	14		2
 neprijateljevu			2
 neprijateljstvu	200		2
-neprocenjivu	244		2
+neprocenjivu	244		3
 nepromenljivu	55		2
 neranjivu			2
 neraskidivu	175		2
-nerazumljivu	26		2
+nerazumljivu	26		3
 neretvu			2
 nervu	48		2
-nesalomljivu			2
+nesalomljivu			3
 nespojivu	12		2
-nestrpljivu	14		2
-nesumnjivu	210		2
-neuhvatljivu	41		2
+nestrpljivu	14		3
+nesumnjivu	210		3
+neuhvatljivu	41		3
 neumoljivu	42		2
-neuništivu	48		2
-neustrašivu	34		2
+neuništivu	48		3
+neustrašivu	34		3
 neutoljivu			2
 neverstvu	95		2
-nevidljivu	344		2
+nevidljivu	344		3
 nezaboravu	17		2
 nezadovoljstvu	412		2
 nezadrživu	28		2
-nezamislivu	86		2
+nezamislivu	86		3
 nezaustavljivu	47		2
-nezdravu	259		2
+nezdravu	259		3
 nezlobivu			2
 nečastivu			2
-nečitljivu			2
+nečitljivu			3
 nečoveštvu			2
-neškodljivu			2
+neškodljivu			3
 neživu	24		2
 nikakvu	13074		3
 nikolićevu			2
 ninoslavu			2
 nitkovu			2
 nišavu			2
-njegovu	40511		2
+njegovu	40511		3
 njegoševu			2
 njihovu	30159		3
 njivu	1424		2
@@ -599,47 +599,47 @@ objavu	856		3
 objektivu	256		2
 obnovljivu	202		2
 obnovu	8343		3
-obradivu	108		2
+obradivu	108		3
 obrvu	125		3
 obustavu	777		4
 odjavu	222		3
 odlivu	229		2
-održivu	701		2
+održivu	701		3
 odsevu			2
-odsustvu	3234		2
+odsustvu	3234		3
 odzivu	319		3
 ofanzivu	1216		2
 ofenzivu	30		2
 oficirovu			2
-okovu	28		2
+okovu	28		3
 oktavu	64		2
 olivu			2
 olovu	248		3
 onakvu	830		2
 operativu	339		2
-opipljivu	151		2
-oporezivu	27		2
+opipljivu	151		3
+oporezivu	27		3
 opovu			2
 opozivu	140		2
-opozovu	44		2
+opozovu	44		3
 orahovu			2
-orlovu			2
-osetljivu	849		2
+orlovu			3
+osetljivu	849		3
 osnovu	128140		2
 ostavu	310		3
 ostojićevu			2
 ostrvu	8072		3
-otavu	57		2
+otavu	57		3
 otačastvu			2
 otačestvu			2
 otečestvu			2
-otrovu	76		2
+otrovu	76		3
 ovakvu	10534		2
 ovnovu			2
 ovu	135924		2
 ovčarevu			2
 ovčarstvu	108		2
-očevu	406		2
+očevu	406		3
 očinstvu	78		3
 pacijentovu	10		2
 pacovu	37		2
@@ -661,11 +661,11 @@ pavlovu			2
 pavu			2
 pazovu			2
 pašićevu			2
-pažljivu	140		2
+pažljivu	140		3
 pecivu	69		3
 pegavu	15		2
 pelinovu			2
-penušavu	37		2
+penušavu	37		3
 perišićevu			2
 perspektivu	5028		2
 pesnikovu	30		2
@@ -676,52 +676,52 @@ pijanstvu	142		2
 piletićevu			2
 piskavu			2
 pivu	781		2
-pišljivu	14		2
-piščevu	85		2
+pišljivu	14		3
+piščevu	85		3
 platonovu			2
 plavu	2284		2
 plavšićevu			2
-plačljivu			2
-plašljivu	17		2
+plačljivu			3
+plašljivu	17		3
 plemstvu	121		2
 plovdivu			2
 pobratimstvu	14		2
 podanstvu			2
 podlivu			2
-podnaslovu	363		2
-podnošljivu	87		2
+podnaslovu	363		3
+podnošljivu	87		3
 podujevu			2
 podupravu			2
 pogotovu	8532		2
 pohotljivu			2
 pojavu	9636		3
 pokojnikovu	11		2
-pokrovu	54		2
+pokrovu	54		3
 polugotovu			2
 polumrtvu	19		2
 poluostrvu	2085		2
 polupravu			2
-pomirljivu	25		2
+pomirljivu	25		3
 pomodarstvu			2
 pomorstvu	63		2
-ponjavu	31		2
+ponjavu	31		3
 ponovu			2
 poplavu	430		3
-popodnevu	57		2
+popodnevu	57		3
 popovićevu			2
 popovu	55		2
-popustljivu	16		2
+popustljivu	16		3
 porivu	118		2
 poslanstvu	133		2
 postavu	889		2
-potkovu			2
+potkovu			3
 potomstvu	448		2
-poverljivu	113		2
+poverljivu	113		3
 pozdravu	150		3
 pozitivu	51		4
-pozivu	6817		2
+pozivu	6817		3
 poznanstvu	118		2
-pozovu	2718		2
+pozovu	2718		3
 poštarevu			2
 prahovu			2
 pravobranilaštvu	169		2
@@ -737,10 +737,10 @@ preimućstvu	70		2
 prejemstvu			2
 prelivu			2
 premijerovu	40		2
-prenosivu	113		2
+prenosivu	113		3
 prepevu	47		2
-prepodnevu			2
-prepoznatljivu	601		2
+prepodnevu			3
+prepoznatljivu	601		3
 prerogativu			2
 preslavu			2
 prevashodstvu	37		2
@@ -748,26 +748,26 @@ preventivu	460		2
 prevrtljivu	14		2
 prezrivu			2
 preševu			2
-pridevu	44		2
-prihvatljivu	422		2
+pridevu	44		3
+prihvatljivu	422		3
 prijateljevu	15		2
 prijateljstvu	1728		2
 prijavu	12367		3
 prijemstvu			2
-prijemčivu	17		2
+prijemčivu	17		3
 prijićevu			2
 prilivu	436		2
 primamljivu	136		2
 primenljivu	29		2
 prinovu	300		2
 prinčevu			2
-pripevu			2
+pripevu			3
 pripravu	12		3
 pristavu	14		2
 prisustvu	7671		2
 prizivu	25		2
-prizovu	131		2
-pričljivu	10		2
+prizovu	131		3
+pričljivu	10		3
 pričuvu			2
 prljavu	735		3
 probavu	573		3
@@ -785,13 +785,13 @@ protivotrovu			2
 protivu		M	3
 protićevu			2
 protuvu	12		2
-prozovu	175		2
+prozovu	175		3
 proćelavu			4
 proždrljivu			2
-prvenstvu	15461		2
+prvenstvu	15461		3
 prvu	36018		2
 pucićevu			2
-pucnjavu	266		2
+pucnjavu	266		3
 pukovnikovu			2
 punomoćstvu			2
 pustolovu			4
@@ -807,20 +807,20 @@ rajićevu			2
 rakitićevu			2
 rakovu	11		2
 randevu		M	2
-ranjivu	81		2
+ranjivu	81		3
 ranđićevu			2
 raspaljivu			2
 raspikućstvu			2
-raspoloživu	213		2
-raspoznatljivu			2
+raspoloživu	213		3
+raspoznatljivu			3
 raspravu	10832		3
 rastavu	26		2
 rastislavu			2
 rastrojstvu	62		2
 ratarstvu	212		2
 razaznatljivu			2
-razgovorljivu			2
-razumljivu	170		2
+razgovorljivu			3
+razumljivu	170		3
 račićevu			2
 računovodstvu	1111		2
 račvu			2
@@ -836,7 +836,7 @@ ribolovu	675		4
 rivalstvu	114		2
 rivu		M	2
 roditeljstvu	380		2
-rodoljubivu	89		2
+rodoljubivu	89		3
 rodoslovu	79		2
 ropstvu	772		2
 rotkvu	38		2
@@ -847,20 +847,20 @@ rukavu	520		2
 rukovodstvu	2541		2
 ruvu			2
 rvu			2
-rđavu	104		2
+rđavu	104		3
 sabesednikovu			2
-sablažnjivu			2
+sablažnjivu			3
 sadejstvu	557		2
 salvu			2
 samoubistvu	739		2
-samoupravu	3952		2
-sanjivu	15		2
-sastavu	22226		2
-savezništvu	187		3
-savršenstvu	569		2
+samoupravu	3952		3
+sanjivu	15		3
+sastavu	22226		3
+savezništvu	187		4
+savršenstvu	569		3
 savu			2
 sazivu	2473		2
-sazovu	119		2
+sazovu	119		3
 seljakovu			2
 seljaštvu	42		2
 senatorovu			2
@@ -876,8 +876,8 @@ sinovčevu			2
 sinđelićevu			2
 sipkavu			2
 siromaštvu	1507		2
-sirovu	439		2
-sitničavu			3
+sirovu	439		3
+sitničavu			4
 sivu	1264		2
 sićevu			2
 sladunjavu	23		2
@@ -891,7 +891,7 @@ slivu	937		2
 slovenstvu	99		2
 slovu	1069		2
 smokvu	92		2
-smrdljivu	117		2
+smrdljivu	117		3
 sokićevu			2
 sopstvu	51		2
 sovu	125		2
@@ -910,7 +910,7 @@ srpstvu	590		2
 stanislavu			2
 staniševu			2
 stanovništvu	3880		2
-starateljstvu	102		3
+starateljstvu	102		4
 starešinstvu	70		2
 starčevu	104		3
 stativu	1108		2
@@ -918,7 +918,7 @@ stavu	9094		2
 stevanovu			2
 stevićevu			2
 stevu			2
-stidljivu	42		2
+stidljivu	42		3
 stojanovu			2
 stojkovu			2
 stočarstvu	848		2
@@ -926,27 +926,27 @@ stravu	80		2
 stražilovu			2
 streličarstvu	80		2
 streljaštvu	738		2
-stričevu	12		2
+stričevu	12		3
 stvaralaštvu	1985		2
 sudstvu	988		2
 suknarovu			2
-sumnjivu	295		2
-sumnjičavu			3
+sumnjivu	295		3
+sumnjičavu			4
 sunčevu	826		2
 supernovu	56		2
-surovu	598		2
+surovu	598		3
 susedovu	10		2
-susedstvu	1107		2
-susjedstvu		J	2
+susedstvu	1107		3
+susjedstvu		J	3
 suvu	1713		2
 suzdržljivu			2
 sužanjstvu	33		3
-svadljivu			2
+svadljivu			3
 svakakvu	46		3
 svekrvu	211		3
 svetislavu			2
 svetloplavu			2
-svetlucavu	63		2
+svetlucavu	63		3
 svečevu			2
 sveštenikovu	10		2
 sveštenstvu	686		2
@@ -962,7 +962,7 @@ tavu	71		2
 tazbinstvu			2
 teodorovu			2
 terzićevu			2
-tetivu	173		2
+tetivu	173		3
 teturavu			2
 tigrovu	11		2
 tihomirovu			2
@@ -974,20 +974,20 @@ tomićevu			2
 topolovu			2
 trapavu	12		3
 travu	3090		2
-treperavu	15		2
+treperavu	15		3
 trnovu	48		2
-troglavu	13		2
+troglavu	13		3
 trojstvu	146		2
-trpeljivu			3
+trpeljivu			4
 tršavu			2
 tupavu	24		3
 tutnjavu	64		2
 tutorovu			2
 tutorstvu			3
-tučnjavu	14		2
-tužilaštvu	4475		3
+tučnjavu	14		3
+tužilaštvu	4475		4
 tvrdoglavu	47		2
-tvrđavu	1908		2
+tvrđavu	1908		3
 ubavu	14		3
 ubedljivu	1162		2
 ubistvu	1990		2
@@ -997,37 +997,37 @@ udvorištvu			2
 ugostiteljstvu	675		2
 ujakovu	13		2
 ukljevu			2
-ulovu	88		2
+ulovu	88		3
 umetnikovu	31		2
 umorstvu			2
-uočljivu	55		2
-upadljivu	88		2
+uočljivu	55		3
+upadljivu	88		3
 upečatljivu	176		2
-uplivu	83		2
+uplivu	83		3
 upravnikovu			2
 upravu	9446		3
 uputstvu	2118		2
 uredništvu	397		2
 uroševu			2
-uslovu	296		2
+uslovu	296		3
 uspostavu	224		2
 ustanovu	3640		4
 ustavu	8087		3
 ustrojstvu	611		2
-uverljivu	128		2
-uvredljivu	101		2
+uverljivu	128		3
+uvredljivu	101		3
 uvu			2
-uzbudljivu	719		2
+uzbudljivu	719		3
 učiteljevu			2
 učiteljstvu	14		2
-učtivu	14		2
+učtivu	14		3
 ušljivu			2
 vajarstvu	67		2
 valjevu			2
 valovu	15		2
 vandalstvu			2
 varivu	12		2
-varljivu	50		2
+varljivu	50		3
 varvarstvu	53		2
 vasićevu			2
 vazduhoplovstvu	479		2
@@ -1035,7 +1035,7 @@ vašljivu			2
 veličanstvu	147		2
 vesovićevu			2
 vezirovu			2
-vidljivu	469		2
+vidljivu	469		3
 vidosavu			2
 vijugavu	14		2
 vinovu	196		2
@@ -1058,8 +1058,8 @@ vratarevu			2
 vrcavu			2
 vremeplovu	55		4
 vrevu	134		2
-vrtlarstvu	15		2
-vrtoglavu	51		3
+vrtlarstvu	15		3
+vrtoglavu	51		4
 vujićevu			2
 vukašinovu			2
 vukosavu			2
@@ -1069,15 +1069,15 @@ zabavu	7123		3
 zaboravu	596		4
 zadovoljstvu	919		2
 zagušljivu	23		2
-zahtevu	6995		2
-zajedljivu	11		2
+zahtevu	6995		3
+zajedljivu	11		3
 zajedništvu	509		4
-zakletvu	2159		2
+zakletvu	2159		3
 zakonodavstvu	1505		2
-zalivu	2029		2
-zamislivu	13		2
+zalivu	2029		3
+zamislivu	13		3
 zanatstvu	183		2
-zanimljivu	2637		2
+zanimljivu	2637		3
 zaovu	30		3
 zapaljivu	91		2
 zapovedništvu			2
@@ -1086,7 +1086,7 @@ zarobljeništvu	489		2
 zastavu	4598		3
 zastupništvu	66		2
 zatočeništvu	404		2
-zavodljivu	111		2
+zavodljivu	111		3
 zdravstvu	6134		2
 zdravu	4111		2
 zetovu			2
@@ -1120,7 +1120,7 @@ zvonjavu	109		2
 čistunstvu	23		2
 čitaočevu			2
 čitavu	8903		3
-čitljivu	35		2
+čitljivu	35		3
 čivavu	26		2
 članstvu	4009		2
 čobanovu			2
@@ -1141,7 +1141,7 @@ zvonjavu	109		2
 đujićevu			2
 đurovićevu			2
 đurđevu			2
-šaljivu	132		2
+šaljivu	132		3
 šantićevu			2
 šaranovu	12		2
 šarkićevu			2
@@ -1152,11 +1152,11 @@ zvonjavu	109		2
 šekspirovu			2
 šerifovu			2
 šešeljevu			2
-škodljivu			2
+škodljivu			3
 školstvu	1015		2
 šljivovu			2
 šljivu	643		2
-štedljivu	95		2
+štedljivu	95		3
 štivu	164		2
 šugavu	19		3
 šumarstvu	345		2
@@ -1171,7 +1171,7 @@ zvonjavu	109		2
 živu	3071		2
 žrtvu	5133		2
 bjekstvu			2
-crijevu	22		2
+crijevu	22		3
 djedovu			2
 djetetovu			2
 djetinjstvu			2
@@ -1179,12 +1179,12 @@ djevu			2
 dječakovu			2
 kijevu			2
 lijevu	226		2
-ljepljivu			2
+ljepljivu			3
 mjesečevu	31		2
-osjetljivu			2
-povjerljivu			2
+osjetljivu			3
+povjerljivu			3
 predsjednikovu			2
-uvjerljivu			2
-zahtjevu			2
+uvjerljivu			3
+zahtjevu			3
 čovjekovu			2
 čovječanstvu			2

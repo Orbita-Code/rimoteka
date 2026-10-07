@@ -53,7 +53,7 @@ gajev			2
 gajićev			2
 gandijev			2
 georgijev			2
-glavašev			2
+glavašev			3
 gledaočev			2
 glišićev			2
 glumčev			2
@@ -95,7 +95,7 @@ kaljev			2
 karadžićev			2
 karađorđev			2
 karićev			2
-kartašev			2
+kartašev			3
 kačićev			2
 knežev	104		2
 kneževićev			2
@@ -108,7 +108,7 @@ koraćev			2
 kostićev			2
 kovačev	37		2
 kovačićev			2
-kočijašev			2
+kočijašev			3
 kočićev			2
 kraljev	294		2
 krečarev			2
@@ -130,7 +130,7 @@ lukićev			2
 lukovićev			2
 lučev			2
 lučićev			2
-malešev			2
+malešev			3
 mandušićev			2
 maretićev			2
 marićev			2
@@ -149,7 +149,7 @@ milićev			2
 miljkovićev			2
 milojev			2
 milosavljev			2
-milošev			2
+milošev			3
 mirčev			2
 mitrovićev			2
 mišićev	25		2
@@ -172,7 +172,7 @@ nerićev			2
 nikolajev			2
 nikolićev			2
 nikčevićev			2
-njegošev			2
+njegošev			3
 noev			2
 nojev	43		2
 nušićev			2
@@ -257,7 +257,7 @@ spasićev			2
 spev	228		1
 sremčev			2
 stanićev			2
-stanišev			2
+stanišev			3
 stanišićev			2
 stančev			2
 starcev			2
@@ -274,7 +274,7 @@ sviračev			2
 tadićev			2
 tanovićev			2
 tokarev			2
-tomašev			2
+tomašev			3
 tomićev			2
 tončev			2
 tošev			2
@@ -284,12 +284,12 @@ trumbićev			2
 tupoljev			2
 turgenjev			2
 tužiočev			2
-urošev			2
+urošev			3
 usev	542		2
 učiteljev	19		2
 vasiljev			2
 vasićev			2
-velikašev			2
+velikašev			3
 verdijev			2
 vesovićev			2
 videv			2

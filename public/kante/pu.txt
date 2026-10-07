@@ -1,6 +1,6 @@
 158
 akrepu			2
-antilopu	59		2
+antilopu	59		3
 arhetipu	52		2
 bioskopu	2527		4
 biskupu	177		3
@@ -13,14 +13,14 @@ džepu	3728		2
 džipu	267		2
 edipu			2
 ekipu	17155		2
-episkopu	1181		3
+episkopu	1181		4
 epu	176		2
 etapu	934		2
 evropu			2
 ešarpu	74		2
 filipu			2
 fotošopu			2
-galopu	117		2
+galopu	117		3
 gestapu			2
 glupu	362		2
 gospu	73		2
@@ -34,11 +34,11 @@ istupu	78		2
 izotopu			2
 jevropu			2
 josipu			2
-kalupu	281		2
+kalupu	281		3
 kampu	3574		2
 kanapu	72		2
 kapu	2894		2
-kečapu	15		2
+kečapu	15		3
 kipu	84		2
 klapu	44		2
 klipu	510		2
@@ -54,20 +54,20 @@ laptopu	1165		2
 lepu	6083		2
 lipu	195		2
 lupu	485		2
-mangupu	17		2
+mangupu	17		3
 mapu	2825		2
 mikroskopu	46		4
 mikročipu	19		2
-nadbiskupu	103		3
-nasipu	295		2
+nadbiskupu	103		4
+nasipu	295		3
 naspu			2
-nastupu	3346		2
-oklopu	240		2
+nastupu	3346		3
+oklopu	240		3
 okrepu	51		2
-okupu	1950		2
+okupu	1950		3
 olimpu			2
-opipu			2
-otkupu	1156		2
+opipu			3
+otkupu	1156		3
 papu	605		2
 paripu			2
 pikapu			2
@@ -78,7 +78,7 @@ pokopu			2
 popu	500		2
 pospu			2
 potkrepu	16		3
-potopu	138		2
+potopu	138		3
 predgrupu	18		2
 prelepu	1082		2
 preskupu	95		2
@@ -86,8 +86,8 @@ prespu			2
 prestupu			2
 prilepu			2
 principu	18372		2
-pristupu	5680		2
-procepu	286		2
+pristupu	5680		3
+procepu	286		3
 prospu			2
 prototipu	177		2
 prpu			2
@@ -95,7 +95,7 @@ pu		M	1
 pulpu	63		2
 pumpu			2
 rampu	739		2
-rascepu	114		2
+rascepu	114		3
 raspopu			2
 redžepu			2
 repu	1253		2
@@ -104,7 +104,7 @@ rupu	4930		2
 saspu			2
 simpu			2
 sipu	27		2
-sirupu	102		2
+sirupu	102		3
 skalpu	14		2
 sklopu	15682		2
 skupu	13133		2
@@ -120,7 +120,7 @@ stropu	36		2
 stupu	60		2
 superkupu	62		2
 supu	1551		2
-svirepu	38		2
+svirepu	38		3
 talpu			2
 teleskopu	406		4
 tempu	1062		2
@@ -132,17 +132,17 @@ tripu	109		2
 trupu	435		2
 tupu	62		2
 ugljenokopu	49		2
-ukopu	22		2
-uštapu			2
-vadičepu			3
+ukopu	22		3
+uštapu			3
+vadičepu			4
 vrtirepu			2
 zakrpu	347		2
-zakupu	1956		2
+zakupu	1956		3
 zaspu			2
 ćitapu			2
 ćupu	61		2
 čabarkapu			2
-čarapu	236		2
+čarapu	236		3
 čepu	53		2
 čipu	611		2
 đerdapu			2
@@ -160,5 +160,5 @@ zaspu			2
 lijepu	449		3
 ljepu			2
 prelijepu	58		2
-procjepu			2
+procjepu			3
 slijepu	50		3

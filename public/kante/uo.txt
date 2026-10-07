@@ -1,6 +1,6 @@
 377
-banuo	120		2
-beknuo			2
+banuo	120		3
+beknuo			3
 blenuo	51		3
 blesnuo	18		3
 bljesnuo	71		3
@@ -8,29 +8,29 @@ bocnuo	59		3
 brecnuo			2
 brinuo	1364		3
 briznuo	25		2
-buknuo	326		2
+buknuo	326		3
 ciknuo	13		3
 cimnuo	48		3
 crknuo			3
-curiknuo			2
+curiknuo			3
 dignuo	30		3
-dirnuo	228		2
-dodirnuo	470		2
-dometnuo	13		2
-dopadnuo			2
-dosegnuo	140		2
-dotaknuo	64		2
-doviknuo	135		2
+dirnuo	228		3
+dodirnuo	470		3
+dometnuo	13		3
+dopadnuo			3
+dosegnuo	140		3
+dotaknuo	64		3
+doviknuo	135		3
 dočuo	53		2
-došapnuo	85		2
+došapnuo	85		3
 dreknuo	82		2
 dremnuo	10		3
 drmnuo	29		2
 drznuo	359		3
-dunuo	140		2
+dunuo	140		3
 duo	1139		2
 frknuo	16		2
-ganuo	56		2
+ganuo	56		3
 ginuo	104		3
 graknuo	11		2
 granuo			2
@@ -42,214 +42,214 @@ gucnuo	11		3
 gurnuo	1290		3
 gvirnuo			2
 hitnuo	26		2
-iskliznuo	55		2
+iskliznuo	55		3
 iskoraknuo			2
-iskrenuo	47		2
-iskrsnuo	26		2
-ispljunuo	42		2
-istaknuo	776		2
-istegnuo			2
-istisnuo	123		3
-istrgnuo	19		2
-istrunuo	10		2
-izdahnuo	276		2
-izginuo	61		2
-izlanuo	31		2
-izmaknuo			2
-izmetnuo			2
+iskrenuo	47		3
+iskrsnuo	26		3
+ispljunuo	42		3
+istaknuo	776		3
+istegnuo			3
+istisnuo	123		4
+istrgnuo	19		3
+istrunuo	10		3
+izdahnuo	276		3
+izginuo	61		3
+izlanuo	31		3
+izmaknuo			3
+izmetnuo			3
 izokrenuo	23		2
-izuo	84		2
-izvinuo	175		2
-izvrgnuo	13		2
-izvrnuo	123		2
-iščeznuo	16		2
-jauknuo	34		2
+izuo	84		3
+izvinuo	175		3
+izvrgnuo	13		3
+izvrnuo	123		3
+iščeznuo	16		3
+jauknuo	34		3
 javnuo			2
-jeknuo	17		2
-jurnuo	84		2
+jeknuo	17		3
+jurnuo	84		3
 kidnuo			2
-kihnuo			2
+kihnuo			3
 kimnuo	19		2
 kinuo			2
 kleknuo	248		3
 kliknuo	318		3
 klimnuo	297		2
 klisnuo			2
-kliznuo	70		2
+kliznuo	70		3
 klonuo	159		2
 koknuo			2
-koraknuo	33		2
+koraknuo	33		3
 kosnuo	18		2
-krenuo	16174		2
+krenuo	16174		3
 kresnuo	83		3
-kriknuo	53		2
+kriknuo	53		3
 kucnuo	356		3
 kvrcnuo			2
 laknuo			2
 lanuo	20		2
-liznuo	67		2
+liznuo	67		3
 ljosnuo	11		2
 ljutnuo	16		2
 lupnuo	16		2
-mahnuo	210		2
-maknuo	65		2
+mahnuo	210		3
+maknuo	65		3
 manuo	29		2
 maznuo	209		3
-metnuo	148		2
+metnuo	148		3
 mignuo			2
-minuo	34		2
+minuo	34		3
 mlatnuo	11		2
 mrdnuo	248		2
-nadahnuo	123		2
-nadenuo	106		3
-naduo	41		2
-nagnuo	265		2
-nagrnuo	18		2
-nakrenuo	15		2
-nametnuo	1660		3
-namignuo	130		2
-napomenuo	7778		2
-napuknuo			2
-nasrnuo	565		2
+nadahnuo	123		3
+nadenuo	106		4
+naduo	41		3
+nagnuo	265		3
+nagrnuo	18		3
+nakrenuo	15		3
+nametnuo	1660		4
+namignuo	130		3
+napomenuo	7778		3
+napuknuo			3
+nasrnuo	565		3
 nasuo	86		2
-nataknuo			2
-nategnuo	13		2
-natisnuo			2
+nataknuo			3
+nategnuo	13		3
+natisnuo			3
 natruo			2
-natuknuo	41		2
-naviknuo	17		3
-načuknuo			2
-načuo	331		2
+natuknuo	41		3
+naviknuo	17		4
+načuknuo			3
+načuo	331		3
 obasuo	53		2
-obmanuo	353		2
-obrecnuo	18		2
-obrnuo	186		2
-obuo	113		2
-odahnuo	144		2
-odbljesnuo			2
-odenuo	52		3
+obmanuo	353		3
+obrecnuo	18		3
+obrnuo	186		3
+obuo	113		3
+odahnuo	144		3
+odbljesnuo			3
+odenuo	52		4
 odgonetnuo	60		2
-odgrnuo			2
-odgurnuo	320		2
-odjeknuo	256		2
-odjenuo		J	3
-odmahnuo	310		2
-odmaknuo	32		2
-odmetnuo	169		2
-odvrnuo	80		2
-odškrinuo	76		2
-ogreznuo			2
-ogrnuo	56		2
-okanuo			2
-okinuo	49		2
-okliznuo	295		2
-okrenuo	4648		2
-okrznuo	119		2
-omanuo	243		2
-omrznuo	42		2
-opomenuo	437		2
-opovrgnuo	43		3
-opsednuo			2
-oronuo	124		2
-oskvrnuo			2
-oslušnuo	57		2
-osmehnuo	286		2
-ostanuo			2
+odgrnuo			3
+odgurnuo	320		3
+odjeknuo	256		3
+odjenuo		J	4
+odmahnuo	310		3
+odmaknuo	32		3
+odmetnuo	169		3
+odvrnuo	80		3
+odškrinuo	76		3
+ogreznuo			3
+ogrnuo	56		3
+okanuo			3
+okinuo	49		3
+okliznuo	295		3
+okrenuo	4648		3
+okrznuo	119		3
+omanuo	243		3
+omrznuo	42		3
+opomenuo	437		3
+opovrgnuo	43		4
+opsednuo			3
+oronuo	124		3
+oskvrnuo			3
+oslušnuo	57		3
+osmehnuo	286		3
+ostanuo			3
 osuo	163		2
-osvanuo	1039		2
-osvrnuo	3617		2
-otisnuo	331		2
-otkinuo	259		3
-otpljunuo			2
-otrgnuo	47		2
-otvrdnuo	19		2
-očvrsnuo	48		2
-ošinuo	48		2
+osvanuo	1039		3
+osvrnuo	3617		3
+otisnuo	331		3
+otkinuo	259		4
+otpljunuo			3
+otrgnuo	47		3
+otvrdnuo	19		3
+očvrsnuo	48		3
+ošinuo	48		3
 pecnuo	38		2
 pipnuo	200		2
 pirnuo			2
 pisnuo	23		2
 pišnuo			2
-planuo	164		2
+planuo	164		3
 pljesnuo	50		2
 pljunuo	407		3
 pljusnuo	34		2
-pobrinuo	1107		2
+pobrinuo	1107		3
 podbuo		M	2
-podignuo	42		3
-podmetnuo	314		3
-podrignuo	21		3
-podsmehnuo			2
-podstaknuo	31		2
-podviknuo	81		2
-podvrgnuo	36		3
-poginuo	5327		3
+podignuo	42		4
+podmetnuo	314		4
+podrignuo	21		4
+podsmehnuo			3
+podstaknuo	31		3
+podviknuo	81		3
+podvrgnuo	36		4
+poginuo	5327		4
 pognuo	63		2
 pokleknuo	63		3
-pokrenuo	9196		2
-pomaknuo	35		2
-pomenuo	7016		2
-posegnuo	169		2
-poskliznuo			2
-posrnuo	121		2
+pokrenuo	9196		3
+pomaknuo	35		3
+pomenuo	7016		3
+posegnuo	169		3
+poskliznuo			3
+posrnuo	121		3
 posuo	59		2
-potaknuo	95		2
-potegnuo	26		2
-potisnuo	341		2
-potmuo	20		2
-potonuo	1082		2
-povrnuo			2
-počinuo	39		3
+potaknuo	95		3
+potegnuo	26		3
+potisnuo	341		3
+potmuo	20		3
+potonuo	1082		3
+povrnuo			3
+počinuo	39		4
 počuo			2
 prasnuo	52		3
 prdnuo	56		3
-prebrinuo	18		2
-predahnuo	16		2
+prebrinuo	18		3
+predahnuo	16		3
 pregnuo			2
-prekinuo	3613		3
-premetnuo	32		2
-preminuo	5130		2
+prekinuo	3613		4
+premetnuo	32		3
+preminuo	5130		3
 prenuo	130		3
-preokrenuo	638		2
-preplanuo	95		2
-presvisnuo			2
-pretrnuo	31		2
+preokrenuo	638		3
+preplanuo	95		3
+presvisnuo			3
+pretrnuo	31		3
 pretruo			2
-prevagnuo	154		2
-prevrnuo	683		2
+prevagnuo	154		3
+prevrnuo	683		3
 prečuo	33		2
 prhnuo	10		2
-pridenuo			2
+pridenuo			3
 prignuo	11		2
-prigrnuo			2
-primaknuo	13		2
-prionuo	165		2
-pripomenuo			2
-prisegnuo			2
-pritegnuo			2
-pritisnuo	507		3
-promaknuo			2
-prometnuo	29		2
-proniknuo	17		3
-prosinuo			2
+prigrnuo			3
+primaknuo	13		3
+prionuo	165		3
+pripomenuo			3
+prisegnuo			3
+pritegnuo			3
+pritisnuo	507		4
+promaknuo			3
+prometnuo	29		3
+proniknuo	17		4
+prosinuo			3
 prosuo	349		2
-protegnuo	15		2
+protegnuo	15		3
 pročuo	217		2
 prsnuo	47		3
 pucnuo			2
 puknuo	19		3
-raskinuo	808		3
-rasplinuo	46		2
-rasprsnuo	21		2
-rastrgnuo			2
+raskinuo	808		4
+rasplinuo	46		3
+rasprsnuo	21		3
+rastrgnuo			3
 rasuo	139		2
-razmaknuo	25		2
-razminuo			2
+razmaknuo	25		3
+razminuo			3
 raščuo			2
 riknuo	169		2
 ritnuo			2
 roknuo	47		2
-sagnuo	197		2
+sagnuo	197		3
 sasuo	163		2
 sevnuo	59		2
 skiknuo			2
@@ -257,33 +257,33 @@ skinuo	4163		3
 skliznuo	398		2
 sklonuo			2
 skoknuo	113		2
-skrenuo	3091		2
+skrenuo	3091		3
 slegnuo	125		2
-smaknuo	26		2
+smaknuo	26		3
 smetnuo	87		2
 smrznuo	37		3
 splasnuo	139		2
-spomenuo	3130		2
-spotaknuo	11		2
+spomenuo	3130		3
+spotaknuo	11		3
 spregnuo			2
 srinuo			2
-srknuo	21		2
+srknuo	21		3
 srnuo			2
-stegnuo	54		2
+stegnuo	54		3
 stisnuo	319		3
 strgnuo	14		2
-strmeknuo			2
+strmeknuo			3
 strugnuo	10		3
 stvrdnuo	23		2
 suknuo			2
 suljnuo			2
-suspregnuo			2
-svanuo	105		2
+suspregnuo			3
+svanuo	105		3
 svisnuo			2
 svrgnuo	100		3
 svrnuo	15		2
-taknuo	27		2
-tonuo	191		2
+taknuo	27		3
+tonuo	191		3
 trenuo	19		3
 trepnuo	174		3
 tresnuo	160		2
@@ -294,68 +294,68 @@ trunuo	27		3
 truo	245		2
 trznuo	37		3
 tutnuo	39		2
-udahnuo	381		2
-udenuo			2
-uganuo	40		2
-uginuo	311		2
-ukinuo	2047		3
-umetnuo	53		3
-umuknuo	18		2
-urliknuo	29		2
-usahnuo	12		2
-useknuo			2
-uskliknuo	93		2
-uskrsnuo	60		2
+udahnuo	381		3
+udenuo			3
+uganuo	40		3
+uginuo	311		3
+ukinuo	2047		4
+umetnuo	53		4
+umuknuo	18		3
+urliknuo	29		3
+usahnuo	12		3
+useknuo			3
+uskliknuo	93		3
+uskrsnuo	60		3
 usnuo	80		2
-ustuknuo	123		2
-utihnuo	128		2
-utisnuo	87		2
-utonuo	258		2
-utrnuo	28		2
-uvenuo	33		2
-uvrnuo	26		2
-uzdahnuo	273		2
-uzviknuo	715		2
-ušinuo			2
-uštinuo	57		2
-uštipnuo			2
-užasnuo	53		2
-vaskrsnuo	104		2
-venuo	21		2
-viknuo	472		2
+ustuknuo	123		3
+utihnuo	128		3
+utisnuo	87		3
+utonuo	258		3
+utrnuo	28		3
+uvenuo	33		3
+uvrnuo	26		3
+uzdahnuo	273		3
+uzviknuo	715		3
+ušinuo			3
+uštinuo	57		3
+uštipnuo			3
+užasnuo	53		3
+vaskrsnuo	104		3
+venuo	21		3
+viknuo	472		3
 vinuo	230		2
 virnuo	11		2
 vrgnuo			2
-vrisnuo	120		2
+vrisnuo	120		3
 vrnuo	23		2
 zabezeknuo	45		2
-zabrinuo	570		3
-zadahnuo			2
-zadenuo	33		2
-zafrknuo			2
-zagrcnuo	57		2
-zakinuo	61		3
-zakrenuo			2
-zakunuo			2
-zamahnuo	161		2
-zametnuo	48		3
-zamrznuo	111		3
+zabrinuo	570		4
+zadahnuo			3
+zadenuo	33		3
+zafrknuo			3
+zagrcnuo	57		3
+zakinuo	61		4
+zakrenuo			3
+zakunuo			3
+zamahnuo	161		3
+zametnuo	48		4
+zamrznuo	111		4
 zaodenuo			2
 zaokrenuo	26		2
-zapahnuo	36		2
-zapljusnuo	198		2
+zapahnuo	36		3
+zapljusnuo	198		3
 zapodenuo	19		2
-zarinuo			2
+zarinuo			3
 zasuo	83		2
-zatisnuo			2
-zavrnuo	245		2
+zatisnuo			3
+zavrnuo	245		3
 začuo	654		2
 zbrinuo	82		3
-zevnuo	20		2
+zevnuo	20		3
 zeznuo	573		2
 zgasnuo	14		2
 zgranuo	76		2
-zgrnuo	67		2
+zgrnuo	67		3
 zgusnuo	33		3
 zinuo	115		3
 zovnuo	33		2
@@ -366,7 +366,7 @@ zviznuo	50		2
 čeznuo	135		3
 čuo	23963		2
 čučnuo	84		3
-šapnuo	227		2
+šapnuo	227		3
 šenuo		M	2
 šibnuo			2
 šiknuo	19		2
@@ -374,6 +374,6 @@ zviznuo	50		2
 škljocnuo			2
 šmugnuo	36		2
 šutnuo	492		2
-živahnuo			2
+živahnuo			3
 živnuo	106		2
-osmjehnuo			2
+osmjehnuo			3

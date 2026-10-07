@@ -1,9 +1,9 @@
 55
 Firenco			2
-Podgorico			3
-Subotico			3
+Podgorico			4
+Subotico			4
 antikvarnico			2
-beskućnico			3
+beskućnico			4
 bistrico			2
 braco	368		2
 buco		M	2
@@ -15,8 +15,8 @@ eco			2
 faco			2
 glupaco			2
 intermeco	116		2
-izdajico			3
-jedinico			2
+izdajico			4
+jedinico			3
 joco			2
 kraljico			2
 krtico			2
@@ -27,25 +27,25 @@ maco	91		2
 meco	14		2
 mico			2
 muco			2
-neznalico			3
+neznalico			4
 ovco	11		2
 paparaco	233		2
-pijanico			3
-poglavico			3
+pijanico			4
+poglavico			4
 porodico			2
 propalico			2
 ptico	38		2
 puco			2
 renco			2
 skerco		M	2
-skitnico			2
+skitnico			3
 sreco			2
 stanico			2
 stolico			2
 taco			2
-trojico			2
-ubico			2
-ubojico			3
+trojico			3
+ubico			3
+ubojico			4
 ulizico			2
 unesco			2
 varalico			2

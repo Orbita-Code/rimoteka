@@ -9,7 +9,7 @@ advokature	372		2
 afere	4875		2
 agenture	156		2
 agrare			2
-agresore	84		3
+agresore	84		4
 agrikulture	35		2
 akcionare	728		2
 akre			2
@@ -20,16 +20,16 @@ aleksandre	12		2
 algebre	229		2
 alhemičare	18		2
 aligatore	15		3
-alkoholičare	86		3
+alkoholičare	86		4
 almire			2
 amatere	495		2
 ambare	105		3
 ambasadore	799		3
-amfore	102		2
+amfore	102		3
 amore			2
 amortizere	207		2
-anafore	18		2
-analitičare	591		3
+anafore	18		3
+analitičare	591		4
 andore			2
 angore	22		2
 ankare			2
@@ -38,32 +38,32 @@ antikvare			2
 aparature	268		2
 aplikatore			2
 apotekare	42		2
-arbitre	85		2
+arbitre	85		3
 arhitekture	10707		2
 armature	631		2
 arture			2
 aspiratore			2
-astrofizičare			3
+astrofizičare			4
 asure			2
 atare	85		3
 atentatore	36		3
-atletičare	173		3
+atletičare	173		4
 atmosfere	6118		2
 aure	320		2
 aurore			2
 autolimare			2
-autore	2544		3
+autore	2544		4
 autostopere	30		2
 autsajdere			2
 avanture	3378		2
 avatare	142		2
-avijatičare	26		3
+avijatičare	26		4
 azotare	695		2
 babure	82		2
 babuskare			2
 babuskere			2
 bafere			2
-bagere	136		2
+bagere	136		3
 bagre			2
 bajadere	54		2
 bajkere	74		2
@@ -73,7 +73,7 @@ baltimore			2
 bandere			2
 banere	258		2
 bankare	457		2
-barbare			2
+barbare			3
 bare	1996		2
 barijere	2364		2
 barjaktare	54		2
@@ -82,13 +82,13 @@ bačvare			3
 belvedere			2
 berbere	16		2
 bere	881		2
-bestselere	73		2
+bestselere	73		3
 bećare			2
 bibliotekare	239		2
 bioenergetičare			2
 biosfere	378		2
 bire			2
-bisere	676		2
+bisere	676		3
 bistre	551		2
 blagodare	36		2
 blagomire			2
@@ -100,7 +100,7 @@ bogumire			2
 bojlere	129		2
 boksere	88		2
 boljare	32		2
-bolničare	37		3
+bolničare	37		4
 bombardere	109		2
 bombonjere			2
 bore	15345		2
@@ -121,8 +121,8 @@ buldožere	43		2
 bulevare			2
 bumbare	44		3
 bunare	311		2
-bunkere	133		2
-burazere	44		2
+bunkere	133		3
+burazere	44		3
 bure	1834		2
 burgere	26		2
 buvare			2
@@ -152,26 +152,26 @@ dare	243		2
 davore			2
 daščare	16		2
 demetre			2
-deoničare	68		3
+deoničare	68		4
 dere	995		2
 desetare			2
 desimire			2
-desničare	119		3
-detektore	221		3
+desničare	119		4
+detektore	221		4
 detonatore	14		2
 devetore			2
 dezertere			2
-dijabetičare	341		3
+dijabetičare	341		4
 dijaspore	5192		2
 diktatore	158		3
 diktature	2181		2
 dilere	336		3
 dinare	1210		3
 dinosaure	13		2
-direktore	2704		3
+direktore	2704		4
 distributere	366		2
 divčibare			2
-dizajnere	894		2
+dizajnere	894		3
 dizdare			2
 dobre	47777		2
 dobrotvore	120		4
@@ -184,7 +184,7 @@ dolare	644		3
 domare			2
 donatore	466		3
 donore	31		2
-dopire	1470		2
+dopire	1470		3
 dopre	913		2
 doture			2
 dresure	135		2
@@ -196,12 +196,12 @@ dupljare			2
 dure	43		2
 duvare			3
 dvore	347		2
-džempere	223		2
+džempere	223		3
 džigere			2
-džokere	28		2
+džokere	28		3
 egzemplare	12		2
 eksere			2
-električare	45		3
+električare	45		4
 elektroinženjere	28		2
 eleonore			2
 elvire			2
@@ -221,17 +221,17 @@ fenjere			2
 ferare			2
 fere			2
 figure	3902		2
-fijakere	60		2
+fijakere	60		3
 filistre			2
-filtere	1230		2
+filtere	1230		3
 filtre	76		2
 finansijere	250		2
 fiskulture	127		2
-fizičare	176		3
+fizičare	176		4
 flajere	491		2
 flastere	95		3
 flipere	26		2
-flomastere	69		3
+flomastere	69		4
 fore			2
 forenzičare	15		2
 formulare	580		2
@@ -246,7 +246,7 @@ fudbalere	1871		2
 fukare			2
 funjare			2
 funkcionere	1358		2
-gangstere	32		2
+gangstere	32		3
 gare			2
 garniture	1561		2
 garsonjere			2
@@ -268,7 +268,7 @@ gore	17842		2
 gospare			2
 gospodare	731		2
 govore	40812		3
-graničare	59		3
+graničare	59		4
 gravere			2
 gravire			2
 gravure	71		2
@@ -276,7 +276,7 @@ grgure			2
 grnčare			2
 grobare	358		2
 gubere			2
-gudure	74		2
+gudure	74		3
 gusare	78		3
 guslare	39		2
 guvernere	63		2
@@ -290,11 +290,11 @@ hangare	41		2
 harare			2
 hardvere	16		3
 hektare	108		3
-helikoptere	438		2
+helikoptere	438		3
 hemisfere	668		2
 hetere			2
 hidre	77		2
-himere	84		2
+himere	84		3
 hipstere	24		2
 hitre	77		2
 honorare	652		2
@@ -303,8 +303,8 @@ horore	113		2
 hortikulture	511		2
 hrabre	1483		2
 hromosfere			2
-hroničare	27		3
-humore			2
+hroničare	27		4
+humore			3
 igore			2
 igre	55260		2
 ikre	239		2
@@ -319,8 +319,8 @@ inhalatore	37		3
 inhibitore	81		2
 inkubatore	184		3
 inovatore	85		2
-inspektore	540		3
-instruktore	493		3
+inspektore	540		4
+instruktore	493		4
 intendanture			2
 interijere	12		2
 inventare	21		2
@@ -331,42 +331,42 @@ inžinjere			2
 iscure	42		2
 isidore			2
 iskre	696		2
-iskrvare	15		2
+iskrvare	15		3
 iskvare	30		2
 ispare	91		2
-ispere	265		2
-ispire	46		2
+ispere	265		3
+ispire	46		3
 istoričare	478		2
 istovare	74		4
 istre			2
-izabere	5241		2
-izabire	31		2
-izbore	33408		2
+izabere	5241		3
+izabire	31		3
+izbore	33408		3
 izdere	39		2
 izdire			2
 izgore	285		2
 izgovore	1351		4
 izjure	13		2
-izmere	447		2
+izmere	447		3
 izmire	1361		2
 izmore	29		2
 izmrcvare			2
 iznedre	84		2
 iznevere	124		2
 izoštre	34		2
-izumire	371		2
+izumire	371		3
 izumre	133		2
 izvire	1638		2
 izvitopere	17		2
-izvore	7452		2
+izvore	7452		3
 jaguare	14		4
 janičare	153		2
-janjičare	60		3
+janjičare	60		4
 jare	534		2
 javore	20		3
 jedre	108		2
 jere			2
-jesetre	72		2
+jesetre	72		3
 jetre	4461		2
 jezgre	166		2
 jonosfere	141		2
@@ -379,10 +379,10 @@ kaišare			2
 kalambure	16		2
 kaldere	22		2
 kalendare	342		2
-kaluđere	208		3
+kaluđere	208		4
 kamare	192		3
 kamenare			2
-kamere	11008		2
+kamere	11008		3
 kampere	79		2
 kancelare			2
 kandidature	2526		2
@@ -393,7 +393,7 @@ kapilare	240		2
 kaplare	15		3
 kapre			2
 karabinjere			2
-karaktere	658		2
+karaktere	658		3
 karburatore	22		2
 kare	74		2
 kariere			2
@@ -412,7 +412,7 @@ kačare			2
 kašikare			2
 kelnere	22		3
 kengure	53		3
-kentaure	14		2
+kentaure	14		3
 kere			2
 kesere			2
 kidnapere			2
@@ -427,10 +427,10 @@ klavire	34		2
 kleopatre			2
 klepsidre			2
 klikere			2
-klisure	958		2
+klisure	958		3
 klošare	26		2
 knjižare	1322		2
-koautore	23		3
+koautore	23		4
 kobasičare			2
 kobre	228		2
 kockare	62		3
@@ -441,20 +441,20 @@ koksare			2
 kolare	25		2
 kolačare			2
 kolekcionare	128		2
-kolektore	175		3
-kolere	431		2
+kolektore	175		4
+kolere	431		3
 koloture			4
 kolportere			2
 kolubare			2
 komandire	82		2
 komentare	17355		2
 komesare	101		2
-komičare	54		3
+komičare	54		4
 komodore			2
-komore	15838		2
-kompjutere	1816		2
+komore	15838		3
+kompjutere	1816		3
 kompozitore			2
-kompresore	100		3
+kompresore	100		4
 komunare			2
 komunikatore	24		2
 komunjare	352		2
@@ -463,7 +463,7 @@ kondore	14		2
 konduktere	26		2
 konektore	357		2
 konobare	205		4
-kontejnere	1336		2
+kontejnere	1336		3
 kontramere			2
 kontre			2
 kontrolore	356		2
@@ -482,23 +482,23 @@ kotare			2
 kotore			2
 koture	13		3
 kozare	83		2
-košare	155		2
+košare	155		3
 košmare			2
 krajcare			2
-kratere	161		2
+kratere	161		3
 kreatore			2
 kreature	215		2
 kreditore	153		3
 krekere	86		3
-krijumčare	105		3
-kritičare	669		3
+krijumčare	105		4
+kritičare	669		4
 krivotvore	72		2
 krompire	179		2
 krovinjare			2
 krpare	34		3
-krstare	379		2
+krstare	379		3
 krstomire			2
-krvare	337		2
+krvare	337		3
 krčmare			3
 kubure	247		2
 kufere			2
@@ -529,11 +529,11 @@ lemure	13		2
 leonore			2
 lepre			2
 leptire	236		3
-levičare	129		3
-lešinare	67		3
+levičare	129		4
+lešinare	67		4
 leškare			2
 licemere	55		4
-lidere	2743		2
+lidere	2743		3
 ligure			2
 likere	45		2
 limare	27		3
@@ -543,12 +543,12 @@ literature	6311		2
 litosfere	44		2
 litre	1817		2
 ljubomire			2
-ljubomore	1353		2
-ljudoždere	29		2
+ljubomore	1353		3
+ljudoždere	29		3
 ljuskare	13		2
-ljušture	263		2
+ljušture	263		3
 loare			2
-logičare			3
+logičare			4
 logore	1305		3
 lokatore	37		2
 lopare			2
@@ -557,12 +557,12 @@ lovre			2
 lubure			2
 ludare	26		2
 lugare			2
-lustere	65		2
+lustere	65		3
 luzere	36		2
 madeire			2
 madere			2
 madžare			2
-magare	432		2
+magare	432		3
 magistre	81		2
 majore	52		2
 majstore	2019		3
@@ -570,7 +570,7 @@ majure			2
 malere	14		2
 malopre	4046		3
 manastire	2073		4
-mandragore	13		2
+mandragore	13		3
 manevre	395		2
 manire	508		2
 mantre	518		2
@@ -580,7 +580,7 @@ masakre	152		2
 masere	18		2
 maskare	545		2
 matadore			2
-matematičare	187		3
+matematičare	187		4
 matere	885		2
 matičare	26		2
 matore	243		3
@@ -588,20 +588,20 @@ mature	1804		2
 mazgare			2
 mačore	24		3
 mađare			2
-mađioničare	44		3
+mađioničare	44		4
 maškare	44		2
 meandre	65		2
 medicinare	59		2
-mehaničare	80		3
+mehaničare	80		4
 mehure	34		3
 memoare	439		2
-menadžere	1787		3
+menadžere	1787		4
 mentore	330		2
 merdare			2
 mere	52196		2
 mesare	284		3
 mesoždere			2
-metafore	987		2
+metafore	987		3
 meteore	184		2
 metre	105		2
 mezgre			2
@@ -613,12 +613,12 @@ miksere	37		2
 milicionare			2
 milicionere	22		2
 milijardere	70		2
-milimetre	18		3
+milimetre	18		4
 milionere	130		2
 minare		M	2
 minere	15		2
 minijature	465		2
-ministre	10895		2
+ministre	10895		3
 mire	614		2
 misionare	119		2
 mitare	13		2
@@ -628,14 +628,14 @@ modelare	26		2
 moderatore	239		2
 modre	176		2
 mokre	911		2
-monitore	644		3
+monitore	644		4
 monsinjore	15		2
 montere	55		2
 more	22907		2
 mornare	143		2
 motore	3506		2
 motre	191		2
-močvare	501		2
+močvare	501		3
 mramore			3
 mre	229		1
 mrmore			2
@@ -649,29 +649,29 @@ muskulature	539		2
 mustre			2
 muzare	113		2
 muzičare	1015		2
-nabere	84		2
-nabore	140		2
-nabubre	57		2
+nabere	84		3
+nabore	140		3
+nabubre	57		3
 nadire			2
 nadmudre	92		2
 nadničare	38		4
 nadre			2
 nadzire		M	2
-nadzore	38		2
+nadzore	38		3
 nafore	32		2
-nagore	840		2
+nagore	840		3
 nagovore	225		4
 najgore	11398		3
 najpre	34199		2
 najure	77		2
-najšire	868		2
+najšire	868		3
 namastire			2
 namere	10557		3
 namire	439		2
 namćore			2
 naočare	4748		4
 naoštre	29		2
-napore	9280		2
+napore	9280		3
 nare	33		2
 nasamare	40		2
 nastire			2
@@ -682,7 +682,7 @@ navigatore	15		2
 navire	106		2
 navre	27		2
 nazire	2157		2
-nazore	108		2
+nazore	108		3
 nazre	76		2
 naždere			2
 nebodere	76		4
@@ -691,7 +691,7 @@ nekulture	318		2
 nemire	847		3
 nesrazmere	84		2
 neurotransmitere	42		2
-nevere	97		2
+nevere	97		3
 nijagare			2
 nikanore			2
 nićifore			2
@@ -709,19 +709,19 @@ obeshrabre	154		2
 oblakodere	54		2
 obogotvore			2
 obore	811		2
-obućare	33		3
+obućare	33		4
 obzire	137		3
-odabere	2078		2
+odabere	2078		3
 odabire			4
-odbore	1423		2
+odbore	1423		3
 odere	195		2
 odgore		M	2
 odgovore	18353		4
 odjure	16		2
-odmere	291		2
-odmore	1820		2
+odmere	291		3
+odmore	1820		3
 odobre	980		2
-odore	242		2
+odore	242		3
 odozgore			2
 odumire	298		2
 odumre	53		2
@@ -750,7 +750,7 @@ opštinare	46		2
 oratore			3
 organizatore	1234		3
 orijentire	82		2
-orkestre	128		2
+orkestre	128		3
 ormare	200		2
 oscare			2
 oskare	97		2
@@ -759,14 +759,14 @@ ospore	445		2
 ostare	164		2
 ostvare	10288		2
 otire	20		2
-otmičare	58		3
-otpore	340		2
+otmičare	58		4
+otpore	340		3
 otpre		M	2
-otvore	6222		2
+otvore	6222		3
 overe	1176		3
 ovčare	82		2
 ozare	22		2
-ošamare	12		2
+ošamare	12		3
 oštre	3719		2
 oživotvore	20		2
 padre			2
@@ -794,7 +794,7 @@ pekare	1652		3
 pekinezere			2
 pendžere			2
 penzionere			2
-pepeljare	203		2
+pepeljare	203		3
 pere	2150		2
 perpere			2
 petre			2
@@ -802,7 +802,7 @@ pećinare			2
 peškire	433		2
 peštere			2
 peščare	445		2
-pijandure	67		2
+pijandure	67		3
 piljare	37		2
 pionire	698		2
 pire	698		2
@@ -825,7 +825,7 @@ pododbore	23		2
 podoficire			2
 podsahare			2
 podstanare	132		4
-podudare	32		2
+podudare	32		3
 podupire	574		2
 podupre	134		2
 poglavare	99		2
@@ -837,7 +837,7 @@ pojure	71		2
 poklisare			2
 pokore	385		2
 pokvare	645		2
-političare	5374		3
+političare	5374		4
 položare			2
 polucilindere			2
 polusestre	51		4
@@ -850,7 +850,7 @@ ponajgore			2
 ponajpre			2
 pondere	17		2
 ponire	223		2
-ponore	163		2
+ponore	163		3
 pooštre	101		2
 popare	37		2
 pore	1583		2
@@ -865,7 +865,7 @@ potočare			2
 potpore	593		3
 potvore			2
 povampire	19		2
-povere	367		2
+povere	367		3
 pozere	15		2
 poštare	57		3
 požare	598		3
@@ -884,7 +884,7 @@ preduhitre	40		2
 prefekture	147		2
 pregore	52		2
 pregovore	11761		4
-prekore	124		2
+prekore	124		3
 premere	54		2
 premijere	3145		2
 premire			2
@@ -893,7 +893,7 @@ premre			2
 premudre	34		2
 preore	31		2
 preoštre	40		2
-prepire	92		2
+prepire	92		3
 presabere			2
 prestare	16		2
 pretkomore	139		2
@@ -910,30 +910,30 @@ preživare	14		2
 pribere	96		2
 pribire			2
 prigovore	963		4
-primere	6888		2
+primere	6888		3
 primire	72		2
-prismotre	40		2
-pritvore	43		2
+prismotre	40		3
+pritvore	43		3
 privire	45		2
-prizore	846		2
-probere	60		2
+prizore	846		3
+probere	60		3
 procedure	12050		2
 procesore	1765		2
 procure	93		2
 prodere	57		2
-prodire	1299		2
-prodore	172		2
+prodire	1299		3
+prodore	172		3
 prodre	1027		2
-profesore	4226		3
+profesore	4226		4
 profesure	74		2
 profitere	134		2
 progovore	672		2
 programere	818		2
 prohore			2
-projektore	175		3
+projektore	175		4
 prokrijumčare	60		2
-prokrstare			2
-prokrvare	25		2
+prokrstare			3
+prokrvare	25		3
 prokuratore			2
 proletere	113		2
 promotere	181		2
@@ -942,8 +942,8 @@ propelere	40		2
 prorektore	13		2
 prosfore	58		2
 proskure			2
-prostire	4780		2
-prostore	4954		2
+prostire	4780		3
+prostore	4954		3
 prostre	134		2
 prosvetare	238		2
 protivigre			2
@@ -957,7 +957,7 @@ provetre	26		2
 provire	54		3
 prozbore	53		2
 prozire	52		2
-prozore	4039		2
+prozore	4039		3
 prozre	107		2
 prošire	2287		2
 proždere	77		2
@@ -968,7 +968,7 @@ psihijatre	119		2
 pudrijere			2
 pulovere	10		2
 pure	233		2
-pustare	187		2
+pustare	187		3
 putire	18		2
 rabarbare	13		2
 radare	200		3
@@ -982,25 +982,25 @@ raspre	139		2
 rasprostire	213		2
 rasprostre	80		2
 rasture	250		2
-rastvore	201		2
+rastvore	201		3
 ratare	269		3
-razabere	85		2
-razabire	27		2
+razabere	85		3
+razabire	27		3
 razastire			2
 razastre			2
 razbaškare	16		2
 razbere			2
 razbistre	38		2
 razdere	41		2
-razdire	165		2
-razdore	76		2
+razdire	165		3
+razdore	76		3
 razgore	35		2
 razgovore	9557		4
 razjare			2
-razmere	3337		2
+razmere	3337		3
 razmotre	1450		2
 razore	203		2
-razuvere	44		2
+razuvere	44		3
 računare	5636		2
 rašire	245		2
 re		M	1
@@ -1008,8 +1008,8 @@ reaktore	184		2
 receptore	511		2
 recepture	252		2
 redaktore			2
-reflektore	398		3
-refraktore	19		3
+reflektore	398		4
+refraktore	19		4
 registre	2545		2
 regulatore	161		2
 rekordere	65		2
@@ -1026,19 +1026,19 @@ retrovizore	224		2
 revere	58		2
 revizore	160		2
 revolucionare	159		2
-revolvere	83		2
+revolvere	83		3
 rezervoare	469		2
 režisere	104		2
 ribare	200		3
 rokere	68		2
 rolere	367		2
-romantičare	122		3
+romantičare	122		4
 romore	11		2
 rovare	134		2
 rudare	394		2
-sabere	1620		2
-sabire	46		2
-sabore	168		2
+sabere	1620		3
+sabire	46		3
+sabore	168		3
 sabotere	20		2
 safire			2
 sagore	160		2
@@ -1051,7 +1051,7 @@ samsare	29		2
 sandre			2
 sanjare	137		2
 santimetre	14		2
-sapere	18		2
+sapere	18		3
 sare	277		2
 satare	34		2
 satire	859		2
@@ -1060,13 +1060,13 @@ sazre	93		2
 sačmare			2
 sedmere			2
 sedmore			2
-sekire	643		2
+sekire	643		3
 sekretare	294		2
 sektore	1219		3
-selektore	122		3
+selektore	122		4
 selendre	58		2
 semafore	182		4
-semestre	28		2
+semestre	28		3
 seminare	2776		2
 senatore	122		3
 seniore	1123		2
@@ -1095,7 +1095,7 @@ smore	62		2
 smotre	1417		2
 smučare			2
 snagatore	11		3
-snajpere	34		2
+snajpere	34		3
 sofre			2
 softvere	436		3
 solitere	92		2
@@ -1121,14 +1121,14 @@ straćare	57		2
 stražare	298		2
 strugare			2
 strukture	16611		2
-strvinare			3
+strvinare			4
 stvore	5835		2
 subkulture	149		2
 subotare			2
 sudare	375		3
-sudopere	291		3
+sudopere	291		4
 suknare			2
-sunđere	87		2
+sunđere	87		3
 sure	143		2
 surfere	79		2
 suvenire	670		2
@@ -1144,22 +1144,22 @@ tabakere	28		2
 tabore	104		3
 tabure	75		2
 tagore			2
-tajmere	38		2
-takmičare	1703		3
+tajmere	38		3
+takmičare	1703		4
 talire			2
 tamare			2
 tambure	220		2
-tamničare	17		3
+tamničare	17		4
 tamnomodre			2
 tanjire	422		2
 tanjure	12		2
-tankere	70		2
+tankere	70		3
 tastature	2907		2
 tastere	792		2
 tavore	167		2
 teatre	28		2
 teftere			2
-tehničare	444		3
+tehničare	444		4
 teksture	1061		2
 televizore	1059		3
 temperature	18429		2
@@ -1167,7 +1167,7 @@ templare	38		2
 tendere	794		2
 tenisere	348		2
 teodore			2
-teoretičare	251		3
+teoretičare	251		4
 terijere	26		2
 tesare	35		3
 testere	354		2
@@ -1177,24 +1177,24 @@ tigre	27		2
 tihomire			2
 tijare	25		2
 timare	41		2
-tinejdžere	607		3
+tinejdžere	607		4
 tinkture	229		2
 todore			2
 torbare			2
 tore	11		2
 torture	1455		2
 tostere			2
-tovare	271		2
-tragičare	10		3
+tovare	271		3
+tragičare	10		4
 traktore	848		3
 transfere	862		2
 transportere	122		2
-tranzistore	136		3
+tranzistore	136		4
 travare	11		2
-tračare	124		2
+tračare	124		3
 tračere			3
 tregere			2
-trenere	1539		2
+trenere	1539		3
 trepere	251		2
 trezore	68		2
 trilere	105		3
@@ -1206,32 +1206,32 @@ ture	2190		2
 turnire	1070		2
 tutore	50		3
 tvore	412		2
-ubere	336		2
-ubire	309		2
+ubere	336		3
+ubire	309		3
 udare	1954		3
 ugljare	34		2
 ugovore	9021		4
-ukore	54		2
+ukore	54		3
 uličare	16		2
 uljare	243		2
 ulješure	11		2
 umere			2
-umire	5164		2
-umore	239		2
+umire	5164		3
+umore	239		3
 umre	5848		2
 umudre			2
 upere	55		2
-upire	311		2
+upire	311		3
 upozore	459		2
 upre	132		2
-usmere	1303		2
+usmere	1303		3
 uspore	528		2
 utire	183		2
 utore	16		2
 utovare	51		4
 utre	83		2
 utvare	256		3
-uvere	1647		2
+uvere	1647		3
 uvertire	99		2
 uvire	67		2
 uzabere			2
@@ -1239,14 +1239,14 @@ uzavire			2
 uzavre	28		2
 uzbere			2
 uznemire	174		2
-uzore	823		2
+uzore	823		3
 uzre			2
 uzurpatore	42		3
 uzvere	11		2
 ušićare	51		2
 užare	14		2
 vajare	60		2
-valcere	32		2
+valcere	32		3
 valkire	20		2
 vampire	346		2
 vare	329		2
@@ -1265,7 +1265,7 @@ vere	15469		2
 veterinare	110		2
 vetre	18		2
 vezire			2
-večere	3030		2
+večere	3030		3
 vibratore	50		2
 vidare	13		2
 videoigre	25		2
@@ -1293,7 +1293,7 @@ vratare	25		2
 vračare	313		2
 vucare			2
 zabašure	47		2
-zacare	10		2
+zacare	10		3
 zadire	896		2
 zadre	38		2
 zadrugare	51		4
@@ -1310,10 +1310,10 @@ zapore			2
 zaratustre			2
 zastare	164		2
 zastire	13		2
-zastore	83		2
+zastore	83		3
 zatire	94		2
 zatre	243		2
-zatvore	2828		2
+zatvore	2828		3
 zavare	29		2
 zavere	3954		3
 zavire	380		2
@@ -1345,9 +1345,9 @@ zvonare	62		2
 ćućore			2
 čabre			2
 čadore			2
-čahure	29		2
+čahure	29		3
 čakre	289		2
-čakšire		M	2
+čakšire		M	3
 čaure	534		2
 čestare	10		2
 četinare	55		2
@@ -1355,7 +1355,7 @@ zvonare	62		2
 čigre	71		2
 čizburgere			2
 čopore	52		3
-čuture	93		2
+čuture	93		3
 čuvare	580		2
 đaure			2
 đevere			2
@@ -1364,16 +1364,16 @@ zvonare	62		2
 đure			2
 đuture		M	2
 šalitre			2
-šaltere	240		2
-šalvare		M	2
-šamare	232		2
+šaltere	240		3
+šalvare		M	3
+šamare	232		3
 šare	1056		2
 šaržere			2
 šatore	648		3
 šatre	181		2
 šepure	218		2
 šestare	13		3
-šećere	349		2
+šećere	349		3
 šešire	363		2
 šifre	1762		2
 šikare	91		2
@@ -1383,7 +1383,7 @@ zvonare	62		2
 šire	18460		2
 škare	19		2
 školjare			2
-šlagere	41		2
+šlagere	41		3
 šlepere	161		3
 šljivare			2
 šnajdere			2
@@ -1400,7 +1400,7 @@ zvonare	62		2
 štitare			2
 štrebere			2
 šture	197		2
-šubare	113		2
+šubare	113		3
 šumore			2
 šure		M	2
 švalere			2
@@ -1430,18 +1430,18 @@ licemjere			4
 ljekare			2
 mjere			2
 namjere			3
-nevjere	50		2
+nevjere	50		3
 pjere			2
 potjere			3
-prijekore			3
+prijekore			4
 prijevare			4
-primjere			2
+primjere			3
 pronevjere			4
 provjere			3
-razmjere			2
+razmjere			3
 rivijere	325		2
 sijere			2
-sjekire			2
-uvjere			2
+sjekire			3
+uvjere			3
 vjere			2
 zavjere			3

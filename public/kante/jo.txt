@@ -1,43 +1,43 @@
 245
 Albanijo			3
 Australijo			3
-Austrijo			2
-Belgijo			2
+Austrijo			3
+Belgijo			3
 Estonijo			3
-Etiopijo			2
-Holandijo			2
-Indijo			2
+Etiopijo			3
+Holandijo			3
+Indijo			3
 Indonezijo			3
 Italijo			3
 Kenijo			3
-Kolumbijo			2
+Kolumbijo			3
 Korejo			2
 Libijo			3
 Litvanijo			3
 Makedonijo			3
 Malezijo			3
-Marijo			2
+Marijo			3
 Mongolijo			3
 Nigerijo			3
 Portugalijo			3
 Rumunijo			3
-Rusijo			2
+Rusijo			3
 Sirijo			3
 Slovenijo			3
-Sofijo			2
-Srbijo	134		2
+Sofijo			3
+Srbijo	134		3
 Venecijo			3
 agentkinjo			2
-akcijo			2
-alergijo			2
+akcijo			3
+alergijo			3
 ambrozijo			3
 amfibijo			3
-amortizacijo			2
+amortizacijo			3
 anoreksijo			2
-antropologijo			2
-arheologijo			2
+antropologijo			3
+arheologijo			3
 asistentkinjo			2
-astronomijo			2
+astronomijo			3
 aždajo			2
 bajo	29		2
 bakljo			2
@@ -46,11 +46,11 @@ bekrijo			2
 belkinjo			3
 beštijo			2
 biohemijo			2
-biologijo			2
+biologijo			3
 birokratijo			2
 bjelkinjo			3
 bodljo			2
-boginjo	21		2
+boginjo	21		3
 bojo			2
 bostandžijo			2
 bošnjo			2
@@ -60,125 +60,125 @@ brbljo		M	2
 crnkinjo			2
 cvejo			2
 cvijo			2
-dadiljo			2
+dadiljo			3
 delijo			2
-demokratijo			2
+demokratijo			3
 dečkonjo			2
 dečurlijo			2
 dimiskijo			2
 dojiljo			2
 dojo			2
 droljo	28		2
-dugajlijo			2
+dugajlijo			3
 dunjo	66		2
 dućandžijo			2
 efendijo			2
-ekologijo			2
-ekonomijo			2
+ekologijo			3
+ekonomijo			3
 ekscelencijo			2
 ekselencijo	65		2
 eminencijo			2
-etnologijo			2
+etnologijo			3
 fakultetlijo			2
 familijo			2
 farmacijo			2
-filozofijo			2
+filozofijo			3
 franjo			2
 gajo			2
-galaksijo			2
+galaksijo			3
 galamdžijo			2
-geografijo			2
-geologijo			2
+geografijo			3
+geologijo			3
 glavonjo			2
 goljo			2
 gospojo			2
 grujo			2
 gujo			2
 halapenjo			2
-hemijo			2
+hemijo			3
 huljo			2
 hurijo			2
 idiotkinjo			2
-igumanijo			2
+igumanijo			3
 ilijo			2
-iluzijo	17		2
-inteligencijo	15		2
-ironijo			2
+iluzijo	17		3
+inteligencijo	15		3
+ironijo			3
 istorijo			3
 janjo			2
 jo			1
 jojo			2
 kajo			2
-kapijo			2
+kapijo			3
 kapljo			2
-kardiologijo			2
-keceljo			2
+kardiologijo			3
+keceljo			3
 klinjo			2
-kneginjo			2
+kneginjo			3
 koeljo			2
 kojo			2
-komisijo			2
-komšijo	30		2
-košuljo			2
+komisijo			3
+komšijo	30		3
+košuljo			3
 krnjo			2
-krntijo			2
+krntijo			3
 krvopijo			2
 kujo	24		2
-kutijo			2
+kutijo			3
 lenjo			2
 litijo			2
-liturgijo			2
-lobanjo			2
+liturgijo			3
+lobanjo			3
 lovkinjo			2
 lujo			2
 luđakinjo			2
-magijo			2
+magijo			3
 majo			2
 maljo			2
 manjo			2
 medonjo			2
-meteorologijo			2
+meteorologijo			3
 mijo			2
 milicijo	18		3
 miljo			2
-misijo			2
-mladoženjo			2
-mlakonjo			2
+misijo			3
+mladoženjo			3
+mlakonjo			3
 monahinjo			2
 mrljo			2
 mujo			2
 mušterijo			2
 nacijo			3
-nedeljo			2
-nerotkinjo			3
-neurologijo			2
-nevoljo			2
-ništarijo			2
+nedeljo			3
+nerotkinjo			4
+neurologijo			3
+nevoljo			3
+ništarijo			3
 nosonjo			2
-novajlijo			2
+novajlijo			3
 ohajo			2
-oklagijo			2
+oklagijo			3
 olujo			2
 ortakinjo			2
 pajo			2
-partijo			2
-pedagogijo			2
+partijo			3
+pedagogijo			3
 pesnikinjo			4
 petljo			2
 pokajo			2
-policijo	38		2
+policijo	38		3
 preljo			2
 prevarantkinjo			2
 prijo	37		2
-prokletinjo			2
-psihijatrijo			2
-psihologijo			2
+prokletinjo			3
+psihijatrijo			3
+psihologijo			3
 rajo			2
-revolucijo			2
+revolucijo			3
 rmpalijo			2
 robijo			2
-robinjo			2
-rogonjo			2
+robinjo			3
+rogonjo			3
 rospijo			2
 rođakinjo			2
 ruljo			2
@@ -186,27 +186,27 @@ sabljo			2
 sanjo			2
 sejo			2
 seljo	15		2
-siledžijo			2
-sirotinjo	26		2
-sivonjo			2
+siledžijo			3
+sirotinjo	26		3
+sivonjo			3
 skijo			2
 sluškinjo	17		3
 smajo			2
 snajo			2
-sociologijo			2
+sociologijo			3
 sojo			2
 srbadijo			2
 srpkinjo			2
 starkeljo			2
-stomatologijo			2
+stomatologijo			3
 strankinjo			3
-sudijo	71		2
+sudijo	71		3
 suljo			2
 sutkinjo			3
 svinjo	38		2
 svojo			2
 tekelijo			2
-televizijo			2
+televizijo			3
 tokijo			2
 tradicijo			3
 trbonjo			2
@@ -215,20 +215,20 @@ turkinjo			2
 ujo	24		2
 veleizdajo			2
 veljo			2
-veresijo			2
-verzijo			2
+veresijo			3
+verzijo			3
 veziljo			2
 vizijo			3
-vojvotkinjo			3
+vojvotkinjo			4
 zekonjo			2
 zemljo	298		2
 zmijo	13		2
-zoologijo			2
-čaršijo			2
+zoologijo			3
+čaršijo			3
 čežnjo			2
-čudakinjo			2
+čudakinjo			3
 Španijo			3
-šaljivdžijo			2
+šaljivdžijo			3
 šaruljo			2
 šeprtljo			2
 šeširdžijo			2
@@ -238,9 +238,9 @@ zoologijo			2
 šoljo			2
 šonjo			2
 šujo			2
-žderonjo			2
+žderonjo			3
 željo	20		2
 žgadijo			2
 žgoljo			2
-životinjo	19		2
+životinjo	19		3
 žudnjo			2

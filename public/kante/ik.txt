@@ -20,29 +20,29 @@ aspik	17		2
 atlantik			2
 automatik	373		2
 autoprevoznik	83		2
-azbučnik			2
+azbučnik			3
 ašik			2
 baltik			2
 baštinik	149		3
 bednik	224		2
 beležnik	430		2
 belolik			2
-besednik	230		2
-beskućnik	352		2
+besednik	230		3
+beskućnik	352		3
 besmrtnik	30		2
 besnik		M	2
 besomučnik		M	2
 besramnik		M	2
-bestidnik			2
+bestidnik			3
 bezakonik	28		2
-bezbožnik	137		2
+bezbožnik	137		3
 bezdušnik	14		2
-beznadnik			2
-bezobraznik	36		2
-bezočnik			2
+beznadnik			3
+bezobraznik	36		3
+bezočnik			3
 bezumnik			2
 bezvernik		M	2
-bezveznik			2
+bezveznik			3
 bezvoljnik			2
 bik	2267		1
 bistrik		M	2
@@ -98,26 +98,26 @@ delatnik	140		2
 deljenik		M	3
 delovodnik			2
 deonik		M	2
-desetnik			2
+desetnik			3
 despik			2
 dik			1
 dionik			2
 diplomatik			2
 diuretik	326		2
 djelatnik		J	2
-dlanovnik			2
+dlanovnik			3
 dnevnik	11446		2
-dobitnik	7969		2
+dobitnik	7969		3
 dodik			2
 doglavnik		M	2
 dogmatik	15		2
-dolaznik		M	2
-dopisnik	1792		2
-dosadnik		M	2
+dolaznik		M	3
+dopisnik	1792		3
+dosadnik		M	3
 doseljenik	86		2
 dostojanstvenik	38		2
-doušnik	140		2
-dovratnik	26		2
+doušnik	140		3
+dovratnik	26		3
 dramatik			2
 drenik		M	2
 družbenik		M	3
@@ -130,11 +130,11 @@ dušebrižnik	66		2
 dušik			2
 dušnik	169		2
 dužnik	2752		2
-dužnosnik	117		2
-dvoglasnik			2
+dužnosnik	117		3
+dvoglasnik			3
 dvojnik	334		2
 dvolik			2
-dvoličnik			2
+dvoličnik			3
 dvomesečnik			2
 dvornik			2
 džojstik		M	2
@@ -154,7 +154,7 @@ fik		M	1
 fiskulturnik		M	2
 frederik			2
 frik			1
-galičnik			2
+galičnik			3
 glasnik	4995		2
 glasnogovornik	511		2
 glavnik			2
@@ -163,19 +163,19 @@ gnusnik		M	2
 golubarnik	68		2
 gorionik	214		2
 goropadnik			2
-gospodarstvenik			2
+gospodarstvenik			3
 govedarnik		M	2
 govornik	1640		2
 gozbenik		M	3
 grabik			2
-gradonačelnik	21461		2
+gradonačelnik	21461		3
 grafik		M	2
-graničnik	104		2
+graničnik	104		3
 grbovnik			2
 grešnik	393		2
 grkokatolik			2
 gromovnik	113		2
-gubitnik	1273		2
+gubitnik	1273		3
 guščarnik			2
 hapšenik		M	2
 hemostatik			2
@@ -190,7 +190,7 @@ hodočasnik	112		4
 hranjenik		M	3
 hrastik			2
 ibrik		M	2
-idolopoklonik	68		2
+idolopoklonik	68		3
 ik			1
 ikolik			2
 imenik	751		3
@@ -198,32 +198,32 @@ inokosnik		M	2
 inovernik			2
 iseljenik	64		2
 iskušenik		M	2
-islednik	222		2
-isljednik			2
-ispisnik		M	2
+islednik	222		3
+isljednik			3
+ispisnik		M	3
 ispitanik	526		2
 isposnik	185		2
 ispovednik	470		2
-istomišljenik	133		3
+istomišljenik	133		4
 istorik			2
-istočnik	257		2
+istočnik	257		3
 izabranik	329		2
 izaslanik	1578		2
 izbornik	114		2
 izdajnik	1826		2
-izgnanik			2
-izgrednik			2
+izgnanik			3
+izgrednik			3
 izgubljenik		M	2
-izletnik	36		2
-izvidnik	17		2
+izletnik	36		3
+izvidnik	17		3
 izvornik	171		2
-izvoznik	1638		2
+izvoznik	1638		3
 jablanik			2
 jadnik	462		2
 jajnik	141		2
 jajolik	10		2
 jednolik	10		2
-jednomišljenik		M	3
+jednomišljenik		M	4
 jelik			2
 jelovnik	1134		2
 jeretik	286		2
@@ -231,7 +231,7 @@ jezik	60066		2
 ječmenik			3
 jurišnik	52		2
 kadrovik			2
-kamatnik		M	2
+kamatnik		M	3
 kanonik	85		2
 kapelnik	43		2
 kapidžik			2
@@ -245,14 +245,14 @@ kiseonik	2355		2
 klasik	1225		2
 klenovnik			2
 klerik	22		2
-klevetnik	49		2
+klevetnik	49		3
 klik	2897		1
 klirik	145		2
 književnik	3471		2
 kokošarnik		M	2
 kolerik	14		2
 kolik	126		1
-količnik	222		2
+količnik	222		3
 kolnik			2
 komarnik			2
 komornik			2
@@ -261,19 +261,19 @@ konjanik	229		3
 konjušnik			2
 kopaonik			2
 kopernik			2
-kopljanik		M	2
+kopljanik		M	3
 kopredsednik			2
-korisnik	22384		2
+korisnik	22384		3
 kosnik		M	2
 košnik			2
-krajišnik		M	2
+krajišnik		M	3
 krajnik	294		2
 krajolik	355		3
 kramnik			2
 krik	1201		1
 kritik			2
 krivenik			2
-krivokletnik	16		2
+krivokletnik	16		3
 krivovernik		M	2
 krstolik			2
 krušik			2
@@ -294,7 +294,7 @@ ledenik		M	2
 lednik	42		2
 lekarnik			2
 lepolik		M	2
-lestvičnik			2
+lestvičnik			3
 lečnik	21		2
 lešnik	433		2
 lik	19790		1
@@ -315,7 +315,7 @@ masnik			2
 matik			2
 mađionik		M	2
 melanholik			2
-mesečnik	215		2
+mesečnik	215		3
 metalik	875		2
 mezozoik			2
 međuspremnik			2
@@ -342,36 +342,36 @@ multipraktik	105		2
 mučenik	2106		3
 mužik			2
 nadarbenik			2
-nadglednik			2
-nadnarednik			2
+nadglednik			3
+nadnarednik			3
 nadstojnik			2
-nadvratnik			2
+nadvratnik			3
 nadzornik	496		2
-najamnik	95		2
+najamnik	95		3
 nalik	6237		2
 namernik	138		2
 namesnik	1424		2
-nametnik			2
+nametnik			3
 nameštenik	103		2
 namjesnik		J	2
 napasnik	70		2
 naprsnik			2
-narednik	436		2
+narednik	436		3
 narkotik	114		2
-naručnik			2
+naručnik			3
 naseljenik		M	2
 nasilnik	678		2
-naslednik	4740		2
-nasljednik		J	2
+naslednik	4740		3
+nasljednik		J	3
 naslovnik			2
 nastavnik	5398		2
 nastojnik	41		2
 natporučnik	24		4
 naturščik		M	2
-naučnik	4488		2
-navodnik			2
+naučnik	4488		3
+navodnik			3
 nazivnik	43		2
-načelnik	12141		2
+načelnik	12141		3
 nebesnik			2
 nedeljnik	1887		2
 neistomišljenik			2
@@ -383,7 +383,7 @@ nervčik		M	2
 nesrećnik	360		2
 neurastenik			2
 neurotik	16		2
-nevelik	111		2
+nevelik	111		3
 nevernik	130		2
 nevlasnik			2
 nevoljnik	31		2
@@ -397,18 +397,18 @@ obaveznik			2
 obećanik			2
 oblik	28348		2
 obraćenik			2
-obveznik	2391		2
+obveznik	2391		3
 odabranik			2
 odbojnik	75		2
 odbornik	3359		2
-odmetnik	129		2
+odmetnik	129		3
 odseljenik			2
-odvodnik	10		2
+odvodnik	10		3
 odvojenik			2
 oklopnik		M	2
 okovratnik		M	4
 okrivljenik	30		2
-okrutnik			2
+okrutnik			3
 olimpik	190		2
 onolik			2
 opasnik			2
@@ -419,8 +419,8 @@ osiguranik	1061		2
 osumljičenik			2
 osumnjičenik			2
 osuđenik	384		2
-osvetnik	158		2
-otpadnik	168		2
+osvetnik	158		3
+otpadnik	168		3
 otpornik	292		2
 otpravnik	308		2
 otpremnik	42		2
@@ -428,7 +428,7 @@ otpuštenik			2
 ovlaštenik	13		2
 ovlašćenik			2
 ovolik			2
-ovratnik	13		2
+ovratnik	13		3
 očajnik	78		2
 oštećenik	33		2
 pablik			2
@@ -444,7 +444,7 @@ peharnik	25		2
 penaltik			2
 peradarnik		M	2
 pesnik	8738		2
-pečatnik			2
+pečatnik			3
 peščanik	999		2
 pik	2150		1
 piknik	569		2
@@ -456,18 +456,18 @@ plik	76		1
 plodnik			2
 pločnik	310		2
 pneumatik			2
-pobednik	10805		2
+pobednik	10805		3
 pobornik	918		2
 pobočnik			3
 pobunjenik	156		2
-podanik	319		2
-podbradnik			2
+podanik	319		3
+podbradnik			3
 podložnik			2
 podnarednik	43		2
 podnevnik			2
-podsetnik	1363		2
+podsetnik	1363		3
 podvižnik	434		2
-podvodnik			2
+podvodnik			3
 podvornik			2
 poglavnik	128		2
 pogrebnik	33		2
@@ -480,7 +480,7 @@ poklonik	332		2
 pokojnik	679		2
 pokrštenik	16		2
 polarnik		M	2
-polaznik	1434		2
+polaznik	1434		3
 polaženik			2
 poljoprivrednik	1335		2
 položajnik	82		2
@@ -492,39 +492,39 @@ pomazanik	60		2
 pomenik		M	3
 pomoćnik	10642		2
 ponedeljnik			2
-poreznik	114		2
-porotnik	70		2
+poreznik	114		3
+porotnik	70		3
 portik	35		2
-poručnik	836		2
-posednik	172		2
-poslanik	19624		2
+poručnik	836		3
+posednik	172		3
+poslanik	19624		3
 poslenik	199		2
 poslovnik	4179		2
 poslušnik	256		2
 poslužavnik	240		2
-posrednik	2216		2
+posrednik	2216		3
 postupnik			2
 posvećenik	78		2
 posvojenik			2
-potisnik			2
-potpisnik	1144		2
+potisnik			3
+potpisnik	1144		3
 potporučnik	223		4
-potpredsednik	20090		2
+potpredsednik	20090		3
 potpukovnik	884		4
 pouzdanik	18		2
-poučnik			2
+poučnik			3
 povelik	78		2
 poverenik	3980		2
 povik	134		2
-povodnik	31		2
-povratnik	826		2
-poznanik	986		2
+povodnik	31		3
+povratnik	826		3
+poznanik	986		3
 pozornik	257		2
-početnik	1512		2
+početnik	1512		3
 požarnik			2
 praoblik	13		2
 prastanovnik			2
-pravednik	362		2
+pravednik	362		3
 pravilnik	6064		2
 pravnik	3967		2
 pravokutnik			4
@@ -535,52 +535,52 @@ praznik	13692		2
 prašnik	11		2
 predajnik	665		2
 predbrojnik			2
-predradnik	31		2
+predradnik	31		3
 predsedik			2
-predsednik	169425		2
+predsednik	169425		3
 predstavnik	21908		2
 predstojnik	95		2
 preduzetnik	3099		4
-predvodnik	1124		2
+predvodnik	1124		3
 preljubnik	47		2
 premosnik			2
-prenosnik	236		2
+prenosnik	236		3
 preobraćenik			2
-prestolonaslednik	899		2
-prestolonasljednik		J	2
-prestupnik	149		2
-prethodnik	1782		2
-pretplatnik	457		2
-pretsednik			2
+prestolonaslednik	899		3
+prestolonasljednik		J	3
+prestupnik	149		3
+prethodnik	1782		3
+pretplatnik	457		3
+pretsednik			3
 pretvornik			2
-prevelik	1284		2
-prevoznik	958		2
-prevratnik			2
+prevelik	1284		3
+prevoznik	958		3
+prevratnik			3
 prečnik			2
 pribaltik			2
 prijamnik	10		2
 prijemnik	1261		2
 priložnik	45		2
 primopredajnik	49		2
-pripadnik	4784		2
+pripadnik	4784		3
 pripravnik	888		2
-priručnik	3420		2
+priručnik	3420		3
 pristupnik			2
-prisutnik			2
+prisutnik			3
 pritvorenik	131		2
-privatnik	1150		2
+privatnik	1150		3
 privrednik	1711		3
 privrženik	54		2
 pričasnik	20		2
 pričesnik			2
 prkosnik			2
-prognanik	79		2
-prokletnik	37		2
-prolaznik	672		2
+prognanik	79		3
+prokletnik	37		3
+prolaznik	672		3
 propovednik	448		2
 protivnik	8223		2
 provalnik	183		2
-provodnik	435		2
+provodnik	435		3
 prozaik	14		2
 prozivnik			2
 pročelnik	35		2
@@ -590,27 +590,27 @@ pukovnik	3413		2
 punoletnik	15		4
 punomoćnik	754		4
 putnik	4636		2
-rabotnik			2
+rabotnik			3
 radenik			2
 radnik	12467		2
 radoholik			2
 ranjenik	162		3
 raonik	42		2
-rasadnik	1034		2
+rasadnik	1034		3
 rasipnik	82		2
 raskolnik	39		2
 raskovnik		M	2
 raspusnik		M	2
 raspuštenik		M	2
 ratnik	1272		2
-razbludnik		M	2
+razbludnik		M	3
 razbojnik	649		2
-razmetnik			2
+razmetnik			3
 raznolik	443		2
-razrednik			2
+razrednik			3
 razuzdanik		M	2
-razvodnik	107		2
-razvratnik	41		2
+razvodnik	107		3
+razvratnik	41		3
 redenik	27		2
 redovnik	38		2
 refik			2
@@ -620,7 +620,7 @@ reznik			2
 rečnik	5458		2
 ribolik			2
 rik			1
-rimokatolik	81		2
+rimokatolik	81		3
 rizik	23903		2
 robovlasnik	70		2
 rodonačelnik		M	2
@@ -633,26 +633,26 @@ rudnik	3582		2
 rupnik			2
 ručnik	35		2
 sabesednik	49		2
-sabornik	21		2
+sabornik	21		3
 sadik			2
 sagovornik	8405		2
 samoglasnik	63		4
 samotnik	182		3
 samovoljnik			2
-samrtnik	39		2
+samrtnik	39		3
 sangvinik	13		2
 sanovnik	98		2
 saonik			2
-sapatnik	50		2
+sapatnik	50		3
 saplemenik	15		2
 sapotpisnik		M	2
-saputnik	650		2
-saradnik	9097		2
+saputnik	650		3
+saradnik	9097		3
 satljik		M	2
 satnik	32		2
 saučesnik	756		2
-savetnik	10608		2
-saveznik	2626		2
+savetnik	10608		3
+saveznik	2626		3
 savremenik	752		2
 semenik	18		3
 senik	46		2
@@ -680,12 +680,12 @@ sokovnik	151		2
 sopstvenik	131		2
 spomenik	10979		3
 spremnik	116		2
-sprovodnik		M	2
+sprovodnik		M	3
 sputnik			2
 sputnjik		M	2
 sramnik			2
-sramotnik		M	2
-srcolik			2
+sramotnik		M	3
+srcolik			3
 srebrnik			2
 sretnik	43		2
 srećnik	175		2
@@ -702,9 +702,9 @@ stradalnik	143		2
 strasnik		M	2
 subaštinik			2
 sudeonik		M	2
-suglasnik	67		2
+suglasnik	67		3
 sugovornik	72		4
-suludnik			2
+suludnik			3
 sumišljenik			2
 sunarodnik	243		2
 sunaslednik		M	2
@@ -712,18 +712,18 @@ sunčanik		M	2
 suparnik	357		2
 supotpisnik	11		2
 supružnik	397		2
-suputnik	19		2
+suputnik	19		3
 suučesnik			2
 suvlasnik	1730		2
 suđenik		M	2
 svakolik			2
 svekolik			2
-svetačnik			2
+svetačnik			3
 svetionik	859		2
 svetlarnik		M	2
 svetolik			2
-svećenik	298		2
-sveštenik	7157		2
+svećenik	298		3
+sveštenik	7157		3
 svodnik	19		2
 tabornik			2
 tajnik	243		2
@@ -755,47 +755,47 @@ udarnik		M	2
 udavljenik		M	2
 udžbenik	2464		3
 ugaonik			2
-uglednik	29		2
+uglednik	29		3
 ugljenik	406		3
 ugljovodonik			2
-ugodnik		M	2
+ugodnik		M	3
 uhapšenik	21		2
 umanjenik			2
-umetnik	7979		2
+umetnik	7979		3
 umirovljenik	17	J	2
 umivaonik	128		2
 umnik		M	2
 umobolnik	30		4
 unesrećenik			2
 unmik			2
-upisnik			2
-upitnik	2369		2
+upisnik			3
+upitnik	2369		3
 uporednik			2
 uposlenik	44		2
 upravnik	5566		2
-urednik	13853		2
+urednik	13853		3
 urlik	238		2
-urotnik			2
+urotnik			3
 urođenik	25		2
-usadnik	27		2
+usadnik	27		3
 usamljenik	151		2
-useljenik	25		2
-usisnik	32		2
+useljenik	25		3
+usisnik	32		3
 usklik	107		2
-uskličnik	26		2
+uskličnik	26		3
 ustanik	47		2
 usvojenik	51		2
 utopljenik	33		2
 utrenik			2
-uvodnik	398		2
-uvoznik	2077		2
+uvodnik	398		3
+uvoznik	2077		3
 uznik			2
-uzročnik	1593		2
-uzvanik			2
+uzročnik	1593		3
+uzvanik			3
 uzvik	301		2
-uzvičnik			2
+uzvičnik			3
 učenik	9945		3
-učesnik	8044		2
+učesnik	8044		3
 uškopljenik	18		2
 varenik			2
 vaskolik	10		2
@@ -818,7 +818,7 @@ većnik	1186		2
 vežbenik			3
 vidik	562		2
 vinovnik	210		2
-višekratnik			2
+višekratnik			3
 višnjik		M	2
 vježbenik		J	3
 vladik			2
@@ -834,47 +834,47 @@ vrsnik			2
 vršnik		M	2
 zabavnik	784		2
 zagovornik	1212		2
-zakladnik			2
-zakonik	1798		2
+zakladnik			3
+zakonik	1798		3
 zakupnik	25		2
 zaljubljenik	1012		2
-zaludnik		M	2
+zaludnik		M	3
 zaluđenik	127		2
 zamenik	17869		3
-zapisnik	4241		2
+zapisnik	4241		3
 zaposlenik	98		2
 zapovednik	849		2
 zarobljenik	577		2
-zaručnik	55		2
+zaručnik	55		3
 zaslužnik			2
 zastavnik	179		3
-zastupnik	4144		2
+zastupnik	4144		3
 zatočenik	278		2
-zatočnik		M	2
+zatočnik		M	3
 zatvorenik	723		2
 zaverenik	53		2
-zavetnik		M	2
-zavidnik			2
-zavisnik	867		2
-zavodnik	338		2
-začetnik	622		2
-zaštitnik	4179		2
+zavetnik		M	3
+zavidnik			3
+zavisnik	867		3
+zavodnik	338		3
+začetnik	622		3
+zaštitnik	4179		3
 zbornik	2725		2
-zemljoposednik	42		2
+zemljoposednik	42		3
 zemljoradnik	438		2
 zemljovlasnik			2
 zimovnik	106		2
 zlatnik	425		2
 zlobnik	35		2
-zlopatnik			2
-zloslutnik			2
+zlopatnik			3
+zloslutnik			3
 zlosrećnik		M	2
-zluradnik		M	2
+zluradnik		M	3
 zmijolik			2
-znanstvenik			2
+znanstvenik			3
 znatiželjnik			2
 zupčanik	137		2
-zvaničnik	2924		2
+zvaničnik	2924		3
 zvezdolik			2
 zvonik	862		2
 zvornik			2
@@ -914,7 +914,7 @@ zvučnik	1105		2
 štrik			1
 žalosnik		M	2
 žednik		M	2
-železnik			2
+železnik			3
 ženik	108		2
 žeravnik			2
 žilnik			2
@@ -923,32 +923,32 @@ zvučnik	1105		2
 žrtvenik	329		3
 župnik	757		2
 bijednik			2
-bilježnik			2
+bilježnik			3
 grješnik			3
 ispovjednik		M	2
-mjesečnik			2
+mjesečnik			3
 namjernik			2
 nevjernik			2
 pjesnik			2
 pješčanik			2
-pobjednik			2
-podsjetnik			2
-posjednik			2
-potpredsjednik			2
+pobjednik			3
+podsjetnik			3
+posjednik			3
+potpredsjednik			3
 povjerenik			2
-predsjednik			2
-prijenosnik	15		2
-prijestupnik			3
-prijevoznik	10		2
+predsjednik			3
+prijenosnik	15		3
+prijestupnik			4
+prijevoznik	10		3
 propovjednik			2
-riječnik			2
+riječnik			3
 rječnik			3
-savjetnik			2
+savjetnik			3
 svjetionik		M	2
-umjetnik			2
+umjetnik			3
 vjerenik			3
 vjernik		M	2
 zamjenik			3
 zapovijednik			2
 zapovjednik			2
-zemljoposjednik			2
+zemljoposjednik			3

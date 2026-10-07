@@ -26,7 +26,7 @@ izviđa	15		2
 izvređa	69		2
 karavađa			2
 karađorđa			2
-knjigovođa	504		3
+knjigovođa	504		4
 kolovođa		M	4
 konđa			2
 krađa	4612		2
@@ -36,7 +36,7 @@ leđa	16857		2
 lođa	111		2
 luđa	66		2
 mašinovođa	447		2
-medveđa	447		2
+medveđa	447		3
 mesojeđa			2
 međa	370		2
 milosrđa	717		4
@@ -46,7 +46,7 @@ mrđa			2
 nagađa	780		2
 najluđa	140		3
 najmlađa	1412		3
-najređa	55		2
+najređa	55		3
 najslađa	141		3
 najtvrđa	50		3
 naređa			2
@@ -86,7 +86,7 @@ putovođa		M	4
 razmeđa	34		2
 razvađa			2
 razvođa	40		2
-računovođa	747		2
+računovođa	747		3
 rađa	5442		2
 ređa	656		2
 riđa	98		2
@@ -102,7 +102,7 @@ svetlosmeđa			2
 svetogrđa	38		4
 sviđa	14810		2
 tamnosmeđa	43		2
-tromeđa			2
+tromeđa			3
 tuđa	1825		2
 tvrđa	255		2
 ugađa	208		2
@@ -132,7 +132,7 @@ zlopogleđa		M	2
 đurđa			2
 žeđa	12		2
 žitorađa			2
-medvjeđa			2
+medvjeđa			3
 naslijeđa	177		3
 sazviježđa	23		2
-vrijeđa	268		2
+vrijeđa	268		3

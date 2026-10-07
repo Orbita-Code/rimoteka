@@ -8,32 +8,32 @@ Iraku			2
 Irsku	122		2
 Maroku			2
 Mađarsku	717		3
-Meksiku			2
-Mozambiku			2
-Nemačku	2004		2
-Njemačku		J	2
-Norvešku	126		2
+Meksiku			3
+Mozambiku			3
+Nemačku	2004		3
+Njemačku		J	3
+Norvešku	126		3
 Poljsku	567		2
 Slovačku	120		2
 Tursku	1944		2
 advokatsku	427		2
-aerobiku	42		2
-aerodinamiku	159		2
-aerodromsku	102		2
+aerobiku	42		3
+aerodinamiku	159		3
+aerodromsku	102		3
 afrikanku			2
 afriku			2
-afričku	242		2
+afričku	242		3
 agencijsku	63		2
-agnostiku			2
-akademiku	261		2
-akademsku	1027		2
+agnostiku			3
+akademiku	261		3
+akademsku	1027		3
 akcenatsku			2
 akcijsku	61		2
 aktovku	43		3
-akustiku	123		2
-akustičku	29		2
+akustiku	123		3
+akustičku	29		3
 akušersku			2
-alatku	789		2
+alatku	789		3
 albanku	30		2
 albansku	897		2
 aleksandrijsku	41		2
@@ -46,22 +46,22 @@ amazonsku	15		2
 ambasadorku			2
 amerikanku			2
 ameriku			2
-američku	4224		2
+američku	4224		3
 amonijaku			2
-analitičku	309		2
+analitičku	309		3
 analošku			2
-anatomsku	93		2
-anegdotsku	10		2
-anglistiku	98		2
+anatomsku	93		3
+anegdotsku	10		3
+anglistiku	98		3
 anku			2
 antarktiku			2
 antigrčku			2
-antiku	90		2
+antiku	90		3
 antiromsku			2
 antirusku			2
 antisrpsku	334		2
 antiterorističku	38		2
-antičku	274		2
+antičku	274		3
 anđeliku			2
 anđelku	20		2
 anđeosku	26		2
@@ -70,32 +70,32 @@ apotekarku			2
 apotekarsku	74		2
 apoteku	1067		2
 aprilsku	72		2
-arabesku	13		2
-arapsku	258		2
+arabesku	13		3
+arapsku	258		3
 arbanašku	33		2
 argentinku			2
-arheološku	154		2
+arheološku	154		3
 arhetipsku	58		2
 arhitektonsku			2
 arhivsku	385		2
 arijevsku	32		2
-aritmetiku	60		2
+aritmetiku	60		3
 arktiku			2
 arktičku	23		2
 arku	45		2
 armijsku	19		2
 arnautsku			2
 artiljerijsku	123		2
-artističku	20		2
+artističku	20		3
 artičoku			2
 asketsku	21		2
-astrofiziku	216		2
+astrofiziku	216		3
 ataku			2
 atinsku	56		2
-atičku			2
+atičku			3
 atlantiku			2
-atlantsku	45		2
-atletiku	507		2
+atlantsku	45		3
+atletiku	507		3
 atletsku	296		2
 atomsku	1005		2
 atosku			2
@@ -104,15 +104,15 @@ australijsku	111		3
 austrijsku	443		2
 autobusku	579		2
 automatiku	259		2
-automatsku	1210		2
+automatsku	1210		3
 automehaničarsku	25		2
-automobilsku	743		2
+automobilsku	743		3
 autorku	296		2
-autorsku	422		3
+autorsku	422		4
 avalsku			2
-avionsku	378		2
+avionsku	378		3
 avnojsku			2
-azbuku	403		2
+azbuku	403		3
 azijsku	171		3
 babušku			2
 badnjaku	31		3
@@ -124,13 +124,13 @@ bakterijsku	149		2
 baku	1156		2
 balalajku	14		2
 baletsku	299		2
-balistiku	37		2
-balističku	86		2
+balistiku	37		3
+balističku	86		3
 balkansku	632		2
 balsku	32		2
 baltiku			2
-baltičku	34		2
-balčaku			2
+baltičku	34		3
+balčaku			3
 banatsku	162		2
 banditsku	17		2
 bangkoku			2
@@ -145,16 +145,16 @@ bansku			2
 bapsku			2
 baptističku			2
 baraku	210		2
-barbiku	94		2
+barbiku	94		3
 bardaku			2
 barjaku	58		2
 barku	232		2
-baroku	91		2
+baroku	91		3
 baronsku			2
 barsku	120		2
 bataljonsku			2
 baterijsku	150		2
-bavarsku	61		2
+bavarsku	61		3
 bazelsku			2
 baziliku	129		2
 bazuku			2
@@ -168,8 +168,8 @@ begovsku	12		2
 bejbisiterku			2
 bejzbolsku			2
 belačku			2
-beletristiku	167		2
-belešku	510		2
+beletristiku	167		3
+belešku	510		3
 beležniku	59		2
 belgijanku			2
 belgijsku	98		2
@@ -177,16 +177,16 @@ belorusku	44		4
 belosvetsku	34		2
 bengalsku			2
 benzinsku	357		2
-beogradsku	2204		2
+beogradsku	2204		3
 beočinsku			2
 beretku	49		2
 berlinsku	59		2
 bernsku			2
 beskičmenjaku			2
-beskućniku	63		3
+beskućniku	63		4
 besniku			2
 betonsku	379		2
-bezbožniku	19		3
+bezbožniku	19		4
 bezliku			2
 bezoku			2
 bećarsku			2
@@ -196,17 +196,17 @@ bešiku			2
 biblijsku	185		2
 bibliotekarku	16		2
 biblioteku	4287		2
-biciklističku	319		2
-bifteku	14		2
+biciklističku	319		3
+bifteku	14		3
 bihaćku	17		2
-bikovsku	10		2
+bikovsku	10		3
 biku	274		2
 bilijarsku			2
-bilješku		J	2
+bilješku		J	3
 biljku	1622		2
 biofiziku	30		2
-biografsku	39		2
-biološku	773		2
+biografsku	39		3
+biološku	773		3
 bioskopsku	313		2
 biračku	48		2
 biseksualku			2
@@ -242,20 +242,20 @@ bolesničku	38		2
 boljitku	555		2
 boljku	215		2
 boljševičku	57		2
-bolničarku	32		3
-bolničku	191		2
+bolničarku	32		4
+bolničku	191		3
 bombašku			2
-boravku	2117		2
+boravku	2117		3
 boračku	78		2
 boriku	34		2
 borilačku	108		2
 borku			2
 borsku	125		2
-bosansku	470		2
-bosiljku	25		2
+bosansku	470		3
+bosiljku	25		3
 bostonsku	14		2
-botaniku	88		2
-botaničku	134		2
+botaniku	88		3
+botaničku	134		3
 bošku			2
 bošnjaku			2
 bošnjačku	408		2
@@ -285,10 +285,10 @@ brzaku	17		2
 brzinsku	38		2
 budaku	24		3
 budilniku	24		3
-budističku	51		2
+budističku	51		3
 budvansku	55		2
 budžaku			2
-budžetsku	1020		2
+budžetsku	1020		3
 bugarku			2
 bugarsku	470		3
 buku	2814		2
@@ -299,7 +299,7 @@ buntovniku	16		3
 burku	59		2
 burlesku	33		2
 buržoasku	65		2
-butiku	325		2
+butiku	325		3
 buvljaku	754		2
 cariniku	68		4
 carinsku	711		3
@@ -316,22 +316,22 @@ ciku	80		2
 cimerku	48		2
 cincarsku			2
 cirku			2
-cirkusku	91		2
+cirkusku	91		3
 cjediljku			2
 crkvenjaku	12		3
-crnačku	33		2
+crnačku	33		3
 crnku	62		2
 crnogorku			2
-crnogorsku	1014		3
+crnogorsku	1014		4
 crnomorsku	82		4
 crpku			2
 crtačku	24		2
 crveniku			2
 crvku			2
 cvrčku	46		2
-daleku	805		2
+daleku	805		3
 daljinsku	255		2
-dalmatsku			2
+dalmatsku			3
 damasku			2
 damsku	15		2
 danku	44		2
@@ -344,17 +344,17 @@ davljeniku			2
 debarsku			2
 debeljaku			2
 debeljku	14		2
-degeneriku			2
+degeneriku			3
 dejtonsku	67		2
 deku	176		2
 delatniku	16		3
-demokratsku	3981		2
+demokratsku	3981		3
 demonsku	139		2
 dervišku			2
 desanku			2
 desetinku	51		2
 desetku	430		2
-despotsku	36		2
+despotsku	36		3
 detektivku	16		2
 detektivsku	104		2
 detinjsku			2
@@ -365,20 +365,20 @@ devojku	7152		2
 dečaku	1285		2
 dečačku	48		2
 dečku	836		2
-didaktiku	33		2
-didaktičku	33		2
-dijagnostiku	2147		2
+didaktiku	33		3
+didaktičku	33		3
+dijagnostiku	2147		3
 dijalošku	26		2
 dijamantsku	65		2
 dijetetsku	20		2
 diku			2
 dimnjaku	116		3
-dinamiku	3083		2
+dinamiku	3083		3
 dinamičku	288		2
 dinarsku	309		2
 dinastičku	14		2
 dinku			2
-diplomatsku	1020		2
+diplomatsku	1020		3
 diplomsku	60		2
 direktorku	585		2
 direku			2
@@ -387,46 +387,46 @@ diskografsku	105		2
 diskoteku	521		2
 disku	2679		2
 divljaku	34		2
-divovsku	32		2
+divovsku	32		3
 dizajnersku	239		2
 dlaku	2618		2
 dnevniku	2859		3
 dobitku	1049		2
-dobitniku	367		3
+dobitniku	367		4
 dobrovoljačku	62		2
 dodatku	821		2
 dodiku			2
 dodolsku			2
 doglavniku			2
 dogmatiku	55		2
-dogmatsku	49		2
-dohotku	246		2
+dogmatsku	49		3
+dohotku	246		3
 dojku	496		2
 doktorku	272		2
 doktorsku	1179		3
 doku	172		2
-dolasku	6392		2
+dolasku	6392		3
 domaku	170		2
 domaćinsku	113		2
 domaćičku			2
 dominikansku	63		2
-domovinsku	19		3
+domovinsku	19		4
 donatorsku	167		2
-dopisniku	211		3
-dopunsku	494		2
-doručku	368		2
+dopisniku	211		4
+dopunsku	494		3
+doručku	368		3
 doseljeniku	14		2
 doseljeničku			2
 dosetku	72		2
 dosjetku			2
 dotoku	58		2
 dotuku	79		2
-doušniku	16		3
+doušniku	16		4
 dovratku	42		2
-dovršetku	45		2
+dovršetku	45		3
 dovuku	104		2
 doznaku	57		2
-dočeku	672		2
+dočeku	672		3
 došljaku	33		2
 drakonsku	43		2
 dramatiku	88		2
@@ -446,8 +446,8 @@ dršku	348		2
 državniku	119		2
 državničku	116		3
 dubinsku	314		2
-duboku	2674		2
-dubrovačku	191		3
+duboku	2674		3
+dubrovačku	191		4
 dubrovniku			2
 duetsku	96		2
 dugačku	878		2
@@ -458,7 +458,7 @@ dunavsku	366		3
 duvaljku	20		2
 duvansku	266		2
 dušanku			2
-dušeku	228		2
+dušeku	228		3
 dušku			2
 dušniku	49		2
 dužniku	568		2
@@ -469,27 +469,27 @@ dvojezičku			2
 dvojku	526		2
 dvokliku			2
 dvorsku	183		2
-dvostruku	1113		2
+dvostruku	1113		3
 dvotačku			2
 džaku			2
 dželatsku			2
 džinovsku	148		3
-egipatsku	208		3
+egipatsku	208		4
 egipćanku			2
-egzotiku	123		2
-ekavsku	17		2
+egzotiku	123		3
+ekavsku	17		3
 eklektiku			2
-ekološku	1904		2
+ekološku	1904		3
 ekonomiku	500		2
-ekonomsku	11746		2
+ekonomsku	11746		3
 ekspertsku	205		2
 ekumensku	26		2
 elektriku	88		2
 elektromagnetsku	40		2
-elektroniku	1259		2
+elektroniku	1259		3
 elektronsku	3188		2
 empirijsku	100		2
-energetiku	4082		2
+energetiku	4082		3
 energetsku	3613		2
 englesku	778		2
 entitetsku	49		2
@@ -498,38 +498,38 @@ epiku	93		2
 epirsku			2
 epsku	396		2
 erotiku	106		2
-erotsku	196		2
+erotsku	196		3
 esejistiku	48		2
 esnafsku			2
-estetiku	1099		2
+estetiku	1099		3
 estetsku	636		2
-etiku	1116		2
-etimološku	12		2
+etiku	1116		3
+etimološku	12		3
 etiopljanku			2
-etičku	304		2
+etičku	304		3
 etničku	1016		2
 etnološku	48		2
 etrursku			2
-evropsku	15881		2
-fabriku	8162		2
-fabričku	249		2
-faktičku	221		2
+evropsku	15881		3
+fabriku	8162		3
+fabričku	249		3
+faktičku	221		3
 fakultetsku	312		2
-fanatiku	24		2
+fanatiku	24		3
 fanatičku			2
 fantastiku	689		2
 fantomsku	76		2
 farisejsku			2
 farmaceutsku	428		2
 farmersku	15		2
-faustovsku	13		3
-fašističku	261		2
+faustovsku	13		4
+fašističku	261		3
 februarsku	76		4
 federacijsku			2
-feminističku	103		2
+feminističku	103		3
 fijoku			2
 filmsku	1908		2
-filološku	69		2
+filološku	69		3
 filosofsku	59		2
 filozofsku	417		2
 finansijsku	9322		2
@@ -537,16 +537,16 @@ finku			2
 finsku	222		2
 fioku	457		2
 fiskulturniku			2
-fiziku	3171		2
-fiziološku	157		2
-fizičku	4317		2
+fiziku	3171		3
+fiziološku	157		3
+fizičku	4317		3
 fišeku			2
 fleku	237		2
 foku	43		2
 folku	37		2
-fonetiku	88		2
-fonetsku	23		2
-fonološku			2
+fonetiku	88		3
+fonetsku	23		3
+fonološku			3
 forenziku	55		2
 forenzičku	81		2
 fotku	680		2
@@ -563,7 +563,7 @@ frušku			2
 fudbalsku	1607		2
 gabrovačku			2
 gacku			2
-galaktiku	12		2
+galaktiku	12		3
 galaktičku	25		2
 galensku	16		2
 galerijsku	20		2
@@ -573,19 +573,19 @@ gdanjsku			2
 generalku	75		2
 generalsku	24		2
 generičku	63		2
-genetiku	594		2
-genetičku	104		2
+genetiku	594		3
+genetičku	104		3
 genetsku	553		2
 gensku	58		2
 geodetsku	66		2
 geofiziku	47		2
-geografsku	650		2
+geografsku	650		3
 geološku	116		2
 gepeku	409		2
 gerilsku	60		2
 germansku	51		2
-gigantsku	77		2
-gimnastiku	500		2
+gigantsku	77		3
+gimnastiku	500		3
 gimnastičarku	14		2
 gimnastičku	39		2
 gipku			2
@@ -606,22 +606,22 @@ gornjaku			2
 gorsku	38		2
 gospićku			2
 gospodarsku	79		2
-gospodsku	38		2
+gospodsku	38		3
 gostinjsku	18		2
 gostinsku	59		2
 gotsku	36		2
 govorniku	170		3
 gradišku			2
-gradonačelniku	1960		3
+gradonačelniku	1960		4
 gradsku	4283		2
 grafiku	2346		2
 grafičku	2229		2
-gramatiku	787		2
-gramatičku	85		2
+gramatiku	787		3
+gramatičku	85		3
 gramofonsku	31		2
 gravitacijsku			2
 građansku	1382		3
-građevinsku	2020		3
+građevinsku	2020		4
 grašku	86		2
 grešku	9989		2
 grešniku	107		3
@@ -636,7 +636,7 @@ gruzijsku	97		3
 gruzinsku			2
 grčku	925		2
 gubitku	2780		2
-gubitniku	35		3
+gubitniku	35		4
 gurmansku	35		2
 gusarsku	15		2
 gusku	126		2
@@ -653,14 +653,14 @@ halabuku			2
 halku			2
 hanuku			2
 hardversku	297		2
-harmoniku	526		2
+harmoniku	526		3
 havajsku	26		2
 hašku	164		2
 hebrejsku			2
 helensku	30		2
 hemijsku	1080		2
-heraldiku	46		2
-hercegovačku	53		4
+heraldiku	46		3
+hercegovačku	53		5
 herojsku	175		2
 heruvimsku			2
 hidrauliku	79		2
@@ -669,28 +669,28 @@ hidrološku	22		2
 higijensku	117		4
 hijerarhijsku	73		2
 hilandarsku	34		2
-hiljadarku	136		3
-hipiku			2
+hiljadarku	136		4
+hipiku			3
 hipoteku	1289		2
 hiruršku	447		2
 histološku	18		2
 hladnjaku	215		3
 hodniku	1866		3
 hokejašku	16		2
-holandsku	195		2
+holandsku	195		3
 holivudsku	177		2
 holografsku	13		2
 hologramsku	25		2
 hormonsku	285		2
 horsku	73		2
-hotelsku	273		2
+hotelsku	273		3
 hraniteljku			2
 hraniteljsku	149		2
 hrenovku			2
 hrišćanku	43		2
 hrišćansku	1368		2
-hroniku	486		2
-hronološku	52		2
+hroniku	486		3
+hronološku	52		3
 hrvatku			2
 hrvatsku	2408		2
 hrčku	28		2
@@ -700,24 +700,24 @@ hunsku	15		2
 hvarsku			2
 hvataljku	16		2
 ibarsku			2
-ideološku	957		2
-idiomatsku			2
-idiotsku	69		2
+ideološku	957		3
+idiomatsku			3
+idiotsku	69		3
 igranku	185		2
-igračku	1721		2
+igračku	1721		3
 ilirsku	43		2
 imeniku	255		4
 imeničku			2
 imenjaku	77		4
 imetku	64		2
 imleku			2
-imovinsku	873		3
+imovinsku	873		4
 indijanku			2
 indijansku	45		2
 indijku			2
 indijsku	250		2
 industrijsku	1964		2
-informatiku	2029		2
+informatiku	2029		3
 informatičku	524		2
 insbruku			2
 inspektorku	23		2
@@ -729,21 +729,21 @@ iransku	208		2
 iračku	102		2
 irsku	122		2
 isaku			2
-iseku	300		2
+iseku	300		3
 isečku	62		2
 ishemijsku	24		2
-iskonsku	206		2
+iskonsku	206		3
 islamsku	972		2
 isledniku	20		2
-ispeku	150		2
+ispeku	150		3
 isporuku	3387		4
 isposniku	10		2
 isposničku	13		2
-ispravku	840		2
+ispravku	840		3
 istarsku	37		3
 isteku	2946		2
 istinsku	1494		3
-istoku	12319		2
+istoku	12319		3
 istorijsku	3885		2
 istoriku			2
 istočniku	32		2
@@ -764,15 +764,15 @@ izdajničku	177		2
 izdanku	39		2
 izdavačku	1246		2
 izlagačku	81		2
-izlasku	3899		2
+izlasku	3899		3
 izliku			3
-izmaku	1194		2
+izmaku	1194		3
 iznimku	36		2
 izostanku	184		2
 izraelsku	280		4
 izreku	1112		3
 izuzetku	125		2
-izvidniku			3
+izvidniku			4
 izviđačku	51		2
 izvorniku	89		2
 izvorsku	101		2
@@ -797,7 +797,7 @@ japansku	612		2
 jarebiku			2
 jarku	317		2
 jaropolku			2
-jastuku	441		2
+jastuku	441		3
 jataku	10		3
 jauku	13		3
 javašluku			2
@@ -806,8 +806,8 @@ jedinku	265		2
 jednaku	1073		3
 jednjaku	116		3
 jednocevku			2
-jednoliku			2
-jednooku			2
+jednoliku			3
+jednooku			3
 jedrenjaku	43		2
 jektiku			2
 jeku	2387		2
@@ -823,16 +823,16 @@ jetku	10		2
 jevrejku			2
 jevrejsku	476		2
 jezersku	56		3
-jeziku	40162		2
-jezičku	666		2
+jeziku	40162		3
+jezičku	666		3
 joku			2
 jonesku			2
 jonsku	29		2
-jordansku	38		2
+jordansku	38		3
 jorku			2
 jovanku			2
 jufku			2
-jugoistoku	1401		2
+jugoistoku	1401		3
 jugoslovensku	1058		2
 julku			2
 junaku	1104		2
@@ -855,19 +855,19 @@ kalifornijsku	44		2
 kalpaku			2
 kaluđersku			2
 kamilavku			2
-kanadsku	148		2
+kanadsku	148		3
 kanalsku	67		2
 kancelarijsku	129		2
 kanoniku			2
 kanoničku			2
 kanonsku	119		2
 kapetansku	21		2
-kapitalističku	152		2
+kapitalističku	152		3
 kapitensku	259		2
 kaplarsku			2
 kapriku			2
-karakteristiku	957		2
-kariku	346		2
+karakteristiku	957		3
+kariku	346		3
 karlovačku	94		2
 karnevalsku	100		2
 kartonsku	229		2
@@ -878,19 +878,19 @@ kaspijsku			2
 katarku	14		2
 katoliku	25		4
 katoličku	778		4
-kaubojsku	21		3
+kaubojsku	21		4
 kaučuku			2
 kazaljku	61		2
 kazanjsku			2
 kazansku			2
 kazašku			2
 kačaniku			2
-kašiku	1720		2
+kašiku	1720		3
 kažnjeničku			2
 keltsku	27		2
-keramiku	353		2
-keramičku	82		2
-kibernetiku			2
+keramiku	353		3
+keramičku	82		3
+kibernetiku			3
 kijevsku	61		2
 kinesku	1122		2
 kinetiku	29		2
@@ -902,7 +902,7 @@ kiseljaku	24		2
 kiseoniku	99		2
 kićanku			2
 klanovsku			2
-klasiku	555		2
+klasiku	555		3
 klavirsku	251		2
 kleku			2
 kleričku			2
@@ -924,7 +924,7 @@ kninsku	53		2
 književniku	353		3
 književnoistorijsku			2
 književnojezičku			2
-koautorsku			3
+koautorsku			4
 kockarsku	27		2
 kocku	1233		2
 kokošku	193		2
@@ -932,7 +932,7 @@ koku	209		2
 kolarsku			2
 kolevku	452		2
 koliku	1925		2
-količniku	25		3
+količniku	25		4
 koljačku			2
 kolku			2
 kolonjsku	42		2
@@ -946,11 +946,11 @@ komiku	58		2
 komitsku			2
 kompjutersku	781		2
 komunikacijsku	126		2
-komunističku	738		2
+komunističku	738		3
 komšijsku	97		2
 komšiku			2
-komšiluku	2153		2
-konaku	661		2
+komšiluku	2153		3
+konaku	661		3
 konferencijsku	138		2
 konjaku	21		3
 konjaniku	27		4
@@ -964,7 +964,7 @@ koraku	5835		3
 korejsku	43		2
 korensku			2
 korintsku			2
-korisniku	6883		3
+korisniku	6883		4
 korisničku	281		2
 korporacijsku	18		2
 korušku			2
@@ -976,16 +976,16 @@ kosovku			2
 kosovsku	1507		3
 kostariku			2
 kostolačku	10		2
-kotarsku			2
+kotarsku			3
 kotorsku	61		3
 koviljku			2
 kozaku			2
-kozaračku	13		3
+kozaračku	13		4
 kozarsku			2
-kozmetiku	751		2
+kozmetiku	751		3
 kozmetičarku	17		2
-kozmetičku	127		2
-kozmičku	11		2
+kozmetičku	127		3
+kozmičku	11		3
 košarkašku	537		2
 košarku	3289		2
 košutnjaku			2
@@ -995,7 +995,7 @@ krajišniku			2
 krajoliku	134		4
 kraku	389		2
 kraljevačku	89		2
-kraljevsku	727		2
+kraljevsku	727		3
 kranjsku	80		2
 kratkoveku			2
 kratku	2922		2
@@ -1005,17 +1005,17 @@ krečnjaku	60		2
 krfsku			2
 krhku	247		2
 kriku	65		2
-kriminalistiku	78		2
-kriminalističku	89		2
+kriminalistiku	78		3
+kriminalističku	89		3
 krinku	13		2
 kritiku	5060		2
-kritičku	670		2
+kritičku	670		3
 krivolaku			2
 krišku	259		2
 krku			2
-krletku	11		2
+krletku	11		3
 krojačku	39		2
-krokodilsku	17		2
+krokodilsku	17		3
 kroniku			2
 krotku	23		2
 krstašku	14		2
@@ -1031,7 +1031,7 @@ kubansku	131		2
 kubiku	143		2
 kuhinjsku	161		2
 kukavičku	28		4
-kukavičluku	82		2
+kukavičluku	82		3
 kuku	1114		2
 kukuriku	26		2
 kulaku			2
@@ -1052,12 +1052,12 @@ kvebeku			2
 kvočku	39		2
 kćerku	1071		2
 laboratorijsku	310		3
-laiku	334		2
-laičku	45		2
+laiku	334		3
+laičku	45		3
 lakonsku			2
 laku	2906		2
 lasersku	178		2
-latiničku	10		2
+latiničku	10		3
 latinku			2
 latinsku	383		2
 lavovsku	37		2
@@ -1066,7 +1066,7 @@ legionarsku	13		2
 lekarku	45		2
 lekarsku	1035		2
 leksiku	88		2
-leksičku	51		2
+leksičku	51		3
 leku	620		2
 leleku			2
 lenku			2
@@ -1089,8 +1089,8 @@ ligašku	18		2
 liku	4409		2
 limarsku	14		3
 limenku	248		2
-lingvistiku	266		2
-lingvističku	135		2
+lingvistiku	266		3
+lingvističku	135		3
 linijsku	26		2
 linku	2301		2
 liriku	206		2
@@ -1108,14 +1108,14 @@ lobističku	43		2
 logiku	3127		2
 logistiku	1123		2
 logističku	938		2
-logičku	390		2
+logičku	390		3
 logorašku			2
 logorsku	148		2
 londonsku	169		2
-lopovluku	286		2
-lopovsku	149		2
+lopovluku	286		3
+lopovsku	149		3
 lopušniku			2
-lovačku	285		2
+lovačku	285		3
 lozinku	2140		2
 lucerku	92		2
 ludaku			2
@@ -1133,7 +1133,7 @@ magijsku	143		2
 magnetsku	54		2
 majdanpeku			2
 majku	9496		2
-majmunsku	11		2
+majmunsku	11		3
 majorku			2
 majsku	136		2
 majstorsku	70		2
@@ -1144,11 +1144,11 @@ malecku			2
 maličku			2
 maloletniku	190		5
 maloletničku	71		5
-mamurluku	35		2
+mamurluku	35		3
 manastirsku	393		4
 manekenku	239		2
 manevarsku	32		2
-manijaku	38		3
+manijaku	38		4
 manioku			2
 manjinsku	433		2
 manjku	329		2
@@ -1158,11 +1158,11 @@ marinku			2
 marketinšku	577		2
 marksističku			2
 marku	2046		2
-marokansku	17		2
+marokansku	17		3
 marsovsku	27		3
 maserku			2
 masku	2530		2
-maslinjaku	34		3
+maslinjaku	34		4
 masonsku	75		2
 mastiku	23		2
 matematiku	3164		2
@@ -1184,12 +1184,12 @@ medenjaku			2
 medicinsku	3546		4
 medijsku	3738		3
 mediteransku	275		2
-mehaniku	634		2
+mehaniku	634		3
 mehaničarsku	15		2
-mehaničku	510		2
+mehaničku	510		3
 mehansku			2
 meksikanku			2
-meksičku	119		2
+meksičku	119		3
 meku	779		2
 melodijsku	25		2
 melodramsku	18		2
@@ -1198,16 +1198,16 @@ memorijsku	476		2
 menadžersku	116		2
 meraku			2
 mesečniku	43		2
-metafiziku	226		2
+metafiziku	226		3
 metalsku	107		2
 metaluršku	17		2
 metarsku	25		2
-meteorološku	97		2
+meteorološku	97		3
 meteorsku	28		2
 metku	76		2
 metohijsku			2
-metriku	63		2
-metričku	16		2
+metriku	63		3
+metričku	16		3
 mečku		M	2
 međugradsku	48		2
 međuljudsku	17		2
@@ -1232,13 +1232,13 @@ mirnodopsku	49		2
 misionarsku	123		2
 mistiku	141		2
 mističku	24		2
-mitološku	72		2
+mitološku	72		3
 mitraljesku	23		2
 mitrovačku	18		2
 mitrovičku			2
 mitsku	232		2
 mišku			2
-mišolovku	37		3
+mišolovku	37		4
 mladalačku	176		2
 mladenku			2
 mladiku			2
@@ -1271,14 +1271,14 @@ morfološku	49		2
 mornaričku	46		2
 mornarsku	22		2
 morsku	752		2
-moskovsku	149		2
+moskovsku	149		3
 mostarsku	29		2
 motelsku			2
-motiku	334		2
+motiku	334		3
 motivsku			2
 motku	344		2
 motoriku	230		2
-mozaiku	405		2
+mozaiku	405		3
 mozaičku	13		2
 mraku	5013		2
 mravinjaku	70		2
@@ -1294,7 +1294,7 @@ muslimanku	49		2
 muslimansku	603		2
 muslinsku			2
 muzejsku	246		2
-muziku	22340		2
+muziku	22340		3
 muzičarku			2
 muzičku	3760		2
 mučeniku	453		4
@@ -1303,20 +1303,20 @@ mušku	1818		2
 mužjaku	82		3
 mužjačku			2
 nabavku	9178		2
-nacističku	264		2
-nadimku	393		2
+nacističku	264		3
+nadimku	393		3
 nadljudsku	58		3
 nadmorsku	145		2
 nadnebesku			2
 nadolasku			2
 nadsvetsku			2
-nadvožnjaku	132		3
+nadvožnjaku	132		4
 nadzorniku	54		3
 nadčoveku			2
-naglasku	69		2
+naglasku	69		3
 nailasku	60		2
 naivku			2
-najamniku	10		3
+najamniku	10		4
 najamničku	19		2
 najlonsku	65		2
 namensku	291		2
@@ -1325,13 +1325,13 @@ namesniku	164		2
 nameštaljku	59		2
 naopaku	75		2
 napadačku	88		2
-napitku	178		2
+napitku	178		3
 naposletku	2200		2
 naposljetku		J	2
-napretku	3918		2
-napuljsku	12		2
-naputku			2
-naredniku	32		3
+napretku	3918		3
+napuljsku	12		3
+naputku			3
+naredniku	32		4
 narkomanku	10		2
 narkomansku	25		2
 narodnjačku	37		2
@@ -1340,24 +1340,24 @@ naruku	569		2
 naseku			2
 nasilniku	142		3
 nasilničku	57		2
-nasledniku	627		3
-nasljedniku		J	3
-nastanku	2827		2
-nastavku	16079		2
+nasledniku	627		4
+nasljedniku		J	4
+nastanku	2827		3
+nastavku	16079		3
 nastavniku	629		3
 nastojniku			2
 nauku	9510		2
-nautičku	42		2
-naučniku	459		3
+nautičku	42		3
+naučniku	459		4
 navijačku	166		2
 naviku	2620		3
 navlaku	128		2
 navuku	313		2
 naznaku	439		3
-načelniku	721		3
+načelniku	721		4
 načelničku			2
 našku			2
-nebesku	593		2
+nebesku	593		3
 neboračku			2
 nebrasku			2
 nedeljku			2
@@ -1370,21 +1370,21 @@ nejednaku	44		4
 nekanonsku	13		2
 neku	76462		2
 neljudsku	18		3
-nemačku	2004		2
+nemačku	2004		3
 neolitsku	24		2
 neonsku	29		2
 neprijateljsku	376		2
-nepriliku	164		2
+nepriliku	164		3
 neradniku			3
 neradničku			2
 nerodimku			2
 nesrećniku	64		2
-nestanku	597		2
-neuku	34		2
-neurološku	52		2
+nestanku	597		3
+neuku	34		3
+neurološku	52		3
 neuronsku	34		2
 neutronsku	40		2
-neveliku	103		3
+neveliku	103		4
 nevenku			2
 neverniku	13		3
 nevoljniku	24		2
@@ -1400,25 +1400,25 @@ nimfomanku	10		2
 nisku	2095		2
 nišavsku	19		2
 nišku	411		2
-njemačku		J	2
+njemačku		J	3
 njujorku			2
 njujoršku	130		3
 njušku	257		2
 nobelovku			2
 nordijsku	42		2
 normansku	10		2
-norvešku	126		2
+norvešku	126		3
 nosiljku	76		2
 novaku	17		3
 novinarku	459		4
 novinarsku	773		2
 novinsku	294		2
 novogrčku			4
-novosadsku	539		2
+novosadsku	539		3
 novčaniku	621		2
 nudističku	23		2
 nuklearku	175		2
-numeričku	193		2
+numeričku	193		3
 nužniku	19		3
 obalsku	18		2
 obilasku	655		2
@@ -1428,28 +1428,28 @@ oblutku			2
 obožavateljku	19		2
 obratniku			2
 obračunsku	92		2
-obroku	845		2
-obronku	103		2
+obroku	845		3
+obronku	103		3
 obuku	14972		3
 obućarsku	33		2
-obvezniku	374		3
+obvezniku	374		4
 odbitku	384		2
 odbojkašku	123		2
 odbojku	1472		2
 odborniku	244		2
 odborničku	294		2
-odeljku	1768		2
+odeljku	1768		3
 odgonetku	38		2
 odjeku	53		3
-odlasku	3309		2
+odlasku	3309		3
 odliku	239		3
-odlomku	209		2
+odlomku	209		3
 odluku	51282		3
-odmetniku	18		3
+odmetniku	18		4
 odmetničku			2
-odreku			2
-odresku	10		2
-odseku	3034		2
+odreku			3
+odresku	10		3
+odseku	3034		3
 odsečku	18		2
 oduku	21		2
 odustanku	33		2
@@ -1457,7 +1457,7 @@ odvrtku			2
 odvuku	243		2
 odžaku			2
 oficirsku			2
-ogranku	577		2
+ogranku	577		3
 ohridsku	74		2
 okeansku	28		2
 okovratniku			2
@@ -1467,37 +1467,37 @@ olimpijsku	892		2
 olimpiku			2
 olovku	1598		2
 oltarsku	39		2
-oluku	32		2
+oluku	32		3
 omladinsku	643		2
 omoriku	42		2
 omsku			2
 onaku			2
-onoliku	202		2
-ontološku	79		2
+onoliku	202		3
+ontološku	79		3
 opaku	182		3
 opalsku			2
-opanku	55		2
-opasku	1512		2
+opanku	55		3
+opasku	1512		3
 opeku	125		3
 operacijsku			2
 opersku	113		2
-oporavku	1511		2
+oporavku	1511		3
 oporuku	51		4
 opravku	375		2
 opreku	17		3
-opstanku	1106		2
-optiku	607		2
+opstanku	1106		3
+optiku	607		3
 optimističku	80		2
 optičku	414		2
 optoku			2
 optuženiku	90		2
 optuženičku	149		2
-opušku			2
+opušku			3
 opštinsku	828		2
 organsku	1635		2
 orguljašku			2
 orijašku			2
-orlovsku			2
+orlovsku			3
 ortakluku			2
 ortaku	171		2
 ortačku	17		2
@@ -1506,40 +1506,40 @@ osaku			2
 oseku	96		3
 osiječku			2
 osinjaku			2
-osmansku	76		2
+osmansku	76		3
 osnivačku	173		2
 osobenjaku			2
 osovinsku			2
-ostanku	255		2
+ostanku	255		3
 ostatku	2968		2
 ostavku	11890		2
 osuđeniku	60		2
 osuđeničku			2
 osvajačku	36		2
-osvetniku	20		3
+osvetniku	20		4
 osvetničku	31		2
 osvitku			2
 otačku	14		2
-otisku	124		2
-otoku	737		2
+otisku	124		3
+otoku	737		3
 otomansku	110		4
-otpadniku	18		3
+otpadniku	18		4
 otporniku	28		3
 otpravniku	23		3
 oveliku			4
 ovnujsku			2
-ovoliku	549		2
+ovoliku	549		3
 ovosvetsku			2
 ovozemaljsku	47		2
-ovratniku			3
+ovratniku			4
 ovčarsku			2
 oznaku	4268		3
 očajniku			2
 očajničku	77		2
 očinsku	90		3
-ožiljku	31		2
+ožiljku	31		3
 pacifiku			2
-pacifičku	21		2
+pacifičku	21		3
 packu	88		2
 pacovsku			2
 padobransku	39		2
@@ -1552,12 +1552,12 @@ palanku	437		2
 palačinku	125		2
 palestinsku	151		2
 palilulsku			2
-pamuku	57		2
+pamuku	57		3
 pancirku			2
 pandurku			2
 pandursku			2
-panegiriku			2
-paniku	1732		2
+panegiriku			3
+paniku	1732		3
 panonsku	151		2
 panoramsku	75		2
 pantersku			2
@@ -1567,7 +1567,7 @@ paorsku			2
 papinsku			2
 papističku			2
 papku			2
-papriku	1358		2
+papriku	1358		3
 papsku	96		2
 parafinsku			2
 paravojsku	19		2
@@ -1585,29 +1585,29 @@ pastirku			2
 pastirsku	130		2
 pastorku	41		3
 pastrmku	265		3
-patetiku	212		2
+patetiku	212		3
 patiku			2
 patku	275		2
-patološku	203		2
-patriotsku	501		2
+patološku	203		3
+patriotsku	501		3
 patuljku	76		2
 pauku	60		3
 pavlaku	1246		2
 paćeniku			2
 pašaluku			2
 pašnjaku	116		2
-pedagošku	399		2
+pedagošku	399		3
 pedijatrijsku	77		2
 pekarsku	71		2
-pekinšku	25		2
+pekinšku	25		3
 peku	961		2
 penzijsku	42		2
 periferijsku			2
-periku	149		2
+periku	149		3
 periodiku	129		2
 perku			2
 persijsku	139		2
-peruniku			2
+peruniku			3
 perušku			2
 perverznjaku			2
 pesimističku	29		2
@@ -1648,7 +1648,7 @@ pištaljku	299		2
 plamenku			2
 planinsku	247		2
 plansku	251		2
-plastiku	1212		2
+plastiku	1212		3
 platonsku	27		2
 plaćeničku	14		2
 plemensku	75		3
@@ -1661,13 +1661,13 @@ pljačku	2168		2
 pljesku	41		2
 pljosku	25		2
 pljusku	158		2
-pljuvačku	197		2
+pljuvačku	197		3
 plotsku			2
 plovku	14		2
 pločniku	264		3
 plošku			2
 pneumatiku	63		2
-pobedniku	1225		3
+pobedniku	1225		4
 pobedničku	556		2
 poborniku	17		3
 pobunjeniku			2
@@ -1675,91 +1675,91 @@ pobunjeničku	45		2
 podaleku			2
 podaničku	45		2
 podatku	435		2
-podbratku	19		2
+podbratku	19		3
 podgoričku	109		2
 podjednaku	350		2
 podlisku			2
 podlošku	35		2
 podmlatku	154		2
-podmorsku			2
+podmorsku			3
 podnesku	424		2
 pododeljku			2
 pododseku			2
 podrivačku			2
 podruku			2
-podršku	77882		2
+podršku	77882		3
 podseku			2
-podsetniku	24		3
+podsetniku	24		4
 poduku	38		3
 podunavsku	24		2
 podvarku			2
 podvožnjaku	18		2
 podvuku	109		2
 podznaku	82		2
-poetiku	549		2
+poetiku	549		3
 poetičku	46		2
-poetsku	283		2
+poetsku	283		3
 poglavniku	36		2
 pogonsku	214		2
-pogotku	147		2
+pogotku	147		3
 pogrebniku			2
-pogrešku	209		2
+pogrešku	209		3
 pojmovniku	32		2
 pokajniku	22		3
 pokajničku	17		2
 pokerašku			2
 pokloniku	24		2
 pokojniku	268		3
-pokrajinsku	771		3
+pokrajinsku	771		4
 pokretačku	229		2
 pokrivku			2
 pokućarku			2
 pokvarenjaku			2
-polasku	468		2
-polazniku	278		3
+polasku	468		3
+polazniku	278		4
 polemiku	1844		2
 polemičku	25		2
 polensku	43		2
 policajku	33		2
 policijsku	2181		2
-politiku	47925		2
-političku	19646		2
+politiku	47925		3
+političku	19646		3
 poljaku			2
 poljku			2
 poljsku	567		2
 polku	72		2
 polumraku	245		4
 poluotoku	47		5
-polutku	35		2
+polutku	35		3
 polutursku			2
-pomaku	99		2
+pomaku	99		3
 pomazaniku	10		2
 pomeniku			2
 pomoravsku			2
 pomorsku	337		2
 pomoćniku	376		2
-ponedeljku	31		2
-poneku	1337		2
+ponedeljku	31		3
+poneku	1337		3
 popevku			2
 popovsku			2
-popravku	2469		2
+popravku	2469		3
 porcelansku	13		2
 poresku	2313		2
-poretku	2966		2
+poretku	2966		3
 porečku			2
-pornografsku	23		2
-poroku	107		2
-porotniku			3
+pornografsku	23		3
+poroku	107		3
+porotniku			4
 portiku			2
 portoriku			2
 portugalsku	91		4
 poruku	20415		3
-poručniku	57		3
+poručniku	57		4
 poručničku			2
 posedniku	17		2
 poseku			2
 posinku			2
-poslaniku	1680		3
+poslaniku	1680		4
 poslaničku	1027		2
 posleniku	24		2
 posletku			2
@@ -1767,21 +1767,21 @@ posljetku		J	2
 poslovniku	1657		2
 poslušniku	19		3
 poslužavniku	108		3
-posredniku	144		3
-postanku	438		2
+posredniku	144		4
+postanku	438		3
 postavku	2222		2
-postotku	175		2
-postupku	28996		2
+postotku	175		3
+postupku	28996		3
 poteku	100		2
-potiljku	300		2
+potiljku	300		3
 potisku	39		2
 potkivačku			2
 potku	145		2
-potoku	1182		2
-potomku	108		2
+potoku	1182		3
+potomku	108		3
 potočarku			2
-potpisniku	83		3
-potpredsedniku	708		3
+potpisniku	83		4
+potpredsedniku	708		4
 potrošačku	531		2
 potuku	201		2
 pouku	1515		3
@@ -1789,8 +1789,8 @@ poveliku	64		2
 povereniku	813		2
 poviku	29		2
 povorku	441		2
-povratku	9753		2
-povratniku	63		3
+povratku	9753		3
+povratniku	63		4
 povratničku	71		2
 povrtarsku	120		2
 povrtnjaku	29		2
@@ -1798,13 +1798,13 @@ površinsku	259		2
 povuku	2949		2
 pozadinsku	128		2
 pozitronsku			2
-poznaniku	176		3
+poznaniku	176		4
 pozorniku	25		3
 poćerku			2
 početku	56081		2
-početniku	157		3
+početniku	157		4
 početničku	63		2
-počinku	17		2
+počinku	17		3
 pošiljku	804		2
 poštansku	478		3
 požešku	25		2
@@ -1827,18 +1827,18 @@ predavačku	22		2
 predačku			2
 prediku			2
 predlošku	114		2
-predsedniku	12004		3
+predsedniku	12004		4
 predsedničku	774		2
 predstavku	560		2
 predstavniku	1102		3
 preduboku			2
 predugačku	19		2
-predvodniku	38		3
+predvodniku	38		4
 pregratku			2
 preinaku			4
 prejaku	57		2
 preku	181		2
-prelasku	1661		2
+prelasku	1661		3
 premijerku	105		2
 preobuku	91		2
 prepirku	167		2
@@ -1847,20 +1847,20 @@ preporuku	5131		4
 prepravku	107		2
 prepreku	2692		2
 prerijsku			3
-preseku	815		2
+preseku	815		3
 preskoku	55		2
 preslatku	53		2
-prestanku	2156		2
-prestupniku	22		3
+prestanku	2156		3
+prestupniku	22		4
 presvlaku	61		2
 presvuku	103		2
 pretešku	38		2
-prethodniku	269		3
+prethodniku	269		4
 pretku	112		2
 pretpostavku	1884		4
 pretstavku			2
 pretuku	62		2
-preveliku	786		3
+preveliku	786		4
 previsoku	136		2
 prevlaku	98		2
 prevozniku	216		2
@@ -1876,26 +1876,26 @@ prijateljsku	1027		2
 prijemniku	182		3
 priključku	150		2
 prikrajku	50		2
-prilasku	53		2
+prilasku	53		3
 prilepsku			2
-priliku	63358		2
+priliku	63358		3
 priložniku			2
-primerku	586		2
+primerku	586		3
 primorsku	45		2
-pripadniku	294		3
+pripadniku	294		4
 pripeku			2
 pripovedačku	56		2
 pripovetku	338		4
 pripravniku	62		3
-priručniku	624		3
-pristanku	180		2
+priručniku	624		4
+pristanku	180		3
 priteku			2
-pritisku	2267		2
+pritisku	2267		3
 pritku	16		2
 pritoku	62		2
 pritvorsku	196		2
 privatniku	214		2
-privesku	59		2
+privesku	59		3
 privuku	2013		2
 priznaku			2
 prizrensku	93		2
@@ -1910,16 +1910,16 @@ produžetku	1199		2
 profesionalku			2
 profesorku	413		2
 profesorsku	105		2
-prognaniku			3
-programsku	764		2
+prognaniku			4
+programsku	764		3
 prokletniku			2
 prokurdsku			2
-prolasku	611		2
-prolazniku	153		3
-pronalasku	396		2
-proplanku	251		2
+prolasku	611		3
+prolazniku	153		4
+pronalasku	396		3
+proplanku	251		3
 propovedniku	27		2
-proroku	349		2
+proroku	349		3
 proročku	78		2
 prorusku	48		2
 proseku	16535		2
@@ -1928,7 +1928,7 @@ prosrpsku	37		2
 prostaku			2
 prostetiku			2
 prostirku	204		2
-prostitutku	159		3
+prostitutku	159		4
 proteinsku	87		2
 proteku	143		2
 protestantsku	78		2
@@ -1949,11 +1949,11 @@ prvaku	431		2
 prvomajsku	49		2
 prvouzroku			2
 psihijatrijsku	268		2
-psihičku	590		2
-psihološku	1406		2
+psihičku	590		3
+psihološku	1406		3
 psovku	259		2
 pubertetsku	12		2
-publiku	11316		2
+publiku	11316		3
 pucaljku	11		2
 pukovniku	323		3
 puku	892		2
@@ -1961,22 +1961,22 @@ punku	13		2
 pupku	109		2
 pupoljku	40		3
 purističku			2
-pustinjaku	25		3
-pustinjačku			3
+pustinjaku	25		4
+pustinjačku			4
 pustinjsku	73		2
 puteljku	14		2
 putniku	737		3
 putničku	94		3
 pučku	30		2
 pušku	2158		2
-pčelinjaku	804		3
-racionalističku	17		2
+pčelinjaku	804		4
+racionalističku	17		3
 radarsku	76		2
 radeniku			2
 radenku			2
 radijsku	91		2
 radikalsku	150		2
-radiološku	133		2
+radiološku	133		3
 radniku	1884		3
 radničku	614		3
 radojku			2
@@ -1987,10 +1987,10 @@ raku	793		2
 ranjeniku	35		4
 ranku			2
 rasadniku	394		2
-raseku	17		2
-rasističku	91		2
+raseku	17		3
+rasističku	91		3
 raskoraku	506		2
-rastanku	584		2
+rastanku	584		3
 rastku			2
 ratarsku	201		3
 ratku			2
@@ -1998,17 +1998,17 @@ ratniku	143		3
 ratničku	83		3
 ravnogorku			2
 razbojniku	71		3
-razliku	54299		2
+razliku	54299		3
 različku			2
-razmaku	1299		2
-raznoliku	148		2
+razmaku	1299		3
+raznoliku	148		3
 razumsku			2
 razvitku	795		2
-razvodniku	13		3
+razvodniku	13		4
 razvuku	121		2
 računarsku	879		2
 rašku	247		2
-realističku	71		2
+realističku	71		3
 realku			2
 rebeku			2
 recepcionarku			2
@@ -2022,19 +2022,19 @@ rejkjaviku			2
 rektorsku			2
 reku	5716		2
 religijsku	269		2
-repliku	2116		2
+repliku	2116		3
 reporterku	13		2
 republikansku	124		2
-republiku	5836		2
-republičku	952		2
+republiku	5836		3
+republičku	952		3
 resavsku	71		2
 retku	827		2
-retoriku	1331		2
-retoričku	67		2
+retoriku	1331		3
+retoričku	67		3
 retorsku			2
 revizorsku	167		2
 rečniku	1573		3
-rešetku	448		2
+rešetku	448		3
 režijsku	21		2
 režimsku	54		2
 režiserku			2
@@ -2043,17 +2043,17 @@ ribnjaku	202		3
 riječku	24		2
 rimsku	620		2
 ritmiku	44		2
-ritmičku	87		2
+ritmičku	87		3
 ritopeku			2
 rivalku	70		2
 rivalsku	34		2
-riziku	3034		2
-robotiku	205		2
+riziku	3034		3
+robotiku	205		3
 robotsku	91		2
 robovsku	21		2
 rodbinsku	28		3
 roditeljku			2
-roditeljsku	434		3
+roditeljsku	434		4
 rodonačelniku			2
 rodopsku			2
 rodovsku	13		2
@@ -2068,7 +2068,7 @@ ronilačku	69		2
 ropsku	46		2
 rođaku	451		3
 rođendansku	327		2
-rubriku	1611		2
+rubriku	1611		3
 rudarsku	171		2
 rudniku	1859		3
 rudničku	24		3
@@ -2081,21 +2081,21 @@ rusku	3803		2
 rutinsku	214		2
 ručku	1210		2
 ručniku			2
-rušilačku	49		3
+rušilačku	49		4
 ružičnjaku	29		4
 sabesedniku	17		2
 sabljarku	11		3
-saborsku	85		2
-sadističku	18		2
+saborsku	85		3
+sadističku	18		3
 sagovorniku	530		2
-sajamsku	217		2
+sajamsku	217		3
 sakupljačku	27		2
 salonsku	28		2
 samotničku			2
 samoubilačku	71		2
 samrtniku	15		2
 samrtničku			2
-sanduku	373		2
+sanduku	373		3
 sandžaku			2
 sandžačku	72		2
 sanitetsku	45		2
@@ -2105,31 +2105,31 @@ sapatniku			2
 sapunsku	14		2
 saputniku	61		2
 saradniku	449		2
-sarajevsku	170		3
+sarajevsku	170		4
 sarajsku			2
-saseku	86		2
+saseku	86		3
 sastanaku			2
-sastanku	19743		2
-sastavku			2
-sastojku	63		2
+sastanku	19743		3
+sastavku			3
+sastojku	63		3
 satansku	32		2
 satelitsku	399		2
-satiričku			2
+satiričku			3
 satirsku			2
 saudijsku	47		2
 saučesniku	19		2
-savetniku	355		3
+savetniku	355		4
 savetničku	22		2
-savezniku	190		3
-savezničku	111		3
+savezniku	190		4
+savezničku	111		4
 savku			2
 savsku	66		2
 sašku			2
 sažetku	105		2
 scensku	306		2
-sebičnjaku			3
+sebičnjaku			4
 sedeljku	43		2
-seizmičku	38		2
+seizmičku	38		3
 sekretarku	76		2
 sektašku	27		2
 sektorsku	28		2
@@ -2137,8 +2137,8 @@ seku	1990		2
 seljaku	753		2
 seljanku	36		2
 seljačku	185		2
-semantiku	122		2
-semantičku	121		2
+semantiku	122		3
+semantičku	121		3
 semensku	122		2
 seminarsku			2
 senatorku			2
@@ -2148,24 +2148,24 @@ seniorsku	440		2
 senjaku			2
 senku	2589		2
 senzorsku	31		2
-seosku	587		2
-septičku	139		2
+seosku	587		3
+septičku	139		3
 serijsku	761		3
 sestrinsku	66		2
 severnjačku			2
-severoistoku	914		2
+severoistoku	914		3
 sezonsku	258		2
-shematsku			2
+shematsku			3
 sholastiku			2
 sicilijansku	22		2
 sijamsku	14		2
 sikstinsku			2
 silabičku			2
-silasku	267		2
+silasku	267		3
 silikonsku	126		2
 simboliku	900		2
 simbolističku			2
-simboličku	276		2
+simboličku	276		3
 simku			2
 simultanku	103		2
 sinku			2
@@ -2174,7 +2174,7 @@ sinovsku			2
 sintagmatsku			2
 sintaksičku	16		2
 sintetiku	52		2
-sintetičku	118		2
+sintetičku	118		3
 sionsku			2
 sirijsku	359		3
 siromašku	30		2
@@ -2212,7 +2212,7 @@ sliku	33976		2
 slivniku	38		2
 slobodanku			2
 slovačku	120		2
-slovenačku	501		3
+slovenačku	501		4
 slovenku			2
 slovensku	657		2
 služavku	56		2
@@ -2229,8 +2229,8 @@ snajku	96		2
 snajpersku	41		2
 snimku	2877		2
 sobičku	92		2
-socijalističku	661		2
-sociološku	155		2
+socijalističku	661		3
+sociološku	155		3
 sofijsku	14		2
 softversku	385		2
 sokaku			2
@@ -2241,10 +2241,10 @@ solističku	43		2
 solunsku	47		2
 somborsku	60		2
 sotonsku			2
-sovjetsku	382		2
+sovjetsku	382		3
 sošku			2
 spahiluku			2
-spasilačku	112		3
+spasilačku	112		4
 spasiteljku			2
 spikersku			2
 spisateljku			2
@@ -2267,11 +2267,11 @@ srodniku	43		3
 srodničku	13		2
 srpsku	23155		2
 srčiku	15		2
-stabljiku	167		2
+stabljiku	167		3
 stakleniku	145		2
 staklenku	35		2
 staku			2
-stalešku	21		2
+stalešku	21		3
 stalku	96		2
 stamenku			2
 stanku	132		2
@@ -2282,16 +2282,16 @@ starateljsku	14		2
 staračku	41		3
 starinsku	88		2
 starogrčku			2
-statiku	126		2
-statistiku	6393		2
-statističku	374		2
+statiku	126		3
+statistiku	6393		3
+statističku	374		3
 statistku			2
-statičku	241		2
+statičku	241		3
 stavku	2037		2
 steku	14		2
 stepeniku	209		2
 stezaljku			2
-stilistiku	23		2
+stilistiku	23		3
 stilsku	223		2
 stisku	54		2
 stojanku			2
@@ -2308,7 +2308,7 @@ stratešku	1112		2
 stražarsku	23		2
 streljačku	44		2
 strku	11		2
-strnjiku	36		2
+strnjiku	36		3
 struku	1992		2
 strumičku			2
 stručnjaku	563		3
@@ -2323,7 +2323,7 @@ sudeoniku			2
 sudijsku	544		2
 sudoku	132		2
 sudsku	2900		2
-suglasniku			3
+suglasniku			4
 sultansku			2
 sumraku	217		3
 suparniku	92		3
@@ -2337,8 +2337,8 @@ suštinsku	1272		2
 svakojaku	51		4
 svakoliku			2
 svaku	45793		2
-svastiku	97		2
-svedoku	407		2
+svastiku	97		3
+svedoku	407		3
 svekoliku	108		2
 svemirsku			2
 svesku	924		2
@@ -2348,7 +2348,7 @@ svetlomrku			2
 svetovnjaku			2
 svetsku	7446		2
 svećnjaku	21		3
-svešteniku	744		3
+svešteniku	744		4
 svešteničku	137		2
 svinjarsku			2
 svinjsku	139		2
@@ -2360,15 +2360,15 @@ svjetiljku		J	2
 svodniku			3
 svojinsku	62		2
 svraku	19		2
-svršetku	265		2
+svršetku	265		3
 svuku	112		2
 tabaku	53		3
 tajlandsku	47		3
 tajvansku	15		3
-takmičarku	127		3
-takmičarsku	754		3
-taktiku	2168		2
-taktičku	186		2
+takmičarku	127		4
+takmičarsku	754		4
+taktiku	2168		3
+taktičku	186		3
 talačku	24		3
 talijansku	68		2
 tamišku			2
@@ -2380,43 +2380,43 @@ tavansku	12		2
 tačku	9464		2
 tašlaku			2
 teatarsku	63		2
-tehniku	6145		2
-tehničku	5508		2
-tehnološku	806		2
+tehniku	6145		3
+tehničku	5508		3
+tehnološku	806		3
 teksašku			2
-tektoniku			2
+tektoniku			3
 teku	2292		2
 telefonsku	1019		2
-telegrafsku	26		2
+telegrafsku	26		3
 teleoptiku			2
-telepatsku	16		2
+telepatsku	16		3
 televizijsku	723		2
 telku			2
 tematiku	1235		2
-tematsku	336		2
+tematsku	336		3
 tendersku	472		2
 teniserku	279		2
 tenisersku			2
-tenisku	243		2
-tenkovsku	26		2
+tenisku	243		3
+tenkovsku	26		3
 tenku	155		2
-teološku	107		2
-teoretsku	224		2
+teološku	107		3
+teoretsku	224		3
 teorijsku	895		2
 tepeluku			2
-terapeutsku	109		2
+terapeutsku	109		3
 terapijsku	157		2
 terensku	357		2
 teretnjaku	11		2
 terevenku			2
 terminsku	54		2
 termičku	245		2
-terorističku	336		2
+terorističku	336		3
 tesalsku			2
 tetku	473		2
 tetrapaku	92		2
 tešku	5439		2
-težaku	26		2
+težaku	26		3
 težačku			2
 tiku	47		2
 timočku	129		2
@@ -2425,13 +2425,13 @@ tinejdžerku	110		2
 tinejdžersku	51		2
 tipiku	185		2
 tipku	167		2
-tipološku	28		2
-tiransku	19		2
+tipološku	28		3
+tiransku	19		3
 titaniku			2
 todorku			2
 toksikološku	42		2
 toku	87285		2
-toliku	2947		2
+toliku	2947		3
 tomističku			2
 tonsku	74		2
 topličku			2
@@ -2450,13 +2450,13 @@ tračku	26		2
 trboseku			2
 treblinku			2
 trenerku	342		2
-trenersku	397		2
+trenersku	397		3
 trenirku			2
 trenutku	80460		2
-trepetljiku			2
+trepetljiku			3
 tresku	21		2
-trgovačku	508		3
-trgovinsku	663		3
+trgovačku	508		4
+trgovinsku	663		4
 triku	164		2
 trkačku	264		2
 trku	9378		2
@@ -2466,7 +2466,7 @@ trojaku			3
 trojku	2323		2
 tropsku	162		2
 troskoku	97		2
-trostruku	177		2
+trostruku	177		3
 trošku	4680		2
 trpku			2
 trsku	226		2
@@ -2478,8 +2478,8 @@ tršćansku	11		2
 tucaniku			2
 tugovanku			2
 tuku	1995		2
-tuniku	88		2
-turističku	3015		2
+tuniku	88		3
+turističku	3015		3
 tursku	1944		2
 tutorsku			2
 tuđinsku	37		2
@@ -2496,26 +2496,26 @@ ugljeniku	45		2
 ugodniku			2
 ujaku	195		3
 ujku			2
-ukrajinsku	224		3
-ulasku	4867		2
+ukrajinsku	224		4
+ulasku	4867		3
 ulošku	28		2
 ultrazvuku	212		4
 umaku	56		3
 umetku	13		2
-umetniku	851		3
-umetničku	2428		3
+umetniku	851		4
+umetničku	2428		4
 umivaoniku	22		2
 umnošku			2
 unesku			2
 unijatsku			2
 univerzitetsku	523		2
-unuku	528		2
-upitniku	324		3
+unuku	528		3
+upitniku	324		4
 upravljačku	247		2
 upravniku	415		2
 uranku			2
-uredniku	842		3
-uredničku	47		3
+uredniku	842		4
+uredničku	47		4
 uređivačku	684		2
 urođeniku			2
 urođeničku			2
@@ -2526,15 +2526,15 @@ usku	516		2
 uspavanku	143		2
 ustaniku	12		2
 ustaničku	90		2
-ustanku	1067		2
+ustanku	1067		3
 ustašku	166		2
 usvojeniku			2
 uteku	20		2
-utisku	2227		2
-utoku	112		2
+utisku	2227		3
+utoku	112		3
 utopijsku	49		2
 utopljeniku			2
-utorku	28		2
+utorku	28		3
 utreniku			2
 utrku	112		3
 utrošku	554		2
@@ -2543,15 +2543,15 @@ uvodniku	242		2
 uvuku	558		2
 uzlasku			2
 uzmaku			2
-uzorku	2459		2
-uzroku	587		2
+uzorku	2459		3
+uzroku	587		3
 uzročniku	59		2
 uzviku	11		3
 učeniku	1626		4
 učeničku	75		4
-učesniku	628		3
-učinku	1112		2
-učiteljsku	228		3
+učesniku	628		4
+učinku	1112		3
+učiteljsku	228		4
 užitku	167		2
 užičku	230		2
 vagonsku			2
@@ -2563,11 +2563,11 @@ vandalsku			2
 vansudsku	21		2
 vanzemaljku			2
 vanzemaljsku	68		2
-vareniku	14		2
+vareniku	14		3
 varku	84		2
 varošanku			2
 varošku			2
-varvarsku	46		2
+varvarsku	46		3
 varšavsku	23		2
 vaseljensku	68		2
 vasionsku	24		2
@@ -2581,7 +2581,7 @@ vegansku	23		2
 vegetarijansku	94		2
 vektorsku	59		2
 veku	27326		2
-veliku	57067		2
+veliku	57067		3
 vereniku	86		4
 vereničku			4
 verniku	110		3
@@ -2606,15 +2606,15 @@ viktorijansku	23		2
 viku	360		2
 vilenjaku	16		2
 vilinsku	21		2
-viljušku	206		2
+viljušku	206		3
 vinarsku	60		2
 vinsku	400		2
 vinčansku	28		2
-visoku	8145		2
+visoku	8145		3
 vitaminsku	43		2
 vitešku	104		2
 vitku	297		2
-vizitku	18		2
+vizitku	18		3
 višestruku	628		2
 viševersku			2
 višku	474		2
@@ -2634,7 +2634,7 @@ vojničku	386		2
 vojsku	13172		2
 vojvodsku			2
 vojvođansku	718		2
-volovsku	27		2
+volovsku	27		3
 volujsku			2
 voskarsku			2
 vosku	169		2
@@ -2657,7 +2657,7 @@ vrtuljku	11		2
 vršačku	51		2
 vršku	16		2
 vršnjaku	31		2
-vukodlaku	12		2
+vukodlaku	12		3
 vuku	4021		2
 vulkansku	54		2
 vučjaku			2
@@ -2671,15 +2671,15 @@ zadršku	74		2
 zaglavku			2
 zagonetku	526		4
 zagorsku			2
-zagrebačku	165		3
+zagrebačku	165		4
 zajedničku	7028		4
 zaječarsku	34		2
 zakačku			2
-zaključku	1614		2
-zakoniku	895		3
-zakonsku	2911		2
+zaključku	1614		3
+zakoniku	895		4
+zakonsku	2911		3
 zakusku	161		2
-zalasku	731		2
+zalasku	731		3
 zameniku	555		4
 zameničku			2
 zamerku	894		2
@@ -2688,42 +2688,42 @@ zamku	2496		2
 zanatsku	226		2
 zaostatku	602		2
 zapadnjačku	75		4
-zapeku	53		2
+zapeku	53		3
 zapevku			2
 zapećku	335		2
-zapisniku	932		3
+zapisniku	932		4
 zaposleniku			2
 zapovedniku	114		2
 zapovjedniku			2
 zapreku	33		3
 zapršku	113		2
 zarobljeniku	40		2
-zaručniku	11		3
+zaručniku	11		4
 zasenku	14		2
-zaseoku	475		3
+zaseoku	475		4
 zastanku	10		2
-zastupniku	250		3
-zatiljku	27		2
+zastupniku	250		4
+zatiljku	27		3
 zatočeniku			2
 zatočniku			2
 zatvoreniku	101		2
 zatvorsku	1100		2
 zavereniku	10		2
 zavijutku	18		2
-zavodniku	27		3
-zavodničku	15		3
+zavodniku	27		4
+zavodničku	15		4
 zavodsku			2
-završetku	12865		2
+završetku	12865		3
 zavuku	164		2
 začetku	644		2
 začinsku	47		2
-zaštitniku	958		3
+zaštitniku	958		4
 zbirku	3600		2
 zborniku	1276		3
 zbrku	583		2
 zdenku			2
 zeku	68		2
-zeleniku	33		2
+zeleniku	33		3
 zelenku			2
 zemaljsku	423		2
 zemičku			2
@@ -2736,13 +2736,13 @@ zlatku			2
 zlatnomrku			2
 zlikovačku	10		2
 zločinačku	234		2
-zmijoliku			2
+zmijoliku			3
 zmijsku	37		2
 znaku	6020		2
 značenjsku	49		2
 značku	332		2
-zodijaku	94		3
-zoološku	11		2
+zodijaku	94		4
+zoološku	11		3
 zorku			2
 zraku	455		2
 zriku			2
@@ -2768,8 +2768,8 @@ zvučniku	89		3
 ćerku	4280		2
 ćesarsku			2
 ćilibarsku			2
-ćiriličku	33		2
-ćirilsku	10		2
+ćiriličku	33		3
+ćirilsku	10		3
 ćorku			2
 ćorsokaku	267		2
 ćošku			2
@@ -2792,12 +2792,12 @@ zvučniku	89		3
 čekrku			2
 čeku	231		2
 čelenku	34		2
-čeliku	161		2
+čeliku	161		3
 čelniku	49		3
-čemeriku			2
+čemeriku			3
 čemerniku			2
 čerku			2
-čestitku	947		2
+čestitku	947		3
 četku	424		2
 četniku	24		3
 četničku	165		2
@@ -2844,7 +2844,7 @@ zvučniku	89		3
 Švajcarsku	224		3
 Švedsku	179		2
 šabačku	87		2
-šahovsku	251		2
+šahovsku	251		3
 šajkašku			2
 šajku	31		2
 šaku	1990		2
@@ -2852,7 +2852,7 @@ zvučniku	89		3
 šampionsku	764		2
 šangajsku	77		2
 šanku	246		2
-šaroliku	69		2
+šaroliku	69		3
 šarsku			2
 šefiku			2
 šegrtsku			2
@@ -2866,7 +2866,7 @@ zvučniku	89		3
 šiljku	14		2
 šinsku			2
 šipku	576		2
-široku	4575		2
+široku	4575		3
 šizmatičku			2
 šišarku	24		2
 šišku			2
@@ -2915,14 +2915,14 @@ zvučniku	89		3
 žarku	197		2
 železniku			2
 železnićku			2
-železničku	866		3
-željezničku		J	3
+železničku	866		4
+željezničku		J	4
 željku			2
-ženevsku	49		2
+ženevsku	49		3
 ženiku	102		2
 ženku	560		2
 žensku	2979		2
-žestoku	732		2
+žestoku	732		3
 žiku			2
 žitku	26		2
 živinarsku	12		2
@@ -2938,7 +2938,7 @@ zvučniku	89		3
 župničku			2
 župsku	20		2
 žurku	2102		2
-žurnalistiku	113		2
+žurnalistiku	113		3
 žvaku			2
 blijesku			3
 covjeku			2
@@ -2946,46 +2946,46 @@ djecaku			2
 djevojačku			2
 djevojku			2
 dječaku			2
-ijekavsku	11		2
+ijekavsku	11		3
 isječku			2
 kolijevku	46		3
 lijeku	22		3
 mjesečniku			2
-mlijeku	149		2
+mlijeku	149		3
 namjerniku			2
 namjesniku			2
 namještaljku			2
-naposlijetku	83		2
-odjeljku			2
-odsijeku			3
-odsjeku			2
+naposlijetku	83		3
+odjeljku			3
+odsijeku			4
+odsjeku			3
 osijeku	163		4
-pijesku	141		2
-pobjedniku			3
+pijesku	141		3
+pobjedniku			4
 pobjedničku			2
 popijevku			2
 posijeku			2
-potpredsjedniku			3
-predsjedniku			3
+potpredsjedniku			4
+predsjedniku			4
 predsjedničku			2
-primjerku			2
-privjesku			2
+primjerku			3
+privjesku			3
 prosjeku			2
 rijeku	559		2
-rijetku	39		2
+rijetku	39		3
 riječniku			2
 rječniku			4
-savjetniku			3
+savjetniku			4
 sijeku			2
 sjenku			2
-sjeveroistoku			2
+sjeveroistoku			3
 srijemsku	26		2
-svjedoku			2
+svjedoku			3
 svjetioniku			2
 svjetsku			2
 tijeku	199		3
-umjetniku			3
-umjetničku			3
+umjetniku			4
+umjetničku			4
 vijeku	1687		3
 vjeronauku			2
 zabilješku	13	J	4

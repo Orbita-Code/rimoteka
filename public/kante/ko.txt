@@ -1,12 +1,12 @@
 1797
 Maroko			2
-Meksiko			2
+Meksiko			3
 adamsko			2
 advokatsko	51		2
-aerodromsko	27		2
+aerodromsko	27		3
 afrikanko			2
-afričko	149		2
-akademsko	905		2
+afričko	149		3
+akademsko	905		3
 akcenatsko			2
 akcionarsko	1391		2
 ako	835453		2
@@ -22,14 +22,14 @@ ambasadorko			2
 amerikanko			2
 amerikansko			2
 ameriko			2
-američko	3573		2
-analitičko	286		2
-anegdotsko			2
+američko	3573		3
+analitičko	286		3
+anegdotsko			3
 anglosaksonsko	62		2
-antifašističko	92		2
+antifašističko	92		3
 antigrčko			2
 antisrpsko	128		2
-antičko	524		2
+antičko	524		3
 anđelko			2
 anđelsko	27		3
 anđeosko	77		2
@@ -37,10 +37,10 @@ apatinsko	42		2
 apeninsko			2
 apostolsko	175		2
 aprilsko	103		2
-arapsko	681		2
+arapsko	681		3
 arbanaško	52		2
 argentinsko	53		2
-arheološko	722		2
+arheološko	722		3
 arhetipsko	49		2
 arhitektonsko	782		2
 arhivsko	110		2
@@ -52,29 +52,29 @@ artilerijsko			2
 artičoko			2
 asirsko	11		2
 asketsko	33		2
-astrofiziko			2
+astrofiziko			3
 astronautičko			2
 astronautsko			2
-astronomsko	333		2
+astronomsko	333		3
 atavističko			2
 atinsko	27		2
-atlantsko	14		2
-atletiko			2
+atlantsko	14		3
+atletiko			3
 atletsko	225		2
 atomsko	406		2
 australijsko	131		3
 austrijsko	412		2
-autobiografsko	86		2
+autobiografsko	86		3
 autobusko	127		2
-automatsko	3599		2
+automatsko	3599		3
 autorko			2
-autorsko	1272		3
-avanturističko	49		2
+autorsko	1272		4
+avanturističko	49		3
 avetinjsko	12		2
 avgustovsko	43		2
-avionsko	56		2
+avionsko	56		3
 avnojevsko			2
-azbuko			2
+azbuko			3
 azijsko	189		3
 babajko			2
 babuško			2
@@ -83,9 +83,9 @@ bajkalsko			2
 bajko			2
 bako	25		2
 baletsko	57		2
-balističko	39		2
+balističko	39		3
 balkansko	838		2
-baltičko	115		2
+baltičko	115		3
 banatsko	393		2
 banditsko			2
 banjalučko	36		2
@@ -95,14 +95,14 @@ bansko			2
 baroko			2
 barometarsko			2
 barsko	22		2
-bavarsko	42		2
+bavarsko	42		3
 bačko	269		2
 baštensko	60		2
 belačko			2
 beletrističko	10		2
 belgijsko	102		2
 belko			2
-beogradsko	1246		2
+beogradsko	1246		3
 berzansko	206		2
 bescarinsko	10		2
 bestežinsko	78		2
@@ -117,11 +117,11 @@ bibliografsko	23		2
 biblioteko			2
 bihaćko	22		2
 biofiziko			2
-biografsko	34		2
-biološko	664		2
+biografsko	34		3
+biološko	664		3
 bioskopsko	84		2
 biračko	1959		2
-birokratsko	84		2
+birokratsko	84		3
 biseksualko			2
 biserko	33		2
 biskupsko			2
@@ -144,16 +144,16 @@ boko		M	2
 boksersko			2
 bolesničko	11		2
 boljševičko	24		2
-bolničarko			3
-bolničko	554		2
+bolničarko			4
+bolničko	554		3
 bombaško			2
 boračko	113		2
 borko			2
 borsko	240		2
-bosansko	395		2
+bosansko	395		3
 bostansko			2
 bostonsko			2
-botaniko			2
+botaniko			3
 boško			2
 bošnjačko	832		2
 božansko	895		2
@@ -177,8 +177,8 @@ bruko	15		2
 brzinsko	81		2
 brčko			2
 brđansko			2
-budističko	44		2
-budžetsko	423		2
+budističko	44		3
+budžetsko	423		3
 bugarsko	386		3
 buko			2
 bunjevačko	214		2
@@ -198,10 +198,10 @@ cimerko			2
 ciriško			2
 cjediljko			2
 crko			2
-crkvenoslovensko			3
-crnačko	24		2
+crkvenoslovensko			4
+crnačko	24		3
 crnobrko			2
-crnogorsko	1243		3
+crnogorsko	1243		4
 crnomorsko	21		4
 crtačko	30		2
 crvenko		M	2
@@ -223,14 +223,14 @@ dedinjsko			2
 dejtonsko	20		2
 deko	20		2
 delfijsko			2
-demagoško	54		2
-demokratsko	2367		2
+demagoško	54		3
+demokratsko	2367		3
 demonsko	154		2
 deoničarsko	109		2
 deroko			2
 desetorostruko			2
 desetostruko			2
-despotsko	36		2
+despotsko	36		3
 detektivko			2
 detinjsko	10		2
 devičansko	138		2
@@ -249,21 +249,21 @@ dinamičko	317		2
 dinarsko	64		2
 dinastičko	12		2
 dinko			2
-diplomatsko	548		2
+diplomatsko	548		3
 direktorko			2
 disciplinsko	37		2
 disko	817		2
 divljačko	80		2
-divovsko	10		2
+divovsko	10		3
 dlako			2
 dnevničko			2
-dogmatsko	92		2
+dogmatsko	92		3
 dojransko			2
 doktorko	15		2
 domaćinsko	185		2
 domorodačko	55		2
 donatorsko	72		2
-dopunsko	510		2
+dopunsko	510		3
 dramsko	859		2
 draško			2
 draženko			2
@@ -275,7 +275,7 @@ državničko	57		3
 dubinsko	489		2
 duboko	22955		2
 dubravko			2
-dubrovačko	138		3
+dubrovačko	138		4
 dugačko	746		2
 dugouško			2
 duhovničko			2
@@ -286,17 +286,17 @@ dužničko	576		2
 dvojako	355		2
 dvojko			2
 dvorsko	34		2
-dvostruko	6316		2
+dvostruko	6316		3
 džinovsko	89		3
 egejsko	280		2
-egipatsko	187		3
+egipatsko	187		4
 egipćanko			2
 egoističko			2
-ekavsko	15		2
+ekavsko	15		3
 eklektičko	11		2
 eko			2
-ekološko	1144		2
-ekonomsko	3709		2
+ekološko	1144		3
+ekonomsko	3709		3
 ekspertsko	128		2
 ekumensko	44		2
 ekvatorsko			2
@@ -313,47 +313,47 @@ epirsko	10		2
 episkopsko	87		2
 epsko	200		2
 ergonomsko	37		2
-erotsko	125		2
+erotsko	125		3
 esnafsko			2
-estetiko			2
+estetiko			3
 estetsko	461		2
 estonsko			2
 etarsko	346		2
-etiko			2
-etimološko	47		2
-etičko	424		2
+etiko			3
+etimološko	47		3
+etičko	424		3
 etničko	2048		2
 etnološko	98		2
 etrursko	32		2
-evropsko	8079		2
-fabričko	155		2
+evropsko	8079		3
+fabričko	155		3
 fakirsko			2
-faktičko	596		2
+faktičko	596		3
 fakultetsko	193		2
 faraonsko			2
 farisejsko			2
-fašističko	111		2
+fašističko	111		3
 februarsko	49		4
 federacijsko			2
 federiko			2
 feničansko	17		2
 fijasko	616		2
-filantropsko			2
+filantropsko			3
 filipinsko	15		2
 filmsko	683		2
-filološko	84		2
+filološko	84		3
 filosofsko	70		2
 filozofsko	614		2
 finansijsko	2932		2
 finsko	53		2
-fiziko			2
-fiziološko	155		2
-fizičko	6871		2
+fiziko			3
+fiziološko	155		3
+fizičko	6871		3
 flamenko		M	2
 flanelsko			2
 foko			2
-fonetsko	37		2
-fonološko			2
+fonetsko	37		3
+fonološko			3
 forenzičko	28		2
 fotografsko	165		2
 fototipsko	109		2
@@ -366,25 +366,25 @@ fudbalsko	726		2
 fuko			2
 galaktičko	25		2
 galsko	11		2
-gangstersko			2
+gangstersko			3
 gastronomsko	77		2
 gačko			2
 geko			2
 genealoško			2
 generičko	89		2
-genetiko			2
-genetičko	133		2
+genetiko			3
+genetičko	133		3
 genetsko	413		2
 genijalko			2
-geografsko	573		2
+geografsko	573		3
 geološko	102		2
 geometrijsko	105		2
 gerilsko	26		2
-gigantsko	56		2
+gigantsko	56		3
 ginko	161		2
 gipko		M	2
 gizdavko			2
-glagoljičko			2
+glagoljičko			3
 glagoljsko			3
 glagolsko	14		3
 glasačko	387		2
@@ -400,18 +400,18 @@ goranko			2
 goransko	24		2
 gorko	1485		2
 gorsko	17		2
-gospodsko	68		2
+gospodsko	68		3
 gostinsko			2
 gotovinsko	78		2
 gotsko	35		2
 govedarsko			2
 gradsko	6343		2
 grafičko	558		2
-gramatičko	54		2
+gramatičko	54		3
 gravitacijsko	20		2
 građanko			3
 građansko	2172		3
-građevinsko	3095		3
+građevinsko	3095		4
 grbavko		M	2
 greko			2
 grko			2
@@ -434,43 +434,43 @@ haško	268		2
 hebrejsko			2
 helensko	35		2
 hemijsko	1297		2
-hercegovačko	52		4
-hermetičko	28		2
+hercegovačko	52		5
+hermetičko	28		3
 herojsko	206		2
 higijensko	248		4
 hinko			2
 hipotetičko	130		2
 hipotetsko			2
 hirurško	774		2
-holandsko	188		2
+holandsko	188		3
 holivudsko	42		2
 holografsko	12		2
 horsko	243		2
-hotelsko	211		2
+hotelsko	211		3
 hrišćansko	970		2
-hronološko	48		2
+hronološko	48		3
 hrvatsko	2845		2
 huko			2
 huliganko			2
 hunsko	13		2
 iako	215611		3
 iberijsko	54		2
-ideološko	664		2
-idiotsko	44		2
-igračko	179		2
+ideološko	664		3
+idiotsko	44		3
+igračko	179		3
 ikako	1227		3
 iko	7892		2
 ikoliko		M	4
 ilirsko	141		2
 ilko			2
 imigracijsko			2
-imovinsko	989		3
+imovinsko	989		4
 imperatorsko	14		2
 indijansko	89		2
 indijsko	186		2
 indonezijsko			3
 industrijsko	929		2
-informatiko			2
+informatiko			3
 inko			2
 inkubatorsko			2
 inspektorko			2
@@ -480,7 +480,7 @@ ionako	13264		2
 iransko	137		2
 iračko	61		2
 irsko	167		2
-iskonsko	197		2
+iskonsko	197		3
 islamsko	244		2
 isposničko	13		2
 istako			2
@@ -517,8 +517,8 @@ japansko	492		2
 jarko	775		2
 jasminko			2
 jednako	16610		3
-jednoliko	46		2
-jednooko			2
+jednoliko	46		3
+jednooko			3
 jeko			2
 jelenko			2
 jelko			2
@@ -531,7 +531,7 @@ jetko	88		2
 jevrejsko	414		2
 jevtušenko			2
 jezersko	19		3
-jezičko	399		2
+jezičko	399		3
 joko			2
 jonesko			2
 jonsko	178		2
@@ -547,7 +547,7 @@ kablovsko	72		2
 kadetsko	79		2
 kadrovsko	271		2
 kafansko	69		2
-kajkavsko	28		2
+kajkavsko	28		3
 kako	1192129		2
 kalendarsko	73		2
 kalifornijsko	27		2
@@ -556,17 +556,17 @@ kaluđersko			2
 kamenko			2
 kamenorezačko			2
 kampanjsko	23		2
-kanadsko	121		2
+kanadsko	121		3
 kancelarijsko	134		2
 kancelarko			2
 kanoničko			2
 kanonsko	166		2
 kantarsko			2
 kapetansko			2
-kapitalističko	189		2
+kapitalističko	189		3
 kapitulantsko			2
 kardinalsko			2
-karipsko	74		2
+karipsko	74		3
 karlovačko	54		2
 kasačko			2
 kasko	811		2
@@ -576,13 +576,13 @@ katastarsko	60		2
 katoličko	290		4
 katunsko			2
 kaubojko			2
-kaubojsko	26		3
-kašiko			2
+kaubojsko	26		4
+kašiko			3
 kaštelansko			2
 kažnjeničko			2
 keltsko	79		2
-keramičko	48		2
-kibernetiko			2
+keramičko	48		3
+kibernetiko			3
 kijevsko	17		2
 kiko			2
 kilavko		M	2
@@ -615,7 +615,7 @@ komitsko			2
 komorsko	19		2
 kompjutersko	340		2
 komunikacijsko	37		2
-komunističko	377		2
+komunističko	377		3
 komšijsko	107		2
 konjičko	29		2
 konjsko	199		2
@@ -632,16 +632,16 @@ kosmopolitsko	64		2
 kosovko			2
 kosovsko	1117		3
 kostolačko	33		2
-kotarsko	13		2
+kotarsko	13		3
 kotorsko	23		3
 kovačko	12		2
-kozaračko	71		3
+kozaračko	71		4
 kozarsko			2
 košarkaško	182		2
 košmarsko			2
 kragujevačko	170		2
 krajiško	30		3
-kraljevsko	606		2
+kraljevsko	606		3
 kratko	23974		2
 kraško	30		2
 krcko			2
@@ -649,9 +649,9 @@ kremansko			2
 krepko	90		2
 kretensko	17		2
 krhko	360		2
-kriminalističko	88		2
+kriminalističko	88		3
 krimsko			2
-kritičko	1419		2
+kritičko	1419		3
 kritsko	27		2
 krivolinijsko			2
 krompirko			2
@@ -671,12 +671,12 @@ kurdsko	36		2
 kuvarsko			2
 kučko	41		2
 kćerko			2
-laičko	138		2
+laičko	138		3
 lajavko			2
 lako	96640		2
 lanjsko	45		2
 lasersko	408		2
-latiničko	120		2
+latiničko	120		3
 latinko			2
 latinsko	334		2
 lavovsko	16		2
@@ -685,7 +685,7 @@ lažljivko			2
 ledničko			2
 lekarsko	646		2
 leko		M	2
-leksičko	49		2
+leksičko	49		3
 lektorsko			2
 lenjinsko			2
 lepeničko			2
@@ -702,13 +702,13 @@ licitarsko	16		2
 lidersko	114		2
 ligaško	41		2
 liko		M	2
-lingvistiko			2
-lingvističko	99		2
-liriko			2
+lingvistiko			3
+lingvističko	99		3
+liriko			3
 lirsko	120		2
 lisko			2
 litvansko	36		2
-livadsko	35		2
+livadsko	35		3
 ličko	42		2
 ljigavko			2
 ljubinko			2
@@ -718,10 +718,10 @@ ljudsko	8000		2
 ljupko	256		2
 ljutko			2
 logiko			2
-logičko	416		2
+logičko	416		3
 londonsko	88		2
-lopovsko	69		2
-lovačko	607		2
+lopovsko	69		3
+lovačko	607		3
 ludačko	33		2
 ludaško			2
 lukavko			2
@@ -737,7 +737,7 @@ magijsko	146		2
 magnetsko	157		2
 majko	1243		2
 majmunko			2
-majmunsko	31		2
+majmunsko	31		3
 majsko	111		2
 majstorsko	196		2
 majčinsko	48		3
@@ -761,9 +761,9 @@ marko	22		2
 marksističko			2
 martovsko	91		3
 masonsko	49		2
-matematiko			2
+matematiko			3
 matematičko	353		2
-materijalističko	76		2
+materijalističko	76		3
 materinsko	36		4
 matičarsko			2
 matorko			2
@@ -775,9 +775,9 @@ mašinsko	487		2
 medicinsko	1393		4
 medijsko	1237		3
 mediteransko	199		2
-mehaničko	545		2
+mehaničko	545		3
 meko	1371		2
-meksičko	70		2
+meksičko	70		3
 melodijsko			2
 memoarsko	19		2
 mesijansko	27		2
@@ -813,7 +813,7 @@ misirsko			2
 mističko	69		2
 mitingaško			2
 mitko			2
-mitološko	113		2
+mitološko	113		3
 mitraljesko	26		2
 mitsko	359		2
 mićko			2
@@ -832,10 +832,10 @@ mlinarsko			2
 mlinsko	49		2
 mlitavko			2
 mnogoliko			2
-mnogostruko	715		2
+mnogostruko	715		3
 moldavsko			2
 momačko	91		2
-monako			2
+monako			3
 monarhističko	21		2
 monaško	345		2
 mongolsko	26		2
@@ -849,7 +849,7 @@ mornaričko			2
 mornarsko	39		2
 moronko			2
 morsko	562		2
-moskovsko	81		2
+moskovsko	81		3
 mostarsko	21		2
 motivsko	12		2
 mrko	395		2
@@ -868,7 +868,7 @@ mučeničko	54		4
 mučko	24		2
 muško	3454		2
 nabuko			2
-nacističko	86		2
+nacističko	86		3
 nadaleko	1884		2
 nadljudsko	24		3
 nadnebesko			2
@@ -893,13 +893,13 @@ narkotičko			2
 narodsko			2
 nasilničko	518		2
 nastavničko	369		2
-nauko			2
+nauko			3
 naveliko	685		2
 naviko			3
 navuko			2
 naširoko	1071		2
 nealbansko	75		2
-nebesko	2262		2
+nebesko	2262		3
 nedaleko	7048		4
 nedeljko			2
 neetičko	42		2
@@ -916,7 +916,7 @@ nelako			2
 neljudsko	102		3
 nemajko			2
 nemanjinsko			2
-nemačko	1703		2
+nemačko	1703		3
 nenamensko	300		2
 neolitsko	132		2
 neonsko	71		2
@@ -925,21 +925,21 @@ neplansko	59		2
 nepolitičko	35		2
 neprijateljsko	294		2
 neretko	7177		3
-neslatko			3
+neslatko			2
 nesportsko	102		2
 nesrpsko	80		2
 nestaško	44		2
-neuko	108		2
-neurološko	102		2
+neuko	108		3
+neurološko	102		3
 nevaljalko		M	2
-neveliko	82		3
+neveliko	82		4
 nevenko			2
 neverničko			3
 nevesinjsko			2
 nevestinsko			2
 nevisoko			2
 neviteško			2
-nevoljko	100		2
+nevoljko	100		3
 nezemaljsko			2
 neznanko			2
 nećako			3
@@ -954,17 +954,17 @@ ninko			2
 nisko	3686		2
 niukoliko		M	2
 niško	229		2
-njemačko		J	2
+njemačko		J	3
 njujorško	23		3
 njuško			2
-nomadsko	34		2
+nomadsko	34		3
 nordijsko	292		2
-norveško	101		2
+norveško	101		3
 novinarsko	722		2
 novinsko	95		2
 novko			2
-novosadsko	461		2
-numeričko	70		2
+novosadsko	461		3
+numeričko	70		3
 obračunsko	19		2
 obuko			3
 odborničko	128		2
@@ -975,7 +975,7 @@ ohridsko	123		2
 okeanijsko			2
 okeansko	54		2
 oko	494033		2
-okratko			3
+okratko			2
 oktobarsko	92		3
 olako	4447		3
 olimpijsko	464		2
@@ -984,7 +984,7 @@ oltarsko			2
 omladinsko	364		2
 onako	39491		2
 onoliko	11527		2
-ontološko	80		2
+ontološko	80		3
 opako	329		3
 opalsko			2
 operetsko			2
@@ -995,12 +995,12 @@ opštinsko	2479		2
 orašačko			2
 organičko			2
 organsko	776		2
-orlovsko	29		2
+orlovsko	29		3
 ortačko	169		2
 ortopedsko	71		2
 orvelovsko	10		2
 osečko			2
-osmansko	224		2
+osmansko	224		3
 osmostruko			2
 osnivačko	24		2
 osobenjačko			2
@@ -1009,7 +1009,7 @@ osvajačko	12		2
 osvetničko	20		2
 otadžbinsko			2
 otačko	19		2
-otkako	5741		2
+otkako	5741		3
 otomansko	222		4
 otpadničko			2
 ovako	90039		2
@@ -1018,7 +1018,7 @@ ovozemaljsko	131		2
 ovčarsko	80		2
 očajničko	35		2
 očinsko	49		3
-pacifičko	25		2
+pacifičko	25		3
 packo			2
 pacovsko			2
 pagansko	125		2
@@ -1026,7 +1026,7 @@ pakistansko	18		4
 pako			2
 palanačko			2
 paleolitsko			2
-paleontološko	18		2
+paleontološko	18		3
 palestinsko	88		2
 palićko	169		2
 panonsko	132		2
@@ -1046,18 +1046,18 @@ pastirsko	81		2
 pastrmko			3
 patko			2
 patničko			2
-patološko	265		2
-patriotsko	294		2
+patološko	265		3
+patriotsko	294		3
 pazarsko			2
 paško	29		2
-pedagoško	373		2
+pedagoško	373		3
 pekarsko	19		2
 peko			2
 penzijsko	1343		2
 periodsko			2
 perko			2
 persijsko	77		2
-peruniko			2
+peruniko			3
 perzijsko			2
 pesničko	453		2
 petko			2
@@ -1100,29 +1100,29 @@ podmuko			2
 podnebesko			2
 podrinjsko			2
 podrumsko			2
-podrško			2
+podrško			3
 podugačko	14		4
 podunavsko	24		2
 poetičko	38		2
-poetsko	364		2
+poetsko	364		3
 pogonsko	351		2
 pojednako			2
 pokajničko	44		2
 pokeraško			2
 pokloničko	148		2
 pokosovsko			2
-pokrajinsko	275		3
+pokrajinsko	275		4
 polagacko		M	2
 polako	34718		2
 polemičko	28		2
 policajko			2
 policijsko	696		2
-političko	8485		2
+političko	8485		3
 poljsko	413		2
 poltronsko	11		2
 polumeko			2
 pomorsko	102		2
-poneko	741		2
+poneko	741		3
 popreko	1080		3
 porcelansko	12		2
 poresko	885		2
@@ -1167,19 +1167,19 @@ preistorijsko	33		2
 prejako	71		2
 prekeltsko			2
 preko	315169		2
-prekratko	53		3
+prekratko	53		2
 prelako			2
 premijerko			2
 prenisko	28		2
-preretko			3
-preslatko	52		3
+preretko			2
+preslatko	52		2
 pretanko			2
 preteko			2
 preteško	94		2
 pretprazničko			2
 preusko	22		2
 prevarantsko	21		2
-preveliko	758		3
+preveliko	758		4
 previsoko	51		2
 prečansko			2
 preševsko			2
@@ -1187,29 +1187,29 @@ preširoko	14		2
 prgavko		M	2
 prigradsko	160		2
 prijateljsko	324		2
-priliko			2
+priliko			3
 primorsko	117		2
 prizrensko	11		2
 prištinsko	54		2
 prljavko		M	2
 profesorko	14		2
 profesorsko	58		2
-programsko	407		2
+programsko	407		3
 prokupačko	11		2
 pronalazačko			2
 proročko	63		2
 prosjačko	12		3
-prostitutko			3
+prostitutko			4
 provincijsko	35		2
 prozorsko	104		2
 proždrljivko			2
 prusko	10		2
 psihijatrijsko	184		2
-psihičko	1274		2
-psihološko	999		2
+psihičko	1274		3
+psihološko	999		3
 psihosomatsko	23		2
 pubertetsko	19		2
-publiko	22		2
+publiko	22		3
 puko	1864		2
 purističko			2
 pustinjsko	73		2
@@ -1232,16 +1232,16 @@ rajsko	265		2
 rakijsko			2
 rako			2
 ranko			2
-rasističko	76		2
+rasističko	76		3
 rasko			2
 rastko			2
 ratko			2
 ratničko	59		3
 razbojničko	32		3
-razliko			2
+razliko			3
 razmaženko			2
-raznoliko	205		2
-razroko	30		2
+raznoliko	205		3
+razroko	30		3
 razumsko	31		2
 računarsko	256		2
 računsko	10		2
@@ -1249,13 +1249,13 @@ raško	209		2
 reformsko	42		2
 reko	630		2
 religijsko	305		2
-rendgensko	72		2
+rendgensko	72		3
 repersko			2
-republiko			2
-republičko	1336		2
+republiko			3
+republičko	1336		3
 resko			2
 retko	27093		2
-retoričko	297		2
+retoričko	297		3
 retorsko			2
 revizorsko	36		2
 rečničko			3
@@ -1265,13 +1265,13 @@ režisersko	13		2
 ribarsko	426		3
 riječko	17		2
 rimsko	1342		2
-ritmičko	60		2
+ritmičko	60		3
 riziko	205		2
 robijaško	21		2
 robotsko	75		2
 robovsko	15		2
 roditeljko			2
-roditeljsko	378		3
+roditeljsko	378		4
 rodovsko	26		2
 roko		M	2
 rokoko	114		2
@@ -1292,13 +1292,13 @@ rumenko			2
 rumunsko	196		2
 rusko	3561		2
 rutinsko	163		2
-rušilačko	22		3
+rušilačko	22		4
 saborsko	25		3
-sadističko	38		2
+sadističko	38		3
 sako	773		2
 salko			2
 samoubilačko	26		2
-samouko	23		2
+samouko	23		3
 samoupravljačko			2
 samrtničko			2
 sanatorijumsko			2
@@ -1307,11 +1307,11 @@ sanjalačko			2
 sanko			2
 sanskrtsko			2
 saradničko	20		2
-sarajevsko	157		3
+sarajevsko	157		4
 satansko	55		2
 satelitsko	151		2
 savetničko	19		2
-savezničko	71		3
+savezničko	71		4
 savsko	147		2
 saško			2
 scensko	302		2
@@ -1323,12 +1323,12 @@ sektaško	44		2
 sektorsko	27		2
 seljanko	13		2
 seljačko	179		2
-semantičko	96		2
+semantičko	96		3
 semitsko	16		2
 senatorko			2
 seniorsko	166		2
 senko			2
-seosko	865		2
+seosko	865		3
 septembarsko	73		3
 serijsko	79		3
 sestrinsko	10		2
@@ -1337,21 +1337,21 @@ sečko			2
 sijamsko			2
 silabičko			2
 siledžijsko	36		2
-simboličko	337		2
+simboličko	337		3
 sinalko			2
 sinko			2
 sinodsko	11		2
 sinonimsko			2
 sinovsko			2
 sintaksičko			2
-sintetičko	218		2
+sintetičko	218		3
 sionsko			2
 sipko			2
 sirijsko	123		3
 siromaško	12		2
 sirotinjsko	57		2
 sisačko			2
-sistematsko	1124		2
+sistematsko	1124		3
 sistemsko	792		2
 skadarsko	154		2
 skandinavsko	23		2
@@ -1370,9 +1370,9 @@ slepačko			2
 slikarsko	233		2
 sliko			2
 slinavko			2
-slonovsko	16		2
+slonovsko	16		3
 slovačko	168		2
-slovenačko	506		3
+slovenačko	506		4
 slovenko			2
 slovensko	922		2
 služavko			2
@@ -1384,8 +1384,8 @@ smučarsko	103		2
 sneško	99		2
 snješko		J	2
 snobovsko	11		2
-socijalističko	315		2
-sociološko	278		2
+socijalističko	315		3
+sociološko	278		3
 sofističko	15		2
 softversko	739		2
 sokačko			2
@@ -1394,7 +1394,7 @@ sokolsko	152		2
 solomonsko	131		2
 solunsko	23		2
 somborsko	125		2
-sovjetsko	293		2
+sovjetsko	293		3
 splitsko	34		2
 spoljnotrgovinsko	64		2
 spomenarsko			2
@@ -1414,7 +1414,7 @@ srpsko	17867		2
 srčeko			2
 stajko			2
 stajsko	145		2
-staleško	26		2
+staleško	26		3
 staljinsko			2
 stambolsko			2
 stamenko			2
@@ -1428,8 +1428,8 @@ starinsko	88		2
 starogrčko	14		2
 starojko			2
 staroslovensko	29		2
-statistiko			2
-statičko	127		2
+statistiko			3
+statičko	127		3
 steko			2
 stepsko	25		2
 stidljivko			2
@@ -1450,7 +1450,7 @@ struko		M	2
 studentsko	352		2
 studijsko	582		2
 subotičko	241		2
-sudansko			2
+sudansko			3
 sudbinsko	131		2
 sudijsko	117		2
 sudsko	1736		2
@@ -1476,9 +1476,9 @@ svojinsko	97		2
 svrako			2
 tajlandsko	21		3
 tako	854036		2
-taktičko	167		2
+taktičko	167		3
 talijansko	48		2
-talmudsko			2
+talmudsko			3
 tanasko			2
 tanko		M	2
 tatarsko	50		3
@@ -1487,63 +1487,63 @@ tavansko			2
 tačko			2
 taško			2
 teatarsko	34		2
-tehniko			2
-tehničko	2752		2
-tehnološko	725		2
+tehniko			3
+tehničko	2752		3
+tehnološko	725		3
 teko			2
 teksaško			2
 tektonsko	15		2
 telefonsko	167		2
-teleološko	16		2
-telepatsko	10		2
+teleološko	16		3
+telepatsko	10		3
 televizijsko	269		2
-tematsko	224		2
+tematsko	224		3
 temnićko			2
-tenisko	103		2
-tenkovsko			2
-teokratsko			2
-teološko	160		2
-teoretsko	189		2
+tenisko	103		3
+tenkovsko			3
+teokratsko			3
+teološko	160		3
+teoretsko	189		3
 teorijsko	930		2
-terapeutsko	164		2
+terapeutsko	164		3
 terapijsko	184		2
 terensko	356		2
 terminsko	42		2
 termičko	87		2
-terorističko	65		2
+terorističko	65		3
 tetko			2
 teško	119599		2
 timsko	150		2
 tinejdžersko	46		2
-tipološko	27		2
+tipološko	27		3
 tipsko	58		2
-tiransko	20		2
+tiransko	20		3
 toko			2
 toliko	162841		2
 tonsko	63		2
 topografsko	20		2
 topovsko	271		2
 topčidersko			2
-torlačko			2
+torlačko			3
 trajko			2
 trako			2
 traljavko			2
 trapavko			2
 traumatsko	45		2
-trenersko	112		2
-trgovačko	354		3
-trgovinsko	338		3
+trenersko	112		3
+trgovačko	354		4
+trgovinsko	338		4
 triko	64		2
 trkačko	94		2
 trojako	30		3
 trojko			2
 tropsko	239		2
-trostruko	1125		2
+trostruko	1125		3
 trpko	41		2
 tunjavko			2
 tupavko			2
 tupko			2
-turističko	1623		2
+turističko	1623		3
 turnirsko			2
 tursko	1683		2
 tuzlansko	16		2
@@ -1558,9 +1558,9 @@ udvoričko			2
 ugostiteljsko	188		2
 ujko		M	2
 ukoliko	190988		2
-ukrajinsko	188		3
+ukrajinsko	188		4
 ukratko	11372		3
-umetničko	3553		3
+umetničko	3553		4
 unekoliko		M	2
 unesko			2
 univerzitetsko	375		2
@@ -1579,7 +1579,7 @@ utoliko	5708		2
 utopijsko	57		2
 uveliko	10733		2
 učeničko	76		4
-učiteljsko	60		3
+učiteljsko	60		4
 uštogljenko			2
 užičko	206		2
 vajarsko	45		2
@@ -1590,7 +1590,7 @@ vansudsko	257		2
 vanzemaljsko	44		2
 varaličko			2
 varoško			2
-varvarsko	89		2
+varvarsko	89		3
 vaseljensko	32		2
 vaskoliko	68		2
 vaspitačko			2
@@ -1600,7 +1600,7 @@ vašarsko	19		2
 vaško			2
 vegetarijansko			2
 velebitsko			2
-veliko	43557		2
+veliko	43557		3
 veličko	30		2
 veljko			2
 velško			2
@@ -1617,7 +1617,7 @@ vidojko			2
 viktorijansko	74		2
 vilenjačko			2
 vilinsko	41		2
-viljuško			2
+viljuško			3
 vinko			2
 vinsko	167		2
 vinčansko	115		2
@@ -1660,12 +1660,12 @@ vučitrnsko			2
 vučko			2
 zaboravko			2
 zagorsko			2
-zagrebačko	128		3
+zagrebačko	128		4
 zahumsko	66		2
 zajedničko	9245		4
 zaječarsko	88		2
-zakonsko	1778		2
-zakratko	103		3
+zakonsko	1778		3
+zakratko	103		2
 zamorsko			2
 zanatsko	148		2
 zapadnjačko	64		4
@@ -1688,10 +1688,10 @@ zimsko	1041		2
 zlatko			2
 zlatoruko			2
 zlikovačko	12		2
-zloguko			2
+zloguko			3
 zloćko			2
 zločinačko	317		2
-zmijoliko	24		2
+zmijoliko	24		3
 zmijsko	109		2
 znalačko	22		2
 značenjsko	28		2
@@ -1703,11 +1703,11 @@ zvonko	865		2
 zvorničko	79		2
 ćelavko		M	2
 ćerko	64		2
-ćiriličko	192		2
-ćirilsko	23		2
+ćiriličko	192		3
+ćirilsko	23		3
 ćirko			2
 ćurko			2
-čakavsko	26		2
+čakavsko	26		3
 čako		M	2
 čarobnjačko			2
 čaršijsko			2
@@ -1739,16 +1739,16 @@ zvorničko	79		2
 đoko			2
 đuko			2
 šabačko	98		2
-šahovsko	96		2
+šahovsko	96		3
 šako		M	2
 šaljivko			2
 šampionsko	75		2
 šarko		M	2
-šaroliko	127		2
+šaroliko	127		3
 šatorsko	80		2
 šašavko		M	2
 šefko			2
-šematsko			2
+šematsko			3
 šeprtljanko		M	2
 šerijatsko	120		2
 šećerko			2
@@ -1766,7 +1766,7 @@ zvorničko	79		2
 špeditersko			2
 špijunsko	28		2
 štamparsko	18		2
-štokavsko	49		2
+štokavsko	49		3
 štreberko			2
 šugavko			2
 šumadijsko	76		2
@@ -1781,8 +1781,8 @@ zvorničko	79		2
 žanrovsko	71		2
 žapsko			2
 žarko	2746		2
-železničko	143		3
-željezničko			3
+železničko	143		4
+željezničko			4
 željko			2
 žensko	4294		2
 žestoko	5037		2
@@ -1799,7 +1799,7 @@ zvorničko	79		2
 djevojačko			2
 djevojko			2
 dječko			2
-ijekavsko	24		2
+ijekavsko	24		3
 mlijeko	1011		2
 nerijetko	500		4
 osječko			2
@@ -1808,5 +1808,5 @@ prijeko	187		2
 rijetko	1338		2
 smješko			2
 svjetsko			2
-umjetničko			3
+umjetničko			4
 vjetrobransko			2

@@ -172,7 +172,7 @@ const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
    upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
    `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
 const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,gn,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jc,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
-const KANTE_V = 'f350b1f1';
+const KANTE_V = 'd31339e4';
 function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
 const kanteKes = new Map();
 let kantaUToku = 0;
@@ -380,6 +380,18 @@ function commonSuffix(a,b){
   while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
   return n;
 }
+/* AK-2 (audit 07.10.2026): koliko SLOGOVA dele dve reči u zajedničkom završetku (po istom merenju kao
+   `commonSuffix`: č≡ć, dž≡đ). Rezerva za „Najbolje rime" traži bar 2 – inače je „slobodan" dobijao
+   „bezvredan" i „rođendan" (akcenat na istom slogu, isti broj slogova, a dele samo „-dan"). 1:1 sa
+   gen_pages.py `rimovanih_slogova`. */
+function rimovanihSlogova(a,b){
+  const norm = s => s.toLowerCase().replace(/č/g,'ć').replace(/dž/g,'đ');
+  a = norm(a); b = norm(b);
+  let n=0; const la=a.length, lb=b.length;
+  while(n<la && n<lb && a[la-1-n]===b[lb-1-n]) n++;
+  const od = lb - n;
+  return vowelPositions(b).filter(i => i >= od).length;
+}
 function countSyl(w){
   /* Mala slova, uvek – ista popravka kao u `vowelPositions`. Do 06.09.2026. je
      stajalo samo tamo, pa je „Iran" (veliko I nije u `VOWELS`) brojao JEDAN slog,
@@ -483,8 +495,8 @@ async function loadDict(){
   const [ek, jek, ak, akj] = await Promise.all([
     uzmiTekst('/reci.txt?v=813bab11', true),
     uzmiTekst('/reci_jekavica.txt?v=1b2b14e1', false),
-    uzmiTekst('/akcenat.txt?v=26673d07', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
-    uzmiTekst('/akcenat_jekavica.txt?v=e20a683f', false)
+    uzmiTekst('/akcenat.txt?v=a1ff829d', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
+    uzmiTekst('/akcenat_jekavica.txt?v=268fa266', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -987,15 +999,24 @@ function napraviCipTraku(){
   document.body.appendChild(cipTraka);
   return cipTraka;
 }
+/* PR-1 (audit 07.10.2026): KO NOSI FOKUS u kapsuli. U alatu je to `<span class="word" tabindex="0">`; na 1.990
+   statičkih strana `/rime-za/` kapsula je sama `<button class="chip">` ili `<a class="chip">` i `.word` u njoj NEMA
+   tabindex – pa je kod koji je tražio `.word` tamo ostavljao karticu bez tastature (Tab išao na sledeću kapsulu,
+   `aria-expanded` na nefokusabilnom spanu). Sve što radi sa fokusom i ARIA stanjem ide preko ove funkcije. */
+function nosilacFokusa(cip){
+  if(!cip) return null;
+  const w = cip.querySelector ? cip.querySelector('.word') : null;
+  return (w && w.hasAttribute('tabindex')) ? w : cip;
+}
 function zatvoriCipTraku(){
   if(!cipTraka || cipTraka.hidden) return;
   /* Ako je fokus bio u traci, vrati ga na reč – inače pada na `body` (nalaz A1, 07.09.2026). */
   const fokusUTraci = document.activeElement && cipTraka.contains(document.activeElement);
   const rec = cipTrakaZa;
   cipTraka.hidden = true;
-  if(cipTrakaZa){ cipTrakaZa.classList.remove('chip-izabran'); const wz = cipTrakaZa.querySelector('.word'); if(wz) wz.setAttribute('aria-expanded', 'false'); }
+  if(cipTrakaZa){ cipTrakaZa.classList.remove('chip-izabran'); const wz = nosilacFokusa(cipTrakaZa); if(wz) wz.setAttribute('aria-expanded', 'false'); }
   cipTrakaZa = null;
-  if(fokusUTraci && rec){ const w = rec.querySelector('.word') || rec; if(w.focus){ trakaBezFokusina = true; w.focus({ preventScroll: true }); trakaBezFokusina = false; } }
+  if(fokusUTraci && rec){ const w = nosilacFokusa(rec); if(w && w.focus){ trakaBezFokusina = true; w.focus({ preventScroll: true }); trakaBezFokusina = false; } }
 }
 /* Dok se fokus VRAĆA na reč (Escape, kraj radnje), `focusin` ne sme ponovo da otvori traku. */
 let trakaBezFokusina = false;
@@ -1007,7 +1028,7 @@ let trakaBezFokusina = false;
 document.addEventListener('keydown', (e) => {
   if(!cipTraka || cipTraka.hidden) return;
   const t = e.target;
-  const naReci = cipTrakaZa && cipTrakaZa.contains(t) && t.classList && t.classList.contains('word');
+  const naReci = !!(cipTrakaZa && t === nosilacFokusa(cipTrakaZa));   // PR-1: i sama kapsula (button/a na statičkim stranama)
   const uTraci = cipTraka.contains(t);
   const dugmad = [...cipTraka.querySelectorAll('.ca-btn')];
   if(naReci && (e.key === 'ArrowDown' || e.key === 'ArrowRight' || (e.key === 'Tab' && !e.shiftKey))){
@@ -1019,13 +1040,13 @@ document.addEventListener('keydown', (e) => {
   else if(e.key === 'ArrowLeft'){ e.preventDefault(); (dugmad[i - 1] || dugmad[dugmad.length - 1]).focus(); }
   else if(e.key === 'Tab' && !e.shiftKey && i === dugmad.length - 1){
     e.preventDefault();
-    const sled = cipTrakaZa && cipTrakaZa.nextElementSibling && cipTrakaZa.nextElementSibling.querySelector('.word');
+    const sled = cipTrakaZa && cipTrakaZa.nextElementSibling && nosilacFokusa(cipTrakaZa.nextElementSibling);
     const staraRec = cipTrakaZa;
     zatvoriCipTraku();
-    if(sled) sled.focus(); else if(staraRec) (staraRec.querySelector('.word') || staraRec).focus();
+    if(sled && sled.focus) sled.focus(); else if(staraRec) nosilacFokusa(staraRec).focus();
   }
   else if(e.key === 'Tab' && e.shiftKey && i === 0){
-    e.preventDefault(); const w = cipTrakaZa && cipTrakaZa.querySelector('.word'); if(w) w.focus();
+    e.preventDefault(); const w = nosilacFokusa(cipTrakaZa); if(w) w.focus();
   }
 });
 let trakaOtvorenaU = 0;
@@ -1036,7 +1057,7 @@ function otvoriCipTraku(cip, rec){
   cipTrakaZa = cip;
   trakaOtvorenaU = Date.now();
   cip.classList.add('chip-izabran');
-  { const wz = cip.querySelector('.word'); if(wz) wz.setAttribute('aria-expanded', 'true'); }
+  { const wz = nosilacFokusa(cip); if(wz){ wz.setAttribute('aria-expanded', 'true'); if(!wz.hasAttribute('aria-haspopup')) wz.setAttribute('aria-haspopup', 'true'); } }
   const omiljena = isFav(rec);
   t.innerHTML =
     `<button type="button" class="ca-btn" data-act="def" aria-label="${uiTxt('značenje reči')} ${disp(rec)}">` +
@@ -1128,7 +1149,7 @@ document.addEventListener('click', (e) => {
   if(cipTrakaZa === cip && cipTraka && !cipTraka.hidden && Date.now() - trakaOtvorenaU < 600) return;
   /* U-3 (22.09.2026): mišji klik na ivicu kapsule (ne na samu reč) ostavljao je fokus na `main`, pa je Escape
      posle toga vraćao fokus nigde. Fokus ide na reč pre otvaranja – bez ponovnog okidanja `focusin`. */
-  { const wz = cip.querySelector('.word'); if(wz && document.activeElement !== wz && wz.focus){ trakaBezFokusina = true; try{ wz.focus({ preventScroll: true }); } finally { trakaBezFokusina = false; } } }
+  { const wz = nosilacFokusa(cip); if(wz && document.activeElement !== wz && wz.focus){ trakaBezFokusina = true; try{ wz.focus({ preventScroll: true }); } finally { trakaBezFokusina = false; } } }
   otvoriCipTraku(cip, cip.dataset.w || cip.dataset.rec || '');
 }, true);
 /* Skrol zatvara karticu – ali ne skrol koji pregledač sam napravi dok dovodi kliknuto dugme u kadar. */
@@ -1523,10 +1544,12 @@ function doRhymes(silent){
   let best = strongFiltered.filter(istaJedinica);
   /* REZERVA (05.10.2026): kad strogih rima gotovo nema (slȍbodan → „-obodan": nijedna), uzimaju se reči sa akcentom na
      ISTOM slogu od kraja (pȍgodan, prìrodan…) – u stihu zvuče kao rima jer su naglašene na istom mestu. Strogo pravilo
-     ostaje prvo: za „televizor" rezerva ne radi (ima 3 stroge), pa „ambasador" (isto mesto akcenta) ostaje u „Dobrim". */
+     ostaje prvo: za „televizor" rezerva ne radi (ima 3 stroge), pa „ambasador" (isto mesto akcenta) ostaje u „Dobrim".
+     AK-2 (audit 07.10.2026): rezerva traži i ZAJEDNIČKI ZAVRŠETAK OD BAR DVA SLOGA (`rimovanihSlogova`) – bez toga je
+     „slobodan" dobijao „bezvredan", „rođendan", „lucidan" (isti slog akcenta, a dele samo „-dan"), a „domaćin" „kornjačin". */
   if(best.length < 3){
     const nQ = AKCN.get(q) || 2, uBest = new Set(best);
-    for(const w of strongFiltered){ if(!uBest.has(w) && (AKCN.get(w.toLowerCase()) || 2) === nQ && countSyl(w) === countSyl(q)) best.push(w); }
+    for(const w of strongFiltered){ if(!uBest.has(w) && (AKCN.get(w.toLowerCase()) || 2) === nQ && countSyl(w) === countSyl(q) && rimovanihSlogova(q, w) >= 2) best.push(w); }
   }
   const uBest2 = new Set(best);
   best = best.slice(0,90);
@@ -5965,7 +5988,7 @@ function zatvoriPrijavu(){
   const vrati = !!prijavaBox;   // PR-1: fokus se vraća na reč i kad je Tab-om pobegao van dijaloga
   if(prijavaBox){ prijavaBox.remove(); prijavaBox = null; }
   /* Fokus nazad na reč (nalaz A1/S-14, 07.09.2026), ne na `body`. */
-  if(vrati && prijavaSidro && prijavaSidro.isConnected){ const w = prijavaSidro.querySelector ? (prijavaSidro.querySelector('.word') || prijavaSidro) : prijavaSidro; if(w.focus) w.focus({ preventScroll: true }); }
+  if(vrati && prijavaSidro && prijavaSidro.isConnected){ const w = nosilacFokusa(prijavaSidro) || prijavaSidro; if(w.focus) w.focus({ preventScroll: true }); }   // PR-1/PR-2: i na statičkim stranama (kapsula je button/a)
   prijavaSidro = null;
   if(prijavaZavesa){ prijavaZavesa.remove(); prijavaZavesa = null; }
   document.removeEventListener('keydown', prijavaEsc);

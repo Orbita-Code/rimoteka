@@ -4,15 +4,15 @@ Kino	602		2
 Ljubljano			2
 Milano			2
 Prištino			3
-Ukrajino			3
+Ukrajino			4
 abecedno	28		4
 abnormalno	236		4
 abrazivno			4
-adaptirano	138		2
+adaptirano	138		3
 adaptivno	65		4
 adekvatno	7891		4
 administrativno	1203		6
-adoptirano			2
+adoptirano			3
 adresirano	74		2
 adresovano			2
 aerobno	52		4
@@ -20,29 +20,29 @@ afektirano			2
 afektivno	72		4
 afirmativno			5
 afirmisano	33		2
-aforistično			2
+aforistično			3
 agilno	88		3
 agitaciono			2
 agonično			4
 agrarno	138		2
 agregatno	112		2
 agresivno	2407		4
-ahromatično			2
+ahromatično			3
 akcesorno	16		4
 akciono	159		2
 akreditivno			5
-aktivirano	134		2
+aktivirano	134		3
 aktivno	20981		3
 aktualno	222		4
 aktuelno	3355		4
-akustično	60		2
+akustično	60		3
 akutno	460		3
 alarmantno	901		2
-alarmirano			2
+alarmirano			3
 albino	125		2
-alergično	151		2
-alkoholno	385		3
-alogično			2
+alergično	151		3
+alkoholno	385		4
+alogično			3
 alternativno	1297		5
 aluvijalno			5
 ambiciozno	680		5
@@ -50,87 +50,87 @@ ambijentalno	213		5
 ambulantno	323		2
 amfiteatralno			6
 amoralno			4
-amorfno	33		2
-anaforično			2
+amorfno	33		3
+anaforično			3
 anahrono	170		2
-analitično	57		2
-analizirano	292		2
+analitično	57		3
+analizirano	292		3
 analizovano			3
 analno	63		2
 analogno	921		4
-anarhično	56		2
-anemično	67		2
+anarhično	56		3
+anemično	67		3
 angažovano	2349		2
 animalno	52		4
 animirano	48		2
 anino			2
 anketirano	167		2
-anketno	78		2
+anketno	78		3
 anksiozno			4
 anonimno	1056		4
 anticipativno			2
 antikvarno			4
-antinaučno			2
-antipatično	19		2
-antisocijalno	41		3
-anulirano	21		2
+antinaučno			3
+antipatično	19		3
+antisocijalno	41		4
+anulirano	21		3
 anđelijino			2
 anđelino			2
-apatično	65		2
+apatično	65		3
 apelaciono	138		2
 apelovano			2
 aplikativno			5
-apokaliptično	67		2
+apokaliptično	67		3
 apokrifno	13		2
-apolitično			2
+apolitično			3
 aposteriorno			2
 apriorno	90		4
 aproksimativno			6
 apsolutno	31870		4
-apstraktno	604		2
-apsurdno	1874		2
-aranžirano	23		2
+apstraktno	604		3
+apsurdno	1874		3
+aranžirano	23		3
 arbitrarno	213		4
 arbitražno	80		4
 argumentovano	1650		3
-arhaično	136		2
+arhaično	136		3
 arhivirano	29		2
 aritmično			2
 armirano	261		2
 arogantno	437		2
-aromatično	237		2
+aromatično	237		3
 aseksualno			5
-asimetrično	240		2
+asimetrično	240		3
 asocijalno	85		5
 asocijativno	143		2
-astmatično			2
+astmatično			3
 astralno	121		2
 atipično	125		2
 atraktivno	1516		4
 atrofirano			2
 auditivno	29		5
-autentično	1524		2
-autistično	129		2
-autogeno	20		3
-autohtono	275		2
+autentično	1524		3
+autistično	129		3
+autogeno	20		2
+autohtono	275		3
 autoimuno	48		2
 automatizovano	179		2
-autonomno	533		4
+autonomno	533		5
 autoritarno			6
 autoritativno	228		7
 avangardno	154		4
 avansno	446		2
-azbučno	20		2
+azbučno	20		3
 azurno	84		2
-ažurirano	585		2
+ažurirano	585		3
 ažurno	331		3
-babetino			2
+babetino			3
 babino	24		2
-bacano	27		2
+bacano	27		3
 bajno	283		2
 bakarno	118		2
 bakino			2
-bakreno			2
+bakreno			3
 baksuzno			2
 baladično			2
 balšino			2
@@ -141,47 +141,47 @@ bareno	82		2
 barokno	159		2
 barutno	16		2
 basnoslovno	272		4
-batinano			2
-batino			2
-bazirano	818		2
-bazično	282		2
-bačeno	649		2
+batinano			3
+batino			3
+bazirano	818		3
+bazično	282		3
+bačeno	649		3
 bebino			2
 bedno	1341		2
-belodano	168		3
+belodano	168		2
 benigno			2
-besavesno			2
+besavesno			3
 besceno			2
 besciljno	290		2
 beskamatno			4
 beskišno			2
-besklasno	40		2
-beskompromisno	676		4
-beskonačno	1765		2
-beskorisno	467		3
+besklasno	40		3
+beskompromisno	676		5
+beskonačno	1765		3
+beskorisno	467		4
 beskrajno	3330		3
-beskrupulozno	276		4
+beskrupulozno	276		5
 beskrvno	36		2
 beskućno			3
 beskvasno			2
 beslovesno	74		2
-besmisleno	4811		3
-besmrtno	268		2
+besmisleno	4811		4
+besmrtno	268		3
 besno	938		2
 besomučno	1092		2
 besperspektivno			5
-besplatno	19505		2
-besplodno	38		2
+besplatno	19505		3
+besplodno	38		3
 bespogovorno	686		5
 bespolno			2
 bespomoćno	602		4
-besposleno	36		3
+besposleno	36		4
 bespotrebno	1448		4
 bespovratno	554		4
 bespočetno			4
 bespoštedno	191		4
 bespravno	1560		3
-bespredmetno	420		2
+bespredmetno	420		3
 besprekidno	53		4
 besprekorno	2927		2
 besprimerno	56		2
@@ -194,113 +194,113 @@ bestidno	378		3
 bestijalno	86		4
 bestrasno			2
 besvesno	46		3
-bezalkoholno	134		4
-bezazleno	736		2
-bezbedno	6855		2
+bezalkoholno	134		5
+bezazleno	736		3
+bezbedno	6855		3
 bezbednosno	695		2
 bezbojno	55		3
 bezbolno	726		2
-bezbožno	90		2
+bezbožno	90		3
 bezbračno			2
-bezbrižno	1160		2
+bezbrižno	1160		3
 bezbrojno	79		2
 bezdano		M	2
 bezdimno			2
-bezdušno	284		2
-bezglasno	67		2
+bezdušno	284		3
+bezglasno	67		3
 bezgranično	442		4
-bezgrešno	104		2
+bezgrešno	104		3
 bezidejno	103		4
-bezimeno	65		3
+bezimeno	65		4
 bezizgledno	12		4
 bezizlazno	99		4
 bezizrazno		M	4
 bezizražajno	50		5
 bezizuzetno		M	2
-bezlično	166		2
+bezlično	166		3
 bezlobno		M	2
 bezmerno	97		2
 beznadežno	645		2
-beznadno	66		2
+beznadno	66		3
 beznaporno			4
 beznačajno	637		4
-bezoblično	29		2
-bezobrazno	1897		2
+bezoblično	29		3
+bezobrazno	1897		3
 bezobzirno	765		4
 bezolovno	12		4
 bezopasno	350		4
 bezosećajno	83		5
 bezotporno			4
-bezočno	539		2
+bezočno	539		3
 bezrasudno			4
-bezrazložno	445		2
+bezrazložno	445		3
 bezrezervno	932		2
 bezukusno			2
 bezumno	257		2
 bezuslovno	1742		4
-bezuspešno	2244		2
+bezuspešno	2244		3
 bezutešno			2
 bezuzročno		M	2
-bezvezno	110		2
+bezvezno	110		3
 bezvidno			3
 bezvoljno	244		2
 bezvredno	212		3
-bezvremeno	34		3
+bezvremeno	34		4
 bezvučno	11		2
 bešumno	203		3
-bešćutno	13		2
-beščasno			2
-beživotno	492		3
-bežično	1147		2
+bešćutno	13		3
+beščasno			3
+beživotno	492		4
+bežično	1147		3
 bilansno	46		2
 bilateralno	203		5
 biljno	200		2
 binarno	93		2
-birano	119		2
+birano	119		3
 biseksualno			5
 biserno	164		2
 bistrino			2
 bitno	50510		2
-bivstveno			2
+bivstveno			3
 bizarno	540		3
 bičevano			4
 blagodarno		M	4
 blagodatno	122		4
-blagodušno		M	2
-blagonaklono	796		2
+blagodušno		M	3
+blagonaklono	796		3
 blagorodno		M	4
-blagosloveno	343		3
-blagoslovljeno	32		2
+blagosloveno	343		2
+blagoslovljeno	32		3
 blagotvorno	1453		4
 blagoumno			4
 blagovesno			2
-blagovremeno	5571		3
+blagovremeno	5571		2
 blagozvučno			2
 blatno	22		2
 blazirano	14		2
 blaženo	289		2
-blebetano			2
-bledozeleno			3
+blebetano			3
+bledozeleno			2
 blindirano	25		2
-blokirano	395		2
+blokirano	395		3
 bludno	40		2
 bogohulno	64		4
-bogomdano	48		3
-bogougodno	381		2
-bojeno	29		2
+bogomdano	48		2
+bogougodno	381		3
+bojeno	29		3
 bojno	407		2
 bolesno	2144		2
 bolno	3690		2
 bombardovano	59		2
-bombastično	111		2
+bombastično	111		3
 bono			2
 borbeno	658		3
 borino			2
 bočno	795		2
-božanstveno	276		2
-božićno	216		2
+božanstveno	276		3
+božićno	216		3
 brahijalno			4
-branjeno	76		2
+branjeno	76		3
 brano	22		2
 bravurozno	62		4
 braćeno			2
@@ -312,14 +312,14 @@ brisano	110		3
 brižno	574		2
 brno		M	2
 brojno	901		2
-brojčano	1024		2
+brojčano	1024		3
 bronzano	436		2
 broširano	19		2
 bruno			2
 brutalno	2710		3
 brvno	120		2
 brzometno	62		4
-budaletino			2
+budaletino			3
 budalino			2
 budalčino			2
 budno	1027		2
@@ -334,44 +334,44 @@ cappuccino	56		2
 celishodno	378		4
 celobrojno			4
 celodnevno	388		4
-celokupno	2842		2
+celokupno	2842		3
 celosno			2
 celulozno	12		4
-cenjeno	416		2
+cenjeno	416		3
 cenovno	919		2
 centralno	4066		2
 centrifugalno	20		2
 centripetalno	10		5
 centrirano	38		2
-cenzurisano	90		3
-cepano			2
+cenzurisano	90		4
+cepano			3
 cerebralno	17		4
 ceremonijalno	101		6
-ciklično	331		2
-ciljano	526		2
+ciklično	331		3
+ciljano	526		3
 ciljno	381		2
-cinično	1108		2
+cinično	1108		3
 cirkularno	113		4
 citirano	165		2
 civilizovano	270		3
 civilno	2020		2
-crkveno	1514		2
+crkveno	1514		3
 crkvino			2
 crno	13614		2
 crtano	11		2
-crveno	6833		2
+crveno	6833		3
 cvetno	148		2
-dalekosežno	144		2
+dalekosežno	144		3
 dangubno		M	2
 dano	456		2
 danonoćno	1283		4
-darivano	14		2
-darovano	110		2
+darivano	14		3
+darovano	110		3
 datirano			2
-davano	115		2
-davljeno			2
+davano	115		3
+davljeno			3
 davno	18738		2
-debeljušno			2
+debeljušno			3
 debilno	99		3
 debilčino			2
 decentno			2
@@ -382,7 +382,7 @@ decimalno			4
 dedino			2
 deduktivno	29		4
 defanzivno	224		4
-defektno	36		2
+defektno	36		3
 definisano	3340		2
 definitivno	23037		5
 deformisano	85		2
@@ -391,15 +391,15 @@ degradirano	97		2
 degutantno	416		2
 dehidrirano	26		2
 dekadentno	57		2
-dekadno		M	2
+dekadno		M	3
 deklarativno	1551		5
 dekorativno	405		5
 dekorisano	37		2
 delatno	133		3
 delikatno	351		4
-deliktno			2
+deliktno			3
 delimično	16751		4
-deljeno	71		2
+deljeno	71		3
 delomično			4
 delotvorno	943		4
 demodirano			2
@@ -427,25 +427,25 @@ diferencijalno	114		6
 diferencirano			3
 difuzno	174		3
 digitalno	1698		4
-dijabolično	15		2
+dijabolično	15		3
 dijagnostikovano	88		2
 dijagonalno	329		5
 dijametralno	1046		5
 dijetalno	38		4
-diktirano	49		2
+diktirano	49		3
 dimljeno	78		3
 dinamizovano			3
 dinamično	874		2
 dino	24		2
 dinstano	25		3
-dirano	37		2
-direktno	49470		2
+dirano	37		3
+direktno	49470		3
 dirigovano	68		2
 disciplinarno			5
 disciplinovano	232		3
-disharmonično			2
+disharmonično			3
 diskreciono	760		2
-diskretno	1750		2
+diskretno	1750		3
 diskurzivno			4
 diskutabilno	946		5
 disonantno			2
@@ -462,84 +462,84 @@ dično	36		2
 djelomično	293	J	4
 dnevno	33134		2
 dno	6356		1
-dobavljeno			3
+dobavljeno			4
 dobijano	14		3
-dobijeno	1441		3
-dobiveno			3
+dobijeno	1441		4
+dobiveno			2
 dobrano	1284		2
 dobračino			2
 dobričino			2
-dobrodušno	74		2
-dobronamerno	909		2
+dobrodušno	74		3
+dobronamerno	909		3
 dobrotvorno	135		4
 dobrovoljno	7091		4
 dobroćudno	100		4
-dodano	53		2
+dodano	53		3
 dodatno	35020		3
-dodavano	29		2
-dodeljeno	1826		2
-dodeljivano	18		2
+dodavano	29		3
+dodeljeno	1826		3
+dodeljivano	18		3
 dogledno	1968		2
-dogovoreno	7538		2
+dogovoreno	7538		3
 dogovorno	197		4
-dogođeno			3
-dograđeno	48		3
-dojavljeno	51		2
+dogođeno			2
+dograđeno	48		2
+dojavljeno	51		3
 dokasno			2
 dokazano	6640		2
-dokazivano	20		2
+dokazivano	20		3
 dokazno	71		3
-dokono	58		2
+dokono	58		3
 doktrinarno	87		4
 dokumentarno			5
 dokumentovano	497		3
-dolično	79		2
+dolično	79		3
 domicilno	93		4
 dominantno	1763		2
 domino	452		2
-domišljeno			3
+domišljeno			4
 domoljubno			4
-domovino	24		3
+domovino	24		4
 donedavno	2218		4
-doneseno	228		3
+doneseno	228		2
 dopingovano			2
-dopisano	71		2
-dopremljeno	133		2
-dopunjeno	504		3
-dopuštano	12		2
-dopušteno	1732		2
-dorečeno	26		3
+dopisano	71		3
+dopremljeno	133		3
+dopunjeno	504		4
+dopuštano	12		3
+dopušteno	1732		3
+dorečeno	26		2
 dosadno	4455		3
-doseljeno	112		2
-dosledno	4231		2
-dosljedno		J	2
+doseljeno	112		3
+dosledno	4231		3
+dosljedno		J	3
 doslovno	3763		2
-dostavljeno	749		3
+dostavljeno	749		4
 dostižno	130		3
-dostojanstveno	1985		3
+dostojanstveno	1985		2
 dostojno	2355		2
-dostupno	3957		2
-dosuđeno	104		3
+dostupno	3957		3
+dosuđeno	104		2
 doterano	149		2
-dotično	231		2
-dovedeno	1111		2
-dovezeno	57		2
+dotično	231		3
+dovedeno	1111		3
+dovezeno	57		3
 dovoljno	135399		3
-dovođeno	65		2
-dovršeno	209		2
-dovučeno			3
+dovođeno	65		3
+dovršeno	209		3
+dovučeno			2
 dozirano	100		2
-dozvoljeno	12353		2
-dočarano	35		2
-dočaravano			2
-dočekano	165		3
+dozvoljeno	12353		3
+dočarano	35		3
+dočaravano			3
+dočekano	165		4
 doživljajno	13		4
-doživljeno	250		3
+doživljeno	250		4
 doživotno	1649		4
-dragoceno	2481		2
+dragoceno	2481		3
 dragovoljno	321		4
-dramatično	3295		2
-drastično	8632		2
+dramatično	3295		3
+drastično	8632		3
 dražesno	52		2
 dražino			2
 drenirano	13		2
@@ -547,18 +547,18 @@ drevno	430		2
 drino			2
 dripčino			2
 drmno			2
-drobljeno			2
-drogirano	11		2
+drobljeno			3
+drogirano	11		3
 drtino			2
-drugorazredno	68		2
-drugostepeno	128		3
+drugorazredno	68		3
+drugostepeno	128		2
 društveno	10308		3
 družbino			2
-družino	12		2
+družino	12		3
 drveno	204		3
 drvno	46		2
 drčno	48		2
-držano	78		2
+držano	78		3
 državno	5865		2
 dualno	13		2
 dubino			2
@@ -567,7 +567,7 @@ dubokoumno	43		5
 dugoročno	6678		4
 dugotrajno	1768		4
 dugovečno	85		4
-dugovremeno			3
+dugovremeno			2
 duhovno	5913		2
 dunjino			2
 duplirano	30		2
@@ -582,20 +582,20 @@ dvodimenzionalno			2
 dvodnevno	143		2
 dvofazno			3
 dvoglasno	21		2
-dvoimeno			3
-dvojbeno	10		2
+dvoimeno			4
+dvojbeno	10		3
 dvojeno			2
 dvojezično	322		2
 dvojno	587		2
 dvokratno	85		3
-dvolično	83		2
+dvolično	83		3
 dvomesečno	99		2
 dvonedeljno	82		4
 dvopolno			2
 dvoručno			2
 dvosmerno	147		2
-dvosmisleno	199		3
-dvostepeno		M	3
+dvosmisleno	199		4
+dvostepeno		M	2
 dvostrano	287		2
 dvotomno			2
 dvotračno			2
@@ -606,21 +606,21 @@ dvočlano	17		2
 džepno	54		2
 edukativno	493		5
 efektivno	1579		4
-efektno	1143		2
+efektno	1143		3
 efemerno	47		4
 efikasno	12761		4
-egocentrično	29		2
-egoistično	37		2
-egzaktno	326		2
+egocentrično	29		3
+egoistično	37		3
+egzaktno	326		3
 egzaltirano	68		2
 egzemplarno			4
 egzistencijalno	537		6
-egzotično	422		2
+egzotično	422		3
 ekipno	1044		2
 eklatantno	37		2
-ekonomično	641		2
+ekonomično	641		3
 ekranizovano			3
-ekscentrično	81		2
+ekscentrično	81		3
 ekscesno	17		2
 ekskluzivno	3270		4
 eksluzivno	201		4
@@ -637,42 +637,42 @@ ekstenzivno	130		4
 eksterno			2
 ekstravagantno	97		2
 ekstremno	4650		2
-ekvivalentno	494		2
-elastično	180		2
+ekvivalentno	494		3
+elastično	180		3
 elegantno	2056		2
-elegično			2
-električno	1141		2
+elegično			3
+električno	1141		3
 elektromagnetno	252		2
 elementarno	1211		5
 eliminisano	104		3
-eliptično			2
+eliptično			3
 elitno	375		2
 elokventno	84		2
-emfatično	20		2
+emfatično	20		3
 eminentno	152		2
 emisiono	10		2
 emitovano	277		2
 emocionalno	1800		6
 emotivno	3719		4
 endemično			2
-energično	1474		2
+energično	1474		3
 enervantno			2
 eno	2152		2
 enormno	1702		2
-entuzijastično	49		2
-epizodično			2
+entuzijastično	49		3
+epizodično			3
 epohalno	449		4
-erotično	60		2
+erotično	60		3
 eruptivno			4
 esencijalno	280		5
-estetično			2
-estradno	80		2
+estetično			3
+estradno	80		3
 etapno	135		2
 etažno	150		2
-eterično	230		2
-etično	71		2
+eterično	230		3
+etično	71		3
 etno			2
-euforično	316		2
+euforično	316		3
 evakuisano	544		3
 evazivno			4
 eventualno	18317		5
@@ -680,20 +680,20 @@ evidentirano	882		3
 evidentno	3681		2
 evocirano			2
 evokativno			5
-ezoterično	35		2
+ezoterično	35		3
 fabulozno			4
-faktično	60		2
+faktično	60		3
 fakultativno	327		5
-falično	22		2
+falično	22		3
 falsifikovano	55		3
 familijarno	131		5
 famozno	365		3
-fanatično	270		2
-fantastično	3673		2
+fanatično	270		3
+fantastično	3673		3
 fantazmagorično	28		2
-farsično	53		2
+farsično	53		3
 fascinantno	984		2
-fascinirano			2
+fascinirano			3
 fatalno	479		2
 fazno	328		2
 faširano			2
@@ -706,18 +706,18 @@ fiksirano	127		2
 fiksno	406		2
 fiktivno	581		3
 filmovano			2
-filtrirano	21		2
+filtrirano	21		3
 finalno	709		2
 fino	5544		2
 fiskalno	430		2
 fiskulturno			4
 flagrantno	251		2
 flaširano	43		2
-flegmatično	14		2
+flegmatično	14		3
 fleksibilno	900		4
 fluidno	117		3
 fluorescentno	70		2
-fokusirano	230		2
+fokusirano	230		3
 folklorno	227		2
 formalno	9562		2
 formirano	1700		2
@@ -733,26 +733,26 @@ frankirano			2
 frano			2
 frapantno	193		2
 frekventno	103		2
-frenetično	99		2
+frenetično	99		3
 frivolno	13		3
 frontalno	207		2
-frustrirano	73		2
+frustrirano	73		3
 fundamentalno	672		5
-funkcionalno	2585		4
+funkcionalno	2585		5
 furiozno	190		4
 gadno	1165		2
 gajeno	77		2
 galantno	133		2
 garantno	44		2
-garantovano	1163		4
+garantovano	1163		5
 garažno	67		2
 garnirano	25		2
 gasno	183		2
 gazirano	112		3
 gazno			2
-gađano	34		2
+gađano	34		3
 generalno	14236		4
-generično			2
+generično			3
 genijalno	867		4
 genocidno	87		4
 gestualno	10		4
@@ -762,11 +762,11 @@ glamurozno	302		4
 glasano			2
 glasno	6720		2
 glasovno	168		2
-glavešino			2
+glavešino			3
 glavno	6097		2
-glačano			2
+glačano			3
 gledano	9943		2
-glineno	23		2
+glineno	23		3
 globalno	5719		2
 glomazno	151		3
 glupačino			2
@@ -775,28 +775,28 @@ gnjevno			2
 gnjusno			2
 gnojno	33		2
 gnusno	166		2
-gonjeno	41		2
+gonjeno	41		3
 goropadno	25		4
 gorostasno			4
-gospodstveno		M	3
+gospodstveno		M	2
 gotivno			3
-govoreno	492		2
+govoreno	492		3
 govorno	335		2
 gracilno			2
 graciozno	144		4
 grandiozno	200		4
-granično	173		2
+granično	173		3
 grano			2
 gravirano			2
 gravitaciono	355		2
 građanskopravno			5
-građeno	339		2
+građeno	339		3
 grdno	1448		2
 grešno	212		2
 grimizno	13		3
 grleno	41		2
 grobno	294		2
-gromadno			2
+gromadno			3
 gromoglasno	606		2
 groteskno	366		2
 grozno	1036		2
@@ -805,31 +805,31 @@ grubišino			2
 grupisano	56		2
 grupno	965		2
 guano		M	2
-gumeno	79		2
+gumeno	79		3
 gumno	110		2
-gurano	19		2
+gurano	19		3
 gusano			2
-gutano			2
+gutano			3
 guvno	81		2
 gvozdeno	214		3
 haljino			2
 halucinantno			2
 hano			2
-haotično	624		2
+haotično	624		3
 hapšeno			2
-harmonično	464		2
+harmonično	464		3
 hazardno			2
 hendikepirano	42		3
 hereditarno			5
-hermetično	30		2
+hermetično	30		3
 heterogeno	75		5
 heteroseksualno	55		2
 hibridno	165		2
 hijeno			2
 himbeno			3
 hipotekarno	72		5
-hipotetično	36		2
-histerično	436		2
+hipotetično	36		3
+histerično	436		3
 hitno	13920		2
 hladno	8161		2
 hladnokrvno	499		4
@@ -840,24 +840,24 @@ homoseksualno	151		6
 honorarno	551		4
 horizontalno	1236		5
 hotimično	117		4
-hranjeno	59		2
+hranjeno	59		3
 hrano			2
-hronično	1344		2
+hronično	1344		3
 humanitarno	1126		5
 humano	1124		3
-humoristično			2
+humoristično			3
 humorno	43		2
 hučno	14		2
-hvaljeno	49		2
+hvaljeno	49		3
 idealno	9680		4
 idejno	1694		2
-identifikovano	459		5
-identično	1559		2
-idilično	311		2
+identifikovano	459		6
+identično	1559		3
+idilično	311		3
 ignorisano	83		2
 igrano	162		2
 ijedno			2
-ikono			2
+ikono			3
 ilegalno	1954		4
 ilijino			2
 ilustrativno			5
@@ -869,12 +869,12 @@ imenovano	253		5
 imigraciono	16		2
 imovno	180		2
 imperativno			5
-implicitno	1031		2
+implicitno	1031		3
 impotentno	17		2
 impozantno	235		2
-impresionirano	10		2
+impresionirano	10		3
 impresivno	1208		4
-improvizovano	57		4
+improvizovano	57		5
 impulsivno	259		4
 impulzivno			4
 imunitetno			2
@@ -897,7 +897,7 @@ inficirano	150		2
 inflatorno	61		4
 informaciono	1373		2
 informativno	726		5
-infracrveno	189		4
+infracrveno	189		5
 ingeniozno	43		5
 inherentno	151		2
 inicijalno	1211		5
@@ -906,7 +906,7 @@ inkluzivno	600		4
 inkriminisano	25		3
 ino	928		2
 inokosno	19		2
-inostrano	514		2
+inostrano	514		3
 inovativno	579		5
 inscenirano	14		2
 inspirativno	544		5
@@ -939,269 +939,269 @@ iracionalno	595		6
 irealno	47		4
 irelevantno	473		2
 iritantno	220		2
-ironično	1724		2
-isceljeno	14		2
+ironično	1724		3
+isceljeno	14		3
 iscenirano	30		2
 iscepano	15		2
 iscepkano			2
-isceđeno	28		2
+isceđeno	28		3
 iscrpeno			3
-iscrpljeno	294		2
-iscrpno	559		2
+iscrpljeno	294		3
+iscrpno	559		3
 iscrtano	35		2
 iseckano	50		2
-iseljeno	125		2
-isečeno	187		3
+iseljeno	125		3
+isečeno	187		4
 isflekano			2
-ishitreno	316		3
+ishitreno	316		4
 ishodišno	10		2
 isidorino			2
-isitnjeno			3
-iskasapljeno	17		3
-iskazano	495		2
-iskazivano			2
-iskidano	31		3
-iskićeno			3
+isitnjeno			4
+iskasapljeno	17		2
+iskazano	495		3
+iskazivano			3
+iskidano	31		4
+iskićeno			4
 isklesano	25		2
-isključeno	2460		2
+isključeno	2460		3
 isključno		M	2
-iskolačeno			3
-iskopano	340		2
-iskopavano			2
-iskorenjeno	59		2
-iskorišćeno	1043		3
+iskolačeno			2
+iskopano	340		3
+iskopavano			3
+iskorenjeno	59		3
+iskorišćeno	1043		4
 iskovano	26		2
-iskošeno	27		3
+iskošeno	27		2
 iskreno	25550		3
-iskrivljeno	274		3
-iskrpljeno			3
-iskrvavljeno			3
-iskupljeno			2
+iskrivljeno	274		4
+iskrpljeno			4
+iskrvavljeno			2
+iskupljeno			3
 iskusno	429		3
-iskustveno	474		2
-iskvareno	43		3
-ispaljeno	279		3
+iskustveno	474		3
+iskvareno	43		4
+ispaljeno	279		4
 ispeglano	46		3
 ispevano	14		2
-ispečeno	52		3
-ispijeno	64		3
+ispečeno	52		4
+ispijeno	64		4
 ispisano	834		2
-ispitano	472		2
-ispitivano	141		2
+ispitano	472		3
+ispitivano	141		3
 isplakano			2
 isplanirano	278		2
-isplaćeno	1659		2
+isplaćeno	1659		3
 ispoljavano			2
-ispoljeno	116		3
-isporučeno	902		2
+ispoljeno	116		4
+isporučeno	902		3
 ispovedno	36		4
-isprano	45		2
-ispravljeno	336		3
+isprano	45		3
+ispravljeno	336		4
 ispravno	7778		3
 isprazno	171		3
-ispraćeno	114		3
-ispražnjeno	90		2
+ispraćeno	114		4
+ispražnjeno	90		3
 isprekidano	142		2
 ispreturano	24		2
-ispričano	174		2
-isprljano	10		2
+ispričano	174		3
+isprljano	10		3
 isprobano	121		2
-isprženo			3
+isprženo			2
 ispucano	12		2
-ispunjeno	1685		3
-ispupčeno	19		3
-ispušteno	79		2
+ispunjeno	1685		4
+ispupčeno	19		2
+ispušteno	79		3
 istančano	71		2
 istačkano			2
-isterano	47		3
+isterano	47		4
 istetovirano	29		3
 istino			3
-istodobno	628		2
-istoimeno	149		3
-istopljeno	33		2
+istodobno	628		3
+istoimeno	149		4
+istopljeno	33		3
 istosmerno			4
-istovetno	496		2
-istovremeno	66006		3
+istovetno	496		3
+istovremeno	66006		4
 istovrsno	15		2
-istoznačno			2
-istočno	3349		2
+istoznačno			3
+istočno	3349		3
 istrajno	610		3
-istraženo	366		2
+istraženo	366		3
 istražno	111		2
-istrebljeno	32		2
-istrenirano	11		2
-istrošeno	78		2
-istureno	275		3
-isušeno	55		2
-ivično			2
+istrebljeno	32		3
+istrenirano	11		3
+istrošeno	78		3
+istureno	275		4
+isušeno	55		3
+ivično			3
 izabrano	1986		4
 izazovno	663		4
-izazvano	935		2
+izazvano	935		3
 izbalansirano	226		3
-izbavljeno			3
-izbačeno	427		2
-izbegavano	18		2
+izbavljeno			4
+izbačeno	427		3
+izbegavano	18		3
 izbezumljeno	132		3
-izbodeno	25		3
+izbodeno	25		2
 izborno	758		2
-izbrazdano	40		3
+izbrazdano	40		2
 izbrijano	19		2
-izbrisano	319		3
+izbrisano	319		4
 izbrojano	85		2
-izbrojeno			3
-izbuljeno			3
-izbušeno	35		2
+izbrojeno			4
+izbuljeno			4
+izbušeno	35		3
 izdašno	411		3
-izdeljeno	26		3
-izdržavano	14		3
-izdubljeno	21		3
-izduženo	134		3
-izdvajano	109		2
-izdvojeno	4215		2
-izgaženo	10		3
+izdeljeno	26		4
+izdržavano	14		4
+izdubljeno	21		4
+izduženo	134		2
+izdvajano	109		3
+izdvojeno	4215		3
+izgaženo	10		2
 izglasano	246		2
-izglačano			2
-izglađeno			3
+izglačano			3
+izglađeno			2
 izgledno	192		2
-izgnano	16		2
-izgnječeno			3
-izgovarano	14		2
-izgovoreno	333		3
+izgnano	16		3
+izgnječeno			2
+izgovarano	14		3
+izgovoreno	333		4
 izgovorno			4
 izgravirano			2
-izgrađeno	2612		2
-izgrebano	26		2
-izgubljeno	3556		2
+izgrađeno	2612		3
+izgrebano	26		3
+izgubljeno	3556		3
 izgužvano	34		2
 izigrano	34		2
-izjavljeno	59		2
-izjednačeno	208		2
-izlagano	38		2
+izjavljeno	59		3
+izjednačeno	208		3
+izlagano	38		3
 izlazno	68		3
-izlečeno	75		2
-izliveno	69		3
+izlečeno	75		3
+izliveno	69		2
 izlizano	93		2
 izlišno	646		3
-izlomljeno	36		2
-izložbeno	73		3
-izloženo	2369		3
+izlomljeno	36		3
+izložbeno	73		4
+izloženo	2369		2
 izlupano			2
 izlučno			2
 izmaštano	25		2
 izmenjano			2
-izmenjeno	659		3
-izmereno	596		3
+izmenjeno	659		4
+izmereno	596		4
 izmešano	143		2
-izmešteno	185		3
-izmireno	67		3
+izmešteno	185		2
+izmireno	67		4
 izmirno			3
-izmišljeno	146		3
-izmoreno	30		3
-izmoždeno			3
-izmučeno	47		3
-iznajmljeno	66		2
-iznakaženo			3
+izmišljeno	146		4
+izmoreno	30		4
+izmoždeno			2
+izmučeno	47		2
+iznajmljeno	66		3
+iznakaženo			2
 iznenadno	769		4
-iznenađeno	363		2
+iznenađeno	363		3
 iznervirano	84		2
 izneseno	180		3
-iznevereno	80		3
+iznevereno	80		4
 iznimno	901		2
-iznošeno	60		2
-iznureno	32		3
-iznuđeno	185		3
+iznošeno	60		3
+iznureno	32		4
+iznuđeno	185		4
 izobilno	120		4
-izobičajeno			3
-izobličeno	40		2
-izobraženo			3
+izobičajeno			2
+izobličeno	40		3
+izobraženo			2
 izokretano			2
 izolirano			3
-izolovano	606		4
+izolovano	606		5
 izopačeno	129		3
-izorano			2
-izostavljeno	288		3
-izoštreno	27		2
-izranjeno			3
+izorano			3
+izostavljeno	288		4
+izoštreno	27		3
+izranjeno			4
 izravno	500		3
-izrađeno	651		2
-izrađivano	12		2
+izrađeno	651		3
+izrađivano	12		3
 izražajno	154		4
-izraženo	2119		2
-izrezano	30		3
-izrezbareno			2
-izrečeno	814		3
+izraženo	2119		3
+izrezano	30		4
+izrezbareno			3
+izrečeno	814		4
 izrešetano	15		2
 izrežirano	60		2
-izrično	159		2
-izručeno	47		2
+izrično	159		3
+izručeno	47		3
 izubijano			2
 izuzetno	76050		4
 izučavano			2
-izvaljeno	12		3
-izvanredno	3569		2
-izvađeno	251		3
-izvedeno	2084		2
+izvaljeno	12		4
+izvanredno	3569		3
+izvađeno	251		4
+izvedeno	2084		3
 izvesno	11781		3
-izvezeno	820		2
-izveštačeno	144		3
-izvešteno	24		2
+izvezeno	820		3
+izveštačeno	144		2
+izvešteno	24		3
 izvežbano	15		2
 izvorno	1938		2
 izvozno	1149		2
-izvođeno	80		2
-izvraćeno			3
+izvođeno	80		3
+izvraćeno			2
 izvrsno	1030		3
-izvršavano	10		3
-izvršeno	3878		3
+izvršavano	10		4
+izvršeno	3878		2
 izvršno	1130		2
-izvučeno	383		2
+izvučeno	383		3
 išarano	51		2
 išibano			4
-ištećeno			3
-iščašeno	24		3
+ištećeno			2
+iščašeno	24		4
 iščekivano	20		2
 iščitavano			2
-iščupano	37		2
+iščupano	37		3
 jadovno		M	2
-jalapeno			3
-jamačno	248		2
+jalapeno			2
+jamačno	248		3
 jarosno	39		2
 jasno	122521		2
-javljeno	653		2
+javljeno	653		3
 javno	49209		2
 javorkino			2
 jedino	91172		2
-jedinstveno	4886		2
+jedinstveno	4886		3
 jedno	126085		2
 jednobitno			2
 jednobojno	52		4
 jednodnevno	120		4
 jednodobno			4
 jednodomno	31		4
-jednodušno	425		2
-jednoglasno	5285		2
+jednodušno	425		3
+jednoglasno	5285		3
 jednokratno	813		4
-jednolično	199		2
+jednolično	199		3
 jednonedeljno			5
 jednoobrazno	127		5
 jednoporodično			2
 jednosatno	20		4
 jednosmerno	129		4
 jednostavno	83028		4
-jednostrano	3123		2
-jednosušno			2
+jednostrano	3123		3
+jednosušno			3
 jednoumno			4
-jednovremeno		M	3
+jednovremeno		M	2
 jednočlano	66		2
 jeftino	4362		3
 jelenino			2
 jemčeno			2
 jevtino			2
-jezično	54		2
+jezično	54		3
 jovino			2
 jubilarno	222		4
-jugoistočno	658		2
-jugozapadno	617		2
+jugoistočno	658		3
+jugozapadno	617		3
 junakinjino			2
 junačino			2
 južno	5407		2
@@ -1210,21 +1210,21 @@ kafano			2
 kafkino			2
 kalajisano	17		2
 kaldrmisano			2
-kaljeno	59		2
-kalorično	56		2
+kaljeno	59		3
+kalorično	56		3
 kalvino			2
 kameno	671		3
 kamerno			2
 kanalisano	25		2
 kancerogeno	197		5
 kandirano			2
-kaotično			2
+kaotično			3
 kaparisano			2
 kapilarno	67		4
 kapitalno	662		4
 kapucino			2
 kapućino	22	M	2
-karakteristično	3423		2
+karakteristično	3423		3
 karakterno	137		2
 karikaturalno			6
 karikirano	19		2
@@ -1232,22 +1232,22 @@ karirano	23		3
 karitativno			5
 kasaciono			2
 kasino	82		2
-kaskadno	115		2
+kaskadno	115		3
 kasno	13680		2
 kastrirano			2
 katarinino			2
 katarzično	85		2
 katastrofalno	2423		5
-kategorično	416		2
+kategorično	416		3
 kauzalno	49		4
-kazališno	10		3
-kazano	439		2
+kazališno	10		4
+kazano	439		3
 kazino	625		2
-kazneno	355		2
+kazneno	355		3
 kazno			2
 kačeno			2
 kaširano			2
-kažnjavano	57		2
+kažnjavano	57		3
 kažnjeno	473		3
 kidano			3
 kidnapovano	67		2
@@ -1257,18 +1257,18 @@ kivno		M	2
 kićeno	13		3
 kišno	219		2
 klasifikovano	82		3
-klasično	2365		2
+klasično	2365		3
 klasno	314		2
 klatno	382		2
 klaustrofobično	31		2
 klepano			2
 klerikalno	22		4
 klesano			2
-kletveno			2
+kletveno			3
 klimano			2
 klizno	89		2
 ključno	4378		2
-knjigovodstveno	175		3
+knjigovodstveno	175		2
 književno	2649		3
 knjižno	58		2
 koaliciono	71		2
@@ -1278,57 +1278,57 @@ kodirano	51		2
 kodno	131		2
 kognitivno	187		4
 koherentno	103		2
-koketno	56		2
+koketno	56		3
 kolegijalno	159		5
 kolektivno	3670		4
-koleno	2322		2
+koleno	2322		3
 kolhozno			2
 kolišno			2
-koljeno		J	2
+koljeno		J	3
 kolonijalno	144		5
 kolosalno	58		4
-komadano			2
+komadano			3
 komanditno	117		2
 komandno	166		2
 kombinovano	483		2
 komercijalno	1364		5
 komforno	484		3
-komično	617		2
+komično	617		3
 komotno	1464		3
-kompaktno	497		2
+kompaktno	497		3
 kompatibilno	233		5
 kompetentno	457		2
 kompjuterizovano			2
-kompleksno	829		2
+kompleksno	829		3
 kompletirano	74		2
-kompletno	8559		2
+kompletno	8559		3
 komplicirano	33		2
-komplikovano	2179		4
+komplikovano	2179		5
 komponovano	37		2
 kompoziciono			2
-kompromisno	888		2
-kompromitovano	62		4
+kompromisno	888		3
+kompromitovano	62		5
 kompulsivno			4
 kompulzivno	51		4
 komunalno	2370		4
-konačno	54538		2
+konačno	54538		3
 koncentrisano		M	2
-koncentrično			2
+koncentrično			3
 konceptualno	532		5
 koncertno	228		2
 koncizno	225		3
 kondiciono	71		2
 konfesionalno			6
 konfiskovano	44		2
-konfliktno	55		2
+konfliktno	55		3
 konfuzno	509		2
-kongresno	19		2
+kongresno	19		3
 kongruentno			2
-konično			2
+konično			3
 konjino			2
 konkavno	22		3
 konkretizovano	38		3
-konkretno	18526		2
+konkretno	18526		3
 konkubino			2
 konkurentno	403		2
 konsekventno			2
@@ -1337,7 +1337,7 @@ konspirativno	81		5
 konstantno	10737		2
 konstitucionalno			2
 konstruktivno	1283		4
-kontaktno	104		2
+kontaktno	104		3
 kontaminirano	114		3
 kontinentalno	109		5
 kontinuirano	5235		3
@@ -1360,24 +1360,24 @@ kopneno	54		2
 kopno	780		2
 koralno	68		2
 korektivno	87		4
-korektno	4585		2
-koreno			2
+korektno	4585		3
+koreno			3
 korigovano	89		2
 korisno	10165		3
-korišteno			3
-korišćeno	1189		3
+korišteno			2
+korišćeno	1189		4
 korodirano			2
 korporativno	563		5
 korumpirano	312		2
 kostimirano			2
 kosturno			2
-kovano	23		2
+kovano	23		3
 kočino			2
 kočoperno	29		4
-košeno	12		2
-koštano	214		2
+košeno	12		3
+koštano	214		3
 kožno	137		2
-kradeno	41		2
+kradeno	41		3
 krajino			3
 kraljičino			2
 krasno	437		2
@@ -1386,25 +1386,25 @@ kratkotrajno	706		4
 kreativno	2829		4
 kredibilno	58		4
 kreditno	1046		2
-kreirano	174		2
-kremirano	28		2
-kretenčino			2
+kreirano	174		3
+kremirano	28		3
+kretenčino			3
 krečno	60		2
 krilno			2
 kriminalno	625		4
 kristalno	2324		2
-kritično	1028		2
+kritično	1028		3
 kriveno			3
-krivično	12559		2
+krivično	12559		3
 krivokletno			4
-krivotvoreno	15		2
+krivotvoreno	15		3
 krizno	274		2
 krmno	176		2
-krojeno	23		2
+krojeno	23		3
 krpljeno			3
 krsno	334		2
 krucijalno	317		4
-krunisano	151		3
+krunisano	151		4
 kruno			2
 krupno	854		2
 kružno	391		2
@@ -1414,7 +1414,7 @@ krvožedno	11		4
 krzneno			2
 krzno	1043		2
 kršno			2
-kršteno	212		2
+kršteno	212		3
 kubno			2
 kucano	21		3
 kudeljno			2
@@ -1425,7 +1425,7 @@ kultno	348		2
 kulturno	10427		2
 kumulativno			5
 kuno			2
-kupljeno	1171		2
+kupljeno	1171		3
 kurativno	34		4
 kurentno			2
 kuriozno			4
@@ -1451,22 +1451,22 @@ ladno			2
 lagano	13257		3
 lagodno	626		3
 lakohodno			4
-lakomisleno	214		3
+lakomisleno	214		4
 lakoverno	44		4
 lamelirano			2
 laneno	292		2
-lansirano	160		2
-lančano	176		2
+lansirano	160		3
+lančano	176		3
 lapidarno	45		4
 lascivno	34		2
 lasno		M	2
 lastino			2
 latentno	222		2
 lateralno	121		4
-latinično	365		2
+latinično	365		3
 latino	1019		2
 lazino			2
-lažirano	17		2
+lažirano	17		3
 lažno	4352		2
 lažovčino			2
 ledeno	960		3
@@ -1477,23 +1477,23 @@ legitimno	3000		4
 leno		M	2
 lenčino			2
 lenštino			2
-lepljeno	22		2
-letargično	57		2
+lepljeno	22		3
+letargično	57		3
 letimično	180		2
 letopisno			2
 levodesno			2
-lečeno	267		2
+lečeno	267		3
 leđno	304		2
 ležerno	476		3
 liberalno	3967		4
 licemerno	1419		4
 licencno	65		2
 lihvarčino			2
-lijenčino		J	2
+lijenčino		J	3
 likovno	1142		2
 likvidaciono			2
 likvidno	55		3
-limeno	15		2
+limeno	15		3
 limitirano	103		2
 linearno	712		4
 lino			2
@@ -1502,50 +1502,50 @@ lisno	25		2
 literarno	491		4
 livno			2
 lično	46659		2
-lišavano			2
+lišavano			3
 lišeno	552		2
 ljetno		J	2
 ljubavno	484		2
 ljubazno	2913		3
 ljubino			2
 ljubišino			2
-ljubljeno	25		2
+ljubljeno	25		3
 ljubomorno	662		4
-ljudino			2
-locirano	286		2
-logično	13826		2
+ljudino			3
+locirano	286		3
+logično	13826		3
 lojalno	123		2
 lokalno	4615		2
 lokarno			2
-lomljeno	29		2
+lomljeno	29		3
 lomno			2
 lovno	132		2
-loženo			2
+loženo			3
 lucidno	314		3
 lukino			2
-luksuzno	1069		2
+luksuzno	1069		3
 lunarno	35		2
 lučno	236		2
 maestralno	875		4
 magarčino			2
 magistralno			4
-magično	657		2
-magnetično	14		2
-magnetno	850		2
-magnoveno		M	3
+magično	657		3
+magnetično	14		3
+magnetno	850		3
+magnoveno		M	2
 mahinalno		M	4
-majestetično		M	2
+majestetično		M	3
 majmunčino			2
 majušno			2
 majčino	998		3
 maksimalno	18432		4
 malecno			2
-maleno	336		2
+maleno	336		3
 maliciozno	232		5
 maligno	196		2
 malino			2
 malobrojno	74		4
-malodušno	38		2
+malodušno	38		3
 malokrvno			4
 maloletno	355		4
 maloumno	40		4
@@ -1556,7 +1556,7 @@ mandatno	70		3
 manifestno	62		2
 manijakalno	72		5
 manipulativno	101		2
-manično	48		2
+manično	48		3
 manjino			2
 mano			2
 manuelno	472		4
@@ -1573,13 +1573,13 @@ martino			2
 masakrirano	52		2
 masivno	280		3
 maskirano	44		2
-maslino			2
+maslino			3
 masno	1200		2
 masovno	8130		3
 materijalno	4540		5
 materino			4
 matirano	10		2
-matično	382		2
+matično	382		3
 maturalno			4
 mazno	128		2
 mašino			2
@@ -1589,11 +1589,11 @@ medno			2
 mehanizovano	37		3
 mekano	618		3
 mekušno			3
-melanholično	106		2
-melodično	54		2
+melanholično	106		3
+melodično	54		3
 melodramatično		M	2
-menično	51		2
-menjano	211		2
+menično	51		3
+menjano	211		3
 meno		M	2
 mentalno	5237		2
 mereno	795		3
@@ -1606,15 +1606,15 @@ mesečino			4
 mesečno	19822		3
 mesingano			2
 mesno	358		2
-mestimično	915		3
-metaforično	283		2
+mestimično	915		4
+metaforično	283		3
 metalno	402		2
 metodično	118		2
-međuledeno			3
-međunarodno	9674		2
+međuledeno			2
+međunarodno	9674		3
 međusobno	18226		4
-mešano	104		2
-mešino			2
+mešano	104		3
+mešino			3
 migraciono	19		2
 mikrotalasno	41		2
 milino			2
@@ -1629,7 +1629,7 @@ mimogredno			4
 mineralno	472		4
 minijaturno	88		2
 minimalno	4640		4
-minirano	37		2
+minirano	37		3
 mino			2
 minuciozno	111		5
 minutno	47		2
@@ -1640,7 +1640,7 @@ mirovno	86		3
 misaono	281		4
 misleno	65		2
 misteriozno	654		5
-mistično	388		2
+mistično	388		3
 mizerno	304		2
 mišino			2
 mišićno	180		2
@@ -1651,16 +1651,16 @@ mleveno	421		3
 mlečno	169		2
 mljeveno		J	3
 mnogobrojno	94		4
-mnogoceno			3
+mnogoceno			2
 mnogokratno	18		4
 mnogorodno			4
-mnogostrano			2
+mnogostrano			3
 mnogoumno			4
 mnogovrsno		M	2
 mnogočudno			4
 mobilno	576		3
 modalno			2
-modelirano			2
+modelirano			3
 modelovano			2
 moderno	5603		3
 modifikovano	235		3
@@ -1668,13 +1668,13 @@ modno	231		2
 modularno	428		4
 mogućno	1043		3
 molekularno	54		5
-molitveno	1315		3
+molitveno	1315		2
 momentalno	2812		4
 momentano			2
 momčino			2
 monetarno	141		4
 mono			2
-monolitno	56		2
+monolitno	56		3
 monotono	350		4
 monstruozno	316		4
 montano			2
@@ -1694,213 +1694,213 @@ moždano	133		2
 mramorno	55		2
 mrazno			2
 mračno	961		2
-mrcino			2
+mrcino			3
 mrežno	298		2
 mrgodno	23		2
 mrsno	49		2
-mrtvorođeno	20		3
+mrtvorođeno	20		2
 mrzno		M	2
 mrzovoljno	166		4
 mukotrpno	697		4
 multirasno			2
 muskulozno			4
-mutageno			3
+mutageno			2
 mutno	464		2
 muzikalno	23		4
 mučeno	59		3
 mučno	1128		2
 muškarčino			2
-mužestveno			3
+mužestveno			2
 muževno	56		3
 nabacano	88		2
-nabacivano			2
-nabavljeno	461		3
-nabijeno	96		3
+nabacivano			3
+nabavljeno	461		4
+nabijeno	96		4
 naborano	38		2
-nabrano	11		2
-nabrojano	406		2
+nabrano	11		3
+nabrojano	406		3
 naciljano			2
 nacionalizovano	82		2
 nacionalno	9266		5
-nacrtano	162		3
+nacrtano	162		4
 nadano			2
 nadareno	36		3
 naddržavno			4
 nadesno	222		3
-nadgledano			3
-nadgrobno	22		3
-nadjačano			2
-nadležno	2357		2
-nadmašeno	14		3
+nadgledano			2
+nadgrobno	22		2
+nadjačano			3
+nadležno	2357		3
+nadmašeno	14		4
 nadmeno	263		2
 nadmoćno	298		3
 nadnaravno	30		4
 nadnebesno			2
 nadno		M	2
 nadobudno	69		4
-nadoknađeno	163		3
+nadoknađeno	163		4
 nadrazumno			4
 nadrealno	204		4
-nadređeno	29		3
+nadređeno	29		2
 nadrljano			2
 nadsvesno			2
-nadureno	13		3
+nadureno	13		4
 naduvano	60		2
-naduveno	57		3
-nadvladano			2
+naduveno	57		2
+nadvladano			3
 nadvojvodino			2
-nadvremeno			3
+nadvremeno			4
 nadzemno	57		2
-nadzidano			3
+nadzidano			2
 nadzorno	117		2
 nadčulno			2
 naelektrisano	22		3
 naftno	149		2
-naglašeno	2629		2
-nagojeno			3
+naglašeno	2629		3
+nagojeno			4
 nagomilano	74		2
 nagorno			2
-nagovešteno	246		2
+nagovešteno	246		3
 nagradno	470		3
-nagrađeno	679		2
-nagurano	13		2
-nahereno			3
-nahranjeno	24		2
+nagrađeno	679		3
+nagurano	13		3
+nahereno			4
+nahranjeno	24		3
 naivno	2994		3
-naivčino			2
-naizmenično	2315		2
-najamno			2
-najavljeno	7530		2
-najureno	10		2
+naivčino			3
+naizmenično	2315		3
+najamno			3
+najavljeno	7530		3
+najureno	10		3
 nakano			3
 nakaradno	535		4
-nakarađeno			3
-nakazno	114		2
-nakačeno			3
-nakićeno			3
-naklonjeno	191		3
-naknadno	9599		2
-naknađeno			3
-nakostrešeno			3
+nakarađeno			2
+nakazno	114		3
+nakačeno			2
+nakićeno			2
+naklonjeno	191		4
+naknadno	9599		3
+naknađeno			4
+nakostrešeno			2
 nakresano			2
-nakrivljeno	19		3
-nakupljeno	26		3
-nakvašeno			3
-nalagano			2
-nalaženo	13		3
-naliveno	12		3
-naloženo	1349		2
-namazano	32		3
-namenjeno	3698		2
-nameravano	34		2
-namereno			3
-namerno	13732		2
-nametano	32		2
-namešteno	476		3
-namireno	46		2
+nakrivljeno	19		4
+nakupljeno	26		4
+nakvašeno			2
+nalagano			3
+nalaženo	13		4
+naliveno	12		2
+naloženo	1349		3
+namazano	32		4
+namenjeno	3698		3
+nameravano	34		3
+namereno			4
+namerno	13732		3
+nametano	32		3
+namešteno	476		4
+namireno	46		3
 namirisano			2
 namotano			2
-namrgođeno	55		3
-namršteno		M	3
-namučeno	14		3
-naneseno	20		3
+namrgođeno	55		2
+namršteno		M	2
+namučeno	14		2
+naneseno	20		2
 nano			2
-naoblačeno			3
+naoblačeno			2
 naoružano	84		2
-napadano	26		3
-napadno	419		2
+napadano	26		4
+napadno	419		3
 napajano	13		2
-napaljeno	21		3
+napaljeno	21		4
 napasno			2
-napaćeno	28		3
-napereno			3
-napisano	7145		2
-napismeno	419		3
-naplaćeno	550		3
-napleteno			3
-napojeno			3
+napaćeno	28		4
+napereno			4
+napisano	7145		3
+napismeno	419		4
+naplaćeno	550		2
+napleteno			2
+napojeno			4
 napolitano			2
-napominjano			3
+napominjano			4
 naporno	3334		2
 naprasno	1521		2
-napravljeno	2924		3
+napravljeno	2924		4
 naprazno		M	3
-napredno	1031		2
-naprošeno			3
-napunjeno	101		3
-napućeno			3
-napuštano			2
-napušteno	470		2
+napredno	1031		3
+naprošeno			2
+napunjeno	101		4
+napućeno			2
+napuštano			3
+napušteno	470		3
 narativno	129		4
-naravno	187847		2
-narcisoidno	57		2
-naredno	1242		3
+naravno	187847		3
+narcisoidno	57		3
+naredno	1242		2
 narezano	20		2
 naređano			2
-naređeno	1097		3
+naređeno	1097		2
 naređivano	14		2
-narodno	4257		2
-narogušeno			3
-naručeno	310		2
-narušeno	458		3
-nasađeno			3
-naseljavano	18		2
-naseljeno	1080		2
-nasečeno			3
+narodno	4257		3
+narogušeno			2
+naručeno	310		3
+narušeno	458		2
+nasađeno			2
+naseljavano	18		3
+naseljeno	1080		3
+nasečeno			2
 nasigurno		M	4
-nasilno	3708		2
+nasilno	3708		3
 naslagano	22		2
-nasledno	391		2
-nasleđeno	205		2
-naslikano	120		3
-nasljedno			2
-naslonjeno	56		2
-naslovljeno	115		2
+nasledno	391		3
+nasleđeno	205		3
+naslikano	120		4
+nasljedno			3
+naslonjeno	56		3
+naslovljeno	115		3
 naslovno	14		2
-naslućeno			2
+naslućeno			3
 nasmejano	295		2
-nasmešeno	19		2
+nasmešeno	19		3
 nasmijano	27	J	2
 naspramno		M	2
-nastanjeno	213		2
-nastavljano			3
-nastavljeno	2377		3
+nastanjeno	213		3
+nastavljano			4
+nastavljeno	2377		4
 nastavno	867		2
-nastrano	63		2
-nastrojeno	81		3
+nastrano	63		3
+nastrojeno	81		4
 nastrugano			2
 nasumično	862		2
 nasušno	114		2
-nataloženo	35		3
-naterano	19		3
-natečeno	41		2
+nataloženo	35		2
+naterano	19		4
+natečeno	41		3
 natmureno	19		3
-natopljeno	80		2
-natovareno	45		3
+natopljeno	80		3
+natovareno	45		4
 natprirodno	247		4
 natrpano	28		2
-natrunjeno			3
+natrunjeno			4
 naturalno	120		4
-natušteno		M	3
-naumljeno			2
-naučeno	424		2
-naučno	6665		2
-navedeno	15150		3
+natušteno		M	2
+naumljeno			3
+naučeno	424		3
+naučno	6665		3
+navedeno	15150		2
 navezeno			3
-navešteno			3
-navodnjeno			3
-navodno	30733		2
-navođeno	77		2
-navršeno	17		2
-nazadno	115		2
+navešteno			2
+navodnjeno			4
+navodno	30733		3
+navođeno	77		3
+navršeno	17		3
+nazadno	115		3
 nazalno	19		2
-nazivano	99		2
-naznačeno	1168		3
-nazvano	895		2
+nazivano	99		3
+naznačeno	1168		2
+nazvano	895		3
 načelno	2463		2
-načinjeno	203		2
+načinjeno	203		3
 načičkano	28		2
-nađeno	1372		2
+nađeno	1372		3
 naškrabano			2
 našminkano	43		2
 naštampano	25		2
@@ -1910,16 +1910,16 @@ neaktivno	115		4
 nebesno	137		2
 nebezbedno	162		4
 nebitno	4559		3
-neblagovremeno	274		3
-neborbeno	12		3
-nebranjeno	32		3
+neblagovremeno	274		2
+neborbeno	12		2
+nebranjeno	32		4
 nebrižno			2
-nebrojeno	1812		3
+nebrojeno	1812		4
 nebulozno			4
 neburno			2
-necenjeno			3
+necenjeno			4
 necivilizovano			2
-necrkveno			3
+necrkveno			2
 nedano			2
 nedavno	54666		3
 nedelatno			4
@@ -1928,72 +1928,72 @@ nedisciplinovano			2
 nedogledno	25		4
 nedohvatno			3
 nedokazano	34		2
-nedolično	407		2
-nedopušteno	132		3
-nedorečeno	303		3
-nedosledno	196		2
-nedosljedno		J	2
+nedolično	407		3
+nedopušteno	132		2
+nedorečeno	303		2
+nedosledno	196		3
+nedosljedno		J	3
 nedostižno	480		4
-nedostojanstveno	11		3
+nedostojanstveno	11		2
 nedostojno	343		4
 nedostupno	317		2
 nedotupavno			5
 nedovoljno	14415		4
-nedovršeno	232		3
-nedozvoljeno	740		3
-nedoživljeno	13		3
+nedovršeno	232		2
+nedozvoljeno	740		2
+nedoživljeno	13		2
 nedužno	153		3
-nedvojbeno	201		2
-nedvosmisleno	4597		3
+nedvojbeno	201		3
+nedvosmisleno	4597		4
 neefikasno	470		5
-neelastično			2
-neenergično			2
-neetično	41		2
+neelastično			3
+neenergično			3
+neetično	41		3
 neformalno	1387		4
 negativno	8641		4
 negovano	96		4
 nehajno	265		3
-neharmonično			2
+neharmonično			3
 nehatno		M	3
-nehotično	281		3
+nehotično	281		4
 nehumano	388		4
 neidentifikovano			2
 neinteresantno			2
-neisceljeno			3
+neisceljeno			2
 neiscrpno	130		4
 neiskazano	154		2
-neiskreno	265		3
+neiskreno	265		4
 neiskusno	61		4
-neiskvareno	31		3
+neiskvareno	31		4
 neispavano	14		2
 neispitano	30		2
 neispravno	680		4
-neispunjeno	203		3
-neistraženo	110		3
+neispunjeno	203		2
+neistraženo	110		2
 neizazvano			2
 neizbežno	3141		4
-neizlečeno			3
-neizmenjeno	61		3
-neizmereno			3
+neizlečeno			2
+neizmenjeno	61		2
+neizmereno			4
 neizmerno	1587		4
 neizostavno	1355		5
-neizrečeno	58		2
-neizvedeno			3
+neizrečeno	58		3
+neizvedeno			2
 neizvesno	2279		4
-neizveštačeno			3
-neizvršeno	12		3
-nejasno	4302		2
+neizveštačeno			2
+neizvršeno	12		2
+nejasno	4302		3
 nekarakteristično	39		2
-nekažnjeno	1287		3
+nekažnjeno	1287		4
 neknjiževno			4
 nekompletno	58		4
 nekontrolisano	1566		3
 nekonvencionalno	95		7
 nekorektno	1046		2
 nekorisno	112		2
-nekorišćeno			3
-nekritično	75		2
-nekršteno	22		3
+nekorišćeno			2
+nekritično	75		3
+nekršteno	22		2
 nekulturno	294		4
 nekuvano			2
 nelagodno	507		4
@@ -2002,7 +2002,7 @@ nelegalno	2945		4
 nelikvidno	66		4
 neljubavno			4
 neljubazno	94		4
-nelogično	1635		2
+nelogično	1635		3
 nelojalno	46		4
 nemanjino			2
 nemarno	444		3
@@ -2020,16 +2020,16 @@ nemoćno	684		3
 nenadano	552		3
 nenadležno	20		2
 nenadmašno	70		4
-nenadno		M	2
-nenaglašeno			3
-nenajavljeno	199		3
-nenamerno	768		2
-nenamešteno		M	3
-nenaređeno			3
-nenaseljeno	81		3
+nenadno		M	3
+nenaglašeno			2
+nenajavljeno	199		2
+nenamerno	768		3
+nenamešteno		M	2
+nenaređeno			2
+nenaseljeno	81		4
 nenasilno	184		4
 nenasitno			2
-nenastanjeno	28		3
+nenastanjeno	28		2
 nenastavno	69		4
 nenaučno			2
 nenačelno			4
@@ -2038,31 +2038,31 @@ nenormalno	1781		4
 neobavezno	460		5
 neobilazno			5
 neobično	9260		4
-neobjavljeno	41		3
-neobjašnjeno	54		3
+neobjavljeno	41		2
+neobjašnjeno	54		2
 neobligatno			2
-neobojeno	11		3
+neobojeno	11		2
 neobrađeno	159		3
 neobrezano			2
 neobuzdano	130		5
-neobučeno			3
+neobučeno			2
 neobzirno			4
-neocenjeno			3
-neodeveno			3
+neocenjeno			2
+neodeveno			2
 neodgovorno	2149		5
 neodložno	339		2
 neodlučeno			3
 neodlučno	210		4
-neodmereno	72		3
-neodobreno	10		3
+neodmereno	72		4
+neodobreno	10		4
 neodređeno	2494		3
-neograničeno	1576		3
+neograničeno	1576		4
 neokaljano	14		2
-neokrnjeno			3
+neokrnjeno			2
 neometano	1355		2
-neometeno	16		3
-neomeđeno			3
-neopaženo	535		3
+neometeno	16		2
+neomeđeno			2
+neopaženo	535		2
 neophodno	43550		4
 neopisano			2
 neoprano			2
@@ -2076,30 +2076,30 @@ neoružano			2
 neosetno	293		4
 neosnovano	1409		5
 neosporno	1772		4
-neosvetljeno			3
-neosvojeno			3
+neosvetljeno			2
+neosvojeno			2
 neotesano	22		5
-neotkriveno	85		3
-neotvoreno	16		3
-neovlašćeno	1704		3
+neotkriveno	85		2
+neotvoreno	16		4
+neovlašćeno	1704		2
 neozbiljno	2260		4
-neoznačeno			3
+neoznačeno			2
 neočekivano	5314		3
-neočišćeno	11		3
-neoštećeno	55		3
-neoženjeno			3
+neočišćeno	11		2
+neoštećeno	55		4
+neoženjeno			4
 nepametno	21		4
 neparno	24		3
 nepisano	508		3
-nepismeno	374		3
+nepismeno	374		4
 neplanirano	630		2
-neplaćeno	160		3
-neplodno	79		2
+neplaćeno	160		2
+neplodno	79		3
 nepobedno			4
-nepobeđeno			3
+nepobeđeno			2
 nepobitno	517		4
 nepobožno			2
-nepodeljeno	195		3
+nepodeljeno	195		2
 nepodesno	40		2
 nepodložno			2
 nepodobno	54		4
@@ -2110,13 +2110,13 @@ nepojamno			4
 nepokajano			2
 nepokorno			4
 nepokretno	270		4
-nepokvareno			3
+nepokvareno			4
 nepomično	532		4
-nepomućeno		M	3
+nepomućeno		M	2
 nepopularno	227		5
-nepopunjeno	68		3
-neporaženo			3
-neporemećeno			3
+nepopunjeno	68		2
+neporaženo			2
+neporemećeno			2
 neporozno			4
 neporočno	42		2
 neposlušno	61		4
@@ -2126,12 +2126,12 @@ nepostojano	59		5
 nepotpisano	24		2
 nepotpuno	713		4
 nepotrebno	5216		4
-nepotvrđeno	39		3
+nepotvrđeno	39		2
 nepouzdano	147		5
 nepovezano	263		3
 nepovoljno	1550		4
 nepovratno	1711		4
-nepovređeno	53		3
+nepovređeno	53		2
 nepozvano	14		4
 nepoćudno			4
 nepoštedno	66		4
@@ -2142,26 +2142,26 @@ nepravedno	2862		4
 nepravilno	1689		4
 nepravično	127		4
 neprecizno	467		4
-nepredviđeno	234		3
+nepredviđeno	234		4
 nepregledno	214		4
 neprekidno	8145		4
 neprelazno			4
-neprestano	12315		2
+neprestano	12315		3
 nepresušno	46		4
-neprevedeno	10		3
+neprevedeno	10		2
 neprijatno	5088		4
-neprikladno	341		2
-neprikosnoveno		M	3
-neprikriveno			3
-neprilično	169		2
-neprimereno	1735		3
+neprikladno	341		3
+neprikosnoveno		M	2
+neprikriveno			2
+neprilično	169		3
+neprimereno	1735		4
 neprimerno	87		4
 neprimetno	1606		4
-neprimećeno	316		3
+neprimećeno	316		2
 neprincipijelno	115		6
-neprirodno	1105		2
+neprirodno	1105		3
 nepristojno	1216		2
-nepristrano	15		2
+nepristrano	15		3
 nepristrasno	914		2
 nepristupačno	115		5
 neprivlačno	74		4
@@ -2171,91 +2171,91 @@ neprofitno	266		4
 neprohodno	29		4
 neprolazno	158		4
 nepromenjeno	393		3
-nepromišljeno	441		3
+nepromišljeno	441		4
 nepropisno	946		2
 neproporcionalno	127		2
 neprozirno	31		4
-nepuno	93		2
+nepuno	93		3
 neracionalno	748		6
-neradno	95		2
+neradno	95		3
 nerasejano			2
-neraspoloženo	77		3
-neraspoređeno	28		3
+neraspoloženo	77		2
+neraspoređeno	28		2
 nerasudno			4
 neravno	79		3
 neravnomerno	333		2
 nerazdvojno	139		4
 nerazgovetno	88		5
-nerazjašnjeno	157		3
+nerazjašnjeno	157		2
 nerazumno	780		4
 nerealno	2712		4
 neredovno	621		4
 neregistrovano			3
 neregularno	184		5
 nerešeno	2368		3
-nerođeno	130		3
-nervirano			2
+nerođeno	130		4
+nervirano			3
 nervno	171		2
 nervozno	1265		3
 nesabrano			2
 nesaglasno			2
-nesavesno	440		2
-nesavršeno	132		3
+nesavesno	440		3
+nesavršeno	132		4
 nesebično	1931		4
 neseno			2
-neshvaćeno	51		3
+neshvaćeno	51		4
 nesigurno	1058		4
 neskladno	48		3
-neskriveno	361		3
-neskromno	275		2
+neskriveno	361		2
+neskromno	275		3
 neslano	28		3
 neslavno	780		3
-nesloženo			3
-nesložno			2
-neslućeno	100		3
+nesloženo			2
+nesložno			3
+neslućeno	100		2
 neslučajno			4
-neslužbeno	188		3
-nesmanjeno	42		3
+neslužbeno	188		4
+nesmanjeno	42		4
 nesmetano	4988		2
-nesmisleno			3
-nesmotreno	317		3
-nesnosno	174		2
+nesmisleno			2
+nesmotreno	317		4
+nesnosno	174		3
 nesolidno	21		4
 nespokojno	21		4
 nesporno	2629		2
 nesposobno	318		4
-nespremno	138		2
+nespremno	138		3
 nespretno	819		2
-nesputano	195		3
-nesravnjeno		M	3
+nesputano	195		4
+nesravnjeno		M	4
 nesrazmerno	678		4
 nesrećno	1006		3
-nesređeno	92		3
+nesređeno	92		2
 nesrodno			2
 nestabilno	558		4
 nestalno	45		3
 nestašno	130		2
-nestručno	581		2
+nestručno	581		3
 nestvarno	1074		3
 nesvakodnevno			5
-nesvareno			3
-nesvesno	4221		2
-nesvršeno			3
-netaktično	38		2
+nesvareno			4
+nesvesno	4221		3
+nesvršeno			2
+netaktično	38		3
 netačno	2525		3
 netipično	157		2
 netransparentno	294		2
 netruležno	58		2
 neudobno	155		4
-neugašeno			3
+neugašeno			2
 neugledno	84		4
 neugodno			4
-neuhranjeno	65		3
-neujednačeno	122		3
-neukrašeno			3
+neuhranjeno	65		2
+neujednačeno	122		2
+neukrašeno			2
 neukusno	761		4
 neuljudno	39		4
-neumereno	251		3
+neumereno	251		4
 neumesno	737		2
 neumitno	923		4
 neumorno	1641		4
@@ -2263,54 +2263,54 @@ neuobičajeno	2007		3
 neupitno	200		2
 neuprljano			2
 neuputno	49		2
-neupućeno	22		3
-neurastenično			2
+neupućeno	22		2
+neurastenično			3
 neuravnoteženo	36		3
 neuredno	363		4
-neuređeno	134		3
-neurotično	76		2
-neusiljeno	61		3
+neuređeno	134		2
+neurotično	76		3
+neusiljeno	61		4
 neuslovno	39		4
 neuspešno	1286		4
 neustavno	488		4
 neutešno	227		4
 neutralno	726		4
 neutrino	134		2
-neutvrđeno	27		3
-neuvijeno	91		3
+neutvrđeno	27		2
+neuvijeno	91		2
 neuviđavno			5
-neuzbuđeno		M	3
+neuzbuđeno		M	2
 neuzdržano			2
-neuzvraćeno			3
+neuzvraćeno			2
 nevaspitano	138		2
 nevažno	1204		3
 nevenčano	29		2
 neverbalno	106		4
-neverno	31		2
+neverno	31		3
 neverovatno	17305		2
 nevezano	1117		2
 nevino	1142		3
-nevično			2
-neviđeno	1586		3
+nevično			3
+neviđeno	1586		2
 nevladino	186		2
-nevoljeno	37		3
+nevoljeno	37		4
 nevoljno	1227		2
 nezaboravno	1307		5
 nezadovoljno	455		5
-nezagađeno	38		3
+nezagađeno	38		2
 nezahvalno	849		4
 nezainteresovano			2
-nezamućeno			3
-nezapaženo	807		3
-nezaposleno	680		3
+nezamućeno			2
+nezapaženo	807		4
+nezaposleno	680		4
 nezasitno			4
-nezasluženo	685		3
-nezavidno	47		2
-nezavisno	13438		2
-nezavršeno	74		3
+nezasluženo	685		2
+nezavidno	47		3
+nezavisno	13438		3
+nezavršeno	74		2
 nezazorno			4
 nezaštićeno	123		3
-nezgodno	1770		2
+nezgodno	1770		3
 nezgrapno	212		3
 neznano	267		3
 neznatno	2653		3
@@ -2319,18 +2319,18 @@ nezvanično	4966		4
 nečasno	291		3
 nečovečno	205		4
 nečujno	665		3
-nečuveno	557		3
+nečuveno	557		2
 neštedno			2
-neželjeno	376		3
+neželjeno	376		4
 neživotno			2
 nežno	3865		2
 nijedno	4048		2
 nino			2
-nizvodno	1429		2
+nizvodno	1429		3
 ništavno	147		3
 njegovano			4
 njeno	22853		2
-njezino	316		2
+njezino	316		3
 nježno		J	2
 njino			2
 no	89825		1
@@ -2341,319 +2341,319 @@ normalno	36450		3
 normativno	425		4
 normirano	65		2
 nosno	38		2
-nostalgično	243		2
+nostalgično	243		3
 notirano	14		2
 notno	17		2
 notorno	101		2
-novopronađeno			3
-novorođeno	152		2
-novčano	1628		2
+novopronađeno			2
+novorođeno	152		3
+novčano	1628		3
 noćno	1515		2
-nošeno	84		2
+nošeno	84		3
 nožno	12		2
 nuklearno	1233		4
 nuđeno	320		3
 nuždno			2
 nužno	9539		2
 obalno			3
-obasjano	82		2
+obasjano	82		3
 obavezno	27242		4
 obaveštajno	117		5
-obavešteno			3
-obavijeno	201		4
-obavljano	106		3
-obavljeno	2901		3
-obdareno	35		2
+obavešteno			2
+obavijeno	201		5
+obavljano	106		4
+obavljeno	2901		4
+obdareno	35		3
 obedno			2
-obeleženo	1435		3
+obeleženo	1435		2
 obesno	38		2
-obezbeđeno	2998		3
-obezglavljeno	63		2
-obeznanjeno			3
+obezbeđeno	2998		2
+obezglavljeno	63		3
+obeznanjeno			2
 obezoružano			3
-obećano	1518		2
-obećavano	145		2
-obešeno	73		3
-obijeno	26		3
+obećano	1518		3
+obećavano	145		3
+obešeno	73		4
+obijeno	26		4
 obilazno			4
-obilježeno	125	J	3
+obilježeno	125	J	2
 obilno	1177		3
 obimno	461		3
 običajno	175		4
-obično	56636		2
-obiđeno	10		2
-objavljeno	11510		2
-objavljivano	109		2
-objašnjeno	2756		2
-objedinjeno	282		2
+obično	56636		3
+obiđeno	10		3
+objavljeno	11510		3
+objavljivano	109		3
+objašnjeno	2756		3
+objedinjeno	282		3
 objektivno	6841		4
-objektno	329		2
+objektno	329		3
 oblasno	39		2
 oblačno	1339		3
 obligaciono	112		2
 oblikovano	211		2
-obliveno	37		3
-obloženo	120		3
-obmanjivano			2
-obnavljano	33		2
-obnaženo	26		3
-obnovljeno	745		2
-obogaljeno	10		3
-obogaćeno	245		3
-obojeno	436		3
-oboreno	128		2
-obostrano	2835		2
-obožavano	12		2
-obradovano	15		4
+obliveno	37		2
+obloženo	120		2
+obmanjivano			3
+obnavljano	33		3
+obnaženo	26		2
+obnovljeno	745		3
+obogaljeno	10		2
+obogaćeno	245		4
+obojeno	436		4
+oboreno	128		3
+obostrano	2835		3
+obožavano	12		3
+obradovano	15		5
 obrano	209		2
 obratno	2767		3
-obrazloženo	379		2
-obrazovano	184		4
-obrazovno	567		3
-obraćeno	12		2
-obrađeno	823		2
-obrađivano	54		2
+obrazloženo	379		3
+obrazovano	184		5
+obrazovno	567		4
+obraćeno	12		3
+obrađeno	823		3
+obrađivano	54		3
 obredno	155		3
-obremenjeno			3
-obrezano	25		3
-obrečeno			3
+obremenjeno			2
+obrezano	25		4
+obrečeno			2
 obrijano	20		2
-obrisano	146		3
+obrisano	146		4
 obrtno	77		2
-obrubljeno			2
+obrubljeno			3
 obuhvatno	55		4
-obuhvaćeno	2545		3
-obujmljeno			2
-obustavljeno	248		3
-obuveno			3
-obuzdano			2
-obučavano	15		2
-obučeno	511		2
-obzidano			3
+obuhvaćeno	2545		4
+obujmljeno			3
+obustavljeno	248		4
+obuveno			4
+obuzdano			3
+obučavano	15		3
+obučeno	511		3
+obzidano			2
 obzirno	31		3
-obznanjeno	68		3
-ocarinjeno	30		3
-ocenjeno	2047		2
-ocenjivano	58		2
+obznanjeno	68		4
+ocarinjeno	30		2
+ocenjeno	2047		3
+ocenjivano	58		3
 oceno			3
-oceđeno			3
+oceđeno			2
 ocrtano	17		4
-odabrano	755		2
+odabrano	755		3
 odano	124		3
 odavno	34637		3
-odbacivano	19		2
-odbačeno	395		2
-odbijeno	506		3
+odbacivano	19		3
+odbačeno	395		3
+odbijeno	506		4
 odbojno	220		3
-odbrambeno	162		3
-odbranjeno	93		2
+odbrambeno	162		4
+odbranjeno	93		3
 odbrano			3
 odbrojano			2
-odeljeno	26		2
+odeljeno	26		3
 oderano			2
-odeveno	32		3
+odeveno	32		2
 odgajano	30		2
-odgajeno	15		3
-odglumljeno	11		3
-odgovarano	33		2
-odgovoreno	876		2
+odgajeno	15		4
+odglumljeno	11		4
+odgovarano	33		3
+odgovoreno	876		3
 odgovorno	8628		4
-odgođeno	92		2
-odigrano	1077		3
+odgođeno	92		3
+odigrano	1077		4
 odlagano	171		2
-odleđeno			2
-odlikovano	41		4
-odliveno	12		3
+odleđeno			3
+odlikovano	41		5
+odliveno	12		2
 odlično	32232		3
-odloženo	2546		3
-odlučeno	5367		2
-odlučivano	103		2
+odloženo	2546		2
+odlučeno	5367		3
+odlučivano	103		3
 odlučno	4643		3
-odmereno	343		3
+odmereno	343		4
 odmorno	111		3
-odnedavno	2420		3
+odnedavno	2420		4
 odnegovano			2
-odneseno	90		3
-odnosno	224964		2
-odnošeno	29		2
-odobreno	2407		3
-odobrovoljeno			2
-odomaćeno	55		3
-odrađeno	873		2
-odraženo			2
-odrezano	11		3
-odrečeno			3
+odneseno	90		2
+odnosno	224964		3
+odnošeno	29		3
+odobreno	2407		4
+odobrovoljeno			3
+odomaćeno	55		2
+odrađeno	873		3
+odraženo			3
+odrezano	11		4
+odrečeno			4
 odrečno	192		3
 određeno	11961		3
-određivano	25		2
-odrično	118		2
+određivano	25		3
+odrično	118		3
 održano	11655		2
-održavano	114		3
-odsečeno	157		3
+održavano	114		4
+odsečeno	157		4
 odsečno	183		3
 odslikano			2
-odsluženo	28		3
-odstranjeno	79		2
-odstupljeno			3
+odsluženo	28		2
+odstranjeno	79		3
+odstupljeno			4
 odsudno		M	2
 odsutno	290		3
-oduhovljeno	10		3
+oduhovljeno	10		2
 odurno	52		3
 oduvano			2
-oduzimano	35		3
-oduševljeno	1231		3
+oduzimano	35		4
+oduševljeno	1231		2
 odvažno	322		3
-odvedeno	202		2
-odvezeno	51		2
-odvlačeno			2
-odvojeno	4213		3
-odvođeno	17		2
-odvoženo	16		3
+odvedeno	202		3
+odvezeno	51		3
+odvlačeno			3
+odvojeno	4213		4
+odvođeno	17		3
+odvoženo	16		2
 odvratno	1225		3
-odvraćeno			2
-odvučeno	19		2
+odvraćeno			3
+odvučeno	19		3
 odštampano	273		2
 ofanzivno	383		4
 ofarbano	100		3
 oficijalno	99		5
 oficijelno	404		5
-oformljeno	134		3
+oformljeno	134		4
 ofucano	40		2
 ogavno	138		3
 oglasno	27		2
-oglašeno	80		3
+oglašeno	80		2
 ogledno	234		2
-ognjeno	64		2
-ognojeno			3
-ogoljeno	278		3
+ognjeno	64		3
+ognojeno			4
+ogoljeno	278		4
 ogorčeno	419		3
-ogradno			2
-ograničeno	2228		3
-ograđeno	255		2
+ogradno			3
+ograničeno	2228		4
+ograđeno	255		3
 ogrebano			2
-ogrejano			3
+ogrejano			4
 ogrevno	119		2
 ogromno	4708		3
-ohlađeno	97		2
-ohrabreno	25		2
-oivičeno	84		3
-ojačano	107		2
-ojačavano			2
-ojađeno	22		3
+ohlađeno	97		3
+ohrabreno	25		3
+oivičeno	84		2
+ojačano	107		3
+ojačavano			3
+ojađeno	22		2
 okaljano			2
-okamenjeno	55		3
-okačeno	98		3
+okamenjeno	55		2
+okačeno	98		2
 okerno			2
-okivano			2
-okićeno	70		3
-okljaštreno			3
-oklopljeno	17		2
-oklopno	78		2
+okivano			3
+okićeno	70		4
+okljaštreno			4
+oklopljeno	17		3
+oklopno	78		3
 okno	511		2
 okolišno	29		2
 okolno	377		2
-okončano	676		2
+okončano	676		3
 okorno			2
-okovano	57		2
-okrepljeno			3
+okovano	57		3
+okrepljeno			4
 okretno	65		3
-okrivljeno	82		2
-okrnjeno	22		3
+okrivljeno	82		3
+okrnjeno	22		4
 okrutno		M	3
-okruženo	606		3
+okruženo	606		2
 okružno	694		2
-okrvavljeno	17		3
+okrvavljeno	17		4
 oksidaciono			2
 oksidirano			2
 oktroisano			2
-okultno	111		2
+okultno	111		3
 okupaciono	22		2
 okupano	53		2
 okupirano	134		2
-okupljeno	195		3
+okupljeno	195		4
 okvirno	1001		3
-olakšano	521		2
-olepljeno			3
-oličeno	134		2
-oljušteno	18		3
+olakšano	521		3
+olepljeno			4
+oličeno	134		3
+oljušteno	18		2
 olovno	81		3
 olujno	136		2
 omaleno			4
-omamljeno	22		2
+omamljeno	22		3
 omađijano			2
 omekšano			2
-ometano	24		2
+ometano	24		3
 ometeno	56		3
-omeđeno	85		3
-omiljeno	2222		3
+omeđeno	85		4
+omiljeno	2222		4
 omladino			2
-omogućeno	8046		2
-omotano			2
-omraženo	32		3
-onakaženo			3
-onemogućeno	1087		2
-oneobičeno			3
-onesposobljeno	30		2
+omogućeno	8046		3
+omotano			3
+omraženo	32		2
+onakaženo			2
+onemogućeno	1087		3
+oneobičeno			2
+onesposobljeno	30		3
 ono	298278		2
-onostrano	121		2
-onovremeno	21		3
-opaljeno	18		3
+onostrano	121		3
+onovremeno	21		2
+opaljeno	18		4
 opasano	84		4
 opasno		M	3
-opaženo	39		3
+opaženo	39		4
 opciono	1034		2
 operativno	1625		5
 opetovano	30		2
 opevano	39		2
-opijeno	31		3
-opisano	1674		2
+opijeno	31		4
+opisano	1674		3
 opisno	246		2
-opičeno			3
-opkoljeno	77		2
-oplavljeno			3
-oplemenjeno	58		2
-opleteno			3
-opljačkano	261		3
-oplođeno	24		2
-opoganjeno			3
+opičeno			2
+opkoljeno	77		3
+oplavljeno			4
+oplemenjeno	58		3
+opleteno			2
+opljačkano	261		4
+oplođeno	24		3
+opoganjeno			2
 opojno	98		2
 oponirano			2
-oporavljeno	19		3
+oporavljeno	19		2
 oporno			2
 oportuno	149		4
 oporučno			2
 opoziciono	255		2
-opozvano	28		2
-oprano	151		2
+opozvano	28		3
+oprano	151		3
 opravdano	4704		3
-opravljeno			3
-opredeljeno	775		3
-opredmećeno			3
-opremljeno	871		2
+opravljeno			4
+opredeljeno	775		2
+opredmećeno			2
+opremljeno	871		3
 oprezno	2737		3
 oprečno	74		3
 oprobano	68		2
 oproštajno	192		4
-oprošteno			3
-opsadno	67		2
+oprošteno			2
+opsadno	67		3
 opsceno	42		3
 opsesivno	475		4
 opsežno			3
 opskurno	43		3
-opterećeno	471		3
+opterećeno	471		4
 optimalno	2738		4
-optimistično	372		2
-optočeno	19		3
-optuženo	261		2
-opunomoćeno			3
-opustošeno	61		3
-opušteno	3054		2
+optimistično	372		3
+optočeno	19		2
+optuženo	261		3
+opunomoćeno			2
+opustošeno	61		2
+opušteno	3054		3
 opčarano			2
-opčinjeno	43		2
+opčinjeno	43		3
 opširno	975		3
-opšiveno			3
+opšiveno			2
 opšteobavezno			2
-opšteprihvaćeno	177		3
+opšteprihvaćeno	177		2
 oralno	776		2
 orbitalno	17		4
 orezano	12		2
@@ -2663,109 +2663,109 @@ oribano			2
 origano	290		2
 originalno	2864		5
 orijentalno	62		5
-orobljeno			2
-oročeno	78		3
-orošeno	23		3
-ortodoksno	56		2
-oružano	171		3
-osakaćeno	56		3
-osamljeno	30		3
+orobljeno			3
+oročeno	78		2
+orošeno	23		2
+ortodoksno	56		3
+oružano	171		4
+osakaćeno	56		4
+osamljeno	30		4
 osedlano			2
-osenčeno		M	3
-osetno	1993		2
+osenčeno		M	2
+osetno	1993		3
 osećajno	141		4
-osećano			3
-osečeno			3
-osigurano	449		2
+osećano			4
+osečeno			2
+osigurano	449		3
 osiono	165		2
-oskrnavljeno	117		3
-oskudno	539		2
-oslabljeno	118		3
-oslobođeno	893		2
-oslonjeno	86		3
-oslovljeno			3
-osmišljeno	616		3
+oskrnavljeno	117		4
+oskudno	539		3
+oslabljeno	118		4
+oslobođeno	893		3
+oslonjeno	86		4
+oslovljeno			4
+osmišljeno	616		4
 osmočlano			2
-osmuđeno			3
-osnaženo	61		3
-osnovano	5009		2
+osmuđeno			2
+osnaženo	61		2
+osnovano	5009		3
 osnovno	9606		3
-osobeno	289		3
-osobno	872		2
+osobeno	289		2
+osobno	872		3
 osorno	88		3
-osporavano	70		2
-osporeno	282		2
-osramoćeno	20		2
-ostakljeno			3
-ostavljeno	1455		3
-ostrašćeno	194		3
-ostrvljeno			3
-ostvareno	2224		2
-osujećeno	56		3
-osumnjičeno	114		3
-osunčano	28		2
-osuđeno	1045		2
-osuđivano	59		2
-osušeno	91		2
-osvedočeno	93		3
-osvetljeno	240		3
-osvećeno	124		2
+osporavano	70		3
+osporeno	282		3
+osramoćeno	20		3
+ostakljeno			4
+ostavljeno	1455		4
+ostrašćeno	194		2
+ostrvljeno			4
+ostvareno	2224		3
+osujećeno	56		2
+osumnjičeno	114		2
+osunčano	28		3
+osuđeno	1045		3
+osuđivano	59		3
+osušeno	91		3
+osvedočeno	93		2
+osvetljeno	240		4
+osvećeno	124		3
 osveštano	52		2
-osvešćeno	40		3
-osveženo	74		3
-osvojeno	1102		2
-otadžbino			3
-oterano	76		3
+osvešćeno	40		2
+osveženo	74		4
+osvojeno	1102		3
+otadžbino			4
+oterano	76		4
 otesano			2
-otečeno	71		2
+otečeno	71		3
 otežano	1603		2
-othranjeno			3
-otkazano	420		2
-otkačeno	53		3
+othranjeno			4
+otkazano	420		3
+otkačeno	53		2
 otključano	28		2
-otklonjeno	98		2
-otkopano	187		2
-otkopavano			2
-otkriveno	4035		3
+otklonjeno	98		3
+otkopano	187		3
+otkopavano			3
+otkriveno	4035		4
 otkucano	46		2
-otkupljeno	274		3
+otkupljeno	274		4
 otkupno	31		2
 otmeno	319		3
-otopljeno	18		2
-otpadno	78		2
+otopljeno	18		3
+otpadno	78		3
 otpevano	17		2
-otpisivano			2
+otpisivano			3
 otporno	348		2
 otpremno			2
 otpusno	13		2
-otpušteno	418		2
+otpušteno	418		3
 otrcano	150		3
-otrovano	68		2
+otrovano	68		3
 otrovno	329		2
-otuđeno	148		2
+otuđeno	148		3
 otužno	218		2
-otvarano	43		2
-otvoreno	24913		3
+otvarano	43		3
+otvoreno	24913		4
 ovalno	120		2
-ovaploćeno	19		2
+ovaploćeno	19		3
 ovejano			2
-ovenčano	24		2
-overeno	292		3
-ovijeno			3
-ovladano			3
+ovenčano	24		3
+overeno	292		4
+ovijeno			4
+ovladano			2
 ovlašno	59		2
-ovlašćeno	1357		3
-ozakonjeno	74		3
-ozareno	54		3
+ovlašćeno	1357		2
+ozakonjeno	74		2
+ozareno	54		4
 ozbiljno	31914		3
-ozidano	17		3
-ozloglašeno	38		3
-ozlojeđeno	43		3
-označavano	26		2
-označeno	778		2
-oznojeno	25		3
-ozvaničeno	207		3
-ozvučeno			3
+ozidano	17		2
+ozloglašeno	38		2
+ozlojeđeno	43		2
+označavano	26		3
+označeno	778		3
+oznojeno	25		4
+ozvaničeno	207		2
+ozvučeno			2
 oćigledno			4
 očajno	1274		3
 očarano	25		2
@@ -2773,46 +2773,46 @@ očekivano	3531		3
 očevidno	973		4
 očigledno	47761		4
 očitano	29		2
-očišćeno	568		3
+očišćeno	568		4
 očno	131		2
-očuvano	358		2
-ošamućeno	24		3
-ošišano			2
-oštećeno	1192		3
+očuvano	358		3
+ošamućeno	24		2
+ošišano			3
+oštećeno	1192		4
 oštroumno	82		4
-ošureno			3
-ožalošćeno			3
-oženjeno	15		2
-oživljeno	62		2
+ošureno			4
+ožalošćeno			2
+oženjeno	15		3
+oživljeno	62		3
 pacovčino			2
-pakleno	331		2
+pakleno	331		3
 pakosno	130		3
 pakovano	42		4
-paljeno	17		2
+paljeno	17		3
 palmino			3
 pametno	7128		3
-pamučno	47		2
+pamučno	47		3
 pandemično			2
 pandurčino			2
 panirano			2
-panično	692		2
+panično	692		3
 pano	392		2
 papino			2
 papirno	72		2
 papreno	602		3
 papčino			2
-parabolično	27		2
-paradno	40		2
+parabolično	27		3
+paradno	40		3
 paradoksalno	2497		5
 paralelno	7826		2
 paralisano	28		2
 paralizovano	27		3
-paranoidno	37		2
-paranoično	106		2
+paranoidno	37		3
+paranoično	106		3
 paranormalno	44		5
 parcijalno	700		4
 paritetno	18		4
-parkirano	266		2
+parkirano	266		3
 parkirno	10		3
 parlamentarno			5
 parno	349		2
@@ -2825,29 +2825,29 @@ pastelno	58		2
 pasterizovano			3
 pastoralno	37		4
 patentno	61		2
-patetično	637		2
+patetično	637		3
 patogeno	17		4
 patrijarhalno	251		5
 patrolno	20		2
-patvoreno			3
+patvoreno			4
 paušalno	910		4
 pašino	10		2
 paženo	12		3
-pedantno	562		2
-peglano			2
+pedantno	562		3
+peglano			3
 pejorativno	27		5
 peno		M	2
 penziono	811		4
 perceptivno	25		4
-perfektno	1798		2
+perfektno	1798		3
 perfidno	481		3
 perino			3
-periodično	1609		2
+periodično	1609		3
 permanentno	1708		2
 perno		M	2
 personalno	545		4
-perverzno	235		2
-pesimistično	93		2
+perverzno	235		3
+pesimistično	93		3
 petehijalno			5
 petočlano	55		2
 petočulno			4
@@ -2855,7 +2855,7 @@ pevano	15		3
 pečalno			2
 pečatno			3
 pečeno	380		3
-peščano	73		2
+peščano	73		3
 piano	128		2
 pijanino	31		2
 pijano	239		2
@@ -2865,22 +2865,22 @@ pirinčano	83		2
 pisano	2521		3
 pismeno	3560		3
 pitagorino			2
-pitano	33		2
+pitano	33		3
 pitoreskno	19		2
 plameno	79		3
 planetarno	420		4
 planino	17		2
 planirano	12046		3
 plano			2
-plasirano	405		2
-plastično	758		2
+plasirano	405		3
+plastično	758		3
 platežno	331		2
-platneno			2
+platneno			3
 platno	2367		2
-plavljeno			2
+plavljeno			3
 plavno	46		2
-plaćano	114		2
-plaćeno	2095		2
+plaćano	114		3
+plaćeno	2095		3
 plačevno			2
 plačno	39		2
 plebiscitarno			5
@@ -2888,135 +2888,135 @@ plehano			2
 plenarno	111		2
 plesno	146		2
 pleteno			3
-pleuritično			2
-plijenjeno		J	3
+pleuritično			3
+plijenjeno		J	4
 plitkoumno			4
 plišano	39		2
 pljačkano	11		3
 plodno	1311		2
-plodonosno	74		2
-plovidbeno			3
+plodonosno	74		3
+plovidbeno			2
 plovno	37		2
 plućno	166		2
-pobacano	10		2
-pobačeno			2
+pobacano	10		3
+pobačeno			3
 pobedno	22		2
 pobedonosno	253		2
-pobeđeno	37		2
-pobijeno	654		3
-pobodeno			3
-poboljšano	293		2
+pobeđeno	37		3
+pobijeno	654		4
+pobodeno			2
+poboljšano	293		3
 pobočno			2
 pobožno	509		3
 pobrojano	168		2
-pobunjeno	11		2
-pobuđeno			2
+pobunjeno	11		3
+pobuđeno			3
 pocepano	42		2
-podareno	13		3
+podareno	13		4
 podatno	25		3
 podebljano	15		2
-podeljeno	2584		2
+podeljeno	2584		3
 poderano	10		2
 podesno	137		3
-podešeno	546		3
+podešeno	546		4
 podgrevano			2
 podhitno			2
-podizano	19		3
-podliveno			3
+podizano	19		4
+podliveno			2
 podložno	694		3
-podmazano	145		3
-podmireno	14		3
-podmlađeno	23		3
-podneseno	78		3
+podmazano	145		4
+podmireno	14		4
+podmlađeno	23		2
+podneseno	78		2
 podnevno	47		2
 podno	1626		2
 podobno	215		3
 podpuno			2
-podrazumevano	259		2
-podređeno	728		2
+podrazumevano	259		3
+podređeno	728		3
 podrobno	1074		3
-područno	67		2
-podržano	733		2
-podržavano	29		3
+područno	67		3
+podržano	733		3
+podržavano	29		4
 podsticajno	506		4
-podsticano	58		3
+podsticano	58		4
 podsvesno	842		2
 podudarno	47		4
-podučeno			2
+podučeno			3
 podužno			2
-podvedeno	23		3
-podvodno	191		2
-podvučeno	198		3
+podvedeno	23		4
+podvodno	191		3
+podvučeno	198		2
 podzemno	372		2
-poetično	123		2
+poetično	123		3
 pogano		M	2
-pogašeno	18		2
-pogaženo	55		3
+pogašeno	18		3
+pogaženo	55		2
 pogibeljno	36		4
-pogledano	28		3
+pogledano	28		4
 pogodno	2364		3
-pogonjeno	12		3
+pogonjeno	12		4
 pogoršano	144		2
-pogođeno	506		2
+pogođeno	506		3
 pogranično	118		4
-pogrbljeno	37		3
+pogrbljeno	37		4
 pogrdno	307		2
-pogrebeno			3
-pogrebno	207		2
-pogrešeno			3
-pogrešno	17251		2
-pogruženo		M	3
-pogubljeno	159		3
+pogrebeno			2
+pogrebno	207		3
+pogrešeno			2
+pogrešno	17251		3
+pogruženo		M	2
+pogubljeno	159		4
 pogubno	1496		3
-pogureno		M	3
-pohabano	22		3
-pohapšeno			3
+pogureno		M	4
+pohabano	22		4
+pohapšeno			2
 poharano	12		2
 pohlepno	89		3
 pohotno	111		3
 pohovano	22		4
-pohranjeno	119		3
-pohvaljeno	80		2
+pohranjeno	119		4
+pohvaljeno	80		3
 pohvalno	1303		2
-poimano			3
-poimenično	187		2
-pojavljeno			3
+poimano			4
+poimenično	187		3
+pojavljeno			4
 pojavno	67		2
-pojačano	836		2
-pojačavano			2
-pojašnjeno	147		2
-pojedeno	77		3
-pojedinačno	9544		2
+pojačano	836		3
+pojačavano			3
+pojašnjeno	147		3
+pojedeno	77		4
+pojedinačno	9544		3
 pojedino	123		2
-pojednostavljeno	810		2
-pojmljeno			2
+pojednostavljeno	810		3
+pojmljeno			3
 pojmovno	236		2
-pokazano	1474		2
-pokazivano	15		2
+pokazano	1474		3
+pokazivano	15		3
 pokazno	29		3
-pokidano	24		3
-poklanjano	16		3
+pokidano	24		4
+poklanjano	16		4
 poklano	61		2
-poklonjeno	310		2
-poklopljeno	205		3
+poklonjeno	310		3
+poklopljeno	205		4
 pokojno	12		2
 pokolebano			2
-pokopano	64		2
-pokoreno	20		2
+pokopano	64		3
+pokoreno	20		3
 pokorno	254		3
-pokošeno	59		3
-pokradeno	300		3
-pokretano	47		3
+pokošeno	59		2
+pokradeno	300		4
+pokretano	47		4
 pokretno	174		3
-pokriveno	1259		3
-pokrojeno			3
-pokrpljeno			3
-pokršteno	20		2
-pokunjeno		M	3
+pokriveno	1259		4
+pokrojeno			4
+pokrpljeno			4
+pokršteno	20		3
+pokunjeno		M	4
 pokupljeno	62		3
-pokušano	442		3
-pokušavano	78		2
-pokvareno	359		2
+pokušano	442		4
+pokušavano	78		3
+pokvareno	359		3
 polagano	859		2
 polarno	50		2
 polazno	113		3
@@ -3024,15 +3024,15 @@ polemično			2
 poletno	223		2
 polezno			2
 polimorfno			2
-politično	10		2
-poliveno			3
-poljoprivredno	3022		2
+politično	10		3
+poliveno			4
+poljoprivredno	3022		3
 poljuljano	170		2
 polno	1502		2
-polomljeno	200		2
+polomljeno	200		3
 polovično	439		2
 polovno	604		2
-položeno	366		2
+položeno	366		3
 poluglasno	151		2
 polugrešno			2
 poluilegalno	15		6
@@ -3041,85 +3041,85 @@ polukrvno			4
 polupano	30		2
 poluplatno		M	4
 pomagano	25		2
-pomamljeno			3
+pomamljeno			4
 pomamno	57		2
 pomazano	11		2
 pomeno			2
 pomerano	18		2
-pomereno	350		3
+pomereno	350		4
 pomesno			2
-pometeno	14		3
-pomešano	386		2
-pomicano			3
-pomilovano			4
+pometeno	14		4
+pomešano	386		3
+pomicano			4
+pomilovano			5
 pominjano	294		2
-pomireno	15		2
-pomično	12		2
-pomišljeno			3
+pomireno	15		3
+pomično	12		3
+pomišljeno			4
 pomno	2215		2
-pomnoženo	88		2
+pomnoženo	88		3
 pomodno	94		3
 pomoćno	760		3
 pompezno		M	2
-pomračeno	24		3
-pomuzeno			3
-pomućeno	15		3
-pomuženo	16		3
-ponavljano	104		2
-poneseno	19		3
+pomračeno	24		2
+pomuzeno			4
+pomućeno	15		2
+pomuženo	16		2
+ponavljano	104		3
+poneseno	19		2
 ponizno	438		2
-poništeno	331		3
-ponižavano			2
-poniženo	170		2
-ponosno	3345		2
-ponovljeno	605		2
+poništeno	331		4
+ponižavano			3
+poniženo	170		3
+ponosno	3345		3
+ponovljeno	605		3
 ponovno	8323		3
 ponoćno	56		3
-ponuđeno	2140		3
+ponuđeno	2140		4
 poodavno	1089		4
-popaljeno	55		3
-popijeno	93		3
-popisano	359		2
+popaljeno	55		4
+popijeno	93		4
+popisano	359		3
 popisno	10		2
-poplavljeno	323		2
-poplašeno			3
+poplavljeno	323		3
+poplašeno			4
 popljačkano			2
 popljuvano			2
 popločano	65		2
 popodnevno	142		4
-popravljeno	235		3
+popravljeno	235		4
 popravno			2
 poprečno	339		3
-poprilično	6773		2
+poprilično	6773		3
 popularno	3892		4
-popunjeno	444		3
-popušteno			2
+popunjeno	444		4
+popušteno			3
 poratno	49		3
 porazno	312		3
-poraženo	108		2
-poredno			3
-poremećeno	177		3
-poređano	60		2
-poređeno	41		3
-poricano			2
+poraženo	108		3
+poredno			2
+poremećeno	177		4
+poređano	60		3
+poređeno	41		2
+poricano			3
 porno	2400		2
-porobljeno	27		2
+porobljeno	27		3
 porodično	2629		2
 poročno	23		2
-poručeno	844		2
-poručivano	25		2
-porušeno	366		3
-posađeno	341		2
-posebno	163410		2
-posedovano			4
+poručeno	844		3
+poručivano	25		3
+porušeno	366		4
+posađeno	341		3
+posebno	163410		3
+posedovano			5
 posejano	389		2
 posesivno	35		4
-posećeno	196		3
-posečeno	176		3
+posećeno	196		4
+posečeno	176		4
 posigurno		M	4
 posijano	37		2
 posipano			2
-poslano	75		2
+poslano	75		3
 posledično	1250		2
 posleratno	118		4
 posljedično		J	2
@@ -3127,90 +3127,90 @@ poslovično	659		2
 poslovno	5201		3
 poslovodno			4
 poslušno	633		3
-posluženo	82		2
-posmatrano	3029		2
+posluženo	82		3
+posmatrano	3029		3
 posmrtno	182		2
 posno	182		2
-posoljeno	13		2
+posoljeno	13		3
 pospano	198		3
 posprdno	159		2
-posramljeno	87		2
-posredno	3931		2
-posredovano	51		4
-postavljano	137		3
-postavljeno	5671		3
-postepeno	14505		3
+posramljeno	87		3
+posredno	3931		3
+posredovano	51		5
+postavljano	137		4
+postavljeno	5671		4
+postepeno	14505		2
 posthumano			2
 posthumno	879		3
 postidno			3
-postizano	13		3
-postiđeno	87		2
-postojano	589		3
+postizano	13		4
+postiđeno	87		3
+postojano	589		4
 postoperativno	148		2
 postreljano			2
-postrojeno	14		3
-postupano	89		2
-postupno	1623		2
-posuđeno			2
-posvećeno	2760		2
+postrojeno	14		4
+postupano	89		3
+postupno	1623		3
+posuđeno			3
+posvećeno	2760		3
 posvršavano			2
 potajno	1534		3
-potapano			2
-potcenjeno	62		3
+potapano			3
+potcenjeno	62		4
 potencijalno	6273		5
-pothranjeno	27		3
+pothranjeno	27		4
 potišteno	63		3
-potkoleno			3
-potkopano	14		2
-potkožno	220		2
-potkradano			3
-potkrepljeno	246		2
-potopljeno	189		2
+potkoleno			2
+potkopano	14		3
+potkožno	220		3
+potkradano			2
+potkrepljeno	246		3
+potopljeno	189		3
 potpisano	1013		2
 potporno	42		2
-potpuno	149016		2
+potpuno	149016		3
 potrebno	136984		3
 potresano			2
-potreseno	24		3
+potreseno	24		2
 potresno	457		2
 potrgano			2
-potrošeno	2546		2
-potuljeno		M	3
+potrošeno	2546		3
+potuljeno		M	4
 potuno	247		2
-potureno			3
-poturčeno			3
+potureno			4
+poturčeno			2
 potvrdno	851		2
-potvrđeno	5725		2
-potčinjeno	78		3
+potvrđeno	5725		3
+potčinjeno	78		4
 poubijano	38		2
-pouzdano	5373		3
-poučeno	21		3
+pouzdano	5373		4
+poučeno	21		2
 poučno	627		2
-povereno	1080		3
+povereno	1080		4
 povesno			2
 povezano	5003		3
-povezivano	40		2
+povezivano	40		3
 povećano	1643		2
-povijeno	44		3
-povišeno	91		2
-povlašćeno	114		3
+povijeno	44		4
+povišeno	91		3
+povlašćeno	114		2
 povoljno	4013		3
 povratno	440		3
-povraćeno	27		2
-povremeno	16484		3
-povređeno	3502		2
-površno	1819		2
-povučeno	675		2
-pozajmljeno	167		2
+povraćeno	27		3
+povremeno	16484		4
+povređeno	3502		3
+površno	1819		3
+povučeno	675		3
+pozajmljeno	167		3
 pozamašno	61		4
-pozdravljeno	111		3
+pozdravljeno	111		4
 pozdravno	63		3
 pozitivno	15716		4
-pozivano	30		2
+pozivano	30		3
 pozivno	187		3
-pozlaćeno	28		2
+pozlaćeno	28		3
 poznano			2
-poznavano			2
+poznavano			3
 pozno		M	2
 pozorišno	317		2
 pozorno	48		2
@@ -3218,24 +3218,24 @@ pozvano	463		2
 počasno	579		2
 počastvovano	35		2
 početno	1163		2
-počinjeno	475		2
-počišćeno	31		3
+počinjeno	475		3
+počišćeno	31		4
 počupano	15		2
-pošećereno			3
-pošteno	8449		2
-pošteđeno	80		2
-poštovano	242		2
-poželjeno			2
+pošećereno			4
+pošteno	8449		3
+pošteđeno	80		3
+poštovano	242		3
+poželjeno			3
 poželjno	7501		3
-požnjeveno	137		3
+požnjeveno	137		2
 požrtvovano	243		2
 požudno	75		3
 pradavno	20		2
 pradedino			2
-praktično	40918		2
+praktično	40918		3
 pravedno	2438		2
 pravilno	14875		3
-pravično	1197		2
+pravično	1197		3
 pravljeno	262		3
 pravno	11249		2
 pravopisno	147		4
@@ -3244,474 +3244,474 @@ pravosnažno	1158		2
 pravosudno	68		4
 pravoverno	36		4
 pravovremeno	2430		5
-praznično	479		2
+praznično	479		3
 prazno	3837		2
 praznoverno			4
 praćeno	1945		3
 preambiciozno	25		2
-prebačeno	837		2
-prebijeno	21		3
+prebačeno	837		3
+prebijeno	21		4
 prebolno			2
 prebrisano			2
 prebukirano	28		2
 preburno			2
 prebučno			2
-precenjeno	116		3
+precenjeno	116		4
 precizno	12091		3
 precrtano	57		2
 precrtavano			2
 predano	1319		2
-predavano	24		2
+predavano	24		3
 predavno			2
 predbračno	26		2
 predhodno	1494		2
 predikatno			4
 predivno	1820		3
-predlagano	110		2
-predloženo	3233		3
+predlagano	110		3
+predloženo	3233		2
 predmetno	279		2
-predodređeno	162		2
+predodređeno	162		3
 predosadno			4
-predočeno	509		2
+predočeno	509		3
 predratno	102		3
 predskazano	22		2
 predsmrtno	14		2
-predstavljeno	2896		3
+predstavljeno	2896		4
 preduzimano	23		2
 predvečno			3
-predviđano	43		2
-predviđeno	18185		3
-predvođeno	114		2
-prefinjeno	224		3
+predviđano	43		3
+predviđeno	18185		4
+predvođeno	114		3
+prefinjeno	224		4
 prefino		M	2
-prefrigano			3
-pregaženo	27		3
+prefrigano			4
+pregaženo	27		2
 preglasno	32		2
-pregledano	585		3
-pregledno	464		2
+pregledano	585		4
+pregledno	464		3
 pregnantno			2
-prehladno	19		2
+prehladno	19		3
 prehodno			2
 preizdašno			2
-prejadno			2
+prejadno			3
 prejasno			2
-prekaljeno	15		3
+prekaljeno	15		4
 prekasno	257		3
-prekidano	60		2
+prekidano	60		3
 prekidno			3
 preklinjano			2
 prekobrojno	45		4
 prekomerno	1405		4
 prekomplikovano			3
 prekonoćno	13		2
-prekoračeno	21		3
+prekoračeno	21		2
 prekorno	125		2
-prekovremeno	670		3
+prekovremeno	670		2
 prekrasno	161		3
-prekraćeno			3
-prekriveno	709		3
+prekraćeno			2
+prekriveno	709		4
 prekrupno			2
 prekršajno	356		4
-prekršeno	223		2
-prekršteno			3
+prekršeno	223		3
+prekršteno			2
 prekuvano			2
 prelagano			2
 prelazno			3
 preliminarno	355		5
-preliveno	71		3
-prelogično			2
-prelomljeno	32		2
+preliveno	71		2
+prelogično			3
+prelomljeno	32		3
 prelomno			2
 premaleno			4
 premasno			2
 premazano	42		2
-premašeno	18		3
+premašeno	18		4
 premeštano			2
-premešteno	216		3
+premešteno	216		2
 premijerno	4698		4
-premlaćeno			2
-premoreno	18		3
+premlaćeno			3
+premoreno	18		4
 premoćno			3
-premošćeno			2
+premošćeno			3
 premračno			2
-premreženo	12		3
-prenaglašeno			3
-prenagljeno			3
+premreženo	12		2
+prenaglašeno			2
+prenagljeno			4
 prenaporno	17		4
 prenatrpano	49		2
-preneraženo	36		3
-preneseno	364		3
-prenosno	60		2
-prenošeno	92		2
+preneraženo	36		2
+preneseno	364		2
+prenosno	60		3
+prenošeno	92		3
 preobilno	18		4
 preobimno	43		4
-preobučeno			3
+preobučeno			2
 preopasno			2
-preopterećeno	57		3
+preopterećeno	57		2
 preopširno	18		4
-preorano	12		2
+preorano	12		3
 preozbiljno	22		4
 prepametno	11		4
 preparirano	13		2
-prepečeno	13		3
+prepečeno	13		4
 prepisano	198		2
-preplavljeno	251		3
-preplaćeno	21		2
-preplašeno	102		3
-prepleteno			3
+preplavljeno	251		4
+preplaćeno	21		3
+preplašeno	102		4
+prepleteno			2
 prepodobno			4
 prepogano			2
-prepolovljeno	66		2
-preporođeno	35		3
-preporučeno	942		2
+prepolovljeno	66		3
+preporođeno	35		2
+preporučeno	942		3
 prepotentno	182		2
-prepravljeno	51		3
-prepredeno	30		2
-prepričano	42		2
+prepravljeno	51		4
+prepredeno	30		3
+prepričano	42		3
 preprodavano			2
-prepunjeno	21		3
-prepuno	61		2
-prepušteno	869		2
+prepunjeno	21		4
+prepuno	61		3
+prepušteno	869		3
 preradosno			2
 prerano	460		2
 preratno			3
-prerađeno	255		2
-prerezano			3
+prerađeno	255		3
+prerezano			4
 prerizično			2
-prerušeno	17		3
-presamićeno			3
-presavršeno			3
-presađeno	46		2
-presađivano			2
-preseljeno	166		2
-presečeno	65		3
+prerušeno	17		4
+presamićeno			2
+presavršeno			2
+presađeno	46		3
+presađivano			3
+preseljeno	166		3
+presečeno	65		4
 presečno			3
-presićeno			3
+presićeno			2
 presjajno			3
-preskočeno	37		2
+preskočeno	37		3
 preskromno			2
 preslano	19		2
 preslavno	47		2
-preslikano	90		3
-presmešno			2
+preslikano	90		4
+presmešno			3
 presno	62		2
-presoljeno			2
+presoljeno			3
 presovano	15		2
-prespavano			2
+prespavano			3
 presrećno			3
 prestižno	646		2
-prestravljeno	46		2
-prestrašeno	56		3
+prestravljeno	46		3
+prestrašeno	56		4
 prestrašno	11		2
 prestupno			2
 presudno	3069		3
-presuđeno	124		3
-presušeno			3
+presuđeno	124		2
+presušeno			2
 pretamno			2
 pretenciozno	402		5
-preterano	10208		3
+preterano	10208		4
 pretesno	39		2
-pretežno	8720		2
-prethodno	28707		2
-pretopljeno	26		2
-pretočeno	180		3
+pretežno	8720		3
+prethodno	28707		3
+pretopljeno	26		3
+pretočeno	180		2
 pretplatno			3
-pretpostavljeno	132		3
-pretraženo			3
-pretraživano			2
+pretpostavljeno	132		4
+pretraženo			2
+pretraživano			3
 pretresano	10		2
-pretreseno	62		3
+pretreseno	62		2
 pretresno	515		2
 pretrpano	75		2
-pretrpljeno			2
-pretučeno	52		2
+pretrpljeno			3
+pretučeno	52		3
 pretužno	14		2
-pretvarano			2
-pretvoreno	574		2
+pretvarano			3
+pretvoreno	574		3
 pretvorno	14		2
 preukusno			2
-preuranjeno	360		3
-preurađeno			3
-preuređeno	48		3
+preuranjeno	360		2
+preurađeno			2
+preuređeno	48		2
 preuveličano	76		3
-preučeno			3
-prevareno	116		3
+preučeno			2
+prevareno	116		4
 prevarno	36		2
-prevashodno	6378		2
-prevaziđeno	480		3
-prevedeno	1531		2
+prevashodno	6378		3
+prevaziđeno	480		2
+prevedeno	1531		3
 preventivno	3184		4
-prevezeno	210		2
+prevezeno	210		3
 prevečno			3
-previjeno			3
-previđeno	79		3
+previjeno			4
+previđeno	79		2
 prevozno	882		2
-prevođeno	38		2
-prevremeno	1420		3
-prevučeno	10		3
+prevođeno	38		3
+prevremeno	1420		4
+prevučeno	10		2
 prezabavno			4
-prezačinjeno			3
-prezirano			3
+prezačinjeno			2
+prezirano			4
 prezirno	33		3
 prezreno	33		2
 prećutano	86		2
 prećutno	1151		2
 prečasno	11		2
-prečišćeno	34		3
+prečišćeno	34		2
 prečudesno			2
 prečudno			2
 prešno			2
-preživljeno			2
-pribavljano			3
-pribavljeno	114		3
-približno	10181		2
+preživljeno			3
+pribavljano			4
+pribavljeno	114		4
+približno	10181		3
 pribrano	52		2
-pridruženo	107		3
+pridruženo	107		2
 prigodno	586		3
-prigušeno	168		2
+prigušeno	168		3
 prigušno			2
 prihvatano	30		2
-prihvaćeno	2266		3
+prihvaćeno	2266		4
 prijatno	11639		3
-prijavljeno	2147		2
+prijavljeno	2147		3
 prijavno			2
 prijemno	133		2
 prikazano	3567		2
-prikačeno	50		3
-prikladno	979		2
-priključeno	358		3
+prikačeno	50		2
+prikladno	979		3
+priključeno	358		2
 prikovano	23		2
-prikraćeno			3
-prikriveno	463		3
-prikupljano			2
-prikupljeno	1653		3
-prilagođeno	885		2
-prilepljeno	22		3
+prikraćeno			2
+prikriveno	463		4
+prikupljano			3
+prikupljeno	1653		4
+prilagođeno	885		3
+prilepljeno	22		4
 priležno	10		2
-prilično	38025		2
+prilično	38025		3
 prilježno		M	2
-priloženo	122		3
+priloženo	122		2
 primarno	2970		3
-primenjeno	871		2
-primenjivano	133		2
-primereno	1582		3
-primerno	245		2
+primenjeno	871		3
+primenjivano	133		3
+primereno	1582		4
+primerno	245		3
 primetno	3238		3
-primećeno	1545		2
+primećeno	1545		3
 primitivno	588		4
-primljeno	1413		2
-primorano	175		2
+primljeno	1413		3
+primorano	175		3
 princezino			2
 principijelno	1286		5
-prineseno	12		3
-prinosno			2
+prineseno	12		2
+prinosno			3
 prinudno	1503		2
-prinuđeno	245		3
+prinuđeno	245		2
 priobalno	37		4
 prioritetno	638		2
-pripaljeno			3
+pripaljeno			4
 pripaljivano			2
-pripijeno	15		3
-pripisano	177		2
+pripijeno	15		4
+pripisano	177		3
 priplodno	16		2
-pripojeno	120		2
+pripojeno	120		3
 pripovedno	26		4
-pripravljeno	27		3
+pripravljeno	27		4
 pripravno	14		3
-pripremano	97		2
-pripremljeno	1157		2
+pripremano	97		3
+pripremljeno	1157		3
 pripremno	222		3
-priređeno	316		2
-prirodno	17206		2
-prirođeno	25		3
+priređeno	316		3
+prirodno	17206		3
+prirođeno	25		2
 priručno	44		2
-prisajedinjeno	10		3
-prisebno	28		2
-prisiljeno	66		3
+prisajedinjeno	10		2
+prisebno	28		3
+prisiljeno	66		4
 prisilno	1017		2
-prislonjeno	13		2
+prislonjeno	13		3
 prisno	241		2
-pristavljeno			3
+pristavljeno			4
 pristojno	3319		2
 pristrasno	299		2
 pristupačno	518		4
-pristupljeno	66		2
+pristupljeno	66		3
 pristupno	53		2
 prisutno	4046		3
-prisvojeno	18		3
-pritajeno		M	3
-pritešnjeno			3
-prituljeno		M	3
-pritvoreno	94		3
+prisvojeno	18		4
+pritajeno		M	4
+pritešnjeno			4
+prituljeno		M	4
+pritvoreno	94		4
 pritvorno			2
 privatno	6911		3
-privedeno	651		3
+privedeno	651		4
 privezano	27		2
 prividno	2141		3
 privilegovano	81		3
-privlačeno			2
+privlačeno			3
 privlačno	1164		3
-privredno	3477		3
-privremeno	12525		3
-privrženo	48		3
-privučeno	37		2
+privredno	3477		2
+privremeno	12525		4
+privrženo	48		4
+privučeno	37		3
 prizemno	125		2
-prizidano			3
-prizivano			2
-priznavano	14		2
+prizidano			2
+prizivano			3
+priznavano	14		3
 prizračno			2
-prizvano	31		2
-pričano	121		2
-pričekano			3
+prizvano	31		3
+pričano	121		3
+pričekano			4
 pričesno			2
-pričešćeno			3
-pričinjeno	10		3
-pričvršćeno	65		2
-prišiveno			3
-prkosno	298		2
-prljavštino			3
+pričešćeno			2
+pričinjeno	10		4
+pričvršćeno	65		3
+prišiveno			2
+prkosno	298		3
+prljavštino			4
 proaktivno	350		4
 proanalizirano			2
-probijano			2
-probijeno	37		3
+probijano			3
+probijeno	37		4
 probitačno	71		4
-problematično	1806		2
+problematično	1806		3
 probno	403		2
-probodeno	38		3
+probodeno	38		2
 probrano	40		2
-probuđeno	45		2
-probušeno	20		2
-procenjeno	1537		2
+probuđeno	45		3
+probušeno	20		3
+procenjeno	1537		3
 procentualno	1435		5
 procesno	313		2
-proceđeno			3
+proceđeno			2
 prodajno	461		3
-prodano	134		2
-prodavano	161		2
+prodano	134		3
+prodavano	161		3
 prodorno	136		2
-produbljeno	75		3
-produhovljeno	34		3
+produbljeno	75		4
+produhovljeno	34		2
 produktivno	521		4
-produženo	729		3
+produženo	729		2
 profano	66		2
 profesionalno	9155		6
 profinjeno	18		3
 profitabilno	745		5
-proglašeno	1407		2
+proglašeno	1407		3
 prognano	138		2
-progonjeno	12		2
+progonjeno	12		3
 programirano	88		2
 progresivno	1015		4
 progrušano			2
-progutano	17		2
-prohladno	183		2
-prohlađeno			3
+progutano	17		3
+prohladno	183		3
+prohlađeno			2
 prohodno	46		2
-proizvedeno	2347		3
+proizvedeno	2347		4
 proizvodno	504		4
 proizvoljno	1094		4
-projavljeno			3
-projektno	637		2
+projavljeno			4
+projektno	637		3
 projektovano	391		2
 proklamativno			5
-proknjiženo	29		3
+proknjiženo	29		2
 prokockano	24		2
-prokrijumčareno	20		2
-prolazno	890		2
+prokrijumčareno	20		3
+prolazno	890		3
 proletno			2
 prolećno	692		3
-proliveno	126		3
-proljetno	27	J	2
-promatrano	29		2
-promašeno	114		3
-promenjeno	1227		2
+proliveno	126		4
+proljetno	27	J	3
+promatrano	29		3
+promašeno	114		4
+promenjeno	1227		3
 promeno			3
-prometno	108		2
+prometno	108		3
 promešano			2
-promišljeno	542		3
+promišljeno	542		4
 promotivno	221		4
 promptno	284		2
 pronađeno	3389		3
-pronošeno			3
+pronošeno			2
 propagandno	291		2
 propasirano			2
-propisano	4309		2
+propisano	4309		3
 propisno	1311		2
 proporcionalno	1273		6
 propratno	18		3
-propraćeno	670		3
-proprženo	13		3
-propušteno			3
-prorečeno	43		3
-proređeno	16		3
+propraćeno	670		2
+proprženo	13		2
+propušteno			2
+prorečeno	43		4
+proređeno	16		2
 prosejano	11		2
 prosečno	6955		3
-proslavljeno	212		3
-prosleđeno	279		3
+proslavljeno	212		4
+prosleđeno	279		2
 prospektivno			4
-prostačino			2
-prostodušno	58		2
-prostorno	2566		2
-prostosrdačno			2
-prostrano	500		2
-prosušeno			3
-prosvetljeno	17		3
+prostačino			3
+prostodušno	58		3
+prostorno	2566		3
+prostosrdačno			3
+prostrano	500		3
+prosušeno			2
+prosvetljeno	17		4
 prosvetno	105		2
-prosvećeno	46		3
-proterano	508		3
+prosvećeno	46		2
+proterano	508		4
 protestno	275		2
 protivno	2743		3
 protivpravno	877		4
-protivprirodno	57		2
+protivprirodno	57		3
 protivrečno	151		2
 protivustavno	718		5
 protkano	114		2
-protraćeno	35		3
-protumačeno	338		3
-prouzrokovano	308		4
-proučavano	45		2
-proučeno	66		2
-provaljeno	96		2
-provedeno	1529		2
+protraćeno	35		2
+protumačeno	338		2
+prouzrokovano	308		5
+proučavano	45		3
+proučeno	66		3
+provaljeno	96		3
+provedeno	1529		3
 provejano			2
-provereno	1680		3
-provetreno	92		3
+provereno	1680		4
+provetreno	92		4
 providno	661		3
 provizorno	92		4
 provokativno	487		5
-provođeno	12		2
-provučeno	38		3
+provođeno	12		3
+provučeno	38		2
 prozaično	64		2
 prozapadno	166		4
 prozirno	232		3
 prozno	163		2
 prozračno	103		2
-prozvano	54		2
+prozvano	54		3
 proćerdano	32		3
-pročitano	412		2
-pročišćeno	36		3
+pročitano	412		3
+pročišćeno	36		2
 prošarano	91		2
-prošireno	508		2
-proširivano			2
-prožderano			2
-proživljeno			3
+prošireno	508		3
+proširivano			3
+prožderano			3
+proživljeno			4
 prpošno			2
 prsno	423		2
-pružano			2
+pružano			3
 pruženo	197		3
-prvenstveno	21524		3
+prvenstveno	21524		4
 prvobitno	8019		2
-prvoklasno	112		3
-prvorazredno	157		3
-prvorođeno	99		3
-prvostepeno	401		3
+prvoklasno	112		4
+prvorazredno	157		4
+prvorođeno	99		2
+prvostepeno	401		2
 prvotno	118		3
 prženo	94		3
-psihodelično	28		2
-psihotično	23		2
+psihodelično	28		3
+psihotično	23		3
 psino			2
-psovano			2
-ptičurino			2
+psovano			3
+ptičurino			3
 pucano	459		3
 pulsno	16		2
 punano			2
@@ -3728,9 +3728,9 @@ pustolovno	13		4
 pustošno			2
 putno	429		2
 pušteno			2
-puščano	21		2
-pšenično	245		2
-rabljeno			2
+puščano	21		3
+pšenično	245		3
+rabljeno			3
 racionalno	4375		5
 radikalno	2812		4
 radino			2
@@ -3742,159 +3742,159 @@ rafalno	121		2
 rafinirano	74		2
 raketirano			2
 raketno	134		2
-rangirano	69		2
+rangirano	69		3
 ranjeno	1702		3
 rano	15462		2
 rapidno	944		3
 rascepkano	24		2
-rascepljeno	19		2
+rascepljeno	19		3
 rascvetano			2
 rasejano	95		2
-raseljeno	297		2
-rasečeno			3
-rashlađeno	45		2
-rasipno	17		2
+raseljeno	297		3
+rasečeno			4
+rashlađeno	45		3
+rasipno	17		3
 raskalašno	99		4
-raskidano			2
+raskidano			3
 raskivano			2
 rasklimano			2
 rasklimatano			2
 raskomadano	18		2
-raskoračeno			3
-raskošno	665		2
-raskriljeno			3
-raskvašeno	21		3
-raslojeno	15		3
+raskoračeno			2
+raskošno	665		3
+raskriljeno			4
+raskvašeno	21		2
+raslojeno	15		4
 rasno	362		2
-raspaljeno			3
-raspamećeno			3
+raspaljeno			4
+raspamećeno			2
 raspevano	93		2
-raspisano	60		2
-rasplakano			3
-raspodeljeno	73		2
+raspisano	60		3
+rasplakano			4
+raspodeljeno	73		3
 raspojasano	17		2
-raspoloženo	314		3
-rasporeno			3
-raspoređeno	671		2
+raspoloženo	314		2
+rasporeno			4
+raspoređeno	671		3
 raspravljano			2
-raspremljeno			3
-rasprodano	32		2
-rasprostranjeno	599		3
-raspršeno	27		2
+raspremljeno			4
+rasprodano	32		3
+rasprostranjeno	599		2
+raspršeno	27		3
 raspucano			2
 raspusno	16		2
-raspušteno	38		2
-rasrđeno			2
-rastavljeno	35		3
+raspušteno	38		3
+rasrđeno			3
+rastavljeno	35		4
 rastavno			2
-rasterećeno			3
-rastopljeno	37		2
-rastreseno			3
-rastrgano			3
-rastrojeno	14		3
-rastrošno			2
+rasterećeno			4
+rastopljeno	37		3
+rastreseno			2
+rastrgano			4
+rastrojeno	14		4
+rastrošno			3
 rastrzano	29		2
 rasturano			2
-rastureno	58		3
-rastuženo			2
-rastvoreno	30		2
+rastureno	58		4
+rastuženo			3
+rastvoreno	30		3
 rasudno		M	2
-rasvetljeno	152		3
+rasvetljeno	152		4
 ratno	1717		2
 ratoborno	56		4
 ravno	3892		2
-ravnodušno	486		2
+ravnodušno	486		3
 ravnomerno	3011		4
 ravnopravno	3519		4
 ravnotežno	26		2
 ravnočesno			2
 razbacano	160		2
-razbarušeno			3
-razbijeno	299		3
-razblaženo	40		2
-razbludno			2
-razdavano			2
-razdeljeno	58		2
-razderano			2
-razdirano			3
+razbarušeno			2
+razbijeno	299		4
+razblaženo	40		3
+razbludno			3
+razdavano			3
+razdeljeno	58		3
+razderano			3
+razdirano			4
 razdragano	251		2
-razdraženo	31		2
-razdrešeno			3
-razdrljeno			3
-razdvojeno	194		3
-razgaljeno			2
+razdraženo	31		3
+razdrešeno			2
+razdrljeno			4
+razdvojeno	194		4
+razgaljeno			3
 razgibano			2
-razglašeno			2
-razgolićeno			2
-razgoreno			3
+razglašeno			3
+razgolićeno			3
+razgoreno			4
 razgovetno	263		4
 razigrano	56		2
-razjareno	19		2
-razjašnjeno	379		3
-razjureno			2
+razjareno	19		3
+razjašnjeno	379		4
+razjureno			3
 razlistano			2
-razliveno	23		3
-različno	45		2
-razljućeno			2
-razložno	433		2
-razlučeno			2
-razmatrano	477		2
+razliveno	23		4
+različno	45		3
+razljućeno			3
+razložno	433		3
+razlučeno			3
+razmatrano	477		3
 razmazano			2
-razmazeno			3
-razmaženo	152		2
+razmazeno			2
+razmaženo	152		3
 razmetno			2
-razmešteno	54		3
-razmišljano	20		2
+razmešteno	54		2
+razmišljano	20		3
 razmjerno		J	2
-razmotano			2
-razmotreno	177		2
-razmućeno	33		3
+razmotano			3
+razmotreno	177		3
+razmućeno	33		2
 razneseno	12		3
-razneženo	18		2
+razneženo	18		3
 razno	1827		2
 raznobojno	52		4
 raznoglasno		M	2
 raznovrsno	523		2
-razoreno	207		2
+razoreno	207		3
 razorno	230		2
-razotkriveno	41		3
+razotkriveno	41		4
 razočarano	333		2
-razrađeno	180		2
-razredno	34		3
+razrađeno	180		3
+razredno	34		2
 razrezano	11		2
-razređeno	31		3
-razrešeno	163		3
-razrogačeno			3
+razređeno	31		2
+razrešeno	163		2
+razrogačeno			2
 razrovano			2
-razrušeno	77		3
+razrušeno	77		4
 razulareno	13		3
 razumevano			2
 razumno	2280		3
 razuzdano	62		4
-razuđeno	79		3
-razvaljeno	26		2
-razvedeno	41		2
-razveseljeno			2
-razvijeno	1390		3
-razvodnjeno	32		2
+razuđeno	79		2
+razvaljeno	26		3
+razvedeno	41		3
+razveseljeno			3
+razvijeno	1390		4
+razvodnjeno	32		3
 razvojno	714		2
-razvratno	41		2
-razvrstano	93		2
-razvučeno	72		3
-rađeno	2708		2
-rašireno	357		2
+razvratno	41		3
+razvrstano	93		3
+razvučeno	72		2
+rađeno	2708		3
+rašireno	357		3
 raštimano			2
 raštimovano			2
 raštrkano	67		2
-raščišćeno	81		3
+raščišćeno	81		2
 ražano			2
 reagovano			2
 reakcionarno	39		6
 reaktivno	77		4
-realistično	419		2
+realistično	419		3
 realno	22544		3
 recentno	25		2
-reciklirano	80		2
+reciklirano	80		3
 recipročno	141		2
 redigovano			2
 redno	179		2
@@ -3921,12 +3921,12 @@ rekurzivno	43		4
 relativno	26062		4
 relevantno	1112		2
 religiozno	487		5
-reliktno	20		2
+reliktno	20		3
 reljefno	108		2
-remećeno			3
+remećeno			4
 renesansno	44		2
 reno		M	2
-renovirano	179		2
+renovirano	179		3
 rentabilno	208		4
 reportažno			2
 reprezentativno	406		6
@@ -3938,7 +3938,7 @@ retardirano	108		3
 retroaktivno	982		2
 retrospektivno	172		5
 revno	25		2
-revnosno	932		2
+revnosno	932		3
 revolucionarno	984		7
 rezano	29		3
 rezervisano	1382		2
@@ -3946,19 +3946,19 @@ rezervno	184		2
 rezignirano	356		2
 rezolutno	96		4
 rezonantno			2
-rečenično			2
+rečenično			3
 rečeno	38833		3
 rečno	320		2
 ređeno			2
-rešavano	146		2
-rešeno	4735		2
+rešavano	146		3
+rešeno	4735		3
 režirano	55		2
 rigidno	206		3
 rigorozno	365		4
 riječno			3
 rino			2
 riskantno	146		2
-ritmično	207		2
+ritmično	207		3
 ritualno	623		4
 rizično	1330		3
 robno	221		2
@@ -3970,66 +3970,66 @@ rogobatno	177		4
 rolovano			2
 romaneskno	39		2
 romano			2
-romantično	923		2
+romantično	923		3
 rosno	20		2
 rotaciono	114		2
-rođeno	1466		2
+rođeno	1466		3
 rudno	407		2
 rujno	173		2
 rukometno	103		4
 rukopisno	45		4
 rukovodno			4
-rukovođeno	82		2
+rukovođeno	82		3
 rumeno		M	2
 runo	288		2
 ruralno	241		2
-rustično	69		2
+rustično	69		3
 rutinirano			2
-ručano			2
+ručano			3
 ručno	7242		2
 ružino			2
 ružno	3664		2
-sabijeno	43		3
-sabirano			3
+sabijeno	43		4
+sabirano			4
 sabirno	52		2
 sablasno	380		3
 sablazno			3
-sablažnjeno			2
-saborno	380		2
-sabotirano			2
-sabrano	170		2
+sablažnjeno			3
+saborno	380		3
+sabotirano			3
+sabrano	170		3
 sadno			2
 sadržajno	644		4
 sadržano	809		4
 safirno			3
 saglasno	3016		2
-sagledano	127		3
-sagorevano			2
-sagrađeno	470		2
-sahranjeno	509		2
+sagledano	127		4
+sagorevano			3
+sagrađeno	470		3
+sahranjeno	509		3
 sakralno	97		2
-sakrivano	14		2
-sakriveno	486		3
-sakupljeno	684		3
+sakrivano	14		3
+sakriveno	486		4
+sakupljeno	684		4
 salerno			2
-saliveno	34		3
+saliveno	34		2
 samardžijino			2
 samilosno	27		2
-samleveno	79		3
+samleveno	79		4
 samodovoljno	57		5
 samoglasno			2
 samoinicijativno	1395		2
-samopouzdano	84		3
+samopouzdano	84		4
 samorodno			4
 samostalno	14429		4
 samosvesno	93		2
 samosvojno	73		4
 samotno	39		3
 samoupravno	68		5
-samouvereno	972		3
+samouvereno	972		4
 samovlasno	113		2
 samovoljno	949		4
-samozadovoljno	109		3
+samozadovoljno	109		4
 samozvano	32		4
 samrtno	46		2
 sandino			2
@@ -4038,49 +4038,49 @@ sanitarno	188		4
 sano		M	2
 saobrazno		M	4
 saobraćajno	744		5
-saobraženo			3
-saopšteno	9838		3
+saobraženo			2
+saopšteno	9838		2
 saosećajno	85		5
-sarkastično	295		2
-sasečeno	15		3
+sarkastično	295		3
+sasečeno	15		4
 saslušano	222		2
-sastavljeno	788		3
-sasušeno	24		3
+sastavljeno	788		4
+sasušeno	24		2
 satanino			2
 satano			2
 saterano	14		2
-satirično	105		2
+satirično	105		3
 satkano	77		2
-satrveno	14		3
-savesno	1481		2
+satrveno	14		2
+savesno	1481		3
 savetodavno	679		5
-savetovano	250		4
-savezno	398		2
-savijeno	74		3
+savetovano	250		5
+savezno	398		3
+savijeno	74		4
 savino			2
-savladano	47		2
-savremeno	3361		3
+savladano	47		3
+savremeno	3361		4
 savršeno	14679		3
 sazdano	112		2
-sazidano	61		3
+sazidano	61		2
 saznajno	76		3
-sazvano	20		2
+sazvano	20		3
 sazvučno			2
-sačekano			3
-sačinjeno	363		2
-sačuvano	1121		2
-sašiveno	26		3
-sažeženo			3
-sebično	651		2
+sačekano			4
+sačinjeno	363		3
+sačuvano	1121		3
+sašiveno	26		4
+sažeženo			2
+sebično	651		3
 seckano	35		2
-sedmično	1099		2
+sedmično	1099		3
 sedmočlano			2
 sejano	19		3
 seksualno	5404		4
 sekularno	184		4
 sekundarno	655		4
 selektivno	1961		4
-seljačino			2
+seljačino			3
 senilno			3
 seno	721		2
 sentimentalno	207		5
@@ -4088,7 +4088,7 @@ senzacionalno	311		6
 senzibilno	33		4
 senzualno	144		4
 separatno	59		4
-separirano			2
+separirano			3
 seriozno			4
 sertifikaciono	225		2
 servilno	59		3
@@ -4096,8 +4096,8 @@ servirano	196		2
 sestrino			2
 setno	234		2
 severno	3206		3
-severoistočno	426		2
-severozapadno	504		2
+severoistočno	426		3
+severozapadno	504		3
 sevojno			2
 sečeno	54		3
 sferno	36		2
@@ -4106,84 +4106,84 @@ shvatano	37		3
 shvaćeno	793		3
 signalno	52		2
 sigurno	105450		3
-sigurnosno	229		2
+sigurnosno	229		3
 silno	3470		2
 silovano	72		4
 silvano			2
-simbolično	3680		2
-simetrično	413		2
+simbolično	3680		3
+simetrično	413		3
 simino			2
-simpatično	1206		2
-simptomatično	717		2
-simulirano	29		2
+simpatično	1206		3
+simptomatično	717		3
+simulirano	29		3
 simultano	954		4
 sindikalno	602		4
 sinhronizovano	500		3
 sinhrono	292		2
 sino			2
-sinonimno	29		2
+sinonimno	29		3
 sinoćno	29		3
-sintetično			2
+sintetično			3
 sipano	65		3
 sirano			2
 sireno			2
 sirogojno			4
-siromašno	838		2
-sistematično	519		2
+siromašno	838		3
+sistematično	519		3
 sitno	3617		2
 situaciono	84		2
-sivozeleno			3
+sivozeleno			2
 sićušno	97		3
 sjajno	11549		2
-sjedinjeno	70		3
+sjedinjeno	70		4
 skamenjeno	28		4
 skandalozno	1137		4
 skaredno	41		3
 skeletno	32		2
-skeptično	123		2
-skicirano			2
+skeptično	123		3
+skicirano			3
 skladno	1114		2
-sklonjeno	119		2
+sklonjeno	119		3
 sklono	343		2
-sklopljeno	367		2
-sklupčano			2
-skopčano	155		2
+sklopljeno	367		3
+sklupčano			3
+skopčano	155		3
 skotino			2
 skovano	15		2
 skočno			2
-skraćeno	1751		2
-skraćivano			2
-skresano	11		2
+skraćeno	1751		3
+skraćivano			3
+skresano	11		3
 skrhano	18		2
-skrivano	50		2
+skrivano	50		3
 skriveno	1069		2
 skrojeno	83		2
 skromno	3060		2
 skrušeno	275		3
-skršeno			2
+skršeno			3
 skupljeno	207		3
 skupno	60		2
-skupoceno	180		2
+skupoceno	180		3
 skuvano	109		3
 skučeno	96		2
 slabašno	186		3
 slabomoćno			2
 sladostrasno	55		2
-slagano			2
+slagano			3
 slano	607		2
 slasno	111		2
 slaveno			2
 slavljeno	40		3
 slavno	755		2
 slavodobitno			2
-sledstveno		M	2
-sleđeno			2
+sledstveno		M	3
+sleđeno			3
 slikano	260		3
 slikovno	64		2
 sliveno	11		2
 slično	45326		2
 slobodno	34840		3
-slomljeno	337		2
+slomljeno	337		3
 slovno	27		2
 složeno	976		3
 složno	1029		2
@@ -4192,12 +4192,12 @@ sluđeno	22		2
 slušano	16		3
 sluškinjino			2
 službeno	3670		3
-služeno	324		2
-smanjeno	1204		2
+služeno	324		3
+smanjeno	1204		3
 smaragdno	93		2
-smatrano	440		2
+smatrano	440		3
 smekšano			2
-smenjeno	122		2
+smenjeno	122		3
 smeno		M	2
 smerno	286		2
 smesno			2
@@ -4206,7 +4206,7 @@ smešano	10		2
 smešno	8712		2
 smešteno	2637		3
 smežurano	10		2
-smiono	17		2
+smiono	17		3
 smireno	1117		3
 smisaono	99		2
 smisleno	855		3
@@ -4220,22 +4220,22 @@ smotreno			2
 smradino			2
 smradno	13		2
 smračeno			2
-smrskano	17		2
+smrskano	17		3
 smrtno	1523		2
-smrtonosno	273		3
+smrtonosno	273		4
 smrvljeno			2
 smutno	75		2
 smućeno			2
 smušeno	102		2
-snabdevano	12		2
-snabdeveno	144		3
+snabdevano	12		3
+snabdeveno	144		4
 snajkino			2
 snažno	9525		2
 sneno	49		2
 snežno	266		2
-snimano	259		2
-snimljeno	891		2
-sniženo	84		2
+snimano	259		3
+snimljeno	891		3
+sniženo	84		3
 snuždeno	43		3
 sobno	79		2
 socijalno	12182		4
@@ -4246,24 +4246,24 @@ solano			2
 solarno	327		2
 solidarno	753		4
 solidno	3508		3
-soljeno			2
+soljeno			3
 sondažno			2
-sonično			2
+sonično			3
 soprano			2
-sopstveno	3750		2
+sopstveno	3750		3
 sortirano	38		2
 sortno	55		2
 sotono			2
 sočno	440		2
 spakovano	263		4
-spaljeno	473		2
-spaljivano			2
+spaljeno	473		3
+spaljivano			3
 sparno	166		2
-sparušeno			3
+sparušeno			2
 spaseno	274		3
 spasonosno	449		2
-spašeno	156		2
-specifično	2591		2
+spašeno	156		3
+specifično	2591		3
 specijalizovano	468		2
 specijalno	9199		4
 spektakularno	1342		5
@@ -4273,34 +4273,34 @@ spiralno	295		2
 spiritualno	151		5
 spleteno			2
 spljošteno	46		3
-spojeno	460		2
+spojeno	460		3
 spojno	19		2
 spokojno	806		2
 spoljno	574		2
-spominjano	70		3
+spominjano	70		4
 spontano	4625		3
-sporadično	1055		2
+sporadično	1055		3
 sporazumno	1050		4
 sporedno	364		3
 sporno	6904		2
 sposobno	1267		3
 spravljeno	34		2
 sprašeno			2
-spremano	29		2
-spremljeno	241		2
+spremano	29		3
+spremljeno	241		3
 spremno	6425		2
 spretno	624		2
-sprečavano	18		2
-sprečeno	623		2
-sprovedeno	3264		3
-sprovođeno	88		2
+sprečavano	18		3
+sprečeno	623		3
+sprovedeno	3264		2
+sprovođeno	88		3
 sprženo	26		2
 sputano	59		3
-sputavano			2
-spušteno	190		2
+sputavano			3
+spušteno	190		3
 sramno	1636		2
 sramotno	1207		3
-sravnjeno	79		2
+sravnjeno	79		3
 srazmerno	2767		2
 srbino			2
 srdačno	1836		3
@@ -4311,32 +4311,32 @@ sredovečno			2
 sredozemno	293		4
 sretno	943		2
 srećno	5530		2
-sređeno	539		2
+sređeno	539		3
 srno			2
 srodno	153		2
 sročeno	112		2
 sručeno			2
 srušeno	492		2
-srčano	276		2
+srčano	276		3
 stabilno	3520		3
-stakleno	226		2
+stakleno	226		3
 stalno	62134		2
-staloženo	278		3
-stambeno	2412		2
+staloženo	278		2
+stambeno	2412		3
 stameno	83		2
 standardno	2982		2
 stanjeno			2
 stano			2
-starešino			2
+starešino			3
 starino			2
 staričino			2
 staromodno	167		4
 starozavetno	51		2
 startno	116		2
-statično	149		2
-statusno	864		2
+statično	149		3
+statusno	864		3
 statutarno	68		4
-stavljano	81		2
+stavljano	81		3
 stavljeno	1623		3
 stefano			2
 stegno	19		2
@@ -4346,17 +4346,17 @@ sterijino			2
 sterilizovano			3
 sterilno	218		2
 stečajno	135		3
-stečeno	1615		2
+stečeno	1615		3
 stidno	70		2
 stihijno	48		2
 stihovano			2
 stilizovano	122		2
 stimulativno	542		5
-stišano	10		2
+stišano	10		3
 stoletno	21		2
 stono	184		2
 stopirano	64		2
-stopljeno	26		2
+stopljeno	26		3
 stopostotno	287		2
 stoprocentno	414		2
 stočno	110		2
@@ -4364,7 +4364,7 @@ stožerno			2
 strano	2530		2
 strasno	2566		2
 strastveno	539		3
-stravično	435		2
+stravično	435		3
 strašno	16650		2
 streljano	380		2
 stresno	454		2
@@ -4372,20 +4372,20 @@ striktno	2718		2
 striženo			3
 strmeno			2
 strmno			2
-strmoglavljeno			3
-strugano			2
+strmoglavljeno			2
+strugano			3
 strujno	165		2
 strukovno	212		2
 strukturalno			4
 strukturno	501		2
 struno			2
 stručno	10085		2
-strvino			2
+strvino			3
 studeno		M	2
 studiozno	388		4
 stupidno			3
 stučeno			2
-stvarano	177		2
+stvarano	177		3
 stvarno	67201		2
 stvoreno	1655		2
 subakutno			2
@@ -4393,17 +4393,17 @@ subjektivno	1338		4
 sublimno	12		3
 subverzivno	116		4
 sudbino	17		2
-sudbonosno	571		2
+sudbonosno	571		3
 sudijino			2
 sugerirano			2
 sugerisano	330		2
 sugestivno	292		4
-suglasno			2
+suglasno			3
 suicidalno	22		5
-sujetno	78		2
+sujetno	78		3
 sujeverno	38		4
 sukcesivno	851		4
-sukladno	312		2
+sukladno	312		3
 sukneno			2
 sukno	88		2
 sultano			2
@@ -4412,24 +4412,24 @@ sumirano	43		2
 sumorno	368		3
 sumporno	27		2
 sumračno	12		2
-sunčano	1619		2
-suočeno	203		2
+sunčano	1619		3
+suočeno	203		3
 superiorno	411		5
-suprotno	16098		2
+suprotno	16098		3
 suptilno	860		3
-susedno	240		2
+susedno	240		3
 suspenzivno	18		4
-suvereno		M	3
+suvereno		M	4
 suvišno	1753		3
 suvoparno	136		4
-suzbijeno	27		3
-suzdržano	82		2
+suzbijeno	27		4
+suzdržano	82		3
 suzno	32		2
 sućutno			2
-suđeno	1677		2
-sušeno	118		2
+suđeno	1677		3
+sušeno	118		3
 sušno	93		2
-suštastveno	30		3
+suštastveno	30		2
 suženo	117		3
 svadbeno	195		3
 svakodnevno	29800		4
@@ -4440,47 +4440,47 @@ svejedno	12433		2
 svekrvino			2
 svemoćno	80		3
 svenarodno	61		4
-sveobuhvatno	1394		2
+sveobuhvatno	1394		3
 svesno	8954		2
-svesrdno	1237		2
-svestrano	638		2
+svesrdno	1237		3
+svestrano	638		3
 svetlosno	228		2
 svetogrdno	10		4
 svetorodno			4
 svetovno	284		2
-sveukupno	1185		2
-svevremeno			3
-svezano	37		2
+sveukupno	1185		3
+svevremeno			4
+svezano	37		3
 svećano			2
-svečano	10469		2
+svečano	10469		3
 svešteno	290		2
 sveživotno			2
-svileno	53		2
+svileno	53		3
 svojedobno	182		4
 svojeručno	462		2
 svojevoljno	1016		4
 svojevremeno	12642		5
 svojevrsno	1271		2
-svojstveno	1004		2
+svojstveno	1004		3
 svrsishodno	437		4
-svrstano	144		2
-svršeno	205		2
-svučeno			2
+svrstano	144		3
+svršeno	205		3
+svučeno			3
 tabelarno	141		4
-tablično			2
-tajanstveno	539		2
+tablično			3
+tajanstveno	539		3
 tajno	5035		2
 takozvano	1098		2
 taksativno			4
 taksirano			2
 taktilno	50		2
-taktično	73		2
+taktično	73		3
 talasno	24		3
 talentovano	134		2
 tamno	2785		2
-tamnocrveno	16		3
-tamnozeleno	48		3
-tanano	133		2
+tamnocrveno	16		2
+tamnozeleno	48		2
+tanano	133		3
 tanušno	14		2
 tatino			2
 tavno			2
@@ -4493,64 +4493,64 @@ tekstovno			2
 tekstualno		M	4
 telesno	1542		3
 temeljno	3911		2
-temperamentno			2
+temperamentno			3
 tempirano	34		2
 temporalno	24		4
 tendenciozno	737		5
 teno			2
-teratogeno			3
+teratogeno			2
 teretno	270		2
 teritorijalno	1513		6
 termalno	113		2
-tesano			2
+tesano			3
 teskobno	50		2
 teslino	44		2
 tesno	2283		2
-testirano	313		2
+testirano	313		3
 tetkino			2
-tetovirano			2
+tetovirano			3
 tečno	1419		2
 tipizirano			2
-tipično	3311		2
+tipično	3311		3
 tiražno			2
 tirkizno	235		2
 tišino			2
 tmurno	336		2
-toksično	217		2
+toksično	217		3
 tolerantno	266		2
 tolerisano	113		2
 tonalno			2
 tono			2
-topljeno			2
+topljeno			3
 toplotno	280		3
 topčino			2
 torino			2
 torno		M	2
 totalno	10993		3
 tovno	11		2
-točeno	74		2
+točeno	74		3
 točno	1105		2
 tradicionalno	14137		6
-tragikomično			2
-tragično	3190		2
+tragikomično			3
+tragično	3190		3
 trajno	10852		2
 transcendentalno			5
 transcendentno			2
-transparentno	1798		2
-transportno	199		2
+transparentno	1798		3
+transportno	199		3
 transverzalno			4
 tranzitno	83		2
-traumatično	304		2
+traumatično	304		3
 traženo	1901		2
-trenirano			2
+trenirano			3
 trenutačno	386		4
 trenutno	91485		3
 tresetno			2
-tretirano	427		2
+tretirano	427		3
 trezno	21		2
 trezveno	468		3
 trešnjino			2
-trgovano	391		3
+trgovano	391		4
 trijumfalno	544		4
 trivijalno	261		4
 trodimenzionalno	139		7
@@ -4561,11 +4561,11 @@ trojno	54		2
 trokrilno			2
 tromesečno	326		2
 tronedeljno			4
-trostrano	21		2
-trovano			2
+trostrano	21		3
+trovano			3
 tročasovno	23		4
 tročlano	140		2
-trošeno	73		2
+trošeno	73		3
 troškovno	100		2
 trošno	67		2
 trpno	28		2
@@ -4575,373 +4575,373 @@ trusno	74		2
 tržišno	2004		3
 tržno	20		2
 tuberkulozno			5
-tumačeno	151		2
+tumačeno	151		3
 tuno			2
 tupoumno		M	4
-turbulentno			2
+turbulentno			3
 turobno	88		3
-tučeno			2
+tučeno			3
 tužbeno			3
-tuženo	47		2
+tuženo	47		3
 tužno	5480		2
 tvarno	30		2
 tvorbeno	11		3
-tvoreno			2
+tvoreno			3
 tvrdokorno	66		4
-tvrđeno	27		2
-ubacivano	14		2
-ubačeno	256		2
-ubeleženo	61		3
-ubeđeno	106		3
-ubijeno	4218		3
-ubirano			3
-ubistveno		M	3
+tvrđeno	27		3
+ubacivano	14		3
+ubačeno	256		3
+ubeleženo	61		2
+ubeđeno	106		2
+ubijeno	4218		4
+ubirano			4
+ubistveno		M	2
 ubitačno	184		4
-ublaženo	72		2
+ublaženo	72		3
 ubojno			2
-ubrano	138		2
-ubrizgano	21		3
+ubrano	138		3
+ubrizgano	21		4
 ubrljano			2
 ubrojano			2
-ubrzano	2090		2
+ubrzano	2090		3
 ucrtano	80		2
-ucveljeno			3
+ucveljeno			4
 udaljeno	2042		3
-udareno	37		3
+udareno	37		4
 udarno	115		2
-udavljeno			2
-udeljeno			3
+udavljeno			3
+udeljeno			4
 udesno	640		2
-udešeno	39		3
-udivljeno			3
+udešeno	39		2
+udivljeno			4
 udno			2
 udobno	2754		3
-udobrovoljeno			3
-udovoljeno	126		3
-udruženo	380		2
-udubljeno	14		3
-udvojeno	22		3
+udobrovoljeno			2
+udovoljeno	126		2
+udruženo	380		3
+udubljeno	14		4
+udvojeno	22		4
 udvorno			2
 ugaono	48		2
-ugašeno	505		2
+ugašeno	505		3
 uglancano			2
-uglađeno	73		3
+uglađeno	73		2
 ugledno	173		3
 ugljenisano			2
 ugljeno	48		2
-ugnježdeno			3
+ugnježdeno			2
 ugodno	1946		3
-ugojeno			3
-ugovoreno	867		2
+ugojeno			4
+ugovoreno	867		3
 ugovorno	211		4
-ugrabljeno			3
+ugrabljeno			4
 ugravirano	59		2
-ugrađeno	986		2
-ugrejano			3
-ugrožavano	10		2
-ugroženo	2203		2
+ugrađeno	986		3
+ugrejano			4
+ugrožavano	10		3
+ugroženo	2203		3
 ugurano			2
-ugušeno	46		2
-uhapšeno	1725		3
-uhodano	34		3
-uhranjeno	38		3
-uhvaćeno	217		3
+ugušeno	46		3
+uhapšeno	1725		4
+uhodano	34		2
+uhranjeno	38		4
+uhvaćeno	217		4
 uigrano	38		2
-ujedeno	12		3
-ujedinjeno	378		2
-ujednačeno	303		3
+ujedeno	12		4
+ujedinjeno	378		3
+ujednačeno	303		2
 ujedno	26349		3
 ujno			2
 ukaljano	11		2
-ukazano	2105		2
-ukazivano	171		2
+ukazano	2105		3
+ukazivano	171		3
 ukazno			3
-ukidano			2
-ukiseljeno	23		3
-uklanjano			3
+ukidano			3
+ukiseljeno	23		2
+uklanjano			4
 uklesano	116		2
-uklješteno			3
-uključeno	3192		3
-uklonjeno	474		2
-uklopljeno	168		3
-uknjiženo	170		3
-ukopano	80		2
+uklješteno			2
+uključeno	3192		2
+uklonjeno	474		3
+uklopljeno	168		4
+uknjiženo	170		2
+ukopano	80		3
 ukopno	20		2
-ukorenjeno	251		2
-ukoričeno	15		3
+ukorenjeno	251		3
+ukoričeno	15		2
 ukočeno	172		3
-ukradeno	828		3
+ukradeno	828		4
 ukrasno	227		3
-ukrašeno	274		2
-ukrcano	18		2
-ukroćeno			2
+ukrašeno	274		3
+ukrcano	18		3
+ukroćeno			3
 ukrupno			2
-ukrućeno	14		2
-ukršteno	35		2
-ukupno	52919		2
-ukusno	1352		2
-ulagano	365		2
+ukrućeno	14		3
+ukršteno	35		3
+ukupno	52919		3
+ukusno	1352		3
+ulagano	365		3
 ulazno	203		3
-ulepljeno			3
+ulepljeno			4
 ulično	391		3
 uljano	19		2
-uljudno	419		2
-ulovljeno	43		2
-uloženo	4560		2
+uljudno	419		3
+ulovljeno	43		3
+uloženo	4560		3
 ultimativno	520		5
-ulubljeno			3
+ulubljeno			4
 ulupano			2
-umanjeno	248		3
+umanjeno	248		4
 umanjivano			2
 umazano	15		2
-umereno	3130		3
+umereno	3130		4
 umesno		M	2
-umetano			3
+umetano			4
 umetno		M	2
 umešano	107		2
-umešeno	26		3
-umešno	245		2
+umešeno	26		2
+umešno	245		3
 umilno	155		2
-umireno	17		3
-umiveno	35		3
+umireno	17		4
+umiveno	35		4
 umišljajno		M	4
-umišljeno	52		3
+umišljeno	52		4
 umjetno	90	J	2
 umno	549		2
-umnoženo	29		3
+umnoženo	29		2
 umobolno	21		4
-umoreno	46		2
+umoreno	46		3
 umorno	896		3
 umotano	97		2
-umreženo	92		3
+umreženo	92		2
 umrljano	12		2
-umrtvljeno	31		3
-umućeno	43		3
-unajmljeno			2
-unakaženo	74		2
+umrtvljeno	31		4
+umućeno	43		2
+unajmljeno			3
+unakaženo	74		3
 unakrsno	500		2
 unamuno			2
-unapređeno	257		3
-unazađeno			3
+unapređeno	257		2
+unazađeno			2
 uncijalno			4
-uneseno	81		3
-unesrećeno	15		3
-unezvereno	114		3
+uneseno	81		2
+unesrećeno	15		2
+unezvereno	114		4
 uniformisano	79		3
 uniformno	141		4
 unikatno	242		4
 unilateralno			6
 unisono	124		2
 univerzalno	1669		5
-uništavano	67		2
-uništeno	2343		3
-unižavano			2
-uniženo			2
-unosno	204		2
-unošeno			2
+uništavano	67		3
+uništeno	2343		2
+unižavano			3
+uniženo			3
+unosno	204		3
+unošeno			3
 uobičajeno	8030		3
-uobličeno	85		3
-uobraženo	52		2
-uokvireno	108		2
-uopšteno	2601		3
-uočeno	1131		2
+uobličeno	85		2
+uobraženo	52		3
+uokvireno	108		3
+uopšteno	2601		2
+uočeno	1131		3
 upakovano	450		2
-upaljeno	341		2
+upaljeno	341		3
 upamćeno	279		3
-upereno	273		3
+upereno	273		4
 upetljano			2
-upisano	2439		2
-upisivano	31		2
-upitano	13		2
+upisano	2439		3
+upisivano	31		3
+upitano	13		3
 upitno	502		2
 uplakano	57		2
-uplaćeno	910		3
-uplašeno	666		3
-upleteno	65		3
+uplaćeno	910		2
+uplašeno	666		2
+upleteno	65		2
 uporedno	565		4
-upoređeno	45		3
+upoređeno	45		2
 uporno	11810		3
-uposleno	301		2
-upotpunjeno	151		3
-upotrebljeno	603		2
+uposleno	301		3
+upotpunjeno	151		2
+upotrebljeno	603		3
 upotrebno	32		4
 upozno			2
-upozoreno	257		2
-upravljano	74		3
-upravljeno	53		3
+upozoreno	257		3
+upravljano	74		4
+upravljeno	53		4
 upravno	500		3
 uprazno		M	3
-upražnjeno	580		3
-upriličeno	428		3
-uprljano	27		2
-upropašteno	44		2
-upropašćeno	103		3
-uprošteno	36		3
-uprošćeno	237		3
+upražnjeno	580		4
+upriličeno	428		4
+uprljano	27		3
+upropašteno	44		3
+upropašćeno	103		2
+uprošteno	36		2
+uprošćeno	237		2
 upucano			2
 uputno	584		2
-upućeno	2458		2
-upućivano	25		2
-uramljeno	22		3
-uravnjeno			3
+upućeno	2458		3
+upućivano	25		3
+uramljeno	22		4
+uravnjeno			4
 uravnoteženo	271		3
-urađeno	11073		2
+urađeno	11073		3
 urbano	810		3
 uredno	8806		3
-urezano	173		3
-urečeno			3
-uređeno	2170		2
+urezano	173		4
+urečeno			4
+uređeno	2170		3
 urgentno	435		2
 urnebesno	325		2
-uronjeno	40		2
-urođeno	288		3
-uručeno	802		2
-urušeno	101		3
-usaglašeno	375		3
+uronjeno	40		3
+urođeno	288		4
+uručeno	802		3
+urušeno	101		2
+usaglašeno	375		2
 usamljeno	770		3
-usavršeno	43		2
-usađeno	151		2
-useljeno	108		2
-usečeno	14		3
+usavršeno	43		3
+usađeno	151		3
+useljeno	108		3
+usečeno	14		2
 ushićeno	287		3
-usidreno	33		3
+usidreno	33		4
 usijano	70		2
-usiljeno	152		3
-uskladišteno	107		3
-usklađeno	508		3
+usiljeno	152		4
+uskladišteno	107		2
+usklađeno	508		2
 uskomešano			2
-uskraćeno	979		2
+uskraćeno	979		3
 uskrsno	12		2
 uslikano	31		2
-uslovljeno	1297		3
+uslovljeno	1297		4
 uslovno	4080		2
-uslužno	385		2
+uslužno	385		3
 usmeno	2619		3
-usmeravano	22		2
-usmereno	1809		3
+usmeravano	22		3
+usmereno	1809		4
 usno	15		2
-usoljeno	11		3
-uspaničeno	65		3
-uspavano	71		2
-uspešno	44459		2
-usplahireno	70		3
-uspokojeno			3
+usoljeno	11		4
+uspaničeno	65		2
+uspavano	71		3
+uspešno	44459		3
+usplahireno	70		4
+uspokojeno			2
 uspomeno			4
 usporedno	27		4
-usporeno	817		3
-uspostavljeno	489		3
-uspravljeno			3
+usporeno	817		4
+uspostavljeno	489		4
+uspravljeno			4
 uspravno	1413		3
-usputno	304		2
+usputno	304		3
 usrdno	860		2
-usredsređeno		M	3
-ustakljeno			3
+usredsređeno		M	2
+ustakljeno			4
 ustalasano			2
-ustaljeno	205		3
-ustanovljeno	2726		2
+ustaljeno	205		4
+ustanovljeno	2726		3
 ustavno	1912		2
-ustoličeno			3
+ustoličeno			2
 ustrajno	69		3
-ustravljeno		M	3
-ustrašeno			3
-ustreljeno			3
-ustremljeno	10		3
-ustrojeno	87		2
-ustupljeno	157		2
+ustravljeno		M	4
+ustrašeno			2
+ustreljeno			4
+ustremljeno	10		4
+ustrojeno	87		3
+ustupljeno	157		3
 usukano			2
-usvojeno	1391		3
+usvojeno	1391		4
 utabano	16		2
-utajeno			2
-utamničeno			3
-utanačeno	36		2
-utemeljeno	683		3
-utešeno			3
-utešno	363		2
+utajeno			3
+utamničeno			2
+utanačeno	36		3
+utemeljeno	683		2
+utešeno			4
+utešno	363		3
 uticajno	73		4
 utilitarno	35		5
 utišano	11		2
 utkano	166		2
 utkivano			2
-utopljeno	40		2
-utovareno	35		3
-utrošeno	1528		2
-utučeno	43		2
+utopljeno	40		3
+utovareno	35		4
+utrošeno	1528		3
+utučeno	43		3
 utvarno			2
-utvrđeno	11614		2
-utvrđivano	30		3
+utvrđeno	11614		3
+utvrđivano	30		4
 uvaljano	12		2
-uvaljeno			2
-uvažavano	14		2
+uvaljeno			3
+uvažavano	14		3
 uvaženo	336		3
-uvedeno	1440		3
-uveličano	26		2
-uveravano			2
-uvereno	188		3
-uvezano	51		2
-uvezeno	707		2
-uvećano	243		2
+uvedeno	1440		2
+uveličano	26		3
+uveravano			3
+uvereno	188		4
+uvezano	51		3
+uvezeno	707		3
+uvećano	243		3
 uvežbano	66		2
-uvijeno	265		3
+uvijeno	265		4
 uviđajno			4
 uviđavno	22		4
-uvodno	641		2
-uvozno	386		2
-uvođeno	11		2
-uvošteno			3
-uvređeno	174		2
-uvreženo	399		3
-uvršteno	247		2
-uvršćeno	79		2
-uvučeno	48		2
+uvodno	641		3
+uvozno	386		3
+uvođeno	11		3
+uvošteno			2
+uvređeno	174		3
+uvreženo	399		2
+uvršteno	247		3
+uvršćeno	79		3
+uvučeno	48		3
 uzajamno	2505		4
-uzajmljeno			3
+uzajmljeno			4
 uzaludno	1655		4
 uzano	49		2
 uzastopno	1977		4
 uzbrdno			2
-uzbunjeno			2
-uzburkano	66		3
+uzbunjeno			3
+uzburkano	66		4
 uzbuđeno	394		3
 uzdano		M	2
 uzdrmano	61		2
 uzdržano	358		2
 uzdužno	240		2
-uzgajano	41		2
-uzgojeno	23		2
+uzgajano	41		3
+uzgojeno	23		3
 uzgredno	206		3
-uzimano	64		3
-uzjogunjeno			3
+uzimano	64		4
+uzjogunjeno			2
 uzlazno	38		3
-uznemireno	297		2
-uzorano	21		2
+uznemireno	297		3
+uzorano	21		3
 uzorno	202		2
-uzrokovano	580		4
-uzročno	290		2
+uzrokovano	580		5
+uzročno	290		3
 uzrujano	39		2
 uzurpirano	47		2
-uzvereno		M	3
+uzvereno		M	4
 uzvišeno	358		3
-uzvodno	1199		2
+uzvodno	1199		3
 uzvratno	36		3
-uzvraćeno	110		3
+uzvraćeno	110		2
 učeno	170		3
 učestano		M	2
-učinjeno	6058		2
-učlanjeno	151		2
-učvršćeno	81		2
-ušećereno	11		3
-ušiveno	10		3
-ušoreno			3
-ušteđeno	144		2
-uštogljeno	26		3
-uštrojeno			3
-ušuškano	106		3
-užareno	80		3
+učinjeno	6058		3
+učlanjeno	151		3
+učvršćeno	81		3
+ušećereno	11		4
+ušiveno	10		2
+ušoreno			4
+ušteđeno	144		3
+uštogljeno	26		4
+uštrojeno			4
+ušuškano	106		4
+užareno	80		4
 užasno	4601		3
-uživljeno			3
-užlebljeno			3
+uživljeno			4
+užlebljeno			4
 užurbano	903		2
-vagano			2
+vagano			3
 vaginalno	194		4
 vajano			2
 valentino			2
@@ -4949,10 +4949,10 @@ validno	327		3
 valjano	2048		2
 vanbračno	180		2
 vanknjiževno			4
-vanmaterično			2
-vanredno	3491		3
+vanmaterično			3
+vanredno	3491		2
 vantelesno	44		2
-vareno	13		2
+vareno	13		3
 varijantno			2
 varirano			2
 vaskrsno			2
@@ -4969,15 +4969,15 @@ vegetativno	91		5
 vehementno			2
 vekovečno		M	2
 vekovno	303		2
-velebno			2
+velebno			3
 veleglasno			2
 velelepno	153		2
-velikodušno	1010		2
+velikodušno	1010		3
 veličano			2
-veličanstveno	725		2
+veličanstveno	725		3
 veno		M	2
-venčano	17		2
-veprino			2
+venčano	17		3
+veprino			3
 verano			2
 verbalno	1791		2
 verižno			2
@@ -4990,15 +4990,15 @@ vesnino			2
 vesno		M	2
 veterino			2
 vezano	13485		2
-vezeno	17		2
-vezivano	23		2
+vezeno	17		3
+vezivano	23		3
 vezivno	493		3
 večno	4533		2
 vešticino			2
 veštičino			2
 vibrantno			2
 vidno	4694		2
-vilino	13		2
+vilino	13		3
 vino	17616		2
 virtualizovano			2
 virtuelno	1008		4
@@ -5019,19 +5019,19 @@ višenitno			2
 višeporodično			2
 višeslojno	140		4
 višesmerno			4
-višestrano	44		2
+višestrano	44		3
 višetomno			4
-višeznačno	53		2
+višeznačno	53		3
 višnjino			2
-vladavino			3
+vladavino			4
 vladikino			2
-vladino	20		2
+vladino	20		3
 vladičino			2
 vlakno	359		2
 vlastoručno	21		2
 vlažno	688		2
 vodenično			4
-vodeno	732		2
+vodeno	732		3
 vodno	153		2
 vodootporno	97		2
 vodoplavno			4
@@ -5039,269 +5039,269 @@ vodoravno	267		4
 vojno	4961		2
 vokalno	165		2
 volino			2
-voljeno	359		2
+voljeno	359		3
 voljno	716		2
-volšebno	421		2
+volšebno	421		3
 vozno			2
 voćno	102		2
-vođeno	466		2
-voštano	15		2
-voženo	54		2
+vođeno	466		3
+voštano	15		3
+voženo	54		3
 vranino			2
 vrano			2
 vratno	15		2
 vratolomno	26		4
 vraćano	15		3
-vraćeno	1819		2
+vraćeno	1819		3
 vredno	7928		2
-vrednosno	574		2
+vrednosno	574		3
 vrednovano	83		4
 vreteno	167		2
 vrhovno	385		2
-vrlino			2
+vrlino			3
 vrsno	43		2
-vrtložno			2
+vrtložno			3
 vrzino			2
-vršeno	807		2
+vršeno	807		3
 vucibatino			2
 vulgarno	417		2
-vuneno	35		2
-vučeno	16		2
+vuneno	35		3
+vučeno	16		3
 vučno	58		2
-zabavljeno			3
-zabavno	3328		2
-zabačeno	97		3
-zabeleženo	4655		3
-zabijeno			3
-zabilježeno	334	J	3
-zaboravljeno	973		3
-zabranjeno	10378		2
-zabranjivano	57		2
+zabavljeno			4
+zabavno	3328		3
+zabačeno	97		2
+zabeleženo	4655		2
+zabijeno			4
+zabilježeno	334	J	2
+zaboravljeno	973		4
+zabranjeno	10378		3
+zabranjivano	57		3
 zabrano			3
-zabrljano			2
+zabrljano			3
 zadahtano		M	2
-zadano	13		2
-zadavljeno	10		2
+zadano	13		3
+zadavljeno	10		3
 zadihano	88		2
-zadimljeno	14		3
-zadivljeno	145		2
-zadobijeno	22		3
-zadojeno	11		3
-zadovoljeno	89		2
+zadimljeno	14		4
+zadivljeno	145		3
+zadobijeno	22		2
+zadojeno	11		4
+zadovoljeno	89		3
 zadovoljno	2593		4
 zadružno	66		2
-zadržano	459		2
-zadržavano			3
-zadubljeno			3
+zadržano	459		3
+zadržavano			4
+zadubljeno			4
 zaduvano		M	2
-zaduženo	1044		3
+zaduženo	1044		2
 zagarantovano	720		3
-zagađeno	202		3
-zaglavljeno	73		2
-zagledano	14		3
-zaglibljeno			2
-zaglušeno			3
+zagađeno	202		4
+zaglavljeno	73		3
+zagledano	14		2
+zaglibljeno			3
+zaglušeno			2
 zaglušno			2
-zagnjureno			3
+zagnjureno			4
 zagonetno	349		4
 zagovarano			2
-zagrađeno			2
+zagrađeno			3
 zagrejano	142		2
 zagrevano			2
-zagriženo	20		3
-zagrljeno			3
-zagrobno	12		3
-zaguljeno	10		3
-zagušeno	14		3
-zahtevano	300		2
+zagriženo	20		2
+zagrljeno			4
+zagrobno	12		2
+zaguljeno	10		4
+zagušeno	14		2
+zahtevano	300		3
 zahtevno	616		2
 zahuktano			2
 zahvalno	401		2
-zahvaćeno	346		3
+zahvaćeno	346		4
 zainteresovano	1162		2
-zajamčeno	106		3
-zajapureno	39		3
+zajamčeno	106		2
+zajapureno	39		4
 zajedno	120863		3
-zajemčeno	108		3
+zajemčeno	108		2
 zakazano	2616		2
-zakačeno	40		3
+zakačeno	40		2
 zaklano	101		2
 zaključano	127		2
-zaključeno	3002		2
-zaključno	3013		2
-zaklonjeno	130		2
+zaključeno	3002		3
+zaključno	3013		3
+zaklonjeno	130		3
 zakonodavno	403		5
-zakopano	188		2
+zakopano	188		3
 zakopčano			2
 zakovano	28		2
-zakočeno	20		2
-zakošeno	20		3
-zakriljeno			3
-zakrivljeno	76		3
-zakrpljeno	21		3
-zakrvavljeno			3
-zakrčeno	13		3
+zakočeno	20		3
+zakošeno	20		2
+zakriljeno			4
+zakrivljeno	76		4
+zakrpljeno	21		4
+zakrvavljeno			2
+zakrčeno	13		2
 zakucano	36		2
-zakukuljeno			3
+zakukuljeno			2
 zakulisno	39		2
-zakupljeno	47		3
+zakupljeno	47		4
 zakupno			2
-zalepljeno	67		3
-zaleđeno	107		3
-zaliječeno		J	3
-zaliveno	50		3
+zalepljeno	67		4
+zaleđeno	107		2
+zaliječeno		J	2
+zaliveno	50		4
 zališno			2
-zaljubljeno	236		3
+zaljubljeno	236		4
 zaljuljano			2
-založeno	30		2
-založno	359		2
+založeno	30		3
+založno	359		3
 zaludno	134		2
-zaluđeno			3
-zamagljeno	99		3
+zaluđeno			2
+zamagljeno	99		4
 zamamno	15		3
 zamašno	26		3
-zamenjeno	720		2
-zamenjivano			2
-zamerano	64		2
-zamereno	245		3
-zamešeno			3
-zamišljano			2
-zamišljeno	1380		3
-zamoljeno	12		2
-zamoreno			3
+zamenjeno	720		3
+zamenjivano			3
+zamerano	64		3
+zamereno	245		4
+zamešeno			2
+zamišljano			3
+zamišljeno	1380		4
+zamoljeno	12		3
+zamoreno			4
 zamorno	323		2
 zamotano	36		2
-zamočeno			3
-zamračeno	17		3
+zamočeno			2
+zamračeno	17		2
 zamrljano			2
-zamršeno	116		3
-zamućeno	70		2
-zanemareno	227		2
-zaneseno	84		2
+zamršeno	116		2
+zamućeno	70		3
+zanemareno	227		3
+zaneseno	84		3
 zanjihano			2
-zanosno	349		2
+zanosno	349		3
 zaobilazno	113		5
-zaobiđeno	34		3
-zaobljeno	108		3
-zaokruženo	295		2
-zaokupljeno	35		3
+zaobiđeno	34		2
+zaobljeno	108		4
+zaokruženo	295		3
+zaokupljeno	35		2
 zaozbiljno	28		4
-zaoštreno	34		3
+zaoštreno	34		4
 zapadno	2947		3
 zapakovano	87		2
-zapaljeno	339		2
+zapaljeno	339		3
 zapamćeno	228		3
-zapanjeno	183		2
-zapapreno			3
-zaparloženo			3
+zapanjeno	183		3
+zapapreno			4
+zaparloženo			2
 zaparno		M	2
-zapaženo	817		3
-zapenjeno			3
+zapaženo	817		4
+zapenjeno			4
 zapenušano			2
-zapenušeno		M	3
+zapenušeno		M	2
 zapetljano	31		2
-zapečaćeno	83		3
-zapečeno	14		3
-zapisano	1947		2
-zapisivano			2
-zapitano			2
-zaplašeno	25		3
-zaplenjeno	567		3
-zapleteno	18		3
-zaposleno	4382		3
-zapostavljeno	260		3
-zapovedano			2
+zapečaćeno	83		2
+zapečeno	14		4
+zapisano	1947		3
+zapisivano			3
+zapitano			3
+zaplašeno	25		4
+zaplenjeno	567		4
+zapleteno	18		2
+zaposleno	4382		4
+zapostavljeno	260		4
+zapovedano			3
 zapovedno	11		4
-zapoveđeno	110		3
-zapovijeđeno		J	3
-zapovjeđeno		J	3
+zapoveđeno	110		4
+zapovijeđeno		J	2
+zapovjeđeno		J	4
 započinjano			2
-zaprašeno			3
-zaprepašćeno	113		3
-zapreteno			3
-zaprećeno	221		3
-zaprečeno			3
+zaprašeno			2
+zaprepašćeno	113		2
+zapreteno			2
+zaprećeno	221		2
+zaprečeno			2
 zaprežno	22		2
-zaprljano	35		2
-zaptiveno			3
-zapušeno	25		3
-zapušteno	405		2
+zaprljano	35		3
+zaptiveno			2
+zapušeno	25		4
+zapušteno	405		3
 zarazno	343		3
-zaraćeno			3
-zarađeno	252		2
-zaraženo	667		3
+zaraćeno			2
+zarađeno	252		3
+zaraženo	667		2
 zarezano			2
-zariveno			3
-zarobljeno	564		3
+zariveno			2
+zarobljeno	564		4
 zarozano			2
-zasađeno	541		2
-zasebno	1524		2
+zasađeno	541		3
+zasebno	1524		3
 zasejano	757		2
-zasenjeno	11		3
+zasenjeno	11		4
 zasigurno	4537		4
-zasićeno	92		3
-zaslađeno	27		3
+zasićeno	92		4
+zaslađeno	27		2
 zasluženo	4765		3
-zaslužno	367		2
+zaslužno	367		3
 zasnovano	2538		2
-zastrašeno	12		3
-zastupano	15		2
-zastupljeno	932		2
-zatajeno			2
-zatalasano	11		2
-zatamnjeno	62		3
-zataškano	70		3
-zatečeno	291		3
+zastrašeno	12		4
+zastupano	15		3
+zastupljeno	932		3
+zatajeno			3
+zatalasano	11		3
+zatamnjeno	62		4
+zataškano	70		4
+zatečeno	291		4
 zatirano			2
-zatočeno	62		2
-zatravljeno			3
-zatraženo	1280		2
-zatrovano	100		2
+zatočeno	62		3
+zatravljeno			4
+zatraženo	1280		3
+zatrovano	100		3
 zatrpano	166		2
-zatureno	24		3
-zatvoreno	2348		3
-zaustavljeno	657		3
-zavareno			3
-zavedeno	229		3
+zatureno	24		4
+zatvoreno	2348		4
+zaustavljeno	657		4
+zavareno			4
+zavedeno	229		4
 zavejano	107		2
 zavetno	29		2
-zavezano	12		2
+zavezano	12		3
 zaveštano	17		2
-zavidno	487		2
-zavijeno	77		3
-zavisno	9143		2
+zavidno	487		3
+zavijeno	77		4
+zavisno	9143		3
 zavičajno	287		4
-zavrzeno			3
-završeno	6102		3
+zavrzeno			2
+završeno	6102		4
 završno	716		2
-zazidano			3
+zazidano			2
 zazorno	40		2
-začahureno			3
+začahureno			4
 začarano	40		3
-začepljeno	13		3
-začinjeno	346		2
+začepljeno	13		4
+začinjeno	346		3
 začudno	54		2
-začuđeno	450		3
-zašiveno			3
-zaštitno	1019		2
-zaštićeno	1433		2
+začuđeno	450		4
+zašiveno			2
+zaštitno	1019		3
+zaštićeno	1433		3
 zašuškano			2
-zažareno	12		3
+zažareno	12		4
 zbijeno	114		3
 zbirno	608		2
-zboreno			2
+zboreno			3
 zborno	115		2
-zbratimljeno			3
+zbratimljeno			4
 zbrisano	45		3
 zbrkano	72		2
 zbunjeno	1059		3
 zderano			2
 zdravoumno			4
-zdravstveno	11175		2
+zdravstveno	11175		3
 zdrobljeno			2
-združeno	84		2
+združeno	84		3
 zdušno	1770		2
-zeleno	5796		2
+zeleno	5796		3
 zemljano	80		2
 zemljino			2
 zemljišno	59		2
@@ -5311,49 +5311,49 @@ zgađeno	11		3
 zgnječeno	13		2
 zgodno	2530		2
 zgomilano			2
-zgotovljeno			3
-zgroženo	27		2
+zgotovljeno			4
+zgroženo	27		3
 zgrčeno	30		2
 zgureno			2
 zgužvano	41		2
-zidano	53		2
+zidano	53		3
 zidno	228		2
 zimzeleno	99		4
 zlatno	3214		2
 zlaćano			2
-zlaćeno			2
+zlaćeno			3
 zlobno	280		2
-zloglasno	32		2
-zlokobno	242		2
-zlomisleno			3
+zloglasno	32		3
+zlokobno	242		3
+zlomisleno			2
 zlonamerno	750		2
-zloslutno	136		2
+zloslutno	136		3
 zlosrećno		M	3
-zlostavljano	104		3
+zlostavljano	104		4
 zlovoljno	55		2
-zloćudno	30		2
-zmijino			2
-zmijurino			2
+zloćudno	30		3
+zmijino			3
+zmijurino			3
 znano	447		2
-znanstveno			2
+znanstveno			3
 znatiželjno	188		4
 znatno	42105		2
 značajno	37450		3
 znojno	15		2
-zobeno			2
+zobeno			3
 zono			2
 zračno	39		2
 zrno	2995		2
 zubno	187		2
-zvanično	27657		2
+zvanično	27657		3
 zvano	731		2
-zvezdano	456		2
+zvezdano	456		3
 zvono	2214		2
 zvučno	730		2
 ćatino			2
 ćerkino			2
 ćilibarno			4
-ćirilično	537		2
+ćirilično	537		3
 čajno	45		2
 čamno			2
 čamotno			3
@@ -5365,18 +5365,18 @@ zvučno	730		2
 čekano	22		3
 čekirano	42		2
 čekovno			2
-čelično	165		2
+čelično	165		3
 čelno	78		2
 čemerno	150		2
 česno		M	2
-čestično			2
+čestično			3
 četno			2
 četvoroglasno			2
 činjenično	1567		4
-činjeno	433		2
+činjeno	433		3
 čino			2
 čistokrvno			4
-čitano	89		2
+čitano	89		3
 čičino			2
 čišćeno	46		3
 člano			2
@@ -5390,25 +5390,25 @@ zvučno	730		2
 čudovišno	114		4
 čujno	145		2
 čulno	303		2
-čuvano	157		2
+čuvano	157		3
 čuveno	1525		3
-čuvstveno			2
+čuvstveno			3
 čvorno	13		2
 đino			2
 đokino			2
 đukino			2
 đulijano			2
 đuričino			2
-šaljivčino			2
-šareno	584		2
+šaljivčino			3
+šareno	584		3
 šarmantno	295		2
 šećerno			2
-šibano			2
+šibano			3
 šifrirano			2
 šifrovano	32		2
 šiveno	20		3
-šizofreno	102		3
-šišano			2
+šizofreno	102		4
+šišano			3
 školovano	44		2
 škrofulozno			4
 šlifovano			2
@@ -5419,7 +5419,7 @@ zvučno	730		2
 štampano	741		3
 štedno	39		2
 štetno	2880		2
-štetočino			2
+štetočino			3
 štiklirano			2
 štićeno	11		3
 štrikano			3
@@ -5433,15 +5433,15 @@ zvučno	730		2
 žano		M	2
 žedno	125		2
 želatinozno	13		5
-železno	12		2
-željeno	416		2
-željezno		J	2
+železno	12		3
+željeno	416		3
+željezno		J	3
 željno	1648		2
-ženino			2
+ženino			3
 ženo	140		2
-ženstveno	209		2
+ženstveno	209		3
 ženturino			2
-žeženo	14		2
+žeženo	14		3
 žigosano	19		2
 žikino			2
 žikičino			2
@@ -5451,40 +5451,40 @@ zvučno	730		2
 živonosno			2
 živopisano			2
 živopisno	373		4
-životno	5143		2
+životno	5143		3
 životvorno	65		4
-živčano	14		2
-žičano	58		2
+živčano	14		3
+žičano	58		3
 žično	88		2
-žrtveno	206		2
+žrtveno	206		3
 žrtvovano	75		4
 žudno	107		2
 župno	12		2
 žurno	700		2
-žutocrveno			3
+žutocrveno			2
 žučno	153		2
 besprijekorno	93		2
 bezbjedno			2
 bezosjećajno			5
-bezuspješno			2
+bezuspješno			3
 bezutješno			2
 bezvrijedno	20		4
 bijedno	53		2
 bijesno	86		2
 bjesomučno			2
-cijenjeno	34		3
-cjelokupno			2
+cijenjeno	34		4
+cjelokupno			3
 djelimično			2
 djelotvorno			4
-dobronamjerno			2
-dodijeljeno	83		3
-dragocjeno			2
-iscijeljeno			3
-istjerano			3
-izliječeno			3
-izmijenjeno			3
+dobronamjerno			3
+dodijeljeno	83		4
+dragocjeno			3
+iscijeljeno			4
+istjerano			4
+izliječeno			4
+izmijenjeno			2
 izmiješano			2
-izmjereno			3
+izmjereno			4
 izvjesno			3
 jednosmjerno			4
 licemjerno			4
@@ -5494,99 +5494,99 @@ mjesecno			2
 mjesečno			3
 mjesno			2
 mliječno			3
-mnogocjeno			3
-naizmjenično			2
-namijenjeno	117		3
-namjenjeno			3
-namjereno			3
-namjerno			2
-namješteno			3
+mnogocjeno			4
+naizmjenično			3
+namijenjeno	117		4
+namjenjeno			4
+namjereno			4
+namjerno			3
+namješteno			4
 nedjeljno			2
 neizbježno			4
 neizmjerno			4
 neizvjesno			4
-nenamjerno			2
+nenamjerno			3
 neosjetno			4
-neprimjereno			3
+neprimjereno			4
 neprimjetno			4
 neriješeno	86		4
-nesavjesno			2
-nesvjesno			2
+nesavjesno			3
+nesvjesno			3
 neumjesno			2
 neuspješno			4
 nevjerovatno			2
-ocjenjivano			2
-odmjereno			3
-odsječeno			3
+ocjenjivano			3
+odmjereno			4
+odsječeno			4
 osjećajno			4
-osvijetljeno			3
+osvijetljeno			2
 otmjeno			3
-pobijeđeno			3
-podijeljeno	139		3
+pobijeđeno			4
+podijeljeno	139		4
 podsvjesno			2
-pomiješano	19		3
-posječeno			3
-povrijeđeno	287		3
-precijenjeno			3
+pomiješano	19		4
+posječeno			4
+povrijeđeno	287		4
+precijenjeno			2
 prekomjerno			4
-premješteno			3
+premješteno			2
 presmiješno			2
-pretjerano			3
+pretjerano			4
 prijekorno	23		4
 prijevozno	14		4
-prijevremeno	51		3
-primijećeno	48		3
-primjereno			3
-primjerno			2
+prijevremeno	51		2
+primijećeno	48		4
+primjereno			4
+primjerno			3
 primjetno			3
-primjećeno			3
-procijenjeno			3
-promijenjeno	56		3
+primjećeno			2
+procijenjeno			4
+promijenjeno	56		4
 prosječno			3
-protjerano			3
-provjereno			3
+protjerano			4
+provjereno			4
 ravnomjerno			4
-riješeno	386		3
-rješeno			3
-samouvjereno			3
-savjesno	107		2
+riješeno	386		4
+rješeno			2
+samouvjereno			4
+savjesno	107		3
 sijeno	112		2
 sjeverno			3
-sjeveroistočno		M	2
-sjeverozapadno		M	2
-skupocjeno			2
+sjeveroistočno		M	3
+sjeverozapadno		M	3
+skupocjeno			3
 smijesno			2
 smiješno	554		2
 smjerno		M	2
 smješno			2
 smješteno	93		3
-spriječeno			3
-starješino			2
+spriječeno			4
+starješino			3
 strijeljano	17		2
-susjedno			2
+susjedno			3
 svjesno			2
 tijesno	134		2
 tjelesno			3
-ubijeđeno			3
+ubijeđeno			2
 umiješano			2
-umjereno			3
+umjereno			4
 umjesno	44		2
-usmjereno			3
-uspješno			2
-utješno			2
-uvjereno			3
-uvrijeđeno			3
-uvriježeno	11		3
+usmjereno			4
+uspješno			3
+utješno			3
+uvjereno			4
+uvrijeđeno			4
+uvriježeno	11		2
 vjecno			2
-vjenčano			2
+vjenčano			3
 vjerno		M	2
 vjerodostojno			2
 vjerovatno			4
 vječno			2
-vrijedno	481		2
+vrijedno	481		3
 zahtjevno			2
-zalijepljeno			3
-zamijenjeno	39		3
-zamjereno			3
-zaplijenjeno			3
-zvjezdano			2
+zalijepljeno			2
+zamijenjeno	39		4
+zamjereno			4
+zaplijenjeno			2
+zvjezdano			3

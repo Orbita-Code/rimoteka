@@ -1,37 +1,37 @@
 362
 Avrami			2
 Rimi	34		2
-aerodromi	689		2
+aerodromi	689		3
 aforizmi	302		2
-agronomi	242		2
-agrumi	80		2
+agronomi	242		3
+agrumi	80		3
 aksiomi	68		2
 akvarijumi	103		2
 alabami			2
-alarmi	275		2
+alarmi	275		3
 albumi	564		2
 algoritmi	455		2
 amblemi	50		2
-anagrami	23		2
-anatemi	78		2
+anagrami	23		3
+anatemi	78		3
 aneurizmi	106		2
 anglicizmi	16		2
 antonimi			2
 arhaizmi	28		2
 aromi	98		2
 astmi			2
-astronomi	2198		2
+astronomi	2198		3
 atavizmi			2
 atomi	516		2
 autogrami	15		2
-bademi	368		2
-bagremi			2
+bademi	368		3
+bagremi			3
 bahami			2
 bajrami			2
 balkanizmi			2
 balsami			2
 barbarizmi			2
-bedemi	288		2
+bedemi	288		3
 boemi	202		2
 bogami			2
 brodolomi	11		4
@@ -39,7 +39,7 @@ burmi			2
 cinizmi			2
 cunami	1128		2
 dami	603		2
-datumi	1271		2
+datumi	1271		3
 delimi			2
 dijademi			2
 dijafragmi	54		2
@@ -64,7 +64,7 @@ ekstremi	211		2
 enigmi	76		2
 enzimi	622		2
 epidermi		M	2
-epigrami	23		2
+epigrami	23		3
 eskimi			2
 eufemizmi	43		2
 fanatizmi			2
@@ -77,14 +77,14 @@ fermi			2
 firmi	35204		2
 fonemi	12		2
 formi	21204		2
-forumi	998		2
+forumi	998		3
 galami	269		2
 galicizmi			2
 germanizmi			2
 glumi	4731		2
 gluvonemi			2
 gnomi	11		2
-golemi	232		2
+golemi	232		3
 grami	17		2
 grmi	481		2
 gumi	284		2
@@ -110,7 +110,7 @@ izbezumi	50		2
 izlomi	79		2
 izmami	287		2
 iznajmi	452		2
-izumi	333		2
+izumi	333		3
 izuzmi			2
 jagmi			2
 jami	859		2
@@ -118,8 +118,8 @@ jednodomi			2
 jevrosimi			2
 jokohami			2
 kaldrmi			2
-kalemi	104		2
-kamenolomi	39		2
+kalemi	104		3
+kamenolomi	39		3
 kami			2
 karaburmi			2
 karmi	64		2
@@ -141,26 +141,26 @@ kroatizmi			2
 krčmi	526		2
 kumi	132		2
 kuršumi			2
-kvorumi			2
+kvorumi			3
 lagumi	65		2
 lakomi	81		3
 larmi			2
 latinizmi			2
 leksemi			2
 limi			2
-linoleumi			2
+linoleumi			3
 logaritmi	20		2
 lomi	1649		2
 magmi	19		2
 majami			2
 maksimi	86		2
 mami	2363		2
-marami	83		2
+marami	83		3
 medijumi	76		2
 mehanizmi	3429		2
-melemi	85		2
+melemi	85		3
 melodrami	47		4
-memorandumi	126		2
+memorandumi	126		3
 mi	872260		1
 miami			2
 mikroorganizmi	723		2
@@ -168,13 +168,13 @@ milenijumi	24		2
 mimi			2
 monoatomi			2
 monodrami	56		2
-monstrumi	325		2
+monstrumi	325		3
 morfemi			2
 muselimi			2
 nadimi			2
 najmi	50		2
 namami	134		2
-naumi	141		2
+naumi	141		3
 nemi	1087		2
 neologizmi	32		2
 nesporazumi	872		5
@@ -214,20 +214,20 @@ patriotizmi			2
 pesmi	5365		2
 pidžami	209		2
 piktogrami	51		2
-pitomi	283		2
+pitomi	283		3
 pižami			2
 platformi	5372		2
 plazmi	485		2
 plimi	58		2
 pluralizmi			2
-pobratimi	142		3
+pobratimi	142		4
 podjarmi	29		2
 podnimi			2
-podrumi	382		2
+podrumi	382		3
 podsistemi	91		2
 poemi	240		2
 pogromi	69		2
-polakomi	24		3
+polakomi	24		4
 polomi	512		2
 polutami	90		4
 pomami	94		2
@@ -236,14 +236,14 @@ pospremi	98		2
 posrami	139		2
 pozajmi	777		2
 praktikumi	70		2
-prašumi	138		2
+prašumi	138		3
 preduzmi	32		2
-prelomi	1136		2
+prelomi	1136		3
 premami			2
 presaldumi			2
 preuzmi	222		2
 prezimi	147		2
-prijemi	183		2
+prijemi	183		3
 primami	28		2
 primi	11666		2
 pripitomi	80		2
@@ -251,12 +251,12 @@ pripremi	13394		3
 priremi			2
 prizmi	92		2
 problemi	33698		2
-programi	16404		2
-prolomi	116		2
+programi	16404		3
+prolomi	116		3
 provincijalizmi			2
 psalami			2
 psalmi	142		2
-pseudonimi	35		2
+pseudonimi	35		3
 radiogrami			2
 rami			2
 raspremi	34		2
@@ -280,12 +280,12 @@ sašimi			2
 sažmi			2
 sedmi	3951		2
 serafimi			2
-serumi	74		2
+serumi	74		3
 simi			2
 simpozijumi	127		2
 simptomi	7910		2
 sinonimi	527		2
-sintagmi	264		2
+sintagmi	264		3
 sistemi	14191		2
 skrami			2
 slakomi			2
@@ -313,7 +313,7 @@ tišmi			2
 tomi			2
 toponimi	247		2
 totemi	41		2
-traumi	104		2
+traumi	104		3
 tremi	76		2
 tromi	152		2
 tropizmi			2
@@ -323,11 +323,11 @@ udomi	202		2
 ujdurmi			2
 ulemi	11		2
 ulomi			2
-ultimatumi	109		2
+ultimatumi	109		3
 unajmi	100		2
 uniformi	1834		2
 unitarizmi			2
-univerzumi	47		2
+univerzumi	47		3
 urazumi	279		2
 urmi			2
 usami			2
@@ -336,7 +336,7 @@ uzajmi	40		2
 uzmi	4688		2
 vandalizmi	13		2
 varvarizmi			2
-zadimi	42		2
+zadimi	42		3
 zagrmi	92		2
 zajmi			2
 zalomi	139		2
@@ -351,7 +351,7 @@ zgromi	17		2
 zimi	6142		2
 zulumi			2
 ćazimi			2
-ćilimi	154		2
+ćilimi	154		3
 čami	235		2
 česmi			2
 čizmi	138		2
@@ -363,4 +363,4 @@ zulumi			2
 žandarmi	291		2
 nijemi	93		3
 pjesmi			2
-prijelomi			3
+prijelomi			4

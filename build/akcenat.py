@@ -9,8 +9,12 @@ reč od tog samoglasnika do kraja (`akcKey`).
 
 Pravilo (GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7 i 7a; AUDIT/akcenti/pokrivenost.md):
   · rima počinje od naglašenog sloga;
-  · kod UZLAZNOG akcenta ton prelazi na sledeći slog, pa ako iza naglašenog ima bar dva sloga, rima počinje od sloga iza njega
-    (telèvīzor → -izor, dìrektor → -ektor); silazni ne prelazi (stvȃrima → -arima).
+  · kod UZLAZNOG akcenta ton prelazi na sledeći slog; ako je taj slog DUG (tèlevīzor, ambàsādor) i iza naglašenog ima bar
+    dva sloga, rima počinje od sloga iza naglašenog (-izor, -ador). Ako je slog iza KRATAK, rima ostaje od naglašenog
+    (kániti → -aniti, ùnuka → -unuka, dìrektor → -irektor); silazni nikad ne prelazi (stvȃrima → -arima).
+    AK-1 (audit 07.10.2026): do tada je pomak važio za SVAKI uzlazni akcenat, pa je kaniti dobijalo goniti umesto raniti,
+    a unuka bazuku – 12.894 od 20.980 osnova sa 3+ sloga gubilo je naglašeni samoglasnik iz ključa. Dužina sloga iza
+    akcenta je u akcenti-osnove.json (`iza_dug`, iz Wiktionary-ja) i prenosi se kroz osnovu (lema) i prediktor po završetku.
 Odakle akcenat, redom: (1) Wiktionary, sama reč; (2) Wiktionary, osnova reči preko srLex-a (mesto akcenta OD POČETKA se
 prenosi na oblik); (3) 1–2 sloga: prvi slog (poslednji nikad nije naglašen); (4) predviđanje po završetku (≥3 primera,
 ≥75 % slaganja); (5) podrazumevano: pretposlednji slog (najčešći obrazac). Izvor po reči ide u AUDIT/akcenti/izvori.json.
@@ -41,26 +45,26 @@ suf = collections.defaultdict(collections.Counter)
 for w, v in akc.items():
     op = v['slogova'] - v['od_kraja'] + 1
     for n in (3, 4, 5, 6):
-        if len(w) >= n: suf[(n, w[-n:], v['slogova'])][(op, v['tip'])] += 1
+        if len(w) >= n: suf[(n, w[-n:], v['slogova'])][(op, v['tip'], bool(v.get('iza_dug')))] += 1
 def mesto(w):
     """→ (slog od kraja od kog počinje rima, izvor)"""
     m = w.lower(); vp = vowel_positions(m); ns = len(vp)
     if ns == 0: return 1, 'bez-samoglasnika'
-    op = tip = None; izvor = None
-    if m in akc: v = akc[m]; op, tip, izvor = v['slogova'] - v['od_kraja'] + 1, v['tip'], 'wikt'
+    op = tip = None; izvor = None; dug = False
+    if m in akc: v = akc[m]; op, tip, dug, izvor = v['slogova'] - v['od_kraja'] + 1, v['tip'], bool(v.get('iza_dug')), 'wikt'
     else:
         l = lema.get(w, '').lower()
-        if l in akc and akc[l]['slogova'] - akc[l]['od_kraja'] + 1 <= ns: v = akc[l]; op, tip, izvor = v['slogova'] - v['od_kraja'] + 1, v['tip'], 'lema'
+        if l in akc and akc[l]['slogova'] - akc[l]['od_kraja'] + 1 <= ns: v = akc[l]; op, tip, dug, izvor = v['slogova'] - v['od_kraja'] + 1, v['tip'], bool(v.get('iza_dug')), 'lema'
     if op is None:
         if ns <= 2: op, tip, izvor = 1, '', 'pravilo'
         else:
             for n in (6, 5, 4, 3):
                 c = suf.get((n, m[-n:], ns)) if len(m) >= n else None
                 if c and sum(c.values()) >= 3:
-                    (o, t), k = c.most_common(1)[0]
-                    if k / sum(c.values()) >= 0.75: op, tip, izvor = o, t, 'zavrsetak'; break
+                    (o, t, d), k = c.most_common(1)[0]
+                    if k / sum(c.values()) >= 0.75: op, tip, dug, izvor = o, t, d, 'zavrsetak'; break
     if op is None: op, tip, izvor = max(1, ns - 1), 'uzlazni', 'podrazumevano'
-    start = op + 1 if (tip == 'uzlazni' and ns - op >= 2) else op
+    start = op + 1 if (tip == 'uzlazni' and dug and ns - op >= 2) else op   # AK-1: pomak samo uz DUG slog iza akcenta
     start = max(1, min(start, ns))
     return ns - start + 1, izvor
 stat = collections.Counter(); izvori = {}

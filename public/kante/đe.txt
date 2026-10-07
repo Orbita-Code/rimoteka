@@ -21,7 +21,7 @@ izađe	17968		2
 iziđe	1485		2
 iznađe	438		2
 karađorđe			2
-knjigovođe	332		3
+knjigovođe	332		4
 kolovođe			2
 komađe			2
 krađe	6517		2
@@ -45,7 +45,7 @@ najgrđe	28		3
 najluđe	250		3
 najmlađe	2984		3
 najrađe			2
-najređe	264		2
+najređe	264		3
 najslađe	459		3
 najtvrđe	104		3
 nasleđe	7246		2
@@ -64,7 +64,7 @@ ođe		J	2
 peđe			2
 pobrđe	56		2
 podgrađe			2
-podiđe	48		2
+podiđe	48		3
 pograđe			2
 polugođe			2
 poređe			2
@@ -86,7 +86,7 @@ punđe	187		2
 raziđe	151		2
 razmeđe	34		2
 razvođe	45		2
-računovođe	500		2
+računovođe	500		3
 rađe			2
 ređe	5311		2
 riđe	121		2
@@ -105,7 +105,7 @@ svađe	3727		2
 svetogrđe	168		4
 takođe	285401		2
 tamnosmeđe	76		2
-tromeđe	97		2
+tromeđe	97		3
 tuđe	8045		2
 tvrđe	436		2
 uniđe	12		2
@@ -130,7 +130,7 @@ zlopogleđe			2
 đurđe			2
 žitorađe			2
 medvjeđe			2
-naslijeđe	194		3
-prijeđe	90		2
-rjeđe	164		2
+naslijeđe	194		4
+prijeđe	90		3
+rjeđe	164		3
 sazviježđe	11		2

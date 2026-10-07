@@ -16,7 +16,7 @@ morizo			2
 muzo			2
 nablizo			2
 nabrzo			3
-nakazo	11		2
+nakazo	11		3
 odvezo			2
 orzo			2
 pobrzo		M	2
@@ -28,9 +28,9 @@ rizo			2
 stazo			2
 suzo			2
 torzo	251		2
-trpezo			2
+trpezo			3
 ubrzo	26155		3
 vazo			2
 vezo			2
-železo	86		2
-željezo		J	2
+železo	86		3
+željezo		J	3

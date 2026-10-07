@@ -1,26 +1,26 @@
 613
-Amsterdamu			3
+Amsterdamu			4
 Avramu			2
 Rimu	341		2
 abrazivnomu			5
 adamu			2
 advokatskomu			3
-aerodromu	5386		2
+aerodromu	5386		3
 aforističnomu			2
 aforizmu	46		2
-akronimu	34		2
+akronimu	34		3
 aksiomu	35		2
-aktiviranomu			3
+aktiviranomu			4
 aktivizmu	379		2
 aktivnomu			4
-akustičnomu			3
+akustičnomu			4
 akutnomu			4
 akvarijumu	608		2
 akšamu			2
-alarmiranomu			3
-alarmu	58		2
+alarmiranomu			4
+alarmu	58		3
 albumu	3651		2
-alemu			2
+alemu			3
 algoritmu	188		2
 alkoholizmu	119		2
 altruizmu	31		2
@@ -28,7 +28,7 @@ amalgamu	13		2
 amamu			2
 ambicioznomu			6
 anarhizmu	46		2
-anatemu	129		2
+anatemu	129		3
 aneurizmu	48		2
 animalnomu			5
 anksioznomu			2
@@ -36,15 +36,15 @@ anonimnomu			5
 apelacionomu			2
 aplikativnomu			2
 apsolutnomu			5
-apstraktnomu			3
-arheološkomu			3
+apstraktnomu			4
+arheološkomu			4
 arhitektonskomu			3
-aromatičnomu			3
+aromatičnomu			4
 aromu	854		2
 aseksualnomu			2
-astmatičnomu			3
+astmatičnomu			4
 astmu	1530		2
-astronomu	94		2
+astronomu	94		3
 atavizmu			2
 ateizmu	76		2
 atomu	130		2
@@ -53,37 +53,37 @@ auditorijumu	570		2
 autizmu	107		2
 autobuskomu			2
 autogramu			2
-autohtonomu			3
+autohtonomu			4
 aćimu			2
 ašramu	21		2
-bagremu	50		2
+bagremu	50		3
 bahatomu			4
 bajramu			2
 banalnomu			3
 bandažiranomu			2
 basmu			2
 basnoslovnomu			5
-batinanomu			3
+batinanomu			4
 bebastomu			2
-bedemu	215		2
-beknutomu			3
-beskrupuloznomu			5
-besmrtnomu			3
-besnomu			2
+bedemu	215		3
+beknutomu			4
+beskrupuloznomu			6
+besmrtnomu			4
+besnomu			3
 besramnomu			3
-bezazlenomu			3
-bezubomu			3
+bezazlenomu			4
+bezubomu			4
 bezuslovnomu			2
 bećarskomu			2
 biciklizmu	751		2
-bijesnomu			3
+bijesnomu			4
 bioritmu	31		2
 birmingemu			2
 biseksualnomu			2
 bisernomu			2
 bičevanomu			5
 blamu			2
-blebetanomu			3
+blebetanomu			4
 bledomu			3
 blentavomu			2
 blesavomu			2
@@ -94,7 +94,7 @@ blistavomu			4
 bližnjemu	78		2
 blještavomu			4
 bljutavomu			4
-bodljikavomu			4
+bodljikavomu			5
 boemu	23		2
 bogovskomu			2
 boljemu			3
@@ -105,10 +105,10 @@ braćenomu			2
 brljavomu			2
 brodolomu	81		4
 bromu			2
-brzopletomu			4
+brzopletomu			5
 budimu			2
 budizmu	243		2
-budnomu			2
+budnomu			3
 burmu			2
 carizmu			2
 cezarizmu			2
@@ -117,7 +117,7 @@ cinizmu	139		2
 dadaizmu	19		2
 damu	875		2
 darvinizmu	31		2
-datumu	2147		2
+datumu	2147		3
 defetizmu	37		2
 deizmu			2
 delirijumu	130		2
@@ -176,7 +176,7 @@ fonemu			2
 fonogramu			2
 formalizmu	24		2
 formu	9384		2
-forumu	12210		2
+forumu	12210		3
 futurizmu	21		2
 galamu	530		2
 gemu	2810		2
@@ -185,14 +185,14 @@ globalizmu	121		2
 glumu	1375		2
 gluvonemu			2
 gnomu	10		2
-golemu	201		2
+golemu	201		3
 gradskomu			2
 gramu	156		2
 grmu	366		2
 gromu	31		2
 gumu	907		2
 hamamu			2
-haremu	172		2
+haremu	172		3
 harizmu	507		2
 harlemu			2
 hašimu			2
@@ -220,7 +220,7 @@ intimu	479		2
 iridijumu			2
 islamu	1189		2
 istoricizmu			2
-izumu	145		2
+izumu	145		3
 izuzmu	568		2
 ičemu	102		3
 jagmu			2
@@ -230,7 +230,7 @@ javnomu			2
 jačemu			3
 jedinomu			3
 jednodomu			2
-jednomu	15		2
+jednomu	15		3
 jerusalimu			2
 jeruzalemu			2
 jevremu			2
@@ -242,7 +242,7 @@ jokohamu			2
 judaizmu	88		2
 kaldrmu		M	2
 kalijumu	20		2
-kamenolomu	142		2
+kamenolomu	142		3
 kanibalizmu	57		2
 kapitalizmu	1574		2
 karaburmu			2
@@ -257,7 +257,7 @@ klimakterijumu			2
 klimanomu			2
 klimu	4535		2
 kojemu	2083		2
-koječemu			2
+koječemu			3
 kolegijumu	374		2
 koloseumu	44		2
 komu	684		2
@@ -295,17 +295,17 @@ lomu	64		2
 magmu	28		2
 magnetizmu	35		2
 majordomu			2
-maksimumu	475		3
+maksimumu	475		4
 mamu	2440		2
 manirizmu	14		2
-manjemu			2
-maramu	722		2
+manjemu			3
+maramu	722		3
 marksizmu	199		2
 mazohizmu	58		2
 medijumu	252		2
 mehanizmu	913		2
 melodramu	94		4
-memorandumu	582		2
+memorandumu	582		3
 metabolizmu	445		2
 međuformu			2
 mikrofilmu	16		2
@@ -313,14 +313,14 @@ mikroklimu	139		2
 mikrotalasnomu			2
 milenijumu	595		2
 mimu			2
-minimumu	865		3
+minimumu	865		4
 misticizmu	63		2
 mlađemu			3
 mnogočemu	110		2
 modernizmu	97		2
 monodramu	157		2
 monoteizmu	17		2
-monstrumu	67		2
+monstrumu	67		3
 morfemu			2
 morfijumu			2
 mrsnomu			2
@@ -333,15 +333,15 @@ naboranomu			2
 nacizmu	243		2
 nadrealizmu	75		2
 najboljemu			4
-najmanjemu			3
+najmanjemu			4
 najmlađemu			4
 najmu	148		2
 najslabijemu			5
 najstarijemu			5
-najvećemu			3
+najvećemu			4
 narcizmu	37		2
 natrijumu			2
-naumu	371		2
+naumu	371		3
 nazimu			2
 našemu	117		3
 nemu	116		2
@@ -351,22 +351,22 @@ nesporazumu	228		5
 nečemu	7868		3
 niočemu			2
 ničemu	1801		3
-njegovomu			3
+njegovomu			4
 njemu	100900		2
 normu	1923		2
 notingemu			2
 obamu			2
-obavijenomu			5
-obavljenomu			4
-obimu	5555		2
+obavijenomu			6
+obavljenomu			5
+obimu	5555		3
 obližnjemu			2
 obranomu			2
-obraćenomu			3
+obraćenomu			4
 obuzmu	100		2
-odrađenomu			3
+odrađenomu			4
 oduzmu	1148		2
 okultizmu	29		2
-opijumu	26		3
+opijumu	26		4
 oportunizmu	45		2
 opremu	17367		3
 optimizmu	395		2
@@ -376,7 +376,7 @@ ormu			2
 osamu	206		3
 osmu	551		2
 osnaženomu			2
-osunčanomu			3
+osunčanomu			4
 otmu	1144		2
 otpremu	170		2
 ovomu	64		2
@@ -396,7 +396,7 @@ parfemu	84		2
 parmu			2
 pastrmu			2
 patriotizmu	664		2
-peglanomu			3
+peglanomu			4
 pekamu			2
 pesimizmu	139		2
 pesmu	17935		2
@@ -415,11 +415,11 @@ plazmu	369		2
 plenumu	397		2
 plimu	168		2
 pluralizmu	160		2
-pobratimu	78		3
+pobratimu	78		4
 podformu			2
 podijumu	698		2
 podrimu			2
-podrumu	2461		2
+podrumu	2461		3
 podsistemu	56		2
 podtemu			2
 poemu	317		2
@@ -436,21 +436,21 @@ posnomu			2
 postdamu			2
 potsdamu			2
 praktikumu	28		2
-prašumu	160		2
+prašumu	160		3
 predromantizmu	24		2
 preduzmu	3109		2
-prelomu	268		2
+prelomu	268		3
 premnogomu			2
 preotmu	139		2
 preuzmu	5384		2
 pređemu			2
-prijamu	15		2
-prijemu	5053		2
+prijamu	15		3
+prijemu	5053		3
 pripremu	10637		3
 prizmu	1568		2
 problemu	9501		2
 profesionalizmu	208		2
-programu	33368		2
+programu	33368		3
 prosečnomu			4
 prožmu	25		2
 psalamu			2
@@ -462,11 +462,11 @@ rasizmu	310		2
 raspetomu			2
 razumu	1254		3
 realizmu	242		2
-referendumu	3415		2
+referendumu	3415		3
 reformu	5738		2
 reklamu	3530		2
 rektumu	74		2
-rekvijemu			3
+rekvijemu			4
 remu			2
 reprogramu	284		2
 reumu	110		2
@@ -493,7 +493,7 @@ sedmu	917		2
 selimu			2
 separatizmu	290		2
 serafimu			2
-serumu	467		2
+serumu	467		3
 shematizmu			2
 shemu			2
 silicijumu	27		2
@@ -504,12 +504,12 @@ simu			2
 sindromu	245		2
 sinjemu			3
 sinonimu	27		2
-sintagmu	366		2
+sintagmu	366		3
 sistemu	39977		2
-sjajnijemu			3
+sjajnijemu			4
 skramu	39		2
 slabijemu			4
-slalomu	788		2
+slalomu	788		3
 slamu	864		2
 slavskomu			2
 slomu	237		2
@@ -538,7 +538,7 @@ sumu	5004		2
 svakomu	73		3
 svačemu	830		3
 svemu	13817		2
-tadašnjemu			3
+tadašnjemu			4
 tajnomu			3
 tamu	1239		2
 tandemu	603		2
@@ -549,11 +549,11 @@ telegramu	191		4
 teoremu	117		2
 terorizmu	484		2
 tišmu			2
-tolikomu			3
+tolikomu			4
 tomu	1216		2
 toponimu	35		2
 totemu			2
-traumu	600		2
+traumu	600		3
 tremu	1336		2
 trećemu			3
 tromu	22		2
@@ -563,28 +563,28 @@ turskomu			2
 tuđemu	13		3
 ujdurmu			2
 ulemu	39		2
-ultimatumu	103		2
+ultimatumu	103		3
 uniformu	1298		2
 unitarizmu	19		2
-univerzumu	1017		2
+univerzumu	1017		3
 uranijumu	63		2
 urbanizmu	250		2
 urmu			2
 uzmu	8735		2
-vaganomu			3
-vakumu	197		2
-vakuumu	536		3
+vaganomu			4
+vakumu	197		3
+vakuumu	536		4
 vandalizmu	59		2
 varvarizmu			2
 vazdušnomu			2
 vašemu			3
 velefarmu			2
 velesajmu	79		2
-većemu			2
+većemu			3
 vijetnamu			2
 vitalizmu			2
 višnjemu			2
-volframu			2
+volframu			3
 vučjemu			3
 zaimu			2
 zajmu	556		2
@@ -593,7 +593,7 @@ zavrzlamu	92		2
 zimu	4476		2
 zulumu			2
 zumu	78		2
-ćilimu	111		2
+ćilimu	111		3
 čalmu			2
 čamu			2
 čemu	104266		2
@@ -609,8 +609,8 @@ zumu	78		2
 šovinizmu	105		2
 šumu	4472		2
 žandarmu	22		2
-železničkomu			4
-željezničkomu			4
+železničkomu			5
+željezničkomu			5
 žurnalizmu	38		2
 nijemu	11		3
 pjesmu			2

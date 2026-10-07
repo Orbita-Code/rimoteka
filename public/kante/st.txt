@@ -16,49 +16,49 @@ akvarelist			2
 alarmantnost			2
 alatast		M	2
 alavost	181		3
-alergičnost			2
+alergičnost			3
 aljkavost			3
 alkoholiziranost			2
 alkotest	61		2
 alpinist			2
 ambicioznost	163		2
-ambivalentnost			2
+ambivalentnost			3
 ametist	174		2
 amoralnost	35		2
 anacionalnost			2
-analitičnost			2
+analitičnost			3
 analognost			2
 anapest			2
 anarhist	30		2
-anarhičnost	15		2
-anemičnost	22		2
+anarhičnost	15		3
+anemičnost	22		3
 angažovanost	656		2
 anglist			2
 animalnost			2
 anksioznost	1388		2
 anonimnost	601		2
 antihrist	332		2
-antikrist			2
-antipatičnost			2
+antikrist			3
+antipatičnost			3
 aorist	64		3
-apatičnost		M	2
-apodiktičnost			2
-apolitičnost			2
+apatičnost		M	3
+apodiktičnost			3
+apolitičnost			3
 apriornost			2
 apsolutnost	42		2
-apsurdnost	276		2
+apsurdnost	276		3
 arest	14		2
 arogantnost		M	2
-aromatičnost			2
+aromatičnost			3
 artist	233		2
 aseksualnost			2
 asertivnost			2
-asimetričnost			2
+asimetričnost			3
 ateist	131		2
 atest	974		2
 atraktivnost	719		2
 august			2
-autentičnost	1625		2
+autentičnost	1625		3
 autohtonost			2
 autokefalnost			2
 autonomnost	300		2
@@ -70,18 +70,18 @@ azbest	206		2
 ažurnost	405		2
 baburast		M	2
 bademast			2
-bahatost	1521		2
-bajatost			2
+bahatost	1521		3
+bajatost			3
 bakrenast			2
 balast	545		2
 balavost			3
 banalnost	253		2
-bandoglavost		M	2
+bandoglavost		M	3
 baptist	13		2
-baršunast	50		2
+baršunast	50		3
 basist	19		2
 batist	52		2
-bazičnost			2
+bazičnost			3
 bačvast			2
 bebast			2
 bedast			2
@@ -98,64 +98,64 @@ beskarakternost			2
 besklasnost			2
 beskompromisnost			2
 beskonačnost	469		4
-beskorisnost	24		3
+beskorisnost	24		4
 beskrajnost	69		3
 beskrupuloznost	99		2
-besmislenost	341		3
+besmislenost	341		4
 besmrtnost	835		2
 besomučnost			2
 besperspektivnost			2
 besplatnost			2
 besplodnost			2
 bespomoćnost	177		4
-besposlenost			3
+besposlenost			4
 bespravnost			2
 bespredmetnost			2
 besprekornost			2
 besprimernost		M	2
 besramnost	25		3
 bestidnost	62		2
-besvesnost			2
+besvesnost			3
 besvest			2
-bezazlenost	60		2
-bezbednost	28896		2
+bezazlenost	60		3
+bezbednost	28896		3
 bezbojnost			3
 bezbolnost	18		2
-bezbožnost	50		2
+bezbožnost	50		3
 bezbračnost		M	2
-bezbrižnost	219		2
-bezdetnost		M	2
-bezdušnost	72		2
-bezglavost			2
+bezbrižnost	219		3
+bezdetnost		M	3
+bezdušnost	72		3
+bezglavost			3
 bezgraničnost			4
 bezgrešnost	52		2
-bezimenost			3
+bezimenost			4
 bezizglednost	11		2
 bezizlaznost	51		4
 beziznimnost			2
-bezličnost	57		2
+bezličnost	57		3
 bezmernost			2
 beznadežnost	61		2
-beznadnost			2
+beznadnost			3
 beznačajnost	58		2
-bezobličnost	12		2
-bezobraznost	14		2
+bezobličnost	12		3
+bezobraznost	14		3
 bezobzirnost	231		2
 bezopasnost			4
 bezosećajnost	105		2
 bezočnost	63		2
-bezrazložnost			2
+bezrazložnost			3
 bezubost			2
 bezukusnost		M	2
 bezumnost	10		2
 bezuslovnost			2
-bezuspešnost			2
+bezuspešnost			3
 bezvodnost			2
 bezvoljnost	188		2
-bezvrednost	30		2
-bezvremenost			3
+bezvrednost	30		3
+bezvremenost			4
 bezvučnost			2
-bešćutnost			2
+bešćutnost			3
 beživotnost			2
 biciklist	16		2
 bigamist			2
@@ -163,17 +163,17 @@ biseksualnost	36		2
 bitnost	188		2
 bizarnost	99		2
 blagodarnost		M	2
-blagoglagoljivost			2
-blagonaklonost	290		2
-blagorečivost			2
+blagoglagoljivost			3
+blagonaklonost	290		3
+blagorečivost			3
 blagorodnost		M	2
 blagost	417		2
 blagovest	196		3
-blagovremenost		M	3
+blagovremenost		M	2
 blagozvučnost			2
 blaziranost			2
 blaženost	13		2
-blebetavost			2
+blebetavost			3
 blesast		M	2
 blesavost			3
 bleštavost			3
@@ -183,42 +183,42 @@ bljutavost			3
 bludnost			2
 bobičast			2
 bodljikast		M	2
-bodljikavost			2
+bodljikavost			3
 bodrost	42		2
 bogaljast		M	2
-bogobojažljivost		M	2
+bogobojažljivost		M	3
 bogolikost			2
 bogougodnost		M	2
 bojaznost	40		3
-bojažljivost	33		2
+bojažljivost	33		3
 bojenost			2
 bokast		M	2
 bokorast		M	2
 bolest	23100		2
-bolećivost	49		2
-bolešljivost		M	2
+bolećivost	49		3
+bolešljivost		M	3
 bombast			2
-bombastičnost			2
+bombastičnost			3
 borbenost	908		3
 bornost			2
-božanstvenost	34		3
+božanstvenost	34		2
 bradavičast			2
 brazdast			2
 bračnost			2
 brašnast			2
 brbljavost			3
-brbljivost	19		2
-brdovitost			2
+brbljivost	19		3
+brdovitost			3
 bregast			2
-bremenitost			2
+bremenitost			3
 breskvast		M	2
 brest	315		1
 brežuljkast	15		2
 briljantnost	30		2
 britkost	52		2
-brižljivost		M	2
+brižljivost		M	3
 brižnost	104		2
-brljivost		M	2
+brljivost		M	3
 brojnost	1406		2
 brojčanost			2
 broćast		M	2
@@ -241,30 +241,30 @@ buđavost		M	3
 celishodnost			2
 celokupnost	102		2
 celost	16		2
-celovitost	1180		2
+celovitost	1180		3
 cevast			2
 cifrast		M	2
 ciglast			2
-cikličnost			2
+cikličnost			3
 ciljnost		M	2
-ciničnost			2
+ciničnost			3
 citiranost	102		2
-civilizovanost	50		3
+civilizovanost	50		2
 crkvenost	50		2
 crnkast			2
-crnomanjast	45		3
+crnomanjast	45		4
 crnpurast			2
-crvenkast	49		2
-crvljivost			2
+crvenkast	49		3
+crvljivost			3
 cvast	96		1
-dalekosežnost	45		2
+dalekosežnost	45		3
 dalekovidost	158		2
 daltonist			2
 damast	53		2
 današnjost	13		2
 danost		M	2
-darežljivost	129		2
-darovitost	193		2
+darežljivost	129		3
+darovitost	193		3
 datost	198		2
 debeljuškast	25		2
 debilnost	11		2
@@ -274,80 +274,80 @@ deformisanost		M	2
 dekorativnost			2
 delatnost	17254		2
 delikatnost	149		4
-delimičnost		M	2
-deljivost		M	2
+delimičnost		M	3
+deljivost		M	3
 delotvornost	734		2
-demokratičnost	290		2
+demokratičnost	290		3
 depresivnost			2
 deprimiranost			2
 derutnost			2
 deskriptivnost			2
 destruktivnost			2
 detaljnost	133		2
-detinjast	104		2
-devetnaest	892		2
-dežmekast		M	2
-didaktičnost			2
-diferenciranost	23		3
+detinjast	104		3
+devetnaest	892		3
+dežmekast		M	3
+didaktičnost			3
+diferenciranost	23		2
 difuznost			2
-dinamičnost	432		2
+dinamičnost	432		3
 dinast			2
 direktnost	68		2
-dirljivost	10		2
+dirljivost	10		3
 dirnutost			2
-disharmoničnost		M	2
-diskretnost	41		2
+disharmoničnost		M	3
+diskretnost	41		3
 divljačnost		M	2
 dičnost		M	2
 dlakavost	64		3
 dobrodušnost	44		2
 dobronamernost	288		2
-dobrostivost			2
+dobrostivost			3
 dobrotvornost			2
 dobroćudnost	18		2
-dogmatičnost			2
+dogmatičnost			3
 dokazanost		M	2
-dokazivost			2
-dokučivost			2
-doličnost			2
+dokazivost			3
+dokučivost			3
+doličnost			3
 dominantnost			2
-domišljatost	123		3
-dopadljivost	71		2
+domišljatost	123		4
+dopadljivost	71		3
 dopast			2
 dopust	64		2
-dopustivost			2
-dopuštenost	61		3
+dopustivost			3
+dopuštenost	61		2
 doraslost			2
 doratast			2
 dorečenost			3
-dosetljivost	41		2
-doslednost	1184		2
-dosljednost		J	2
+dosetljivost	41		3
+doslednost	1184		3
+dosljednost		J	3
 doslovnost	19		2
 dospelost	49		2
-dostojanstvenost	48		3
+dostojanstvenost	48		2
 dostojnost	177		2
-dostupnost	4230		2
+dostupnost	4230		3
 doteranost		M	2
 dotrajalost	73		2
-dovitljivost	103		2
+dovitljivost	103		3
 dovoljnost	26		2
-dovršenost	22		3
+dovršenost	22		2
 dozrelost		M	2
-doživljenost		M	3
-dragocenost	428		2
+doživljenost		M	2
+dragocenost	428		3
 dragost	11		2
 dragovoljnost			2
-dramatičnost	169		2
+dramatičnost	169		3
 dražesnost			2
 dražest			2
-dremljivost		M	2
+dremljivost		M	3
 drevnost	72		2
 drečavost			3
 drskost	811		2
 drugost	128		2
 društvenost			2
-druželjubivost			2
+druželjubivost			3
 drvenast			3
 drčnost			2
 državnost	1139		2
@@ -356,41 +356,41 @@ dubokoumnost			2
 dugotrajnost	543		2
 dugovečnost	839		2
 duguljast	35		2
-duhovitost	526		2
+duhovitost	526		3
 duhovnost	1287		2
 durašnost		M	2
-durljivost		M	2
-durnovitost		M	2
+durljivost		M	3
+durnovitost		M	3
 duševnost	58		2
 dužnost	11475		2
 dvadest			2
-dvanaest	7880		2
+dvanaest	7880		3
 dvobračnost			2
 dvogubost			2
 dvojnost	126		2
-dvoličnost	273		2
-dvosmislenost	143		3
-dvostepenost	59		3
+dvoličnost	273		3
+dvosmislenost	143		4
+dvostepenost	59		2
 dvostrukost	79		2
 dvoznačnost			2
-džangrizavost			2
+džangrizavost			3
 džigljast		M	2
 džombast			2
 east			2
 efektivnost	556		2
-efektnost	57		2
+efektnost	57		3
 efemernost	23		2
 efikasnost	12931		4
-egocentričnost	70		2
+egocentričnost	70		3
 egoist	18		2
-egoističnost			2
+egoističnost			3
 egzaktnost	38		2
 egzaltiranost	20		2
 egzorcist	18		2
-egzotičnost			2
+egzotičnost			3
 ekonomist	921		2
-ekonomičnost	940		2
-ekscentričnost	92		2
+ekonomičnost	940		3
+ekscentričnost	92		3
 ekskluzivnost	330		2
 ekspanzivnost	18		2
 ekspeditivnost	62		2
@@ -399,35 +399,35 @@ eksplozivnost	112		2
 eksponiranost			2
 ekspresionist			2
 ekspresivnost	110		2
-ekstatičnost			2
+ekstatičnost			3
 eksteritorijalnost	38		2
 ekstravagantnost	11		2
 ekstremnost			2
-elastičnost	1448		2
-elegičnost			2
-električnost			2
+elastičnost	1448		3
+elegičnost			3
+električnost			3
 elementarnost			2
 elipsast			2
-eliptičnost			2
+eliptičnost			3
 elitnost			2
 elokventnost	45		2
 eminentnost			2
 emocionalnost	92		2
 emotivnost	186		2
 enciklopedist	11		2
-endemičnost			2
-energičnost	188		2
+endemičnost			3
+energičnost	188		3
 entuzijast	24		2
-epizodičnost			2
+epizodičnost			3
 ernest			2
 ernst			1
-erotičnost	52		2
+erotičnost	52		3
 eruptivnost			2
 esejist	76		2
 est	537		1
-eteričnost			2
-etičnost	147		2
-etničnost			2
+eteričnost			3
+etičnost	147		3
+etničnost			3
 evangelist	34		2
 evanđelist	132		2
 eventualnost			2
@@ -435,9 +435,9 @@ everest			2
 evidentnost			2
 fakultativnost			2
 familijarnost	43		2
-fanatičnost			2
-fantastičnost			2
-farsičnost			2
+fanatičnost			3
+fantastičnost			3
+farsičnost			3
 fasciniranost	98		2
 fatalnost	39		2
 faust			2
@@ -447,38 +447,38 @@ fest	2810		1
 fetišist			2
 figurativnost	10		2
 filatelist			2
-filmičnost			2
+filmičnost			3
 finalist	11		2
 flagrantnost			2
 fleksibilnost	3752		2
 fluidnost			2
-fobičnost			2
+fobičnost			3
 folklorist	17		2
 formalnost	610		2
-fotogeničnost			2
-frenetičnost			2
+fotogeničnost			3
+frenetičnost			3
 frigidnost	55		2
 frivolnost			2
 frustriranost			2
 funkcionalnost	3990		2
-gadljivost	48		2
+gadljivost	48		3
 gadost	156		2
-ganutljivost		M	2
+ganutljivost		M	3
 ganutost	15		2
 garavost			3
 gaćast			2
 genijalnost	492		2
 germanist			2
 gest	3563		1
-gibljivost			2
+gibljivost			3
 gimnazist			2
 gipkost	234		2
 gitarist	65		2
 gizdavost			3
 gladkost			2
-glagoljivost		M	2
+glagoljivost		M	3
 glasnost	74		2
-glasovitost			2
+glasovitost			3
 glatkost		M	2
 glavičast			2
 gledanost	1268		2
@@ -487,56 +487,56 @@ glomaznost			3
 glupavost	10		3
 glupost	7752		2
 gluvost			2
-gnevljivost		M	2
+gnevljivost		M	3
 gnjecavost			3
 gnjilost		M	2
 gnusnost		M	2
 gojaznost	2332		3
 golemost			2
-golicavost			2
-golišavost			2
+golicavost			3
+golišavost			3
 golobradast			2
 golobradost			2
 golubast		M	2
 gomilast			2
 gordost	804		2
-gorivost			2
+gorivost			3
 gorkost			2
-gorljivost	19		2
+gorljivost	19		3
 goropadnost			2
-gospodstvenost		M	3
+gospodstvenost		M	2
 gost	12017		1
-gostoljubivost	291		2
-gostoprimljivost			2
+gostoljubivost	291		3
+gostoprimljivost			3
 gotovost	220		2
-govorljivost	14		2
-grabežljivost	19		2
-grabljivost		M	2
+govorljivost	14		3
+grabežljivost	19		3
+grabljivost		M	3
 gracilnost			2
 gracioznost	142		2
 grahorast		M	2
-gramzivost	290		2
+gramzivost	290		3
 grandioznost	71		2
 grbast		M	2
 grbavost			3
 grešnost	63		2
-grlatost			2
+grlatost			3
 grotesknost			2
 grozdast			2
-grozničavost	13		2
+grozničavost	13		3
 grubost	241		2
 grudast			2
-grčevitost			2
+grčevitost			3
 gubavost			3
 gumast			2
 gust	986		1
 gušavost	27		3
-halapljivost		M	2
+halapljivost		M	3
 halucinantnost			2
-haotičnost	73		2
-harmoničnost	52		2
+haotičnost	73		3
+harmoničnost	52		3
 hefest			2
-hermetičnost			2
+hermetičnost			3
 herst			1
 heterogenost			2
 heteroseksualnost	129		2
@@ -544,9 +544,9 @@ hiperaktivnost	278		2
 hiperproduktivnost			2
 hipersenzibilnost			2
 hipertekst	91		2
-hipotetičnost			2
-hirovitost	34		2
-histeričnost			2
+hipotetičnost			3
+hirovitost	34		3
+histeričnost			3
 hitnost	442		2
 hitrost	22		2
 hladetinast			2
@@ -557,8 +557,8 @@ homogenost	247		4
 homoseksualnost	1574		2
 horizontalnost			2
 hrabrost	6725		2
-hranjivost			2
-hranljivost	50		2
+hranjivost			3
+hranljivost	50		3
 hrapavost	55		3
 hrast	1738		1
 hridinast			2
@@ -569,15 +569,15 @@ hudost			2
 humanist	35		2
 humanost	1744		3
 humornost			2
-hvalisavost	29		2
+hvalisavost	29		3
 idealist	39		2
 idejnost			2
-identičnost	119		2
-idiličnost			2
+identičnost	119		3
+idiličnost			3
 iglast		M	2
 igličast			2
 ilegalnost	19		2
-ilovast			2
+ilovast			3
 iluzionist	13		2
 iluzornost			2
 imbecilnost	22		2
@@ -608,83 +608,83 @@ invalidnost	284		2
 inventivnost	298		2
 invest			2
 iracionalnost			2
-ironičnost		M	2
-iscrpenost		M	3
-iscrpljenost	514		3
+ironičnost		M	3
+iscrpenost		M	2
+iscrpljenost	514		2
 iscrpnost	24		2
 iskidanost			2
-isključivost	449		2
-iskonstruisanost			3
-iskorišćenost	626		3
+isključivost	449		3
+iskonstruisanost			2
+iskorišćenost	626		2
 iskrenost	2480		3
-iskrivljenost	37		3
-iskričavost			2
+iskrivljenost	37		2
+iskričavost			3
 iskusnost			2
-iskvarenost	35		3
+iskvarenost	35		4
 ispast			2
-ispovest	1599		2
+ispovest	1599		3
 ispravnost	3035		2
 ispraznost	115		3
-ispražnjenost	25		3
+ispražnjenost	25		2
 isprekidanost			2
 isprepletanost			2
 ispucalost			2
-ispunjenost	577		3
+ispunjenost	577		2
 ispust	144		2
 ist			1
-istaknutost			3
+istaknutost			4
 istančanost	41		2
-istinitost	1521		2
-istinoljubivost	86		2
-istoričnost	81		2
+istinitost	1521		3
+istinoljubivost	86		3
+istoričnost	81		3
 istorodnost			4
-istovetnost	266		2
-istovremenost	54		3
+istovetnost	266		3
+istovremenost	54		4
 istrajnost	1148		2
-istrošenost	89		3
-isušenost			3
+istrošenost	89		2
+isušenost			2
 iverast			2
 izabranost			2
-izbezumljenost			3
-izbirljivost			2
+izbezumljenost			2
+izbirljivost			3
 izbornost			2
 izdašnost	148		2
-izdržljivost	2044		2
-izdvojenost	61		3
+izdržljivost	2044		3
+izdvojenost	61		2
 izgladnelost			2
-izgrađenost			3
-izgubljenost			3
+izgrađenost			2
+izgubljenost			2
 izlaznost	1395		3
 izlizanost			2
 izlišnost		M	2
-izloženost	1475		3
-izmenjenost			3
+izloženost	1475		2
+izmenjenost			2
 izmešanost		M	2
-izmoždenost			3
+izmoždenost			2
 izmučenost			3
 iznemoglost	44		2
 iznenadnost	14		2
 iznenađenost	27		3
-iznurenost	30		3
-izobličenost			3
+iznurenost	30		4
+izobličenost			2
 izolovanost	255		2
-izopačenost	151		3
+izopačenost	151		2
 izrast			2
-izrazitost	15		2
-izrađenost			3
-izraženost			3
-izričitost			2
+izrazitost	15		3
+izrađenost			2
+izraženost			2
+izričitost			3
 izuzetnost	642		2
 izvanrednost	18		4
 izvesnost	666		2
 izvest			2
-izveštačenost	58		3
+izveštačenost	58		2
 izvežbanost			2
-izvodljivost	191		2
+izvodljivost	191		3
 izvornost	107		2
 izvrsnost	467		2
 izvršnost	32		2
-iščašenost		M	3
+iščašenost		M	2
 jabučast			3
 jagodast			2
 jajast	15		2
@@ -694,45 +694,45 @@ jarost			1
 jasnost	158		2
 javljenost			2
 javnost	38816		2
-jedanaest	4254		2
-jedinstvenost	700		3
+jedanaest	4254		3
+jedinstvenost	700		2
 jednakopravnost	51		2
 jednakost	2750		2
 jednodušnost	50		4
-jednoglasnost	87		2
+jednoglasnost	87		3
 jednolikost	18		2
 jednolist		M	2
-jednoličnost	98		2
+jednoličnost	98		3
 jednoobraznost		M	2
 jednostavnost	2214		2
-jednostranost	189		2
-jednovremenost		M	3
+jednostranost	189		3
+jednovremenost		M	2
 jedrost		M	2
 jest	18371		1
 jetkost		M	2
-jezgrovitost	23		2
-jezivost	14		2
+jezgrovitost	23		3
+jezivost	14		3
 jezičast			2
-jezičavost			2
+jezičavost			3
 ješnost		M	2
-jogunast	14		2
+jogunast	14		3
 jorgovanast			2
 jost			1
 jurist			2
 kabalist			2
 kabast		M	2
 kalist			2
-kaloričnost			2
+kaloričnost			3
 kamenast			2
 kapilarnost			2
 kapitalist	23		2
 karst		M	1
 kasnost			2
-kategoričnost			2
+kategoričnost			3
 kauzalnost	41		2
 kašast	16		2
-kažiprst	560		2
-kažnjivost	30		2
+kažiprst	560		3
+kažnjivost	30		3
 kestenast		M	2
 kestenjast			3
 kilavost			3
@@ -745,43 +745,43 @@ kićenost			2
 kičast			2
 klajst			1
 klasast		M	2
-klasičnost			2
+klasičnost			3
 klijavost	173		3
 klimavost			3
 klinast	12		2
 klizavost	11		3
 kljast			1
 kljunast			2
-klonulost	45		2
+klonulost	45		3
 klupčast		M	2
 knjiženost			2
 književnost	11156		3
 kobasičast			2
 kockast	43		2
 koherentnost	191		2
-koketnost			2
-kolebljivost	100		2
+koketnost			3
+kolebljivost	100		3
 kolegijalnost	115		2
 kolektivnost			2
 kolomast			2
 kolonist			2
 kolorist			2
 kolutast			2
-komičnost	33		2
+komičnost	33		3
 komotnost		M	2
 kompaktnost		M	2
 kompatibilnost	1246		2
 kompetentnost			2
-kompleksnost		M	2
+kompleksnost		M	3
 komplikovanost	64		2
 kompost	370		2
 komunist	149		2
-konačnost	86		2
+konačnost	86		3
 koncentrisanost			2
 konciznost	34		2
 konformist			2
 konfuznost		M	2
-konkretnost	98		2
+konkretnost	98		3
 konkurentnost	3619		2
 konspirativnost			2
 konstantnost			2
@@ -802,35 +802,35 @@ korast		M	2
 korektnost	561		2
 korisnost	616		3
 korist	33791		2
-koristoljubivost			2
+koristoljubivost			3
 koritast			2
 korpulentnost			2
 korumpiranost	228		2
-kosmatost		M	2
+kosmatost		M	3
 kost	2761		1
 koturast			2
-kovrdžast			2
-kovrčast			2
+kovrdžast			3
+kovrčast			3
 kočopernost		M	2
-koštunjavost			2
-koščatost			2
+koštunjavost			3
+koščatost			3
 kožast			2
-kradljivost		M	2
+kradljivost		M	3
 krajnost	996		2
 krastavost	37		3
 kratkotrajnost	28		2
 kratkovečnost			2
-kratkovidost	240		2
+kratkovidost	240		3
 kreativnost	6351		2
 kremast	78		2
 krepkost	26		2
 krepost	98		2
-kretenast		M	2
-krezubost		M	2
+kretenast		M	3
+krezubost		M	3
 krhkost	138		2
 kriminalist			2
 krist			1
-kritičnost	230		2
+kritičnost	230		3
 krivenost			2
 krivoust			2
 krivuljast		M	2
@@ -845,7 +845,7 @@ krutost	291		2
 kruškast			2
 krvoločnost			2
 krvožednost		M	4
-krševitost			2
+krševitost			3
 kržljavost			3
 kudeljast			2
 kuglast			2
@@ -854,7 +854,7 @@ kunst		M	1
 kupast	23		2
 kupolast			2
 kurentnost			2
-kvalifikovanost	70		3
+kvalifikovanost	70		2
 kvarnost		M	2
 kvrgast			2
 labavost	33		3
@@ -862,7 +862,7 @@ labilnost	40		2
 laganost			2
 lagodnost	83		3
 lahorast			2
-lakomislenost	138		3
+lakomislenost	138		4
 lakomost	44		2
 lakost			2
 lakoumnost	15		2
@@ -874,20 +874,20 @@ lascivnost			2
 laskavost			3
 last		M	1
 latentnost	19		2
-lažljivost	38		2
+lažljivost	38		3
 lažnost	82		2
 legalnost	425		2
 legendarnost			2
 legitimnost	677		2
-lekovitost	475		2
+lekovitost	475		3
 lenjost	969		2
 lenost	41		2
-lepezast	17		2
-lepljivost	48		2
-lepršavost	72		2
+lepezast	17		3
+lepljivost	48		3
+lepršavost	72		3
 leptirast			2
 lepuškast	27		2
-letimičnost			2
+letimičnost			3
 leukoplast			2
 levkast			2
 ležernost	152		2
@@ -900,7 +900,7 @@ limunast			2
 linearnost	105		2
 lingvist	44		2
 lipolist			2
-liričnost		M	2
+liričnost		M	3
 list	28251		1
 listast		M	2
 ličnost	15210		2
@@ -908,20 +908,20 @@ lišenost	31		2
 ljigavost			3
 ljubaznost	1040		3
 ljubičast	48		3
-ljubopitljivost	49		2
+ljubopitljivost	49		3
 ljudskost	674		2
 ljupkost	80		2
 ljuskast			2
-ljutitost			2
+ljutitost			3
 ljutost	17		2
 lobist	13		2
 lociranost	11		2
-logičnost	84		2
+logičnost	84		3
 lojalnost	1626		2
 lokalnost	16		2
-lomljivost	25		2
+lomljivost	25		3
 lomnost		M	2
-lopatast		M	2
+lopatast		M	3
 loptast			2
 lozast			2
 lucidnost	210		2
@@ -929,11 +929,11 @@ luckast	44		2
 ludost	1067		2
 lukavost	151		3
 luksuznost			2
-magičnost	40		2
+magičnost	40		3
 maglast			2
-magličast			2
-maglovitost			2
-mahnitost	26		2
+magličast			3
+maglovitost			3
+mahnitost	26		3
 mahunast			2
 malaksalost	611		2
 malenkost	1044		2
@@ -949,42 +949,42 @@ manjkavost	374		3
 manuelnost			2
 markantnost			2
 marksist			2
-marljivost	259		2
+marljivost	259		3
 masivnost	35		2
-maslinast			2
+maslinast			3
 masovnost	453		2
 mast	2393		1
 materijalnost		M	2
 mazohist			2
 mačkast			2
 mašinist			2
-maštovitost	429		2
+maštovitost	429		3
 mehurast			2
 mekost			2
 mekušast			2
-melodičnost	46		2
+melodičnost	46		3
 mentalist			2
-mesnatost			2
+mesnatost			3
 mesopust			2
-metiljavost			2
+metiljavost			3
 metodist			2
-metodičnost			2
+metodičnost			3
 međuzavisnost			2
-mešovitost		M	2
+mešovitost		M	3
 milogost			2
 milosrdnost	15		4
 milost	3980		2
-milostivost	29		2
+milostivost	29		3
 milozvučnost			2
 mirenost			2
-miroljubivost	45		2
+miroljubivost	45		3
 mirotvornost			2
 misaonost	61		2
 mist			1
 misterioznost	39		2
-mističnost	88		2
+mističnost	88		3
 mizernost			2
-mišićavost	10		2
+mišićavost	10		3
 mladost	7735		2
 mlakost	27		2
 mlečnost	134		2
@@ -1020,146 +1020,146 @@ mrzost	62		2
 mršavost	103		3
 mucavost			3
 mudrost	4922		2
-munjevitost			2
+munjevitost			3
 mutavost		M	3
 muzikalnost	129		2
 mučnost			2
-mušičavost			3
+mušičavost			4
 muškobanjast			2
 muškost	413		2
 muževnost	127		2
 nabacanost			2
-nabijenost			3
+nabijenost			2
 nabreklost			2
 nabuhlost			2
-nabusitost		M	2
+nabusitost		M	3
 nacionalnost	1183		2
 nacist	12		2
-nadahnutost			3
-nadarenost	114		3
-nadležnost	6798		2
+nadahnutost			2
+nadarenost	114		4
+nadležnost	6798		3
 nadmenost	184		2
 nadmoćnost	172		2
 nadnaravnost			2
-nadraženost			3
-nadređenost	23		3
+nadraženost			2
+nadređenost	23		2
 nadutost	444		2
-naduvenost	55		2
-naglašenost			3
+naduvenost	55		3
+naglašenost			2
 naglost	31		2
 nagluvost	92		2
 nagnutost	25		2
 nagost	57		2
 nagovest		M	3
-nagrđenost			3
+nagrđenost			2
 naivnost	654		2
 naizust	110		2
 nakaradnost	28		2
 nakaznost	56		3
-nakićenost			3
-naklonjenost	87		3
-naklonost	2287		2
-nametljivost	36		2
-namrgođenost			3
-namrštenost			3
+nakićenost			2
+naklonjenost	87		2
+naklonost	2287		3
+nametljivost	36		3
+namrgođenost			2
+namrštenost			2
 namćorast		M	2
-naočitost			2
-napaljenost			3
+naočitost			3
+napaljenost			2
 napast	365		2
-napaćenost			3
+napaćenost			2
 napetost	3067		2
 naporednost		M	4
 napornost			2
-naprasitost		M	2
+naprasitost		M	3
 naprasnost		M	2
-naprednost			2
-napregnutost	39		3
+naprednost			3
+napregnutost	39		2
 naprslost			2
-napućenost			3
-napuštenost			3
+napućenost			2
+napuštenost			2
 narandžast	61		2
 narast			2
 narativnost	32		2
 narcisoidnost	97		2
-narodnost	430		2
-naseljenost	100		3
+narodnost	430		3
+naseljenost	100		2
 nasilnost	54		2
-nasićenost		M	3
-naslednost	49		2
-nasrtljivost	16		2
-nastanjenost			3
-nastranost	100		2
-nastrojenost	39		3
-nasumičnost			2
+nasićenost		M	2
+naslednost	49		3
+nasrtljivost	16		3
+nastanjenost			2
+nastranost	100		3
+nastrojenost	39		2
+nasumičnost			3
 nasušnost			2
-natmurenost		M	3
+natmurenost		M	4
 naturalist			2
 naučnost		M	2
 navest			2
-nazadnost		M	2
+nazadnost		M	3
 nazalnost			2
 načelnost		M	2
 načitanost	32		2
 nažalost	48201		3
 neadekvatnost			2
 neaktivnost	529		2
-neangažovanost			3
+neangažovanost			2
 neažurnost	130		2
 nebitnost			3
 neblagorodnost			2
-neborbenost	17		3
-nebrižljivost		M	2
+neborbenost	17		2
+nebrižljivost		M	3
 nebudnost			2
 nedarovitost			2
-nedeljivost	58		2
+nedeljivost	58		3
 nedobronamernost			2
-nedodirljivost			2
+nedodirljivost			3
 nedokazanost			2
-nedokučivost			2
-nedoličnost			2
-nedopustivost			2
-nedopuštenost			3
+nedokučivost			3
+nedoličnost			3
+nedopustivost			3
+nedopuštenost			2
 nedoraslost	63		2
-nedorečenost			3
+nedorečenost			2
 nedoslednost	503		4
 nedostižnost	13		2
 nedostojnost	66		2
 nedostupnost			2
 nedozrelost	17		2
-nedruželjubivost			2
+nedruželjubivost			3
 neduhovitost			2
 nedužnost	15		3
-nedvosmislenost			3
+nedvosmislenost			2
 neefikasnost	628		2
-neelastičnost	18		2
+neelastičnost	18		3
 negativnost	206		2
-negostoljubivost			2
+negostoljubivost			3
 negovanost			2
 nehajnost			2
 nehumanost	56		4
 neiscrpnost			2
-neishranjenost			3
-neiskrenost	236		3
-neiskvarenost	15		3
+neishranjenost			2
+neiskrenost	236		4
+neiskvarenost	15		4
 neispavanost			2
 neispravnost	467		2
 neistinitost	59		2
 neistrajnost			2
 neizbežnost	155		2
-neizdrživost			2
-neizdržljivost		M	2
-neizvedivost			2
+neizdrživost			3
+neizdržljivost		M	3
+neizvedivost			3
 neizvesnost	2880		4
 neizveštačenost			2
 neizvežbanost		M	2
-neiživljenost			3
+neiživljenost			2
 nejakost			2
-nejasnost	48		2
+nejasnost	48		3
 nejednakost	758		2
 nekompetentnost			2
 nekorektnost			2
 nekorisnost			4
-nekritičnost			2
+nekritičnost			3
 nekrst		M	2
 nekst			1
 nekvalifikovanost		M	2
@@ -1168,9 +1168,9 @@ nelegalnost	55		2
 nelikvidnost			2
 neljubaznost	143		2
 neljudskost	35		2
-nelogičnost	409		2
+nelogičnost	409		3
 nelojalnost	70		2
-nemarljivost			2
+nemarljivost			3
 nemarnost	252		2
 nemilosrdnost	55		2
 nemilost	1293		2
@@ -1181,103 +1181,103 @@ nemost		M	2
 nemoćnost			2
 nemudrost			2
 nemuštost		M	2
-nenadarenost			3
+nenadarenost			4
 nenadležnost	20		2
-nenadoknadivost			2
-nenaklonjenost			3
+nenadoknadivost			3
+nenaklonjenost			2
 nenaklonost	19		2
-nenametljivost	33		2
-nenaseljenost			3
-nenasitost		M	2
+nenametljivost	33		3
+nenaseljenost			2
+nenasitost		M	3
 nenaučnost			2
 nenormalnost	42		2
 neobaveznost		M	2
 neobaveštenost	216		2
-neobazrivost			2
-neobdarenost			3
-neobičnost	231		2
-neobjašnjivost			2
+neobazrivost			3
+neobdarenost			4
+neobičnost	231		3
+neobjašnjivost			3
 neobjektivnost	113		2
-neoborivost			2
-neobrazovanost	165		3
+neoborivost			3
+neobrazovanost	165		2
 neobuzdanost	39		2
-neobučenost			3
+neobučenost			2
 neodgovornost	1033		2
 neodložnost			2
 neodlučnost	400		2
-neodoljivost	51		2
-neodređenost	173		3
-neodrživost			2
+neodoljivost	51		3
+neodređenost	173		2
+neodrživost			3
 neograničenost	27		2
 neophodnost	3713		2
-neopisivost			2
+neopisivost			3
 neopravdanost			2
 neopredeljenost			2
 neopreznost	109		2
-neosetljivost	171		2
+neosetljivost	171		3
 neosnovanost	74		2
 neospornost			2
 neotesanost	11		2
 neotpornost	20		2
-neotuđivost			2
+neotuđivost			3
 neozbiljnost	373		2
-neočekivanost	31		3
-nepažljivost			2
-nepismenost	459		3
-neplodnost	440		2
-nepobedivost			2
+neočekivanost	31		2
+nepažljivost			3
+nepismenost	459		4
+neplodnost	440		3
+nepobedivost			3
 nepobitnost			2
 nepodesnost			2
-nepodmitljivost			2
-nepodnošljivost	68		2
+nepodmitljivost			3
+nepodnošljivost	68		3
 nepodobnost	36		2
 nepodudarnost			2
 nepogodnost	12		2
-nepogrešivost	129		2
-nepojmljivost			2
-nepokolebljivost	110		2
+nepogrešivost	129		3
+nepojmljivost			3
+nepokolebljivost	110		3
 nepokornost	38		2
-nepokretljivost		M	2
+nepokretljivost		M	3
 nepokretnost	1220		2
-nepokvarenost		M	3
-nepomirljivost	48		2
-nepomičnost	30		2
-nepomućenost			3
-nepopravljivost			2
-nepopustljivost	83		2
+nepokvarenost		M	4
+nepomirljivost	48		3
+nepomičnost	30		3
+nepomućenost			2
+nepopravljivost			3
+nepopustljivost	83		3
 neporočnost	24		2
 neposlušnost	657		2
 neposrednost	317		4
 nepostojanost	63		2
-nepotkupljivost	22		2
+nepotkupljivost	22		3
 nepotpunost	68		2
 nepotrebnost	33		2
 nepouzdanost	91		5
-nepoverljivost	46		2
+nepoverljivost	46		3
 nepovoljnost	46		2
 nepovratnost			2
-nepovredivost	249		2
+nepovredivost	249		3
 nepoznatost			2
-nepraktičnost			2
+nepraktičnost			3
 nepravednost	76		4
 nepravilnost	587		2
-nepravičnost	37		2
+nepravičnost	37		3
 nepreciznost			2
-nepredvidivost	138		2
-nepredvidljivost	90		2
+nepredvidivost	138		3
+nepredvidljivost	90		3
 nepreglednost	26		4
 neprekidnost			2
 neprelaznost			2
-nepremostivost			2
-neprepoznatljivost			2
+nepremostivost			3
+neprepoznatljivost			3
 neprijatnost	1097		2
 neprikladnost	13		2
 neprikosnovenost	164		2
-neprilagodljivost			2
+neprilagodljivost			3
 neprilagođenost			2
-nepriličnost			2
+nepriličnost			3
 neprincipijelnost	87		2
-neprirodnost	42		2
+neprirodnost	42		3
 neprisebnost			2
 nepristojnost	103		2
 nepristrasnost	577		2
@@ -1286,103 +1286,103 @@ neprivlačnost	11		2
 neproduktivnost	26		2
 neprohodnost	24		2
 neprolaznost	46		2
-nepromenljivost	130		2
-nepromišljenost	115		3
-neprosvećenost	39		3
+nepromenljivost	130		3
+nepromišljenost	115		4
+neprosvećenost	39		2
 neracionalnost			2
-neranjivost	15		2
+neranjivost	15		3
 nerast	41		2
 neravnopravnost			2
-nerazboritost	12		3
-nerazdeljivost			2
+nerazboritost	12		4
+nerazdeljivost			3
 nerazgovetnost			2
-nerazumljivost	25		2
+nerazumljivost	25		3
 nerazumnost	39		2
-nerazvijenost	168		3
+nerazvijenost	168		2
 nerealnost	69		2
 neregularnost			2
 nerentabilnost			2
 nerodnost		M	2
-nerođenost			3
+nerođenost			2
 nervoznost			2
 nesabranost			2
 nesaglasnost	220		2
 nesamostalnost	30		2
 nesavesnost	54		2
-nesavitljivost			2
-nesavršenost	190		3
+nesavitljivost			3
+nesavršenost	190		2
 nesebičnost	159		4
 neshodnost			2
-neshvatljivost			2
+neshvatljivost			3
 nesigurnost	2523		2
-nesimetričnost			2
+nesimetričnost			3
 nesistematičnost		M	2
-nesitost			2
-neskladnost			2
+nesitost			3
+neskladnost			3
 nesklonost	55		2
-neskromnost			2
+neskromnost			3
 neslavnost			2
-nesličnost			2
-nesmotrenost	159		3
-nesnalažljivost	15		2
-nesnošljivost	14		2
+nesličnost			3
+nesmotrenost	159		4
+nesnalažljivost	15		3
+nesnošljivost	14		3
 nesolidnost			2
 nespornost			2
 nesposobnost	2851		2
 nespoznajnost			2
 nespremnost	782		2
-nespretnost	108		2
+nespretnost	108		3
 nesrazmernost			2
-nesređenost	22		3
+nesređenost	22		2
 nesrodnost			2
 nestabilnost	2159		2
 nestalnost	88		2
-nestrpljivost	153		2
+nestrpljivost	153		3
 nestručnost	371		2
 nestvarnost	22		2
-nesumnjivost		M	2
+nesumnjivost		M	3
 nesvesnost	42		2
 nesvest	971		2
 nesvrstanost	74		2
-netaknutost			3
-netaktičnost	15		2
-netalentovanost			3
+netaknutost			2
+netaktičnost	15		3
+netalentovanost			2
 netačnost	153		2
 netolerantnost	99		2
-netrpeljivost	1756		3
+netrpeljivost	1756		4
 neudobnost	53		2
-neuglađenost			3
+neuglađenost			2
 neugodnost	135		2
-neuhranjenost	104		3
-neuhvatljivost	32		2
+neuhranjenost	104		2
+neuhvatljivost	32		3
 neujednačenost	126		2
-neukost	124		2
+neukost	124		3
 neukusnost			2
 neuljudnost			2
-neumerenost	119		3
+neumerenost	119		4
 neumesnost			2
 neumešnost		M	2
 neumitnost		M	2
-neumoljivost	24		2
+neumoljivost	24		3
 neumornost			2
-neuništivost			2
+neuništivost			3
 neuobičajenost		M	2
-neupotrebljivost			2
-neupućenost	104		3
+neupotrebljivost			3
+neupućenost	104		2
 neuravnoteženost	69		2
-neuračunljivost	52		2
+neuračunljivost	52		3
 neurednost	69		4
 neusaglašenost	188		2
-neusiljenost			3
-neusklađenost	303		3
+neusiljenost			4
+neusklađenost	303		2
 neuspelost			4
 neustavnost			2
-neustrašivost	132		2
+neustrašivost	132		3
 neutešnost		M	2
 neutralnost	1847		2
-neuverljivost			2
+neuverljivost			3
 neuvežbanost			2
-neučtivost			2
+neučtivost			3
 nevaspitanost			2
 nevažnost	17		2
 nevernost	52		2
@@ -1391,29 +1391,29 @@ neveselost		M	2
 nevezanost	11		2
 nevečnost			3
 neveštost			2
-nevidljivost	153		2
+nevidljivost	153		3
 nevinost	1720		3
-nevičnost		M	2
+nevičnost		M	3
 nevoljkost			2
 nevoljnost	79		2
-nevrednost			2
-nezadrživost			2
+nevrednost			3
+nezadrživost			3
 nezahvalnost	101		2
 nezainteresovanost	899		2
 nezakonitost	213		2
-nezanimljivost	11		2
-nezaposlenost	7115		3
-nezavisnost	19766		2
-nezaštićenost	25		3
+nezanimljivost	11		3
+nezaposlenost	7115		4
+nezavisnost	19766		3
+nezaštićenost	25		2
 nezgrapnost			3
-nezlobivost		M	2
-nezlobnost			3
+nezlobivost		M	3
+nezlobnost			2
 neznatnost	20		2
-nezrelost	298		2
+nezrelost	298		3
 nečasnost			2
 nečest			2
 nečist	165		2
-nečitljivost			2
+nečitljivost			3
 nečovečnost	33		4
 nečujnost			2
 nežnost	991		2
@@ -1424,7 +1424,7 @@ ništavost	175		3
 nježnost		J	2
 nonšalantnost			2
 normalnost	309		2
-nosivost	1001		2
+nosivost	1001		3
 nost		M	1
 novost	2728		2
 nudist			2
@@ -1435,25 +1435,25 @@ obavest	49		3
 obaveznost	291		2
 obaveštenost	270		3
 obavijest	176	J	4
-obazrivost	150		2
-obdarenost	78		3
-obeshrabrenost	23		3
+obazrivost	150		3
+obdarenost	78		4
+obeshrabrenost	23		4
 obesnost		M	2
-obespravljenost			3
+obespravljenost			2
 obest	95		2
-obezbeđenost		M	3
+obezbeđenost		M	2
 obilnost	22		2
 obimnost	83		2
 običajnost	69		2
-običnost	49		2
+običnost	49		3
 objektivnost	1125		2
 oblast	25116		2
 oblačnost	196		2
 obličast			2
-obljubljenost			3
+obljubljenost			2
 oblost			2
-obnaženost			3
-obojenost	223		3
+obnaženost			2
+obojenost	223		2
 obostranost			2
 obrazovanost	216		2
 obrst			2
@@ -1464,136 +1464,136 @@ obzirnost	32		2
 odanost	1246		3
 odbačenost	38		3
 odbojnost	827		2
-odeljenost		M	3
+odeljenost		M	2
 odgovornost	42094		2
 odlučenost			3
 odlučnost	2300		2
-odmerenost	150		3
+odmerenost	150		4
 odrast			2
-određenost	157		3
-odrešitost			2
+određenost	157		2
+odrešitost			3
 odrvenjelost			2
-održivost	2369		2
+održivost	2369		3
 odsečnost			3
 odsutnost	289		2
 oduzetost	119		2
 odvažnost	277		3
 odvest			2
-odvojenost	302		3
+odvojenost	302		4
 odvratnost	248		3
 ofanzivnost			2
 ogavnost			3
 ogist			2
 ognjenost			2
 ogolelost		M	2
-ogoljenost	35		3
+ogoljenost	35		2
 ogorčenost	422		3
-ograničenost	492		3
+ograničenost	492		2
 ogrezlost			2
 ogromnost	25		2
 oholost	336		3
-ojađenost			3
+ojađenost			2
 okolnost	4031		2
 okorelost	15		2
 okoštost			2
-okrenutost	175		3
-okretnost	181		2
-okrnjenost			3
+okrenutost	175		2
+okretnost	181		3
+okrnjenost			2
 okruglast	23		2
 okruglost			2
 okrutnost	234		2
 okupiranost			2
-omamljenost	26		3
+omamljenost	26		2
 omekšanost			2
-ometenost			3
-omiljenost	38		3
-omraženost			3
+ometenost			2
+omiljenost	38		2
+omraženost			2
 opakost	21		3
 opasnost	23149		2
 operativnost			2
-opijenost	137		3
-opipljivost	16		2
-opisivost			2
+opijenost	137		2
+opipljivost	16		3
+opisivost			3
 opnast			2
 opojnost	27		2
 oporost	53		2
 oportunist			2
 oportunost			2
 opravdanost	1806		2
-opredeljenost	849		3
-opremljenost	955		3
+opredeljenost	849		2
+opremljenost	955		2
 opreznost	711		2
 oprečnost	26		3
 oprost	671		2
 opscenost	27		2
-opsednutost	538		3
+opsednutost	538		2
 opsežnost			2
 opstojanost			2
-opterećenost	356		3
+opterećenost	356		2
 optimist	196		2
 opustelost		M	2
-opustošenost			3
-opuštenost	483		3
-opčinjenost			3
+opustošenost			2
+opuštenost	483		2
+opčinjenost			2
 opširnost	33		2
 opštost	136		2
 orašast			2
 organist			2
-organizovanost	365		3
+organizovanost	365		2
 originalnost	1233		2
 oronulost	22		2
-orođenost			3
+orođenost			2
 osamljenost	30		3
-osamnaest	2138		2
+osamnaest	2138		3
 osenčenost		M	3
-osetljivost	2873		2
+osetljivost	2873		3
 osećajnost	450		2
 osiguranost			2
 osionost	220		2
 oskudnost	68		2
 osnovanost	319		2
-osobenost	904		3
-osobitost	50		2
-osobnost	90		3
+osobenost	904		2
+osobitost	50		3
+osobnost	90		2
 osornost	13		2
-osposobljenost	532		3
+osposobljenost	532		2
 osrednjost	134		2
 ost			1
-ostrašćenost			3
-ostvarljivost			2
-osuđenost			3
-osvetljenost	449		3
-osvetoljubivost	99		2
-osvećenost			3
+ostrašćenost			2
+ostvarljivost			3
+osuđenost			2
+osvetljenost	449		2
+osvetoljubivost	99		3
+osvećenost			2
 otečenost			3
-otkinutost			3
+otkinutost			2
 otmenost	194		2
 otpornost	4075		2
 otpust	582		2
 otrcanost			3
-otresitost			2
-otromboljenost			3
+otresitost			3
+otromboljenost			2
 otrovnost	26		2
 otupelost	48		2
 otuđenost	325		3
 otužnost			2
-otvorenost	2195		3
-ovisnost	209		2
+otvorenost	2195		4
+ovisnost	209		3
 ovladanost			2
 ovlast	24		2
-ozarenost	38		3
+ozarenost	38		4
 ozbiljnost	2734		2
-ozleđenost			3
-ozloglašenost			3
-ozlojeđenost	123		3
+ozleđenost			2
+ozloglašenost			2
+ozlojeđenost	123		2
 ozračenost			3
 očaranost	52		2
 očevidnost			2
 očiglednost	99		4
-očitost			2
+očitost			3
 očuvanost	120		2
-ošamućenost	26		3
-oštećenost	33		3
+ošamućenost	26		2
+oštećenost	33		2
 oštroumnost	97		2
 pacifist	21		2
 pakost	401		2
@@ -1602,14 +1602,14 @@ pamfletist			2
 paperjast			2
 papist			2
 paralelnost			2
-paralizovanost			3
+paralizovanost			2
 parlamentarnost			2
 parnost			2
 pasivnost	619		2
-patetičnost	18		2
+patetičnost	18		3
 patuljast	17		2
 paučinast			2
-pažljivost	35		2
+pažljivost	35		3
 pedantnost	88		2
 pegast		M	2
 penast	19		2
@@ -1622,25 +1622,25 @@ permeabilnost	26		2
 personalnost	37		2
 perverznost			2
 pesimist	24		2
-petnaest	7348		2
-pevljivost			2
+petnaest	7348		3
+pevljivost			3
 pijanist	42		2
 pijanost			2
 piktijast		M	2
 pipavost			3
 pismenost	1678		3
 pitkost			2
-pitomost	38		2
-plahovitost			2
+pitomost	38		3
+plahovitost			3
 plamenost			2
 plast	175		1
-plastičnost			2
+plastičnost			3
 platinast			2
-plavičast	43		2
+plavičast	43		3
 plavkast	12		2
-plačljivost	32		2
-plašljivost	44		2
-plemenitost	525		2
+plačljivost	32		3
+plašljivost	44		3
+plemenitost	525		3
 plitkoumnost			2
 plodnost	1306		2
 plodonosnost			2
@@ -1648,126 +1648,126 @@ plodotvornost			2
 plovnost	108		2
 pločast			2
 plošnost			2
-pobožnost	459		2
+pobožnost	459		3
 pobrkanost			2
-pobunjenost			3
+pobunjenost			2
 pocepanost	12		2
 podatnost	14		2
 podcast			2
-podeljenost	403		3
+podeljenost	403		2
 podesnost			2
 podest			2
 podivljalost			2
-podjarmljenost			3
+podjarmljenost			2
 podkast			2
 podlost	170		2
-podložnost	168		2
-podmitljivost	32		2
+podložnost	168		3
+podmitljivost	32		3
 podmuklost	76		2
-podnošljivost			2
-podobnost	507		3
-podozrivost			2
-podređenost	83		3
-podrobnost			3
-podrugljivost	11		2
-podsmešljivost		M	2
+podnošljivost			3
+podobnost	507		2
+podozrivost			3
+podređenost	83		2
+podrobnost			2
+podrugljivost	11		3
+podsmešljivost		M	3
 podsvest	978		2
 podtekst	143		2
 podudarnost	507		2
 podust			2
-podvojenost	155		3
-poetičnost	70		2
+podvojenost	155		2
+poetičnost	70		3
 pogodnost	1747		2
-pogrbljenost			3
-pogrešivost			2
+pogrbljenost			2
+pogrešivost			3
 pogrešnost	62		2
 pogubnost	335		2
 pohabanost	14		2
 pohlepnost	27		3
-pohotljivost	16		2
+pohotljivost	16		3
 pohotnost			2
 pojavnost	104		2
 pojedinost	230		2
-pojmljivost		M	2
-pokorenost			3
+pojmljivost		M	3
+pokorenost			4
 pokornost	400		2
 pokost		M	2
-pokretljivost	1275		2
-pokretnost	27		2
-pokrivenost	1324		3
-pokunjenost		M	3
+pokretljivost	1275		3
+pokretnost	27		3
+pokrivenost	1324		2
+pokunjenost		M	2
 pokvarenost	194		3
-pokvarljivost			2
+pokvarljivost			3
 polarnost	24		2
-poletnost	39		2
+poletnost	39		3
 polnost	55		2
-polovičnost	18		2
+polovičnost	18		3
 poltergajst			2
 poltergeist			2
 polusvest			3
 polučvrst			2
 pomahnitalost		M	2
 pomast	10		2
-pometenost	34		3
+pometenost	34		2
 pomešanost			2
-pomirenost		M	3
-pomirljivost	60		2
-pomičnost			2
+pomirenost		M	4
+pomirljivost	60		3
+pomičnost			3
 pomodnost	22		2
 pompeznost			2
-pomućenost			3
-ponesenost	15		3
+pomućenost			2
+ponesenost	15		2
 poniznost	221		2
-poniženost	28		3
-ponositost	17		2
+poniženost	28		2
+ponositost	17		3
 popularnost	7129		2
-popunjenost	421		3
+popunjenost	421		2
 popust	7436		2
-popustljivost	198		2
+popustljivost	198		3
 porast	10115		2
-poremećenost	65		3
+poremećenost	65		2
 poroznost	95		2
 poročnost	19		2
 portretist	11		2
-posebenost			3
-posebnost	1479		2
-posednutost			3
+posebenost			2
+posebnost	1479		3
+posednutost			2
 posesivnost	168		2
-posećenost		M	3
+posećenost		M	2
 poslovnost	170		2
 poslušnost	1471		2
 pospanost	501		2
-posramljenost			3
-posrednost		M	2
+posramljenost			2
+posrednost		M	3
 post	13823		1
-postepenost		M	3
-postojanost	938		3
+postepenost		M	2
+postojanost	938		4
 postupnost	95		2
 posustalost			2
-posvećenost	4317		3
+posvećenost	4317		2
 potankost			2
 potentnost	38		2
-pothranjenost			3
+pothranjenost			2
 potištenost	156		3
 potkovanost			2
 potkovičast			2
-potkupljivost			2
+potkupljivost			3
 potlačenost			3
-potpunost	266		2
-potresenost	17		3
-potuljenost		M	3
-potčinjenost	206		3
-pouzdanost	3723		3
-poučljivost			2
+potpunost	266		3
+potresenost	17		2
+potuljenost		M	2
+potčinjenost	206		2
+pouzdanost	3723		4
+poučljivost			3
 poučnost			2
-poverljivost	495		2
+poverljivost	495		3
 povest	1104		2
 povezanost	5073		2
-povodljivost	53		2
+povodljivost	53		3
 povoljnost	391		2
 povratnost			2
-povremenost			3
-povređenost			3
+povremenost			4
+povređenost			2
 površnost	533		2
 povučenost	83		3
 pozitivist			2
@@ -1780,13 +1780,13 @@ pošast	566		2
 poželjnost	69		2
 požrtvovanost	428		2
 požudnost			2
-praktičnost	671		2
-pravednost	855		2
+praktičnost	671		3
+pravednost	855		3
 pravilnost	569		2
-pravičnost	550		2
+pravičnost	550		3
 pravnosnažnost	33		2
 pravosnažnost	81		2
-pravovaljanost	14		2
+pravovaljanost	14		3
 pravovernost			2
 pravovremenost	69		5
 praznost			2
@@ -1795,58 +1795,58 @@ praškast			2
 preciznost	2770		2
 predanost	877		2
 prednost	36423		2
-predodređenost	91		3
+predodređenost	91		2
 predominantnost			2
 predostrožnost	105		2
 predtekst	20		2
-predusretljivost	151		2
+predusretljivost	151		3
 preduzetnost			2
-preduzimljivost	168		2
-predvidivost			2
-predvidljivost	210		2
-prefinjenost	228		3
+preduzimljivost	168		3
+predvidivost			3
+predvidljivost	210		3
+prefinjenost	228		2
 prefriganost		M	2
-preglednost	845		2
+preglednost	845		3
 pregust			2
 prekitnjast			2
 prekomernost	13		2
 prelast			2
-premorenost	29		3
+premorenost	29		4
 premudrost		M	2
-prenagljenost			3
-prenaseljenost	153		3
-preneraženost		M	3
-prenosivost	263		2
-preokupiranost			3
+prenagljenost			2
+prenaseljenost	153		2
+preneraženost		M	2
+prenosivost	263		3
+preokupiranost			2
 preopterećenost			2
-preosetljivost	326		2
+preosetljivost	326		3
 preplanulost	45		2
-preplašenost			3
+preplašenost			2
 prepotentnost			2
-prepredenost	37		2
-prepunjenost			3
+prepredenost	37		3
+prepunjenost			2
 prepust	50		2
-prepuštenost		M	3
-presitost		M	2
+prepuštenost		M	2
+presitost		M	3
 presrest			2
-prestravljenost			3
+prestravljenost			2
 presudnost			2
 pretekst		M	2
 pretencioznost	78		2
 preteranost	31		2
 pretežnost	10		2
-pretilost	23		2
-pretovarenost			3
-pretvorivost			2
-preuranjenost			3
-preuzvišenost			3
+pretilost	23		3
+pretovarenost			4
+pretvorivost			3
+preuranjenost			2
+preuzvišenost			2
 prevejanost		M	2
 prevest			2
 prevlast	1192		2
-prevrtljivost	106		2
-prezaduženost			3
-prezaposlenost			3
-prezasićenost	64		3
+prevrtljivost	106		3
+prezaduženost			2
+prezaposlenost			2
+prezasićenost	64		2
 prezauzetost	29		2
 prezrelost			2
 prečest			2
@@ -1856,42 +1856,42 @@ prgavost			3
 približnost			2
 pribranost	100		2
 prigodnost		M	2
-prigušenost		M	3
-prihvatljivost			2
+prigušenost		M	2
+prihvatljivost			3
 prijatnost	207		2
-prijemčivost	111		2
-prikladnost	58		2
+prijemčivost	111		3
+prikladnost	58		3
 prikovanost			2
-prikrivenost			3
-prikupljenost			3
-prilagodljivost	531		2
-prilagođenost	122		3
+prikrivenost			2
+prikupljenost			2
+prilagodljivost	531		3
+prilagođenost	122		2
 priležnost			2
-priličnost			2
+priličnost			3
 prilježnost			2
-primamljivost	42		2
+primamljivost	42		3
 primarnost	23		2
-primenjivost			2
-primenljivost			2
-primerenost			3
+primenjivost			3
+primenljivost			3
+primerenost			4
 primernost		M	2
 primitivnost	54		2
 prinadležnost			2
 principijelnost	280		2
-pripadnost	4444		2
+pripadnost	4444		3
 pripovest	375		3
 pripravnost	248		2
-pripremljenost	358		3
+pripremljenost	358		2
 priprost	44		2
 priprostost			2
 pripust			2
 prirast	365		2
-prirodnost	302		2
+prirodnost	302		3
 prisebnost	216		2
 prisnost	223		2
 pristalost			2
 pristojnost	532		2
-pristranost	20		2
+pristranost	20		3
 pristrasnost	530		2
 pristupačnost	624		4
 prisutnost	1785		2
@@ -1901,52 +1901,52 @@ privest			2
 privezanost			2
 prividnost		M	2
 privlačnost	1765		2
-privremenost	53		3
-privrženost	1509		3
+privremenost	53		4
+privrženost	1509		4
 prizemnost	30		2
-priznatost			2
+priznatost			3
 pričest	193		2
-pričljivost		M	2
+pričljivost		M	3
 prljavost	10		3
-probavljivost			2
+probavljivost			3
 probitačnost			2
-problematičnost			2
+problematičnost			3
 probost			2
 prodornost	93		2
-produhovljenost	22		3
+produhovljenost	22		2
 produktivnost	3977		2
 profanost			2
 profesionalnost	904		2
-profinjenost	12		3
+profinjenost	12		2
 profitabilnost	897		2
 progresivnost	54		2
 prohodnost	760		2
 proizvodnost			2
 proizvoljnost	180		2
-prokrvljenost	241		3
+prokrvljenost	241		2
 prolaznost	970		3
-promašenost			3
-promenljivost	228		2
+promašenost			2
+promenljivost	228		3
 prominentnost			2
-promišljenost	78		3
+promišljenost	78		4
 promuklost	142		2
 promućurnost	16		2
-pronicljivost	146		2
+pronicljivost	146		3
 propalost			2
 propast	7685		2
 proporcionalnost	92		2
 propusnost	141		2
 propust	3018		2
-propustljivost			2
+propustljivost			3
 proračunatost			2
-proređenost			3
+proređenost			2
 prosečnost	127		3
 prost	2059		1
 prostodušnost	38		2
 prostornost	61		2
 prostranost			2
 prosutost			2
-prosvećenost	216		3
+prosvećenost	216		2
 protegljast		M	2
 protest	9169		2
 protivnost	67		2
@@ -1956,14 +1956,14 @@ protivzakonitost		M	2
 protočnost	73		2
 provest			2
 providnost	217		2
-provodljivost	265		2
+provodljivost	265		3
 prozaist	13		2
-prozaičnost			2
+prozaičnost			3
 prozirnost	134		2
 prozračnost	115		2
-proširenost			3
+proširenost			4
 prošlost	13900		2
-proždrljivost	78		2
+proždrljivost	78		3
 prožetost	29		2
 prst	3651		1
 prstast		M	2
@@ -1992,106 +1992,106 @@ radioaktivnost	296		2
 radišnost			2
 radogost			2
 radost	15566		2
-radoznalost	1843		2
+radoznalost	1843		3
 rafiniranost	53		2
-rahitičnost			2
+rahitičnost			3
 rakljast		M	2
-ranjivost	934		2
+ranjivost	934		3
 ranost			2
 rapavost			3
-rascepkanost	40		3
+rascepkanost	40		4
 rasejanost	62		2
 rasipnost	23		2
 rasist	11		2
 raskalašnost		M	4
-raskomoćenost			3
+raskomoćenost			2
 raskošnost	31		2
-raskvašenost			3
-raspadljivost			2
-raspaljenost			3
-raspaljivost			2
+raskvašenost			2
+raspadljivost			3
+raspaljenost			2
+raspaljivost			3
 raspast			2
 raspetost			2
 raspevanost			2
-rasplinutost	11		3
+rasplinutost	11		2
 raspojasanost	25		2
-raspoloženost			3
-raspoloživost	557		2
-raspoređenost			3
-rasprostranjenost	765		3
+raspoloženost			2
+raspoloživost	557		3
+raspoređenost			2
+rasprostranjenost	765		2
 raspusnost		M	2
 raspust	1771		2
-raspuštenost	19		3
+raspuštenost	19		2
 rast	46738		1
-rastegljivost			2
-rasterećenost			3
-rastresenost			3
-rastresitost	17		2
+rastegljivost			3
+rasterećenost			2
+rastresenost			2
+rastresitost	17		3
 rastrganost			2
-rastrojenost	25		3
+rastrojenost	25		2
 rastrošnost			2
-rastvorljivost			2
+rastvorljivost			3
 rasutost	15		2
 ratobornost	48		2
-ravnodušnost	829		2
+ravnodušnost	829		3
 ravnomernost	60		2
 ravnopravnost	5691		2
-razbarušenost		M	3
-razblaženost		M	3
+razbarušenost		M	2
+razblaženost		M	2
 razbludnost			2
-razboritost	255		3
+razboritost	255		4
 razdraganost	94		2
 razdraženost	39		3
-razdražljivost	460		2
-razdrobljenost			3
+razdražljivost	460		3
+razdrobljenost			2
 razdvojenost	212		3
-razgaljenost			3
-razglašenost			3
+razgaljenost			2
+razglašenost			2
 razgovetnost			2
-razgovorljivost			2
+razgovorljivost			3
 razgranatost			2
 razigranost	137		2
-razjarenost	17		3
-razjedinjenost	87		3
-različitost	2149		3
-različnost			2
-razložnost	41		2
+razjarenost	17		4
+razjedinjenost	87		2
+različitost	2149		4
+različnost			3
+razložnost	41		3
 razlučivost			2
-razmaženost	88		3
-razmetljivost	43		2
-razmetnost			2
-razneženost	10		3
+razmaženost	88		2
+razmetljivost	43		3
+razmetnost			3
+razneženost	10		2
 raznobojnost	10		2
-raznolikost	1923		2
+raznolikost	1923		3
 raznorodnost	53		2
 raznovrsnost	2241		2
 razornost			2
 razočaranost	165		2
-razrađenost			3
-razređenost	14		3
-razrokost	46		2
+razrađenost			2
+razređenost	14		2
+razrokost	46		3
 razularenost		M	3
-razumljivost	163		2
+razumljivost	163		3
 razumnost	69		3
 razuzdanost	72		4
-razuđenost	119		3
-razvedenost			2
-razvijenost	407		3
-razvratnost	12		2
+razuđenost	119		2
+razvedenost			3
+razvijenost	407		2
+razvratnost	12		3
 razvučenost			3
 račvast	12		2
-raširenost	134		3
+raširenost	134		4
 rašljast			2
-raščlanjenost	15		3
+raščlanjenost	15		2
 raščupanost			2
 reaktivnost			2
 realist	29		2
-realističnost	92		2
+realističnost	92		3
 realnost	13454		2
 rebrast			2
 recipročnost	22		2
 reckast			2
-redovitost			2
+redovitost			3
 redovnost			2
 refleksivnost			2
 regest			2
@@ -2107,28 +2107,28 @@ resast			2
 reskost			2
 respektabilnost			2
 retkost	3034		2
-retoričnost			2
-reumatičnost			2
+retoričnost			3
+reumatičnost			3
 revnost	626		2
 revolucionarnost	52		2
 rezervisanost	126		2
 rezigniranost			2
 rezistentnost			2
-rečitost	120		2
+rečitost	120		3
 rešenost	887		3
-rešetkast			2
+rešetkast			3
 režiranost			2
 rigidnost	144		2
 riskantnost			2
-ritmičnost	39		2
+ritmičnost	39		3
 ritualnost			2
-rizičnost			2
+rizičnost			3
 riđast			2
-robusnost	138		2
+robusnost	138		3
 rodnost	188		2
-rodoljubivost		M	2
+rodoljubivost		M	3
 rogljast			2
-romantičnost			2
+romantičnost			3
 rozikast			2
 ročnost	131		2
 rođenost			2
@@ -2148,49 +2148,49 @@ rđast		M	2
 rđavost	10		3
 sablasnost			3
 sablast	79		2
-sablažnjivost			2
+sablažnjivost			3
 sabljast			2
 sabornost	383		2
 sabranost	80		3
-sadašnjost	2925		2
+sadašnjost	2925		3
 sadist			2
 sadržajnost			2
 saglasnost	15151		2
-sakatost			2
+sakatost			3
 sakralnost			2
-samerljivost		M	2
+samerljivost		M	3
 samilost	210		2
 samobitnost			2
-samokritičnost			2
-samoljubivost	14		2
+samokritičnost			3
+samoljubivost	14		3
 samost			2
 samostalnost	2848		2
 samosvesnost		M	2
 samosvest	620		3
 samosvojnost	127		2
 samotnost			3
-samouverenost	406		3
+samouverenost	406		4
 samovlast			2
 samovoljnost			2
-samoživost	134		2
+samoživost	134		3
 sananost			2
-sangviničnost			2
-sanjivost	13		2
+sangviničnost			3
+sanjivost	13		3
 saobraznost			2
 saosećajnost	174		2
 sapetost			2
-satiričnost			2
+satiričnost			3
 savesnost	176		2
 savest	3878		2
-savitljivost	73		2
-savremenost	385		3
+savitljivost	73		3
+savremenost	385		4
 savršenost	115		3
-sažaljivost		M	2
+sažaljivost		M	3
 sažetost	59		3
 scenarist	88		2
-sceničnost	13		2
-sebičnost	595		2
-sedamnaest	1793		2
+sceničnost	13		3
+sebičnost	595		3
+sedamnaest	1793		3
 sedefast			2
 sedlast			2
 seksist			2
@@ -2205,31 +2205,31 @@ senzualnost	203		2
 serioznost	13		2
 servilnost	134		2
 shodnost		M	2
-shvatljivost			2
+shvatljivost			3
 sigurnost	16013		2
-silovitost	24		2
-simboličnost	35		2
-simetričnost	51		2
-simpatičnost	10		2
+silovitost	24		3
+simboličnost	35		3
+simetričnost	51		3
+simpatičnost	10		3
 simultanost	35		4
 sineast	17		2
 singularnost	70		2
 sirast			2
 sirovost	65		2
-sistematičnost	144		2
-sitničavost			2
+sistematičnost	144		3
+sitničavost			3
 sitost	182		2
 sivast		M	2
 sivkast	31		2
 sićušnost			2
 sjajnost	106		2
-skeptičnost			2
+skeptičnost			3
 skladnost	102		2
 skliskost			2
 sklonost	4086		2
 skrivenost	18		2
 skromnost	959		2
-skrovitost			2
+skrovitost			3
 skrušenost	111		3
 skupnost		M	2
 skupost			2
@@ -2238,23 +2238,23 @@ slabašnost			2
 slabokrvnost	11		2
 slabost	3879		2
 slaboumnost			2
-slabunjavost		M	2
+slabunjavost		M	3
 sladostrasnost		M	2
-sladunjavost	14		2
+sladunjavost	14		3
 slankast			2
 slanost	13		2
 slast	783		1
 slatkast	108		2
-slatkorečivost	51		2
+slatkorečivost	51		3
 slatkost			2
 slavist	16		2
 slavodobitnost			2
-slavoljubivost		M	2
+slavoljubivost		M	3
 slepost			2
-slikovitost	81		2
+slikovitost	81		3
 slivenost		M	2
 sličnost	2852		2
-slobodoljubivost			2
+slobodoljubivost			3
 slobodoumnost	20		2
 slovesnost			2
 složenost	1501		2
@@ -2264,7 +2264,7 @@ slučajnost	1893		2
 slušanost	138		2
 službenost	119		2
 smelost	528		2
-smenjivost	62		2
+smenjivost	62		3
 smernost	181		2
 smetenost	23		2
 smećkast			2
@@ -2279,16 +2279,16 @@ smotrenost		M	3
 smrtnost	1443		2
 smućenost			2
 smušenost	65		2
-snabdevenost	387		3
+snabdevenost	387		2
 snajperist			2
-snalažljivost	375		2
+snalažljivost	375		3
 snažnost			2
-snebivljivost		M	2
-snishodljivost	125		2
-snošljivost	15		2
+snebivljivost		M	3
+snishodljivost	125		3
+snošljivost	15		3
 snuždenost			2
 sofist	20		2
-sofisticiranost	151		3
+sofisticiranost	151		2
 solidarnost	4695		2
 solidnost	60		2
 solist	15		2
@@ -2296,13 +2296,13 @@ solventnost			2
 sopstvenost	57		2
 sočnost			2
 spaljenost			2
-specifičnost	2574		2
+specifičnost	2574		3
 specijalist	58		2
 specijalnost	1044		2
 spiritualnost			2
 spljoštenost			2
 spojenost		M	2
-spojivost	15		2
+spojivost	15		3
 spokojnost	23		2
 spoljašnjost	677		2
 spoljašnost	247		2
@@ -2317,12 +2317,12 @@ sprečenost	83		2
 spust	909		1
 sputanost	39		2
 spužvast		M	2
-sramežljivost	43		2
+sramežljivost	43		3
 sraslost			2
 srazmernost	48		2
 srcast		M	2
 srdačnost	189		3
-srditost			2
+srditost			3
 srebrnast	15		2
 srebrnkast			2
 sredovečnost		M	2
@@ -2330,34 +2330,34 @@ srezanost			2
 sređenost	35		2
 srodnost	321		2
 srpast			2
-srčanost	136		2
+srčanost	136		3
 stabilnost	14300		2
 staklast	98		2
 stalnost	328		2
-staloženost	121		3
+staloženost	121		2
 stamenost			2
 standardnost			2
 starost	5571		2
-stasitost			2
+stasitost			3
 statist			2
-statičnost	90		2
+statičnost	90		3
 stepenast	23		2
 sterilnost	143		2
 stešnjenost			2
-stidljivost	299		2
+stidljivost	299		3
 stopljenost			2
 stranost			2
 strasnost		M	2
 strast	5829		1
 strastvenost	89		2
-stravičnost	12		2
-strašljivost	11		2
+stravičnost	12		3
+strašljivost	11		3
 strelast			2
 striktnost			2
 strmost			2
 strogost	408		2
 strojnost			2
-strpljivost	287		2
+strpljivost	287		3
 stručnost	3886		2
 stubast			2
 studioznost			2
@@ -2367,46 +2367,46 @@ stvorenost			2
 subjektivnost	333		2
 subverzivnost			2
 sudbenost			2
-sudbonosnost			2
+sudbonosnost			3
 sugestibilnost			2
 sugestivnost			2
 suglasnost	138		2
-sujetnost		M	2
-sukladnost			2
-sukobljenost			3
+sujetnost		M	3
+sukladnost			3
+sukobljenost			2
 suludast		M	2
-sumanutost	31		3
+sumanutost	31		2
 sumarnost			2
-sumnjivost			2
-sumnjičavost	210		3
+sumnjivost			3
+sumnjičavost	210		4
 sumornost	22		2
 sumporast			2
 sunčanost		M	2
 sunđerast		M	2
 superiornost	715		2
-suprotnost	2160		2
-suprotstavljenost			3
+suprotnost	2160		3
+suprotstavljenost			2
 suptilnost	142		2
-surevnjivost	105		2
-surovost	500		2
+surevnjivost	105		3
+surovost	500		3
 susrest			2
-susretljivost	23		2
+susretljivost	23		3
 sustalost			2
 sustavnost			2
-suverenost	772		3
-suvislost	11		2
+suverenost	772		4
+suvislost	11		3
 suvišnost	23		3
-suvonjavost			2
+suvonjavost			3
 suvost			2
 suzdržanost	155		2
-suzdržljivost			2
-sušičavost			2
+suzdržljivost			3
+sušičavost			3
 sušnost			2
-suštastvenost			3
+suštastvenost			2
 suženost			2
-svadljivost	18		2
+svadljivost	18		3
 svakidašnjost		M	2
-svarljivost			2
+svarljivost			3
 svedenost	102		2
 svemoćnost		M	3
 sveprisutnost			2
@@ -2420,24 +2420,24 @@ sveukupnost	168		2
 svevlast			2
 svezanost			2
 svećanost			2
-svečanost	3547		2
+svečanost	3547		3
 svilast			2
 svilenkast			2
-svirepost	113		2
-svojeglavost	21		2
+svirepost	113		3
+svojeglavost	21		3
 svojevoljnost			2
 svojstvenost		M	2
-svrabljivost			2
-svrhovitost	48		3
+svrabljivost			3
+svrhovitost	48		4
 svrsishodnost			4
-tajanstvenost	154		2
+tajanstvenost	154		3
 tajnost	757		2
-tajnovitost	171		2
+tajnovitost	171		3
 taksist	21		2
-taktičnost	58		2
+taktičnost	58		3
 talasast	53		2
 talentovanost		M	2
-taljivost			2
+taljivost			3
 tananost	43		2
 tankost		M	2
 tankovijast		M	2
@@ -2450,35 +2450,35 @@ tegobnost			3
 tekst	67076		1
 telesnost	85		2
 teletekst	87		3
-temeljitost	46		2
+temeljitost	46		3
 temeljnost		M	2
-temperamentnost	11		2
+temperamentnost	11		3
 teoktist			2
 terasast			2
 terorist	30		2
-teskobnost			3
+teskobnost			2
 test	20234		1
 testerast		M	2
 tečnost	4391		2
 tigrast			2
 tihost			2
 tikvast			2
-tipičnost	16		2
+tipičnost	16		3
 tmast			1
-toksičnost	286		2
+toksičnost	286		3
 tolerantnost	311		2
 tonalnost			2
-topljivost			2
+topljivost			3
 toplokrvnost			2
 tost	418		1
 totalnost		M	2
 tradicionalnost			2
-tragičnost	125		2
+tragičnost	125		3
 trajnost	1231		2
 trakast			2
 traljavost			3
 transcendentnost			2
-transparentnost	3369		2
+transparentnost	3369		3
 trapavost		M	3
 trapezast			2
 trapist	92		2
@@ -2486,10 +2486,10 @@ traženost			2
 trbušast	11		2
 treznost		M	2
 trezvenost	150		3
-trinaest	2710		2
+trinaest	2710		3
 trivijalnost	50		2
 tričavost		M	3
-trnovitost			2
+trnovitost			3
 trockist			2
 trodelnost			2
 trodimenzionalnost			2
@@ -2500,15 +2500,15 @@ trostrukost			2
 trouglast			2
 troznamenkast			2
 trošnost	21		2
-trpeljivost	159		3
+trpeljivost	159		4
 trpkost			2
 trst			1
-trudoljubivost		M	2
+trudoljubivost		M	3
 truležnost			2
 trulost	29		2
 trust	1403		1
 tržišnost			2
-tugaljivost		M	2
+tugaljivost		M	3
 tunjavost		M	3
 tupast			2
 tupavost			3
@@ -2519,182 +2519,182 @@ turobnost	11		3
 tuđost			2
 tvarnost		M	2
 tvist	68		1
-tvrdoglavost	480		3
+tvrdoglavost	480		4
 tvrdokornost	28		2
 tvrdost		M	2
-ubedljivost	161		2
-ubeđenost	76		3
+ubedljivost	161		3
+ubeđenost	76		2
 ubitačnost			2
 ubogost		M	2
-ubojitost	50		2
+ubojitost	50		3
 ubost			2
 ubrzanost			2
-ucveljenost		M	3
+ucveljenost		M	2
 udaljenost	3005		3
 udobnost	3037		3
-udruženost	51		3
-udubljenost			3
-udvostručenost			3
+udruženost	51		2
+udubljenost			2
+udvostručenost			2
 uglast			2
-uglatost			2
+uglatost			3
 uglačanost		M	2
-uglađenost	58		3
-uglednost			2
+uglađenost	58		2
+uglednost			3
 ugodnost	151		3
-ugojenost		M	3
-ugrađenost			3
+ugojenost		M	2
+ugrađenost			2
 ugrist			2
-ugroženost	639		3
-uhranjenost	55		3
+ugroženost	639		4
+uhranjenost	55		2
 uigranost	113		2
-ujednačenost	197		3
-ukalupljenost			3
+ujednačenost	197		2
+ukalupljenost			2
 ukletost			2
 uključenost	427		3
-ukorenjenost	80		3
+ukorenjenost	80		2
 ukočenost	384		3
 ukrast			2
-ukrašenost		M	3
-ukrućenost			3
+ukrašenost		M	2
+ukrućenost			2
 ukupnost	191		2
 ukusnost			2
 uljast			2
-uljevitost			2
+uljevitost			3
 uljudnost	74		2
-uljuđenost	15		3
+uljuđenost	15		2
 ultraljubičast		M	2
-umerenost	515		3
+umerenost	515		4
 umesnost		M	2
-umetnost	17952		2
+umetnost	17952		3
 umešanost	576		2
 umešnost	453		2
 umiljatost	16		2
 umilnost		M	2
-umišljenost	69		3
+umišljenost	69		4
 umnost	80		2
-umrtvljenost			3
-unakaženost	12		3
+umrtvljenost			2
+unakaženost	12		2
 unakrst		M	2
-unezverenost		M	3
+unezverenost		M	4
 uniformnost			2
 univerzalnost	489		2
 unutarnjost			2
-unutrašnjost	5923		3
+unutrašnjost	5923		4
 uobičajenost			2
-uobličenost			3
-uobraženost	89		3
-uopštenost		M	3
-uočljivost	51		2
-upadljivost			2
-upaljivost			2
-upečatljivost	57		2
+uobličenost			2
+uobraženost	89		2
+uopštenost		M	2
+uočljivost	51		3
+upadljivost			3
+upaljivost			3
+upečatljivost	57		3
 upitanost	105		2
 upitnost			2
-uplašenost	32		3
-upletenost	40		3
-upokojenost			3
+uplašenost	32		2
+upletenost	40		2
+upokojenost			2
 uporednost			4
 upornost	2555		2
-uposlenost	199		3
-upotrebljivost	565		2
-upravljivost	307		2
-uprošćenost		M	3
-upućenost	181		3
+uposlenost	199		4
+upotrebljivost	565		3
+upravljivost	307		3
+uprošćenost		M	2
+upućenost	181		2
 uravnoteženost	167		2
-uračunljivost	63		2
-urednost	255		2
-uređenost	245		3
+uračunljivost	63		3
+urednost	255		3
+uređenost	245		2
 urgentnost	55		2
-uronjenost			3
-urođenost	13		3
-usaglašenost			3
-usamljenost	896		3
-usavršenost			3
-ushićenost	79		3
-usiljenost	10		3
-usitnjenost	83		3
-usklađenost	880		3
+uronjenost			2
+urođenost	13		2
+usaglašenost			2
+usamljenost	896		2
+usavršenost			2
+ushićenost	79		2
+usiljenost	10		2
+usitnjenost	83		2
+usklađenost	880		2
 uskomešanost			2
 uskost	23		2
-uslovljenost	210		3
+uslovljenost	210		2
 uslovnost	44		2
 uslužnost	73		2
-usmerenost	650		3
-uspaljenost			3
+usmerenost	650		4
+uspaljenost			2
 uspavanost	49		2
 uspešnost	2152		2
-usplahirenost	17		3
+usplahirenost	17		4
 usporednost			4
-usporenost	77		3
+usporenost	77		4
 usrdnost	33		2
-usredsređenost	214		3
+usredsređenost	214		2
 ustajalost	13		2
-ustaljenost	20		3
+ustaljenost	20		2
 ustavnost	516		2
 ustrajnost	49		2
 ustreptalost	10		2
-utegnutost		M	3
+utegnutost		M	2
 utišanost		M	2
 utrnulost	156		2
 utučenost	46		3
-utvrđenost			3
-uvaženost			3
+utvrđenost			2
+uvaženost			2
 uvenulost			2
-uverenost	204		3
-uverljivost	263		2
+uverenost	204		4
+uverljivost	263		3
 uvežbanost	52		2
 uviđavnost	39		2
-uvredljivost			2
-uvređenost	75		3
-uvrnutost		M	3
+uvredljivost			3
+uvređenost	75		2
+uvrnutost		M	2
 uvučenost			3
 uzajamnost	200		2
 uzaludnost	123		2
 uzanost		M	2
 uzastopnost			2
 uzavrelost	17		2
-uzbudljivost	51		2
+uzbudljivost	51		3
 uzburkanost			2
 uzbuđenost	83		3
 uzdržanost	567		2
-uzdržljivost	41		2
+uzdržljivost	41		3
 uzetost	11		3
-uznemirenost	913		3
-uznositost			2
-uzoritost			2
+uznemirenost	913		4
+uznositost			3
+uzoritost			3
 uzrast	3105		2
 uzročnost	65		2
 uzrujanost	39		2
-uzvišenost	217		3
+uzvišenost	217		2
 učenost	143		3
-učestalost	2568		2
+učestalost	2568		3
 učestanost	155		2
-učinkovitost	197		2
+učinkovitost	197		3
 učmalost	95		2
-učtivost		M	2
-ušljivost			2
-uštogljenost	23		3
+učtivost		M	3
+ušljivost			3
+uštogljenost	23		2
 ušuškanost			2
 uščuvanost			2
-užarenost			3
-užasnutost		M	3
-uživljenost			3
-užurbanost	113		3
+užarenost			4
+užasnutost		M	2
+uživljenost			2
+užurbanost	113		4
 valentnost	10		2
 validnost	572		2
 valjanost	513		2
 valjkast	35		2
-valovitost			2
-varljivost	20		2
+valovitost			3
+varljivost	20		3
 vaspitanost			2
 vatrenost	32		2
 vazdušast	25		2
 važnost	9762		2
-velikodušnost	325		2
-veličanstvenost	139		3
+velikodušnost	325		3
+veličanstvenost	139		2
 vernost	1860		2
 verodostojnost	1013		2
-veroispovest	486		2
+veroispovest	486		3
 verolomnost			2
 verovatnost	141		2
 vertikalnost			2
@@ -2705,13 +2705,13 @@ vetrenjast		M	3
 vetropirast		M	2
 vezanost	717		2
 vezist			2
-večitost		M	2
+večitost		M	3
 večnost	2119		2
 vickast		M	2
-vidljivost	2512		2
+vidljivost	2512		3
 vidnost		M	2
-vidovitost	131		2
-vijugavost		M	2
+vidovitost	131		3
+vijugavost		M	3
 vilast		M	2
 vinost			2
 violinist	15		2
@@ -2722,19 +2722,19 @@ viskoznost	142		2
 visost	48		2
 vist			1
 vitalnost	1299		2
-vitičast			2
+vitičast			3
 vitkost	101		2
 vizuelnost			2
 vičnost		M	2
 višestrukost			2
-višeznačnost			2
+višeznačnost			3
 vižlast		M	2
 vižljast			2
 vlaknast	21		2
 vlasnost	10		2
 vlast	91067		1
-vlastitost	21		2
-vlastoljubivost		M	2
+vlastitost	21		3
+vlastoljubivost		M	3
 vlažnost	2504		2
 vodenast	38		2
 vodenost			2
@@ -2748,116 +2748,116 @@ vremenost			2
 vremešnost			2
 vretenast	28		2
 vrećast			2
-vrletnost			2
+vrletnost			3
 vrljavost		M	3
 vrst	106		1
 vulgarnost	175		2
 vunast			2
-zabataljenost		M	3
-zabavljenost			3
+zabataljenost		M	2
+zabavljenost			2
 zabavnost	12		2
 zabezeknutost		M	2
-zaboravljivost			2
+zaboravljivost			3
 zaboravnost	182		2
-zabrinutost	6345		3
-zadatost			2
+zabrinutost	6345		4
+zadatost			3
 zadihanost			2
-zadivljenost			3
-zadovoljenost			3
+zadivljenost			2
+zadovoljenost			2
 zadrtost	47		3
 zadubljenost			3
-zaduženost	986		3
-zagasitost			2
-zagađenost	361		3
-zaglupljenost			3
+zaduženost	986		2
+zagasitost			3
+zagađenost	361		2
+zaglupljenost			2
 zagonetnost	57		2
-zagriženost	14		3
-zagušljivost			2
+zagriženost	14		2
+zagušljivost			3
 zahtevnost	240		2
 zahvalnost	5940		2
 zainteresovanost	2767		2
-zajedljivost	49		2
-zaklonjenost			3
-zakonitost	1670		2
+zajedljivost	49		3
+zaklonjenost			2
+zakonitost	1670		3
 zakopčanost			2
-zakošenost			3
-zakrivljenost	190		3
+zakošenost			2
+zakrivljenost	190		2
 zakrčenost			3
 zakržljalost	10		2
 zakučast			2
-zaljubljenost	735		3
+zaljubljenost	735		2
 zaludnost		M	2
-zaluđenost	53		3
-zamagljenost	28		3
+zaluđenost	53		2
+zamagljenost	28		2
 zamađijanost			2
 zamašnost		M	2
-zamenjivost			2
-zamišljenost			3
-zamorenost	22		3
+zamenjivost			3
+zamišljenost			2
+zamorenost	22		4
 zamrlost			2
-zamršenost	49		3
-zamućenost	69		3
-zanemarenost			3
+zamršenost	49		2
+zamućenost	69		2
+zanemarenost			4
 zanemelost			2
-zanesenost	90		3
+zanesenost	90		2
 zanetost			2
-zanimljivost	1164		2
+zanimljivost	1164		3
 zanosnost			2
-zaobljenost	27		3
-zaokrugljenost		M	3
-zaokupljenost	105		3
+zaobljenost	27		2
+zaokrugljenost		M	2
+zaokupljenost	105		2
 zaostalost	321		2
-zaoštrenost		M	3
-zapaljivost	38		2
-zapanjenost	56		3
-zaparloženost		M	3
+zaoštrenost		M	4
+zapaljivost	38		3
+zapanjenost	56		2
+zaparloženost		M	2
 zapetljanost		M	2
 zapetost		M	2
 zapitanost	156		2
-zapletenost			3
+zapletenost			2
 zaposednutost			2
-zaposlenost	1952		3
-zapostavljenost			3
+zaposlenost	1952		4
+zapostavljenost			2
 zapovest	1495		3
-zaprepašćenost		M	3
-zapuštenost	115		3
+zaprepašćenost		M	2
+zapuštenost	115		2
 zaraznost			3
-zaraženost	112		3
-zarobljenost			3
+zaraženost	112		2
+zarobljenost			2
 zarđalost			2
 zasebnost	22		2
-zasićenost	206		3
-zaslepljenost			3
+zasićenost	206		2
+zaslepljenost			2
 zasnovanost	165		2
 zastarelost	830		2
-zastrašenost			3
-zastupljenost			3
-zasvođenost			3
-zategnutost	233		3
+zastrašenost			2
+zastupljenost			2
+zasvođenost			2
+zategnutost	233		2
 zatrovanost			2
 zatrpanost			2
 zatubast		M	2
 zatucanost		M	2
 zatupast			2
-zatupljenost			3
-zatvorenost	340		3
+zatupljenost			2
+zatvorenost	340		4
 zauzetost	176		2
-zavađenost			3
-zavedenost			3
-zavidljivost		M	2
+zavađenost			2
+zavedenost			2
+zavidljivost		M	3
 zavidnost	33		2
-zavisnost	4722		2
+zavisnost	4722		3
 zavist	1722		2
 zavičajnost	28		2
-zavodljivost	131		2
-završenost			3
+zavodljivost	131		3
+završenost			2
 zazornost			2
 začaranost			3
-začepljenost			3
+začepljenost			2
 začudnost			2
-začuđenost	62		3
-zaštićenost			3
-zažarenost		M	3
+začuđenost	62		2
+zaštićenost			2
+zažarenost		M	4
 zbijenost	38		2
 zbrkanost			2
 zbunjenost	642		2
@@ -2878,11 +2878,11 @@ zlatoust	109		2
 zlodušnost			2
 zlonamernost			2
 zloslutnost			2
-zloćudnost	23		2
+zloćudnost	23		3
 zločest	27		2
-zluradost	159		2
+zluradost	159		3
 znakovnost			2
-znamenitost	224		2
+znamenitost	224		3
 znanost	366		2
 znanstvenost			2
 znatiželjnost			2
@@ -2894,9 +2894,9 @@ zrelost	1940		2
 zrikavost		M	3
 zrnast	17		2
 zubast			2
-zubatost			2
+zubatost			3
 zupčast			2
-zvaničnost		M	2
+zvaničnost		M	3
 zvezdast			2
 zvonast			2
 zvonkost			2
@@ -2906,29 +2906,29 @@ zvučnost	57		2
 ćoravost			3
 ćoškast			2
 ćubast			2
-ćudljivost	41		2
+ćudljivost	41		3
 ćurkast			2
-ćutljivost		M	2
+ćutljivost		M	3
 čarapast		M	2
-čarobnost			3
+čarobnost			2
 časnost	45		2
 čast	35213		1
 čađast			2
 čašast			2
 čednost	182		2
 čekinjast			2
-čeličnost			2
+čeličnost			3
 čeljust	159		2
 čest	3835		1
-čestitost	241		2
+čestitost	241		3
 četkast			2
-četrnaest	2135		2
+četrnaest	2135		3
 četvrtast	93		2
-čeznutljivost			2
+čeznutljivost			3
 češerast			2
 češljast		M	2
 čilost			2
-činjeničnost			2
+činjeničnost			3
 čipkast			2
 čirast			2
 čiravost			3
@@ -2936,10 +2936,10 @@ zvučnost	57		2
 čistokrvnost			2
 čitanost	256		2
 čitkost			2
-čitljivost	200		2
-člankovitost			2
+čitljivost	200		3
+člankovitost			3
 čorbast	39		2
-čovekoljubivost		M	2
+čovekoljubivost		M	3
 čovečnost	200		3
 čudesnost	42		3
 čudnost		M	2
@@ -2954,21 +2954,21 @@ zvučnost	57		2
 čvrst	3232		1
 đavolast			2
 šahist	12		2
-šaljivost			2
+šaljivost			3
 šarmantnost	12		2
 šarolikost	243		2
 šatorast			2
 šašavost			3
 šepavost			3
-šeprtljavost			2
-šesnaest	2244		2
+šeprtljavost			3
+šesnaest	2244		3
 šest	84733		1
 šestoprst			2
 šiljast	17		2
 širokogrudost			2
 šištavost			3
-škakljivost		M	2
-škodljivost		M	2
+škakljivost		M	3
+škodljivost		M	3
 školjkast			2
 školovanost			2
 škrofuloznost			2
@@ -2978,21 +2978,21 @@ zvučnost	57		2
 šokiranost	22		2
 špicast			2
 štapićast			2
-štedljivost	161		2
+štedljivost	161		3
 štetnost	686		2
 štitast			2
 štrkljast			2
 šturost	12		2
 šugavost			3
-šumovitost			2
-šupljikavost			2
+šumovitost			3
+šupljikavost			3
 žalost	21963		2
 žarkost			2
 žbunast		M	2
 želatinast			2
 ženskast			2
 ženskost	56		2
-ženstvenost	438		2
+ženstvenost	438		3
 žest			1
 žestokost			2
 žgoljavost			3
@@ -3007,33 +3007,33 @@ zvučnost	57		2
 životvornost	14		2
 živčanost			2
 žlebast			2
-žuljevitost			2
+žuljevitost			3
 žurnalist			2
 žurnost		M	2
 žućkast	75		2
-žučljivost			2
+žučljivost			3
 žučnost		M	2
-bezbjednost			2
-bijednost			2
+bezbjednost			3
+bijednost			3
 bjelokost			3
 djelatnost			2
-djetinjast			2
-ispovijest	70		3
-istovjetnost			2
+djetinjast			3
+ispovijest	70		4
+istovjetnost			3
 nedosljednost			4
 neizvjesnost			4
 nesvijest	56		3
 nesvjest			2
-opsjednutost			3
-osjetljivost			2
+opsjednutost			2
+osjetljivost			3
 osjećajnost			2
 otmjenost			2
 podsvijest	39		3
-povjerljivost			2
+povjerljivost			3
 povjest			2
 rijetkost	171		2
 riješenost	17		3
-samouvjerenost			3
+samouvjerenost			4
 savijest			3
 savjest			2
 sjest			1
@@ -3045,8 +3045,8 @@ svjesnost		M	2
 svjetlost			2
 tjelesnost			2
 umiješanost	52		2
-umjerenost			3
-umjetnost			2
+umjerenost			4
+umjetnost			3
 uspješnost			2
 vijest	1599		1
 vjernost		M	2

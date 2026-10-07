@@ -8,7 +8,7 @@ beznogi			2
 bitangi	115		2
 blagi	4088		2
 bljuzgi			2
-bosonogi	135		2
+bosonogi	135		3
 brzonogi	144		2
 centrifugi	21		2
 cugi			2
@@ -16,7 +16,7 @@ dragi	15285		2
 drogi	290		2
 drugi	246657		2
 dugi	7397		2
-dugonogi	29		2
+dugonogi	29		3
 dvorogi			2
 evroligi			2
 falangi	55		2
@@ -29,13 +29,13 @@ hedvigi			2
 jednonogi			2
 jednorogi			2
 jogi	358		2
-kacigi	81		2
+kacigi	81		3
 karnegi			2
 kavgi	22		2
 kobajagi			2
 kolegi	1990		2
-kratkonogi	16		2
-krivonogi			2
+kratkonogi	16		3
+krivonogi			3
 lakonogi			2
 ligi	17254		2
 ljagi			2
@@ -76,7 +76,7 @@ tehnologi			2
 tezgi	1464		2
 tojagi			2
 tronogi	11		2
-trorogi	13		2
+trorogi	13		3
 ubogi	345		3
 uslugi			2
 vagi	819		2

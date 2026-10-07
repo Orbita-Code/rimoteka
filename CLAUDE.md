@@ -285,9 +285,10 @@ oblike kojih u srpskom nema (`bankomam`, `akrobaša`, `njakam`, `prošaptam`,
 
 ### 6.2a Rangiranje rima — PRAVA RIMA POČINJE OD NAGLAŠENOG SLOGA (od 05.10.2026)
 
-**„Najbolje rime" = ista akcenatska jedinica kao tražena reč** (deo od naglašenog sloga; kod uzlaznog akcenta od sloga
-iza njega); kad takvih ima manje od 3, rezerva su reči sa akcentom na istom slogu od kraja i istim brojem slogova
-(slȍbodan → pȍgodan). **„Dobre rime" = isti završetak, akcenat drugde.** Redosled unutar grupe: bliži broj slogova → duži zajednički
+**„Najbolje rime" = ista akcenatska jedinica kao tražena reč** (deo od naglašenog sloga; kod uzlaznog akcenta pomak na
+slog iza njega SAMO kad je taj slog dug – tèlevīzor → -izor, ali kániti → -aniti; AK-1, 07.10.2026); kad takvih ima manje
+od 3, rezerva su reči sa akcentom na istom slogu od kraja, istim brojem slogova i zajedničkim završetkom od bar 2 sloga
+(slȍbodan → pȍgodan, prírodan; ne bezvredan – AK-2, 07.10.2026). **„Dobre rime" = isti završetak, akcenat drugde.** Redosled unutar grupe: bliži broj slogova → duži zajednički
 završetak → učestalost. Podatak o akcentu po reči: `public/akcenat.txt` (+ `_jekavica`), pravi `build/akcenat.py`
 (Wiktionary + srLex + pravila) – **pokreće se posle svake izmene rečnika, pre `kante.py`**.
 
@@ -317,7 +318,9 @@ Kod: `app.js` `doRhymes` (`strong.sort`, podela `istaJedinica`), `gen_pages.py` 
 
 > **ZABRANJENO tvrditi bilo šta o redosledu rima bez pokretanja pravog algoritma** (30.07.2026. je sesija vlasnici
 > prijavila broj koji na sajtu ne postoji jer je simulirala samo jedno merilo). Za proveru: `scripts/akcenti-simulacija.py <reč>`
-> ili otvoriti sajt. Primer stvarnog stanja od 05.10.: „sloboda" → voda, loboda, naroda u „Najbolje"; vojvoda u „Dobre".
+> ili otvoriti sajt (`--nasumicno 20` daje tabelu nasumičnih reči za pregled vlasnici – obavezno pre objave promene
+> pravila, PROPUSTI 07.10.). Primer stvarnog stanja od 07.10.: „sloboda" → loboda, voda, metoda u „Najbolje"; naroda
+> (národa, -aroda) i vojvoda u „Dobre"; „kaniti" → raniti, braniti u „Najbolje", goniti u „Dobre".
 
 ### 6.2c Reč BEZ frekvencije pada ispod reči koja se pojavila JEDAN put
 

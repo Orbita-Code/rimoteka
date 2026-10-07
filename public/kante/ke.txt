@@ -7,41 +7,41 @@ Hrvatske	13159		2
 Irake			2
 Irske	551		2
 Mađarske	4572		3
-Mozambike			2
-Nemačke	12109		2
-Njemačke		J	2
-Norveške	771		2
+Mozambike			3
+Nemačke	12109		3
+Njemačke		J	3
+Norveške	771		3
 Poljske	2246		2
 Slovačke	1095		2
 Turske	7548		2
 adolescentske	53		2
 advokatske	1692		2
-aerodinamike	209		2
-aerodromske	416		2
-aeronautike	53		2
+aerodinamike	209		3
+aerodromske	416		3
+aeronautike	53		3
 afrikanke			2
 afrikanske			2
 afrike			2
-afričke	1634		2
+afričke	1634		3
 agaluke			2
 agencijske	176		2
-agnostike	19		2
+agnostike	19		3
 agogike			2
-agresorske	74		3
+agresorske	74		4
 ajvarke			2
-akademike	210		2
-akademske	5079		2
+akademike	210		3
+akademske	5079		3
 akcenatske	12		2
 akcijske	241		2
-akrobatike	53		2
-akrobatske	100		2
+akrobatike	53		3
+akrobatske	100		3
 aksiološke			2
 aktovke	23		3
-akustike	199		2
-akustičke	116		2
+akustike	199		3
+akustičke	116		3
 akušerske			2
 alaske			2
-alatke	2195		2
+alatke	2195		3
 alatljike			2
 albanke	102		2
 albanske	4836		2
@@ -64,23 +64,23 @@ amazonske	32		2
 ambasadorke			2
 amerikanke			2
 amerike			2
-američke	25261		2
+američke	25261		3
 amerke			2
 analgetike	113		2
-analitike	455		2
-analitičke	829		2
-anarhističke	56		2
-anatomske	159		2
-anegdotske	19		2
-anestetike	37		2
-anglistike	56		2
+analitike	455		3
+analitičke	829		3
+anarhističke	56		3
+anatomske	159		3
+anegdotske	19		3
+anestetike	37		3
+anglistike	56		3
 angorske			2
 ankarske			2
 anke			2
 antarktike			2
 antarktičke			2
-antibiotike	1352		2
-antike	680		2
+antibiotike	1352		3
+antike	680		3
 antilopske			2
 antipsihotike			2
 antiromske			2
@@ -90,7 +90,7 @@ antisrpske	713		2
 antiterorističke	280		2
 antiturske			2
 antiverske			2
-antičke	317		2
+antičke	317		3
 antologijske	180		2
 anđelike			2
 anđelke			2
@@ -102,35 +102,35 @@ apotekarke			2
 apotekarske	107		2
 apoteke	3475		2
 aprilske	207		2
-arabeske	66		2
-arapske	1770		2
+arabeske	66		3
+arapske	1770		3
 arbanaske			2
 arbanaške	116		2
 argentinske	325		2
 arhajske	38		2
-arheološke	360		2
+arheološke	360		3
 arhetipske	154		2
 arhitektonske	1344		2
 arhivske	1528		2
 arijevske	19		2
-aristokratske	36		2
-aritmetike	80		2
+aristokratske	36		3
+aritmetike	80		3
 arktičke	42		2
 armijske	120		2
 arnautske	57		2
 arterijske	42		3
 artiljerijske	294		2
-artističke	29		2
+artističke	29		3
 artičoke	139		2
 aske			2
 asketske	26		2
-astrofizike	312		2
-astrološke	88		2
-astronomske	1550		2
+astrofizike	312		3
+astrološke	88		3
+astronomske	1550		3
 ateističke	49		2
 atinske	229		2
-atlantske	245		2
-atletike	757		2
+atlantske	245		3
+atletike	757		3
 atletske	821		2
 atmosferske	447		2
 atomske	1434		2
@@ -139,29 +139,29 @@ aukcijske	308		2
 australijske	651		3
 australske	19		2
 austrijske	3078		2
-austrougarske	1461		2
+austrougarske	1461		3
 autobuske	2313		2
 automatike	396		2
-automatske	1402		2
-automobilske	1944		2
+automatske	1402		3
+automobilske	1944		3
 autorke	2450		2
-autorske	1279		3
-avanturističke	131		2
+autorske	1279		4
+avanturističke	131		3
 avganistanske	354		2
 avgustovske	128		2
 avijacijske	36		2
-avionske	403		2
+avionske	403		3
 avlijske			2
 avnojevske	130		2
 avnojske	43		2
-azbuke	503		2
-azijatske	22		2
+azbuke	503		3
+azijatske	22		3
 azijske	1111		3
 babske			2
 babuške	230		2
 bacačke	22		2
 badnjake	156		3
-bagdadske	13		2
+bagdadske	13		3
 bajke	5285		2
 bajkerske	65		2
 bajkolike			2
@@ -170,13 +170,13 @@ bakterijske	738		2
 balalajke	16		2
 baletanke	404		2
 baletske	639		2
-balistike	33		2
-balističke	201		2
+balistike	33		3
+balističke	201		3
 balkanske	3521		2
 balske	40		2
 baltimorske			2
-baltičke	282		2
-balčake			2
+baltičke	282		3
+balčake			3
 banatske	615		2
 banaćanke			2
 banjaluke			2
@@ -191,7 +191,7 @@ bapske	46		2
 baptističke			2
 barake	484		2
 baranjske	86		2
-barbike	213		2
+barbike	213		3
 barjake	142		2
 barke	224		2
 barske	116		2
@@ -202,7 +202,7 @@ batajničke			2
 batake	122		3
 baterijske	122		2
 batke			2
-bavarske	308		2
+bavarske	308		3
 bazilike	465		2
 bazuke	32		2
 baćuške	80		2
@@ -215,7 +215,7 @@ bednike	60		3
 begovske	36		2
 bejzbolske			2
 belačke			2
-beleške	2414		2
+beleške	2414		3
 beležnike	65		2
 belgijanke			2
 belgijske	589		2
@@ -224,7 +224,7 @@ beloruske	308		4
 belutke			2
 bengalske	11		2
 benzinske	1598		2
-beogradske	12484		2
+beogradske	12484		3
 beograđanke			2
 beočinske			2
 beretke	377		2
@@ -232,11 +232,11 @@ berlinske	293		2
 bernske	51		2
 berzanske	379		2
 beskičmenjake			2
-beskućnike	403		3
+beskućnike	403		4
 besmrtnike	39		3
 besnike			2
 betonske	1385		2
-bezbožnike	54		3
+bezbožnike	54		4
 bezdušnike			2
 bezobrazluke			2
 bezobzirke			2
@@ -251,25 +251,25 @@ bežanijske	150		2
 biblijske	263		2
 bibliotekarke	96		2
 biblioteke	19651		2
-biciklističke	550		2
-bifteke	26		2
+biciklističke	550		3
+bifteke	26		3
 bijeljinske			2
 bike			2
 bilijarske	35		2
 biljarske			2
-bilješke		J	2
+bilješke		J	3
 biljke	12491		2
 binačke			2
 bioetike	167		2
 biofizike	59		2
 biofizičke	37		2
-biografske	235		2
+biografske	235		3
 biohemijske	410		2
-biološke	2281		2
+biološke	2281		3
 biometrijske	271		2
 bioskopske	204		2
 biračke	414		2
-birokratske	631		2
+birokratske	631		3
 biseksualke			2
 biserke	50		2
 biskupske			2
@@ -286,7 +286,7 @@ blizanke	28		2
 bljeske			2
 blokovske	17		2
 bludnike	17		3
-bodljike			2
+bodljike			3
 boemske	31		2
 bogataške	55		2
 bogolike			2
@@ -305,24 +305,24 @@ boljke	422		2
 boljševike	73		2
 boljševičke	60		2
 bolnike			2
-bolničarke	161		3
-bolničke	353		2
+bolničarke	161		4
+bolničke	353		3
 bombarderske	32		2
 bombaške	119		2
-boravke	238		2
+boravke	238		3
 boračke	466		2
 borike	12		2
 borilačke	762		2
 borke			2
 borovnjake			2
 borske	815		2
-bosanske	2164		2
+bosanske	2164		3
 bosanskohercegovačke	170		2
 bosforske			2
-bosiljke			2
+bosiljke			3
 bostonske	67		2
-botanike	141		2
-botaničke	99		2
+botanike	141		3
+botaničke	99		3
 bočke			2
 bošnjake			2
 bošnjačke	3093		2
@@ -341,7 +341,7 @@ brežuljke	78		2
 brijunske			2
 brilijantske			2
 brionske			2
-briselske	580		2
+briselske	580		3
 britanke			2
 britanske	5964		2
 britke	96		2
@@ -361,10 +361,10 @@ brđanske			2
 budake			3
 budilnike			3
 budimske	91		2
-budističke	71		2
+budističke	71		3
 budvanske	214		2
 budžake			2
-budžetske	3319		2
+budžetske	3319		3
 bugarke			2
 bugarske	2419		3
 buke	5831		2
@@ -372,16 +372,16 @@ bulevarske	18		2
 buljuke			2
 bulke	35		2
 bunarske	52		2
-bunike	71		2
+bunike	71		3
 buntovnike	104		3
 buntovničke	13		2
 burke	131		2
 burleske	104		2
-burmanske	32		2
+burmanske	32		3
 burske			2
 buržoaske	73		2
 buržujske			2
-butike	195		2
+butike	195		3
 cake			2
 carinike	298		4
 carinske	2838		3
@@ -391,7 +391,7 @@ cediljke	27		2
 cenovnike	438		2
 centaurske			2
 cenzorske	27		2
-cepidlake	42		2
+cepidlake	42		3
 cerske	124		2
 cetinjske	237		2
 cetinske	21		2
@@ -402,17 +402,17 @@ cigarluke			2
 cike	47		2
 cimerke	79		2
 cincarske	21		2
-cinike	21		2
-ciničke			2
+cinike	21		3
+ciničke			3
 cipelke			2
-cirkuske	78		2
+cirkuske	78		3
 cjediljke			2
-crkvenoslovenske	20		3
-crnačke	33		2
+crkvenoslovenske	20		4
+crnačke	33		3
 crnke	161		2
 crnobarske			2
 crnogorke			2
-crnogorske	4909		3
+crnogorske	4909		4
 crnomorske	313		4
 crpke	17		2
 crtanke			2
@@ -423,11 +423,11 @@ cvetke			2
 cvećke			2
 cvike			2
 cvrčke	41		2
-daktilografske	18		2
-daleke	3700		2
+daktilografske	18		3
+daleke	3700		3
 daljinske	117		2
 dalmatike			2
-dalmatske			2
+dalmatske			3
 damske	47		2
 danske	572		2
 darinke			2
@@ -447,10 +447,10 @@ dekanske			2
 deke	843		2
 delatnike	74		3
 delegatske			2
-demagoške	151		2
+demagoške	151		3
 demografske	860		2
 demokratke			2
-demokratske	30897		2
+demokratske	30897		3
 demonske	311		2
 derviške	13		2
 desanke			2
@@ -461,7 +461,7 @@ deske			2
 desničarke	15		2
 desničarske	702		2
 despotovičke			2
-despotske	18		2
+despotske	18		3
 detektivke	25		2
 detektivske	88		2
 detinjske			2
@@ -475,10 +475,10 @@ dečake	1640		2
 dečačke	92		2
 dečke	34		2
 dešnjake	46		2
-didaktike	88		2
-didaktičke	130		2
-dijagnostike	1720		2
-dijagnostičke	820		2
+didaktike	88		3
+didaktičke	130		3
+dijagnostike	1720		3
+dijagnostičke	820		3
 dijahronijske			2
 dijalekatske	26		2
 dijalektike	308		2
@@ -490,7 +490,7 @@ dilerske	115		2
 diljke			2
 dimničarske			2
 dimnjake	179		3
-dinamike	2062		2
+dinamike	2062		3
 dinamičke	696		2
 dinarke			2
 dinarske	764		2
@@ -498,7 +498,7 @@ dinastijske			2
 dinastičke	114		2
 dinovke			2
 dionike			2
-diplomatske	2725		2
+diplomatske	2725		3
 diplomske	505		2
 direke			2
 direktorke	2239		2
@@ -512,46 +512,46 @@ diverzantske	55		2
 divizijske			2
 divljake	193		2
 divljačke	36		2
-divovske	110		2
+divovske	110		3
 dizajnerske	654		2
 dlake	4255		2
 dnevnike	509		3
 dnevničke	124		2
 dobitke	446		2
-dobitnike	522		3
+dobitnike	522		4
 dobrosusedske	416		2
 dobrovoljačke	317		2
 dodatke	1953		2
 dodolske			2
 dodvoričke			2
 dogmatike	117		2
-dogmatske	185		2
-dohotke	309		2
+dogmatske	185		3
+dohotke	309		3
 dojke	7602		2
 dojranske			2
 doktorke	718		2
 doktorske	2066		3
 dolarske	66		2
-dolaske	213		2
+dolaske	213		3
 dolaznike			2
 domaćinske	52		2
 dominikanske			2
 domorodačke	27		2
-domovinske			3
+domovinske			4
 donatorske	420		2
-dopisnike	92		3
+dopisnike	92		4
 dopisničke	19		2
-dopunske	1055		2
-doručke	24		2
+dopunske	1055		3
+doručke	24		3
 dorćolske			2
 doseljenike	169		2
 dosetke	256		2
 doskoke			2
-doušnike	60		3
+doušnike	60		4
 dovratke			2
 dovratnike	15		2
 doznake	534		2
-dočeke	93		2
+dočeke	93		3
 došljake	101		2
 drakonske	387		2
 dramatike	104		2
@@ -573,9 +573,9 @@ državnike	302		2
 državničke	160		3
 dubinske	183		2
 dublerke			2
-duboke	4418		2
+duboke	4418		3
 dubravke			2
-dubrovačke	752		3
+dubrovačke	752		4
 dugačke	1851		2
 duhovnike	74		2
 duhovničke			2
@@ -588,7 +588,7 @@ duvaljke	60		2
 duvanske	1055		2
 duvačke	86		2
 dušanke			2
-dušeke	237		2
+dušeke	237		3
 duške			2
 dušmanske			2
 dušničke			2
@@ -601,20 +601,20 @@ dvojezičke			2
 dvojke	1592		2
 dvojnike	82		3
 dvorske	227		2
-dvostruke	1319		2
+dvostruke	1319		3
 dvotačke			2
 džanarike			2
 džinovske	476		3
 džokerske			2
 egejske	59		2
-egipatske	1024		3
+egipatske	1024		4
 egipćanke			2
 egoističke			2
-egzotike	176		2
-ekavske			2
-ekološke	6597		2
+egzotike	176		3
+ekavske			3
+ekološke	6597		3
 ekonomike	230		2
-ekonomske	36952		2
+ekonomske	36952		3
 ekspertske	730		2
 ekspresionističke	20		2
 ekumenske	30		2
@@ -622,18 +622,18 @@ ekvatorske			2
 elektrike	137		2
 električarske	19		2
 elektromagnetske	41		2
-elektronike	3046		2
+elektronike	3046		3
 elektronske	9386		2
 elektrostatičke	11		2
-elektrotehnike	1739		2
+elektrotehnike	1739		3
 elizejske			2
 empirijske	157		2
 endemske	163		2
-energetike	8695		2
+energetike	8695		3
 energetske	9042		2
 engleske	2810		2
 enigmatike	89		2
-enklitike	20		2
+enklitike	20		3
 entitetske	198		2
 eparhijske			2
 epike	295		2
@@ -641,15 +641,15 @@ epirske			2
 episkopske	163		2
 epske	271		2
 erotike	353		2
-erotske	365		2
+erotske	365		3
 esejistike	94		2
 esnafske			2
-estetike	1741		2
+estetike	1741		3
 estetske	1869		2
-etike	3244		2
-etimološke	16		2
-etiopske	16		2
-etičke	1014		2
+etike	3244		3
+etimološke	16		3
+etiopske	16		3
+etičke	1014		3
 etnike	18		2
 etničke	3962		2
 etnografske	230		2
@@ -661,13 +661,13 @@ eureke			2
 evanđeoske			2
 evolucijske			2
 evropejke			2
-evropske	78434		2
+evropske	78434		3
 ečke			2
-fabrike	23758		2
-fabričke	449		2
-faktičke	226		2
+fabrike	23758		3
+fabričke	449		3
+faktičke	226		3
 fakultetske	169		2
-fanatike	147		2
+fanatike	147		3
 fanatičke			2
 fantastike	2943		2
 fantomske	400		2
@@ -676,10 +676,10 @@ farisejske			2
 farmaceutske	2242		2
 farmerke	1476		2
 farmerske	42		2
-fašističke	430		2
+fašističke	430		3
 februarske	245		4
 federacijske			2
-feminističke	186		2
+feminističke	186		3
 feničanske	29		2
 fenomenološke	70		2
 fijakerske			2
@@ -688,7 +688,7 @@ fijuke			2
 filipike	15		2
 filipinske	24		2
 filmske	5669		2
-filološke	87		2
+filološke	87		3
 filosofske	194		2
 filozofske	1355		2
 finansijske	21048		2
@@ -696,18 +696,18 @@ finke			2
 finske	942		2
 fioke	719		2
 firentinske	42		2
-fizike	6190		2
-fiziološke	661		2
-fizičke	5334		2
+fizike	6190		3
+fiziološke	661		3
+fizičke	5334		3
 fišeke			2
 flamanske	27		2
 flanelske			2
 fleke	1296		2
 foke	368		2
 folke			2
-fonetike	88		2
-fonetske	22		2
-fonološke	20		2
+fonetike	88		3
+fonetske	22		3
+fonološke	20		3
 fonoteke	21		2
 forenzike	121		2
 forenzičke	215		2
@@ -732,7 +732,7 @@ galenske	40		2
 galerijske	61		2
 galičke			2
 galopske	46		2
-gangsterske	36		2
+gangsterske	36		3
 gardijske	15		2
 gastronomske	130		2
 gatarske			2
@@ -740,19 +740,19 @@ gatke			2
 gazdinske			2
 generalske	47		2
 generičke	203		2
-genetike	916		2
-genetičke	191		2
+genetike	916		3
+genetičke	191		3
 genetske	1323		2
 genske	201		2
 geodetske	231		2
-geografske	2081		2
+geografske	2081		3
 geološke	294		2
 geometrijske	452		2
 geopoetike			2
 gerilske	54		2
 germanske	97		2
-gigantske	297		2
-gimnastike	535		2
+gigantske	297		3
+gimnastike	535		3
 gimnastičarke	72		2
 gimnastičke	75		2
 gipke			2
@@ -783,11 +783,11 @@ gorštake	37		2
 gorštačke			2
 gospićke	11		2
 gospodarske	384		2
-gospodske	64		2
+gospodske	64		3
 gostinjske	19		2
 gostinske	89		2
 gotike	172		2
-gotičke	30		2
+gotičke	30		3
 gotovinske	336		2
 gotske	154		2
 govornike	264		3
@@ -797,8 +797,8 @@ gradske	30279		2
 grafijske			2
 grafike	3103		2
 grafičke	2202		2
-gramatike	1099		2
-gramatičke	336		2
+gramatike	1099		3
+gramatičke	336		3
 gramofonske	78		2
 graničarske	49		2
 granske	87		2
@@ -807,7 +807,7 @@ gračanke			2
 gračke			2
 građanke	983		3
 građanske	4754		3
-građevinske	7668		3
+građevinske	7668		4
 graške	79		2
 grdeličke			2
 greške	21768		2
@@ -827,7 +827,7 @@ gruzinske			2
 grčke	5761		2
 gubitaške	18		2
 gubitke	6247		2
-gubitnike	350		3
+gubitnike	350		4
 gubitničke	105		2
 gudačke	51		2
 gurmanske	45		2
@@ -842,7 +842,7 @@ habsburške	12		2
 habzburške			2
 hadžijske	11		2
 hadžike			2
-hagiografske			2
+hagiografske			3
 hajduke			2
 hajdučke	91		2
 hajke	645		2
@@ -852,7 +852,7 @@ handke			2
 hanke			2
 hardverske	631		2
 haremske	14		2
-harmonike	577		2
+harmonike	577		3
 havajske	21		2
 havarijske	19		2
 hazarske	18		2
@@ -863,10 +863,10 @@ helanke		M	2
 helenske	34		2
 helsinške			2
 hemijske	3456		2
-heraldike	78		2
-hercegovačke	246		4
+heraldike	78		3
+hercegovačke	246		5
 hercegovke			2
-hermetičke	46		2
+hermetičke	46		3
 heroike			2
 heroinske	54		2
 herojske	118		2
@@ -874,8 +874,8 @@ heruvimske			2
 hidraulike	173		2
 hidrološke	97		2
 higijenske	843		4
-hiljadarke	83		3
-hipike	24		2
+hiljadarke	83		4
+hipike	24		3
 hipnotičke	20		2
 hipoteke	1557		2
 hirurške	1441		2
@@ -884,50 +884,50 @@ hladnjake	224		3
 hodnike	455		3
 hodočasnike	136		5
 hokejaške	19		2
-holandske	1249		2
+holandske	1249		3
 holanđanke			2
 holivudske	1089		2
 holografske	27		2
 homeopatske	72		2
 hormonske	265		2
 horske	319		2
-hotelske	932		2
+hotelske	932		3
 hraniteljske	281		2
 hrenovke	10		2
 hrišćanke	121		2
 hrišćanske	4804		2
-hronike	1111		2
-hronološke	49		2
+hronike	1111		3
+hronološke	49		3
 hrvatske	13159		2
 hrčke	51		2
 huke	48		2
 hulahopke	164		2
-humanističke	375		2
+humanističke	375		3
 humke	325		2
-humorističke	106		2
+humorističke	106		3
 humske	14		2
 hunske			2
 husarske	16		2
 hvataljke	122		2
 ibarske			2
 ibrike			2
-ideološke	1569		2
-idiotske	88		2
+ideološke	1569		3
+idiotske	88		3
 igranke	346		2
-igračke	5631		2
-ikavske			2
+igračke	5631		3
+ikavske			3
 ilinke			2
 ilirske	188		2
-iluzionističke	19		2
+iluzionističke	19		3
 imenike	51		4
 imeničke	35		2
 imenske			3
 imetke	20		2
-imovinske	1100		3
+imovinske	1100		4
 imperatorke			2
-imperijalističke	115		2
+imperijalističke	115		3
 impresionističke	40		2
-imunološke	221		2
+imunološke	221		3
 indijanke			2
 indijanske	128		2
 indijke			2
@@ -935,7 +935,7 @@ indijske	1236		2
 indoevropske	31		2
 induske			2
 industrijske	7469		2
-informatike	4123		2
+informatike	4123		3
 informatičke	1566		2
 inkvizitorske	13		3
 insajderske	117		2
@@ -953,12 +953,12 @@ iseljenike	123		2
 iseljeničke	23		2
 isečke	256		2
 ishemijske	114		2
-iskonske	106		2
+iskonske	106		3
 iskorake	164		4
 iskušenike			2
 islamističke	403		2
 islamske	7704		2
-islandske	144		2
+islandske	144		3
 islednike	15		2
 isledničke			2
 ispitanike	221		2
@@ -967,10 +967,10 @@ ispolinske			2
 isporuke	6653		4
 isposnike	18		2
 isposničke	20		2
-ispravke	1342		2
+ispravke	1342		3
 istarske	35		3
 istinske	2372		3
-istomišljenike	400		4
+istomišljenike	400		5
 istorijske	10170		2
 istoriografske	120		2
 istoričarke	192		2
@@ -998,7 +998,7 @@ izgnanike			2
 izgnaničke			2
 izgrednike	131		2
 izlagačke	99		2
-izlaske	1054		2
+izlaske	1054		3
 izletnike	109		2
 izlike			3
 izmirske			2
@@ -1008,7 +1008,7 @@ izraelske	1611		4
 izreke	1460		3
 izuzetke	667		2
 izvatke			2
-izvidnike	10		3
+izvidnike	10		4
 izvidničke			2
 izviđačke	99		2
 izvorske	46		2
@@ -1037,9 +1037,9 @@ japodske			2
 jarebike	10		2
 jarke	469		2
 jaseničke			2
-jasike	67		2
+jasike	67		3
 jasminke			2
-jastuke	630		2
+jastuke	630		3
 jatake	88		3
 jauke	99		3
 javorke			2
@@ -1048,14 +1048,14 @@ jedinačke			2
 jedinke	1794		2
 jednake	3659		3
 jednocevke			2
-jednolike	15		2
+jednolike	15		3
 jednometke			2
 jednomišljenike			2
-jednooke	13		2
+jednooke	13		3
 jednoruke			4
 jednočinke	54		2
 jedrenjake	14		2
-jekavske		J	2
+jekavske		J	3
 jeke	42		2
 jektike			2
 jeleke			2
@@ -1074,13 +1074,13 @@ jetke	30		2
 jevrejke			2
 jevrejske	2576		2
 jezerske	26		3
-jezike	4571		2
-jezičke	1399		2
+jezike	4571		3
+jezičke	1399		3
 jezuitske	18		2
 joke			2
 jonske	158		2
 jordanke			2
-jordanske	68		2
+jordanske	68		3
 jovanke			2
 jufke			2
 jugobanke			2
@@ -1110,7 +1110,7 @@ kadrovske	1620		2
 kafanske	343		2
 kafke			2
 kairske			2
-kajkavske			2
+kajkavske			3
 kake	155		2
 kalifornijske	309		2
 kalorijske	59		2
@@ -1122,7 +1122,7 @@ kamerunske			4
 kamilavke			2
 kamperske	13		2
 kamčatke			2
-kanadske	1005		2
+kanadske	1005		3
 kancelarijske	441		2
 kandidatske	34		2
 kanibalske			2
@@ -1131,18 +1131,18 @@ kanonske	329		2
 kanske			2
 kantarske			2
 kapetanske	31		2
-kapitalističke	259		2
+kapitalističke	259		3
 kapke	514		2
 kaprike			2
-karakteristike	16429		2
+karakteristike	16429		3
 karaoke	496		2
 karbonske	40		2
-karike	545		2
-karipske	87		2
+karike	545		3
+karipske	87		3
 karlovačke	535		2
 karnevalske	228		2
 kartaške	16		2
-kartografske	27		2
+kartografske	27		3
 kartonske	543		2
 kartoteke	79		2
 kasačke	24		2
@@ -1157,24 +1157,24 @@ katedarske			2
 katolike	479		4
 katoličke	594		4
 kaubojke			2
-kaubojske	66		3
+kaubojske	66		4
 kaurske			2
 kavanske			2
-kavkaske	107		2
+kavkaske	107		3
 kazablanke			2
 kazaljke	726		2
 kazanjske			2
 kazanske	33		2
 kazuistike			2
 kaćiperke			2
-kašike	3132		2
+kašike	3132		3
 kažnjenike	11		4
 kažnjeničke			2
 kelnerske			2
 keltske	128		2
-keramike	1996		2
-keramičke	623		2
-kibernetike			2
+keramike	1996		3
+keramičke	623		3
+kibernetike			3
 kicoške			2
 kijevske	268		2
 kike	157		2
@@ -1193,7 +1193,7 @@ kitke			2
 kićanke	24		2
 kladovske	70		2
 klasicističke	21		2
-klasike	904		2
+klasike	904		3
 klasičke			2
 klavirske	59		2
 kleke			2
@@ -1249,10 +1249,10 @@ komitetske			2
 komitske	29		2
 komorske	65		2
 kompjuterske	2556		2
-komunističke	4941		2
+komunističke	4941		3
 komšijske	346		2
 komšike			2
-konake	135		2
+konake	135		3
 kondukterske			2
 konfederacijske			2
 konferencijske	337		2
@@ -1273,7 +1273,7 @@ korejske	291		2
 korektorske			2
 korenske			2
 korintske	17		2
-korisnike	15365		3
+korisnike	15365		4
 korisničke	979		2
 korovske	232		2
 korporacijske	100		2
@@ -1288,17 +1288,17 @@ kosovke			2
 kosovske	9993		3
 kostarike			2
 kostolačke	74		2
-kotarske			2
+kotarske			3
 kotorske	222		3
 koturaljke			2
 kovačke	40		2
 kovinske	349		2
 kozake	67		2
 kozačke	42		2
-kozmetike	1298		2
+kozmetike	1298		3
 kozmetičarke	68		2
-kozmetičke	1007		2
-kozmičke	17		2
+kozmetičke	1007		3
+kozmičke	17		3
 košarkaške	2244		2
 košarke	3454		2
 košmarske			2
@@ -1310,7 +1310,7 @@ krajnike	143		3
 krajolike	64		4
 krake	93		2
 kraljevačke	479		2
-kraljevske	2993		2
+kraljevske	2993		3
 kranjske	32		2
 kratke	6748		2
 kraške	37		2
@@ -1323,22 +1323,22 @@ krfske			2
 krhke	429		2
 krijumčarske	23		2
 krike	238		2
-kriminalistike	132		2
-kriminalističke	109		2
+kriminalistike	132		3
+kriminalističke	109		3
 kriminalke			2
-kriminološke	22		2
+kriminološke	22		3
 krimske			2
 krinke	12		2
 kriptičke			2
 kritike	13629		2
-kritičarke	73		3
-kritičke	619		2
+kritičarke	73		4
+kritičke	619		3
 kritske	57		2
 kriške	789		2
 krke			2
 krmke	11		2
 krojačke	38		2
-krokodilske	160		2
+krokodilske	160		3
 kronike			2
 krotke	73		2
 krstaške	116		2
@@ -1348,7 +1348,7 @@ krunske	31		2
 kruševačke	533		2
 kruške	1571		2
 kruškolike	15		2
-kružoke	31		2
+kružoke	31		3
 krvnike	69		3
 krvničke			3
 krčmarske			3
@@ -1379,13 +1379,13 @@ kuvarske			2
 kućepaziteljke			2
 kvake	342		2
 kvantaške	147		2
-kvislinške	210		2
+kvislinške	210		3
 kvočke	63		2
 kćerke	1360		2
 laboratorijske	1580		3
 laburističke	11		2
-laike	198		2
-laičke	63		2
+laike	198		3
+laičke	63		3
 lajmske			2
 lake	3519		2
 lakirovke			2
@@ -1396,7 +1396,7 @@ lanjske	42		2
 larnake			2
 laserske	253		2
 lasvegaske			2
-latiničke	23		2
+latiničke	23		3
 latinke			2
 latinske	2228		2
 lavovske	13		2
@@ -1405,7 +1405,7 @@ lekarke	128		2
 lekarske	1005		2
 leke			2
 leksike	230		2
-leksičke	70		2
+leksičke	70		3
 lektorske	31		2
 lenke			2
 lepenke	69		2
@@ -1416,7 +1416,7 @@ letačke	61		2
 letke	630		2
 levantinske			2
 levičarske	223		2
-levoruke	113		2
+levoruke	113		3
 lezbejke	501		2
 lezbejske	115		2
 lezbijke	145		2
@@ -1424,7 +1424,7 @@ lezbijske	19		2
 lečnike			3
 lešnike	303		3
 ležaljke	960		2
-ležećke			2
+ležećke			3
 libanske	136		2
 libijske	866		3
 liderske	975		2
@@ -1434,13 +1434,13 @@ like	462		2
 limarske	43		3
 limenke	811		2
 limunske	85		2
-lingvistike	783		2
+lingvistike	783		3
 lirike	510		2
 lirske	280		2
 lisabonske	134		2
 lisičarke	40		2
 litvanske	129		2
-livadske	58		2
+livadske	58		3
 ličinke	53		2
 ličke	145		2
 lješnjake	15	J	3
@@ -1449,7 +1449,7 @@ ljubavničke	30		3
 ljubinke			2
 ljubiteljke			2
 ljubljanske	783		2
-ljudožderske			2
+ljudožderske			3
 ljudske	16519		2
 ljuljačke	12		2
 ljuljaške	430		2
@@ -1458,18 +1458,18 @@ ljuske	605		2
 ljutike			2
 lobanjske		M	2
 lobističke	142		2
-logaritamske			2
+logaritamske			3
 logike	4390		2
 logistike	1252		2
 logističke	571		2
-logičke	790		2
+logičke	790		3
 logoraške			2
 logorske	51		2
 londonske	765		2
 lončarske			2
-lopovske	123		2
+lopovske	123		3
 losanđeleske	21		2
-lovačke	971		2
+lovačke	971		3
 lovorike	157		2
 lovćenske			2
 lozinke	2220		2
@@ -1494,17 +1494,17 @@ magijske	326		2
 magmatske	35		2
 magnetofonske	12		2
 magnetske	42		2
-mahunarke	428		3
+mahunarke	428		4
 majevičke			2
 majke	22335		2
-majmunske	34		2
+majmunske	34		3
 majolike	20		2
 majorke			2
 majorske			2
 majske	543		2
 majstorske	231		2
 majčinske	46		3
-makadamske	20		3
+makadamske	20		4
 makarske	25		2
 make			2
 makedonke			2
@@ -1512,16 +1512,16 @@ makedonske	1775		2
 makroekonomske	1216		2
 malecke			2
 malinjake	75		2
-malograđanske	151		3
+malograđanske	151		4
 maloletnike	703		5
 maloletničke	221		5
 malovaroške			2
-mamurluke	11		2
+mamurluke	11		3
 mamutske	19		2
 manastirske	1061		4
 manekenke	1048		2
 manevarske	96		2
-manijake	102		3
+manijake	102		4
 manioke	11		2
 manjinske	1818		2
 maratonske	300		2
@@ -1529,13 +1529,13 @@ marinske			2
 marke	8870		2
 marketinške	2421		2
 marksističke			2
-marokanske	63		2
+marokanske	63		3
 marsovske	16		3
 martovske	267		3
 maserke	21		2
 maske	4119		2
 maslačke	14		2
-maslinjake	59		3
+maslinjake	59		4
 maslinke			2
 masonske	96		2
 mastike	39		2
@@ -1560,14 +1560,14 @@ medenjake	78		2
 medicinske	9778		4
 medijske	9536		3
 mediteranske	958		2
-mehanike	1247		2
+mehanike	1247		3
 mehaničarske	28		2
-mehaničke	868		2
+mehaničke	868		3
 mehanske			2
 meke	1443		2
 meksikanke			2
 meksikanske			2
-meksičke	505		2
+meksičke	505		3
 melodijske	57		2
 melodike	21		2
 membranske	56		2
@@ -1580,14 +1580,14 @@ mesečnike			2
 mesijanske	24		2
 mesožderke	16		2
 metaboličke	448		2
-metafizike	543		2
+metafizike	543		3
 metafizičke	137		2
 metaloprerađivačke			2
 metalske	409		2
 metalurške	47		2
 metapodatke	67		2
 metarske	45		2
-meteorološke	777		2
+meteorološke	777		3
 meteorske	31		2
 metke	379		2
 metlike			2
@@ -1595,8 +1595,8 @@ metodike	361		2
 metodičke	43		2
 metodske	20		2
 metohijske			2
-metrike	90		2
-metričke	31		2
+metrike	90		3
+metričke	31		3
 mečke			2
 međugradske	48		2
 međukarike			2
@@ -1631,12 +1631,12 @@ misionarske	62		2
 misirske			2
 mistike	298		2
 mističke	53		2
-mitološke	176		2
+mitološke	176		3
 mitraljeske			2
 mitrovičke	14		2
 mitske	226		2
 miške			2
-mišolovke	38		3
+mišolovke	38		4
 mladalačke	335		2
 mladenačke	16		2
 mladenke			2
@@ -1650,7 +1650,7 @@ mlečike			2
 mlinarske			2
 mlinske	14		2
 mnogolike			2
-mnogostruke	194		2
+mnogostruke	194		3
 mnogoteške			2
 množinske			2
 modemske	36		2
@@ -1684,15 +1684,15 @@ mormonske			2
 mornaričke	54		2
 mornarske	40		2
 morske	2759		2
-moskovske	1208		2
+moskovske	1208		3
 mostarske	187		2
 motelske			2
-motike	705		2
+motike	705		3
 motke	455		2
 motociklističke	13		2
 motorike	333		2
 motoričke	301		2
-mozaike	130		2
+mozaike	130		3
 mozaičke	22		2
 moćnike	242		3
 mrake	16		2
@@ -1711,7 +1711,7 @@ muslimanke	207		2
 muslimanske	3495		2
 mutantske			2
 muzejske	803		2
-muzike	26147		2
+muzike	26147		3
 muzičke	10543		2
 mućke	243		2
 mučenike	602		4
@@ -1721,9 +1721,9 @@ muške	4410		2
 mužjake	163		3
 nabavke	11889		2
 nabavljačke			2
-nacionalističke	1524		2
-nacističke	382		2
-nadimke	246		2
+nacionalističke	1524		3
+nacističke	382		3
+nadimke	246		3
 nadljudske	122		3
 nadmorske	64		2
 nadnebeske			2
@@ -1732,12 +1732,12 @@ nadrealističke	35		2
 nadsvetske			2
 nadzornike	51		3
 nadžake			2
-naglaske	37		2
+naglaske	37		3
 naglavacke			2
 naglavačke	703		2
 nagonske	26		2
 nailaske			2
-najamnike	70		3
+najamnike	70		4
 najamničke	14		2
 najlonke	101		2
 najlonske	60		2
@@ -1745,7 +1745,7 @@ namenske	427		2
 namernike	148		2
 namesnike	56		2
 namesničke			2
-nametnike	19		3
+nametnike	19		4
 nameštaljke	126		2
 naopacke			2
 naopake	151		2
@@ -1753,57 +1753,57 @@ naopačke	696		4
 naočnjake			2
 napadačke	89		2
 napasnike	31		2
-napitke	941		2
+napitke	941		3
 naplatke	74		2
 napolitanke	155		2
 naponske	214		2
 naprednjake	723		2
 naprednjačke	28		2
-napretke	90		2
-napuljske			2
-naputke	16		2
+napretke	90		3
+napuljske			3
+naputke	16		3
 naramke	13		2
-narednike			3
+narednike			4
 nareske	13		2
 naricaljke			2
 narkomanke	31		2
 narkomanske	62		2
-narkotike	476		2
+narkotike	476		3
 narodnjake	459		2
 narodnjačke	62		2
-narodnooslobodilačke	22		3
+narodnooslobodilačke	22		4
 narodske			2
 naseljenike			2
 naseljske			2
 nasilnike	369		3
 nasilničke	65		2
-naslednike	855		3
-nasljednike		J	3
-nastavke	533		2
+naslednike	855		4
+nasljednike		J	4
+nastavke	533		3
 nastavnike	2939		3
 natovske			2
 natraške		M	3
 naturalističke	29		2
 nauke	29079		2
 nautike	218		2
-nautičke	49		2
+nautičke	49		3
 naučenjake			2
-naučnike	1865		3
+naučnike	1865		4
 naučničke			2
 navigacijske	31		2
 navijačke	1114		2
 navike	8895		3
 naviljke			2
 navlake	447		2
-navodnike	345		3
+navodnike	345		4
 nazadačke			2
 nazadnjačke			2
 naznake	1381		3
-načelnike	221		3
+načelnike	221		4
 načelničke	11		2
 načinske			2
 nealbanske	71		2
-nebeske	1737		2
+nebeske	1737		3
 nebraske			2
 nedeljnike	37		2
 nedostatke	4069		2
@@ -1821,7 +1821,7 @@ nekolike	311		2
 nekritičke	48		2
 neljudske	68		3
 nemanjićke	199		2
-nemačke	12109		2
+nemačke	12109		3
 neolitske	183		2
 neonke	246		2
 neonske	85		2
@@ -1829,20 +1829,20 @@ neorganske	90		4
 nepalske			2
 neplanske			2
 neprijateljske	1373		2
-neprilike	675		2
+neprilike	675		3
 neradnike	299		3
 neradničke			2
 nerodimke			2
 nesrećnike	132		2
 nesrpske	167		2
-nestanke	48		2
+nestanke	48		3
 nestašluke			2
-neuke	235		2
-neurološke	476		2
+neuke	235		3
+neurološke	476		3
 neuronske	259		2
 neurotske	15		2
 neutronske	95		2
-nevelike	161		3
+nevelike	161		4
 nevenke			2
 nevernike	163		3
 neverničke	10		3
@@ -1865,14 +1865,14 @@ nizozemske			2
 nišanske	96		2
 niške	2775		2
 njake		M	2
-njemačke		J	2
+njemačke		J	3
 njoke	141		2
 njujorške	630		3
 njuške	290		2
-nomadske	59		2
+nomadske	59		3
 nordijske	310		2
 normanske	31		2
-norveške	771		2
+norveške	771		3
 norvežanke			2
 nosiljke	99		2
 novake	18		3
@@ -1882,15 +1882,15 @@ novinarske	1935		2
 novinske	1749		2
 novogrčke			4
 novopazarske	304		2
-novosadske	3359		2
+novosadske	3359		3
 novčanike	367		2
 nudističke	13		2
 nuklearke	887		2
-numeričke	265		2
+numeričke	265		3
 nunčake			2
 nužnike	20		3
 obalske	241		2
-oberučke	686		2
+oberučke	686		3
 obešenjake			2
 obilaske	349		2
 oblake	1766		3
@@ -1899,12 +1899,12 @@ oblike	7611		3
 oblutke	29		2
 obožavateljke	136		2
 obračunske	51		2
-obroke	2058		2
-obronke	155		2
-obrtničke			3
+obroke	2058		3
+obronke	155		3
+obrtničke			4
 obuke	14805		3
 obućarske			2
-obveznike	1190		3
+obveznike	1190		4
 oceanske			2
 ocenjivačke	11		2
 odbleske	29		2
@@ -1913,24 +1913,24 @@ odbojke	1010		2
 odbornike	2084		2
 odborničke	1988		2
 odeljenske	148		2
-odeljke	204		2
+odeljke	204		3
 odgonetke	29		2
 odistinske			2
 odjeke	198		3
-odlaske	523		2
+odlaske	523		3
 odlike	2888		3
 odlivke			2
-odlomke	710		2
+odlomke	710		3
 odluke	58206		3
-odmetnike	55		3
+odmetnike	55		4
 odmetničke	10		2
-odreske	84		2
-odseke	127		2
+odreske	84		3
+odseke	127		3
 odsečke	13		2
 oduške	43		2
 odžake			2
 oficirske			2
-ogranke	371		2
+ogranke	371		3
 ohridske	453		2
 okeanske	141		2
 okovratnike			2
@@ -1943,21 +1943,21 @@ olimpijke	37		2
 olimpijske	4709		2
 olovke	1591		2
 oltarske	131		2
-oluke	203		2
-omaške	178		2
+oluke	203		3
+omaške	178		3
 omladinke			2
 omladinske	839		2
 omorike	184		2
 oniske	11		2
 onkološke	75		2
-onolike	383		2
+onolike	383		3
 onomlanjske			2
-ontološke	59		2
+ontološke	59		3
 opake	662		3
 opalske			2
-opanke	388		2
+opanke	388		3
 opančarske			2
-opaske	694		2
+opaske	694		3
 opeke	1149		3
 operacijske			2
 operetske			2
@@ -1965,12 +1965,12 @@ operske	518		2
 opiljke	44		2
 oporuke	52		4
 opravke	516		2
-optike	779		2
+optike	779		3
 optimističke	161		2
 optičarske	23		2
 optičke	636		2
 optuženike	196		2
-opuške	106		2
+opuške	106		3
 opšivke			2
 opšteljudske			2
 opštinske	7656		2
@@ -1981,7 +1981,7 @@ organske	949		2
 orguljaške			2
 orguljske			2
 orkanske	21		2
-orlovske			2
+orlovske			3
 ortake	152		2
 ortakluke			2
 ortoepske			2
@@ -1990,38 +1990,38 @@ orvelovske	38		2
 osake			2
 oseke	292		3
 osječke			2
-oslobodilačke	974		3
+oslobodilačke	974		4
 osmanlijske	209		2
-osmanske	466		2
+osmanske	466		3
 osmatračke	29		2
 osmoletke	63		2
 osmorke	85		2
 osnivačke	70		2
 osovinske	23		2
-ostanke	10		2
+ostanke	10		3
 ostatke	3470		2
 ostavke	4305		2
 ostrvske	337		2
 osumnjičenike			2
 osuđenike	178		2
 osvajačke	167		2
-osvetnike	37		3
+osvetnike	37		4
 osvetničke	63		2
 otadžbinske	14		2
 otačke	61		2
 otimačke			2
-otiske	718		2
-otoke	255		2
+otiske	718		3
+otoke	255		3
 otomanske	912		4
-otpadnike	72		3
+otpadnike	72		4
 otpadničke	18		2
-otpatke	999		2
+otpatke	999		3
 otpravnike	10		3
-otprilike	16841		2
+otprilike	16841		3
 ovnujske			2
-ovolike	647		2
+ovolike	647		3
 ovozemaljske	150		2
-ovratnike			3
+ovratnike			4
 ovčarske	11		2
 oznake	5126		3
 ozonske	115		2
@@ -2029,8 +2029,8 @@ očajnike	37		2
 očajničke	79		2
 očinske	43		3
 očnjake	80		2
-ožiljke	653		2
-pacifičke	23		2
+ožiljke	653		3
+pacifičke	23		3
 packe	397		2
 pacovske			2
 padinske	77		2
@@ -2047,7 +2047,7 @@ palićke	111		2
 paljanske	17		2
 pancirke			2
 pandurske			2
-panike	1881		2
+panike	1881		3
 panonske	580		2
 panoramske	165		2
 panterske			2
@@ -2058,7 +2058,7 @@ papinske	33		2
 papističke			2
 papke	116		2
 paprenjake			2
-paprike	2683		2
+paprike	2683		3
 papske	35		2
 parafinske	17		2
 paranoičke			2
@@ -2083,14 +2083,14 @@ pastirke			2
 pastirske	74		2
 pastorke	25		3
 pastrmke	913		3
-patetike	520		2
+patetike	520		3
 patike			2
 patke	804		2
 patnike			3
 patničke			2
 patoke			2
-patološke	375		2
-patriotske	1729		2
+patološke	375		3
+patriotske	1729		3
 patrljke	18		2
 patuljke	177		2
 pauke	46		3
@@ -2103,22 +2103,22 @@ pašaluke			2
 pašnjake	311		2
 pecaljke			2
 pecaroške			2
-pedagoške	417		2
+pedagoške	417		3
 pekarske	107		2
-pekinške	89		2
+pekinške	89		3
 pelivanske			2
-pendreke	59		2
+pendreke	59		3
 penzijske	274		2
 peraške	30		2
 perestrojke	143		2
 periferijske	43		2
-perike	204		2
+perike	204		3
 periodike	545		2
 perjanike			2
 peronske	15		2
 persijske	368		2
 peruanske	23		2
-perunike	48		2
+perunike	48		3
 perverznjake	11		2
 pesimističke	59		2
 pesnike	656		3
@@ -2174,9 +2174,9 @@ planinke			2
 planinske	1176		2
 planske	199		2
 plastenike	328		2
-plastike	4733		2
+plastike	4733		3
 platonske	22		2
-plavooke	36		2
+plavooke	36		3
 plaćenike	229		4
 plemenike			2
 plemenske	216		3
@@ -2192,15 +2192,15 @@ pljeske	42		2
 pljevaljske	60		2
 pljoske	30		2
 pljuske	20		2
-pljuvačke	634		2
+pljuvačke	634		3
 plotske			2
 plovke	53		2
 pločnike	48		3
 ploške	46		2
 pneumatike	582		2
-pneumatske	100		2
+pneumatske	100		3
 pobaučke			2
-pobednike	1165		3
+pobednike	1165		4
 pobedničke	323		2
 pobornike	132		3
 pobočke			2
@@ -2208,7 +2208,7 @@ pobožnjake			2
 pobunjenike	672		2
 pobunjeničke	190		2
 podalpske			2
-podanike	474		3
+podanike	474		4
 podaničke	25		2
 podatake			2
 podatke	45354		2
@@ -2228,22 +2228,22 @@ podravke			2
 podrinjske			2
 podrivačke			2
 podrumske	141		2
-podrške	27602		2
-podsetnike	90		3
+podrške	27602		3
+podsetnike	90		4
 podstreke	16		3
 podtačke			2
 podujevske			2
 poduke	66		3
 podunavske	127		2
-poetike	1101		2
+poetike	1101		3
 poetičke	183		2
-poetske	722		2
+poetske	722		3
 poganske			2
 poglavnike			2
 pogonske	236		2
-pogotke	234		2
+pogotke	234		3
 pogrebnike	10		2
-pogreške	504		2
+pogreške	504		3
 pogromaške			2
 pokajnike	29		3
 pokajničke	17		2
@@ -2251,11 +2251,11 @@ poklike	13		2
 poklonike	536		2
 pokojnike	181		3
 pokosovske			2
-pokrajinske	1147		3
+pokrajinske	1147		4
 pokretačke	64		2
 pokvarenjake	20		2
-polaske	248		2
-polaznike	1770		3
+polaske	248		3
+polaznike	1770		4
 polemike	2682		2
 polemičke	61		2
 polenske	138		2
@@ -2266,8 +2266,8 @@ polietilenske	91		2
 poligonske			2
 polinežanke			2
 politeističke			2
-politike	72160		2
-političke	61000		2
+politike	72160		3
+političke	61000		3
 poljake			2
 poljoprivrednike	2436		2
 poljske	2246		2
@@ -2275,59 +2275,59 @@ polke	37		2
 poltronske	12		2
 poluautomatske			2
 poluslatke			2
-polutke	260		2
+polutke	260		3
 pomajke	20		2
-pomake	692		2
+pomake	692		3
 pomenike			2
 pomodarke			2
 pomoravske			2
 pomorske	932		2
 pomoćnike	493		2
-ponedeljke	14		2
-poneke	606		2
+ponedeljke	14		3
+poneke	606		3
 popevke	19		2
 popovske	25		2
-popravke	3061		2
+popravke	3061		3
 poprečke			2
 popularizatorske			3
 porcelanske	100		2
 porebarke		M	2
 poreske	11090		2
-poretke	55		2
-poreznike	80		3
+poretke	55		3
+poreznike	80		4
 porečke	59		2
-pornografske	257		2
-poroke	276		2
-porotnike	42		3
+pornografske	257		3
+poroke	276		3
+porotnike	42		4
 portike			2
 portugalke			2
 portugalske	415		4
 poruke	22872		3
-poručnike			3
+poručnike			4
 posavske			2
 posednike	32		2
 posinke			2
-poslanike	6701		3
+poslanike	6701		4
 poslaničke	1387		2
 poslenike	226		2
 posleničke			2
 poslovnike	44		2
 poslušnike	298		3
 poslužavnike	36		3
-posrednike	265		3
+posrednike	265		4
 postavke	4146		2
 postdiplomske	2397		2
 postnike			2
-postupke	6114		2
-potiljke			2
+postupke	6114		3
+potiljke			3
 potiske	62		2
 potisnike			2
 potke	129		2
-potoke	308		2
-potomke	1103		2
+potoke	308		3
+potomke	1103		3
 potopske			2
 potočarke			2
-potpisnike	118		3
+potpisnike	118		4
 potrbuške	192		2
 potrošačke	844		2
 pouke	2812		3
@@ -2336,18 +2336,18 @@ povelike	52		2
 poverenike	136		2
 povike	418		2
 povorke	993		2
-povratke	34		2
-povratnike	480		3
+povratke	34		3
+povratnike	480		4
 povraćke			2
 povrtarske	235		2
 povrtnjake	39		2
 površinske	482		2
 pozadinske	118		2
 pozerke			2
-poznanike	560		3
+poznanike	560		4
 pozorničke			2
 početke	698		2
-početnike	2391		3
+početnike	2391		4
 početničke	175		2
 pošiljke	2518		2
 poštanske	732		3
@@ -2360,7 +2360,7 @@ praistorijske	233		2
 pramajke	20		2
 prapočetke	15		2
 praroditeljske			2
-praunuke	95		3
+praunuke	95		4
 pravednike	158		2
 pravilnike	526		3
 pravnike	619		3
@@ -2376,7 +2376,7 @@ predike			2
 predloške	105		2
 prednjake			2
 predrimske			2
-predsednike	1213		3
+predsednike	1213		4
 predsedničke	1555		2
 predstavke	8478		2
 predstavnike	10230		3
@@ -2391,11 +2391,11 @@ prejake	210		2
 preke	602		2
 prekomorske	86		2
 prekratke	88		2
-prelaske	75		2
+prelaske	75		3
 preljubničke			2
 premijerke	383		2
 preniske	75		2
-prenosnike	53		3
+prenosnike	53		4
 preobuke	38		2
 prepirke	520		2
 prepiske	812		2
@@ -2406,11 +2406,11 @@ prepredenjake			2
 prepreke	6654		2
 prerađivačke	674		2
 prerijske			3
-preseke	135		2
+preseke	135		3
 preslatke	121		2
 preslavske			2
 prestoničke			2
-prestupnike	175		3
+prestupnike	175		4
 presvlake	276		2
 pretendentske			2
 preteške	150		2
@@ -2419,7 +2419,7 @@ pretoke			2
 pretpostavke	5654		4
 preuske	77		2
 prevarantske	20		2
-prevelike	2311		3
+prevelike	2311		4
 previsoke	730		2
 prevlake	316		2
 prevoznike	274		2
@@ -2430,31 +2430,31 @@ preširoke	55		2
 prialpske			2
 pribeleške			2
 pribojske	118		2
-pridevske	31		2
+pridevske	31		3
 pridike			2
 prigradske	135		2
 prijateljske	2598		2
 prijemnike	195		3
 priključke	679		2
 prilepske			2
-prilike	29442		2
+prilike	29442		3
 priložnike	40		2
-primerke	1079		2
+primerke	1079		3
 primorske	311		2
 priobalske			2
-pripadnike	3911		3
+pripadnike	3911		4
 pripeke	22		2
 pripovetke	1529		4
 pripravnike	253		3
 prirodnjake			2
-priručnike	355		3
+priručnike	355		4
 prisutnike			2
-pritiske	2039		2
+pritiske	2039		3
 pritke	33		2
 pritoke	408		2
 pritvorske	216		2
 privatnike	368		2
-priveske	128		2
+priveske	128		3
 priznake			2
 prizrake			2
 prizrenske	475		2
@@ -2470,23 +2470,23 @@ produžetke	327		2
 profesionalke	35		2
 profesorke	1488		2
 profesorske	74		2
-prognanike	60		3
-programske	2414		2
+prognanike	60		4
+programske	2414		3
 projektantske	162		2
 proke			2
 prokletnike	10		2
 prokupačke	94		2
 prokurdske			2
-prolaznike	1182		3
+prolaznike	1182		4
 proleterske	148		2
-prometejske			2
+prometejske			3
 promoterke	196		2
-pronalaske	233		2
+pronalaske	233		3
 pronalazačke			2
 propagandističke	22		2
-proplanke	54		2
+proplanke	54		3
 propovednike	61		2
-proroke	361		2
+proroke	361		3
 proročke	136		2
 prosjake	153		3
 prosjačke	15		3
@@ -2497,7 +2497,7 @@ prostačke	57		2
 prostetike			2
 prostirke	313		2
 prostituke			2
-prostitutke	941		3
+prostitutke	941		4
 prosvetiteljske	184		2
 proteinske	116		2
 protestantske	119		2
@@ -2521,12 +2521,12 @@ prvake	724		2
 prvomajske	445		2
 prvorotke	68		2
 psihijatrijske	739		2
-psihičke	1139		2
-psihološke	1743		2
-psihopatske	26		2
+psihičke	1139		3
+psihološke	1743		3
+psihopatske	26		3
 psovke	1293		2
 pubertetske	32		2
-publike	15466		2
+publike	15466		3
 pucaljke	16		2
 puke	245		2
 pukovnike	25		3
@@ -2537,8 +2537,8 @@ pupoljke	175		3
 purenjake			2
 purističke			2
 puritanke			2
-pustinjake	38		3
-pustinjačke	12		3
+pustinjake	38		4
+pustinjačke	12		4
 pustinjske	109		2
 puteljke	28		2
 putnike	3966		3
@@ -2549,15 +2549,15 @@ pučke	36		2
 pušačke	50		2
 puške	3640		2
 pčelarske	78		2
-pčelinjake	116		3
+pčelinjake	116		4
 rabinske			2
-racionalističke	26		2
+racionalističke	26		3
 radarske	233		2
 radenike			2
 radijacijske	18		2
 radijske	277		2
 radikalske	109		2
-radiološke	64		2
+radiološke	64		3
 radioničke	42		2
 radnike	13490		3
 radničke	2742		3
@@ -2572,9 +2572,9 @@ ranke			2
 raonike	23		2
 rasadnike	51		2
 rasipnike	26		2
-rasističke	310		2
+rasističke	310		3
 raskolnike	29		2
-rastanke	76		2
+rastanke	76		3
 ratarske	205		3
 ratnike	433		3
 ratničke	128		3
@@ -2582,13 +2582,13 @@ ravničarske	77		2
 ravnogorke			2
 razbojnike	210		3
 razbojničke	37		3
-razlike	29134		2
+razlike	29134		3
 razlomačke			2
-razlomke	36		2
-razmake	163		2
-raznolike	685		2
+razlomke	36		3
+razmake	163		3
+raznolike	685		3
 razornike			2
-razroke	12		2
+razroke	12		3
 razumske	25		2
 račanske			2
 računaljke	30		2
@@ -2610,24 +2610,24 @@ reke	22537		2
 rekorderke	39		2
 rektorske			2
 religijske	522		2
-rendgenske	74		2
+rendgenske	74		3
 rentgenske	33		2
-replike	1323		2
+replike	1323		3
 reporterke	23		2
 republikanske	707		2
-republike	114366		2
-republičke	1354		2
+republike	114366		3
+republičke	1354		3
 resavske	159		2
 reske	56		2
 retke	4375		2
-retorike	1424		2
-retoričke	101		2
+retorike	1424		3
+retoričke	101		3
 retorske			2
 reumatske	252		2
 revizorske	1212		2
 rečnike	235		3
 rečničke			3
-rešetke	1395		2
+rešetke	1395		3
 reške			2
 režijske	106		2
 režimske	260		2
@@ -2640,20 +2640,20 @@ ribolovačke	139		2
 riječke	119		2
 rilke			2
 rimljanke	83		2
-rimokatoličke	160		3
+rimokatoličke	160		4
 rimske	3276		2
-ritmičke	97		2
+ritmičke	97		3
 ritske	45		2
 rivalke	247		2
 rivalske	157		2
-rizike	3192		2
+rizike	3192		3
 robijaške			2
-robotike	578		2
+robotike	578		3
 robotske	198		2
 robovske	62		2
 rodbinske	190		3
 roditeljke			2
-roditeljske	1189		3
+roditeljske	1189		4
 rodopske			2
 rodovske	20		2
 roke			2
@@ -2669,7 +2669,7 @@ rovovske	11		2
 rođake	1639		3
 rođačke	89		2
 rođendanske	308		2
-rubrike	2076		2
+rubrike	2076		3
 rudarske	857		2
 rudnike	600		3
 rudničke	39		3
@@ -2684,14 +2684,14 @@ ruske	21499		2
 rutinske	531		2
 ručke	354		2
 ručnike			2
-rušilačke	57		3
+rušilačke	57		4
 rvačke	14		2
 sabljarke	47		3
-saborske	56		2
-sadističke	34		2
+saborske	56		3
+sadističke	34		3
 sadržinske	73		2
-saharske	25		2
-sajamske	262		2
+saharske	25		3
+sajamske	262		3
 sakupljačke	36		2
 salajke			2
 salonke	67		2
@@ -2700,11 +2700,11 @@ samoglasnike	61		5
 samostanske	13		2
 samotrake			2
 samoubilačke	118		2
-samouke	26		2
+samouke	26		3
 samrtnike			2
 samrtničke			2
 samurajske	28		2
-sanduke	260		2
+sanduke	260		3
 sandžake			2
 sandžačke	679		2
 sanitetske	69		2
@@ -2717,22 +2717,22 @@ sapunske	12		2
 saputnike	159		2
 saradnike	3209		2
 saradničke	98		2
-sarajevske	978		3
+sarajevske	978		4
 saske			2
-sastanke	4040		2
-sastavke			2
-sastojke	3426		2
+sastanke	4040		3
+sastavke			3
+sastojke	3426		3
 satanističke	103		2
 satanske	96		2
 satelitske	781		2
 satenske	90		2
-satiričke			2
+satiričke			3
 saudijske	404		2
 saučesnike	167		2
-savetnike	855		3
+savetnike	855		4
 savetničke	34		2
-saveznike	1799		3
-savezničke	328		3
+saveznike	1799		4
+savezničke	328		4
 savke			2
 savremenike	271		2
 savske	245		2
@@ -2742,7 +2742,7 @@ scijentološke			2
 sedeljke	104		2
 sedećke		M	2
 sedmorke	42		2
-seizmičke	56		2
+seizmičke	56		3
 seke	282		2
 sekretarke	457		2
 sektaške	65		2
@@ -2751,12 +2751,12 @@ seljake	1390		2
 seljanke	168		2
 seljačke	194		2
 selske			2
-semantike	160		2
-semantičke	153		2
+semantike	160		3
+semantičke	153		3
 semenke	1372		2
 semenske	75		2
 seminarske	234		2
-semiotike	43		2
+semiotike	43		3
 semitske	20		2
 senatorke			2
 senatorske			2
@@ -2768,10 +2768,10 @@ seniorske	163		2
 senjske	17		2
 senke	4887		2
 senzorske	95		2
-seoske	2761		2
+seoske	2761		3
 separatističke	396		2
 septembarske	183		3
-septičke	385		2
+septičke	385		3
 serijske	1055		3
 serološke	29		2
 serumske	20		2
@@ -2780,7 +2780,7 @@ sestrinske	96		2
 sevdalinke	181		2
 severnjake	13		2
 severnjačke	16		2
-severnoameričke	91		2
+severnoameričke	91		3
 sezonske	1046		2
 sholastike			2
 sibirske	169		2
@@ -2792,7 +2792,7 @@ silikonske	607		2
 silnike	27		3
 simbolike	838		2
 simbolističke	34		2
-simboličke	477		2
+simboličke	477		3
 simfonijske	93		2
 simke			2
 simultanke	59		2
@@ -2802,7 +2802,7 @@ sinodske	32		2
 sinovske			2
 sintaksičke	90		2
 sintetike	134		2
-sintetičke	654		2
+sintetičke	654		3
 sionske	18		2
 sirijske	1903		3
 sirinićke			2
@@ -2810,7 +2810,7 @@ siromaške			2
 sirotinjske	64		2
 sirovinske	153		2
 sisaljke	28		2
-sistematske	557		2
+sistematske	557		3
 sistemske	2478		2
 sićevačke			2
 skadarske	146		2
@@ -2847,10 +2847,10 @@ sljedbenike		J	4
 slobodanke			2
 slobodarske	110		2
 slobodnjake	50		2
-slonovske	15		2
+slonovske	15		3
 slovake			2
 slovačke	1095		2
-slovenačke	2487		3
+slovenačke	2487		4
 slovenke			2
 slovenske	3105		2
 sluške			2
@@ -2869,8 +2869,8 @@ snajperske	130		2
 sneruke			2
 snimke	5107		2
 socijaldemokratske	1840		2
-socijalističke	5201		2
-sociološke	321		2
+socijalističke	5201		3
+sociološke	321		3
 sociopatske			2
 sofijske	50		2
 sofistike	21		2
@@ -2887,10 +2887,10 @@ solističke	100		2
 solunske	169		2
 somborske	610		2
 somotske			2
-sovjetske	511		2
+sovjetske	511		3
 soške			2
 spahiluke			2
-spasilačke	467		3
+spasilačke	467		4
 spačke			2
 spektarske			2
 spikerke			2
@@ -2909,7 +2909,7 @@ spremnike	19		2
 srbijanke			2
 srbijanske	796		3
 srbistike	202		2
-srcolike	17		3
+srcolike	17		4
 srebrnjake	31		2
 sredačke			2
 srednjoškolke	138		2
@@ -2922,12 +2922,12 @@ srodnike	333		3
 srodničke	58		2
 srpske	131878		2
 srpskohrvatske			2
-stabljike	717		2
+stabljike	717		3
 stafilokoke	77		2
 stajske			2
 stake			2
 staklenke	34		2
-staleške	34		2
+staleške	34		3
 staljinske			2
 stalke	64		2
 stanke	255		2
@@ -2939,13 +2939,13 @@ starke			2
 starogrčke	105		2
 staroruske	29		2
 starovremske			2
-statike	177		2
-statistike	4637		2
-statističke	2158		2
+statike	177		3
+statistike	4637		3
+statističke	2158		3
 statistke			2
-statičke	232		2
+statičke	232		3
 stavke	3856		2
-stenografske	138		2
+stenografske	138		3
 stepenike	62		2
 stepske	21		2
 stezaljke	31		2
@@ -2953,7 +2953,7 @@ steznike	36		2
 stećke	66		2
 stihijske	16		2
 stijenke	20	J	2
-stilistike	63		2
+stilistike	63		3
 stilističke	27		2
 stilske	758		2
 stiske	11		2
@@ -2977,7 +2977,7 @@ strateške	3896		2
 stražarske	66		2
 streljačke	43		2
 streptokoke	116		2
-strnjike	111		2
+strnjike	111		3
 struke	8738		2
 strumičke	16		2
 stručnjake	5482		3
@@ -2988,12 +2988,12 @@ stvaralačke	474		2
 subatomske	88		2
 subotičke	2015		2
 subtropske			2
-sudanske	62		2
+sudanske	62		3
 sudbinske	82		2
 sudeonike			2
 sudijske	1525		2
 sudske	7021		2
-suglasnike	41		3
+suglasnike	41		4
 suharke			2
 sumrake			3
 sunarodnike	826		2
@@ -3014,10 +3014,10 @@ suverenske			2
 suštinske	3363		2
 svake	66074		2
 svakojake	1025		4
-svastike	175		2
+svastike	175		3
 svatovske	31		2
 svatske			2
-svedoke	1602		2
+svedoke	1602		3
 svekolike	405		2
 svemirske			2
 sveske	1811		2
@@ -3029,7 +3029,7 @@ svetovnjake	12		2
 svetske	33792		2
 svećnjake	65		3
 svečarske	32		2
-sveštenike	1249		3
+sveštenike	1249		4
 svešteničke	329		2
 svinjarske			2
 svinjske	552		2
@@ -3038,20 +3038,20 @@ svitke	40		2
 svodnike			3
 svojinske	228		2
 svrake	264		2
-svršetke			2
+svršetke			3
 tabake	19		3
 tajlandske	55		3
 tajvanske	34		3
-takmičarke	763		3
-takmičarske	619		3
-taktike	1629		2
-taktičke	676		2
+takmičarke	763		4
+takmičarske	619		4
+taktike	1629		3
+taktičke	676		3
 talačke	59		3
 talibanske	70		2
 talijanke			2
 talijanske	244		2
 tamiške			2
-tamjanike	57		2
+tamjanike	57		3
 tamničke	14		2
 tamnomrke			2
 tanake			2
@@ -3064,44 +3064,44 @@ tavanske	19		2
 tačke	22112		2
 teatarske	217		2
 teheranske	24		2
-tehnike	18504		2
-tehničke	15736		2
-tehnološke	3306		2
+tehnike	18504		3
+tehničke	15736		3
+tehnološke	3306		3
 teističke	13		2
 teke			2
 teksaške	54		2
-tektonike	27		2
+tektonike	27		3
 tektonske	250		2
 telefonske	2968		2
-telegrafske	38		2
+telegrafske	38		3
 telekinetičke			2
-teleološke	10		2
-telepatske	26		2
+teleološke	10		3
+telepatske	26		3
 teleprinterske			2
 televizijske	2854		2
 tematike	1128		2
-tematske	1824		2
+tematske	1824		3
 tenderske	926		2
 teniserke	1178		2
-teniske	988		2
-tenkovske	131		2
-teokratske			2
-teološke	250		2
-teoretske	589		2
+teniske	988		3
+tenkovske	131		3
+teokratske			3
+teološke	250		3
+teoretske	589		3
 teorijske	2363		2
 tepeluke			2
-terapeutske	365		2
+terapeutske	365		3
 terapijske	872		2
 terenske	703		2
 terevenke			2
 terminske	95		2
 termičke	202		2
-termodinamike	248		2
-terorističke	2002		2
+termodinamike	248		3
+terorističke	2002		3
 tetke	1648		2
 teške	17622		2
 tešnjarske			2
-težake	21		2
+težake	21		3
 težačke	14		2
 tibetanske	116		2
 tike		M	2
@@ -3111,22 +3111,22 @@ tinejdžerke	485		2
 tinejdžerske	250		2
 tipike	17		2
 tipke	284		2
-tipografske	23		2
-tipološke	45		2
+tipografske	23		3
+tipološke	45		3
 tipske	251		2
-tiranske	55		2
+tiranske	55		3
 titanijumske			2
 titanske			2
 toke	102		2
 tokijske	72		2
 toksikološke	58		2
-tolike	4724		2
+tolike	4724		3
 tonske	92		2
 topličke	63		2
 topografske	133		2
 topovske	110		2
 točke	332		2
-trafike	481		2
+trafike	481		3
 tragike	115		2
 tragičke			2
 trake	7387		2
@@ -3139,13 +3139,13 @@ tračke	27		2
 trbušnjake	331		2
 trebinjske	90		2
 trenerke	485		2
-trenerske	129		2
+trenerske	129		3
 trenirke			2
 trenutke	4916		2
-trepetljike			2
+trepetljike			3
 treske	20		2
-trgovačke	1969		3
-trgovinske	3075		3
+trgovačke	1969		4
+trgovinske	3075		4
 trkačke	642		2
 trke	15118		2
 trmke			2
@@ -3154,7 +3154,7 @@ trojake			3
 trojanke			2
 trojke	3847		2
 tropske	472		2
-trostruke	170		2
+trostruke	170		3
 trougaonike			2
 trovačke			2
 trpke			2
@@ -3168,8 +3168,8 @@ tršćanske			2
 tugovanke			2
 tumorske	210		2
 tunelske	15		2
-tunike	175		2
-turističke	12952		2
+tunike	175		3
+turističke	12952		3
 turske	7548		2
 tuzlanske	125		2
 tuđinke	12		2
@@ -3194,23 +3194,23 @@ ugruške	27		2
 uhapšenike			2
 ujake	44		3
 ukrajinke			2
-ukrajinske	1401		3
-ulaske	89		2
+ukrajinske	1401		4
+ulaske	89		3
 uličarke	16		4
-ulomke	17		2
+ulomke	17		3
 uloške	337		2
 umake	66		3
 umetke	114		2
-umetnike	2815		3
-umetničke	7430		3
+umetnike	2815		4
+umetničke	7430		4
 umnjake	33		3
 umnoške			2
 umobolnike			2
 unatraške	119		2
 unijatske			2
 univerzitetske	1920		2
-unuke	1166		2
-upitnike	406		3
+unuke	1166		3
+upitnike	406		4
 uporednike			2
 upravljačke	926		2
 upravnike	135		2
@@ -3218,17 +3218,17 @@ upravničke			2
 uraganske			4
 uranke			2
 urbanističke	386		2
-urednike	647		3
-uredničke	71		3
+urednike	647		4
+uredničke	71		4
 uređivačke	65		2
 urlike	53		3
-uroke	30		2
+uroke	30		3
 urođenike	32		2
 urođeničke	13		2
 uroševačke			2
 urugvajske	36		4
 useke	60		2
-useljenike	35		3
+useljenike	35		4
 useljeničke	20		2
 uske	1705		2
 usklike	28		3
@@ -3237,30 +3237,30 @@ uskočke	36		2
 uspavanke	174		2
 ustanike	310		2
 ustaničke	129		2
-ustanke	169		2
+ustanke	169		3
 ustaške	355		2
-ustupke	1748		2
-utiske	4394		2
+ustupke	1748		3
+utiske	4394		3
 utopijske	72		2
 utrke	188		3
 uvelike	306		2
 uvodnike	36		2
-uvojke	57		2
-uvoznike	347		3
+uvojke	57		3
+uvoznike	347		4
 uzmake			2
-uzorke	1799		2
-uzroke	2962		2
+uzorke	1799		3
+uzroke	2962		3
 uzročnike	296		2
 uzvike	147		3
 učenike	10354		4
 učeničke	221		4
 učenjake	43		2
-učesnike	8618		3
-učinke	595		2
+učesnike	8618		4
+učinke	595		3
 učiteljke			2
-učiteljske	38		3
+učiteljske	38		4
 uške	49		2
-uštipke	78		2
+uštipke	78		3
 užitke	133		2
 užičanke			2
 užičke	1142		2
@@ -3278,11 +3278,11 @@ vanjezičke			2
 vansudske	12		2
 vanzemaljske	288		2
 vanškolske			2
-varenike	42		2
+varenike	42		3
 varke	152		2
 varošanke			2
 varoške			2
-varvarske	194		2
+varvarske	194		3
 varšavske	65		2
 vaseljenske	305		2
 vasionske	34		2
@@ -3301,7 +3301,7 @@ vegetarijanske	119		2
 velebitske	19		2
 veleške			2
 velikaške	15		2
-velike	106584		2
+velike	106584		3
 velške	22		2
 venecijanske	668		2
 venjake			2
@@ -3336,7 +3336,7 @@ viktorijanske	19		2
 vilenjake	80		2
 vilenjačke	25		2
 vilinske	29		2
-viljuške	310		2
+viljuške	310		3
 vinarske	118		2
 vinkovačke	26		2
 vinovnike	187		2
@@ -3345,14 +3345,14 @@ vinčanske	434		2
 violinske	25		2
 visinske	188		2
 viske	11		2
-visoke	28055		2
+visoke	28055		3
 visuljke			2
 vitaminske	116		2
 viteške	104		2
 vitke	419		2
 vizantske			2
 vizionarske	100		2
-vizitke	56		2
+vizitke	56		3
 višestruke	1521		2
 vladalačke	12		2
 vladarke	106		2
@@ -3377,7 +3377,7 @@ vojničke	459		2
 vojnomedicinske			2
 vojske	29925		2
 vojvodske			2
-volovske	19		2
+volovske	19		3
 voskarske			2
 votke	482		2
 vozačke	399		2
@@ -3399,7 +3399,7 @@ vršačke	350		2
 vrške	51		2
 vršnjake	911		2
 vuke	11		2
-vukodlake	56		2
+vukodlake	56		3
 vukodlačke			2
 vulkanske	120		2
 vučitrnske			2
@@ -3411,17 +3411,17 @@ zadrške	381		2
 zagonetke	985		4
 zagorke			2
 zagorske	11		2
-zagrebačke	879		3
+zagrebačke	879		4
 zagrepčanke			2
 zajedničke	14348		4
 zaječarske	268		2
 zakačke			2
 zakivke			2
-zaključke	4812		2
-zakonike	25		3
-zakonske	7229		2
+zaključke	4812		3
+zakonike	25		4
+zakonske	7229		3
 zakuske	58		2
-zalaske	54		2
+zalaske	54		3
 zaliske	51		2
 zalivske	56		2
 zaluđenike	34		2
@@ -3437,7 +3437,7 @@ zapadnjake	141		4
 zapadnjačke	148		4
 zapadnoevropske	513		2
 zapevke			2
-zapisnike	584		3
+zapisnike	584		4
 zaposlenike	48		2
 zapreke	105		3
 zapreminske	33		2
@@ -3446,10 +3446,10 @@ zaptivke	149		2
 zaranke			2
 zarobljenike	620		2
 zaruke	32		3
-zaručnike			3
-zaseoke	70		3
+zaručnike			4
+zaseoke	70		4
 zastanke			2
-zastupnike	347		3
+zastupnike	347		4
 zatočenike	127		2
 zatočnike			2
 zatrke			2
@@ -3460,15 +3460,15 @@ zauške	101		2
 zaušnjake			2
 zaverenike	59		2
 zavisnike	241		2
-zavodnike	25		3
-zavodničke	46		3
+zavodnike	25		4
+zavodničke	46		4
 zavodske	14		2
-završetke	182		2
+završetke	182		3
 začetke	124		2
-začetnike	27		3
+začetnike	27		4
 začinske	173		2
 zaštitarske	19		2
-zaštitnike	309		3
+zaštitnike	309		4
 zbirke	6351		2
 zbornike	131		3
 zbrke	336		2
@@ -3495,7 +3495,7 @@ značajke	122		3
 značenjske	42		2
 značke	438		2
 zodijačke	23		2
-zoološke	27		2
+zoološke	27		3
 zorke			2
 zrake	1331		2
 zrike			2
@@ -3503,7 +3503,7 @@ zubarske	51		2
 zulumćarske			2
 zupčanike	66		2
 zvake			2
-zvaničnike	1051		3
+zvaničnike	1051		4
 zverke	231		2
 zverske	30		2
 zvezdolike			2
@@ -3523,8 +3523,8 @@ zvučnike	1903		3
 ćesarske			2
 ćiftinske			2
 ćilibarske			2
-ćiriličke	48		2
-ćirilske	31		2
+ćiriličke	48		3
+ćirilske	31		3
 ćorke			2
 ćorsokake	19		2
 ćuprijske	43		2
@@ -3537,7 +3537,7 @@ zvučnike	1903		3
 čajetinske	59		2
 čajnike			3
 čajničke			2
-čakavske			2
+čakavske			3
 čanke			2
 čardake			2
 čarke			2
@@ -3554,11 +3554,11 @@ zvučnike	1903		3
 čekrke			2
 čelenke	22		2
 čelnike	878		3
-čemerike	11		2
+čemerike	11		3
 čereke		M	2
 čergarke			2
 čerkeske			2
-čestitke	5365		2
+čestitke	5365		3
 četinarske	105		2
 četke	764		2
 četnike	939		3
@@ -3616,7 +3616,7 @@ zvučnike	1903		3
 Švedske	1348		2
 šabačke	565		2
 šafranske			2
-šahovske	662		2
+šahovske	662		3
 šajkaške			2
 šajke	191		2
 šake	3207		2
@@ -3628,7 +3628,7 @@ zvučnike	1903		3
 šarenolike			2
 šarganske			2
 šarke	328		2
-šarolike	167		2
+šarolike	167		3
 šarske			2
 šatorske			2
 šengenske	232		2
@@ -3638,7 +3638,7 @@ zvučnike	1903		3
 šibljike			2
 šiljke	86		2
 šipke	973		2
-široke	6016		2
+široke	6016		3
 šizmatičke			2
 šišarke	131		2
 šiške	577		2
@@ -3667,7 +3667,7 @@ zvučnike	1903		3
 štipaljke	113		2
 štitnike	109		2
 štićenike	286		4
-štokavske			2
+štokavske			3
 štrajkačke	70		2
 štreberke			2
 štreberske			2
@@ -3703,14 +3703,14 @@ zvučnike	1903		3
 žarke	69		2
 žarnjake			2
 žbuke	29		2
-železničke	3945		3
-željezničke		J	3
+železničke	3945		4
+željezničke		J	4
 željke			2
-ženevske	233		2
+ženevske	233		3
 ženke	2137		2
 ženske	8040		2
 žeravke			2
-žestoke	1551		2
+žestoke	1551		3
 žetelačke			2
 žike			2
 žitke	18		2
@@ -3737,39 +3737,39 @@ djevojačke			2
 djevojke			2
 dječake			2
 dosjetke			2
-ijekavske			2
+ijekavske			3
 isječke			2
 kolijevke	60		3
 namjernike			2
 nevjernike			3
-objeručke			2
-odjeljke			2
+objeručke			3
+odjeljke			3
 odsječke			2
 pjesnike			3
 pješake			2
 pješačke			2
 pješke			2
-pobjednike			3
+pobjednike			4
 pobjedničke			2
 pogriješke			2
 popijevke	24		2
-predsjednike			3
+predsjednike			4
 predsjedničke			2
-prijestupnike			4
-primjerke			2
+prijestupnike			5
+primjerke			3
 pripovjetke			2
 rijeke	2070		2
-rijetke	245		2
+rijetke	245		3
 rječnike			4
-savjetnike			3
+savjetnike			4
 sjemenke	100		2
 sjenke			2
 svijećnjake			4
-svjedoke			2
+svjedoke			3
 svjetiljke			2
 svjetske			2
-umjetnike			3
-umjetničke			3
+umjetnike			4
+umjetničke			4
 vjeke			2
 vjernike			3
 vjerske			2

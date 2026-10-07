@@ -1,7 +1,7 @@
 2686
-Jupitera			3
-Kaira			2
-Venera			2
+Jupitera			4
+Kaira			3
+Venera			3
 abažura			2
 abdicira	97		2
 abera			2
@@ -22,7 +22,7 @@ agitatora	68		3
 agitira			2
 agora	242		2
 agrara	1381		2
-agresora	762		3
+agresora	762		4
 agrikultura	15		2
 ajvara	377		2
 akceleratora	466		3
@@ -43,7 +43,7 @@ algebra	181		2
 alhemičara	143		2
 alibunara			2
 aligatora	122		3
-alkoholičara	619		3
+alkoholičara	619		4
 almira			2
 alocira	57		2
 aludira	418		2
@@ -53,14 +53,14 @@ ambara	165		3
 ambasadora	7126		3
 amera			2
 amfiteatra	511		2
-amfora	127		2
+amfora	127		3
 amnestira	397		2
 amora			2
 amortizera	421		2
 ampera	395		2
 amputira	62		2
-anafora	24		2
-analitičara	4141		3
+anafora	24		3
+analitičara	4141		4
 analizatora	120		3
 analizira	4880		2
 andora			2
@@ -69,12 +69,12 @@ anektira	43		2
 angora	45		2
 animatora	378		3
 animira	530		2
-ankara			2
+ankara			3
 ankera	101		2
 anketara	105		2
 antialkoholičara			2
 anticipira	176		2
-antidora			2
+antidora			3
 antikvara	25		2
 anulira	382		2
 aparatura	251		2
@@ -89,8 +89,8 @@ apretura			2
 apstinira	57		2
 ara	848		2
 aranžira	55		2
-arbitara	285		3
-arbitra	516		2
+arbitara	285		4
+arbitra	516		3
 arbitrira	127		2
 arhitektura	5085		2
 arhivara	55		2
@@ -103,22 +103,22 @@ asistira	367		2
 asocira	2000		2
 aspiratora			2
 aspra			2
-astrofizičara	94		3
+astrofizičara	94		4
 asura		M	2
 atara	633		3
 atentatora	239		3
-atletičara	923		3
+atletičara	923		4
 atmosfera	10929		2
 aura	451		2
-aurora			2
+aurora			3
 autolimara			2
-automehaničara	213		3
-autora	29982		3
+automehaničara	213		4
+autora	29982		4
 autostopera	14		2
 autsajdera			2
 avantura	3389		2
 avatara	391		2
-avijatičara	112		3
+avijatičara	112		4
 azotara	601		2
 azra			2
 azura			2
@@ -128,24 +128,24 @@ babura	68		2
 babuskara			2
 babuskera			2
 badentera			2
-bagera	1048		2
+bagera	1048		3
 bagra		M	2
 bajadera	74		2
 bajkera	276		2
 bakalara	90		2
-bakara	16		2
+bakara	16		3
 bakra	5076		2
 balansira	569		2
 balegara			2
 balističara	40		2
-baltimora			2
+baltimora			3
 bandažira			2
 bandera		M	2
 banera	796		2
 bankara	1524		2
 bankrotira	509		2
 bara	3961		2
-barbara	32		2
+barbara	32		3
 barijera	2166		2
 barjaktara	149		2
 barometara			5
@@ -157,19 +157,19 @@ bazira	3900		2
 bačvara			3
 bašlara			2
 bebisitera			2
-bedara	69		2
+bedara	69		3
 bedra	418		2
 behara	35		2
 bera			2
 berbera	43		2
 berserkera			2
-besposličara	61		4
-bestselera	878		2
+besposličara	61		5
+bestselera	878		3
 bećara			2
 bećira			2
 bibera			2
 bibliotekara	1453		2
-bifora			2
+bifora			3
 bilansira			2
 bildera			2
 bilijara	131		2
@@ -179,7 +179,7 @@ biljura			2
 bioenergetičara			2
 biosfera	111		2
 bira	13307		2
-bisera	1536		2
+bisera	1536		3
 bistra	747		2
 bjelovara			2
 blagomira			2
@@ -198,17 +198,17 @@ bojlera	589		2
 bokora			2
 boksera	615		2
 boljara	86		2
-bolničara	177		3
+bolničara	177		4
 bombardera	560		2
 bombonjera		M	2
 bora	7856		2
-bordura			2
+bordura			3
 bosfora			2
-botaničara	72		3
+botaničara	72		4
 božidara			2
 božura	178		2
 bra		M	1
-branibora			2
+branibora			3
 branimira			2
 bratimira			2
 bravara	261		3
@@ -227,8 +227,8 @@ bubamara	284		2
 bubnjara	506		2
 budimira			2
 bugara			2
-buhara		M	2
-bukara			2
+buhara		M	3
+bukara			3
 bukvara	344		2
 buldožera	172		2
 bulevara			2
@@ -236,9 +236,9 @@ bumbara	170		3
 bunara	2542		2
 bundesvera			2
 bundevara		M	2
-bunkera	433		2
+bunkera	433		3
 bura	1173		2
-burazera	138		2
+burazera	138		3
 burgera	39		2
 buvara		M	2
 buđelara	36		2
@@ -249,8 +249,8 @@ cementara		M	2
 cementira	89		2
 centara	12476		3
 centarfora	297		4
-centimetara	5106		4
-centimetra	1210		3
+centimetara	5106		5
+centimetra	1210		4
 centra	80488		2
 centrira	266		2
 cenzora	204		3
@@ -263,12 +263,12 @@ cicvara	47		2
 cifara	1026		3
 cifra	4240		2
 cigara	768		2
-cilindara	559		2
+cilindara	559		3
 cilindera			2
 cilindra	997		2
 cimera			2
 cincara			2
-cinkara		M	2
+cinkara		M	3
 cirkulira			2
 citira	1783		2
 citra	32		2
@@ -277,8 +277,8 @@ cura		M	2
 cvećara	194		2
 cvikera			2
 dabra	125		2
-dakara			2
-dalibora			2
+dakara			3
+dalibora			3
 damara	70		3
 damira			2
 danimira			2
@@ -288,7 +288,7 @@ daruvara			2
 datira			2
 datura			2
 davora			2
-daščara	18		2
+daščara	18		3
 deaktivira	161		2
 deblokira	97		2
 debora			2
@@ -298,7 +298,7 @@ decilitara	37		2
 decilitra	214		2
 dedijera			2
 definira			2
-deflektora			2
+deflektora			3
 degradira	425		2
 degustatora	71		2
 dehidrira	117		2
@@ -314,30 +314,30 @@ demonstrira	1695		2
 demontira	244		2
 denara	198		2
 denvera			3
-deoničara	293		3
+deoničara	293		4
 depilira	64		2
 depozitara	30		2
 depresira			2
 deprimira	73		2
 desetara	57		2
 desimira			2
-desničara	402		3
+desničara	402		4
 destruira	23		2
-detektora	786		3
+detektora	786		4
 detonatora	41		2
 detonira	30		2
 devalvira	276		2
 devera	89		3
-devetora			2
+devetora			3
 devojčura	26		2
 dezertera			2
 dezertira	27		2
 dežura	374		2
 diedara			2
-dijabetičara	728		3
+dijabetičara	728		4
 dijametara	13		2
 dijametra	130		2
-dijaspora	1734		2
+dijaspora	1734		3
 diktatora	1473		3
 diktatura	1508		2
 diktira	2142		2
@@ -349,7 +349,7 @@ dinosaura	75		2
 dinozaura			2
 diplomira	556		2
 dira	1702		2
-direktora	45359		3
+direktora	45359		4
 dislocira	49		2
 dispanzera	561		2
 dispećera			2
@@ -358,11 +358,11 @@ distancira	479		2
 distribuira	1590		2
 distributera	2429		2
 divčibara			2
-dizajnera	4304		2
+dizajnera	4304		3
 dizajnira	662		2
 dizdara	30		2
 dmitra			2
-dobara	3662		2
+dobara	3662		3
 dobošara			2
 dobra	58748		2
 dobrotvora	640		4
@@ -389,7 +389,7 @@ dozira	280		2
 dočara	654		2
 dra		M	1
 dragomira			2
-dragstora	132		2
+dragstora	132		3
 draguljara	16		2
 dresera	46		2
 dresira	52		2
@@ -405,19 +405,19 @@ dunđera			2
 duplira	487		2
 dupljara			2
 dura	60		2
-durmitora			2
+durmitora			3
 duvara	180		3
 dvora	2922		2
 džafera			2
 džara			2
 džeferdara			2
-džempera	250		2
+džempera	250		3
 džepara			3
 džibra		M	2
 džogira	57		2
-džokera	171		2
+džokera	171		3
 edgara			2
-editora	311		2
+editora	311		3
 edukatora	596		2
 egzekutora	149		3
 egzemplara	31		2
@@ -437,13 +437,13 @@ eksponira	199		2
 ekspozitura	665		2
 eksterijera	661		2
 ekstra	3121		2
-ekvadora			2
+ekvadora			3
 ekvatora	457		3
 elaborira	119		2
-elektora			2
+elektora			3
 elektra	234		2
 elektrizira			2
-električara	281		3
+električara	281		4
 elektromotora	598		2
 eleonora			2
 eliksira	149		2
@@ -501,13 +501,13 @@ ferara			2
 figara	57		2
 figura	5353		2
 figurira	342		2
-fijakera	245		2
+fijakera	245		3
 fiksira	605		2
 filera	153		2
 filoksera	44		2
 filozofira	174		2
-filtara	51		2
-filtera	2567		2
+filtara	51		3
+filtera	2567		3
 filtra	98		2
 filtrira	481		2
 finansijera	893		2
@@ -518,14 +518,14 @@ fira		M	2
 firera	145		2
 fiskultura	34		2
 fisura			2
-fizičara	1027		3
+fizičara	1027		4
 fišera			2
 fjodora			2
 flajera	585		2
 flastera	237		3
 flipera	56		2
 flobera			2
-flomastera	77		3
+flomastera	77		4
 flora	891		2
 fluktuira	58		2
 flundra			2
@@ -568,11 +568,11 @@ fura			2
 furnira	159		2
 futura	404		2
 gabora	50		3
-gadura		M	2
+gadura		M	3
 gajdobra			2
 galopera			2
 galopira	64		2
-gangstera	167		2
+gangstera	167		3
 gara		M	2
 garantira			2
 garderobera	94		2
@@ -585,7 +585,7 @@ gejzira	113		2
 gelera			2
 generatora	1243		2
 generira			2
-genetičara	181		3
+genetičara	181		4
 geometara	56		2
 geometra	89		2
 gibraltara			2
@@ -617,7 +617,7 @@ gomora			2
 gora	8732		2
 gospara	41		2
 gospodara	3978		2
-gostioničara	31		3
+gostioničara	31		4
 gostivara			2
 govedara	42		2
 govora	15531		3
@@ -625,24 +625,24 @@ gradimira			2
 gradira	19		2
 grafičara	255		2
 gramatura	25		2
-graničara	250		3
+graničara	250		4
 gravera	30		3
 gravira	90		2
 gravitira	351		2
 gravura	77		2
 građevinara	588		2
-grebatora			2
+grebatora			3
 grebenara		M	2
 gregora			2
 grenadira			2
 grgura			2
-grnčara	83		2
+grnčara	83		3
 grobara	720		2
 grošićara			2
 gubara	123		2
 gubera			2
 gubernatora	121		2
-gudura	63		2
+gudura	63		3
 gumara			2
 gura	4485		2
 gusara	356		3
@@ -668,20 +668,20 @@ harangira			2
 hardvera	2745		3
 hasura			2
 hatara			2
-haustora			2
+haustora			3
 havijera			2
 hazardera	16		2
 haznadara			2
 hektara	22640		3
-helikoptera	2012		2
+helikoptera	2012		3
 hemisfera	235		2
-hemičara	285		3
+hemičara	285		4
 hera			2
 hetera		M	2
 hidra	105		2
 hidrosfera	15		2
 hilandara			2
-himera	117		2
+himera	117		3
 hiperprostora			2
 hipnotizera	33		2
 hipstera	52		2
@@ -699,21 +699,21 @@ horora	816		2
 hortikultura	109		2
 hotelijera	256		2
 hrabra	1533		2
-hristifora			2
-hristofora			2
+hristifora			3
+hristofora			3
 hromosfera		M	2
-hroničara	312		3
-humora	2559		2
+hroničara	312		4
+humora	2559		3
 hura		M	2
 husara	76		3
 hvara			2
 ibra			2
 idvora			2
-igara	17446		2
+igara	17446		3
 ignorira			2
 igora			2
 igra	68088		2
-ikara			2
+ikara			3
 ikra	106		2
 ilira			2
 ilustrira			2
@@ -734,7 +734,7 @@ indikatora	1760		2
 indira			2
 inficira	340		2
 infiltrira	109		2
-informatičara	352		3
+informatičara	352		4
 informatora	457		2
 informera			2
 infrastruktura	5356		2
@@ -749,9 +749,9 @@ inovira	144		2
 insajdera	583		2
 insinuira	120		2
 insistira	6417		2
-inspektora	4082		3
+inspektora	4082		4
 instalira	2574		2
-instruktora	1960		3
+instruktora	1960		4
 integrira			2
 intendantura	10		2
 intenzivira	624		2
@@ -771,17 +771,17 @@ ira			2
 iritira	1624		2
 iscenira	35		2
 isforsira	33		2
-isidora			2
+isidora			3
 iskopira	162		2
 iskra	1090		2
 iskulira			2
-ispira	495		2
+ispira	495		3
 ispičutura		M	2
 isplanira	231		2
 ispolira	53		2
 ispretura	12		2
 isprovocira	410		2
-istera	928		2
+istera	928		3
 istoričara	3478		2
 istovara	330		4
 istra			2
@@ -789,11 +789,11 @@ istrenira	16		2
 istura	76		2
 istušira	119		2
 ivera	54		3
-izabira	93		2
+izabira	93		3
 izabra	22		2
 izbalansira	171		2
 izbira			2
-izbora	63391		2
+izbora	63391		3
 izdera			2
 izdiktira	65		2
 izgara	104		2
@@ -810,14 +810,14 @@ izolatora	157		3
 izrežira	24		2
 izudara	41		2
 izvara			2
-izvora	27554		2
+izvora	27554		3
 išamara	22		2
 išara	12		2
 jabučara			2
 jadra			2
 jaguara	146		4
 janičara	229		2
-janjičara	132		3
+janjičara	132		4
 januara	40338		4
 jara	102		2
 jasera			2
@@ -828,17 +828,17 @@ jedara	37		3
 jedra	1114		2
 jegora			2
 jera			2
-jesetra	31		2
+jesetra	31		3
 jetara			3
 jetra	1165		2
 jezdimira			2
 jezera	13478		3
-jezgara	1215		2
+jezgara	1215		3
 jezgra	5335		2
 jonosfera			2
 jorkšira			2
 juhora			2
-juniora	1803		2
+juniora	1803		3
 jura		M	2
 jutara	66		3
 jutra	9129		2
@@ -854,12 +854,12 @@ kalendara	2932		2
 kalibara	264		2
 kalibra	2006		2
 kalopera	10		2
-kaluđera	720		3
+kaluđera	720		4
 kamara	441		3
 kamasutra			2
 kamenara			2
 kamenjara	104		2
-kamera	11082		2
+kamera	11082		3
 kamfora	33		2
 kamilara			2
 kampera	175		2
@@ -885,7 +885,7 @@ kaptira			2
 kara	351		2
 karabinera			2
 karabinjera	79		2
-karaktera	16424		2
+karaktera	16424		3
 karbonara			2
 karburatora	101		2
 karijera	5153		2
@@ -899,7 +899,7 @@ kaskadera	96		2
 kastrira	35		2
 katalizatora	312		3
 katara	302		3
-katastara	44		2
+katastara	44		3
 katastra	1292		2
 katedara	76		3
 katedra	1458		2
@@ -909,7 +909,7 @@ kavaljera	54		2
 kavijara	214		4
 kazimira			2
 kazuara			2
-kačara		M	2
+kačara		M	3
 kačera			2
 kašikara		M	2
 kašičara		M	2
@@ -917,9 +917,9 @@ kašmira	105		2
 kedra	117		2
 kelnera	148		3
 kengura	228		3
-kentaura	91		2
+kentaura	91		3
 kera	335		2
-keramičara	106		3
+keramičara	106		4
 kerbera			2
 kesera			2
 kevlara	78		2
@@ -933,7 +933,7 @@ kipra			2
 kira		M	2
 kiropraktičara	32		2
 kisindžera			2
-kjerkegora			2
+kjerkegora			3
 kladioničara	70		2
 klara			2
 klasira			2
@@ -949,17 +949,17 @@ klesara	24		2
 klikera			2
 klisara			2
 klistira	23		2
-klisura	743		2
+klisura	743		3
 kljunara			2
-klobučara			3
+klobučara			4
 klonira	73		2
 klopara		M	2
 klora			2
 klošara	88		2
 kmera	64		2
-knjižara	1705		2
+knjižara	1705		3
 koalicira			2
-koautora	249		3
+koautora	249		4
 kobasičara			2
 kobra	221		2
 kockara	278		3
@@ -974,40 +974,40 @@ kolabira	67		2
 kolara	40		2
 kolačara	27		2
 kolekcionara	603		2
-kolektora	1490		3
-kolera	196		2
+kolektora	1490		4
+kolera	196		3
 kolibara			2
 kolonizatora	173		3
 kolora			2
 koloratura			2
 kolotura			4
-kolubara			2
+kolubara			3
 komandira	494		2
-komandora			2
+komandora			3
 komentara	18322		2
 komentatora	3258		3
 komesara	1823		2
 komfora	1416		2
-komičara	423		3
-komodora	44		2
-komora	8694		2
+komičara	423		4
+komodora	44		3
+komora	8694		3
 komparira	16		2
 kompenzira			2
-kompjutera	6439		2
-kompjutora	27		2
+kompjutera	6439		3
+kompjutora	27		3
 kompletira	487		2
 komplicira			2
 kompozitora			2
-kompresora	663		3
+kompresora	663		4
 komunicira	2984		2
 komunikatora	128		2
 komunjara	216		2
 koncipira	171		2
-konclogora	47		2
+konclogora	47		3
 kondenzatora	511		3
 kondenzira			2
 kondira			2
-konditora	118		2
+konditora	118		3
 kondora	53		2
 konduktera	208		2
 konjara			2
@@ -1017,29 +1017,29 @@ konkvistadora	54		2
 konobara	860		4
 konora			2
 konstatira			2
-konstruktora	610		3
+konstruktora	610		4
 kontaktira	1076		2
 kontaminira	84		2
-kontejnera	3486		2
+kontejnera	3486		3
 kontra		M	2
-kontrafora			2
+kontrafora			3
 kontramera			2
 kontrastira			2
 kontrira	108		2
 kontrolira			2
-kontrolora	1285		2
+kontrolora	1285		3
 kontura	311		2
 konvenira			2
 konzervira	131		2
 konzumira	1789		2
-končara		M	2
+končara		M	3
 koordinatora	2202		2
 koordinira			2
 kopira	1186		2
 kopitara	98		2
 kopra	130		2
 kora	1846		2
-korektora	316		2
+korektora	316		3
 korektura	76		2
 korespondira	549		2
 koridora	4508		2
@@ -1059,39 +1059,39 @@ kotira	617		2
 kotora			2
 kotura	80		3
 kozera	10		2
-kozmetičara	242		3
+kozmetičara	242		4
 kozomara			2
-košara	75		2
+košara	75		3
 košmara			2
-kožara	69		2
+kožara	69		3
 kožura		M	2
 kra		M	1
 krajcara		M	2
-kratera	1139		2
+kratera	1139		3
 kravara	11		3
-kreatora			2
+kreatora			3
 kreatura	209		2
 kreditira	357		2
 kreditora	984		3
 kreira	4825		2
 krekera	102		3
 kremira	14		2
-krečara			2
+krečara			3
 krešimira			2
-krijumčara	224		3
-kristifora			2
+krijumčara	224		4
+kristifora			3
 kristofera			2
-kritičara	3441		3
+kritičara	3441		4
 krivičara			2
 krompira	3554		2
 krosovera			2
 krovinjara		M	2
-krpara	23		2
+krpara	23		3
 kruzera	211		2
 krčmara	207		3
 ktitora	461		2
 kubatura	13		2
-kubura		M	2
+kubura		M	3
 kudra			2
 kufera			2
 kuglara			2
@@ -1106,7 +1106,7 @@ kundera			2
 kupera			2
 kupusara	32		2
 kura	128		2
-kuratora	22		2
+kuratora	22		3
 kurijera			2
 kurira	1164		2
 kustura		M	2
@@ -1118,7 +1118,7 @@ kvara	2559		2
 kvazara	109		2
 kvekera	20		3
 kvora			2
-labradora	208		2
+labradora	208		3
 lagera	527		2
 lahora	31		3
 lakira	66		2
@@ -1144,7 +1144,7 @@ lektira	587		2
 lektora	318		2
 lektura	62		2
 lemura	56		2
-leonora			2
+leonora			3
 leotara			2
 lepomira			2
 lepra		M	2
@@ -1152,15 +1152,15 @@ leptira	1105		3
 lestera			2
 leutara			2
 levitira	67		2
-levičara	429		3
-lešinara	227		3
+levičara	429		4
+lešinara	227		4
 libara	30		3
 libera	126		2
 libra	75		2
 licemera	154		4
 licencira	138		2
 licitira	356		2
-lidera	17227		2
+lidera	17227		3
 ligatura	51		2
 lihvara	97		3
 likera	257		2
@@ -1172,28 +1172,28 @@ limitira	239		2
 lincura		M	2
 lipicanera	89		2
 lira	611		2
-liričara	58		3
+liričara	58		4
 litara	13124		3
 literatura	3547		2
 litosfera	15		2
 litra	3556		2
 livara			2
 ljubomira			2
-ljubomora	1435		2
-ljudeskara	25		2
-ljudoždera	97		2
-ljuskara	46		2
+ljubomora	1435		3
+ljudeskara	25		3
+ljudoždera	97		3
+ljuskara	46		3
 ljutomira			2
-ljuštura	253		2
+ljuštura	253		3
 lobira			2
 locira	480		2
 logaritmara			2
-logičara	19		3
+logičara	19		4
 logora	3733		3
-lokatora	31		2
+lokatora	31		3
 lončara	35		2
 lopara			2
-lopatara	49		3
+lopatara	49		4
 lora			2
 lotara			2
 lovora	154		3
@@ -1203,7 +1203,7 @@ ludara	33		2
 ludira			2
 lugara	11		2
 lumpenproletera			2
-lustera	182		2
+lustera	182		3
 lutera			2
 lutkara	54		3
 lutra			2
@@ -1213,7 +1213,7 @@ macura			2
 madagaskara			2
 madera			2
 madžara			2
-magistara	334		2
+magistara	334		3
 magistra	1591		2
 magistrira	68		2
 magnetosfera	44		2
@@ -1223,12 +1223,12 @@ majura			2
 makulatura			2
 malera	114		2
 malinara	509		2
-maltera	1044		2
+maltera	1044		3
 maltretira	1106		2
 manastira	21625		4
 mandatara	747		2
-mandatora			2
-mandragora	24		2
+mandatora			3
+mandragora	24		3
 manevara	334		3
 manevra	225		2
 manikira	188		2
@@ -1236,12 +1236,12 @@ manikura			2
 manipulatora	230		2
 manipulira			2
 manira	570		2
-mantikora			2
+mantikora			3
 mantra	720		2
 manufaktura	202		2
 mapira	162		2
 mara	653		2
-maribora			2
+maribora			3
 marinara			2
 marinira	39		2
 markera	762		2
@@ -1251,13 +1251,13 @@ masakra	957		2
 masakrira	49		2
 masera	160		2
 masira	325		2
-maskara	469		2
+maskara	469		3
 maskira	343		2
 mastera	812		2
 mastiljara		M	2
 masturbira	112		2
-matadora	36		2
-matematičara	1088		3
+matadora	36		3
+matematičara	1088		4
 matera	123		2
 matira	228		2
 matičara	456		2
@@ -1270,44 +1270,44 @@ mavara			2
 mazgara			2
 mačora	246		3
 mađara			2
-mađioničara	246		3
-maškara	22		2
+mađioničara	246		4
+maškara	22		3
 meandra	55		2
 medaljera			2
 medicinara	220		2
-medijatora	643		3
+medijatora	643		4
 meditira	120		2
 megera			2
-mehaničara	403		3
+mehaničara	403		4
 mehura	313		3
 memoara	380		2
 memorira			2
-menadžera	8420		3
+menadžera	8420		4
 menora			2
 mensura			2
 mentora	2405		2
 menzura		M	2
 mera	33658		2
 merdara			2
-merkatora			2
+merkatora			3
 merkura	539		2
 mermera	1021		3
 mesara	505		3
 mesečara	44		4
 mesoždera			2
-metafora	2060		2
+metafora	2060		3
 metara	58747		3
 meteora	1176		2
 metra	11007		2
 mezgra		M	2
-mečkara			2
+mečkara			3
 međuigra	22		2
 mešetara	176		2
 meštara			2
 meštera			2
 midera			2
 migrira	84		2
-mikroflora			2
+mikroflora			3
 mikroprocesora	198		2
 miksera	219		2
 mikstura	11		2
@@ -1316,8 +1316,8 @@ milicionara	24		2
 milicionera	89		2
 milijardera	908		2
 mililitara	338		2
-milimetara	1747		4
-milimetra	651		3
+milimetara	1747		5
+milimetra	651		4
 milionara			2
 milionera	795		2
 milomira			2
@@ -1329,8 +1329,8 @@ minibara			2
 minijatura	484		2
 minimizira			2
 minira	201		2
-ministara	13098		3
-ministra	34405		2
+ministara	13098		4
+ministra	34405		3
 minotaura	68		2
 miomira			2
 mira	17959		2
@@ -1344,9 +1344,9 @@ mitra	277		2
 mišara	31		3
 mjanmara			2
 mlatara	102		2
-mlekara	1784		2
+mlekara	1784		3
 mlinara	121		3
-mljekara		J	2
+mljekara		J	3
 moamera			2
 modelara	95		2
 modelira	92		2
@@ -1356,10 +1356,10 @@ modra	169		2
 mokra	1081		2
 molera	148		2
 momira			2
-monitora	3941		3
+monitora	3941		4
 monmartra			2
 monokultura	43		2
-monsinjora	43		2
+monsinjora	43		3
 montažera	165		2
 montera	167		2
 montira	1230		2
@@ -1369,7 +1369,7 @@ mostara			2
 motivira			2
 motora	19051		2
 motra			2
-močvara	502		2
+močvara	502		3
 mramora	170		3
 mudra	1141		2
 muhadžira			2
@@ -1385,25 +1385,25 @@ mutira	152		2
 muzara	339		2
 muzicira	32		2
 muzičara	4557		2
-muškara			2
+muškara			3
 mušketira			2
 muštra			2
 nabira			2
-nabora	273		2
+nabora	273		3
 nabra			2
 nadigra	120		2
 nadira	13		2
 nadničara	110		4
 nadrogira			2
-nadzora	7078		2
+nadzora	7078		3
 nafora	34		2
 nagovara	318		2
 nagovora	39		4
 nagura	54		2
 naigra	18		2
 najgora	2560		3
-najšira	293		2
-naksutra		M	2
+najšira	293		3
+naksutra		M	3
 nalivpera	15		2
 namastira			2
 namera	12820		3
@@ -1412,30 +1412,30 @@ namćora			2
 nanometara	176		2
 naočara	2144		4
 napoličara			2
-napora	7699		2
+napora	7699		3
 napudra			2
 nara	388		2
-naratora	351		2
+naratora	351		3
 narazgovara			2
 nasera			2
-natera	2793		2
+natera	2793		3
 natira			2
 natura	675		2
 navara			2
 navigatora	130		2
 nazira			2
-nazora	189		2
+nazora	189		3
 našara			2
 nebodera	448		4
 nedra	236		2
-negatora			2
+negatora			3
 negira	2666		2
 neimara			2
 nektara	610		3
 nekultura			2
 nemara	744		3
 nemira	2028		3
-nepokora			2
+nepokora			3
 nera			2
 nervatura			2
 nervira	3700		2
@@ -1443,13 +1443,13 @@ nesesera			2
 nesrazmera	212		2
 nestora	43		2
 neurotransmitera	221		2
-nevera	186		2
+nevera	186		3
 nezira			2
 nigera			2
 nijagara			2
-nikanora			2
-nikifora			2
-nićifora			2
+nikanora			3
+nikifora			3
+nićifora			3
 njedara			2
 njedra	94		2
 njofra			2
@@ -1461,7 +1461,7 @@ normira	118		2
 nostra			2
 notara			2
 notira	29		2
-novatora	20		2
+novatora	20		3
 novelira			2
 novembra	37248		2
 novinara	24101		4
@@ -1473,28 +1473,28 @@ obigra			2
 oblakodera	195		2
 obora	191		2
 obra			2
-obućara	235		3
+obućara	235		4
 obzervera			2
 obzira	68342		3
-obzora	45		2
+obzora	45		3
 odabira	2227		4
 odabra			2
 odbira			2
 odblokira	156		2
-odbora	68470		2
+odbora	68470		3
 odera			2
 odgovara	47495		2
 odgovora	17133		4
 odgura	41		2
-odigra	3031		2
+odigra	3031		3
 odmara	1328		2
-odmora	9685		2
-odora	99		2
-odozgora	14		2
+odmora	9685		3
+odora	99		3
+odozgora	14		3
 odra	217		2
 odskora		M	2
 odsvira	219		2
-odudara	704		2
+odudara	704		3
 odžačara	36		2
 oficira		M	2
 ogovara	297		2
@@ -1534,22 +1534,22 @@ orbitira	131		2
 organizatora	8523		3
 organizira			2
 orijentira	102		2
-orkestara	889		3
-orkestra	3436		2
+orkestara	889		4
+orkestra	3436		3
 ormara	705		2
 oružara	171		2
 oscara			2
 oscilira	298		2
 osigura	2619		2
-oskara	714		2
+oskara	714		3
 osmatra	183		2
-otera	1010		2
-otmičara	232		3
+otera	1010		3
+otmičara	232		4
 otpara			2
-otpora	8176		2
+otpora	8176		3
 otura			2
 otvara	19955		2
-otvora	2809		2
+otvora	2809		3
 overa	642		3
 ovulira			2
 ovčara	390		2
@@ -1562,7 +1562,7 @@ palavestra			2
 palmira			2
 pancira	66		2
 pandora			2
-pandura			2
+pandura			3
 paničara			2
 pankera	84		2
 pantera	270		2
@@ -1570,7 +1570,7 @@ pantljičara	67		2
 pantomimičara	65		2
 paora	484		3
 papira	10318		2
-papkara	54		2
+papkara	54		3
 papra	15		2
 papučara	32		2
 para	45209		2
@@ -1607,18 +1607,18 @@ pedikura			2
 pehara	1380		3
 pejdžera			2
 pejsmejkera	237		4
-pekara	1966		2
+pekara	1966		3
 pekinezera	70		2
 pelagra	20		2
 pendžera			2
 pentra	46		2
 penzionera			2
-pepeljara	118		2
+pepeljara	118		3
 pera	5634		2
 percipira	328		2
 perimetra	59		2
 perpera	250		2
-peskara	32		2
+peskara	32		3
 petera			2
 petora			2
 petra			2
@@ -1628,8 +1628,8 @@ pečenjara	75		2
 peškira	519		2
 peštera	171		2
 pešćara			2
-peščara	606		2
-pijandura	89		2
+peščara	606		3
+pijandura	89		3
 pijastera			2
 pijastra			2
 pilara			2
@@ -1641,20 +1641,20 @@ pipera			2
 pira	136		2
 pisara	302		2
 pisoara	62		2
-pitagora			2
+pitagora			3
 pitera			2
 pivara	1537		2
 pivovara	31		2
 pjotra			2
 plagijatora	73		2
-plakara			2
+plakara			3
 plakatira			2
 planera	408		2
 planinara	952		2
 planira	20580		2
 plantažera	14		2
 plasira	4221		2
-plastičara	47		3
+plastičara	47		4
 platnara			2
 pledira	177		2
 plejera	1371		2
@@ -1668,14 +1668,14 @@ podbara			2
 podera	15		2
 podgora			3
 podgovara			2
-pododbora	237		2
+pododbora	237		3
 podoficira			2
 podrumara	28		2
 podsahara			2
 podsekretara	62		2
-podsektora	28		2
+podsektora	28		3
 podstanara	264		4
-podudara	778		2
+podudara	778		3
 podupira			2
 poentira	427		2
 poetizira			2
@@ -1685,8 +1685,8 @@ pogovora	853		4
 pogura	407		2
 pohara	85		2
 poigra	283		2
-pokara	38		2
-pokera	524		2
+pokara	38		3
+pokera	524		3
 poklisara			2
 pokora	49		2
 pokra			2
@@ -1698,7 +1698,7 @@ poliestera	264		2
 polimera	601		2
 polira	109		2
 politizira			2
-političara	18594		3
+političara	18594		4
 politura	18		2
 poljara	64		2
 položara			2
@@ -1710,7 +1710,7 @@ pomera	3731		2
 pomijara		M	2
 pomora	363		2
 pondera	251		2
-ponora	620		2
+ponora	620		3
 popara	80		2
 popera			2
 pora	551		2
@@ -1723,7 +1723,7 @@ poslastičara	204		2
 posmatra	7691		2
 postara	217		2
 postera	1019		2
-postira			2
+postira			3
 postolara			2
 postponira			2
 postulira	75		2
@@ -1740,7 +1740,7 @@ pozira	505		2
 pozivara			2
 poštara	365		3
 požara	10531		3
-praizvora	13		2
+praizvora	13		3
 praktičara	620		2
 prastara	219		3
 prašinara			2
@@ -1750,10 +1750,10 @@ precizira	2615		2
 predatora	572		3
 predgovora	493		4
 predigra	522		3
-predizbora	11		2
+predizbora	11		3
 predobra	93		2
 predozira	20		2
-predsabora			2
+predsabora			3
 prefektura	80		2
 preferira	747		2
 pregora			2
@@ -1761,12 +1761,12 @@ pregovara	3768		2
 pregovora	18418		4
 pregura	125		2
 preigra			2
-prekomora			2
+prekomora			3
 prekopira	68		2
-prekora	175		2
-prekosutra	1379		2
-preksutra	83		2
-prekursora	83		2
+prekora	175		3
+prekosutra	1379		3
+preksutra	83		3
+prekursora	83		3
 prelatura			2
 premara			2
 premera	235		2
@@ -1779,8 +1779,8 @@ preparira	40		2
 prespora	39		2
 prestara	51		2
 pretendira			2
-pretera	614		2
-pretkomora	82		2
+pretera	614		3
+pretkomora	82		3
 pretora	28		2
 pretovara	150		2
 pretpremijera	69		2
@@ -1793,31 +1793,31 @@ prezira	737		3
 prezvitera	613		2
 preživara	123		2
 pribira	52		2
-pribora	1619		2
+pribora	1619		3
 pribra			2
 prigovara	388		2
 prigovora	2471		4
-prijedora			2
-primera	18896		2
+prijedora			3
+primera	18896		3
 primora	434		2
-printera	232		2
+printera	232		3
 priora	11		2
-prismotra	20		2
+prismotra	20		3
 pritera			2
-pritvora	3532		2
-prizora	1336		2
-prnjavora			2
+pritvora	3532		3
+prizora	1336		3
+prnjavora			3
 probira			2
 procedura	14162		2
 procesira	138		2
-procesora	7254		2
+procesora	7254		3
 procesuira	585		2
 prodera			2
-prodora	1678		2
+prodora	1678		3
 producira			2
 profajlera			2
 profaktura	137		2
-profesora	22836		3
+profesora	22836		4
 profesura	36		2
 profira			2
 profitera	396		2
@@ -1831,7 +1831,7 @@ progura	492		2
 prohora			2
 proigra	83		2
 projara			2
-projektora	924		3
+projektora	924		4
 projicira	37		2
 proletera	362		2
 prolongira	358		2
@@ -1839,21 +1839,21 @@ promatra	181		2
 promera	464		2
 promjera	214	J	2
 promotera	647		2
-promotora	74		2
+promotora	74		3
 pronevera	231		4
 propagira	1252		2
 propelera	96		2
-prorektora	175		2
+prorektora	175		3
 prosektura			2
 prosfora	35		2
 proskura			2
 prosperira	103		2
-prostora	61517		2
+prostora	61517		3
 prostudira	41		2
 prosvetara	728		2
 prosvira	25		2
-protektora			2
-protera	438		2
+protektora			3
+protera	438		3
 protežira	157		2
 protivmera			2
 protura	178		2
@@ -1862,18 +1862,18 @@ provera	4986		3
 providura	144		2
 provocira	1035		2
 provokatora	197		2
-prozora	10343		2
+prozora	10343		3
 prošara	23		2
 proždera			2
 psaltira	107		2
 psihijatara	448		3
 psihijatra	1164		2
-psihoanalitičara	117		3
+psihoanalitičara	117		4
 ptičara	84		3
 pucara			2
-puckara			2
+puckara			3
 pudara		M	2
-pudera	810		2
+pudera	810		3
 pudra			2
 pudrijera		M	2
 puhara			2
@@ -1883,7 +1883,7 @@ pulsira	390		2
 pura	44		2
 purgera			2
 purpura	100		2
-pustara	161		2
+pustara	161		3
 pustikara		M	2
 putera	966		3
 putira	53		2
@@ -1905,44 +1905,44 @@ raspra	81		2
 rastera	367		2
 rastura	519		2
 rastvara	516		2
-rastvora	1084		2
+rastvora	1084		3
 ratara	552		3
-ratibora			2
+ratibora			3
 ratomira			2
 razabira			2
 razabra			2
 razara	1190		2
 razbira			2
-razbora	31		2
+razbora	31		3
 razdera			2
-razdora	695		2
+razdora	695		3
 razgara	10		2
 razgovara	7909		2
 razgovora	23487		4
 razigra	126		2
 razmatra	6360		2
-razmera	4286		2
+razmera	4286		3
 razmontira	48		2
 razočara	343		2
-razvigora			2
+razvigora			3
 računara	27151		2
 reakcionara	37		2
 reaktivira	80		2
-reaktora	1872		2
-rebara	107		2
+reaktora	1872		3
+rebara	107		3
 rebra	1375		2
 recepcionara	45		2
 recepcionera	44		2
-receptora	713		2
+receptora	713		3
 receptura	306		2
 reciklira	883		2
 recitatora	516		2
 recitira			2
-redaktora	71		2
+redaktora	71		3
 redaktura	24		2
 redara	268		2
 reducira			2
-reflektora	945		3
+reflektora	945		4
 reformatora	441		3
 reformira			2
 refundira	316		2
@@ -1952,7 +1952,7 @@ registra	3910		2
 registratura			2
 regulatora	1098		2
 rehabilitira			2
-reizbora	717		2
+reizbora	717		3
 reketira	135		2
 reklamira	1919		2
 rekordera	481		2
@@ -1987,10 +1987,10 @@ retušira	24		2
 revanšira	151		2
 revera	53		3
 revidira	477		2
-revizora	2448		2
+revizora	2448		3
 revoltira	26		2
 revolucionara	748		2
-revolvera	338		2
+revolvera	338		3
 rezbara	14		2
 rezervoara	2227		2
 rezimira	200		2
@@ -2011,27 +2011,27 @@ robera			2
 rokera	292		2
 roksandra			2
 rolera	322		2
-romantičara	435		3
+romantičara	435		4
 rotira	634		2
 rotora	356		3
 rotvajlera	103		2
 rudara	1682		2
 ruptura	175		2
-sabira	735		2
-sabora	4393		2
+sabira	735		3
+sabora	4393		3
 sabotera	45		2
 sabotira	317		2
 sabra			2
 safira	106		2
-sahara			2
+sahara			3
 salamandera	25		2
 salamura		M	2
 salašara			2
 salutira	59		2
-salvadora			2
+salvadora			3
 samara			2
 samira			2
-samobora			2
+samobora			3
 samoprezira			2
 samovara			4
 samsara			2
@@ -2048,7 +2048,7 @@ sartra			2
 satara	32		2
 satera			2
 satira	634		2
-satiričara	222		3
+satiričara	222		4
 satra			2
 savladara	102		2
 sačmara			3
@@ -2057,21 +2057,21 @@ secira	90		2
 sedlara	21		2
 sedmera			2
 sedra			2
-sekira	794		2
+sekira	794		3
 sekretara	10984		2
 sektora	30652		3
 sekundara			2
-selektora	5103		3
+selektora	5103		4
 selendra	101		2
 selimira			2
 seljančura		M	2
 semafora	1112		4
-semestara	390		3
-semestra	3339		2
+semestara	390		4
+semestra	3339		3
 seminara	11916		2
 senatora	869		3
 sendvičara			2
-seniora	1429		2
+seniora	1429		3
 senzora	3034		2
 septembara	39		3
 septembra	45860		2
@@ -2080,7 +2080,7 @@ servera	6203		3
 servira	1913		2
 servisera	809		2
 servisira	770		2
-sestara	4406		2
+sestara	4406		3
 sestra	11107		2
 severa	7510		3
 sevra			2
@@ -2100,7 +2100,7 @@ sintisajzera	83		2
 sipara			2
 sira	3742		2
 sisara	1244		3
-sitničara			3
+sitničara			4
 situira	55		2
 sjutra		J	2
 skadra			2
@@ -2118,7 +2118,7 @@ skulptora	135		2
 skulptura	2725		2
 skutera	528		3
 skvera			2
-slastičara			3
+slastičara			4
 slavimira			2
 slavomira			2
 slikara	4720		3
@@ -2131,7 +2131,7 @@ smećara	62		2
 smežura	13		2
 smotra	1533		2
 snagatora	44		3
-snajpera	203		2
+snajpera	203		3
 sobara	35		3
 sodara			2
 sofra		M	2
@@ -2161,14 +2161,14 @@ stabilizatora	241		2
 stacionara	158		2
 stacionira	40		2
 stagnira	853		2
-staklara	82		2
+staklara	82		3
 stanara	4440		2
 stanimira			2
 stara	24221		2
 starinara			2
 startera	291		2
-statističara	150		3
-stavrofora	113		2
+statističara	150		4
+stavrofora	113		3
 stažira	38		2
 stigmatizira			2
 stihira			2
@@ -2192,7 +2192,7 @@ stripera	41		3
 strugara		M	2
 struktura	18016		2
 strunjara		M	2
-strvinara	16		3
+strvinara	16		4
 strvodera			2
 studira	2856		2
 stupara			2
@@ -2203,33 +2203,33 @@ sublimira	170		2
 subnora			2
 subotara			2
 sudara	2945		3
-sudopera	216		3
+sudopera	216		4
 suflera			2
 suflira	25		2
 sugerira			2
-sukcesora			2
-sumatra			2
+sukcesora			3
+sumatra			3
 sumira	433		2
 sumpora	837		3
-sunđera	361		2
+sunđera	361		3
 supera	48		2
 superkompjutera			2
 supervizora	585		5
 surfera	141		2
 sustanara	33		4
-sutomora			2
+sutomora			3
 sutra	50237		2
 suvenira	1711		2
-suvobora			2
+suvobora			3
 sušara	309		2
 svaštara	70		2
 svekra	169		2
 svemira	3770		3
-svetigora			2
-svetogora			2
+svetigora			3
+svetogora			3
 svetomira			2
 svetozara			2
-svečara	50		2
+svečara	50		3
 svilara	17		2
 svingera	14		2
 svinjara	57		2
@@ -2238,29 +2238,29 @@ tabakera	30		2
 tabora	1690		3
 tahira			2
 tahometra			2
-tajmera	181		2
-takmičara	9485		3
-taksimetra	34		3
+tajmera	181		3
+takmičara	9485		4
+taksimetra	34		4
 taktizira	72		2
-taktičara	23		3
+taktičara	23		4
 talira			2
-tamara			2
-tambura	198		2
-tamničara	67		3
+tamara			3
+tambura	198		3
+tamničara	67		4
 tandara			2
 tangira	244		2
 tanjira	1078		2
 tanjura	24		2
-tankera	220		2
+tankera	220		3
 tantra	107		2
 tapira	15		2
 tara	821		2
 tastatura	3024		2
 tastera	3254		2
-teatara	171		2
+teatara	171		3
 teatra	4642		2
 teftera			2
-tehničara	2997		3
+tehničara	2997		4
 tejlora			2
 tekstura	959		2
 telefonira	272		2
@@ -2274,11 +2274,11 @@ tempura			2
 tendera	4380		2
 tenisera	3391		2
 tenora	163		2
-teodora			2
-teoretičara	1214		3
+teodora			3
+teoretičara	1214		4
 tera	6463		2
 terijera	247		2
-termidora			2
+termidora			3
 termometara	53		5
 termometra	104		4
 terora	2075		2
@@ -2296,7 +2296,7 @@ tihomira			2
 tijara	27		2
 tikvara		M	2
 timara	22		2
-tinejdžera	1938		3
+tinejdžera	1938		4
 tinejđera			2
 tinktura	232		2
 tintara			2
@@ -2311,8 +2311,8 @@ torbara	51		2
 toreadora	34		3
 tortura	484		2
 tostera	36		2
-tovara	388		2
-tragičara	101		3
+tovara	388		3
+tragičara	101		4
 traktora	2866		3
 transfera	4118		2
 transformatora			2
@@ -2320,26 +2320,26 @@ transformira			2
 transpondera	24		2
 transponira			2
 transportera	745		2
-tranzistora	893		3
+tranzistora	893		4
 trapera	17		3
 trasira	217		2
 travara	105		2
-tračara	94		2
+tračara	94		3
 tregera			2
-trenera	16209		2
+trenera	16209		3
 trenira	3278		2
 tretira	5560		2
 trezora	1212		2
 trigera			2
 trijumfira			2
-trikolora	113		2
+trikolora	113		3
 trilera	799		3
 trogira			2
 tropara	135		2
 troposfera	24		2
 trotoara			2
 trubadura	64		2
-trčkara	165		2
+trčkara	165		3
 tumara	253		2
 tumora	4746		3
 tundra	44		2
@@ -2348,12 +2348,12 @@ turnira	14387		2
 tutora	317		3
 tušira	178		2
 tvora	44		2
-ubira	656		2
+ubira	656		3
 ubra			2
 udara	10732		3
 udvara	345		2
 ufura	13		2
-ugara	91		2
+ugara	91		3
 ugljara	31		2
 uglomera			2
 ugovara	660		2
@@ -2362,15 +2362,15 @@ ugura	386		2
 uigra	124		2
 ujgura			2
 ukapira	240		2
-ukora	93		2
+ukora	93		3
 uličara	29		2
 uljara	187		2
 ulješura			2
 ultra			2
 umara	286		2
 umaršira	19		2
-umora	2255		2
-umotvora			2
+umora	2255		3
+umotvora			3
 unificira	31		2
 unutra	10278		2
 uretra			2
@@ -2384,7 +2384,7 @@ utovara	409		4
 utvara	239		3
 uvertira	974		2
 uzabra			2
-uzora	1017		2
+uzora	1017		3
 uzurpatora	184		3
 uzurpira	251		2
 uzvera			3
@@ -2392,7 +2392,7 @@ učkura			2
 ušara	76		2
 užara			2
 vajara	1101		2
-valcera	226		2
+valcera	226		3
 valjara			2
 valkira	28		2
 valtera			2
@@ -2407,13 +2407,13 @@ vatra	4468		2
 vaučera	629		2
 vašara			2
 vebera			2
-vedara			2
+vedara			3
 vedra	779		2
 vegetira	58		2
 vektora	410		2
 velara			2
 velemajstora	322		2
-velibora			2
+velibora			3
 velimira			4
 velizara			2
 velura	40		2
@@ -2425,19 +2425,19 @@ versifikatora			3
 veterinara	1980		2
 vetra	7607		2
 vezira			2
-večera	4135		2
+večera	4135		3
 veštičara			2
-vibratora	139		2
+vibratora	139		3
 vibrira	347		2
 vicekancelara	24		2
 vidara	57		2
 vidra	193		2
 vihora	123		3
 vijagra	190		2
-vikara	122		2
+vikara	122		3
 viklera			2
 viktora			2
-viljuškara	353		3
+viljuškara	353		4
 vinara	1052		2
 vinavera			2
 vinogradara	717		2
@@ -2450,7 +2450,7 @@ vizira	72		2
 vizitira			2
 vizura	491		2
 vladara	4801		2
-vladimira			3
+vladimira			4
 vlastimira			2
 voajera	56		2
 vodeničara	63		2
@@ -2459,12 +2459,12 @@ vokabulara	265		2
 volontera	4090		2
 volontira	209		2
 voltera			2
-voskara		M	2
+voskara		M	3
 vozara	50		2
 vozdra			2
 voćara	504		2
 vratara	117		2
-vračara	433		2
+vračara	433		3
 vritra			2
 vrtlara	30		3
 vucara	42		2
@@ -2488,15 +2488,15 @@ zapara	76		2
 zapisničara	161		2
 zaratustra			2
 zastara	50		2
-zastora	194		2
+zastora	194		3
 zasvira	172		2
 zatetura	42		2
 zatira			2
 zatitra	20		2
 zatvara	3991		2
-zatvora	17435		2
-zaudara	242		2
-zavara	663		2
+zatvora	17435		3
+zaudara	242		3
+zavara	663		3
 zavera	1501		3
 zavora			2
 zazora	379		2
@@ -2508,22 +2508,22 @@ zdera			2
 zebra	271		2
 zefira			2
 zehra			2
-zelengora		M	2
+zelengora		M	3
 zera			2
-zečara			2
-zglavkara	44		2
+zečara			3
+zglavkara	44		3
 zgura	24		2
 zicera	297		3
 zidara	383		2
 zlatara	533		2
-zlatibora			2
+zlatibora			3
 zlatomira			2
 zlatopera			2
 zlotvora	225		3
 zora	1813		2
 zubara	935		2
 zuhra			2
-zujara		M	2
+zujara		M	3
 zulumćara	46		2
 zumira	157		2
 zunzara	27		2
@@ -2538,12 +2538,12 @@ zvonimira			2
 ćilibara			2
 ćira			2
 ćumura			2
-ćurčara			2
+ćurčara			3
 čabra			2
 čadora			2
-čahura	17		2
+čahura	17		3
 čaira			2
-čakara			2
+čakara			3
 čakra	241		2
 čaktara			2
 čakšira			2
@@ -2570,7 +2570,7 @@ zvonimira			2
 čopora	486		3
 čubura			2
 čupakabra			2
-čutura	225		2
+čutura	225		3
 čuvara	3133		2
 čvora	1340		2
 đaura			2
@@ -2580,9 +2580,9 @@ zvonimira			2
 đumbira	495		2
 đura			2
 šalitra		M	2
-šaltera	1348		2
+šaltera	1348		3
 šalvara		M	2
-šamara	598		2
+šamara	598		3
 šandora			2
 šankera			2
 šara	830		2
@@ -2595,14 +2595,14 @@ zvonimira			2
 šekspira			2
 šestara	33		3
 ševara			2
-šećera	14452		2
+šećera	14452		3
 šešira	1153		2
 šifara	256		3
 šifra	2191		2
 šikanira	100		2
-šikara	86		2
+šikara	86		3
 šilera			2
-šimšira	52		2
+šimšira	52		3
 šindra	47		2
 šintera			2
 šiptara	711		3
@@ -2610,7 +2610,7 @@ zvonimira			2
 šizofreničara	27		2
 šićara			2
 škvadra	18		2
-šlagera	69		2
+šlagera	69		3
 šlepera	605		3
 šljivara	23		2
 šlogira			2
@@ -2619,7 +2619,7 @@ zvonimira			2
 šminkera	226		2
 šmirglpapira			2
 šnajdera			2
-šnaucera	51		3
+šnaucera	51		4
 šodera			2
 šofera	273		2
 šofira			2
@@ -2644,7 +2644,7 @@ zvonimira			2
 štrebera			2
 štukatura			2
 štura	136		2
-šubara	87		2
+šubara	87		3
 šudra			2
 šukera			2
 šumara	185		3
@@ -2666,7 +2666,7 @@ zvonimira			2
 železara	1040		2
 železničara	356		2
 želimira			2
-željezara	58	J	2
+željezara	58	J	3
 ženira			2
 ženskara			2
 žerara			2
@@ -2676,8 +2676,8 @@ zvonimira			2
 živcira	70		2
 živinara			2
 živomira			2
-žičara	1493		2
-žličara			2
+žičara	1493		3
+žličara			3
 žmura		M	2
 žohara	15		3
 žonglera	68		2
@@ -2686,7 +2686,7 @@ zvonimira			2
 žura		M	2
 žustra	137		2
 cvjećara			2
-istjera			2
+istjera			3
 kolijera			2
 licemjera			4
 ljekara			2
@@ -2694,25 +2694,25 @@ mjehura			3
 mjera			2
 molijera			2
 namjera			3
-natjera			2
-nevjera	91		2
+natjera			3
+nevjera	91		3
 omjera			2
-otjera			2
+otjera			3
 pjera			2
 pjetra			2
 pomjera			2
 potjera			3
-pretjera			2
+pretjera			3
 prijevara			3
 prijezira			4
-primjera			2
+primjera			3
 pronevjera			4
-protjera			2
+protjera			3
 provjera			3
-rastjera			2
-razmjera			2
+rastjera			3
+razmjera			3
 sijera			2
-sjekira			2
+sjekira			3
 sjevera			3
 smjera	155		2
 tjera			2
@@ -2720,5 +2720,5 @@ vijera			2
 vjera			2
 vjetra			2
 zamjera			2
-zavjera			2
+zavjera			3
 zvjera			2

@@ -17,11 +17,11 @@ anason			2
 anjon			2
 anticiklon			2
 antifon			3
-antimon	56		2
+antimon	56		3
 antiproton	17		2
 apolon			2
 argon		M	2
-arhiđakon	176		3
+arhiđakon	176		4
 arlington			2
 armagedon			2
 autohton	102		2
@@ -32,7 +32,7 @@ badminton	625		2
 bajron			2
 balkon	1608		2
 balon	2335		2
-bariton	204		2
+bariton	204		3
 baron	715		2
 bastion	473		2
 bataljon	997		2
@@ -68,7 +68,7 @@ danon			2
 dejton			2
 demižon			2
 demon	845		2
-digitron	269		2
+digitron	269		3
 dijapazon	986		2
 diktafon	168		3
 divizion			2
@@ -87,7 +87,7 @@ emotikon			2
 enron			2
 eon			2
 epigon	31		2
-epsilon	70		2
+epsilon	70		3
 eskadron	82		2
 estragon		M	2
 etalon		M	2
@@ -184,7 +184,7 @@ kvadrilion			2
 lampion	28		2
 legion			2
 lejton			2
-leksikon	501		2
+leksikon	501		3
 lenon			2
 leon			2
 leprikon			2
@@ -256,7 +256,7 @@ ozon	467		2
 pansion	782		2
 pantalon			2
 pantelejmon			2
-panteon	188		2
+panteon	188		3
 pardon	1834		2
 partenon			2
 patron	148		2
@@ -305,7 +305,7 @@ remon			2
 rezon	507		2
 robinzon			2
 ron			1
-rubikon			2
+rubikon			3
 sajgon			2
 sajmon			2
 saksofon	370		3

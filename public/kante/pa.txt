@@ -1,7 +1,7 @@
 278
 alpa			2
-antilopa	210		2
-arapa	162		2
+antilopa	210		3
+arapa	162		3
 arhetipa	169		2
 bioskopa	3269		4
 biskupa	1056		3
@@ -17,17 +17,17 @@ džepa	2925		2
 džipa	513		2
 edipa			2
 ekipa	45744		2
-episkopa	7697		3
+episkopa	7697		4
 espapa			2
 etapa	2059		2
 euterpa			2
 evropa			2
 ezopa			2
 ešarpa	73		2
-filantropa	90		2
+filantropa	90		3
 filipa			2
 fotošopa			2
-galopa	27		2
+galopa	27		3
 gestapa			2
 glupa	2306		2
 gospa	397		2
@@ -49,15 +49,15 @@ izlupa	27		2
 izotopa	344		2
 iščupa	404		2
 jakrepa			2
-josipa			2
+josipa			3
 kaliopa			2
-kalupa	802		2
+kalupa	802		3
 kampa	4701		2
 kanapa	563		2
 kapa	2179		2
-kasapa	20		2
-kečapa	206		2
-kiklopa	45		2
+kasapa	20		3
+kečapa	206		3
+kiklopa	45		3
 kipa	263		2
 klapa	341		2
 klepa	31		2
@@ -66,7 +66,7 @@ klompa			2
 klopa			2
 klupa	2233		2
 kompa	1914		1
-konopa	78		2
+konopa	78		3
 kopa	3253		2
 korpa	1371		2
 krepa	57		2
@@ -79,51 +79,51 @@ lepa	15114		2
 lilihipa			2
 lipa	961		2
 lupa	1589		2
-mangupa	283		2
+mangupa	283		3
 mapa	3847		2
 mikroskopa	308		4
 mikročipa	74		2
-mizantropa	29		2
+mizantropa	29		3
 mutapa			2
-nadbiskupa	454		3
+nadbiskupa	454		4
 nalupa	47		2
 napa	93		2
 napipa	137		2
 napumpa	47		2
-nasipa	1247		2
-nastupa	17636		2
+nasipa	1247		3
+nastupa	17636		3
 natapa	123		2
 natrapa			2
 natrpa	47		2
 načupa			2
 naštampa	32		2
 neslepa			2
-obasipa	201		2
+obasipa	201		3
 odstupa	1326		2
 odštampa	483		2
-oklopa	575		2
+oklopa	575		3
 okopa	21		2
 okrepa	66		2
-okupa	293		2
+okupa	293		3
 olimpa			2
-opipa	189		2
-opkopa	22		2
-osipa	646		2
+opipa	189		3
+opkopa	22		3
+osipa	646		3
 ospa	129		2
 otapa	166		2
 otkopa	135		2
-otkupa	2697		2
+otkupa	2697		3
 očerupa	31		2
 pa	914558		1
 pampa			2
 papa	7056		2
 paripa			2
 penelopa			2
-periskopa			3
+periskopa			4
 pikapa			2
 pipa	1343		2
 pocepa	320		2
-podgrupa	391		2
+podgrupa	391		3
 podskupa	19		2
 podtipa	45		2
 pohlepa	930		3
@@ -141,7 +141,7 @@ postupa	3302		2
 potapa	179		2
 potkopa	146		2
 potkrepa	11		3
-potopa	442		2
+potopa	442		3
 potrpa	31		2
 poštapa			2
 predgrupa	376		2
@@ -160,8 +160,8 @@ preštampa			2
 priglupa	37		2
 prilepa			2
 principa	12521		2
-pristupa	19378		2
-procepa	108		2
+pristupa	19378		3
+procepa	108		3
 prokopa	172		2
 prolupa	16		2
 propipa			2
@@ -177,8 +177,8 @@ pupa	61		2
 rampa	902		2
 rapa			2
 rasapa	26		2
-rascepa	465		2
-rasipa	826		2
+rascepa	465		3
+rasipa	826		3
 rasklapa	120		2
 raskopa	49		2
 raspopa			2
@@ -194,7 +194,7 @@ selotejpa			2
 sevapa			2
 sinkopa	74		2
 sipa	1835		2
-sirupa	914		2
+sirupa	914		3
 skalpa	73		2
 sklapa	1832		2
 sklepa	65		2
@@ -217,7 +217,7 @@ stupa	3349		2
 supa	1734		2
 supergrupa			2
 superkupa	168		2
-svirepa	103		2
+svirepa	103		3
 teleskopa	2873		4
 tempa	1137		2
 tepa	188		2
@@ -231,16 +231,16 @@ trupa	4570		2
 tupa	144		2
 ugljenokopa	162		2
 uklapa	4743		2
-ukopa	267		2
+ukopa	267		3
 ustupa	903		2
 utapa	236		2
 utrpa	22		2
-vadičepa	14		3
+vadičepa	14		4
 vespa	198		2
 zaklapa	57		2
 zakopa	239		2
 zakrpa	618		2
-zakupa	3119		2
+zakupa	3119		3
 zalupa	57		2
 zasipa	228		2
 zaspa	29		2
@@ -252,7 +252,7 @@ zaškripa			2
 ćitapa			2
 ćupa	73		2
 čabarkapa			2
-čarapa	1228		2
+čarapa	1228		3
 čepa	281		2
 čerupa	66		2
 čiopa	22		2
@@ -281,8 +281,8 @@ cijepa	64		3
 lijepa	1092		3
 ljepa			2
 prelijepa	122		2
-prijestupa	21		2
-procjepa			2
+prijestupa	21		3
+procjepa			3
 rascijepa			2
-rascjepa			2
+rascjepa			3
 slijepa	188		3

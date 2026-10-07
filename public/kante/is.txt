@@ -59,7 +59,7 @@ illinois			2
 iris	242		2
 ispis	436		2
 jaspis		M	2
-kanabis	235		2
+kanabis	235		3
 kapris			2
 katehizis			2
 katihizis	105		2
@@ -85,7 +85,7 @@ medžlis			2
 megalopolis			2
 memfis			2
 meningitis	389		2
-metropolis	113		2
+metropolis	113		3
 miokarditis			2
 miomiris	51		2
 miris	11793		2
@@ -132,7 +132,7 @@ rinitis			2
 ris	576		1
 rukopis	2878		3
 servis	27695		2
-sifilis	380		2
+sifilis	380		3
 sinopsis	550		2
 solaris			2
 spis	1107		1

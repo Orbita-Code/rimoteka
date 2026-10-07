@@ -1,5 +1,5 @@
 224
-Kairo			2
+Kairo			3
 alegro			2
 aleksandro			2
 astro	469		2
@@ -29,10 +29,10 @@ dobro	283561		2
 dopro	181		2
 doskoro		M	3
 dvadesetoro	251		2
-dvanaestoro	217		4
+dvanaestoro	217		5
 elektro	3443		2
 ero	24		2
-euro			2
+euro			3
 evro	14254		2
 figaro	214		2
 floro			2
@@ -55,7 +55,7 @@ ibro			2
 ilustro			2
 izumro	102		2
 jaro	76		2
-jedanaestoro	191		4
+jedanaestoro	191		5
 jedro	587		2
 jero			2
 jetro			2
@@ -67,7 +67,7 @@ karo	144		2
 kastro			2
 kiro			2
 klaro			2
-komoro			2
+komoro			3
 komunjaro			2
 koro			2
 kudro			2
@@ -123,7 +123,7 @@ petero	101		3
 petnaestoro	191		2
 petoro	3782		3
 petro			2
-pijanduro	11		2
+pijanduro	11		3
 pjetro			2
 poaro			2
 pobro			2
@@ -175,7 +175,7 @@ sombrero	44		3
 sporo	6246		2
 srebro	3445		2
 staro	9454		2
-sudopero			3
+sudopero			4
 suro			2
 teatro			2
 testero			2
@@ -194,7 +194,7 @@ učetvoro		M	2
 vatro			2
 vedro	1383		2
 vero	46		2
-večero			2
+večero			3
 zamro	228		2
 zastro			2
 zatro	53		2

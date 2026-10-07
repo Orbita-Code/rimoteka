@@ -1,14 +1,14 @@
 555
-Egipat			2
+Egipat			3
 acetat	95		2
 adresat	35		2
 advokat	3743		2
 aerostat			4
-afekat			2
+afekat			3
 aglomerat		M	2
 agregat	2662		2
 ahat	106		2
-akcenat	7046		2
+akcenat	7046		3
 akrobat	19		2
 alat	6774		2
 antikvarijat	16		2
@@ -21,7 +21,7 @@ argat			2
 argumenat	175		2
 arhiđakonat			2
 aristokrat	17		2
-aspekat	249		2
+aspekat	249		3
 astat			2
 at			1
 atentat	1730		2
@@ -66,7 +66,7 @@ denuncijat			2
 deputat		M	2
 derivat	476		2
 destilat	62		2
-dijalekat	263		2
+dijalekat	263		3
 diktat	476		2
 diplomat	84		2
 direktorat	543		2
@@ -75,7 +75,7 @@ dohvat	1481		2
 doksat		M	2
 doktorat	1569		2
 dokumenat	752		2
-domišljat	65		2
+domišljat	65		3
 dorat		M	2
 doznat			2
 dugovat			2
@@ -85,7 +85,7 @@ duplikat	235		2
 dželat		M	2
 džemat	132		2
 dževat			2
-efekat	20183		2
+efekat	20183		3
 egzarhat	22		2
 ekonomat			2
 eksperimenat			2
@@ -93,12 +93,12 @@ eksplantat			2
 eksponat		M	2
 eksudat			2
 elaborat	1048		2
-elemenat	1816		2
+elemenat	1816		3
 emirat	109		2
 episkopat	57		2
 esat			2
 etomidat			2
-eufrat			2
+eufrat			3
 fabrikat			2
 fakat	1151		2
 falsifikat	869		2
@@ -142,10 +142,10 @@ ignjat			2
 imperfekat		M	4
 implantat	146		2
 inat	2193		2
-insekat			2
+insekat			3
 inspektorat	435		2
 internat	299		2
-iskopat			2
+iskopat			3
 ispisat			2
 ispitat			2
 ispitivat			2
@@ -160,7 +160,7 @@ izgledat			2
 izravnat			2
 izračunat	94		2
 izrezat			2
-iščupat			2
+iščupat			3
 jat		M	1
 javljat			2
 jedincat		M	2
@@ -216,7 +216,7 @@ magnat	318		2
 mandat	13108		2
 mat	2409		1
 matrijarhat	85		2
-mecenat		M	2
+mecenat		M	3
 megavat	167		2
 mesnat	56		2
 međukat		M	2
@@ -224,7 +224,7 @@ međusprat	30		2
 midhat			2
 mijat			2
 mlat	14		1
-momenat	8185		2
+momenat	8185		3
 morat			2
 mulat	12		2
 murat			2
@@ -264,7 +264,7 @@ nosat	16		2
 novcat	25		2
 nugat	33		2
 obilat	50		2
-objekat	26034		2
+objekat	26034		3
 obrat	84		2
 obračunat	158		2
 obrijat			2
@@ -296,7 +296,7 @@ patrijarhat	268		2
 patronat	84		2
 paškanat	59		2
 penetrat			2
-perfekat			2
+perfekat			3
 pernat			2
 pečat	7074		2
 pilat			2
@@ -307,14 +307,14 @@ plesat			2
 plećat	29		2
 plivat			2
 pljosnat		M	2
-pluskvamperfekat			2
+pluskvamperfekat			3
 pobrat			2
 podhvat			2
 poduhvat	5903		3
 pogađat			2
 pogledat			2
 pokazat			2
-pokopat			2
+pokopat			3
 pokrivat			2
 pokucat			2
 polikarbonat			2
@@ -370,21 +370,21 @@ prihvat	788		2
 prijat			2
 prikazat			2
 primat	2531		2
-principat	22		2
+principat	22		3
 priorat			2
 pripjat			2
 pristat			2
 priznat	608		2
 pričat			2
-pričekat			2
+pričekat			3
 pričuvat			2
 probat			2
-procenat	18553		2
+procenat	18553		3
 procvat	1338		2
 prodat	1605		2
 prodavat			2
 produkat			2
-projekat	79491		2
+projekat	79491		3
 proletarijat	323		2
 proleterijat	87		2
 propjevat		J	2
@@ -435,7 +435,7 @@ saslušat			2
 sastat			2
 sat	33314		1
 savjetovat		J	2
-sačekat			2
+sačekat			3
 sačuvat			2
 sedat			2
 sekretarijat	5724		2
@@ -459,7 +459,7 @@ stajat			2
 stradat			2
 strnat			2
 stvarat			2
-subjekat	1180		2
+subjekat	1180		3
 sublimat	60		2
 suhomesnat			2
 sulfat	217		2
@@ -470,8 +470,8 @@ surogat	792		3
 suvat		M	2
 svat	256		1
 sviđat			2
-talenat	7486		2
-telepat			2
+talenat	7486		3
+telepat			3
 temat		M	2
 tempomat	290		2
 termostat	436		2
@@ -527,12 +527,12 @@ zahvaljivat			2
 zahvat	1905		2
 zakazat			2
 zaklat			2
-zakopat			2
+zakopat			3
 zanat	3083		2
 zapat			2
 zapisat			2
 zaspat			2
-zastupat			2
+zastupat			3
 zauzvrat	3373		3
 zavezat			2
 zbrisat			2

@@ -3,26 +3,26 @@ crkoh	22		2
 dadoh	366		2
 digoh	36		2
 dodadoh			2
-donesoh	41		2
+donesoh	41		3
 dorastoh			2
 dođoh	540		2
 enoh			2
 htedoh			2
 idoh			2
-imadoh	111		2
+imadoh	111		3
 isekoh			2
-iskradoh			2
-ispadoh	90		2
-istakoh			2
+iskradoh			3
+ispadoh	90		3
+istakoh			3
 istresoh	10		2
 izađoh	105		2
-izdadoh	14		2
+izdadoh	14		3
 izdigoh			2
 iziđoh	83		2
 izjedoh			2
 iznemogoh			2
 iznesoh	21		2
-izrekoh	21		2
+izrekoh	21		3
 izvedoh	20		2
 izvukoh	70		2
 iščezoh			2
@@ -39,83 +39,83 @@ mogoh	104		2
 moloh			2
 nagoh			2
 naiđoh	118		2
-najedoh			2
+najedoh			3
 nanesoh			2
 napasoh			2
 natukoh			2
 navedoh	57		2
-navikoh	12		2
+navikoh	12		3
 navukoh	22		2
 nađoh	809		2
 nemadoh			2
 obiđoh	25		2
 obukoh	35		2
 odigoh			2
-odmakoh			2
+odmakoh			3
 odnesoh			2
 odoh	1479		1
-odrekoh	37		2
-odsekoh			2
-odustadoh	22		2
+odrekoh	37		3
+odsekoh			3
+odustadoh	22		3
 odvedoh			2
 oh	1903		1
-ostadoh	274		2
+ostadoh	274		3
 otidoh			2
 otiđoh			2
-otpadoh			2
+otpadoh			3
 otresoh			2
 ozeboh			2
 padoh	124		2
 paroh	1825		2
-pobegoh	52		2
+pobegoh	52		3
 pobodoh			2
-podigoh	135		2
+podigoh	135		3
 podnesoh	14		2
 pogiboh			2
-pojedoh	41		2
-pometoh			2
+pojedoh	41		3
+pometoh			3
 pomogoh	11		2
 posekoh			2
-postadoh	68		2
-postigoh			2
+postadoh	68		3
+postigoh			3
 postrigoh			2
 potegoh			2
-povedoh	14		2
+povedoh	14		3
 povukoh	40		2
 poznadoh			2
 pođoh	160		2
-predadoh	46		2
+predadoh	46		3
 prejedoh			2
 prekidoh			2
 prenesoh			2
-prepadoh	21		2
+prepadoh	21		3
 prepoznadoh			2
 presekoh			2
-prestadoh	18		2
+prestadoh	18		3
 pretekoh			2
 prevaziđoh			2
 pređoh	61		2
 pribegoh			2
 prilegoh			2
-primakoh			2
+primakoh			3
 prinesoh	26		2
-pripadoh			2
-pristadoh	21		2
+pripadoh			3
+pristadoh	21		3
 pritekoh			2
 privukoh	17		2
-priznadoh	15		2
+priznadoh	15		3
 priđoh	57		2
-prodadoh	17		2
+prodadoh	17		3
 pronađoh	90		2
-propadoh	13		2
+propadoh	13		3
 protresoh			2
 provedoh	93		2
 prođoh	122		2
-razdadoh			2
+razdadoh			3
 rekoh	8143		2
 sagoh			2
-sastadoh			2
-saznadoh	125		2
+sastadoh			3
+saznadoh	125		3
 sedoh	161		2
 siđoh	46		2
 skidoh			2
@@ -131,15 +131,15 @@ stegoh	11		2
 stekoh	33		2
 stigoh	292		2
 stresoh	25		2
-sustigoh			2
+sustigoh			3
 svukoh	11		2
 trgoh	54		2
 tukoh			2
 ugrizoh			2
 ulegoh			2
-umakoh			2
-upadoh	29		2
-ustadoh	87		2
+umakoh			3
+upadoh	29		3
+ustadoh	87		3
 utekoh	22		2
 uvukoh	13		2
 uzdigoh			2
@@ -149,12 +149,12 @@ vrgoh			2
 zagrizoh			2
 zanesoh			2
 zaobiđoh			2
-zapadoh	11		2
-zarekoh			2
-zastadoh	57		2
-zatekoh	73		2
+zapadoh	11		3
+zarekoh			3
+zastadoh	57		3
+zatekoh	73		3
 zatresoh			2
-zavedoh			2
+zavedoh			3
 zavukoh	28		2
 zađoh			2
 znadoh	57		2

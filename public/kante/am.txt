@@ -1,5 +1,5 @@
 1929
-Amsterdam			2
+Amsterdam			3
 Avram			2
 Vijetnam			3
 abortiram	19		2
@@ -128,7 +128,7 @@ cinizam	1082		2
 cinkam			2
 cionizam	69		2
 citiram	3183		2
-crkavam	11		2
+crkavam	11		3
 crtam	542		2
 cucam			2
 cugam			2
@@ -139,7 +139,7 @@ dam	9492		1
 darvinizam	101		2
 deaktiviram	11		2
 debljam			2
-decigram		M	2
+decigram		M	3
 defetizam	388		2
 degradiram	10		2
 degustiram	15		2
@@ -183,10 +183,10 @@ dokopam	75		2
 dominiram	20		2
 domišljam			2
 doniram	46		2
-dopadam	78		2
+dopadam	78		3
 dopunjavam	37		2
 dopuštam	199		2
-dostavljam	138		2
+dostavljam	138		3
 doteram	81		2
 dovršavam	14		2
 dozivam	80		2
@@ -194,7 +194,7 @@ doznam	91		2
 dozvoljavam	791		2
 dočaram	231		2
 dočaravam			2
-dočekam	510		2
+dočekam	510		3
 dočepam	62		2
 doživljavam	1541		2
 dram			1
@@ -316,7 +316,7 @@ hedonizam	411		2
 hegemonizam			2
 heklam	41		2
 heksagram			2
-hektogram			2
+hektogram			3
 helenizam	26		2
 heliotropizam			2
 hemogram			2
@@ -392,30 +392,30 @@ iskradam			2
 iskrcam			2
 iskuliram			2
 iskupljam			2
-iskušam	11		2
+iskušam	11		3
 iskušavam	15		2
 islam	4242		2
 islamizam			2
 ismejavam			2
 ismevam	26		2
 ismijavam		J	2
-ispadam	88		2
+ispadam	88		3
 ispavam	12		2
 ispaštam	35		2
 ispeglam	29		2
 ispijam	118		2
 ispipam			2
-ispiram	75		2
+ispiram	75		3
 ispitam	162		2
 ispjevam			2
 isplaniram	71		2
-isplivam	34		2
+isplivam	34		3
 isplovljavam			2
 ispoliram	30		2
 ispoljavam	37		2
 ispovedam	167		2
 ispovraćam	42		2
-ispravljam	228		2
+ispravljam	228		3
 ispraćam	35		2
 isprebijam			2
 isprepadam			2
@@ -430,7 +430,7 @@ isprskam			2
 ispucam	22		2
 ispunjavam	301		2
 ispuštam	96		2
-isteram	141		2
+isteram	141		3
 istetoviram	20		2
 istoricizam		M	2
 istorizam	26		2
@@ -444,14 +444,14 @@ istuširam	123		2
 izam		M	2
 izazivam	174		2
 izbalansiram	15		2
-izbavljam			2
+izbavljam			3
 izbegavam	964		2
 izbijam	13		2
 izblamiram	25		2
 izbrbljam			2
 izdam	174		2
 izdiktiram	15		2
-izdržavam	205		2
+izdržavam	205		3
 izduvam	45		2
 izdvajam	457		2
 izgaram	11		2
@@ -472,7 +472,7 @@ izmotavam			2
 iznerviram	266		2
 iznuđavam			2
 izolacionizam			2
-izostavljam	43		2
+izostavljam	43		3
 izranjam	13		2
 izravnam	10		2
 izračunam	123		2
@@ -481,12 +481,12 @@ izražavam	849		2
 izribam			2
 izudaram	10		2
 izuvam	34		2
-izuzimam	146		2
+izuzimam	146		3
 izučavam	65		2
 izveštavam	67		2
 izvežbam			2
 izvinjavam	6120		2
-izvršavam	52		2
+izvršavam	52		3
 išamaram	19		2
 išetam			2
 išibam			3
@@ -625,7 +625,7 @@ lupkam	19		2
 lutam	289		2
 madam	384		1
 magnetizam	238		2
-makadam	126		2
+makadam	126		3
 makartizam			2
 malaksavam			2
 maltretiram	146		2
@@ -688,7 +688,7 @@ muljam	28		2
 mumlam			2
 muvam	88		2
 nabasam	38		2
-nabavljam	143		2
+nabavljam	143		3
 nabijam	151		2
 nabrajam	2526		2
 nabubam			2
@@ -697,11 +697,11 @@ naciljam	12		2
 nacionalizam	4429		2
 nacionalsocijalizam	103		2
 nacizam	935		2
-nacrtam	274		2
+nacrtam	274		3
 nadam	48518		2
 nadevam			2
 nadgledam			2
-nadimam			2
+nadimam			3
 nadjačam	10		2
 nadodam			2
 nadrealizam	267		2
@@ -723,7 +723,7 @@ nam	333304		1
 nameravam	1015		2
 nameštam	122		2
 naoružam	21		2
-napadam	344		2
+napadam	344		3
 napasam			2
 napijam	11		2
 napipam	38		2
@@ -734,16 +734,16 @@ narcisizam	15		2
 narcizam	179		2
 narušavam	31		2
 nasedam	34		2
-naslikam	73		2
+naslikam	73		3
 naslušam	11		2
 nasmijavam		J	2
 naspavam	96		2
 naspram	2319		2
-nastavljam	995		2
+nastavljam	995		3
 nastradam	14		2
 nastupam	344		2
 natapam			2
-nateram	531		2
+nateram	531		3
 natrapam			2
 natrljam	10		2
 naturalizam			2
@@ -753,7 +753,7 @@ navijam	1495		2
 navikavam	118		2
 navodnjavam			2
 navršavam			2
-nazdravljam	43		2
+nazdravljam	43		3
 nazivam	660		2
 naznačavam			2
 načupam			2
@@ -782,7 +782,7 @@ nudizam	39		2
 obaram	47		2
 obasjam			2
 obaveštavam	757		2
-obavljam	685		2
+obavljam	685		3
 obeležavam	40		2
 obećam	433		2
 obećavam	1557		2
@@ -792,14 +792,14 @@ objašnjavam	1536		2
 obmotam			2
 obnavljam	65		2
 obožavam	3284		2
-obraćam	1779		2
+obraćam	1779		3
 obračunam	47		2
 obračunavam	24		2
 obrijam			2
-obrukam	48		2
-obuhvatam	10		2
+obrukam	48		3
+obuhvatam	10		3
 obujam	64		2
-obustavljam			2
+obustavljam			3
 obuvam	32		2
 obuzdam	88		2
 obuzdavam	16		2
@@ -815,7 +815,7 @@ odgajam	50		2
 odgledam	469		2
 odgovaram	2032		2
 odguram			2
-odigram	476		2
+odigram	476		3
 odlutam	58		2
 odmaram	331		2
 odmeravam	23		2
@@ -824,7 +824,7 @@ odobravam	274		2
 odrastam	30		2
 odražavam			2
 odremam	27		2
-održavam	479		2
+održavam	479		3
 odsecam			2
 odsedam	15		2
 odslušam	61		2
@@ -832,7 +832,7 @@ odspavam	103		2
 odstupam	53		2
 odsviram	61		2
 oduvam	15		2
-oduzimam	176		2
+oduzimam	176		3
 odučavam			2
 oduševljavam	61		2
 odvajam	229		2
@@ -870,13 +870,13 @@ omotam			2
 opažam	35		2
 opevam			2
 opijam	29		2
-opipam	49		2
+opipam	49		3
 opipavam	24		2
-opljačkam	17		2
+opljačkam	17		3
 oponašam	21		2
-oporavljam	62		2
+oporavljam	62		3
 oportunizam	234		2
-opovrgavam	15		2
+opovrgavam	15		3
 opozivam			2
 opravdam	438		2
 opravdavam	496		2
@@ -896,14 +896,14 @@ osam	52711		2
 oscilogram			2
 osecam			2
 osedlam			2
-osećam	13374		2
+osećam	13374		3
 osečam			2
 osiguram	117		2
 osiguravam	15		2
 osipam			2
 osječam		J	2
 oskudijevam		J	2
-oslanjam	212		2
+oslanjam	212		3
 oslikam	33		2
 oslobađam	78		2
 oslovljavam	60		2
@@ -911,17 +911,17 @@ osmatram	26		2
 osmišljavam	31		2
 osnivam	33		2
 osporavam	342		2
-ostavljam	1927		2
+ostavljam	1927		3
 osunčam			2
 osvajam	157		2
 osvetljavam	10		2
 osvežavam	14		2
-oteram	191		2
+oteram	191		3
 otežam	16		2
 otežavam	19		2
-otimam	97		2
+otimam	97		3
 otkidam	23		2
-otklanjam	12		2
+otklanjam	12		3
 otključam	62		2
 otključavam	24		2
 otkopam			2
@@ -930,9 +930,9 @@ otkopčavam	32		2
 otkotrljam			2
 otkrivam	570		2
 otkucam	126		2
-otpadam			2
+otpadam			3
 otpevam	100		2
-otplivam	19		2
+otplivam	19		3
 otpuštam	34		2
 otvaram	1611		2
 ovenčam			2
@@ -1014,8 +1014,8 @@ podivljam			2
 podrazumevam	692		2
 podražavam	20		2
 podrhtavam			2
-podržavam	5101		2
-podsećam	3248		2
+podržavam	5101		3
+podsećam	3248		3
 podsmevam	43		2
 podučavam	91		2
 podvrgavam	13		2
@@ -1024,28 +1024,28 @@ podšišam			2
 poentilizam			2
 poentiram	36		2
 pogađam	136		2
-pogledam	4930		2
+pogledam	4930		3
 pogoršam			2
 pogoršavam			2
 poguram	40		2
 pohađam	164		2
-pohitam	12		2
+pohitam	12		3
 pohvatam	96		2
 poigram	117		2
 poigravam	35		2
-poimam	20		2
+poimam	20		3
 pojam	16730		2
 pojačam	212		2
 pojačavam	51		2
-pokidam	22		2
-poklanjam	571		2
+pokidam	22		3
+poklanjam	571		3
 pokolebam			2
 pokopam			2
 pokopavam			2
 pokoravam	25		2
 pokrivam	98		2
 pokucam	25		2
-pokušam	2287		2
+pokušam	2287		3
 pokušavam	5097		2
 polijevam		J	2
 poliram	25		2
@@ -1062,7 +1062,7 @@ poništavam	19		2
 ponižavam	54		2
 poodsecam			2
 popevam			2
-popravljam	191		2
+popravljam	191		3
 popričam	206		2
 poprskam	20		2
 populizam	940		2
@@ -1073,11 +1073,11 @@ porazgovaram	191		2
 porađam	22		2
 poređam	46		2
 posipam	19		2
-poslušam	297		2
+poslušam	297		3
 posmatram	1951		2
 pospremam			2
 postaram	19		2
-postavljam	3089		2
+postavljam	3089		3
 postmodernizam			2
 postradam	33		2
 postupam	141		2
@@ -1098,9 +1098,9 @@ poveravam	61		2
 povećam	272		2
 povećavam	94		2
 povešam			2
-povraćam	122		2
+povraćam	122		3
 pozavršavam	25		2
-pozdravljam	3764		2
+pozdravljam	3764		3
 poziram	21		2
 pozitivizam	108		2
 pozivam	5325		2
@@ -1126,7 +1126,7 @@ predosećam	65		2
 predočavam	25		2
 predromantizam			2
 predsedavam	52		2
-predstavljam	824		2
+predstavljam	824		3
 predujam	137		2
 preduzimam	59		2
 predviđam	287		2
@@ -1148,7 +1148,7 @@ premišljam	56		2
 premotam	26		2
 premotavam	32		2
 prepariram			2
-preplivam	17		2
+preplivam	17		3
 preporučam	78		2
 prepoznam	637		2
 prepravljam	41		2
@@ -1160,21 +1160,21 @@ preslišavam	26		2
 preslušam	48		2
 preslušavam	28		2
 prespavam	139		2
-preteram	184		2
-pretpostavljam	11365		2
+preteram	184		3
+pretpostavljam	11365		3
 pretresam	11		2
 pretrčavam	10		2
 preturam	78		2
 pretvaram	228		2
 preusmeravam			2
 preuveličavam	40		2
-preuzimam	313		2
+preuzimam	313		3
 previjam	10		2
 prevladam			2
 prezivam	54		2
 preznojavam	30		2
 preživljavam	133		2
-pribavljam	12		2
+pribavljam	12		3
 pribegavam	37		2
 pribiram			2
 približavam	91		2
@@ -1182,12 +1182,12 @@ pribojavam	138		2
 pridam			2
 pridobijam			2
 pridodam	53		2
-pridržavam	270		2
+pridržavam	270		3
 prigovaram	56		2
 prihvatam	2083		2
-prihvaćam	37		2
+prihvaćam	37		3
 prijam	55		2
-priklanjam	21		2
+priklanjam	21		3
 prikradam			2
 prikrivam	22		2
 prikucam			2
@@ -1197,14 +1197,14 @@ primam	1251		2
 primitivizam	900		2
 primoram	19		2
 primoravam	20		2
-pripadam	1804		2
+pripadam	1804		3
 pripitam			2
 pripovedam	27		2
 pripremam	727		2
 prisecam			2
-prisećam	370		2
+prisećam	370		3
 prisiljavam	22		2
-prislanjam	10		2
+prislanjam	10		3
 pristupam	229		2
 prisvajam	26		2
 pritiskam	113		2
@@ -1213,7 +1213,7 @@ privikavam	35		2
 prizivam	140		2
 priznam	3561		2
 pričam	13266		2
-pričekam	41		2
+pričekam	41		3
 pričinjavam			2
 pričuvam	20		2
 prišunjam			2
@@ -1251,7 +1251,7 @@ promešam	18		2
 promišljam	20		2
 promuvam			2
 pronjuškam	10		2
-propadam	66		2
+propadam	66		3
 propovedam	88		2
 propuštam	252		2
 prosipam	61		2
@@ -1261,7 +1261,7 @@ prostudiram	29		2
 prosviram			2
 protekcionizam			2
 protepam			2
-proteram	12		2
+proteram	12		3
 protestantizam	192		2
 protrljam	17		2
 proturam			2
@@ -1272,7 +1272,7 @@ provociram	115		2
 provozam	221		2
 prozelitizam	82		2
 prozivam	293		2
-proćaskam	15		2
+proćaskam	15		3
 proćerdam			2
 pročačkam	13		2
 pročešljam	23		2
@@ -1297,21 +1297,21 @@ radikalizam	276		2
 radiogram	17		2
 ram		M	1
 ranjavam			2
-rasipam	32		2
+rasipam	32		3
 rasizam	1294		2
 raskidam	32		2
 rasklapam	21		2
 raskomadam			2
 raskopčam			2
 raskrinkam	30		2
-raspadam	35		2
+raspadam	35		3
 raspakiram			2
 raspitam	371		2
 raspoznam	18		2
 raspravljam			2
 raspuštam			2
-rastavljam	18		2
-rasteram	19		2
+rastavljam	18		3
+rasteram	19		3
 rasturam	48		2
 rastvaram			2
 ratosiljam			2
@@ -1346,7 +1346,7 @@ razrešavam	12		2
 razumevam	33		2
 razvijam	266		2
 razvrstam	17		2
-razvrstavam	16		2
+razvrstavam	16		3
 računam	2191		2
 rađam	88		2
 raščišćavam			2
@@ -1397,12 +1397,12 @@ roštiljam			2
 rugam	49		2
 rusizam	28		2
 ručam	149		2
-sabiram	90		2
+sabiram	90		3
 sabotiram	10		2
 sadam			2
 sadizam	138		2
 sagibam			2
-sagledam	480		2
+sagledam	480		3
 sagledavam	127		2
 sagorevam			2
 sajam	14298		2
@@ -1417,7 +1417,7 @@ saopštavam	154		2
 saosećam	179		2
 sarkazam	488		2
 saslušam	214		2
-sastavljam	157		2
+sastavljam	157		3
 satanizam	123		2
 sateram			2
 savijam	56		2
@@ -1425,7 +1425,7 @@ savladam	311		2
 sazdam			2
 sazivam	22		2
 saznam	1998		2
-sačekam	982		2
+sačekam	982		3
 sačuvam	667		2
 sažalijevam			2
 sažaljevam			2
@@ -1492,7 +1492,7 @@ smeštam	42		2
 smišljam	194		2
 smotam	31		2
 smrskam			2
-smrzavam	45		2
+smrzavam	45		3
 smršam	252		2
 smucam	12		2
 smuvam	51		2
@@ -1555,17 +1555,17 @@ sumiram	229		2
 sumnjam	9064		2
 sunčam	63		2
 suočavam	132		2
-suprotstavljam	62		2
+suprotstavljam	62		3
 surfam	18		2
 susam	294		2
 suzbijam			2
-suzdržavam	56		2
+suzdržavam	56		3
 sužavam			2
 svađam	355		2
 sviram	1027		2
 sviđam	201		2
 svraćam	113		2
-svršavam	175		2
+svršavam	175		3
 talasam	25		2
 taoizam	56		2
 tapkam	19		2
@@ -1599,7 +1599,7 @@ trockizam	38		2
 tropizam			2
 trpam	100		2
 trzam	21		2
-trčkaram	48		2
+trčkaram	48		3
 tumaram	66		2
 turcizam	74		2
 turizam	10777		2
@@ -1608,20 +1608,20 @@ ubadam	28		2
 ubijam	244		2
 ublažavam			2
 ubrajam	379		2
-ubrizgam			2
+ubrizgam			3
 ubrizgavam			2
 ubrzam	148		2
-ubrzavam	58		2
+ubrzavam	58		3
 udaljavam	70		2
 udam	312		2
-udaram	258		2
+udaram	258		3
 udebljam			2
 udovoljavam	18		2
 udvaram	41		2
 ufuram			2
 ugađam	50		2
 uglancam			2
-ugledam	567		2
+ugledam	567		3
 ugovaram	26		2
 ugrožavam	88		2
 uguram	86		2
@@ -1631,13 +1631,13 @@ ujedam	62		2
 ukaljam			2
 ukapiram	230		2
 ukidam	30		2
-uklanjam	41		2
+uklanjam	41		3
 uklapam	154		2
 ukopam			2
 ukopavam			2
 ukrašavam	17		2
 ukrcam	13		2
-ukrcavam	18		2
+ukrcavam	18		3
 ukucam	327		2
 ulepšam	77		2
 ulepšavam	26		2
@@ -1658,15 +1658,15 @@ uništavam	89		2
 unižavam			2
 uobražavam	21		2
 uočavam	162		2
-upadam	180		2
-upecam	47		2
+upadam	180		3
+upecam	47		3
 upetljam	12		2
 upijam	117		2
 upitam	511		2
 upotrebljavam	307		2
 upoznam	2564		2
 upozoravam	969		2
-upravljam	212		2
+upravljam	212		3
 upražnjavam	89		2
 uprljam	14		2
 upropaštavam			2
@@ -1679,10 +1679,10 @@ urbanizam	4141		2
 urgiram	19		2
 uriniram			2
 urlam	98		2
-usavršavam	173		2
+usavršavam	173		3
 usecam			2
 useljavam			2
-usisam	31		2
+usisam	31		3
 usisavam	47		2
 uslikam	153		2
 usložnjavam			2
@@ -1690,7 +1690,7 @@ usmeravam	80		2
 uspavam	97		2
 uspevam	969		2
 usporavam	54		2
-uspostavljam	31		2
+uspostavljam	31		3
 ustručavam	43		2
 ustupam	47		2
 usvajam	36		2
@@ -1707,16 +1707,16 @@ uvaljam	11		2
 uvažavam	463		2
 uveravam	495		2
 uvećam	34		2
-uvežbam	18		2
+uvežbam	18		3
 uvežbavam	20		2
 uvijam	42		2
 uviđam	274		2
-uvrštavam			2
+uvrštavam			3
 uzdam	372		2
 uzdrmam			2
-uzdržavam	55		2
+uzdržavam	55		3
 uzgajam	61		2
-uzimam	2706		2
+uzimam	2706		3
 uznemiravam	76		2
 uzrujam			2
 uzrujavam			2
@@ -1727,7 +1727,7 @@ ušetam	16		2
 ušivam			2
 ušunjam	18		2
 ušutkam			2
-ušuškam	27		2
+ušuškam	27		3
 užasavam	96		2
 uživam	3826		2
 uživljavam			2
@@ -1748,7 +1748,7 @@ venčam	32		2
 venčavam			2
 verizam			2
 veslam	34		2
-večeram	80		2
+večeram	80		3
 vešam	10		2
 vežbam	774		2
 vibriram			2
@@ -1774,17 +1774,17 @@ vrzmam			2
 vulgarizam			2
 vulkanizam			2
 zabadam	30		2
-zabavljam	289		2
+zabavljam	289		3
 zabijam	44		2
 zablistam			2
-zaboravljam	414		2
+zaboravljam	414		3
 zabrinjavam			2
 zabrljam	41		2
 zabušavam	33		2
 zadam	64		2
 zadovoljavam	88		2
 zadremam	26		2
-zadržavam	331		2
+zadržavam	331		3
 zafrkavam	14		2
 zagledam	164		2
 zagolicam	30		2
@@ -1797,7 +1797,7 @@ zahtevam	583		2
 zaigram	277		2
 zajam	2357		2
 zakeram			2
-zaklanjam	15		2
+zaklanjam	15		3
 zaklapam			2
 zaključam	99		2
 zaključavam	55		2
@@ -1820,11 +1820,11 @@ zamotam			2
 zanimam	171		2
 zanovetam	17		2
 zaoštravam			2
-zapadam	11		2
+zapadam	11		3
 zapažam	112		2
 zapevam	93		2
 zapitam	1038		2
-zaplivam	10		2
+zaplivam	10		3
 zapodevam			2
 zaposjedam		J	2
 zapostavljam	23		2
@@ -1839,22 +1839,22 @@ zasmejavam	24		2
 zasnivam	56		2
 zastupam	414		2
 zasviram	11		2
-zataškam			2
+zataškam			3
 zatrebam	24		2
 zatrpam	17		2
 zatrpavam	27		2
 zatrčavam			2
 zatvaram	349		2
 zaurlam	11		2
-zaustavljam	118		2
+zaustavljam	118		3
 zauzdam	13		2
-zauzimam	73		2
-zavaram	23		2
+zauzimam	73		3
+zavaram	23		3
 zavaravam	86		2
 zaveštavam			2
 zavijam	33		2
 zavitlavam			2
-završavam	1313		2
+završavam	1313		3
 zazivam			2
 zašivam			2
 zbijam	19		2
@@ -1865,7 +1865,7 @@ zezam	554		2
 zgražavam	51		2
 zidam	75		2
 zirkam			2
-zlostavljam	11		2
+zlostavljam	11		3
 zloupotrebljavam	104		2
 znam	160100		1
 zumiram	20		2
@@ -1930,36 +1930,36 @@ zvocam	27		2
 žurnalizam	52		2
 dotjeram			2
 ijekavizam		M	2
-istjeram			2
+istjeram			3
 izbjegavam			2
 izvještavam			2
-mijenjam	93		2
-miješam	32		2
+mijenjam	93		3
+miješam	32		3
 mjenjam			2
 namjeravam			2
 namještam			2
-natjeram			2
+natjeram			3
 obavještavam			2
 odsjedam			2
-oklijevam			2
+oklijevam			3
 osijećam			2
 osjecam			2
-osjećam			2
-otjeram			2
+osjećam			3
+otjeram			3
 otpjevam			2
 pjevam			2
-podsjećam			2
-pomiješam			2
+podsjećam			3
+pomiješam			3
 popijevam			2
 povjeravam			2
 predosjećam			2
 premještam		M	2
-pretjeram			2
+pretjeram			3
 preusmjeravam			2
-prisjećam			2
+prisjećam			3
 provjeravam			2
 riješavam			2
-rješavam			2
+rješavam			3
 saosjećam			2
 sijećam			2
 sjecam			2
@@ -1967,19 +1967,19 @@ sjedam			2
 sjećam			2
 smješkam			2
 snijevam			2
-sprječavam			2
+sprječavam			3
 tjeram			2
 umiješam			2
-uspijevam	47		2
+uspijevam	47		3
 uspjevam			2
 uvjeravam			2
 vjenčam			2
 vjenčavam			2
 vježbam			2
-vrijeđam	33		2
-zahtijevam	14		2
+vrijeđam	33		3
+zahtijevam	14		3
 zahtjevam			2
 zamjeram			2
 zapjevam			2
-zapovijedam	40		2
+zapovijedam	40		3
 zapovjedam			2

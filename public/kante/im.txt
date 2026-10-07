@@ -13,30 +13,30 @@ advokatovim			2
 advokatskim	195		2
 aerobnim	78		4
 aforističnim			2
-afričkim	755		2
+afričkim	755		3
 agrarnim	211		2
 agresivnijim	120		5
 agresivnim	825		4
-akademskim	2015		2
+akademskim	2015		3
 akcesionim			2
 akcijskim	194		2
 akcionim	930		2
 akciznim	53		2
 akronim	254		2
-aktiviranim	21		2
+aktiviranim	21		3
 aktivnijim			4
 aktivnim	2268		3
 aktuelnim	5194		4
-akustičkim	48		2
-akustičnim			2
+akustičkim	48		3
+akustičnim			3
 akutnijim			4
 akutnim	404		3
-alarmiranim			2
-alarmnim	84		2
+alarmiranim			3
+alarmnim	84		3
 albanskim	1704		2
 alfanumeričkim	15		2
 alim			2
-alkoholnim	257		3
+alkoholnim	257		4
 alpskim	196		2
 alternativnim	1221		5
 amaterskim	377		2
@@ -44,32 +44,32 @@ ambicioznijim			6
 ambicioznim	433		5
 ambijentalnim	107		5
 ambulantnim	187		2
-američkim	9570		2
+američkim	9570		3
 amoralnim	21		4
-amorfnim	20		2
+amorfnim	20		3
 anahronim	70		2
-analitičkim	385		2
+analitičkim	385		3
 analnim	51		2
 analognim	351		4
-anatomskim	131		2
+anatomskim	131		3
 andrićevim			2
 aneksionim			2
-anemičnim	27		2
+anemičnim	27		3
 animalnim	57		4
 animiranim	192		2
-anketnim	97		2
+anketnim	97		3
 anksioznijim			2
 anksioznim			2
 anonim			2
 anonimnim	335		4
 antenskim	64		2
 antiratnim	57		2
-antičkim	487		2
+antičkim	487		3
 antologijskim	61		2
 antonim	13		2
 anđelskim	60		3
 anđeoskim	112		2
-apatičnim	11		2
+apatičnim	11		3
 apelacionim			2
 apeninskim			2
 aplikativnim			2
@@ -79,14 +79,14 @@ aprilskim	128		2
 apriornim	29		4
 apsolutnijim			5
 apsolutnim	587		4
-apstraktnijim			3
-apstraktnim	307		2
-apsurdnim	158		2
-arapskim	1722		2
+apstraktnijim			4
+apstraktnim	307		3
+apsurdnim	158		3
+arapskim	1722		3
 arbanaškim	65		2
-arhaičnim	118		2
+arhaičnim	118		3
 arhajskim	21		2
-arheološkim	890		2
+arheološkim	890		3
 arhitektonskim	766		2
 arhivskim	273		2
 arktičkim	52		2
@@ -94,23 +94,23 @@ armijskim	30		2
 armiranim	39		2
 arnautskim	23		2
 arogantnim	96		2
-aromatičnijim			3
-aromatičnim			2
+aromatičnijim			4
+aromatičnim			3
 artikulisanim	28		2
-artističkim	25		2
+artističkim	25		3
 aseksualnim			2
 asfaltnim	353		2
 asim			2
-asimetričnim	100		2
+asimetričnim	100		3
 asketskim	45		2
-astmatičnim			2
+astmatičnim			3
 astraganskim			2
 astralnim	51		2
-astronomskim	500		2
+astronomskim	500		3
 atinskim	85		2
 atipičnim	56		2
-atičkim			2
-atlantskim	108		2
+atičkim			3
+atlantskim	108		3
 atletskim	222		2
 atmosferskim	322		2
 atomskim	275		2
@@ -120,41 +120,41 @@ auditivnim	23		2
 aukcijskim	63		2
 australijskim	206		3
 austrijskim	907		2
-austrougarskim	115		2
-autentičnim	853		2
-autobiografskim	101		2
+austrougarskim	115		3
+autentičnim	853		3
+autobiografskim	101		3
 autobuskim	462		2
-autohtonijim			3
-autohtonim	253		2
-automatskim	1640		2
-automobilskim	317		2
-autonomnim	308		4
+autohtonijim			4
+autohtonim	253		3
+automatskim	1640		3
+automobilskim	317		3
+autonomnim	308		5
 autoritativnim	71		7
 autorovim	77		2
-autorskim	1536		3
+autorskim	1536		4
 avalskim			2
 avetinjskim	11		2
 avgustovskim	42		2
-avionskim	215		2
+avionskim	215		3
 avlijskim			2
 avnojskim	21		2
 avramovim			2
-azbučnim	90		2
-azijatskim	45		2
+azbučnim	90		3
+azijatskim	45		3
 azijskim	714		3
-azotnim	86		2
+azotnim	86		3
 aćim			2
-ažuriranim	30		2
+ažuriranim	30		3
 ažurnim	74		3
 babinim	11		2
 babunskim			2
 bacim	1296		2
 bademovim	12		2
 bagatelnim	124		2
-bagdadskim			2
+bagdadskim			3
 bahatijim			4
 bahatim	320		3
-bajatim	42		2
+bajatim	42		3
 bajkolikim			2
 bakarnim	288		2
 bakinim	12		2
@@ -162,8 +162,8 @@ balavim	32		3
 baletskim	171		2
 balkanskim	2402		2
 balskim	17		2
-baltičkim	282		2
-bambusovim	15		3
+baltičkim	282		3
+bambusovim	15		4
 banalnijim			3
 banalnim	227		2
 banatskim	214		2
@@ -184,12 +184,12 @@ baršunskim			2
 basnoslovnim			4
 batalim	134		2
 baterijskim	56		2
-batinanim			2
-bavarskim	64		2
+batinanim			3
+bavarskim	64		3
 bavim	6967		2
-baziranim	350		2
+baziranim	350		3
 bazičnim	251		2
-bačenim	35		2
+bačenim	35		3
 bačkim	231		2
 baštenskim	82		2
 baštinim	11		2
@@ -197,38 +197,38 @@ bdim	34		1
 bebastim			2
 bebinim	22		2
 bednim	327		2
-beknutim			2
-beležim	185		2
+beknutim			3
+beležim	185		3
 belgijskim	211		2
 belim	246		2
 belićevim			2
 beličastim	69		2
-beljenim			2
+beljenim			3
 beljim			2
 beloruskim	131		4
 bengalskim	13		2
 benzinskim	1636		2
-beogradskim	4449		2
+beogradskim	4449		3
 berišinim			2
 berlinskim	169		2
 berzanskim	280		2
-besedim			2
+besedim			3
 besim			2
-beskonačnim	248		2
-beskorisnim	150		3
+beskonačnim	248		3
+beskorisnim	150		4
 beskrajnim	511		2
-beskrupuloznijim			5
-beskrupuloznim			4
+beskrupuloznijim			6
+beskrupuloznim			5
 beskvasnim	12		2
 beslovesnim	32		2
-besmislenim	685		3
-besmrtnim	261		2
-besnijim			2
+besmislenim	685		4
+besmrtnim	261		3
+besnijim			3
 besnim	248		2
 besomučnim	86		2
 bespilotnim	172		2
-besplatnim	1425		2
-besplodnim	24		2
+besplatnim	1425		3
+besplodnim	24		3
 bespomoćnim	109		4
 besposličim			2
 bespravnim	36		2
@@ -238,64 +238,64 @@ besputnim			2
 besramnijim			3
 besramnim	33		2
 bestidnim	51		2
-besvesnim			2
+besvesnim			3
 betonskim	557		2
-bezazlenijim			3
-bezazlenim	146		2
-bezbednijim	214		3
-bezbednim	628		2
+bezazlenijim			4
+bezazlenim	146		3
+bezbednijim	214		4
+bezbednim	628		3
 bezbednosnim	1550		2
 bezbojnim	80		3
 bezbolnim	69		2
-bezbožnim	58		2
-bezbrižnim	77		2
+bezbožnim	58		3
+bezbrižnim	77		3
 bezbrojnim	476		2
-bezdušnijim			3
-bezdušnim	52		2
-bezglasnim			2
+bezdušnijim			4
+bezdušnim	52		3
+bezglasnim			3
 bezgraničnim	47		4
-bezgrešnim	49		2
-bezimenim	43		3
-bezizlaznim	34		2
-bezličnim	81		2
+bezgrešnim	49		3
+bezimenim	43		4
+bezizlaznim	34		3
+bezličnim	81		3
 bezmernim	15		2
 beznadežnim	45		2
 beznačajnim	255		4
 bezobličnim			2
-bezobraznim	128		2
+bezobraznim	128		3
 bezobzirnim	94		4
 bezolovnim	22		2
 bezopasnim	144		4
 bezosećajnim	30		5
-bezočnim	44		2
-bezubim			2
+bezočnim	44		3
+bezubim			3
 bezumnim	99		2
 bezuslovnim			2
 bezvernim			2
-bezveznim	90		2
+bezveznim	90		3
 bezvidnim			2
-bezvodnim	29		2
+bezvodnim	29		3
 bezvoljnim	19		2
 bezvrednim	149		3
 bećarskim			2
 bečejskim	37		2
 bečkim	304		2
-bešumnim	27		2
-bešćutnim			2
+bešumnim	27		3
+bešćutnim			3
 bežim	877		2
-beživotnim	25		3
+beživotnim	25		4
 bežičnim	766		2
 biblijskim	318		2
-biciklističkim	245		2
+biciklističkim	245		3
 bilansnim	41		2
 bilijarskim	22		2
-bilježim		J	2
+bilježim		J	3
 biljnim	1220		2
 bim		M	1
 binarnim	66		2
-biološkim	957		2
+biološkim	957		3
 bipolarnim	55		2
-biranim	107		2
+biranim	107		3
 biračkim	1149		2
 biseksualnim			2
 bisernim	84		2
@@ -318,7 +318,7 @@ blatnim	58		2
 blatnjavim	124		3
 blaženim	233		2
 blažim	177		2
-blebetanim			2
+blebetanim			3
 bledim	160		2
 bledunjavim	10		2
 blejim	101		2
@@ -342,12 +342,12 @@ bljutavim			3
 bludećim			2
 bludim			2
 bludnim	50		2
-bodljikavim	40		3
+bodljikavim	40		4
 bodrim	71		2
 boemskim	44		2
 bogataškim	13		2
-bogatijim	586		3
-bogatim	3532		2
+bogatijim	586		4
+bogatim	3532		3
 boginjavim			2
 bogohulnim	30		4
 bogolikim			2
@@ -355,8 +355,8 @@ bogoradim			2
 bogoslužbenim	128		2
 bogovskim			2
 bojanovim			2
-bojažljivim	27		2
-bojenim	36		2
+bojažljivim	27		3
+bojenim	36		3
 bojevim			2
 bojim	9769		2
 bojnim	157		2
@@ -365,15 +365,15 @@ bokserskim	62		2
 bolesnim	960		3
 bolesničkim	57		2
 bolećivim			2
-bolešljivim			2
+bolešljivim			3
 boljim	5964		2
 bolnim	567		2
-bolničkim	498		2
+bolničkim	498		3
 bombastim			2
-bombastičnim			2
+bombastičnim			3
 bombaškim	114		2
-boravim	294		2
-boravišnim	16		3
+boravim	294		3
+boravišnim	16		4
 boračkim	56		2
 borbenim	839		3
 borilačkim	443		2
@@ -381,20 +381,20 @@ borim	2231		2
 borisovim			2
 borovim	75		2
 borskim	145		2
-bosanskim	1056		2
+bosanskim	1056		3
 bosanskohercegovačkim	79		2
 bosim	133		2
 bostonskim	25		2
-botaničkim	40		2
+botaničkim	40		3
 bočnim	994		2
 boškovskim			2
 bošnjačkim	661		2
 božanskim	777		2
-božanstvenim	171		2
+božanstvenim	171		3
 božijim	912		3
-božićnim	247		2
+božićnim	247		3
 božjim	1315		2
-bradatim	31		2
+bradatim	31		3
 brahim			2
 branim	2628		2
 brankovim			2
@@ -406,7 +406,7 @@ brazilskim	240		2
 braćenim			2
 bračnim	899		2
 brbljavim			3
-brdovitim	121		3
+brdovitim	121		4
 brdskim	499		2
 bretonskim			2
 brigadnim	14		2
@@ -414,14 +414,14 @@ brilijantnim			2
 briljantnim	163		2
 britanskim	1680		2
 britkim	110		2
-brižljivim	40		2
+brižljivim	40		3
 brkićevim			2
 brljavim			2
 brodskim	172		2
 brojim	535		2
 brojnijim	170		3
 brojnim	15975		2
-brojčanim	54		2
+brojčanim	54		3
 brokerskim	61		2
 bronzanim	238		2
 brstim			2
@@ -429,19 +429,19 @@ brusnim	77		2
 brutalnim	319		3
 brzim	3551		2
 brzometnim			2
-brzopletim	46		3
+brzopletim	46		4
 brđanskim			2
 bržim	836		2
 bubuljičavim			2
 bucmastim	12		3
-budalastim	39		2
+budalastim	39		3
 budim	1249		2
 budimskim	12		2
-budističkim	101		2
-budnijim	13		2
+budističkim	101		3
+budnijim	13		3
 budnim	1088		2
 budućim	7671		2
-budžetskim	1444		2
+budžetskim	1444		3
 bugarskim	807		3
 buhavim			2
 bujnim	269		2
@@ -458,19 +458,19 @@ buržujskim			2
 buvljim	62		2
 bučnim	217		2
 buđavim	31		2
-bušenim			2
+bušenim			3
 bušim	58		2
 carevim	67		3
-carigradskim	98		3
+carigradskim	98		4
 carinskim	890		3
 carskim	1336		2
 cedim	51		2
 celim	3297		2
-celokupnim	690		2
-celovitim	140		2
+celokupnim	690		3
+celovitim	140		3
 cementnim	94		2
 cenim	4360		2
-cenjenim	228		2
+cenjenim	228		3
 centralnim	2502		2
 cenzorskim	17		2
 cepidlačim			2
@@ -478,13 +478,13 @@ cerovim			2
 cetinjskim	67		2
 cevastim	18		2
 ciganskim	77		3
-cikličnim	81		2
+cikličnim	81		3
 ciljnim	546		2
 cincarskim	10		2
-ciničnim	161		2
+ciničnim	161		3
 cinkanim			3
 cinkarim			2
-cirkuskim	44		2
+cirkuskim	44		3
 citiranim	39		2
 civiliziranim			2
 civilizovanim	111		2
@@ -493,55 +493,55 @@ cmizdrim	18		2
 crevnim	102		2
 crknutim			2
 crkovnim			2
-crkvenim	2106		2
-crkvenoslovenskim	25		3
-crnačkim	60		2
+crkvenim	2106		3
+crkvenoslovenskim	25		4
+crnačkim	60		3
 crnim	4495		2
 crnjanskim			2
 crnjim	16		2
-crnogorskim	1459		3
-crnomanjastim			4
+crnogorskim	1459		4
+crnomanjastim			5
 crnosivim			2
 crnčim			2
 crpenim			3
 crpim	86		2
 crtanim	304		2
 crtačkim	69		2
-crvenijim			3
-crvenim	4155		2
-crvljivim			2
+crvenijim			4
+crvenim	4155		3
+crvljivim			3
 curim			2
 cvetnim	665		2
 cvilim	25		2
 cviljavim			2
-dalekim	833		2
+dalekim	833		3
 dalekometnim	31		2
-dalekosežnijim			3
-dalekosežnim	200		2
+dalekosežnijim			4
+dalekosežnim	200		3
 daljim	2008		2
 daljinskim	833		2
-današnjim	4276		2
+današnjim	4276		3
 dangićevim			2
-dangubim	24		2
+dangubim	24		3
 danilovim			2
 danim	87		2
 danonoćnim	56		4
 danskim	204		2
-darežljivim	12		2
-darovanim	19		2
-darovitim	154		2
+darežljivim	12		3
+darovanim	19		3
+darovitim	154		3
 datim	382		2
 datotečnim			2
-davanim			2
+davanim			3
 davidovim			2
 davim	382		2
-davljenim			2
+davljenim			3
 davnašnjim	47		2
 davnim	286		2
-debelim	1253		2
+debelim	1253		3
 debljim			2
 decimalnim	26		2
-defektnim	29		2
+defektnim	29		3
 deformisanim	61		2
 dejtonskim	438		2
 dekadnim			2
@@ -550,11 +550,11 @@ delatnim	27		2
 delikatnim	214		4
 delim	2038		2
 delimičnim	280		2
-deljenim	41		2
-deljivim	25		2
+deljenim	41		3
+deljivim	25		3
 delovim	11		2
-demagoškim	140		2
-demokratskim	4116		2
+demagoškim	140		3
+demokratskim	4116		3
 demonološkim			2
 demonskim	172		2
 denim			2
@@ -564,15 +564,15 @@ desetim	64		2
 desim			2
 desnim	1470		2
 desničarskim	202		2
-despotskim	19		2
+despotskim	19		3
 destruktivnim	206		4
 detaljnijim	125		4
 detaljnim	1139		3
 detektivskim	64		2
-detinjastim	39		3
-detinjim	46		2
+detinjastim	39		4
+detinjim	46		3
 detinjskim			2
-devedesetim	722		2
+devedesetim	722		3
 devetim	53		2
 deviznim	894		2
 devičanskim	152		2
@@ -591,7 +591,7 @@ dijamantskim	79		2
 dijametralnim			5
 dijetalnim	61		2
 diktatorskim	119		3
-diktiranim	16		2
+diktiranim	16		3
 dim	4843		1
 dimljenim	71		3
 dimnim	122		2
@@ -602,19 +602,19 @@ dinastičkim	55		2
 dinkićevim			2
 dinstanim			3
 diobnim			2
-diplomatskim	2034		2
+diplomatskim	2034		3
 diplomskim	324		2
-direktnim	3623		2
-dirljivim	111		2
+direktnim	3623		3
+dirljivim	111		3
 disajnim	379		2
 disciplinskim	183		2
-diskretnim	282		2
+diskretnim	282		3
 divim	1548		2
 divljačkim	67		2
 divljim	1202		2
 divnim	1553		2
 divotnim			2
-divovskim	36		2
+divovskim	36		3
 dizajniranim	243		2
 dičim	84		2
 dičnim	23		2
@@ -623,33 +623,33 @@ dnevnim	3308		2
 dnevničkim	69		2
 dobacim	54		2
 dobavim	16		2
-dobijenim	931		3
+dobijenim	931		4
 dobim			2
 dobivenim			2
 dobnim	29		2
 dobrim	17679		2
 dobrodošlim	78		2
-dobrodušnim	20		2
+dobrodušnim	20		3
 dobrotvornim	259		4
 dobrovoljnim	1057		2
 docnijim			2
 dodatim			2
 dodatnim	4187		3
 dodelim	82		2
-dodeljenim	72		2
+dodeljenim	72		3
 dodirnim	66		2
-dogmatskim	84		2
+dogmatskim	84		3
 dogonim			2
-dogovorenim	176		2
+dogovorenim	176		3
 dogovorim	237		2
 dogovornim			2
-dohvatim	241		2
+dohvatim	241		3
 dojavim			2
 dojim	540		2
 dojčinovim			2
-dokazanim	167		2
+dokazanim	167		3
 dokaznim	114		2
-dokonim	44		2
+dokonim	44		3
 dokrajčenim			3
 dokrajčim			2
 doktorovim	11		2
@@ -660,7 +660,7 @@ dokučim	142		2
 dokučivim			2
 dolarskim	37		2
 dolazećim	175		2
-dolazim	4248		2
+dolazim	4248		3
 doletim	19		2
 doličnim	15		2
 domaćim	12032		2
@@ -676,32 +676,32 @@ donosim	691		2
 dopadljivim	83		2
 dopratim			2
 doprinosim	82		2
-dopunim	374		2
-dopunjenim	37		3
-dopunskim	426		2
+dopunim	374		3
+dopunjenim	37		4
+dopunskim	426		3
 dopustim	157		2
-dopuštenim	34		2
+dopuštenim	34		3
 doradim	34		2
 doraslim			2
 dorćolskim			2
-dosadašnjim	4451		2
+dosadašnjim	4451		3
 dosadim	20		2
 dosadnim	376		3
 doselim			2
-doseljenim	23		2
+doseljenim	23		3
 dosetim	34		2
-dosetljivim			2
+dosetljivim			3
 doskorašnjim	100		2
 doskočim	16		2
 doslovnim	35		2
 dospelim	107		2
-dostavim	213		2
+dostavim	213		3
 dostižnim	26		3
 dostojanstvenim	112		2
 dostojanstveničkim			2
 dostojevskim			2
 dostojnim	400		2
-dostupnim	2815		2
+dostupnim	2815		3
 dosuđenim			2
 dotadašnjim	248		2
 doteranim	70		2
@@ -709,30 +709,30 @@ dotičnim	372		2
 dotrčim	11		2
 doturim			2
 doušničkim			2
-dovitljivim	17		2
+dovitljivim	17		3
 dovlačim	30		2
 dovodim	409		2
 dovodnim	14		2
 dovoljnim	1016		3
 dovozim			2
-dovršenim	19		2
+dovršenim	19		3
 dovršim	148		2
 doziranim	17		2
 dozvolim	838		2
-dozvoljenim	504		2
+dozvoljenim	504		3
 doživim	577		2
 doživljajnim	12		2
 doživljenim	30		2
 doživotnim	112		4
 dragim	1743		2
-dragocenim	394		2
+dragocenim	394		3
 drainčevim			2
 drakonskim	132		2
-dramatičnim	563		2
+dramatičnim	563		3
 dramaturškim	62		2
 dramskim	534		2
-drastičnijim	22		3
-drastičnim	374		2
+drastičnijim	22		4
+drastičnim	374		3
 dražinim			2
 dremljivim			2
 drenovim			2
@@ -744,7 +744,7 @@ drim		M	1
 drinskim	20		2
 drskim	144		2
 drugarskim	44		2
-drugačijim	3101		2
+drugačijim	3101		3
 drugim	124515		2
 drugorazrednim	60		2
 drugostepenim	126		2
@@ -762,7 +762,7 @@ držićevim			2
 dubim	24		2
 dubinskim	168		2
 dubljim	553		2
-dubokim	2260		2
+dubokim	2260		3
 dugačkim	931		2
 dugim	4271		2
 duginim			2
@@ -770,7 +770,7 @@ dugogodišnjim	1546		2
 dugoročnim	1134		4
 dugotrajnim	679		4
 duguljastim	38		2
-duhovitim	406		2
+duhovitim	406		3
 duhovnijim			3
 duhovnim	2477		2
 duljim	68		2
@@ -802,28 +802,28 @@ dvorogim			2
 dvorskim	151		2
 dvosatnim	20		2
 dvosmernim	41		2
-dvosmislenim	62		3
-dvostrukim	1122		2
+dvosmislenim	62		4
+dvostrukim	1122		3
 dvoumim	420		2
 dvočlanim	14		2
 džandrljivim			2
 džepnim	87		2
 džinovskim	176		3
 efektivnim	122		4
-efektnim	372		2
+efektnim	372		3
 efemernim	47		4
 efikasnijim	848		5
 efikasnim	1210		4
 efraim			2
 egejskim	76		2
-egipatskim	401		3
-egzaktnim	149		2
-egzotičnim	636		2
-ekavskim	45		2
+egipatskim	401		4
+egzaktnim	149		3
+egzotičnim	636		3
+ekavskim	45		3
 ekipnim	183		2
-ekološkim	2332		2
-ekonomskim	8354		2
-ekscentričnim	83		2
+ekološkim	2332		3
+ekonomskim	8354		3
+ekscentričnim	83		3
 eksim			2
 ekskluzivnim	622		4
 ekspanzivnim	24		2
@@ -834,27 +834,27 @@ ekspresnim	38		2
 eksternim			2
 ekstremnim	1885		2
 ekumenskim	54		2
-elastičnim	211		2
+elastičnim	211		3
 elegantnim	594		2
 električnim	1595		2
 elektromagnetnim	149		2
 elektromagnetskim	42		2
 elektronskim	4881		2
-eliptičnim	50		2
+eliptičnim	50		3
 elitnim	425		2
 eminentnim	341		2
 emitovanim	46		2
 emocionalnim	412		6
 emotivnim	771		4
 energetskim	1451		2
-energičnim	266		2
+energičnim	266		3
 engleskim	1684		2
 enormnim	309		2
 enzim	540		2
 epirskim	12		2
 epohalnim	91		4
 epskim	300		2
-erotskim	285		2
+erotskim	285		3
 esapim			2
 eskim			2
 esnafskim			2
@@ -863,24 +863,24 @@ estetskim	655		2
 estradnim	218		2
 etapnim	27		2
 etažnim	36		2
-etiopskim			2
-etičkim	925		2
+etiopskim			3
+etičkim	925		3
 etničkim	1512		2
 etnološkim	91		2
 etrurskim	17		2
-euforičnim	46		2
+euforičnim	46		3
 eventualnim	2178		5
 evidentnim	60		2
-evropskim	23927		2
-fabričkim	741		2
-faktičkim	130		2
+evropskim	23927		3
+fabričkim	741		3
+faktičkim	130		3
 fakultetskim	234		2
 falim	63		2
-faličnim	12		2
+faličnim	12		3
 falsifikovanim	69		2
 famoznim	236		3
-fanatičnim	58		2
-fantastičnim	1033		2
+fanatičnim	58		3
+fantastičnim	1033		3
 fantomskim	105		2
 farbanim	28		3
 farmaceutskim	460		2
@@ -890,7 +890,7 @@ fasadnim	128		2
 fascinantnim	162		2
 fatalnim	213		3
 faznim	63		2
-fašističkim	413		2
+fašističkim	413		3
 federacijskim			2
 federalnim	425		2
 federativnim	21		5
@@ -903,7 +903,7 @@ fiktivnim	227		2
 filharmonijskim	44		2
 filipovim			2
 filmskim	1716		2
-filološkim	116		2
+filološkim	116		3
 filozofskim	755		2
 finalnim	438		2
 finansijskim	7846		2
@@ -911,15 +911,15 @@ finim	850		2
 finskim	144		2
 fiskalnim	833		2
 fizikalnim	106		2
-fiziološkim	655		2
-fizičkim	4517		2
+fiziološkim	655		3
+fizičkim	4517		3
 flamanskim	29		2
 fleksibilnim	371		4
 fluidnim	47		3
 fluorescentnim	96		2
 folklornim	286		2
-fonetskim	32		2
-fonološkim	11		2
+fonetskim	32		3
+fonološkim	11		3
 forenzičkim	64		2
 formalnim	703		2
 formiranim	263		2
@@ -935,7 +935,7 @@ frontalnim	76		2
 fudbalskim	1467		2
 funkcionalnim	721		5
 furniranim			2
-futurističkim	113		2
+futurističkim	113		3
 gadim	171		2
 gadnim	81		2
 gajenim	24		2
@@ -943,7 +943,7 @@ gajim	491		2
 galaktičkim	43		2
 galamim	16		2
 galičkim			2
-gangsterskim	15		2
+gangsterskim	15		3
 garantnim	103		2
 garavim	15		3
 garašaninovim			2
@@ -953,21 +953,21 @@ gasnim	420		2
 gasovitim	49		2
 gazim	222		2
 gaziranim	136		3
-gašenim			2
+gašenim			3
 gegavim			2
 generalnim	1700		4
 generičkim	103		2
-genetičkim	136		2
+genetičkim	136		3
 genetskim	677		2
 genijalnim	229		4
 genitalnim	75		2
 genocidnim	200		2
-geografskim	1494		2
+geografskim	1494		3
 geološkim	373		2
 geometrijskim	283		2
 gerasim			2
 gerilskim	53		2
-gigantskim	123		2
+gigantskim	123		3
 gipkim			2
 gipsanim	82		2
 gladim	18		2
@@ -978,16 +978,16 @@ glamuroznim	141		2
 glasačkim	404		2
 glasnijim	55		3
 glasnim	341		2
-glasovitim	29		2
+glasovitim	29		3
 glasovnim	222		2
 glatkim	309		2
-glavatim			2
+glavatim			3
 glavnijim			2
 glavnim	6462		2
 gledanim	31		2
 gledićkim			2
 glibavim			2
-glinenim	123		2
+glinenim	123		3
 glišićevim			2
 globalnim	2407		2
 globim			2
@@ -1013,21 +1013,21 @@ gnjilim			2
 gnojnim	64		2
 gnostičkim	17		2
 gnusnim	96		2
-godišnjim	2383		2
+godišnjim	2383		3
 gojaznim	148		3
 gojim	79		2
-golemim	98		2
+golemim	98		3
 golicavim			2
 golim	2618		2
 golišavim			2
 golorukim	31		2
 golubijim			2
 gonim	53		2
-gonjenim			2
+gonjenim			3
 gordim	69		2
 gorim	642		2
 gorkim	312		2
-gorljivim	19		2
+gorljivim	19		3
 gornjim	1318		2
 gorskim	74		2
 gorućim	217		2
@@ -1035,37 +1035,37 @@ gorštačkim			2
 gospićkim			2
 gospodarim	14		2
 gospodnjim			2
-gospodskim	49		2
+gospodskim	49		3
 gospođinim			2
 gostim	27		2
-gostoljubivim	61		2
+gostoljubivim	61		3
 gostujućim	314		2
 gotivim			2
-gotičkim	23		2
-gotovim	570		2
+gotičkim	23		3
+gotovim	570		3
 gotskim	71		2
-goveđim	49		2
+goveđim	49		3
 govorim	21388		2
 govornikovim			2
 govornim	256		2
 grabim	75		2
-grabljivim	16		2
+grabljivim	16		3
 gracioznim	37		4
 gradim	388		2
 gradiranim			2
 gradskim	7670		2
 grafičkim	1467		2
 graktavim			2
-gramatičkim	164		2
+gramatičkim	164		3
 granatim			2
-graničnim	1572		2
+graničnim	1572		3
 granskim	150		2
 gravitacijskim	21		2
 gravitacionim	163		2
 građanskim	1750		3
 građanskopravnim			2
-građenim	89		2
-građevinskim	1970		3
+građenim	89		3
+građevinskim	1970		4
 grbavim	23		3
 grdim	67		2
 grdnim	51		2
@@ -1102,8 +1102,8 @@ gubitaškim	18		2
 gudaćkim			2
 gudačkim	85		2
 gulim	30		2
-guljenim			2
-gumenim	635		2
+guljenim			3
+gumenim	635		3
 gumiranim	11		2
 gusarskim	31		2
 guslarskim	38		2
@@ -1133,7 +1133,7 @@ helenskim	38		2
 helsinškim	61		2
 hemijskim	1560		2
 hendikepiranim	106		2
-hercegovačkim	147		4
+hercegovačkim	147		5
 herojskim	180		2
 heruvim			2
 heterogenim	116		5
@@ -1141,24 +1141,24 @@ hibridnim	413		2
 hidronim			2
 higijenskim	381		4
 hiljaditim			2
-hiperboličnim			2
+hiperboličnim			3
 hirurškim	702		2
-histeričnim	78		2
+histeričnim	78		3
 historijskim			2
 hitnijim	15		3
 hitnim	979		2
 hitrim	96		2
 hladim	82		2
-hladnijim	186		2
+hladnijim	186		3
 hladnim	2357		2
 hladnjikavim			2
 hladnokrvnim	28		4
 hlebnim	90		2
-hodajućim	10		3
+hodajućim	10		4
 hodim	45		2
 hodočastim			2
 hokejaškim	17		2
-holandskim	383		2
+holandskim	383		3
 holivudskim	560		2
 homogenim	80		4
 homonim			2
@@ -1166,19 +1166,19 @@ homoseksualnim	236		6
 horizontalnim	341		5
 hormonskim	147		2
 horskim	155		2
-hotelskim	478		2
+hotelskim	478		3
 hrabrim	647		2
 hranim	871		2
 hraniteljskim	308		2
-hranjivim	175		2
+hranjivim	175		3
 hranljivim	554		2
 hrapavim	67		3
-hrastovim	163		2
+hrastovim	163		3
 hristovim			2
 hrišćanskim	1440		2
 hromim			2
 hromiranim	193		2
-hroničnim	1024		2
+hroničnim	1024		3
 hrskavim	38		3
 hrvatskim	4605		2
 hrđavim			2
@@ -1190,16 +1190,16 @@ humornim	25		2
 hunskim	12		2
 husarskim	16		2
 hvalim	1039		2
-hvaljenim	20		2
+hvaljenim	20		3
 ibarskim			2
 ibrahim			2
 ibrišim			2
 idealnim	1702		4
 idejnim	422		2
-identičnim	758		2
-ideološkim	1234		2
-idiličnim	97		2
-idiotskim	91		2
+identičnim	758		3
+ideološkim	1234		3
+idiličnim	97		3
+idiotskim	91		3
 idućim	153		2
 igličastim	12		2
 igranim	200		2
@@ -1207,7 +1207,7 @@ igračkim	421		2
 igumanovim			2
 ijednim			2
 ikakvim	19		3
-ikavskim	18		2
+ikavskim	18		3
 ilegalnim	622		4
 ilirskim	106		2
 ilićevim			2
@@ -1218,7 +1218,7 @@ imanentnim	43		2
 imeničkim			2
 imenovanim	66		5
 imigracionim	40		2
-imovinskim	332		3
+imovinskim	332		4
 impotentnim	16		2
 impresivnim	354		4
 imunim	134		3
@@ -1233,7 +1233,7 @@ industrijskim	2453		2
 inertnim	84		2
 infantilnim	57		4
 inferiornim	105		5
-infracrvenim	180		4
+infracrvenim	180		5
 iniciranim	10		2
 inostranim	2797		2
 inovativnim	1215		5
@@ -1243,7 +1243,7 @@ intaktnim			2
 intelektualnim	1176		6
 inteligentnim	441		2
 intenzivnim	890		4
-interesantnijim	173		2
+interesantnijim	173		3
 interesantnim	1163		2
 interesnim	412		2
 internacionalnim	1122		7
@@ -1260,41 +1260,41 @@ iranskim	323		2
 iračkim	178		2
 iritantnim	31		2
 ironijskim	20		2
-ironičnim	166		2
+ironičnim	166		3
 irskim	193		2
 iscedim	45		2
 iscelim	12		2
-isceljenim			2
+isceljenim			3
 iscepanim			2
-isceđenim			2
+isceđenim			3
 iscrpenim			3
 iscrpim	17		2
-iscrpljenim	52		2
+iscrpljenim	52		3
 iscrpnim	160		3
 iscrtanim	25		2
 iseckanim	53		2
 iselim	63		2
-iseljenim	19		2
-isečenim	49		3
+iseljenim	19		3
+isečenim	49		4
 ishitrenim	86		2
 ishodnim			2
 isitnjenim			2
 iskalim	15		2
 iskasapim			2
-iskazanim	108		2
+iskazanim	108		3
 iskačućim			2
 iskeženim	17		2
-iskidanim			3
-iskićenim			3
+iskidanim			4
+iskićenim			4
 isklesanim	22		2
-isključenim	76		2
+isključenim	76		3
 isključim	731		2
-isključivim	149		2
-iskonskim	131		2
-iskopanim	29		2
+isključivim	149		3
+iskonskim	131		3
+iskopanim	29		3
 iskorenim	20		2
-iskoristim	1648		2
-iskorišćenim	71		3
+iskoristim	1648		3
+iskorišćenim	71		4
 iskovanim			2
 iskočim	69		2
 iskošenim	25		2
@@ -1302,10 +1302,10 @@ iskrenim	817		3
 iskrivljenim	149		2
 iskričavim	20		4
 iskrpim			2
-iskrvarim			2
+iskrvarim			3
 iskrzanim	40		2
 iskupim	49		2
-iskupljenim			2
+iskupljenim			3
 iskusim	96		2
 iskusnijim	320		4
 iskusnim	1043		3
@@ -1320,15 +1320,15 @@ isparim			2
 ispeglanim			3
 ispijenim	14		2
 ispisanim	307		2
-ispitanim	21		2
+ispitanim	21		3
 ispitivačkim	19		2
 ispitnim	217		2
 isplakanim			2
 isplatim	160		2
-isplativim	119		2
+isplativim	119		3
 isplazim			2
-isplaćenim	25		2
-ispletenim			3
+isplaćenim	25		3
+ispletenim			4
 isplovim			2
 ispoljenim	28		2
 ispoljim	29		2
@@ -1336,13 +1336,13 @@ isporučim	36		2
 isposničkim	51		2
 ispovedim	44		2
 ispovednim	16		2
-ispranim	12		2
-ispratim	311		2
-ispravim	787		2
+ispranim	12		3
+ispratim	311		3
+ispravim	787		3
 ispravnim	695		3
 ispraznim	223		3
 isprašim			2
-ispražnjenim	16		2
+ispražnjenim	16		3
 isprekidanim	64		2
 isprečim			2
 isprobanim	33		2
@@ -1354,37 +1354,37 @@ isprženim			2
 ispržim	21		2
 ispucalim	78		2
 ispucanim			2
-ispunim	559		2
-ispunjenim	386		3
+ispunim	559		3
+ispunjenim	386		4
 ispupčenim	36		2
 ispustim	138		2
-ispušim	16		2
-istaknutim	136		2
+ispušim	16		3
+istaknutim	136		3
 istančanim	207		2
 isteklim	162		2
 istesanim			2
 istim	22979		2
 istinitim	586		4
 istinskim	767		3
-istoimenim	309		3
+istoimenim	309		4
 istopim	23		2
-istopljenim			2
+istopljenim			3
 istorijskim	5673		2
 istorodnim	14		4
-istovarim	15		2
-istovetnim	288		2
-istovrsnim	23		2
-istočnim	1120		2
+istovarim	15		3
+istovetnim	288		3
+istovrsnim	23		3
+istočnim	1120		3
 istočnjačkim	104		2
 istrajnim	99		2
-istraženim	27		2
+istraženim	27		3
 istražim	197		2
 istraživačkim	1968		2
 istražnim	997		2
 istrebim	14		2
 istrganim			2
 istrgnutim			2
-istrošenim	29		2
+istrošenim	29		3
 istrpim	78		2
 istrtim			2
 istrulim			2
@@ -1396,7 +1396,7 @@ isturenim	227		2
 isturim	11		2
 isukanim	86		2
 isusovim			2
-isušenim			2
+isušenim			3
 isušim			2
 italijanskim	2236		2
 ivanovim	54		2
@@ -1405,11 +1405,11 @@ ivičnim			2
 izabranim	1451		4
 izanđalim			2
 izazovnim	319		4
-izazvanim	272		2
+izazvanim	272		3
 izbacim	663		2
-izbavim	52		2
-izbavljenim			3
-izbačenim	31		2
+izbavim	52		3
+izbavljenim			4
+izbačenim	31		3
 izbeglim	635		2
 izbegličkim	300		2
 izbezumim	18		2
@@ -1419,14 +1419,14 @@ izborim	500		2
 izbornim	2377		2
 izbrazdanim			2
 izbrijanim			2
-izbrisanim	15		3
+izbrisanim	15		4
 izbrojanim			2
 izbrojim	103		2
 izbrušenim			2
 izbušim	37		2
 izdajničkim	83		2
 izdanim	67		2
-izdatim	154		2
+izdatim	154		3
 izdavačkim	377		2
 izdašnim	81		3
 izdeljanim			2
@@ -1435,33 +1435,33 @@ izdignutim			2
 izdržim	894		2
 izduvnim	340		2
 izduženim	40		2
-izdvojenim	216		2
+izdvojenim	216		3
 izdvojim	597		2
 izgazim			2
 izginulim	132		2
 izgladim	14		2
 izgladnelim	29		2
-izglačanim			2
-izgnanim			2
+izglačanim			3
+izgnanim			3
 izgnječenim			2
 izgonim	10		2
 izgorelim	19		2
 izgorim	53		2
 izgovorim	448		2
 izgradim	175		2
-izgrađenim	351		2
+izgrađenim	351		3
 izgrdim			2
 izgubim	1232		2
-izgubljenim	978		2
+izgubljenim	978		3
 izgužvanim	20		2
 izigravanim			2
 izjasnim	171		2
 izjavim	235		2
 izjednačim	29		2
-izlaganim			2
+izlaganim			3
 izlagačkim	40		2
 izlapelim			2
-izlazim	1762		2
+izlazim	1762		3
 izlaznim	377		3
 izletim	49		2
 izlečim	150		2
@@ -1470,88 +1470,88 @@ izlizanim	93		2
 izlišnim	75		3
 izljubim	47		2
 izlokanim			2
-izlomljenim	38		2
-izložbenim	266		3
+izlomljenim	38		3
+izložbenim	266		4
 izloženim	585		2
 izložim	223		2
 izludim	32		2
 izmamim	30		2
 izmenim	154		2
 izmenjenim	280		2
-izmerenim	18		3
-izmerim	140		2
+izmerenim	18		4
+izmerim	140		3
 izmešanim	16		2
 izmigoljim	12		2
 izmirim	65		2
-izmislim	99		2
-izmišljenim	509		3
+izmislim	99		3
+izmišljenim	509		4
 izmlatim			2
 izmolim	16		2
 izmorenim			2
 izmrvljenim	14		2
 izmučenim	23		2
 iznajmim	75		2
-iznajmljenim	63		2
+iznajmljenim	63		3
 iznemoglim	79		2
 iznenadim	334		2
 iznenadnim	413		4
-iznenađujućim	97		3
+iznenađujućim	97		4
 iznesenim	79		3
 iznetim	213		2
 izneverim	60		2
 iznimnim	55		2
 iznosim	1216		2
-iznošenim	10		2
-iznudim			2
+iznošenim	10		3
+iznudim			3
 iznurenim			2
-iznuđenim	35		3
-izobličenim	12		2
+iznuđenim	35		4
+izobličenim	12		3
 izobličim	10		2
 izobrazim			2
-izolovanim	121		4
+izolovanim	121		5
 izopačenim	66		3
 izopačim			2
 izopštenim			2
-izostavim	118		2
-izostavljenim			3
-izoštrenim	13		2
+izostavim	118		3
+izostavljenim			4
+izoštrenim	13		3
 izoštrim	21		2
 izradim	51		2
 izraelskim	475		4
 izrazim	2002		2
-izrazitijim	23		4
-izrazitim	327		3
-izrađenim	250		2
+izrazitijim	23		5
+izrazitim	327		4
+izrađenim	250		3
 izražajnim	150		4
-izraženim	348		2
+izraženim	348		3
 izreckanim			2
 izredim			2
-izrezanim	15		3
+izrezanim	15		4
 izrezbarim			2
-izrečenim	141		3
+izrečenim	141		4
 izričitim	94		2
 izronim	18		2
 izručim			2
-izumljenim			2
+izumljenim			3
 izumrlim	58		2
 izustim	57		2
-izuvenim			3
+izuvenim			4
 izuvijanim			2
 izuzetim			2
 izuzetnim	3007		4
 izučim	26		2
-izvadim	785		2
+izvadim	785		3
 izvalim	59		2
-izvanrednim	975		2
+izvanrednim	975		3
 izvanzemaljskim			2
-izvađenim	29		3
-izvedenim	348		2
+izvađenim	29		4
+izvedenim	348		3
 izvesnijim	37		4
 izvesnim	1959		3
 izvestim	78		2
-izvezenim	79		2
+izvezenim	79		3
 izvežbanim	17		2
-izvidim	10		2
+izvidim	10		3
 izvinim	541		2
 izvirućim			2
 izvisim	14		2
@@ -1565,16 +1565,16 @@ izvorskim	10		2
 izvozim	36		2
 izvoznim	442		2
 izvođačkim	101		2
-izvođenim	22		2
+izvođenim	22		3
 izvrnutim			2
 izvrsnim	307		3
 izvršenim	561		2
 izvršim	312		2
 izvršnim	901		2
-izvučenim	47		2
+izvučenim	47		3
 ičim	45		2
 išaranim	24		2
-iščašenim			3
+iščašenim			4
 iščezlim	35		2
 iživljenim			2
 jabukovim			2
@@ -1592,30 +1592,30 @@ jamskim	24		2
 jamčim	30		2
 januarskim	91		4
 japanskim	958		2
-jarećim			2
+jarećim			3
 jarkim	387		2
 jaseničkim			2
 jasminovim			2
 jasnijim	139		3
 jasnim	3086		2
 javim	1869		2
-javljenim			2
+javljenim			3
 javnijim			2
 javnim	26504		2
 javorovim	33		2
 jačim	1608		2
 jedim	78		2
 jedinim	1601		2
-jedinstvenim	2669		2
+jedinstvenim	2669		3
 jednakim	1719		3
 jednim	34160		2
 jednodimenzionalnim	17		2
-jednolikim			2
-jednoličnim	69		2
+jednolikim			3
+jednoličnim	69		3
 jednostaničnim			2
 jednostavnijim	467		5
 jednostavnim	4060		4
-jednostranim	473		2
+jednostranim	473		3
 jedrim	38		2
 jeftinijim	618		4
 jeftinim	1137		3
@@ -1628,25 +1628,25 @@ jeretičkim	68		2
 jermenskim	81		2
 jeronim			2
 jesenjim	396		2
-jestivim	147		2
+jestivim	147		3
 jetkim	21		2
 jevrejskim	509		2
 jevtinijim			2
 jevtinim			2
-jezivim	180		2
-jezičkim	791		2
-jezičnim	37		2
+jezivim	180		3
+jezičkim	791		3
+jezičnim	37		3
 ježim	169		2
 joahim			2
 joakim			2
 joksim			2
 jonskim	154		2
-jordanskim	41		2
+jordanskim	41		3
 josifovim			2
 jovanovim			2
 jubilarnim	115		2
 jugoslovenskim	1549		2
-jugozapadnim	92		2
+jugozapadnim	92		3
 julskim	61		2
 junakinjinim			2
 junačkim	180		2
@@ -1656,7 +1656,7 @@ juridičkim			2
 jurim	727		2
 jutarnjim	2712		3
 jutrošnjim	34		3
-jučerašnjim	516		2
+jučerašnjim	516		3
 južnijim	11		2
 južnim	1669		2
 južnjačkim	49		2
@@ -1669,7 +1669,7 @@ kadim	22		2
 kadrovskim	799		2
 kafanskim	305		2
 kafkinim			2
-kajkavskim	38		2
+kajkavskim	38		3
 kajmanskim			2
 kajsijinim			2
 kakim	53		2
@@ -1682,10 +1682,10 @@ kaljevim			2
 kaluđerskim			2
 kamatnim	732		2
 kamenim	1033		3
-kamenitim	143		2
+kamenitim	143		3
 kamernim			2
 kamionskim	45		2
-kanadskim	272		2
+kanadskim	272		3
 kanarskim	125		2
 kancelarijskim	320		2
 kandiranim			2
@@ -1696,12 +1696,12 @@ kapetanovim			2
 kapilarnim	24		2
 kapitalnim	446		4
 karadžićevim			2
-karakterističnim	1094		2
+karakterističnim	1094		3
 karakternim	126		2
 karatnim	44		2
 karbonskim	57		2
 karim			2
-karipskim	70		2
+karipskim	70		3
 kariranim	104		3
 kartaškim	15		2
 kartonskim	228		2
@@ -1715,20 +1715,20 @@ kaspijskim			2
 kataloškim	78		2
 katastrofalnim	564		5
 katoličkim	512		4
-kaubojskim	80		3
+kaubojskim	80		4
 kauzalnim	13		4
 kavanskim			2
-kavkaskim	49		2
-kazališnim	24		3
-kaznenim	341		2
+kavkaskim	49		3
+kazališnim	24		4
+kaznenim	341		3
 kaznim	85		2
 kaćanskim			2
 kačim	458		2
 kažnjenim	10		3
-kažnjivim	33		2
+kažnjivim	33		3
 kelnerskim			2
 keltskim	68		2
-keramičkim	316		2
+keramičkim	316		3
 kerećim			2
 kerim			2
 kicoškim			2
@@ -1750,9 +1750,9 @@ kićenim			3
 kičmenim			2
 kišnim	290		2
 kišovim			2
-kišovitim	44		2
+kišovitim	44		3
 kladim	1126		2
-klasičnim	2804		2
+klasičnim	2804		3
 klasnim	165		2
 klatarim			2
 klavirskim	67		2
@@ -1794,7 +1794,7 @@ kojim	114917		2
 kokosovim	90		2
 kokošijim			2
 kokošjim	13		2
-kolebljivim	28		2
+kolebljivim	28		3
 kolektivnim	1934		4
 kolhoznim			2
 kolikim	223		2
@@ -1808,35 +1808,35 @@ komercijalnim	1887		5
 komfornim	184		3
 komisionim	10		2
 komitskim	11		2
-komičnim	162		2
+komičnim	162		3
 komorskim	36		2
 komotnijim			4
-kompaktnim	366		2
+kompaktnim	366		3
 kompjuterskim	768		2
-kompleksnim	592		2
-kompletnim	1076		2
+kompleksnim	592		3
+kompletnim	1076		3
 kompliciranim			2
 komplikovanijim			2
-komplikovanim	207		4
+komplikovanim	207		5
 kompozicionim			2
 komprimiranim			2
 komprimovanim	55		2
 komunalnim	2275		2
 komunikacionim	408		2
-komunističkim	879		2
+komunističkim	879		3
 komšijskim	162		2
 konačim			2
-konačnim	927		2
+konačnim	927		3
 koncentracionim	276		2
 koncertnim	445		2
 konfiskovanim			2
 konfuznim	79		2
-kongresnim	122		2
-koničnim	12		2
+kongresnim	122		3
+koničnim	12		3
 konjičkim	142		2
 konjskim	298		2
 konkavnim	15		3
-konkretnim	5226		2
+konkretnim	5226		3
 konotativnim			2
 konstantnim	892		2
 konstruktivnim	464		4
@@ -1853,16 +1853,16 @@ kopnenim	322		2
 koprcavim			2
 koralnim	106		2
 korejskim	103		2
-korektnim	421		2
-korenitim	75		2
+korektnim	421		3
+korenitim	75		3
 korim	10		2
 korintskim	43		2
 korisnijim	86		4
 korisnim	1950		3
 korisničkim	977		2
-koristim	13656		2
+koristim	13656		3
 korištenim			2
-korišćenim	183		3
+korišćenim	183		4
 korporativnim	661		5
 korumpiranim	365		2
 kosim	181		2
@@ -1874,32 +1874,32 @@ kosovskim	2952		3
 kostim	1481		2
 kostićevim			2
 kosturnim			2
-kotarskim			2
-kotiranim	10		2
+kotarskim			3
+kotiranim	10		3
 kotorskim	66		3
-kovanim	19		2
+kovanim	19		3
 kovačevim			2
 kovačkim	32		2
-kozaračkim			3
+kozaračkim			4
 kozarskim			2
 kozjim	156		2
-kozmetičkim	642		2
-kozmičkim			2
+kozmetičkim	642		3
+kozmičkim			3
 kočijaškim			2
 kočim	94		2
 kočićevim			2
 košarkaškim	486		2
 košmarnim	27		3
-koštanim	124		2
+koštanim	124		3
 koštunjavim	60		2
 kožnim	703		2
 kradenim	10		3
-kradljivim			2
+kradljivim			3
 krajinskim	33		2
 krajiškim	82		3
 krajnjim	1945		2
-kraljevim	106		2
-kraljevskim	533		2
+kraljevim	106		3
+kraljevskim	533		3
 kraljičinim			2
 krasnim	49		2
 kratkim	4416		2
@@ -1910,14 +1910,14 @@ kraškim	70		2
 krcatim	59		2
 kreativnim	1854		4
 kreditnim	1517		2
-kreiranim	76		2
+kreiranim	76		3
 kremanskim			2
 kremastim	74		2
 krepkim	26		2
 kretenskim	21		2
 kreveljim			2
-krevetnim	12		2
-krezubim	13		2
+krevetnim	12		3
+krezubim	13		3
 krečim	32		2
 krečnim	87		2
 krfskim			2
@@ -1928,19 +1928,19 @@ krilatim	57		2
 krim		M	1
 kriminalnim	1458		4
 kristalnim	136		2
-kritičkim	480		2
-kritičnim	952		2
+kritičkim	480		3
+kritičnim	952		3
 kritskim	14		2
 krivim	3169		2
-krivičnim	2782		2
-krivonogim			2
-krivudavim	186		2
+krivičnim	2782		3
+krivonogim			3
+krivudavim	186		3
 kriznim	1762		2
 križnim			2
 krmnim	41		2
 krnjim	17		2
 krojačkim	34		2
-krojenim			2
+krojenim			3
 krojim	41		2
 krotim			2
 krotkim	62		2
@@ -1950,13 +1950,13 @@ krparim			2
 krpim	52		2
 krsnim	348		2
 krstarećim	89		2
-krstarim	30		2
+krstarim	30		3
 krstaškim	138		2
 krstim	167		2
 krstolikim			2
-krunisanim			3
+krunisanim			4
 krunskim	44		2
-krupnijim	191		2
+krupnijim	191		3
 krupnim	1853		2
 krutim	143		2
 krućim			2
@@ -1964,7 +1964,7 @@ kruševačkim	91		2
 kružim	42		2
 kružnim	1045		2
 krvarećim			2
-krvarim	71		2
+krvarim	71		3
 krvavijim			4
 krvavim	680		3
 krvim	13		2
@@ -1973,10 +1973,10 @@ krvoločnim	40		4
 krvožednim	30		4
 krznenim	62		2
 krčim			2
-krševitim	39		3
+krševitim	39		4
 kršim	167		2
 kršnim	12		2
-krštenim	18		2
+krštenim	18		3
 ktitorskim			2
 kubanskim	145		2
 kubnim	26		2
@@ -1998,7 +1998,7 @@ kumim	70		2
 kupastim	23		2
 kupaćim	298		2
 kupim	8522		2
-kupljenim	181		2
+kupljenim	181		3
 kupoprodajnim	129		2
 kupovnim	94		2
 kurdskim	58		2
@@ -2031,7 +2031,7 @@ ladinim			2
 laganim	1401		3
 lagodnijim	35		4
 lagodnim	62		3
-laičkim	63		2
+laičkim	63		3
 lajavim			3
 lakim	1398		2
 lakiranim	42		2
@@ -2048,13 +2048,13 @@ laserskim	402		2
 laskavim	71		2
 latentnim	67		2
 latim	47		2
-latiničkim	58		2
-latiničnim	343		2
+latiničkim	58		3
+latiničnim	343		3
 latinskim	429		2
 lavljim	28		2
 lavovim			2
 lavovskim	15		2
-lažljivim	47		2
+lažljivim	47		3
 lažnim	2850		2
 lebdećim	29		2
 lebdim	93		2
@@ -2065,16 +2065,16 @@ legalnim	940		2
 legendarnim	542		4
 legitimnim	735		4
 lekarskim	541		2
-lekovitim	961		2
-leksičkim	47		2
+lekovitim	961		3
+leksičkim	47		3
 lektorskim	10		2
 lenim			2
 lenivim			2
 lenjim	135		2
 lenčarim	13		2
 lepim	5337		2
-lepljenim			2
-lepljivim	99		2
+lepljenim			3
+lepljivim	99		3
 lepršavim	82		2
 leptirovim			2
 lepšim	1065		2
@@ -2105,18 +2105,18 @@ likvidnim	53		3
 lilićevim			2
 lim	1533		1
 limarskim	10		3
-limenim	155		2
+limenim	155		3
 limfnim	212		2
 limunovim	215		4
 linearnim	134		4
-lingvističkim	181		2
+lingvističkim	181		3
 linijskim	100		2
 lirskim	213		2
-lisičjim			2
-lisnatim	49		2
+lisičjim			3
+lisnatim	49		3
 literarnim	412		4
 litvanskim	73		2
-livadskim	34		2
+livadskim	34		3
 ličim	392		2
 ličkim	45		2
 ličnim	7131		2
@@ -2132,28 +2132,28 @@ ljubim	2130		2
 ljubičastim	253		4
 ljubičinim			2
 ljubljanskim	56		2
-ljubljenim	24		2
+ljubljenim	24		3
 ljubomornim	115		4
-ljudožderskim			2
+ljudožderskim			3
 ljudskim	10841		2
 ljupkim			2
 ljutim	969		2
 ljutitim	72		2
 ljućim			2
 ljuštim	22		2
-lociranim	56		2
-logičkim	314		2
-logičnijim	15		3
-logičnim	370		2
+lociranim	56		3
+logičkim	314		3
+logičnijim	15		4
+logičnim	370		3
 lojalnim	130		2
 lokalim			2
 lokalnim	19829		2
 lomim	188		2
-lomljenim	28		2
+lomljenim	28		3
 londonskim	421		2
-lopovskim	88		2
+lopovskim	88		3
 losim			2
-lovačkim	405		2
+lovačkim	405		3
 lovim	198		2
 lovnim	106		2
 lovorovim	52		4
@@ -2161,7 +2161,7 @@ lovćenskim			2
 lozovim			2
 lošijim	376		3
 lošim	5626		2
-loženim			2
+loženim			3
 ložim	156		2
 lucidnim	126		3
 luckastim	26		3
@@ -2169,8 +2169,8 @@ ludačkim	71		2
 ludim	496		2
 ludničkim			2
 lukavim	161		3
-luksuznim	1035		2
-lupeškim			2
+luksuznim	1035		3
+lupeškim			3
 lupim	172		2
 lutkarskim	43		2
 lučkim	80		2
@@ -2181,11 +2181,11 @@ madridskim	80		2
 mafijaškim	250		2
 magarećim	36		2
 magijskim	244		2
-magičnim	275		2
-maglovitim	96		2
-magnetnim	358		2
+magičnim	275		3
+maglovitim	96		3
+magnetnim	358		3
 magnetskim	74		2
-majmunskim	31		2
+majmunskim	31		3
 majskim	357		2
 majušnim			2
 majčinim	374		3
@@ -2194,12 +2194,12 @@ maksim		M	2
 maksimalnim	1554		4
 malaksalim			2
 malecnim			2
-malenim	184		2
+malenim	184		3
 malignim	248		2
 malim	22423		2
 malobrojnim	470		4
-malodušnim	15		2
-malograđanskim	60		3
+malodušnim	15		3
+malograđanskim	60		4
 malokrvnim			2
 maloletnim	685		4
 maloruskim			2
@@ -2222,7 +2222,7 @@ marim	248		2
 markiranim	18		2
 markovim			2
 marksovim			2
-marljivim	99		2
+marljivim	99		3
 marsovskim	12		3
 martovskim	144		3
 masenim			2
@@ -2254,18 +2254,18 @@ mačvanskim	21		2
 mađarskim	1140		3
 mašim	39		2
 mašinskim	395		2
-maštovitim	209		2
+maštovitim	209		3
 medačkim			2
 medenim	26		3
 medicinskim	2725		4
 medijskim	2597		3
 mediteranskim	759		2
 medutim			2
-mehaničkim	822		2
+mehaničkim	822		3
 mejnstrim	749		2
 mekanim	253		3
 mekim	769		2
-meksičkim	158		2
+meksičkim	158		3
 mekšim	94		2
 memljivim	43		2
 memoarskim	27		2
@@ -2275,7 +2275,7 @@ mentorskim	69		2
 merenim	19		3
 merim	286		2
 meritornim			2
-merljivim	89		2
+merljivim	89		3
 mermernim	185		2
 mernim	491		2
 merodavnim	86		2
@@ -2286,26 +2286,26 @@ mesečnim	753		2
 mesim	103		2
 mesinganim	41		2
 mesićevim			2
-mesnatim	58		2
+mesnatim	58		3
 mesnim	2734		2
 metafizičkim	161		2
-metaforičnim	22		2
+metaforičnim	22		3
 metalnim	1360		2
 metarskim	48		2
-meteorološkim	250		2
+meteorološkim	250		3
 meteorskim	29		2
-metnutim			2
+metnutim			3
 metodičkim	49		2
 metodičnim	10		2
-metričkim	23		2
+metričkim	23		3
 međuličnim			2
-međunarodnim	20990		2
+međunarodnim	20990		3
 međuplanetarnim	14		2
 međuratnim	15		2
 međusobnim	2036		4
 međutim	199916		2
-mešanim	18		2
-mešovitim	534		2
+mešanim	18		3
+mešovitim	534		3
 micićevim			2
 mihićevim			2
 mikroskopskim	71		4
@@ -2319,11 +2319,11 @@ militantnim	90		2
 miljaim			2
 miljanovim			2
 milosrdnim	105		4
-milostivim	39		3
+milostivim	39		4
 milozvučnim	38		2
 miloševim			2
 mim		M	1
-mimoilazim			2
+mimoilazim			3
 mineralnim	683		2
 minhenskim	52		2
 minijaturnim	216		2
@@ -2337,9 +2337,9 @@ mirim	93		2
 mirisnim	280		3
 mirišim			2
 mirišljavim	87		2
-mirnijim	128		2
+mirnijim	128		3
 mirnim	2337		2
-miroljubivim	120		2
+miroljubivim	120		3
 mirovnim	1528		3
 misaonim	176		4
 misirskim	14		2
@@ -2347,15 +2347,15 @@ mislenim	12		2
 mislim	181419		2
 misterioznim	245		5
 mističkim	36		2
-mističnim	187		2
+mističnim	187		3
 mitarevim			2
-mitološkim	166		2
+mitološkim	166		3
 mitopoetskim			2
 mitskim	300		2
 mizanscenskim			2
 mizernim	138		2
 mišinim			2
-mišićavim	62		3
+mišićavim	62		4
 mišjim	46		2
 mladalačkim	158		2
 mladenovim			2
@@ -2415,7 +2415,7 @@ morfološkim	102		2
 mornaričkim	28		2
 mornarskim	39		2
 morskim	1013		2
-moskovskim	248		2
+moskovskim	248		3
 mostarskim	36		2
 motivisanim	199		2
 motivskim	12		2
@@ -2431,7 +2431,7 @@ mramornim	32		2
 mravljim	15		2
 mraznim			2
 mrazovim			2
-mračnijim	29		2
+mračnijim	29		3
 mračnim	1024		2
 mrežastim	82		2
 mrežnim	626		2
@@ -2446,11 +2446,11 @@ mrzim	3525		2
 mrzovoljnim	23		4
 mršavim	128		3
 mrštim	27		2
-mudrijim	39		2
+mudrijim	39		3
 mudrim	522		2
 muklim	21		2
 mukotrpnim	214		4
-munjevitim	86		2
+munjevitim	86		3
 muselim		M	2
 muslimanskim	1257		2
 mutavim			2
@@ -2470,30 +2470,30 @@ muškim	1258		2
 muževim			2
 muževnim	35		3
 nabacim	125		2
-nabavim	974		2
-nabavljanim			3
-nabavljenim	22		3
+nabavim	974		3
+nabavljanim			4
+nabavljenim	22		4
 nabavnim	66		2
 nabijenim	59		2
 naboranim			2
-nabranim			2
+nabranim			3
 nabreklim	40		2
-nabrojanim	66		2
+nabrojanim	66		3
 nabrojim	344		2
 nabubrenim			2
 nabujalim	31		2
 naceđenim			2
 nacionalnim	10440		2
-nacističkim	445		2
-nacrtanim	24		3
-nadahnutim	180		2
+nacističkim	445		3
+nacrtanim	24		4
+nadahnutim	180		3
 nadarenim	103		3
 nadevenim			2
 nadgrobnim	170		2
 nadirućim	36		2
-nadležnim	5900		2
+nadležnim	5900		3
 nadljudskim	133		3
-nadmašim	23		2
+nadmašim	23		3
 nadmenim	50		2
 nadmorskim	283		2
 nadmoćnijim	67		4
@@ -2504,7 +2504,7 @@ nadničim			2
 nadnosim			2
 nadobudnim	46		4
 nadogradim	55		2
-nadoknadim	196		2
+nadoknadim	196		3
 nadolazećim	235		2
 nadrealističkim	30		2
 nadrealnim	55		2
@@ -2523,7 +2523,7 @@ nagazim	38		2
 nagaznim	14		2
 nagim	50		2
 naglasim	2310		2
-naglašenim	555		2
+naglašenim	555		3
 naglim	758		2
 nagluhim			2
 nagluvim	49		2
@@ -2534,115 +2534,115 @@ nagovestim	42		2
 nagovorim	129		2
 nagradim	52		2
 nagradnim	333		3
-nagrađenim	168		2
-nagrđenim			2
+nagrađenim	168		3
+nagrđenim			3
 naherenim			2
 nahodim	11		2
 nahranim	154		2
 nahvalim	21		2
 nailazećim			2
-nailazim	392		2
+nailazim	392		3
 naim			2
 naivnim	360		3
-naizmeničnim	195		2
+naizmeničnim	195		3
 najaktivnijim			5
 najakutnijim			5
 najambicioznijim			7
 najapsolutnijim			6
 najavim	264		2
-najavljenim	188		2
+najavljenim	188		3
 najavnim	14		2
 najbanalnijim			4
-najbezazlenijim			4
+najbezazlenijim			5
 najbitnijim	160		4
 najblesavijim			2
 najblistavijim			5
 najbližim	435		3
-najbogatijim	212		4
+najbogatijim	212		5
 najboljim	5500		3
 najbržim	314		3
 najdražesnijim			5
 najdražim	66		3
-najdubljim	123		2
+najdubljim	123		3
 najdužim	200		3
 najekstremnijim	63		4
 najelementarnijim			7
 naježim	320		2
 najfinijim	69		4
-najgorim	432		2
-najgorčim			2
+najgorim	432		3
+najgorčim			3
 najgrubljim	23		3
-najhrabrijim	21		3
+najhrabrijim	21		4
 najintimnijim	39		5
 najjadnijim			4
 najjavnijim			2
 najjačim	297		3
-najkraćim	164		2
+najkraćim	164		3
 najlepšim	502		3
 najljepšim	46		3
 najljućim	29		3
 najlošijim	61		4
 najluđim	12		3
-najmanjim	515		2
+najmanjim	515		3
 najmilijim	51		4
 najmim			2
 najmlađim	527		3
 najmodernijim	230		5
 najmoćnijim	139		4
-najmračnijim	39		3
+najmračnijim	39		4
 najneophodnijim	13		6
 najneočekivanijim			5
-najnerazvijenijim	49		4
+najnerazvijenijim	49		5
 najneverovatnijim	23		2
 najnižim	332		3
 najnovijim	2109		4
 najodlučnijim			5
 najopasnijim			2
 najpametnijim	34		5
-najplodonosnijim			4
+najplodonosnijim			5
 najpogodnijim	42		5
 najpopularnijim	278		6
 najpoznatijim	396		5
 najpreciznijim	11		5
 najprisnijim			4
-najprometnijim	22		4
+najprometnijim	22		5
 najpunijim			4
 najradosnijim	28		5
 najranijim	70		4
-najrazličitijim	472		5
-najraznovrsnijim	69		4
+najrazličitijim	472		6
+najraznovrsnijim	69		5
 najsenzacionalnijim			8
 najsigurnijim	51		5
-najsitnijim	95		3
+najsitnijim	95		4
 najskupljim	192		3
 najslabijim	82		4
 najslavnijim	29		4
 najslađim	21		3
 najslepljim			2
-najsmešnijim			3
-najsnažnijim	76		3
+najsmešnijim			4
+najsnažnijim	76		4
 najsretnijim			4
 najsrećnijim	62		4
 najstarijim	588		4
-najstrašnijim	70		3
+najstrašnijim	70		4
 najstrožim	32		3
-najsvečanijim			4
+najsvečanijim			5
 najtajnijim			4
 najtanjim			2
 najtešnjim			2
-najtežim	393		2
+najtežim	393		3
 najudaljenijim	67		5
 najuglednijim	71		5
-najuljudnijim			4
+najuljudnijim			5
 najumiljatijim			2
 najurim	10		2
 najužasnijim			5
 najužim	32		3
 najužurbanijim			2
-najvažnijim	1100		3
-najvećim	7999		2
-najvišim	1396		2
-najvrednijim	132		3
+najvažnijim	1100		4
+najvećim	7999		3
+najvišim	1396		3
+najvrednijim	132		4
 najvulgarnijim			2
 najzdravijim	40		4
 najzgodnijim	12		4
@@ -2651,41 +2651,41 @@ najčistijim			2
 najčudnijim	17		4
 najčuvenijim			2
 najčvršćim			3
-najšarenijim			4
-najširim	100		2
-najžešćim	27		2
+najšarenijim			5
+najširim	100		3
+najžešćim	27		3
 najživljim			3
 nakaradnim	141		2
-nakaznim	50		2
+nakaznim	50		3
 nakiselim			2
 nakitim			2
 naklonim			2
-naklonjenim	65		3
+naklonjenim	65		4
 naknadnim	502		2
 nakrcanim			2
-nakupim	20		2
+nakupim	20		3
 nakvašenim	10		2
 nalaktim			2
-nalazim	2682		2
+nalazim	2682		3
 nalepljenim			2
 naletim	504		2
 naljutim	147		2
-naloženim			2
+naloženim			3
 naložim	33		2
 namamim	12		2
-namazanim	14		3
+namazanim	14		4
 namenim			2
-namenjenim	801		2
+namenjenim	801		3
 namenskim	246		2
-namernim	217		2
-namestim	573		2
-nametanim			2
-nametljivim	28		2
-nametnutim	89		3
-nameštenim	77		3
+namernim	217		3
+namestim	573		3
+nametanim			3
+nametljivim	28		3
+nametnutim	89		4
+nameštenim	77		4
 namirim	37		2
 namlatim			2
-namočenim	16		2
+namočenim	16		3
 namrgođenim	23		2
 namrštenim			2
 nanesenim	12		2
@@ -2697,18 +2697,18 @@ nanosim	124		2
 nantskim			2
 naopakim	87		2
 naoružanim	286		2
-naoštrenim			2
+naoštrenim			3
 naoštrim	11		2
-napadanim			3
+napadanim			4
 napakostim			2
 napalim	22		2
 napaljenim	41		2
-napatim			2
-napaćenim	60		3
+napatim			3
+napaćenim	60		4
 naperenim			2
 napetim	152		3
 napirlitanim			2
-napisanim	252		2
+napisanim	252		3
 naplatim	265		2
 naplatnim	276		2
 naplaćenim	22		2
@@ -2716,20 +2716,20 @@ napojim	29		2
 naporednim			2
 napornijim	11		3
 napornim	431		2
-napravim	5429		2
-napravljenim	531		3
-naprednijim	269		3
-naprednim	1570		2
+napravim	5429		3
+napravljenim	531		4
+naprednijim	269		4
+naprednim	1570		3
 naprednjačkim	25		2
 napregnutim			2
 naprćim			2
 napuklim	24		2
-napuljskim	24		2
-napunim	334		2
-napunjenim	49		3
+napuljskim	24		3
+napunim	334		3
+napunjenim	49		4
 napustim	702		2
-napušim			2
-napuštenim	195		2
+napušim			3
+napuštenim	195		3
 narandžastim	263		3
 narandžinim			2
 naraslim	72		2
@@ -2739,52 +2739,52 @@ narednim	9669		2
 narezanim	13		2
 naređanim			2
 naribanim			2
-narodnim	6012		2
+narodnim	6012		3
 narodskim			2
-naročitim	441		3
-naručenim	50		2
+naročitim	441		4
+naručenim	50		3
 naručim	456		2
 narušim	26		2
 naružim			2
 naselim	20		2
-naseljenim	1414		2
+naseljenim	1414		3
 nasečenim			2
-nasilnijim			3
-nasilnim	804		2
-nasitim	13		2
+nasilnijim			4
+nasilnim	804		3
+nasitim	13		3
 nasladim			2
 naslaganim	26		2
 nasledim	38		2
-naslednim	188		2
-nasleđenim	89		2
-naslikanim	15		3
+naslednim	188		3
+nasleđenim	89		3
+naslikanim	15		4
 naslonim	77		2
-naslonjenim	24		2
+naslonjenim	24		3
 naslovim	24		2
 naslovnim	653		2
 naslutim	118		2
-naslućenim			2
+naslućenim			3
 nasmejanim	133		2
 nasmešim	73		2
-nasrtljivim	16		2
+nasrtljivim	16		3
 nastajućim			2
 nastalim	1158		2
 nastanim	26		2
-nastanjenim	126		2
-nastavim	2934		2
+nastanjenim	126		3
+nastavim	2934		3
 nastavnim	1685		2
-nastojim	469		2
-nastranim	47		2
+nastojim	469		3
+nastranim	47		3
 nastupim	98		2
 nasumičnim	104		2
 nasušnim	21		2
 nataknutim			2
 nataloženim			2
-nategnutim			2
-natečenim	21		2
+nategnutim			3
+natečenim	21		3
 natmurenim			3
 natopim	16		2
-natopljenim	57		2
+natopljenim	57		3
 natovarenim	29		2
 natovarim	40		2
 natovskim			2
@@ -2796,65 +2796,65 @@ naturalnim	29		4
 naturenim			2
 natuštenim			2
 natčovečanskim			2
-naudim	25		2
+naudim	25		3
 naumovim			2
-naučenim	64		2
+naučenim	64		3
 naučim	2169		2
-naučnim	6405		2
+naučnim	6405		3
 navalim	36		2
 navedenim	5167		2
 navigacionim	163		2
 navijačkim	317		2
-naviknutim			3
+naviknutim			4
 navlačim	98		2
 navlaženim	13		2
-navlažim			2
+navlažim			3
 navodim	1662		2
-navodnim	1100		2
-navođenim	16		2
+navodnim	1100		3
+navođenim	16		3
 navratim	83		2
 navučenim	10		2
-nazadnijim			3
-nazadnim	76		2
-nazdravim	38		2
+nazadnijim			4
+nazadnim	76		3
+nazdravim	38		3
 nazim			2
 naznačenim	266		2
 naznačim	44		2
 nazubljenim			2
-nazvanim	266		2
+nazvanim	266		3
 naćulim			2
 načelnim	113		2
 načinim	126		2
-načinjenim	87		2
+načinjenim	87		3
 načičkanim	38		2
 načudim	208		2
-nađenim	86		2
+nađenim	86		3
 našalim	204		2
 našim	35417		2
 naškodim	13		2
 našminkanim	20		2
 neaktivnim	62		4
 neažurnim	12		2
-nebeskim	1060		2
+nebeskim	1060		3
 nebesnim	70		2
 nebitnim	364		3
-nebrojenim	202		3
+nebrojenim	202		4
 nebuloznim			2
 necenovnim			2
 necrkvenim			2
 nedavnim	1084		3
 nedelatnim			2
 nedeljanim			2
-nedeljivim	16		2
+nedeljivim	16		3
 nedeljnim	413		2
 nedim			2
 nedirnutim	26		2
 nedićevim			2
 nedobrim			2
-nedodirljivim	85		2
+nedodirljivim	85		3
 nedodirnutim			2
 nedoličnim	96		2
-nedopustivim	190		2
+nedopustivim	190		3
 nedopuštenim	51		2
 nedoraslim			2
 nedosežnim			2
@@ -2873,33 +2873,33 @@ nefunkcionalnim	55		2
 negativnim	2687		4
 negdašnjim	35		2
 negovanim	40		4
-nehotičnim	22		3
+nehotičnim	22		4
 nehumanim	252		4
 neidentifikovanim			2
 neiscrpnim	64		4
 neishranjenim			2
 neiskazanim	73		2
-neiskrenim	57		3
+neiskrenim	57		4
 neiskusnim	116		4
 neispitanim	19		2
 neispravnim	225		2
 neistorijskim			2
 neistraženim	80		2
 neizbežnim	322		4
-neizlečivim	63		2
+neizlečivim	63		3
 neizmernim	81		2
 neizostavnim	74		2
-neizrecivim	67		2
+neizrecivim	67		3
 neizvesnim	511		4
 neizvodljivim	17		2
 nejakim	117		3
-nejasnim	438		2
+nejasnim	438		3
 nejednakim	120		4
 nekadanjim			2
 nekadašnjim	1330		4
 nekakvim	825		3
-nekažnjenim	21		3
-nekažnjivim			2
+nekažnjenim	21		4
+nekažnjivim			3
 nekim	61646		2
 nekojim			3
 nekolikim	174		2
@@ -2915,9 +2915,9 @@ nemarnijim			4
 nemarnim	66		3
 nemasnim	46		2
 nematerijalnim	78		2
-nemačkim	4095		2
-nemerljivim	60		2
-nemilim	123		2
+nemačkim	4095		3
+nemerljivim	60		3
+nemilim	123		3
 nemilosrdnim	180		5
 nemim	145		2
 neminovnim	104		4
@@ -2937,56 +2937,56 @@ nenačelnim			2
 nenormalnim	308		4
 neobeleženim			2
 neobičnim	1857		4
-neobjašnjivim	109		2
+neobjašnjivim	109		3
 neobojenim			2
-neoborivim	66		2
+neoborivim	66		3
 neobranim			2
-neobrijanim			3
+neobrijanim			4
 neobuzdanim	52		5
 neodevenim			2
 neodgovornim	524		5
 neodložnim	47		2
 neodlučnim	56		4
-neodoljivim	249		2
+neodoljivim	249		3
 neodređenim	121		3
 neodređujućim			2
 neodrživim	117		2
-neograničenim	735		3
+neograničenim	735		4
 neokaljanim			2
 neokrnjenim			2
 neolitskim	37		2
 neometanim	18		2
 neonskim	88		2
 neophodnim	2196		4
-neopisivim	54		2
+neopisivim	54		3
 neopranim			2
 neopravdanim	145		3
 neoružanim			2
-neosetljivim	32		2
+neosetljivim	32		3
 neosetnim			2
 neosnovanim	284		5
 neospornim	64		4
 neostvarenim	158		3
 neostvarljivim			2
 neotpornim	11		2
-neotuđivim	53		2
+neotuđivim	53		3
 neozbiljnim	204		2
 neoznačenim			2
 neočekivanim	628		3
-neoženjenim	12		3
+neoženjenim	12		4
 neparnim	106		3
-nepažljivim	28		2
+nepažljivim	28		3
 nepisanim	133		3
-nepismenim	178		3
+nepismenim	178		4
 neplaćenim	126		2
-neplodnim	58		2
-nepobedivim	70		2
+neplodnim	58		3
+nepobedivim	70		3
 nepobitnim	75		4
 nepobožnim			2
 nepodesnim	27		2
-nepodnošljivim	158		2
+nepodnošljivim	158		3
 nepodobnim	179		4
-nepogrešivim	93		2
+nepogrešivim	93		3
 nepojamnim			2
 nepokornim	28		2
 nepokretnim	263		4
@@ -2995,7 +2995,7 @@ nepomućenim			2
 neponovljivim	176		2
 neporočnim	12		2
 neposrednim	1449		4
-nepostojećim	334		3
+nepostojećim	334		4
 nepotpunim	306		4
 nepotrebnim	822		4
 nepouzdanim	160		5
@@ -3009,33 +3009,33 @@ nepravilnim	330		4
 nepravim	15		2
 nepravnim			2
 nepredvidivim	221		2
-nepredvidljivim	101		2
+nepredvidljivim	101		3
 nepreglednim	255		2
-neprekidnim	491		2
-neprekinutim	43		3
-neprepoznatljivim	26		2
+neprekidnim	491		3
+neprekinutim	43		4
+neprepoznatljivim	26		3
 neprerađenim			2
 neprestanim	478		4
-neprihvatljivim	432		2
+neprihvatljivim	432		3
 neprijateljskim	502		2
 neprijatnim	591		4
 neprijaznim			2
-neprikladnim	161		2
-nepriličnim	38		2
-neprimerenim	396		3
+neprikladnim	161		3
+nepriličnim	38		3
+neprimerenim	396		4
 neprimetnim	80		4
-neprirodnim	135		2
+neprirodnim	135		3
 nepristojnim	219		4
 nepristupačnim	309		5
 neprobojnim	49		4
-neprocenjivim	77		2
+neprocenjivim	77		3
 neprolaznim	100		2
 nepromenljivim	68		2
-nepromišljenim	123		3
+nepromišljenim	123		4
 nepronicljivim			2
 neprovidnim	16		4
 nepročitanim	11		2
-nepunim	256		2
+nepunim	256		3
 neradnim	129		2
 neranjivim	10		2
 neraspoloženim	23		2
@@ -3044,28 +3044,28 @@ nerasudnim			2
 neravnim	135		2
 nerazjašnjenim	265		2
 nerazrešivim			2
-nerazumljivim	157		2
+nerazumljivim	157		3
 nerazumnim	203		4
-nerazvijenim	1182		2
+nerazvijenim	1182		3
 nerealnim	445		4
-neredovitim			2
+neredovitim			3
 neredovnim	143		2
 neregistrovanim			2
 nerešenim	712		3
-nerešivim	85		2
-nerodnim			2
-nerođenim	39		3
+nerešivim	85		3
+nerodnim			3
+nerođenim	39		4
 nervnim	316		2
 nervoznim	271		3
-nesavesnim	321		2
-nesavitljivim			2
-nesavršenim	55		3
+nesavesnim	321		3
+nesavitljivim			3
+nesavršenim	55		4
 nesebičnim	181		4
-neshvatljivim	107		2
+neshvatljivim	107		3
 nesigurnim	515		4
 nesitim			2
 neskladnim			3
-neskromnim	10		2
+neskromnim	10		3
 neslavnim	40		3
 neslućenim	51		2
 nesmanjenim	160		2
@@ -3074,13 +3074,13 @@ nesmirenim			2
 nesmislenim			2
 nesmišljenim			2
 nesmotrenim	49		2
-nesnosnim	70		2
+nesnosnim	70		3
 nespojivim	42		2
 nespornim	163		2
 nesposobnim	492		4
-nespremnim	41		2
+nespremnim	41		3
 nespretnim	89		2
-nesputanim	25		3
+nesputanim	25		4
 nesrazmernim	21		2
 nesrećnim	852		2
 nesrodnim			2
@@ -3088,13 +3088,13 @@ nesrpskim	116		2
 nestabilnim	301		4
 nestalim	512		2
 nestašnim	66		2
-nestrpljivim	60		2
-nestručnim	209		2
+nestrpljivim	60		3
+nestručnim	209		3
 nestvarnim	116		3
-nesumnjivim	142		2
+nesumnjivim	142		3
 nesuvislim	81		4
 nesuđenim	30		3
-nesvesnim	225		2
+nesvesnim	225		3
 netaknutim	147		2
 netačnim	346		3
 netipičnim	70		2
@@ -3105,17 +3105,17 @@ neudobnim	61		4
 neugaženim			2
 neuglednim	47		4
 neugodnim			2
-neukim	140		2
-neukrotivim			2
+neukim	140		3
+neukrotivim			3
 neukusnim	66		4
-neumerenim	58		3
+neumerenim	58		4
 neumesnim	91		4
 neumitnim	47		4
 neumivenim			2
 neumoljivim	48		2
 neumornim	117		4
 neumrlim	12		2
-neuništivim	49		2
+neuništivim	49		3
 neuobičajenim	200		3
 neuporedivim			2
 neupotrebljivim	128		2
@@ -3125,28 +3125,28 @@ neupućenim	67		2
 neuračunljivim	76		2
 neurednim	92		4
 neuređenim	86		2
-neurološkim	251		2
+neurološkim	251		3
 neusklađenim	18		2
 neuspelim	213		4
 neuspešnim	301		4
 neustavnim	503		4
-neustrašivim	73		2
+neustrašivim	73		3
 neutešnim			4
 neutoljivim			2
 neutralnim	405		4
-nevaljalim	28		2
+nevaljalim	28		3
 nevažećim	354		2
 nevažnim	229		3
-nevelikim	89		3
+nevelikim	89		4
 nevernim	136		3
 neverničkim			3
 neverovatnim	1325		2
 neveselim	31		2
 nevezanim	42		2
 nevečernjim			2
-neveštim	59		2
+neveštim	59		3
 nevidim			2
-nevidljivim	731		2
+nevidljivim	731		3
 nevidovnim			2
 nevinim	697		3
 neviđenim	330		2
@@ -3157,36 +3157,36 @@ nezadovoljnim	305		5
 nezagađenim	14		2
 nezahvalnim	47		4
 nezainteresovanim			2
-nezakonitim	827		3
-nezamislivim	137		2
-nezaposlenim	669		3
+nezakonitim	827		4
+nezamislivim	137		3
+nezaposlenim	669		4
 nezaustavljivim	51		2
 nezauzetim			2
-nezavidnim	26		2
-nezavisnim	1759		2
+nezavidnim	26		3
+nezavisnim	1759		3
 nezavršenim	94		2
 nezaštićenim	139		3
-nezdravim	208		2
+nezdravim	208		3
 nezemaljskim			2
-nezgodnim	211		2
+nezgodnim	211		3
 nezgrapnijim			4
 nezgrapnim	48		3
 nezlobivim			2
 neznanim	143		3
 neznatnijim			4
 neznatnim	230		3
-nezrelim	103		2
+nezrelim	103		3
 nezvaničnim	2490		2
 nečasnim	170		3
 nečastivim	46		2
 nečijim	277		3
 nečim			2
-nečistim	263		2
+nečistim	263		3
 nečitkim	19		3
 nečovečnim	48		4
 nečujnim	55		3
 nečuvenim	69		2
-neželjenim	438		3
+neželjenim	438		4
 neživim	35		2
 nežnijim	52		3
 nežnim	651		2
@@ -3199,14 +3199,14 @@ nim		M	1
 niskim	5277		2
 ničijim	15		3
 ničim	3145		2
-nišanim	15		2
+nišanim	15		3
 niškim	705		2
 ništavim			2
 ništavnim	214		3
 nižim	2912		2
-njegovim	36108		2
+njegovim	36108		3
 njegoševim			2
-njemačkim		J	2
+njemačkim		J	3
 njenim	7936		2
 nježnim		J	2
 njihovim	19610		3
@@ -3216,16 +3216,16 @@ njištim			2
 njujorškim	171		3
 njušim	13		2
 nobelovim			2
-nomadskim	55		2
+nomadskim	55		3
 nominalnim	112		4
 nordijskim	284		2
 normalnim	5188		3
 normiranim	27		2
-norveškim	264		2
+norveškim	264		3
 nosećim	105		2
 nosim	4717		2
 nosnim			2
-nostalgičnim	70		2
+nostalgičnim	70		3
 notnim	28		2
 notornim	58		2
 novijim	786		3
@@ -3233,7 +3233,7 @@ novim	56202		2
 novinarskim	615		2
 novinskim	678		2
 novogrčkim			4
-novosadskim	1085		2
+novosadskim	1085		3
 novčanim	1253		2
 noćim	18		2
 noćnim	1819		2
@@ -3242,35 +3242,35 @@ nudim	770		2
 nuklearnim	1181		4
 nultim	104		2
 numerisanim	38		2
-numeričkim	166		2
+numeričkim	166		3
 nušićevim			2
 nuždnim			2
 nužnim	364		2
 obalnim	53		3
 obalskim	46		2
-obasjanim	14		2
+obasjanim	14		3
 obavestim	1506		2
 obaveznim	1025		4
 obaveštajnim	560		2
-obavijenim			4
-obavim	488		2
-obavljenim	148		3
+obavijenim			5
+obavim	488		3
+obavljenim	148		4
 obazrivim	19		2
-obdarenim	26		2
+obdarenim	26		3
 obdarim			2
 obeleženim	143		2
 obeležim	66		2
 obelodanim	23		2
 obeselim			2
 obeshrabrim	31		2
-obesim	64		2
+obesim	64		3
 obesnim	31		2
 obezbedim	574		2
 obezbeđenim	143		2
-obećanim	26		2
-obešenim	16		3
-obilatim	43		2
-obilazim	406		2
+obećanim	26		3
+obešenim	16		4
+obilatim	43		3
+obilazim	406		3
 obilaznim	34		2
 obilježim		J	2
 obilnim	376		3
@@ -3278,12 +3278,12 @@ obim	10144		2
 obimnijim	38		4
 obimnim	267		3
 običajnim	68		2
-običnim	4512		2
+običnim	4512		3
 objasnim	4735		2
 objavim	744		2
-objavljenim	1695		2
-objašnjenim	16		2
-objašnjivim	16		2
+objavljenim	1695		3
+objašnjenim	16		3
+objašnjivim	16		3
 objedinim	50		2
 objektivnim	820		4
 objektnim	29		2
@@ -3303,64 +3303,64 @@ obmotanim	10		2
 obnaženim	33		2
 obnažim			2
 obnovim	172		2
-obnovljenim	85		2
+obnovljenim	85		3
 obnovljivim	728		2
 obogaljim			2
-obogatim	105		2
-obogaćenim	50		3
-obojenim	370		3
+obogatim	105		3
+obogaćenim	50		4
+obojenim	370		4
 obojim	55		2
 obolelim	758		2
-oborenim	70		2
+oborenim	70		3
 oborim	155		2
-obostranim	172		2
-obožavanim			2
+obostranim	172		3
+obožavanim			3
 obradim	142		2
-obradivim	104		2
+obradivim	104		3
 obranim	27		2
 obraslim		M	2
 obratim	1811		2
 obratnim	16		3
 obrazložim	423		2
-obrazovanim	263		4
-obrazovnim	2535		3
-obraćenim			2
-obrađenim	233		2
+obrazovanim	263		5
+obrazovnim	2535		4
+obraćenim			3
+obrađenim	233		3
 obrednim	124		3
 obrijanim	18		2
 obrlatim			2
-obrnutim	28		2
+obrnutim	28		3
 obrstim			2
 obrtnim	416		2
-obuhvatim	68		2
+obuhvatim	68		3
 obuhvatnim	27		2
-obuhvaćenim	97		3
-obustavim	18		2
+obuhvaćenim	97		4
+obustavim	18		3
 obuzetim			2
 obućarskim	16		2
-obučenim	202		2
+obučenim	202		3
 obučim	22		2
 obznanim			2
 ocenim	277		2
-ocenjenim	38		2
+ocenjenim	38		3
 oceđenim			2
 ocinkarim			2
 ocrnim	22		2
 ocrtanim	10		4
 odabranijim			2
-odabranim	520		2
+odabranim	520		3
 odalamim			2
 odanijim			4
 odanim	96		3
 odbacim	140		2
-odbačenim	92		2
+odbačenim	92		3
 odbeglim	156		2
 odbojnim	55		3
-odbrambenim	388		3
+odbrambenim	388		4
 odbranim	272		2
 odbrojim			2
 odelim			2
-odeljenim			2
+odeljenim			3
 odeljenjskim	60		2
 odeljenskim	64		2
 odevenim	41		2
@@ -3370,16 +3370,16 @@ odgajim	19		2
 odglumim	41		2
 odgodim			2
 odgojim			2
-odgovarajućim	5551		3
+odgovarajućim	5551		4
 odgovorim	3973		2
 odgovornim	2763		4
 odgudim			2
-odigranim	80		3
+odigranim	80		4
 odjavim	74		2
 odjavnim			2
 odjurim	24		2
 odlazećim	65		2
-odlazim	2282		2
+odlazim	2282		3
 odlepim	66		2
 odletim	58		2
 odležim	23		2
@@ -3387,15 +3387,15 @@ odličnijim			4
 odličnim	4408		3
 odloženim	236		2
 odložim	135		2
-odlučenim			2
+odlučenim			3
 odlučim	1341		2
 odlučnijim	35		4
 odlučnim	442		3
-odlučujućim	434		3
+odlučujućim	434		4
 odmaglim			2
 odmenim			2
-odmerenim	82		3
-odmerim	52		2
+odmerenim	82		4
+odmerim	52		3
 odmetnutim	36		2
 odmorim	789		2
 odnosim	159		2
@@ -3408,11 +3408,11 @@ odomaćim			2
 odradim	1226		2
 odranim			2
 odraslim	702		2
-odrađenim			2
+odrađenim			3
 odredim	354		2
 odredišnim			2
 određenijim			4
-određenim	15953		2
+određenim	15953		3
 određujućim			2
 odrešenim			2
 odrešim	15		2
@@ -3420,12 +3420,12 @@ odrešitim			2
 odričnim	15		2
 odrubim			2
 održanim	1115		2
-održavanim	27		3
+održavanim	27		4
 održim	482		2
-održivim	604		2
+održivim	604		3
 odselim	49		2
 odseljenim			2
-odsečenim	31		3
+odsečenim	31		4
 odsečnim	49		2
 odslužim	20		2
 odstojim			2
@@ -3443,19 +3443,19 @@ odvalim	53		2
 odvaljenim			2
 odvažim	20		2
 odvažnim	59		3
-odvedenim			2
+odvedenim			3
 odviknutim			2
 odvlačim	12		2
 odvodim	23		2
-odvojenim	244		2
+odvojenim	244		3
 odvojim	529		2
-odvojivim	18		2
+odvojivim	18		3
 odvozim	16		2
-odvođenim			2
+odvođenim			3
 odvratim	71		2
 odvratnim	203		3
 odzvonim			2
-odškrinutim			2
+odškrinutim			3
 ofanzivnim	174		2
 ofarbanim	43		3
 oficirovim			2
@@ -3471,7 +3471,7 @@ oglašenim			2
 oglednim	209		2
 oglodanim			2
 oglušim			2
-ognjenim	94		2
+ognjenim	94		3
 ognjičavim			2
 ogolelim			2
 ogolim	21		2
@@ -3479,9 +3479,9 @@ ogoljenim	29		2
 ogorčenim	61		3
 ogradim	211		2
 ogradnim	14		2
-ograničenim	359		3
-ograničim	128		2
-ograđenim	46		2
+ograničenim	359		4
+ograničim	128		3
+ograđenim	46		3
 ogrevnim	26		2
 ogrešim	36		2
 ogrnutim			2
@@ -3490,34 +3490,34 @@ ogrubelim			2
 ogulim	18		2
 oguljenim			2
 ohladim	61		2
-ohlađenim	29		2
+ohlađenim	29		3
 oholim	43		3
 ohrabrim	179		2
 ohridskim	55		2
 ojačalim			2
-ojačanim	52		2
+ojačanim	52		3
 ojađenim	44		2
 okamenim			2
 okamenjenim	41		2
 okačenim	45		2
 okačim	370		2
 okeanskim	56		2
-okitim	21		2
-okićenim	31		3
-oklopnim	188		2
+okitim	21		3
+okićenim	31		4
+oklopnim	188		3
 okolišnim	16		2
 okolnim	3429		2
-okomitim	24		3
-okončanim	42		2
+okomitim	24		4
+okončanim	42		3
 okorelim	85		2
 okoristim			2
-okovanim	41		2
-okrenutim	261		2
+okovanim	41		3
+okrenutim	261		3
 okrepim	15		2
-okrečenim	28		3
-okrečim	21		2
+okrečenim	28		4
+okrečim	21		3
 okrivim	41		2
-okrivljenim	112		2
+okrivljenim	112		3
 okrpim			2
 okruglastim	15		2
 okruglim	930		2
@@ -3525,26 +3525,26 @@ okrutnim			2
 okruženim	78		2
 okružim	18		2
 okružnim	657		2
-okrvavljenim	10		3
-okultnijim			3
-okultnim	101		2
+okrvavljenim	10		4
+okultnijim			4
+okultnim	101		3
 okupacionim	160		2
 okupanim			2
-okupim	92		2
+okupim	92		3
 okupiranim	42		2
-okupljenim	1011		3
-okusim	45		2
+okupljenim	1011		4
+okusim	45		3
 okvasim			2
 okvirnim	157		3
-olabavim	10		3
-olabavljenim			4
+olabavim	10		4
+olabavljenim			5
 oladim			2
 olajisanim			2
 olakim	65		3
-olakšanim			2
+olakšanim			3
 olimpijskim	4275		2
 olinjalim			2
-oličenim	80		2
+oličenim	80		3
 oljuštenim	21		2
 oljuštim	24		2
 olovnim	151		3
@@ -3557,9 +3557,9 @@ omekšalim			2
 omekšanim			2
 ometajućim			2
 ometenim	130		3
-omeđenim	25		3
-omiljenijim			4
-omiljenim	1290		3
+omeđenim	25		4
+omiljenijim			5
+omiljenim	1290		4
 omogućim	230		2
 omrazim			2
 omraženim	52		2
@@ -3567,16 +3567,16 @@ omrsim			2
 omrznutim			2
 onakim			2
 onakvim	756		2
-ondašnjim	279		2
+ondašnjim	279		3
 onemogućim	26		2
 onemoćalim			2
 onesposobim			2
 onesvestim	48		2
 onim	31930		2
 onjušim			2
-onolikim	91		2
+onolikim	91		3
 onostranim	77		2
-ontološkim	65		2
+ontološkim	65		3
 opakim	129		3
 opalim	117		2
 opalskim			2
@@ -3585,8 +3585,8 @@ opasanim	23		4
 opasnijim			2
 opasnim			2
 opaučim			2
-opazim	43		2
-opaženim			3
+opazim	43		3
+opaženim			4
 opepelim			2
 operativnim	3212		5
 operetskim			2
@@ -3594,24 +3594,24 @@ operskim	195		2
 opevanim			2
 ophodim	34		2
 opijenim			2
-opipljivim	120		2
-opisanim	193		2
+opipljivim	120		3
+opisanim	193		3
 opisnim	49		2
 opkladim			2
-opkoljenim	10		2
+opkoljenim	10		3
 oplemenim	17		2
-opljačkanim	39		3
+opljačkanim	39		4
 oplodim			2
 opojnim	150		2
-oporavim	251		2
+oporavim	251		3
 oporijim			4
 oporim	56		3
 opozicionim	750		2
-opranim	16		2
+opranim	16		3
 opravdanim	429		3
 opredelim	160		2
 opremim	37		2
-opremljenim	462		2
+opremljenim	462		3
 opreznim	99		3
 oprečnim	88		3
 oprljim			2
@@ -3622,11 +3622,11 @@ oproštajnim	41		2
 opruženim	10		2
 opsadnim	23		2
 opscenim	28		3
-opsednutim	18		3
+opsednutim	18		4
 opsesivnim	50		4
 opsežnim			2
 opskurnim	84		3
-opteretim	99		2
+opteretim	99		3
 optimalnim	524		4
 optičkim	1059		2
 optočenim	21		2
@@ -3634,7 +3634,7 @@ optuženim	314		2
 optužim	73		2
 opustelim			2
 opustim	503		2
-opuštenim	214		2
+opuštenim	214		3
 opčinim			2
 opširnijim	20		4
 opširnim	101		3
@@ -3651,42 +3651,42 @@ oribanim			2
 originalnim	1767		5
 orijentalnim	202		5
 orijentisanim	341		2
-orlovim	13		2
-orlovskim	22		2
-oronulim	93		2
+orlovim	13		3
+orlovskim	22		3
+oronulim	93		3
 oročenim	15		2
 orošenim			2
 ortačkim	28		2
 ortoepskim			2
-oružanim	1229		3
-osakatim			2
+oružanim	1229		4
+osakatim			3
 osamdesetim	291		2
 osamim	26		2
 osamljenim	16		2
 osamostalim	50		2
 osebujnim	16		2
 osenčenim			2
-osetim	2359		2
-osetljivijim	77		3
-osetljivim	1696		2
-osetnim	52		2
+osetim	2359		3
+osetljivijim	77		4
+osetljivim	1696		3
+osetnim	52		3
 osećajnim	48		4
-osiguranim	94		2
+osiguranim	94		3
 osiguravajućim	690		2
 osim	148358		2
 osionim	28		2
-osiromašim			2
+osiromašim			3
 osirotelim			2
-oskudnijim	10		3
-oskudnim	262		2
+oskudnijim	10		4
+oskudnim	262		3
 oslabelim			2
-oslabim	41		2
-oslabljenim	48		3
+oslabim	41		3
+oslabljenim	48		4
 oslepim	12		2
 oslikanim	37		2
-oslobodilačkim	216		3
+oslobodilačkim	216		4
 oslobodim	519		2
-oslobođenim	178		2
+oslobođenim	178		3
 oslonim	154		2
 oslonjenim	57		2
 oslovim	44		2
@@ -3698,13 +3698,13 @@ osmotrim	93		2
 osnaženim			2
 osnažim			2
 osnivačkim	542		2
-osnovanim	121		2
+osnovanim	121		3
 osnovnim	13232		3
 osobenim	245		2
-osobitim	126		3
+osobitim	126		4
 osolim			2
 osovinskim	36		2
-osporenim	53		2
+osporenim	53		3
 osporim	96		2
 osposobim	88		2
 osramotim	13		2
@@ -3712,19 +3712,19 @@ osrednjim	131		3
 ostalim	34601		2
 ostarelim	116		2
 ostarim	81		2
-ostavim	2525		2
-ostavljenim	78		3
+ostavim	2525		3
+ostavljenim	78		4
 ostrvskim	79		2
-ostvarenim	617		2
+ostvarenim	617		3
 ostvarim	1119		2
 ostvarivim	41		2
 osudim	97		2
 osumnjičenim	274		2
-osunčanim	23		2
-osuđenim	295		2
-osuđivanim			2
+osunčanim	23		3
+osuđenim	295		3
+osuđivanim			3
 osuđujućim	31		2
-osušenim	20		2
+osušenim	20		3
 osušim	32		2
 osvajačkim	122		2
 osvedočim			2
@@ -3732,16 +3732,16 @@ osvestim	45		2
 osvetim	80		2
 osvetlim	72		2
 osvetljenim	103		2
-osvećenim	22		2
-osvežim	139		2
-osvojenim	286		2
+osvećenim	22		3
+osvežim	139		3
+osvojenim	286		3
 osvojim	575		2
-osvojivim			2
+osvojivim			3
 otarasim	105		2
 otačkim	33		2
 otegnutim			2
 otetim	57		2
-otečenim	51		2
+otečenim	51		3
 otežalim			2
 otežanim	81		2
 otfikarim			2
@@ -3749,16 +3749,16 @@ othranim			2
 otkačenim	24		2
 otkačim	106		2
 otklonim	131		2
-otkopanim			2
+otkopanim			3
 otkopčanim			2
-otkrivenim	258		3
+otkrivenim	258		4
 otkupim	57		2
 otkupnim	149		2
 otmenijim			4
 otmenim	106		3
 otomanskim	106		4
 otopim	13		2
-otopljenim	37		2
+otopljenim	37		3
 otpadim			2
 otpadnim	493		2
 otpalim			2
@@ -3772,33 +3772,33 @@ otpremim			2
 otpusnim	10		2
 otpustim	89		2
 otpuzim			2
-otpuštenim	43		2
+otpuštenim	43		3
 otrcanim	55		3
 otreznim	20		2
 otrgnutim			2
 otromboljenim			2
-otrovanim	11		2
+otrovanim	11		3
 otrovnim	401		2
 otrpim	23		2
 otrčim	85		2
 otupelim			2
-otuđenim	33		2
-otvorenim	4936		3
+otuđenim	33		3
+otvorenim	4936		4
 otvorim	2981		2
 ovakvim	18136		2
 ovalnim	108		2
 ovaplotim			2
-ovdašnjim	1274		2
+ovdašnjim	1274		3
 ovekovečim	31		2
-overenim	90		3
-overim	101		2
+overenim	90		4
+overim	101		3
 ovećim			3
 ovim	131346		2
 ovlašnim	16		2
 ovlašćenim	925		2
 ovlažim			2
 ovogodišnjim	1034		2
-ovolikim	292		2
+ovolikim	292		3
 ovozemaljskim	171		2
 ovsenim			2
 ovčarskim	11		2
@@ -3814,7 +3814,7 @@ ozidanim			2
 ozim			2
 ozimim	111		2
 ozloglašenim	73		2
-označenim	148		2
+označenim	148		3
 označim	53		2
 oznojenim			2
 oznojim	37		2
@@ -3825,59 +3825,59 @@ oćutim	46		2
 očajnim	237		3
 očajničkim	91		2
 očaravajućim	88		2
-očekivanim	177		2
+očekivanim	177		3
 očevidnim	22		4
-očevim	294		2
+očevim	294		3
 očiglednim	569		4
 očinskim	43		3
-očistim	338		2
-očitim	57		2
-očišćenim	40		3
+očistim	338		3
+očitim	57		3
+očišćenim	40		4
 očnim	173		2
 očupanim			2
-očuvanim	91		2
-ošamarim			2
+očuvanim	91		3
+ošamarim			3
 ošamućenim			2
-oštetim	53		2
-oštećenim	319		3
+oštetim	53		3
+oštećenim	319		4
 oštrijim	140		3
 oštrim	2110		2
 ožalim			2
 ožalostim			2
 ožednim			2
 oženim	172		2
-oženjenim	38		2
+oženjenim	38		3
 oživelim			2
 oživim	148		2
-oživljenim			2
-pacifičkim	42		2
+oživljenim			3
+pacifičkim	42		3
 pacovskim			2
 padajućim	52		2
 padežnim	10		2
 padobranskim	51		2
 paganskim	200		2
 pakistanskim	60		4
-paklenim	164		2
+paklenim	164		3
 pakosnim	33		3
 pakovanim			4
 palanačkim			2
 palestinskim	259		2
 palim	1362		2
-paljenim			2
+paljenim			3
 palminim	18		3
 pametnijim	179		4
 pametnim	1458		3
 pamtim	3407		2
 pamtljivim	13		2
-pamučnim	140		2
-panamskim	21		2
+pamučnim	140		3
+panamskim	21		3
 pandurskim			2
 paničarim			2
 paničim	71		2
-paničnim	63		2
+paničnim	63		3
 panonskim	93		2
 paorskim			2
-papirnatim	77		2
+papirnatim	77		3
 papirnim	312		2
 paprenim	80		3
 papskim	72		2
@@ -3885,13 +3885,13 @@ paradnim	32		2
 paralelnim	729		2
 paralitičarskim			2
 paranoidnim	28		2
-paranoičnim	43		2
+paranoičnim	43		3
 paranormalnim	57		2
 parapetnim			2
 paravojnim	144		4
 pariskim	319		2
 pariškim	22		2
-parkiranim	70		2
+parkiranim	70		3
 parlamentarnim	2800		5
 parnim	287		2
 parničnim	183		2
@@ -3903,11 +3903,11 @@ pasjim	35		2
 pastelnim	209		2
 pastirskim	86		2
 patentnim	67		2
-patetičnim	116		2
+patetičnim	116		3
 patim	713		2
 patogenim	69		4
-patološkim	261		2
-patriotskim	588		2
+patološkim	261		3
+patriotskim	588		3
 patrolnim	40		2
 patuljastim	51		2
 patvorenim			2
@@ -3921,13 +3921,13 @@ paćeničkim			2
 pačjim	10		2
 pašinim			2
 pašićevim			2
-pažljivijim	57		3
-pažljivim	660		2
-pedagoškim	563		2
-pedantnim	21		2
+pažljivijim	57		4
+pažljivim	660		3
+pedagoškim	563		3
+pedantnim	21		3
 pedesetim	314		2
-peglanim			2
-pekinškim			2
+peglanim			3
+pekinškim			3
 pekićevim			2
 penzijskim	378		2
 penzionim	185		4
@@ -3937,12 +3937,12 @@ perfektnim	130		2
 perfidnim	65		2
 perifernim	495		2
 perjanim			2
-pernatim	23		2
+pernatim	23		3
 pernim			2
 persijskim	138		2
 personalizovanim	22		2
 personalnim	521		4
-perverznim	44		2
+perverznim	44		3
 peskovitim	142		2
 pesnikovim	22		2
 pesničkim	435		2
@@ -3961,10 +3961,10 @@ pešačim	128		2
 pešačkim	413		2
 peštanskim	27		2
 peščanim	541		2
-pijanim	222		2
+pijanim	222		3
 pijačnim			2
 pikantnim	55		2
-pilećim	135		2
+pilećim	135		3
 piljim	17		2
 pim		M	1
 pionirskim	156		2
@@ -3977,12 +3977,12 @@ pisaćim	109		2
 piskavim	32		2
 pismenijim			4
 pismenim	1166		3
-pitomijim			3
-pitomim	100		2
+pitomijim			4
+pitomim	100		3
 pivskim	88		2
 piškim	58		2
 pištavim			2
-piščevim	82		2
+piščevim	82		3
 plahovitim	15		2
 plamenim	109		3
 plamenitim			2
@@ -3993,30 +3993,30 @@ planinskim	1930		2
 planiranim	1283		2
 planskim	426		2
 plastificiranim	38		2
-plastičnim	1351		2
+plastičnim	1351		3
 platežnim	55		2
 platim	3500		2
 platnarskim			2
-platnenim	132		2
+platnenim	132		3
 platonskim	11		2
 plavetnim	15		3
 plavim	1931		2
-plavičastim	51		3
+plavičastim	51		4
 plavkastim	18		2
-plavljenim			2
+plavljenim			3
 plavnim	36		2
-plavokosim	17		2
-plaćenim	344		2
+plavokosim	17		3
+plaćenim	344		3
 plačevnim			2
-plačljivim	16		2
+plačljivim	16		3
 plačnim	78		2
 plašim	4857		2
-plemenitim	627		2
+plemenitim	627		3
 plemenskim	241		3
 plemićkim	61		2
 plenarnim	117		2
 plesnim	374		2
-plesnivim			2
+plesnivim			3
 pletenim	23		3
 plinskim	59		2
 plitkim	487		2
@@ -4033,22 +4033,22 @@ pločastim	46		2
 pluralnim			2
 plutajućim	59		2
 plućnim	131		2
-pneumatskim	108		2
+pneumatskim	108		3
 pobacim			2
 pobedim	797		2
 pobednim			2
 pobedničkim	240		2
 pobesnelim			2
 pobesnim	56		2
-pobeđenim	17		2
-pobijenim	52		3
+pobeđenim	17		3
+pobijenim	52		4
 poblesavim			2
 pobodenim			2
-poboljšanim	101		2
+poboljšanim	101		3
 pobočnim	19		2
 pobožnijim			4
 pobožnim	150		3
-pobratim	247		2
+pobratim	247		3
 pobratimim			2
 pobratimskim	18		2
 pobrojanim	46		2
@@ -4056,7 +4056,7 @@ pobrojim	42		2
 pobudim			2
 pobunim	34		2
 pobunjeničkim	90		2
-pobuđenim	13		2
+pobuđenim	13		3
 pocepanim	20		2
 pocinkovanim	48		2
 pocrnelim			2
@@ -4070,41 +4070,41 @@ podbuhlim			2
 podbulim			2
 podebelim			2
 podelim	1985		2
-podeljenim	232		2
-podesim	759		2
+podeljenim	232		3
+podesim	759		3
 podesnim	89		3
-podešenim	83		3
+podešenim	83		4
 podgorskim			2
-podignutim	110		3
-podilazim	20		2
+podignutim	110		4
+podilazim	20		3
 podivljalim	27		2
-podizanim			3
+podizanim			4
 podjednakim	262		2
 podlim			2
 podložnim	142		3
-podmetnutim	11		3
+podmetnutim	11		4
 podmitim	22		2
 podmuklim	87		2
 podnadulim			2
 podnetim	65		2
 podnevnim	148		2
 podnosim	1145		2
-podnošljivijim	75		3
-podnošljivim	121		2
+podnošljivijim	75		4
+podnošljivim	121		3
 podobnim	178		3
 podojim	24		2
 podozrivim	10		2
-podrazumevanim	12		2
+podrazumevanim	12		3
 podredim	16		2
-podređenim	47		2
+podređenim	47		3
 podrobnim	34		3
 podrugljivim	37		2
 podrumskim	127		2
-područnim	214		2
-podržanim	80		2
+područnim	214		3
+podržanim	80		3
 podržavim			2
 podržim	705		2
-podsetim	6021		2
+podsetim	6021		3
 podsvesnim	81		3
 podudarnim	18		4
 podučim	28		2
@@ -4119,11 +4119,11 @@ podzemnim	1129		2
 podšivenim			2
 poetičkim	121		2
 poetičnim	41		2
-poetskim	342		2
+poetskim	342		3
 poganim			2
 pogasim	18		2
 pogazim	33		2
-pogašenim			2
+pogašenim			3
 pogibeljnim	18		2
 poginulim	823		2
 pognutim	13		2
@@ -4132,19 +4132,19 @@ pogodnijim	52		4
 pogodnim	864		3
 pogonskim	348		2
 pogordim			2
-pogođenim	290		2
+pogođenim	290		3
 pograničnim	446		2
 pogrdnim	391		2
 pogrebenim			2
-pogrebnim	106		2
+pogrebnim	106		3
 pogrešim	285		2
-pogrešnim	1816		2
+pogrešnim	1816		3
 pogruženim			2
 pogružim			2
 pogubim	69		2
 pogubnim	288		3
 pogurenim			2
-pohabanim			3
+pohabanim			4
 pohapsim			2
 pohlepnim	78		3
 pohodim	19		2
@@ -4157,62 +4157,62 @@ poistovetim	31		2
 pojasnim	1190		2
 pojavim	453		2
 pojavnim	181		2
-pojačanim	149		2
-pojedinačnim	2746		2
+pojačanim	149		3
+pojedinačnim	2746		3
 pojedinim	16865		2
 pojednostavim	171		2
 pojim	13		2
 pojmim	60		2
-pojmljivim			2
+pojmljivim			3
 pojmovnim	56		2
 pojurim	45		2
 pokajničkim	34		2
-pokazanim	38		2
-pokidanim			3
+pokazanim	38		3
+pokidanim			4
 pokislim			2
 pokladnim			2
 poklonim	672		2
-poklonjenim	22		2
-pokojim	40		2
+poklonjenim	22		3
+pokojim	40		3
 pokojnikovim			2
 pokojnim	416		2
-pokorenim	14		2
+pokorenim	14		3
 pokorim	21		2
 pokornim	33		3
 pokosim	16		2
-pokradenim	40		3
-pokrenutim	65		2
+pokradenim	40		4
+pokrenutim	65		3
 pokretnim	990		3
-pokrivenim	161		3
+pokrivenim	161		4
 pokrpljenim			2
 pokupim	409		2
 pokupljenim	22		3
 pokusnim			2
-pokvarenim	58		2
+pokvarenim	58		3
 pokvarim	155		2
-pokvasim	20		2
+pokvasim	20		3
 polaganim	39		2
 polarnim	228		2
 polaskanim			2
-polazim	373		2
+polazim	373		3
 polaznim	134		2
 polemičkim	64		2
 poletim	166		2
 poletnim	39		2
 policijskim	1904		2
-političkim	19482		2
+političkim	19482		3
 političnim			2
-polivenim			3
+polivenim			4
 poljoprivrednim	3879		2
 poljskim	953		2
 poljubim	421		2
 poljuljanim			2
 polnim	604		2
 polomim	121		2
-polomljenim	35		2
+polomljenim	35		3
 polovičnim	112		2
 polovnim	265		2
-položenim	122		2
+položenim	122		3
 položim	288		2
 poludim	338		2
 poludivljim	18		2
@@ -4228,11 +4228,11 @@ pomazim	66		2
 pomenutim	523		2
 pomerim	374		2
 pomesnim	105		2
-pomešanim	101		2
+pomešanim	101		3
 pominjanim	34		2
 pomirim	329		2
-pomirljivim	37		2
-pomislim	3753		2
+pomirljivim	37		3
+pomislim	3753		3
 pomnim	28		2
 pomnožim	13		2
 pomodnim	62		3
@@ -4246,62 +4246,62 @@ pomračim			2
 pomutim			2
 pomućenim			2
 pomučim	23		2
-ponavljanim	35		2
-ponekim	199		2
+ponavljanim	35		3
+ponekim	199		3
 ponesenim			2
 ponizim	33		2
 poniznim	18		2
-poništenim	16		3
-poništim	54		2
+poništenim	16		4
+poništim	54		3
 ponižavajućim	187		2
-poniženim	91		2
+poniženim	91		3
 ponosim	771		2
-ponositim	17		3
-ponosnim	469		2
+ponositim	17		4
+ponosnim	469		3
 ponovim	2369		2
-ponovljenim	82		2
+ponovljenim	82		3
 ponovnim	953		3
 ponoćnim	59		2
 pontonskim	19		2
-ponudim	722		2
-ponuđenim	213		3
+ponudim	722		3
+ponuđenim	213		4
 poodmaklim	255		2
 poočim	31		2
 popaljenim			2
 poparenim			2
 popisnim	112		2
 poplavim			2
-poplašenim			3
-poplašim			2
+poplašenim			4
+poplašim			3
 popločanim	27		2
 popodnevnim	2422		2
 popovim	11		2
 popovskim	18		2
-popravim	570		2
+popravim	570		3
 popravnim	61		2
 poprečnim	223		3
-poprskanim			2
+poprskanim			3
 popularnim	1567		4
-popunim	196		2
-popunjenim	37		3
+popunim	196		3
+popunjenim	37		4
 popustim	96		2
-popušim	81		2
+popušim	81		3
 poradim	106		2
-poranim	26		2
+poranim	26		3
 poratnim	139		2
 porazim			2
 porazmislim	44		2
 poraznijim			2
 poraznim	41		2
-poraženim	88		2
+poraženim	88		3
 poredbenim			2
 poredim	555		2
-poremetim	23		2
-poremećenim	74		3
+poremetim	23		3
+poremećenim	74		4
 poreskim	2197		2
-poređanim	52		2
-pornografskim	158		2
-porobljenim	21		2
+poređanim	52		3
+pornografskim	158		3
+porobljenim	21		3
 porodim	102		2
 porodičnim	2189		2
 poroznim	31		3
@@ -4309,21 +4309,21 @@ poročnim	17		2
 porođajnim	51		2
 portugalskim	144		4
 poručim	714		2
-porušenim	19		3
+porušenim	19		4
 posadim	54		2
-posebnim	17278		2
+posebnim	17278		3
 posedim	21		2
 posedovnim	14		2
 posesivnim	16		2
-posetim	1016		2
-posećenim	59		3
-posečenim			3
+posetim	1016		3
+posećenim	59		4
+posečenim			4
 posilnim			2
 posinjenim			2
-poslanim	12		2
+poslanim	12		3
 poslatim			2
-poslednjim	8050		2
-posljednjim		J	2
+poslednjim	8050		3
+posljednjim		J	3
 poslovnim	11144		3
 poslušnim	81		3
 poslužim	225		2
@@ -4335,32 +4335,32 @@ pospanim	40		3
 posprdnim	15		2
 pospremim	29		2
 posramim	13		2
-posramljenim			2
-posrednim	237		2
+posramljenim			3
+posrednim	237		3
 posredničkim	40		2
 posrnulim	139		2
 postalim			2
-postavim	3074		2
-postavljenim	1600		3
+postavim	3074		3
+postavljenim	1600		4
 postdiplomskim	509		2
 postepenim	552		2
 posthumnim	13		2
 postidim	68		2
 postidnim			2
 postim	117		2
-postiđenim	15		2
-postojanim	103		3
-postojećim	5957		3
-postojim	685		2
+postiđenim	15		3
+postojanim	103		4
+postojećim	5957		4
+postojim	685		3
 postriženim			2
 postupim	127		2
-postupnim	84		2
+postupnim	84		3
 posudim	19		2
 posutim	11		2
 posvađanim			2
 posvedočim	85		2
 posvetim	1027		2
-posvećenim	735		2
+posvećenim	735		3
 potajnim	28		3
 potamanim			2
 potamnelim	10		2
@@ -4375,24 +4375,24 @@ potkovanim	28		2
 potkožnim	45		2
 potkupim			2
 potlačenim	39		2
-potmulim	19		2
+potmulim	19		3
 potonjim	439		2
 potonulim	14		2
 potopim	27		2
-potopljenim	25		2
+potopljenim	25		3
 potpalim			2
 potpisanim	597		2
 potplatim			2
-potpunijim	56		3
-potpunim	1469		2
+potpunijim	56		4
+potpunim	1469		3
 potražim	598		2
 potrebitim	18		2
 potrebnim	3055		3
-potrefim	19		2
+potrefim	19		3
 potresenim			2
 potresnim	99		2
 potrganim			2
-potrošenim	42		2
+potrošenim	42		3
 potrošim	574		2
 potrošnim	96		2
 potrudim	246		2
@@ -4400,45 +4400,45 @@ potrčim	109		2
 poturim	14		2
 potvrdim	938		2
 potvrdnim	30		2
-potvrđenim	109		2
+potvrđenim	109		3
 potčinim			2
 potčinjenim	82		2
-pouzdanim	913		3
+pouzdanim	913		4
 poučim	27		2
 poučnim	98		2
 povadim	39		2
 povalim	13		2
-poverenim	43		3
-poverim	83		2
-poverljivim	420		2
+poverenim	43		4
+poverim	83		3
+poverljivim	420		3
 povesnim			2
 povezanim	1144		3
 povećanim	1615		2
 povećim	70		2
-povijenim	39		3
+povijenim	39		4
 povisim	10		2
-povišenim	920		2
+povišenim	920		3
 povlačim	499		2
 povoljnijim	1057		4
 povoljnim	3550		3
 povratim	361		2
 povratnim	214		2
 povredim	318		2
-povremenim	1068		3
-povređenim	206		2
+povremenim	1068		4
+povređenim	206		3
 povrtnim	11		2
 površinskim	621		2
-površnim	359		2
-povučenim	42		2
+površnim	359		3
+povučenim	42		3
 pozabavim	252		2
 pozajmim	199		2
-pozajmljenim	76		2
+pozajmljenim	76		3
 pozamašnim	84		4
-pozdravim	1165		2
+pozdravim	1165		3
 pozdravnim	147		3
 pozitivnim	3759		4
 pozivnim	101		2
-pozlaćenim	60		2
+pozlaćenim	60		3
 poznatijim	256		4
 poznatim	6330		3
 poznijim			2
@@ -4453,14 +4453,14 @@ počađavelim			2
 početim			2
 početnim	1410		2
 počinim	15		2
-počinjenim	328		2
-počistim	44		2
+počinjenim	328		3
+počistim	44		3
 pošizim			2
 poštanskim	480		3
 poštedim	79		2
-poštenijim	26		3
-poštenim	918		2
-poštovanim	64		2
+poštenijim	26		4
+poštenim	918		3
+poštovanim	64		3
 požalim	206		2
 požarnim	51		2
 poželim	1576		2
@@ -4473,7 +4473,7 @@ požutelim	59		2
 pradavnim	17		2
 praiskonskim	15		2
 praistorijskim	101		2
-praktičnim	2397		2
+praktičnim	2397		3
 prasećim			2
 prastarim	161		3
 pratećim	2256		2
@@ -4493,7 +4493,7 @@ prašim			2
 prašnjavim	198		3
 prašumskim	10		2
 prebacim	1084		2
-prebačenim	31		2
+prebačenim	31		3
 preblagim			2
 prebledim			2
 prebogatim	61		2
@@ -4503,7 +4503,7 @@ prebrojim	74		2
 precioznim			2
 preciznim	1518		3
 predanim	210		2
-predatim	11		2
+predatim	11		3
 predačkim			2
 predimenzioniranim	12		2
 predivnim	905		3
@@ -4511,27 +4511,27 @@ predloženim	1817		2
 predložim	646		2
 predmetnim	363		2
 prednjim	1760		2
-predomislim	82		2
+predomislim	82		3
 predočim	179		2
 predragim			3
 predratnim	181		2
 predsedavajućim	154		2
 predsednikovim	22		2
 predsedničkim	3093		2
-predstavim	1202		2
+predstavim	1202		3
 predstojećim	2872		2
 predstojim			2
 predubokim	12		2
 predugim	60		2
 preduhitrim	31		2
 preduzetim	524		2
-predvidim	178		2
-predvidljivim	73		2
-predviđenim	914		3
+predvidim	178		3
+predvidljivim	73		3
+predviđenim	914		4
 predvodim	84		2
 prefinjenim	206		2
 pregazim	22		2
-preglednim	92		2
+preglednim	92		3
 pregnantnim	10		2
 pregolemim			2
 pregonim			2
@@ -4543,7 +4543,7 @@ preinačim			2
 prejakim	68		2
 prekardašim			2
 prekim	96		2
-prekinutim			3
+prekinutim			4
 preklinjućim			2
 prekomorskim	78		2
 prekoračim	33		2
@@ -4551,12 +4551,12 @@ prekornim	24		2
 prekovremenim	89		2
 prekrasnim	286		3
 prekratim	48		2
-prekrivenim	131		3
+prekrivenim	131		4
 prekrstim	95		2
 prekršim	63		2
 prekrštenim	29		2
 prekuvanim			2
-prelazim	1027		2
+prelazim	1027		3
 prelaznim			2
 prelepim	1599		2
 preletim	60		2
@@ -4577,7 +4577,7 @@ premoćnim			2
 premudrim	26		2
 prenetim	33		2
 prenosim	743		2
-prenosivim	421		2
+prenosivim	421		3
 prenosnim	369		2
 prenoćim	57		2
 preoblačim			2
@@ -4586,30 +4586,30 @@ preobrazim			2
 preobraženim			2
 preopteretim			2
 preostalim	1177		2
-prepečenim			3
-prepiljenim			2
+prepečenim			4
+prepiljenim			3
 preplanulim	46		2
-preplašenim	24		3
-preplašim			2
+preplašenim	24		4
+preplašim			3
 prepodobnim	225		2
 prepolovim	12		2
 preporučim	697		2
 prepotentnim	20		2
 prepotopskim			2
-prepoznatljivim	1121		2
+prepoznatljivim	1121		3
 prepravim	70		2
-prepunim	552		2
+prepunim	552		3
 prepustim	351		2
 preradim	35		2
 preranim	67		2
-prerađenim	71		2
-prerezanim			3
-prerušenim	15		3
-prerušim			2
+prerađenim	71		3
+prerezanim			4
+prerušenim	15		4
+prerušim			3
 presavijenim			2
 presedim			2
 preselim	233		2
-presečenim	29		3
+presečenim	29		4
 preskočim	331		2
 preskupim	114		2
 preslabim	10		2
@@ -4620,8 +4620,8 @@ prespojim	17		2
 prestižnim	883		2
 prestonim	40		2
 prestravim	11		2
-prestravljenim			2
-prestrašim			2
+prestravljenim			3
+prestrašim			3
 prestrogim			2
 prestupim			2
 prestupnim	11		2
@@ -4631,15 +4631,15 @@ presvetim	62		2
 presvetlim	17		2
 presvlačim	77		2
 pretencioznim	60		2
-preteranim	545		3
+preteranim	545		4
 pretećim	172		2
 preteškim	72		2
 pretežnim	91		2
-prethodnim	8135		2
+prethodnim	8135		3
 pretim	135		2
 pretočim	86		2
-pretpostavim	495		2
-pretpostavljenim	92		3
+pretpostavim	495		3
+pretpostavljenim	92		4
 pretprazničkim			2
 pretprošlim	12		2
 pretražim	33		2
@@ -4647,20 +4647,20 @@ pretrpanim	32		2
 pretrpim	50		2
 pretrčim	64		2
 preturim	14		2
-pretvorenim	37		2
+pretvorenim	37		3
 pretvorim	302		2
 preuredim	14		2
 preusmerim	27		2
 preuzetim	345		2
 preuznosim			2
 prevalim	39		2
-prevarenim	209		3
-prevarim	204		2
+prevarenim	209		4
+prevarim	204		3
 prevarnim	27		2
-prevashodnim	29		2
-prevedenim	42		2
+prevashodnim	29		3
+prevedenim	42		3
 prevejanim	15		2
-prevelikim	475		3
+prevelikim	475		4
 preventivnim	634		4
 prevečnim			2
 previdim	23		2
@@ -4670,9 +4670,9 @@ prevodilačkim	96		2
 prevodim	255		2
 prevozim	29		2
 prevoznim	358		2
-prevođenim			2
+prevođenim			3
 prevrelim			2
-prevrnutim			2
+prevrnutim			3
 prevučenim			2
 prezalogajim	13		2
 preznojim	28		2
@@ -4687,17 +4687,17 @@ prečestim	17		2
 prečim	39		2
 prečistim	140		2
 pređašnjim			2
-pređenim	20		2
+pređenim	20		3
 preševskim	12		2
 prežalim	59		2
 preživelim	137		2
 preživim	395		2
-pribavim	54		2
+pribavim	54		3
 pribeležim	21		2
 približim	439		2
 pribranim			2
-pridevskim			2
-pridodatim			2
+pridevskim			3
+pridodatim			3
 pridošlim	44		2
 pridružim	467		2
 pridržim	18		2
@@ -4705,42 +4705,42 @@ prignutim			2
 prigodnim	1175		3
 prigovorim	58		2
 prigrlim	34		2
-prigušenim	49		2
+prigušenim	49		3
 prigušim			2
-prihvatim	1971		2
-prihvatljivim	888		2
+prihvatim	1971		3
+prihvatljivim	888		3
 prihvatnim	55		2
-prihvaćenim	256		3
+prihvaćenim	256		4
 prijateljskim	1292		2
 prijatnijim	383		4
 prijatnim	906		3
 prijavim	1097		2
-prijavljenim	127		2
+prijavljenim	127		3
 prijaznim			3
 prijemnim	247		2
 prikazanim	466		2
 prikačenim	27		2
 prikačim	137		2
-prikladnim	281		2
+prikladnim	281		3
 priključim	420		2
 priključnim	134		2
 priklonim	35		2
-prikrivenim	70		3
-prikupim	122		2
-prikupljenim	323		3
+prikrivenim	70		4
+prikupim	122		3
+prikupljenim	323		4
 prikučim			2
 prilagodim	237		2
-prilagođenim	331		2
+prilagođenim	331		3
 prilazećim			2
-prilazim	323		2
+prilazim	323		3
 prilaznim	182		2
 prilepim	12		2
 prilepljenim			2
 priležnim			2
-priličnim	131		2
+priličnim	131		3
 prilježnim			2
 priljubim	12		2
-priljubljenim	10		2
+priljubljenim	10		3
 priloškim			2
 priloženim	274		2
 priložim	86		2
@@ -4748,17 +4748,17 @@ prim	3506		1
 primamljivim	222		2
 primarnim	591		3
 primenim	399		2
-primenjenim	193		2
+primenjenim	193		3
 primenjivim	86		2
-primerenim	297		3
+primerenim	297		4
 primerim			2
-primernim	58		2
+primernim	58		3
 primetim	1989		2
 primetnim	147		3
 primim	668		2
 primirim	20		2
 primitivnim	526		4
-primljenim	274		2
+primljenim	274		3
 primorskim	347		2
 prinosim	117		2
 prinudim			2
@@ -4770,33 +4770,33 @@ priopštim			2
 pripadajućim	653		2
 pripalim	16		2
 pripasanim			2
-pripazim	35		2
+pripazim	35		3
 pripijenim	21		2
-pripisanim	14		2
+pripisanim	14		3
 pripitomim	11		2
-pripojenim	11		2
-pripravim			2
+pripojenim	11		3
+pripravim			3
 pripravnim			3
 pripremim	580		2
-pripremljenim	357		2
+pripremljenim	357		3
 pripremnim	468		3
 pripretim	10		2
 priprostim	22		3
 priredim	63		2
-priređenim	13		2
-prirodnim	9004		2
+priređenim	13		3
+prirodnim	9004		3
 priručnim	94		2
-prisebnim			2
-prisetim	326		2
-prisilim	13		2
-prisiljenim			3
+prisebnim			3
+prisetim	326		3
+prisilim	13		3
+prisiljenim			4
 prisilnim	146		2
 prislonim	31		2
 prisnijim			3
 prisnim	66		2
 prisojnim	17		2
 prispelim	98		2
-pristavim	13		2
+pristavim	13		3
 pristiglim	273		2
 pristojnim	497		2
 pristupačnim	1244		4
@@ -4807,7 +4807,7 @@ prisvojim	25		2
 prisvojnim	10		2
 pritajenim			2
 pritajim			2
-pritisnutim	16		3
+pritisnutim	16		4
 pritrčim	10		2
 pritvorim			2
 pritvornim			2
@@ -4823,39 +4823,39 @@ privlačnim	543		3
 privodim	72		2
 privolim	28		2
 privrednim	5634		2
-privremenim	1275		3
+privremenim	1275		4
 prizemljim			2
 prizemnim	227		2
-priznatim	184		2
+priznatim	184		3
 pričesnim			2
 pričestim	34		2
-pričljivim			2
+pričljivim			3
 pričvrstim	20		2
 prišivanim			2
 prišivenim			2
-prkosim	35		2
-prkosnim	39		2
+prkosim	35		3
+prkosnim	39		3
 prljavim	961		3
 probavnim	57		3
-probijenim			3
-problematičnim	664		2
+probijenim			4
+problematičnim	664		3
 probnim	230		2
 probodenim			2
 probranim	139		2
 probudim	1099		2
 proburazim			2
-probuđenim	28		2
-probušenim			2
+probuđenim	28		3
+probušenim			3
 probušim	30		2
 procenim	474		2
-procenjenim	48		2
+procenjenim	48		3
 procentnim	37		2
 procesnim	224		2
 proceđenim			2
 procvilim			2
 prodajnim	1914		3
-prodanim	16		2
-prodatim	22		2
+prodanim	16		3
+prodatim	22		3
 prodornim	118		2
 produbim	28		2
 produktivnim	107		4
@@ -4870,15 +4870,15 @@ proganjanim			2
 proglasim	84		2
 prognanim	314		2
 progonim	16		2
-progonjenim	30		2
+progonjenim	30		3
 progorim			2
 progovorim	267		2
-programskim	1277		2
-progutanim			2
+programskim	1277		3
+progutanim			3
 prohladnim	33		2
 prohodnim	130		2
 prohujalim	68		2
-proizvedenim	250		3
+proizvedenim	250		4
 proizvodim	186		2
 proizvodnim	2079		4
 proizvoljnim	223		4
@@ -4893,29 +4893,29 @@ prokrčenim			2
 prokuvanim	14		2
 prokužim			2
 prolazećim			2
-prolazim	1072		2
-prolaznim	302		2
+prolazim	1072		3
+prolaznim	302		3
 proletim	17		2
 proletnjim			2
 prolećnim	447		2
-prolivenim			3
-proljetnim	23	J	2
-promašenim	66		3
-promašim	86		2
+prolivenim			4
+proljetnim	23	J	3
+promašenim	66		4
+promašim	86		3
 promenim	2334		2
-promenjenim	90		2
+promenjenim	90		3
 promenljivim	666		2
-prometnim	244		2
-promislim	46		2
+prometnim	244		3
+promislim	46		3
 promrzlim	33		2
 promuklim	74		2
-pronalazim	515		2
+pronalazim	515		3
 pronađenim	247		3
 pronicljivim	54		2
 pronosim			2
 propalim	433		2
 propetim			2
-propisanim	685		2
+propisanim	685		3
 propratnim			2
 proprženim	14		2
 propustim	411		2
@@ -4927,14 +4927,14 @@ prosejanim			2
 prosečenim			2
 prosečnim	1609		3
 prosim	112		2
-proslavim	122		2
-proslavljenim	141		3
+proslavim	122		3
+proslavljenim	141		4
 prosledim	137		2
 prostačkim	55		2
 prostijim	32		3
 prostim	1221		2
 prostornim	900		2
-prostranim	660		2
+prostranim	660		3
 prostrtim			2
 prosudim	21		2
 prosutim			2
@@ -4942,7 +4942,7 @@ prosvetiteljskim	82		2
 prosvetlim	28		2
 prosvetnim	838		2
 proteklim	1354		2
-proteranim	70		3
+proteranim	70		4
 protesnim			2
 protestnim	174		2
 protivim	259		2
@@ -4955,12 +4955,12 @@ protivurečim	14		2
 protraćim			2
 protumačim	146		2
 proturim	22		2
-proučenim			2
+proučenim			3
 proučim	114		2
 provalim	336		2
-provedenim	171		2
-proverenim	294		3
-proverim	1772		2
+provedenim	171		3
+proverenim	294		4
+proverim	1772		3
 provetrenim	18		2
 provetrim	13		2
 providnim	311		3
@@ -4977,17 +4977,17 @@ prozirnim	143		3
 proznim	196		2
 prozorskim	118		2
 prozračnim	62		2
-prozvanim	338		2
+prozvanim	338		3
 proćelavim			4
 pročistim	25		2
-pročitanim	41		2
-proširenim	112		2
+pročitanim	41		3
+proširenim	112		3
 proširim	275		2
 prošlim	2006		2
-prošlogodišnjim	720		2
+prošlogodišnjim	720		3
 prožetim	17		2
 proživim	116		2
-prskanim			2
+prskanim			3
 prsnim	67		2
 prtim			2
 prugastim	59		2
@@ -4996,7 +4996,7 @@ pruženim	46		3
 pružim	859		2
 prvim	18223		2
 prvobitnim	475		2
-prvoklasnim	107		3
+prvoklasnim	107		4
 prvorodnim			2
 prvozvanim			2
 prženim	38		3
@@ -5004,9 +5004,9 @@ pržim	57		2
 pseudonim	512		2
 psećim	98		2
 psihijatrijskim	320		2
-psihičkim	699		2
-psihološkim	1037		2
-psihotičnim	40		2
+psihičkim	699		3
+psihološkim	1037		3
+psihotičnim	40		3
 ptičijim	39		2
 ptičjim	63		2
 pubertetskim	26		2
@@ -5037,7 +5037,7 @@ puškarskim			2
 puščanim	34		2
 pčelarskim	77		2
 pčinjskim			2
-pšeničnim	81		2
+pšeničnim	81		3
 racionalnim	625		5
 radarskim	121		2
 radijskim	167		2
@@ -5050,7 +5050,7 @@ radičevim			2
 radnim	11692		2
 radničkim	1166		3
 radosnim	256		3
-radoznalim	169		2
+radoznalim	169		3
 rahim			2
 rahitičnim			2
 raim			2
@@ -5060,34 +5060,34 @@ rajskim	192		2
 raketnim	369		2
 rakijskim			2
 rakićevim			2
-rangiranim	38		2
+rangiranim	38		3
 ranijim	4417		3
 ranim	3820		2
 ranjenim	91		3
-ranjivijim	47		3
-ranjivim	307		2
+ranjivijim	47		4
+ranjivim	307		3
 rankovim			2
 ranovizantijskim			2
 rapavim			2
 rascepkanim			2
 rascvalim			2
 rasejanim	29		2
-raseljenim	768		2
-rasečenim			3
+raseljenim	768		3
+rasečenim			4
 rashladim	25		2
 rashladnim	325		2
 rasim			2
 rasipničkim	18		2
-rasističkim	169		2
+rasističkim	169		3
 raskalašnim	36		4
 raskaljanim			2
 raskidnim			2
-raskinutim	16		3
-rasklapanim			2
+raskinutim	16		4
+rasklapanim			3
 rasklimatanim			2
 raskomotim			2
 raskopanim			2
-raskošnim	555		2
+raskošnim	555		3
 raskrečenim			2
 raskrstim			2
 raskrvavljenim			2
@@ -5098,22 +5098,22 @@ raspaljenim			2
 raspasanim			2
 raspetim	21		2
 raspirim			2
-raspisanim	48		2
+raspisanim	48		3
 raspodelim	17		2
 raspoložim			2
-raspoloživim	1527		2
+raspoloživim	1527		3
 rasporedim	58		2
 rasporenim			2
 rasporim			2
-raspravim	20		2
+raspravim	20		3
 raspremim			2
 raspršim			2
 raspucanim			2
 raspusnim	16		2
 raspustim			2
-rastavim	47		2
+rastavim	47		3
 rastavnim			2
-rasteretim	44		2
+rasteretim	44		3
 rastopim	10		2
 rastovarim			2
 rastočenim			2
@@ -5122,7 +5122,7 @@ rastumačim	52		2
 rasturenim	14		2
 rasturim	55		2
 rastućim	671		2
-rastuženim			2
+rastuženim			3
 rastužim	70		2
 rasutim	132		2
 rasvetlim	20		2
@@ -5132,52 +5132,52 @@ ratnim	4547		2
 ratničkim	88		3
 ratobornim	50		4
 ravnim	1114		2
-ravnodušnim	1576		2
+ravnodušnim	1576		3
 ravnozvučnim			2
 razapetim	19		2
 razbacanim	97		2
 razbarušenim			2
 razbesnim	21		2
-razbijenim	35		3
+razbijenim	35		4
 razbistrim	24		2
-razbludnim			2
+razbludnim			3
 razbojničkim	30		3
 razbolim	124		2
-razboritim	29		3
+razboritim	29		4
 razbudim	41		2
 razdelim	14		2
-razdeljenim			2
+razdeljenim			3
 razdraganim	57		2
-razdraženim			2
+razdraženim			3
 razdražim			2
 razdrljenim			2
 razdužim	11		2
-razdvojenim	38		2
+razdvojenim	38		3
 razdvojim	75		2
 razgalim	13		2
-razgazim			2
+razgazim			3
 razglasim			2
-razgolićenim			2
+razgolićenim			3
 razgovorim			2
 razgranatim	89		2
 razgrnutim			2
 razigranim	54		2
-razjarenim	11		2
+razjarenim	11		3
 razjasnim	402		2
-razlivenim			3
-različitim	35347		3
+razlivenim			4
+različitim	35347		4
 različnim	60		2
 razljutim	16		2
 razlokanim			2
-razloženim			2
+razloženim			3
 razložim	21		2
-razlučenim			2
+razlučenim			3
 razlučim	33		2
-razmaknutim	14		2
+razmaknutim	14		3
 razmazim	13		2
-razmaženim	39		2
+razmaženim	39		3
 razmenim	98		2
-razmislim	1918		2
+razmislim	1918		3
 razmotrim	106		2
 razmrsim			2
 razmućenim	11		2
@@ -5185,38 +5185,38 @@ raznežim	14		2
 raznim	26907		2
 raznježim			2
 raznobojnim	306		4
-raznolikim	377		2
-raznoličnim			2
+raznolikim	377		3
+raznoličnim			3
 raznoraznim	1495		2
 raznosim			2
-raznovrsnim	1635		2
+raznovrsnim	1635		3
 razonodim	21		2
-razorenim	34		2
+razorenim	34		3
 razorim			2
 razornim	242		2
-razoružanim			2
+razoružanim			3
 razočaranim	79		2
 razradim	49		2
-razrađenim	36		2
+razrađenim	36		3
 razrednim	174		2
 razrezanim			2
 razređenim	63		2
 razrešenim	10		2
 razrešim	93		2
 razrogačenim			2
-razrokim			2
+razrokim			3
 razrovanim			2
-razrušenim	12		3
-razumljivim	466		2
+razrušenim	12		4
+razumljivim	466		3
 razumnijim	22		4
 razumnim	532		3
 razumskim	23		2
-razuverim	52		2
+razuverim	52		3
 razuzdanim	42		4
 razuđenim	49		2
 razvalim	65		2
-razvaljenim			2
-razvedenim	47		2
+razvaljenim			3
+razvedenim	47		3
 razvedrim	13		2
 razveselim	39		2
 razvijenim	5454		2
@@ -5224,22 +5224,22 @@ razvlačim	91		2
 razvodim	40		2
 razvojnim	2017		2
 razvozim			2
-razvratnim	22		2
+razvratnim	22		3
 razvučenim	20		2
 račićevim			2
 računarskim	771		2
 računskim	108		2
 račvastim	21		2
-rađenim	206		2
-raširenim	103		2
+rađenim	206		3
+raširenim	103		3
 raširim	77		2
 raškim	59		2
 raštrkanim	37		2
 raščinim			2
 raščinjenim	12		2
 raščistim	36		2
-raščlanim			2
-raščlanjenim			3
+raščlanim			3
+raščlanjenim			4
 raženim	12		2
 reakcionim			2
 reaktivnim	63		2
@@ -5268,23 +5268,23 @@ religijskim	517		2
 religioznim	569		5
 reljefnim	108		2
 reljićevim			2
-remetim	66		2
-rendgenskim	105		2
+remetim	66		3
+rendgenskim	105		3
 renesansnim	102		2
 repriznim	27		2
 republikanskim	103		2
-republičkim	2611		2
+republičkim	2611		3
 resavskim	13		2
 reskim	29		2
 resornim	854		2
 resursnim			2
 retkim	2475		2
-retoričkim	97		2
+retoričkim	97		3
 retorskim			2
 reversnim			2
 revizionim	15		2
 revnim			2
-revnosnim	37		2
+revnosnim	37		3
 revolucionarnim	621		7
 rezanim			3
 rezačkim			2
@@ -5293,16 +5293,16 @@ rezervisanim	106		2
 rezervnim	498		2
 rezolutnim	12		4
 rečenim	100		3
-rečeničnim	21		2
-rečitim	48		2
+rečeničnim	21		3
+rečitim	48		3
 rečnim	470		2
 rečničkim			3
 ređenim			2
 ređim	74		2
-rešenim	120		2
-rešetkastim	28		3
+rešenim	120		3
+rešetkastim	28		4
 rešim	1788		2
-rešivim	31		2
+rešivim	31		3
 režijskim	30		2
 režim	15821		2
 režimskim	205		2
@@ -5317,28 +5317,28 @@ rimovanim	10		2
 rimskim	1069		2
 riskantnim	48		2
 ristićevim			2
-ritmičkim	103		2
-ritmičnim	51		2
+ritmičkim	103		3
+ritmičnim	51		3
 ritualnim	138		4
 rivalskim	49		2
 rizičnim	626		3
 rizničkim			2
-riđokosim			2
+riđokosim			3
 rižinim			2
 robijaškim	11		2
 robnim	948		2
 robotskim	41		2
 rodbinskim	212		3
 rodim	333		2
-roditeljskim	319		3
+roditeljskim	319		4
 rodnim	538		2
-rodoljubivim	97		2
+rodoljubivim	97		3
 rodopskim			2
 rodovskim	17		2
 rogatim	115		2
 romanskim	81		2
 romantičarskim	91		2
-romantičnim	526		2
+romantičnim	526		3
 romboidnim			2
 romskim	553		2
 ronim	82		2
@@ -5348,13 +5348,13 @@ rotacionim	202		2
 rozikastim			2
 rođačkim	113		2
 rođendanskim	53		2
-rođenim	567		2
+rođenim	567		3
 rošavim			2
 rubnim	229		2
 rudarskim	336		2
 rudnim	188		2
 rudničkim	43		3
-rugalačkim			3
+rugalačkim			4
 rujnim	16		2
 rukometnim	213		4
 rukopisnim	72		4
@@ -5364,51 +5364,51 @@ rumenim			2
 rumunskim	528		2
 ruralnim	1680		2
 ruskim	5767		2
-rustičnim	57		2
+rustičnim	57		3
 rutavim			2
 rutinskim	169		2
 ruvim			2
 ručnim	1156		2
-rušilačkim	42		3
+rušilačkim	42		4
 rušim	146		2
 ružim			2
 ružinim	14		2
 ružičastim	296		4
-ružnijim	22		2
+ružnijim	22		3
 ružnim	522		2
 rvačkim	14		2
-rđavim	210		2
+rđavim	210		3
 sabirnim	60		2
 sablasnim	42		3
 sablaznim			3
-sabornim	70		2
-saborskim	54		2
-sabranim	152		2
-sadašnjim	4243		2
+sabornim	70		3
+saborskim	54		3
+sabranim	152		3
+sadašnjim	4243		3
 sadim	93		2
 sadnim	33		2
 sadržajnim	121		4
 sadržanim	273		4
 saglasim	63		2
 saglasnim	27		2
-sagledanim	14		3
+sagledanim	14		4
 sagnutim			2
 sagorim	14		2
 sagradim	61		2
-sagrađenim	51		2
+sagrađenim	51		3
 sagrešim			2
 sahranim	68		2
-sahranjenim	23		2
-sajamskim	301		2
-sakatim	18		2
+sahranjenim	23		3
+sajamskim	301		3
+sakatim	18		3
 sakralnim	94		2
-sakrivenim	40		3
-sakupim	202		2
-sakupljenim	53		3
+sakrivenim	40		4
+sakupim	202		3
+sakupljenim	53		4
 salonskim	64		2
 samilosnim			2
 samim	41274		2
-samlevenim	14		3
+samlevenim	14		4
 samobitnim			2
 samohranim	231		2
 samoniklim	34		2
@@ -5416,10 +5416,10 @@ samostalnim	900		4
 samotnim	17		3
 samotničkim			2
 samoubilačkim	97		2
-samoukim	19		2
+samoukim	19		3
 samoupravnim	86		2
 samovoljnim	56		4
-samozadovoljnim	12		3
+samozadovoljnim	12		4
 samoživim	25		2
 samrtnim	21		2
 samrtničkim			2
@@ -5430,16 +5430,16 @@ saniranim			2
 sanitarnim	352		2
 sanjalačkim	11		2
 sanjarim	83		2
-sanjivim	28		2
+sanjivim	28		3
 santim		M	2
 saobraznim			2
 saobraćajnim	1599		5
 saopštenim	48		2
 saopštim	484		2
-sarajevskim	464		3
+sarajevskim	464		4
 saskim			2
-sastavim	312		2
-sastavljenim	166		3
+sastavim	312		3
+sastavljenim	166		4
 sastavnim	321		2
 sasušenim			2
 sasvim	95933		2
@@ -5448,31 +5448,31 @@ satanskim	40		2
 satelitskim	517		2
 satenskim	46		2
 sateranim			2
-satiričnim	102		2
+satiričnim	102		3
 satkanim	18		2
 satnim	158		2
 saudijskim	48		2
-savesnim	158		2
-saveznim	779		2
-savezničkim	198		3
-savijenim	113		3
+savesnim	158		3
+saveznim	779		3
+savezničkim	198		4
+savijenim	113		4
 savim			2
-savitljivim	61		2
-savladanim			2
-savremenijim	146		4
-savremenim	6877		3
+savitljivim	61		3
+savladanim			3
+savremenijim	146		5
+savremenim	6877		4
 savršenim	1070		3
 savskim	62		2
 sazdanim	10		2
 saznajnim	69		2
-saznatim			2
+saznatim			3
 sačinim	29		2
-sačinjenim	104		2
-sačuvanim	137		2
-sažalim	29		2
+sačinjenim	104		3
+sačuvanim	137		3
+sažalim	29		3
 sažetim	75		3
 scenskim	439		2
-sebičnim	187		2
+sebičnim	187		3
 secesionističkim	83		2
 seckanim	88		2
 sedamdesetim	232		2
@@ -5480,7 +5480,7 @@ sedefastim	18		2
 sedim	3078		2
 sedmim	111		2
 sedmičnim	17		2
-seizmičkim	69		2
+seizmičkim	69		3
 sektaškim	63		2
 sektorskim	105		2
 sekularnim	111		4
@@ -5489,15 +5489,15 @@ selidbenim			2
 selim	466		2
 seljakovim			2
 seljačkim	170		2
-semantičkim	90		2
+semantičkim	90		3
 semenskim	69		2
 semitskim	23		2
 senatskim	25		2
 seniorskim	135		2
-senovitim	94		2
+senovitim	94		3
 sentimentalnim	50		5
 senzualnim	68		4
-seoskim	2983		2
+seoskim	2983		3
 septembarskim	99		3
 serafim		M	2
 serijskim	458		3
@@ -5513,28 +5513,28 @@ sečenim	30		3
 shodnim	17		2
 shvatanim			3
 shvatim	3903		2
-shvatljivim	35		2
+shvatljivim	35		3
 shvaćenim	49		3
 sibirskim	86		2
 signalnim	71		2
 sigurnijim	310		4
 sigurnim	1664		3
-sigurnosnim	746		2
+sigurnosnim	746		3
 sijajućim			2
 sijamskim	21		2
 silabičkim			2
-silazim	168		2
+silazim	168		3
 silaznim	29		2
 silikonskim	217		2
 silim	19		2
 silnijim			3
 silnim	897		2
-silovitim	85		2
+silovitim	85		3
 sim		M	1
-simboličkim	233		2
+simboličkim	233		3
 simeonovim			2
-simetričnim	81		2
-simpatičnim	270		2
+simetričnim	81		3
+simpatičnim	270		3
 simultanim	72		4
 sindikalnim	662		2
 sinjim			2
@@ -5544,28 +5544,28 @@ sinovskim			2
 sinoćnim	52		2
 sinoćnjim	32		3
 sintaksičkim	40		2
-sintetičkim	278		2
-sintetičnim			2
+sintetičkim	278		3
+sintetičnim			3
 sionskim	11		2
 sipljivim			2
 sirijskim	394		3
 sirim	56		2
-siromašnijim	232		3
-siromašnim	1731		2
-sirotim	109		2
+siromašnijim	232		4
+siromašnim	1731		3
+sirotim	109		3
 sirotinjskim	72		2
-sirovim	277		2
+sirovim	277		3
 sirćetnim			2
 sistemskim	794		2
 sitim	99		2
-sitnijim	174		2
+sitnijim	174		3
 sitnim	2541		2
 sitničarskim			2
-sitničavim	16		3
+sitničavim	16		4
 sivim	562		2
 sićušnim	100		3
 sjajim			2
-sjajnijim	45		2
+sjajnijim	45		3
 sjajnim	2951		2
 sjedinim			2
 sjedinjenim	4480		2
@@ -5575,19 +5575,19 @@ skamenim			3
 skamenjenim			4
 skarednim	26		3
 skeletnim	75		2
-skeptičnim	29		2
+skeptičnim	29		3
 skijaškim	370		2
 skinutim	12		3
 skitačkim			2
 skitskim	18		2
 skladištim	23		2
 skladnim	155		2
-sklepanim	18		2
+sklepanim	18		3
 sklonim	547		2
-sklonjenim	12		2
+sklonjenim	12		3
 sklopim	290		2
-sklopivim	98		2
-sklopljenim	124		2
+sklopivim	98		3
+sklopljenim	124		3
 skopskim	46		2
 skopčanim			2
 skorašnjim	221		2
@@ -5600,23 +5600,23 @@ skočnim	52		2
 skrajnutim	30		2
 skrasim	40		2
 skratim	720		2
-skraćenim	130		2
+skraćenim	130		3
 skrhanim			2
 skrivenim	310		2
-skrnavim	15		2
+skrnavim	15		3
 skrojim	13		2
 skromnijim	160		3
 skromnim	1301		2
-skrovitim	74		2
+skrovitim	74		3
 skrpim	45		2
 skrušenim			2
-skršenim			2
+skršenim			3
 skupim	1682		2
 skupljačkim			2
 skupljenim	51		3
 skupljim	438		2
 skupnim	28		2
-skupocenim	332		2
+skupocenim	332		3
 skupštinskim	814		2
 skuvanim	13		3
 skučenim	151		2
@@ -5628,7 +5628,7 @@ slabim	1602		2
 slabićkim			2
 slaboumnim			4
 sladunjavim	34		2
-slamnatim	42		2
+slamnatim	42		3
 slamnim			2
 slanim	341		2
 slankastim			2
@@ -5649,7 +5649,7 @@ sledim	209		2
 slepim	627		2
 slepljenim			2
 sletim	70		2
-sleđenim			2
+sleđenim			3
 slikanim	18		3
 slikarskim	322		2
 slikovitim	152		2
@@ -5664,18 +5664,18 @@ sljedećim		J	2
 sljepačkim		J	2
 slobodarskim	97		2
 slobodnim	3261		3
-slojevitim	55		2
+slojevitim	55		3
 slomim	84		2
-slomljenim	49		2
+slomljenim	49		3
 slovačkim	266		2
-slovenačkim	868		3
+slovenačkim	868		4
 slovenskim	1600		2
 slovnim	71		2
 složenijim	281		4
 složenim	1656		3
 složim	1249		2
 složnim	32		2
-slupanim			2
+slupanim			3
 slutim	474		2
 sluzavim			3
 slučajnim	551		3
@@ -5685,13 +5685,13 @@ slušnim	102		2
 službenim	1931		3
 služim	602		2
 služinskim			2
-smanjenim	266		2
+smanjenim	266		3
 smanjim	555		2
 smaragdnim	30		2
-smelijim	31		2
+smelijim	31		3
 smelim	270		2
 smenim	29		2
-smenjenim			2
+smenjenim			3
 smernim	39		2
 smestim	240		2
 smetenim			3
@@ -5700,8 +5700,8 @@ smešim	117		2
 smešnim	606		2
 smeštajnim	337		3
 smeštenim	347		3
-smionim			2
-smirenim	136		2
+smionim			3
+smirenim	136		3
 smirim	489		2
 smirujućim	16		2
 smisaonim	19		2
@@ -5716,29 +5716,29 @@ smotanim	18		2
 smoždenim			2
 smradnim			2
 smrdim	50		2
-smrdljivim	91		2
-smrskanim			2
+smrdljivim	91		3
+smrskanim			3
 smrtnim	767		2
-smrtonosnim	252		3
+smrtonosnim	252		4
 smrvim			2
 smrvljenim			2
 smrznutim	86		2
 smutnim	173		2
 smušenim	16		2
-snalazim	537		2
-snažnijim	317		2
+snalazim	537		3
+snažnijim	317		3
 snažnim	2934		2
 snenim	20		2
 snežnim	656		2
 snimim	734		2
-snimljenim	193		2
+snimljenim	193		3
 snizim			2
-sniženim	307		2
+sniženim	307		3
 snobovskim	19		2
 snosim	250		2
-snošljivijim	15		3
+snošljivijim	15		4
 sobnim	112		2
-socijalističkim	558		2
+socijalističkim	558		3
 socijalnim	4807		4
 sofisticiranim	317		2
 softverskim	710		2
@@ -5755,32 +5755,32 @@ sondažnim	16		2
 sondiranim			2
 sopranskim			2
 sopstvenim	9955		2
-sovjetskim	799		2
+sovjetskim	799		3
 sočnim	180		2
 spahićevim			2
 spalim	80		2
-spaljenim	28		2
+spaljenim	28		3
 spasenim	14		3
-spasilačkim	131		3
+spasilačkim	131		4
 spasim	176		2
 spavaćim	264		2
 spazim	44		2
-spašenim			2
-specifičnim	3650		2
+spašenim			3
+specifičnim	3650		3
 specijalnim	5006		4
 spektakularnim	388		5
 spiralnim	150		2
 spiritističkim	14		2
 splitskim	60		2
 spljoštenim			3
-spojenim	80		2
+spojenim	80		3
 spojim	443		2
 spokojnim	69		2
-spoljašnjim	1172		2
+spoljašnjim	1172		3
 spoljnim	2439		2
 spoljnjim	118		2
-spomenutim	67		2
-spominjanim	11		3
+spomenutim	67		3
+spominjanim	11		4
 spontanim	298		3
 sporednim	639		3
 sporijim	276		3
@@ -5790,9 +5790,9 @@ sportskim	7505		2
 sposobnim	708		3
 spratnim	35		2
 spravljenim	22		2
-spremanim			2
+spremanim			3
 spremim	677		2
-spremljenim	57		2
+spremljenim	57		3
 spremnijim	42		3
 spremnim	499		2
 spretnijim			3
@@ -5804,7 +5804,7 @@ sprženim			2
 spržim	30		2
 spustim	607		2
 sputanim	11		3
-spuštenim	106		2
+spuštenim	106		3
 sramim	44		2
 sramnim	244		2
 sramotim	27		2
@@ -5813,14 +5813,14 @@ sravnim			2
 srazmernim	36		2
 sračunatim	20		2
 srbim			2
-srcolikim	27		3
+srcolikim	27		4
 srdačnijim			4
 srdačnim	134		3
-srditim			2
+srditim			3
 srebrnim	807		3
 sredim	825		2
 središnim			2
-središnjim	226		2
+središnjim	226		3
 srednjim	7098		2
 srednjovekovnim	420		2
 srednjoškolskim	156		2
@@ -5831,7 +5831,7 @@ sremčevim			2
 sreskim	64		2
 srećnijim	276		3
 srećnim	1942		2
-sređenim	58		2
+sređenim	58		3
 srodnijim			3
 srodnim	1788		2
 sročenim			2
@@ -5843,15 +5843,15 @@ srubim			2
 sručim	21		2
 srušenim	72		2
 srušim	103		2
-srčanim	739		2
+srčanim	739		3
 stabilizovanim			2
 stabilnim	899		3
 stajaćim	86		2
 stakićevim			2
 staklastim	26		3
-staklenim	1289		2
+staklenim	1289		3
 stalnim	4329		2
-stambenim	2006		2
+stambenim	2006		3
 stamenim	17		2
 stanarskim	46		2
 standardnim	2124		2
@@ -5865,21 +5865,21 @@ staromodnim	78		4
 starosnim	358		2
 startnim	185		2
 starčevim	16		3
-statističkim	1278		2
-statičkim	146		2
-statusnim	228		2
+statističkim	1278		3
+statičkim	146		3
+statusnim	228		3
 stavim	4707		2
 stavljenim	57		3
 stefanovim			2
-stegnutim			2
+stegnutim			3
 stenovitim	127		2
 stepenastim	58		2
 stepskim	49		2
 sterilnim	186		2
 stevanovim			2
-stečenim	531		2
+stečenim	531		3
 stidim	1185		2
-stidljivim	71		2
+stidljivim	71		3
 stidnim	42		2
 stilizovanim	215		2
 stilskim	483		2
@@ -5896,7 +5896,7 @@ stostrukim			2
 stočarskim	49		3
 stočnim	150		2
 stradalim	370		2
-strahovitim	182		2
+strahovitim	182		3
 stranačkim	1599		2
 stranim	11543		2
 strastvenim	120		3
@@ -5904,7 +5904,7 @@ strateškim	2423		2
 stravičnim	180		2
 strašim	13		2
 strašljivim			2
-strašnijim	48		2
+strašnijim	48		3
 strašnim	928		2
 stražarim	16		2
 stražnjim	40		2
@@ -5919,20 +5919,20 @@ strmim	493		2
 strogim	1464		2
 strožim	70		2
 strpim	61		2
-strpljivim	136		2
-struganim			2
+strpljivim	136		3
+struganim			3
 strujnim	159		2
 strukovnim	475		2
 strukturnim	439		2
 stručnijim	35		3
 stručnim	7079		2
-studenim			2
+studenim			3
 studentskim	1511		2
 studijskim	908		2
 studioznim	30		2
 stupim	224		2
 stučenim			2
-stvaranim	10		2
+stvaranim	10		3
 stvarnijim	17		3
 stvarnim	2639		2
 stvorenim	310		2
@@ -5940,52 +5940,52 @@ stvorim	453		2
 stvrdnutim			2
 subjektivnim	309		2
 subotičkim	480		2
-subotnjim	64		2
-sudanskim			2
-sudarim	14		2
+subotnjim	64		3
+sudanskim			3
+sudarim	14		3
 sudbinskim	118		2
-sudbonosnim	211		2
+sudbonosnim	211		3
 sudijskim	176		2
 sudim	743		2
 sudnjim	15		2
 sudskim	3230		2
 sueckim			2
 suhim	61	J	2
-sujetnim	51		2
+sujetnim	51		3
 sujevernim	20		4
 suknenim	11		2
 sukobim	13		2
-sukobljenim	94		2
+sukobljenim	94		3
 sultanovim			2
 sultanskim	15		2
 suludim	203		3
 sumanutim	110		3
 sumarnim	14		2
 sumiranim			2
-sumnjivim	1368		2
-sumnjičavim	38		3
-sumnjičim			2
+sumnjivim	1368		3
+sumnjičavim	38		4
+sumnjičim			3
 sumornim	138		3
 sumpornim	34		2
 sunitskim	54		2
-sunčanim	546		2
+sunčanim	546		3
 sunčevim	724		2
-suočenim	45		2
+suočenim	45		3
 suočim	221		2
 superiornijim	44		6
 superiornim	242		5
 supernovim			2
-suprotnim	1281		2
-suprotstavim	105		2
+suprotnim	1281		3
+suprotstavim	105		3
 suptilnim	237		3
 surevnjivim			2
 surim	22		2
-surovim	643		2
+surovim	643		3
 surčinskim	31		2
-susednim	2581		2
+susednim	2581		3
 susedskim	50		2
 sustalim			2
-sutrašnjim	141		2
+sutrašnjim	141		3
 suverenim			2
 suvim	1637		2
 suvišnim	297		3
@@ -5993,19 +5993,19 @@ suvljim	18		2
 suvoparnim	48		2
 suvoputnim			2
 suvozemnim	44		2
-suzdržanim			2
+suzdržanim			3
 suzdržim	100		2
 suzim	24		2
 suznim	83		2
-sušenim	35		2
+sušenim	35		3
 sušim	71		2
 sušnim	238		2
 suštim			2
 suštinskim	770		2
 suženim	73		3
 svadbenim	123		2
-svadljivim			2
-svagdašnjim	14		2
+svadljivim			3
+svagdašnjim	14		3
 svakakvim	90		3
 svakim	1768		2
 svakodnevnim	3389		4
@@ -6027,71 +6027,71 @@ svemoćnim	74		3
 sveopštim			2
 svesnijim	18		3
 svesnim	399		2
-svesrdnim	25		2
-svestranim	85		2
+svesrdnim	25		3
+svestranim	85		3
 svetačkim	29		2
 svetim	6171		2
 svetiteljskim			2
 svetlećim	144		2
-svetlijim	153		2
+svetlijim	153		3
 svetlim	788		2
 svetlosnim	946		2
-svetlucavim	146		2
+svetlucavim	146		3
 svetovnim	263		2
 svetskim	12355		2
-sveukupnim	159		2
+sveukupnim	159		3
 svevidećim	41		2
-svezanim			2
-sveznajućim	24		3
-svečanijim	27		3
-svečanim	1183		2
+svezanim			3
+sveznajućim	24		4
+svečanijim	27		4
+svečanim	1183		3
 sveštenim	198		2
 svežim	1587		2
-svilenim	241		2
+svilenim	241		3
 svim	175885		1
 svinjskim	201		2
-svirepijim			3
-svirepim	55		2
+svirepijim			4
+svirepim	55		3
 svlačim	44		2
 svodim	44		2
 svojevrsnim	393		2
 svojim	192034		2
 svojinskim	58		2
-svojstvenim	244		2
+svojstvenim	244		3
 svratim	488		2
 svrgnutim			3
-svrstanim	15		2
-svršenim	128		2
+svrstanim	15		3
+svršenim	128		3
 svršim	256		2
 tabelarnim	50		2
 tabličnim	22		2
-tadanjim	12		2
-tadašnjim	1853		2
+tadanjim	12		3
+tadašnjim	1853		3
 tadićevim			2
-tajanstvenim	302		2
+tajanstvenim	302		3
 tajim	13		2
 tajlandskim	33		3
 tajnijim			3
 tajnim	2540		2
-tajnovitim	41		2
-takmičim	264		2
+tajnovitim	41		3
+takmičim	264		3
 takozvanim	1970		2
 taksenim			2
 taktilnim	52		2
-taktičkim	207		2
+taktičkim	207		3
 takvim	24082		2
-talasastim	78		2
+talasastim	78		3
 talasavim			2
 talasnim	356		3
 talentovanim	783		2
 talijanskim	124		2
-talmudskim			2
-tamnijim	202		2
+talmudskim			3
+tamnijim	202		3
 tamnim	1148		2
-tamnoputim	49		2
+tamnoputim	49		3
 tamošnjim	1267		3
-tananijim			3
-tananim	114		2
+tananijim			4
+tananim	114		3
 tanjim			2
 tankim		M	2
 tankonogim			2
@@ -6109,28 +6109,28 @@ teatarskim	76		2
 teatralnim	46		4
 teglim	39		2
 tegobnim	42		3
-tehničkim	5221		2
-tehnološkim	2550		2
+tehničkim	5221		3
+tehnološkim	2550		3
 teksaškim	14		2
 tekstilnim	136		2
 tekstološkim			2
 tektonskim	88		2
 tekućim	1324		2
 telefonskim	1211		2
-telegrafskim	23		2
+telegrafskim	23		3
 teleprinterskim			2
 telesnim	1252		3
 televizijskim	1367		2
-telećim	25		2
+telećim	25		3
 telečkim			2
-tematskim	548		2
+tematskim	548		3
 temeljnim	601		2
-temperamentnim	28		2
+temperamentnim	28		3
 tenderskim	85		2
-teniskim	473		2
-tenkovskim	42		2
-teološkim	210		2
-teoretskim	222		2
+teniskim	473		3
+tenkovskim	42		3
+teološkim	210		3
+teoretskim	222		3
 teorijskim	1021		2
 terasastim	15		2
 terenskim	491		2
@@ -6140,13 +6140,13 @@ teritorijalnim	515		2
 termalnim	281		2
 terminskim	56		2
 termičkim	179		2
-terorističkim	737		2
+terorističkim	737		3
 terzićevim			2
-tesanim	14		2
+tesanim	14		3
 tesarskim			2
 teskobnim	26		2
 tesnim	323		2
-tetoviranim			2
+tetoviranim			3
 tetošim			2
 tezgarim			2
 tečajnim			2
@@ -6165,10 +6165,10 @@ timočkim	53		2
 timskim	351		2
 tinejdžerskim	244		2
 tipiziranim	10		2
-tipičnim	633		2
-tipološkim	40		2
+tipičnim	633		3
+tipološkim	40		3
 tipskim	99		2
-tiranskim	33		2
+tiranskim	33		3
 tiražnim	36		2
 tirolskim	20		2
 titularnim			2
@@ -6178,65 +6178,65 @@ tkanim	23		2
 tmastim			2
 tmurnim	71		2
 toaletnim	61		2
-tobožnjim	151		2
+tobožnjim	151		3
 toksikološkim	29		2
 toksičnim	242		2
-tolikim	1280		2
+tolikim	1280		3
 tonskim	102		2
 topim	66		2
 toplijim	195		3
 toplim	2555		2
 topličkim	22		2
-topljenim			2
+topljenim			3
 toplotnim	247		2
 topolskim			2
 toponim	300		2
 topovskim	124		2
-torlačkim			2
+torlačkim			3
 totalitarnim	305		5
 totalnim	285		3
 tovarim	21		2
 tovarnim	70		2
 točim	36		2
 tradicionalnim	3803		6
-tragičnim	723		2
+tragičnim	723		3
 trajnim	737		2
 trakijskim			2
 traljavim	18		3
 trampim	11		2
-transportnim	400		2
+transportnim	400		3
 tranzitnim	122		2
 trapavim	32		3
 tratim			2
-traumatičnim	74		2
-travnatim	154		2
+traumatičnim	74		3
+travnatim	154		3
 travnim			2
 traćim	35		2
 tračarim			2
 traženim	311		2
 tražim	8814		2
 trbušastim			2
-trbušnim	83		2
-trenerskim	216		2
+trbušnim	83		3
+trenerskim	216		3
 trenutnim	2442		3
-treperavim	29		2
+treperavim	29		3
 treperim	27		2
 treptim			2
-tretiranim	29		2
+tretiranim	29		3
 treznim	30		2
 trezvenim	54		3
 trećim	2480		2
 trešnjevim			2
 trešnjinim			2
 treštećim			2
-trgovačkim	826		3
-trgovinskim	1469		3
+trgovačkim	826		4
+trgovinskim	1469		4
 tridesetim	471		2
 trivijalnim	183		4
 trkaćim			2
 trkačkim	340		2
 trnovim	34		2
-trnovitim	75		3
+trnovitim	75		4
 trocevnim			2
 trodelnim	37		3
 trodnevnim	76		2
@@ -6244,14 +6244,14 @@ troduplim			2
 trofejnim	60		2
 trojakim			3
 tromim	62		2
-tronožnim			2
+tronožnim			3
 tropskim	694		2
-trostrukim	187		2
+trostrukim	187		3
 trougaonim			2
 tročlanim	43		2
 trošim	1100		2
 trošnim	67		2
-trpeljivim			3
+trpeljivim			4
 trpezarijskim	85		2
 trpim	876		2
 trubim	34		2
@@ -6274,7 +6274,7 @@ tumornim			2
 tupavim	45		3
 tupim	429		2
 turim	111		2
-turističkim	2791		2
+turističkim	2791		3
 turobnijim			4
 turobnim	39		3
 turskim	2298		2
@@ -6284,9 +6284,9 @@ tučanim			2
 tučonosnim			2
 tuđim	3274		2
 tuđinskim	61		2
-tuženim	150		2
+tuženim	150		3
 tužim	439		2
-tužnijim			2
+tužnijim			3
 tužnim	506		2
 tvarnim			2
 tvojim	1387		2
@@ -6298,49 +6298,49 @@ tvrdim	7387		2
 tvrdoglavim	82		2
 tvrđim	62		2
 ubacim	1524		2
-ubačenim	39		2
+ubačenim	39		3
 ubedim	655		2
 ubedljivim	430		2
 ubijenim	365		2
 ubilačkim	39		2
 ubistvenim			2
 ubitačnim	66		4
-ublaženim			2
+ublaženim			3
 ublažim	113		2
 ubodenim			2
 ubodnim	15		2
 ubogim	93		3
-ubojitim	72		3
+ubojitim	72		4
 ubrojim	21		2
 ubrzanijim			2
-ubrzanim	229		2
+ubrzanim	229		3
 ucrtanim	17		2
 udadbenim			2
 udaljenijim	72		4
 udaljenim	1265		3
 udaljim	100		2
-udarenim			3
-udarim	365		2
+udarenim			4
+udarim	365		3
 udarnim	511		2
-udatim			2
+udatim			3
 udavim	91		2
 udbaškim	21		2
 udelim	29		2
 udesim	14		2
 udešenim			2
-udisanim			3
+udisanim			4
 udobnijim	151		4
 udobnim	535		3
 udobrovoljim			2
 udomim	33		2
 udostojim	37		2
 udovoljim	76		2
-udruženim	196		2
+udruženim	196		3
 udružim	22		2
 udubim	49		2
 udubljenim	17		2
 udvojenim	45		2
-udvostručim			2
+udvostručim			3
 udžbeničkim	21		2
 ugaonim	109		2
 ugarskim	212		2
@@ -6348,7 +6348,7 @@ ugasim	460		2
 ugasitim			2
 ugaslim			2
 ugazim	16		2
-ugašenim	52		2
+ugašenim	52		3
 uglastim	55		2
 uglavim	51		2
 uglačanim			2
@@ -6363,63 +6363,63 @@ ugodnim	186		3
 ugojim	116		2
 ugostim	61		2
 ugostiteljskim	816		2
-ugovorenim	94		2
+ugovorenim	94		3
 ugovorim	40		2
 ugovornim	269		2
-ugrabim	81		2
+ugrabim	81		3
 ugradim	200		2
 ugraviranim	100		2
-ugrađenim	483		2
+ugrađenim	483		3
 ugrebenim			2
-ugrejanim			3
+ugrejanim			4
 ugrozim	70		2
-ugroženim	1404		2
-ugušenim			2
+ugroženim	1404		3
+ugušenim			3
 ugušim	49		2
-uhapsim	25		2
-uhapšenim	153		3
+uhapsim	25		3
+uhapšenim	153		4
 uhodanim	78		2
 uhodim	14		2
-uhvatljivim			2
-uhvaćenim	37		3
+uhvatljivim			3
+uhvaćenim	37		4
 uigranim	14		2
 ujedinim	20		2
-ujedinjenim	275		2
-ukazanim			2
+ujedinjenim	275		3
+ukazanim			3
 uklesanim	35		2
 ukletim	34		2
 uključenim	750		2
 uključim	1214		2
 uklonim	240		2
-uklonjenim	10		2
+uklonjenim	10		3
 uklopim	265		2
 uklopljenim	40		2
-ukopanim	19		2
-ukorenjenim	41		2
+ukopanim	19		3
+ukorenjenim	41		3
 ukorim			2
 ukovanim			2
-ukočenim	33		2
+ukočenim	33		3
 ukočim	31		2
-ukradenim	113		3
+ukradenim	113		4
 ukrasim	25		2
 ukrasnim	313		3
-ukrašenim	264		2
+ukrašenim	264		3
 ukrotim	24		2
 ukrstim	18		2
-ukrućenim	12		2
-ukrštenim	26		2
-ukupnim	2542		2
-ukusnim	356		2
+ukrućenim	12		3
+ukrštenim	26		3
+ukupnim	2542		3
+ukusnim	356		3
 ukuvanim			2
-ulazim	3258		2
+ulazim	3258		3
 ulaznim	775		2
-ulepšanim			2
+ulepšanim			3
 uletim	129		2
 uličnim	819		3
 uljanim	157		2
 uljastim			2
 ulovim	114		2
-uloženim	116		2
+uloženim	116		3
 uložim	323		2
 ultralakim	15		2
 ultraljubičastim	88		2
@@ -6427,21 +6427,21 @@ ulupanim			2
 umanjenim	38		2
 umanjim	160		2
 umašćenim			2
-umerenijim	43		4
-umerenim	912		3
+umerenijim	43		5
+umerenim	912		4
 umesim	27		2
 umesnim			2
 umetnikovim			2
-umetničkim	3385		3
-umetnutim	10		3
+umetničkim	3385		4
+umetnutim	10		4
 umešanim	28		2
 umiljatim	41		2
 umilnim	91		2
 umirim	105		2
 umirujućim	112		2
 umirućim	37		2
-umivenim	12		3
-umišljenim	61		3
+umivenim	12		4
+umišljenim	61		4
 umnim	208		2
 umnoženim			2
 umnožim	10		2
@@ -6457,7 +6457,7 @@ umrtvim			2
 umudrim			2
 umućenim	61		2
 unajmim	22		2
-unajmljenim	10		2
+unajmljenim	10		3
 unakazim	10		2
 unakrsnim	92		2
 unapredim	157		2
@@ -6471,40 +6471,40 @@ unikatnim	214		2
 univerzalnim	824		5
 univerzitetskim	646		2
 uništenim	177		2
-uništim	174		2
-uništivim			2
-uniženim			2
+uništim	174		3
+uništivim			3
+uniženim			3
 unjkavim			2
 unosim	241		2
-unosnim	113		2
+unosnim	113		3
 unovčim	32		2
-unutarnjim	205		3
-unutrašnjim	4209		3
+unutarnjim	205		4
+unutrašnjim	4209		4
 uobičajenim	1631		3
 uobličenim	25		2
-uobraženim	23		2
-uokvirenim	16		2
+uobraženim	23		3
+uokvirenim	16		3
 uopštenim	102		2
 uozbiljim	68		2
-uočenim	47		2
+uočenim	47		3
 uočim	201		2
-uočljivim	128		2
-upadljivim	219		2
+uočljivim	128		3
+upadljivim	219		3
 upadnim			2
 upalim	751		2
-upaljenim	80		2
+upaljenim	80		3
 upamtim	69		2
 uparađenim			2
 uparim	60		2
 uperenim	115		2
 uperim	27		2
-upijenim			3
-upisanim	145		2
+upijenim			4
+upisanim	145		3
 upisnim	45		2
 upitnim	75		2
 uplatim	596		2
 uplašenim	100		2
-uplašim	175		2
+uplašim	175		3
 upletenim	26		2
 upljačkanim			2
 upodobim			2
@@ -6518,51 +6518,51 @@ upotpunim	50		2
 upotrebim	943		2
 upotrebljivim	134		2
 upotrebnim	63		2
-upozorenim			2
+upozorenim			3
 upozorim	745		2
 upravim	10		2
 upravljačkim	379		2
 upravnim	2055		2
 upražnjenim	28		2
 upregnutim			2
-upriličim			2
+upriličim			3
 uprizorim			2
-uprljanim			2
+uprljanim			3
 upropastim	70		2
 uprostim	75		2
 uprtim	57		2
 upustim	185		2
 uputim	891		2
 uputnim	31		2
-upućenim	433		2
-upućivanim			2
+upućenim	433		3
+upućivanim			3
 uradim	6682		2
 uramim	13		2
 uravnoteženim	108		3
 urazumim	25		2
-urađenim	288		2
+urađenim	288		3
 urbanim	1624		3
 urbanističkim	907		2
 uredim	95		2
 urednim	316		3
-uredničkim	92		3
-urezanim	32		3
-uređenim	1166		2
+uredničkim	92		4
+urezanim	32		4
+uređenim	1166		3
 urgentnim	156		2
 urinarnim	67		2
 urnebesnim	56		2
 uronim	25		2
-urođenim	309		3
+urođenim	309		4
 urođeničkim	13		2
 uroševim			2
-uručenim	11		2
+uručenim	11		3
 uručim	99		2
 usadim	27		2
 usamljenim	301		3
 usavršim	109		2
-usađenim	34		2
+usađenim	34		3
 uselim	58		2
-useljenim			2
+useljenim			3
 ushićenim	30		3
 usijanim	181		2
 usiljenim	56		2
@@ -6580,29 +6580,29 @@ uslišim			2
 uslovljenim	74		2
 uslovnim	81		2
 uslužim	11		2
-uslužnim	526		2
+uslužnim	526		3
 usmenim	624		3
-usmerenim	419		3
-usmerim	164		2
+usmerenim	419		4
+usmerim	164		3
 usmrdelim			2
 usmrtim			2
 usnim	38		2
 usnulim	37		2
 uspaljenim			2
 uspaničim	12		2
-uspavanim	23		2
+uspavanim	23		3
 uspavljujućim			2
 uspelim	80		2
-uspešnijim	180		3
-uspešnim	2839		2
+uspešnijim	180		4
+uspešnim	2839		3
 uspokojim			2
 usporenim	143		2
 usporim	114		2
-uspostavim	225		2
+uspostavim	225		3
 uspravim	23		2
 uspravnim	126		3
 usprotivim	34		2
-usputnim	334		2
+usputnim	334		3
 usrdnim	38		2
 usredsredim	68		2
 usrećim	47		2
@@ -6614,9 +6614,9 @@ ustavnim	2696		3
 ustaškim	403		2
 ustrelim			2
 ustreptalim			2
-ustrojenim	18		2
+ustrojenim	18		3
 ustupim	61		2
-ustupljenim	10		2
+ustupljenim	10		3
 ustvrdim	61		2
 usudim	115		2
 usvojenim	1037		2
@@ -6627,8 +6627,8 @@ utanjenim			2
 utančanim			2
 utemeljenim	133		2
 utemeljim			2
-utešim	164		2
-utešnim	48		2
+utešim	164		3
+utešnim	48		3
 uticajnim	443		2
 utisnutim	15		2
 utkanim	19		2
@@ -6636,50 +6636,50 @@ utolim	20		2
 utopijskim	65		2
 utopim	44		2
 utoplim			2
-utopljenim			2
-utovarim			2
-utrostručim			2
-utrošenim	60		2
+utopljenim			3
+utovarim			3
+utrostručim			3
+utrošenim	60		3
 utrošim	60		2
 utrpanim			2
 utrčim	18		2
 utuvim	15		2
-utučenim			2
+utučenim			3
 utvarnim			2
 utvrdim	345		2
-utvrđenim	1007		2
+utvrđenim	1007		3
 uvalim	84		2
 uvaljanim			2
 uvatim	29		2
-uvažavanim			2
+uvažavanim			3
 uvaženim	284		3
 uvedenim	70		2
 uvelim			2
-uveličanim			2
-uverenim	21		3
-uverim	700		2
-uverljivim	124		2
-uvezanim	10		2
-uvezenim	107		2
-uvećanim	64		2
+uveličanim			3
+uverenim	21		4
+uverim	700		3
+uverljivim	124		3
+uvezanim	10		3
+uvezenim	107		3
+uvećanim	64		3
 uvežbanim	58		2
-uvidim	115		2
-uvijenim	46		3
+uvidim	115		3
+uvijenim	46		4
 uvirućim			2
 uvlačim	108		2
 uvodim	159		2
 uvodnim	774		2
 uvozim	62		2
-uvoznim	275		2
+uvoznim	275		3
 uvratim			2
 uvredim	518		2
-uvredljivim	288		2
-uvređenim	184		2
+uvredljivim	288		3
+uvređenim	184		3
 uvreženim	74		2
 uvrnutim	13		2
 uvrstim	55		2
-uvrštenim			2
-uvučenim	24		2
+uvrštenim			3
+uvučenim	24		3
 uzajamnim	346		4
 uzajmim	13		2
 uzaludnim	150		4
@@ -6687,17 +6687,17 @@ uzanim	197		2
 uzastopnim	157		2
 uzavrelim	48		2
 uzbudim	48		2
-uzbudljivijim	68		3
-uzbudljivim	482		2
+uzbudljivijim	68		4
+uzbudljivim	482		3
 uzbunim			2
-uzburkanim	19		3
-uzbuđenim	38		2
+uzburkanim	19		4
+uzbuđenim	38		3
 uzdignutim	29		2
 uzdrhtalim	27		2
 uzdrmanim	10		2
 uzdržanim	90		2
 uzdržim	94		2
-uzdržljivim			2
+uzdržljivim			3
 uzdužnim	88		2
 uzetim	179		3
 uzgajim			2
@@ -6709,16 +6709,16 @@ uzlaznim	65		2
 uzletim	10		2
 uzmuvanim			2
 uznemiravajućim	19		2
-uznemirenim	31		2
+uznemirenim	31		3
 uznemirim	42		2
 uznemirujućim	61		2
 uznosim	14		2
 uzornim	79		2
 uzrasnim	227		2
-uzrokovanim	84		4
-uzročnim	21		2
+uzrokovanim	84		5
+uzročnim	21		3
 uzrujanim			2
-uzvišenim	138		2
+uzvišenim	138		3
 uzvratim	201		2
 ućutim	38		2
 učenikovim			2
@@ -6727,14 +6727,14 @@ učeničkim	169		4
 učestalim	285		2
 učim	3007		2
 učinim	1826		2
-učinjenim	240		2
+učinjenim	240		3
 učiteljevim			2
-učiteljskim	81		3
+učiteljskim	81		4
 učlanim	152		2
 učmalim	13		2
-učtivim	28		2
+učtivim	28		3
 učvrstim	26		2
-učvršćenim	12		2
+učvršćenim	12		3
 ušećerenim	11		2
 ušivenim			2
 ušnim	44		2
@@ -6750,7 +6750,7 @@ užičkim	209		2
 užurbanim	88		2
 vabim			2
 vadim	785		2
-vaganim			2
+vaganim			3
 vaginalnim	160		2
 vagonskim			2
 vajarskim	47		2
@@ -6759,7 +6759,7 @@ validnim	189		2
 valjanim	210		2
 valjevskim	252		2
 valjkastim	20		2
-valovitim	41		2
+valovitim	41		3
 valutnim	266		2
 vampirskim	36		2
 vanbračnim	92		2
@@ -6770,12 +6770,12 @@ vanpravnim			2
 vanrednim	2430		2
 vanzemaljskim	223		2
 vapim	38		2
-varenim			2
+varenim			3
 varim	47		2
 variranim			2
-varljivim	63		2
+varljivim	63		3
 varoškim			2
-varvarskim	175		2
+varvarskim	175		3
 varšavskim	40		2
 vascelim			2
 vaseljenskim	124		2
@@ -6799,7 +6799,7 @@ vašim	3862		2
 važenim			2
 važećim	3075		2
 važim	42		2
-važnijim	533		2
+važnijim	533		3
 važnim	5742		2
 vedrijim	65		3
 vedrim	890		2
@@ -6809,15 +6809,15 @@ velelepnim	132		2
 velečasnim			2
 velikačkim			2
 velikaškim	11		2
-velikim	50197		2
-velikodušnim	79		2
+velikim	50197		3
+velikodušnim	79		3
 velim	760		2
-veličanstvenim	350		2
+veličanstvenim	350		3
 velškim	22		2
-veneričnim			2
+veneričnim			3
 venskim	72		2
 ventilacionim	94		2
-venčanim	15		2
+venčanim	15		3
 verbalnim	388		2
 vereničkim	28		4
 verim			2
@@ -6836,23 +6836,23 @@ veslačkim	47		2
 vesninim			2
 veterinarskim	330		2
 vetrim			2
-vetrovitim	44		2
+vetrovitim	44		3
 vezanim	5115		2
-vezenim	54		2
+vezenim	54		3
 vezirskim			2
 vezivnim	86		2
 većim	16036		2
 većinskim	1092		2
-večerašnjim	108		2
+večerašnjim	108		3
 večernjim	4280		2
-večitim	700		2
+večitim	700		3
 večnim	633		2
 veštačkim	1426		2
 veštijim	19		3
 veštim	520		2
 vidim	72182		2
-vidljivijim	120		3
-vidljivim	1048		2
+vidljivijim	120		4
+vidljivim	1048		3
 vidnijim			2
 vidnim	310		2
 vidovitim	30		2
@@ -6862,7 +6862,7 @@ vijetnamskim	44		4
 vijugavim	101		2
 vikinškim	11		2
 vilim			2
-vilinim			2
+vilinim			3
 vilinskim	32		2
 vinskim	442		2
 vinčanskim	27		2
@@ -6873,7 +6873,7 @@ virtuelnim	730		2
 visećim	152		2
 visim	205		2
 visinskim	116		2
-visokim	14596		2
+visokim	14596		3
 vitalnijim	16		4
 vitalnim	446		3
 viteškim	139		2
@@ -6890,17 +6890,17 @@ višečlanim	54		2
 višim	3502		2
 višnjim	31		2
 višnjićevim			2
-vladajućim	703		3
+vladajućim	703		4
 vladarevim			2
 vladarskim	80		2
 vladikinim			2
-vladinim	448		2
+vladinim	448		3
 vladičinim			2
 vlasničkim	252		2
 vlastitim		M	2
 vlaškim	133		2
 vlažnim	1007		2
-vodenim	1478		2
+vodenim	1478		3
 vodećim	3670		2
 vodim	3499		2
 vodičkim			2
@@ -6914,36 +6914,36 @@ vojničkim	374		2
 vojvodskim			2
 vokalnim	172		2
 volim	38618		2
-voljenim	356		2
-voljnijim			2
+voljenim	356		3
+voljnijim			3
 voljnim	85		2
-volovskim	136		2
+volovskim	136		3
 volujskim	22		2
 volšebnim	47		2
 vozačkim	140		2
 vozim	4947		2
 voznim	434		2
 voćnim	540		2
-vođenim	189		2
-voštanim	89		2
+vođenim	189		3
+voštanim	89		3
 voždovim			2
 vranjskim	477		2
 vrapčijim			2
 vratim	7440		2
-vraćenim	21		2
+vraćenim	21		3
 vračarskim	90		2
 vražijim			2
 vražjim	12		2
 vrbinim			2
 vrbovim			2
 vredim	263		2
-vrednijim	133		2
+vrednijim	133		3
 vrednim	2141		2
 vrednosnim	441		2
 vrednovanim			4
 vrelijim			3
 vrelim	773		2
-vremenitim			2
+vremenitim			3
 vremenskim	3946		3
 vremešnim	40		3
 vretenastim	29		2
@@ -6954,51 +6954,51 @@ vrletnim	24		3
 vrlim	78		2
 vrsnim	167		2
 vrtim	329		2
-vrtoglavim	107		3
+vrtoglavim	107		4
 vrućim	493		2
 vrzinim			2
 vršačkim	162		2
-vršenim	34		2
+vršenim	34		3
 vršim	321		2
 vukašinovim			2
 vukovim	152		2
 vulgarnim	127		2
 vulkanskim	167		2
-vunenim	140		2
-vučenim	10		2
+vunenim	140		3
+vučenim	10		3
 vučićevim	94		2
 vučjim	46		2
 vučnim	33		2
 zabacim	37		2
-zabavim	129		2
-zabavnijim	121		3
-zabavnim	966		2
+zabavim	129		3
+zabavnijim	121		4
+zabavnim	966		3
 zabačenim	261		2
 zabašurim			2
 zabeležim	177		2
-zabijenim	20		3
+zabijenim	20		4
 zabilježim	12	J	2
 zabitim			2
 zabludelim	27		2
-zabodenim			2
-zaboravim	2873		2
-zaboravljenim	199		3
+zabodenim			3
+zaboravim	2873		3
+zaboravljenim	199		4
 zabranim	115		2
-zabranjenim	303		2
-zabrinutim	152		3
+zabranjenim	303		3
+zabrinutim	152		4
 zabunim			2
 zacepljenim			2
-zacrtanim	46		3
-zadanim			2
+zacrtanim	46		4
+zadanim			3
 zadarskim	18		3
-zadatim	67		2
+zadatim	67		3
 zadavim	38		2
 zadebljalim		M	2
 zadenutim			2
-zadesim	24		2
+zadesim	24		3
 zadihanim			2
 zadivim	22		2
-zadivljenim	22		2
+zadivljenim	22		3
 zadivljujućim	126		2
 zadnjim	2262		2
 zadocnim			2
@@ -7008,17 +7008,17 @@ zadremalim			2
 zadrhtim	29		2
 zadriglim			2
 zadružnim	151		2
-zadržanim	66		2
+zadržanim	66		3
 zadržim	718		2
 zaduženim	592		2
 zadužim	66		2
 zagasim			2
 zagasitim	13		2
 zagazim	16		2
-zagađenim	31		3
+zagađenim	31		4
 zagladim			2
 zaglavim	85		2
-zaglavljenim	21		2
+zaglavljenim	21		3
 zaglušenim			2
 zagnjurim	19		2
 zagnojenim			2
@@ -7028,23 +7028,23 @@ zagorskim	21		2
 zagrcnutim			2
 zagrejanim	120		2
 zagriženim	20		2
-zagrlim	313		2
-zagrljenim			3
+zagrlim	313		3
+zagrljenim			4
 zagrobnim	19		2
 zagudim			2
 zagušenim	17		2
 zagušljivim	75		2
-zahtevanim	31		2
+zahtevanim	31		3
 zahtevnim	685		2
 zahvalim	3742		2
 zahvalnim	53		2
-zahvatim	26		2
-zahvaćenim	112		3
+zahvatim	26		3
+zahvaćenim	112		4
 zaim			2
 zainatim	22		2
 zainteresovanim	3896		2
 zajapurenim			2
-zajedljivim	34		2
+zajedljivim	34		3
 zajedničkim	8403		4
 zajemčenim	12		2
 zakamenim			2
@@ -7058,16 +7058,16 @@ zakićenim			2
 zaklanim			2
 zakletim	29		2
 zaključanim	33		2
-zaključenim	275		2
+zaključenim	275		3
 zaključim	1402		2
-zaključnim	58		2
+zaključnim	58		3
 zaklonim	14		2
-zaklonjenim	14		2
+zaklonjenim	14		3
 zaklopim	10		2
 zakmečim			2
-zakonitim	225		3
-zakonskim	4910		2
-zakopanim	13		2
+zakonitim	225		4
+zakonskim	4910		3
+zakopanim	13		3
 zakopčanim	13		2
 zakoraćim			2
 zakoračim	64		2
@@ -7082,7 +7082,7 @@ zakulisnim	111		2
 zakupim	35		2
 zakuvanim			2
 zalazećim			2
-zalazim	270		2
+zalazim	270		3
 zaledim	19		2
 zalepim	114		2
 zalepljenim	22		2
@@ -7092,11 +7092,11 @@ zaleđenim	30		2
 zalim			2
 zaljubim	236		2
 zaljubljenim	99		2
-založenim			2
+založenim			3
 založim	47		2
 založnim	80		2
 zaludnim	42		2
-zalupim	21		2
+zalupim	21		3
 zalutalim	41		2
 zamagljenim	19		2
 zamazanim			2
@@ -7104,9 +7104,9 @@ zamašnijim			4
 zamašnim	21		3
 zamenim	911		2
 zameničkim			2
-zamerim	333		2
+zamerim	333		3
 zamirisanim			2
-zamislim	3268		2
+zamislim	3268		3
 zamišljenim	194		2
 zamolim	1201		2
 zamornim	37		2
@@ -7116,18 +7116,18 @@ zamračenim			2
 zamračim	13		2
 zamrzim	13		2
 zamrzlim			2
-zamrznutim	15		3
+zamrznutim	15		4
 zamršenim	35		2
 zamuljenim			2
 zamutim			2
-zamućenim	14		2
+zamućenim	14		3
 zanatskim	341		2
 zanemarim	132		2
 zanemelim			2
 zanesenijim			2
 zanesenim			2
-zanimljivijim	450		3
-zanimljivim	2660		2
+zanimljivijim	450		4
+zanimljivim	2660		3
 zanjihanim			2
 zanosim	96		2
 zanosnim	95		2
@@ -7144,31 +7144,31 @@ zapadnim	5098		3
 zapadnjačkim	146		4
 zapadnoevropskim	437		2
 zapalim	409		2
-zapaljenim	15		2
+zapaljenim	15		3
 zapaljivim	168		2
 zapamtim	253		2
 zapamćenim	14		3
-zapanjenim	13		2
+zapanjenim	13		3
 zapanjim	19		2
 zapanjujućim	87		2
 zapaprim			2
-zapazim	77		2
-zapaženim	48		3
+zapazim	77		3
+zapaženim	48		4
 zapetim	10		2
 zapetljanim			2
 zapečatim	13		2
-zapečenim			3
-zapisanim	44		2
-zaplašenim			3
-zaplašim			2
+zapečenim			4
+zapisanim	44		3
+zaplašenim			4
+zaplašim			3
 zaplenim			2
 zaplenjenim	15		2
 zapletenim			2
-zaposlenim	1476		3
+zaposlenim	1476		4
 zaposlim	631		2
-zapostavim	54		2
-zapostavljenim	82		3
-zapovedim			2
+zapostavim	54		3
+zapostavljenim	82		4
+zapovedim			3
 započetim	56		2
 zaprašim			2
 zapretanim			2
@@ -7177,14 +7177,14 @@ zaprežnim	110		2
 zaprosim	27		2
 zaptivenim			2
 zaputim	48		2
-zapušenim	14		3
-zapušim	36		2
-zapuštenim	67		2
+zapušenim	14		4
+zapušim	36		3
+zapuštenim	67		3
 zaradim	938		2
 zarazim	43		2
 zaraznim	183		2
 zaraćenim	133		2
-zarađenim	62		2
+zarađenim	62		3
 zaraženim	464		2
 zarivenim			2
 zarobim	19		2
@@ -7193,20 +7193,20 @@ zaronim	68		2
 zaručim			2
 zarđalim	103		2
 zasadim	43		2
-zasađenim	14		2
-zasebnim	401		2
+zasađenim	14		3
+zasebnim	401		3
 zasejanim	32		2
-zasenim			2
-zasenjenim			3
+zasenim			3
+zasenjenim			4
 zasečenim			2
-zasitim	34		2
-zasićenim	66		3
+zasitim	34		3
+zasićenim	66		4
 zaskočim	13		2
 zasladim	24		2
 zaslađenim	13		2
 zasluženim	75		2
 zaslužim	93		2
-zaslužnim	555		2
+zaslužnim	555		3
 zasnovanim	686		2
 zaspalim			2
 zaspim	683		2
@@ -7214,8 +7214,8 @@ zastakljenim			2
 zastalim			2
 zastarelim	446		2
 zastidim	10		2
-zastrašim			2
-zastrašujućim	257		3
+zastrašim			3
+zastrašujućim	257		4
 zastrepim			2
 zasukanim			2
 zasvođenim			2
@@ -7223,67 +7223,67 @@ zatajim			2
 zataknutim			2
 zatamnjenim	159		2
 zategnutim			2
-zatečenim	72		3
+zatečenim	72		4
 zatim	118291		2
-zatočenim	29		2
-zatraženim			2
+zatočenim	29		3
+zatraženim			3
 zatražim	305		2
-zatrovanim	12		2
+zatrovanim	12		3
 zatrpanim	13		2
 zatrubim			2
 zatrudnim	74		2
 zatupastim			2
-zatvorenim	2218		3
+zatvorenim	2218		4
 zatvorim	654		2
 zatvorskim	315		2
 zaumnim			2
 zaustim	12		2
 zauzetim	30		2
-zavadim			2
+zavadim			3
 zavalim	64		2
 zavaljenim			2
 zavapim	12		2
-zavađenim	24		3
-zavedenim	35		3
+zavađenim	24		4
+zavedenim	35		4
 zavejanim	122		2
 zavetnim	30		2
-zavezanim			2
+zavezanim			3
 zavidim			2
 zavidljivim			2
-zavidnim	299		2
+zavidnim	299		3
 zavinutim			2
 zavirim	134		2
-zavisim	111		2
-zavisnim	389		2
+zavisim	111		3
+zavisnim	389		3
 zavičajnim	142		2
 zavlačim	58		2
 zavodim	40		2
-zavodljivim	149		2
-zavojitim	18		3
+zavodljivim	149		3
+zavojitim	18		4
 zavolim	163		2
 zavrnutim			2
 zavrtim	30		2
-završenim	1134		3
+završenim	1134		4
 završim	3355		2
 završnim	1346		2
-zavučenim			2
+zavučenim			3
 zazidanim			2
 zazvonim			2
 zaćutim	38		2
 začaranim	32		3
 začepim	22		2
 začinim	35		2
-začinjenim	29		2
+začinjenim	29		3
 začinskim	165		2
-začudim	48		2
-začuđenim	18		3
-zašiljenim	11		2
+začudim	48		3
+začuđenim	18		4
+zašiljenim	11		3
 zašivenim			2
 zašrafim			2
 zaštitim	505		2
-zaštitnim	1525		2
-zaštitničkim	24		3
-zaštićenim	619		2
+zaštitnim	1525		3
+zaštitničkim	24		4
+zaštićenim	619		3
 zažalim	44		2
 zažarenim			2
 zaželim	65		2
@@ -7297,19 +7297,19 @@ zborim	82		2
 zbornim	11		2
 zbrkanim	13		2
 zbunim	96		2
-zbunjenim	90		2
+zbunjenim	90		3
 zbunjujućim	47		2
 zdepastim	13		3
 zdravijim	276		3
 zdravim	2760		2
 zdravstvenim	5592		2
 zdrobim			2
-združenim	18		2
+združenim	18		3
 zdušnim	10		2
 zelenaškim	97		2
-zelenijim	33		3
-zelenim	2911		2
-zelenkastim	55		2
+zelenijim	33		4
+zelenim	2911		3
+zelenkastim	55		3
 zemaljskim	705		2
 zemljanim	365		2
 zemljinim			2
@@ -7330,35 +7330,35 @@ zgrčenim	14		2
 zgulim			2
 zgurim			2
 zgusnutim			3
-zidanim	27		2
+zidanim	27		3
 zidnim	268		2
 zimskim	2802		2
 zlatastim	28		2
 zlatnim	2858		2
 zlatotkanim			2
-zlatoustim	15		2
+zlatoustim	15		3
 zlaćanim	19		2
 zlim	1057		1
 zlobnim	81		2
 zlodušnim			2
-zloglasnim	78		2
-zlokobnim	65		2
-zlopatim	21		2
-zloslutnim	31		2
+zloglasnim	78		3
+zlokobnim	65		3
+zlopatim	21		3
+zloslutnim	31		3
 zlosrećnim			2
 zlotvornim			2
 zloupotrebim	42		2
 zlovoljnim	13		2
-zločestim	24		2
+zločestim	24		3
 zločinačkim	189		2
-zluradim	70		2
+zluradim	70		3
 zmajevim	83		3
-zmijinim			2
+zmijinim			3
 zmijskim	61		2
-znakovitim	15		2
+znakovitim	15		3
 znakovnim	31		2
 znalačkim	38		2
-znamenitim	295		2
+znamenitim	295		3
 znanim	251		2
 znatiželjnim	87		4
 znatnijim	28		3
@@ -7369,23 +7369,23 @@ značim	65		2
 znojavim			2
 znojim	127		2
 znojnim	20		2
-zoološkim	165		2
+zoološkim	165		3
 zornim			2
 zračim	49		2
 zračnim	58		2
 zrelijim	167		3
 zrelim	767		2
-zrnastim	22		2
+zrnastim	22		3
 zubarskim	22		2
 zubnim	137		2
 zujim	16		2
 zupčastim	32		2
 zurim	107		2
 zvanim	422		2
-zvaničnim	4191		2
+zvaničnim	4191		3
 zveckavim			2
 zverskim	38		2
-zvezdanim	321		2
+zvezdanim	321		3
 zvezdastim	26		2
 zviždim	33		2
 zvonastim	17		2
@@ -7399,9 +7399,9 @@ zvučnim	798		2
 ćerim			2
 ćesarevim			2
 ćilim	364		2
-ćiriličkim	106		2
-ćiriličnim	520		2
-ćirilskim	43		2
+ćiriličkim	106		3
+ćiriličnim	520		3
+ćirilskim	43		3
 ćoravim			2
 ćosićevim			2
 ćoškastim			2
@@ -7410,7 +7410,7 @@ zvučnim	798		2
 ćutim	1269		2
 ćutljivim	29		2
 čajnim	35		2
-čakavskim	23		2
+čakavskim	23		3
 čamim	18		2
 čamovim			2
 čarobnim	449		3
@@ -7427,7 +7427,7 @@ zvučnim	798		2
 čelnim	438		2
 čeonim	69		2
 čestim	1599		2
-čestitim	154		2
+čestitim	154		3
 četničkim	257		2
 četrdesetim	338		2
 četvrtastim	100		2
@@ -7442,19 +7442,19 @@ zvučnim	798		2
 čileanskim	64		2
 čim	35348		1
 činim	1794		2
-činjenim	14		2
+činjenim	14		3
 činovničkim	29		2
 čipkanim	36		2
 čipkastim	44		2
 čistijim			2
 čistim	2698		2
 čitalačkim			2
-čitanim	12		2
+čitanim	12		3
 čitaočevim			2
 čitavim	1511		3
 čitačevim			2
 čitkim	26		2
-čitljivim	70		2
+čitljivim	70		3
 čizmarskim			2
 čkiljavim			2
 članim		M	2
@@ -7471,7 +7471,7 @@ zvučnim	798		2
 čudim	1097		2
 čudnijim	35		3
 čudnim	1488		2
-čudnovatim	100		2
+čudnovatim	100		3
 čudorednim			2
 čudovišnim	44		4
 čujnim	43		2
@@ -7479,7 +7479,7 @@ zvučnim	798		2
 čulnim	215		2
 čumićevim			2
 čupavim	35		3
-čuvanim	23		2
+čuvanim	23		3
 čuvenim	1598		3
 čučim	41		2
 čvorastim			2
@@ -7500,19 +7500,19 @@ zvučnim	798		2
 đorđevim			2
 đukićevim			2
 šabačkim	58		2
-šahovskim	222		2
+šahovskim	222		3
 šajkaškim			2
 šalim	1707		2
-šaljivim	165		2
+šaljivim	165		3
 šalterskim	45		2
-šarenim	806		2
+šarenim	806		3
 šarim			2
 šarmantnim	123		2
 šarskim		M	2
 šatorskim	34		2
 šašavim	33		3
 šekspirovim			2
-šematskim	15		2
+šematskim	15		3
 šengenskim	70		2
 šepurim	14		2
 šerifovim			2
@@ -7527,7 +7527,7 @@ zvučnim	798		2
 šiljatim	65		3
 šinskim	31		2
 širim	1497		2
-širokim	3536		2
+širokim	3536		3
 šivaćim	13		2
 šišićevim			2
 šišmiševim			2
@@ -7548,21 +7548,21 @@ zvučnim	798		2
 štampanim	557		3
 štavim			2
 štedim	336		2
-štedljivim	209		2
+štedljivim	209		3
 štednim	103		2
 štetnijim			3
 štetnim	1211		2
 štim			1
 štitim	209		2
-štokavskim	56		2
+štokavskim	56		3
 šturim	96		2
 šugavim	19		3
 šumim			2
 šumnim	10		2
-šumovitim	149		2
+šumovitim	149		3
 šumskim	771		2
-šupljikavijim			3
-šupljikavim	11		2
+šupljikavijim			4
+šupljikavim	11		3
 šupljim	104		2
 šusterskim			2
 šutim	41		2
@@ -7584,23 +7584,23 @@ zvučnim	798		2
 žarkim	60		2
 žbunastim			2
 žednim	60		2
-železničkim	490		3
+železničkim	490		4
 želećim			2
 želim	51561		2
-željenim	161		2
-željezničkim			3
+željenim	161		3
+željezničkim			4
 željnim	176		2
 želudačnim	29		2
-ženevskim	73		2
+ženevskim	73		3
 ženidbenim	18		2
 ženim	151		2
-ženinim	15		2
+ženinim	15		3
 ženskim	2021		2
-ženstvenim	69		2
+ženstvenim	69		3
 žestim			2
-žestokim	659		2
+žestokim	659		3
 žešćim	71		2
-žeženim			2
+žeženim			3
 žigosanim			2
 žilavim	38		3
 žitnim	94		2
@@ -7611,9 +7611,9 @@ zvučnim	798		2
 živonosnim			2
 živopisnim	454		4
 životinjskim	543		2
-životnijim	16		3
-životnim	4885		2
-živčanim	18		2
+životnijim	16		4
+životnim	4885		3
+živčanim	18		3
 žičanim	143		2
 žičnim	43		2
 žmirim			2
@@ -7636,118 +7636,118 @@ zvučnim	798		2
 žvakaćim	21		2
 bezvrijednim			4
 bijednim	16		3
-bijelim	14		2
-bijesnim	13		2
+bijelim	14		3
+bijesnim	13		3
 bježim			2
 cijelim	266		2
-cijenim	270		2
+cijenim	270		3
 cjenim			2
-dijelim	114		2
+dijelim	114		3
 djelim			2
 dječjim			2
-dragocjenim			2
-griješim	149		2
-ijekavskim	56		2
-iscijelim			2
-izliječim			2
+dragocjenim			3
+griješim	149		3
+ijekavskim	56		3
+iscijelim			3
+izliječim			3
 izmijenim			2
-izmjerim			2
+izmjerim			3
 iznevjerim			2
-izvijestim			2
+izvijestim			3
 lijepim	283		3
 lijevim	50		3
-liječim	21		2
-ljepljivim			2
+liječim	21		3
+ljepljivim			3
 ljepšim	50		2
 ljetnjim			2
-miješanim			3
+miješanim			4
 mjerim			2
 mjesečevim	10		2
 mjesnim			2
-namjestim			2
+namjestim			3
 neutješnim			4
 nevjerovatnim			2
-obavijestim	44		2
+obavijestim	44		3
 obavještajnim			2
-objesim			2
+objesim			3
 okorjelim			2
 onesvijestim			2
-osjetim			2
-osjetljivim			2
-osvježim			2
+osjetim			3
+osjetljivim			3
+osvježim			3
 otmjenim			3
 otrijeznim			2
 pješačim			2
-pobijedim	10		2
+pobijedim	10		3
 pobjedim			2
-podijelim	73		2
-podsjetim			2
-pogriješim	22		2
+podijelim	73		3
+podsjetim			3
+pogriješim	22		3
 pomjerim	14		2
 pomjesnim			2
 posjedim			2
-posjetim			2
-povjerim			2
-povjerljivim			2
-povrijedim	21		2
+posjetim			3
+povjerim			3
+povjerljivim			3
+povrijedim	21		3
 prelijepim	36		2
 premjestim			2
-pretjeranim			3
+pretjeranim			4
 prijekim	10		2
-prijetim			2
-primijetim	36		2
-primjernim			2
+prijetim			3
+primijetim	36		3
+primjernim			3
 primjetim			2
-prisjetim			2
-procijenim			2
-promijenim	73		2
+prisjetim			3
+procijenim			3
+promijenim	73		3
 promjenim			2
 prosječnim			3
-provjerim			2
+provjerim			3
 razriješim			2
-rijetkim	135		2
+rijetkim	135		3
 riječnim	17		3
-riješenim			3
-riješim	91		2
+riješenim			4
+riješim	91		3
 rješim			2
 sjedim	216		2
 sjetim			2
 sjevernim			3
 slijedećim			2
-slijedim	28		2
+slijedim	28		3
 slijepim	65		3
-smiješim			2
-smiješnim	31		2
+smiješim			3
+smiješnim	31		3
 smjestim			2
-spriječim			2
-susjednim			2
-svijetlim	60		2
+spriječim			3
+susjednim			3
+svijetlim	60		3
 svjedočim			2
 svjetlećim			2
 svjetlosnim			2
-svjetlucavim			2
+svjetlucavim			3
 svjetskim			2
 svježim			2
-tijesnim	18		2
+tijesnim	18		3
 tjelesnim			3
 tješim			2
 ubijedim	10		2
-umjerenim			3
-umjetničkim			3
-usmjerenim			3
-usmjerim			2
-uspješnim			2
+umjerenim			4
+umjetničkim			4
+usmjerenim			4
+usmjerim			3
+uspješnim			3
 ustrijelim			2
-utješim			2
-utješnim			2
-uvjerim			2
-uvrijedim	33		2
+utješim			3
+utješnim			3
+uvjerim			3
+uvrijedim	33		3
 vjerskim			2
 vječnim			2
 vrijedim	12		2
-vrijednim	114		2
+vrijednim	114		3
 zalijepim			2
-zamijenim	21		2
+zamijenim	21		3
 zamjenim			2
 zastarjelim	14		2
-zvjezdanim			2
+zvjezdanim			3

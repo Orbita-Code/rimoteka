@@ -13,7 +13,7 @@ bok	1114		1
 brok			1
 buljook			2
 cmok			1
-crnook			2
+crnook			3
 dok	473435		1
 doskok	77		2
 dotok	1136		2
@@ -34,7 +34,7 @@ kazačok		M	2
 kok			1
 kosook			2
 kružok	137		2
-krvolok	64		2
+krvolok	64		3
 krvotok	1302		3
 lešok			2
 lok			1

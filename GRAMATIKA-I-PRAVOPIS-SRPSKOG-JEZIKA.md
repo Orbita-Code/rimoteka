@@ -292,15 +292,24 @@ koja radi za većinu srpskih reči jer akcenat retko pada na poslednji slog.
 > Uvedeno 27.07.2026. (isti broj slogova), **zamenjeno 05.10.2026. pravilom po akcentu** – odluka vlasnice
 > („da, ugradi akcente") posle prijave 03.10.: za „televizor" je „revizor" padao u „Dobre", a „ambasador" bio u „Najboljima".
 
-**Prava rima počinje od naglašenog sloga.** Kod **uzlaznog** akcenta ton prelazi i na sledeći slog, pa kad iza
-naglašenog ima bar dva sloga, rima počinje od sloga **iza** njega (akcenatska jedinica). **Silazni** akcenat ne prelazi.
+**Prava rima počinje od naglašenog sloga.** Kod **uzlaznog** akcenta ton prelazi i na sledeći slog; kad je taj slog
+**dug** (tèlevīzor, ambàsādor, Vatìkān) i iza naglašenog ima bar dva sloga, rima počinje od sloga **iza** naglašenog
+(akcenatska jedinica -izor, -ador). Kad je slog iza **kratak** (kániti, ùnuka, dìrektor, prekídati), rima ostaje od
+naglašenog sloga (-aniti, -unuka, -irektor). **Silazni** akcenat nikad ne prelazi.
+
+> **AK-1 (audit 07.10.2026):** od 05. do 07.10. pomak je važio za SVAKI uzlazni akcenat, pa je „kaniti" dobijalo
+> „goniti" umesto „raniti", a „unuka" „bazuku" – 12.894 od 20.980 osnova sa 3+ sloga gubilo je naglašeni samoglasnik iz
+> ključa. Dužina sloga iza akcenta je u Wiktionary-ju (`iza_dug` u `build/akcenti-osnove.json`). Pravilo je 07.10.
+> provereno na 20 nasumičnih reči (`AUDIT/akcenti/2026-10-07-nasumicno-20.md`), ne samo na primerima koji su ga rodili.
 
 | Reč | Akcenat | Prava rima od | Rimuje se | Ne rimuje se (samo isti kraj) |
 |---|---|---|---|---|
 | televizor | te**lè**vīzor (uzlazni, 3. od kraja) | -izor | revizor, retrovizor, prizor | ambasador (-ador), ventilator (-ator) |
-| direktor | **dì**rektor (uzlazni) | -ektor | korektor, selektor, inspektor | instruktor, autor |
+| direktor | **dì**rektor (uzlazni, kratak slog iza) | -irektor (rezerva: -ektor) | korektor, selektor, inspektor (preko rezerve) | instruktor, autor |
+| kaniti | **ká**niti (uzlazni, kratak slog iza) | -aniti | raniti, braniti, hraniti | goniti (**gò**niti → -oniti), činiti |
+| unuka | **ù**nuka (uzlazni, kratak slog iza) | -unuka (rezerva: -uka) | praunuka; jabuka, odluka (preko rezerve) | bazuka (-azuka) |
 | rima | **rí**ma (uzlazni, pretposlednji) | -ima | štima, klima, zima | stvarima (**stvȃ**rima, silazni → -arima) |
-| sloboda | slo**bò**da | -oda | voda, loboda, naroda, metoda | vojvoda (**vȏj**voda → -ojvoda) |
+| sloboda | slo**bò**da | -oda | voda, loboda, metoda | vojvoda (**vȏj**voda → -ojvoda), naroda (**ná**roda → -aroda) |
 | iznenada | **ȉ**znenāda (silazni na prvom) | -iznenada | (nema) | nada, promenada |
 
 ### Odakle akcenat
@@ -317,9 +326,11 @@ pre `kante.py`.
 - **Kandidati** su kao i pre: isti završetak od poslednjeg samoglasnika (`rhymeKey`).
 - **„Najbolje rime"** = kandidati sa **istom akcenatskom jedinicom** kao tražena reč (`akcKey`/`AKC`).
 - **„Dobre rime"** = ostali kandidati (isti kraj, akcenat drugde).
-- **Rezerva** (kad strogih ima manje od 3): reči sa akcentom na **istom slogu od kraja** i istim brojem slogova ulaze u
-  „Najbolje" – slȍbodan → pȍgodan, prìgodan (strogo bi „-obodan" ostalo bez ijedne rime). Za „televizor" rezerva ne radi,
-  jer strogih ima 3, pa „ambasador" (isto mesto akcenta) ostaje u „Dobrim".
+- **Rezerva** (kad strogih ima manje od 3): reči sa akcentom na **istom slogu od kraja**, istim brojem slogova **i
+  zajedničkim završetkom od bar dva sloga** (`rimovanihSlogova`/`rimovanih_slogova`; AK-2, 07.10.2026) ulaze u
+  „Najbolje" – slȍbodan → pȍgodan, prírodan, prìgodan (strogo bi „-obodan" ostalo bez ijedne rime); „bezvredan" i
+  „rođendan" NE ulaze, jer sa „slobodan" dele samo „-dan". Za „televizor" rezerva ne radi, jer strogih ima 3, pa
+  „ambasador" (isto mesto akcenta) ostaje u „Dobrim". Napomena: č≡ć i dž≡đ važe i ovde (domaćin → kornjačin dele -aćin/-ačin).
 - **Redosled unutar grupe:** bliži broj slogova → duži zajednički završetak → učestalost.
 - Tražena reč koje nema u rečniku dobija pretpostavku „pretposlednji slog".
 

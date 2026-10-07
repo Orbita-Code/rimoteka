@@ -1,6 +1,6 @@
 185
 Beograd			2
-Petrograd			2
+Petrograd			3
 asad			2
 bagdad			2
 balad			2
@@ -12,7 +12,7 @@ bosilegrad			2
 bosiljgrad			2
 bujad	18		2
 burad	589		2
-carigrad			2
+carigrad			3
 crvenobrad			2
 deligrad			2
 devojčad			2
@@ -66,7 +66,7 @@ korad			2
 kosopad			2
 lad			1
 lanad	13		2
-lenjingrad			2
+lenjingrad			3
 listopad	88		3
 milorad			3
 mirsad			2
@@ -113,7 +113,7 @@ pogdekad			2
 pokatkad	406		2
 poluraspad			2
 ponad	85		2
-ponekad	50115		2
+ponekad	50115		3
 porad			2
 posad			2
 prasad	103		2
@@ -153,13 +153,13 @@ tad	15120		1
 telad	209		2
 titograd			3
 trinidad			2
-unazad	14974		2
-unučad	76		2
+unazad	14974		3
+unučad	76		3
 upad	945		2
 užad	160		2
 velegrad	193		3
-vinograd	1399		2
-višegrad			2
+vinograd	1399		3
+višegrad			3
 vodopad	824		3
 volgograd			2
 vučad			2

@@ -2,24 +2,24 @@
 Parizi			2
 analizi	5887		2
 anamnezi	140		2
-antitezi	21		2
-antropolozi	237		2
-aplauzi	377		3
+antitezi	21		3
+antropolozi	237		3
+aplauzi	377		4
 apoteozi	17		2
-arheolozi	1596		2
+arheolozi	1596		3
 arhipelazi			2
 askezi	36		2
-astrolozi	489		2
+astrolozi	489		3
 autostazi			2
 avitaminozi			2
 aškenazi			2
 bakrorezi	25		4
 baksuzi			2
 bazi	18692		2
-belezi	99		2
+belezi	99		3
 berzi	7559		2
 bilmezi			2
-biolozi	535		2
+biolozi	535		3
 bluzi	109		2
 bozi			2
 brezi	77		2
@@ -27,20 +27,20 @@ brindizi			2
 brizi	1459		2
 bronzi	323		2
 brzi	4889		2
-bubrezi	867		2
+bubrezi	867		3
 buldozi	13		2
 bumeranzi			2
 burazi			2
 burzi			2
-demagozi	237		2
+demagozi	237		3
 dermatolozi	242		2
 devizi	49		2
 dijagnozi	437		2
 dijalizi	300		2
-dijalozi	570		2
+dijalozi	570		3
 dijecezi	64		2
 dokazi	7465		3
-dolazi	79762		2
+dolazi	79762		3
 dopuzi			2
 dovezi			2
 dovozi	290		2
@@ -49,14 +49,14 @@ dramaturzi	88		2
 drvorezi	22		4
 duborezi	14		2
 džakuzi			2
-egiptolozi	26		2
+egiptolozi	26		3
 ekolozi	577		2
 ekspertizi	131		2
-ekstazi	456		2
+ekstazi	456		3
 englezi	2860		2
 etnolozi	173		2
 fazi	24546		2
-filolozi	227		2
+filolozi	227		3
 francuzi	2638		2
 franšizi	186		2
 frazi	112		2
@@ -64,7 +64,7 @@ fritezi	31		2
 gazi	1831		2
 genezi	187		2
 geolozi	281		2
-ginekolozi	389		2
+ginekolozi	389		3
 grafolozi			2
 grizi	18		2
 grozi	95		2
@@ -74,7 +74,7 @@ hipnozi	94		2
 hipotezi	223		2
 hirurzi	900		2
 holdinzi	23		2
-ideolozi	533		2
+ideolozi	533		3
 irokezi			2
 iskazi	758		2
 iskezi	56		2
@@ -83,22 +83,22 @@ isplazi	54		2
 izbezobrazi			2
 izgazi	54		2
 izlazi	17649		3
-izlozi	341		2
+izlozi	341		3
 iznalazi	145		2
 izobrazi	23		2
 izrazi	3901		3
 izvezi	22		2
-izvozi	3811		2
+izvozi	3811		3
 jakuzi			2
-jaruzi	129		2
+jaruzi	129		3
 jastozi	39		3
 jednorozi	32		4
 kalauzi			2
-kaljuzi	93		2
+kaljuzi	93		3
 kamenorezi			2
-katalozi	572		2
+katalozi	572		3
 katarzi	81		2
-kavezi	202		2
+kavezi	202		3
 kavzi			2
 kezi			2
 kiborzi	47		2
@@ -108,13 +108,13 @@ knjizi			2
 kolovozi	255		4
 kontroverzi	241		2
 kosmolozi			2
-kovčezi	80		2
+kovčezi	80		3
 kozi	298		2
 krizi	9559		2
 krčazi			2
-kukuruzi	73		2
+kukuruzi	73		3
 kvazi			2
-kvislinzi	246		2
+kvislinzi	246		3
 lazi	1023		2
 leminzi	31		2
 lepezi	149		2
@@ -124,24 +124,24 @@ lozi	340		2
 luksuzi	10		2
 magazi			2
 mamlazi			2
-mamuzi			2
+mamuzi			3
 markizi			2
 martolozi			2
 mazi	772		2
 meduzi	39		2
 mekenzi			2
 melezi			2
-menopauzi	558		2
+menopauzi	558		3
 metalurzi	41		2
-meteorolozi	838		2
+meteorolozi	838		3
 međufazi			2
 milanezi	13		2
-mimoilazi	81		2
+mimoilazi	81		3
 mimozi			2
-mitinzi	322		2
-mitolozi	18		2
+mitinzi	322		3
+mitolozi	18		3
 mitraljezi			2
-monolozi	148		2
+monolozi	148		3
 mrzi	5630		2
 mustanzi			2
 muzi	79		2
@@ -149,21 +149,21 @@ muzikolozi	53		2
 nadilazi	642		2
 nadolazi	215		2
 nagazi	196		2
-nailazi	2509		2
-nakazi	28		2
-nalazi	147662		2
-nalozi	1340		2
+nailazi	2509		3
+nakazi	28		3
+nalazi	147662		3
+nalozi	1340		3
 namazi	157		2
 naslazi			3
 navezi			2
-nebrizi	115		2
+nebrizi	115		3
 nebulozi	19		2
 neduzi			2
-nekrolozi	12		2
+nekrolozi	12		3
 nerezi			2
 nervozi	164		2
-neslozi	102		2
-neurolozi	155		2
+neslozi	102		3
+neurolozi	155		3
 neurozi	29		2
 nijazi			2
 njojzi			2
@@ -171,83 +171,83 @@ nosorozi	68		4
 nozi	2029		2
 oazi	350		2
 obavezi	7747		4
-obilazi	1920		2
+obilazi	1920		3
 oblazi			2
 oblozi	166		2
-obrazi	645		2
-odgrizi			2
-odlazi	15246		2
+obrazi	645		3
+odgrizi			3
+odlazi	15246		3
 odrazi	832		3
 odvezi	13		2
 odvozi	294		2
 okruzi	289		3
 omrazi	18		2
 onkolozi	91		2
-opazi	410		2
+opazi	410		3
 oprezi			3
 opsezi	78		3
 ornitolozi	63		2
 otkazi	580		3
 otpuzi			2
-paleontolozi	82		2
-paradajzi	17		2
+paleontolozi	82		3
+paradajzi	17		3
 paralizi	39		2
 parkinzi			2
 parlozi			2
-patolozi	103		2
-pauzi	1860		2
+patolozi	103		3
+pauzi	1860		3
 pazi	6663		2
-pašenozi			2
-pedagozi	838		2
-pekmezi	32		2
+pašenozi			3
+pedagozi	838		3
+pekmezi	32		3
 pergolezi			2
 pervazi			2
-podilazi	247		2
+podilazi	247		3
 podlozi	2295		2
 podvizi	331		3
 pogazi	211		2
-polazi	4491		2
+polazi	4491		3
 pomazi	113		2
 pomozi	1527		2
-pomuzi			2
+pomuzi			3
 ponizi	475		2
 porazi	1174		3
-porezi	3321		2
+porezi	3321		3
 poruzi	89		3
 postrizi			2
-potezi	2703		2
+potezi	2703		3
 potrazi	8516		3
-povezi	59		2
+povezi	59		3
 pozi	698		2
 pošizi	13		2
 požezi			2
 prebezi	44		2
 prebrzi	40		2
-predlozi	6009		2
+predlozi	6009		3
 pregazi	344		2
-pregrizi			2
-prelazi	14904		2
+pregrizi			3
+prelazi	14904		3
 prelozi			2
 prenerazi	41		2
 preobrazi	373		2
 prevazilazi	4425		2
 prevezi	11		2
-prevozi	1051		2
+prevozi	1051		3
 pridolazi			2
-prijevozi			3
-prikazi	957		2
-prilazi	2753		2
-prilozi	2009		2
+prijevozi			4
+prikazi	957		3
+prilazi	2753		3
+prilozi	2009		3
 princezi	346		2
-pripazi	275		2
+pripazi	275		3
 prirezi	13		2
 proburazi	13		2
 prognozi	1000		2
 proizilazi	4676		2
 proizlazi	2346		2
-prolazi	17111		2
-prolozi	12		2
-pronalazi	3081		2
+prolazi	17111		3
+prolozi	12		3
+pronalazi	3081		3
 prosuzi			2
 protezi	34		2
 provezi			2
@@ -255,16 +255,16 @@ prozi	1268		2
 prtljazi			2
 pruzi	1290		2
 psihoanalizi	172		2
-psiholozi	3476		2
+psiholozi	3476		3
 psihozi	71		2
-pudinzi	24		2
+pudinzi	24		3
 putokazi	462		4
 puzi	419		2
 radiolozi	120		2
-razgazi			2
-razilazi	146		2
-razlazi	16		2
-razlozi	13757		2
+razgazi			3
+razilazi	146		3
+razlazi	16		3
+razlozi	13757		3
 razmazi	50		2
 razvozi	69		2
 remzi			2
@@ -273,26 +273,26 @@ rogozi			3
 rozi	96		2
 sadruzi			2
 saharozi			2
-samoposluzi	238		2
+samoposluzi	238		3
 samousluzi	40		2
 saobrazi			2
 sarkofazi	46		2
-savezi	981		2
+savezi	981		3
 seizmolozi	65		2
 servizi			2
-silazi	1326		2
+silazi	1326		3
 simbiozi	302		2
 sintezi	488		2
 slazi			2
 slezi	10		2
 sluzi	1934		2
-smokinzi			2
-snalazi	1911		2
+smokinzi			3
+snalazi	1911		3
 snazi	10924		2
 snizi	768		2
-sociolozi	967		2
+sociolozi	967		3
 spazi	306		2
-speleolozi	197		2
+speleolozi	197		3
 sprezi	1355		2
 stazi	7646		2
 stezi	26		2
@@ -300,32 +300,32 @@ stratezi	402		2
 superbrzi	58		2
 supruzi	1496		3
 svezi	214		2
-talozi	47		2
+talozi	47		3
 teatrolozi	32		2
-tehnolozi	247		2
+tehnolozi	247		3
 temzi			2
-teolozi	359		2
+teolozi	359		3
 topazi			2
 trapezi	17		2
-treninzi	2713		2
-trpezi	1052		2
+treninzi	2713		3
+trpezi	1052		3
 tuzi	574		2
 ugazi	38		2
-ugrizi	34		2
+ugrizi	34		3
 ugrozi	3655		2
 ukazi	60		2
-ulazi	19688		2
+ulazi	19688		3
 uljezi	144		2
-ulozi	13824		2
+ulozi	13824		3
 unakazi	94		2
 unervozi			2
 unizi	101		2
 uobrazi	37		2
-urezi	33		2
+urezi	33		3
 usluzi	2137		3
-utezi			2
+utezi			3
 uvezi			2
-uvozi	3456		2
+uvozi	3456		3
 uzlazi	45		2
 vazi			2
 vetrokazi			2
@@ -338,17 +338,17 @@ vitezi	95		3
 vlazi	104		2
 vozi	11232		2
 vrazi	12		2
-vrtlozi	64		2
+vrtlozi	64		3
 zadruzi	737		3
 zagazi	120		2
-zagrizi	18		2
+zagrizi	18		3
 zajazi			2
-zalazi	1174		2
-zalozi	38		2
+zalazi	1174		3
+zalozi	38		3
 zambezi			2
 zamrzi	44		2
 zaobilazi	933		2
-zapazi	261		2
+zapazi	261		3
 zaprezi			3
 zarazi	571		3
 zarezi	53		2
@@ -362,5 +362,5 @@ zgrozi	56		2
 šimpanzi	67		2
 žezi	53		2
 bjezi			2
-prijedlozi	220		3
-prijelazi	26		3
+prijedlozi	220		4
+prijelazi	26		4

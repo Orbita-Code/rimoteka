@@ -9,7 +9,7 @@ bangav		M	2
 bauljav			2
 beloglav			2
 benav		M	2
-berislav			2
+berislav			3
 bezglav			2
 blatnjav	81		2
 blebetav			2
@@ -23,23 +23,23 @@ bljutav	87		2
 bljuzgav			2
 bobičav		M	2
 bockav			2
-bodljikav	11		2
+bodljikav	11		3
 boginjav		M	2
-bogislav			2
+bogislav			3
 bogosav			2
 bogoslav			2
 borisav			2
-borislav			2
+borislav			3
 bradavičav			2
-branislav			2
-bratislav			2
+branislav			3
+bratislav			3
 brav	25		1
 brašnjav		M	2
 brbljav			2
 brljav			2
 brzojav	14		3
-bubuljičav		M	2
-budislav			2
+bubuljičav		M	3
+budislav			3
 buhav		M	2
 buljav	16		2
 buđav	165		2
@@ -92,7 +92,7 @@ gurav		M	2
 guseničav			2
 gustav			2
 gušav		M	2
-hranislav			2
+hranislav			3
 hrapav	90		2
 hripav			2
 hrskav	55		2
@@ -130,8 +130,8 @@ kreštav	22		2
 krivudav	83		2
 kričav			2
 krnjav			2
-krunislav			2
-krunoslav			2
+krunislav			3
+krunoslav			3
 krvav	650		2
 krzav		M	2
 kržljav	14		2
@@ -141,7 +141,7 @@ kuštrav			2
 kuždrav			2
 kvrgav	14		2
 labav	88		2
-ladislav			2
+ladislav			3
 lajav	12		2
 laskav	28		2
 lav	5092		1
@@ -161,14 +161,14 @@ mastiljav		M	2
 maštav		M	2
 meketav			2
 metiljav	10		2
-milisav			2
+milisav			3
 milosav			2
 miloslav			2
 mirisav			2
 mirišljav	46		2
 mirosav			3
 miroslav			3
-mišićav	155		2
+mišićav	155		3
 mišičav			2
 mlitav	90		2
 mlohav	23		2
@@ -184,7 +184,7 @@ mucav			2
 mumlav		M	2
 musav	51		2
 mutav		M	2
-mušičav			2
+mušičav			3
 nafrakav			2
 naišav			2
 nakakav			3
@@ -201,7 +201,7 @@ neprav			2
 nezaborav	232		2
 nezdrav	267		2
 nikakav	18252		3
-ninoslav			2
+ninoslav			3
 ništav			2
 njegoslav			2
 oglav	32		2
@@ -232,14 +232,14 @@ praskav			2
 praznoglav			2
 prašnjav	96		2
 praštav		M	2
-predislav			2
+predislav			3
 premršav	13		2
 prešav			2
 prgav	76		2
-pribislav			2
-primislav			2
+pribislav			3
+primislav			3
 pristav	62		2
-privislav			2
+privislav			3
 prišav			2
 prištav			2
 prljav	1445		2
@@ -252,14 +252,14 @@ prštav			2
 pupav		M	2
 puzav			2
 radisav			2
-radislav			2
+radislav			3
 radosav			2
 radoslav			3
 ranisav			2
 ranjav	10		2
 rapav			2
 rascvetav			2
-rastislav			2
+rastislav			3
 rav		M	1
 reckav		M	2
 rekav			2
@@ -283,21 +283,21 @@ sedoglav			2
 siktav			2
 sinjav			2
 sipkav			2
-sitničav	35		2
+sitničav	35		3
 slabunjav	11		2
 sladunjav	60		2
 slinav	25		2
 sluzav	76		2
 splav	879		1
-srbislav			2
+srbislav			3
 srboslav			2
-stanislav			2
+stanislav			3
 stav	67230		1
 steničav			2
 stoglav			2
 strmoglav	73		2
 suhonjav			2
-sumnjičav	292		2
+sumnjičav	292		3
 sustav			2
 suvonjav		M	2
 sušičav			2
@@ -308,7 +308,7 @@ svetlucav	47		2
 svjatoslav			2
 svojeglav	92		2
 takav	69560		2
-tamnoplav			2
+tamnoplav			3
 tepav	10		2
 teturav			2
 titrav			2
@@ -338,29 +338,29 @@ varav			2
 vatroslav			3
 vekoslav			2
 velisav			2
-velislav			2
+velislav			3
 vidosav			2
 vijugav	37		2
-višeslav			2
+višeslav			3
 vjačeslav			2
 vladisav			2
-vladislav			2
+vladislav			3
 vodnjikav	14		2
-voislav			2
-vojislav			2
+voislav			3
+vojislav			3
 vrcav			2
 vriskav			2
 vrljav		M	2
-vrludav			2
+vrludav			3
 vrskav		M	2
-vrtoglav	92		2
+vrtoglav	92		3
 vukosav			2
 zaborav	2866		3
 zanihav			2
 zdrav	11604		1
 zekoslav			2
 znojav		M	2
-zorislav			2
+zorislav			3
 zrikav			2
 zveckav			2
 zveketav			2

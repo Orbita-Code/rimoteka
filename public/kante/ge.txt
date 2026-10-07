@@ -3,47 +3,47 @@ Hamburge			2
 Prage			2
 age	380		2
 alge	1009		2
-antropologe			2
-arheologe	149		2
+antropologe			3
+arheologe	149		3
 babaroge	77		2
 bajage			2
 balege	106		3
-belege	83		2
+belege	83		3
 beluge			2
 bezbrige			2
-biljege	22		2
-biologe	111		2
+biljege	22		3
+biologe	111		3
 bisage	71		2
 bitange	497		2
 blage	3273		2
 bljuzge			2
 boge			2
-bosonoge	30		2
+bosonoge	30		3
 brifinge	39		2
 brige	8210		2
-brloge	13		2
-bubrege	1047		2
+brloge	13		3
+bubrege	1047		3
 buldoge	13		2
 cambridge			2
 centrifuge	117		2
 cige	33		2
 cuge			2
-diftonge			2
-dijaloge	512		2
+diftonge			3
+dijaloge	512		3
 drage	4313		2
 dramaturge	19		2
 droge	8145		2
 druge	197366		2
 duge	10720		2
-dugonoge	40		2
+dugonoge	40		3
 ekloge	22		2
-epiloge	18		2
+epiloge	18		3
 etnologe	37		2
 evrolige			2
 falange	170		2
 felge			2
 fige			2
-filologe	46		2
+filologe	46		3
 fuge	238		2
 gage			2
 ge		M	1
@@ -55,33 +55,33 @@ harange	93		2
 haringe	96		2
 hepeninge			2
 hirurge	154		2
-ideologe	111		2
+ideologe	111		3
 inge			2
 intrige	453		2
 istrage	9198		3
-izloge	514		2
-jaruge	176		2
+izloge	514		3
+jaruge	176		3
 jastoge	28		3
 jednoroge	21		4
 joge	1471		2
 juge			2
-kacige	806		2
-kaljuge	123		2
-kardiologe	20		2
-kataloge	560		2
+kacige	806		3
+kaljuge	123		3
+kardiologe	20		3
+kataloge	560		3
 kavge	74		2
-kečige	28		2
+kečige	28		3
 kiborge	18		2
 knjige	72992		2
 kolege	23047		2
-kovčege	77		2
+kovčege	77		3
 krge			2
-krivonoge			2
+krivonoge			3
 krčage			2
 kuge	1754		2
-kvislinge	84		2
+kvislinge	84		3
 kvrge	37		2
-lenčuge	96		2
+lenčuge	96		3
 lige	32945		2
 ljage	77		2
 lupinge	18		2
@@ -89,20 +89,20 @@ mage	32		2
 malage			2
 mazge	165		2
 merenge			2
-mitinge	436		2
+mitinge	436		3
 mnoge	62122		2
 mokronoge			2
-monologe	136		2
+monologe	136		3
 mrge			2
 murge			2
 mustange			2
 nage	281		2
-naloge	3096		2
+naloge	3096		3
 naslage	1778		3
-nebrige	617		2
+nebrige	617		3
 neduge			2
 nege	3945		2
-nesloge	367		2
+nesloge	367		3
 njege			2
 noge	26124		2
 nosoroge	36		4
@@ -114,20 +114,20 @@ opruge	615		3
 opsege	123		3
 ostrige	198		2
 ostruge			3
-papige	61		2
+papige	61		3
 parkinge			2
-patologe	11		2
-pedagoge	185		2
+patologe	11		3
+pedagoge	185		3
 pege	669		2
-pepeljuge	121		2
-piroge	16		2
+pepeljuge	121		3
+piroge	16		3
 pirsinge	28		2
 pivčuge			2
 pljuge			2
 podage			2
 podloge	3446		2
 podvige	984		3
-poluge	1514		2
+poluge	1514		3
 polunage			2
 poruge	124		3
 posluge	205		3
@@ -135,7 +135,7 @@ potrage	1522		3
 požege			2
 prebege	25		2
 preblage	36		2
-predloge	10906		2
+predloge	10906		3
 predrage	13		3
 preduge	127		2
 premnoge	17		2
@@ -143,23 +143,23 @@ prestige			2
 pretrage	3669		3
 prevage	66		3
 prečage	50		2
-priloge	2180		2
+priloge	2180		3
 prituge			2
-prologe			2
+prologe			3
 protivrazloge			2
 protivusluge	48		2
 prtljage	16		2
 pruge	6497		2
-psihologe	328		2
-pudinge	36		2
-razbibrige	83		3
-razloge	9007		2
+psihologe	328		3
+pudinge	36		3
+razbibrige	83		4
+razloge	9007		3
 rege			2
 rige	196		2
 roge	46		2
-rupčage	53		2
+rupčage	53		3
 sage	735		2
-samoposluge	272		2
+samoposluge	272		3
 samousluge	73		2
 sfinge	105		2
 sige	142		2
@@ -167,63 +167,63 @@ sinagoge	662		2
 sličuge			2
 sloge	1889		2
 sluge	3510		2
-smokinge	17		2
+smokinge	17		3
 snage	60169		2
 snege			2
-sociologe	141		2
+sociologe	141		3
 sovuljage			2
-speleologe	43		2
+speleologe	43		3
 sprege	582		2
 stege	300		2
-stonoge	59		2
+stonoge	59		3
 stratege	77		2
 stroge	2144		2
 struge	16		2
 superlige	3434		2
 supruge	4574		3
 tajge	49		2
-taljige		M	2
+taljige		M	3
 tange	375		2
 teatrologe			2
-teologe	82		2
+teologe	82		3
 tezge	1672		2
 toge	98		2
 tojage			2
-toljage	44		2
-treninge	4041		2
+toljage	44		3
+treninge	4041		3
 tronoge			2
 tuge	3516		2
 uboge	229		3
 udlage	39		2
-uloge	16287		2
+uloge	16287		3
 usluge	49937		3
-utege	12		2
+utege	12		3
 vage	1797		2
-verige	305		2
-vijuge	308		2
+verige	305		3
+vijuge	308		3
 vikinge	25		2
 vinjage	13		2
 vlage	4106		2
 volge			2
-vrtloge	83		2
+vrtloge	83		3
 zadruge	5055		3
 zage			2
-zaloge	635		2
+zaloge	635		3
 zaprege	205		3
 zasluge	4150		3
 zatege	28		2
 čaruge			2
 čerge	58		2
-čvoruge	25		2
+čvoruge	25		3
 čvrge	60		2
 šarage		M	2
 šege			2
 šiprage			2
 škrge	206		2
 špage			2
-šparoge	46		2
+šparoge	46		3
 štranjge			2
 šuge	138		2
 žege	299		2
 pjege			2
-prijedloge	410		3
+prijedloge	410		4

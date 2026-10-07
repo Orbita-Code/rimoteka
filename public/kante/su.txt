@@ -1,35 +1,35 @@
 379
-Isusu			2
+Isusu			3
 Marsu			2
-Tunisu			2
-Uskrsu			2
-abortusu	205		2
+Tunisu			3
+Uskrsu			3
+abortusu	205		3
 adresu	18404		2
 agensu			2
 alasu	68		2
-albatrosu			3
+albatrosu			4
 aleksu			2
-alijansu	485		2
+alijansu	485		3
 alisu			2
-ambisu	95		2
-aneksu	374		2
+ambisu	95		3
+aneksu	374		3
 anusu	89		2
 anđelesu			2
 apokalipsu	250		2
 apsu	92		2
 arbanasu			2
 arkanzasu			2
-atlasu	134		2
+atlasu	134		3
 atosu			2
-autobusu	3012		2
-avansu	14		2
-balansu	330		2
-bambusu	40		2
+autobusu	3012		3
+avansu	14		3
+balansu	330		3
+bambusu	40		3
 barbadosu			2
 baronesu	17		2
 basu	138		2
 besu	556		2
-bicepsu			2
+bicepsu			3
 bilansu			2
 biomasu	741		2
 biznisu			2
@@ -40,20 +40,20 @@ bosu	107		2
 brusu	196		2
 brzopisu			4
 busu	416		2
-cenzusu	76		2
+cenzusu	76		3
 cesu			2
-ciklusu	2618		2
-cirkusu	521		2
-crnokosu	16		3
-crvenokosu	28		3
+ciklusu	2618		3
+cirkusu	521		3
+crnokosu	16		4
+crvenokosu	28		4
 dalasu			2
 dallasu			2
 danasu			2
 davosu			2
-dijabetesu	303		2
-dinosaurusu	24		3
+dijabetesu	303		3
+dinosaurusu	24		4
 diskursu	823		2
-donesu	6526		2
+donesu	6526		3
 dopisu	1291		2
 doprinesu	3258		2
 doprinosu	1107		4
@@ -63,8 +63,8 @@ duvankesu			2
 džinsu	61		2
 džuboksu	15		2
 efesu			2
-egzodusu	88		2
-ekscesu	17		2
+egzodusu	88		3
+ekscesu	17		3
 ekspresu	71		2
 elipsu	55		2
 enesu			2
@@ -73,18 +73,18 @@ etosu	63		2
 faksu	761		2
 farsu	421		2
 feliksu			2
-feniksu	46		2
+feniksu	46		3
 fesu			2
-fetusu	70		2
+fetusu	70		3
 fiksu			2
 fitnesu			2
 flisu			2
-fokusu	2575		2
+fokusu	2575		3
 fundusu	97		2
 gasu	709		2
 gipsu	260		2
 glasu	2934		2
-globusu	120		2
+globusu	120		3
 gorostasu	23		4
 grimasu	239		2
 habitusu	51		2
@@ -95,11 +95,11 @@ hipokampusu	45		2
 hipotalamusu	84		2
 hondurasu			2
 hostesu	29		2
-humusu	16		2
-ikonostasu	334		2
+humusu	16		3
+ikonostasu	334		3
 ilinoisu			2
-impulsu	92		2
-indeksu	1001		2
+impulsu	92		3
+indeksu	1001		3
 interesu	18081		4
 interfejsu	636		2
 irisu	20		2
@@ -108,12 +108,12 @@ istresu	97		2
 isu			2
 izasu			2
 iznesu	2557		2
-iznosu	20706		2
+iznosu	20706		3
 jesu	34064		2
 kadisu			2
 kaktusu	17		2
 kampusu	872		2
-kanabisu	15		3
+kanabisu	15		4
 kanzasu			2
 kaosu			2
 karijesu			2
@@ -125,23 +125,23 @@ kesu	2315		2
 kitsu			2
 klasu	5623		2
 klitorisu	113		3
-kodeksu	513		2
+kodeksu	513		3
 kokosu	23		3
 kokusu	15		2
 kolapsu	537		2
 kolosu	14		2
 kolumbusu			2
 komandosu			2
-kompasu	43		2
-kompleksu	2550		2
-kompromisu	363		2
-kongresu	4469		2
+kompasu	43		3
+kompleksu	2550		3
+kompromisu	363		3
+kongresu	4469		3
 konkursu	8732		2
-konsenzusu	336		2
+konsenzusu	336		3
 kontesu			2
 kontrabasu	36		2
 konusu			2
-korpusu	763		2
+korpusu	763		3
 korteksu	101		2
 kosmosu	1572		2
 kosu	16402		2
@@ -150,7 +150,7 @@ krivonosu			2
 krosu	734		2
 kulisu	40		2
 kupresu			2
-kupusu	247		2
+kupusu	247		3
 kursu	5540		2
 kustosu	54		3
 kusu			2
@@ -176,7 +176,7 @@ mercedesu	396		2
 mesu	1259		2
 međuodnosu	26		2
 miksu	255		2
-minusu	2030		2
+minusu	2030		3
 mirisu	866		3
 misu	551		2
 nablusu			2
@@ -185,9 +185,9 @@ nadvisu			2
 nanesu	625		2
 nanosu	48		2
 napisu	356		2
-narcisu	33		2
+narcisu	33		3
 narkosu			2
-natpisu	279		2
+natpisu	279		3
 nesu	80		2
 neukusu	40		2
 nijansu	3081		2
@@ -199,10 +199,10 @@ nukleusu	40		4
 obasu			2
 obrisu	33		3
 odnesu	957		2
-odnosu	113011		2
+odnosu	113011		3
 oglasu	929		3
 omnibusu	35		2
-opisu	3183		2
+opisu	3183		3
 opusu	855		2
 orleansu			2
 osu	544		2
@@ -211,20 +211,20 @@ otpisu	422		2
 otresu	77		2
 pankreasu	100		2
 papirusu	64		4
-paradoksu	156		2
+paradoksu	156		3
 paraklisu	98		2
 parastosu	224		2
 parnasu			2
 pasu	438		2
 pasusu	634		3
-patosu	214		2
+patosu	214		3
 patronesu			2
-penisu	230		2
+penisu	230		3
 penthausu	18		2
 performansu	393		2
 persu			2
 pikasu			2
-plavokosu	61		2
+plavokosu	61		3
 plesu	923		2
 plusu	1625		2
 podbilansu			2
@@ -232,24 +232,24 @@ podnesu	4479		2
 podprocesu			2
 pogasu			2
 pojasu	1730		3
-pokusu			2
+pokusu			3
 polisu	907		2
 ponesu	1852		2
-ponosu	246		2
+ponosu	246		3
 popasu	16		2
-popisu	4904		2
+popisu	4904		3
 posu			2
 potesu			2
 potklasu			2
-potpisu	804		2
-potresu	148		2
+potpisu	804		3
+potresu	148		3
 praksu	11360		2
 pravopisu	709		4
-preferansu	28		3
+preferansu	28		4
 premisu	154		2
 prenesu	3103		2
-prenosu	2669		2
-prepisu	163		2
+prenosu	2669		3
+prepisu	163		3
 presu	22		2
 pretresu	1082		2
 preuznesu			2
@@ -258,12 +258,12 @@ primesu	65		3
 primusu			2
 prinesu	205		2
 prinosu	368		2
-prkosu	49		2
-procesu	30255		2
+prkosu	49		3
+procesu	30255		3
 proglasu	256		3
-progresu	414		2
+progresu	414		3
 pronesu	35		2
-propisu	798		2
+propisu	798		3
 prosu	172		2
 protresu	40		2
 psu	1762		1
@@ -274,17 +274,17 @@ radijusu	217		4
 raspisu	148		2
 rasu	1372		2
 razasu			2
-razglasu	50		2
+razglasu	50		3
 raznesu	94		2
 rebalansu	1443		4
-rebusu	31		2
-refleksu	56		2
+rebusu	31		3
+refleksu	56		3
 regresu	25		2
 renesansu	479		2
-resursu	205		2
+resursu	205		3
 reversu	106		2
 risu	20		2
-riđokosu	13		2
+riđokosu	13		3
 rodosu			2
 rojtersu			2
 romansu	551		2
@@ -300,7 +300,7 @@ sepsu	115		2
 servisu	5938		2
 silosu	105		2
 sinopsisu	59		2
-sintaksu	237		2
+sintaksu	237		3
 sisu	345		2
 skepsu	227		2
 smesu	1827		2
@@ -310,7 +310,7 @@ spasu	2032		2
 spisu	619		2
 springsu			2
 stasu	91		2
-statusu	7017		2
+statusu	7017		3
 stjuardesu	56		2
 stresu	1009		2
 su	4783062		1
@@ -319,7 +319,7 @@ taksu			2
 talasu	1563		3
 tasu			2
 teksasu			2
-tenisu	2145		2
+tenisu	2145		3
 terasu	2445		2
 termosu	16		2
 testisu	49		3
@@ -331,13 +331,13 @@ toplesu	304		2
 transu	546		2
 trasu	935		2
 tresu	616		2
-trolejbusu	60		2
+trolejbusu	60		3
 trsu			2
 turnusu	125		2
-ubrusu	51		2
-udesu	698		2
+ubrusu	51		3
+udesu	698		3
 ukrasu	42		3
-ukusu	4875		2
+ukusu	4875		3
 unesu	1540		2
 unosu	725		2
 upisu	1780		2
@@ -350,12 +350,12 @@ vaskrsu	144		2
 vasu			2
 vegasu			2
 velsu			2
-virusu	448		2
+virusu	448		3
 visu	445		2
 vrbasu			2
 zanesu	87		2
-zanosu	833		2
-zapisu	852		2
+zanosu	833		3
+zapisu	852		3
 zasu	12		2
 zatresu	107		2
 zavesu	571		3
@@ -377,9 +377,9 @@ zlatokosu	31		2
 špiritusu			2
 štosu	40		2
 živopisu	132		2
-životopisu	75		2
+životopisu	75		3
 bijesu	34		3
 ljetopisu			4
-prijenosu	35		3
+prijenosu	35		4
 smjesu			2
 zavjesu			3

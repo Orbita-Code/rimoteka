@@ -35,7 +35,7 @@ blanket		M	2
 bonitet	389		2
 briket	74		2
 brudet			2
-brzoplet	83		2
+brzoplet	83		3
 budžet		M	2
 buket	765		2
 cigaret			2
@@ -59,7 +59,7 @@ dramolet	17		2
 dualitet	56		2
 dublet			2
 duet	1056		2
-dvadeset	22489		2
+dvadeset	22489		3
 dvadesetpet			2
 dženet		M	2
 džet			1
@@ -322,7 +322,7 @@ sterilitet	382		2
 stodvadeset			2
 stopedeset			2
 strelomet			3
-suncokret	1491		2
+suncokret	1491		3
 sunet		M	2
 supermarket		M	2
 susret	26733		2
@@ -341,7 +341,7 @@ tonalitet	109		2
 totalitet	202		2
 trepet	394		2
 treset	164		2
-trideset	11144		2
+trideset	11144		3
 tridesetpet			2
 triplet		M	2
 trotinet			2

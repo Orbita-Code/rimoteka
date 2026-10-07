@@ -35,7 +35,7 @@ sag	86		1
 sarkofag	262		2
 sontag			2
 trag	10110		1
-unatrag	483		2
+unatrag	483		3
 vrag	1020		1
 zigzag			2
 zontag			2

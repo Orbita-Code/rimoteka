@@ -1,6 +1,6 @@
 178
 Isus			2
-abakus	56		2
+abakus	56		3
 abortus	1438		2
 amadeus			2
 angelus			2
@@ -26,7 +26,7 @@ citrus	45		2
 dekubitus			2
 deus			2
 dibidus		M	2
-dinosaurus	216		2
+dinosaurus	216		3
 diplodokus			2
 drajfus			2
 duktus			2
@@ -76,7 +76,7 @@ konsenzus	4434		2
 konus			2
 kornelijus			2
 korpus	2189		2
-kosinus	28		2
+kosinus	28		3
 krampus			2
 kraus			2
 krokus			2
@@ -135,7 +135,7 @@ radijus	426		3
 radius			2
 rajferšlus			2
 rajfešlus			2
-rajsferšlus	91		2
+rajsferšlus	91		3
 rajsfešlus			2
 rebus	181		2
 remus			2

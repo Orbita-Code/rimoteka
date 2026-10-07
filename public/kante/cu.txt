@@ -2,11 +2,11 @@
 Firencu			2
 Leskovcu			2
 Mesecu	13529		3
-Podgoricu			3
+Podgoricu			4
 Požarevcu			4
-Suboticu			3
+Suboticu			4
 acu			2
-advokaticu	14		2
+advokaticu	14		3
 afrikancu			2
 albancu			2
 aleksincu			2
@@ -19,7 +19,7 @@ aušvicu			2
 aščinicu			2
 babicu	75		3
 bajalicu	71		2
-bakalnicu	40		2
+bakalnicu	40		3
 bakicu	65		2
 balavcu			3
 balkancu			2
@@ -36,13 +36,13 @@ belancu			2
 beležnicu			2
 benkovcu			2
 berbernicu	28		2
-beskućnicu			3
-besmislicu	197		3
-besparicu	126		3
-besposlicu	14		3
+beskućnicu			4
+besmislicu	197		4
+besparicu	126		4
+besposlicu	14		4
 bestidnicu			2
 bećarcu	14		2
-bilježnicu	31	J	3
+bilježnicu	31	J	4
 biljčicu	20		2
 bistricu			2
 bjelancu			2
@@ -51,7 +51,7 @@ blagovaonicu			2
 blicu	1172		2
 blizancu	61		2
 bljuzgavicu			4
-bludnicu	56		2
+bludnicu	56		3
 bobicu	26		2
 bocu	1401		2
 bogatašicu			2
@@ -59,22 +59,22 @@ bogomoljcu			2
 bogonoscu			2
 bogorodicu	444		2
 bojicu	14		2
-bolesnicu	56		2
+bolesnicu	56		3
 boljevcu			2
-bolnicu	7614		2
+bolnicu	7614		3
 bombonicu			2
 borcu	519		2
 borovcu			2
-borovnicu	108		2
+borovnicu	108		3
 bosancu	31		2
 bosančicu	15		2
 bočicu	547		3
-božicu	35		2
+božicu	35		3
 božićnicu			2
 bracu	149		2
-bradavicu	314		3
+bradavicu	314		4
 bradicu	54		2
-braniocu	232		3
+braniocu	232		4
 branjenicu			2
 brankicu			2
 bratancu	26		2
@@ -92,29 +92,29 @@ brijačnicu			2
 britancu	63		2
 britvicu			3
 brnjicu	36		3
-brodicu			2
+brodicu			3
 brojalicu			2
 brojanicu	116		2
 brojiocu			2
 brusilicu	41		2
-brusnicu	69		2
+brusnicu	69		3
 bubicu	108		2
-bubuljicu	88		2
-budilicu	10		3
-budnicu	10		2
-bugaršticu	16		2
+bubuljicu	88		3
+budilicu	10		4
+budnicu	10		3
+bugaršticu	16		3
 bujanovcu			2
-bujicu	355		2
+bujicu	355		3
 bukvicu	150		3
 burmuticu			2
-bušilicu	135		3
+bušilicu	135		4
 caricu	349		3
 cecu			2
 ceduljicu	97		2
-cepanicu	51		3
+cepanicu	51		4
 cerovcu			2
-cevanicu	42		2
-cevčicu	128		2
+cevanicu	42		3
+cevčicu	128		3
 cicu			2
 cicvaricu			2
 cipelicu	59		2
@@ -124,51 +124,51 @@ crncu	57		2
 crnicu	33		2
 crnogorcu			2
 crticu	140		3
-crvenkapicu	13		4
+crvenkapicu	13		5
 curicu	86		3
 dacu			2
 dalmatincu			2
-današnjicu	128		3
+današnjicu	128		4
 danicu			2
 darodavcu	76		2
 darovnicu			2
-davaocu	287		3
+davaocu	287		4
 davljenicu			2
-daščicu	37		2
+daščicu	37		3
 debeljucu	12		2
 decu	56663		2
 dedicu			2
 dekicu	31		2
-deonicu	1800		2
+deonicu	1800		3
 desetercu	165		2
 deseticu	18		2
-desetogodišnjicu	360		3
-desetoricu	127		2
-desnicu	608		2
+desetogodišnjicu	360		4
+desetoricu	127		3
+desnicu	608		3
 despoticu	14		2
 despotovcu			2
 deveticu			2
-devetoricu	62		2
-devicu	352		2
-devojčicu	2958		2
+devetoricu	62		3
+devicu	352		3
+devojčicu	2958		3
 dečicu	316		2
 dicu		M	2
 distancu	1051		2
 dizalicu	147		4
 dlačicu	51		3
 dnevnicu	415		3
-dobitnicu	42		3
+dobitnicu	42		4
 dobricu	287		2
-dobrodošlicu	2303		2
+dobrodošlicu	2303		3
 docu			2
-dokolicu	122		3
+dokolicu	122		4
 doktoricu			2
 dokumentarcu	341		2
 dolakticu			2
-domaćicu	273		2
-domovnicu	18		2
+domaćicu	273		3
+domovnicu	18		3
 donosiocu			2
-dopisnicu	65		3
+dopisnicu	65		4
 doskočicu	33		2
 dostavnicu	41		2
 doušnicu			2
@@ -186,28 +186,28 @@ drvaricu			2
 drvcu			2
 držalicu			2
 držaocu			2
-državicu	85		3
+državicu	85		4
 dubočicu			2
 duksericu	49		2
 duplericu	15		2
 dušanovcu			2
-dušicu	179		2
+dušicu	179		3
 dvadeseticu			2
 dvanaestercu	24		2
 dvanaesticu	23		2
-dvanaestoricu	49		2
-dvojicu	3790		2
+dvanaestoricu	49		3
+dvojicu	3790		3
 dvojnicu	45		3
 dvokolicu	14		2
 dvorcu	979		2
 dvoumicu			2
-džigericu	257		3
+džigericu	257		4
 džukcu			2
-ekavicu	96		3
+ekavicu	96		4
 evicu			2
 evropejcu			2
 feudalcu			2
-figuricu	90		2
+figuricu	90		3
 flašicu			2
 flekicu	18		2
 francu			2
@@ -219,27 +219,27 @@ gatalicu			2
 gazdaricu	99		4
 genijalcu	22		2
 gerilcu			2
-gibanicu	214		3
-glagoljicu	99		2
-glavicu	549		2
+gibanicu	214		4
+glagoljicu	99		3
+glavicu	549		3
 glavičicu			2
-glavnicu	496		2
+glavnicu	496		3
 gledaocu			2
 gljivicu	48		2
 glumcu	919		2
-glumicu	1237		2
+glumicu	1237		3
 gocu			2
-godišnjicu	3483		3
-golubicu	58		2
+godišnjicu	3483		4
+golubicu	58		3
 golupcu			2
 gomilicu	59		2
 goraždevcu			2
 goricu	122		2
-gorušicu	168		2
+gorušicu	168		3
 gorčicu			2
-gospodaricu	37		2
+gospodaricu	37		3
 gospođicu	213		4
-gostionicu	134		2
+gostionicu	134		3
 govedaricu	11		2
 govornicu	1218		2
 grabljivcu			2
@@ -248,10 +248,10 @@ grabovcu			2
 gracu	435		2
 gradicu			2
 gradinicu			2
-gradonačelnicu	192		3
+gradonačelnicu	192		4
 grahoricu	12		2
-granicu	9072		2
-grančicu	263		2
+granicu	9072		3
+grančicu	263		3
 gračacu			2
 gračanicu			2
 grbavcu			3
@@ -262,11 +262,11 @@ grickalicu	47		2
 grijalicu		J	2
 grlicu	36		3
 grobnicu	894		3
-groficu	31		2
-groznicu	480		2
+groficu	31		3
+groznicu	480		3
 grudvicu	40		2
 grujicu			2
-gruntovnicu			2
+gruntovnicu			3
 grupicu	138		2
 guberevcu			2
 gubicu	51		3
@@ -277,33 +277,33 @@ guzičicu			2
 gđicu	11		2
 hadžinicu			2
 haljinicu	236		2
-haubicu	17		3
+haubicu	17		4
 heftalicu			2
-hercegovcu			3
-hobotnicu	95		3
+hercegovcu			4
+hobotnicu	95		4
 hodalicu	13		2
 hoklicu			2
 hranilicu	109		2
-hraniteljicu			2
+hraniteljicu			3
 hrpicu	15		2
 hrskavicu	128		2
-hrvaticu	67		3
-iglicu	29		2
+hrvaticu	67		4
+iglicu	29		3
 igraonicu	386		2
-igračicu	279		2
+igračicu	279		3
 igračkicu	36		2
 igračnicu	15		2
 igricu	1295		2
 ikonicu	981		2
 ilegalcu			2
-imaocu	133		3
+imaocu	133		4
 imenicu	185		4
 indijancu	19		2
 indijcu	12		2
 instancu	249		2
 intermecu	23		2
 ircu	29		2
-iskaznicu	34		3
+iskaznicu	34		4
 iskricu	18		3
 iskušenicu			2
 ispisnicu	95		2
@@ -313,8 +313,8 @@ istinicu			2
 ivanjicu			2
 ivicu	2635		3
 izabranicu	92		2
-izbeglicu	53		3
-izdajicu			3
+izbeglicu	53		4
+izdajicu			4
 izdavaocu			2
 izmaglicu	154		2
 iznutricu	12		2
@@ -328,39 +328,39 @@ jajcu	137		2
 jalovicu			4
 japancu	68		2
 jarcu	231		2
-jarebicu	20		2
+jarebicu	20		3
 jasenovcu			2
 jastrepcu			2
 jastučnicu	59		2
 jazavcu	30		3
 jedanaestercu	25		2
 jedincu	57		2
-jedinicu	4009		2
+jedinicu	4009		3
 jedrilicu	102		2
 jemcu	13		2
 jezercu	13		2
 jocu			2
 jogunicu			2
 jovicu			2
-junicu	96		2
+junicu	96		3
 juvelirnicu			2
-kabanicu	116		2
-kadionicu	92		4
+kabanicu	116		3
+kadionicu	92		5
 kafanicu	66		2
 kafedžinicu			2
 kaficu			2
 kaluđericu	53		2
 kamenicu	265		4
-kamilicu	116		2
+kamilicu	116		3
 kanticu	83		2
-kapelicu	36		2
+kapelicu	36		3
 kapetanicu			2
 kapicu	238		3
 kapljicu	158		3
-kapricu	14		2
-karlicu	239		2
+kapricu	14		3
+karlicu	239		3
 karlovcu			2
-karticu	9396		2
+karticu	9396		3
 kasapnicu			2
 kasicu	128		2
 katicu			2
@@ -368,11 +368,11 @@ kaucu			2
 kaznicu			2
 kaznionicu			2
 kašicu	221		2
-kašičicu	1518		3
+kašičicu	1518		4
 keceljicu			2
 kecu			2
 kelnericu			2
-kepecu			2
+kepecu			3
 kesicu	569		2
 kibucu	30		2
 kiflicu	23		2
@@ -385,7 +385,7 @@ kladionicu	371		2
 klamericu			2
 klancu	191		2
 klanicu	366		2
-klaonicu	13		2
+klaonicu	13		3
 klicu	319		2
 klijenticu			2
 klincu			2
@@ -395,8 +395,8 @@ klupicu	91		2
 kneževcu			2
 knjaževcu			2
 knjižicu	2364		3
-kobasicu	340		2
-kobilicu	18		3
+kobasicu	340		3
+kobilicu	18		4
 kockarnicu	101		3
 kockicu	328		2
 kocu	42		2
@@ -410,13 +410,13 @@ kolibicu	29		2
 komarcu	23		2
 komercu	25		2
 komovicu	25		2
-komšinicu	315		3
+komšinicu	315		4
 koncu	1328		2
 konjicu	411		3
 konjokradicu			2
 konjušnicu	79		2
-konobaricu	104		2
-konopcu	117		2
+konobaricu	104		3
+konopcu	117		3
 kopirnicu			2
 koprivicu			2
 koprivnicu			2
@@ -434,44 +434,44 @@ kosturnicu	135		3
 kotaricu	65		2
 kotlarnicu	152		3
 kotlovnicu			3
-kovanicu	155		2
+kovanicu	155		3
 kovačicu			2
 kovačnicu	52		3
-kovitlacu	108		2
+kovitlacu	108		3
 kovnicu			2
 kozarcu			2
 kočnicu	648		3
-košaricu	18		3
+košaricu	18		4
 košnicu	823		3
-košticu	44		2
+košticu	44		3
 koštunicu			2
-košuljicu	157		3
-koščicu	25		2
+košuljicu	157		4
+koščicu	25		3
 kožicu	393		3
 kožuricu			2
-kradljivcu	41		2
+kradljivcu	41		3
 kradljivicu	23		2
 kragujevcu			2
-kraljicu	982		2
+kraljicu	982		3
 krastavcu	33		3
 kravicu	135		2
 kredencu	35		2
-krilaticu	183		2
+krilaticu	183		3
 kriminalcu	156		2
 krivcu	101		2
 krivicu	5052		2
 krkljancu			2
-krojačicu	20		2
+krojačicu	20		3
 krpicu	142		3
 krsnicu			2
-krstaricu	74		3
-krstionicu	41		3
-krticu	48		2
+krstaricu	74		4
+krstionicu	41		4
+krticu	48		3
 krunicu	78		3
 krupicu			2
 kruševcu			2
-kružnicu	51		2
-krvavicu			3
+kružnicu	51		3
+krvavicu			4
 krčmaricu	14		2
 krštenicu	101		4
 kucavicu	60		4
@@ -479,13 +479,13 @@ kuglicu	210		2
 kukavicu	83		4
 kukicu	23		2
 kukuljicu	12		2
-kumicu	13		2
-kupaonicu	43		2
+kumicu	13		3
+kupaonicu	43		3
 kupcu	3121		2
 kupicu			2
 kuscu			2
 kusturicu			2
-kutijicu	281		3
+kutijicu	281		4
 kuvaricu	111		2
 kućicu	928		3
 kučicu			2
@@ -495,39 +495,39 @@ kvrapcu			2
 kvržicu	54		2
 kćercu			2
 kćerkicu	86		2
-labudicu			2
-ladicu	65		2
+labudicu			3
+ladicu	65		3
 lajkovcu			2
 lampicu	166		2
 lancu	3882		2
-lasicu	25		2
+lasicu	25		3
 laskavcu			2
 lastavicu	35		4
 laticu	30		3
-latinicu	1835		2
-lavicu	52		2
+latinicu	1835		3
+lavicu	52		3
 lazarevcu			2
 lađicu	61		2
 lažljivicu			2
-ledenicu	21		2
+ledenicu	21		3
 lemilicu			2
 lenivcu			2
 lenjivcu	10		2
-lepoticu	484		2
+lepoticu	484		3
 leptiricu	18		2
 lestvicu	438		3
-letelicu	619		3
+letelicu	619		4
 letilicu			2
 letnjikovcu	113		2
 letvicu	111		2
-levicu	618		2
+levicu	618		3
 licencu	4301		2
 licu			2
-lisicu	291		2
-lisnicu			2
-liticu	246		2
+lisicu	291		3
+lisnicu			3
+liticu	246		3
 livnicu			2
-lizalicu	76		3
+lizalicu	76		4
 ljigavcu			2
 ljotićevcu			2
 ljubavnicu	450		3
@@ -539,21 +539,21 @@ ljuskicu			2
 ljuticu	10		2
 lojanicu	15		2
 loncu	594		2
-lopaticu	74		3
+lopaticu	74		4
 lopticu	1016		3
 lovcu	237		2
 lozicu			2
-ložnicu	65		2
-lubenicu	288		2
-ludnicu	370		2
+ložnicu	65		3
+lubenicu	288		3
+ludnicu	370		3
 lukavcu	20		3
-lutalicu	54		3
+lutalicu	54		4
 lutkicu	38		3
 macu	600		2
-madracu	30		2
-magarcu	247		2
-magaricu	35		3
-maglicu	18		2
+madracu	30		3
+magarcu	247		3
+magaricu	35		4
+maglicu	18		3
 majicu	2901		3
 majncu			2
 majstoricu	125		2
@@ -563,14 +563,14 @@ maljicu			2
 maloletnicu	59		5
 mamcu	29		2
 mamicu	154		3
-maramicu	456		3
+maramicu	456		4
 maratoncu	29		2
-marelicu			2
+marelicu			3
 maricu			2
 marincu	16		2
 markicu	385		2
 maslacu	132		3
-masnicu	26		2
+masnicu	26		3
 mastionicu	19		2
 matericu	551		4
 maternicu	26		4
@@ -588,9 +588,9 @@ menicu	436		3
 mesecu	13529		3
 mesnicu			2
 mestašcu	111		2
-metvicu			2
-međicu	27		2
-mešalicu	78		3
+metvicu			3
+međicu	27		3
+mešalicu	78		4
 mešancu	11		2
 micu			2
 milanovcu			2
@@ -599,34 +599,34 @@ miljenicu	41		4
 minicu			2
 minuticu			2
 mirotvorcu			2
-misliocu	78		3
+misliocu	78		4
 mitrovcu			2
 mišicu	84		3
 mjesečnicu		J	2
-mladencu	31		2
+mladencu	31		3
 mladenovcu			2
 mladicu	130		2
 mladuncu	13		2
 mlaznicu	39		2
 mlekaricu			2
-modricu	98		2
+modricu	98		3
 mojkovcu			2
 mokranjcu			2
 molbicu			2
 moliocu			2
 moljcu	15		2
-mornaricu	299		2
+mornaricu	299		3
 mrežicu	233		2
-mrežnicu			2
+mrežnicu			3
 mrljicu	13		2
-mrtvacu	62		2
+mrtvacu	62		3
 mrtvačnicu	69		3
 mrvicu	566		3
-mudracu	36		2
+mudracu	36		3
 mučenicu	215		4
-mušicu	304		2
+mušicu	304		3
 muškarcu	1914		2
-nadlakticu	105		3
+nadlakticu	105		4
 nadlanicu	24		2
 nadnicu	278		3
 nadstrešnicu	88		2
@@ -637,94 +637,94 @@ namesnicu			2
 namirnicu	457		2
 napojnicu	130		3
 napolicu	10		2
-narednicu			3
+narednicu			4
 narudžbenicu	87		2
-narukvicu	537		3
+narukvicu	537		4
 naručiocu	349		2
-naslednicu	108		3
+naslednicu	108		4
 naslovnicu	200		2
 nastavnicu	192		3
-natuknicu			3
+natuknicu			4
 naučnicu	44		2
-naušnicu	13		3
-navijačicu	17		2
+naušnicu	13		4
+navijačicu	17		3
 načelnicu	91		2
 neandertalcu			2
-nedoumicu	855		3
+nedoumicu	855		4
 negativcu	26		2
-negovateljicu	21		2
+negovateljicu	21		3
 nemcu	143		2
 nemicu			2
 nepcu	159		2
 nepoznanicu	111		5
 nerodicu			2
-nesanicu	490		3
+nesanicu	490		4
 nesrećnicu	21		2
-nestašicu	499		3
-nesuglasicu	15		3
-nesvesticu	105		3
-nevericu	451		3
+nestašicu	499		4
+nesuglasicu	15		4
+nesvesticu	105		4
+nevericu	451		4
 nevernicu			3
-neznalicu			3
+neznalicu			4
 neznancu	72		2
 neđeljicu		J	2
 nimficu			2
 nindžicu			2
-njegovateljicu			2
+njegovateljicu			3
 njivicu			2
 njuškicu	43		2
-nobelovcu	101		3
-nogavicu	88		3
+nobelovcu	101		4
+nogavicu	88		4
 nogicu			2
 nosiocu			2
 nosnicu	32		2
 noticu			2
 novcu	5116		2
 novicu			2
-novčanicu	505		2
+novčanicu	505		3
 noćcu			2
-nožicu	85		2
+nožicu	85		3
 obadvojicu			2
 obilaznicu	497		2
-obojicu	903		2
-obožavaocu	16		3
+obojicu	903		3
+obožavaocu	16		4
 obramicu			2
-obrascu	2016		2
+obrascu	2016		3
 obrenovcu			2
-obveznicu	111		3
+obveznicu	111		4
 ocu			2
-odrednicu	702		3
+odrednicu	702		4
 odrpancu			2
 odstupnicu	242		2
 ogradicu			2
-ogrlicu	725		3
+ogrlicu	725		4
 okosnicu	1368		2
 okretnicu	53		2
 okružnicu	25		2
 okućnicu	144		2
-olakšicu	236		3
+olakšicu	236		4
 omladincu			2
-omotnicu	33		3
-opaticu			2
+omotnicu	33		4
+opaticu			3
 operativcu	32		2
 oplencu			2
-optužnicu	2117		3
+optužnicu	2117		4
 orahovcu	88		2
 orašcu			2
 ormaricu			2
 ormicu			2
 oružarnicu			2
-oskudicu	171		3
-osloncu	90		2
+oskudicu	171		4
+osloncu	90		3
 osmatračnicu	44		2
 osmercu	44		2
-osmicu	280		2
-osmoricu	96		2
-osmrtnicu			3
+osmicu	280		3
+osmoricu	96		3
+osmrtnicu			4
 osnovicu	1239		2
 ostružnicu			2
 ostrvcu	55		2
-otmicu	450		2
+otmicu	450		3
 otpremnicu	82		2
 otpusnicu			2
 otrovnicu	18		2
@@ -732,11 +732,11 @@ ovcu	614		2
 ovčicu	30		2
 očajnicu			2
 očevicu	11		2
-oštricu	456		2
+oštricu	456		3
 pacijenticu			2
 padalicu	56		2
 padavicu	12		4
-pahuljicu	38		2
+pahuljicu	38		3
 pajacu			2
 paklicu	105		2
 pakracu			2
@@ -752,7 +752,7 @@ parnicu	718		2
 partijicu			2
 partnericu			2
 patkicu			3
-paunicu	12		2
+paunicu	12		3
 paćenicu			2
 pedeseticu			2
 pekarnicu			3
@@ -760,15 +760,15 @@ penzijicu			2
 perecu	29		2
 pericu			2
 perionicu	98		2
-perjanicu	119		3
+perjanicu	119		4
 perućcu			2
 perućicu			2
 pesmaricu	26		2
 pesmicu	436		2
-pesnicu	372		2
-peticu	579		2
-petoricu	404		2
-pevačicu	999		2
+pesnicu	372		3
+peticu	579		3
+petoricu	404		3
+pevačicu	999		3
 pevcu	28		2
 pećnicu	259		2
 pečenicu	96		2
@@ -776,112 +776,112 @@ peštericu			2
 picu	964		2
 pijacu			2
 pijancu	28		2
-pijanicu	34		3
+pijanicu	34		4
 pijavicu	38		4
 piljarnicu			2
 pisarnicu	182		2
 piscu	2097		2
 pitalicu	37		2
 pitomcu	19		2
-pivnicu	112		2
+pivnicu	112		3
 placu	1334		2
 plamencu	11		2
-plesačicu	58		2
-pletenicu	242		2
+plesačicu	58		3
+pletenicu	242		3
 pliskavicu			2
 pljeskavicu	297		2
 pljuvaonicu			2
 pločicu	460		3
 pobediocu	11		2
 pobednicu	201		2
-podlacu			2
+podlacu			3
 podlakticu	129		2
 podmornicu	220		3
-podnosiocu	1099		3
-podružnicu	99		3
+podnosiocu	1099		4
+podružnicu	99		4
 podsetnicu			2
 podstanicu	79		2
 podvezicu	16		2
 pogancu	10		2
 pogačicu	14		2
-poglavicu	38		3
+poglavicu	38		4
 pohvalnicu	60		2
 pojcu			2
 pojedincu	1854		2
 pokajnicu	12		2
-poklopcu	394		2
+poklopcu	394		3
 pokojnicu	26		2
 pokoricu	25		2
 pokrajcu			2
 pokrovcu			2
 pokroviteljicu			2
 policajcu	598		2
-policu	586		2
+policu	586		3
 poljanicu			2
 poljubcu			2
-poljupcu	170		2
-polovicu	154		2
+poljupcu	170		3
+polovicu	154		3
 polumesecu	25		5
 polužicu			2
-pomoćnicu	160		2
-porodicu	17243		3
+pomoćnicu	160		3
+porodicu	17243		4
 portirnicu	37		2
 porukicu	29		2
-poručnicu			3
-posetiocu	488		3
-posetnicu	15		3
+poručnicu			4
+posetiocu	488		4
+posetnicu	15		4
 poskočicu	13		2
-poslanicu	553		3
-poslasticu	627		3
+poslanicu	553		4
+poslasticu	627		4
 poslastičarnicu	244		2
-posledicu	6210		3
-posljedicu		J	3
+posledicu	6210		4
+posljedicu		J	4
 poslodavcu	1372		2
 poslovicu	473		2
 poslovnicu	229		2
-posrednicu	12		3
+posrednicu	12		4
 posteljicu	140		4
 posudicu	99		2
 poternicu	456		3
 potkolenicu	80		2
-potkovicu	68		3
-potpeticu	37		3
-potpisnicu	20		3
-potpredsednicu	190		3
+potkovicu	68		4
+potpeticu	37		4
+potpisnicu	20		4
+potpredsednicu	190		4
 potrkušicu			2
 poturicu			2
 poveriocu	445		2
 povesnicu	43		2
 povetarcu	130		2
-poveznicu	40		3
+poveznicu	40		4
 povišicu	513		2
-povlasticu	245		3
+povlasticu	245		4
 povodcu	92		2
 povraticu			2
 pozajmicu	1753		2
 pozivnicu	556		3
-poznanicu	69		3
+poznanicu	69		4
 poznavaocu			2
-pozornicu	1019		2
-početnicu	22		3
+pozornicu	1019		3
+početnicu	22		4
 počiniocu	112		2
 pošalicu	43		2
 pošiljaocu	217		2
 poštovaocu			2
 pramcu	126		2
 praocu	21		2
-praonicu	18		2
+praonicu	18		3
 prasicu	54		2
-pratiocu	113		3
+pratiocu	113		4
 pravcu	25783		2
 prebeglicu			2
 predikaonicu			2
 predionicu	12		2
 prednjicu			2
-predsednicu	938		3
+predsednicu	938		4
 predstavnicu	159		3
 pregaocu			2
-prekretnicu	943		3
+prekretnicu	943		4
 premosnicu			2
 prenosiocu			2
 prepelicu	33		4
@@ -889,30 +889,30 @@ prepečenicu	43		2
 presicu			2
 preslicu	93		3
 prestonicu	2807		3
-prethodnicu	120		3
-pretincu	19		2
+prethodnicu	120		4
+pretincu	19		3
 pretvoricu			2
 prevodiocu			2
-prečicu	541		2
-pridošlicu			3
-prijateljicu	773		2
+prečicu	541		3
+pridošlicu			4
+prijateljicu	773		3
 prijavnicu	32		2
 prikolicu	498		2
 primaocu			2
 princu	474		2
-pripadnicu	50		3
+pripadnicu	50		4
 pripravnicu			2
-pristalicu	39		3
+pristalicu	39		4
 pristupnicu	357		2
 priznanicu	266		2
 pričaonicu	38		2
 pričicu	179		3
-prodavačicu	164		2
+prodavačicu	164		3
 prodavcu	885		2
 prodavnicu	3506		3
 profesionalcu	145		2
 progoniocu			2
-prolaznicu	30		3
+prolaznicu	30		4
 propalicu			2
 propusnicu	216		2
 proročicu	15		2
@@ -920,11 +920,11 @@ prosenicu			2
 prosiocu			2
 protivnicu	163		3
 prskalicu	66		2
-prvencu	180		2
+prvencu	180		3
 prvoborcu	17		2
 pticu	995		2
 ptičicu	56		3
-pudlicu	64		2
+pudlicu	64		3
 pukovnicu			2
 pumparicu			2
 pumpicu	291		2
@@ -936,10 +936,10 @@ puslicu			2
 putnicu	27		3
 puškarnicu			2
 pušnicu	21		2
-pčelicu	31		2
-pšenicu	2472		2
-radilicu	19		3
-radionicu	3900		2
+pčelicu	31		3
+pšenicu	2472		3
+radilicu	19		4
+radionicu	3900		3
 radnicu	208		3
 radnjicu	35		2
 radojicu			2
@@ -947,14 +947,14 @@ rakijicu	121		2
 ralicu			2
 rancu	223		2
 ranicu	78		3
-raskrsnicu	599		3
+raskrsnicu	599		4
 raspuštenicu	19		2
 ratnicu	12		3
 ravanicu			2
 ravnicu	550		2
 ravnodnevnicu	18		2
-razglednicu	275		3
-razmiricu			3
+razglednicu	275		4
+razmiricu			4
 razrešnicu			2
 računicu	1478		2
 referencu	474		2
@@ -962,12 +962,12 @@ rekavicu			2
 rekovcu			2
 rezonancu	437		2
 rečcu	25		2
-rečenicu	5331		2
-rečicu	143		2
-ribarnicu	15		2
+rečenicu	5331		3
+rečicu	143		3
+ribarnicu	15		3
 ribicu	431		3
 rikvercu			2
-riznicu	806		2
+riznicu	806		3
 robinjicu			2
 roditeljicu			2
 rodnicu			3
@@ -975,40 +975,40 @@ rogaticu			2
 rolnicu			2
 romancu			2
 romanopiscu	17		2
-roniocu	24		3
+roniocu	24		4
 rotkvicu	15		2
-rožnicu			2
-rugalicu	41		3
+rožnicu			3
+rugalicu	41		4
 rukavcu	140		2
-rukavicu	343		2
-rukicu	40		2
+rukavicu	343		3
+rukicu	40		3
 rupicu	312		3
 rutvicu			2
-ručicu	458		2
+ručicu	458		3
 rušiocu			2
 saborcu	54		2
-sadnicu	202		2
+sadnicu	202		3
 samcu	16		2
-samicu	106		2
+samicu	106		3
 samoubicu	13		2
 samrtnicu			2
 sanjalicu	13		2
 saobraćajcu	20		2
 saobraćajnicu	337		2
-sapunicu	121		2
+sapunicu	121		3
 saputnicu	86		2
 saradnicu	80		2
 sarmicu	15		2
-sastavnicu	18		3
+sastavnicu	18		4
 satnicu	376		3
 savetnicu	47		2
-saveznicu	29		3
+saveznicu	29		4
 savjetnicu		J	2
 sačmaricu	35		4
 seckalicu	12		2
 sedmericu			2
-sedmicu	1195		2
-sedmoricu	138		2
+sedmicu	1195		3
+sedmoricu	138		3
 sednicu	7452		3
 sejalicu	16		2
 sekretaricu			2
@@ -1019,7 +1019,7 @@ senatoricu			2
 senicu			2
 sentencu	57		2
 seocu			2
-sestricu	121		2
+sestricu	121		3
 sijalicu	749		4
 sijaličicu			2
 sinovcu	48		2
@@ -1028,52 +1028,52 @@ sircu			2
 siroticu	21		2
 sitnicu	1115		2
 sivcu	98		2
-sjekiricu		J	3
-sjenicu	248		2
+sjekiricu		J	4
+sjenicu	248		3
 skakaonicu	46		2
 skicu	483		2
-skijašicu	19		2
-skitnicu			2
+skijašicu	19		3
+skitnicu			3
 skorenovcu			2
 skraćenicu	264		4
 skretnicu	54		2
 slagalicu	303		2
 slamaricu	70		4
-slamčicu	112		2
-slanicu			2
+slamčicu	112		3
+slanicu			3
 slaninicu			2
-slastičarnicu			4
+slastičarnicu			5
 slatkicu			2
 slavicu			2
 slavljenicu	13		2
 slačicu	25		3
 slepcu	95		2
-slepoočnicu	95		2
+slepoočnicu	95		3
 slikovnicu	143		2
 sličicu	447		2
 slovcu			2
 slovencu			2
-složenicu	29		2
+složenicu	29		3
 sluznicu	267		2
 slušalicu	1119		4
 slušaocu			2
 slušaonicu	21		2
 sluškinjicu			2
 službenicu	104		4
-smernicu	128		2
+smernicu	128		3
 smicalicu	38		4
-smočnicu			2
+smočnicu			3
 smrtnicu			3
-smrtovnicu	37		3
+smrtovnicu	37		4
 sobaricu	91		4
 sobicu	168		3
 sokolcu			2
-spajalicu	23		3
+spajalicu	23		4
 spasiocu			2
-spavaonicu	73		2
-spavaćicu	137		2
-spisateljicu	82		2
-spojnicu	62		2
+spavaonicu	73		3
+spavaćicu	137		3
+spisateljicu	82		3
+spojnicu	62		3
 spomenicu	122		2
 spravicu	119		2
 spremačicu	61		2
@@ -1085,27 +1085,27 @@ sremcu			2
 srodnicu	11		3
 staklenicu			2
 stancu	26		2
-stanicu	6327		2
+stanicu	6327		3
 stanodavcu	24		2
-stanovnicu			2
-staraocu	20		3
+stanovnicu			3
+staraocu	20		4
 starcu	839		2
 staricu	376		3
 stazicu	33		2
-stenicu			2
-stepenicu	534		2
+stenicu			3
+stepenicu	534		3
 sticaocu	67		2
-stogodišnjicu	421		3
+stogodišnjicu	421		4
 stoicu			2
-stolicu	3979		2
+stolicu	3979		3
 stoličicu	40		2
 strancu	556		2
-stranicu	7797		2
-stranputicu	190		3
+stranicu	7797		3
+stranputicu	190		4
 stražarnicu			2
 stražnjicu	154		3
 strelcu	363		2
-strelicu	270		2
+strelicu	270		3
 stricu	212		2
 studencu	44		2
 studenicu			2
@@ -1113,35 +1113,35 @@ stupcu	34		2
 stupicu	44		2
 stvaraocu			2
 stvarčicu	111		2
-sudnicu	554		2
+sudnicu	554		3
 suecu			2
 suknjicu	149		2
 suncu	7446		2
-sunčanicu	65		3
+sunčanicu	65		4
 suparnicu	52		2
 supicu	71		2
 supstancu	1057		2
 surdulicu			2
-sutrašnjicu	115		3
+sutrašnjicu	115		4
 suvenirnicu	74		2
-sušicu	26		2
+sušicu	26		3
 sušilicu	17		2
 svakodnevicu	1017		5
 svakodnevnicu			2
 svađalicu	11		2
 svecu	376		2
-sveticu	38		2
-svećicu	80		2
+sveticu	38		3
+svećicu	80		3
 sveštenicu	18		2
 svilajncu			2
 svinjcu	71		2
-svlačionicu	657		2
+svlačionicu	657		3
 svoticu	26		2
-tablicu	518		2
+tablicu	518		3
 tajnicu			3
-takmacu	27		2
+takmacu	27		3
 tamburicu	55		2
-tamnicu	1743		2
+tamnicu	1743		3
 taticu	11		3
 tavanicu	220		2
 tačkicu	93		3
@@ -1152,12 +1152,12 @@ telicu			2
 temeljcu	16		2
 terencu			2
 termosicu			2
-tesnacu	97		2
+tesnacu	97		3
 tetkicu	22		3
-tigricu	59		2
+tigricu	59		3
 tikvicu	111		3
 tkanicu	18		2
-tobolcu	15		2
+tobolcu	15		3
 tomaševcu			2
 topionicu	186		2
 toplicu			2
@@ -1165,46 +1165,46 @@ torbicu	588		2
 torbičicu			2
 torticu	22		2
 trakicu			2
-travicu	25		2
+travicu	25		3
 travčicu			2
 tračicu			2
 trepavicu	52		4
 trešnjicu			2
-trgovcu	476		2
+trgovcu	476		3
 tricu	25		2
 trinaesticu			2
-trkačicu	33		3
-trojicu	1856		2
-tronošcu	46		2
+trkačicu	33		4
+trojicu	1856		3
+tronošcu	46		3
 trovačicu			2
-trticu	21		2
+trticu	21		3
 trubicu	12		2
 trudnicu	344		3
 trunčicu	85		2
 trzalicu	13		2
 trzavicu			2
-tržnicu	95		2
+tržnicu	95		3
 tuđincu	18		2
-tužbalicu	41		3
-tužiocu	2694		3
+tužbalicu	41		4
+tužiocu	2694		4
 tvorcu	525		2
-tvrdicu	23		2
+tvrdicu	23		3
 tvrđavicu			2
-udarcu	244		2
+udarcu	244		3
 udaricu			2
 udicu	527		2
 udičicu			2
 udolicu			2
 udovcu	15		2
-udovicu	252		2
+udovicu	252		3
 ugovornicu	31		2
-ukosnicu	10		3
+ukosnicu	10		4
 ukrštenicu	50		2
-ulaznicu	1171		3
+ulaznicu	1171		4
 ulicu	11674		3
 ulizicu			2
 uličicu	69		4
-umetnicu	203		3
+umetnicu	203		4
 umobolnicu			2
 umrlicu	69		4
 uncu	289		2
@@ -1213,24 +1213,24 @@ uplatnicu	474		2
 upraviteljicu			2
 upravnicu	39		2
 uputnicu	48		2
-urednicu	114		3
+urednicu	114		4
 uroševcu			2
 usedelicu	12		2
 uslugicu			2
 usnicu	14		2
-utakmicu	20456		3
-utičnicu	334		3
+utakmicu	20456		4
+utičnicu	334		4
 uzbrdicu	76		4
 uzdanicu	99		2
 uzelcu			2
 uzicu	137		3
-uzrečicu	65		3
+uzrečicu	65		4
 uzvišicu	39		2
 učenicu	213		4
 učiniocu	198		2
-učionicu	832		2
-učiteljicu	430		2
-ušicu	14		2
+učionicu	832		3
+učiteljicu	430		3
+ušicu	14		3
 užicu			2
 uživaocu			2
 vajdicu			2
@@ -1248,34 +1248,34 @@ vejavicu	28		2
 veknicu			2
 vencu	1710		2
 venčacu			2
-venčanicu	509		2
+venčanicu	509		3
 verenicu	155		2
 vericu			2
 vernicu	10		3
-veselicu			2
+veselicu			3
 vevericu	87		4
 vezicu	24		2
 većnicu	58		2
 večericu	16		2
 vešalicu	63		4
 vešernicu			2
-vešticu	174		2
+vešticu	174		3
 vežbaonicu	19		2
 vicu	306		2
 vidikovcu	290		2
-vikendicu	724		3
+vikendicu	724		4
 vilicu	489		3
 vladaocu			2
 vladičicu			2
 vlascu	174		2
 vlasnicu	189		3
 vlasotincu			2
-vodenicu	556		2
+vodenicu	556		3
 vodičicu			2
 vodozemcu			2
 votkicu			2
 vođicu	30		2
-voštanicu	27		2
+voštanicu	27		3
 voždovcu			2
 vožnjicu			2
 vrancu	47		2
@@ -1283,84 +1283,84 @@ vrapcu	42		2
 vražogrncu			2
 vrbicu			2
 vrećicu	262		3
-vrhuncu	2282		2
+vrhuncu	2282		3
 vrpcu	381		2
-vrtoglavicu	443		4
+vrtoglavicu	443		5
 vrućicu	19		2
 vršcu			2
 vršiocu			2
 vukicu			2
 vunicu	42		2
-vučicu	54		2
+vučicu	54		3
 zadevicu			2
 zadnjicu	928		3
 zadušnicu	14		2
-zadužnicu			3
+zadužnicu			4
 zahvalnicu	650		2
 zajednicu	11279		4
 zaklopcu			2
 zakupcu	187		2
-zalagaonicu			2
-zalogajnicu			2
+zalagaonicu			3
+zalogajnicu			3
 založnicu			2
 zamenicu	165		4
-zanokticu	15		3
+zanokticu	15		4
 zaobilaznicu	78		2
 zaovicu			2
-zarobljenicu	15		2
-zaručnicu	22		3
+zarobljenicu	15		3
+zaručnicu	22		4
 zasovnicu			2
 zastavicu	282		2
-zastupnicu	33		3
-zatvorenicu			2
-zavodnicu	48		3
+zastupnicu	33		4
+zatvorenicu			3
+zavodnicu	48		4
 zavojnicu	25		3
 završnicu	1733		2
 začkoljicu	27		2
 zađevicu			2
-zaštitnicu	113		3
+zaštitnicu	113		4
 zbornicu	86		2
 zdravicu	240		2
 zecu	133		2
 zemljicu	47		2
-zemunicu	27		2
+zemunicu	27		3
 zenicu			2
-zericu	11		2
+zericu	11		3
 zečicu	42		2
 zgradicu			2
-zimnicu	478		2
-zjenicu	31		2
-zlaticu	69		2
+zimnicu	478		3
+zjenicu	31		3
+zlaticu	69		3
 zlikovcu	59		3
-zločincu	216		2
+zločincu	216		3
 znalcu	33		2
 znancu	14		2
 značkicu			2
 zobnicu	19		2
 zoricu			2
-zvezdicu	297		2
+zvezdicu	297		3
 zvončicu			2
 ćerkicu	386		2
 ćerčicu			2
-ćirilicu	2831		2
+ćirilicu	2831		3
 čajdžinicu			2
 čamcu	783		2
 čarobnicu	18		4
 čačkalicu	92		4
 čašicu	690		2
-čekaonicu	156		2
+čekaonicu	156		3
 česnicu	144		2
-česticu	317		2
+česticu	317		3
 četkicu	731		3
-četvoricu	644		2
+četvoricu	644		3
 činijicu	70		2
-činiocu	53		3
+činiocu	53		4
 činjenicu	22673		4
-čistačicu	95		2
+čistačicu	95		3
 čistionicu	12		2
-čitaocu	2423		3
-čitaonicu	411		2
-članicu	726		2
+čitaocu	2423		4
+čitaonicu	411		3
+članicu	726		3
 čobancu			2
 čobanicu	14		2
 čokoladicu	158		2
@@ -1368,7 +1368,7 @@ zvončicu			2
 čudotvorcu	99		2
 čuturicu	20		2
 đecu		J	2
-šahovnicu	72		2
+šahovnicu	72		3
 šalicu	23		3
 šamcu			2
 šamlicu			2
@@ -1378,14 +1378,14 @@ zvončicu			2
 šapcu			2
 šapicu	13		2
 šarcu	75		2
-šarenicu	56		2
+šarenicu	56		3
 šačicu	183		3
 šeficu	132		2
 šekularcu			2
 šerpicu	133		2
 šestercu			2
-šesticu	169		2
-šestoricu	211		2
+šesticu	169		3
+šestoricu	211		3
 šetalicu	17		2
 šetnjicu	13		2
 šećercu	11		2
@@ -1402,7 +1402,7 @@ zvončicu			2
 špancu			2
 špicu	958		2
 špricu	41		2
-štedionicu	273		2
+štedionicu	273		3
 štićenicu	27		4
 štopericu	142		4
 štrpcu			2
@@ -1417,13 +1417,13 @@ zvončicu			2
 žabicu	38		3
 žapcu	12		2
 žbicu			2
-ždrebicu	11		2
+ždrebicu	11		3
 ždrepcu			2
-železnicu	1331		3
-željeznicu		J	3
-želucu	1351		2
-želudcu	200		2
-ženicu	84		2
+železnicu	1331		4
+željeznicu		J	4
+želucu	1351		3
+želudcu	200		3
+ženicu	84		3
 žeravicu	77		2
 žesticu			2
 žgaravicu	33		4
@@ -1431,56 +1431,56 @@ zvončicu			2
 žigicu			2
 žilicu			2
 žitnicu	77		3
-živicu	43		2
+živicu	43		3
 živopiscu			2
-životinjicu	51		3
+životinjicu	51		4
 životvorcu			2
 žižicu			2
 žumancu			2
 žurkicu			2
-žuticu	145		2
-bijelcu			2
+žuticu	145		3
+bijelcu			3
 bjeguncu			2
 bjelicu	100		2
-cjevčicu			2
+cjevčicu			3
 dijecu			2
 djecu	3676		2
-djevicu			2
+djevicu			3
 djevojcicu			2
-djevojčicu			2
+djevojčicu			3
 dječicu			2
 gusjenicu			4
-ijekavicu	82		3
-letjelicu			3
-ljepoticu			2
+ijekavicu	82		4
+letjelicu			4
+ljepoticu			3
 ljestvicu			3
-ljevicu			2
+ljevicu			3
 mjesecu			3
-nesvjesticu			3
+nesvjesticu			4
 odjecu			2
 pjesmicu			2
-pjevačicu			2
+pjevačicu			3
 pobjednicu			2
 podsjetnicu			2
-posjetiocu			3
-posjetnicu			3
+posjetiocu			4
+posjetnicu			4
 potjernicu			3
 povjetarcu			2
-predsjednicu			3
-rječicu			3
+predsjednicu			4
+rječicu			4
 sjednicu			3
-slijepcu	20		2
-sljepoočnicu	15	J	2
-svjećicu			2
-tjesnacu			2
-umjetnicu			3
+slijepcu	20		3
+sljepoočnicu	15	J	3
+svjećicu			3
+tjesnacu			3
+umjetnicu			4
 vijecu			2
-vijencu	161		2
+vijencu	161		3
 vijećnicu	11		2
-vjenčanicu			2
+vjenčanicu			3
 vjerenicu			2
 vjevericu			4
 vješalicu			4
-vješticu			2
+vješticu			3
 zamjenicu			4
-zvjezdicu			2
+zvjezdicu			3

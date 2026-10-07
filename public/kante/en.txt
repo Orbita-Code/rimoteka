@@ -20,24 +20,24 @@ basen	917		2
 bazen	9599		2
 bačen	1314		2
 baždaren	36		2
-beležen	72		2
+beležen	72		3
 benzen	185		2
 bergen			2
 bescen		M	2
-besmislen	1116		2
-besposlen	140		2
+besmislen	1116		3
+besposlen	140		3
 betoven			2
 bezazlen	336		2
-bezimen	30		2
+bezimen	30		3
 bezisten			2
-bezvremen	22		2
+bezvremen	22		3
 bijen	185		2
 bilten	988		2
-bitumen	118		2
+bitumen	118		3
 bivstven			2
-biznismen		M	2
+biznismen		M	3
 blagosloven	668		2
-blagoslovljen	79		2
+blagoslovljen	79		3
 blagovremen	75		2
 blažen	266		2
 boden	50		2
@@ -73,7 +73,7 @@ dimljen			2
 diogen			2
 doajen	310		2
 dobavljen			2
-dobijen	2619		2
+dobijen	2619		3
 dobiven			2
 dodeljen	2074		2
 dogovoren	1423		2
@@ -81,17 +81,17 @@ dograđen	170		2
 dojavljen			2
 dojen			2
 doklen			2
-dokusuren			2
+dokusuren			3
 domen	5440		2
-domišljen			2
+domišljen			3
 donesen	1030		2
 donošen	184		2
 dopremljen	178		2
-dopunjen	839		2
+dopunjen	839		3
 dopušten	206		2
 dorađen	137		2
 doseljen	55		2
-dostavljen	2080		2
+dostavljen	2080		3
 dostojanstven	1116		2
 dosuđen	345		2
 dotučen	21		2
@@ -115,12 +115,12 @@ društven	139		2
 drven	69		2
 dugovremen			2
 dužen			2
-dvocifren		M	2
-dvoimen			2
+dvocifren		M	3
+dvoimen			3
 dvojben			2
-dvosmislen	143		2
+dvosmislen	143		3
 dvostepen			2
-džentlemen			2
+džentlemen			3
 džentlmen	482		2
 eden		M	2
 elen			2
@@ -187,23 +187,23 @@ hvaljen	356		2
 ibuprofen	224		2
 ibzen			2
 ilinden			2
-infracrven			3
+infracrven			4
 isceljen	87		2
 isceđen	70		2
 iscrpen			2
 iscrpljen	622		2
 iseljen	75		2
-isečen	584		2
-ishitren	98		2
+isečen	584		3
+ishitren	98		3
 isitnjen			2
 iskasapljen	33		2
 iskežen			2
-iskićen	23		2
+iskićen	23		3
 isključen	2852		2
 iskolačen			2
 iskorenjen	92		2
 iskorišten	187		2
-iskorišćen	2092		2
+iskorišćen	2092		3
 iskošen	39		2
 iskren	5219		2
 iskreveljen			2
@@ -212,22 +212,22 @@ iskrpljen			2
 iskrčen	11		2
 iskupljen	21		2
 iskustven	10		2
-iskvaren	89		2
+iskvaren	89		3
 iskvašen			2
 islužen	10		2
 ispaljen	263		2
-isparen			2
-ispečen	113		2
+isparen			3
+ispečen	113		3
 ispijen	37		2
 isplaćen	1221		2
 isplažen	11		2
-ispleten	43		2
+ispleten	43		3
 ispoljen	123		2
 isporučen	736		2
 ispoveđen			2
 ispošćen			2
-ispravljen	228		2
-ispraćen	471		2
+ispravljen	228		3
+ispraćen	471		3
 ispražnjen	226		2
 isprepleten			2
 isprečen			2
@@ -235,27 +235,27 @@ isprošen			2
 ispružen	54		2
 ispršen			2
 ispržen	21		2
-ispunjen	4514		2
+ispunjen	4514		3
 ispupčen	87		2
 ispušten	101		2
 istanjen	28		2
-istoimen			2
+istoimen			3
 istopljen	45		2
-istovaren	29		2
-istovremen	93		2
+istovaren	29		3
+istovremen	93		3
 istražen	315		2
 istrebljen	61		2
 istresen			2
-istrošen	158		2
-isturen	54		2
+istrošen	158		3
+isturen	54		3
 istučen	10		2
 isušen	28		2
-izbavljen	48		2
+izbavljen	48		3
 izbačen	1950		2
 izbezumljen	135		2
 izbečen			2
 izbijeljen		J	2
-izbijen	32		2
+izbijen	32		3
 izboden	174		2
 izboren			2
 izbočen	23		2
@@ -270,12 +270,12 @@ izdvojen	1041		2
 izgažen	18		2
 izglađen			2
 izgnječen			2
-izgoren			2
-izgovoren	69		2
+izgoren			3
+izgovoren	69		3
 izgrađen	7029		2
 izgreben			2
 izgrđen			2
-izgubljen	2210		2
+izgubljen	2210		3
 izjavljen			2
 izjeden	10		2
 izjednačen	720		2
@@ -287,48 +287,48 @@ izložen	4033		2
 izlučen	13		2
 izluđen			2
 izmenjen	2042		2
-izmeren	310		2
+izmeren	310		3
 izmeten			2
 izmešten	320		2
-izmiren	167		2
-izmišljen	19		2
+izmiren	167		3
+izmišljen	19		3
 izmlaćen			2
 izmoljen	12		2
-izmoren	61		2
+izmoren	61		3
 izmožden		M	2
-izmrcvaren	37		2
+izmrcvaren	37		3
 izmrvljen	24		2
 izmučen	150		2
 iznajmljen	143		2
 iznađen	10		2
 iznenađen	3552		2
 iznesen	207		2
-izneveren	64		2
+izneveren	64		3
 iznošen	52		2
-iznuren	122		2
-iznuđen	253		2
+iznuren	122		3
+iznuđen	253		3
 izobičajen			2
 izobličen	61		2
 izobražen	65		2
 izopačen	93		2
 izopšten	99		2
-izostavljen	364		2
+izostavljen	364		3
 izoštren	56		2
 izranjavljen			2
 izrađen	3228		2
 izražen	2720		2
 izrezbaren	38		2
-izrečen	209		2
+izrečen	209		3
 izriven			2
 izrođen			2
 izručen	825		2
 izumljen	39		2
-izuven			2
+izuven			3
 izučen	29		2
 izvaljen	28		2
-izvađen	381		2
+izvađen	381		3
 izveden	3982		2
-izvedren			2
+izvedren			3
 izvezen	196		2
 izveštačen	56		2
 izvešten	70		2
@@ -339,13 +339,13 @@ izvožen	44		2
 izvraćen			2
 izvršen	3346		2
 izvučen	522		2
-iščašen	38		2
+iščašen	38		3
 jarkocrven			2
 jasen	346		2
 javljen	18		2
 jeden	64		2
 jedinstven	10798		2
-jednocifren			2
+jednocifren			3
 jednovremen		M	2
 jelen	2047		2
 jemen			2
@@ -375,12 +375,12 @@ klen	318		1
 koen			2
 kolagen	375		2
 komnen			2
-kongresmen	310		2
+kongresmen	310		3
 koren	4707		2
-korizmen			2
-korišten			2
-korišćen	4610		2
-kositren			2
+korizmen			3
+korišten			3
+korišćen	4610		3
+kositren			3
 kosmopoliten			2
 koven			2
 košen			2
@@ -408,7 +408,7 @@ kuzen			2
 kvaren			2
 laden			2
 lafonten			2
-lakomislen	36		2
+lakomislen	36		3
 lanen			2
 larsen			2
 leden	105		2
@@ -454,9 +454,9 @@ mlavljen			2
 mlaćen			2
 mlađen			2
 mleven	44		2
-modrozelen			2
+modrozelen			3
 molben		M	2
-molibden	61		2
+molibden	61		3
 molitven			2
 moljen	43		2
 monden		M	2
@@ -469,7 +469,7 @@ mulen			2
 munjen			2
 mutagen	36		2
 mučen	676		2
-nabavljen	478		2
+nabavljen	478		3
 nabačen			2
 nabeđen		M	2
 nabijen	273		2
@@ -478,15 +478,15 @@ nabrušen			2
 nadaren	208		2
 nadeven			2
 nadgrađen	24		2
-nadmašen	106		2
+nadmašen	106		3
 nadmen	111		2
-nadmudren			2
+nadmudren			3
 nadnesen	16		2
 nadograđen	126		2
-nadojen			2
-nadoknađen	200		2
+nadojen			3
+nadoknađen	200		3
 nadređen	132		2
-naduren			2
+naduren			3
 naduven	92		2
 naglašen	824		2
 nagnječen			2
@@ -504,14 +504,14 @@ naježen	13		2
 najuren	129		2
 nakarađen			2
 nakačen			2
-nakinđuren	19		2
+nakinđuren	19		3
 nakićen	24		2
-naklonjen	719		2
+naklonjen	719		3
 nakostrešen	20		2
 nakrivljen	59		2
 nakvašen	31		2
 nalakćen			2
-nalažen	18		2
+nalažen	18		3
 nalepljen	35		2
 naliven	18		2
 naljućen	13		2
@@ -521,7 +521,7 @@ namamljen	27		2
 namašten			2
 namašćen	18		2
 namenjen	18777		2
-namešten	649		2
+namešten	649		3
 namiren	105		2
 namočen	12		2
 namrgođen	85		2
@@ -532,15 +532,15 @@ nanjušen			2
 naobražen			2
 naoštren	41		2
 napaljen	222		2
-napaćen	76		2
-naperen			2
-napijen			2
+napaćen	76		3
+naperen			3
+napijen			3
 naplaćen	370		2
-napojen	34		2
-napravljen	13290		2
-napunjen	466		2
+napojen	34		3
+napravljen	13290		3
+napunjen	466		3
 napućen			2
-napušen			2
+napušen			3
 napušten	797		2
 narečen	16		2
 naređen	31		2
@@ -550,22 +550,22 @@ narušen	785		2
 naružen	14		2
 nasamaren	59		2
 nasađen	47		2
-naseljen	599		2
+naseljen	599		3
 nasečen	16		2
-nasićen			2
+nasićen			3
 nasleđen	286		2
 naslonjen	357		2
 naslovljen	423		2
 nasmešen	49		2
 nastanjen	421		2
-nastavljen	2931		2
-nastrojen	664		2
+nastavljen	2931		3
+nastrojen	664		3
 nataložen	26		2
 natečen	39		2
 natkriven	55		2
 natmuren	23		2
 natopljen	225		2
-natovaren	190		2
+natovaren	190		3
 natrunjen			2
 natučen			2
 natušten		M	2
@@ -584,7 +584,7 @@ nađen	1615		2
 neblagovremen	99		2
 neborben			2
 nebranjen	27		2
-nebrojen	13		2
+nebrojen	13		3
 necenjen			2
 necrkven			2
 nedogovoren			2
@@ -597,8 +597,8 @@ nedoučen			2
 nedovršen	325		2
 nedozvoljen	312		2
 nedoživljen			2
-nedruštven	12		2
-nedvosmislen	616		2
+nedruštven	12		3
+nedvosmislen	616		3
 nehomogen			2
 nehvaljen			2
 neisceljen			2
@@ -606,8 +606,8 @@ neiscrpljen			2
 neishranjen		M	2
 neiskorišten	44		2
 neiskorišćen	322		2
-neiskren	175		2
-neiskvaren	44		2
+neiskren	175		3
+neiskvaren	44		3
 neisplaćen	11		2
 neispravljen			2
 neispunjen	47		2
@@ -617,36 +617,36 @@ neizgrađen			2
 neizlečen			2
 neizložen			2
 neizmenjen	111		2
-neizmeren			2
-neizmiren	17		2
+neizmeren			3
+neizmiren	17		3
 neizrečen			2
 neizveden			2
 neizveštačen		M	2
 neizvršen			2
 neiživljen		M	2
 nejavljen			2
-nekažnjen	132		2
+nekažnjen	132		3
 nekorišćen			2
 nekršten	30		2
 nelen			2
 nelečen			2
-nenadaren			2
+nenadaren			3
 nenaglašen			2
 nenagrađen			2
 nenajavljen	81		2
 nenaklonjen	22		2
 nenamešten		M	2
-nenaoštren			2
+nenaoštren			3
 nenapučen			2
 nenaređen			2
 nenarušen	16		2
-nenaseljen	36		2
+nenaseljen	36		3
 nenastanjen	12		2
 nenaučen			2
 nenaznačen			2
 neobavešten	441		2
 neobavljen			2
-neobdaren			2
+neobdaren			3
 neobeležen			2
 neobezbeđen			2
 neobjavljen	72		2
@@ -659,11 +659,11 @@ neocenjen			2
 neodeljen			2
 neodeven			2
 neodlučen			2
-neodmeren	36		2
-neodobren			2
+neodmeren	36		3
+neodobren			3
 neodređen	358		2
 neogen			2
-neograničen	1583		2
+neograničen	1583		3
 neograđen			2
 neokrnjen			2
 neoljušten	10		2
@@ -680,25 +680,25 @@ neosmišljen			2
 neostvaren	105		2
 neosvojen			2
 neotkriven	84		2
-neotvoren	29		2
+neotvoren	29		3
 neovlašten			2
 neovlašćen	76		2
 neozleđen	24		2
 neozlijeđen		J	2
 neoznačen	10		2
 neočišćen			2
-neoštećen	165		2
-neoženjen	156		2
-nepatvoren	15		2
+neoštećen	165		3
+neoženjen	156		3
+nepatvoren	15		3
 nepečen			2
-nepismen	944		2
+nepismen	944		3
 neplaćen	70		2
 nepobeđen	25		2
 nepodeljen	37		2
 nepodređen			2
-nepokoren			2
+nepokoren			3
 nepokriven	52		2
-nepokvaren			2
+nepokvaren			3
 nepoložen			2
 nepomućen		M	2
 neponuđen			2
@@ -711,7 +711,7 @@ nepotčinjen			2
 nepovređen	308		2
 nepošten	279		3
 nepravovremen			2
-nepredviđen	34		2
+nepredviđen	34		3
 nepresečen			2
 nepresušen			2
 neprevaziđen			2
@@ -719,16 +719,16 @@ neprihvaćen			2
 neprijavljen			2
 neprikosnoven		M	2
 neprilagođen	86		2
-neprimeren	609		2
+neprimeren	609		3
 neprimećen	222		2
 nepripojen			2
 nepripremljen	116		2
 neprogonjen			2
 nepromenjen	982		2
-nepromišljen	173		2
+nepromišljen	173		3
 neprosvećen		M	2
 neproučen			2
-neproveren	15		2
+neproveren	15		3
 neraspoložen	238		2
 neraspoređen			2
 neraspremljen			2
@@ -737,24 +737,24 @@ nerazjašnjen			2
 nerazrešen			2
 nerazvijen	203		2
 nerešen	901		2
-nerođen	18		2
+nerođen	18		3
 nesahranjen			2
 nesamleven			2
 nesavremen	12		2
-nesavršen	164		2
+nesavršen	164		3
 nesen		M	2
-neshvaćen	148		2
+neshvaćen	148		3
 nesjedinjen			2
 neskriven			2
 neslomljen			2
 nesložen			2
 neslućen	22		2
-neslužben			2
+neslužben			3
 nesmanjen			2
-nesmiren			2
-nesmislen			2
-nesmišljen			2
-nesmotren	64		2
+nesmiren			3
+nesmislen			3
+nesmišljen			3
+nesmotren	64		3
 nesmućen			2
 nesravnjen			2
 nesređen	69		2
@@ -768,19 +768,19 @@ neuhranjen	36		2
 neujednačen	198		2
 neuknjižen			2
 neukrašen			2
-neumeren	41		2
+neumeren	41		3
 neumiven			2
 neunakažen			2
 neuobičajen	488		2
 neuobličen			2
 neuplaćen			2
-neuposlen			2
+neuposlen			3
 neupotrebljen			2
 neupućen	264		2
 neuravnotežen	78		2
 neuređen	119		2
 neusaglašen			2
-neusiljen	26		2
+neusiljen	26		3
 neusklađen	50		2
 neuslišen			2
 neutemeljen			2
@@ -802,19 +802,19 @@ nezagađen	22		2
 nezahvaćen			2
 nezaklonjen			2
 nezalečen			2
-nezamoren			2
+nezamoren			3
 nezapamćen	223		2
-nezapažen	155		2
-nezaposlen	864		2
+nezapažen	155		3
+nezaposlen	864		3
 nezarađen			2
-nezasićen			2
+nezasićen			3
 nezaslužen			2
-nezatvoren			2
+nezatvoren			3
 nezavršen	160		2
 nezaštićen	247		2
 nečuven	83		2
 nečuvstven			2
-neželjen	63		2
+neželjen	63		3
 neženjen	16		2
 niklen			2
 nilsen			2
@@ -824,13 +824,13 @@ novokršten			2
 novootkriven			2
 novopečen			2
 novorođen			2
-novostvoren			2
+novostvoren			3
 nošen	653		2
 nuđen	153		2
 obaren	48		2
 obavešten		M	2
-obavijen	292		3
-obavljen	2628		2
+obavijen	292		4
+obavljen	2628		3
 obdaren	396		2
 obeležen	4889		2
 obelodanjen	229		2
@@ -840,10 +840,10 @@ obesvećen			2
 obezbeđen	4679		2
 obezglavljen	92		2
 obezličen			2
-obešen	418		2
-obeštećen	54		2
+obešen	418		3
+obeštećen	54		3
 obeščašćen			2
-obijen	102		2
+obijen	102		3
 obilježen	295	J	2
 obiđen			2
 objavljen	14324		2
@@ -857,10 +857,10 @@ obljubljen			2
 obložen	584		2
 obnažen	23		2
 obnovljen	1969		2
-obodren			2
+obodren			3
 obogaljen			2
-obogaćen	1005		2
-obojen	777		2
+obogaćen	1005		3
+obojen	777		3
 oboren	1135		2
 obrazložen	272		2
 obraćen	33		2
@@ -870,21 +870,21 @@ obren			2
 obrečen			2
 obrlaćen			2
 obrubljen	20		2
-obuhvaćen	1115		2
-obustavljen	1157		2
-obuven	49		2
-obučen	2131		2
+obuhvaćen	1115		3
+obustavljen	1157		3
+obuven	49		3
+obučen	2131		3
 obznanjen	40		2
 ocenjen	1486		2
 oceđen	33		2
 ocrnjen	57		2
 odbačen	1124		2
-odbijen	2412		2
+odbijen	2412		3
 odbranjen	191		2
 odeljen	27		2
 odeven	548		2
 odgajen	66		2
-odgojen	99		2
+odgojen	99		3
 odgovoren			2
 odgođen	65		2
 odjavljen	48		2
@@ -893,12 +893,12 @@ odljućen			2
 odložen	1476		2
 odlučen	394		2
 odmenjen			2
-odmeren	347		2
+odmeren	347		3
 odmoren			2
-odnarođen			2
+odnarođen			3
 odnesen	107		2
 odnešen			2
-odobren	3120		2
+odobren	3120		3
 odobrovoljen			2
 odoljen		M	2
 odomaćen	95		2
@@ -906,11 +906,11 @@ odrađen	1119		2
 odražen	16		2
 određen	9651		2
 odrešen	18		2
-odsečen	307		2
+odsečen	307		3
 odslužen	84		2
 odstranjen	388		2
 oduhovljen			2
-odularen			2
+odularen			3
 odučen			2
 oduševljen	3335		2
 odužen			2
@@ -919,7 +919,7 @@ odveden	1045		2
 odvezen	140		2
 odvežen			2
 odvlačen			2
-odvojen	1591		2
+odvojen	1591		3
 odvođen	16		2
 odvraćen			2
 odvučen	48		2
@@ -928,7 +928,7 @@ oglašen	362		2
 ognjen	1036		2
 ogoljen	173		2
 ogorčen	1052		2
-ograničen	5841		2
+ograničen	5841		3
 ograđen	573		2
 ogreben			2
 oguljen	38		2
@@ -939,19 +939,19 @@ ojađen	78		2
 ojeden			2
 okamenjen	32		2
 okačen	327		2
-okićen	213		2
+okićen	213		3
 oklen			2
 oklopljen	39		2
 okrepljen	31		2
-okrečen	108		2
+okrečen	108		3
 okrivljen	228		2
 okrnjen	79		2
 okrunjen	26		2
 okružen	3157		2
-okrvavljen	34		2
+okrvavljen	34		3
 oksigen			2
-okupljen	295		2
-olabavljen	10		3
+okupljen	295		3
+olabavljen	10		4
 olepljen			2
 oličen	447		2
 oljušten	89		2
@@ -962,21 +962,21 @@ omamljen	80		2
 omasovljen	14		2
 omen	127		2
 ometen	139		2
-omeđen	199		2
-omiljen	1166		2
+omeđen	199		3
+omiljen	1166		3
 omogućen	2649		2
-omražen	125		2
+omražen	125		3
 onemogućen	831		2
 oneraspoložen			2
 onesposobljen	75		2
 onesvešćen	46		2
 onovremen			2
 opaljen	47		2
-opapren			2
-oparen	75		2
-opažen	35		2
+opapren			3
+oparen	75		3
+opažen	35		3
 open			2
-opečen	23		2
+opečen	23		3
 opijen	206		2
 opismenjen	14		2
 opičen	10		2
@@ -994,7 +994,7 @@ opržen			2
 opscen			2
 opsenjen			2
 opskrbljen	48		2
-opterećen	1460		2
+opterećen	1460		3
 optočen	70		2
 optužen	4306		2
 opunomoćen	12		2
@@ -1008,18 +1008,18 @@ orden	2227		2
 origen			2
 oročen	143		2
 orošen	12		2
-osakaćen	141		2
+osakaćen	141		3
 osamljen	71		2
 osenčen			2
-osiromašen	175		2
-oskrnavljen	108		2
+osiromašen	175		3
+oskrnavljen	108		3
 oskvrnjen			2
-oslabljen	763		2
+oslabljen	763		3
 oslađen			2
 oslepljen	108		2
 oslobođen	3706		2
 oslonjen	416		2
-osmišljen	3268		2
+osmišljen	3268		3
 osmotren	13		2
 osmuđen			2
 osnažen	152		2
@@ -1028,7 +1028,7 @@ osokoljen	83		2
 osporen	172		2
 osposobljen	990		2
 osramoćen	90		2
-ostavljen	1690		2
+ostavljen	1690		3
 ostrašćen	165		2
 ostrižen			2
 ostrvljen			2
@@ -1040,7 +1040,7 @@ osušen	140		2
 osvedočen	34		2
 osvetljen	805		2
 osvećen	339		2
-osvežen	284		2
+osvežen	284		3
 osvojen	685		2
 otcepljen	18		2
 otelovljen			2
@@ -1049,7 +1049,7 @@ othranjen			2
 otkačen	68		2
 otklonjen	497		2
 otkočen	12		2
-otkriven	3844		2
+otkriven	3844		3
 otkupljen	206		2
 otkvačen			2
 otlen			2
@@ -1057,7 +1057,7 @@ otmen	198		2
 otopljen	47		2
 otpečaćen			2
 otplaćen	93		2
-otpravljen	14		2
+otpravljen	14		3
 otpremljen	94		2
 otpušten	993		2
 otresen			2
@@ -1065,33 +1065,33 @@ otriježnjen		J	2
 otromboljen			2
 otupljen	11		2
 otuđen	183		2
-otvoren	21247		2
+otvoren	21247		3
 ovaploćen	30		2
 ovekovečen	136		2
 oven			2
-overen	1061		2
+overen	1061		3
 ovlašten	130		2
 ovlašćen	1604		2
 ovovremen			2
 ovsen			2
 ozakonjen	55		2
-ozaren	120		2
+ozaren	120		3
 ozleđen	17		2
-ozlijeđen	25	J	3
+ozlijeđen	25	J	4
 ozljeđen		J	2
 ozloglašen	80		2
 ozlojeđen	93		2
 označen	2135		2
-oznojen	66		2
+oznojen	66		3
 ozračen	46		2
 ozren			2
 ozvaničen	289		2
 ozvučen	36		2
-očeličen			2
+očeličen			3
 očepljen			2
-očišćen	841		2
+očišćen	841		3
 ošamućen	113		2
-oštećen	2901		2
+oštećen	2901		3
 ožaljen			2
 ožalošćen	88		2
 oženjen	2301		2
@@ -1102,10 +1102,10 @@ pamćen	20		2
 panten			2
 papren	30		2
 paraben			2
-pataren		M	2
+pataren		M	3
 paten			2
 patogen	71		3
-patvoren			2
+patvoren			3
 paćen			2
 pažen	44		2
 pen		M	1
@@ -1113,7 +1113,7 @@ pečen	361		2
 pilsen			2
 piralen			2
 pismen	768		2
-pivotmen	142		2
+pivotmen	142		3
 plamen	2718		2
 platnen			2
 plavljen			2
@@ -1125,21 +1125,21 @@ pleven			2
 pljen		M	1
 plovidben			2
 pobeđen	503		2
-pobijen	76		2
+pobijen	76		3
 poboden			2
 pobuđen	67		2
-podaren	46		2
+podaren	46		3
 podboden			2
 podbočen	14		2
 podcenjen	54		2
 podeljen	3829		2
-podešen	1146		2
-podgojen			2
-podgovoren			2
+podešen	1146		3
+podgojen			3
+podgovoren			3
 podjarmljen			2
 podložen	13		2
 podmašćen			2
-podmiren	24		2
+podmiren	24		3
 podmićen	33		2
 podmlađen	120		2
 podnesen	211		2
@@ -1150,7 +1150,7 @@ podriven	26		2
 podvijen	10		2
 podvlačen			2
 podvlašćen			2
-podvojen			2
+podvojen			3
 podvučen	77		2
 podčinjen	16		2
 poen	4399		2
@@ -1159,32 +1159,32 @@ pogažen	62		2
 pogodben			2
 pogonjen	95		2
 pogođen	1743		2
-pogrbljen	89		2
+pogrbljen	89		3
 pogreben			2
 pogružen			2
 pogrđen			2
 pogubljen	654		2
-poguren			2
+poguren			3
 pohapšen			2
 pohranjen	99		2
 pohvaljen	266		2
 poistovećen	69		2
-pojeden	123		2
+pojeden	123		3
 pojednostavljen	363		2
 pojmljen			2
 poklonjen	467		2
 pokoren	45		2
 pokošen	105		2
-pokraden	303		2
-pokriven	1825		2
+pokraden	303		3
+pokriven	1825		3
 pokršten	15		2
 pokunjen		M	2
 pokupljen	59		2
 pokvaren	658		2
-pokvašen	14		2
+pokvašen	14		3
 polen	1993		2
 polietilen	173		2
-poliven	38		2
+poliven	38		3
 polomljen	213		2
 položen	1215		2
 poluodeven			2
@@ -1194,47 +1194,47 @@ poluučen			2
 poluzatvoren			2
 pomamljen			2
 pomen	2725		2
-pomeren	1092		2
-pometen	49		2
+pomeren	1092		3
+pometen	49		3
 pomiren	81		2
 pomnožen	70		2
 pomračen	79		2
 pomućen	39		2
 ponesen	259		2
-poništen	926		2
+poništen	926		3
 ponižen	381		2
 ponovljen	511		2
-ponuđen	2097		2
-pooštren	38		2
+ponuđen	2097		3
+pooštren	38		3
 popaljen	21		2
 poplavljen	196		2
-poplašen	44		2
-popravljen	536		2
-popunjen	1373		2
+poplašen	44		3
+popravljen	536		3
+popunjen	1373		3
 popušten			2
 poražen	2595		2
 poredben			2
-poremećen	800		2
+poremećen	800		3
 poređen	66		2
 porobljen	61		2
 porođen			2
 porubljen			2
 poručen	119		2
-porušen	382		2
+porušen	382		3
 posađen	138		2
-posećen	701		2
-posečen	397		2
+posećen	701		3
+posečen	397		3
 posinjen			2
 poslužen	204		2
 posoljen	30		2
 pospešen	23		2
 posramljen	136		2
-posrebren	15		2
-postavljen	14398		2
+posrebren	15		3
+postavljen	14398		3
 postepen	411		2
 postiđen	151		2
 postrižen			2
-postrojen	16		2
+postrojen	16		3
 posuvraćen			2
 posuđen	15		2
 posvedočen	44		2
@@ -1258,44 +1258,44 @@ potučen	130		2
 potvrđen	1830		2
 potčinjen	192		2
 poučen	352		2
-poveden	138		2
-poveren	1060		2
-povezen			2
-povijen	124		2
+poveden	138		3
+poveren	1060		3
+povezen			3
+povijen	124		3
 povišen	1867		2
 povlačen	18		2
 povlašćen	426		2
 povlen			2
 povraćen	47		2
-povremen	70		2
+povremen	70		3
 povređen	4207		2
 povućen			2
 povučen	1464		2
 pozajmljen	506		2
-pozdravljen	316		2
+pozdravljen	316		3
 pozlaćen	96		2
 počašćen	113		2
 počinjen	883		2
-počišćen	49		2
+počišćen	49		3
 poškropljen			2
 pošten	3771		2
 pošteđen	542		2
-pošumljen	33		2
+pošumljen	33		3
 pramen	598		2
 pravljen	1277		2
 pravovremen			4
 praćen	2480		2
 prebacen			2
 prebačen	3056		2
-prebijen	185		2
-prebojen	10		2
+prebijen	185		3
+prebojen	10		3
 prebrođen			2
 precenjen	489		2
 predložen	1676		2
 predodređen	434		2
 predočen	291		2
-predstavljen	11175		2
-predviđen	7070		2
+predstavljen	11175		3
+predviđen	7070		3
 predvođen	905		2
 prefinjen	309		2
 pregažen	110		2
@@ -1307,19 +1307,19 @@ prehvaljen			2
 preispunjen	12		2
 prekaljen	35		2
 prekoračen	99		2
-prekoren	16		2
-prekriven	1199		2
-prekrojen			2
+prekoren	16		3
+prekriven	1199		3
+prekrojen			3
 prekršen	1017		2
 prekršten	51		2
 prelašten			2
 preliven	108		2
 prelomljen	222		2
 premalen	69		3
-premašen	270		2
+premašen	270		3
 premešten	958		2
 premlaćen	35		2
-premoren	113		2
+premoren	113		3
 premrežen	16		2
 prenagljen		M	2
 prenaseljen	41		2
@@ -1330,11 +1330,11 @@ preobraćen	42		2
 preobražen	99		2
 preobučen	67		2
 preopterećen	211		2
-preotmen			2
-prepečen	38		2
+preotmen			3
+prepečen	38		3
 preplavljen	331		2
 preplaćen	48		2
-preplašen	169		2
+preplašen	169		3
 prepolovljen	670		2
 preporođen	77		2
 preporučen	315		2
@@ -1346,80 +1346,80 @@ prepunjen	47		2
 prepušten	759		2
 prerađen	231		2
 preriven			2
-prerumen			2
-prerušen	206		2
+prerumen			3
+prerušen	206		3
 presamićen			2
 presavijen	40		2
 presavršen			2
 presađen	60		2
 preseljen	346		2
-presečen	303		2
+presečen	303		3
 presićen			2
 preskočen	95		2
 preslađen			2
 prestravljen	137		2
-prestrašen	76		2
+prestrašen	76		3
 presušen			2
 presvučen	277		2
 pretopljen	24		2
-pretovaren	37		2
+pretovaren	37		3
 pretočen	216		2
 pretplaćen	119		2
-pretpostavljen			2
+pretpostavljen			3
 pretražen	25		2
 pretresen	39		2
 pretrešen			2
 pretrpljen			2
-preturen			2
+preturen			3
 pretučen	690		2
 pretvoren	1440		2
 preuranjen	104		2
 preuređen	236		2
-preusmeren	308		2
+preusmeren	308		3
 preuznesen			2
 preuzvišen			2
-prevaren	635		2
+prevaren	635		3
 prevaziđen	996		2
 preveden	1282		2
 prevezen	517		2
 previjen	18		2
 prevođen	203		2
 prevožen	48		2
-prevremen			2
+prevremen			3
 prevučen	39		2
 prezadužen	142		2
-prezaposlen	18		2
+prezaposlen	18		3
 prezasićen	58		2
-preznojen	19		2
+preznojen	19		3
 prezren	131		2
 prečišćen	175		2
 pređen	118		2
-prešaren			2
+prešaren			3
 prežaljen	25		2
-pribavljen	77		2
+pribavljen	77		3
 pribijen	24		2
 približen	66		2
-pridobijen	16		2
+pridobijen	16		3
 pridružen	139		2
 prignječen			2
 prigušen	153		2
-prihvaćen	5282		2
+prihvaćen	5282		3
 prijavljen	1816		2
 prikačen	266		2
 priklješten			2
 priključen	988		2
 prikraćen	30		2
-prikriven	226		2
-prikupljen	680		2
+prikriven	226		3
+prikupljen	680		3
 prilagođen	3543		2
 prilepljen	50		2
 priljubljen	52		2
 priložen	325		2
 primenjen	2410		2
-primeren	1192		2
+primeren	1192		3
 primećen	1037		2
-primiren			2
-primjeren		J	2
+primiren			3
+primjeren		J	3
 primljen	3188		2
 prinesen	25		2
 prinošen			2
@@ -1427,23 +1427,23 @@ prinuđen	2503		2
 pripijen	33		2
 pripitomljen	34		2
 pripojen	252		2
-pripravljen	38		2
+pripravljen	38		3
 pripremljen	3392		2
 priređen	1426		2
 prirođen	18		2
-prisiljen	781		2
+prisiljen	781		3
 prislonjen	61		2
-pristavljen			2
+pristavljen			3
 pritajen		M	2
 pritešnjen	68		2
-pritvoren	382		2
+pritvoren	382		3
 priučen	24		2
-priveden	1469		2
+priveden	1469		3
 privlačen			2
 privoljen			2
 privođen	132		2
-privremen	343		2
-privržen	452		2
+privremen	343		3
+privržen	452		3
 privučen	205		2
 prizemljen	61		2
 prizren			2
@@ -1451,7 +1451,7 @@ pričašćen			2
 pričešćen	12		2
 pričinjen			2
 pričvršćen	303		2
-probijen	461		2
+probijen	461		3
 proboden	88		2
 probuđen	155		2
 probušen	62		2
@@ -1464,27 +1464,27 @@ profinjen	16		2
 proglašen	8772		2
 progonjen	225		2
 prohlađen	25		2
-proizveden	2436		2
+proizveden	2436		3
 proizvođen	70		2
 projavljen			2
 prokažen		M	2
 prokrijumčaren	18		2
 prokrčen	27		2
-proliven	14		2
-promašen	301		2
+proliven	14		3
+promašen	301		3
 promenjen	2937		2
-promišljen	291		2
+promišljen	291		3
 pronađen	4351		2
 pronesen			2
 propečen			2
 propraćen	751		2
 propržen	15		2
 propušten			2
-prorečen	10		2
+prorečen	10		3
 proređen	34		2
 prosen			2
 prosečen	36		2
-proslavljen	1068		2
+proslavljen	1068		3
 prosleđen	932		2
 prostreljen			2
 prosvetljen	84		2
@@ -1495,7 +1495,7 @@ protumačen	250		2
 proučen	118		2
 provaljen	180		2
 proveden	564		2
-proveren	611		2
+proveren	611		3
 provođen	21		2
 provučen	50		2
 pročišćen	95		2
@@ -1504,7 +1504,7 @@ proživljen			2
 prsten	4585		2
 prten		M	2
 pružen	183		2
-prvenstven			2
+prvenstven			3
 prvorođen			2
 prvostepen			2
 pršljen	131		2
@@ -1528,29 +1528,29 @@ raskrvavljen			2
 raskrčen	22		2
 raspaljen	39		2
 raspamećen			2
-rasparen			2
-raspiren			2
+rasparen			3
+raspiren			3
 raspodeljen	86		2
 raspoložen	2209		2
 raspolućen			2
-rasporen	18		2
+rasporen	18		3
 raspoređen	1025		2
 rasprostranjen	803		2
 raspršen	38		2
 raspušten	270		2
 rasrđen	20		2
-rastavljen	74		2
-rasterećen	291		2
+rastavljen	74		3
+rasterećen	291		3
 rastopljen	57		2
 rastočen	22		2
 rastresen	16		2
-rastrojen	51		2
-rasturen	105		2
+rastrojen	51		3
+rasturen	105		3
 rastužen	26		2
 rastvoren	114		2
 rasvetljen	136		2
 razbarušen	63		2
-razbijen	545		2
+razbijen	545		3
 razbuđen	15		2
 razdeljen	90		2
 razdražen	41		2
@@ -1562,14 +1562,14 @@ razglašen			2
 razglobljen			2
 razgnevljen			2
 razgolićen	24		2
-razgrabljen	43		2
+razgrabljen	43		3
 razgrađen	22		2
 razjapljen			2
 razjaren	138		2
 razjašnjen	160		2
 razjeden			2
 razjedinjen	43		2
-razliven	24		2
+razliven	24		3
 razljućen	31		2
 razlomljen	15		2
 razložen	26		2
@@ -1583,13 +1583,13 @@ raznesen	31		2
 raznežen	20		2
 razobličen			2
 razoren	409		2
-razotkriven	96		2
+razotkriven	96		3
 razrađen	678		2
 razređen	110		2
 razrešen	941		2
-razrušen	156		2
+razrušen	156		3
 razularen			2
-razuveren			2
+razuveren			3
 razuđen	95		2
 razvaljen	64		2
 razveden	260		2
@@ -1603,7 +1603,7 @@ raširen	363		2
 raščerečen			2
 raščinjen	118		2
 raščišćen	89		2
-raščlanjen	36		2
+raščlanjen	36		3
 ražalošćen			2
 ražen			2
 refren	598		2
@@ -1628,31 +1628,31 @@ rukovođen	216		2
 rumen	141		2
 rušen	272		2
 ružen	10		2
-sabijen	53		2
+sabijen	53		3
 sablažnjen	21		2
 sagrađen	2234		2
 sahranjen	3137		2
-sakaćen			2
-sakriven	800		2
-sakupljen	254		2
+sakaćen			3
+sakriven	800		3
+sakupljen	254		3
 saliven	150		2
 salomljen			2
-samleven	87		2
-samouveren	359		2
+samleven	87		3
+samouveren	359		3
 saobražen			2
 saopšten	393		2
-sapleten	19		2
+sapleten	19		3
 saracen			2
-sasečen	27		2
-sastavljen	4117		2
+sasečen	27		3
+sastavljen	4117		3
 sasušen	18		2
 saten	136		2
 satrven	39		2
-savijen	218		2
-savremen	1594		2
+savijen	218		3
+savremen	1594		3
 savršen	6838		2
 sačinjen	2558		2
-sašiven	19		2
+sašiven	19		3
 sažežen			2
 selen	459		2
 selidben			2
@@ -1661,8 +1661,8 @@ sečen	138		2
 shvaćen	1062		2
 siromašen			2
 sitroen	168		2
-sivozelen			2
-sizeren			2
+sivozelen			3
+sizeren			3
 sjedinjen	101		2
 skalupljen			2
 skamenjen	91		3
@@ -1683,7 +1683,7 @@ skupocen	104		2
 skučen	238		2
 skvrčen	10		2
 slamen			2
-slankamen			2
+slankamen			3
 slaven			2
 slavljen	411		2
 slepljen	22		2
@@ -1712,7 +1712,7 @@ smračen			2
 smrvljen	22		2
 smućen	36		2
 smušen	51		2
-snabdeven	343		2
+snabdeven	343		3
 snen	16		1
 snimljen	4621		2
 snižen	486		2
@@ -1762,14 +1762,14 @@ studen	201		2
 stvoren	4364		2
 suknen			2
 sukobljen	15		2
-sumnjičen	40		2
+sumnjičen	40		3
 sunovraćen			2
 suočen	1420		2
-supermen	568		2
-suprotstavljen	190		2
-suteren	140		2
+supermen	568		3
+suprotstavljen	190		3
+suteren	140		3
 suveren		M	2
-suzbijen	54		2
+suzbijen	54		3
 suzen			2
 suđen	203		2
 sušen			2
@@ -1779,8 +1779,8 @@ svaljen	15		2
 sveden	1488		2
 sven			1
 svetlocrven			2
-svetlozelen			2
-svevremen		M	2
+svetlozelen			3
+svevremen		M	3
 svećen			2
 svešten			2
 svilen	207		2
@@ -1790,17 +1790,17 @@ svršen	283		2
 svučen	16		2
 tajanstven	309		2
 tamnocrven			2
-tamnozelen			2
+tamnozelen			3
 temeljen	128		2
 ten	1825		1
 teren	17991		2
 tešen			2
-tjenanmen			2
+tjenanmen			3
 tlačen	10		2
 token	130		2
 toluen	38		2
 topljen	11		2
-tovaren			2
+tovaren			3
 tražen	855		2
 tren	3114		1
 trezven	197		2
@@ -1822,7 +1822,7 @@ uboden	184		2
 ucenjen	214		2
 ucveljen			2
 udaljen	5321		2
-udaren	373		2
+udaren	373		3
 udavljen	63		2
 udeljen	12		2
 udešen	33		2
@@ -1830,7 +1830,7 @@ udivljen	24		2
 udobrovoljen			2
 udružen	314		2
 udubljen	72		2
-udvojen	18		2
+udvojen	18		3
 udvostručen	482		2
 ugašen	1492		2
 ugažen	15		2
@@ -1838,20 +1838,20 @@ uglavljen	38		2
 uglađen	236		2
 ugljen	1740		2
 ugnječen			2
-ugojen			2
+ugojen			3
 ugovoren	484		2
 ugošćen	40		2
-ugrabljen			2
+ugrabljen			3
 ugrađen	3392		2
-ugrizen			2
+ugrizen			3
 ugrižen			2
 ugrožen	3559		2
 ugušen	254		2
-uhapšen	8434		2
+uhapšen	8434		3
 uhranjen	29		2
-uhvaćen	2109		2
+uhvaćen	2109		3
 uhvačen			2
-ujeden	15		2
+ujeden	15		3
 ujedinjen	171		2
 ujednačen	487		2
 ujesen	161		2
@@ -1869,7 +1869,7 @@ ukorenjen	297		2
 ukotvljen	32		2
 ukočen	233		2
 ukošen	12		2
-ukraden	902		2
+ukraden	902		3
 ukrašen	1009		2
 ukrivljen			2
 ukroćen	29		2
@@ -1881,12 +1881,12 @@ uložen	1631		2
 ulubljen	23		2
 umanjen	1019		2
 umašćen			2
-umeren	1118		2
+umeren	1118		3
 umešen	35		2
-umiren	43		2
+umiren	43		3
 umirovljen	32	J	2
-umiven	80		2
-umišljen	42		2
+umiven	80		3
+umišljen	42		3
 umnožen	66		2
 umoljen	41		2
 umoren	65		2
@@ -1902,7 +1902,7 @@ uneravnotežen			2
 uneređen			2
 unesen	115		2
 unesrećen	17		2
-unezveren	46		2
+unezveren	46		3
 uništen	2539		2
 unižen	35		2
 unovačen			2
@@ -1917,8 +1917,8 @@ uočen	740		2
 upaljen	461		2
 upamćen	1496		2
 uparađen			2
-uparen	481		2
-uperen	613		2
+uparen	481		3
+uperen	613		3
 uplaćen	1220		2
 uplašen	999		2
 upleten	334		2
@@ -1931,7 +1931,7 @@ upozoren	388		2
 upravljen	126		2
 uprašen			2
 upražnjen	50		2
-upriličen	1101		2
+upriličen	1101		3
 upropašten	52		2
 upropašćen	127		2
 uprosečen			2
@@ -1943,10 +1943,10 @@ uramljen	45		2
 uravnotežen	676		2
 urazumljen			2
 urađen	6421		2
-urečen			2
+urečen			3
 uređen	2925		2
 uronjen	171		2
-urođen	153		2
+urođen	153		3
 uručen	947		2
 urušen	208		2
 usaglašen	1309		2
@@ -1956,7 +1956,7 @@ usađen	193		2
 useljen	98		2
 usečen	64		2
 ushićen	205		2
-usidren	149		2
+usidren	149		3
 usiljen	49		2
 usinjen			2
 usitnjen	89		2
@@ -1968,14 +1968,14 @@ uslovljen	1250		2
 usložnjen			2
 uslužen	49		2
 usmen			2
-usmeren	4752		2
+usmeren	4752		3
 usmrćen	86		2
 usoljen			2
 uspaljen			2
 uspaničen	26		2
-usplahiren	63		2
-usporen	1121		2
-uspostavljen	2438		2
+usplahiren	63		3
+usporen	1121		3
+uspostavljen	2438		3
 uspravljen	44		2
 usredsređen		M	2
 ustaljen	203		2
@@ -1987,17 +1987,17 @@ ustremljen	33		2
 ustrijeljen		J	2
 ustrojen	189		2
 ustupljen	328		2
-usvojen	10828		2
-utaboren			2
+usvojen	10828		3
+utaboren			3
 utajen			2
 utamničen	94		2
 utanačen	32		2
 utanjen			2
 utelovljen			2
 utemeljen	998		2
-utešen	28		2
+utešen	28		3
 utopljen	70		2
-utovaren	24		2
+utovaren	24		3
 utrošen	567		2
 utrven			2
 utuljen			2
@@ -2005,10 +2005,10 @@ utučen	153		2
 utvrđen	3826		2
 uvažen	315		2
 uveden	2182		2
-uveren	8565		2
+uveren	8565		3
 uveseljen			2
 uvezen	349		2
-uvijen	173		2
+uvijen	173		3
 uvođen	48		2
 uvređen	466		2
 uvrežen	37		2
@@ -2021,24 +2021,24 @@ uzbuđen	1033		2
 uzgojen	27		2
 uznemiren	549		2
 uznesen	48		2
-uznojen			2
+uznojen			3
 uznošen			2
-uzveren		M	2
+uzveren		M	3
 uzvišen	274		2
 uzvraćen	22		2
 učen	416		2
 učinjen	1768		2
 učlanjen	80		2
 učvršćen	120		2
-ušećeren			2
+ušećeren			3
 ušiven	17		2
 uškopljen			2
-ušoren			2
+ušoren			3
 ušteđen	50		2
 uštogljen	32		2
-uštrojen		M	2
-užagren			2
-užaren	22		2
+uštrojen		M	3
+užagren			3
+užaren	22		3
 vapnen			2
 varen	18		2
 vatren	97		2
@@ -2063,14 +2063,14 @@ vršen	622		2
 vunen			2
 vučen	85		2
 zabataljen			2
-zabavljen	59		2
+zabavljen	59		3
 zabačen	33		2
 zabeležen	5951		2
-zabiberen			2
-zabijen	54		2
+zabiberen			3
+zabijen	54		3
 zabilježen	406	J	2
 zaboden	75		2
-zaboravljen	1302		2
+zaboravljen	1302		3
 zabranjen	3844		2
 zabrađen			2
 zaceljen			2
@@ -2080,25 +2080,25 @@ zadavljen	42		2
 zadeven			2
 zadivljen	447		2
 zadobijen	19		2
-zadojen	122		2
+zadojen	122		3
 zadovoljen	347		2
 zadubljen	48		2
 zadužen	10430		2
-zagađen	386		2
+zagađen	386		3
 zaglavljen	263		2
 zaglađen			2
 zaglušen	15		2
-zagnjuren	13		2
-zagnojen			2
+zagnjuren	13		3
+zagnojen			3
 zagrađen	11		2
 zagrižen	23		2
-zagrljen	41		2
+zagrljen	41		3
 zagubljen	50		2
 zaguljen	17		2
 zagušen	81		2
-zahvaćen	517		2
+zahvaćen	517		3
 zajamčen	13		2
-zajapuren	58		2
+zajapuren	58		3
 zajemčen			2
 zakačen	287		2
 zakićen	17		2
@@ -2115,7 +2115,7 @@ zakupljen	107		2
 zalepljen	237		2
 zalečen	22		2
 zaleđen	152		2
-zaliven	145		2
+zaliven	145		3
 zaljubljen	1494		2
 založen	25		2
 zaluđen	113		2
@@ -2123,10 +2123,10 @@ zamagljen	145		2
 zamašćen			2
 zamenjen	2128		2
 zamešen			2
-zamišljen	2442		2
+zamišljen	2442		3
 zamoljen	388		2
 zamonašen	166		2
-zamoren	39		2
+zamoren	39		3
 zamočen			2
 zamračen	32		2
 zamršen	92		2
@@ -2140,24 +2140,24 @@ zaobljen	251		2
 zaokrugljen		M	2
 zaokružen	1016		2
 zaokupljen	364		2
-zaoštren	34		2
+zaoštren	34		3
 zapaljen	548		2
 zapamćen	703		2
 zapanjen	683		2
-zapapren			2
+zapapren			3
 zaparložen		M	2
-zapažen	1334		2
+zapažen	1334		3
 zapenušen			2
 zapećaćen			2
 zapečaćen	152		2
-zapečen	31		2
-zaplašen	49		2
+zapečen	31		3
+zaplašen	49		3
 zaplenjen	148		2
 zapleten	37		2
-zapojen			2
-zaposlen	4317		2
-zapostavljen	454		2
-zapoveđen			2
+zapojen			3
+zaposlen	4317		3
+zapostavljen	454		3
+zapoveđen			3
 zaprašen			2
 zaprepašten	39		2
 zaprepašćen	423		2
@@ -2165,7 +2165,7 @@ zaprećen			2
 zaprečen	12		2
 zapržen			2
 zaptiven		M	2
-zapušen	467		2
+zapušen	467		3
 zapušten	537		2
 zaraćen			2
 zarađen	392		2
@@ -2176,15 +2176,15 @@ zarobljen	1430		2
 zarubljen		M	2
 zaručen			2
 zasađen	155		2
-zasenjen	45		2
-zasićen	158		2
+zasenjen	45		3
+zasićen	158		3
 zaskočen			2
 zaslađen	62		2
 zaslepljen	258		2
 zaslužen	315		2
 zastakljen			2
 zastiđen			2
-zastrašen	58		2
+zastrašen	58		3
 zastupljen	1967		2
 zasvedočen			2
 zatamnjen	44		2
@@ -2193,22 +2193,22 @@ zatomljen	14		2
 zatočen	308		2
 zatražen	198		2
 zatupljen	29		2
-zaturen	42		2
-zatvoren	5869		2
-zaularen			2
-zaustavljen	1822		2
+zaturen	42		3
+zatvoren	5869		3
+zaularen			3
+zaustavljen	1822		3
 zavaljen	156		2
-zavaren	24		2
-zavađen	17		2
-zaveden	635		2
-zavijen	66		2
+zavaren	24		3
+zavađen	17		3
+zaveden	635		3
+zavijen	66		3
 zavođen			2
-završen	15710		2
+završen	15710		3
 zavučen	34		2
-začauren			2
+začauren			3
 začepljen	115		2
 začinjen	240		2
-začuđen	427		2
+začuđen	427		3
 zašiljen	32		2
 zašiven	20		2
 zašteđen			2
@@ -2231,7 +2231,7 @@ zgrčen	54		2
 zguren			2
 zimzelen	39		3
 zlaćen			2
-zlomislen			2
+zlomislen			3
 zlostavljen			2
 zloupotrebljen	276		2
 znamen	60		2
@@ -2249,14 +2249,14 @@ zoben			2
 šengen	867		2
 širen	33		2
 šiven	42		2
-šizofren			2
+šizofren			3
 šopen			2
-šoumen			2
+šoumen			3
 štavljen			2
 šteđen			2
 štićen	28		2
 šuriken			2
-šćućuren	27		2
+šćućuren	27		3
 žalošćen			2
 žeden			2
 željen	71		2
@@ -2267,74 +2267,74 @@ zoben			2
 žežen			2
 živorođen			2
 žnjeven			2
-žutozelen			2
+žutozelen			3
 žuđen			2
 cijenjen	79		2
-dodijeljen	104		2
+dodijeljen	104		3
 dodjeljen			2
 dragocjen			2
 drijen	20		1
-iscijeljen			2
-iscijeđen			2
-izliječen	17		2
+iscijeljen			3
+iscijeđen			3
+izliječen	17		3
 izmijenjen			2
 korijen	302		3
 kretjen			2
 lijen		M	1
-liječen			2
+liječen			3
 ljen		M	1
 marijen			2
 mjeren	13		2
-namijenjen	475		2
+namijenjen	475		3
 namjenjen			2
-namješten			2
-naslijeđen	15		2
+namješten			3
+naslijeđen	15		3
 neprimijećen			2
-neprimjeren			2
-neriješen	28		3
+neprimjeren			3
+neriješen	28		4
 obaviješten			2
 obavješten			2
-obješen			2
-ocijenjen			2
-odsječen			2
+obješen			3
+ocijenjen			3
+odsječen			3
 osvijetljen	23		2
 otmjen			2
 ovijen			2
 plijen	260		1
-pobijeđen	28		2
+pobijeđen	28		3
 podcijenjen			2
-podijeljen	217		2
-posjećen			2
+podijeljen	217		3
+posjećen			3
 povrijeden			2
 povrijedjen			2
-povrijeđen	192		2
+povrijeđen	192		3
 precijenjen			2
 premješten			2
-preusmjeren			2
-primijećen	32		2
+preusmjeren			3
+primijećen	32		3
 primjećen			2
-promijenjen	100		2
+promijenjen	100		3
 prosvijetljen			2
-provjeren			2
+provjeren			3
 razrijeđen			2
 razriješen	39		2
-riješen	341		2
-samouvjeren			2
+riješen	341		3
+samouvjeren			3
 sjen			1
 skupocjen			2
-smijenjen	133		2
+smijenjen	133		3
 smješten	214		2
-spriječen			2
+spriječen			3
 tijen			2
 tjen			1
 ubijeđen	218		2
-ukorijenjen	20		2
-umjeren			2
+ukorijenjen	20		3
+umjeren			3
 unaprijeđen	47		2
-usmjeren			2
-uvjeren			2
-uvrijeđen	45		3
+usmjeren			3
+uvjeren			3
+uvrijeđen	45		4
 zalijepljen			2
-zamijenjen	77		2
+zamijenjen	77		3
 zaplijenjen			2
 zaslijepljen	15		2

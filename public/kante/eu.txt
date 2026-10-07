@@ -1,7 +1,7 @@
 41
 antrfileu			2
 atašeu	25		2
-ateljeu	1105		2
+ateljeu	1105		3
 bifeu	181		2
 danteu			2
 defileu			2
@@ -16,7 +16,7 @@ geteu			2
 ideu			2
 kabareu	71		2
 kafeu			2
-karateu	407		2
+karateu	407		3
 klišeu	74		2
 kominikeu	67		2
 kupeu	278		2

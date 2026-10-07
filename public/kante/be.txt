@@ -1,6 +1,6 @@
 226
 Kube	258		2
-Zagrebe	232		2
+Zagrebe	232		3
 abe			2
 amebe	171		2
 antisrbe			2
@@ -10,7 +10,7 @@ be		M	1
 bebe	15291		1
 bejbe	18		2
 berbe	2001		2
-bezube	19		2
+bezube	19		3
 bobe	128		2
 bombe	5682		2
 borbe	29554		2
@@ -61,8 +61,8 @@ izgibe			2
 izgrebe	62		2
 izgube	4270		2
 izljube	57		2
-izložbe	17098		2
-izvedbe	552		2
+izložbe	17098		3
+izvedbe	552		3
 jastrebe			3
 kanabe	111		2
 karibe			2
@@ -71,12 +71,12 @@ katakombe	172		2
 kebabe			2
 kobe			2
 kolerabe			2
-kolibe	736		2
-konobe	73		2
-kosidbe	146		2
+kolibe	736		3
+konobe	73		3
+kosidbe	146		3
 krabe	114		2
-krezube	15		2
-krunidbe			2
+krezube	15		3
+krunidbe			3
 kube	258		2
 labe			2
 ljube	1765		2
@@ -86,24 +86,24 @@ mobe	13		2
 molbe	2063		2
 mugabe			2
 mučibabe			2
-nagodbe	606		2
+nagodbe	606		3
 nagrabe			2
 naobrazbe	38		4
-naredbe	2229		2
-narudžbe	362		2
+naredbe	2229		3
+narudžbe	362		3
 nastambe	47		2
 nazebe	29		2
 nesrbe	91		2
 obe	2860		2
 obljube	96		2
-odredbe	16494		2
+odredbe	16494		3
 odrube	23		2
 ogrebe	175		2
 onesposobe	78		2
 opskrbe	90		2
-optužbe	9143		2
+optužbe	9143		3
 orobe	18		2
-oslabe	463		2
+oslabe	463		3
 osobe	57191		3
 osposobe	698		2
 ozebe			2
@@ -111,33 +111,33 @@ paljbe	260		2
 palube	398		3
 plenidbe	90		2
 plombe	374		2
-plovidbe	1658		2
+plovidbe	1658		3
 pogibe			2
 pogodbe	372		2
-pogrebe	123		2
+pogrebe	123		3
 pogube	232		2
 poljube	222		2
 porobe	133		2
 potrebe	80240		3
-prababe	112		2
+prababe	112		3
 praizvedbe	47		2
-predodžbe	53		2
-pregibe	46		2
-preljube	372		2
+predodžbe	53		3
+pregibe	46		3
+preljube	372		3
 preslabe	54		2
-pretvorbe	28		2
+pretvorbe	28		3
 prigrabe	129		2
 priljube	19		2
-primedbe	8574		2
-priredbe	1650		2
-pritužbe	2072		2
+primedbe	8574		3
+priredbe	1650		3
+pritužbe	2072		3
 probe	2504		2
 prodube	420		2
 prosidbe	91		2
 rabe	66		2
-razdiobe			3
+razdiobe			4
 razdrobe			2
-razgrabe	53		2
+razgrabe	53		3
 ribe	12882		2
 robe	27073		2
 rodoljube	205		4
@@ -146,7 +146,7 @@ rugobe	87		2
 sabljozube			2
 sambe	230		2
 sebe	164900		2
-selidbe	1547		2
+selidbe	1547		3
 seobe	1791		2
 slabe	5418		2
 slobe			2
@@ -158,11 +158,11 @@ srbe	6834		2
 srdžbe	163		2
 stube	62		2
 sudbe			2
-sukobe	3945		2
+sukobe	3945		3
 svadbe	2022		2
 svedodžbe	27		2
 svrbe	221		2
-tarabe	181		2
+tarabe	181		3
 tebe	33930		2
 tegobe	4651		2
 teskobe	357		2
@@ -182,7 +182,7 @@ tvorbe	90		2
 udadbe			2
 udbe	364		2
 udube	82		2
-ugrabe	119		2
+ugrabe	119		3
 uhlebe	33		2
 uknjižbe	129		2
 upodobe	62		2
@@ -191,9 +191,9 @@ uredbe	5244		2
 utrobe	691		3
 užlebe			2
 vabe	17		2
-veridbe	234		2
+veridbe	234		3
 vežbe	13110		2
-visibabe	68		3
+visibabe	68		4
 vrbe	778		2
 vršidbe	48		2
 zaglibe	13		2
@@ -223,9 +223,9 @@ zube	7661		2
 žabe	1971		2
 žalbe	6819		2
 ždrebe	218		2
-ženidbe	437		2
+ženidbe	437		3
 žurbe	689		2
 hljebe		J	2
-primjedbe			2
+primjedbe			3
 vježbe			2
 ždrijebe	36		2

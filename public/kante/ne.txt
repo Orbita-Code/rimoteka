@@ -6,10 +6,10 @@ Bostone			3
 Filipine			2
 Irane			2
 Japane			2
-Jordane			2
+Jordane			3
 Kazahstane			2
 Kine			2
-Kopenhagene			2
+Kopenhagene			3
 Libane			2
 Lione			2
 Lisabone			2
@@ -18,14 +18,14 @@ Londone			2
 Pakistane			2
 Prištine			3
 Sudane			2
-Ukrajine			3
+Ukrajine			4
 Vašingtone			2
 abecedne			4
 abnormalne	171		4
 aboridžine			2
-abortirane			2
+abortirane			3
 abrazivne			4
-adaptirane	232		2
+adaptirane	232		3
 adaptivne	125		2
 adekvatne	4000		4
 adicione			2
@@ -46,21 +46,21 @@ akcione	583		2
 akcizne	334		2
 akne	868		2
 akrilne	166		2
-aktivirane	281		2
+aktivirane	281		3
 aktivne	5972		3
 aktuelne	8148		4
-akustične	262		2
+akustične	262		3
 akutne	1043		3
 aladine			2
 alarmantne	245		2
-alarmirane	11		2
-alarmne	147		2
+alarmirane	11		3
+alarmne	147		3
 alatne	36		2
-alergične	269		2
+alergične	269		3
 alijine			2
 aline			2
 alkoholične			2
-alkoholne	68		3
+alkoholne	68		4
 alocirane	12		2
 alternativne	2763		5
 alveolarne	15		2
@@ -72,18 +72,18 @@ ambulantne	81		2
 amfetamine	33		2
 aminokiseline	787		2
 amoralne	19		4
-amorfne	87		2
-amputirane	63		2
+amorfne	87		3
+amputirane	63		3
 anahrone	97		2
-analizirane	412		2
+analizirane	412		3
 analizovane			2
 analne	128		2
 analogne	742		4
-anarhične	25		2
+anarhične	25		3
 andrijane			2
 andrijine			2
 aneksione			2
-anemične	83		2
+anemične	83		3
 anemone			2
 angažmane	203		2
 angažovane	1243		2
@@ -93,7 +93,7 @@ animalne	77		4
 animirane	384		2
 anine			2
 aničine			2
-anketne	74		2
+anketne	74		3
 anksiozne			2
 anonimne	811		4
 antene	2067		2
@@ -105,7 +105,7 @@ antone			2
 anđeline			2
 apartmane	840		2
 apartne			2
-apatične	33		2
+apatične	33		3
 apelacione	47		2
 apelativne			2
 aplikativne			2
@@ -113,59 +113,59 @@ apoene	43		2
 apokrifne	22		2
 apriorne	50		4
 apsolutne	1904		4
-apstraktne	667		2
-apsurdne	418		2
-aranžirane	44		2
+apstraktne	667		3
+apsurdne	418		3
+aranžirane	44		3
 aranžmane	1911		2
-arapine			3
+arapine			4
 arbitrarne	86		4
 arbitražne	45		4
 arene	1919		2
-arhaične	146		2
+arhaične	146		3
 arhivirane	46		2
 arizone			2
 armirane	61		2
 arogantne	140		2
-aromatične	226		2
+aromatične	226		3
 aršine			2
 aseksualne			2
 asfaltne	311		2
-asimetrične	216		2
+asimetrične	216		3
 asocijalne	42		5
 aspirine	31		2
-astmatične	38		2
+astmatične	38		3
 astralne	85		2
 atinjane			2
 atraktivne	2165		4
 auditivne	61		2
-autentične	1343		2
+autentične	1343		3
 autistične	130		2
 autobusne			2
-autohtone	768		2
+autohtone	768		3
 autoimune	191		2
 automatizovane	194		2
-autonomne	3798		4
+autonomne	3798		5
 autoritativne	112		7
 avangardne	413		2
 avansne	72		2
 avetne			2
 avgustine			2
 avione	3057		2
-azbestne	58		2
-azbučne			2
-azotne	39		2
+azbestne	58		3
+azbučne			3
+azotne	39		3
 azurne	160		2
-ažurirane	218		2
+ažurirane	218		3
 ažurne	250		3
-babetine	26		2
+babetine	26		3
 babine	28		2
 babičine			2
 babune			2
-bacane	119		2
+bacane	119		3
 bahne			2
 bakarne	651		2
 bakine	40		2
-bakrene	36		2
+bakrene	36		3
 bakrorezne	19		2
 baladične			2
 baldahine	18		2
@@ -200,16 +200,16 @@ basnoslovne			4
 bastione	30		2
 bataljene			2
 bataljone	51		2
-batinane			2
-batine	2277		2
+batinane			3
+batine	2277		3
 batočine			2
 bavljene			2
 bazaltne	21		2
 bazene	1205		2
-bazirane	1354		2
+bazirane	1354		3
 bazične	637		2
 bazne	806		2
-bačene	763		2
+bačene	763		3
 baštine	5828		2
 baštinjene			4
 baštovane			2
@@ -217,35 +217,35 @@ bebine	56		2
 bedne	826		2
 bedrene	14		2
 bekne			2
-belančevine	856		3
-beležene	63		3
+belančevine	856		4
+beležene	63		4
 beline	338		2
 bene		M	2
 benigne	341		2
 benzine			2
-beograđane	952		3
+beograđane	952		4
 berane			3
 berberine			2
 berićetne			2
 besane			2
 besciljne	25		2
 beskamatne	92		2
-beskonačne	514		2
-beskorisne	319		3
+beskonačne	514		3
+beskorisne	319		4
 beskrajne	885		2
-beskrupulozne			4
+beskrupulozne			5
 beskrvne	55		2
 beskvasne			2
 beslovesne	63		2
-besmislene	1349		3
-besmrtne	267		2
+besmislene	1349		4
+besmrtne	267		3
 besne	713		2
 besomučne	142		2
 bespilotne	477		2
-besplatne	6946		2
-besplodne	34		2
+besplatne	6946		3
+besplodne	34		3
 bespomoćne	178		4
-besposlene	59		3
+besposlene	59		4
 bespotrebne	275		2
 bespravne	282		2
 besprekidne			2
@@ -256,49 +256,49 @@ bestelesne	53		4
 bestidne	83		2
 bestijalne	29		4
 besunčane			2
-betonirane	42		2
+betonirane	42		3
 betovene			2
-bezazlene	442		2
-bezbedne	1698		2
+bezazlene	442		3
+bezbedne	1698		3
 bezbednosne	4136		2
 bezbojne	67		3
 bezbolne	129		2
-bezbožne	102		2
-bezbrižne	155		2
+bezbožne	102		3
+bezbrižne	155		3
 bezbrojne	699		2
-bezdane	61		2
-bezdušne	85		2
-bezglasne	11		2
+bezdane	61		3
+bezdušne	85		3
+bezglasne	11		3
 bezgranične	178		4
-bezgrešne	45		2
-bezimene	89		3
+bezgrešne	45		3
+bezimene	89		4
 bezizgledne			4
-bezizlazne	118		2
-bezlične	186		2
+bezizlazne	118		3
+bezlične	186		3
 bezmerene			2
 bezmerne	34		2
 beznadežne	92		2
-beznadne			2
+beznadne			3
 beznačajne	473		4
 bezoblične	45		2
-bezobrazne	317		2
+bezobrazne	317		3
 bezobzirne	173		4
 bezopasne	291		4
 bezosećajne	52		5
-bezočne	95		2
+bezočne	95		3
 bezukusne			2
 bezumne	161		2
 bezuslovne	235		2
-bezuspešne	70		2
+bezuspešne	70		3
 bezutešne			2
-bezvezne	168		2
-bezvodne	18		2
+bezvezne	168		3
+bezvodne	18		3
 bezvoljne	33		2
 bezvredne	295		3
 bezživotne			2
 bećarine			2
 bešavne	31		2
-beživotne	52		3
+beživotne	52		4
 bežične	1223		2
 bigotne			2
 bihevioralne	54		2
@@ -312,7 +312,7 @@ biltene	132		2
 binarne	161		2
 bine	177		2
 bipolarne	53		2
-birane	299		2
+birane	299		3
 biseksualne			2
 biserne	72		2
 bistrine	94		2
@@ -325,15 +325,15 @@ blagajne	740		2
 blagodatne	139		2
 blagorodne			2
 blagoslovene	94		2
-blagoslovljene	22		2
+blagoslovljene	22		3
 blatne	34		2
 blatobrane	77		4
 blazirane	21		2
 blažene	566		2
-blebetane			2
+blebetane			3
 bledozelene			2
 blene	65		2
-blesane			2
+blesane			3
 blesne	42		2
 blindirane	42		2
 blisne			2
@@ -341,7 +341,7 @@ blizine	2084		2
 bljesne	139		2
 bljune			2
 bljuvotine	263		2
-blokirane	373		2
+blokirane	373		3
 bludne	149		2
 bobane			2
 bocne	55		2
@@ -354,19 +354,19 @@ bogorodičine	149		2
 bogoslužbene	260		2
 bogougodne	63		2
 bojadisane			2
-bojane	320		2
+bojane	320		3
 bojanine			2
-bojene	123		2
+bojene	123		3
 bojne	195		2
 bolesne	2415		3
 boleštine	131		2
 bolne	2127		2
 bombone	895		2
 bonbone	85		2
-boravišne	110		3
+boravišne	110		4
 borbene	1519		3
 borine	190		2
-borovine	120		3
+borovine	120		4
 bosne			2
 bostane	12		2
 bočne	998		2
@@ -374,13 +374,13 @@ bođane			2
 bošnjane			2
 božane			2
 božanine			2
-božanstvene	403		2
-božićne	1004		2
+božanstvene	403		3
+božićne	1004		3
 bradonjine			2
 brajane			2
 brakorazvodne	80		2
 brane	9241		2
-branjene	45		2
+branjene	45		3
 brankovine			2
 braune			2
 bravurozne	24		2
@@ -401,27 +401,27 @@ brižne	180		2
 brljotine	295		2
 brne			2
 brodolomne			2
-brojane	10		2
+brojane	10		3
 brojevne			2
 brojne	27212		2
-brojčane	157		2
+brojčane	157		3
 bronzane	1628		2
 brusne	30		2
 brutalne	573		3
-brzine	13129		2
+brzine	13129		3
 brčine	13		2
 brđane	59		3
 brđanine			4
 bubne	117		2
-bubrežne	132		2
-budalaštine	901		2
-budaletine	65		2
+bubrežne	132		3
+budalaštine	901		3
+budaletine	65		3
 budaline			2
 budne	189		2
 bugarine			2
 bujne	527		2
 bukne	181		2
-bukovine	70		3
+bukovine	70		4
 bukvalne	34		3
 bukvine			2
 bulazne	33		2
@@ -437,9 +437,9 @@ butone			2
 buzdovane			2
 bućne	23		2
 bučne	341		2
-buđene			2
+buđene			3
 bušmane			2
-bušotine	746		3
+bušotine	746		4
 cane			2
 carevine	1035		4
 carevne			2
@@ -449,12 +449,12 @@ carostavne			2
 celine	6444		2
 celishodne	38		2
 celodnevne	280		2
-celokupne	3751		2
+celokupne	3751		3
 celosne			2
 celuloidne			2
 cementne	47		2
 cene	77015		2
-cenjene	641		2
+cenjene	641		3
 cenovne	494		2
 centralizovane	447		2
 centralne	15861		2
@@ -473,13 +473,13 @@ cigane	331		3
 ciganine			4
 ciglane	247		2
 cijukne			2
-ciklične	135		2
+ciklične	135		3
 ciklone	16		2
 cikne	21		2
-ciljane	366		2
+ciljane	366		3
 ciljne	1613		2
 cimne	70		2
-cinične	165		2
+cinične	165		3
 cinkane			3
 cirkularne	76		2
 cisterne	1013		2
@@ -491,14 +491,14 @@ cmokne			2
 crevne	223		2
 crkne	1270		2
 crkotine	25		2
-crkvene	5913		2
+crkvene	5913		3
 crkvine			2
 crne	16081		2
 crnine	34		2
 crpne	107		2
 crtane	451		2
-crvene	22476		2
-crvotočine	80		3
+crvene	22476		3
+crvotočine	80		4
 cvetne	866		2
 cvijane			2
 cvrkne			2
@@ -507,23 +507,23 @@ dafine			2
 dafne			2
 dahne	11		2
 dalekometne	43		2
-dalekosežne	822		2
+dalekosežne	822		3
 daljine	2776		2
 damjane			2
 dane	14911		2
 dangubne			2
 danonoćne	31		4
 darine			2
-darivane	26		2
+darivane	26		3
 darne			2
-darovane	47		2
+darovane	47		3
 datotečne			2
-davane	301		2
+davane	301		3
 davne	5070		2
 davnine	85		2
 daščane	20		2
 dažbine	1779		3
-deaktivirane	10		2
+deaktivirane	10		3
 debatne	50		2
 debilne	62		3
 debitne	247		2
@@ -534,7 +534,7 @@ dedine	57		2
 dedovine	124		2
 deduktivne	13		4
 defanzivne	217		2
-defektne	58		2
+defektne	58		3
 definisane	3017		2
 definitivne	296		5
 deflacione			2
@@ -552,7 +552,7 @@ delfine	134		2
 delikatesne	17		2
 delikatne	309		4
 delimične	525		2
-deljene	307		2
+deljene	307		3
 delotvorne	601		4
 demodirane			2
 demokratične	20		2
@@ -562,11 +562,11 @@ deponovane	64		2
 deportovane	32		2
 depozitne	96		2
 depresivne	365		2
-derane	65		2
+derane	65		3
 derne			2
 desantne	46		2
 desertne			2
-desetine	9820		2
+desetine	9820		3
 desetkovane	52		2
 desine			2
 desne	8687		2
@@ -592,13 +592,13 @@ dijamantne	11		2
 dijane			2
 dijetalne	124		2
 dijetne			2
-diktirane	61		2
+diktirane	61		3
 dimljene	163		3
 dimne	283		2
 dinamične	876		2
 dine	522		2
 dinstane	22		3
-direktne	5064		2
+direktne	5064		3
 dirigovane	85		2
 dirne	300		2
 disajne	657		2
@@ -607,14 +607,14 @@ disfunkcionalne	69		2
 disjunktivne			2
 disketne	21		2
 diskontne	72		2
-diskretne	420		2
+diskretne	420		3
 diskurzivne	88		2
 diskusione	86		2
 disparatne			2
 divljačne			2
 divljine	393		2
 divne	3152		2
-dizajne	108		2
+dizajne	108		3
 dizajnirane	1134		2
 dizane	23		3
 dizgine	122		2
@@ -626,103 +626,103 @@ dnevne	7880		2
 dobavljane			2
 dobavljene	11		2
 dobegne			2
-dobijene	2844		3
+dobijene	2844		4
 dobitne	77		2
-dobivane			2
+dobivane			3
 dobivene			2
 dobračine			2
 dobričine	24		2
-dobronamerne	668		2
+dobronamerne	668		3
 dobrotvorne	1073		4
 dobrovoljne	842		2
 dobroćudne	113		4
 docne			2
-dodane	53		2
+dodane	53		3
 dodatne	17778		3
-dodavane	52		2
-dodeljene	2788		2
-dodeljivane	126		2
+dodavane	52		3
+dodeljene	2788		3
+dodeljivane	126		3
 dodirne	1189		2
 dogmatične	12		2
 dogodine	1878		2
 dogodovštine	402		2
 dogone			2
-dogovorene	885		2
+dogovorene	885		3
 dogođene			2
 dograđene	38		2
-dokazane	587		2
-dokazivane	10		2
+dokazane	587		3
+dokazivane	10		3
 dokazne	148		2
 dokine	10		2
-dokone	153		2
+dokone	153		3
 doktrine	1261		2
 dokumentarne	874		5
 dokumentovane	168		2
-dokučene			2
+dokučene			3
 dolazne	172		2
 doline	3256		2
 dolične	13		2
 doljane			2
-domaćine	1205		2
+domaćine	1205		3
 domene	778		2
 dometne	21		2
 domicilne	123		2
 dominantne	1480		2
 domine	217		2
 domogne	849		2
-domovine	1708		3
+domovine	1708		4
 donedavne	16		2
 donesene	538		2
-donošene	311		2
-dopadne	1197		2
+donošene	311		3
+dopadne	1197		3
 dopane			2
-dopisane	12		2
+dopisane	12		3
 dopisne	70		2
 doplatne	222		2
-dopremljene	92		2
+dopremljene	92		3
 dopune	5774		3
-dopunjene	178		3
-dopuštene	212		2
+dopunjene	178		4
+dopuštene	212		3
 doradne	12		2
-dorađene	51		2
-dorađivane	11		2
+dorađene	51		3
+dorađivane	11		3
 dosadne	1121		3
 dosegne	868		2
-doseljene	77		2
-dosledne	323		2
+doseljene	77		3
+dosledne	323		3
 doslovne	34		2
-dostavljane	32		3
-dostavljene	706		3
+dostavljane	32		4
+dostavljene	706		4
 dostavne	17		3
-dostigne	4330		2
+dostigne	4330		3
 dostojne	560		2
-dostupne	7435		2
+dostupne	7435		3
 dosuđene	124		2
 dotakne	945		2
 doterane	242		2
 dotične	1142		2
 dovaljane			2
-dovedene	630		2
-dovezene	32		2
+dovedene	630		3
+dovezene	32		3
 dovikne	39		2
 dovoljne	4580		3
-dovođene	85		2
-dovršene	120		2
+dovođene	85		3
+dovršene	120		3
 dozirane	63		2
-dozvoljene	2305		2
-dočekane	102		3
-dočekivane			2
+dozvoljene	2305		3
+dočekane	102		4
+dočekivane			3
 doživljajne			2
 doživljene	114		2
 doživotne	325		4
-dragane	867		2
+dragane	867		3
 dragine			2
-dragocene	1822		2
+dragocene	1822		3
 dragutine			2
 dramatizovane	16		2
-dramatične	1191		2
-drastične	1017		2
-dražene	50		2
+dramatične	1191		3
+drastične	1017		3
+dražene	50		3
 dražesne	21		3
 dražine			2
 drekne	90		2
@@ -731,26 +731,26 @@ drenažne	80		2
 drenjine	42		2
 drenovine	78		2
 dresine			2
-dresirane	18		2
+dresirane	18		3
 drevne	2053		2
 drine			2
 drmne	59		2
-drobljene			2
+drobljene			3
 drobne			2
-drogirane	36		2
+drogirane	36		3
 drtine			2
 drugorazredne	117		2
 drugostepene	64		2
 drumarine			2
 druškane			2
 društvene	23097		3
-družine	1440		2
+družine	1440		3
 drvene	2725		3
 drvne	69		2
 drzne	192		2
-držane	144		2
+držane	144		3
 državine			2
-državljane	1231		3
+državljane	1231		4
 državne	41279		2
 državnopravne			2
 dubine	5532		2
@@ -788,7 +788,7 @@ dvojine	13		2
 dvojne	201		2
 dvokrevetne	849		2
 dvokrilne	19		2
-dvolične	53		2
+dvolične	53		3
 dvomesečne	164		2
 dvomotorne			2
 dvonedeljne	248		2
@@ -796,34 +796,34 @@ dvorane	2400		2
 dvoredne	19		2
 dvorišne	71		2
 dvoslovne			2
-dvosložne	13		2
+dvosložne	13		3
 dvosmerne	190		2
-dvosmislene	167		3
+dvosmislene	167		4
 dvospratne	72		2
 dvostrane	136		2
 dvotomne			2
 dvovekovne			2
 dvočasovne	103		2
 dvočlane	43		2
-džentlmene	26		2
+džentlmene	26		3
 džepne	68		2
 džine			2
 edukativne	1852		5
 efektivne	626		4
-efektne	314		2
+efektne	314		3
 efemerne	53		4
 efikasne	3518		4
 egipćane			2
-egoistične	53		2
-egzaktne	293		2
+egoistične	53		3
+egzaktne	293		3
 egzistencijalne	674		6
 egzogene	34		2
-egzotične	849		2
+egzotične	849		3
 ekavštine			2
 ekipne	89		2
-ekonomične	240		2
+ekonomične	240		3
 ekrane	1196		2
-ekscentrične	123		2
+ekscentrične	123		3
 ekscesne	34		2
 eksklamativne			2
 ekskluzivne	1045		4
@@ -839,8 +839,8 @@ ekstravagantne	118		2
 ekstremne	2328		2
 ekumene	41		2
 ekvatorijalne	68		2
-ekvivalentne	333		2
-elastične	371		2
+ekvivalentne	333		3
+elastične	371		3
 elegantne	739		2
 elektrane	3728		2
 električne	15520		2
@@ -849,7 +849,7 @@ elektrone	257		2
 elementarne	2536		5
 elene			2
 eliminisane	156		2
-eliptične	106		2
+eliptične	106		3
 elitne	933		2
 elokventne	31		2
 embrione	91		4
@@ -863,13 +863,13 @@ endemične	52		2
 endokrine	109		2
 endorfine	48		2
 energane	173		2
-energične	349		2
+energične	349		3
 enormne	760		2
 epiduralne	68		2
 epizodne	96		2
 epohalne	187		4
 erogene	177		2
-erotične	44		2
+erotične	44		3
 eruptivne	30		4
 esencijalne	705		5
 eskontne	41		2
@@ -885,17 +885,17 @@ evolucione	203		2
 evolutivne	125		2
 evropljane			2
 evrozone	6547		2
-ezoterične	52		2
+ezoterične	52		3
 facijalne	83		2
-faktične			2
+faktične			3
 fakultativne	228		2
-falične	28		2
+falične	28		3
 fališne			2
 falsifikovane	234		2
 faltane			2
 famozne	611		3
-fanatične	107		2
-fantastične	2088		2
+fanatične	107		3
+fantastične	2088		3
 faraone	33		2
 farsične	28		2
 fasadne	506		2
@@ -925,9 +925,9 @@ fiksirane	191		2
 fiksne	2446		2
 fiktivne	453		2
 filovane	26		2
-filtrirane	62		2
+filtrirane	62		3
 finalne	1973		2
-finansirane	570		2
+finansirane	570		3
 fine	2034		2
 firmine			2
 fiskalne	4860		2
@@ -937,7 +937,7 @@ flaširane	369		2
 fleksibilne	709		4
 fluidne	94		3
 fluorescentne	210		2
-fokusirane	419		2
+fokusirane	419		3
 folklorne	917		2
 fontane	1639		2
 formalne	1644		2
@@ -950,28 +950,28 @@ fragilne			2
 frane			2
 frapantne	56		2
 frekventne	154		2
-frenetične	32		2
+frenetične	32		3
 frigidne	35		2
 frikcione			2
 frivolne	12		3
 frizirane	42		2
 frkne	11		2
 frontalne	88		2
-frustrirane	76		2
+frustrirane	76		3
 fundamentalne	694		5
 funkcionalne	2456		5
 furune			2
 gadne	253		2
 gajene	294		2
-gajtane	23		2
+gajtane	23		3
 gakne			2
 galantne	27		2
 galone	14		2
 galvanizirane			2
 gangrene	145		2
-ganjane			2
+ganjane			3
 garantne	128		2
-garantovane	263		4
+garantovane	263		5
 garašanine			2
 garažne	35		2
 garnirane	22		2
@@ -983,8 +983,8 @@ gavrane	23		3
 gazdaričine			2
 gazdine	18		2
 gazirane	283		3
-gađane	49		2
-gašene	21		2
+gađane	49		3
+gašene	21		3
 gažene			3
 gene	1074		2
 generalne	3380		4
@@ -994,16 +994,16 @@ genitalne	185		2
 genocidne	419		2
 georgine	13		2
 geotermalne	496		2
-giljotine	134		3
+giljotine	134		4
 gine	1580		2
 gipsane	192		2
 gladne	1204		2
 glamurozne	285		2
-glasine	3119		2
+glasine	3119		3
 glasne	667		2
 glasovne	321		2
 glavarine	15		2
-glavešine	196		2
+glavešine	196		3
 glavne	17615		2
 glavnine	103		2
 glavčine			2
@@ -1013,12 +1013,12 @@ gledane	159		2
 gledne			2
 gleđosane			2
 gline	2137		2
-glinene	237		2
+glinene	237		3
 gljivične	348		2
 globalne	8597		2
 globane			2
 glomazne	303		3
-glupane	51		2
+glupane	51		3
 glupsone			2
 gnevne	70		2
 gnjilane			2
@@ -1032,20 +1032,20 @@ gojene			2
 golmane			2
 golubane			2
 gone	844		2
-gonjene	48		2
-gorane	411		2
+gonjene	48		3
+gorane	411		3
 gordane			2
 goropadne	17		2
 gorostasne	39		4
 gorčine	729		2
 gospine			2
-gospodine	32868		2
+gospodine	32868		3
 gospojine	136		2
-gospoštine	13		2
+gospoštine	13		3
 gostione	80		2
 gotovane			2
 gotovine	1897		2
-govedine	405		3
+govedine	405		4
 goveđine			2
 govorne	329		2
 grabovine			2
@@ -1061,14 +1061,14 @@ grakne	12		2
 grandiozne	236		4
 grane	8098		2
 granitne	118		2
-granične	2004		2
+granične	2004		3
 gravitacione	291		2
 gračane			2
 građane	33868		3
 građanine	54		4
 građanskopravne			2
-građene	951		2
-građevine	5138		3
+građene	951		3
+građevine	5138		4
 grdne	323		2
 grebene	101		3
 grejane	36		2
@@ -1080,9 +1080,9 @@ gricne	57		2
 grimizne	27		3
 gripozne			2
 grivne			2
-grkljane	17		2
+grkljane	17		3
 grlene	31		2
-grmljavine	343		3
+grmljavine	343		4
 grmne			2
 grne			2
 grobne	140		2
@@ -1098,13 +1098,13 @@ grupne	1931		2
 grčene			2
 gucne	19		2
 gukne	24		2
-gumene	974		2
+gumene	974		3
 gurmane	124		2
 gurne	779		2
 gusane			2
 gusne			2
 gustine	1846		2
-gušene			2
+gušene			3
 gvajane			2
 gvozdene	926		3
 hadžijine			2
@@ -1114,7 +1114,7 @@ haljine	4392		2
 halucinogene	62		6
 hane			2
 haotične	212		2
-harmonične	216		2
+harmonične	216		3
 harpune			2
 havane			2
 hazardne	32		2
@@ -1126,25 +1126,25 @@ hendikepirane	207		2
 heraldične			2
 hercegovine			2
 hermeline			2
-hermetične	35		2
+hermetične	35		3
 heroine	200		2
 heterogene	179		5
 heteroseksualne	232		2
 hibridne	529		2
-hidraulične	257		2
+hidraulične	257		3
 hidroelektrane	1823		2
 higijene	3778		2
 hijene	282		2
 himne	2202		2
 hipertrofirane	14		2
 hipotekarne	236		2
-hipotetične	25		2
-histerične	204		2
+hipotetične	25		3
+histerične	204		3
 hitne	6801		2
 hitrine			2
 hladne	4211		2
 hladnokrvne	63		4
-hladovine	170		2
+hladovine	170		3
 hlebne	37		2
 hodne			2
 hodžine			2
@@ -1162,13 +1162,13 @@ hotimične	13		4
 hramovne	11		2
 hranarine	28		2
 hrane	56947		2
-hranjene	217		2
-hrastovine	242		3
+hranjene	217		3
+hrastovine	242		4
 hridine	19		2
 hristine			2
-hrišćane	2163		2
-hrišćanine	23		3
-hronične	2041		2
+hrišćane	2163		3
+hrišćanine	23		4
+hronične	2041		3
 htedne	57		2
 hukne			2
 huligane			2
@@ -1177,20 +1177,20 @@ humanitarne	5476		5
 humorne	51		2
 huseine			2
 hučne	11		2
-hvaljene	107		2
+hvaljene	107		3
 idealne	2528		4
 idejne	271		2
 identifikacione	326		2
-identifikovane	443		5
-identične	1806		2
-idilične	152		2
+identifikovane	443		6
+identične	1806		3
+idilične	152		3
 iglene	195		2
 ignorisane	92		2
 igrane	542		2
 iguane	151		2
 igumane	157		4
 ijedne		M	2
-ikone	5674		2
+ikone	5674		3
 ilegalne	1303		4
 ilustrovane	248		2
 iluzorne	54		4
@@ -1199,15 +1199,15 @@ imanentne	128		2
 imendane	10		4
 imenovane	219		5
 imigracione	65		2
-imovine	26825		2
+imovine	26825		3
 imovne	11		2
 imperijalne	501		2
-implicitne	103		2
+implicitne	103		3
 impotentne	25		2
 impozantne	271		2
-impresionirane	25		2
+impresionirane	25		3
 impresivne	794		4
-improvizovane	171		4
+improvizovane	171		5
 impulsivne	125		2
 impulsne	33		2
 imune	255		3
@@ -1230,7 +1230,7 @@ inflacione	44		2
 inflatorne	140		2
 informacione	2290		2
 informativne	1866		5
-infracrvene	298		4
+infracrvene	298		5
 inherentne	75		2
 inicijalne	634		5
 inicirane	105		2
@@ -1238,7 +1238,7 @@ inokosne			2
 inostrane	2761		2
 inovacione	320		2
 inovativne	2171		5
-inovirane	27		2
+inovirane	27		3
 inspirativne	333		2
 inspirisane	688		2
 instalirane	780		2
@@ -1274,37 +1274,37 @@ irealne	11		4
 irene			2
 irine			2
 iritantne	98		2
-ironične	144		2
-isceljene	21		2
+ironične	144		3
+isceljene	21		3
 iscepane	64		2
-isceđene	36		2
+isceđene	36		3
 iscrpene			3
-iscrpljene	472		2
+iscrpljene	472		3
 iscrpne	302		3
 iscrtane	123		2
 iseckane	178		2
-iseljene	72		2
-isečene	358		3
+iseljene	72		3
+isečene	358		4
 isflekane			2
 ishitrene	235		2
 ishodišne	11		2
 ishrane	12987		3
 isidorine			2
 iskasapljene	10		2
-iskazane	540		2
+iskazane	540		3
 iskazne	12		2
-iskidane	39		3
+iskidane	39		4
 iskine			2
-iskićene	21		3
+iskićene	21		4
 isklesane	51		2
 isklizne	85		2
-isključene	552		2
+isključene	552		3
 isključne			2
 iskolačene	24		2
-iskopane	201		2
+iskopane	201		3
 iskopine	256		2
 iskorene	217		2
-iskorišćene	736		3
+iskorišćene	736		4
 iskovane	24		2
 iskošene	39		2
 iskrene	2235		3
@@ -1313,164 +1313,164 @@ iskrpljene			2
 iskrsne	316		2
 iskrzane	69		2
 iskucane			2
-iskupljene	14		2
+iskupljene	14		3
 iskusne	1252		3
-iskustvene	148		2
+iskustvene	148		3
 iskuvane			2
 iskvarene	49		2
 islužene	40		2
 ismevane	13		2
-ispadne	3956		2
+ispadne	3956		3
 ispaljene	199		2
 isparene			2
 ispeglane	84		3
 ispevane	95		2
-ispečene	76		3
+ispečene	76		4
 ispijene	59		2
 ispisane	805		2
-ispisivane	28		2
-ispitane	315		2
-ispitivane	224		2
+ispisivane	28		3
+ispitane	315		3
+ispitivane	224		3
 ispitne	397		2
 isplakane	15		2
 isplanirane	111		2
-isplaćene	1532		2
-ispletene	49		3
+isplaćene	1532		3
+ispletene	49		4
 ispljune	100		2
 ispne			2
 ispoljene	172		2
 ispoređene			2
-isporučene	541		2
+isporučene	541		3
 ispovedne	10		2
-isprane	82		2
-ispravljane	19		3
-ispravljene	274		3
+isprane	82		3
+ispravljane	19		4
+ispravljene	274		4
 ispravne	1529		3
 isprazne	582		3
-ispraćene	76		3
-ispražnjene	141		2
+ispraćene	76		4
+ispražnjene	141		3
 ispregne			2
 isprekidane	104		2
 isprepletane	139		2
 isprepletene	144		2
 ispresecane	69		2
 ispreturane	26		2
-ispričane	313		2
-isprljane			2
+ispričane	313		3
+isprljane			3
 isprobane	103		2
 ispružene	141		2
 ispržene	31		2
 ispucane	18		2
 ispune	5418		2
-ispunjavane	22		2
-ispunjene	1478		3
+ispunjavane	22		3
+ispunjene	1478		4
 ispupčene	100		2
-ispušene	16		3
+ispušene	16		4
 ispušne			2
-ispuštene	77		2
+ispuštene	77		3
 istakne	2154		2
 istanjene	25		2
 istančane	61		2
 istegne	51		2
 istekne	1219		2
-isterane	39		3
-isterivane			2
+isterane	39		4
+isterivane			3
 istesane			2
-isticane	67		3
+isticane	67		4
 istine	18877		3
-istisne	255		2
-istoimene	1289		3
-istopljene	48		2
+istisne	255		3
+istoimene	1289		4
+istopljene	48		3
 istorodne	21		4
-istovarene	18		3
-istovetne	533		2
-istovremene	284		3
-istovrsne	34		2
-istoznačne			2
-istočne	9925		2
+istovarene	18		4
+istovetne	533		3
+istovremene	284		4
+istovrsne	34		3
+istoznačne			3
+istočne	9925		3
 istrajne	103		2
-istražene	248		2
+istražene	248		3
 istražne	745		2
-istrebljene	44		2
-istrenirane	14		2
+istrebljene	44		3
+istrenirane	14		3
 istrezne			2
 istrgne	118		2
-istrošene	247		2
+istrošene	247		3
 istrugane			2
 istrune	58		2
 isturene	153		2
 isturčene			2
-isušene	57		2
+isušene	57		3
 italijane			2
-ivane	96		2
+ivane	96		3
 ivone			2
 izabrane	2932		4
-izazivane	13		2
+izazivane	13		3
 izazovne	313		4
-izazvane	2119		2
-izbacivane	22		2
-izbačene	432		2
+izazvane	2119		3
+izbacivane	22		3
+izbačene	432		3
 izbegne	4941		2
-izbljuvane			2
+izbljuvane			3
 izbodene	19		2
 izborane	17		2
-izborene	25		2
+izborene	25		3
 izborne	10048		2
-izbočine	151		3
+izbočine	151		4
 izbrijane	16		2
-izbrisane	239		3
+izbrisane	239		4
 izbuljene	22		2
-izbušene	107		2
+izbušene	107		3
 izdahne	135		2
 izdane	72		2
-izdavane	136		2
+izdavane	136		3
 izdašne	135		3
 izdigne	309		2
 izdrobljene			2
-izdržane	77		2
-izdržavane	20		3
+izdržane	77		3
+izdržavane	20		4
 izdubene			2
 izdubljene	40		2
 izduvne	481		2
 izdužene	170		2
-izdvojene	620		2
+izdvojene	620		3
 izgažene	22		2
-izgine	80		2
+izgine	80		3
 izgladne	11		2
 izglasane	84		2
 izgledne	299		2
 izglodane			2
-izgnane	14		2
+izgnane	14		3
 izgnječene			2
-izgone	87		2
-izgovarane	31		2
+izgone	87		3
+izgovarane	31		3
 izgovorene	854		2
 izgovorne	12		2
-izgrađene	2124		2
-izgrebane	42		2
-izgubljene	2654		2
+izgrađene	2124		3
+izgrebane	42		3
+izgubljene	2654		3
 izgurane			2
 izgužvane	45		2
 izjasne	2126		2
-izjednačene	500		2
+izjednačene	500		3
 izlane			2
 izlazne	415		3
 izlegne	42		2
 izlepljene	48		2
-izlečene	76		2
+izlečene	76		3
 izlizane	186		2
 izlišne	56		3
-izlomljene	101		2
-izložbene	278		3
+izlomljene	101		3
+izložbene	278		4
 izložene	3831		2
-izlučene	26		2
+izlučene	26		3
 izlučevine	98		2
 izmahne			2
 izmakne	459		2
 izmaštane	33		2
 izmene	19560		3
 izmenjene	697		2
-izmerene	356		3
+izmerene	356		4
 izmetine			2
 izmetne			2
 izmešane	152		2
@@ -1478,94 +1478,94 @@ izmeštene	184		2
 izmiksane			2
 izmirene	279		2
 izmirne			2
-izmišljane	17		2
-izmišljene	732		3
-izmišljotine	599		2
+izmišljane	17		3
+izmišljene	732		4
+izmišljotine	599		3
 izmoljene			2
 izmorene	14		2
 izmrvljene	31		2
 izmučene	81		2
-iznajmljene	100		2
+iznajmljene	100		3
 iznakažene			2
 iznemogne			2
 iznenadne	1037		4
-iznenađene	156		2
+iznenađene	156		3
 iznesene	287		3
 izneverene	72		2
 iznikne	102		2
-iznošene	177		2
+iznošene	177		3
 iznurene	45		2
-iznuđene	114		3
-izobličene	41		2
+iznuđene	114		4
+izobličene	41		3
 izobražene	12		2
 izokrene	34		2
 izolirane			2
-izolovane	595		4
+izolovane	595		5
 izopačene	153		3
-izostane			2
-izoštrene	33		2
-izrasline	265		3
+izostane			3
+izoštrene	33		3
+izrasline	265		4
 izračune	10		2
-izrađene	1698		2
+izrađene	1698		3
 izrađevine			2
-izrađivane	89		2
+izrađivane	89		3
 izražajne	201		4
-izražavane	10		2
-izražene	2027		2
-izrekne	839		2
-izrezane	45		3
-izrezbarene	54		2
-izrečene	1645		3
+izražavane	10		3
+izražene	2027		3
+izrekne	839		3
+izrezane	45		4
+izrezbarene	54		3
+izrečene	1645		4
 izrešetane	19		2
 izrežirane	31		2
-izricane	103		2
+izricane	103		3
 izrične			2
 izrone	44		2
-izručene			2
+izručene			3
 izubijane			2
 izukrštane			2
-izuvene			3
+izuvene			4
 izuzetne	6261		4
 izučavane	20		2
-izučene	14		2
+izučene	14		3
 izvagane			2
 izvajane	112		2
 izvaljene	17		2
-izvanredne	2385		2
-izvađene	206		3
-izvedene	1819		2
+izvanredne	2385		3
+izvađene	206		4
+izvedene	1819		3
 izvesne	4459		3
-izvezene	257		2
-izveštene			2
+izvezene	257		3
+izveštene			3
 izvežbane			2
 izvijene	42		2
 izvikane	46		2
 izvikivane	10		2
 izvine	375		2
-izvlačene	16		2
+izvlačene	16		3
 izvojevane	53		2
 izvorne	1743		2
 izvozne	1472		2
-izvođene	304		2
+izvođene	304		3
 izvrgne	91		2
 izvrne	120		2
 izvrsne	613		3
 izvrtane			2
 izvrćene			2
-izvršavane	41		3
+izvršavane	41		4
 izvršene	2545		2
 izvršne	4136		2
-izvučene	300		2
+izvučene	300		3
 išarane	63		2
 iščekivane	21		2
 iščeprkane			2
 iščezne	236		2
-iščupane	39		2
+iščupane	39		3
 iživljene			2
 jabučne	12		3
 jadne	1479		2
 jadovne			2
-jagnjetine	231		3
+jagnjetine	231		4
 jagodine	190		2
 jagodične	97		4
 jagorčevine	99		2
@@ -1573,16 +1573,16 @@ jahorine			2
 jajne	689		2
 jakne	1224		2
 jalovine	865		2
-jamčevine			3
+jamčevine			4
 jane			2
-janjetine	19	J	3
+janjetine	19	J	4
 jarane			2
 jarosne	11		2
 jasene			3
 jasmine	54		2
 jasne	7342		2
 jaukne	25		2
-javljene			2
+javljene			3
 javne	31360		2
 jazbine	285		3
 jačine	3157		2
@@ -1590,22 +1590,22 @@ jašine			2
 jedene	18		3
 jedine	5151		2
 jedinične	143		2
-jedinstvene	7271		2
-jednačine	1211		2
+jedinstvene	7271		3
+jednačine	1211		3
 jedne	108363		2
 jednine	317		2
 jednobojne	205		4
-jednodušne	27		2
+jednodušne	27		3
 jednokratne	950		2
 jednokrevetne	190		2
 jednokrvne			2
-jednolične	103		2
+jednolične	103		3
 jednoredne	13		2
 jednosatne	55		2
 jednosmerne	326		4
 jednospratne			2
 jednostavne	4493		4
-jednostrane	877		2
+jednostrane	877		3
 jednosušne			2
 jednoverne			2
 jednočlane			2
@@ -1613,26 +1613,26 @@ jedrene			2
 jedvabne			2
 jeftine	3667		3
 jekne	19		2
-jelene	400		2
+jelene	400		3
 jelenine			2
-jelovine	20		3
+jelovine	20		4
 jerine			2
 jetrene	12		2
 jevrejine			2
 jevtine			2
 jezičine	10		2
-jezične	41	J	2
+jezične	41	J	3
 ječmene	40		2
 jodne	13		2
-jorgane	67		2
+jorgane	67		3
 jorgovane	25		4
 jovane			2
 jovankine			2
 jovine			2
 jovičine			2
 jubilarne	1093		2
-jugoistočne	7005		2
-jugozapadne	46		2
+jugoistočne	7005		3
+jugozapadne	46		3
 julijane			2
 junakinjine			2
 junačine	71		2
@@ -1650,7 +1650,7 @@ kadune			2
 kafane	3489		2
 kafedžijine			2
 kafkine			2
-kaftane	15		2
+kaftane	15		3
 kajgane	46		3
 kajmane			2
 kalne			2
@@ -1683,7 +1683,7 @@ kapitalne	2612		4
 kapone			2
 kapriciozne	21		5
 karabine	63		2
-karakteristične	2215		2
+karakteristične	2215		3
 karakterne	418		2
 karantene			2
 karavane	170		2
@@ -1701,7 +1701,7 @@ karotidne	450		2
 kartagine			2
 kartone	518		2
 kasacione			2
-kasapine			3
+kasapine			4
 kasarne	2488		2
 kasetne	457		2
 kasetofone	30		2
@@ -1720,14 +1720,14 @@ kaurine	10		2
 kauzalne	30		4
 kavane	33		2
 kaverne	15		2
-kazane	132		2
-kazivane			2
+kazane	132		3
+kazivane			3
 kazne	22300		2
-kaznene	935		2
+kaznene	935		3
 kaznione			2
 kaširane	25		2
 kašljucne			2
-kažnjavane	43		2
+kažnjavane	43		3
 kažnjene	323		3
 kestene	24		3
 kidnapovane	35		2
@@ -1743,7 +1743,7 @@ kišonosne			2
 klane	12		2
 klanične	85		2
 klapne			2
-klasične	7476		2
+klasične	7476		3
 klasne	750		2
 klaune			3
 klačine			2
@@ -1760,7 +1760,7 @@ klimane			2
 klimne	144		2
 kline			2
 klinčine			2
-klipane	16		2
+klipane	16		3
 klipne	43		2
 klisne			2
 klisurine			2
@@ -1773,7 +1773,7 @@ klone	465		2
 klonirane	57		2
 klovne			2
 kne			1
-kneževine	900		3
+kneževine	900		4
 knežine	67		2
 knjigovodstvene	798		2
 knjižene	15		3
@@ -1788,7 +1788,7 @@ koherentne	134		2
 kohezione	73		2
 kohezivne	31		2
 koine			2
-koketne	17		2
+koketne	17		3
 kolajne	26		2
 kolateralne	225		2
 kolektivne	2965		4
@@ -1798,41 +1798,41 @@ količine	22767		2
 kolone	3508		2
 kolonijalne	746		5
 kolosalne	159		4
-kolotečine	108		2
+kolotečine	108		3
 kolovozne	385		2
 kolumne	1289		2
 komadine	13		2
 komandne	168		2
-kombajne	123		2
+kombajne	123		3
 kombinezone	60		2
 kombinovane	663		2
 komercijalne	5044		5
 komforne	295		3
 kominterne			2
 komisione	24		2
-komične	412		2
+komične	412		3
 komnene			2
-kompaktne	640		2
+kompaktne	640		3
 kompanjone	23		2
 komparativne	757		2
 kompatibilne	579		2
-kompleksne	1306		2
+kompleksne	1306		3
 komplementarne	494		5
-kompletne	4082		2
-komplikovane	995		4
+kompletne	4082		3
+komplikovane	995		5
 komponovane	103		2
 kompozicione			2
 kompresione			2
-kompromitovane	100		4
+kompromitovane	100		5
 komunalne	6551		2
 komune	579		2
 komunikacione	1522		2
 komšijine			2
-konačne	3346		2
+konačne	3346		3
 koncentracione	283		2
 koncentrirane			2
 koncentrisane			2
-koncentrične	77		2
+koncentrične	77		3
 koncertne	697		2
 koncesione	118		2
 koncesivne			2
@@ -1843,13 +1843,13 @@ kondicione	116		2
 konfiskovane	55		2
 konfliktne	344		2
 konfuzne	182		2
-kongresmene	62		3
-kongresne	89		2
-konične	19		2
-konjetine	27		3
+kongresmene	62		4
+kongresne	89		3
+konične	19		3
+konjetine	27		4
 konkavne	19		3
 konkluzivne			2
-konkretne	9444		2
+konkretne	9444		3
 konkubine	45		2
 konkurentne	1074		2
 konkursne	893		2
@@ -1860,7 +1860,7 @@ konstitucionalne	52		2
 konstitutivne	562		5
 konstruktivne	1057		4
 konsultovane	63		2
-kontaktirane	17		2
+kontaktirane	17		3
 kontaktne	319		2
 kontaminirane	234		2
 kontekstne	28		2
@@ -1882,25 +1882,25 @@ konzularne	165		2
 končane			2
 končine	240		2
 kooperativne	185		6
-kopane	18		2
+kopane	18		3
 kopilane			2
 kopirane	55		2
 koplanarne			2
 kopne	31		2
 kopnene	1357		2
-koprene	51		2
+koprene	51		3
 korakne	26		2
 koralne	104		2
 korane			2
 kordone	77		2
 korektivne	397		2
-korektne	766		2
+korektne	766		3
 korelativne			2
 korene	2746		3
 korespondentne	12		2
 korigovane	183		2
 korisne	6223		3
-korišćene	2547		3
+korišćene	2547		4
 korleone			2
 kornjačine			2
 koronarne	111		2
@@ -1911,9 +1911,9 @@ korumpirane	815		2
 kosine	148		2
 kosne	26		2
 kostimirane	54		2
-kotline	508		2
+kotline	508		3
 koturne			2
-kovane	80		2
+kovane	80		3
 kovine	27		3
 kovne			2
 kozine			2
@@ -1922,7 +1922,7 @@ kočione	292		2
 kočne	53		2
 kočoperne			2
 košmarne	80		3
-koštane	1230		2
+koštane	1230		3
 koščine			2
 kožne	1337		2
 kradene	40		3
@@ -1930,7 +1930,7 @@ krafne	15		2
 kragne	173		2
 krajine	4582		3
 krajne			2
-kraljevine	5881		3
+kraljevine	5881		4
 kraljičine	48		2
 krampone	31		2
 krasne	137		2
@@ -1940,37 +1940,37 @@ krcne	10		2
 kreativne	4987		4
 kredibilne	164		2
 kreditne	4483		2
-kreirane	558		2
+kreirane	558		3
 kremene	14		3
 krene	18015		2
 kresne	88		2
 kretene	111		2
-kretenčine			2
+kretenčine			3
 kretne		M	2
 krečane			2
-krečene	19		2
+krečene	19		3
 krečne	11		2
-krhotine	233		3
-krijumčarene	21		2
+krhotine	233		4
+krijumčarene	21		3
 krikne	50		2
 kriminalne	3139		4
 krine			2
 kristalne	500		2
 kristijane			2
 kristine			2
-kritične	1709		2
+kritične	1709		3
 krivine	1199		2
-krivične	4715		2
+krivične	4715		3
 krivičnopravne	113		2
-krivotvorene	44		2
-krivotvorine	13		2
+krivotvorene	44		3
+krivotvorine	13		3
 krizne	932		2
-krmene			2
+krmene			3
 krmetine			2
 krmne	36		2
 kroasane	78		2
 krofne	495		2
-krojene	51		2
+krojene	51		3
 krovine			2
 krovne	529		2
 krpene	35		2
@@ -1978,17 +1978,17 @@ krpetine			2
 krsne	122		2
 krtine			2
 krune	2407		2
-krunisane	109		3
+krunisane	109		4
 krupne	3174		2
 kružne	714		2
-krvarine			3
+krvarine			4
 krvne	1852		2
 krvoločne	102		4
 krvožedne	59		4
 krznene	69		2
-krčevine	33		3
+krčevine	33		4
 kršne	48		2
-krštene	59		2
+krštene	59		3
 kubne	16		2
 kucane	53		3
 kucne	175		2
@@ -2006,10 +2006,10 @@ kumulirane			2
 kundačine			2
 kune	1021		2
 kupine	941		2
-kupljene	1415		2
+kupljene	1415		3
 kupone	320		2
-kupovane	98		2
-kupovine	15075		2
+kupovane	98		3
+kupovine	15075		3
 kupovne	232		2
 kursne	298		2
 kurtizane	73		2
@@ -2017,7 +2017,7 @@ kurtoazne	36		4
 kusne			2
 kutine			2
 kuvane	344		3
-kućerine	69		2
+kućerine	69		3
 kućevne	28		2
 kućne	3524		2
 kužne	37		2
@@ -2039,31 +2039,31 @@ lajsne			2
 lakatne	16		2
 lakirane	112		2
 lakne	58		2
-lakomislene	64		3
+lakomislene	64		4
 lakovane	114		2
 lakoverne	143		4
 lakune			2
 lampione	50		2
 lane	1269		2
 lanene	115		2
-lansirane	267		2
+lansirane	267		3
 lansirne	31		2
 lanterne	49		2
 lančane	190		2
 lapidarne	15		4
 lascivne	77		2
 latentne	190		2
-latinične	114		2
+latinične	114		3
 lavine	396		2
 lavirane			2
 lazine			2
 lazurne			2
-lažirane	23		2
+lažirane	23		3
 lažne	5161		2
 lebane			2
 lecne			2
 ledene	1206		3
-ledine	167		2
+ledine	167		3
 ledne			2
 legalne	1588		2
 legendarne	1024		4
@@ -2071,19 +2071,19 @@ legione			2
 legitimne	1250		4
 legne	1443		2
 lekine			2
-leksikone	45		3
+leksikone	45		4
 lene		M	2
 lenštine			2
 leone			2
 lepine			2
-lepljene	50		2
+lepljene	50		3
 lepotane	61		2
 leskovčane			2
-letargične	31		2
+letargične	31		3
 letimične	11		2
 letine	171		3
 leđne	76		2
-lešine	103		2
+lešine	103		3
 leštane			2
 liberalne	2278		4
 licemerne	225		4
@@ -2092,7 +2092,7 @@ lijane	59		2
 likovne	1311		2
 likvidne	142		3
 lilijane			2
-limene	194		2
+limene	194		3
 limfne	378		2
 limitirane	208		2
 limune	16		3
@@ -2111,27 +2111,27 @@ livene	87		3
 ličane			2
 ličanine			2
 lične	17867		2
-lišavane			2
+lišavane			3
 lišene	443		2
 ljetne		J	2
-ljiljane	113		2
+ljiljane	113		3
 ljubane			2
 ljubavne	1658		2
 ljubazne	429		3
-ljubljene	52		2
+ljubljene	52		3
 ljubomorne	349		4
-ljudine	58		2
-ljuljane			2
+ljudine	58		3
+ljuljane			3
 ljuljne			2
 ljutine	153		2
 ljutne			2
-locirane	367		2
-logične	394		2
+locirane	367		3
+logične	394		3
 lojalne	386		2
 lokalizovane	172		2
 lokalne	47689		2
 lokne			2
-lomljene	27		2
+lomljene	27		3
 lomne	17		2
 lopušine			2
 lorkine			2
@@ -2139,12 +2139,12 @@ losione	127		2
 lovine	73		3
 lovne	348		2
 lozane			2
-ložene			2
+ložene			3
 lucidne	116		3
 ludne			2
 luizijane			2
 lukine			2
-luksuzne	1570		2
+luksuzne	1570		3
 lumbalne	111		2
 lunarne	172		2
 lupne	28		2
@@ -2160,27 +2160,27 @@ magarčine			2
 magazine	677		2
 magdalene			2
 magdaline			2
-magične	770		2
+magične	770		3
 maglene			2
 magline			2
-magnetne	862		2
+magnetne	862		3
 mahne	177		2
-mahovine	222		3
-mahune	163		2
+mahovine	222		4
+mahune	163		3
 majkine			2
-majmune	449		2
+majmune	449		3
 majušne			2
 majčine	955		3
 makarone	284		2
 makne	199		2
 maksimalne	3687		4
 malecne			2
-malene	606		2
+malene	606		3
 maligne	879		2
 maline	4247		2
 mališane	2081		2
 malobrojne	739		4
-malodušne	39		2
+malodušne	39		3
 maloletne	1030		4
 maloumne	90		4
 maloverne			2
@@ -2218,7 +2218,7 @@ marvene			2
 masivne	587		3
 maskirane	158		2
 maskirne	110		2
-masline	1066		2
+masline	1066		3
 masne	3534		2
 masone	90		2
 masovne	3982		3
@@ -2247,13 +2247,13 @@ mejdane			2
 mekane	680		3
 mekoputne			2
 melioracione			2
-meljine			2
+meljine			3
 membrane	1178		2
 memorijalne	140		2
 memorisane	27		2
 mene	123823		2
 menične	21		2
-menjane	293		2
+menjane	293		3
 menstrualne	185		2
 mentalne	2227		2
 merdevine		M	4
@@ -2269,21 +2269,21 @@ mesečine	255		4
 mesečne	3658		2
 mesingane	93		2
 mesne	1876		2
-mestimične	33		3
+mestimične	33		4
 metalne	2313		2
 metamfetamine			2
 metamorfne	16		2
 metne	324		2
-međunarodne	30601		2
+međunarodne	30601		3
 međuratne	17		2
 međusobne	3549		4
 međuspratne	131		2
 međuvojne			2
 međuzvezdane	87		2
-mešane	81		2
-mešavine	1713		3
-mešine	61		2
-meštane	905		2
+mešane	81		3
+mešavine	1713		4
+mešine	61		3
+meštane	905		3
 migracione	56		2
 migrene	826		2
 mikrofone	207		4
@@ -2306,7 +2306,7 @@ mine	1057		2
 mineralne	2260		2
 minijaturne	415		2
 minimalne	5426		4
-minirane	43		2
+minirane	43		3
 minorne	340		2
 mintane			2
 minuciozne	20		2
@@ -2320,7 +2320,7 @@ misaone	444		4
 mislene	29		2
 misne			2
 misteriozne	451		5
-mistične	328		2
+mistične	328		3
 mizerne	425		2
 mićine			2
 mišine			2
@@ -2340,7 +2340,7 @@ mljacne			2
 mnogobolne			2
 mnogobrojne	5573		4
 mnogocene			2
-mnogoljudne	74		2
+mnogoljudne	74		3
 mnogomoćne			2
 mnogovrsne			2
 mnogočlane	44		2
@@ -2348,7 +2348,7 @@ množine	316		2
 mobilisane	47		2
 mobilne	9682		3
 modalne	33		2
-modelirane	19		2
+modelirane	19		3
 modene			2
 moderne	12289		3
 modifikovane	1081		2
@@ -2369,7 +2369,7 @@ momčine	12		2
 mone			2
 monetarne	3438		2
 mongoloidne			2
-monolitne	75		2
+monolitne	75		3
 monotone	128		4
 monstruozne	298		4
 monsune			2
@@ -2381,7 +2381,7 @@ moralne	4972		2
 morbidne	143		2
 morene	14		2
 mormone	16		2
-morune	69		2
+morune	69		3
 mostarine	17		2
 motivacione	150		2
 motivisane	687		2
@@ -2396,7 +2396,7 @@ moždane	1413		2
 moždine	666		2
 mramorne	38		2
 mračne	1817		2
-mrcine	56		2
+mrcine	56		3
 mrdne	355		2
 mrene	151		2
 mrežne	1780		2
@@ -2412,7 +2412,7 @@ mukotrpne	105		4
 multinacionalne	1291		2
 multivitamine	35		2
 mumificirane	15		2
-murine	22		2
+murine	22		3
 muskulozne			4
 muslimane	2496		2
 mutirane	70		2
@@ -2423,30 +2423,30 @@ mučnine	1034		2
 muškarčine	99		2
 muževne	35		3
 nabacane	71		2
-nabavljane	51		3
-nabavljene	371		3
+nabavljane	51		4
+nabavljene	371		4
 nabavne	89		2
-nabačene	24		2
+nabačene	24		3
 nabeljene			2
 nabeđene			2
 nabijene	258		2
 naborane	67		2
-nabrajane			2
-nabrane	27		2
-nabrojane	331		2
+nabrajane			3
+nabrane	27		3
+nabrojane	331		3
 nacionalne	39575		2
-nacrtane	181		3
+nacrtane	181		4
 nadahne	81		2
 nadarene	203		3
 nadbubrežne	106		2
 naddržavne			2
-nadene	58		2
+nadene	58		3
 nadgledane			2
 nadgrobne	176		2
 nadigne	25		2
 nadine			2
-nadjačane			2
-nadležne	5868		2
+nadjačane			3
+nadležne	5868		3
 nadmene	53		2
 nadmoćne	128		3
 nadnaravne	23		2
@@ -2456,7 +2456,7 @@ nadrealne	101		2
 nadređene	137		2
 naduvane	228		2
 naduvene	51		2
-nadvladane			2
+nadvladane			3
 nadzemne	139		2
 nadzorne	471		2
 nadčulne			2
@@ -2464,62 +2464,62 @@ naelektrisane	172		2
 naftine			2
 naftne	1148		2
 nagazne	54		2
-naglašene	597		2
+naglašene	597		3
 nagne	187		2
 nagomilane	255		2
-nagone	516		2
+nagone	516		3
 nagorene			2
-nagoveštene	62		2
-nagovorene			2
+nagoveštene	62		3
+nagovorene			3
 nagradne	418		3
-nagrađene	806		2
-nagrađivane	194		2
+nagrađene	806		3
+nagrađivane	194		3
 nagrne	68		2
-nagrđene	15		2
+nagrđene	15		3
 naherene	14		2
 nahrane	316		2
-nahranjene	21		2
+nahranjene	21		3
 nahtkasne			2
-nahuškane			3
+nahuškane			4
 naivne	1372		3
-naivčine	120		2
-naizmenične	306		2
+naivčine	120		3
+naizmenične	306		3
 najamnine	61		2
-najavljene	1631		2
+najavljene	1631		3
 naježene	12		2
 najmljene			2
 nakaljene			2
 nakane	75		3
 nakaradne	316		2
-nakazne	127		2
+nakazne	127		3
 nakinđurene	28		2
 nakićene	28		2
-naklone	21		2
-naklonjene	399		3
+naklone	21		3
+naklonjene	399		4
 naknadne	894		2
 nakostrešene	19		2
 nakrivljene	26		2
 nakupine	73		2
-nakupljene	86		3
+nakupljene	86		4
 nakvašene	15		2
-nalažene	49		3
+nalažene	49		4
 nalepljene	31		2
-naložene	120		2
+naložene	120		3
 namakne	164		2
-namazane	76		3
+namazane	76		4
 namašćene			2
 namene	7643		2
-namenjene	5879		2
-nameravane	16		2
-namerne	285		2
-nametane	30		2
-nametne	2797		2
+namenjene	5879		3
+nameravane	16		3
+namerne	285		3
+nametane	30		3
+nametne	2797		3
 nameštane			2
-nameštene	311		3
+nameštene	311		4
 namigne	87		2
 namirisane	26		2
-namnožene			2
-namočene	12		2
+namnožene			3
+namočene	12		3
 namrštene			2
 namučene	33		2
 nane	83		2
@@ -2529,16 +2529,16 @@ nanizane	78		2
 nanišane			2
 nanošene	18		2
 naoružane	824		2
-naoštrene	34		2
-napadane	49		3
-napadne	2528		2
+naoštrene	34		3
+napadane	49		4
+napadne	2528		3
 napajane	27		2
 napaljene	80		2
 napane			2
-napaćene	227		3
+napaćene	227		4
 naperene			2
-napijene			3
-napisane	1689		2
+napijene			4
+napisane	1689		3
 naplatne	387		2
 naplavine	27		2
 naplaćene	254		2
@@ -2546,25 +2546,25 @@ napljačkane			2
 napne	35		2
 napojene			2
 napomene	2718		4
-napone	389		2
+napone	389		3
 naporedne	11		2
 naporne	737		2
 naprasne	59		2
-napravljene	3871		3
-napredne	8404		2
+napravljene	3871		4
+napredne	8404		3
 napregne	45		2
-napričane			2
+napričane			3
 naprsline	95		2
 naprsne			2
-napudrane			2
+napudrane			3
 napuhane			2
 napukline	44		2
 napukne	24		2
 napumpane	84		3
-napune	1412		2
-napunjene	286		3
+napune	1412		3
+napunjene	286		4
 napućene	47		2
-napuštene	854		2
+napuštene	854		3
 narandžine			2
 narativne	312		4
 naravne			2
@@ -2574,39 +2574,39 @@ narečene	69		2
 naređene	19		2
 naribane			2
 narkomane	239		2
-narodne	40838		2
+narodne	40838		3
 narodnosne	19		2
 narudžbine	862		2
-naručene	335		2
-naručivane	16		2
+naručene	335		3
+naručivane	16		3
 narušavane			2
 narušene	192		2
 nasađene	14		2
 nasedne	111		2
-naseljavane	13		2
-naseljene	486		2
+naseljavane	13		3
+naseljene	486		3
 naseobine	394		2
 nasečene	12		2
-nasilne	1110		2
-nasićene			3
+nasilne	1110		3
+nasićene			4
 naslagane	96		2
-nasledne	410		2
-nasleđene	362		2
-naslikane	170		3
-nasljedne		J	2
-naslone	197		2
-naslonjene	105		2
-naslovljene	68		2
+nasledne	410		3
+nasleđene	362		3
+naslikane	170		4
+nasljedne		J	3
+naslone	197		3
+naslonjene	105		3
+naslovljene	68		3
 naslovne	523		2
 nasmejane	362		2
-nasmešene	14		2
+nasmešene	14		3
 naspramne			2
 nasrne	115		2
 nastane	114		2
-nastanjene	205		2
-nastavljene	539		3
+nastanjene	205		3
+nastavljene	539		4
 nastavne	1125		2
-nastrane	69		2
+nastrane	69		3
 nastrojene	344		2
 nastrugane			2
 nasumične	115		2
@@ -2617,10 +2617,10 @@ natane			2
 nategne	66		2
 natekne	18		2
 natenane		M	2
-naterane	51		3
-natečene	78		2
+naterane	51		4
+natečene	78		3
 natkasne			2
-natopljene	180		2
+natopljene	180		3
 natovarene	78		2
 natprirodne	330		2
 natrpane	27		2
@@ -2628,32 +2628,32 @@ naturalne	167		4
 natuštene			2
 natčulne			2
 nauljene	12		2
-naumljene			2
-naučene	393		2
-naučne	10264		2
+naumljene			3
+naučene	393		3
+naučne	10264		3
 navalne			2
 navedene	10474		2
 navežbane			2
 navigacione	187		2
-navikne	1007		2
+navikne	1007		3
 navlažene	12		2
-navodne	2040		2
-navođene	71		2
+navodne	2040		3
+navođene	71		3
 navrne	20		2
-navršene	409		2
+navršene	409		3
 navučene	81		2
-nazadne	121		2
+nazadne	121		3
 nazalne	59		2
-nazivane	128		2
+nazivane	128		3
 naznačene	382		2
 nazubljene	36		2
-nazvane	1057		2
+nazvane	1057		3
 načelne	448		2
-načine	20088		2
-načinjene	576		2
+načine	20088		3
+načinjene	576		3
 načičkane	94		2
 načne	91		2
-nađene	792		2
+nađene	792		3
 našminkane	160		2
 našušurene			2
 ne	3116125		1
@@ -2668,7 +2668,7 @@ nebojšine			2
 neborbene			2
 nebranjene	22		2
 nebrižne			2
-nebrojene	469		3
+nebrojene	469		4
 nebulozne			2
 necenovne			2
 nedavne	2125		3
@@ -2680,7 +2680,7 @@ nedokazane	79		2
 nedolične	61		2
 nedopuštene	101		2
 nedorečene	128		2
-nedosledne	50		2
+nedosledne	50		3
 nedostane			2
 nedostižne	235		4
 nedostojne	215		2
@@ -2691,17 +2691,17 @@ nedovršene	502		2
 nedozvoljene	735		2
 nedržavne	48		2
 nedužne	559		3
-nedvojbene	11		2
+nedvojbene	11		3
 neefikasne	428		5
 neformalne	1270		4
 negativne	9852		4
 negazirane	108		2
-negirane	17		2
+negirane	17		3
 negovane	241		4
 nehajne			2
 nehatne			2
 nehigijene			2
-nehotične	30		3
+nehotične	30		4
 nehrišćane			2
 nehumane	122		4
 neidentifikovane			2
@@ -2710,13 +2710,13 @@ neinventivne	22		2
 neisceljene			2
 neiscrpne	219		4
 neiskazane	181		2
-neiskrene	89		3
+neiskrene	89		4
 neiskusne	222		4
 neispavane	14		2
 neispitane	53		2
 neispravne	590		2
 neispunjene	146		2
-neistine	1945		3
+neistine	1945		4
 neistražene	130		2
 neizbežne	727		4
 neizgovorene	65		2
@@ -2724,13 +2724,13 @@ neizlečene	10		2
 neizmenjene	43		2
 neizmerne	242		2
 neizmirene	304		2
-neizrečene	48		2
+neizrečene	48		3
 neizvesne	601		4
 neizvršene	60		2
 neiživljene			2
-nejasne	846		2
+nejasne	846		3
 nejavljene			2
-nekažnjene	64		3
+nekažnjene	64		4
 neknjiževne	24		2
 neknjižne	100		2
 nekolicine	1791		2
@@ -2768,7 +2768,7 @@ nenajavljene	92		2
 nenaoružane			2
 nenarodne	27		2
 nenarušene	11		2
-nenaseljene	47		3
+nenaseljene	47		4
 nenasilne	335		2
 nenastavne	14		2
 nenaučene			2
@@ -2781,7 +2781,7 @@ neobeležene			2
 neobične	2852		4
 neobjavljene	285		2
 neobjašnjene	19		2
-neobrazovane	189		4
+neobrazovane	189		5
 neobrađene	183		3
 neobrezane			2
 neobuvene			2
@@ -2793,7 +2793,7 @@ neodlučne	192		4
 neodmerene	104		2
 neodobrene	21		2
 neodređene	273		3
-neograničene	980		3
+neograničene	980		4
 neograđene	11		2
 neokaljane	21		2
 neokrečene			2
@@ -2821,14 +2821,14 @@ neoznačene	16		2
 neočekivane	904		3
 neočešljane			2
 neočišćene	33		2
-neoštećene	113		3
+neoštećene	113		4
 neparne	136		3
 nepečene	49		2
 nepisane	51		3
-nepismene	438		3
+nepismene	438		4
 neplanirane	199		2
 neplaćene	495		2
-neplodne	79		2
+neplodne	79		3
 nepobitne	214		4
 nepobožne			2
 nepodeljene	104		2
@@ -2865,41 +2865,41 @@ nepravedne	369		4
 nepravilne	641		4
 nepravične	67		4
 neprecizne	158		4
-nepredviđene	426		3
+nepredviđene	426		4
 nepregledne	325		2
-neprekidne	473		2
+neprekidne	473		3
 neprelazne	28		4
 neprestane	366		4
 nepresušne	111		4
 neprijatne	1898		4
 neprijavljene	110		2
 neprijazne			2
-neprikladne	151		2
+neprikladne	151		3
 neprikosnovene			2
-neprilične	50		2
-neprimerene	475		3
+neprilične	50		3
+neprimerene	475		4
 neprimetne	193		4
 neprimećene	67		2
-neprirodne	275		2
+neprirodne	275		3
 nepristojne	286		4
 nepristrasne	212		2
 nepristupačne	214		5
-neprisutne			3
+neprisutne			4
 neprivlačne	61		2
 neprobojne	46		4
 neprofitne	813		4
 neprohodne	133		2
 neprolazne	230		2
 nepromenjene	491		3
-nepromišljene	170		3
+nepromišljene	170		4
 nepropusne	38		4
 neprospavane	258		2
-neproverene	347		3
+neproverene	347		4
 neprozirne	73		4
 nepročitane	58		2
 neprskane			2
 neptune			2
-nepune	858		2
+nepune	858		3
 nepunoletne			2
 neradne	163		2
 nerasejane			2
@@ -2911,63 +2911,63 @@ nerazdvojne	99		4
 nerazgovetne	15		5
 nerazjašnjene	84		2
 nerazumne	311		4
-nerazvijene	979		2
+nerazvijene	979		3
 neraščišćene	76		2
 nerealne	834		4
 neredovne	413		2
 neregistrovane			2
 neregularne	93		5
 nerešene	382		3
-nerodne	36		2
-nerođene	219		3
+nerodne	36		3
+nerođene	219		4
 nervne	730		2
 nervozne	341		3
 nesaglasne			2
 nesamostalne	29		5
-nesavesne	282		2
-nesavršene	90		3
+nesavesne	282		3
+nesavršene	90		4
 nesačuvane			2
 nesebične	164		4
-neshvaćene	68		3
+neshvaćene	68		4
 nesigurne	464		4
 nesimpatične			2
 neskladne	22		3
 nesklone	32		2
 neskrivene	133		2
-neskromne	10		2
+neskromne	10		3
 neslane	87		3
 neslavne	136		3
 neslobodne	61		4
 neslovene			2
 nesložene			2
-nesložne	23		2
+nesložne	23		3
 neslućene	439		2
 nesmetane	79		2
 nesmislene			2
 nesmišljene			2
 nesmotrene	76		2
-nesnosne	230		2
+nesnosne	230		3
 nesolidne	25		2
 nespokojne	15		2
 nesporne	380		2
 nesposobne	1064		4
-nespremne	256		2
+nespremne	256		3
 nespretne	122		2
-nesputane	87		3
+nesputane	87		4
 nesrazmerne	95		2
 nesrećne	1283		2
 nesređene	96		2
 nesrodne	18		2
 nestabilne	608		4
 nestalne	94		3
-nestane	4838		2
+nestane	4838		3
 nestašne	117		2
-nestručne	254		2
+nestručne	254		3
 nestvarne	199		3
 nesuđene	55		3
-nesvesne	332		2
+nesvesne	332		3
 nesvrstane	150		2
-netaktične	10		2
+netaktične	10		3
 netačne	1332		3
 netelesne			2
 netipične	77		2
@@ -2981,7 +2981,7 @@ neugledne	121		4
 neugodne			2
 neukaljane			2
 neukusne	140		4
-neumerene	79		3
+neumerene	79		4
 neumesne	113		4
 neumitne	78		4
 neumivene			2
@@ -2993,7 +2993,7 @@ neuravnotežene	48		3
 neuredne	202		4
 neuređene	139		2
 neurone	169		2
-neurotične	130		2
+neurotične	130		3
 neuslišene			2
 neuslovne	59		2
 neuspešne	741		4
@@ -3010,7 +3010,7 @@ neuzvraćene	125		2
 neučene			2
 nevaljane			2
 nevažne	331		3
-nevene	95		2
+nevene	95		3
 neverbalne	322		2
 neverne	656		3
 neverovatne	2910		2
@@ -3027,15 +3027,15 @@ nezadovoljne	736		5
 nezahvalne	105		4
 nezainteresovane			2
 nezapamćene	255		2
-nezapažene	59		3
-nezaposlene	2204		3
-nezasićene	284		3
+nezapažene	59		4
+nezaposlene	2204		4
+nezasićene	284		4
 nezaslužene	120		2
-nezavidne	108		2
-nezavisne	6815		2
+nezavidne	108		3
+nezavisne	6815		3
 nezavršene	188		2
 nezaštićene	235		3
-nezgodne	397		2
+nezgodne	397		3
 nezgrapne	74		3
 nezlobne			2
 neznane	151		3
@@ -3047,7 +3047,7 @@ nečasne	222		3
 nečovečne	28		4
 nečujne	53		3
 nečuvene	117		2
-neželjene	2329		3
+neželjene	2329		4
 neženjene			2
 nežne	1181		2
 nijedne	2268		2
@@ -3061,7 +3061,7 @@ niskomasne			2
 nitne	135		2
 nivelacione			2
 nizine	59		2
-nišane	148		2
+nišane	148		3
 ništavne	157		3
 njene	34627		2
 nježne		J	2
@@ -3075,21 +3075,21 @@ normativne	489		2
 normirane	58		2
 norvežane			2
 nosne	65		2
-nostalgične	141		2
+nostalgične	141		3
 notirane			2
 notne	34		2
 notorne	244		2
-novine	20746		2
+novine	20746		3
 novodoseljene			2
 novopečene	232		2
 novoplanirane			2
 novoprojektovane			2
-novorođene	364		2
-novosađane	510		3
+novorođene	364		3
+novosađane	510		4
 novostvorene	290		2
 novčane	5705		2
 noćne	1802		2
-nošene	327		2
+nošene	327		3
 nožne	154		2
 nuklearne	4184		4
 numerisane	106		2
@@ -3098,44 +3098,44 @@ nuđene	101		3
 nuždne			2
 nužne	1270		2
 obalne	23		3
-obarane	11		2
-obasipane			3
-obasjane	103		2
-obavezane	73		2
+obarane	11		3
+obasipane			4
+obasjane	103		3
+obavezane	73		3
 obavezne	3679		4
 obaveštajne	2740		2
 obaveštene			2
-obavijene	121		4
-obavljane	123		3
-obavljene	1055		3
-obdarene	98		2
+obavijene	121		5
+obavljane	123		4
+obavljene	1055		4
+obdarene	98		3
 obeležene	939		2
 obelodane	267		2
 obesne	76		2
 obezbeđene	1419		2
-obezglavljene	53		2
+obezglavljene	53		3
 obezličene			2
-obećane	540		2
-obećavane	39		2
-obešene	77		3
-obeštećene	19		3
-obijene	61		3
+obećane	540		3
+obećavane	39		3
+obešene	77		4
+obeštećene	19		4
+obijene	61		4
 obilježene	47	J	2
 obilne	928		3
 obimne	841		3
 obisne			2
-obistine	181		3
+obistine	181		4
 običajne	91		2
-obične	6668		2
+obične	6668		3
 objasne	3805		2
-objavljene	5377		2
-objašnjene	331		2
+objavljene	5377		3
+objašnjene	331		3
 objedine	421		2
-objedinjene	757		2
+objedinjene	757		3
 objektivne	1764		4
 objektne	17		2
 oblasne	67		2
-oblačine	14		2
+oblačine	14		3
 oblačne	66		3
 oblepljene	54		2
 obligacione	48		2
@@ -3146,66 +3146,66 @@ oblivene	14		2
 obložene	312		2
 obmane	1546		3
 obmotane	44		2
-obnavljane	69		2
+obnavljane	69		3
 obnažene	114		2
-obnovljene	1021		2
-obogaćene	310		3
-obojene	1122		3
-oborene	212		2
-oborine			3
-obostrane	473		2
-obožavane	55		2
+obnovljene	1021		3
+obogaćene	310		4
+obojene	1122		4
+oborene	212		3
+oborine			4
+obostrane	473		3
+obožavane	55		3
 obrane			2
 obratne	15		3
 obrazine	33		2
-obrazovane	898		4
-obrazovne	4320		3
-obraćene	10		2
+obrazovane	898		5
+obrazovne	4320		4
+obraćene	10		3
 obračune	572		4
-obrađene	1568		2
-obrađivane	174		2
+obrađene	1568		3
+obrađivane	174		3
 obrecne	11		2
 obredne	175		3
 obremenjene			2
 obrene			2
-obrezane	10		3
+obrezane	10		4
 obrijane	100		2
-obrisane	136		3
+obrisane	136		4
 obrne	349		2
 obrtne	46		2
-obrubljene	27		2
-obuhvaćene	1935		3
-obujmljene			2
-obustavljene	151		3
-obuzdane	12		2
-obučavane	29		2
-obučene	1193		2
+obrubljene	27		3
+obuhvaćene	1935		4
+obujmljene			3
+obustavljene	151		4
+obuzdane	12		3
+obučavane	29		3
+obučene	1193		3
 obzidane			2
 obznane	114		2
 oceane			2
 ocene	11740		3
-ocenjene	372		2
-ocenjivane	73		2
+ocenjene	372		3
+ocenjivane	73		3
 oceđene	53		2
 ocrne	133		2
 ocrtane	41		4
-odabrane	1553		2
+odabrane	1553		3
 odahne	251		2
 odane	337		3
 odapne	70		2
 odaslane			2
 odašiljane			2
-odbacivane	23		2
-odbačene	628		2
+odbacivane	23		3
+odbačene	628		3
 odbegne	18		2
-odbijene	316		3
+odbijene	316		4
 odblesne			2
 odbojne	105		3
-odbrambene	864		3
+odbrambene	864		4
 odbrane	33820		3
-odbranjene	104		2
-odeljene	44		2
-odene	51		2
+odbranjene	104		3
+odeljene	44		3
+odene	51		3
 oderane			2
 odevene	281		2
 odevne	497		2
@@ -3216,79 +3216,79 @@ odgonetne	269		2
 odgovorne	5008		4
 odgurne	119		2
 odigne	38		2
-odigrane	1037		3
+odigrane	1037		4
 odjavne	60		2
 odjekne	107		2
-odjene			2
+odjene			3
 odlagane	63		2
 odlakne			2
 odlane			2
 odlazne	113		2
-odlikovane	23		4
+odlikovane	23		5
 odlivene			2
 odlične	9757		3
-odlomljene	23		2
+odlomljene	23		3
 odložene	410		2
-odlučene	25		2
+odlučene	25		3
 odlučne	779		3
 odmahne	97		2
 odmakne	255		2
-odmerene	156		3
+odmerene	156		4
 odmetne	49		2
-odmogne	98		2
+odmogne	98		3
 odmorne	53		3
 odmrzne	92		2
-odnarođene	25		3
+odnarođene	25		4
 odnegovane			2
 odnesene	64		2
 odnosne	62		2
-odobravane	23		2
+odobravane	23		3
 odobrene	934		2
 odomaćene	59		2
 odrane	32		2
-odrađene	339		2
+odrađene	339		3
 odredbene			2
 odredišne	68		2
-odrekne	3277		2
-odrezane	24		3
+odrekne	3277		3
+odrezane	24		4
 odrečne			2
-određene	34190		2
-određivane	51		2
+određene	34190		3
+određivane	51		3
 odrešene	454		2
 odrične	17		2
-odrone	63		2
+odrone	63		3
 odronjene			2
 odrpane	21		2
 odrtine			2
 odrubljene	20		2
 održane	5186		2
-održavane	542		3
-odsecane	10		2
+održavane	542		4
+odsecane	10		3
 odsedne	47		2
 odseljene			2
-odsečene	249		3
+odsečene	249		4
 odsečne	20		2
 odskočne	12		2
 odslikane			2
 odslužene	89		2
 odstrane	334		2
-odstranjene	82		2
+odstranjene	82		3
 odsudne			2
 odsutne	162		3
 odsvirane	57		2
 oduhovljene	10		2
 odurne	28		3
-odustane			2
-oduzimane	47		3
+odustane			3
+oduzimane	47		4
 oduševljene	371		2
 odušne			2
-odvajane	16		2
+odvajane	16		3
 odvažne	151		3
-odvedene	73		2
-odvezane	15		2
+odvedene	73		3
+odvezane	15		3
 odvikne	88		2
 odvodne	83		2
-odvojene	1778		2
+odvojene	1778		3
 odvožene	20		2
 odvratne	394		3
 odvrne	81		2
@@ -3304,24 +3304,24 @@ ogladne	63		2
 oglasne	276		2
 oglašene	78		2
 ogledne	123		2
-ognjene	231		2
+ognjene	231		3
 ogoljene	162		2
 ogoreline			2
 ogorčene	241		3
 ograne			2
-ograničene	2180		3
-ograđene	120		2
-ogrebotine	759		2
+ograničene	2180		4
+ograđene	120		3
+ogrebotine	759		3
 ogrezne	119		2
 ogrizine			2
 ogrne	52		2
 ogromne	13267		3
 oguljene	27		2
 ohladne			2
-ohlađene	134		2
-ohrabrene	71		2
+ohlađene	134		3
+ohrabrene	71		3
 oivičene	119		2
-ojačane	335		2
+ojačane	335		3
 ojađene	67		2
 ojedine			2
 okaljane			2
@@ -3331,20 +3331,20 @@ okarine			2
 okačene	233		2
 okeane	289		2
 okine	61		2
-okivane			2
-okićene	154		3
+okivane			3
+okićene	154		4
 oklevetane	10		2
 oklizne	98		2
-oklopljene	28		2
-oklopne	114		2
-okoline	12938		3
+oklopljene	28		3
+oklopne	114		3
+okoline	12938		4
 okolne	1969		2
-okončane	311		2
-okovane	159		2
+okončane	311		3
+okovane	159		3
 okrene	4469		2
 okretne	101		3
-okrečene	186		3
-okrivljene	281		2
+okrečene	186		4
+okrivljene	281		3
 okrnjene	38		2
 okrugline			2
 okrune			2
@@ -3352,81 +3352,81 @@ okrunjene	11		2
 okrutne			2
 okružene	430		2
 okružne	667		2
-okrvavljene	28		3
+okrvavljene	28		4
 okrzne	57		2
 oktroisane			2
-okultne	121		2
+okultne	121		3
 okupacione	384		2
 okupirane	405		2
-okupljane	15		2
-okupljene	1363		3
+okupljane	15		3
+okupljene	1363		4
 okušane			2
 okvirne	543		3
-olabavljene	10		4
+olabavljene	10		5
 olakotne	12		4
-olakšane	71		2
+olakšane	71		3
 olgine			2
 oliverine			2
-oličene	326		2
+oličene	326		3
 oljuštene	76		2
 olovne	184		3
 olujne	175		2
 olupane			2
-olupine	405		3
+olupine	405		4
 omahne			2
 omakne	264		2
 omalterisane			2
-omamljene	12		2
+omamljene	12		3
 omane	245		2
-ometane	19		2
+ometane	19		3
 ometene	456		3
-omeđene	73		3
-omiljene	3599		3
+omeđene	73		4
+omiljene	3599		4
 omladine			2
-omogućene	307		2
+omogućene	307		3
 omorine			2
-omotane	23		2
+omotane	23		3
 omražene	119		2
 omrkne			2
 omrzne	51		2
 one	194352		2
-onesposobljene	23		2
+onesposobljene	23		3
 onesvešćene			2
-onomadne			2
+onomadne			3
 onostrane	48		2
 onovremene	87		2
-opadne	667		2
+opadne	667		3
 opaljene	11		2
 opane			2
 opasane	53		4
 opasne			2
-opačine	41		2
+opačine	41		3
 opažajne	14		2
 opcione	218		2
 opekline	27		2
-opekotine	1323		2
+opekotine	1323		3
 opepeljene			2
 operacione	142		2
 operativne	2942		5
 operisane	100		2
 operne			2
 opevane	55		2
-opečene	15		3
+opečene	15		4
 opijene	46		2
-opipane			3
-opisane	1326		2
-opisivane	45		2
+opipane			4
+opisane	1326		3
+opisivane	45		3
 opisne	99		2
 opičene			2
-opkoljene	77		2
+opkoljene	77		3
 opkopane			2
-oplakane			3
+oplakane			4
 oplemene	164		2
-oplemenjene	94		2
+oplemenjene	94		3
 oplene			2
 opletene			2
-opljačkane	309		3
-oplođene	115		2
+opljačkane	309		4
+oplođene	115		3
 opne	483		2
 opogane			2
 opojane			2
@@ -3434,14 +3434,14 @@ opojne	404		2
 opomene	2236		4
 oponirane			2
 oporavljene	27		2
-opovrgne	320		2
+opovrgne	320		3
 opozicione	3600		2
-opozvane			2
-oprane	258		2
+opozvane			3
+oprane	258		3
 opravdane	942		3
 opredeljene	264		2
-opremane	11		2
-opremljene	3101		2
+opremane	11		3
+opremljene	3101		3
 oprezne	296		3
 oprečne	488		3
 oprobane	145		2
@@ -3450,26 +3450,26 @@ oproštene			2
 opružene	56		2
 opsadne	32		2
 opscene	39		3
-opsedane			2
-opsedne	21		2
+opsedane			3
+opsedne	21		3
 opsene	108		3
 opsesivne	161		4
 opsežne			2
 opskurne	116		3
-opstane			2
-opterećene	617		3
+opstane			3
+opterećene	617		4
 optimalne	1459		4
 optimistične	282		2
 optočene	49		2
 optužene	805		2
 opustošene	125		2
-opuštene	523		2
-opčinjene	46		2
+opuštene	523		3
+opčinjene	46		3
 opširne	166		3
 opšivene	14		2
 opštenarodne	135		2
 opštine	111329		3
-orahovine	84		4
+orahovine	84		5
 oralne	618		2
 orangutane	12		2
 orbitalne	226		2
@@ -3479,32 +3479,32 @@ organizacione	1814		2
 organizovane	6409		2
 originalne	3257		5
 orijentalne	437		5
-orlušine	20		2
+orlušine	20		3
 ormane	207		2
 oročene	161		2
 orošene	12		2
-ortodoksne	127		2
-oružane	2516		3
-osakaćene	88		3
+ortodoksne	127		3
+oružane	2516		4
+osakaćene	88		4
 osamljene	24		2
 osavremene	123		2
 osenčene			2
-osetne	104		2
+osetne	104		3
 osećajne	128		4
 osečine			2
-osigurane	556		2
+osigurane	556		3
 osione	54		2
-oskudne	259		2
+oskudne	259		3
 oskvrne	13		2
-oslabljene	293		3
+oslabljene	293		4
 oslepljene	12		2
 oslikane	240		2
-oslobođene	942		2
+oslobođene	942		3
 oslone	509		2
 oslonjene	148		2
 oslušne	110		2
 osmane			2
-osmatrane			2
+osmatrane			3
 osmehne	186		2
 osmine	965		2
 osmišljene	977		2
@@ -3514,95 +3514,95 @@ osmostrane			2
 osmougaone			2
 osmuđene			2
 osnažene	65		2
-osnivane	101		2
-osnovane	1932		2
+osnivane	101		3
+osnovane	1932		3
 osnovne	41279		3
 osobene	291		2
 osobine	11233		2
-osovine	1573		2
-osporavane	55		2
-osporene	193		2
+osovine	1573		3
+osporavane	55		3
+osporene	193		3
 osposobljene	281		2
-osramoćene	27		2
-ostane		M	2
+osramoćene	27		3
+ostane		M	3
 ostavine	47		2
-ostavljene	555		3
+ostavljene	555		4
 ostavštine	141		2
 ostrašćene	183		2
 ostrvljane	20		2
 ostrvljene			2
-ostvarene	1962		2
+ostvarene	1962		3
 osujećene	27		2
 osumnjičene	696		2
 osune			2
-osunčane	55		2
-osuđene	768		2
-osušene	222		2
+osunčane	55		3
+osuđene	768		3
+osušene	222		3
 osvane	462		2
 osvedočene	76		2
 osvetljene	383		2
 osvetne			2
-osvećene	101		2
+osvećene	101		3
 osveštane	45		2
 osveštene	16		2
-osvežene	102		3
-osvojene	939		2
+osvežene	102		4
+osvojene	939		3
 osvrne	340		2
-otadžbine	2315		3
+otadžbine	2315		4
 otcepljene	118		2
 otegne	118		2
 otekline	122		2
 otekne	86		2
-oterane	25		3
-otečene	193		2
+oterane	25		4
+otečene	193		3
 otežane	121		2
 otimačine	461		2
 otisne	208		2
-otkazane	168		2
+otkazane	168		3
 otkačene	72		2
-otkine	284		2
-otklanjane			3
-otklone	1445		2
-otklonjene	554		2
-otkopane	61		2
+otkine	284		3
+otklanjane			4
+otklone	1445		3
+otklonjene	554		3
+otkopane	61		3
 otkopčane	14		2
 otkočene			2
-otkrivane	35		2
-otkrivene	1789		3
+otkrivane	35		3
+otkrivene	1789		4
 otkupljene	151		2
 otkupne	354		2
 otkupnine	84		2
 otmene	154		3
 otopine	23		2
-otopljene	48		2
+otopljene	48		3
 otpadne	1439		2
 otpevane	46		2
 otpečaćene			2
-otpisane	122		2
+otpisane	122		3
 otporne	1248		2
-otpočine	23		2
+otpočine	23		3
 otpočne	1269		2
 otpremne			2
 otpremnine	2337		2
 otpusne	60		2
-otpuštene	102		2
+otpuštene	102		3
 otrcane	138		3
 otrebljene			2
 otresene			2
 otrezne	80		2
 otrgne	542		2
-otrovane	67		2
+otrovane	67		3
 otrovne	1176		2
-otuđene	180		2
+otuđene	180		3
 otužne	63		2
-otvarane	144		2
-otvorene	8351		3
+otvarane	144		3
+otvorene	8351		4
 otškrine			2
 ovalne	173		2
-ovaploćene	26		2
+ovaploćene	26		3
 ovejane	12		2
-ovenčane	41		2
-overene	707		3
+ovenčane	41		3
+overene	707		4
 ovladane			2
 ovlašne	12		2
 ovlašćene	891		2
@@ -3616,70 +3616,70 @@ ozakone	72		2
 ozakonjene	26		2
 ozarene	20		2
 ozbiljne	13008		3
-ozebline			3
+ozebline			4
 ozelene	30		2
 ozelenjene	24		2
 ozidane	43		2
-ozleđene			2
-ozlijeđene	16		3
+ozleđene			3
+ozlijeđene	16		4
 ozloglašene	149		2
 ozlojeđene	18		2
-označavane	28		2
-označene	1063		2
+označavane	28		3
+označene	1063		3
 oznojene	15		2
 ozone			2
-ozračene	24		2
+ozračene	24		3
 ozvaničene	22		2
 očajne	574		3
 očarane	36		2
-očekivane	1181		2
+očekivane	1181		3
 očevidne	46		4
 očevine	49		2
 očigledne	1857		4
 očine			2
 očitane	29		2
-očišćene	560		3
+očišćene	560		4
 očne	510		2
 očupane			2
-očuvane	655		2
+očuvane	655		3
 očvrsne	120		2
 ošine	47		2
-ošišane	65		2
-oštećene	1894		3
+ošišane	65		3
+oštećene	1894		4
 oštrine	485		2
 oštroumne	32		4
 ožaljene			2
 ožalošćene	116		2
 ožedne	21		2
 ožene	205		2
-oženjene	23		2
-oživljene	95		2
+oženjene	23		3
+oživljene	95		3
 padavine	2114		4
 padežne	11		2
-padine	945		2
+padine	945		3
 padne	13051		2
 padobrane	80		4
 pagane	29		2
 paginirane			2
 pajkane			2
-paklene	365		2
+paklene	365		3
 pakosne	54		3
 pakovane	103		4
 palestine			2
-paljene	142		2
+paljene	142		3
 paljevine	551		2
 palmine	31		3
 pametne	3328		3
-pamučne	418		2
+pamučne	418		3
 pamćene			3
 pancirne	11		2
 pandane	53		2
 pandorine			2
 pane			2
-panične	81		2
+panične	81		3
 pansione	45		2
 pantalone	3310		2
-panteone			3
+panteone			4
 papaline	18		2
 papine	26		2
 papirne	1070		2
@@ -3691,7 +3691,7 @@ paralisane	33		2
 paralizovane	32		2
 parane			2
 paranoidne	78		2
-paranoične	56		2
+paranoične	56		3
 paranormalne	110		2
 parapetne			2
 paravojne	666		4
@@ -3700,7 +3700,7 @@ parcijalne	407		2
 paritetne			2
 parižane			2
 parketirane			2
-parkirane	86		2
+parkirane	86		3
 parkirne	36		2
 parlamentarne	5596		5
 parne	580		2
@@ -3715,7 +3715,7 @@ pasmine	191		3
 pastelne	268		2
 pastoralne	58		4
 patentne	66		2
-patetične	173		2
+patetične	173		3
 patine	122		3
 patinirane	15		2
 patlidžane	60		2
@@ -3730,11 +3730,11 @@ paune			3
 paučine	212		4
 paušalne	355		2
 paviljone	80		2
-pavitine			3
+pavitine			4
 pavline			2
 pašine	13		2
 pecne	63		2
-peglane			2
+peglane			3
 pejzažne	511		2
 pelene	1660		3
 pelerine	31		2
@@ -3752,7 +3752,7 @@ perne			2
 perone	57		2
 personalne	923		4
 persone	305		2
-perverzne	126		2
+perverzne	126		3
 perčine	15		2
 petine	897		2
 petodnevne	129		2
@@ -3760,17 +3760,17 @@ petosobne			2
 petočlane	86		2
 petrašine			2
 pevane	102		3
-pećine	3302		2
+pećine	3302		3
 pečalne			2
 pečene	721		3
 peđine			2
 peščane	1174		2
-pijane	436		2
+pijane	436		3
 pijačne			2
 pijune	16		2
 pikantne	90		2
 pilane	75		2
-piletine	756		3
+piletine	756		4
 piljevine	160		2
 pingvine	62		2
 pione	51		2
@@ -3794,19 +3794,19 @@ planine	10676		2
 planinčine			2
 planirane	4116		2
 planktone			2
-plasirane	540		2
+plasirane	540		3
 plasmane	569		2
-plastične	3710		2
+plastične	3710		3
 platežne	227		2
 platine	324		2
 platne	724		2
-platnene	254		2
+platnene	254		3
 plauzibilne			5
 plavetne	22		3
 plavušane			2
 plazmene			2
-plaćane	107		2
-plaćene	1813		2
+plaćane	107		3
+plaćene	1813		3
 plačevne			2
 plačne	19		2
 plehane			2
@@ -3822,7 +3822,7 @@ pljesne	36		2
 pljune	403		2
 pljusne	58		2
 plodne	873		2
-plodonosne	82		2
+plodonosne	82		3
 plombirane			2
 plovidbene	38		2
 plovne	351		2
@@ -3830,26 +3830,26 @@ pluralne	12		2
 plutone			2
 plućne	727		2
 plužine			3
-pobacane	20		2
+pobacane	20		3
 pobedne			2
 pobedonosne	81		2
-pobegne	3637		2
+pobegne	3637		3
 pobesne	48		2
-pobeđene	72		2
-pobeđivane			2
-pobijane	125		2
-pobijene	211		3
+pobeđene	72		3
+pobeđivane			3
+pobijane	125		3
+pobijene	211		4
 pobilježene		J	2
 pobodene			2
-poboljšane	624		2
+poboljšane	624		3
 pobočne	40		2
 pobožne	252		3
 pobrine	465		2
 pobrojane	280		2
 pobune	3318		3
-pobunjene	69		2
-pobuđene	17		2
-pobuđivane			2
+pobunjene	69		3
+pobuđene	17		3
+pobuđivane			3
 pocepane	169		2
 pocerine			2
 pocikne			2
@@ -3860,47 +3860,47 @@ podarene	11		2
 podatne	22		3
 podbijene			2
 podbočene			2
-podcrtane			3
-podeljene	2860		2
+podcrtane			4
+podeljene	2860		3
 poderane	61		2
 poderotine	26		2
 podesne	98		3
-podešavane			2
-podešene	270		3
+podešavane			3
+podešene	270		4
 podgoričane			2
-podgrejane	37		3
+podgrejane	37		4
 podgrevane	11		2
-podgrijane		J	3
-podigne	8433		2
+podgrijane		J	4
+podigne	8433		3
 podine			2
-podizane	183		3
+podizane	183		4
 podjezične			2
 podlegne	282		2
 podložne	765		3
-podmazane	37		3
-podmetne	226		2
+podmazane	37		4
+podmetne	226		3
 podmigne			2
-podmićene	11		2
+podmićene	11		3
 podmlađene	47		2
 podne	8350		2
 podnebesne			2
 podnesene	120		2
 podnevne	10		2
-podnošene	76		2
+podnošene	76		3
 podobne	455		3
 podravine			2
-podrazumevane	118		2
-podređene	336		2
-podrigne	171		2
+podrazumevane	118		3
+podređene	336		3
+podrigne	171		3
 podrivane			2
 podrobne	81		3
-područne	81		2
-podržane	746		2
-podržavane	57		3
-podsećane			3
+područne	81		3
+podržane	746		3
+podržavane	57		4
+podsećane			4
 podsmehne			2
 podstakne	3310		2
-podsticane	46		3
+podsticane	46		4
 podsvesne	105		3
 podudarne	79		4
 podvijene			2
@@ -3908,38 +3908,38 @@ podvikne	109		2
 podvodne	476		2
 podvojene	46		2
 podvrgavane	21		2
-podvrgne	585		2
+podvrgne	585		3
 podvrisne			2
 podvučene	52		2
 podzemne	2425		2
-podčinjene	22		2
+podčinjene	22		3
 podšišane	23		2
 poene	4439		2
 poetizovane			2
 poetične	50		2
 pogane	128		2
 poganštine			2
-pogašene	19		2
+pogašene	19		3
 pogažene	32		2
 pogibeljne	30		2
-pogine	1007		2
-pogledane			3
+pogine	1007		3
+pogledane			4
 pogne	41		2
 pogodbene			2
 pogodne	1853		3
-pogone	1881		2
+pogone	1881		3
 pogoršane	71		2
-pogođene	1045		2
+pogođene	1045		3
 pogranične	692		2
-pogrbljene	17		3
+pogrbljene	17		4
 pogrdne	214		2
-pogrebne	279		2
-pogrešne	4067		2
+pogrebne	279		3
+pogrešne	4067		3
 pogružene			2
 pogubljene	58		2
 pogubne	1069		3
 pogurene			2
-pohabane	54		3
+pohabane	54		4
 pohapšene			2
 poharane	21		2
 pohlepne	136		3
@@ -3947,54 +3947,54 @@ pohotne	38		3
 pohovane	77		4
 pohrane	58		3
 pohranjene	195		2
-pohvaljene	45		2
+pohvaljene	45		3
 pohvalne	169		2
 pohvatane	12		2
 pojane			2
 pojasne	217		2
 pojavne	163		2
-pojačane	1059		2
-pojašnjene	28		2
-pojedene	85		3
-pojedinačne	5204		2
+pojačane	1059		3
+pojašnjene	28		3
+pojedene	85		4
+pojedinačne	5204		3
 pojedine	15545		2
 pojevtine			2
-pojmljene			2
+pojmljene			3
 pojmovne	157		2
 pokapane			2
-pokazane	196		2
-pokazivane	43		2
+pokazane	196		3
+pokazivane	43		3
 pokazne	111		2
-pokidane	181		3
-pokisne	38		2
+pokidane	181		4
+pokisne	38		3
 pokladne	11		2
 poklane	41		2
 poklecne			2
 poklekne	244		2
 poklizne			2
-poklone	5984		2
-poklonjene	223		2
+poklone	5984		3
+poklonjene	223		3
 poklopljene	33		2
 pokojne	200		2
-pokopane	63		2
-pokorene	42		2
+pokopane	63		3
+pokorene	42		3
 pokorne	84		3
 pokošene	120		2
-pokradene	203		3
-pokrajine	13582		3
+pokradene	203		4
+pokrajine	13582		4
 pokrajne	94		2
 pokrene	10030		2
-pokretane	99		3
+pokretane	99		4
 pokretne	2012		3
 pokretnine	36		2
-pokrivane	22		2
-pokrivene	1257		3
-pokrštene	15		2
+pokrivane	22		3
+pokrivene	1257		4
+pokrštene	15		3
 pokunjene			2
 pokupljene	63		3
-pokušane	18		3
-pokvarene	277		2
-pokvašene	16		3
+pokušane	18		4
+pokvarene	277		3
+pokvašene	16		4
 polagane	87		2
 polarne	383		2
 polazne	779		2
@@ -4008,17 +4008,17 @@ poline			2
 polirane	60		2
 politikine			2
 polivane			2
-polivene	11		3
-poljane	373		2
+polivene	11		4
+poljane	373		3
 poljoprivredne	9823		2
 poljuljane	63		2
 polne	946		2
-polomljene	308		2
-polovine	15417		2
+polomljene	308		3
+polovine	15417		3
 polovične	114		2
 polovne	1053		2
 položajne	37		2
-položene	479		2
+položene	479		3
 poltrone	137		2
 poluistine	247		2
 polukolone			2
@@ -4043,10 +4043,10 @@ pomazane			2
 pomene	2383		2
 pomerene	217		2
 pomesne	302		2
-pomešane	355		2
-pomilovane	11		4
+pomešane	355		3
+pomilovane	11		5
 pominjane	237		2
-pomirene	26		2
+pomirene	26		3
 pomne	15		2
 pomodne	74		3
 pomogne	28147		2
@@ -4061,86 +4061,86 @@ pomrkne			2
 pomrčine	102		4
 pomršene			2
 pomućene	30		2
-ponavljane	149		2
+ponavljane	149		3
 ponesene	20		2
-ponestane	382		2
+ponestane	382		3
 poniklovane			2
 ponikne	17		2
 ponizne	36		2
-poništene	216		3
-ponižavane	33		2
-ponižene	162		2
-ponosne	486		2
-ponovljene	308		2
+poništene	216		4
+ponižavane	33		3
+ponižene	162		3
+ponosne	486		3
+ponovljene	308		3
 ponovne	908		3
 ponoćne	42		2
-ponuđene	1379		3
-poorane			2
+ponuđene	1379		4
+poorane			3
 pooštrene	143		2
 popadne			2
 popaljene	67		2
-popijene	80		3
+popijene	80		4
 popine			2
-popisane	141		2
-popisivane			2
+popisane	141		3
+popisivane			3
 popisne	148		2
-poplavljene	197		2
-poplašene			3
+poplavljene	197		3
+poplašene			4
 poplene			2
 popljuvane			2
 popločane	122		2
 popne	1092		2
 popodne	7824		2
 popodnevne	141		2
-popratne	45		2
-popravljene	129		3
+popratne	45		3
+popravljene	129		4
 popravne	81		2
 poprečne	300		3
-poprilične	108		2
-poprskane	30		2
+poprilične	108		3
+poprskane	30		3
 popularne	6268		4
 popune	1998		3
-popunjene	618		3
-popuštene			2
-porane	34		2
+popunjene	618		4
+popuštene			3
+porane	34		3
 poratne	101		2
 porazne	127		2
 poražavane			2
-poražene	810		2
-poredane	39		2
+poražene	810		3
+poredane	39		3
 poredbene	11		2
-porekne	235		2
-poremećene	320		3
-porezne	140		2
+porekne	235		3
+poremećene	320		4
+porezne	140		3
 porezotine			2
-porečene			3
-poređane	489		2
+porečene			4
+poređane	489		3
 poređene	33		2
-porobljene	74		2
+porobljene	74		3
 porodične	6204		2
 porozne	150		3
 poročne	14		2
 porođajne	177		2
-porudžbine	1449		3
+porudžbine	1449		4
 porumene	260		2
-poručivane			2
-porušene	491		3
+poručivane			3
+porušene	491		4
 posadne			2
 posavine			2
-posađene	172		2
-posebne	16675		2
+posađene	172		3
+posebne	16675		3
 posedne	50		2
 posedovne	13		2
 posegne	366		2
 posejane	119		2
-posekotine	329		2
+posekotine	329		3
 posesivne	67		2
-posećene	367		3
-posečene	70		3
+posećene	367		4
+posečene	70		4
 posijane	10		2
 poskidane	11		2
 poslagane	66		2
-poslane	103		2
+poslane	103		3
 posledične	143		2
 poslepodne	737		2
 poslepodnevne	34		2
@@ -4149,61 +4149,61 @@ posljedične		J	2
 poslovične	83		2
 poslovne	26553		3
 poslušne	295		3
-posmatrane	390		2
+posmatrane	390		3
 posmrtne	339		2
 posne	248		2
-posoljene	29		2
+posoljene	29		3
 pospane	68		3
 pospešene			2
 posrebrene	21		2
-posredne	308		2
-posredovane	64		4
+posredne	308		3
+posredovane	64		5
 posrne	63		2
 postakne			2
-postane	33585		2
-postavljane	191		3
-postavljene	6990		3
+postane	33585		3
+postavljane	191		4
+postavljene	6990		4
 posteljine	615		2
 postepene	229		2
 posthumne	17		2
-postigne	9549		2
-postiđene	11		2
-postojane	288		3
+postigne	9549		3
+postiđene	11		3
+postojane	288		4
 postojbine	259		2
 postoperativne	129		2
 postrojene	53		2
-postupne	62		2
-posustane	127		2
-posuđene			2
+postupne	62		3
+posustane	127		3
+posuđene			3
 posvađane	56		2
-posvećene	3037		2
-posvojene			2
+posvećene	3037		3
+posvojene			3
 potajne	73		3
 potakne	76		2
 potamne	103		2
-potapane			2
+potapane			3
 potegne	401		2
 potekne	163		2
 potencijalne	5458		5
-poticane			3
+poticane			4
 potiljačne			2
 potisne	592		2
 potištene	19		3
-potkopane			2
+potkopane			3
 potkovane	60		2
 potkožne	71		2
 potkresane			2
 potlačene	130		2
 potone	480		2
-potopljene	163		2
+potopljene	163		3
 potopne			2
-potočne	64		2
+potočne	64		3
 potpadne	76		2
 potpisane	925		2
-potplaćene	19		2
+potplaćene	19		3
 potpomogne	201		2
 potporne	94		2
-potpune	4446		2
+potpune	4446		3
 potrbušine			2
 potrebne	24823		3
 potrebštine			2
@@ -4212,74 +4212,74 @@ potresene	14		2
 potresne	299		2
 potrgne			2
 potrovane			2
-potrošene	986		2
+potrošene	986		3
 potrošne	403		2
 potrvene			2
 potuljene			2
 poturčene	11		2
 potučene	32		2
 potvrdne	30		2
-potvrđene	723		2
+potvrđene	723		3
 potčine	159		2
 potčinjene	266		2
 poubijane	13		2
-pouzdane	1856		3
+pouzdane	1856		4
 poučene	37		2
 poučne	351		2
 povađene	18		2
-povedene			3
-poveravane	13		2
-poverene	540		3
+povedene			4
+poveravane	13		3
+poverene	540		4
 povezane	7101		3
-povezivane	51		2
+povezivane	51		3
 povećane	4881		2
-povećavane	104		2
+povećavane	104		3
 povešane			2
-povijene	73		3
+povijene	73		4
 povikne	13		2
-povišene	1346		2
-povlačene	26		2
+povišene	1346		3
+povlačene	26		3
 povlašćene	391		2
 povoljne	3974		3
 povratne	1822		2
-povraćene	17		2
-povremene	1317		3
-povređene	1221		2
+povraćene	17		3
+povremene	1317		4
+povređene	1221		3
 povrne			2
 površine	28501		4
-površne	568		2
-povučene	541		2
-pozadine	2289		3
-pozajmljene	186		2
+površne	568		3
+povučene	541		3
+pozadine	2289		4
+pozajmljene	186		3
 pozamašne	223		4
 pozdravne	110		3
 pozelene	28		2
 pozicione			2
 pozitivne	12487		4
-pozivane	42		2
+pozivane	42		3
 pozivne	54		2
-pozlaćene	115		2
+pozlaćene	115		3
 pozne			2
 pozorišne	2033		2
 pozvane	713		2
 počasne	262		2
 početne	3156		2
 počine	415		2
-počinjene	972		2
-počišćene	15		3
+počinjene	972		3
+počišćene	15		4
 počne	25619		2
 počupane	39		2
 poštarine	309		2
-poštene	1412		2
+poštene	1412		3
 poštećene			2
-pošteđene	157		2
-poštovane	1625		2
+pošteđene	157		3
+poštovane	1625		3
 požarne	60		2
 poželjne	938		3
 požene			2
 požnjevene	33		2
 požudne	19		3
-praktične	6024		2
+praktične	6024		3
 praline	109		2
 pramene			3
 prane	47		2
@@ -4288,7 +4288,7 @@ prasetine	127		2
 prasne	51		2
 pravedne	610		2
 pravilne	1695		3
-pravične	259		2
+pravične	259		3
 pravljene	924		3
 pravne	13290		2
 pravopisne	227		4
@@ -4300,53 +4300,53 @@ prazne	5759		2
 praznine	1477		2
 praznične	689		2
 praćene	1205		3
-prašine	5746		2
+prašine	5746		3
 prašne			2
-pražnjene	12		2
-prebačene	404		2
+pražnjene	12		3
+prebačene	404		3
 prebegne	87		2
-prebijane	13		2
-prebijene	100		3
+prebijane	13		3
+prebijene	100		4
 precenjene	144		2
 precizne	2558		3
 precrtane	25		2
 predahne	156		2
 predane	143		2
-predavane	21		2
+predavane	21		3
 predbračne	12		2
 predhodne	1266		2
 predivne	1389		3
 predizborne	3549		2
-predlagane	32		2
+predlagane	32		3
 predložene	2570		2
 predmetne	236		2
 prednjonepčane			2
-predodređene	113		2
+predodređene	113		3
 predohrane	19		2
-predočene	210		2
+predočene	210		3
 predratne	146		2
 predračune	66		2
 predsezone	37		2
 predsmrtne	22		2
 predstane			2
-predstavljene	3497		3
+predstavljene	3497		4
 predvečne			2
-predviđene	5256		3
-predvođene	668		2
+predviđene	5256		4
+predvođene	668		3
 prefinjene	237		2
 pregažene	36		2
 preglasne	67		2
-pregledane	204		3
-pregledne	170		2
+pregledane	204		4
+pregledne	170		3
 pregne			2
-pregrađene	19		2
-pregrejane	26		3
-pregrijane		J	3
+pregrađene	19		3
+pregrejane	26		4
+pregrijane		J	4
 prehrambene	2942		2
 prehrane	1072		2
 prekaljene	62		2
-prekidane	41		2
-prekine	4994		2
+prekidane	41		3
+prekine	4994		3
 preklane		M	2
 preklone			2
 preknjižene			2
@@ -4356,23 +4356,23 @@ prekorne	16		2
 prekovremene	76		2
 prekrasne	430		3
 prekriljene			2
-prekrivene	621		3
+prekrivene	621		4
 prekrižene			2
 prekršajne	1149		2
-prekršene	120		2
+prekršene	120		3
 prekrštene	117		2
 prekucane			2
 prelazne		M	2
 preliminarne	744		5
-prelistane			2
+prelistane			3
 prelivene	109		2
 preljine			2
 preljubazne			2
-prelomljene	44		2
+prelomljene	44		3
 prelomne			2
 premazane	104		2
 premazivane			2
-premašene	27		3
+premašene	27		4
 premene			2
 premetačine	53		2
 premeštane	18		2
@@ -4380,7 +4380,7 @@ premeštene	120		2
 premijerne	54		2
 premine	97		2
 premirane			2
-premlaćene			2
+premlaćene			3
 premorene	34		2
 prenagljene			2
 prenamene	110		2
@@ -4390,59 +4390,59 @@ prenemogne			2
 preneražene			2
 prenesene	359		2
 prenosne	577		2
-prenošene	175		2
+prenošene	175		3
 preobilne	46		2
 preobrne			2
 preokrene	1017		2
 preopasne			2
 preopterećene	80		2
-preorane	16		2
-preostane	445		2
-prepadne	76		2
+preorane	16		3
+preostane	445		3
+prepadne	76		3
 prepane			2
 preparirane	50		2
-prepečene	18		3
+prepečene	18		4
 prepisane	200		2
 preplavljene	135		2
-preplašene	80		3
+preplašene	80		4
 prepletene	10		2
 prepodne	945		2
 prepodobne	372		2
-prepolovljene	159		2
+prepolovljene	159		3
 prepone	688		3
-preporučene	701		2
+preporučene	701		3
 prepravljene	41		2
-prepredene	36		2
+prepredene	36		3
 prepržene			2
 prepukne	25		2
-prepune	1382		2
+prepune	1382		3
 prepunjene	33		2
-prepuštene	231		2
+prepuštene	231		3
 prerane	362		2
-prerađene	306		2
+prerađene	306		3
 prerađevine	960		2
-prerezane			3
-prerušene	37		3
+prerezane			4
+prerušene	37		4
 presahne	43		2
-presađene	42		2
+presađene	42		3
 presedane	75		2
 presedne			2
-preseljene	103		2
-presečene	132		3
-preskočene	37		2
+preseljene	103		3
+presečene	132		4
+preskočene	37		3
 preslavne	22		2
 presložene			2
 presne	89		2
 presovane	66		2
-prespavane	43		2
-presretne	153		2
-prestane	6953		2
-prestigne	350		2
+prespavane	43		3
+presretne	153		3
+prestane	6953		3
+prestigne	350		3
 prestižne	1538		2
 prestolne			2
 prestone	148		2
-prestravljene	34		2
-prestrašene	28		3
+prestravljene	34		3
+prestrašene	28		4
 prestupne	187		2
 presudne	1055		3
 presuđene	56		2
@@ -4451,119 +4451,119 @@ presvučene	173		3
 pretegne	77		2
 pretekne	694		2
 pretenciozne	55		2
-preterane	1500		3
+preterane	1500		4
 pretesne	34		2
 pretežne	139		2
-prethodne	23605		2
-pretopljene	13		2
+prethodne	23605		3
+pretopljene	13		3
 pretovarene	22		2
 pretovarne	39		2
 pretočene	171		2
 pretplatne	142		2
-pretpostavljene	240		3
+pretpostavljene	240		4
 pretražene	16		2
 pretresene	31		2
 pretrne	12		2
 pretrpane	127		2
-pretrpljene			2
-pretučene	40		2
-pretvarane	26		2
-pretvorene	517		2
+pretrpljene			3
+pretučene	40		3
+pretvarane	26		3
+pretvorene	517		3
 preumorne	13		2
 preuranjene	135		2
 preuređene	83		2
 preuveličane	85		2
-preuzimane	34		3
+preuzimane	34		4
 prevagne	226		2
-prevarene	130		3
+prevarene	130		4
 prevarne	53		2
 prevaziđene	548		2
-prevedene	761		2
+prevedene	761		3
 preventivne	2347		4
-prevezene	64		2
+prevezene	64		3
 previjene	13		2
-prevladane	21		2
+prevladane	21		3
 prevodne			2
 prevozne	84		2
-prevođene	180		2
+prevođene	180		3
 prevratne			2
 prevremene	739		2
 prevrne	299		2
 prevršene			2
 prevučene	50		2
-prezirane			3
+prezirane			4
 prezrene	57		2
 prećutne	105		2
 prečane	19		2
 prečasne	13		2
 prečišćene	148		2
-pređene	132		2
+pređene	132		3
 prežaljene	23		2
-preživljene			2
-pribavljane			3
-pribavljene	184		3
+preživljene			3
+pribavljane			4
+pribavljene	184		4
 pribegne	281		2
 pribijene	12		2
 pribirane			2
-približene	30		2
-približne	434		2
+približene	30		3
+približne	434		3
 pribrane	12		2
 pridavane			2
 pridavljene			2
 pridigne	101		2
 pridružene	266		2
-pridržane			2
+pridržane			3
 prigne	10		2
 prignječene			2
 prigodne	1350		3
 prigrljene			2
-prigušene	71		2
+prigušene	71		3
 prihodne	143		2
 prihrane	183		2
 prihvatane	48		2
 prihvatne	131		2
-prihvaćene	1299		3
-prijane	10		2
+prihvaćene	1299		4
+prijane	10		3
 prijatne	1341		3
-prijavljene	655		2
+prijavljene	655		3
 prijavne	54		2
 prijemne	482		2
 prikane			2
 prikazane	2851		2
 prikačene	88		2
-prikladne	404		2
+prikladne	404		3
 priključene	279		2
 priključne	204		2
 priklone	148		2
 priklopljene			2
 prikovane	63		2
-prikrivane	13		2
-prikrivene	297		3
-prikupljane	79		2
-prikupljene	905		3
-prilagođene	1949		2
+prikrivane	13		3
+prikrivene	297		4
+prikupljane	79		3
+prikupljene	905		4
+prilagođene	1949		3
 prilazne	199		2
 prilegne	53		2
 prilepljene	27		2
 prilivne			2
-prilične	220		2
+prilične	220		3
 prilježne			2
-priljubljene	58		2
+priljubljene	58		3
 priložene	454		2
 primadone	64		2
 primakne	207		2
-primane	57		2
+primane	57		3
 primarne	3451		3
 primene	24485		3
-primenjene	2309		2
-primerene	607		3
-primerne	44		2
+primenjene	2309		3
+primerene	607		4
+primerne	44		3
 primetne	366		3
-primećene	411		2
+primećene	411		3
 primirene			2
 primitivne	688		4
-primljene	1161		2
-primorane	468		2
+primljene	1161		3
+primorane	468		3
 princezine	12		2
 principijelne	283		5
 prinesene	18		2
@@ -4577,30 +4577,30 @@ prioritetne	962		2
 pripadne	1432		2
 pripane			2
 pripijene	56		2
-pripisane	132		2
-pripitomljene	62		2
+pripisane	132		3
+pripitomljene	62		3
 priplodne	167		2
-pripojene	117		2
+pripojene	117		3
 pripomene			2
 pripomogne	201		2
 pripovedne	78		2
 pripravne	17		3
-pripremane	131		2
-pripremljene	1585		2
+pripremane	131		3
+pripremljene	1585		3
 pripremne	1335		3
-priređene	192		2
-prirodne	11520		2
+priređene	192		3
+prirodne	11520		3
 prirođene	17		2
 priručne	98		2
-prisiljene	192		3
+prisiljene	192		4
 prisilne	267		2
 prisjedne		J	2
 prislone	35		2
-prislonjene	38		2
+prislonjene	38		3
 prislušne	51		2
 prisne	173		2
 pristane	2146		2
-pristigne	265		2
+pristigne	265		3
 pristojne	1115		2
 pristrasne	116		2
 pristupačne	1213		4
@@ -4613,56 +4613,56 @@ pritekne	178		2
 priterane			2
 pritesne			2
 pritešnjene			2
-pritisne	1045		2
+pritisne	1045		3
 pritvorene	44		2
 pritvorne			2
 priučene	35		2
 privatne	13676		2
-privedene	204		3
+privedene	204		4
 privezane	52		2
 prividne	312		2
-privikne	201		2
+privikne	201		3
 privilegovane	263		2
-privlačene			2
+privlačene			3
 privlačne	848		3
-privoljene			2
+privoljene			3
 privredne	17167		2
-privremene	3298		3
-privržene	130		3
-privučene	95		2
+privremene	3298		4
+privržene	130		4
+privučene	95		3
 prizemne	327		2
-prizivane			2
-priznavane	10		2
-prizvane	12		2
-pričane	25		2
+prizivane			3
+priznavane	10		3
+prizvane	12		3
+pričane	25		3
 pričine	64		2
 pričinjene	193		2
 pričuvne			2
-pričvršćene	171		2
+pričvršćene	171		3
 prišapne			2
 prišivene	14		2
-prkosne	44		2
-prljavštine	1038		3
+prkosne	44		3
+prljavštine	1038		4
 proaktivne	115		2
 probavne	121		3
-probdevene			3
-probijane			2
-probijene	50		3
-problematične	1224		2
+probdevene			4
+probijane			3
+probijene	50		4
+problematične	1224		3
 probne	782		2
 probrane	157		2
-probuđene	135		2
-probušene	65		2
+probuđene	135		3
+probušene	65		3
 proceduralne	278		2
 procene	14122		3
-procenjene	672		2
+procenjene	672		3
 procentne	14		2
 procesne	786		2
 proceđene	16		2
 prodajne	2067		3
-prodane	249		2
-prodavane	325		2
-prodekane	31		3
+prodane	249		3
+prodavane	325		3
+prodekane	31		4
 prodorne	98		2
 produktivne	407		4
 produžene	371		2
@@ -4671,22 +4671,22 @@ profinjene	17		3
 profitabilne	577		5
 profitne	256		2
 proganjane	32		2
-proglašene	1023		2
+proglašene	1023		3
 prognane	171		2
-progone	870		2
-progonjene	56		2
+progone	870		3
+progonjene	56		3
 programirane	195		2
 progresivne	587		4
-progrizene			3
+progrizene			4
 progrušane			2
-progutane	21		2
+progutane	21		3
 prohladne	67		2
 prohlađene	17		2
 prohodne	236		2
 prohtjedne		J	2
 proigrane			2
 proistekne	211		2
-proizvedene	1634		3
+proizvedene	1634		4
 proizvodne	4388		4
 proizvoljne	393		4
 projavljene			2
@@ -4696,26 +4696,26 @@ prokazane	17		2
 prokisne	11		2
 prokune	55		2
 prokuvane	104		2
-prolazne	607		2
+prolazne	607		3
 prolećne	573		2
-prolivene	109		3
-proljetne	48	J	2
+prolivene	109		4
+proljetne	48	J	3
 promakne	558		2
-promašene	237		3
+promašene	237		4
 promene	71465		3
-promenjene	653		2
-prometne	290		2
+promenjene	653		3
+prometne	290		3
 promisaone			2
 promiskuitetne	74		2
-promišljene	192		3
+promišljene	192		4
 promotivne	1614		2
 promrzline	119		2
 pronađene	1774		3
-pronikne	346		2
+pronikne	346		3
 proorane			2
-propadne	2985		2
+propadne	2985		3
 propagandne	842		2
-propisane	2926		2
+propisane	2926		3
 propisne	53		2
 proporcionalne	231		6
 propratne			2
@@ -4724,18 +4724,18 @@ propržene	23		2
 propusne	162		2
 propuštene		M	2
 proračune	590		4
-prorekne	18		2
+prorekne	18		3
 proređene	56		2
 prosejane			2
 prosečne	6940		3
 prosine			2
 prosipane			2
-proslavljene	178		3
+proslavljene	178		4
 prosleđene	203		2
-prospavane	30		2
+prospavane	30		3
 prostorne	1305		2
 prostosrdačne			2
-prostrane	956		2
+prostrane	956		3
 prostrelne	87		2
 prosušene	10		2
 prosvetne	1375		2
@@ -4743,7 +4743,7 @@ prosvećene	158		2
 protegne	139		2
 proteine	1422		2
 protekne	1102		2
-proterane	156		3
+proterane	156		4
 protestne	261		2
 protine			2
 protivkišne			2
@@ -4756,13 +4756,13 @@ protivvazdušne	254		2
 protkane	106		2
 protone	95		2
 protraćene	20		2
-prouzrokovane	612		4
-proučavane	69		2
-proučene	96		2
-provaljene	34		2
+prouzrokovane	612		5
+proučavane	69		3
+proučene	96		3
+provaljene	34		3
 provalne	97		2
-provedene	893		2
-proverene	768		3
+provedene	893		3
+proverene	768		4
 provežbane			2
 providne	620		3
 provladine	48		2
@@ -4775,13 +4775,13 @@ prozapadne	317		2
 prozirne	255		3
 prozne	183		2
 prozračne	132		2
-prozvane	74		2
+prozvane	74		3
 proćerdane	30		3
-pročitane	265		2
+pročitane	265		3
 pročišćene	71		2
 prošarane	95		2
 proševine			2
-proširene	1124		2
+proširene	1124		3
 prošlonedeljne	284		2
 proživljavane			2
 proživljene			2
@@ -4790,27 +4790,27 @@ prsne	214		2
 prstene	35		3
 prtene			2
 prtine	20		2
-pružane	57		2
+pružane	57		3
 pružene	465		3
-prvenstvene	537		3
+prvenstvene	537		4
 prvine	49		2
 prvobitne	1533		2
-prvoklasne	253		3
+prvoklasne	253		4
 prvorodne			2
 prvorođene	39		2
 prvostepene	952		2
-prvotne	27		2
+prvotne	27		3
 pržene	234		3
 pržine			2
 psihodelične	72		2
 psihogene	37		2
-psihotične	74		2
+psihotične	74		3
 psine	22		2
-ptičurine	36		2
+ptičurine	36		3
 pubične	88		2
 pucne	25		2
 pukne	2343		2
-pukotine	1616		3
+pukotine	1616		4
 pulsne	36		2
 pumpne	103		2
 pune	13837		2
@@ -4823,10 +4823,10 @@ punovažne	81		2
 pupine			2
 pupčane	354		2
 purane			2
-puretine			3
+puretine			4
 purpurne	118		2
 pustoline			2
-pustolovine	402		2
+pustolovine	402		3
 pustolovne	27		4
 pustonosne			2
 pustošne			2
@@ -4835,12 +4835,12 @@ putene	28		2
 putne	1553		2
 putopisne	65		2
 pućne			2
-pučine	170		2
-puštane	71		2
+pučine	170		3
+puštane	71		3
 puštene			2
 puščane	79		2
 puščetine			2
-pšenične	138		2
+pšenične	138		3
 rabatne			2
 rabine	13		2
 racionalne	972		5
@@ -4862,36 +4862,36 @@ rakijetine			2
 rakune	12		2
 ramene	45		2
 rane	8529		2
-rangirane	345		2
+rangirane	345		3
 ranjene	437		3
 rapidne	30		3
 raritetne	38		2
 rascepane			2
 rascepkane	26		2
-rascepljene	11		2
+rascepljene	11		3
 rascvetane			2
 rasedlane			2
 rasejane	87		2
 raseline			2
-raseljene	378		2
-rasečene			3
+raseljene	378		3
+rasečene			4
 rashladne	306		2
-rashlađene	48		2
+rashlađene	48		3
 rashodne	128		2
 rasine			2
 raskalašne	54		4
-raskine	1244		2
+raskine	1244		3
 rasklimane			2
 rasklimatane			2
 raskomadane	28		2
 raskopane	55		2
-raskošne	708		2
+raskošne	708		3
 raskriljene	11		2
 raskrinkane			2
 raskrivene			2
 raskrvavljene			2
 raskrčene			2
-raskućene			3
+raskućene			4
 raskvašene			2
 raskvocane			2
 rasne	1419		2
@@ -4900,26 +4900,26 @@ raspaljene	18		2
 rasparene	38		2
 rasparčane			2
 raspevane	78		2
-raspisane	158		2
-raspletene	24		3
+raspisane	158		3
+raspletene	24		4
 raspline	48		2
 raspne	12		2
 raspoložene	564		2
-raspone	109		2
+raspone	109		3
 rasporene	13		2
-raspoređene	1450		2
-rasprodane	24		2
+raspoređene	1450		3
+rasprodane	24		3
 rasprostranjene	442		2
 rasprsne	62		2
-raspršene	64		2
+raspršene	64		3
 raspukne	30		2
 raspusne	10		2
-raspuštene	117		2
-rastane			2
-rastavljene	43		3
+raspuštene	117		3
+rastane			3
+rastavljene	43		4
 rastavne			2
 rastegne	69		2
-rastopljene	51		2
+rastopljene	51		3
 rastovarene			2
 rastočene	10		2
 rastrgne	69		2
@@ -4927,9 +4927,9 @@ rastrojene	20		2
 rastrzane	42		2
 rasturane			2
 rasturene	156		2
-rastužene			2
-rastvarane			2
-rastvorene	93		2
+rastužene			3
+rastvarane			3
+rastvorene	93		3
 rasušene			2
 rasvetljene	61		2
 ratkapne			2
@@ -4937,7 +4937,7 @@ ratne	11834		2
 ratoborne	133		4
 ravene			2
 ravne	2288		2
-ravnodušne	128		2
+ravnodušne	128		3
 ravnomerne	104		4
 ravnopravne	1142		4
 ravnočasne			2
@@ -4945,48 +4945,48 @@ razapne	78		2
 razbacane	466		2
 razbarušene	57		2
 razbesne	61		2
-razbijane	16		2
-razbijene	339		3
-razblažene	34		2
+razbijane	16		3
+razbijene	339		4
+razblažene	34		3
 razdaljine			2
-razdeljene	51		2
-razderane			2
+razdeljene	51		3
+razderane			3
 razderotine	36		2
 razdragane	93		2
-razdražene	16		2
+razdražene	16		3
 razdrljene	16		2
 razdrobljene			2
-razdvojene	480		2
+razdvojene	480		3
 razgone			2
 razgovetne	24		4
 razgraničene	54		2
 razgrađene	23		2
 razgrne	71		2
 razigrane	150		2
-razine	542		2
+razine	542		3
 razjapljene	35		2
-razjarene	58		2
+razjarene	58		3
 razjasne	434		2
 razjašnjene	151		2
-razjurene			2
+razjurene			3
 razlegne			2
 razlenjene			2
-razlivene	36		3
+razlivene	36		4
 različne	134		2
-razlomljene	13		2
-razložene	15		2
-razložne	60		2
-razlučene	11		2
+razlomljene	13		3
+razložene	15		3
+razložne	60		3
+razlučene	11		3
 razmahne	104		2
 razmakne	40		2
-razmatrane	839		2
-razmažene	189		2
+razmatrane	839		3
+razmažene	189		3
 razmekšane			2
 razmene	9821		3
-razmenjene	111		2
+razmenjene	111		3
 razmeštene	117		2
 razmine			2
-razmotrene	259		2
+razmotrene	259		3
 razmrskane			2
 razmrzne			2
 razmućene	11		2
@@ -4996,46 +4996,46 @@ raznobojne	261		4
 raznorazne	2217		2
 raznorodne	226		2
 raznoverne			2
-raznovrsne	2691		2
-razorene	262		2
+raznovrsne	2691		3
+razorene	262		3
 razorne	465		2
-razoružane	20		2
-razotkrivene	56		3
+razoružane	20		3
+razotkrivene	56		4
 razočarane	279		2
-razrađene	304		2
+razrađene	304		3
 razredne	797		2
 razrezane	10		2
 razrešene	170		2
-razrušene	130		3
+razrušene	130		4
 razularene	91		3
 razumne	1032		3
 razuzdane	109		4
 razuđene	123		2
-razvaline	196		3
-razvaljene	49		2
-razvedene	150		2
-razvijane	125		2
+razvaline	196		4
+razvaljene	49		3
+razvedene	150		3
+razvijane	125		3
 razvijene	4804		2
 razvlačene			2
 razvodne	110		2
 razvojne	6262		2
-razvratne	51		2
+razvratne	51		3
 razvrgne	20		2
-razvrstane	217		2
+razvrstane	217		3
 razvučene	111		2
 račune	10514		2
 računovodstvene	746		2
-rađane			2
-rađene	1666		2
+rađane			3
+rađene	1666		3
 rađevine			2
-raširene	413		2
+raširene	413		3
 raštrkane	125		2
 raščešljane			2
 raščine	10		2
 raščinjene			2
 raščišćene	31		2
 raščlane	18		2
-raščlanjene	45		3
+raščlanjene	45		4
 raščupane	67		2
 reakcionarne	111		6
 reakcione			2
@@ -5044,7 +5044,7 @@ realistične	285		2
 recentne	69		2
 receptivne	28		4
 recesivne	20		2
-reciklirane	253		2
+reciklirane	253		3
 recipročne	137		2
 redigovane			2
 redne	84		2
@@ -5082,11 +5082,11 @@ reljefne	128		2
 relocirane			2
 remene	11		3
 remontne	73		2
-rendgene			2
+rendgene			3
 rene		M	2
 renesansne	260		2
 renomirane	815		2
-renovirane	402		2
+renovirane	402		3
 rentgene			2
 reperne			2
 represivne	353		4
@@ -5099,25 +5099,25 @@ restorane	1496		2
 resursne			2
 retorične			2
 retuširane	32		2
-reumatične	25		2
+reumatične	25		3
 revidirane	132		2
 revijalne	142		2
 revizione	23		2
-revnosne	76		2
+revnosne	76		3
 revolucionarne	1541		7
 rezane	68		3
-rezbarene	18		2
+rezbarene	18		3
 rezervisane	683		2
 rezervne	1942		2
 rezidentne	12		2
 rezidualne	35		2
 rezone	42		2
 rečene	250		3
-rečenične	22		2
+rečenične	22		3
 rečne	313		2
 ređene			2
-rešavane	70		2
-rešene	685		2
+rešavane	70		3
+rešene	685		3
 režirane	50		2
 ribane			2
 ribetine	23		2
@@ -5129,12 +5129,12 @@ rimljane			2
 rimljanine			2
 riskantne	70		2
 risovine			2
-ritmične	59		2
+ritmične	59		3
 ritne			2
 ritualne	220		4
 rizične	1079		3
 robne	4706		2
-robusne	168		2
+robusne	168		3
 rodbine	1763		3
 rodne	2730		2
 rodoslovne			2
@@ -5147,11 +5147,11 @@ rolovane			2
 romane	1669		2
 romaneskne	18		2
 romansirane	54		2
-romantične	1261		2
+romantične	1261		3
 rosne	21		2
 rotacione	97		2
 rođendane	542		4
-rođene	3980		2
+rođene	3980		3
 rubine	38		2
 rubne	64		2
 rudine	165		2
@@ -5159,60 +5159,60 @@ rudne	86		2
 rugobne			2
 rugovine			2
 ruine	126		2
-ruinirane	108		2
+ruinirane	108		3
 rujne	13		2
 rukne			2
 rukometne	1222		4
 rukopisne	136		4
-rukotvorine	566		2
-rukovođene	55		2
+rukotvorine	566		3
+rukovođene	55		3
 rumene			2
 rumune			2
 rune	133		2
-rupetine	46		2
+rupetine	46		3
 ruralne	696		2
 rusine			2
-rustične	55		2
+rustične	55		3
 rutine	803		2
 ruzmarine			2
-ručetine			2
+ručetine			3
 ručne	1424		2
 rušene	97		3
-ruševine	1314		3
+ruševine	1314		4
 ružine	27		2
 ružne	2006		2
-sabijene	40		3
+sabijene	40		4
 sabine			2
 sabirne	55		2
 sablasne	63		3
 sablazne	26		3
-saborne	123		2
-sabrane	292		2
+saborne	123		3
+sabrane	292		3
 sadržajne	224		4
 sadržane	1057		4
-sadržine	2283		3
+sadržine	2283		4
 saglasne	442		2
-sagledane	180		3
+sagledane	180		4
 sagne	183		2
-sagrađene	490		2
+sagrađene	490		3
 sahane			2
 sahne	13		2
-sahrane	2498		2
-sahranjene	290		2
+sahrane	2498		3
+sahranjene	290		3
 sakralne	255		2
-sakrivane	18		2
-sakrivene	465		3
-sakupljane	49		2
-sakupljene	354		3
+sakrivane	18		3
+sakrivene	465		4
+sakupljane	49		3
+sakupljene	354		4
 salivene	16		2
 salone	566		2
 samardžijine			2
-samlevene	94		3
+samlevene	94		4
 samodiscipline	132		2
 samohodne	65		2
 samohrane	492		2
 samoobmane	110		2
-samoobrane	15		2
+samoobrane	15		3
 samoodbrane	503		2
 samostalne	3420		4
 samostane	19		4
@@ -5221,11 +5221,11 @@ samosvojne	83		2
 samotne	32		3
 samoupravne	206		2
 samouslužne	42		2
-samouverene	145		3
+samouverene	145		4
 samovoljne	63		4
 samozvane	280		4
 samrtne	38		2
-sandalovine	64		4
+sandalovine	64		5
 sane			2
 sanirane	280		2
 sanitarne	1584		2
@@ -5236,11 +5236,11 @@ saopštene	220		2
 sapune	255		2
 saracene			2
 sardine	347		2
-sarkastične	66		2
-sasečene	10		3
-sastane	981		2
-sastavljane	30		3
-sastavljene	1031		3
+sarkastične	66		3
+sasečene	10		4
+sastane	981		3
+sastavljane	30		4
+sastavljene	1031		4
 sastavne	352		2
 sastojine	92		2
 sastrane			2
@@ -5248,35 +5248,35 @@ sastrugane			2
 sasušene	87		2
 satane	220		2
 satine			2
-satirične	248		2
+satirične	248		3
 satkane	63		2
 satne	235		2
 satrune			2
 satrvene			2
 saune	711		3
 savane	107		2
-savesne	191		2
+savesne	191		3
 savetodavne	799		5
-savezne	4470		2
-savijene	233		3
+savezne	4470		3
+savijene	233		4
 savine	82		2
-savladane	125		2
-savremene	15436		3
+savladane	125		3
+savremene	15436		4
 savršene	1819		3
 sazdane	84		2
 sazidane	91		2
-sazivane			2
+sazivane			3
 saznajne	110		2
-sazvane	34		2
+sazvane	34		3
 sačine	358		2
-sačinjene	473		2
-sačuvane	1110		2
+sačinjene	473		3
+sačuvane	1110		3
 sašine			2
-sašivene	56		3
+sašivene	56		4
 sažežene			2
 sažvakane	12		2
 scene	17001		2
-sebične	298		2
+sebične	298		3
 seckane	102		2
 sedefne			2
 sedimentne	62		2
@@ -5291,8 +5291,8 @@ sekundarne	1654		4
 selekcione	30		2
 selektivne	412		4
 selidbene	22		2
-seljane	131		2
-seljačine	122		2
+seljane	131		3
+seljačine	122		3
 semene	34		2
 sene			2
 senilne	62		3
@@ -5311,12 +5311,12 @@ sestričine			2
 sestrične	12		3
 setne	93		2
 severne	8151		3
-severoistočne	311		2
-severozapadne	306		2
+severoistočne	311		3
+severozapadne	306		3
 sevne	95		2
 sezone	49272		2
 sečene	148		3
-sferične	22		2
+sferične	22		3
 sferne	63		2
 shodne	27		2
 shvatane	16		3
@@ -5325,33 +5325,33 @@ sifone	17		2
 signalne	111		2
 signe			2
 sigurne	3752		3
-sigurnosne	1599		2
+sigurnosne	1599		3
 sikne			2
 silazne	73		2
 silikone	393		2
 siline	420		2
 silne	3616		2
 silovane	257		4
-simbolične	695		2
+simbolične	695		3
 simeone			2
-simetrične	181		2
+simetrične	181		3
 simine			2
 simone			2
-simpatične	542		2
-simulirane	46		2
+simpatične	542		3
+simulirane	46		3
 simultane	67		4
 sindikalne	877		2
 sine	3271		2
 sinhronizovane	189		2
 sinjajevine			2
 sinoćne	198		2
-sintetične			2
+sintetične			3
 sirene	1390		2
 sirne			2
-siromašne	2921		2
+siromašne	2921		3
 sirotane			2
 sirotne			2
-sirovine	4392		3
+sirovine	4392		4
 sirćetne	12		2
 sitne	6391		2
 sitnine			2
@@ -5369,49 +5369,49 @@ skamenjene	22		4
 skandalozne	338		4
 skaredne	37		3
 skeletne	100		2
-skenirane	166		2
-skeptične	91		2
+skenirane	166		3
+skeptične	91		3
 skerletne			2
-skicirane	24		2
-skidane	35		2
+skicirane	24		3
+skidane	35		3
 skikne	11		2
 skine	4380		2
 skladišne	151		2
 skladne	269		2
 sklizne	503		2
 sklone	2927		2
-sklonjene	134		2
-sklopljene	227		2
+sklonjene	134		3
+sklopljene	227		3
 sklupčane	25		2
 skockane	36		2
 skokne	182		2
 skopčane	37		2
 skorene			2
 skovane	28		2
-skraćene	328		2
+skraćene	328		3
 skrene	3013		2
-skresane	26		2
+skresane	26		3
 skrhane	19		2
-skrivane	85		2
+skrivane	85		3
 skrivene	1695		2
-skrnavljene	10		3
+skrnavljene	10		4
 skrojene	121		2
 skromne	1539		2
 skrušene			2
-skršene			2
-skrštene			2
+skršene			3
+skrštene			3
 skupine	1351		3
-skupljane	26		2
+skupljane	26		3
 skupljene	214		3
 skupne	20		2
-skupocene	549		2
+skupocene	549		3
 skupštine	73639		3
 skuvane	104		3
 skučene	96		2
 slabašne	147		3
 slabine	122		3
 slaboumne	14		4
-slamane			2
+slamane			3
 slamene			2
 slamne			2
 slane	1016		2
@@ -5430,7 +5430,7 @@ slepoočne			2
 sletne	26		2
 slezene	22		2
 slezine	299		2
-sleđene			2
+sleđene			3
 slikane	298		3
 slikovne	47		2
 sline	216		2
@@ -5439,7 +5439,7 @@ slične	20438		2
 slobodane			2
 slobodne	8611		3
 slogane	290		2
-slomljene	175		2
+slomljene	175		3
 slone			2
 slovene			2
 slovne	189		2
@@ -5448,22 +5448,22 @@ složne	117		2
 slugane			2
 slugine			2
 sluzne	12		2
-slućene			2
+slućene			3
 slučajne	673		3
 slušane	60		3
 sluškinjine			2
 slušne	178		2
 službene	2777		3
-služene	105		2
+služene	105		3
 smakne	106		2
-smanjene	2900		2
+smanjene	2900		3
 smaragdne	24		2
-smatrane	343		2
+smatrane	343		3
 smene	6702		2
-smenjene	56		2
+smenjene	56		3
 smeone			2
 smerne	84		2
-smetane	11		2
+smetane	11		3
 smetene			3
 smešane			2
 smešne	1585		2
@@ -5471,11 +5471,11 @@ smeštajne	533		3
 smeštene	2747		3
 smežurane	38		2
 smiljane			2
-smirene	153		2
-smirivane			2
+smirene	153		3
+smirivane			3
 smisaone	52		2
 smislene	279		3
-smišljane	13		2
+smišljane	13		3
 smišljene			3
 smogne	155		2
 smotane	25		2
@@ -5483,26 +5483,26 @@ smoždene			2
 smradne	11		2
 smračene			2
 smrkne	243		2
-smrskane	20		2
+smrskane	20		3
 smrtne	1514		2
-smrtonosne	759		3
+smrtonosne	759		4
 smrvljene	16		2
 smrzne	205		2
-smrzotine	12		3
+smrzotine	12		4
 smućene			2
-snabdevane	13		2
-snabdevene	269		3
+snabdevane	13		3
+snabdevene	269		4
 snažne	4000		2
 sne			1
 snene	46		2
 snežane			2
 snežne	1187		2
-snimane	301		2
-snimljene	1308		2
-snižene	524		2
+snimane	301		3
+snimljene	1308		3
+snižene	524		3
 snježane		J	2
 snježne		J	2
-sobetine			2
+sobetine			3
 sobne	173		2
 socijalne	25154		4
 sofijine			2
@@ -5526,16 +5526,16 @@ sotonine			2
 sočne	345		2
 spadne	379		2
 spakovane	166		4
-spaljene	418		2
-spaljivane	74		2
+spaljene	418		3
+spaljivane	74		3
 sparene	11		2
 sparine	44		2
 sparušene			2
-spasavane	19		2
+spasavane	19		3
 spasene	77		3
 spasonosne	210		2
-spašene	78		2
-specifične	5753		2
+spašene	78		3
+specifične	5753		3
 specijalizovane	2796		2
 specijalne	10368		4
 spektakularne	552		5
@@ -5549,16 +5549,16 @@ splasne	167		2
 splačine	78		2
 spletene	22		2
 spljoštene	41		3
-spojene	858		2
+spojene	858		3
 spokojne	64		2
 spoljašne			2
 spoljne	3356		2
 spomene	1215		3
-spominjane	68		3
+spominjane	68		4
 spone	342		2
 spontane	577		3
-spopadne	138		2
-sporadične	246		2
+spopadne	138		3
+sporadične	246		3
 sporazumne	38		2
 sporedne	1015		3
 sporne	2507		2
@@ -5570,22 +5570,22 @@ sprane			2
 spratne	136		2
 spravljene	28		2
 spregne			2
-spremane	27		2
-spremljene	251		2
+spremane	27		3
+spremljene	251		3
 spremne	5097		2
 spretne	164		2
-sprečavane			2
-sprečene	173		2
+sprečavane			3
+sprečene	173		3
 sprovedene	2339		2
-sprovođene	283		2
+sprovođene	283		3
 spržene	46		2
 sputane	79		3
-sputavane	14		2
-spuštene	424		2
+sputavane	14		3
+spuštene	424		3
 sramne	597		2
 sramotne	206		3
 sravne	66		2
-sravnjene	26		2
+sravnjene	26		3
 sravnjivane			2
 srazmerne	128		2
 srbine	119		3
@@ -5603,41 +5603,41 @@ sretane			3
 sretene			2
 sretne	1495		2
 srećne	1772		2
-sređene	456		2
+sređene	456		3
 srkne	42		2
 srne	458		2
 srodne	1429		2
 srozane	25		2
 sročene	75		2
 srušene	645		2
-srčane	1807		2
+srčane	1807		3
 srđane			2
 stabilne	2593		3
 stacionirane	236		2
 stadione	553		4
 stagnantne			2
-staklene	3278		2
+staklene	3278		3
 stalne	5826		2
 staložene	37		2
-stambene	3516		2
+stambene	3516		3
 stamene	43		2
-stanarine	491		2
+stanarine	491		3
 standardne	4970		2
 stane	10419		2
-stanične	48		2
+stanične	48		3
 stanišine			2
 stanjene	18		2
-starešine	2350		2
+starešine	2350		3
 starine	536		2
 staričine			2
 staromodne	110		4
 starosne	427		2
 starostavne			2
 startne	254		2
-statične	308		2
-statusne	528		2
+statične	308		3
+statusne	528		3
 statutarne	220		2
-stavljane	101		2
+stavljane	101		3
 stavljene	1064		3
 stefane			2
 stegne	740		2
@@ -5650,7 +5650,7 @@ sterilne	249		2
 stesne			2
 stevane			2
 stečajne	179		3
-stečene	1520		2
+stečene	1520		3
 sticane	25		2
 stidne	218		2
 stigne	12979		2
@@ -5660,7 +5660,7 @@ stihovne			2
 stilogene			2
 stimulativne	523		2
 stisne	416		2
-stišane			2
+stišane			3
 stojane			2
 stojne	10		2
 stoletne	51		2
@@ -5684,24 +5684,24 @@ stresne	666		2
 strgne	26		2
 striktne	288		2
 strine	285		2
-strmine	101		2
+strmine	101		3
 strovaljene			2
-strugane	28		2
+strugane	28		3
 strugne			2
-strugotine	88		3
+strugotine	88		4
 strujne	137		2
 strukovne	450		2
 strukturalne			2
 strukturne	1599		2
 strune	487		2
 stručne	14740		2
-strvine	35		2
+strvine	35		3
 stucane			2
-studene	54		2
+studene	54		3
 studiozne	27		2
 stukne			2
 stučene			2
-stvarane	247		2
+stvarane	247		3
 stvarne	4544		2
 stvarnosne	47		2
 stvorene	1964		2
@@ -5710,19 +5710,19 @@ subjektivne	680		2
 sublimne	11		3
 subverzivne	153		2
 sudbine	6881		2
-sudbonosne	183		2
+sudbonosne	183		3
 sudijine			2
 sugerisane	21		2
 sugestivne	80		4
-sugrađane	2499		3
+sugrađane	2499		4
 suhozidne			2
 suicidalne	67		5
 suicidne	78		2
-sujetne	141		2
+sujetne	141		3
 sukcesivne	80		2
 sukne			2
 suknene	24		2
-sukobljene	380		2
+sukobljene	380		3
 sulfatne	17		2
 sultane			2
 sumarne	26		2
@@ -5731,35 +5731,35 @@ sumorne	423		3
 sumporne	470		2
 suncobrane	185		4
 sune			2
-sunčane	905		2
-suočene	562		2
+sunčane	905		3
+suočene	562		3
 superiorne	411		5
 supermasivne	57		2
 supermene	12		2
-suprotne	2267		2
-suprotstavljene	654		3
+suprotne	2267		3
+suprotstavljene	654		4
 suptilne	466		3
-survane			2
-susedne	3279		2
+survane			3
+susedne	3279		3
 suspendovane	155		2
-susretne	434		2
-sustane			2
-sustigne	295		2
+susretne	434		3
+sustane			3
+sustigne	295		3
 susvojine	50		2
-sutone	13		2
+sutone	13		3
 suverene			2
 suvišne	970		3
 suvoparne	86		2
 suvozemne	30		2
 suzane			2
-suzbijene	20		3
+suzbijene	20		4
 suzne	217		2
 sučeljene	21		2
-suđene	41		2
-sušene	273		2
+suđene	41		3
+sušene	273		3
 sušne	195		2
 suštine	2662		2
-sužavane			2
+sužavane			3
 sužene	215		3
 svadbarine			2
 svadbene	305		2
@@ -5769,47 +5769,47 @@ svane	865		2
 svedene	643		3
 svemoćne	129		3
 svenarodne	13		2
-sveobuhvatne	1372		2
+sveobuhvatne	1372		3
 svesne	1801		2
-svesrdne	42		2
-svestrane	237		2
-svetine	131		2
-svetkovine	438		3
+svesrdne	42		3
+svestrane	237		3
+svetine	131		3
+svetkovine	438		4
 svetlane			2
 svetlosne	570		2
 svetorodne			2
 svetovne	610		2
-sveukupne	629		2
-svezane	62		2
+sveukupne	629		3
+svezane	62		3
 svezne			2
-svečane	1685		2
+svečane	1685		3
 sveštene	260		2
 svežine	785		2
 svikne	10		2
-svilene	489		2
-svinjetine	376		3
+svilene	489		3
+svinjetine	376		4
 svirne			2
 svisne	16		2
 svojevoljne	12		4
 svojevrsne	994		2
 svojine	8140		2
-svojstvene	556		2
+svojstvene	556		3
 svrgne	219		2
 svrne	16		2
-svrstane	354		2
-svršene	84		2
-svučene	10		2
-tabane	254		2
+svrstane	354		3
+svršene	84		3
+svučene	10		3
+tabane	254		3
 tabelarne	103		2
 tablične	29		2
 tacne			2
-tajanstvene	467		2
+tajanstvene	467		3
 tajfune	18		2
 tajne	14469		2
 takne	154		2
 takozvane	5965		2
 taksene			2
-taktične	13		2
+taktične	13		3
 talasne	184		3
 talentovane	1530		2
 talibane	176		2
@@ -5820,7 +5820,7 @@ taložne	32		2
 tamane	94		2
 tamne	3234		2
 tampone	110		2
-tanane	220		2
+tanane	220		3
 tane	128		2
 tankozidne			2
 tankoćutne			4
@@ -5833,7 +5833,7 @@ tastaturne			2
 tatarine			2
 tatine	25		2
 tatjane			2
-tavane	66		2
+tavane	66		3
 taverne	330		2
 tavne			2
 tazbine	22		3
@@ -5844,17 +5844,17 @@ taštine	310		2
 teatralne	39		4
 tegobne	54		3
 tekne			2
-tekovine	1672		3
+tekovine	1672		4
 teksašane			2
 tekstilne	1004		2
 tekstualne			2
-tekućine	248		2
+tekućine	248		3
 telefone	7010		2
 telekomunikacione	1384		2
 telesine			2
 telesne	8172		3
-teletine	106		3
-temeljene	69		2
+teletine	106		4
+temeljene	69		3
 temeljne	1229		2
 temene			2
 temperaturne	378		2
@@ -5870,17 +5870,17 @@ termalne	807		2
 terminalne	136		2
 termine	2031		2
 termoizolacione	123		2
-tesane	23		2
+tesane	23		3
 teskobne	17		2
 tesline	354		2
 tesne	761		2
 testenine	880		2
-testirane	393		2
+testirane	393		3
 testne	56		2
 testosterone	24		2
 tetine			2
 tetkine			2
-tetovirane	38		2
+tetovirane	38		3
 tečne	600		2
 težine	11014		2
 težišne	20		2
@@ -5888,13 +5888,13 @@ tifusne			2
 tihone			2
 tijane			2
 tikovine	48		2
-tikvane			2
+tikvane			3
 tikvene			2
 tikvine			2
 tipizirane	38		2
-tipične	1482		2
-tirane	52		2
-tiranine			3
+tipične	1482		3
+tirane	52		3
+tiranine			4
 tirkizne	126		2
 tiroidne	57		2
 tisne			2
@@ -5902,7 +5902,7 @@ tisovine	13		2
 titane			2
 tišine	1865		2
 tkane	78		2
-tkanine	1536		2
+tkanine	1536		3
 tmine	194		2
 tmurne	160		2
 toaletne	44		2
@@ -5913,7 +5913,7 @@ tolerantne	238		2
 tone	6465		2
 toplane	2951		2
 topline	1251		2
-topljene	19		2
+topljene	19		3
 toplokrvne	37		4
 toplotne	4118		2
 toplovodne	202		2
@@ -5926,34 +5926,34 @@ totalne	1021		3
 tovarne	24		2
 tovne	121		2
 tradicionalne	8365		6
-tragične	1472		2
-trajektne	19		2
+tragične	1472		3
+trajektne	19		3
 trajne	2375		2
 tramboline			2
 transmisione			2
-transportne	533		2
+transportne	533		3
 tranzitne	265		2
-traumatične	112		2
+traumatične	112		3
 travne			2
 travuljine			2
 tračane	36		3
 tračanine			2
 tražbine	14		2
 tražene	1874		2
-trbušne	291		2
-trenirane	25		2
+trbušne	291		3
+trenirane	25		3
 trenutne	4388		3
 trepne	172		2
 trepčine			2
 tresne	185		2
-tretirane	658		2
+tretirane	658		3
 tretmane	1318		2
 trezne	65		2
 trezvene	114		3
 trećerazredne	78		2
 trećine	8152		2
 trgne	455		2
-trgovine	21018		3
+trgovine	21018		4
 tribine	7237		2
 tribune	90		2
 trijumfalne	145		4
@@ -5976,13 +5976,13 @@ trone			2
 tronedeljne	75		2
 trosatne			2
 trosložne			2
-trostrane	34		2
+trostrane	34		3
 trosunčane			2
 trougaone			2
 tročasovne	70		2
 tročlane	191		2
 trošarine	110		2
-trošene	120		2
+trošene	120		3
 troškovne	72		2
 trošne	172		2
 trudne	527		2
@@ -6000,11 +6000,11 @@ tuberkulozne	30		5
 tucane	22		3
 tufne			2
 tulipane	10		4
-tuljane	17		2
-tumačene	92		2
+tuljane	17		3
+tumačene	92		3
 tumorne			2
 tune	304		2
-tunjevine	242		3
+tunjevine	242		4
 tupane			2
 tupsone			2
 turbane	26		2
@@ -6014,58 +6014,58 @@ turobne	81		3
 turčine			2
 tutne	59		2
 tučane			2
-tučene	26		2
+tučene	26		3
 tuđine	118		2
 tuđinine			2
 tužbene	59		2
-tužene	920		2
+tužene	920		3
 tužne	1238		2
 tvarne	15		2
 tvorbene	22		2
-tvorevine	2073		3
+tvorevine	2073		4
 tvorne			2
 tvrdokorne	123		4
-ubacivane	24		2
-ubadane			2
-ubačene	317		2
+ubacivane	24		3
+ubadane			3
+ubačene	317		3
 ubeležene	24		2
 ubeđene	102		2
-ubijane	76		2
+ubijane	76		3
 ubijene	1180		2
-ubirane			3
+ubirane			4
 ubistvene			2
 ubitačne	112		4
-ublažene	147		2
+ublažene	147		3
 ubodne	100		2
 ubojne			2
-ubrane	115		2
-ubrzane	292		2
+ubrane	115		3
+ubrzane	292		3
 ucene	1888		3
 ucrtane	108		2
 ucveljene			2
 udahne	540		2
-udaljavane			2
+udaljavane			3
 udaljene	2197		3
-udane	13		2
-udarane			3
-udarene	22		3
+udane	13		3
+udarane			4
+udarene	22		4
 udarne	949		2
-udavane			2
-udavljene	12		2
+udavane			3
+udavljene	12		3
 udene			2
 udešene	24		2
 udobne	1086		3
-udoline	50		3
+udoline	50		4
 udovičine			2
-udružene	612		2
+udružene	612		3
 udubine	20		2
 udubljene	33		2
 udvojene	27		2
 udvostručene	95		2
 ugaone	106		2
-ugašene	424		2
+ugašene	424		3
 ugažene			2
-ugine	322		2
+ugine	322		3
 uglancane	15		2
 uglavljene	12		2
 uglačane	38		2
@@ -6079,69 +6079,69 @@ ugnjetavane	29		2
 ugodne	289		3
 ugojene			2
 ugone			2
-ugovarane	10		2
-ugovorene	1111		2
+ugovarane	10		3
+ugovorene	1111		3
 ugovorne	1931		2
 ugravirane	31		2
-ugrađene	1619		2
-ugrejane	16		3
-ugrožavane			2
-ugrožene	2756		2
-ugušene	68		2
+ugrađene	1619		3
+ugrejane	16		4
+ugrožavane			3
+ugrožene	2756		3
+ugušene	68		3
 ugušivane			2
-uhapšene	611		3
+uhapšene	611		4
 uhodane	95		2
-uhvaćene	304		3
+uhvaćene	304		4
 uigrane	72		2
 ujedine	991		2
-ujedinjene	2308		2
+ujedinjene	2308		3
 ujednačene	284		2
 ujne	146		2
 ukaljane	21		2
-ukazane	238		2
-ukazivane	10		2
-ukidane	50		2
-ukine	4370		2
+ukazane	238		3
+ukazivane	10		3
+ukidane	50		3
+ukine	4370		3
 ukiseljene	11		2
-uklanjane	39		3
+uklanjane	39		4
 uklesane	87		2
 ukleštene			2
 uklještene			2
 uključene	3401		2
-uključivane	13		2
+uključivane	13		3
 uklone	2446		2
-uklonjene	704		2
+uklonjene	704		3
 uklopljene	173		2
-ukopane	130		2
+ukopane	130		3
 ukopne			2
 ukorene	40		2
-ukorenjene	234		2
-ukočene	83		2
+ukorenjene	234		3
+ukočene	83		3
 ukošene			2
-ukradene	680		3
+ukradene	680		4
 ukrasne	549		3
-ukrašavane	45		2
-ukrašene	766		2
-ukrcane	10		2
-ukroćene	25		2
-ukrštene	287		2
-ukupne	12583		2
-ukusne	848		2
+ukrašavane	45		3
+ukrašene	766		3
+ukrcane	10		3
+ukroćene	25		3
+ukrštene	287		3
+ukupne	12583		3
+ukusne	848		3
 ukućane	681		2
 ulazne	869		2
 ulegne	25		2
 ulepljene	26		2
-ulepšane	25		2
-ulepšavane			2
+ulepšane	25		3
+ulepšavane			3
 ulickane			2
 ulične	1935		3
 uljane	816		2
-uljepšane		J	2
+uljepšane		J	3
 uljne	123		2
-uljudne	24		2
+uljudne	24		3
 uljuđene			2
-ulovljene	106		2
-uložene	506		2
+ulovljene	106		3
+uložene	506		3
 uložne			2
 ultimativne	129		2
 ulupane			2
@@ -6149,20 +6149,20 @@ umakne	202		2
 umanjene	637		2
 umazane	32		2
 umašćene			2
-umerene	972		3
+umerene	972		4
 umesne			2
-umetne	94		2
+umetne	94		3
 umetnine	129		2
 umešane	295		2
 umešene			2
 umilne	57		2
-umivene	39		3
-umišljene	170		3
+umivene	39		4
+umišljene	170		4
 umjetnine		J	2
 umne	557		2
 umnožene	49		2
 umobolne	57		2
-umorene	25		2
+umorene	25		3
 umorne	660		3
 umotane	128		2
 umotvorine	223		2
@@ -6171,8 +6171,8 @@ umrljane	39		2
 umrtvljene	26		2
 umukne	45		2
 umućene	27		2
-unajmljene	14		2
-unakažene	60		2
+unajmljene	14		3
+unakažene	60		3
 unakrsne	178		2
 unapređene	523		2
 unazadne			2
@@ -6185,28 +6185,28 @@ uniformne	63		2
 unikatne	506		2
 unitarne	203		2
 univerzalne	2031		5
-uništavane	89		2
+uništavane	89		3
 uništene	1600		2
-unižene	13		2
-unosne	204		2
-unošene	40		2
+unižene	13		3
+unosne	204		3
+unošene	40		3
 uobičajene	3663		3
 uobličavane			2
 uobličene	113		2
-uobražene	73		2
-uokvirene	111		2
+uobražene	73		3
+uokvirene	111		3
 uopštene	232		2
-uočavane			2
-uočene	872		2
+uočavane			3
+uočene	872		3
 upadne	1186		2
 upakovane	377		2
-upaljene	322		2
+upaljene	322		3
 upamćene	122		3
-upecane	10		3
+upecane	10		4
 uperene	464		2
 upetljane	19		2
-upisane	770		2
-upisivane	28		2
+upisane	770		3
+upisivane	28		3
 upisne	125		2
 upitne	73		2
 uplakane	97		2
@@ -6219,61 +6219,61 @@ uporedne	577		2
 upoređene	51		2
 uporišne	54		2
 uporne	596		3
-uposlene	53		2
+uposlene	53		3
 upotpune	310		2
 upotpunjene	95		2
-upotrebljene	633		2
+upotrebljene	633		3
 upotrebne	921		2
-upozorene	52		2
-upravljane	112		3
+upozorene	52		3
+upravljane	112		4
 upravljene	73		2
 upravne	1945		2
 uprazne			2
 upražnjene	58		2
 upregne	100		2
-upriličene	110		3
-uprljane	46		2
-upropaštene	23		2
+upriličene	110		4
+uprljane	46		3
+upropaštene	23		3
 upropašćene	65		2
 uprosečene			2
 uproštene			2
 uprošćene	59		2
 uprskane			2
 upucane	14		2
-upućene	2801		2
-upućivane	194		2
+upućene	2801		3
+upućivane	194		3
 uragane	62		4
 uramljene	105		2
 uravnotežene	289		3
-urađene	2021		2
+urađene	2021		3
 urbane	2203		3
 uredne	640		3
-urezane	149		3
-uređene	1905		2
-uređivane	27		2
+urezane	149		4
+uređene	1905		3
+uređivane	27		3
 urgentne	568		2
 urinarne	315		2
 urlikne	12		2
 urne	167		2
 urnebesne	139		2
 urone	49		2
-uronjene	41		2
-urođene	669		3
-uručene	1837		2
+uronjene	41		3
+urođene	669		4
+uručene	1837		3
 urušene	142		2
 urvine			2
 usaglašene	462		2
 usahne	21		2
 usamljene	536		3
-usavršene	110		2
-usađene	119		2
-usađivane			2
+usavršene	110		3
+usađene	119		3
+usađivane			3
 usedne			2
-useljene	78		2
+useljene	78		3
 usečene	31		2
 ushićene	35		3
 ushtedne			2
-usidrene	59		3
+usidrene	59		4
 usijane	324		2
 usiljene	45		2
 usirene			2
@@ -6285,7 +6285,7 @@ usklađene	684		2
 usklikne	40		2
 usklične			2
 uskomešane			2
-uskraćene	285		2
+uskraćene	285		3
 uskrsne	39		2
 uslikane	57		2
 uslišane			2
@@ -6293,40 +6293,40 @@ uslišavane			2
 uslišene	116		2
 uslovljene	600		2
 uslovne	546		2
-uslužne	721		2
+uslužne	721		3
 usmene	1290		3
-usmeravane	36		2
-usmerene	3897		3
+usmeravane	36		3
+usmerene	3897		4
 usne	6791		2
 usoljene	26		2
 uspaljene			2
 uspaničene			2
-uspavane	203		2
-uspešne	8170		2
+uspavane	203		3
+uspešne	8170		3
 usplahirene	13		2
 uspne	49		2
 uspomene	4557		4
-uspone	691		2
+uspone	691		3
 usporene	204		2
-uspostavljene	825		3
+uspostavljene	825		4
 uspravljene	16		2
 uspravne	182		3
-usputne	206		2
+usputne	206		3
 usrdne	79		2
 ustalasane		M	2
 ustaljene	282		2
-ustane	1911		2
-ustanovljene	555		2
+ustane	1911		3
+ustanovljene	555		3
 ustavne	3613		3
 ustegne			2
 ustoličene	15		2
 ustrašene			2
 ustremljene			2
-ustrojene	111		2
+ustrojene	111		3
 ustukne	153		2
-ustupljene	94		2
+ustupljene	94		3
 usukane			2
-usvajane	43		2
+usvajane	43		3
 usvojene	2188		2
 utabane	95		2
 utamničene	17		2
@@ -6335,8 +6335,8 @@ utapkane			2
 utekne	123		2
 utemeljene	655		2
 uterivane			2
-utešene			3
-utešne	155		2
+utešene			4
+utešne	155		3
 uticajne	736		2
 utihne	173		2
 utilitarne	42		2
@@ -6344,95 +6344,95 @@ utisne	113		2
 utišane			2
 utkane	156		2
 utone	178		2
-utopljene	86		2
-utovarene	13		3
+utopljene	86		3
+utovarene	13		4
 utovarne	24		2
-utovljene	32		2
+utovljene	32		3
 utrapljene			2
 utrgne			2
 utrine			2
 utrne	70		2
-utrošene	449		2
+utrošene	449		3
 utrpane			2
 ututkane			2
-utučene	19		2
+utučene	19		3
 utvine			2
-utvrđene	3270		2
+utvrđene	3270		3
 uvaljane	18		2
-uvažavane	43		2
+uvažavane	43		3
 uvažene	951		3
 uvedene	1872		2
-uveličane	25		2
-uveličavane			2
+uveličane	25		3
+uveličavane			3
 uvene	125		2
-uverene	218		3
+uverene	218		4
 uveseljene			2
-uvezane	59		2
-uvezene	634		2
-uvećane	1027		2
+uvezane	59		3
+uvezene	634		3
+uvećane	1027		3
 uvežbane	82		2
-uvežbavane	10		2
+uvežbavane	10		3
 uvodne	1041		2
-uvozne	1181		2
-uvođene	70		2
-uvožene	29		2
-uvređene	70		2
+uvozne	1181		3
+uvođene	70		3
+uvožene	29		3
+uvređene	70		3
 uvrežene	99		2
 uvrne	21		2
-uvrštene	301		2
-uvršćene	81		2
-uvučene	206		2
+uvrštene	301		3
+uvršćene	81		3
+uvučene	206		3
 uzajamne	1020		4
 uzaludne	357		4
 uzane	196		2
 uzastopne	230		2
 uzbune	367		3
-uzburkane	65		3
-uzbuđene	90		2
+uzburkane	65		4
+uzbuđene	90		3
 uzdahne	147		2
 uzdane			2
 uzdigne	637		2
 uzdrmane	99		2
 uzdržane	160		2
 uzdužne	157		2
-uzgajane	134		2
-uzgojene	56		2
+uzgajane	134		3
+uzgojene	56		3
 uzgredne	59		3
 uzidane	49		2
 uzigrane			2
-uzimane	118		3
+uzimane	118		4
 uzlazne	79		2
 uzmakne	37		2
 uzmogne	50		2
-uznemirene	139		2
+uznemirene	139		3
 uznesene	14		2
 uznošene			2
-uzorane	23		2
+uzorane	23		3
 uzorne	137		2
-uzrokovane	732		4
-uzročne	56		2
+uzrokovane	732		5
+uzročne	56		3
 uzrujane	11		2
 uzurpirane	75		2
 uzvikne	122		2
 uzvisine	17		2
 uzvične			2
-uzvišene	285		2
+uzvišene	285		3
 uzvratne	97		2
 učaurene			2
 učene	270		3
 učine	8779		2
-učinjene	840		2
+učinjene	840		3
 učlane	412		2
-učlanjene	35		2
-učvršćene	75		2
+učlanjene	35		3
+učvršćene	75		3
 ušećerene	31		2
 uškopljene			2
 ušne	133		2
-ušteđevine	421		2
+ušteđevine	421		3
 uštine	72		2
 uštirkane	25		2
 uštogljene	39		2
-ušuškane	63		3
+ušuškane	63		4
 užarene	166		2
 užasne	1016		3
 užegne	20		2
@@ -6441,7 +6441,7 @@ užine	757		3
 užičane			2
 užurbane	109		2
 vabne			2
-vagane			2
+vagane			3
 vaginalne	367		2
 vagine	1433		2
 vagone	528		2
@@ -6459,7 +6459,7 @@ vanredne	7769		2
 vansolarne			2
 vantelesne	794		2
 varane	15		3
-varene	22		2
+varene	22		3
 varijantne			2
 varirane	10		2
 varne			2
@@ -6487,16 +6487,16 @@ vekovne	206		2
 veleglasne			2
 velelepne	349		2
 velikane	508		2
-velikodušne	115		2
+velikodušne	115		3
 veličane			2
-veličanstvene	606		2
+veličanstvene	606		3
 veličine	21208		2
 vene	2352		2
-venerične	92		2
+venerične	92		3
 ventilacione	150		2
 ventrikularne	46		2
-venčane	47		2
-veprine			2
+venčane	47		3
+veprine			3
 verbalne	872		2
 verene	10		3
 verine			2
@@ -6510,13 +6510,13 @@ verovatne	206		2
 vertikalne	1193		4
 vesne		M	2
 vesnine			2
-vesterne	35		2
+vesterne	35		3
 veterane	650		2
 veterine	354		2
 vetruštine			2
 vezane	15872		2
-vezene	103		2
-vezivane	58		2
+vezene	103		3
+vezivane	58		3
 vezivne	32		2
 većine	21202		2
 večne	1480		2
@@ -6528,7 +6528,7 @@ videne			2
 vidne	376		2
 vidovdane			2
 vikne	383		2
-viline	69		2
+viline	69		3
 vilične			2
 vine			2
 violine	860		2
@@ -6558,18 +6558,18 @@ višeslojne	197		2
 višesmerne			2
 višespratne			2
 višestepene	15		2
-višestrane	39		2
-višeznačne	69		2
+višestrane	39		3
+višeznačne	69		3
 višečlane	118		2
 vladane			2
-vladavine	11636		3
+vladavine	11636		4
 vladikine	20		2
-vladine	1679		2
+vladine	1679		3
 vladičine			2
 vlasine			2
 vlačene			2
 vlažne	1028		2
-vodene	2683		2
+vodene	2683		3
 vodne	251		2
 vododerine	17		2
 vodonepropusne	59		2
@@ -6581,22 +6581,22 @@ vojne	18938		2
 vojvodine	1339		2
 vojvođane			2
 vokalne	402		2
-voljene	1193		2
+voljene	1193		3
 voljne	442		2
-volumene	43		2
+volumene	43		3
 volšebne	38		2
-vozarine	20		2
+vozarine	20		3
 vozne	840		2
 voćne	957		2
-vođene	1424		2
+vođene	1424		3
 vođine			2
-voštane	254		2
+voštane	254		3
 vradžbine	173		3
 vragolane			2
 vrane	549		2
 vratne	124		2
 vratolomne	55		4
-vraćene	989		2
+vraćene	989		3
 vrbene			2
 vrbovane	11		2
 vrcne			2
@@ -6610,14 +6610,14 @@ vrgne			2
 vrhovne	954		2
 vrisne	188		2
 vrletne	17		3
-vrline	3520		2
+vrline	3520		3
 vrne	64		2
 vrsne	243		2
 vrtložne			2
 vrtne	46		2
 vrućine	2278		2
 vrzine	15		2
-vršene	591		2
+vršene	591		3
 vršine			2
 vršne	42		2
 vrščane			2
@@ -6626,55 +6626,55 @@ vukašine			2
 vulgarne	283		2
 vulkane	78		2
 vune	1741		2
-vunene	350		2
-vučene	50		2
+vunene	350		3
+vučene	50		3
 vučetine			2
 vučine			2
 vučne	43		2
 zabataljene			2
-zabavljene	17		3
-zabavne	2153		2
+zabavljene	17		4
+zabavne	2153		3
 zabačene	126		2
 zabeležene	1293		2
 zabezekne	11		2
-zabijene	17		3
+zabijene	17		4
 zabilježene	78	J	2
 zablene			2
 zabljesne	17		2
-zabodene			2
-zaboravljene	1051		3
+zabodene			3
+zaboravljene	1051		4
 zaboravne	116		4
 zabrane	7488		2
-zabranjene	1721		2
-zabranjivane	51		2
+zabranjene	1721		3
+zabranjivane	51		3
 zabrađene			2
-zabrine	623		2
+zabrine	623		3
 zabune	2280		3
-zaceljene	14		2
+zaceljene	14		3
 zacrne			2
-zacrtane	163		3
+zacrtane	163		4
 zacrvene	49		2
 zadahne			2
-zadane	33		2
-zadavljene	15		2
+zadane	33		3
+zadavljene	15		3
 zadene	35		2
 zadigne	16		2
 zadihane	19		2
-zadirkivane			2
-zadivljene	23		2
+zadirkivane			3
+zadivljene	23		3
 zadobijene	175		2
 zadocne			2
-zadovoljene	429		2
+zadovoljene	429		3
 zadovoljne	1453		4
 zadrhtane			2
 zadružne	98		2
-zadržane	273		2
-zadužbine	2648		3
+zadržane	273		3
+zadužbine	2648		4
 zadužene	1645		2
-zagađene	331		3
-zaglavljene	51		2
+zagađene	331		4
+zaglavljene	51		3
 zagledane	55		2
-zaglibljene			2
+zaglibljene			3
 zagluhne			2
 zaglupljene	16		2
 zaglušene			2
@@ -6686,14 +6686,14 @@ zagranične			2
 zagrcne	86		2
 zagrejane	199		2
 zagrižene	51		2
-zagrljene	55		3
+zagrljene	55		4
 zagrne			2
 zagubljene	16		2
-zahtevane	133		2
+zahtevane	133		3
 zahtevne	1382		2
 zahuktane			2
 zahvalne	310		2
-zahvaćene	383		3
+zahvaćene	383		4
 zainteresovane	7578		2
 zajamčene	36		2
 zajapurene	19		2
@@ -6701,18 +6701,18 @@ zakamene			2
 zakasne	134		2
 zakazane	947		2
 zakačene	93		2
-zakine	70		2
+zakine	70		3
 zakićene			2
 zaklane	91		2
 zaključane	226		2
-zaključene	265		2
-zaključne	57		2
-zaklone	136		2
-zaklonjene	52		2
+zaključene	265		3
+zaključne	57		3
+zaklone	136		3
+zaklonjene	52		3
 zaklopne			2
-zakone	16622		2
+zakone	16622		3
 zakonodavne	1418		2
-zakopane	173		2
+zakopane	173		3
 zakopčane	33		2
 zakovane	30		2
 zakrečene			2
@@ -6731,11 +6731,11 @@ zalepljene	136		2
 zalečene	43		2
 zaleđene	161		2
 zalivane			2
-zalivene	65		3
+zalivene	65		4
 zalivne	105		2
-zalizane	22		2
+zalizane	22		3
 zaljubljene	551		2
-založene	88		2
+založene	88		3
 založne	66		2
 zaludne	68		2
 zamagljene	110		2
@@ -6745,23 +6745,23 @@ zamamne	22		3
 zamašne	59		3
 zamašćene	18		2
 zamene	7726		3
-zamenjene	903		2
-zamenjivane	15		2
+zamenjene	903		3
+zamenjivane	15		3
 zametne	77		2
-zamišljane			2
+zamišljane			3
 zamišljene	688		2
-zamoljene	44		2
+zamoljene	44		3
 zamorene	12		2
 zamorne	66		2
 zamotane	32		2
 zamračene	30		2
-zamrzavane			3
-zamrzne	604		2
+zamrzavane			4
+zamrzne	604		3
 zamršene	156		2
 zamukne	19		2
 zamuljene			2
-zamućene	77		2
-zanemarene	222		2
+zamućene	77		3
+zanemarene	222		3
 zanesene	35		2
 zanosne	233		2
 zaobilazne	40		2
@@ -6770,9 +6770,9 @@ zaobljene	397		2
 zaodene			2
 zaogrne	23		2
 zaokrene	32		2
-zaokružene	184		2
+zaokružene	184		3
 zaokupljene	69		2
-zaostane	131		2
+zaostane	131		3
 zaostavštine	1022		2
 zaovine			2
 zaošijane			2
@@ -6780,17 +6780,17 @@ zaoštrene	72		2
 zapadne	16850		3
 zapahne	29		2
 zapakovane	69		2
-zapaljene	378		2
+zapaljene	378		3
 zapamćene	103		3
-zapanjene	25		2
-zapažene	925		3
+zapanjene	25		3
+zapažene	925		4
 zapene	20		2
 zapetljane	20		2
 zapečaćene	110		2
-zapečene	66		3
-zapisane	371		2
-zapisivane	15		2
-zaplašene	25		3
+zapečene	66		4
+zapisane	371		3
+zapisivane	15		3
+zaplašene	25		4
 zaplene	405		2
 zaplenjene	218		2
 zapletene	25		2
@@ -6799,95 +6799,95 @@ zapljusne	98		2
 zapne	394		2
 zapodene	48		2
 zaposedne	133		2
-zaposlene	10994		3
+zaposlene	10994		4
 započne	4122		2
 zaprašene			2
 zapremine	3070		2
 zapretane			2
 zaprećene	145		2
 zaprežne			2
-zaprljane	69		2
+zaprljane	69		3
 zapržene			2
 zapuhne			2
-zapušene	58		3
-zapuštene	432		2
+zapušene	58		4
+zapuštene	432		3
 zarazne	869		2
 zaraćene	368		2
-zarađene	285		2
+zarađene	285		3
 zaražene	964		2
 zarobljene	569		2
 zarone	157		2
 zarozane			2
 zarumene	26		2
-zasađene	277		2
-zasebne	941		2
+zasađene	277		3
+zasebne	941		3
 zasedne	173		2
 zasejane	304		2
-zasene	99		2
-zasenjene	29		3
+zasene	99		3
+zasenjene	29		4
 zasečene	14		2
 zasijane	16		2
-zasićene	344		3
+zasićene	344		4
 zaslađene	60		2
 zaslepljene	50		2
 zaslužene	436		2
-zaslužne	552		2
+zaslužne	552		3
 zasnivane	14		2
 zasnovane	3586		2
 zastakljene			2
-zastane	778		2
+zastane	778		3
 zastavine	83		2
 zastiđene			2
 zastrane	22		2
-zastrašene	20		3
-zastupane	11		2
-zastupljene	2318		2
+zastrašene	20		4
+zastupane	11		3
+zastupljene	2318		3
 zasukane			2
-zatajivane			2
-zatalasane	26		2
+zatajivane			3
+zatalasane	26		3
 zatamne	24		2
 zatamnjene	85		2
 zategne			2
-zatekne	587		2
+zatekne	587		3
 zatezne	258		2
-zatečene	298		3
+zatečene	298		4
 zaticane			2
 zatisne	13		2
-zatočene	113		2
+zatočene	113		3
 zatravljene	18		2
-zatražene	78		2
-zatrovane	93		2
+zatražene	78		3
+zatrovane	93		3
 zatrpane	171		2
 zatrpavane			2
 zatrudne	282		2
 zatucane			2
 zaturene	32		2
-zatvarane	85		2
-zatvorene	3627		3
+zatvarane	85		3
+zatvorene	3627		4
 zaumne			2
-zaustavljene	271		3
-zauzimane			3
+zaustavljene	271		4
+zauzimane			4
 zavaljene	14		2
-zavarane			3
-zavađene	204		3
-zavedene	152		3
+zavarane			4
+zavađene	204		4
+zavedene	152		4
 zavejane	92		2
 zavetne	65		2
-zavezane	52		2
+zavezane	52		3
 zaveštane			2
-zavidne	720		2
-zavijene	77		3
-zavisne	881		2
+zavidne	720		3
+zavijene	77		4
+zavisne	881		3
 zavitlane			2
 zavičajne	423		2
 zavodnjene			2
-zavođene			2
+zavođene			3
 zavrgne			2
 zavrne	243		2
 zavrzane			2
-završene	4070		3
+završene	4070		4
 završne	3559		2
-zavučene	15		2
+zavučene	15		3
 zazelene			2
 zazidane	20		2
 zazvone	44		2
@@ -6895,14 +6895,14 @@ začarane	64		3
 začepljene	45		2
 začetne			2
 začešljane	27		2
-začine	1151		2
-začinjene	209		2
+začine	1151		3
+začinjene	209		3
 začne	138		2
-začuđene	21		3
-zašiljene	21		2
+začuđene	21		4
+zašiljene	21		3
 zašivene	11		2
-zaštitne	2791		2
-zaštićene	1905		2
+zaštitne	2791		3
+zaštićene	1905		3
 zažarene	17		2
 zbijene	105		3
 zbirne	126		2
@@ -6910,15 +6910,15 @@ zbrine	245		2
 zbrkane	43		2
 zbrčkane			2
 zbune	254		2
-zbunjene	208		2
+zbunjene	208		3
 zderane			2
 zdravoumne			2
 zdravstvene	20353		2
 zdrobljene	14		2
-združene	168		2
+združene	168		3
 zejne			2
 zekane			2
-zelene	10013		2
+zelene	10013		3
 zemljane	338		2
 zemljanine			2
 zemljine			2
@@ -6938,13 +6938,13 @@ zgotovljene			2
 zgradetine			2
 zgrane	20		2
 zgrne	54		2
-zgrožene	21		2
+zgrožene	21		3
 zgrušane	13		2
 zgrčene	43		2
 zgusne	484		2
 zgužvane	68		2
-zidane	253		2
-zidine	1030		2
+zidane	253		3
+zidine	1030		3
 zidne	677		2
 zimomorne			2
 zimzelene	71		4
@@ -6955,41 +6955,41 @@ zlatne	7146		2
 zlatonosne	27		2
 zlatotkane			2
 zlaćane	18		2
-zlaćene			2
+zlaćene			3
 zlobne	142		2
-zloglasne	264		2
-zlokobne	121		2
+zloglasne	264		3
+zlokobne	121		3
 zlokućane			2
 zlonamerne	629		2
 zlonaravne			2
-zloslutne	70		2
+zloslutne	70		3
 zlosrećne			2
-zlostavljane	216		3
-zloćudne	112		2
-zločine	15232		2
-zmijine			2
-zmijurine	19		2
+zlostavljane	216		4
+zloćudne	112		3
+zločine	15232		3
+zmijine			3
+zmijurine	19		3
 znakovne	36		2
 znane	426		2
-znanstvene	204		2
+znanstvene	204		3
 znatiželjne	161		4
 znatne	1291		2
 značajne	13326		3
 znojne	121		2
-zobene	89		2
+zobene	89		3
 zone	15486		2
 zorane			2
 zorkine			2
 zovne	135		2
-zračene	11		2
+zračene	11		3
 zračne	244		2
 zubne	286		2
 zucne	126		2
 zvane	1167		2
-zvanične	6716		2
+zvanične	6716		3
 zvekane			2
 zvekne	115		2
-zvezdane	697		2
+zvezdane	697		3
 zvezdine	415		2
 zvizne	66		2
 zvone	544		2
@@ -6999,13 +6999,13 @@ zvučne	1744		2
 ćemane		M	2
 ćerane			2
 ćerkine			2
-ćirilične	209		2
+ćirilične	209		3
 ćurane			2
-ćuretine	96		3
+ćuretine	96		4
 ćušne			2
 čajetine			2
 čajne	134		2
-čakavštine			2
+čakavštine			3
 čakširine			2
 čalabrcne			2
 čapljine			2
@@ -7024,21 +7024,21 @@ zvučne	1744		2
 čeone	137		2
 četne			2
 četvoronožne	30		2
-četvrtine	6040		2
+četvrtine	6040		3
 čezne	501		2
 čine	60105		2
-činjene	120		2
+činjene	120		3
 činjenične	164		4
 čipkane	62		2
 čistine	76		2
 čistione			2
 čistokrvne	41		2
-čitane	155		2
+čitane	155		3
 čičine			2
 čišćene	81		3
 članarine	1796		2
 člane	15		2
-čobane	106		2
+čobane	106		3
 čobanine			2
 čohane			2
 čokoladne	331		4
@@ -7049,11 +7049,11 @@ zvučne	1744		2
 čudovišne	108		4
 čujne	24		2
 čulne	259		2
-čuvane	369		2
+čuvane	369		3
 čuvene	4673		3
 čuvstvene			2
 čučne	88		2
-čvrstine	508		2
+čvrstine	508		3
 đakone	100		3
 đerdane	21		2
 đokine			2
@@ -7062,8 +7062,8 @@ zvučne	1744		2
 đurine			2
 šabane			2
 šablone	404		2
-šafrane			2
-šaljivčine			2
+šafrane			3
+šaljivčine			3
 šalone		M	2
 šamane	21		2
 šamijine			2
@@ -7072,9 +7072,9 @@ zvučne	1744		2
 šampone	259		2
 šansone	154		2
 šapne	134		2
-šarane	89		2
+šarane	89		3
 šardone			2
-šarene	1510		2
+šarene	1510		3
 šarlatane	43		2
 šarmantne	229		2
 šarplanine			2
@@ -7092,19 +7092,19 @@ zvučne	1744		2
 šimone			2
 šimune			2
 šine	976		2
-širene	43		2
+širene	43		3
 širine	4902		2
 širokopojasne	250		2
 šivene	56		3
 šizne			2
 škljocne			2
-školarine	2459		2
+školarine	2459		3
 školovane	331		2
 škorpione	50		2
 škrabotine	37		2
 škrofulozne			2
 šljivine			2
-šmokljane			2
+šmokljane			3
 šmugne	32		2
 šoferšajbne	108		2
 šokantne	310		2
@@ -7119,7 +7119,7 @@ zvučne	1744		2
 štefane			2
 štene	1123		2
 štetne	4369		2
-štetočine	1115		2
+štetočine	1115		3
 štimovane			2
 štitne	692		2
 štićene	17		3
@@ -7143,20 +7143,20 @@ zvučne	1744		2
 žarišne			2
 žbune			2
 žedne	374		2
-železne	96		2
-željene	1447		2
-željezne		J	2
+železne	96		3
+željene	1447		3
+željezne		J	3
 željne	728		2
 želudačne	309		2
 želučane	27		2
 žene	84010		2
 ženetine	18		2
 ženidbene			2
-ženine	13		2
-ženstvene	237		2
+ženine	13		3
+ženstvene	237		3
 žestine	207		2
 žetone	95		2
-žežene			2
+žežene			3
 žigosane	35		2
 žikine			2
 žitne	110		2
@@ -7169,9 +7169,9 @@ zvučne	1744		2
 živopisne	497		4
 živorođene	83		2
 životane			2
-životne	42558		2
+životne	42558		3
 životvorne	123		2
-živčane	42		2
+živčane	42		3
 žičane	306		2
 žične	78		2
 žlebljene			2
@@ -7179,7 +7179,7 @@ zvučne	1744		2
 žrtvine			2
 žrtvovane	61		4
 žudne			2
-župane	35		2
+župane	35		3
 župne	29		2
 žurne			2
 žustrine	18		2
@@ -7190,18 +7190,18 @@ zvučne	1744		2
 bezvrijedne	16		4
 bijedne	37		3
 bijene			3
-bijesne	43		2
+bijesne	43		3
 bjesne			2
-cijene	4281		2
-cijenjene	31		3
+cijene	4281		3
+cijenjene	31		4
 cijevne	28		2
 cjeline			2
-cjelokupne			2
+cjelokupne			3
 cvjetne	40		2
 djeteline			4
-dragocjene			2
-iscijeljene			3
-iskorijene	15		2
+dragocjene			3
+iscijeljene			4
+iskorijene	15		3
 izbjegne			2
 izmiješane	11		2
 izmjene			3
@@ -7212,102 +7212,102 @@ lijene			2
 ljepotane			2
 ljetine			3
 lješine			2
-miješane			3
+miješane			4
 mjesečine			4
 mjesečne			2
 mjesne			2
-mješavine			3
-mješine			2
-mještane			2
+mješavine			4
+mješine			3
+mještane			3
 mliječne	102		2
-namijenjene	154		3
+namijenjene	154		4
 namjene			2
 namjenjene			2
-namještene			3
+namještene			4
 nedjeljne			2
 neizbježne			4
 neizmjerne			2
 neriješene	26		4
-nesvjesne			2
+nesvjesne			3
 nevjerovatne			2
 obavještajne			2
 objelodane			2
-obješene			3
-ocijene			2
+obješene			4
+ocijene			3
 ocjene			3
-odijeljene			3
+odijeljene			4
 odriješene	22		2
-odsječene			3
+odsječene			4
 otmjene			3
 pijene			3
 pjene			2
 pješčane			2
 plijene	30		3
-pobijeđene			3
-pobjegne			2
-podijeljene	121		3
-pomiješane	11		3
+pobijeđene			4
+pobjegne			3
+podijeljene	121		4
+pomiješane	11		4
 pomjesne			2
-posjekotine			2
+posjekotine			3
 poslijepodne	120		2
-povrijeđene	73		3
+povrijeđene	73		4
 prebjegne			2
 prekomjerne			2
-pretjerane			3
+pretjerane			4
 pribjegne			2
 prijepodne	49		2
 primjene			3
 primjećene			2
-procijene			2
+procijene			3
 procjene			3
-promijene	172		2
+promijene	172		3
 promjene			3
 prosječne			3
 prostrijelne			2
-provjerene			3
+provjerene			4
 rasjeline			2
 razmjene			3
 riječne	17		3
-riješene	36		3
+riješene	36		4
 sijene			2
 sjedne			2
 sjeverne			3
-skupocjene			2
-smijene	24		2
-smiješne	87		2
+skupocjene			3
+smijene	24		3
+smiješne	87		3
 smjene			2
 smještene	56		3
 srednjovjekovne			2
-starješine			2
-stijene	270		2
+starješine			3
+stijene	270		3
 stjepane			2
-susjedne			2
+susjedne			3
 svijene			2
 svjetlosne			2
 svježine			2
-tijesne	47		2
+tijesne	47		3
 tjelesine			2
 tjelesne			3
 tjestenine			2
-trijezne			2
+trijezne			3
 ucjene			3
 umiješane	18		2
-umjerene			3
-usmjerene			3
-uspješne			2
-uvijene	185		3
+umjerene			4
+usmjerene			4
+uspješne			3
+uvijene	185		4
 vijene			3
-vjenčane			2
+vjenčane			3
 vjerne			2
 vjerodostojne			2
 vječne			2
 vještine			2
-vrijedne	388		2
+vrijedne	388		3
 zalijepljene			2
-zamijene	73		2
-zamijenjene	41		3
+zamijene	73		3
+zamijenjene	41		4
 zamjene			3
 zaplijene			2
 zapodjene			2
-zijevne			2
-zvjezdane			2
+zijevne			3
+zvjezdane			3

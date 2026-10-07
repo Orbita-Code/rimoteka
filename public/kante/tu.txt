@@ -1,5 +1,5 @@
 1382
-Budimpeštu			3
+Budimpeštu			4
 Bukureštu			4
 Cvetu	714		2
 Nazaretu			2
@@ -9,23 +9,23 @@ admiralitetu			2
 adresantu			2
 adutu	19		2
 advokatu	376		2
-afektu	278		2
+afektu	278		3
 afinitetu	84		2
 afroditu			2
 agatu			2
-agentu	459		2
+agentu	459		3
 agregatu	219		2
 ahmetu			2
-akcentu	58		2
+akcentu	58		3
 akceptu			2
-akrobatu	15		2
-aktivistu	130		2
+akrobatu	15		3
+aktivistu	130		3
 aktivitetu			2
 aktu	1610		2
 alatu	289		2
 albertu			2
 alfabetu	63		2
-alpinistu			2
+alpinistu			3
 amanetu			2
 ambijentu			2
 ambulantu	1016		2
@@ -45,33 +45,33 @@ apsolventu			2
 arafatu			2
 argumentu	170		2
 arhimandritu	141		2
-arhitektu	395		2
-aristokratu	12		2
+arhitektu	395		3
+aristokratu	12		3
 artefaktu	21		4
-asfaltu	1110		2
-asistentu	178		2
+asfaltu	1110		3
+asistentu	178		3
 asketu	10		2
-aspektu	1380		2
-astronautu	37		2
-ateistu	47		2
+aspektu	1380		3
+astronautu	37		3
+ateistu	47		3
 atentatu	595		2
 atlantu			2
 atletu	22		2
 atributu			2
 automatu	169		2
 autopilotu	16		2
-autoputu	2586		4
+autoputu	2586		5
 autoritetu	546		2
 autu	2253		2
-avanturistu	40		2
-avgustu	7422		2
-azbestu	37		2
-azotu	52		2
+avanturistu	40		3
+avgustu	7422		3
+azbestu	37		3
+azotu	52		3
 ađutantu			2
 bahatu	101		3
-bajatu	39		2
+bajatu	39		3
 bajkovitu	112		2
-balastu			2
+balastu			3
 baletu	381		2
 banatu			2
 banditu			2
@@ -80,8 +80,8 @@ banketu	91		2
 banknotu	10		2
 bankomatu	258		2
 bankrotu	444		2
-barutu	14		2
-baršunastu	25		3
+barutu	14		3
+baršunastu	25		4
 basistu	58		2
 basketu	506		2
 batistu			2
@@ -89,43 +89,43 @@ batu	229		2
 baštu	2418		2
 bebastu			2
 bejrutu			2
-beknutu			2
-belancetu			2
+beknutu			3
+belancetu			3
 belfastu			2
 beličastu	37		2
 benastu			2
-biciklistu	212		2
+biciklistu	212		3
 biletu			2
-biralištu	44		3
+biralištu	44		4
 birokratu	20		2
 bistu	334		2
 bitu	70		2
-bjelancetu			2
+bjelancetu			3
 blatištu			2
 blatu	1836		2
 bledožutu			2
-bogatu	3850		2
+bogatu	3850		3
 bojištu	345		2
-bojkotu	269		2
+bojkotu	269		3
 bokatu			2
 bonitetu	193		2
-boravištu	215		3
+boravištu	215		4
 borilištu	81		2
 bostaništu			2
-bradatu			2
+bradatu			3
 bratu	3414		2
-brdovitu	26		3
+brdovitu	26		4
 bremenitu	28		2
 brestu	18		2
 brinetu	29		2
 brinutu			3
-brkatu	11		2
-brodogradilištu	325		3
+brkatu	11		3
+brodogradilištu	325		4
 brokatu			2
 brstu			2
-brzopletu	24		3
+brzopletu	24		4
 bucmastu	10		3
-budalastu	11		2
+budalastu	11		3
 budžetu			2
 buketu	57		2
 bulumentu	110		2
@@ -135,16 +135,16 @@ buretu			2
 butu	39		2
 cajtnotu	109		3
 celibatu	95		2
-celovitu	468		2
-cementu	70		2
+celovitu	468		3
+cementu	70		3
 centu	133		2
 cigaretu	1867		2
 cirkuzantu			2
 citatu	287		2
 crkvištu	42		2
-crnomanjastu			4
+crnomanjastu			5
 crtu	2752		2
-crvenkastu	85		3
+crvenkastu	85		4
 cvatu	236		2
 cvetu	714		2
 cvrkutu	34		2
@@ -156,34 +156,34 @@ dekanatu	86		2
 dekartu			2
 dekretu	96		2
 delegatu	50		2
-deliktu	32		2
+deliktu	32		3
 deltu	319		2
-demokratu	133		2
+demokratu	133		3
 depozitu	138		4
 deputatu			2
 derištu			3
 derventu			2
 desantu	13		2
-desertu	37		2
+desertu	37		3
 desetu	543		2
-despotu	426		2
+despotu	426		3
 detelištu			2
-detencetu	10		2
-detetu	12633		2
-detinjastu	39		3
+detencetu	10		3
+detetu	12633		3
+detinjastu	39		4
 detroitu			2
-devedesetu	18		2
+devedesetu	18		3
 devetu	550		2
 dezertu	17		2
 dignutu			3
-dijalektu	312		2
-dijamantu	70		2
+dijalektu	312		3
+dijamantu	70		3
 dijetu	1727		2
 diktatu	711		2
 diletantu			2
 dinamitu	15		2
-diplomatu	276		2
-dirigentu	99		2
+diplomatu	276		3
+dirigentu	99		3
 disketu	247		2
 diskontu	62		2
 distriktu	404		2
@@ -199,20 +199,20 @@ doktorantu	15		2
 doktoratu	108		2
 dokumentu	5424		2
 dolčevitu			2
-dometu	368		2
+dometu	368		3
 dominantu	46		2
-domišljatu	10		3
+domišljatu	10		4
 donetu	128		2
 doplatu	1385		2
-dopustu	23		2
+dopustu	23		3
 doratu			2
 drotu			2
 drvetu	2192		3
 dubletu			2
 duetu	425		2
-dugmetu	189		2
+dugmetu	189		3
 duguljastu	22		2
-duhovitu	210		2
+duhovitu	210		3
 dukatu	10		2
 dupetu	361		3
 duplikatu	21		2
@@ -223,24 +223,24 @@ dvorištu	9521		2
 dželatu			2
 džematu	110		2
 džigljastu			2
-efektu	726		2
+efektu	726		3
 egiptu			2
 egoistu			2
 egzitu			2
-egzorcistu			2
+egzorcistu			3
 ekonomistu	290		2
-eksperimentu	997		2
-ekspertu	121		2
+eksperimentu	997		3
+ekspertu	121		3
 elaboratu	170		2
 elektricitetu	55		2
-elementu	900		2
+elementu	900		3
 elitu	2868		2
 elizabetu			2
-emigrantu	25		2
+emigrantu	25		3
 emiratu	42		2
 emitentu	19		2
 entitetu	603		2
-entuzijastu	38		2
+entuzijastu	38		3
 episkopatu	43		2
 epizodistu			2
 epruvetu	58		2
@@ -261,10 +261,10 @@ fašistu			2
 feribotu	15		2
 feštu	184		2
 fijatu	540		2
-finalistu	125		2
+finalistu	125		3
 fintu			2
-flautistu			2
-flautu	314		2
+flautistu			3
+flautu	314		3
 flertu			2
 floretu	17		2
 flotu	1076		2
@@ -273,7 +273,7 @@ fontu	116		2
 forintu	38		2
 formatu	6540		2
 fotoaparatu	423		2
-fragmentu	105		2
+fragmentu	105		3
 frankfurtu			2
 fregatu	26		2
 fritatu			2
@@ -287,15 +287,15 @@ garištu			2
 gazetu	69		2
 gestu	387		2
 getu	366		2
-gigantu	347		2
+gigantu	347		3
 gitaristu	140		2
-glasovitu	18		2
+glasovitu	18		3
 gledalištu	381		2
 gledištu	206		3
 glistu	129		2
 glumištu	15		2
 godištu	217		2
-golgotu	630		2
+golgotu	630		3
 golijatu			2
 gostu	1060		2
 gradilištu	1577		2
@@ -315,80 +315,80 @@ hajatu			2
 hamletu			2
 heftu			2
 hiljaditu			2
-hirovitu			2
+hirovitu			3
 hitu	293		2
 hladovitu			2
-holokaustu	426		2
-horizontu	1124		2
+holokaustu	426		3
+horizontu	1124		3
 hranilištu	23		2
 hrastu	180		2
 hristu			2
 hrvatu			2
 humanistu	67		2
 hutu			2
-idealistu	26		2
+idealistu	26		3
 identitetu	1956		2
-idiotu	84		2
+idiotu	84		3
 igličastu			2
 ignjatu			2
-igralištu	1139		3
-imigrantu	16		2
+igralištu	1139		4
+imigrantu	16		3
 imunitetu	204		2
 inatu	90		2
-incestu	49		2
-incidentu	1242		2
-infarktu	69		2
-insektu	38		2
-instinktu	143		2
+incestu	49		3
+incidentu	1242		3
+infarktu	69		3
+insektu	38		3
+instinktu	143		3
 institutu	8734		2
 instrumentu	603		2
 integritetu	603		2
-intelektu	139		2
+intelektu	139		3
 intendantu			2
 intenzitetu	869		2
 internatu	257		2
 internetu	28047		4
-internistu	29		2
+internistu	29		3
 intranetu	73		2
-ishodištu	87		3
-ispitu	4060		2
+ishodištu	87		4
+ispitu	4060		3
 isplatu	6830		3
-ispletu	31		2
+ispletu	31		3
 isprepletu	10		2
 ispustu	57		2
-istaknutu	26		2
+istaknutu	26		3
 istegnutu			2
 istinitu	555		4
 istorijatu	601		2
-izdatu	216		2
+izdatu	216		3
 izdignutu			2
 izletištu	367		2
-izletu	414		2
-izmetu	126		2
+izletu	414		3
+izmetu	126		3
 iznetu	46		2
 izokrenutu			2
 izrastu	353		2
-izrazitu	415		3
-izračunatu			2
+izrazitu	415		4
+izračunatu			3
 izričitu	187		2
-izvorištu	400		3
+izvorištu	400		4
 izvrnutu			2
 ištu	183		2
 jagnjetu	67		3
 jahtu	575		2
 jajastu			3
-jajetu	699		2
-jaketu			2
+jajetu	699		3
+jaketu			3
 jastučetu			2
 jatu	1028		2
 jedanaestu	108		2
 jelečetu			2
 jelisavetu			2
-jezercetu	53		2
-jezgrovitu	19		2
-jezovitu			2
+jezercetu	53		3
+jezgrovitu	19		3
+jezovitu			3
 jezuitu	13		2
-jogurtu	175		2
+jogurtu	175		3
 juditu			2
 juristu			2
 jutu	108		2
@@ -398,7 +398,7 @@ kabrioletu	70		2
 kadetu	24		2
 kalkutu			2
 kamatu	4201		3
-kamenitu	39		2
+kamenitu	39		3
 kamionetu	23		2
 kanabetu	80		2
 kanastu			2
@@ -416,60 +416,60 @@ kazamatu	229		2
 kazetu			2
 kačketu	19		2
 kašastu	60		2
-kažiprstu	109		3
+kažiprstu	109		4
 kentu			2
 kijametu			2
 kilovatu	105		2
 kiltu			2
 kiselkastu			2
-kismetu			2
+kismetu			3
 kistu			2
 kitnjastu	13		2
 kitu	534		2
 kjotu			2
 kletu	42		2
-klevetu	782		2
-klijentu	2265		2
+klevetu	782		3
+klijentu	2265		3
 klinastu			2
-klizalištu	190		3
+klizalištu	190		4
 kljastu			2
 kljusetu			3
 klokotu	32		2
-klozetu	88		2
+klozetu	88		3
 klupčetu			2
 kmetu	54		2
 kockastu	14		3
 koferčetu			2
-kojotu			2
+kojotu			3
 kokpitu	202		2
 kolopletu	67		2
 koloritu	164		2
 kolumnistu	107		2
-komandantu	792		2
+komandantu	792		3
 komandatu			2
 kombinatu	591		2
 kometu	492		2
 komitetu	1349		2
 komitu			2
-kompletu	974		2
+kompletu	974		3
 komplimentu	136		2
-komponentu	2312		2
-komunistu	131		2
-konačištu	37		3
-konceptu	3495		2
-koncertu	5631		2
+komponentu	2312		3
+komunistu	131		3
+konačištu	37		4
+konceptu	3495		3
+koncertu	5631		3
 konektikatu			2
-konfliktu	1044		2
+konfliktu	1044		3
 konjčetu			2
 konkordatu	36		2
 konkubinatu			2
-konkurentu	149		2
+konkurentu	149		3
 konstantu	265		2
-kontaktu	7161		2
-kontekstu	17150		2
-kontinentu	3208		2
+kontaktu	7161		3
+kontekstu	17150		3
+kontinentu	3208		3
 kontinuitetu	3745		2
-kontrastu	496		2
+kontrastu	496		3
 kontu	455		2
 konventu			2
 konvertitu			2
@@ -478,10 +478,10 @@ konzumentu			2
 kooperantu			2
 kopiletu			4
 kopilotu			2
-kopitu	20		2
-korenitu	110		2
+kopitu	20		3
+korenitu	110		3
 korintu			2
-koritu	505		2
+koritu	505		3
 kornetu	47		2
 korsetu	41		2
 kortu			2
@@ -491,8 +491,8 @@ kosmetu			2
 kostu			2
 kotekstu			2
 kovertu	486		2
-košutu	49		2
-koščatu	13		2
+košutu	49		3
+koščatu	13		3
 krasotu	127		2
 krastu	32		2
 kravatu	475		2
@@ -500,50 +500,50 @@ kredibilitetu	274		2
 kreditu	2094		2
 kremastu	100		2
 krestu	45		2
-krevetu	7086		2
-kriketu	50		2
+krevetu	7086		3
+kriketu	50		3
 krilatu	22		2
 kriptu	116		2
 kritu			2
 kroketu			2
 krstu	2745		2
 krutu	76		2
-krševitu			3
-kubetu	50		2
+krševitu			4
+kubetu	50		3
 kukuruzištu	28		2
 kukutu			2
 kultu	540		2
-kumčetu	14		2
-kupalištu	333		3
+kumčetu	14		3
+kupalištu	333		4
 kupletu			2
 kutu	180		2
 kuvajtu			2
 kuvertu			2
 kućištu	2242		2
 kučetu	35		3
-kvadrantu	87		2
+kvadrantu	87		3
 kvadratu	1794		2
 kvalitetu	14911		2
 kvantitetu	329		2
 kvartetu	110		2
 kvartu	557		2
 kvotu	1021		2
-labirintu	21		2
+labirintu	21		3
 lafetu			2
 lakotu			2
 laktu	185		2
 lastu			2
 laureatu	126		2
-lautu			2
+lautu			3
 lavirintu	479		2
 legalitetu	28		2
 legatu	208		2
-lekovitu	251		2
+lekovitu	251		3
 lentu	87		2
 lepotu	6486		2
 lepuškastu			2
 letu	2634		2
-levantu	45		2
+levantu	45		3
 lečilištu	84		2
 ležištu	204		2
 libretistu			2
@@ -551,32 +551,32 @@ libretu	76		2
 liftu	628		2
 lignitu	18		2
 limetu	28		2
-limitu	158		2
-lingvistu	28		2
-lisnatu	10		2
+limitu	158		3
+lingvistu	28		3
+lisnatu	10		3
 listu	24847		2
 ljubičastu	252		4
 ljudevitu			2
 ljutitu	29		2
 ljutu	638		2
-lobistu	35		2
+lobistu	35		3
 lokalitetu	1968		2
 lončetu			2
-lopatu	368		2
+lopatu	368		3
 loptu	17742		2
 lotu	127		2
 lovištu	530		3
 ložištu	42		3
-magaretu	57		3
+magaretu	57		4
 magistratu	97		2
-magličastu	15		3
-maglovitu	63		2
+magličastu	15		4
+maglovitu	63		3
 magnetu	48		2
-mahnitu			2
-majmunčetu			3
+mahnitu			3
+majmunčetu			4
 maketu	317		2
 maltu			2
-mamutu	34		2
+mamutu	34		3
 mandatu	3342		2
 manifestu	249		2
 margaretu			2
@@ -588,22 +588,22 @@ martu	11762		2
 maršrutu			2
 maršutu			2
 maskotu	154		2
-maslinastu	15		3
+maslinastu	15		4
 mastrihtu			2
 matu	110		2
-mačetu	81		2
+mačetu	81		3
 mačkatu			2
 mašinistu			2
-maštovitu	80		2
+maštovitu	80		3
 maštu	2811		2
 mekotu	20		2
 menadžmentu	1927		2
 mentalitetu	1139		2
-mesnatu	41		2
+mesnatu	41		3
 mestašcetu			2
 mestu	109317		2
 metu	1576		2
-mešovitu	220		2
+mešovitu	220		3
 miletu			2
 miloštu			2
 minesotu			2
@@ -611,51 +611,51 @@ minutu	25128		2
 mirtu	11		2
 mitropolitu	728		2
 mitu	969		2
-mladunčetu	38		2
+mladunčetu	38		3
 mlečnožutu			2
 mobutu			2
 mocartu			2
 modalitetu	61		2
 modrikastu			2
 momentu	15982		2
-momčetu	14		2
+momčetu	14		3
 monetu	219		2
 monolitu	13		2
 mostu	3897		2
 motociklistu	49		2
-munjevitu	41		2
+munjevitu	41		3
 muratu			2
 musketu			2
 mutantu	22		2
 muzikantu			2
 mučilištu	66		2
-mušketu			2
-nacistu	50		2
-nacrtu	2649		2
-nadahnutu	139		2
+mušketu			3
+nacistu	50		3
+nacrtu	2649		3
+nadahnutu	139		3
 nadrastu			2
 nadtekstu			2
 naftu	3271		2
-nagnutu	19		2
+nagnutu	19		3
 nagotu	42		2
-nakitu	289		2
+nakitu	289		3
 nalazištu	434		2
 naletu	1116		2
-nametnutu	27		3
+nametnutu	27		4
 nanetu	121		2
-naočitu			3
-napadnutu			3
+naočitu			4
+napadnutu			4
 napetu	163		3
 naplatu	6006		3
-naprasitu			3
+naprasitu			4
 napregnutu			2
 narandžastu	296		3
 narastu	339		2
-naročitu	1148		3
+naročitu	1148		4
 natalitetu	205		2
-nategnutu			2
-naviknutu	11		3
-navratu	141		2
+nategnutu			3
+naviknutu	11		4
+navratu	141		3
 načetu			2
 nebratu			2
 nedirnutu	20		2
@@ -665,19 +665,19 @@ nemuštu	28		2
 nenasitu			2
 neolitu	150		2
 nepoznatu	725		4
-neprekinutu	58		3
+neprekinutu	58		4
 nerastu			3
 nesitu			3
 netaknutu	179		2
 neudatu	16		4
-nevestu	388		2
-neveštu	13		2
-nezakonitu	348		3
+nevestu	388		3
+neveštu	13		3
+nezakonitu	348		4
 nezasitu	32		2
 nezbrinutu	437		2
 nečistotu	68		2
-nečistu	158		2
-nihilistu			2
+nečistu	158		3
+nihilistu			3
 nikitu			2
 nikoletu			2
 nitratu			2
@@ -689,43 +689,43 @@ novcatu	12		2
 novorođenčetu	165		3
 noćištu			2
 nultu	361		2
-obdaništu	482		3
-obilatu	184		2
-objektu	7887		2
+obdaništu	482		4
+obilatu	184		3
+objektu	7887		3
 obratu			3
-obračunatu	37		2
-obrnutu			2
-obrtu	183		2
+obračunatu	37		3
+obrnutu			3
+obrtu	183		3
 obuhvatu	149		2
 obuzetu			2
 odelitu			2
 odgurnutu			2
 odignutu			2
 odlagalištu	64		2
-odmaralištu	605		3
+odmaralištu	605		4
 odmorištu	61		2
 odojčetu	110		2
 odrastu	864		2
-odredištu	322		3
+odredištu	322		4
 oduzetu	71		2
-odškrinutu			2
+odškrinutu			3
 odštetu	2485		3
 ognjištu	422		2
 okatu			2
-okrenutu	90		2
+okrenutu	90		3
 okretu	81		3
 okultistu			2
 ometu	135		2
-omletu	10		2
-omotu	404		2
-opatu	10		2
+omletu	10		3
+omotu	404		3
+opatu	10		3
 operetu	54		2
 opitu	70		2
 oplatu	129		3
 opletu	61		2
-oponentu	36		2
-oprostu	65		2
-opsjednutu			3
+oponentu	36		3
+oprostu	65		3
+opsjednutu			4
 oputu	13		2
 opštu	4992		2
 orbitu	2501		2
@@ -734,17 +734,17 @@ ornatu	12		2
 osamdesetu	37		2
 osamnaestu	31		2
 osetu			2
-osobitu	171		3
+osobitu	171		4
 osvetu	1232		3
-osvitu	48		2
-osvrtu	377		2
+osvitu	48		3
+osvrtu	377		3
 otegnutu			2
 otetu	24		2
 otplatu	1972		2
-otpustu	180		2
+otpustu	180		3
 otrgnutu			2
-očitu	68		2
-pacijentu	2442		2
+očitu	68		3
+pacijentu	2442		3
 paketu	4971		2
 paktu	1280		2
 palatu	1287		2
@@ -755,32 +755,32 @@ pansionatu			2
 parazitu	50		2
 paritetu	245		2
 parketu	1999		2
-parkiralištu	180		3
-parlamentu	19898		2
-parčetu	390		2
+parkiralištu	180		4
+parlamentu	19898		3
+parčetu	390		3
 pasištu			2
 paspartu			2
 pastu	1135		2
-patentu	169		2
-patriotu	228		2
+patentu	169		3
+patriotu	228		3
 patuljastu	29		2
-pačetu	31		2
+pačetu	31		3
 paštašutu			2
 paštetu	236		2
 pedesetu	101		2
 penastu	35		2
-perastu	96		2
-perfektu	25		2
+perastu	96		3
+perfektu	25		3
 pergamentu	207		2
-pernatu	47		2
+pernatu	47		3
 pervertitu			2
 petnaestu	58		2
 petu	2716		2
 pećtu			2
-pečatu	469		2
+pečatu	469		3
 peštu			2
-pigmentu	20		2
-pijanistu	88		2
+pigmentu	20		3
+pijanistu	88		3
 pijemontu			2
 pijetetu			2
 pilatu			2
@@ -806,20 +806,20 @@ planetu	3758		2
 plastu	117		2
 platinastu	24		2
 platu	19191		2
-plavičastu	39		3
+plavičastu	39		4
 plavkastu	15		2
 plaštu	85		2
 plebiscitu	32		2
 plejlistu			2
-plemenitu	421		2
+plemenitu	421		3
 pletu	413		2
-plivalištu	75		3
+plivalištu	75		4
 pljosnatu			2
 plotu	39		2
 plutu	43		2
 poantu	21		2
-podignutu	118		3
-podmetnutu			3
+podignutu	118		4
+podmetnutu			4
 podmetu			2
 podnetu	56		2
 podtekstu	90		2
@@ -830,27 +830,27 @@ poetu	17		2
 pognutu	18		2
 pohotu	77		3
 pojatu	40		2
-pokrenutu	32		2
+pokrenutu	32		3
 pokretu	7156		3
 polazištu	50		2
-poletu	165		2
+poletu	165		3
 poliglotu			2
 poljančetu			2
-polubratu	23		2
+polubratu	23		3
 polugodištu	720		2
 poluloptu	46		2
 polušapatu			2
 pomenutu	59		2
-pometu	23		2
-pomfritu	23		2
+pometu	23		3
+pomfritu	23		3
 ponarastu			2
-ponositu	15		3
+ponositu	15		4
 poodrastu	24		2
 popartu			2
 poprištu	171		3
-popustu	608		2
+popustu	608		3
 porastu	5501		3
-poravnatu			2
+poravnatu			3
 porodilištu	1260		2
 porotu	87		3
 portretu	245		2
@@ -858,7 +858,7 @@ portu	950		2
 posetu	9977		3
 poslatu			2
 postamentu			2
-postignutu	19		3
+postignutu	19		4
 postu	3483		2
 postulatu	65		2
 posutu	56		2
@@ -868,22 +868,22 @@ potisnutu			2
 potrebitu			2
 povratu	108		2
 poznatu	2915		3
-pozorištu	9039		3
+pozorištu	9039		4
 početu			2
 poštu	3974		2
 praktikantu			2
 prasetu	65		3
 pravcatu	68		2
 prebivalištu	600		2
-predatu	19		2
+predatu	19		3
 predikatu	10		2
-predmetu	7373		2
+predmetu	7373		3
 prednacrtu	68		2
 preduzetu	20		2
-prefektu	36		2
-prekinutu	23		3
+prefektu	36		3
+prekinutu	23		4
 prenoćištu	37		2
-preokrenutu			2
+preokrenutu			3
 preokretu	371		4
 preplatu	92		2
 prepletu	20		2
@@ -894,51 +894,51 @@ pretplatu	2878		3
 preuzetu	209		2
 prevarantu			2
 prevratu	155		3
-prevrnutu			2
-prezentu	84		2
+prevrnutu			3
+prezentu	84		3
 prečistu	131		2
 pribežištu	17		2
-prihvatilištu	573		3
-prihvatu	68		2
+prihvatilištu	573		4
+prihvatu	68		3
 primatu	90		2
 prioritetu	376		2
 pripratu	214		2
 priprostu			3
 prirastu	32		2
 pristaništu	442		2
-pritisnutu	15		3
-priznatu	87		2
+pritisnutu	15		4
+priznatu	87		3
 probisvetu	12		2
-procentu	2972		2
+procentu	2972		3
 procvatu	223		2
-prodatu	18		2
+prodatu	18		3
 producentu	138		2
 profitu	728		2
 projektantu	96		2
 projektu	23827		2
 prokletu	251		3
-prometu	3861		2
-proniknutu			3
+prometu	3861		3
+proniknutu			4
 propalitetu			2
 propustu	272		2
-proročištu	26		3
-prospektu	244		2
+proročištu	26		4
+prospektu	244		3
 prosperitetu	523		2
-prostatu	176		2
+prostatu	176		3
 prostotu	132		2
 prostrtu			2
 prostu	750		2
 prosvetu	1641		2
-protestu	2202		2
+protestu	2202		3
 prozaistu			2
 prožetu	47		2
-prsatu			2
+prsatu			3
 prstenastu	16		2
 prstu	693		2
 prugastu	34		2
 prutu	31		2
-pršutu	218		2
-psihopatu	78		2
+pršutu	218		3
+psihopatu	78		3
 pubertetu	889		2
 publicistu	40		2
 publicitetu	78		2
@@ -946,15 +946,15 @@ pultu	359		2
 punktu			2
 pustu	196		2
 putu	47649		2
-rabotu	534		2
+rabotu	534		3
 radetu			2
 radilištu	34		2
 raketu	930		2
-raportu	53		2
-rasistu	17		2
+raportu	53		3
+rasistu	17		3
 raspetu			2
-raspletu	238		2
-raspustu	434		2
+raspletu	238		3
+raspustu	434		3
 rastresitu	28		2
 rastrgnutu			2
 rastu	13097		2
@@ -965,16 +965,16 @@ ratu	27188		2
 razapetu	13		2
 razastrtu			2
 razbojištu	34		2
-razboritu	26		3
+razboritu	26		4
 razgranatu	215		2
-različitu	1124		3
+različitu	1124		4
 razvratu	80		2
-realistu	14		2
+realistu	14		3
 realitetu	36		2
-receptu	1616		2
+receptu	1616		3
 redengotu			2
 referatu	238		2
-reformistu	11		2
+reformistu	11		3
 regatu	250		2
 regentu	46		2
 regimentu	17		2
@@ -986,9 +986,9 @@ remontu	425		2
 rentu	492		2
 rezervatu	575		2
 rezervistu	29		2
-rezultantu	60		2
+rezultantu	60		3
 rezultatu	2858		2
-rečitu	16		2
+rečitu	16		3
 rešatu			2
 rešetu	10		2
 ristu			2
@@ -1000,7 +1000,7 @@ rogatu	18		2
 rogljastu			2
 rovitu	18		2
 ročištu	952		2
-rožnatu			2
+rožnatu			3
 rudištu	23		3
 rukometu	1589		4
 ruletu	151		2
@@ -1008,53 +1008,53 @@ rutu	546		2
 ružičastu	257		4
 saborištu			2
 sabratu	31		2
-sadistu	21		2
+sadistu	21		3
 safetu			2
 saftu			2
 sagnutu			2
 sajmištu	510		3
 sajtu	42122		2
-sakatu	11		2
+sakatu	11		3
 sakramentu	69		2
-saksofonistu	22		2
+saksofonistu	22		3
 salatu	2114		2
 salvetu	173		2
-samitu	2934		2
+samitu	2934		3
 samizdatu			2
 sandučetu	222		2
 sandžakatu			2
 sanitetu	120		2
 sanskritu	141		2
-sanskrtu	38		2
-sapletu	53		2
+sanskrtu	38		3
+sapletu	53		3
 satelitu	428		2
 satu	2912		2
 savetovalištu	656		2
-savetu	8707		2
+savetu	8707		3
 sažetu	120		3
 scenaristu	92		2
 sedištu	4617		3
-segmentu	7360		2
+segmentu	7360		3
 sekretarijatu	2007		2
 sektu	280		2
 selištu	40		2
 semeništu	21		2
 senatu	808		2
-senovitu			2
-seocetu	152		2
+senovitu			3
+seocetu	152		3
 separatu	13		2
 setu	6435		2
 siestu	10		2
-silovitu	36		2
+silovitu	36		3
 siluetu	329		2
 sindikatu	2113		2
 sirotistu			2
-sirotištu	141		3
-sirotu	139		2
-siročetu	28		2
-sirćetu	51		2
+sirotištu	141		4
+sirotu	139		3
+siročetu	28		3
+sirćetu	51		3
 situ	349		2
-skeletu	68		2
+skeletu	68		3
 skerletu			2
 skijalištu	712		2
 skinutu	15		3
@@ -1062,18 +1062,18 @@ skladištu	1144		3
 skloništu	263		3
 skotu	45		2
 skriptu	418		2
-skrovitu			2
+skrovitu			3
 skrovištu	88		3
 skutu	26		2
 slatkastu	19		2
 slikovitu	73		2
 slobodištu			2
-slojevitu	64		2
+slojevitu	64		3
 smetlištu	142		3
 smetu	13		2
 smeđastu			2
 smrznutu	108		2
-snajperistu	23		2
+snajperistu	23		3
 socijalistu	65		2
 sociopatu			2
 sokačetu	93		2
@@ -1087,7 +1087,7 @@ spartu			2
 specijalistu	290		2
 spletu	260		2
 splitu			2
-spomenutu	10		2
+spomenutu	10		3
 sportistu	643		2
 sportu	10296		2
 spotu	1414		2
@@ -1097,47 +1097,47 @@ spremištu	38		2
 sprintu	655		2
 sramotu	1794		2
 srastu	29		2
-srditu			2
+srditu			3
 središtu	3798		3
 sretu			2
 srkutu			2
 stajalištu	339		4
 staništu	370		3
-stanovištu	922		3
+stanovištu	922		4
 startu	10821		2
 stasitu			2
-statistu	15		2
+statistu	15		3
 statuetu	140		2
 statutu	2136		2
 stažistu			2
-stegnutu			2
+stegnutu			3
 stenovitu	29		2
 stepeništu	550		4
-stilistu	57		2
+stilistu	57		3
 stisnutu			3
 stotu	240		2
-stovarištu	125		3
+stovarištu	125		4
 strahotu	107		2
-strahovitu	232		2
+strahovitu	232		3
 stratištu	204		2
 strelištu	1190		2
 striptizetu	33		2
 strmenitu			2
 stubištu	18		3
-studentu	1659		2
+studentu	1659		3
 stvrdnutu			2
 subjektu	751		2
-subotu	27594		2
+subotu	27594		3
 sudištu	92		2
 suficitu	202		2
-sujetu	721		2
+sujetu	721		3
 sumanutu	75		3
 sumporastu			2
-suncokretu	181		3
+suncokretu	181		4
 sunovratu	193		4
 supermarketu			2
 supstratu	124		2
-susretu	6286		2
+susretu	6286		3
 suštu			2
 suživotu	252		4
 svatu	37		2
@@ -1154,10 +1154,10 @@ svratištu	230		3
 svrgnutu			3
 tabletu	1011		2
 taftu			2
-taksistu	241		2
+taksistu	241		3
 taktu	713		2
-talasastu	93		2
-talentu	651		2
+talasastu	93		3
+talentu	651		3
 tapetu	539		2
 tastu	119		2
 tatu	1159		2
@@ -1166,12 +1166,12 @@ tegotu			2
 tehnokratu	12		2
 tekstu	26488		2
 telepatu			2
-teletu	104		2
-temeljitu	61		2
-temperamentu	343		2
-terapeutu	81		2
-teretu	474		2
-teroristu	147		2
+teletu	104		3
+temeljitu	61		3
+temperamentu	343		3
+terapeutu	81		3
+teretu	474		3
+teroristu	147		3
 testamentu			2
 testu	4916		2
 tetu	124		2
@@ -1187,18 +1187,18 @@ tortu	2511		2
 tostu	30		2
 totalitetu	89		2
 trabantu			2
-trajektu	52		2
+trajektu	52		3
 traktatu	70		2
 traktu	499		2
 transkriptu	73		2
-transportu	1747		2
+transportu	1747		3
 tranzitu	554		2
 trepetu	25		3
-trgovištu	446		3
+trgovištu	446		4
 tridesetu	128		2
 trinaestu	127		2
 trkalištu	45		2
-trnovitu	11		3
+trnovitu	11		4
 trockistu			2
 trouglastu	35		2
 trstu			2
@@ -1206,11 +1206,11 @@ trustu	29		2
 tržištu	77330		3
 tu	383316		1
 turbetu	25		2
-turistu	211		2
+turistu	211		3
 tutu			2
-ubojitu	22		3
+ubojitu	22		4
 ubuntu			2
-udatu	39		2
+udatu	39		3
 uglastu			2
 ukletu	38		2
 umiljatu	26		2
@@ -1218,41 +1218,41 @@ unetu	29		2
 unijatu			2
 unikatu			2
 univerzitetu	17151		2
-unučetu	19		3
-upitu	141		2
+unučetu	19		4
+upitu	141		3
 uplatu	2876		2
 upletu	74		2
-uporištu	113		3
+uporištu	113		4
 uprtu			2
-urotu	38		2
+urotu	38		3
 utegnutu			2
 utisnutu			2
-utočištu	114		3
-uvetu	124		2
+utočištu	114		4
+uvetu	124		3
 uvrnutu			2
 uzdignutu	12		2
 uzetu	91		3
 uzgajalištu	17		2
-uzletištu			3
+uzletištu			4
 uzletu	102		2
 uzrastu	5978		3
-učilištu	31		3
+učilištu	31		4
 užasnutu			2
 užetu	158		3
 vajatu			2
 valjkastu			2
-valovitu	24		2
+valovitu	24		3
 valutu	2720		2
-varijantu	4616		2
+varijantu	4616		3
 vatrištu			2
 vatrometu	107		4
 vatu	227		2
-vašarištu	145		3
+vašarištu	145		4
 vebsajtu	455		2
 velelepotu			2
 vermontu			2
 vezistu	203		2
-večitu	375		2
+večitu	375		3
 veštu	88		2
 vežbalištu	28		2
 vijalištu			2
@@ -1269,22 +1269,22 @@ vlastu			2
 voltu	16		2
 vratu	2929		2
 vrckastu			2
-vremenitu			2
+vremenitu			3
 vresištu			2
 vrstu	26813		2
 vrtu	2840		2
-zabavištu	133		3
+zabavištu	133		4
 zabezeknutu			2
-zabrinutu	21		3
+zabrinutu	21		4
 zabušantu			2
-zadatu	23		2
+zadatu	23		3
 zahvatu	403		2
 zaištu	13		2
-zakinutu			3
-zakonitu	163		3
-zaletu	112		2
+zakinutu			4
+zakonitu	163		4
+zaletu	112		3
 zamorčetu			2
-zamrznutu			3
+zamrznutu			4
 zanatu	592		2
 zaodenutu			2
 zaokretu	174		2
@@ -1295,11 +1295,11 @@ zarastu	90		2
 zastrtu			2
 zategnutu			2
 zauzetu	12		2
-zavetu	957		2
+zavetu	957		3
 zavojištu	26		2
 začetu	11		2
 zaštitu	64458		3
-zelenkastu	70		2
+zelenkastu	70		3
 zemljištu	5140		3
 zenitu	407		2
 zetu	426		2
@@ -1309,20 +1309,20 @@ zgusnutu			3
 zimovištu			2
 zlatastu	27		2
 zlatnožutu	69		2
-zlatoustu	59		2
+zlatoustu	59		3
 zlatu	1120		2
-zločestu	10		2
+zločestu	10		3
 zmajevitu			2
-znamenitu	90		2
+znamenitu	90		3
 zvoncetu			2
-ćaletu	131		2
+ćaletu	131		3
 ćebetu	66		3
 ćemanetu			2
 ćivotu	53		2
 ćuftu			2
 čekinjastu			2
-čeljadetu	18		2
-čestitu	84		2
+čeljadetu	18		3
+čestitu	84		3
 čestotu			2
 čestu	359		2
 četrdesetu	65		2
@@ -1337,7 +1337,7 @@ zvoncetu			2
 čitalištu	51		2
 čobančetu			2
 čokotu	134		3
-čudnovatu	87		2
+čudnovatu	87		3
 čudovištu	108		2
 čvorištu	63		2
 čvrstu	2297		2
@@ -1349,7 +1349,7 @@ zvoncetu			2
 šapatu	22		3
 šefćetu			2
 šegrtu			2
-šerijatu	73		2
+šerijatu	73		3
 šesnaestu	32		2
 šestu	1059		2
 šetalištu	622		2
@@ -1359,43 +1359,43 @@ zvoncetu			2
 šiltu			2
 škrgutu			3
 škrtu	10		2
-špekulantu			2
+špekulantu			3
 šporetu			2
 štafetu	382		2
-štenetu	80		2
+štenetu	80		3
 štetu	25378		2
 štitastu	47		3
 štitu	283		2
 štraftu			2
 štutgartu			2
 šumnatu			2
-šumovitu	17		2
+šumovitu	17		3
 šutu	495		2
 žarištu	64		3
 ždrebetu	12		3
 žitištu			2
 žitu	401		2
 živinčetu			2
-životu	73319		2
+životu	73319		3
 žuljevitu			2
-žumancetu	58		2
+žumancetu	58		3
 žutu	1882		2
 žućkastu	95		3
 cvijetu	52		3
 cvjetu			2
-djetetu	508		2
-korjenitu			2
+djetetu	508		3
+korjenitu			3
 ljepotu			2
 ljetu			2
 lječilištu			2
 mijestu			2
 mjestu			2
-nevjestu			2
+nevjestu			3
 posjetu			3
 rasvjetu			2
-savjetu			2
+savjetu			3
 sjedištu			3
 svijetu	9919		3
 svjetu			2
 tijestu			3
-zavjetu			2
+zavjetu			3

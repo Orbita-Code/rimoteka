@@ -7,8 +7,8 @@ amniocentezu	70		2
 analizu	16048		2
 anamnezu	183		2
 anastomozu	15		2
-antitezu	90		2
-aplauzu	55		3
+antitezu	90		3
+aplauzu	55		4
 apoteozu	63		2
 askezu	35		2
 avazu	97		2
@@ -67,11 +67,11 @@ hipostazu			2
 hipotezu	665		2
 idrizu			2
 iskazu	862		2
-izgrizu	16		2
+izgrizu	16		3
 izlazu	2364		3
 izrazu	1736		3
 izvezu	355		2
-izvozu	3960		2
+izvozu	3960		3
 jazu	237		2
 jezu	323		2
 jozu			2
@@ -79,19 +79,19 @@ kalauzu			2
 kamenorezu			2
 kamikazu			2
 katarzu	361		2
-kavezu	1064		2
+kavezu	1064		3
 kavkazu			2
 kinezu	74		2
 knezu	1892		2
 knjazu			2
-kolhozu	17		2
+kolhozu	17		3
 kolovozu	1157		4
 kontroverzu	123		2
 korzu	40		2
 kozu	481		2
 krizu	12189		2
 kruzu			2
-kukuruzu	777		2
+kukuruzu	777		3
 kvizu	864		2
 laktozu	373		2
 lazu		M	2
@@ -106,7 +106,7 @@ marseljezu			2
 matrozu			2
 meduzu	43		2
 melezu			2
-menopauzu	291		2
+menopauzu	291		3
 menzu	166		2
 metamorfozu	150		2
 metastazu	50		2
@@ -117,8 +117,8 @@ monogenezu			2
 mononukleozu	72		2
 moreuzu			2
 mrazu	323		2
-nakazu	124		2
-nalazu	834		2
+nakazu	124		3
+nalazu	834		3
 namazu	100		2
 narkozu	26		2
 nekrozu	56		2
@@ -127,8 +127,8 @@ neurozu	62		2
 nizu	14280		2
 oazu	794		2
 obavezu	19615		4
-obrazu	777		2
-odgrizu	19		2
+obrazu	777		3
+odgrizu	19		3
 odrazu	156		3
 odvezu	222		2
 omrazu			2
@@ -136,46 +136,46 @@ oprezu	700		3
 orozu			2
 osteoporozu	287		2
 otkazu	543		3
-paradajzu	197		2
+paradajzu	197		3
 paralizu	445		2
-pauzu	4217		2
+pauzu	4217		3
 pegazu			2
-pekmezu	64		2
+pekmezu	64		3
 peloponezu			2
 plazu			2
 poblizu		M	2
 podbazu			2
 polzu			2
 porazu	1368		3
-porezu	2094		2
+porezu	2094		3
 potezu	3524		3
-povezu	387		2
+povezu	387		3
 pozu	622		2
 preblizu		M	2
 prebrzu	40		2
-prelazu	4149		2
+prelazu	4149		3
 premazu	55		2
 prevezu	379		2
-prevozu	3185		2
-prikazu	1421		2
-prilazu	435		2
+prevozu	3185		3
+prikazu	1421		3
+prilazu	435		3
 princezu	794		2
 prognozu	2535		2
-progrizu	16		2
-prolazu	2317		2
+progrizu	16		3
+prolazu	2317		3
 protezu	397		2
 prozu	1025		2
 psihoanalizu	154		2
 psihozu	101		2
 psorijazu	162		2
-razlazu	110		2
-razrezu			2
+razlazu	110		3
+razrezu			3
 remizu			2
 reprizu	639		2
 rezu	156		2
 rizu			2
 rozu			2
-savezu	5960		2
+savezu	5960		3
 simbiozu	231		2
 sintezu	1517		2
 sirakuzu			2
@@ -193,16 +193,16 @@ topuzu			2
 torzu	15		2
 trapezu	118		2
 trombozu	14		2
-trpezu	1326		2
+trpezu	1326		3
 tuberkulozu	403		2
 tuluzu			2
-ugrizu	58		2
+ugrizu	58		3
 ugursuzu			2
 ukazu	126		2
-ulazu	6661		2
+ulazu	6661		3
 uljezu	19		2
 uvezu	377		2
-uvozu	1729		2
+uvozu	1729		3
 vaduzu			2
 vazu	207		2
 vezu	24467		2
@@ -211,8 +211,8 @@ viskozu	14		2
 vitezu	183		3
 vizu	2170		2
 vozu	1258		2
-zagrizu	71		2
-zalazu	146		2
+zagrizu	71		3
+zalazu	146		3
 zarazu	297		3
 zarezu	57		2
 zlatovezu	13		2
@@ -223,5 +223,5 @@ zlatovezu	13		2
 čimpanzu			2
 šimpanzu			2
 špajzu			2
-prijelazu	74		3
-prijevozu	18		3
+prijelazu	74		4
+prijevozu	18		4

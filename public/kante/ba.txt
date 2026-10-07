@@ -1,6 +1,6 @@
 288
 Kuba	60		2
-Zagreba	353		2
+Zagreba	353		3
 aba			2
 aerokluba	139		2
 ameba	147		2
@@ -10,14 +10,14 @@ baraba	244		2
 barba	148		2
 beba	20661		2
 berba	1701		2
-bezuba	23		2
+bezuba	23		3
 boba	602		2
 bogoljuba			2
 bomba	3300		2
 borba	24346		2
 buba	1139		2
 bubašvaba	184		2
-danguba	104		2
+danguba	104		3
 deoba	579		2
 diba			2
 dioba	50		2
@@ -28,7 +28,7 @@ dražba	19		2
 droba	11		2
 družba	178		2
 dvogrba			2
-dvoguba			2
+dvoguba			3
 dvojba	17		2
 dvorba			2
 džaba		M	2
@@ -54,16 +54,16 @@ gruba	1236		2
 guba	122		2
 gvozdenzuba			2
 hasiba			2
-hauba			2
+hauba			3
 himba			2
 hleba	10517		2
-hranidba			2
+hranidba			3
 isproba	634		2
 izba	51		2
-izložba	22061		2
+izložba	22061		3
 izobrazba			4
 izriba	14		2
-izvedba	460		2
+izvedba	460		3
 izvežba	14		2
 išiba	12		3
 jagababa			2
@@ -82,16 +82,16 @@ kjuba			2
 kluba	54289		2
 koleba	303		2
 koleraba			2
-koliba	760		2
+koliba	760		3
 kolumba			2
-komidba		M	2
-konoba	93		2
+komidba		M	3
+konoba	93		3
 koraba	10		2
 kordoba			2
-kosidba	173		2
+kosidba	173		3
 kraba	130		2
-krezuba	51		2
-krunidba			2
+krezuba	51		3
+krunidba			3
 laba			2
 leba			2
 limba	60		2
@@ -102,7 +102,7 @@ magreba			2
 mamba	122		2
 manitoba			2
 marimba			2
-mekteba	61		2
+mekteba	61		3
 mikroba			2
 miloljuba			2
 miroljuba			2
@@ -110,12 +110,12 @@ moba	335		2
 molba	1577		2
 mučibaba			2
 nadžakbaba			2
-nagiba	781		2
-nagodba	327		2
+nagiba	781		3
+nagodba	327		3
 naobrazba	10		4
-naredaba	64		3
-naredba	1556		2
-narudžba	85		2
+naredaba	64		4
+naredba	1556		3
+narudžba	85		3
 nastamba	11		2
 nazeba	146		2
 nba			1
@@ -125,14 +125,14 @@ nepotreba			2
 nesrba	245		2
 neupotreba			2
 oba	19		2
-obljuba	89		2
-odredaba	3312		3
-odredba	5136		2
+obljuba	89		3
+odredaba	3312		4
+odredba	5136		3
 ofarba	150		2
 oproba	533		2
 opskrba	41		2
-optužaba	14		3
-optužba	1289		2
+optužaba	14		4
+optužba	1289		3
 osoba	78516		3
 oštrozuba			2
 paba	126		2
@@ -140,49 +140,49 @@ paljba	452		2
 paluba	166		3
 pandžaba			2
 pečalba		M	2
-plenidba	87		2
+plenidba	87		3
 plomba	148		2
-plovidba	831		2
+plovidba	831		3
 podoba		M	2
 pogiba	18		2
 pogodaba	10		2
-pogodba	186		2
-pogreba	206		2
-pohaba	30		2
+pogodba	186		3
+pogreba	206		3
+pohaba	30		3
 pokoleba	214		2
-poredba			2
+poredba			3
 posrba			2
 potreba	35910		3
 pozoba			2
-prababa	181		2
+prababa	181		3
 praizvedba	79		2
 praprababa			2
-predodžba	24		2
+predodžba	24		3
 predsoba			2
 prefarba	39		2
-pregiba	78		2
-pregruba	27		2
-preljuba	400		2
+pregiba	78		3
+pregruba	27		3
+preljuba	400		3
 preslaba	141		2
-pretvorba			2
+pretvorba			3
 prigiba			2
-primedaba	478		3
-primedba	2528		2
-priredaba	34		3
-priredba	890		2
-pritužba	372		2
+primedaba	478		4
+primedba	2528		3
+priredaba	34		4
+priredba	890		3
+pritužba	372		3
 proba	4861		2
-prosidba	98		2
+prosidba	98		3
 protivtužba	56		2
-provedba	48		2
+provedba	48		3
 provežba			2
 prošiba			2
 puba			2
 raba			2
 radoljuba			2
 ramba			2
-razdeoba		M	3
-rezidba	222		2
+razdeoba		M	4
+rezidba	222		3
 riba	11120		2
 roba	15222		2
 rodoljuba	573		4
@@ -193,7 +193,7 @@ rumba	162		2
 sabljozuba			2
 sagiba			2
 samba	339		2
-selidba	509		2
+selidba	509		3
 seoba	1168		2
 skladba	10		2
 skočibuba	91		2
@@ -212,14 +212,14 @@ srdžba	120		2
 strizibuba			2
 stuba	3972		2
 sudba		M	2
-sukoba	18429		2
+sukoba	18429		3
 svadba	1465		2
 svedodžba	19		2
 sviba			2
 svilobuba		M	2
 svraba	510		2
 taba	222		2
-taraba	221		2
+taraba	221		3
 tegoba	3143		2
 teskoba	259		2
 tetreba	42		3
@@ -230,35 +230,35 @@ truba	1003		2
 trudba		M	2
 tuba	349		2
 tumba	152		2
-tužaba			2
+tužaba			3
 tužba	3056		2
 tužibaba		M	2
 tvorba	54		2
-udadba		M	2
+udadba		M	3
 udba	442		2
 ugiba	100		2
 uknjižba	104		2
-uljudba	10		2
+uljudba	10		3
 uporedba			2
 upotreba	15385		4
 uredaba	105		2
-uredba	3210		2
+uredba	3210		3
 usporedba	122		4
 ustreba	197		2
 utroba	322		3
-uvežba	102		2
+uvežba	102		3
 uvreba			2
 uštrba	11		2
 užurba			2
 veba	268		2
-veridba	168		2
+veridba	168		3
 veroljuba			2
-vezidba			2
+vezidba			3
 vežba	4625		2
-visibaba	73		3
+visibaba	73		4
 vrba	572		2
 vreba	991		2
-vršidba	42		2
+vršidba	42		3
 zabeležba	89		2
 zagreba	353		2
 zariba	24		2
@@ -276,19 +276,19 @@ zumba			2
 čukunbaba		M	2
 šiba	297		2
 škrba			2
-šrauba			2
+šrauba			3
 štaba	7504		2
 šuba		M	2
 švaba	263		2
 žaba	1623		2
 žalba	3280		2
-ženidaba			3
-ženidba	522		2
+ženidaba			4
+ženidba	522		3
 žleba	74		2
 žreba	1087		2
 žurba	374		2
 hljeba		J	2
-primjedaba			3
-primjedba			2
-vjeridba			2
+primjedaba			4
+primjedba			3
+vjeridba			3
 vježba			2

@@ -1,6 +1,6 @@
 126
 Brisel			2
-Izrael			2
+Izrael			3
 ajfel			2
 akvarel	281		2
 anđel			2
@@ -8,7 +8,7 @@ apel	3645		2
 aranđel		M	2
 arhangel	152		2
 arhanđel	69		2
-arijel			2
+arijel			3
 aristotel			2
 askurđel			2
 barel	930		2
@@ -19,7 +19,7 @@ bordel		M	2
 bušel			2
 cel			1
 daniel			2
-danijel			2
+danijel			3
 decibel	31		2
 del		M	1
 dembel		M	2
@@ -36,7 +36,7 @@ flanel	20		2
 fogel			2
 fotomodel	60		2
 gabriel			2
-gabrijel			2
+gabrijel			3
 gel	1939		1
 gospel	128		2
 havel			2
@@ -79,9 +79,9 @@ michael			2
 michel			2
 migel			2
 miguel			2
-mihael			2
+mihael			3
 mikael			2
-mobitel	279		2
+mobitel	279		3
 mobtel			2
 model	54814		2
 motel	724		2
@@ -122,9 +122,9 @@ vrangel			2
 čengel		M	2
 šanel			2
 šinjel		M	2
-španijel	65		2
+španijel	65		3
 špinel			2
 šrapnel	25		2
 bijel			1
 cijel			1
-kastijel			2
+kastijel			3

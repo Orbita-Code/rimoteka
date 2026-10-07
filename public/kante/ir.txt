@@ -6,7 +6,7 @@ arhipastir	96		2
 bir		M	1
 blagomir			3
 bogomir			3
-branimir			2
+branimir			3
 bratimir			2
 brigadir	132		2
 budimir			3
@@ -46,7 +46,7 @@ juvelir		M	2
 kadir			2
 kasir			2
 kavalir	31		2
-kazimir			2
+kazimir			3
 kašmir	50		2
 kefir	300		2
 kir			1
@@ -55,7 +55,7 @@ klistir	43		2
 komandir	1357		2
 kondir			2
 kosir		M	2
-krešimir			2
+krešimir			3
 krompir	5488		2
 krstomir			3
 kumir	15		2
@@ -160,8 +160,8 @@ vidomir			3
 vir	1359		1
 vitomir			3
 vizir	131		2
-vladimir			2
-vlastimir			2
+vladimir			3
+vlastimir			3
 vodir			2
 vojimir			2
 vukmir			2
@@ -178,7 +178,7 @@ zlatomir			3
 zvekir		M	2
 zvonimir			3
 čair			2
-čedomir			2
+čedomir			3
 čir	583		1
 đevđir		M	2
 đumbir	661		2

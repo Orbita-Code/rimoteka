@@ -14,7 +14,7 @@ direk		M	2
 dovek			2
 doček	3876		2
 drnovšek			2
-dugovek			2
+dugovek			3
 dulek			2
 dušek	1105		2
 dvopek	96		2
@@ -37,7 +37,7 @@ kek			1
 klek			1
 kodek			2
 kolosek	1045		3
-kratkovek		M	2
+kratkovek		M	3
 kukurek	53		2
 kvebek			2
 kvoterbek	218		2
@@ -50,28 +50,28 @@ majdanpek			2
 marek			2
 maček			2
 mek	789		1
-nadčovek	60		2
+nadčovek	60		3
 napretek	265		2
 navek			2
 nedalek			2
 nek	15885		1
-nečovek		M	2
+nečovek		M	3
 odjek	1619		2
 odsek	4045		2
-oduvek	14058		2
+oduvek	14058		3
 opek			2
 osek			2
 ovek			2
-pamtivek	19		2
+pamtivek	19		3
 pek			1
 pendrek	241		2
 podalek			2
 podstrek	2354		2
-podčovek			2
+podčovek			3
 polumek			2
 polučovek			2
 poček	287		2
-pračovek	41		2
+pračovek	41		3
 predalek			2
 prek	183		1
 presek	2396		2
@@ -95,10 +95,10 @@ usek	84		2
 uvek	278223		2
 vavek			2
 vek	19039		1
-zanavek		M	2
+zanavek		M	3
 zasek	15		2
 zatopek			2
-zauvek	11914		2
+zauvek	11914		3
 zevzek		M	2
 zvek	26		1
 ćutek			2
@@ -118,7 +118,7 @@ kolosijek	21		4
 lijek	724		1
 ljek			1
 odsjek			2
-oduvijek	808		3
+oduvijek	808		4
 oduvjek			3
 osijek	326		3
 ovjek			2
@@ -130,8 +130,8 @@ uvijek	17522		3
 uvjek			2
 vijek	1036		1
 vjek			1
-zanavijek			3
-zauvijek	837		3
+zanavijek			4
+zauvijek	837		4
 zauvjek			3
 ćovjek			2
 čovijek			3

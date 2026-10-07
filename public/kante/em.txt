@@ -1,17 +1,17 @@
 4744
-Božićem			2
-Helsinkijem			3
+Božićem			3
+Helsinkijem			4
 Irakem			2
-Izraelem			3
+Izraelem			4
 Leskovcem			2
-Napuljem			2
+Napuljem			3
 Pakistanem			2
 Paragvajem			4
 Požarevcem			4
-Tunisem			2
+Tunisem			3
 Urugvajem			4
 Vitlejem			2
-afirmišem			2
+afirmišem			3
 afrikancem			2
 ajetovićem			2
 akcionarem			2
@@ -37,18 +37,18 @@ antićem			2
 anđelićem			4
 aparatićem			2
 apelovanjem			2
-apelujem	1982		3
+apelujem	1982		4
 apotekarem			2
 apsorbujem			2
-apstraktnijem			3
+apstraktnijem			4
 aranđelovcem			2
 arlaučem	20		2
 arsenijem			2
 arsićem			2
-astrofizičarem			3
-autohtonijem			3
+astrofizičarem			4
+autohtonijem			4
 autolimarem			2
-autoputem	1045		4
+autoputem	1045		5
 babićem			2
 bacanjem	560		2
 bacačem	52		2
@@ -94,12 +94,12 @@ belovićem			2
 berem	137		2
 berićem			2
 beskrajem	44		3
-besmrtnijem			3
+besmrtnijem			4
 bespućem	20		2
-bezakonjem	60		2
-bezazlenijem			3
+bezakonjem	60		3
+bezazlenijem			4
 bezbožjem	12		2
-bezbrižnijem			3
+bezbrižnijem			4
 bezbrojem			2
 beznađem	86		2
 bezumljem	55		2
@@ -115,7 +115,7 @@ biljem	780		2
 biranjem	271		2
 biračem	16		2
 birmingem			2
-birtašem			2
+birtašem			3
 biserjem	29		2
 bitisanjem	22		2
 bivšem	3603		2
@@ -147,7 +147,7 @@ bodrenjem	44		2
 boem	248		2
 bogaljem	10		3
 bogatašem	41		2
-bogatijem	98		3
+bogatijem	98		4
 bogaćenjem	122		2
 bogićem			2
 bogohuljenjem			2
@@ -164,13 +164,13 @@ bojovićem			2
 boksujem	42		2
 boljem	5289		2
 bolnijem			3
-bolničarem			3
+bolničarem			4
 bolovanjem	25		4
 bolujem	270		2
 bombardovanjem	964		2
 bombardujem	15		2
-bombašem			2
-boravištem	124		3
+bombašem			3
+boravištem	124		4
 borcem	431		2
 borenjem			2
 borivojem			2
@@ -184,8 +184,8 @@ božijem	806		3
 božjem	1443		2
 božovićem			2
 brajovićem			2
-braniocem	117		3
-braniteljem	20		3
+braniocem	117		4
+braniteljem	20		4
 brankovićem			2
 branovićem			2
 bratićem			3
@@ -219,7 +219,7 @@ bubnjanjem			2
 bubnjarem	90		2
 bubnjem	51		2
 budem	25269		2
-budnijem			2
+budnijem			3
 budućem	5071		2
 bugarčićem			2
 bujanjem	54		2
@@ -230,7 +230,7 @@ bunićem			2
 busanjem	37		2
 busenjem	19		2
 bućnem	16		2
-buđenjem	228		2
+buđenjem	228		3
 bušenjem	193		2
 carem	1285		2
 carevićem			2
@@ -247,7 +247,7 @@ cijukanjem			2
 cilikanjem			2
 ciljem	25402		2
 cimnem	34		2
-cinkarošem			2
+cinkarošem			3
 citiranjem	111		2
 cmiljanićem			2
 cmizdrenjem			2
@@ -260,10 +260,10 @@ crnčićem			2
 crpem	13		2
 crtanjem	324		2
 crtačem	32		2
-crvenijem	14		3
+crvenijem	14		4
 cugnem			2
 cukićem			2
-cunamijem	195		2
+cunamijem	195		3
 curenjem	150		2
 cvejićem			2
 cvetajućem			2
@@ -282,7 +282,7 @@ dakićem			2
 daklem	294		2
 daljem	10370		2
 daljnjem	248		2
-današnjem	7853		2
+današnjem	7853		3
 danem			2
 daničićem			2
 danjem	13		2
@@ -294,7 +294,7 @@ darodavcem			2
 darovanjem	18		2
 darujem	90		2
 davanjem	2062		2
-davaocem	82		3
+davaocem	82		4
 davinićem			2
 daviteljem			2
 davljenjem	61		2
@@ -305,12 +305,12 @@ debljem			2
 dedeićem			2
 dedejićem			2
 dedićem			2
-definišem	303		2
-dejstvujem			2
-dekorišem			2
+definišem	303		3
+dejstvujem			3
+dekorišem			3
 delanjem	184		2
 deliteljem			2
-delićem	82		2
+delićem	82		3
 deljenjem	595		2
 delovanjem	3632		4
 delujem	300		3
@@ -319,14 +319,14 @@ demantujem	297		2
 derem	142		2
 deretićem			2
 derištem			3
-dervišem			2
+dervišem			3
 desetarem			2
 desetercem	19		2
-desetogodišnjem	238		2
+desetogodišnjem	238		3
 detaljem			2
 detaljnijem	50		4
 detektujem	21		2
-detinjem	28		2
+detinjem	28		3
 dezinfikujem	14		2
 dečijem			2
 dečjem	1780		2
@@ -363,7 +363,7 @@ dižem	532		2
 dobacujem	27		2
 dobavljačem	121		2
 dobijanjem	1113		2
-dobijem	6434		2
+dobijem	6434		3
 dobovanjem			2
 dobošarem			2
 dobrivojem			2
@@ -392,13 +392,13 @@ dolivanjem			2
 domaćem	10803		2
 domišljanjem			2
 domognem	48		2
-donesem	1050		2
+donesem	1050		3
 donjem	6278		2
 donosiocem			2
 donošenjem	2995		2
 dopadanjem	14		2
-dopadnem	40		2
-dopirem			2
+dopadnem	40		3
+dopirem			3
 dopisujem	176		2
 dopišem	42		2
 doprem	60		2
@@ -408,17 +408,17 @@ dopunjujem	50		2
 dopuštenjem	94		2
 dorađujem	19		2
 dorićem			2
-doručkujem	153		3
-dosadašnjem	3597		2
+doručkujem	153		4
+dosadašnjem	3597		3
 dosađujem	103		2
 dosegnem	39		2
 dospem	47		2
 dostavljanjem	353		2
 dostavljačem	13		2
-dostignem	140		2
+dostignem	140		3
 dostignućem	132		2
 dostizanjem	122		2
-dostižem			2
+dostižem			3
 dotadašnjem	210		2
 dotaknem	264		2
 doterujem	32		2
@@ -430,7 +430,7 @@ dovijanjem			2
 dovođenjem	804		2
 dovršenjem	15		2
 dovučem	73		2
-dozovem	72		2
+dozovem	72		3
 dočekanjem			2
 dočekujem	99		2
 dođem	5896		2
@@ -452,7 +452,7 @@ drljanjem			2
 drljevićem			2
 drmnem	22		2
 drogiranjem	27		2
-drugačijem	1723		2
+drugačijem	1723		3
 drukčijem	97		2
 drulićem			2
 drulovićem			2
@@ -477,7 +477,7 @@ duvanjem	88		2
 dućićem			2
 dučićem			2
 dužem	2253		2
-dvobojem			2
+dvobojem			3
 dvorcem	105		2
 dvorenjem			2
 dvorištem	606		2
@@ -526,7 +526,7 @@ flertovanjem	18		2
 flertujem	42		3
 fonem	12		2
 formiranjem	2270		2
-formulišem			2
+formulišem			3
 fotografisanjem	149		2
 fotografišem	274		2
 frazem			2
@@ -540,9 +540,9 @@ gakovićem			2
 galićem			2
 ganićem			2
 ganućem			2
-garantujem	2006		3
+garantujem	2006		4
 garavljenjem			2
-gardašem			2
+gardašem			3
 gatanjem	33		2
 gavrićem			2
 gazdovanjem	55		2
@@ -555,7 +555,7 @@ genijem	132		3
 gerilcem			2
 gibanjem	12		2
 ginem	53		2
-gladnijem			2
+gladnijem			3
 gladovanjem	121		2
 gladujem	46		2
 glasanjem	2010		2
@@ -576,7 +576,7 @@ gmizavcem			3
 gnječenjem	29		2
 gnojem	52		2
 gnušanjem	235		2
-godišnjem	9094		2
+godišnjem	9094		3
 gojkovićem			2
 golem	343		2
 golicanjem	21		2
@@ -593,11 +593,11 @@ gospodnjem			2
 gostovanjem	303		2
 gostujem	92		2
 gostujućem	444		2
-goveđem	32		2
+goveđem	32		3
 govorenjem	34		2
 gošćenjem			2
 grabljenjem			2
-graditeljem	20		3
+graditeljem	20		4
 gradićem	77		2
 gradištem			2
 gradskijem			2
@@ -637,7 +637,7 @@ gubavcem			2
 gubljenjem	321		2
 gucnem			2
 gukanjem	14		2
-gulašem			2
+gulašem			3
 gunjcem			2
 gunjem			2
 gunjićem			2
@@ -660,10 +660,10 @@ harem	319		2
 harlem			2
 herojem	309		2
 hicem	434		2
-hipnotišem			2
+hipnotišem			3
 hitanjem			2
 hitnem			2
-hladnijem	106		2
+hladnijem	106		3
 hlađenjem	658		2
 hobijem	247		3
 hodanjem	249		2
@@ -672,7 +672,7 @@ hodočašćem	16		4
 homićem			3
 homoseksualcem	32		2
 hramljem			2
-hraniteljem	18		3
+hraniteljem	18		4
 hranjenjem	112		2
 hristićem			2
 hrkanjem	47		2
@@ -685,32 +685,32 @@ huljenjem			2
 humanijem	61		4
 huškanjem	26		2
 hvalisanjem	29		2
-hvališem	10		2
+hvališem	10		3
 hvatanjem	172		2
 idem	17280		2
-identifikujem	133		4
+identifikujem	133		5
 idućem	223		2
 ignorisanjem	276		2
-ignorišem	279		2
-igralištem	157		3
+ignorišem	279		3
+igralištem	157		4
 igranjem	613		3
 igračem	1884		2
 ilićem			2
 ilustrujem	196		2
 imadem			2
 imanjem	360		2
-imaocem	13		3
+imaocem	13		4
 imenovanjem	467		2
 imenujem	356		4
 imitiranjem	53		2
-improvizujem	49		3
+improvizujem	49		4
 indijancem	13		2
 informisanjem	401		2
-informišem	414		2
+informišem	414		3
 inicijalizujem			2
 injem	51		2
 inoviranjem	45		2
-inspirišem			2
+inspirišem			3
 interesovanjem	974		2
 interesujem	213		2
 intervenišem			2
@@ -720,11 +720,11 @@ inđićem			2
 ircem			2
 isceljenjem	25		2
 iscrpem			2
-iscrpljujem			2
+iscrpljujem			3
 iseljavanjem	113		2
 iseljenjem	61		2
-isečem	157		2
-ishodištem	24		3
+isečem	157		3
+ishodištem	24		4
 iskakanjem	41		2
 iskaljujem			2
 iskanjem			2
@@ -737,7 +737,7 @@ isključivanjem	340		2
 isključujem	572		2
 iskontrolišem	35		2
 iskopavanjem	117		2
-iskradem			2
+iskradem			3
 iskupljenjem	33		2
 iskupljujem			2
 iskusnijem	58		4
@@ -745,14 +745,14 @@ iskušenjem	170		2
 ismejem	35		2
 ismevanjem	36		2
 ispadanjem	99		2
-ispadnem	338		2
+ispadnem	338		3
 ispaljivanjem	69		2
 ispaljujem	25		2
 isparenjem			2
-isperem	55		2
-ispečem	52		2
+isperem	55		3
+ispečem	52		3
 ispijanjem	146		2
-ispijem	31		2
+ispijem	31		3
 ispiranjem	270		2
 ispisujem	91		2
 ispitivanjem	1159		2
@@ -760,12 +760,12 @@ ispitujem	123		2
 ispišem	147		2
 isplaćujem	45		2
 isplačem	60		2
-ispletem	12		2
+ispletem	12		3
 ispljunem	25		2
 ispoljavanjem	125		2
 isporučujem	17		2
 ispoštujem	190		2
-ispredem			2
+ispredem			3
 ispunjavanjem	462		2
 ispunjenjem	324		2
 ispupčenjem	25		2
@@ -775,11 +775,11 @@ istegnem	16		2
 isterujem	25		2
 istežem	22		2
 isticanjem	580		2
-istisnem	20		2
-ističem	977		2
+istisnem	20		3
+ističem	977		3
 istoričarem	77		2
 istrajem	159		2
-istražiteljem	11		3
+istražiteljem	11		4
 istraživanjem	3320		2
 istražujem	448		2
 istrebljenjem	102		2
@@ -793,10 +793,10 @@ ivanićem			2
 ivanovićem			2
 ivićem			2
 ivkovićem			2
-izaberem	835		2
+izaberem	835		3
 izabiranjem			2
 izazivanjem	226		2
-izazovem	142		2
+izazovem	142		3
 izađem	2488		2
 izbacivanjem	549		2
 izbacivačem			2
@@ -806,10 +806,10 @@ izbegavanjem	394		2
 izbegnem	647		2
 izbeljivačem	15		2
 izbijanjem	255		2
-izbijem	45		2
+izbijem	45		3
 izbičujem			2
 izbodem			2
-izbrišem	214		2
+izbrišem	214		3
 izdahnem	17		2
 izdajem	259		2
 izdanjem	716		2
@@ -819,7 +819,7 @@ izdejstvujem	33		2
 izderem	18		2
 izdignem	32		2
 izdisanjem	12		2
-izdišem	11		2
+izdišem	11		3
 izdvajanjem	557		2
 izgaranjem	29		2
 izgladnjivanjem	49		2
@@ -852,27 +852,27 @@ iznađem	14		2
 iznemognem			2
 iznenađenjem	218		2
 iznenađujem	36		2
-iznenađujućem	32		3
+iznenađujućem	32		4
 iznesem	1473		2
 iznošenjem	524		2
 iznuđivanjem	31		2
 izobiljem	73		4
-izolujem	48		3
+izolujem	48		4
 izopštenjem			2
-izostajem	20		2
-izostanem			2
+izostajem	20		3
+izostanem			3
 izrastanjem	15		2
 izrađujem	78		2
 izražajem	26		2
 izražavanjem	223		2
 izrecitujem			2
-izreknem	85		2
-izrečem	13		2
-izrežem			2
+izreknem	85		3
+izrečem	13		3
+izrežem			3
 izricanjem	147		2
 izričem	134		2
 izručenjem	127		2
-izujem	41		2
+izujem	41		3
 izumiranjem	110		2
 izumrem			2
 izuzećem	25		2
@@ -908,11 +908,11 @@ iščekivanjem	137		2
 iščekujem	212		2
 iščeznem			2
 iščeznućem	11		2
-jadikujem	17		3
+jadikujem	17		4
 jadnijem	16		3
 jadovanjem			2
 jagićem			2
-jagošem			2
+jagošem			3
 jahanjem	85		3
 jahačem	37		2
 jajem			2
@@ -920,7 +920,7 @@ jakišićem			2
 jakšićem			2
 janjićem			2
 jankovićem			2
-janošem			2
+janošem			3
 japancem	39		2
 jarcem	89		2
 jasnijem	52		3
@@ -976,10 +976,10 @@ jurjevićem			2
 jurnem	14		2
 jutarnjem	1051		3
 jutrošnjem	105		3
-jučerašnjem	1376		2
+jučerašnjem	1376		3
 južnijem	12		2
 kafićem	47		2
-kaišem			2
+kaišem			3
 kajanjem	90		2
 kajem	777		2
 kajevićem			2
@@ -990,7 +990,7 @@ kalinićem			2
 kamenjem	1833		2
 kamenovanjem	67		2
 kampujem	14		2
-kanališem	25		2
+kanališem	25		3
 kanarincem	14		2
 kandidujem	169		2
 kanlićem			2
@@ -1002,11 +1002,11 @@ karićem			2
 kartanjem			2
 kasagićem			2
 kasnijem	1364		3
-katancem	137		2
+katancem	137		3
 katićem			2
-kaubojem	12		3
+kaubojem	12		4
 kaučem	29		3
-kazalištem	20		3
+kazalištem	20		4
 kazivanjem	95		2
 kazićem			2
 kazujem	101		2
@@ -1024,7 +1024,7 @@ kidanjem	43		2
 kidnapovanjem	27		2
 kidnapujem			2
 kijanjem	123		2
-kikirikijem	118		2
+kikirikijem	118		3
 kićenjem	29		2
 kičem	69		2
 kladencem			2
@@ -1078,7 +1078,7 @@ koljem			2
 kolonićem			2
 kolutanjem			2
 komadanjem	39		2
-komadićem	68		2
+komadićem	68		3
 komandujem	41		2
 komarcem	11		2
 kombijem	394		3
@@ -1087,29 +1087,29 @@ kombinujem	236		2
 komentarišem	2776		2
 komešanjem	10		2
 kompenzujem	17		2
-komplikujem	65		3
+komplikujem	65		4
 komponujem	66		2
-kompromitujem	18		3
-konačištem	18		3
+kompromitujem	18		4
+konačištem	18		4
 koncem	864		2
-koncentrišem	197		2
+koncentrišem	197		3
 konfiskujem			2
 konjem	441		2
 konjicem			3
 konjićem			2
-konkretnijem	25		3
-konkurišem	212		2
+konkretnijem	25		4
+konkurišem	212		3
 konobarišem			2
-konopcem	217		2
+konopcem	217		3
 konstatujem	1143		2
 konstruisanjem	68		2
-konstruišem	31		2
+konstruišem	31		3
 konsultujem	187		2
 kontićem			2
 kontrastiranjem			2
 kontrolisanjem	121		2
-kontrolišem	511		2
-konvojem	34		2
+kontrolišem	511		3
+konvojem	34		3
 konzervisanjem			2
 kopanjem	250		2
 kopačem			2
@@ -1142,12 +1142,12 @@ košarkašem	119		2
 košem	894		2
 košutićem			2
 kradem	323		2
-kradljivcem	18		2
+kradljivcem	18		3
 krajačićem			2
 krajem	51506		2
 krajnjem	4002		2
 kraljem	1363		2
-kraljevićem			3
+kraljevićem			4
 krapovićem			2
 krasićem			2
 krastavcem	58		3
@@ -1174,7 +1174,7 @@ krijem	885		2
 krijumčarenjem	149		2
 kriminalcem	174		2
 kritikujem	978		2
-kritičarem	46		3
+kritičarem	46		4
 krivcem	197		2
 krivošićem			2
 krnjevićem			2
@@ -1184,24 +1184,24 @@ krojenjem	18		2
 krokijem			2
 krstarenjem	40		2
 krstašem	14		2
-krstićem	26		2
+krstićem	26		3
 krstovićem			2
 krunisanjem	43		2
 krunićem			2
-krunišem	18		2
-krupnijem	28		2
+krunišem	18		3
+krupnijem	28		3
 kruševcem			2
 kruženjem	57		2
-kružićem			2
+kružićem			3
 krvarenjem	216		2
 krvavijem	13		4
-krvoprolićem	71		2
+krvoprolićem	71		3
 krčanjem	11		2
 krčenjem	64		2
 kršem	34		2
 kršenjem	825		2
 krštavanjem			2
-krštenjem	407		2
+krštenjem	407		3
 kucanjem	174		2
 kucnem	152		2
 kuglanjem	20		2
@@ -1227,7 +1227,7 @@ laboratorijem			3
 laganjem	96		2
 lajanjem	55		2
 lajem	119		2
-lajošem			2
+lajošem			3
 lakrdijanjem			2
 lakšem	277		2
 lalićem			2
@@ -1242,8 +1242,8 @@ lazarevićem			2
 lazićem			2
 lašićem			2
 lažem	1192		2
-lažljivcem	10		2
-lažljivijem			3
+lažljivcem	10		3
+lažljivijem			4
 lebovićem			2
 legitimišem	18		2
 legnem	616		2
@@ -1272,9 +1272,9 @@ lihvarenjem			2
 likovanjem	25		2
 likujem	64		2
 lilićem			2
-lisičjem	24		2
+lisičjem	24		3
 listanjem	67		2
-listićem	61		2
+listićem	61		3
 litijem			3
 lizanjem	75		2
 liznem	26		2
@@ -1290,7 +1290,7 @@ ljotićevcem			2
 ljubećem			2
 ljubimcem	386		2
 ljubinčićem			2
-ljubiteljem	34		3
+ljubiteljem	34		4
 ljubičićem			2
 ljubljenjem	83		2
 ljuljnem			2
@@ -1313,7 +1313,7 @@ ludujem	38		2
 lukavijem			4
 lukićem			2
 lukovićem			2
-luksuznijem	17		3
+luksuznijem	17		4
 lupanjem	165		2
 lupkanjem	37		2
 lupnem			2
@@ -1323,9 +1323,9 @@ lučem			2
 lučenjem	278		2
 lučićem			2
 macem			2
-madracem			2
+madracem			3
 mafijašem	33		2
-magarcem	81		2
+magarcem	81		3
 magnovenjem			2
 mahanjem	141		2
 mahnem	55		2
@@ -1346,7 +1346,7 @@ manjem	2874		2
 marincem			2
 marićem			2
 maričićem			2
-marjašem			2
+marjašem			3
 markovićem			2
 marovićem			2
 martićem			2
@@ -1365,7 +1365,7 @@ mačem	2082		2
 mačevanjem	20		4
 mačjem	20		2
 mačujem			3
-mađioničarem	19		3
+mađioničarem	19		4
 mašem	237		2
 mašićem			2
 maškovićem			2
@@ -1374,7 +1374,7 @@ mažem	338		2
 maženjem	72		2
 medijem	185		3
 medićem			2
-medvedićem	11		3
+medvedićem	11		4
 mehaničarem			2
 meksikancem			2
 mekšem	25		2
@@ -1388,7 +1388,7 @@ meračem	54		2
 merenjem	1011		2
 mesečarem			4
 mesićem			2
-metanišem			2
+metanišem			3
 metanjem			2
 metem	17		2
 metenjem			2
@@ -1409,21 +1409,21 @@ miljkovićem			2
 milojem			2
 milosrđem	176		4
 milovanjem	56		2
-milošem			2
+milošem			3
 milujem	151		3
 mimoiđem			2
 miniranjem	70		2
 minićem			2
 minobacačem	13		2
 miralem			2
-mirašem			2
+mirašem			3
 mirenjem	32		2
 mirišem	153		2
 mirkovićem			2
-mirnijem	126		2
+mirnijem	126		3
 mirujem	74		2
 mislećem	37		2
-misliocem	42		3
+misliocem	42		4
 mitićem			2
 mitrovićem			2
 mićićem			2
@@ -1432,7 +1432,7 @@ mišem	1335		2
 mišićem	50		2
 mišljenjem		M	2
 mišnićem			2
-mladencem	46		2
+mladencem	46		3
 mladićem	282		2
 mladuncem			2
 mlatnem			2
@@ -1443,7 +1443,7 @@ mlinarićem			2
 mnenjem	63		2
 mnjenjem			2
 množenjem	154		2
-mobilišem			2
+mobilišem			3
 mobilnijem			4
 modem	3069		2
 modernijem	97		4
@@ -1465,7 +1465,7 @@ morem	1842		2
 morfijem			2
 mornarem			2
 motanjem	13		2
-motivišem			2
+motivišem			3
 moćnijem	38		3
 mramorjem			2
 mravljem			2
@@ -1475,8 +1475,8 @@ mrkonjićem			2
 mrkšićem			2
 mrmorenjem			2
 mrsnijem			2
-mrtvacem	44		2
-mrtvijem	76		2
+mrtvacem	44		3
+mrtvijem	76		3
 mrzećem			2
 mrziteljem			2
 mrznem			2
@@ -1495,17 +1495,17 @@ muzičarem	123		2
 mućenjem			2
 mučem			2
 mučenjem	205		2
-mučiteljem	26		3
+mučiteljem	26		4
 mučnijem			3
 muškarcem	1422		2
 mužem	1631		2
 nabacujem	30		2
 nabavljanjem	31		2
-naberem	27		2
+naberem	27		3
 nabijanjem	43		2
-nabijem	191		2
+nabijem	191		3
 nabodem	40		2
-nabojem	280		2
+nabojem	280		3
 nabrajanjem	161		2
 nadahnućem	155		2
 nadanjem	20		2
@@ -1513,7 +1513,7 @@ nadevanjem			2
 nadgledanjem	71		2
 nadimanjem	33		2
 nadiranjem	41		2
-nadišem	21		2
+nadišem	21		3
 nadmetanjem	236		2
 nadmećem	36		2
 nadničarem			4
@@ -1526,7 +1526,7 @@ nadujem			2
 nadvikujem			2
 nadzirem			2
 nagađanjem	33		2
-naginjem	104		2
+naginjem	104		3
 naglašavanjem	147		2
 naglašenijem			2
 nagnem	38		2
@@ -1540,50 +1540,50 @@ naimenujem			2
 naiđem	342		2
 najagresivnijem			6
 najaktivnijem			5
-najakustičnijem			4
+najakustičnijem			5
 najakutnijem			5
 najambicioznijem			7
 najapsolutnijem			6
-najapstraktnijem			4
+najapstraktnijem			5
 najavljujem	157		2
 najbahatijem			5
 najbanalnijem			4
-najbezazlenijem			4
+najbezazlenijem			5
 najbitnijem	60		4
 najbleštavijem			5
 najblistavijem			5
 najbližem	533		3
-najbogatijem	71		4
+najbogatijem	71		5
 najboljem	9389		3
 najbržem	221		3
 najcrnjem	56		3
-najdebljem			2
+najdebljem			3
 najdivljijem			2
-najdramatičnijem	15		4
+najdramatičnijem	15		5
 najdražem	63		3
-najdubljem	206		2
+najdubljem	206		3
 najdužem	151		3
-najedem	61		2
+najedem	61		3
 najglupljem	16		3
 najgorem	1817		3
 najgradskijem			3
-najhladnijem	51		3
+najhladnijem	51		4
 najjačem	490		3
-najkraćem	3575		2
+najkraćem	3575		3
 najlepšem	797		3
 najličnijem			4
 najljepšem	61	J	3
 najljućem	19		3
 najlošijem	84		4
-najmanjem	361		2
+najmanjem	361		3
 najmilijem	14		4
 najmlađem	293		3
 najmoćnijem	85		4
-najmračnijem	37		3
+najmračnijem	37		4
 najmučnijem			4
 najnižem	531		3
 najnovijem	2231		4
-najobičnijem	108		4
+najobičnijem	108		5
 najopasnijem			2
 najotmenijem			5
 najpoznatijem	388		5
@@ -1597,26 +1597,26 @@ najsigurnijem	29		5
 najskorijem	259		2
 najskupljem	117		3
 najslađem	13		3
-najsmešnijem			3
+najsmešnijem			4
 najsposobnijem			5
 najstarijem	661		4
 najstrožem	114		3
 najsvetijem	38		4
 najtešnjem			2
-najtežem	415		2
+najtežem	415		3
 najtvrđem	11		3
 najudaljenijem	63		5
 najužem	831		3
-najvažnijem	567		3
-najvećem	7797		2
+najvažnijem	567		4
+najvećem	7797		3
 največem			2
-najvišem	3546		2
+najvišem	3546		3
 najznačajnijem	317		5
 najčešćem	65		3
 najčistijem			2
-najčudnovatijem			4
-najširem	1324		2
-najžešćem	21		2
+najčudnovatijem			5
+najširem	1324		3
+najžešćem	21		3
 najživljem			3
 nakanjujem			2
 nakupujem	21		2
@@ -1625,37 +1625,37 @@ nalažem	35		2
 nalaženjem	147		2
 nalećem	46		2
 nalijem	19		2
-nalikujem			3
+nalikujem			4
 naličjem	41		2
 namaknem	15		2
-namažem	113		2
+namažem	113		3
 namenjujem	13		2
 nametanjem	446		2
-nametnem	133		2
+nametnem	133		3
 namećem	176		2
 nameštajem	1228		4
 nameštanjem	130		2
 namigivanjem	23		2
 namignem	17		2
 namigujem	11		2
-namirišem	43		2
-namičem			2
+namirišem	43		3
+namičem			3
 nanesem	134		2
 nanižem			2
 nanošenjem	380		2
 naoružanjem	656		2
 napadanjem	31		2
 napadačem	339		2
-napadnem	104		2
+napadnem	104		3
 napajanjem	1232		2
-napijem	178		2
+napijem	178		3
 napišem	5617		2
 naplaćujem	112		2
 napomenem	3554		2
-napominjem	2398		2
-naprednijem	59		3
-napredovanjem	504		4
-napredujem	535		3
+napominjem	2398		3
+naprednijem	59		4
+napredovanjem	504		5
+napredujem	535		4
 napregnem	14		2
 naprezanjem	70		2
 naprežem	49		2
@@ -1665,7 +1665,7 @@ narastanjem	31		2
 narastem			2
 naravoučenijem	22		2
 naraštajem	33		4
-narečjem	71		2
+narečjem	71		3
 naređenjem	145		2
 naređujem	182		2
 narežem	142		2
@@ -1703,7 +1703,7 @@ navedem	1213		2
 navijanjem	254		2
 navijem	24		2
 navikavanjem			2
-naviknem	340		2
+naviknem	340		3
 naviranjem			2
 navlačenjem	33		2
 navodnjavanjem	201		2
@@ -1712,17 +1712,17 @@ navučem	159		2
 nazirem	97		2
 nazivanjem	21		2
 naznačenjem	56		2
-nazovem	1288		2
+nazovem	1288		3
 nazrem	20		2
 načnem	21		2
-načujem	12		2
+načujem	12		3
 nađem	7125		2
 našem	58596		2
 nebićem			2
 nedavanjem	16		2
 nedelanjem			2
 nedićem			2
-nedostajem	85		2
+nedostajem	85		3
 negativcem	26		2
 negdašnjem	55		2
 negiranjem	144		2
@@ -1743,22 +1743,22 @@ neobrađivanjem			2
 neodobravanjem	75		2
 neosećanjem			2
 neplaćanjem	137		2
-nepostojanjem	179		3
-nepostojećem	137		3
+nepostojanjem	179		4
+nepostojećem	137		4
 nepoverenjem	299		2
 nepoznavanjem	121		2
 nepoštenjem	10		2
 nepoštovanjem	264		2
-neprijateljem	1202		4
+neprijateljem	1202		5
 nepriznavanjem	65		2
 nerađanjem			2
 neslaganjem	72		2
 nespavanjem	35		2
 nestajanjem	149		2
-nestajem	83		2
-nestanem	134		2
+nestajem	83		3
+nestanem	134		3
 nesticanjem			2
-nestrpljenjem	2397		2
+nestrpljenjem	2397		3
 netrpljenjem			2
 neutrališem	17		2
 nevaljalcem			2
@@ -1768,7 +1768,7 @@ neznancem	50		2
 neznanjem	539		2
 nečem	1974		2
 nečinjenjem	447		2
-nečistijem			3
+nečistijem			4
 nešićem			2
 nešovićem			2
 neživljenjem			2
@@ -1781,12 +1781,12 @@ nišavićem			2
 nižem	1343		2
 njakanjem			2
 njačem			2
-njegošem			2
+njegošem			3
 njegujem			3
 njem			1
 njišem	13		2
 njuškanjem	18		2
-nobelovcem	39		3
+nobelovcem	39		4
 nojem	12		2
 nominujem	11		2
 normiranjem	28		2
@@ -1797,12 +1797,12 @@ nosiocem			2
 novcem	9480		2
 novijem	222		3
 novinarem			2
-novčićem	52		2
-noćašnjem	31		2
+novčićem	52		3
+noćašnjem	31		3
 noćenjem	51		2
 nošenjem	422		2
 nožem	3548		2
-nožićem	73		2
+nožićem	73		3
 nuncijem			2
 nuđenjem	105		2
 nušićem			2
@@ -1811,10 +1811,10 @@ obasjanjem			2
 obavezujem	88		2
 obaveštenjem	440		2
 obavežem	21		2
-obavijem			3
+obavijem			4
 obavljanjem	560		2
 obazirem	156		2
-obedujem			3
+obedujem			4
 obeležjem	227		4
 obelježjem			4
 oberem			2
@@ -1824,7 +1824,7 @@ obezbeđujem	39		2
 obećanjem	568		2
 obećavanjem	27		2
 obijanjem	34		2
-obijem	10		2
+obijem	10		3
 obilaženjem	32		2
 obiležjem			4
 obilićem			2
@@ -1840,7 +1840,7 @@ objašnjavanjem	122		2
 objašnjenjem	868		2
 oblačenjem	132		2
 oblećem			2
-oblikujem	86		3
+oblikujem	86		4
 obličjem	31		2
 obližnjem	1468		2
 obmanem			2
@@ -1852,32 +1852,32 @@ obogaćivanjem	72		2
 obolenjem	16		2
 oboljenjem			2
 obožavanjem	76		2
-obožavaocem	16		3
-obradujem	427		3
-obrascem	173		2
+obožavaocem	16		4
+obradujem	427		4
+obrascem	173		3
 obrazloženjem	2062		2
 obrazovanjem	3198		2
-obrazujem	85		3
+obrazujem	85		4
 obraćanjem	411		2
 obraćenjem	17		2
 obrađivanjem	45		2
 obrađujem	167		2
 obrenovićem			2
 obrijem	62		2
-obrišem	412		2
+obrišem	412		3
 obrnem	109		2
 obrtanjem	57		2
 obručem	74		3
 obrušavanjem	33		2
 obuhvatnijem	12		2
-obujem	106		2
+obujem	106		3
 obućem			2
 obučavanjem	73		2
 obučem	786		2
 ocem			2
 ocenjivanjem	168		2
 ocenjujem	311		2
-odaberem	413		2
+odaberem	413		3
 odabiranjem	58		2
 odabirem			2
 odahnem	53		2
@@ -1885,30 +1885,30 @@ odajem	247		2
 odapinjem			2
 odapnem	13		2
 odavanjem	123		2
-odazovem	63		2
+odazovem	63		3
 odašiljanjem	18		2
 odašiljačem	29		2
 odašiljem			2
 odbacivanjem	323		2
 odbacujem	189		2
 odbijanjem	767		2
-odbijem	332		2
+odbijem	332		3
 odbrojavanjem	33		2
 odelenjem	20		2
 odeljenjem	644		2
 odem	9970		1
-odenem	10		2
+odenem	10		3
 oderem	41		2
 odevanjem	53		2
 odgajanjem	35		2
 odgonetnem	104		2
-odgovarajućem	1400		3
+odgovarajućem	1400		4
 odgovaranjem	80		2
-odgrizem			2
+odgrizem			3
 odgurnem	34		2
 odićem			2
 odjavljujem	68		2
-odjašem			2
+odjašem			3
 odjekujem			2
 odlaganjem	598		2
 odlazećem	62		2
@@ -1916,11 +1916,11 @@ odlažem	130		2
 odlaženjem	11		2
 odlepljujem			2
 odlijem			2
-odlikujem	22		3
+odlikujem	22		4
 odličjem	188		2
 odlučnijem			4
 odlučujem	558		2
-odlučujućem	571		3
+odlučujućem	571		4
 odmahnem	24		2
 odmahujem	38		2
 odmaknem	59		2
@@ -1929,7 +1929,7 @@ odmažem	10		2
 odmetanjem			2
 odmetnem	13		2
 odmicanjem	31		2
-odmognem	15		2
+odmognem	15		3
 odmotavanjem			2
 odmrznem			2
 odnegujem			2
@@ -1941,22 +1941,22 @@ odrastanjem	202		2
 odrastem	138		2
 odrađujem	39		2
 odreagujem	96		2
-odredištem	39		3
-odreknem	399		2
+odredištem	39		4
+odreknem	399		3
 odrezivanjem			2
-odrečem	14		2
+odrečem	14		3
 određenjem	134		2
 određivanjem	511		2
 određujem	206		2
-odrežem			2
+odrežem			3
 odricanjem	373		2
 odričem	396		2
 održajem			2
 održanjem	75		2
-održavanjem	2243		3
+održavanjem	2243		4
 odsecanjem	123		2
 odsednem	16		2
-odsečem	66		2
+odsečem	66		3
 odstojanjem	20		2
 odstupanjem	158		2
 odsustvujem	21		2
@@ -1965,8 +1965,8 @@ odumiranjem	49		2
 odupirem	24		2
 oduprem	92		2
 odustajanjem	353		2
-odustajem	643		2
-odustanem			2
+odustajem	643		3
+odustanem			3
 oduzimanjem	743		2
 oduzmem	202		2
 oduševljenjem	1718		2
@@ -1988,7 +1988,7 @@ odvučem	27		2
 odzvanjanjem			2
 ogledanjem			2
 ognjem	871		2
-ognjenijem			3
+ognjenijem			4
 ognjištem	123		2
 ogorčenjem	155		2
 ogorčujem			2
@@ -1996,7 +1996,7 @@ ogovaranjem	47		2
 ograničenjem	322		2
 ograđujem	167		2
 ogrebem	38		2
-ogrejem	19		2
+ogrejem	19		3
 ogrnem	18		2
 ogrtačem	120		2
 ohrabrenjem	28		2
@@ -2009,7 +2009,7 @@ okićem			2
 oklevanjem	43		2
 okliznem	28		2
 okolišanjem			2
-okolišem			2
+okolišem			3
 okončanjem	219		2
 okrenem	1188		2
 okretanjem	487		2
@@ -2030,11 +2030,11 @@ omanem	23		2
 omanjem	48		3
 ometanjem	70		2
 ometem			2
-omirišem	24		2
+omirišem	24		3
 omladincem			2
 omogućavanjem	204		2
 omotačem	149		2
-ondašnjem	250		2
+ondašnjem	250		3
 opadajućem	72		2
 opadanjem	273		2
 opaljujem			2
@@ -2044,13 +2044,13 @@ opasujem			2
 opažajućem			2
 opažanjem	61		2
 operativcem	22		2
-operem	364		2
-operišem	115		2
+operem	364		3
+operišem	115		3
 opevanjem			2
-opečem	13		2
+opečem	13		3
 ophođenjem	67		2
 opijanjem	30		2
-opijem	16		2
+opijem	16		3
 opiranjem	10		2
 opirem	49		2
 opisivanjem	86		2
@@ -2058,16 +2058,16 @@ opisujem	338		2
 opišem	1259		2
 opkoljavanjem	14		2
 oplakujem	44		2
-oplačem			2
+oplačem			3
 opljunem			2
 opomenem	131		2
 opominjanjem	14		2
-opominjem	174		2
+opominjem	174		3
 opominjućem			2
 oponašanjem	51		2
 oporečem			2
-opovrgnem	42		2
-opozovem			2
+opovrgnem	42		3
+opozovem			3
 opravdanjem	244		2
 opraštanjem	53		2
 opremanjem	310		2
@@ -2076,7 +2076,7 @@ oproštenjem	94		2
 opružanjem			2
 opslužujem	10		2
 opstajem	24		2
-opstanem			2
+opstanem			3
 opsujem	74		2
 opterećenjem	1257		2
 opterećujem	397		2
@@ -2094,7 +2094,7 @@ orem	41		2
 orezivanjem	80		2
 orezujem			2
 organizovanjem	1705		2
-organizujem	588		3
+organizujem	588		4
 orijentišem			2
 orlićem			2
 ormarićem	12		2
@@ -2111,7 +2111,7 @@ osiromašujem			2
 oslanjanjem	262		2
 oslobađanjem	533		2
 oslobođenjem	241		2
-osloncem	369		2
+osloncem	369		3
 osluškujem	195		2
 osluškujućem			2
 oslušnem	54		2
@@ -2128,8 +2128,8 @@ osobljem	1083		2
 osojem			2
 osporavanjem	118		2
 osrednjem	46		3
-ostajem	1868		2
-ostanem			2
+ostajem	1868		3
+ostanem			3
 ostaviocem	23		2
 ostavljanjem	169		2
 ostoićem			2
@@ -2162,24 +2162,24 @@ otkazivanjem	117		2
 otkazujem	22		2
 otkačinjem			2
 otkažem	88		2
-otkinem	45		2
+otkinem	45		3
 otkivanjem			2
 otklanjanjem	205		2
-otkrijem	817		2
+otkrijem	817		3
 otkrivanjem	781		2
 otkrićem	677		2
 otkucajem	23		2
 otkupljujem	19		2
 otmem	428		2
 otmenijem			4
-otmičarem	14		3
+otmičarem	14		4
 otpadanjem	20		2
-otpadnem			2
+otpadnem			3
 otpakujem	30		2
 otpišem	34		2
 otplaćujem	122		2
-otplešem			2
-otpočinem			2
+otplešem			3
+otpočinem			3
 otpočnem	50		2
 otputujem	213		2
 otpuštanjem	391		2
@@ -2190,7 +2190,7 @@ otuđenjem	72		2
 otuđivanjem	12		2
 otvaranjem	3874		2
 otvaračem	18		2
-ovdašnjem	639		2
+ovdašnjem	639		3
 overavanjem	20		2
 ovijem	172		2
 ovlašćenjem	262		2
@@ -2206,7 +2206,7 @@ očajem	82		3
 očekivanjem	210		2
 očekujem	15397		2
 očitavanjem	135		2
-očitujem			3
+očitujem			4
 očišćenjem	29		2
 očuvanjem	773		2
 očvrsnem			2
@@ -2224,7 +2224,7 @@ pakujem	246		3
 palcem	436		2
 paljenjem	753		2
 pametnijem	27		4
-pametnjakovićem			3
+pametnjakovićem			4
 pametujem	169		2
 pamćenjem	449		3
 pandurem			2
@@ -2232,7 +2232,7 @@ panićem			2
 panovićem			2
 pantelićem			2
 pantićem			2
-papagajem	41		2
+papagajem	41		3
 paperjem	30		2
 papovićem			2
 parenjem	86		2
@@ -2251,7 +2251,7 @@ pavićem			2
 pavkovićem			2
 pavlovićem			2
 pašićem			2
-pažljivijem	31		3
+pažljivijem	31		4
 pecanjem	69		2
 peckanjem	58		2
 pecnem	17		2
@@ -2285,7 +2285,7 @@ pijančenjem			2
 pijem	3886		2
 pikiranjem			2
 piletićem			2
-pilećem	52		2
+pilećem	52		3
 pipanjem	50		2
 pipnem	164		2
 pirinčem			2
@@ -2332,9 +2332,9 @@ plovljenjem			2
 plusem	14		2
 plutajućem	23		2
 pobediocem			2
-pobegnem	667		2
+pobegnem	667		3
 pobeđujem	141		2
-pobijem	93		2
+pobijem	93		3
 poboljšanjem	912		2
 pobrinem	65		2
 pobrđem			2
@@ -2346,21 +2346,21 @@ podcenjujem	47		2
 poderem			2
 podešavanjem	591		2
 podgorjem			2
-podgrejem			2
-podignem	1088		2
+podgrejem			3
+podignem	1088		3
 podizanjem	1742		2
 podizačem			2
-podižem	352		2
+podižem	352		3
 podjarujem			2
-podlacem			2
+podlacem			3
 podlegnem	26		2
 podležem	25		2
 podmazujem	17		2
-podmažem	40		2
+podmažem	40		3
 podmetanjem	137		2
 podmetačem	11		2
-podmetnem	37		2
-podmećem	24		2
+podmetnem	37		3
+podmećem	24		3
 podmirenjem			2
 podmićivanjem	147		2
 podmićujem	11		2
@@ -2371,7 +2371,7 @@ podnožjem	76		2
 podozrenjem	227		2
 podražajem			4
 podređujem	10		2
-podrignem	14		2
+podrignem	14		3
 podrigujem			2
 podrinjem			2
 podrivanjem	34		2
@@ -2379,7 +2379,7 @@ područjem	689		2
 podsećanjem	279		2
 podsistem	412		2
 podstaknem	114		2
-podstičem	80		2
+podstičem	80		3
 podstrižem			2
 podunavljem	29		2
 podupirem	22		2
@@ -2387,13 +2387,13 @@ poduprem	16		2
 podučavanjem	83		2
 podužem	98		2
 podvaljujem			2
-podvedem			2
+podvedem			3
 podviknem	18		2
-podvrgnem	42		2
+podvrgnem	42		3
 podvučem	337		2
 podzemljem	141		2
 pogađanjem	98		2
-poginem	140		2
+poginem	140		3
 poglavljem	192		2
 pognem	13		2
 pogodnijem	11		4
@@ -2408,9 +2408,9 @@ pojavljivanjem	413		2
 pojavljujem	122		2
 pojačanjem	209		2
 pojačavanjem	100		2
-pojašem			2
+pojašem			3
 pojcem			2
-pojedem	775		2
+pojedem	775		3
 pojedincem	201		2
 pojednostavljivanjem	50		2
 pojem	50		2
@@ -2419,24 +2419,24 @@ pokajem	48		2
 pokazivanjem	235		2
 pokazujem	561		2
 pokažem	2735		2
-pokisnem	19		2
+pokisnem	19		3
 poklanjanjem	109		2
 poklapanjem	20		2
 pokleknem	49		2
 pokličem	39		2
 poklonjenjem	30		2
-poklopcem	674		2
+poklopcem	674		3
 pokojem	20		2
 pokolenjem	13		2
-pokoljem	52		2
+pokoljem	52		3
 pokoljenjem			2
-pokradem	15		2
+pokradem	15		3
 pokrajcem			2
 pokrenem	1053		2
 pokretanjem	1077		2
-pokretačem	57		2
-pokrećem	234		2
-pokrijem	224		2
+pokretačem	57		3
+pokrećem	234		3
+pokrijem	224		3
 pokrivanjem	225		2
 pokrivačem	378		2
 pokrićem	180		2
@@ -2448,15 +2448,15 @@ pokušavanjem	16		2
 polaganjem	1105		2
 polazištem	48		2
 polažem	504		2
-polemišem	527		2
+polemišem	527		3
 polećem			2
 policajcem	168		2
-polijem	23		2
-političarem	205		3
+polijem	23		3
+političarem	205		4
 poližem	36		2
 poljem	946		2
 poljubcem			2
-poljupcem	360		2
+poljupcem	360		3
 položajem	1865		4
 pomaganjem	193		2
 pomagačem	15		2
@@ -2468,21 +2468,21 @@ pomažem	828		2
 pomažućem			2
 pomenem	1856		2
 pomeranjem	855		2
-pometem			2
+pometem			3
 pomicanjem	40		2
 pomilovanjem	34		2
-pomilujem	52		3
+pomilujem	52		4
 pominjanjem	199		2
 pominjem	3757		2
 pomirenjem	174		2
-pomirišem	37		2
-pomičem	10		2
+pomirišem	37		3
+pomičem	10		3
 pomišljanjem			2
 pomnijem			3
 pomognem	4215		2
 pomoravljem	34		2
 pomračenjem	34		2
-pomuzem	13		2
+pomuzem	13		3
 ponapijem			2
 ponavljanjem	636		2
 ponašanjem	5172		2
@@ -2494,7 +2494,7 @@ poništenjem	74		2
 ponižavanjem	109		2
 poniženjem	86		2
 ponuđačem	207		2
-popijem	1092		2
+popijem	1092		3
 popisujem	11		2
 popišem	16		2
 popnem	305		2
@@ -2508,11 +2508,11 @@ popuštanjem	139		2
 poradujem			2
 porastem	369		2
 poravnanjem	186		2
-poreknem	47		2
+poreknem	47		3
 poremećajem	1082		5
 poređenjem	625		2
 poređujem			2
-porežem			2
+porežem			3
 poricanjem	77		2
 poricem			2
 poričem	184		2
@@ -2526,15 +2526,15 @@ posađujem			2
 posedanjem	10		2
 posednem			2
 posedovanjem	308		2
-posedujem	1494		3
+posedujem	1494		4
 posegnem	38		2
 posejem	35		2
 posezanjem	36		2
 posećujem	636		2
-posečem	26		2
+posečem	26		3
 posežem	42		2
-poslednjem	14742		2
-posljednjem		J	2
+poslednjem	14742		3
+posljednjem		J	3
 poslodavcem	688		2
 poslovanjem	2012		2
 poslujem	92		2
@@ -2544,33 +2544,33 @@ poslužujem			2
 posmatranjem	730		2
 pospem			2
 pospešivanjem	14		2
-posredujem	25		3
+posredujem	25		4
 posrnem	11		2
 posrtanjem	19		2
-posrćem	11		2
+posrćem	11		3
 postajem	679		2
-postanem			2
+postanem			3
 postarijem			2
 postavljanjem	2828		2
 postavljenjem	126		2
 postem			2
-postignem	781		2
+postignem	781		3
 postizanjem	420		2
-postižem	200		2
-postojanjem	1315		3
-postojećem	2102		3
+postižem	200		3
+postojanjem	1315		4
+postojećem	2102		4
 postoljem	224		2
 postrojem			2
 postrojenjem	160		2
 postupanjem	512		2
-posustanem	40		2
+posustanem	40		3
 posuđem	210		2
 posuđujem			2
 posvećenjem	33		2
 posvećujem	453		2
 potaknem	10		2
 potapanjem	165		2
-potapšem			2
+potapšem			3
 potcenjivanjem	70		2
 potcenjujem	163		2
 potegnem	75		2
@@ -2580,8 +2580,8 @@ poticajem			2
 potiskivanjem	130		2
 potiskujem	28		2
 potisnem	54		2
-potičem	279		2
-potkrešem			2
+potičem	279		3
+potkrešem			3
 potkrovljem	73		2
 potonem	57		2
 potonjem	253		2
@@ -2590,7 +2590,7 @@ potpisivanjem	2649		2
 potpisujem	1130		2
 potpišem	801		2
 potpomažem			2
-potpunijem	73		3
+potpunijem	73		4
 potpurijem			2
 potraživanjem	85		2
 potresem	15		2
@@ -2599,17 +2599,17 @@ potrujem			2
 potucanjem			2
 poturanjem			2
 potučem	15		2
-potvrđujem	302		2
+potvrđujem	302		3
 pouzdanjem	120		2
 pouzećem	379		2
 poučavanjem	18		2
 poučenjem			2
-povedem	244		2
+povedem	244		3
 poverenjem	821		2
 poveriocem	54		2
-poverujem	1212		3
+poverujem	1212		4
 povetarcem	33		2
-povezem	62		2
+povezem	62		3
 povezivanjem	1110		2
 povezujem	213		2
 povećanjem	5115		2
@@ -2626,7 +2626,7 @@ povraćajem	153		2
 povraćanjem	488		2
 povređivanjem	29		2
 povređujem	44		2
-povrćem	1740		2
+povrćem	1740		3
 površjem			2
 povučem	577		2
 pozajmljivanjem	72		2
@@ -2637,17 +2637,17 @@ poznajem	7420		2
 poznanjem			2
 poznavanjem	952		2
 poznijem			2
-pozorištem	850		3
-pozovem	1779		2
-počešem	16		2
-počinem	10		2
+pozorištem	850		4
+pozovem	1779		3
+počešem	16		3
+počinem	10		3
 počiniocem	61		2
 počinjanjem	12		2
-počinjem	2021		2
+počinjem	2021		3
 počivanjem			2
 počnem	3668		2
 pođem	733		2
-pošaljem	1923		2
+pošaljem	1923		3
 pošiljem			2
 pošljem			2
 poštenjem	275		2
@@ -2666,7 +2666,7 @@ praporcem			2
 praskanjem			2
 prasnem			2
 pratećem	422		2
-pratiocem	180		3
+pratiocem	180		4
 pravcem	1197		2
 pravdanjem	49		2
 pravilnijem	16		4
@@ -2679,7 +2679,7 @@ pražnjenjem	181		2
 prebacivanjem	460		2
 prebacujem	321		2
 prebijanjem	102		2
-prebijem	46		2
+prebijem	46		3
 prebiranjem	22		2
 prebivalištem			2
 prebivanjem	11		2
@@ -2717,18 +2717,18 @@ pregnućem	28		2
 pregolem			2
 pregorenjem			2
 pregovaranjem	84		2
-pregrizem	12		2
+pregrizem	12		3
 prehranjujem	23		2
 preispitivanjem	228		2
 preispitujem	96		2
 prejedanjem	50		2
 prekidanjem	96		2
 prekidačem	202		2
-prekinem	654		2
-prekjučerašnjem	37		2
+prekinem	654		3
+prekjučerašnjem	37		3
 preklinjem	187		2
 prekoljem			2
-prekrijem	34		2
+prekrijem	34		3
 prekrivačem	87		2
 prekršajem	149		2
 prelaženjem	48		2
@@ -2750,29 +2750,29 @@ preoblikovanjem	41		2
 preobučem			2
 preokrenem	43		2
 preotmem			2
-prepadnem	14		2
+prepadnem	14		3
 prepiranjem			2
-prepirem	66		2
+prepirem	66		3
 prepisujem	137		2
 prepišem	98		2
 preplitanjem	74		2
 preporučujem	6741		2
 prepoznajem	876		2
 prepoznavanjem	276		2
-prerežem			2
+prerežem			3
 presađivanjem	51		2
 presedanjem	92		2
 preseljenjem			2
-presečem	124		2
+presečem	124		3
 preskakanjem	93		2
 preskačem	227		2
 presolcem			2
 presovanjem	88		2
-presretnem	11		2
-prestajem	331		2
-prestanem	978		2
-prestignem	22		2
-prestižem	25		2
+presretnem	11		3
+prestajem	331		3
+prestanem	978		3
+prestignem	22		3
+prestižem	25		3
 presuđujem	36		2
 presvlačenjem	45		2
 presvucem			2
@@ -2807,14 +2807,14 @@ prevoženjem	15		2
 prevrednovanjem	22		2
 prevrnem	55		2
 prevrtanjem	43		2
-prevrćem	91		2
+prevrćem	91		3
 prevučem	37		2
 prezanjem		M	2
 prezentujem	124		2
 preziranjem	19		2
-prezirem	370		2
+prezirem	370		3
 prezrenjem	119		2
-prečacem			2
+prečacem			3
 pređašnjem		M	2
 pređem	1796		2
 prešićem			2
@@ -2829,7 +2829,7 @@ pridajem	141		2
 pridignem	34		2
 pridikujem			2
 pridižem	10		2
-pridobijem	49		2
+pridobijem	49		3
 pridodajem	23		2
 pridružujem	553		2
 prigušivačem	81		2
@@ -2844,9 +2844,9 @@ prikazujem	115		2
 prikažem	477		2
 priključujem	76		2
 prikradanjem			2
-prikradem			2
+prikradem			3
 prikraćujem			2
-prikrijem	48		2
+prikrijem	48		3
 prikrivanjem	96		2
 prikujem			2
 prikupljanjem	924		2
@@ -2862,7 +2862,7 @@ primenjujem	375		2
 primećujem	1830		2
 primicanjem	17		2
 primirjem	41		2
-primičem	25		2
+primičem	25		3
 primorcem	11		2
 primorjem	104		2
 princem	85		2
@@ -2887,21 +2887,21 @@ prisluškivanjem	158		2
 prisluškujem	22		2
 prisnijem			3
 prispem			2
-pristajem	591		2
-pristanem	253		2
+pristajem	591		3
+pristanem	253		3
 pristaništem	75		2
 pristojnijem	10		3
-prisustvujem	584		3
+prisustvujem	584		4
 prisvajanjem	93		2
 pritegnem	12		2
 priteknem			2
 pritiskanjem	178		2
-pritisnem	322		2
+pritisnem	322		3
 pritičem			2
 pritišćem			2
-privedem	103		2
+privedem	103		3
 privežem	15		2
-priviknem	78		2
+priviknem	78		3
 priviđanjem			2
 priviđenjem	16		2
 privlačenjem	225		2
@@ -2911,7 +2911,7 @@ prizivanjem	121		2
 priznajem	4848		2
 priznanjem	1370		2
 priznavanjem	558		2
-prizovem	90		2
+prizovem	90		3
 prizvanjem			2
 pričanjem	148		2
 pričešćem	109		2
@@ -2924,7 +2924,7 @@ prljanjem			2
 prljićem			2
 probadanjem	20		2
 probijanjem	160		2
-probijem	102		2
+probijem	102		3
 probiranjem			2
 probišićem			2
 problem	203309		2
@@ -2946,12 +2946,12 @@ proganjanjem	39		2
 proglašenjem	524		2
 progonjenjem			2
 programiranjem	590		2
-progrizem			2
-proizvedem	82		2
+progrizem			3
+proizvedem	82		3
 proizvođačem	666		2
 projektovanjem	810		2
 projektujem	69		2
-proklinjem	120		2
+proklinjem	120		3
 proklizavanjem	74		2
 prokomentarišem	629		2
 prokopijem			2
@@ -2960,32 +2960,32 @@ prokunem			2
 prolajem			2
 prolamanjem			2
 proletnjem			2
-prolećem	232		2
-prolijem	22		2
+prolećem	232		3
+prolijem	22		3
 prolivanjem			2
 promašajem	111		4
 promašujem	14		2
 promenjujem			2
-promovišem	223		2
+promovišem	223		3
 promuklijem			2
 pronalaženjem	440		2
 pronađem	2013		2
 pronicanjem			2
-proniknem	82		2
+proniknem	82		3
 propadanjem	190		2
-propadnem	83		2
-propijem			2
+propadnem	83		3
+propijem			3
 propinjanjem			2
 propisujem	20		2
 propitujem	11		2
 proputujem	36		2
-proreknem			2
+proreknem			3
 proricanjem	44		2
 proričem	21		2
 prorokujem	10		2
 prosleđujem	56		2
 prospem			2
-prostirem	12		2
+prostirem	12		3
 prostituišem			2
 prostrem	27		2
 prosuđujem	15		2
@@ -3000,7 +3000,7 @@ protićem			2
 protresem			2
 protrnem			2
 proturanjem			2
-prouzrokujem			3
+prouzrokujem			4
 proučavanjem	1159		2
 provaljujem	42		2
 provedem	1119		2
@@ -3009,14 +3009,14 @@ proviđenjem	41		2
 provođenjem	128		2
 provučem	121		2
 prozivanjem	83		2
-prozovem	59		2
+prozovem	59		3
 pročeljem	60		2
 prođem	1051		2
 prošcem			2
 prošenjem			2
 proširenjem	944		2
 proširujem	45		2
-prošlogodišnjem	1437		2
+prošlogodišnjem	1437		3
 prošvercujem			2
 prožderem			2
 proždiranjem			2
@@ -3031,7 +3031,7 @@ prstićem	27		2
 prutićem	20		2
 prućem	75		2
 pružanjem	1376		2
-prvencem	85		2
+prvencem	85		3
 prženjem	110		2
 psećem	42		2
 psihićem			2
@@ -3056,7 +3056,7 @@ punomoćjem	48		4
 punčem			2
 pupavcem			2
 purićem			2
-pustošenjem	25		3
+pustošenjem	25		4
 putem	28765		2
 putićem	37		2
 putopiscem			2
@@ -3077,7 +3077,7 @@ radišićem			2
 radojem			2
 radojčićem			2
 radovićem			2
-radošem			2
+radošem			3
 radujem	2990		3
 ragbijem	20		3
 raićem			2
@@ -3098,36 +3098,36 @@ rančićem			2
 rapajićem			2
 rasecanjem	10		2
 rasejem			2
-rasečem	13		2
-rashodujem			3
+rasečem	13		3
+rashodujem			4
 rasipanjem	63		2
 raskidanjem	47		2
-raskinem	122		2
+raskinem	122		3
 rasklapanjem	19		2
 raskošjem			2
 raskršćem	21		2
 raspadanjem	101		2
-raspadnem	10		2
+raspadnem	10		3
 raspakivanjem			2
 raspakujem			2
 raspaljujem			2
-raspašem			2
+raspašem			3
 raspem			2
 raspećem	88		2
 raspinjanjem			2
 raspitujem	153		2
 raspišem	67		2
-rasplačem	74		2
-rasplećem			2
+rasplačem	74		3
+rasplećem			3
 raspnem			2
 raspolažem	309		2
 raspoloženjem	526		2
 raspoređujem	21		2
 raspoznajem	26		2
 rasprostrem			2
-rastajem	31		2
+rastajem	31		3
 rastakanjem	41		2
-rastanem			2
+rastanem			3
 rastegnem			2
 rastem	137		2
 rasterećenjem	55		2
@@ -3141,8 +3141,8 @@ rasuđivanjem	105		2
 rasuđujem	19		2
 ratovanjem	102		2
 ratujem	96		3
-razaberem	28		2
-razapinjem			2
+razaberem	28		3
+razapinjem			3
 razapnem	12		2
 razaranjem	207		2
 razaračem	14		2
@@ -3154,7 +3154,7 @@ razbacivanjem	24		2
 razbacujem	31		2
 razberem			2
 razbijanjem	358		2
-razbijem	295		2
+razbijem	295		3
 razbojem	33		2
 razdeljujem			2
 razdobljem	116		2
@@ -3165,21 +3165,21 @@ razgrnem	10		2
 razlaganjem	103		2
 razlamanjem			2
 razlažem	14		2
-razlikujem	361		3
+razlikujem	361		4
 razlistavanjem			2
 razlučujem			2
 razmaknem			2
 razmatranjem	350		2
 razmenjujem	106		2
-razmećem	13		2
+razmećem	13		3
 razmicanjem	11		2
-razmičem			2
+razmičem			3
 razmišljanjem	772		2
 razmnožavanjem	97		2
 raznesem	12		2
 raznosačem			2
 raznošenjem	16		2
-razotkrijem	32		2
+razotkrijem	32		3
 razotkrivanjem	78		2
 razočaranjem	93		2
 razočarenjem	81		2
@@ -3191,16 +3191,16 @@ razumem	20398		2
 razumevanjem	1597		2
 razumnijem	16		4
 razvaljujem	16		2
-razvedem	92		2
+razvedem	92		3
 razvezujem			2
 razvijanjem	651		2
-razvijem	192		2
+razvijem	192		3
 razvićem			2
-razvojem	8120		2
+razvojem	8120		3
 razvođem	14		2
 razvoženjem			2
 razvučem	51		2
-račićem			2
+račićem			3
 računanjem	103		2
 rađanjem	287		2
 rašićem			2
@@ -3209,23 +3209,23 @@ raščlanjavanjem			2
 raščlanjujem			2
 ražnjem	19		2
 reagovanjem	184		2
-reagujem	987		3
+reagujem	987		4
 realizovanjem	58		2
 realizujem	227		2
 recikliranjem	102		2
 recitujem	47		2
 redigujem			2
 rediteljem	586		2
-referišem	21		2
+referišem	21		3
 registrujem	462		2
 regrutujem			2
-regulišem	76		2
+regulišem	76		3
 reklamiranjem	171		2
 reknem	135		2
 rekonstruišem	77		2
-rekvijem	153		2
+rekvijem	153		3
 remećenjem	22		2
-remijem	419		2
+remijem	419		3
 rendem			2
 renoviranjem	149		2
 reorganizujem	11		2
@@ -3236,7 +3236,7 @@ resetujem	176		2
 restartujem	211		2
 rezanjem	235		2
 rezačem	46		2
-rezervišem			2
+rezervišem			3
 rečem	213		2
 ređanjem	50		2
 ređenjem			2
@@ -3254,12 +3254,12 @@ riknem	19		2
 rimujem			2
 ristićem			2
 rizikujem	511		2
-robijašem			2
+robijašem			3
 robijem			2
 robljem	380		2
 robovanjem	26		2
 robujem	62		2
-roditeljem	325		3
+roditeljem	325		4
 rodićem			2
 rodoljubljem	93		4
 rojem	61		2
@@ -3274,7 +3274,7 @@ roštiljem	132		2
 rubljem	50		2
 ruganjem	36		2
 rukovanjem	247		2
-rukovodiocem	203		3
+rukovodiocem	203		4
 rukujem	88		3
 rupcem	12		2
 rustem			2
@@ -3285,25 +3285,25 @@ ružićem			2
 rvanjem	45		2
 rvem			2
 rzanjem			2
-saberem	312		2
+saberem	312		3
 sabijanjem	32		2
-sabijem	13		2
+sabijem	13		3
 sabiranjem	279		2
-sadašnjem	3906		2
+sadašnjem	3906		3
 sadržajem	5849		4
 saginjanjem			2
-saginjem	40		2
+saginjem	40		3
 sagnem	58		2
-sagnjijem			2
+sagnjijem			3
 sagorevanjem	908		2
 sagrešenjem			2
 sahranjujem	18		2
 sakaćenjem	35		2
-sakrijem	454		2
+sakrijem	454		3
 sakrivanjem	53		2
 sakupljanjem	485		2
 samardžićem			2
-sameljem	22		2
+sameljem	22		3
 samodršcem			2
 samoljubljem	28		2
 samomnenjem			2
@@ -3319,26 +3319,26 @@ sanjarenjem	25		2
 saobraćajem	827		5
 saopštenjem	1281		2
 saosećanjem	131		2
-sapletem	33		2
+sapletem	33		3
 saplitanjem			2
-saplićem	33		2
+saplićem	33		3
 sarađujem	686		2
-sasečem	10		2
+sasečem	10		3
 sasipanjem			2
 saslušanjem	218		2
 saslušavanjem	30		2
 saspem			2
-sastajem	55		2
-sastanem	48		2
+sastajem	55		3
+sastanem	48		3
 satiranjem			2
 satirem			2
 satrem	11		2
-saučešćem	36		3
+saučešćem	36		4
 savatijem			2
-savetovanjem	197		4
-savetujem	2555		3
+savetovanjem	197		5
+savetujem	2555		4
 savijanjem	122		2
-savijem	71		2
+savijem	71		3
 savićem			2
 savlađujem	12		2
 sazdavanjem			2
@@ -3346,13 +3346,13 @@ sazivanjem	51		2
 saznajem	459		2
 saznanjem	1009		2
 saznavanjem	43		2
-sazovem	28		2
+sazovem	28		3
 sazrevanjem	163		2
 sazvežđem			2
 sazviježđem			2
 saćem	186		2
 sačekujem	10		2
-sašijem	25		2
+sašijem	25		3
 sažaljenjem	102		2
 sažimanjem	60		2
 sažvaćem			2
@@ -3388,28 +3388,28 @@ siktanjem			2
 silajdžićem			2
 silnijem	10		3
 silovanjem	116		4
-silovateljem	12		3
+silovateljem	12		4
 silujem	29		3
 simićem			2
 simonićem			2
 simovićem			2
-simpatišem	80		2
+simpatišem	80		3
 sinjem	24		2
 sinovcem	36		2
 sinoćnjem	216		3
-sinčićem	59		2
+sinčićem	59		3
 sinđelićem			2
 sipanjem	45		2
-sirotištem			3
+sirotištem			4
 sisanjem	96		2
 sistem	136034		2
-sitnijem	28		2
+sitnijem	28		3
 sitnišem	12		2
 sićem			2
 siđem	219		2
 sišem	19		2
 sjajem	1562		2
-sjajnijem			2
+sjajnijem			3
 sjašem			2
 sjedinjenjem	77		2
 sjedinjujem			2
@@ -3430,7 +3430,7 @@ sklapanjem	420		2
 skliznem	19		2
 skloništem	43		3
 skoknem	177		2
-skoncentrišem	86		2
+skoncentrišem	86		3
 skopljem			2
 skorašnjem	227		2
 skorijem	391		2
@@ -3477,7 +3477,7 @@ slučajem	5229		3
 slušanjem	297		3
 slušaocem			2
 služenjem	273		2
-služiteljem			3
+služiteljem			4
 smajlijem	44		2
 smaknem	11		2
 smanjenjem	3302		2
@@ -3510,7 +3510,7 @@ snabdem			2
 snabdevanjem	361		2
 snađem	366		2
 snaženjem	35		2
-snažnijem	90		2
+snažnijem	90		3
 snebivanjem	12		2
 snesem	12		2
 snimanjem	946		2
@@ -3531,23 +3531,23 @@ spasavanjem	99		2
 spasem	233		2
 spasenjem	104		2
 spasiocem			2
-spasiteljem	91		3
+spasiteljem	91		4
 spasojem			2
 spavanjem	498		2
 spašavanjem	50		2
-spekulišem	88		2
+spekulišem	88		3
 spelujem	12		3
 sperem	37		2
-spisateljem			3
+spisateljem			4
 spojem	256		2
-spokojem	79		2
-spoljašnjem	911		2
+spokojem	79		3
+spoljašnjem	911		3
 spoljnjem	242		2
 spomenem	872		2
 spominjanjem	41		2
-spominjem	1765		2
-sponzorišem			2
-spopadnem			2
+spominjem	1765		3
+sponzorišem			3
+spopadnem			3
 sporazumem	33		2
 spotaknem	18		2
 spoticanjem			2
@@ -3557,13 +3557,13 @@ spravljanjem	22		2
 sprejem	184		2
 spremanjem	125		2
 sprečavanjem	321		2
-sprovedem	189		2
+sprovedem	189		3
 sprovođenjem	1675		2
 spuštanjem	385		2
 srastanjem	15		2
 sravnjujem			2
 srcem	5441		2
-središnjem	769		2
+središnjem	769		3
 središtem	274		3
 srednjem	6946		2
 sredojem			2
@@ -3594,7 +3594,7 @@ stanovanjem	73		2
 stanujem	609		2
 stapanjem	81		2
 staranjem	201		2
-starateljem	41		3
+starateljem	41		4
 starcem	255		2
 starenjem	643		3
 starijem	1003		3
@@ -3609,13 +3609,13 @@ stenjem	89		2
 stepeništem	398		4
 stepićem			2
 stepujem			2
-sterilišem	21		2
+sterilišem	21		3
 stečajem	338		3
 stežem	83		2
 sticajem	2527		2
 sticanjem	774		2
 sticaocem			2
-stimulišem			2
+stimulišem			3
 stisnem	210		2
 stičem	542		2
 stišćem	12		2
@@ -3623,8 +3623,8 @@ stižem	837		2
 stogodišnjem	51		2
 stojećem	329		2
 stojičićem			2
-stolećem	17		2
-stolićem	12		2
+stolećem	17		3
+stolićem	12		3
 stomačićem			2
 stočićem			2
 stradanjem	349		2
@@ -3633,7 +3633,7 @@ strahovanjem	33		2
 strahujem	273		2
 strancem	289		2
 stratištem			2
-strašnijem	16		2
+strašnijem	16		3
 stražarem			2
 stražnjem	66		2
 strelcem	134		2
@@ -3643,7 +3643,7 @@ stresem	56		2
 stricem	113		2
 strižem			2
 strožem	21		2
-strpljenjem	730		2
+strpljenjem	730		3
 strujanjem	90		2
 stružem	13		2
 stubištem			3
@@ -3657,42 +3657,42 @@ stučem			2
 stvaranjem	3258		2
 stvaraocem			2
 stvorenjem	75		2
-stvoriteljem	58		3
+stvoriteljem	58		4
 subotićem			2
-subotnjem	289		2
+subotnjem	289		3
 sudaranjem	17		2
 sudištem			2
 sudnjem	143		2
-sugerišem			2
+sugerišem			3
 sujeverjem	43		4
-sumnjivcem			2
+sumnjivcem			3
 sumnjičenjem	18		2
 sunašcem			3
 suncem	2663		2
-sunčanijem			3
+sunčanijem			4
 sunčanjem	110		2
 suočavanjem	166		2
 superherojem	10		2
 surfujem	137		2
-surovijem	10		3
+surovijem	10		4
 survavanjem			2
 suspendujem			2
 suspregnem			2
-susretnem	103		2
-susrećem	301		2
-sustignem	24		2
-sustižem	18		2
-sutrašnjem	516		2
+susretnem	103		3
+susrećem	301		3
+sustignem	24		3
+sustižem	18		3
+sutrašnjem	516		3
 suzavcem	310		3
 suzbijanjem	236		2
-suzbijem	32		2
+suzbijem	32		3
 suđenjem	396		2
 sušenjem	226		2
 sušijem			2
 sušićem			2
 sužavanjem	96		2
 sužnjem	13		2
-svagdašnjem	15		2
+svagdašnjem	15		3
 svakidašnjem	99		4
 svaljujem	16		2
 svanem			2
@@ -3709,11 +3709,11 @@ svetiteljem			2
 svetogrđem	26		4
 svevidećem	16		2
 svevišnjem	64		2
-svečanijem			3
+svečanijem			4
 svežem	1211		2
 svežnjem	34		2
 svicem			2
-svilenijem			3
+svilenijem			4
 svinjokoljem			2
 sviranjem	240		2
 sviračem			2
@@ -3726,23 +3726,23 @@ svrgavanjem	68		2
 svrgnem			2
 svrnem			2
 svučem	49		2
-tadanjem	22		2
-tadašnjem	1908		2
+tadanjem	22		3
+tadašnjem	1908		3
 tadićem			2
 tajnijem			3
-takmičarem	72		3
+takmičarem	72		4
 takmičenjem	635		2
 taknem	23		2
-taksijem	681		2
+taksijem	681		3
 taloženjem	105		2
-tamnijem	33		2
+tamnijem	33		3
 tamnovanjem			2
 tamošnjem	603		3
 tandem	1898		2
 tanjem			2
 tanjirićem			2
 tankosićem			2
-taocem	18		2
+taocem	18		3
 tapkanjem	85		2
 tapšanjem	43		2
 tapšem	16		2
@@ -3752,9 +3752,9 @@ tačnijem	23		3
 tekućem	1404		2
 telegrafišem			2
 teleportujem			2
-telohraniteljem	47		3
+telohraniteljem	47		4
 temeljcem	30		2
-temeljem	206		2
+temeljem	206		3
 tepanjem	11		2
 tepićem			2
 teranjem	54		2
@@ -3776,16 +3776,16 @@ tinjajućem			2
 tipujem	236		2
 titrajem			3
 tkanjem	122		2
-tobožnjem	92		2
-tolerišem	119		2
+tobožnjem	92		3
+tolerišem	119		3
 tolićem			2
-tomašem			2
+tomašem			3
 tomićem			2
 tomovićem			2
 tomčićem			2
 tonem	183		2
 tonjenjem			2
-topićem			2
+topićem			3
 toplijem	94		3
 topljenjem	164		2
 tornjem	184		2
@@ -3797,7 +3797,7 @@ traganjem	228		2
 tragačem			2
 trajem	60		2
 tramvajem	289		3
-transformišem	35		2
+transformišem	35		3
 transportujem			2
 trasiranjem	15		2
 travićem			2
@@ -3821,8 +3821,8 @@ tresnem	45		2
 tretiranjem	257		2
 trećem	15430		2
 trgnem	104		2
-trgovcem	167		2
-trgujem	163		2
+trgovcem	167		3
+trgujem	163		3
 tripujem			2
 trjkovićem			2
 trkalištem			2
@@ -3861,9 +3861,9 @@ tučem	87		2
 tuđem	1262		2
 tušem	784		2
 tuširanjem	126		2
-tužiocem	482		3
-tužiteljem			3
-tužnijem			2
+tužiocem	482		4
+tužiteljem			4
+tužnijem			3
 tvitujem	27		2
 tvojem	15		2
 tvorcem	274		2
@@ -3873,16 +3873,16 @@ tvrđenjem	44		2
 ubacivanjem	651		2
 ubacujem	260		2
 ubadanjem	31		2
-uberem	53		2
+uberem	53		3
 ubeđenjem	240		2
 ubeđivanjem	116		2
 ubeđujem	338		2
 ubijanjem	449		2
-ubijem	880		2
+ubijem	880		3
 ubodem	265		2
 ubrizgavanjem	737		2
 ubrzanijem			2
-ubrzanjem	294		2
+ubrzanjem	294		3
 ubrzavanjem	108		2
 ucenjujem	20		2
 udahnem	245		2
@@ -3892,13 +3892,13 @@ udaljenijem	24		4
 udaljenjem	13		2
 udaljujem			2
 udaranjem	182		2
-udarcem	2421		2
+udarcem	2421		3
 udenem			2
 udisajem	47		2
 udisanjem	193		2
 udivljenijem			2
 udivljenjem	21		2
-udišem	148		2
+udišem	148		3
 udovcem	10		2
 udruženjem	1688		2
 udruživanjem	459		2
@@ -3914,21 +3914,21 @@ ugovaračem			2
 ugošćenjem			2
 ugrađivanjem	109		2
 ugrađujem	40		2
-ugrejem	51		2
-ugrijem		J	2
-ugrizem	25		2
+ugrejem	51		3
+ugrijem		J	3
+ugrizem	25		3
 ugušenjem			2
 ugušivanjem			2
 uhođenjem			2
-ujašem			2
-ujedem	29		2
+ujašem			3
+ujedem	29		3
 ujedinjenjem	339		2
 ukazanjem			2
 ukazivanjem	316		2
 ukazujem	566		2
 ukažem	1854		2
 ukidanjem	1580		2
-ukinem	86		2
+ukinem	86		3
 uklanjanjem	881		2
 uklapanjem	104		2
 uključenjem	178		2
@@ -3936,7 +3936,7 @@ uključivanjem	1191		2
 uključujem	316		2
 uknjiženjem			2
 ukopavanjem	44		2
-ukradem	182		2
+ukradem	182		3
 ukrcavanjem			3
 ukrštanjem	557		2
 ukucavanjem	144		2
@@ -3962,11 +3962,11 @@ umačem	13		2
 umem	3402		2
 umenjem	17		2
 umetanjem	117		2
-umetnem	18		2
-umećem	778		2
+umetnem	18		3
+umećem	778		3
 umiljavanjem	13		2
 umiranjem	69		2
-umirem	408		2
+umirem	408		3
 umirenjem			2
 umirivanjem			2
 umirujem	11		2
@@ -3988,21 +3988,21 @@ uništenjem	389		2
 unižavanjem			2
 uniženjem			2
 unošenjem	923		2
-unutrašnjem	2998		3
+unutrašnjem	2998		4
 unučićem			2
 uokviravanjem			2
 uopštavanjem	34		2
 uočavanjem	69		2
 upadanjem	21		2
-upadnem	259		2
+upadnem	259		3
 upakujem	61		2
 upaljačem	141		2
 upaljivanjem			2
 upevavanjem			2
 upijajućem			2
-upijem	50		2
+upijem	50		3
 upinjem	23		2
-upirem	49		2
+upirem	49		3
 upisivanjem	193		2
 upisujem	281		2
 upišem	1565		2
@@ -4013,12 +4013,12 @@ uplićem	48		2
 upoređenjem	51		2
 upoređivanjem	392		2
 upoređujem	217		2
-uporištem	80		3
+uporištem	80		4
 upoznajem	486		2
 upoznavanjem	567		2
 upozorenjem	456		2
-upraviteljem	46		3
-upravljanjem	1629		3
+upraviteljem	46		4
+upravljanjem	1629		4
 upravljačem	762		2
 upregnem	13		2
 uprem	18		2
@@ -4028,20 +4028,20 @@ upućivanjem	225		2
 upućujem	805		2
 upuštanjem	27		2
 uranjanjem	31		2
-ureknem	80		2
+ureknem	80		3
 urezivanjem	51		2
 urezujem			2
-urečem			2
+urečem			3
 uređajem	2221		4
 uređenjem	938		2
 uređivanjem	194		2
 uređivačem			2
 uređujem	111		2
-urežem			2
+urežem			3
 urgiranjem			2
 urlanjem	39		2
 urliknem			2
-urošem			2
+urošem			3
 uroševićem			2
 uručenjem	178		2
 uručujem	15		2
@@ -4055,7 +4055,7 @@ usisivačem	142		2
 uskačem	39		2
 usklađujem	18		2
 uskraćujem	38		2
-uskrsnućem	13		2
+uskrsnućem	13		3
 uskršnjem	109		2
 uslužujem			2
 usmerenjem	142		2
@@ -4064,19 +4064,19 @@ uspavljujem	18		2
 uspelijem			2
 uspem	1146		2
 uspenjem			2
-uspešnijem	110		3
+uspešnijem	110		4
 uspinjanjem	13		2
-uspinjem			2
+uspinjem			3
 uspnem			2
 uspostavljanjem	1423		2
 usrećujem			2
 ustajanjem	64		2
-ustajem	796		2
-ustanem	1049		2
+ustajem	796		3
+ustanem	1049		3
 ustanovljavanjem	77		2
 ustanovljenjem	48		2
 ustezanjem	14		2
-ustrajem			2
+ustrajem			3
 ustručavanjem			2
 ustuknem	10		2
 ustupanjem	162		2
@@ -4089,16 +4089,16 @@ utemeljenjem	75		2
 utečem			2
 uticajem	10742		4
 uticanjem	37		2
-utičem	533		2
+utičem	533		3
 utjecajem	287		4
 utonem	68		2
-utočištem	62		3
+utočištem	62		4
 utrkivanjem			2
-utrkujem	11		2
+utrkujem	11		3
 utrljavanjem	74		2
 utučem			2
 utvrđivanjem	605		2
-utvrđujem	47		2
+utvrđujem	47		3
 uvalićem			2
 uvaljujem	12		2
 uvažavanjem	781		2
@@ -4110,7 +4110,7 @@ uvezem	31		2
 uvećanjem	479		2
 uvećavanjem	62		2
 uvijačem	19		2
-uvijem	24		2
+uvijem	24		3
 uviđajem	85		2
 uviđanjem	31		2
 uvlačenjem	105		2
@@ -4130,7 +4130,7 @@ uzdignućem			2
 uzdisajem			2
 uzdisanjem	22		2
 uzdizanjem	115		2
-uzdišem	72		2
+uzdišem	72		3
 uzdižem	40		2
 uzemljenjem	46		2
 uzgajanjem	141		2
@@ -4138,7 +4138,7 @@ uzglavljem	58		2
 uzgojem	382		2
 uzimanjem	1457		2
 uziđem			2
-uzjašem	18		2
+uzjašem	18		3
 uzlazećem			2
 uzletanjem			2
 uzmaknem			2
@@ -4150,19 +4150,19 @@ uznemirujem			2
 uznesem			2
 uznošenjem			2
 uzorem			2
-uzrokujem			3
+uzrokujem			4
 uzviknem	31		2
 uzvikujem	19		2
 uzvraćanjem	19		2
 učenijem			4
 učenjem	2171		2
-učestvujem	1855		3
+učestvujem	1855		4
 učešćem	4829		2
-učilištem			3
+učilištem			4
 učiniocem	25		2
-učiteljem	469		3
+učiteljem	469		4
 učlanjenjem	172		2
-učvršćujem			2
+učvršćujem			3
 uđem	2602		2
 ušendićem			2
 ušijem	13		2
@@ -4202,7 +4202,7 @@ vašem	18108		2
 važem			2
 važenjem	80		2
 važećem	1597		2
-važnijem	93		2
+važnijem	93		3
 vedrijem			3
 velikašem			2
 veličanjem	76		2
@@ -4226,7 +4226,7 @@ vezenjem			2
 vezivanjem	376		2
 vezujem	269		2
 većem	12137		2
-večerašnjem	343		2
+večerašnjem	343		3
 večernjem	628		2
 večnobićem			2
 vešanjem	315		2
@@ -4252,7 +4252,7 @@ vičem	446		2
 viđenjem	420		2
 višem	3618		2
 višnjem	64		2
-vladajućem	320		3
+vladajućem	320		4
 vladanjem	188		2
 vladaocem			2
 vladarem	109		2
@@ -4261,7 +4261,7 @@ vlascem			2
 vlašcem			2
 vlaženjem	36		2
 vodećem	399		2
-voditeljem	162		3
+voditeljem	162		4
 vodičem	502		2
 vodosistem	52		2
 vojevanjem	13		2
@@ -4285,7 +4285,7 @@ vrednujem	81		3
 vređanjem	210		2
 vrgnem			2
 vrhnjem			2
-vrhuncem	154		2
+vrhuncem	154		3
 vrisnem	86		2
 vrištanjem	40		2
 vrnem	47		2
@@ -4309,16 +4309,16 @@ vulovićem			2
 vućićem			2
 vučem	456		2
 vučinićem			2
-vučićem	11		2
+vučićem	11		3
 vučjem	52		2
 vučkovićem			2
 zabadanjem	16		2
 zabavljanjem	24		2
-zabijem	61		2
+zabijem	61		3
 zabodem	65		2
 zaboravljanjem	30		2
 zabranjujem	99		2
-zabrinem	84		2
+zabrinem	84		3
 zaceljujem			2
 zacenjujem			2
 zadajem	42		2
@@ -4334,9 +4334,9 @@ zaduženjem	191		2
 zadužujem	33		2
 zagađenjem	255		2
 zaglavljem	78		2
-zagrejem	113		2
+zagrejem	113		3
 zagrevanjem	486		2
-zagrizem	27		2
+zagrizem	27		3
 zagrljajem	202		4
 zagrćem			2
 zahlađenjem	43		2
@@ -4346,14 +4346,14 @@ zahvaljivanjem	15		2
 zahvaljujem	8487		2
 zainteresujem	97		2
 zaištem			2
-zajašem	14		2
+zajašem	14		3
 zakazujem	81		2
 zakašnjenjem	1598		2
 zakažem	234		2
 zakeranjem			2
 zakidanjem	23		2
 zaklanjanjem	13		2
-zaklinjem	303		2
+zaklinjem	303		3
 zaključavanjem	91		2
 zaključenjem	215		2
 zaključujem	780		2
@@ -4366,7 +4366,7 @@ zalaganjem	2024		2
 zalazećem	13		2
 zalažem	1097		2
 zaleđem	135		2
-zalijem	41		2
+zalijem	41		3
 zaljubljujem	64		2
 zalogajem	76		4
 zamahnem	20		2
@@ -4380,7 +4380,7 @@ zamećem			2
 zamišljanjem	37		2
 zamrzavanjem	237		2
 zamrzivačem			3
-zamrznem	15		2
+zamrznem	15		3
 zanemarujem	61		2
 zanesem	60		2
 zanimanjem	732		2
@@ -4389,8 +4389,8 @@ zaobilaženjem	58		2
 zaobiđem	140		2
 zaoravanjem			2
 zaorem			2
-zaostajem	37		2
-zaostanem			2
+zaostajem	37		3
+zaostanem			3
 zapakujem			2
 zapaljenjem			2
 zapanjujućem	30		2
@@ -4404,7 +4404,7 @@ zapitkujem	40		2
 zapišem	224		2
 zaplačem	243		2
 zaplenjujem			2
-zaplešem			2
+zaplešem			3
 zaplićem			2
 zapnem	54		2
 zaposlenjem	208		2
@@ -4430,20 +4430,20 @@ zasnivanjem	75		2
 zasnivačem			2
 zasnujem	29		2
 zaspem			2
-zastajem	73		2
-zastanem	202		2
+zastajem	73		3
+zastanem	202		3
 zastenjem			2
-zastojem	102		2
+zastojem	102		3
 zastrašivanjem	192		2
-zastrašujućem	67		3
+zastrašujućem	67		4
 zastupanjem	160		2
 zasučem	24		2
 zatamnenjem			2
 zatamnjenjem			2
 zategnem			2
-zateknem	160		2
+zateknem	160		3
 zatezanjem	113		2
-zatečem			2
+zatečem			3
 zatirem			2
 zatiskujem			2
 zatisnem			2
@@ -4455,16 +4455,16 @@ zaustavljanjem	197		2
 zauzećem	59		2
 zauzimanjem	325		2
 zauzmem	120		2
-zavedem	52		2
+zavedem	52		3
 zavetujem	14		2
 zaveštanjem	92		2
 zavežem	35		2
 zavežljajem	25		4
 zavijanjem	44		2
-zavijem	23		2
+zavijem	23		3
 zavirujem	50		2
 zavičajem	179		4
-zavojem	185		2
+zavojem	185		3
 zavođenjem	91		2
 zavrnem	48		2
 zavrtnjem	31		2
@@ -4503,13 +4503,13 @@ zečevićem			2
 zidanjem	109		2
 zimonjićem			2
 zinem	28		2
-zlatnijem	12		2
+zlatnijem	12		3
 zlikovcem	46		3
 zlokovićem			2
 zlopaćenjem			2
 zlostavljanjem	241		2
 zloumljem			2
-zločincem	253		2
+zločincem	253		3
 zmajem	247		2
 znalcem	29		2
 znamenjem	193		2
@@ -4565,11 +4565,11 @@ zvrcnem			2
 čavićem			2
 čavrljanjem	11		2
 čekanjem	226		2
-čekićem	531		2
+čekićem	531		3
 čem			1
 čengićem			2
 čerečenjem			2
-čestitijem			3
+čestitijem			4
 četovanjem	19		2
 čeznem	157		2
 češem	36		2
@@ -4579,12 +4579,12 @@ zvrcnem			2
 češćem	44		2
 čijem	14034		2
 čilijem	15		2
-činiocem	68		3
+činiocem	68		4
 činjenjem	501		2
 čistačem	20		2
 čistijem			2
 čitanjem	3242		2
-čitaocem	319		3
+čitaocem	319		4
 čitačem	186		2
 čišćenjem	997		2
 čolićem			2
@@ -4660,7 +4660,7 @@ zvrcnem			2
 ševićem			2
 šećercem			2
 šešeljem			2
-šeširićem	38		2
+šeširićem	38		3
 šeširčićem			2
 šibljem	86		2
 šifrovanjem	23		2
@@ -4682,7 +4682,7 @@ zvrcnem			2
 šoševićem			2
 šoškićem			2
 špancem			2
-špekulišem	24		2
+špekulišem	24		3
 špicem	80		2
 špijuniranjem	40		2
 špricem	95		2
@@ -4690,7 +4690,7 @@ zvrcnem			2
 štambiljem			2
 štampanjem	559		2
 štampačem	258		2
-štapićem	399		2
+štapićem	399		3
 štipanjem			2
 štrajkujem	78		3
 šubićem			2
@@ -4718,12 +4718,12 @@ zvrcnem			2
 žderanjem	10		2
 žderem	34		2
 željenjem			2
-želucem	184		2
+želucem	184		3
 ženskinjem			2
 žešćem	28		2
 žeženijem			2
 žigosanjem	26		2
-žigošem	10		2
+žigošem	10		3
 žilavijem			4
 žirijem	328		2
 žiriranjem			2
@@ -4747,7 +4747,7 @@ badijem			2
 barijem	18		2
 bdijenjem			2
 berijem			2
-bijelcem			2
+bijelcem			3
 bijelijem			2
 bijelićem			2
 bijem	284		2
@@ -4797,25 +4797,25 @@ perjem	596		2
 pijenjem	129		2
 pjevanjem			2
 pjevačem			2
-pobjegnem			2
+pobjegnem			3
 pobjeđujem			2
-posjedujem			3
+posjedujem			4
 posjećujem			2
 povjerenjem			2
-povjerujem			3
+povjerujem			4
 pretjerujem			2
-prijeđem			2
+prijeđem			3
 primjećujem			2
 procjenjujem			2
 prodijem			2
 rastijem			2
-razumijem	1019		2
+razumijem	1019		3
 razumijevanjem	92		2
 razumjem			2
 rješavanjem			2
-rješenjem			2
+rješenjem			3
 salijem			2
-savjetujem			3
+savjetujem			4
 sijem	21		2
 siječem	10		3
 sjedištem			3
@@ -4823,7 +4823,7 @@ sjednem			2
 sjemenjem			2
 sjećanjem			3
 slijedećem			2
-slijepcem			2
+slijepcem			3
 smijem	520		2
 smještajem			3
 svijem	353		2
@@ -4831,13 +4831,13 @@ svjedočenjem			2
 svježem			2
 trijem	50		1
 ubjeđujem			2
-umijem	216		2
-uspijem	82		2
+umijem	216		3
+uspijem	82		3
 uvjerenjem			2
 vašijem			2
 vijem			2
-vijencem	66		2
-vijećem	99		2
+vijencem	66		3
+vijećem	99		3
 vjenčanjem			2
 vjerovanjem			4
 vjerujem			3

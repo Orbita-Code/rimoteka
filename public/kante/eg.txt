@@ -2,7 +2,7 @@
 aktivnijeg	123		4
 alajbeg			2
 ambicioznijeg			6
-apstraktnijeg			3
+apstraktnijeg			4
 babljeg			2
 badnjeg	108		2
 bahatijeg			4
@@ -11,10 +11,10 @@ bednijeg			3
 beg	2128		1
 beglerbeg			2
 beleg	351		2
-beskrupuloznijeg			5
-besmislenijeg			4
-besnijeg			2
-bezbednijeg	114		3
+beskrupuloznijeg			6
+besmislenijeg			5
+besnijeg			3
+bezbednijeg	114		4
 bezumnijeg			3
 biljeg	89		2
 bistrijeg			3
@@ -27,7 +27,7 @@ blistavijeg			4
 bližeg	386		2
 bližnjeg	499		2
 bljutavijeg			4
-bogatijeg	161		3
+bogatijeg	161		4
 boljeg	8397		2
 bolnijeg			3
 božijeg	1756		3
@@ -41,19 +41,19 @@ bubreg	1105		2
 budućeg	7968		2
 cenjenijeg			4
 crtaćeg	11		2
-dalekosežnijeg			3
+dalekosežnijeg			4
 daljeg	7504		2
 daljnjeg	1443		2
-današnjeg	11418		2
+današnjeg	11418		3
 davnašnjeg	86		2
 davnijeg			2
 debljeg			2
 delajućeg			2
 delujućeg			2
-desetogodišnjeg	501		2
+desetogodišnjeg	501		3
 desnijeg			2
 detaljnijeg	152		4
-detinjeg	70		2
+detinjeg	70		3
 devetogodišnjeg	129		2
 dečijeg			2
 dečjeg	3095		2
@@ -64,15 +64,15 @@ docnijeg			2
 dolazećeg	177		2
 domaćeg	11778		2
 donjeg	4346		2
-dosadašnjeg	3341		2
+dosadašnjeg	3341		3
 dosadnijeg	13		4
 doseg	126		2
 dotadašnjeg	579		2
-dragocenijeg	11		3
-dramatičnijeg	11		3
+dragocenijeg	11		4
+dramatičnijeg	11		4
 dražeg			2
 drskijeg			2
-drugačijeg	2173		2
+drugačijeg	2173		3
 drukčijeg	135		2
 držećeg			2
 dubećeg			2
@@ -84,20 +84,20 @@ dužeg	3545		2
 dvogodišnjeg	782		2
 dvopreg	22		2
 eeg			2
-efektnijeg	17		3
+efektnijeg	17		4
 erceg			2
 finijeg	22		3
 geg	69		1
-gladnijeg			2
+gladnijeg			3
 glasnijeg	19		3
 glavnokomandujućeg	143		2
-godišnjeg	6823		2
+godišnjeg	6823		3
 goreg	646		2
 gornjeg	4942		2
 gorućeg	142		2
 gospodnjeg			2
 gostujućeg	555		2
-goveđeg	374		2
+goveđeg	374		3
 greg			1
 grešnijeg			3
 grgeteg			2
@@ -111,10 +111,10 @@ hiljadugodišnjeg	89		2
 hitnijeg	36		3
 hitrijeg			3
 hladećeg			2
-hladnijeg	110		2
-hodajućeg	21		3
+hladnijeg	110		3
+hodajućeg	21		4
 hotećeg			2
-hrabrijeg	15		2
+hrabrijeg	15		3
 humanijeg	121		4
 idućeg	1079		2
 ikojeg			3
@@ -127,14 +127,14 @@ iskačućeg			2
 iskusnijeg	199		4
 izlazećeg	334		2
 izmičućeg			2
-iznenađujućeg	107		3
+iznenađujućeg	107		4
 iznurenijeg			2
 izvinjavajućeg			2
 izvornijeg			2
 ičeg			2
 jagnjećeg	135		2
 jahaćeg	20		2
-jarećeg	26		2
+jarećeg	26		3
 jasnijeg	117		3
 javnijeg			2
 jačeg	1923		2
@@ -149,7 +149,7 @@ jurećeg			2
 jutarnjeg	1097		3
 jutrašnjeg			2
 jutrošnjeg	97		3
-jučerašnjeg	2656		2
+jučerašnjeg	2656		3
 južnijeg	13		2
 kajućeg			2
 karabeg			2
@@ -166,9 +166,9 @@ krajnjeg	2161		2
 kravljeg	739		2
 kraćeg	1238		2
 kreg			1
-krmećeg			2
+krmećeg			3
 krnjeg	44		2
-krupnijeg	99		2
+krupnijeg	99		3
 kukavičjeg	78		2
 kultnijeg			2
 kupaćeg	217		2
@@ -181,10 +181,10 @@ lepšeg	1676		2
 letećeg	278		2
 letnjeg			2
 ležećeg			2
-lisičjeg	19		2
+lisičjeg	19		3
 ljubećeg			2
 ljupkijeg			2
-logičnijeg	22		3
+logičnijeg	22		4
 lošeg	9186		2
 lukavijeg			4
 lutajućeg	60		2
@@ -196,11 +196,11 @@ maternjeg			2
 mačijeg			2
 mačjeg	53		2
 maštajućeg			2
-medveđeg	33		2
+medveđeg	33		3
 mekšeg	64		2
 milijeg			3
 milujućeg			2
-mirnijeg	84		2
+mirnijeg	84		3
 mirujućeg			2
 mislećeg	92		2
 mlađeg	2431		2
@@ -209,48 +209,48 @@ mogućeg	3917		3
 mojeg	268		2
 moćnijeg	130		3
 mravljeg	17		2
-mudrijeg	32		2
+mudrijeg	32		3
 nadirućeg	25		2
 nadolazećeg	228		2
-naglijeg			2
+naglijeg			3
 najaktivnijeg			5
 najakutnijeg			5
 najambicioznijeg			7
 najanonimnijeg			6
-najapstraktnijeg			4
-najaromatičnijeg			4
+najapstraktnijeg			5
+najaromatičnijeg			5
 najbahatijeg			5
 najbanalnijeg			4
-najbeskrupuloznijeg			6
-najbesnijeg			3
-najbezazlenijeg			4
+najbeskrupuloznijeg			7
+najbesnijeg			4
+najbezazlenijeg			5
 najbeznačajnijeg			6
 najblažeg	13		3
 najbleštavijeg			5
 najblistavijeg			5
 najbližeg	912		3
-najbogatijeg	286		4
+najbogatijeg	286		5
 najboljeg	10682		3
 najbržeg	343		3
 najcrnjeg	62		3
-najdaljeg	27		2
+najdaljeg	27		3
 najdavnijeg			2
 najdivljijeg			2
 najdivnijeg	16		4
 najdičnijeg			2
 najdražeg	93		3
-najdubljeg	140		2
+najdubljeg	140		3
 najdužeg	173		3
 najfinijeg	117		4
 najglupljeg	22		3
 najgoreg	728		3
 najgradskijeg			3
-najhladnijeg	31		3
-najhrabrijeg	38		3
+najhladnijeg	31		4
+najhrabrijeg	38		4
 najhvaljenijeg			2
 najintimnijeg	20		5
 najjačeg	477		3
-najkraćeg	67		2
+najkraćeg	67		3
 najkrućeg			3
 najlakšeg	71		3
 najlepšeg	505		3
@@ -259,20 +259,20 @@ najljubaznijeg			5
 najljućeg	65		3
 najlošijeg	100		4
 najluđeg	24		3
-najmanjeg	796		2
+najmanjeg	796		3
 najmekšeg			3
 najmilijeg	49		4
 najmlađeg	641		3
 najmoćnijeg	265		4
-najmračnijeg	31		3
+najmračnijeg	31		4
 najneuglednijeg			6
 najnižeg	516		3
 najnovijeg	1642		4
-najobičnijeg	132		4
+najobičnijeg	132		5
 najopasnijeg			2
 najosnovnijeg	42		5
 najpametnijeg	53		5
-najplemenitijeg	44		4
+najplemenitijeg	44		5
 najpopularnijeg	516		6
 najpoznatijeg	930		5
 najpoželjnijeg	76		5
@@ -280,50 +280,50 @@ najprisnijeg	12		4
 najprivatnijeg			2
 najpunijeg			4
 najranijeg	323		4
-najrazličitijeg	81		5
-najružnijeg	31		3
-najsiromašnijeg	58		4
-najsitnijeg	144		3
+najrazličitijeg	81		6
+najružnijeg	31		4
+najsiromašnijeg	58		5
+najsitnijeg	144		4
 najskupljeg	200		3
-najskupocenijeg			4
+najskupocenijeg			5
 najslabijeg	119		4
 najslavnijeg	113		4
 najslađeg	32		3
 najslepljeg			2
-najsmrtonosnijeg	23		5
-najsnažnijeg	78		3
+najsmrtonosnijeg	23		6
+najsnažnijeg	78		4
 najsrećnijeg	44		4
 najstarijeg	1463		4
-najstrašnijeg	87		3
+najstrašnijeg	87		4
 najstrožeg	33		3
 najsvetijeg	82		4
-najtajanstvenijeg			4
+najtajanstvenijeg			5
 najtajnijeg			4
 najtešnjeg			2
-najtežeg	272		2
+najtežeg	272		3
 najtoplijeg	65		4
 najtraženijeg	152		2
 najtvrđeg	25		3
 najudaljenijeg	48		5
 najuglednijeg	98		5
 najumnijeg			4
-najuspešnijeg	498		4
+najuspešnijeg	498		5
 najužeg	174		3
-najvažnijeg	739		3
+najvažnijeg	739		4
 najveselijeg	12		5
-najvećeg	9199		2
-najvišeg	3310		2
-najvrednijeg	109		3
+najvećeg	9199		3
+najvišeg	3310		3
+najvrednijeg	109		4
 najzapadnijeg			2
 najzgodnijeg	13		4
 najznačajnijeg	489		5
 najčešćeg	80		3
 najčudnijeg	10		4
 najčvršćeg	13		3
-najšireg	262		2
-najžešćeg	41		2
+najšireg	262		3
+najžešćeg	41		3
 najživljeg			3
-nakaznijeg			3
+nakaznijeg			4
 nalazećeg			2
 napornijeg			3
 nastajućeg			2
@@ -335,10 +335,10 @@ nekadanjeg	22		2
 nekadašnjeg	6131		4
 nekojeg			3
 nemogućeg	325		4
-neodgovarajućeg	239		3
+neodgovarajućeg	239		4
 neodređujućeg			2
 nepodesnijeg			2
-nepostojećeg	382		3
+nepostojećeg	382		4
 nerđajućeg	1152		2
 nesrećnijeg	10		2
 nestajućeg			2
@@ -349,21 +349,21 @@ ničeg	3508		2
 nižeg	1694		2
 nosećeg	115		2
 novijeg	1100		3
-noćašnjeg	70		2
+noćašnjeg	70		3
 obećavajućeg	37		2
 obilnijeg	34		4
 obimnijeg	49		4
-običnijeg			3
+običnijeg			4
 obližnjeg	1260		2
 obuhvatnijeg	16		2
-odgovarajućeg	3473		3
+odgovarajućeg	3473		4
 odlazećeg	281		2
 odlučnijeg	24		4
 određujućeg			2
 odumirućeg			2
 oleg			2
 omanjeg	122		3
-ondašnjeg	485		2
+ondašnjeg	485		3
 onižeg	14		2
 opadajućeg	72		2
 opasnijeg			2
@@ -371,7 +371,7 @@ opseg	3637		2
 općeg			2
 opširnijeg	18		4
 opšteg	9713		2
-osetnijeg	40		3
+osetnijeg	40		4
 osiguravajućeg	490		2
 osluškujućeg			2
 osmogodišnjeg	226		2
@@ -379,7 +379,7 @@ osobenijeg			2
 osrednjeg	230		3
 osuđujućeg			2
 otužnijeg			2
-ovdašnjeg	1132		2
+ovdašnjeg	1132		3
 ovećeg	13		3
 ovogodišnjeg	6373		2
 ovčijeg	206		2
@@ -395,10 +395,10 @@ pametnijeg	232		4
 pasjeg	20		2
 pačijeg			2
 pačjeg			2
-pažljivijeg	17		3
+pažljivijeg	17		4
 petnaestogodišnjeg	118		2
 petogodišnjeg	642		2
-pilećeg	603		2
+pilećeg	603		3
 pisaćeg	72		2
 plićeg	42		2
 plutajućeg	79		2
@@ -407,27 +407,27 @@ podrobnijeg	18		4
 podužeg	118		2
 poetičnijeg			2
 pogodnijeg	31		4
-pokojeg	83		2
+pokojeg	83		3
 poludivljeg			2
 ponajboljeg	27		2
 ponajvećeg			2
 ponečeg			2
 ponižavajućeg	212		2
-poslednjeg	15853		2
-posljednjeg		J	2
+poslednjeg	15853		3
+posljednjeg		J	3
 posnijeg			2
 postarijeg	12		2
-postojećeg	6622		3
+postojećeg	6622		4
 potanjeg			2
 poteg			2
 potonjeg	489		2
-potpunijeg	158		3
+potpunijeg	158		4
 povećeg	63		2
 povoljnijeg	309		4
 poznatijeg	630		4
 poznijeg			2
 počivšeg	164		2
-poštenijeg	32		3
+poštenijeg	32		4
 poželjnijeg	13		4
 prasećeg			2
 pratećeg	783		2
@@ -436,47 +436,47 @@ prebeg	69		2
 prednjeg	1611		2
 predsedavajućeg	1616		2
 predstojećeg	1763		2
-predzadnjeg	13		2
+predzadnjeg	13		3
 presudnijeg			4
 pretećeg	141		2
 prečeg	380		2
 pređašnjeg			2
-prikladnijeg	15		3
+prikladnijeg	15		4
 prisnijeg	16		3
 proletnjeg			2
 prostijeg	25		3
-prostranijeg			3
+prostranijeg			4
 protivteg			2
-prošlogodišnjeg	2697		2
+prošlogodišnjeg	2697		3
 psećeg	132		2
 ptičijeg	196		2
 ptičjeg	349		2
 punijeg	70		3
 putujućeg	171		2
 puzećeg			2
-pčelinjeg	463		2
+pčelinjeg	463		3
 racionalnijeg	108		6
 radosnijeg			4
 ranijeg	1849		3
 rastućeg	536		2
 ratujućeg			2
-razboritijeg			4
+razboritijeg			5
 realnijeg	44		4
-rečitijeg			3
+rečitijeg			4
 ređeg	30		2
 ribljeg	722		2
 riđeg	32		2
 rotirajućeg	86		2
 rođenijeg			2
-sadašnjeg	5081		2
+sadašnjeg	5081		3
 sedećeg	148		2
 sedmogodišnjeg	273		2
 sigurnijeg	169		4
 silnijeg	14		3
 sinjeg	64		2
 sinoćnjeg	245		3
-sitnijeg	80		2
-sjajnijeg	23		2
+sitnijeg	80		3
+sjajnijeg	23		3
 sklonijeg			3
 skorašnjeg	227		2
 skorijeg	168		2
@@ -489,11 +489,11 @@ sledećeg	9628		2
 sljedećeg		J	2
 složenijeg	98		4
 služećeg			2
-smelijeg			2
+smelijeg			3
 smeđeg	168		2
-snažnijeg	244		2
+snažnijeg	244		3
 sneg	12290		1
-spoljašnjeg	1761		2
+spoljašnjeg	1761		3
 spoljnjeg	538		2
 sporednijeg			4
 sporijeg	219		3
@@ -501,7 +501,7 @@ sposobnijeg	44		4
 spretnijeg			3
 sramnijeg			3
 sramotnijeg			4
-središnjeg	425		2
+središnjeg	425		3
 srednjeg	8900		2
 srećnijeg	94		3
 srnećeg	16		2
@@ -510,18 +510,18 @@ starijeg	3529		3
 steg	101		1
 stojećeg	117		2
 strateg	1825		2
-strašnijeg	65		2
+strašnijeg	65		3
 stražnjeg	46		2
 strožeg	28		2
 stručnijeg	41		3
 stvarnijeg			3
-subotnjeg	311		2
+subotnjeg	311		3
 sudnjeg	393		2
 sumnjajućeg			2
-surovijeg	16		3
-sutrašnjeg	866		2
+surovijeg	16		4
+sutrašnjeg	866		3
 suzdržanijeg			2
-svagdašnjeg	19		2
+svagdašnjeg	19		3
 svakidašnjeg	96		4
 svakojeg			3
 svačeg			2
@@ -530,32 +530,32 @@ sveg	1225		1
 svemogućeg	152		4
 sveopćeg	15		2
 sveopšteg			2
-svestranijeg	23		3
+svestranijeg	23		4
 svetijeg			3
 svevidećeg	55		2
 svevišnjeg	197		2
-svečanijeg			3
+svečanijeg			4
 svežeg	3681		2
 svojeg	778	J	2
-tadanjeg	30		2
-tadašnjeg	4912		2
+tadanjeg	30		3
+tadašnjeg	4912		3
 tajnijeg			3
-tamnijeg	69		2
+tamnijeg	69		3
 tamošnjeg	977		3
 tačnijeg	41		3
 teg	479		1
 tekućeg	2303		2
-telećeg	84		2
+telećeg	84		3
 temeljnijeg	20		2
 tešnjeg			2
 težeg	519		2
 tinjajućeg	17		2
-tipičnijeg			3
-tobožnjeg	180		2
+tipičnijeg			4
+tobožnjeg	180		3
 tonućeg	14		2
 toplijeg	91		3
 tražećeg			2
-treperavijeg			3
+treperavijeg			4
 tresućeg			2
 trećeg	16021		2
 trinaestogodišnjeg	59		2
@@ -563,7 +563,7 @@ trkaćeg	11		2
 trogodišnjeg	847		2
 tropreg			2
 tuđeg	1587		2
-tužnijeg	11		2
+tužnijeg	11		3
 tvojeg	21		2
 tvrđeg	83		2
 ubrzanijeg			2
@@ -572,12 +572,12 @@ uglednijeg	14		4
 ulazećeg			2
 umirućeg	146		2
 umnijeg			3
-unutarnjeg	310		3
-unutrašnjeg	4644		3
+unutarnjeg	310		4
+unutrašnjeg	4644		4
 upijajućeg			2
 urlajućeg			2
 uskršnjeg	269		2
-uspešnijeg	263		3
+uspešnijeg	263		4
 uteg	48		2
 uzlazećeg			2
 uznemirujućeg	57		2
@@ -589,37 +589,37 @@ varajućeg			2
 vaskršnjeg	254		2
 vašeg	7937		2
 važećeg	1191		2
-važnijeg	244		2
+važnijeg	244		3
 vedrijeg	17		3
 vernijeg			2
 verujućeg	127		2
 veselijeg	10		4
 većeg	14282		2
-večerašnjeg	336		2
+večerašnjeg	336		3
 večernjeg	588		2
 veštijeg			3
 veštičijeg			2
 veštičjeg			2
-vidljivijeg	16		3
+vidljivijeg	16		4
 vidnijeg	15		2
 visećeg	96		2
 višeg	5596		2
 višegodišnjeg	1770		2
 višnjeg	42		2
-vladajućeg	1012		3
+vladajućeg	1012		4
 vodećeg	1633		2
 vražijeg			2
 vražjeg	26		2
-vrednijeg	37		2
+vrednijeg	37		3
 vrištećeg			2
 vrućeg	409		2
 vučjeg	50		2
 zadivljujućeg	52		2
 zadnjeg	3429		2
-zadovoljavajućeg	444		3
+zadovoljavajućeg	444		4
 zalazećeg	70		2
 zapanjujućeg	73		2
-zastrašujućeg	169		3
+zastrašujućeg	169		4
 zbeg	208		1
 zbunjujućeg	23		2
 zdravijeg	160		3

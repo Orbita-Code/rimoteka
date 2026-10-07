@@ -7,8 +7,8 @@ alfredo			2
 avokado	484		2
 bando	89		2
 bedo	28		2
-besedo			2
-besjedo			2
+besedo			3
+besjedo			3
 bezbrado			2
 bledo	973		2
 bodo			2
@@ -44,7 +44,7 @@ gnjido	17		2
 godo			2
 gordo	388		2
 gospodo	11618		2
-govedo	177		2
+govedo	177		3
 grdo	10		2
 gromado			2
 grudo			2
@@ -58,10 +58,10 @@ judo			2
 kado	11		2
 kandido			2
 kendo			2
-koledo	13		2
+koledo	13		3
 kolorado			2
 komodo			2
-kratkovido		M	2
+kratkovido		M	3
 krdo	362		2
 kredo	16		2
 krešendo	71		2
@@ -71,9 +71,9 @@ lado		M	2
 lando			2
 legendo	80		2
 leonardo			2
-libido	658		2
+libido	658		3
 lido			2
-livado			2
+livado			3
 ludo	2128		2
 medo	192		2
 mikado	10		2
@@ -97,7 +97,7 @@ prado			2
 pravdo			2
 premlado			2
 pretvrdo			2
-prirodo			2
+prirodo			3
 pseudo			2
 rado	16285		2
 renodo			2
@@ -120,7 +120,7 @@ tornado	443		2
 torpedo	116		2
 tvrdo	2074		2
 udo		M	2
-uhodo			2
+uhodo			3
 uludo	456		3
 uporedo	5067		2
 usporedo			2
@@ -132,9 +132,9 @@ vlado	163		2
 vodo	80		2
 vojevodo			2
 vojvodo	52		3
-začudo	695		2
+začudo	695		3
 zlorado			2
-zlurado	246		2
+zlurado	246		3
 zvezdo	55		2
 čedo	2504		2
 čudo	18443		2
@@ -142,4 +142,4 @@ zvezdo	55		2
 širokogrudo			2
 blijedo	89		3
 gnijezdo	148		2
-zvijezdo			2
+zvijezdo			3

@@ -4,32 +4,32 @@ buđi	307		2
 dođi	2463		2
 gleđi	238		2
 gospođi	1587		3
-goveđi	142		2
+goveđi	142		3
 građi	980		2
 grđi	31		2
 gđi	101		1
 horovođi			2
 izađi	648		2
 iziđi	104		2
-knjigovođi	33		3
+knjigovođi	33		4
 krađi	1373		2
 labuđi			3
 lađi	380		2
 luiđi			2
 luđi	210		2
 mašinovođi	15		2
-medveđi	267		2
+medveđi	267		3
 međi	272		2
 mlađi	10362		2
 najgrđi	23		3
 najluđi	210		3
 najmlađi	5498		3
-najređi	106		2
+najređi	106		3
 najslađi	223		3
 najtvrđi	147		3
 nađi	1245		2
 obiđi	58		2
-omeđi	42		2
+omeđi	42		3
 otiđi	107		2
 otuđi	257		2
 peđi			2
@@ -41,8 +41,8 @@ priđi	192		2
 pronađi	462		2
 prođi	184		2
 raziđi			2
-razmeđi			2
-računovođi	18		2
+razmeđi			3
+računovođi	18		3
 ređi	715		2
 riđi	65		2
 rđi	26		2
@@ -53,7 +53,7 @@ smeđi	381		2
 snađi	135		2
 srđi			2
 svađi	797		2
-tromeđi	367		2
+tromeđi	367		3
 tuđi	1879		2
 tvrđi	530		2
 uziđi	10		2
@@ -65,6 +65,6 @@ zađi			2
 čađi	543		2
 žeđi	643		2
 žitorađi			2
-medvjeđi			2
-prijeđi			2
-rjeđi	27		2
+medvjeđi			3
+prijeđi			3
+rjeđi	27		3

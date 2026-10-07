@@ -29,18 +29,18 @@ adekvatan	5552		4
 administrativan	23		6
 adoptiran			3
 adresiran	54		4
-aerodinamičan	58		2
+aerodinamičan	58		3
 aeroplan	37		4
 afektivan			4
 afganistan			2
 afirmativan			5
 afirmisan	131		2
-aforističan			2
+aforističan			3
 agilan	175		3
 agraran			2
 agreman			2
 agresivan	1472		4
-ahromatičan			2
+ahromatičan			3
 akcentovan	44		4
 akcidentalan			5
 akreditovan	1083		5
@@ -50,13 +50,13 @@ aktualan			4
 aktuelan	1915		4
 akumuliran	34		2
 akumulisan			2
-akustičan	38		2
+akustičan	38		3
 akutan	112		3
 alan		M	2
 alarmantan	325		2
 alarmiran			2
-alegoričan			2
-alergičan	410		2
+alegoričan			3
+alergičan	410		3
 alociran	14		4
 alternativan			5
 aluzivan			4
@@ -67,17 +67,17 @@ ambijentalan			5
 amfiteatralan			6
 amnestiran	127		2
 amoralan	36		4
-amorfan	16		2
+amorfan	16		3
 amortizovan	22		5
 amputiran	32		2
 anacionalan			6
-analitičan	158		2
+analitičan	158		3
 analiziran	438		2
 analogan	143		4
-anarhičan	22		2
+anarhičan	22		3
 anatemisan			2
 anektiran	10		2
-anemičan	79		2
+anemičan	79		3
 angažman	4381		2
 angažovan	3378		4
 animalan			4
@@ -87,62 +87,62 @@ anksiozan	27		4
 anoniman	999		4
 anormalan			4
 antikvaran			4
-antinaučan			2
-antipatičan	77		2
-antireligiozan			4
-antiseptičan			2
+antinaučan			3
+antipatičan	77		3
+antireligiozan			5
+antiseptičan			3
 antoan			2
 anuliran	55		2
-apartan		M	2
+apartan		M	3
 apartman	2651		2
-apatičan	88		2
+apatičan	88		3
 apetitan		M	4
 aplikativan			5
-apodiktičan		M	2
-apokaliptičan			2
-apokrifan			2
-apolitičan	117		2
+apodiktičan		M	3
+apokaliptičan			3
+apokrifan			3
+apolitičan	117		3
 aprioran			4
 apsolutan	192		4
 apsolviran	19		2
 apsorbovan	41		4
-apstraktan	264		2
-apsurdan	238		2
+apstraktan	264		3
+apsurdan	238		3
 aranžiran			2
 aranžman	4666		2
 arbitraran	28		4
-arhaičan	119		2
+arhaičan	119		3
 arhiviran			4
-aritmičan			2
+aritmičan			3
 arizan			3
 arkan			2
 armiran			2
 arogantan	319		2
-aromatičan	143		2
+aromatičan	143		3
 arslan			2
 aseksualan	18		5
-aseptičan		M	2
+aseptičan		M	3
 asfaltiran	330		4
-asimetričan	144		2
-asimilovan	23		4
+asimetričan	144		3
+asimilovan	23		5
 asocijalan	62		5
 asocijativan			6
 asortiman	3991		2
-astigmatičan			2
-astmatičan			2
+astigmatičan			3
+astmatičan			3
 astrahan		M	2
 astralan			2
 ataman	71		2
-atipičan	155		2
+atipičan	155		3
 atomiziran			2
 atraktivan	2435		4
 atrofiran			4
 auditivan			5
-autentičan	1468		2
-autističan	74		2
+autentičan	1468		3
+autističan	74		3
 autokefalan			2
 automatizovan	357		2
-autonoman	253		4
+autonoman	253		5
 autoritativan	112		7
 avan		M	2
 avangardan	91		4
@@ -158,7 +158,7 @@ bajan	89		2
 bakaran			2
 baksuzan		M	2
 balaban			2
-baladičan			2
+baladičan			3
 balansiran	105		2
 baletan	46		2
 balkan			2
@@ -171,10 +171,10 @@ bankrotiran			4
 basnoslovan	22		4
 batinan			2
 baziran	3726		2
-bazičan			2
+bazičan			3
 baštovan		M	2
 bedan	531		2
-belodan			2
+belodan			3
 beloputan			2
 beneficiran	59		2
 benigan	39		2
@@ -182,110 +182,110 @@ bergman			2
 berićetan		M	4
 besadržajan		M	5
 besan	1477		2
-besavestan		M	2
+besavestan		M	3
 besciljan	24		2
 beskarakteran			2
 beskišan			2
-besklasan			2
-beskompromisan	243		4
-beskonačan	387		2
+besklasan			3
+beskompromisan	243		5
+beskonačan	387		3
 beskorisan			2
-beskoristan	306		3
+beskoristan	306		4
 beskrajan	272		2
-beskrupulozan	104		4
+beskrupulozan	104		5
 beskrvan			2
 beskućan			3
 beskvasan			2
 beslovesan		M	4
-besmrtan	294		2
+besmrtan	294		3
 besomučan	31		2
 bespilotan			4
-besplatan	9806		2
-besplodan	17		2
+besplatan	9806		3
+besplodan	17		3
 bespogovoran			5
 bespokojan			4
 bespomoćan	217		4
 besporočan		M	4
 bespotreban	145		4
 bespočetan			4
-bespoštedan			2
+bespoštedan			3
 bespravan	24		2
-bespredmetan	70		2
+bespredmetan	70		3
 besprekidan			2
 besprekoran	628		2
 besprimeran	16		2
 besprincipijelan		M	6
-besputan		M	2
+besputan		M	3
 besraman	27		2
 bestelesan	51		4
 bestidan	30		2
 bestijalan	16		4
-besvestan			2
-bezalkoholan			4
+besvestan			3
+bezalkoholan			5
 bezazoran		M	4
-bezbedan	3666		2
+bezbedan	3666		3
 bezbojan	116		3
 bezbolan	550		2
-bezbožan	25		2
+bezbožan	25		3
 bezbračan			2
-bezbrižan	358		2
+bezbrižan	358		3
 bezbrojan			2
 bezdan	594		2
 bezdetan		M	2
-bezdušan	43		2
-bezglasan	17		2
+bezdušan	43		3
+bezglasan	17		3
 bezgnevan			2
 bezgraničan	56		4
-bezgrešan	242		2
+bezgrešan	242		3
 bezidejan			2
 beziman			2
 bezizgledan			4
-bezizlazan	44		2
+bezizlazan	44		3
 bezizrazan		M	4
-bezličan	147		2
-bezloban			3
-bezlogičan			2
+bezličan	147		3
+bezloban			2
+bezlogičan			3
 bezmasan			2
 bezmeran			2
 bezmesan			2
 bezmilostan		M	2
-beznadan	11		2
+beznadan	11		3
 beznadežan	162		2
 beznačajan	550		4
 beznačelan			4
-bezobličan	22		2
-bezobrazan	691		2
+bezobličan	22		3
+bezobrazan	691		3
 bezobziran	182		4
 bezopasan	445		4
 bezosećajan	84		5
 bezotporan			4
-bezočan	41		2
-bezrazložan	76		2
+bezočan	41		3
+bezrazložan	76		3
 bezrezervan			2
 bezrodan			2
 bezukusan		M	2
 bezuman	113		2
 bezuslovan	84		4
-bezuspešan	99		2
+bezuspešan	99		3
 bezutešan			2
 bezuzročan			4
-bezvazdušan		M	2
+bezvazdušan		M	3
 bezveran			2
-bezvezan	78		2
+bezvezan	78		3
 bezvidan			2
-bezvodan	19		2
+bezvodan	19		3
 bezvoljan	84		2
 bezvredan	288		3
-bezvučan			2
+bezvučan			3
 bešavan			2
-bešuman	90		2
-bešćutan			2
-beščastan		M	2
+bešuman	90		3
+bešćutan			3
+beščastan		M	3
 beščedan			2
-beživotan	40		3
-bežičan			2
+beživotan	40		4
+bežičan			3
 biblioman		M	2
-bigotan		M	2
+bigotan		M	3
 bilateralan	22		5
 bilingualan			5
 bilingvalan			4
@@ -302,7 +302,7 @@ bjukenan			2
 blagdan	269		2
 blagodaran		M	4
 blagodatan			4
-blagodušan		M	2
+blagodušan		M	3
 blagoglasan			4
 blagorodan		M	4
 blagosiljan	24		2
@@ -310,7 +310,7 @@ blagosrdan			4
 blagotvoran	262		4
 blagoveran			4
 blagozvučan			2
-blasfemičan			2
+blasfemičan			3
 blatan			2
 blatobran	59		3
 blaziran			2
@@ -337,7 +337,7 @@ bolesan			2
 bolestan	3657		3
 bolvan			2
 bombardovan	381		4
-bombastičan	64		2
+bombastičan	64		3
 bonvivan	47		2
 boran			2
 borjan			2
@@ -356,7 +356,7 @@ briljantan	451		2
 brisan	173		2
 brizantan			2
 brižan	254		2
-brložan			2
+brložan			3
 brojan	122		2
 bronzan			2
 broširan			2
@@ -383,31 +383,31 @@ celishodan	55		4
 celobrojan			4
 celodnevan			4
 celofan	244		2
-celokupan	4190		2
+celokupan	4190		3
 centralizovan			5
 centrifugalan			2
 centripetalan		M	5
 centriran	113		2
-cenzurisan	140		2
+cenzurisan	140		3
 cepan			2
 ceremonijalan			6
 cican			2
-cikličan	35		2
-cilindričan	33		2
+cikličan	35		3
+cilindričan	33		3
 ciljan			2
-ciničan	450		2
+ciničan	450		3
 cinkan			2
 cinčan			2
 cirkularan			4
 citiran	438		2
-civilizovan	664		2
+civilizovan	664		3
 crtan			2
 crvotočan			4
 cvetan	56		2
 cvijan			2
 dajan			2
 dalekometan			5
-dalekosežan	117		2
+dalekosežan	117		3
 damjan			2
 damljan			2
 damnjan			2
@@ -429,7 +429,7 @@ decidiran	69		4
 decimalan			4
 deduktivan			4
 defanzivan	108		4
-defektan	94		2
+defektan	94		3
 deficitaran	133		5
 definiran			4
 definisan	3920		2
@@ -456,7 +456,7 @@ dekuražiran			2
 delatan	66		2
 delegiran	117		4
 delikatan	455		4
-delimičan	372		2
+delimičan	372		3
 deljan			2
 delotvoran	906		4
 demantiran			4
@@ -498,13 +498,13 @@ dezorjentisan			2
 dešifriran			4
 dešifrovan	26		4
 dežuran	120		2
-didaktičan			2
-dielektričan			2
+didaktičan			3
+dielektričan			3
 diferencijalan			6
-difteričan		M	2
+difteričan		M	3
 difuzan			3
 digitalan	81		4
-dijaboličan			2
+dijaboličan			3
 dijagnosticiran	23		2
 dijagnostikovan	367		6
 dijagnoziran			2
@@ -512,24 +512,24 @@ dijametralan			5
 dijetalan	15		4
 diktiran	79		2
 dilan			2
-dinamičan	2287		2
+dinamičan	2287		3
 dinstan			2
 diplomiran	16		4
 diran	34		2
-direktan	7222		2
+direktan	7222		3
 dirigovan	71		4
 discipliniran			2
 disciplinovan	238		5
-disharmoničan			2
+disharmoničan			3
 diskordantan			2
 diskreditovan	71		5
-diskretan	455		2
+diskretan	455		3
 diskurzivan			4
 diskutabilan	294		5
 diskutovan	17		4
 diskvalificiran			2
 diskvalifikovan	299		6
-disleksičan			2
+disleksičan			3
 dislociran	49		4
 disonantan	25		2
 disparatan			4
@@ -545,7 +545,7 @@ divljan		M	2
 divljačan		M	2
 divotan			2
 dizajniran	7062		4
-dizenteričan			2
+dizenteričan			3
 dičan	16		2
 dišan			2
 dlan	1443		1
@@ -554,8 +554,8 @@ doberman	73		2
 dobijan	25		2
 dobitan			2
 dobran			2
-dobrodušan	74		2
-dobronameran	784		2
+dobrodušan	74		3
+dobronameran	784		3
 dobrotvoran			4
 dobrovoljan	251		4
 dobroćudan	121		4
@@ -564,8 +564,8 @@ dodan	84		2
 dodatan	744		3
 dodavan	50		2
 dodeljivan	67		2
-dogledan			2
-dogmatičan			2
+dogledan			3
+dogmatičan			3
 dograđivan	46		4
 doguran			2
 dokazan	545		2
@@ -573,7 +573,7 @@ dokončan			2
 doktrinaran			4
 dokumentaran			5
 dokumentovan	282		5
-doličan	37		2
+doličan	37		3
 domentijan			2
 dominantan	2601		2
 domišljan			2
@@ -584,23 +584,23 @@ dopreman	38		2
 dopunjavan	84		2
 dorađivan	25		2
 dosadan	2272		3
-dosledan	1574		2
-dosljedan		J	2
+dosledan	1574		3
+dosljedan		J	3
 doslovan	73		2
 dostatan	34		2
 dostižan	221		3
 dostojan	2989		2
-dostupan	13337		2
+dostupan	13337		3
 doteran	223		2
 dotiran	36		2
-dotičan			2
+dotičan			3
 dovoljan	14865		3
 dozidan	100		2
 doziran			2
 dozvan	11		2
 dozvoljavan			2
 dočaran	56		2
-dočekan	975		2
+dočekan	975		3
 dočekivan	48		2
 doživljavan	94		2
 doživotan	34		4
@@ -610,8 +610,8 @@ dragoman		M	2
 dragovan			2
 dragovoljan			4
 dramatizovan	14		5
-dramatičan	1099		2
-drastičan	921		2
+dramatičan	1099		3
+drastičan	921		3
 dražesan			2
 dražestan			3
 dremovan			2
@@ -650,17 +650,17 @@ dvobojan	10		2
 dvocevan			2
 dvodelan			2
 dvodimenzionalan			7
-dvojezičan	56		2
+dvojezičan	56		3
 dvokratan			2
 dvokrevetan			4
 dvokrilan			3
-dvoličan	82		2
+dvoličan	82		3
 dvomesečan			4
-dvonožan			2
+dvonožan			3
 dvopolan	13		2
-dvosložan			2
+dvosložan			3
 dvosmeran	102		2
-dvosoban	368		3
+dvosoban	368		2
 dvospolan		M	2
 dvospratan			2
 dvostran	52		2
@@ -672,22 +672,22 @@ džordan			2
 edematozan			5
 edukativan	286		5
 edukovan	170		4
-efektan	641		2
+efektan	641		3
 efektivan	397		4
 efemeran	20		4
 efikasan	6549		4
-egocentričan	41		2
-egoističan	34		2
-egzaktan	133		2
+egocentričan	41		3
+egoističan	34		3
+egzaktan	133		3
 egzaltiran	50		4
 egzemplaran			4
 egzoterman			2
-egzotičan	168		2
+egzotičan	168		3
 eklatantan	144		2
-eklektičan			2
-ekonomičan	641		2
+eklektičan			3
+ekonomičan	641		3
 ekran	10890		2
-ekscentričan	86		2
+ekscentričan	86		3
 ekscesan			2
 ekskluzivan	475		4
 ekskomuniciran	32		2
@@ -700,78 +700,78 @@ eksploatisan	81		2
 eksplozivan	225		4
 eksponiran	90		4
 ekspresan			2
-ekstatičan			2
+ekstatičan			3
 ekstenzivan			4
 ekstravagantan	76		2
 ekstreman	323		2
-ekvivalentan	346		2
+ekvivalentan	346		3
 elan	689		2
-elastičan	489		2
+elastičan	489		3
 elegantan	1621		2
-elegičan			2
+elegičan			3
 elektrisan			2
-električan	25		2
+električan	25		3
 elementaran			5
 eliminisan	628		2
 elipsoidan			2
-eliptičan	18		2
+eliptičan	18		3
 elitan	21		2
 elokventan	151		2
 emancipovan	29		5
-emboličan			2
-emfatičan			2
+emboličan			3
+emfatičan			3
 emilijan			2
 eminentan			2
 emitovan	1255		4
 emocionalan	64		6
 emotivan	595		4
-endemičan			2
-energičan	545		2
+endemičan			3
+energičan	545		3
 enkodiran			4
 enorman	211		2
-entuzijastičan	20		2
-epigramatičan			2
-epileptičan			2
+entuzijastičan	20		3
+epigramatičan			3
+epileptičan			3
 epizodan			4
-epizodičan			2
+epizodičan			3
 epohalan	70		4
 erbakan			2
-erotičan	62		2
+erotičan	62		3
 erotoman	14		2
 eruptivan			4
 esencijalan	93		5
-estetičan	11		2
+estetičan	11		3
 etabliran	46		4
 etan	33		2
 etatiziran			2
-eteričan	15		2
-etičan	46		2
-euforičan	80		2
+eteričan	15		3
+etičan	46		3
+euforičan	80		3
 evakuiran			2
 evakuisan	176		2
 evazivan			4
 eventualan	71		5
 evidentan	883		2
 evidentiran	582		2
-ezoteričan			2
+ezoteričan			3
 fabijan			2
 fabularan			4
 fabulativan			5
 fabulozan			4
-faktičan			2
+faktičan			3
 fakturisan	20		2
 fakultativan	47		5
-faličan	58		2
+faličan	58		3
 falsifikovan	178		5
 familijaran	34		5
 famozan	17		3
 fan	4039		1
 fanatizovan			5
-fanatičan	49		2
-fantastičan	3560		2
-fantazmagoričan			2
+fanatičan	49		3
+fantastičan	3560		3
+fantazmagoričan			3
 farban			2
-farsičan			2
+farsičan			3
 fascinantan	556		2
 fasciniran	657		2
 fatalan	388		3
@@ -807,12 +807,12 @@ fiskalan			2
 fizikalan			4
 flagrantan			2
 flaširan			2
-flegmatičan	18		2
+flegmatičan	18		3
 fleksibilan	1435		4
 florijan			2
 fluidan			3
 fluorescentan			2
-fobičan			2
+fobičan			3
 fokusiran	1484		2
 formalan	377		2
 forman			2
@@ -822,13 +822,13 @@ formulisan	488		2
 forsiran	62		2
 fosforescentan			2
 fosilan			3
-fotogeničan	25		2
+fotogeničan	25		3
 fotografisan	160		2
 fragmentaran			4
 fran			1
 frapantan	129		2
 frekventan	46		2
-frenetičan	19		2
+frenetičan	19		3
 fridman			2
 frigidan			2
 frivolan			3
@@ -843,7 +843,7 @@ gadan	309		2
 gajtan	192		2
 galantan	82		2
 ganjan			2
-garantovan	346		3
+garantovan	346		4
 gardijan			2
 garniran	20		2
 gavan		M	2
@@ -867,10 +867,10 @@ glavan			2
 glaziran			2
 glačan			2
 gledan	282		2
-gljivičan			2
+gljivičan			3
 globalan	184		2
 glomazan	302		3
-glorifikovan	14		3
+glorifikovan	14		4
 glupan	126		2
 gnevan	135		2
 gnjevan			2
@@ -937,45 +937,45 @@ hakovan			2
 halucinantan			2
 han		M	1
 hanan			2
-haotičan	265		2
-harizmatičan	151		2
-harmoničan	377		2
+haotičan	265		3
+harizmatičan	151		3
+harmoničan	377		3
 hartman			2
 hasan			2
 hazardan			2
 heksagonalan			5
-heliocentričan			2
+heliocentričan			3
 helman			2
 henan			2
 hendikepiran	123		2
-heretičan			2
+heretičan			3
 herman			2
-hermetičan	44		2
+hermetičan	44		3
 heteromorfan			2
 heteroseksualan	26		7
 hetman		M	2
 hibridan	11		2
-hidrauličan			2
-himeričan			2
+hidrauličan			3
+himeričan			3
 hiperaktivan	83		5
 hipermangan			2
 hipermoderan		M	2
 hiperproduktivan			6
 hipersenzibilan			6
-hipertoničan			2
+hipertoničan			3
 hipertrofiran			2
 hipnotisan	89		2
 hipnotizovan			5
-hipohondričan			2
+hipohondričan			3
 hipotenzivan			5
-hipotetičan			2
-hipotoničan			2
-histeričan	85		2
+hipotetičan			3
+hipotoničan			3
+histeričan	85		3
 hitan	1608		2
 hladan	3442		2
 hladnokrvan	95		4
 hofman			2
-homofobičan	28		2
+homofobičan	28		3
 homologan			4
 homoniman			2
 homoseksualan	21		6
@@ -983,25 +983,25 @@ honoraran			4
 horizontalan	118		5
 hospitalizovan	249		6
 hotimičan			4
-hromatičan			2
+hromatičan			3
 hromiran	14		2
-hroničan	414		2
+hroničan	414		3
 huan			2
 huligan		M	3
 human	1032		2
 humanitaran			5
 humanoidan			2
 humoran	12		2
-humorističan			2
+humorističan			3
 hučan			2
 hvalevrijedan		J	4
 hvatan	31		2
 idealan	8271		4
 idealizovan	45		6
 identificiran			2
-identifikovan	624		4
-identičan	3125		2
-idiličan	134		2
+identifikovan	624		5
+identičan	3125		3
+idiličan	134		3
 ignorisan	173		2
 igran	437		2
 iguman	2992		3
@@ -1022,13 +1022,13 @@ imovan			2
 imperativan			5
 implantiran	30		4
 impliciran	17		2
-implicitan	44		2
+implicitan	44		3
 impotentan	88		2
 impozantan	474		2
-impresioniran	780		2
+impresioniran	780		3
 impresivan	1428		4
-improvizovan	51		3
-impulsan			2
+improvizovan	51		4
+impulsan			3
 impulsivan	118		4
 impulzivan			4
 imućan	220		3
@@ -1074,7 +1074,7 @@ inspirisan	2358		2
 instaliran	2699		4
 instinktivan	24		4
 instruktivan			4
-intaktan	22		2
+intaktan	22		3
 integralan	86		4
 integrativan			5
 integrisan	1721		2
@@ -1107,19 +1107,19 @@ irelevantan			2
 irfan			2
 iritantan	135		2
 iritiran	66		2
-ironičan	493		2
+ironičan	493		3
 isceniran	28		4
 iscepan	22		2
 iscepkan			2
 iscrpan	328		3
-iscrpljivan			2
+iscrpljivan			3
 iscrtan	92		2
 iseckan	459		2
 isflekan			2
 isfrustriran	119		4
 isisan	30		2
 iskazan	574		2
-iskidan	24		2
+iskidan	24		3
 isklesan	84		2
 iskomadan			2
 iskompleksiran	122		2
@@ -1130,7 +1130,7 @@ iskovan	93		2
 iskrcan	13		2
 iskrzan			2
 iskusan	1922		3
-iskušan	25		2
+iskušan	25		3
 iskušavan	10		2
 ismejan	150		2
 ismevan	51		2
@@ -1159,25 +1159,25 @@ ispreturan	11		4
 isprevrtan			2
 ispričan	108		2
 isprljan	15		2
-isproban	179		3
+isproban	179		2
 isprovociran	194		2
 isprskan			2
 ispucan			2
 ispuhan			2
 ispunjavan	10		2
 istančan	288		2
-isteran	191		2
+isteran	191		3
 istesan	12		2
 istetoviran	40		2
-istican	99		2
-istodoban			2
+istican	99		3
+istodoban			3
 istopolan			4
-istoričan		M	2
+istoričan		M	3
 istorodan			4
 istosmeran			4
-istovetan	917		2
-istovrstan	10		2
-istoznačan			2
+istovetan	917		3
+istovrstan	10		3
+istoznačan			3
 istrajan	399		3
 istraumiran			2
 istraživan	94		2
@@ -1200,7 +1200,7 @@ izbičevan			4
 izboran	20		2
 izbrazdan	31		2
 izbrijan	36		2
-izbrisan	478		2
+izbrisan	478		3
 izbrojan			2
 izdan	191		2
 izdavan	59		2
@@ -1208,11 +1208,11 @@ izdašan	158		3
 izdiktiran			2
 izdresiran			4
 izdrpan			2
-izdržavan	16		2
-izglasan	847		2
+izdržavan	16		3
+izglasan	847		3
 izglasavan			4
-izgledan			2
-izglodan			2
+izgledan			3
+izglodan			3
 izgnan	102		2
 izgrađivan	40		2
 izgreban	74		2
@@ -1233,17 +1233,17 @@ iznenadan	222		4
 iznerviran	431		4
 izniman			2
 izobilan	15		4
-izolovan	1100		3
+izolovan	1100		4
 izrabljivan			4
 izraubovan			5
 izravan	50		3
 izrađivan	59		2
 izražajan	104		4
 izražavan			2
-izrezan	54		2
+izrezan	54		3
 izrešetan	80		4
 izriban			2
-izričan			2
+izričan			3
 izrovan			2
 izrugan			2
 izrugivan			4
@@ -1257,7 +1257,7 @@ izučavan	39		4
 izvagan			2
 izvajan			3
 izvan	19349		2
-izvanredan	3093		2
+izvanredan	3093		3
 izvesan			2
 izvestan	4244		3
 izveštan			2
@@ -1268,7 +1268,7 @@ izvojevan			4
 izvoran	55		2
 izvrsan			2
 izvrstan	1292		3
-izvršavan	13		2
+izvršavan	13		3
 išamaran			4
 išaran	82		2
 išiban	10		3
@@ -1279,7 +1279,7 @@ jablan	143		2
 jadan	2295		2
 jadovan		M	3
 jadran			2
-jagodičan			2
+jagodičan			3
 jan		M	1
 jaran		M	2
 jarostan	12		3
@@ -1291,24 +1291,24 @@ jedan	510846		2
 jednakomeran			2
 jednakopravan			5
 jednakosmeran			2
-jednakozvučan			2
+jednakozvučan			3
 jednobitan			4
 jednobojan	36		4
 jednodimenzionalan			2
 jednodoman			2
-jednodušan	29		2
-jednoglasan	105		2
+jednodušan	29		3
+jednoglasan	105		3
 jednokratan			4
 jednokrevetan			5
-jednoličan	171		2
-jednomesečan			2
+jednoličan	171		3
+jednomesečan			3
 jednonožan			2
 jednoobrazan	73		5
 jednoredan			2
 jednorodan			4
 jednosatan			4
 jednosmeran	114		4
-jednosoban	267		2
+jednosoban	267		3
 jednospolan			4
 jednostavan	14397		4
 jednostran	299		2
@@ -1341,7 +1341,7 @@ kalemegdan			2
 kalimegdan			2
 kalkan		M	2
 kalman			2
-kaloričan	77		2
+kaloričan	77		3
 kamenovan	155		4
 kamerman		M	2
 kamufliran	35		4
@@ -1349,7 +1349,7 @@ kan	687		1
 kanalisan	29		2
 kandidovan	157		4
 kankan	14		2
-kaotičan			2
+kaotičan			3
 kapelan	143		2
 kapetan	4414		2
 kapilaran			4
@@ -1357,7 +1357,7 @@ kapitalan	87		4
 kaplan			2
 kapriciozan	13		5
 karakteran	59		2
-karakterističan	3006		2
+karakterističan	3006		3
 karaman		M	2
 karan	105		2
 karavan	3015		2
@@ -1369,15 +1369,15 @@ karikaturan		M	2
 karikiran			4
 kariran			2
 karitativan		M	5
-karizmatičan			2
+karizmatičan			3
 kastelan			2
 kastriran	59		2
 katamaran	56		4
-katarzičan			2
+katarzičan			3
 katastrofalan	1187		5
-katatoničan			2
+katatoničan			3
 kategorisan	177		2
-kategoričan			2
+kategoričan			3
 katran	227		2
 kaufman			2
 kauzalan			4
@@ -1406,12 +1406,12 @@ klasan			2
 klasificiran			2
 klasifikovan	193		5
 klasiran			2
-klasičan	4702		2
-klaustrofobičan	26		2
+klasičan	4702		3
+klaustrofobičan	26		3
 kleptoman	21		2
 klerikalan			4
 klevetan	17		2
-klimakteričan			2
+klimakteričan			3
 kliman			2
 klipan	35		2
 ključan	1304		2
@@ -1426,11 +1426,11 @@ kognitivan			4
 koherentan	240		2
 kohezivan	14		4
 kokan			2
-koketan	16		2
+koketan	16		3
 kolan			2
 kolegijalan	35		5
 kolektivan	103		4
-koleričan		M	2
+koleričan		M	3
 kolman			2
 kolokvijalan			5
 koloman			2
@@ -1445,43 +1445,43 @@ kombinovan	375		4
 komemorativan			6
 komercijalan	182		5
 komforan	640		3
-komičan	316		2
+komičan	316		3
 komotan	136		3
-kompaktan	1234		2
+kompaktan	1234		3
 komparativan	11		5
 kompatibilan	1609		5
 kompetentan	972		2
-kompleksan	1621		2
+kompleksan	1621		3
 komplementaran			5
-kompletan	14668		2
+kompletan	14668		3
 kompletiran	398		4
 kompliciran	27		4
-komplikovan	1573		3
+komplikovan	1573		4
 komponovan	97		4
 kompozitan			4
 kompresovan			4
-kompromitovan	196		3
+kompromitovan	196		4
 kompulsivan			4
 kompulzivan			4
 komunikativan	247		6
 konan			2
-konačan	6258		2
+konačan	6258		3
 koncentrisan			2
-koncentričan			2
+koncentričan			3
 koncipiran	1782		4
 koncizan	215		3
 kondicionalan			6
 konfesionalan			6
 konfiniran	16		4
 konfiskovan	31		4
-konfliktan			2
+konfliktan			3
 konfuzan	363		2
 kongruentan			2
-koničan			2
+koničan			3
 konjugovan			4
 konkavan	11		3
 konkordantan			2
-konkretan	5330		2
+konkretan	5330		3
 konkretizovan	54		5
 konkurentan	1206		2
 konsekutivan			5
@@ -1523,7 +1523,7 @@ kopilan		M	3
 kopiran	116		2
 koporan			2
 koran			2
-korektan	2415		2
+korektan	2415		3
 korektivan			4
 korelativan			5
 korespondentan			2
@@ -1541,7 +1541,7 @@ korumpiran	434		4
 koruptivan	37		4
 kosan			2
 kostimiran			4
-kotrljan			2
+kotrljan			3
 kovan	138		2
 kovaran		M	2
 kočoperan	17		4
@@ -1552,7 +1552,7 @@ krasan	186		2
 kratkoročan	119		4
 kratkotrajan	283		4
 kratkovečan			4
-kratkovidan			2
+kratkovidan			3
 kreativan	2160		4
 kredibilan	209		4
 kreditiran	24		4
@@ -1561,11 +1561,11 @@ kremiran	64		2
 krepostan			3
 kriminalan	170		4
 kristalan	25		2
-kristaličan			2
+kristaličan			3
 kristian			2
-kristijan			2
+kristijan			3
 kritikovan	550		4
-kritičan	1144		2
+kritičan	1144		3
 krivoveran			4
 krizman			2
 križan	15		2
@@ -1573,7 +1573,7 @@ kroasan	88		2
 krsman			2
 krstan			2
 krucijalan			4
-krunisan	562		2
+krunisan	562		3
 krupan	1555		2
 kružan	24		2
 krvoločan	43		4
@@ -1612,7 +1612,7 @@ lagan	2036		2
 lagodan	438		3
 lakan			2
 lakiran	62		2
-lakoničan			2
+lakoničan			3
 lakovan			2
 lakoveran	66		4
 lan	3656		1
@@ -1633,8 +1633,8 @@ lektorisan			2
 leman	44		2
 lepotan	235		2
 leprozan		M	2
-letargičan	36		2
-letimičan	220		2
+letargičan	36		3
+letimičan	220		3
 levajatan			4
 leviatan			4
 levijatan		M	4
@@ -1648,12 +1648,12 @@ likvidan	99		3
 likvidiran	403		2
 lilijan			2
 liman		M	2
-limfatičan			2
+limfatičan			3
 limitiran	380		4
 linearan	135		4
 linčovan	42		3
 lipljan	154		2
-liričan		M	2
+liričan		M	3
 listopadan			2
 literaran	18		4
 ličan	418		2
@@ -1665,7 +1665,7 @@ ljubazan	1068		3
 ljubomoran	899		4
 loban			2
 lociran	1253		2
-logičan	3050		2
+logičan	3050		3
 lojalan	410		2
 lokalan	39		2
 lokalizovan	622		5
@@ -1677,7 +1677,7 @@ lucidan	204		3
 lukijan			2
 lukobran	14		3
 lukrativan			4
-luksuzan	639		2
+luksuzan	639		3
 lumbalan			2
 luminiscentan			2
 lunaran			2
@@ -1688,16 +1688,16 @@ macan	91		2
 maestralan	205		4
 magelan			2
 magistralan			4
-magičan	323		2
-magnetičan			2
+magičan	323		3
+magnetičan			3
 mahinalan			4
 majdan		M	2
-majestetičan		M	2
+majestetičan		M	3
 majoran	91		2
 majušan		M	3
 maksimalan	2877		4
-maksimilijan			2
-malaričan			2
+maksimilijan			3
+malaričan			3
 malerozan			4
 maliciozan			5
 maligan	33		2
@@ -1705,7 +1705,7 @@ malignan			2
 mališan	1033		2
 malobrojan	50		4
 malodoban			4
-malodušan	66		2
+malodušan	66		3
 malokrvan		M	4
 maloletan	233		4
 maloljetan		J	4
@@ -1719,7 +1719,7 @@ man		M	1
 mangan	346		2
 manijakalan			5
 manipulativan	44		6
-maničan			2
+maničan			3
 manuelan			4
 maran	39		2
 marcipan	90		2
@@ -1739,7 +1739,7 @@ mastan	185		2
 materijalan	71		5
 materijalizovan	50		2
 matiran	33		2
-matičan			2
+matičan			3
 mazan	25		2
 mašan			2
 mažuran			2
@@ -1755,10 +1755,10 @@ mejdan		M	2
 mekan	646		2
 mekmilan			3
 mekušan			3
-melanholičan	104		2
+melanholičan	104		3
 melodiozan			5
-melodičan	86		2
-melodramatičan		M	2
+melodičan	86		3
+melodramatičan		M	3
 membranozan			4
 memorisan	30		2
 menjan	627		2
@@ -1770,12 +1770,12 @@ merkantilan			4
 mermeran			2
 merodavan	409		4
 mesingan			2
-mestimičan			3
-metaforičan			2
+mestimičan			4
+metaforičan			3
 metalan	29		2
 metamorfan			2
 metan	737		2
-metodičan	63		2
+metodičan	63		3
 međusoban	35		4
 mešan	32		2
 michigan			2
@@ -1787,7 +1787,7 @@ militantan	27		2
 miljan			2
 milkan			2
 miloglasan			4
-milosan			2
+milosan			3
 milosrdan	159		4
 milovan	604		3
 milozvučan	21		2
@@ -1805,7 +1805,7 @@ miran	5835		2
 mirisan	89		3
 mirotvoran			4
 misteriozan	239		5
-mističan	165		2
+mističan	165		3
 miteran			2
 mitrofan			2
 mizeran	233		2
@@ -1814,10 +1814,10 @@ mlađahan			2
 mlađan	44		2
 mlečan	10		2
 mnogobrojan	38		4
-mnogoljudan	22		2
+mnogoljudan	22		3
 mnogostran	27		2
 mnogovidan			2
-mnogovrstan		M	2
+mnogovrstan		M	3
 mnogočlan			2
 mnogoželjan			4
 mobilan	160		3
@@ -1830,16 +1830,16 @@ modifikovan	526		5
 modularan			4
 moduliran			4
 mogućan	68		3
-moleban	479		2
+moleban	479		3
 momentalan	56		4
 momentan			2
 monblan			2
 mondrijan			2
 monetaran			4
 monogaman	12		2
-monolitan	58		2
+monolitan	58		3
 monoman			2
-monosilabičan			2
+monosilabičan			3
 monstruozan	140		4
 montiran	666		2
 monumentalan	53		5
@@ -1850,7 +1850,7 @@ morgan			2
 mostobran	136		3
 motivisan	1316		2
 motorizovan			5
-mozaičan			2
+mozaičan			3
 moćan	3724		2
 močaran			2
 močvaran	12		3
@@ -1881,14 +1881,14 @@ nabran			2
 nabrijan	13		2
 naciljan			2
 nacionalan	106		5
-nacrtan	213		2
+nacrtan	213		3
 nacvrcan			2
 nadan			2
-nadglasan	24		2
-nadgledan			2
+nadglasan	24		3
+nadgledan			3
 nadigran	52		2
 nadjačan	14		2
-nadležan	3963		2
+nadležan	3963		3
 nadmoćan	151		3
 nadnacionalan	13		6
 nadnaravan			4
@@ -1907,7 +1907,7 @@ nadvladan	18		2
 nadzeman			2
 nadziran			2
 nadčulan			2
-nadžupan			2
+nadžupan			3
 naelektrisan	61		2
 nafiksan			2
 nagizdan			2
@@ -1917,39 +1917,39 @@ nagovaran	16		2
 nagrađivan	469		2
 nagrdan		M	2
 naguntan			2
-nahuškan	23		2
+nahuškan	23		3
 naimenovan	79		5
 naivan	2131		3
-naizmeničan	18		2
+naizmeničan	18		3
 najavljivan	398		2
 najdan			2
 najedan			2
 nakan			2
 nakaradan	207		2
-nakazan	41		2
+nakazan	41		3
 nakljukan			2
 naknadan	11		2
 nakovan			2
 nakrcan	41		2
 nakresan			2
 nalickan	21		2
-namazan	177		2
-nameran	275		2
+namazan	177		3
+nameran	275		3
 nametan	39		2
 namirisan	37		2
 namolovan			4
-namotan	26		3
+namotan	26		2
 namreškan			2
 nanizan			3
 naoružan	848		2
-napadan	333		2
+napadan	333		3
 napajan	29		3
 napisan	4046		2
 naplaćivan	58		4
 naporan	2032		2
 naporedan			2
 naprasan			2
-napredan	730		2
+napredan	730		3
 napucan	35		2
 napuhan			2
 napumpan	32		2
@@ -1962,24 +1962,24 @@ narezan	79		2
 naređan			2
 nariban			2
 narkoman	793		2
-narkotičan			2
+narkotičan			3
 naroljan			2
-nasilan	590		2
+nasilan	590		3
 naslagan	13		2
-nasledan	74		2
-naslikan	257		2
+nasledan	74		3
+naslikan	257		3
 nasmejan	660		2
 nasmijan	44	J	2
 naspraman			2
-nastavljan	16		2
+nastavljan	16		3
 nastran	83		2
 nastrugan			2
 nasukan	62		2
-nasumičan	51		2
+nasumičan	51		3
 nasuprotan		M	4
-nasušan			3
+nasušan			2
 natan			2
-nateran	197		2
+nateran	197		3
 natprirodan	21		4
 natprosečan			4
 natrpan	43		2
@@ -1987,11 +1987,11 @@ naturalan			4
 naturalizovan	12		6
 natčulan			2
 nauman		M	2
-naučan	64		2
+naučan	64		3
 navalan			2
 navalentan		M	2
 navrtan			2
-nazadan	81		2
+nazadan	81		3
 nazalan			2
 nazidan			2
 nazivan	537		2
@@ -2026,14 +2026,14 @@ nedobronameran	32		2
 nedogledan			4
 nedohvatan			3
 nedokazan	30		4
-nedoličan	77		2
+nedoličan	77		3
 nedomašan			4
 nedosežan			2
-nedosledan	134		2
+nedosledan	134		3
 nedostatan			4
 nedostižan	497		4
 nedostojan	402		4
-nedostupan	874		2
+nedostupan	874		3
 nedotupavan			5
 nedovoljan	1559		4
 nedruževan			4
@@ -2041,10 +2041,10 @@ nedužan	149		3
 nedvouman			4
 needukovan			5
 neefikasan	504		5
-neelastičan	21		2
+neelastičan	21		3
 neemotivan			5
-neenergičan			2
-neetičan			2
+neenergičan			3
+neetičan			3
 nefleksibilan	36		5
 neformalan	249		4
 nefunkcionalan	165		6
@@ -2053,9 +2053,9 @@ negaziran			4
 negiran	33		2
 negovan	283		3
 nehajan	21		3
-neharmoničan			2
+neharmoničan			3
 nehatan		M	2
-nehotičan	18		3
+nehotičan	18		4
 nehuman	155		3
 neidentifikovan			2
 neimenovan			5
@@ -2078,10 +2078,10 @@ neizostavan			5
 neizvestan	1346		4
 neizvežban			4
 nejahan			2
-nejasan	932		2
+nejasan	932		3
 nejavan			2
 nekidan	53		3
-neklasičan			2
+neklasičan			3
 neknjiževan			4
 nekompatibilan			6
 nekompetentan	137		2
@@ -2093,7 +2093,7 @@ nekopan			2
 nekorektan	395		2
 nekoristan	74		4
 nekorumpiran	27		2
-nekritičan			2
+nekritičan			3
 nekrunisan			2
 nekulturan	163		4
 nekurentan			2
@@ -2107,7 +2107,7 @@ neliberalan			5
 nelikvidan			2
 nelinearan			5
 neljubazan	68		4
-nelogičan	167		2
+nelogičan	167		3
 nelojalan	32		4
 neman	343		2
 nemaran	186		3
@@ -2130,7 +2130,7 @@ nenadan	19		3
 nenadjačan			2
 nenadležan	122		2
 nenadmašan	235		4
-nenameran	25		2
+nenameran	25		3
 nenaoružan			2
 nenapisan			2
 nenasilan	97		4
@@ -2143,9 +2143,9 @@ neobičan	3697		4
 neobjektivan	103		5
 neobligatan			2
 neobran			3
-neobrazovan	374		3
+neobrazovan	374		4
 neobrezan	18		4
-neobrijan	69		2
+neobrijan	69		3
 neobuzdan	89		4
 neobučan			2
 neobziran			4
@@ -2155,7 +2155,7 @@ neodložan	60		2
 neodlučan	275		4
 neodmoran			4
 neodmotan			4
-neodstupan			2
+neodstupan			3
 neofarban			4
 neokaljan	27		4
 neokretan			4
@@ -2188,7 +2188,7 @@ neparan	143		3
 neparlamentaran			6
 nepisan	15		2
 neplaniran	54		4
-neplodan	34		2
+neplodan	34		3
 nepobitan	128		4
 nepobožan			2
 nepodesan	65		4
@@ -2196,7 +2196,7 @@ nepodložan			2
 nepodmazan			4
 nepodoban	191		4
 nepodržan			2
-nepoetičan			2
+nepoetičan			3
 nepogodan	63		4
 nepogrešan			2
 nepojaman			2
@@ -2204,7 +2204,7 @@ nepokajan	10		4
 nepokoran	39		4
 nepokretan	343		4
 nepoliran			4
-nepolitičan			2
+nepolitičan			3
 nepomazan			4
 nepomičan	248		4
 nepopisan			2
@@ -2216,7 +2216,7 @@ neposlušan	98		4
 neposredan	1738		4
 nepostajan			4
 nepostižan			2
-nepostojan	57		2
+nepostojan	57		3
 nepotpisan	64		2
 nepotreban	1391		4
 nepouzdan	367		4
@@ -2234,28 +2234,28 @@ nepravilan	592		4
 nepravičan	53		4
 neprecizan	672		4
 nepregledan	174		4
-neprekidan	448		2
+neprekidan	448		3
 neprelazan			4
 neprestan	69		3
 nepresušan	176		4
 nepretenciozan	83		6
 nepribran			3
 neprijatan	2187		4
-neprijazan			3
-neprikladan	197		2
-nepriličan	46		2
+neprijazan			4
+neprikladan	197		3
+nepriličan	46		3
 neprimeran	16		4
 neprimetan	377		4
 neprincipijelan			6
 nepripravan			4
-neprirodan	264		2
+neprirodan	264		3
 nepriseban			4
 nepristojan	262		4
 nepristran	11		2
 nepristrasan	462		4
 nepristrastan			2
 nepristupačan	289		5
-neprisutan			3
+neprisutan			4
 neprivlačan	46		2
 neprobojan	56		4
 neproduktivan	88		5
@@ -2292,65 +2292,65 @@ nerealizovan			6
 neredovan	70		4
 neregistrovan			5
 neregularan	115		5
-nerodan			2
+nerodan			3
 nervozan	1466		3
 nesabran			3
 nesaglasan		M	4
 nesamostalan			5
 nesan			2
 nesaslušan			2
-nesavestan	168		2
+nesavestan	168		3
 nesavladan			2
 nesebičan	207		4
 nesiguran	764		4
-nesimetričan	11		2
-nesimpatičan	31		2
-nesistematičan			2
+nesimetričan	11		3
+nesimpatičan	31		3
+nesistematičan			3
 nesitan			2
 neskladan	32		3
-neskroman	71		2
+neskroman	71		3
 neskrupulozan		M	5
 neslan	31		2
 neslavan	176		3
-nesličan			2
+nesličan			3
 neslobodan	43		4
-nesložan			2
+nesložan			3
 nesmetan	1248		2
-nesnosan	170		2
+nesnosan	170		3
 nesolidan			2
 nespokojan	34		4
 nesporan	381		2
 nesposoban	1353		4
-nespreman	316		2
+nespreman	316		3
 nespretan	195		2
-nesputan	51		2
+nesputan	51		3
 nesrazmeran	120		4
-nesretan	135		2
+nesretan	135		3
 nesrećan	1073		3
 nesrodan			2
 nestabilan	696		4
 nestalan	83		3
 nestašan	140		3
-nestručan	223		2
+nestručan	223		3
 nestvaran	243		3
 nesuglasan		M	4
 nesuprotan			4
 nesvakodnevan		M	5
-nesvestan	351		2
+nesvestan	351		3
 nesvrstan	73		2
-netaktičan	20		2
+netaktičan	20		3
 netalentovan	48		5
 netačan	572		3
-netipičan	133		2
+netipičan	133		3
 netkan			2
-netoksičan	73		2
+netoksičan	73		3
 netolerantan	175		2
 netrajan			3
 netransparentan			2
 netretiran			4
 netrezan			2
 netruležan			2
-netužan			2
+netužan			3
 neudoban	144		4
 neugledan	88		4
 neugodan			4
@@ -2369,10 +2369,10 @@ neupotrebljavan			6
 neupravan			4
 neuprljan			4
 neuputan			2
-neuralgičan			2
-neurasteničan		M	2
+neuralgičan			3
+neurasteničan		M	3
 neuredan	247		4
-neurotičan	55		2
+neurotičan	55		3
 neuslovan			4
 neuslužan			2
 neuspešan	695		4
@@ -2394,7 +2394,7 @@ neverovatan	4103		2
 nevezan	81		2
 nevečan			3
 nevidan			2
-nevičan	19		2
+nevičan	19		3
 nevoljan	70		2
 nevredan			2
 nezaboravan	1258		5
@@ -2407,18 +2407,18 @@ nezaobilazan			2
 nezarazan			4
 nezasitan			4
 nezaslužan			2
-nezavidan	239		2
-nezavisan	1802		2
+nezavidan	239		3
+nezavisan	1802		3
 nezavistan	569		2
 nezazoran			4
-nezgodan	888		2
+nezgodan	888		3
 nezgrapan	115		3
-nezloban			3
+nezloban			2
 neznan	79		2
 neznatan	604		3
 neznačajan			4
 nezvan	39		2
-nezvaničan	103		2
+nezvaničan	103		3
 nečastan	75		3
 nečedan			2
 nečešljan			2
@@ -2432,7 +2432,7 @@ nijedan	24479		2
 niklovan			2
 nimfoman			2
 nipodaštavan	13		5
-niskokaloričan			2
+niskokaloričan			3
 nišan	551		2
 ništavan	230		3
 nižerazredan			2
@@ -2448,19 +2448,19 @@ normalizovan	198		5
 norman			2
 normativan	34		4
 normiran	54		2
-nostalgičan	142		2
+nostalgičan	142		3
 notoran			2
 novčan			2
 numerisan	28		2
 nužan	1098		2
 nuždan			2
 obaran	23		2
-obasipan	21		2
+obasipan	21		3
 obasjan	245		2
 obasjavan	11		2
 obavezan	6623		4
 obavijan			2
-obavljan	91		2
+obavljan	91		3
 obdan			2
 obeležavan	70		5
 obesan	11		2
@@ -2472,7 +2472,7 @@ obilan	289		3
 obilazan			4
 obiman	1213		3
 običajan			4
-običan	10206		2
+običan	10206		3
 objavljivan	183		2
 objašnjavan	36		2
 objektivan	1866		4
@@ -2482,22 +2482,22 @@ oblačan	70		3
 obligatan			4
 oblikovan	682		4
 obmanjivan	12		2
-obmotan	60		3
+obmotan	60		2
 obnavljan	225		2
 obogaćivan	12		2
 obojan			2
 obostran	85		2
 obožavan	117		2
-obradovan	175		3
+obradovan	175		4
 obran			2
 obratan	34		3
-obrazovan	2034		3
+obrazovan	2034		4
 obrađivan	81		2
-obrezan	68		2
+obrezan	68		3
 obrijan	116		2
-obrisan	351		2
-obrtan			2
-obrukan			2
+obrisan	351		3
+obrtan			3
+obrukan			3
 obrvan			2
 obuhvatan			4
 obuzdan	25		2
@@ -2520,25 +2520,25 @@ odbojan	235		3
 oderan	10		2
 odgajan	119		3
 odgovoran	13129		4
-odigran	1818		2
+odigran	1818		3
 odlagan	188		2
-odlikovan	934		3
+odlikovan	934		4
 odličan	27435		3
 odlučan	1615		3
 odmeravan			2
 odmoran	240		3
 odnegovan			4
-odnosan		M	2
+odnosan		M	3
 odobravan	37		2
 odran	29		2
-odrezan	16		2
+odrezan	16		3
 odrečan	64		3
 određivan	70		2
 odrešan			2
-odričan	40		2
+odričan	40		3
 odrpan	20		2
 održan	29650		2
-održavan	601		2
+održavan	601		3
 odsecan			2
 odsečan	50		3
 odslikan			2
@@ -2547,7 +2547,7 @@ odsutan	1059		3
 odsviran	32		2
 oduran	24		3
 oduvan	39		2
-oduziman	16		2
+oduziman	16		3
 odvažan	175		3
 odvezan	16		2
 odvratan	534		3
@@ -2561,11 +2561,11 @@ ofucan	31		2
 ogavan	64		3
 oglašavan	19		4
 ogledan	10		2
-oglodan			2
+oglodan			3
 ognjan			2
 ograđivan			2
-ogreban	37		2
-ogrejan			2
+ogreban	37		3
+ogrejan			3
 ogroman	17997		3
 ojačan	502		2
 okaljan	15		2
@@ -2585,8 +2585,8 @@ okrutan		M	3
 oktan			2
 oktavijan			2
 oktroisan			2
-okultan			2
-okupan	206		2
+okultan			3
+okupan	206		3
 okupiran	381		4
 okviran	65		3
 olakotan			4
@@ -2594,7 +2594,7 @@ olakšan	912		2
 oličavan			2
 olovan			3
 olujan			2
-olupan			2
+olupan			3
 omalovažavan	38		2
 oman			2
 omađijan			2
@@ -2612,16 +2612,16 @@ operativan	429		5
 operiran			4
 operisan	1008		2
 operušan			2
-opetovan			3
+opetovan			4
 opevan	103		2
 opevavan			4
 ophrvan			2
 opisan	2063		2
 opisivan	100		2
 opkoljavan			4
-oplakan	16		2
+oplakan	16		3
 oplakivan			2
-opljačkan	433		2
+opljačkan	433		3
 opojan	92		2
 oponiran			4
 opozvan	133		2
@@ -2630,7 +2630,7 @@ opravdan	1766		2
 opreman	14		2
 oprezan	2142		3
 oprečan	28		3
-oproban	161		3
+oproban	161		2
 opsedan	12		2
 opsesivan	32		4
 opsežan			3
@@ -2638,7 +2638,7 @@ opsidijan	31		2
 opskuran			3
 opstruiran			4
 optimalan	1680		4
-optimističan	521		2
+optimističan	521		3
 optuživan	229		2
 opčaran			2
 opširan	441		3
@@ -2658,16 +2658,16 @@ orkan	85		2
 orlean			2
 orman	756		2
 ornamentalan			5
-ortodoksan			2
-oružan	27		2
+ortodoksan			3
+oružan	27		3
 osebujan	46		4
 osedlan			2
-osetan	251		2
+osetan	251		3
 osećajan	178		4
-osećan	12		2
+osećan	12		3
 osiguran	813		2
 osjenčan		J	2
-oskudan	207		2
+oskudan	207		3
 oslepljivan			4
 oslikan	289		2
 oslobađan	18		2
@@ -2675,23 +2675,23 @@ osman			2
 osmostran			2
 osnivan	24		2
 osnovan	9938		3
-osoban			2
+osoban			3
 osoran	30		3
 osporavan	227		2
 ostan			2
-ostavljan	30		2
+ostavljan	30		3
 ostrugan			2
 ostvarivan	57		2
 osunčan	44		2
 osuđivan	531		2
 osvajan	29		2
 osveštan	239		2
-oteran	283		2
+oteran	283		3
 otesan			2
 otežan	1024		2
 otkazan	1062		2
-otklanjan			2
-otključan	126		2
+otklanjan			3
+otključan	126		3
 otkopan	36		2
 otkopčan	19		2
 otkovan			2
@@ -2706,7 +2706,7 @@ otpuštan	11		2
 otrcan	30		2
 otresan			2
 otrovan	716		2
-otužan	58		2
+otužan	58		3
 otvaran	125		2
 ovalan	52		2
 ovan	1344		2
@@ -2714,7 +2714,7 @@ ovejan			2
 ovenčan	279		2
 overavan			2
 oveštan			2
-ovisan			2
+ovisan			3
 ovladan			2
 ovlašan	23		3
 ovostran			2
@@ -2725,7 +2725,7 @@ oznojan			2
 očajan	1368		3
 očaran	342		2
 očekivan	912		2
-očerupan	25		2
+očerupan	25		3
 očevidan	68		4
 očešljan			2
 očigledan	2710		4
@@ -2739,11 +2739,11 @@ pajkan			2
 pakostan	61		3
 palatalan			4
 pametan	7306		3
-pamučan	11		2
+pamučan	11		3
 pan		M	1
 pandan	1119		2
-paničan	96		2
-paraboličan			2
+paničan	96		3
+paraboličan			3
 paradoksalan			5
 parafiran	215		4
 paralelan	266		2
@@ -2751,7 +2751,7 @@ paralisan	153		2
 paralizovan	150		5
 paran	128		2
 paranoidan	28		2
-paranoičan	180		2
+paranoičan	180		3
 paranormalan			5
 paravan	1006		2
 parcijalan	32		4
@@ -2767,27 +2767,27 @@ pasioniran	12		2
 pasivan	673		3
 pastoralan			4
 patentiran	175		4
-patetičan	229		2
+patetičan	229		3
 patlidžan	457		2
-patosan			2
+patosan			3
 patrijarhalan	49		5
 pavijan	19		3
-pedantan	117		2
+pedantan	117		3
 peglan			2
 pejorativan			5
 pelikan	95		2
 pelivan		M	2
 penzionisan	615		2
 perceptivan			4
-perfektan	643		2
+perfektan	643		3
 perfidan	256		2
 perforiran	27		4
-periodičan	43		2
+periodičan	43		3
 permanentan			2
 personalan			4
 perspektivan	401		4
-perverzan	75		2
-pesimističan	142		2
+perverzan	75		3
+pesimističan	142		3
 petočlan			2
 petrosjan			2
 pevan	18		2
@@ -2810,17 +2810,17 @@ planiran	4441		2
 plasiran	614		2
 plasman	14807		2
 plastificiran			2
-plastičan	247		2
+plastičan	247		3
 platan		M	2
 platežan			2
 plauzibilan			5
 plavetan			3
-plavušan			3
+plavušan			2
 plaćan	138		2
 plačan			2
 plačevan		M	2
 plebiscitaran			5
-pleonastičan			2
+pleonastičan			3
 plesan	260		2
 plijesan	12	J	2
 plisiran			2
@@ -2830,7 +2830,7 @@ pljačkan	60		2
 pljosan			2
 pljuvan			2
 plodan	492		2
-plodonosan	126		2
+plodonosan	126		3
 plodotvoran			4
 plombiran	16		2
 plovan	99		2
@@ -2850,12 +2850,12 @@ podbadan			2
 podebljan	19		2
 poderan	10		2
 podesan	253		3
-podgrejan			2
+podgrejan			3
 podgrevan			2
-podizan	77		2
+podizan	77		3
 podlokan			2
 podložan	1005		3
-podmazan	197		2
+podmazan	197		3
 podmirivan			4
 podoban	557		3
 podpisan			2
@@ -2865,8 +2865,8 @@ podroban	72		3
 podrovan			2
 podrpan			2
 podržan	2438		2
-podržavan	127		2
-podstican	103		2
+podržavan	127		3
+podstican	103		3
 podsvestan			3
 podudaran	80		4
 poduhvatan		M	4
@@ -2875,32 +2875,32 @@ poduzetan			4
 podučavan	15		2
 podvodan			2
 podšišan	17		2
-podžupan	11		2
-poetičan	113		2
+podžupan	11		3
+poetičan	113		3
 pogan		M	2
 pogađan			2
 pogibeljan	18		4
 pogodan	4812		3
 pogoršan	144		2
-pograničan			2
+pograničan			3
 pogrdan	106		2
-pogreban			2
-pogrešan	4924		2
+pogreban			3
+pogrešan	4924		3
 poguban	690		3
-pohaban	34		2
+pohaban	34		3
 poharan	20		2
 pohlepan	155		3
 pohotan	19		3
 pohovan	15		3
 pohvalan	87		2
-poiman			2
-poimeničan			2
+poiman			3
+poimeničan			3
 pojačan	1648		2
 pojašnjavan			4
-pojedinačan	276		2
+pojedinačan	276		3
 pokazan	340		2
 pokazivan	12		2
-pokidan	37		2
+pokidan	37		3
 poklan			2
 pokojan			2
 pokoleban	36		4
@@ -2909,20 +2909,20 @@ pokoran	131		3
 pokradan			2
 pokretan	486		3
 pokrivan	20		2
-pokrupan		M	2
-pokušan	135		2
+pokrupan		M	3
+pokušan	135		3
 polagan	35		2
 polaran			2
 polaskan	74		2
-polemičan	36		2
+polemičan	36		3
 poletan	96		2
 poliran			2
 politiran			4
-političan	20		2
+političan	20		3
 polivan			2
 poljuljan	170		2
 polovan	1225		2
-polovičan	366		2
+polovičan	366		3
 polugladan			2
 poluglasan			4
 poluhladan			2
@@ -2933,7 +2933,7 @@ polukvalifikovan			2
 polulegalan			5
 polumastan		M	2
 polumračan			2
-polupan	31		2
+polupan	31		3
 polupijan	34		2
 poluprazan	146		4
 polupresan			4
@@ -2943,16 +2943,16 @@ polusvestan			2
 polutan	21		2
 polutrajan			4
 poluukopan			2
-poluzvaničan			2
+poluzvaničan			3
 pomagan	75		2
 pomaman	24		2
 poman			2
 pomazan	31		2
 pomeran	54		2
 pomešan	459		2
-pomilovan	168		3
+pomilovan	168		4
 pominjan	458		2
-pomičan	18		2
+pomičan	18		3
 pomodan	24		3
 pompezan		M	2
 pomračivan			4
@@ -2960,15 +2960,15 @@ ponavljan	62		2
 poniklovan			4
 ponizan	108		3
 ponižavan	58		2
-ponosan	5355		2
+ponosan	5355		3
 ponovan	25		3
-ponukan	51		2
+ponukan	51		3
 pooštravan			4
 popisan	57		2
 popljuvan	32		2
 popločan	413		2
 poprečan	14		3
-popriličan	548		2
+popriličan	548		3
 poprskan	35		2
 popularan	4749		4
 popunjavan	32		2
@@ -2978,38 +2978,38 @@ porcelan	219		2
 porculan	25		2
 poredan			2
 poređan	20		2
-porodičan	470		2
+porodičan	470		3
 porozan	75		3
 poročan	46		2
 portman			2
 porugan			2
 poručivan			2
 posan			2
-poseban	27139		2
+poseban	27139		3
 posejan	126		2
 posesivan	98		4
 posećivan	21		2
 posipan			2
 poslan	567		2
-posledičan			2
+posledičan			3
 poslovan	333		3
-poslovičan			2
+poslovičan			3
 poslušan	566		3
 posmatran	427		2
 pospan	152		2
 posprdan			2
-posredan	517		2
-posredovan	72		3
+posredan	517		3
+posredovan	72		4
 postajan			2
 postan	35		2
-postavljan	121		2
+postavljan	121		3
 posthuman			2
 postidan			2
-postizan	13		2
+postizan	13		3
 postmoderan			4
-postojan	486		2
+postojan	486		3
 postoperativan			6
-postupan	84		2
+postupan	84		3
 posvađan	21		2
 potajan			3
 potaman		M	2
@@ -3018,7 +3018,7 @@ potencijalan	86		5
 potenciran	61		4
 potentan	76		2
 poteran			2
-potican	11		2
+potican	11		3
 potiskivan	45		4
 potkazan			2
 potkopan	27		2
@@ -3036,10 +3036,10 @@ potrošan	13		2
 potrpan			2
 potrzan			2
 potvrdan	646		2
-potvrđivan	23		2
+potvrđivan	23		3
 poubijan			2
-pouzdan	4643		2
-poučan	551		2
+pouzdan	4643		3
+poučan	551		3
 poučavan			4
 povazdan		M	2
 poveravan			2
@@ -3050,10 +3050,10 @@ povećavan	78		2
 povodan			2
 povoljan	3708		3
 povratan	46		2
-površan	548		2
+površan	548		3
 pozamašan	253		4
 pozan			2
-pozdravljan	24		2
+pozdravljan	24		3
 pozicioniran	736		2
 pozitivan	12513		4
 pozivan	275		2
@@ -3066,18 +3066,18 @@ poštovan	1179		3
 poželjan	1318		3
 požrtvovan	129		4
 požudan	18		3
-pragmatičan	511		2
-praktičan	3419		2
+pragmatičan	511		3
+praktičan	3419		3
 pran	21		1
 pravedan	1299		2
 pravilan	3620		3
-pravičan	526		2
+pravičan	526		3
 pravnosnažan			2
 pravoslavan	196		4
 pravosnažan	44		2
 pravoveran	29		4
 prazan	5547		2
-prazničan	10		2
+prazničan	10		3
 praznoveran			4
 praznovjeran		J	4
 prašan			2
@@ -3087,7 +3087,7 @@ prebacivan	81		2
 prebijan	21		2
 prebolan			2
 prebukiran	70		4
-prebučan			2
+prebučan			3
 precizan	4467		3
 preciziran	292		4
 precrtan	94		2
@@ -3104,17 +3104,17 @@ predovoljan			4
 predoziran			4
 predrevolucionaran			2
 predsedan			2
-predstavljan	187		2
+predstavljan	187		3
 preduzetan	18		4
 preduziman			2
 predviđan	23		2
 prefarban	38		2
-prefrigan	14		2
+prefrigan	14		3
 pregladan			2
-preglasan	98		2
-pregledan	1041		2
+preglasan	98		3
+pregledan	1041		3
 pregnantan	11		2
-pregrejan	17		2
+pregrejan	17		3
 pregrešan			2
 prehladan			2
 preimenovan	391		5
@@ -3124,7 +3124,7 @@ prekidan	200		2
 preklan			2
 prekobrojan	49		4
 prekodan		M	2
-prekograničan			2
+prekograničan			3
 prekomandovan	172		5
 prekomeran	144		4
 prekopan	20		2
@@ -3132,9 +3132,9 @@ prekoran	18		2
 prekoredan			2
 prekorevan			4
 prekrasan	429		3
-prekrupan			2
-prekupan			2
-prelazan		M	2
+prekrupan			3
+prekupan			3
+prelazan		M	3
 preležan			2
 preliminaran			5
 preljubazan			4
@@ -3172,7 +3172,7 @@ preradikalan			5
 preradostan			2
 preran			2
 prerađivan	18		2
-prerezan	218		2
+prerezan	218		3
 presan	36		2
 presedan	2371		2
 presiguran			4
@@ -3181,8 +3181,8 @@ presjajan			3
 preskroman	33		2
 preslan	14		2
 preslavan			2
-preslikan	202		2
-preslušan	10		3
+preslikan	202		3
+preslušan	10		2
 presmešan			2
 presretan	80		2
 presrećan	1084		3
@@ -3191,25 +3191,25 @@ prestrugan			2
 presudan	2364		3
 pretaman			2
 pretenciozan	149		5
-preteran	379		2
+preteran	379		3
 pretesan	76		2
 pretežan	123		2
-prethodan	44		2
+prethodan	44		3
 pretjerivan		J	2
 pretresan	19		2
 pretrpan	258		2
 pretrpavan			4
 preturoban			4
-pretužan			2
+pretužan			3
 pretvaran	13		2
 pretvoran			2
 preukusan			2
 preumoran	38		4
-preuveličan	75		2
+preuveličan	75		3
 preuzan			2
-preuziman	15		2
+preuziman	15		3
 prevaran	26		2
-prevashodan			2
+prevashodan			3
 prevažan			2
 prevejan	13		2
 preventivan	54		4
@@ -3225,13 +3225,13 @@ prečudan			2
 prečudesan			4
 prešan			2
 preštampan			2
-približan	509		2
+približan	509		3
 pribojan			2
 pribran	169		2
 pribrojan			2
 pridavan	63		2
 pridodan	10		2
-pridržavan			2
+pridržavan			3
 prigodan	1591		3
 prihvatan	34		2
 prijan			2
@@ -3240,19 +3240,19 @@ prijazan	13		3
 prikan			2
 prikazan	8769		2
 prikazivan	410		2
-prikladan	767		2
+prikladan	767		3
 prikopčan	32		2
 prikovan	275		2
 prikrivan	17		2
 prikucan			2
 prikupljan	56		2
 priležan			2
-priličan	1016		2
+priličan	1016		3
 prilježan		M	2
 priman	76		2
 primaran	393		3
 primenjivan	486		2
-primeran	185		2
+primeran	185		3
 primetan	1270		3
 primitivan	594		4
 primoran	1807		2
@@ -3266,9 +3266,9 @@ pripisivan	54		2
 pripravan	104		3
 pripreman	439		3
 priređivan	16		4
-prirodan	4085		2
+prirodan	4085		3
 prisan	228		2
-priseban	139		2
+priseban	139		3
 prisilan	68		2
 prisiljavan	10		2
 prisluškivan	63		2
@@ -3278,7 +3278,7 @@ pristojan	2822		2
 pristran	18		2
 pristrasan	458		2
 pristrastan			2
-pristupan			2
+pristupan			3
 pristupačan	1235		4
 prisutan	11530		3
 prisvajan			3
@@ -3296,16 +3296,16 @@ privlačan	1303		3
 privredan			2
 prizeman	176		2
 prizivan	24		2
-prizmatičan			2
+prizmatičan			3
 priznavan	11		2
 prizvan	119		2
 pričastan			2
 prišivan			2
 priželjan			2
-prkosan	59		2
+prkosan	59		3
 proaktivan	205		4
 probitačan	11		4
-problematičan	1331		2
+problematičan	1331		3
 probojan	11		2
 probran	31		2
 procenjivan	62		2
@@ -3313,21 +3313,21 @@ procentualan			5
 procesuiran	502		2
 prodan	165		2
 prodavan	384		2
-prodekan	896		2
+prodekan	896		3
 prodoran	270		2
 produktivan	574		4
 produžavan			4
 profan	31		2
 profanisan			2
 profesionalan	1164		6
-profilaktičan			2
+profilaktičan			3
 profilisan	148		2
 profitabilan	685		5
 proganjan	184		2
 prognan	442		2
 programiran	371		4
 progresivan	254		4
-progrušan			3
+progrušan			2
 progutan	43		2
 prohladan	52		2
 prohodan	385		2
@@ -3338,13 +3338,13 @@ projektovan	1864		4
 prokazan	58		2
 proklamativan			5
 proklamovan	60		4
-proklinjan			2
+proklinjan			3
 prokockan	12		2
 prokopan	79		2
 prokuvan	15		2
-prokušan			3
-prolazan	213		2
-prometan	65		2
+prokušan			2
+prolazan	213		3
+prometan	65		3
 promešan			2
 prominentan			2
 promiskuitetan	33		2
@@ -3365,10 +3365,10 @@ prosijan			2
 proslavljan	65		2
 prosperitetan			5
 prostituisan			2
-prostodušan	56		2
-prostosrdačan			2
+prostodušan	56		3
+prostosrdačan			3
 prostran	1495		2
-proteran	680		2
+proteran	680		3
 proterivan	23		2
 protivan	379		3
 protivpravan			4
@@ -3376,7 +3376,7 @@ protivprirodan			2
 protivrečan	157		4
 protivustavan	368		5
 protkan	190		2
-prouzrokovan	358		3
+prouzrokovan	358		4
 proučavan	110		2
 proveravan	62		2
 providan	467		3
@@ -3384,7 +3384,7 @@ provincijalan			5
 provizoran			4
 provociran	31		4
 provokativan	367		5
-prozaičan	64		2
+prozaičan	64		3
 proziran	172		3
 prozračan	124		2
 prozvan	642		2
@@ -3398,14 +3398,14 @@ prsobran			3
 pružan	17		2
 prvan			2
 prvobitan	269		4
-prvoklasan	134		3
+prvoklasan	134		4
 prvoplasiran			2
-prvorazredan	76		3
+prvorazredan	76		4
 prvorodan			4
-psihodeličan			2
-psihotičan	21		2
+psihodeličan			3
+psihotičan	21		3
 psovan			2
-publikovan	314		3
+publikovan	314		4
 pulman			2
 punan			2
 punokrvan			4
@@ -3420,7 +3420,7 @@ pustolovan	12		4
 pustopašan			4
 pustošan		M	2
 puštan	93		2
-pšeničan			2
+pšeničan			3
 rabatan			2
 rabijatan			4
 racionalan	1281		5
@@ -3431,13 +3431,13 @@ radikalan	720		4
 radioaktivan	83		2
 radišan	10		2
 radoman			2
-radosan			2
+radosan			3
 radostan	849		3
 radovan			3
 rafiniran	86		4
 rafinisan			2
 rafinovan		M	4
-rahitičan			2
+rahitičan			3
 rahman			2
 raketiran	10		4
 ramadan			2
@@ -3454,7 +3454,7 @@ rascvetan			2
 rasejan	97		2
 raseljavan			2
 rashodovan	35		4
-rasipan	29		2
+rasipan	29		3
 raskalašan	35		4
 raskaljan			2
 raskidan			2
@@ -3463,7 +3463,7 @@ rasklimatan			4
 raskomadan	39		2
 raskopan	55		2
 raskopčan			2
-raskošan	490		2
+raskošan	490		3
 raskrinkan	49		2
 raskuvan			2
 raspaljivan			4
@@ -3471,35 +3471,35 @@ raspasan		M	2
 raspevan	34		2
 raspinjan			2
 raspisan	2934		2
-rasplakan			2
+rasplakan			3
 raspojasan	13		4
-raspričan		M	2
+raspričan		M	3
 rasprodan	23		2
 raspusan			2
 raspustan		M	2
 rastapan			2
-rastrgan	17		2
-rastrošan			2
+rastrgan	17		3
+rastrošan			3
 rastrzan	141		2
 rasturan	14		2
 ratoboran	76		4
 ravan	4223		2
-ravnodušan	965		2
+ravnodušan	965		3
 ravnomeran	434		4
 ravnopravan	1809		4
 ravnosilan			4
 ravnostran		M	2
 ravnozvučan			2
 razan			2
-razapinjan	14		2
+razapinjan	14		3
 razaran	58		2
 razbacan	63		2
 razbijan			2
-razbludan			2
-razbuktan			2
+razbludan			3
+razbuktan			3
 razdavan			2
 razderan			2
-razdiran	16		2
+razdiran	16		3
 razdragan	110		2
 razdrman			2
 razgovetan	39		4
@@ -3508,20 +3508,20 @@ razigran	109		2
 razjadan			2
 razlaman			2
 razlistan			2
-različan			2
-razložan	99		2
-razlupan			2
+različan			3
+razložan	99		3
+razlupan			3
 razmatran	961		2
 razmazan	20		2
 razmeran			2
 razmetan			2
 raznobojan	22		4
 raznoglasan			4
-raznoličan			2
+raznoličan			3
 raznorazan			4
 raznorodan	44		4
 raznostran		M	2
-raznovrstan	1300		2
+raznovrstan	1300		3
 razoran	200		2
 razoružan	32		2
 razočaran	2870		4
@@ -3531,20 +3531,20 @@ razuman	1814		3
 razuzdan	41		3
 razvejan	25		2
 razvijan	321		2
-razvratan	35		2
+razvratan	35		3
 razvrstan	80		2
 račan			2
 rađan			2
 raštiman			2
 raštimovan			4
 raštrkan	12		2
-raščupan	19		2
+raščupan	19		3
 ražalovan			4
 ražan		M	2
 reakcionaran			6
 reaktivan	58		4
 realan	5707		3
-realističan	360		2
+realističan	360		3
 realizovan	4951		5
 recentan			2
 recenziran	14		4
@@ -3600,15 +3600,15 @@ restauriran	103		2
 restoran	10102		2
 restriktivan			4
 retardiran	206		2
-retoričan		M	2
+retoričan		M	3
 retrogradan			2
 retrospektivan			5
-reumatičan			2
+reumatičan			3
 revalviran			4
 revan	15		2
 revidiran	244		4
-revnosan			2
-revnostan	121		2
+revnosan			3
+revnostan	121		3
 revoltiran	247		4
 revolucionaran	437		7
 rezan	47		2
@@ -3626,13 +3626,13 @@ rigidan	222		3
 rigorozan	264		4
 risan	63		2
 riskantan	115		2
-ritmičan	35		2
+ritmičan	35		3
 ritualan	23		4
 rizičan	812		3
 rizvan			2
 riđan	13		2
 roan			2
-robustan	401		2
+robustan	401		3
 rodan	24		2
 rodoljuban			4
 rogobatan	65		4
@@ -3640,32 +3640,32 @@ rohan			2
 rolan	47		2
 roman	18437		2
 romansiran			4
-romantičan	681		2
+romantičan	681		3
 romboidan			2
 rosan	13		2
 rotiran	21		2
 rođendan	8469		3
 rudimentaran			5
-rugoban		M	3
+rugoban		M	2
 ruiniran	144		2
 rujan	151		2
 rukobran			3
 ruralan			2
 ruslan			2
 rustikalan			4
-rustičan	48		2
+rustičan	48		3
 rutiniran			4
 ruševan			3
 ružan	1730		2
-sabiran			2
+sabiran			3
 sablastan	11		3
 sablazan	301		3
 sabotiran	15		2
 sabran	160		2
 sadržajan	447		4
 sadržan	1102		3
-saglasan	1469		2
-sagledan	191		2
+saglasan	1469		3
+sagledan	191		3
 sahan		M	2
 sahranjivan	26		2
 sakralan			2
@@ -3676,13 +3676,13 @@ samilosan			2
 samilostan			2
 samobitan			4
 samodestruktivan			6
-samodopadan			2
+samodopadan			3
 samodovoljan			2
 samoglasan			4
 samohodan			4
 samohran	14		2
-samokritičan			2
-samopouzdan	69		2
+samokritičan			3
+samopouzdan	69		3
 samopožrtvovan			6
 samopregoran	32		2
 samorodan			4
@@ -3694,28 +3694,28 @@ samotan	25		3
 samoupravan			5
 samovlastan			2
 samovoljan	57		4
-samozadovoljan	22		3
+samozadovoljan	22		4
 samrtan			2
 san	21885		1
 sanan		M	2
-sangviničan			2
+sangviničan			3
 saniran	371		2
 sanitaran			4
 sanjan			2
 saobrazan		M	4
 saodgovoran			2
 saosećajan	79		5
-sarkastičan	225		2
-saslušan	795		3
+sarkastičan	225		3
+saslušan	795		2
 saslušavan	128		4
-sastavljan	50		2
+sastavljan	50		3
 sastrugan	10		2
 sateran	88		2
-satiričan	114		2
+satiričan	114		3
 satkan	249		2
-savestan	440		2
+savestan	440		3
 savetodavan			5
-savetovan	26		3
+savetovan	26		4
 savladan	503		2
 savlađivan			2
 sazdan	375		2
@@ -3726,7 +3726,7 @@ sažalan			2
 sažvakan			2
 sebastian			2
 sebastijan			2
-sebičan	426		2
+sebičan	426		3
 seckan	187		2
 sedan	1286		2
 sejan	21		2
@@ -3743,17 +3743,17 @@ senzacionalan	115		6
 senzibilan	65		4
 senzitivan	50		4
 senzualan	137		4
-separatističan			2
+separatističan			3
 separiran			2
-septičan			2
+septičan			3
 sertifikovan			5
 servilan	45		3
 serviran	157		2
 setan	101		2
 sezan			2
 sečuan			2
-sferičan			2
-shematičan			2
+sferičan			3
+shematičan			3
 shodan	37		2
 shrvan			2
 shvatan	72		2
@@ -3762,24 +3762,24 @@ siguran	34710		3
 silan	948		2
 silazan			2
 silovan	62		3
-simboličan	1289		2
-simetričan	183		2
-simpatičan	1395		2
-simptomatičan	63		2
+simboličan	1289		3
+simetričan	183		3
+simpatičan	1395		3
+simptomatičan	63		3
 simuliran	40		2
 simultan	11		3
 sinan			2
 sindikalan			4
 sinhronizovan	270		5
-sinoniman			2
-sintetičan	18		2
+sinoniman			3
+sintetičan	18		3
 sioran			2
 sipan	31		2
-siromašan	1384		2
+siromašan	1384		3
 sirotan			2
-sistematičan	361		2
+sistematičan	361		3
 sitan	1374		2
-sitnodušan			2
+sitnodušan			3
 situiran	137		4
 sićan		M	2
 sićušan	103		3
@@ -3789,7 +3789,7 @@ skalpiran			2
 skandalozan	321		4
 skaredan	18		3
 skeniran	125		2
-skeptičan	871		2
+skeptičan	871		3
 skerletan			2
 skidan	62		2
 skladan	613		2
@@ -3811,7 +3811,7 @@ skucan			2
 skupljan	21		2
 skuvan	161		2
 slabašan	222		3
-slabodušan		M	2
+slabodušan		M	3
 slabokrvan			4
 slabomoćan			2
 slabouman			4
@@ -3847,8 +3847,8 @@ smotan	121		2
 smradan			2
 smrskan	34		2
 smrtan	196		2
-smrtonosan	270		3
-smrzavan			2
+smrtonosan	270		4
+smrzavan			3
 smutan			2
 smućivan			2
 snabdevan	29		2
@@ -3858,7 +3858,7 @@ sniman	1281		2
 snovan			2
 socijalan	81		4
 sofisticiran	374		2
-sofističan			2
+sofističan			3
 solidan	3476		3
 solidaran	131		4
 solventan			2
@@ -3869,7 +3869,7 @@ spakovan	339		3
 spaljivan	46		2
 sparan	28		2
 spasonosan	76		2
-specifičan	5245		2
+specifičan	5245		3
 specijalan	1271		4
 specijalizovan	889		6
 spektakularan	880		5
@@ -3881,9 +3881,9 @@ spiritualan			5
 splašnjavan			2
 spljeskan			2
 spokojan	362		2
-spominjan	142		2
+spominjan	142		3
 spontan	376		2
-sporadičan	54		2
+sporadičan	54		3
 sporan	1357		2
 sporazuman	27		4
 sporedan	199		3
@@ -3923,7 +3923,7 @@ standardizovan	148		5
 starodrevan			4
 staromodan	193		4
 starovečan			4
-statičan	241		2
+statičan	241		3
 statutaran			4
 stavljan	140		2
 stefan			2
@@ -3952,7 +3952,7 @@ strahotan			3
 stran	863		1
 strasan			2
 strastan	141		2
-stravičan	526		2
+stravičan	526		3
 strašan	2320		2
 streljan	694		2
 stresan	524		2
@@ -3973,13 +3973,13 @@ sublimisan			2
 subordiniran			2
 subpolaran			4
 subverzivan			4
-sudbonosan	101		2
+sudbonosan	101		3
 suficitaran			5
 sugestibilan			5
 sugestivan	133		4
 suicidalan	10		5
 suicidan	18		2
-sujetan	252		2
+sujetan	252		3
 sujeveran	122		4
 sukcesivan			4
 sulejman			2
@@ -3997,7 +3997,7 @@ suočavan			2
 superioran	604		5
 supermasivan			5
 supermoćan			2
-suprotan	2846		2
+suprotan	2846		3
 suptilan	404		3
 survan			2
 susedan		M	2
@@ -4017,15 +4017,15 @@ sužavan			2
 svakodnevan			4
 svakovrstan			2
 svemoćan	179		3
-sveobuhvatan	1691		2
+sveobuhvatan	1691		3
 sveprisutan	269		2
 svesan			2
-svesrdan			2
+svesrdan			3
 svestan	12047		2
 svestran	428		2
-svetlosan			2
+svetlosan			3
 svetogrdan			4
-sveukupan	194		2
+sveukupan	194		3
 svezan	106		2
 svezivan			2
 svečan	380		2
@@ -4035,24 +4035,24 @@ svojevoljan	25		4
 svojevrstan	2685		2
 svrsishodan	176		4
 svrstan	528		2
-svrstavan	35		2
+svrstavan	35		3
 taban	68		2
 tabelaran			4
 tajan			2
 tajpan			2
 tajvan			2
 taksiran			2
-taktičan	67		2
+taktičan	67		3
 talentiran	19		2
 talentovan	1029		4
 taliban	68		2
 talisman	141		2
-taličan		M	2
+taličan		M	3
 taman	3892		2
 tamjan	374		2
 tanan	75		2
 tankoćutan			4
-tanušan			3
+tanušan			2
 tarzan			2
 tavan	485		2
 tačan	7262		2
@@ -4064,7 +4064,7 @@ telekran			2
 teleportovan			5
 telesan			2
 temeljan	371		2
-temperamentan	116		2
+temperamentan	116		3
 tempiran	50		2
 temporalan			4
 tendenciozan			5
@@ -4076,7 +4076,7 @@ termalan			2
 terminalan			4
 tertulijan			2
 tesan	405		2
-teskoban	20		3
+teskoban	20		2
 testiran	838		2
 tetoviran	26		2
 tečan	243		2
@@ -4087,19 +4087,19 @@ tikvan	17		2
 timijan	160		2
 timpan	13		2
 tipiziran	18		4
-tipičan	3185		2
+tipičan	3185		3
 tiran			2
 tirkizan			3
 titan	601		2
 titlovan	59		2
 titulisan			2
-tjeskoban		J	3
+tjeskoban		J	2
 tmuran	152		2
 tobogan	490		2
-toksičan	316		2
+toksičan	316		3
 tolerantan	659		2
 tolerisan	68		2
-toničan			2
+toničan			3
 toplokrvan			4
 toplotan			2
 torpedovan			4
@@ -4107,21 +4107,21 @@ totalan	124		3
 totalitaran			5
 točan	164		2
 tradicionalan	1293		6
-tragikomičan			2
-tragičan	960		2
+tragikomičan			3
+tragičan	960		3
 trajan	1382		2
 transcendentalan			5
 transcendentan			2
 transformisan	193		2
 transgresivan		M	4
 transkontinentalan			6
-transparentan	1175		2
+transparentan	1175		3
 transportovan	265		4
 transverzalan			4
 trasiran	115		2
 traumatiziran			2
 traumatizovan			6
-traumatičan	129		2
+traumatičan	129		3
 treniran	55		2
 trenutan	271		3
 tretiran	706		2
@@ -4141,14 +4141,14 @@ trojasan			2
 trokrilan			3
 trolistan			2
 trorodan			2
-trosložan			2
-trosoban	264		3
+trosložan			3
+trosoban	264		2
 trospratan			2
 trostran			2
 trovan	31		2
 tročlan			2
 trošan	40		2
-trtičan			2
+trtičan			3
 trudan	108		2
 truležan			2
 truman			2
@@ -4167,17 +4167,17 @@ tvaran			2
 tvrdokoran	31		4
 ubadan			2
 ubijan	46		2
-ubiran	14		2
+ubiran	14		3
 ubitačan	139		4
 ubrajan			3
 ubran	67		2
-ubrizgan	70		2
+ubrizgan	70		3
 ubrljan			2
 ubrojan	38		2
 ubrzan	1092		2
 ucenjivan	15		2
 ucrtan	125		2
-udaran	62		2
+udaran	62		3
 udebljan			2
 udoban	2110		3
 uduvan			2
@@ -4189,7 +4189,7 @@ ugnjetavan	25		4
 ugodan	1016		3
 ugraviran	86		4
 ugrađivan	58		2
-ugrejan	21		2
+ugrejan	21		3
 ugrožavan	17		2
 ugruvan			2
 uguran	37		2
@@ -4199,24 +4199,24 @@ uigran	142		2
 ujdurisan			2
 ukaljan	32		2
 ukazan	30		2
-uklanjan	26		2
+uklanjan	26		3
 uklesan	186		2
 ukopan	332		2
 ukovan		M	2
 ukrasan			2
 ukrcan	42		2
 ukucan	30		2
-ukupan	11617		2
-ukusan	916		2
+ukupan	11617		3
+ukusan	916		3
 ukuvan			2
 ulagan	82		2
 ulan		M	2
 ulepšan	62		2
 ulickan			2
 uljepšan		J	2
-uljudan	144		2
+uljudan	144		3
 ultimativan	70		5
-ulupan	16		2
+ulupan	16		3
 uman	156		2
 umanjivan	13		4
 umazan	49		2
@@ -4230,7 +4230,7 @@ umobolan	19		4
 umoboljan			4
 umoljavan			4
 umoran	2296		3
-umotan	215		3
+umotan	215		2
 umrljan	20		2
 unakrsan			2
 uniforman	44		2
@@ -4239,13 +4239,13 @@ unikatan	398		4
 unitaran			4
 univerzalan	646		5
 uništavan	98		2
-unosan	720		2
+unosan	720		3
 uobičajan			5
 upakovan	579		4
-upecan	27		2
+upecan	27		3
 upetljan	49		2
 upisan	2167		2
-upitan	3064		2
+upitan	3064		3
 uplakan	63		2
 uplaćivan	147		4
 uplivan		M	2
@@ -4255,37 +4255,37 @@ upotreban			4
 upotrebljavan	205		2
 upozoravan	36		2
 upravan	30		3
-upravljan	80		2
+upravljan	80		3
 uprljan	42		2
 uprskan			2
 upucan	154		2
-uputan			2
+uputan			3
 upućivan	67		2
 uragan	661		3
 uran	350		2
 urban	301		2
 uredan	1181		3
-urezan	255		2
+urezan	255		3
 uređivan	32		2
 urgentan	79		2
 urnebesan	78		4
 urokan			2
 uručivan			2
-usavršavan	57		2
+usavršavan	57		3
 usijan	48		2
-usisan	28		2
+usisan	28		3
 uskogrudan			4
 uskotračan			2
 uskraćivan			4
 uslikan	137		2
 uslovan	41		2
 uslovljavan	10		4
-uslužan	55		2
+uslužan	55		3
 usmeravan	85		2
 uspavan	184		2
-uspešan	11206		2
+uspešan	11206		3
 uspravan	350		3
-usputan			2
+usputan			3
 usrdan	12		2
 ustavan	116		3
 ustavotvoran			2
@@ -4294,7 +4294,7 @@ ustupan			2
 usukan			2
 utaban	58		2
 uteran	24		2
-utešan	39		2
+utešan	39		3
 uticajan	571		4
 utilitaran	19		5
 utišan	37		2
@@ -4302,7 +4302,7 @@ utkan	161		2
 utreniran	29		4
 utrpan			2
 utrčan			2
-utvrđivan	39		2
+utvrđivan	39		3
 uvaljan	16		2
 uvažavan	115		2
 uveličan	31		2
@@ -4312,13 +4312,13 @@ uvećan	1835		2
 uvećavan	24		2
 uvežban	83		2
 uviđavan	50		4
-uvrštavan			2
+uvrštavan			3
 uzajaman	27		4
 uzaludan	822		4
 uzaman		M	3
 uzan	351		2
 uzbekistan			2
-uzburkan	15		2
+uzburkan	15		3
 uzdizan	14		3
 uzdrhtan			2
 uzdrman	281		2
@@ -4326,12 +4326,12 @@ uzdržan	580		2
 uzgajan	68		2
 uzgredan	34		3
 uzidan	61		2
-uziman	103		2
+uziman	103		3
 uzlazan	12		2
 uznemiravan	40		2
 uzoran	351		2
-uzrokovan	732		3
-uzročan			2
+uzrokovan	732		4
+uzročan			3
 uzrujan	100		2
 uzvratan			2
 ućutkan	39		2
@@ -4339,7 +4339,7 @@ učevan		M	2
 učitan	70		2
 učuvan			2
 uštrcan			2
-ušuškan	260		2
+ušuškan	260		3
 užasan	1141		3
 užurban	83		2
 vagan	10		2
@@ -4361,17 +4361,17 @@ vatikan			2
 vatrootporan			2
 vazalan			2
 vazdan		M	2
-vazdušan			3
+vazdušan			2
 važan	25192		2
 vedran			2
 vegan	161		2
-veleban			2
+veleban			3
 velelepan	58		2
 veleuman		M	4
 velikan	557		2
-velikodušan	233		2
-veličan	24		2
-veneričan			2
+velikodušan	233		3
+veličan	24		3
+veneričan			3
 venčan	55		2
 venčavan			2
 veran	2309		2
@@ -4415,7 +4415,7 @@ višeslojan	114		4
 višesložan			2
 višesmeran			4
 višestran	13		2
-višeznačan			2
+višeznačan			3
 višečlan			2
 vladan			2
 vlastan		M	2
@@ -4429,7 +4429,7 @@ vojkan			2
 volan	2420		2
 voljan	1227		2
 voluminozan	11		5
-volšeban	432		2
+volšeban	432		3
 voštan			2
 vragolan	46		2
 vran	30		1
@@ -4447,40 +4447,40 @@ vukoman			2
 vuksan			2
 vulgaran	325		2
 vulkan	1169		2
-zabavan	2369		2
+zabavan	2369		3
 zabitan			2
 zaboravan	111		4
 zabran	272		2
 zabranjivan	83		2
 zacopan			2
-zacrtan	229		2
+zacrtan	229		3
 zadahtan			2
 zadan	17		2
 zadavan			2
 zadihan	162		2
 zadovoljan	17920		4
 zadržan	1193		2
-zadržavan	11		2
+zadržavan	11		3
 zaduvan			2
 zaduživan			2
 zagarantovan	1134		5
-zagledan	382		2
-zaglušan			3
+zagledan	382		3
+zaglušan			2
 zagonetan	246		4
 zagorčan			2
 zagovaran			4
 zagrejan	318		2
-zagrijan	26	J	2
+zagrijan	26	J	3
 zahtevan	1751		2
 zahukan			2
 zahvalan	4573		2
-zahvatan			2
+zahvatan			3
 zainteresovan	5391		6
 zakamufliran	11		2
 zakazan	3858		2
 zakivan			2
 zaklan	149		2
-zaključan	456		2
+zaključan	456		3
 zakopan	237		2
 zakopčan	51		2
 zakovan	62		2
@@ -4499,10 +4499,10 @@ zamenjivan	14		2
 zametan	14		2
 zamišljan	29		2
 zamoran	132		3
-zamotan	50		3
+zamotan	50		2
 zamrljan	19		2
 zanjihan			2
-zanosan	60		2
+zanosan	60		3
 zaobilazan	68		5
 zaokupiran			2
 zapakovan	121		4
@@ -4521,16 +4521,16 @@ zarazan	262		2
 zarezan			2
 zarobljavan			4
 zarđan			2
-zaseban	938		2
+zaseban	938		3
 zasejan	189		2
 zasipan	22		2
 zaslađivan			4
-zaslužan	2609		2
+zaslužan	2609		3
 zasnovan	7510		2
 zastupan	24		2
 zasukan			2
 zatalasan	11		2
-zataškan	73		2
+zataškan	73		3
 zataškavan	22		2
 zatiran			2
 zatoran			2
@@ -4540,19 +4540,19 @@ zatrpan	548		2
 zatrpavan	14		4
 zatucan		M	2
 zatvaran	137		2
-zaustavljan	26		2
+zaustavljan	26		3
 zauzdan	11		2
-zavaran	30		2
+zavaran	30		3
 zavejan	102		2
 zavezan	50		2
-zavidan	1312		2
+zavidan	1312		3
 zavijan			2
-zavisan	541		2
+zavisan	541		3
 zavistan	362		2
 zavičajan			4
 zavrbovan	21		4
 zavrzan		M	2
-završavan	17		2
+završavan	17		3
 zazidan			2
 zazoran	10		2
 zazvan			2
@@ -4570,7 +4570,7 @@ zeman	122		2
 zemljan		M	2
 zgodan	1541		2
 zgomilan			3
-zgođušan			3
+zgođušan			2
 zgrudvan			2
 zgrušan			2
 zgubidan			2
@@ -4584,14 +4584,14 @@ zlatonosan			2
 zlatotkan			2
 zlaćan			2
 zloban	187		2
-zloglasan			2
-zlokoban	69		2
+zloglasan			3
+zlokoban	69		3
 zlonameran	445		2
-zloslutan	31		2
+zloslutan	31		3
 zlosrećan			3
-zlostavljan	155		2
+zlostavljan	155		3
 zlovoljan	50		2
-zloćudan	36		2
+zloćudan	36		3
 znan	341		1
 znatan	2487		2
 znatiželjan	146		4
@@ -4603,12 +4603,12 @@ zračan			2
 zrcalan			3
 zuban			2
 zvan	344		1
-zvaničan	3519		2
+zvaničan	3519		3
 zvekan			2
 zvezdan	144		2
 zvečan			2
 zvučan	66		2
-ćalasan			2
+ćalasan			3
 ćeran			2
 ćerdan			2
 ćilibaran			4
@@ -4622,7 +4622,7 @@ zvučan	66		2
 čađan			2
 čedan	39		2
 čedomoran			4
-čeličan	12		2
+čeličan	12		3
 čemeran	23		2
 česan			2
 četvoronožan			2
@@ -4670,7 +4670,7 @@ zvučan	66		2
 šijan			2
 šikaniran	49		2
 šivan		M	2
-šizofreničan		M	2
+šizofreničan		M	3
 školovan	570		2
 škrofulozan		M	4
 šlogiran		M	2
@@ -4690,7 +4690,7 @@ zvučan	66		2
 šuman	95		2
 švercovan	17		2
 šćepan			2
-žaloban			3
+žaloban			2
 žalostan	367		3
 žalostivan			4
 žan		M	1
@@ -4698,14 +4698,14 @@ zvučan	66		2
 žedan	620		2
 želatinozan			5
 željan	1118		2
-žigosan	96		2
+žigosan	96		3
 žitorodan			4
 živahan	430		3
 živan			2
 živodavan			4
 živonosan			2
 živopisan	406		4
-životan	64		2
+životan	64		3
 životvoran	17		4
 živčan	19		2
 žičan			2
@@ -4724,21 +4724,21 @@ bijedan	30		2
 bijesan	86		2
 bjesan			2
 bjesomučan			2
-cjelokupan			2
+cjelokupan			3
 djelotvoran			4
-dobronamjeran			2
+dobronamjeran			3
 dotjeran			2
 iscijepan			2
-istjeran			2
+istjeran			3
 izvjestan			3
 lakovjeran			4
 licemjeran			4
 ljepotan			2
-namjeran			2
-natjeran			2
+namjeran			3
+natjeran			3
 neizbježan			4
 neprimjetan			4
-nesvjestan			2
+nesvjestan			3
 neuspješan			4
 neutješan			4
 nevjeran			3
@@ -4746,13 +4746,13 @@ nevjerovatan			2
 opsjedan			2
 osjećajan			4
 pobjeđivan			2
-pomiješan	34		2
-pretjeran			2
+pomiješan	34		3
+pretjeran			3
 prijesan			2
 primjetan			3
 prosječan			3
-protjeran			2
-savjestan			2
+protjeran			3
+savjestan			3
 smijesan			2
 smiješan	100		2
 smjeran		M	2
@@ -4766,7 +4766,7 @@ trijezan	22		2
 umiješan	71		2
 umjestan			2
 umješan			2
-uspješan			2
+uspješan			3
 uvježban			2
 vjenčan			2
 vjeran		M	2

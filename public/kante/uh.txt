@@ -1,5 +1,5 @@
 113
-auspuh	287		2
+auspuh	287		3
 beknuh			2
 brinuh			2
 bruh			1
@@ -40,7 +40,7 @@ njuh	249		1
 nuh		M	1
 obrnuh			2
 odahnuh			2
-odenuh			2
+odenuh			3
 odgurnuh			2
 odmahnuh			2
 ogrnuh			2
@@ -51,24 +51,24 @@ osmehnuh	17		2
 osvanuh			2
 osvrnuh	38		2
 otisnuh			2
-otkinuh			2
+otkinuh			3
 očuh	301		2
 pastuh	33		2
 pazuh	144		2
 planuh			2
 pljusnuh			2
-podmetnuh			2
-poginuh			2
+podmetnuh			3
+poginuh			3
 pokrenuh	15		2
 pomenuh	263		2
 posluh		M	2
 posrnuh			2
 potonuh			2
-počinuh			2
+počinuh			3
 predahnuh			2
-prekinuh	16		2
+prekinuh	16		3
 prečuh			2
-pritisnuh			2
+pritisnuh			3
 propuh	19		2
 prosuh			2
 protegnuh			2
@@ -98,8 +98,8 @@ vazduh	16241		2
 viknuh	44		2
 virnuh			2
 vrisnuh	16		2
-zabrinuh			2
-zametnuh			2
+zabrinuh			3
+zametnuh			3
 zapuh			2
 zasuh			2
 začuh	117		2

@@ -48,7 +48,7 @@ holmijum			2
 hum	282		1
 impresum	76		2
 indijum			2
-individuum		M	2
+individuum		M	3
 iridijum		M	2
 iterbijum			2
 itrijum			2
@@ -85,13 +85,13 @@ lorencijum			2
 lutecijum			2
 magnezijum	1169		2
 magnum	405		2
-maksimum	8365		2
+maksimum	8365		3
 martirijum		M	2
 medijum	985		2
 memorandum	2712		2
 mendeljevijum			2
 milenijum	974		2
-minimum	14374		2
+minimum	14374		3
 momentum	209		2
 monstrum	722		2
 moratorijum	495		2
@@ -108,7 +108,7 @@ niobijum			2
 nobelijum			2
 nusbaum			2
 odijum	239		2
-opijum	382		2
+opijum	382		3
 oposum	83		3
 optimum	325		2
 orakulum			2
@@ -179,7 +179,7 @@ univerzum	1818		2
 uranijum	635		2
 vademekum			2
 vakum	451		2
-vakuum	1080		2
+vakuum	1080		3
 valijum	24		2
 vanadijum		M	2
 zulum		M	2

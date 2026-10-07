@@ -1,25 +1,25 @@
 2873
-Božiću			2
+Božiću			3
 abramoviću			2
 acoviću			2
 agovaću			2
 agresivnošću	175		2
-aktiviraću			2
+aktiviraću			3
 aktivnošću	1998		2
-alarmiraću			2
+alarmiraću			3
 aleksiću			2
 alimpiću			2
 ambicioznošću			2
-analiziraću	14		2
+analiziraću	14		3
 anastasijeviću			2
 andriću			2
 angažovaću	12		2
-anksioznošću			2
+anksioznošću			3
 antiću			2
 antonoviću			2
 anđeliću			4
 anđeloviću			2
-anđelčiću			2
+anđelčiću			3
 apodiktičnošću			2
 arlaukaću			2
 arsenoviću			2
@@ -28,13 +28,13 @@ arsoviću			2
 asanoviću			2
 asertivnošću			2
 autiću			2
-aveću			2
+aveću			3
 avramoviću			2
 aćimoviću			2
 babiću			2
-bacaću			2
-baciću	82		2
-bahatošću	173		3
+bacaću			3
+baciću	82		3
+bahatošću	173		4
 bajiću			2
 bajkiću			2
 bakiću			2
@@ -46,35 +46,35 @@ bandažiraću			2
 bandiću			2
 banićeviću			2
 bankoviću			2
-bankrotiraću			2
+bankrotiraću			3
 banoviću			2
-banuću			2
+banuću			3
 baranoviću			2
 bariću			2
 barjačiću			2
 baroviću			2
 batakoviću			2
 bataliću			2
-batinaću			2
+batinaću			3
 batiću			2
 batkoviću			2
 batriću			2
-bauljaću			2
+bauljaću			3
 baviću	94		3
 baćeviću			2
 bašiću			2
-beknuću			2
-beliću			2
+beknuću			3
+beliću			3
 belotiću			2
 beloviću			2
 beriću			2
-besmislenošću	13		4
+besmislenošću	13		5
 besmrtnošću	91		3
 bespameću			2
 bespomoćnošću			5
 bespuću	197		2
-bezbednošću	1018		3
-bezbrižnošću	17		3
+bezbednošću	1018		4
+bezbrižnošću	17		4
 bezobzirnošću	54		2
 bezočnošću	10		2
 bezvlašću	29		2
@@ -93,20 +93,20 @@ bjeletiću			2
 bjesnoću		J	2
 blagodarnošću			2
 blagodaću	1021		2
-blagosloviću	11		2
+blagosloviću	11		3
 blagošću	138		2
 blaževiću			2
-blebetaću			2
+blebetaću			3
 blebeću	45		2
 bliskošću	172		3
 blistavošću			2
-blokiraću			2
+blokiraću			3
 blokčiću			2
 bludeću			2
 bobiću			2
 bodreću			2
 bodrošću			3
-bogatiću	17		3
+bogatiću	17		4
 bogićeviću			2
 bogiću			2
 bogišiću			2
@@ -114,25 +114,25 @@ bogojeviću			2
 bogočašću			2
 bojaniću			2
 bojaznošću			2
-bojiću			2
+bojiću			3
 bojoviću			2
-boleću			2
+boleću			3
 bolešću	2310		3
 borbenošću	369		4
 borićiću			2
-boriću	228		2
+boriću	228		3
 boričiću			2
 boroviću			2
 boškoviću			2
 božoviću			2
-braniću	60		2
+braniću	60		3
 brankoviću			2
 bratiću	20		2
 braću	3144		2
 brašiću			2
 brbljavošću			4
-brbljaću			2
-brbljivošću			3
+brbljaću			3
+brbljivošću			4
 brboriću			2
 brekću			2
 brinuću	18		3
@@ -143,7 +143,7 @@ brižnošću	12		3
 brkiću			2
 brkoviću			2
 brodiću	59		2
-brojaću			2
+brojaću			3
 brojnošću	207		2
 brozoviću			2
 brutalnošću	106		2
@@ -151,17 +151,17 @@ brzopletošću			2
 budnošću	21		2
 budućnošću	920		2
 buduću	3063		2
-bugariću			2
+bugariću			3
 bujnošću	11		2
 bujoševiću			2
 bulajiću			2
 bulatoviću			2
-buniću			2
+buniću			3
 bućiću			2
 careviću			2
-celivaću			2
+celivaću			3
 cemoviću			2
-ceniću			2
+ceniću			3
 ceroviću			2
 cicvariću			2
 cipeliću			2
@@ -180,7 +180,7 @@ cvetkoviću			2
 cveću	512		2
 cvijiću			2
 cvokoću	49		2
-cvrkuću	125		2
+cvrkuću	125		3
 dabetiću			2
 dahću	58		2
 dalipagiću			2
@@ -189,10 +189,10 @@ daniloviću			2
 daničiću			2
 danojliću			2
 dapčeviću			2
-darežljivošću	17		3
+darežljivošću	17		4
 datošću			2
 dautoviću			2
-davaću	27		2
+davaću	27		3
 davidoviću			2
 daviniću			2
 daću	2102		2
@@ -204,7 +204,7 @@ dedeiću			2
 dedejiću			2
 dejanoviću			2
 delatnošću	2183		2
-deliću	469		2
+deliću	469		3
 demiroviću			2
 demonstriraću			2
 deniću			2
@@ -221,7 +221,7 @@ dikliću			2
 dimiću			3
 diniću			2
 dinkiću			2
-diplomiraću			2
+diplomiraću			3
 dirnutošću			2
 dobijaću			3
 dobiću	184		3
@@ -231,42 +231,42 @@ dobrodržeću			2
 dobrodušnošću			2
 dobrostojeću	12		2
 dobroviću			2
-dodaću	255		2
-dodeliću			2
-dodirnuću			2
+dodaću	255		3
+dodeliću			3
+dodirnuću			3
 dognaću			2
-dogovoriću	11		2
+dogovoriću	11		3
 doguraću			2
-dohvatiću			3
-dokazaću	73		2
+dohvatiću			4
+dokazaću	73		3
 dokrajčiću			3
 dolazeću	79		2
-dolaziću	38		3
+dolaziću	38		4
 doleteću			2
 doleću			2
 domanoviću			2
 domaću	5367		2
 doneću	134		2
 doniraću			2
-donosiću			2
-dopisaću	21		2
-dopustiću	21		2
-doručkovaću			4
-dosađivaću			2
-doslednošću	108		3
-dospeću	102		2
+donosiću			3
+dopisaću	21		3
+dopustiću	21		3
+doručkovaću			5
+dosađivaću			3
+doslednošću	108		4
+dospeću	102		3
 dostaniću			2
-dostaviću	46		3
-dostignuću	113		3
+dostaviću	46		4
+dostignuću	113		4
 doteraću			2
 dovešću	58		2
-dovršiću			2
-doznaću			2
-dozvoliću	99		2
+dovršiću			3
+doznaću			3
+dozvoliću	99		3
 doćiću			2
-dočekaću	25		3
-dočepaću			2
-doživeću			2
+dočekaću	25		4
+dočepaću			3
+doživeću			3
 dožiću			2
 dragiću			2
 dragniću			2
@@ -275,24 +275,24 @@ dramatičnošću	19		2
 dračiću			2
 draškiću			2
 draškoviću			2
-dražiću			2
+dražiću			3
 drevnošću	10		2
 drhću			2
 drljeviću			2
 drskošću	118		3
 druliću			2
-družiću			2
+družiću			3
 drveću	1007		2
 drznuću			3
 dršću	30		2
 državnošću	56		2
-držaću	100		2
+držaću	100		3
 držeću			2
 držiću			2
 dubeću			2
 dudiću			2
 dugaliću			2
-dugovaću			2
+dugovaću			3
 duhovnošću	252		2
 duliću			2
 dupliraću			2
@@ -306,7 +306,7 @@ džinoviću			2
 efikasnošću	773		5
 ekmećiću			2
 ekmečiću			2
-eksplodiraću			2
+eksplodiraću			3
 energičnošću	26		2
 eriću			2
 familijarnošću			2
@@ -318,7 +318,7 @@ filipoviću			2
 finoću	131		2
 fiću	99		2
 fjodoroviću			2
-fokusiraću	31		2
+fokusiraću	31		3
 fotografisaću	10		2
 funkcionalnošću	388		2
 gadljivošću			2
@@ -326,45 +326,45 @@ gagoviću			2
 gajiću	21		2
 galiću			2
 ganiću			2
-ganuću			2
-garantovaću			4
+ganuću			3
+garantovaću			5
 gariću			2
 gavriloviću			2
 gavriću			2
 gačiću			2
-gađaću			2
+gađaću			3
 gašiću			2
 genijalnošću	72		2
 gladujuću			2
-glasaću	301		2
-glasiću			2
+glasaću	301		3
+glasiću			3
 glasnoću	61		2
 glatkoću	76		2
 gledaću	284		3
 glediću			2
 gligoriću			2
 glišiću			2
-glumiću			2
+glumiću			3
 glupošću	350		2
 gnjilošću			2
 gojaznošću	263		4
 gojniću			2
-golubiću	32		2
+golubiću	32		3
 goluboviću			2
 golupčiću			2
 gombroviću			2
-goniću			2
+goniću			3
 gordošću	149		2
-goreću	10		2
-gorljivošću			3
+goreću	10		3
+gorljivošću			4
 goruću	37		2
 gospiću			2
 gotovošću	27		2
-govoriću	385		2
+govoriću	385		3
 gošiću			2
 gošću	141		2
 gracioznošću	53		2
-gradiću	1805		2
+gradiću	1805		3
 grakću	52		2
 grandiću			2
 graniću			2
@@ -373,7 +373,7 @@ gregoriću			2
 grešnošću			2
 grkoviću			2
 grliću	28		3
-grmeću			2
+grmeću			3
 grnčarčiću			2
 grokću			2
 grubošću	57		2
@@ -382,7 +382,7 @@ grčiću			2
 gudoviću			2
 guduriću			2
 guguću			2
-guraću			2
+guraću			3
 gurnuću			3
 gustoću	68		2
 gutoviću			2
@@ -391,31 +391,31 @@ gušću	90		2
 hadžiću			2
 hasoviću			2
 heliću			2
-hiniću			2
+hiniću			3
 hladnokrvnošću	20		2
 hladnoću	988		2
-hodajuću	13		3
-hodaću	13		2
+hodajuću	13		4
+hodaću	13		3
 hodničiću			2
 hodočašću	94		4
 homiću			3
 hoću	17847		2
 hrabrošću	740		2
-hraniću			2
+hraniću			3
 hristiću			2
 hromošću			3
 humanošću	144		4
-hvaliću	24		2
+hvaliću	24		3
 iduću	855		2
 igiću			2
 ignjatoviću			2
 ignorisaću			2
-igraću	171		2
+igraću	171		3
 iliću			2
 imajuću			2
-imaću	580		2
+imaću	580		3
 imenovaću			5
-improvizovaću			4
+improvizovaću			5
 inertnošću	32		2
 informisaću			2
 iniću			2
@@ -423,65 +423,65 @@ insistiraću	94		2
 intimnošću	54		2
 isailoviću			2
 isakoviću			2
-iscediću			2
-isceliću			2
+iscediću			3
+isceliću			3
 isceljujuću	43		2
 iscepaću			2
 iscrpnošću			2
 iseckaću			2
-iseliću			2
+iseliću			3
 isećiću			2
 isisaću			2
 iskasapiću			2
-iskaću			2
-isključiću			2
+iskaću			3
+isključiću			3
 iskonstruisanošću			2
-iskopaću	16		2
-iskoristiću	470		3
-iskočiću			2
+iskopaću	16		3
+iskoristiću	470		4
+iskočiću			3
 iskrenošću	365		4
-iskrvariću			3
-iskupiću			2
-iskušaću			3
+iskrvariću			4
+iskupiću			3
+iskušaću			4
 ispaliću			2
 ispariću			2
-ispašću	20		2
-ispisaću			2
-ispitaću	17		2
-ispitivaću			2
-ispiću			2
-isplatiću			2
+ispašću	20		3
+ispisaću			3
+ispitaću	17		3
+ispitivaću			3
+ispiću			3
+isplatiću			3
 isplaziću			2
 ispomoću			4
-isporučiću			2
+isporučiću			3
 ispovedaću			2
 ispovediću			2
-ispovešću	81		3
-ispoviješću			4
+ispovešću	81		4
+ispoviješću			5
 ispoštovaću	16		2
-ispratiću	10		3
-ispraviću	33		3
-isprazniću			2
+ispratiću	10		4
+ispraviću	33		4
+isprazniću			3
 isprašiću			2
 isprebijaću			2
 isprepleću			2
 isprepliću	85		2
 ispripovedaću			2
-ispričaću	252		2
-isprljaću			2
-isprobaću	23		2
+ispričaću	252		3
+isprljaću			3
+isprobaću	23		3
 isprosiću			2
 ispržiću			2
 ispucaću			2
-ispuniću	64		3
-ispustiću			2
+ispuniću	64		4
+ispustiću			3
 istančanošću			2
-isteraću	17		3
+isteraću	17		4
 istetoviraću			2
 istrajnošću	180		2
-istraživaću			2
-istražiću			2
-istrebiću			2
+istraživaću			3
+istražiću			3
+istrebiću			3
 istrpeću			2
 istrunuću			2
 istuširaću			2
@@ -490,76 +490,76 @@ ivaniću			2
 ivanoviću			2
 iviću			2
 ivkoviću			2
-izabraću	41		2
-izazvaću			2
+izabraću	41		3
+izazvaću			3
 izaćiću			2
 izaću			2
-izbaciću	28		2
-izbaviću			3
-izbegavaću			2
-izbiću			2
-izbljuvaću			2
-izboriću			2
+izbaciću	28		3
+izbaviću			4
+izbegavaću			3
+izbiću			3
+izbljuvaću			3
+izboriću			3
 izbošću			2
-izbrisaću			3
+izbrisaću			4
 izbrojaću			2
 izbrusiću			2
-izbušiću			2
-izdaću			2
+izbušiću			3
+izdaću			3
 izdresiraću			2
-izdržaću	71		2
-izdržljivošću	119		3
-izdvojiću	93		2
+izdržaću	71		3
+izdržljivošću	119		4
+izdvojiću	93		3
 izgaziću			2
-izgledaću	14		2
-izgoreću			2
-izgovoriću			2
-izgradiću	10		2
-izgubiću	54		2
+izgledaću	14		3
+izgoreću			3
+izgovoriću			3
+izgradiću	10		3
+izgubiću	54		3
 izješću			2
-izlagaću			2
-izlaziću			3
+izlagaću			3
+izlaziću			4
 izleću	305		2
-izlečiću			2
+izlečiću			3
 izliću	12		2
-izložiću	33		2
+izložiću	33		3
 izludeću			2
 izlupaću			2
 izmasiraću			2
 izmeniću			2
-izmeriću			3
-izmisliću			3
-izmlatiću			2
+izmeriću			4
+izmisliću			4
+izmlatiću			3
 izmoliću			2
-iznajmiću			2
-iznenadiću	11		2
-iznenađujuću	100		3
+iznajmiću			3
+iznenadiću	11		3
+iznenađujuću	100		4
 izneveriću			2
 izneću	282		2
-izobličiću			2
-izostaviću	15		3
-izoštriću			2
-izradiću			2
-izrezaću			3
+izobličiću			3
+izostaviću	15		4
+izoštriću			3
+izradiću			3
+izrezaću			4
 izubijaću			2
 izudaraću			2
 izuzeću	134		2
-izvadiću	15		3
+izvadiću	15		4
 izvesnošću	199		2
-izvestiću	16		2
-izveštavaću			2
+izvestiću	16		3
+izveštavaću			3
 izvešću	29		2
-izviniću	30		2
+izviniću	30		3
 izvinuću	11		2
 izvornošću	15		2
 izvrću	206		2
-izvršiću	22		2
+izvršiću	22		3
 izvućiću			2
 izvuću			2
 ićiću			2
 išibaću			4
 iščeznuću	22		2
-iščupaću	10		2
+iščupaću	10		3
 jagiću			2
 jagličiću			2
 jagnjeću	64		2
@@ -570,14 +570,14 @@ janjiću			2
 janketiću			2
 jankoviću			2
 janoviću			2
-jareću	16		2
+jareću	16		3
 jarošću			2
 jasnoću	338		2
 jasnošću	29		3
 jastučiću	13		2
 jatiću			2
-javiću	499		2
-javljaću	10		2
+javiću	499		3
+javljaću	10		3
 javnošću	6225		2
 jašoviću			2
 jednakošću	106		2
@@ -608,8 +608,8 @@ jovoviću			2
 jočiću			2
 jugoviću			2
 juneću	15		2
-juriću			2
-jurnuću			2
+juriću			3
+jurnuću			3
 kafiću	2706		2
 kajaću	10		3
 kakvoću	37		2
@@ -625,11 +625,11 @@ karajuću			2
 karanoviću			2
 kariću			2
 karloviću			2
-kasniću			2
+kasniću			3
 kastriraću			2
 katiću			2
-kazaću	200		2
-kazivaću			2
+kazaću	200		3
+kazivaću			3
 kaziću			2
 kazniću	14		3
 kaću			2
@@ -659,8 +659,8 @@ kličkoviću			2
 kljajiću			2
 kljakiću			2
 ključajuću			2
-kloniću			2
-klonulošću			3
+kloniću			3
+klonulošću			4
 kneževiću			2
 kniću			2
 književnošću	655		4
@@ -673,25 +673,25 @@ kolačiću	14		2
 kolendiću			2
 koliću			2
 koloniću			2
-komadiću	62		2
+komadiću	62		3
 kompiću			2
 komuloviću			2
 konjikušiću			2
 konjiću	33		2
 konjčiću			2
 konsultovaću	17		2
-kontaktiraću	29		2
+kontaktiraću	29		3
 kontiću			2
 kontrolisaću			2
 končiću	14		2
-kopaću			2
+kopaću			3
 koraću			2
 kordiću			2
-koristiću	191		3
+koristiću	191		4
 korišću	63		3
 kosanoviću			2
 kosančiću			2
-kosiću	11		2
+kosiću	11		3
 kosjeriću			2
 kostiću			2
 kotliću	116		2
@@ -699,23 +699,23 @@ kovačeviću			2
 kovačiću			2
 koviloviću			2
 koviću			2
-kovčežiću	22		3
+kovčežiću	22		4
 kozareviću			2
-kočiću			2
+kočiću			3
 košutiću			2
 košću			2
-kraljeviću	51		3
+kraljeviću	51		4
 krapoviću			2
 krastavčiću			2
 kratkoću	28		2
 kraću	608		2
 kreativnošću	533		2
 krekeću	42		2
-krenuću	162		2
+krenuću	162		3
 krepkošću			3
 krepošću	15		2
 kresnuću			3
-krevetiću	64		3
+krevetiću	64		4
 kreću	13824		2
 krgoviću			2
 krhkošću	12		3
@@ -724,37 +724,37 @@ krnjeviću			2
 krompiriću			2
 krotkošću	13		2
 krstareću	31		2
-krstiću	12		2
-krvoproliću	62		2
-krčiću			2
+krstiću	12		3
+krvoproliću	62		3
+krčiću			3
 kržljavošću			2
 kucaću			3
 kujundžiću			2
 kuliću			2
 kuljančiću			2
-kumiću			2
-kupaću			2
-kupiću	346		2
-kupovaću	22		2
+kumiću			3
+kupaću			3
+kupiću	346		3
+kupovaću	22		3
 kusiću			2
 kuvaću	11		3
 kuću	29515		2
 kvasiću			3
-lagaću	10		2
+lagaću	10		3
 lainoviću			2
 lakomošću			2
 lakoću	653		2
 lakošću			2
 laliću			2
 laloševiću			2
-lansiraću			2
+lansiraću			3
 lančiću	43		2
 lauševiću			2
 lazareviću			2
 laziću			3
 lazoviću			2
 lašiću			2
-lebdeću	13		2
+lebdeću	13		3
 leboviću			2
 ledeću			2
 lekoviću			2
@@ -763,12 +763,12 @@ lemajiću			2
 lenjošću	63		3
 lenošću	13		2
 leposaviću			2
-leptiriću	23		2
+leptiriću	23		3
 leteću	52		2
 leću	35		2
-lečiću			2
+lečiću			3
 lešiću			2
-ležaću			2
+ležaću			3
 ležernošću	32		2
 ležeću			2
 likovnošću	16		2
@@ -776,10 +776,10 @@ liliću			2
 lipsaću			3
 lisičiću			2
 lisoviću			2
-listiću	590		2
-lizaću			2
+listiću	590		3
+lizaću			3
 liću			2
-ličiću			2
+ličiću			3
 ličnošću	868		3
 lišću	436		2
 ljajiću			2
@@ -788,20 +788,20 @@ ljubaznošću	445		4
 ljubeniću			2
 ljubenoviću			2
 ljubeću			2
-ljubiću	24		2
+ljubiću	24		3
 ljubičiću			2
 ljubojeviću			2
 ljuboviću			2
 ljudskošću	67		3
-ljuljaću			2
+ljuljaću			3
 ljupkošću	40		3
-ljutiću			2
+ljutiću			3
 ljuću			2
 ljušiću			2
 logičnošću			2
 lojalnošću	77		2
-lončiću	20		2
-loviću			2
+lončiću	20		3
+loviću			3
 lozaniću			2
 lozančiću			2
 ludoviću			2
@@ -810,17 +810,17 @@ lukavošću	59		2
 lukiću			2
 lukoviću			2
 lupiću	10		3
-lutaću			2
+lutaću			3
 lutčiću			2
-lučiću			2
+lučiću			3
 madžareviću			2
 magareću	44		2
 magarčiću			2
 magliću			2
-mahaću			2
+mahaću			3
 majkoviću			2
 majmunčiću			2
-maknuću			2
+maknuću			3
 maksiću			2
 malaksalošću	95		2
 malignošću			2
@@ -833,10 +833,10 @@ maniću			2
 manjkavošću			2
 maraviću			2
 marinoviću			2
-mariću			2
+mariću			3
 maričiću			2
 markoviću			2
-marljivošću	95		3
+marljivošću	95		4
 maroviću			2
 martiću			2
 marušiću			2
@@ -859,13 +859,13 @@ mašću	335		2
 mažuraniću			2
 medakoviću			2
 mediću			2
-medvediću	11		3
-mehuriću			2
+medvediću	11		4
+mehuriću			3
 mekoću	342		2
-menjaću			2
-mesiću			2
+menjaću			3
+mesiću			3
 metkoviću			2
-metnuću	15		2
+metnuću	15		3
 metodičnošću			2
 meću	366		2
 međedoviću			2
@@ -914,16 +914,16 @@ mlitavošću			4
 modernošću	41		2
 mogućnošću	4007		2
 moguću	3923		3
-mokraću	275		2
+mokraću	275		3
 molerčiću			2
-moliću	319		2
+moliću	319		3
 moljeviću			2
 momčiću	17		2
 moralnošću	38		2
 morankiću			2
-moraću	1569		2
+moraću	1569		3
 moroviću			2
-motriću			2
+motriću			3
 moćiću			2
 moću	71		2
 mračnošću			2
@@ -941,104 +941,104 @@ muškarčiću			2
 muškošću	41		3
 muževnošću	23		2
 mužiću	17		2
-nabaciću			2
-nabaviću	38		3
-nabiću			2
-nacrtaću	19		3
-nadahnuću	164		2
+nabaciću			3
+nabaviću	38		4
+nabiću			3
+nacrtaću	19		4
+nadahnuću	164		3
 nadbiću			2
 nadgledaću			2
 nadleću	124		2
-nadležnošću	344		3
+nadležnošću	344		4
 nadmenošću	42		2
 nadmeću	809		2
 nadmoćnošću	26		2
-nadoknadiću	19		3
+nadoknadiću	19		4
 nadolazeću	179		2
 nadrljaću			2
 nadutošću	48		2
-nadživeću			2
+nadživeću			3
 nagaziću			2
-naglasiću	47		2
+naglasiću	47		3
 nagliću			2
 naglošću			2
-nagodiću			2
-nagovestiću			2
-nagovoriću			2
-nagradiću	16		2
+nagodiću			3
+nagovestiću			3
+nagovoriću			3
+nagradiću	16		3
 nagrću			2
-nahraniću			2
+nahraniću			3
 naivnošću	99		2
-najaviću			2
+najaviću			3
 najgušću	25		3
-najkraću	113		2
+najkraću	113		3
 najljuću	13		3
-najuriću			2
-najveću	12788		2
+najuriću			3
+najveću	12788		3
 najčešću	100		3
 najčvršću	21		3
-najžešću	47		2
+najžešću	47		3
 nakačiću			2
 nakiću			2
-naklonošću	146		3
+naklonošću	146		4
 naleteću			2
 naleću	57		2
 naliću			2
-naljutiću			2
-naložiću			2
-namamiću			2
-namazaću			3
-namestiću	12		3
+naljutiću			3
+naložiću			3
+namamiću			3
+namazaću			4
+namestiću	12		4
 nametljivošću			2
 nameću	3402		2
 naočitošću			2
-napašću	12		2
+napašću	12		3
 napetošću	136		2
-napisaću	454		2
-napiću	14		2
+napisaću	454		3
+napiću	14		3
 naplatiću	12		2
-napomenuću	181		2
-napraviću	337		3
-napuniću	19		3
-napustiću	24		2
+napomenuću	181		3
+napraviću	337		4
+napuniću	19		4
+napustiću	24		3
 narediću	17		2
 narkiću			2
 narodiću			2
-narodnošću	33		3
-naručiću	21		2
+narodnošću	33		4
+naručiću	21		3
 nasadiću			2
-naseliću			2
-nasitiću			3
-naslediću			2
-naslikaću			3
+naseliću			3
+nasitiću			4
+naslediću			3
+naslikaću			4
 nasreću	29		2
-nasrću	208		2
-nastaniću			2
-nastaviću	503		3
-nastojaću	142		3
+nasrću	208		3
+nastaniću			3
+nastaviću	503		4
+nastojaću	142		4
 nastupajuću	282		2
-nateraću	17		3
+nateraću	17		4
 natrpaću			2
-naučiću	130		2
+naučiću	130		3
 naučnošću			2
 navešću	1566		2
-navijaću	43		2
-navodiću			2
-navratiću	12		2
-nazdraviću			3
-nazvaću	112		2
+navijaću	43		3
+navodiću			3
+navratiću	12		3
+nazdraviću			4
+nazvaću	112		3
 naćiću			2
-načiniću	18		2
+načiniću	18		3
 nebiću			2
 nebrigiću			2
 nedaću	25		2
 nedimoviću			2
 nediću			2
-nedostajaću			3
+nedostajaću			4
 nehajnošću			2
 neizvesnošću	293		5
 nejasnoću	74		2
-nejasnošću			3
+nejasnošću			4
 nemanjiću			2
 nemarnošću	87		2
 nemilošću			2
@@ -1046,13 +1046,13 @@ nemoguću	344		4
 nemoću			3
 nenadiću			2
 nenadoviću			2
-neodgovarajuću	68		3
+neodgovarajuću	68		4
 neodoljivošću	12		2
 neopreznošću	13		2
 neozbiljnošću	32		2
 neposlušnošću	77		2
 neposrednošću	151		2
-nepostojeću	232		3
+nepostojeću	232		4
 neravnomernošću			2
 nerazvijenošću	16		2
 nesigurnošću	176		2
@@ -1060,17 +1060,17 @@ nesitošću			2
 nesmotrenošću	38		2
 nesposobnošću	291		2
 nespretnjakoviću			2
-nesreću	4876		2
-nestaću	13		2
+nesreću	4876		3
+nestaću	13		3
 nestvarnošću			2
-netrpeljivošću	105		4
-neukošću	15		3
+netrpeljivošću	105		5
+neukošću	15		4
 neumitnošću			2
 neuračunljivošću			2
 nevinošću	82		4
-nezaposlenošću	418		4
-nezavisnošću	535		3
-nezrelošću	23		3
+nezaposlenošću	418		5
+nezavisnošću	535		4
+nezrelošću	23		4
 neću	11		2
 nečistoću	255		2
 neškoviću			2
@@ -1085,100 +1085,100 @@ ninkoviću			2
 nježnošću		J	3
 nokautiraću			2
 noseću	127		2
-nosiću	128		2
+nosiću	128		3
 novakoviću			2
 noviću			2
-novčiću	40		2
+novčiću	40		3
 noću	12200		2
 nušiću			2
 nužnošću	129		3
-obavestiću	96		2
-obaveštavaću	19		2
-obaviću	14		3
-obavljaću			3
+obavestiću	96		3
+obaveštavaću	19		3
+obaviću	14		4
+obavljaću			4
 obazreću			2
 obazrivošću	24		2
 obeležiću			2
-obesiću			3
+obesiću			4
 obezbediću	11		2
 obećavajuću	54		2
-obećaću			2
-obilaziću			3
+obećaću			3
+obilaziću			4
 obiliću			2
 obićiću			2
-obiću			2
-objasniću	407		2
-objaviću	97		2
-oblačiću	26		2
+obiću			3
+objasniću	407		3
+objaviću	97		3
+oblačiću	26		3
 oblačnošću	18		2
 oblašću	674		3
 obleću	82		2
 obliću			2
 obličiću			2
-obnoviću			2
-obogatiću			3
+obnoviću			3
+obogatiću			4
 obojenošću	12		2
-obojiću			2
-oboriću	10		2
-obožavaću			2
-obradiću			2
-obradovaću			4
+obojiću			3
+oboriću	10		3
+obožavaću			3
+obradiću			3
+obradovaću			5
 obradoviću			2
-obratiću	108		2
+obratiću	108		3
 obraću			2
-obračunaću			2
+obračunaću			3
 obrenoviću			2
-obrijaću			3
-obrisaću	11		3
-obrću	292		2
-obuzdavaću			2
+obrijaću			4
+obrisaću	11		4
+obrću	292		3
+obuzdavaću			3
 obućiću			2
-obuću	2407		2
+obuću	2407		3
 obučenošću	22		2
-obučiću			2
+obučiću			3
 obzirnošću			2
 ocokoljiću			2
-odabraću			2
+odabraću			3
 odalamiću			2
 odanoviću			2
 odanošću	114		4
-odaću	52		2
-odbaciću			2
-odbiću	10		2
+odaću	52		3
+odbaciću			3
+odbiću	10		3
 odbojnošću	53		2
-odbraniću			2
-odenuću			3
+odbraniću			3
+odenuću			4
 oderaću			2
 odeću	6426		3
-odgovarajuću	6142		3
-odgovaraću	22		2
-odgovoriću	365		2
+odgovarajuću	6142		4
+odgovaraću	22		3
+odgovoriću	365		3
 odgovornošću	2367		2
-odgrišću			2
-odigraću	16		3
-odjahaću			3
+odgrišću			3
+odigraću	16		4
+odjahaću			4
 odlazeću	43		2
 odlepiću			2
-odleteću			2
+odleteću			3
 odleću			2
 odložiću			2
-odlučiću	40		2
+odlučiću	40		3
 odlučnošću	358		2
-odlučujuću	1133		3
-odmaraću			2
+odlučujuću	1133		4
+odmaraću			3
 odmeću			2
-odmoriću	24		2
+odmoriću	24		3
 odneću	30		2
-odobriću			2
-odradiću	39		2
+odobriću			3
+odradiću	39		3
 odraću			2
-odrediću	17		2
-odrezaću			3
+odrediću	17		3
+odrezaću			4
 odrećiću			2
 određujuću			2
 odrubiću			2
-održavaću			3
-održaću	29		2
+održavaću			4
+održaću	29		3
 održivošću	58		2
 odseliću			2
 odsećiću			2
@@ -1187,25 +1187,25 @@ odsešću			2
 odspavaću			2
 odsutnošću	23		2
 odsviraću			2
-odugovlačiću			2
-odustaću	20		2
+odugovlačiću			3
+odustaću	20		3
 oduvaću			2
 oduzeću	14		2
-odužiću	18		2
+odužiću	18		3
 odvaliću			2
 odvažnošću	47		4
 odvesću			2
-odvezaću			2
+odvezaću			3
 odvešću	53		2
-odvojiću	20		2
-odvratiću			2
+odvojiću	20		3
+odvratiću			3
 odvratnošću	34		4
-odvrću	17		2
+odvrću	17		3
 odšetaću			2
 odštampaću			2
 ofarbaću			3
 ograničavajuću			2
-ograničiću	37		3
+ograničiću	37		4
 ogromnošću	10		2
 ogrću	11		2
 oguliću			2
@@ -1213,25 +1213,25 @@ ohološću	45		4
 ojdaniću			2
 okačiću	134		2
 okolnošću	90		2
-okončaću			2
-okovaću			2
-okrenuću	31		2
+okončaću			3
+okovaću			3
+okrenuću	31		3
 okretnošću	24		2
 okreću	2920		2
 okrutnošću	34		2
 okumiću			2
 okupaću			2
 okupiraću			2
-okupiću			3
+okupiću			4
 okušaću			2
 okviriću			2
 olakšavajuću	167		2
-olakšaću			2
+olakšaću			3
 omamljujuću			2
 omanoviću			2
 ometenošću	155		2
 omirisaću			2
-omogućiću			2
+omogućiću			3
 onesvestiću			2
 opadajuću	40		2
 opaliću			2
@@ -1239,27 +1239,27 @@ opariću			2
 opasnošću	581		2
 operisaću			2
 opevaću			2
-ophodiću			2
-opisaću	96		2
+ophodiću			3
+opisaću	96		3
 opleću			2
-opljačkaću			3
-oporaviću			3
-opozvaću			2
-opraću			2
+opljačkaću			4
+oporaviću			4
+opozvaću			3
+opraću			3
 opreznošću	90		2
-oprostiću	46		2
+oprostiću	46		3
 opscenošću			2
 opsednutošću	36		2
 opsežnošću			2
-optužiću			2
-opustiću			2
+optužiću			3
+opustiću			3
 opuštajuću	161		2
-opuštaću			2
+opuštaću			3
 opštežiću	42		2
 opštošću	10		2
-oraću			2
+oraću			3
 oraščiću			2
-organizovaću	22		4
+organizovaću	22		5
 originalnošću	260		2
 oriću			2
 orliću			2
@@ -1267,95 +1267,95 @@ orloviću			2
 ormariću	133		2
 osamljenošću			4
 osedlaću			2
-osetiću			3
+osetiću			4
 osetljivošću	214		2
 osećajnošću	71		2
-osećaću	17		3
+osećaću	17		4
 osiguravajuću	174		2
-osiguraću			2
+osiguraću			3
 oslepeću			2
 oslepiću			2
 osliću			3
 oslobađajuću	462		2
-oslobodiću	12		2
-osloniću			2
+oslobodiću	12		3
+osloniću			3
 osmanagiću			2
 osmeliću			2
 osnažiću			2
 osnovanošću			2
-osnovaću	10		2
+osnovaću	10		3
 osobenošću	47		2
-osramotiću			2
-ostaviću	377		3
-ostaću	375		2
+osramotiću			3
+ostaviću	377		4
+ostaću	375		3
 ostoiću			2
 ostojiću			2
-ostvariću	12		2
-osunčaću			2
+ostvariću	12		3
+osunčaću			3
 osuđujuću	146		2
-osušiću			2
-osvetiću	23		2
+osušiću			3
+osvetiću	23		3
 osvetliću			2
 osvećujuću			2
-osvežiću			3
-osvojiću	15		2
+osvežiću			4
+osvojiću	15		3
 osvrnuću	218		2
 osvrću	253		2
-otarasiću			2
-oteraću	18		3
+otarasiću			3
+oteraću	18		4
 oteću			2
 otićiću			2
 otiću			2
-otkazaću			2
+otkazaću			3
 otkačiću			2
-otkinuću	11		3
+otkinuću	11		4
 otključaću			2
-otkriću	842		2
+otkriću	842		3
 otkupiću			2
 otmenošću	53		2
 otoviću			2
-otočiću			3
+otočiću			4
 otpevaću			2
 otplatiću			2
-otploviću			2
+otploviću			3
 otpočeću			2
 otpratiću			2
-otpustiću			2
-otputovaću			2
+otpustiću			3
+otputovaću			3
 otrešću			2
-otrovaću			2
+otrovaću			3
 otrčaću			2
 otuđenošću	20		4
 otvorenošću	243		2
-otvoriću	90		2
+otvoriću	90		3
 oveću	26		3
 ozarenošću			2
 ozbiljnošću	452		2
 ozdraviću	10		2
-označiću			2
+označiću			3
 očaranošću			2
 očaravajuću	75		2
-očekivaću			2
-očistiću	18		3
+očekivaću			3
+očistiću	18		4
 očitaću			2
-očuvaću			2
-ošamariću			3
-ošišaću			2
-oštriću			2
+očuvaću			3
+ošamariću			4
+ošišaću			3
+oštriću			3
 ožalostiću			2
 ožegoviću			2
-oženiću	25		2
-oživeću			2
+oženiću	25		3
+oživeću			3
 pacovčiću			2
 padajuću	62		2
 pajtiću			2
-paketiću	43		2
+paketiću	43		3
 pakošću	40		3
 palikuću			2
-paliću	21		2
+paliću	21		3
 paljiću			2
 paloševiću			2
-pametnjakoviću	57		3
+pametnjakoviću	57		4
 pameću	735		3
 pamtiću	135		3
 paniću			2
@@ -1368,7 +1368,7 @@ pančiću			2
 papiriću	81		2
 papraću			3
 parivodiću			2
-parkiraću			2
+parkiraću			3
 parkiću	167		2
 pasivnošću	98		2
 pauliću			2
@@ -1381,9 +1381,9 @@ pavloviću			2
 paziću	38		3
 pašiću			2
 pašću	35		2
-pažljivošću	11		3
+pažljivošću	11		4
 peciću			2
-peglaću			2
+peglaću			3
 pejčiću			2
 pekiću			2
 peleviću			2
@@ -1400,252 +1400,252 @@ petriću			2
 petroviću			2
 pevaću	62		3
 peću			2
-pešačiću			2
+pešačiću			3
 pešiću			2
 pijaću	416		2
-pileću	166		2
-piliću			2
-pisaću	552		2
+pileću	166		3
+piliću			3
+pisaću	552		3
 pismenošću	118		4
-pitaću	322		2
+pitaću	322		3
 pitiću			2
 piću	1086		2
 pjanoviću			2
 plakaću	36		3
 plamteću	13		2
 plaoviću			2
-platiću	184		2
-plaćaću	28		2
+platiću	184		3
+plaćaću	28		3
 plaću	223		2
 plemiću			2
-plesaću			2
+plesaću			3
 plivajuću	21		2
 plivaću			3
 pliću	33		2
 plješću	15		2
 pljunuću	12		3
 plodnošću	171		3
-ploviću			2
+ploviću			3
 ploću			2
 plutajuću	48		2
-pobediću	50		2
+pobediću	50		3
 pobesneću			2
-pobiću	23		2
-poboljšaću			2
+pobiću	23		3
+poboljšaću			3
 pobožnošću	275		2
 pobriniću			2
 pobrinuću	19		2
 pocepaću			2
 pocrveneću			2
 podariću			2
-podeliću	114		2
-podesiću			3
-podgrejaću			3
-podignuću			3
-podizaću			3
+podeliću	114		3
+podesiću			4
+podgrejaću			4
+podignuću			4
+podizaću			4
 podićiću			2
 podlošću	17		2
-podmetnuću			3
-podmeću	446		2
+podmetnuću			4
+podmeću	446		3
 podneću	89		2
 podobnošću	25		2
-podrediću			2
-podržavaću			3
-podržaću	121		2
-podsetiću	2353		3
+podrediću			3
+podržavaću			4
+podržaću	121		3
+podsetiću	2353		4
 podsvešću	48		3
 podudarnošću	15		2
-podučavaću			2
-podučiću			2
-podvešću			2
+podučavaću			3
+podučiću			3
+podvešću			3
 pogaziću			2
-poginuću	11		3
-pogledaću	273		3
-pogodiću			2
+poginuću	11		4
+pogledaću	273		4
+pogodiću			3
 pogodnošću	20		2
 pogubiću			2
 pogubnošću			2
 poguraću			2
 pohapsiću			2
-pohodiću	11		2
-pohvaliću	34		2
-pojasniću	49		2
-pojaviću	22		2
+pohodiću	11		3
+pohvaliću	34		3
+pojasniću	49		3
+pojaviću	22		3
 pojavnošću	10		2
 pojaću			2
-pojačaću			2
+pojačaću			3
 pojedinošću			2
-pojednostaviću			2
-poješću	56		2
+pojednostaviću			3
+poješću	56		3
 pojiću			2
 pokajaću			2
 pokaraću			2
-pokazaću	373		2
-pokidaću			3
+pokazaću	373		3
+pokidaću			4
 poklaću			2
-pokloniću	91		2
-pokopaću			2
-pokoriću			2
+pokloniću	91		3
+pokopaću			3
+pokoriću			3
 pokornošću	38		2
-pokrenuću	37		2
-pokreću	3793		2
-pokrivaću			2
-pokriću	122		2
+pokrenuću	37		3
+pokreću	3793		3
+pokrivaću			3
+pokriću	122		3
 pokucaću			2
 pokupiću	15		3
-pokušavaću	10		2
-pokušaću	2134		3
-pokvariću			2
-polagaću			2
-poleteću			2
+pokušavaću	10		3
+pokušaću	2134		4
+pokvariću			3
+polagaću			3
+poleteću			3
 poleću	143		2
-polizaću			2
-poljubiću	14		2
-polomiću	35		2
-položiću			2
+polizaću			3
+poljubiću	14		3
+polomiću	35		3
+položiću			3
 polubraću			2
-poludeću	89		2
-pomagaću	18		2
+poludeću	89		3
+pomagaću	18		3
 pomenuću	530		2
 pomeriću	10		2
-pomiriću			2
-pomisliću	22		3
-pomoliću	10		2
+pomiriću			3
+pomisliću	22		4
+pomoliću	10		3
 pomoćiću			2
 pomoću	2384		3
 ponajveću			2
-ponavljaću	18		2
-ponašaću	12		2
+ponavljaću	18		3
+ponašaću	12		3
 poneću	64		2
-poniziću			2
+poniziću			3
 poniznošću	42		2
-poništiću			3
+poništiću			4
 ponižavajuću	88		2
 ponositošću			2
-ponoviću	969		2
-ponudiću	55		3
+ponoviću	969		3
+ponudiću	55		4
 popaliću			2
 popeću			2
-popiću	42		2
+popiću	42		3
 popoviću			2
-popraviću	34		3
-popričaću			2
-poprskaću			2
+popraviću	34		4
+popričaću			3
+poprskaću			3
 popularnošću	249		2
-popuniću			3
-popustiću			2
-popušiću			3
-poradiću			2
+popuniću			4
+popustiću			3
+popušiću			4
+poradiću			3
 porazgovaraću			2
-poraziću			2
-poređaću			2
-poricaću			2
+poraziću			3
+poređaću			3
+poricaću			3
 porniću	48		2
-porodiću			2
-poručiću	11		2
-porušiću			3
-posadiću			2
-posebnošću	91		3
-posediću			2
-posetiću	34		3
-posećivaću			2
-poslaću	400		2
+porodiću			3
+poručiću	11		3
+porušiću			4
+posadiću			3
+posebnošću	91		4
+posediću			3
+posetiću	34		4
+posećivaću			3
+poslaću	400		3
 posliću			2
-poslušaću	72		3
+poslušaću	72		4
 poslušnošću	125		2
-poslužiću	80		2
-posmatraću	11		2
-pospremiću			2
-posrnuću	44		2
-posrću	84		2
+poslužiću	80		3
+posmatraću	11		3
+pospremiću			3
+posrnuću	44		3
+posrću	84		3
 postaraću	30		2
-postaviću	488		3
-postavljaću	17		3
-postaću	119		2
-postignuću	97		3
-postojeću	2607		3
-postupiću	19		2
+postaviću	488		4
+postavljaću	17		4
+postaću	119		3
+postignuću	97		4
+postojeću	2607		4
+postupiću	19		3
 postupnošću	10		2
-posudiću			2
+posudiću			3
 posvađaću			2
-posvetiću	91		2
+posvetiću	91		3
 posvećenošću	359		2
-potegnuću			2
+potegnuću			3
 poteraću			2
 poteškoću	136		2
 potisnuću			2
 potiću			2
-potonuću	50		2
-potopiću			2
-potočiću	12		3
-potpisaću	37		2
-potpunošću	10		3
-potražiću	83		2
+potonuću	50		3
+potopiću			3
+potočiću	12		4
+potpisaću	37		3
+potpunošću	10		4
+potražiću	83		3
 potresenošću			2
-potrošiću	29		2
-potrudiću	523		2
-potvrdiću			2
-pouzdanošću	337		4
+potrošiću	29		3
+potrudiću	523		3
+potvrdiću			3
+pouzdanošću	337		5
 poučavaću			2
 poučiću			2
 povadiću			2
-poveriću			3
+poveriću			4
 poverljivošću			2
-poverovaću	38		4
+poverovaću	38		5
 povezanošću	163		2
-povezaću	14		2
-povećaću	10		2
+povezaću	14		3
+povećaću	10		3
 poveću	209		2
 povešću	77		3
 povinovaću			2
-povratiću	16		2
-povraćaću			3
-povrediću	10		2
-povrću	1051		2
+povratiću	16		3
+povraćaću			4
+povrediću	10		3
+povrću	1051		3
 površnošću	54		3
 povućiću			2
 pozabaviću	41		2
-pozajmiću	16		2
-pozdraviću	21		3
+pozajmiću	16		3
+pozdraviću	21		4
 pozivajuću			2
-pozlatiću			2
-poznaću			2
-pozvaću	209		2
+pozlatiću			3
+poznaću			3
+pozvaću	209		3
 pozvoniću			2
 poćiću			2
-počastiću			2
+počastiću			3
 počašću	45		3
 počeću	498		2
-počinuću			3
-počistiću			3
+počinuću			4
+počistiću			4
 počupaću			2
-poštedeću	15		2
+poštedeću	15		3
 poštediću			2
-poštovaću	116		2
-poželeću	38		2
+poštovaću	116		3
+poželeću	38		3
 poživeću			2
 požrtvovanošću	78		2
-požuriću			2
+požuriću			3
 praseću			2
 prateću	758		2
 pratiću	81		3
 praviću	68		3
 praščiću			2
-prebaciću	31		2
-prebiću	20		2
+prebaciću	31		3
+prebiću	20		3
 preboleću			2
-prebrodiću			2
+prebrodiću			3
 prebrojaću			2
 preciznošću	1027		2
 predanošću	213		2
-predavaću			2
-predaću	50		2
+predavaću			3
+predaću	50		3
 prediću			2
-predlagaću			2
-predložiću	173		2
+predlagaću			3
+predložiću	173		3
 prednošću	1107		3
-predočiću	14		2
-predstaviću	107		3
+predočiću	14		3
+predstaviću	107		4
 predstojeću	1635		2
 preduzeću	13217		2
 prefinjenošću	64		2
@@ -1653,170 +1653,170 @@ preformulisaću			2
 pregaziću			2
 pregledaću	14		2
 pregnuću	39		2
-pregovaraću			2
-pregrišću			2
+pregovaraću			3
+pregrišću			3
 preguraću			2
-prekinuću	26		3
-prekriću			2
-prekršiću			2
+prekinuću	26		4
+prekriću			3
+prekršiću			3
 preleću	158		2
 prelešću			2
 premestiću			2
 premeću	24		2
-premlatiću			2
-premotaću			2
+premlatiću			3
+premotaću			3
 preneću	121		2
-prenoćiću			2
+prenoćiću			3
 preokreću	86		2
-prepisaću	12		2
+prepisaću	12		3
 prepleću			2
 prepliću	1645		2
-prepoloviću			2
-preporučiću	49		2
-prepoznaću	13		2
+prepoloviću			3
+preporučiću	49		3
+prepoznaću	13		3
 prepraviću			2
-prepričaću	14		2
-prepustiću	48		2
-prerezaću			3
-preseliću			2
+prepričaću	14		3
+prepustiću	48		3
+prerezaću			4
+preseliću			3
 presitošću			2
-preskočiću	94		2
+preskočiću	94		3
 presnošću			2
-prespavaću			2
-presreću	132		2
-presrešću			2
-prestaću	109		2
-presudiću			2
+prespavaću			3
+presreću	132		3
+presrešću			3
+prestaću	109		3
+presudiću			3
 preteću	117		2
 prethodeću			2
-pretpostaviću	29		3
-pretražiću			2
-pretrpeću			2
+pretpostaviću	29		4
+pretražiću			3
+pretrpeću			3
 preturiću			2
-pretvaraću			2
-pretvoriću	32		2
+pretvaraću			3
+pretvoriću	32		3
 preurediću			2
 preuzeću	35		2
-prevariću			3
+prevariću			4
 prevešću	23		2
 previću			2
 prevlašću	46		2
-prevrnuću			2
-prevrtaću			3
-prevrću	274		2
+prevrnuću			3
+prevrtaću			4
+prevrću	274		3
 prećiću			2
 preću			2
 prećutaću	15		2
-preživeću	57		2
-približiću			2
+preživeću	57		3
+približiću			3
 pribranošću	12		2
-pridobiću			2
-pridodaću			2
-pridružiću	28		2
-pridržaću			2
+pridobiću			3
+pridodaću			3
+pridružiću	28		3
+pridržaću			3
 prignuću			2
-prihvatiću	130		3
-prijaviću	21		2
-prikazaću	38		2
+prihvatiću	130		4
+prijaviću	21		3
+prikazaću	38		3
 prikačiću			2
 priključiću	11		2
-prikrašću			2
-prikupiću			3
-prilagodiću			2
+prikrašću			3
+prikupiću			4
+prilagodiću			3
 priložiću	31		2
-primaću	12		2
-primeniću	17		2
-primiću	39		2
-primoraću			2
+primaću	12		3
+primeniću	17		3
+primiću	39		3
+primoraću			3
 prineću	11		2
-pripaziću			3
+pripaziću			4
 pripovešću			4
-pripremiću	16		2
-prirediću			2
-prisetiću			3
-prisiliću			3
+pripremiću	16		3
+prirediću			3
+prisetiću			4
+prisiliću			4
 prislaviću			2
 prispeću	223		2
-pristaviću			3
-pristaću			2
+pristaviću			4
+pristaću			3
 pristojnošću	46		2
 pristrašću			2
-pristupiću			2
-prisustvovaću			4
+pristupiću			3
+prisustvovaću			5
 prisutnošću	132		2
-pritisnuću			3
+pritisnuću			4
 pritišću	52		2
 privatnošću	119		2
-privešću			2
+privešću			3
 privlačeću			2
 privlačnošću	77		2
-privrženošću	78		4
-prizivaću			2
-priznaću	166		2
-prizvaću			2
+privrženošću	78		5
+prizivaću			3
+priznaću	166		3
+prizvaću			3
 priću			2
-pričaću	190		2
-pričekaću			3
+pričaću	190		3
+pričekaću			4
 pričestiću			2
-pričešću	284		2
-pričuvaću			2
-probaću	1034		2
-probiću			2
+pričešću	284		3
+pričuvaću			3
+probaću	1034		3
+probiću			3
 probišiću			2
 probošću			2
-probudiću	21		2
-probušiću			2
-proceniću			2
+probudiću	21		3
+probušiću			3
+proceniću			3
 prodanoviću			2
-prodavaću	15		2
-prodaću	80		2
+prodavaću	15		3
+prodaću	80		3
 produžiću	10		2
-proglasiću			2
+proglasiću			3
 progledaću			2
-prognaću			2
-progoniću			2
-progovoriću			2
-progutaću			2
+prognaću			3
+progoniću			3
+progovoriću			3
+progutaću			3
 proistiću			2
 prokiću			2
 prokleću			2
 prolazeću			2
 prolaznošću	117		2
-proleću	652		2
-proljeću		J	2
-promaknuću			2
-promeniću	78		2
+proleću	652		3
+proljeću		J	3
+promaknuću			3
+promeniću	78		3
 promeću	14		2
-promisliću			3
+promisliću			4
 promućurnošću			2
 pronaćiću			2
 pronaću			2
 pronicljivošću	77		2
 propašću	450		3
 propliću			2
-propustiću	10		2
+propustiću	10		3
 prosečnošću	12		2
-proslaviću	27		3
+proslaviću	27		4
 proslediću	24		2
 prosuću			2
 prosviraću			2
-proteraću			3
+proteraću			4
 protivrečnošću	30		2
 protiću			2
-proučiću			2
-provaliću			2
-proveravaću			2
-proveriću	173		3
+proučiću			3
+provaliću			3
+proveravaću			3
+proveriću	173		4
 provešću	45		2
-provlačiću			2
-provodiću			2
+provlačiću			3
+provodiću			3
 provozaću			2
 prozorčiću	29		2
-prozvaću			2
+prozvaću			3
 proću			2
-pročitaću	458		2
-prošetaću	14		2
-proširiću	10		2
+pročitaću	458		3
+prošetaću	14		3
+proširiću	10		3
 prošlošću	3030		3
 prpiću			2
 pružiću	58		3
@@ -1829,15 +1829,15 @@ pucaću	37		3
 puciću			2
 punoću	584		2
 puriću			2
-pustiću	159		2
+pustiću	159		3
 putenošću			2
 putiću	17		2
-putovaću	25		2
+putovaću	25		3
 putujuću	54		2
 pušiću	12		3
-puštaću	11		2
+puštaću	11		3
 radanoviću			2
-radiću	210		2
+radiću	210		3
 radičeviću			2
 radišiću			2
 radojeviću			2
@@ -1845,7 +1845,7 @@ radojičiću			2
 radonjiću			2
 radovaću	30		4
 radoviću			2
-radoznalošću	247		3
+radoznalošću	247		4
 radošću	3471		3
 raduloviću			2
 radžiću			2
@@ -1864,71 +1864,71 @@ rankoviću			2
 rančiću			2
 rapaiću			2
 rascopaću			2
-raskinuću			3
+raskinuću			4
 raskomadaću			2
 raskršću	656		2
 raspeću	129		2
-raspitaću	70		2
-rasplakaću	13		3
+raspitaću	70		3
+rasplakaću	13		4
 raspliću	29		2
 rasporiću			2
-raspraviću			3
+raspraviću			4
 raspuću			2
-rastaviću			3
+rastaviću			4
 rastrgnuću			2
 rasturiću			2
 rastuću	562		2
-rastvoriću			2
+rastvoriću			3
 ratkoviću			2
 ratovaću			4
 ratujuću			2
-ravnodušnošću	160		3
+ravnodušnošću	160		4
 razapeću			2
 razarajuću	31		2
-razbiću	45		2
-razboleću			2
+razbiću	45		3
+razboleću			3
 razbucaću			2
-razdeliću			2
-razglasiću			2
+razdeliću			3
+razglasiću			3
 razgledaću			2
-razgovaraću	117		2
+razgovaraću	117		3
 razjasniću			2
-različitošću	66		4
+različitošću	66		5
 razmeriću			2
-razmeću	123		2
-razmisliću	98		3
-razmišljaću	28		2
-razmotriću	30		2
+razmeću	123		3
+razmisliću	98		4
+razmišljaću	28		3
+razmotriću	30		3
 razneću			2
-raznolikošću	183		3
-razoriću			2
-razotkriću			2
-razočaraću	24		2
-razumeću	52		2
+raznolikošću	183		4
+razoriću			3
+razotkriću			3
+razočaraću	24		3
+razumeću	52		3
 razumnošću	20		4
-razvaliću	14		2
-razvešću			2
-razviću	30		2
-račiću			2
-računaću			2
-raširiću			2
+razvaliću	14		3
+razvešću			3
+razviću	30		3
+račiću			3
+računaću			3
+raširiću			3
 raškoviću			2
 raščistiću			2
 raščlanjenošću			2
 realnošću	1961		2
 redovnošću			2
-remetiću			3
+remetiću			4
 reskiraću			2
 retoričnošću			2
 revnošću	399		2
 rezervisaću			2
 rećiću			2
-rečitošću	56		3
+rečitošću	56		4
 rečiću			2
 rešavajuću			2
 rešenošću	80		4
-rešiću	31		2
-ribariću			2
+rešiću	31		3
+ribariću			3
 ribaću			2
 ridajuću			2
 rigidnošću	11		2
@@ -1939,7 +1939,7 @@ rizikovaću	29		2
 rizniću			2
 riđanoviću			2
 robotiću			2
-rodiću	19		2
+rodiću	19		3
 roknuću			2
 rončeviću			2
 ropću			2
@@ -1949,7 +1949,7 @@ rožiću			2
 rukovaću			4
 rukovodeću	99		2
 rutoviću			2
-ručaću			2
+ručaću			3
 rušiću			3
 ružiću			2
 ružičiću			2
@@ -1958,58 +1958,58 @@ rđavošću			2
 sabljiću			2
 sabornošću	20		2
 sabranošću			4
-sabraću	94		2
-sadašnjošću	185		3
+sabraću	94		3
+sadašnjošću	185		4
 sadržajnošću	11		3
-sagnuću			2
-sagradiću	13		2
-sahraniću			2
-sakriću	16		2
-sakupiću			3
+sagnuću			3
+sagradiću	13		3
+sahraniću			3
+sakriću	16		3
+sakupiću			4
 salatiću			2
 saletoviću			2
 saleću	95		2
 samardžiću			2
 samilošću	21		2
 samiću			2
-samleću			2
+samleću			3
 samosvešću	56		2
 samotnošću			4
 samoću	624		2
 sandučiću	28		2
-sanjaću	28		2
+sanjaću	28		3
 sanjivošću			2
 sankoviću			2
 saobraćaću			2
 saopštiću	27		2
-sapliću	159		2
+sapliću	159		3
 sarajčiću			2
 saračeviću			2
-sarađivaću	12		2
+sarađivaću	12		3
 sardeliću			2
 sariću			2
 saslušaću	19		2
-sastaviću			3
-sastaću			2
+sastaviću			4
+sastaću			3
 sasuću			2
-saučešću	21		3
+saučešću	21		4
 savesnošću	12		2
-savetovaću			4
-savešću	381		2
+savetovaću			5
+savešću	381		3
 savićeviću			2
-saviću			2
-savladaću			2
+saviću			3
+savladaću			3
 sazdaću			2
-saznaću	61		2
-sazvaću	16		2
+saznaću	61		3
+sazvaću	16		3
 saću	253		2
-sačekaću	230		3
-sačuvaću	34		2
+sačekaću	230		4
+sačuvaću	34		3
 sažetošću	11		4
 sažiću			2
 sažvaću			2
-sebičnošću	76		3
-sedeću	57		2
+sebičnošću	76		4
+sedeću	57		3
 seferoviću			2
 seksualnošću	229		2
 sekuliću			2
@@ -2040,7 +2040,7 @@ simetričnošću			2
 simiću			2
 simonoviću			2
 simoviću			2
-sinčiću	63		2
+sinčiću	63		3
 sinđeliću			2
 sipaću			3
 sirotošću			2
@@ -2049,37 +2049,37 @@ sićiću			2
 siću			2
 sjajnošću			2
 skakuću	143		2
-skeniraću	13		2
+skeniraću	13		3
 skerliću			2
 skiniću			2
 skinuću	67		3
 skiću			2
 skliznuću			2
-skloniću	16		2
+skloniću	16		3
 sklonošću	204		3
-sklopiću			2
+sklopiću			3
 skoknuću	10		2
 skontaću			2
 skončaću			2
-skočiću	21		2
-skratiću	31		2
-skrenuću	46		2
+skočiću	21		3
+skratiću	31		3
+skrenuću	46		3
 skreću	867		2
 skromnošću	149		3
 skrušenošću	30		4
-skršiću			2
+skršiću			3
 skupiću	22		3
 skupocenošću			2
 skupoću	120		2
 skuvaću	14		3
 slabiću			3
 slabošću	300		3
-slagaću	33		2
+slagaću	33		3
 slatkoću	61		2
 slaviću	23		3
 slašću	107		2
 sledeću	8881		2
-slediću			2
+slediću			3
 sledujuću			2
 slepoću	18		2
 sleteću			2
@@ -2087,78 +2087,78 @@ sleću	333		2
 slikaću	80		3
 sličnošću	57		3
 sljedeću		J	2
-slomiću	26		2
+slomiću	26		3
 složenošću	123		2
-složiću	145		2
+složiću	145		3
 slučajnošću	139		2
 slušaću	38		3
-služiću			2
-smaknuću	14		2
-smanjiću	19		2
-smatraću	111		2
-smejaću	18		2
+služiću			3
+smaknuću	14		3
+smanjiću	19		3
+smatraću	111		3
+smejaću	18		3
 smelošću	166		3
 smernošću	53		2
 smestiću			3
 smeću	260		2
-smešiću			2
+smešiću			3
 smiljaniću			2
 smiljkoviću			2
 smilovaću			4
 smirenošću	198		2
-smiriću	10		2
+smiriću	10		3
 smisliću	37		3
 smoždiću			2
-smrskaću			2
+smrskaću			3
 smrtnošću	100		3
 smrviću			2
 smrznuću			3
 smrću	5062		2
 smućenošću			2
 snaćiću			2
-snimaću			2
-snimiću	22		2
+snimaću			3
+snimiću	22		3
 sokoloviću			2
 solidnošću	19		2
 sočnošću			2
 spahoviću			2
 spakovaću			4
-spaliću			2
+spaliću			3
 spanaću	123		2
-spasiću	18		2
-spavaću	1070		2
+spasiću	18		3
+spavaću	1070		3
 spašću			2
-spojiću	12		2
+spojiću	12		3
 spoljašnošću	55		2
-spomenuću	131		2
-spominjaću			3
+spomenuću	131		3
+spominjaću			4
 spontanošću	93		4
 sporaću			2
 sporošću	67		2
 sposobnošću	1224		2
-spoznaću			2
-spremiću	30		2
+spoznaću			3
+spremiću	30		3
 spremnošću	431		3
 spretnošću	64		3
-sprečiću			2
-sprovešću			2
+sprečiću			3
+sprovešću			3
 sproću			2
 spržiću			2
-spustiću	21		2
+spustiću	21		3
 sputanošću			2
-sravniću			2
+sravniću			3
 srceparajuću	32		2
 srdačnošću	71		4
-srditošću			3
-srdiću			2
-srediću	24		2
+srditošću			4
+srdiću			3
+srediću	24		3
 srejoviću			2
 srećkoviću	72		2
 sreću	25993		2
 srešću	14		2
 srndaću			2
 srušiću	14		3
-srčanošću	36		3
+srčanošću	36		4
 stabilnošću	329		2
 stajaću	73		3
 stajiću			2
@@ -2176,12 +2176,12 @@ stančiću	44		3
 staraću			3
 starošću	341		3
 starčeviću			2
-starčiću	11		2
+starčiću	11		3
 stasitošću			2
 staviću	256		3
 staću	31		2
 steviću			2
-stidljivošću	16		3
+stidljivošću	16		4
 stipetiću			2
 stisnuću			3
 stićiću			2
@@ -2192,8 +2192,8 @@ stojičiću			2
 stojkoviću			2
 stojšiću			2
 stokoviću			2
-stoleću	741		2
-stoliću	16		2
+stoleću	741		3
+stoliću	16		3
 stomačiću			2
 stopiraću			2
 stočiću			2
@@ -2207,27 +2207,27 @@ streljaću			2
 strogoću	188		2
 strogošću	131		3
 strpaću			2
-strpljivošću	68		3
+strpljivošću	68		4
 stručnošću	386		2
-studiraću	11		2
-stupiću			2
+studiraću	11		3
+stupiću			3
 stvarnošću	1467		2
-stvoriću	14		2
+stvoriću	14		3
 subašiću			2
 subotiću			2
-sudiću	12		2
+sudiću	12		3
 suhoću			2
 sujetnošću			2
-suočiću			2
-suprotnošću	30		3
+suočiću			3
+suprotnošću	30		4
 surfovaću			2
-surovošću	115		3
-susreću	3624		2
+surovošću	115		4
+susreću	3624		3
 suvoću	114		2
-suzdržaću			2
+suzdržaću			3
 suđiću			2
-svanuću			2
-svedočiću			2
+svanuću			3
+svedočiću			3
 svemoguću	24		4
 svemoću			3
 sveprisutnošću	16		2
@@ -2239,19 +2239,19 @@ svetošću	201		2
 svevideću			2
 svevlašću			2
 sveću	1350		2
-svečanošću	200		3
+svečanošću	200		4
 svešću	1350		2
 svideću			3
 svinjeću			2
-sviraću	14		2
-svirepošću	37		3
+sviraću	14		3
+svirepošću	37		4
 sviću	30		2
-svratiću	37		2
+svratiću	37		3
 svrziću			2
-svršiću	34		2
+svršiću	34		3
 tadiću			2
-tajanstvenošću	45		3
-tajnovitošću	19		3
+tajanstvenošću	45		4
+tajnovitošću	19		4
 tajnošću	28		2
 tananošću			2
 taniću			2
@@ -2261,16 +2261,16 @@ tanoviću			2
 tačnošću	489		3
 tegleću	15		2
 tekuću	1777		2
-telefoniraću			2
+telefoniraću			3
 teleportovaću			2
 telesnošću	19		2
-teleću	56		2
+teleću	56		3
 temeljnošću			2
 teraću	17		3
 terziću			2
 tesliću			2
 tesnoću			2
-testiraću	21		2
+testiraću	21		3
 tečnošću	638		3
 tešiću			3
 teškoću	397		2
@@ -2290,19 +2290,19 @@ tomanoviću			2
 tomaševiću			2
 tomiću			2
 topaloviću			2
-topiću	63		2
+topiću	63		3
 tošiću			2
 trajkoviću			2
 trajnošću	65		2
 trampiću			3
-tražiću	323		2
+tražiću	323		3
 trbojeviću			2
 trebaću			3
-treniraću	20		2
+treniraću	20		3
 trenuću			3
 trepću	94		2
 tresnuću			2
-tretiraću			2
+tretiraću			3
 trezvenošću	31		4
 treću	8575		2
 trgiću			2
@@ -2311,171 +2311,171 @@ tripkoviću			2
 trkaću			2
 trniniću			2
 tromošću	12		3
-trošiću			2
+trošiću			3
 trošnošću			2
-trpeću			2
-trudiću	635		2
+trpeću			3
+trudiću	635		3
 trudnoću	2078		2
 trumbiću			2
-trčaću	30		2
+trčaću	30		3
 trčeću			2
 tršiću			2
 tucoviću			2
-tužiću	106		2
-tvoriću			2
-tvrdoglavošću	84		4
-tvrdoću	247		2
-ubaciću	43		2
+tužiću	106		3
+tvoriću			3
+tvrdoglavošću	84		5
+tvrdoću	247		3
+ubaciću	43		3
 ubavkiću			2
 ubediću			2
 ubeđenošću	11		2
-ubijaću			2
-ubiću	305		2
-ublažiću			2
+ubijaću			3
+ubiću	305		3
+ublažiću			3
 ubošću			2
-ubraću			2
-ubrizgaću			3
-ubrzaću			2
+ubraću			3
+ubrizgaću			4
+ubrzaću			3
 udaljenošću	99		4
-udaljiću			2
-udaraću			3
-udariću	27		3
-udaviću			2
-udaću	25		2
+udaljiću			3
+udaraću			4
+udariću	27		4
+udaviću			3
+udaću	25		3
 udenuću			2
 udesiću			2
 udobnošću	176		4
 udovoljiću			2
-udvostručiću			3
-ugasiću			2
-ugađaću			2
+udvostručiću			4
+ugasiću			3
+ugađaću			3
 uglađenošću	12		2
 uglednošću			2
-ugodiću			2
+ugodiću			3
 ugodnošću	14		4
 ugojiću			2
-ugovoriću			2
-ugradiću			2
-ugrejaću			3
-ugrišću			2
+ugovoriću			3
+ugradiću			3
+ugrejaću			4
+ugrišću			3
 uguraću			2
-ugušiću			2
-uhapsiću	12		3
-uhvatiću	22		3
-uješću			2
-ukazaću	117		2
+ugušiću			3
+uhapsiću	12		4
+uhvatiću	22		4
+uješću			3
+ukazaću	117		3
 ukazujuću			2
-ukinuću	18		3
+ukinuću	18		4
 ukletošću			2
-uključiću	25		2
+uključiću	25		3
 uključujuću			2
-ukloniću	10		2
-ukrašću	12		2
-ukrcaću			2
+ukloniću	10		3
+ukrašću	12		3
+ukrcaću			3
 uleću	174		2
-uloviću			2
-uložiću	51		2
-umerenošću	33		4
-umetnošću	1566		3
-umeću	583		2
+uloviću			3
+uložiću	51		3
+umerenošću	33		5
+umetnošću	1566		4
+umeću	583		3
 umešnošću	86		2
 umilnošću			2
 umirujuću	64		2
 umiruću	28		2
-umiću			2
+umiću			3
 umoliću			2
 umotaću			2
 umreću	195		2
 umuknuću			2
-unajmiću			2
-unakaziću			2
+unajmiću			3
+unakaziću			3
 unaprediću			2
 unezverenošću			2
 uneću			2
 univerzalnošću	30		2
-uništiću	35		3
+uništiću	35		4
 unkoviću			2
-unutrašnjošću	131		4
-uočljivošću			3
-upaliću	14		2
+unutrašnjošću	131		5
+uočljivošću			4
+upaliću	14		3
 upamtiću			3
-upašću			2
-upisaću	80		2
-upitaću			2
-upiću			2
+upašću			3
+upisaću	80		3
+upitaću			3
+upiću			3
 upiškiću			2
 uplatiću	18		2
-uplašiću			3
+uplašiću			4
 upliću	225		2
 upokojiću			2
 uporediću	27		2
 upornošću	802		2
-upotrebiću	80		2
-upoznaću	79		2
-upozoriću	22		2
-upravljaću			3
-upropastiću			2
+upotrebiću	80		3
+upoznaću	79		3
+upozoriću	22		3
+upravljaću			4
+upropastiću			3
 upucaću			2
-uputiću	62		2
+uputiću	62		3
 upućenošću	18		2
-uradiću	227		2
+uradiću	227		3
 uramiću			2
 urazumiću			2
-urediću			2
+urediću			3
 urednošću	25		2
-urezaću			3
+urezaću			4
 uroševiću			2
 usamljenošću	93		2
-useliću	10		2
+useliću	10		3
 uskokoviću			2
 uskočiću			2
-uskrsnuću	44		3
+uskrsnuću	44		4
 uslužnošću	15		2
-usmeriću	14		3
-uspavaću			2
-uspeću	47		2
+usmeriću	14		4
+uspavaću			3
+uspeću	47		3
 uspešnošću	74		2
-usporiću			2
+usporiću			3
 usrdnošću	34		2
 usrećiću			2
-ustanoviću			2
+ustanoviću			3
 ustavnošću	19		2
-ustaću	49		2
+ustaću	49		3
 ustrajnošću			2
 ustreliću			2
 ustreptalošću			2
-usudiću	97		2
-usvojiću			2
-utešiću			3
+usudiću	97		3
+usvojiću			3
+utešiću			4
 utisnuću			2
 utišaću			2
-utrostručiću			3
+utrostručiću			4
 utučenošću			2
-utvrdiću	13		2
-uvaliću			2
+utvrdiću	13		3
+uvaliću			3
 uvatiću			2
 uverenošću	39		2
-uveriću			3
-uverljivošću	62		3
+uveriću			4
+uverljivošću	62		4
 uvešću	18		2
-uviću			2
+uviću			3
 uviđavnošću	11		2
-uvrediću			2
+uvrediću			3
 uvrću	56		2
 uzbuđujuću			2
-uzdahnuću			2
+uzdahnuću			3
 uzdaću			2
 uzdignuću	15		2
-uzdržaću	26		2
+uzdržaću	26		3
 uzeću	640		2
-uzimaću	11		3
+uzimaću	11		4
 uzleću	68		2
 uznemirenošću	58		2
 uznemirujuću	62		2
 uznosiću			2
 uzročnošću	10		2
-uzviknuću			2
-uzvisiću			2
+uzviknuću			3
+uzvisiću			3
 uzvišenošću	38		2
 uzvratiću			2
 uzvrtiću			2
@@ -2483,19 +2483,19 @@ ućiću			2
 ućutaću			2
 ućutkaću			2
 učenošću	49		4
-učestalošću	213		3
-učestvovaću	36		4
+učestalošću	213		4
+učestvovaću	36		5
 učešću	3750		2
-učiniću	437		2
-učiću	47		2
+učiniću	437		3
+učiću	47		3
 učtivošću			2
-uštedeću	17		2
+uštedeću	17		3
 ušunjaću			2
-ušuškaću			3
+ušuškaću			4
 ušću	2886		2
-uživaću	49		2
-užurbanošću			4
-vagaću			2
+uživaću	49		3
+užurbanošću			5
+vagaću			3
 vagončiću			2
 varljivošću			2
 vasiljeviću			2
@@ -2507,26 +2507,26 @@ vatrenošću	14		2
 važeću	441		2
 važnošću	187		2
 velegošću			2
-velikodušnošću	35		3
+velikodušnošću	35		4
 veliću			2
 veličaću			2
 veljoviću			2
-venčaću			2
+venčaću			3
 veriću			3
 vernošću	81		2
-veroispovešću			3
+veroispovešću			4
 verovatnoću	1062		2
 verovaću	65		4
 verujuću	14		2
-veseliću			2
+veseliću			3
 veselošću	26		4
 vesiću			2
 vesoviću			2
 vezanošću	33		2
-vezaću	13		2
+vezaću	13		3
 vezujuću			2
 veću	32072		2
-večeraću			3
+večeraću			4
 večnošću	137		3
 vešoviću			2
 vešću	502		2
@@ -2534,7 +2534,7 @@ vežbaću	10		3
 videću	846		3
 vidiću			2
 vidljivošću	80		2
-vikaću	10		2
+vikaću	10		3
 vinuću			2
 viseću	25		2
 visiću			2
@@ -2542,10 +2542,10 @@ vitalnošću	80		2
 vitezoviću			2
 vitkoviću			2
 viću	11		2
-viđaću			2
+viđaću			3
 višnjiću			2
-vladajuću	2001		3
-vladaću			2
+vladajuću	2001		4
+vladaću			3
 vlahoviću			2
 vlajiću			2
 vlatkoviću			2
@@ -2553,27 +2553,27 @@ vlašiću			2
 vlašću	4472		2
 vlažnošću	116		3
 vodeću	2032		2
-vodiću	77		2
+vodiću	77		3
 vojinoviću			2
 vojnoviću			2
 vojujuću			2
 vojvodiću			2
-voleću	17		2
-voljeću		J	2
-voziću	54		2
+voleću	17		3
+voljeću		J	3
+voziću	54		3
 voću	1122		2
 vrančiću			2
-vrapčiću			2
-vratiću	587		2
+vrapčiću			3
+vratiću	587		3
 vraćaću	14		3
 vrednoću	72		2
 vrednošću	1687		2
 vreću	797		2
-vrištaću	11		2
+vrištaću	11		3
 vrišteću	12		2
 vrsnošću			2
-vrteću			2
-vrtiću	2592		2
+vrteću			3
+vrtiću	2592		3
 vruću	675		2
 vujaniću			2
 vujanoviću			2
@@ -2599,115 +2599,115 @@ vućiću			2
 vućkoviću			2
 vučeviću			2
 vučiniću			2
-vučiću	40		2
+vučiću	40		3
 vučkoviću			2
-zabaviću			3
-zabavljaću			3
+zabaviću			4
+zabavljaću			4
 zabeležiću			2
 zabiću			3
 zablaću			2
-zaboraviću	60		3
-zabraniću			2
-zabrinutošću	338		4
+zaboraviću	60		4
+zabraniću			3
+zabrinutošću	338		5
 zacvrkuću			2
-zadaviću			2
-zadaću	191		2
+zadaviću			3
+zadaću	191		3
 zadivljenošću			2
 zadivljujuću	118		2
-zadovoljiću	20		2
-zadržavaću			3
-zadržaću	140		2
-zadužiću			2
+zadovoljiću	20		3
+zadržavaću			4
+zadržaću	140		3
+zadužiću			3
 zafiroviću			2
-zaglaviću			2
+zaglaviću			3
 zagledaću			2
-zagrejaću			3
-zagrliću			3
-zahtevaću	28		2
+zagrejaću			4
+zagrliću			4
+zahtevaću	28		3
 zahuktalošću			2
-zahvaliću	24		2
+zahvaliću	24		3
 zahvalnošću	455		2
-zakasniću	20		2
-zakazaću	18		2
+zakasniću	20		3
+zakazaću	18		3
 zakačiću			2
 zaklaću	21		2
 zaklepeću			2
 zakleću			2
 zaključaću	14		2
 zakonitošću	152		2
-zakopaću			2
+zakopaću			3
 zakrekeću			2
 zakrpiću			2
 zakucaću			2
-zalagaću	73		2
+zalagaću	73		3
 zalepiću			2
 zaleću	82		2
-zaliću			2
-zaljubiću			2
+zaliću			3
+zaljubiću			3
 zaljubljenošću	57		2
-založiću	22		2
+založiću	22		3
 zamagljenošću			2
-zamahnuću			2
-zameniću	24		2
-zameriću			3
+zamahnuću			3
+zameniću	24		3
+zameriću			4
 zameću	26		2
 zamešaću			2
-zamisliću			3
-zamoliću	221		2
+zamisliću			4
+zamoliću	221		3
 zamotaću			2
-zanemariću	18		2
+zanemariću	18		3
 zaogrću	13		2
 zaokreću	12		2
-zapaliću	21		2
+zapaliću	21		3
 zapamtiću	46		3
 zapanjujuću	119		2
 zapevaću			2
 zapeću			2
 zapešću			2
-zapisaću	14		2
+zapisaću	14		3
 zaplakaću			2
 zapleniću			2
 zapliću	44		2
-zaposliću	17		2
-zapovediću			3
+zaposliću	17		3
+zapovediću			4
 zapovešću	74		2
 započeću	28		2
 zaprepašćenošću			2
 zapreću			2
-zaprosiću			2
-zapušiću			3
-zaradiću	16		2
+zaprosiću			3
+zapušiću			4
+zaradiću	16		3
 zaraziću			2
-zarađivaću			2
-zaslužiću			2
-zaspaću	13		2
-zastrašujuću	193		3
-zastupaću			2
+zarađivaću			3
+zaslužiću			3
+zaspaću	13		3
+zastrašujuću	193		4
+zastupaću			3
 zasuću			2
-zatražiću	40		2
+zatražiću	40		3
 zatrebaću			2
-zatvoriću	27		2
-zaustaviću	33		3
+zatvoriću	27		3
+zaustaviću	33		4
 zauzetošću	32		2
 zauzeću	88		2
 zavapiću			2
 zavađenošću			2
-zavezaću			2
-zavešću			2
+zavezaću			3
+zavešću			3
 zavijajuću			2
 zavikaću			2
-zavisnošću	292		3
-zavišću	263		2
-zavoleću			2
-zavoljeću		J	2
+zavisnošću	292		4
+zavišću	263		3
+zavoleću			3
+zavoljeću		J	3
 zavrnuću			2
 zavrću	147		2
-završiću	346		2
+završiću	346		3
 začepiću			2
 začeću	178		2
 začuđujuću	35		2
 zašiću			2
-zaštitiću			2
+zaštitiću			3
 zažaliću			3
 zažmuriću			2
 zbiljiću			2
@@ -2720,12 +2720,12 @@ zebiću			2
 zeliću			2
 zeljkoviću			2
 zečeviću			2
-zečiću			2
+zečiću			3
 zgaziću			2
 zgnječiću			2
 zgrabiću			3
-zgrnuću			2
-zgromiću			2
+zgrnuću			3
+zgromiću			3
 zgrću	108		2
 zimonjiću			2
 zjapeću			2
@@ -2733,7 +2733,7 @@ zlatoviću			2
 zlokoviću			2
 zlosreću			2
 zloću	87		2
-zluradošću	31		3
+zluradošću	31		4
 zmajeviću			2
 znatnošću			2
 znaću	187		2
@@ -2743,7 +2743,7 @@ zvaću	183		2
 zvekeću	20		2
 zveknuću			3
 zviznuću			2
-zvučaću	11		2
+zvučaću	11		3
 zvučnošću	12		2
 ćaću	16		2
 ćiriću			2
@@ -2754,27 +2754,27 @@ zvučnošću	12		2
 ćosiću			2
 ću	101280		1
 ćurčiću			2
-ćutaću	29		2
+ćutaću	29		3
 ćutljivošću			2
 čanoviću			2
 čančiću			2
 čarapiću			2
 čarnojeviću			2
 čarobnošću			2
-častiću	17		2
+častiću	17		3
 čaviću			2
 čađenoviću			2
 čašću	404		2
 čednošću	18		3
 čekaću	190		3
-čekiću	11		2
+čekiću	11		3
 čelebiću			2
 čestitošću	45		2
 češću	159		2
-činiću	24		2
+činiću	24		3
 čistiću			3
 čistoću	892		2
-čitaću	92		2
+čitaću	92		3
 čitkošću			2
 čitljivošću			2
 člančiću			2
@@ -2789,11 +2789,11 @@ zvučnošću	12		2
 čulnošću	15		2
 čumiću			2
 čupiću			2
-čuvaću	85		2
+čuvaću	85		3
 čuću			2
 čvoriću			2
 čvoroviću			2
-čvrstoću	482		2
+čvrstoću	482		3
 čvršću	318		2
 đakoviću			2
 đavolčiću			2
@@ -2820,37 +2820,37 @@ zvučnošću	12		2
 šainoviću			2
 šakiću			2
 šantiću			2
-šapnuću	10		2
+šapnuću	10		3
 šapuću	241		2
 šapću	28		2
 šareniću			2
 šariću			2
 šaroviću			2
 šatriću			2
-šetaću	10		2
+šetaću	10		3
 ševarliću			2
-ševiću			2
+ševiću			3
 šeću	43		2
-šeširiću			2
+šeširiću			3
 šikću			2
 širokogrudošću			2
-šivaću	30		2
+šivaću	30		3
 škljocnuću			2
-škrguću	37		2
+škrguću	37		3
 škrtošću			3
 šmigiću			2
 šojiću			2
-štapiću	106		2
+štapiću	106		3
 štitiću			3
 štrikaću			3
 šumeću	16		2
 šutnuću			2
 šuvakoviću			2
-ščepaću			2
+ščepaću			3
 žaliću	43		3
 žalošću	208		3
 žarkoviću			2
-želeću			2
+želeću			3
 ženskošću			3
 žestokošću			2
 žešću	112		2
@@ -2858,7 +2858,7 @@ zvučnošću	12		2
 žikiću			2
 žilavošću	18		4
 živanoviću			2
-živeću	103		2
+živeću	103		3
 živiću			2
 živkoviću			2
 životiću			2
@@ -2869,43 +2869,43 @@ zvučnošću	12		2
 žrtvovaću	19		4
 žugiću			2
 žujoviću			2
-žuriću			2
-žvakaću	60		2
+žuriću			3
+žvakaću	60		3
 žvaću			2
 cvijeću	33		3
 cvjetiću			2
-djeliću			2
+djeliću			3
 dolijeću			2
 donijeću			3
 izlijeću	11		2
 izvješću			2
 lijenošću			3
-medvjediću			3
-nadlijeću			2
-natjeraću			3
-obavijestiću			3
+medvjediću			4
+nadlijeću			3
+natjeraću			4
+obavijestiću			4
 oblijeću			2
 odjeću			3
 odnijeću			3
-podsjetiću			3
+podsjetiću			4
 poviješću	56		4
 prenijeću			3
-prisjetiću			3
+prisjetiću			4
 prolijeću	12		2
-provjeriću			3
-riješiću			3
-savješću			2
+provjeriću			4
+riješiću			4
+savješću			3
 slijedeću			2
 slijeću	17		2
 smjernošću			2
-svijeću	184		2
+svijeću	184		3
 sviješću	97		3
 svjetlošću			3
 umijeću	26		2
-umjetnošću			3
-umjeću			2
+umjetnošću			4
+umjeću			3
 umješnošću			2
 umrijeću			3
 vidjeću			3
-vijeću	669		2
+vijeću	669		3
 viješću	47		3

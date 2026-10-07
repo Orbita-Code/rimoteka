@@ -800,6 +800,7 @@ async function main() {
         return { grupe, sve: [...box.querySelectorAll('.word')].map(e => e.textContent.trim()) };
       };
       const rima = await grupeZa('rima'); const tv = await grupeZa('televizor'); const slob = await grupeZa('sloboda');
+      const kan = await grupeZa('kaniti'); const slobodan = await grupeZa('slobodan'); const unuka = await grupeZa('unuka'); const domacin = await grupeZa('domaćin');
       await grupeZa('rima');   // vrati stanje strane kao pre (sledeće sekcije računaju na „rima")
       const najbolje = rima.grupe['Najbolje rime'] || [];
       return {
@@ -809,8 +810,19 @@ async function main() {
         slobNajbolje: (slob.grupe['Najbolje rime'] || []),
         akcTV: typeof AKCMAP !== 'undefined' ? AKCMAP.get('televizor') : null, akcRev: typeof AKCMAP !== 'undefined' ? AKCMAP.get('revizor') : null,
         akcenataUcitano: typeof AKC !== 'undefined' ? AKC.length : 0,
+        kanNajbolje: (kan.grupe['Najbolje rime'] || []).slice(0, 40), kanKljuc: typeof AKCMAP !== 'undefined' ? [AKCMAP.get('kaniti'), AKCMAP.get('raniti'), AKCMAP.get('goniti')] : [],
+        slobodanNajbolje: (slobodan.grupe['Najbolje rime'] || []).slice(0, 40),
+        unukaNajbolje: (unuka.grupe['Najbolje rime'] || []).slice(0, 40), domacinNajbolje: (domacin.grupe['Najbolje rime'] || []).slice(0, 40),
       };
     });
+    /* AK-1 (audit 07.10.2026): pomak ključa iza naglašenog sloga samo kad je taj slog DUG. kániti (kratak „ni") → -aniti:
+       rȁniti jeste prava rima, gòniti nije. ùnuka → -unuka: bazuka (-azuka) nije. */
+    ok('AK-1 · „kaniti" (kániti, kratak slog iza): raniti u „Najbolje", goniti NIJE; ključ -aniti', rang.kanNajbolje.includes('raniti') && !rang.kanNajbolje.includes('goniti') && rang.kanKljuc[0] === 'aniti' && rang.kanKljuc[1] === 'aniti' && rang.kanKljuc[2] !== 'aniti', `najbolje: ${rang.kanNajbolje.slice(0, 10).join(', ')} | ključevi ${rang.kanKljuc.join('/')}`);
+    ok('AK-1 · „unuka" (ùnuka): bazuka NIJE u „Najbolje"', !rang.unukaNajbolje.includes('bazuka'), rang.unukaNajbolje.slice(0, 10).join(', '));
+    /* AK-2: rezerva (strogih < 3) traži i zajednički završetak od bar 2 sloga – slobodan → prirodan DA, bezvredan/rođendan NE. */
+    ok('AK-2 · „slobodan" (rezerva): prirodan u „Najbolje", bezvredan i rođendan NISU (dele samo -dan)', rang.slobodanNajbolje.includes('prirodan') && !rang.slobodanNajbolje.includes('bezvredan') && !rang.slobodanNajbolje.includes('rođendan'), rang.slobodanNajbolje.slice(0, 12).join(', '));
+    /* kornjačin OSTAJE uz domaćin: po pravilu sajta č≡ć (commonSuffix) dele -aćin/-ačin, dva sloga. */
+    ok('AK-2 · „domaćin" (rezerva): kraljičin i caričin NISU u „Najbolje" (dele samo -čin)', !rang.domacinNajbolje.includes('kraljičin') && !rang.domacinNajbolje.includes('caričin'), rang.domacinNajbolje.slice(0, 12).join(', '));
     ok('akcenat učitan za svaku reč (AKC.length = WORDS.length)', rang.akcenataUcitano > 250000, `${rang.akcenataUcitano}`);
     ok('„Najbolje rime" za „rima" ne sadrže „stvarima" ni „centrima" (silazni akcenat na prvom slogu – slaba rima)', rang.rimaBezStvarima,
        `${rang.brojNajboljih} reči, prvih 5: ${rang.prvih5.join(', ')}`);
@@ -1111,14 +1123,19 @@ async function main() {
       const box = document.getElementById('rimeResults');
       const reci = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
       const grupe = [...box.querySelectorAll('h2, h3')].map(e => e.textContent.trim());
-      // filter po slogovima
+      // filter po slogovima – proverava se PO SADRŽAJU (07.10.2026): posle filtera „2" svaka prikazana reč ima 2 sloga,
+      // a pre filtera je bilo i drugih. Ranije se poredio samo BROJ reči, a spisak je u oba slučaja sečen na 180
+      // (ljubav: 3+177 → 2+178), pa je provera bila lažno zelena dok je prolazila i pala kad je grupa „Najbolje" ostala ista.
+      const slogPre = [...box.querySelectorAll('.chip .syl')].map(e => e.textContent.trim());
       const f = document.querySelector('#rimeSyl button[data-syl="2"]');
       if (f) f.click();
       await w(800);
       const posle = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
+      const slogPosle = [...box.querySelectorAll('.chip .syl')].map(e => e.textContent.trim());
       return {
         broj: reci.length, imaGrbav: reci.includes('grbav'), grupe,
-        filterRadi: posle.length > 0 && posle.length !== reci.length,
+        filterRadi: posle.length > 0 && slogPre.some(x => x !== '2') && slogPosle.length > 0 && slogPosle.every(x => x === '2'),
+        slogovi: { preRaznih: [...new Set(slogPre)].join('/'), posleRaznih: [...new Set(slogPosle)].join('/') },
         kockica: !!document.getElementById('randomBtn')
       };
     });
@@ -1136,7 +1153,7 @@ async function main() {
     });
     ok('/rimovanje-reci/ → sinonimi se prikazuju za kuriranu reč', (sinNaStrani || []).some(g => /Sinonimi/i.test(g)),
        (sinNaStrani || []).join(' / '));
-    ok('/rimovanje-reci/ → filter po slogovima radi', alat.filterRadi === true, 'filter nije promenio listu');
+    ok('/rimovanje-reci/ → filter po slogovima radi (posle „2" svaka reč ima 2 sloga, pre je bilo i drugih)', alat.filterRadi === true, JSON.stringify(alat.slogovi));
     ok('/rimovanje-reci/ → kockica postoji', alat.kockica === true);
     ok('/rimovanje-reci/ → nula grešaka u konzoli', alatGreske.length === 0, alatGreske.slice(0, 3).join(' | '));
     await pAlat.close();
@@ -3384,6 +3401,10 @@ async function main() {
          secene.length === 0, `odsečene: ${secene.slice(0, 8).join(', ')}`);
 
       // ── B. Dodir na reč otvara traku sa radnjama IZNAD reči
+      /* Kapsula se hvata tek posle `cekajMirneRime` (pravilo 22.09.2026): učestalost stiže na potrebu i ponovo iscrta
+         kapsule – pod opterećenjem od 6 radnika (07.10.2026) kapsula je bila zamenjena između hvatanja i dodira,
+         pa dodir na odvojeni element nije otvorio traku (7 provera palo, a app.js nije dirani). */
+      await cekajMirneRime(p30, 300);
       const b30 = await p30.evaluate(async () => {
         const w = ms => new Promise(r => setTimeout(r, ms));
         const cip = [...document.querySelectorAll('#rimeResults .chip')][6];
@@ -5892,10 +5913,47 @@ async function main() {
         const uGeneratoru = (fs.readFileSync(path.join(ROOT, 'build', 'gen_pages.py'), 'utf8').match(/if len\(all_r\) < (\d+):/) || [])[1];
         ok('S-19 · prag u generatoru je 5 pravih rima, a ukinute adrese (krv, kurs, vrh…) su u mapi starih strana', uGeneratoru === '5' && /\/rime-za\/krv\/ 1;/.test(mapa) && /\/rime-za\/vrh\/ 1;/.test(mapa), `prag ${uGeneratoru}`);
       } else {
-        const uzorak = []; const kopija = adrese.slice(); for (let i = 0; i < 30 && kopija.length; i++) uzorak.push(kopija.splice(Math.floor(Math.random() * kopija.length), 1)[0]);
-        const pali = [];
-        for (const u of uzorak) { try { const r = await fetch(u, { redirect: 'manual' }); const h = r.status === 200 ? await r.text() : ''; if (r.status !== 200 || !/<h1[\s>]/.test(h)) pali.push(`${u} → ${r.status}`); } catch (e) { pali.push(`${u} → ${e.message}`); } }
-        ok('produkcija · 30 nasumičnih adresa iz sitemapa vraća 200 sa h1', pali.length === 0, pali.slice(0, 5).join(' | '));
+        /* TP-1 (audit 07.10.2026): produkcijski prolaz je proveravao samo 30 adresa na „200 + h1" – S-18/S-19, kanonikal,
+           JSON-LD, verzija app.js i logo WebP nisu se gledali na produkciji. Sad: 100 nasumičnih strana (uvek 20 od njih
+           strane reči) sa ISTIM proverama kao lokalno, 10 odjednom, 20 s po strani (jedinica sa rokom – ne čeka se zaglavljena). */
+        const pocetna = await (await fetch(BASE + '/', { signal: AbortSignal.timeout(20000) })).text();
+        const verzija = (pocetna.match(/app\.js\?v=([0-9a-z]+)/) || [])[1];
+        const reciAdr = adrese.filter(u => /\/rime-za\/[^/]+\/$/.test(u)), ostaleAdr = adrese.filter(u => !/\/rime-za\/[^/]+\/$/.test(u));
+        const izvuci = (iz, k) => { const kop = iz.slice(), out = []; for (let i = 0; i < k && kop.length; i++) out.push(kop.splice(Math.floor(Math.random() * kop.length), 1)[0]); return out; };
+        const uzorak = [...izvuci(ostaleAdr, Math.min(20, ostaleAdr.length)), ...izvuci(reciAdr, 80)];
+        const lose = { status: [], h1: [], kanon: [], jsonld: [], malo: [], rec: [], verzija: [], logo: [], greska: [] };
+        const skupi = new Set(['/rime-za/'].map(x => BASE + x));
+        const proveri = async (u) => {
+          try {
+            const r = await fetch(u, { redirect: 'manual', signal: AbortSignal.timeout(20000) });
+            if (r.status !== 200) { lose.status.push(`${u} → ${r.status}`); return; }
+            const h = await r.text();
+            if ((h.match(/<h1[\s>]/g) || []).length !== 1) lose.h1.push(u);
+            const kan = (h.match(/<link rel="canonical" href="([^"]+)"/) || [])[1];
+            if (kan !== u) lose.kanon.push(`${u} (${kan})`);
+            for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { lose.jsonld.push(u); break; } }
+            if (/\/rime-za\/[^/]+\/$/.test(u)) { const nc = (h.match(/class="chip chip-btn"|class="chip"/g) || []).length; if (nc < 8) lose.malo.push(`${u} (${nc})`); if (/href="\/\?rec=/.test(h)) lose.rec.push(u); }
+            if (verzija && !h.includes(`app.js?v=${verzija}`)) lose.verzija.push(u);
+            if (!skupi.has(u) && (!/logo-icon\.webp/.test(h) || /logo-icon\.png/.test(h))) lose.logo.push(u);
+          } catch (e) { lose.greska.push(`${u} → ${e.message}`); }
+        };
+        for (let i = 0; i < uzorak.length; i += 10) await Promise.all(uzorak.slice(i, i + 10).map(proveri));
+        ok(`produkcija · ${uzorak.length} nasumičnih adresa iz sitemapa (${Math.min(80, reciAdr.length)} strana reči) vraća 200 bez greške mreže`, lose.status.length === 0 && lose.greska.length === 0, [...lose.status, ...lose.greska].slice(0, 5).join(' | '));
+        ok('produkcija · tačno jedan h1 na svakoj', lose.h1.length === 0, `${lose.h1.length}: ${lose.h1.slice(0, 3).join(', ')}`);
+        ok('produkcija · kanonikal = adresa iz sitemapa na svakoj', lose.kanon.length === 0, `${lose.kanon.length}: ${lose.kanon.slice(0, 3).join(', ')}`);
+        ok('produkcija · JSON-LD validan na svakoj', lose.jsonld.length === 0, `${lose.jsonld.length}: ${lose.jsonld.slice(0, 3).join(', ')}`);
+        ok('produkcija · svaka strana reči iz uzorka ima bar 8 rima u HTML-u i ne linkuje `/?rec=` (K2)', lose.malo.length === 0 && lose.rec.length === 0, [...lose.malo, ...lose.rec].slice(0, 5).join(', '));
+        ok(`produkcija · sve nose istu verziju app.js kao početna (${verzija})`, !!verzija && lose.verzija.length === 0, `${lose.verzija.length}: ${lose.verzija.slice(0, 3).join(', ')}`);
+        ok('produkcija/PF-6 · sve strane koriste logo-icon.webp, nijedna logo-icon.png', lose.logo.length === 0, `${lose.logo.length}: ${lose.logo.slice(0, 3).join(', ')}`);
+        let lw = null; try { const r = await fetch(BASE + '/logo-icon.webp', { signal: AbortSignal.timeout(20000) }); lw = { status: r.status, tip: r.headers.get('content-type') || '', b: (await r.arrayBuffer()).byteLength }; } catch (e) { lw = { status: 0, tip: e.message, b: 0 }; }
+        ok('produkcija/PF-6 · /logo-icon.webp je 200, image/webp, manji od 70 KB', lw.status === 200 && /image\/webp/.test(lw.tip) && lw.b > 0 && lw.b < 70000, JSON.stringify(lw));
+        {
+          const pLogo = ojacajStranu(await browser.newPage());
+          await pLogo.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+          const nw = await pLogo.evaluate(async () => { const i = document.querySelector('.logo-r'); if (!i) return -1; if (i.complete) return i.naturalWidth; await new Promise(r => { i.onload = r; i.onerror = r; setTimeout(r, 8000); }); return i.naturalWidth; });
+          ok('produkcija/PF-6 · logo se stvarno iscrtava (naturalWidth > 0)', nw > 0, `naturalWidth ${nw}`);
+          await pLogo.close();
+        }
       }
     }
 
@@ -6966,6 +7024,19 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         const mete = await p.evaluate(() => [...document.querySelectorAll('#tabs a, .syl-filter button, .script-toggle button, .dark-toggle')].map(e => ({ s: (e.id || e.className || e.textContent).toString().slice(0, 14), h: Math.round(e.getBoundingClientRect().height) })).filter(x => x.h > 0 && x.h < 44));
         ok('M-2 · na dodirnom ekranu tabovi, filteri i prekidači su bar 44 px visoki', mete.length === 0, JSON.stringify(mete));
         await p.goto(BASE + '/rime-za/ljubav/', { waitUntil: 'domcontentloaded' });
+        /* PR-1 (audit 07.10.2026): na 1.990 statičkih strana kapsula je `button.chip`/`a.chip` bez `.word[tabindex]` –
+           fokus je otvarao karticu, ali Tab je išao na sledeću kapsulu, a `aria-expanded` stajao na spanu. */
+        {
+          await p.evaluate(() => document.querySelector('.results .chip, .landing-rhymes .chip, main .chip').focus()); await pauza(300);
+          const k1 = await p.evaluate(() => { const c = document.activeElement; return { tag: c.tagName, otv: !!document.querySelector('.chip-actions:not([hidden])'), exp: c.getAttribute('aria-expanded'), pop: c.getAttribute('aria-haspopup') }; });
+          await p.keyboard.press('Tab'); await pauza(200);
+          const k2 = await p.evaluate(() => ({ uTraci: !!document.activeElement.closest('.chip-actions'), act: document.activeElement.dataset.act || document.activeElement.className }));
+          await p.keyboard.press('ArrowRight'); await pauza(150);
+          const k3 = await p.evaluate(() => document.activeElement.dataset.act || '');
+          await p.keyboard.press('Escape'); await pauza(200);
+          const k4 = await p.evaluate(() => { const c = document.activeElement; return { tag: c.tagName, chip: c.classList.contains('chip'), exp: c.getAttribute('aria-expanded'), otv: !!document.querySelector('.chip-actions:not([hidden])') }; });
+          ok('PR-1 · statička strana: fokus na kapsulu otvara karticu, Tab ulazi u nju, strelica ide dalje, Escape vraća fokus na kapsulu (aria-expanded prati)', /^(BUTTON|A)$/.test(k1.tag) && k1.otv && k1.exp === 'true' && k1.pop === 'true' && k2.uTraci && k2.act === 'def' && k3 === 'fav' && k4.chip && k4.exp === 'false' && !k4.otv, JSON.stringify({ k1, k2, k3, k4 }));
+        }
         const mb4 = await p.evaluate(() => [...document.querySelectorAll('.crumbs a')].map(a => Math.round(a.getBoundingClientRect().height)));
         ok('MB-4 · linkovi putanje su mete od bar 44 px', mb4.length > 0 && mb4.every(h => h >= 44), JSON.stringify(mb4));
         const seo1 = await p.evaluate(() => (document.querySelector('.copy-all-btn').dataset.words || '').split(', ').length);

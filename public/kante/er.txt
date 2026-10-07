@@ -1,5 +1,5 @@
 731
-Jupiter			2
+Jupiter			3
 Kmer			1
 Kvarner			2
 aber			2
@@ -21,7 +21,7 @@ amper	41		2
 anker	61		2
 anlaser		M	2
 apoliner			2
-aranžer	262		2
+aranžer	262		3
 asembler			2
 asfalter			2
 automonter			2
@@ -71,7 +71,7 @@ brzinomer	180		2
 buber			2
 buker			2
 bukmejker			2
-buldožer	301		2
+buldožer	301		3
 bundesver			2
 bunker	703		2
 burazer	313		2
@@ -138,7 +138,7 @@ enterijer	4513		2
 enver			2
 er		M	1
 ester		M	2
-etažer			2
+etažer			3
 eter	106		2
 fajfer			2
 farmer	623		2
@@ -160,7 +160,7 @@ flajer	305		2
 flaster	369		2
 fliper	60		2
 flober			2
-flomaster	67		2
+flomaster	67		3
 foker			2
 fokner			2
 foksterijer			2
@@ -228,7 +228,7 @@ hiper	375		2
 hipnotizer	67		2
 hipster	71		2
 hitler			2
-hohštapler		M	2
+hohštapler		M	3
 homer			2
 hotelijer	58		2
 huber			2
@@ -250,7 +250,7 @@ jumper	86		2
 kajzer			2
 kaloper	31		2
 kalorifer			2
-kaluđer	592		2
+kaluđer	592		3
 kamber			2
 kamer			2
 kamkorder			2
@@ -287,7 +287,7 @@ kidnaper	15		2
 kiler			2
 kinder			2
 kiper	92		2
-kisindžer			2
+kisindžer			3
 kišomer		M	3
 klaker			2
 klaster	1320		2
@@ -315,7 +315,7 @@ koper			2
 korežiser			2
 korijander	125		2
 korner	1451		2
-kosijer			2
+kosijer			3
 kozer	36		2
 kozoder			2
 košer			2
@@ -341,7 +341,7 @@ lager	665		2
 lakirer			2
 lanser	132		2
 laser	1604		2
-laufer			2
+laufer			3
 lenger			2
 ler		M	1
 lester			2
@@ -355,7 +355,7 @@ lister		M	2
 ljudožder	96		2
 loker			2
 lozer			2
-lucifer			2
+lucifer			3
 luger			2
 lumpenproleter			2
 luster	315		2
@@ -369,14 +369,14 @@ maler	474		2
 malter	631		2
 manchester			2
 marker	597		2
-masažer	65		2
+masažer	65		3
 maser	140		2
 master	16708		2
 mater	1343		2
 mauser			2
 mauzer		M	2
 mejer			2
-menadžer	12152		2
+menadžer	12152		3
 mermer	505		2
 merzer		M	2
 mesinger			2
@@ -398,7 +398,7 @@ moamer			3
 moher			2
 moler	292		2
 monsenjer			2
-montažer	304		2
+montažer	304		3
 monter	70		2
 mozer			2
 muamer			3
@@ -465,7 +465,7 @@ piper			2
 piter			2
 pjer			1
 planer	282		2
-plantažer			2
+plantažer			3
 plejer	2252		2
 plejmejker			2
 pleter	40		2
@@ -597,7 +597,7 @@ stožer	907		2
 striper			2
 strujomer	101		3
 strvoder		M	2
-sudoper		M	2
+sudoper		M	3
 sufler		M	2
 sunđer	689		2
 super	25126		2
@@ -618,7 +618,7 @@ tender	5764		2
 teniser	5925		2
 terijer	264		2
 tester	186		2
-tinejdžer	1137		2
+tinejdžer	1137		3
 tinejđer			2
 tiner			2
 tipfeler			2
@@ -701,7 +701,7 @@ zver	1690		1
 šmeker	226		2
 šminker	192		2
 šnajder		M	2
-šnaucer	61		2
+šnaucer	61		3
 šoder			2
 šofer	451		2
 šoker			2

@@ -1,578 +1,578 @@
 3386
 Angolo			2
 Oslo			2
-adaptiralo	27		2
+adaptiralo	27		3
 afirmisalo	60		2
 agitovalo			2
 ajkulo			3
-aktiviralo	99		2
-alarmiralo			2
+aktiviralo	99		3
+alarmiralo			3
 alo	714		2
 angažovalo	271		2
 angelo			2
 anglo			2
-antitelo	104		3
-anuliralo	17		2
+antitelo	104		4
+anuliralo	17		3
 anđelo			2
-apelovalo	125		4
+apelovalo	125		5
 apolo			3
 arlaukalo			2
 armadillo			2
-armadilo			2
-asociralo	98		2
-ažuriralo			2
-bacalo	136		2
-bacilo	358		2
-baljezgalo		M	2
+armadilo			3
+asociralo	98		3
+ažuriralo			3
+bacalo	136		3
+bacilo	358		3
+baljezgalo		M	3
 balo			2
 bandažiralo			2
-bankrotiralo	58		2
-banulo			2
+bankrotiralo	58		3
+banulo			3
 bančilo			3
-baratalo	45		2
-batalo			2
-batinalo			2
-bauljalo			2
+baratalo	45		3
+batalo			3
+batinalo			3
+bauljalo			3
 bavilo	842		3
-bazalo		M	2
+bazalo		M	3
 bdelo			2
-beknulo			2
-beležilo	69		3
-belilo	69		2
+beknulo			3
+beležilo	69		4
+belilo	69		3
 belo	2891		2
-benetalo		M	2
-besedilo			3
-besnilo	466		2
-bezmalo		M	2
-bežalo	129		2
+benetalo		M	3
+besedilo			4
+besnilo	466		3
+bezmalo		M	3
+bežalo	129		3
 biciklo			2
 bilo	745387		2
-biralo	192		2
-bitisalo			2
-bivalo	809		2
+biralo	192		3
+bitisalo			3
+bivalo	809		3
 bičevalo			4
-blagoslovilo			2
-blažilo			2
-blebetalo	18		2
+blagoslovilo			3
+blažilo			3
+blebetalo	18		3
 bledelo		M	2
-bledilo	208		2
-blejalo			2
+bledilo	208		3
+blejalo			3
 blesnulo	14		3
-bleštalo	13		2
-bleštavilo		M	2
-blistalo	77		2
-blistavilo			2
-bližilo	86		2
+bleštalo	13		3
+bleštavilo		M	3
+blistalo	77		3
+blistavilo			3
+bližilo	86		3
 bljesnulo	26		3
-blještavilo	46		2
-blokiralo	281		2
-bockalo			2
+blještavilo	46		3
+blokiralo	281		3
+bockalo			3
 bocnulo			3
-bodrilo	70		2
-bogatilo	26		3
-bojalo	14		2
-bolelo	976		2
-boljelo	79	J	2
+bodrilo	70		3
+bogatilo	26		4
+bojalo	14		3
+bolelo	976		3
+boljelo	79	J	3
 bolo	102		2
-bolovalo	60		2
-boravilo	612		3
-borilo	353		2
-bozalo			2
+bolovalo	60		3
+boravilo	612		4
+borilo	353		3
+bozalo			3
 bralo	26		2
-branilo	182		2
-bratilo			2
-brbljalo			2
+branilo	182		3
+bratilo			3
+brbljalo			3
 brinulo	345		3
-brisalo	21		2
-brkalo			2
-brljalo			2
-brojalo	155		2
-brojilo	509		2
-brstilo			2
-brundalo			2
-brčkalo			2
-bubalo	597		2
+brisalo	21		3
+brkalo			3
+brljalo			3
+brojalo	155		3
+brojilo	509		3
+brstilo			3
+brundalo			3
+brčkalo			3
+bubalo	597		3
 budalo	71		2
-budilo	126		2
+budilo	126		3
 bufalo		M	3
-bujalo	26		2
-buknulo	57		2
-buktalo			2
-bulaznilo			2
-buljilo			2
-bundalo			2
-bunilo	132		2
-burilo			2
+bujalo	26		3
+buknulo	57		3
+buktalo			3
+bulaznilo			3
+buljilo			3
+bundalo			3
+bunilo	132		3
+burilo			3
 bućkalo	29		3
-bučalo			2
-bušilo			2
-carovalo			2
-cedilo	40		2
-celivalo			2
+bučalo			3
+bušilo			3
+carovalo			3
+cedilo	40		3
+celivalo			3
 celo	10293		2
-cenilo	76		2
-cepalo	35		2
-cerekalo			2
+cenilo	76		3
+cepalo	35		3
+cerekalo			3
 cerilo			3
 ciglo			2
-cijukalo			2
-ciktalo			2
-ciljalo	20		2
-citiralo			2
-cičalo			2
-cjedilo		J	2
-crkavalo	19		3
+cijukalo			3
+ciktalo			3
+ciljalo	20		3
+citiralo			3
+cičalo			3
+cjedilo		J	3
+crkavalo	19		4
 crklo	279		2
-crnelo			2
-crnilo	224		2
+crnelo			3
+crnilo	224		3
 crpelo			2
-crtalo	42		2
-crvenilo	2109		2
-cupkalo			2
+crtalo	42		3
+crvenilo	2109		3
+cupkalo			3
 curelo			2
-curilo	54		2
+curilo	54		3
 cvalo			2
-cvetalo	118		2
-cvililo			2
-cvrkutalo			3
-dahnulo			2
+cvetalo	118		3
+cvililo			3
+cvrkutalo			4
+dahnulo			3
 dalo	7953		2
-danilo			2
+danilo			3
 danojlo			2
-darovalo	38		2
-davalo	1181		2
+darovalo	38		3
+davalo	1181		3
 debatovalo	53		2
 debelo	4385		2
 deblo	158		2
-degradiralo	31		2
-delilo	415		2
+degradiralo	31		3
+delilo	415		3
 delo	45938		2
 delovalo	2629		4
 deponovalo	11		2
 deprimiralo			2
 desilo	30499		3
-dešavalo	10871		2
-dežuralo	29		2
+dešavalo	10871		3
+dežuralo	29		3
 diglo	307		2
-diktiralo	40		2
+diktiralo	40		3
 dimilo	26		3
 dinstalo			3
-diralo	39		2
-dirkalo			2
-dirnulo	125		2
-disalo	86		2
-divilo	16		2
-divljalo	10		2
+diralo	39		3
+dirkalo			3
+dirnulo	125		3
+disalo	86		3
+divilo	16		3
+divljalo	10		3
 dizalo	93		3
-dobacivalo			2
+dobacivalo			3
 dobijalo	462		3
-dobilo	10216		2
-dobivalo	18		2
-dobrilo			2
+dobilo	10216		3
+dobivalo	18		3
+dobrilo			3
 dobrodošlo	470		2
-dodalo	173		2
-dodavalo	43		2
-dodelilo	463		2
-dodeljivalo	23		2
+dodalo	173		3
+dodavalo	43		3
+dodelilo	463		3
+dodeljivalo	23		3
 dodelo			2
-dodijalo	55		2
-dodirivalo	21		2
-dodirnulo	24		2
-događalo	3270		2
-dogodilo	19921		2
+dodijalo	55		3
+dodirivalo	21		3
+dodirnulo	24		3
+događalo	3270		3
+dogodilo	19921		3
 dogorelo	253		2
-dogorčalo			2
-dogovaralo	64		2
-dogovorilo	150		2
-dograbilo			2
-doguralo	56		2
-dogustilo			2
-dohvatilo	20		3
-doimalo			2
-dojadilo	223		2
-dojilo			2
-dojmilo	46		2
-dokazalo	860		2
-dokazivalo	76		2
-dokončalo			2
-dokopalo			2
+dogorčalo			3
+dogovaralo	64		3
+dogovorilo	150		3
+dograbilo			3
+doguralo	56		3
+dogustilo			3
+dohvatilo	20		4
+doimalo			3
+dojadilo	223		3
+dojilo			3
+dojmilo	46		3
+dokazalo	860		3
+dokazivalo	76		3
+dokončalo			3
+dokopalo			3
 dokrajčilo	17		3
-dolazilo	3320		3
+dolazilo	3320		4
 doletelo	26		2
-dolikovalo	40		4
-doličilo			3
-domalo	74		2
-domamilo			2
-dominiralo	127		2
-domišljalo			2
+dolikovalo	40		5
+doličilo			4
+domalo	74		3
+domamilo			3
+dominiralo	127		3
+domišljalo			3
 domoglo	14		2
 donelo	6368		2
-donosilo	447		2
-dopadalo	339		3
-dopalo	2116		2
-dopiralo	130		3
-doplovilo	16		2
+donosilo	447		3
+dopadalo	339		4
+dopalo	2116		3
+dopiralo	130		4
+doplovilo	16		3
 doprinelo	3840		2
-doprinosilo	148		2
+doprinosilo	148		3
 doprlo	149		2
-dopustilo	113		2
-dopuzilo			2
-dopuštalo	63		2
+dopustilo	113		3
+dopuzilo			3
+dopuštalo	63		3
 doraslo	60		2
-dosadilo	1012		2
-dosađivalo			2
+dosadilo	1012		3
+dosađivalo			3
 doseglo	94		2
-doselilo	165		2
+doselilo	165		3
 dospelo	540		2
-dostiglo	666		2
+dostiglo	666		3
 dotaklo	151		2
-doteralo	47		2
-dotrajalo	63		2
+doteralo	47		3
+dotrajalo	63		3
 dotuklo	86		2
-dotužilo			2
-dovabilo			2
+dotužilo			3
+dovabilo			3
 dovelo	10450		2
 dovezlo	17		2
-dovodilo	593		2
-dovršilo	24		2
+dovodilo	593		3
+dovršilo	24		3
 dovuklo	16		2
-dozivalo			2
+dozivalo			3
 dozlogrdilo	150		2
-doznalo	100		2
-dozvolilo	574		2
-dozvoljavalo	198		2
-dočaralo	20		2
-dočekalo	932		3
+doznalo	100		3
+dozvolilo	574		3
+dozvoljavalo	198		3
+dočaralo	20		3
+dočekalo	932		4
 dočulo			2
 došaptavalo			2
 došlo	56654		2
-doživelo	878		2
+doživelo	878		3
 dragojlo			2
-dražilo			2
-dremalo	11		2
-drhtalo			2
-drhturilo			2
-drljalo			2
+dražilo			3
+dremalo	11		3
+drhtalo			3
+drhturilo			3
+drljalo			3
 drmalo	13		3
-drndalo			2
-držalo	560		2
-dubilo			2
-dugovalo	65		2
+drndalo			3
+držalo	560		3
+dubilo			3
+dugovalo	65		3
 duplo	10855		2
-duvalo	58		2
-dušilo			2
-dvojilo			2
-džangrizalo			2
-džukelo	16		2
-eksplodiralo	203		2
+duvalo	58		3
+dušilo			3
+dvojilo			3
+džangrizalo			3
+džukelo	16		3
+eksplodiralo	203		3
 emigriralo	70		2
-eskadrilo			2
+eskadrilo			3
 eskaliralo	114		2
-evoluiralo	94		2
+evoluiralo	94		3
 falilo	1712		3
-fasciniralo	203		2
+fasciniralo	203		3
 filo			2
 flertovalo			4
-fokusiralo	47		2
-formiralo	647		2
-forsiralo	13		2
+fokusiralo	47		3
+formiralo	647		3
+forsiralo	13		3
 frulo			2
-funkcionisalo	1377		3
+funkcionisalo	1377		4
 gadilo	46		3
-ganulo	36		2
-garantovalo	184		4
-gasilo	94		2
-gatalo			2
-gavrilo			2
-gazdovalo	41		2
-gađalo	88		2
-gegalo			2
+ganulo	36		3
+garantovalo	184		5
+gasilo	94		3
+gatalo			3
+gavrilo			3
+gazdovalo	41		3
+gađalo	88		3
+gegalo			3
 geslo	384		2
-gibalo			2
+gibalo			3
 ginulo	116		3
 gladilo			3
-glagoljalo			2
+glagoljalo			3
 glancalo			3
-glasalo	3874		2
-glasilo	1631		2
-glačalo	15		2
+glasalo	3874		3
+glasilo	1631		3
+glačalo	15		3
 gledalo	1334		3
-glodalo			2
-glumilo	19		2
-gnječilo			2
+glodalo			3
+glumilo	19		3
+gnječilo			3
 gnjilo	12		2
-godilo	183		2
-golicalo	19		2
+godilo	183		3
+golicalo	19		3
 golo	896		2
-gomilalo	39		2
-gomilo			2
-gonetalo			2
-gonilo	44		2
-gorelo	365		2
-gorilo	18		2
-gorčilo			2
-gostovalo	179		2
-govorilo	5974		2
-govorkalo	107		2
+gomilalo	39		3
+gomilo			3
+gonetalo			3
+gonilo	44		3
+gorelo	365		3
+gorilo	18		3
+gorčilo			3
+gostovalo	179		3
+govorilo	5974		3
+govorkalo	107		3
 grabilo	12		3
-gradilo	620		2
-granalo			2
-graničilo	55		3
+gradilo	620		3
+granalo			3
+graničilo	55		4
 granulo			2
-grdilo	32		2
-grebalo	11		2
-grebuckalo			2
-grejalo	138		2
-grešilo	65		2
+grdilo	32		3
+grebalo	11		3
+grebuckalo			3
+grejalo	138		3
+grešilo	65		3
 grizlo	12		2
 grlilo			3
 grlo	3622		2
-grmelo	101		2
+grmelo	101		3
 grmnulo			2
 grotlo	158		2
-grupisalo			2
-gubilo	246		2
-gudalo	86		2
-gunđalo	50		2
-guralo	115		2
+grupisalo			3
+gubilo	246		3
+gudalo	86		3
+gunđalo	50		3
+guralo	115		3
 gurnulo	110		3
-gutalo	29		2
-gušilo	71		2
+gutalo	29		3
+gušilo	71		3
 halo	117		2
-hapsilo			2
-haralo	11		2
-hladilo	42		2
-hodalo	67		2
-hodilo	16		2
-hrabrilo	16		2
-hranilo	82		2
-hrlilo	16		2
+hapsilo			3
+haralo	11		3
+hladilo	42		3
+hodalo	67		3
+hodilo	16		3
+hrabrilo	16		3
+hranilo	82		3
+hrlilo	16		3
 htelo	1191		2
-hulilo			2
+hulilo			3
 huškalo			3
-hvalilo	47		2
+hvalilo	47		3
 hvalo			2
-hvatalo	47		2
-identifikovalo	81		5
-igalo		M	2
+hvatalo	47		3
+identifikovalo	81		6
+igalo		M	3
 iglo			2
-igralo	2303		2
+igralo	2303		3
 ilustrovalo	26		2
-imalo	18616		2
+imalo	18616		3
 imenovalo	167		5
 imponovalo	68		2
-impresioniralo	142		2
+impresioniralo	142		3
 inficiralo	22		2
 iniciralo	319		2
 inkasiralo	17		2
 inspirisalo	353		2
 interesiralo			2
 interesovalo	1609		2
-iritiralo	140		2
-isailo			2
-isceljivalo			2
-iscepalo			2
-iscijelilo		J	3
+iritiralo	140		3
+isailo			3
+isceljivalo			3
+iscepalo			3
+iscijelilo		J	4
 iscrpelo			2
-iscrpilo	18		2
+iscrpilo	18		3
 iscrplo	17		2
 iscurelo	124		2
-iscurilo	95		2
-iseklo	23		2
-iselilo	278		2
-iseljavalo	22		2
-isflekalo			2
-isisalo			2
-iskazalo	281		2
-iskazivalo	36		2
+iscurilo	95		3
+iseklo	23		3
+iselilo	278		3
+iseljavalo	22		3
+isflekalo			3
+isisalo			3
+iskazalo	281		3
+iskazivalo	36		3
 iskliznulo	22		2
-isključilo	140		2
+isključilo	140		3
 iskomplikovalo	118		2
-iskopalo	11		2
-iskorenilo	33		2
-iskoristilo	605		3
-iskočilo	81		2
-iskrcalo	33		2
+iskopalo	11		3
+iskorenilo	33		3
+iskoristilo	605		4
+iskočilo	81		3
+iskrcalo	33		3
 iskrenulo			2
 iskrsavalo			2
 iskrslo			2
 iskrsnulo			2
-iskupilo	26		2
-iskusilo	83		2
-iskvarilo	16		2
-ispadalo	83		3
-ispalilo	20		2
-ispalo	3582		2
-isparilo	97		2
-ispeklo	19		2
-ispijalo			2
-ispililo	14		2
-ispilo			2
-ispisalo	39		2
-ispitalo	100		2
-ispitivalo	80		2
-isplatilo	1607		2
-isplivalo	158		3
+iskupilo	26		3
+iskusilo	83		3
+iskvarilo	16		3
+ispadalo	83		4
+ispalilo	20		3
+ispalo	3582		3
+isparilo	97		3
+ispeklo	19		3
+ispijalo			3
+ispililo	14		3
+ispilo			3
+ispisalo	39		3
+ispitalo	100		3
+ispitivalo	80		3
+isplatilo	1607		3
+isplivalo	158		4
 ispljunulo			2
-isplovilo	16		2
-ispoljilo	130		2
-isporučilo	54		2
-ispostavilo	9188		3
-ispralo	15		2
-ispratilo	174		3
-ispravilo	65		3
-ispraznilo	42		2
-ispraćalo			2
+isplovilo	16		3
+ispoljilo	130		3
+isporučilo	54		3
+ispostavilo	9188		4
+ispralo	15		3
+ispratilo	174		4
+ispravilo	65		4
+ispraznilo	42		3
+ispraćalo			3
 ispremetalo			2
 ispremeštalo			2
-isprečilo	50		2
-ispričalo	42		2
-ispucalo	28		2
-ispunilo	868		3
-ispunjavalo	194		2
-ispustilo	35		2
-ispuzalo			2
-istaklo	394		2
-istanjilo	14		2
+isprečilo	50		3
+ispričalo	42		3
+ispucalo	28		3
+ispunilo	868		4
+ispunjavalo	194		3
+ispustilo	35		3
+ispuzalo			3
+istaklo	394		3
+istanjilo	14		3
 isteklo	689		2
-isteralo	30		3
-isticalo	230		3
-istopilo	89		2
-istrajalo	30		2
-istražilo	43		2
-istrebilo			2
-istrošilo	27		2
+isteralo	30		4
+isticalo	230		4
+istopilo	89		3
+istrajalo	30		3
+istražilo	43		3
+istrebilo			3
+istrošilo	27		3
 istrulelo			2
-istrulilo	40		2
-istupilo	48		2
-isušilo	19		2
-izabralo	575		2
-izagnalo			2
-izazivalo	505		2
-izazvalo	5976		2
+istrulilo	40		3
+istupilo	48		3
+isušilo	19		3
+izabralo	575		3
+izagnalo			3
+izazivalo	505		3
+izazvalo	5976		3
 izašlo	3925		2
-izbacilo	341		2
-izbacivalo	44		2
-izbavilo	14		3
-izbegavalo	48		2
+izbacilo	341		3
+izbacivalo	44		3
+izbavilo	14		4
+izbegavalo	48		3
 izbeglo	1440		2
 izbezumilo	22		2
-izbijalo	56		2
-izbilo	277		2
+izbijalo	56		3
+izbilo	277		3
 izbledelo	89		2
 izblijedjelo		J	2
-izborilo	134		2
-izbrisalo	87		3
-izdalo	856		2
-izdavalo	101		2
+izborilo	134		3
+izbrisalo	87		4
+izdalo	856		3
+izdavalo	101		3
 izdešavalo	455		2
 izdiglo	45		2
 izdogađalo	62		2
-izdržalo	221		2
-izdržavalo	27		3
-izdužilo			2
-izdvojilo	699		2
+izdržalo	221		3
+izdržavalo	27		4
+izdužilo			3
+izdvojilo	699		3
 izginulo	239		2
-izgladilo	12		2
+izgladilo	12		3
 izgladnelo	30		2
-izglasalo	56		2
-izgledalo	8044		2
-izgonilo			2
+izglasalo	56		3
+izgledalo	8044		3
+izgonilo			3
 izgorelo	659		2
-izgorilo			2
-izgovaralo	50		2
-izgovorilo	38		2
-izgradilo	473		2
-izgrađivalo	13		2
-izgrejalo			2
-izgubilo	2709		2
-izigralo			2
-iziskivalo	228		2
+izgorilo			3
+izgovaralo	50		3
+izgovorilo	38		3
+izgradilo	473		3
+izgrađivalo	13		3
+izgrejalo			3
+izgubilo	2709		3
+izigralo			3
+iziskivalo	228		3
 izišlo	131		2
 izjalovilo	71		2
-izjasnilo	1193		2
-izjavilo	1043		2
-izjedalo	12		2
-izlagalo	119		2
-izlazilo	562		3
+izjasnilo	1193		3
+izjavilo	1043		3
+izjedalo	12		3
+izlagalo	119		3
+izlazilo	562		4
 izleglo	33		2
-izletalo			2
+izletalo			3
 izletelo	155		2
-izletilo			2
-izlečilo	37		2
+izletilo			3
+izlečilo	37		3
 izlijevalo		J	2
-izlilo	101		2
-izlizalo	15		2
-izložilo	192		2
+izlilo	101		3
+izlizalo	15		3
+izložilo	192		3
 izludelo			2
-izludilo			2
+izludilo			3
 izluđivalo	74		2
-izmaklo	279		2
-izmamilo	117		2
-izmenilo	554		2
-izmetalo			2
+izmaklo	279		3
+izmamilo	117		3
+izmenilo	554		3
+izmetalo			3
 izmetnulo			2
-izmešalo	52		2
-izmigoljilo			2
-izmirilo	81		2
-izmislilo	27		3
-izmišljalo			2
+izmešalo	52		3
+izmigoljilo			3
+izmirilo	81		3
+izmislilo	27		4
+izmišljalo			3
 izmoljavalo			2
-izmorilo	17		2
+izmorilo	17		3
 izmršavelo			2
-iznedrilo	140		2
+iznedrilo	140		3
 iznelo	319		2
 iznemoglo	44		2
-iznenadilo	2162		2
-iznenađivalo	21		2
-iznerviralo	272		2
+iznenadilo	2162		3
+iznenađivalo	21		3
+iznerviralo	272		3
 izneverilo	26		2
 izniklo	100		2
-iznosilo	1107		2
-iznudilo	23		3
-izobličilo	17		2
+iznosilo	1107		3
+iznudilo	23		4
+izobličilo	17		3
 izokrenulo	21		2
-izolovalo	17		4
-izopačilo			2
+izolovalo	17		5
+izopačilo			3
 izopijalo			2
-izostalo	692		2
-izostavilo	20		3
-izoštravalo			2
-izoštrilo	10		2
-izradilo	258		2
+izostalo	692		3
+izostavilo	20		4
+izoštravalo			3
+izoštrilo	10		3
+izradilo	258		3
 izraslo	225		2
-izrastalo			2
-izravnilo			2
-izrazilo	588		2
-izrađivalo	19		2
-izražavalo	85		2
-izreklo	110		2
-izređalo			2
-izrodilo	168		2
-izronilo	31		2
-izručilo			2
-izumiralo			3
+izrastalo			3
+izravnilo			3
+izrazilo	588		3
+izrađivalo	19		3
+izražavalo	85		3
+izreklo	110		3
+izređalo			3
+izrodilo	168		3
+izronilo	31		3
+izručilo			3
+izumiralo			4
 izumrlo	88		2
 izučavalo	29		2
-izučilo			2
-izvadilo	45		3
+izučilo			3
+izvadilo	45		4
 izvelo	536		2
-izvestilo	65		2
-izvetrilo			2
-izvijalo			2
-izvikalo			2
-izvinilo	10		2
-izviralo	20		2
+izvestilo	65		3
+izvetrilo			3
+izvijalo			3
+izvikalo			3
+izvinilo	10		3
+izviralo	20		3
 izvirivalo			2
-izvlačilo	22		2
-izvodilo	182		2
+izvlačilo	22		3
+izvodilo	182		3
 izvojevalo	18		2
 izvolelo			2
-izvozilo	151		2
+izvozilo	151		3
 izvrglo			2
 izvrgnulo			2
-izvršavalo	15		3
-izvršilo	850		2
+izvršavalo	15		4
+izvršilo	850		3
 izvuklo	177		2
 išlo	7419		2
 iščekivalo	31		2
@@ -581,1154 +581,1154 @@ iščezlo	83		2
 iščeznulo			2
 iščilelo			2
 jamčilo			3
-jarilo			2
-javilo	1376		2
-javljalo	199		2
-jačalo	70		2
+jarilo			3
+javilo	1376		3
+javljalo	199		3
+jačalo	70		3
 jecalo			3
-jedrilo			2
+jedrilo			3
 jelo	6776		2
-jenjavalo	21		2
-ječalo	10		2
-jurilo	49		2
-jurnulo			2
-kadilo			2
+jenjavalo	21		3
+ječalo	10		3
+jurilo	49		3
+jurnulo			3
+kadilo			3
 kalo	52		2
-kamilo			2
+kamilo			3
 kanalisalo	11		2
-kandilo	360		2
-kanulo	12		2
+kandilo	360		3
+kanulo	12		3
 kapalo	31		3
 kapelo			2
 karamelo			2
 karačolo			2
 karlo			2
-kasnilo	364		2
+kasnilo	364		3
 kastelo			2
-kazalo	224		2
-kazivalo	31		2
+kazalo	224		3
+kazivalo	31		3
 kaznilo	52		3
-kačilo	19		2
-kažnjavalo	53		2
-kefalo		M	2
-kezilo			2
+kačilo	19		3
+kažnjavalo	53		3
+kefalo		M	3
+kezilo			3
 kidalo	40		3
 kilo			2
-kipelo			2
-kirilo			2
+kipelo			3
+kirilo			3
 kiselo	1278		2
 kisnulo			3
 kitilo			3
-kišilo	31		2
+kišilo	31		3
 klalo	29		2
-klatilo	15		2
-klecalo			2
-klepalo	43		2
-klepetalo	16		2
-klevetalo			2
-klečalo	12		2
+klatilo	15		3
+klecalo			3
+klepalo	43		3
+klepetalo	16		3
+klevetalo			3
+klečalo	12		3
 klicalo	57		3
-klijalo	11		2
+klijalo	11		3
 kliknulo	68		3
-kliktalo			2
-klimalo			2
-klizilo	31		2
-kliznulo	13		2
-kljucalo			2
+kliktalo			3
+klimalo			3
+klizilo	31		3
+kliznulo	13		3
+kljucalo			3
 kljucnulo			2
-kljukalo			2
-ključalo	49		2
-klonilo	11		2
+kljukalo			3
+ključalo	49		3
+klonilo	11		3
 klonulo	48		2
-knjavalo			2
-kobilo			2
+knjavalo			3
+kobilo			3
 kolabiralo			2
-kolebalo	11		2
+kolebalo	11		3
 kolo	10626		2
-komešalo			2
-kompromitovalo	43		4
-konačilo			2
+komešalo			3
+kompromitovalo	43		5
+konačilo			3
 konsuelo			2
 kontrolisalo	130		2
-kopalo	64		2
-kopiralo			2
-kopkalo	107		2
-koprcalo			2
-koračalo	17		2
+kopalo	64		3
+kopiralo			3
+kopkalo	107		3
+koprcalo			3
+koračalo	17		3
 korigovalo	23		2
-koristilo	1941		3
-kormilo	759		2
-kosilo	106		2
+koristilo	1941		4
+kormilo	759		3
+kosilo	106		3
 kosnulo	17		2
-kotiralo	12		2
-kovitlalo	13		2
-kočilo	65		2
+kotiralo	12		3
+kovitlalo	13		3
+kočilo	65		3
 koštalo	3337		3
 kralo	266		2
-krasilo	248		2
-kreiralo	108		2
-kreketalo			2
-krenulo	6335		2
-kresalo			2
-kretalo	430		2
+krasilo	248		3
+kreiralo	108		3
+kreketalo			3
+krenulo	6335		3
+kresalo			3
+kretalo	430		3
 krilo	4576		2
-križalo			2
-krmilo			2
-krnjilo			2
-krojilo			2
+križalo			3
+krmilo			3
+krnjilo			3
+krojilo			3
 krpilo	15		3
-krunisalo	14		3
-kružilo	52		2
-krvarilo	31		3
-krčalo			2
-krčilo			2
+krunisalo	14		4
+kružilo	52		3
+krvarilo	31		4
+krčalo			3
+krčilo			3
 krčkalo	21		3
 krčmilo			3
-kršilo	45		2
-krštavalo			2
+kršilo	45		3
+krštavalo			3
 kucalo	162		3
-kuckalo	13		2
+kuckalo	13		3
 kucnulo			3
 kuglo			2
 kulminiralo	463		2
 kulo			2
-kulučilo			2
-kumovalo	72		2
-kunjalo			2
-kupalo	85		2
-kupatilo	5970		2
-kupilo	672		2
-kupovalo	253		2
-kusalo			2
+kulučilo			3
+kumovalo	72		3
+kunjalo			3
+kupalo	85		3
+kupatilo	5970		3
+kupilo	672		3
+kupovalo	253		3
+kusalo			3
 kuvalo	215		3
-kućilo			2
-kvarilo	85		2
+kućilo			3
+kvarilo	85		3
 kvačilo	404		3
-lagalo	105		2
+lagalo	105		3
 lajalo			3
 laknulo	447		2
 lalo	13		2
 laskalo	42		3
 laslo			2
-lebdelo	56		2
-ledilo	28		2
-legalo	24		2
+lebdelo	56		3
+ledilo	28		3
+legalo	24		3
 leglo	2367		2
-lepilo	95		2
-lepršalo			2
-leskalo			2
+lepilo	95		3
+lepršalo			3
+leskalo			3
 letelo			2
-lečilo	99		2
-ležalo	457		2
+lečilo	99		3
+ležalo	457		3
 lilo	100		2
 lipsalo			3
-lizalo	10		2
-ličilo	1143		2
-lišavalo			2
-lišilo	66		2
-ljepilo		J	2
-ljubilo	14		2
-ljutilo	72		2
+lizalo	10		3
+ličilo	1143		3
+lišavalo			3
+lišilo	66		3
+ljepilo		J	3
+ljubilo	14		3
+ljutilo	72		3
 lo		M	1
-lobiralo			2
+lobiralo			3
 lolo			2
-lomilo	100		2
-lovilo	61		2
-ložilo	25		2
-ludilo	3314		2
-lunjalo			2
-lupalo	144		2
-lupetalo	16		2
+lomilo	100		3
+lovilo	61		3
+ložilo	25		3
+ludilo	3314		3
+lunjalo			3
+lupalo	144		3
+lupetalo	16		3
 lupilo	26		3
-lupkalo			2
-lutalo	43		2
-maglilo			2
+lupkalo			3
+lutalo	43		3
+maglilo			3
 maglo			2
-mahalo	60		2
-malaksalo	84		2
+mahalo	60		3
+malaksalo	84		3
 malo	298824		2
-mamilo	49		2
+mamilo	49		3
 manifestovalo	175		2
-manjkalo	211		2
+manjkalo	211		3
 manojlo			2
 marćelo			2
-marširalo	64		2
-masiralo			2
+marširalo	64		3
+masiralo			3
 maslo	341		2
-mastilo	616		2
+mastilo	616		3
 maturiralo	10		2
-mazalo	50		2
-maštalo	41		2
-mekšalo			2
-menjalo	744		2
+mazalo	50		3
+maštalo	41		3
+mekšalo			3
+menjalo	744		3
 merilo	2788		3
 merlo			2
-mešalo	53		2
-meškoljilo			2
-migoljilo			2
-mihailo			2
+mešalo	53		3
+meškoljilo			3
+migoljilo			3
+mihailo			3
 mihajlo			2
-mijailo			2
+mijailo			3
 mikelanđelo			2
 milo	3178		2
 milovalo	22		4
 mimoišlo	50		2
 minulo	158		2
-mirilo	15		2
-mirisalo	315		2
-mirovalo	27		2
+mirilo	15		3
+mirisalo	315		3
+mirovalo	27		3
 mislilo	1926		3
-mlatilo			2
+mlatilo			3
 mlelo			2
-množilo	14		2
+množilo	14		3
 mobilisalo	19		2
-modrilo			2
+modrilo			3
 moglo	65849		2
-molilo	67		2
+molilo	67		3
 molo			2
-momčilo			2
-moralo	7983		2
-motalo	71		2
-motivisalo	399		3
-motovilo	12		2
-motrilo	12		2
-mozgalo			2
-močilo			2
-mračilo			2
-mrdalo	20		2
+momčilo			3
+moralo	7983		3
+motalo	71		3
+motivisalo	399		4
+motovilo	12		3
+motrilo	12		3
+mozgalo			3
+močilo			3
+mračilo			3
+mrdalo	20		3
 mrklo			2
 mrknulo			2
-mrtvilo	145		2
+mrtvilo	145		3
 mrzelo			2
-mrzilo	29		2
+mrzilo	29		3
 mrzlo			2
 mucalo			3
-mucilo			2
+mucilo			3
 muklo	94		2
-muljalo	21		2
-mutilo	39		2
-mutiralo	10		2
+muljalo	21		3
+mutilo	39		3
+mutiralo	10		3
 muziciralo			2
-mučilo	341		2
-nabavilo	118		3
-nabralo	11		2
+mučilo	341		3
+nabavilo	118		4
+nabralo	11		3
 nabreklo	17		2
-nabubrilo			3
-nacrtalo	24		3
-nadahnulo	35		2
-nadalo	43		2
-nadenulo			3
-nadgledalo			2
-nadimalo			3
-nadiralo	11		2
-nadmašilo	93		3
-nadmašivalo			2
-nadmetalo	209		2
+nabubrilo			4
+nacrtalo	24		4
+nadahnulo	35		3
+nadalo	43		3
+nadenulo			4
+nadgledalo			3
+nadimalo			4
+nadiralo	11		3
+nadmašilo	93		4
+nadmašivalo			3
+nadmetalo	209		3
 nadnelo			2
 nadolazilo	10		2
-nadovezalo	48		2
+nadovezalo	48		3
 nadošlo	41		2
 nadraslo			2
-nadrastalo			2
-nadvilo	55		2
-nadvladalo	33		2
+nadrastalo			3
+nadvilo	55		3
+nadvladalo	33		3
 nadvuklo			2
-nadživelo	28		2
-nagazilo			2
-nagađalo	227		2
-naginjalo	15		3
-naglasilo	136		2
+nadživelo	28		3
+nagazilo			3
+nagađalo	227		3
+naginjalo	15		4
+naglasilo	136		3
 naglo	9266		2
-nagnalo	237		2
-nagnjilo			2
+nagnalo	237		3
+nagnjilo			3
 nagomilalo	122		2
-nagonilo			2
-nagovestilo	104		2
-nagoveštavalo	172		2
-nagradilo	87		2
-nagrnulo	14		2
-nagvaždalo		M	2
-nahodilo			2
-nahrupilo			2
-nahvatalo			2
-nailazilo	132		3
+nagonilo			3
+nagovestilo	104		3
+nagoveštavalo	172		3
+nagradilo	87		3
+nagrnulo	14		3
+nagvaždalo		M	3
+nahodilo			3
+nahrupilo			3
+nahvatalo			3
+nailazilo	132		4
 naišlo	717		2
-najavilo	1050		2
+najavilo	1050		3
 nakiselo			2
-naklapalo			2
-nakupilo	418		3
-nalagalo	60		2
-nalazilo	2726		3
-nalepilo			2
+naklapalo			3
+nakupilo	418		4
+nalagalo	60		3
+nalazilo	2726		4
+nalepilo			3
 naletelo	84		2
-nalikovalo	40		4
-naljutilo	206		2
-naložilo	366		2
-namalo			2
-namamilo	11		2
-namenilo	37		2
-nameravalo	43		2
-namerilo			2
-namestilo	149		3
-nametalo	156		2
-nametnulo	483		3
-namnožilo	84		2
-namotalo			2
-namučilo	17		2
+nalikovalo	40		5
+naljutilo	206		3
+naložilo	366		3
+namalo			3
+namamilo	11		3
+namenilo	37		3
+nameravalo	43		3
+namerilo			3
+namestilo	149		4
+nametalo	156		3
+nametnulo	483		4
+namnožilo	84		3
+namotalo			3
+namučilo	17		3
 nanelo	423		2
-nanosilo	35		2
-naoblačilo	59		2
+nanosilo	35		3
+naoblačilo	59		3
 naokolo	1017		4
-napadalo	131		3
-napajalo	20		2
-napalilo	69		2
-napalo	249		2
-napijalo	36		2
-napisalo	221		2
-naplatilo	85		2
+napadalo	131		4
+napajalo	20		3
+napalilo	69		3
+napalo	249		3
+napijalo	36		3
+napisalo	221		3
+naplatilo	85		3
 naplaćivalo	58		2
 naplelo			2
-napravilo	1422		3
-napredovalo	415		4
+napravilo	1422		4
+napredovalo	415		5
 naprslo			2
 napuklo	63		2
-napunilo	152		3
-napustilo	1188		2
-napuštalo	61		2
+napunilo	152		4
+napustilo	1188		3
+napuštalo	61		3
 naraslo	217		2
-narastalo	14		2
-naredilo	97		2
+narastalo	14		3
+naredilo	97		3
 naređivalo	19		2
-naricalo			2
-naručilo	107		2
+naricalo			3
+naručilo	107		3
 narušavalo	42		2
-narušilo	232		2
-naružilo			2
-naselilo	119		2
-naseljavalo	85		2
-naslagalo			2
-nasledilo	72		2
-naslutilo	21		2
-nasmejalo	133		2
-nasmijalo		J	2
-nasrtalo			3
-nastajalo	137		3
-nastalo	373		2
-nastanilo	61		2
-nastavilo	1952		3
-nastavljalo	83		3
-nastojalo	273		3
-nastradalo	321		2
+narušilo	232		3
+naružilo			3
+naselilo	119		3
+naseljavalo	85		3
+naslagalo			3
+nasledilo	72		3
+naslutilo	21		3
+nasmejalo	133		3
+nasmijalo		J	3
+nasrtalo			4
+nastajalo	137		4
+nastalo	373		3
+nastanilo	61		3
+nastavilo	1952		4
+nastavljalo	83		4
+nastojalo	273		4
+nastradalo	321		3
 nastrahovalo			2
-nastupalo	163		2
-nastupilo	1586		2
+nastupalo	163		3
+nastupilo	1586		3
 nataklo			2
 nataložilo	41		2
-natapalo			2
+natapalo			3
 nateklo	19		2
-nateralo	1039		3
+nateralo	1039		4
 naterivalo			2
 natovarilo	11		2
-natrunilo			2
-natuštilo			2
-naudilo	24		3
-naumilo	12		2
-naučilo	620		2
-navalilo	27		2
+natrunilo			3
+natuštilo			3
+naudilo	24		4
+naumilo	12		3
+naučilo	620		3
+navalilo	27		3
 navelo	2411		2
-navijalo	99		2
-navikavalo	10		2
+navijalo	99		3
+navikavalo	10		3
 naviklo	265		2
-naviralo			2
-navlačilo			2
-navodilo	203		2
+naviralo			3
+navlačilo			3
+navodilo	203		3
 navršavalo			2
-navršilo	444		2
+navršilo	444		3
 navuklo	56		2
-nazadovalo	21		4
-naziralo	106		2
-nazivalo	310		2
-nazvalo	192		2
+nazadovalo	21		5
+naziralo	106		3
+nazivalo	310		3
+nazvalo	192		3
 načelo	4339		2
-načinilo	151		2
-načulo	12		2
-naškodilo	87		2
+načinilo	151		3
+načulo	12		3
+naškodilo	87		3
 našlo	4106		2
-naštetilo	34		2
+naštetilo	34		3
 naživelo			2
 nedelo	222		2
 nedoraslo			2
-nedostajalo	2245		3
-nedostalo			2
+nedostajalo	2245		4
+nedostalo			3
 nedozrelo	15		2
-negiralo	75		2
+negiralo	75		3
 negovalo	73		4
-nemalo	249		2
-nemilo	73		2
+nemalo	249		3
+nemilo	73		3
 neodraslo			2
-nerviralo	356		2
-nestajalo	145		3
-nestalo	3920		2
+nerviralo	356		3
+nestajalo	145		4
+nestalo	3920		3
 nesuvislo	153		4
 neumrlo			2
 neuspelo	93		4
-nevaljalo	88		2
+nevaljalo	88		3
 neveselo	86		2
 nezrelo	268		2
 nicalo	24		3
-nihilo			2
+nihilo			3
 niklo	354		2
 nikolo			3
-nimalo	13377		2
+nimalo	13377		3
 nivelisalo			2
-ništavilo	485		2
-njakalo			2
-njihalo	31		2
+ništavilo	485		3
+njakalo			3
+njihalo	31		3
 njuškalo	58		3
 nlo			1
 nominovalo			2
-nosilo	653		2
+nosilo	653		3
 novelo			2
 nudilo	214		3
 nulo			2
 obamrlo	14		2
-obaralo	15		2
-obasipalo			3
-obasjalo	110		2
-obasjavalo	57		2
+obaralo	15		3
+obasipalo			4
+obasjalo	110		3
+obasjavalo	57		3
 obasulo			2
-obavestilo	334		2
-obavezalo	199		2
+obavestilo	334		3
+obavezalo	199		3
 obavezivalo	74		2
-obavijalo			2
-obavilo	420		3
-obavljalo	385		3
+obavijalo			3
+obavilo	420		4
+obavljalo	385		4
 obaziralo	15		2
-obdarilo			2
+obdarilo			3
 obeležavalo	47		2
 obeležilo	1342		2
-obeshrabrilo	148		2
+obeshrabrilo	148		3
 obezbedilo	2507		2
 obezbeđivalo	208		2
-obećalo	170		2
-obećavalo	221		2
-obilazilo	26		3
-obilovalo	52		4
-obistinilo	327		4
-obitavalo	18		2
+obećalo	170		3
+obećavalo	221		3
+obilazilo	26		4
+obilovalo	52		5
+obistinilo	327		5
+obitavalo	18		3
 obišlo	239		2
-objasnilo	292		2
-objavilo	1525		2
-objašnjavalo	64		2
-objedinilo	55		2
-objesilo		J	3
-oblačilo	15		2
-oblikovalo	103		4
-oblilo			2
+objasnilo	292		3
+objavilo	1525		3
+objašnjavalo	64		3
+objedinilo	55		3
+objesilo		J	4
+oblačilo	15		3
+oblikovalo	103		5
+oblilo			3
 oblo			2
-obložilo			2
-obmanjivalo			2
-obmanulo	16		2
-obnavljalo	32		2
-obnovilo	203		2
-obogatilo	167		3
-obogaćivalo			2
+obložilo			3
+obmanjivalo			3
+obmanulo	16		3
+obnavljalo	32		3
+obnovilo	203		3
+obogatilo	167		4
+obogaćivalo			3
 obolelo	760		2
-oborilo	184		2
-obradilo	40		2
-obradovalo	687		4
-obralo			2
+oborilo	184		3
+obradilo	40		3
+obradovalo	687		5
+obralo			3
 obraslo	179		2
-obratilo	546		2
-obrazovalo	83		4
-obraćalo	88		3
-obrađivalo	53		2
+obratilo	546		3
+obrazovalo	83		5
+obraćalo	88		4
+obrađivalo	53		3
 obrelo	27		2
 obremenilo			2
-obrisalo	20		3
-obrnulo	32		2
-obrstilo			2
-obrubilo			2
-obrušilo	68		2
-obuhvatalo	236		3
-obuhvatilo	802		3
+obrisalo	20		4
+obrnulo	32		3
+obrstilo			3
+obrubilo			3
+obrušilo	68		3
+obuhvatalo	236		4
+obuhvatilo	802		4
 obuklo	29		2
-obustavilo	154		3
-obuzdalo	10		2
-obuzdavalo			2
+obustavilo	154		4
+obuzdalo	10		3
+obuzdavalo			3
 obuzelo	138		2
-obuzimalo	32		3
-obznanilo	26		2
-ocedilo			2
-ocenilo	542		2
-ocenjivalo	74		2
-ocilo	20		2
+obuzimalo	32		4
+obznanilo	26		3
+ocedilo			3
+ocenilo	542		3
+ocenjivalo	74		3
+ocilo	20		3
 ocrtavalo	23		2
 odabiralo			2
-odabralo	223		2
-odagnalo			2
+odabralo	223		3
+odagnalo			3
 odahnulo	25		2
-odalo	130		2
-odavalo	93		2
-odazivalo			2
-odazvalo	725		2
-odbacilo	323		2
-odbacivalo	18		2
+odalo	130		3
+odavalo	93		3
+odazivalo			3
+odazvalo	725		3
+odbacilo	323		3
+odbacivalo	18		3
 odbeglo	24		2
-odbijalo	129		2
-odbilo	779		2
-odbranilo	68		2
+odbijalo	129		3
+odbilo	779		3
+odbranilo	68		3
 odelo	3840		2
-odenulo			3
-odgovaralo	2949		2
-odgovorilo	1719		2
+odenulo			4
+odgovaralo	2949		3
+odgovorilo	1719		3
 odgurnulo			2
-odigralo	1024		3
-odisalo	72		2
-odjavilo	30		2
-odjekivalo	101		2
-odjeknulo	185		2
-odlagalo	81		2
+odigralo	1024		4
+odisalo	72		3
+odjavilo	30		3
+odjekivalo	101		3
+odjeknulo	185		3
+odlagalo	81		3
 odlaknulo			2
 odlanulo			2
-odlazilo	496		3
-odlepilo	14		2
-odletelo	66		2
-odležalo	57		2
-odlikovalo	79		4
-odlilo	31		2
-odlomilo			2
-odložilo	155		2
-odlučilo	2375		2
-odlučivalo	602		2
+odlazilo	496		4
+odlepilo	14		3
+odletelo	66		3
+odležalo	57		3
+odlikovalo	79		5
+odlilo	31		3
+odlomilo			3
+odložilo	155		3
+odlučilo	2375		3
+odlučivalo	602		3
 odmaklo	363		2
-odmaralo	38		2
-odmetalo			2
+odmaralo	38		3
+odmetalo			3
 odmetnulo			2
-odmicalo	642		3
-odmoglo	43		2
-odmorilo	16		2
-odmotavalo	15		2
+odmicalo	642		4
+odmoglo	43		3
+odmorilo	16		3
+odmotavalo	15		3
 odnelo	291		2
-odnosilo	1502		2
-odobravalo	32		2
-odobrilo	829		2
-odolelo	43		2
-odolevalo	34		2
+odnosilo	1502		3
+odobravalo	32		3
+odobrilo	829		3
+odolelo	43		3
+odolevalo	34		3
 odomaćilo	82		2
-odradilo	151		2
+odradilo	151		3
 odraslo	344		2
-odrastalo	35		2
-odrazilo	1349		2
-odražavalo	152		2
-odredilo	627		2
-odreklo	123		2
-određivalo	113		2
-odricalo			2
-održalo	1329		2
-održavalo	421		3
-odseklo	12		2
-odselilo	83		2
-odskočilo	40		2
-odslikalo			2
-odspavalo			2
-odstajalo	16		2
-odstranilo	22		2
-odstupalo	25		2
-odstupilo	89		2
-odudaralo	40		3
-odustajalo	60		3
-odustalo	1693		2
-oduvalo	16		2
+odrastalo	35		3
+odrazilo	1349		3
+odražavalo	152		3
+odredilo	627		3
+odreklo	123		3
+određivalo	113		3
+odricalo			3
+održalo	1329		3
+održavalo	421		4
+odseklo	12		3
+odselilo	83		3
+odskočilo	40		3
+odslikalo			3
+odspavalo			3
+odstajalo	16		3
+odstranilo	22		3
+odstupalo	25		3
+odstupilo	89		3
+odudaralo	40		4
+odustajalo	60		4
+odustalo	1693		3
+oduvalo	16		3
 oduzelo	280		2
-oduzimalo	73		3
+oduzimalo	73		4
 oduševilo	516		2
 oduševljavalo	57		2
-odužilo	224		2
-odvajalo	87		2
+odužilo	224		3
+odvajalo	87		3
 odvelo	567		2
 odvezlo	23		2
-odvijalo	969		2
-odvilo	15		2
-odvlačilo	30		2
-odvodilo			2
-odvojilo	219		2
-odvratilo	77		2
+odvijalo	969		3
+odvilo	15		3
+odvlačilo	30		3
+odvodilo			3
+odvojilo	219		3
+odvratilo	77		3
 odvraćalo	16		3
 odvuklo	69		2
-odzvanjalo	120		2
-odzvonilo	277		2
-oformilo	107		2
-ogadilo	26		2
-oglasilo	362		2
+odzvanjalo	120		3
+odzvonilo	277		3
+oformilo	107		3
+ogadilo	26		3
+oglasilo	362		3
 oglašavalo	31		2
-ogledalo	5898		2
-ognjilo	53		2
+ogledalo	5898		3
+ognjilo	53		3
 ogolelo	20		2
 ogorčavalo			2
-ogorčilo	30		2
+ogorčilo	30		3
 ogovaralo			2
-ogradilo	22		2
+ogradilo	22		3
 ogranulo			2
-ograđivalo			2
+ograđivalo			3
 ogreblo			2
-ogrejalo	87		3
+ogrejalo	87		4
 ogrezlo	89		2
 ogrubelo			2
-ohladilo	61		2
+ohladilo	61		3
 ohladnelo			2
 oholo	170		3
-ohrabrilo	256		2
-ojadilo	17		2
-ojačalo	345		2
+ohrabrilo	256		3
+ojadilo	17		3
+ojačalo	345		3
 okamenilo	12		2
-okitilo	24		3
-okivalo			2
-oklevalo	33		2
+okitilo	24		4
+okivalo			3
+oklevalo	33		3
 okolo	5016		3
-okomilo	13		2
-okončalo	212		2
+okomilo	13		3
+okončalo	212		3
 okorelo	21		2
-okrenulo	391		2
-okrepilo	11		2
-okretalo	69		2
+okrenulo	391		3
+okrepilo	11		3
+okretalo	69		3
 okruglo	784		2
 okružavalo			2
-okružilo	25		2
-okruživalo	54		2
+okružilo	25		3
+okruživalo	54		3
 okrznulo	10		2
-okupalo	18		2
-okupilo	3394		3
+okupalo	18		3
+okupilo	3394		4
 okupiralo	71		2
-okupljalo	163		2
-okusilo			3
-olabavilo			4
-olakšalo	1026		2
-olakšavalo	64		2
-oličavalo			2
-oljuštilo			2
+okupljalo	163		3
+okusilo			4
+olabavilo			5
+olakšalo	1026		3
+olakšavalo	64		3
+oličavalo			3
+oljuštilo			3
 omaklo	301		2
-omašilo			2
-omekšalo	32		2
+omašilo			3
+omekšalo	32		3
 omelo	364		2
-ometalo	135		2
+ometalo	135		3
 omilelo			2
 omlitavelo			2
-omogućavalo	384		2
-omogućilo	6351		2
+omogućavalo	384		3
+omogućilo	6351		3
 omrznulo			2
 omršavelo			2
-onemogućilo	458		2
+onemogućilo	458		3
 onemoćalo	10		2
-onesposobilo	10		2
+onesposobilo	10		3
 onesvestilo	13		2
-opadalo	45		3
-opalilo	28		2
-opalo	424		2
+opadalo	45		4
+opalilo	28		3
+opalo	424		3
 opametilo	23		2
-opazilo	14		3
-opažalo	11		2
-opeklo	20		2
+opazilo	14		4
+opažalo	11		3
+opeklo	20		3
 opelo	632		2
-opevalo			2
-opilo	14		2
-opipavalo			2
-opiralo	30		2
-opisalo	89		2
-opkolilo	43		2
-opljačkalo	25		3
-oplodilo			2
-opomenulo			2
-oporavilo	107		3
-opralo	31		2
+opevalo			3
+opilo	14		3
+opipavalo			3
+opiralo	30		3
+opisalo	89		3
+opkolilo	43		3
+opljačkalo	25		4
+oplodilo			3
+opomenulo			3
+oporavilo	107		4
+opralo	31		3
 opravdalo	252		3
-opredelilo	707		2
-oprostilo	71		2
-opružilo			2
-opsedalo	14		2
-opstajalo	51		2
-opstalo	306		2
-opteretilo	154		3
-optiralo			2
-optužilo	207		2
-optuživalo	16		2
+opredelilo	707		3
+oprostilo	71		3
+opružilo			3
+opsedalo	14		3
+opstajalo	51		3
+opstalo	306		3
+opteretilo	154		4
+optiralo			3
+optužilo	207		3
+optuživalo	16		3
 opustelo	70		2
-opustilo	55		2
+opustilo	55		3
 opustošilo			2
-opčinilo	21		2
-oralo	18		2
+opčinilo	21		3
+oralo	18		3
 oraspoložilo	20		2
-orilo	127		2
+orilo	127		3
 oronulo	78		2
-orosilo			2
+orosilo			3
 orođavalo			2
-osakatilo	14		3
+osakatilo	14		4
 osedelo			2
-osetilo	696		2
-osećalo	417		3
-osiguralo	734		2
-osililo			2
-osiromašilo	29		3
+osetilo	696		3
+osećalo	417		4
+osiguralo	734		3
+osililo			3
+osiromašilo	29		4
 osirotelo			2
-oskrnavilo			3
-oslabelo			3
-oslabilo	273		3
-osladilo	75		2
-oslanjalo	67		3
-oslepilo			2
-oslikalo	22		2
-oslobađalo	27		2
-oslobodilo	393		2
-osmatralo			2
-osmislilo	102		2
-osnažilo	60		2
-osnivalo	18		2
-osnovalo	418		2
-osporavalo	21		2
-osporilo	56		2
-osramotilo			2
-ostajalo	512		3
+oskrnavilo			4
+oslabelo			4
+oslabilo	273		4
+osladilo	75		3
+oslanjalo	67		4
+oslepilo			3
+oslikalo	22		3
+oslobađalo	27		3
+oslobodilo	393		3
+osmatralo			3
+osmislilo	102		3
+osnažilo	60		3
+osnivalo	18		3
+osnovalo	418		3
+osporavalo	21		3
+osporilo	56		3
+osramotilo			3
+ostajalo	512		4
 ostalo	18900		2
 ostanulo			2
 ostarelo	55		2
-ostarilo	37		2
-ostavilo	1930		3
-ostavljalo	175		3
-ostvarilo	2033		2
-osudilo	372		2
+ostarilo	37		3
+ostavilo	1930		4
+ostavljalo	175		4
+ostvarilo	2033		3
+osudilo	372		3
 osujetilo	38		2
 osulo	24		2
-osunčalo			2
-osuđivalo	27		2
-osušilo	142		2
-osvajalo	67		2
-osvanulo	278		2
-osvetilo	135		2
-osvetlilo	28		2
-osvećivalo			2
-osvežilo	34		3
-osvitalo			2
-osvojilo	664		2
-osvrtalo			2
-otapalo	10		2
+osunčalo			3
+osuđivalo	27		3
+osušilo	142		3
+osvajalo	67		3
+osvanulo	278		3
+osvetilo	135		3
+osvetlilo	28		3
+osvećivalo			3
+osvežilo	34		4
+osvitalo			3
+osvojilo	664		3
+osvrtalo			3
+otapalo	10		3
 otcijepilo		J	2
 oteglo	103		2
 oteklo	62		2
 otelo	287		2
-oteralo	126		3
-otežalo	353		2
+oteralo	126		4
+otežalo	353		3
 otežavalo	212		2
-otimalo	47		3
+otimalo	47		4
 otisnulo	24		2
 otišlo	5373		2
-otkazalo	120		2
-otkačilo	22		2
-otkinulo	15		3
-otklonilo	119		2
-otkopčalo			2
-otkravilo			2
-otkrilo	1324		2
-otkrivalo	59		2
-otkucalo	30		2
-otkupilo	124		2
-otopilo	38		2
-otoplilo	57		2
-otpadalo	77		3
-otpalo	224		2
-otpevalo	34		2
+otkazalo	120		3
+otkačilo	22		3
+otkinulo	15		4
+otklonilo	119		3
+otkopčalo			3
+otkravilo			3
+otkrilo	1324		3
+otkrivalo	59		3
+otkucalo	30		3
+otkupilo	124		3
+otopilo	38		3
+otoplilo	57		3
+otpadalo	77		4
+otpalo	224		3
+otpevalo	34		3
 otpozdravilo			2
 otpočelo	758		2
-otpustilo	25		2
+otpustilo	25		3
 otrglo	53		2
-otrovalo	61		2
-otrčalo	12		2
-otupilo	15		2
-otuđivalo			2
-otvaralo	142		2
-otvorilo	2062		2
+otrovalo	61		3
+otrčalo	12		3
+otupilo	15		3
+otuđivalo			3
+otvaralo	142		3
+otvorilo	2062		3
 otvrdlo			2
 otvrdnulo			2
-ovaplotilo			2
-overilo	25		3
-ovladalo	110		2
-ovlažilo			2
-ozarilo	47		2
-ozdravilo	41		2
+ovaplotilo			3
+overilo	25		4
+ovladalo	110		3
+ovlažilo			3
+ozarilo	47		3
+ozdravilo	41		3
 ozeblo			2
-ozledilo			2
+ozledilo			3
 ozlojedilo	12		2
-označavalo	182		2
-označilo	491		2
+označavalo	182		3
+označilo	491		3
 ozvaničilo	30		2
-očaralo	43		2
-očaravalo			2
-očekivalo	4947		2
-očeličilo			3
-očistilo	99		3
+očaralo	43		3
+očaravalo			3
+očekivalo	4947		3
+očeličilo			4
+očistilo	99		4
 očitavalo	12		2
-očitovalo	27		4
-očuvalo	212		2
+očitovalo	27		5
+očuvalo	212		3
 očvrslo			2
 ošamutilo	14		2
-oštetilo	182		3
-oštrilo			2
+oštetilo	182		4
+oštrilo			3
 ožalostilo			2
-oživelo	185		2
-oživljavalo			2
+oživelo	185		3
+oživljavalo			3
 pablo			2
 padalo	1420		3
 paklo			2
 pakovalo	14		4
-palilo	218		2
+palilo	218		3
 palo	8136		2
 pamtilo	45		3
 paolo			3
 paralisalo	41		2
-pariralo	25		2
+pariralo	25		3
 pasalo	20		2
 paslo	29		2
 patilo	99		3
 paulo			2
 pavlo			2
 pazilo	98		3
-peckalo	16		2
-peglalo			2
+peckalo	16		3
+peglalo			3
 peglo			2
 peklo	170		2
-penjalo	25		2
-penkalo			2
-perilo		M	2
+penjalo	25		3
+penkalo			3
+perilo		M	3
 pevalo	528		3
 pevelo			2
 picajzlo			2
 pikolo			3
 pilo	473		2
-pirilo			2
-pisalo	6152		2
-piskaralo	93		2
-pitalo	249		2
-piškilo	19		2
-pištalo	125		2
+pirilo			3
+pisalo	6152		3
+piskaralo	93		3
+pitalo	249		3
+piškilo	19		3
+pištalo	125		3
 plakalo	197		3
 plamtelo	12		2
-planiralo	261		2
-planulo	59		2
-plasiralo	219		2
-platilo	519		2
-plavetnilo	385		2
-plavilo	43		2
-plaćalo	522		2
+planiralo	261		3
+planulo	59		3
+plasiralo	219		3
+platilo	519		3
+plavetnilo	385		3
+plavilo	43		3
+plaćalo	522		3
 plašilo	134		3
 plelo	10		2
-plenilo	21		2
-plesalo	115		2
+plenilo	21		3
+plesalo	115		3
 plivalo	114		3
 pljačkalo	34		3
 pljeskalo			3
 pljesnulo			2
 pljuvalo	27		3
-pljuštalo	21		2
+pljuštalo	21		3
 plo			1
-plodilo			2
-plovilo	467		2
-plutalo	26		2
-pobedilo	358		2
-pobeglo	388		2
+plodilo			3
+plovilo	467		3
+plutalo	26		3
+pobedilo	358		3
+pobeglo	388		3
 pobesnelo	16		2
-pobeđivalo	19		2
-pobilo	37		2
-pobledelo	10		2
-poboljšalo	683		2
+pobeđivalo	19		3
+pobilo	37		3
+pobledelo	10		3
+poboljšalo	683		3
 pobrinulo	65		2
-pobrkalo	33		2
-pobudilo	150		2
-pobunilo	73		2
-pobuđivalo	15		2
-pocepalo	29		2
+pobrkalo	33		3
+pobudilo	150		3
+pobunilo	73		3
+pobuđivalo	15		3
+pocepalo	29		3
 pocrnelo	15		2
 pocrnjelo			2
 pocrvenelo	22		2
 pocrvenilo			2
-podarilo	56		2
-podavalo			2
-podavilo			2
+podarilo	56		3
+podavalo			3
+podavilo			3
 podbuhlo			2
 podbulo			2
 podebelo			2
-podelilo	342		2
-podgrejalo	60		3
-podgrevalo	12		2
-podiglo	1349		2
-podivljalo	17		2
-podizalo	69		3
-podlegalo	17		2
+podelilo	342		3
+podgrejalo	60		4
+podgrevalo	12		3
+podiglo	1349		3
+podivljalo	17		3
+podizalo	69		4
+podlegalo	17		3
 podleglo	74		2
 podlo	283		2
-podmetalo	13		3
-podmetnulo	11		3
+podmetalo	13		4
+podmetnulo	11		4
 podmuklo	487		2
 podnelo	1376		2
-podnosilo	45		2
-podrazumevalo	1484		2
-podredilo			2
-podrivalo	10		2
-podržalo	1789		2
-podržavalo	157		3
-podsetilo	644		3
-podsećalo	294		3
-podskočilo			2
+podnosilo	45		3
+podrazumevalo	1484		3
+podredilo			3
+podrivalo	10		3
+podržalo	1789		3
+podržavalo	157		4
+podsetilo	644		4
+podsećalo	294		4
+podskočilo			3
 podstaklo	1154		2
-podsticalo	123		3
-podudaralo	36		3
-podudarilo	52		3
+podsticalo	123		4
+podudaralo	36		4
+podudarilo	52		4
 podupiralo	13		2
-podučavalo			2
-podvlačilo	15		2
-podvrglo	31		2
-pogasilo			2
-pogađalo	94		2
+podučavalo			3
+podvlačilo	15		3
+podvrglo	31		3
+pogasilo			3
+pogađalo	94		3
 poginulo	6339		2
-pogledalo	293		3
-pogodilo	1203		2
+pogledalo	293		4
+pogodilo	1203		3
 pogodovalo	218		2
-pogoršalo	706		2
+pogoršalo	706		3
 pogoršavalo	118		2
 pogospodilo			2
-pogrešilo	106		2
-pogubilo	15		2
-pohađalo	486		2
-pohodilo	22		2
-pohvalilo	38		2
+pogrešilo	106		3
+pogubilo	15		3
+pohađalo	486		3
+pohodilo	22		3
+pohvalilo	38		3
 pohvalo			3
-poigralo			2
+poigralo			3
 poigravalo	14		2
-pojalo			2
-pojasnilo	22		2
-pojavilo	3153		2
-pojavljivalo	206		2
-pojačalo	1955		2
-pojačavalo	68		2
-pojednostavilo	54		2
+pojalo			3
+pojasnilo	22		3
+pojavilo	3153		3
+pojavljivalo	206		3
+pojačalo	1955		3
+pojačavalo	68		3
+pojednostavilo	54		3
 pojeftinilo	224		2
-pojelo	196		2
-pojilo	70		2
-pojmilo			2
-pojurilo	14		2
-pokajalo			2
-pokazalo	22961		2
-pokazivalo	264		2
-pokidalo	17		3
+pojelo	196		3
+pojilo	70		3
+pojmilo			3
+pojurilo	14		3
+pokajalo			3
+pokazalo	22961		3
+pokazivalo	264		3
+pokidalo	17		4
 pokislo	32		2
-poklanjalo	52		3
-poklapalo	72		2
-poklonilo	209		2
-poklopilo	424		2
+poklanjalo	52		4
+poklapalo	72		3
+poklonilo	209		3
+poklopilo	424		3
 pokolebalo	175		2
-pokoravalo			2
-pokrenulo	2251		2
-pokretalo	85		3
-pokrilo	161		2
-pokrivalo	143		2
-pokucalo			2
-pokuljalo	15		2
+pokoravalo			3
+pokrenulo	2251		3
+pokretalo	85		4
+pokrilo	161		3
+pokrivalo	143		3
+pokucalo			3
+pokuljalo	15		3
 pokupilo	42		3
-pokušalo	977		3
-pokušavalo	316		2
-pokvarilo	398		2
-pokvasilo			3
-polagalo	210		2
-polazilo	609		3
+pokušalo	977		4
+pokušavalo	316		3
+pokvarilo	398		3
+pokvasilo			4
+polagalo	210		3
+polazilo	609		4
 poleglo	23		2
 polemisalo	117		2
-poletelo	85		2
-poliralo			2
-polivalo			2
-poljubilo			2
-poljuljalo	73		2
+poletelo	85		3
+poliralo			3
+polivalo			3
+poljubilo			3
+poljuljalo	73		3
 polo	470		2
-polomilo	72		2
-položilo	459		2
+polomilo	72		3
+položilo	459		3
 poludelo	38		2
 polusvetlo			2
-polučilo			2
-pomagalo	825		2
+polučilo			3
+pomagalo	825		3
 pomahnitalo	72		2
-pomaklo	35		2
-pomaknulo			2
-pomaljalo	25		2
-pomalo	22419		2
-pomazalo			3
+pomaklo	35		3
+pomaknulo			3
+pomaljalo	25		3
+pomalo	22419		3
+pomazalo			4
 pomazivalo			2
-pomelo	17		2
+pomelo	17		3
 pomenulo	92		2
-pomeralo	55		2
-pomerilo	292		2
-pomešalo	78		2
-pomilovalo	10		4
-pominjalo	291		2
-pomiralo			2
-pomislilo	152		3
-pomišljalo	57		2
+pomeralo	55		3
+pomerilo	292		3
+pomešalo	78		3
+pomilovalo	10		5
+pominjalo	291		3
+pomiralo			3
+pomislilo	152		4
+pomišljalo	57		3
 pomodrelo	15		2
 pomoglo	6024		2
-pomolilo	17		2
-pomračilo	31		2
+pomolilo	17		3
+pomračilo	31		3
 pomrlo	68		2
-pomrčalo			2
-pomutilo	48		2
-ponavljalo	239		2
-ponašalo	129		2
+pomrčalo			3
+pomutilo	48		3
+ponavljalo	239		3
+ponašalo	129		3
 ponelo	242		2
-ponestajalo	54		3
-ponestalo	555		2
+ponestajalo	54		4
+ponestalo	555		3
 poniklo	69		2
-ponizilo	26		2
-poništilo	142		3
-ponižavalo	11		2
-ponosilo			2
-ponovilo	772		2
-ponudilo	528		3
-ponukalo	82		3
+ponizilo	26		3
+poništilo	142		4
+ponižavalo	11		3
+ponosilo			3
+ponovilo	772		3
+ponudilo	528		4
+ponukalo	82		4
 poodmaklo	49		2
-pooštrilo	14		2
-popadalo	46		2
-popalo			2
+pooštrilo	14		3
+popadalo	46		3
+popalo			3
 popelo	129		2
-popilo	144		2
-popisalo	16		2
-poplavilo	29		2
-poplašilo			3
-popravilo	674		3
-poprimalo	29		2
-poprimilo	250		2
-popunilo	120		3
-popunjavalo	22		2
-popustilo	95		2
-popuštalo	22		2
-poradilo	40		2
+popilo	144		3
+popisalo	16		3
+poplavilo	29		3
+poplašilo			4
+popravilo	674		4
+poprimalo	29		3
+poprimilo	250		3
+popunilo	120		4
+popunjavalo	22		3
+popustilo	95		3
+popuštalo	22		3
+poradilo	40		3
 poraslo	879		2
-poravnalo	13		2
+poravnalo	13		3
 porazbijalo			2
-porazilo	60		2
-porađalo			2
+porazilo	60		3
+porađalo			3
 poražavalo			2
 poreklo	9844		2
-poremetilo	387		3
-poricalo	16		2
-porodilo	50		2
+poremetilo	387		4
+poricalo	16		3
+porodilo	50		3
 porumenelo			2
-poručilo	105		2
-poručivalo	30		2
-porušilo	13		3
-posadilo	20		2
-posedovalo	130		4
+poručilo	105		3
+poručivalo	30		3
+porušilo	13		4
+posadilo	20		3
+posedovalo	130		5
 poseglo	36		2
-posejalo	13		2
-poseklo	12		2
+posejalo	13		3
+poseklo	12		3
 poselo	142		2
-posetilo	1860		3
-posezalo	18		2
-posećivalo	73		2
-posisalo			2
+posetilo	1860		4
+posezalo	18		3
+posećivalo	73		3
+posisalo			3
 posivelo			2
-poskočilo	28		2
+poskočilo	28		3
 poskupelo	915		2
-poslalo	753		2
-poslovalo	452		2
-posložilo			2
-poslušalo	51		3
-poslužilo	932		2
-posluživalo			2
-posmatralo	372		2
-pospešilo	96		2
-posramilo			2
-posrećilo	317		2
+poslalo	753		3
+poslovalo	452		3
+posložilo			3
+poslušalo	51		4
+poslužilo	932		3
+posluživalo			3
+posmatralo	372		3
+pospešilo	96		3
+posramilo			3
+posrećilo	317		3
 posrnulo	76		2
-posrtalo			3
-postajalo	584		2
-postalo	14998		2
-postaralo			2
-postavilo	1442		3
-postavljalo	556		3
-postiglo	1496		2
-postizalo	57		3
-postojalo	4473		3
-postradalo	62		2
-postupalo	273		2
-postupilo	187		2
-posumnjalo	85		2
-posvadilo			2
-posvetilo	148		2
-potaklo	76		2
-potaknulo	47		2
+posrtalo			4
+postajalo	584		3
+postalo	14998		3
+postaralo			3
+postavilo	1442		4
+postavljalo	556		4
+postiglo	1496		3
+postizalo	57		4
+postojalo	4473		4
+postradalo	62		3
+postupalo	273		3
+postupilo	187		3
+posumnjalo	85		3
+posvadilo			3
+posvetilo	148		3
+potaklo	76		3
+potaknulo	47		3
 potamnelo	37		2
 potamnjelo			2
-potapalo			2
+potapalo			3
 poteglo	24		2
 poteklo	447		2
-poteralo	24		2
-potezalo	20		2
-poticalo	88		3
+poteralo	24		3
+potezalo	20		3
+poticalo	88		4
 potiskivalo	13		2
 potisnulo	80		2
-potkopalo	49		2
-potkralo	38		2
-potkrepilo	35		2
+potkopalo	49		3
+potkralo	38		3
+potkrepilo	35		3
 potmulo	114		2
 potonulo	129		2
-potopilo	39		2
-potpalo	51		2
-potpisalo	1796		2
+potopilo	39		3
+potpalo	51		3
+potpisalo	1796		3
 potpomoglo	41		2
-potrajalo	708		3
-potražilo	140		2
-potrefilo	112		3
-potresalo	34		2
+potrajalo	708		4
+potražilo	140		3
+potrefilo	112		4
+potresalo	34		3
 potreslo	244		2
-potrkalo			2
-potrošilo	346		2
-potrčalo	21		2
-potucalo			2
-poturalo			2
-potvrdilo	2577		2
+potrkalo			3
+potrošilo	346		3
+potrčalo	21		3
+potucalo			3
+poturalo			3
+potvrdilo	2577		3
 poumiralo			2
 poustajalo			2
-poučilo	16		2
-povelo	102		2
-poverilo	91		3
-poverovalo	84		4
-povezalo	167		2
-povezivalo	107		2
-povećalo	1429		2
-povećavalo	162		2
-povlačilo	132		2
-povratilo	196		2
-povraćalo	45		3
-povredilo	283		2
-povređivalo	10		2
+poučilo	16		3
+povelo	102		3
+poverilo	91		4
+poverovalo	84		5
+povezalo	167		3
+povezivalo	107		3
+povećalo	1429		3
+povećavalo	162		3
+povlačilo	132		3
+povratilo	196		3
+povraćalo	45		4
+povredilo	283		3
+povređivalo	10		3
 povuklo	595		2
 pozabavilo	27		2
-pozajmilo	21		2
-pozdravilo	203		3
+pozajmilo	21		3
+pozdravilo	203		4
 pozelenelo			2
-pozivalo	126		2
-pozlatilo	18		2
-pozledilo			2
-pozlilo	772		2
-poznalo	23		2
-poznavalo	72		2
-pozvalo	715		2
+pozivalo	126		3
+pozlatilo	18		3
+pozledilo			3
+pozlilo	772		3
+poznalo	23		3
+poznavalo	72		3
+pozvalo	715		3
 počelo	20427		2
-počinilo	146		2
-počinjalo	303		3
-počistilo			3
-počivalo	125		2
+počinilo	146		3
+počinjalo	303		4
+počistilo			4
+počivalo	125		3
 pošlo	3299		2
-poštedelo	28		2
-poštovalo	191		2
-požalilo	69		2
-poželelo	90		2
-požurilo	40		2
+poštedelo	28		3
+poštovalo	191		3
+požalilo	69		3
+poželelo	90		3
+požurilo	40		3
 požurivalo			2
 požutelo	42		2
 pralo	28		2
@@ -1737,1677 +1737,1677 @@ pravdalo	49		3
 pravilo	14983		3
 praznovalo	14		4
 praćaknulo			2
-prašilo			2
-praštalo	53		2
-prebacilo	140		2
+prašilo			3
+praštalo	53		3
+prebacilo	140		3
 prebeglo	56		2
 prebelo			2
-prebilo			2
-prebivalo			2
-predalo	382		2
-predavalo	74		2
+prebilo			3
+prebivalo			3
+predalo	382		3
+predavalo	74		3
 predebelo			2
-predjelo		M	2
-predlagalo	94		2
-predložilo	868		2
-prednjačilo	21		2
-predočavalo			2
-predočilo	59		2
-predskazalo			2
-predstavljalo	4234		3
+predjelo		M	3
+predlagalo	94		3
+predložilo	868		3
+prednjačilo	21		3
+predočavalo			3
+predočilo	59		3
+predskazalo			3
+predstavljalo	4234		4
 preduzelo	332		2
 preduzimalo	64		2
-predvidelo	179		3
-predviđalo	181		2
-predvodilo	20		2
-pregazilo	369		2
+predvidelo	179		4
+predviđalo	181		3
+predvodilo	20		3
+pregazilo	369		3
 pregorelo	32		2
-pregrejalo			3
-prehladilo	10		2
+pregrejalo			4
+prehladilo	10		3
 preinačilo	24		2
-prekidalo	56		2
-prekinulo	342		3
-prekipelo	218		2
+prekidalo	56		3
+prekinulo	342		4
+prekipelo	218		3
 prekisnulo			2
-preklapalo			2
-prekrilo	65		2
-prekrivalo	37		2
-prekršilo	102		2
-prelazilo	299		3
-preletalo			2
-preletelo	17		2
-prelilo	140		2
-prelivalo			2
+preklapalo			3
+prekrilo	65		3
+prekrivalo	37		3
+prekršilo	102		3
+prelazilo	299		4
+preletalo			3
+preletelo	17		3
+prelilo	140		3
+prelivalo			3
 prelo	306		2
-prelomilo	149		2
+prelomilo	149		3
 premalo	81		3
-premašilo	163		3
-premestilo	28		2
+premašilo	163		4
+premestilo	28		3
 premetnulo			2
 preminulo	265		2
-premislilo			2
-prenaglilo			2
+premislilo			3
+prenaglilo			3
 prenaglo			2
 prenelo	382		2
 prenemagalo			2
-prenosilo	192		2
-prenoćilo	20		2
+prenosilo	192		3
+prenoćilo	20		3
 preobratilo	17		2
-preokrenulo	148		2
-preoralo			2
-preostajalo	70		3
-preostalo	3564		2
+preokrenulo	148		3
+preoralo			3
+preostajalo	70		4
+preostalo	3564		3
 preotelo			2
-prepalo	16		2
-prepiralo			3
-prepisalo	12		2
+prepalo	16		3
+prepiralo			4
+prepisalo	12		3
 preplanulo	44		2
-preplavilo	98		2
-preplašilo	11		3
-preplitalo			2
-preplivalo			3
-preporučivalo	48		2
-prepoznalo	413		2
-prepričavalo	43		2
+preplavilo	98		3
+preplašilo	11		4
+preplitalo			3
+preplivalo			4
+preporučivalo	48		3
+prepoznalo	413		3
+prepričavalo	43		3
 prepuklo	53		2
 prepuknulo			2
-prepunilo	12		2
-prepustilo	70		2
-prepuštalo	14		2
+prepunilo	12		3
+prepustilo	70		3
+prepuštalo	14		3
 preraslo	620		2
-prerastalo	21		2
-prerezalo			3
+prerastalo	21		3
+prerezalo			4
 presahlo	18		2
-presecalo	10		2
-preseklo	76		2
-preselilo	236		2
+presecalo	10		3
+preseklo	76		3
+preselilo	236		3
 preselo			2
-presipalo			2
-preskakalo			2
-preskočilo	48		2
+presipalo			3
+preskakalo			3
+preskočilo	48		3
 presmelo			2
-presrelo	13		2
-prestajalo	113		3
-prestalo	1780		2
+presrelo	13		3
+prestajalo	113		4
+prestalo	1780		3
 prestarelo			2
-prestiglo	13		2
-prestravilo			2
-prestrašilo			3
-presudilo	460		2
-presušilo	83		2
+prestiglo	13		3
+prestravilo			3
+prestrašilo			4
+presudilo	460		3
+presušilo	83		3
 presvetlo	12		2
 preteglo			2
 preteklo	143		2
-preteralo	104		3
-preterivalo	41		2
-prethodilo	1027		2
-preticalo			2
-pretilo	480		2
+preteralo	104		4
+preterivalo	41		3
+prethodilo	1027		3
+preticalo			3
+pretilo	480		3
 pretkolo			3
-pretopilo	11		2
+pretopilo	11		3
 pretoplo	111		2
-pretpostavljalo	594		3
-pretražilo			2
-pretresalo	10		2
+pretpostavljalo	594		4
+pretražilo			3
+pretresalo	10		3
 pretreslo	10		2
-pretrpelo	368		2
-preturilo			2
-pretvaralo	99		2
-pretvorilo	1415		2
+pretrpelo	368		3
+preturilo			3
+pretvaralo	99		3
+pretvorilo	1415		3
 preuzelo	793		2
-preuzimalo	26		3
-prevagnulo	186		2
-prevalilo	33		2
-prevarilo	73		3
+preuzimalo	26		4
+prevagnulo	186		3
+prevalilo	33		3
+prevarilo	73		4
 prevazišlo	282		2
 prevelo	63		2
 prevezlo	26		2
 previdelo	23		2
-previralo			2
-previđalo			2
-prevladalo	109		2
-prevladavalo	13		2
-prevodilo	39		2
-prevozilo	69		2
+previralo			3
+previđalo			3
+prevladalo	109		3
+prevladavalo	13		3
+prevodilo	39		3
+prevozilo	69		3
 prevrelo			2
-prevrnulo	71		2
-prevršilo	204		2
+prevrnulo	71		3
+prevršilo	204		3
 prezalo	10		3
-preziralo			3
+preziralo			4
 prezrelo	35		2
 prešlo	2470		2
 preživelo	747		2
-pribavilo	66		3
+pribavilo	66		4
 pribegavalo	51		2
 pribeglo	116		2
-približavalo	113		2
-približilo	314		2
-pridavalo	40		2
-pridobilo	28		2
-pridremalo			2
-pridružilo	522		2
-prigovaralo			2
-prigrlilo	10		2
-prigustilo	17		2
-prigušilo	10		2
-prihvatalo	68		2
-prihvatilo	1486		3
-prijalo	894		2
-prijavilo	2997		2
-prikazalo	212		2
-prikazivalo	82		2
-priklapalo			2
-priključilo	271		2
-priklonilo	24		2
-prikovalo	10		2
-prikrilo	67		2
-prikrivalo	38		2
-prikucalo			2
-prikupilo	183		3
-prikupljalo	44		2
-prilagođavalo	30		2
-prilazilo	75		3
-prilepilo			2
-priličilo	77		3
-priljubilo			2
-priložilo	27		2
-primaklo	40		2
-primaknulo			2
-primalo	214		2
-primetilo	292		2
-primećivalo	109		2
-primicalo	25		3
-primilo	890		2
-primirilo	42		2
-primoralo	249		2
+približavalo	113		3
+približilo	314		3
+pridavalo	40		3
+pridobilo	28		3
+pridremalo			3
+pridružilo	522		3
+prigovaralo			3
+prigrlilo	10		3
+prigustilo	17		3
+prigušilo	10		3
+prihvatalo	68		3
+prihvatilo	1486		4
+prijalo	894		3
+prijavilo	2997		3
+prikazalo	212		3
+prikazivalo	82		3
+priklapalo			3
+priključilo	271		3
+priklonilo	24		3
+prikovalo	10		3
+prikrilo	67		3
+prikrivalo	38		3
+prikucalo			3
+prikupilo	183		4
+prikupljalo	44		3
+prilagođavalo	30		3
+prilazilo	75		4
+prilepilo			3
+priličilo	77		4
+priljubilo			3
+priložilo	27		3
+primaklo	40		3
+primaknulo			3
+primalo	214		3
+primetilo	292		3
+primećivalo	109		3
+primicalo	25		4
+primilo	890		3
+primirilo	42		3
+primoralo	249		3
 prinelo	10		2
-prinosilo	11		2
-prinudilo	32		2
+prinosilo	11		3
+prinudilo	32		3
 prionulo	26		2
-pripadalo	913		3
-pripalo	4048		2
-pripekalo			2
-pripeklo	18		2
-pripisalo	31		2
-pripojilo	12		2
+pripadalo	913		4
+pripalo	4048		3
+pripekalo			3
+pripeklo	18		3
+pripisalo	31		3
+pripojilo	12		3
 pripomoglo	19		2
-pripovedalo	28		2
-pripremalo	157		2
-pripremilo	668		2
+pripovedalo	28		3
+pripremalo	157		3
+pripremilo	668		3
 priraslo	28		2
-priredilo	188		2
+priredilo	188		3
 priselo			2
-prisililo	54		3
-priskočilo			2
-prisluškivalo			2
-prispavalo	38		2
+prisililo	54		4
+priskočilo			3
+prisluškivalo			3
+prispavalo	38		3
 prispelo	163		2
-prisralo			2
-pristajalo	104		3
-pristalo	260		2
+prisralo			3
+pristajalo	104		4
+pristalo	260		3
 pristiglo	1024		2
-pristizalo	44		3
-pristupalo	142		2
-pristupilo	1741		2
-prisustvovalo	3668		4
-pritajilo			2
-pritesnilo			2
-pritezalo			2
-priticalo			2
-pritiskalo	49		2
-pritrčalo	11		2
-priučilo			2
-privelo	58		2
+pristizalo	44		4
+pristupalo	142		3
+pristupilo	1741		3
+prisustvovalo	3668		5
+pritajilo			3
+pritesnilo			3
+pritezalo			3
+priticalo			3
+pritiskalo	49		3
+pritrčalo	11		3
+priučilo			3
+privelo	58		3
 prividelo			2
-priviklo	19		2
-priviđalo	14		2
-privlačilo	319		2
+priviklo	19		3
+priviđalo	14		3
+privlačilo	319		3
 privuklo	1361		2
-prizivalo	19		2
-priznalo	1051		2
-priznavalo	54		2
-prizvalo	14		2
-pričalo	3165		2
-pričestilo	91		2
-pričinilo	136		2
-pričinjavalo	70		2
+prizivalo	19		3
+priznalo	1051		3
+priznavalo	54		3
+prizvalo	14		3
+pričalo	3165		3
+pričestilo	91		3
+pričinilo	136		3
+pričinjavalo	70		3
 pričulo			2
 prišlo	267		2
-prkosilo	16		3
-probalo	276		2
-probdelo			2
-probijalo	62		2
-probilo	159		2
+prkosilo	16		4
+probalo	276		3
+probdelo			3
+probijalo	62		3
+probilo	159		3
 probolo			2
-probudilo	437		2
-probušilo			2
-procenilo	229		2
+probudilo	437		3
+probušilo			3
+procenilo	229		3
 procurelo	114		2
-procurilo	122		2
-procvalo	12		2
-procvetalo	103		2
-prodalo	365		2
-prodavalo	365		2
-prodiralo	27		3
+procurilo	122		3
+procvalo	12		3
+procvetalo	103		3
+prodalo	365		3
+prodavalo	365		3
+prodiralo	27		4
 prodrlo	86		2
-prodrmalo	28		2
-produbilo	119		2
-produžilo	341		2
-proganjalo	30		2
-proglasilo	615		2
-progledalo	34		2
-progonilo	17		2
+prodrmalo	28		3
+produbilo	119		3
+produžilo	341		3
+proganjalo	30		3
+proglasilo	615		3
+progledalo	34		3
+progonilo	17		3
 progorelo			2
-progovorilo	115		2
-proguralo	10		2
-progutalo	89		2
-prohladilo			2
-prohodalo	64		2
+progovorilo	115		3
+proguralo	10		3
+progutalo	89		3
+prohladilo			3
+prohodalo	64		3
 prohtelo	81		2
-prohujalo	275		2
-proigralo			2
+prohujalo	275		3
+proigralo			3
 proisteklo	365		2
 proisticalo			2
 proizašlo	276		2
 proizilazilo	63		2
 proizišlo	69		2
-proizvelo	604		2
-proizvodilo	429		2
-prokazalo			2
+proizvelo	604		3
+proizvodilo	429		3
+prokazalo			3
 prokislo			2
-proklijalo	47		2
-prokljuvalo			2
-proključalo	15		2
-prokralo		M	2
-prolazilo	1360		3
-prolepšalo			2
+proklijalo	47		3
+prokljuvalo			3
+proključalo	15		3
+prokralo		M	3
+prolazilo	1360		4
+prolepšalo			3
 proletelo	213		2
-prolilo	39		2
-prolomilo	27		2
-promaklo	767		2
-promaknulo			2
-promašilo	37		3
-promenilo	7102		2
-promicalo	27		3
-promišljalo			2
+prolilo	39		3
+prolomilo	27		3
+promaklo	767		3
+promaknulo			3
+promašilo	37		4
+promenilo	7102		3
+promicalo	27		4
+promišljalo			3
 promuklo	95		2
 pronašlo	469		2
 pronelo	24		2
-proniklo	17		2
-pronosilo	13		2
-propadalo	79		3
-propalo	1555		2
+proniklo	17		3
+pronosilo	13		3
+propadalo	79		4
+propalo	1555		3
 propelo			2
-propisalo	148		2
-propištalo			2
-proplakalo			3
-propovedalo			2
-propratilo	48		2
-propustilo	118		2
-proradilo	360		2
-proricalo			2
-prosijalo			2
-prosipalo	16		2
-proslavilo	346		3
-prosledilo	144		2
-prostiralo	159		3
-prostrujalo	22		2
+propisalo	148		3
+propištalo			3
+proplakalo			4
+propovedalo			3
+propratilo	48		3
+propustilo	118		3
+proradilo	360		3
+proricalo			3
+prosijalo			3
+prosipalo	16		3
+proslavilo	346		4
+prosledilo	144		3
+prostiralo	159		4
+prostrujalo	22		3
 prosulo	41		2
-prosušilo			2
-prosvetilo			2
+prosušilo			3
+prosvetilo			3
 proteglo	41		2
 proteklo	2356		2
-proteralo	25		3
-protezalo	47		2
-proticalo	111		3
-protivilo	76		2
+proteralo	25		4
+protezalo	47		3
+proticalo	111		4
+protivilo	76		3
 protreslo	27		2
-protrčalo	19		2
-proturalo			2
-protutnjalo	50		2
-prouzrokovalo	866		4
-proučilo	17		2
-provalilo	55		2
-provaljalo			2
+protrčalo	19		3
+proturalo			3
+protutnjalo	50		3
+prouzrokovalo	866		5
+proučilo	17		3
+provalilo	55		3
+provaljalo			3
 provelo	336		2
-proverilo	215		3
-provlačilo	72		2
-provodilo	72		2
+proverilo	215		4
+provlačilo	72		3
+provodilo	72		3
 provrelo			2
 provuklo	58		2
 prozeblo		M	2
-proziralo			2
-prozlilo			2
-prozračilo			2
+proziralo			3
+prozlilo			3
+prozračilo			3
 prozuklo			2
-prozvalo	38		2
-pročitalo	211		2
+prozvalo	38		3
+pročitalo	211		3
 pročulo	421		2
-prošetalo	115		2
-proširilo	527		2
+prošetalo	115		3
+proširilo	527		3
 prošlo	17454		2
 proželo	19		2
-prožimalo	26		3
+prožimalo	26		4
 proživelo	22		2
-prskalo	46		2
+prskalo	46		3
 prslo			2
 prsnulo	11		3
-pružalo	296		2
+pružalo	296		3
 pružilo	724		3
-prštalo	119		2
+prštalo	119		3
 pržilo	72		3
-psovalo	15		2
+psovalo	15		3
 pucalo	356		3
-puhalo	30		2
+puhalo	30		3
 puklo	928		2
 puknulo			3
-pulsiralo	17		2
-punilo	88		2
-pustilo	187		2
-pustošilo			2
-putovalo	453		2
+pulsiralo	17		3
+punilo	88		3
+pustilo	187		3
+pustošilo			3
+putovalo	453		3
 pušilo	132		3
 racionalo			2
-radilo	13490		2
-radmilo			2
+radilo	13490		3
+radmilo			3
 radojlo			2
 radovalo	188		4
-radoznalo	494		2
+radoznalo	494		3
 rafaelo			2
-rafailo			2
+rafailo			3
 rafajlo			2
 ralo	104		2
 ranilo	19		3
-ranjavalo			2
-rascvetalo	11		2
-raseklo			2
-raselilo	30		2
-rasklapalo			2
-raskravilo			2
-raskrivalo			2
-raskrstilo	11		2
+ranjavalo			3
+rascvetalo	11		3
+raseklo			3
+raselilo	30		3
+rasklapalo			3
+raskravilo			3
+raskrivalo			3
+raskrstilo	11		3
 raskrvavilo			2
-raskrčilo			2
-raskvasilo			2
-raspadalo	51		3
-raspalilo	20		2
-raspalo	300		2
+raskrčilo			3
+raskvasilo			3
+raspadalo	51		4
+raspalilo	20		3
+raspalo	300		3
 raspelo	10		2
-raspisalo	431		2
+raspisalo	431		3
 raspitivalo	19		2
-rasplakalo	29		3
+rasplakalo	29		4
 rasplinulo	18		2
-raspravilo	13		3
-raspravljalo			2
-raspredalo	11		2
-raspričalo			2
+raspravilo	13		4
+raspravljalo			3
+raspredalo	11		3
+raspričalo			3
 rasprskavalo			2
-raspršilo	41		2
+raspršilo	41		3
 raspuklo			2
 raspuknulo			2
-rastavilo			3
-rasteralo	13		3
-rastopilo	11		2
-rastočilo			2
-rasturalo			2
-rasturilo	35		2
-rastužilo	79		2
+rastavilo			4
+rasteralo	13		4
+rastopilo	11		3
+rastočilo			3
+rasturalo			3
+rasturilo	35		3
+rastužilo	79		3
 rasulo	684		2
 rasuđivalo			2
 ratovalo	229		4
-ravnalo	10		2
+ravnalo	10		3
 razapelo			2
-razaralo	11		2
+razaralo	11		3
 razbesnelo	163		2
-razbežalo	30		2
-razbilo	169		2
-razbistrilo	35		2
-razbolelo	92		2
-razboljelo			2
-razbuktalo	28		2
-razdanilo	68		2
-razdavalo			2
-razdelilo	10		2
-razdiralo			3
-razdražilo			2
-razdvajalo	54		2
-razdvojilo	47		2
-razgalilo	16		2
-razglasilo	15		2
+razbežalo	30		3
+razbilo	169		3
+razbistrilo	35		3
+razbolelo	92		3
+razboljelo			3
+razbuktalo	28		3
+razdanilo	68		3
+razdavalo			3
+razdelilo	10		3
+razdiralo			4
+razdražilo			3
+razdvajalo	54		3
+razdvojilo	47		3
+razgalilo	16		3
+razglasilo	15		3
 razgorelo			2
-razgovaralo	2279		2
-razgradilo			2
-razgranalo	27		2
+razgovaralo	2279		3
+razgradilo			3
+razgranalo	27		3
 razgrnulo			2
-razigralo			2
+razigralo			3
 razišlo	44		2
-razjasnilo	116		2
+razjasnilo	116		3
 razletelo	21		2
-razlijevalo		J	2
-razlikovalo	252		4
-razlilo	32		2
-razlivalo			2
-razljutilo	153		2
-razložilo			2
-razmatralo	312		2
-razmekšalo			2
-razmenilo	30		2
-razmetalo			3
-razmislilo	13		3
-razmišljalo	536		2
-razmotrilo	131		2
+razlijevalo		J	3
+razlikovalo	252		5
+razlilo	32		3
+razlivalo			3
+razljutilo	153		3
+razložilo			3
+razmatralo	312		3
+razmekšalo			3
+razmenilo	30		3
+razmetalo			4
+razmislilo	13		4
+razmišljalo	536		3
+razmotrilo	131		3
 raznelo			2
-raznežilo	11		2
-raznosilo			2
-razorilo	63		2
-razotkrilo	56		2
-razočaralo	215		2
-razradilo	29		2
+raznežilo	11		3
+raznosilo			3
+razorilo	63		3
+razotkrilo	56		3
+razočaralo	215		3
+razradilo	29		3
 razraslo			2
-razrešilo	73		2
-razrušilo			3
-razumelo	287		2
-razumevalo	18		2
-razuverilo	16		3
-razvalilo			2
-razvedrilo	141		2
-razvejalo	15		2
-razveselilo	33		2
-razvezalo			2
+razrešilo	73		3
+razrušilo			4
+razumelo	287		3
+razumevalo	18		3
+razuverilo	16		4
+razvalilo			3
+razvedrilo	141		3
+razvejalo	15		3
+razveselilo	33		3
+razvezalo			3
 razvezivalo			2
-razvijalo	515		2
-razvilo	848		2
-razvlačilo	28		2
-razvodnilo	10		2
+razvijalo	515		3
+razvilo	848		3
+razvlačilo	28		3
+razvodnilo	10		3
 razvuklo	38		2
-računalo	723		2
-rađalo	189		2
-raširilo	124		2
-raščistilo	35		2
+računalo	723		3
+rađalo	189		3
+raširilo	124		3
+raščistilo	35		3
 raščulo			2
-ražalilo	10		2
-ražalostilo	22		2
-ražestilo	11		2
-reagovalo	779		4
-redilo			2
+ražalilo	10		3
+ražalostilo	22		3
+ražestilo	11		3
+reagovalo	779		5
+redilo			3
 redukovalo	27		2
 referisalo			2
 reklo	6835		2
 remekdelo			2
-remetilo	88		3
+remetilo	88		4
 rezalo			3
 rezonovalo	13		2
 rezultiralo			2
 rezultovalo	307		2
-ređalo			2
-rešavalo	285		2
-rešilo	1052		2
-režalo			2
-režiralo	13		2
-ribarilo			2
+ređalo			3
+rešavalo	285		3
+rešilo	1052		3
+režalo			3
+režiralo	13		3
+ribarilo			3
 ridalo			3
 riknulo	83		2
 rilo	11		2
-rimovalo			2
+rimovalo			3
 ritnulo			2
-robovalo			2
-rodilo	983		2
+robovalo			3
+rodilo	983		3
 roktalo			3
-roptalo			2
+roptalo			3
 ruglo	995		2
-rukovodilo	154		2
-rumenilo	706		2
-ručalo	12		2
+rukovodilo	154		3
+rumenilo	706		3
+ručalo	12		3
 rušilo	89		3
-sabilo	16		2
-sablaznilo	11		2
-sabralo	140		2
-sadilo	27		2
-sadržalo	149		2
-sadržavalo	65		3
-saglasilo	82		2
-sagledalo	70		3
-sagorelo	40		2
-sagradilo	52		2
-sagrešilo			2
-sahranilo	30		2
-sakrilo	111		2
-sakupilo	213		3
-sakupljalo	35		2
+sabilo	16		3
+sablaznilo	11		3
+sabralo	140		3
+sadilo	27		3
+sadržalo	149		3
+sadržavalo	65		4
+saglasilo	82		3
+sagledalo	70		4
+sagorelo	40		3
+sagradilo	52		3
+sagrešilo			3
+sahranilo	30		3
+sakrilo	111		3
+sakupilo	213		4
+sakupljalo	35		3
 saletelo			2
 salo	643		2
-salomilo			2
+salomilo			3
 samoniklo	126		2
-samuilo			2
-sanjalo	76		2
+samuilo			3
+sanjalo	76		3
 saobraćalo	30		2
-saopštilo	3339		2
+saopštilo	3339		3
 saosećalo			2
-sapinjalo			2
-sarađivalo	142		2
-saseklo			2
-saslušalo	58		2
-sastalo	129		2
-sastavilo	79		3
-sastavljalo	18		3
-sastojalo	309		3
-sasušilo	14		2
-sateralo			2
-savetovalo	52		4
-savijalo	12		2
-savilo	13		2
-savladalo	184		2
-sazdalo			2
-sazdavalo			2
-saznalo	1263		2
-saznavalo	10		2
+sapinjalo			3
+sarađivalo	142		3
+saseklo			3
+saslušalo	58		3
+sastalo	129		3
+sastavilo	79		4
+sastavljalo	18		4
+sastojalo	309		4
+sasušilo	14		3
+sateralo			3
+savetovalo	52		5
+savijalo	12		3
+savilo	13		3
+savladalo	184		3
+sazdalo			3
+sazdavalo			3
+saznalo	1263		3
+saznavalo	10		3
 sazrelo	346		2
-sazrevalo	35		2
-sačekalo	271		3
-sačekivalo			2
-sačinilo	137		2
-sačinjavalo	125		2
-sačuvalo	581		2
-secalo			2
+sazrevalo	35		3
+sačekalo	271		4
+sačekivalo			3
+sačinilo	137		3
+sačinjavalo	125		3
+sačuvalo	581		3
+secalo			3
 sedalo	27		3
-sedelo	307		2
+sedelo	307		3
 sedlo	357		2
 sejalo	30		3
-selilo	33		2
+selilo	33		3
 selo	24896		2
-senilo			2
+senilo			3
 setilo	35		3
-sevalo	44		2
+sevalo	44		3
 shvatalo	46		3
 shvatilo	739		3
 sijalo	290		3
-silazilo	53		3
-sinulo	245		2
+silazilo	53		4
+sinulo	245		3
 sipalo	21		3
-sipilo			2
+sipilo			3
 sirilo			3
 sisalo	20		3
-sivilo	510		2
+sivilo	510		3
 sišlo	139		2
-sjajilo	11		2
+sjajilo	11		3
 sjalo	45		2
-sjatilo	82		2
+sjatilo	82		3
 sjedalo		J	3
-sjedinilo			2
-skakalo	63		2
+sjedinilo			3
+skakalo	63		3
 skamenilo	12		4
-skandiralo	74		2
-skapalo			2
+skandiralo	74		3
+skapalo			3
 skinulo	140		3
-skičalo			2
+skičalo			3
 sklanjalo	25		3
-sklapalo	21		2
+sklapalo	21		3
 skliznulo	44		2
-sklonilo	82		2
-sklopilo	204		2
-skončalo	13		2
-skočilo	140		2
-skrasilo			2
-skratilo	169		2
-skrenulo	198		2
-skretalo	31		2
-skrhalo			2
+sklonilo	82		3
+sklopilo	204		3
+skončalo	13		3
+skočilo	140		3
+skrasilo			3
+skratilo	169		3
+skrenulo	198		3
+skretalo	31		3
+skrhalo			3
 skrilo	28		2
-skrivalo	87		2
-skrnavilo			3
+skrivalo	87		3
+skrnavilo			4
 skupilo	600		3
-skupljalo	80		2
+skupljalo	80		3
 slabilo	38		3
-slagalo	127		2
+slagalo	127		3
 slalo	119		2
-slamalo			2
+slamalo			3
 slavilo	367		3
-sledilo	559		2
-sledovalo	72		2
-slegalo			2
+sledilo	559		3
+sledovalo	72		3
+slegalo			3
 sleglo	74		2
-slepilo	647		2
-sletalo	11		2
+slepilo	647		3
+sletalo	11		3
 sletelo	129		2
 slikalo	56		3
-slivalo			2
-sličilo	13		2
-sljepilo		J	2
+slivalo			3
+sličilo	13		3
+sljepilo		J	3
 slo	52		1
-slomilo	181		2
-slošilo			2
-složilo	251		2
-slutilo	98		2
-slučilo	46		2
+slomilo	181		3
+slošilo			3
+složilo	251		3
+slutilo	98		3
+slučilo	46		3
 slušalo	217		3
-služilo	901		2
-smanjilo	1520		2
-smanjivalo	105		2
-smatralo	3091		2
-smejalo	75		2
-smekšalo			2
+služilo	901		3
+smanjilo	1520		3
+smanjivalo	105		3
+smatralo	3091		3
+smejalo	75		3
+smekšalo			3
 smelo	3309		2
-smenilo	81		2
-smenjivalo	36		2
+smenilo	81		3
+smenjivalo	36		3
 smestilo	181		3
-smetalo	3683		2
-smešalo			2
-smešilo	18		2
-smeškalo			2
+smetalo	3683		3
+smešalo			3
+smešilo	18		3
+smeškalo			3
 smilovalo			4
-smirilo	327		2
-smirivalo	42		2
+smirilo	327		3
+smirivalo	42		3
 smislilo	40		3
-smorilo	96		2
-smračilo	93		2
-smrdelo	96		2
-smrdilo	12		2
-smrkavalo			2
+smorilo	96		3
+smračilo	93		3
+smrdelo	96		3
+smrdilo	12		3
+smrkavalo			3
 smrklo			2
 smrknulo			2
-smrskalo			2
+smrskalo			3
 smrzlo		M	2
-smršalo	12		2
-smutilo	13		2
-smućkalo			2
-smučilo	432		2
-snabdelo	15		2
-snabdevalo	55		2
-snalazilo	23		3
+smršalo	12		3
+smutilo	13		3
+smućkalo			3
+smučilo	432		3
+snabdelo	15		3
+snabdevalo	55		3
+snalazilo	23		4
 snašlo	809		2
-snažilo	15		2
+snažilo	15		3
 snilo	242		2
-snimalo	97		2
-snimilo	72		2
-snizilo	82		2
-snižavalo			2
-snovalo			2
-snuždilo			2
-sokoćalo			2
-solilo	13		2
+snimalo	97		3
+snimilo	72		3
+snizilo	82		3
+snižavalo			3
+snovalo			3
+snuždilo			3
+sokoćalo			3
+solilo	13		3
 solo	1291		2
-sortiralo			2
+sortiralo			3
 spadalo	223		3
-spajalo	67		2
+spajalo	67		3
 spakovalo	18		4
-spalilo	40		2
+spalilo	40		3
 spalo	145		2
-sparavalo			2
-spasavalo	18		2
-spasilo	333		2
+sparavalo			3
+spasavalo	18		3
+spasilo	333		3
 spaslo	244		2
-spavalo	311		2
+spavalo	311		3
 spazilo			3
-spašavalo			2
+spašavalo			3
 splasnulo	82		2
 splelo			2
 spljosnulo			2
-spojilo	167		2
-spolovilo	25		2
-spomenulo	47		2
-spominjalo	163		3
-spopalo	47		2
-sporilo	15		2
-spoznalo	35		2
-spremalo	159		2
-spremilo	56		2
-sprečavalo	335		2
-sprečilo	3046		2
-sprijateljilo			2
-sprovelo	564		2
-sprovodilo	189		2
-spržilo	37		2
-spustilo	207		2
-sputavalo	62		2
-spuštalo	92		2
+spojilo	167		3
+spolovilo	25		3
+spomenulo	47		3
+spominjalo	163		4
+spopalo	47		3
+sporilo	15		3
+spoznalo	35		3
+spremalo	159		3
+spremilo	56		3
+sprečavalo	335		3
+sprečilo	3046		3
+sprijateljilo			3
+sprovelo	564		3
+sprovodilo	189		3
+spržilo	37		3
+spustilo	207		3
+sputavalo	62		3
+spuštalo	92		3
 sraslo	45		2
-srbovalo			2
-srdilo			2
-sredilo	122		2
+srbovalo			3
+srdilo			3
+sredilo	122		3
 sretalo	21		3
-srozalo	57		2
-srozavalo			2
-srubilo			2
-sručilo	85		2
+srozalo	57		3
+srozavalo			3
+srubilo			3
+sručilo	85		3
 srušilo	307		3
 stabilizovalo	220		2
 stablo	2620		2
-stagniralo	20		2
+stagniralo	20		3
 stajalo	2097		3
 staklo	5295		2
 stalo	12036		2
-stanjilo			2
+stanjilo			3
 stanojlo			2
 staralo	36		3
-startovalo	246		2
-stasalo	65		2
+startovalo	246		3
+stasalo	65		3
 stavilo	681		3
-stavljalo	149		2
+stavljalo	149		3
 steglo	132		2
-stegnulo			2
+stegnulo			3
 steklo	967		2
-stezalo	55		2
-sticalo	112		2
+stezalo	55		3
+sticalo	112		3
 stiglo	8286		2
 stilo		M	2
-stiskalo			2
+stiskalo			3
 stislo			2
 stizalo	456		3
-stišalo	86		2
-stojalo	72		2
-stopalo	1577		2
-stopilo	39		2
-stradalo	2330		2
-strahovalo	105		2
+stišalo	86		3
+stojalo	72		3
+stopalo	1577		3
+stopilo	39		3
+stradalo	2330		3
+strahovalo	105		3
 strašilo	336		3
 strelo			2
-stremilo	19		2
+stremilo	19		3
 streslo			2
-strpalo	15		2
-strugalo			2
+strpalo	15		3
+strugalo			3
 strugnulo			3
-strujalo	15		2
-strčalo			2
-studiralo	99		2
-stupalo	21		2
-stupilo	342		2
-stuživalo			2
-stvaralo	570		2
-stvorilo	1755		2
-sudarilo	29		3
-sudilo	615		2
+strujalo	15		3
+strčalo			3
+studiralo	99		3
+stupalo	21		3
+stupilo	342		3
+stuživalo			3
+stvaralo	570		3
+stvorilo	1755		3
+sudarilo	29		4
+sudilo	615		3
 sugerisalo	95		2
-sukobilo	71		2
-sumnjalo	396		2
-suočavalo	49		2
-suočilo	119		2
-suprotstavilo	73		3
-survalo	17		2
-survavalo			2
-susrelo	62		2
-susretalo	19		3
-sustalo			2
-sustiglo	46		2
-suvislo	247		2
-suzbijalo			2
+sukobilo	71		3
+sumnjalo	396		3
+suočavalo	49		3
+suočilo	119		3
+suprotstavilo	73		4
+survalo	17		3
+survavalo			3
+susrelo	62		3
+susretalo	19		4
+sustalo			3
+sustiglo	46		3
+suvislo	247		3
+suzbijalo			3
 suzilo	55		3
-sušilo	49		2
-sužavalo	13		2
-svadbovalo			2
-svalilo	24		2
-svanulo	442		2
+sušilo	49		3
+sužavalo	13		3
+svadbovalo			3
+svalilo	24		3
+svanulo	442		3
 svađalo	15		3
-svedočilo	90		2
+svedočilo	90		3
 svelo	841		2
-svetilo	112		2
+svetilo	112		3
 svetlelo			2
-svetlilo	13		2
+svetlilo	13		3
 svetlo	13553		2
-svetlucalo	17		2
+svetlucalo	17		3
 svidelo	1923		3
-svijalo			2
+svijalo			3
 sviklo			2
 svilo	15		2
-sviralo	170		2
+sviralo	170		3
 svitalo	47		3
-sviđalo	856		2
-svodilo	361		2
-svratilo	17		2
-svrbelo	31		2
+sviđalo	856		3
+svodilo	361		3
+svratilo	17		3
+svrbelo	31		3
 svrdlo	48		2
 svrglo			2
-svrstalo	204		2
-svršavalo			3
-svršilo	71		2
+svrstalo	204		3
+svršavalo			4
+svršilo	71		3
 svuklo			2
 tablo			2
-tajilo			2
-takmičilo	490		3
-talasalo	23		2
-taložilo	47		2
-tanjilo			2
+tajilo			3
+takmičilo	490		4
+talasalo	23		3
+taložilo	47		3
+tanjilo			3
 teglo			2
 teklo	788		2
 telo	49099		2
-teofilo			2
+teofilo			3
 teralo	190		3
-teretilo	50		2
+teretilo	50		3
 teslo			2
 tešilo	22		3
-težilo	269		2
-ticalo	382		2
+težilo	269		3
+ticalo	382		3
 tijepolo			2
-tinjalo	37		2
+tinjalo	37		3
 titralo			3
-tištalo	20		2
+tištalo	20		3
 tkalo	12		2
 tlo	4749		1
-tocilo			2
+tocilo			3
 tolerisalo	63		2
 tombolo			3
-tonulo	32		2
-topilo	54		2
+tonulo	32		3
+topilo	54		3
 toplo	8076		2
-točilo	58		2
-trabunjalo			2
-tragalo	162		2
+točilo	58		3
+trabunjalo			3
+tragalo	162		3
 trajalo	5555		3
 transformisalo	70		2
-tražilo	2298		2
+tražilo	2298		3
 trebalo	204851		3
-trefilo			2
+trefilo			3
 tremolo	13		3
-treperilo	42		2
+treperilo	42		3
 treslo	109		2
-tretiralo	90		2
-treznilo			2
+tretiralo	90		3
+treznilo			3
 trglo	48		2
-trgovalo	1148		3
-trkalo			2
+trgovalo	1148		4
+trkalo			3
 trlo		M	2
 troduplo			2
-trovalo	16		2
-trošilo	304		2
-trpelo	104		2
-trubilo	19		2
-trudilo	87		2
+trovalo	16		3
+trošilo	304		3
+trpelo	104		3
+trubilo	19		3
+trudilo	87		3
 trulilo	11		3
 trulo	652		2
 truplo	57		2
 trzalo	16		3
 trznulo			3
-trčalo	275		2
-trčkalo			2
-trčkaralo			2
-tucalo			2
-tugovalo	20		2
+trčalo	275		3
+trčkalo			3
+trčkaralo			3
+tucalo			3
+tugovalo	20		3
 tuklo	154		2
-tumaralo	17		2
-tumačilo	109		2
-tupilo			2
-turilo			2
-tutkalo	27		2
-tutnjalo	18		2
+tumaralo	17		3
+tumačilo	109		3
+tupilo			3
+turilo			3
+tutkalo	27		3
+tutnjalo	18		3
 tutnjelo			2
-tužakalo			2
-tužilo	147		2
-tvorilo	15		2
-tvrdilo	738		2
-ubacilo	54		2
-ubacivalo	13		2
-ubedilo	117		2
-ubijalo	131		2
-ubilo	449		2
+tužakalo			3
+tužilo	147		3
+tvorilo	15		3
+tvrdilo	738		3
+ubacilo	54		3
+ubacivalo	13		3
+ubedilo	117		3
+ubijalo	131		3
+ubilo	449		3
 ubjeđivalo		J	2
-ublažavalo	12		2
-ublažilo	175		2
+ublažavalo	12		3
+ublažilo	175		3
 ubolo	29		2
-ubrzalo	431		2
+ubrzalo	431		3
 ucelo			2
-ucrvljalo			2
-udahnulo	25		2
-udaljavalo	36		2
-udaljilo	156		2
-udaralo	134		3
-udarilo	440		3
-udavilo	71		2
+ucrvljalo			3
+udahnulo	25		3
+udaljavalo	36		3
+udaljilo	156		3
+udaralo	134		4
+udarilo	440		4
+udavilo	71		3
 udelo			2
-udilo			2
+udilo			3
 udostojilo	22		2
 udovoljilo	126		2
-udružilo	83		2
-udruživalo			2
-udvostručilo	58		3
-ufuralo			2
-ugasilo	217		2
+udružilo	83		3
+udruživalo			3
+udvostručilo	58		4
+ufuralo			3
+ugasilo	217		3
 ugaslo	16		2
-ugibalo			2
+ugibalo			3
 uginulo	245		2
-uglačalo			2
-ugledalo	147		3
-ugnezdilo	15		2
-ugodilo	18		2
-ugovorilo	52		2
-ugradilo	60		2
-ugrejalo	30		3
-ugrizlo			2
-ugrozilo	827		2
-ugrožavalo	118		2
-ugušilo	62		2
-uhapsilo	28		3
-uhodalo			2
-uhvatilo	253		3
-ujedinilo	96		2
+uglačalo			3
+ugledalo	147		4
+ugnezdilo	15		3
+ugodilo	18		3
+ugovorilo	52		3
+ugradilo	60		3
+ugrejalo	30		4
+ugrizlo			3
+ugrozilo	827		3
+ugrožavalo	118		3
+ugušilo	62		3
+uhapsilo	28		4
+uhodalo			3
+uhvatilo	253		4
+ujedinilo	96		3
 ujednačilo	13		2
-ujelo	36		2
-ukazalo	865		2
-ukazivalo	706		2
-ukinulo	223		3
+ujelo	36		3
+ukazalo	865		3
+ukazivalo	706		3
+ukinulo	223		4
 ukiselilo			2
-uklanjalo	17		3
-uklapalo	157		2
-uključilo	625		2
-uključivalo	285		2
-uklonilo	148		2
-uklopilo	229		2
-ukopalo	12		2
-ukorenilo	46		2
-ukočilo	30		2
-ukralo	51		2
-ukrcalo	27		2
-ukrotilo			2
-ukrstilo	19		2
-ukucalo			2
-ulazilo	599		3
+uklanjalo	17		4
+uklapalo	157		3
+uključilo	625		3
+uključivalo	285		3
+uklonilo	148		3
+uklopilo	229		3
+ukopalo	12		3
+ukorenilo	46		3
+ukočilo	30		3
+ukralo	51		3
+ukrcalo	27		3
+ukrotilo			3
+ukrstilo	19		3
+ukucalo			3
+ulazilo	599		4
 uleglo			2
-ulepšalo	85		2
+ulepšalo	85		3
 uletelo	69		2
-ulilo	118		2
-ulivalo			2
-uljepšalo		J	2
-ulovilo	12		2
-uložilo	487		2
-umalo	3118		2
-umanjilo	433		2
+ulilo	118		3
+ulivalo			3
+uljepšalo		J	3
+ulovilo	12		3
+uložilo	487		3
+umalo	3118		3
+umanjilo	433		3
 umanjivalo	38		2
-umetnulo			3
-umešalo	31		2
-umiralo	192		3
-umirilo	113		2
-umivalo			2
+umetnulo			4
+umešalo	31		3
+umiralo	192		4
+umirilo	113		3
+umivalo			3
 umnožavalo	18		2
-umnožilo	41		2
-umolilo			2
+umnožilo	41		3
+umolilo			3
 umoljavalo			2
-umorilo	48		2
+umorilo	48		3
 umrlo	2331		2
-umrtvilo	17		2
+umrtvilo	17		3
 umuklo	12		2
-unajmilo			2
+unajmilo			3
 unaokolo		M	5
 unapredilo	295		2
 unazadilo	57		2
 unelo	307		2
 unesrećilo			2
-unizilo			2
-uništavalo	77		2
-uništilo	484		3
-unižavalo			2
-unjkalo			2
-unosilo	71		2
+unizilo			3
+uništavalo	77		3
+uništilo	484		4
+unižavalo			3
+unjkalo			3
+unosilo	71		3
 uobičajilo	42		2
 uobličavalo	10		2
 uobličilo	38		2
-uobrazilo			2
+uobrazilo			3
 uokolo	328		2
-uočavalo	21		2
-uočilo	133		2
-upadalo	46		3
-upalilo	337		2
+uočavalo	21		3
+uočilo	133		3
+upadalo	46		4
+upalilo	337		3
 upalo	365		3
-upijalo	15		2
-upilo	35		2
-upiralo	11		3
-upisalo	529		2
-upisivalo	47		2
-upitalo	19		2
-uplatilo	248		2
-uplašilo	223		3
+upijalo	15		3
+upilo	35		3
+upiralo	11		4
+upisalo	529		3
+upisivalo	47		3
+upitalo	19		3
+uplatilo	248		3
+uplašilo	223		4
 uplelo	13		2
 uplesnivilo			2
-uplovilo	28		2
+uplovilo	28		3
 upodobilo			2
 upokojilo			2
 uporedilo	21		2
 upotpunilo	109		2
-upotrebilo	58		2
-upoznalo	238		2
-upoznavalo	14		2
-upozoravalo	76		2
-upozorilo	294		2
-upravljalo	403		3
-upriličilo	45		3
-upropastilo	127		2
-upucalo			2
-upustilo	58		2
-uputilo	1169		2
-upućivalo	129		2
-uradilo	1759		2
+upotrebilo	58		3
+upoznalo	238		3
+upoznavalo	14		3
+upozoravalo	76		3
+upozorilo	294		3
+upravljalo	403		4
+upriličilo	45		4
+upropastilo	127		3
+upucalo			3
+upustilo	58		3
+uputilo	1169		3
+upućivalo	129		3
+uradilo	1759		3
 uraslo	24		2
 urazumilo			2
-uračunalo	12		2
-uredilo	111		2
-urezalo	77		3
-urezivalo			2
-uređivalo	31		2
-urlalo	18		2
-urodilo	345		2
-urotilo	53		2
-uručilo	110		2
-urušilo	106		2
-usadilo	31		2
-usavršilo	25		2
-uselilo	120		2
-useljavalo			2
-usidrilo			3
+uračunalo	12		3
+uredilo	111		3
+urezalo	77		4
+urezivalo			3
+uređivalo	31		3
+urlalo	18		3
+urodilo	345		3
+urotilo	53		3
+uručilo	110		3
+urušilo	106		3
+usadilo	31		3
+usavršilo	25		3
+uselilo	120		3
+useljavalo			3
+usidrilo			4
 usijavalo			2
-usisalo			3
-uskakalo			2
+usisalo			4
+uskakalo			3
 uskipelo			2
-uskladilo	58		2
+uskladilo	58		3
 uskomešalo	16		2
-uskočilo	22		2
-uskratilo	74		2
+uskočilo	22		3
+uskratilo	74		3
 uskrsnulo			2
-usledilo	3584		2
-uslovilo	729		2
-usmeravalo	27		2
-usmerilo	124		3
-usmrtilo	32		2
+usledilo	3584		3
+uslovilo	729		3
+usmeravalo	27		3
+usmerilo	124		4
+usmrtilo	32		3
 usnulo	53		2
-uspavalo	35		2
+uspavalo	35		3
 uspelo	5518		2
-uspevalo	400		2
+uspevalo	400		3
 uspokojilo			2
-usporavalo	66		2
-usporilo	358		2
-uspostavilo	305		3
-uspravljalo			2
-usrećilo	74		2
-ustajalo	54		2
+usporavalo	66		3
+usporilo	358		3
+uspostavilo	305		4
+uspravljalo			3
+usrećilo	74		3
+ustajalo	54		3
 ustalasalo			2
-ustalilo	91		2
-ustanovilo	510		2
-ustavilo			2
-ustreptalo	11		2
-ustrojilo			2
+ustalilo	91		3
+ustanovilo	510		3
+ustavilo			3
+ustreptalo	11		3
+ustrojilo			3
 ustuknulo	16		2
-ustupalo	12		2
-ustupilo	149		2
-ustvrdilo			2
-usudilo	56		2
-usukalo			2
-usvajalo	12		2
-usvojilo	1144		2
+ustupalo	12		3
+ustupilo	149		3
+ustvrdilo			3
+usudilo	56		3
+usukalo			3
+usvajalo	12		3
+usvojilo	1144		3
 uteklo	17		2
-utemeljilo	19		2
-utešilo	20		3
-uticalo	4496		3
+utemeljilo	19		3
+utešilo	20		4
+uticalo	4496		4
 utihnulo	95		2
-utiralo			2
-utišalo	60		2
-utonulo	55		2
-utopilo	95		2
-utrnulo	28		2
-utrčalo	12		2
-utulilo			2
-utuvilo			2
-utvrdilo	2166		2
-utvrđivalo	74		3
-uvalilo	10		2
-uvatilo			2
-uvažavalo	26		2
+utiralo			3
+utišalo	60		3
+utonulo	55		3
+utopilo	95		3
+utrnulo	28		3
+utrčalo	12		3
+utulilo			3
+utuvilo			3
+utvrdilo	2166		3
+utvrđivalo	74		4
+uvalilo	10		3
+uvatilo			3
+uvažavalo	26		3
 uvelo			2
-uvenulo	30		2
-uveravalo	15		2
-uverilo	183		3
+uvenulo	30		3
+uveravalo	15		3
+uverilo	183		4
 uvezlo	33		2
-uvećalo	254		2
-uvećavalo	58		2
-uvidelo	198		3
-uviđalo			2
-uvodilo	31		2
-uvozilo	88		2
-uvredilo	145		2
-uvrežilo	77		2
+uvećalo	254		3
+uvećavalo	58		3
+uvidelo	198		4
+uviđalo			3
+uvodilo	31		3
+uvozilo	88		3
+uvredilo	145		3
+uvrežilo	77		3
 uvrglo			2
-uvrstilo	156		2
+uvrstilo	156		3
 uvuklo	120		2
-uzabralo			2
+uzabralo			3
 uzavrelo	38		2
-uzbudilo	167		2
-uzbunilo	18		2
-uzburkalo	99		3
-uzbuđivalo	62		2
+uzbudilo	167		3
+uzbunilo	18		3
+uzburkalo	99		4
+uzbuđivalo	62		3
 uzdiglo	64		2
-uzdizalo	51		2
-uzdrhtalo	15		2
-uzdrmalo	185		2
-uzdržalo	32		2
+uzdizalo	51		3
+uzdrhtalo	15		3
+uzdrmalo	185		3
+uzdržalo	32		3
 uzelo	1645		2
-uzgajilo			2
-uzimalo	294		3
+uzgajilo			3
+uzimalo	294		4
 uzjogunilo			2
-uzmutilo			2
+uzmutilo			3
 uznapredovalo	50		2
 uznelo			2
-uznemiravalo	62		2
-uznemirilo	307		2
+uznemiravalo	62		3
+uznemirilo	307		3
 uzraslo			2
 uzrelo			2
-uzrokovalo	554		4
-uzrujalo	24		2
-uzrujavalo			2
-uzvikivalo	47		2
-uzvisilo			2
-ućutalo	14		2
-ućutkalo			2
-učestalo	939		2
-učestvovalo	9925		4
-učilo	450		2
-učinilo	5156		2
-učlanilo	87		2
-učmalo	15		2
-učvrstilo	212		2
-učvršćivalo	28		3
+uzrokovalo	554		5
+uzrujalo	24		3
+uzrujavalo			3
+uzvikivalo	47		3
+uzvisilo			3
+ućutalo	14		3
+ućutkalo			3
+učestalo	939		3
+učestvovalo	9925		5
+učilo	450		3
+učinilo	5156		3
+učlanilo	87		3
+učmalo	15		3
+učvrstilo	212		3
+učvršćivalo	28		4
 ušlo	3379		2
-uštedelo	382		2
+uštedelo	382		3
 ušteđivalo			2
-ušuljalo			2
+ušuljalo			3
 užasavalo	19		2
 užasnulo	21		2
 užeglo	17		2
-uživalo	569		2
-užurbalo			2
+uživalo	569		3
+užurbalo			3
 užutelo			2
-vabilo			2
+vabilo			3
 vadilo	42		3
-vagalo			2
-valjalo	3902		2
-vapilo	23		2
-varilo			2
+vagalo			3
+valjalo	3902		3
+vapilo	23		3
+varilo			3
 vaskrslo	53		2
 vaterlo			2
 vaterpolo	1721		4
-važilo	1024		2
-vejalo			2
-velesilo			2
-venulo	10		2
-venčalo	33		2
-venčavalo	11		2
-veralo			2
+važilo	1024		3
+vejalo			3
+velesilo			3
+venulo	10		3
+venčalo	33		3
+venčavalo	11		3
+veralo			3
 verovalo	1932		4
-veselilo	76		2
+veselilo	76		3
 veselo	3454		3
 veslo	173		2
-vetrilo			2
-vezalo	113		2
-vezivalo	172		2
-većalo	25		2
-večeralo	15		3
+vetrilo			3
+vezalo	113		3
+vezivalo	172		3
+većalo	25		3
+večeralo	15		4
 vežbalo	61		3
 videlo	9423		2
-vijorilo	11		2
-vikalo	47		2
+vijorilo	11		3
+vikalo	47		3
 vilo	228		2
-violončelo	408		2
+violončelo	408		3
 visilo	131		3
-vitlalo			2
+vitlalo			3
 vitlo	70		2
-viđalo	22		2
-vladalo	1149		2
+viđalo	22		3
+vladalo	1149		3
 vlastelo			2
-vodilo	2476		2
-vojevalo			2
-volelo	195		2
-voljelo	11		2
-vozilo	18383		2
-vratilo	2557		2
+vodilo	2476		3
+vojevalo			3
+volelo	195		3
+voljelo	11		3
+vozilo	18383		3
+vratilo	2557		3
 vraćalo	236		3
-vrebalo	14		2
+vrebalo	14		3
 vredelo			2
-vredilo	30		2
+vredilo	30		3
 vrelo	1920		2
-vređalo	68		2
+vređalo	68		3
 vrgnulo			2
-vrijedilo	94	J	2
+vrijedilo	94	J	3
 vrilo	56		2
-vrištalo	43		2
+vrištalo	43		3
 vrlo	183117		2
-vrskalo			2
-vrtelo	208		2
-vrtilo	20		2
+vrskalo			3
+vrtelo	208		3
+vrtilo	20		3
 vrvelo	74		2
-vrvilo			2
-vršilo	523		2
+vrvilo			3
+vršilo	523		3
 vukajlo			2
 vuklo	262		2
-zabadalo			2
-zabasalo			2
-zabavilo	38		3
-zabavljalo	143		3
+zabadalo			3
+zabasalo			3
+zabavilo	38		4
+zabavljalo	143		4
 zabeležilo	390		2
 zabilježilo	27	J	2
-zabjelo			2
-zablistalo	43		2
+zabjelo			3
+zablistalo	43		3
 zabludelo	12		2
-zabolelo	330		2
-zaboljelo	29	J	2
-zaboravilo	532		3
-zaboravljalo	49		3
-zabranilo	246		2
+zabolelo	330		3
+zaboljelo	29	J	3
+zaboravilo	532		4
+zaboravljalo	49		4
+zabranilo	246		3
 zabrinjavalo	48		2
-zabrinulo	258		3
-zabunilo			2
-zacarilo			3
-zacelilo			2
+zabrinulo	258		4
+zabunilo			3
+zacarilo			4
+zacelilo			3
 zacelo	369		3
-zacenilo			2
+zacenilo			3
 zacijelo	120	J	4
-zacrnilo			2
-zadahtalo			2
-zadalo	81		2
-zadavalo	70		2
-zadebljalo			2
-zadesilo	463		3
-zadevalo			2
-zadirkivalo			2
-zadivilo	51		2
-zadobilo	326		2
-zadocnilo			2
-zadojilo			2
-zadovoljavalo	79		2
-zadovoljilo	421		2
-zadrhtalo	40		2
-zadržalo	681		2
-zadržavalo	55		3
-zadužilo	94		2
-zafalilo	92		2
-zaglavilo	97		2
-zaglušilo			2
+zacrnilo			3
+zadahtalo			3
+zadalo	81		3
+zadavalo	70		3
+zadebljalo			3
+zadesilo	463		4
+zadevalo			3
+zadirkivalo			3
+zadivilo	51		3
+zadobilo	326		3
+zadocnilo			3
+zadojilo			3
+zadovoljavalo	79		3
+zadovoljilo	421		3
+zadrhtalo	40		3
+zadržalo	681		3
+zadržavalo	55		4
+zadužilo	94		3
+zafalilo	92		3
+zaglavilo	97		3
+zaglušilo			3
 zagolicalo	39		2
 zagorelo	43		2
 zagovaralo	26		2
-zagrebalo	17		2
-zagrejalo	55		3
-zagrevalo	25		2
-zagrizalo			2
-zagrizlo			2
-zagrlilo	10		3
+zagrebalo	17		3
+zagrejalo	55		4
+zagrevalo	25		3
+zagrizalo			3
+zagrizlo			3
+zagrlilo	10		4
 zagrmelo	20		2
-zagubilo	44		2
-zagustilo	43		2
-zahladilo	40		2
+zagubilo	44		3
+zagustilo	43		3
+zahladilo	40		3
 zahladnelo	69		2
-zahladnilo			2
-zahrđalo			2
-zahtevalo	1333		2
-zahvatalo	35		3
-zahvatilo	569		3
-zaigralo	143		2
+zahladnilo			3
+zahrđalo			3
+zahtevalo	1333		3
+zahvatalo	35		4
+zahvatilo	569		4
+zaigralo	143		3
 zaigravalo			2
 zainteresovalo	329		2
-zaiskrilo			2
+zaiskrilo			3
 zajelo			2
 zakasnelo		M	2
-zakasnilo	127		2
-zakazalo	168		2
-zakačilo	64		2
-zakeralo		M	2
-zakidalo			2
-zakitilo			2
-zaklalo			2
-zaklanjalo	20		3
+zakasnilo	127		3
+zakazalo	168		3
+zakačilo	64		3
+zakeralo		M	3
+zakidalo			3
+zakitilo			3
+zaklalo			3
+zaklanjalo	20		4
 zaklelo	11		2
-zakliktalo			2
-zaklinjalo	13		3
-zaključalo	14		2
-zaključilo	762		2
+zakliktalo			3
+zaklinjalo	13		4
+zaključalo	14		3
+zaključilo	762		3
 zakompliciralo			2
 zakomplikovalo	104		2
-zakopalo	14		2
-zakočilo	36		2
-zakrčilo	14		2
-zakržljalo	41		2
-zakucalo	61		2
-zakukalo			2
-zakuvalo	115		2
-zalagalo	50		2
-zalajalo			2
-zalazilo	105		3
-zaledilo	47		2
+zakopalo	14		3
+zakočilo	36		3
+zakrčilo	14		3
+zakržljalo	41		3
+zakucalo	61		3
+zakukalo			3
+zakuvalo	115		3
+zalagalo	50		3
+zalajalo			3
+zalazilo	105		4
+zaledilo	47		3
 zaleglo			2
-zalepilo	43		2
-zalevalo			2
-zalilo	11		2
-zalivalo			2
-zaljubilo	29		2
-zaljuljalo	22		2
-založilo	36		2
-zalutalo	78		2
-zamaglilo	26		2
-zamahnulo			2
+zalepilo	43		3
+zalevalo			3
+zalilo	11		3
+zalivalo			3
+zaljubilo	29		3
+zaljuljalo	22		3
+založilo	36		3
+zalutalo	78		3
+zamaglilo	26		3
+zamahnulo			3
 zamajavalo			2
-zamalo	2169		2
-zamaralo	26		2
-zamenilo	304		2
-zamenjivalo	14		2
-zameralo	62		2
-zamesilo			2
-zametnulo			3
-zamiralo	11		2
+zamalo	2169		3
+zamaralo	26		3
+zamenilo	304		3
+zamenjivalo	14		3
+zameralo	62		3
+zamesilo			3
+zametnulo			4
+zamiralo	11		3
 zamirisalo	39		2
-zamislilo	25		3
-zamišljalo	23		2
-zamolilo	50		2
-zamorilo	11		2
-zamračilo	21		2
+zamislilo	25		4
+zamišljalo	23		3
+zamolilo	50		3
+zamorilo	11		3
+zamračilo	21		3
 zamračivalo			2
 zamrlo	195		2
-zamrzlo			2
+zamrzlo			3
 zamuckivalo			2
 zamuklo			2
-zamutilo	28		2
+zamutilo	28		3
 zanelo	24		2
-zanemarilo	30		2
+zanemarilo	30		3
 zanemelo	13		2
-zanimalo	2408		2
+zanimalo	2408		3
 zanovetalo	13		2
 zaobilazilo	10		2
 zaobišlo	95		2
 zaogrnulo			2
-zaokružilo	130		2
+zaokružilo	130		3
 zaokupilo	37		2
 zaokupljalo	33		2
-zaoralo			2
-zaostajalo	30		3
-zaostalo	234		2
-zaoštrilo	41		2
-zapadalo			3
-zapalilo	186		2
-zapalo	507		2
+zaoralo			3
+zaostajalo	30		4
+zaostalo	234		3
+zaoštrilo	41		3
+zapadalo			4
+zapalilo	186		3
+zapalo	507		3
 zapamtilo	40		3
-zapanjilo	108		2
+zapanjilo	108		3
 zapanjivalo			2
-zapatilo	31		2
-zapazilo	33		3
-zapažalo	10		2
-zapeklo	19		2
+zapatilo	31		3
+zapazilo	33		4
+zapažalo	10		3
+zapeklo	19		3
 zapelo	437		2
-zapetljalo	11		2
-zapevalo	22		2
+zapetljalo	11		3
+zapevalo	22		3
 zapečatilo	23		2
 zapitkivalo			2
-zapištalo			2
-zaplakalo	42		2
+zapištalo			3
+zaplakalo	42		3
 zaplamtelo			2
-zaplašilo	17		3
+zaplašilo	17		4
 zaplelo	10		2
-zaplenilo	14		2
+zaplenilo	14		3
 zapodenulo			2
 zaposelo	29		2
-zaposlilo	412		2
-zapovedalo			2
+zaposlilo	412		3
+zapovedalo			3
 započelo	2104		2
 započinjalo	28		2
-zapremalo			2
+zapremalo			3
 zaprepastilo	115		2
-zapretalo			2
-zapretilo	76		2
-zapucalo	39		2
+zapretalo			3
+zapretilo	76		3
+zapucalo	39		3
 zapupelo			2
-zaputilo	16		2
-zapušilo	25		3
-zaradilo	217		2
+zaputilo	16		3
+zapušilo	25		4
+zaradilo	217		3
 zaradovalo			2
 zaraslo	152		2
-zaratilo	35		3
-zarazilo	46		2
-zarađivalo	103		2
-zarilo	13		2
-zarivalo			2
-zarobilo	25		2
-zarđalo	44		2
-zasedalo	62		2
+zaratilo	35		4
+zarazilo	46		3
+zarađivalo	103		3
+zarilo	13		3
+zarivalo			3
+zarobilo	25		3
+zarđalo	44		3
+zasedalo	62		3
 zaselo	15		2
-zasenilo	38		3
-zasijalo	103		2
-zasitilo	24		3
-zasjalo	30		2
-zaskočilo			2
+zasenilo	38		4
+zasijalo	103		3
+zasitilo	24		4
+zasjalo	30		3
+zaskočilo			3
 zaslepelo			2
-zaslepilo	18		2
-zaslužilo	204		2
-zasmetalo	786		2
-zasnivalo	122		2
-zasnovalo	73		2
-zaspalo	85		2
-zastajalo			3
-zastalo	145		2
+zaslepilo	18		3
+zaslužilo	204		3
+zasmetalo	786		3
+zasnivalo	122		3
+zasnovalo	73		3
+zaspalo	85		3
+zastajalo			4
+zastalo	145		3
 zastarelo	637		2
-zastranilo			2
-zastupalo	43		2
-zasuzilo			2
+zastranilo			3
+zastupalo	43		3
+zasuzilo			3
 zasvrbelo	19		2
-zatajilo	39		2
+zatajilo	39		3
 zateglo			2
-zateklo	258		2
-zatezalo	73		2
-zatražilo	1268		2
-zatrebalo	172		2
+zateklo	258		3
+zatezalo	73		3
+zatražilo	1268		3
+zatrebalo	172		3
 zatreperelo			2
 zatreslo	29		2
 zatrlo	43		2
-zatrovalo	13		2
-zatrpalo	34		2
-zaturilo	21		2
-zatvorilo	235		2
-zaudaralo	33		3
-zaustavilo	776		3
-zaustavljalo	42		3
+zatrovalo	13		3
+zatrpalo	34		3
+zaturilo	21		3
+zatvorilo	235		3
+zaudaralo	33		4
+zaustavilo	776		4
+zaustavljalo	42		4
 zauzelo	340		2
-zauzimalo	122		3
-zavaralo	14		3
-zavelo	38		2
-zaverilo			2
+zauzimalo	122		4
+zavaralo	14		4
+zavelo	38		3
+zaverilo			3
 zavetovalo			2
-zavezalo			2
+zavezalo			3
 zavijorilo			2
-zavilo	14		2
-zavirivalo			2
-zavisilo	684		3
-zavitlalo			2
-zavladalo	205		2
-zavodilo			2
-zavolelo	23		2
-zavredelo	23		2
-zavrištalo			2
-zavrljalo			2
+zavilo	14		3
+zavirivalo			3
+zavisilo	684		4
+zavitlalo			3
+zavladalo	205		3
+zavodilo			3
+zavolelo	23		3
+zavredelo	23		3
+zavrištalo			3
+zavrljalo			3
 zavrtelo	139		2
-završavalo	408		3
-završilo	5173		2
+završavalo	408		4
+završilo	5173		3
 zavuklo	22		2
-zazimilo			2
-zaziralo	14		2
-zazjavalo			2
-zazvonilo	77		2
-zazvućalo			2
-zazvučalo	62		2
-zaćutalo	22		2
-začalo			2
+zazimilo			3
+zaziralo	14		3
+zazjavalo			3
+zazvonilo	77		3
+zazvućalo			3
+zazvučalo	62		3
+zaćutalo	22		3
+začalo			3
 začelo	59		2
-začepilo			2
-začudilo	548		3
+začepilo			3
+začudilo	548		4
 začulo	210		2
-zaškripalo	26		2
+zaškripalo	26		3
 zašlo	191		2
-zaštitilo	299		2
-zašuškalo			2
-zažarilo			2
+zaštitilo	299		3
+zašuškalo			3
+zažarilo			3
 zažeglo			2
-zaželelo			2
+zaželelo			3
 zaživelo	353		2
 zažutelo			2
-zbacilo			2
+zbacilo			3
 zbilo	770		2
-zbivalo	364		2
-zbližilo	58		2
+zbivalo	364		3
+zbližilo	58		3
 zbrinulo	18		3
 zbrisalo	21		3
-zbrkalo			2
-zbunilo	307		2
-zbunjivalo	102		2
+zbrkalo			3
+zbunilo	307		3
+zbunjivalo	102		3
 zdelo			2
 zdjelo			2
-zelenilo	3218		2
-zevalo			2
+zelenilo	3218		3
+zevalo			3
 zeznulo	32		2
 zgadilo	66		3
 zgaslo			2
-zgodilo	12		2
+zgodilo	12		3
 zgrabilo	13		3
-zgrešilo			2
-zgrnulo			2
+zgrešilo			3
+zgrnulo			3
 zgrtalo			3
-zgrudvalo			2
-zgrušalo			2
-zgrčilo	16		2
+zgrudvalo			3
+zgrušalo			3
+zgrčilo	16		3
 zgusnulo	13		3
-zgušnjavalo			2
-zidalo	35		2
+zgušnjavalo			3
+zidalo	35		3
 zinulo	92		3
 zlo	16602		1
-zlodelo	154		2
-zlopamtilo	134		2
+zlodelo	154		3
+zlopamtilo	134		3
 znalo	6332		2
-značilo	11589		2
-znojilo	10		2
-zorilo			2
-zračilo	58		2
+značilo	11589		3
+znojilo	10		3
+zorilo			3
+zračilo	58		3
 zrelo	1163		2
-zubalo	69		2
-zuckalo			2
-zujalo	48		2
-zurilo	17		2
+zubalo	69		3
+zuckalo			3
+zujalo	48		3
+zurilo	17		3
 zvalo	1466		2
-zveckalo	11		2
-zveketalo			2
+zveckalo	11		3
+zveketalo			3
 zveknulo	13		3
-zvečalo			2
-zviždalo	59		2
-zviždukalo			2
-zvonilo	142		2
-zvučalo	1853		2
-zvučilo	15		2
+zvečalo			3
+zviždalo	59		3
+zviždukalo			3
+zvonilo	142		3
+zvučalo	1853		3
+zvučilo	15		3
 ćaskalo	14		3
 ćelo			2
-ćirilo			2
-ćutalo	239		2
-ćutilo			2
-čabrilo			2
-čamilo	13		2
-čangrizalo			2
-častilo			2
-čavrljalo			2
+ćirilo			3
+ćutalo	239		3
+ćutilo			3
+čabrilo			3
+čamilo	13		3
+čangrizalo			3
+častilo			3
+čavrljalo			3
 čekalo	2578		3
-čeketalo			2
+čeketalo			3
 čelo	7144		2
-čembalo	83		2
-čerečilo			2
-čestitalo	37		2
-četkalo			2
+čembalo	83		3
+čerečilo			3
+čestitalo	37		3
+četkalo			3
 čeznulo	19		3
-čikalo			2
+čikalo			3
 čilo	62		2
-činilo	9141		2
-čistilo	109		2
-čitalo	215		2
-čokorilo			2
-črčkalo			2
-čubrilo			2
+činilo	9141		3
+čistilo	109		3
+čitalo	215		3
+čokorilo			3
+črčkalo			3
+čubrilo			3
 čudilo	948		3
 čulo	4548		2
-čupalo	15		2
-čuturilo			2
-čuvalo	262		2
-čučalo	15		2
+čupalo	15		3
+čuturilo			3
+čuvalo	262		3
+čučalo	15		3
 čučnulo			3
 đankarlo			2
-šapnulo			2
-šaptalo	10		2
-šaputalo	61		2
-šarenilo	543		2
-šetalo	88		2
-ševrdalo		M	2
-šibalo			2
-šiljilo		M	2
+šapnulo			3
+šaptalo	10		3
+šaputalo	61		3
+šarenilo	543		3
+šetalo	88		3
+ševrdalo		M	3
+šibalo			3
+šiljilo		M	3
 šilo	124		2
-širilo	325		2
-šištalo			2
+širilo	325		3
+šištalo			3
 škodilo	272		3
 školo			2
 školovalo	51		4
-škrabalo	10		2
-škripalo	96		2
-škropilo			2
-škrtarilo			3
-šokiralo	230		2
+škrabalo	10		3
+škripalo	96		3
+škropilo			3
+škrtarilo			4
+šokiralo	230		3
 šomlo			2
 štampalo	84		3
-štavilo			2
-štedelo	209		2
+štavilo			3
+štedelo	209		3
 štetilo	140		3
 štimalo	63		3
-štipalo			2
-štirkalo			2
+štipalo			3
+štirkalo			3
 štitilo	127		3
-štrcalo			2
-štrčalo	19		2
-šukalo			2
-šumilo			2
-šunjalo	10		2
+štrcalo			3
+štrčalo	19		3
+šukalo			3
+šumilo			3
+šunjalo	10		3
 šuškalo	275		3
-šušljetalo			2
+šušljetalo			3
 šušnulo	17		2
-šuštalo	17		2
-švercovalo	21		2
-ščepalo			2
+šuštalo	17		3
+švercovalo	21		3
+ščepalo			3
 žalilo	233		3
 žalo	36		2
-žalostilo	12		2
-žarilo	17		2
+žalostilo	12		3
+žarilo	17		3
 ždrelo	385		2
 žeglo			2
-želelo	927		2
-željelo	73	J	2
-žestilo			2
+želelo	927		3
+željelo	73	J	3
+žestilo			3
 žezlo	132		2
-žigalo			2
+žigalo			3
 žigolo	41		3
 žilo		M	2
-živelo	3108		2
+živelo	3108		3
 životarilo			2
 žnjelo			2
 žrtvovalo	29		4
-žudelo	18		2
-žudilo			2
-žuljilo			2
-žurilo	327		2
-žutilo	98		2
-žvakalo	10		2
+žudelo	18		3
+žudilo			3
+žuljilo			3
+žurilo	327		3
+žutilo	98		3
+žvakalo	10		3
 andjelo			2
 bijelo			2
-bjesnilo			2
+bjesnilo			3
 cijelo	1055		2
 cjelo			2
-dijelilo	34		3
+dijelilo	34		4
 dijelo			2
 djelo			2
 djelovalo			4
 donijelo	402		3
 dospjelo	29		2
-gorjelo	25		2
+gorjelo	25		3
 htjelo	119		2
 izbjeglo			2
 izgorjelo	62		2
 izletjelo			2
-izliječilo			3
+izliječilo			4
 izmijenilo			2
 letjelo			2
-mijenjalo	42		3
+mijenjalo	42		4
 mjerilo			3
 nanijelo	25		2
-natjeralo			3
+natjeralo			4
 nedjelo			2
 odijelo	274		2
 odjelo			2
@@ -3416,68 +3416,68 @@ odnijelo	25		3
 ogrubjelo			2
 okrijepilo			2
 opijelo	52		2
-osjetilo			2
-osjećalo			3
-otjeralo			3
-pobijedilo	25		3
-pobjeglo			2
+osjetilo			3
+osjećalo			4
+otjeralo			4
+pobijedilo	25		4
+pobjeglo			3
 podnijelo	82		3
-podsjetilo			3
-podsjećalo			3
+podsjetilo			4
+podsjećalo			4
 poludjelo			2
 ponijelo	10		2
 porijeklo	720		2
 posijelo			2
-posjetilo			3
-povrijedilo	18		3
-prekipjelo			2
+posjetilo			4
+povrijedilo	18		4
+prekipjelo			3
 prenijelo	28		3
 presmjelo			2
 preživjelo	45		2
 prijelo			2
-prijetilo	42		3
+prijetilo	42		4
 prohtjelo	13		2
 proletjelo			2
-promijenilo	369		3
-promjenilo			2
-protjeralo			3
-rasjeklo			2
-riješilo	72		3
-rješavalo			3
-sagorjelo			2
+promijenilo	369		4
+promjenilo			3
+protjeralo			4
+rasjeklo			3
+riješilo	72		4
+rješavalo			4
+sagorjelo			3
 sijelo	63		2
 sjelo			2
 sletjelo	17		2
-slijedilo	70		3
+slijedilo	70		4
 smjelo	239		2
 smjestilo			3
-smrdjelo			2
-spriječilo			3
-sprječavalo			3
+smrdjelo			3
+spriječilo			4
+sprječavalo			4
 svidjelo	157		3
-svijetlo	395		2
+svijetlo	395		3
 svjetlo			2
 tijelo	3446		2
 tjelo			2
 tjeralo			3
 tješilo			3
 uletjelo			2
-umjelo			2
+umjelo			3
 unijelo			3
 uslijedilo	255		2
 uspijelo			2
-uspijevalo	30		3
+uspijevalo	30		4
 uspjelo	480		2
-uvjerilo			3
-uvrijedilo	14		3
-uvriježilo			3
+uvjerilo			4
+uvrijedilo	14		4
+uvriježilo			4
 vidjelo	675		3
 vjerovalo			4
-vrtjelo	14		2
-zahtijevalo	61		3
-zamijenilo	25		3
+vrtjelo	14		3
+zahtijevalo	61		4
+zamijenilo	25		4
 zaposjelo			2
 zastarjelo	20		2
 zavrtjelo			2
 ždrijelo	50		2
-živjelo	321		2
+živjelo	321		3

@@ -1,6 +1,6 @@
 1273
-Jupiteru			3
-Kairu			2
+Jupiteru			4
+Kairu			3
 Peru	2474		2
 Veneru			2
 aberu			2
@@ -11,7 +11,7 @@ advokaturu	146		2
 aferu	1934		2
 agenturu	20		2
 agraru	847		2
-agresoru	118		3
+agresoru	118		4
 agrikulturu	15		2
 ajvaru	28		2
 akceleratoru	126		3
@@ -24,13 +24,13 @@ algebru	92		2
 alhemičaru	12		2
 alibunaru			2
 aligatoru			3
-alkoholičaru	31		3
+alkoholičaru	31		4
 alžiru			2
 amateru	59		2
 ambaru	68		3
 ambasadoru	932		3
 amfiteatru	1320		2
-amforu	19		2
+amforu	19		3
 amperu	25		2
 ankaru			2
 antialkoholičaru			2
@@ -38,21 +38,21 @@ antikvaru			2
 aparaturu	225		2
 aplikatoru			2
 apotekaru	39		2
-arbitru	79		2
+arbitru	79		3
 arhitekturu	3787		2
 armaturu	180		2
 arturu			2
 aspiratoru			2
-astrofizičaru			3
+astrofizičaru			4
 asuru			2
 ataru	2112		3
 atentatoru	32		3
-atletičaru	32		3
+atletičaru	32		4
 atmosferu	11683		2
 auroru			2
 auru	324		2
 autolimaru			2
-autoru	7348		3
+autoru	7348		4
 autsajderu			2
 avanturu	3259		2
 avataru	108		2
@@ -60,7 +60,7 @@ azru			2
 azuru			2
 baburu	29		2
 baferu			2
-bageru	162		2
+bageru	162		3
 bagru			2
 bajoru			2
 bakru	147		2
@@ -68,7 +68,7 @@ baltimoru			2
 banderu			2
 baneru	56		2
 bankaru	65		2
-barbaru	16		2
+barbaru	16		3
 barijeru	878		2
 barjaktaru	22		2
 barometru	65		4
@@ -79,7 +79,7 @@ bačvaru			3
 bedru	50		2
 beharu			2
 beru	770		2
-bestseleru	159		2
+bestseleru	159		3
 bećaru			2
 bećiru			2
 biberu			2
@@ -88,7 +88,7 @@ bilijaru	74		2
 biljaru			2
 bioenergetičaru			2
 biosferu	63		2
-biseru	139		2
+biseru	139		3
 bistru	174		2
 bjelovaru			2
 blagomiru			2
@@ -98,7 +98,7 @@ bogomiru			2
 bojleru	149		2
 bokoru			2
 bokseru	93		2
-bolničaru			3
+bolničaru			4
 bombarderu	35		2
 bombonijeru			2
 bombonjeru			2
@@ -122,8 +122,8 @@ bulevaru			2
 bumbaru	13		3
 bunaru	502		2
 bundesveru			2
-bunkeru	340		2
-burazeru	299		2
+bunkeru	340		3
+burazeru	299		3
 burgeru			2
 buru	1087		2
 buteru	38		2
@@ -133,7 +133,7 @@ cedru			2
 celeru	23		3
 cementaru			2
 centarforu	46		4
-centimetru	102		3
+centimetru	102		4
 centru	64598		2
 cenzoru	14		3
 cenzuru	704		2
@@ -159,14 +159,14 @@ davoru			2
 debaru			2
 decembru	11101		2
 decilitru	35		2
-decimetru			3
+decimetru			4
 dedijeru			2
 dekoru	140		2
 denveru			2
 deru	1013		2
 desetaru			2
 desimiru			2
-detektoru	116		3
+detektoru	116		4
 detonatoru			2
 devojčuru			2
 dezerteru			2
@@ -175,10 +175,10 @@ diktatoru	197		3
 diktaturu	1055		2
 dileru	124		3
 dinaru	399		3
-direktoru	4262		3
+direktoru	4262		4
 dispanzeru	538		2
 dispečeru	18		2
-dizajneru	184		2
+dizajneru	184		3
 dizdaru			2
 dobošaru			2
 dobrotvoru	119		4
@@ -189,10 +189,10 @@ doktoru	1182		3
 dolaru	772		3
 domaru	34		2
 donatoru	115		3
-dopiru	748		2
+dopiru	748		3
 dopru	386		2
 dragomiru			2
-dragstoru	40		2
+dragstoru	40		3
 dresuru	125		2
 drugaru	385		2
 drvaru	109		2
@@ -203,15 +203,15 @@ duvanjaru			2
 duvaru	27		3
 dvoru	4196		2
 džaferu			2
-džemperu	114		2
+džemperu	114		3
 džibru			2
-džokeru			2
+džokeru			3
 editoru	229		2
 egzekutoru	14		3
 ekseru			2
 ekvadoru			2
 ekvatoru	207		3
-električaru	17		3
+električaru	17		4
 eleonoru			2
 elviru			2
 emiru			2
@@ -232,11 +232,11 @@ februaru	9423		4
 fenjeru			2
 feru			2
 figuru	1690		2
-fijakeru	54		2
-filteru	169		2
+fijakeru	54		3
+filteru	169		3
 fireru	49		2
 fiskulturu	70		2
-fizičaru	93		3
+fizičaru	93		4
 flajeru	42		2
 fliperu	21		2
 floru	535		2
@@ -254,7 +254,7 @@ frizuru	2217		2
 frižideru	2234		2
 fudbaleru	477		2
 fukaru			2
-gangsteru	11		2
+gangsteru	11		3
 garderoberu	98		2
 garnituru	502		2
 garsonjeru			2
@@ -276,12 +276,12 @@ gnjavatoru			3
 gomoru			2
 goru	2997		2
 gospodaru	1783		2
-gostioničaru	15		3
+gostioničaru	15		4
 gostivaru			2
 govoru	5323		3
 gradimiru			2
 gradinaru			2
-graničaru	18		3
+graničaru	18		4
 graveru			2
 graviru			2
 gravuru	38		2
@@ -304,12 +304,12 @@ hardveru	592		3
 heksametru	12		4
 hektaru	5103		3
 hektolitru	13		2
-helikopteru	128		2
+helikopteru	128		3
 hemisferu	145		2
-hemičaru	22		3
+hemičaru	22		4
 hidru	31		2
 hilandaru			2
-himeru	31		2
+himeru	31		3
 hiperprostoru			2
 hiru	77		2
 hitleru			2
@@ -322,7 +322,7 @@ horu	984		2
 hrabru	340		2
 hristiforu			2
 hromosferu			2
-humoru	360		2
+humoru	360		3
 hvaru			2
 igoru			2
 igru	29171		2
@@ -333,9 +333,9 @@ indiru			2
 infrastrukturu	10592		2
 inkubatoru	344		3
 inkvizitoru	45		3
-inspektoru	447		3
+inspektoru	447		4
 instalateru	12		2
-instruktoru	86		3
+instruktoru	86		4
 inventaru	163		2
 inventuru	21		2
 investitoru	1302		3
@@ -343,21 +343,21 @@ inženjeru	220		2
 inžinjeru			2
 isidoru			2
 iskru	359		2
-isperu	135		2
-ispiru	39		2
+isperu	135		3
+ispiru	39		3
 istoričaru	286		2
 istovaru	82		4
 istru			2
 iveru	41		3
-izaberu	3776		2
-izabiru	16		2
-izboru	17873		2
+izaberu	3776		3
+izabiru	16		3
+izboru	17873		3
 izdiru			2
 izgovoru	326		4
-izumiru	332		2
+izumiru	332		3
 izumru	96		2
 izviru	521		2
-izvoru	2804		2
+izvoru	2804		3
 jabučaru			2
 jadru			2
 jaguaru	38		4
@@ -367,7 +367,7 @@ jaru	33		2
 javoru	193		3
 jašaru			2
 jedru	125		2
-jesetru			2
+jesetru			3
 jetru	1167		2
 jezdimiru			2
 jezeru	6254		3
@@ -381,9 +381,9 @@ kalamburu	17		2
 kalderu			2
 kalendaru	4250		2
 kalibru	469		2
-kaluđeru	71		3
+kaluđeru	71		4
 kamenjaru	179		2
-kameru	4677		2
+kameru	4677		3
 kamperu			2
 kancelaru	107		2
 kandidaturu	3387		2
@@ -392,7 +392,7 @@ kantaru	63		3
 kaparu	194		2
 kaplaru	22		3
 kaporu			2
-karakteru	2739		2
+karakteru	2739		3
 karburatoru	17		2
 karijeru	16662		2
 karikaturu	491		2
@@ -417,7 +417,7 @@ klavijaturu	42		2
 klaviru	564		2
 kleopatru			2
 klisaru			2
-klisuru	682		2
+klisuru	682		3
 klošaru	14		2
 knjižaru	519		2
 kobru	33		2
@@ -425,23 +425,23 @@ kockaru	14		3
 koferu			2
 kolaru			2
 kolekcionaru	65		2
-kolektoru	120		3
-koleru	45		2
+kolektoru	120		4
+koleru	45		3
 koloru			2
 kolubaru			2
 komandiru	123		2
 komentaru	4609		2
 komesaru	250		2
 komforu	441		2
-komičaru	35		3
+komičaru	35		4
 komodoru			2
-komoru	1301		2
-kompjuteru	2220		2
-kompresoru	73		3
+komoru	1301		3
+kompjuteru	2220		3
+kompresoru	73		4
 kondukteru	40		2
 konjušaru			2
 konobaru	177		4
-kontejneru	472		2
+kontejneru	472		3
 kontroloru	88		2
 kontru			2
 konturu	102		2
@@ -456,19 +456,19 @@ kosturu	71		3
 kotaru	152		3
 kotoru			2
 kozaru	53		2
-košaru	52		2
+košaru	52		3
 košmaru			2
 kožaru	22		3
 kožuru			2
 krajcaru			2
 kramaru			2
-krateru	214		2
+krateru	214		3
 kreatoru			2
 kreaturu	37		2
 krekeru			3
 krečaru			2
-krijumčaru			3
-kritičaru	146		3
+krijumčaru			4
+kritičaru	146		4
 krompiru	236		2
 krovinjaru			2
 kru		M	1
@@ -501,28 +501,28 @@ lektoru	31		2
 lekturu	95		2
 lepru			2
 leptiru	53		3
-levičaru	22		3
-lešinaru			3
+levičaru	22		4
+lešinaru			4
 lianderu			2
 licemeru	26		4
-lideru	1317		2
+lideru	1317		3
 likeru	10		2
 limaru	13		3
-liričaru			3
+liričaru			4
 liru	120		2
 literaturu	3407		2
 litru	1996		2
 ljubomiru			2
-ljubomoru	688		2
-ljudožderu			2
-ljušturu	185		2
+ljubomoru	688		3
+ljudožderu			3
+ljušturu	185		3
 loaru			2
 logoru	2651		3
 lokatoru			2
 lončaru	21		2
 loparu			2
 ludaru	41		2
-lusteru	47		2
+lusteru	47		3
 lutkaru			3
 luvru			2
 luzeru	14		2
@@ -535,10 +535,10 @@ majuru			2
 maksimiru			2
 maleru			2
 maloveru			2
-malteru	196		2
+malteru	196		3
 manastiru	11613		4
 mandataru	103		2
-mandragoru			2
+mandragoru			3
 manevru	130		2
 manikuru			2
 maniru	2353		2
@@ -551,25 +551,25 @@ maru	164		2
 masakru	346		2
 maseru			2
 maskaru	432		2
-matematičaru	88		3
+matematičaru	88		4
 matičaru	56		2
 matoru	89		3
 maturu	1094		2
 mauzeru			2
 mačoru	26		3
 mađaru			2
-mađioničaru	37		3
-mehaničaru	24		3
+mađioničaru	37		4
+mehaničaru	24		4
 mehuru	67		3
 mejru			2
 memoaru	18		2
-menadžeru	523		3
+menadžeru	523		4
 mentoru	148		2
 merdaru			2
 mermeru	236		3
 meru	8257		2
 mesaru	134		3
-metaforu	637		2
+metaforu	637		3
 meteoru	50		2
 metru	2719		2
 mezgru			2
@@ -585,7 +585,7 @@ milioneru	50		2
 milomiru			2
 miločeru			2
 minijaturu	80		2
-ministru	6909		2
+ministru	6909		3
 minotauru	30		2
 miomiru			2
 miru	11382		2
@@ -598,7 +598,7 @@ moderatoru	201		2
 modru	48		2
 mokru	514		2
 momiru			2
-monitoru	1316		3
+monitoru	1316		4
 monmartru			2
 monsinjoru			2
 montažeru	12		2
@@ -606,7 +606,7 @@ mornaru	74		2
 moru	13202		2
 mostaru			2
 motoru	1949		2
-močvaru	161		2
+močvaru	161		3
 mramoru	35		3
 mudru	335		2
 munaru	18		2
@@ -616,21 +616,21 @@ muskulaturu	227		2
 mustru			2
 muzaru	53		2
 muzičaru	211		2
-naberu	55		2
-naboru	22		2
+naberu	55		3
+naboru	22		3
 nadiru	139		2
 nadrilekaru			2
 nadziru			2
-nadzoru	1162		2
+nadzoru	1162		3
 naforu	59		2
 nagovoru	307		4
 najgoru	404		3
-najširu	377		2
+najširu	377		3
 namastiru			2
 nameru	13587		3
 namiru			2
 naperu			2
-naporu	1115		2
+naporu	1115		3
 naratoru	37		2
 naru	80		2
 nastiru			2
@@ -638,7 +638,7 @@ naturu	18		2
 navigatoru	20		2
 naviru	382		2
 naziru	769		2
-nazoru	23		2
+nazoru	23		3
 nazru	16		2
 neboderu	48		4
 nedobru			2
@@ -650,7 +650,7 @@ nemaru	159		3
 nemiru	110		3
 neseseru			2
 nesrazmeru	49		2
-neveru	95		2
+neveru	95		3
 nigeru			2
 nikanoru			2
 nikiforu			2
@@ -666,17 +666,17 @@ obaziru	258		2
 obazru			2
 oberu	52		2
 oboru	89		2
-obućaru	22		3
+obućaru	22		4
 obziru	49		3
-obzoru	24		2
-odaberu	1585		2
+obzoru	24		3
+odaberu	1585		3
 odabiru	2179		4
 odbiru			2
-odboru	9261		2
+odboru	9261		3
 oderu	295		2
 odgovoru	5952		4
-odmoru	3649		2
-odoru	200		2
+odmoru	3649		3
+odoru	200		3
 odru	221		2
 odumiru	250		2
 odumru	26		2
@@ -700,14 +700,14 @@ opozicionaru	21		2
 opru			2
 opsenaru			2
 organizatoru	897		3
-orkestru	711		2
+orkestru	711		3
 ormaru	611		2
 oružaru			2
 oskaru	17		2
 otiru	10		2
-otmičaru	17		3
-otporu	935		2
-otvoru	315		2
+otmičaru	17		4
+otporu	935		3
+otvoru	315		3
 overu	915		3
 ovčaru	77		2
 oštru	1185		2
@@ -734,7 +734,7 @@ pelceru			2
 pendžeru			2
 penjoaru			2
 penzioneru			2
-pepeljaru	129		2
+pepeljaru	129		3
 perimetru	11		2
 perperu			2
 peteru			2
@@ -743,7 +743,7 @@ pećinaru			2
 peškiru	60		2
 pešteru	353		2
 peščaru	95		2
-pijanduru	21		2
+pijanduru	21		3
 pioniru	868		2
 piru	78		2
 pisaru	37		2
@@ -770,17 +770,17 @@ podupru	74		2
 poglavaru	171		2
 pogovoru	166		4
 poharu			2
-pokeru	362		2
+pokeru	362		3
 poklisaru			2
 pokoru	41		2
 polemičaru			2
-političaru	659		3
+političaru	659		4
 polumiru			2
 polusestru	33		4
 pomoru	46		2
 pomru	84		2
 poniru	55		2
-ponoru	146		2
+ponoru	146		3
 poparu	73		2
 poperu			2
 porfiru	55		2
@@ -794,7 +794,7 @@ potporu	1732		3
 potru			2
 potvoru			2
 pozeru			2
-pozoru			2
+pozoru			3
 poštaru	113		3
 požaru	1886		3
 požderu	11		2
@@ -806,11 +806,11 @@ predgovoru	931		4
 predigru	299		3
 prefekturu	27		2
 pregovoru	40		4
-prekoru	13		2
+prekoru	13		3
 premeru	175		2
 premijeru	6899		2
 premudru			2
-prepiru	203		2
+prepiru	203		3
 pretoru			2
 pretovaru	16		2
 pretpremijeru	45		2
@@ -819,58 +819,58 @@ previru			2
 preziru	745		3
 prezru	29		2
 priberu	28		2
-priboru	137		2
+priboru	137		3
 prigovoru	658		4
 prijedoru			2
-primeru	7579		2
+primeru	7579		3
 primoru			2
-printeru	50		2
-prismotru	76		2
-pritvoru	4778		2
-prizoru	344		2
+printeru	50		3
+prismotru	76		3
+pritvoru	4778		3
+prizoru	344		3
 prnjavoru			2
 proceduru	7554		2
 procesoru	1335		2
 proderu			2
-prodiru	753		2
-prodoru	394		2
+prodiru	753		3
+prodoru	394		3
 prodru	514		2
-profesoru	1948		3
+profesoru	1948		4
 profesuru	35		2
 profiteru	13		2
 progovoru			2
 programeru	136		2
 prohoru			2
 projaru			2
-projektoru	103		3
+projektoru	103		4
 proleteru	57		2
 promjeru	51	J	2
 proneveru	226		4
-properu	12		2
+properu	12		3
 prosforu	18		2
-prostiru	946		2
-prostoru	38229		2
+prostiru	946		3
+prostoru	38229		3
 prostru	55		2
 provajderu	244		2
 proveru	5439		3
 providuru	61		2
 proziru	15		2
-prozoru	2591		2
+prozoru	2591		3
 prozru	34		2
 prožderu	23		2
 proždiru	140		2
 psaltiru	22		2
 psihijatru	214		2
 ptičaru			3
-puderu	36		2
+puderu	36		3
 pudrijeru			2
 puloveru	10		2
 purpuru	22		2
 puru	11		2
-pustaru	65		2
+pustaru	65		3
 puteru	182		3
 putiru	20		2
-pušioničaru			3
+pušioničaru			4
 rabarbaru			2
 radaru	240		3
 radijatoru	123		3
@@ -879,18 +879,18 @@ rasporu			2
 rasprostiru	95		2
 rasprostru	17		2
 raspru	38		2
-rastvoru	302		2
+rastvoru	302		3
 rataru	20		3
 ratomiru			2
-razaberu	19		2
-razabiru	13		2
+razaberu	19		3
+razabiru	13		3
 razastiru			2
 razberu			2
 razderu	12		2
-razdiru	94		2
-razdoru	54		2
+razdiru	94		3
+razdoru	54		3
 razgovoru	15024		4
-razmeru	168		2
+razmeru	168		3
 računaru	9049		2
 reaktoru	263		2
 rebru	25		2
@@ -910,7 +910,7 @@ respiratoru	46		3
 retrovizoru	201		2
 reveru	207		2
 revizoru	114		2
-revolveru	20		2
+revolveru	20		3
 rezervoaru	576		2
 režiseru	212		2
 ribaru	75		3
@@ -921,9 +921,9 @@ rizničaru			2
 ru		M	1
 rudaru	138		2
 rupturu	46		2
-saberu	664		2
-sabiru	25		2
-saboru	2794		2
+saberu	664		3
+sabiru	25		3
+saboru	2794		3
 sadru			2
 safiru			2
 saharu			2
@@ -939,19 +939,19 @@ sapunaru			2
 sartru			2
 saru	392		2
 sataru	35		2
-satiričaru	19		3
+satiričaru	19		4
 satiru	475		2
 satru	122		2
 sazru	156		2
 sačmaru			2
-sekiru	376		2
+sekiru	376		3
 sekretaru	1349		2
 sektoru	24658		3
-selektoru	803		3
+selektoru	803		4
 selendru	40		2
 seljoberu			2
 semaforu	1770		4
-semestru	1524		2
+semestru	1524		3
 seminaru	4361		2
 senatoru	58		3
 senzoru	336		2
@@ -986,7 +986,7 @@ smeru	10438		2
 smetlaru			2
 smotru	900		2
 snagatoru			3
-snajperu	15		2
+snajperu	15		3
 sobaru			3
 sofru			2
 softveru	1633		3
@@ -1016,9 +1016,9 @@ strukturu	9347		2
 stuparu			2
 stvoru	81		2
 sudaru	1431		3
-sudoperu			3
+sudoperu			4
 sumporu	27		3
-sunđeru	29		2
+sunđeru	29		3
 supervizoru	29		5
 surferu	11		2
 suru	64		2
@@ -1035,23 +1035,23 @@ svinjaru	12		2
 tabakeru	29		2
 taboru	1365		3
 tahometru			2
-tajmeru	18		2
-takmičaru	214		3
-taksimetru	50		3
+tajmeru	18		3
+takmičaru	214		4
+taksimetru	50		4
 taliru			2
 tamaru			2
 tamburu	181		2
-tamničaru	20		3
+tamničaru	20		4
 tamnomodru			2
 tanjiru	1086		2
 tanjuru	26		2
-tankeru	18		2
+tankeru	18		3
 tantru	15		2
 tastaturu	2405		2
 tasteru	136		2
 teatru	2157		2
 tefteru			2
-tehničaru	68		3
+tehničaru	68		4
 teksturu	622		2
 teleporteru			2
 televizoru	618		3
@@ -1061,14 +1061,14 @@ tenderu	3397		2
 teniseru	475		2
 tenoru	18		2
 teodoru			2
-teoretičaru	65		3
+teoretičaru	65		4
 termometru	280		4
 teroru	458		2
 testeru	167		2
 tigru	132		2
 tihomiru			2
 tijaru	16		2
-tinejdžeru	148		3
+tinejdžeru	148		4
 tineru			2
 todoru			2
 topčideru			2
@@ -1076,12 +1076,12 @@ torbaru			2
 torturu	709		2
 toru	197		2
 tosteru	27		2
-tovaru	46		2
+tovaru	46		3
 traktoru	206		3
 transferu	817		2
 transporteru	77		2
-tranzistoru	34		3
-treneru	2127		2
+tranzistoru	34		4
+treneru	2127		3
 trezoru	360		2
 trigeru			2
 trileru	365		3
@@ -1096,30 +1096,30 @@ turu	1696		2
 tutoru	15		3
 tviteru	2572		2
 tvoru	15		2
-uberu	187		2
-ubiru	175		2
+uberu	187		3
+ubiru	175		3
 udaru	3814		3
-ugoru			2
+ugoru			3
 ugovoru	8169		4
 ujutru	13594		3
-ukoru			2
+ukoru			3
 ularu			2
 uljaru	22		2
-umiru	2887		2
-umoru	395		2
+umiru	2887		3
+umoru	395		3
 umru	1122		2
-upiru	296		2
+upiru	296		3
 utiru	64		2
 utovaru	126		4
 utvaru	41		3
 uvertiru	403		2
 uviru	31		2
 uzberu			2
-uzoru	3531		2
+uzoru	3531		3
 uzurpatoru	24		3
 vajaru	65		2
 vajmaru			2
-valceru	31		2
+valceru	31		3
 vampiru	86		2
 vankuveru			2
 vardaru			2
@@ -1137,7 +1137,7 @@ veru	11625		2
 veterinaru	368		2
 vetru	1504		2
 veziru			2
-večeru	5382		2
+večeru	5382		3
 vibru			2
 vidru	20		2
 vihoru	259		3
@@ -1170,7 +1170,7 @@ zamru	22		2
 zaoru	26		2
 zatiru	117		2
 zatru	157		2
-zatvoru	9424		2
+zatvoru	9424		3
 zaveru	854		3
 zaziru	357		2
 zaštitaru			2
@@ -1195,7 +1195,7 @@ zvonaru	37		2
 ćiru			2
 čabru			2
 čadoru			2
-čahuru			2
+čahuru			3
 čairu			2
 čakru	101		2
 čakširu			2
@@ -1212,14 +1212,14 @@ zvonaru	37		2
 čmaru	56		2
 čoperu			2
 čoporu	241		3
-čuturu	71		2
+čuturu	71		3
 čuvaru	298		2
 čvoru	244		2
 đauru			2
 đeveru			2
 đubretaru			2
 đuru			2
-šalteru	1644		2
+šalteru	1644		3
 šandoru			2
 šankeru			2
 šaru	273		2
@@ -1228,14 +1228,14 @@ zvonaru	37		2
 šatru	94		2
 šeheru			2
 šekspiru			2
-šećeru	244		2
+šećeru	244		3
 šeširu	344		2
 šifru	2019		2
 šikaru	55		2
 šileru			2
 šindru	16		2
 širu	3352		2
-šlageru	11		2
+šlageru	11		3
 šleperu	33		3
 šljivaru	18		2
 šmekeru	18		3
@@ -1252,7 +1252,7 @@ zvonaru	37		2
 štamparu	34		2
 štenaru	18		2
 štreberu			2
-šubaru	107		2
+šubaru	107		3
 šumaru	17		3
 šumoru			2
 šuteru	20		2
@@ -1277,16 +1277,16 @@ ljekaru			2
 mjehuru			3
 mjeru			2
 namjeru			3
-nevjeru	34	J	2
+nevjeru	34	J	3
 pjeru			2
 potjeru			3
 prijevaru			4
-primjeru			2
+primjeru			3
 pronevjeru			4
 provjeru			3
 rivijeru	122		2
 sijeru			2
-sjekiru			2
+sjekiru			3
 sjeveru			3
 smijeru			2
 smjeru			2

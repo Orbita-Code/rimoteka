@@ -4,12 +4,12 @@ bokačo			2
 davičo			2
 fočo			2
 gaučo	16		2
-glupačo	44		2
-kornjačo			2
+glupačo	44		3
+kornjačo			3
 kočo			2
-krastačo			2
-krmačo	13		2
-kutlačo			2
+krastačo			3
+krmačo	13		3
+kutlačo			3
 ljupčo			2
 ludačo			2
 lučo			2
@@ -22,10 +22,10 @@ pričo			2
 slavčo			2
 sočo			2
 tečo	18		2
-uspinjačo			2
+uspinjačo			3
 učo		M	2
 varjačo			2
-vetrenjačo			2
-vjetrenjačo			2
+vetrenjačo			3
+vjetrenjačo			3
 vučo	13		2
 čičo			2

@@ -1,12 +1,12 @@
 159
 Kubu	104		2
-Zagrebu	62		2
+Zagrebu	62		3
 aeroklubu	18		2
 babu	1332		2
 barabu			2
 bebu	8237		2
 berbu	790		2
-bezubu			2
+bezubu			3
 bobu	189		2
 bogoljubu			2
 bombu	2149		2
@@ -40,19 +40,19 @@ grubu	545		2
 gubu	57		2
 haubu			2
 hlebu	813		2
-izložbu	10180		2
-izvedbu	294		2
+izložbu	10180		3
+izvedbu	294		3
 jambu	13		2
 jastrebu			3
 jutjubu	402		2
 karibu			2
 kasabu			2
 klubu	19066		2
-kolibu	454		2
-konobu	49		2
+kolibu	454		3
+konobu	49		3
 korabu	11		2
 krabu	15		2
-krezubu			2
+krezubu			3
 ljubu		M	2
 lubu			2
 malibu			2
@@ -60,16 +60,16 @@ marabu	25		2
 miroljubu			2
 mobu	127		2
 molbu	4300		2
-nagibu	154		2
-nagodbu	446		2
-naredbu	2052		2
-narudžbu	116		2
+nagibu	154		3
+nagodbu	446		3
+naredbu	2052		3
+narudžbu	116		3
 nebu	9453		2
 obljubu	106		2
-odredbu	2476		2
+odredbu	2476		3
 ogrebu	111		2
 opskrbu	102		2
-optužbu	732		2
+optužbu	732		3
 osobu	12619		3
 oštrozubu			2
 pabu	220		2
@@ -78,19 +78,19 @@ palubu	209		3
 pečalbu			2
 plenidbu	59		2
 plombu	89		2
-plovidbu	1002		2
+plovidbu	1002		3
 pogodbu	188		2
-pogrebu	194		2
+pogrebu	194		3
 porubu	11		2
 potrebu	24824		3
-prababu	30		2
+prababu	30		3
 praizvedbu	48		2
-predodžbu	36		2
-pregibu	57		2
-preljubu	322		2
-primedbu	2688		2
-priredbu	646		2
-pritužbu	597		2
+predodžbu	36		3
+pregibu	57		3
+preljubu	322		3
+primedbu	2688		3
+priredbu	646		3
+pritužbu	597		3
 probu	2008		2
 prosidbu	83		2
 pubu			2
@@ -102,7 +102,7 @@ rubu	1878		2
 rugobu	70		2
 rumbu	50		2
 sambu	90		2
-selidbu	520		2
+selidbu	520		3
 seobu	294		2
 slabu	1777		2
 slavoljubu			2
@@ -114,12 +114,12 @@ srboljubu			2
 srbu			2
 srdžbu	135		2
 stubu	956		2
-sukobu	6460		2
+sukobu	6460		3
 svadbu	1471		2
 svedodžbu	26		2
 svrabu	22		2
 tabu	1797		2
-tarabu	95		2
+tarabu	95		3
 tegobu	120		2
 teskobu	236		2
 tjeskobu		J	2
@@ -134,7 +134,7 @@ upotrebu	25885		4
 uredbu	2052		2
 utrobu	549		3
 vebu	347		2
-veridbu	236		2
+veridbu	236		3
 vežbu	2070		2
 vrbu	99		2
 vršidbu	37		2
@@ -155,10 +155,10 @@ zubu	521		2
 švabu	11		2
 žabu	492		2
 žalbu	6117		2
-ženidbu	343		2
+ženidbu	343		3
 žrebu	677		2
 žurbu	178		2
 hljebu		J	2
-primjedbu			2
-vjeridbu			2
+primjedbu			3
+vjeridbu			3
 vježbu			2

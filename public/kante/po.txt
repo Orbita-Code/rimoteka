@@ -1,5 +1,5 @@
 46
-antilopo			2
+antilopo			3
 apropo		M	2
 crvenkapo			2
 depo	554		2
@@ -39,7 +39,7 @@ simpo			2
 skupo	7910		2
 slepo	2795		2
 stupo			2
-svirepo	424		2
+svirepo	424		3
 tempo	5219		2
 tripo			2
 tupo	269		2

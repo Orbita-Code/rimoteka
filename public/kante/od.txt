@@ -12,7 +12,7 @@ dohod			2
 doklegod			2
 dovod	611		2
 elektrovod			2
-gasovod	2059		2
+gasovod	2059		3
 gdegod	191		2
 god	89658		1
 gospod			2

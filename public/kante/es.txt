@@ -1,14 +1,14 @@
 75
 agnes			2
-anđeles			2
+anđeles			3
 apsces	146		2
 bes	4789		1
 blues	427		2
 borhes			2
 bundes			2
 ces			1
-delikates	198		2
-delišes	123		2
+delikates	198		3
+delišes	123		3
 des			1
 dijabetes	3131		2
 dnes			1
@@ -20,16 +20,16 @@ enes			2
 es		M	1
 fes		M	1
 fitnes		M	2
-hercules			2
-herkules			2
+hercules			3
+herkules			3
 hermes			2
 herpes	511		2
 hes			1
 ines			2
 interes	26191		3
 jeres	1216		2
-johanes			2
-kalikles			2
+johanes			3
+kalikles			3
 karijes		M	3
 kertes			2
 kongres	4339		2
@@ -41,17 +41,17 @@ lopes			2
 lues		M	2
 maces			2
 markes			2
-mercedes	2975		2
+mercedes	2975		3
 nebes			2
 nes	380		1
 notes	208		2
 pes			1
-pilates	656		2
+pilates	656		3
 ples	5172		1
 potes		M	2
-potproces			2
+potproces			3
 potres	981		2
-preneses			2
+preneses			3
 pres			1
 pretres	2192		2
 proces	67586		2
@@ -59,9 +59,9 @@ progres	2217		2
 ramzes			2
 regres	953		2
 res		M	1
-rodriges			2
+rodriges			3
 samokres			3
-servantes			2
+servantes			3
 stres	8230		1
 suares			3
 tabes			2
@@ -69,7 +69,7 @@ toples	123		2
 udes	1167		2
 ures	56		2
 urnebes			3
-velaskes			2
+velaskes			3
 veles			2
 vres			1
 zemljotres	2922		3
@@ -77,7 +77,7 @@ zemljotres	2922		3
 bijes	331		1
 krijes	34		2
 lijes	21		1
-razumijes			2
+razumijes			3
 smijes			2
 udjes			2
-vjerujes			2
+vjerujes			3

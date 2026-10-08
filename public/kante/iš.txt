@@ -4,8 +4,8 @@ amiš			2
 ariš	44		2
 baciš	510		2
 bakšiš			2
-balaviš			2
-batališ	56		2
+balaviš			3
+batališ	56		3
 baviš	1253		2
 bazdiš			2
 bdiš	17		1
@@ -20,19 +20,19 @@ blatiš	32		2
 blažiš			2
 blediš			2
 blejiš	48		2
-blesaviš			2
+blesaviš			3
 bližiš			2
 bludničiš			3
 bodriš	14		2
 bogatiš	11		3
 bogohuliš			2
-bogoradiš			2
+bogoradiš			3
 bojiš	448		2
 boliš			2
 boraviš	61		3
 boriš	538		2
 braniš	526		2
-bratimiš			2
+bratimiš			3
 bratiš			2
 britiš			2
 brojiš	99		2
@@ -41,18 +41,18 @@ budiš	127		2
 bulazniš	32		2
 buljiš	49		2
 buniš	164		2
-bućkuriš	138		2
+bućkuriš	138		3
 bušiš	27		2
 cediš	26		2
 ceniš	254		2
-cepidlačiš			2
+cepidlačiš			3
 ceriš			2
-cicijašiš			2
-cinkariš			2
+cicijašiš			3
+cinkariš			3
 cmizdriš	17		2
 crniš			2
 crpiš	33		2
-crveniš	19		2
+crveniš	19		3
 curiš			2
 cviliš			2
 cvrčiš			2
@@ -64,24 +64,24 @@ dimiš			2
 diviš	111		2
 dičiš	25		2
 dobaciš	17		2
-dobaviš			2
+dobaviš			3
 dodeliš	78		2
 dogovoriš	117		2
 dohvatiš	62		3
 dojiš	20		2
 dokrajčiš			2
 dolaziš	684		3
-doletiš			2
+doletiš			3
 donosiš	184		2
 doprinosiš	33		2
 dopuniš	39		3
 dopustiš	83		2
 dosadiš			2
 doseliš			2
-dosetiš			2
+dosetiš			3
 dostaviš	45		3
 dotrčiš			2
-dovlačiš	15		2
+dovlačiš	15		3
 dovodiš	108		2
 dovršiš	17		2
 dozvoliš	277		2
@@ -95,7 +95,7 @@ držiš	1076		2
 dubiš	13		2
 duriš	19		2
 dvoriš			2
-dvoumiš	53		2
+dvoumiš	53		3
 džepariš			2
 fališ	86		2
 fetiš	446		2
@@ -107,7 +107,7 @@ gasiš	96		2
 gaziš	97		2
 gladiš			2
 glumiš	240		2
-gluvariš			2
+gluvariš			3
 gneviš			2
 gnjaviš	25		2
 gnječiš			2
@@ -116,7 +116,7 @@ goniš	51		2
 gordiš			2
 goriš	38		2
 gospodariš			2
-gotiviš			2
+gotiviš			3
 govoriš	2260		2
 grabiš	26		2
 gradiš	226		2
@@ -142,32 +142,32 @@ isceliš	19		2
 iscrpiš			2
 iseliš	16		2
 iskališ			2
-iskasapiš			2
+iskasapiš			3
 isključiš	351		2
-iskoračiš			2
+iskoračiš			3
 iskoreniš			2
 iskoristiš	359		3
 iskočiš	19		2
-iskriviš	12		2
+iskriviš	12		3
 iskrvariš			3
 iskupiš	15		2
 iskusiš	30		2
-ispališ	22		2
+ispališ	22		3
 isplatiš	49		2
-isplaziš			2
+isplaziš			3
 isploviš			2
-ispoljiš	17		2
+ispoljiš	17		3
 isporučiš			2
-ispovediš	30		2
+ispovediš	30		3
 ispratiš	60		3
 ispraviš	126		3
 isprazniš	31		2
-isprašiš			2
-isprečiš			2
-isprosiš			2
-isprsiš			2
-ispružiš	31		2
-ispržiš			2
+isprašiš			3
+isprečiš			3
+isprosiš			3
+isprsiš			3
+ispružiš	31		3
+ispržiš			3
 ispuniš	189		3
 ispustiš	39		2
 istopiš	11		2
@@ -175,66 +175,66 @@ istovariš			3
 istražiš	57		2
 istrebiš			2
 istrošiš	16		2
-istrpiš	27		2
-istruliš			2
+istrpiš	27		3
+istruliš			3
 istrčiš	69		2
 istupiš			2
 isušiš			2
 izbaciš	226		2
 izbaviš	24		3
-izbezumiš			2
+izbezumiš			3
 izboriš	118		2
-izbrojiš	37		2
+izbrojiš	37		3
 izbušiš	21		2
 izdržiš	134		2
 izdvojiš	150		2
-izgaziš			2
-izgladiš			2
-izgladniš			2
+izgaziš			3
+izgladiš			3
+izgladniš			3
 izgoniš	18		2
 izgoriš	18		2
 izgovoriš	114		2
 izgradiš	77		2
-izgrdiš			2
+izgrdiš			3
 izgubiš	817		2
 izjasniš	33		2
 izjaviš	54		2
 izjednačiš	12		2
 izlaziš	346		3
-izletiš	20		2
+izletiš	20		3
 izlečiš	29		2
 izložiš	29		2
-izludiš			2
+izludiš			3
 izmamiš	17		2
-izmeniš	56		2
+izmeniš	56		3
 izmeriš	84		3
 izmigoljiš			2
-izmiriš	12		2
+izmiriš	12		3
 izmisliš	48		3
 izmlatiš			2
-izmoliš			2
-izmoriš			2
+izmoliš			3
+izmoriš			3
 iznajmiš	47		2
 iznenadiš	80		2
-izneveriš	13		2
+izneveriš	13		3
 iznosiš	263		2
 iznudiš			3
-iznuriš			2
+iznuriš			3
 izobličiš			2
 izostaviš	20		3
 izoštriš			2
 izradiš	18		2
 izraziš	73		2
-izustiš			2
+izustiš			3
 izučiš	11		2
 izvadiš	252		3
-izvališ	24		2
+izvališ	24		3
 izvestiš	12		2
 izvidiš			3
 izviniš	55		2
 izvlačiš	128		2
 izvodiš	80		2
-izvoliš			2
+izvoliš			3
 izvršiš	104		2
 jamčiš			2
 javiš	407		2
@@ -259,7 +259,7 @@ kazniš	30		2
 kačiš	227		2
 keziš			2
 kinjiš			2
-kiseliš			2
+kiseliš			3
 kitiš	16		2
 kiš		M	1
 kladiš	33		2
@@ -286,15 +286,15 @@ krvariš	17		3
 krčiš			2
 kršiš	48		2
 kudiš	25		2
-kukumavčiš			2
+kukumavčiš			3
 kupiš	3374		2
 kužiš	41		2
 kvariš	62		2
 kvasiš			2
-lakomiš			2
+lakomiš			3
 lastiš	160		2
 lebdiš	27		2
-lenčariš	10		2
+lenčariš	10		3
 lepiš	57		2
 letiš	252		2
 lečiš	125		2
@@ -315,11 +315,11 @@ mariš	59		2
 maziš	47		2
 mašiš	39		2
 meriš	144		2
-mesečariš			2
+mesečariš			3
 mesiš	15		2
 migoljiš			2
 miriš	25		2
-mirišiš			2
+mirišiš			3
 misliš	12298		2
 miš	4175		1
 mlatiš	76		2
@@ -329,7 +329,7 @@ moriš	30		2
 motriš			2
 mrviš			2
 mrziš	437		2
-mršaviš	12		2
+mršaviš	12		3
 mrštiš	17		2
 mutiš	29		2
 mučiš	361		2
@@ -337,57 +337,57 @@ nabaciš	52		2
 nabaviš	326		3
 nabrojiš	38		2
 nadmašiš			3
-nadmudriš			2
+nadmudriš			3
 nadoknadiš	46		3
 nadživiš			2
-nagaziš	34		2
+nagaziš	34		3
 naglasiš	23		2
 nagodiš			2
-nagoniš			2
+nagoniš			3
 nagovestiš			2
 nagovoriš	21		2
 nagradiš	17		2
-nahodiš			2
+nahodiš			3
 nahraniš	65		2
 nailaziš	35		3
 najaviš	24		2
 naježiš	75		2
 najuriš			2
-nakadiš			2
-nakačiš			2
+nakadiš			3
+nakačiš			3
 nakosiš			2
-nakriviš	10		2
+nakriviš	10		3
 nakupiš	12		3
 nalaziš	469		3
-naletiš	194		2
+naletiš	194		3
 naljutiš	49		2
 naložiš	13		2
 namamiš			2
 namestiš	258		3
 namiriš	10		2
-namisliš			2
-namlatiš			2
-namrštiš			2
-namučiš	26		2
+namisliš			3
+namlatiš			3
+namrštiš			3
+namučiš	26		3
 nanišaniš			2
-nanjušiš			2
-nanosiš	43		2
+nanjušiš			3
+nanosiš	43		3
 naoštriš			2
-napališ			2
-naplatiš	131		2
-napojiš	12		2
+napališ			3
+naplatiš	131		3
+napojiš	12		3
 napraviš	2082		3
 napuniš	173		3
 napustiš	162		2
-naputiš			2
+naputiš			3
 napušiš			3
-narediš	63		2
+narediš	63		3
 naručiš	183		2
-narušiš			2
+narušiš			3
 nasamariš			2
 naseliš	15		2
 nasitiš			3
-nasladiš			2
+nasladiš			3
 naslediš	18		2
 nasloniš	36		2
 naslutiš	24		2
@@ -397,22 +397,22 @@ nastaviš	652		3
 nastojiš	16		3
 nastupiš	11		2
 natopiš			2
-natovariš	16		2
-natočiš			2
-natrtiš			2
+natovariš	16		3
+natočiš			3
+natrtiš			3
 naudiš			3
 naumiš			2
 naučiš	1367		2
 navališ	18		2
-navlačiš	30		2
+navlačiš	30		3
 navodiš	311		2
 navratiš	21		2
 navršiš			2
 nazdraviš			3
-naznačiš			2
+naznačiš			3
 načiniš	39		2
-našališ			2
-naškodiš			2
+našališ			3
+naškodiš			3
 nišaniš	12		3
 njušiš	10		2
 nosiš	1155		2
@@ -421,11 +421,11 @@ nudiš	180		2
 obavestiš	59		2
 obaviš	122		3
 obdariš			2
-obeležiš	24		2
+obeležiš	24		3
 obelodaniš			2
 obeshrabriš			2
 obesiš	20		3
-obezbediš	121		2
+obezbediš	121		3
 obgrliš			3
 obilaziš	58		3
 objasniš	651		2
@@ -438,30 +438,30 @@ oboriš	55		2
 obradiš	55		2
 obratiš	458		2
 obrazložiš	39		2
-obrlatiš			2
-obrstiš			2
+obrlatiš			3
+obrstiš			3
 obustaviš			3
 obučiš	13		2
 oceniš	33		2
-ocinkariš			2
-ocrniš	12		2
-odalamiš			2
+ocinkariš			3
+ocrniš	12		3
+odalamiš			3
 odbaciš	69		2
 odbraniš	50		2
 odeliš			2
-odgajiš			2
-odglumiš			2
-odgojiš			2
+odgajiš			3
+odglumiš			3
+odgojiš			3
 odgovoriš	444		2
 odjaviš	17		2
 odjuriš			2
 odlaziš	316		3
-odlepiš	35		2
+odlepiš	35		3
 odletiš	18		2
-odležiš			2
-odložiš	33		2
+odležiš			3
+odložiš	33		3
 odlučiš	738		2
-odmagliš			2
+odmagliš			3
 odmeriš	18		3
 odmoriš	136		2
 odnosiš	32		2
@@ -469,146 +469,146 @@ odobriš			2
 odoliš	29		2
 odradiš	456		2
 odrediš	155		2
-odrešiš			2
+odrešiš			3
 održiš	71		2
-odsediš			2
-odseliš	19		2
-odslužiš			2
-odstojiš			2
+odsediš			3
+odseliš	19		3
+odslužiš			3
+odstojiš			3
 odstraniš	11		2
 odstupiš	15		2
 odugovlačiš	13		2
-oduševiš	22		2
+oduševiš	22		3
 odužiš			2
-odvališ	31		2
+odvališ	31		3
 odvlačiš			2
 odvodiš	10		2
 odvojiš	159		2
 odvratiš	29		2
-ogladniš	21		2
-oglasiš	13		2
-oglušiš			2
-ogoliš			2
+ogladniš	21		3
+oglasiš	13		3
+oglušiš			3
+ogoliš			3
 ograničiš	63		3
-ogrešiš			2
-oguliš			2
+ogrešiš			3
+oguliš			3
 ohladiš	25		2
-ohladniš			2
+ohladniš			3
 ohrabriš	12		2
 okaniš			2
-okačiš	151		2
+okačiš	151		3
 okoliš	284		3
-okolišiš			2
-okrepiš			2
+okolišiš			3
+okrepiš			3
 okrečiš			3
-okrilatiš			2
+okrilatiš			3
 okriviš	16		2
 okružiš			2
 okrvaviš			3
 okupiš	25		3
 okusiš	37		3
 olabaviš	12		4
-oladiš			2
+oladiš			3
 oljuštiš			2
 omalovažiš			2
 omogućiš	57		2
 onesposobiš			2
-onesvestiš	15		2
-opališ	40		2
-opametiš	30		2
+onesvestiš	15		3
+opališ	40		3
+opametiš	30		3
 opaziš			3
-opelješiš			2
+opelješiš			3
 ophodiš	12		2
-opkladiš			2
+opkladiš			3
 oplodiš			2
 oporaviš	31		3
-opraviš	11		2
+opraviš	11		3
 opredeliš	70		2
 opremiš	14		2
 oprostiš	136		2
 opteretiš	68		3
 optužiš	29		2
-opustiš	176		2
+opustiš	176		3
 opčiniš			2
 opštiš	12		2
-oraspoložiš			2
-orodiš			2
+oraspoložiš			3
+orodiš			3
 osakatiš			3
-osamostališ	16		2
+osamostališ	16		3
 osetiš	782		3
 osiromašiš			3
 oskrnaviš			3
 oslabiš	14		3
-osladiš			2
-oslepiš			2
+osladiš			3
+oslepiš			3
 oslobodiš	128		2
 osloniš	63		2
-osmeliš			2
-osmisliš	49		2
-osnažiš			2
+osmeliš			3
+osmisliš	49		3
+osnažiš			3
 osporiš	26		2
-osposobiš	10		2
+osposobiš	10		3
 osramotiš			2
-ostariš	54		2
+ostariš	54		3
 ostaviš	894		3
 ostvariš	336		2
 osudiš	28		2
 osušiš	12		2
-osvedočiš			2
-osvestiš	18		2
+osvedočiš			3
+osvestiš	18		3
 osvetiš	16		2
-osvetliš	13		2
+osvetliš	13		3
 osvežiš	23		3
 osvojiš	170		2
 otarasiš	37		2
-otkačiš	51		2
+otkačiš	51		3
 otkloniš	18		2
-otkočiš			2
-otkupiš	18		2
+otkočiš			3
+otkupiš	18		3
 otopiš			2
-otplatiš	39		2
+otplatiš	39		3
 otploviš			2
-otpratiš			2
+otpratiš			3
 otpustiš	51		2
-otpuziš			2
-otrezniš	12		2
-otrpiš			2
-otrčiš	12		2
-otupiš			2
-oturiš			2
+otpuziš			3
+otrezniš	12		3
+otrpiš			3
+otrčiš	12		3
+otupiš			3
+oturiš			3
 otuđiš			2
 otvoriš	1031		2
 ovaplotiš			2
 overiš	26		3
-ovlažiš			2
-ozdraviš	53		2
+ovlažiš			3
+ozdraviš	53		3
 ozlediš			2
 ozlijediš		J	3
 označiš	34		2
-oznojiš	19		2
-ozvučiš			2
-oćelaviš			2
-oćutiš			2
+oznojiš	19		3
+ozvučiš			3
+oćelaviš			3
+oćutiš			3
 očistiš	168		3
 ošamariš			3
 oštetiš	38		3
 oštriš			2
-ožalostiš			2
-ožedniš			2
+ožalostiš			3
+ožedniš			3
 oženiš	126		2
 oživiš	21		2
-pakostiš			2
+pakostiš			3
 pališ	218		2
 pamtiš	170		2
-paničariš			2
-paničiš	28		2
+paničariš			3
+paničiš	28		3
 pariš			2
 patiš	206		2
 pazariš	110		2
 paziš	302		2
-pevušiš	16		2
+pevušiš	16		3
 pešačiš	15		2
-pijančiš			2
+pijančiš			3
 piliš			2
 piljiš			2
 piškiš	20		2
@@ -619,31 +619,31 @@ pliš	68		1
 plodiš			2
 ploviš	33		2
 pobediš	353		2
-pobesniš	12		2
+pobesniš	12		3
 pobudiš			2
-pocrniš	12		2
-pocrveniš			2
-podariš	22		2
+pocrniš	12		3
+pocrveniš			3
+podariš	22		3
 podbaciš			2
 podeliš	330		2
 podesiš	541		3
 podilaziš			3
 podmitiš	24		2
-podmladiš			2
+podmladiš			3
 podnosiš	99		2
 podržiš	47		2
 podsetiš	56		3
-poduhvatiš			2
+poduhvatiš			3
 podučiš			2
 podvališ			2
 podvlačiš	13		2
 podvodiš			2
-poganiš			2
+poganiš			3
 pogasiš	19		2
-pogaziš	21		2
+pogaziš	21		3
 pogodiš	139		2
 pogrešiš	170		2
-pogubiš	50		2
+pogubiš	50		3
 pohodiš			2
 pohvališ	63		2
 pojasniš	91		2
@@ -652,9 +652,9 @@ pojiš	11		2
 pojmiš	22		2
 pojuriš	13		2
 pokloniš	172		2
-poklopiš	13		2
+poklopiš	13		3
 pokoriš	37		2
-pokosiš			2
+pokosiš			3
 pokupiš	142		2
 pokvariš	53		2
 pokvasiš	16		3
@@ -664,14 +664,14 @@ poljubiš	117		2
 polomiš	66		2
 položiš	233		2
 poludiš	102		2
-polučiš			2
-pomaziš	14		2
-pomeriš	121		2
+polučiš			3
+pomaziš	14		3
+pomeriš	121		3
 pomiriš	73		2
 pomisliš	639		3
 pomnožiš	34		2
 pomoliš	39		2
-pomučiš	47		2
+pomučiš	47		3
 poniziš	16		2
 poništiš	11		3
 ponosiš	71		2
@@ -685,8 +685,8 @@ popušiš	34		3
 poradiš	58		2
 poraniš			3
 poraziš			2
-porazmisliš	29		2
-porediš	443		2
+porazmisliš	29		3
+porediš	443		3
 poremetiš			3
 porodiš	19		2
 poručiš	86		2
@@ -694,7 +694,7 @@ posadiš	31		2
 posediš	10		2
 posetiš	185		3
 poslužiš	46		2
-posmotriš			2
+posmotriš			3
 pospremiš			2
 posramiš			2
 postaviš	843		3
@@ -703,86 +703,86 @@ postiš	68		2
 postojiš	371		3
 postupiš	36		2
 posudiš			2
-posvedočiš			2
+posvedočiš			3
 posvetiš	159		2
-potceniš	11		2
+potceniš	11		3
 potkupiš			2
 potopiš	13		2
-potpališ			2
+potpališ			3
 potražiš	220		2
 potrošiš	279		2
 potrudiš	228		2
 potrčiš	24		2
-poturiš	11		2
-poturčiš			2
+poturiš	11		3
+poturčiš			3
 potvrdiš	73		2
-poučiš			2
-povadiš	17		2
-povališ			2
+poučiš			3
+povadiš	17		3
+povališ			3
 poveriš	29		3
 povisiš			2
 povlačiš	61		2
 povodiš			2
 povratiš	79		2
 povrediš	123		2
-pozabaviš	65		2
+pozabaviš	65		3
 pozajmiš	132		2
 pozdraviš	44		3
-pozvoniš			2
+pozvoniš			3
 počastiš	18		2
 počiniš	12		2
 počistiš	27		3
-pošiziš			2
+pošiziš			3
 poštediš	20		2
-požališ	49		2
+požališ	49		3
 poželiš	576		2
-poživiš	39		2
+poživiš	39		3
 požuriš	23		2
 pratiš	762		2
 praviš	1724		2
 prazniš	17		2
 prašiš			2
 prebaciš	385		2
-preboliš	37		2
+preboliš	37		3
 prebrodiš	27		2
-prebrojiš	23		2
+prebrojiš	23		3
 predložiš	62		2
 predomisliš	33		3
 predstaviš	147		3
-predstojiš			2
-preduhitriš			2
+predstojiš			3
+preduhitriš			3
 predvidiš	40		3
 predvodiš	10		2
-pregaziš	15		2
+pregaziš	15		3
 prehladiš			2
-prekoračiš	16		2
-prekoriš			2
-prekratiš			2
-prekrstiš	41		2
+prekoračiš	16		3
+prekoriš			3
+prekratiš			3
+prekrstiš	41		3
 prekršiš	31		2
 prelaziš	221		3
 preletiš	13		2
 prelomiš	19		2
-premestiš	19		2
+premestiš	19		3
 premlatiš			2
 premostiš	15		2
 prenosiš	117		2
 prenoćiš	19		2
-preobratiš			2
-preobraziš			2
+preobratiš			3
+preobraziš			3
 preplašiš			3
-preporodiš			2
+preporodiš			3
 preporučiš	61		2
-prepraviš	22		2
-prepuniš			2
+prepraviš	22		3
+prepuniš			3
 prepustiš	112		2
 preradiš			2
 prerušiš			3
 presadiš			2
-presediš			2
+presediš			3
 preseliš	52		2
 preskočiš	106		2
-prestaviš			2
+prestaviš			3
 prestraviš			2
 prestrašiš			3
 prestupiš			2
@@ -792,43 +792,43 @@ pretiš	130		2
 pretpostaviš	47		3
 pretražiš	32		2
 pretrpiš	33		2
-pretrčiš	11		2
-preturiš			2
+pretrčiš	11		3
+preturiš			3
 pretvoriš	116		2
-preurediš			2
-preusmeriš	16		2
+preurediš			3
+preusmeriš	16		3
 prevariš	101		3
-previdiš			2
+previdiš			3
 prevodiš	28		2
 prevoziš			2
-prevratiš			2
+prevratiš			3
 prezalogajiš			2
-preznojiš			2
-prećutiš	29		2
+preznojiš			3
+prećutiš	29		3
 preživiš	175		2
 pribaviš	17		3
 približiš	81		2
 pridružiš	86		2
 pridržiš			2
-prignječiš			2
-prigrliš			2
+prignječiš			3
+prigrliš			3
 prihvatiš	461		3
 prijaviš	371		2
-prikačiš	72		2
-priključiš	166		2
+prikačiš	72		3
+priključiš	166		3
 prikupiš	20		3
 prilagodiš	85		2
 prilaziš	59		3
-prilepiš	12		2
+prilepiš	12		3
 priljubiš			2
-priložiš	35		2
+priložiš	35		3
 primeniš	104		2
 primetiš	288		2
-primiriš			2
+primiriš			3
 primiš	284		2
-prinosiš	26		2
-prinudiš			2
-pripališ			2
+prinosiš	26		3
+prinudiš			3
+pripališ			3
 pripaziš	25		3
 pripitomiš			2
 pripremiš	104		2
@@ -837,21 +837,21 @@ prisetiš	30		3
 prisiliš			3
 prisloniš	14		2
 pristupiš	189		2
-prisvojiš	12		2
-pritajiš			2
+prisvojiš	12		3
+pritajiš			3
 pritvoriš			2
 priuštiš	95		2
 privlačiš	50		2
 privodiš	15		2
-prizemljiš			2
-pričestiš	13		2
+prizemljiš			3
+pričestiš	13		3
 pričvrstiš	12		2
 prkosiš			3
 probudiš	338		2
 probušiš	19		2
 proceniš	129		2
-produbiš			2
-produžiš	63		2
+produbiš			3
+produžiš	63		3
 proglasiš	46		2
 progoniš	16		2
 progovoriš	69		2
@@ -864,33 +864,33 @@ pronalaziš	76		3
 propustiš	110		2
 prosiš	25		2
 proslaviš	33		3
-proslediš	46		2
-prosudiš			2
-prosvetiš			2
-prosvetliš	19		2
+proslediš	46		3
+prosudiš			3
+prosvetiš			3
+prosvetliš	19		3
 protiviš	32		2
-protivrečiš	10		2
-protivurečiš			2
-protraćiš			2
-protrčiš	10		2
-protumačiš	29		2
-proturiš	13		2
+protivrečiš	10		3
+protivurečiš			3
+protraćiš			3
+protrčiš	10		3
+protumačiš	29		3
+proturiš	13		3
 proučiš	60		2
 provališ	102		2
 proveriš	514		3
-provetriš			2
-proviriš			2
+provetriš			3
+proviriš			3
 provlačiš	28		2
 provodiš	221		2
 prozboriš			2
-pročistiš			2
+pročistiš			3
 proširiš	67		2
-proživiš	32		2
+proživiš	32		3
 pružiš	154		2
 pržiš	30		2
 puniš	113		2
 pustiš	751		2
-pustošiš			2
+pustošiš			3
 puziš	16		2
 pušiš	233		2
 puštiš			2
@@ -898,39 +898,39 @@ radiš	8752		2
 raniš	29		2
 rascepiš			2
 rashladiš	13		2
-raskomotiš			2
+raskomotiš			3
 raskrstiš			2
-raskrčiš			2
-raspališ	12		2
-raspekmeziš			2
+raskrčiš			3
+raspališ	12		3
+raspekmeziš			3
 raspoložiš			2
 rasporediš	22		2
-rasporiš			2
+rasporiš			3
 raspraviš	10		3
-raspremiš			2
+raspremiš			3
 raspustiš			2
 rasrdiš			2
 rastaviš	16		3
 rasteretiš	12		3
 rastopiš			2
-rasturiš	22		2
+rasturiš	22		3
 rastužiš			2
-rasudiš			2
-rasvetliš			2
-razbesniš			2
+rasudiš			3
+rasvetliš			3
+razbesniš			3
 razbistriš			2
 razboliš	74		2
 razbudiš			2
 razdeliš			2
-razdrešiš			2
-razdrobiš			2
+razdrešiš			3
+razdrobiš			3
 razdvojiš	42		2
 razglasiš			2
-razgneviš			2
-razgoniš			2
-razgoriš			2
-razgovoriš			2
-razjasniš	29		2
+razgneviš			3
+razgoniš			3
+razgoriš			3
+razgovoriš			3
+razjasniš	29		3
 razljutiš			2
 razložiš			2
 razlučiš			2
@@ -940,17 +940,17 @@ razmisliš	441		3
 razmotriš	22		2
 raznežiš			2
 raznosiš			2
-razonodiš			2
+razonodiš			3
 razoriš			2
 razradiš	10		2
-razrešiš	25		2
+razrešiš	25		3
 razvališ	17		2
-razvedriš			2
+razvedriš			3
 razveseliš			2
-razvlačiš	28		2
+razvlačiš	28		3
 razvodiš			2
 raširiš	47		2
-raščistiš	18		2
+raščistiš	18		3
 rediš			2
 remetiš	19		3
 rešiš	545		2
@@ -962,14 +962,14 @@ rukovodiš	34		2
 rušiš	76		2
 sablazniš			2
 sadiš	25		2
-saglasiš			2
+saglasiš			3
 sagoriš	13		2
 sagradiš	32		2
 sagrešiš			2
 sahraniš	23		2
 sakupiš	58		3
 sanjariš	13		2
-saopštiš	60		2
+saopštiš	60		3
 sastaviš	76		3
 sastojiš			3
 sažališ			3
@@ -982,7 +982,7 @@ siliš			2
 siriš			2
 sitniš	219		2
 sjajiš			2
-sjediniš			2
+sjediniš			3
 skičiš			2
 skloniš	113		2
 sklopiš	84		2
@@ -1016,7 +1016,7 @@ smoriš	44		2
 smočiš			2
 smrdiš	43		2
 smrviš			2
-smršaviš			2
+smršaviš			3
 smutiš			2
 snalaziš	115		3
 snažiš			2
@@ -1050,7 +1050,7 @@ stesniš			2
 stidiš	233		2
 stojiš	559		2
 strašiš			2
-stražariš			2
+stražariš			3
 stremiš	17		2
 strepiš	41		2
 strpiš	20		2
@@ -1061,7 +1061,7 @@ sudiš	171		2
 sukobiš			2
 sumnjičiš			3
 suočiš	85		2
-suprostaviš			2
+suprostaviš			3
 suprotstaviš	31		3
 suzdržiš	10		2
 suziš	11		2
@@ -1081,20 +1081,20 @@ takmičiš	36		3
 tamiš			2
 tanjiš			2
 tegliš	15		2
-tekeriš			2
+tekeriš			3
 teliš			2
 temeljiš			2
-tetošiš			2
+tetošiš			3
 tešiš	45		2
 težiš	65		2
-timariš			2
+timariš			3
 topiš	14		2
 tovariš	46		2
 točiš	10		2
 trampiš			2
 tratiš			2
 traćiš	23		2
-tračariš			2
+tračariš			3
 tražiš	2302		2
 treperiš			2
 treptiš			2
@@ -1111,23 +1111,23 @@ tužiš	117		2
 tvoriš	23		2
 tvrdiš	529		2
 ubaciš	710		2
-ubediš	182		2
+ubediš	182		3
 ublažiš	17		2
 uceniš			2
 udaljiš	33		2
 udariš	235		3
 udaviš	23		2
-udeliš	12		2
-udesiš			2
-udostojiš	26		2
-udovoljiš	19		2
+udeliš	12		3
+udesiš			3
+udostojiš	26		3
+udovoljiš	19		3
 udružiš	11		2
-udubiš	21		2
+udubiš	21		3
 udvostručiš			3
 ugasiš	151		2
-ugaziš	18		2
+ugaziš	18		3
 ugodiš	17		2
-ugojiš	18		2
+ugojiš	18		3
 ugostiš	11		2
 ugovoriš			2
 ugrabiš	10		3
@@ -1138,33 +1138,33 @@ uhapsiš	22		3
 uhodiš			2
 uhvatiš	305		3
 ujediniš	11		2
-ukipiš			2
+ukipiš			3
 uključiš	438		2
 ukloniš	65		2
-uklopiš	73		2
+uklopiš	73		3
 ukoriš			2
 ukočiš			2
 ukrasiš	15		2
 ukrotiš			2
 ukrstiš			2
 ulaziš	334		3
-uletiš	46		2
+uletiš	46		3
 uloviš	30		2
 uložiš	222		2
-umanjiš	25		2
-umiliš			2
-umiriš	12		2
+umanjiš	25		3
+umiliš			3
+umiriš	12		3
 umisliš			3
-umnožiš			2
-umoliš			2
+umnožiš			3
+umoliš			3
 umoriš	50		2
-umočiš	20		2
-umrtviš			2
+umočiš	20		3
+umrtviš			3
 unajmiš	11		2
 unakaziš			2
-unaprediš	37		2
-unerediš			2
-unervoziš			2
+unaprediš	37		3
+unerediš			3
+unervoziš			3
 uniziš			2
 uništiš	147		3
 unosiš	137		2
@@ -1174,49 +1174,49 @@ uozbiljiš	19		2
 uočiš	54		2
 upališ	193		2
 upamtiš	17		2
-uperiš	14		2
-uplatiš	166		2
+uperiš	14		3
+uplatiš	166		3
 uplašiš	70		3
-uporediš	190		2
+uporediš	190		3
 uposliš	19		2
-upotpuniš	10		2
+upotpuniš	10		3
 upotrebiš	143		2
 upozoriš	19		2
-upraviš			2
-upristojiš			2
+upraviš			3
+upristojiš			3
 upropastiš	57		2
-upustiš	53		2
+upustiš	53		3
 uputiš	101		2
 uradiš	2652		2
-urazumiš			2
+urazumiš			3
 urediš	35		2
 uroniš	10		2
 uručiš			2
 usadiš			2
-usamiš			2
+usamiš			3
 usavršiš	39		2
 useliš	22		2
-usitniš			2
-uskladiš	38		2
-uskočiš	11		2
+usitniš			3
+uskladiš	38		3
+uskočiš	11		3
 uskratiš	16		2
-uslužiš			2
+uslužiš			3
 usmeriš	58		3
 usmrdiš			2
-usmrtiš			2
+usmrtiš			3
 usniš	11		2
-uspaničiš			2
-uspokojiš			2
+uspaničiš			3
+uspokojiš			3
 usporiš	38		2
 uspostaviš	51		3
-uspraviš			2
-usprotiviš			2
-usredsrediš			2
-usrećiš	32		2
+uspraviš			3
+usprotiviš			3
+usredsrediš			3
+usrećiš	32		3
 ustanoviš	33		2
-ustrašiš			2
-ustreliš			2
-ustremiš			2
+ustrašiš			3
+ustreliš			3
+ustremiš			3
 ustrojiš			2
 ustupiš	11		2
 usudiš	40		2
@@ -1224,11 +1224,11 @@ usvojiš	35		2
 utajiš			2
 utešiš	32		3
 utopiš	21		2
-utopliš			2
+utopliš			3
 utovariš			3
 utrošiš	25		2
-utrčiš			2
-utuviš			2
+utrčiš			3
+utuviš			3
 utvrdiš	109		2
 uvališ	82		2
 uveriš	158		3
@@ -1238,23 +1238,23 @@ uvodiš	43		2
 uvoziš	44		2
 uvrediš	66		2
 uvrstiš	11		2
-uzajmiš			2
+uzajmiš			3
 uzbudiš	11		2
 uzdržiš	23		2
-uzlaziš			2
+uzlaziš			3
 uzletiš			2
 uznemiriš			2
-uznosiš			2
+uznosiš			3
 uzvisiš			2
-uzvratiš	43		2
-ućutiš	18		2
+uzvratiš	43		3
+ućutiš	18		3
 učiniš	614		2
 učiš	1162		2
 učlaniš	67		2
 učvrstiš	12		2
 uštediš	134		2
-ušutiš			2
-uživiš	16		2
+ušutiš			3
+uživiš	16		3
 vabiš			2
 vadiš	257		2
 vapiš	13		2
@@ -1276,43 +1276,43 @@ vrištiš	44		2
 vrpoljiš			3
 vrtiš	132		2
 vršiš	117		2
-zabaciš	13		2
+zabaciš	13		3
 zabaviš	53		3
-zabeležiš	13		2
-zabludiš			2
+zabeležiš	13		3
+zabludiš			3
 zaboraviš	655		3
 zabraniš	72		2
-zaceniš			2
-zacepiš			2
+zaceniš			3
+zacepiš			3
 zadaviš			2
 zadesiš			3
 zadiviš			2
 zadovoljiš	103		2
-zadrhtiš			2
+zadrhtiš			3
 zadržiš	215		2
 zagasiš			2
-zagaziš	11		2
+zagaziš	11		3
 zaglaviš	48		2
 zaglibiš			2
-zagnjuriš			2
+zagnjuriš			3
 zagrliš	70		3
 zahvališ	64		2
 zahvatiš	10		3
-zainatiš			2
+zainatiš			3
 zajmiš			2
 zakasniš	50		2
-zakačiš	128		2
-zakitiš			2
+zakačiš	128		3
+zakitiš			3
 zaključiš	144		2
-zakoračiš	22		2
+zakoračiš	22		3
 zakočiš			2
-zakriliš			2
-zakrpiš	11		2
+zakriliš			3
+zakrpiš	11		3
 zalaziš	19		3
-zalediš	10		2
-zalepiš	76		2
-zaletiš	26		2
-zalečiš			2
+zalediš	10		3
+zalepiš	76		3
+zaletiš	26		3
+zalečiš			3
 zaljubiš	106		2
 založiš	14		2
 zalupiš			3
@@ -1322,68 +1322,68 @@ zamisliš	463		3
 zamoliš	130		2
 zamrziš	13		2
 zanemariš	30		2
-zanosiš	35		2
-zaobilaziš	22		2
+zanosiš	35		3
+zaobilaziš	22		3
 zapališ	110		2
 zapamtiš	93		2
 zapanjiš			2
 zapaziš			3
-zapečatiš			2
+zapečatiš			3
 zaplašiš			3
 zaploviš			2
 zaposliš	317		2
 zapostaviš	12		3
 zapovediš			3
-zaprašiš			2
-zaprepastiš	10		2
-zapretiš	17		2
+zaprašiš			3
+zaprepastiš	10		3
+zapretiš	17		3
 zaprosiš			2
 zapušiš	14		3
 zaradiš	476		2
-zaraziš	13		2
-zarobiš	14		2
-zaroniš	27		2
+zaraziš	13		3
+zarobiš	14		3
+zaroniš	27		3
 zasadiš	16		2
 zasitiš	13		3
-zaskočiš			2
+zaskočiš			3
 zaslužiš	42		2
 zaspiš	113		2
-zastidiš			2
+zastidiš			3
 zastrašiš			3
-zastreliš			2
+zastreliš			3
 zatražiš	102		2
-zatrudniš	24		2
+zatrudniš	24		3
 zatvoriš	188		2
 zaustaviš	128		3
 zavadiš			3
-zavališ	27		2
-zavidiš			2
+zavališ	27		3
+zavidiš			3
 zaviriš	31		2
 zavisiš	77		3
 zavlačiš	23		2
 zavodiš	28		2
 zavoliš	106		2
-zavrtiš	14		2
+zavrtiš	14		3
 završiš	1087		2
 zaćutiš	11		2
-začepiš			2
+začepiš			3
 začiniš	15		2
 začudiš	11		3
 zaštitiš	134		2
-zašutiš			2
+zašutiš			3
 zažališ	12		2
 zaželiš	38		2
-zažmuriš	47		2
+zažmuriš	47		3
 zbaciš			2
 zbariš			2
 zbližiš			2
 zboriš	150		2
 zbuniš	36		2
 zdrobiš			2
-zeleniš	185		2
+zeleniš	185		3
 zgaziš	34		2
 zgnječiš			2
-zgotoviš			2
+zgotoviš			3
 zgrabiš	23		2
 zgrešiš			2
 zlopatiš			3
@@ -1395,20 +1395,20 @@ zuriš	15		2
 zviždiš			2
 zvoniš			2
 zvučiš	89		2
-ćelaviš			2
+ćelaviš			3
 ćiriš			2
 ćutiš	535		2
 čamiš			2
 častiš	71		2
-čađaviš			2
+čađaviš			3
 činiš	786		2
 čistiš	113		2
 čudiš	176		2
 čučiš	14		2
 đipiš			2
 šališ	209		2
-šegačiš			2
-šepuriš			2
+šegačiš			3
+šepuriš			3
 širiš	227		2
 šiziš			2
 šišmiš	65		2
@@ -1424,7 +1424,7 @@ zvučiš	89		2
 ženiš	97		2
 žestiš	19		2
 živiš	3024		2
-životariš			2
+životariš			3
 žmuriš	24		2
 žudiš	25		2
 žuriš	147		2
@@ -1433,9 +1433,9 @@ bježiš			2
 cijeniš			3
 dijeliš	24		3
 griješiš	31		3
-ispriječiš			2
+ispriječiš			3
 izliječiš			3
-iznevjeriš			2
+iznevjeriš			3
 liječiš			3
 mijesiš			3
 mjeriš			2
@@ -1443,27 +1443,27 @@ namjestiš			3
 nasmiješiš			3
 obavijestiš			3
 objesiš			3
-odriješiš			2
-okrijepiš			2
-onesvijestiš			2
+odriješiš			3
+okrijepiš			3
+onesvijestiš			3
 osjetiš			3
-otrijezniš			2
-pjevušiš			2
+otrijezniš			3
+pjevušiš			3
 pobijediš	17		3
-pobjediš			2
+pobjediš			3
 podijeliš			3
 podsjetiš			3
 pogriješiš			3
-pomjeriš			2
+pomjeriš			3
 posjetiš			3
 povjeriš			3
 povrijediš			3
 prijetiš	10		3
 primijetiš			3
-primjetiš			2
+primjetiš			3
 prisjetiš			3
 promijeniš	18		3
-promjeniš			2
+promjeniš			3
 provjeriš			3
 riješiš	31		3
 sagriješiš			3
@@ -1475,12 +1475,12 @@ smjestiš			2
 spriječiš			3
 svjedočiš			2
 tješiš			2
-ubijediš			2
+ubijediš			3
 usmjeriš			3
-ustrijeliš			2
+ustrijeliš			3
 uvjeriš			3
 uvrijediš			3
-vrijediš	16		2
+vrijediš	16		3
 zamijeniš			3
-zamjeniš			2
-zgriješiš			2
+zamjeniš			3
+zgriješiš			3

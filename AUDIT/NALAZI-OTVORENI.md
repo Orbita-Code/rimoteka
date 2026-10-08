@@ -55,6 +55,32 @@
 | **PR-1** | na 1.990 statičkih strana kartica nad reči bez tastature (kod tražio `.word`, kapsula je `button`/`a`) → `nosilacFokusa(cip)` = `.word[tabindex]` ili sama kapsula; keydown, Escape, Shift+Tab, Tab sa poslednjeg dugmeta, `aria-expanded`/`aria-haspopup` i povratak fokusa iz prijave (PR-2 usput) idu preko njega; `gen_pages.py` upisuje `aria-haspopup/expanded` na kapsulu | 58 D: na `/rime-za/ljubav/` fokus → kartica, Tab → „značenje", → „omiljene", Escape → fokus na kapsulu sa `aria-expanded=false` (ciljano provereno i na 1280 px, i Tab kroz svih 5 dugmadi do sledeće kapsule) |
 | **TP-1** | produkcijski prolaz sekcije 50: 30 adresa, samo „200 + h1" → 100 nasumičnih (80 strana reči), 10 odjednom, 20 s po strani: h1, kanonikal, JSON-LD, ≥8 rima, bez `?rec=`, ista verzija `app.js`, `logo-icon.webp` bez `.png`; `/logo-icon.webp` 200 + image/webp + < 70 KB; `.logo-r` naturalWidth > 0 u pregledaču | 50 (produkcija), 10 provera umesto 1 |
 
+## POPRAVLJENO 08.10.2026 — srednji i niski nalazi audita 07.10. (naredba vlasnice: „radi dok ne bude 10/10"); test sekcija 60 (27 provera) + 12b/2/30/39
+
+| Nalaz | Šta je bilo → šta je sada | Provera |
+|---|---|---|
+| **AK-3** | podrazumevani akcenat „pretposlednji slog" za 105.940 reči bez podatka – izmereno (`scripts/akcenti-prediktor-ocena.py`, ostavi-jednog-napolju nad 20.980 Wiktionary reči sa 3+ sloga) tačan za **25,5 %**; najčešći pravi početak rime je treći slog od kraja (58 %) → podrazumevano = treći od kraja, prediktor po završetku ≥2 primera / ≥60 % (bilo 3 / 75 %); ukupna tačnost 66 → **79,5 %** | 2b (primeri), 39 (strana = alat), tabela 20 nasumičnih `AUDIT/akcenti/2026-10-08-nasumicno-20.md` |
+| **G-1 / G-2** | rečnik koji nikad ne stigne: upis reči pregazio poruku lažnim „Učitavam rečnik…" i trajno gasio dugme → `recnikPao` + `prikaziPadRecnika()`; poruka sa dugmetom ostaje, dugme živo, kanta (ako radi) ipak daje rime | 60 B (route abort reci.txt + kante, dve reči) |
+| **KL-1** | dečji režim nije filtrirao Pretragu ni predloge („lje" → groblje, nasilje) → isti `isKidsBlocked` u `doSearch` i `updateAutocomplete` | 60 A |
+| **UI-1** | „prebaci u brojač" iz Klasika menjao tab bez adrese (F5 vraćao Klasike, pesma nestajala) → `pushState` na `/slogovi/` | 60 A |
+| **SJ-1** | FAQ „Najbolje rime za reč … su:" nabrajao 10 iz best+good (348 strana) → samo `best`; ispod 3 kaže „Rime" | 60 E (sve strane, FAQ ⊆ vidljive Najbolje) |
+| **AK-4** | generator nije čitao `jekavski.json` (zamenik → sljedbenik) → isti filter kao alat, nad svim grupama | 60 E |
+| **SEO-2** | `lastmod` reset na svih 2.012 strana zbog logotipa u šablonu → otisak nad `<main>` | ručno (sledeća promena futera/logotipa ne sme da dirne lastmod) |
+| **SEO-3** | 1.135 opisa < 150 zn. → primeri iz celog spiska + dopunske rečenice do 150–160 | 60 E (svih 1.989 strana 150–160) |
+| **PR-3 / PR-4** | `#deftip` bez aria-live; `.syl` čitan kao „gubav2" → `aria-live=polite`; `.syl` aria-hidden + `aria-label="reč, N slogova"` na kapsuli (alat, strane, hub, tematske) | 60 A, 60 E |
+| **K-1 / K-2 / PR-5** | h1 duge reči širio stranu (447 px na 320); crvena poruka igre 4,37/3,87:1; `.kbd-note` 4,36:1 → `overflow-wrap:anywhere`; #c8243c (5,57:1) / #ff8a98 tamna (8,39:1); `--ink-soft` (6,7/9,2:1) | 60 A (merenje), 60 C |
+| **MB-1 / MB-3 / MB-4** | hub: lepljivi blok 34 % ekrana, slova 26×30; filter slogova 41 px; kružić 11,2 px → azbuka van lepljivog bloka (red koji se pomera, 44 px), `min-width:44px`, `max(.75rem,12px)` | 60 C (320×568) |
+| **UI-2 / UI-3 / UI-4** | povratak na tab Rime vraćao opšti naslov; status „600 pronađeno" a prikazano 200; „Kopiraj sve rime" samo na stranama → `data-recNaslov`; „prikazano prvih 200"; isto dugme i u alatu (delegiran klik, `uiTxt`) | 60 A |
+| **C-1 / C-2** | pretraga po završetku `replaceState`; filter slogova bez istorije → `pushState` na nov upit / promenu filtera, `popstate` vraća polje, način i filter | 60 A, 60 D |
+| **G-3 / G-4** | ASCII navodnik u naslovu za `?rec=`; `?rec=%E4` upisivao „�" → srpski navodnici; `\uFFFD` se briše | 60 A |
+| **SJ-4 / SJ-5 / SJ-6** | objašnjenja: 7 pisana ijekavicom (bjelka, bijelcem/bijelcu, cvijeti, liješće, bjelini/bjelinu), 11 sa „..." umesto „…", 6 sa zarezom pred „i" (sinonimi → tačka-zarez) → ispravljeno 24 objašnjenja; `podeli_definicije.py` + verzije | 53 (deljeni = ceo) |
+| **TP-2 / TP-4 / TP-6** | nijedan pravi klik na 390 px; zastavica `proza` prolazila bez elementa; sekcija 39 sa 20 fiksnih kratkih reči → `page.click('#rimeBtn')` + `p30.tap`; `'nema-elementa'` pada; 8 stalnih + 12 nasumičnih sa semenom (8 sa 3+ sloga) | 2, 30, 37, 39 |
+| **12b** (usput) | provera filtera slogova bila lažno zelena (brojala reči, spisak sečen na 180) → gleda sadržaj (svaka reč 2 sloga) | 12b |
+| **SEO-1 / SEO-4 / PF-3** (nginx, ZASEBAN deploy) | `?rec=` bez strane: sirovi kanonikal `/` a JS `/?rec=reč` → mapa daje `/?rec=<reč>` za bezopasan unos (slova, cifre, %-kodirana UTF-8 slova), inače `/`; nema `charset` → `charset utf-8`; kante/akcenat `expires epoch` uprkos `?v=` → 365 d | `nginx-provera.sh` 3b (5 slučajeva), 59 E (produkcija) |
+| **BZ-1 / BZ-2 / BZ-4** (worker, ZASEBAN `wrangler deploy`) | `?kljuc=` radio i za JSON; telo prijave bez plafona; ključ u mejlu → ključ u upitu samo za HTML, JSON i `/obrisi` samo zaglavljem; 8 KB plafon (413); mejl bez ključa, strana bez ključa nudi polje | 46 + ručno `curl` posle objave |
+
+**Ostaje iz audita 07.10. (odluke vlasnice ili van dometa koda):** KL-2 (igra sudi po staroj rimi bez akcenta – pravilo 9g starije od 05.10., odluka), AK-6 (prenos akcenta na priloge/množinu 7,5 % – traži podatke kojih nema), AK-7 (Vukov akcenat vs. savremeni – odluka), PF-1 (frekvencija 957 → 325 KB – zaseban zahvat, dira 6 potrošača), PF-2 (brotli – `nginx:alpine` nema modul, traži drugu sliku), SEO-5 (FAQPage šema koju Google ne prikazuje – uklanjanje je odluka), BZ-3 (`backend/` mrtav kod – brisanje foldera traži njenu reč), MB-2 (položen telefon posle Entera – nije reprodukovano u ovom krugu), TP-5/TP-7–10 (rupe testa bez recepta u izveštaju), SJ-2/SJ-3 (601 definicija slična Matici; hrvatske reči – odluke).
+
 ## STANJE NA DAN 07.10.2026 — pun audit (`AUDIT/2026-10-07-audit.md`, ocena 7,8/10, 13/13 dimenzija, 28/28 adversarijalnih)
 
 > Jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u „POPRAVLJENO <datum>".
@@ -63,9 +89,9 @@
 
 **VISOKO:** (nema – AK-1, AK-2, PR-1, TP-1 popravljeni 07.10., v. tabelu iznad; čeka push)
 
-**SREDNJE (17):** G-1 (pad rečnika: upis pregazi poruku, dugme ugašeno) · SJ-1 (JSON-LD FAQ ≠ vidljive Najbolje, 348 strana) · TP-2 (nema pravog klika na dugme na 390 px) · KL-1 (dečji režim ne filtrira Pretragu) · UI-1 (prebaci u brojač bez adrese) · SEO-1 (`?rec=` bez strane: dva kanonikala) · SEO-2 (lastmod reset zbog logotipa) · PR-3 (deftip bez aria-live) · PR-4 (`.syl` bez aria-hidden) · PF-1 (frekvencija 957 → 325 KB) · PF-2 (brotli) · K-1 (duga reč razvlači telefon) · K-2 (crvena poruka igre 3,87:1) · MB-1 (hub na 320: lepljivi blok 34 %, azbuka 26 px) · AK-3 (podrazumevani akcenat ~1/3 pogrešan) · AK-4 (gen_pages ne filtrira jekavski.json) · TP-6 (sekcija 39: 20 kratkih reči)
+**SREDNJE (2 ostaju, 15 popravljeno 08.10. – v. tabelu iznad):** PF-1 (frekvencija 957 → 325 KB – zaseban zahvat) · PF-2 (brotli – traži drugu nginx sliku, odluka)
 
-**NISKO (24):** G-2, G-3, G-4, KL-2, UI-2, UI-3, UI-4, C-1, C-2, SEO-3, SEO-4, SEO-5, PR-2, PR-5, PR-6, PF-3, PF-4, MB-2, MB-3, MB-4, BZ-1, BZ-2, BZ-3, BZ-4, SJ-4, SJ-5, SJ-6, TP-4, TP-5, TP-7–10, AK-6, AK-7 – opisi u izveštaju.
+**NISKO (ostaje 11, popravljeno 08.10.: G-2, G-3, G-4, UI-2, UI-3, UI-4, C-1, C-2, SEO-3, SEO-4, PR-2, PR-5, PF-3, MB-3, MB-4, BZ-1, BZ-2, BZ-4, SJ-4, SJ-5, SJ-6, TP-4):** KL-2 (odluka) · SEO-5 (odluka) · PR-6 (dva polja bez oznake – v. napomenu) · PF-4 (1,0 → 1,98 MB posle prve pretrage) · MB-2 · BZ-3 (brisanje foldera – njena reč) · TP-5, TP-7–10 · AK-6 · AK-7 (odluka).
 
 **SPORNO / ODLUKA VLASNICE:** SJ-3 hrvatske reči u rečniku (također, točno, vlak, kruh… na 42 strane) · SJ-2 601 definicija > 80 % slična Matici · AK-7 Vukov akcenat vs. savremeni · grupa C ostatak · „ćelave" i kratke reči (odluka od 22.09.).
 

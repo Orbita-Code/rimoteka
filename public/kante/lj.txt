@@ -25,7 +25,7 @@ dragulj	1060		2
 dražbovatelj			3
 držitelj			3
 emalj			2
-epitrahilj			2
+epitrahilj			3
 fitilj	390		2
 frtalj	125		2
 gogolj			2
@@ -54,7 +54,7 @@ izumitelj	326		3
 izvršitelj	570		3
 kardelj			2
 karolj			2
-kačkavalj		M	2
+kačkavalj		M	3
 kašalj	2787		2
 kelj	434		1
 kocelj	21		2
@@ -78,7 +78,7 @@ kućepazitelj	24		3
 ljubitelj	3928		3
 ljulj	76		1
 malj	147		1
-matavulj			2
+matavulj			3
 metilj	31		2
 mihalj			2
 mislitelj			3
@@ -102,8 +102,8 @@ ogovaratelj			3
 omišalj			3
 oponašatelj			3
 oporučitelj			3
-opunomoćitelj			2
-osiguravatelj	42		2
+opunomoćitelj			3
+osiguravatelj	42		3
 osnovatelj			3
 ovlastitelj			3
 označitelj			3
@@ -179,7 +179,7 @@ uništitelj			3
 upravitelj	659		3
 upropastitelj			3
 usrećitelj	21		3
-ustavobranitelj			2
+ustavobranitelj			3
 usvojitelj	64		3
 utemeljitelj	121		3
 utešitelj	83		3
@@ -190,7 +190,7 @@ učitelj	5987		3
 vaspitatelj			3
 vatralj		M	2
 veroučitelj	325		3
-vicekralj			2
+vicekralj			3
 voditelj	5171		3
 vodvilj	113		2
 vršitelj			3

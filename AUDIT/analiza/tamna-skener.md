@@ -1,4 +1,4 @@
-# Skener tamnog režima — 2026-10-07 (http://localhost:8765)
+# Skener tamnog režima — 2026-10-08 (http://localhost:8765)
 
 Strana (vrste): 30 + 12 stanja alata + baner. Nalaza: **0**.
 

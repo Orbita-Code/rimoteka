@@ -7,12 +7,12 @@ bastard			2
 bernard			2
 bernhard			2
 bilbord	632		2
-biohazard			2
-bodigard			2
+biohazard			3
+bodigard			3
 bord	594		1
-eduard			2
+eduard			3
 edvard			2
-endokard			2
+endokard			3
 erhard			2
 fjord	43		1
 ford	934		1
@@ -24,7 +24,7 @@ gord	195		1
 grd	21		1
 hard	6584		1
 harvard			2
-hauard			2
+hauard			3
 hazard	120		2
 jard	93		1
 kliford			2
@@ -33,25 +33,25 @@ kraford			2
 kroford			2
 kurd			1
 lenard			2
-leonard			2
+leonard			3
 leopard	314		3
 lombard			2
 lord	958		1
 milord	14		2
-miokard			2
+miokard			3
 nord			1
 oksford			2
 packard			2
-perikard	19		2
+perikard	19		3
 polard			2
 rajnhard			2
-raterford			2
+raterford			3
 rekord	9463		2
 retard	185		2
 richard			2
 rihard			2
 skejtbord			2
-snoubord	202		2
+snoubord	202		3
 standard	19159		2
 stanford			2
 stenford			2

@@ -27,80 +27,80 @@ Slovenijo			3
 Sofijo			3
 Srbijo	134		3
 Venecijo			3
-agentkinjo			2
+agentkinjo			3
 akcijo			3
 alergijo			3
 ambrozijo			3
 amfibijo			3
 amortizacijo			3
-anoreksijo			2
+anoreksijo			3
 antropologijo			3
 arheologijo			3
-asistentkinjo			2
+asistentkinjo			3
 astronomijo			3
-aždajo			2
+aždajo			3
 bajo	29		2
 bakljo			2
 banjo			2
-bekrijo			2
+bekrijo			3
 belkinjo			3
-beštijo			2
-biohemijo			2
+beštijo			3
+biohemijo			3
 biologijo			3
-birokratijo			2
+birokratijo			3
 bjelkinjo			3
 bodljo			2
 boginjo	21		3
 bojo			2
-bostandžijo			2
+bostandžijo			3
 bošnjo			2
-bradonjo			2
-bratijo	19		2
+bradonjo			3
+bratijo	19		3
 brbljo		M	2
-crnkinjo			2
+crnkinjo			3
 cvejo			2
 cvijo			2
 dadiljo			3
-delijo			2
+delijo			3
 demokratijo			3
-dečkonjo			2
-dečurlijo			2
-dimiskijo			2
+dečkonjo			3
+dečurlijo			3
+dimiskijo			3
 dojiljo			2
 dojo			2
 droljo	28		2
 dugajlijo			3
 dunjo	66		2
-dućandžijo			2
-efendijo			2
+dućandžijo			3
+efendijo			3
 ekologijo			3
 ekonomijo			3
-ekscelencijo			2
-ekselencijo	65		2
-eminencijo			2
+ekscelencijo			3
+ekselencijo	65		3
+eminencijo			3
 etnologijo			3
-fakultetlijo			2
-familijo			2
-farmacijo			2
+fakultetlijo			3
+familijo			3
+farmacijo			3
 filozofijo			3
 franjo			2
 gajo			2
 galaksijo			3
-galamdžijo			2
+galamdžijo			3
 geografijo			3
 geologijo			3
-glavonjo			2
+glavonjo			3
 goljo			2
-gospojo			2
+gospojo			3
 grujo			2
 gujo			2
-halapenjo			2
+halapenjo			3
 hemijo			3
 huljo			2
-hurijo			2
-idiotkinjo			2
+hurijo			3
+idiotkinjo			3
 igumanijo			3
-ilijo			2
+ilijo			3
 iluzijo	17		3
 inteligencijo	15		3
 ironijo			3
@@ -115,28 +115,28 @@ kardiologijo			3
 keceljo			3
 klinjo			2
 kneginjo			3
-koeljo			2
+koeljo			3
 kojo			2
 komisijo			3
 komšijo	30		3
 košuljo			3
 krnjo			2
 krntijo			3
-krvopijo			2
+krvopijo			3
 kujo	24		2
 kutijo			3
 lenjo			2
-litijo			2
+litijo			3
 liturgijo			3
 lobanjo			3
-lovkinjo			2
+lovkinjo			3
 lujo			2
-luđakinjo			2
+luđakinjo			3
 magijo			3
 majo			2
 maljo			2
 manjo			2
-medonjo			2
+medonjo			3
 meteorologijo			3
 mijo			2
 milicijo	18		3
@@ -144,43 +144,43 @@ miljo			2
 misijo			3
 mladoženjo			3
 mlakonjo			3
-monahinjo			2
+monahinjo			3
 mrljo			2
 mujo			2
-mušterijo			2
+mušterijo			3
 nacijo			3
 nedeljo			3
 nerotkinjo			4
 neurologijo			3
 nevoljo			3
 ništarijo			3
-nosonjo			2
+nosonjo			3
 novajlijo			3
-ohajo			2
+ohajo			3
 oklagijo			3
 olujo			2
-ortakinjo			2
+ortakinjo			3
 pajo			2
 partijo			3
 pedagogijo			3
 pesnikinjo			4
 petljo			2
-pokajo			2
+pokajo			3
 policijo	38		3
 preljo			2
-prevarantkinjo			2
+prevarantkinjo			3
 prijo	37		2
 prokletinjo			3
 psihijatrijo			3
 psihologijo			3
 rajo			2
 revolucijo			3
-rmpalijo			2
-robijo			2
+rmpalijo			3
+robijo			3
 robinjo			3
 rogonjo			3
-rospijo			2
-rođakinjo			2
+rospijo			3
+rođakinjo			3
 ruljo			2
 sabljo			2
 sanjo			2
@@ -195,9 +195,9 @@ smajo			2
 snajo			2
 sociologijo			3
 sojo			2
-srbadijo			2
-srpkinjo			2
-starkeljo			2
+srbadijo			3
+srpkinjo			3
+starkeljo			3
 stomatologijo			3
 strankinjo			3
 sudijo	71		3
@@ -205,22 +205,22 @@ suljo			2
 sutkinjo			3
 svinjo	38		2
 svojo			2
-tekelijo			2
+tekelijo			3
 televizijo			3
-tokijo			2
+tokijo			3
 tradicijo			3
-trbonjo			2
-tupadžijo			2
-turkinjo			2
+trbonjo			3
+tupadžijo			3
+turkinjo			3
 ujo	24		2
-veleizdajo			2
+veleizdajo			3
 veljo			2
 veresijo			3
 verzijo			3
-veziljo			2
+veziljo			3
 vizijo			3
 vojvotkinjo			4
-zekonjo			2
+zekonjo			3
 zemljo	298		2
 zmijo	13		2
 zoologijo			3
@@ -229,9 +229,9 @@ zoologijo			3
 čudakinjo			3
 Španijo			3
 šaljivdžijo			3
-šaruljo			2
-šeprtljo			2
-šeširdžijo			2
+šaruljo			3
+šeprtljo			3
+šeširdžijo			3
 šijo			2
 šiljo			2
 šmokljo			2
@@ -240,7 +240,7 @@ zoologijo			3
 šujo			2
 žderonjo			3
 željo	20		2
-žgadijo			2
+žgadijo			3
 žgoljo			2
 životinjo	19		3
 žudnjo			2

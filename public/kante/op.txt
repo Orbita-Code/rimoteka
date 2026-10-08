@@ -1,6 +1,6 @@
 64
 agitprop			3
-antilop			2
+antilop			3
 arhiepiskop	2159		3
 autostop			4
 bioskop	4479		3
@@ -10,24 +10,24 @@ episkop	10206		3
 ezop			2
 filantrop	200		2
 flop	96		1
-fluoroskop			2
-fotošop			2
+fluoroskop			3
+fotošop			3
 galop	108		2
 gastroskop			3
-heliotrop			2
+heliotrop			3
 hop	345		1
 horoskop	1570		3
-hronotop			2
-hulahop		M	2
+hronotop			3
+hulahop		M	3
 iskop	280		2
-izotop	100		2
+izotop	100		3
 kaleidoskop	189		2
 kiklop	76		2
 konop	121		2
 kop	938		1
 laptop	6746		2
-laringoskop			2
-magnetoskop			2
+laringoskop			3
+magnetoskop			3
 mikroskop	417		3
 mizantrop	66		2
 nonstop			2
@@ -43,10 +43,10 @@ potop	705		2
 preklop	174		2
 prisop			2
 prokop	233		2
-protopop			2
+protopop			3
 raspop		M	2
 rudokop			3
-sinemaskop			2
+sinemaskop			3
 sklop	1999		1
 snop	879		1
 stetoskop	56		3
@@ -54,11 +54,11 @@ stop	5243		1
 stroboskop			3
 strop	75		1
 teleskop	3542		3
-telešop			2
+telešop			3
 top	8293		1
 trnokop			3
 trop	34		1
-ugljenokop	47		2
+ugljenokop	47		3
 ukop	125		2
 zaklop	11		2
 šop	162		1

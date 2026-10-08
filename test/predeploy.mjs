@@ -49,7 +49,7 @@ const T0_SEKCIJE = Date.now();   // 09.09.2026: vreme po sekciji, da se vidi gde
    ovde, a sa DEO ga `test/lanac.sh` računa kao zbir sva četiri radnika. Promenljive deklarisane na vrhu sekcija
    su podignute na vrh `main` (sekcije su sada blokovi) – bez toga bi `const` iz sekcije 2 bio nevidljiv sekciji 4. */
 const DEO = Number(process.env.DEO || 0), DELOVA = Number(process.env.DELOVA || 4);
-const TRAJANJE = {"2": 6, "3": 3, "4": 3, "5": 2, "6": 1, "7": 1, "7a": 6, "7b": 5, "7c": 3, "8": 4, "8b": 9, "2b": 5, "8c": 1, "9": 1, "10": 1, "11": 1, "19b": 4, "27": 3, "29": 1, "57": 69, "55": 46, "19c": 21, "40": 17, "26": 15, "12g": 13, "16": 19, "17": 19, "14": 7, "15b": 13, "35": 9, "15": 7, "20d": 5, "12j": 3, "20h": 5, "12": 3, "50": 23, "59": 86, "51": 55, "22": 33, "21": 22, "54": 34, "47": 16, "53": 17, "16d": 9, "20g": 10, "20": 8, "36": 14, "16b": 8, "37": 9, "15c": 5, "32": 11, "14b": 5, "14c": 1, "23": 2, "25": 1, "41": 1, "42": 1, "48": 1, "39": 69, "46": 53, "58": 36, "52": 27, "31": 27, "20b": 13, "12b": 16, "24": 11, "17b": 11, "12h": 14, "20e": 8, "43": 10, "38": 14, "44": 6, "18b": 4, "33": 16, "16c": 1, "19": 1, "56": 61, "10c": 49, "49": 30, "30": 28, "18": 25, "20c": 16, "12i": 14, "45": 12, "16e": 15, "28": 9, "20f": 11, "12e": 5, "12f": 5, "12c": 4, "12d": 5, "19d": 6, "10b": 4, "34": 5};   // izmereno trajanje sekcije u s (lanac 06.10.2026); za raspodelu po radnicima
+const TRAJANJE = {"2": 6, "3": 3, "4": 3, "5": 2, "6": 1, "7": 1, "7a": 6, "7b": 5, "7c": 3, "8": 4, "8b": 9, "2b": 5, "8c": 1, "9": 1, "10": 1, "11": 1, "19b": 4, "27": 3, "29": 1, "57": 69, "55": 46, "19c": 21, "40": 17, "26": 15, "12g": 13, "16": 19, "17": 19, "14": 7, "15b": 13, "35": 9, "15": 7, "20d": 5, "12j": 3, "20h": 5, "12": 3, "50": 23, "59": 86, "51": 55, "22": 33, "21": 22, "54": 34, "47": 16, "53": 17, "16d": 9, "20g": 10, "20": 8, "36": 14, "16b": 8, "37": 9, "15c": 5, "32": 11, "14b": 5, "14c": 1, "23": 2, "25": 1, "41": 1, "42": 1, "48": 1, "39": 69, "46": 53, "58": 36, "52": 27, "31": 27, "20b": 13, "12b": 16, "24": 11, "17b": 11, "12h": 14, "20e": 8, "43": 10, "38": 14, "44": 6, "18b": 4, "33": 16, "16c": 1, "19": 1, "56": 61, "10c": 49, "49": 30, "30": 28, "18": 25, "20c": 16, "12i": 14, "45": 12, "16e": 15, "28": 9, "20f": 11, "12e": 5, "12f": 5, "12c": 4, "12d": 5, "19d": 6, "10b": 4, "34": 5, "60": 45};   // izmereno trajanje sekcije u s (lanac 06.10.2026); za raspodelu po radnicima
 const DELJENA_STRANA = ["2", "3", "4", "5", "6", "7", "7a", "7b", "7c", "8", "8b", "2b", "8c", "9", "10", "11", "19b", "27", "29"];   // sekcije koje koriste prvu stranu `page` – uvek radnik 1, istim redom
 /* Raspored se računa za ZADATI broj radnika (DELOVA): sekcije sa deljenom stranom idu radniku 1, ostale se dele
    „najduža prva, najmanje opterećenom radniku" – pa RADNIKA=6 stvarno koristi 6 radnika (07.10.: sa fiksnim rasporedom
@@ -61,7 +61,10 @@ const RASPORED = (() => {
   for (const k of ostale) { let w = 0; for (let i = 1; i < teret.length; i++) if (teret[i] < teret[w]) w = i; r[k] = w + 1; teret[w] += TRAJANJE[k] || 5; }
   return r;
 })();
-const moj = (k) => !DEO || (RASPORED[k] || 1) === DEO;
+/* SAMO=60 (ili SAMO=2b,50) pušta samo navedene sekcije – za probu NOVE provere same (pravilo 9a: prvo sama, pa pun lanac).
+   Čuvar „bar 900 provera" se tada preskače. Ne koristiti za deploy. */
+const SAMO = (process.env.SAMO || '').split(',').map(x => x.trim()).filter(Boolean);
+const moj = (k) => SAMO.length ? SAMO.includes(k) : (!DEO || (RASPORED[k] || 1) === DEO);
 if (DEO) console.log(`▶ radnik ${DEO}/${DELOVA} – sekcije: ${Object.keys(RASPORED).filter(k => RASPORED[k] === DEO).join(', ')}`);
 const sek = (naslov) => console.log(`\n[${((Date.now() - T0_SEKCIJE) / 1000) | 0} s] ${naslov}`);
 
@@ -239,11 +242,12 @@ async function main() {
     ok('konzola bez grešaka', konzolaGreske.length === 0, konzolaGreske.slice(0, 3).join(' | '));
 
     if (moj('2')) { sek('\n2) RIMOVANJE REČI – glavna namena sajta');
-    rime= await page.evaluate(async () => {
-      const w = ms => new Promise(r => setTimeout(r, ms));
-      document.getElementById('rimeInput').value = 'ljubav';
-      document.getElementById('rimeBtn').click();
-      await w(900);
+    /* TP-2 (audit 07.10.2026): glavno dugme se pritiska PRAVIM klikom (Playwright pomera miš i klikne), ne `.click()` iz JS-a –
+       12 pravih klikova postojalo je samo na širinama 1280/1600, a na 390 px nijedan (v. sekciju 30, `tap`). */
+    await page.fill('#rimeInput', 'ljubav');
+    await page.click('#rimeBtn');
+    await pauza(900);
+    rime= await page.evaluate(() => {
       const box = document.getElementById('rimeResults');
       const reci = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
       return { broj: reci.length, ima_grbav: reci.includes('grbav'), prvih5: reci.slice(0, 5) };
@@ -813,12 +817,16 @@ async function main() {
         kanNajbolje: (kan.grupe['Najbolje rime'] || []).slice(0, 40), kanKljuc: typeof AKCMAP !== 'undefined' ? [AKCMAP.get('kaniti'), AKCMAP.get('raniti'), AKCMAP.get('goniti')] : [],
         slobodanNajbolje: (slobodan.grupe['Najbolje rime'] || []).slice(0, 40),
         unukaNajbolje: (unuka.grupe['Najbolje rime'] || []).slice(0, 40), domacinNajbolje: (domacin.grupe['Najbolje rime'] || []).slice(0, 40),
+        unukaKljuc: typeof AKCMAP !== 'undefined' ? [AKCMAP.get('unuka'), AKCMAP.get('bazuka'), AKCMAP.get('jabuka')] : [],
       };
     });
     /* AK-1 (audit 07.10.2026): pomak ključa iza naglašenog sloga samo kad je taj slog DUG. kániti (kratak „ni") → -aniti:
        rȁniti jeste prava rima, gòniti nije. ùnuka → -unuka: bazuka (-azuka) nije. */
     ok('AK-1 · „kaniti" (kániti, kratak slog iza): raniti u „Najbolje", goniti NIJE; ključ -aniti', rang.kanNajbolje.includes('raniti') && !rang.kanNajbolje.includes('goniti') && rang.kanKljuc[0] === 'aniti' && rang.kanKljuc[1] === 'aniti' && rang.kanKljuc[2] !== 'aniti', `najbolje: ${rang.kanNajbolje.slice(0, 10).join(', ')} | ključevi ${rang.kanKljuc.join('/')}`);
-    ok('AK-1 · „unuka" (ùnuka): bazuka NIJE u „Najbolje"', !rang.unukaNajbolje.includes('bazuka'), rang.unukaNajbolje.slice(0, 10).join(', '));
+    /* AK-1: ključ za ùnuka je -unuka (ne -uka kao pre); bazuka NIJE stroga rima. Posle AK-3 (podrazumevani akcenat treći od kraja)
+       bazuka sme da uđe kroz REZERVU (isti slog, 3 sloga, dele -uka) zajedno sa jabukom i odlukom – to nije kvar pravila nego
+       nedostatak podatka za „bazuka"; zato se proverava ključ, ne položaj u spisku. */
+    ok('AK-1 · „unuka" (ùnuka): ključ -unuka; bazuka NIJE stroga rima (-azuka), jabuka i odluka u „Najbolje" (rezerva)', rang.unukaKljuc[0] === 'unuka' && rang.unukaKljuc[1] !== 'unuka' && rang.unukaNajbolje.includes('jabuka') && rang.unukaNajbolje.includes('odluka'), `ključevi ${rang.unukaKljuc.join('/')} · ${rang.unukaNajbolje.slice(0, 10).join(', ')}`);
     /* AK-2: rezerva (strogih < 3) traži i zajednički završetak od bar 2 sloga – slobodan → prirodan DA, bezvredan/rođendan NE. */
     ok('AK-2 · „slobodan" (rezerva): prirodan u „Najbolje", bezvredan i rođendan NISU (dele samo -dan)', rang.slobodanNajbolje.includes('prirodan') && !rang.slobodanNajbolje.includes('bezvredan') && !rang.slobodanNajbolje.includes('rođendan'), rang.slobodanNajbolje.slice(0, 12).join(', '));
     /* kornjačin OSTAJE uz domaćin: po pravilu sajta č≡ć (commonSuffix) dele -aćin/-ačin, dva sloga. */
@@ -1127,15 +1135,19 @@ async function main() {
       // a pre filtera je bilo i drugih. Ranije se poredio samo BROJ reči, a spisak je u oba slučaja sečen na 180
       // (ljubav: 3+177 → 2+178), pa je provera bila lažno zelena dok je prolazila i pala kad je grupa „Najbolje" ostala ista.
       const slogPre = [...box.querySelectorAll('.chip .syl')].map(e => e.textContent.trim());
-      const f = document.querySelector('#rimeSyl button[data-syl="2"]');
+      /* Cilj filtera se bira tako da PROMENI spisak: najređi broj slogova među prikazanima; ako su svi isti (ljubav: 180×2 posle
+         AK-3), uzima se „1" – reči sa 1 slogom postoje (prav, zdrav), ali ne ulaze u sečenih 180. */
+      const br = {}; slogPre.forEach(x => { br[x] = (br[x] || 0) + 1; });
+      const cilj = Object.keys(br).length > 1 ? Object.keys(br).sort((a, b) => br[a] - br[b])[0] : (slogPre.includes('1') ? '3' : '1');
+      const f = document.querySelector(`#rimeSyl button[data-syl="${cilj}"]`);
       if (f) f.click();
       await w(800);
       const posle = [...box.querySelectorAll('.word')].map(e => e.textContent.trim());
       const slogPosle = [...box.querySelectorAll('.chip .syl')].map(e => e.textContent.trim());
       return {
         broj: reci.length, imaGrbav: reci.includes('grbav'), grupe,
-        filterRadi: posle.length > 0 && slogPre.some(x => x !== '2') && slogPosle.length > 0 && slogPosle.every(x => x === '2'),
-        slogovi: { preRaznih: [...new Set(slogPre)].join('/'), posleRaznih: [...new Set(slogPosle)].join('/') },
+        filterRadi: posle.length > 0 && slogPre.some(x => x !== cilj) && slogPosle.length > 0 && slogPosle.every(x => x === cilj),
+        slogovi: { cilj, preRaznih: [...new Set(slogPre)].join('/'), posleRaznih: [...new Set(slogPosle)].join('/') },
         kockica: !!document.getElementById('randomBtn')
       };
     });
@@ -1153,7 +1165,7 @@ async function main() {
     });
     ok('/rimovanje-reci/ → sinonimi se prikazuju za kuriranu reč', (sinNaStrani || []).some(g => /Sinonimi/i.test(g)),
        (sinNaStrani || []).join(' / '));
-    ok('/rimovanje-reci/ → filter po slogovima radi (posle „2" svaka reč ima 2 sloga, pre je bilo i drugih)', alat.filterRadi === true, JSON.stringify(alat.slogovi));
+    ok('/rimovanje-reci/ → filter po slogovima radi (posle filtera svaka reč ima ciljani broj slogova, pre je bilo i drugih)', alat.filterRadi === true, JSON.stringify(alat.slogovi));
     ok('/rimovanje-reci/ → kockica postoji', alat.kockica === true);
     ok('/rimovanje-reci/ → nula grešaka u konzoli', alatGreske.length === 0, alatGreske.slice(0, 3).join(' | '));
     await pAlat.close();
@@ -1585,7 +1597,7 @@ async function main() {
       await w(600);
       return { pre, posle: b.textContent.trim(), reci: (b.dataset.words || '').length };
     });
-    ok('/rime-za/ljubav/ → „Kopiraj sve rime" reaguje na klik', kopiraj.posle === 'Kopirano!',
+    ok('/rime-za/ljubav/ → „Kopiraj sve rime" reaguje na klik (poruka u pismu strane, UI-4)', kopiraj.posle === 'Kopirano!' || kopiraj.posle === 'Копирано!',
        `„${kopiraj.pre}" → „${kopiraj.posle}"${kopiraj.greska ? ' – ' + kopiraj.greska : ''}`);
     // Kontrast se meri u OBE teme i sa stvarnim tekstom – pozadina tvrdo upisana
     // u CSS-u uz boju koja se menja sa temom je obrazac koji je već dao 1,23:1 na
@@ -3173,7 +3185,7 @@ async function main() {
         return {
           hero: hero ? getComputedStyle(hero).display !== 'none' : false,
           // starog spana nema → proza je po defaultu vidljiva (stari markup)
-          proza: hintTxt ? getComputedStyle(hintTxt).display !== 'none' : true,
+          proza: hintTxt ? getComputedStyle(hintTxt).display !== 'none' : 'nema-elementa',   // TP-4 (07.10.2026): bez elementa provera PADA, ne prolazi
           gutter: gutter ? Math.round(gutter.getBoundingClientRect().width) : 0,
         };
       });
@@ -3357,11 +3369,11 @@ async function main() {
       // „jedna ispod druge" i na „natrpanih 6 u redu".
       await p30.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
       await p30.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, { timeout: 180000 });
-      await p30.evaluate(() => {
-        document.getElementById('rimeInput').value = 'ljubav';
-        document.getElementById('rimeBtn').click();
-      });
+      /* TP-2 (07.10.2026): na 390 px PRAVI dodir na „Nađi rime" (`tap`), ne `.click()` iz JS-a. */
+      await p30.fill('#rimeInput', 'ljubav');
+      await p30.tap('#rimeBtn');
       await pauza(1500);
+      ok('mobilni · pravi dodir na „Nađi rime" daje rime (TP-2)', await p30.evaluate(() => document.querySelectorAll('#rimeResults .chip').length > 5));
       const a30 = await p30.evaluate(() => {
         const chips = [...document.querySelectorAll('#rimeResults .chip')];
         const redovi = {};
@@ -4961,9 +4973,19 @@ async function main() {
         /* Uzorak je STALAN, ne nasumičan – build mora biti ponovljiv, a pad mora
            da se može reprodukovati istom komandom. Bira raznolike dužine, oba
            roda, reči sa kvačicama i slugove koji se razlikuju od reči. */
-        const uzorak = ['reka', 'ljubav', 'glava', 'sunce', 'voda', 'dete', 'pesma',
-                        'srce', 'zima', 'mama', 'nada', 'kuca', 'ruka', 'oko',
-                        'noc', 'dan', 'more', 'put', 'san', 'grad'];
+        /* TP-6 (audit 07.10.2026): 20 fiksnih reči, sve 1–2 sloga, bilo je 1 % strana – a akcenat najviše menja reči
+           sa 3+ sloga. Sad: 8 stalnih + 12 NASUMIČNIH iz sitemapa sa semenom (ponovljivo istom komandom; `SEME=` menja),
+           od kojih bar 8 sa 3+ sloga (slog = samoglasnik ili r među suglasnicima – gruba mera nad slugom). */
+        const fiksni = ['reka', 'ljubav', 'sunce', 'srce', 'nada', 'noc', 'grad', 'direktor'];   // direktor: 3 sloga, rezerva po akcentu
+        const seme = Number(process.env.SEME || 20261007); let st = seme >>> 0;
+        const rnd = () => { st = (st + 0x6D2B79F5) >>> 0; let x = st; x = Math.imul(x ^ (x >>> 15), x | 1); x ^= x + Math.imul(x ^ (x >>> 7), x | 61); return ((x ^ (x >>> 14)) >>> 0) / 4294967296; };
+        const smTxt = await (await fetch(`${BASE}/sitemap.xml`)).text();
+        const sviSlug = [...smTxt.matchAll(/\/rime-za\/([^/<]+)\//g)].map(m => m[1]).filter(s => !fiksni.includes(s));
+        const slogova = s => (s.match(/[aeiou]|(?<![aeiou])r(?![aeiou])/g) || []).length;
+        const dugi = sviSlug.filter(s => slogova(s) >= 3), kratki = sviSlug.filter(s => slogova(s) < 3);
+        const izvuci = (iz, k) => { const kop = iz.slice(), out = []; for (let i = 0; i < k && kop.length; i++) out.push(kop.splice(Math.floor(rnd() * kop.length), 1)[0]); return out; };
+        const uzorak = [...fiksni, ...izvuci(dugi, 8), ...izvuci(kratki, 4)];
+        console.log(`  ↳ sekcija 39, seme ${seme}: ${uzorak.join(', ')}`);
         let ispitano = 0, razlicito = 0;
         for (const slug of uzorak) {
           const r = await fetch(`${BASE}/rime-za/${slug}/`);
@@ -7151,12 +7173,13 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         ok('P-2 · učestalost se ne skida na strani bez pretrage (1,5 s posle rečnika), a skida se čim se traže rime', bez === 0 && zahtevi.length >= 1, `bez ${bez}, posle ${zahtevi.length}`);
         await c.close();
       }
-      // E) SEO-2 (samo produkcija): sirovi kanonikal /?rec=<reč sa stranom> je strana reči; bez strane ostaje /
+      // E) SEO-2 (samo produkcija): sirovi kanonikal /?rec=<reč sa stranom> je strana reči; bez strane `/?rec=<reč>` (SEO-1, 07.10.2026 – isto što JS upiše; ranije `/` = dva signala)
       if (NA_PRODUKCIJI) {
         const a = await (await fetch(BASE + '/?rec=ljubav')).text();
         const b = await (await fetch(BASE + '/?rec=xyzqw')).text();
         const c2 = await (await fetch(BASE + '/?rec=%C4%8Deka')).text();
-        ok('SEO-2 · sirovi HTML: /?rec=ljubav nosi kanonikal /rime-za/ljubav/, /?rec=čeka → /rime-za/ceka/, nepoznata reč → /', /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ljubav\/"/.test(a) && /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ceka\/"/.test(c2) && /canonical" href="https:\/\/rimoteka\.com\/"/.test(b), 'ljubav/čeka/xyzqw');
+        const d2 = await (await fetch(BASE + '/?rec=xyz%22w')).text();
+        ok('SEO-2/SEO-1 · sirovi HTML: /?rec=ljubav → /rime-za/ljubav/, /?rec=čeka → /rime-za/ceka/, nepoznata reč → /?rec=xyzqw (kao JS), sumnjiv unos → /', /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ljubav\/"/.test(a) && /canonical" href="https:\/\/rimoteka\.com\/rime-za\/ceka\/"/.test(c2) && /canonical" href="https:\/\/rimoteka\.com\/\?rec=xyzqw"/.test(b) && /canonical" href="https:\/\/rimoteka\.com\/"/.test(d2), 'ljubav/čeka/xyzqw/xyz"w');
         const h = (await fetch(BASE + '/')).headers.get('content-security-policy') || '';
         // SEO-3 (07.10.2026): http://www → JEDAN skok pravo na https://rimoteka.com, sa putanjom i upitom (Traefik dinamički fajl rimoteka-301.yaml)
         const www = await fetch('http://www.rimoteka.com/rime-za/ljubav/?x=1', { redirect: 'manual' }).catch(() => null);
@@ -7167,12 +7190,147 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
     }
 
     }
+    if (moj('60')) { sek('\n60) AUDIT 07.10.2026 – srednji i niski nalazi (KL-1, G-1, PR-3, PR-4, K-1, K-2, PR-5, MB-1, MB-3, MB-4, UI-1..4, C-1, C-2, G-3, G-4, AK-4, SEO-3, SJ-1)');
+    {
+      const fs60 = await import('node:fs');
+      const kontrast = (fg, bg) => { const lum = c => { const [r, g, b] = c.match(/\d+(\.\d+)?/g).slice(0, 3).map(Number).map(v => v / 255).map(v => v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)); return 0.2126 * r + 0.7152 * g + 0.0722 * b; }; const a = lum(fg), b = lum(bg); return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05); };
+      // A) računar: KL-1, PR-3, PR-4, UI-2, UI-3, UI-4, C-2, G-3, G-4, UI-1, K-2 (svetla), G-1
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); } catch (e) {} });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/?rec=%E4ljubav', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await cekajMirneRime(p, 500);
+        const g4 = await p.evaluate(() => document.getElementById('rimeInput').value);
+        ok('G-4 · pokvareno kodiranje u adresi (`?rec=%E4ljubav`) ne upisuje „�" u polje', !g4.includes('\uFFFD'), JSON.stringify(g4));
+        await p.fill('#rimeInput', 'ljubav'); await p.click('#rimeBtn'); await cekajMirneRime(p, 600);
+        const g3 = await p.evaluate(() => ({ t: document.title, d: (document.querySelector('meta[name=description]') || {}).content || '' }));
+        ok('G-3 · naslov i opis za `?rec=` nose srpske navodnike „…“, ne ASCII "', /„ljubav“/.test(g3.t) && !/"/.test(g3.t) && /„ljubav“/.test(g3.d) && !/"/.test(g3.d), JSON.stringify(g3));
+        const pr = await p.evaluate(() => ({ live: document.getElementById('deftip')?.getAttribute('aria-live'), syl: document.querySelectorAll('#rimeResults .chip .syl').length, skr: document.querySelectorAll('#rimeResults .chip .syl[aria-hidden="true"]').length }));
+        ok('PR-3 · oblačić sa značenjem ima aria-live=polite (čitač čuje objašnjenje otvoreno tastaturom)', pr.live === 'polite', JSON.stringify(pr));
+        ok('PR-4 · kružić sa brojem slogova je aria-hidden na svakoj kapsuli u alatu (čitač ne čita „gubav2")', pr.syl > 5 && pr.skr === pr.syl, JSON.stringify(pr));
+        const ui4 = await p.evaluate(() => { const b = document.querySelector('#rimeResults .copy-all-btn'); return b ? { ima: true, reci: b.dataset.words.split(', ').length, grbav: b.dataset.words.includes('grbav'), h: Math.round(b.getBoundingClientRect().height) } : { ima: false }; });
+        ok('UI-4 · „Kopiraj sve rime" postoji i u alatu, nosi sve prikazane rime, meta ≥ 44 px', ui4.ima && ui4.reci > 100 && ui4.grbav && ui4.h >= 44, JSON.stringify(ui4));
+        // UI-2: tab Pretraga pa nazad na Rime → naslov reči ostaje
+        await p.click('#tabs a[data-tab="pretraga"]'); await pauza(300);
+        const t1 = await p.evaluate(() => document.title);
+        await p.click('#tabs a[data-tab="rime"]'); await pauza(300);
+        const t2 = await p.evaluate(() => document.title);
+        ok('UI-2 · povratak na tab Rime vraća naslov tražene reči, ne opšti naslov taba', !/ljubav/.test(t1) && /„ljubav“/.test(t2), JSON.stringify({ t1, t2 }));
+        // UI-3: pretraga sa >200 pogodaka kaže koliko je prikazano
+        await p.click('#tabs a[data-tab="pretraga"]'); await pauza(200);
+        await p.fill('#searchInput', 'ica'); await p.evaluate(() => { document.getElementById('searchMode').value = 'ends'; doSearch(); }); await pauza(600);
+        const ui3 = await p.evaluate(() => ({ status: document.getElementById('searchStatus').textContent, prik: document.querySelectorAll('#searchResults .chip').length }));
+        ok('UI-3 · status pretrage sa više od 200 pogodaka kaže „prikazano prvih 200"', /prikazano prvih 200/.test(ui3.status) && ui3.prik === 200, JSON.stringify(ui3));
+        // KL-1: dečji režim filtrira i Pretragu i predloge
+        await p.click('#tabs a[data-tab="rime"]'); await pauza(200);
+        await p.evaluate(() => { const k = document.getElementById('kidsToggle'); if (!k.checked) k.click(); }); await pauza(300);
+        const kl = await p.evaluate(async () => { const w = ms => new Promise(r => setTimeout(r, ms));
+          document.getElementById('searchInput').value = 'lje'; document.getElementById('searchMode').value = 'ends'; doSearch(); await w(500);
+          const pret = [...document.querySelectorAll('#searchResults .word')].map(e => e.textContent.trim());
+          const ri = document.getElementById('rimeInput'); ri.value = 'grob'; updateAutocomplete(); await w(200);
+          const pred = [...document.querySelectorAll('.ac-item')].map(e => e.textContent.trim());
+          return { pretN: pret.length, groblje: pret.includes('groblje'), nasilje: pret.includes('nasilje'), predN: pred.length, predGroblje: pred.includes('groblje') }; });
+        ok('KL-1 · dečji režim filtrira tab Pretraga („lje" bez groblje/nasilje) i predloge („grob" bez groblje)', kl.pretN > 5 && !kl.groblje && !kl.nasilje && !kl.predGroblje, JSON.stringify(kl));
+        await p.evaluate(() => { const k = document.getElementById('kidsToggle'); if (k.checked) k.click(); hideAutocomplete(); });
+        // C-2: promena filtera ide u istoriju, „Nazad" vraća prethodni filter
+        await p.fill('#rimeInput', 'ljubav'); await p.click('#rimeBtn'); await cekajMirneRime(p, 500);
+        await p.click('#rimeSyl button[data-syl="2"]'); await pauza(500);
+        const c2a = await p.evaluate(() => ({ u: location.search, akt: document.querySelector('#rimeSyl button.active')?.dataset.syl }));
+        await p.goBack({ waitUntil: 'load' }).catch(() => {}); await pauza(700);
+        const c2b = await p.evaluate(() => ({ u: location.search, akt: document.querySelector('#rimeSyl button.active')?.dataset.syl, n: document.querySelectorAll('#rimeResults .chip').length }));
+        ok('C-2 · filter slogova ide u istoriju: posle „2" adresa nosi slog=2, „Nazad" vraća „sve" i pun spisak', /slog=2/.test(c2a.u) && c2a.akt === '2' && !/slog=/.test(c2b.u) && c2b.akt === '0' && c2b.n > 100, JSON.stringify({ c2a, c2b }));
+        await p.evaluate(() => { document.querySelector('#rimeSyl button[data-syl="0"]')?.click(); });
+        // UI-1: Klasici → „prebaci u brojač slogova" menja adresu na /slogovi/
+        await p.click('#tabs a[data-tab="klasici"]'); await pauza(400);
+        const ui1 = await p.evaluate(async () => { const w = ms => new Promise(r => setTimeout(r, ms)); const b = [...document.querySelectorAll('#panel-klasici button')].find(x => /brojač/.test(x.textContent)); if (!b) return { nema: true }; b.click(); await w(400); return { put: location.pathname, tab: document.querySelector('#tabs a.active')?.dataset.tab, tekst: (document.getElementById('sylInput').value || '').length }; });
+        ok('UI-1 · „prebaci u brojač slogova" iz Klasika menja adresu na /slogovi/ (F5 ne vraća Klasike)', ui1.put === '/slogovi/' && ui1.tab === 'slogovi' && ui1.tekst > 50, JSON.stringify(ui1));
+        // K-2: crvena poruka igre ≥ 4,5:1 (svetla i tamna)
+        const k2 = await p.evaluate(() => { const r = {}; for (const tamna of [false, true]) { document.body.classList.toggle('dark-mode', tamna); const el = document.createElement('p'); el.className = 'game-feedback wrong'; el.textContent = 'x'; document.body.appendChild(el); r[tamna ? 'tamna' : 'svetla'] = { fg: getComputedStyle(el).color, bg: getComputedStyle(document.body).backgroundColor }; el.remove(); } document.body.classList.remove('dark-mode'); return r; });
+        ok('K-2 · poruka „✗ … se ne rimuje" u igri ima kontrast ≥ 4,5:1 u obe teme', kontrast(k2.svetla.fg, k2.svetla.bg) >= 4.5 && kontrast(k2.tamna.fg, k2.tamna.bg) >= 4.5, `svetla ${kontrast(k2.svetla.fg, k2.svetla.bg).toFixed(2)} · tamna ${kontrast(k2.tamna.fg, k2.tamna.bg).toFixed(2)}`);
+        // PR-5: kbd-note u tamnoj ćirilici ≥ 4,5:1
+        const pr5 = await p.evaluate(() => { document.body.classList.add('dark-mode'); const el = document.querySelector('.kbd-note'); const r = el ? { fg: getComputedStyle(el).color, bg: getComputedStyle(document.body).backgroundColor } : null; document.body.classList.remove('dark-mode'); return r; });
+        ok('PR-5 · napomena o tastaturi (.kbd-note) u tamnoj temi ima kontrast ≥ 4,5:1', !!pr5 && kontrast(pr5.fg, pr5.bg) >= 4.5, pr5 ? kontrast(pr5.fg, pr5.bg).toFixed(2) : 'nema .kbd-note');
+        await c.close();
+      }
+      // B) G-1: rečnik i kante NIKAD ne stignu → posle Entera poruka sa dugmetom ostaje, dugme živo
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.route(/\/(reci(_jekavica)?\.txt|kante\/)/, r => r.abort());
+        const p = ojacajStranu(await c.newPage());
+        p.__ocekivano = [/reci(_jekavica)?\.txt|\/kante\/|Greška pri učitavanju rečnika|Failed to fetch|ERR_FAILED/];   // oboren rečnik NAMERNO pravi ove greške
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' }); await pauza(2500);
+        await p.fill('#rimeInput', 'ljubav'); await p.click('#rimeBtn'); await pauza(1200);
+        const g1 = await p.evaluate(() => ({ poruka: document.querySelector('#rimeResults .empty')?.textContent || '', dugme: document.querySelector('#rimeResults button.primary')?.textContent || '', ziv: !document.getElementById('rimeBtn').disabled }));
+        ok('G-1 · kad rečnik nikad ne stigne, posle Entera ostaje poštena poruka sa dugmetom „Očisti i probaj ponovo", a „Nađi rime" nije ugašeno', /nije uspeo/.test(g1.poruka) && /probaj ponovo/.test(g1.dugme) && g1.ziv, JSON.stringify(g1));
+        await p.fill('#rimeInput', 'nada'); await p.click('#rimeBtn'); await pauza(800);
+        const g1b = await p.evaluate(() => ({ dugme: !!document.querySelector('#rimeResults button.primary'), ziv: !document.getElementById('rimeBtn').disabled }));
+        ok('G-1 · i druga reč posle pada rečnika: poruka sa dugmetom ostaje, dugme živo', g1b.dugme && g1b.ziv, JSON.stringify(g1b));
+        await c.close();
+      }
+      // C) telefon 320: K-1, MB-3, MB-4, MB-1
+      {
+        const c = await browser.newContext({ viewport: { width: 320, height: 568 }, isMobile: true, hasTouch: true });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/rime-za/uspostavljanje/', { waitUntil: 'domcontentloaded' }); await pauza(500);
+        const k1 = await p.evaluate(() => ({ sw: document.documentElement.scrollWidth, iw: innerWidth, h1: document.querySelector('h1')?.textContent.length }));
+        ok('K-1 · strana duge reči na 320 px se ne širi preko ekrana (overflow-wrap:anywhere na h1)', k1.sw <= k1.iw, JSON.stringify(k1));
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await p.fill('#rimeInput', 'ljubav'); await p.tap('#rimeBtn'); await cekajMirneRime(p, 500);
+        const mb = await p.evaluate(() => ({ filter: Math.min(...[...document.querySelectorAll('#rimeSyl button')].map(b => Math.round(b.getBoundingClientRect().width))), syl: parseFloat(getComputedStyle(document.querySelector('#rimeResults .chip .syl')).fontSize) }));
+        ok('MB-3 · dugmad filtera slogova na 320 px su bar 44 px široka', mb.filter >= 44, `${mb.filter} px`);
+        ok('MB-4 · kružić sa brojem slogova je bar 12 px (bio 11,2)', mb.syl >= 12, `${mb.syl} px`);
+        await p.goto(BASE + '/rime-za/', { waitUntil: 'domcontentloaded' }); await pauza(500);
+        const mb1 = await p.evaluate(() => { const a = document.querySelector('.hub-alat').getBoundingClientRect(); const az = [...document.querySelectorAll('.hub-azbuka a')].map(x => Math.round(x.getBoundingClientRect().height)); return { lepljivo: Math.round(a.height), udeo: Math.round(a.height / innerHeight * 100), azMin: Math.min(...az), azN: az.length, uBloku: !!document.querySelector('.hub-alat .hub-azbuka') }; });
+        ok('MB-1 · hub na 320×568: lepljiv je samo unos (≤ 20 % ekrana), azbuka van bloka, slova ≥ 44 px', mb1.udeo <= 20 && !mb1.uBloku && mb1.azN > 20 && mb1.azMin >= 44, JSON.stringify(mb1));
+        await c.close();
+      }
+      // D) C-1: pretraga po završetku – nov upit u istoriju
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/rime-po-zavrsetku/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await p.fill('#searchInput', 'ica'); await p.evaluate(() => doSearch()); await pauza(500);
+        await p.fill('#searchInput', 'ost'); await p.evaluate(() => doSearch()); await pauza(500);
+        const c1a = await p.evaluate(() => location.search);
+        await p.goBack({ waitUntil: 'load' }).catch(() => {}); await pauza(600);
+        const c1b = await p.evaluate(() => ({ u: location.search, v: document.getElementById('searchInput').value }));
+        ok('C-1 · pretraga po završetku: nov upit ide u istoriju, „Nazad" vraća prethodni (ica)', /kraj=ost/.test(c1a) && /kraj=ica/.test(c1b.u) && c1b.v === 'ica', JSON.stringify({ c1a, c1b }));
+        await c.close();
+      }
+      // E) statičke strane: PR-4 (aria), AK-4 (jekavski), SEO-3 (opis 150–160), SJ-1 (FAQ = vidljive Najbolje) – lokalno nad fajlovima, na produkciji nad uzorkom
+      {
+        const lj = LOKALNO ? fs60.readFileSync(path.join(ROOT, 'public', 'rime-za', 'ljubav', 'index.html'), 'utf8') : await (await fetch(BASE + '/rime-za/ljubav/')).text();
+        const sylN = (lj.match(/class="syl"/g) || []).length, sylSkr = (lj.match(/class="syl" aria-hidden="true"/g) || []).length, lab = (lj.match(/class="chip[^"]*" data-rec="[^"]+" aria-label="[^"]+, \d+ slog/g) || []).length;
+        ok('PR-4 · statička strana: svaki kružić aria-hidden, svaka kapsula ima aria-label „reč, N slogova"', sylN > 5 && sylSkr === sylN && lab >= 3, JSON.stringify({ sylN, sylSkr, lab }));
+        const zam = LOKALNO ? fs60.readFileSync(path.join(ROOT, 'public', 'rime-za', 'zamenik', 'index.html'), 'utf8') : await (await fetch(BASE + '/rime-za/zamenik/')).text();
+        ok('AK-4 · /rime-za/zamenik/ ne nudi jekavski „sljedbenik" (isti filter kao alat)', !/sljedbenik/.test(zam) && /class="chip/.test(zam));
+        const adr60 = LOKALNO ? fs60.readdirSync(path.join(ROOT, 'public', 'rime-za')).filter(d => fs60.existsSync(path.join(ROOT, 'public', 'rime-za', d, 'index.html'))) : [];
+        if (LOKALNO) {
+          const kratki = [], neslaganje = [];
+          for (const d of adr60) {
+            const h = fs60.readFileSync(path.join(ROOT, 'public', 'rime-za', d, 'index.html'), 'utf8');
+            const op = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
+            if (op.length < 150 || op.length > 160) kratki.push(`${d} (${op.length})`);
+            const faq = (h.match(/"text": "Najbolje rime za reč [^"]+ su: ([^"]+)\."/) || [])[1];
+            if (faq) { const blok = (h.match(/<div class="res-group strong-tier">[\s\S]*?<\/div><\/div>/) || [''])[0]; const vid = new Set([...blok.matchAll(/data-rec="([^"]+)"/g)].map(m => m[1])); for (const r of faq.split(', ')) if (!vid.has(r)) { neslaganje.push(`${d}: ${r}`); break; } }
+          }
+          ok(`SEO-3 · opis svake strane reči (${adr60.length}) ima 150–160 znakova`, kratki.length === 0, `${kratki.length}: ${kratki.slice(0, 5).join(', ')}`);
+          ok('SJ-1 · FAQ „Najbolje rime za reč … su:" nabraja SAMO reči iz vidljive grupe „Najbolje"', neslaganje.length === 0, `${neslaganje.length}: ${neslaganje.slice(0, 4).join(' | ')}`);
+        }
+      }
+    }
+    }
     sek('\n13) Konzola na kraju svih interakcija');
     ok('nijedna greška u konzoli tokom celog testa', konzolaGreske.length === 0,
        konzolaGreske.slice(0, 5).join(' | '));
     /* TP-11 (22.09.2026): broj provera je deo provere – provera koja tiho nestane (petlja nad praznim skupom,
        preskočena sekcija) ne sme da prođe kao „sve zeleno". 14.09. je bilo 851, 22.09. 830 bez zabeležene izmene. */
-    if (!DEO) ok(`ukupno provera bar ${LOKALNO ? 900 : 870} (izvršeno ${pass})`, pass >= (LOKALNO ? 900 : 870), String(pass));
+    if (SAMO.length) console.log(`  ↳ SAMO=${SAMO.join(',')}: ${pass} provera (čuvar preskočen)`);
+    else if (!DEO) ok(`ukupno provera bar ${LOKALNO ? 900 : 870} (izvršeno ${pass})`, pass >= (LOKALNO ? 900 : 870), String(pass));
     else console.log(`  ↳ radnik ${DEO}: ${pass} provera (zbir proverava lanac.sh)`);   // na produkciji se preskaču provere nad lokalnim fajlovima
 
   } finally {

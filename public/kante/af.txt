@@ -1,7 +1,7 @@
 64
 autograf		M	2
 barograf			2
-batiskaf		M	2
+batiskaf		M	3
 bibliograf	43		2
 biograf	384		2
 cinkograf			2
@@ -9,8 +9,8 @@ daktilograf	65		2
 demograf	76		2
 diktograf			2
 diskograf			2
-elektroencefalograf			2
-elektrokardiograf			2
+elektroencefalograf			3
+elektrokardiograf			3
 epigraf	22		2
 epitaf	130		2
 esnaf			2
@@ -24,12 +24,12 @@ hagiograf			2
 hidrograf			2
 higrograf			2
 ikonograf			2
-joasaf			2
+joasaf			3
 kaligraf	44		2
 kartograf	50		2
-kenotaf			2
-kinematograf	55		2
-komediograf	132		2
+kenotaf			3
+kinematograf	55		3
+komediograf	132		3
 koreograf	665		2
 kostimograf	306		2
 kriptograf			2
@@ -37,7 +37,7 @@ laf			1
 leksikograf	52		2
 litograf	16		2
 monograf			2
-okeanograf		M	2
+okeanograf		M	3
 olaf			2
 paf			1
 paleograf			2
@@ -52,7 +52,7 @@ scenograf	469		2
 seizmograf	22		2
 seraf			2
 spektrograf	25		2
-stenodaktilograf			2
+stenodaktilograf			3
 stenograf	24		2
 tahograf	105		2
 telegraf	971		2

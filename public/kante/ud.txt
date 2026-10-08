@@ -6,10 +6,10 @@ ehud			2
 feud	158		2
 grinvud			2
 grud			1
-holivud			2
+holivud			3
 hud		M	1
 ikud			2
-kojekud		M	2
+kojekud		M	3
 kud	6459		1
 labud	430		2
 likud			2
@@ -20,15 +20,15 @@ mesud			2
 mrgud	153		2
 nekud	846		2
 nikud	494		2
-niotkud	172		2
-odasvud	283		2
+niotkud	172		3
+odasvud	283		3
 odnekud		M	3
-odonud			2
-odovud			2
+odonud			3
+odovud			3
 otkud	6267		2
 otud		M	2
 pelud	27		2
-polulud			2
+polulud			3
 posvud			2
 presud			2
 sprud	117		1
@@ -39,7 +39,7 @@ svukud			2
 talmud			2
 trud	9106		1
 ud	536		1
-uskogrud		M	2
+uskogrud		M	3
 usud	701		2
 uzalud	5663		3
 zalud	472		2
@@ -47,5 +47,5 @@ zlehud			2
 zlohud			2
 zloćud			2
 ćud	517		1
-širokogrud		M	2
+širokogrud		M	3
 želud			2

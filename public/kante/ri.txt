@@ -1,8 +1,8 @@
 1473
-Veneri			2
-absorberi			2
-adapteri			2
-adiđari			2
+Veneri			3
+absorberi			3
+adapteri			3
+adiđari			3
 administratori	1045		3
 adresari	32		2
 advokaturi	369		2
@@ -11,423 +11,423 @@ agenturi	23		2
 agitatori	70		3
 agori	44		3
 agresori	406		4
-akcionari	3087		2
-akcioneri			2
+akcionari	3087		3
+akcioneri			3
 akri			2
 akteri	4440		2
 akumulatori	423		3
 aleksandri	114		2
 algebri	47		2
-alhemičari	146		2
+alhemičari	146		3
 aligatori	39		3
 alkoholičari	365		4
 amateri	1381		2
 ambari	84		3
 ambasadori	2471		3
-ameri			2
+ameri			3
 amfori			3
 amortizeri	329		2
 analitičari	9012		4
 andori			3
 animatori	329		3
-ankari			2
+ankari			3
 anketari	113		2
 anri			2
-antialkoholičari			2
+antialkoholičari			3
 antikvari	11		2
-aplikatori			2
+aplikatori			3
 apotekari	251		2
-apriori	541		2
+apriori	541		3
 arbitri	297		3
 arhitekturi	3862		2
-aspiratori			2
+aspiratori			3
 astri	213		2
 astrofizičari	116		4
-asuri			2
+asuri			3
 atari	454		3
 atentatori	122		3
 atletičari	796		4
 atmosferi	9782		2
-autolimari			2
+autolimari			3
 autori	15039		4
-autsajderi			2
+autsajderi			3
 avanturi	604		2
-avari			2
+avari			3
 avatari	134		2
 avijatičari	61		4
 azri			2
-baburi			2
+baburi			3
 bageri	355		3
 bagri			2
-bajkeri	249		2
+bajkeri	249		3
 bakri			2
-balističari	23		2
-banderi			2
-baneri	322		2
+balističari	23		3
+banderi			3
+baneri	322		3
 bankari	2539		2
 barbari	55		3
 bari	967		2
 barijeri	42		2
 barjaktari	70		2
-basari			2
-batleri	23		2
+basari			3
+batleri	23		3
 bačvari	18		3
-baškari			2
-baštinari			2
-bedekeri			2
+baškari			3
+baštinari			3
+bedekeri			3
 behari			2
-berberi	94		2
+berberi	94		3
 beri	252		2
-beriberi			2
+beriberi			3
 besposličari	82		5
 bestseleri	176		3
-bećari			2
-bećiri			2
+bećari			3
+bećiri			3
 bibliotekari	717		2
-bilderi			2
-bioenergetičari			2
-biosferi	56		2
+bilderi			3
+bioenergetičari			3
+biosferi	56		3
 biseri	970		3
 bistri	367		2
-blagodari	96		2
+blagodari	96		3
 bleferi	15		3
-blenderi			2
-blogeri	1297		2
-blokatori	194		2
-blokeri	58		2
+blenderi			3
+blogeri	1297		3
+blokatori	194		3
+blokeri	58		3
 bodri	480		2
-bojari	75		2
-bojleri	199		2
+bojari	75		3
+bojleri	199		3
 bokori			3
-bokseri	287		2
-boljari	92		2
+bokseri	287		3
+boljari	92		3
 bolničari	150		4
 bombarderi	299		2
 bori	13764		2
 botaničari	71		4
-bovari			2
+bovari			3
 božuri	146		2
 bravari	147		3
 brbori			3
-bredberi			2
+bredberi			3
 brodari	115		2
-brokeri	489		2
-brošuri	336		2
-brvnari	117		2
+brokeri	489		3
+brošuri	336		3
+brvnari	117		3
 bubamari			2
 bubnjari	123		2
 bubri	68		2
 bugari	1964		2
-buldožeri	106		2
-bulevari			2
+buldožeri	106		3
+bulevari			3
 bumbari	159		3
 bunari	443		2
 bunkeri	91		3
 burazeri	72		3
-burgeri	28		2
+burgeri	28		3
 buri	174		2
-cementari			2
-centauri			2
+cementari			3
+centauri			3
 centimetri	61		4
 centri	6775		2
 cenzori	144		3
 cenzuri	299		2
-cezari	22		2
+cezari	22		3
 cifri	623		2
 cigari	14		2
 cilindri	213		2
-cimeri			2
-cincari			2
-cinkari			2
+cimeri			3
+cincari			3
+cinkari			3
 cmizdri	43		2
-crnobori			2
+crnobori			3
 curi	1925		2
 cvećari	87		2
 cvikeri			3
 damari	37		3
 dari	49		2
 davori		M	3
-daščari	15		2
-deflektori			2
-dekorateri	44		2
+daščari	15		3
+deflektori			3
+dekorateri	44		3
 dekori	27		3
 deoničari	237		4
 desničari	485		4
 detektori	428		4
-detonatori	20		2
+detonatori	20		3
 deveri	11		3
-dezerteri			2
+dezerteri			3
 dijabetičari	399		4
-dijaspori	2601		2
-dijetetičari	38		2
+dijaspori	2601		3
+dijetetičari	38		3
 diktatori	333		3
 diktaturi	490		2
 dileri	939		3
-dimitri			2
+dimitri			3
 dinari	248		3
-dinosauri	49		2
-dinozauri			2
+dinosauri	49		3
+dinozauri			3
 direktori	7740		4
-dispanzeri	33		2
-dispećeri			2
-dispečeri	54		2
-distributeri	1105		2
+dispanzeri	33		3
+dispećeri			3
+dispečeri	54		3
+distributeri	1105		3
 dizajneri	3314		3
-dobošari			2
+dobošari			3
 dobri	22316		2
 dobrotvori	259		4
-dodiri	341		2
+dodiri	341		3
 dodvori	192		3
 dogori	102		3
 dogovori	3738		4
-dojuri	43		2
+dojuri	43		3
 doktori	4413		3
 dolari	317		3
 domari	41		2
 donatori	1696		3
 donori	123		3
 dopri	13		2
-doturi			2
-dreseri	18		2
-dresuri	63		2
-drhturi	13		2
-drndari			2
+doturi			3
+dreseri	18		3
+dresuri	63		3
+drhturi	13		3
+drndari			3
 drugari	3257		2
 drvari	17		2
-dubleri	24		2
-dunđeri			2
-dupljari			2
+dubleri	24		3
+dunđeri			3
+dupljari			3
 duri	206		2
 dveri	4083		2
 dvori	240		2
-džaferi			2
-džeferdari			2
+džaferi			3
+džeferdari			3
 džemperi	179		3
 džepari			3
 džokeri	28		3
-editori	73		2
-edukatori	411		2
+editori	73		3
+edukatori	411		3
 egzekutori	123		3
-egziperi			2
-ekseri			2
-eksploatatori	57		2
-elektori			2
+egziperi			3
+ekseri			3
+eksploatatori	57		3
+elektori			3
 električari	185		4
-elektromotori	93		2
-emiri			2
-emisari	141		2
-emiteri	619		2
-emulgatori	59		2
-enterijeri	247		2
-estetičari	34		2
-fakiri			2
+elektromotori	93		3
+emiri			3
+emisari	141		3
+emiteri	619		3
+emulgatori	59		3
+enterijeri	247		3
+estetičari	34		3
+fakiri			3
 faktori	7219		3
-fakturi	361		2
+fakturi	361		3
 falsifikatori	137		3
 farmeri	1657		3
 februari			4
-federi			2
-fenjeri			2
-ferari	360		2
+federi			3
+fenjeri			3
+ferari	360		3
 feri		M	2
 figuri	384		2
 fijakeri	87		3
-filistri			2
+filistri			3
 filteri	1349		3
 filtri	100		2
-finansijeri	681		2
-fiskulturi	12		2
+finansijeri	681		3
+fiskulturi	12		3
 fizičari	942		4
-flajeri	302		2
+flajeri	302		3
 flasteri	173		3
 flomasteri	68		4
-forenzičari	215		2
-formulari	339		2
-frajeri			2
+forenzičari	215		3
+formulari	339		3
+frajeri			3
 fratri	109		2
 frizeri	454		2
 frizuri	262		2
 frižideri	314		2
 fudbaleri	11325		2
-fukari			2
-funkcioneri	5647		2
+fukari			3
+funkcioneri	5647		3
 gangsteri	122		3
-garderoberi	21		2
+garderoberi	21		3
 gari			2
 garnituri	315		2
-garsonjeri			2
-gatari	34		2
-gejziri	63		2
-geleri			2
-generatori	512		2
+garsonjeri			3
+gatari	34		3
+gejziri	63		3
+geleri			3
+generatori	512		3
 genetičari	150		4
-geometri	100		2
+geometri	100		3
 geri			2
-gimnastičari	85		2
+gimnastičari	85		3
 gitari	694		2
 gladijatori	144		3
 glasoviri			4
 glavari	366		2
-gleceri			2
+gleceri			3
 glečeri	168		3
-gliseri	46		2
-globari			2
-glodari	354		2
-glupanderi			2
+gliseri	46		3
+globari			3
+glodari	354		3
+glupanderi			3
 gnjavatori	22		3
 golferi	202		3
-golubari	62		2
+golubari	62		3
 gori	13028		2
 gospari	21		2
 gospodari	1942		2
-govedari	11		2
+govedari	11		3
 govori	101276		3
-gradinari			2
-grafičari	96		2
+gradinari			3
+grafičari	96		3
 graničari	297		4
-graveri	21		2
-graviri			2
+graveri	21		3
+graviri			3
 građevinari	652		2
-grebatori			2
+grebatori			3
 gregori			3
-grenadiri			2
-grnčari	55		2
+grenadiri			3
+grnčari	55		3
 grobari	1741		2
 guduri			3
 gusari	301		3
-guslari	211		2
+guslari	211		3
 guverneri	282		2
 gušteri	250		3
 gviri			2
-gvožđari	16		2
+gvožđari	16		3
 hakeri	1750		3
-halteri			2
-hambari			2
-hamburgeri	119		2
-handžari			2
-harakiri	84		2
+halteri			3
+hambari			3
+hamburgeri	119		3
+handžari			3
+harakiri	84		3
 hari			2
 hazarderi	19		2
-hazari			2
-hektolitri	32		2
+hazari			3
+hektolitri	32		3
 helikopteri	681		3
-hemisferi	646		2
+hemisferi	646		3
 hemičari	280		4
 henri			2
 hidri	29		2
-hilari			2
-hipsteri	90		2
+hilari			3
+hipsteri	90		3
 historičari	85		4
 hitri	138		2
-honorari	386		2
+honorari	386		3
 hori	26		2
 horori	71		3
 hotelijeri	306		2
 hrabri	3457		2
-hromosferi			2
+hromosferi			3
 hroničari	386		4
-hronometri			2
+hronometri			3
 husari	59		3
 igri	17643		2
-iliri			2
+iliri			3
 imitatori	56		3
 imperatori	155		3
-indikatori	918		2
+indikatori	918		3
 informatičari	247		4
-informatori	117		2
+informatori	117		3
 infrastrukturi	1696		2
-inhibitori	348		2
+inhibitori	348		3
 inkubatori	248		3
 inkvizitori	71		3
-inovatori	252		2
-insajderi	217		2
+inovatori	252		3
+insajderi	217		3
 inspektori	3844		4
 instruktori	1539		4
 interpretatori	85		3
-inventari	39		2
+inventari	39		3
 investitori	10825		3
 inženjeri	4868		2
-inžinjeri			2
-isceri	34		2
-iscuri	302		2
-isidori			2
+inžinjeri			3
+isceri	34		3
+iscuri	302		3
+isidori			3
 iskri	212		2
 iskrvari	61		3
 iskvari	38		2
-ispari	660		2
+ispari	660		3
 isperi	21		3
-istimari			2
-istoričari	3245		2
+istimari			3
+istoričari	3245		3
 istovari	99		4
 istri			2
-isturi	83		2
+isturi	83		3
 iveri			3
 izaberi	687		3
-izbistri	61		2
+izbistri	61		3
 izbori	28284		3
 izgori	593		2
 izgovori	2544		4
 izjuri	31		2
 izmeri	790		3
-izmećari			2
-izmiri	1286		2
+izmećari			3
+izmiri	1286		3
 izmori	55		3
-iznedri	329		2
-izneveri	219		2
-iznuri			2
+iznedri	329		3
+izneveri	219		3
+iznuri			3
 izobari			2
 izoštri	138		2
 izrezbari			2
-izvedri			2
-izvetri	57		2
-izviri	77		2
+izvedri			3
+izvetri	57		3
+izviri	77		3
 izvori	11538		3
-iščauri			2
+iščauri			3
 jaguari	24		4
-janičari	248		2
+janičari	248		3
 janjičari	136		4
 januari			4
 jari	118		2
-jašari			2
+jašari			3
 jedri	94		2
 jeri		M	2
 jetri	1082		2
 jezgri	91		2
-juniori	1685		2
+juniori	1685		3
 juri	2710		2
 kadri	727		2
-kajzeri			2
-kalahari			2
-kalamari			2
-kalamburi			2
+kajzeri			3
+kalahari			3
+kalamari			3
+kalamburi			3
 kalendari	355		2
 kaluđeri	684		4
 kamenari			4
 kameri	845		3
-kamilari			2
-kamperi	158		2
+kamilari			3
+kamperi	158		3
 kancelari	20		2
-kandelabri	43		2
+kandelabri	43		3
 kandidaturi	995		2
-kanisteri	32		2
+kanisteri	32		3
 kantari	18		3
 kantri			2
-kapilari	289		2
+kapilari	289		3
 kaplari	32		3
 kapri	120		2
-karabinjeri	73		2
+karabinjeri	73		3
 karakteri	605		3
-karbonari			2
+karbonari			3
 kari	319		2
 karijeri	11479		2
 karikaturi	131		2
-kaskaderi	28		2
+kaskaderi	28		3
 katari	44		3
 katastri	49		2
 katedri	2415		2
-kavaljeri	54		2
-kačari			2
-kašikari			2
+kavaljeri	54		3
+kačari			3
+kašikari			3
 kelneri	129		3
 kenguri	154		3
 kentauri	41		3
@@ -435,37 +435,37 @@ keramičari	64		4
 keri		M	2
 kidnaperi	30		2
 kilometri	384		4
-kinđuri			2
+kinđuri			3
 kiri		M	2
-kladioničari	93		2
-klakeri			2
+kladioničari	93		3
+klakeri			3
 klari			2
-klasteri	316		2
-klatari			2
+klasteri	316		3
+klatari			3
 klavijaturi	36		2
 klaviri	44		2
-kleopatri			2
-klepsidri			2
-klesari	33		2
-klikeri			2
-klisari			2
+kleopatri			3
+klepsidri			3
+klesari	33		3
+klikeri			3
+klisari			3
 klisuri	863		3
 klošari	119		2
-knjižari	1303		2
+knjižari	1303		3
 koautori	154		4
 kobri	72		2
 kockari	195		3
-koferi			2
+koferi			3
 kolari	87		2
-kolačari	17		2
+kolačari	17		3
 koledari	21		2
-kolekcionari	322		2
+kolekcionari	322		3
 kolektori	393		4
 koleri	11		3
 kolibri	58		2
 kolonizatori	109		3
-kolporteri	35		2
-kolubari			2
+kolporteri	35		3
+kolubari			3
 komandiri	142		2
 komentari	35825		2
 komentatori	2999		3
@@ -474,147 +474,147 @@ komičari	153		4
 komori	4379		3
 kompjuteri	1578		3
 kompjutori			3
-kompozitori			2
+kompozitori			3
 kompresori	192		4
-komunikatori	73		2
+komunikatori	73		3
 kondenzatori	343		3
-kondiri			2
-konditori	78		2
+kondiri			3
+konditori	78		3
 kondori	12		3
 kondukteri	106		2
-konektori	472		2
-koneri			2
+konektori	472		3
+koneri			3
 konjušari	65		2
-konkvistadori	46		2
+konkvistadori	46		3
 konobari	747		4
 konstruktori	395		4
 kontejneri	1343		3
-kontrolori	1052		2
+kontrolori	1052		3
 konturi	34		2
-kopitari	36		2
-kopolimeri			2
-korektori	91		2
+kopitari	36		3
+kopolimeri			3
+korektori	91		3
 koridori	662		2
-koritari			2
+koritari			3
 kormilari	67		2
 korneri	15		3
-kosovari			2
+kosovari			3
 kosturi	156		3
-kotari			2
+kotari			3
 koturi	11		3
-kočničari	109		2
-kočoperi	40		2
+kočničari	109		3
+kočoperi	40		3
 košari	34		3
-košmari			2
+košmari			3
 kožari	44		3
 krateri	294		3
-kreatori			2
+kreatori			3
 kreditori	608		3
 krekeri	116		3
 kri		M	1
 krijumčari	220		4
 kritičari	4522		4
 krivotvori	84		2
-krmari			2
+krmari			3
 krompiri	117		2
-krovinjari			2
+krovinjari			3
 krstari	263		3
-kruzeri	50		2
+kruzeri	50		3
 krvari	480		3
 krčmari	20		3
 ktitori	165		3
-kuburi	261		2
-kuguari	75		2
+kuburi	261		3
+kuguari	75		3
 kukri			2
-kultivatori	24		2
+kultivatori	24		3
 kulturi	14326		2
-kumiri	13		2
+kumiri	13		3
 kuriri	262		2
 kuvari	920		3
-kvadraturi	198		2
-kvalifikatori			2
+kvadraturi	198		3
+kvalifikatori			3
 kvari	2410		2
-kvazari	60		2
+kvazari	60		3
 kvekeri	22		3
 kćeri	3406		2
 lahori			3
-lanseri	36		2
+lanseri	36		3
 lari			2
 laseri	326		3
-lauri			2
+lauri			3
 lavori			3
 lavri	388		2
-lađari	70		2
-ledari			2
+lađari	70		3
+ledari			3
 legionari	273		2
 leguri	84		2
 lekari	16570		2
-lektiri	162		2
+lektiri	162		3
 lektori	168		3
 lemuri	63		2
 lenjiri	32		2
-lenčari	36		2
-lepiri			2
+lenčari	36		3
+lepiri			3
 leptiri	441		3
-lesinari			2
+lesinari			3
 levičari	666		4
 lešinari	347		4
-leškari			2
+leškari			3
 licemeri	509		4
 lideri	11183		3
 lihvari	84		3
 likeri	89		2
 limari	62		3
-lipicaneri	36		2
+lipicaneri	36		3
 liri	99		2
 liričari			4
 literaturi	4262		2
-litosferi	14		2
+litosferi	14		3
 litri	458		2
 ljubomori	186		3
 ljudožderi	83		3
-ljuskari	21		2
+ljuskari	21		3
 ljušturi	52		3
 logičari	24		4
 logori	535		3
-lokatori	27		2
+lokatori	27		3
 lončari	16		2
-lopari			2
+lopari			3
 lori	62		2
 lugari			2
 lusteri	138		3
 lutkari	46		3
-luzeri	138		2
+luzeri	138		3
 magistri	235		2
-maheri			2
+maheri			3
 majori	45		2
 majstori	4751		3
-majuri			2
-maleri	65		2
-malinari	639		2
+majuri			3
+maleri	65		3
+malinari	639		3
 manastiri	2378		4
-mandatari			2
-mandatori			2
+mandatari			3
+mandatori			3
 manevri	275		2
-manipulatori	202		2
+manipulatori	202		3
 maniri	394		2
 maori			3
 mari	1664		2
-markeri	464		2
+markeri	464		3
 masakri	94		2
 maseri	69		2
-matadori			2
+matadori			3
 matematičari	708		4
-materi	506		2
-matičari	114		2
+materi	506		3
+matičari	114		3
 matori	1482		3
-maturi	403		2
+maturi	403		3
 mavri			2
 mačori	62		3
-mađari			2
+mađari			3
 mađioničari	176		4
-meandri	44		2
-medicinari	216		2
+meandri	44		3
+medicinari	216		3
 medijatori	243		4
 mehaničari	306		4
 mehuri	74		3
@@ -622,41 +622,41 @@ memoari	399		2
 menadžeri	5168		4
 mentori	1068		3
 meri	51383		2
-merkjuri			2
+merkjuri			3
 mermeri	25		3
 mesari	369		3
 mesečari	88		4
-mesožderi			2
+mesožderi			3
 metafori	184		3
 meteori	428		2
 metri	68		2
-mečkari			2
+mečkari			3
 mešetari	315		2
-mideri			2
-mikseri	58		2
+mideri			3
+mikseri	58		3
 milijarderi	307		2
 milioneri	578		2
-mineri	34		2
+mineri	34		3
 minijaturi	116		2
 ministri	11905		3
-minotauri			2
+minotauri			3
 miri	741		2
-miročuvari			2
+miročuvari			3
 misionari	412		2
-missouri			2
-misuri			2
-mitari	16		2
+missouri			3
+misuri			3
+mitari	16		3
 mlekari	529		2
 mlinari	212		3
-modelari	70		2
-moderatori	954		2
+modelari	70		3
+moderatori	954		3
 modri	120		2
 mokri	1059		2
-moleri	127		2
+moleri	127		3
 monitori	865		4
-monteri	122		2
-montgomeri			2
-moralizatori			2
+monteri	122		3
+montgomeri			3
+moralizatori			3
 mori	574		2
 mornari	576		2
 motori	4241		2
@@ -665,141 +665,141 @@ močvari	185		3
 mramori	10		3
 mrmori			3
 mudri	1990		2
-muhadžiri			2
-mundiri			2
-musketari	52		2
-muzičari	2986		2
-mušketiri			2
+muhadžiri			3
+mundiri			3
+musketari	52		3
+muzičari	2986		3
+mušketiri			3
 naberi	12		3
 nabori	161		3
 nabubri	135		3
-nadari	11		2
-nadgovori			2
-nadmudri	170		2
+nadari	11		3
+nadgovori			3
+nadmudri	170		3
 nadničari	128		4
-nadrilekari	50		2
-naduri			2
-nadviri			2
-nadziri			2
+nadrilekari	50		3
+naduri			3
+nadviri			3
+nadziri			3
 nafori			3
 nagori	22		3
 nagovori	535		4
 najgori	5592		3
 najuri	151		2
 najširi	715		3
-namastiri			2
+namastiri			3
 nameri	7416		3
 namiri	537		2
-naočari	652		2
+naočari	652		3
 naoštri	52		2
-napari			2
-naperi			2
-napoličari			2
+napari			3
+naperi			3
+napoličari			3
 napori	4036		3
 nasamari	51		2
-natovari	189		2
-naturi	670		2
-navigatori	54		2
-naviri			2
-naziri			2
+natovari	189		3
+naturi	670		3
+navigatori	54		3
+naviri			3
+naziri			3
 nazori	58		3
 neboderi	122		4
-negatori			2
-neimari			2
-nekulturi	72		2
+negatori			3
+neimari			3
+nekulturi	72		3
 nemari	16		3
 nemiri	1175		3
 neri			2
-nesrazmeri	51		2
-neurotransmiteri	54		2
+nesrazmeri	51		3
+neurotransmiteri	54		3
 neveri	48		3
 nogari	14		2
 nomenklaturi	319		2
 nori			2
-notari			2
+notari			3
 novinari	16653		4
-novotari			2
-numeratori			2
-numeri	190		2
+novotari			3
+numeratori			3
+numeri	190		3
 nuri			2
-obaziri	92		2
-obazri			2
+obaziri	92		3
+obazri			3
 obdari	149		2
-oberi			2
+oberi			3
 obeshrabri	327		2
-oblakoderi	65		2
-obodri	38		2
-obogotvori			2
+oblakoderi	65		3
+obodri	38		3
+obogotvori			3
 obori	1843		3
 obućari	104		4
 obziri	132		3
-ocinkari			2
+ocinkari			3
 odaberi	265		3
 odbori	2595		3
-oderi	21		2
+oderi	21		3
 odgovori	25575		4
 odjuri	148		2
 odmeri	311		3
 odmori	2231		3
 odobri	3690		2
 odori	178		3
-odupiri			2
+odupiri			3
 odupri	16		2
 odžačari	25		2
-oficiri			2
+oficiri			3
 ohrabri	1080		2
 oktobri			2
 okupatori	753		3
 okviri	1335		2
-oldtajmeri	71		2
-oliveri			2
+oldtajmeri	71		3
+oliveri			3
 oltari	82		2
-omatori			2
-opančari			2
-operateri	1598		2
+omatori			3
+opančari			3
+operateri	1598		3
 operatori	847		3
 operi	1338		3
-opiri			2
+opiri			3
 opori	74		3
-opozicionari	273		2
+opozicionari	273		3
 opsenari	17		2
-opštinari	230		2
+opštinari	230		3
 oratori	28		3
 organizatori	12272		3
-orijentiri	78		2
+orijentiri	78		3
 orkestri	420		3
 ormari	138		2
-osamari			2
+osamari			3
 osmotri	279		2
 ospori	1156		2
-ostari	211		2
+ostari	211		3
 ostvari	13859		2
-otelotvori			2
-otfikari			2
+otelotvori			3
+otfikari			3
 otkri	153		2
 otmičari	228		4
 otpori	363		3
-oturi			2
+oturi			3
 otvori	15151		3
 overi	664		3
 ovčari	221		2
-ozari	160		2
+ozari	160		3
 ošamari	99		3
 oštri	1155		2
 oživotvori	29		2
 padavičari	10		5
-palamari			2
+palamari			3
 panciri	36		2
-panduri			2
-paničari	31		2
-pankeri	163		2
-panteri	353		2
+panduri			3
+paničari	31		3
+pankeri	163		3
+panteri	353		3
 paori	896		3
 papiri	1577		2
-parametri	2943		2
+parametri	2943		3
 pari	2179		2
-parničari	34		2
-partijaneri			2
+parničari	34		3
+partijaneri			3
 partituri	47		2
 partneri	14691		3
 pastiri	600		2
@@ -809,175 +809,175 @@ pazari	612		2
 pedijatri	668		2
 pehari	418		3
 pekari	1449		3
-pelengiri			2
-pendžeri			2
-penzioneri			2
+pelengiri			3
+pendžeri			3
+penzioneri			3
 pepeljari	54		3
 peri	416		2
-perperi			2
-peskari	32		2
-petari			2
-pečalbari			2
-pečenjari			2
+perperi			3
+peskari	32		3
+petari			3
+pečalbari			3
+pečenjari			3
 peškiri	535		2
-pešteri			2
-peščari	322		2
-piljari	23		2
-pioniri	2137		2
+pešteri			3
+peščari	322		3
+piljari	23		3
+pioniri	2137		3
 piri	49		2
-pirotehničari	24		2
+pirotehničari	24		3
 pisari	167		2
 pivari	432		2
-pivovari			2
-plakari			2
+pivovari			3
+plakari			3
 planeri	444		2
 planinari	686		2
 plastičari	26		4
-platnari			2
-pleteri			2
-podari	1169		2
+platnari			3
+pleteri			3
+podari	1169		3
 poderi			2
-podgovori			2
-podjari			2
-podmiri	454		2
+podgovori			3
+podjari			3
+podmiri	454		3
 podmorničari			5
-pododbori	28		2
-podoficiri			2
-podsahari			2
-podsekretari			2
+pododbori	28		3
+podoficiri			3
+podsahari			3
+podsekretari			3
 podstanari	583		4
-podupri			2
+podupri			3
 podvori			3
 poglavari	342		2
 pogovori	12		4
-poguri			2
-pohari			2
+poguri			3
+pohari			3
 pojuri	285		2
-pokaluđeri			2
-poklisari			2
+pokaluđeri			3
+poklisari			3
 pokori	702		3
 pokri	82		2
 pokvari	1925		2
-poliedri	16		2
-polimeri	153		2
+poliedri	16		3
+polimeri	153		3
 političari	23252		4
-polituri			2
-poljari	10		2
-pomeri	2011		2
+polituri			3
+poljari	10		3
+pomeri	2011		3
 pomiri	1388		2
-pomodari	22		2
-pomodri	17		2
-pomokri	15		2
+pomodari	22		3
+pomodri	17		3
+pomokri	15		3
 pomori	76		3
-ponderi	22		2
-poniri			2
+ponderi	22		3
+poniri			3
 ponori	55		3
-poodmori			2
-pooštri	178		2
-poperi			2
-porfiri	21		2
+poodmori			3
+pooštri	178		3
+poperi			3
+porfiri	21		3
 pori	93		2
-portiri	155		2
-posmotri			2
-postari	18		2
-posteri	488		2
+portiri	155		3
+posmotri			3
+postari	18		3
+posteri	488		3
 poteri	267		3
-potkulturi			2
-potočari			2
+potkulturi			3
+potočari			3
 potpori	96		3
-potpuri	34		2
-poturi	118		2
+potpuri	34		3
+poturi	118		3
 potvori			3
-povampiri	53		2
+povampiri	53		3
 poveri	1156		3
-povrtari	393		2
+povrtari	393		3
 pozeri	62		2
-pozivari			2
+pozivari			3
 pozori	24		3
 poštari	211		3
 požari	1152		3
-požderi			2
+požderi			3
 požuri	680		2
-praizvori			2
-praktičari	368		2
+praizvori			3
+praktičari	368		3
 prastari	358		3
-prašinari			2
+prašinari			3
 predatori	270		3
 predgovori	25		4
 predigri	150		3
-predobri	67		2
-predugovori	38		2
-preduhitri	154		2
-predvečeri			2
+predobri	67		3
+predugovori	38		3
+preduhitri	154		3
+predvečeri			3
 prefekturi	175		2
 pregori	146		3
 pregovori	11828		4
 prekori	118		3
 prekri	17		2
-premeri	74		2
-premijeri	2149		2
+premeri	74		3
+premijeri	2149		3
 premori			3
-premudri	191		2
-preoštri	34		2
+premudri	191		3
+preoštri	34		3
 prepiri			3
 prespori	44		3
-prestari	77		2
-preturi	64		2
+prestari	77		3
+preturi	64		3
 pretvori	5409		2
-preusmeri	522		2
+preusmeri	522		3
 prevari	2688		3
 preziri	18		3
 prezri	71		2
-preživari	32		2
+preživari	32		3
 pri	164968		1
-priberi			2
+priberi			3
 pribori	47		3
 prigovori	879		4
 prikri			2
 primeri	8004		3
-primiri	199		2
+primiri	199		3
 priori	617		3
 prismotri			3
 pritvori	89		3
-priviri	60		2
+priviri	60		3
 prizori	891		3
-prižmiri			2
+prižmiri			3
 proceduri	4617		2
-procesori	1956		2
-procuri	253		2
+procesori	1956		3
+procuri	253		3
 prodori	183		3
 prodri			2
-profajleri			2
+profajleri			3
 profesori	11917		4
 profiteri	445		2
-prognozeri			2
+prognozeri			3
 progori	15		3
 progovori	2121		2
-programeri	1917		2
+programeri	1917		3
 projektori	326		4
 projuri	105		2
 prokrijumčari	103		2
 prokrstari	22		3
 prokrvari	25		3
 proleteri	364		2
-promeri	11		2
-promoteri	959		2
-promotori	78		2
+promeri	11		3
+promoteri	959		3
+promotori	78		3
 promotri	16		2
 proneveri	88		4
-propeleri	35		2
-prorektori	40		2
+propeleri	35		3
+prorektori	40		3
 prosfori			3
 prostori	2771		3
 prostri	15		2
-prosvetari	1137		2
-protektori			2
+prosvetari	1137		3
+protektori			3
 protri			2
-proturi	173		2
-provajderi	848		2
-provedri			2
+proturi	173		3
+provajderi	848		3
+provedri			3
 proveri	6884		3
-provetri	55		2
+provetri	55		3
 proviri	162		3
 provri	785		2
 prozbori	309		2
@@ -987,24 +987,24 @@ psihijatri	681		2
 psihoanalitičari	120		4
 ptičari	23		3
 puderi	152		3
-puloveri	11		2
+puloveri	11		3
 pulsari	68		2
 puri	13		2
 pustari	76		3
-putari			2
+putari			3
 putiri	17		2
 pušioničari			4
 pčelari	1695		2
 radari	260		3
 radijatori	649		3
-radoholičari	45		2
-rančeri			2
-raskrvari	13		2
-raspiri	28		2
+radoholičari	45		3
+rančeri			3
+raskrvari	13		3
+raspiri	28		3
 raspori	68		3
 raspri	26		2
-rastovari			2
-rasturi	556		2
+rastovari			3
+rasturi	556		3
 rastvori	434		3
 ratari	1299		3
 razbistri	121		2
@@ -1017,71 +1017,71 @@ razmeri	873		3
 razmotri	2343		2
 razori	427		2
 razuveri	149		3
-razvedri	124		2
+razvedri	124		3
 računari	4941		2
 raširi	867		2
 reakcionari	39		2
-reaktori	256		2
-receptori	321		2
-recepturi	495		2
-recitatori	219		2
-redaktori	44		2
-redakturi			2
-redari	232		2
+reaktori	256		3
+receptori	321		3
+recepturi	495		3
+recitatori	219		3
+redaktori	44		3
+redakturi			3
+redari	232		3
 reflektori	580		4
 reformatori	329		3
-registri	287		2
-regulatori	521		2
-reklameri			2
+registri	287		3
+regulatori	521		3
+reklameri			3
 rekorderi	404		2
 rektori	169		3
-rendzeri			2
-rendžeri	109		2
-reperi	194		2
+rendzeri			3
+rendžeri	109		3
+reperi	194		3
 repertoari	28		2
 repetitori	58		3
-replikatori			2
+replikatori			3
 reporteri	621		2
 resori	338		2
-retrovizori	292		2
-revizori	823		2
+retrovizori	292		3
+revizori	823		3
 revolucionari	546		2
 revolveri	87		3
 rezbari	36		2
 rezervoari	691		2
-rezidenturi			2
+rezidenturi			3
 režiseri	463		2
 ri		M	1
 ribari	796		3
-riteri			2
-rivieri			2
-rivijeri	323		2
-rokeri	409		2
-roleri	159		2
-romansijeri	14		2
+riteri			3
+rivieri			3
+rivijeri	323		3
+rokeri	409		3
+roleri	159		3
+romansijeri	14		3
 romantičari	371		4
 romori	40		3
 rori			2
 rudari	1167		2
-rukotvori	38		2
+rukotvori	38		3
 saberi	167		3
 sabori	270		3
 saboteri	37		2
 sabri			2
-safari	637		2
+safari	637		3
 safiri	13		2
 sagori	370		2
-sahari			2
+sahari			3
 sakri	115		2
-salamuri			2
-salašari			2
-salijeri			2
-samari			2
+salamuri			3
+salašari			3
+salijeri			3
+samari			3
 sandri			2
-sandučari			2
+sandučari			3
 sanjari	291		2
 sari	114		2
-satiri	185		2
+satiri	185		3
 satiričari	75		4
 satri			2
 sazri	362		2
@@ -1094,58 +1094,58 @@ semafori	370		4
 semestri	13		3
 seminari	2201		2
 senatori	375		3
-seniori	1029		2
+seniori	1029		3
 senzori	1442		3
-serdari	48		2
-serveri	1372		2
-serviseri	451		2
+serdari	48		3
+serveri	1372		3
+serviseri	451		3
 sestri	1599		2
 sferi	6831		2
 simpatizeri	1105		2
-sindžiri			2
-sipari			2
+sindžiri			3
+sipari			3
 sisari	486		3
 sitničari	28		4
 sjuri	106		2
-skejteri	83		2
+skejteri	83		3
 skeneri	405		3
-skeptičari			2
+skeptičari			3
 skolastičari			4
 skori	736		2
 skulptori	39		3
 skulpturi	272		2
 skuteri	144		3
 slikari	1615		3
-slobodari	28		2
-smetlari			2
+slobodari	28		3
+smetlari			3
 smiri	2402		2
 smori	151		2
 smotri	1752		2
-smučari		M	2
+smučari		M	3
 snagatori	21		3
 snajperi	49		3
 sobari			3
-soliteri	141		2
+soliteri	141		3
 spektri	86		2
 spikeri	97		3
 spletkari	50		3
-spojleri	89		2
+spojleri	89		3
 sponzori	1845		3
 spori	2064		2
 sprinteri	90		3
-srazmeri	298		2
+srazmeri	298		3
 srebri			2
-stabilizatori	127		2
+stabilizatori	127		3
 staklari	39		2
 stanari	3173		2
 stari	38948		2
 starinari			2
 stolari	150		3
-stovari			2
+stovari			3
 stočari	919		3
 stožeri	75		3
 stratosferi	117		2
-straćari	22		2
+straćari	22		3
 stražari	779		2
 striperi			3
 strukturi	7083		2
@@ -1153,91 +1153,91 @@ strvinari	20		4
 sturi			2
 stvari	195233		2
 stvori	11107		2
-subkulturi	38		2
-subotari	24		2
+subkulturi	38		3
+subotari	24		3
 sudari	561		3
 sudoperi	14		4
-sufleri			2
-sukcesori			2
-sumeri			2
+sufleri			3
+sukcesori			3
+sumeri			3
 sunđeri	159		3
-surferi	101		2
+surferi	101		3
 sustanari	21		4
 suveniri	565		2
-sušari	112		2
+sušari	112		3
 svari	497		2
 svemiri	11		3
-svečari	35		2
-svečeri		M	2
-svingeri	29		2
+svečari	35		3
+svečeri		M	3
+svingeri	29		3
 svinjari	40		2
 tabori	59		3
 takmičari	5368		4
 taktičari	21		4
-taliri			2
-tamari			2
+taliri			3
+tamari			3
 tamburi	88		2
 tamničari	45		4
-tanjiri	330		2
+tanjiri	330		3
 tankeri	56		3
 tapetari	16		2
 tastaturi	1945		2
-tasteri	1392		2
-tatari			2
+tasteri	1392		3
+tatari			3
 tavori	246		3
 teatri	86		2
-tefteri			2
+tefteri			3
 tehničari	1297		4
 teksturi	159		2
 televizori	986		3
 temperaturi	5128		2
 templari	193		2
-tenderi	823		2
+tenderi	823		3
 teniseri	1184		2
 tenori	23		3
-teodori			2
+teodori			3
 teoretičari	1278		4
-terijeri	85		2
-termofori			2
+terijeri	85		3
+termofori			3
 termometri	90		4
 tesari	92		3
-testeri	146		2
-tifusari	13		2
-tikvari			2
+testeri	146		3
+tifusari	13		3
+tikvari			3
 timari	43		2
 tinejdžeri	1443		4
-tinejđeri			2
+tinejđeri			3
 torbari	64		2
 toreadori			3
 tori		M	2
 torturi	290		2
-tosteri	19		2
+tosteri	19		3
 tovari	163		3
 tragičari	34		4
 traktori	715		3
 transferi	1298		2
-transformatori			2
+transformatori			3
 transporteri	250		2
 tranzistori	207		4
 traperi			3
 travari	82		2
 tračari	49		3
-tregeri			2
+tregeri			3
 treneri	3906		3
 treperi	521		2
 trezori	45		2
 tri	308359		1
-trijeri			2
-trikolori			2
+trijeri			3
+trikolori			3
 trileri	80		3
-tropari	46		2
-trotoari			2
+tropari	46		3
+trotoari			3
 trubaduri	38		2
 tulumari			2
 tumori	1397		3
 tundri	46		2
-turbogeneratori			2
-turbokompresori	23		2
+turbogeneratori			3
+turbokompresori	23		3
 turi	670		2
 turniri	948		2
 tutori	131		3
@@ -1246,131 +1246,131 @@ tvori	479		2
 uberi	16		3
 udari	5017		3
 udri			2
-ugari			2
-uglomeri			2
+ugari			3
+uglomeri			3
 ugovori	6473		4
-ujguri			2
+ujguri			3
 ukori	158		3
-ukvari			2
-ulari			2
-uličari	43		2
-uljari	78		2
-ulogori	19		2
-umeri			2
+ukvari			3
+ulari			3
+uličari	43		3
+uljari	78		3
+ulogori	19		3
+umeri			3
 umori	421		3
 umri	326		2
-umudri			2
+umudri			3
 uokviri	54		2
-upari	152		2
-uperi	235		2
+upari	152		3
+uperi	235		3
 upiri	11		3
 upozori	1180		2
 upri	18		2
 usidri	48		3
-usiri			2
+usiri			3
 usmeri	1968		3
 uspori	1392		2
-ustvari	13652		2
+ustvari	13652		3
 utabori			2
 utovari	84		4
 utvari	55		3
 uveri	2151		3
 uvertiri	47		2
 uvri			2
-uzavri	38		2
+uzavri	38		3
 uznemiri	455		2
 uzori	843		3
 uzurpatori	145		3
-ućari			2
-učkuri			2
-ušićari	29		2
-užagri			2
-užari	43		2
-vajari	238		2
+ućari			3
+učkuri			3
+ušićari	29		3
+užagri			3
+užari	43		3
+vajari	238		3
 valceri	22		3
 vampiri	624		2
-vardari			2
+vardari			3
 vari	640		2
-varvari	657		2
+varvari	657		3
 vatri	2758		2
-vaučeri	216		2
-vazari			2
-vašari			2
+vaučeri	216		3
+vazari			3
+vašari			3
 vedri	529		2
 vektori	135		3
-venecijaneri			2
+venecijaneri			3
 ventilatori	748		3
-venturi			2
+venturi			3
 veri	6250		2
 veterinari	652		2
 vetri			2
-veziri			2
-većeri			2
+veziri			3
+većeri			3
 večeri	20642		3
-vibratori	74		2
-vidari	66		2
+vibratori	74		3
+vidari	66		3
 vidri	48		2
 vihori	42		3
 vijori	220		3
-vikari	12		2
+vikari	12		3
 vinari	680		2
 viri	892		2
-vizionari	305		2
-vizuri	171		2
+vizionari	305		3
+vizuri	171		3
 vladari	2152		2
 voajeri	65		2
-vodeničari	30		2
+vodeničari	30		3
 vodoinstalateri	78		2
 vodomeri	109		4
-volonteri	3767		2
-voskari			2
+volonteri	3767		3
+voskari			3
 vozari	15		2
-voćari	522		2
+voćari	522		3
 vratari	60		2
-vračari	77		2
+vračari	77		3
 vri	657		1
 vrtlari	37		3
-vulkanizeri	54		2
-zabašuri	100		2
-zabiberi			2
+vulkanizeri	54		3
+zabašuri	100		3
+zabiberi			3
 zacari	182		3
 zadrugari	284		4
-zagnjuri	50		2
+zagnjuri	50		3
 zagori	284		3
 zagovori			4
-zaiskri	53		2
-zajapuri			2
-zakaluđeri			2
-zakrvari			2
-zameri	882		2
-zamiri			2
+zaiskri	53		3
+zajapuri			3
+zakaluđeri			3
+zakrvari			3
+zameri	882		3
+zamiri			3
 zamori	74		3
 zanemari	584		2
 zaori	66		2
-zaoštri	91		2
-zastari	267		2
+zaoštri	91		3
+zastari	267		3
 zastori	122		3
-zatreperi	141		2
-zaturi	44		2
+zatreperi	141		3
+zaturi	44		3
 zatvori	4976		3
-zaulari			2
-zavari	52		2
+zaulari			3
+zavari	52		3
 zaveri	604		3
 zaviri	493		2
-začauri			2
-zaštitari	66		2
-zašumori			2
-zažari	18		2
-zažmiri	18		2
-zažmuri	263		2
-zažubori			2
+začauri			3
+zaštitari	66		3
+zašumori			3
+zažari	18		3
+zažmiri	18		3
+zažmuri	263		3
+zažubori			3
 zbari			2
 zbori	483		2
 zebri	135		2
-zefiri			2
+zefiri			3
 zeri			2
-zećiri			2
-zglavkari	30		2
+zećiri			3
+zglavkari	30		3
 zguri			2
 zidari	369		2
 zlatari	185		2
@@ -1378,93 +1378,93 @@ zlotvori	257		3
 zori	150		2
 zri	159		1
 zubari	187		2
-zulumćari	50		2
+zulumćari	50		3
 zuri	264		2
 zveri	1992		2
-zvezdari			2
-zvonari	22		2
+zvezdari			3
+zvonari	22		3
 ćari			2
 ćeri	84		2
-ćesari			2
+ćesari			3
 ćiri			2
 ćućori			3
 čadori			3
 čahuri			3
 čari	1636		2
-čekićari			2
-čergari	27		2
+čekićari			3
+čergari	27		3
 čeri			2
-četinari	199		2
+četinari	199		3
 četiri	141197		3
 četvori			3
 češljugari			4
 čigri	36		2
-čizburgeri			2
+čizburgeri			3
 čopori	128		3
-čuburi			2
+čuburi			3
 čuvari	2632		2
-đauri			2
-đeveri			2
-đubretari	62		2
+đauri			3
+đeveri			3
+đubretari	62		3
 đubri			2
 đuri			2
-šalabajzeri			2
-šalitri			2
+šalabajzeri			3
+šalitri			3
 šalteri	290		3
 šamari	100		3
 šatori	406		3
 šatri	92		2
-šaćiri			2
-šepuri	259		2
+šaćiri			3
+šepuri	259		3
 šestari	19		3
-ševari			2
+ševari			3
 šećeri	341		3
 šeširi	345		2
-šibicari	104		2
+šibicari	104		3
 šifri	316		2
-šikari	42		2
+šikari	42		3
 šimširi			3
-šinteri			2
+šinteri			3
 šiptari	2417		3
 širi	17286		2
-šizofreničari	20		2
+šizofreničari	20		3
 škrtari	23		3
 šlageri	28		3
 šleperi	212		3
 šljakeri	23		3
 šmekeri	85		3
-šminkeri	211		2
-šnajderi			2
+šminkeri	211		3
+šnajderi			3
 šoferi	142		2
 šori			2
-špaliri			2
-špediteri	120		2
-špriceri			2
+špaliri			3
+špediteri	120		3
+špriceri			3
 štakori	49		3
-štampari	77		2
-štenari	10		2
-štreberi			2
+štampari	77		3
+štenari	10		3
+štreberi			3
 šturi	132		2
 šubari	23		3
 šukri			2
 šumari	175		3
 šumori			3
 šuri			2
-šusteri			2
-švaleri			2
-šverceri			2
+šusteri			3
+švaleri			3
+šverceri			3
 žabari	309		3
 žagori			3
 žandari	182		2
 žari	222		2
 žbiri			2
 žderi	10		2
-železari	643		2
-železničari	213		2
-željezari	47		2
+železari	643		3
+železničari	213		3
+željezari	47		3
 žiri	6221		2
-životari	124		2
-žičari	132		2
+životari	124		3
+žičari	132		3
 žmiri	12		2
 žmuri	231		2
 žohari	29		3
@@ -1473,27 +1473,27 @@ zvonari	22		2
 žuri	2401		2
 žustri	50		2
 izmjeri	45		3
-iznevjeri			2
+iznevjeri			3
 licemjeri			4
 ljekari			2
 mjeri			2
 mjesečari			4
 namjeri			3
-pomjeri	52		2
+pomjeri	52		3
 potjeri			3
 povjeri			3
-premjeri			2
-preusmjeri			2
+premjeri			3
+preusmjeri			3
 prijevari			4
 primjeri			3
 provjeri			3
 razmjeri			3
-sijeri			2
-srazmjeri			2
+sijeri			3
+srazmjeri			3
 usmjeri			3
 uvjeri			3
 vjeri			2
-zamjeri			2
+zamjeri			3
 zavjeri			3
 zvijeri	225		3
 zvjeri			2

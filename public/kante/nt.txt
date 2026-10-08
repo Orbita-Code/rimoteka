@@ -9,7 +9,7 @@ akcent	154		2
 akceptant	10		2
 akcident	126		2
 ambijent		M	2
-antikoagulant			2
+antikoagulant			3
 apelant			2
 apsint	22		2
 apsolvent	808		2
@@ -104,22 +104,22 @@ instrument	7178		2
 inteligent			2
 intendant	34		2
 interesent			2
-interpelant			2
+interpelant			3
 intrigant		M	2
 kaladont			2
 kalkulant			2
 kalodont		M	1
 kant		M	1
-kapitulant			2
+kapitulant			3
 kent			1
 klement			2
 klijent	6759		2
 kliment			2
 klint			1
 koeficijent			2
-kolaborant		M	2
+kolaborant		M	3
 komandant	6590		2
-komedijant		M	2
+komedijant		M	3
 komersant			2
 komitent	206		2
 komplement	52		2
@@ -136,7 +136,7 @@ kontingent	471		2
 konvent		M	2
 konzultant	19		2
 konzument			2
-kooperant		M	2
+kooperant		M	3
 koproducent	90		2
 korespondent	53		2
 korint			2
@@ -155,8 +155,8 @@ liferant			2
 ligament	114		2
 lubrikant	164		2
 magistrant			2
-manifestant			2
-manipulant			2
+manifestant			3
+manipulant			3
 mastodont	30		2
 maturant	452		2
 medikament	162		2
@@ -187,11 +187,11 @@ pergament	128		2
 pigment	436		2
 pijemont			2
 point			2
-politikant	105		2
+politikant	105		3
 postament			2
 potkontinent			2
 praktikant		M	2
-prenumerant		M	2
+prenumerant		M	3
 pretendent	236		2
 prevarant		M	2
 prezent	135		2
@@ -224,7 +224,7 @@ simbiont			2
 simulant	14		2
 sonant	13		2
 sortiment	156		2
-specijalizant	243		2
+specijalizant	243		3
 sprint	790		1
 stent	170		1
 stimulant			2

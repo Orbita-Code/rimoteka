@@ -1,21 +1,21 @@
 20
-branioc			2
-davaoc			2
-donosioc			2
-izvršioc			2
-mačevaoc			2
-nosioc			2
-obožavaoc			2
-posetioc			2
-pozivaoc			2
-počinioc			2
-pratioc	76		2
-prevodioc			2
-ronioc	14		2
-rukovaoc			2
-rukovodioc			2
-slušaoc			2
-spasioc			2
-stvaraoc			2
-tužioc			2
+branioc			3
+davaoc			3
+donosioc			3
+izvršioc			3
+mačevaoc			3
+nosioc			3
+obožavaoc			3
+posetioc			3
+pozivaoc			3
+počinioc			3
+pratioc	76		3
+prevodioc			3
+ronioc	14		3
+rukovaoc			3
+rukovodioc			3
+slušaoc			3
+spasioc			3
+stvaraoc			3
+tužioc			3
 škljoc		M	1

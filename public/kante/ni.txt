@@ -8,111 +8,111 @@ Japani			2
 Jordani			3
 Kini			2
 Libani			3
-Lioni			2
-Lisaboni			2
+Lioni			3
+Lisaboni			3
 Ljubljani			2
 Londoni			2
 Prištini			3
 Sudani			2
 Ukrajini			4
-Vašingtoni			2
+Vašingtoni			3
 abdominalni	106		5
 abecedni	38		4
 abnormalni	77		4
-aboridžini			2
+aboridžini			3
 abrazivni			4
-acetilsalicilni			2
+acetilsalicilni			3
 adaptirani	210		3
 adaptivni	161		4
 adekvatni	769		4
-adhezioni		M	2
+adhezioni		M	5
 administrativni	3058		6
-adresirani			2
-adresni	162		2
+adresirani			3
+adresni	162		3
 adverbijalni			5
 aerobni	249		4
 aeroplani	37		5
 afektivni	86		4
-afirmisani	330		2
-aforistični			2
+afirmisani	330		3
+aforistični			3
 agilni	360		3
 agrarni	1270		2
 agregatni	29		2
 agresivni	1735		4
 agrikulturni			2
-akcesioni			2
-akcioni	3606		2
+akcesioni			5
+akcioni	3606		3
 akcizni	43		3
 akni	1052		2
-akordni			2
-akreditivni		M	2
-akreditovani	713		2
+akordni			3
+akreditivni		M	5
+akreditovani	713		3
 akrilni			2
-aktivacioni			2
+aktivacioni			3
 aktivirani	225		3
 aktivni	8391		3
 aktuelni	8564		4
 akustični	226		3
 akutni	1030		3
-akuzativni		M	2
+akuzativni		M	5
 alarmantni	205		2
 alarmirani			3
 alarmni	405		3
 alatni	19		2
-albumini	29		2
+albumini	29		3
 alergeni	382		4
 alergični	590		3
-aliterativni			2
+aliterativni			3
 alkalni	56		2
 alkoholni	169		4
-alocirani	10		2
+alocirani	10		3
 alternativni	2516		5
 aluvijalni			5
 alveolarni	19		2
 amandmani	2440		2
-ambalažni	207		2
+ambalažni	207		3
 ambiciozni	1515		5
 ambulantni	100		3
-amfetamini	68		2
-amonijačni			2
+amfetamini	68		3
+amonijačni			3
 amoralni	44		4
 amorfni	57		3
-anahroni	98		2
+anahroni	98		3
 analizirani	758		3
 analni	485		2
 analogni	1094		4
 anarhični	29		3
-andrijani			2
+andrijani			3
 anektirani			3
 anemični	70		3
-angažmani	104		2
-angažovani	4248		2
-angelini			2
+angažmani	104		3
+angažovani	4248		3
+angelini			3
 ani			2
 animalni	85		4
-animirani	1266		2
-anketirani	456		2
+animirani	1266		3
+anketirani	456		3
 anketni	850		3
-anksiozni	199		2
+anksiozni	199		3
 anonimni	2297		4
 anteni	117		2
 antidržavni	90		2
-antigoni			2
+antigoni			3
 antikni			3
 antikvarni			4
 antipatični			3
-antiratni	164		2
-antivirusni	727		2
+antiratni	164		3
+antivirusni	727		5
 anulirani	24		3
-anđelini			2
+anđelini			3
 apartmani	3147		2
-apartni			2
+apartni			3
 apatični	152		3
-apelacioni	2221		2
-aplikativni	232		2
+apelacioni	2221		3
+aplikativni	232		5
 apoeni	46		2
 apokaliptični	103		3
-apokrifni	29		2
+apokrifni	29		3
 apolitični	69		3
 apriorni	30		4
 apsolutni	4399		4
@@ -123,42 +123,42 @@ arbitrarni	29		4
 arbitražni	229		4
 areni	5162		2
 arhaični	177		3
-arhivirani	85		2
-arizoni			2
+arhivirani	85		3
+arizoni			3
 armani			3
-armirani	110		2
+armirani	110		3
 arogantni	345		2
 aromatični	151		3
 aršini			2
 aseksualni			5
-aseptični			2
-asfaltni	397		2
-asimilirani			2
-asinhroni		M	2
+aseptični			3
+asfaltni	397		3
+asimilirani			3
+asinhroni		M	3
 asocijalni	72		5
-asocijativni	96		2
+asocijativni	96		3
 asocirani	17		3
 aspirini	19		2
-asteroidni			2
+asteroidni			3
 astmatični	60		3
 astralni	64		2
-atinjani			2
-atipični	92		2
+atinjani			3
+atipični	92		3
 atraktivni	1196		4
-atributivni		M	2
-auditivni	55		2
+atributivni		M	5
+auditivni	55		5
 autentični	1603		3
-autistični	146		2
+autistični	146		3
 autobusni			3
 autohtoni	400		3
-autoimuni	74		2
-automatizovani	211		2
+autoimuni	74		3
+automatizovani	211		3
 autonomni	763		5
 autoritativni	136		7
-autorskopravni			2
+autorskopravni			3
 avangardni	403		4
 avani			3
-avansni			2
+avansni			3
 avetni			3
 avioni	4301		2
 azbestni	25		3
@@ -169,18 +169,18 @@ ažurirani	276		3
 ažurni	257		3
 babetini			3
 babini	14		2
-babuni			2
+babuni			3
 bacani	164		3
 bagatelni	12		4
 bajni			2
 bakarni	459		2
-bakelitni			2
+bakelitni			3
 bakini	17		2
 bakreni	34		3
-bakrorezni			2
+bakrorezni			3
 baksuzni			3
-baladni			2
-balansni			2
+baladni			3
+balansni			3
 balerini	60		2
 baletani	27		2
 baletni			3
@@ -191,30 +191,30 @@ balvani			3
 balšini			2
 banalni	241		2
 banani	87		2
-banaćani			2
-bandažirani			2
+banaćani			3
+bandažirani			3
 bani	58		2
-banjalučani			2
+banjalučani			3
 banjani			3
 bankovni	505		2
-banovini	246		2
+banovini	246		3
 baražni			3
-bareni	86		2
+bareni	86		3
 barmeni	82		3
 barokni	443		3
 baroni	106		2
-barseloni			2
-barutani			2
-barutni	44		2
-baseni	40		2
+barseloni			3
+barutani			3
+barutni	44		3
+baseni	40		3
 basni	147		2
 basnoslovni			4
 bastioni	47		2
-bataljoni	75		2
+bataljoni	75		3
 batinani	11		3
 batini	61		3
-batočini			2
-bazaltni			2
+batočini			3
+bazaltni			3
 bazeni	1513		2
 bazirani	1131		3
 bazični	608		3
@@ -225,7 +225,7 @@ baštini	1258		2
 baštovani			2
 bebini	30		2
 bedni	943		2
-bedreni			2
+bedreni			3
 beduini	90		2
 bekni			2
 beleženi	74		4
@@ -233,35 +233,35 @@ belini	125		2
 benigni	396		2
 benzini			2
 beograđani	2532		4
-berluskoni			2
+berluskoni			3
 besani			3
-besceni			2
+besceni			3
 besciljni	21		2
 beskamatni	219		4
 besklasni			3
 beskompromisni	286		5
 beskonačni	289		3
-beskontaktni	46		2
+beskontaktni	46		3
 beskorisni			4
 beskrajni	486		2
 beskrupulozni	201		5
 beskrvni	19		2
-beskućni			2
+beskućni			3
 beskvasni	47		3
-beslovesni	40		2
+beslovesni	40		4
 besmisleni	640		4
 besmrtni	518		3
 besni	1672		2
-besomučni	60		2
+besomučni	60		3
 bespametni			4
-bespilotni	95		2
+bespilotni	95		3
 besplatni	3987		3
 besplodni	16		3
 bespolni			2
 bespomoćni	332		4
-besporezni			2
+besporezni			3
 besposleni	171		4
-bespotrebni			2
+bespotrebni			3
 bespočetni			4
 bespravni	92		2
 besprekorni	239		2
@@ -273,20 +273,20 @@ besteretni			4
 bestidni	59		2
 bestijalni	18		4
 besvesni			3
-besčovečni			2
+besčovečni			3
 betonirani	24		3
 bezalkoholni	85		5
 bezazleni	353		3
 bezbedni	1814		3
-bezbednosni	1920		2
+bezbednosni	1920		4
 bezbojni	140		3
 bezbolni	162		2
 bezbožni	229		3
-bezbračni			2
+bezbračni			3
 bezbrižni	309		3
 bezbrojni	291		2
 bezdani	21		3
-bezdelatni			2
+bezdelatni			3
 bezdimni			3
 bezduhovni			4
 bezdušni	153		3
@@ -295,20 +295,20 @@ bezgranični			4
 bezgrešni	227		3
 bezidejni			2
 bezimeni	576		4
-beziskustveni			2
+beziskustveni			3
 bezizgledni			4
 bezizlazni	25		3
-bezizrazni			2
+bezizrazni			3
 bezlični	181		3
-bezlobni			2
+bezlobni			3
 bezmasni	11		3
 bezmerni			2
-beznadežni	88		2
+beznadežni	88		3
 beznadni	10		3
 beznačajni	409		4
 beznačelni			4
 bezobalni			4
-bezoblični	16		2
+bezoblični	16		3
 bezobrazni	694		3
 bezobzirni	212		4
 bezolovni	293		4
@@ -316,14 +316,14 @@ bezopasni	323		4
 bezosećajni	129		5
 bezočni	51		3
 bezrazložni			3
-bezukusni			2
+bezukusni			4
 bezumni	250		2
 bezuslovni	145		4
 bezuspešni	174		3
 bezutešni			4
-bezuzročni			2
+bezuzročni			3
 bezvazdušni			4
-bezverni			2
+bezverni			3
 bezvezni	111		3
 bezvizni	429		3
 bezvodni	25		3
@@ -331,16 +331,16 @@ bezvoljni	127		2
 bezvredni	246		3
 bezvremeni	45		4
 bezvučni	31		3
-bezživotni			2
+bezživotni			3
 bešumni	79		3
 bešćutni			3
 beživotni	45		4
 bežični	2394		3
-bijeljini			2
+bijeljini			3
 bikini	412		2
-bilansni	36		2
+bilansni	36		3
 bilateralni	1074		5
-bilioni	33		2
+bilioni	33		3
 biljani			3
 biljni	1856		2
 bilteni	120		2
@@ -359,38 +359,38 @@ bičevani			4
 blagajni	1139		2
 blagdani	36		3
 blagodarni			4
-blagodatni	193		2
+blagodatni	193		3
 blagodušni			4
 blagonakloni	180		3
 blagorodni		M	4
-blagosloveni	327		2
+blagosloveni	327		3
 blagoslovljeni	44		3
 blagoverni	139		4
-blagovremeni			2
-blagočesni			2
+blagovremeni			3
+blagočesni			4
 blatni	34		2
 blatobrani	118		4
-blazirani	30		2
-blaženi	2886		2
+blazirani	30		3
+blaženi	2886		3
 blebetani			3
 bleni			2
 blesani			3
 blesni			2
-blindirani	116		2
+blindirani	116		3
 blizini	29635		2
-bljuvotini	10		2
+bljuvotini	10		3
 blokirani	960		3
 bludni	142		2
 bodovani	71		4
 bodovni	207		2
 bodreni	34		3
-bogatuni	48		2
+bogatuni	48		3
 bogdani			3
-bogodani			2
+bogodani			3
 bogohulni	31		4
-bogomdani	82		2
-bogoslužbeni	189		2
-bogougodni	140		2
+bogomdani	82		3
+bogoslužbeni	189		3
+bogougodni	140		3
 bogovetni			4
 bojani	108		3
 bojazni	2146		3
@@ -398,7 +398,7 @@ bojeni	109		3
 bojni	291		2
 bolesni	2869		3
 bolni	928		2
-bombardovani	481		2
+bombardovani	481		3
 bomboni	40		2
 borani	249		3
 boravišni	31		4
@@ -412,25 +412,25 @@ bošnjani			3
 božanstveni	356		3
 božićni	1107		3
 brahmani	11		3
-brakorazvodni	29		2
+brakorazvodni	29		3
 brani	14842		2
 branjeni	60		3
-brankovini			2
-brauni			2
-braćeni			2
+brankovini			3
+brauni			3
+braćeni			3
 bračani			3
 bračni	4454		2
 bremeni			3
-brigadni	328		2
+brigadni	328		3
 brijani			3
-brilijantni			2
-briljantni	267		2
+brilijantni			3
+briljantni	267		3
 brini	1940		2
-brioni			2
+brioni			3
 brisani	203		3
 britni			2
 brižni	377		2
-brodogradilišni			2
+brodogradilišni			3
 brojevni	12		2
 brojni	13994		2
 brojčani	126		3
@@ -446,12 +446,12 @@ bubni		M	2
 bubrežni	116		3
 budalaštini	21		3
 budaletini			3
-budalini			2
-budalčini			2
+budalini			3
+budalčini			3
 budni	851		2
 budvani			3
 bujni	86		2
-bukatini			2
+bukatini			3
 bukvalni	94		3
 bulazni	91		2
 buni	2454		2
@@ -472,28 +472,28 @@ carevini	434		4
 carevni			2
 carini	1335		3
 celini	13924		2
-celobrojni	43		2
+celobrojni	43		3
 celodnevni	834		4
 celokupni	1831		3
-celosni			2
-celuloidni	15		2
-celulozni	29		2
-cementni	106		2
+celosni			3
+celuloidni	15		3
+celulozni	29		3
+cementni	106		3
 ceni	34083		2
 cenjeni	2393		3
 cenovni	616		2
-centralizovani	217		2
+centralizovani	217		3
 centralni	7146		2
 centrifugalni	57		2
 centripetalni			5
-centrirani	32		2
+centrirani	32		3
 centurioni	24		2
 cenzurisani	101		4
 cepelini	20		2
 cerebralni	64		4
 ceremonijalni	69		6
 cetini			2
-cetinjani			2
+cetinjani			3
 cevni	159		2
 ceđeni	159		3
 cigani	944		3
@@ -508,8 +508,8 @@ cinični	329		3
 cirkularni			4
 cisterni	567		2
 cistični			3
-citirani	354		2
-civilizovani	409		2
+citirani	354		3
+civilizovani	409		3
 civilni	1689		2
 crevni	163		2
 crkni	86		2
@@ -525,7 +525,7 @@ crpni			2
 crtani	1115		3
 crveni	11880		3
 crvotočini			4
-crvotočni	10		2
+crvotočni	10		3
 cugni			2
 cvetni	952		2
 dadni			2
@@ -539,140 +539,140 @@ danonoćni	69		4
 darivani	44		3
 darovani	98		3
 darovni			2
-datirani			2
+datirani			3
 dativni		M	2
-datotečni	12		2
+datotečni	12		3
 davani	246		3
 davni	287		2
 davnini	94		2
 daščani	26		3
-debatni	303		2
-debelokožni			2
+debatni	303		3
+debelokožni			3
 debilni	56		3
 debitni			2
 debljini	460		2
 decani			3
-decentralizovani	91		2
-decidirani	23		2
+decentralizovani	91		3
+decidirani	23		3
 decimalni	119		4
-dedovini	54		2
+dedovini	54		3
 deduktivni	20		4
 defanzivni	346		4
 defektni	56		3
-definisani	2835		2
+definisani	2835		3
 definitivni	506		5
-deflacioni			2
-deformisani	117		2
-degenerativni	75		2
-degenerisani			2
-degradirani	111		2
-dehidrirani	49		2
+deflacioni			5
+deformisani	117		3
+degenerativni	75		3
+degenerisani			3
+degradirani	111		3
+dehidrirani	49		3
 dejani			3
 dekadentni	83		2
-dekadni		M	2
+dekadni		M	3
 dekani	328		2
-dekintirani			2
+dekintirani			3
 deklarativni	130		5
-deklarisani	387		2
+deklarisani	387		3
 dekorativni	774		5
-dekorisani	101		2
+dekorisani	101		3
 delatni	97		2
-delegirani	137		2
+delegirani	137		3
 delfini	665		2
-delikatesni			2
+delikatesni			5
 delikatni	128		4
-deliktni			2
-delimični	279		2
+deliktni			3
+delimični	279		3
 deljeni	576		3
 delotvorni	388		4
 delovodni	88		4
-dementni	34		2
-deminutivni		M	2
-demobilisani			2
-demodirani	11		2
-demolirani	26		2
+dementni	34		3
+deminutivni		M	5
+demobilisani			3
+demodirani	11		3
+demolirani	26		3
 demoni	1197		2
-demontažni			2
+demontažni			3
 deni	297		2
 dentalni	100		2
-deobni		M	2
-deoni			2
-deponovani	92		2
-deportovani	186		2
-depozitni	145		2
+deobni		M	3
+deoni			3
+deponovani	92		3
+deportovani	186		3
+depozitni	145		3
 depresivni	589		4
-deprimirani	50		2
+deprimirani	50		3
 derani	49		3
-desankini			2
-desantni	56		2
-desertni			2
+desankini			3
+desantni	56		3
+desertni			3
 desetini	93		3
-desetkovani	147		2
+desetkovani	147		3
 desetni		M	3
 desni	5433		2
 destani			3
 destruktivni	340		4
 detaljni	1639		3
-detaširani			2
-detektovani	110		2
+detaširani			3
+detektovani	110		3
 detelini	39		4
 devizni	2330		3
-devojčini			2
-dezeni			2
-dezinfekcioni	29		2
-dezorijentisani	109		2
+devojčini			3
+dezeni			3
+dezinfekcioni	29		3
+dezorijentisani	109		3
 dečani			3
 dežurni	2412		2
-didaktični			2
-diferencijalni	181		2
+didaktični			3
+diferencijalni	181		3
 difuzni	105		3
 digestivni	379		4
 digitalni	5973		4
 digni	248		2
 dijagonalni	37		5
-dijamantni	17		2
+dijamantni	17		3
 dijani			3
 dijetalni	103		4
 dijetni	13		3
 diktirani	31		3
-dimenzionalni	17		2
-dimenzioni			2
+dimenzionalni	17		3
+dimenzioni			5
 dimljeni	150		3
 dimni	138		2
-dinamični	574		2
+dinamični	574		3
 dini			2
 dinstani	23		3
-dioksini	49		2
-diplomirani	7041		2
+dioksini	49		3
+diplomirani	7041		3
 dirani			3
 direktivni			4
 direktni	3244		3
-dirigovani	82		2
+dirigovani	82		3
 dirni			2
 disajni	300		3
 disciplini	5127		2
-disciplinirani			2
-disciplinovani	409		2
-disfunkcionalni	43		2
+disciplinirani			3
+disciplinovani	409		3
+disfunkcionalni	43		3
 disketni			3
-diskontni	81		2
-diskordantni			2
+diskontni	81		3
+diskordantni			3
 diskretni	396		3
-diskusioni	88		2
-diskvalificirani			2
-diskvalifikovani	134		2
-disocijativni			2
-disonantni	68		2
-distancirani	65		2
-distribucioni		M	2
-distributivni	575		2
+diskusioni	88		5
+diskvalificirani			3
+diskvalifikovani	134		3
+disocijativni			3
+disonantni	68		3
+distancirani	65		3
+distribucioni		M	3
+distributivni	575		5
 divani	124		3
-divljačni			2
+divljačni			3
 divljini	795		2
 divni	2046		2
-divotni			2
+divotni			3
 dizajni	93		3
-dizajnirani	1693		2
+dizajnirani	1693		3
 dizani	20		3
 dizni			2
 dični	128		2
@@ -681,16 +681,16 @@ dnevni	13919		2
 doajeni	64		2
 dobavljeni			4
 dobavni			2
-dobermani	27		2
+dobermani	27		3
 dobijani	40		3
 dobijeni	3733		4
 dobitni	109		2
 dobiveni			4
-dobrobitni			2
+dobrobitni			3
 dobrodušni	109		3
 dobronamerni	1003		3
 dobrotvorni	327		4
-dobrovoljni	1534		2
+dobrovoljni	1534		3
 dobroćudni	272		4
 docni		M	2
 dodani	35		3
@@ -699,12 +699,12 @@ dodavani	68		3
 dodeljeni	837		3
 dodeljivani	97		3
 dodirni	177		2
-dogledni			2
+dogledni			3
 dogovarani	31		3
 dogovoreni	914		3
 dogovorni	28		4
 dograđeni	69		4
-dograđivani	21		2
+dograđivani	21		3
 dohodovni			4
 dojeni			3
 dokazani	739		3
@@ -713,9 +713,9 @@ dokoni	356		3
 doktrinarni	69		4
 doktrini	402		2
 dokumentarni	3124		5
-dokumentovani	234		2
+dokumentovani	234		3
 dolazni	242		3
-dolepotpisani			2
+dolepotpisani			3
 dolini	3469		2
 dolični			3
 doljani			3
@@ -728,14 +728,14 @@ domovini	1708		4
 donedavni	248		4
 doneseni	315		4
 donošeni	231		3
-dopisni	398		2
+dopisni	398		3
 doplatni			2
 dopremljeni	161		3
 dopuni	1936		3
 dopunjeni	278		4
-dopusni			2
+dopusni			3
 dopušteni	99		3
-doradni			2
+doradni			3
 dorađeni	80		3
 dosadni	1372		3
 dosegni			2
@@ -747,13 +747,13 @@ dostavljeni	1315		4
 dostavni	35		3
 dostigni			3
 dostižni	106		3
-dostojanstveni	352		2
+dostojanstveni	352		3
 dostojni	1261		2
 dostupni	9583		3
 dosuđeni	117		4
-dotakni	45		2
-doterani	286		2
-dotirani	31		2
+dotakni	45		3
+doterani	286		3
+dotirani	31		3
 dotični	3352		3
 dotučeni	12		4
 dovedeni	2129		3
@@ -762,7 +762,7 @@ dovodni	57		3
 dovoljni	3357		3
 dovođeni	273		3
 dovoženi	41		3
-dovršavani			2
+dovršavani			3
 dovršeni	129		3
 dovučeni	22		4
 dozivni			2
@@ -770,32 +770,32 @@ dozvoljeni	1661		3
 dočarani	29		3
 dočekani	505		4
 dočekivani	54		3
-doživljajni	16		2
+doživljajni	16		3
 doživljeni	102		4
 doživotni	737		4
 dragani	67		3
 dragoceni	1382		3
-dragoni	13		2
-dragovoljni			2
+dragoni	13		3
+dragovoljni			3
 dramatični	439		3
-drapirani			2
+drapirani			3
 drastični	195		3
-dražbeni			2
+dražbeni			3
 dražesni	33		3
 dražini			2
 drenažni	136		3
 dresirani	70		3
 drevni	1969		2
 drini			2
-drljeni			2
+drljeni			3
 drmni			2
 drobljeni	27		3
 drogirani	140		3
-drugoplasirani	1068		2
-drugorazredni	195		2
+drugoplasirani	1068		3
+drugorazredni	195		3
 drugoredni			4
-drugorođeni			2
-drugostepeni	942		2
+drugorođeni			3
+drugostepeni	942		3
 druškani			3
 društveni	11668		3
 družbini			2
@@ -809,19 +809,19 @@ državni	34193		2
 državnopravni	43		2
 dualni	86		2
 dubini	3992		2
-dubodolini			2
+dubodolini			3
 dubokoumni	28		5
-dubrovčani	465		2
-dugometražni	541		2
+dubrovčani	465		3
+dugometražni	541		3
 dugoročni	2967		4
-dugosilazni	13		2
+dugosilazni	13		3
 dugotrajni	805		4
-dugouzlazni			2
+dugouzlazni			3
 dugovečni	125		4
 duhni			2
 duhovni	5739		2
 dupini			2
-duplirani	102		2
+duplirani	102		3
 durativni			4
 durbini	13		2
 duvani	27		2
@@ -830,122 +830,122 @@ duševni	958		2
 dušmani	380		3
 dužini	6806		2
 dužni	8716		2
-dužnosni			2
-dvoazbučni			2
+dužnosni			3
+dvoazbučni			3
 dvocifreni			4
 dvodelni	180		2
-dvodimenzionalni	116		2
+dvodimenzionalni	116		3
 dvodnevni	1081		2
 dvodomni	37		3
 dvofazni			3
-dvoistočni			2
-dvojeni			2
-dvojezični	188		2
+dvoistočni			3
+dvojeni			3
+dvojezični	188		3
 dvojni	360		2
-dvokratni			2
+dvokratni			3
 dvokrevetni			4
 dvokrilni	65		2
 dvokružni	32		3
 dvolični	121		3
-dvomesečni	177		2
-dvominutni	60		2
+dvomesečni	177		3
+dvominutni	60		3
 dvomotorni	39		4
-dvonedeljni	225		2
+dvonedeljni	225		3
 dvonožni	16		3
-dvopotezni			2
+dvopotezni			3
 dvorani	4761		2
-dvoredni			2
+dvoredni			3
 dvorišni	178		3
 dvorjani	71		3
 dvoručni			3
-dvosatni	49		2
+dvosatni	49		3
 dvoslojni	79		2
 dvosmerni	206		2
 dvosmisleni	91		4
-dvosobni	132		2
-dvospratni	98		2
+dvosobni	132		3
+dvospratni	98		3
 dvostepeni			4
 dvostrani	140		3
-dvotaktni	39		2
+dvotaktni	39		3
 dvotomni		M	3
-dvovalutni			2
-dvoznačni			2
+dvovalutni			3
+dvoznačni			3
 dvočasovni	153		4
 dvočlani	25		3
-džamadani			2
+džamadani			3
 džentlmeni	139		3
 džepni	333		2
-ebonitni			2
+ebonitni			3
 edukativni	2632		5
-edukovani	474		2
+edukovani	474		3
 efektivni	348		4
 efektni	179		3
 efemerni	40		4
 efikasni	2226		4
-egipćani			2
+egipćani			3
 egocentrični	94		3
 egoistični	78		3
 egzaktni	145		3
-egzaltirani	43		2
-egzekutivni			2
-egzibicioni			2
+egzaltirani	43		3
+egzekutivni			5
+egzibicioni			3
 egzistencijalni	455		6
 egzotični	350		3
-ekavštini			2
-ekipni	361		2
+ekavštini			3
+ekipni	361		3
 ekrani	839		2
 ekscentrični	244		3
 ekskluzivni	1868		4
 ekspanzivni			4
-ekspedicioni	37		2
-eksperimentalni	1089		2
-eksplikativni			2
+ekspedicioni	37		3
+eksperimentalni	1089		3
+eksplikativni			5
 eksplozivni	291		4
-eksponencijalni	92		2
-eksportni		M	2
-ekspresni	94		2
+eksponencijalni	92		3
+eksportni		M	3
+ekspresni	94		3
 ekstatični	25		3
 eksterni		M	2
 ekstravagantni	111		2
 ekstremni	1387		2
 ekumeni	15		4
-ekvatorijalni			2
+ekvatorijalni			3
 elani			3
 elastični	301		3
 elegantni	623		2
-elegični	12		2
+elegični	12		3
 elektrani	524		2
 električni	4106		3
 elektromagnetni	221		2
 elektroni	469		2
 elementarni	608		5
-eleni			2
-elevacioni		M	2
-eliminacioni	70		2
-eliminirani			2
-eliminisani	470		2
+eleni			3
+elevacioni		M	3
+eliminacioni	70		3
+eliminirani			3
+eliminisani	470		3
 elitni	796		2
 elokventni	111		2
-emancipirani			2
+emancipirani			3
 embrionalni			5
 embrioni	184		4
 eminentni	1023		2
 emini			2
-emisioni	52		2
-emitovani	394		2
+emisioni	52		5
+emitovani	394		3
 emocionalni	1112		6
 emotivni	1872		4
-endemični			2
-endokrini	163		2
-endorfini	73		2
+endemični			3
+endokrini	163		3
+endorfini	73		3
 energični	405		3
 eni			2
 enormni	235		3
-entoni			2
+entoni			3
 entuzijastični	64		3
-eoni			2
+eoni			3
 epiduralni	50		5
-epigoni	50		2
+epigoni	50		3
 epileptični	164		3
 epitelni			4
 epizodni	41		4
@@ -953,66 +953,66 @@ epohalni	175		4
 erektilni			4
 erotični	39		3
 eruptivni	26		4
-eskadroni	38		2
-eskontni	18		2
-eskortni			2
-estradni	478		2
-etablirani	139		2
-etapni			2
+eskadroni	38		3
+eskontni	18		3
+eskortni			3
+estradni	478		3
+etablirani	139		3
+etapni			3
 etažni	46		3
 etilni			2
-evakuirani			2
-evakuisani	427		2
+evakuirani			3
+evakuisani	427		3
 eventualni	3239		5
-evidencioni			2
+evidencioni			3
 evidentni	331		2
-evolucioni	138		2
-evolutivni	257		2
-evropljani			2
-evrozoni	3249		2
-ešaloni	23		2
+evolucioni	138		3
+evolutivni	257		5
+evropljani			3
+evrozoni	3249		3
+ešaloni	23		3
 facijalni	45		4
 fakini	12		2
 faktični	18		3
-fakultativni			2
+fakultativni			5
 falični	31		3
-falsificirani			2
-falsifikovani	246		2
-falusni		M	2
+falsificirani			3
+falsifikovani	246		3
+falusni		M	3
 familijarni	87		5
 famozni	1253		3
-fanatizovani			2
+fanatizovani			3
 fanatični	199		3
 fani		M	2
 fantastični	1265		3
 faraoni	140		2
 farsični	21		3
-fasadni	331		2
+fasadni	331		3
 fascinantni	293		2
 fascinirani	362		3
 fatalni	332		3
-fauni	126		2
+fauni	126		3
 fazani	100		2
 fazni	167		2
-fazoni	182		2
+fazoni	182		3
 federalni	989		4
-feferoni	29		2
+feferoni	29		3
 fekalni			2
 felini			2
 feljtoni	51		2
 felni			2
 femoralni			4
-feničani			2
+feničani			3
 fenomenalni	947		5
 fenomeni	751		2
 ferijalni	49		4
 fermani	13		3
-feromoni	113		2
+feromoni	113		3
 fetalni	79		2
 feudalni	281		4
 figuralni	16		4
 figurativni	53		5
-fiksirani	189		2
+fiksirani	189		3
 fiksni	2642		2
 fiktivni	386		2
 filcani			3
@@ -1023,8 +1023,8 @@ fini	2216		2
 fiskalni	3500		2
 fiskulturni		M	4
 fizikalni	163		4
-flagrantni	12		2
-flambirani			2
+flagrantni	12		3
+flambirani			3
 fleksibilni	958		4
 floralni	52		2
 flotini			2
@@ -1035,39 +1035,39 @@ folklorni	785		2
 fontani	277		2
 formalni	1800		2
 formativni	49		4
-formirani	1366		2
-forsirani			2
+formirani	1366		3
+forsirani			3
 fosforni			3
-fosilizovani			2
+fosilizovani			3
 fosilni	220		2
 fotogenični	21		3
-fotografisani	115		2
+fotografisani	115		3
 fotoni	269		2
 frazalni			2
 frekventni	280		2
 frikativni			4
-frikcioni		M	2
+frikcioni		M	3
 frivolni	13		3
 frontalni	265		2
 frustrirani	490		3
 fundamentalni	488		5
 funkcionalni	1411		5
-furgoni	10		2
+furgoni	10		3
 furiozni	53		4
-furnirani	15		2
-furuni			2
+furnirani	15		3
+furuni			3
 gadni	130		2
-gajeni	74		2
+gajeni	74		3
 gajtani	19		3
 galantni	62		2
 ganjani	13		3
-garantni	885		2
+garantni	885		3
 garantovani	258		5
 garažni			3
-garnizoni	78		2
+garnizoni	78		3
 gasni	905		2
 gasovodni			4
-gastrointestinalni	147		2
+gastrointestinalni	147		3
 gavrani	117		3
 gazirani	195		3
 gazni			2
@@ -1076,8 +1076,8 @@ gašeni	22		3
 gaženi	28		3
 gejšini			2
 generalni	21488		4
-generalštabni	44		2
-generisani	178		2
+generalštabni	44		3
+generisani	178		3
 geni	1331		2
 genijalni	810		4
 genitalni	196		4
@@ -1087,35 +1087,35 @@ germani			3
 giljotini	85		4
 gipsani	114		3
 gladni	3032		2
-glamočani			2
-glamurozni	190		2
+glamočani			3
+glamurozni	190		3
 glasini	22		3
 glasni	647		2
 glasovni	130		2
 glavni	73941		2
 glavnini	23		2
-glazirani	14		2
+glazirani	14		3
 glačani			3
 gledani	141		3
 glineni	257		3
 glini	410		2
 gljivični			3
 globalni	6579		2
-globulini	26		2
+globulini	26		3
 glomazni	203		3
 glupani	63		3
-glupsoni			2
+glupsoni			3
 gnevni	264		2
 gnjevni		J	2
 gnječeni			3
 gnjusni			2
 gnojni	106		2
 gnusni	146		2
-gobleni	27		2
+gobleni	27		3
 goblini	126		2
 godini	83659		3
 gojazni	517		3
-goleni	22		2
+goleni	22		3
 golmani			3
 goni	1380		2
 gonjeni	397		3
@@ -1130,20 +1130,20 @@ gotovini	964		2
 govedini	44		4
 govoreni	10		3
 govorni	674		2
-gozbeni			2
+gozbeni			3
 gracilni			2
 graciozni	37		4
 gradini	333		2
 gradivni		M	2
-gradobitni			2
-gradonosni	74		2
-grafikoni	250		2
+gradobitni			3
+gradonosni	74		4
+grafikoni	250		3
 grandiozni	242		4
 grani	2852		2
 granitni	74		2
 granični	1730		3
-gravirani	16		2
-gravitacioni	256		2
+gravirani	16		3
+gravitacioni	256		3
 građani	74578		3
 građanskopravni		M	2
 građeni	907		3
@@ -1159,21 +1159,21 @@ gricni			2
 grilovani			2
 grimizni	12		3
 grivni			2
-grleni	31		2
+grleni	31		3
 grmljavini	40		4
 grobni	95		2
-grogirani	25		2
-gromadni			2
+grogirani	25		3
+gromadni			3
 groteskni	105		2
 grozni	512		2
 grozomorni	20		4
 grožđani	59		3
 grubijani	34		2
 grudni	678		2
-grudobrani			2
+grudobrani			3
 gruni			2
 gruntovni		M	2
-grupisani	465		2
+grupisani	465		3
 grupni	1419		2
 gubljeni			3
 gucni			2
@@ -1186,31 +1186,31 @@ gustini	146		2
 guturalni			4
 gvozdeni	703		3
 habitualni			5
-haićani			2
+haićani			3
 hakovani			2
 haljini	1525		2
 halogeni			4
 halucinogeni	38		6
 hani			2
-haotični	149		2
-hapšeni			2
-harizmatični	336		2
+haotični	149		3
+hapšeni			3
+harizmatični	336		3
 harmonični	232		3
 harpuni	17		2
 havani			3
 hazardni			3
-heleni			2
-hendikepirani	222		2
-hercegovini			2
+heleni			3
+hendikepirani	222		3
+hercegovini			3
 hermetični	16		3
 heterogeni	107		5
-heteroseksualni	218		2
+heteroseksualni	218		3
 hibridni	1289		2
 hidraulični	222		3
 higijeni	1216		2
 himni	819		2
-hiperaktivni	94		2
-hipnotisani	112		2
+hiperaktivni	94		5
+hipnotisani	112		3
 hipotekarni	270		2
 histerični	131		3
 hitni	545		2
@@ -1222,16 +1222,16 @@ hlorni			2
 hlorovodonični			3
 hodni			2
 hodžini			2
-holanđani			2
-homeini			2
-homofobični	60		2
+holanđani			3
+homeini			3
+homofobični	60		3
 homogeni	125		4
 homoseksualni	420		6
 honorarni	637		4
 horizontalni	585		5
 hormonalni	188		4
 hormoni	1554		2
-hospitalizovani	112		2
+hospitalizovani	112		3
 hramovni			2
 hrani	11729		2
 hranidbeni	14		4
@@ -1239,40 +1239,40 @@ hranjeni	211		3
 hrastovini	31		4
 hristini			2
 hrišćani	4951		3
-hromirani	180		2
+hromirani	180		3
 hromni			2
 hronični	1874		3
-hrpteni			2
-huligani			2
+hrpteni			3
+huligani			3
 humani	1411		3
 humanitarni	2463		5
-humanoidni	104		2
+humanoidni	104		3
 humorni	48		2
 huni			2
-huseini			2
+huseini			3
 hvaljeni	228		3
 hvatani	46		3
 idealni	2601		4
 idejni	2369		2
-identifikacioni	574		2
+identifikacioni	574		3
 identifikovani	783		6
 identični	1279		3
 idilični	138		3
-igleni			2
-ignorisani	183		2
+igleni			3
+ignorisani	183		3
 igrani	1235		3
 igumani	147		4
 ikoni	940		3
 ilegalni	639		4
 ilustrativni	114		5
-ilustrovani	230		2
+ilustrovani	230		3
 iluzorni	36		4
 imaginarni	467		5
 imanentni	76		2
 imbecilni	30		4
-imenični			2
+imenični			3
 imenovani	1289		5
-imigracioni	102		2
+imigracioni	102		3
 imovini	2869		3
 imovni			2
 imperativni			5
@@ -1283,132 +1283,132 @@ impotentni	78		2
 impozantni	124		2
 impresionirani	401		3
 impresivni	513		4
-improvizirani			2
+improvizirani			3
 improvizovani	143		5
 impulsivni	132		4
-impulsni	104		2
+impulsni	104		3
 imuni	2449		3
 imućni	478		3
-incidentni	19		2
-indeksni			2
-indijani			2
+incidentni	19		3
+indeksni			3
+indijani			3
 indirektni	606		4
 indiskretni			4
-individualizovani	65		2
+individualizovani	65		3
 individualni	3656		6
-indonežani			2
-indukcioni		M	2
-indukovani	55		2
+indonežani			3
+indukcioni		M	5
+indukovani	55		3
 induktivni	62		4
 inertni	197		2
 infamni			2
 infantilni	119		4
 infektivni	204		4
 inferiorni	207		5
-inficirani	206		2
-infiltrirani	40		2
-infinitivni			2
-inflacioni	74		2
+inficirani	206		3
+infiltrirani	40		3
+infinitivni			5
+inflacioni	74		5
 inflatorni	261		4
-informacioni	3226		2
+informacioni	3226		3
 informativni	2559		5
-informisani	2603		2
+informisani	2603		3
 infracrveni	392		5
 infrastrukturni			2
-infuzioni			2
-inhalacioni			2
+infuzioni			5
+inhalacioni			3
 inicijalni	961		5
-inicirani	108		2
-injekcioni			2
-inkubacioni			2
-inokosni	79		2
-inostrani	1607		2
-inovacioni	329		2
+inicirani	108		3
+injekcioni			5
+inkubacioni			3
+inokosni	79		4
+inostrani	1607		3
+inovacioni	329		3
 inovativni	2023		5
 inovirani	70		3
 inozemni	34		4
-inspirativni	261		2
-inspirisani	1081		2
-instalacioni		M	2
-instalirani	886		2
+inspirativni	261		5
+inspirisani	1081		3
+instalacioni		M	3
+instalirani	886		3
 instinktivni	39		4
-institucionalni			2
+institucionalni			3
 instrumentalni	235		5
 insulini	67		2
 integralni	2199		4
-integrativni	294		2
-integrisani	2620		2
+integrativni	294		5
+integrisani	2620		3
 intelektualni	2191		6
 inteligentni	1542		2
 intenzivni	1113		4
-interaktivni	1307		2
+interaktivni	1307		5
 interesantni	1830		2
-interesni	165		2
-interkontinentalni			2
+interesni	165		4
+interkontinentalni			3
 internacionalni	2911		7
 interni	1658		3
-interventni	190		2
-intervjuisani	135		2
+interventni	190		3
+intervjuisani	135		3
 intimni	813		3
-intonirani	28		2
-intrakranijalni	33		2
-intranzitivni			2
+intonirani	28		3
+intrakranijalni	33		3
+intranzitivni			5
 intravenozni	18		2
 intrigantni	85		2
-introvertirani			2
-intubirani			2
+introvertirani			3
+intubirani			3
 intuitivni	384		5
-invazioni			2
+invazioni			5
 invazivni	112		4
 inventivni	181		4
-invertovani			2
-investicioni	4340		2
+invertovani			3
+investicioni	4340		3
 inćuni	31		2
 inčni	1894		2
 ioni	22		2
 iracionalni	349		6
-iračani			2
+iračani			3
 irealni	13		4
-ireni			2
+ireni			3
 irini			2
-iritantni	96		2
+iritantni	96		3
 ironični	219		3
 isceljeni	85		3
 isceljivani			3
-iscepani	34		2
-iscepkani			2
+iscepani	34		3
+iscepkani			3
 isceđeni	61		3
 iscrpeni			3
 iscrpljeni	738		3
 iscrpni	89		3
-iscrtani	79		2
-iseckani	149		2
+iscrtani	79		3
+iseckani	149		3
 iseljavani	19		3
 iseljeni	181		3
 isečeni	159		4
-isflekani			2
-isfrustrirani	184		2
+isflekani			3
+isfrustrirani	184		3
 ishitreni	80		4
 ishodišni			4
 ishođeni			4
 ishrani	8438		3
-isisani			2
+isisani			3
 isitni			2
 isitnjeni			4
-iskasapljeni	25		2
+iskasapljeni	25		3
 iskazani	387		3
 iskazivani	18		3
 iskazni			3
 iskeženi	12		4
 iskidani	19		4
 iskićeni	15		4
-isklesani	36		2
+isklesani	36		3
 isključeni	1524		3
 isključni			3
 iskoni	87		3
 iskopani	167		3
 iskopavani	14		3
-iskopini	12		2
+iskopini	12		3
 iskoreni	537		2
 iskorenjeni	48		3
 iskorišćeni	1075		4
@@ -1418,7 +1418,7 @@ iskrcani	12		3
 iskreni	3655		3
 iskrivljeni	162		4
 iskrpljeni			4
-iskrzani	43		2
+iskrzani	43		3
 iskrčeni	20		3
 iskupljeni	27		3
 iskusni	6004		3
@@ -1426,8 +1426,8 @@ iskustveni	125		3
 iskušani	15		4
 iskušavani	10		3
 iskvareni	109		4
-islanđani			2
-isledni		M	2
+islanđani			3
+isledni		M	3
 isluženi	65		4
 ismevani	43		2
 ispadni			3
@@ -1437,55 +1437,55 @@ ispavani			2
 ispeglani	24		3
 ispevani	16		2
 ispečeni	32		4
-ispisani	628		2
+ispisani	628		3
 ispitani	545		3
 ispitivani	296		3
 ispitni	948		3
-isplanirani	95		2
+isplanirani	95		3
 isplatni	58		2
 isplaćeni	637		3
 isplaženi			4
 ispleteni	21		4
-ispljuni			2
-ispolirani	29		2
+ispljuni			3
+ispolirani	29		3
 ispoljeni	83		4
 isporučeni	466		3
 ispovedni	48		4
-ispoštovani	459		2
+ispoštovani	459		3
 ispošćeni			4
 isprani	99		3
 ispravljeni	158		4
 ispravni	1087		3
 isprazni	832		3
-ispraćani	15		2
+ispraćani	15		3
 ispraćeni	297		4
 ispražnjeni	199		3
-isprekidani	56		2
-isprepadani	40		2
-isprepletani	192		2
-isprepleteni	115		2
+isprekidani	56		3
+isprepadani	40		3
+isprepletani	192		3
+isprepleteni	115		3
 isprečeni			4
 ispričani	37		3
 isprljani			3
-isprobani	94		2
-isprovocirani	105		2
+isprobani	94		3
+isprovocirani	105		3
 ispruženi	45		4
 isprženi			4
-ispucani			2
-ispuni	9409		2
+ispucani			3
+ispuni	9409		3
 ispunjavani	14		3
 ispunjeni	3902		4
 ispupčeni	44		4
-ispusni	29		2
-ispušni	16		2
+ispusni	29		3
+ispušni	16		3
 ispušteni	33		3
 istakni	17		2
 istanjeni	26		4
-istančani	76		2
-istegni	11		2
+istančani	76		3
+istegni	11		3
 isterani	255		4
 isterivani	19		3
-istetovirani	33		2
+istetovirani	33		3
 istini	5460		3
 istisni			3
 istoimeni	1078		4
@@ -1506,19 +1506,19 @@ istražni	3218		3
 istrebljeni	123		3
 istrenirani	48		3
 istrezni			3
-istrgni			2
+istrgni			3
 istrošeni	255		3
-istucani			2
+istucani			3
 istureni	183		4
-isukani	12		2
+isukani	12		3
 isušeni	29		3
-italijani			2
+italijani			3
 iterativni	21		5
 ivani	96		3
-ivanjičani			2
+ivanjičani			3
 ivični		M	3
 izabrani	8841		4
-izagnani			2
+izagnani			3
 izazivani	12		3
 izazovni	195		4
 izazvani	820		3
@@ -1526,51 +1526,51 @@ izbacivani	70		3
 izbavljeni	36		4
 izbačeni	1191		3
 izbegavani			3
-izbegni	37		2
-izbezumljeni	131		2
+izbegni	37		3
+izbezumljeni	131		3
 izbijeni			4
 izbljuvani			3
 izbodeni	58		4
-izborani	10		2
+izborani	10		3
 izboreni			3
 izborni	7450		2
 izbočeni	21		4
 izbočini	22		4
 izbrani	57		3
 izbrisani	452		4
-izbrojani	50		2
+izbrojani	50		3
 izbušeni	49		3
 izdahni	20		2
 izdani	236		3
 izdavani	86		3
 izdašni	93		3
 izdeljeni	46		4
-izderani			2
-izdigni			2
+izderani			3
+izdigni			3
 izdrobljeni	15		4
 izdubljeni	15		4
 izduvni	951		2
 izduženi	132		4
 izdvojeni	763		3
-izganjani			2
+izganjani			3
 izgaženi	15		4
-izgladni	17		2
-izglasani	144		2
+izgladni	17		3
+izglasani	144		3
 izglađeni	21		4
 izgnani	68		3
 izgnječeni			4
 izgoni	207		3
 izgoreni			4
 izgovarani			3
-izgovoreni	48		2
+izgovoreni	48		3
 izgovorni			4
 izgrađeni	2225		3
 izgrebani	39		3
 izgrizeni			4
 izgubljeni	2384		3
-izgurani	11		2
+izgurani	11		3
 izgužvani	39		2
-izigrani	198		2
+izigrani	198		3
 izjasni	3097		2
 izjedeni			4
 izjednačeni	716		3
@@ -1579,7 +1579,7 @@ izlazni	847		3
 izlepljeni	95		4
 izlečeni	157		3
 izliveni	78		4
-izlizani	83		2
+izlizani	83		3
 izlišni	39		3
 izlomljeni			3
 izložbeni	1275		4
@@ -1587,12 +1587,12 @@ izloženi	8238		4
 izlučeni	17		3
 izlučni	11		3
 izmakni			2
-izmanipulisani	289		2
+izmanipulisani	289		3
 izmeni	4366		3
 izmenjeni	913		4
 izmereni	120		4
-izmešani	240		2
-izmeštani	11		2
+izmešani	240		3
+izmeštani	11		3
 izmešteni	199		4
 izmireni	122		4
 izmišljeni	459		4
@@ -1602,28 +1602,28 @@ izmoreni	76		4
 izmrvljeni	26		4
 izmučeni	139		4
 iznajmljeni	144		3
-iznalaženi			2
+iznalaženi			3
 iznedreni	14		4
 iznenadni	764		4
 iznenađeni	2828		3
-iznervirani	159		2
+iznervirani	159		3
 izneseni	211		3
-iznevereni	127		2
+iznevereni	127		3
 iznošeni	102		3
 iznureni	85		4
 iznuđeni	123		4
 izobličeni	47		3
-izobraženi	27		2
-izolacioni	349		2
+izobraženi	27		3
+izolacioni	349		3
 izolovani	1054		5
 izopačeni	160		3
 izopšteni	135		4
 izostani			3
 izostavljeni	315		4
-izotoni			2
+izotoni			3
 izoštreni	26		3
 izravni	44		3
-izračuni	20		2
+izračuni	20		3
 izrađeni	1925		3
 izrađivani	137		3
 izražajni	91		4
@@ -1632,36 +1632,36 @@ izraženi	1040		3
 izrezani	44		4
 izrezbareni	34		3
 izrečeni	145		4
-izrešetani	25		2
+izrešetani	25		3
 izrični			3
-izroni	186		2
+izroni	186		3
 izrovani	11		2
-izrugani			2
-izrugivani			2
+izrugani			3
+izrugivani			3
 izručeni	147		3
-izubijani	21		2
-izudarani			2
-izukrštani			2
+izubijani	21		3
+izudarani			3
+izukrštani			3
 izumljeni	17		3
 izuveni			4
-izuvijani			2
+izuvijani			3
 izuzetni	1238		4
-izučavani	38		2
+izučavani	38		3
 izučeni	15		3
-izvajani	46		2
+izvajani	46		3
 izvaljeni	25		4
 izvanredni	1019		3
 izvađeni	240		4
 izvedeni	2367		3
 izvesni	2937		3
 izvezeni	138		3
-izvešani			2
-izveštajni	84		2
-izveštačeni	39		2
+izvešani			3
+izveštajni	84		3
+izveštačeni	39		3
 izvešteni	23		3
-izvežbani	39		2
+izvežbani	39		3
 izvijeni	21		4
-izvikani	72		2
+izvikani	72		3
 izvini	4512		2
 izvlačeni	30		3
 izvodni	35		3
@@ -1675,70 +1675,70 @@ izvršavani	28		4
 izvršeni	824		4
 izvršni	10950		2
 izvučeni	441		3
-išarani	67		2
+išarani	67		3
 iščašeni	39		4
 iščezni			3
 iščupani	32		3
 jabučni	13		3
 jadni	3644		2
 jagnjetini	47		4
-jagodini	53		2
+jagodini	53		3
 jagodični			4
-jahorini			2
+jahorini			3
 jajni			2
 jakni	558		2
-jamajčani			2
+jamajčani			3
 jamčevini			4
 jani			2
 jarani			3
-jarosni	20		2
+jarosni	20		3
 jasmini	50		2
 jasni	3791		2
-jasnozeleni			2
-jatagani			2
+jasnozeleni			3
+jatagani			3
 javljeni	16		3
 javni	28103		2
 jazbini	114		3
 jačini	697		2
 jedini	71670		2
-jedinični			2
+jedinični			3
 jedinstveni	8715		3
 jednačini	276		3
 jedni	23046		2
 jednini	195		2
-jednobitni			2
+jednobitni			3
 jednobojni	133		4
-jednocifreni	78		2
+jednocifreni	78		3
 jednodelni	154		4
 jednodnevni	1061		4
-jednodomni	27		2
+jednodomni	27		4
 jednodušni	107		3
 jednoglasni	281		3
-jednojajčani	106		2
-jednokratni	298		2
+jednojajčani	106		3
+jednokratni	298		3
 jednokrilni	36		4
 jednokrvni		M	4
 jednolični	82		3
 jednonedeljni		M	5
 jednoredni	19		4
 jednorodni	13		4
-jednosatni	111		2
-jednosložni			2
+jednosatni	111		3
+jednosložni			3
 jednosmerni	190		4
 jednosobni	91		3
 jednostavni	2230		4
 jednostrani	518		3
 jednosušni			4
 jednoverni			4
-jednočlani			2
+jednočlani			3
 jedrini			2
 jeftini	2025		3
-jehovini			2
+jehovini			3
 jeleni	451		3
 jelini	16		2
 jermeni			3
 jeseni	9771		3
-jetreni	14		2
+jetreni	14		3
 jevtini			2
 jezični	52		3
 ječmeni	62		3
@@ -1748,102 +1748,102 @@ joni	358		2
 jorgani	38		3
 jorgovani	57		2
 jovani			3
-jovičini			2
+jovičini			3
 jubilarni	1264		4
 jugoistočni	383		3
-jugosloveni			2
-jugovini	13		2
+jugosloveni			3
+jugovini	13		3
 jugozapadni	208		3
-junakinjini			2
-junačini			2
+junakinjini			3
+junačini			3
 junačni	36		3
 juni	1005		2
 jurišni	56		3
 južni	6619		2
 kabini	1864		2
-kaduni			2
+kaduni			3
 kafani	3404		2
-kafeni			2
+kafeni			3
 kajmani			3
-kaldrmisani			2
+kaldrmisani			3
 kaljeni			3
 kalorični	61		3
 kamatni	152		3
 kameleoni	66		2
 kameni	1681		3
 kamenovani	52		5
-kamermani			2
+kamermani			3
 kamerni			2
 kamini	90		2
 kamioni	1914		2
-kamuflažni			2
-kamuflirani	46		2
-kanalisani	16		2
-kanalizacioni	276		2
+kamuflažni			3
+kamuflirani	46		3
+kanalisani	16		3
+kanalizacioni	276		3
 kanalni			2
-kanađani			2
+kanađani			3
 kancerogeni	263		5
-kaneloni			2
+kaneloni			3
 kanjoni	129		2
-kanoni	233		2
-kanonizovani	25		2
+kanoni	233		3
+kanonizovani	25		3
 kantini	179		2
 kantonalni	91		4
-kantoni	110		2
+kantoni	110		3
 kapetani	322		2
 kapilarni	47		4
 kapitalni	1101		4
 kapiteni	124		4
-kapucini	17		2
-karabini	81		2
+kapucini	17		3
+karabini	81		3
 karakteristični	1475		3
 karakterni	102		2
 karanteni			2
-karantini	18		2
-karatni	34		2
+karantini	18		3
+karatni	34		3
 karavani	319		2
 kardijalni			4
 kardinalni	79		4
-kardiogeni			2
-kardiovaskularni	598		2
-karikirani			2
+kardiogeni			3
+kardiovaskularni	598		3
+karikirani			3
 karirani	73		3
 karlični	85		3
 karmini	81		2
-karolini			2
+karolini			3
 karpalni	21		2
 kartični			3
 kartoni	306		2
-kasacioni	838		2
-kasapini			2
+kasacioni	838		5
+kasapini			3
 kasarni	1381		2
 kasetni			3
-kaskadni	55		2
+kaskadni	55		3
 kasni	4522		2
-kasnonoćni			2
-kastrirani	61		2
-katarini			2
-katarzični	20		2
+kasnonoćni			3
+kastrirani	61		3
+katarini			3
+katarzični	20		3
 katastrofalni	736		5
 katedralni	71		4
-katuni	52		2
+katuni	52		3
 kauzalni	29		4
 kavani	75		2
-kaverni	12		2
+kaverni	12		3
 kazališni	35		4
 kazani	107		3
 kazneni	966		3
 kazni	7153		2
-kaznioni			2
+kaznioni			3
 kaćani			3
 kažnjavani	377		3
 kažnjeni	2829		3
 kesteni	37		3
 kidani			3
-kidnapovani	112		2
-kikinđani			2
+kidnapovani	112		3
+kikinđani			3
 kimni			2
-kinjeni	10		2
+kinjeni	10		3
 kiprani			3
 kiselini	130		2
 kivni			2
@@ -1853,8 +1853,8 @@ kišni	459		2
 kišobrani	117		4
 klani	36		2
 klanični			3
-klasifikacioni		M	2
-klasifikovani	207		2
+klasifikacioni		M	3
+klasifikovani	207		3
 klasični	3669		3
 klasni	334		2
 klauni			3
@@ -1863,10 +1863,10 @@ klekni	39		2
 klepni			2
 kleptomani	24		2
 klerikalni	55		4
-klevetani	12		2
+klevetani	12		3
 klikni	791		2
 klimani			3
-klimatizacioni			2
+klimatizacioni			3
 klimni			2
 klini			2
 klipani	19		3
@@ -1875,23 +1875,23 @@ klizni	279		2
 ključni	11258		2
 klokani			3
 kloni	332		2
-klonirani	72		2
+klonirani	72		3
 kluni			2
-kneginjini			2
+kneginjini			3
 kneževini	396		4
 knežini	43		2
-knjigovodstveni	393		2
+knjigovodstveni	393		3
 knjiženi	29		3
 književni	5397		3
 knjižni	369		2
-koalicioni	3934		2
-kobaltni			2
+koalicioni	3934		3
+kobaltni			3
 kobni	243		2
-kodirani	183		2
+kodirani	183		3
 kodni	204		2
 kognitivni	361		4
 koherentni	67		2
-kohezioni	142		2
+kohezioni	142		5
 kokni			2
 kolajni			2
 kolegijalni	144		5
@@ -1900,91 +1900,91 @@ kolhozni		M	3
 količini	6072		2
 kolni			2
 koloidni	18		4
-koloni	2061		2
+koloni	2061		3
 kolonijalni	348		5
 kolosalni	96		4
 kolotečini	52		3
-kolovozni	16		2
+kolovozni	16		3
 kolumni	931		2
-komadni			2
-komanditni			2
-komandni	586		2
+komadni			3
+komanditni			3
+komandni	586		3
 kombajni	191		3
-kombinezoni	55		2
-kombinirani			2
-kombinovani	1030		2
-komemorativni	163		2
+kombinezoni	55		5
+kombinirani			3
+kombinovani	1030		3
+komemorativni	163		3
 komercijalni	3316		5
 komforni	170		3
-komisioni	53		2
+komisioni	53		5
 komični	307		3
 komotni	70		3
 kompaktni	1251		3
 kompani			3
 kompanjoni	65		2
-komparativni	171		2
+komparativni	171		5
 kompatibilni	885		5
-kompenzacioni		M	2
+kompenzacioni		M	3
 kompetentni	895		2
-kompjuterizovani			2
+kompjuterizovani			3
 kompleksni	748		3
 komplementarni	271		5
 kompletni	1139		3
 komplikovani	614		5
-kompozicioni			2
-kompozitni	453		2
-kompresni			2
-kompresovani			2
+kompozicioni			3
+kompozitni	453		3
+kompresni			3
+kompresovani			3
 kompromisni	119		3
 kompromitovani	249		5
 kompulsivni			4
 kompulzivni	34		4
 komunalni	2088		4
-komuni	173		2
-komunikacioni	746		2
+komuni	173		3
+komunikacioni	746		3
 konačni	4649		3
-koncentracioni	526		2
-koncentrisani			2
+koncentracioni	526		3
+koncentrisani			3
 koncentrični	84		3
 konceptualni	449		5
 koncerni	170		3
-koncertni	569		2
-koncesioni	114		2
-kondicioni	440		2
-konečni			2
-konfiskovani	26		2
-konfliktni	100		2
+koncertni	569		3
+koncesioni	114		5
+kondicioni	440		5
+konečni			3
+konfiskovani	26		3
+konfliktni	100		3
 konfuzni	178		3
 kongresmeni	179		4
 kongresni	493		3
 koni			2
 konični			3
-konkordantni			2
+konkordantni			3
 konkretni	2924		3
-konkurentni	1537		2
-konkursni	298		2
-konsignacioni		M	2
+konkurentni	1537		3
+konkursni	298		3
+konsignacioni		M	3
 konstantni	547		2
 konstitutivni	735		5
-konstruisani	365		2
+konstruisani	365		3
 konstruktivni	938		4
 kontaktirani	225		3
-kontaktni	202		2
-kontaminirani	123		2
-kontekstni			2
+kontaktni	202		3
+kontaminirani	123		3
+kontekstni			3
 kontinentalni	406		5
 kontinuirani	1090		3
 kontni	93		2
-kontraceptivni			2
+kontraceptivni			5
 kontradiktorni	258		2
-kontraobaveštajni			2
-kontrarevolucionarni	29		2
-kontrastni	83		2
-kontrolisani	802		2
+kontraobaveštajni			3
+kontrarevolucionarni	29		3
+kontrastni	83		3
+kontrolisani	802		3
 kontrolni	2983		2
 kontroverzni	1078		2
 konturni			2
-konusni	68		2
+konusni	68		3
 konveksni	50		2
 konvencionalni	508		6
 konzervativni	930		5
@@ -1992,45 +1992,45 @@ konzularni	80		4
 konzumni	20		3
 končini	132		2
 kooperativni	366		6
-koordinatni	217		2
-koordinirani			2
-koordinisani	91		2
+koordinatni	217		3
+koordinirani			3
+koordinisani	91		3
 kopani	33		3
-kopirani	118		2
+kopirani	118		3
 kopneni	361		3
 kopni	114		2
 kopreni			3
 koraljni			2
 koralni	222		2
-kordoni	100		2
+kordoni	100		3
 korektivni	303		4
 korektni	1157		3
 koreni	1960		3
-korigovani	137		2
-korinćani			2
+korigovani	137		3
+korinćani			3
 korisni	3113		3
 korišćeni	3906		4
 koronarni	77		4
-koroni	24		2
+koroni	24		3
 korporativni	1277		5
 kortikalni			4
 kortini			2
 kortni			2
-korumpirani	1427		2
+korumpirani	1427		3
 kosni			2
-kosovljani			2
-kostimirani	144		2
+kosovljani			3
+kostimirani	144		3
 kostni			2
 kostrešeni			4
 kotirani	78		3
 kotlini	380		3
-kotorani			2
-kotveni			2
-kovalentni			2
+kotorani			3
+kotveni			3
+kovalentni			3
 kovani	220		3
 kovini			3
-kozarčani			2
-kočioni	481		2
+kozarčani			3
+kočioni	481		3
 kočni			2
 kočoperni	27		4
 košmarni	73		3
@@ -2043,14 +2043,14 @@ kragni	93		2
 krajini	2227		3
 krajni			2
 kraljevini	1772		4
-kraljičini			2
+kraljičini			3
 krasni	150		2
 kratkometražni	228		2
 kratkoročni	1100		4
-kratkosilazni	10		2
-kratkotalasni	15		2
+kratkosilazni	10		3
+kratkotalasni	15		5
 kratkotrajni	524		4
-kratkouzlazni			2
+kratkouzlazni			3
 kratkovidni			3
 krašeni			3
 kreativni	5190		4
@@ -2071,7 +2071,7 @@ kriminalni	698		4
 kriogeni	20		4
 kristalni	444		3
 kristini			2
-kritikovani	221		2
+kritikovani	221		3
 kritični	853		3
 kriveni			3
 krivini	801		2
@@ -2087,7 +2087,7 @@ krmni			2
 kroasani	47		2
 krofni	137		2
 krojeni	55		3
-krotoni			2
+krotoni			3
 krovni	1451		2
 krsni	159		2
 krucijalni	249		4
@@ -2098,7 +2098,7 @@ kružni	1518		2
 krvni	5116		2
 krvoločni	103		4
 krvožedni	93		4
-krzneni	67		2
+krzneni	67		3
 krčevini	18		4
 kršni	66		2
 krštavani	14		2
@@ -2112,12 +2112,12 @@ kuglični	32		3
 kujini			2
 kujni			2
 kukavni	107		3
-kukuruzni	254		2
-kukuruzovini			2
+kukuruzni	254		3
+kukuruzovini			3
 kultni	1255		2
 kulturni	13912		2
 kumani			3
-kumulirani	34		2
+kumulirani	34		3
 kupani			3
 kupini	65		2
 kupljeni	1029		3
@@ -2126,7 +2126,7 @@ kupoprodajni	877		5
 kupovani	138		3
 kupovini	6480		3
 kupovni	226		2
-kurentni	12		2
+kurentni	12		3
 kursni			2
 kurzivni			2
 kusni			2
@@ -2139,8 +2139,8 @@ kuđeni	12		3
 kušani			3
 kužni	37		2
 kvadratni	898		2
-kvalifikacioni	722		2
-kvalifikovani	1221		2
+kvalifikacioni	722		3
+kvalifikovani	1221		3
 kvalitativni	340		5
 kvalitetni	3187		4
 kvantitativni	252		5
@@ -2152,22 +2152,22 @@ kvasni			2
 labijalni	14		4
 labilni	50		3
 lagani	1735		3
-laganini			2
+laganini			3
 laguni	304		2
 lajsni			2
-lakatni			2
-lakirani	77		2
+lakatni			3
+lakirani	77		3
 lakomisleni	86		4
 lakoverni	185		4
-lampioni	63		2
-laneni	32		2
+lampioni	63		3
+laneni	32		3
 lani	1342		2
 lansirani	268		3
 lansirni	100		2
 lančani	168		3
 lapidarni			4
 larini			2
-larveni			2
+larveni			3
 lascivni	20		2
 lastini			2
 latentni	262		2
@@ -2176,7 +2176,7 @@ latini	310		2
 latinični	166		3
 latinštini			3
 lavini	104		2
-lavirani			2
+lavirani			3
 lažirani	71		3
 lažni	4072		2
 lažnozvani			2
@@ -2185,22 +2185,22 @@ ledini	272		3
 ledni			2
 legalni	944		2
 legendarni	3639		4
-legioni			2
+legioni			3
 legitimni	1246		4
 legni	18		2
 leksikoni	84		4
 leni		M	2
-leoni			2
+leoni			3
 lepljeni	67		3
 lepotani	62		2
-leprikoni			2
+leprikoni			3
 leprozni			3
-leskovčani			2
-letimični	45		2
+leskovčani			3
+letimični	45		3
 letini	14		3
 letni		M	2
 letopisni		M	4
-levijatani			2
+levijatani			3
 levokrilni		M	4
 lečeni	494		3
 leđani			3
@@ -2210,34 +2210,34 @@ ležerni	89		3
 ležišni		M	3
 liberalni	1684		4
 licemerni	323		4
-licencirani	690		2
-licencni	189		2
+licencirani	690		3
+licencni	189		3
 licitirani	10		3
 likovni	2549		2
-likvidacioni	165		2
+likvidacioni	165		3
 likvidirani	259		3
 likvidni	50		3
 limani			3
 limeni	250		3
 limfni	434		2
-limitirani	246		2
+limitirani	246		3
 limuni	18		3
 limuzini	247		2
 linearni	310		4
 lini		M	2
 linčovani	23		4
-lipidni			2
+lipidni			3
 lisni	57		2
 literarni	1030		4
-litreni			2
+litreni			3
 liveni	85		3
 lizni			2
 ličani			3
 ličini		M	2
 lični	16415		2
-ličnosni			2
+ličnosni			3
 lišavani	33		3
-lišeni	1249		2
+lišeni	1249		3
 ljetni		MJ	2
 ljiljani	144		3
 ljubavni	2726		2
@@ -2259,9 +2259,9 @@ lovljeni	35		3
 lovni	397		2
 lozani			3
 lozni	69		2
-lozničani			2
+lozničani			3
 lucidni	217		3
-luizijani			2
+luizijani			3
 lukrativni	35		4
 luksuzni	1985		3
 lumbalni	173		2
@@ -2271,38 +2271,38 @@ lupni			2
 luterani	25		2
 lučani			3
 lučni	128		2
-luženi			2
+luženi			3
 lužini			3
 macani	16		3
-madoni			2
+madoni			3
 maestralni	169		4
 mafini	87		2
-magacini	404		2
-magazini	559		2
+magacini	404		3
+magazini	559		3
 magdaleni			4
-magdalini			2
+magdalini			3
 magični	964		3
-magleni			2
+magleni			3
 maglini			2
 magnetni	468		3
-mahagoni	95		2
+mahagoni	95		3
 mahni	21		2
 mahovini	34		4
 mahuni	34		3
 majmuni	915		3
-majušni			2
+majušni			3
 majčini	36		3
-makaroni			2
+makaroni			3
 makni	55		2
 maksimalni	3216		4
 malarični	21		3
-malecni			2
+malecni			3
 maleni	1084		3
-malerozni			2
+malerozni			3
 maliciozni	653		5
-maligni	672		2
+maligni	672		3
 malini			2
-mališani	3980		2
+mališani	3980		3
 malobrojni	1157		4
 malodušni	109		3
 malograđani	110		4
@@ -2310,82 +2310,82 @@ maloletni	725		4
 maloljetni		J	4
 maloprodajni			2
 maloumni	212		4
-maloučeni			2
+maloučeni			3
 maloverni	49		4
-maltežani			2
+maltežani			3
 maltretirani	207		3
 mamini	41		2
 mamljeni			3
-mamoni			2
+mamoni			3
 mamurni	110		3
-mandatni	166		2
-mandolini			2
+mandatni	166		3
+mandolini			3
 manekeni	304		4
 mani	985		2
-manifestni			2
+manifestni			3
 manijakalni	34		5
-manikirani			2
-manipulativni	148		2
+manikirani			3
+manipulativni	148		3
 manjini	1933		2
 manuelni	680		4
 manufakturni	21		2
 manžetni			3
-marakani			2
-margarini	61		2
-marginalizovani	403		2
+marakani			3
+margarini	61		3
+marginalizovani	403		3
 marginalni	230		4
 margini	761		2
 marihuani	87		2
 marini	504		2
-maritimni			2
-markantni	60		2
-markirani	77		2
-markoni			2
+maritimni			4
+markantni	60		3
+markirani	77		3
+markoni			3
 marni			2
 martini	103		2
-marveni		M	2
-masakrirani	84		2
+marveni		M	3
+masakrirani	84		3
 masažni	59		3
-maseni	57		2
+maseni	57		3
 masivni	498		3
-maskirani	474		2
+maskirani	474		3
 maskirni	19		2
 maslini	21		3
 masni	434		2
-masoni	597		2
+masoni	597		3
 masovni	1970		3
-materijalizovani	33		2
+materijalizovani	33		3
 materijalni	2966		5
 materični			3
-matičini			2
+matičini			3
 matični	1989		3
 matrijarhalni			5
 maturalni	12		4
 mazni			2
-mađaroni	15		2
+mađaroni	15		3
 mašini	3124		2
 mašni	47		2
 maženi	37		3
 meani			3
-meceni	18		2
-medaljoni	95		2
+meceni	18		3
+medaljoni	95		3
 medeni	669		3
 medicini	4285		2
 medini			2
 medni	53		2
 megdani			3
 mehani			3
-mehanizovani	33		2
+mehanizovani	33		3
 mejdani			3
 mekani	500		3
 melani			3
-melioracioni		M	2
+melioracioni		M	3
 membrani	120		2
 memorijalni	1069		5
 meni	116293		2
 menični	81		3
 menjani	311		3
-menstruacioni			2
+menstruacioni			3
 menstrualni	353		4
 mentalni	1765		2
 merdžani			3
@@ -2395,36 +2395,36 @@ meritorni	13		4
 mermerni	262		2
 merni	665		2
 merodavni	277		4
-merošini			2
+merošini			3
 mesečini	259		4
 mesečni	2721		3
-mesingani	87		2
+mesingani	87		3
 mesni	952		2
-mesopusni			2
+mesopusni			4
 metalni	1954		2
 metni	83		2
-metodični	27		2
+metodični	27		3
 međudržavni	598		2
-međufazni			2
-međuledeni			2
-međumesni	79		2
+međufazni			3
+međuledeni			3
+međumesni	79		4
 međunarodni	26214		3
-međuplanetarni	44		2
-međurasni			2
-međuratni	56		2
+međuplanetarni	44		3
+međurasni			4
+međuratni	56		3
 međuredni			4
 međusobni	1858		4
-međuspratni			2
-međuzvezdani	96		2
+međuspratni			3
+međuzvezdani	96		3
 mešani	121		3
 mešavini	491		4
 mešini	12		3
 meštani	6086		3
-migracioni	130		2
+migracioni	130		5
 mikrofoni	176		4
-mikrotalasni	63		2
-mileni			2
-milijani			2
+mikrotalasni	63		5
+mileni			3
+milijani			3
 milijuni	83		2
 milioni	4259		2
 militantni	237		2
@@ -2432,7 +2432,7 @@ miljani			3
 milosni	14		3
 milosrdni	594		4
 milovani			4
-milozvučni	27		2
+milozvučni	27		3
 mimogredni			4
 mimoiđeni			3
 mineralni	374		4
@@ -2440,11 +2440,11 @@ mini	10283		2
 minijaturni	486		5
 minimalni	3045		4
 minirani	37		3
-minjoni	24		2
+minjoni	24		3
 minorni	164		2
 mintani			3
-minuciozni	14		2
-minutni	299		2
+minuciozni	14		3
+minutni	299		3
 mirisni	324		3
 mirjani	160		3
 mirni	2418		2
@@ -2452,75 +2452,75 @@ mirotvorni	15		4
 mirovini	68		3
 mirovni	1382		3
 misaoni	557		4
-misleni	31		2
+misleni	31		3
 misni			2
 misteriozni	700		5
 mistični	272		3
 mitralni	27		2
-mitrovčani			2
+mitrovčani			3
 mizerni	112		2
 mićini			2
 mišićni	429		2
 mladini			2
-mladoženjini	13		2
+mladoženjini	13		3
 mlatni			2
 mlazni	303		2
-mlađahni	67		2
+mlađahni	67		3
 mlađani	489		3
 mleveni	345		3
 mlečani			3
 mlečni	2119		2
 mnogobrojni	3580		4
 mnogoceni			4
-mnogomoćni			2
+mnogomoćni			3
 mnogostrani			3
-mnogoučeni			2
-mnogočasni			2
+mnogoučeni			3
+mnogočasni			4
 množini	405		2
-mobilisani	249		2
-mobilizacioni			2
+mobilisani	249		3
+mobilizacioni			3
 mobilni	12840		3
 modalni	30		2
-modelovani			2
+modelovani			3
 moderni	4563		3
-modifikovani	589		2
+modifikovani	589		3
 modni	4192		2
 modrini	10		2
 modularni	552		4
-mogućni	82		2
-mojkovčani			2
-mokraćni	116		2
-mokrinčani			2
-molbeni			2
+mogućni	82		3
+mojkovčani			3
+mokraćni	116		3
+mokrinčani			3
+molbeni			3
 molekularni	327		2
 molitveni	474		4
 momentalni	158		4
 momčini			2
-mondeni			2
+mondeni			3
 monetarni	1767		4
-monogamni	50		2
+monogamni	50		4
 monolitni	96		3
-monomani			2
+monomani			3
 monopolni			4
 monotoni	108		4
 monstruozni	210		4
 monsuni	33		2
 montažni	416		3
-montirani	379		2
+montirani	379		3
 monumentalni	319		5
 moralni	4441		2
-morbidni	83		2
+morbidni	83		3
 mormoni	76		2
-moroni			2
-mostobrani			2
-motivacioni	353		2
-motivisani	2449		2
-motorizovani	109		2
+moroni			3
+mostobrani			3
+motivacioni	353		3
+motivisani	2449		3
+motorizovani	109		3
 motorni	635		2
-mozaični	13		2
+mozaični	13		3
 moćni	3502		2
 močvarni	58		3
-mošusni	17		2
+mošusni	17		3
 moždani	1445		3
 moždini	115		2
 mramorni	60		2
@@ -2538,88 +2538,88 @@ mudžahedini	342		2
 mujezini	17		2
 mukotrpni	150		4
 multilateralni	170		6
-multinacionalni	136		2
-mumificirani	17		2
-municioni			2
-munjeni			2
+multinacionalni	136		3
+mumificirani	17		3
+municioni			5
+munjeni			3
 muntani			3
-muskatni		M	2
+muskatni		M	3
 muslimani	7568		2
-musolini			2
+musolini			3
 mutageni	23		4
-mutirani	127		2
-mutljavini	12		2
+mutirani	127		3
+mutljavini	12		3
 mutni	187		2
 muzikalni	86		4
 muzni			2
 mućni	23		2
 mučeni	652		3
 mučni	195		2
-muškatni	41		2
+muškatni	41		3
 mužestveni			4
 muževni	52		3
-nabacani	47		2
+nabacani	47		3
 nabavljani	50		4
 nabavljeni	383		4
 nabavni			2
 nabeđeni			4
 nabijeni	155		4
-nabildovani	68		2
+nabildovani	68		3
 nabojni			2
-naborani	40		2
+naborani	40		3
 nabrekni			2
-nabrijani	21		2
+nabrijani	21		3
 nabrojani	285		3
 nabubani			3
 nabudženi			4
-naciljani			2
+naciljani			3
 nacionalni	25597		5
 nacrtani	144		4
-nacrtni			2
+nacrtni			3
 nadahni			2
 nadani			3
 nadareni	301		3
-nadbrojani			2
-nadbubrežni			2
+nadbrojani			3
+nadbubrežni			3
 naddržavni		M	4
 nadeni	12		3
-nadgledani			2
+nadgledani			3
 nadgrađeni	11		4
-nadgrobni	472		2
-nadigrani	60		2
+nadgrobni	472		3
+nadigrani	60		3
 nadjačani	24		3
 nadležni	11574		3
 nadmašeni	27		4
 nadmeni	174		3
 nadmoćni	117		3
-nadnebesni			2
+nadnebesni			4
 nadobudni	242		4
 nadojeni			4
 nadopuni	20		4
 nadopunjeni			4
 nadrealni			4
 nadređeni	489		4
-nadrndani			2
-nadrogirani	19		2
-nadsvetlosni			2
+nadrndani			3
+nadrogirani	19		3
+nadsvetlosni			4
 naduvani	168		2
 naduveni	82		4
 nadvladani	12		3
 nadvučeni			4
 nadzemni	286		3
-nadzirani			2
+nadzirani			3
 nadzorni	2467		2
-naelektrisani	91		2
+naelektrisani	91		3
 naftini			2
 naftni	1133		2
-nagaravljeni			2
+nagaravljeni			3
 nagazni			3
-nagibni	32		2
+nagibni	32		3
 naglasni			3
 naglašeni	383		3
 nagnani			3
 nagni	23		2
-nagomilani	338		2
+nagomilani	338		3
 nagoni	779		3
 nagonjeni			4
 nagovarani			3
@@ -2638,22 +2638,22 @@ najamni	137		3
 najavljeni	1657		3
 najavni			2
 najedeni			4
-najmljeni	22		2
+najmljeni	22		3
 nakani	93		3
 nakaradni	284		4
 nakazni	92		3
 nakićeni	24		4
-nakladni			2
+nakladni			3
 nakloni	55		3
 naklonjeni	719		4
-naknadni	544		2
-nakostrešeni	18		2
-nakresani			2
+naknadni	544		3
+nakostrešeni	18		3
+nakresani			3
 nakrivljeni	28		4
 nakupljeni	53		4
 nalagani			3
 nalaženi	77		4
-nalickani	42		2
+nalickani	42		3
 naliveni			4
 naloženi	48		3
 namamljeni	22		3
@@ -2666,24 +2666,24 @@ namerni	273		3
 nametani	28		3
 nametni			3
 namešteni	299		4
-namigni	14		2
+namigni	14		3
 namireni	200		3
-namirisani	26		2
-namrgođeni	111		2
+namirisani	26		3
+namrgođeni	111		3
 namršteni			4
 namučeni	48		4
 naneseni	31		4
 nani			2
-nanizani	51		2
+nanizani	51		3
 nanišani	47		2
 nanošeni			4
-naoružani	1979		2
+naoružani	1979		3
 naoštreni	62		3
 napadani	202		4
 napadni	166		3
-napajani	24		2
+napajani	24		3
 napaljeni	227		4
-napasani			2
+napasani			3
 napaćeni	339		4
 napereni			4
 napisani	1095		3
@@ -2698,8 +2698,8 @@ naporni	434		2
 naprasni	21		3
 napravljeni	3845		4
 napredni	2435		3
-napregni			2
-naprsni		M	2
+napregni			3
+naprsni		M	3
 napumpani	40		3
 napuni	2751		3
 napunjeni	184		4
@@ -2707,29 +2707,29 @@ napušeni			4
 napuštani	11		3
 napušteni	610		3
 narativni	286		4
-narcisoidni	121		2
-naredani			2
+narcisoidni	121		3
+naredani			3
 naredbodavni	15		2
 naredni	7246		3
-narezani	43		2
+narezani	43		3
 narečeni	137		4
-naređani			2
-naribani			2
+naređani			3
+naribani			3
 narkomani	819		2
 narodni	26623		3
-narodnosni	40		2
-narogušeni	19		2
-narudžbini	689		2
-narumenjeni			2
+narodnosni	40		4
+narogušeni	19		3
+narudžbini	689		3
+narumenjeni			3
 naručeni	298		3
-narušavani			2
+narušavani			3
 narušeni	346		4
 nasamareni	74		3
 naseljavani	47		3
 naseljeni	537		3
-naseobini	72		2
+naseobini	72		3
 nasilni	737		3
-naslagani	52		2
+naslagani	52		3
 nasledni	609		3
 nasleđeni	307		3
 naslikani	181		4
@@ -2738,9 +2738,9 @@ naslonjeni	154		3
 naslovljeni	35		3
 naslovni	92		2
 naslućeni			3
-nasmejani	1077		2
+nasmejani	1077		3
 nasmešeni	41		3
-nasmijani	42	J	2
+nasmijani	42	J	3
 nasrni			2
 nastani	661		3
 nastanjeni	382		3
@@ -2749,26 +2749,26 @@ nastavljeni	1711		4
 nastavni	4559		2
 nastrani	87		3
 nastrojeni	893		4
-nastrugani			2
-nastupni			2
+nastrugani			3
+nastupni			3
 nasukani	63		3
-nasumični	78		2
-nasušni	269		2
-natakni			2
-nataloženi	41		2
+nasumični	78		3
+nasušni	269		3
+natakni			3
+nataloženi	41		3
 nategni	10		2
 naterani	324		4
-naterivani			2
+naterivani			3
 natečeni	27		3
-naticani			2
+naticani			3
 natkasni			3
 natmureni	10		3
 natopljeni	103		3
-natovareni	154		2
+natovareni	154		3
 natprirodni	69		4
-natrpani	21		2
-natukni			2
-naturalizovani	147		2
+natrpani	21		3
+natukni			3
+naturalizovani	147		3
 naturalni	80		4
 natučeni			4
 nauljeni			4
@@ -2777,8 +2777,8 @@ naučeni	555		3
 naučni	9077		3
 navalni		M	2
 navedeni	8579		4
-navežbani			2
-navigacioni	651		2
+navežbani			3
+navigacioni	651		3
 navijeni	29		4
 navikni	37		3
 navodni	1491		3
@@ -2786,7 +2786,7 @@ navođeni	141		3
 navučeni	111		4
 nazadni	118		3
 nazalni	96		2
-nazarećani			2
+nazarećani			3
 nazivani	322		3
 naznačeni	387		4
 nazubljeni	83		4
@@ -2795,117 +2795,117 @@ načelni	524		2
 načini	7345		3
 načinjeni	460		3
 načitani	81		4
-načičkani	82		2
+načičkani	82		3
 načni	13		2
 nađeni	1294		3
-našminkani	129		2
-nažuljani			2
+našminkani	129		3
+nažuljani			3
 neaktivni	284		4
-neanonimni	10		2
+neanonimni	10		3
 neažurni	49		4
-nebesni	168		2
+nebesni	168		3
 nebitni	473		3
 neborbeni	10		4
 nebranjeni	115		4
 nebrižni			3
 nebrojeni	208		4
 nebrušeni	30		4
-nebulozni			2
+nebulozni			3
 necenovni			4
-necivilizovani			2
+necivilizovani			3
 necrkveni			4
 nedavni	1724		3
-nedelatni			2
+nedelatni			3
 nedeljni	1689		2
-nedisciplinovani			2
+nedisciplinovani			3
 nedogledni			4
 nedohvatni			3
-nedolični	18		2
-nedopečeni			2
-nedorečeni	170		2
+nedolični	18		3
+nedopečeni			3
+nedorečeni	170		3
 nedosledni	99		3
-nedostatni	11		2
+nedostatni	11		3
 nedostižni	301		4
-nedostojni	339		2
-nedostupni	599		2
+nedostojni	339		3
+nedostupni	599		3
 nedovoljni	448		4
-nedovršeni	311		2
-nedozvoljeni	276		2
+nedovršeni	311		3
+nedozvoljeni	276		3
 nedržavni	57		4
 nedužni	386		3
 neefikasni	321		5
-neelastični	14		2
+neelastični	14		3
 neformalni	832		4
 negativni	3570		4
 negašeni			4
 negirani	21		3
 negovani	174		4
-neharmonični			2
-nehigijeni			2
-nehomogeni			2
+neharmonični			3
+nehigijeni			3
+nehomogeni			3
 nehotični	37		4
-nehrišćani			2
+nehrišćani			3
 nehumani	165		4
-neidentifikovani			2
+neidentifikovani			3
 neimaštini	44		3
-neimenovani	1515		2
-neinformisani			2
+neimenovani	1515		3
+neinformisani			3
 neiscrpni	178		4
-neiskazani	38		2
-neiskorišćeni	437		2
+neiskazani	38		3
+neiskorišćeni	437		3
 neiskreni	171		4
 neiskusni	417		4
-neiskvareni	44		2
-neispavani	134		2
-neispitani	32		2
+neiskvareni	44		3
+neispavani	134		3
+neispitani	32		3
 neispravni	343		4
-neispunjeni	57		2
+neispunjeni	57		3
 neistini	71		4
-neistraženi	85		2
-neizazvani			2
+neistraženi	85		3
+neizazvani			3
 neizbežni	867		4
-neizdani			2
-neizloženi			2
-neizmenjeni	54		2
+neizdani			3
+neizloženi			3
+neizmenjeni	54		3
 neizmerni	58		4
-neizmireni	57		2
+neizmireni	57		3
 neizrečeni	20		3
-neizvedeni	14		2
+neizvedeni	14		3
 neizvesni	299		4
-neizvršeni			2
+neizvršeni			3
 nejasni	610		3
-nejunačni			2
-nekamatni			2
+nejunačni			3
+nekamatni			3
 nekažnjeni	254		4
-neklasični	11		2
+neklasični	11		3
 neknjiževni	16		4
 neknjižni			3
 nekolicini	816		2
-nekompatibilni	59		2
+nekompatibilni	59		3
 nekompetentni	228		2
-nekontrolisani	317		2
+nekontrolisani	317		3
 nekonvencionalni	119		7
-nekorektni	119		2
+nekorektni	119		3
 nekorisni	66		4
-nekreditni	188		2
+nekreditni	188		3
 nekretnini	212		2
 nekritični	36		3
 nekršteni	69		4
 nekulturni	254		4
 nekuvani			2
-nekvalifikovani	203		2
+nekvalifikovani	203		3
 nelagodni	13		4
 nelažni			3
 nelegalni	630		4
 neljubavni			4
 neljubazni	184		4
-nelogični	71		2
+nelogični	71		3
 nelojalni	44		4
 nemani	350		3
-nemanjini			2
+nemanjini			3
 nemarni	211		3
 nemasni	109		3
-nemaštini	317		2
+nemaštini	317		3
 nemetalni	16		4
 nemilosrdni	439		5
 neminovni	403		4
@@ -2913,179 +2913,179 @@ nemirni	308		3
 nemoralni	281		4
 nemoćni	1378		3
 nenadani	61		4
-nenadležni	55		2
+nenadležni	55		3
 nenadmašni	183		4
-nenajavljeni	86		2
-nenaoružani			2
-nenapisani	23		2
+nenajavljeni	86		3
+nenaoružani			3
+nenapisani	23		3
 nenarodni	90		4
 nenasilni	130		4
 nenastavni	20		4
-nenaučeni			2
-nenaučni			2
+nenaučeni			3
+nenaučni			3
 neni		M	2
 nenormalni	287		4
-nenovčani	86		2
+nenovčani	86		3
 neobavezni	144		5
-neobavešteni	559		2
-neobavljeni	10		2
-neobeleženi			2
+neobavešteni	559		3
+neobavljeni	10		3
+neobeleženi			3
 neobični	1322		4
-neobjavljeni	252		2
-neobojeni	20		2
+neobjavljeni	252		3
+neobojeni	20		3
 neobrazovani	710		5
 neobrađeni	62		3
-neobrezani	24		2
+neobrezani	24		3
 neobuzdani	153		5
-neobučeni			2
-neodgojeni		J	2
+neobučeni			3
+neodgojeni		J	3
 neodgovorni	942		5
-neodložni	53		2
+neodložni	53		3
 neodlučni	350		4
-neodmereni	20		2
-neodobreni	15		2
+neodmereni	20		3
+neodobreni	15		3
 neodređeni	301		3
 neograničeni	501		4
-neograđeni			2
-neokaljani	25		2
-neokrečeni			2
-neokrnjeni			2
-neometani	101		2
-neomeđeni			2
-neopaljeni			2
-neopaženi	20		2
-neopevani			2
+neograđeni			3
+neokaljani	25		3
+neokrečeni			3
+neokrnjeni			3
+neometani	101		3
+neomeđeni			3
+neopaljeni			3
+neopaženi	20		3
+neopevani			3
 neophodni	6460		4
-neopisani			2
+neopisani			3
 neopravdani	224		3
 neoprezni	149		4
-neorganizovani			2
-neosmišljeni			2
+neorganizovani			3
+neosmišljeni			3
 neosnovani	444		5
 neosporni	206		4
 neostvareni	276		3
-neosvojeni	11		2
+neosvojeni	11		3
 neotesani	55		5
-neotkriveni	145		2
+neotkriveni	145		3
 neovisni			4
-neovlašteni	11		2
-neovlašćeni	196		2
-neozbiljni	536		2
-neozleđeni			2
-neozlijeđeni		J	2
-neoznačeni	13		2
+neovlašteni	11		3
+neovlašćeni	196		3
+neozbiljni	536		3
+neozleđeni			3
+neozlijeđeni		J	3
+neoznačeni	13		3
 neočekivani	965		3
-neočišćeni	31		2
+neočišćeni	31		3
 neoštećeni	116		4
 neoženjeni	92		4
 neparni	103		3
 nepečeni			4
 nepisani	149		3
 nepismeni	1367		4
-neplanirani	191		2
+neplanirani	191		3
 neplaćeni	350		4
 neplodni	58		3
-nepobeđeni	18		2
+nepobeđeni	18		3
 nepobitni	92		4
-nepobožni	10		2
-nepodeljeni	34		2
-nepodesni	28		2
+nepobožni	10		3
+nepodeljeni	34		3
+nepodesni	28		4
 nepodobni	218		4
-nepodržani			2
+nepodržani			3
 nepogodni	33		4
 nepogrešni			4
-nepokajani	27		2
-nepokoreni	18		2
+nepokajani	27		3
+nepokoreni	18		3
 nepokorni	104		4
 nepokretni	329		4
-nepoloženi	17		2
+nepoloženi	17		3
 nepomični	99		4
-nepomućeni			2
+nepomućeni			3
 nepopularni	135		2
-nepopunjeni	23		2
-neporaženi	249		2
-neporočni	38		2
+nepopunjeni	23		3
+neporaženi	249		3
+neporočni	38		3
 neposlovni	13		4
 neposlušni	266		4
 neposredni	2195		4
-nepostižni			2
+nepostižni			3
 nepostojani	37		4
 nepotpuni	356		4
 nepotrebni	848		4
-nepotvrđeni	39		2
+nepotvrđeni	39		3
 nepouzdani	299		5
 nepovezani	93		3
 nepovoljni	866		4
 nepovratni	135		4
-nepovređeni	126		2
+nepovređeni	126		3
 nepozvani	132		4
 nepoštedni			4
 nepošteni	184		4
 nepoželjni	415		4
 nepravedni	299		4
 nepravilni	192		4
-nepravni			2
+nepravni			3
 nepredviđeni	133		4
 neprekidni	454		3
 neprelazni	23		4
 neprestani	313		4
 nepresušni	250		4
-neprevedeni			2
+neprevedeni			3
 neprijatni	807		4
-neprijavljeni	129		2
+neprijavljeni	129		3
 neprikladni	65		3
-neprikosnoveni			2
-neprilagođeni	104		2
+neprikosnoveni			3
+neprilagođeni	104		3
 neprilični	15		3
 neprimereni	174		4
 neprimetni	252		4
-neprimećeni	134		2
+neprimećeni	134		3
 nepripremljeni	182		3
 neprirodni	110		3
 nepristojni	165		4
 nepristrani	16		3
-nepristrasni	309		2
+nepristrasni	309		4
 nepristupačni	141		5
 neprisutni			4
-neprivlačni	40		2
+neprivlačni	40		3
 neprobojni	94		4
 neprofesionalni	115		7
 neprofitni	199		4
 neprohodni	185		4
-neprolazni	109		2
+neprolazni	109		3
 nepromenjeni	387		3
 nepromišljeni	132		4
 nepropisni			4
-neproučeni	10		2
+neproučeni	10		3
 neprozirni	50		4
 nepuni	21		3
 nepčani			3
-neradni	713		2
-nerasejani			2
-neraspoloženi	201		2
+neradni	713		3
+nerasejani			3
+neraspoloženi	201		3
 nerasudni			4
-neravni	40		2
+neravni	40		3
 neravnomerni	39		2
-nerazbuđeni			2
+nerazbuđeni			3
 nerazdvojni	511		4
 nerazumni	277		4
 nerazvijeni	262		3
 nerealni	543		4
-neredni			2
+neredni			3
 neredovni	81		4
-neregistrovani			2
+neregistrovani			3
 nerešeni	437		3
 nerođeni	60		4
 nervni	2158		2
 nervozni	1608		3
-nesaglasni			2
+nesaglasni			4
 nesavesni	558		3
 nesavršeni	127		4
-nesačuvani			2
+nesačuvani			3
 nesebični	134		4
 neshvaćeni	168		4
 nesigurni	756		4
-neskloni	77		2
+neskloni	77		3
 neskriveni	86		4
 neslani	32		3
 neslavni	173		3
@@ -3093,169 +3093,169 @@ neslobodni	73		4
 nesložni	79		3
 neslućeni	60		4
 neslužbeni	58		4
-nesmetani	345		2
+nesmetani	345		3
 nesmireni			4
 nesmirni			2
 nesmotreni	54		4
 nesnosni	124		3
-nespokojni	27		2
+nespokojni	27		3
 nesporni	314		2
 nesposobni	2788		4
 nespremni	504		3
 nespretni	202		3
 nesputani	65		4
 nesretni	578		3
-nesrećni	2454		2
+nesrećni	2454		3
 nesređeni	43		4
-nesrodni	13		2
+nesrodni	13		3
 nestabilni	313		4
 nestalni	83		3
 nestani	55		3
-nestašni	253		2
+nestašni	253		3
 nestručni	481		3
 nestvarni	150		3
 nesuđeni	334		3
-nesvakodnevni			2
+nesvakodnevni			3
 nesvareni			4
 nesvesni	865		3
-nesvrstani	202		2
+nesvrstani	202		3
 nesvršeni	120		3
 netaktični	26		3
-netalentovani	96		2
+netalentovani	96		3
 netačni	479		3
-netelesni			2
-netolerantni	204		2
+netelesni			4
+netolerantni	204		3
 netrajni			3
-netruležni	11		2
+netruležni	11		3
 netržišni	29		4
 neudobni	50		4
-neugašeni	19		2
+neugašeni	19		3
 neugledni	94		4
 neugodni			4
-neuhranjeni	37		2
-neuklonjeni			2
-neukrašeni			2
+neuhranjeni	37		3
+neuklonjeni			3
+neukrašeni			3
 neukusni	59		4
 neuljudni			4
-neulovljeni			2
+neulovljeni			3
 neumereni	71		4
 neumesni	41		4
 neumitni	97		4
 neumni			3
 neumorni	534		4
 neuobičajeni	224		3
-neupisani	21		2
-neuplaćeni	55		2
-neuposleni			2
+neupisani	21		3
+neuplaćeni	55		3
+neuposleni			3
 neupravni			4
-neuprljani			2
-neupućeni	485		2
+neuprljani			3
+neupućeni	485		3
 neuralni	17		4
 neuredni	115		4
-neuređeni	67		2
+neuređeni	67		3
 neuroni	271		2
 neurotični	115		3
-neusaglašeni			2
+neusaglašeni			3
 neusiljeni	12		4
-neuslišeni			2
+neuslišeni			3
 neuslovni	32		4
 neuspešni	635		4
 neustavni	163		4
 neutešni	61		4
-neutješeni		J	2
+neutješeni		J	3
 neutralni	1086		4
 neutrini	172		2
 neutroni	115		2
-neutvrđeni	43		2
-neuvežbani			2
-neuzdržani			2
+neutvrđeni	43		3
+neuvežbani			3
+neuzdržani			3
 neučeni			4
-nevaspitani	183		2
+nevaspitani	183		3
 nevažni	246		3
 neveni	42		3
-nevenčani	110		2
+nevenčani	110		3
 neverbalni	112		4
 neverni	369		3
-neverovatni	1073		2
-nevezani	60		2
-neveštini			2
+neverovatni	1073		3
+nevezani	60		3
+neveštini			3
 nevini	1202		3
 nevični	20		3
 neviđeni	661		4
-nevladini	66		2
+nevladini	66		3
 nevoljeni	19		4
 nevoljni	266		2
 nezaboravni	547		5
 nezadovoljni	6026		5
 nezahvalni	205		4
-nezainteresovani			2
+nezainteresovani			3
 nezapaženi	51		4
 nezaposleni	2831		4
 nezasićeni	13		4
 nezavidni	21		3
 nezavisni	5242		3
-nezavršeni	168		2
+nezavršeni	168		3
 nezaštićeni	417		3
 nezgodni	274		3
 nezgrapni	71		3
-nezlobni			2
+nezlobni			3
 neznani	322		3
 neznatni	182		3
 nezvani	166		3
-nezvanični	662		2
+nezvanični	662		3
 nečasni	99		3
 nečovečni	42		4
 nečujni	135		3
 nečuveni	80		4
-neštedni			2
+neštedni			3
 neželjeni	916		4
 neženjeni	20		4
 nežni	1036		2
 ni	197738		1
 nijedni	62		2
-nikolini			2
-nikšićani			2
+nikolini			3
+nikšićani			3
 nini		M	2
 nirvani	71		2
-niskobudžetni	311		2
+niskobudžetni	311		3
 niskopodni			4
 nizini	50		2
 nizvodni	14		3
 nišani	286		3
 ništavni	174		3
-nižerazredni	50		2
+nižerazredni	50		3
 njeni	15070		2
 nježni		J	2
 njini			2
-njujorčani			2
-nokautirani	27		2
+njujorčani			3
+nokautirani	27		3
 nominalni	533		4
 nominativni			5
-nominirani			2
-nominovani	417		2
+nominirani			3
+nominovani	417		3
 normalni	4464		3
 normativni	450		4
-normirani	82		2
-norvežani			2
+normirani	82		3
+norvežani			3
 nosni	96		2
 nostalgični	205		3
 notni	100		2
 notorni	174		2
 novini	313		2
-novobrđani			2
-novoizabrani	1056		2
-novootkriveni	146		2
-novopečeni	764		2
+novobrđani			3
+novoizabrani	1056		3
+novootkriveni	146		3
+novopečeni	764		3
 novorođeni	106		3
 novosađani	2077		4
-novostvoreni	89		2
-novozavetni			2
+novostvoreni	89		3
+novozavetni			3
 novčani	2015		3
 noćni	4329		2
 nošeni	564		3
 nožni	219		2
 nuklearni	2222		4
-numerisani	65		2
+numerisani	65		3
 nutrini	29		2
 nuđeni	103		3
 nužni	902		2
@@ -3265,64 +3265,64 @@ obasjani	120		3
 obavezani	208		3
 obavezni	5111		4
 obaveštajni	497		5
-obavešteni			2
+obavešteni			3
 obavijeni	153		5
 obavljani	149		4
 obavljeni	1124		4
 obdareni	244		3
-obdukcioni	84		2
-obedni			2
-obeleženi	1187		2
+obdukcioni	84		5
+obedni			3
+obeleženi	1187		3
 obelodani	626		2
 obeshrabreni	163		3
-obesmišljeni	47		2
-obesni	136		2
-obezbeđeni	1909		2
+obesmišljeni	47		3
+obesni	136		3
+obezbeđeni	1909		3
 obezglavljeni	108		3
-obezličeni			2
-obeznani			2
+obezličeni			3
+obeznani			3
 obećani	333		3
 obešeni	177		4
 obeštećeni	167		4
 obijeni	20		4
-obilazni	43		2
-obilježeni	42	J	2
+obilazni	43		3
+obilježeni	42	J	3
 obilni	103		3
 obimni	394		3
 obistini	195		4
-običajni	67		2
+običajni	67		3
 obični	6301		3
 obiđeni			3
 objasni	12629		2
 objavljeni	7884		3
 objavljivani	721		3
 objašnjeni	412		3
-objedini	756		2
+objedini	756		3
 objedinjeni	616		3
 objektivni	1722		4
-objektni	85		2
-oblagani	10		2
+objektni	85		3
+oblagani	10		3
 oblasni	230		3
 oblačini	10		3
 oblačni	77		3
 oblepljeni	71		4
-obligacioni	104		2
-oblikovani	425		2
+obligacioni	104		3
+oblikovani	425		3
 oblikovni			4
 obliveni	33		4
 oblični			3
 obloženi	294		4
 obmani	211		3
-obmotani	23		2
+obmotani	23		3
 obnavljani	82		3
 obnaženi	19		4
 obnovljeni	1052		3
-obogaljeni	27		2
+obogaljeni	27		3
 obogaćeni	378		4
-obojani			2
+obojani			3
 obojeni	1003		4
 oboreni	241		3
-oboružani			2
+oboružani			3
 obostrani	393		3
 obožavani	80		3
 obradovani	126		5
@@ -3336,13 +3336,13 @@ obrađeni	1197		3
 obrađivani	106		3
 obredni	196		3
 obremeni			4
-obremenjeni			2
+obremenjeni			3
 obrezani	51		4
-obrijani	67		2
+obrijani	67		3
 obrisani	246		4
 obrni	322		2
 obrtani			4
-obrtni	1563		2
+obrtni	1563		3
 obuhvatani			4
 obuhvaćeni	2464		4
 obujmljeni			3
@@ -3351,7 +3351,7 @@ obuveni	51		4
 obuzdani	21		3
 obučavani	176		3
 obučeni	3468		3
-obzidani			2
+obzidani			3
 obzirni	36		3
 obznani	179		3
 oceni	9106		3
@@ -3363,12 +3363,12 @@ ocrnjeni	39		4
 ocrtani	29		4
 ocrveni			4
 odabrani	2186		3
-odagnani			2
-odahni			2
+odagnani			3
+odahni			3
 odani	957		3
-odapni			2
-odaslani			2
-odašiljani			2
+odapni			3
+odaslani			3
+odašiljani			3
 odbacivani	47		3
 odbačeni	746		3
 odbijani	75		3
@@ -3377,26 +3377,26 @@ odbojni	124		3
 odbrambeni	1897		4
 odbrani	12552		3
 odbranjeni	62		3
-odbrojani	208		2
+odbrojani	208		3
 odbrojeni			4
 odeljeni	47		3
 odeveni	331		4
 odevni	711		2
-odgajani	133		2
+odgajani	133		3
 odgajeni	31		4
 odgojeni	69		4
 odgojni			2
 odgonetni			4
 odgovorni	13134		4
 odgurni	10		2
-odigni			2
+odigni			3
 odigrani	278		4
 odjavljeni	30		3
 odjavni			2
 odjekni			2
 odjeni			3
 odjeveni		J	4
-odlagani	96		2
+odlagani	96		3
 odlani			3
 odlazni	171		3
 odlikovani	207		5
@@ -3411,20 +3411,20 @@ odmeravani			3
 odmereni	205		4
 odmorni	318		3
 odnarođeni	28		4
-odnegovani			2
+odnegovani			3
 odneseni	46		4
-odnosni	125		2
+odnosni	125		3
 odobravani	147		3
 odobreni	1290		4
-odocni			2
-odomaćeni	60		2
+odocni			3
+odomaćeni	60		3
 odrani	22		3
 odrađeni	316		3
 odredbeni			4
 odredišni	36		4
 odrekni	27		3
 odrezani	20		4
-odrečni			2
+odrečni			3
 određeni	22530		3
 određivani	61		3
 odrešeni	11		4
@@ -3432,26 +3432,26 @@ odrini			2
 odrični	12		3
 odroni	104		3
 odrođeni	29		4
-odrpani	35		2
+odrpani	35		3
 odrveni			4
-održani	4995		2
+održani	4995		3
 održavani	604		4
-odsedni			2
+odsedni			3
 odseljeni	23		4
 odsečeni	329		4
-odsečni	14		2
-odskočni	12		2
-odslikani			2
+odsečni	14		3
+odskočni	12		3
+odslikani			3
 odstrani	575		2
 odstranjeni	182		3
-odstupni			2
-odsudni			2
+odstupni			3
+odsudni			3
 odsutni	563		3
 odurni	21		3
 odustani			3
 oduvani	23		2
 oduzimani	43		4
-oduševljeni	3051		2
+oduševljeni	3051		3
 odvaljeni	40		4
 odvažni	269		3
 odvedeni	554		3
@@ -3466,46 +3466,46 @@ odvrni	21		2
 odvučeni	27		3
 odzivni			2
 odzvoni	24		2
-odštampani	311		2
+odštampani	311		3
 odštetni	336		3
 ofanzivni	565		4
 ofarbani	162		3
 oficijelni	589		5
 oformljeni	137		4
-ofucani	44		2
+ofucani	44		3
 ogavni	58		3
-ogladni	143		2
+ogladni	143		3
 oglasni	246		3
-oglašavani	12		2
+oglašavani	12		3
 oglašeni	164		4
-ogledni	270		2
-oglodani			2
+ogledni	270		3
+oglodani			3
 ognjeni	403		3
 ogoljeni	231		4
 ogorčeni	1510		3
 ogovarani			3
-ogradni	69		2
+ogradni	69		3
 ograničeni	2276		4
 ograđeni	206		3
 ogrevni	18		2
 ogrni	17		2
 ogromni	3575		3
 oguljeni	26		4
-ohladni			2
+ohladni			3
 ohlađeni	81		3
 ohrabreni	590		3
-oivičeni	72		2
+oivičeni	72		3
 ojačani	337		3
 ojačavani			3
 ojađeni	172		4
 okameni	55		4
-okamenjeni	117		2
+okamenjeni	117		3
 okani	153		2
-okazionalni			2
+okazionalni			3
 okačeni	165		4
 okeani	317		2
 okićeni	168		4
-oklevetani	82		2
+oklevetani	82		3
 oklopljeni	73		3
 oklopni	124		3
 okolini	15379		4
@@ -3519,19 +3519,19 @@ okrečeni	98		4
 okrivljeni	2526		3
 okrnjeni	44		4
 okrpljeni			4
-okruglini			2
-okruni	27		2
+okruglini			3
+okruni	27		3
 okrunjeni	12		4
-okrutni			2
+okrutni			3
 okruženi	1727		4
 okružni	2255		3
 okrvavljeni	24		4
-oksidacioni			2
-oktroisani			2
+oksidacioni			3
+oktroisani			3
 okultni	71		3
-okupacioni	111		2
-okupani	105		2
-okupirani	438		2
+okupacioni	111		3
+okupani	105		3
+okupirani	438		3
 okupljeni	2851		4
 okvirni	918		3
 olakšani	105		3
@@ -3540,45 +3540,45 @@ oljušteni	70		4
 olovni	260		3
 oltarni			2
 olujni	312		2
-olupani			2
+olupani			3
 olupini	108		4
 olupljeni			4
 omaleni	242		4
-omalterisani			2
+omalterisani			3
 omamljeni	83		3
-omađijani			2
+omađijani			3
 ombudsmani	74		3
-omekšani	15		2
+omekšani	15		3
 ometani	49		3
 ometeni	95		3
 omeđeni	56		4
 omiljeni	5598		4
-omladini			2
+omladini			3
 omogućeni	307		3
 omraženi	215		4
 omrzni			3
 onemogućeni	375		3
 onesposobljeni	59		3
-onesvešćeni	20		2
+onesvešćeni	20		3
 oni	457600		2
-onostrani	43		2
-onovremeni	52		2
-opajani			2
+onostrani	43		3
+onovremeni	52		3
+opajani			3
 opaljeni	20		4
-opaljivani			2
+opaljivani			3
 opareni	48		4
 opasani	74		4
 opasivani			3
 opasni			3
-opažajni	10		2
+opažajni	10		3
 opažani			3
 opaženi	42		4
-opcioni	686		2
-operacioni	343		2
+opcioni	686		3
+operacioni	343		3
 operativni	8132		5
-operisani	367		2
+operisani	367		3
 operni			2
-opervaženi			2
+opervaženi			3
 opevani	80		2
 opečeni	17		4
 ophrvani			2
@@ -3586,72 +3586,72 @@ opijeni	283		4
 opisani	1529		3
 opisivani	61		3
 opismeni	81		4
-opismenjeni	18		2
-opisni	83		2
+opismenjeni	18		3
+opisni	83		3
 opitni	64		2
 opičeni			4
 opkoljeni	180		3
 oplemeni	305		2
 oplemenjeni	75		3
-opleni	20		2
+opleni	20		3
 opljačkani	392		4
 opni	188		2
-opogani			2
+opogani			3
 opojeni			4
 opojni	132		2
 opomeni	182		4
 opominjani	34		4
-oponirani			2
-oporavljeni	189		2
-opozicioni	1622		2
+oponirani			3
+oporavljeni	189		3
+opozicioni	1622		3
 opozvani	43		3
 oprani	131		3
 opravdani	1090		3
 opravljeni			4
-opredeljeni	715		2
+opredeljeni	715		3
 opremljeni	2882		3
 oprezni	2729		3
 oprečni	133		3
 oprljeni			4
-oprobani	258		2
-oproštajni	251		2
+oprobani	258		3
+oproštajni	251		3
 oprošteni			4
 opruženi	23		4
 oprženi			4
-opsadni	13		2
+opsadni	13		3
 opsceni	31		3
 opseni	22		3
 opsesivni	99		4
 opsežni			3
-opskrbni			2
+opskrbni			3
 opskurni	131		3
 opterećeni	1453		4
 optimalni	1067		4
-optimistični	427		2
+optimistični	427		3
 optočeni	30		4
 optuženi	5305		4
 optuživani	172		3
 optužni	294		3
-opunomoćeni	117		2
-opustošeni	81		2
+opunomoćeni	117		3
+opustošeni	81		3
 opušteni	1136		3
 opčini	76		2
 opčinjeni	265		3
 opširni	125		3
 opšiveni			4
-opštenarodni	111		2
+opštenarodni	111		3
 opštini	28050		3
 oralni	985		2
 orangutani	56		2
 orbitalni	185		4
-ordeni	90		2
+ordeni	90		3
 organi	16203		2
-organizacioni	1967		2
-organizovani	7976		2
+organizacioni	1967		3
+organizovani	7976		3
 originalni	4781		5
-orijentacioni	136		2
+orijentacioni	136		3
 orijentalni	385		5
-orijentisani	857		2
+orijentisani	857		3
 ormani	227		2
 orni			2
 oročeni	93		4
@@ -3660,83 +3660,83 @@ oružani	979		4
 oružni		M	3
 osakaćeni	141		4
 osamljeni	44		4
-osavremeni	184		2
-oscilacioni			2
-osedlani			2
+osavremeni	184		3
+oscilacioni			3
+osedlani			3
 osenčeni			4
 osetni	51		3
 osećajni	207		4
-osečini			2
+osečini			3
 osigurani	852		3
 osiljeni			4
-osioni	138		2
+osioni	138		3
 osiromašeni	601		4
 oskudni	277		3
 oskvrni	32		2
 oslabljeni	601		4
 oslepljeni	62		4
-oslikani	200		2
-oslikavani	10		2
+oslikani	200		3
+oslikavani	10		3
 oslobađani	39		3
 oslobođeni	3330		3
-osloni	805		2
+osloni	805		3
 oslonjeni	201		4
-oslušni	50		2
+oslušni	50		3
 osmani			3
-osmehni	34		2
+osmehni	34		3
 osmini	1272		2
 osmišljeni	693		4
-osmobitni			2
+osmobitni			3
 osmodnevni	52		4
-osmosatni			2
-osmostrani			2
-osmočlani			2
+osmosatni			3
+osmostrani			3
+osmočlani			3
 osnaženi	187		4
 osnivani	47		3
 osnovani	1056		3
 osnovni	33549		2
 osobeni	374		4
-osobini	240		2
+osobini	240		3
 osobni	232		3
 osokoljeni	113		3
 osorni	25		3
 osovini	549		3
 osporavani	133		3
 osporeni	154		3
-osposobljeni	1239		2
+osposobljeni	1239		3
 osramoćeni	96		3
 ostani			3
-ostavini	16		2
+ostavini	16		3
 ostavljeni	1105		4
-ostavštini	78		2
+ostavštini	78		3
 ostrašćeni	398		4
-ostrvljani	100		2
+ostrvljani	100		3
 ostrvljeni			4
 ostvareni	2956		3
-osujećeni	98		2
-osumnjičeni	4408		2
+osujećeni	98		3
+osumnjičeni	4408		3
 osunčani	53		3
 osuđeni	4591		3
 osuđivani	282		3
 osušeni	166		3
 osvajani	16		3
-osvedočeni	462		2
+osvedočeni	462		3
 osvetljeni	465		4
 osvećeni	169		3
 osvećivani			3
-osveštani	123		2
+osveštani	123		3
 osveženi	259		4
 osvojeni	384		3
 osvrni	99		2
 otadžbini	2090		4
-otađbini			2
+otađbini			3
 otcepljeni	45		4
 oterani	310		4
 otečeni	138		3
-otežani	176		2
+otežani	176		3
 othrani	46		3
-otimačini	167		2
-otisni			2
+otimačini	167		3
+otisni			3
 otkazani	299		3
 otkazni	202		3
 otkačeni	82		4
@@ -3747,15 +3747,15 @@ otkopani	34		3
 otkovani			2
 otkrivani	38		3
 otkriveni	2519		4
-otkucani	31		2
+otkucani	31		3
 otkupljeni	130		4
-otkupni	59		2
+otkupni	59		3
 otkupnini			2
 otmeni	156		3
-otomani	20		2
+otomani	20		3
 otopljeni	67		3
-otočani			2
-otpadni	333		2
+otočani			3
+otpadni	333		3
 otpevani			2
 otpisani	375		3
 otplatni	12		2
@@ -3765,13 +3765,13 @@ otpočini			3
 otpočni			2
 otpremljeni	58		4
 otpremni	22		3
-otpremnini	29		2
-otpusni	10		2
+otpremnini	29		3
+otpusni	10		3
 otpuštani	79		3
 otpušteni	748		3
 otrcani	58		3
 otrezni	138		3
-otrgni			2
+otrgni			3
 otrovani	150		3
 otrovni	537		2
 otuđeni	351		3
@@ -3780,62 +3780,62 @@ otvarani	92		3
 otvoreni	10058		4
 ovalni	228		2
 ovaploćeni	76		3
-ovejani	18		2
+ovejani	18		3
 ovenčani	117		3
 ovenčavani			3
 overavani			3
 overeni	318		4
-ovisni			2
-ovladani			2
-ovlašni	24		2
+ovisni			3
+ovladani			3
+ovlašni	24		3
 ovlašćeni	4368		4
 ovonedeljni	213		5
-ovostrani	12		2
+ovostrani	12		3
 ovovekovni			2
-ovovremeni	22		2
-ovseni			2
+ovovremeni	22		3
+ovseni			3
 ovčini			2
-ozakoni	162		2
-ozakonjeni	28		2
+ozakoni	162		3
+ozakonjeni	28		3
 ozareni	67		4
 ozbiljni	4870		3
 ozeleni	116		4
-ozelenjeni	19		2
-ozidani	32		2
+ozelenjeni	19		3
+ozidani	32		3
 ozleđeni	13		3
 ozlijeđeni	12		4
 ozljeđeni		J	4
-ozloglašeni	306		2
-ozlojeđeni	134		2
+ozloglašeni	306		3
+ozlojeđeni	134		3
 označavani	64		3
 označeni	1316		3
 oznojeni	49		4
 ozračeni	81		3
-ozvaničeni	39		2
+ozvaničeni	39		3
 ozvučeni	17		4
 očajni	980		3
-očarani	211		2
+očarani	211		3
 očekivani	2710		3
-očerupani	21		2
+očerupani	21		3
 očevidni	29		4
-očevini	23		2
+očevini	23		3
 očigledni	832		4
 očišćeni	569		4
 očni	533		2
 očuvani	668		3
-očvrsni			2
-ošamućeni	81		2
+očvrsni			3
+ošamućeni	81		3
 ošini	10		2
 ošišani	94		3
 oštećeni	3837		4
 oštećivani			3
 oštreni			3
 oštrini	136		2
-oštrokutni			2
+oštrokutni			3
 oštroumni	101		4
 oštrovidni			4
-ožalošćeni	250		2
-ožedni	26		2
+ožalošćeni	250		3
+ožedni	26		3
 oženi	1254		2
 oženjeni	350		3
 oživljeni	110		3
@@ -3848,82 +3848,82 @@ pajkani			3
 pakleni	448		3
 pakosni	140		3
 pakovani	104		4
-paladini			2
-palančani	70		2
+paladini			3
+palančani	70		3
 palatalni			4
-palestini			2
+palestini			3
 paletni			3
 paljeni	55		3
-paljevini	38		2
+paljevini	38		3
 pametni	6989		3
 pamučni	179		3
 pamćeni	16		3
 pancirni	19		2
 pandani	68		3
-pangolini			2
+pangolini			3
 pani		M	2
 panini			2
-panirani			2
+panirani			3
 panični	223		3
 pansioni	83		2
 papini	40		2
 papirni	575		2
 papreni	53		3
-paradni	77		2
-parafini			2
-parafirani	51		2
+paradni	77		3
+parafini			3
+parafirani	51		3
 paralelni	1016		2
-paralisani	57		2
-paralizovani	46		2
-paraneoplastični			2
-paranoidni	57		2
+paralisani	57		3
+paralizovani	46		3
+paraneoplastični			3
+paranoidni	57		3
 paranoični	174		3
 paranormalni	35		5
 paravani	91		2
 paravojni	28		4
-parazitni	13		2
+parazitni	13		3
 parcijalni	248		4
-pardoni			2
+pardoni			3
 paritetni	16		4
-parižani			2
-parkirališni			2
+parižani			3
+parkirališni			3
 parkirani	340		3
 parkirni			2
 parlamentarni	1992		5
 parni	1025		2
 parnični	533		3
-parodirani			2
-parohijani	248		2
+parodirani			3
+parohijani	248		3
 parterni			2
-participni			2
+participni			3
 partitivni			4
 partizani	2418		2
 parčini			2
-pasatni			2
+pasatni			3
 pashalni			2
-pasionirani	446		2
-pasirani	36		2
+pasionirani	446		3
+pasirani	36		3
 pasivni	1372		3
 pastelni	62		2
 pastoralni	64		4
 patareni			4
-patentirani	203		2
-patentni	211		2
+patentirani	203		3
+patentni	211		3
 patetični	211		3
 patlidžani	27		2
 patogeni	181		4
 patrijarhalni	246		5
 patrolni	100		2
-patronažni			2
+patronažni			3
 patroni	60		2
-pauni			2
+pauni			3
 paučini	48		4
 paušalni	139		4
 pavijani	27		4
 paviljoni	194		2
 pavitini			4
 pazarni	108		2
-pazušni			2
+pazušni			3
 pašini	11		2
 paženi	35		3
 pedantni	196		3
@@ -3936,67 +3936,67 @@ pelikani	28		2
 pelivani			2
 peni	456		2
 penzioni	1515		4
-penzionisani	1320		2
+penzionisani	1320		3
 perfektivni			4
-perfektni	144		2
-perfidni	93		2
+perfektni	144		3
+perfidni	93		3
 periferni	375		4
 perini	10		3
-periodični	332		2
+periodični	332		3
 periodni	69		4
-perišini			2
+perišini			3
 perjani			3
 permanentni	263		2
 perni			2
-peroni	38		2
+peroni	38		3
 personalni	920		4
-personi	43		2
+personi	43		3
 perspektivni	477		4
 perverzni	154		3
 perčini			2
-pesimistični	102		2
-petnaestodnevni	19		2
+pesimistični	102		3
+petnaestodnevni	19		3
 petodnevni	265		4
-petosatni			2
-petosložni			2
-petosobni			2
-petougaoni			2
-petočlani	190		2
+petosatni			3
+petosložni			3
+petosobni			3
+petougaoni			3
+petočlani	190		3
 pevani	19		3
 pećini	1922		3
-pečatni	27		2
+pečatni	27		3
 pečeni	363		3
 peštani			3
 peščani	279		3
 pijani	1722		3
-pijačni		M	2
+pijačni		M	3
 pijuni	61		2
-pikantni	61		2
+pikantni	61		3
 pilani	55		3
 piletini	119		4
-piljevini	21		2
-piloni	31		2
+piljevini	21		3
+piloni	31		3
 pingvini	250		2
-pioni	147		2
+pioni	147		3
 pipni	28		2
-pirinčani	45		2
-piroklastični			2
-piromani	70		2
+pirinčani	45		3
+piroklastični			3
+piromani	70		3
 pisani	3616		3
 pismeni	3204		3
 pitani	234		3
-pitomini			2
+pitomini			3
 pitoni	68		2
 pitoreskni	29		2
-plafoni			2
-plakatni			2
+plafoni			3
+plakatni			3
 plameni	218		3
 planetarni	694		4
 planetni	29		3
 plani	33		2
 planini	6102		2
-planinčini			2
-planirani	3809		2
+planinčini			3
+planirani	3809		3
 planktoni	17		2
 plasirani	781		3
 plasmani	476		2
@@ -4019,14 +4019,14 @@ plesni	1651		2
 pleteni	98		3
 pleuralni	42		4
 plimni	39		2
-plitkoumni			2
+plitkoumni			4
 plišani	168		3
 pljačkani	63		3
 pljesni			2
 pljosni			2
 pljuni	101		2
 pljusni			2
-pljuvačni			2
+pljuvačni			3
 plodni	334		2
 plodonosni	56		3
 plotuni	39		2
@@ -4037,44 +4037,44 @@ pluralni	19		3
 plućni	147		2
 plužni			2
 pobacani	36		3
-pobačajni			2
-pobedni	28		2
-pobedonosni	422		2
+pobačajni			3
+pobedni	28		3
+pobedonosni	422		5
 pobegni	10		3
-pobesni	81		2
+pobesni	81		3
 pobeđeni	282		3
 pobeđivani	13		3
 pobijeni	870		4
 pobodeni			4
 poboljšani	729		3
-pobočni	20		2
+pobočni	20		3
 pobožni	575		3
 pobrini	51		2
-pobrkani	68		2
-pobrojani	226		2
+pobrkani	68		3
+pobrojani	226		3
 pobuni	1115		3
 pobunjeni	153		3
-pobusani			2
+pobusani			3
 pobuđeni	36		3
 pobuđivani			3
 pobušeni			4
-pocepani	72		2
+pocepani	72		3
 pocrni	109		2
 pocrveni	251		4
 podani			3
 podareni	16		4
-podašni			2
+podašni			3
 podbadani			3
 podbačeni			4
-podbuni			2
+podbuni			3
 podbunjeni			4
 podeljeni	3812		3
-poderani	19		2
+poderani	19		3
 podesni	109		3
 podešavani			3
 podešeni	399		4
 podgojeni			4
-podgoričani			2
+podgoričani			3
 podigni	289		3
 podizani	171		4
 podjarmljeni	21		3
@@ -4087,14 +4087,14 @@ podmetni	18		3
 podmićeni	52		3
 podmlađeni	107		4
 podmrežni			3
-podnebesni			2
+podnebesni			4
 podneseni	68		4
 podnevni	48		2
 podni	222		2
 podnošeni	42		3
 podobni	704		3
 podrani			3
-podravini			2
+podravini			3
 podrazumevani	238		3
 podređeni	578		3
 podrigni			3
@@ -4105,17 +4105,17 @@ podržani	1232		3
 podržavani	68		4
 podsećani			4
 podstakni			2
-podsticajni			2
+podsticajni			3
 podsticani	118		4
 podsvesni	173		3
 podudarni	145		4
-podupirani			2
+podupirani			3
 podučavani	29		3
 podučeni	25		3
 podužni			3
-podvajani			2
+podvajani			3
 podvedeni	32		4
-podvikni			2
+podvikni			3
 podvodni	658		3
 podvojeni	25		4
 podvozni			3
@@ -4123,25 +4123,25 @@ podvučeni	43		4
 podzemni	1365		2
 podčini	19		2
 podčinjeni	31		3
-podšišani	26		2
+podšišani	26		3
 poeni	1472		2
-poetični	46		2
+poetični	46		3
 pogani	225		3
 pogašeni	18		3
 pogaženi	39		4
-pogibeljni	11		2
+pogibeljni	11		3
 pogini	11		3
 pogledani	18		4
 pogni			2
 pogodbeni			4
 pogodni	1665		3
 pogoni	1307		3
-pogoršani	134		2
+pogoršani	134		3
 pogođeni	1474		3
 pogošćeni			4
-pogranični	296		2
+pogranični	296		3
 pogrbljeni	65		4
-pogrdni	81		2
+pogrdni	81		3
 pogrebeni			4
 pogrebni	150		3
 pogrešni	828		3
@@ -4152,17 +4152,17 @@ pogureni			4
 pohabani	42		4
 pohani			3
 pohapšeni			4
-poharani	23		2
+poharani	23		3
 pohlepni	448		3
 pohotni	30		3
 pohovani	55		4
 pohrani	40		3
 pohranjeni	171		4
-pohrvaćeni	22		2
+pohrvaćeni	22		3
 pohvaljeni	205		3
 pohvalni	63		2
-pohvatani	76		2
-poimenični	22		2
+pohvatani	76		3
+poimenični	22		3
 pojani			3
 pojasni	1069		3
 pojavljeni			4
@@ -4172,21 +4172,21 @@ pojačavani			3
 pojedeni	83		4
 pojedinačni	3771		3
 pojedini	16332		2
-pojeftini	343		2
-pojeni			2
-pojevtini			2
+pojeftini	343		3
+pojeni			3
+pojevtini			3
 pojmovni	97		2
-pokarani			2
+pokarani			3
 pokazani	161		3
 pokazni	106		3
 pokidani	86		4
-pokladni	10		2
+pokladni	10		3
 poklani	86		3
 pokloni	5453		3
 poklonjeni	166		3
 poklopljeni	15		4
 pokojni	3505		2
-pokolebani	25		2
+pokolebani	25		3
 pokopani	174		3
 pokoreni	96		3
 pokorni	236		3
@@ -4204,63 +4204,63 @@ pokrnjeni			4
 pokršteni	65		3
 pokunjeni			4
 pokupljeni	59		3
-pokusni	100		2
-pokušajni			2
+pokusni	100		3
+pokušajni			3
 pokušani	14		4
 pokvareni	541		3
 polagani	81		2
-polarizacioni			2
+polarizacioni			3
 polarni	306		2
-polaskani	27		2
+polaskani	27		3
 polazni	367		3
-polegni			2
+polegni			3
 poletni	107		3
 polezni			3
-poleđini	1226		2
+poleđini	1226		3
 poligoni	169		2
-polirani	71		2
-politični	18		2
+polirani	71		3
+politični	18		3
 poljani	606		3
-poljoprivredni	5124		2
-poljuljani	127		2
+poljoprivredni	5124		3
+poljuljani	127		3
 polni	1396		2
 polomljeni	237		3
 polovini	13858		3
-polovični	67		2
+polovični	67		3
 polovni	801		2
-položajni	18		2
+položajni	18		3
 položeni	733		3
-poltroni	388		2
+poltroni	388		3
 poludnevni			4
-polukružni	144		2
+polukružni	144		3
 polukrvni	30		4
-polumajmuni			2
-polupani	116		2
-polupijani	35		2
-poluprazni	89		2
+polumajmuni			3
+polupani	116		3
+polupijani	35		3
+poluprazni	89		3
 poluravni			4
-polusatni			2
-poluslužbeni			2
-polusrušeni			2
-polutani	34		2
-polutečni			2
-poluzvanični			2
+polusatni			3
+poluslužbeni			3
+polusrušeni			3
+polutani	34		3
+polutečni			3
+poluzvanični			3
 polučasovni			2
 polučeni			4
-pomagani	59		2
+pomagani	59		3
 pomakni	17		2
 pomamni	17		3
-pomazani	31		2
-pomazivani			2
+pomazani	31		3
+pomazivani			3
 pomeni	256		3
-pomerani	40		2
+pomerani	40		3
 pomereni	248		4
-pomesni	59		2
-pometani			2
+pomesni	59		3
+pometani			3
 pometeni	37		4
 pomešani	339		3
 pomilovani	85		5
-pominjani	526		2
+pominjani	526		3
 pomirbeni			4
 pomireni	85		3
 pomični	45		3
@@ -4272,14 +4272,14 @@ pomoćni	2792		3
 pompezni			3
 pompozni			3
 pomračeni	45		4
-pomračini	19		2
+pomračini	19		3
 pomrčini	142		4
 pomućeni	16		4
 ponavljani	89		3
 ponemčeni			4
 poneseni	138		4
 poni	82		2
-ponikni			2
+ponikni			3
 ponizni	125		3
 poništeni	327		4
 ponižavani	81		3
@@ -4287,20 +4287,20 @@ poniženi	552		3
 ponosni	7213		3
 ponovljeni	592		3
 ponovni	1667		3
-ponoćni	158		2
-pontoni	56		2
+ponoćni	158		3
+pontoni	56		3
 ponuđeni	1487		4
-poobarani			2
+poobarani			3
 pooštreni	126		4
 popaljeni	43		4
 popijeni			4
 popisani	208		3
 popisivani	16		3
-popisni			2
+popisni			3
 poplavljeni	140		3
 poplavni			2
 poplašeni	19		4
-popločani	68		2
+popločani	68		3
 popni	60		2
 popodnevni	521		4
 popratni	36		3
@@ -4312,9 +4312,9 @@ popularni	6469		4
 popuni	1942		3
 popunjeni	833		4
 porani	54		3
-poratni	68		2
+poratni	68		3
 porazni	101		3
-poražavani			2
+poražavani			3
 poraženi	3201		3
 poredani	29		3
 poredbeni	14		4
@@ -4324,154 +4324,154 @@ porezni	105		3
 poređani	381		3
 poređeni			4
 porobljeni	154		3
-porodiljni			2
+porodiljni			3
 porodični	5580		4
-poroni			2
-poročni	41		2
-porođajni	159		2
+poroni			3
+poročni	41		3
+porođajni	159		3
 porođeni			3
 portalni	35		2
 portretni			3
 porudžbini	464		4
-porugani			2
+porugani			3
 porumeni	433		2
 poručeni	69		3
 porušeni	376		4
 poružni			3
-posadni			2
-posavini			2
+posadni			3
+posavini			3
 posađeni	80		3
 posebni	4891		3
 posedovani			5
 posedovni			4
-posegni			2
-posejani	57		2
+posegni			3
+posejani	57		3
 posesivni	116		4
 posećeni	287		4
 posečeni	233		4
-posijani			2
+posijani			3
 posilni			2
 posini	14		2
-posipani	17		2
+posipani	17		3
 poslani	283		3
-posledični	73		2
-poslepodnevni	67		2
-posleratni	456		2
-posljedični		J	2
-posljedni		J	2
-poslovični	82		2
+posledični	73		3
+poslepodnevni	67		3
+posleratni	456		3
+posljedični		J	3
+posljedni		J	3
+poslovični	82		3
 poslovni	20829		3
 poslovodni	42		4
 poslušani			4
 poslušni	699		3
 posluženi	202		3
 posmatrani	357		3
-posmrtni	1237		2
+posmrtni	1237		3
 posni	246		2
 posoljeni			3
 pospani	189		3
-posprdni	19		2
+posprdni	19		3
 posramljeni	98		3
 posrebreni	22		4
 posredni	343		3
 postani	206		3
 postavljani	348		4
 postavljeni	7497		4
-posteljini	138		2
+posteljini	138		3
 posteljni	32		2
 postepeni	376		4
-posthumani			2
-postidni			2
+posthumani			3
+postidni			3
 postigni	13		3
 postizani	63		4
 postiđeni	89		3
 postmoderni	289		4
 postojani	291		4
-postojbini	277		2
+postojbini	277		3
 postojni			2
-postoperativni	348		2
-postotni	127		2
+postoperativni	348		3
+postotni	127		3
 postporođajni			5
-postpozitivni			2
+postpozitivni			5
 postrani	44		3
-postreljani	10		2
+postreljani	10		3
 postriženi			4
 postrojeni	101		4
 postupni	45		3
-posuvraćeni			2
+posuvraćeni			3
 posuđeni	19		3
-posvađani	107		2
+posvađani	107		3
 posvećeni	3314		3
 potajni	115		3
-potamani	35		2
+potamani	35		3
 potamni	185		3
 potapani			3
 potavni			2
-potceni	91		2
+potceni	91		3
 potcenjeni	112		4
 potegni	98		2
 potencijalni	6927		5
-poterani	19		2
-potesni			2
+poterani	19		3
+potesni			3
 poticani			4
-potiskivani	67		2
-potisni	21		2
+potiskivani	67		3
+potisni	21		3
 potišteni	63		3
-potkazani			2
+potkazani			3
 potkopani	13		3
 potkovani	240		2
 potkožni	48		3
-potkradani			2
+potkradani			3
 potkradeni			4
-potkresani			2
+potkresani			3
 potkupljeni	81		3
 potlačeni	120		4
 potoni			2
 potopljeni	209		3
 potočni			3
-potpisani	2467		2
+potpisani	2467		3
 potplaćeni	83		3
 potporni	261		2
 potpuni	5850		3
 potraženi			4
 potrebni	15601		3
 potreseni	160		4
-potresni	104		2
+potresni	104		3
 potrešeni			4
-potrgani			2
+potrgani			3
 potrošeni	427		3
-potrošni	434		2
-potrpani	12		2
+potrošni	434		3
+potrpani	12		3
 potrveni			4
-potrzani			2
+potrzani			3
 potureni			4
 poturčeni	65		4
 potučeni	120		4
-potvrdni	106		2
+potvrdni	106		3
 potvrđeni	796		3
 potčini	328		2
 potčinjeni	391		4
-poubijani	120		2
+poubijani	120		3
 pouljeni			4
 pouzdani	2042		4
-poučavani	14		2
+poučavani	14		3
 poučeni	675		4
 poučni	145		3
 povedeni	72		4
 poveravani	22		3
 povereni	715		4
-povesni			2
+povesni			3
 povezani	8514		3
 povezivani	54		3
-povećani	2179		2
+povećani	2179		3
 povećavani	20		3
-povešani	13		2
+povešani	13		3
 povijeni	72		4
 povišeni	653		3
 povlašćeni	737		4
 povodni			3
 povoljni	1973		3
-povratni	629		2
+povratni	629		3
 povraćani			4
 povraćeni	38		3
 povremeni	1001		4
@@ -4485,8 +4485,8 @@ pozajmljeni	296		3
 pozdravljeni	205		4
 pozdravni	210		3
 pozeleni	54		4
-pozicioni			2
-pozicionirani	456		2
+pozicioni			5
+pozicionirani	456		3
 pozitivni	4522		4
 pozivani	436		3
 pozivni	607		2
@@ -4494,9 +4494,9 @@ pozlaćeni	195		3
 pozni			2
 pozorišni	2992		4
 pozvani	5410		3
-pozvoni	67		2
+pozvoni	67		3
 počasni	3167		3
-počastvovani	197		2
+počastvovani	197		3
 počašćeni	123		3
 početni	4203		3
 počini	535		2
@@ -4514,23 +4514,23 @@ poželjni	788		3
 poženjeni			4
 požudni	22		3
 pradavni	20		2
-pragmatični	353		2
+pragmatični	353		3
 praktični	3020		3
 prameni			3
 pramčani	20		3
 prani	18		2
 pranjani			3
-pravedni	988		2
+pravedni	988		3
 pravilni	190		3
 pravični	134		3
 pravljeni	998		3
 pravni	17412		2
-pravokutni			2
+pravokutni			3
 pravopisni	117		4
 pravoslavni	6579		4
-pravosnažni	25		2
+pravosnažni	25		3
 pravosudni	2007		4
-pravougaoni	265		2
+pravougaoni	265		3
 pravoverni	170		4
 prazni	2492		2
 praznini	196		2
@@ -4543,35 +4543,35 @@ prebaceni			4
 prebačeni	1178		3
 prebijani	87		3
 prebijeni	97		4
-prebrisani			2
-prebrojani	81		2
-prebukirani	84		2
-preceni	30		2
+prebrisani			3
+prebrojani	81		3
+prebukirani	84		3
+preceni	30		3
 precenjeni	220		4
 precizni	1876		3
-precrtani	48		2
+precrtani	48		3
 predahni			2
 predani	521		3
 predavani	35		3
-predbračni	107		2
+predbračni	107		3
 predeni			3
-predhodni	737		2
-predikatni			2
+predhodni	737		3
+predikatni			3
 predivni	669		3
 predizborni	1168		4
 predlagani	68		3
 predloženi	3499		4
 predmetni	1121		3
-prednjonepčani			2
+prednjonepčani			3
 predodređeni	292		3
 predočeni	357		3
-predratni	478		2
-predsezoni	231		2
-predsmrtni	10		2
+predratni	478		3
+predsezoni	231		3
+predsmrtni	10		3
 predstani			3
 predstavljeni	6893		4
 preduzetni	90		4
-predvečni			2
+predvečni			3
 predviđeni	3535		4
 predvodeni			4
 predvođeni	1825		3
@@ -4579,90 +4579,90 @@ preferencijalni	153		6
 prefinjeni	247		4
 prefrontalni	37		4
 pregaženi	87		4
-pregladni			2
+pregladni			3
 preglasni	46		3
 pregledani	386		4
 pregledni	226		3
 pregni			2
 pregojeni			4
-pregoni			2
+pregoni			3
 pregovorni			4
-pregradni	293		2
-pregrešni			2
+pregradni	293		3
+pregrešni			3
 prehlađeni	96		3
 prehrambeni	920		4
 prehrani	808		3
-preinačeni	12		2
+preinačeni	12		3
 preizdašni			4
 prekaljeni	352		4
 prekidani	91		3
 prekini	179		3
 preklani			3
-preklinjani			2
-preklopni	84		2
+preklinjani			3
+preklopni	84		3
 prekomerni	208		4
-prekonoćni	11		2
+prekonoćni	11		3
 prekopani			3
 prekopavani			3
 prekoredni			4
 prekorni	14		2
-prekovremeni	926		2
+prekovremeni	926		3
 prekrasni	245		3
 prekrečeni			4
 prekriljeni			4
 prekriveni	618		4
-prekršajni	1264		2
+prekršajni	1264		3
 prekršeni	166		3
-preksinoćni		M	2
+preksinoćni		M	3
 prelazni		M	3
 preliminarni	1256		5
 preliveni	33		4
 preljini			2
-preljubazni	10		2
-preljubni			2
+preljubazni	10		3
+preljubni			3
 prelomljeni	61		3
 prelomni			3
 premaleni	13		4
-premazani	73		2
+premazani	73		3
 premašeni	25		4
-premeštani	41		2
+premeštani	41		3
 premešteni	268		4
 premijerni	251		4
 premlaćeni	14		3
 premoreni	169		4
 prenagljeni			4
 prenatalni	75		4
-prenatrpani	91		2
-preneraženi	59		2
+prenatrpani	91		3
+preneraženi	59		3
 preneseni	215		4
-prenosni	1016		2
+prenosni	1016		3
 prenošeni	130		3
 preobilni	14		4
-preobraćeni	48		2
-preobraženi	74		2
-preobučeni	109		2
+preobraćeni	48		3
+preobraženi	74		3
+preobučeni	109		3
 preokreni			2
 preokretni			4
-preokupirani	180		2
-preopterećeni	265		2
+preokupirani	180		3
+preopterećeni	265		3
 preorani	24		3
-preosvećeni	1955		2
-preozbiljni	24		2
+preosvećeni	1955		3
+preozbiljni	24		3
 prepadni			3
 prepametni	129		4
-preparirani	46		2
+preparirani	46		3
 prepečeni	26		4
-prepisani	235		2
+prepisani	235		3
 preplavljeni	363		4
 preplaćeni	97		3
 preplašeni	258		4
 prepleteni			4
-prepodobni	5255		2
+prepodobni	5255		3
 preponi	74		3
-preponosni	22		2
-preporođeni	124		2
+preponosni	22		4
+preporođeni	124		3
 preporučeni	437		3
-prepotentni	105		2
+prepotentni	105		3
 prepošteni	91		4
 prepravljeni	68		4
 prepredeni	89		3
@@ -4672,19 +4672,19 @@ prepuni	1241		3
 prepunjeni	35		4
 prepuštani	10		3
 prepušteni	1138		3
-preradni		M	2
-preradosni			2
+preradni		M	3
+preradosni			4
 prerani	108		3
 prerađeni	216		3
 prerevni			2
 prerezani	22		4
 prerušeni	195		4
-presazdani			2
+presazdani			3
 presađeni	35		3
-presedani	80		2
+presedani	80		3
 preseljeni	218		3
 presečeni	78		4
-presipani			2
+presipani			3
 presitni			2
 presićeni			4
 preskočeni	32		3
@@ -4693,36 +4693,36 @@ preslavni	28		2
 preslikani	92		4
 presni	33		2
 presretni	47		3
-presrećni	623		2
+presrećni	623		3
 prestani	792		3
-prestigni			2
+prestigni			3
 prestižni	699		3
 prestolni			2
-prestoni	194		2
+prestoni	194		3
 prestravljeni	115		3
 prestrašeni	97		4
-prestupni	27		2
+prestupni	27		3
 presudni	1069		3
 presvučeni	187		3
-pretekni			2
-pretenciozni	70		2
+pretekni			3
+pretenciozni	70		3
 preterani	527		4
-pretesni	20		2
+pretesni	20		3
 pretežni	201		3
 prethodni	10658		3
 pretopljeni			3
-pretovareni	26		2
+pretovareni	26		3
 pretovarni	21		4
 pretočeni	130		4
 pretplatni	25		2
 pretplaćeni	135		3
 pretpostavljeni	456		4
-pretpotopni			2
-pretpristupni			2
+pretpotopni			3
+pretpristupni			3
 pretraženi			4
-pretresani	27		2
-pretresni			2
-pretrpani	237		2
+pretresani	27		3
+pretresni			3
+pretrpani	237		3
 pretrpljeni			3
 pretučeni	207		3
 pretvarani	40		3
@@ -4730,20 +4730,20 @@ pretvoreni	562		3
 pretvorni			2
 preumilni			4
 preumorni	91		4
-preuranjeni	43		2
-preuređeni	83		2
-preusmereni	157		2
-preuveličani	36		2
+preuranjeni	43		3
+preuređeni	83		3
+preusmereni	157		3
+preuveličani	36		3
 preuzimani	38		4
-preuzvišeni	29		2
+preuzvišeni	29		3
 prevareni	1273		4
 prevarni	26		2
-prevaziđeni	577		2
+prevaziđeni	577		3
 prevedeni	732		3
-prevejani	91		2
+prevejani	91		3
 preventivni	1271		4
 prevezeni	263		3
-prevečni			2
+prevečni			3
 previjeni	13		4
 previđeni	13		4
 prevladani	18		3
@@ -4751,44 +4751,44 @@ prevodni			3
 prevozni	40		3
 prevođeni	161		3
 prevoženi	70		3
-prevratni		M	2
+prevratni		M	3
 prevremeni	683		4
 prevrni			2
 prezadovoljni	802		5
-prezaposleni	59		2
-prezentovani	1053		2
+prezaposleni	59		3
+prezentovani	1053		3
 prezirani	11		4
-prezreni	152		2
-prećutani	50		2
-prećutni	233		2
+prezreni	152		3
+prećutani	50		3
+prećutni	233		3
 prečani	57		3
 prečasni	180		3
 prečišćeni	143		4
-prečudesni			2
-prečudni			2
+prečudesni			4
+prečudni			3
 pređeni	148		3
 prešni			2
 prežaljeni	39		4
-prežalosni			2
+prežalosni			4
 preželjeni			4
 pribavljani			4
 pribavljeni	132		4
-pribegni			2
+pribegni			3
 pribijeni	19		4
 približeni	58		3
 približni	145		3
 pribrani	127		3
-pribrojani			2
-pridigni			2
+pribrojani			3
+pridigni			3
 pridruženi	509		4
 pridvorni			2
 prigni	13		2
 prigodni	507		3
-prigoni			2
+prigoni			3
 prigušeni	112		3
-prihodni			2
-prihvatani	56		2
-prihvatni	132		2
+prihodni			3
+prihvatani	56		3
+prihvatni	132		3
 prihvaćani			4
 prihvaćeni	2291		4
 prijatni	864		3
@@ -4796,7 +4796,7 @@ prijavljeni	1902		3
 prijavni	630		2
 prijazni	20		3
 prijemni	3871		3
-prikazani	4801		2
+prikazani	4801		3
 prikazivani	440		3
 prikazni	24		3
 prikačeni	114		4
@@ -4810,18 +4810,18 @@ prikovani	95		2
 prikraćeni	29		4
 prikrivani	33		3
 prikriveni	465		4
-prikucani			2
+prikucani			3
 prikupljani	193		3
 prikupljeni	1513		4
 prilagođeni	1841		3
 prilazni	375		3
-prilegni			2
+prilegni			3
 prilepljeni	34		4
 prilični	40		3
 prilježni			3
 priljubljeni	39		3
 priloženi	461		4
-primadoni			2
+primadoni			3
 primakni	17		2
 primani	204		3
 primarni	4355		3
@@ -4837,16 +4837,16 @@ primljeni	2420		3
 primorani	2570		3
 principijelni	432		5
 prineseni			4
-prinudni	768		2
+prinudni	768		3
 prinuđeni	3958		4
 priobalni	120		4
-prioni	39		2
-prioritetni	763		2
-pripadni	28		2
+prioni	39		3
+prioritetni	763		3
+pripadni	28		3
 pripijeni	59		4
 pripisani	94		3
 pripitomljeni	49		3
-priplodni			2
+priplodni			3
 pripni			2
 pripojeni	103		3
 pripovedni	52		4
@@ -4867,20 +4867,20 @@ prisilni	177		2
 prisloni	159		2
 prislonjeni	33		3
 prisluškivani	84		3
-prislušni	65		2
+prislušni	65		3
 prisni	158		2
 pristani	46		3
 pristojni	646		2
 pristrasni	262		3
 pristupačni	540		4
-pristupni	764		2
+pristupni	764		3
 prisutni	13165		3
-prisvajani			2
+prisvajani			3
 prisvojeni	12		4
 prisvojni	37		2
 pritajeni			4
-pritegni	16		2
-pritesni			2
+pritegni	16		3
+pritesni			3
 pritešnjeni	28		4
 pritisni	169		3
 prituljeni			4
@@ -4890,10 +4890,10 @@ priučeni	212		4
 privatni	11644		3
 privatnopravni			2
 privedeni	1089		4
-privezani	93		2
-prividni	280		2
+privezani	93		3
+prividni	280		3
 privikni			3
-privilegovani	674		2
+privilegovani	674		3
 privlačeni			3
 privlačni	601		3
 privoljeni			3
@@ -4908,13 +4908,13 @@ prizivani	13		3
 prizivni	10		2
 priznavani	23		3
 prizvani	141		3
-pričesni		M	2
+pričesni		M	3
 pričešćeni	18		4
 pričini	171		2
 pričuvni			2
 pričvršćeni	186		3
 priželjkivani	61		3
-priženi			2
+priženi			3
 prkosni	96		3
 prljani			3
 prljavštini	137		4
@@ -4930,20 +4930,20 @@ probušeni	58		3
 proceduralni			5
 proceni	10486		3
 procenjeni	415		3
-procentni	267		2
-procesni	330		2
-procesuirani	529		2
+procentni	267		3
+procesni	330		3
+procesuirani	529		3
 prodajni	1945		3
 prodani	81		3
 prodavani	514		3
 prodekani	76		4
-proderani			2
+proderani			3
 prodorni	106		2
 produbljeni	50		4
-produhovljeni	52		2
-produkcioni		M	2
+produhovljeni	52		3
+produkcioni		M	5
 produktivni	466		4
-produktni			2
+produktni			3
 produženi	995		4
 produžni	335		3
 profani	115		3
@@ -4953,66 +4953,66 @@ profini			2
 profinjeni	23		3
 profitabilni	332		5
 profitni	153		2
-proganjani	272		2
+proganjani	272		3
 proglašeni	2559		3
 prognani	587		3
 progoni	985		3
 progonjeni	267		3
-programirani	319		2
+programirani	319		3
 progresivni	424		4
 progrizeni			4
 progutani	38		3
-prohladni	25		2
+prohladni	25		3
 prohlađeni	15		4
-prohodni	702		2
-proigrani			2
+prohodni	702		3
+proigrani			3
 proizvedeni	1377		4
 proizvodni	4745		4
 proizvoljni	153		4
 projavljeni			4
-projektni	1731		2
-projektovani	1051		2
-prokazani	47		2
+projektni	1731		3
+projektovani	1051		3
+prokazani	47		3
 prokaženi			4
 proknjiženi	25		4
 prokrčeni			4
 prokuni			2
 prokuvani	17		2
-prokušani			2
+prokušani			3
 prolazni	557		3
-prolećni	1816		2
+prolećni	1816		3
 proljetni	58	J	3
 promašeni	153		4
 promenadni	21		4
 promeni	24848		3
 promenjeni	804		3
 prometni	63		3
-promiskuitetni	48		2
+promiskuitetni	48		3
 promišljeni	160		4
 promotivni	1700		4
-promovisani	408		2
+promovisani	408		3
 promućurni	65		4
 pronađeni	3300		3
 pronikni			3
 pronošeni			4
 propagandni	1254		2
 propisani	1664		3
-propisni			2
+propisni			3
 proporcionalni	460		6
 propovedni			4
-propratni			2
+propratni			3
 propraćeni	187		4
-propusni	274		2
+propusni	274		3
 propušteni			4
 proračuni	581		4
 prorekni			3
 proređeni	52		4
-proroni			2
-proseni			2
+proroni			3
+proseni			3
 prosečeni	16		4
 prosečni	2448		3
-prosijani			2
-proslavljani	29		2
+prosijani			3
+proslavljani	29		3
 proslavljeni	1742		4
 prosleđeni	443		4
 prospektivni			4
@@ -5023,21 +5023,21 @@ prostrelni			2
 prosvetljeni	125		4
 prosvetni	2682		3
 prosvećeni	319		4
-protegni	16		2
-proteini	1606		2
+protegni	16		3
+proteini	1606		3
 proterani	1148		4
-protesni			2
-protestni	668		2
+protesni			3
+protestni	668		3
 protini			2
 protivni	150		3
 protivpožarni	414		2
-protivprirodni	91		2
-protivraketni			2
-protivvazdušni			2
+protivprirodni	91		3
+protivraketni			3
+protivvazdušni			3
 protoni	174		2
-protočni			2
+protočni			3
 protraćeni	17		4
-protumačeni	124		2
+protumačeni	124		3
 prouzrokovani	223		5
 proučavani	71		3
 proučeni	107		3
@@ -5047,18 +5047,18 @@ provedeni	237		3
 provereni	915		4
 providni	447		3
 provizorni	38		4
-provladini	31		2
+provladini	31		3
 provodni			3
-prozaični	24		2
+prozaični	24		3
 prozapadni	200		4
 prozirni	186		3
 prozivani	95		3
 prozni	480		2
-prozračni	57		2
+prozračni	57		3
 prozvani	383		3
 pročitani	229		3
 pročišćeni	107		4
-proševini			2
+proševini			3
 prošireni	667		3
 prošlonedeljni	276		5
 prožimani			4
@@ -5073,19 +5073,19 @@ pruženi	101		3
 pružni	119		2
 prvenstveni	708		4
 prvini			2
-prvobitni	2431		2
+prvobitni	2431		3
 prvoklasni	238		4
-prvoosumnjičeni	42		2
+prvoosumnjičeni	42		3
 prvorazredni	369		4
 prvoredni			4
 prvorodni		M	4
-prvorođeni	89		2
-prvostepeni	2950		2
+prvorođeni	89		3
+prvostepeni	2950		3
 prvotni	24		3
-prvovenčani	116		2
+prvovenčani	116		3
 prvozvani			2
 prženi	171		3
-psihodelični	70		2
+psihodelični	70		3
 psihogeni	43		4
 psihotični	53		3
 psovani			3
@@ -5101,42 +5101,42 @@ punini	30		2
 punjeni	226		3
 punokrvni	140		4
 punoletni	599		4
-punomasni	95		2
-punomoćni			2
+punomasni	95		4
+punomoćni			3
 punopravni	928		4
-punovažni	36		2
+punovažni	36		3
 punovredni			4
 pupčani	47		3
 purpurni	101		2
-pustolini			2
+pustolini			3
 pustolovini	70		3
 pustolovni	58		4
-pustonosni			2
-pustopoljini			2
-puteni	13		2
+pustonosni			4
+pustopoljini			3
+puteni	13		3
 putni	1929		2
 putopisni	51		4
 pučini	406		3
 puštani	142		3
-pušteni			2
+pušteni			3
 puščani	32		3
 pšenični	79		3
 rabini	86		2
 rabljeni	17		3
 racionalni	1162		5
 radijalni	54		4
-radijani			2
+radijani			3
 radikalni	1388		4
 radioaktivni	525		2
 radni	18483		2
 radosni	733		3
 rafalni	12		2
-rafinirani	143		2
-rafinovani			2
-raketirani			2
+rafinirani	143		3
+rafinovani			3
+raketirani			3
 raketni	1084		3
 rakuni	35		2
-ramadani			2
+ramadani			3
 rameni	121		3
 rangirani	633		3
 rani	2682		2
@@ -5144,65 +5144,65 @@ ranjavani	30		3
 ranjeni	1023		3
 rapidni	46		3
 rasani			3
-rascepkani	33		2
-rascvetani			2
-rasejani	153		2
+rascepkani	33		3
+rascvetani			3
+rasejani	153		3
 raseljeni	524		3
 rasečeni			4
-rashladni	475		2
+rashladni	475		3
 rashlađeni	36		3
-rashodni			2
-rashodovani	49		2
-rasijani	18		2
+rashodni			3
+rashodovani	49		3
+rasijani	18		3
 rasipani			4
 rasipni	29		3
 raskalašni	57		4
-raskidni			2
+raskidni			3
 raskini	23		3
-raskomadani	24		2
-raskopani	25		2
-raskopčani			2
-raskoračeni			2
+raskomadani	24		3
+raskopani	25		3
+raskopčani			3
+raskoračeni			3
 raskošni	479		3
-raskrinkani	44		2
+raskrinkani	44		3
 rasni	378		2
 raspaljeni	25		4
 raspareni			4
-rasparčani			2
-raspasani			2
+rasparčani			3
+raspasani			3
 raspevani	145		2
-raspinjani			2
+raspinjani			3
 raspireni			4
 raspisani	1553		3
 rasplakani			4
-rasplodni	21		2
+rasplodni	21		3
 raspni	118		2
-raspoloženi	3120		2
+raspoloženi	3120		3
 rasponi	140		3
 rasporeni			4
 raspoređeni	2227		3
-raspravni			2
+raspravni			3
 rasprodani	20		3
-rasprostranjeni	386		2
+rasprostranjeni	386		3
 raspršeni	44		3
-raspucani	58		2
-raspusni	17		2
+raspucani	58		3
+raspusni	17		3
 raspušteni	92		3
 rasrđeni			3
 rastani			3
 rastavljeni	90		4
 rastavni	11		2
-rastegni			2
+rastegni			3
 rasterani	35		4
 rastopljeni	67		3
 rastočeni			4
 rastreseni	19		4
 rastrezni			3
 rastrgani	10		4
-rastrgni			2
+rastrgni			3
 rastrojeni	41		4
-rastrzani	85		2
-rasturani			2
+rastrzani	85		3
+rasturani			3
 rastureni	92		4
 rastuženi			3
 rastvoreni	61		3
@@ -5211,31 +5211,31 @@ rasvetljeni	66		4
 rasvetni			3
 ratni	7736		2
 ratoborni	176		4
-raveni			2
+raveni			3
 ravni	4179		2
 ravnini	107		2
 ravnodušni	720		3
 ravnomerni	472		4
 ravnopravni	2433		4
-ravnotežni	71		2
-ravnočasni			2
+ravnotežni	71		3
+ravnočasni			4
 razapinjani	11		4
 razapni	10		2
 razarani	18		3
 razaslani			3
-razbacani	314		2
+razbacani	314		3
 razbacivani			3
-razbesni	124		2
+razbesni	124		3
 razbijani	22		3
 razbijeni	414		4
 razblaženi	48		3
 razbuđeni	15		3
-razdaljini		M	2
+razdaljini		M	3
 razdani	62		3
 razdavani			3
 razdeljeni	80		3
 razdirani			4
-razdragani	165		2
+razdragani	165		3
 razdraženi	33		3
 razdrljeni	12		4
 razdrobljeni			4
@@ -5244,11 +5244,11 @@ razdvojeni	678		3
 razgaljeni			3
 razglasni			3
 razgnani			3
-razgoni			2
+razgoni			3
 razgovetni			4
 razgovorni	34		4
 razgrni			2
-razigrani	234		2
+razigrani	234		3
 razini	1241		3
 razjareni	138		3
 razjasni	958		3
@@ -5264,7 +5264,7 @@ razložni	41		3
 razlučeni	11		3
 razmakni			2
 razmatrani	855		3
-razmazani	12		2
+razmazani	12		3
 razmaženi	382		3
 razmeni	4106		3
 razmenjeni	136		3
@@ -5279,8 +5279,8 @@ razneseni	14		3
 razneženi	16		3
 razni	8395		2
 raznobojni	131		4
-raznoimeni			2
-raznorazni	715		2
+raznoimeni			3
+raznorazni	715		3
 raznorodni	130		4
 raznoverni			4
 raznovrsni	1147		3
@@ -5288,10 +5288,10 @@ razoreni	178		3
 razorni	330		2
 razoružani	73		3
 razotkriveni	82		4
-razočarani	2421		2
+razočarani	2421		3
 razrađeni	327		3
-razredni	528		2
-razrezani			2
+razredni	528		3
+razrezani			3
 razrešeni	363		4
 razrušeni	80		4
 razulareni	50		3
@@ -5301,7 +5301,7 @@ razuđeni	63		4
 razvalini			4
 razvaljeni	51		3
 razvedeni	340		3
-razvejani	16		2
+razvejani	16		3
 razvezani			3
 razvijani	165		3
 razvijeni	2114		4
@@ -5311,133 +5311,133 @@ razvratni	47		3
 razvrstani	321		3
 razvučeni	60		4
 računi	4444		2
-računovodstveni	426		2
+računovodstveni	426		3
 rađeni	1368		3
-rađevini			2
+rađevini			3
 rašireni	169		3
-raštimovani			2
-raštrkani	152		2
+raštimovani			3
+raštrkani	152		3
 raščani			3
 raščini	30		2
 raščinjeni	109		4
 raščišćeni	55		4
 raščlani	55		3
 raščlanjeni	23		4
-raščupani	26		2
-ražalovani			2
+raščupani	26		3
+ražalovani			3
 ražani			3
-raženi	74		2
+raženi	74		3
 reakcionarni	86		6
-reakcioni			2
+reakcioni			5
 reaktivni	148		4
-realistični	208		2
-realizovani	1752		2
+realistični	208		3
+realizovani	1752		3
 realni	5729		3
-rebreni			2
-recentni	32		2
-recesioni			2
-reciklažni			2
+rebreni			3
+recentni	32		3
+recesioni			5
+reciklažni			3
 reciklirani	176		3
-recipročni	34		2
-recitovani			2
+recipročni	34		3
+recitovani			3
 redni	966		2
 redovni	5926		3
-redukcioni		M	2
-redukovani	177		2
+redukcioni		M	5
+redukovani	177		3
 reduktivni			4
 referalni	14		4
-referentni	777		2
+referentni	777		3
 refleksivni	35		4
-refleksni	118		2
-reflektovani	29		2
+refleksni	118		3
+reflektovani	29		3
 reformni			3
 refreni	25		2
 regalni			2
-regenerativni	63		2
+regenerativni	63		3
 regionalni	11269		5
 regioni	3208		2
-registracioni	225		2
-registrovani	2947		2
-regresni			2
-regrutni	85		2
-regrutovani	208		2
-regulacioni	317		2
+registracioni	225		3
+registrovani	2947		3
+regresni			3
+regrutni	85		3
+regrutovani	208		3
+regulacioni	317		3
 regularni	590		4
-regulisani	693		2
-rehabilitacioni	224		2
-rejoni	48		2
+regulisani	693		3
+rehabilitacioni	224		3
+rejoni	48		3
 reklamni	1411		3
-rekonstruisani			2
-rekonstruktivni			2
-rekordni	673		2
-rekreacioni			2
-rekreativni	1005		2
+rekonstruisani			3
+rekonstruktivni			5
+rekordni	673		3
+rekreacioni			3
+rekreativni	1005		5
 rektalni	58		2
 rekurzivni	27		4
-relacioni		M	2
+relacioni		M	5
 relativni	433		4
 relejni			2
 relevantni	2026		2
 religiozni	1033		5
-reliktni	10		2
-reljefni	114		2
-relocirani			2
+reliktni	10		3
+reljefni	114		3
+relocirani			3
 remeni	26		3
 remećeni			4
-remontni	119		2
+remontni	119		3
 rendgeni			3
 renesansni	258		2
 reni		M	2
-renomirani	949		2
+renomirani	949		3
 renovirani	366		3
 rentabilni	37		4
-reparacioni		M	2
+reparacioni		M	3
 repni	47		2
-reportažni	11		2
+reportažni	11		3
 represivni	194		4
 reprezentativni	1604		6
 reprizni	34		3
-reprodukcioni			2
-reprodukovani	54		2
+reprodukcioni			3
+reprodukovani	54		3
 reproduktivni	343		5
 rerni	1716		2
 resorni	1324		2
 respiratorni	425		2
 restorani	2725		2
 retardirani	229		3
-retrospektivni	51		2
+retrospektivni	51		5
 reumatični			3
-reumatoidni	214		2
-reversni			2
-revidirani	212		2
+reumatoidni	214		3
+reversni			3
+revidirani	212		3
 revijalni	352		4
-revizioni	34		2
+revizioni	34		5
 revni	12		2
 revnosni	380		3
 revolucionarni	1676		7
 rezani	79		3
 rezbareni	26		3
-rezervisani	804		2
+rezervisani	804		3
 rezervni	2357		2
-rezidentni			2
+rezidentni			3
 rezidualni	75		5
-rezimirani	23		2
+rezimirani	23		3
 rezonantni	47		2
-rezoni	35		2
+rezoni	35		3
 rečeni	286		3
 rečenični	26		3
 rečni	777		2
 ređani			3
-ređeni			2
+ređeni			3
 rešavani	279		3
 rešeni	2593		3
-režirani	53		2
+režirani	53		3
 ribani	11		3
 ribolovni	147		4
-rigatoni			2
+rigatoni			3
 rigidni	190		3
 rigorozni	300		4
-riječani	12		2
+riječani	12		3
 rikni			2
 rimini	21		2
 rimljani			3
@@ -5452,17 +5452,17 @@ rodni	2384		2
 rodnini			2
 rodoljubni			4
 rodoslovni			4
-rogobatni	31		2
+rogobatni	31		3
 rokni	10		2
 roletni	289		3
 rolni	318		2
-romaneskni	71		2
+romaneskni	71		3
 romani	1789		2
 romantični	934		3
 roni	471		2
 rosini			2
-rotacioni	205		2
-rotirani	22		2
+rotacioni	205		5
+rotirani	22		3
 rođendani	251		4
 rođeni	6079		3
 rubini	127		2
@@ -5475,7 +5475,7 @@ rukometni	1449		4
 rukopisni	57		4
 rukovođeni	225		3
 rumeni	158		3
-rumuni			2
+rumuni			3
 rupetini	11		3
 ruralni	1937		2
 rusini			2
@@ -5484,9 +5484,9 @@ rutini	170		2
 ručni	2160		2
 rušeni	112		3
 ruševini	39		4
-ruženi			2
+ruženi			3
 ružni	726		2
-sabatini			2
+sabatini			3
 sabijeni	92		4
 sabini			2
 sabirani			4
@@ -5504,7 +5504,7 @@ sadržini	1061		4
 saglasni	2298		3
 sagledani	177		4
 sagni	31		2
-sagoni			2
+sagoni			3
 sagrađeni	352		3
 sahani			3
 sahrani	1992		3
@@ -5518,56 +5518,56 @@ sakupljani	65		3
 sakupljeni	498		4
 saliveni	11		4
 saloni	415		2
-samarićani			2
+samarićani			3
 samleveni	52		4
 samodopadni			3
 samohodni	59		4
-samohrani	402		2
-samoobmani	38		2
-samoodbrani	486		2
+samohrani	402		3
+samoobmani	38		3
+samoodbrani	486		3
 samopouzdani	61		4
 samoproglašeni	121		3
-samoproklamovani	124		2
+samoproklamovani	124		3
 samostalni	4551		4
 samostani	29		4
-samosvesni	146		2
-samosvojni	69		2
+samosvesni	146		4
+samosvojni	69		3
 samotni	31		3
 samoupravni	226		2
-samouslužni			2
+samouslužni			3
 samouvereni	368		4
 samovoljni	69		4
 samozadovoljni	61		4
 samozvani	684		4
-samrtni	68		2
-sanacioni	89		2
+samrtni	68		3
+sanacioni	89		5
 sani		M	2
-sanirani	152		2
+sanirani	152		3
 sanitarni	992		4
 sanjani	52		3
-saobrazni			2
+saobrazni			3
 saobraćajni	2434		5
-saobraženi			2
-saoni			2
-saoptuženi			2
+saobraženi			3
+saoni			3
+saoptuženi			3
 saopšteni	677		4
 saosećajni	88		5
 sapuni	293		2
 saraceni			4
-saračani			2
+saračani			3
 sarkastični	108		3
-sasecani			2
+sasecani			3
 sasečeni	15		4
-saslušani	558		2
+saslušani	558		3
 sastani			3
 sastavljani	30		4
 sastavljeni	728		4
 sastavni	11536		3
 sasušeni	38		4
 satani	54		2
-satanini			2
-saterani	97		2
-satirani			2
+satanini			3
+saterani	97		3
+satirani			3
 satirični	226		3
 satkani	63		3
 satni	144		2
@@ -5584,7 +5584,7 @@ savladani	150		3
 savremeni	8317		4
 savršeni	2330		3
 sazdani	145		3
-sazidani	40		2
+sazidani	40		3
 sazivani	15		3
 saznajni	121		3
 sazvani	27		3
@@ -5598,18 +5598,18 @@ sažeženi			4
 sceni	23368		2
 sebični	763		3
 seckani	264		3
-sedimentni	22		2
+sedimentni	22		3
 sedmični	83		3
-sedmočlani			2
+sedmočlani			3
 sedni	67		2
 sejmeni			3
 seksualni	4439		4
 sekularni	275		4
 sekundarni	1003		4
 sekvencijalni	104		5
-selekcioni			2
+selekcioni			5
 selektivni	411		4
-seleni			2
+seleni			3
 seljani	585		3
 seljačini			3
 semeni	38		3
@@ -5621,14 +5621,14 @@ senzibilni	75		4
 senzitivni	98		4
 senzorni	84		2
 separatni			4
-sertifikacioni			2
-sertifikovani	663		2
-servandoni			2
-servirani	61		2
-servisni	798		2
-sestričini			2
+sertifikacioni			3
+sertifikovani	663		3
+servandoni			3
+servirani	61		3
+servisni	798		3
+sestričini			3
 setni	92		2
-setveni			2
+setveni			3
 severni	3436		3
 severoistočni	202		3
 severozapadni	354		3
@@ -5640,43 +5640,43 @@ shrvani			3
 shvatani	21		3
 shvaćeni	349		3
 sidni			2
-sifoni	43		2
+sifoni	43		3
 signalni	144		2
-signirani			2
+signirani			3
 sigurni	15312		3
 sigurnosni	1492		3
 silazni	198		3
-silikatni			2
-silikoni	201		2
+silikatni			3
+silikoni	201		3
 silini	56		2
 silni	1467		2
 silovani	55		4
 simbolični	384		3
 simetrični	150		3
 simini			2
-simoni			2
+simoni			3
 simpatični	1036		3
 simulirani	55		3
 simultani	242		4
 sindikalni	1134		4
 singularni			4
-sinhroni	85		2
-sinhronizovani	271		2
+sinhroni	85		3
+sinhronizovani	271		3
 sini			2
 sinonimni	13		3
-sinoćni	162		2
-sinusni	74		2
+sinoćni	162		3
+sinusni	74		3
 sireni	49		2
 sirni	44		2
 siromašni	3436		3
-sirotani			2
+sirotani			3
 sirćetni			3
 sisni		M	2
 sistolni			2
 sitni	2264		2
 sitnini			2
-situacioni	129		2
-situirani	139		2
+situacioni	129		3
+situirani	139		3
 sićušni	259		3
 sižejni		M	2
 sjajni	4176		2
@@ -5704,11 +5704,11 @@ sklopljeni	479		3
 sklupčani	28		3
 skockani	42		3
 skokni	64		2
-skoncentrisani	349		2
+skoncentrisani	349		3
 skopčani	33		3
-skoreni			2
+skoreni			3
 skovani	30		3
-skovitlani			2
+skovitlani			3
 skočanjeni			4
 skočni	236		2
 skraćeni	863		3
@@ -5716,11 +5716,11 @@ skrbni			2
 skreni	63		2
 skrhani	43		3
 skrivani	65		3
-skriveni	1553		2
+skriveni	1553		3
 skrnavljeni			4
 skromni	1997		2
 skrpljeni			3
-skrušeni			2
+skrušeni			3
 skršeni	18		3
 skupini	434		3
 skupljani	44		3
@@ -5730,7 +5730,7 @@ skupoceni	428		3
 skupštini	40492		3
 skurilni			2
 skuvani	85		3
-skučeni	105		2
+skučeni	105		3
 slabašni	172		3
 slabini			2
 slaboumni	23		4
@@ -5745,19 +5745,19 @@ slanini	75		2
 slasni	37		2
 slatini	221		3
 slatkovodni	59		4
-slaveni			2
+slaveni			3
 slavini	53		2
 slavljeni	180		3
 slavni	3934		2
 slađani			3
-slepljeni	33		2
-sleporođeni			2
+slepljeni	33		3
+sleporođeni			3
 sletni	29		2
 slezini	79		2
 slikani	161		3
 slikovni	118		2
 slini	82		2
-sliveni	22		2
+sliveni	22		3
 slivni			2
 slizani			3
 slični	9375		2
@@ -5769,13 +5769,13 @@ slogotvorni			4
 slojni	18		2
 slomljeni	210		3
 sloni		M	2
-sloveni			2
+sloveni			3
 slovni	78		2
 složeni	1750		3
 složni	1048		2
 sluzni	15		2
 slučajni	1199		3
-sluđeni	200		2
+sluđeni	200		3
 slušani	41		3
 slušni	390		2
 službeni	6745		3
@@ -5783,7 +5783,7 @@ služeni	101		3
 smakni			2
 smanjeni	2013		3
 smanjivani	25		3
-smaragdni	24		2
+smaragdni	24		3
 smatrani	677		3
 smekšani			3
 smeni	4093		2
@@ -5795,33 +5795,33 @@ smetni			2
 smešni	1632		2
 smeštajni	821		3
 smešteni	4765		3
-smežurani	25		2
+smežurani	25		3
 smiljani			3
 smireni	559		3
-smisaoni	60		2
+smisaoni	60		3
 smisleni	212		3
 smišljani			3
 smišljeni		M	3
-smlavljeni			2
-smlaćeni			2
-smoreni	75		2
+smlavljeni			3
+smlaćeni			3
+smoreni	75		3
 smotani	95		3
-smotreni			2
+smotreni			3
 smradni	11		2
-smračeni			2
+smračeni			3
 smrskani	14		3
 smrskavani			2
 smrtni	1390		2
 smrtonosni	553		4
-smrvljeni	24		2
+smrvljeni	24		3
 smrzni			2
-smućeni			2
-smušeni	48		2
+smućeni			3
+smušeni	48		3
 snabdevani	35		3
 snabdeveni	280		4
-snaženi			2
+snaženi			3
 snažni	2316		2
-snegobrani			2
+snegobrani			3
 snežani			3
 snežni	757		2
 sni	119		1
@@ -5833,7 +5833,7 @@ snježni		J	2
 snuždeni	14		3
 sobni	278		2
 socijalni	17928		4
-sofisticirani	504		2
+sofisticirani	504		3
 solani	62		2
 solarni	2670		2
 solidarni	576		4
@@ -5843,11 +5843,11 @@ sonarni			2
 sondažni			3
 sonetni	21		3
 sonični			3
-sopoćani			2
+sopoćani			3
 soprani	16		2
 sopstveni	11882		3
-sorboni			2
-sortirani	78		2
+sorboni			3
+sortirani	78		3
 sortni			2
 sotoni	15		2
 sočni	161		2
@@ -5858,10 +5858,10 @@ spaljivani	79		3
 sparni	12		2
 spasavani	11		3
 spaseni	325		3
-spasonosni	273		2
+spasonosni	273		4
 spašeni	227		3
 specifični	2759		3
-specijalizovani	1849		2
+specijalizovani	1849		3
 specijalni	8401		4
 spektakularni	558		5
 spektralni	66		3
@@ -5875,22 +5875,22 @@ spljošteni	20		3
 spojeni	1006		3
 spojni	90		2
 spokojni	338		2
-spoljašni			2
+spoljašni			3
 spoljni	4948		2
 spomeni	110		3
 spominjani	150		4
-spomogni			2
+spomogni			3
 sponi	28		2
 spontani	947		3
 sporadični	253		3
-sporazumni	421		2
+sporazumni	421		4
 sporedni	861		3
 sporni	1937		2
-sporovozni			2
+sporovozni			3
 sposobni	7589		3
 spoznajni			3
 spratni	153		2
-spravljeni	29		2
+spravljeni	29		3
 spremani	42		3
 spremljeni	150		3
 spremni	29956		2
@@ -5899,7 +5899,7 @@ sprečavani	33		3
 sprečeni	606		3
 sprovedeni	886		4
 sprovođeni	130		3
-sprženi	29		2
+sprženi	29		3
 sputani	136		3
 spuštani	16		3
 spušteni	308		3
@@ -5914,9 +5914,9 @@ srebrni	1520		3
 sredini	20525		2
 središni			2
 srednjevekovni	451		2
-srednjoročni	307		2
+srednjoročni	307		3
 srednjovekovni	883		2
-sredovečni	324		2
+sredovečni	324		3
 sredozemni	19		4
 sretni	878		2
 srećni	7833		2
@@ -5925,31 +5925,31 @@ srkni			2
 srni	682		2
 srodni	502		2
 srozani	29		3
-srođeni			2
-srušeni	467		2
+srođeni			3
+srušeni	467		3
 srčani	2089		3
 stabilni	1085		3
-stacionirani	288		2
+stacionirani	288		3
 stadioni	505		4
-stagnantni			2
+stagnantni			3
 stajni	91		2
 stakleni	914		3
 stalni	7469		2
 staloženi	91		4
 stambeni	3795		3
 stameni	180		3
-standardizirani			2
-standardizovani	115		2
-standardni	5200		2
+standardizirani			3
+standardizovani	115		3
+standardni	5200		3
 stani	1169		2
 stanični	69		3
 starešini	280		3
 starini	28		2
 starodrevni	42		4
 staromodni	167		4
-starosni	140		2
+starosni	140		3
 starovekovni			2
-starozavetni			2
+starozavetni			3
 startni	518		2
 statični	215		3
 statusni	603		3
@@ -5960,28 +5960,28 @@ stegni	57		2
 stekni	28		2
 steni	1409		2
 stepeni	17186		3
-stereotipni	104		2
+stereotipni	104		3
 sterilni	223		2
 stesni	19		2
 stečajni	2551		3
 stečeni	529		3
-stešnjeni	46		2
+stešnjeni	46		3
 stidni	17		2
 stigni	20		2
 stihovani	11		2
 stihovni		M	2
-stimulativni	254		2
+stimulativni	254		5
 stisni	113		2
 stoglasni			3
 stojni			2
 stoletni	63		3
 stoljetni		J	3
 stolni	46		2
-stomačni	314		2
+stomačni	314		3
 stoni	1604		2
-stopirani	71		2
-stopostotni	232		2
-stoprocentni	103		2
+stopirani	71		3
+stopostotni	232		3
+stoprocentni	103		3
 stotini	46		3
 stočni	708		2
 stožerni	20		2
@@ -6006,36 +6006,36 @@ strukturni	493		2
 struni	23		2
 stručni	15101		2
 stršljeni	24		3
-stubačni			2
+stubačni			3
 studeni	237		3
-studiozni	40		2
+studiozni	40		3
 stvarani	201		3
 stvarni	4821		2
-stvarnosni			2
-stvoreni	3265		2
+stvarnosni			3
+stvoreni	3265		3
 subduralni	19		4
 subjektivni	1040		4
 sublimni			3
-subotičani			2
+subotičani			3
 subverzivni	118		4
-sudbeni	13		2
+sudbeni	13		3
 sudbini	4816		2
 sudbonosni	245		3
 sudni		M	2
-sugerisani	17		2
+sugerisani	17		3
 sugestivni	68		4
 sugrađani	3389		4
-suhozemni		J	2
+suhozemni		J	4
 suicidalni	17		5
 sujetni	389		3
 sujeverni	149		4
 sukcesivni	24		4
-sukneni	17		2
+sukneni	17		3
 sukobljeni	86		3
-sulfatni			2
+sulfatni			3
 sultani			3
 sumarni	114		2
-sumirani	136		2
+sumirani	136		3
 sumorni	224		3
 sumporni	56		2
 suncobrani	528		4
@@ -6045,23 +6045,23 @@ suočeni	2566		3
 superiorni	416		5
 superlativni			5
 supermeni	52		4
-supersonični	76		2
-suplementni			2
+supersonični	76		3
+suplementni			3
 suprotni	1296		3
 suprotstavljeni	456		4
 suptilni	232		3
 survani			3
 susedni	585		3
-suspendovani	370		2
+suspendovani	370		3
 suspenzivni	14		4
 susretni			3
-sustigni			2
+sustigni			3
 sutereni	23		4
 sutoni	18		3
 suvereni			4
 suvišni	441		3
 suvoparni	68		4
-suvozemni	32		2
+suvozemni	32		4
 suzani			3
 suzbijeni	45		4
 suzdržani	146		3
@@ -6075,7 +6075,7 @@ sužavani			3
 suženi	145		3
 svadbeni	359		3
 svakodnevni	5079		4
-svakovrsni	58		2
+svakovrsni	58		4
 svaljivani			2
 svani			2
 svareni	10		3
@@ -6083,20 +6083,20 @@ svedeni	788		3
 svemoćni	462		3
 svenarodni	82		4
 sveobuhvatni	1055		3
-sveprisutni	263		2
+sveprisutni	263		3
 svesni	21447		2
 svesrdni	12		3
 svestrani	484		3
 svetini	42		3
 svetkovini	117		4
 svetlani			3
-svetlosni	1065		2
+svetlosni	1065		3
 svetovni	308		2
 sveukupni	581		3
 svevremeni			4
 svezani	35		3
 svečani	2281		3
-svešteni	238		2
+svešteni	238		3
 svežini	156		2
 svikni			2
 svileni	252		3
@@ -6104,9 +6104,9 @@ svini	10		2
 svinjetini	31		4
 svirni			2
 svodni	14		2
-svojeručni	78		2
+svojeručni	78		3
 svojevoljni	30		4
-svojevrsni	3408		2
+svojevrsni	3408		4
 svojini	4103		2
 svojstveni	210		3
 svođeni			3
@@ -6118,20 +6118,20 @@ tabani	194		3
 tabelarni	203		4
 tablični	101		3
 tabloidni			4
-tabuisani			2
+tabuisani			3
 tacni			2
 tajanstveni	758		3
 tajfuni	53		2
 tajkuni	4163		2
-tajlanđani			2
+tajlanđani			3
 tajni	7898		2
 takni			2
 takozvani	6656		2
-takseni		M	2
+takseni		M	3
 taktilni			2
 taktični	76		3
 talasni	78		3
-talentovani	2380		2
+talentovani	2380		3
 talibani	724		2
 talismani	65		2
 talični			3
@@ -6139,38 +6139,38 @@ taložni			3
 tamani	78		3
 tamni	1480		2
 tamnini			2
-tamnozeleni	55		2
+tamnozeleni	55		3
 tamponi	94		2
 tanani	135		3
-tanjeni			2
+tanjeni			3
 tankozidni			4
-tanušni	32		2
+tanušni	32		3
 tarifni	1301		2
 tatini	71		2
 tatjani			3
 tavani	46		3
-taverni	436		2
+taverni	436		3
 tavni			2
 tazbini	57		3
 tačni	2177		2
 tašni			2
 taštini	84		2
 teatralni	53		4
-teksašani			2
+teksašani			3
 tekstilni	319		2
 tekstovni			2
 tekstualni			4
 tekućini	15		3
 telefoni	4994		2
-telekomunikacioni	482		2
-telekrani			2
+telekomunikacioni	482		3
+telekrani			3
 telesni	1083		3
 temeljni	962		3
 temeni		M	3
 temperamentni	182		3
 temperaturni	367		2
-temperovani			2
-tempirani	28		2
+temperovani			3
+tempirani	28		3
 temporalni	40		4
 teni		M	2
 terani	70		3
@@ -6183,10 +6183,10 @@ termalni	446		2
 terminalni			4
 termini	2647		2
 termogeni			4
-termoizolacioni			2
-termonuklearni	19		2
+termoizolacioni			3
+termonuklearni	19		3
 tesani	12		3
-teskobni	18		2
+teskobni	18		3
 tesni	143		2
 testamentarni	19		2
 testenini	56		2
@@ -6199,14 +6199,14 @@ tečni	1720		2
 tešeni			3
 težini	3394		2
 težišni	22		3
-tifusni			2
+tifusni			3
 tijani			3
 tikvani	10		3
 tikvini			2
 timareni			4
-timočani			2
+timočani			3
 timpani	14		2
-tipizirani	43		2
+tipizirani	43		3
 tipični	1295		3
 tirani	172		3
 tiražni	97		3
@@ -6221,23 +6221,23 @@ tkanini	144		3
 tmini	181		2
 tmurni	126		2
 toaletni	140		4
-tobogani	153		2
+tobogani	153		3
 toksini	394		2
 toksični	436		3
 tolerantni	766		2
-tolerisani	77		2
+tolerisani	77		3
 tonalni	22		2
 toni	1548		2
 toplani	769		2
 toplini	296		2
 topljeni	59		3
 toplokrvni	10		4
-toplotni	1019		2
+toplotni	1019		3
 toplovodni	94		4
 torpedni	19		2
-tortelini			2
+tortelini			3
 toskani			3
-tostirani			2
+tostirani			3
 totalitarni	403		5
 totalni	2472		3
 tovarni	328		2
@@ -6247,24 +6247,24 @@ tradicionalni	6651		6
 tragični	701		3
 trajektni			3
 trajni	2065		2
-trambulini			2
-trampolini			2
+trambulini			3
+trampolini			3
 transferni			2
-transkripcioni			2
+transkripcioni			5
 transmisioni			5
 transparentni	557		3
-transponirani			2
+transponirani			3
 transportni	856		3
-transportovani	174		2
-tranzicioni			2
+transportovani	174		3
+tranzicioni			5
 tranzitni	437		2
 tratini			3
-traumatizovani			2
+traumatizovani			3
 traumatični	60		3
 travni			2
-travuljini			2
+travuljini			3
 tračani	148		3
-traženi	2046		2
+traženi	2046		3
 trbušni	407		3
 trenažni	542		3
 trenirani	123		3
@@ -6277,15 +6277,15 @@ tretirani	1035		3
 tretmani	1464		2
 trezni	200		2
 trezveni	154		3
-trećerazredni	110		2
+trećerazredni	110		3
 trećini	673		2
 trgni	54		2
 trgovini	8988		4
 tribini	3832		2
 tribuni	65		2
 trijumfalni	174		4
-trikotažni			2
-trilioni	23		2
+trikotažni			3
+trilioni	23		3
 trivijalni	93		4
 trkni	19		2
 trobojni	21		2
@@ -6295,25 +6295,25 @@ trodimenzionalni	345		7
 trodnevni	751		2
 trofazni			3
 trofejni	390		2
-trojedini			2
-trojezični	27		2
+trojedini			3
+trojezični	27		3
 trojni	278		2
 trokrevetni			4
 trokrilni	48		2
-trokutni			2
+trokutni			3
 troletni			3
-trolisni			2
-tromesečni	455		2
+trolisni			3
+tromesečni	455		3
 tromotorni			4
-tronedeljni	80		2
+tronedeljni	80		3
 tronožni	10		3
 troplameni			4
-trosatni	43		2
+trosatni	43		3
 troslojni	60		2
-trosobni	80		2
+trosobni	80		3
 trostepeni			4
-trosunčani			2
-trougaoni			2
+trosunčani			3
+trougaoni			5
 trovani	31		3
 tročasovni	54		4
 tročlani	315		3
@@ -6336,28 +6336,28 @@ tuberkulozni	30		5
 tucani			3
 tulipani	11		4
 tuljani			3
-tulumini			2
+tulumini			3
 tumačeni	97		3
 tuni	14		2
-tunišani			2
+tunišani			3
 tupani			3
 turbani	20		2
 turobni	35		3
 tučani			3
 tučeni	88		3
 tuđini	525		2
-tužbeni	1123		2
+tužbeni	1123		3
 tuženi	3118		3
 tužni	1584		2
 tvarni	16		2
-tvorbeni	21		2
+tvorbeni	21		3
 tvoreni			3
 tvorevini	545		4
 tvrdokorni	137		4
 tvrđavni			2
 ubacivani	45		3
 ubačeni	381		3
-ubeleženi	34		2
+ubeleženi	34		3
 ubeđeni	2477		4
 ubijani	857		3
 ubijeni	3093		4
@@ -6366,11 +6366,11 @@ ubitačni	86		4
 ublažavani			3
 ublaženi	142		3
 ubodeni	20		4
-ubodni			2
+ubodni			3
 ubojni		M	2
 ubrani	73		3
-ubrljani			2
-ubrojani	38		2
+ubrljani			3
+ubrojani	38		3
 ubrzani	793		3
 ucenjeni	281		3
 ucenjivani	38		3
@@ -6384,67 +6384,67 @@ udarani	21		4
 udareni	206		4
 udarni	710		2
 udavljeni	17		3
-udeni			2
-udesni			2
-udešavani			2
+udeni			3
+udesni			3
+udešavani			3
 udešeni	22		4
-udijeljeni		J	2
+udijeljeni		J	3
 udivljeni	16		4
 udobni	372		3
 udolini	50		4
-udovoljeni			2
+udovoljeni			3
 udrobljeni			4
 udruženi	1501		3
-udubini			2
+udubini			3
 udubljeni			4
 uduvani			2
 udvojeni	67		4
-ugaoni	387		2
+ugaoni	387		3
 ugašeni	411		3
 ugaženi	12		4
 uglavljeni	16		4
-uglačani	32		2
+uglačani	32		3
 uglađeni	180		4
 ugledni	3798		3
 ugljeni	1013		3
-ugljenisani			2
-ugljenični	63		2
+ugljenisani			3
+ugljenični	63		3
 ugneždeni			4
-ugnjetavani	62		2
+ugnjetavani	62		3
 ugodni	196		3
 ugojeni			4
-ugoni			2
+ugoni			3
 ugovoreni	575		3
 ugovorni	489		4
 ugošćeni	103		3
 ugrabljeni			4
-ugravirani	48		2
+ugravirani	48		3
 ugrađeni	2279		3
 ugriženi			4
 ugrožavani	16		3
 ugroženi	4083		3
 ugušeni	100		3
-ugušivani			2
+ugušivani			3
 uhapšeni	3864		4
-uhodani	113		2
+uhodani	113		3
 uhranjeni	64		4
 uhvaćeni	1150		4
-uigrani	179		2
+uigrani	179		3
 ujedeni	31		4
 ujedini	958		2
 ujedinjeni	2860		3
-ujednačeni	197		2
+ujednačeni	197		3
 ujni	46		2
-ukaljani	19		2
-ukalupljeni	18		2
+ukaljani	19		3
+ukalupljeni	18		3
 ukazani	19		3
 ukazni			3
 ukidani			3
 ukini	36		3
-ukiseljeni	13		2
+ukiseljeni	13		3
 uklanjani	36		4
-uklapani			2
-uklesani	92		2
+uklapani			3
+uklesani	92		3
 uklješteni			4
 uključeni	7671		4
 uključivani	59		3
@@ -6452,12 +6452,12 @@ ukloni	3415		2
 uklonjeni	843		3
 uklopljeni	234		4
 uknjiženi	128		4
-ukokani			2
+ukokani			3
 ukopani	238		3
-ukopni			2
+ukopni			3
 ukoreni	103		2
 ukorenjeni	225		3
-ukoričeni	35		2
+ukoričeni	35		3
 ukotvljeni	24		4
 ukočeni	117		3
 ukošeni			4
@@ -6470,60 +6470,60 @@ ukrućeni	29		3
 ukršteni	113		3
 ukupni	4720		3
 ukusni	461		3
-ukućani	1282		2
+ukućani	1282		3
 ulazni	1165		3
 ulepljeni	18		4
 ulepšani	27		3
-ulickani			2
+ulickani			3
 ulični	1361		3
 uljani	122		3
 uljni	194		2
 uljudni	84		3
-uljuljkani	115		2
-uljuljkivani			2
+uljuljkani	115		3
+uljuljkivani			3
 ulovljeni	95		3
 uloženi	1190		3
 uložni			3
-ultimativni	491		2
+ultimativni	491		5
 ultrazvučni	1099		4
 ulubljeni	13		4
-ulupani			2
+ulupani			3
 umanjeni	489		4
-umazani	33		2
+umazani	33		3
 umereni	935		4
-umesani			2
+umesani			3
 umetni	58		3
-umešani	969		2
-umešni	66		2
+umešani	969		3
+umešni	66		3
 umilni	80		2
 umireni	24		4
 umiveni	85		4
 umišljeni	205		4
 umjetni	51	J	3
 umni	554		2
-umnožavani			2
+umnožavani			3
 umnoženi	49		4
 umobolni	47		4
 umoljeni			4
 umoreni	50		3
 umorni	2532		3
-umotani	91		2
+umotani	91		3
 umočeni	10		4
 umreženi	403		4
-umrljani	35		2
+umrljani	35		3
 umrtvljeni	65		4
-umukni	106		2
+umukni	106		3
 umućeni	29		4
 unajmljeni	58		3
 unakaženi	78		3
-unakrsni	35		2
-unapređeni	824		2
+unakrsni	35		4
+unapređeni	824		3
 uneseni	126		4
-unesrećeni	86		2
-unezvereni	38		2
+unesrećeni	86		3
+unezvereni	38		3
 uni	285		2
-uniformisani	236		2
-unikatni	507		2
+uniformisani	236		3
+unikatni	507		3
 unitarni	20		4
 univerzalni	2511		5
 uništavani	150		3
@@ -6533,63 +6533,63 @@ uniženi	35		3
 unosni	86		3
 unošeni	45		3
 uobičajeni	2805		3
-uobličeni	106		2
+uobličeni	106		3
 uobraženi	118		3
 uokvireni	87		3
 uopšteni	173		4
 uočavani			3
 uočeni	704		3
-upadni	62		2
-upakovani	306		2
+upadni	62		3
+upakovani	306		3
 upaljeni	137		3
 upamćeni	287		3
-uparađeni			2
+uparađeni			3
 upareni	161		4
 upereni	240		4
-upetljani	52		2
+upetljani	52		3
 upijeni			4
 upisani	1831		3
 upisivani	67		3
-upisni	436		2
+upisni	436		3
 upitani	284		3
 upitni	92		2
-uplakani	77		2
+uplakani	77		3
 uplatni	101		2
 uplaćeni	468		4
-uplaćivani	161		2
+uplaćivani	161		3
 uplašeni	1331		4
 upleteni	372		4
-upodobljeni			2
-upokojeni	96		2
+upodobljeni			3
+upokojeni	96		3
 uporedni	784		4
-upoređeni	123		2
+upoređeni	123		3
 uporišni			4
 uporni	2165		3
 uposleni	190		3
-upotpuni	448		2
+upotpuni	448		3
 upotrebljeni	918		3
-upotrebni	182		2
+upotrebni	182		3
 upozoreni	505		3
 upravljani	62		4
 upravljeni	49		4
 upravni	10160		3
 uprazni			3
 upražnjeni	42		4
-upregni			2
+upregni			3
 upriličeni	72		4
 uprljani	32		3
 upropašteni	26		3
-upropašćeni	70		2
+upropašćeni	70		3
 uprošćeni	40		4
-upucani	26		2
-uputni			2
+upucani	26		3
+uputni			3
 upućeni	4714		3
 upućivani	271		3
 upušteni			4
 uragani	135		4
 urani	20		3
 uravnoteženi	276		3
-urazumljeni			2
+urazumljeni			3
 urađeni	2045		3
 urbani	1807		3
 uredni	542		3
@@ -6600,39 +6600,39 @@ uređeni	1233		3
 uređivani	23		3
 urgentni	1387		2
 urinarni			4
-urnebesni	103		2
+urnebesni	103		4
 urni	80		2
 uroni	102		2
 uronjeni	106		3
 urođeni	458		4
 uručeni	830		3
 urvini			2
-usaglašeni	797		2
+usaglašeni	797		3
 usamljeni	1856		3
 usavršavani	22		4
 usavršeni	131		3
 usađeni	85		3
-usedni			2
+usedni			3
 useljeni	129		3
 usečeni	27		4
 ushićeni	138		3
 usidreni	94		4
-usijani	97		2
+usijani	97		3
 usiljeni	56		4
 usisani	24		4
-usisni	111		2
+usisni	111		3
 usitni	86		2
 usitnjeni	108		4
-uskladišteni	110		2
+uskladišteni	110		3
 usklađeni	1115		4
 usklični			3
 uskogrudni			4
-uskomešani			2
-uskovitlani			2
+uskomešani			3
+uskovitlani			3
 uskraćeni	1267		3
-uskrsni	13		2
-uslikani	69		2
-uslišavani			2
+uskrsni	13		3
+uslikani	69		3
+uslišavani			3
 uslišeni	35		4
 uslovljeni	603		4
 uslovni	574		2
@@ -6642,11 +6642,11 @@ usmeni	1990		3
 usmeravani	75		3
 usmereni	2480		4
 usmrćeni	28		4
-usneni		M	2
+usneni		M	3
 usni	326		2
 usoljeni	13		4
 uspaljeni			4
-uspaničeni	54		2
+uspaničeni	54		3
 uspavani	270		3
 uspešni	6506		3
 uspni			2
@@ -6657,50 +6657,50 @@ uspostavljeni	905		4
 uspravljeni	20		4
 uspravni	166		3
 usputni	197		3
-usrdni	33		2
-usredsređeni			2
+usrdni	33		3
+usredsređeni			3
 usrećeni			4
 ustaljeni	273		4
 ustani	752		3
 ustavni	9455		3
 ustavotvorni			2
-ustoličeni	39		2
+ustoličeni	39		3
 ustrajni	28		3
 ustrašeni	23		4
 ustreljeni	20		4
 ustremljeni	16		4
 ustrojeni	65		3
 ustupljeni	165		3
-usukani			2
+usukani			3
 usvajani	115		3
 usvojeni	3015		4
-utamničeni	41		2
-utančani			2
-utegni			2
-utelovljeni			2
-utemeljeni	389		2
-uterani	19		2
+utamničeni	41		3
+utančani			3
+utegni			3
+utelovljeni			3
+utemeljeni	389		3
+uterani	19		3
 utešeni	20		4
 utešni	109		3
-uticajni	1198		2
-utihni			2
+uticajni	1198		3
+utihni			3
 utilitarni	52		2
-utišani	25		2
+utišani	25		3
 utkani	152		3
 utkivani			2
 utopljeni	64		3
 utovareni	14		4
 utovarni	48		4
 utovljeni	15		3
-utrenirani	59		2
+utrenirani	59		3
 utrini			2
-utrobni			2
+utrobni			3
 utrošeni	160		3
 utučeni	97		3
 utvarni			2
 utvrđeni	2336		3
 utvrđivani	33		4
-uvaljani	12		2
+uvaljani	12		3
 uvažavani	101		3
 uvaženi	3429		3
 uvedeni	875		4
@@ -6711,7 +6711,7 @@ uvezeni	328		3
 uvezivani			3
 uvećani	749		3
 uvećavani	17		3
-uvežbani	157		2
+uvežbani	157		3
 uvijeni	117		4
 uviđavni	35		4
 uvlačeni			3
@@ -6728,25 +6728,25 @@ uzajamni	341		4
 uzajmljeni			4
 uzaludni	384		4
 uzani	210		3
-uzastopni	921		2
+uzastopni	921		3
 uzbuni	104		3
 uzbunjeni	14		3
 uzburkani	38		4
 uzbuđeni	899		3
 uzdahni	12		2
-uzdigni	26		2
-uzdisajni			2
-uzdrmani	114		2
-uzdržani	513		2
+uzdigni	26		3
+uzdisajni			3
+uzdrmani	114		3
+uzdržani	513		3
 uzdužni	101		3
 uzgajani	66		3
 uzgojeni	12		3
 uzgojni	78		2
 uzgredni	74		3
-uzidani	31		2
+uzidani	31		3
 uzimani	297		4
-uziđivani			2
-uzjoguni	31		2
+uziđivani			3
+uzjoguni	31		3
 uzlazni	248		3
 uzmakni			2
 uznemireni	707		3
@@ -6755,21 +6755,21 @@ uzorni	276		2
 uzrasni			3
 uzrokovani	298		5
 uzročni	69		3
-uzrujani	54		2
-uzurpirani	40		2
+uzrujani	54		3
+uzurpirani	40		3
 uzvikni			2
-uzvisini	49		2
+uzvisini	49		3
 uzvišeni	607		3
 uzvodni	13		3
-uzvratni	76		2
-ućutkani	61		2
-ućutkivani			2
-učaureni			2
+uzvratni	76		3
+ućutkani	61		3
+ućutkivani			3
+učaureni			3
 učeni	951		3
-učestani			2
+učestani			3
 učini	20673		2
 učinjeni	759		3
-učitani	57		2
+učitani	57		3
 učlani	452		2
 učlanjeni	133		3
 učvršćeni	72		3
@@ -6778,78 +6778,78 @@ ušiveni	16		4
 ušni	162		2
 ušteđeni	48		3
 uštini			2
-uštipni			2
-uštirkani	16		2
+uštipni			3
+uštirkani	16		3
 uštogljeni	69		4
 ušuškani	205		4
 uščuvani			3
 užareni	112		4
 užasni	443		3
-uženi			2
+uženi			3
 užeženi			4
 užini	29		3
-užičani			2
-užurbani	152		2
+užičani			3
+užurbani	152		3
 vagani			3
 vaginalni	633		4
 vagini	309		2
 vagoni	414		2
 vajani			3
 vakcini	307		2
-vakcinisani	232		2
-valentini			2
-validni	422		2
+vakcinisani	232		3
+valentini			3
+validni	422		3
 valjani	602		3
-valutni	674		2
-vanbračni	292		2
+valutni	674		3
+vanbračni	292		3
 vancrkveni			4
 vani	208		2
 vanknjiževni			4
-vanmaterični			2
+vanmaterični			3
 vannastavni			4
-vanparnični	67		2
-vanredni	3142		2
-vantelesni			2
+vanparnični	67		3
+vanredni	3142		3
+vantelesni			4
 vanvremeni			4
 vapneni			3
 varani	42		3
 vareni	21		3
-varijantni		M	2
-varošani			2
+varijantni		M	3
+varošani			3
 vaseljeni			4
 vasioni	446		2
-vaskrsni	56		2
+vaskrsni	56		3
 vaskularni	227		4
-vaspitani	426		2
+vaspitani	426		3
 vaspitni	602		2
 vatni			2
 vatreni	1289		3
-vatrogasni	411		2
+vatrogasni	411		4
 vazalni	122		2
 vazduhoplovni	346		2
-vazdušni	3028		2
+vazdušni	3028		3
 vađeni	153		3
 važni	7441		2
 vedrini	60		2
 vegani	101		3
-vegetativni	123		2
+vegetativni	123		5
 vekni	242		2
 vekovni	430		2
 velarni			2
-veleglasni			2
-velelepni	384		2
-velemoćni			2
-veleumni			2
-velečasni	93		2
+veleglasni			4
+velelepni	384		3
+velemoćni			3
+veleumni			4
+velečasni	93		4
 velikani	886		2
 velikodušni	262		3
-velikoučeni			2
-veličani	18		2
+velikoučeni			3
+veličani	18		3
 veličanstveni	1057		3
 veličini	9173		2
 velšani			3
 venerični			3
-ventilacioni	316		2
+ventilacioni	316		3
 ventilni			2
 ventrikularni			2
 venčani	379		3
@@ -6857,23 +6857,23 @@ veprini			3
 verbalni	1095		2
 vereni	69		3
 veridbeni		M	4
-verifikacioni	111		2
+verifikacioni	111		3
 verižni			3
 verni	4077		2
 verodostojni	242		2
-veroispovedni			2
-verolomni	11		2
-veronaučni			2
-veroni			2
-verovatni	359		2
+veroispovedni			3
+verolomni	11		4
+veronaučni			3
+veroni			3
+verovatni	359		3
 vertikalni	874		4
 verzalni			2
 vesni		M	2
 vesterni	44		3
 veterani	1666		2
 veterini	214		2
-vetreni		M	2
-vetrometini	323		2
+vetreni		M	3
+vetrometini	323		3
 vezani	8809		3
 vezeni	85		3
 vezivani	55		3
@@ -6884,7 +6884,7 @@ večini			2
 večni	3061		2
 vešani	19		3
 veštini	1074		2
-vibracioni			2
+vibracioni			5
 vidni	252		2
 vikarni	323		2
 vikni	18		2
@@ -6892,72 +6892,72 @@ vilini	19		3
 vilični		M	3
 vini			2
 vinorodni	10		4
-violentni			2
-violini	348		2
+violentni			3
+violini	348		3
 viralni	112		2
 virtuelni	2075		4
-virusni	266		2
+virusni	266		3
 visini	17155		2
-visokokvalifikovani	101		2
+visokokvalifikovani	101		3
 visokoparni			2
-visokorodni			2
-visokostručni	82		2
-visokoumni	21		2
-visokoučeni			2
+visokorodni			3
+visokostručni	82		3
+visokoumni	21		3
+visokoučeni			3
 visoravni	1121		4
 vispreni	139		3
 vitalni	1078		3
-vitamini	1712		2
+vitamini	1712		3
 vitlani			3
 vitrini	209		2
-vizirani			2
+vizirani			3
 vizni	361		2
 vizuelni	3483		4
 vični	354		2
 viđani	54		3
 viđeni	1522		3
-višebajtni			2
-višebojni			2
+višebajtni			3
+višebojni			3
 višecevni			4
 višednevni	253		4
-višefazni			2
-višekratni			2
-višemesečni			2
-višenacionalni			2
-višenitni			2
-višerečeni			2
-višesatni	73		2
-višeslojni	194		2
-višestepeni			2
+višefazni			3
+višekratni			3
+višemesečni			5
+višenacionalni			3
+višenitni			3
+višerečeni			3
+višesatni	73		3
+višeslojni	194		3
+višestepeni			3
 višestrani	44		3
-višetomni		M	2
+višetomni		M	4
 viševekovni			2
 višeznačni	53		3
-višečlani	20		2
+višečlani	20		3
 vladavini	1246		4
-vladikini			2
+vladikini			3
 vladini	529		3
-vladičini			2
+vladičini			3
 vlastelini			2
 vlažni	491		2
 vodeni	2365		3
-vodenični	66		2
+vodenični	66		3
 vodni	510		2
 vodootporni	203		2
 vodoplavni			4
-vodoprivredni			2
+vodoprivredni			3
 vodoravni	28		4
 vodovodni	195		4
 vojini			2
 vojni	11788		2
-vojvodini	1132		2
-vojvođani			2
+vojvodini	1132		3
+vojvođani			3
 vokalni	457		2
 vokativni		M	4
 voljeni	1169		3
 voljni	1763		2
 volumeni	34		3
-volšebni	42		2
+volšebni	42		3
 vozni	1304		2
 voćni	1215		2
 vođeni	3066		3
@@ -6967,18 +6967,18 @@ vrani	322		2
 vratni	172		2
 vraćani	84		3
 vraćeni	1742		3
-vračeni			2
-vrbeni			2
+vračeni			3
+vrbeni			3
 vrbovani	39		2
 vredni	4391		2
-vrednosni	1187		2
+vrednosni	1187		3
 vrednovani	180		4
 vrelini	108		2
 vremeni		M	3
 vremešni	376		3
 vređani	60		3
 vrhovni	5833		2
-vrhuni			2
+vrhuni			3
 vrisni			2
 vrletni	10		3
 vrlini	512		3
@@ -6991,7 +6991,7 @@ vršidbeni		M	4
 vršini		M	2
 vršni	87		2
 vrščani			3
-vujičini			2
+vujičini			3
 vulgarni	218		2
 vulkani	311		2
 vuneni	173		3
@@ -7001,8 +7001,8 @@ vučni	55		2
 zabavljeni	92		4
 zabavni	2466		3
 zabačeni	69		4
-zabeleženi	1623		2
-zabilježeni	115	J	2
+zabeleženi	1623		3
+zabilježeni	115	J	3
 zabodeni			3
 zaboravljeni	1679		4
 zaboravni	190		4
@@ -7010,20 +7010,20 @@ zabrani	7634		3
 zabranjeni	1546		3
 zabrini	12		3
 zabuni	157		3
-zaceni			2
+zaceni			3
 zacrni	52		2
 zacrtani	359		4
 zacrveni	146		4
 zadani	46		3
 zadavljeni			3
-zadeni	41		2
-zadigni			2
-zadihani	84		2
+zadeni	41		3
+zadigni			3
+zadihani	84		3
 zadimljeni	21		4
 zadivljeni	320		3
-zadnjonepčani		M	2
-zadobijeni	10		2
-zadocni			2
+zadnjonepčani		M	3
+zadobijeni	10		3
+zadocni			3
 zadojeni	160		4
 zadovoljeni	539		3
 zadovoljni	19090		4
@@ -7032,79 +7032,79 @@ zadržani	542		3
 zadubljeni	15		4
 zadužbini	955		4
 zaduženi	3937		4
-zagarantovani	238		2
+zagarantovani	238		3
 zagađeni	194		4
 zaglavljeni	305		3
-zagledani	224		2
+zagledani	224		3
 zaglibljeni	44		3
 zaglupljeni	32		4
-zaglušni			2
+zaglušni			3
 zagonetni	241		4
-zagranični		M	2
+zagranični		M	3
 zagrađeni			3
-zagrejani	252		2
+zagrejani	252		3
 zagrepčani	118		4
 zagrevani	18		2
 zagrijani	18	J	4
 zagriženi	203		4
 zagrljeni	379		4
 zagrni			2
-zagrobni	198		2
+zagrobni	198		3
 zagubljeni	40		4
 zagušeni	47		4
-zahladni	94		2
+zahladni	94		3
 zahtevani	166		3
 zahtevni	713		2
 zahvalni	2863		2
 zahvaćeni	430		4
-zaigrani	20		2
-zainteresovani	17678		2
+zaigrani	20		3
+zainteresovani	17678		3
 zajamčeni	13		4
-zajapureni	57		2
+zajapureni	57		3
 zajemčeni	12		4
 zakasni	413		2
-zakazani	970		2
+zakazani	970		3
 zakačeni	92		4
 zakidani			3
-zakladni			2
+zakladni			3
 zaklani	92		3
-zaključani	235		2
+zaključani	235		3
 zaključeni	513		3
 zaključni	109		3
 zakloni	214		3
 zaklonjeni	108		3
 zaklopljeni			4
-zaklopni			2
+zaklopni			3
 zakoni	14959		3
 zakonodavni	1131		5
 zakopani	186		3
 zakopavani	20		3
-zakopčani	33		2
+zakopčani	33		3
 zakošeni			4
 zakrivljeni	125		4
 zakrpljeni	30		4
 zakrvljeni	10		4
 zakrčeni	57		4
-zakucani	50		2
+zakucani	50		3
 zakulisni	45		4
 zakuni	48		2
-zakupni			2
-zalegni			2
+zakupni			3
+zalegni			3
 zalepljeni	146		4
 zalečeni			4
 zaleđeni	166		4
-zaleđini	43		2
+zaleđini	43		3
 zalivani			2
 zaliveni	136		4
 zalivni	136		2
 zalizani	25		3
 zaljubljeni	1528		4
 založni	167		3
-zaludni	92		2
+zaludni	92		3
 zaluđeni	129		4
 zamagljeni	58		4
 zamahni	11		2
-zamaskirani	46		2
+zamaskirani	46		3
 zamašni	34		3
 zameni	7641		3
 zamenjeni	1208		3
@@ -7115,79 +7115,79 @@ zamišljeni	655		4
 zamoljeni	379		3
 zamoreni	46		4
 zamorni	42		2
-zamotani	25		2
+zamotani	25		3
 zamračeni	19		4
-zamrljani			2
+zamrljani			3
 zamrzni			3
 zamršeni	86		4
-zamukni			2
+zamukni			3
 zamućeni	40		3
 zanemareni	299		3
 zaneseni	163		4
-zanosni	87		2
-zaobilazni	100		2
-zaobiđeni	88		2
+zanosni	87		3
+zaobilazni	100		3
+zaobiđeni	88		3
 zaobljeni	263		4
 zaodeni			4
 zaokreni			4
 zaokruženi	202		3
-zaokupljeni	410		2
-zaostavštini	316		2
+zaokupljeni	410		3
+zaostavštini	316		3
 zaoštreni	64		4
 zapadni	7170		3
-zapakovani	61		2
+zapakovani	61		3
 zapaljeni	198		3
 zapamćeni	177		3
 zapanjeni	429		3
 zapaženi	611		4
-zapeni	31		2
-zapenušani			2
-zapetljani	12		2
-zapećaćeni			2
-zapečaćeni	93		2
+zapeni	31		3
+zapenušani			3
+zapetljani	12		3
+zapećaćeni			3
+zapečaćeni	93		3
 zapečeni	49		4
 zapisani	274		3
 zapisivani	11		3
 zapitani	26		3
 zaplašeni	135		4
-zapleni	269		2
+zapleni	269		3
 zaplenjeni	148		4
 zapleteni	47		4
-zapljeni			2
+zapljeni			3
 zapni	15		2
 zapodeni			4
 zaposleni	28540		4
 zapostavljeni	400		4
 zapovedni	32		4
 započni	50		2
-zapremini	239		2
-zaprepašteni	43		2
-zaprepašćeni	295		2
-zapretani			2
+zapremini	239		3
+zaprepašteni	43		3
+zaprepašćeni	295		3
+zapretani			3
 zaprežni			3
 zaprljani	50		3
 zapunjeni			4
 zapušeni	77		4
 zapuštani			3
 zapušteni	426		3
-zaravni	376		2
+zaravni	376		3
 zarazni	176		3
 zarađeni	277		3
 zaraženi	1067		4
-zarobljavani	10		2
+zarobljavani	10		3
 zarobljeni	1303		4
-zaroni	298		2
+zaroni	298		3
 zaronjeni	11		4
 zarumeni	59		4
-zarumenjeni			2
+zarumenjeni			3
 zaručeni			4
 zasađeni	126		3
 zasebni	302		3
-zasejani	46		2
+zasejani	46		3
 zaseni	253		3
 zasenjeni	35		4
 zasečeni	19		4
-zasipani	44		2
+zasipani	44		3
 zasićeni	99		4
 zaslađeni	75		4
 zaslepljeni	393		4
@@ -7202,13 +7202,13 @@ zastavni			2
 zastrani	38		3
 zastrašeni	125		4
 zastupljeni	2766		3
-zasukani			2
+zasukani			3
 zasuni			3
 zatalasani	11		3
 zatamni	68		3
 zatamnjeni	72		4
 zataškani	29		4
-zategni			2
+zategni			3
 zatezni			3
 zatečeni	920		4
 zatiljni			2
@@ -7217,10 +7217,10 @@ zatočeni	258		3
 zatravljeni	12		4
 zatraženi	62		3
 zatrovani	132		3
-zatrpani	579		2
-zatrpavani	30		2
-zatrudni	396		2
-zatucani			2
+zatrpani	579		3
+zatrpavani	30		3
+zatrudni	396		3
+zatucani			3
 zatureni	37		4
 zatvarani	202		3
 zatvoreni	4166		4
@@ -7229,39 +7229,39 @@ zaustavni	160		4
 zauzdani	10		3
 zavaljeni	141		4
 zavarani	20		4
-zavađani			2
+zavađani			3
 zavađeni	105		4
 zavedeni	461		4
-zavejani	237		2
+zavejani	237		3
 zavetni	137		3
 zavetrini	124		4
 zavezani	25		3
 zavidni	370		3
 zavijeni	32		4
 zavisni	1432		3
-zavičajni	582		2
+zavičajni	582		3
 zavojni			2
 zavođeni			3
-zavrbovani	16		2
+zavrbovani	16		3
 zavrni	30		2
 završeni	5172		4
 završni	7212		2
 zazeleni	34		4
-zazidani	37		2
-zazvoni	481		2
+zazidani	37		3
+zazvoni	481		3
 začarani	1045		3
 začepljeni	39		4
 začetni		M	3
-začešljani			2
+začešljani			3
 začini	1102		3
 začinjeni	102		3
 začuđeni	277		4
-zašećereni	19		2
+zašećereni	19		3
 zašiljeni	52		3
 zašiveni	11		4
 zaštitni	4551		3
 zaštićeni	4297		3
-zbačeni	58		2
+zbačeni	58		3
 zbijeni	140		3
 zbirni	443		2
 zbliženi	12		3
@@ -7273,50 +7273,50 @@ zbuni	731		2
 zbunjeni	1461		3
 zbunjivani			3
 zdelični		M	3
-zdravoumni			2
+zdravoumni			4
 zdravstveni	8100		3
-zdrobljeni	17		2
+zdrobljeni	17		3
 združeni	153		3
 zdušni	16		2
 zeleni	7863		3
 zemljani	930		3
 zemljišni	256		3
 zemljopisni	17		4
-zemljotresni		M	2
+zemljotresni		M	4
 zemni	542		2
 zemnorodni			4
 zezni			2
-zečetini			2
+zečetini			3
 zgađeni	50		3
-zgaženi	45		2
+zgaženi	45		3
 zglobni	141		2
-zgnječeni	30		2
+zgnječeni	30		3
 zgodni	580		2
-zgomilani			2
+zgomilani			3
 zgrabljeni			3
 zgroženi	234		3
-zgrčeni	58		2
-zgubidani	25		2
-zgureni			2
+zgrčeni	58		3
+zgubidani	25		3
+zgureni			3
 zgužvani	46		3
 zidani	185		3
 zidini			3
 zidni	499		2
 zimzeleni	52		4
 zlatni	6284		2
-zlatoruni			2
-zlatotkani			2
+zlatoruni			3
+zlatotkani			3
 zlaćani	15		3
 zlaćeni			3
 zlobni	314		2
 zloglasni	353		3
 zlokobni	133		3
-zlokućani			2
+zlokućani			3
 zlonamerni	751		2
 zlonaravni			4
 zloslutni	55		3
-zlosmradni			2
-zlosrećni			2
+zlosmradni			3
+zlosrećni			3
 zlostavljani	231		4
 zlovoljni	23		2
 zloćudni	204		3
@@ -7346,7 +7346,7 @@ zvučni	1759		2
 ćerkini			2
 ćirilični	424		3
 ćurani			3
-čajetini			2
+čajetini			3
 čajni	60		2
 čapljini			2
 čarni		M	2
@@ -7358,22 +7358,22 @@ zvučni	1759		2
 čedni	35		2
 čekani	73		3
 čekovni	10		2
-čeličani	84		2
+čeličani	84		3
 čelični	712		3
 čelni	1095		2
 čemerni	28		2
 čeoni	143		3
 česni			2
 četni		M	2
-četvorini			2
+četvorini			3
 četvorni			2
 četvoromesečni			3
-četvoronožni	71		2
-četvorotaktni		M	2
-četvorougaoni			2
+četvoronožni	71		3
+četvorotaktni		M	3
+četvorougaoni			3
 četvrtini	3223		3
 čezni			2
-čečeni			2
+čečeni			3
 čini	117815		2
 činjeni	273		3
 činjenični	133		4
@@ -7392,24 +7392,24 @@ zvučni	1759		2
 čudotvorni	216		4
 čudovišni	64		4
 čujni	58		2
-čukaričani			2
+čukaričani			3
 čulni	233		2
 čuvani	305		3
 čuvarni			2
 čuveni	9702		3
-čuvstveni			2
+čuvstveni			3
 čučni	18		2
 čvorišni			3
 čvorni			2
 čvrstini	161		3
 đakoni	200		3
 đani			2
-đenovljani			2
+đenovljani			3
 đerdani	29		2
 đogani			3
 đovani			3
 šabani			3
-šabloni	258		2
+šabloni	258		3
 šaljivčini			3
 šamani	120		2
 šampinjoni	157		2
@@ -7424,18 +7424,18 @@ zvučni	1759		2
 šedrvani			2
 šejtani	31		2
 šestodnevni			4
-šestomesečni	418		2
+šestomesečni	418		5
 šećerani	116		2
 šećerni	142		2
 šibani	20		3
 šibni	18		2
-šifrirani			2
+šifrirani			3
 šifrovani	128		2
 šikanirani	67		3
 šini	79		2
 šireni	12		3
 širini	1446		2
-širokopojasni			2
+širokopojasni			3
 šivani			3
 šiveni			3
 šišani	12		3
@@ -7446,9 +7446,9 @@ zvučni	1759		2
 šljunčani			3
 šmokljani			3
 šmrkni			2
-šoferšajbni	82		2
+šoferšajbni	82		3
 šokantni	186		2
-šokirani	848		2
+šokirani	848		3
 špijuni	452		2
 štabni		M	2
 štafetni	30		3
@@ -7468,11 +7468,11 @@ zvučni	1759		2
 šveđani			3
 šćućureni	27		4
 žaklini			2
-žalbeni	598		2
+žalbeni	598		3
 žalosni	356		3
 žalostivni			4
 žalošćeni			3
-žaluzini			2
+žaluzini			3
 žargoni	12		2
 žarišni			3
 ždrebni			2
@@ -7481,7 +7481,7 @@ zvučni	1759		2
 željeni	2473		3
 željezni		J	3
 željni	2065		2
-želudačni	60		2
+želudačni	60		3
 želučani			4
 ženi	8656		2
 ženidbeni	10		4
@@ -7489,28 +7489,28 @@ zvučni	1759		2
 ženjeni	20		3
 ženstveni	88		3
 žestini	104		2
-žetoni	51		2
+žetoni	51		3
 žetveni	74		3
 žeženi			3
-žigosani	126		2
+žigosani	126		3
 žitni	139		2
 živahni	217		3
 živežni			3
 živini	82		2
 živni			2
 živodavni			4
-živonosni			2
-živopisani	17		2
+živonosni			4
+živopisani	17		3
 živopisni	346		4
 životni	11303		3
-životopisni			2
+životopisni			5
 životvorni	125		4
 živčani	79		3
 žičani	230		3
 žični	94		2
 žižni			2
 žlezdani	15		3
-žrtveni	223		2
+žrtveni	223		3
 žrtvini			2
 žrtvovani	175		4
 žudni	12		2
@@ -7520,9 +7520,9 @@ zvučni	1759		2
 žurni	12		2
 žućni			2
 žučni	108		2
-žuđeni	23		2
+žuđeni	23		3
 besprijekorni			3
-bezbjedni			2
+bezbjedni			3
 bezosjećajni			5
 bezvrijedni	17		4
 bijedni	58		3
@@ -7530,7 +7530,7 @@ bijeni	54		3
 bijesni	90		3
 bjelini			2
 bjesni			2
-bjesomučni			2
+bjesomučni			3
 cijeni	1535		3
 cijenjeni	125		4
 cijevni	13		2
@@ -7547,18 +7547,18 @@ hijeni			2
 iscijeljeni			4
 iskorijeni	28		3
 istjerani			4
-izbjegni			2
+izbjegni			3
 izliječeni	17		4
 izmijeni			4
-izmiješani	25		2
+izmiješani	25		3
 izmjeni			3
 izvjesni			3
 korijeni	145		4
 licemjerni			4
-lijeni			2
+lijeni			3
 liječeni	15		4
 ljetini			3
-međuzvjezdani			2
+međuzvjezdani			3
 miješani	15		4
 mjedeni			3
 mjerodavni			4
@@ -7570,7 +7570,7 @@ mještani			3
 mliječni	93		2
 namijeni	11		3
 namijenjeni	109		4
-namjeni			2
+namjeni			3
 namjerni			3
 namješteni			4
 nedjeljni			2
@@ -7581,39 +7581,39 @@ neriješeni	35		4
 nesvjesni			3
 neuspješni			4
 nevjerni			3
-nevjerovatni			2
-obaviješteni			2
+nevjerovatni			3
+obaviješteni			3
 obavještajni			5
-obavješteni			2
+obavješteni			3
 obijesni	10		4
 obješeni			4
 ocijeni			3
 ocjeni			3
 odjevni			2
 odmjereni			4
-odriješeni			2
+odriješeni			3
 odsječeni			4
 osjećajni			4
 otmjeni			3
-otrijezni	20		2
+otrijezni	20		3
 pjeni			2
 pješčani			3
 plijeni	70		3
 plijesni	35		3
 pobjegni			3
-pobjesni			2
+pobjesni			3
 podijeljeni	186		4
 pomiješani	27		4
-pomjesni			2
+pomjesni			3
 posječeni			4
 povrijeđeni	142		4
-precijenjeni	10		2
-precjeni			2
+precijenjeni	10		3
+precjeni			3
 premješteni			4
 presječeni			4
-prijenosni	21		2
+prijenosni	21		4
 prijesni			3
-prijevremeni	35		2
+prijevremeni	35		3
 primijeni	97		3
 primjeni			3
 primjerni			3
@@ -7626,13 +7626,13 @@ prosječni			3
 protjerani			4
 provjereni			4
 rastjerani			4
-razbjesni			2
+razbjesni			3
 razmijeni	13		3
 razmjeni			3
 riječni	28		2
 riješeni	131		4
 samouvjereni			4
-sijeni			2
+sijeni			3
 sjeni	148		2
 sjeverni			3
 sjeveroistočni			3
@@ -7644,47 +7644,47 @@ smješni			2
 smješteni	179		3
 srednjevjekovni	17		2
 srednjovjekovni			2
-sredovječni			2
+sredovječni			3
 stijeni	95		3
-stijesni			2
+stijesni			3
 stiješnjeni			4
-strijeljani	39		2
+strijeljani	39		3
 susjedni			3
-svijesni			2
+svijesni			3
 svjesni			2
-svjetlosni			2
+svjetlosni			3
 tijesni	16		3
 tjedni	102		2
 tjelesni			3
 trijezni	20		3
-ubijeđeni	76		2
+ubijeđeni	76		3
 ucjeni			3
-umiješani	47		2
+umiješani	47		3
 umjereni			4
-umješani			2
-unaprijeđeni	18		2
+umješani			3
+unaprijeđeni	18		3
 usmjereni			4
 uspješni			3
-ustrijeljeni			2
+ustrijeljeni			3
 utješeni			4
 uvjereni			4
-uvježbani			2
+uvježbani			3
 uvrijeđeni	32		4
 vijeni			3
 vjencani			3
 vjenčani			3
-vjereni			2
+vjereni			3
 vjerni			2
 vjerodostojni			2
 vječni			2
 vještini			2
-vodjeni			2
+vodjeni			3
 vrijedni	275		3
 zahtjevni			2
 zamijeni	161		3
 zamijenjeni	39		4
 zamjeni			3
 zaplijeni			4
-zaplijenjeni			2
+zaplijenjeni			3
 zavjetni			3
 zvjezdani			3

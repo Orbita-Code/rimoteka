@@ -1,7 +1,7 @@
 116
 Hristos			2
 abonos		M	3
-adios			2
+adios			3
 albatros	51		3
 alkos			2
 amos			2
@@ -9,7 +9,7 @@ atos			2
 barbados			2
 belokos		M	2
 bos	801		1
-buenos			2
+buenos			3
 burgos			2
 butros			2
 crnokos	17		3
@@ -24,10 +24,10 @@ epos			2
 eros	255		2
 etnos	207		2
 etos	345		2
-evangelos			2
+evangelos			3
 fos			1
 fotos			2
-galapagos			2
+galapagos			3
 gavdos			2
 giros	228		2
 haos	7676		2
@@ -35,16 +35,16 @@ iznos	29056		2
 jorgos			2
 jutros	12760		2
 kaos			2
-kapričos			2
+kapričos			3
 karlos			2
 kokos	295		2
 kolos	170		2
-komandos	39		2
+komandos	39		3
 kos	331		1
 kosmos	2416		2
 kozmos	25		2
 kratkokos			2
-krivonos			2
+krivonos			3
 kronos			2
 kros	1097		1
 kustos	1483		2
@@ -59,24 +59,24 @@ losos	580		2
 lotos	91		2
 markos			2
 melos	171		2
-međuodnos	37		2
-mikrokosmos	190		2
+međuodnos	37		3
+mikrokosmos	190		3
 minos			2
 mos			1
-motokros	52		2
+motokros	52		3
 mungos	48		2
 nanos	338		2
 naos		M	2
 naćos			2
 nikos			2
 nos	8821		1
-odjutros			2
+odjutros			3
 odnos	56248		2
 os	778		1
 otkos	105		2
-pangalos			2
+pangalos			3
 panglos			2
-parastos	1140		2
+parastos	1140		3
 patmos			2
 patos	661		2
 plavokos	35		2
@@ -89,7 +89,7 @@ proletos	856		3
 riđokos			2
 rodos			2
 ros			1
-samodoprinos	510		2
+samodoprinos	510		3
 samos			2
 santos			2
 sedokos			2
@@ -103,13 +103,13 @@ stilos			2
 stros			1
 svilokos			2
 tamnokos	12		2
-tanatos			2
+tanatos			3
 termos	97		2
 topos	82		2
 unos	8531		2
 uprkos	40845		3
 uprokos			2
-venizelos			2
+venizelos			3
 zanos	777		2
 zlatokos			2
 ćaos			2

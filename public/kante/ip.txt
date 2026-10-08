@@ -1,6 +1,6 @@
 38
-arhetip	426		2
-biotip			2
+arhetip	426		3
+biotip			3
 džip	1411		1
 edip			2
 ekip			2
@@ -11,11 +11,11 @@ ip			1
 josip			2
 kip	835		1
 klip	1936		1
-lilihip			2
-linotip			2
-logotip	634		2
-mikročip	119		2
-monotip			2
+lilihip			3
+linotip			3
+logotip	634		3
+mikročip	119		3
+monotip			3
 nasip	698		2
 navip			2
 nedžip			2
@@ -26,10 +26,10 @@ particip	17		2
 podtip			2
 polip	103		2
 princip	15304		2
-prototip	2371		2
+prototip	2371		3
 ragip			2
 slip			1
-stereotip	970		2
+stereotip	970		3
 strip	5333		1
 tip	19782		1
 trip			1

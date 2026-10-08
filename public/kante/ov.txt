@@ -1,49 +1,49 @@
 619
-adamov			2
-admiralov			2
+adamov			3
+admiralov			3
 ahilov			3
-ahmetov			2
+ahmetov			3
 ajfelov			3
 ajnštajnov			3
-alahov			2
-albertov			2
-aleksov			2
-alfredov			2
-ambasadorov			2
-ananasov			2
-anastasov			2
+alahov			3
+albertov			3
+aleksov			3
+alfredov			3
+ambasadorov			3
+ananasov			3
+anastasov			3
 angelov			3
 anđelov	11		3
-apostolov			2
-arafatov			2
-aranđelov			2
-aristotelov			2
+apostolov			3
+arafatov			3
+aranđelov			3
+aristotelov			3
 arkanov			3
 aronov			3
 arsenov	29		3
-asimov			2
-atanasov			2
-autorov	312		2
+asimov			3
+atanasov			3
+autorov	312		3
 ašov	232		2
 babov			2
-bademov			2
-bagremov	139		2
-bajazitov			2
-balzakov			2
+bademov			3
+bagremov	139		3
+bajazitov			3
+balzakov			3
 bambusov			3
 banov	33		2
 baronov	10		3
 baćkov			2
 begov			2
-beketov			2
+beketov			3
 belov		M	2
-betovenov			2
-bećarov			2
+betovenov			3
+bećarov			3
 bikov	11		2
 bilov	15		2
 birov			2
-biserov			2
-biskupov	14		2
+biserov			3
+biskupov	14		3
 blagoslov	4787		3
 blerov			2
 bobanov			3
@@ -52,125 +52,125 @@ bogdanov			3
 bogoslov	478		3
 bogov			2
 bojanov			3
-bolesnikov			2
-borhesov			2
-borisov			2
+bolesnikov			3
+borhesov			3
+borisov			3
 borov	38		2
 boškov			2
-božidarov			2
-božurov			2
+božidarov			3
+božurov			3
 brankov			2
-bratimirov			2
+bratimirov			3
 bratov		M	2
 brestov			2
 brozov			2
 bršljanov			3
 bucov			2
-budakov			2
+budakov			3
 bukov	22		2
-bulgakov			2
+bulgakov			3
 bungalov	76		3
 burov			2
 celov			2
 cerov			2
-ciceronov			2
+ciceronov			3
 cinkov			2
-crkvenjakov	11		2
+crkvenjakov	11		3
 crvov			2
 cvetkov			2
 cvrčkov			2
 damjanov			3
 damoklov			3
-danijelov			2
+danijelov			3
 danilov			3
-danteov			2
-davidov			2
+danteov			3
+davidov			3
 dekanov			3
 delov			2
-denisov			2
-despotov	94		2
-detetov	283		2
-dečakov	128		2
+denisov			3
+despotov	94		3
+detetov	283		3
+dečakov	128		3
 dečkov			2
-diktatorov			2
-dimitrov			2
+diktatorov			3
+dimitrov			3
 dimov			2
-direktorov	32		2
+direktorov	32		3
 divov			2
 dizelov			3
 dojčinov			3
-doktorov	47		2
-domaćinov	11		2
-doplerov	55		2
+doktorov	47		3
+domaćinov	11		3
+doplerov	55		3
 draganov			3
-dragoljubov			2
-dragomirov			2
-dragutinov			2
+dragoljubov			3
+dragomirov			3
+dragutinov			3
 drenov			2
 dudov			2
-duhovnikov			2
+duhovnikov			3
 dušanov			3
 duškov			2
-dužnikov			2
-edipov			2
+dužnikov			3
+edipov			3
 eolov			3
-episkopov			2
-faraonov	12		2
-filipov			2
-fjodorov			2
+episkopov			3
+faraonov	12		3
+filipov			3
+fjodorov			3
 fordov	258		2
 frojdov			2
 gadov			2
 garov		M	2
 gatilov			3
 gavrilov			3
-generalov			2
-geteov			2
+generalov			3
+geteov			3
 glazgov			2
-gligorov			2
+gligorov			3
 glogov		M	2
 gnomov			2
 godunov			3
 gogov			2
 gojkov			2
-golubov			2
+golubov			3
 goranov	68		3
-gorbačov			2
-gospodarov			2
-gospodinov	23		2
-gospodov			2
+gorbačov			3
+gospodarov			3
+gospodinov	23		3
+gospodov			3
 gotov	5317		2
-govornikov			2
+govornikov			3
 grabov			2
-gradonačelnikov	36		2
+gradonačelnikov	36		3
 grahov			2
-grnčarov			2
-grobarov	10		2
+grnčarov			3
+grobarov	10		3
 grofov	12		2
 gromov			2
 grozdanov			3
-guvernerov	10		2
-gušterov			2
+guvernerov	10		3
+gušterov			3
 gvozdenov			3
-hadžimanov			2
+hadžimanov			3
 harkov			2
 hegelov			3
 herkulov			3
-hitlerov			2
+hitlerov			3
 hrastov	135		2
 hristov			2
 hromov			2
 hruščov			2
-huseinov			2
-ignjatov			2
-igorov			2
-igumanov	10		2
-imenoslov			2
-imperatorov	10		2
+huseinov			3
+ignjatov			3
+igorov			3
+igumanov	10		3
+imenoslov			3
+imperatorov	10		3
 intov			2
-isakov			2
-islednikov			2
-isusov			2
+isakov			3
+islednikov			3
+isusov			3
 ivanov	48		3
 ivkov			2
 izazov	13449		3
@@ -180,114 +180,114 @@ jalov	244		2
 jankov			2
 jasenov			3
 jasminov			3
-jastrebov	119		2
-javorov	55		2
+jastrebov	119		3
+javorov	55		3
 jelenov	12		3
 jelov			2
 jerkov			2
-jevrejinov			2
-jevremov			2
+jevrejinov			3
+jevremov			3
 jordanov			3
-josifov			2
+josifov			3
 jov			1
 jovanov			3
 jovov			2
 jugov		M	2
-julijanov			2
-junakov	14		2
+julijanov			3
+junakov	14		3
 jungov			2
-juniorov			2
-jurišnikov			2
+juniorov			3
+jurišnikov			3
 kakov			2
 kalašnjikov	324		2
-kaluđerov			2
-kancelarov			2
+kaluđerov			3
+kancelarov			3
 kanov	13		2
-kapetanov	23		2
-kardinalov			2
+kapetanov	23		3
+kardinalov			3
 karlov			2
 karpov			2
-kartašov			2
-karterov			2
-kasapinov			2
-kasačov			2
-kasparov			2
-kaučukov			2
-kazimirov			2
-kelnerov			2
+kartašov			3
+karterov			3
+kasapinov			3
+kasačov			3
+kasparov			3
+kaučukov			3
+kazimirov			3
+kelnerov			3
 kestenov	14		3
 kirilov			3
 kirov			2
 kitolov			3
 kitov			2
 kišov			2
-klementov			2
+klementov			3
 klenov			2
-klijentov	43		2
+klijentov	43		3
 klincov			2
 klintonov			3
 kmetov			2
 knezov			2
-kokosov	73		2
-kolarov	331		2
-komandirov			2
+kokosov	73		3
+kolarov	331		3
+komandirov			3
 komov			2
-kongresmenov			2
-konstantinov			2
+kongresmenov			3
+konstantinov			3
 korenov	222		3
-korisnikov	100		2
+korisnikov	100		3
 korov		M	2
 kosov	23		2
-kostadinov			2
+kostadinov			3
 kostov			2
 kov	313		1
-kovačov			2
+kovačov			3
 kozlov			2
 krakov	60		2
 krasnov			2
-krešimirov			2
+krešimirov			3
 krivolov	104		3
-krompirov			2
+krompirov			3
 krov	7870		1
 krumov			2
 kruškov			2
 kumov	27		2
 kupinov			3
-kurjakov			2
+kurjakov			3
 kuzmanov			3
-kuznjecov			2
-labudov			2
-lakmusov			2
+kuznjecov			3
+labudov			3
+lakmusov			3
 lavrov			2
-lazarov			2
+lazarov			3
 lažov	659		2
-leonardov			2
+leonardov			3
 leopardov			4
-leopoldov			2
-leptirov	21		2
+leopoldov			3
+leptirov	21		3
 leskov		M	2
-lešnikov			2
+lešnikov			3
 limunov	253		3
 lipov			2
 ljvov			1
-lomonosov			2
+lomonosov			3
 lopov	2526		2
-lotosov	44		2
+lotosov	44		3
 lov	5582		1
 lovorov	248		3
 lozov			2
 lukov		M	2
 lužkov			2
 majmunov			3
-majorov			2
+majorov			3
 makov		M	2
-maksimov			2
+maksimov			3
 malinov			3
-mandarinov			2
+mandarinov			3
 manganov			3
 manojlov			3
-marijanov			2
-marinkov			2
+marijanov			3
+marinkov			3
 marinov			3
 markov			2
 marksov			2
@@ -298,86 +298,86 @@ maslinov	18		3
 mazgov		M	2
 mačkov	319		2
 metanov			3
-međunaslov			2
+međunaslov			3
 micov			2
-mihailov			2
+mihailov			3
 mihajlov			3
-mihalkov			2
-mijatov			2
-mikelanđelov			2
-miladinov			2
-milankov			2
+mihalkov			3
+mijatov			3
+mikelanđelov			3
+miladinov			3
+milankov			3
 milanov			3
-milenkov			2
-miletov			2
-milinkov			2
-milisavov			2
-militarov			2
+milenkov			3
+miletov			3
+milinkov			3
+milisavov			3
+militarov			3
 miljanov			3
-milomirov			2
-miloradov			2
+milomirov			3
+miloradov			3
 milov			2
-milovanov			2
+milovanov			3
 miltonov			3
 milunov			3
-milutinov			2
-ministrov	94		2
-miodragov			2
+milutinov			3
+ministrov	94		3
+miodragov			3
 mirkov			2
 mitkov			2
 mitov			2
 mitrov			2
 miškov			2
 mladenov			3
-mocartov			2
-molerov			2
-molotov			2
-momirov			2
+mocartov			3
+molerov			3
+molotov			3
+momirov			3
 momkov			2
 momčilov			3
-monahov			2
-morozov			2
-morzeov			2
+monahov			3
+morozov			3
+morzeov			3
 mrazov			2
 mrkov		M	2
-mrtvozornikov			2
-muhamedov			2
-mujezinov			2
-muratov			2
-muselimov			2
-mučenikov			2
-nabokov			2
+mrtvozornikov			3
+muhamedov			3
+mujezinov			3
+muratov			3
+muselimov			3
+mučenikov			3
+nabokov			3
 nadnaslov	86		3
-namesnikov			2
-napoleonov			2
-narednikov			2
-narodov			2
+namesnikov			3
+napoleonov			3
+narednikov			3
+narodov			3
 naslov	14456		2
-naumov	37		2
-naučnikov			2
-načelnikov			2
-nedeljkov			2
-nenadov			2
+naumov	37		3
+naučnikov			3
+načelnikov			3
+nedeljkov			3
+nenadov			3
 neptunov			3
-nestorov	20		2
-nikiforov			2
+nestorov	20		3
+nikiforov			3
 nikolov			3
 nitkov	63		2
-nićiforov			2
+nićiforov			3
 njegov	108699		2
 njihov	69639		2
 njutnov	99		2
 nobelov			3
 nov	18672		1
-novakov	289		2
-novikov			2
+novakov	289		3
+novikov			3
 novkov			2
-obradov			2
-odsekov			2
-oficirov			2
-ojlerov			2
+obradov			3
+odsekov			3
+oficirov			3
+ojlerov			3
 okov	273		2
-olegov			2
+olegov			3
 orahov		M	3
 orhanov			3
 orlov	51		2
@@ -386,242 +386,242 @@ osnov	10451		2
 otkov			2
 otrov	2499		2
 ov			1
-ovčarov			2
-pacijentov	30		2
+ovčarov			3
+pacijentov	30		3
 pacov	439		2
-padišahov			2
+padišahov			3
 pankov			2
 parlov			2
-partizanov	660		2
-partnerov	50		2
-pasterov			2
-pastirov			2
+partizanov	660		3
+partnerov	50		3
+pasterov			3
+pastirov			3
 paukov			3
 paunov	25		3
 pavkov			2
 pavlov			2
 perov			2
 perunov			3
-pesnikov	96		2
+pesnikov	96		3
 petkov			2
 petlov			2
 petrov			2
-pikasov			2
-pilotov			2
+pikasov			3
+pilotov			3
 pitonov			3
 platonov			3
 plodov			2
 podnaslov	700		2
-pokojnikov	25		2
+pokojnikov	25		3
 pokrov	429		2
 polov	22		2
 popov	30		2
-porterov			2
-poručnikov			2
-poslanikov			2
+porterov			3
+poručnikov			3
+poslanikov			3
 potkov			2
-potokov			2
+potokov			3
 pov		M	1
-pradedov			2
-prašnikov			2
-predsednikov	191		2
+pradedov			3
+prašnikov			3
+predsednikov	191		3
 preduslov	7141		3
-premijerov	130		2
-primakov			2
+premijerov	130		3
+primakov			3
 prodanov			3
-profesorov	55		2
-prorokov			2
-protivnikov	46		2
-protivotrov	165		2
+profesorov	55		3
+prorokov			3
+protivnikov	46		3
+protivotrov	165		3
 protuotrov	11		4
 prvanov			3
-pukovnikov	51		2
+pukovnikov	51		3
 pupinov			3
 pustolov	149		3
 putinov			3
-putnikov	13		2
+putnikov	13		3
 puškinov			3
-radionov			2
-radomirov			2
-radosavov			2
-radoslavov			2
-radovanov			2
+radionov			3
+radomirov			3
+radosavov			3
+radoslavov			3
+radovanov			3
 radulov			3
 rajkov			2
 rakov			2
 rangelov			3
 rankov			2
-ratnikov			2
+ratnikov			3
 raškov			2
 redov	87		2
-reflektorov			2
-regentov			2
-režiserov	11		2
+reflektorov			3
+regentov			3
+režiserov	11		3
 ribolov	2086		3
-ricinusov			2
+ricinusov			3
 ristov			2
-robertov			2
+robertov			3
 rodoslov	293		3
 romanov	49		3
 rov	553		1
 rubinov			3
-sadamov			2
-saharov			2
-samokov			2
+sadamov			3
+saharov			3
+samokov			3
 samsonov			3
 sandalov			3
 saturnov			3
-seljakov	10		2
-senatorov			2
-serafimov			2
-servantesov			2
-sezamov			2
-simeonov			2
+seljakov	10		3
+senatorov			3
+serafimov			3
+servantesov			3
+sezamov			3
+simeonov			3
 simonov			3
 simov			2
 sinov	18		2
 sirov	422		2
-sizifov			2
+sizifov			3
 skotov			2
-slavistov			2
+slavistov			3
 slavkov			2
 slezov			2
 slonov			2
 smirnov			2
 smrekov			2
 sokolov	80		3
-sokurov			2
-solomonov			2
+sokurov			3
+solomonov			3
 spasov	29		2
-spikerov			2
+spikerov			3
 sretenov			3
 stankov			2
 stefanov			3
 stepanov			3
 stevanov			3
-stoičkov			2
-stojakov			2
+stoičkov			3
+stojakov			3
 stojanov			3
 stojkov			2
 stojmenov			3
 stroganov			3
-studentov	14		2
+studentov	14		3
 sultanov			3
-sumporov			2
-suprugov	16		2
+sumporov			3
+suprugov	16		3
 surov	1070		2
-susedov	15		2
-suvorov			2
-svetozarov			2
-sveštenikov	25		2
+susedov	15		3
+suvorov			3
+svetozarov			3
+sveštenikov	25		3
 takov			2
 tantalov			3
-teodorov			2
+teodorov			3
 tigrov	18		2
-tihomirov			2
+tihomirov			3
 tihonov			3
 tisov			2
 titanov	16		3
 titov			2
-todorov			2
+todorov			3
 topalov			3
 topolov			3
 toškov			2
 trefov			2
-trenerov	13		2
+trenerov	13		3
 trifunov			3
 trnov	56		2
-trstikov			2
-trubačov			2
+trstikov			3
+trubačov			3
 trutov			2
 tunolov			3
-turmalinov			2
-tutorov	11		2
+turmalinov			3
+tutorov	11		3
 udov	13		2
 ugrinov			3
-ujakov	15		2
+ujakov	15		3
 ulov	714		2
-umetnikov	59		2
-unukov			2
-upravnikov			2
+umetnikov	59		3
+unukov			3
+upravnikov			3
 uranov			3
-urednikov	17		2
+urednikov	17		3
 uslov	20748		2
 usov		M	2
-učenikov			2
-vagnerov			2
+učenikov			3
+vagnerov			3
 valov	36		2
 vandalov			3
 vazduhoplov	255		4
-veteranov			2
-vezirov			2
+veteranov			3
+vezirov			3
 vinov			2
-vitezov	12		2
+vitezov	12		3
 vladanov			3
-vlasnikov	24		2
-vodonikov			2
-vojislavov			2
-volframov			2
+vlasnikov	24		3
+vodonikov			3
+vojislavov			3
+volframov			3
 volov			2
 voždov	20		2
 vrbov		M	2
 vrebalov			3
 vremeplov	918		3
 vukanov			3
-vukašinov			2
-vukosavov			2
+vukašinov			3
+vukosavov			3
 vukov	614		2
 zdravkov			2
 zetov			2
-zeusov			2
+zeusov			3
 zevsov			2
 zjuganov			3
 zoranov			3
 zov	649		1
-ćaletov	50		2
+ćaletov	50		3
 ćirilov			3
 ćirkov			2
 čamov		M	2
-čarobnjakov	63		2
+čarobnjakov	63		3
 časoslov	18		3
 čehov	180		2
-čelikov			2
+čelikov			3
 čikov	20		2
 čičkov		M	2
-čobaninov			2
+čobaninov			3
 čobanov			3
-čovekov	1327		2
+čovekov	1327		3
 čvorkov			2
 đakonov			3
-đaurov			2
+đaurov			3
 đavolov	94		3
-đumbirov			2
+đumbirov			3
 đurov			2
 šaranov			3
 šarov			2
 šefov	14		2
-šekspirov			2
-šerifov			2
-šećerov	24		2
-šimširov			2
+šekspirov			3
+šerifov			3
+šećerov	24		3
+šimširov			3
 šljivov			2
-šogorov			2
+šogorov			3
 šopenov			3
 šopov			2
 špiclov		M	2
 štitov			2
 žarkov			2
 židov	23		2
-živadinov			2
+živadinov			3
 živanov			3
 živkov			2
 žukov			2
 županov	12		3
-župnikov			2
+župnikov			3
 djedov	14	J	2
-djetetov			2
-dječakov			2
-ljermontov			2
+djetetov			3
+dječakov			3
+ljermontov			3
 ljeskov			2
-predsjednikov			2
-čovjekov			2
+predsjednikov			3
+čovjekov			3

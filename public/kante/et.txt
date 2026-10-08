@@ -24,13 +24,13 @@ baget		M	2
 bajonet		M	2
 balet	1689		2
 banket	298		2
-baronet		M	2
+baronet		M	3
 basket	1436		2
 bašmet			2
-berićet	105		2
+berićet	105		3
 bermet	380		2
 bilet			2
-blagodet	358		2
+blagodet	358		3
 blanket		M	2
 bonitet	389		2
 briket	74		2
@@ -47,11 +47,11 @@ deset	70427		2
 devedeset	1984		2
 devet	33561		2
 dignitet	353		2
-dijabet			2
-diskontinuitet			2
+dijabet			3
+diskontinuitet			3
 disparitet	144		2
 diverzitet	185		2
-domazet		M	2
+domazet		M	3
 domet	2771		2
 donet	4302		2
 donijet	39	J	2
@@ -60,18 +60,18 @@ dualitet	56		2
 dublet			2
 duet	1056		2
 dvadeset	22489		3
-dvadesetpet			2
+dvadesetpet			3
 dženet		M	2
 džet			1
-egzoskelet	54		2
+egzoskelet	54		3
 ekstremitet	107		2
 elasticitet	42		2
 elektricitet	472		2
 elektromagnet	42		2
-elizabet			2
+elizabet			3
 entitet	1860		2
 epitet	2462		2
-eržebet			2
+eržebet			3
 estet			2
 etnicitet	101		2
 fakticitet			2
@@ -85,35 +85,35 @@ floret	17		2
 gadžet			2
 gaset			2
 generalitet		M	2
-geodet			2
+geodet			3
 golet	26		2
-gorocvet		M	2
+gorocvet		M	3
 graviditet	92		2
 hamlet			2
-hiperaciditet			2
-hipermarket	254		2
+hiperaciditet			3
+hipermarket	254		3
 humanitet			2
 identitet	15041		2
 imunitet	4695		2
-individualitet			2
+individualitet			3
 integritet	5552		2
 intenzitet	3244		2
 internet	58857		3
-intranet	293		2
+intranet	293		3
 invaliditet	443		2
 ismet			2
 izet			2
-izgorjet		J	2
+izgorjet		J	3
 izlet	3556		2
 izmet	708		2
 iznet	526		2
 iznijet		J	2
 izuzet	155		2
 kabaret			2
-kabinet	3990		2
-kabriolet	724		2
+kabinet	3990		3
+kabriolet	724		3
 kadet	525		2
-kamionet	108		2
+kamionet	108		3
 kapacitet	13106		2
 karnet	56		2
 kačket	351		2
@@ -163,13 +163,13 @@ lornjet			2
 magnet	1273		2
 margaret			2
 market	1895		2
-marmozet			2
+marmozet			3
 mediokritet	151		2
 mehmet			2
 meket			2
 mentalitet	3490		2
-menuet	44		2
-merhamet			2
+menuet	44		3
+merhamet			3
 milet			2
 minaret	132		2
 modalitet	296		2
@@ -178,22 +178,22 @@ moralitet			2
 morbiditet	154		2
 mortalitet	477		2
 motet			2
-mrzisvet			2
-muhamet			2
-mukajet			2
-nacionalitet		M	2
+mrzisvet			3
+muhamet			3
+mukajet			3
+nacionalitet		M	3
 nalet	799		2
 namet	811		2
 nanet	106		2
-naodmet		M	2
+naodmet		M	3
 napamet	4210		3
 napet	456		2
 natalitet	1171		2
 načet	40		2
-nenačet			2
-nepamet			2
+nenačet			3
+nepamet			3
 net	6203		1
-nezauzet			2
+nezauzet			3
 novitet	1208		2
 nusret			2
 obuzet	68		2
@@ -213,7 +213,7 @@ otet	310		2
 paket	16531		2
 pamet	22189		2
 pamflet	551		2
-parapet			2
+parapet			3
 paritet	333		2
 parket	1949		2
 paternitet		M	2
@@ -231,33 +231,33 @@ poket			2
 pokret	20535		2
 polaritet	132		2
 polet	1140		2
-poletjet		J	2
-polisindet		M	2
-polusvet	173		2
+poletjet		J	3
+polisindet		M	3
+polusvet	173		3
 pomet			2
 ponet	27		2
-ponijet		J	2
+ponijet		J	3
 portret	3171		2
 potkomitet	13		2
 počet	47		2
-preboljet		J	2
+preboljet		J	3
 predmet	34280		2
-preduzet	154		2
+preduzet	154		3
 prelet	302		2
 premet	48		2
-prenapet			2
+prenapet			3
 prenet	608		2
 prenijet	16	J	2
 preokret	7053		3
 preplet		M	2
 presvet			2
-preuzet	1363		2
-prezauzet			2
-preživjet		J	2
+preuzet	1363		3
+prezauzet			3
+preživjet		J	3
 prinet			2
 prioritet	12834		2
 pripet			2
-probisvet	78		2
+probisvet	78		3
 profet		M	2
 proklet	534		2
 promet	16191		2
@@ -277,15 +277,15 @@ rasplet	1847		2
 razapet	210		2
 raznet	17		2
 raznijet		J	2
-razumet			2
-razumjet		J	2
+razumet			3
+razumjet		J	3
 realitet	133		2
 reciprocitet	457		2
 reket	2059		2
 relativitet	21		2
 rentabilitet			2
 reset			2
-rikošet		M	2
+rikošet		M	3
 rivalitet	431		2
 rukomet	2440		3
 rukovet	94		3
@@ -324,7 +324,7 @@ stopedeset			2
 strelomet			3
 suncokret	1491		3
 sunet		M	2
-supermarket		M	2
+supermarket		M	3
 susret	26733		2
 suverenitet	4511		2
 svet	89801		1
@@ -342,30 +342,30 @@ totalitet	202		2
 trepet	394		2
 treset	164		2
 trideset	11144		3
-tridesetpet			2
+tridesetpet			3
 triplet		M	2
-trotinet			2
+trotinet			3
 tucet			2
 uklet	60		2
 ulet			2
-umrijet		J	2
+umrijet		J	3
 unet	312		2
 univerzitet	13037		2
 uspet			2
 uspjet		J	2
-ususret	80		2
-uvidjet		J	2
+ususret	80		3
+uvidjet		J	3
 uvjet		J	2
 uzet	1821		2
 uzlet	394		2
 uznet			2
 užet			2
-vagonet	10		2
+vagonet	10		3
 varijetet	218		2
 vatromet	1713		3
-vilajet	424		2
+vilajet	424		3
 vitalitet			2
-vodencvet			2
+vodencvet			3
 voljet		J	2
 vrlet	10		2
 zaklet	16		2
@@ -373,13 +373,13 @@ zakret			2
 zalet	466		2
 zanet	33		2
 zanovet		M	3
-zaokret	2253		2
+zaokret	2253		3
 zapet	20		2
 zaplet	1318		2
 započet	1688		2
 zauzet	332		3
 zavet	2145		2
-zavoljet		J	2
+zavoljet		J	3
 začet	148		2
 zet	1568		1
 zveket	160		2
@@ -399,10 +399,10 @@ cvijet	382		1
 dijet			2
 klijet			2
 kostrijet	15		3
-savijet			2
+savijet			3
 savjet			2
 svijet	6899		1
 svjet			1
 unijet			2
 zavjet			2
-žilijet			2
+žilijet			3

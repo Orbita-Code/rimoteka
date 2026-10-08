@@ -1,33 +1,33 @@
 359
 Pariza			2
 acidoza	57		2
-ajvaza			2
+ajvaza			3
 akciza	3105		2
-alojza			2
+alojza			3
 amilaza			2
-amiloidoza	25		2
-amniocenteza			2
+amiloidoza	25		3
+amniocenteza			3
 anabaza			2
 analiza	21823		2
 anamneza	367		2
 anamorfoza			2
 anastomoza			2
-androgeneza			2
+androgeneza			3
 antifriza	166		2
 antiteza	213		3
 aplauza	512		4
 apoteoza	119		2
-arterioskleroza	90		2
+arterioskleroza	90		3
 arza			2
 askeza	62		2
 avaza	162		2
 avitaminoza			2
 aškenaza			2
 bakroreza	45		4
-baksuza			2
+baksuza			3
 baza	11536		2
 berza	2502		2
-betelgeza			2
+betelgeza			3
 beza		M	2
 bezizlaza	93		2
 bilmeza			2
@@ -47,20 +47,20 @@ ciroza	135		2
 deviza	2472		2
 dijagnoza	4690		2
 dijaliza	152		2
-dijeceza	38		2
+dijeceza	38		3
 divokoza	116		2
 diza			2
 dokaza	14094		3
-dopuza			2
+dopuza			3
 doseza			2
 dovoza	38		2
 doza	4945		2
 druza		M	2
 drvoreza	74		4
 dubioza	315		2
-duboreza	87		2
+duboreza	87		3
 džeza	1282		2
-egzegeza	32		2
+egzegeza	32		3
 ekspertiza	490		2
 ekstaza	158		2
 elektroliza	99		2
@@ -68,7 +68,7 @@ eleza			2
 elza			2
 engleza	1000		2
 epifiza	102		2
-etnogeneza			2
+etnogeneza			3
 faleza			2
 faza	13683		2
 feza			2
@@ -93,17 +93,17 @@ hamza			2
 hemoliza			2
 hereza	29		3
 hidroliza	27		2
-hiperveza	29		2
+hiperveza	29		3
 hipnoza	267		2
 hipofiza	111		2
 hipostaza	24		2
 hipotenuza	22		2
 hipoteza	1374		2
-homeostaza	26		2
+homeostaza	26		3
 idriza			2
 ilijaza			2
-irokeza			2
-iskaza	2437		2
+irokeza			3
+iskaza	2437		3
 iza	84302		2
 izbliza	1818		3
 izgriza			2
@@ -111,17 +111,17 @@ izlaza	3078		3
 izraza	6333		3
 izreza	39		2
 izvoza	12857		3
-jakuza			2
+jakuza			3
 janeza			2
 jaza	672		2
 jeza	850		2
-kalauza			2
+kalauza			3
 kamikaza	111		2
 karađoza			2
 katarza	243		2
-kauza	15		2
+kauza	15		3
 kaveza	1210		3
-kavkaza			2
+kavkaza			3
 kineza	1845		2
 klinceza			2
 kliza	182		2
@@ -130,7 +130,7 @@ knjaza			2
 kolhoza	44		3
 kolovoza	2743		4
 kondoliza			2
-kontroverza	182		2
+kontroverza	182		3
 korza	19		2
 koza	1673		2
 kriza	26591		2
@@ -138,28 +138,28 @@ kroza	658		2
 kruza			2
 krza			2
 kukuruza	9411		2
-kuruza			2
+kuruza			3
 kviza	937		2
-laktaza			2
+laktaza			3
 laktoza	137		2
 laza		M	2
 lepeza	543		2
 leukoza			2
-lipaza			2
+lipaza			3
 liza		M	2
 loza	1263		2
 lufthanza			2
 luiza			2
 lujza			2
-luksuza	1110		2
-magaza		M	2
+luksuza	1110		3
+magaza		M	3
 majoneza	333		2
 makaza	246		3
 maltoza			2
-mamlaza			2
+mamlaza			3
 mamuza	52		3
 markiza	182		2
-marseljeza			2
+marseljeza			3
 matroza			2
 maza	241		2
 meduza	292		2
@@ -172,19 +172,19 @@ metastaza	415		2
 metateza	13		3
 meza		M	2
 međufaza	40		2
-međuveza			2
+međuveza			3
 mihiza			2
 mikoza	21		2
-mikroanaliza			2
+mikroanaliza			3
 mimoza	158		2
 miraza	145		3
 mirza			2
 mitoza	33		2
-mitraljeza			2
+mitraljeza			3
 mlaza	274		2
-mnogobrza			2
-mononukleoza	97		2
-moreuza			2
+mnogobrza			3
+mononukleoza	97		3
+moreuza			3
 mraza	1258		2
 muza	599		2
 nadoveza			2
@@ -213,24 +213,24 @@ odraza	471		3
 odreza			3
 odveza			2
 odvoza	115		2
-omraza		M	2
+omraza		M	3
 opreza	963		3
 oroza		M	2
 orteza			2
 osmoza	66		2
-osteoporoza	450		2
+osteoporoza	450		3
 otkaza	2463		3
 paradajza	2823		3
 parafraza	266		3
 paraliza	477		2
-parenteza			2
-patogeneza			2
+parenteza			3
+patogeneza			3
 pauza	4320		3
 pecikoza			2
-pegaza			2
+pegaza			3
 pekmeza	189		3
 perifraza			2
-pervaza			2
+pervaza			3
 piza	82		2
 podgriza			2
 podmaza			3
@@ -242,13 +242,13 @@ poraza	13102		3
 poreza	26082		3
 postiza			2
 poteza	5585		3
-potkaza			2
+potkaza			3
 poveza	202		2
 poza	1187		2
-prebrza	108		2
-predskaza			2
+prebrza	108		3
+predskaza			3
 prelaza	5299		3
-premaza	690		2
+premaza	690		3
 prereza			2
 prevoza	9284		3
 prikaza	4069		3
@@ -257,7 +257,7 @@ princeza	3252		2
 prireza	42		2
 priveza	50		2
 prognoza	3804		2
-prokaza			2
+prokaza			3
 prokliza			2
 prolaza	1813		3
 proreza	124		2
@@ -270,21 +270,21 @@ psihoza	308		2
 psorijaza	273		2
 putokaza	415		4
 puza			2
-puškomitraljeza	75		2
+puškomitraljeza	75		3
 ramiza			2
-rastrza			2
+rastrza			3
 razlaza	588		3
 razveza			2
 remiza			2
 repriza	945		2
 reza	800		2
-rinfuza			2
+rinfuza			3
 riza			2
 rogoza	40		3
 roza			2
 ruiza			2
 saharoza	77		2
-samoanaliza			2
+samoanaliza			3
 sarkoidoza	84		2
 saveza	34108		3
 simbioza	496		2
@@ -300,28 +300,28 @@ sroza	128		2
 staza	12371		2
 stenoza			2
 striptiza	56		2
-superbrza	11		2
+superbrza	11		3
 suza	4991		2
 sveza	213		2
-telekineza	22		2
+telekineza	22		3
 tereza			2
 teza	7133		2
 tirkiza	49		2
-topaza	15		2
-topuza			2
+topaza	15		3
+topuza			3
 torza	77		2
 trapeza	107		2
-traverza			2
+traverza			3
 treviza			2
 trihinoza			2
 tromboza	205		2
 trpeza	1241		3
 trza	275		2
 tuberkuloza	470		2
-tuluza			2
+tuluza			3
 ubrza	2553		2
 ugriza	259		2
-ugursuza			2
+ugursuza			3
 ukaza	504		2
 ulaza	6354		3
 uljeza	349		2
@@ -346,7 +346,7 @@ zaveza			2
 zbrza	17		2
 zeza	1122		2
 ćumeza			2
-ćurguza			2
+ćurguza			3
 čangriza			2
 čankoliza	14		2
 čerkeza			2

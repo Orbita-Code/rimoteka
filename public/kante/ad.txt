@@ -6,21 +6,21 @@ bagdad			2
 balad			2
 belobrad			2
 bezbrad			2
-bhagavad			2
-biograd			2
-bosilegrad			2
-bosiljgrad			2
+bhagavad			3
+biograd			3
+bosilegrad			3
+bosiljgrad			3
 bujad	18		2
 burad	589		2
 carigrad			3
-crvenobrad			2
-deligrad			2
+crvenobrad			3
+deligrad			3
 devojčad			2
-dojenčad	24		2
+dojenčad	24		3
 dokad	92		2
 dosad	11208		2
 dotad	1324		2
-dragorad			2
+dragorad			3
 dugmad	362		2
 dugobrad			2
 dževad			2
@@ -32,17 +32,17 @@ ferhad			2
 fuad			2
 gad	294		1
 gamad	370		2
-gamzigrad			2
+gamzigrad			3
 gdekad	83		2
 glad	4488		1
 golobrad	18		2
-goropad	63		2
+goropad	63		3
 grad	118022		1
 guščad			2
 had		M	1
 hlad	543		1
 ikad	9182		2
-islamabad			2
+islamabad			3
 ispad	508		2
 iznad	53861		2
 jad	1747		1
@@ -63,7 +63,7 @@ konrad			2
 kontranapad	452		2
 kopilad	43		3
 korad			2
-kosopad			2
+kosopad			3
 lad			1
 lanad	13		2
 lenjingrad			3
@@ -72,17 +72,17 @@ milorad			3
 mirsad			2
 mlad	8339		1
 mladunčad	60		2
-mohamad			2
+mohamad			3
 momčad	203		2
 mosad			2
 nad	94710		1
-nahočad			2
+nahočad			3
 najzad	15916		2
 napad	22373		2
 nasad	39		2
 nazad	17701		2
-nazimad			2
-nedonoščad	25		2
+nazimad			3
+nedonoščad	25		3
 nedžad			2
 nejačad			3
 nekad	31082		2
@@ -95,22 +95,22 @@ nomad	123		2
 novorođenčad	266		2
 obad	10		2
 obrad			2
-odojčad	510		2
+odojčad	510		3
 odsad	430		2
 onomad	2608		2
 otad	384		2
 otkad	3888		2
 otpad	8496		2
 pad	28326		1
-palisad		M	2
-paramparčad	317		2
+palisad		M	3
+paramparčad	317		3
 parčad	72		2
 pastorčad	13		3
 paščad			2
 perad	70		2
 pilad	12		2
-pogdekad			2
-pokatkad	406		2
+pogdekad			3
+pokatkad	406		3
 poluraspad			2
 ponad	85		2
 ponekad	50115		3
@@ -129,15 +129,15 @@ rešad			2
 rijad			2
 riđobrad		M	2
 ropčad			2
-rukosad			2
+rukosad			3
 sad	198035		1
-samograd			2
+samograd			3
 sead			2
 sedobrad			2
 senad			2
 severozapad	170		2
 sinbad			2
-sirocad			2
+sirocad			3
 siročad	135		3
 sklad	1772		1
 slad	140		1
@@ -145,14 +145,14 @@ služinčad			2
 smrad		M	1
 srnčad			2
 srpčad			2
-staljingrad			2
+staljingrad			3
 suad			2
 suvad			2
 svakad	99		2
 tad	15120		1
 telad	209		2
 titograd			3
-trinidad			2
+trinidad			3
 unazad	14974		3
 unučad	76		3
 upad	945		2
@@ -161,27 +161,27 @@ velegrad	193		3
 vinograd	1399		3
 višegrad			3
 vodopad	824		3
-volgograd			2
+volgograd			3
 vučad			2
 zapad	15033		2
 zarad	12327		2
 zasad	6155		2
 zijad			2
 zlurad	96		2
-zvezdopad			2
+zvezdopad			3
 zvjerad		J	2
 ćebad	410		2
 čad		M	1
 čeljad	252		2
-čobančad			2
+čobančad			3
 čongrad			2
-đavolčad			2
+đavolčad			3
 đubrad	109		2
 đulad			2
 štenad	104		2
 žad	107		1
 ždrebad	17		2
 živad			2
-živorad			2
+živorad			3
 žutobrad			2
 sjeverozapad			2

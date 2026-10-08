@@ -1,5 +1,5 @@
 40
-arhibiskup		M	2
+arhibiskup		M	3
 biskup	1658		2
 ejup			2
 glup	4204		1
@@ -19,7 +19,7 @@ odstup			2
 okup	75		2
 otkup	4808		2
 podskup	108		2
-podzakup	116		2
+podzakup	116		3
 poup			2
 preglup			2
 preskup	812		2
@@ -27,13 +27,13 @@ prestup		M	2
 priglup	79		2
 pristup	52300		2
 prokup			2
-prvokup			2
+prvokup			3
 sirup	1836		2
 skorup	29		2
 skup	24574		1
 stup	276		1
 sup	637		1
-superkup			2
+superkup			3
 trup	669		1
 tup	443		1
 ustup			2

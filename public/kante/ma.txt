@@ -4,8 +4,8 @@ Amsterdama			4
 Argentinama			3
 Australijama			4
 Austrijama			4
-Avrama			2
-Avramima			2
+Avrama			3
+Avramima			3
 Belgijama			4
 Beogradima			4
 Berlinima			3
@@ -17,10 +17,10 @@ Bukureštima			5
 Danskama			3
 Estonijama			4
 Filipinijima			4
-Filipinima			2
+Filipinima			3
 Francuskama			3
 Grčkama			3
-Hamburgima			2
+Hamburgima			3
 Holandijama			4
 Hrvatskama			3
 Indijama			4
@@ -31,23 +31,23 @@ Istanbulima			5
 Italijama			4
 Japanima			3
 Jordanima			4
-Judama			2
+Judama			3
 Kanadama			4
 Kinama			3
 Kolumbijama			4
 Korejama			3
 Kubama			3
 Leskovcima			3
-Libanima			2
+Libanima			3
 Libijama			4
-Lionima			2
-Lisabonima			2
+Lionima			3
+Lisabonima			3
 Litvanijama			4
 Ljubljanama			3
 Londonima			3
 Madridima			3
 Makedonijama			4
-Malezijima			2
+Malezijima			3
 Marijama			4
 Marsima			3
 Mađarskama			4
@@ -80,25 +80,25 @@ Turskama			2
 Ukrajinama			5
 Uskrsima			4
 Varšavama			4
-Vašingtonima			2
+Vašingtonima			3
 Zagrebima			4
-abažurima			2
+abažurima			3
 abecedama			3
 abnormalnima			5
-aboridžinima			2
+aboridžinima			3
 abortusima	78		4
-abrahama			2
+abrahama			3
 abrazivnima			5
 adama	292		3
-adapterima			2
-aditivima	260		2
+adapterima			3
+aditivima	260		3
 administracijama	147		4
 administratorima	416		4
 admiralima	13		3
 adresama	1170		3
 adresarima	14		3
 adutima	86		3
-adventizma			2
+adventizma			3
 advokaticama			4
 advokatima	956		3
 advokatskima			3
@@ -107,18 +107,18 @@ aerodromima	1063		4
 aerosolima	18		6
 afektima	22		4
 aferama	875		3
-aferašima			2
+aferašima			3
 afinitetima			3
-aforističnima			2
+aforističnima			3
 aforizama	451		3
 aforizma	142		2
 aforizmima	86		3
-afrikancima			2
-afrikankama			2
+afrikancima			3
+afrikankama			3
 afroamerikancima	18		3
 agama	78		3
 agencijama	4206		4
-agensima	194		2
+agensima	194		3
 agentima	556		4
 agnosticima			4
 agonijama			4
@@ -126,22 +126,22 @@ agregatima	295		3
 agresijama	47		4
 agresorima	128		5
 agronoma	447		3
-agruma	75		2
-ahmićima			2
+agruma	75		3
+ahmićima			4
 ajkulama	202		4
 akademcima	219		3
 akademicima	187		4
-akademizma	197		2
+akademizma	197		3
 akcentima	171		4
 akcijama	9623		4
-akcionarima	1469		2
-akcizama	785		2
-aknama	257		2
+akcionarima	1469		3
+akcizama	785		3
+aknama	257		3
 akordima	71		4
 akrobatima			4
 akronima	51		3
 aksioma	239		2
-aksiomama			2
+aksiomama			3
 aksiomima	26		3
 akterima	1717		3
 aktima	3191		3
@@ -156,7 +156,7 @@ aktovkama	10		4
 akustičnima			4
 akutnima			4
 akvarelima	36		4
-akvarijuma	638		2
+akvarijuma	638		3
 alabama			2
 alarma	844		3
 alarmima	62		4
@@ -168,60 +168,60 @@ albancima			3
 albankama			3
 albuma	11221		2
 albumima	478		3
-alejama	68		2
+alejama	68		3
 alema	25		3
-alergenima	176		2
+alergenima	176		3
 alergijama	578		4
 algama	238		3
 algoritama	591		3
 algoritma	662		2
 algoritmima	174		3
 aligatorima	20		4
-alinejama	12		2
+alinejama	12		3
 alkama	29		3
 alkoholizma	846		2
 alkoholičarima	65		5
 almanasima	28		4
-alpama			2
-alpima			2
+alpama			3
+alpima			3
 alpinistima			4
 alternativama	290		3
 altruizma	144		2
-aluminijuma	4286		2
+aluminijuma	4286		3
 aluzijama	123		4
 alveolama	20		3
 alžircima			3
 ama	3760		2
 amajlijama	35		4
 amalgama	62		2
-amama			2
+amama			3
 amaterima	415		3
 amaterizma	300		2
 ambarima	55		4
-ambarovima			2
+ambarovima			3
 ambasadama	945		3
 ambasadorima	724		4
-ambasadorkama			2
+ambasadorkama			3
 ambicijama	1669		4
 ambicioznijima			7
 ambicioznima			6
-ambicioznostima			2
+ambicioznostima			3
 ambisima			4
-amblema	138		2
-amblemima	45		2
+amblema	138		3
+amblemima	45		3
 ambrozijama			4
-amerikama			2
-amerikancima			2
-amerikankama			2
-amerima			2
-amfetaminima	16		2
+amerikama			3
+amerikancima			3
+amerikankama			3
+amerima			4
+amfetaminima	16		3
 amfibijama			4
 amforama	37		4
 amortizacijama			4
-amovima			2
+amovima			4
 amperima	21		3
-ampulama	47		2
-analgeticima	89		2
+ampulama	47		3
+analgeticima	89		3
 analima	289		3
 analitičarima	649		5
 analizama	2680		3
@@ -230,32 +230,32 @@ anarhistima	58		4
 anarhizma	170		2
 anatema	237		3
 anatemama	15		4
-andima			2
-androidima	61		2
+andima			3
+androidima	61		3
 anegdotama	190		3
 aneksima	225		4
-aneurizma	153		2
+aneurizma	153		3
 animalnima			5
 animozitetima			3
 anketama	1040		3
 anketarima	33		3
-anksioznima			2
+anksioznima			3
 anksioznostima			4
 anomalijama	298		4
 anonimnima			5
-anoreksijama			2
+anoreksijama			3
 ansamblima			3
 antagonizama	119		3
 antagonizma	150		2
 antenama	233		3
-anterijama			2
-antialkoholičarima			2
+anterijama			3
+antialkoholičarima			3
 antibioticima	887		4
-antidepresivima	129		2
-antidrama			2
+antidepresivima	129		3
+antidrama			3
 antikvarima			3
-antikvarnicama			2
-antikvitetima	69		2
+antikvarnicama			3
+antikvitetima	69		3
 antilopama			4
 antipodima	11		3
 antisemitizma	499		2
@@ -268,22 +268,22 @@ antropolozima			4
 anđelima	847		4
 aparatima	1930		3
 apartmanima	1221		3
-apatincima			2
-apatridima			2
-apačima			2
-apašima			2
-apelacionima			2
+apatincima			3
+apatridima			3
+apačima			3
+apašima			3
+apelacionima			3
 apelima	208		4
 aperitivima			3
 apetitima	148		3
-apićima			2
+apićima			4
 aplauzima	600		5
 aplikacijama	3425		4
-aplikativnima			2
-aplikatorima			2
+aplikativnima			3
+aplikatorima			3
 apoenima	207		3
 apostolima	885		5
-apostolskima			2
+apostolskima			3
 apotekama	2250		3
 apotekarima			3
 apoteozama			3
@@ -291,15 +291,15 @@ apozicijama			4
 aprilima			3
 apsolutizma	217		2
 apsolutnima			5
-apsolventima			2
+apsolventima			3
 apstrakcijama	53		4
 apstraktnima			4
 arabeskama	29		4
 aranžmanima	849		3
 arapima	528		4
-arbanasima			2
+arbanasima			3
 arenama	122		3
-argumentima	2487		2
+argumentima	2487		3
 arhaizama	55		3
 arhaizmima	23		3
 arheologijama			4
@@ -308,35 +308,35 @@ arheološkima			4
 arhitektama	446		4
 arhitektima	238		4
 arhitektonskima			3
-arhivama	710		2
+arhivama	710		3
 arhivima	540		3
 arijama	47		4
 arijevcima	33		5
 aristokratima			4
 aritmijama	30		4
-arkadama	87		2
-arkama			2
+arkadama	87		3
+arkama			3
 armijama	164		4
 aroma	1336		2
 aromama	403		3
 aromatičnima			4
 artefaktima	116		5
 arterijama	390		4
-artiklima			2
+artiklima			4
 artičokama	16		3
-aršinima			2
+aršinima			3
 aršlama		M	2
-aseksualnima			2
-asertivnostima			2
-asima			2
+aseksualnima			3
+asertivnostima			3
+asima			3
 asistentima	240		4
-asistentkinjama			2
-asketima			2
+asistentkinjama			3
+asketima			4
 asocijacijama	724		4
-aspartama	58		2
+aspartama	58		3
 aspektima	4440		4
-aspiracijama	259		2
-aspiratorima			2
+aspiracijama	259		3
+aspiratorima			3
 asteroidima	169		3
 astma	1503		2
 astmama			3
@@ -347,55 +347,55 @@ astronautima	288		4
 astronoma	1191		3
 astronomijama			4
 astronomima	327		4
-asurama			2
+asurama			3
 atarima	239		4
-atavizma	18		2
-atašeima	21		2
+atavizma	18		3
+atašeima	21		3
 ateistima	151		4
 ateizma	333		2
 ateljeima	123		4
 atentatima	76		3
 atentatorima	72		4
-atestima	51		2
-atinjanima			2
+atestima	51		4
+atinjanima			3
 atlasima	39		4
-atletama	24		2
+atletama	24		3
 atmosferama	48		3
 atoma	2031		2
 atomima	209		3
 atributima	510		3
 audicijama	67		4
-auditorijuma	401		2
+auditorijuma	401		3
 aukcijama	442		4
-aurama			2
-australijancima			2
+aurama			3
+australijancima			3
 austrijancima	418		3
-autima	330		2
+autima	330		4
 autizma	697		2
-autićima	37		2
+autićima	37		3
 autobusima	2094		4
-autobuskima			2
-autograma	85		2
-autogramima	17		2
-autoguma	41		2
+autobuskima			3
+autograma	85		3
+autogramima	17		3
+autoguma	41		3
 autohtonima			4
-autolimarima			2
+autolimarima			3
 automatima	265		3
 automobilima	4509		3
-automobilizma	399		2
+automobilizma	399		3
 autoputevima	691		7
 autorima	3512		5
 autoritetima	384		3
-autsajderima			2
-avangardizma	24		2
-avanima			2
+autsajderima			3
+avangardizma	24		3
+avanima			3
 avanturama	816		3
-avarima			2
+avarima			4
 avatarima	47		3
 avenijama	48		4
 avetima	80		4
-avetnima			2
-avganistancima			2
+avetnima			3
+avganistancima			3
 avgustima			4
 avijatičarima	13		5
 avionima	2103		3
@@ -405,18 +405,18 @@ azbukama	26		4
 azijatima	48		4
 azilantima	275		4
 azilima	98		3
-azurima			2
-aćima			2
-aškenazima			2
-ašovima	45		2
-aščinicama			2
-aždajama			2
+azurima			4
+aćima			3
+aškenazima			3
+ašovima	45		4
+aščinicama			3
+aždajama			3
 babama	268		3
 babetinama			4
 babicama	45		4
-babinama			2
-baburama			2
-babuškama			2
+babinama			3
+baburama			3
+babuškama			3
 bacanjima	111		3
 bacačima	93		3
 bacilima	38		3
@@ -425,30 +425,30 @@ bademima	179		4
 badnjacima	16		4
 bagerima	207		4
 baglama			2
-baglamama			2
+baglamama			3
 bagrema	626		3
 bagremima			4
-bagremovima			2
-bahama			2
-bahamima			2
+bagremovima			3
+bahama			3
+bahamima			3
 bahatijima			5
 bahatima			4
-bajalicama	35		2
-bajanjima			2
+bajalicama	35		3
+bajanjima			3
 bajkama	978		3
-bajkerima	76		2
+bajkerima	76		4
 bajonetama			3
-bajonetima			2
-bajrama			2
+bajonetima			3
+bajrama			3
 bajtovima	31		4
-bakalima			2
+bakalima			4
 bakama	259		3
 baklavama	29		3
 bakljama	241		3
 bakračima	11		3
 bakrima			3
 bakterijama	955		4
-bakšišima			2
+bakšišima			3
 baladama	147		3
 balama			3
 balastima			4
@@ -457,49 +457,49 @@ balavicama			5
 balegama			4
 balerinama	52		3
 baletima	47		3
-balističarima			2
+balističarima			3
 balkancima	132		3
-balkanima			2
+balkanima			3
 balkonima	286		3
 balonima	410		3
-balončićima	21		2
-balovima	96		2
-balvanima			2
+balončićima	21		3
+balovima	96		4
+balvanima			3
 balzama	112		3
-balšićima			2
+balšićima			4
 banalnima			3
 bananama	238		3
-bananicama	15		2
-banaćanima			2
+bananicama	15		3
+banaćanima			3
 bandama	182		3
-bandažiranima			2
-banderama			2
-banditima			2
-banditizma	28		2
-banjama			2
+bandažiranima			3
+banderama			3
+banditima			4
+banditizma	28		3
+banjama			3
 bankama	11600		3
 bankarima	556		3
 banketima	28		3
-bankomatima	429		2
+bankomatima	429		3
 bankrotima			3
 banovima	10		4
-banovinama	20		2
+banovinama	20		3
 barabama	79		3
 barakama	212		3
 barama	386		3
 barbarima			4
-bardovima	14		2
+bardovima	14		4
 baricama	85		4
 barijerama	204		3
 barikadama	1234		3
 barjacima	108		3
 barkama	40		3
-barmenima	17		2
+barmenima	17		3
 baronima	43		3
 barovima	683		4
 barutima			4
-baržama	85		2
-basamacima			2
+baržama	85		3
+basamacima			3
 basamcima			3
 basma		M	2
 basnama	108		3
@@ -507,25 +507,25 @@ basnoslovnima			5
 basovima	32		4
 bastionima	23		3
 batacima	36		4
-bataljonima	32		2
+bataljonima	32		3
 baterijama	742		4
 batinama	566		4
 batinanima			4
-batinicama			2
-batinjanjima			2
+batinicama			3
+batinjanjima			3
 baucima			3
 bazama	1786		3
 bazenima	2065		3
-baćuškama	36		2
-bačijama			2
+baćuškama	36		3
+bačijama			3
 bačvama	135		3
 baštama	926		3
 baštinama	36		4
-baštovanstvima			2
-bdenjima	42		2
+baštovanstvima			3
+bdenjima	42		3
 bebama	1726		3
-bebastima			2
-bebicama	30		2
+bebastima			4
+bebicama	30		3
 bedacima			3
 bedama	37		3
 bedema	1084		3
@@ -533,37 +533,37 @@ bedemima	354		4
 bednima	46		3
 bedrima	164		3
 beduinima	16		3
-bedževima	77		2
+bedževima	77		3
 begovima	78		4
 beguncima	203		3
 beknutima			4
-belajima			2
+belajima			3
 belancima			3
 belančevinama	329		5
 belcima	84		3
-belegima			2
+belegima			3
 belezima	28		4
 beleškama	538		4
-belgijancima			2
+belgijancima			3
 belima			3
 belinama	33		3
 belkinjama			4
-belorusima			2
+belorusima			3
 bendovima	638		4
 beneficijama	247		4
 beograđanima	1283		5
-beograđankama			2
-beonjačama			2
-beranama			2
+beograđankama			3
+beonjačama			3
+beranama			3
 beračima	75		3
-berberima	17		2
-beretkama	101		2
-bermudama	83		2
+berberima	17		4
+beretkama	101		3
+bermudama	83		3
 berzama	1838		3
 besedama	269		4
-besednicima	15		2
-besima			2
-beskičmenjacima			2
+besednicima	15		3
+besima			3
+beskičmenjacima			3
 beskrupuloznima			6
 beskućnicama			5
 beskućnicima	275		5
@@ -578,32 +578,32 @@ bespomoćnostima			6
 besposlicama			5
 bespućima	234		3
 besramnima			3
-bestidnicima			2
+bestidnicima			3
 bezakonjima	42		4
 bezazlenima			4
 bezbožnicima	68		5
 bezbožnima			4
-bezbradima			2
+bezbradima			3
 bezdanima	21		4
 bezglavima			4
 bezubima			4
 bezumnima	12		3
-bezuslovnima			2
-bezvlađima			2
+bezuslovnima			3
+bezvlađima			3
 bezvoljnima			3
-bezvoljnostima			2
-bećarima			2
-bećarskima			2
-bećićima			2
+bezvoljnostima			3
+bećarima			4
+bećarskima			3
+bećićima			4
 bečejcima			3
-bečićima			2
-bešlićima			2
+bečićima			4
+bešlićima			4
 beščašćima			3
-bežanijama			2
+bežanijama			3
 biblijama	19		4
 bibliotekama	2299		3
 bicepsima	21		4
-biciklama			2
+biciklama			3
 biciklima			3
 biciklizma	581		2
 bicima			3
@@ -611,49 +611,49 @@ bifeima	22		3
 bijesnima			4
 bikinijima	91		4
 bikovima	266		4
-bilansima			2
-bilbordima	490		2
+bilansima			3
+bilbordima	490		3
 bilima			3
-bilionima	50		2
+bilionima	50		3
 biljezima		J	4
 bilješkama		J	4
 biljkama	2264		3
 biltenima	60		3
-binama		M	2
-bioenergetičarima			2
-biofizikama			2
+binama		M	3
+bioenergetičarima			3
+biofizikama			3
 biografijama	492		4
 biografima	34		4
-biohemijama			2
+biohemijama			3
 biologijama			4
-bioritma	47		2
+bioritma	47		3
 bioskopima	1786		5
 biračima	2154		3
 birmingema			2
 biroima	282		3
-birokratama			2
-birokratijama			2
-birokratizma	21		2
-birtijama			2
-bisagama	44		2
-biseksualkama			2
-biseksualnima			2
+birokratama			3
+birokratijama			3
+birokratizma	21		3
+birtijama			3
+bisagama	44		3
+biseksualkama			3
+biseksualnima			3
 biseksualnostima			3
 biserima	404		4
-bisernima			2
+bisernima			3
 biskupima	94		4
 biskvitima	12		3
 bistama	28		3
-bistricama			2
+bistricama			3
 bistrinama			3
 bitangama	74		3
 bitkama	833		3
 bitovima	57		4
-bivanjima			2
-bivolima			2
+bivanjima			3
+bivolima			4
 bivšima	59		3
-biznisima			2
-biznismenima			2
+biznisima			3
+biznismenima			3
 bizonima			3
 bićima	1520		3
 bičevanima			5
@@ -663,39 +663,39 @@ bjelancima			3
 bjelkinjama			4
 blagajnama	635		3
 blagima	15		3
-blagodatima	112		2
-blagodetima	588		2
+blagodatima	112		3
+blagodetima	588		3
 blagoslovima	87		5
-blagostima			2
+blagostima			4
 blama	324		2
 blamovima			4
 blatobranima	100		5
-blaženima	27		2
+blaženima	27		3
 blebetanima			4
 bledima			3
-blefovima			2
-blenderima			2
-blentavima			2
-blesavima			2
+blefovima			4
+blenderima			4
+blentavima			3
+blesavima			3
 blescima			3
 bleskovima			4
 bleštavima			4
 blijedima			4
 blijescima			4
-blindiranima			2
+blindiranima			3
 bliskima	44		3
-blistanjima			2
+blistanjima			3
 blistavima			4
-blistavostima			2
+blistavostima			3
 blizancima	648		3
-blizankama			2
-bliznakinjama			2
-bližnjima	1159		2
+blizankama			3
+bliznakinjama			3
+bližnjima	1159		3
 bljescima			3
 bljeskovima			4
 blještavima			4
 bljutavima			4
-bljuzgama			2
+bljuzgama			3
 bljuzgavicama			5
 blogovima	1326		4
 blokadama	296		3
@@ -704,7 +704,7 @@ bludnicama	24		4
 bludnicima	19		4
 bludnima			3
 bluzama	52		3
-bobicama	116		2
+bobicama	116		3
 bocama	508		3
 bodežima	30		4
 bodljama	99		3
@@ -716,37 +716,37 @@ bogaljima	18		4
 bogatašima	344		3
 bogatima	510		4
 bogatstvima	469		3
-bogazama			2
+bogazama			3
 boginjama	158		4
-bogolikima			2
-bogomoljama	66		2
+bogolikima			3
+bogomoljama	66		3
 bogomoljkama			3
 bogovima	2386		4
-bogovskima			2
-bogumilima			2
+bogovskima			3
+bogumilima			3
 bojama	8031		3
-bojanićima			2
+bojanićima			3
 bojaznima	33		4
-bojevima			2
-bojicama	74		2
-bojištima	118		2
-bojlerima	54		2
+bojevima			3
+bojicama	74		3
+bojištima	118		4
+bojlerima	54		4
 bokalima	16		3
-bokorima			2
+bokorima			4
 bokovima	678		4
 boksericama	90		5
-bokserima	62		2
-boksovima	118		2
+bokserima	62		4
+boksovima	118		4
 bolesnicima	1556		3
 bolesnima	493		4
 bolestima	3787		4
-boleštinama	28		2
-boljarima	27		2
-boljevićima			2
+boleštinama	28		3
+boljarima	27		4
+boljevićima			3
 boljima	215		3
 boljkama	37		3
-boljševicima	108		2
-boljševizma	194		2
+boljševicima	108		3
+boljševizma	194		3
 bolnicama	3149		4
 bolnima	38		3
 bolničarima	34		5
@@ -754,60 +754,60 @@ bolničarkama	14		5
 bolovima	1060		4
 bombama	1681		3
 bombarderima	69		3
-bombardovanjima	92		2
-bombašima			2
-bombonama	127		2
+bombardovanjima	92		3
+bombašima			3
+bombonama	127		3
 bombonima	16		3
-bonusima	184		2
+bonusima	184		3
 borama	209		3
-boranima	21		2
+boranima	21		3
 boravcima	144		4
 boravištima			5
 borbama	3480		3
 borcima	1818		3
-bordelima			2
-bordurama	27		2
-borićima	17		2
-borovima			2
+bordelima			4
+bordurama	27		3
+borićima	17		4
+borovima			4
 borovnicama	84		4
 borščevima			4
 bosancima	353		3
-bosankama			2
+bosankama			3
 bosovima	67		4
 botanikama			4
-botulizma	39		2
+botulizma	39		3
 bovama			3
 bozima			3
 bočicama	124		4
-bođanima			2
+bođanima			3
 bošnjacima			3
-boščama			2
+boščama			3
 božanstvima	244		3
 božijima			4
 božurima	24		3
 bradama	98		3
 bradatima			4
 bradavicama	279		5
-brahima			2
-brahmanama			2
-braićima			2
-brajićima			2
+brahima			3
+brahmanama			3
+braićima			4
+brajićima			4
 brakovima	636		4
 branama	115		3
 branicima	158		3
 branima			3
 braniocima	415		5
-brankovićima			2
+brankovićima			3
 bratstvima	74		3
 bravama	76		3
-bravurama	93		2
+bravurama	93		3
 brazdama	96		3
-brazgotinama			2
+brazgotinama			3
 brazilcima	110		3
-braćenima			2
+braćenima			3
 brdašcima	28		3
 brdima	1496		3
-brdinama			2
+brdinama			3
 bregovima	117		4
 bremenima			4
 brendovima	1086		4
@@ -816,44 +816,44 @@ brestovima			4
 brezama	39		3
 brežuljcima	233		3
 bridovima	10		4
-brifinzima	20		2
-brigadama	93		2
+brifinzima	20		3
+brigadama	93		3
 brigama	602		3
 brijačima	24		3
-brijačnicama			2
-brionima			2
+brijačnicama			3
+brionima			3
 brisačima	32		3
 britancima	482		3
 brižnima			3
 brižnostima			4
 brkovima	357		4
-brljavima			2
+brljavima			3
 brodarima	35		3
 brodićima	101		3
 brodoloma	288		4
 brodolomima	14		5
 brodovima	2031		4
-brojanicama	43		2
+brojanicama	43		3
 brojevima	3334		4
 brojilima	90		4
 brojkama	1434		3
-brokerima	115		2
+brokerima	115		4
 brokulama			4
 broma	55		2
-brošurama	180		2
-brstovima			2
+brošurama	180		3
+brstovima			4
 brucošima	223		4
 brusnicama	40		4
 brzacima	139		3
 brzinama	2486		4
 brzopletima			5
-brzopletostima			2
-brćićima			2
-brčinama			2
-brčićima	69		2
-bubama			2
+brzopletostima			3
+brćićima			4
+brčinama			3
+brčićima	69		4
+bubama			3
 bubašvabama	43		3
-bubicama	62		2
+bubicama	62		3
 bubnjevima	330		4
 bubrezima	782		4
 bubuljicama	131		4
@@ -861,51 +861,51 @@ budacima	11		4
 budalama	632		3
 budalaštinama	156		4
 budilnicima			4
-budima			2
+budima			3
 budistima	27		4
 budizma	385		2
 budnijima			4
 budnima	43		3
-budoarima			2
+budoarima			3
 budžacima			3
-budžetima			2
-bugarima			2
-bugarkama			2
+budžetima			4
+bugarima			4
+bugarkama			3
 bugaršticama	38		4
 bujicama	72		4
 bukagijama	46		4
-bukačima			2
+bukačima			3
 buketima	61		3
-buketićima			2
-buklijama			2
+buketićima			3
+buklijama			3
 buktinjama	48		4
 bukvama	45		3
 bukvarima	25		3
-buldožerima	93		2
-bulevarima			2
+buldožerima	93		3
+bulevarima			3
 buljucima			3
 buma	444		2
 bunama	85		3
 bunarima	206		3
 bundama	49		3
 bundevama	34		4
-bundžijama	11		2
+bundžijama	11		3
 bunjevcima			3
 bunkerima	133		4
-buntovima			2
+buntovima			4
 buntovnicima	68		4
-buradima	384		2
+buradima	384		3
 burama	72		3
-burgerima			2
+burgerima			4
 burgijama	17		4
-burićima			2
+burićima			4
 burma		M	2
-burmama			2
-buržujima	13		2
-busijama	38		2
+burmama			3
+buržujima	13		3
+busijama	38		3
 buticima	529		4
-butinama	375		2
-butonima			2
+butinama	375		3
+butonima			3
 buvama	69		3
 buvljacima	210		3
 bušilicama	29		5
@@ -917,35 +917,35 @@ carinama	398		4
 carinicima	188		5
 carizma	53		2
 carstvima	100		3
-cediljkama			2
+cediljkama			3
 ceduljama	18		4
-ceduljicama	22		2
-cegerima	51		2
+ceduljicama	22		3
+cegerima	51		4
 celinama	467		3
 cenama	16176		3
-centaurima			2
+centaurima			3
 centima	27		3
 centimetrima	73		5
-centralama	381		2
+centralama	381		3
 centralizma	211		2
 centrima	7920		3
 cenzorima	30		4
 cepanicama	25		5
-ceradama	13		2
+ceradama	13		3
 ceremonijama	168		4
 cestama	147		3
-cetinjanima			2
+cetinjanima			3
 cevima	1075		3
 cevovodima	146		5
 cevčicama	35		4
-cezarima	13		2
-cezijuma			2
-cicama			2
+cezarima	13		4
+cezijuma			3
+cicama			3
 ciframa	1149		3
 ciganima	357		4
 cigarama	99		3
 cigaretama	756		3
-cigarlucima			2
+cigarlucima			3
 ciglama	230		3
 ciglanama	18		3
 ciklama	186		2
@@ -954,82 +954,82 @@ ciklusima	676		4
 cilindrima	149		3
 ciljevima	6846		4
 cima	532		2
-cimama			2
-cimerima			2
-cimerkama	12		2
-cincarima			2
-cinema			2
+cimama			3
+cimerima			4
+cimerkama	12		3
+cincarima			4
+cinema			3
 cinicima	19		4
 cinizma	723		2
-cinkarošima	12		2
-cionistima	32		2
+cinkarošima	12		3
+cionistima	32		3
 cionizma	87		2
 cipelama	1520		4
-cipelicama	100		2
+cipelicama	100		3
 cirkusima	56		4
 cisternama	222		3
-citatima	492		2
+citatima	492		4
 citoplazma			2
 civilima	1352		3
 civilizacijama	504		4
-cjediljkama			2
-cokulama			2
+cjediljkama			3
+cokulama			3
 crepovima	44		4
 crepuljama			4
 crevima	1145		3
 crkvama	4120		3
-crkvicama	40		2
-crkvinama			2
+crkvicama	40		3
+crkvinama			3
 crncima	244		3
 crnima	35		3
-crnkinjama	12		2
-crnogorcima			2
-crnojevićima			2
-crnčićima			2
+crnkinjama	12		3
+crnogorcima			3
+crnojevićima			3
+crnčićima			4
 crtama	1648		3
 crtaćima	95		3
-crtačima	62		2
+crtačima	62		3
 crtežima	1168		4
 crticama	92		4
-crtićima			2
+crtićima			4
 crvenima	96		4
 crvima	185		3
 crvotočinama			5
-cugovima			2
-curama			2
+cugovima			4
+curama			3
 curicama	22		4
-cvetama			2
-cvetićima	108		2
+cvetama			3
+cvetićima	108		4
 cvetovima	635		4
-cvećarama			2
-cvikerima			2
+cvećarama			3
+cvikerima			4
 dabrovima	17		4
 dadaizma	49		2
 dadiljama	24		4
 dagnjama	15		3
-dahijama			2
+dahijama			3
 dahovima			4
-dahtanjima			2
-dairama			2
+dahtanjima			3
+dairama			3
 daljinama	332		3
 dama	5469		2
 damama	1129		3
 damarima	20		4
 danima	20363		3
-dankinjama			2
-darivanjima			2
+dankinjama			3
+darivanjima			3
 darovima	829		4
-darovnicama			2
+darovnicama			3
 darvinizma	74		2
-dasama			2
+dasama			3
 daskama	678		3
-datostima	32		2
+datostima	32		4
 datotekama	372		3
-datulama			2
+datulama			3
 datuma	10564		3
 datumima	798		4
 davaocima	510		5
-davljenicima			2
+davljenicima			3
 davninama			3
 daćama	22		3
 daščicama	41		4
@@ -1042,55 +1042,55 @@ debljinama	124		3
 decenijama	12563		4
 decima		M	3
 dedama	98		3
-defektima			2
+defektima			4
 defetizma	191		2
 definicijama	362		4
-deformacijama	110		2
+deformacijama	110		3
 deizma	22		2
-dejstvima	696		2
+dejstvima	696		3
 dekadama	71		3
 dekama	141		3
 dekanima	116		3
-dekolteima	40		2
-dekoracijama	87		2
+dekolteima	40		3
+dekoracijama	87		3
 dekretima	99		3
 delatnostima	3050		3
-delegatima	428		2
-delfima			2
+delegatima	428		3
+delfima			3
 delfinima	214		3
-delijama			2
+delijama			3
 delikatesama			3
-delikatesima	41		2
+delikatesima	41		3
 deliktima	37		4
-delikventima	24		2
+delikventima	24		3
 delima	9486		3
-deliocima	26		2
-delirijuma	88		2
+deliocima	26		3
+delirijuma	88		3
 delićima	102		4
 delovanjima	93		5
-delovima	16752		2
+delovima	16752		4
 deminutivima			6
-demokratama	1619		2
+demokratama	1619		3
 demokratima	42		4
 demonima	806		3
-demonizma			2
-demonstracijama	1290		2
-demonstrantima			2
+demonizma			3
+demonstracijama	1290		3
+demonstrantima			3
 deobama	66		3
 deonicama	1196		4
 deoničarima	151		5
-depešama	218		2
+depešama	218		3
 depoima	244		3
-deponijama	678		2
+deponijama	678		3
 depozitima	277		5
-deputatima			2
+deputatima			3
 deranima			4
 derbijima	312		4
-derikožama			2
-derivatima	659		2
+derikožama			3
+derivatima	659		3
 derištima			4
 desecima	35		3
-desenima			2
+desenima			3
 desertima	58		4
 desetinama	1708		4
 desetkama	61		3
@@ -1100,30 +1100,30 @@ despotizma	90		2
 detaljima	7185		3
 detektivima	63		3
 detektorima	170		5
-detinjarijama			2
-detonatorima	19		2
-deuterijuma			2
+detinjarijama			3
+detonatorima	19		3
+deuterijuma			3
 devama	14		3
 devedesetima	31		4
-deverikama			2
+deverikama			3
 deverima			4
 deverušama	13		4
 devicama	106		4
-devizama	916		2
+devizama	916		3
 devojkama	3185		3
 devojčicama	1046		4
-devojčurama			2
-dezerterima			2
+devojčurama			3
+dezerterima			3
 dečacima	950		3
-dečanima			2
+dečanima			3
 dečkima	50		3
 dešavanjima	3660		3
 dešnjacima	31		3
-diazepama			2
+diazepama			3
 diftonzima			4
 digresijama	29		4
 dijadema	16		2
-dijademama			2
+dijademama			3
 dijafragma	166		2
 dijagnozama	142		3
 dijagrama	507		4
@@ -1141,48 +1141,48 @@ dima	3831		2
 dimenzijama	2815		4
 dimnjacima	92		4
 dinama	300		3
-dinamizama			2
-dinamizma	66		2
+dinamizama			3
+dinamizma	66		3
 dinarima	3018		4
-dinastima			2
-dinicama			2
+dinastima			4
+dinicama			3
 dinjama	49		3
-dinosaurima			2
+dinosaurima			3
 dinosaurusima	146		5
 diobama			3
-diorama		M	2
+diorama		M	3
 diplama			2
 diploma	6731		2
 diplomama	1107		3
-diplomatama	563		2
+diplomatama	563		3
 diplomcima	719		3
-diptisima	21		2
+diptisima	21		3
 direktorijuma	829		4
 direktorima	2170		5
-dirhama			2
-dirkama	85		2
-dirkema			2
+dirhama			3
+dirkama	85		3
+dirkema			3
 disciplinama	2717		3
-disketama	76		2
-diskontima	52		2
-diskotekama	461		2
-diskovima	1241		2
-diskursima	82		2
+disketama	76		3
+diskontima	52		4
+diskotekama	461		3
+diskovima	1241		4
+diskursima	82		3
 diskusijama	1496		4
-distancama	134		2
-distributerima	544		2
+distancama	134		3
+distributerima	544		3
 divanima	15		4
-divizijama	99		2
+divizijama	99		3
 divljacima	130		3
 divljima			2
 divljinama	30		3
-divokozama			2
+divokozama			3
 divovima	67		4
 dizajnerima	929		4
 dizajnima	57		4
 dizalicama	70		5
 dizalima			4
-dizginima			2
+dizginima			3
 dlakama	229		3
 dlanovima	753		4
 dlačicama	262		4
@@ -1193,39 +1193,39 @@ dobicima	124		3
 dobima	453		3
 dobitima	43		4
 dobitnicima	1144		5
-dobošarima			2
-dobošima			2
+dobošarima			3
+dobošima			3
 dobrima	1618		3
 dobrotama			3
 dobrovoljcima	365		3
 dobročinstvima	60		3
 dodacima	1386		3
 dodavanjima	65		3
-dodelama	87		2
-dodirima	215		2
+dodelama	87		3
+dodirima	215		4
 događajima	8557		5
 događanjima	820		3
-dogledima			2
+dogledima			3
 dogma	562		2
 dogmama	158		3
-dogmatizma	105		2
+dogmatizma	105		3
 dogovorima	1025		5
 dohocima	70		4
-doima	128		2
+doima	128		3
 dojavama	55		4
 dojiljama	115		3
 dojkama	366		3
 dojma	53		2
 dojmovima	15		4
 dokazima	2977		4
-dokolenicama	22		2
+dokolenicama	22		3
 dokovima	121		4
 doktorima	767		4
 doktrinama	108		3
-dokumentima	7053		2
+dokumentima	7053		3
 dolama		M	3
-dolamama			2
-dolapima			2
+dolamama			3
+dolapima			3
 dolarima	1086		4
 dolascima	188		4
 dolinama	589		3
@@ -1235,8 +1235,8 @@ domaćicama	190		4
 domaćima	228		3
 domaćinima	2013		4
 domaćinstvima	2547		3
-domašajima	19		2
-domenima	910		2
+domašajima	19		3
+domenima	910		3
 dometima	605		4
 domorocima	112		3
 domovima	4466		4
@@ -1244,37 +1244,37 @@ domovinama	33		5
 donacijama	1435		4
 donatorima	1130		4
 donjima			3
-donorima	20		2
-dopisima	201		2
+donorima	20		4
+dopisima	201		3
 dopisnicama	21		5
-doprema	424		2
+doprema	424		3
 doprinosima	833		5
 dopunama	4261		4
-doradama	54		2
+doradama	54		3
 doseljenicima	214		3
-dosetkama	132		2
-dosijeima	280		2
+dosetkama	132		3
+dosijeima	280		3
 dostavama	17		4
-dostavljačima	14		2
-dostignućima	2035		2
-dostojanstvenicima	30		2
-dotacijama	102		2
+dostavljačima	14		3
+dostignućima	2035		3
+dostojanstvenicima	30		3
+dotacijama	102		3
 doušnicima	37		5
 dozama	1239		3
-doznakama	92		2
+doznakama	92		3
 dozvolama	767		4
-dođošima			2
+dođošima			3
 došljacima	118		3
 doživljajima	508		5
-doživljavanjima			2
+doživljavanjima			3
 dragama			3
 dragocenostima	112		5
 draguljima	166		3
 drahma	66		2
 drama	6914		2
 dramama	441		3
-drangulijama			2
-draženjima			2
+drangulijama			3
+draženjima			3
 dražima	52		3
 drema	282		2
 dresovima	835		4
@@ -1283,78 +1283,78 @@ drhtajima	27		4
 dripcima	20		3
 drma	682		2
 drogama	959		3
-droidima			2
+droidima			3
 droljama	10		3
 dronjcima	70		3
-dronovima			2
-drotovima			2
-drugama			2
+dronovima			4
+drotovima			4
+drugama			3
 drugaricama	1243		5
 drugarima	2046		3
 drugačijima	108		4
 drugima	31337		3
 drugovima	2082		3
-druidima	12		2
+druidima	12		3
 druma	610		2
 drumovima	654		4
-drumskima			2
+drumskima			3
 društvima	6244		3
-druženjima	256		2
+druženjima	256		3
 družinama	62		4
 drvetima	22		4
 drvećima			3
 drvima	176		3
 drvoredima	166		5
 drškama	201		3
-držaocima			2
+držaocima			3
 državama	21368		4
 državicama	100		5
 državljanima	1199		5
-držačima	115		2
+držačima	115		3
 dualizama			3
 dualizma	144		2
 dubinama	1186		3
-dubletama			2
+dubletama			3
 dubokima			4
 dubravama	25		4
-dudama			2
-dudinjama			2
+dudama			3
+dudinjama			3
 dudovima	19		4
-duelima	1196		2
-duetima	32		2
+duelima	1196		4
+duetima	32		4
 dugama	16		3
-dugmadima			2
-dugmetima			2
-dugmićima	179		2
-dugovanjima	475		2
+dugmadima			3
+dugmetima			4
+dugmićima	179		4
+dugovanjima	475		3
 dugovima	2105		4
 duhovima	797		4
-duhovitostima	15		2
+duhovitostima	15		3
 duhovnima			3
 dukatima	89		3
 duma	141		2
 dunjama	31		3
-dunuma			2
+dunuma			3
 dupinima			3
-dupljama	74		2
+dupljama	74		3
 durbinima			3
 duvanima			3
-duvačima			2
+duvačima			3
 dućanima	186		3
 dušama	1399		3
 dušecima	172		4
-duševnima			2
+duševnima			3
 dušicama			4
 dušmanima	184		4
-dušmankama			2
-duždovima			2
+dušmankama			3
+duždovima			4
 dužima	24		3
 dužinama	593		3
 dužnicima	849		3
 dužnima			3
 dužnostima	731		3
-dvadeseticama			2
-dvadesetima	10		2
+dvadeseticama			3
+dvadesetima	10		3
 dvama		M	2
 dvema			2
 dverima	541		3
@@ -1362,8 +1362,8 @@ dvobojima	52		4
 dvodoma			2
 dvogledima	57		4
 dvojnicima	31		4
-dvojstvima			2
-dvokolicama	46		2
+dvojstvima			3
+dvokolicama	46		3
 dvoma			2
 dvonošcima			3
 dvoranama	535		3
@@ -1373,68 +1373,68 @@ dvorima	160		3
 dvorištima	942		3
 dvorovima	436		4
 dvosedima	11		4
-džakovima			2
-džakčićima			2
+džakovima			4
+džakčićima			4
 džamijama	323		4
-dželatima			2
+dželatima			4
 džema	282		2
 džemovima	28		4
 džemperima	74		4
 džentlmenima	20		4
 džepovima	1296		4
 džigericama			5
-džinovima			2
+džinovima			4
 džipovima	413		4
-džombama			2
+džombama			3
 džukcima			3
 džuma			2
 džunglama	116		3
-edema	265		2
-edicijama	98		2
-ediktima			2
-editorima	30		2
+edema	265		3
+edicijama	98		3
+ediktima			4
+editorima	30		3
 efektima	3353		4
-egipćanima			2
-egoistima	10		2
+egipćanima			3
+egoistima	10		3
 egoizma	400		2
-egzibicionizma	132		2
+egzibicionizma	132		3
 egzodusima			4
 egzorcizma	61		2
-ekcema	501		2
+ekcema	501		3
 ekipama	2040		3
-eklektizma			2
-eklogama			2
+eklektizma			3
+eklogama			3
 ekologijama			4
-ekonoma	172		2
+ekonoma	172		3
 ekonomijama			4
-ekonomima			2
-ekosistema			2
+ekonomima			3
+ekosistema			3
 ekranima	1811		3
-ekrema			2
+ekrema			3
 ekscesima	51		4
-ekserima			2
+ekserima			4
 ekspedicijama	130		4
 eksperimentima	1166		4
 ekspertima	1233		4
-eksploatatorima	21		2
+eksploatatorima	21		3
 eksplozijama	314		4
 eksplozivima	30		3
-eksponatima			2
-ekspresima			2
+eksponatima			3
+ekspresima			3
 ekstazama			3
-ekstrema	549		2
-ekstremima	123		2
-ekstremistima	427		2
-ekstremitetima	301		2
+ekstrema	549		3
+ekstremima	123		3
+ekstremistima	427		3
+ekstremitetima	301		3
 ekstremizma	761		2
-ektoplazma			2
+ektoplazma			3
 ekumenizma	367		2
 elegijama	15		4
 elektranama	547		3
 elektromagnetima			3
 elektromagnetizma	64		2
 elektronima	96		3
-elektrošokovima	75		2
+elektrošokovima	75		3
 elementima	7115		4
 elipsama	36		3
 elitama	446		3
@@ -1443,194 +1443,194 @@ embrionima	61		5
 emfizema	57		2
 emigrantima	256		4
 emiratima	980		3
-emisarima	22		2
+emisarima	22		3
 emisijama	2720		4
-emitentima	17		2
-emiterima	396		2
+emitentima	17		3
+emiterima	396		3
 emocijama	2840		4
-endoplazma			2
-energanama	14		2
+endoplazma			3
+energanama	14		3
 energijama	440		4
 englezima	736		3
-enigma	865		2
+enigma	865		3
 enklavama	654		3
 entitetima	467		3
 entuzijazma	2143		2
-enzima	1694		2
-enzimima	170		2
-eonima			2
+enzima	1694		3
+enzimima	170		3
+eonima			3
 eparhijama	304		4
-epiderma	135		2
+epiderma	135		3
 epigrama	47		3
 episkopima	532		5
 epitetima	142		3
 epizodama	431		3
 epohama	395		3
-epoletama	56		2
-epopejama	10		2
+epoletama	56		3
+epopejama	10		3
 epovima	79		4
 epruvetama	48		3
-erotizma	33		2
+erotizma	33		3
 erupcijama	84		4
 esejima	310		3
-eskapizma			2
-eskima			2
-eskimima			2
+eskapizma			3
+eskima			3
+eskimima			3
 esma			2
-esnafima			2
+esnafima			3
 estetikama			4
-estradama			2
+estradama			3
 etapama	576		3
-etatizama			2
-etatizma	68		2
+etatizama			3
+etatizma	68		3
 etikama			4
 etiketama	382		3
 etimologijama			4
-etnolozima	30		2
+etnolozima	30		3
 eufemizama	40		3
-eurokrema	69		2
+eurokrema	69		3
 evanđeljima	25		3
-evenkama			2
-evnusima	27		2
+evenkama			3
+evnusima	27		3
 evrima	3571		3
-evropljanima			2
-ezoterizma			2
+evropljanima			3
+ezoterizma			3
 ešarpama	27		3
 fabrikama	2638		4
 facama	126		3
 fajlovima	1130		4
-fakovićima			2
+fakovićima			3
 faktima	244		3
 faktorima	2318		4
-fakturama	176		2
+fakturama	176		3
 fakultetima	6870		3
-falangama	24		2
+falangama	24		3
 falsifikatima	246		3
 fama	573		2
-familijama			2
+familijama			3
 fanaticima	97		4
 fanatizma	374		2
-fanfarama	25		2
-fanovima	1850		2
-fantazama	39		2
+fanfarama	25		3
+fanovima	1850		4
+fantazama	39		3
 fantazijama	334		4
 fantazma	58		2
-fantazmima	14		2
+fantazmima	14		3
 fantoma	134		2
 fantomima	38		3
 fantomkama	195		3
 faraonima	33		3
 farbama	78		3
-farbicama			2
-farisejima	71		2
+farbicama			3
+farisejima	71		3
 farma	2041		2
-farmaceutima	144		2
-farmacijama			2
+farmaceutima	144		3
+farmacijama			3
 farmama	1146		3
-farmericama	125		2
+farmericama	125		3
 farmerima	769		4
-farmerkama	505		2
-farovima			2
-farsama	19		2
+farmerkama	505		3
+farovima			4
+farsama	19		3
 fasadama	776		3
-fasciklama			2
+fasciklama			3
 fatalizma	73		2
-fatima			2
-fatuma			2
-faunima			2
+fatima			3
+fatuma			3
+faunima			3
 favelama	62		4
 favoritima	272		3
 fazama	3954		3
 fazanima	11		3
-fazonima	70		2
-fašistima			2
+fazonima	70		3
+fašistima			4
 fašizma	3513		2
 februarima			5
-federalcima			2
+federalcima			3
 federalizma	200		2
-feferonima	13		2
-fehima			2
+feferonima	13		3
+fehima			3
 fekalijama	177		4
 feljtonima	35		3
-felnama			2
+felnama			3
 feminizma	472		2
-fenjerima			2
+fenjerima			4
 fenomenima	662		3
-fenovima			2
-feribotima			2
-ferijama			2
+fenovima			4
+feribotima			3
+ferijama			3
 ferma	94		2
-fermanima			2
-fermentima			2
-feromonima	50		2
-fesovima			2
+fermanima			3
+fermentima			4
+feromonima	50		3
+fesovima			4
 festivalima	3265		3
-festonima			2
+festonima			3
 fetišima	34		4
 fetišizma	46		2
-feudalcima			2
+feudalcima			3
 feudalizma	269		2
 fibulama			4
 figurama	623		3
 figuricama	77		4
-figurinama			2
+figurinama			3
 fijakerima	118		4
-fijokama			2
+fijokama			3
 fikcijama	51		4
-filetima	23		2
-filijalama	580		2
-filipikama			2
-filipinkama			2
+filetima	23		4
+filijalama	580		3
+filipikama			3
+filipinkama			3
 filma	41182		2
-filmadžijama	45		2
+filmadžijama	45		3
 filmovima	7483		4
 filolozima	39		4
 filozofijama	70		4
 filozofima	257		4
 filterima	452		4
 finansijama	3081		4
-finesama	126		2
+finesama	126		3
 fiokama	504		3
 firma	30012		2
 firmama	10731		3
 fitiljima			3
 fizikama			4
 fizičarima	152		5
-fišeklijama			2
-fiškalima			2
+fišeklijama			3
+fiškalima			4
 fjordovima	25		4
-flajerima	95		2
+flajerima	95		4
 flasterima	47		4
 flautama			4
-flašama			2
-flašicama			2
+flašama			3
+flašicama			3
 flegma			2
 flekama	146		3
 floskulama	199		4
 flotama	34		3
-foajeima			2
+foajeima			3
 fobijama	61		4
 fokama	47		3
-folijama	249		2
-foliranjima			2
+folijama	249		3
+foliranjima			3
 fondovima	3496		4
 fonema	102		2
 fonetskima			4
-fonograma	310		2
+fonograma	310		3
 fontanama	196		3
 forama	69		3
-forenzičarima	38		2
+forenzičarima	38		3
 forma	7211		2
 formacijama	425		4
 formalizma	97		2
 formalnostima	70		3
 formama	1756		3
-formatima	905		2
+formatima	905		4
 formulama	453		4
-formularima	152		2
+formularima	152		3
 foruma	13468		3
 forumima	3634		4
-fosfatima	18		2
+fosfatima	18		4
 fosilima	105		3
 foteljama	753		3
 fotkama	389		3
@@ -1638,51 +1638,51 @@ fotoaparatima	438		3
 fotografijama	5790		4
 fotografima	537		4
 fotoreporterima	120		3
-fotosima			2
+fotosima			3
 fovizma	13		2
 fragmentima	403		4
-frajerima			2
+frajerima			4
 frakcijama	127		4
 francima	894		3
 francuskinjama	37		5
 francuzima	1061		3
 franjevcima	65		3
 frankizma			2
-franšizama	43		2
+franšizama	43		3
 fratrima	29		3
 frazama	523		3
-frazema	16		2
-frazeologizma			2
+frazema	16		3
+frazeologizma			3
 frekvencijama	788		4
 frendicama	16		4
 frendovima	22		4
 freskama	731		3
-frizerajima			2
+frizerajima			3
 frizerima	84		3
 frizovima	17		4
 frizurama	303		3
 frižiderima	177		3
 froma			2
-frontovima			2
+frontovima			4
 frustracijama	199		4
 fudbalerima	1513		3
-fuficama			2
+fuficama			3
 fugama	38		3
-fukujama			2
+fukujama			3
 funkcijama	4976		4
-funkcionalnostima	238		2
-funkcionerima	1503		2
+funkcionalnostima	238		3
+funkcionerima	1503		3
 funtama	77		3
-furgonima	15		2
+furgonima	15		3
 fusnotama	138		4
 futurizma	103		2
-fuzijama			2
-gabaritima	228		2
-gacama			2
-gacicama			2
-gadostima	84		2
+fuzijama			3
+gabaritima	228		3
+gacama			3
+gacicama			3
+gadostima	84		4
 gadovima	24		4
-gajbama			2
+gajbama			3
 gajdama	55		3
 gajevima	39		4
 gajtanima	45		4
@@ -1696,61 +1696,61 @@ gamma			2
 gangsterima	57		4
 garancijama	849		4
 garažama	385		3
-gardistima	22		2
-gargojlima			2
+gardistima	22		4
+gargojlima			4
 gasovima	646		4
-gatalicama			2
-gatarama	21		2
+gatalicama			3
+gatarama	21		3
 gavranima	15		4
 gazdama	598		3
 gazelama	14		3
-gazištima	19		2
+gazištima	19		4
 gaćama	675		3
 gaćicama	318		4
-gačama			2
-gegovima	32		2
+gačama			3
+gegovima	32		4
 gejšama	17		3
-gelerima			2
+gelerima			4
 gema	1641		2
 generacijama	4338		4
 generalima	1053		3
-generatorima	132		2
+generatorima	132		3
 genetikama			4
-genijalcima	63		2
+genijalcima	63		3
 genijalnostima			3
 genijima	62		4
-genima	1019		2
-genitalijama	199		2
+genima	1019		3
+genitalijama	199		3
 genocidima	68		5
 genoma	617		2
 geografijama			4
-geografima	19		2
+geografima	19		3
 geologijama			4
-geolozima	35		2
+geolozima	35		3
 geranijima			4
-geranijuma			2
-gerasima			2
+geranijuma			3
+gerasima			3
 gerilcima	54		3
-germanizma			2
-gestovima	376		2
+germanizma			3
+gestovima	376		4
 getima	74		3
-getoima			2
+getoima			3
 gigantima	251		4
 gimnazijama	529		4
-girlandama	10		2
+girlandama	10		3
 gitarama	145		3
 gladijatorima	30		4
-gladnicama			2
+gladnicama			3
 gladnima	238		3
 glagolima	103		4
 glasanjima	46		3
 glasačima	773		3
-glasilima	576		2
+glasilima	576		4
 glasima			3
 glasinama	587		4
 glasnicima	53		4
 glasovima	2580		4
-glaukoma	391		2
+glaukoma	391		3
 glavacima			3
 glavama	3997		3
 glavarima	166		3
@@ -1758,27 +1758,27 @@ glavešinama	67		4
 glavicama	100		4
 glavnima	22		2
 glavoboljama	156		4
-glavonjama			2
-gledaocima		M	2
+glavonjama			3
+gledaocima		M	3
 gledateljima	36		5
 gledištima	174		4
 glečerima	92		4
 gležnjevima	27		4
-gliserima	42		2
+gliserima	42		4
 glistama	98		3
 gljivama	340		3
 gljivarima			3
-gljivicama	209		2
-globalizma	564		2
+gljivicama	209		3
+globalizma	564		3
 globama	14		3
-glodarima	151		2
+glodarima	151		4
 gluhima			3
 gluma	1719		2
 glumcima	2404		3
 glumicama	196		4
 glupacima	36		3
 glupanima	14		4
-gluparijama			2
+gluparijama			3
 glupima	72		3
 glupostima	1566		3
 gluvima	97		3
@@ -1787,58 +1787,58 @@ glušcima			3
 gmizavcima	88		4
 gnezdima	101		3
 gnoma	30		2
-gnusobama			2
-goblinima	24		2
+gnusobama			3
+goblinima	24		3
 godinama	66529		4
 godišnjicama	59		5
-godištima	85		2
+godištima	85		4
 godovima	32		4
-golaćima			2
+golaćima			4
 golema	492		3
 goletima	16		4
-goljama			2
-golmanima			2
+goljama			3
+golmanima			3
 golovima	1697		4
 golubicama			4
 golubovima	212		5
 gomilama	368		4
-gomilicama	13		2
-goniteljima			2
+gomilicama	13		3
+goniteljima			3
 goničima	33		3
 gorama	431		3
 gorancima			3
 gordima	28		3
-gorilama	41		2
+gorilama	41		3
 gorima	39		3
 gorivima	240		4
 gornjima			3
 gospama			3
 gosparima			3
 gospodarima	459		3
-gospodičićima			2
+gospodičićima			3
 gospođama	77		4
 gostima	13494		3
 gotovima			4
 govancima			3
-govedarima			2
+govedarima			3
 govedima	77		4
 govorima	996		4
 gozbama	101		3
 gošćama	140		3
-grabežima			2
+grabežima			4
 grabljama	13		3
 grabljivcima	25		3
-grabljivicama	52		2
-grabuljama	34		2
-gradilištima	591		2
+grabljivicama	52		3
+grabuljama	34		3
+gradilištima	591		3
 gradinama	19		3
 graditeljima	298		5
-gradićima	63		2
+gradićima	63		4
 gradnjama	24		3
 gradovima	19603		4
 gradskima			2
-grafikama	204		2
-grafikonima	203		2
+grafikama	204		3
+grafikonima	203		3
 grafitima	561		3
 grama	9257		2
 gramatikama	32		4
@@ -1849,38 +1849,38 @@ granicama	7818		4
 graničarima	65		5
 granuloma	44		2
 grančicama	248		4
-gravirama			2
-gravurama	31		2
+gravirama			3
+gravurama	31		3
 građanima	41390		4
 građenjima			3
 građevinama	776		5
-građevincima			2
-graškama			2
+građevincima			3
+graškama			3
 grbovima	158		4
 grcima			3
-grdnjama			2
+grdnjama			3
 grebenima	177		4
 gredama	203		3
 grehovima	84		4
-grejalicama			2
-grejačima	147		2
+grejalicama			3
+grejačima	147		3
 gresima	479		3
 greškama	3001		3
 grešnicama			4
 grešnicima	220		4
 grešnima	82		3
-grickalicama	267		2
-grijalicama			2
+grickalicama	267		3
+grijalicama			3
 grijehovima			5
 grima			2
 grimasama	61		3
-grivnama			2
+grivnama			3
 grlima	135		3
 grma	219		2
 grmovima	27		4
 grobarima	348		3
-grobićima			2
-grobištima			2
+grobićima			4
+grobištima			4
 grobljima	789		3
 grobnicama	584		4
 grobovima	746		4
@@ -1888,110 +1888,110 @@ grohotima			4
 groma	961		2
 gromadama	63		3
 gromovima	101		4
-groteskama			2
+groteskama			3
 grozdovima	93		4
-grozotama	34		2
-grožđicama	21		2
+grozotama	34		3
+grožđicama	21		3
 grubijanima			3
-grubostima	28		2
+grubostima	28		4
 grudama	28		3
 grudima	4926		3
 grudnjacima	41		4
 grudvama	66		3
 grupama	12041		3
-grupicama	123		2
+grupicama	123		3
 grčevima	264		4
 gubavcima	14		3
 gubavima			4
 gubicima	1585		3
 gubitnicima	312		5
 gudalima			4
-gudaćima			2
-gudačima	60		2
+gudaćima			4
+gudačima	60		3
 gudurama	162		4
 gujama	19		3
 guma	4903		2
 gumama	1729		3
 gumicama	71		4
-gunjama			2
-gunjevima			2
-gurabijama			2
-gurešićima			2
-gurmanima	30		2
+gunjama			3
+gunjevima			3
+gurabijama			3
+gurešićima			3
+gurmanima	30		3
 gusarima	107		4
 gusenicama	94		5
 guskama	55		3
 guslama	185		3
-guslanjima			2
+guslanjima			3
 gutljajima	160		4
 guvernerima	58		3
-guvnima			2
+guvnima			3
 guzama	32		3
-guzovima	97		2
+guzovima	97		4
 gušterima	77		4
 gužvama	259		3
 gvožđima			3
-hadžijama			2
-hadžićima			2
+hadžijama			3
+hadžićima			4
 hajducima			3
 hajkama	48		3
-hajkačima			2
+hajkačima			3
 hakerima	312		4
-hakerkama			2
+hakerkama			3
 halama	722		3
 haljecima			3
 haljinama	860		4
-haljinicama	69		2
-halterima			2
+haljinicama	69		3
+halterima			4
 halucinacijama	89		4
 hama			2
-hamama			2
-hamburgerima	53		2
-handžijama			2
-hangarima	90		2
-hanovima			2
+hamama			3
+hamburgerima	53		3
+handžijama			3
+hangarima	90		4
+hanovima			4
 hanuma		M	2
-hapšenjima			2
-harama			2
+hapšenjima			3
+harama			3
 harema	182		3
 harfama			3
 haringama			3
 harizma	427		2
-harizmama			2
-harlema			2
+harizmama			3
+harlema			3
 harpunima			3
 hartijama	1266		4
 haubicama	21		5
-havajima			2
-hazarima			2
-hašima			2
+havajima			3
+hazarima			4
+hašima			3
 hedonizma	309		2
-hekatombama			2
+hekatombama			3
 hektarima	58		4
-helankama			2
-helenizma	59		2
-helijuma	370		2
+helankama			3
+helenizma	59		3
+helijuma	370		3
 helikopterima	371		4
-hematoma	225		2
+hematoma	225		3
 hemijama			4
 hemikalijama	1040		4
-hemofarma			2
-hendikepiranima	30		2
-herbicidima	201		2
+hemofarma			3
+hendikepiranima	30		3
+herbicidima	201		3
 hercegovcima	99		5
 heroinama	26		3
 heroizma	79		2
 herojima	862		3
-heruvima	96		2
-heruvimima			2
+heruvima	96		3
+heruvimima			3
 hibridima	167		3
 hicima	239		3
 hidratima	588		3
 hijenama	43		3
 hijeroglifima	65		3
-hilijazma			2
-hiljadama			2
-himalajima			2
+hilijazma			3
+hiljadama			3
+himalajima			3
 himerama	26		4
 himnama	138		3
 hinduizma	84		2
@@ -2003,36 +2003,36 @@ hipotekama	200		3
 hipotezama	113		3
 hirovima	123		4
 hirošima			2
-hirurzima	178		2
+hirurzima	178		3
 hispancima			3
-histograma			2
+histograma			3
 hitlerizma	25		2
-hitovima	813		2
+hitovima	813		4
 hladnima			3
 hladnjačama	344		4
 hladnoćama	41		3
 hlebovima	39		4
-hloroforma			2
+hloroforma			3
 hobijima	167		4
-hobitima	52		2
+hobitima	52		4
 hodnicima	1442		4
 hodovima	28		4
 hodočasnicima	107		6
 hodžama	32		3
-holanđanima			2
-holograma	118		2
-hologramima	27		2
-holovima	147		2
+holanđanima			3
+holograma	118		3
+hologramima	27		3
+holovima	147		4
 homićima			4
 homonima	14		2
 homoseksualcima	674		3
-honorarima	146		2
-hordama	156		2
+honorarima	146		3
+hordama	156		3
 horizontima	121		4
 hormonima	450		3
-hororima	56		2
+hororima	56		4
 horovima	187		4
-horovođama			2
+horovođama			3
 hotelima	3225		4
 hrabrima	54		3
 hrama	11119		2
@@ -2041,31 +2041,31 @@ hraniocima			5
 hraniteljima	96		5
 hrastovima	74		4
 hrizantema	107		2
-hrizostoma			2
+hrizostoma			3
 hrišćanima	1874		4
 hroma	389		2
 hromima	19		3
-hromosoma			2
-hromozoma	1014		2
-hromozomima	127		2
+hromosoma			3
+hromozoma	1014		3
+hromozomima	127		3
 hronikama	227		4
-hrskavicama	14		2
+hrskavicama	14		3
 hrtovima	27		4
 hrvaticama	52		5
-hrvatima			2
+hrvatima			4
 hrčcima	23		3
-hulahopkama	44		2
+hulahopkama	44		3
 hulama			2
-huliganima			2
-huljama			2
+huliganima			3
+huljama			3
 huma	166		2
 humanizma	630		2
-humkama	132		2
+humkama	132		3
 humovima			4
 hvalama	28		3
-hvataljkama	56		2
-ibrahima			2
-ibrišima			2
+hvataljkama	56		3
+ibrahima			3
+ibrišima			3
 idealima	873		3
 idealizma	340		2
 idejama	6821		3
@@ -2081,20 +2081,20 @@ iglama	249		3
 iglicama	124		4
 igralištima	335		5
 igrama	12814		3
-igrankama	110		2
-igrarijama	106		2
+igrankama	110		3
+igrarijama	106		3
 igračicama	438		4
 igračima	9315		3
 igračkama	1119		4
-igricama	1022		2
+igricama	1022		3
 igumanijama			4
 igumanima	77		5
 ikonama	1291		4
-ikonicama	111		2
+ikonicama	111		3
 ilegalcima	38		3
-ilirima			2
-ilirizma	39		2
-iluminatima			2
+ilirima			4
+ilirizma	39		3
+iluminatima			3
 ilustracijama	645		4
 iluzijama	535		4
 iluzionizma	19		2
@@ -2103,16 +2103,16 @@ imama	680		2
 imamima	58		3
 imanjima	662		3
 imaocima	99		5
-imejlovima	23		2
+imejlovima	23		3
 imenicama	67		5
 imenicima	28		5
 imenima	5973		4
 imigrantima	362		4
 imitacijama	110		4
 imperijalizma	935		2
-implantima	126		2
+implantima	126		4
 implikacijama	380		4
-impresionizma	142		2
+impresionizma	142		3
 improvizacijama	164		4
 impulsima	222		4
 imućnijima			5
@@ -2123,38 +2123,38 @@ indijancima	354		3
 indijcima	96		3
 individualizma	387		2
 individuama	154		4
-indusima			2
+indusima			3
 industrijama	822		4
-infamijama			2
+infamijama			3
 infekcijama	1017		4
 informacijama	17645		4
 informatikama			4
 inicijalima	321		3
-injekcijama			2
+injekcijama			3
 inovacijama	2370		4
 insekticidima	166		3
 insektima	571		4
-insertima			2
-insinuacijama	130		2
+insertima			4
+insinuacijama	130		3
 inspektorima	621		5
 instalacijama	1305		4
-instancama	321		2
+instancama	321		3
 instinktima	181		4
 institucijama	19367		4
 instrukcijama	804		4
 instruktorima	360		5
-instrumentima	2386		2
+instrumentima	2386		3
 integracijama	3576		4
 intelektualcima	805		3
-intendantima			2
+intendantima			3
 interesima	10091		5
-interesovanjima	1221		2
-interkoma			2
+interesovanjima	1221		3
+interkoma			3
 intervalima	1421		3
 intervencijama	1277		4
 intervjuima	757		3
-intima	217		2
-intimizma			2
+intima	217		3
+intimizma			3
 intrigama	238		3
 invalidima	575		3
 inverzijama			4
@@ -2162,35 +2162,35 @@ investicijama	4021		4
 investitorima	6923		4
 inćunima	11		3
 inženjerima	1093		3
-inžinjerima			2
+inžinjerima			3
 irancima			3
-iračanima			2
+iračanima			3
 ircima	206		3
-iridijuma			2
+iridijuma			3
 irma			2
 irvasima	40		4
-isceljenjima	63		2
+isceljenjima	63		3
 iscrpnima			4
 iseljenima			4
 isečcima	84		3
 ishodima	384		4
-iskazima	600		2
-iskopavanjima	290		2
-iskopima	25		2
-iskopinama	125		2
+iskazima	600		3
+iskopavanjima	290		3
+iskopima	25		3
+iskopinama	125		3
 iskoracima	28		5
 iskrama	57		3
 iskricama	28		4
 iskustvima	4893		3
-iskušavanjima			2
-iskušenjima	1381		2
+iskušavanjima			3
+iskušenjima	1381		3
 islama	3672		2
-islamizma	140		2
-ispadima	338		2
-isparenjima	118		2
-ispašama	11		2
-ispisima	33		2
-ispitanicima	514		2
+islamizma	140		3
+ispadima	338		3
+isparenjima	118		3
+ispašama	11		3
+ispisima	33		3
+ispitanicima	514		3
 ispitima	1436		4
 ispitivanjima	1155		3
 ispitivačima	37		3
@@ -2199,32 +2199,32 @@ isporukama	562		5
 ispovestima	105		5
 ispovijestima			6
 ispravama	422		4
-ispravkama	158		2
+ispravkama	158		3
 ispunjenima			5
-ispunjenjima			2
+ispunjenjima			3
 istima	722		3
 istinama	651		4
 istomišljenicima	508		6
 istorijama	227		4
-istorizma	59		2
-istoričarima	641		2
+istorizma	59		3
+istoričarima	641		3
 istočnima	10		4
 istragama	543		4
 istražiteljima	301		5
 istraživanjima	8884		3
 istraživačima	1734		3
-istupima	458		2
-italijanima			2
-ivericama			2
+istupima	458		3
+italijanima			3
+ivericama			3
 ivicama	1004		4
-ivičnjacima			2
-izabranicima	403		2
+ivičnjacima			3
+izabranicima	403		3
 izabranima	99		5
 izazovima	5737		5
 izbama	11		3
 izbeglicama	1417		5
-izbeglima	44		2
-izbicama			2
+izbeglima	44		4
+izbicama			3
 izborima	39890		4
 izbočinama	27		5
 izdacima	327		3
@@ -2239,61 +2239,61 @@ izgledima	775		4
 izgovorima	319		5
 izgubljenima	28		4
 izjavama	6197		4
-izlaganjima	464		2
-izlagačima	598		2
+izlaganjima	464		3
+izlagačima	598		3
 izlascima	391		4
 izlazima	249		4
 izletima	377		4
-izletištima	142		2
+izletištima	142		3
 izlikama			4
-izlivima	257		2
+izlivima	257		3
 izlišnima			4
-izljevima			2
+izljevima			3
 izlozima	451		4
 izložbama	2086		4
-izlučevinama	71		2
-izmaglicama	12		2
+izlučevinama	71		3
+izmaglicama	12		3
 izmenama	9479		4
-izmirenjima			2
+izmirenjima			3
 izmišljotinama	217		4
 iznenađenjima	304		3
 iznosima	1558		4
-iznudicama	10		2
-iznutricama	62		2
-izotopima	24		2
+iznudicama	10		3
+iznutricama	62		3
+izotopima	24		3
 izraelcima	262		3
 izraslinama	28		5
 izrazima	976		4
-izračunima	17		2
+izračunima	17		3
 izrekama	146		4
-izrezima	34		2
-izrodima	51		2
-izručenjima	28		2
+izrezima	34		3
+izrodima	51		3
+izručenjima	28		3
 izuma	789		3
 izumima	221		4
 izuzecima	1975		3
-izuzećima	10		2
+izuzećima	10		3
 izuzima	261		3
 izvacima			3
 izveštajima	4478		5
 izvinjenjima	74		3
-izviđačicama			2
-izviđačima	112		2
-izvodima	196		2
+izviđačicama			3
+izviđačima	112		3
+izvodima	196		3
 izvorima	7231		4
-izvoznicama	20		2
-izvođačima	1461		2
+izvoznicama	20		3
+izvođačima	1461		3
 izvođenima			4
-izvođenjima	159		2
-izvršiocima	337		2
+izvođenjima	159		3
+izvršiocima	337		3
 jablanima			4
 jablanovima	11		5
 jabukama	575		4
-jadikovkama	29		2
+jadikovkama	29		3
 jadima	85		3
 jadnicima	139		4
 jadnima	28		3
-jadovnima			2
+jadovnima			3
 jaganjcima	51		4
 jagma		M	2
 jagodama	350		4
@@ -2304,85 +2304,85 @@ jahtama	280		3
 jajašcima	17		3
 jajima	1736		3
 jajnicima	257		4
-jakama			2
+jakama			3
 jakima	60		3
 jaknama	244		3
-jakšićima			2
+jakšićima			4
 jalovicama			5
 jama	1647		2
-jamajčanima			2
+jamajčanima			3
 jamama	395		3
 jamicama	13		4
-janičarima	85		2
+janičarima	85		3
 januarima			5
 japancima	455		3
 japankama	91		3
 jarbolima	43		4
 jarcima	32		3
 jarebicama	13		4
-jarićima			2
-jarkovima			2
+jarićima			4
+jarkovima			4
 jarma	360		2
 jarmovima			4
 jarugama	60		4
-jasenovima			2
+jasenovima			3
 jaslama	659		3
-jaslicama	157		2
+jaslicama	157		3
 jasminima			3
 jastozima	17		4
 jastrebovima	39		5
 jastucima	464		4
-jastučićima	140		2
+jastučićima	140		3
 jatacima	98		4
-jataganima			2
+jataganima			3
 jatima	249		3
 jaucima	28		4
-javama		M	2
-javljanjima	52		2
-javnima			2
+javama		M	3
+javljanjima	52		3
+javnima			3
 javnostima	204		3
 jazavcima			4
 jazbinama	101		4
 jačima	82		3
 jačinama	25		3
 jecajima	35		4
-jedanaestercima			2
+jedanaestercima			3
 jedincima	17		3
 jedinicama	4367		4
-jedinicima			2
+jedinicima			3
 jedinima	18		3
-jedinjenjima	229		2
+jedinjenjima	229		3
 jedinkama	140		3
 jednakima	408		4
 jednačinama	176		4
 jednima	1196		3
-jednodoma			2
+jednodoma			3
 jednorozima	10		5
-jedrilicama	73		2
+jedrilicama	73		3
 jedrima	191		3
-jefrema			2
+jefrema			3
 jeguljama			4
 jelama	33		3
 jelecima			3
 jelenima	44		4
 jelima	1496		3
 jelkama	53		3
-jelkicama			2
+jelkicama			3
 jelovnicima	80		3
 jemstvima	31		3
-jenkijima			2
-jerejima	25		2
-jeresima	78		2
-jereticima	281		2
-jermenima			2
-jeronima			2
-jerusalima			2
+jenkijima			3
+jerejima	25		3
+jeresima	78		3
+jereticima	281		3
+jermenima			3
+jeronima			3
+jerusalima			3
 jestivima			4
-jetrima			2
+jetrima			3
 jevanđeljima	127		3
-jevrejima			2
-jevrema			2
-jevrosima			2
+jevrejima			3
+jevrema			3
+jevrosima			3
 jezerima	998		4
 jezgrima	246		3
 jezicima	5265		4
@@ -2390,117 +2390,117 @@ jezičcima	13		3
 jezuitima	61		3
 ječerma		M	2
 ječma	1184		2
-joakima			2
-joginima			2
+joakima			3
+joginima			3
 jogurtima	43		4
-jokohama			2
-joksima			2
+jokohama			3
+joksima			3
 jorganima	30		4
-jovama			2
-jubilejima			2
+jovama			3
+jubilejima			3
 judaizma	240		2
-judama			2
-jugovićima			2
+judama			3
+jugovićima			3
 junacima	1877		3
-junačinama			2
+junačinama			3
 junaštvima	17		3
 junicama	30		4
-juniorima	258		2
-juniorkama	40		2
-juristima			2
+juniorima	258		3
+juniorkama	40		3
+juristima			4
 jurišima	43		4
 jutrima	103		3
 južnjacima	42		4
 kabanicama	22		4
 kabareima	21		3
-kabinama	313		2
-kabinetima	689		2
+kabinama	313		3
+kabinetima	689		3
 kablovima	984		4
-kacama			2
+kacama			3
 kacigama	118		4
 kadama	190		3
 kadetima	225		3
-kadmijuma	161		2
-kadrovima	2217		2
-kadunama			2
+kadmijuma	161		3
+kadrovima	2217		4
+kadunama			3
 kafanama	1592		3
-kafanicama	38		2
-kafedžijama	27		2
-kafeima			2
+kafanicama	38		3
+kafedžijama	27		3
+kafeima			3
 kafićima	2209		3
-kaiševima			2
-kaišima			2
-kaišićima			2
-kajmanima	14		2
+kaiševima			3
+kaišima			3
+kaišićima			3
+kajmanima	14		3
 kajsijama	92		4
-kaktusima	38		2
+kaktusima	38		3
 kakvima	290		2
-kalabićima			2
+kalabićima			3
 kalama	10		2
 kalašnjikovima	74		4
-kalcijuma	2752		2
+kalcijuma	2752		3
 kaldrma		M	3
 kalema	225		3
 kalemima	12		4
 kalendarima	235		3
-kalfama			2
-kalijuma	1260		2
-kaljenjima			2
+kalfama			3
+kalijuma	1260		3
+kaljenjima			3
 kalkulacijama	348		4
-kalorijama	326		2
+kalorijama	326		3
 kalpacima			3
 kalupima	126		4
-kaluđericama	13		2
+kaluđericama	13		3
 kaluđerima	178		5
 kalvinizma	11		2
 kama		M	2
-kamama			2
+kamama			3
 kamatama	1846		4
-kamejama	11		2
-kamelijama	62		2
-kamenarima			2
+kamejama	11		3
+kamelijama	62		3
+kamenarima			3
 kamenicama	547		5
 kamenima			4
-kamenjacima			2
-kamenjarima	39		2
+kamenjacima			3
+kamenjarima	39		3
 kamenoloma	336		3
 kamenolomima	50		4
 kamenovima	29		5
-kamenčićima	164		2
+kamenčićima	164		3
 kamerama	3574		4
-kamikazama	15		2
+kamikazama	15		3
 kamilama	117		4
 kaminima	21		3
 kamiondžijama	47		4
 kamionima	1168		3
 kamičcima			3
 kampanjama	1946		3
-kamperima	76		2
-kampovima	860		2
+kamperima	76		4
+kampovima	860		4
 kanalima	3233		3
 kanama			3
 kanapima	39		3
-kanađanima			2
+kanađanima			3
 kancelarijama	2390		4
 kandidatima	3701		3
 kandilima	36		4
 kandžama	480		3
 kanibalima	43		5
 kanibalizma	137		2
-kanisterima	33		2
-kanistrima			2
+kanisterima	33		3
+kanistrima			4
 kanjonima	127		3
-kanonima	394		2
-kanovima			2
+kanonima	394		3
+kanovima			4
 kantama	244		3
-kantatama			2
-kantinama	55		2
-kantonima	149		2
+kantatama			3
+kantinama	55		3
+kantonima	149		3
 kanuima	45		3
 kapacitetima	2781		3
 kapama	327		3
-kaparama			2
-kaparima			2
+kaparama			3
+kaparima			4
 kapcima	379		3
 kapelama	78		3
 kapelicama			4
@@ -2510,52 +2510,52 @@ kapijama	318		4
 kapima	360		3
 kapitalima	17		3
 kapitalizma	5230		2
-kapitenima	33		2
+kapitenima	33		3
 kapljama	15		3
 kapljicama	178		4
 kapricima	12		4
 kapsulama	238		4
 kapuljačama	141		4
 kaputima	111		3
-karabinjerima	12		2
-karaburma			2
+karabinjerima	12		3
+karaburma			3
 karakterima	347		4
 karakteristikama	5502		4
-karaokama	93		2
+karaokama	93		3
 karavanima	81		3
-karađorđevićima			2
+karađorđevićima			3
 karcinoma	3813		2
 kardinalima	87		3
 kardiologijama			4
-karibima			2
+karibima			3
 karijerama	475		3
 karikama	75		4
 karizma			2
-karićima			2
+karićima			4
 karlicama			4
 karlovcima			3
 karma	387		2
-karminima	19		2
+karminima	19		3
 karoserijama	16		4
-karpatima			2
+karpatima			4
 kartama	2238		3
 kartašima			3
 kartelima	89		4
 karticama	3263		4
 kartonima	265		3
-kartuma			2
-karucama			2
-kasabama			2
+kartuma			3
+karucama			3
+kasabama			3
 kasama	342		3
 kasarnama	342		3
-kasetama	215		2
-kasima			2
-kasinima			2
-kastratima			2
-kataklizama			2
-kataklizma		M	2
-kataklizmama			2
-katakombama	143		2
+kasetama	215		3
+kasima			3
+kasinima			3
+kastratima			4
+kataklizama			3
+kataklizma		M	3
+kataklizmama			3
+katakombama	143		3
 katalozima	371		4
 katama	346		3
 katancima	52		4
@@ -2566,50 +2566,50 @@ katastrofama	432		3
 katedralama	56		3
 katedrama	232		3
 kategorijama	6683		4
-katehizma			2
-katićima			2
+katehizma			3
+katićima			4
 katolicima	498		5
 katolicizma	211		2
 katrenima			3
-katunima	85		2
+katunima	85		3
 kaubojima	55		5
-kaucijama			2
+kaucijama			3
 kaučima	30		4
-kavaljerima	12		2
+kavaljerima	12		3
 kavanama	15		3
 kavezima	355		4
 kavgama			3
 kavurma		M	2
-kazamatima	127		2
+kazamatima	127		3
 kazanima	177		4
-kazinima	80		2
+kazinima	80		3
 kazivanjima	129		3
 kaznama	1496		3
-kaznionama			2
-kačićima			2
+kaznionama			3
+kačićima			4
 kašikama	125		4
 kašičicama	17		5
 kašnjenjima	82		4
 kažnjenima			4
 keceljama	39		4
 keksima	24		3
-keksićima	24		2
+keksićima	24		4
 kelnerima	24		4
-kerefekama			2
-kerima			2
+kerefekama			3
+kerima			3
 kesama	625		3
-kesegama			2
-kesicama	195		2
+kesegama			3
+kesicama	195		3
 kestenima			4
 kestenovima			5
-kevama			2
+kevama			3
 kibernetikama			4
-kibicerima			2
-kiborzima			2
+kibicerima			3
+kiborzima			3
 kibucima			3
 kidnaperima	11		3
-kikama	12		2
-kikicama			2
+kikama	12		3
+kikicama			3
 kiklopima	10		4
 kiksevima	30		4
 kilobajtima	22		5
@@ -2618,66 +2618,66 @@ kilogramima	423		5
 kilometrima	742		5
 kima	294		2
 kinezima	1168		3
-kinotekama			2
+kinotekama			3
 kioscima	1029		3
 kipovima	85		4
-kiridžijama			2
-kirijama			2
+kiridžijama			3
+kirijama			3
 kiselinama	1003		3
 kitovima	82		4
-kićankama	28		2
+kićankama	28		3
 kičma	1299		2
 kišama	242		3
 kišobranima	102		5
 kladama	14		3
 kladencima			3
-kladioničarima	31		2
+kladioničarima	31		3
 klancima	61		3
-klanicama	208		2
-klanovima	167		2
+klanicama	208		3
+klanovima	167		4
 klasama	930		3
 klasicima	207		4
-klasicizma	454		2
+klasicizma	454		3
 klaunovima			5
-klauzulama	116		2
+klauzulama	116		3
 klavijaturama	100		3
 klavirima	13		3
 klema			2
-klepetalima			2
+klepetalima			3
 klericima	10		3
-klerikalima			2
-kletima			2
+klerikalima			3
+kletima			3
 kletvama	121		3
 klevetama	209		4
 kleštima	171		3
-klicama	141		2
-klicanjima			2
+klicama	141		3
+klicanjima			3
 klijentima	10341		4
-klikama			2
-klikerima			2
-kliktajima			2
+klikama			3
+klikerima			4
+kliktajima			3
 klima	11011		2
-klimakterijuma			2
+klimakterijuma			3
 klimama	96		3
-klimanima			2
+klimanima			3
 klincima		M	3
-klinikama	1037		2
+klinikama	1037		3
 klinovima	94		4
-klipersima			2
+klipersima			3
 klipovima	245		4
 klisurama	114		4
 klizaljkama	60		3
 klišeima	132		3
 kljastima			3
-klještima			2
+klještima			3
 kljovama	33		3
 kljunovima	73		4
-kljusama			2
+kljusama			3
 ključevima	293		4
-ključićima			2
-klompama	42		2
+ključićima			4
+klompama	42		3
 klonovima	74		4
-klovnovima	90		2
+klovnovima	90		4
 klozetima	25		4
 klošarima	33		3
 klubovima	7024		4
@@ -2688,11 +2688,11 @@ knedlama	83		3
 kneginjama			4
 knezovima	217		4
 kneževima	83		4
-knežinama	10		2
+knežinama	10		3
 knjigama	9018		3
 knjigovođama	36		5
 knjižarama	1160		4
-knjižarima	33		2
+knjižarima	33		4
 književnostima	274		5
 knjižicama	271		4
 koautorima	29		5
@@ -2703,20 +2703,20 @@ kocima	15		3
 kockama	255		3
 kockarima	47		4
 kockarnicama	125		4
-kockicama	247		2
+kockicama	247		3
 kodeksima	179		4
-kodiranjima			2
+kodiranjima			3
 kodovima	286		4
-koeficijentima			2
-kofama			2
-koferima			2
-kohortama			2
+koeficijentima			3
+kofama			3
+koferima			4
+kohortama			3
 kojima	280865		2
 kojotima			4
-kokardama	65		2
-kokicama	99		2
+kokardama	65		3
+kokicama	99		3
 kokosima			4
-kokotima			2
+kokotima			4
 kokošima	21		4
 kokoškama	115		3
 koktelima	345		4
@@ -2724,17 +2724,17 @@ kolacima			3
 kolajnama			3
 kolarima	60		3
 kolačima	587		3
-kolačićima	135		2
+kolačićima	135		3
 kolažima	69		3
 kolcima	16		3
-kolebanjima	112		2
+kolebanjima	112		3
 koledarima			3
 koledžima	231		4
 kolegama	12748		3
-kolegijuma	884		2
-koleginicama	559		2
+kolegijuma	884		3
+koleginicama	559		3
 kolekcijama	692		4
-kolekcionarima	152		2
+kolekcionarima	152		3
 kolencima			3
 kolenima	2112		4
 kolevkama	42		3
@@ -2743,18 +2743,18 @@ kolicima	1865		3
 kolikima			2
 kolima	8975		3
 količinama	6863		3
-količinima			2
+količinima			3
 koljačima	72		3
 koljenima			4
 koljivima			4
 kolonama	461		3
 kolonijalizma	379		2
 kolonijama	685		4
-kolonistima			2
+kolonistima			3
 kolosecima	79		5
-koloseuma	101		2
-kolovođama			2
-kolumbijcima			2
+koloseuma	101		3
+kolovođama			3
+kolumbijcima			3
 kolumnama	252		3
 koma	476		2
 komadima	1017		3
@@ -2762,43 +2762,43 @@ komadićima	257		4
 komandama	790		3
 komandantima	221		4
 komandirima	41		3
-komandosima	34		2
+komandosima	34		3
 komarcima	188		3
 kombajnima	90		4
 kombijima	89		4
 kombinacijama	1328		4
-kombinezonima	65		2
+kombinezonima	65		3
 komedijama	404		4
 komentarima	8800		3
 komesarima	136		3
-kometama			2
-kometima			2
-komešanjima			2
+kometama			3
+kometima			4
+komešanjima			3
 komisijama	859		4
-komisionima	11		2
-komitama	23		2
+komisionima	11		3
+komitama	23		3
 komitetima	204		3
-komitima	11		2
+komitima	11		4
 komorama	1222		4
 kompanijama	12842		4
 kompanjonima	44		3
-kompićima			2
+kompićima			4
 kompjuterima	1313		4
 kompleksima	457		4
 kompletima	139		4
 komplikacijama	489		4
-komplimentima	279		2
+komplimentima	279		3
 komponentama	1457		4
 kompozicijama	543		4
 kompresijama			4
 kompromisima	335		4
-komunama	61		2
+komunama	61		3
 komunikacijama	1636		4
 komunistima	1257		4
 komunizma	4978		2
-komunjarama	71		2
+komunjarama	71		3
 komšijama	2437		4
-komšikama			2
+komšikama			3
 komšinicama	70		5
 konacima	207		4
 konačištima	11		5
@@ -2806,130 +2806,130 @@ konceptima	847		4
 koncernima	43		4
 koncertima	2363		4
 koncesijama	586		4
-koncilima			2
+koncilima			4
 koncima	99		3
 kondoma	1054		2
 kondomima	92		3
 konferencijama	1828		4
-konfetama	36		2
+konfetama	36		3
 konfliktima	605		4
 konformizma	199		2
 kongresima	580		4
 kongresmenima	95		5
 konjanicima	70		5
-konjevićima			2
+konjevićima			3
 konjima	1607		3
 konjićima	20		3
 konjušarima	18		3
-konklavama	11		2
+konklavama	11		3
 konkurentima	673		4
-konkursima	1827		2
+konkursima	1827		3
 konobaricama	18		4
 konobarima	139		5
 konopcima	203		4
 konotacijama	106		4
 konspiracijama			4
 konstrukcijama	651		4
-konsultacijama	910		2
+konsultacijama	910		3
 kontaktima	2360		4
 kontejnerima	911		4
 kontima	104		3
 kontinentima	1052		4
-kontinuuma	118		2
-kontrama			2
-kontrašima	12		2
+kontinuuma	118		3
+kontrama			3
+kontrašima	12		3
 kontrolama	884		3
-kontroverzama	141		2
+kontroverzama	141		3
 konturama	166		3
 konvencijama	1013		4
 konvojima	70		4
-konzervama	178		2
-konzervativcima	142		2
-konzervatorijuma	156		2
-konzilijuma	142		2
-konzolama	554		2
-konzorcijuma	1647		2
+konzervama	178		3
+konzervativcima	142		3
+konzervatorijuma	156		3
+konzilijuma	142		3
+konzolama	554		3
+konzorcijuma	1647		3
 konzulima	40		4
 kooperacijama	14		4
-koordinatama	345		2
+koordinatama	345		3
 kopačima	42		3
-kopačkama	103		2
+kopačkama	103		3
 kopijama	287		4
-kopiladima			2
-kopilanima			2
-kopitama			2
+kopiladima			3
+kopilanima			3
+kopitama			3
 kopitima	36		4
 kopljima	218		3
-kopovima	807		2
+kopovima	807		4
 koprenama			4
 koprivama	44		4
 kopčama	84		3
 koracima	3772		4
-koralima	69		2
+koralima	69		4
 korama	86		3
-korbačima			2
-kordonima	61		2
-koreancima			2
-korejancima			2
+korbačima			3
+kordonima	61		3
+koreancima			3
+korejancima			3
 korejcima			3
 korelacijama	29		4
 korenima	1482		4
-koricama	928		2
-koridama			2
+koricama	928		3
+koridama			3
 koridorima	435		3
-korinćanima			2
+korinćanima			3
 korisnicima	27609		5
 koristima	355		4
 koritima	161		4
 kornjačama	121		4
-korovima			2
+korovima			4
 korpama	234		3
-korpicama	52		2
+korpicama	52		3
 korporacijama	756		4
 korpusima	30		4
-korsetima	27		2
-kortešima			2
+korsetima	27		4
+kortešima			3
 kosama	146		3
-kosačima			2
-kosima			2
+kosačima			3
+kosima			3
 kosinama	82		3
 kosinusima			5
-kosmodroma	362		2
-kosovarima			2
+kosmodroma	362		3
+kosovarima			3
 kosovcima			3
 kostima	3044		3
 kostimima	836		3
 kosturima	53		4
-kotama	83		2
-kotaricama	12		2
-kotarima			2
+kotama	83		3
+kotaricama	12		3
+kotarima			4
 kotačima	39		3
 kotlinama	114		4
 kotlovima	187		4
-kotoranima			2
-koturaljkama	10		2
-koturačama			2
-koturovima			2
+kotoranima			3
+koturaljkama	10		3
+koturačama			3
+koturovima			3
 kovanicama	123		4
 kovačima	47		3
-kovertama			2
-kovertima	18		2
-kovima		M	2
-kovnicama			2
+kovertama			3
+kovertima	18		4
+kovima		M	3
+kovnicama			3
 kovrdžama	69		4
 kovrčama			4
 kovčezima	68		4
 kozacima	87		3
 kozama	143		3
-kozima			2
+kozima			3
 kozma			2
 kočijama	264		4
 kočijašima	12		3
 kočnicama	277		4
 košarama	82		4
 koševima	262		4
-košicama			2
-košmarima			2
+košicama			3
+košmarima			4
 košnicama	895		4
 košticama	43		4
 košuljama	298		4
@@ -2937,16 +2937,16 @@ košuljicama	43		5
 kožama	104		3
 kožarima			4
 kožicama	10		4
-kožunima			2
-kožuricama			2
+kožunima			3
+kožuricama			3
 kožusima	11		4
-krabama	11		2
+krabama	11		3
 kracima	150		3
 kradljivcima	89		4
 krafnama			3
 krajevima	7795		4
 krajinama	121		4
-krajišnicima			2
+krajišnicima			3
 krajnicima	79		4
 krakovima	56		4
 kraljevima	356		4
@@ -2957,34 +2957,34 @@ krampovima	27		4
 krasotama	22		3
 krastama	35		3
 krastavcima	129		4
-krastavčićima	22		2
+krastavčićima	22		3
 kraterima	175		4
-kratima			2
+kratima			3
 kravama	378		3
 kravatama	138		3
-kravicama	59		2
+kravicama	59		3
 kraćima			3
 krađama	415		3
 krdima	57		3
 kreacijama	459		4
-kreatorima			2
+kreatorima			3
 kreaturama	44		3
 kredama	69		3
 kredencima			3
 kreditima	4361		3
 krekerima	40		4
-krekićima			2
+krekićima			4
 krema	3264		2
-kremama	567		2
-krematorijuma	55		2
-kremovima	43		2
-kresanjima	12		2
+kremama	567		3
+krematorijuma	55		3
+kremovima	43		4
+kresanjima	12		3
 kretanjima	1134		3
 kretenima	79		3
 kretnjama	95		3
 krevecima	10		3
 krevetima	568		4
-krečanama			2
+krečanama			3
 krhotinama	78		5
 kricima	86		3
 kriglama			2
@@ -2993,15 +2993,15 @@ krilcima	82		3
 krilima	2663		3
 krima			2
 kriminalcima	1640		3
-krinovima			2
+krinovima			4
 kriptama	18		3
 kristalima	480		3
 kriterijima	261		4
-kriterijuma	7471		2
-kriterijumima	5454		2
+kriterijuma	7471		3
+kriterijumima	5454		3
 kritikama	1518		4
 kritičarima	724		5
-krivama	47		2
+krivama	47		3
 krivcima	299		3
 krivicama	66		3
 krivima	182		3
@@ -3011,7 +3011,7 @@ krizma			2
 kriškama	118		3
 krljuštima	80		4
 krma	76		2
-krnjićima			2
+krnjićima			4
 kroatizama	16		3
 kroatizma			2
 krofnama	59		3
@@ -3019,9 +3019,9 @@ krojačicama			4
 krojačima	25		3
 krokodilima	76		4
 krompirima	71		3
-krompirićima			2
+krompirićima			3
 krotkima	17		3
-krovinjarama			2
+krovinjarama			3
 krovovima	1008		4
 krošnjama	313		3
 krpama	187		3
@@ -3030,56 +3030,56 @@ krpicama	122		4
 krsnima			2
 krstaricama	22		5
 krstašima	118		3
-krstima	233		2
+krstima	233		3
 krstićima	19		4
-krstonošama			2
+krstonošama			3
 krstovima	204		4
 krticama	25		4
-krtolima			2
+krtolima			4
 krugovima	6368		4
-krumpirićima			2
+krumpirićima			3
 krunama	139		3
 kruškama	98		3
 kružićima	14		4
 kružocima	46		4
-krvarenjima	65		2
+krvarenjima	65		3
 krvnicima	99		4
-krvopijama			2
+krvopijama			3
 krzma			2
 krznima	25		3
-krčazima			2
+krčazima			3
 krčma	189		2
 krčmama	102		3
-kršenjima	205		2
-krševima			2
+kršenjima	205		3
+krševima			3
 krštenima			4
 krštenjima	27		4
-ktitorima	91		2
+ktitorima	91		4
 kubancima			3
 kubizma	95		2
-kuburama			2
+kuburama			3
 kugama			3
 kuglama	128		3
-kuglicama	171		2
+kuglicama	171		3
 kuhinjama	862		4
 kujama	22		3
 kukama	93		3
 kukavicama	86		5
-kukicama	50		2
+kukicama	50		3
 kukovima	677		4
-kukuljicama	15		2
+kukuljicama	15		3
 kukuruzima	65		4
 kulama	462		3
-kulinama			2
+kulinama			3
 kulisama	58		3
 kuloarima	446		3
 kultovima	136		4
 kulturama	2926		3
-kulučenjima			2
+kulučenjima			3
 kuma	2378		2
 kumama			3
-kumanima			2
-kumirima	12		2
+kumanima			3
+kumirima	12		4
 kumovima	308		4
 kunama			3
 kundacima	117		3
@@ -3089,136 +3089,136 @@ kupaćima			3
 kupačima	139		3
 kupcima	10034		3
 kupinama	61		4
-kupkama	131		2
-kupletima			2
+kupkama	131		3
+kupletima			4
 kupolama	232		4
 kuponima	86		3
 kupovima	345		4
 kupovinama	198		4
-kurdima			2
-kurijama			2
-kurikuluma	363		2
+kurdima			3
+kurijama			3
+kurikuluma	363		3
 kuririma	62		3
 kurjacima	10		4
-kurkuma	186		2
+kurkuma	186		3
 kursevima	1687		4
 kurtizanama			3
-kuršuma			2
-kuršumima			2
-kusonjama			2
+kuršuma			3
+kuršumima			3
+kusonjama			3
 kustosima	93		4
 kutijama	1032		4
 kutijicama	52		5
 kutlačama			4
 kutovima	21		4
-kuvaricama	41		2
+kuvaricama	41		3
 kuvarima	204		4
 kućama	9281		3
 kućercima	20		3
 kućicama	276		4
-kučinama	31		2
-kučićima			2
+kučinama	31		3
+kučićima			4
 kučma			2
 kušačima			3
-kužnima			2
+kužnima			3
 kvadratima	151		3
 kvakama	50		3
 kvalifikacijama	5091		4
 kvalitetama	30		3
-kvalitetima	1320		2
+kvalitetima	1320		3
 kvarkovima	21		4
 kvarovima	260		4
 kvartalima	116		3
-kvartovima			2
+kvartovima			4
 kvekerima			4
-kvijetizma			2
+kvijetizma			3
 kvizovima	160		4
 kvoruma	969		3
 kvotama	414		3
 kvrgama	17		3
 kćerima	242		3
 kćerkama	162		3
-laboratorijama	2045		2
+laboratorijama	2045		3
 laboratorijima	83		4
-laboratorijuma			2
+laboratorijuma			3
 labudovima	36		5
 ladicama	60		4
-laganjima			2
-lagerima	64		2
-laguma	96		2
-lagumima	70		2
+laganjima			3
+lagerima	64		4
+laguma	96		3
+lagumima	70		3
 lagunama	77		3
 laicima	374		4
 lakima			3
 lakoma	19		3
 lakrdijama	10		4
-laktašima			2
+laktašima			3
 laktovima	383		4
 lalama	132		3
 lama		M	2
-lampama			2
-lampicama	66		2
-lampionima	47		2
+lampama			3
+lampicama	66		3
+lampionima	47		3
 lancima	1781		3
-lančićima	20		2
+lančićima	20		4
 laponcima			3
-laponkama			2
+laponkama			3
 larma	101		2
-larvama	137		2
+larvama	137		3
 laserima	177		4
 lasicama	12		4
 laskavcima			3
-lastama		M	2
+lastama		M	3
 laticama	171		4
 latinicama			4
-latinizama			2
-latinizma			2
-laudanuma			2
-laureatima	226		2
+latinizama			3
+latinizma			3
+laudanuma			3
+laureatima	226		3
 lavinama	36		4
 lavovima	351		4
 lavrama	17		3
-lazanjama	26		2
-lazarevićima			2
+lazanjama	26		3
+lazarevićima			3
 lađama	216		3
-lađarima	17		2
+lađarima	17		4
 lađevcima			3
-lažama	59		2
+lažama	59		3
 lažima	2303		3
 lažljivcima	14		4
-lažljivicama			2
+lažljivicama			3
 lažnima			3
 lažovima	142		4
 lecima	134		3
 ledenjacima	10		3
 ledinama	81		4
-legalizma	129		2
-legatima	53		2
+legalizma	129		3
+legatima	53		4
 legendama	859		3
 legijama	100		4
 legitimacijama	59		4
 leglima	32		3
 legurama	60		3
 lejama	159		3
-lekarijama			2
+lekarijama			3
 lekarima	3409		3
 lekcijama	297		4
 lekovima	4400		4
 leksema	169		2
-leksemama			2
-lektorima	46		2
+leksemama			3
+lektorima	46		4
 lema	129		2
 lenjima	14		3
 lenjirima	16		3
 lenjivcima	31		3
-lenčinama			2
+lenčinama			3
 leopardima	10		5
 lepezama	37		3
 lepima	39		3
 lepotama	1289		3
 lepotanima	18		3
 lepoticama	178		4
-lepršajima			2
+lepršajima			3
 leptirima	114		4
 lepšima	14		3
 lestvama	41		3
@@ -3231,10 +3231,10 @@ letoncima			3
 letopisima	80		5
 letovima	950		4
 letvama	106		3
-letvicama	75		2
+letvicama	75		3
 levima	14		3
 levičarima	160		5
-lezbejkama	104		2
+lezbejkama	104		3
 lezbijkama	40		3
 leđima	7771		3
 leševima	331		4
@@ -3242,11 +3242,11 @@ lešinarima	52		5
 lešnicima	203		4
 ležajevima	168		5
 ležajima	55		4
-ležištima	134		2
+ležištima	134		4
 liberalima	333		3
 liberalizma	1288		2
-libretima			2
-licejima			2
+libretima			4
+licejima			3
 licemerima	65		5
 licencama	425		3
 licima	11876		3
@@ -3254,10 +3254,10 @@ licitacijama	185		4
 liderima	2940		4
 liftovima	327		4
 ligama	709		3
-lignitima			2
+lignitima			4
 lignjama	43		3
 lihvarima	51		4
-lijanama	22		2
+lijanama	22		3
 likerima	19		3
 likovima	3177		4
 lima	2171		2
@@ -3269,31 +3269,31 @@ lingvistikama			4
 linijama	3913		4
 linoleuma	55		3
 lipama	90		3
-lipicama			2
+lipicama			3
 lirama	19		3
 lirizma	68		2
 liričarima			5
 lisicama	389		4
 lisičinama			5
 listama	2848		3
-listinama	22		2
+listinama	22		3
 listićima	882		4
 listovima	2289		4
 liticama	263		4
-litijama	50		2
+litijama	50		3
 litijima			4
-litijuma	212		2
+litijuma	212		3
 livadama	1027		4
-livnicama			2
-livrejama			2
+livnicama			3
+livrejama			3
 lizalicama			5
-ličanima			2
+ličanima			3
 ličnima			3
 ličnostima	2828		4
-lišajevima			2
-lišavanjima	10		2
-lišenima			2
-lišenjima			2
+lišajevima			3
+lišavanjima	10		3
+lišenima			3
+lišenjima			3
 ljama			2
 lješnjacima	19	J	4
 ljigavcima	12		3
@@ -3301,7 +3301,7 @@ ljiljanima	65		4
 ljubavima	520		4
 ljubavnicama	91		4
 ljubavnicima	179		4
-ljubećima			2
+ljubećima			4
 ljubimcima	886		3
 ljubiteljima	3064		5
 ljubičicama	22		3
@@ -3310,24 +3310,24 @@ ljudima	81957		3
 ljudožderima	33		4
 ljuljaškama	143		3
 ljuskama	91		3
-ljuskicama			2
-ljuspicama	80		2
-ljutinama			2
-ljutićima	16		2
+ljuskicama			3
+ljuspicama	80		3
+ljutinama			3
+ljutićima	16		4
 ljušturama	27		4
 lobanjama	86		4
 lobijima	129		4
 lobistima	114		4
-lociranjima			2
+lociranjima			3
 logaritama	13		3
-logikama	24		2
+logikama	24		3
 logorašima	117		3
 logorima	1614		4
 lokacijama	5122		4
 lokalcima	68		3
 lokalima	730		3
-lokatorima			2
-loknama			2
+lokatorima			3
+loknama			3
 lokomotivama	84		3
 lokvama	65		3
 loma	780		2
@@ -3341,16 +3341,16 @@ lopovima	1149		4
 lopovlucima	71		4
 loptama	498		3
 lopticama	157		4
-lorazepama			2
+lorazepama			3
 lordovima	11		4
 lososima			4
 lovcima	617		3
 lovinama			4
 lovištima	352		4
-lovorikama	213		2
+lovorikama	213		3
 lovovima	21		4
 lozama	34		3
-lozicama			2
+lozicama			3
 lozinkama	197		3
 lošijima	16		4
 lošima	39		3
@@ -3375,11 +3375,11 @@ lulama	25		3
 lupanjima			3
 lusterima	66		4
 lutalicama	203		5
-lutanjima	146		2
+lutanjima	146		3
 lutkama	439		3
 lutkicama	35		4
-luzerima	38		2
-lučama			2
+luzerima	38		4
+lučama			3
 luđacima			3
 lužinama			4
 ma		M	1
@@ -3388,47 +3388,47 @@ madracima	34		4
 maestrima			3
 mafijama	57		4
 mafijašima	213		3
-mafinima	12		2
-magacinima	514		2
+mafinima	12		3
+magacinima	514		3
 magarcima	124		4
-magazama			2
-magazinima	430		2
+magazama			3
+magazinima	430		3
 magijama	44		4
 magistrima	55		3
 maglama	95		3
 maglicama			4
-maglinama			2
+maglinama			3
 magma	217		2
 magnatima	33		3
 magnetima	144		3
 magnetizma	139		2
-magnezijuma	1176		2
-mahalama			2
+magnezijuma	1176		3
+mahalama			3
 mahovima			4
 mahovinama			5
 mahunama	31		4
-majama			2
-majdanima			2
+majama			3
+majdanima			3
 majevima			4
 majicama	1032		4
-majičicama			2
+majičicama			3
 majkama	1735		3
 majmunima	332		4
-majstorijama	128		2
+majstorijama	128		3
 majstorima	787		4
-makaronama	24		2
-makaronima			2
+makaronama	24		3
+makaronima			3
 makazama	546		4
-makazicama			2
-maksima	1004		2
+makazicama			3
+maksima	1004		3
 maksimuma	2077		4
 malenima	10		4
 malima	217		3
 malinama	251		4
-mališanima	1869		2
-maljama	59		2
+mališanima	1869		3
+maljama	59		3
 maljevima	71		4
-malkolma			2
+malkolma			3
 malograđanima	29		5
 maloletnicama	57		6
 maloletnicima	673		6
@@ -3436,50 +3436,50 @@ maloumnima	13		5
 mama	14927		2
 mamama	490		3
 mamcima	108		3
-mamelucima			2
+mamelucima			3
 mamicama	10		4
-mamlazima			2
+mamlazima			3
 mamuzama	56		4
 manama	1343		3
 manastirima	2318		5
 mandarinama	25		3
 mandatima	554		3
-mandićima			2
+mandićima			4
 manekenkama	123		3
 manevrima	271		3
-mangalama			2
+mangalama			3
 mangupima	131		4
-manhajma			2
-manifestima	52		2
+manhajma			3
+manifestima	52		3
 manijacima	73		5
 manipulacijama	805		4
 manirima	475		3
-manirizma	54		2
+manirizma	54		3
 manjima	49		3
 manjinama	1970		3
-mantijama	127		2
-mantilima			2
-manžetnama			2
+mantijama	127		3
+mantilima			4
+manžetnama			3
 mapama	862		3
 marama	586		3
 maramama	187		4
 maramicama	150		5
 marelicama			4
-marginama	1206		2
+marginama	1206		3
 marincima	75		3
 markama	621		3
-markerima	128		2
-marketima	914		2
-markicama	122		2
+markerima	128		4
+marketima	914		4
+markicama	122		3
 marksizma	853		2
 marljivima			4
-marokancima			2
+marokancima			3
 marsovcima			3
-martinovićima			2
+martinovićima			3
 maršalima	17		3
 marševima	60		4
-maršrutama			2
-maržama	289		2
+maršrutama			3
+maržama	289		3
 masakrima	115		3
 masama	1380		3
 masažama	151		3
@@ -3488,8 +3488,8 @@ maskama	904		3
 maslinama	270		4
 masnicama	24		4
 masnoćama	266		3
-masonima	167		2
-mastilima			2
+masonima	167		3
+mastilima			4
 mastima	927		3
 matematikama			4
 matematičarima	171		5
@@ -3499,43 +3499,43 @@ materijama	1458		4
 maticama	185		4
 matorcima	80		3
 matricama	138		3
-maturantima	527		2
+maturantima	527		3
 mazgama	54		3
-mazivima	40		2
+mazivima	40		3
 mazohizma	197		2
-mačetama	61		2
+mačetama	61		3
 mačevima	468		4
-mačićima	81		2
+mačićima	81		4
 mačkama	722		3
-mađaricama	38		2
-mađarima			2
-mađijama	93		2
-mašicama			2
+mađaricama	38		3
+mađarima			4
+mađijama	93		3
+mašicama			3
 mašinama	3333		3
-mašinkama	30		2
-mašićima			2
-mašnama	81		2
+mašinkama	30		3
+mašićima			4
+mašnama	81		3
 maštama			3
-maštanjima	123		2
-maštarijama	106		2
-mažićima			2
-meanama			2
+maštanjima	123		3
+maštarijama	106		3
+mažićima			4
+meanama			3
 mecima	326		3
 medaljama	693		4
-medaljonima	80		2
-medama	34		2
+medaljonima	80		3
+medama	34		3
 medenjacima	23		3
 medicinama	12		3
 medijima	36297		4
-medijuma	531		2
-medijumima	69		2
+medijuma	531		3
+medijumima	69		3
 mediokritetima	91		3
 meduzama	31		3
 medvedima	169		4
-megafonima	14		2
-megdanima			2
-mehanama			2
-mehanicizma			2
+megafonima	14		3
+megdanima			3
+mehanama			3
+mehanicizma			3
 mehanizama	3610		3
 mehanizma	3277		2
 mehanizmima	1525		3
@@ -3543,10 +3543,10 @@ mehaničarima	70		5
 mehovima	10		4
 mehurima	16		4
 mehurićima	97		4
-mejlovima	198		2
-mejnstrima	135		2
-mekinjama	67		2
-meksikancima			2
+mejlovima	198		4
+mejnstrima	135		3
+mekinjama	67		3
+meksikancima			3
 mekušcima	31		3
 melanoma	709		2
 melema	244		3
@@ -3558,39 +3558,39 @@ memoranduma	1611		3
 memorijama	199		4
 menadžerima	1772		5
 menicama	98		4
-menijima			2
+menijima			3
 menjačima	181		3
-mentorima	526		2
-menzama	97		2
+mentorima	526		4
+menzama	97		3
 merama	9806		3
 meračima	67		3
-merdevinama			2
-merdžanima			2
-merenjima	673		2
+merdevinama			3
+merdžanima			3
+merenjima	673		3
 merilima	1518		4
-merima			2
-mesarama	169		2
+merima			3
+mesarama	169		3
 mesarima	25		4
 mesecima	11746		3
 mesečarima	13		5
-mesožderima			2
+mesožderima			3
 mestima	27923		3
 metabolizma	1848		2
 metaforama	233		4
 metalcima	39		3
 metalima	562		3
 metama	146		3
-metanjima			2
-metapodacima	34		2
+metanjima			3
+metapodacima	34		3
 metcima	14		3
 meteorima	171		3
 meteoritima	89		3
 meteorologijama			4
 metežima	25		4
 metlama	128		3
-metlicama	26		2
+metlicama	26		3
 metodama	6100		3
-metodima	374		2
+metodima	374		3
 metrima	249		3
 metroima			3
 metronoma	12		3
@@ -3599,167 +3599,167 @@ mezimcima	39		3
 mećavama	16		4
 mečevima	2972		4
 međama	144		3
-međašima			2
-međuforma			2
+međašima			3
+međuforma			3
 mešavinama	140		5
 mešinama	16		4
 meštanima	1624		4
-migrantima	207		2
-migrenama	34		2
-mikrobima			2
-mikrofilma	29		2
+migrantima	207		4
+migrenama	34		3
+mikrobima			3
+mikrofilma	29		3
 mikrofonima	104		5
-mikrograma	1211		2
-mikroklima			2
-mikrokozma	93		2
+mikrograma	1211		3
+mikroklima			4
+mikrokozma	93		3
 mikroorganizama	1447		3
-mikrotalasnima			2
-mikserima			2
-milenijuma	2632		2
-milenijumima	301		2
-miligrama	948		2
+mikrotalasnima			3
+mikserima			4
+milenijuma	2632		3
+milenijumima	301		3
+miligrama	948		3
 milijardama	1092		3
 milijarderima	67		3
 milionerima	83		3
 milionima	2450		3
 militarizma	166		2
-milićima			2
-miljaima			2
+milićima			4
+miljaima			3
 miljama	272		3
-milligrama			2
-milosrđima			2
+milligrama			3
+milosrđima			3
 milostima			4
 mima		M	2
-mimetizma			2
-minama	139		2
+mimetizma			3
+minama	139		3
 minaretima	37		4
-minderlucima			2
+minderlucima			3
 mineralima	1141		3
-minima			2
+minima			3
 minimuma	2129		4
 minimumima			5
 ministarstvima	4094		3
 ministrima	2597		4
-minobacačima	51		2
-mintanima			2
+minobacačima	51		3
+mintanima			3
 minutama	157		3
 minutima	787		3
-minđušama			2
+minđušama			3
 mioma	126		2
-mirakulima			2
+mirakulima			3
 mirazima			4
-mirijadama			2
+mirijadama			3
 mirisima	863		4
 mirnima			3
 mirotvorcima	41		3
 mirovima			4
 mirođijama			4
-misama	84		2
+misama	84		3
 misijama	1780		4
 misionarima	74		3
-mislećima			2
+mislećima			4
 mislima	5415		3
 misliocima	194		5
-misterijama	182		2
+misterijama	182		3
 misticizma	137		2
-mistima			2
+mistima			3
 mitinzima	650		4
 mitolozima			4
 mitovima	963		4
-mitraljezima			2
-mitrama			2
+mitraljezima			3
+mitrama			3
 miševima	848		4
 mišicama	41		4
-mišima			2
+mišima			3
 mišićima	2354		3
-mišljenjima			2
-miščićima			2
+mišljenjima			3
+miščićima			4
 mjuziklima			4
-mladarima			2
+mladarima			4
 mladencima	336		4
-mladicama	45		2
+mladicama	45		3
 mladima	11203		3
 mladićima	526		3
 mladuncima	143		3
-mlatišuma		M	2
+mlatišuma		M	3
 mlazevima	134		4
 mlazovima	36		4
 mlađima	747		3
 mlecima			3
 mlekarama	303		4
 mlekarima	53		3
-mlečanima			2
+mlečanima			3
 mlinarima	43		4
 mlinovima	134		4
 mnenjima			3
 mnjenjima			3
 mnogima	8407		3
 mnoštvima			3
-mobama			2
+mobama			3
 mobilnima	40		4
 modalitetima	360		3
 modama	16		3
 modelima	6335		4
 modema	1272		2
-moderatorima	236		2
+moderatorima	236		3
 modernizma	622		2
 modifikacijama	251		4
 modricama	178		4
-modulima	807		2
-mogilama			2
+modulima	807		4
+mogilama			3
 mogućnostima	13851		3
 mojima			3
-mokasinama			2
+mokasinama			3
 molbama	392		3
 molekulama	22		4
 molekulima	274		4
-moliocima			2
-moliteljima			2
+moliocima			3
+moliteljima			3
 molitvama	2655		4
-molitvenicima	21		2
+molitvenicima	21		3
 moljcima	18		3
 moma			2
 momcima	2391		3
-momentima	2547		2
-monahinjama	159		2
-monarhistima	27		2
-monarhizma	48		2
+momentima	2547		4
+monahinjama	159		3
+monarhistima	27		3
+monarhizma	48		3
 monarsima	19		4
 monasima	926		4
-monetama	22		2
+monetama	22		3
 monitorima	528		5
 monizma	40		2
-monodrama	256		2
-monohroma			2
+monodrama	256		3
+monohroma			3
 monopolima	251		5
 monoteizma	52		2
 monotrema			2
 monstruma	591		3
 monstrumima	94		4
-montažama	44		2
-mopedima			2
+montažama	44		3
+mopedima			3
 moralizma	47		2
 moralnima			3
 morama	96		3
-moravicama			2
-moreuzima			2
+moravicama			3
+moreuzima			3
 morfema	22		2
-morfijuma	97		2
+morfijuma	97		3
 morima	829		3
 morlacima			3
 mormonima	14		3
 mornarima	139		3
-moronima			2
+moronima			3
 mostovima	842		4
-motanjima			2
+motanjima			3
 motelima	85		3
 motikama	58		4
 motivima	3481		3
 motkama	492		3
 motociklima			3
 motorima	2628		3
-motoristima	20		2
-movensima			2
+motoristima	20		3
+movensima			3
 mozaicima	234		4
 mozgovima			4
 moćima	683		3
@@ -3767,18 +3767,18 @@ moćnicima	524		4
 moćnijima	18		4
 moćnima	115		3
 močvarama	209		4
-močvarima			2
+močvarima			4
 mošnicama	33		4
-moštima	1005		2
-moždanima			2
+moštima	1005		3
+moždanima			3
 mrakovima			4
 mramorima			4
 mravima	104		3
 mrazevima	90		4
 mrežama	7822		3
 mrljama	247		3
-mrmljanjima			2
-mrsnima			2
+mrmljanjima			3
+mrsnima			3
 mrtvacima	75		4
 mrtvačnicama	20		4
 mrtvima	712		3
@@ -3794,40 +3794,40 @@ muftijama	25		4
 muharema			2
 mukama	2766		3
 mulama	24		3
-multiverzuma			2
+multiverzuma			3
 mumijama	36		4
-mundirima			2
+mundirima			4
 munjama	171		3
 murjacima			3
-muselima			2
-musketarima	12		2
+muselima			4
+musketarima	12		3
 muslimanima	3188		3
-mustaćima			2
-musterijama			2
-mustrama			2
+mustaćima			4
+musterijama			3
+mustrama			3
 mutacijama	126		4
-mutantima	39		2
+mutantima	39		4
 muvama	97		3
 muzejima	1547		3
 muzikama	18		4
-muzičarima	1332		2
+muzičarima	1332		3
 mučenicama	12		5
 mučenicima	524		5
-mučenjima	222		2
+mučenjima	222		3
 mučiteljima	115		5
-mučninama	31		2
+mučninama	31		3
 mušema		M	2
 mušicama	133		4
-mušićima			2
+mušićima			4
 muškarcima	5916		3
-muškatlama			2
+muškatlama			3
 muškima	52		3
-mušterijama			2
+mušterijama			3
 muževima	344		4
 mužjacima	118		4
 nabavkama	4179		3
 nabojima	18		4
-naboranima			2
+naboranima			3
 naborima	150		4
 nacijama	2241		4
 nacionalizma	4242		2
@@ -3836,36 +3836,36 @@ nacizama			3
 nacizma	1246		2
 nacrtima	387		4
 nadama	524		3
-nadanjima	170		2
+nadanjima	170		3
 nadevima	33		4
 nadima	163		3
 nadimcima	189		4
 nadlakticama	42		5
-nadlanicama	22		2
-nadleštvima	56		2
+nadlanicama	22		3
+nadleštvima	56		3
 nadležnima	1340		4
 nadležnostima	1883		5
-nadljudima	17		2
-nadmenima			2
+nadljudima	17		3
+nadmenima			3
 nadničarima	32		5
 nadrealizma	337		2
-nadređenima	155		2
+nadređenima	155		3
 nadzorima	24		4
 nadzornicima	25		4
 nadžacima			3
-naforama			2
-nagađanjima	218		2
+naforama			3
+nagađanjima	218		3
 nagibima	80		4
 naglascima	35		4
-nagnućima			2
+nagnućima			4
 nagodbama	65		4
 nagonima	231		4
-nagoveštajima	222		2
+nagoveštajima	222		3
 nagovorima	16		5
 nagradama	1899		4
-nahijama	54		2
-nailascima			2
-naima			2
+nahijama	54		3
+nailascima			3
+naima			3
 naivcima	17		3
 naivnostima			3
 najaktivnijima			6
@@ -3878,180 +3878,180 @@ najgorima	37		4
 najjačima	15		4
 najlepšima	21		4
 najljućima			4
-najlonkama	27		2
+najlonkama	27		3
 najma	563		2
 najmanjima	23		4
 najmilijima	18		5
 najmlađima	143		4
 najvećima	144		4
-najvećma			2
+najvećma			3
 najvišima	80		4
 nakazama	46		4
 nakaznima			4
 nakitima	30		4
 naknadama	569		4
 nalazima	1526		4
-nalazištima	439		2
-nalepnicama	254		2
-naletima	619		2
-naličjima			2
+nalazištima	439		3
+nalepnicama	254		3
+naletima	619		4
+naličjima			3
 nalozima	1213		4
 nama	101325		2
-namastirima			2
+namastirima			3
 namazima	73		3
-namenama	222		2
+namenama	222		3
 namerama	3520		4
-namernicima	69		2
-nametanjima	14		2
+namernicima	69		3
+nametanjima	14		3
 nametima	393		4
-namirnicama	2312		2
-namučenima			2
-nanosima	209		2
-nanulama			2
+namirnicama	2312		3
+namučenima			3
+nanosima	209		3
+nanulama			3
 naočarama	108		5
-naočarima	1012		2
+naočarima	1012		3
 napadanima			5
 napadačima	649		3
 napadima	4535		4
-napaljencima			2
+napaljencima			3
 napalma	16		3
 napastima	56		4
 napaćenima			5
-napevima	30		2
+napevima	30		3
 napicima	376		4
-napisima	368		2
+napisima	368		3
 naplatama	50		4
 napojnicama	13		4
 napomenama	278		5
 naponima	159		4
 naporima	4973		4
-naprama	23		2
+naprama	23		3
 napravama	166		4
 naprecima	12		4
 naprednima			4
 naprema	86		3
 naracijama	25		4
 naramcima			3
-naramenicama	36		2
-narandžama			2
+naramenicama	36		3
+narandžama			3
 naravima	116		4
-naravoučenijima	10		2
+naravoučenijima	10		3
 naraštajima	425		5
 narcizma	134		2
 naredbama	355		4
-narednima			2
+narednima			3
 narečjima	25		4
-naređenjima	155		2
-narikačama	17		2
+naređenjima	155		3
+narikačama	17		3
 narkomanima	255		3
 narkoticima	1016		4
 narodima	6579		4
 narudžbama	43		4
-narudžbinama	125		2
+narudžbinama	125		3
 narukvicama	121		5
-nasadima	25		2
-naseljenicima			2
+nasadima	25		3
+naseljenicima			3
 naseljenima			4
 naseljima	4209		3
 naseobinama	89		6
 nasiljima	81		3
 nasilnicima	342		4
 nasipima	143		4
-nasladama	37		2
+nasladama	37		3
 naslagama	387		4
 naslednicima	878		5
 naslonima	165		4
 naslonjačima			3
 naslovima	1456		4
-naslovnicama	120		2
-nasrtajima	129		2
-nastambama	17		2
+naslovnicama	120		3
+nasrtajima	129		3
+nastambama	17		3
 nastavcima	802		4
 nastavnicima	3402		4
-nastojanjima	1799		2
+nastojanjima	1799		3
 nastupima	3241		4
-natezanjima	17		2
+natezanjima	17		3
 natpisima	834		4
-natrijuma	811		2
+natrijuma	811		3
 naturalizma	110		2
 naukama	1972		4
 nauma	288		3
 naumima	36		4
 naučnicima	2279		5
 naušnicama	30		5
-navalama	28		2
-navaljivanjima	10		2
+navalama	28		3
+navaljivanjima	10		3
 navijačicama			4
 navijačima	5591		3
 navikama	2385		4
-navlakama	38		2
+navlakama	38		3
 navodima	4947		4
 navodnicima	404		5
-navrtkama			2
-nazima			2
+navrtkama			3
+nazima			3
 nazivima	1408		4
 naznakama	542		4
 nazorima	115		4
-naćvama			2
+naćvama			3
 načelima	2820		3
 načinima	4278		4
 našima			3
-neandertalcima	29		2
-nebesama			2
-nebesima	1214		2
+neandertalcima	29		3
+nebesama			3
+nebesima	1214		3
 nebeskima			4
-nebesnima			2
+nebesnima			3
 neboderima	79		5
 nebrigama			4
-nebulozama	182		2
-nedaćama	638		2
-nedelima	188		2
+nebulozama	182		3
+nedaćama	638		3
+nedelima	188		4
 nedeljama	2795		4
-nedima			2
-nedićima			2
-nedoslednostima	59		2
+nedima			3
+nedićima			4
+nedoslednostima	59		3
 nedostacima	836		3
 nedrima	322		3
 nedužnima	20		4
 negativcima	67		3
-negativima	29		2
-neimarima			2
+negativima	29		3
+neimarima			3
 neistinama	371		5
 nejakima	15		4
 nekima	7646		3
 nekretninama	1681		3
-nekrstima			2
-neljudima			2
+nekrstima			4
+neljudima			3
 nema	456206		2
-nemanjićima			2
+nemanjićima			3
 nemarnima			4
 nemcima	3384		3
-nemicama			2
+nemicama			3
 nemima	14		3
 nemirima	470		4
 nemoćima	37		4
 nemoćnima	140		4
-nemrtvima			2
-neodlučnostima			2
+nemrtvima			3
+neodlučnostima			3
 neologizma	13		2
-neonacizma	129		2
+neonacizma	129		3
 nepcima	114		3
-nepodopštinama	29		2
+nepodopštinama	29		3
 nepogodama	383		5
-nepokretnostima	762		2
-nepotizma	392		2
+nepokretnostima	762		3
+nepotizma	392		3
 nepoznatima	130		5
 nepoštenima			5
 nepravdama	255		3
 nepravilnostima	514		3
 neprijateljima	2448		6
-neprijatnostima	148		2
+neprijatnostima	148		3
 neprilikama	257		4
 nepušačima	85		3
 neredima	661		4
 nerodnima			4
 nerođenima			5
-nervima	253		2
+nervima	253		3
 nervoznima	28		4
 nesanicama			5
 nesigurnostima	38		3
@@ -4060,65 +4060,65 @@ nesporazuma	2022		5
 nesporazumima	159		6
 nesretnima			4
 nesrećama	879		4
-nesrećnicima	121		2
-nesrećnima	53		2
-nestalima	158		2
+nesrećnicima	121		3
+nesrećnima	53		3
+nestalima	158		4
 nestalnima			4
 nestancima	52		4
-nestašlucima			2
+nestašlucima			3
 nesvesnima			4
-neugodnostima	29		2
+neugodnostima	29		3
 neukima	52		4
-neuma			2
-neumrlima			2
-neuposlenima			2
+neuma			3
+neumrlima			3
+neuposlenima			3
 neurednima			5
 neurologijama			4
 neuronima	126		3
 neurozama	52		3
 neuspesima	306		5
 neutronima	57		3
-neučenima			2
-nevaljalstvima			2
+neučenima			3
+nevaljalstvima			3
 neverama			4
 nevernicima	130		4
 nevernima	38		4
 nevestama	44		4
 nevidljivima	14		4
 nevinima	38		4
-nevičnima			2
+nevičnima			3
 nevoljama	954		4
-nevoljnicima	80		2
-nevoljnima	92		2
+nevoljnicima	80		3
+nevoljnima	92		3
 nezaposlenima	861		5
 nezgodama	423		4
 neznalicama	157		5
 neznancima	55		3
 nećacima	16		4
-nečinjenjima			2
+nečinjenjima			3
 nečistima	18		4
 neženjama	36		4
 nežnostima	52		4
 nihilizma	267		2
 nijansama	1480		3
-nikodima			2
-nikšićima			2
+nikodima			3
+nikšićima			4
 nimfama	79		3
 nindžama	26		3
-niskama			2
+niskama			3
 nitima	392		3
 nitkovima	21		3
-nitnama			2
-nitnicama			2
-nitratima	76		2
+nitnama			3
+nitnicama			3
+nitratima	76		4
 nivoima	9453		3
-nizama		M	2
+nizama		M	3
 nizinama	23		3
 nizovima	227		4
-nišama	170		2
-nišlijama			2
+nišama	170		3
+nišlijama			3
 ništavnima			4
-niščima			2
+niščima			3
 nižima	17		3
 njedrima	87		3
 njegovima			4
@@ -4126,36 +4126,36 @@ njenima			3
 njihovima			4
 njima	146464		2
 njivama	1644		3
-njujorčanima			2
+njujorčanima			3
 njuškama	41		3
-noama		M	2
+noama		M	3
 nogama	11487		3
-nogarima			2
+nogarima			4
 nogavicama	142		5
-nogicama			2
-noklicama			2
+nogicama			3
+noklicama			3
 noktima	1208		3
 nomadima	55		3
 norma	2130		2
 normalnima	72		4
 normama	2353		3
-normativima	486		2
+normativima	486		3
 nosačima	394		3
 nosevima	81		4
 nosilima	258		4
 nosiljkama	19		3
-nosiocima			2
-nosnicama	11		2
+nosiocima			3
+nosnicama	11		3
 nosorozima	14		5
-notama	563		2
+notama	563		3
 novacima	23		4
 novajlijama	119		4
 novcima	456		3
-novelama	93		2
+novelama	93		3
 novima	198		3
 novinama	11492		3
 novinarima	18423		5
-novitetima	409		2
+novitetima	409		3
 novostima	1810		4
 novotarijama	163		4
 novčanicama	345		4
@@ -4163,37 +4163,37 @@ novčanicima	153		3
 novčićima	103		4
 nozdrvama	121		4
 noćima	1214		3
-nošnjama	398		2
+nošnjama	398		3
 noževima	674		4
 nožicama	196		4
 nožima			3
 nožićima	12		4
-nožurdama			2
+nožurdama			3
 nudizma	20		2
 nujoma			2
 nuklearkama	106		3
 nulama	71		3
-numerama	286		2
-nunčakama			2
+numerama	286		3
+nunčakama			3
 nuždama	10		3
 nužnicima			4
 nužnostima	18		4
 oazama	138		3
 obalama	2242		4
 obama			2
-obasjanjima			2
+obasjanjima			3
 obavezama	6108		5
 obaveznima	10		5
 obaveštajcima	74		3
-obaveštenjima	294		2
+obaveštenjima	294		3
 obavijenima			6
 obavljenima			5
-obedima	15		2
+obedima	15		3
 obeležjima	923		5
 obelježjima			5
 obema		M	3
 obećanjima	2405		3
-obilascima	138		2
+obilascima	138		3
 obiležjima			5
 obilježjima	73	J	5
 obima	6477		3
@@ -4203,40 +4203,40 @@ objavama	164		4
 objašnjenjima	816		3
 objektima	11170		4
 oblacima	1774		4
-oblandama	20		2
+oblandama	20		3
 oblastima	20031		4
-oblačićima	30		2
-oblicama	17		2
+oblačićima	30		3
+oblicama	17		3
 oblicima	6535		4
-oblima			2
+oblima			3
 oblinama	322		3
 obličjima	37		3
-oblogama	262		2
+oblogama	262		3
 oblucima	41		3
 obmanama	325		4
 obnovama	25		4
-obodima	498		2
+obodima	498		3
 obojenima	13		5
-obolelima	774		2
-obolenjima	74		2
-oboljenjima			2
+obolelima	774		3
+obolenjima	74		3
+oboljenjima			3
 oboma			3
-oborima	57		2
+oborima	57		4
 obožavaocima	441		5
 obožavateljima	114		5
 obradama	256		4
-obranima			2
+obranima			3
 obrascima	945		4
 obratima			4
 obrazima	700		4
-obrazinama			2
-obraćanjima	183		2
+obrazinama			3
+obraćanjima	183		3
 obraćenima			4
 obračunima	445		5
-obrađivačima	30		2
-obraščićima	14		2
+obrađivačima	30		3
+obraščićima	14		3
 obredima	504		4
-obrenovićima			2
+obrenovićima			3
 obrisima	169		4
 obrocima	541		4
 obroncima	1479		4
@@ -4248,9 +4248,9 @@ obuzima	689		3
 obveznicama	1132		5
 obveznicima	702		5
 obzirima	76		4
-obznanama			2
+obznanama			3
 ocenama	2784		4
-ocilima	70		2
+ocilima	70		4
 odabranima	115		4
 odajama	307		4
 odanima			4
@@ -4259,19 +4259,19 @@ odbijanjima	16		3
 odblescima	23		3
 odbljescima			3
 odborima	2682		4
-odbornicima	1782		2
+odbornicima	1782		3
 odbranama	327		4
 odelima	795		4
 odeljcima	163		4
 odeljenjima	2361		3
 odećama	22		4
-odeždama	92		2
+odeždama	92		3
 odgovorima	2838		5
 odgovornima	334		5
 odgovornostima	466		3
-odijuma	33		2
+odijuma	33		3
 odjecima	94		4
-odlaganjima	35		2
+odlaganjima	35		3
 odlama			2
 odlascima	333		4
 odlikama	752		4
@@ -4285,73 +4285,73 @@ odmaralištima	184		5
 odmazdama	42		4
 odmetnicima	59		5
 odmorima	386		4
-odmorištima	44		2
+odmorištima	44		3
 odnosima	19933		4
-odnošajima			2
+odnošajima			3
 odobrenjima	63		3
 odorama	122		4
-odraslima	1353		2
+odraslima	1353		4
 odrazima	24		4
 odrađenima			4
-odražavanjima			2
+odražavanjima			3
 odredbama	8103		4
 odredima	223		4
-odrema	23		2
+odrema	23		3
 odrescima	19		4
 određenima	21		4
-određenjima	97		2
-odricanjima	71		2
+određenjima	97		3
+odricanjima	71		3
 odrima			3
 odronima	29		4
-odrpancima			2
+odrpancima			3
 odsecima	269		4
-odsjajima	54		2
-odsjevima			2
+odsjajima	54		3
+odsjevima			3
 odsustvima	55		4
 odsutnima			4
 oduzima	3454		3
-odvajanjima			2
+odvajanjima			3
 odvedenima			4
 odvojenima			4
 odvođenima			4
 odvratnima			4
 odzivima			4
 odžacima			3
-ofanzivama	34		2
-oficirima			2
+ofanzivama	34		3
+oficirima			3
 oglasima	1311		4
-oglašenima			2
-oglašivačima	403		2
+oglašenima			3
+oglašivačima	403		3
 ogledalima	399		4
 ogledima	252		4
 ognjevima	11		4
-ognjicama			2
+ognjicama			3
 ognjištima	330		3
-ogorčenjima			2
+ogorčenjima			3
 ogradama	267		4
 ograncima	461		4
 ograničenjima	1233		3
 ogrebotinama	84		4
-ogrešenjima			2
+ogrešenjima			3
 ogriscima			3
 ogrlicama	106		5
 ogrtačima	34		3
-ogrubelima			2
+ogrubelima			3
 oholima	10		4
 okeanima	468		3
-okicama	122		2
+okicama	122		3
 oklagijama			4
-oklahoma			2
+oklahoma			3
 oklopima	113		4
-oklopnicima			2
+oklopnicima			3
 oknima	99		3
 okolinama	27		5
-okolnosima			2
+okolnosima			3
 okolnostima	13744		3
 okovima	426		4
-okovratnicima			2
-okretajima			2
-okruglicama			2
+okovratnicima			3
+okretajima			3
+okruglicama			3
 okruzima	545		4
 okruženjima	1077		3
 okršajima	351		5
@@ -4361,10 +4361,10 @@ oktopodima			3
 okukama	19		4
 okultizma	84		2
 okupatorima	482		4
-okupljanjima	385		2
+okupljanjima	385		3
 okupljenima	725		5
 okusima			4
-okućnicama	111		2
+okućnicama	111		3
 okvirima	6685		3
 olakšicama	553		5
 olimpizma	241		2
@@ -4375,47 +4375,47 @@ olucima	88		4
 olujama	173		3
 olupinama	48		5
 oma			2
-omama	20		2
+omama	20		3
 omamljenima			4
 omaškama	31		4
 omiljenima	18		5
-omnibusima			2
+omnibusima			3
 omotima	78		4
-omrazama			2
+omrazama			3
 onakvima	173		2
 onima	43730		2
-opadačima			2
+opadačima			3
 opancima	245		4
 opaskama	147		4
-opasnima			2
+opasnima			3
 opasnostima	1393		3
 opaticama			4
-opažajima			2
-opažanjima	72		2
+opažajima			3
+opažanjima	72		3
 opcijama	2082		4
 opekama	49		4
-opeklinama			2
+opeklinama			3
 opekotinama	233		4
-opelima	18		2
+opelima	18		4
 operacijama	3143		4
 operama	173		4
-operativcima	93		2
+operativcima	93		3
 operetama	13		3
-ophodima			2
+ophodima			3
 opijatima	120		3
 opijuma	405		4
 opisima	866		4
-opitima	33		2
+opitima	33		4
 opkladama	15		4
 opkopima			4
 oplatama	44		4
 opnama	31		3
 opomenama	122		5
 oponentima	195		4
-oponiranjima			2
-oporavilištima			2
+oponiranjima			3
+oporavilištima			3
 oposuma	26		4
-opravkama	27		2
+opravkama	27		3
 oprema	15059		3
 oprugama	147		4
 opsadama	15		4
@@ -4423,25 +4423,25 @@ opsenama	43		4
 opsesijama	56		4
 opsezima	158		4
 optikama	10		4
-optima			2
+optima			3
 optimizma	2499		2
-optimuma	60		2
+optimuma	60		3
 optužbama	1635		4
-optuženima	641		2
+optuženima	641		3
 optužnicama	253		5
-opusima	48		2
+opusima	48		3
 opušcima	37		4
-opštenjima			2
+opštenjima			3
 opštima	16		3
 opštinama	12661		4
 oranicama	293		4
 orasima	606		4
 oratorima			4
 oračima			3
-oraščićima	11		2
-orbitama	235		2
-ordenima	78		2
-ordenjima			2
+oraščićima	11		3
+orbitama	235		3
+ordenima	78		3
+ordenjima			3
 orfizma			2
 organima	15957		3
 organizacijama	15537		4
@@ -4454,63 +4454,63 @@ orgazma	1474		2
 orgazmima	39		3
 orgijama	128		4
 orguljama	82		4
-orhidejama	30		2
-orkama			2
+orhidejama	30		3
+orkama			3
 orkestrima	415		4
 orlovima	358		4
 orlušinama			4
 orma			2
 ormanima	159		3
 ormarima	186		3
-ormarićima	98		2
-ornamentima	235		2
-ornatima			2
-orozima			2
+ormarićima	98		3
+ornamentima	235		3
+ornatima			4
+orozima			3
 ortacima	338		3
 oruđima	160		3
 oružjima	129		3
 osama	423		3
-osamdesetima	30		2
+osamdesetima	30		3
 osekama	12		4
-osenčenjima			2
-osetima	11		2
+osenčenjima			3
+osetima	11		4
 osetljivima			4
 osećajima	264		5
-osećanjima	2582		2
+osećanjima	2582		3
 osiguranjima	143		3
 osiguračima	82		3
 osima	62		3
-osjetilima		J	2
+osjetilima		J	3
 osjećajima		J	5
 oskorušama			5
 oskudicama	11		5
 osloncima	67		4
 osma	1098		2
-osmanlijama	151		2
+osmanlijama	151		3
 osmercima	32		3
 osmesima	406		4
 osmicama	20		4
-osnaženima			2
+osnaženima			3
 osnivačima	632		3
 osnovama	6878		4
 osnovcima	659		3
-osnovima	231		2
+osnovima	231		4
 osnovnima			4
 osobama	13476		4
-osobenostima	420		2
+osobenostima	420		3
 osobinama	2789		3
-osojima			2
+osojima			3
 ostacima	2045		3
 ostalima	6040		3
-ostanima			2
+ostanima			3
 ostavama	64		4
 ostavkama	220		3
-ostragušama			2
-ostrigama	32		2
+ostragušama			3
+ostrigama	32		3
 ostrvcima	52		3
 ostrvima	2381		4
 osudama	215		4
-osumnjičenima	360		2
+osumnjičenima	360		3
 osunčanima			4
 osuđenicima	226		3
 osuđenima	134		4
@@ -4519,19 +4519,19 @@ osvajačima	329		3
 osvetama	32		4
 osvetnicima	13		5
 osvećenima			4
-osveženjima	14		2
+osveženjima	14		3
 osvrtima	114		4
 otadžbinama	16		5
-otapalima			2
+otapalima			3
 otetima			3
 otima	1928		3
-otimačima	46		2
+otimačima	46		3
 otiscima	182		4
 otkazima	363		4
-otkopima	16		2
-otkosima	28		2
+otkopima	16		3
+otkosima	28		3
 otkrićima	728		3
-otkucajima	89		2
+otkucajima	89		3
 otkupima	33		4
 otmicama	144		4
 otmičarima	96		5
@@ -4539,152 +4539,152 @@ otocima	201		4
 otpacima	144		4
 otpadima	136		4
 otpadnicima	77		5
-otplatama	79		2
-otporašima	26		2
+otplatama	79		3
+otporašima	26		3
 otporima	135		4
-otprema	234		2
-otpuštanjima	160		2
+otprema	234		3
+otpuštanjima	160		3
 otrovima	344		4
-otvaranjima	77		2
+otvaranjima	77		3
 otvaračima			3
 otvorenima	21		5
 otvorima	686		4
-ovacijama	756		2
+ovacijama	756		3
 ovakvima	163		2
-ovalima			2
+ovalima			4
 ovcama	603		3
 ovima	2484		2
 ovlaštenima			4
-ovlašćenjima	1603		2
+ovlašćenjima	1603		3
 ovnovima	78		4
-ozima	94		2
+ozima	94		3
 ozledama	39		4
 ozljedama		J	4
 oznakama	1481		4
-očajnicama			2
-očajnicima	17		2
+očajnicama			3
+očajnicima	17		3
 očekivanjima	3050		3
 očevicima	46		3
 očevima	343		4
-očicama	27		2
+očicama	27		3
 očima	20918		3
-očitanjima			2
-očitavanjima	20		2
+očitanjima			3
+očitavanjima	20		3
 očišćenima			5
 očnjacima	52		3
-oštarijama			2
+oštarijama			3
 oštećenima	135		5
-oštećenjima	527		2
+oštećenjima	527		3
 oštricama	26		4
-oštrouma			2
+oštrouma			3
 oženjenima			4
 ožiljcima	199		4
 pacifizma	79		2
 pacijentima	5720		4
 pacijentkinjama	151		5
 pacovima	341		3
-padavinama	596		2
+padavinama	596		3
 padežima	155		4
 padinama	1418		4
 padobrancima	45		3
 padobranima	81		5
 padovima	432		4
-paganima	50		2
+paganima	50		3
 paganizma	103		2
 pahuljama	72		4
 pahuljicama	143		4
-pajdašima			2
-pajkanima			2
-pajtašima			2
+pajdašima			3
+pajkanima			3
+pajtašima			3
 paketima	1193		3
 paketićima	189		4
-pakistancima			2
-paklicama	52		2
+pakistancima			3
+paklicama	52		3
 pakostima	23		4
-pakovanjima	738		2
+pakovanjima	738		3
 palankama	62		3
-palatama	281		2
+palatama	281		3
 palačinkama	94		3
 palcima	24		3
 palerma			2
-palestincima			2
-paletama	119		2
+palestincima			3
+paletama	119		3
 palicama	417		4
-palidrvcima			2
-palikućama	13		2
-palisadama	19		2
-paljenjima	14		2
-paljevinama	73		2
+palidrvcima			3
+palikućama	13		3
+palisadama	19		3
+paljenjima	14		3
+paljevinama	73		3
 palma	1705		2
 palmama	278		3
 paloma			2
 palubama	40		4
 palčevima	91		4
-palčićima			2
+palčićima			4
 pametnima	100		4
 pamfletima	76		3
-pamuklijama			2
+pamuklijama			3
 panama		M	3
 pancirima	56		3
 pandama	38		3
-pandurima			2
+pandurima			4
 pandžama	10		3
-panelima	729		2
+panelima	729		4
 panjevima	87		4
-pankerima	29		2
-panoima	241		2
+pankerima	29		4
+panoima	241		3
 panorama	1208		2
 panoramama	33		3
 pantalonama	952		3
-pantalonicama	61		2
+pantalonicama	61		3
 panteizma	22		2
-panterima	87		2
-pantljikama			2
-pantomima	66		2
-pantomimama			2
+panterima	87		4
+pantljikama			3
+pantomima	66		3
+pantomimama			3
 pančevcima			3
 papama	57		3
-paparacima	71		2
+paparacima	71		3
 papcima	48		3
-papiloma	311		2
-papilotnama			2
+papiloma	311		3
+papilotnama			3
 papirima	1608		3
-papirićima	128		2
+papirićima	128		3
 papirusima	19		5
-papistima	12		2
+papistima	12		4
 papizma			2
 papratima	22		4
 paprikama	129		4
-papričicama	42		2
+papričicama	42		3
 papučama	357		4
-papučicama	32		2
+papučicama	32		3
 parabolama	21		4
 paradama	219		3
 paradigma	1494		2
 paragrafima	102		4
-paralelama	130		2
-paralelizama	16		2
-paralelizma	116		2
-paralelizmima			2
+paralelama	130		3
+paralelizama	16		3
+paralelizma	116		3
+paralelizmima			3
 parama	5607		3
-parametrima	2146		2
-parastosima	28		2
-paravanima	22		2
+parametrima	2146		3
+parastosima	28		3
+paravanima	22		3
 parazitima	346		3
-parcelama	1345		2
+parcelama	1345		3
 parfema	1457		2
 parfemima	150		3
-paricama	57		2
-parijama			2
+paricama	57		3
+parijama			3
 paritetima	55		3
-parketima	57		2
-parkinzima			2
+parketima	57		4
+parkinzima			3
 parkiralištima	267		5
 parkovima	1991		4
 parma			2
-parnicama	229		2
-parohijama	249		2
-parohijanima	231		2
+parnicama	229		3
+parohijama	249		3
+parohijanima	231		3
 paroksizma	46		2
 parolama	612		3
 paroma			2
@@ -4693,57 +4693,57 @@ partijama	3708		4
 partijcima			3
 partizanima	1104		3
 partnerima	11921		4
-partnerkama	126		2
-parčićima	81		2
-pasažima	113		2
+partnerkama	126		3
+parčićima	81		4
+pasažima	113		4
 pasivnima			4
-pasištima			2
+pasištima			4
 pasminama	15		4
 pasovima	95		4
 pasošima	447		4
 pastama	196		3
 pastirima	198		3
-pastorima			2
+pastorima			4
 pastrma		M	3
 pastrmkama	57		4
 pasusima	90		4
-patarenima			2
+patarenima			3
 patentima	419		4
-patikama			2
+patikama			3
 patinama			4
 patkama	69		3
 patnjama	555		3
 patolozima	14		4
-patriotama	391		2
+patriotama	391		3
 patriotima	88		4
 patriotizma	2336		2
 patrljcima	11		3
 patrolama	123		3
-patronama	21		2
+patronama	21		3
 patuljcima	184		3
 paucima	58		4
 paukovima	19		5
-paunama			2
+paunama			3
 paunicama			4
 paunovima	14		5
 pauzama	1341		4
 paviljonima	110		3
 pazarima	19		3
 pazusima			4
-paćenicama			2
-pašalucima			2
+paćenicama			3
+pašalucima			3
 pašama	115		3
 pašnjacima	585		3
 pažljivima			4
-pecarošima			2
+pecarošima			3
 pecivima	74		4
 pedagozima	245		4
-pedalama			2
-pedesetima	16		2
+pedalama			3
+pedesetima	16		3
 pedljima			3
 pedofilima	157		3
 pegama	188		3
-pegicama			2
+pegicama			3
 peglama			3
 peglanima			4
 peharima	126		4
@@ -4751,112 +4751,112 @@ pejzažima	360		3
 pekama			3
 pekarama	342		4
 pekarima	146		4
-pekačima			2
+pekačima			3
 pelenama	327		4
-penalima	194		2
+penalima	194		4
 pendrecima	158		4
-penijima			2
+penijima			3
 penisima	35		4
 penjačicama			4
-pentagrama	30		2
+pentagrama	30		3
 penzijama	964		4
-penzionerima			2
+penzionerima			3
 pepeljarama	39		4
 perajama	48		3
-perajima			2
-peračima	22		2
-perecama			2
+perajima			3
+peračima	22		3
+perecama			3
 perecima			3
-performansama	3271		2
-periferijama	157		2
+performansama	3271		3
+periferijama	157		3
 perikama	40		4
 perima	99		3
 perinama			4
 periodima	3034		4
 perjanicama	67		5
 perlama	117		3
-perlicama	104		2
-peronima	61		2
-perorezima			2
-persijancima			2
+perlicama	104		3
+peronima	61		3
+perorezima			3
+persijancima			3
 pertlama	68		2
-peruškama	11		2
+peruškama	11		3
 perverzijama	70		4
-perverznjacima	14		2
-perčinima			2
+perverznjacima	14		3
+perčinima			3
 pesama	16733		3
-pesimizma	389		2
+pesimizma	389		3
 pesma	16177		2
 pesmama	5583		3
 pesnicama	568		4
 pesnicima	663		4
-pesništvima			2
+pesništvima			3
 pesticidima	547		3
 petama	627		3
 petardama	109		3
 peteljkama	64		4
 peticama	140		4
-peticijama	105		2
+peticijama	105		3
 petljama	98		3
 petlovima	44		4
-petroleuma	79		2
+petroleuma	79		3
 pevačicama	137		4
 pevačima	431		3
 pevcima	23		3
 pećima	353		3
 pećinama	871		4
 pećincima			3
-pećnicama	32		2
+pećnicama	32		3
 pečatima	275		4
 pečurkama	360		3
 pešacima	486		3
-pešačenjima			2
+pešačenjima			3
 peškirima	185		3
-pešterama			2
+pešterama			3
 picama	55		3
-picerijama	40		2
+picerijama	40		3
 pidžama	142		2
 pidžamama	70		3
-pijacama			2
+pijacama			3
 pijancima	30		3
 pijanicama	20		5
-pijanizma			2
+pijanizma			3
 pijankama	36		3
 pijavicama	98		5
-pijetizma			2
+pijetizma			3
 pijucima	17		3
 pilama	24		3
-pilanama	25		2
-pilicama			2
-pilićima	132		2
-piljarima			2
+pilanama	25		3
+pilicama			3
+pilićima	132		4
+piljarima			4
 piljcima			3
-pilotima	471		2
-pilulama	184		2
-pilulicama			2
+pilotima	471		4
+pilulama	184		3
+pilulicama			3
 pingvinima	61		3
-pionirima	273		2
+pionirima	273		3
 pipcima	90		3
 piramidama	218		3
-piranama			2
+piranama			3
 piratima	222		3
-pirinejima			2
+pirinejima			3
 pirogama			4
-piromanima	26		2
-pirovima			2
+piromanima	26		3
+pirovima			4
 pisaljkama			3
 pisama	1569		3
 pisamcima			3
-pisanijama	71		2
-pisanjima	158		2
+pisanijama	71		3
+pisanjima	158		3
 pisarima	19		3
 piscima	2038		3
 pisma	16961		2
 pismenima	122		4
 pismima	1497		3
 pistama	362		3
-pistaćima			2
-pitalicama	18		2
+pistaćima			4
+pitalicama	18		3
 pitama	68		3
 pitanjima	22332		3
 pitoma	270		3
@@ -4864,21 +4864,21 @@ pitomcima	92		3
 pivnicama	189		4
 pizma		M	2
 pićima	666		3
-piđama			2
-piškotama	23		2
-pištaljkama	65		2
+piđama			3
+piškotama	23		3
+pištaljkama	65		3
 pištoljima	379		3
-pižama		M	2
-pižamama			2
-placentama			2
-plafonima			2
-plakarima			2
-plakatama			2
-plakatima	815		2
-plamenovima			2
+pižama		M	3
+pižamama			3
+placentama			3
+plafonima			3
+plakarima			4
+plakatama			3
+plakatima	815		4
+plamenovima			3
 planerima	106		3
-planetama	654		2
-planetarijuma	96		2
+planetama	654		3
+planetarijuma	96		3
 planetima	39		3
 planinama	3197		3
 planktonima	16		3
@@ -4891,20 +4891,20 @@ platama	3545		3
 platforma	7031		2
 platformama	1515		3
 platišama	204		4
-platonizma	38		2
+platonizma	38		3
 plavima	116		3
 plavušama	186		4
 plazma	1771		2
 plaćama	54		3
-plaćanjima	280		2
+plaćanjima	280		3
 plaćenicima	238		5
-plačućima			2
+plačućima			4
 plaštevima			4
 plažama	2201		3
 plemenima	791		3
-plemićima			2
-plenuma	310		2
-plenumima	21		2
+plemićima			4
+plenuma	310		3
+plenumima	21		3
 pleonazama			3
 plesačicama	45		4
 plesačima	127		3
@@ -4912,164 +4912,164 @@ plesovima	239		4
 pletenicama	104		4
 plećima	681		3
 plećkama	17		3
-plikovima	44		2
+plikovima	44		4
 plima	465		2
 plimama	36		3
 plinovima	19		4
 plićacima	72		3
 pljačkama	259		3
 pljačkašima	134		3
-pljosnima			2
-pljugama			2
+pljosnima			3
+pljugama			3
 pljuskovima	267		4
 plodovima	1535		4
 plombama	36		3
 plotovima	10		4
 plotunima	35		3
 plovilima	207		4
-plovkama			2
+plovkama			3
 pločama	2081		3
 pločicama	755		4
 pločnicima	91		4
 pluralizma	729		2
-plutonijuma			2
+plutonijuma			3
 plućima	2288		3
-plužinama			2
-pneuma			2
+plužinama			3
+pneuma			3
 pobedama	1771		4
 pobednicima	1165		5
 pobijenima			5
 poboljšanjima	413		3
 pobožnima			4
 pobratima	363		4
-pobrđima			2
+pobrđima			3
 pobudama	130		4
 pobunama	135		4
 pobunjenicima	965		3
 podacima	33367		3
 podanicima	414		5
-podanima			2
-poddirektorijuma			2
+podanima			3
+poddirektorijuma			3
 podelama	691		4
-podešavanjima	1525		2
-podfazama			2
+podešavanjima	1525		3
+podfazama			3
 podgrupama	55		4
-podijuma	350		2
-podijumima	84		2
-podizačima	56		2
+podijuma	350		3
+podijumima	84		3
+podizačima	56		3
 podlacima			4
-podlakticama	54		2
-podlogama	661		2
-podlostima	14		2
-podmetačima	41		2
+podlakticama	54		3
+podlogama	661		3
+podlostima	14		4
+podmetačima	41		3
 podmornicama	158		4
 podnebljima	104		3
 podnevima			4
 podovima	337		4
-podočnjacima	128		2
+podočnjacima	128		3
 podređenima	72		4
 podruma	2146		3
 podrumima	787		4
 područjima	6611		3
 podrškama	63		4
 podsistema	460		2
-podsistemima	76		2
+podsistemima	76		3
 podsuknjama			4
-podtačkama			2
-podtema	31		2
-podtemama	13		2
+podtačkama			3
+podtema	31		3
+podtemama	13		3
 poduhvatima	734		5
-podupitima			2
+podupitima			3
 poduzima	104		3
 podvalama	154		4
-podvezicama	14		2
+podvezicama	14		3
 podvizima	1079		4
-podvožnjacima	10		2
-podvrstama	33		2
+podvožnjacima	10		3
+podvrstama	33		3
 podzemljima			3
-poema	590		2
-poemama	51		2
+poema	590		3
+poemama	51		3
 poenima	1288		3
-poetama	14		2
+poetama	14		3
 poetikama	70		4
-pofalićima			2
-poganima	23		2
-pogibijama	31		2
-poginulima	304		2
+pofalićima			3
+poganima	23		3
+pogibijama	31		3
+poginulima	304		3
 poglavarima	137		3
 poglavicama	43		5
 poglavljima	743		3
 pogledima	1833		4
-pogodbama	54		2
+pogodbama	54		3
 pogodnostima	686		3
 pogonima	1786		4
 pogovorima	14		5
-pogrdama	61		2
+pogrdama	61		3
 pogrebima	15		4
 pogreškama	45		4
 pogrešnima	16		4
 pogroma	682		2
-pogromima	86		2
-pogubljenjima	55		2
+pogromima	86		3
+pogubljenjima	55		3
 pohodima	505		4
 pohotama	29		4
 pohvalama	755		4
-pohvalnima			2
+pohvalnima			3
 poima	222		3
-poimanjima	37		2
-pojama			2
-pojanjima			2
+poimanjima	37		3
+pojama			3
+pojanjima			3
 pojasevima	279		5
 pojasima	38		4
-pojatama	41		2
+pojatama	41		3
 pojavama	1952		4
 pojačalima	68		4
-pojačanjima	381		2
+pojačanjima	381		3
 pojcima			3
 pojedincima	5136		3
 pojedinima	116		3
-pojedinostima	1914		2
-pojednostavljivanjima			2
+pojedinostima	1914		3
+pojednostavljivanjima			3
 pojma	18450		2
 pojmovima	1530		4
-pokajanjima			2
+pokajanjima			3
 pokazateljima	1343		5
-pokladama	23		2
+pokladama	23		3
 poklicima	47		3
-pokličima	52		2
+pokličima	52		3
 poklonima	1571		4
 poklopcima	169		4
-pokolenjima	307		2
-pokoljenjima			2
+pokolenjima	307		3
+pokoljenjima			3
 pokoljima	111		4
 pokornima			4
 pokrajinama	730		5
 pokretima	3309		4
 pokrivačima	79		3
 pokrovima			4
-pokroviteljima	136		2
+pokroviteljima	136		3
 pokusima	13		4
 pokušajima	2456		5
 pokvarenjacima	17		3
-polaganjima	20		2
+polaganjima	20		3
 polama			3
 polascima	167		4
-polemikama	225		2
+polemikama	225		3
 poletima			4
-poleđinama	10		2
+poleđinama	10		3
 policajcima	1314		3
 policama	1582		4
-policentrizma			2
+policentrizma			3
 policijama	145		4
-poliglotima			2
+poliglotima			3
 poligonima	201		3
-polimerima	56		2
-polinomima			2
-polisama	112		2
+polimerima	56		3
+polinomima			3
+polisama	112		3
 politeizma	26		2
 politikama	1030		4
 političarima	5920		5
-polićima			2
+polićima			4
 poljacima			3
 poljanama	112		4
 poljima	5292		3
@@ -5084,32 +5084,32 @@ polugama	247		4
 polutama	16		4
 polutkama	53		4
 pomacima	142		4
-pomagalima	290		2
+pomagalima	290		3
 pomagačima	145		3
-pomama	424		2
-pomenima	45		2
-pomenutima			2
-pomeranjima	87		2
+pomama	424		3
+pomenima	45		3
+pomenutima			3
+pomeranjima	87		3
 pomijama	35		4
-pominjanjima			2
-pomirenjima	27		2
+pominjanjima			3
+pomirenjima	27		3
 pomislima	206		4
 pomorandžama	81		3
 pomorcima	78		4
-pomorskima			2
+pomorskima			3
 pomoćima	32		4
 pomoćnicima	330		3
-pompejima			2
-pomračenjima			2
+pompejima			3
+pomračenjima			3
 pomrčinama			5
-ponajvećma			2
-ponavljanjima	78		2
+ponajvećma			3
+ponavljanjima	78		3
 ponašanjima	172		3
 ponekima	31		4
 ponijima	18		4
-ponikvama	53		2
-poniranjima			2
-poniznima			2
+ponikvama	53		3
+poniranjima			3
+poniznima			3
 poniženima	35		4
 poniženjima	158		3
 ponjavama	10		4
@@ -5117,17 +5117,17 @@ ponorima	62		4
 ponositima			5
 ponosnima	30		4
 ponoćima			4
-pontonima	43		2
+pontonima	43		3
 ponudama	1518		4
-ponuđačima	389		2
-poočima	45		2
-popevkama			2
+ponuđačima	389		3
+poočima	45		3
+popevkama			3
 popisima	328		4
 poplavama	985		4
 popodnevima	20		4
 popovima	276		4
 popravcima			4
-popravkama	231		2
+popravkama	231		3
 poprima	1396		2
 poprištima	24		4
 poprsjima	18		3
@@ -5136,41 +5136,41 @@ popustima	816		4
 porama	227		3
 porazima	435		4
 poraženima	35		4
-porcijama	152		2
+porcijama	152		3
 porecima	48		4
 poremećajima	1444		6
 porezima	1472		4
-poređenjima	210		2
-porivima	143		2
-pornićima	95		2
-porobljivačima	14		2
+poređenjima	210		3
+porivima	143		3
+pornićima	95		4
+porobljivačima	14		3
 porocima	350		4
 porodicama	8204		5
-porodiljama	577		2
+porodiljama	577		3
 porodima			4
 porotnicima	65		5
-poročnima			2
-porođajima	55		2
+poročnima			3
+porođajima	55		3
 portalima	1023		3
 portama	39		3
-portirima	27		2
-portorikancima			2
-portovima	272		2
-portretima	389		2
+portirima	27		4
+portorikancima			3
+portovima	272		4
+portretima	389		4
 porudžbinama	95		5
 porugama	22		4
 porukama	3353		4
 posadama	232		4
 posebnima	46		4
 posedima	459		4
-posednicima	37		2
-posejanima			2
+posednicima	37		3
+posejanima			3
 posekotinama	43		4
-poselima	46		2
-posestrima	51		2
+poselima	46		4
+posestrima	51		4
 posetama	930		4
 posetiocima	6976		5
-posezanjima			2
+posezanjima			3
 poslanicama	175		5
 poslanicima	6657		5
 poslasticama	257		5
@@ -5178,182 +5178,182 @@ posledicama	7306		5
 poslednjima	269		4
 posljedicama		J	5
 poslodavcima	2808		3
-poslovicama	116		2
+poslovicama	116		3
 poslovima	14522		4
-poslovnicama	282		2
-poslovnicima	32		2
+poslovnicama	282		3
+poslovnicima	32		3
 poslušnima	12		4
 poslužavnicima	21		4
-posmatračima	429		2
-posnima			2
+posmatračima	429		3
+posnima			3
 posprema	38		2
 postajama	30		4
-postalima			2
-postavima			2
+postalima			4
+postavima			3
 postavkama	819		3
 posteljama	82		4
-posterima	259		2
+posterima	259		4
 postevima			4
-postignućima	333		2
+postignućima	333		3
 postoljima	87		3
 postovima			4
-postrojenjima	1010		2
+postrojenjima	1010		3
 postupcima	6011		4
 posudama	545		4
-posudicama	21		2
+posudicama	21		3
 posvema	14		2
 posvetama	44		4
-potankostima			2
+potankostima			3
 potencijalima	2055		3
 poterama	29		4
 poternicama	127		4
 potezima	2730		4
 poteškoćama	842		3
 pothvatima	27		4
-potisnicima			2
-potkategorijama			2
-potkopima			2
-potlačenima	25		2
-potlačnima			2
+potisnicima			3
+potkategorijama			3
+potkopima			3
+potlačenima	25		3
+potlačnima			3
 potocima	523		4
 potomcima	1167		4
-potonjima	32		2
+potonjima	32		3
 potopima			4
-potočarama			2
-potočarima			2
+potočarama			3
+potočarima			3
 potočićima	20		5
 potpeticama	438		5
 potpisima	1040		4
 potragama	41		4
 potrebama	21995		4
-potrebitima	67		2
-potrepštinama	146		2
+potrebitima	67		3
+potrepštinama	146		3
 potresima	207		4
 potrošačima	4914		3
-potucanjima			2
-poturicama	54		2
+potucanjima			3
+poturicama	54		3
 potvrdama	185		4
-potčinjenima	84		2
+potčinjenima	84		3
 poukama	373		4
 poveljama	236		4
-poveriocima	1229		2
-povesma	13		2
+poveriocima	1229		3
+povesma	13		3
 povestima	24		4
-povezačama			2
-povezima	36		2
+povezačama			3
+povezima	36		3
 povicima	276		3
-povišicama	27		2
-povlakama			2
+povišicama	27		3
+povlakama			3
 povlasticama	273		5
 povodima	289		4
-povojima	62		2
+povojima	62		3
 povorkama	77		3
 povratnicima	524		5
 povredama	3114		4
 povređenima	204		4
-površima			2
+površima			3
 površinama	4433		5
 pozadinama	104		5
-pozaima			2
-pozajima			2
-pozajmicama	397		2
+pozaima			3
+pozajima			3
+pozajmicama	397		3
 pozama	400		3
 pozdravima	160		4
 pozicijama	4888		4
-pozitivizma	114		2
-pozivarima			2
+pozitivizma	114		3
+pozivarima			3
 pozivima	1289		4
 pozivnicama	94		4
 poznanicima	673		5
-poznanjima			2
+poznanjima			3
 poznanstvima	144		3
 poznatima	292		4
 pozorištima	1052		5
 pozornicama	191		4
 pozornicima	14		4
-pozvanima	51		2
+pozvanima	51		3
 počastima	346		4
 počecima	977		3
 početnicima	1092		5
-počiniocima	510		2
-pošalicama	44		2
+počiniocima	510		3
+pošalicama	44		3
 pošastima	49		4
-pošiljkama	181		2
+pošiljkama	181		3
 poštama	306		3
 poštenima	48		4
 požarima	485		4
 požudama	39		4
-pradedama			2
+pradedama			3
 pragma	107		2
 pragovima	178		4
-praizvorima			2
+praizvorima			3
 praksama	712		3
-praktikantima			2
+praktikantima			3
 praljama			3
 pramcima			3
 pramenima			4
 pramenovima	202		5
 praocima			3
 praporcima	26		3
-prapočecima	10		2
+prapočecima	10		3
 prascima			3
-prasićima			2
-pratiljama	22		2
+prasićima			4
+pratiljama	22		3
 pratiocima	363		5
 pratnjama	14		3
 praunucima	38		5
-pravama			2
+pravama			3
 pravcima	3214		3
 pravdama			3
-pravednima	59		2
+pravednima	59		3
 pravilima	11966		4
 pravima	14236		3
 pravnicima	464		4
 pravnima			3
 praznicima	1467		4
 prazninama	67		3
-praznovericama	27		2
+praznovericama	27		3
 praćkama	32		3
 praškovima	24		4
 prašuma	308		3
 prašumama	107		4
-pražnjenjima	35		2
-prebivalištima			2
+pražnjenjima	35		3
+prebivalištima			3
 precima	1120		3
 predacima			3
 predajama	19		4
-predanjima	425		2
+predanjima	425		3
 predasima	35		4
 predatorima	80		4
 predavanjima	2864		3
-predelima	2652		2
+predelima	2652		4
 predgrađima	417		3
-predizborima	14		2
+predizborima	14		3
 predlozima	3802		4
 predmetima	6035		4
 prednostima	2194		4
 predrasudama	1386		4
 predsednicima	1578		5
-predsprema		M	2
+predsprema		M	3
 predstavama	2436		4
 predstavnicima	19508		4
-predstražama			2
+predstražama			3
 predujma	73		2
-preduzetnicima	2314		2
-preduzećima	20004		2
-preduzima	3705		2
-preduzimačima	48		2
+preduzetnicima	2314		3
+preduzećima	20004		3
+preduzima	3705		3
+preduzimačima	48		3
 predviđanima			4
-predviđanjima	796		2
+predviđanjima	796		3
 prefektima			4
 prefiksima	27		4
-pregaocima			2
+pregaocima			3
 pregačama	13		4
 pregibima	76		4
 pregledima	1238		4
-pregnućima	53		2
+pregnućima	53		4
 pregolema	83		2
-pregorima			2
+pregorima			4
 pregovorima	9276		5
 pregracima			3
 pregradama	192		4
@@ -5363,45 +5363,45 @@ prekidačima	120		3
 prekidima	907		4
 prekorima	31		4
 prekretnicama	45		5
-prekrivačima	56		2
-prekršajima	881		2
+prekrivačima	56		3
+prekršajima	881		3
 prelama	448		2
 prelascima	41		4
-prelastima			2
-prelatima			2
+prelastima			4
+prelatima			4
 prelazima	3057		4
-preletima	22		2
-prelima	46		2
-prelivanjima			2
-prelivima			2
-preljama			2
+preletima	22		4
+prelima	46		3
+prelivanjima			3
+prelivima			3
+preljama			3
 preloma	1931		3
 prelomima	159		4
 prema	473601		2
-premijama	140		2
-preminulima	34		2
-premisama	193		2
-premudrima			2
+premijama	140		3
+preminulima	34		3
+premisama	193		3
+premudrima			4
 prenosima	336		4
 preokretima	104		5
 preotima	34		3
 prepadima	18		4
 prepirkama	76		3
 prepisima	75		4
-prepiskama	50		2
-prepletima			2
+prepiskama	50		3
+prepletima			4
 preponama	532		4
 preporukama	2798		5
 preprekama	1102		4
-preradama	51		2
+preradama	51		3
 prerijama	18		4
 presecima	107		4
-prestolima	43		2
-prestupima			2
+prestolima	43		4
+prestupima			3
 prestupnicima	99		5
 presudama	1172		4
 presudnima			4
-presvlakama	66		2
+presvlakama	66		3
 pretcima	43		3
 pretečama	44		4
 prethodnicima	323		5
@@ -5411,40 +5411,40 @@ pretplatnicima	299		5
 pretpostavkama	1014		5
 pretpostavljenima	81		5
 pretragama	225		4
-pretresima	100		2
-preuzećima	20		2
+pretresima	100		3
+preuzećima	20		3
 preuzima	7218		3
 prevagama			4
 prevarama	970		4
-prevarantima			2
-prevedenicama			2
-previjalištima	12		2
-previranjima	267		2
+prevarantima			3
+prevedenicama			3
+previjalištima	12		3
+previranjima	267		3
 prevodima	641		4
 prevojima	132		4
 prevozima			4
 prevratima	65		4
-prezentacijama	1021		2
-prezima			2
+prezentacijama	1021		3
+prezima			3
 prezimenima	391		5
 prezlama			2
 prečacima			4
-prečagama			2
-prečanima	26		2
+prečagama			3
+prečanima	26		3
 prečicama	212		4
 prečnicima			3
-preživelima	160		2
+preživelima	160		3
 pridevima	76		4
-pridikama			2
+pridikama			3
 pridošlicama	94		5
-pridošlima			2
+pridošlima			4
 pridrema	11		2
-priglupima			2
+priglupima			3
 prigodama	60		4
 prigovorima	355		5
 prigušivačima	23		3
 prihodima	3236		4
-prijama	14		2
+prijama	14		3
 prijateljicama	699		4
 prijateljima	17485		5
 prijavama	1208		4
@@ -5452,14 +5452,14 @@ prijemima	232		4
 prijevozima			5
 prikazama	16		4
 prikazima	549		4
-prikolicama	192		2
+prikolicama	192		3
 prilazima	517		4
 prilikama	6627		4
 prilozima	1769		4
 prima	12808		2
-primanjima	2343		2
-primaocima			2
-primatima	58		2
+primanjima	2343		3
+primaocima			3
+primatima	58		4
 primedbama	861		4
 primenama	447		4
 primercima	392		4
@@ -5468,52 +5468,52 @@ primesama	564		4
 primorcima	18		3
 princezama	171		3
 principima	8962		3
-prinosima	518		2
-prinovama	23		2
+prinosima	518		3
+prinovama	23		3
 prinudama	17		4
 prinčevima	94		4
-priobaljima			2
+priobaljima			3
 prioritetima	1915		3
 pripadnicima	5148		5
-pripekama			2
+pripekama			3
 pripovedačima	33		3
 pripovetkama	347		5
 pripravnicima	123		4
 priprema	33273		3
 pripremama	5223		4
-prirastima			2
+prirastima			4
 priredbama	695		4
-prirezima			2
+prirezima			3
 prirodama	67		4
 priručnicima	211		5
 prisilama			4
 pristalicama	1017		5
-pristalima			2
+pristalima			4
 pristašama	19		4
 pristupima	644		4
 prisutnima	5322		4
 pritiscima	3705		4
-pritokama	224		2
+pritokama	224		3
 pritužbama	321		4
-pritvorenicima	131		2
+pritvorenicima	131		3
 privescima	79		4
 prividima	50		4
 privilegijama	600		4
 priviđenjima	52		3
 privredama	538		4
-prizivima			2
+prizivima			3
 prizma	311		2
 priznacima			3
-priznanicama	34		2
+priznanicama	34		3
 priznanjima	752		3
 prizorima	489		4
 prizracima			3
 pričama	5704		3
-pričanjima	32		2
+pričanjima	32		3
 pričestima			4
 pričicama	65		4
 prištevima			4
-prnjama	20		2
+prnjama	20		3
 probama	537		3
 problema	125243		2
 problemima	25537		3
@@ -5529,9 +5529,9 @@ prodavcima	1002		3
 prodavnicama	5696		4
 prodorima	213		4
 prodrma	165		2
-producentima	376		2
-produktima	244		2
-produžecima	177		2
+producentima	376		3
+produktima	244		4
+produžecima	177		3
 profesijama	682		4
 profesionalcima	1794		3
 profesionalizma	687		2
@@ -5539,51 +5539,51 @@ profesorima	3523		5
 profilima	1219		3
 profitima	123		3
 proglasima	39		4
-prognanima	44		2
+prognanima	44		3
 prognozama	1850		3
 progonima	325		4
 programa	114888		3
-programerima	904		2
+programerima	904		3
 programima	12392		4
 progresima			4
 progroma			2
-prohtevima	219		2
+prohtevima	219		3
 proizvodima	11294		4
 proizvođačima	7375		3
-projavama			2
+projavama			3
 projekcijama	949		4
 projektilima	254		3
-projektima	17374		2
-proklamacijama	39		2
+projektima	17374		4
+proklamacijama	39		3
 prokletima			4
-prokletnicima	14		2
+prokletnicima	14		3
 prolama	72		2
 prolazima	245		4
 prolaznicima	812		5
 proleterima	53		3
-prolivima	43		2
+prolivima	43		3
 promašajima	221		5
 promenama	12120		4
-promilima	191		2
+promilima	191		4
 pronalascima	216		4
-pronalazačima			2
-pronicljivijima			2
-propalicama	24		2
+pronalazačima			3
+pronicljivijima			3
+propalicama	24		3
 propastima	12		4
-propelerima	21		2
+propelerima	21		3
 propisima	12467		4
 proplancima	174		4
 proporcijama	402		4
 propovedima	140		5
-propusnicama	39		2
-propustima	539		2
+propusnicama	39		3
+propustima	539		4
 proračunima	828		5
-proredima	10		2
-prorezima	73		2
+proredima	10		3
+prorezima	73		3
 prorocima	307		4
-proročanstvima	108		2
+proročanstvima	108		3
 proscima	21		3
-prosforama			2
+prosforama			3
 prosjacima	124		4
 proslavama	438		4
 prostacima	36		3
@@ -5593,62 +5593,62 @@ prostorijama	15556		4
 prostorima	19856		4
 prostranstvima	451		3
 prosudbama			4
-proteinima	1058		2
+proteinima	1058		3
 protestantima	156		4
-protestantizma	191		2
+protestantizma	191		3
 protestima	2610		4
 protezama	136		3
-proticanjima			2
-protivljenjima	30		2
+proticanjima			3
+protivljenjima	30		3
 protivnicima	2263		4
-protivrečnostima	139		2
+protivrečnostima	139		3
 protocima	39		3
 protokolima	487		5
 protonima	39		3
-protoplazma	15		2
+protoplazma	15		3
 provalama	77		4
 provalijama	34		4
 provalnicima	29		4
 proverama	342		4
-provincijama	474		2
-provodima	64		2
+provincijama	474		3
+provodima	64		3
 provokacijama	314		4
-prozaistima			2
+prozaistima			3
 prozama	42		3
-prozivima			2
+prozivima			3
 prozorima	1995		4
-prozorčićima	19		2
+prozorčićima	19		3
 prošlima			3
 prožima	1037		3
 prsima	530		3
-prskalicama	69		2
+prskalicama	69		3
 prslucima	79		3
 prstenima	10		4
 prstenovima	206		5
 prstima	4911		3
-prstićima	139		2
+prstićima	139		4
 prtljazima			3
-prudovima			2
+prudovima			4
 prugama	1201		3
-prutićima	10		2
+prutićima	10		4
 prutovima			4
-pružaocima	198		2
+pružaocima	198		3
 prvacima	692		3
 prvencima	16		4
 prvima	3437		2
-prčvarnicama			2
-pršljenovima			2
+prčvarnicama			3
+pršljenovima			3
 psalama	127		3
-psalamima			2
+psalamima			3
 psalma	146		2
 psalmima	106		3
 pseudonima	266		3
 psihijatrijama			4
 psihijatrima	121		3
-psihodrama			2
+psihodrama			3
 psihologijama			4
 psiholozima	388		4
-psihopatama			2
+psihopatama			3
 psihozama	27		3
 psima	2282		2
 psićima			3
@@ -5666,10 +5666,10 @@ pudlicama	17		4
 pukotinama	219		5
 pukovima	98		4
 puma	422		2
-pumpama			2
+pumpama			3
 punicama			4
 punima			3
-punktovima			2
+punktovima			4
 punomoćima			5
 punđama	11		3
 pupoljcima	112		4
@@ -5681,8 +5681,8 @@ pustinjama	343		4
 pustolovinama	157		4
 pustošima			4
 putanjama	291		4
-putarima			2
-putarinama	47		2
+putarima			4
+putarinama	47		3
 puteljcima	46		3
 putevima	10556		4
 putima			3
@@ -5696,91 +5696,91 @@ puškama	772		3
 puževima	111		4
 pčelama	1130		3
 pčelarima	490		3
-rabadžijama			2
+rabadžijama			3
 rabinima	19		3
 rabotama	114		4
-rabotnicima			2
-rabošima			2
+rabotnicima			3
+rabošima			3
 racijama	54		4
 radarima	149		4
 radijatorima			4
 radijima	30		4
-radijuma			2
+radijuma			3
 radikalima	2351		3
-radima			2
+radima			3
 radionicama	3640		4
 radnicama	155		4
 radnicima	13072		4
 radnjama	5320		3
 radosnima	16		4
 radostima	326		4
-radovanjima			2
+radovanjima			3
 radovima	8177		4
-radovićima			2
-rafalima	91		2
+radovićima			3
+rafalima	91		4
 rafinerijama	240		4
-rafovima			2
-rahima			2
-rakama	20		2
+rafovima			4
+rahima			3
+rakama	20		3
 raketama	967		3
 rakovima	138		4
 rakunima			3
-ralicama			2
-raljama	205		2
+ralicama			3
+raljama	205		3
 rama		M	2
 ramenima	2710		3
-ramovima			2
-rampama	391		2
+ramovima			4
+rampama	391		3
 ranama	687		3
 ranijima	11		4
 ranima			3
-ranjavanjima			2
+ranjavanjima			3
 ranjenicima	302		5
 ranjenima	57		4
 ranjivima	17		4
-rančerima			2
-rančevima	105		2
+rančerima			4
+rančevima	105		3
 raportima	15		4
 raritetima	21		3
 rasama	344		3
 raseljenima	87		4
 rashodima	765		4
-rasima			2
+rasima			3
 rasistima	55		4
 rasizma	1231		2
 raskidima	52		4
 raskolima	56		4
 raskrsnicama	518		5
 raskršćima	89		3
-raspetima			2
-raspećima			2
-raspisima	15		2
+raspetima			4
+raspećima			4
+raspisima	15		3
 rasponima	109		4
 rasporedima	65		5
 rasprama	20		3
 raspravama	1687		4
-rasprema	26		2
+rasprema	26		3
 rasprodajama	168		5
 raspustima	21		4
-raspućima			2
+raspućima			4
 rastancima	24		4
-rastojanjima	252		2
+rastojanjima	252		3
 rastvorima	182		4
-rasvetljenjima			2
+rasvetljenjima			3
 ratama	815		3
 ratarima	505		4
-ratištima	325		2
+ratištima	325		4
 ratnicima	541		4
-ratovanjima	30		2
+ratovanjima	30		3
 ratovima	5258		4
 ravnicama	210		3
 ravnima	160		3
-razaranjima	156		2
+razaranjima	156		3
 razaračima	16		3
 razbojima	71		3
-razbojištima			2
+razbojištima			3
 razbojnicima	200		4
-razdaljinama			2
+razdaljinama			3
 razdobljima	379		3
 razdorima	27		4
 razdrma	68		2
@@ -5792,52 +5792,52 @@ razlikama	2362		4
 razlomcima	27		4
 razlozima	4057		4
 razmacima	720		4
-razmatranjima	258		2
+razmatranjima	258		3
 razmenama	215		4
-razmerama	1994		2
+razmerama	1994		3
 razmerima	55		4
-razmeđima			2
+razmeđima			3
 razmiricama	125		5
-razmišljanjima	1023		2
+razmišljanjima	1023		3
 razonodama	14		5
 razočarenjima	71		3
 razredima	1183		4
 razuma	4974		3
 razumnima	17		4
-razvalima			2
+razvalima			4
 razvalinama	241		5
 razvodima	82		4
-razvođima			2
+razvođima			3
 razvratima			3
 račićima	51		4
-računanjima	18		2
+računanjima	18		3
 računarima	5115		3
-računicama	281		2
+računicama	281		3
 računima	3355		3
 računovođama	67		4
 rađanima			4
-rašljama	60		2
+rašljama	60		3
 ražima			3
-ražnjićima	16		2
+ražnjićima	16		4
 reakcijama	1939		4
-reaktorima	199		2
+reaktorima	199		3
 realistima	50		4
-realizma	1149		2
+realizma	1149		3
 rebarcima	27		3
 rebrima	251		3
 receptima	1006		4
-recidivima	53		2
+recidivima	53		3
 recima	968		3
-recipijentima			2
-recitalima	41		2
+recipijentima			3
+recitalima	41		3
 redakcijama	523		4
-redarima	52		2
-redenicima	28		2
-rediteljima	477		2
+redarima	52		4
+redenicima	28		3
+rediteljima	477		3
 redovima	8012		4
 redovnicima	22		3
-referatima	108		2
-referencama	486		2
+referatima	108		3
+referencama	486		3
 referenduma	4194		3
 refleksima	64		4
 reflektorima	487		5
@@ -5845,77 +5845,77 @@ reforama	92		3
 reforma	6939		2
 reformama	3678		3
 refrenima	26		3
-regalima	32		2
+regalima	32		4
 regijama	953		4
 regionima	3876		3
-registrima	322		2
-regresima	19		2
-regrutima			2
-regulatorima	138		2
-rejonima	169		2
+registrima	322		4
+regresima	19		3
+regrutima			4
+regulatorima	138		3
+rejonima	169		3
 rekama	2076		3
-reketašima			2
+reketašima			3
 reklama	8389		2
 reklamama	1527		3
 rekordima	164		4
-rektorima	42		2
+rektorima	42		4
 rekvijema	35		4
-rekvizitima	321		2
-relacijama	940		2
+rekvizitima	321		3
+relacijama	940		3
 religijama	863		4
-reliktima	30		2
-relikvijama	66		2
+reliktima	30		4
+relikvijama	66		3
 reljefima	94		4
 rema			2
 remenima	11		4
 remijima	18		4
-remontima	68		2
+remontima	68		4
 rendgenima			4
 rendima			3
-reperima	51		2
-repićima	15		2
+reperima	51		4
+repićima	15		4
 replikama	179		4
 reporterima	124		3
 repovima	135		4
-reprizama	84		2
-reprograma	274		2
+reprizama	84		3
+reprograma	274		3
 reptilima	43		3
 republikama	1846		4
 republikancima	204		3
 rernama	35		3
 resama	124		3
-resicama	31		2
-resima			2
+resicama	31		3
+resima			3
 resorima	520		3
-restoracijama			2
+restoracijama			3
 restoranima	3698		3
 resursima	6166		4
-retortama	11		2
-reuma	91		2
-reumatizma	314		2
+retortama	11		3
+reuma	91		3
+reumatizma	314		3
 revanšima	16		4
-revanšizma	296		2
-reverima	62		2
-reversima	15		2
-revijama	400		2
-revirima	55		2
+revanšizma	296		3
+reverima	62		4
+reversima	15		3
+revijama	400		3
+revirima	55		4
 revizijama	117		4
-revizorima	154		2
+revizorima	154		3
 revolucijama	358		4
 revolucionarima	149		3
-revolverašima			2
+revolverašima			3
 revolverima	52		4
-rezama			2
+rezama			3
 rezancima	94		3
 rezbarijama	38		4
 rezervacijama	112		4
 rezervama	1703		3
-rezervatima	174		2
-rezervistima	182		2
+rezervatima	174		3
+rezervistima	182		3
 rezervoarima	369		3
 rezovima	229		4
 rezultatima	19090		3
-rećima			2
+rećima			3
 rečenicama	839		4
 rečicama	77		4
 rečima	82490		3
@@ -5923,12 +5923,12 @@ rečnicima	271		4
 rečnima			3
 rešenjima	8152		3
 rešetkama	268		4
-rešoima			2
+rešoima			3
 režijama	82		4
 režima	17490		3
 režimima	1009		3
 režiserima	123		3
-režnjevima	43		2
+režnjevima	43		3
 ribama	1116		3
 ribarima	209		4
 ribicama	183		4
@@ -5937,74 +5937,74 @@ ribnjacima	188		4
 riječnima			4
 rima	557		2
 rimama	82		3
-rimljanima			2
-rimovanjima			2
-ringlicama			2
-ripidama			2
+rimljanima			3
+rimovanjima			3
+ringlicama			3
+ripidama			3
 risovima			4
-ritama	90		2
+ritama	90		3
 ritma	2150		2
 ritmovima	380		4
 ritovima	58		4
 ritualima	521		3
-ritualizma			2
-rivalima			2
-rivalkama	38		2
-rizama			2
+ritualizma			3
+rivalima			4
+rivalkama	38		3
+rizama			3
 rizicima	2499		4
 riznicama	114		4
-riđanima			2
+riđanima			3
 robama	236		3
-robijama	22		2
-robijašima	35		2
+robijama	22		3
+robijašima	35		3
 robinjama	39		4
 robotima	487		4
-robovanjima			2
+robovanjima			3
 robovima	440		4
 robovlasnicima	28		4
 roditeljima	14891		5
 rodoljubima	139		5
-rodoslovima	29		2
+rodoslovima	29		3
 rodovima	206		4
-rogama			2
-rogatima			2
+rogama			3
+rogatima			4
 rogačima			3
-rogačićima			2
+rogačićima			3
 rogovima	358		4
 rojevima	126		4
-rokerima	64		2
+rokerima	64		4
 rokovima	3191		4
-rolerima	271		2
-roletnama	106		2
-rolnama	118		2
-rolnicama			2
-rolšuama			2
+rolerima	271		4
+roletnama	106		3
+rolnama	118		3
+rolnicama			3
+rolšuama			3
 roma			2
 romanima	1516		3
-romanovima			2
-romansama	60		2
+romanovima			3
+romansama	60		3
 romantizma	944		2
 romantičarima	126		5
 rombovima	16		4
-romima			2
-romobilima			2
-romovima			2
+romima			3
+romobilima			3
+romovima			4
 roniocima	135		5
 ropcima			3
-roptanjima			2
-roterdama			2
-rotkvicama	22		2
+roptanjima			3
+roterdama			3
+rotkvicama	22		3
 rovcima	65		3
 rovovima	293		4
-rozetama	58		2
-roćevićima			2
-ročištima	114		2
+rozetama	58		3
+roćevićima			3
+ročištima	114		4
 rođacima	1248		4
-rođakama			2
+rođakama			3
 rođendanima	104		5
 rođenima	29		4
-roščićima	15		2
-rožajama			2
+roščićima	15		4
+rožajama			3
 rtovima	13		4
 rubinima	46		3
 rubovima	454		4
@@ -6013,7 +6013,7 @@ rudama	175		3
 rudarima	399		3
 rudinama	61		4
 rudnicima	991		4
-ruinama	54		2
+ruinama	54		3
 rukama	27224		3
 rukavcima	107		3
 rukavicama	723		4
@@ -6024,106 +6024,106 @@ rukovodiocima	1058		5
 ruksacima	16		4
 ruljama			3
 ruma	2313		2
-rumovima			2
-rumunima			2
+rumovima			4
+rumunima			3
 runama	31		3
 rundama	147		3
 rupama	976		3
 rupicama	126		4
-rusima			2
-ruskinjama			2
-rustema			2
-rutama	185		2
-ruvima			2
-ručerdama			2
+rusima			3
+ruskinjama			3
+rustema			3
+rutama	185		3
+ruvima			3
+ručerdama			3
 ručicama	234		4
 ručkama	77		3
 ručkovima	101		4
 ručnicima			3
 ruševinama	1450		5
-rušiocima			2
+rušiocima			3
 ružama	389		3
-ruženjima			2
+ruženjima			3
 ružnima	12		3
 rvačima	21		3
 rđama			3
 rđavima			4
-rđavostima			2
+rđavostima			3
 sablastima	15		4
 sablaznima	27		4
 sabljama	162		3
 saborcima	292		3
 saborima	285		4
 sabotažama	23		3
-sadama			2
+sadama			3
 sadizma	123		2
 sadnicama	236		4
 sadržajima	5559		5
 safirima	32		3
 sagama	38		3
-saglasnostima	33		2
+saglasnostima	33		3
 sagovima			4
-sagovornicima	700		2
-sagrešenjima			2
-sahanima			2
+sagovornicima	700		3
+sagrešenjima			3
+sahanima			3
 sahranama	183		4
-saigračima	1244		2
+saigračima	1244		3
 sajlama			2
 sajma	12415		2
 sajmovima	1997		4
-sajtovima	6073		2
+sajtovima	6073		4
 sakoima	51		3
 saksijama	345		4
 saksoncima			3
 salama	815		2
 salatama	417		3
-salašima			2
+salašima			3
 salma			2
 salonima	1298		3
-salvadorcima			2
-salvama			2
+salvadorcima			3
+salvama			3
 salvetama	51		3
 sama	61181		2
 samcima	70		3
 samicama	43		4
 samima	2645		3
 samitima	104		4
-samoreklama			2
-samoubicama	70		2
-samoubistvima	94		2
+samoreklama			3
+samoubicama	70		3
+samoubistvima	94		3
 samoupravama	4307		4
-samovilama			2
+samovilama			3
 samurajima	39		3
-sanatorijuma	103		2
+sanatorijuma	103		3
 sancima			3
 sandalama	222		3
-sandićima			2
+sandićima			4
 sanducima	203		4
-sandučićima	121		2
+sandučićima	121		3
 sandžacima			3
-sanjarenjima	36		2
-sanjarijama	34		2
-sankama	355		2
+sanjarenjima	36		3
+sanjarijama	34		3
+sankama	355		3
 sankcijama	2017		4
-santima			2
+santima			3
 saobraćajima			6
-saobraćajnicama	821		2
-saonama			2
+saobraćajnicama	821		3
+saonama			3
 saonicama	80		4
-sapima			2
-saplemenicima	59		2
+sapima			3
+saplemenicima	59		3
 sapunicama	98		4
 sapunima	104		3
-saputnicima	142		2
-saradnicima	7154		2
+saputnicima	142		3
+saradnicima	7154		3
 saradnjama	58		3
-sarajima			2
+sarajima			3
 sarama	10		3
 sardelama			4
 sardinama	30		3
 sarkazma	222		2
 sarma	345		2
-saslušanjima	77		2
+saslušanjima	77		3
 sasma			2
 sastancima	3372		4
 sastavcima	37		4
@@ -6131,14 +6131,14 @@ sastavima	532		4
 sastojcima	1283		4
 satanizma	85		2
 satelitima	597		3
-sateranima			2
+sateranima			3
 satima	9576		3
-satirama	35		2
-satiranjima			2
-satirima			2
+satirama	35		3
+satiranjima			3
+satirima			4
 satovima	326		4
-saudijcima			2
-saučesnicima	134		2
+saudijcima			3
+saučesnicima	134		3
 savanama	57		3
 savestima	19		4
 savetima	3862		4
@@ -6147,23 +6147,23 @@ savezima	697		4
 saveznicima	1582		5
 saveznima			4
 savršenima	16		4
-sazdanima			2
-sazivačima			2
-sazivima	118		2
-saznanjima	4829		2
-sazvežđima	106		2
-sazviježđima			2
+sazdanima			3
+sazivačima			3
+sazivima	118		3
+saznanjima	4829		3
+sazvežđima	106		3
+sazviježđima			3
 sačma	327		2
 sažima	474		3
 scenama	2333		3
 scenarijima	395		4
-scenaristima	91		2
+scenaristima	91		3
 seansama	110		3
 sebičnima			4
-secesionizma	118		2
-sedamdesetima	14		2
+secesionizma	118		3
+sedamdesetima	14		3
 sedativima	125		3
-sedeljkama	47		2
+sedeljkama	47		3
 sedima			3
 sedimentima	117		4
 sedištima	1679		4
@@ -6175,11 +6175,11 @@ sednicama	2190		4
 sefovima	145		4
 segmentima	4548		4
 sejma			2
-sejmenima			2
-sejšelima			2
+sejmenima			3
+sejšelima			4
 sekcijama	609		4
 sekirama	191		4
-sekretaricama			2
+sekretaricama			3
 sekretima	38		3
 seksizma	92		2
 sektama	267		3
@@ -6187,7 +6187,7 @@ sektašima	50		3
 sektorima	3166		4
 sekundama	787		3
 sekundima	18		4
-sekutićima	22		2
+sekutićima	22		3
 sekvencama	178		3
 selama	40		2
 selendrama	17		3
@@ -6199,41 +6199,41 @@ seljankama	21		3
 seljačinama	12		4
 selma			2
 semaforima	281		5
-semenima	66		2
+semenima	66		3
 semenkama	364		3
 semestrima	53		4
 seminarima	1922		3
 senatorima	97		4
 sendvičima	140		4
 senima	219		3
-seniorima	213		2
-seniorkama	42		2
+seniorima	213		3
+seniorkama	42		3
 senkama	481		3
 sentimentalnostima			3
 senzacijama	125		4
-senzorima	660		2
+senzorima	660		4
 seobama	287		3
 seocima	11		3
-separatistima	434		2
-separeima	56		2
-sepetima			2
-septima			2
-septuma	84		2
-serafima			2
-serdarima	19		2
+separatistima	434		3
+separeima	56		3
+sepetima			4
+septima			3
+septuma	84		3
+serafima			3
+serdarima	19		4
 serijama	2084		4
-serklažima			2
-serpentinama	53		2
-sertifikatima	371		2
+serklažima			4
+serpentinama	53		3
+sertifikatima	371		3
 seruma	339		3
-serverima	1603		2
+serverima	1603		4
 servisima	3000		3
 sesijama	298		4
 sestrama	1646		3
 sestrićima	28		4
-setovima	2576		2
+setovima	2576		4
 severnjacima	16		3
-sezama	89		2
+sezama	89		3
 sezonama	476		3
 sezoncima	11		3
 sećanjima	987		4
@@ -6241,10 +6241,10 @@ sečivima	49		4
 sferama	2255		3
 shema			2
 shematizma	12		2
-shvatanjima	1216		2
-sidama			2
+shvatanjima	1216		3
+sidama			3
 sidrima	22		3
-sifonima	14		2
+sifonima	14		3
 sigma		M	2
 signalima	443		3
 sigurnima	24		4
@@ -6252,21 +6252,21 @@ sijalicama	374		5
 sijačima			3
 silama	4312		3
 siledžijama	118		4
-silicijuma	351		2
-silnicama			2
+silicijuma	351		3
+silnicama			3
 silnicima	46		4
 silnima	25		3
 silogizama	22		3
 silogizma	49		2
-silosima	311		2
+silosima	311		3
 silovanjima	171		5
 silovateljima	78		5
 siluetama	43		3
 sima		M	2
 simbolima	1352		3
-simbolizma	215		2
+simbolizma	215		3
 simpatijama	601		4
-simpozijuma	1203		2
+simpozijuma	1203		3
 simptoma	5561		2
 simptomima	1563		3
 simulacijama	243		4
@@ -6274,8 +6274,8 @@ sinagogama	104		3
 sindikatima	2728		3
 sindroma	2417		2
 sindromima	53		3
-sindžirima			2
-sinema			2
+sindžirima			4
+sinema			3
 sinodima			3
 sinonima	263		2
 sinonimima	45		3
@@ -6284,7 +6284,7 @@ sinovima	1919		4
 sintagma	785		3
 sintagmama	65		4
 sintezama	35		3
-sinusima	198		2
+sinusima	198		3
 sinčićima			4
 sipama	11		3
 sirenama	144		3
@@ -6294,12 +6294,12 @@ siroma			2
 siromasima	419		3
 siromašnima	969		4
 sirotama	36		3
-siroticama			2
+siroticama			3
 sirotima	32		4
 sirotištima	66		5
 sirovinama	750		5
-siročićima	68		2
-sisaljkama	11		2
+siročićima	68		3
+sisaljkama	11		3
 sisarima	189		4
 sisavcima			4
 sistema	121393		2
@@ -6308,7 +6308,7 @@ sitima	62		3
 sitnicama	767		3
 sitnima			3
 situacijama	16150		4
-sižeima			2
+sižeima			3
 skakavcima	65		4
 skakačima	23		3
 skalama	191		2
@@ -6325,25 +6325,25 @@ skijama	730		3
 skijašima	463		3
 skitnicama	21		4
 skladištima	867		4
-skleroderma			2
+skleroderma			3
 skloništima	191		4
 sklonostima	619		4
 sklopovima	138		4
-skobaljima			2
+skobaljima			3
 skojevcima			3
 skokovima	875		4
 skotovima	21		4
 skrama	109		2
 skraćenicama	107		5
-skraćenjima	17		2
-skretanjima	29		2
-skretnicama	32		2
+skraćenjima	17		3
+skretanjima	29		3
+skretnicama	32		3
 skriptama	86		3
-skulptorima			2
+skulptorima			4
 skulpturama	392		3
 skupima			3
 skupinama	218		4
-skupljanjima			2
+skupljanjima			3
 skupljačima	55		3
 skupovima	3108		4
 skupštinama	896		4
@@ -6351,42 +6351,42 @@ skuterima	101		4
 skutima	68		3
 slabijima	108		4
 slabima	126		3
-slabinama	54		2
+slabinama	54		3
 slabićima	24		3
 slabostima	689		4
 sladoledima	62		5
-slagalicama	25		2
-slajdovima	134		2
+slagalicama	25		3
+slajdovima	134		4
 slaloma	308		3
 slama	950		2
 slamkama			3
-slamovima	24		2
+slamovima	24		4
 slancima	52		3
-slanjačama			2
+slanjačama			3
 slapovima	119		4
 slastima	77		3
 slatkišima	872		3
 slavama	303		3
-slavenima			2
+slavenima			3
 slavinama	70		4
 slavistima	43		4
 slavljima	128		3
 slavnima	62		3
 slavolucima			5
-slavskima			2
+slavskima			3
 slavujima			3
 sledbenicima	535		5
 sledećima			3
 slepcima	78		3
 slepima	259		3
 slepoočnicama	104		4
-sletovima	40		2
-sliema			2
+sletovima	40		4
+sliema			3
 slikama	8541		3
 slikarima	460		4
 slinama	16		3
-slivovima	114		2
-sličicama	234		2
+slivovima	114		4
+sličicama	234		3
 sličnima	627		3
 sličnostima	284		4
 sljedbenicima		J	5
@@ -6399,7 +6399,7 @@ sloma	1815		2
 slonovima	119		4
 slovacima			3
 slovencima	791		3
-slovenima			2
+slovenima			3
 slovima	4781		3
 složenijima			5
 slugama	887		3
@@ -6408,106 +6408,106 @@ slučajevima	24099		5
 slučajima	44		4
 slučajnostima	70		3
 slušalicama	607		5
-slušaocima			2
+slušaocima			3
 sluškinjama	39		4
 služavkama	14		3
 službama	6583		3
 službenicima	1951		5
-služenjima			2
+služenjima			3
 smaragdima	34		4
 smelima			3
 smenama	783		3
 smernicama	875		4
-smernima			2
+smernima			3
 smerovima	943		4
 smesama	28		3
 smetnjama	3237		3
-smetovima			2
-smešama			2
+smetovima			4
+smešama			3
 smeštajima	57		4
 smicalicama	154		5
 smirenima	21		4
 smokinzima	10		4
 smokvama	80		3
 smotrama	340		3
-smradovima			2
+smradovima			4
 smrtima	84		3
 smrtnicama			4
 smrtnicima	363		4
 smrtnima	29		3
-smutnjama			2
+smutnjama			3
 snagama	7403		3
 snahama	27		3
-snajama			2
+snajama			3
 snajperima	84		4
 snajperistima	15		4
 snažnima	15		3
-snevanjima			2
+snevanjima			3
 snima	5915		2
-snimanjima	166		2
+snimanjima	166		3
 snimcima			3
 sniženjima	200		3
 snobizma	89		2
 snobovima	25		4
 snopovima	95		4
-snovanjima			2
+snovanjima			3
 snovima	2881		3
 sobama	3389		3
 sobaricama	19		5
 sobetinama			4
 sobicama	26		4
 sobičcima	11		3
-socijalistima	1365		2
+socijalistima	1365		3
 socijalizma	3829		2
 sociologijama			4
 sodoma			2
 sofama	37		3
 sofistima	27		4
 sofizmima	26		3
-soframa			2
+soframa			3
 softverima	321		4
 sokacima			3
-sokićima	25		2
+sokićima	25		4
 sokolima	49		4
-sokolovima			2
+sokolovima			3
 sokovima	588		4
-sokovnicima			2
+sokovnicima			3
 solanama	15		3
-solarijuma	333		2
-soldatima			2
-solilokvijima			2
+solarijuma	333		3
+soldatima			4
+solilokvijima			3
 solima	214		3
-solipsizma	15		2
-solistima	211		2
-soliterima	137		2
-solucijama	29		2
+solipsizma	15		3
+solistima	211		4
+soliterima	137		3
+solucijama	29		3
 soma	973		2
 somovima	20		4
-sonatama	11		2
+sonatama	11		3
 sondama	135		3
 sonetima	40		3
-sopoćanima			2
-sopstvenicima	27		2
+sopoćanima			3
+sopstvenicima	27		3
 sortama	609		3
-sosovima			2
+sosovima			4
 sovama	81		3
-sovjetima	214		2
+sovjetima	214		4
 sočivima	268		4
 spahijama	69		4
 spajalicama	24		5
-spajanjima	30		2
+spajanjima	30		3
 spaljenima			4
 spartancima			3
-spasiocima			2
+spasiocima			3
 spavaonicama	60		4
-spazama	29		2
+spazama	29		3
 spazma	112		2
 specifikacijama	1028		4
-specifičnostima	1076		2
-specijalcima	117		2
-specijalistima	291		2
+specifičnostima	1076		3
+specijalcima	117		3
+specijalistima	291		3
 specijalitetima	1076		3
-specijalizantima	34		2
+specijalizantima	34		3
 spektrima	52		3
 spekulacijama	534		4
 sperma	621		2
@@ -6516,12 +6516,12 @@ spikerima	19		4
 spiralama	47		3
 spiritizma	35		2
 spisima	1732		3
-spiskovima			2
+spiskovima			4
 splavovima	543		4
-splačinama	19		2
+splačinama	19		3
 spletkama	261		3
-spletovima	24		2
-spodobnima			2
+spletovima	24		4
+spodobnima			3
 spojevima	282		4
 spojnicama	104		4
 spoljašnjima			4
@@ -6529,33 +6529,33 @@ spomenicima	1589		5
 spomenima			4
 sponama	50		3
 sponzorima	967		4
-sporama	61		2
+sporama	61		3
 sporazuma	30421		4
 sporazumima	1287		5
-sporenjima	31		2
+sporenjima	31		3
 sporovima	1536		4
-sportistima			2
+sportistima			4
 sportovima	2771		4
 sposobnima	83		4
 sposobnostima	3044		3
-spotovima	490		2
+spotovima	490		4
 spoznajama	98		4
 spratovima	467		4
 spravama	711		3
-spravicama	44		2
-spregama	26		2
+spravicama	44		3
+spregama	26		3
 sprejevima	94		4
 sprema	9778		2
-spremanjima			2
+spremanjima			3
 spremnicima	16		3
-sprovodnicima			2
+sprovodnicima			3
 sprudovima	53		4
 srama	1767		2
 sramotama	25		3
-srazmerama			2
-srbijašuma			2
+srazmerama			3
+srbijašuma			3
 srbima	13834		3
-srbizama	29		2
+srbizama	29		3
 srcima	1615		3
 sredinama	7359		3
 središtima	164		4
@@ -6564,25 +6564,25 @@ srednjima			3
 srednjoškolcima	1186		3
 sredstvima	20672		3
 srema			2
-srezovima	109		2
+srezovima	109		4
 srećnicima	87		3
 srećnima	221		3
 srma		M	2
 srodnicima	326		4
 srodnima			3
-srpkinjama			2
+srpkinjama			3
 srpovima	28		4
-srpčićima			2
+srpčićima			4
 stablima	507		3
 stabljikama	96		4
-stacionarima			2
-stadijuma	900		2
-stadijumima	325		2
+stacionarima			3
+stadijuma	900		3
+stadijumima	325		3
 stadima	114		3
 stadionima	1017		5
 stajalištima	296		5
 stajama	124		3
-stajanjima	21		2
+stajanjima	21		3
 staklenicima	245		3
 staklima	647		3
 staležima	64		4
@@ -6593,7 +6593,7 @@ staništima	528		4
 stanjima	1075		3
 stanovima	3216		4
 stanovnicima	3104		3
-staranjima			2
+staranjima			3
 starateljima	126		5
 starcima	284		3
 starešinama	514		4
@@ -6602,45 +6602,45 @@ starijima	763		4
 starima	817		3
 starinama	112		3
 starincima			3
-starosedeocima	232		2
+starosedeocima	232		3
 starostima			4
 starovima			4
-starudijama	16		2
+starudijama	16		3
 statistikama	909		4
 statistima	36		4
-statuama	126		2
+statuama	126		3
 statusima	175		4
 statutima	203		3
 stavcima			3
 stavkama	714		3
 stavovima	6633		4
 stazama	4030		3
-stazicama	31		2
-stažistima	28		2
-stecištima			2
-stegama	83		2
+stazicama	31		3
+stažistima	28		4
+stecištima			4
+stegama	83		3
 stenama	1108		3
-stenjanjima			2
-stenograma	154		2
+stenjanjima			3
+stenograma	154		3
 stepama	151		3
 stepenicama	1581		4
 stepenima	445		4
-stepenovima			2
-stereotipima	623		2
-steroidima	188		2
+stepenovima			3
+stereotipima	623		3
+steroidima	188		3
 stećcima	109		3
 stidljivima			4
 stigma	185		2
-stihijama	70		2
+stihijama	70		3
 stihovima	1946		4
-stijenkama		J	2
+stijenkama		J	3
 stilovima	1009		4
-stimulansima	82		2
+stimulansima	82		3
 stipendijama	349		4
 stjuardesama	51		3
 stogovima	11		4
-stoicizma	23		2
-stokholma			2
+stoicizma	23		3
+stokholma			3
 stolećima	384		4
 stolicama	876		4
 stolnjacima	86		4
@@ -6653,9 +6653,9 @@ stotinama	3183		4
 stotinkama			3
 stovarištima	139		5
 stočarima	413		4
-stočićima			2
-stradalima	221		2
-stradanjima	792		2
+stočićima			4
+stradalima	221		4
+stradanjima	792		3
 strahotama	250		3
 strahovima	936		4
 stranama	6730		3
@@ -6665,13 +6665,13 @@ stranima	29		3
 strankama	8177		3
 strankinjama	31		4
 stranputicama	130		5
-strasnima			2
+strasnima			3
 strastima	967		3
 strategema			2
 strategijama	1212		4
-stratezima	54		2
-stratuma			2
-straćarama	40		2
+stratezima	54		3
+stratuma			3
+straćarama	40		3
 strašilima	21		4
 stražama	36		3
 stražarima	137		3
@@ -6679,55 +6679,55 @@ strehama	33		3
 strelama	296		3
 strelcima	320		3
 strelicama	224		4
-streljanama	12		2
-streljanjima	77		2
+streljanama	12		3
+streljanjima	77		3
 strepnjama	65		3
 stresovima	131		4
-strijama	54		2
+strijama	54		3
 stripovima	438		4
 striptizetama	23		3
 stričevima	286		4
-stričićima			2
+stričićima			4
 strma	246		2
 strminama	40		4
 strofama	69		3
 strujama	361		3
-strujanjima	111		2
+strujanjima	111		3
 strukama	295		3
 strukovima	14		4
 strukturama	2863		3
 struma		M	2
 strunama	52		3
-strunjačama	83		2
+strunjačama	83		3
 stručnima	10		3
 stručnjacima	5050		4
 stubama	18		3
-stubićima			2
+stubićima			4
 stubovima	1220		4
 studentima	20329		4
-studentkinjama	151		2
+studentkinjama	151		3
 studijama	7043		4
 studijima	813		4
 stupcima	94		3
 stupovima	89		4
 stvarima	19204		3
-stvarčicama	69		2
+stvarčicama	69		3
 stvorenjima	447		3
 stvorovima	45		4
-subašama			2
-subjektima	2205		2
+subašama			3
+subjektima	2205		4
 suborcima	17		3
 subotama	56		4
-subotarima			2
-subvencijama	1363		2
+subotarima			3
+subvencijama	1363		3
 sudarima	257		4
-sudbama			2
+sudbama			3
 sudbinama	928		3
 sudijama	3549		4
 sudnicama	106		4
 sudoperama			5
 sudovima	6657		4
-sufiksima	21		2
+sufiksima	21		3
 sugestijama	851		4
 sugrađanima	3093		5
 suharcima			3
@@ -6735,9 +6735,9 @@ suigračima	15		3
 sujetama	71		4
 sujetnima			4
 suknjama	308		3
-suknjicama	71		2
+suknjicama	71		3
 sukobima	3396		4
-sulicama			2
+sulicama			3
 suma			2
 sumaglicama			5
 sumama	308		3
@@ -6745,41 +6745,41 @@ sumanutima			4
 sumnjama	529		3
 sumnjivcima	13		4
 sumracima	10		4
-sunarodnicima	1015		2
+sunarodnicima	1015		3
 suncima	28		3
 suncobranima	267		5
-sunitima	58		2
+sunitima	58		4
 sunčanicama			5
-sunčanjima			2
+sunčanjima			3
 sunđerima	61		4
 supama	200		3
-suparnicama	16		2
+suparnicama	16		3
 suparnicima	157		4
-superherojima	95		2
-supermarketima			2
-supermodelima			2
-supermoćima	12		2
+superherojima	95		3
+supermarketima			3
+supermodelima			3
+supermoćima	12		3
 suprotnostima	158		5
 suprugama	250		4
 supruzima	21		4
-supružnicima	234		2
+supružnicima	234		3
 supstancama	891		3
-surferima	43		2
+surferima	43		4
 surogatima	32		5
-susama	290		2
+susama	290		3
 susedima	2475		4
-susetkama			2
+susetkama			3
 susretima	2662		4
 suvarcima			3
-suvatima			2
+suvatima			4
 suvenirima	265		3
 suzama	3271		3
 suzavcima	22		4
-sučeljima			2
-suđenicama			2
+sučeljima			3
+suđenicama			3
 suđenjima	489		3
 sušama	83		3
-sušarama	108		2
+sušarama	108		3
 suštinama	38		3
 sužnjima	89		3
 svadbama	404		3
@@ -6789,15 +6789,15 @@ svađama	388		3
 svecima	336		3
 svedocima	851		4
 svedočanstvima	246		3
-svedočenjima	387		2
+svedočenjima	387		3
 svemircima	16		3
 svemirima			4
 sveskama	301		3
-svetilima			2
+svetilima			4
 svetiljkama	175		3
 svetima	555		3
 svetinjama	938		4
-svetiteljima			2
+svetiteljima			3
 svetkovinama	107		5
 svetlima	1250		3
 svetlostima	46		4
@@ -6808,16 +6808,16 @@ svećama	472		3
 svećicama	57		4
 svećnjacima	34		4
 svečanostima	574		5
-svečarima	45		2
+svečarima	45		4
 sveštenicima	1408		5
 svežnjevima	22		4
 svicima	37		3
-svilarama			2
+svilarama			3
 svima	73625		2
 svinjama	406		3
 svinjarima	13		3
 svinjcima	24		3
-svinjokoljima			2
+svinjokoljima			3
 sviračima	62		3
 svirkama	240		3
 svitanjima	11		4
@@ -6834,69 +6834,69 @@ tabanima	293		4
 tabelama	747		3
 tablama	923		3
 tabletama	565		3
-tabletima	589		2
+tabletima	589		4
 tablicama	1422		4
-tabloidima	449		2
+tabloidima	449		3
 taborima	69		4
 tabuima	73		4
-tajicama			2
+tajicama			3
 tajnama	1708		3
 tajnima			3
 takmacima	60		4
 takmičarima	1486		5
-takmičenjima	8306		2
-takosima			2
-taksama			2
+takmičenjima	8306		3
+takosima			3
+taksama			3
 taksijima	52		4
 taksistima	359		4
 taktikama	140		4
 taktovima	257		4
 takvima	1589		2
-talarima			2
-talasanjima			2
+talarima			4
+talasanjima			3
 talasima	2295		4
-talasićima			2
+talasićima			3
 talentima	907		4
 talibanima	282		3
-talijuma			2
-taljigama			2
+talijuma			3
+taljigama			3
 tama	1292		2
 tamburama			4
 tamnicama	162		4
 tamnima			3
 tamponima	23		3
-tandema	450		2
-tangama	120		2
-tangensima			2
-tanjirima	234		2
+tandema	450		3
+tangama	120		3
+tangensima			3
+tanjirima	234		4
 tanjurima			3
 tankerima	51		4
-tankovima			2
+tankovima			4
 tantijema	113		2
 taocima	110		4
 taoizma	58		2
 tapetama	145		3
-tapijama			2
+tapijama			3
 tarabama	53		4
-tarabićima			2
+tarabićima			3
 tarifama	449		3
 tartufima	160		4
-tasovima			2
-tasterima	486		2
+tasovima			4
+tasterima	486		4
 tastovima			4
 tatama	136		3
-tatarima			2
-tavanicama	69		2
+tatarima			4
+tavanicama	69		3
 tavanima	98		4
 tačkama	2802		3
 tačkicama	182		4
-tašnama			2
-taštama			2
+tašnama			3
+taštama			3
 taštima			3
 taštinama	28		3
 teatrima	145		3
 teglama	153		3
-teglicama	37		2
+teglicama	37		3
 tegobama	664		3
 tegovima	392		4
 tehnikama	3638		4
@@ -6904,7 +6904,7 @@ tehničarima	253		5
 tehnologijama	5353		4
 teizma	16		2
 tekama			3
-tekijama	97		2
+tekijama	97		3
 tekma	150		2
 tekovinama	677		5
 tekstovima	5450		4
@@ -6914,26 +6914,26 @@ telefonima	3162		3
 telegrafima			4
 telegrama	248		4
 telegramima	49		5
-telekoma	5934		2
+telekoma	5934		3
 telekomunikacijama	1204		4
-telepatama			2
-telesima	18		2
+telepatama			3
+telesima	18		3
 teleskopima	487		5
 telesnima			4
 televizijama	1897		4
 televizorima	611		4
-telećacima			2
+telećacima			3
 telima	3392		3
 telohraniteljima	116		5
 tema	53000		2
 temama	12052		3
 temeljima	2720		4
 temenima	32		4
-temperama	43		2
+temperama	43		3
 temperaturama	4159		3
 templarima	56		3
 tendencijama	982		4
-tenderima	1265		2
+tenderima	1265		4
 teniserima	360		3
 tenkovima	572		4
 tenzijama	225		4
@@ -6942,27 +6942,27 @@ teorema	357		2
 teoretičarima	230		5
 teorijama	1486		4
 tepisima	218		4
-tepsijama			2
+tepsijama			3
 terakotama			3
 terapeutima	94		4
 terapijama	451		4
 terasama	682		3
-terazijama			2
+terazijama			3
 terenima	4578		3
 teretanama	148		3
 teretima	74		4
-terevenkama			2
-teritorijama	2023		2
-terminalima	296		2
+terevenkama			3
+teritorijama	2023		3
+terminalima	296		3
 terminima	2903		3
-termitima			2
+termitima			4
 teroristima	1250		4
 terorizma	4947		2
 teskobama	17		3
 testerama	84		3
-testericama	12		2
-testijama			2
-testiranjima	346		2
+testericama	12		3
+testijama			3
+testiranjima	346		3
 testisima	160		4
 testovima	3020		4
 tetivama	116		4
@@ -6974,10 +6974,10 @@ tečajevima	61		5
 tečnostima	294		4
 teškoćama	2898		3
 težinama	150		3
-težnjama	823		2
+težnjama	823		3
 tiganjima	21		3
 tigrovima	109		4
-tikovima	26		2
+tikovima	26		4
 tikvama	41		3
 tikvicama	91		4
 tima	39591		2
@@ -6985,30 +6985,30 @@ timarima			3
 timovima	2283		4
 timpanima			3
 tinejdžerima	617		5
-tinejdžerkama	77		2
+tinejdžerkama	77		3
 tipicima	19		3
 tipkama	62		3
 tipovima	1910		4
-tiradama	48		2
+tiradama	48		3
 tiranima	73		4
-tiražima	302		2
-titanijuma	274		2
-titanima			2
-titlovima			2
+tiražima	302		4
+titanijuma	274		3
+titanima			3
+titlovima			4
 titoizma	522		2
 titulama	478		4
 tišma			2
-tkanicama	11		2
+tkanicama	11		3
 tkaninama	210		4
-tkačnicama			2
+tkačnicama			3
 tkivima	752		3
 tlima	33		2
-tlocrtima			2
+tlocrtima			4
 tminama	20		3
-toaletama	79		2
-toaletima			2
+toaletama	79		3
+toaletima			3
 togama	33		3
-tokama	13		2
+tokama	13		3
 tokatama			3
 tokovima	2379		4
 toksinima	166		3
@@ -7017,34 +7017,34 @@ toljagama	41		4
 toma	2616		2
 tonama	276		3
 tonovima	1220		4
-topazima			2
+topazima			3
 toplanama	416		3
 toplicama	56		4
 topolama	42		3
 toponima	394		2
 toponimima	99		3
 topovima	600		4
-topuzima			2
-topuzinama			2
+topuzima			3
+topuzinama			3
 torbacima			3
 torbama	439		3
-torbicama	66		2
+torbicama	66		3
 tornjevima	111		4
 torovima	44		4
 torpedima	30		3
 tortama	116		3
-torticama			2
+torticama			3
 torturama	43		3
-tosterima			2
+tosterima			4
 totema	71		2
 totenhema			2
 tovarima	51		4
-točkićima	160		2
-točkovima		M	2
-tošićima			2
+točkićima	160		4
+točkovima		M	4
+tošićima			4
 tradicijama	1026		4
 trafikama	295		4
-traganjima	89		2
+traganjima	89		3
 tragačima	48		3
 tragedijama	207		4
 tragizma			2
@@ -7057,34 +7057,34 @@ traktorima	751		4
 tramvajima	218		4
 transakcijama	1073		4
 transferima	398		3
-transkriptima	81		2
-transparentima	359		2
+transkriptima	81		4
+transparentima	359		3
 transporterima	154		3
 transvestitima	14		3
 tranšama	62		3
-trapovima	44		2
+trapovima	44		4
 trauma	1460		3
 traumama	262		4
 travama	315		3
 travnjacima	210		4
-travuljinama			2
+travuljinama			3
 tračanima	11		4
 tračevima	198		4
-tračicama			2
+tračicama			3
 tračnicama	14		4
-traženjima	34		2
+traženjima	34		3
 trbusima	18		4
 trbušinama			5
-trbušnjacima	72		2
-trebama			2
-tregerima			2
+trbušnjacima	72		3
+trebama			3
+tregerima			4
 trema	953		2
 tremovima	52		4
 trendovima	3023		4
 trenerima	1504		4
-trenerkama	138		2
+trenerkama	138		3
 treninzima	3269		4
-trenovima			2
+trenovima			4
 trenucima	9269		3
 trenutcima	751		3
 trepavicama	319		5
@@ -7097,24 +7097,24 @@ trešnjama	131		3
 trgovcima	1565		4
 trgovima	1426		4
 trgovinama	1190		5
-tribalizma			2
-tribinama	3621		2
+tribalizma			3
+tribinama	3621		3
 tricama	48		3
 triciklima			3
-tridesetima	16		2
-trijadama	12		2
+tridesetima	16		3
+trijadama	12		3
 trijumfima	70		4
-trikoima	19		2
+trikoima	19		3
 trikovima	764		4
-trilionima	35		2
+trilionima	35		3
 trima	40		2
-trivijalnostima	66		2
-tričarijama	39		2
+trivijalnostima	66		3
+tričarijama	39		3
 trkama	2550		3
 trkačima	523		3
 trnjacima	13		3
 trnjinama			4
-trnokopima			2
+trnokopima			3
 trobojkama	32		3
 trockizma	38		2
 trofejima	317		3
@@ -7125,17 +7125,17 @@ trolama	18		2
 trolejbusima			4
 trolovima	39		4
 troma	157		2
-tronovima	14		2
+tronovima	14		4
 tronošcima	13		4
-troparima	17		2
-tropima	83		2
-trotoarima			2
-trovanjima	52		2
+troparima	17		4
+tropima	83		3
+trotoarima			3
+trovanjima	52		3
 trozupcima			3
 troškovima	5364		4
 trpeljivima			5
 trpezama	265		4
-trpljenjima			2
+trpljenjima			3
 trskama			3
 trubama	84		3
 trubačima	116		3
@@ -7145,31 +7145,31 @@ trudovima	222		4
 trupama	833		3
 trupcima	19		3
 truplima			3
-trusovima			2
-trvenjima	82		2
+trusovima			4
+trvenjima	82		3
 trzajima	96		4
-trzavicama	48		2
+trzavicama	48		3
 tržištima	9097		4
 tržnicama	104		4
-tubama	36		2
-tufnama			2
+tubama	36		3
+tufnama			3
 tugama	67		3
-tuluma			2
-tulumima			2
-tumačenjima	892		2
+tuluma			3
+tulumima			3
+tumačenjima	892		3
 tumačima	130		3
 tumorima	247		4
 tunelima	463		3
 tunikama	23		4
-tupanima			2
-turama	183		2
+tupanima			3
+turama	183		3
 turbanima	20		3
 turbinama	98		3
 turcizama	118		3
 turcizma	26		2
 turistima	2941		4
 turizma	17501		2
-turkinjama			2
+turkinjama			3
 turnejama	273		3
 turnirima	2044		3
 tutorima	51		4
@@ -7194,11 +7194,11 @@ tvorevinama	225		5
 tvrdima	12		3
 tvrdnjama	3181		3
 tvrđavama	118		4
-tvrđenjima	41		2
-ubeđenjima	268		2
+tvrđenjima	41		3
+ubeđenjima	268		3
 ubicama	883		4
-ubijanjima	62		2
-ubijenima	129		2
+ubijanjima	62		3
+ubijenima	129		3
 ubistvima	1041		3
 ubodima	103		4
 ubogima	145		4
@@ -7206,65 +7206,65 @@ ubožnicama			5
 ubrusima	33		4
 ubrzanima			4
 ucenama	1020		4
-ucveljenima			2
-udadbama			2
+ucveljenima			3
+udadbama			3
 udajama	17		4
 udaljenostima	265		5
-udaraljkama	57		2
-udaračima	13		2
+udaraljkama	57		3
+udaračima	13		3
 udarcima	891		4
 udarima	741		4
 udatima			4
 udavačama			4
-udelima	194		2
+udelima	194		4
 udesima	141		4
-udicama	126		2
-udivljenima			2
+udicama	126		3
+udivljenima			3
 udolinama	19		5
 udomiteljima			5
 udovama			4
 udovicama	155		4
-udovima	216		2
+udovima	216		4
 udruženjima	4347		3
-udubljenjima	103		2
-udvajanjima	11		2
-udvaračima	29		2
+udubljenjima	103		3
+udvajanjima	11		3
+udvaračima	29		3
 udžbenicima	1554		5
 ugarcima			3
-ugarima			2
-uglednicima	21		2
+ugarima			4
+uglednicima	21		3
 uglovima	1244		4
-ugnjetačima	16		2
-ugodnicima			2
+ugnjetačima	16		3
+ugodnicima			3
 ugovorima	3451		5
-ugrizima	24		2
+ugrizima	24		3
 ugroženima	315		4
 uhapšenima	274		5
 uhodama	16		4
 ujacima	34		4
 ujdurma		M	2
-ujedima	60		2
+ujedima	60		3
 ujma			2
-ukazanjima			2
+ukazanjima			3
 ukazima	43		3
-ukidanjima			2
+ukidanjima			3
 ukorima	22		4
 ukrasima	584		4
-ukrštanjima	64		2
-ukrštenicama	30		2
+ukrštanjima	64		3
+ukrštenicama	30		3
 ukusima	1460		4
-ukućanima	751		2
-ulaganjima	2061		2
-ulagačima	608		2
+ukućanima	751		3
+ulaganjima	2061		3
+ulagačima	608		3
 ulascima	50		4
 ulazima	689		4
 ulaznicama	280		5
-ulegnućima	14		2
-ulema	216		2
+ulegnućima	14		3
+ulema	216		3
 ulicama	19011		4
-ulizicama	35		2
+ulizicama	35		3
 uličicama	255		5
-uljezima	32		2
+uljezima	32		3
 uljima	868		3
 ulogama	2535		4
 uloma			2
@@ -7277,125 +7277,125 @@ uma			2
 umacima	69		4
 umetnicama	43		5
 umetnicima	3034		5
-umetninama	75		2
+umetninama	75		3
 umetnostima	552		5
-umećima	70		2
-umiranjima			2
-umirućima	12		2
+umećima	70		4
+umiranjima			3
+umirućima	12		3
 umivaonicima			3
-umišljajima			2
+umišljajima			3
 umnijima			4
 umnima			3
 umnošcima			3
 umornima	16		4
-umotvorinama	98		2
-umovanjima	17		2
+umotvorinama	98		3
+umovanjima	17		3
 umovima	384		4
-umrlima	88		2
+umrlima	88		4
 unakaženima			4
-unapređenjima	244		2
-uniforma	549		2
-uniformama	1087		2
-unijatima	19		2
-unitarizma	61		2
-univerzalizma	99		2
+unapređenjima	244		3
+uniforma	549		3
+uniformama	1087		3
+unijatima	19		3
+unitarizma	61		3
+univerzalizma	99		3
 univerzitetima	4723		3
 univerzuma	2368		3
 univerzumima	37		4
-uništenima			2
-unosima	45		2
+uništenima			3
+unosima	45		3
 unucima	806		4
 unukama	34		4
-unučićima	96		2
-upadicama	56		2
+unučićima	96		3
+upadicama	56		3
 upadima	134		4
-upisima	57		2
-upisnicima	29		2
+upisima	57		3
+upisnicima	29		3
 upitima	114		4
 upitnicima	96		5
-uplatama	483		2
-uplitanjima			2
+uplatama	483		3
+uplitanjima			3
 uplivima	47		4
 uporištima	58		5
 upotrebama	59		5
 upozorenjima	566		3
 upravama	1325		4
 upravljačima	118		3
-upravnicima	146		2
-uputnicama	13		2
+upravnicima	146		3
+uputnicama	13		3
 uputstvima	1599		3
 upućenima	67		4
 uraganima	35		5
-uranijuma	1141		2
-urbanizma	1738		2
-uredbama	847		2
+uranijuma	1141		3
+urbanizma	1738		3
+uredbama	847		3
 uredima	110		4
 urednicima	686		5
 urezima	25		4
 uređajima	6805		5
-uređenjima	71		2
+uređenjima	71		3
 urlicima	29		4
 urma		M	2
-urmama			2
-urnama	57		2
+urmama			3
+urnama	57		3
 urođenicima	42		3
-urvinama			2
-usavršenjima			2
+urvinama			3
+usavršenjima			3
 usecima	53		3
 useljenicima	30		5
-useljenjima			2
-usevima	798		2
+useljenjima			3
+usevima	798		3
 usisivačima			3
 usklicima	36		4
 uskocima	102		3
 uslovima	58845		4
-uslovljenostima	13		2
+uslovljenostima	13		3
 uslugama	5961		4
-usmerenjima	63		2
+usmerenjima	63		3
 usnama	2465		3
-usnicama	32		2
-usovima			2
+usnicama	32		3
+usovima			4
 uspavankama	25		3
 uspesima	2991		4
 uspešnima	101		4
 uspinjačama			4
 uspomenama	737		5
 usponima	375		4
-usprema			2
+usprema			3
 ustancima	136		4
-ustanicima	489		2
+ustanicima	489		3
 ustanovama	11590		5
-ustavama	17		2
+ustavama	17		3
 ustavima	308		4
 ustašama	759		4
 ustašcima			3
 ustima	5167		3
 ustupcima	294		4
-usvajanjima			2
-usvojenjima			2
+usvajanjima			3
+usvojenjima			3
 utakmicama	4386		5
-utehama	11		2
+utehama	11		3
 utezima	10		4
 uticajima	2048		5
 utiscima	1070		4
 utjecajima	51		5
 utopijama	50		4
-utopijuma			2
+utopijuma			3
 utorcima			4
 utočištima	36		5
-utrinama			2
+utrinama			3
 utrkama	27		4
 utrobama	34		4
 utvarama	48		4
 uvalama	180		4
-uveravanjima	153		2
+uveravanjima	153		3
 uverenjima	665		3
-uvećanjima	45		2
+uvećanjima	45		3
 uvidima	203		4
-uviđajima	19		2
+uviđajima	19		3
 uvodima	26		4
 uvojcima	41		4
-uvoznicama	15		2
+uvoznicama	15		3
 uvoznicima	469		5
 uvredama	761		4
 uvređenima	11		4
@@ -7403,25 +7403,25 @@ uzbunama			4
 uzbuđenjima	174		3
 uzdama	29		3
 uzdasima	180		4
-uzdisajima	15		2
-uzdisanjima			2
+uzdisajima	15		3
+uzdisanjima			3
 uzdrma	323		2
-uzengijama			2
+uzengijama			3
 uzetima			4
 uzglavljima			3
 uzicama	20		4
 uzima	17663		3
-uzletima	55		2
+uzletima	55		4
 uzorcima	820		4
 uzorima	441		4
 uzrastima	547		4
 uzrečicama	15		5
 uzrocima	1964		4
-uzusima	94		2
+uzusima	94		3
 uzvicima	184		4
-uzvisinama	17		2
-uzvišenjima	81		2
-uzvišicama	10		2
+uzvisinama	17		3
+uzvišenjima	81		3
+uzvišicama	10		3
 učenicama	169		5
 učenicima	12488		5
 učenima	16		4
@@ -7430,111 +7430,111 @@ učenjima	403		3
 učesnicama	354		5
 učesnicima	10347		5
 učešćima	42		3
-učilima	106		2
+učilima	106		4
 učilištima	16		5
 učincima	255		4
-učiniocima	167		2
+učiniocima	167		3
 učinjenima			4
 učionicama	980		4
 učiteljicama	215		4
 učiteljima	963		5
-učkurima			2
-učtivostima			2
+učkurima			4
+učtivostima			3
 ušicama	22		4
 ušima	3207		3
 uštedama	601		4
 ušćima	29		3
-užadima			2
+užadima			3
 užasima	218		4
 užicima	88		3
 užima			3
-uživanjima	187		2
-uživaocima			2
-užičanima			2
+uživanjima	187		3
+uživaocima			3
+užičanima			3
 vadičepima			5
-vaflima			2
+vaflima			3
 vagama	133		3
 vaganima			4
-vaganjima			2
+vaganjima			3
 vaginama	10		3
 vagonima	387		3
-vagonskima			2
-vajarima	52		2
-vajatima			2
+vagonskima			3
+vajarima	52		4
+vajatima			4
 vakcinama	507		3
 vakuma	150		3
 vakuuma	353		4
 valama	15		2
 valcerima	13		4
-valijuma	15		2
-valjanima			2
+valijuma	15		3
+valjanima			3
 valjcima	126		3
-valjkastima			2
+valjkastima			4
 valjušcima			3
 valovima	127		4
 valovitima			4
 valutama	819		3
-valutnima			2
+valutnima			3
 vama	41773		2
 vampirima	366		3
-vanadijuma			2
-vandalima	86		2
+vanadijuma			3
+vandalima	86		4
 vandalizma	321		2
-vanilama			2
+vanilama			3
 vanzemaljcima	480		3
-vapajima	38		2
-vapijućima			2
+vapajima	38		3
+vapijućima			3
 varalicama	60		5
-varanjima			2
-varenjima			2
+varanjima			3
+varenjima			3
 varijacijama	559		4
 varijantama	1602		4
-varijeteima			2
-varima			2
-variranjima	11		2
-varjačama			2
+varijeteima			3
+varima			3
+variranjima	11		3
+varjačama			3
 varkama	37		3
 varljivima			4
-varošanima			2
-varošicama			2
-varošima			2
-varoškima			2
-varvarima	255		2
-varvarizma			2
-vaskrsenjima			2
-vaskrsima			2
+varošanima			3
+varošicama			3
+varošima			3
+varoškima			3
+varvarima	255		4
+varvarizma			3
+vaskrsenjima			3
+vaskrsima			3
 vatrama	54		3
 vatrenima	17		4
 vatrogascima	430		3
-vaučerima	92		2
-vazalima			2
+vaučerima	92		3
+vazalima			4
 vazama	104		3
-vazdušnima			2
-vašarima			2
-vašarskima			2
+vazdušnima			3
+vašarima			4
+vašarskima			3
 vašima	124		3
-vaškama	27		2
+vaškama	27		3
 vašljivcima			3
-važenjima			2
-važećima			2
+važenjima			3
+važećima			4
 važnijima			4
 važnima	42		3
 vedrijima			4
 vedrima			3
-vejavicama			2
+vejavicama			3
 vekovima	7753		4
-vektorima	48		2
+vektorima	48		4
 velarima			3
-velefarma			2
-velesajma	52		2
-velesilama	46		2
+velefarma			3
+velesajma	52		3
+velesilama	46		3
 velikanima	639		3
 velikašima	183		3
 velikima	279		4
-velikoškolcima			2
-veličanjima			2
+velikoškolcima			3
+veličanjima			3
 veličinama	1049		3
-velmožama			2
+velmožama			3
 velovima	50		4
 venama	828		3
 vencima	332		3
@@ -7545,22 +7545,22 @@ venčanima			4
 venčanjima	150		3
 venčićima	32		4
 veoma	253189		3
-veprovima			2
+veprovima			4
 verama	174		3
 verandama	21		3
-veranjima			2
+veranjima			3
 verbalnima			3
-verenicama			2
+verenicama			3
 verenicima	15		5
 veresijama			4
 verigama	88		4
 vernicima	2053		4
-vernijima			2
+vernijima			3
 vernima	376		3
 vernostima			3
 verovanjima	714		5
 verskima			2
-verujućima	51		2
+verujućima	51		3
 verzijama	2632		4
 veselijima			5
 veselima			4
@@ -7572,7 +7572,7 @@ veslačkima			3
 veslima	71		3
 vesnicima	18		4
 vesternima	60		4
-vestibilima			2
+vestibilima			3
 vestima	3924		3
 veteranima	595		3
 veterinama			3
@@ -7580,13 +7580,13 @@ vetrenjačama	361		4
 vetrovima	445		4
 vevericama	44		5
 vezama	5506		3
-vezanima	31		2
+vezanima	31		3
 vezenima			4
-vezicama	47		2
-vezirima			2
-vezivanjima			2
-vezivima			2
-vezivnima			2
+vezicama	47		3
+vezirima			4
+vezivanjima			3
+vezivima			3
+vezivnima			3
 veznicima	18		4
 vezovima	85		4
 većima	329		3
@@ -7595,71 +7595,71 @@ većnicima	88		4
 večerama	156		4
 večerima	442		4
 večnima			3
-veđama			2
+veđama			3
 vešalima	132		4
 veštacima	212		3
 vešticama	160		4
 veštinama	3662		3
 vežbama	2569		3
 vežbanjima	55		4
-vibracijama	363		2
+vibracijama	363		3
 vicevima	192		4
 vidicima	121		3
-vidiocima			2
+vidiocima			3
 vidovima	1767		4
-vidovićima			2
-vidovnjacima	37		2
+vidovićima			3
+vidovnjacima	37		3
 vidrama			3
 vihorima	51		4
-vijetnama			2
-vijetnamcima			2
+vijetnama			3
+vijetnamcima			3
 vijugama	49		4
 vikendima	256		4
-vikinzima	51		2
-viklerima			2
-vilajetima	23		2
+vikinzima	51		3
+viklerima			4
+vilajetima	23		3
 vilama	1007		3
-vilenjacima	98		2
-vilhelma			2
+vilenjacima	98		3
+vilhelma			3
 vilicama	112		4
-vilijama			2
-vilima			2
+vilijama			3
+vilima			3
 viljuškama	63		4
 vilma			2
-vinićima			2
-vinjetama	56		2
+vinićima			4
+vinjetama	56		3
 vinogradima	1361		5
-violama			2
+violama			3
 violinama	22		3
 virovima	110		4
-virtuozima	18		2
+virtuozima	18		3
 virusima	1021		4
 viršlama	61		3
 visinama	1707		3
 viskijima			4
 visoravnima	107		5
 visovima	171		4
-vitalizma	23		2
-vitaminima	1730		2
+vitalizma	23		3
+vitaminima	1730		3
 vitezovima	282		5
-viticama	13		2
+viticama	13		3
 vitlejema			2
-vitlima			2
+vitlima			3
 vitražima	56		3
 vitrinama	340		3
 vizama	286		3
 vizijama	579		4
-vizurama	49		2
-viđanjima			2
-viđenjima	236		2
+vizurama	49		3
+viđanjima			3
+viđenjima	236		3
 viškovima	228		4
 višnjama	238		3
 vladama	2146		3
-vladaocima			2
+vladaocima			3
 vladarima	670		3
-vladarkama	20		2
-vladikama	263		2
-vlahinjama			2
+vladarkama	20		3
+vladikama	263		3
+vlahinjama			3
 vlaknima	1351		3
 vlakovima	13		4
 vlasima	279		3
@@ -7669,21 +7669,21 @@ vlasuljama			4
 vlatima	28		3
 vodama	6198		3
 vodenicama	69		4
-vodeničarima			2
+vodeničarima			3
 vodećima	130		3
-vodicama	128		2
-vodiljama	10		2
+vodicama	128		3
+vodiljama	10		3
 voditeljima	198		5
 vodičima	321		3
-vododerinama	11		2
+vododerinama	11		3
 vodoinstalaterima	21		3
 vodopadima	260		5
 vodovima	167		4
 vodovodima	124		5
-vodviljima			2
-vojevanjima	13		2
-vojinovićima			2
-vojnama			2
+vodviljima			3
+vojevanjima	13		3
+vojinovićima			3
+vojnama			3
 vojnicima	2885		3
 vojskama	488		3
 vojvodama	235		4
@@ -7693,42 +7693,42 @@ volejima	11		3
 volframa	66		3
 voljama	26		3
 voljenima	93		4
-volonterima	979		2
+volonterima	979		3
 volovima	135		4
-voltima	24		2
+voltima	24		3
 volumenima	31		4
-volutama	29		2
+volutama	29		3
 vozačima	2848		3
 vozilima	5250		4
 vozovima	744		4
-voćarima	224		2
-voćkama	111		2
+voćarima	224		4
+voćkama	111		3
 voćnjacima	518		4
 vođama	1104		3
 vođenima			4
-vođicama	38		2
+vođicama	38		3
 vožnjama	218		3
 vradžbinama	129		4
 vragovima	10		4
 vranama	53		3
-vranićima			2
+vranićima			4
 vrapcima	175		3
 vratarima	13		3
 vratilima	10		4
 vratima	9381		3
 vratnicama	27		4
 vratovima	43		4
-vraćanjima	13		2
-vračanjima	11		2
+vraćanjima	13		3
+vračanjima	11		3
 vračarama	64		4
 vračevima	32		4
 vrbacima			3
 vrbama	69		3
-vrdalama		M	2
+vrdalama		M	3
 vrednijima			4
 vrednima	55		3
 vrednostima	8973		3
-vrednotama	33		2
+vrednotama	33		3
 vrelima	75		3
 vremenima	9417		4
 vrećama	358		3
@@ -7739,32 +7739,32 @@ vrhovima	1850		4
 vrhuncima	50		4
 vrletima	160		4
 vrlinama	1619		4
-vrljikama			2
+vrljikama			3
 vrpcama	31		3
 vrstama	6172		3
-vrtačama	43		2
-vrteškama	19		2
+vrtačama	43		3
+vrteškama	19		3
 vrtićima	1653		4
 vrtlozima	74		4
 vrtovima	755		4
-vrućicama			2
+vrućicama			3
 vrućinama	353		3
-vrzinama	13		2
+vrzinama	13		3
 vrzma	151		2
 vršnjacima	2752		3
-vrščanima			2
+vrščanima			3
 vukodlacima	75		4
 vukovima	473		4
 vulkanima	89		3
 vučićima			4
-zabatima	25		2
+zabatima	25		4
 zabavama	456		4
 zabeleškama	110		5
 zabitima	129		4
 zabludama	582		4
 zaboravima			5
 zabranama	459		4
-zabranima	27		2
+zabranima	27		3
 zabrinutima	11		5
 zadacima	2983		3
 zadaćama	16		4
@@ -7773,33 +7773,33 @@ zadovoljstvima	409		3
 zadrema	103		2
 zadrma			2
 zadrugama	901		4
-zadušnicama	43		2
+zadušnicama	43		3
 zadužbinama	296		5
-zaduženjima	324		2
+zaduženjima	324		3
 zaglavljima	38		3
 zagonetkama	147		5
 zagradama	260		4
 zagrljajima	125		5
 zahtevima	14438		4
 zahvalama			4
-zahvatima	468		2
-zaima	14		2
+zahvatima	468		4
+zaima	14		3
 zajednicama	7474		5
 zajma	1371		2
-zajmovima	370		2
+zajmovima	370		4
 zakladama			4
 zakletvama	68		4
-zaklima	15		2
+zaklima	15		3
 zaključcima	1938		4
 zaklonima	30		4
 zakonicima	32		5
 zakonima	13882		4
-zakonitostima	374		2
-zakrpama	121		2
+zakonitostima	374		3
+zakrpama	121		3
 zakucima			3
 zakupcima	317		3
 zakupima	16		4
-zalaganjima	156		2
+zalaganjima	156		3
 zalagaonicama			4
 zalama			2
 zaletima			4
@@ -7808,16 +7808,16 @@ zaliscima	58		3
 zalivima	71		4
 zalogajima	137		5
 zalozima			4
-zamasima	63		2
+zamasima	63		3
 zamenama	138		4
 zamenicama	31		5
 zamenicima	167		5
 zamerkama	125		3
-zamiranjima			2
+zamiranjima			3
 zamislima	295		4
 zamkama	179		3
-zamkovima	98		2
-zamorima			2
+zamkovima	98		4
+zamorima			4
 zamrzivačima			4
 zanatima	454		3
 zanatlijama	306		4
@@ -7825,52 +7825,52 @@ zanima	27324		2
 zanimanjima	908		3
 zanimljivima	11		4
 zanosima	61		4
-zaokretima	57		2
-zaostalima	11		2
+zaokretima	57		3
+zaostalima	11		3
 zapadnjacima	171		5
-zapažanjima	342		2
-zapetama			2
-zapešćima			2
+zapažanjima	342		3
+zapetama			3
+zapešćima			4
 zapisanima			4
 zapisima	1360		4
 zapisnicima	215		5
-zapletima	133		2
-zaporima			2
+zapletima	133		4
+zaporima			4
 zaposlenicima	69		3
 zaposlenima	11219		5
 zapovedima	14		5
 zapovednicima	56		3
-zapovestima	287		2
+zapovestima	287		3
 zapovijedima	12		6
 zapregama	103		4
 zaprekama	20		4
-zaprema	43		2
-zaptijama			2
-zapušačima			2
+zaprema	43		3
+zaptijama			3
+zapušačima			3
 zaradama	1261		4
-zaravnima	26		2
-zaraženima	30		2
-zarezima	79		2
+zaravnima	26		3
+zaraženima	30		3
+zarezima	79		3
 zarobljenicima	510		3
 zarukama			4
-zasadama			2
+zasadama			3
 zasadima	569		4
 zasedama	50		4
 zasedanjima	219		3
 zaseocima	160		5
-zaslađivačima	77		2
+zaslađivačima	77		3
 zaslugama	693		4
 zaslužnima	93		4
-zaspalima			2
+zaspalima			4
 zastavama	1103		4
-zastavicama	150		2
-zastiračima			2
+zastavicama	150		3
+zastiračima			3
 zastojima	95		4
 zastupnicima	351		5
 zasunima			4
-zatamnenjima			2
-zatamnjenjima			2
-zategama	35		2
+zatamnenjima			3
+zatamnjenjima			3
+zategama	35		3
 zatišjima			3
 zatočenima			4
 zatvorenicama	12		4
@@ -7880,70 +7880,70 @@ zatvorima	2033		4
 zauzima	10464		3
 zavadama			4
 zavalama			4
-zavejanima			2
+zavejanima			3
 zaverama	212		4
-zaverenicima	80		2
+zaverenicima	80		3
 zavesama	268		4
 zavetima	44		4
 zavežljajima	18		5
-zavisnicima	282		2
+zavisnicima	282		3
 zavičajima	19		5
 zavodima	494		4
-zavojevačima			2
+zavojevačima			3
 zavojima	179		4
-zavrtnjima	75		2
-zavrzlama	321		2
+zavrtnjima	75		3
+zavrzlama	321		3
 završecima	176		4
 začecima	81		3
 začinima	665		4
-zađevicama			2
+zađevicama			3
 zaštitama	75		4
-zaštitarima	18		2
+zaštitarima	18		3
 zaštitnicima	190		5
-zbegovima	58		2
+zbegovima	58		4
 zbirkama	808		3
-zbivanjima	1504		2
-zbornicama	35		2
+zbivanjima	1504		3
+zbornicama	35		3
 zbornicima	492		4
 zborovima	145		4
 zdanjima	235		3
 zdelama			3
 zdencima	12		3
 zdjelama			3
-zdravicama	52		2
+zdravicama	52		3
 zdravima	122		3
 zebrama	35		3
-zelenašima			2
+zelenašima			3
 zelenilima			4
 zelenima	85		4
 zemaljskima			2
-zemičkama			2
+zemičkama			3
 zemljacima	317		3
 zemljama	59538		3
-zemljanima	52		2
+zemljanima	52		3
 zemljištima	603		4
 zemljoradnicima	302		4
 zemljotresima	198		5
-zemnima			2
+zemnima			3
 zemunicama	108		4
-zenicama			2
+zenicama			3
 zetovima	28		4
 zečevima	101		4
-zečicama			2
+zečicama			3
 zečićima			4
-zgarištima	49		2
+zgarištima	49		4
 zglobovima	1481		4
 zgodama	84		3
 zgodnima			3
 zgradama	4764		3
-zidanjima			2
+zidanjima			3
 zidarima	94		3
 zidinama	676		4
 zidovima	4321		4
 zima	5651		2
 zimama	249		3
-zimovnicima	20		2
-zjenama			2
+zimovnicima	20		3
+zjenama			3
 zlatnicima	60		4
 zlikovcima	247		4
 zlobama			3
@@ -7951,7 +7951,7 @@ zlobnicima	40		4
 zlobnima			3
 zlodelima	183		4
 zlodusima	14		4
-zlostavljačima	32		2
+zlostavljačima	32		3
 zlotvorima	99		4
 zloupotrebama	1146		6
 zloćama			3
@@ -7971,9 +7971,9 @@ značajkama	36		4
 značenjima	409		3
 značkama	65		3
 znojevima			4
-zobnicama			2
-zoljama			2
-zombijima	205		2
+zobnicama			3
+zoljama			3
+zombijima	205		3
 zonama	2778		3
 zoologijama			4
 zoolozima			4
@@ -7986,150 +7986,150 @@ zrnima	185		3
 zubarima	46		3
 zubima	2920		3
 zubićima	76		4
-zulufima			2
-zuluma			2
-zulumima			2
+zulufima			3
+zuluma			3
+zulumima			3
 zuma	392		2
 zupcima	142		3
 zupčanicima	41		3
-zvanicama			2
-zvanima			2
+zvanicama			3
+zvanima			3
 zvaničnicima	2765		5
 zvanjima	331		3
 zverima	248		3
-zverkama	29		2
-zverstvima	164		2
+zverkama	29		3
+zverstvima	164		3
 zvezdama	2854		3
-zvezdarima			2
-zvezdašima			2
+zvezdarima			4
+zvezdašima			3
 zvezdicama	266		4
 zvižducima	273		3
 zvoncima	15		3
 zvonicima	46		3
 zvonima	134		3
-zvončićima	57		2
+zvončićima	57		4
 zvucima	725		3
 zvukovima	209		4
 zvučnicima	785		4
-ćakulama			2
-ćaskanjima	19		2
-ćatićima			2
-ćazima			2
-ćebadima	101		2
-ćefovima			2
-ćeklićima			2
+ćakulama			3
+ćaskanjima	19		3
+ćatićima			4
+ćazima			3
+ćebadima	101		3
+ćefovima			4
+ćeklićima			4
 ćelijama	3763		4
-ćemerima			2
+ćemerima			4
 ćepencima			3
-ćeramidama			2
+ćeramidama			3
 ćerima			3
 ćerkama	591		3
-ćesarima			2
+ćesarima			4
 ćevapima	91		3
 ćilima	308		3
 ćilimima	91		4
 ćirilicama			4
 ćorcima			3
-ćoškovima			2
-ćubama			2
+ćoškovima			4
+ćubama			3
 ćudima	101		3
-ćuftama			2
+ćuftama			3
 ćupovima	42		4
 ćurkama	25		3
-ćuskijama			2
-ćutilima			2
+ćuskijama			3
+ćutilima			4
 ćuvicima			3
-ćuškama			2
+ćuškama			3
 Češkama			3
-čabrovima			2
-čadorima			2
+čabrovima			4
+čadorima			4
 čahurama			4
 čajevima	290		4
 čajnicima			4
-čakširama			2
+čakširama			3
 čalma		M	2
-čalmama			2
+čalmama			3
 čama		M	2
 čamcima	775		3
-čaranjima			2
+čaranjima			3
 čarapama	564		4
-čarapićima			2
+čarapićima			3
 čardacima			3
-čardaklijama			2
-čardama	36		2
+čardaklijama			3
+čardama	36		3
 čarima	1146		3
-čarkama			2
+čarkama			3
 čarobnjacima	95		3
 čarolijama	229		4
-čaršafima			2
-čaršavima			2
+čaršafima			3
+čaršavima			3
 čaršijama	24		4
-čaršilijama			2
-časima			2
+čaršilijama			3
+časima			3
 časnicima	31		4
 časopisima	4169		5
 časovima	6782		4
 čatma			2
-čaurama	55		2
-čaušima			2
+čaurama	55		3
+čaušima			3
 čavlima	26		3
-čačanima			2
+čačanima			3
 čačkalicama	63		5
 čašama	429		3
-čašicama	37		2
+čašicama	37		3
 čedima	50		3
-čehovima			2
+čehovima			4
 čekaonicama	199		4
 čekinjama	19		4
 čekićima	98		4
 čekovima	534		4
 čekrcima			3
-čelebićima			2
+čelebićima			3
 čelima	48		3
-čeličanama	49		2
-čeljadima			2
+čeličanama	49		3
+čeljadima			3
 čeljustima	212		4
 čelnicima	1912		4
 čempresima	34		4
-čengijama			2
-čengićima			2
+čengijama			3
+čengićima			4
 čepovima	60		4
 čergama	12		3
-čergarima			2
+čergarima			4
 česima			3
 česma		M	2
-česmama			2
-česnicama			2
+česmama			3
+česnicama			3
 čestarima			3
 česticama	656		4
 čestitkama	547		4
 četama	177		3
-četinarima	125		2
+četinarima	125		3
 četirima			4
 četirma			2
 četkama	170		3
 četkicama	153		4
 četnicima	957		4
-četovođama			2
-četrdesetima	25		2
-četrdesetogodišnjacima			2
-četvorinama			2
-četvrtima	253		2
-čezama			2
-čečenima			2
+četovođama			3
+četrdesetima	25		3
+četrdesetogodišnjacima			3
+četvorinama			3
+četvrtima	253		4
+čezama			3
+čečenima			3
 češljevima	23		4
 čežnjama	31		3
-činelama			2
-činijama			2
-činijicama	21		2
-činima	87		2
+činelama			3
+činijama			3
+činijicama	21		3
+činima	87		3
 činiocima	652		5
 činiteljima			5
 činjenicama	5409		5
-činjenjima	18		2
+činjenjima	18		3
 činovima	212		4
 činovnicima	471		3
-čiodama			2
+čiodama			3
 čipkama	36		3
 čipovima	547		4
 čiracima			3
@@ -8143,152 +8143,152 @@ zvučnicima	785		4
 čitaocima	5814		5
 čitaonicama	124		4
 čitateljima	119		5
-čitačima	188		2
+čitačima	188		3
 čituljama	48		4
-čivilucima			2
-čivčijama			2
+čivilucima			3
+čivčijama			3
 čizama	435		3
 čizma	283		2
 čizmama	749		3
-čizmarima			2
-čizmicama	58		2
+čizmarima			4
+čizmicama	58		3
 čičcima			3
 člancima	1192		3
 članicama	6265		4
 članovima	17525		4
-člančićima			2
+člančićima			4
 čobanima	65		4
 čokoladama	101		3
-čokoladicama	61		2
+čokoladicama	61		3
 čoporima	118		4
 čorbama	92		3
 čočecima			3
 čudacima	37		3
-čudesima	489		2
+čudesima	489		3
 čudima	610		3
 čudnima			3
 čudovištima	139		3
 čukama	30		3
-čukundedama			2
+čukundedama			3
 čulima	807		3
-čulnostima			2
+čulnostima			4
 čuma		M	2
-čunjevima	72		2
+čunjevima	72		3
 čunovima			4
 čupercima	33		3
 čuvarima	482		3
 čuvstvima	20		3
 čvarcima	89		3
-čvorićima	15		2
-čvorištima	44		2
+čvorićima	15		4
+čvorištima	44		4
 čvorovima	397		4
 čvrstima			3
 đacima	2892		3
-đakonijama			2
+đakonijama			3
 đakonima	82		4
-đaurima			2
-đavolima	303		2
+đaurima			4
+đavolima	303		4
 đerdanima	18		3
 đerma			2
 đevrecima			3
 đečerma		M	2
-đogatima			2
-đonovima			2
-đubretarima			2
-đubrivima	297		2
-đubrištima	29		2
-đujićima			2
-đulićima			2
+đogatima			4
+đonovima			4
+đubretarima			3
+đubrivima	297		3
+đubrištima	29		4
+đujićima			4
+đulićima			4
 Španijama			4
 Švajcarskama			4
 Švedskama			3
-šablonima	171		2
+šablonima	171		3
 šahistima	93		4
 šajkačama	43		4
-šajkašima	33		2
+šajkašima	33		3
 šakalima	13		4
 šakama	762		3
 šalama	389		3
 šaljivdžijama			4
 šalovima	75		4
 šalterima	1236		4
-šalvarama			2
+šalvarama			3
 šamarima	51		4
-šamijama			2
+šamijama			3
 šampionima	274		3
 šamponima	157		3
 šansama	864		3
 šančevima	157		4
 šapama	275		3
 šapkama	20		3
-šapčanima			2
+šapčanima			3
 šarama	494		3
 šaranima	35		4
 šarenima			4
 šargarepama	32		3
-šarkama	128		2
+šarkama	128		3
 šarma	740		2
-šasijama	26		2
-šatlovima	68		2
+šasijama	26		3
+šatlovima	68		4
 šatorima	591		4
-šatrama	80		2
+šatrama	80		3
 šavovima	591		4
-šedrvanima			2
+šedrvanima			3
 šefovima	1131		4
-šegrtima			2
+šegrtima			4
 šeicima	76		3
 šema	2252		2
 šemama	273		3
 šematizama			3
 šematizma	43		2
 šerifima	11		4
-šerpama			2
+šerpama			3
 šestercima			3
 šetačima	103		3
 šetnjama	447		3
-šezdesetima	12		2
+šezdesetima	12		3
 šećeranama	144		3
 šećerlema		M	2
 šeširima	207		3
 šeširićima	15		4
 šibama			3
-šibanjima			2
+šibanjima			3
 šibicama	69		4
 šibljacima			3
-šibljikama			2
-šibovima			2
+šibljikama			3
+šibovima			4
 šiframa	312		3
-šilima			2
+šilima			3
 šiljcima	99		3
 šima		M	2
 šimpanzama	29		3
 šinama	521		3
-šinjelima			2
-šinterima			2
+šinjelima			4
+šinterima			4
 šipkama	325		3
-šipovima	78		2
+šipovima	78		4
 šiptarima	1146		4
 šipurcima			3
 širima			3
 širinama	275		3
-širitima			2
+širitima			4
 šizma	32		2
-šićardžijama			2
-šišarkama	27		2
-šišićima			2
-šiškama			2
+šićardžijama			3
+šišarkama	27		3
+šišićima			4
+šiškama			3
 šišmišima			4
 škampima	42		3
 škarama	17		3
-škijama			2
-škodrićima			2
+škijama			3
+škodrićima			4
 školama	22279		3
 školarcima	211		3
 školjkama	192		3
-školjkicama			2
+školjkicama			3
 škorpionima	62		3
-škotima			2
-škrapama			2
+škotima			3
+škrapama			3
 škrgama	41		3
 škriljcima	93		3
 šlema	196		2
@@ -8297,42 +8297,42 @@ zvučnicima	785		4
 šlepovima	20		4
 šljama	213		2
 šljivama	492		3
-šljivarima			2
-šljokicama	321		2
-šmajserima			2
-šminkanjima			2
+šljivarima			4
+šljokicama	321		3
+šmajserima			4
+šminkanjima			3
 šmrkovima	41		4
 šnalama			2
 šniclama	27		2
 šokovima	81		4
 šoljama	125		3
-šoljicama	55		2
+šoljicama	55		3
 šorcevima	56		4
-šortsevima			2
+šortsevima			3
 šovinizama			3
 šovinizma	517		2
 špadama			3
-špagetama			2
-špagetima	24		2
+špagetama			3
+špagetima	24		4
 špancima			3
 špekulacijama	270		4
-špenadlama			2
-špicama	48		2
+špenadlama			3
+špicama	48		3
 špicevima	120		4
 špijunima	125		3
 špiljama	22		3
-špricerima			2
+špricerima			4
 špricevima	46		4
-šrafčićima			2
+šrafčićima			4
 šrapnelima	10		4
 štabovima	232		4
 štafetama	44		3
-štakama			2
+štakama			3
 štakorima	10		4
 štalama	258		3
-štambiljima			2
-štamparima	46		2
-štampačima	367		2
+štambiljima			3
+štamparima	46		4
+štampačima	367		3
 štandovima	979		4
 štanglama			2
 štapićima	239		4
@@ -8344,80 +8344,80 @@ zvučnicima	785		4
 štetočinama	154		4
 štiklama			2
 štima	767		2
-štipaljkama	42		2
+štipaljkama	42		3
 štitnicima	51		3
 štitovima	168		4
 štićenicima	406		5
 štokavcima	10		4
 štopericama			5
 štosovima	11		4
-štraftama			2
+štraftama			3
 štrajkačima	263		3
 štrajkovima	425		4
-štreberima		M	2
+štreberima		M	4
 štulama			2
 šubarama	55		4
-šubićima			2
+šubićima			4
 šuma	9888		2
 šumama	3690		3
 šumarcima	102		3
-šumaricama	434		2
-šumetinama			2
+šumaricama	434		3
+šumetinama			3
 šumicama	281		4
 šumovima	46		4
 šupama	102		3
 šupljinama	194		3
 šuracima			3
-šurama			2
-šutevima	378		2
-šutovima			2
-šušnjarima			2
+šurama			3
+šutevima	378		3
+šutovima			4
+šušnjarima			4
 švabama	135		3
-švercerima			2
-šveđanima			2
+švercerima			4
+šveđanima			3
 žabama	148		3
 žabarima	174		4
 žalbama	1043		3
 žalosnima			4
 žalostima	26		4
-žalovima			2
-žaluzijama			2
-žaluzinama			2
+žalovima			4
+žaluzijama			3
+žaluzinama			3
 žandarima	51		3
 žandarma	387		2
-žandarmima	75		2
+žandarmima	75		3
 žanrovima	777		4
 žaokama	24		4
 žargonima			3
 žarištima	140		4
-žbirima			2
+žbirima			3
 žbunovima	40		4
 žderačima			3
 žednima	22		3
-železarama	21		2
+železarama	21		3
 železima			4
 železnicama	970		5
 železničkima			5
-želima			2
+želima			3
 željama	4781		3
 željezničkima			5
 željnima	10		3
 ženama	16188		3
 ženidbama	22		4
 ženkama	145		3
-ženskama			2
+ženskama			3
 ženskima	20		2
-ženskinjama			2
-žeteocima	48		2
-žetonima	22		2
+ženskinjama			3
+žeteocima	48		3
+žetonima	22		3
 žetvama	13		3
 žezlima			3
 žicama	527		3
-žigicama			2
+žigicama			3
 žigovima	120		4
 žilama	540		3
-žiletima			2
-žilicama	27		2
+žiletima			4
+žilicama	27		3
 žirafama	30		3
 žirijima	44		3
 žirovima	10		4
@@ -8427,32 +8427,32 @@ zvučnicima	785		4
 žitnicama	15		4
 živcima	290		3
 živima	754		3
-živopisima	14		2
+živopisima	14		3
 životima	4237		3
 životinjama	5297		4
-životićima			2
-žičarama			2
+životićima			3
+žičarama			3
 žišcima			3
-žiškama			2
+žiškama			3
 žlebovima	37		4
 žlezdama	293		3
-žlezdicama			2
+žlezdicama			3
 žmarcima	12		3
 žonglerima	18		3
 žrtvama	7962		3
 žrtvenicima	17		5
-žrtvovanjima			2
-žrvnjima			2
+žrtvovanjima			3
+žrvnjima			3
 žudnjama	33		3
 žuljevima	91		4
 žumancima	68		3
-žunama			2
+žunama			3
 župama	131		3
 županijama	112		4
 županima	21		4
 žurkama	740		3
 žurnalizma	90		2
-žvakama			2
+žvakama			3
 žvalama	19		3
 besjedama			4
 bijelcima			4
@@ -8464,7 +8464,7 @@ crijevima	40		4
 cvjetovima	41		4
 dijelovima	672		5
 djelima			3
-djelovima			2
+djelovima			4
 djevicama			4
 djevojkama			3
 djevojčicama			4
@@ -8481,19 +8481,19 @@ korijenima	138		5
 letjelicama			5
 lijekovima	109		5
 ljekarima			3
-ljekovima			2
+ljekovima			4
 ljepoticama			4
 ljetopisima			5
 medvjedima			4
 mijenama	14		4
 mjehurićima			4
 mjerama			3
-mjerenjima			2
+mjerenjima			3
 mjerilima			4
 mjesecima			3
 mjestima			3
 mještanima			4
-namjenama			2
+namjenama			3
 namjerama			4
 nedjeljama			4
 nijema	52		3
@@ -8503,7 +8503,7 @@ objema			3
 ocjenama			4
 odijelima	36		4
 odjelima			4
-osjećanjima			2
+osjećanjima			3
 pjegama			3
 pjesama			3
 pjesma			2
@@ -8513,9 +8513,9 @@ pobjednicima			5
 posjedima			4
 posjetama			4
 potjerama			4
-predjelima	195		2
+predjelima	195		4
 predsjednicima			5
-preživjelima			2
+preživjelima			3
 prijedlozima	153		5
 prijeloma	12		4
 prijema	6681		3
@@ -8532,14 +8532,14 @@ rijecima	51		3
 rijekama	179		4
 riječima	6711		4
 rječicama			5
-rječima			2
+rječima			3
 rječnicima			5
 rješenjima			4
 savjetima			4
 savjetnicima			5
 sjedištima			4
 sjemenkama	11		3
-sjenima			2
+sjenima			3
 sjenkama			3
 sjećanjima			4
 slijepima	31		4
@@ -8558,8 +8558,8 @@ tijelima	402		4
 trijema	36		3
 ucjenama			4
 umjetnicima			5
-umjetninama			2
-usjevima			2
+umjetninama			3
+usjevima			3
 uspjesima			4
 uvjerenjima			3
 vijekovima	285		5
@@ -8569,7 +8569,7 @@ vjekovima	375		4
 vjenčanjima			3
 vjernicima			4
 vjerovanjima			5
-vjestima			2
+vjestima			3
 vjetrenjačama			4
 vjetrovima			4
 vjevericama			5
@@ -8584,7 +8584,7 @@ zamjenicima			5
 zasjedama			4
 zavjesama			4
 zavjetima			4
-zbjegovima			2
+zbjegovima			4
 zvijerima	27		4
 zvijezdama	302		4
 žlijezdama			4

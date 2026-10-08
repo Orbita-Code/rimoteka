@@ -14,7 +14,7 @@ knap			1
 lap	1243		1
 map			1
 mutap			2
-naiskap		M	2
+naiskap		M	3
 nap		M	1
 pap			1
 pikap			2

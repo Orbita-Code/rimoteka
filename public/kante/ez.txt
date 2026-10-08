@@ -1,11 +1,11 @@
 63
-Milanez			2
+Milanez			3
 bakrorez	54		3
 bez	503169		1
 bilmez		M	2
-crkolez			2
+crkolez			3
 drvorez	52		3
-duborez	83		2
+duborez	83		3
 džez	4792		1
 elez			2
 englez	859		2
@@ -14,8 +14,8 @@ fez			1
 gavez			2
 izrez	110		2
 janez			2
-jugodžez			2
-kamenorez			2
+jugodžez			3
+kamenorez			3
 kavez	1728		2
 kerkez			2
 kez			1
@@ -23,17 +23,17 @@ kinez	891		2
 knez	8856		1
 krmez		M	2
 lopez			2
-majonez	522		2
-martinez			2
+majonez	522		3
+martinez			3
 melez		M	2
-međupotez		M	2
+međupotez		M	3
 mitraljez			2
-oborknez			2
+oborknez			3
 oprez	2576		2
 ortez			2
 pekmez	345		2
-perorez	20		2
-podsavez	17		2
+perorez	20		3
+podsavez	17		3
 podvez		M	2
 porez	21923		2
 potez	15139		2
@@ -42,11 +42,11 @@ prerez			2
 prevez			2
 prirez	45		2
 prorez	216		2
-puškomitraljez	73		2
-ramirez			2
+puškomitraljez	73		3
+ramirez			3
 razrez	51		2
 rez	2348		1
-rodrigez			2
+rodrigez			3
 savez	20254		2
 serbez			2
 slez	141		1
@@ -59,6 +59,6 @@ uvez			2
 vez	953		1
 vitez	1794		2
 zarez	586		2
-zlatovez	36		2
+zlatovez	36		3
 ćumez		M	2
 čerkez			2

@@ -2,23 +2,23 @@
 aiša			3
 ajiša			3
 ajša			2
-aljoša			2
+aljoša			3
 amiša			3
 andraša			3
 apaša			3
-arambaša			2
+arambaša			3
 autonomaša	308		2
 bakaruša			3
 bakljonoša			4
 bakšiša			3
 balša			2
-bangladeša			2
-batinaša			2
+bangladeša			3
+batinaša			3
 baša			2
 bektaša			3
 beriša			3
-bezemljaša			2
-bezveznjakuša			2
+bezemljaša			3
+bezveznjakuša			3
 birtaša			3
 bivša	6040		2
 blanuša			3
@@ -27,45 +27,45 @@ bogataša	1383		2
 bogiša			3
 bombaša			3
 boriša			3
-botoša			2
+botoša			3
 branša		M	2
 bremenoša			3
 breša			2
 broša	17		2
 brucoša	788		3
-buljubaša		M	2
-burgijaša			2
-bućkuriša	24		2
+buljubaša		M	3
+burgijaša			3
+bućkuriša	24		3
 buša	679		2
 cinkaroša	32		3
 crnjuša			3
 daša			2
 debeljuša		M	3
-delibaša		M	2
-demarša	26		2
-depeša	592		2
+delibaša		M	3
+demarša	26		3
+depeša	592		3
 derviša			3
 deveruša	70		3
 divljakuša	30		3
-dizelaša	559		2
-doboša			2
+dizelaša	559		3
+doboša			3
 dobriša			3
-dolibaša			2
-dođoša			2
+dolibaša			3
+dođoša			3
 dragaša			3
 dragiša			3
-dragoša			2
+dragoša			3
 drniša			3
-drogeraša			2
+drogeraša			3
 duša	13386		2
 džeparoša			3
 fetiša	151		3
 filmaša			3
 finiša	445		3
 flaša		M	2
-folkloraša	39		2
+folkloraša	39		3
 frulaša	226		3
-furtimaša			2
+furtimaša			3
 gakuša		M	3
 garavuša			3
 gargaša			3
@@ -76,38 +76,38 @@ glasonoša	36		3
 glavaša	26		3
 gliša			2
 gnuša	163		2
-goleša			2
+goleša			3
 goša			2
 grmuša	41		3
 groša	441		2
 gruša	14		2
-gubitaša	387		2
+gubitaša	387		3
 gulaša	262		3
 gustiša	22		3
-guteša			2
+guteša			3
 guša	34		2
 hamvaša			3
-harambaša	148		2
+harambaša	148		3
 harmonikaša	200		2
 hašiša	171		3
 hokejaša	76		2
-horgoša			2
+horgoša			3
 hvališa			3
 iskuša	77		3
 ispaša	99		3
-izmeša	160		2
-jagoša			2
+izmeša	160		3
+jagoša			3
 jakša			2
-janoša			2
+janoša			3
 januša			3
 jaša			2
 ješa			2
 jidiša	14		3
 joviša			3
-junoša	226		2
+junoša	226		3
 juriša	438		3
 kaiša			3
-kajakaša	168		2
+kajakaša	168		3
 kamiša			3
 karleuša			3
 karniša			3
@@ -123,15 +123,15 @@ kiša	10463		2
 klepetuša	15		3
 kliconoša	53		3
 knjigonoša			3
-komedijaša	28		2
+komedijaša	28		3
 komeša	53		2
-kompjuteraša	34		2
-korteša			2
-kozopaša			2
+kompjuteraša	34		3
+korteša			3
+kozopaša			3
 kočijaša	177		2
 koša	2354		2
 košarkaša	2847		2
-krajputaša			2
+krajputaša			3
 kraša			2
 kreketuša			3
 krkuša	53		3
@@ -142,12 +142,12 @@ kruša			2
 krša	425		2
 kuglaša	138		3
 kulaša			3
-lajoša			2
+lajoša			3
 lakrdijaša	39		3
 laktaša			3
 lakša	1663		2
-lamanša			2
-latinaša			2
+lamanša			3
+latinaša			3
 leprša	126		2
 lepša	2016		2
 leša	441		2
@@ -161,8 +161,8 @@ luša			2
 mafijaša	444		2
 makiša			3
 mališa		M	3
-mantijaša			2
-marakeša			2
+mantijaša			3
+marakeša			3
 maraša			3
 marjaša			3
 marša	701		2
@@ -171,16 +171,16 @@ mekša	380		2
 međaša	47		3
 meša	4226		2
 miliša			3
-miloša			2
+miloša			3
 minđuša		M	3
 miraša			3
 miša	6268		2
 moša			2
 mrkša			2
 mrša		M	2
-mugoša			2
+mugoša			3
 murdaruša			3
-mutikaša		M	2
+mutikaša		M	3
 nadmaša			3
 naftaša	101		3
 najlakša	245		3
@@ -193,29 +193,29 @@ nataša			3
 navlakuša	87		3
 nađuša			3
 naša	90856		2
-nebojša		M	2
-negoša			2
-neplatiša	221		2
+nebojša		M	3
+negoša			3
+neplatiša	221		3
 neša		M	2
 nikša			2
 niša	3524		2
-njegoša			2
+njegoša			3
 noša	50		2
 odbojkaša	478		2
-odleprša	50		2
-odlikaša	50		2
+odleprša	50		3
+odlikaša	50		3
 okoliša	383		4
 okuša	267		3
 olakša	2586		2
 ološa	344		3
 omekša	734		2
 oponaša	540		2
-orguljaša	38		2
+orguljaša	38		3
 oskoruša	37		4
 ostraguša		M	3
-otporaša	148		2
-očenaša			2
-očeša	11		2
+otporaša	148		3
+očenaša			3
+očeša	11		3
 ošiša	138		2
 pajdaša	12		3
 pajtaša			3
@@ -235,22 +235,22 @@ pleša			2
 pliša	95		2
 pljačkaša	719		2
 poboljša	5049		2
-podrepaša			2
-pogorša	753		2
-pokeraša	20		2
+podrepaša			3
+pogorša	753		3
+pokeraša	20		3
 pokuša	6084		3
 pomeša	497		2
 ponaša	9494		2
 popaša			3
 porša			2
 posluša	1173		3
-potapša	64		2
+potapša	64		3
 potaša			3
 potleuša		M	3
 potrkuša		M	3
-poveša			2
+poveša			3
 pozemljuša			3
-počeša			2
+počeša			3
 pravaša	43		2
 premaša			3
 presluša	80		3
@@ -261,33 +261,33 @@ pripiša			3
 pristaša	83		3
 prizemljuša		M	3
 progruša			3
-prolepša			2
-proljepša		J	2
-promeša	138		2
+prolepša			3
+proljepša		J	3
+promeša	138		3
 prostakuša		M	3
-prvoligaša	898		2
+prvoligaša	898		3
 puniša			3
 puriša			3
-raboša	12		2
-radivojša			2
+raboša	12		3
+radivojša			3
 radiša		M	3
-radoša			2
+radoša			3
 raduša			3
-razmekša	34		2
+razmekša	34		3
 raša		M	2
 reduša	11		3
-reketaša			2
+reketaša			3
 retuša	13		3
 revanša	344		3
-revolveraša	62		2
+revolveraša	62		3
 rikša	15		2
 riđuša		M	3
-robijaša	164		2
+robijaša	164		3
 rukometaša	873		2
 sabljaša			3
 salaša			3
 sasluša	1402		3
-sataraša			2
+sataraša			3
 sačekuša	65		3
 sektaša	64		2
 seša			2
@@ -313,9 +313,9 @@ staša			2
 stegonoša		M	3
 stiša	206		2
 stojša			2
-stokilaša			2
+stokilaša			3
 subaša	85		3
-sutlijaša			2
+sutlijaša			3
 suša	2605		2
 svrabiša			3
 tadeuša			3
@@ -332,15 +332,15 @@ torokuša		M	3
 toša			2
 tranša	367		2
 triša			2
-tronoša			2
+tronoša			3
 tuša	413		2
 udbaša			3
-uglješa			2
+uglješa			3
 ulepša	450		2
-umekša			2
-umeša	976		2
-uroša			2
-uskomeša	43		2
+umekša			3
+umeša	976		3
+uroša			3
+uskomeša	43		3
 ustaša	1848		3
 utiša	321		3
 vaša	32590		2
@@ -348,15 +348,15 @@ velikaša	521		2
 veliša			3
 vetruša			3
 veša	2617		2
-vikendaša	55		2
+vikendaša	55		3
 viša	5426		2
 vodonoša	59		3
 vratiša		M	3
 vrša	11		2
-zaleprša	40		2
+zaleprša	40		3
 zaviša			3
-zelenaša			2
-zeleniša	134		2
+zelenaša			3
+zeleniša	134		3
 zgruša	17		2
 zvezdaša			3
 čardaša	40		3
@@ -375,11 +375,11 @@ zvezdaša			3
 šuša	249		2
 ženskaroša	54		3
 djeveruša			3
-izmiješa	10		2
+izmiješa	10		3
 ljepša	191		2
 miješa	236		3
 mješa			2
 pomiješa	21		3
-smiješa			2
-umiješa	54		2
+smiješa			3
+umiješa	54		3
 vješa			2

@@ -14,16 +14,16 @@ Slovačkoj	181		2
 Turskoj	1228		2
 abrazivnoj			4
 adekvatnoj	270		4
-adresnoj	29		2
+adresnoj	29		3
 advokatskoj	520		2
-aforističnoj			2
+aforističnoj			3
 afričkoj	349		3
 agrarnoj	317		2
 agresivnoj	229		4
 ahoj			2
 ajoj		M	2
 akademskoj	820		3
-akcionoj	64		2
+akcionoj	64		3
 aktiviranoj			3
 aktivnijoj			4
 aktivnoj	586		3
@@ -31,7 +31,7 @@ aktuelnoj	1928		4
 akustičnijoj			4
 akustičnoj			3
 akutnoj	176		3
-akušerskoj			2
+akušerskoj			3
 alarmiranoj			3
 albanskoj	709		2
 alpskoj	54		2
@@ -44,130 +44,130 @@ ambicioznoj			5
 američkoj	5574		3
 analnoj	40		2
 analognoj	100		4
-andrićevoj			2
-aneksionoj			2
+andrićevoj			3
+aneksionoj			3
 animalnoj			4
-aninoj			2
+aninoj			3
 anketnoj	19		3
-anksioznoj			2
+anksioznoj			3
 anonimnoj	113		4
 antiheroj			2
-antiratnoj	14		2
-antiterorističkoj	34		2
+antiratnoj	14		3
+antiterorističkoj	34		3
 antičkoj	465		3
-apelacionoj			2
-aplikativnoj			2
+apelacionoj			3
+aplikativnoj			3
 aprilskoj	68		2
-apsolutističkoj	16		2
+apsolutističkoj	16		3
 apsolutnoj	906		4
 apstraktnijoj			4
 apstraktnoj			3
 apsurdnoj	71		3
-aranđelovoj			2
+aranđelovoj			3
 arapskoj	254		3
-arbanaškoj	34		2
+arbanaškoj	34		3
 arhaičnoj	19		3
 arheološkoj			3
 arhitektonskoj	209		2
-arhivskoj	262		2
+arhivskoj	262		3
 aritmetičkoj	16		3
-arktičkoj	31		2
-armijskoj	15		2
-arnautskoj			2
+arktičkoj	31		3
+armijskoj	15		3
+arnautskoj			3
 arogantnoj	17		2
 aromatičnoj			3
 artističkoj	10		3
-aseksualnoj			2
-asketskoj	22		2
+aseksualnoj			3
+asketskoj	22		3
 astmatičnoj			3
 astralnoj	32		2
-atinskoj	115		2
+atinskoj	115		3
 atlantskoj	62		3
 atletskoj	277		2
 atomskoj	207		2
-auditivnoj			2
-aukcijskoj	187		2
+auditivnoj			3
+aukcijskoj	187		3
 australijskoj	188		3
 austrijskoj	794		2
 austrougarskoj	340		3
-autobuskoj	798		2
-autobusnoj			2
+autobuskoj	798		3
+autobusnoj			3
 autohtonoj	56		3
 automatskoj	109		3
 automobilskoj	1000		3
 autonomnoj	495		5
-autorovoj	42		2
+autorovoj	42		3
 autorskoj	150		4
-avangardnoj	68		2
+avangardnoj	68		3
 avarskoj			2
-avetinjskoj			2
-avgustovoj			2
-avgustovskoj	41		2
+avetinjskoj			3
+avgustovoj			3
+avgustovskoj	41		3
 avionskoj	257		3
 avnoj			2
-avnojskoj	13		2
-avramovoj			2
+avnojskoj	13		3
+avramovoj			3
 azbučnoj			3
 azijskoj	250		3
 azotnoj			3
-azurnoj	260		2
-babinoj			2
+azurnoj	260		3
+babinoj			3
 badnjoj	21		2
-bagatelnoj	125		2
+bagatelnoj	125		3
 bahatoj			3
-bajkovitoj	41		2
+bajkovitoj	41		3
 bajnoj	25		2
-bakarnoj	47		2
-bakingemskoj			2
-bakinoj			2
-baletskoj	151		2
+bakarnoj	47		3
+bakingemskoj			3
+bakinoj			3
+baletskoj	151		3
 balkanskoj	807		2
 balskoj	34		2
-baltimorskoj			2
+baltimorskoj			3
 baltičkoj	47		3
 banalnijoj			3
 banalnoj	54		2
-banatskoj	295		2
-bandažiranoj			2
-bangavoj			2
-banjalučkoj	191		2
+banatskoj	295		3
+bandažiranoj			3
+bangavoj			3
+banjalučkoj	191		3
 banjskoj			2
 bankarskoj	279		2
-banovoj			2
+banovoj			3
 banskoj			2
-baptističkoj	20		2
-baranjskoj	21		2
-baroknoj	161		2
-baronskoj			2
+baptističkoj	20		3
+baranjskoj	21		3
+baroknoj	161		3
+baronskoj			3
 barskoj	149		2
 basnoslovnoj			4
 batinanoj			3
 bavarskoj	166		3
-bazelskoj			2
+bazelskoj			3
 baziranoj	126		3
 baznoj	109		2
 bačenoj	14		3
 bačkoj	2605		2
-bačvanskoj			2
-baštenskoj	28		2
-baštinskoj			2
-baštovanovoj			2
-bebastoj			2
-bebinoj			2
+bačvanskoj			3
+baštenskoj	28		3
+baštinskoj			3
+baštovanovoj			3
+bebastoj			3
+bebinoj			3
 bednoj	190		2
-begovoj			2
-begovskoj			2
+begovoj			3
+begovskoj			3
 beknutoj			3
 belgijskoj	189		2
-beličastoj			2
+beličastoj			3
 beloj			2
 beloruskoj	63		4
 benignoj	38		2
-benzinskoj	482		2
-beočinskoj			2
-berišinoj			2
+benzinskoj	482		3
+beočinskoj			3
+berišinoj			3
 berlinskoj	133		2
-berzanskoj	71		2
+berzanskoj	71		3
 besklasnoj			3
 beskonačnoj	100		3
 beskrajnoj	218		2
@@ -175,7 +175,7 @@ beskrupuloznoj			5
 besmislenoj	92		4
 besmrtnoj	41		3
 besnoj	198		2
-besomučnoj	42		2
+besomučnoj	42		3
 besplatnoj	374		3
 besplodnoj	10		3
 bespravnoj	47		2
@@ -186,11 +186,11 @@ betonskoj	157		2
 bezazlenijoj			4
 bezazlenoj	61		3
 bezbednoj	334		3
-bezbednosnoj	373		2
+bezbednosnoj	373		3
 bezbožnoj	12		3
 bezbrižnoj	29		3
 bezbroj	6099		2
-bezdanoj			2
+bezdanoj			3
 bezdušnoj	20		3
 bezglasnoj			3
 bezglavoj	11		3
@@ -198,77 +198,77 @@ bezgraničnoj	68		4
 bezimenoj	17		4
 bezizlaznoj	240		3
 bezličnoj	23		3
-bezmernoj	11		2
-beznadežnoj	48		2
+bezmernoj	11		3
+beznadežnoj	48		3
 beznačajnoj	38		4
 bezopasnoj	29		4
 bezočnoj	19		3
 bezrazložnoj	10		3
 bezuboj			3
 bezumnoj	32		2
-bezuslovnoj	113		2
+bezuslovnoj	113		3
 bezvodnoj	16		3
-bećarskoj			2
-bečejskoj	72		2
+bećarskoj			3
+bečejskoj	72		3
 bečkoj	431		2
 bešćutnoj			3
 beživotnoj	22		4
-bežičnoj	106		2
-biblijskoj	126		2
+bežičnoj	106		3
+biblijskoj	126		3
 biciklističkoj	222		3
-bihaćkoj	16		2
+bihaćkoj	16		3
 bijesnoj			3
-bilansnoj	41		2
+bilansnoj	41		3
 biljnoj	447		2
-binarnoj	23		2
+binarnoj	23		3
 biološkoj	413		3
-biseksualnoj			2
-bisernoj	17		2
+biseksualnoj			3
+bisernoj	17		3
 bistroj	96		2
 bitnoj	381		2
-bitoljskoj			2
-bivoljoj			2
+bitoljskoj			3
+bivoljoj			3
 bivšoj	4946		2
 bizarnoj	62		3
 bičevanoj			4
 blagoj	525		2
 blatnjavoj	53		3
 blatnoj	14		2
-blaženoj	146		2
+blaženoj	146		3
 blažoj	149		2
 blebetanoj			3
 bledoj	34		2
-blentavoj			2
-blesavijoj			2
-blesavoj	17		2
+blentavoj			3
+blesavijoj			3
+blesavoj	17		3
 bleštavoj			3
 blijedoj			3
-blindiranoj			2
-bliskijoj			2
+blindiranoj			3
+bliskijoj			3
 bliskoj	3385		2
 blistavijoj			4
 blistavoj	130		3
 bližoj	1281		2
 blještavoj			3
 bljutavoj			3
-bljuzgavoj			2
+bljuzgavoj			3
 bludnoj			2
-bobićevoj			2
-bobovoj			2
+bobićevoj			3
+bobovoj			3
 bodljikavoj	25		4
 bodroj			2
-bogataškoj	10		2
+bogataškoj	10		3
 bogatijoj	80		4
 bogatoj	1707		3
-bogolikoj			2
-bogoslužbenoj	53		2
-bogovskoj			2
+bogolikoj			3
+bogoslužbenoj	53		3
+bogovskoj			3
 boj	2262		1
 bojenoj			3
-bojevoj			2
+bojevoj			3
 bojnoj	17		2
-bokserskoj	16		2
-bolesnikovoj			2
+bokserskoj	16		3
+bolesnikovoj			3
 bolesničkoj	79		2
 bolesnoj	386		3
 boljoj	3027		2
@@ -276,64 +276,64 @@ boljšoj			2
 bolnijoj			3
 bolničkoj	249		3
 bolnoj	125		2
-boračkoj	61		2
+boračkoj	61		3
 borbenoj	317		3
-borinoj			2
-borisovoj			2
+borinoj			3
+borisovoj			3
 borivoj			3
-borovoj	96		2
+borovoj	96		3
 borskoj	447		2
 bosanskoj	731		3
-bostonskoj	37		2
+bostonskoj	37		3
 botaničkoj	187		3
 bočnoj	246		2
 bošnjačkoj	396		2
 božanskoj	394		2
 božijoj	904		3
-božinoj			2
+božinoj			3
 božićnoj	258		3
 božjoj	1182		2
 branivoj			1
 branjenoj			3
-brankovoj			2
+brankovoj			3
 branoj			2
 bratoubilačkoj			4
 bratskoj	375		2
 brazilskoj	169		2
-braćenoj			2
+braćenoj			3
 bračnoj	284		2
 brdovitoj	29		4
 brdskoj	137		2
-bremenitoj	18		2
-briljantnoj	84		2
+bremenitoj	18		3
+briljantnoj	84		3
 briselskoj	150		3
 britanskoj	1311		2
-brljavoj			2
-brodarskoj	15		2
+brljavoj			3
+brodarskoj	15		3
 brodskoj	69		2
 broj	270419		1
 brojčanoj	48		3
-brokerskoj	62		2
-bronzanoj	61		2
+brokerskoj	62		3
+bronzanoj	61		3
 brutalnoj	98		3
 brzoj	1037		2
 brzopletoj			4
-brčanskoj	47		2
+brčanskoj	47		3
 bržoj	219		2
-budimskoj	31		2
+budimskoj	31		3
 budnoj	19		2
 budućoj	2457		2
-budvanskoj	172		2
+budvanskoj	172		3
 budžetskoj	489		3
 bugarskoj	577		3
 bukovoj	55		3
 bukvalnoj	15		3
-bulonjskoj			2
-bunićevoj			2
+bulonjskoj			3
+bunićevoj			3
 buntovnoj	17		3
 burmanskoj			3
 burnoj	242		2
-buržoaskoj	37		2
+buržoaskoj	37		3
 butnoj	16		2
 buvljoj	143		2
 bučnoj	73		2
@@ -345,22 +345,22 @@ carskoj	721		2
 celoj	16264		2
 celokupnoj	1181		3
 celovitoj	69		3
-cementnoj	57		2
+cementnoj	57		3
 cenjenoj	75		3
-cenovnoj	261		2
-centralnoj	6935		2
-cenzorskoj			2
+cenovnoj	261		3
+centralnoj	6935		3
+cenzorskoj			3
 cerskoj	79		2
-cetinjskoj	108		2
-cetinskoj	13		2
+cetinjskoj	108		3
+cetinskoj	13		3
 cevnoj	10		2
 ciganskoj	40		3
 ciljnoj	570		2
-cincarskoj			2
-citiranoj	12		2
-civilizovanoj	85		2
-civilnoj	410		2
-cokićevoj			2
+cincarskoj			3
+citiranoj	12		3
+civilizovanoj	85		3
+civilnoj	410		3
+cokićevoj			3
 crkvenoj	1354		3
 crkvenoslovenskoj			4
 crnačkoj	24		3
@@ -370,73 +370,73 @@ crvenkastoj	23		4
 crvenoj	3748		3
 crvenokosoj	11		4
 cvetnoj	99		2
-cvijićevoj			2
+cvijićevoj			3
 dalekoj	1495		3
 daljnoj	14		2
 daljoj	2514		2
 dalmatskoj			3
 današnjoj	7324		3
-daničinoj			2
+daničinoj			3
 danoj	40		2
 danonoćnoj	12		4
 danskoj	131		2
 darovanoj	15		3
 darovitoj	35		3
 datoj	176		2
-davnašnjoj	22		2
+davnašnjoj	22		3
 davnoj	338		2
-debarskoj			2
+debarskoj			3
 debeloj	260		3
-decimalnoj	13		2
-dedeićevoj			2
-dedinoj			2
-dejanovoj			2
-dejtonskoj	49		2
-dekanovoj			2
+decimalnoj	13		3
+dedeićevoj			3
+dedinoj			3
+dejanovoj			3
+dejtonskoj	49		3
+dekanovoj			3
 deklarativnoj	33		5
 delikatnoj	195		4
-delimičnoj	138		2
+delimičnoj	138		3
 demagoškoj	20		3
 demokratskoj	4039		3
 demonskoj	44		2
-depozitnoj			2
-deseteračkoj	14		2
-desetoboj	45		2
+depozitnoj			3
+deseteračkoj	14		3
+desetoboj	45		3
 desetoj	435		2
-desinoj			2
+desinoj			3
 desnoj	4789		2
 despotskoj	16		3
 detaljnoj	168		3
-detektivskoj	35		2
+detektivskoj	35		3
 detinjastoj	14		4
 detinjoj	26		3
-detinjskoj			2
+detinjskoj			3
 devetoj	572		2
-deviznoj	147		2
-devojačkoj	71		2
-dečakovoj	15		2
-dečanskoj	92		2
-dečačkoj	18		2
-dečijoj			2
+deviznoj	147		3
+devojačkoj	71		3
+dečakovoj	15		3
+dečanskoj	92		3
+dečačkoj	18		3
+dečijoj			3
 dečjoj	1012		2
 dežurnoj	154		2
-digitalnoj	968		2
-dijahronijskoj			2
-dinamizovanoj			2
-dinamičkoj	79		2
-dinamičnijoj	11		2
-dinamičnoj	210		2
-dinarskoj	1490		2
-dinkićevoj			2
+digitalnoj	968		3
+dijahronijskoj			3
+dinamizovanoj			3
+dinamičkoj	79		3
+dinamičnijoj	11		3
+dinamičnoj	210		3
+dinarskoj	1490		3
+dinkićevoj			3
 diplomatskoj	615		3
-diplomskoj	29		2
+diplomskoj	29		3
 direktnoj	2075		3
-direktorovoj			2
+direktorovoj			3
 dirljivoj	61		3
-disciplinskoj	195		2
-disketnoj			2
-diskografskoj	38		2
-diskontnoj	30		2
+disciplinskoj	195		3
+disketnoj			3
+diskografskoj	38		3
+diskontnoj	30		3
 diskretnoj	52		3
 divljačkoj	12		2
 divljoj	272		2
@@ -444,60 +444,60 @@ divnoj	605		2
 divovskoj	18		3
 dičnoj	10		2
 dječjoj		J	2
-dnevničkoj	11		2
+dnevničkoj	11		3
 dnevnoj	2702		2
 dobijenoj	85		4
 doboj			2
-dobračinoj			2
+dobračinoj			3
 dobrivoj			3
 dobroj	6700		2
 dobrotvornoj	149		4
-dobroumnoj			2
-dobrovoljnoj	597		2
-docnijoj			2
+dobroumnoj			3
+dobrovoljnoj	597		3
+docnijoj			3
 dodatnoj	433		3
-dodatoj			2
-događajnoj			2
-doglednoj	451		2
+dodatoj			3
+događajnoj			3
+doglednoj	451		3
 dogmatskoj	30		3
-dogovornoj	25		2
-dograđenoj			2
+dogovornoj	25		3
+dograđenoj			3
 dokazanoj	29		3
 dokonoj			3
-doktorovoj	19		2
+doktorovoj	19		3
 doktorskoj	217		3
-dolazećoj	68		2
+dolazećoj	68		3
 domaćinskoj	79		2
 domaćoj	5371		2
-dominikanskoj	170		2
+dominikanskoj	170		3
 domovinskoj			4
-donesenoj	31		2
+donesenoj	31		3
 donetoj	118		2
 donjoj	2169		2
-dopisnoj	11		2
+dopisnoj	11		3
 dopunjenoj	15		4
 dopunskoj	68		3
 dosadašnjoj	1782		3
 dosadnijoj			4
 dosadnoj	84		3
 dostupnoj	171		3
-dotadašnjoj	147		2
-dotičnoj	355		2
-dotučenoj			2
+dotadašnjoj	147		3
+dotičnoj	355		3
+dotučenoj			3
 dovoljnoj	1739		3
 dovršenoj			3
-doživljenoj			2
+doživljenoj			3
 doživotnoj	63		4
 dragocenoj	62		3
 dragoj	613		2
 dramatičnoj	304		3
 dramskoj	354		2
 drastičnoj	61		3
-dražinoj			2
-dreničkoj			2
+dražinoj			3
+dreničkoj			3
 dresiranoj			3
 drevnoj	622		2
-drhtećoj			2
+drhtećoj			3
 drinskoj	74		2
 drugačijoj	683		3
 drugoj	45850		2
@@ -508,8 +508,8 @@ drvenoj	391		3
 drvnoj	157		2
 držanoj			3
 državnoj	10395		2
-držićevoj			2
-dubinskoj	79		2
+držićevoj			3
+dubinskoj	79		3
 dubljoj	207		2
 dubokoj	1688		3
 dugačkoj	378		2
@@ -520,257 +520,257 @@ duhovitoj	79		3
 duhovnoj	1294		2
 dunavskoj	603		3
 duploj	102		2
-duvanskoj	236		2
-dućićevoj			2
-dučićevoj			2
-dušanovoj			2
-duševnoj	137		2
-duždevoj	12		2
+duvanskoj	236		3
+dućićevoj			3
+dučićevoj			3
+dušanovoj			3
+duševnoj	137		3
+duždevoj	12		3
 dužnoj	16		2
 dužoj	404		2
-dvadesetoj	132		2
-dvanaestoj	198		2
-dvestotoj			2
+dvadesetoj	132		3
+dvanaestoj	198		3
+dvestotoj			3
 dvoboj	570		2
 dvobroj	161		2
-dvodnevnoj	351		2
-dvojakoj	10		2
+dvodnevnoj	351		3
+dvojakoj	10		3
 dvojnoj	59		2
-dvorišnoj	84		2
+dvorišnoj	84		3
 dvorskoj	151		2
 dvosmislenoj			4
-dvostranoj	17		2
+dvostranoj	17		3
 dvostrukoj	289		3
 džinovskoj	43		3
 efektivnoj	66		4
 efemernoj			4
 efikasnoj	345		4
-egejskoj	36		2
+egejskoj	36		3
 egipatskoj	300		4
 egzaktnoj	24		3
 egzistencijalističkoj	10		3
 egzotičnoj	143		3
 ekavskoj	16		3
-ekipnoj	524		2
+ekipnoj	524		3
 ekološkoj	707		3
 ekonomskoj	7009		3
-ekscesnoj			2
+ekscesnoj			3
 ekskluzivnoj	301		4
-eksperimentalnoj	252		2
+eksperimentalnoj	252		3
 eksplozivnoj	56		4
-eksternoj			2
+eksternoj			3
 ekstremnoj	210		2
-ekumenskoj	18		2
-ekvatorijalnoj	65		2
-ekvatorskoj			2
+ekumenskoj	18		3
+ekvatorijalnoj	65		3
+ekvatorskoj			3
 elastičnoj	15		3
 elegantnoj	136		2
-električnoj	492		2
+električnoj	492		3
 elektronskoj	2453		2
 elementarnoj	173		5
-eliminacionoj	67		2
-elitnoj	343		2
-emitovanoj	92		2
+eliminacionoj	67		3
+elitnoj	343		3
+emitovanoj	92		3
 emocionalnoj	144		6
 emotivnoj	410		4
-energetskoj	1718		2
+energetskoj	1718		3
 energičnoj	43		3
 engleskoj	705		2
-epirskoj			2
+epirskoj			3
 epskoj	303		2
 erotskoj	72		3
-esejističkoj	14		2
+esejističkoj	14		3
 estetskoj	273		2
-estradnoj	93		2
+estradnoj	93		3
 etičkoj	138		3
-etničkoj	824		2
-etnološkoj	46		2
+etničkoj	824		3
+etnološkoj	46		3
 euforičnoj	22		3
 eventualnoj	979		5
 evropskoj	19374		3
 fabričkoj	202		3
 faktičkoj	55		3
-fakultetskoj	55		2
+fakultetskoj	55		3
 famoznoj	171		3
 fantastičnoj	406		3
-fantomskoj	58		2
-faraonskoj			2
-farmaceutskoj	726		2
-farsičnoj	10		2
+fantomskoj	58		3
+faraonskoj			3
+farmaceutskoj	726		3
+farsičnoj	10		3
 fatalnoj	58		3
 fašističkoj	182		3
-federalnoj	385		2
+federalnoj	385		3
 feudalnoj	63		4
 ficroj			2
 fiksnoj	597		2
 filmskoj	1507		2
 filološkoj	79		3
-filosofskoj	44		2
-filozofskoj	244		2
-finalnoj	1503		2
+filosofskoj	44		3
+filozofskoj	244		3
+finalnoj	1503		3
 finansijskoj	3030		2
 finoj	170		2
 finskoj	513		2
-fiskalnoj	1309		2
-fiskulturnoj			2
-fizikalnoj	79		2
+fiskalnoj	1309		3
+fiskulturnoj			3
+fizikalnoj	79		3
 fizičkoj	1384		3
-flaširanoj	31		2
+flaširanoj	31		3
 fleksibilnijoj			5
-flotantnoj			2
-fobičnoj			2
-folklornoj	135		2
+flotantnoj			3
+fobičnoj			3
+folklornoj	135		3
 fonološkoj			3
-forenzičkoj	36		2
+forenzičkoj	36		3
 formalnoj	201		2
 franačkoj	15		3
 francuskoj	1559		2
-fratarskoj			2
+fratarskoj			3
 fruškoj			2
-fudbalskoj	1291		2
+fudbalskoj	1291		3
 funkcionalnoj	252		5
 gadnoj	37		2
-gajevoj			2
-galenskoj	25		2
-garažnoj			2
-gardaševoj			2
-gardijskoj	19		2
+gajevoj			3
+galenskoj	25		3
+garažnoj			3
+gardaševoj			3
+gardijskoj	19		3
 gasnoj	235		2
-gavanskoj			2
-gazdinoj			2
-gazdinskoj			2
+gavanskoj			3
+gazdinoj			3
+gazdinskoj			3
 generalnoj	1632		4
-generičkoj	21		2
+generičkoj	21		3
 genetičkoj	34		3
-genetskoj	157		2
+genetskoj	157		3
 genijalnoj	48		4
-genitalnoj	43		2
-genocidnoj	103		2
+genitalnoj	43		3
+genocidnoj	103		3
 geografskoj	534		3
-geološkoj	154		2
+geološkoj	154		3
 geometrijskoj	48		2
-gerilskoj	14		2
+gerilskoj	14		3
 germanskoj	69		2
 gigantskoj	37		3
-gimnastičkoj	35		2
-gimnazijskoj	43		2
-gizdavoj			2
+gimnastičkoj	35		3
+gimnazijskoj	43		3
+gizdavoj			3
 gladnoj	111		2
 glasnoj	31		2
 glasovitoj	17		3
-glasovnoj	26		2
+glasovnoj	26		3
 glatkoj	98		2
-glavnijoj			2
+glavnijoj			3
 glavnoj	4658		2
-glačanoj			2
+glačanoj			3
 globalnoj	2519		2
 gluhoj	20		2
-glumačkoj	353		2
-glumčevoj	11		2
+glumačkoj	353		3
+glumčevoj	11		3
 glupavoj	19		3
 glupoj	105		2
 gluvoj	59		2
 gnevnoj			2
-gnjilanskoj			2
+gnjilanskoj			3
 gnoj	338		1
-gnojavoj			2
+gnojavoj			3
 gnojnoj			2
 gnusnoj	18		2
 godišnjoj	1975		3
 godoj			2
 goj			1
 golemoj	58		3
-golišavoj			2
+golišavoj			3
 goloj	294		2
-golubičinoj			2
+golubičinoj			3
 gordoj	19		2
 gorkoj	53		2
 gornjoj	2497		2
 goroj	283		2
-gorovitoj			2
+gorovitoj			3
 gorskoj	27		2
 gorućoj	17		2
-gospićkoj	16		2
-gospodnjoj			2
+gospićkoj	16		3
+gospodnjoj			3
 gospodskoj	52		3
-gospođinoj			2
-gostinjskoj	13		2
-gostinskoj	60		2
+gospođinoj			3
+gostinjskoj	13		3
+gostinskoj	60		3
 gotičkoj	10		3
 gotovoj	51		3
-govornoj	88		2
-gošinoj			2
-gradonačelnikovoj			2
+govornoj	88		3
+gošinoj			3
+gradonačelnikovoj			3
 gradskoj	10059		2
-grafijskoj			2
-grafičkoj	620		2
+grafijskoj			3
+grafičkoj	620		3
 gramatičkoj	36		3
 gramzivoj			3
 graničnoj	241		3
-gravitacionoj	36		2
+gravitacionoj	36		3
 građanskoj	740		3
 građevinskoj	1644		4
-grdeličkoj			2
+grdeličkoj			3
 grdnoj	26		2
 grejnoj	240		2
 grešnoj	65		2
 grkoj			2
 grobnoj	49		2
 grockoj			2
-grofovskoj	11		2
+grofovskoj	11		3
 grotesknoj	33		2
-grozničavoj	37		2
+grozničavoj	37		3
 groznoj	50		2
 gruboj	295		2
 grudnoj	73		2
 grupnoj	656		2
 gruzijskoj	65		3
-grčevitoj	33		2
+grčevitoj	33		3
 grčkoj	1298		2
-gubitničkoj	54		2
+gubitničkoj	54		3
 gumenoj	29		3
-guslarskoj	18		2
+guslarskoj	18		3
 gustoj	325		2
-guvernerovoj			2
+guvernerovoj			3
 gvozdenoj	97		3
-habsburškoj	68		2
-hadžijskoj			2
-hajdučkoj	57		2
-haotičnoj	99		2
-hardverskoj	86		2
+habsburškoj	68		3
+hadžijskoj			3
+hajdučkoj	57		3
+haotičnoj	99		3
+hardverskoj	86		3
 havajskoj	15		2
-hazarskoj	34		2
+hazarskoj	34		3
 haškoj	261		2
-hebrejskoj			2
-helenskoj	43		2
-helsinškoj	30		2
+hebrejskoj			3
+helenskoj	43		3
+helsinškoj	30		3
 hemijskoj	767		2
 hercegovačkoj	72		5
 heroj	3725		2
 herojskoj	121		2
-hijeninoj			2
-hiljaditoj			2
-hirurškoj	240		2
+hijeninoj			3
+hiljaditoj			3
+hirurškoj	240		3
 hitnoj	1177		2
 hladnoj	855		2
-hladovitoj			2
-hokejaškoj	18		2
+hladovitoj			3
+hokejaškoj	18		3
 holandskoj	232		3
-holivudskoj	159		2
+holivudskoj	159		3
 homogenoj	45		4
 horizontalnoj	271		5
 horskoj	57		2
 hotelskoj	559		3
 hotimičnoj			4
 hrabroj	204		2
-hraniteljskoj	179		2
+hraniteljskoj	179		3
 hrapavoj	21		3
 hrastovoj	36		3
-hristovoj			2
+hristovoj			3
 hrišćanskoj	1171		2
 hroničnoj	167		3
 hrvatskoj	2381		2
-hrđavoj			2
+hrđavoj			3
 humanitarnoj	1108		5
 humanoj	356		3
 humorističkoj	64		3
@@ -779,7 +779,7 @@ humskoj	699		2
 hunskoj			2
 hučnoj			2
 hvaljenoj			3
-ibarskoj			2
+ibarskoj			3
 idealističkoj	18		3
 idealnoj	499		4
 idejnoj	72		2
@@ -788,49 +788,49 @@ ideološkoj	500		3
 idiličnoj	76		3
 idiotskoj	27		3
 idućoj	578		2
-igranoj	46		2
-igračkoj	199		2
-igumanovoj	11		2
-ijednoj			2
+igranoj	46		3
+igračkoj	199		3
+igumanovoj	11		3
+ijednoj			3
 ikakvoj	30		3
 ilegalnoj	152		4
 ilirskoj	73		2
-ilićevoj			2
+ilićevoj			3
 iluzornoj			4
 imanentnoj	29		2
-imendanskoj			2
-imigracionoj	17		2
+imendanskoj			3
+imigracionoj	17		3
 imovinskoj	169		4
 imućnijoj			4
 imućnoj	59		3
-indeksnoj	26		2
-indiferentnoj			2
+indeksnoj	26		3
+indiferentnoj			3
 indijanskoj	20		2
 indijskoj	420		2
 individualnoj	441		6
 industrijskoj	2040		2
 infantilnoj	24		4
-infarktnoj			2
+infarktnoj			3
 inferiornoj	21		5
-inostranoj	269		2
+inostranoj	269		3
 inoviranoj			3
-instalacionoj			2
-instaliranoj	27		2
+instalacionoj			3
+instaliranoj	27		3
 intelektualnoj	649		6
 intenzivnoj	585		4
-interesnoj	168		2
+interesnoj	168		3
 internacionalnoj	510		7
-internetskoj	125		2
+internetskoj	125		3
 internoj	472		3
 intimnijoj	25		4
 intimnoj	329		3
 invalidskoj	111		2
-investicionoj	351		2
+investicionoj	351		3
 iranskoj	150		2
 iračkoj	107		2
 ironičnoj	28		3
 irskoj	107		2
-iscepanoj			2
+iscepanoj			3
 iscrpljenoj	23		3
 iscrpnoj	56		3
 iseljenoj			3
@@ -841,86 +841,86 @@ isključivoj	307		3
 iskonskoj	96		3
 iskopanoj	22		3
 iskrenoj	298		3
-iskrpljenoj			2
-iskrzanoj			2
+iskrpljenoj			3
+iskrzanoj			3
 iskusnijoj	17		4
 iskusnoj	55		3
-iskvarenoj			2
+iskvarenoj			3
 islamskoj	1053		2
 ismejanoj			3
-ispitnoj	63		2
-isplakanoj			2
-ispovednoj	12		2
+ispitnoj	63		3
+isplakanoj			3
+ispovednoj	12		3
 ispravnoj	93		3
 ispraznoj	25		3
 ispražnjenoj			3
-isprošenoj			2
-ispruženoj			2
+isprošenoj			3
+ispruženoj			3
 ispunjenoj	175		4
 istaknutoj	14		3
-istančanoj	10		2
+istančanoj	10		3
 istarskoj	38		3
-istegnutoj			2
+istegnutoj			3
 istinitoj	318		4
 istinskoj	398		3
-istkanoj			2
+istkanoj			3
 istoimenoj	859		4
 istoj	19234		2
-istokrvnoj			2
-istorijskoj	1828		2
+istokrvnoj			3
+istorijskoj	1828		3
 istovetnoj	59		3
-istočnjačkoj	50		2
+istočnjačkoj	50		3
 istočnoj	7176		3
-istrajnoj	27		2
+istrajnoj	27		3
 istraženoj			3
 istraživačkoj	620		2
-istražnoj	59		2
-isturenoj	37		2
-isusovoj			2
+istražnoj	59		3
+isturenoj	37		3
+isusovoj			3
 italijanskoj	1267		2
-ivanićevoj			2
-ivićevoj			2
+ivanićevoj			3
+ivićevoj			3
 izabranoj	291		4
-izanđaloj			2
+izanđaloj			3
 izazvanoj	121		3
 izboj	19		2
 izbornoj	5034		2
 izbroj			2
 izdatoj	95		3
-izdavačkoj	872		2
+izdavačkoj	872		3
 izdašnoj	23		3
-izdignutoj			2
-izdišućoj			2
+izdignutoj			3
+izdišućoj			3
 izdržanoj			3
-izdubljenoj			2
-izduženoj			2
+izdubljenoj			3
+izduženoj			3
 izdvoj			2
 izdvojenoj	15		3
 izgnanoj			3
-izgoreloj	17		2
-izgovorenoj	69		2
+izgoreloj	17		3
+izgovorenoj	69		3
 izgrađenoj	138		3
 izgubljenoj	248		3
-izjedenoj			2
+izjedenoj			3
 izlaznoj	126		3
-izlivenoj			2
-izlokanoj			2
+izlivenoj			3
+izlokanoj			3
 izlomljenoj			3
 izložbenoj	136		4
-izloženoj	90		2
-izmenjenoj	20		2
-izmešanoj			2
+izloženoj	90		3
+izmenjenoj	20		3
+izmešanoj			3
 izmišljenoj	117		4
-izmučenoj	19		2
+izmučenoj	19		3
 iznajmljenoj			3
 iznenadnoj	132		4
 iznenađujućoj	13		4
 iznetoj	19		2
 iznošenoj			3
-iznurenoj	11		2
+iznurenoj	11		3
 izobličenoj			3
-izokrenutoj			2
-izoliranoj			2
+izokrenutoj			3
+izoliranoj			3
 izolovanoj	33		5
 izopačenoj	22		3
 izraelskoj	259		4
@@ -929,32 +929,32 @@ izrađenoj	41		3
 izražajnoj	17		4
 izraženoj	72		3
 izrečenoj	59		4
-izričitoj	86		2
+izričitoj	86		3
 izuzetnoj	886		4
 izvanrednoj	425		3
 izvedenoj	69		3
 izvesnoj	1338		3
-izvijenoj			2
-izvikanoj			2
-izviđačkoj	45		2
-izvornijoj			2
-izvornoj	350		2
-izvoznoj	167		2
-izvođačkoj	41		2
+izvijenoj			3
+izvikanoj			3
+izviđačkoj	45		3
+izvornijoj			3
+izvornoj	350		3
+izvoznoj	167		3
+izvođačkoj	41		3
 izvrsnoj	134		3
-izvršenoj	642		2
-izvršnoj	873		2
+izvršenoj	642		3
+izvršnoj	873		3
 izvučenoj			3
 iščupanoj			3
-jabukinoj			2
+jabukinoj			3
 jadnoj	485		2
 jadranskoj	867		3
-jagićevoj			2
-jagnjećoj	98		2
-jagodinskoj	160		2
-jagoševoj			2
+jagićevoj			3
+jagnjećoj	98		3
+jagodinskoj	160		3
+jagoševoj			3
 jakoj	1723		2
-jakšićevoj			2
+jakšićevoj			3
 jalovoj	50		3
 jaoj			2
 japanskoj	788		2
@@ -962,7 +962,7 @@ jarećoj			3
 jarkoj	59		2
 jasnijoj	18		3
 jasnoj	384		2
-javnijoj			2
+javnijoj			3
 javnoj	7011		2
 jačoj	386		2
 jedinoj	1281		2
@@ -971,20 +971,20 @@ jednakoj	359		3
 jednoj	57149		2
 jednosmernoj	44		4
 jednostavnoj	498		4
-jednovernoj			2
+jednovernoj			3
 jeftinijoj	192		4
 jeftinoj	310		3
-jeftićevoj			2
-jeleninoj			2
-jelovoj	20		2
-jeretičkoj	16		2
+jeftićevoj			3
+jeleninoj			3
+jelovoj	20		3
+jeretičkoj	16		3
 jermenskoj	63		2
 jesenjoj	352		2
 jesenskoj	13		2
-jetrenoj			2
-jevrejskoj	656		2
-jevtinijoj			2
-jevtinoj			2
+jetrenoj			3
+jevrejskoj	656		3
+jevtinijoj			3
+jevtinoj			3
 jezerskoj	54		3
 jezivoj	51		3
 jezičkoj	499		3
@@ -992,187 +992,187 @@ jezičnoj	24		3
 joj	143207		1
 jonskoj	18		2
 jordanskoj	45		3
-jovanovoj			2
-jubilarnoj	275		2
+jovanovoj			3
+jubilarnoj	275		3
 judejskoj	49		2
 jugoistočnoj	4031		3
 jugoslovenskoj	1347		2
 jugozapadnoj	502		3
 julskoj	58		2
-junakinjinoj			2
+junakinjinoj			3
 junačkoj	78		2
-juniorskoj	941		2
+juniorskoj	941		3
 junskoj	63		2
 jutarnjoj	227		3
 jutrošnjoj	62		3
 juznoj			2
 jučerašnjoj	1588		3
-južnjačkoj	13		2
-južnoafričkoj	493		2
+južnjačkoj	13		3
+južnoafričkoj	493		3
 južnoj	10708		2
-kabelskoj			2
-kablarskoj			2
-kablovskoj	269		2
-kadetskoj	382		2
-kadivkinoj			2
-kadrovskoj	271		2
-kafanskoj	82		2
-kairskoj	16		2
+kabelskoj			3
+kablarskoj			3
+kablovskoj	269		3
+kadetskoj	382		3
+kadivkinoj			3
+kadrovskoj	271		3
+kafanskoj	82		3
+kairskoj	16		3
 kajkavskoj			3
 kakvoj	5590		2
-kaldrmisanoj			2
+kaldrmisanoj			3
 kalifornijskoj	86		2
-kaljavoj			2
-kaljevoj			2
-kamatnoj	539		2
+kaljavoj			3
+kaljevoj			3
+kamatnoj	539		3
 kamenitoj	49		3
 kamenoj	289		3
-kamernoj			2
+kamernoj			3
 kanadskoj	233		3
-kanonskoj	95		2
-kapetanovoj			2
+kanonskoj	95		3
+kapetanovoj			3
 kapitalnoj	48		4
-karadžićevoj			2
+karadžićevoj			3
 karakterističnoj	134		3
-karađorđevoj			2
-kardiografskoj			2
+karađorđevoj			3
+kardiografskoj			3
 karipskoj	34		3
 kariranoj	37		3
-kartelskoj			2
+kartelskoj			3
 kartonskoj	143		2
 kasnijoj	687		3
 kasnoj	156		2
-kataloškoj	28		2
+kataloškoj	28		3
 katoličkoj	1013		4
 kauboj	212		3
-kaurskoj			2
+kaurskoj			3
 kazališnoj	23		4
-kazanjskoj			2
-kazanskoj			2
+kazanjskoj			3
+kazanskoj			3
 kaznenoj	119		3
-kačićevoj			2
-kažnjeničkoj	21		2
-kelnerskoj			2
+kačićevoj			3
+kažnjeničkoj	21		3
+kelnerskoj			3
 keltskoj	40		2
 keramičkoj	69		3
-kijevskoj	107		2
-kikindskoj	876		2
-kilavoj			2
+kijevskoj	107		3
+kikindskoj	876		3
+kilavoj			3
 kineskoj	1501		2
-kiparskoj	101		2
-kipućoj	56		2
+kiparskoj	101		3
+kipućoj	56		3
 kiseloj	90		3
-kitnjastoj			2
+kitnjastoj			3
 kitovoj			3
 kićenoj			3
-kičmenoj			2
+kičmenoj			3
 kišnoj	80		2
-kladovskoj	38		2
-klasičkoj			2
+kladovskoj	38		3
+klasičkoj			3
 klasičnoj	1330		3
 klasnoj	149		2
-klavirskoj	37		2
+klavirskoj	37		3
 kletoj			2
-klimanoj			2
-klimatskoj	87		2
-klinačkoj			2
-kliničkoj	615		2
+klimanoj			3
+klimatskoj	87		3
+klinačkoj			3
+kliničkoj	615		3
 klizavoj	63		3
-klizećoj			2
-ključaloj			2
+klizećoj			3
+ključaloj			3
 ključnoj	305		2
-kloniranoj			2
-klozetskoj			2
+kloniranoj			3
+klozetskoj			3
 klupskoj	500		2
-kmetovoj			2
+kmetovoj			3
 kmetskoj	12		2
 kneževoj	86		3
 kninskoj	126		2
-književnoj	1364		2
+književnoj	1364		3
 knjižnoj	23		2
 knoj			1
 kobnoj	43		2
-kockarskoj	29		2
+kockarskoj	29		3
 kodnoj	11		2
 koj		M	1
-kojekakvoj			2
+kojekakvoj			3
 kojoj	213647		2
-kojčićevoj			2
-kolarskoj			2
-kolarčevoj			2
+kojčićevoj			3
+kolarskoj			3
+kolarčevoj			3
 kolektivnoj	889		4
 kolikoj	473		2
 kolonijalnoj	89		5
 kolosalnoj	18		4
 kolumbijskoj	33		2
-komandnoj	453		2
+komandnoj	453		3
 komercijalnoj	892		5
 komfornoj	48		3
 komičnoj	70		3
 kompaktnoj	139		3
-komparativnoj	86		2
-kompjuterskoj	362		2
+komparativnoj	86		3
+kompjuterskoj	362		3
 kompletnoj	536		3
 komplikovanoj	34		5
-kompozicionoj			2
-kompozitorovoj			2
-komunalnoj	938		2
+kompozicionoj			3
+kompozitorovoj			3
+komunalnoj	938		3
 komunističkoj	763		3
-komšijskoj	70		2
+komšijskoj	70		3
 konačnoj	836		3
-koncertnoj	304		2
-konferencijskoj	190		2
-konfuznoj	32		2
+koncertnoj	304		3
+konferencijskoj	190		3
+konfuznoj	32		3
 kongresnoj	220		3
 koničnoj			3
-konjičkoj	21		2
+konjičkoj	21		3
 konjskoj	33		2
 konkretnoj	941		3
-konkursnoj	293		2
+konkursnoj	293		3
 konstantnoj	312		2
-kontaktnoj	48		2
+kontaktnoj	48		3
 kontinentalnoj	179		5
-kontraobaveštajnoj	17		2
-kontrastnoj	20		2
-kontrolisanoj	44		2
-kontrolnoj	646		2
+kontraobaveštajnoj	17		3
+kontrastnoj	20		3
+kontrolisanoj	44		3
+kontrolnoj	646		3
 konvoj	739		2
 konzervativnoj	222		5
-kopnenoj	265		2
+kopnenoj	265		3
 korejskoj	54		2
 korektnoj	263		3
 korenitoj	23		3
-korintskoj	10		2
-korisničkoj	137		2
+korintskoj	10		3
+korisničkoj	137		3
 korisnoj	119		3
 korišćenoj	32		4
-koronarnoj	76		2
+koronarnoj	76		3
 korporativnoj	222		5
-koruškoj			2
-kosmetskoj	39		2
-kosmičkoj	307		2
+koruškoj			3
+kosmetskoj	39		3
+kosmičkoj	307		3
 kosoj			2
 kosovskoj	4210		3
-kostićevoj			2
+kostićevoj			3
 kotorskoj	160		3
-kovinskoj	185		2
-kovrdžavoj			2
+kovinskoj	185		3
+kovrdžavoj			3
 kozarskoj	89		2
 kozačkoj	10		2
-kočijaškoj			2
-kočinoj			2
-kočićevoj			2
+kočijaškoj			3
+kočinoj			3
+kočićevoj			3
 košarkaškoj	607		2
 koštanoj	110		3
 koščatoj			3
 kožnoj	183		2
-kragujevačkoj	829		2
-krajinskoj	12		2
+kragujevačkoj	829		3
+krajinskoj	12		3
 krajiškoj	37		3
 krajnjoj	3217		2
 kraljevoj	161		3
 kraljevskoj	755		3
-kraljičinoj			2
+kraljičinoj			3
 kranjskoj	51		2
 krasnijoj			3
 krasnoj	35		2
@@ -1180,12 +1180,12 @@ kratkoj	1194		2
 kraćoj	251		2
 kraškoj	13		2
 kreativnoj	504		4
-kreditnoj	486		2
+kreditnoj	486		3
 krepkoj			2
 kretenskoj			2
 krfskoj			2
 krhkoj	82		2
-krilatoj			2
+krilatoj			3
 kriminalističkoj	87		3
 kriminalnoj	344		4
 kristalnoj	239		2
@@ -1198,8 +1198,8 @@ kriznoj	267		2
 krnjoj	39		2
 kroj	291		1
 krsnoj	114		2
-krstarećoj			2
-krstaškoj	10		2
+krstarećoj			3
+krstaškoj	10		3
 krunskoj	160		2
 krupnoj	95		2
 krutoj	36		2
@@ -1207,27 +1207,27 @@ kružnoj	247		2
 krvavoj	186		3
 krvnoj	252		2
 krvožednoj			4
-krznenoj			2
+krznenoj			3
 krševitoj			4
 kršnoj	17		2
 krštenoj			3
 kubanskoj	92		2
-kudeljnoj			2
-kuhinjskoj	51		2
+kudeljnoj			3
+kuhinjskoj	51		3
 kukavičkoj			4
 kukavnoj	22		3
-kulinarskoj	62		2
+kulinarskoj	62		3
 kultnoj	211		2
 kulturnoj	2956		2
 kuminoj			2
-kupastoj			2
+kupastoj			3
 kupljenoj	40		3
-kupovnoj	269		2
-kupreškoj	19		2
+kupovnoj	269		3
+kupreškoj	19		3
 kurdskoj	11		2
-kurirskoj	41		2
+kurirskoj	41		3
 kurtoaznoj			4
-kuvajtskoj			2
+kuvajtskoj			3
 kuvanoj			3
 kućnoj	1065		2
 kvantnoj	215		2
@@ -1235,59 +1235,59 @@ kvarljivoj	11		3
 labavijoj			4
 labavoj	38		3
 labilnoj	11		3
-labudovoj			2
+labudovoj			3
 laganoj	559		3
 laičkoj	65		3
-lakatnoj			2
+lakatnoj			3
 lakoj	295		2
 lakovernoj			4
 lakšoj	124		2
-lanenoj	13		2
-lansirnoj	82		2
-lančanoj	19		2
+lanenoj	13		3
+lansirnoj	82		3
+lančanoj	19		3
 lapidarnoj			4
-laponskoj			2
-laserskoj	77		2
-laskavoj	13		2
+laponskoj			3
+laserskoj	77		3
+laskavoj	13		3
 latentnoj	35		2
 latiničkoj			3
 latiničnoj	52		3
 latinskoj	1283		2
 lavljoj	16		2
-lavovoj			2
-lavovskoj	25		2
-lazarovoj			2
+lavovoj			3
+lavovskoj	25		3
+lazarovoj			3
 lažnoj	475		2
 ledenoj	428		3
 lednoj			2
 legalnoj	141		2
 legendarnoj	291		4
 legitimnoj	81		4
-lekarskoj	402		2
+lekarskoj	402		3
 leksičkoj	52		3
-lelujavoj			2
+lelujavoj			3
 lenjoj	19		2
 lepljivoj	23		3
 lepoj	1468		2
-leptirastoj			2
+leptirastoj			3
 lepšoj	209		2
-letačkoj	24		2
+letačkoj	24		3
 letećoj	17		2
 letnjoj	2046		2
-letonskoj			2
+letonskoj			3
 levoj	4615		2
-lezbejskoj	24		2
+lezbejskoj	24		3
 liberalnoj	285		4
 libijskoj	116		3
 licemernoj	31		4
-liderskoj	175		2
+liderskoj	175		3
 liftboj			2
-likovnoj	1068		2
+likovnoj	1068		3
 limarskoj			3
 limenoj	49		3
 linearnoj	49		4
-linijskoj	10		2
-lipovoj			2
+linijskoj	10		3
+lipovoj			3
 lirskoj	82		2
 lisnoj	17		2
 literarnoj	168		4
@@ -1295,14 +1295,14 @@ litvanskoj	42		2
 livadskoj	17		3
 ličkoj	44		2
 ličnoj	1881		2
-lišajivoj			2
-lišenoj	41		2
+lišajivoj			3
+lišenoj	41		3
 ljetnoj		J	2
-ljotićevoj			2
+ljotićevoj			3
 ljubavnoj	850		2
 ljubaznoj	41		3
 ljubičastoj	210		4
-ljubljanskoj	248		2
+ljubljanskoj	248		3
 ljubljenoj	14		3
 ljudskoj	3304		2
 ljupkoj			2
@@ -1310,37 +1310,37 @@ ljutoj	116		2
 lociranoj	26		3
 logičkoj	125		3
 logičnoj	50		3
-logoraškoj			2
-logorskoj	18		2
+logoraškoj			3
+logorskoj	18		3
 loj	152		1
 lokalnoj	11372		2
 lomnoj	16		2
 londonskoj	713		2
 lopovskoj	101		3
 lovačkoj	110		3
-lovćenskoj			2
+lovćenskoj			3
 lošijoj	169		3
 lošoj	1202		2
-ludačkoj	49		2
+ludačkoj	49		3
 ludoj	228		2
-lugarskoj			2
+lugarskoj			3
 lukavoj	34		3
 luksuznoj	265		3
-lutkinoj			2
+lutkinoj			3
 lučkoj	79		2
 luđačkoj			2
-madridskoj	41		2
-mafijaškoj	68		2
-magacinskoj			2
+madridskoj	41		3
+mafijaškoj	68		3
+magacinskoj			3
 magijskoj	36		2
 magičnoj	139		3
-maglastoj			2
+maglastoj			3
 magličastoj			4
 maglovitoj	31		3
 magnetnoj	199		3
-majevičkoj			2
+majevičkoj			3
 majskoj	132		2
-majušnoj			2
+majušnoj			3
 majčinoj	355		3
 majčinskoj	29		3
 makedonskoj	465		2
@@ -1348,109 +1348,109 @@ maksimalnoj	604		4
 malenoj	200		3
 maloj	8371		2
 maloumnoj			4
-maminoj			2
+maminoj			3
 manastirskoj	578		4
 manjinskoj	247		2
 manjoj	3913		2
-marijinoj			2
-marinskoj			2
-marketinškoj	297		2
-markiranoj			2
-markovoj			2
-marksističkoj			2
-marsovoj			2
+marijinoj			3
+marinskoj			3
+marketinškoj	297		3
+markiranoj			3
+markovoj			3
+marksističkoj			3
+marsovoj			3
 marsovskoj			3
 martovskoj	69		3
-maršalskoj			2
+maršalskoj			3
 masivnoj	42		3
-maskirnoj	65		2
-maslinovoj	13		2
+maskirnoj	65		3
+maslinovoj	13		3
 masnoj	165		2
-masonskoj	69		2
+masonskoj	69		3
 masovnoj	780		3
-mataruškoj			2
-matematičkoj	440		2
+mataruškoj			3
+matematičkoj	440		3
 materijalnoj	786		5
 materinoj			4
-matićevoj			2
-matičnoj	1998		2
+matićevoj			3
+matičnoj	1998		3
 matoroj	34		3
-matroskoj			2
-maturalnoj			2
-maturskoj	104		2
+matroskoj			3
+maturalnoj			3
+maturskoj	104		3
 mađarskoj	678		3
-mađijskoj			2
-mašinskoj	355		2
+mađijskoj			3
+mašinskoj	355		3
 maštovitoj	32		3
 medenoj	12		3
 medicinskoj	1285		4
 medijskoj	2389		3
-medveđskoj			2
+medveđskoj			3
 mehaničkoj	98		3
 mekanoj	53		3
 mekoj	228		2
 meksičkoj	152		3
 memljivoj	29		3
-memoarskoj	24		2
-memorijalnoj	69		2
-memorijskoj	127		2
-mentalnoj	255		2
-mermernoj	78		2
-mesečevoj	155		2
-mesečnoj	234		2
+memoarskoj	24		3
+memorijalnoj	69		3
+memorijskoj	127		3
+mentalnoj	255		3
+mermernoj	78		3
+mesečevoj	155		3
+mesečnoj	234		3
 mesnoj	2430		2
-metafizičkoj	77		2
+metafizičkoj	77		3
 metalnoj	217		2
-metalskoj	147		2
-metodičkoj	12		2
+metalskoj	147		3
+metodičkoj	12		3
 metričkoj	11		3
 međunarodnoj	8671		3
-međuopštinskoj	184		2
-međuratnoj	48		2
-međusloj		M	2
+međuopštinskoj	184		3
+međuratnoj	48		3
+međusloj		M	3
 međusobnoj	1051		4
 mešovitoj	250		3
-miholjskoj			2
-mikrotalasnoj	283		2
-milanovoj			2
-milanskoj	149		2
-milionskoj	67		2
+miholjskoj			3
+mikrotalasnoj	283		3
+milanovoj			3
+milanskoj	149		3
+milionskoj	67		3
 milivoj			3
 miloj	118		2
 milosnoj			3
-miloševoj			2
-mineralnoj	72		2
-minhenskoj	87		2
+miloševoj			3
+mineralnoj	72		3
+minhenskoj	87		3
 minimalnoj	500		4
-ministarskoj	270		2
-minucioznoj			2
-minuloj	321		2
+ministarskoj	270		3
+minucioznoj			3
+minuloj	321		3
 mirisnoj	39		3
-mirišljavoj	16		2
+mirišljavoj	16		3
 mirnijoj	53		3
 mirnoj	761		2
 mirovnoj	341		3
 misaonoj	65		4
-misionarskoj	107		2
-mislenoj			2
+misionarskoj	107		3
+mislenoj			3
 misterioznoj	96		5
-mističkoj	10		2
+mističkoj	10		3
 mističnoj	66		3
 mitološkoj	54		3
 mitskoj	129		2
-mizernoj	29		2
-mićićevoj			2
-mišinoj			2
-mišićevoj			2
+mizernoj	29		3
+mićićevoj			3
+mišinoj			3
+mišićevoj			3
 mišjoj	46		2
-mladićevoj	24		2
+mladićevoj	24		3
 mladoj	1611		2
-mladoženjinoj			2
+mladoženjinoj			3
 mlakoj	149		2
 mlađoj	895		2
 mletačkoj	137		3
 mlečnoj	203		2
-mliječnoj			2
+mliječnoj			3
 mlinskoj	19		2
 mlitavoj			3
 mnogoj	47		2
@@ -1462,38 +1462,38 @@ modroj	20		2
 mogućoj	1780		3
 moj	101185		1
 mojoj	4950		2
-mokraćnoj	73		2
+mokraćnoj	73		3
 mokroj	390		2
-moldavskoj	17		2
-molekularnoj	114		2
-molerovoj	25		2
-molećivoj			2
-molitvenoj	77		2
-momačkoj	22		2
-momčilovoj			2
-monaškoj	146		2
-monetarnoj	652		2
+moldavskoj	17		3
+molekularnoj	114		3
+molerovoj	25		3
+molećivoj			3
+molitvenoj	77		3
+momačkoj	22		3
+momčilovoj			3
+monaškoj	146		3
+monetarnoj	652		3
 mongolskoj	29		2
-monogamnoj	28		2
+monogamnoj	28		3
 moralnoj	653		2
-moravskoj	92		2
-morbidnoj	30		2
-mornaričkoj	39		2
+moravskoj	92		3
+morbidnoj	30		3
+mornaričkoj	39		3
 morskoj	535		2
 moskovskoj	402		3
-mostarskoj	63		2
-mostovoj			2
-motelskoj			2
+mostarskoj	63		3
+mostovoj			3
+motelskoj			3
 moćnoj	317		2
 močvarnoj	28		3
-moždanoj	85		2
+moždanoj	85		3
 mračnoj	582		2
 mrežnoj	230		2
 mrkloj	53		2
 mrkoj	18		2
 mrskoj	39		2
 mrsnoj			2
-mrtvačkoj			2
+mrtvačkoj			3
 mrtvoj	325		2
 mršavoj	21		3
 mudroj	110		2
@@ -1504,43 +1504,43 @@ mutnoj	144		2
 muvljoj			2
 muzejskoj	198		2
 muzikalnoj			4
-muzičkoj	3144		2
+muzičkoj	3144		3
 mučeničkoj	82		4
 mučenoj			3
 mučnoj	77		2
 muškoj	2489		2
-muževljevoj	32		2
+muževljevoj	32		3
 muževnoj			3
-nabavnoj	131		2
-nabijenoj	25		2
+nabavnoj	131		3
+nabijenoj	25		3
 naboj	917		2
-naboranoj			2
-nabrekloj			2
+naboranoj			3
+nabrekloj			3
 nabroj			2
-nacionalnoj	6902		2
+nacionalnoj	6902		3
 nacističkoj	342		3
 nadahnutoj	167		3
 nadarenoj	20		3
-nadgrobnoj	58		2
-nadirućoj	13		2
+nadgrobnoj	58		3
+nadirućoj	13		3
 nadležnoj	726		3
 nadljudskoj	11		3
-nadmorskoj	1541		2
+nadmorskoj	1541		3
 nadmoćnoj	36		3
-nadolazećoj	107		2
-nadošloj			2
-nadzemnoj			2
-nadzornoj	19		2
+nadolazećoj	107		3
+nadošloj			3
+nadzemnoj			3
+nadzornoj	19		3
 naftnoj	557		2
 naglašenoj	56		3
 nagloj	75		2
 nagnutoj			3
 nagoj			2
-nagonskoj	15		2
+nagonskoj	15		3
 nagradnoj	691		3
 nagrađenoj	15		3
-naherenoj			2
-nahodećoj			2
+naherenoj			3
+nahodećoj			3
 naivnoj	119		3
 najaktivnijoj			5
 najakustičnijoj			5
@@ -1548,13 +1548,13 @@ najambicioznijoj			7
 najamnoj			3
 najavljenoj	42		3
 najbanalnijoj			4
-najbednijoj			2
+najbednijoj			3
 najblažoj			3
 najblistavijoj			5
 najbližoj	54		3
 najboljoj	288		3
 najcrnjoj			3
-najdonjoj			2
+najdonjoj			3
 najdražoj			3
 najdubljoj	25		3
 najdužoj	12		3
@@ -1585,7 +1585,7 @@ najranijoj	24		4
 najstarijoj	112		4
 najstrožoj			3
 najtajnijoj			4
-najtešnjoj			2
+najtešnjoj			3
 najtežoj			3
 najužoj			3
 najvažnijoj	88		4
@@ -1593,103 +1593,103 @@ najvećoj	408		3
 najvišoj	378		3
 najčvršćoj			3
 najširoj	18		3
-nakaradnoj	57		2
+nakaradnoj	57		3
 nakaznoj	24		3
 naklonjenoj	22		4
-naknadnoj	134		2
+naknadnoj	134		3
 naloženoj			3
 namenjenoj	331		3
-namenskoj	194		2
+namenskoj	194		3
 namernoj	45		3
 nametljivoj			3
 nametnutoj	22		4
 nameštenoj			4
-namučenoj			2
-nanetoj	11		2
-naopakoj	43		2
-naoružanoj	19		2
-napadačkoj	50		2
+namučenoj			3
+nanetoj	11		3
+naopakoj	43		3
+naoružanoj	19		3
+napadačkoj	50		3
 napadnutoj	11		4
 napaćenoj	47		4
 napetoj	180		3
 napisanoj	126		3
-naplatnoj	193		2
+naplatnoj	193		3
 napoj	37		2
 napornoj	27		2
-naprasnoj			2
+naprasnoj			3
 napravljenoj	160		4
 naprednoj	720		3
-napukloj			2
+napukloj			3
 napunjenoj	21		4
 napuštenoj	46		3
 narandžastoj	232		3
 narativnoj	57		4
-narednoj	6786		2
+narednoj	6786		3
 narodnoj	13679		3
 narodnooslobodilačkoj	87		4
 naročitoj	106		4
-narušenoj			2
+narušenoj			3
 naseljenoj	90		3
 nasilnoj	160		3
 naslednoj	33		3
 nasleđenoj	18		3
 naslikanoj	10		4
 naslovnoj	2359		2
-nastaloj	528		2
+nastaloj	528		3
 nastanjenoj	33		3
-nastavnoj	123		2
-nastićevoj			2
+nastavnoj	123		3
+nastićevoj			3
 nastoj	53		2
-nasušnoj	40		2
+nasušnoj	40		3
 nategnutoj			3
-natprirodnoj	39		2
-natrpanoj			2
-natruloj			2
+natprirodnoj	39		3
+natrpanoj			3
+natruloj			3
 naturalnoj	57		4
 naučnoj	2198		3
-navedenoj	1198		2
+navedenoj	1198		3
 naviknutoj			4
-navlaženoj			2
+navlaženoj			3
 navodnoj	764		3
 navoj	189		2
 navođenoj			3
 navršenoj			3
-navučenoj			2
-naznačenoj	55		2
-nazubljenoj			2
+navučenoj			3
+naznačenoj	55		3
+nazubljenoj			3
 nazvanoj	342		3
-načelnoj	712		2
+načelnoj	712		3
 načinjenoj	36		3
 nađenoj	14		3
 našoj	12091		2
 nebeskoj	426		3
-nebesnoj	22		2
+nebesnoj	22		3
 nebitnoj	40		3
-nebojšinoj			2
-neborbenoj			2
-necrkvenoj			2
-nedalekoj	27		2
+nebojšinoj			3
+neborbenoj			3
+necrkvenoj			3
+nedalekoj	27		3
 nedavnoj	874		3
-nedelatnoj			2
+nedelatnoj			3
 nedeljivoj	35		3
 nedeljnoj	261		2
-nedirnutoj	26		2
-nedićevoj			2
-nedoglednoj			2
-nedokučivoj	29		2
-nedoličnoj			2
+nedirnutoj	26		3
+nedićevoj			3
+nedoglednoj			3
+nedokučivoj	29		3
+nedoličnoj			3
 nedovoljnoj	272		4
-nedugoj			2
+nedugoj			3
 nedužnoj	22		3
 negativnoj	478		4
-negdašnjoj	30		2
+negdašnjoj	30		3
 negostoljubivoj	21		3
 negovanoj	11		4
-neharmoničnoj			2
-neimarskoj			2
+neharmoničnoj			3
+neimarskoj			3
 neiscrpnoj	51		4
 neizbežnoj	77		4
-neizmernoj	85		2
+neizmernoj	85		3
 neizvesnoj	498		4
 nejakoj	25		3
 nejasnoj	61		3
@@ -1699,14 +1699,14 @@ nekakvoj	1233		3
 nekažnjivoj			3
 nekoj	29178		2
 nelagodnoj			4
-nelažnoj			2
+nelažnoj			3
 nelegalnoj	159		4
-nelijepoj		J	2
+nelijepoj		J	3
 neljudskoj			3
 nelojalnoj	63		4
 nemaloj	17		2
 nemarnoj			3
-nematerijalnoj	46		2
+nematerijalnoj	46		3
 nemačkoj	2169		3
 nemiloj	25		3
 nemilosrdnoj	69		5
@@ -1716,46 +1716,46 @@ nemogućoj	159		4
 nemoj	18531		2
 nemoralnoj	18		4
 nemoćnoj	40		3
-nenadovoj			2
-nenasilnoj	55		2
-nenasitoj			2
+nenadovoj			3
+nenasilnoj	55		3
+nenasitoj			3
 neobičnoj	584		4
 neobjašnjivoj	17		3
 neobuzdanoj	43		5
-neodložnoj	12		2
+neodložnoj	12		3
 neodlučnoj	14		4
 neodoljivoj	55		3
 neodređenoj	41		3
-neodrživoj	33		2
+neodrživoj	33		3
 neolitskoj	45		2
-neometanoj			2
+neometanoj			3
 neophodnoj	259		4
-neopisanoj			2
+neopisanoj			3
 neopisivoj	22		3
 neopozivoj	12		3
 neopreznoj			4
-neoranoj			2
-neotpornoj			2
+neoranoj			3
+neotpornoj			3
 neočekivanoj	84		3
 neparnoj	32		3
 neplodnoj	15		3
 nepokretnoj	111		4
 nepomičnoj			4
-neporočnoj			2
+neporočnoj			3
 neposrednoj	6837		4
 nepotpunoj	33		4
 nepovoljnoj	133		4
 nepoznatoj	517		4
 nepoštenoj	18		4
 nepoželjnoj			4
-nepravoj			2
-nepreglednoj	95		2
+nepravoj			3
+nepreglednoj	95		3
 neprekidnoj	296		3
 neprijateljskoj	228		2
 neprijatnoj	163		4
 neprobojnoj			4
-neradnoj			2
-neravnoj	48		2
+neradnoj			3
+neravnoj	48		3
 nerazumljivoj			3
 nerazumnoj	34		4
 nervnoj	117		2
@@ -1767,87 +1767,87 @@ nesimetričnoj			3
 neskromnoj			3
 neslanoj	32		3
 nesložnoj			3
-nesmetanoj	17		2
+nesmetanoj	17		3
 nesnosnoj	46		3
 nesoj			2
-nespokoj	126		2
-nespornoj	41		2
-nesrećnoj	416		2
+nespokoj	126		3
+nespornoj	41		3
+nesrećnoj	416		3
 nestabilnoj	112		4
-nestaloj	46		2
+nestaloj	46		3
 nestvarnoj	35		3
 nesumnjivoj	49		3
 nesuđenoj	29		3
 nesvesnoj	34		3
-netaknutoj	242		2
+netaknutoj	242		3
 netačnoj	35		3
 neudatoj	12		4
 neuglednoj	24		4
-neugodnoj			2
+neugodnoj			3
 neukoj	28		3
-neukroćenoj			2
+neukroćenoj			3
 neumerenoj	11		4
 neumitnoj	27		4
 neumornoj	35		4
-neupitnoj	17		2
+neupitnoj	17		3
 neurednoj	14		4
-neuređenoj	35		2
+neuređenoj	35		3
 neuspeloj	67		4
-neutemeljenoj	15		2
+neutemeljenoj	15		3
 neutešnoj			4
-neutoljivoj			2
+neutoljivoj			3
 neutralnoj	145		4
 nevažnoj	16		3
 nevelikoj	78		4
-nevenčanoj	27		2
+nevenčanoj	27		3
 nevernoj	15		3
-neverovatnoj	514		2
-neveseloj	22		2
-nevezanoj			2
-nevečernjoj			2
+neverovatnoj	514		3
+neveseloj	22		3
+nevezanoj			3
+nevečernjoj			3
 nevidljivoj	177		3
 nevinoj	74		3
-neviđenoj	154		2
-nevladinoj	264		2
-nevoljnoj	12		2
+neviđenoj	154		3
+nevladinoj	264		3
+nevoljnoj	12		3
 nezakonitoj	109		4
 nezavidnoj	368		3
 nezavisnoj	873		3
 nezdravoj	89		3
 nezgodnoj	170		3
-nezlobivoj			2
+nezlobivoj			3
 neznanoj	13		3
 neznatnoj	57		3
 nezreloj	22		3
 nečasnoj	34		3
-nečastivoj			2
+nečastivoj			3
 nečijoj	582		3
 nečistoj	57		3
 nečitljivoj			3
 nečovečnoj			4
-nečuvenoj	29		2
+nečuvenoj	29		3
 neželjenoj	53		4
 nežnoj	125		2
 nijednoj	917		2
-nikakoj			2
+nikakoj			3
 nikakvoj	238		3
-nikšićkoj	116		2
+nikšićkoj	116		3
 niskoj	1083		2
 ničijoj	127		3
-nišanskoj			2
-nišavskoj	16		2
+nišanskoj			3
+nišavskoj	16		3
 niškoj	1719		2
 ništavnoj	10		3
 nižoj	2089		2
 njegovoj	26337		3
-njegoševoj			2
+njegoševoj			3
 njemačkoj		J	3
 njenoj	143		2
 njihovoj	17549		3
 njinoj			2
 njoj	56462		1
 njujorškoj	545		3
-nobelovoj			2
+nobelovoj			3
 noj	976		1
 nojevoj	30		3
 nomadskoj			3
@@ -1857,59 +1857,59 @@ normalnoj	1723		3
 norveškoj	168		3
 nosnoj	49		2
 notornoj	30		2
-novinarskoj	393		2
-novinskoj	353		2
-novićevoj			2
-novogodišnjoj	830		2
+novinarskoj	393		3
+novinskoj	353		3
+novićevoj			3
+novogodišnjoj	830		3
 novogrčkoj			4
 novoj	21432		2
-novčanoj	263		2
+novčanoj	263		3
 noćašnjoj	16		3
 noćnoj	457		2
-nudističkoj	37		2
+nudističkoj	37		3
 nuklearnoj	712		4
 nultoj	180		2
 numeričkoj	65		3
-nušićevoj			2
+nušićevoj			3
 nužnoj	131		2
 obalnoj	13		3
-obalskoj	34		2
+obalskoj	34		3
 obasjanoj	22		3
 obaveznoj	360		4
-obaveštajnoj	195		2
+obaveštajnoj	195		3
 obavijenoj			5
 obavljenoj	24		4
 obdarenoj			3
-obeleženoj	41		2
-obesnoj			2
-obezbeđenoj			2
+obeleženoj	41		3
+obesnoj			3
+obezbeđenoj			3
 obećanoj	47		3
 obešenoj			4
 obilatoj	12		3
-obilježenoj		J	2
+obilježenoj		J	3
 obilnoj	36		3
 obimnoj	157		3
-običajnoj	19		2
+običajnoj	19		3
 običnoj	783		3
 objavljenoj	1313		3
 objašnjivoj			3
 objektivnoj	199		4
-oblasnoj	20		2
+oblasnoj	20		3
 oblačnoj			3
-obližnjoj	779		2
+obližnjoj	779		3
 obloj			2
-obloženoj	20		2
-obnaženoj			2
+obloženoj	20		3
+obnaženoj			3
 obnovljenoj	24		3
-obnovljivoj	47		2
+obnovljivoj	47		3
 oboj			2
 obojenoj	89		4
-oboleloj	246		2
+oboleloj	246		3
 obostranoj	88		3
 obožavanoj			3
 obradivoj	25		3
-obranoj			2
-obrasloj			2
+obranoj			3
+obrasloj			3
 obratnoj			3
 obrazovnoj	456		4
 obraćenoj			3
@@ -1919,7 +1919,7 @@ obrnutoj	10		3
 obuhvaćenoj	23		4
 obuzdanoj			3
 obuzetoj			2
-obućarskoj	30		2
+obućarskoj	30		3
 obučenoj	17		3
 odabranoj	55		3
 odanoj	19		3
@@ -1929,187 +1929,187 @@ odbrambenoj	234		4
 odbranjenoj			3
 odbroj			2
 odeljenoj			3
-odevenoj			2
+odevenoj			3
 odgoj	657		2
 odgovarajućoj	1025		4
 odgovornoj	338		4
 odigranoj	198		4
-odlazećoj	62		2
+odlazećoj	62		3
 odličnoj	1828		3
-odloženoj	55		2
+odloženoj	55		3
 odlučnoj	111		3
 odmerenoj			4
-odnosnoj	38		2
-odobrenoj	58		2
-odranoj			2
-odrasloj	261		2
+odnosnoj	38		3
+odobrenoj	58		3
+odranoj			3
+odrasloj	261		3
 odrađenoj			3
-odredbenoj			2
+odredbenoj			3
 određenoj	4753		3
-odrubljenoj			2
-održanoj	5755		2
+odrubljenoj			3
+održanoj	5755		3
 održavanoj			4
 održivoj	224		3
 odsečenoj			4
-odsudnoj			2
-odumirućoj			2
+odsudnoj			3
+odumirućoj			3
 oduzetoj			2
 odvažnoj	21		3
-odvodnoj			2
+odvodnoj			3
 odvoj			2
 odvojenoj	24		3
 odvođenoj			3
 odvratnoj	54		3
-ofanzivnoj	55		2
-oficirskoj			2
-oglasnoj	743		2
-oglašenoj			2
+ofanzivnoj	55		3
+oficirskoj			3
+oglasnoj	743		3
+oglašenoj			3
 ognjenoj	50		3
-ogoljenoj	12		2
+ogoljenoj	12		3
 ogorčenoj	22		3
 ograničenoj	29		4
 ograđenoj			3
 ogromnoj	1908		3
 ohlađenoj			3
-ohridskoj	130		2
+ohridskoj	130		3
 oj	2337		1
-ojađenoj	36		2
-okamenjenoj	17		2
-okeanskoj	19		2
+ojađenoj	36		3
+okamenjenoj	17		3
+okeanskoj	19		3
 okićenoj	11		4
 okolnoj	66		2
 okomitoj	20		4
 okončanoj	35		3
 okovanoj	14		3
-okoštaloj	10		2
+okoštaloj	10		3
 okrenutoj	84		3
 okrečenoj			4
 okrugloj	55		2
-okrutnoj			2
-okruženoj	108		2
-okružnoj	225		2
+okrutnoj			3
+okruženoj	108		3
+okružnoj	225		3
 oktobarskoj	128		3
 okultnoj	12		3
-okupiranoj	58		2
+okupiranoj	58		3
 okupljenoj	126		4
 okvirnoj	79		3
 olimpijskoj	510		2
 oličenoj	46		3
-oltarskoj	75		2
-olujnoj	26		2
+oltarskoj	75		3
+olujnoj	26		3
 omanjoj	36		3
-omekšaloj			2
+omekšaloj			3
 ometanoj			3
 ometenoj	81		3
 omiljenoj	552		4
-omraženoj	28		2
-onakoj			2
+omraženoj	28		3
+onakoj			3
 onakvoj	111		2
 ondašnjoj	351		3
 onolikoj	85		3
-onomadašnjoj			2
-onostranoj	13		2
-onovremenoj	32		2
+onomadašnjoj			3
+onostranoj	13		3
+onovremenoj	32		3
 ontološkoj	41		3
 opakoj	73		3
 opasanoj	10		4
-opasnoj			2
-operacijskoj			2
-operacionoj	194		2
+opasnoj			3
+operacijskoj			3
+operacionoj	194		3
 operativnoj	290		5
-opernoj			2
-operskoj	120		2
+opernoj			3
+operskoj	120		3
 opipanoj			4
 opisanoj	57		3
-opisnoj	21		2
+opisnoj	21		3
 opkoljenoj			3
 opljačkanoj	26		4
 opojnoj	13		2
 opranoj			3
 opravdanoj	25		3
-opredeljenoj	19		2
+opredeljenoj	19		3
 opremljenoj	84		3
 opreznoj	19		3
 oprečnoj			3
-oprobanoj	34		2
-oproštajnoj	122		2
-opruženoj			2
-opsadnoj			2
+oprobanoj	34		3
+oproštajnoj	122		3
+opruženoj			3
+opsadnoj			3
 opscenoj			3
 opsednutoj	11		4
-opsežnoj			2
+opsežnoj			3
 optimalnoj	212		4
-optičkoj	125		2
-optuženičkoj	327		2
+optičkoj	125		3
+optuženičkoj	327		3
 optuženoj	44		3
-opusteloj			2
+opusteloj			3
 opuštenoj	562		3
 opširnijoj			4
 opširnoj	50		3
-opštenarodnoj	27		2
-opštinskoj	1994		2
+opštenarodnoj	27		3
+opštinskoj	1994		3
 opštoj	3800		2
-orahovoj			2
-oralnoj	124		2
-organizacionoj	496		2
-organizovanoj	872		2
+orahovoj			3
+oralnoj	124		3
+organizacionoj	496		3
+organizovanoj	872		3
 organskoj	1035		2
 originalnoj	914		5
 orijentalnoj	60		5
 orlovskoj			3
 oronuloj	83		3
-orošenoj			2
-ortoepskoj			2
+orošenoj			3
+ortoepskoj			3
 oružanoj	178		4
-osamdesetoj	62		2
-osamljenoj	11		2
-osamnaestoj	116		2
-osenčenoj			2
+osamdesetoj	62		3
+osamljenoj	11		3
+osamnaestoj	116		3
+osenčenoj			3
 osetljivoj	380		3
 osetnoj	26		3
-osiguravajućoj	182		2
-osionoj	11		2
+osiguravajućoj	182		3
+osionoj	11		3
 osjećajnoj		J	4
 oskudnoj	52		3
-oslabeloj			2
+oslabeloj			3
 oslobođenoj	216		3
 osmanskoj	82		3
 osmeračkoj			3
-osmišljenoj	105		2
-osmogodišnjoj	78		2
+osmišljenoj	105		3
+osmogodišnjoj	78		3
 osmoj	737		2
-osmočlanoj			2
-osnaženoj			2
+osmočlanoj			3
+osnaženoj			3
 osnivačkoj	563		2
 osnovanoj	122		3
 osnovnoj	7227		3
-osobenoj	61		2
+osobenoj	61		3
 osobitoj	21		4
 osoj			2
 osramoćenoj			3
 ostaloj	489		2
-ostareloj	28		2
-ostrvskoj	116		2
+ostareloj	28		3
+ostrvskoj	116		3
 ostvarenoj	85		3
-ostvarivoj			2
-osujećenoj			2
+ostvarivoj			3
+osujećenoj			3
 osunčanoj			3
-osvetljenoj	27		2
-osvetničkoj	19		2
+osvetljenoj	27		3
+osvetničkoj	19		3
 osvećenoj			3
 osvojenoj	22		3
-otačkoj	14		2
-otegnutoj			2
+otačkoj	14		3
+otegnutoj			3
 otetoj	13		2
 otečenoj			3
-otežanoj			2
-otkačenoj			2
-otkopčanoj			2
+otežanoj			3
+otkačenoj			3
+otkopčanoj			3
 otkrivenoj	64		4
-otkupnoj	135		2
+otkupnoj	135		3
 otmenoj	41		3
 otomanskoj	162		4
-otpadnoj	26		2
+otpadnoj	26		3
 otrovanoj			3
 otrovnoj	34		2
 otvorenoj	1469		4
@@ -2119,20 +2119,20 @@ ovdašnjoj	734		3
 ovenčanoj			3
 overenoj	20		4
 ovećoj	12		3
-ovlašćenoj	117		2
-ovlaženoj			2
-ovogodišnjoj	1684		2
+ovlašćenoj	117		3
+ovlaženoj			3
+ovogodišnjoj	1684		3
 ovoj	139445		2
 ovolikoj	128		3
-ovozemaljskoj	32		2
-ovčijoj	26		2
+ovozemaljskoj	32		3
+ovčijoj	26		3
 ovčjoj			2
-ozarenoj			2
+ozarenoj			3
 ozbiljnijoj	196		4
 ozbiljnoj	1669		3
-ozidanoj			2
+ozidanoj			3
 označenoj	50		3
-očajničkoj	88		2
+očajničkoj	88		3
 očajnoj	118		3
 očekivanoj	46		3
 očevidnoj			4
@@ -2141,111 +2141,111 @@ očiglednoj	249		4
 očinskoj	47		3
 očišćenoj			4
 očnoj	145		2
-očuhovoj			2
+očuhovoj			3
 očuvanoj	23		3
 ošišanoj			3
 oštećenoj	104		4
 oštrijoj	53		3
 oštroj	576		2
-ožalošćenoj	45		2
-oživeloj			2
+ožalošćenoj	45		3
+oživeloj			3
 pacifičkoj	64		3
-pacovskoj			2
-padinskoj	222		2
-padobranskoj	20		2
-paganskoj	61		2
+pacovskoj			3
+padinskoj	222		3
+padobranskoj	20		3
+paganskoj	61		3
 pakistanskoj	74		4
 paklenoj	116		3
-pakračkoj	131		2
+pakračkoj	131		3
 palestinskoj	153		2
-paljanskoj			2
+paljanskoj			3
 pametnoj	203		3
 pamučnoj	39		3
 paničnoj	21		3
-panonskoj	230		2
-pantićevoj			2
+panonskoj	230		3
+pantićevoj			3
 papirnatoj	16		3
 papirnoj	249		2
 papskoj	118		2
-paradnoj	24		2
+paradnoj	24		3
 paralelnoj	163		2
-parapetnoj			2
+parapetnoj			3
 paravojnoj	17		4
-pariskoj	433		2
-paritetnoj	36		2
+pariskoj	433		3
+paritetnoj	36		3
 pariškoj	21		2
 partijskoj	1053		2
-partizanskoj	191		2
+partizanskoj	191		3
 pasenoj			3
-pasiranoj			2
+pasiranoj			3
 pasivnoj	144		3
 pasjoj			2
-pasoškoj	20		2
-pastirskoj	83		2
+pasoškoj	20		3
+pastirskoj	83		3
 patetičnoj	24		3
 patrijarhalnoj	163		5
 paukovoj	11		4
 pačjoj			2
-pašinoj			2
-pašićevoj			2
+pašinoj			3
+pašićevoj			3
 pažljivoj	41		3
 pedagoškoj	286		3
 pedantnoj	13		3
-pedesetoj	123		2
+pedesetoj	123		3
 peglanoj			3
-pekarskoj	115		2
+pekarskoj	115		3
 pekinškoj	22		3
-pekićevoj			2
+pekićevoj			3
 penzijskoj	18		2
-peraškoj			2
-perifernoj	71		2
+peraškoj			3
+perifernoj	71		3
 perivoj	39		3
-perišinoj			2
-persijskoj	62		2
+perišinoj			3
+persijskoj	62		3
 perverznoj	23		3
-pesimističkoj	12		2
-pesnikovoj	30		2
-pesničkoj	255		2
-petnaestoj	135		2
-petoboj	21		2
+pesimističkoj	12		3
+pesnikovoj	30		3
+pesničkoj	255		3
+petnaestoj	135		3
+petoboj	21		3
 petoj	1734		2
-petočlanoj	62		2
-pevačkoj	43		2
-pećinskoj	22		2
+petočlanoj	62		3
+pevačkoj	43		3
+pećinskoj	22		3
 pećkoj			2
 pečenoj			3
-pešadijskoj	23		2
-pešačkoj	671		2
-peštanskoj	43		2
-pešterskoj			2
-peščanoj	465		2
-pihtijastoj			2
+pešadijskoj	23		3
+pešačkoj	671		3
+peštanskoj	43		3
+pešterskoj			3
+peščanoj	465		3
+pihtijastoj			3
 pijanoj	63		3
-pijaćoj	149		2
-pijačnoj			2
+pijaćoj	149		3
+pijačnoj			3
 pilećoj	25		3
-pilotskoj	92		2
-pionirskoj	247		2
-pirinčanoj			2
-pirotskoj	151		2
+pilotskoj	92		3
+pionirskoj	247		3
+pirinčanoj			3
+pirotskoj	151		3
 pisanoj	2150		3
-pisaćoj	121		2
+pisaćoj	121		3
 pismenoj	626		3
 pitomoj	116		3
 pivskoj	38		2
 piščevoj	75		3
-plafonskoj			2
+plafonskoj			3
 plahoj			2
-plahovitoj			2
+plahovitoj			3
 plamenoj	35		3
-plamtećoj			2
-planetarnoj	136		2
+plamtećoj			3
+planetarnoj	136		3
 planinskoj	327		2
-planiranoj	355		2
+planiranoj	355		3
 planskoj	94		2
 plastičnoj	516		3
-platežnoj	71		2
-platinskoj			2
+platežnoj	71		3
+platinskoj			3
 platnenoj	29		3
 platnoj	113		2
 platonskoj	21		2
@@ -2257,41 +2257,41 @@ plašljivoj			3
 plejboj	416		2
 plemenitoj	200		3
 plemenskoj	85		3
-plemićkoj	61		2
-plenarnoj	277		2
+plemićkoj	61		3
+plenarnoj	277		3
 plesnoj	171		2
 pletenoj			3
 plitkoj	152		2
 plivačkoj	27		2
 plićoj	11		2
-plišanoj	41		2
-pljevaljskoj	46		2
+plišanoj	41		3
+pljevaljskoj	46		3
 plodnoj	238		2
 plotskoj			2
-plovećoj	15		2
+plovećoj	15		3
 plovnoj	19		2
-pluralnoj			2
+pluralnoj			3
 plućnoj	42		2
-pobedničkoj	400		2
+pobedničkoj	400		3
 pobeđenoj			3
 pobijenoj			4
-pobodenoj			2
+pobodenoj			3
 poboj			2
 poboljšanoj	34		3
-pobočnoj	45		2
+pobočnoj	45		3
 pobožnoj	64		3
 pobunjenoj			3
-pocepanoj			2
-pocrneloj			2
-podaničkoj			2
+pocepanoj			3
+pocrneloj			3
+podaničkoj			3
 podboj		M	2
 podeljenoj	169		3
-poderanoj	17		2
+poderanoj	17		3
 podesnijoj			4
 podesnoj			3
 podignutoj	117		4
-podivljaloj			2
-podjednakoj	139		2
+podivljaloj			3
+podjednakoj	139		3
 podložnoj			3
 podmazanoj			4
 podmukloj	26		2
@@ -2300,158 +2300,158 @@ podnevnoj	40		2
 podobnoj			3
 podrazumevanoj			3
 podređenoj			3
-podrumskoj	36		2
+podrumskoj	36		3
 područnoj	130		3
 podsvesnoj	14		3
-podvodnoj	74		2
-podzemnoj	357		2
-poetičkoj	17		2
+podvodnoj	74		3
+podzemnoj	357		3
+poetičkoj	17		3
 poetskoj	137		3
-poganoj			2
-pogaženoj			2
-poginuloj	22		2
+poganoj			3
+pogaženoj			3
+poginuloj	22		3
 pogodnoj	105		3
 pogođenoj	66		3
 pogrebnoj	67		3
 pogrešnoj	662		3
 pogubnoj	106		3
 pohabanoj			4
-pohodnoj			2
+pohodnoj			3
 pohotnoj			3
-pohvalnoj			2
+pohvalnoj			3
 poj	342		1
 pojačanoj	37		3
 pojedinoj	174		2
-pojmovnoj	24		2
+pojmovnoj	24		3
 pokazanoj	26		3
 pokidanoj			4
 pokoj	752		2
-pokojnikovoj			2
-pokojnoj	113		2
-pokolebanoj			2
+pokojnikovoj			3
+pokojnoj	113		3
+pokolebanoj			3
 pokorenoj			3
-pokrajnjoj			2
+pokrajnjoj			3
 pokrenutoj	45		3
 pokretnoj	387		3
 pokrivenoj	43		4
 pokrštenoj	10		3
 pokvarenoj	13		3
-polarnoj	67		2
-polaznoj	108		2
-polemičkoj	21		2
+polarnoj	67		3
+polaznoj	108		3
+polemičkoj	21		3
 policijskoj	2646		2
 političkoj	14168		3
-političnoj			2
-poljoprivrednoj	1842		2
+političnoj			3
+poljoprivrednoj	1842		3
 poljskoj	543		2
-poljuljanoj			2
+poljuljanoj			3
 polnoj	187		2
-polovnoj	29		2
+polovnoj	29		3
 položenoj			3
-polumračnoj	21		2
-polumrtvoj			2
-poluotvorenoj	15		2
-polupravoj			2
-poluteškoj	58		2
-poluživoj			2
-pomamnoj	10		2
-pomenutoj	76		2
-pomerenoj			2
-pomesnoj	38		2
+polumračnoj	21		3
+polumrtvoj			3
+poluotvorenoj	15		3
+polupravoj			3
+poluteškoj	58		3
+poluživoj			3
+pomamnoj	10		3
+pomenutoj	76		3
+pomerenoj			3
+pomesnoj	38		3
 pometenoj			4
-pominjanoj	17		2
+pominjanoj	17		3
 pomodnoj			3
-pomognutoj			2
-pomorskoj	266		2
-pomoćnoj	147		2
-pompeznoj			2
-pomračenoj			2
-pomućenoj			2
+pomognutoj			3
+pomorskoj	266		3
+pomoćnoj	147		3
+pompeznoj			3
+pomračenoj			3
+pomućenoj			3
 ponavljanoj			3
 ponekoj	104		3
-ponikloj	11		2
+ponikloj	11		3
 poniženoj	27		3
 ponositoj			4
 ponosnoj	48		3
 ponovljenoj			3
 ponovnoj	221		3
-ponoćnoj	55		2
+ponoćnoj	55		3
 ponuđenoj	15		4
-poodmakloj	461		2
-pooštrenoj			2
-popisnoj	142		2
-popodnevnoj	212		2
-popovoj	93		2
+poodmakloj	461		3
+pooštrenoj			3
+popisnoj	142		3
+popodnevnoj	212		3
+popovoj	93		3
 popratnoj			3
 popravnoj			2
 popularnoj	1245		4
 popuštenoj			3
-poratnoj	35		2
+poratnoj	35		3
 poraženoj	23		3
-porcelanskoj	15		2
+porcelanskoj	15		3
 poremećenoj			4
-poreskoj	2912		2
-porečkoj	23		2
+poreskoj	2912		3
+porečkoj	23		3
 porobljenoj	10		3
-porodičnoj	1725		2
+porodičnoj	1725		3
 poroj			2
 portugalskoj	100		4
 porušenoj			4
-posavskoj	14		2
+posavskoj	14		3
 posebnoj	2383		3
 posećenoj	17		4
-posijanoj			2
-poslatoj			2
+posijanoj			3
+poslatoj			3
 poslednjoj	9598		3
-posleratnoj	394		2
+posleratnoj	394		3
 posljednjoj		J	3
-poslovičnoj	32		2
+poslovičnoj	32		3
 poslovnoj	3558		3
-posmrtnoj	18		2
-posnijoj			2
+posmrtnoj	18		3
+posnijoj			3
 posnoj	32		2
 posoljenoj	12		3
 posrednoj	47		3
-posrnuloj	126		2
+posrnuloj	126		3
 postavljenoj	323		4
-postepenoj	78		2
+postepenoj	78		3
 postoj			2
 postojanoj	32		4
 postojećoj	1194		4
 postroj	58		2
-posustaloj	42		2
-posutoj	34		2
-posvađanoj			2
+posustaloj	42		3
+posutoj	34		3
+posvađanoj			3
 posvećenoj	1170		3
-potamneloj			2
-potamnjenoj			2
+potamneloj			3
+potamnjenoj			3
 potencijalnoj	332		5
-potiskoj			2
-potmulijoj			2
-potonjoj	115		2
-potonuloj	10		2
+potiskoj			3
+potmulijoj			3
+potonjoj	115		3
+potonuloj	10		3
 potopljenoj			3
-potpisanoj	46		2
+potpisanoj	46		3
 potpunijoj	19		4
 potpunoj	2147		3
 potrebnoj	476		3
-potresnoj	60		2
-poturčenoj			2
+potresnoj	60		3
+poturčenoj			3
 potvrđenoj	19		3
-potčinjenoj			2
+potčinjenoj			3
 pouzdanoj	75		4
 poverenoj			4
 poverljivoj	54		3
 povezanoj	113		3
-povezujućoj			2
-povećanoj	452		2
-povećoj	42		2
+povezujućoj			3
+povećanoj	452		3
+povećoj	42		3
 povišenoj	120		3
-povodljivoj			2
+povodljivoj			3
 povoj	106		2
 povoljnijoj	302		4
 povoljnoj	757		3
-povratnoj	124		2
+povratnoj	124		3
 povređenoj	22		3
 površnoj	45		3
 pozajmljenoj			3
@@ -2461,32 +2461,32 @@ pozitivnoj	1057		4
 pozlaćenoj			3
 poznatijoj	104		4
 poznatoj	2165		3
-poznijoj			2
+poznijoj			3
 poznoj			2
-pozorišnoj	1029		2
-počasnoj	46		2
-početnoj	2107		2
+pozorišnoj	1029		3
+počasnoj	46		3
+početnoj	2107		3
 početoj			2
 počinjenoj			3
 poštanskoj	268		3
 poštenoj	161		3
 poštovanoj	16		3
-požarnoj	18		2
+požarnoj	18		3
 poželjnoj	43		3
-požeškoj	185		2
-pradavnoj			2
+požeškoj	185		3
+pradavnoj			3
 praktičnoj	839		3
 prastaroj	51		3
-pratećoj	169		2
-pravaškoj			2
-pravednoj	194		2
+pratećoj	169		3
+pravaškoj			3
+pravednoj	194		3
 pravilnoj	654		3
 pravičnoj	55		3
 pravnoj	2644		2
 pravoj	2988		2
 pravoslavnoj	3374		4
-pravougaonoj	28		2
-prazničnoj	243		2
+pravougaonoj	28		3
+prazničnoj	243		3
 praznoj	360		2
 praćenoj	24		3
 praškoj	71		2
@@ -2494,368 +2494,368 @@ prašnjavoj	55		3
 prašnoj			2
 prebroj			2
 preciznoj	154		3
-predanoj	16		2
-predačkoj			2
+predanoj	16		3
+predačkoj			3
 predivnoj	379		3
-predizbornoj	2883		2
-predmetnoj	312		2
+predizbornoj	2883		3
+predmetnoj	312		3
 prednjoj	1224		2
 predragoj			3
-predratnoj	152		2
-predsednikovoj	21		2
-predsedničkoj	533		2
-predsmrtnoj	13		2
+predratnoj	152		3
+predsednikovoj	21		3
+predsedničkoj	533		3
+predsmrtnoj	13		3
 predstoj			2
-predstojećoj	1253		2
-predubokoj			2
-predugoj			2
-preduzetoj	16		2
-prefinjenoj	39		2
-pregaženoj			2
-pregoreloj			2
-prehrambenoj	1270		2
+predstojećoj	1253		3
+predubokoj			3
+predugoj			3
+preduzetoj	16		3
+prefinjenoj	39		3
+pregaženoj			3
+pregoreloj			3
+prehrambenoj	1270		3
 prekidanoj			3
 prekinutoj			4
 prekoj	37		2
-prekomorskoj	13		2
+prekomorskoj	13		3
 prekrasnoj	101		3
-prelaznoj			2
-prelepoj	788		2
-prelivenoj			2
-preljubnoj			2
-prelomnoj			2
-premazanoj			2
-preminuloj	97		2
-premoćnoj			2
-premudroj			2
-prenapetoj			2
+prelaznoj			3
+prelepoj	788		3
+prelivenoj			3
+preljubnoj			3
+prelomnoj			3
+premazanoj			3
+preminuloj	97		3
+premoćnoj			3
+premudroj			3
+prenapetoj			3
 prenetoj			2
-prenosnoj	68		2
+prenosnoj	68		3
 prepoznatljivoj	150		3
 prepunoj	1523		3
-preranoj	43		2
+preranoj	43		3
 prerađenoj	42		3
-preslatkoj	10		2
-preslavnoj			2
-prestižnoj	488		2
-prestonoj	30		2
-prestrogoj			2
-prestupnoj	39		2
+preslatkoj	10		3
+preslavnoj			3
+prestižnoj	488		3
+prestonoj	30		3
+prestrogoj			3
+prestupnoj	39		3
 presudnoj	59		3
-presvetloj			2
-presvetoj	589		2
+presvetloj			3
+presvetoj	589		3
 preteranoj	210		4
-preteškoj			2
-pretežnoj	74		2
+preteškoj			3
+pretežnoj	74		3
 prethodnoj	5164		3
-pretposlednjoj	158		2
-pretrpanoj	11		2
+pretposlednjoj	158		3
+pretrpanoj	11		3
 pretvorenoj	25		3
-preuređenoj	24		2
-preuzetoj	40		2
+preuređenoj	24		3
+preuzetoj	40		3
 prevarenoj			4
 prevedenoj	23		3
-prevedroj			2
+prevedroj			3
 prevelikoj	249		4
-previsokoj	25		2
-prevodnoj	22		2
+previsokoj	25		3
+prevodnoj	22		3
 prevoj	188		2
-prevojnoj			2
-prevreloj			2
-prećutnoj	19		2
-prečistoj	184		2
-pređašnjoj			2
+prevojnoj			3
+prevreloj			3
+prećutnoj	19		3
+prečistoj	184		3
+pređašnjoj			3
 pređenoj			3
-preševskoj	277		2
-prežaljenoj			2
+preševskoj	277		3
+prežaljenoj			3
 približnoj	49		3
 priboj		M	2
 pribroj			2
 prigodnoj	431		3
 prigušenoj			3
-prihodnoj	195		2
+prihodnoj	195		3
 prihvatljivoj	237		3
-prijateljevoj			2
+prijateljevoj			3
 prijateljskoj	1083		2
 prijatnoj	927		3
-prijavnoj	10		2
-prijemnoj	186		2
-prikazanoj	267		2
-prikačenoj			2
+prijavnoj	10		3
+prijemnoj	186		3
+prikazanoj	267		3
+prikačenoj			3
 prikladnoj	37		3
 prikrivenoj			4
-prilepskoj	10		2
+prilepskoj	10		3
 priličnoj	442		3
-prilježnoj			2
-priloškoj			2
-priloženoj	207		2
+prilježnoj			3
+priloškoj			3
+priloženoj	207		3
 primarnoj	951		3
 primenjenoj	75		3
 primerenoj	37		4
 primetnoj	17		3
 primitivnoj	122		4
 primljenoj	81		3
-primorskoj	55		2
-prinudnoj	218		2
-priobalnoj	32		2
+primorskoj	55		3
+prinudnoj	218		3
+priobalnoj	32		3
 pripoj		M	2
-pripovednoj	20		2
+pripovednoj	20		3
 pripremnoj	351		3
 priređenoj	79		3
 prirodnoj	1855		3
 prisilnoj	53		2
 prisnoj	43		2
 prisoj			2
-prispeloj	21		2
+prispeloj	21		3
 pristojnijoj			3
 pristojnoj	225		2
-pristupnoj	108		2
+pristupnoj	108		3
 prisutnoj	181		3
-pritajenoj			2
-pritvornoj			2
-privatnoj	3737		2
-prividnoj	87		2
+pritajenoj			3
+pritvornoj			3
+privatnoj	3737		3
+prividnoj	87		3
 privlačnoj	49		3
-privrednoj	3948		2
+privrednoj	3948		3
 privremenoj	565		4
 privučenoj			3
-prizemnoj	85		2
+prizemnoj	85		3
 priznatoj	33		3
-pričinjenoj	39		2
+pričinjenoj	39		3
 prljavoj	268		3
 problematičnoj	132		3
 probnoj	204		2
-probodenoj			2
+probodenoj			3
 proboj	1480		2
 probuđenoj			3
 procenjenoj	18		3
-procesnoj	179		2
+procesnoj	179		3
 prodajnoj	374		3
 prodanoj			3
 prodornoj			2
-produktnoj			2
-produženoj	14		2
+produktnoj			3
+produženoj	14		3
 profesionalnoj	1205		6
-profesorskoj	55		2
-prognanoj			2
+profesorskoj	55		3
+prognanoj			3
 progonjenoj			3
-prohladnoj	35		2
+prohladnoj	35		3
 proizvodnoj	522		4
-projektnoj	213		2
+projektnoj	213		3
 prokletoj	176		3
-prokuvanoj	11		2
+prokuvanoj	11		3
 prolaznoj	72		3
-prolećnoj	357		2
+prolećnoj	357		3
 prolivenoj			4
 promenjenoj			3
 prometnoj	195		3
 pronađenoj	50		3
-propaloj	248		2
+propaloj	248		3
 propisanoj	120		3
-propratnoj			2
+propratnoj			3
 prorečenoj			4
-prorokovoj			2
-proročkoj	33		2
+prorokovoj			3
+proročkoj	33		3
 prosečnoj	1357		3
-prostačkoj	11		2
+prostačkoj	11		3
 prostoj	236		2
-prostornoj	173		2
+prostornoj	173		3
 prostranoj	328		3
 prostrtoj			2
-prosvetljenoj			2
-prosvetnoj	270		2
-protekloj	3121		2
-protestnoj	152		2
-protivhemijskoj			2
-protivničkoj	232		2
+prosvetljenoj			3
+prosvetnoj	270		3
+protekloj	3121		3
+protestnoj	152		3
+protivhemijskoj			3
+protivničkoj	232		3
 protivnoj	62		3
-protivrečnoj	10		2
-protićevoj			2
-protkanoj	20		2
+protivrečnoj	10		3
+protićevoj			3
+protkanoj	20		3
 proverenoj			4
 providnoj	133		3
-provreloj			2
+provreloj			3
 proznoj	51		2
-prozorskoj	38		2
-prozračnoj	14		2
+prozorskoj	38		3
+prozračnoj	14		3
 pročitanoj	12		3
-prošaranoj	16		2
+prošaranoj	16		3
 proširenoj	27		3
 prošlogodišnjoj	393		3
 prošloj	6022		2
 prožetoj	14		2
-prtenoj			2
+prtenoj			3
 pruskoj	69		2
 pruženoj	27		3
-prvobitnoj	497		2
+prvobitnoj	497		3
 prvoj	32939		2
-prvomajskoj	158		2
+prvomajskoj	158		3
 psećoj	33		2
 psihijatrijskoj	308		2
 psihičkoj	173		3
 psihološkoj	444		3
 pukoj	185		2
-pukovnikovoj			2
+pukovnikovoj			3
 pulskoj	41		2
 punijoj	15		3
 punjenoj			3
 punoj	5097		2
 punoletnoj	17		4
-purpurnoj	20		2
+purpurnoj	20		3
 pustinjskoj	90		2
 pustoj	226		2
 putničkoj	141		3
 putnoj	400		2
-putopisnoj	28		2
-putujućoj	23		2
+putopisnoj	28		3
+putujućoj	23		3
 pučkoj	18		2
-puštenoj			2
+puštenoj			3
 pčelinjoj	23		3
 pčinjskoj			2
-radijskoj	55		2
+radijskoj	55		3
 radikalnoj	618		4
-radikalskoj	71		2
-radinoj			2
+radikalskoj	71		3
+radinoj			3
 radivoj			3
-radićevoj			2
+radićevoj			3
 radničkoj	716		3
 radnoj	4342		2
 radoj			2
 radosnoj	47		3
 radoznaloj	31		3
-rajićevoj			2
+rajićevoj			3
 rajskoj	75		2
-raketnoj	83		2
-rakovičkoj			2
+raketnoj	83		3
+rakovičkoj			3
 ranijoj	579		3
 ranjenoj			3
 ranjivoj	31		3
 ranoj	2312		2
-rascepanoj			2
-rasejanoj			2
-rashodnoj	268		2
+rascepanoj			3
+rasejanoj			3
+rashodnoj	268		3
 rasističkoj	32		3
 rasklopljenoj			3
 raskošnoj	193		3
-raskrvavljenoj			2
+raskrvavljenoj			3
 rasnoj	550		2
-raspaljenoj			2
-raspetoj			2
-raspusnoj			2
+raspaljenoj			3
+raspetoj			3
+raspusnoj			3
 rastopljenoj			3
-rasturenoj			2
-rastućoj	253		2
+rasturenoj			3
+rastućoj	253		3
 rastvorenoj			3
-rasutoj	15		2
-rasvetnoj			2
+rasutoj	15		3
+rasvetnoj			3
 ratarskoj	138		3
 ratničkoj	46		3
 ratnoj	822		2
 ravnoj	772		2
 razapetoj	21		2
-razbacanoj			2
-razbarušenoj			2
+razbacanoj			3
+razbarušenoj			3
 razbijenoj			4
 razbludnoj			3
 razboj	231		2
 razboritoj			4
 razbuđenoj			3
-razdrljenoj			2
+razdrljenoj			3
 razdvoj		M	2
-razgrađenoj			2
+razgrađenoj			3
 razjarenoj			3
 različitoj	375		4
 razložnoj			3
 razmaženoj	17		3
-razmetljivoj			2
-razmućenoj			2
+razmetljivoj			3
+razmućenoj			3
 raznoj	23		2
 razorenoj	34		3
 razornoj	47		2
 razrađenoj			3
-razrednoj	102		2
-razrovanoj			2
+razrednoj	102		3
+razrovanoj			3
 razrušenoj			4
 razumljivoj	47		3
 razumnijoj			4
 razumnoj	298		3
 razuzdanoj	23		4
-razuđenoj	34		2
+razuđenoj	34		3
 razvijanoj			3
-razvijenoj	479		2
-razvodnoj	30		2
+razvijenoj	479		3
+razvodnoj	30		3
 razvoj	121511		2
-razvojnoj	997		2
+razvojnoj	997		3
 razvratnoj			3
-računarskoj	445		2
-računskoj	16		2
+računarskoj	445		3
+računskoj	16		3
 rađenoj	107		3
 raširenoj	19		3
 raškoj	1041		2
-raščišćenoj			2
-raščupanoj			2
-raženoj			2
+raščišćenoj			3
+raščupanoj			3
+raženoj			3
 realnoj	1039		3
 rebrastoj			3
-recentnoj	26		2
+recentnoj	26		3
 rednoj	21		2
 redovnoj	2130		3
-reformnoj			2
-reformskoj	47		2
+reformnoj			3
+reformskoj	47		3
 regionalnoj	3030		5
-regularnoj	186		2
-reklamnoj	192		2
-rekordnoj	156		2
-rektorskoj	11		2
-relacionoj			2
+regularnoj	186		3
+reklamnoj	192		3
+rekordnoj	156		3
+rektorskoj	11		3
+relacionoj			3
 religioznoj	154		5
-reljefnoj			2
+reljefnoj			3
 republikanskoj	110		2
 republičkoj	2044		3
-resavskoj	191		2
+resavskoj	191		3
 retkoj	192		2
 retoričkoj	37		3
-revijalnoj	85		2
-revizionoj	13		2
+revijalnoj	85		3
+revizionoj	13		3
 revolucionarnoj	216		7
 rezervnoj	110		2
 rečeničnoj			3
 rečenoj			3
 rečnoj	126		2
 ređoj			2
-režijskoj	13		2
-režimskoj	47		2
+režijskoj	13		3
+režimskoj	47		3
 ribarskoj	171		3
 ribljoj	155		2
-ribolovnoj	24		2
+ribolovnoj	24		3
 rigoroznoj	79		4
-riječkoj	64		2
+riječkoj	64		3
 riječnoj			3
 rimskoj	840		2
 riskantnoj			2
 ritmičkoj	64		3
 ritskoj	21		2
 ritualnoj	37		4
-rivalskoj	18		2
+rivalskoj	18		3
 riđoj	11		2
 robnoj	756		2
-robotskoj	20		2
-robovlasničkoj	11		2
+robotskoj	20		3
+robovlasničkoj	11		3
 rodbinskoj	104		3
 roditeljskoj	281		4
 rodnoj	1408		2
 rodoljubnoj			4
-rodovskoj	11		2
+rodovskoj	11		3
 roj	1143		1
 romanskoj	23		2
 romantičnoj	379		3
 romskoj	601		2
 ropskoj	28		2
 rosnoj	11		2
-rotacionoj	17		2
-rovitoj	13		2
-rođačkoj	47		2
-rođendanskoj	163		2
+rotacionoj	17		3
+rovitoj	13		3
+rođačkoj	47		3
+rođendanskoj	163		3
 rođenoj	205		3
 rudarskoj	168		2
 rudničkoj	48		3
@@ -2878,30 +2878,30 @@ sabranoj	17		3
 sadašnjoj	2183		3
 sadržajnoj	39		4
 sadržanoj	34		4
-saglasnoj			2
+saglasnoj			3
 sagledivoj			3
 sagrađenoj	97		3
 sahranjenoj			3
 sajamskoj	284		3
 sakralnoj	49		2
 salonskoj	17		2
-samohranoj	63		2
+samohranoj	63		3
 samoj	15155		2
 samotnoj	12		3
-samoubilačkoj	24		2
-samoupravnoj	58		2
+samoubilačkoj	24		3
+samoupravnoj	58		3
 samovoljnoj			4
 samozvanoj	29		4
-samrtničkoj	55		2
-samrtnoj	105		2
-sandžačkoj	108		2
-sanitarnoj	168		2
+samrtničkoj	55		3
+samrtnoj	105		3
+sandžačkoj	108		3
+sanitarnoj	168		3
 saobraćajnoj	2434		5
 sastavljenoj	121		4
-sasušenoj			2
-sataninoj			2
-satanskoj	32		2
-satelitskoj	102		2
+sasušenoj			3
+sataninoj			3
+satanskoj	32		3
+satelitskoj	102		3
 satiričnoj	31		3
 saudijskoj	345		2
 saveznoj	1624		3
@@ -2909,8 +2909,8 @@ savijenoj			4
 savremenoj	3760		4
 savršenoj	486		3
 savskoj	157		2
-sazdanoj	18		2
-sazidanoj	11		2
+sazdanoj	18		3
+sazidanoj	11		3
 sazvanoj	51		3
 sačinjenoj	53		3
 sačuvanoj	25		3
@@ -2918,8 +2918,8 @@ sašivenoj			4
 sažetoj	70		3
 scenskoj	100		2
 sebičnoj	21		3
-sedamnaestoj	78		2
-sedmičnoj			2
+sedamnaestoj	78		3
+sedmičnoj			3
 sedmoj	865		2
 sedoj	32		2
 seizmičkoj	24		3
@@ -2928,17 +2928,17 @@ sektaškoj	10		2
 sekularnoj	165		4
 seljačkoj	177		2
 selskoj			2
-semenskoj	44		2
+semenskoj	44		3
 semitskoj			2
-senatskoj			2
+senatskoj			3
 senilnoj			3
-seniorskoj	1038		2
-senćanskoj	51		2
+seniorskoj	1038		3
+senćanskoj	51		3
 seoskoj	769		3
 septičkoj	49		3
 sestrinoj			2
 sestrinskoj	62		2
-severnijoj			2
+severnijoj			3
 severnoj	7553		3
 severoistočnoj	391		3
 severozapadnoj	363		3
@@ -2947,60 +2947,60 @@ shvaćenoj	44		3
 sigurnoj	681		3
 sigurnosnoj	46		3
 sijamskoj			2
-silabičkoj			2
-silaznoj	182		2
-silikonskoj	173		2
+silabičkoj			3
+silaznoj	182		3
+silikonskoj	173		3
 silnoj	151		2
 silovanoj			4
 silovitoj			3
-simbolističkoj			2
-simićevoj			2
+simbolističkoj			3
+simićevoj			3
 simultanoj	13		4
 sinjoj			2
-sinodskoj	15		2
+sinodskoj	15		3
 sinoćnjoj	106		3
-sinoćnoj	214		2
-sintaksičkoj	19		2
+sinoćnoj	214		3
+sintaksičkoj	19		3
 sintetičnoj			3
-sionskoj	18		2
-sipkavoj			2
+sionskoj	18		3
+sipkavoj			3
 sirijskoj	396		3
-sirinićkoj			2
+sirinićkoj			3
 siromašnoj	784		3
-sirotinjskoj	49		2
-sirotnoj			2
+sirotinjskoj	49		3
+sirotnoj			3
 sirotoj	86		3
 sirovoj	123		3
 sistematičnoj	12		3
-sistemskoj	247		2
+sistemskoj	247		3
 sitnoj	168		2
 sivkastoj	12		3
 sivoj	1490		2
-sićevačkoj			2
+sićevačkoj			3
 sićušnoj	21		3
-sižejnoj			2
+sižejnoj			3
 sjajnoj	1244		2
-sjedinjenoj			2
-skadarskoj	132		2
+sjedinjenoj			3
+skadarskoj	132		3
 skeptičkoj			3
 skijaškoj	99		2
 skitskoj			2
 skladnoj	87		2
 skopskoj	107		2
-skorašnjoj	110		2
-skorenoj			2
-skorijoj	1209		2
+skorašnjoj	110		3
+skorenoj			3
+skorijoj	1209		3
 skoroj	798		2
-skovanoj			2
+skovanoj			3
 skraćenoj	14		3
 skrivanoj			3
-skrivenoj	50		2
+skrivenoj	50		3
 skromnoj	383		2
 skrovitoj	11		3
-skrušenoj			2
+skrušenoj			3
 skupljoj	124		2
 skupoj	215		2
-skučenoj	33		2
+skučenoj	33		3
 slabijoj	232		3
 slaboj	545		2
 slanoj	725		2
@@ -3011,13 +3011,13 @@ slavnoj	462		2
 slavonskoj	53		2
 slavskoj	45		2
 sledećoj	5165		2
-slepljenoj			2
+slepljenoj			3
 slepoj	215		2
 sleđenoj			3
 slikanoj			3
-slikarevoj			2
-slikarskoj	170		2
-slikovitoj	21		2
+slikarevoj			3
+slikarskoj	170		3
+slikovitoj	21		3
 sličnijoj			3
 sličnoj	1813		2
 sljedećoj			2
@@ -3036,8 +3036,8 @@ slučajnoj	77		3
 službenoj	3851		3
 služenoj			3
 smanjenoj	44		3
-smaragdnoj	12		2
-smederevskoj	1094		2
+smaragdnoj	12		3
+smederevskoj	1094		3
 smernoj	11		2
 smeđoj	86		2
 smešnoj	86		2
@@ -3049,8 +3049,8 @@ smradnoj			2
 smrdljivoj	52		3
 smrtnoj	273		2
 smrtonosnoj	63		4
-smrznutoj	34		2
-smušenoj			2
+smrznutoj	34		3
+smušenoj			3
 snažnijoj	79		3
 snažnoj	543		2
 snežnoj	179		2
@@ -3063,22 +3063,22 @@ socijalističkoj	847		3
 socijalnoj	3726		4
 soj	605		1
 sokoj			2
-sokolovoj			2
-solarnoj	197		2
+sokolovoj			3
+solarnoj	197		3
 solidnoj	171		3
-solunskoj	75		2
-somborskoj	254		2
-somotskoj			2
-sonetnoj			2
-sopstvenoj	5472		2
+solunskoj	75		3
+somborskoj	254		3
+somotskoj			3
+sonetnoj			3
+sopstvenoj	5472		3
 sovjetskoj	511		3
 spaljenoj			3
-sparušenoj			2
+sparušenoj			3
 spasilačkoj	68		4
-spasićevoj			2
-spasonosnoj	31		2
+spasićevoj			3
+spasonosnoj	31		3
 spavaćoj	1362		2
-spavačoj			2
+spavačoj			3
 spašenoj			3
 specifičnoj	729		3
 specijalnoj	1497		4
@@ -3097,33 +3097,33 @@ sporoj	88		2
 sportskoj	2892		2
 sposobnoj	59		3
 spratnoj	22		2
-spregnutoj			2
+spregnutoj			3
 spremanoj			3
 spremnoj	52		2
-sprženoj			2
+sprženoj			3
 spuštenoj			3
 sramnoj	105		2
 sramotnoj	26		3
-sračunatoj	11		2
+sračunatoj	11		3
 srdačnoj	110		3
 srebrnoj	416		3
-sredačkoj			2
+sredačkoj			3
 središnjoj	261		3
-središnoj			2
-srednjevekovnoj	186		2
-srednjoevropskoj	36		2
+središnoj			3
+srednjevekovnoj	186		3
+srednjoevropskoj	36		3
 srednjoj	6354		2
-srednjoškolskoj	66		2
+srednjoškolskoj	66		3
 sremskoj	4135		2
-sremčevoj			2
+sremčevoj			3
 sreskoj	27		2
 srećnijoj	34		3
 srećnoj	312		2
 srodnoj	93		2
-sročenoj			2
-srpskohrvatskoj			2
+sročenoj			3
+srpskohrvatskoj			3
 srpskoj	30850		2
-srušenoj	34		2
+srušenoj	34		3
 srčanoj	96		3
 stabilnoj	435		3
 stajskoj			2
@@ -3131,44 +3131,44 @@ staklenoj	407		3
 staleškoj	22		3
 stalnoj	1956		2
 stambenoj	796		3
-stamenoj			2
-standardnoj	956		2
+stamenoj			3
+standardnoj	956		3
 staničnoj	21		3
 staračkoj	23		3
 starijoj	968		3
 starinskoj	37		2
 staroj	9212		2
 staromodnoj	20		4
-starosnoj	546		2
-starozavetnoj	38		2
+starosnoj	546		3
+starozavetnoj	38		3
 startnoj	622		2
 starčevoj	14		3
 statističkoj	167		3
 statičkoj	63		3
 statičnoj	35		3
 statusnoj	296		3
-stepenastoj	16		2
-sterilnoj	46		2
+stepenastoj	16		3
+sterilnoj	46		3
 stečajnoj	127		3
 stečenoj	44		3
-stihovnoj			2
+stihovnoj			3
 stilskoj	97		2
-stojećoj	12		2
-stolarskoj	53		2
-stolačkoj			2
+stojećoj	12		3
+stolarskoj	53		3
+stolačkoj			3
 stočarskoj	185		3
 stočnoj	373		2
-stradaloj	30		2
-stranačkoj	589		2
+stradaloj	30		3
+stranačkoj	589		3
 stranoj	2096		2
 strastvenoj	53		3
 strateškoj	473		2
-stravičnoj	63		2
+stravičnoj	63		3
 strašnijoj			3
 strašnoj	339		2
-stražarskoj	16		2
+stražarskoj	16		3
 stražnjoj	27		2
-streljačkoj	40		2
+streljačkoj	40		3
 striktnoj	58		2
 stričevoj			3
 strmoj	105		2
@@ -3176,50 +3176,50 @@ strogoj	482		2
 stroj	834		1
 strožoj	20		2
 strpljivoj	15		3
-strukovnoj	74		2
-strumičkoj	15		2
+strukovnoj	74		3
+strumičkoj	15		3
 stručnoj	2952		2
-studenoj			2
-studentskoj	806		2
-studijskoj	271		2
-stvaralačkoj	222		2
+studenoj			3
+studentskoj	806		3
+studijskoj	271		3
+stvaralačkoj	222		3
 stvarnijoj			3
 stvarnoj	705		2
-stvorenoj	157		2
-subotičkoj	758		2
+stvorenoj	157		3
+subotičkoj	758		3
 subotnjoj	107		3
-sudbinskoj	39		2
+sudbinskoj	39		3
 sudbonosnoj	38		3
-sudijskoj	383		2
+sudijskoj	383		3
 sudskoj	1258		2
 sujetnoj	10		3
-suknenoj			2
-sultanovoj			2
+suknenoj			3
+sultanovoj			3
 suludoj	94		3
 sumanutoj	39		3
 sumnjivoj	97		3
 sumornoj	118		3
-sumpornoj	13		2
-sumračnoj			2
+sumpornoj	13		3
+sumračnoj			3
 sunčanoj	217		3
-sunčevoj	416		2
+sunčevoj	416		3
 suočenoj	12		3
-superheroj	186		2
+superheroj	186		3
 suprotnoj	1215		3
 suptilnoj	40		3
 suroj			2
 surovoj	344		3
 susednoj	1673		3
-susedskoj			2
+susedskoj			3
 sutrašnjoj	348		3
-suverenoj			2
+suverenoj			3
 suvoj	684		2
 suzdržanoj			3
 sušnoj	52		2
-suštinskoj	418		2
+suštinskoj	418		3
 suštoj			2
 suženoj	31		3
-svadbenoj	55		2
+svadbenoj	55		3
 svagdašnjoj			3
 svakakvoj			3
 svakidašnjoj	16		4
@@ -3227,45 +3227,45 @@ svakodnevnoj	1589		4
 svakoj	24811		2
 svačijoj	52		3
 svedenoj	16		3
-svekolikoj	91		2
-svemirskoj			2
+svekolikoj	91		3
+svemirskoj			3
 svemogućoj	15		4
 svemoćnoj	33		3
-sveopštoj			2
+sveopštoj			3
 svesnoj	127		2
 svesrdnoj	74		3
 svestranoj	55		3
-svetačkoj			2
-svetlećoj			2
+svetačkoj			3
+svetlećoj			3
 svetlijoj	90		3
 svetloj	435		2
-svetlosnoj	56		2
+svetlosnoj	56		3
 svetlucavoj	22		3
 svetoj	4698		2
-svetovnoj	96		2
+svetovnoj	96		3
 svetskoj	8385		2
 sveukupnoj	194		3
-svevidećoj			2
+svevidećoj			3
 svečanoj	4284		3
-svečarskoj	63		2
-svečevoj			2
-sveštenikovoj			2
-sveštenoj	53		2
+svečarskoj	63		3
+svečevoj			3
+sveštenikovoj			3
+sveštenoj	53		3
 svežoj	147		2
 svilenoj	87		3
-svinjarskoj			2
+svinjarskoj			3
 svinjskoj	47		2
 sviračkoj			2
 svirepoj			3
 svoj	220686		1
-svojevrsnoj	573		2
-svojinskoj	116		2
+svojevrsnoj	573		3
+svojinskoj	116		3
 svojoj	89735		2
 svojstvenoj	60		3
 svršenoj			3
 tadanjoj	15		3
 tadašnjoj	1910		3
-tadićevoj			2
+tadićevoj			3
 tajanstvenoj	95		3
 tajnoj	793		2
 takozvanoj	1264		2
@@ -3275,61 +3275,61 @@ takvoj	8856		2
 talasnoj	308		3
 talijanskoj	47		2
 talmudskoj			3
-tamiškoj			2
+tamiškoj			3
 tamnijoj	82		3
-tamničkoj			2
+tamničkoj			3
 tamnoj	572		2
 tamnoplavoj	14		4
 tamošnjoj	440		3
 tananoj	45		3
 tankoj		M	2
-tarifnoj	28		2
+tarifnoj	28		3
 tatarskoj			3
-tatinoj			2
-tavanskoj			2
+tatinoj			3
+tavanskoj			3
 tavnoj			2
 tačnoj	135		2
 taštoj			2
-teatarskoj	48		2
+teatarskoj	48		3
 teatralnoj			4
 tehničkoj	2500		3
 tehnološkoj	445		3
-teksaškoj			2
-tekstilnoj	576		2
+teksaškoj			3
+tekstilnoj	576		3
 tekućoj	1515		2
 telefonskoj	716		2
 telesnoj	621		3
-televizijskoj	762		2
+televizijskoj	762		3
 tematskoj	206		3
-temeljnoj	197		2
-tenderskoj	212		2
+temeljnoj	197		3
+tenderskoj	212		3
 teniskoj	153		3
 tenkovskoj	20		3
 teološkoj	64		3
 teoretskoj	44		3
-teorijskoj	299		2
-terenskoj	102		2
-teritorijalnoj	601		2
-terminalnoj	86		2
-termičkoj	56		2
+teorijskoj	299		3
+terenskoj	102		3
+teritorijalnoj	601		3
+terminalnoj	86		3
+termičkoj	56		3
 terorističkoj	163		3
-terzićevoj			2
+terzićevoj			3
 tesnoj	787		2
-tetinoj			2
-tetkinoj			2
+tetinoj			3
+tetkinoj			3
 tečnoj	76		2
 teškoj	3839		2
 tešnjoj	37		2
-težakovoj			2
-težačkoj			2
+težakovoj			3
+težačkoj			3
 težoj	328		2
 tihoj	846		2
-timočkoj	451		2
-tinejdžerskoj	69		2
+timočkoj	451		3
+tinejdžerskoj	69		3
 tipičnoj	210		3
 tipološkoj	24		3
 tiranskoj	11		3
-titanskoj	14		2
+titanskoj	14		3
 tišoj	12		2
 tmurnoj	24		2
 tobožnjoj	111		3
@@ -3338,23 +3338,23 @@ tokijskoj	90		2
 tolikoj	1264		3
 tolstoj			2
 tonskoj	32		2
-topličkoj	19		2
+topličkoj	19		3
 toploj	1080		2
-toplotnoj	173		2
-topovskoj	14		2
-torinskoj	22		2
+toplotnoj	173		3
+topovskoj	14		3
+torinskoj	22		3
 totalnoj	425		3
-tovarnoj			2
+tovarnoj			3
 točnoj			2
 tradicionalnoj	2012		6
 tragičnoj	351		3
 trajnoj	257		2
-tramvajskoj	47		2
+tramvajskoj	47		3
 transcendentalnoj	29		5
 transportnoj	94		3
 travnatoj	87		3
-traženoj	86		2
-trbićevoj			2
+traženoj	86		3
+trbićevoj			3
 trbušnoj	136		3
 trenerskoj	228		3
 trenutnoj	1536		3
@@ -3364,67 +3364,67 @@ trezvenoj	15		3
 trećoj	7058		2
 trgovačkoj	303		4
 trgovinskoj	802		4
-tridesetoj	147		2
+tridesetoj	147		3
 trijumfalnoj	29		4
-trinaestoj	100		2
-tristotoj			2
-trkačkoj	241		2
+trinaestoj	100		3
+tristotoj			3
+trkačkoj	241		3
 trobroj			2
 trodelnoj	15		3
-trodnevnoj	208		2
-trofaznoj			2
+trodnevnoj	208		3
+trofaznoj			3
 trohejskoj			2
 trojakoj			3
 trojnoj	31		2
-trolejbuskoj			2
+trolejbuskoj			3
 tromoj			2
-tronogoj			2
+tronogoj			3
 tropskoj	141		2
 trostranoj			3
 trostrukoj	43		3
-tročlanoj	66		2
+tročlanoj	66		3
 trošnoj	134		2
 trudnoj	46		2
-truležnoj			2
+truležnoj			3
 truloj	92		2
 tržišnoj	1874		3
 turističkoj	2194		3
-turnirskoj			2
+turnirskoj			3
 turobnoj	27		3
 turskoj	1228		2
-tuzlanskoj	89		2
-tuđinskoj	25		2
+tuzlanskoj	89		3
+tuđinskoj	25		3
 tuđoj	1321		2
 tužnoj	216		2
 tvarnoj			2
 tvoj	16903		1
 tvojoj	127		2
-tvrdoglavoj	18		2
+tvrdoglavoj	18		3
 tvrdoj	407		2
 ubavoj	10		3
 ubačenoj			3
-ubedljivoj	168		2
-ubeđenoj			2
-ubijenoj	41		2
-ubilačkoj			2
+ubedljivoj	168		3
+ubeđenoj			3
+ubijenoj	41		3
+ubilačkoj			3
 ubitačnoj	15		4
-ubodenoj			2
+ubodenoj			3
 ubogoj	56		3
 uboj	14		2
 ubrzanoj	22		3
-ucveljenoj			2
+ucveljenoj			3
 udaljenoj	550		3
-udarnoj	95		2
+udarnoj	95		3
 udatoj	20		3
-udbaškoj	15		2
+udbaškoj	15		3
 udobnoj	163		3
-udovičkoj			2
+udovičkoj			3
 udruženoj	14		3
-udubljenoj			2
-udžbeničkoj	26		2
-ugarskoj	409		2
+udubljenoj			3
+udžbeničkoj	26		3
+ugarskoj	409		3
 uglednoj	273		3
-ugnjetačkoj			2
+ugnjetačkoj			3
 ugodnoj	87		3
 ugoj			2
 ugovorenoj	23		3
@@ -3432,14 +3432,14 @@ ugrađenoj	49		3
 ugroženoj	149		3
 uhvatljivoj			3
 uhvaćenoj	14		4
-ujakovoj			2
+ujakovoj			3
 ujedinjenoj	39		3
 ukazanoj	22		3
 ukinutoj			4
-ukletoj	52		2
-ukleštenoj			2
-uključenoj	32		2
-ukoričenoj			2
+ukletoj	52		3
+ukleštenoj			3
+uključenoj	32		3
+ukoričenoj			3
 ukočenoj			3
 ukradenoj			4
 ukrajinskoj	332		4
@@ -3447,48 +3447,48 @@ ukrašenoj	73		3
 ukroćenoj			3
 ukupnoj	3570		3
 ukusnoj	85		3
-ulaznoj	139		2
+ulaznoj	139		3
 uličnoj	349		3
 uloženoj			3
-ulupanoj			2
-umanjenoj	54		2
+ulupanoj			3
+umanjenoj	54		3
 umerenijoj	10		5
 umerenoj	455		4
-umetnikovoj	15		2
+umetnikovoj	15		3
 umetničkoj	1455		4
-umirućoj	21		2
+umirućoj	21		3
 umišljenoj	27		4
 umnoj	64		2
-umobolnoj			2
+umobolnoj			3
 umornoj	53		3
-umrloj	22		2
-umućenoj			2
+umrloj	22		3
+umućenoj			3
 unakaženoj			3
-unakrsnoj	78		2
+unakrsnoj	78		3
 unetoj			2
-unijatskoj			2
-unikatnoj	25		2
+unijatskoj			3
+unikatnoj	25		3
 univerzalnoj	279		5
 univerzitetskoj	833		2
-uništenoj	83		2
+uništenoj	83		3
 unutarnjoj	79		4
 unutrašnjoj	2063		4
 uobičajenoj	414		3
-uobličenoj	12		2
-uopštenoj	14		2
+uobličenoj	12		3
+uopštenoj	14		3
 uočljivoj	16		3
 upamćenoj			3
-uparađenoj			2
+uparađenoj			3
 upisanoj	57		3
-uplakanoj	16		2
-uplašenoj	19		2
-upljuvanoj			2
-upokojenoj			2
-uporednoj	117		2
+uplakanoj	16		3
+uplašenoj	19		3
+upljuvanoj			3
+upokojenoj			3
+uporednoj	117		3
 upornoj	76		3
 upoznatoj			3
-upravnikovoj			2
-upravnoj	469		2
+upravnikovoj			3
+upravnoj	469		3
 uprljanoj			3
 upućenoj	192		3
 urađenoj	59		3
@@ -3497,140 +3497,140 @@ uredničkoj	31		4
 urednoj	42		3
 uređenoj	504		3
 urgentnoj	69		2
-urnebesnoj	48		2
-urološkoj	22		2
+urnebesnoj	48		3
+urološkoj	22		3
 urođenoj	95		4
-uroševoj			2
+uroševoj			3
 usamljenoj	105		3
 usađenoj			3
 ushićenoj			3
-usijanoj	48		2
-usiljenoj			2
-usklađenoj	12		2
+usijanoj	48		3
+usiljenoj			3
+usklađenoj	12		3
 uskoj	468		2
-uskršnjoj	94		2
-uslišenoj			2
-uslovljenoj	22		2
+uskršnjoj	94		3
+uslišenoj			3
+uslovljenoj	22		3
 uslovnoj	138		2
 uslužnoj	59		3
 usmenoj	408		3
 usmerenoj	86		4
-usnuloj	12		2
+usnuloj	12		3
 uspavanoj	11		3
 uspešnijoj	72		4
 uspešnoj	1180		3
 uspravnoj	29		3
-usrdnoj	19		2
-ustajaloj	25		2
-ustalasanoj			2
-ustaljenoj	27		2
-ustaničkoj	287		2
+usrdnoj	19		3
+ustajaloj	25		3
+ustalasanoj			3
+ustaljenoj	27		3
+ustaničkoj	287		3
 ustavnoj	651		3
-ustaškoj	139		2
+ustaškoj	139		3
 ustroj	45		2
 ustrojenoj			3
-usvojenoj	299		2
-utabanoj			2
-utančanoj			2
-utemeljenoj	78		2
+usvojenoj	299		3
+utabanoj			3
+utančanoj			3
+utemeljenoj	78		3
 utešnoj	18		3
-uticajnoj	49		2
-utisnutoj			2
-utišanoj			2
-utopijskoj	37		2
-ututkanoj			2
+uticajnoj	49		3
+utisnutoj			3
+utišanoj			3
+utopijskoj	37		3
+ututkanoj			3
 utvrđenoj	160		3
 uvaženoj	58		3
-uvedenoj	35		2
-uveloj			2
+uvedenoj	35		3
+uveloj			3
 uvezenoj	20		3
 uvećanoj	56		3
-uvodnoj	568		2
+uvodnoj	568		3
 uvoznoj	102		3
 uvredljivoj			3
-uvrnutoj			2
+uvrnutoj			3
 uzajamnoj	358		4
 uzaludnoj	34		4
-uzanoj	41		2
-uzastopnoj	121		2
-uzavreloj	137		2
+uzanoj	41		3
+uzastopnoj	121		3
+uzavreloj	137		3
 uzbudljivoj	365		3
 uzburkanoj			4
 uzbuđenoj			3
-uzdignutoj			2
-uzdrmanoj	10		2
-uzdržanoj			2
+uzdignutoj			3
+uzdrmanoj	10		3
+uzdržanoj			3
 uzetoj	30		3
 uzgoj	2121		2
-uzlaznoj	211		2
+uzlaznoj	211		3
 uznemirenoj			3
 uzročnoj	47		3
 uzvišenoj	19		3
-uzvodnoj	17		2
-uzvratnoj	88		2
+uzvodnoj	17		3
+uzvratnoj	88		3
 učeničkoj	36		4
 učenoj	18		3
 učinjenoj	16		3
-učiteljevoj			2
+učiteljevoj			3
 učiteljskoj	120		4
 učlanjenoj			3
-uštirkanoj			2
-užarenoj	48		2
+uštirkanoj			3
+užarenoj	48		3
 užasnijoj			4
 užasnoj	108		3
-užičkoj	566		2
+užičkoj	566		3
 užoj	544		2
-užurbanoj	21		2
+užurbanoj	21		3
 vaganoj			3
-vaginalnoj	60		2
-vagonskoj			2
-valjanoj	33		2
-valjevskoj	823		2
-valonskoj			2
-valutnoj	57		2
+vaginalnoj	60		3
+vagonskoj			3
+valjanoj	33		3
+valjevskoj	823		3
+valonskoj			3
+valutnoj	57		3
 vampirskoj	19		2
-vanbračnoj	291		2
-vandalskoj			2
-vanrednoj	938		2
-vanzemaljskoj	36		2
+vanbračnoj	291		3
+vandalskoj			3
+vanrednoj	938		3
+vanzemaljskoj	36		3
 varanoj			3
-variranoj			2
+variranoj			3
 varljivoj	27		3
-varoškoj			2
+varoškoj			3
 varvarskoj	37		3
-varšavskoj	52		2
-vaskrsloj			2
-vaskršnjoj	69		2
-vaspitnoj	126		2
+varšavskoj	52		3
+vaskrsloj			3
+vaskršnjoj	69		3
+vaspitnoj	126		3
 vatrenoj	138		3
-vatrogasnoj	255		2
-vaučerskoj			2
-vazalskoj			2
-vazduhoplovnoj	217		2
-vazdušnoj	242		2
-vašarskoj	18		2
+vatrogasnoj	255		3
+vaučerskoj			3
+vazalskoj			3
+vazduhoplovnoj	217		3
+vazdušnoj	242		3
+vašarskoj	18		3
 vašoj	1236		2
-važećoj	340		2
+važećoj	340		3
 važnijoj	33		3
 važnoj	1109		2
 vedrijoj			3
 vedroj	110		2
-vekovnoj	140		2
-velelepnoj	101		2
+vekovnoj	140		3
+velelepnoj	101		3
 velikaškoj			2
 velikodušnoj	32		3
 velikoj	38542		3
-veličanoj			2
+veličanoj			3
 veličanstvenoj	218		3
 veneričnoj			3
 venskoj	35		2
 venčanoj			3
 verbalnoj	112		2
-verinoj			2
-vernijoj			2
+verinoj			3
+vernijoj			3
 vernoj	104		2
-verolomnoj			2
-verovatnoj	27		2
+verolomnoj			3
+verovatnoj	27		3
 verskoj	1026		2
 veselijoj			4
 veseloj	346		3
@@ -3638,99 +3638,99 @@ veslanoj			3
 veslačkoj	30		2
 veterinarskoj	643		2
 vetrovitoj	26		3
-vezanoj	336		2
+vezanoj	336		3
 vezenoj			3
 vezivanoj			3
-vezivnoj			2
+vezivnoj			3
 većinskoj	227		2
 većoj	9027		2
 večerašnjoj	236		3
 večernjoj	306		2
 večitoj	354		3
 večnoj	523		2
-večnoživoj			2
+večnoživoj			3
 veštačkoj	429		2
 veštoj	35		2
-vibrantnoj			2
+vibrantnoj			3
 vidljivoj	163		3
-viktorijanskoj	44		2
+viktorijanskoj	44		3
 vilinoj			3
-vilinskoj	12		2
-vinovoj	42		2
+vilinskoj	12		3
+vinovoj	42		3
 vinskoj	327		2
-vinčanskoj	82		2
-violinskoj			2
-virtuelnoj	460		2
-virusnoj	87		2
+vinčanskoj	82		3
+violinskoj			3
+virtuelnoj	460		3
+virusnoj	87		3
 visokoj	4241		3
 vitalnoj	45		3
-viteškoj	51		2
+viteškoj	51		3
 vitkoj	45		2
-vizuelnoj	297		2
+vizuelnoj	297		3
 viđenoj	45		3
-višeboj	189		2
-višebojnoj	10		2
-višetomnoj			2
-višnjičkoj			2
+višeboj	189		3
+višebojnoj	10		3
+višetomnoj			3
+višnjičkoj			3
 višnjoj	10		2
 višoj	1802		2
 vladajućoj	3114		4
 vladarskoj	55		2
-vladikinoj			2
+vladikinoj			3
 vladinoj			3
-vladičinoj			2
-vlasničkoj	343		2
-vlastitoj			2
+vladičinoj			3
+vlasničkoj	343		3
+vlastitoj			3
 vlaškoj	240		2
 vlažnoj	239		2
-vodeničkoj			2
+vodeničkoj			3
 vodenoj	450		3
 vodećoj	465		2
-vodopoj		M	2
+vodopoj		M	3
 vodoravnoj	16		4
-vodovodnoj	408		2
+vodovodnoj	408		3
 vojničkoj	192		2
 vojnoj	4037		2
-vojvodskoj			2
-vokalnoj	48		2
+vojvodskoj			3
+vokalnoj	48		3
 voljenoj	554		3
 voljnoj	19		2
-volšebnoj			2
-voskarskoj			2
-vozačevoj	23		2
+volšebnoj			3
+voskarskoj			3
+vozačevoj	23		3
 vozačkoj	119		2
 voznoj	44		2
 vođenoj	61		3
-voždovoj	50		2
+voždovoj	50		3
 voženoj	77		3
 vragolastoj			3
 vranjskoj	772		2
 vraškoj			2
-vražijoj			2
+vražijoj			3
 vražjoj	11		2
 vrednoj	378		2
-vrednosnoj	70		2
+vrednosnoj	70		3
 vreloj	274		2
 vremenskoj	635		3
 vrhovnoj	222		2
 vrhunskoj	507		2
 vrletnoj	11		3
 vrloj	18		2
-vrnjačkoj	1383		2
+vrnjačkoj	1383		3
 vrućoj	229		2
-vršačkoj	114		2
-vukašinovoj			2
-vukovoj	210		2
-vulgarnoj	29		2
+vršačkoj	114		3
+vukašinovoj			3
+vukovoj	210		3
+vulgarnoj	29		3
 vulkanskoj	46		2
 vunenoj	14		3
-vučićevoj	54		2
+vučićevoj	54		3
 vučjoj	32		2
-zabataljenoj			2
+zabataljenoj			3
 zabavnoj	213		3
-zabačenoj	62		2
-zabeleženoj	19		2
-zabitoj			2
+zabačenoj	62		3
+zabeleženoj	19		3
+zabitoj			3
 zaboravljenoj	41		4
 zaboravnoj			4
 zabranjenoj	145		3
@@ -3742,120 +3742,120 @@ zadimljenoj			4
 zadnjoj	2015		2
 zadovoljenoj			3
 zadovoljnoj			4
-zadružnoj	70		2
-zaduženoj	100		2
+zadružnoj	70		3
+zaduženoj	100		3
 zagađenoj	29		4
 zagnoj			2
 zagonetnoj	46		4
-zagrejanoj	751		2
-zagušljivoj	82		2
+zagrejanoj	751		3
+zagušljivoj	82		3
 zahtevanoj			3
-zahtevnoj	166		2
-zahuktaloj	29		2
+zahtevnoj	166		3
+zahuktaloj	29		3
 zahvalnoj	23		2
 zajedničkoj	4667		4
-zakazanoj	275		2
-zakiseljenoj			2
-zaključanoj			2
+zakazanoj	275		3
+zakiseljenoj			3
+zaključanoj			3
 zaključenoj			3
 zaključnoj	31		3
 zaklonjenoj			3
 zakonitoj	37		4
 zakonskoj	919		3
-zakrpljenoj			2
-zaleđenoj			2
-zaljubljenoj	29		2
-zalutaloj			2
+zakrpljenoj			3
+zaleđenoj			3
+zaljubljenoj	29		3
+zalutaloj			3
 zamašnoj			3
-zamešenoj			2
-zamišljenoj	152		2
-zamorenoj			2
-zamračenoj			2
-zamrloj			2
-zamrzloj			2
+zamešenoj			3
+zamišljenoj	152		3
+zamorenoj			3
+zamračenoj			3
+zamrloj			3
+zamrzloj			3
 zamrznutoj			4
-zamršenoj			2
+zamršenoj			3
 zamućenoj			3
-zanatskoj	133		2
+zanatskoj	133		3
 zanemarivanoj			3
-zanesenoj			2
+zanesenoj			3
 zanimljivoj	521		3
-zanosnoj	48		2
-zaostaloj	207		2
-zaovinoj			2
-zapadnoevropskoj	95		2
+zanosnoj	48		3
+zaostaloj	207		3
+zaovinoj			3
+zapadnoevropskoj	95		3
 zapadnoj	7781		3
 zapaljenoj	11		3
-zapaljivoj	34		2
+zapaljivoj	34		3
 zapaženoj			4
-zapetljanoj			2
+zapetljanoj			3
 zapisanoj	13		3
-zaplenjenoj			2
+zaplenjenoj			3
 zapoj			2
 zaposlenoj	89		4
 započetoj	50		2
-zaprečenoj			2
+zaprečenoj			3
 zapušenoj			4
 zapuštenoj	19		3
-zaraznoj	41		2
-zaraženoj	38		2
-zarobljenoj	18		2
+zaraznoj	41		3
+zaraženoj	38		3
+zarobljenoj	18		3
 zasebnoj	195		3
-zasejanoj			2
+zasejanoj			3
 zasenjenoj			4
 zasićenoj			4
-zasluženoj	217		2
-zasnovanoj	387		2
-zastareloj	53		2
+zasluženoj	217		3
+zasnovanoj	387		3
+zastareloj	53		3
 zastoj	1746		2
 zastrašujućoj	60		4
 zataškanoj			4
 zatečenoj			4
 zatrovanoj	14		3
-zatupljenoj			2
+zatupljenoj			3
 zatvorenoj	896		4
-zatvorskoj	333		2
+zatvorskoj	333		3
 zauzdanoj			3
 zauzetoj			2
 zavađenoj			4
-zavejanoj	25		2
-zavetnoj			2
+zavejanoj	25		3
+zavetnoj			3
 zavezanoj			3
 zavidnoj	148		3
 zavisnoj	48		3
-zavičajnoj	122		2
+zavičajnoj	122		3
 zavodljivoj	40		3
 zavoj	474		2
-zavrzenoj			2
+zavrzenoj			3
 završenoj	1010		4
-završnoj	3210		2
-zazidanoj			2
+završnoj	3210		3
+zazidanoj			3
 začaranoj	29		3
 začetoj	12		2
 začinjenoj	18		3
 zaštitnoj	197		3
 zaštićenoj	34		3
-zažarenoj			2
+zažarenoj			3
 zbijenoj			3
 zbirnoj	59		2
 zbornoj			2
-zbrkanoj	12		2
+zbrkanoj	12		3
 zbunjenoj			3
 zdravijoj	109		3
 zdravoj	1609		2
-zdravstvenoj	4006		2
+zdravstvenoj	4006		3
 združenoj			3
 zelenoj	2240		3
 zemaljskoj	997		2
-zemljanoj	80		2
-zemljinoj		M	2
-zemljišnoj	112		2
+zemljanoj	80		3
+zemljinoj		M	3
+zemljišnoj	112		3
 zemnoj	15		2
-zetovoj			2
+zetovoj			3
 zečjoj			2
 zgodnoj	98		2
-zgranutoj			2
-zgurenoj			2
+zgranutoj			3
+zgurenoj			3
 zgusnutoj			3
 zidnoj	35		2
 zimskoj	764		2
@@ -3875,10 +3875,10 @@ znanoj	52		2
 znatnijoj	28		3
 znatnoj	1094		2
 značajnoj	2215		3
-značenjskoj	15		2
+značenjskoj	15		3
 znoj	1870		1
-znojavoj			2
-zoranovoj			2
+znojavoj			3
+zoranovoj			3
 zreloj	146		2
 zubarskoj	53		2
 zubnoj	83		2
@@ -3886,139 +3886,139 @@ zvaničnoj	3036		3
 zvanoj	626		2
 zverskoj	11		2
 zvezdanoj	58		3
-zvečanskoj			2
-zvorničkoj	42		2
+zvečanskoj			3
+zvorničkoj	42		3
 zvučnoj	225		2
 ćelavoj	17		3
 ćelijskoj	109		2
-ćesarevoj			2
-ćesarskoj			2
+ćesarevoj			3
+ćesarskoj			3
 ćiriličkoj	12		3
 ćiriličnoj	52		3
 ćirilskoj			3
-ćirićevoj			2
+ćirićevoj			3
 ćutljivoj	11		3
 Češkoj	315		2
-čajničkoj			2
+čajničkoj			3
 čajnoj	25		2
-čamovoj			2
+čamovoj			3
 čarnoj			2
 čarobnoj	186		3
 časnoj	132		2
-čačanskoj	299		2
+čačanskoj	299		3
 čađavoj			3
-čehoslovačkoj			2
-čeličnoj	114		2
+čehoslovačkoj			3
+čeličnoj	114		3
 čelnoj	86		2
-čemernoj	11		2
-čeonoj	65		2
+čemernoj	11		3
+čeonoj	65		3
 čestitoj	39		3
 čestoj	93		2
-četničkoj	72		2
-četrdesetogodišnjoj			2
-četrdesetoj	106		2
-četrnaestoj	112		2
-četvrtastoj	15		2
+četničkoj	72		3
+četrdesetogodišnjoj			3
+četrdesetoj	106		3
+četrnaestoj	112		3
+četvrtastoj	15		3
 četvrtoj	2614		2
-čečenskoj			2
+čečenskoj			3
 češkoj	315		2
 češćoj	39		2
 čijoj	6213		2
-čikaškoj	95		2
+čikaškoj	95		3
 činjeničnoj	32		4
-činovničkoj	36		2
-čipkanoj			2
-čipkastoj	10		2
-čistijoj			2
+činovničkoj	36		3
+čipkanoj			3
+čipkastoj	10		3
+čistijoj			3
 čistoj	1313		2
-čitalačkoj			2
+čitalačkoj			3
 čitanoj			3
-čitaočevoj			2
+čitaočevoj			3
 čitavoj	4816		3
 čitljivoj	18		3
-čivutskoj			2
+čivutskoj			3
 članoj			2
-čobanskoj			2
-čohanoj			2
+čobanskoj			3
+čohanoj			3
 čokoladnoj	20		4
-čovekovoj	491		2
-čovečijoj	28		2
+čovekovoj	491		3
+čovečijoj	28		3
 čovečjoj	21		3
 čovečnoj			3
 čudesnoj	217		3
 čudnoj	318		2
 čudnovatoj	24		3
 čudovišnoj	20		4
-čukaričkoj			2
+čukaričkoj			3
 čulnoj	33		2
 čuvanoj	14		3
 čuvenoj	1586		3
 čvrstoj	528		2
 čvršćoj	59		2
-đakovičkoj			2
+đakovičkoj			3
 đavoljoj	91		3
-đavolskoj			2
+đavolskoj			3
 đačkoj	97		2
-đerdapskoj			2
-đinđićevoj			2
-đorđevoj			2
-đurđevoj			2
+đerdapskoj			3
+đinđićevoj			3
+đorđevoj			3
+đurđevoj			3
 Švajcarskoj	314		3
 Švedskoj	240		2
-šabačkoj	296		2
+šabačkoj	296		3
 šahovskoj	368		3
-šajkaškoj			2
+šajkaškoj			3
 šaljivoj	46		3
-šalterskoj	15		2
-šantićevoj			2
-šaranovoj			2
+šalterskoj	15		3
+šantićevoj			3
+šaranovoj			3
 šarenoj	150		3
 šarmantnoj	44		2
 šašavoj	10		3
 šeboj	12		2
-šefovoj			2
-šegrtovoj			2
-šerifovoj			2
-šesnaestoj	89		2
+šefovoj			3
+šegrtovoj			3
+šerifovoj			3
+šesnaestoj	89		3
 šestoj	1038		2
-šezdesetoj	53		2
+šezdesetoj	53		3
 šećernoj	184		2
-šešeljevoj			2
+šešeljevoj			3
 široj	4309		2
 širokoj	1682		3
-šivaćoj	13		2
-školovanoj			2
+šivaćoj	13		3
+školovanoj			3
 školskoj	3925		2
 škotskoj	74		2
 škrtoj	13		2
-šoferskoj			2
+šoferskoj			3
 šopskoj			2
-šorićevoj			2
+šorićevoj			3
 španskoj	666		2
 špijunskoj	64		2
-špiritusnoj			2
+špiritusnoj			3
 štabskoj			2
-štajerskoj			2
+štajerskoj			3
 štampanoj	74		3
 štednoj	24		2
 štetnoj	54		2
-štićenikovoj			2
+štićenikovoj			3
 štokavskoj			3
 šturoj	17		2
 šumnoj			2
 šumovitoj	43		3
 šumskoj	158		2
 šupljoj	69		2
-šusterskoj			2
-šuštavoj			2
-švajcarskoj	314		2
+šusterskoj			3
+šuštavoj			3
+švajcarskoj	314		3
 švedskoj	240		2
 švicarskoj			3
-šćućurenoj			2
-žabarskoj			2
+šćućurenoj			3
+žabarskoj			3
 žalosnoj	73		3
-žandarskoj			2
-žanrovskoj	82		2
+žandarskoj			3
+žanrovskoj	82		3
 žarkoj	19		2
 železničkoj	1332		4
 željenoj	43		3
@@ -4031,7 +4031,7 @@ zvučnoj	225		2
 žešćoj	24		2
 žgoljavoj			3
 žilavoj	14		3
-žitarskoj			2
+žitarskoj			3
 žitkoj			2
 življoj			2
 živoj	644		2
@@ -4039,33 +4039,33 @@ zvučnoj	225		2
 životinjskoj	120		2
 životnoj	3595		3
 žičkoj	67		2
-žrtvenoj	14		2
-žrtvinoj			2
+žrtvenoj	14		3
+žrtvinoj			3
 žustroj	22		2
 žutoj	1053		2
 žućkastoj	10		3
-bijeloj			2
-cijeloj	1071		2
-djevojačkoj			2
+bijeloj			3
+cijeloj	1071		3
+djevojačkoj			3
 ijekavskoj	15		3
 lijepoj	237		3
 lijevoj	315		3
 mjesnoj			2
 nedjeljnoj			2
-obavještajnoj			2
+obavještajnoj			3
 osjetljivoj			3
 osjetnoj			3
-pješčanoj			2
-pomjesnoj			2
-prelijepoj	30		2
+pješčanoj			3
+pomjesnoj			3
+prelijepoj	30		3
 prijevoj			2
 rijetkoj	14		3
 sjevernoj			3
-slijedećoj			2
+slijedećoj			3
 slijepoj	19		3
 smiješnoj			3
 smještenoj	17		3
-srijemskoj	217		2
+srijemskoj	217		3
 susjednoj			3
 svijetloj	30		3
 svjetskoj			2

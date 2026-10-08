@@ -1,34 +1,34 @@
 109
 David			2
 Madrid			2
-aldehid			2
+aldehid			3
 alkaloid	138		2
-android	7521		2
+android	7521		3
 antacid			2
 apatrid			2
-aristid			2
+aristid			3
 asteroid	1531		2
 astrid			2
 bolid	854		2
 brid	25		1
 bromid	20		2
 celuloid	13		2
-cijanid	137		2
-dalekovid		M	2
+cijanid	137		3
+dalekovid		M	3
 dejvid			2
-deltoid		M	2
-dioksid	524		2
+deltoid		M	3
+dioksid	524		3
 droid	106		2
 druid	42		2
 džavid			2
 elipsoid			2
-euklid			2
-euripid			2
-evropeid			2
+euklid			3
+euripid			3
+evropeid			3
 ferid			2
 fluid	482		2
 fluorid	59		2
-formaldehid	144		2
+formaldehid	144		3
 fungicid	75		2
 genocid	8236		3
 halid			2
@@ -52,55 +52,55 @@ karbid	16		2
 kid		M	1
 klorid			2
 kratkovid		M	2
-leonid			2
+leonid			3
 lid			1
 lipid			2
-ljutovid			2
+ljutovid			3
 mid			1
 mongoloid	17		2
-monoksid	129		2
-monosaharid			2
+monoksid	129		3
+monosaharid			3
 ohrid			2
 oksid	239		2
-očevid	28		2
-oštrovid			2
+očevid	28		3
+oštrovid			3
 peptid	70		2
-peroksid	113		2
+peroksid	113		3
 pesticid	124		2
 planetoid	31		2
 polaroid			2
 prekid	5315		2
-prepaid			2
+prepaid			3
 previd	307		2
 privid	2127		2
-radionuklid			2
+radionuklid			3
 rapid			2
 raskid	2983		2
 rašid			2
 rid			1
-romboid	10		2
+romboid	10		3
 said			2
 sid		M	1
-slabovid			2
+slabovid			3
 solenoid			2
-spermatozoid	128		2
+spermatozoid	128		3
 spermicid			2
 splendid			2
-steroid	56		2
+steroid	56		3
 stid	2010		1
-suboksid			2
+suboksid			3
 suicid	206		2
 sulfid	68		2
-superoksid	29		2
-suvozid			2
-svetovid			2
-tabloid	741		2
+superoksid	29		3
+suvozid			3
+svetovid			3
+tabloid	741		3
 trapezoid			2
 tvid	25		1
-ugljendioksid	151		2
-usaid			2
+ugljendioksid	151		3
+usaid			3
 uvid	17139		2
-vatrozid			2
+vatrozid			3
 vid	18665		1
 zemljovid			3
 zid	13389		1

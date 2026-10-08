@@ -1,15 +1,15 @@
 16
 alarm	2127		2
-ektoderm			2
-endoderm			2
-endosperm			2
-epiderm			2
+ektoderm			3
+endoderm			3
+endosperm			3
+epiderm			3
 form			1
 grm	390		1
-hemofarm			2
-hloroform	24		2
+hemofarm			3
+hloroform	24		3
 kloroform			3
-medifarm			2
+medifarm			3
 reform			2
 storm			1
 strm	185		1

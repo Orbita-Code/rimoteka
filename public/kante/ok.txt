@@ -18,8 +18,8 @@ dok	473435		1
 doskok	77		2
 dotok	1136		2
 dubok	2919		2
-ehinokok			2
-elektrošok	42		2
+ehinokok			3
+elektrošok	42		3
 fićok			2
 flok			1
 hičkok			2
@@ -30,7 +30,7 @@ istok	7346		2
 jednook			2
 jok	2065		1
 jugoistok	604		2
-kazačok		M	2
+kazačok		M	3
 kok			1
 kosook			2
 kružok	137		2
@@ -38,19 +38,19 @@ krvolok	64		3
 krvotok	1302		3
 lešok			2
 lok			1
-malecok			2
+malecok			3
 maspok	55		2
-meningokok			2
-međuobrok	74		2
-monoblok	137		2
-napreskok		M	2
-neobarok			2
+meningokok			3
+međuobrok	74		3
+monoblok	137		3
+napreskok		M	3
+neobarok			3
 obrok	6871		2
 odskok	80		2
 ok			1
 optok			2
 otok	2497		2
-ovisok			2
+ovisok			3
 paok			2
 plavook	11		2
 pok		M	1
@@ -60,28 +60,28 @@ porok	547		2
 poskok	81		2
 potok	2472		2
 povisok	22		3
-počinok			2
-poširok			2
-prauzrok	45		2
-predubok	28		2
+počinok			3
+poširok			3
+prauzrok	45		3
+predubok	28		3
 preskok	169		2
-previsok	296		2
-preširok	94		2
-prežestok			2
+previsok	296		3
+preširok	94		3
+prežestok			3
 prirok			2
 pritok	10		2
 prorok	2368		2
 protok	6611		2
-prvouzrok			2
-ragnarok			2
+prvouzrok			3
+ragnarok			3
 razrok	24		2
 rok	42022		1
 severoistok	203		2
 skok	5723		1
 sok	6180		1
 srok	10		1
-stafilokok			2
-streptokok			2
+stafilokok			3
+streptokok			3
 svedok	7855		2
 timok			2
 tok	16262		1
@@ -91,20 +91,20 @@ uskok	147		2
 utok	12		2
 uzrok	20561		2
 visok	20758		2
-vodoskok	78		2
-vodotok	225		2
+vodoskok	78		3
+vodotok	225		3
 vok			1
 vostok			2
 vrljook			2
 vudstok			2
-zaseok			2
+zaseok			3
 zaskok			2
-zelenook			2
+zelenook			3
 širok	9988		2
 šlafrok			2
 šok	4103		1
 štok			1
 žestok	1204		2
 sjeveroistok			2
-svijedok			2
+svijedok			3
 svjedok			2

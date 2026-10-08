@@ -1,36 +1,36 @@
 706
 Budimpešto			4
 Cveto			2
-Toronto			2
+Toronto			3
 akonto		M	2
-amareto			2
+amareto			3
 anegdoto			2
 arhitekto			3
 auto	39844		3
-avanturisto			2
+avanturisto			3
 bahato	1637		3
 bajato	67		3
 bajkovito	288		3
 baršunasto	38		4
 bato		M	2
 bašto			2
-bebasto			2
+bebasto			3
 bedasto	13		3
 beknuto			3
 beličasto	42		4
-belkanto		M	2
+belkanto		M	3
 blato	2918		2
 blento			2
-blesasto		M	2
+blesasto		M	3
 bobičasto	229		4
 bogato	5905		3
-bombasto			2
-brazdasto			2
-brašnasto			2
+bombasto			3
+brazdasto			3
+brašnasto			3
 brdovito	92		4
 bregovito			3
 bremenito	67		3
-breskvasto			2
+breskvasto			3
 brežuljkasto			4
 bruto		M	2
 brzopleto	425		4
@@ -41,9 +41,9 @@ burito			3
 burrito			3
 buto			2
 celovito	707		3
-cjevasto		J	2
+cjevasto		J	3
 cogito			3
-crknuto	12		2
+crknuto	12		3
 crnkasto			3
 crvenkasto	152		4
 darovito	53		3
@@ -58,32 +58,32 @@ dirnuto	15		3
 dito			2
 dleto	47		2
 dobroto			2
-dodato			2
+dodato			3
 dodirnuto	10		3
-dominanto			2
+dominanto			3
 domišljato	59		4
 doneto	1067		2
 dosegnuto	17		3
 dostignuto	69		4
-dotaknuto	45		2
-droljasto			2
+dotaknuto	45		3
+droljasto			3
 drvenasto			4
 duguljasto	92		4
 duhovito	1376		3
 durnovito		M	3
-dvadeseto	59		2
+dvadeseto	59		3
 dvanaesto	88		4
 dvesto			2
 dvjesto			2
-džombasto			2
+džombasto			3
 egoisto			4
-ernesto			2
+ernesto			3
 esperanto	151		2
 eto	45195		2
 fakto			2
-fašisto			2
+fašisto			3
 foto	10861		2
-ganuto	17		2
+ganuto	17		3
 gasovito	74		3
 gato			2
 gdešto		M	2
@@ -92,67 +92,67 @@ glasovito	26		3
 glinasto			3
 glinovito			3
 glisto			2
-golobradasto			2
+golobradasto			3
 granato		M	2
-grlato	32		2
+grlato	32		3
 gromovito	27		3
-grozdasto			2
+grozdasto			3
 grozovito			3
-grudasto			2
+grudasto			3
 grčevito	1110		3
 gurnuto	70		3
 gusto	2023		2
-hašimoto			2
+hašimoto			3
 hirovito	65		3
-hladetinasto			2
+hladetinasto			3
 hladovito			3
 hristo			2
 inkognito		M	3
 istaknuto	3496		3
 istinito	3087		4
 isto	153430		2
-istrgnuto	37		2
-izbegnuto	217		2
+istrgnuto	37		3
+izbegnuto	217		3
 izdato	979		3
-izdignuto	30		2
+izdignuto	30		3
 izneto	709		2
-izokrenuto	28		2
+izokrenuto	28		3
 izrazito	7934		4
 izračunato	87		3
-izričito	4025		2
+izričito	4025		4
 izuzeto	176		2
-izvrnuto	35		2
+izvrnuto	35		3
 išto		M	2
 jabučasto	16		4
 jadnovito			3
 jagodasto	28		4
 jahto			2
 jato	1293		2
-jedanaesto	116		2
+jedanaesto	116		3
 jefto			2
 jeto			2
 jevto			2
 jezgrovito	222		3
 jezovito	45		3
 jogunasto	19		4
-kabasto		M	2
+kabasto		M	3
 kadšto	56		2
 kamenito	87		3
-kasato			2
-katiheto			2
+kasato			3
+katiheto			3
 kato	13		2
-kašasto	19		2
+kašasto	19		3
 kašto			2
 kiselkasto	30		4
-kitnjasto	54		2
+kitnjasto	54		3
 kito			2
-kičasto	53		2
+kičasto	53		3
 kišovito	304		3
 kjoto			2
 klaviristo			4
 kleto	17		2
 kleveto			3
-klinasto	58		2
+klinasto	58		3
 kljasto			2
 kockasto	48		3
 kolutasto			4
@@ -160,37 +160,37 @@ konto	1050		2
 kopito	98		3
 korenito	274		3
 korito	1228		3
-kosmato			2
+kosmato			3
 kotito			3
 koto			2
 košuto			3
 koščato	24		3
 krakato			3
 krasoto			2
-krcato	103		2
-kremasto	112		2
+krcato	103		3
+kremasto	112		3
 kresto			2
-krilato	24		2
+krilato	24		3
 krošnjasto			3
-krošnjato			2
-krstasto			2
+krošnjato			3
+krstasto			3
 krsto			2
 krto	52		2
 kruto	330		2
 krševito	19		4
-kukasto			2
-kupasto	24		2
-lamberto			2
-lančasto			2
+kukasto			3
+kupasto	24		3
+lamberto			3
+lančasto			3
 lekovito	1614		3
 lento			2
 lepezasto	31		4
 lepoto	27		2
 lesoto			2
 leto	16202		2
-levkasto			2
-libreto	218		2
-limunžuto			2
+levkasto			3
+libreto	218		3
+limunžuto			3
 lisnato	387		3
 ljubičasto	272		4
 ljutito	1057		3
@@ -200,19 +200,19 @@ loto	502		2
 luckasto	53		3
 magličasto	13		4
 maglovito	386		3
-magneto			2
+magneto			3
 mahnito	229		3
-makijato	45		2
+makijato	45		3
 maknuto	10		3
 manifesto			4
 manito			3
 mato			2
-mačkasto			2
+mačkasto			3
 mašto			2
 maštovito	466		3
-mefisto			2
+mefisto			3
 mehurasto			3
-memento	115		2
+memento	115		3
 mesečasto			4
 mesnato	42		3
 mesto	178763		2
@@ -226,113 +226,113 @@ mojito			3
 moskito			3
 moto	4447		2
 mramorasto			4
-mrežasto			2
+mrežasto			3
 muljevito	33		3
 munjevito	1006		3
-muškobanjasto			2
+muškobanjasto			3
 nabusito	54		4
 nadahnuto	106		3
 nadenuto	14		4
-naduto	31		2
+naduto	31		3
 nagnuto	47		3
 nagovesto			4
-namesto	416		2
+namesto	416		3
 nametnuto	485		4
-naneto	45		2
+naneto	45		3
 naočito	23		4
 napadnuto	173		4
 napeto	665		3
 napito			3
 napomenuto	413		3
 naprasito	17		4
-napregnuto	19		2
+napregnuto	19		3
 naprosto	6786		3
 narandžasto	341		3
 naročito	81792		4
-nasuto	31		2
+nasuto	31		3
 nategnuto	71		3
 nato			2
 naviknuto	50		4
 navlastito	45		4
 načeto	35		2
-načisto	1470		2
-necelovito			2
-nedirnuto	41		2
-nedodirnuto			2
-neduhovito	13		2
+načisto	1470		3
+necelovito			3
+nedirnuto	41		3
+nedodirnuto			3
+neduhovito	13		3
 neistinito	333		5
-neizdato			2
-neizrazito			2
+neizdato			3
+neizrazito			4
 nemaštovito	37		3
-nemušto	246		2
-nenasito		M	2
-nenaviknuto			2
+nemušto	246		3
+nenasito		M	3
+nenaviknuto			3
 nepoznato	3358		4
-neprepoznato	20		2
+neprepoznato	20		3
 nepriznato	44		4
-neprodato			2
+neprodato			3
 nerazborito	24		4
 nesito			3
-nesveto			2
-netaknuto	203		2
+nesveto			3
+netaknuto	203		3
 neto	7406		2
 neudato	15		4
 nevesto	11		3
 nevešto	564		3
 nezakonito	4278		4
-nezasito	40		2
-nezauzeto			2
+nezasito	40		3
+nezauzeto			3
 nečisto	199		3
 nešto	305797		2
-nipošto	2660		2
-nizašto	61		2
+nipošto	2660		3
+nizašto	61		3
 ništo			2
 noto			2
 nuto		M	2
 obilato	1314		3
-obmanuto	17		2
+obmanuto	17		3
 obračunato	38		3
 obrnuto	1326		3
 obuzeto	13		2
-odaslato			2
+odaslato			3
 odato	45		3
-odelito	12		2
+odelito	12		3
 odenuto			4
-odgurnuto			2
+odgurnuto			3
 odmaknuto			3
-odmrznuto			2
+odmrznuto			3
 odneto	218		2
-odrešito	43		2
+odrešito	43		3
 odsto	190534		2
 oduzeto	1081		2
 ognjevito			3
 okomito	124		4
 okrenuto	474		3
-omrznuto			2
+omrznuto			3
 opovrgnuto	37		4
 opsednuto	44		4
 općenito	20		3
-opštepoznato	252		2
+opštepoznato	252		3
 orbito			3
-osamnaesto	31		2
+osamnaesto	31		3
 osamsto		M	3
 osobito	4374		4
-osuto			2
+osuto			3
 osveto			3
-otegnuto			2
+otegnuto			3
 oteto	494		2
-otisnuto	12		2
+otisnuto	12		3
 otkinuto	30		4
 otpočeto	35		2
-otresito	41		2
-otrgnuto	36		2
+otresito	41		3
+otrgnuto	36		3
 očito	8896		3
-palato			2
+palato			3
 papirnato	37		3
-pareto			2
+pareto			3
 parto			2
-pedeseto	22		2
-penasto	379		2
+pedeseto	22		3
+penasto	379		3
 pepeljasto	76		4
 pepito			3
 perasto	81		3
@@ -341,78 +341,78 @@ pesto			2
 petnaesto	45		4
 peto	2684		2
 petsto		M	2
-petstoto			2
+petstoto			3
 pinto			2
 pito			2
 plahovito	29		3
-planeto			2
+planeto			3
 platinasto	64		4
 plato	1770		2
 plavičasto	58		4
-plavkasto	32		2
+plavkasto	32		3
 plemenito	631		3
-pljosnato			2
+pljosnato			3
 plodovito			3
 pluto	82		2
 podignuto	749		4
 podmetnuto	61		4
 podneto	1002		2
-podrto			2
-poduprto	31		2
+podrto			3
+poduprto	31		3
 podvrgnuto	216		4
 poglavito	631		4
-pognuto	29		2
-pokadšto		M	2
+pognuto	29		3
+pokadšto		M	3
 pokrenuto	902		3
 polito			3
 pomaknuto	13		3
-pomenuto	1459		2
-pomognuto	68		2
-ponaročito			2
-ponesto			2
-ponešto	4953		2
+pomenuto	1459		3
+pomognuto	68		3
+ponaročito			4
+ponesto			3
+ponešto	4953		3
 ponosito	200		4
 poravnato			3
 poreknuto			4
 porto	14		2
-posagnuto			2
+posagnuto			3
 poseto			3
-poslato		M	2
+poslato		M	3
 postignuto	1630		4
-posuto	76		2
+posuto	76		3
 posveto			3
-potisnuto	148		2
-potpomognuto	109		2
-potrebito	28		2
+potisnuto	148		3
+potpomognuto	109		3
+potrebito	28		3
 poznato	37135		3
-počesto	366		2
+počesto	366		3
 početo	60		2
 pošto	172639		2
-pravcato	32		2
-prebogato	39		2
+pravcato	32		3
+prebogato	39		3
 predato	395		3
-predmeto			2
-preduzeto	360		2
-pregusto			2
+predmeto			3
+preduzeto	360		3
+pregusto			3
 prekinuto	572		4
 preneto	835		2
 preokrenuto	12		3
 preoteto			2
-preočito			2
+preočito			4
 prepadnuto			4
-prepoznato	394		2
-preprosto			2
+prepoznato	394		3
+preprosto			3
 presito			3
 presto		M	2
-presveto	102		2
-pretežito	71		2
-preuzeto	936		2
+presveto	102		3
+pretežito	71		3
+preuzeto	936		3
 prevrnuto	11		3
-prečesto	77		2
-prečisto	53		2
-prečvrsto			2
+prečesto	77		3
+prečisto	53		3
+prečvrsto			3
 pridodato	64		3
-prineto			2
+prineto			3
 priprosto	26		3
 pritisnuto	73		4
 priznato	334		3
@@ -421,64 +421,64 @@ prokleto	675		3
 proračunato	23		3
 prosto	35558		2
 prostrto			2
-prosuto	47		2
-protivzakonito	1357		2
+prosuto	47		3
+protivzakonito	1357		3
 proto	12		2
 prožeto	211		2
 prstenasto	61		4
-prugasto	35		2
+prugasto	35		3
 pršljenasto			4
 pseto	285		2
-psihopato			2
+psihopato			3
 pusto	972		2
 puto			2
 raketo			2
-rasisto			2
+rasisto			3
 raskinuto	87		4
-raspadnuto	21		2
-raspeto			2
-rasplinuto	15		2
+raspadnuto	21		3
+raspeto			3
+rasplinuto	15		3
 rasprodato	132		3
-rastegnuto	10		2
-rastresito			2
-rasuto	166		2
+rastegnuto	10		3
+rastresito			3
+rasuto	166		3
 rato			2
 razapeto	29		2
-razaslato			2
+razaslato			3
 razasuto	17		2
 razborito	195		4
 razdrto			2
-razgranato	109		2
+razgranato	109		3
 različito	6157		4
-razložito		M	2
+razložito		M	3
 razneto			2
-računato			2
-račvasto	12		2
+računato			3
+račvasto	12		3
 rebrasto			3
 redovito	689		3
-renato			2
-repato	45		2
+renato			3
+repato	45		3
 rečito	432		3
 rešeto	218		2
-rigoleto			2
+rigoleto			3
 risto			2
-rizoto		M	2
-rižoto	172		2
-roberto			2
-rogato	27		2
-rogljasto			2
+rizoto		M	3
+rižoto	172		3
+roberto			3
+rogato	27		3
+rogljasto			3
 roto			2
 rovito	61		3
 rumenkasto			4
 ružičasto	413		4
-rđasto			2
-sabato			2
-sadisto			2
-sagnuto			2
+rđasto			3
+sabato			3
+sadisto			3
+sagnuto			3
 sakato	37		3
-sakramento			2
+sakramento			3
 salto	276		2
-samcato			2
+samcato			3
 santo			2
 sato			2
 sažeto	718		3
@@ -494,22 +494,22 @@ sivkasto	72		3
 skinuto	345		3
 skokovito	68		3
 skonto			2
-skrajnuto	74		2
+skrajnuto	74		3
 skrovito	74		3
-slatkasto	54		2
+slatkasto	54		3
 slikovito	1841		3
 slojevito	325		3
-smolasto			2
-smrknuto	50		2
-smrznuto	358		2
+smolasto			3
+smrknuto	50		3
+smrznuto	358		3
 sorto			2
 spomenuto	491		3
-sportisto			2
+sportisto			3
 spoznato			3
-spužvasto			2
+spužvasto			3
 sramoto	27		2
-sračunato	194		2
-srcasto			2
+sračunato	194		3
+srcasto			3
 srdito	104		3
 srebrnasto	47		4
 srebrnkasto			4
@@ -523,7 +523,7 @@ stepenasto	250		4
 stisnuto	14		3
 sto	119063		1
 strahovito	1636		3
-strelasto			2
+strelasto			3
 strelovito	63		3
 strmenito			3
 stupnjevito			3
@@ -531,10 +531,10 @@ suboto			3
 suludasto			4
 sumanuto	447		3
 sunđerasto			4
-superauto			2
+superauto			3
 sušto			2
 svašto			2
-svetložuto			2
+svetložuto			3
 sveto	5893		2
 svito			2
 svrgnuto			3
@@ -543,9 +543,9 @@ taknuto	12		3
 talasasto	52		3
 tamnoputo			3
 tato	27		2
-tačkasto	92		2
+tačkasto	92		3
 tašto	30		2
-telefoto	135		2
+telefoto	135		3
 temeljito	655		3
 terasasto			4
 testerasto			4
@@ -558,52 +558,52 @@ toploto			2
 torto			2
 travnato	32		3
 trgnuto			3
-trideseto	27		2
+trideseto	27		3
 trinaesto	129		4
 tristo			2
 trnovito	26		4
-tronuto	12		2
+tronuto	12		3
 trouglasto	53		4
 trto			2
 ubojito	125		4
 udato	13		3
-udenuto			2
-ugasito			2
-uglasto	11		2
+udenuto			3
+ugasito			3
+uglasto	11		3
 ukinuto	905		4
-ukleto	93		2
-ultraljubičasto	128		2
-umberto			2
+ukleto	93		3
+ultraljubičasto	128		3
+umberto			3
 umesto	94285		3
 umetnuto	18		4
-umiljato	206		2
+umiljato	206		3
 uneto	272		2
 upoznato	120		3
-upregnuto	15		2
+upregnuto	15		3
 uračunato	105		3
 usto			2
 usuto			2
-utegnuto	22		2
-utisnuto	71		2
-uvrnuto	66		2
-uzdignuto	54		2
+utegnuto	22		3
+utisnuto	71		3
+uvrnuto	66		3
+uzdignuto	54		3
 uzeto	1165		3
-uzimato			2
-uznosito			2
-uzorito			2
-užasnuto	11		2
-valjkasto	28		2
+uzimato			3
+uznosito			3
+uzorito			3
+užasnuto	11		3
+valjkasto	28		3
 valovito	28		3
 varijanto			3
-vaskrsnuto			2
+vaskrsnuto			3
 vazdušasto	26		4
-veneto			2
+veneto			3
 veto	1258		2
 vetrovito	285		3
 večito	3065		3
 vešto	5100		2
-vibrato	19		2
-vickasto		M	2
+vibrato	19		3
+vickasto		M	3
 vidovito	77		3
 vilovito			3
 vito			2
@@ -614,35 +614,35 @@ vremenito			3
 vrećasto			3
 vrgnuto			3
 vrsto			2
-vrčasto			2
+vrčasto			3
 vunasto			3
-zabezeknuto	98		2
+zabezeknuto	98		3
 zabito			3
-zablenuto			2
+zablenuto			3
 zabrinuto	728		4
 zadato	65		3
-zadenuto			2
-zadrto			2
-zafrknuto			2
-zagasito			2
+zadenuto			3
+zadrto			3
+zafrknuto			3
+zagasito			3
 zakinuto	32		4
-zakleto	11		2
+zakleto	11		3
 zakonito	1284		4
 zakučasto			4
-zamlato			2
+zamlato			3
 zamrznuto	129		4
-zaneto			2
-zaodenuto			2
-zaogrnuto	12		2
-zapeto	11		2
+zaneto			3
+zaodenuto			3
+zaogrnuto	12		3
+zapeto	11		3
 započeto	1086		2
 zaračunato			3
 zastrto	13		2
-zasuto	33		2
-zataknuto			2
-zategnuto		M	2
+zasuto	33		3
+zataknuto			3
+zategnuto		M	3
 zato	308193		2
-zatrto			2
+zatrto			3
 zauzeto	234		2
 začeto	110		2
 zaštito			3
@@ -650,42 +650,42 @@ zašto		M	2
 zbrinuto	230		3
 zdepasto	38		3
 zelenkasto	84		3
-zeljasto	18		2
-zeznuto	118		2
-zgranuto	66		2
+zeljasto	18		3
+zeznuto	118		3
+zgranuto	66		3
 zgusnuto	16		3
-zlatasto	14		2
-zlatnožuto			2
+zlatasto	14		3
+zlatnožuto			3
 zlato	9975		2
 zločesto	37		3
-zmijasto		M	2
+zmijasto		M	3
 znakovito	124		3
 znamenito	123		3
 znato			2
 zrakasto	52		3
 zrnasto	24		3
-zubato	51		2
+zubato	51		3
 ćaknuto		M	3
 ćato			2
-ćoškasto		M	2
-ćubasto			2
+ćoškasto		M	3
+ćubasto			3
 ćufto			2
 časovito			3
 čestito	599		3
 često	141924		2
 četiristo			4
-četirsto			2
+četirsto			3
 četo			2
-četristo			2
-četrnaesto	49		2
+četristo			3
+četrnaesto	49		3
 četvrtasto	86		4
 četvrto	4738		2
-čipkasto			2
+čipkasto			3
 čisto	19250		2
-čorbasto	16		2
+čorbasto	16		3
 čudnovato	370		4
-čunjasto			2
-čvornovato			2
+čunjasto			3
+čvornovato			3
 čvrsto	12334		2
 đavolasto			4
 đoto			2
@@ -700,22 +700,22 @@ zubato	51		2
 što	2166729		1
 šumovito	36		3
 šuto			2
-ženskasto			2
+ženskasto			3
 žesto			2
 žito	2993		2
 žuto	1709		2
 žućkasto	127		3
 djetinjasto			4
 dlijeto			2
-ijeto			2
+ijeto			3
 korjenito			3
 ljekovito			3
 ljepoto			2
 ljeto			2
-mijesto			2
+mijesto			3
 mjesto			2
 mješovito			3
-namjesto			2
+namjesto			3
 opsjednuto			4
 prijesto			2
 rječito			4

@@ -315,10 +315,13 @@ naglašenog sloga (-aniti, -unuka, -irektor). **Silazni** akcenat nikad ne prela
 ### Odakle akcenat
 
 `build/akcenat.py` → `public/akcenat.txt` (jedan broj po redu `reci.txt`: od kog sloga OD KRAJA počinje rima;
-`akcenat_jekavica.txt` isto za ijekavicu). Izvori, redom: engleski Wiktionary (28.934 akcentovane osnove, CC BY-SA,
+`akcenat_jekavica.txt` isto za ijekavicu). Izvori, redom: `build/akcenti-rucno.json` (reči koje je vlasnica potvrdila na
+sajtu, a nema ih nijedan izvor – retrovizor, revizor, prizor); engleski Wiktionary (28.934 akcentovane osnove, CC BY-SA,
 `build/akcenti-osnove.json`); osnova reči preko srLex-a (mesto akcenta od početka se prenosi na oblik); pravilo za 1–2
-sloga (poslednji slog nikad nije naglašen); predviđanje po završetku (≥3 primera, ≥75 % slaganja); podrazumevano
-pretposlednji slog. Pokrivenost i izvor po reči: `AUDIT/akcenti/`. **Posle svake izmene rečnika:** `python3 build/akcenat.py`
+sloga (poslednji slog nikad nije naglašen); predviđanje po završetku (≥2 primera, ≥60 % slaganja – AK-3); podrazumevano
+za 3+ sloga: **treći slog od kraja** (AK-3, 07.10.2026: nad 20.980 Wiktionary reči sa 3+ sloga „pretposlednji" je bio tačan
+za 25,5 %, treći od kraja za 58 %; prediktor + ovo podrazumevano = 79,5 % tačno, izmereno ostavi-jednog-napolju
+skriptom `scripts/akcenti-prediktor-ocena.py`). Pokrivenost i izvor po reči: `AUDIT/akcenti/`. **Posle svake izmene rečnika:** `python3 build/akcenat.py`
 pre `kante.py`.
 
 ### Kako se primenjuje (alat `doRhymes` i generator – 1:1, test 39 ih poredi)

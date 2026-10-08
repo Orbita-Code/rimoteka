@@ -1,60 +1,60 @@
 94
 Josifa			3
-adolfa			2
-alefa			2
+adolfa			3
+alefa			3
 alfa	4481		2
-alfalfa			2
-apokrifa	34		2
+alfalfa			3
+apokrifa	34		3
 apostrofa	30		3
 arfa			2
 biografa	209		3
-bitefa			2
+bitefa			3
 blefa			2
 daktilografa	76		3
-demografa	61		2
-diktografa			2
-diseldorfa			2
-dizeldorfa			2
+demografa	61		3
+diktografa			3
+diseldorfa			3
+dizeldorfa			3
 elfa	26		2
-esnafa			2
-etnografa	49		2
+esnafa			3
+etnografa	49		3
 fa		M	1
 fifa			2
 filosofa			2
 filozofa	2326		3
 fotografa	2277		3
-geografa	172		2
+geografa	172		3
 golfa	2332		2
 grafa	373		2
 grifa			2
 grofa	886		2
 haifa			2
 harfa	161		2
-hatišerifa			2
+hatišerifa			3
 hijeroglifa	104		2
-ikonografa			2
+ikonografa			3
 jafa			2
-jožefa			2
-jusufa			2
+jožefa			3
+jusufa			3
 kadifa		M	2
 kafa	5189		2
 kalfa	93		2
 kalifa			2
-kaligrafa	26		2
-karafa			2
+kaligrafa	26		3
+karafa			3
 kartografa	49		3
 katastrofa	7186		2
 kefa			2
 klifa	13		2
 kofa		M	2
-komediografa	148		2
+komediografa	148		3
 koreografa	459		3
 krfa			2
 lafa			2
 limfa	67		2
-litografa	17		2
+litografa	17		3
 mastifa	50		2
-mustafa			2
+mustafa			3
 nimfa	190		2
 paragrafa	317		3
 poligrafa	48		3
@@ -63,17 +63,17 @@ profa			2
 rafa			2
 ralfa			2
 reljefa	617		3
-rudolfa			2
+rudolfa			3
 scenografa	175		3
 sedefa	68		3
 sefa	389		2
 senfa	330		2
 sizifa			2
 sofa	441		2
-stenografa	14		2
+stenografa	14		3
 strofa	388		2
 surfa	66		2
-tahografa	209		2
+tahografa	209		3
 tarifa	1456		2
 tartufa	445		3
 telegrafa	417		3
@@ -81,11 +81,11 @@ teozofa	11		3
 tipografa	15		3
 trefa	10		2
 trijumfa	3749		3
-uefa			2
-unicefa			2
-zografa	158		2
+uefa			3
+unicefa			3
+zografa	158		3
 ćefa			2
-čaršafa			2
+čaršafa			3
 šefa	11751		2
 šerifa	317		3
 šlifa			2

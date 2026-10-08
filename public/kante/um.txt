@@ -1,187 +1,187 @@
 188
 agrum			2
-ajnštajnijum			2
-akvarijum	1027		2
+ajnštajnijum			3
+akvarijum	1027		3
 album	16636		2
-aluminijum	1328		2
-aluvijum		M	2
-americijum			2
-amonijum			2
-antiserum			2
-arboretum	61		2
-atrijum	235		2
-auditorijum	631		2
-barijum		M	2
+aluminijum	1328		3
+aluvijum		M	3
+americijum			3
+amonijum			3
+antiserum			3
+arboretum	61		3
+atrijum	235		3
+auditorijum	631		3
+barijum		M	3
 berilijum		M	3
 blum			1
 bujrum			2
 bum	1962		1
-cerijum		M	2
-cezijum		M	2
-cirkonijum		M	2
+cerijum		M	3
+cezijum		M	3
+cirkonijum		M	3
 datum	23150		2
-delirijum	225		2
-deuterijum		M	2
+delirijum	225		3
+deuterijum		M	3
 direktorijum	1403		3
-disprozijum			2
+disprozijum			3
 drum	1145		1
 dum			1
 dunum			2
-erbijum			2
-faktotum			2
+erbijum			3
+faktotum			3
 fatum		M	2
-fermijum			2
+fermijum			3
 forum	13602		2
-fotoalbum	23		2
-francijum		M	2
-gadolinijum			2
-galijum		M	2
+fotoalbum	23		3
+francijum		M	3
+gadolinijum			3
+galijum		M	3
 geranijum		M	3
-germanijum		M	2
-hafnijum			2
-harmonijum		M	2
-helijum	293		2
-herbarijum	129		2
+germanijum		M	3
+hafnijum			3
+harmonijum		M	3
+helijum	293		3
+herbarijum	129		3
 hjum			1
-hobsbaum			2
-holmijum			2
+hobsbaum			3
+holmijum			3
 hum	282		1
-impresum	76		2
-indijum			2
+impresum	76		3
+indijum			3
 individuum		M	3
-iridijum		M	2
-iterbijum			2
-itrijum			2
+iridijum		M	3
+iterbijum			3
+itrijum			3
 izum	1930		2
-kadmijum	190		2
-kalcijum	1897		2
-kalifornijum			2
-kalijum	1122		2
+kadmijum	190		3
+kalcijum	1897		3
+kalifornijum			3
+kalijum	1122		3
 kartum			2
 kasum			2
-klimakterijum			2
-kolegijum	926		2
-kolofonijum		M	2
-kolokvijum	1198		2
-koloseum	257		2
-kontinuum	164		2
-konzervatorijum	93		2
-konzilijum	293		2
-konzorcijum	2346		2
-krematorijum	69		2
-kriterijum	5621		2
+klimakterijum			3
+kolegijum	926		3
+kolofonijum		M	3
+kolokvijum	1198		3
+koloseum	257		3
+kontinuum	164		3
+konzervatorijum	93		3
+konzilijum	293		3
+konzorcijum	2346		3
+krematorijum	69		3
+kriterijum	5621		3
 krum			1
 kum	3303		1
-kurikulum	290		2
+kurikulum	290		3
 kuršum		M	2
 kvantum	77		2
 kvorum	1547		2
-labarum			2
+labarum			3
 lagum	66		2
 linoleum	119		2
-litijum	271		2
+litijum	271		3
 lokum			2
-lorencijum			2
-lutecijum			2
-magnezijum	1169		2
+lorencijum			3
+lutecijum			3
+magnezijum	1169		3
 magnum	405		2
 maksimum	8365		3
-martirijum		M	2
-medijum	985		2
+martirijum		M	3
+medijum	985		3
 memorandum	2712		2
-mendeljevijum			2
-milenijum	974		2
+mendeljevijum			3
+milenijum	974		3
 minimum	14374		3
-momentum	209		2
+momentum	209		3
 monstrum	722		2
-moratorijum	495		2
-morfijum	126		2
-multiverzum			2
-muzeum			2
-natrijum	931		2
+moratorijum	495		3
+morfijum	126		3
+multiverzum			3
+muzeum			3
+natrijum	931		3
 naum	596		2
-neptunijum			2
-nerazum	21		2
+neptunijum			3
+nerazum	21		3
 nesporazum	1174		4
-neutrum			2
-niobijum			2
-nobelijum			2
-nusbaum			2
-odijum	239		2
+neutrum			3
+niobijum			3
+nobelijum			3
+nusbaum			3
+odijum	239		3
 opijum	382		3
 oposum	83		3
-optimum	325		2
-orakulum			2
-oratorijum		M	2
-osmijum			2
-paladijum			2
+optimum	325		3
+orakulum			3
+oratorijum		M	3
+osmijum			3
+paladijum			3
 paldum			2
-parabelum		M	2
-pentijum			2
-pentium			2
-perineum			2
-petroleum	147		2
-planetarijum	224		2
+parabelum		M	3
+pentijum			3
+pentium			3
+perineum			3
+petroleum	147		3
+planetarijum	224		3
 plenum	266		2
-plutonijum		M	2
-poddirektorijum			2
+plutonijum		M	3
+poddirektorijum			3
 podhum			2
-podijum	550		2
+podijum	550		3
 podrum	2943		2
-polonijum			2
-praktikum	435		2
-preludijum		M	2
-premijum			2
-prezidijum		M	2
-protaktinijum			2
-publikum	158		2
-radijum		M	2
+polonijum			3
+praktikum	435		3
+preludijum		M	3
+premijum			3
+prezidijum		M	3
+protaktinijum			3
+publikum	158		3
+radijum		M	3
 razum	6328		2
 referendum	6830		2
 rektum	130		2
-renijum		M	2
-rodijum			2
-rubidijum		M	2
+renijum		M	3
+rodijum			3
+rubidijum		M	3
 rum	615		1
-rutenijum			2
+rutenijum			3
 ršum			2
-sanatorijum	170		2
+sanatorijum	170		3
 septum	22		2
 serum	438		2
-silicijum	286		2
-simpozijum	1166		2
+silicijum	286		3
+simpozijum	1166		3
 simulakrum	109		2
-singidunum			2
-sirmijum			2
-sirmium			2
-skandijum			2
+singidunum			3
+sirmijum			3
+sirmium			3
+skandijum			3
 skrotum	65		2
-solarijum	600		2
-specifikum	138		2
+solarijum	600		3
+specifikum	138		3
 spektrum	96		2
 sporazum	33110		3
-stadijum	1121		2
+stadijum	1121		3
 stratum			2
-stroncijum		M	2
-supsidijum			2
-talijum		M	2
-tehnecijum			2
-tehnikum			2
-terarijum	166		2
-terbijum		M	2
-titanijum	153		2
-torijum			2
-tulijum			2
+stroncijum		M	3
+supsidijum			3
+talijum		M	3
+tehnecijum			3
+tehnikum			3
+terarijum	166		3
+terbijum		M	3
+titanijum	153		3
+torijum			3
+tulijum			3
 tulum			2
 ultimatum	1308		2
 um	10039		1
 univerzum	1818		2
-uranijum	635		2
-vademekum			2
+uranijum	635		3
+vademekum			3
 vakum	451		2
 vakuum	1080		3
-valijum	24		2
-vanadijum		M	2
+valijum	24		3
+vanadijum		M	3
 zulum		M	2
 zum	1104		1
 ćulum			2

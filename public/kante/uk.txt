@@ -1,13 +1,13 @@
 149
 agaluk			2
 argatluk			2
-arlauk			2
+arlauk			3
 arnautluk			2
 bajbuk			2
 bakaluk		M	2
 baksuzluk		M	2
 bauk		M	2
-bašibozuk			2
+bašibozuk			3
 begluk		M	2
 bezobrazluk			2
 bezruk		M	2
@@ -18,10 +18,10 @@ buljuk			2
 ciganluk			2
 cigarluk			2
 cijuk	17		2
-desetorostruk			2
-desetostruk			2
+desetorostruk			3
+desetostruk			3
 desnoruk		M	2
-devetostruk		M	2
+devetostruk		M	3
 domazluk			2
 duduk		M	2
 dugoruk		M	2
@@ -47,7 +47,7 @@ jednoruk			3
 jednostruk			2
 kadiluk			2
 kauk			2
-kaučuk	108		2
+kaučuk	108		3
 kijuk			2
 klobuk	204		2
 koltuk			2
@@ -68,7 +68,7 @@ marduk			2
 marifetluk		M	2
 mauk			2
 mezetluk			2
-milovuk			2
+milovuk			3
 minderluk			2
 mnogostruk	26		2
 muk	811		1
@@ -77,7 +77,7 @@ nauk	1166		2
 nestašluk		M	2
 neuk	280		2
 nitkovluk			2
-obešenjakluk			2
+obešenjakluk			3
 obluk			2
 oluk	172		2
 ortakluk		M	2
@@ -86,7 +86,7 @@ pamuk	780		2
 pasavoluk			2
 pauk	1189		2
 pašaluk		M	2
-petorostruk			2
+petorostruk			3
 petostruk			2
 pijuk	46		2
 poganluk			2
@@ -96,7 +96,7 @@ praziluk	534		2
 praznoruk			2
 prizvuk	603		2
 prostakluk	332		2
-provodadžiluk		M	2
+provodadžiluk		M	3
 prsluk	626		2
 puk	1873		1
 rahatluk		M	2
@@ -127,14 +127,14 @@ zloguk			2
 zvižduk	271		2
 zvuk	15369		1
 ćuk	235		1
-četvorostruk			2
+četvorostruk			3
 čibuk		M	2
 čifluk			2
 čitluk		M	2
 čiviluk			2
 čivluk			2
 čuk		M	1
-čukununuk			2
+čukununuk			3
 čučuk			2
 đavoluk			2
 šejtanluk			2

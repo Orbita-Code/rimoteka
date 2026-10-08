@@ -1,11 +1,11 @@
 98
 aerosol	104		4
 alkohol	7473		3
-anatol			2
+anatol			3
 apostol	2649		3
 atol	12		2
-aureol			2
-autogol	468		2
+aureol			3
+autogol	468		3
 bejzbol	861		2
 benzol	19		2
 bezbol	92		2
@@ -19,40 +19,40 @@ dorćol			2
 eol			2
 erol			2
 etanol	341		2
-evropol			2
-fajervol			2
+evropol			3
+fajervol			3
 fenol	59		2
 fol			1
 glagol	826		2
 glikol	54		2
 gol	19936		1
-haloperidol			2
+haloperidol			3
 hol	927		1
-holesterol	1970		2
+holesterol	1970		3
 idol	1404		2
-interpol			2
+interpol			3
 jarbol	244		2
 jol			1
-jugopetrol			2
-kapitol			2
+jugopetrol			3
+kapitol			3
 kaptol	20		2
-karambol	78		2
+karambol	78		3
 karbol			2
 karfiol	535		2
 karol			2
 kerol			2
 kol		M	1
-kolesterol			2
-kortizol	217		2
+kolesterol			3
+kortizol	217		3
 kostol			2
 kreol			2
-krušedol			2
-limasol			2
+krušedol			3
+limasol			3
 lizol	12		2
 luminol			2
 mentol	241		2
 metanol	117		2
-metropol			2
+metropol			3
 mol	971		1
 mongol			2
 monopol	5438		3
@@ -62,27 +62,27 @@ nol			1
 obol	82		2
 ohol	91		2
 ol		M	1
-oreol			2
-paracetamol	387		2
+oreol			3
+paracetamol	387		3
 pejntbol			2
 petrol	220		2
 pinjol			2
 pol	7823		1
-polifenol			2
-polugol			2
+polifenol			3
+polugol			3
 pomol			2
 portparol	8818		2
 postol			2
-potparol	212		2
+potparol	212		3
 prestol	53		2
-propofol			2
-propranolol			2
+propofol			3
+propranolol			3
 protokol	5598		3
 ragdol			2
 raskol	1013		2
 rasol	59		2
-reketbol			2
-rokenrol	1596		2
+reketbol			3
+rokenrol	1596		3
 rol			1
 simbol	14042		2
 simvol		M	2
@@ -91,9 +91,9 @@ sokol	119		2
 sol	435		1
 spol	100		1
 stambol			2
-staniol	13		2
+staniol	13		3
 tirol			2
 trol	154		1
 vinodol			3
-vitriol		M	2
+vitriol		M	3
 vorhol			2

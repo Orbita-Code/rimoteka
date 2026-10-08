@@ -6,17 +6,17 @@ bruh			1
 bubnuh			2
 dahnuh			2
 dodirnuh	12		2
-dometnuh			2
+dometnuh			3
 dosluh	38		2
 dreknuh			2
 drznuh			2
-dugouh			2
+dugouh			3
 duh	19066		1
-eunuh			2
+eunuh			3
 evnuh	102		2
 gluh	27		1
 gurnuh	26		2
-iskrenuh			2
+iskrenuh			3
 klecnuh			2
 kleknuh	12		2
 kliknuh	14		2
@@ -28,29 +28,29 @@ krenuh	270		2
 kruh			1
 lopuh			2
 mahnuh	12		2
-miloduh	26		2
+miloduh	26		3
 mrdnuh			2
 naduh			2
 nagnuh	15		2
-namignuh			2
+namignuh			3
 napomenuh	49		2
 načuh	11		2
-neposluh	25		2
+neposluh	25		3
 njuh	249		1
 nuh		M	1
 obrnuh			2
-odahnuh			2
+odahnuh			3
 odenuh			3
-odgurnuh			2
-odmahnuh			2
-ogrnuh			2
-okliznuh			2
+odgurnuh			3
+odmahnuh			3
+ogrnuh			3
+okliznuh			3
 okrenuh	121		2
 opomenuh			2
-osmehnuh	17		2
+osmehnuh	17		3
 osvanuh			2
-osvrnuh	38		2
-otisnuh			2
+osvrnuh	38		3
+otisnuh			3
 otkinuh			3
 očuh	301		2
 pastuh	33		2
@@ -60,7 +60,7 @@ pljusnuh			2
 podmetnuh			3
 poginuh			3
 pokrenuh	15		2
-pomenuh	263		2
+pomenuh	263		3
 posluh		M	2
 posrnuh			2
 potonuh			2
@@ -71,7 +71,7 @@ prečuh			2
 pritisnuh			3
 propuh	19		2
 prosuh			2
-protegnuh			2
+protegnuh			3
 puh	37		1
 seknuh			2
 skinuh	49		2
@@ -87,13 +87,13 @@ trenuh			2
 trgnuh			2
 udahnuh	10		2
 uh	3610		1
-uskliknuh			2
+uskliknuh			3
 usnuh			2
 utonuh	17		2
 uvenuh			2
 uzdahnuh	15		2
 uzviknuh	44		2
-vaskrsnuh			2
+vaskrsnuh			3
 vazduh	16241		2
 viknuh	44		2
 virnuh			2

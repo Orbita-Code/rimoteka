@@ -2,23 +2,23 @@
 Alžir			2
 ajgir			2
 ampir		M	2
-arhipastir	96		2
+arhipastir	96		3
 bir		M	1
 blagomir			3
 bogomir			3
 branimir			3
-bratimir			2
+bratimir			3
 brigadir	132		2
 budimir			3
 damir			2
 dampir			2
 demir			2
-desimir			2
+desimir			3
 dir		M	1
 dobromir			3
 dodir	8554		2
 dragomir			3
-dražimir			2
+dražimir			3
 eliksir	582		2
 elvir			2
 emir		M	2
@@ -27,25 +27,25 @@ esmir			2
 fakir		M	2
 fatmir			2
 filir			2
-fotokopir			2
+fotokopir			3
 frotir	38		2
 furnir	93		2
 garnir			2
 gejzir	133		2
 glasovir	23		3
-gradimir			2
+gradimir			3
 grenadir		M	2
 hir	570		1
 ilir			2
 ir			1
 jaromir			3
-jezdimir			2
+jezdimir			3
 jorkšir		M	2
 jugomir			3
-juvelir		M	2
+juvelir		M	3
 kadir			2
 kasir			2
-kavalir	31		2
+kavalir	31		3
 kazimir			3
 kašmir	50		2
 kefir	300		2
@@ -67,11 +67,11 @@ lir			1
 ljubomir			3
 ljutomir			3
 manastir	18028		3
-manikir	593		2
+manikir	593		3
 manir	995		2
 martir		M	2
 meir			2
-međuzbir			2
+međuzbir			3
 mijomir			3
 milomir			3
 miomir			3
@@ -84,7 +84,7 @@ munir			2
 musafir			2
 mušketir			2
 nadir			2
-namastir			2
+namastir			3
 nazir			2
 nemir	1874		2
 nezir			2
@@ -95,18 +95,18 @@ odabir	4230		3
 odbir		M	2
 oficir		M	2
 okvir	12569		2
-orijentir	432		2
+orijentir	432		3
 palir			2
 pancir	352		2
 papir	10938		2
 pastir	1123		2
 pačir			2
-pedikir	402		2
+pedikir	402		3
 peškir	965		2
-pionir	3066		2
+pionir	3066		3
 pir	521		1
 podoficir		M	4
-polumir			2
+polumir			3
 porfir			2
 portir	451		2
 prezir	1413		2
@@ -114,7 +114,7 @@ psaltir	279		2
 putir	137		2
 radimir			3
 radomir			3
-ratimir			2
+ratimir			3
 ratmir			2
 ratomir			3
 revir	175		2
@@ -126,16 +126,16 @@ samir			2
 samoprezir			2
 satir	75		2
 sehir			2
-selimir			2
+selimir			3
 sibir			2
 sindžir		M	2
 sir	6663		1
-slavimir			2
+slavimir			3
 slavomir			3
 sosir			2
 sotir			2
-stanimir			2
-strašimir			2
+stanimir			3
+strašimir			3
 suvenir	766		2
 svemir	3930		2
 svetomir			3
@@ -146,7 +146,7 @@ tapir			2
 tatomir			3
 tihomir			3
 točir		M	2
-trandafir			2
+trandafir			3
 trir			1
 trogir			2
 tugomir			3
@@ -154,7 +154,7 @@ turnir	13043		2
 uvir	27		2
 vampir	751		2
 velimir			3
-vetropir	20		2
+vetropir	20		3
 vezir		M	2
 vidomir			3
 vir	1359		1
@@ -163,7 +163,7 @@ vizir	131		2
 vladimir			3
 vlastimir			3
 vodir			2
-vojimir			2
+vojimir			3
 vukmir			2
 vukomir			3
 zafir			2
@@ -173,7 +173,7 @@ zamfir			2
 zbir	2761		1
 zefir			2
 zećir			2
-zlatimir			2
+zlatimir			3
 zlatomir			3
 zvekir		M	2
 zvonimir			3

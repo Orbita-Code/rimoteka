@@ -1,7 +1,7 @@
 71
 beh			1
 ceh	1255		1
-doleteh			2
+doleteh			3
 doneh			2
 dospeh			2
 doživeh	49		2
@@ -9,38 +9,38 @@ eh	5176		1
 greh	6364		1
 izgoreh			2
 izneh			2
-izvoleh			2
-iščileh			2
+izvoleh			3
+iščileh			3
 leh			1
 meh	151		1
 nadživeh			2
 neuspeh	5144		3
 odoleh			2
 oduzeh			2
-ogladneh			2
+ogladneh			3
 osmeh	10397		2
 otpočeh			2
-oćuteh			2
-ožedneh			2
+oćuteh			3
+ožedneh			3
 ožednjeh			3
 peh	594		1
 pleh	1548		1
 podneh			2
 podsmeh	637		2
 poludeh	17		2
-poluosmeh			2
+poluosmeh			3
 popeh	31		2
 potsmeh			2
-pozavideh			2
+pozavideh			3
 počeh	554		2
 poželeh	111		2
 poželjeh			2
 preneh			2
 prezreh			2
 prispeh			2
-procvileh			2
+procvileh			3
 proneh			2
-proživeh	11		2
+proživeh	11		3
 raspeh			2
 razapeh			2
 razboleh	13		2
@@ -50,7 +50,7 @@ razumeh	43		2
 sedeh			2
 smeh	6435		1
 trpeh			2
-uleteh	12		2
+uleteh	12		3
 umreh	39		2
 ushteh			2
 uspeh	42473		2
@@ -60,10 +60,10 @@ videh	2326		2
 voljeh			2
 zakleh	24		2
 zaneh			2
-zanemeh			2
+zanemeh			3
 započeh	33		2
 zavoleh	49		2
-zavrteh			2
+zavrteh			3
 začeh			2
 zaželeh	18		2
 zreh			1
@@ -71,7 +71,7 @@ zreh			1
 želeh			2
 živeh			2
 grijeh	1023		1
-neuspijeh			2
+neuspijeh			3
 neuspjeh			3
 osmijeh	417		3
 osmjeh			2

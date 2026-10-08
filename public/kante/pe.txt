@@ -5,35 +5,35 @@ arape	203		3
 bioskope	1117		4
 biskupe	88		3
 crpe	657		2
-crvenkape			2
-devetorepe			2
+crvenkape			3
+devetorepe			3
 dospe	1173		2
 dupe	2658		2
 džepe			2
 ekipe	35291		2
 episkope	544		4
 etape	1892		2
-evrope			2
+evrope			3
 ešarpe	126		2
-felipe			2
-filipe			2
+felipe			3
+filipe			3
 frape	101		2
 glupe	1613		2
 gospe	285		2
 gripe	296		2
 grupe	99000		2
-gvadalupe			2
+gvadalupe			3
 horoskope	116		4
 hrpe	290		2
 iscrpe	73		2
-iskasape	10		2
-iskupe	156		2
+iskasape	10		3
+iskupe	156		3
 istope	119		2
-istrpe	170		2
-istupe	391		2
-izotope	41		2
-josipe			2
-kaliope			2
+istrpe	170		3
+istupe	391		3
+izotope	41		3
+josipe			3
+kaliope			3
 kalupe	408		3
 kampe			2
 kanape	70		2
@@ -57,66 +57,66 @@ krpe	1111		2
 krupe			2
 kupe	12644		2
 lampe			2
-laptope	54		2
+laptope	54		3
 lepe	14282		2
 lipe	1033		2
 lupe	368		2
 mangupe	143		3
 mape	4158		2
-mikropumpe			2
+mikropumpe			3
 mikroskope	44		4
 nadbiskupe			4
-naklope			2
-nakupe	135		2
+naklope			3
+nakupe	135		3
 nasipe	210		3
 naspe			2
 nastupe	3895		3
 natope	40		2
 obaspe			2
-odape			2
-odcepe			2
-odstupe	187		2
+odape			3
+odcepe			3
+odstupe	187		3
 oklope	174		3
-okrepe	167		2
+okrepe	167		3
 okupe	1800		3
 opkope	15		3
 osipe	55		3
-oslepe	82		2
+oslepe	82		3
 ospe	111		2
-otcepe	262		2
+otcepe	262		3
 otkupe	854		3
 otope	75		2
-otrpe	48		2
-otupe	51		2
+otrpe	48		3
+otupe	51		3
 pape	2761		2
-paripe			2
+paripe			3
 pe		M	1
 podgrupe	428		3
 pohlepe	895		3
-poklope	407		2
+poklope	407		3
 pokupe	1029		2
-polipe	49		2
+polipe	49		3
 pompe	474		2
 pope	226		2
-poskupe	315		2
+poskupe	315		3
 pospe			2
 postupe	521		2
-potkope			2
+potkope			3
 potkrepe	123		3
 potope	196		3
-potrpe			2
-poškrope			2
-pralipe			2
+potrpe			3
+poškrope			3
+pralipe			3
 prekipe			2
-prekrupe	41		2
-prelepe	2537		2
-preskupe	493		2
+prekrupe	41		3
+prelepe	2537		3
+preskupe	493		3
 prespe			2
 prestupe	147		2
 pretope	38		2
 pretrpe	408		2
 prikupe	1455		3
-prilepe	80		2
+prilepe	80		3
 principe	6017		2
 prispe	77		2
 pristupe	3138		3
@@ -127,16 +127,16 @@ pulpe	202		2
 pumpe			2
 rampe	1873		2
 rascepe	36		3
-rasklope	17		2
+rasklope	17		3
 raspe	30		2
 rastope	68		2
 razape	26		2
-razjape			2
+razjape			3
 repe	2210		2
 rupe	7864		2
 sakupe	821		3
 sape	26		2
-satrape			2
+satrape			3
 sinkope	66		2
 sipe	219		2
 sirupe	123		3
@@ -145,13 +145,13 @@ sklope	922		2
 skupe	5702		2
 slepe	1462		2
 stepe	737		2
-stereotipe	908		2
+stereotipe	908		3
 stope	12239		2
 strepe	622		2
 strpe	178		2
 stupe	1262		2
 supe	1530		2
-supergrupe	12		2
+supergrupe	12		3
 svirepe	96		3
 talpe			2
 teleskope	457		4
@@ -162,41 +162,41 @@ trope	22		2
 trpe	4695		2
 trupe	4498		2
 tupe	258		2
-ugljenokope			2
-ukipe			2
-uklope	883		2
-uskipe			2
+ugljenokope			3
+ukipe			3
+uklope	883		3
+uskipe			3
 uspe			2
 ustupe	486		2
 utope	156		2
 vadičepe			4
-zaklope	11		2
-zakrpe	709		2
+zaklope	11		3
+zakrpe	709		3
 zakupe	249		3
-zalepe	275		2
+zalepe	275		3
 zalupe	35		3
-zaokupe	36		2
-zapope			2
-zaslepe	34		2
+zaokupe	36		3
+zapope			3
+zaslepe	34		3
 zaspe	55		2
-zastrepe			2
+zastrepe			3
 zastupe			2
-zavape	14		2
-začepe	79		2
-zaškripe	17		2
+zavape	14		3
+začepe	79		3
+zaškripe	17		3
 zdipe			2
 zjape	93		2
 ćevape	340		2
 ćupe			2
-čabarkape			2
+čabarkape			3
 čarape	2588		3
 čepe			2
-čiope			2
+čiope			3
 čipe			2
 čupe			2
 đipe			2
-đuzepe			2
-šalupe			2
+đuzepe			3
+šalupe			3
 šape	573		2
 šargarepe	1366		2
 šepe			2
@@ -211,14 +211,14 @@ zjape	93		2
 šćape		J	2
 žepe			2
 župe	1139		2
-žutorepe			2
+žutorepe			3
 lijepe	937		3
 ljepe			2
-odlijepe			2
-oslijepe			2
-otcijepe			2
-prelijepe	106		2
+odlijepe			3
+oslijepe			3
+otcijepe			3
+prelijepe	106		3
 prijestupe	18		3
-prilijepe			2
+prilijepe			3
 slijepe	132		3
-zalijepe			2
+zalijepe			3

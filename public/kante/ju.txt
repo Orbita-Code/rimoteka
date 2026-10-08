@@ -17,14 +17,14 @@ Koreju			2
 Libiju			3
 Litvaniju			3
 Makedoniju			3
-Maleziju			2
+Maleziju			3
 Mariju			3
 Mongoliju			3
 Napulju			3
 Nigeriju			3
 Paragvaju			4
 Portugaliju			3
-Prokuplju			2
+Prokuplju			3
 Rumuniju			3
 Rusiju			3
 Siriju			3
@@ -41,67 +41,67 @@ aboliciju	95		3
 adaptaciju	2104		3
 adaptiraju	399		3
 administraciju	3700		3
-administriraju	48		2
-administriranju	58		2
+administriraju	48		3
+administriranju	58		3
 adolescenciju	64		3
-adresiranju	19		2
-afaziju			2
+adresiranju	19		3
+afaziju			3
 afektiraju			3
 afirmaciju	2165		3
-afirmisanju	168		2
-agapiju			2
+afirmisanju	168		3
+agapiju			3
 agenciju	6189		3
-agentkinju			2
+agentkinju			3
 agilniju	11		4
 agitaciju	115		3
-agitovanju			2
-agituju			2
+agitovanju			3
+agituju			3
 agoniju	788		3
-agorafobiju	15		2
+agorafobiju	15		3
 agresiju	2097		3
-akaciju			2
+akaciju			3
 akademiju	3493		3
 akceleraciju	143		3
-akcentuju	52		2
+akcentuju	52		3
 akciju	23607		3
 aklimatizaciju	53		3
 akontaciju	175		3
-akreditaciju	2789		2
+akreditaciju	2789		3
 akrobaciju	29		3
-akropolju			2
+akropolju			3
 aktivaciju	599		3
 aktiviraju	2023		3
-aktiviranju	292		2
+aktiviranju	292		3
 aktivniju	280		4
 akumuliraju	320		3
 akustičniju			4
 akvariju			3
-akvitaniju			2
+akvitaniju			3
 akviziciju	517		3
 alarmiraju	79		3
 alegoriju	119		3
-aleju	94		2
-alekseju			2
-aleksiju			2
+aleju	94		3
+alekseju			3
+aleksiju			3
 alergiju	1044		3
 alhemiju	66		3
 alibiju	11		3
-aliju		M	2
+aliju		M	3
 alimentaciju	468		3
-alimpiju			2
-alojziju			2
-alokaciju	159		2
+alimpiju			3
+alojziju			3
+alokaciju	159		3
 aludiraju	105		3
 aluminiju	17		3
 aluziju	184		3
 amajliju	142		3
-amaliju			2
+amaliju			3
 ambiciju	1497		3
 ambiciozniju			6
 ambroziju	382		3
-ameliju			2
+ameliju			3
 amfibiju			3
-amfilohiju			2
+amfilohiju			3
 amnestiju	405		3
 amneziju	247		3
 amortizaciju			3
@@ -110,155 +110,155 @@ amputiraju	68		3
 analiziraju	2849		3
 analogiju	533		3
 anarhiju	390		3
-anastasiju			2
-anastaziju			2
+anastasiju			3
+anastaziju			3
 anatomiju	372		3
-andreju			2
-andriju			2
+andreju			3
+andriju			3
 aneksiju	160		3
-anektiranju			2
+anektiranju			3
 anemiju	330		3
 anesteziju	709		3
-angažovanju	1843		2
-angažuju	3509		2
-angiografiju	19		2
+angažovanju	1843		3
+angažuju	3509		3
+angiografiju	19		3
 animaciju	1150		3
 animiraju	385		3
-animiranju	122		2
+animiranju	122		3
 anju			2
 anomaliju	246		3
 anonimniju			5
-anoreksiju	102		2
-antaliju			2
+anoreksiju	102		3
+antaliju			3
 antimateriju	45		3
 antipatiju	45		3
 antologiju	573		3
-antoniju			2
+antoniju			3
 antropologiju	380		3
 anuliraju	190		3
-anđeliju			2
+anđeliju			3
 apatiju	336		3
 apeluju	1281		4
 aplaudiraju	318		3
-apliciraju			2
+apliciraju			3
 aplikaciju	6184		3
 apologiju	88		3
-apopleksiju			2
+apopleksiju			3
 apsolutniju			5
-apsorbuju	858		2
+apsorbuju	858		3
 apsorpciju	773		3
 apstinenciju	212		3
-apstrahuju			2
+apstrahuju			3
 apstraktniju			4
-arabiju			2
+arabiju			3
 aranžiraju	33		3
-aranžiranju	91		2
+aranžiranju	91		3
 arheologiju	612		3
-arhiepiskopiju	132		2
-arhijereju	131		2
-arhiviraju	161		2
-arilju			2
+arhiepiskopiju	132		3
+arhijereju	131		3
+arhiviraju	161		3
+arilju			3
 aristokratiju	117		3
 aritmiju	106		3
 armiju	1744		3
-armiraju	12		2
+armiraju	12		3
 aroganciju	294		3
-aromaterapiju	46		2
+aromaterapiju	46		3
 aromatičniju			4
-aroniju	68		2
-arseniju			2
-artemiju			2
+aroniju	68		3
+arseniju			3
+artemiju			3
 arteriju	293		3
 artiljeriju	232		3
 asimetriju	83		3
 asimilaciju	307		3
-asimiliraju			2
+asimiliraju			3
 asimiluju	129		5
 asistenciju	2072		3
-asistentkinju	42		2
+asistentkinju	42		3
 asistiraju	86		3
-asiziju			2
+asiziju			3
 asocijaciju	903		3
 asociraju	483		3
 astrologiju	280		3
-astrometriju			2
+astrometriju			3
 astronomiju	1021		3
-atakuju	109		2
-atanasiju			2
+atakuju	109		3
+atanasiju			3
 atrakciju	851		3
 atrofiju	71		3
 audiciju	482		3
-audijenciju	120		2
-audiju	156		2
+audijenciju	120		3
+audiju	156		3
 aukciju	601		3
-aureliju			2
-autentifikaciju	161		2
-autentikaciju	39		2
+aureliju			3
+autentifikaciju	161		3
+autentikaciju	39		3
 autobiografiju	313		3
 autohtoniju			4
 autonomiju	5296		3
 autopsiju	53		3
 autorizaciju	253		3
 autorizuju	16		4
-avanzuju	12		2
+avanzuju	12		3
 aveniju	105		3
 averziju	243		3
 avijaciju	409		3
 aviokompaniju	191		3
 avliju	386		3
-azijatkinju			2
-aziju			2
-ašikovanju			2
-aždaju			2
+azijatkinju			3
+aziju			3
+ašikovanju			3
+aždaju			3
 ažuriraju	821		3
-ažuriranju	229		2
+ažuriranju	229		3
 bacaju	3681		3
 bacakaju	14		3
 bacanju	1064		2
 badnju	22		2
 bahatiju			4
-bajanju			2
+bajanju			3
 baju	175		2
 baklju	396		2
-bakračliju			2
+bakračliju			3
 bakteriju	420		3
 baliju			3
-banalizuju	48		2
+banalizuju	48		3
 banalniju			3
-bandažiraju			2
-baniju	30		2
+bandažiraju			3
+baniju	30		3
 banju			2
 bankrotiraju	257		3
-bančenju			2
-baranju			2
+bančenju			3
+baranju			3
 barataju	497		3
-baratanju	81		2
-bastilju			2
+baratanju	81		3
+bastilju			3
 bateriju	2492		3
 batinaju	53		3
-batinanju	42		2
-batinjaju			2
-batinjanju			2
-batrgaju	42		2
-batumiju			2
+batinanju	42		3
+batinjaju			3
+batinjanju			3
+batrgaju	42		3
+batumiju			3
 bauljaju	70		3
-bavljenju	582		2
+bavljenju	582		3
 bazaju	20		3
-bazanju			2
+bazanju			3
 baziraju	1269		3
-bačiju			2
-baždarenju	16		2
-bdeniju	113		2
+bačiju			3
+baždarenju	16		3
+bdeniju	113		3
 bdenju	182		2
 bdiju	104		2
-bedeviju			2
-begaju			2
-begeju			2
-bekriju			2
-belaju			2
-beleženju	88		2
+bedeviju			3
+begaju			3
+begeju			3
+bekriju			3
+belaju			3
+beleženju	88		3
 belkinju	12		3
-belorusiju			2
+belorusiju			3
 beskraju	190		3
 beskrupulozniju			6
 besmrtniju			4
@@ -267,715 +267,715 @@ besramniju			3
 bezakonju	169		3
 bezazleniju			4
 bezumlju	168		2
-bečeju			2
-beštiju			2
-bežaniju	153		2
-bežanju	143		2
+bečeju			3
+beštiju			3
+bežaniju	153		3
+bežanju	143		3
 bibliju	689		3
-bifedžiju			2
+bifedžiju			3
 bigamiju	18		3
 biju	1760		2
 bikiniju	277		3
 bilju	304		2
 biografiju	2557		3
-biohemiju	340		2
+biohemiju	340		3
 biologiju	1194		3
-biopsiju	234		2
+biopsiju	234		3
 biraju	10933		3
-biranju	262		2
+biranju	262		3
 birokraciju	14		3
-birokratiju	652		2
-birtiju			2
+birokratiju	652		3
+birtiju			3
 biskupiju	71		3
-bitisanju	79		2
-bitolju			2
+bitisanju	79		3
+bitolju			3
 bivaju	4075		3
-bivstvovanju	70		2
-bičevanju			2
+bivstvovanju	70		3
+bičevanju			3
 bičuju	35		3
-bižuteriju	85		2
-blagoju			2
+bižuteriju	85		3
+blagoju			3
 blagosiljaju	94		3
 blagostanju	795		2
-blagovanju			2
+blagovanju			3
 blaguju	13		2
-blažuju			2
-blebetanju			2
+blažuju			3
+blebetanju			3
 blefiraju	47		3
-blentaviju			2
-blesaviju			2
-bliskiju			2
+blentaviju			3
+blesaviju			3
+bliskiju			3
 blistaju	293		3
-blistanju			2
+blistanju			3
 blistaviju			4
-blizankinju			2
-bliznakinju			2
+blizankinju			3
+bliznakinju			3
 bljeskaju		J	3
-bljeskanju			2
+bljeskanju			3
 bljuju	67		2
 bljutaviju			4
 blokiraju	2443		3
-blokiranju	120		2
+blokiranju	120		3
 bockaju	47		3
 bodljikaviju			5
 bodlju	18		2
 boduju	320		3
-boemiju			2
+boemiju			3
 bogalju			3
 bogatiju	279		4
-bogaćenju	235		2
+bogaćenju	235		3
 boginju	312		3
-bogohuljenju	11		2
-bogoljublju	26		2
-bogomolju	200		2
-bogosloviju	623		2
-bogosluženju	747		2
-bogovanju			2
-bojadisanju			2
-bojkotuju	685		2
+bogohuljenju	11		3
+bogoljublju	26		3
+bogomolju	200		3
+bogosloviju	623		3
+bogosluženju	747		3
+bogovanju			3
+bojadisanju			3
+bojkotuju	685		3
 boju	13381		2
-boksuju	24		2
-boliviju			2
+boksuju	24		3
+boliviju			3
 bolju	13125		2
-bolonju			2
+bolonju			3
 bolovanju	922		4
 boluju	1895		2
-bombaju			2
-bombardovanju	1629		2
-bombarduju	1103		2
+bombaju			3
+bombardovanju	1629		3
+bombarduju	1103		3
 boraniju	325		3
-borenju	22		2
-borivoju			2
-bostandžiju			2
-bozadžiju			2
+borenju	22		3
+borivoju			3
+bostandžiju			3
+bozadžiju			3
 božiju	713		3
 božju	1006		2
-bradikardiju			2
-bradonju	15		2
+bradikardiju			3
+bradonju	15		3
 branitelju	31		4
-branjenju	26		2
+branjenju	26		3
 branju	115		2
-bratiju	521		2
-bratimljenju	427		2
-bratoljublju	22		2
+bratiju	521		3
+bratimljenju	427		3
+bratoljublju	22		3
 brbljaju	58		3
-brbljanju	13		2
-brijanju	40		2
+brbljanju	13		3
+brijanju	40		3
 briju	156		2
-briljiraju	83		2
-brisanju	390		2
-britaniju			2
+briljiraju	83		3
+brisanju	390		3
+britaniju			3
 brkaju	240		3
-brkanju	17		2
+brkanju	17		3
 brlju	37		2
-brodveju			2
+brodveju			3
 brojanju	151		2
 broju	48425		2
-brokoliju	52		2
-brujanju	10		2
+brokoliju	52		3
+brujanju	10		3
 brukaju	238		3
-brundanju			2
+brundanju			3
 brzopletiju			5
 bubnjaju	13		3
-bubnjanju			2
+bubnjanju			3
 bubnju	287		2
 budniju			3
 bujaju	253		3
-bujanju	81		2
-bukliju			2
+bujanju	81		3
+bukliju			3
 buktinju	102		3
-bulimiju	63		2
-buljenju			2
+bulimiju	63		3
+buljenju			3
 bulju	167		2
-bunardžiju			2
-buncanju			2
+bunardžiju			3
+buncanju			3
 burgiju	37		3
-burkaju			2
-burundiju			2
-buržoaziju	139		2
-busaju	279		2
-busiju	80		2
+burkaju			3
+burundiju			3
+buržoaziju	139		3
+busaju	279		3
+busiju	80		3
 butelju			2
 buđenju	494		3
-bušenju	104		2
+bušenju	104		3
 caju		M	2
-carevanju			2
-carinjenju	109		2
-carstvuju			2
-caruju	379		2
+carevanju			3
+carinjenju	109		3
+carstvuju			3
+caruju	379		3
 cedulju	140		3
 celivaju	138		3
-celivanju	12		2
+celivanju	12		3
 celju	11		2
 celovitiju	24		4
-cenkanju	26		2
+cenkanju	26		3
 centralizaciju	336		3
 cepaju	472		3
-cepanju	185		2
-cepkaju			2
-cepkanju			2
+cepanju	185		3
+cepkaju			3
+cepkanju			3
 cerekaju	35		3
 ceremoniju	731		3
-cetinju			2
-ceđenju	17		2
-cicijašenju			2
-cikoriju			2
-cilikanju			2
+cetinju			3
+ceđenju	17		3
+cicijašenju			3
+cikoriju			3
+cilikanju			3
 ciljaju	441		3
-ciljanju	27		2
+ciljanju	27		3
 cilju	43859		2
 cimaju	237		3
 cirkulaciju	2265		3
-citiraju	634		2
-citiranju	73		2
+citiraju	634		3
+citiranju	73		3
 citologiju	32		3
 civilizaciju	1558		3
-civilizuju	34		2
-cizeliraju			2
+civilizuju	34		3
+cizeliraju			3
 crepulju	18		3
 crkavaju	236		4
-crnkinju	40		2
+crnkinju	40		3
 crtaju	771		3
-crtanju	359		2
-crtkaju			2
+crtanju	359		3
+crtkaju			3
 cunamiju	195		3
-cupkaju	66		2
-curenju	72		2
+cupkaju	66		3
+curenju	72		3
 cvetaju	1318		3
-cvetanju	147		2
+cvetanju	147		3
 dadilju	130		3
-dahiju			2
-dahtanju			2
+dahiju			3
+dahtanju			3
 daju	54725		2
 daljnju	136		2
 dalju	5119		2
-dalmaciju			2
+dalmaciju			3
 današnju	2514		3
-dandiju			2
+dandiju			3
 danju	2942		2
-dariju			2
+dariju			3
 darivaju	59		3
-darivanju	65		2
-darovanju	16		2
+darivanju	65		3
+darovanju	16		3
 daruju	482		2
-datiraju			2
-datiranju	31		2
-davanju	2624		2
-davitelju			2
-davljenju	34		2
-davnašnju	83		2
-deaktivaciju	46		2
+datiraju			3
+datiranju	31		3
+davanju	2624		3
+davitelju			3
+davljenju	34		3
+davnašnju	83		3
+deaktivaciju	46		3
 deaktiviraju	74		3
 debiju	456		2
 debljaju	64		3
-debljanju	36		2
+debljanju	36		3
 deblju			2
 deceniju	5965		3
-decentralizaciju	2275		2
-dedinju			2
-defibrilaciju			2
-defiluju	176		2
+decentralizaciju	2275		3
+dedinju			3
+defibrilaciju			3
+defiluju	176		3
 definiciju	2272		3
-definisanju	1542		2
+definisanju	1542		3
 deflaciju	102		3
-deformaciju	186		2
-defragmentaciju			2
-degeneraciju	102		2
-degradaciju	342		2
+deformaciju	186		3
+defragmentaciju			3
+degeneraciju	102		3
+degradaciju	342		3
 degradiraju	224		3
-degustaciju	561		2
-dehidraciju	138		2
+degustaciju	561		3
+dehidraciju	138		3
 dejstvuju	291		3
-deklamaciju			2
-deklamuju			2
+deklamaciju			3
+deklamuju			3
 deklaraciju	3748		3
 deklinaciju	28		3
-dekodiranju	29		2
-dekompresiju	94		2
+dekodiranju	29		3
+dekompresiju	94		3
 dekontaminaciju	489		3
-dekoraciju	934		2
-dekripciju			2
-delaju			2
-delanju	257		2
+dekoraciju	934		3
+dekripciju			3
+delaju			3
+delanju	257		3
 delegaciju	2809		3
-delhiju			2
-deliju			2
-deliriju			2
-deljenju	426		2
+delhiju			3
+deliju			3
+deliriju			3
+deljenju	426		3
 delovanju	3443		4
-deložaciju			2
+deložaciju			3
 deluju	13772		3
 demagogiju	611		3
 demantiju	84		4
-demantuju	886		2
-demenciju	111		2
-demisiju			2
+demantuju	886		3
+demenciju	111		3
+demisiju			3
 demografiju	473		3
 demokraciju	187		3
 demokratiju	6804		3
-demokratizaciju	731		2
-demonstraciju	698		2
-demonstriraju	1065		2
-demoralizaciju	12		2
-depilaciju	425		2
-depiliraju	50		2
+demokratizaciju	731		3
+demonstraciju	698		3
+demonstriraju	1065		3
+demoralizaciju	12		3
+depilaciju	425		3
+depiliraju	50		3
 deponiju	1751		3
-deponovanju	76		2
-deponuju	230		2
-deportaciju	234		2
-deportuju	81		2
+deponovanju	76		3
+deponuju	230		3
+deportaciju	234		3
+deportuju	81		3
 depresiju	2172		3
-deprimiraju	18		2
-deputaciju			2
-deratizaciju	122		2
+deprimiraju	18		3
+deputaciju			3
+deratizaciju	122		3
 derbiju	4142		3
-dernjaju			2
-derogaciju			2
-derogiraju	50		2
-dervišiju			2
+dernjaju			3
+derogaciju			3
+derogiraju	50		3
+dervišiju			3
 desetogodišnju	162		3
-deskripciju	59		2
-destabilizaciju	374		2
-destabilizuju	283		2
-destileriju	32		2
+deskripciju	59		3
+destabilizaciju	374		3
+destabilizuju	283		3
+destileriju	32		3
 destinaciju	1785		3
 destrukciju	404		3
-detaljisanju			2
+detaljisanju			3
 detaljniju	290		4
 detalju	686		2
-detekciju	1345		2
-detektuju	642		2
-detinjariju			2
+detekciju	1345		3
+detektuju	642		3
+detinjariju			3
 detinju	63		3
-detoksikaciju	475		2
+detoksikaciju	475		3
 detonaciju	46		3
-detoniraju	16		2
-devaju			2
+detoniraju	16		3
+devaju			3
 devalvaciju	189		3
 devijaciju	120		3
-devoluciju			2
+devoluciju			3
 dezinfekciju	1037		3
 dezinsekciju	77		3
 dezintegraciju	190		3
-dezorijentaciju			2
-dečiju			2
+dezorijentaciju			3
+dečiju			3
 dečju	1820		2
 dečkiju			3
-dečurliju	47		2
+dečurliju	47		3
 dešavaju	7524		3
 dešavanju	241		2
-dešifrovanju	49		2
-dešifruju	135		2
-dežuraju	510		2
-difteriju	18		2
+dešifrovanju	49		3
+dešifruju	135		3
+dežuraju	510		3
+difteriju	18		3
 difuziju	84		3
 digresiju	200		3
-dihotomiju	81		2
+dihotomiju	81		3
 dijareju	392		2
 dikciju	91		3
 diktiraju	1297		3
-dilovanju			2
-diluju			2
+dilovanju			3
+diluju			3
 dimenziju	4743		3
-dimiskiju			2
-dimitriju			2
+dimiskiju			3
+dimitriju			3
 dinastiju	390		3
 dinju	128		2
 dinstaju	29		3
-dioptriju	353		2
+dioptriju	353		3
 diplomaciju	22		3
-diplomatiju	1006		2
+diplomatiju	1006		3
 diplomiraju	201		3
-diplomiranju	237		2
+diplomiranju	237		3
 diraju	721		3
-direkciju	784		2
+direkciju	784		3
 direktniju	42		4
-dirigovanju	17		2
-diriguju	109		2
-dirkaju			2
+dirigovanju	17		3
+diriguju	109		3
+dirkaju			3
 disanju	489		2
-disekciju			2
-disertaciju	1223		2
-disfunkciju	148		2
-diskreciju	236		2
-diskredituju	290		2
+disekciju			3
+disertaciju	1223		3
+disfunkciju	148		3
+diskreciju	236		3
+diskredituju	290		3
 diskriminaciju	2412		3
 diskusiju	5166		3
-diskutuju	775		2
+diskutuju	775		3
 diskvalifikaciju	176		3
-diskvalifikuju	161		2
-disleksiju	57		2
+diskvalifikuju	161		3
+disleksiju	57		3
 dislokaciju	49		3
-disoluciju	24		2
-disperziju	89		2
-displeju	905		2
+disoluciju	24		3
+disperziju	89		3
+displeju	905		3
 distorziju	124		3
-distrakciju	11		2
+distrakciju	11		3
 distribuciju	4332		3
-distribuiraju	747		2
-distrofiju	20		2
-diversifikaciju	131		2
-diverziju	91		2
-diviziju	486		2
+distribuiraju	747		3
+distrofiju	20		3
+diversifikaciju	131		3
+diverziju	91		3
+diviziju	486		3
 divljaju	485		3
-divljanju	116		2
-divljenju	89		2
+divljanju	116		3
+divljenju	89		3
 divlju	734		2
-dizajniranju	590		2
-dizanju	430		2
-dizenteriju	21		2
+dizajniranju	590		3
+dizanju	430		3
+dizenteriju	21		3
 dobacuju	470		2
-dobavljaju	54		2
-dobavljanju	10		2
+dobavljaju	54		3
+dobavljanju	10		3
 dobijaju	26550		3
-dobijanju	2198		2
+dobijanju	2198		3
 dobiju	26414		3
 dobivaju	408		3
-doboju			2
-dobrivoju			2
+doboju			3
+dobrivoju			3
 dobročinitelju	23		4
-dobuju	37		2
-docniju			2
+dobuju	37		3
+docniju			3
 dodaju	7007		3
 dodavanju	240		2
-dodeljivanju	409		2
+dodeljivanju	409		3
 dodeljuju	2631		2
-dodirivanju	20		2
+dodirivanju	20		3
 dodiruju	1058		2
 događaju	8872		4
 događanju	95		2
-dogorevaju			2
+dogorevaju			3
 dogovaraju	1172		3
-dogovaranju	104		2
-dogradnju	494		2
-dograđuju	80		2
-doguraju	104		2
-dohitaju			2
-dohvataju			2
-dohvatanju			2
+dogovaranju	104		3
+dogradnju	494		3
+dograđuju	80		3
+doguraju	104		3
+dohitaju			3
+dohvataju			3
+dohvatanju			3
 doigravanju	132		3
-dojenju	305		2
+dojenju	305		3
 dojilju	18		2
-dojkinju			2
-dokazivanju	446		2
+dojkinju			3
+dokazivanju	446		3
 dokazuju	3547		2
-dokopaju	440		2
-dokotrljaju			2
-dokrajčuju			2
+dokopaju	440		3
+dokotrljaju			3
+dokrajčuju			3
 dokumentaciju	11410		3
-dokumentuju	326		2
-dolaženju	39		2
-doliju	11		2
+dokumentuju	326		3
+dolaženju	39		3
+doliju	11		3
 dolikuju	64		4
-dolivaju			2
-domašaju	64		2
-domašuju			2
+dolivaju			3
+domašaju	64		3
+domašuju			3
 dominaciju	2702		3
 dominiraju	4367		3
-domišljanju	11		2
+domišljanju	11		3
 donaciju	2165		3
-doniraju	473		2
+doniraju	473		3
 donju	1018		2
-donošenju	5109		2
+donošenju	5109		3
 dopadaju	1500		4
-dopisivanju	64		2
+dopisivanju	64		3
 dopisuju	229		2
 dopremaju	215		3
 dopunjavaju	359		3
-dopunjavanju	67		2
-dopunjuju	1166		2
-doputuju	97		2
+dopunjavanju	67		3
+dopunjuju	1166		3
+doputuju	97		3
 dopuštaju	1240		3
-dopuštanju	16		2
+dopuštanju	16		3
 dopuštenju	98		2
 dorađuju	93		2
-dorašćuju			2
-doroteju			2
+dorašćuju			3
+doroteju			3
 doručkuju	217		4
 dosadašnju	1101		3
-dosađivanju			2
+dosađivanju			3
 dosađuju	222		2
 doseljavaju	192		3
-doseljavanju	126		2
-dositeju			2
-doskorašnju	26		2
-dosluženju			2
+doseljavanju	126		3
+dositeju			3
+doskorašnju	26		3
+dosluženju			3
 dospeju	520		3
 dospevaju	1166		3
 dospiju	28		3
 dostaju	18		3
 dostavljaju	2586		4
-dostavljanju	321		2
-dostizanju	480		2
-dosuđuju	42		2
-dotaciju	69		2
-dotadašnju	207		2
-doteraju	163		2
-doterivanju	92		2
-doteruju	133		2
-doticaju	26		2
-dotrčavaju			2
-doturaju			2
-dovijanju	13		2
-dovlačenju	12		2
-dovođenju	587		2
-dovršavaju	125		2
-dovršavanju	43		2
-dovršenju	48		2
-dozidaju			2
+dostavljanju	321		3
+dostizanju	480		3
+dosuđuju	42		3
+dotaciju	69		3
+dotadašnju	207		3
+doteraju	163		3
+doterivanju	92		3
+doteruju	133		3
+doticaju	26		3
+dotrčavaju			3
+doturaju			3
+dovijanju	13		3
+dovlačenju	12		3
+dovođenju	587		3
+dovršavaju	125		3
+dovršavanju	43		3
+dovršenju	48		3
+dozidaju			3
 dozivaju	182		3
-doziđuju			2
+doziđuju			3
 doznaju	119		3
-dozrevaju	45		2
-dozrevanju			2
+dozrevaju	45		3
+dozrevanju			3
 dozvoljavaju	5097		3
 dočaraju	281		3
 dočaravaju	322		3
-dočaravanju	34		2
+dočaravanju	34		3
 dočekaju	1315		4
 dočekuju	2144		2
 dočepaju	307		3
-dočuju			2
-došaptavaju	38		2
+dočuju			3
+došaptavaju	38		3
 doživljaju	871		4
 doživljavaju	5194		3
-doživljavanju	151		2
-draginju			2
+doživljavanju	151		3
+draginju			3
 dragulju	60		2
-dramatizuju	50		2
+dramatizuju	50		3
 dranju	27		2
-draperiju	11		2
+draperiju	11		3
 dremaju	113		3
-dremanju	11		2
+dremanju	11		3
 dresiraju	48		3
 drhtaju	22		3
-drljaju	11		2
+drljaju	11		3
 drmaju	245		3
-drmusaju			2
+drmusaju			3
 drogiraju	282		3
-drogiranju	29		2
+drogiranju	29		3
 drolju	34		2
 drombulju			3
-drpaju	73		2
+drpaju	73		3
 drugačiju	3380		3
-druguju	34		2
+druguju	34		3
 drukčiju	156		2
-druženju	1931		2
-drvenariju	58		2
-držalju		M	2
-držanju	992		2
-dubaiju			2
+druženju	1931		3
+drvenariju	58		3
+držalju		M	3
+držanju	992		3
+dubaiju			3
 dublju	1077		2
 dugajliju			3
-dugogodišnju	1066		2
-dugovanju	102		2
+dugogodišnju	1066		3
+dugovanju	102		3
 duguju	3676		2
 duklju			2
 dunju	139		2
-dupliranju	39		2
+dupliranju	39		3
 duplju	271		2
 duvaju	858		3
-duvanju	32		2
-dućandžiju			2
+duvanju	32		3
+dućandžiju			3
 dvaju	1099		2
 dveju		M	2
 dviju	523		2
 dvoboju	260		3
-dvobroju	81		2
-dvogodišnju	336		2
-dvoumljenju	21		2
-džaferiju			2
-džakuziju			2
+dvobroju	81		3
+dvogodišnju	336		3
+dvoumljenju	21		3
+džaferiju			3
+džakuziju			3
 džamiju	1263		3
-džaraju			2
-džilitaju			2
-džonjaju			2
-džordžiju			2
-ediciju	487		2
+džaraju			3
+džilitaju			3
+džonjaju			3
+džordžiju			3
+ediciju	487		3
 edukaciju	6010		3
-edukuju	993		2
-efendiju			2
+edukuju	993		3
+efendiju			3
 efikasniju	799		5
-egeju			2
+egeju			3
 egzekuciju	234		3
-egzibiciju	75		2
+egzibiciju	75		3
 egzistenciju	2761		3
-eholokaciju	10		2
+eholokaciju	10		3
 ejakulaciju	130		3
 ekologiju	2736		3
 ekonomiju	12848		3
 ekranizaciju	252		3
-ekselenciju	133		2
-ekshumaciju	160		2
-ekskurziju	943		2
+ekselenciju	133		3
+ekshumaciju	160		3
+ekskurziju	943		3
 ekspanziju	1567		3
 ekspediciju	684		3
-eksperimentisanju	184		2
-eksploataciju	2510		2
+eksperimentisanju	184		3
+eksploataciju	2510		3
 eksplodiraju	281		3
 eksploziju	1078		3
-ekspoziciju	321		2
-ekspresiju	211		2
-ekstaziju	15		2
-ekstradiciju	230		2
-ekstrakciju	134		2
-ekstravaganciju	43		2
-eleganciju	585		2
+ekspoziciju	321		3
+ekspresiju	211		3
+ekstaziju	15		3
+ekstradiciju	230		3
+ekstrakciju	134		3
+ekstravaganciju	43		3
+eleganciju	585		3
 elegiju	26		3
 elektrifikaciju	156		3
-elektrodistribuciju	106		2
+elektrodistribuciju	106		3
 eliminaciju	943		3
-eliminisanju	272		2
+eliminisanju	272		3
 emancipaciju	394		3
-embolektomiju			2
-emboliju	30		2
+embolektomiju			3
+emboliju	30		3
 emigraciju	341		3
-emiliju			2
-eminenciju	20		2
+emiliju			3
+eminenciju	20		3
 emisiju	7069		3
-emitovanju	373		2
-emituju	3099		2
+emitovanju	373		3
+emituju	3099		3
 emociju	1053		3
-empatiju	415		2
-emulaciju	58		2
+empatiju	415		3
+emulaciju	58		3
 enciklopediju	491		3
-endoskopiju	48		2
+endoskopiju	48		3
 energiju	23771		3
-engleskinju			2
-enkripciju	422		2
-entropiju	78		2
+engleskinju			3
+enkripciju	422		3
+entropiju	78		3
 eparhiju	661		3
 epidemiju	517		3
-epifaniju			2
+epifaniju			3
 epilepsiju	253		3
-episkopiju	131		2
-epopeju	93		2
+episkopiju	131		3
+epopeju	93		3
 erekciju	413		3
-ergonomiju	244		2
-eroziju	248		2
+ergonomiju	244		3
+eroziju	248		3
 erudiciju	63		3
 erupciju	274		3
-eruptiraju			2
+eruptiraju			3
 eseju	597		2
 esenciju	267		3
-eskalaciju	321		2
-eskaliraju	123		2
-eskiviraju	43		2
-etikeciju			2
-etiketiraju	170		2
+eskalaciju	321		3
+eskaliraju	123		3
+eskiviraju	43		3
+etikeciju			3
+etiketiraju	170		3
 etimologiju	83		3
 etnologiju	244		3
-eufoniju			2
+eufoniju			3
 euforiju	580		3
 eutanaziju	220		3
 evakuaciju	878		3
-evakuiraju			2
-evaluaciju	1083		2
+evakuiraju			3
+evaluaciju	1083		3
 evanđelju	308		2
-evgeniju			2
-evidenciju	3973		2
-evociraju	161		2
-evociranju	18		2
-evokaciju	27		2
+evgeniju			3
+evidenciju	3973		3
+evociraju	161		3
+evociranju	18		3
+evokaciju	27		3
 evoluciju	1379		3
 evoluiraju	248		3
-evroaziju			2
-evroviziju	191		2
-ezoteriju	48		2
-fabrikuju			2
-faliju			2
-falsifikovanju	159		2
-falsifikuju	296		2
-familiju			2
+evroaziju			3
+evroviziju	191		3
+ezoteriju	48		3
+fabrikuju			3
+faliju			3
+falsifikovanju	159		3
+falsifikuju	296		3
+familiju			3
 fantaziju	451		3
-fantaziraju	77		2
+fantaziraju	77		3
 fantazmagoriju	15		3
 farbaju	381		3
-farbanju	123		2
-fariseju	42		2
-farmaciju	255		2
+farbanju	123		3
+fariseju	42		3
+farmaciju	255		3
 fascinaciju	206		3
 fasciniraju	205		3
-favorizuju	592		2
+favorizuju	592		3
 federaciju	1155		3
-fermentaciju	180		2
-fibrilaciju	19		2
-figuraciju	32		2
+fermentaciju	180		3
+fibrilaciju	19		3
+figuraciju	32		3
 fikciju	287		3
-fiksaciju	110		2
-fiksiraju	247		2
-filateliju	11		2
-filharmoniju	139		2
+fiksaciju	110		3
+fiksiraju	247		3
+filateliju	11		3
+filharmoniju	139		3
 filologiju	222		3
-filosofiju	488		2
+filosofiju	488		3
 filozofiju	3835		3
-filozofiranju	41		2
-filtraciju	175		2
+filozofiranju	41		3
+filtraciju	175		3
 filtriraju	269		3
 finansiraju	6707		3
-finansiranju	5542		2
-finiširanju			2
+finansiranju	5542		3
+finiširanju			3
 fiziologiju	387		3
-fizionomiju	297		2
+fizionomiju	297		3
 fizioterapiju	52		3
-flertovanju	48		2
+flertovanju	48		3
 flertuju	109		3
-flotaciju			2
+flotaciju			3
 fobiju	214		3
 fokusiraju	1316		3
-fokusiranju	101		2
-foliju	1168		2
-foliraju	193		2
+fokusiranju	101		3
+foliju	1168		3
+foliraju	193		3
 fondaciju	656		3
 fonologiju	10		3
 formaciju	500		3
 formiraju	7756		3
-formiranju	7531		2
+formiranju	7531		3
 formulaciju	700		3
-forsiraju	952		2
+forsiraju	952		3
 fotelju	2159		2
 fotografiju	7767		3
-fotografisanju	267		2
-fotokopiju	801		2
+fotografisanju	267		3
+fotokopiju	801		3
 frakciju	166		3
 francuskinju	72		4
 franju			2
 frekvenciju	1771		3
-frizeraju			2
-frktanju			2
+frizeraju			3
+frktanju			3
 frustraciju	622		3
-fundiraju			2
+fundiraju			3
 funkciju	24263		3
-funkcionisanju	3193		2
-furaju			2
-fuziju	297		2
-gajenju	478		2
+funkcionisanju	3193		3
+furaju			3
+fuziju	297		3
+gajenju	478		3
 gaju	370		2
 galaksiju	502		3
 galeriju	2222		3
-galiciju			2
-galileju			2
-galopiraju	30		2
+galiciju			3
+galileju			3
+galopiraju	30		3
 ganjaju	142		3
 garanciju	6252		3
 garantuju	3283		4
-gardeniju			2
-garibaldiju			2
-garniranju			2
-gataju	36		2
-gatanju	25		2
-gazdovanju	89		2
-gazduju	290		2
+gardeniju			3
+garibaldiju			3
+garniranju			3
+gataju	36		3
+gatanju	25		3
+gazdovanju	89		3
+gazduju	290		3
 gađaju	909		3
-gađanju	798		2
+gađanju	798		3
 gađenju	28		3
-gašenju	1287		2
-gaženju	74		2
+gašenju	1287		3
+gaženju	74		3
 gegaju	24		3
 genealogiju	65		3
 generaciju	5771		3
 geniju	212		3
-geodeziju	94		2
+geodeziju	94		3
 geografiju	910		3
 geologiju	209		3
 geometriju	438		3
@@ -983,229 +983,229 @@ gerijatriju	23		3
 gimnaziju	4282		3
 ginekologiju	501		3
 ginju			2
-gizdanju			2
-gladovanju	87		2
-gladuju	578		2
+gizdanju			3
+gladovanju	87		3
+gladuju	578		3
 glagoljaju			3
 glancaju	35		3
 glasaju	6923		3
 glasanju	1777		2
-glasovanju	32		2
+glasovanju	32		3
 glasuju	24		3
-glatkiju			2
+glatkiju			3
 glavnju			2
 glavobolju	1493		3
-glavonju			2
-glaziraju			2
+glavonju			3
+glaziraju			3
 glačaju	15		3
 gledaju	18460		3
 gledanju	800		3
-gleđosanju			2
+gleđosanju			3
 gležnju	11		2
-gligoriju			2
-glupiraju	38		2
+gligoriju			3
+glupiraju	38		3
 gluplju	34		2
-gluvarenju			2
-gnjuraju			2
+gluvarenju			3
+gnjuraju			3
 gnoju	25		2
-gnušaju	117		2
-godišnjakinju	36		2
+gnušaju	117		3
+godišnjakinju	36		3
 godišnju	3070		3
-gojenju	117		2
+gojenju	117		3
 goju			2
 golicaju	79		3
 goliju			3
 golju			2
 golotinju	194		3
 gomilaju	922		3
-gomilanju	78		2
-gonitelju			2
-gonjenju	336		2
+gomilanju	78		3
+gonitelju			3
+gonjenju	336		3
 gonoreju	48		2
-gordoumlju			2
-gorenju	158		2
+gordoumlju			3
+gorenju	158		3
 gorju	19		2
 gornju	1390		2
-gospodnju			2
+gospodnju			3
 gostiju	14895		3
-gostoljublju	31		2
-gostovanju	3154		2
-gostuju	1547		2
-gotovljenju			2
-govoranciju	29		2
-govorenju	53		2
-gošćenju			2
-graciju	17		2
-gradaciju	125		2
-gradiraju	17		2
-gradiranju			2
+gostoljublju	31		3
+gostovanju	3154		3
+gostuju	1547		3
+gotovljenju			3
+govoranciju	29		3
+govorenju	53		3
+gošćenju			3
+graciju	17		3
+gradaciju	125		3
+gradiraju	17		3
+gradiranju			3
 graditelju	110		4
 gradnju	7262		2
-grafiju	17		2
+grafiju	17		3
 graju	174		2
-granaju	122		2
-granatiraju	40		2
-graničenju			2
+granaju	122		3
+granatiraju	40		3
+graničenju			3
 gravitaciju	311		3
 gravitiraju	466		3
 građenju	928		2
-grcaju	217		2
+grcaju	217		3
 grdnju			2
 grdosiju	66		4
-grebanju	23		2
-grejanju	674		2
+grebanju	23		3
+grejanju	674		3
 greju	1606		2
-grickaju	241		2
-grigoriju			2
+grickaju	241		3
+grigoriju			3
 griju	78		2
 grižnju	21		2
-grkinju			2
-grljenju	17		2
+grkinju			3
+grljenju	17		3
 grmlju	105		2
-grnčariju	83		2
+grnčariju	83		3
 groblju	5378		2
-grofoviju	16		2
+grofoviju	16		3
 grozniju			3
 grublju	88		2
-grudanju			2
-grudobolju			2
+grudanju			3
+grudobolju			3
 gruju			2
-grupaciju	684		2
-grupisanju	56		2
-gruvaju	47		2
-gruziju			2
-grčenju			2
-gubljenju	338		2
+grupaciju	684		3
+grupisanju	56		3
+gruvaju	47		3
+gruziju			3
+grčenju			3
+gubljenju	338		3
 guju	69		2
 gunju			2
 gunđaju	173		3
-gunđanju	18		2
-gurabiju			2
+gunđanju	18		3
+gurabiju			3
 guraju	2986		3
 guranju	111		2
-gurkaju	55		2
-gusinju			2
-guslaju	71		2
+gurkaju	55		3
+gusinju			3
+guslaju	71		3
 gutaju	559		3
 gutanju	92		2
 gutljaju	62		3
-guzonju			2
-gušaju			2
-gušanju			2
+guzonju			3
+gušaju			3
+gušanju			3
 gušenju	202		2
-gušobolju	17		2
-guščiju			2
+gušobolju	17		3
+guščiju			3
 gužvaju	64		3
-gvineju			2
-gvožđuriju			2
-hadžiju			2
-haitiju			2
-hajdukovanju			2
-hajdukuju			2
-hajdučiju	55		2
-hakovanju	52		2
+gvineju			3
+gvožđuriju			3
+hadžiju			3
+haitiju			3
+hajdukovanju			3
+hajdukuju			3
+hajdučiju	55		3
+hakovanju	52		3
 halju			2
 halucinaciju	29		3
 haluciniraju	17		3
-hanoju			2
-hapsenju			2
-hapšenju			2
+hanoju			3
+hapsenju			3
+hapšenju			3
 haraju	489		3
-haramiju			2
-haranju			2
-harmoniju	1251		2
+haramiju			3
+haranju			3
+harmoniju	1251		3
 hartiju	699		3
 havariju	216		3
 hegemoniju	356		3
-heklanju	22		2
+heklanju	22		3
 heliju			3
 hemiju	2194		3
 hemikaliju	170		3
-hemingveju			2
+hemingveju			3
 hemofiliju	125		3
-hemoterapiju	268		2
+hemoterapiju	268		3
 herniju	116		3
 heroju	426		2
 hibernaciju	116		3
-hidroizolaciju	206		2
-hidroterapiju	37		2
+hidroizolaciju	206		3
+hidroterapiju	37		3
 hijerarhiju	494		3
-hiljadugodišnju	64		2
-hipertenziju	396		2
-hipoglikemiju			2
-hipotermiju	19		2
-hirurgiju	1302		2
-histerektomiju	16		2
+hiljadugodišnju	64		3
+hipertenziju	396		3
+hipoglikemiju			3
+hipotermiju	19		3
+hirurgiju	1302		3
+histerektomiju	16		3
 histeriju	459		3
 hitaju	153		3
-hitanju			2
+hitanju			3
 hju			1
 hladniju	79		3
-hlamidiju	23		2
-hlađenju	350		2
+hlamidiju	23		3
+hlađenju	350		3
 hobiju	236		3
 hodaju	1473		3
-hodanju	331		2
+hodanju	331		3
 hokeju	247		2
 homiliju	30		3
-homofobiju	112		2
-homolju			2
-horaciju			2
-hospiciju			2
-hospitalizaciju	202		2
-hostiju	11		2
+homofobiju	112		3
+homolju			3
+horaciju			3
+hospiciju			3
+hospitalizaciju	202		3
+hostiju	11		3
 hrabriju	17		3
 hramlju			2
 hranitelju	35		4
-hranjenju	155		2
-hrkanju	19		2
+hranjenju	155		3
+hrkanju	19		3
 hronologiju	367		3
-hrvanju			2
-hrvoju			2
+hrvanju			3
+hrvoju			3
 htenju	58		2
 huju			2
-huljenju			2
+huljenju			3
 hulju			2
 humaniju	36		4
 huškaju	126		3
-hvalisanju	39		2
-hvaljenju	46		2
+hvalisanju	39		3
+hvaljenju	46		3
 hvataju	1645		3
-hvatanju	320		2
+hvatanju	320		3
 idealizaciju	41		3
 ideju	25609		2
 identifikaciju	2280		3
-identifikovanju	244		2
+identifikovanju	244		3
 identifikuju	2273		5
 ideologiju	2545		3
 idolatriju	22		3
-ignjatiju			2
-ignorisanju	124		2
+ignjatiju			3
+ignorisanju	124		3
 igraju	25835		3
 igranju	859		3
 igumaniju	80		3
-iliju			2
-iliriju			2
+iliju			3
+iliriju			3
 ilustraciju	1299		3
-ilustruju	959		2
+ilustruju	959		3
 iluziju	1920		3
 imaginaciju	338		3
 imaju	309986		3
 imanju	2749		2
 imenitelju	14		4
-imenovanju	1355		2
+imenovanju	1355		3
 imenuju	928		4
 imigraciju	215		3
 imigriraju	19		3
 imitaciju	338		3
 imitiraju	626		3
-imitiranju	53		2
+imitiranju	53		3
 imperiju	955		3
-implantaciju	92		2
-implementaciju	4446		2
-implementiraju	831		2
+implantaciju	92		3
+implementaciju	4446		3
+implementiraju	831		3
 imploziju	34		3
-imponuju	71		2
+imponuju	71		3
 impotenciju	125		3
 impresiju	156		3
 impresioniraju	155		3
@@ -1213,1225 +1213,1225 @@ improvizaciju	322		3
 improvizuju	124		4
 inauguraciju	217		3
 indiciju	36		3
-indiciraju			2
+indiciraju			3
 indikaciju	233		3
 indiskreciju			3
-indosiranju			2
+indosiranju			3
 industriju	9591		3
-inekciju	144		2
+inekciju	144		3
 inerciju	163		3
 infekciju	2236		3
-inficiraju	189		2
-infiltraciju	63		2
+inficiraju	189		3
+infiltraciju	63		3
 inflaciju	3013		3
 infleksiju			3
 informaciju	16068		3
 infuziju	445		3
-inhaliraju	33		2
+inhaliraju	33		3
 inhibiciju	46		3
-inhibiraju	135		2
-inicijaciju	129		2
-inicijalizaciju	37		2
-iniciraju	580		2
-iniciranju	103		2
-injekciju			2
+inhibiraju	135		3
+inicijaciju	129		3
+inicijalizaciju	37		3
+iniciraju	580		3
+iniciranju	103		3
+injekciju			3
 inkarnaciju	84		3
-inkluziju	803		2
+inkluziju	803		3
 inkubaciju	43		3
 inkviziciju	126		3
 inovaciju	1073		3
 inoviraju	146		3
-inoviranju	68		2
-insinuaciju	49		2
-insistiraju	2435		2
-insistiranju	274		2
+inoviranju	68		3
+insinuaciju	49		3
+insistiraju	2435		3
+insistiranju	274		3
 inspekciju	1627		3
 inspiraciju	3461		3
 instalaciju	3642		3
 instaliraju	1278		3
 instituciju	3858		3
 instrukciju	291		3
-intabulaciju			2
+intabulaciju			3
 integraciju	4471		3
 inteligenciju	2636		3
-intenciju	204		2
+intenciju	204		3
 interakciju	2085		3
-interesovanju	1068		2
-interesuju	4271		2
-interferenciju	69		2
-interpelaciju	125		2
+interesovanju	1068		3
+interesuju	4271		3
+interferenciju	69		3
+interpelaciju	125		3
 interpretaciju	1336		3
-interpretiraju	431		2
+interpretiraju	431		3
 interpunkciju	39		3
 intervenciju	3869		3
-interviju			2
+interviju			3
 intervju	8549		2
 intonaciju	145		3
-intoniraju			2
-intoniranju	13		2
+intoniraju			3
+intoniranju	13		3
 intrigiraju	71		3
-intubaciju	25		2
+intubaciju	25		3
 intuiciju	715		3
 invaziju	849		3
 invenciju	39		3
 inverziju	55		3
 investiciju	3312		3
 investiraju	2357		3
-investiranju	565		2
-irineju			2
+investiranju	565		3
+irineju			3
 iritaciju	374		3
 iritiraju	551		3
 ironiju	471		3
 iscelitelju	35		4
-isceljenju	146		2
-isceljivanju	34		2
+isceljenju	146		3
+isceljivanju	34		3
 isceljuju	107		2
-iscrpljenju	12		2
+iscrpljenju	12		3
 iscrpljuju	371		3
 iscrpniju	14		4
-iscrtavanju	26		2
-iseckaju	21		2
+iscrtavanju	26		3
+iseckaju	21		3
 iseljavaju	295		3
-iseljavanju	188		2
-iseljenju	142		2
-isflekaju			2
-isijavaju	111		2
-isijavanju	11		2
-isisaju			2
-isisavaju	146		2
+iseljavanju	188		3
+iseljenju	142		3
+isflekaju			3
+isijavaju	111		3
+isijavanju	11		3
+isisaju			3
+isisavaju	146		3
 iskaljuju	75		2
-iskanju			2
-iskazivanju	236		2
+iskanju			3
+iskazivanju	236		3
 iskazuju	1748		2
 iskašljavaju	22		3
 iskidaju	24		4
-isključenju	517		2
+isključenju	517		3
 isključuju	1891		2
-iskomplikuju	68		2
+iskomplikuju	68		3
 iskopaju	333		3
 iskopavaju	79		3
-iskopavanju	193		2
-iskoračuju	15		2
+iskopavanju	193		3
+iskoračuju	15		3
 iskorenjuju	45		2
-iskorišćavaju	525		2
-iskorišćavanju	286		2
-iskrcaju	73		2
+iskorišćavaju	525		3
+iskorišćavanju	286		3
+iskrcaju	73		3
 iskrcavaju	65		4
-iskrcavanju	63		2
+iskrcavanju	63		3
 iskreniju	19		4
-iskrivljuju	111		2
-iskrsavaju	145		2
-iskrsavanju			2
-iskuju	20		2
-iskupitelju			2
-iskupljaju			2
-iskupljenju	102		2
-iskupljuju	28		2
+iskrivljuju	111		3
+iskrsavaju	145		3
+iskrsavanju			3
+iskuju	20		3
+iskupitelju			3
+iskupljaju			3
+iskupljenju	102		3
+iskupljuju	28		3
 iskušaju	28		4
 iskušavaju	58		3
-iskušenju	1020		2
-isleđenju			2
-isleđivanju	11		2
+iskušenju	1020		3
+isleđenju			3
+isleđivanju	11		3
 ismejavaju	125		3
-ismejavanju	27		2
+ismejavanju	27		3
 ismeju	57		2
-ismevaju	347		2
-ismevanju	48		2
+ismevaju	347		3
+ismevanju	48		3
 ismijavaju	36	J	3
 ismiju			2
 ispadaju	806		4
-ispadanju	72		2
-ispaljuju	207		2
-isparavaju	145		2
-isparavanju	32		2
-ispavaju			2
-ispaštaju	498		2
-ispaštanju	20		2
-ispetljaju			2
-ispetljavanju			2
+ispadanju	72		3
+ispaljuju	207		3
+isparavaju	145		3
+isparavanju	32		3
+ispavaju			3
+ispaštaju	498		3
+ispaštanju	20		3
+ispetljaju			3
+ispetljavanju			3
 ispijaju	303		3
-ispijanju	273		2
+ispijanju	273		3
 ispiju	46		3
 ispiraju	379		4
-ispiranju	159		2
+ispiranju	159		3
 ispisuju	556		2
 ispitaju	1530		3
 ispitivanju	2280		2
 ispituju	1500		2
-ispjevaju		J	2
-isplaniraju	156		2
+ispjevaju		J	3
+isplaniraju	156		3
 isplaćuju	2455		2
 isplivaju	371		4
-isplovljavaju	39		2
-ispoljavaju	1816		2
-ispoljavanju	296		2
+isplovljavaju	39		3
+ispoljavaju	1816		3
+ispoljavanju	296		3
 isporučuju	1684		2
-ispovedaju	408		2
-ispoštuju	979		2
+ispovedaju	408		3
+ispoštuju	979		3
 ispravljaju	553		4
-ispravljanju	336		2
+ispravljanju	336		3
 ispraćaju	370		4
-ispraćuju			2
-ispražnjuju			2
-isprebijaju	20		2
-ispredaju	141		2
+ispraćuju			3
+ispražnjuju			3
+isprebijaju	20		3
+ispredaju	141		3
 ispričaju	513		3
 isprljaju	58		3
 isprobaju	931		3
 isprobavaju	207		3
-isprovociraju	199		2
-ispsuju			2
-ispucaju	77		2
-ispumpaju	27		2
-ispumpavaju	65		2
+isprovociraju	199		3
+ispsuju			3
+ispucaju	77		3
+ispumpaju	27		3
+ispumpavaju	65		3
 ispunjavaju	6891		3
-ispunjavanju	1499		2
-ispunjenju	900		2
+ispunjavanju	1499		3
+ispunjenju	900		3
 ispuštaju	951		3
-istakanju			2
+istakanju			3
 isteraju	556		4
-isterivanju	59		2
+isterivanju	59		3
 isteruju	205		2
-isticanju	406		2
-istiskivanju	18		2
+isticanju	406		3
+istiskivanju	18		3
 istoriju	27588		3
-istovaraju			2
+istovaraju			3
 istovaruju	29		2
-istraju	627		2
+istraju	627		3
 istražitelju	17		4
 istraživanju	11449		2
 istražuju	2772		2
-istrebljavaju			2
+istrebljavaju			3
 istrebljenju	131		2
 istrebljuju	77		2
-istresaju	101		2
-istresanju			2
-istrljaju			2
-istrčavaju	92		2
+istresaju	101		3
+istresanju			3
+istrljaju			3
+istrčavaju	92		3
 istupaju	248		3
-istupanju	242		2
-isturaju	42		2
-istuširaju	57		2
+istupanju	242		3
+isturaju	42		3
+istuširaju	57		3
 isušuju	197		2
-itebeju			2
+itebeju			3
 izazivaju	7823		3
-izazivanju	254		2
+izazivanju	254		3
 izazovniju			5
-izbacivanju	395		2
+izbacivanju	395		3
 izbacuju	1840		2
-izbavitelju	18		2
+izbavitelju	18		3
 izbavljaju	27		4
-izbavljanju			2
+izbavljanju			3
 izbavljenju	75		2
-izbačaju	23		2
+izbačaju	23		3
 izbegavaju	4207		3
-izbegavanju	648		2
+izbegavanju	648		3
 izbijaju	830		3
-izbijanju	452		2
+izbijanju	452		3
 izbiju	304		3
-izbiraju			2
-izbičuju			2
+izbiraju			3
+izbičuju			3
 izdaju	7014		3
 izdanju	10600		2
-izdavanju	1596		2
+izdavanju	1596		3
 izdašniju	16		4
-izdisaju	689		2
-izdisanju	22		2
+izdisaju	689		3
+izdisanju	22		3
 izdržavaju	1297		4
-izdržavanju	953		2
-izduvaju	53		2
-izdužuju	100		2
+izdržavanju	953		3
+izduvaju	53		3
+izdužuju	100		3
 izdvajaju	4702		3
-izdvajanju	387		2
-izganjaju			2
+izdvajanju	387		3
+izganjaju			3
 izgaraju	98		3
-izgaranju	16		2
-izgladnjuju	50		2
-izglasaju	345		2
-izglađuju			2
+izgaranju	16		3
+izgladnjuju	50		3
+izglasaju	345		3
+izglađuju			3
 izgledaju	11611		3
 izgnaju			3
 izgovaraju	1279		3
-izgovaranju	71		2
+izgovaranju	71		3
 izgradnju	36170		2
-izgrađivanju	221		2
+izgrađivanju	221		3
 izgrađuju	594		2
-izguraju	199		2
-izigraju	126		2
-izigravaju	441		2
-izigravanju	43		2
+izguraju	199		3
+izigraju	126		3
+izigravaju	441		3
+izigravanju	43		3
 iziskuju	695		2
 izjadaju	28		4
 izjavljuju	806		2
 izjašnjavaju	1307		3
-izjašnjenju	140		2
-izjedaju	69		2
-izjednačavanju	279		2
-izlaganju	3275		2
-izlaženju	96		2
-izlečenju	286		2
-izležavaju	86		2
-izležavanju	34		2
-izliju	96		2
-izlivaju			2
-izlječenju		J	2
+izjašnjenju	140		3
+izjedaju	69		3
+izjednačavanju	279		3
+izlaganju	3275		3
+izlaženju	96		3
+izlečenju	286		3
+izležavaju	86		3
+izležavanju	34		3
+izliju	96		3
+izlivaju			3
+izlječenju		J	3
 izlučuju	320		2
-izluđuju	137		2
-izmahuju			2
+izluđuju	137		3
+izmahuju			3
 izmamljuju	30		2
-izmenjaju	24		2
-izmenjivanju			2
-izmenjuju	77		2
-izmešaju	80		2
-izmeštaju	120		2
-izmeštanju	267		2
-izmicanju	12		2
-izmirenju	322		2
-izmirivanju	156		2
-izmiruju	1146		2
+izmenjaju	24		3
+izmenjivanju			3
+izmenjuju	77		3
+izmešaju	80		3
+izmeštaju	120		3
+izmeštanju	267		3
+izmicanju	12		3
+izmirenju	322		3
+izmirivanju	156		3
+izmiruju	1146		3
 izmišljaju	1035		3
-izmišljanju	118		2
-izmotavaju	10		2
-iznajmljivanju	215		2
+izmišljanju	118		3
+izmotavaju	10		3
+iznajmljivanju	215		3
 iznajmljuju	756		2
-iznalaženju	467		2
+iznalaženju	467		3
 iznenađenju	143		2
 iznenađuju	370		2
 iznerviraju	134		3
-iznošenju	407		2
-iznuruju			2
-iznuđivanju	21		2
+iznošenju	407		3
+iznuruju			3
+iznuđivanju	21		3
 iznuđuju	57		2
 izobilju	1578		4
-izobličuju	15		2
+izobličuju	15		3
 izolaciju	2937		3
 izoluju	422		4
-izopačuju			2
-izopštenju			2
-izostajanju	24		2
+izopačuju			3
+izopštenju			3
+izostajanju	24		3
 izostaju	592		3
 izoštravaju	49		3
-izrabljuju	150		2
-izranjaju	194		2
-izranjanju	10		2
+izrabljuju	150		3
+izranjaju	194		3
+izranjanju	10		3
 izrastaju	286		3
-izrastanju	27		2
+izrastanju	27		3
 izravnaju	53		3
 izrazitiju	27		5
 izračunaju	370		3
-izrađaju			2
-izrađivanju	14		2
+izrađaju			3
+izrađivanju	14		3
 izrađuju	2527		2
 izražavaju	2852		3
-izražavanju	789		2
-izraženiju	148		2
-izređaju			2
-izrešetaju	13		2
-izricanju	337		2
-izrođavanju			2
-izrugaju			2
-izrugivanju	29		2
-izruguju	62		2
-izručenju	483		2
-izručivanju	35		2
+izražavanju	789		3
+izraženiju	148		3
+izređaju			3
+izrešetaju	13		3
+izricanju	337		3
+izrođavanju			3
+izrugaju			3
+izrugivanju	29		3
+izruguju	62		3
+izručenju	483		3
+izručivanju	35		3
 izručuju	63		2
-izubijaju			2
-izujedaju			2
-izumiranju	169		2
+izubijaju			3
+izujedaju			3
+izumiranju	169		3
 izumitelju	40		4
 izuvaju	49		3
 izuzimaju	178		4
-izuzimanju	64		2
-izučavaju	1076		2
-izučavanju	803		2
-izvaljuju	27		2
+izuzimanju	64		3
+izučavaju	1076		3
+izučavanju	803		3
+izvaljuju	27		3
 izveštaju	16849		4
 izveštavaju	1584		3
-izveštavanju	776		2
-izvijaju	69		2
-izvikuju	44		2
-izvinjavaju	364		2
-izvinjavanju	19		2
+izveštavanju	776		3
+izvijaju	69		3
+izvikuju	44		3
+izvinjavaju	364		3
+izvinjavanju	19		3
 izvinjenju	115		2
-izviruju	110		2
+izviruju	110		3
 izviđaju	11		3
-izviđanju	32		2
-izvlačenju	513		2
-izvorniju			2
-izvođenju	4378		2
-izvrdavaju	22		2
-izvrdavanju			2
-izvređaju	29		2
-izvrgavaju	70		2
-izvrgavanju	15		2
-izvrtanju	57		2
+izviđanju	32		3
+izvlačenju	513		3
+izvorniju			3
+izvođenju	4378		3
+izvrdavaju	22		3
+izvrdavanju			3
+izvređaju	29		3
+izvrgavaju	70		3
+izvrgavanju	15		3
+izvrtanju	57		3
 izvršavaju	1892		4
-izvršavanju	896		2
-izvršenju	2392		2
-izvršitelju	94		2
-izvršuju	66		2
+izvršavanju	896		3
+izvršenju	2392		3
+izvršitelju	94		3
+izvršuju	66		3
 išibaju	11		4
-išpartaju			2
-iščačkaju			2
+išpartaju			3
+iščačkaju			3
 iščekivanju	1171		2
-iščekuju	636		2
-iščeprkaju	11		2
-iščezavaju	230		2
-iščezavanju	28		2
-iščitaju	40		2
-iščitavaju	78		2
-iščitavanju	71		2
+iščekuju	636		3
+iščeprkaju	11		3
+iščezavaju	230		3
+iščezavanju	28		3
+iščitaju	40		3
+iščitavaju	78		3
+iščitavanju	71		3
 iščupaju	148		3
-iščuđavaju	55		2
-iživljavaju	336		2
+iščuđavaju	55		3
+iživljavaju	336		3
 jadaju	51		3
-jadikovanju	15		2
+jadikovanju	15		3
 jadikuju	70		4
-jadovanju			2
+jadovanju			3
 jahanju	245		3
-jaliju			2
+jaliju			3
 janju		M	2
-jarinju			2
+jarinju			3
 jarčju			2
 jasniju	481		3
 javljaju	16447		3
-javljanju	365		2
-javniju			2
+javljanju	365		3
+javniju			3
 jačaju	1906		3
 jačanju	4548		2
 jecaju	37		3
-jecanju			2
-jedenju	146		2
-jedinjenju	39		2
-jednogodišnju	343		2
+jecanju			3
+jedenju	146		3
+jedinjenju	39		3
+jednogodišnju	343		3
 jednostavniju	222		5
-jednoumlju	99		2
+jednoumlju	99		3
 jedrenju	178		2
-jefimiju			2
+jefimiju			3
 jeftiniju	863		4
 jegulju	23		3
-jekteniju	19		2
+jekteniju	19		3
 jenjavaju	203		3
-jereju	39		2
-jeremiju			2
-jeresju			2
-jermeniju			2
+jereju	39		3
+jeremiju			3
+jeresju			3
+jermeniju			3
 jesenju	642		3
 jevanđelju	798		2
-jevgeniju			2
-jevreju			2
-jevtimiju			2
-jevtiniju			2
-ječanju			2
-jotovanju			2
+jevgeniju			3
+jevreju			3
+jevtimiju			3
+jevtiniju			3
+ječanju			3
+jotovanju			3
 ju	30587		1
-jubileju			2
-jugoslaviju			2
-jugoviziju			2
-juliju			2
+jubileju			3
+jugoslaviju			3
+jugoviziju			3
+juliju			3
 junakinju	197		3
 jurcaju	184		3
-juriju			2
+juriju			3
 jurisdikciju	412		3
 jurišaju	196		3
 jutarnju	894		3
-jutrenju	126		2
+jutrenju	126		3
 jutrošnju	27		3
 jučerašnju	330		3
-kadiju			2
-kadriju			2
-kafedžiju	16		2
-kafeteriju	76		2
-kafileriju	41		2
-kajanju	99		2
+kadiju			3
+kadriju			3
+kafedžiju	16		3
+kafeteriju	76		3
+kafileriju	41		3
+kajanju	99		3
 kajsiju	132		3
 kakofoniju	63		3
-kalahariju			2
+kalahariju			3
 kalaju	16		3
-kaledoniju			2
-kalgariju			2
-kalibraciju	249		2
-kaliforniju			2
+kaledoniju			3
+kalgariju			3
+kalibraciju	249		3
+kaliforniju			3
 kaligrafiju	52		3
-kaljaju	85		2
-kaljužaju			2
+kaljaju	85		3
+kaljužaju			3
 kalkulaciju	514		3
-kameliju			2
+kameliju			3
 kamenju	357		2
-kamenovanju	37		2
+kamenovanju	37		3
 kamenuju	121		4
-kamiju			2
+kamiju			3
 kamiondžiju	10		3
 kampanju	12576		2
-kampiranju			2
-kampovanju	76		2
-kampuju	119		2
-kamufliraju	74		2
-kanalisanju	26		2
+kampiranju			3
+kampovanju	76		3
+kampuju	119		3
+kamufliraju	74		3
+kanalisanju	26		3
 kanalizaciju	2246		3
 kancelariju	5179		3
-kandidatkinju	86		2
-kandiduju	658		2
-kandžiju			2
-kanonizuju	13		2
+kandidatkinju	86		3
+kandiduju	658		3
+kandžiju			3
+kanonizuju	13		3
 kapaju	22		3
-kapanju	22		2
-kapetaniju	42		2
+kapanju	22		3
+kapetaniju	42		3
 kapiju	2002		3
 kapiraju	360		3
 kapitulaciju	791		3
 kaplju	151		2
 karaju	108		3
-karakterisanju			2
-karačiju			2
+karakterisanju			3
+karačiju			3
 kardiologiju	231		3
-kardiomiopatiju			2
+kardiomiopatiju			3
 karoseriju	615		3
 kartaju	25		3
-kartanju	29		2
+kartanju	29		3
 kartografiju	71		3
-kasaju			2
-kasiju			2
+kasaju			3
+kasiju			3
 kaskaju	170		3
-kaskanju			2
-kastilju			2
-kastraciju	112		2
-kastriraju	38		2
-kataniju			2
+kaskanju			3
+kastilju			3
+kastraciju	112		3
+kastriraju	38		3
+kataniju			3
 kategoriju	7933		3
-kateterizaciju	68		2
-katoličenju			2
-katolkinju			2
+kateterizaciju	68		3
+katoličenju			3
+katolkinju			3
 kauboju	27		4
-kauciju	614		2
-kavedžiju			2
+kauciju	614		3
+kavedžiju			3
 kazivanju	690		2
 kazuju	958		2
-kađenju			2
-kašljanju	29		2
+kađenju			3
+kašljanju	29		3
 kašlju	210		2
 kašnjenju	313		3
 kažnjavaju	1459		3
-kažnjavanju	716		2
+kažnjavanju	716		3
 kecelju	188		3
 keju	1907		2
 kelju	25		2
-kelneraju			2
-kentakiju			2
-kesedžiju			2
-kestenju			2
+kelneraju			3
+kentakiju			3
+kesedžiju			3
+kestenju			3
 kidaju	428		3
-kidanju	32		2
-kidnapovanju	48		2
-kidnapuju	119		2
+kidanju	32		3
+kidnapovanju	48		3
+kidnapuju	119		3
 kikirikiju	59		3
-kinematografiju	469		2
-kineskinju	58		2
-kinjenju			2
-kinđurenju			2
-kiridžiju			2
-kiriju		M	2
-kiviju	26		2
-kićenju	60		2
+kinematografiju	469		3
+kineskinju	58		3
+kinjenju			3
+kinđurenju			3
+kiridžiju			3
+kiriju		M	3
+kiviju	26		3
+kićenju	60		3
 kju			1
-klackaju	33		2
-klamidiju			2
-klancaju			2
+klackaju	33		3
+klamidiju			3
+klancaju			3
 klanjaju	742		3
-klanjanju	25		2
+klanjanju	25		3
 klanju	165		2
 klasifikaciju	821		3
-klasifikuju	341		2
-klaustrofobiju	26		2
-klađenju	107		2
+klasifikuju	341		3
+klaustrofobiju	26		3
+klađenju	107		3
 klecaju	153		3
-klevetaju	76		2
-klevetanju	21		2
-klicanju			2
-klijaju	48		2
-klijentkinju	12		2
-kliktanju	18		2
-klikuju			2
-klimaju	223		2
-klimatizaciju	603		2
+klevetaju	76		3
+klevetanju	21		3
+klicanju			3
+klijaju	48		3
+klijentkinju	12		3
+kliktanju	18		3
+klikuju			3
+klimaju	223		3
+klimatizaciju	603		3
 klizaju	131		3
-klizanju	256		2
+klizanju	256		3
 kljuju	16		2
-kljukaju	87		2
+kljukaju	87		3
 ključaju	49		3
-ključanju			2
-kloniraju	62		2
-kloniranju	91		2
-klopaju			2
-kmetuju			2
+ključanju			3
+kloniraju	62		3
+kloniranju	91		3
+klopaju			3
+kmetuju			3
 kneginju	57		3
-knjavaju			2
-knjiženju	62		2
+knjavaju			3
+knjiženju	62		3
 koagulaciju	70		3
 koaliciju	6822		3
-kociju			2
+kociju			3
 kockaju	191		3
-kockanju	177		2
-kodifikuju			2
-kodiraju	124		2
-kodiranju	60		2
-koegzistiraju	150		2
+kockanju	177		3
+kodifikuju			3
+kodiraju	124		3
+kodiranju	60		3
+koegzistiraju	150		3
 koheziju	279		3
 koincidenciju	42		3
 koju	332699		2
-kokaju			2
-koketeriju			2
-koketiraju	123		2
-kokošiju		M	2
+kokaju			3
+koketeriju			3
+koketiraju	123		3
+kokošiju		M	3
 kokošju			3
-kolabiraju	35		2
-kolaju	224		2
+kolabiraju	35		3
+kolaju	224		3
 kolebaju	150		3
-kolebanju	40		2
+kolebanju	40		3
 kolekciju	4098		3
-koliziju	143		2
+koliziju	143		3
 kolju	709		2
 koloniju	949		3
 kolonizaciju	244		3
-kolonizuju	56		2
-kolonoskopiju	84		2
-kolostomiju			2
-kolundžiju			2
-kolutaju	25		2
+kolonizuju	56		3
+kolonoskopiju	84		3
+kolostomiju			3
+kolundžiju			3
+kolutaju	25		3
 komadaju	117		3
-komadanju	77		2
-komandovanju	83		2
-komanduju	241		2
+komadanju	77		3
+komandovanju	83		3
+komanduju	241		3
 kombiju	332		3
 kombinaciju	6323		3
-kombinuju	2021		2
+kombinuju	2021		3
 komediju	1386		3
 komemoraciju	182		3
 komešaju	40		3
-komešanju	34		2
+komešanju	34		3
 komisiju	4467		3
-komordžiju			2
+komordžiju			3
 kompaniju	10592		3
 komparaciju	216		3
 kompenzaciju	878		3
-kompenzuju	321		2
+kompenzuju	321		3
 kompilaciju	376		3
 komplikaciju	146		3
 komplikuju	485		4
-komponovanju	183		2
-komponuju	93		2
+komponovanju	183		3
+komponuju	93		3
 kompoziciju	1655		3
 kompresiju	561		3
-kompromitiraju			2
+kompromitiraju			3
 kompromituju	327		4
 komuniciraju	3341		3
 komunikaciju	12489		3
-komutaciju	21		2
+komutaciju	21		3
 komšiju	574		3
 koncentraciju	3462		3
 koncepciju	1938		3
 koncesiju	934		3
 kondenzaciju	114		3
-kondenzuju	42		2
+kondenzuju	42		3
 kondiciju	1051		3
-konekciju	2421		2
+konekciju	2421		3
 konfederaciju	281		3
-konfekciju	120		2
+konfekciju	120		3
 konferenciju	6351		3
 konfesiju	25		3
 konfiguraciju	1824		3
 konfiskaciju	134		3
-konfiskuju	58		2
-konfrontaciju	371		2
+konfiskuju	58		3
+konfrontaciju	371		3
 konfuziju	907		3
 kongregaciju	23		3
-konjosanju			2
+konjosanju			3
 konju	2229		2
-konkretizaciju	117		2
-konkretiziraju			2
-konkretizuju	125		2
+konkretizaciju	117		3
+konkretiziraju			3
+konkretizuju	125		3
 konkurenciju	7467		3
 konoplju	106		3
 konotaciju	683		3
-konsignaciju			2
-konstatuju	872		2
+konsignaciju			3
+konstatuju	872		3
 konstelaciju	111		3
 konstituciju	189		3
 konstrukciju	2924		3
-konsultaciju	599		2
-konsultiraju			2
-konsultuju	699		2
+konsultaciju	599		3
+konsultiraju			3
+konsultuju	699		3
 kontaju	110		3
 kontaktiraju	952		3
 kontaminaciju	139		3
-kontaminiraju	89		2
+kontaminiraju	89		3
 kontracepciju	588		3
 kontradikciju	102		3
 kontrakciju	173		3
-kontrolisanju	210		2
+kontrolisanju	210		3
 kontuziju	116		3
 konvenciju	1832		3
-konvertuju	338		2
+konvertuju	338		3
 konverzaciju	531		3
 konverziju	1544		3
 konvoju	176		3
-konzervatoriju	16		2
-konzultaciju			2
+konzervatoriju	16		3
+konzultaciju			3
 konzumaciju	440		3
-konzumiraju	2041		2
-konzumiranju	406		2
+konzumiraju	2041		3
+konzumiranju	406		3
 kooperaciju	260		3
-kooptiraju	15		2
+kooptiraju	15		3
 koordinaciju	2687		3
 kopaju	1002		3
-kopanju	168		2
+kopanju	168		3
 kopiju	2931		3
-kopiraju	1003		2
-kopiranju	163		2
+kopiraju	1003		3
+kopiranju	163		3
 koplju	56		2
-koprcaju	93		2
-koprcanju			2
-koračaju	312		2
-koračanju	24		2
-kordeliju			2
-korekciju	1811		2
+koprcaju	93		3
+koprcanju			3
+koračaju	312		3
+koračanju	24		3
+kordeliju			3
+korekciju	1811		3
 korelaciju	356		3
-korenju	69		2
-koreografiju	715		2
-korespodenciju	114		2
-korespondenciju	162		2
-korespondiraju	230		2
-korigovanju	66		2
-koriguju	592		2
+korenju	69		3
+koreografiju	715		3
+korespodenciju	114		3
+korespondenciju	162		3
+korespondiraju	230		3
+korigovanju	66		3
+koriguju	592		3
 korisniju	13		4
-korišćenju			2
-korneliju			2
+korišćenju			3
+korneliju			3
 koroziju	472		3
 korporaciju	321		3
 korupciju	6079		3
-kosmaju			2
-kosmologiju	81		2
+kosmaju			3
+kosmologiju	81		3
 kostiju	4712		3
 kostobolju	31		3
 kotiraju	471		3
 kotrljaju	186		3
-kovandžiju			2
-kovanju	83		2
+kovandžiju			3
+kovanju	83		3
 kovilju	268		3
 kovitlaju	46		3
-kovrdžaviju			2
+kovrdžaviju			3
 kozju	26		2
-kočenju	363		2
+kočenju	363		3
 kočiju	142		3
-košenju	87		2
+košenju	87		3
 koškaju	15		3
-koškanju	25		2
+koškanju	25		3
 koštaju	6014		3
 košulju	1718		3
 krajnju	1069		2
 kraju	146114		2
 kralju	2995		2
 kraljuju			2
-kraniotomiju			2
+kraniotomiju			3
 kranju	228		2
 kravlju	18		2
-krcaju			2
+krcaju			3
 krckaju	76		3
 kreaciju	658		3
 kreiraju	3947		3
-kreiranju	4399		2
+kreiranju	4399		3
 kremaciju	32		3
 krematoriju			3
 kremiraju	26		3
 kremlju			2
 krepavaju			3
-kresanju	80		2
+kresanju	80		3
 kretanju	3164		2
 kretnju	81		2
-kreveljenju			2
-krečenju	64		2
-krhaju			2
+kreveljenju			3
+krečenju	64		3
+krhaju			3
 kriju	5691		2
-krijumčarenju	107		2
+krijumčarenju	107		3
 kriminologiju	68		3
 kriteriju	125		3
-kritikuju	3367		2
-krivljenju	15		2
-krivoumlju			2
+kritikuju	3367		3
+krivljenju	15		3
+krivoumlju			3
 krivulju	38		3
 krkljaju			3
 krnju	41		2
 krntiju	31		3
-krojenju	57		2
+krojenju	57		3
 kroju	105		2
-kroćenju	11		2
+kroćenju	11		3
 krošnju	194		2
 krpaju			3
-krpljenju			2
-krstarenju	183		2
-krstitelju	20		2
-krstivoju			2
-krunisanju	72		2
+krpljenju			3
+krstarenju	183		3
+krstitelju	20		3
+krstivoju			3
+krunisanju	72		3
 krupniju	91		3
-krupnjaju			2
+krupnjaju			3
 krupnju			2
-kruženju	92		2
-krvarenju	112		2
+kruženju	92		3
+krvarenju	112		3
 krvlju	3181		2
-krvopiju			2
-krčenju	34		2
+krvopiju			3
+krčenju	34		3
 krčkaju	126		3
-kršenju	1171		2
-krštavaju	95		2
-krštavanju			2
+kršenju	1171		3
+krštavaju	95		3
+krštavanju			3
 krštenju	756		3
-kseniju			2
-kucaju	578		2
-kucanju	363		2
-kuckaju	103		2
-kudelju	32		2
-kuglaju	12		2
-kuglanju	250		2
+kseniju			3
+kucaju	578		3
+kucanju	363		3
+kuckaju	103		3
+kudelju	32		3
+kuglaju	12		3
+kuglanju	250		3
 kuhinju	4342		3
 kuju	640		2
 kujundžiju			3
 kukaju	2004		3
-kukanju	43		2
+kukanju	43		3
 kukolju	22		3
-kukurikanju			2
-kuljaju	56		2
+kukurikanju			3
+kuljaju	56		3
 kulminaciju	494		3
-kumovanju			2
-kumuju	65		2
-kunjaju	15		2
+kumovanju			3
+kumuju	65		3
+kunjaju	15		3
 kupaju	938		3
-kupanju	363		2
-kupleraju			2
-kupljenju			2
-kupoprodaju	220		2
-kupovanju	71		2
+kupanju	363		3
+kupleraju			3
+kupljenju			3
+kupoprodaju	220		3
+kupovanju	71		3
 kupuju	14293		2
-kuriju	41		2
-kuršumliju			2
-kutaisiju			2
+kuriju	41		3
+kuršumliju			3
+kutaisiju			3
 kutiju	3802		3
 kuvaju	1011		3
 kuvanju	1055		3
-kućenju			2
+kućenju			3
 kušaju	65		3
-kušanju	22		2
+kušanju	22		3
 kušnju	50		2
 kvalifikaciju	860		3
-kvalifikuju	617		2
+kvalifikuju	617		3
 kvalitetniju	1056		5
-kvarenju	110		2
+kvarenju	110		3
 kćerju	24		2
 labaviju	17		4
 laboratoriju	1965		3
-labrnju			2
-ladanju			2
-laganju	152		2
+labrnju			3
+ladanju			3
+laganju	152		3
 lagodniju	20		4
-lagumdžiju			2
+lagumdžiju			3
 laju	503		2
-lakiraju	48		2
-lakoumlju			2
-lakrdijanju			2
+lakiraju	48		3
+lakoumlju			3
+lakrdijanju			3
 lakrdiju	151		3
-lamperiju	22		2
-landaraju			2
+lamperiju	22		3
+landaraju			3
 lansiraju	489		3
-lansiranju	442		2
-laparaju			2
-laparotomiju			2
+lansiranju	442		3
+laparaju			3
+laparotomiju			3
 laskaju	94		3
-laskanju	29		2
-laviranju			2
+laskanju	29		3
+laviranju			3
 lavlju	58		2
-lazanju			2
+lazanju			3
 laćaju	39		3
 lažiraju	104		3
-lažiranju	53		2
+lažiranju	53		3
 lažju	92		2
 legalizaciju	2324		3
-legalizuju	575		2
-leganju			2
+legalizuju	575		3
+leganju			3
 legiju	432		3
 legitimaciju	673		3
 lekciju	2580		3
-lelujaju	53		2
-lelujanju			2
-lelulaju			2
+lelujaju	53		3
+lelujanju			3
+lelulaju			3
 lenju	70		2
-lenčarenju	20		2
+lenčarenju	20		3
 lepinju	102		3
-lepljenju	78		2
+lepljenju	78		3
 lepršaju	97		3
-lepršanju			2
+lepršanju			3
 letargiju	147		3
-letenju	260		2
+letenju	260		3
 letnju	1868		2
-letoniju			2
+letoniju			3
 letovanju	788		4
-letuju	448		2
-leukemiju	146		2
-levitaciju	23		2
-leziju	60		2
-lečenju	8454		2
+letuju	448		3
+leukemiju	146		3
+levitaciju	23		3
+leziju	60		3
+lečenju	8454		3
 ležaju	368		3
-liceju			2
+liceju			3
 licemerju	240		4
 licitaciju	552		3
-licitiranju	29		2
-lidiju			2
-liferuju			2
+licitiranju	29		3
+lidiju			3
+liferuju			3
 lignju	20		2
-likovanju	17		2
-likuju	279		2
+likovanju	17		3
+likuju	279		3
 likvidaciju	1088		3
 likvidiraju	319		3
-likvidiranju	15		2
-limariju	136		2
-limitiraju	89		2
+likvidiranju	15		3
+limariju	136		3
+limitiraju	89		3
 liniju	11576		3
-linčovanju			2
+linčovanju			3
 linčuju	110		3
-liposukciju	132		2
-lipsavaju			2
+liposukciju	132		3
+lipsavaju			3
 lisičju			3
 listaju	160		3
-listanju	28		2
+listanju	28		3
 litaniju	13		3
 litiju	253		3
-litografiju	32		2
+litografiju	32		3
 liturgiju	4042		3
-lizanju	17		2
+lizanju	17		3
 lišavaju	265		3
-lišavanju	56		2
-lišenju	54		2
-ljubakaju			2
+lišavanju	56		3
+lišenju	54		3
+ljubakaju			3
 ljubavlju	7316		3
 ljubitelju	169		4
-ljubljenju	91		2
-ljuboviju			2
+ljubljenju	91		3
+ljuboviju			3
 ljuljaju	204		3
-ljuljanju	15		2
-ljuljuškanju			2
+ljuljanju	15		3
+ljuljuškanju			3
 ljutnju	747		2
-ljuštenju	16		2
+ljuštenju	16		3
 lobanju	410		3
 lobiju	551		3
-lobiraju			2
-lobiranju	331		2
+lobiraju			3
+lobiranju	331		3
 lobotomiju	58		3
 lociraju	323		3
-lociranju	135		2
-logorovanju	15		2
+lociranju	135		3
+logorovanju	15		3
 logoruju	15		4
 loju	311		2
 lokaciju	6419		3
-lokalizaciju	293		2
-lokalizuju	150		2
-lomljenju	124		2
+lokalizaciju	293		3
+lokalizuju	150		3
+lomljenju	124		3
 loptaju	14		3
-lovljenju	13		2
+lovljenju	13		3
 lovostaju	18		4
 lošiju	400		3
-loženju			2
+loženju			3
 lubanju	22		3
-luciju			2
+luciju			3
 ludoriju	20		3
 luduju	165		2
-lumpovanju			2
+lumpovanju			3
 lunjaju	12		3
 lupaju	940		3
 lupanju	40		2
-luparaju			2
-lupetaju	270		2
-lupkaju	43		2
-lustraciju	399		2
+luparaju			3
+lupetaju	270		3
+lupkaju	43		3
+lustraciju	399		3
 lutaju	802		3
-lutanju	125		2
+lutanju	125		3
 lutriju	264		3
-lučenju	102		2
-luđakinju			2
+lučenju	102		3
+luđakinju			3
 mafiju	641		3
 magiju	1060		3
-maglaju			2
-magnoliju	12		2
+maglaju			3
+magnoliju	12		3
 magnovenju	237		2
-mahanju	19		2
-mahnitaju			2
-majamiju			2
-majstoriju	60		2
+mahanju	19		3
+mahnitaju			3
+majamiju			3
+majstoriju	60		3
 maju	12542		2
-makljaju			2
-malaksavaju			2
+makljaju			3
+malaksavaju			3
 malariju	136		3
-maliju			2
-malopređašnju			2
+maliju			3
+malopređašnju			3
 maloprodaju	549		3
 maltretiraju	1150		3
-maltretiranju	357		2
-malvasiju			2
-manasiju			2
-mandžuriju			2
-manevrisanju	63		2
+maltretiranju	357		3
+malvasiju			3
+manasiju			3
+mandžuriju			3
+manevrisanju	63		3
 manifestaciju	5667		3
-manifestuju	1010		2
-maniju	100		2
+manifestuju	1010		3
+maniju	100		3
 manipulaciju	1614		3
 manjkaju	155		3
 manju	7059		2
-mantiju	237		2
-mapiranju	94		2
-marakuju			2
-mariniraju	17		2
-markiraju	89		2
-marseju			2
-marselju			2
-marširaju	212		2
-masakriraju	55		2
-masiraju	132		2
-masiranju			2
-maskiraju	278		2
-maskiranju	32		2
-masniju	53		2
-masoneriju	67		2
+mantiju	237		3
+mapiranju	94		3
+marakuju			3
+mariniraju	17		3
+markiraju	89		3
+marseju			3
+marselju			3
+marširaju	212		3
+masakriraju	55		3
+masiraju	132		3
+masiranju			3
+maskiraju	278		3
+maskiranju	32		3
+masniju	53		3
+masoneriju	67		3
 masovniju	99		4
-mastektomiju	71		2
+mastektomiju	71		3
 masturbaciju	117		3
-materijalizaciju	103		2
-materijalizuju	200		2
+materijalizaciju	103		3
+materijalizuju	200		3
 materiju	2985		3
-maternju			2
-matineju			2
-maturiraju			2
+maternju			3
+matineju			3
+maturiraju			3
 mauzoleju	150		3
 mačevanju	115		4
-mačiju			2
+mačiju			3
 mačju	31		2
 mačuju	11		3
-mađiju	15		2
-mašanju			2
+mađiju	15		3
+mašanju			3
 mašineriju	465		3
 maštaju	709		3
-maštanju	111		2
-maštariju	37		2
-maženju	47		2
-mažnjavaju			2
-mebliraju			2
+maštanju	111		3
+maštariju	37		3
+maženju	47		3
+mažnjavaju			3
+mebliraju			3
 medalju	9263		3
-medijaciju	358		2
+medijaciju	358		3
 mediju	1365		3
 meditaciju	616		3
-meditiraju	81		2
-megdandžiju	11		2
-mehandžiju			2
-mehanizaciju	1401		2
+meditiraju	81		3
+megdandžiju	11		3
+mehandžiju			3
+mehanizaciju	1401		3
 mekšaju			3
-melanholiju	165		2
-melaniju			2
-melentiju			2
+melanholiju	165		3
+melaniju			3
+melentiju			3
 melioraciju	42		3
 melju	239		2
 melodiju	955		3
 memoriju	4382		3
-memoriraju			2
-meniju			2
+memoriraju			3
+meniju			3
 menjaju	16138		3
-menjanju	689		2
+menjanju	689		3
 menstruaciju	727		3
-merenju	820		2
+merenju	820		3
 mesiju	342		3
 meteorologiju	146		3
 metju			2
-metodiju			2
+metodiju			3
 metodologiju	1521		3
-metohiju			2
-međugorju			2
-međunožju	84		2
-međurečju	45		2
+metohiju			3
+međugorju			3
+međunožju	84		3
+međurečju	45		3
 mešaju	2886		3
-mešanju	351		2
-mešenju	21		2
-miamiju			2
-micanju			2
-migraciju	450		2
-migriraju	205		2
+mešanju	351		3
+mešenju	21		3
+miamiju			3
+micanju			3
+migraciju	450		3
+migriraju	205		3
 mikrobiologiju	205		3
 miliciju	331		3
-milivoju			2
+milivoju			3
 milju	186		2
-miloju			2
+miloju			3
 milostinju	915		3
-milovanju	39		2
+milovanju	39		3
 miluju	187		3
-milvokiju			2
-mimikriju	60		2
+milvokiju			3
+mimikriju	60		3
 miniraju	163		3
-miniranju	38		2
-mirenju	76		2
+miniranju	38		3
+mirenju	76		3
 mirniju	181		3
-mirogoju			2
-mirovanju	524		2
+mirogoju			3
+mirovanju	524		3
 mirođiju	113		3
 miruju	577		2
 misiju	6093		3
-misisipiju			2
+misisipiju			3
 misteriju	897		3
-mistifikaciju	61		2
-misuriju			2
+mistifikaciju	61		3
+misuriju			3
 mitologiju	435		3
-mizeriju	118		2
-mišiju			2
+mizeriju	118		3
+mišiju			3
 mišju	165		2
-mišljenju		M	2
+mišljenju		M	3
 mišlju	1176		2
-mladozenju			2
+mladozenju			3
 mladoženju	61		3
 mlakonju			3
-mlataraju	34		2
-mljackaju	16		2
-mljackanju			2
+mlataraju	34		3
+mljackaju	16		3
+mljackanju			3
 mnenju	139		2
 mnjenju			2
-množenju	33		2
-mobilisanju			2
+množenju	33		3
+mobilisanju			3
 mobilizaciju	702		3
-mobilizuju			2
+mobilizuju			3
 modeliraju	57		3
-modeliranju	159		2
+modeliranju	159		3
 moderniju	153		4
 modernizaciju	3100		3
-modificiraju			2
+modificiraju			3
 modifikaciju	441		3
-modifikuju	324		2
-modulaciju	90		2
-mojsiju			2
+modifikuju	324		3
+modulaciju	90		3
+mojsiju			3
 moju	18806		2
-mokrenju	191		2
-moldaviju			2
-molitelju			2
-moljenju	23		2
-momčadiju			2
-monahinju	116		2
+mokrenju	191		3
+moldaviju			3
+molitelju			3
+moljenju	23		3
+momčadiju			3
+monahinju	116		3
 monarhiju	623		3
 monogamiju	44		3
 monografiju	818		3
 monotoniju	486		5
-montiraju	815		2
-montiranju	106		2
+montiraju	815		3
+montiranju	106		3
 moraju	90929		3
-moranju	39		2
-morfiju			2
+moranju	39		3
+morfiju			3
 motaju	295		3
-motanju	15		2
+motanju	15		3
 motivaciju	2396		3
-motrenju			2
-mozgaju	43		2
+motrenju			3
+mozgaju	43		3
 moćniju	70		3
-moštiju	1856		2
+moštiju	1856		3
 mračniju	43		3
-mrdaju	164		2
+mrdaju	164		3
 mrlju	564		2
 mrmljaju	50		3
-mrsniju			2
+mrsniju			3
 mrznju			2
-mrzovolju	60		2
+mrzovolju	60		3
 mržnju	3933		2
-mudroliju	11		2
-mudrovanju	36		2
-mudruju	96		2
+mudroliju	11		3
+mudrovanju	36		3
+mudruju	96		3
 muftiju	301		3
-muljaju	179		2
+muljaju	179		3
 mulju	259		2
-mumbaju			2
+mumbaju			3
 mumiju	81		3
-mumlaju			2
+mumlaju			3
 municiju	1072		3
 munju	105		2
 murju			2
 mutaciju	208		3
-mutiraju	91		2
-muvaju	285		2
-muvanju	34		2
+mutiraju	91		3
+muvaju	285		3
+muvanju	34		3
 muzeju	8826		2
-muziciranju	115		2
-mučenju	425		2
+muziciranju	115		3
+mučenju	425		3
 mučitelju	165		4
-mušteriju			2
+mušteriju			3
 mužnju			2
-nabacaju	18		2
+nabacaju	18		3
 nabacuju	96		2
 nabadaju	29		3
 nabasaju	27		3
 nabavljaju	1188		4
-nabavljanju	45		2
+nabavljanju	45		3
 nabijaju	176		3
 nabiju	130		3
 naboju	79		3
 nabrajaju	310		3
-nabrajanju	159		2
+nabrajanju	159		3
 naciju	3664		3
-naciljaju	11		2
-nacionalizaciju	204		2
+naciljaju	11		3
+nacionalizaciju	204		3
 nacrtaju	259		4
 nadahnjuju	109		2
 nadaju	6088		3
-nadanju	62		2
+nadanju	62		3
 nadevaju	22		3
-nadgledaju			2
-nadgledanju	132		2
-nadgradnju	452		2
-nadgrađuju	26		2
-nadigravanju	33		2
+nadgledaju			3
+nadgledanju	132		3
+nadgradnju	452		3
+nadgrađuju	26		3
+nadigravanju	33		3
 nadimaju	55		4
-nadimanju			2
-nadiranju	71		2
+nadimanju			3
+nadiranju	71		3
 nadjačaju	77		3
-nadmašaju			2
+nadmašaju			3
 nadmašuju	338		2
-nadmetanju	1312		2
+nadmetanju	1312		3
 nadmoćniju	28		4
-nadmudruju	47		2
-nadodaju	19		2
-nadogradnju	1354		2
+nadmudruju	47		3
+nadodaju	19		3
+nadogradnju	1354		3
 nadograđuju	225		2
 nadoknađuju	448		2
 nadovezuju	448		2
-nadražuju	65		2
-nadrljaju	24		2
-naduju			2
-naduvaju	80		2
-naduvavaju	121		2
+nadražuju	65		3
+nadrljaju	24		3
+naduju			3
+naduvaju	80		3
+naduvavaju	121		3
 nadvijaju	102		3
-nadvikivanju			2
+nadvikivanju			3
 nadvisuju	39		2
 nadvladaju	129		3
 nadvladavaju	33		3
-nadvlačenju	127		2
-nadziranju	38		2
-nagasakiju			2
+nadvlačenju	127		3
+nadziranju	38		3
+nagasakiju			3
 nagađaju	315		3
-nagađanju	39		2
+nagađanju	39		3
 naginju	311		3
 naglašavaju	2843		3
-nagledaju	29		2
-nagnaju	25		2
-nagomilaju	123		2
-nagomilavaju	229		2
+nagledaju	29		3
+nagnaju	25		3
+nagomilaju	123		3
+nagomilavaju	229		3
 nagovaraju	181		3
-nagovaranju	21		2
-nagoveštaju	111		2
+nagovaranju	21		3
+nagoveštaju	111		3
 nagoveštavaju	817		3
 nagrađuju	615		2
 nagrizaju	122		3
 nagrđuju	12		3
-nahiju	134		2
-nahođenju	1271		2
-naimenovanju	27		2
-naimenuju			2
+nahiju	134		3
+nahođenju	1271		3
+naimenovanju	27		3
+naimenuju			3
 najaktivniju			5
 najakustičniju			5
 najakutniju			5
@@ -2443,7 +2443,7 @@ najbesramniju			4
 najbezazleniju			5
 najbezvezniju			5
 najbitniju	175		4
-najblesaviju			2
+najblesaviju			3
 najblistaviju			5
 najbljutaviju			5
 najbogatiju	110		5
@@ -2451,7 +2451,7 @@ najbolju	11931		3
 najbolniju	24		4
 najdalju	15		3
 najdivniju	17		4
-najdragoceniju			2
+najdragoceniju			3
 najdublju	282		3
 najfiniju	43		4
 najgluplju	27		3
@@ -2470,18 +2470,18 @@ najmračniju	30		4
 najmučniju			4
 najnapredniju	73		5
 najneobičniju	26		6
-najneverovatniju			2
-najnežniju			2
+najneverovatniju			3
+najnežniju			3
 najnoviju	1875		4
 najnužniju	17		4
 najobičniju	230		5
 najodvratniju	10		5
-najopasniju			2
-najopsežniju			2
+najopasniju			3
+najopsežniju			3
 najotvoreniju			6
 najoštriju	87		4
 najpametniju	13		5
-najpogrdniju			2
+najpogrdniju			3
 najpopularniju	196		6
 najpoznatiju	191		5
 najpraviju			4
@@ -2489,7 +2489,7 @@ najprihvatljiviju	14		5
 najprirodniju	16		5
 najpuniju			4
 najraniju	41		4
-najrobiju			2
+najrobiju			3
 najromantičniju			5
 najružniju	34		4
 najsavremeniju	600		6
@@ -2504,110 +2504,110 @@ najstariju	442		4
 najstrašniju	80		4
 najsvetiju	40		4
 najsvetliju	38		4
-najsvežiju			2
+najsvežiju			3
 najtajniju			4
 najtamniju	20		4
 najtačniju	28		4
-najtešnju			2
+najtešnju			3
 najtopliju	35		4
 najtužniju	13		4
 najukusniju	43		5
 najumniju			4
 najuzbudljiviju	30		5
 najvažniju	1030		4
-najverniju			2
+najverniju			3
 najveštiju			4
-najvidniju			2
+najvidniju			3
 najvredniju	123		4
 najzagonetniju			6
 najzgodniju	15		4
 najznačajniju	525		5
 najzreliju	17		4
 najčarobniju			5
-najčistiju			2
+najčistiju			3
 najčudniju	10		4
 najživlju	14		3
 nakovnju	34		3
-nakraju			2
+nakraju			3
 nakupljaju	144		3
-nakupuju	16		2
-nalaganju	19		2
-nalaženju	672		2
-naliju	24		2
+nakupuju	16		3
+nalaganju	19		3
+nalaženju	672		3
+naliju	24		3
 nalikuju	276		4
-nalivaju			2
-naličju	185		2
-namalaju			2
+nalivaju			3
+naličju	185		3
+namalaju			3
 namamljuju	21		2
 namenjuju	36		2
 nameravaju	2508		3
-nametanju	343		2
+nametanju	343		3
 nameštaju	814		4
-nameštanju	301		2
+nameštanju	301		3
 namiguju	58		2
-namirenju	88		2
-namirivanju	42		2
-namiruju	224		2
-namotavaju	21		2
-nanošenju	217		2
-nansiju			2
+namirenju	88		3
+namirivanju	42		3
+namiruju	224		3
+namotavaju	21		3
+nanošenju	217		3
+nansiju			3
 naoružaju	160		3
 naoružanju	721		2
 naoružavaju	155		3
 napadaju	4733		4
-napadanju	35		2
-napajaju	541		2
-napajanju	1159		2
-napaljuju			2
-napasaju	48		2
-napasanju			2
-napastvuju			2
+napadanju	35		3
+napajaju	541		3
+napajanju	1159		3
+napaljuju			3
+napasaju	48		3
+napasanju			3
+napastvuju			3
 napijaju	64		3
 napiju	237		3
-napipaju	43		2
-naplaćaju			2
-naplaćuju	4046		2
-napoiju			2
+napipaju	43		3
+naplaćaju			3
+naplaćuju	4046		3
+napoiju			3
 napolju	6952		3
-napominjanju			2
+napominjanju			3
 napominju	1696		3
 napredniju	161		4
 napredovanju	840		5
 napreduju	2860		4
-naprezanju	71		2
+naprezanju	71		3
 napumpaju	35		3
-napučuju			2
+napučuju			3
 napuštaju	2724		3
-napuštanju	541		2
+napuštanju	541		3
 naraciju	193		3
-narastaju	99		2
-naravoučeniju			2
-narazgovaraju			2
+narastaju	99		3
+naravoučeniju			3
+narazgovaraju			3
 naraštaju	163		4
-narezivanju			2
+narezivanju			3
 narečju	55		3
-naređaju			2
-naređenju	1691		2
-naređivanju			2
-naređuju	245		2
-naricanju	17		2
+naređaju			3
+naređenju	1691		3
+naređivanju			3
+naređuju	245		3
+naricanju	17		3
 narkolepsiju	14		3
-narugaju	32		2
-naručivanju	103		2
+narugaju	32		3
+naručivanju	103		3
 naručju	1232		2
 naručuju	593		2
-narušavaju	1319		2
-narušavanju	221		2
-nasađivanju			2
-nasađuju			2
-nasedaju	351		2
+narušavaju	1319		3
+narušavanju	221		3
+nasađivanju			3
+nasađuju			3
+nasedaju	351		3
 naseljavaju	1183		3
-naseljavanju	182		2
+naseljavanju	182		3
 naselju	11600		2
-naseljuju			2
+naseljuju			3
 nasilju	3585		2
 naslanjaju	245		4
-naslađuju	109		2
+naslađuju	109		3
 nasleđivanju	523		2
 nasleđuju	452		2
 naslikaju	53		4
@@ -2616,494 +2616,494 @@ naslućuju	204		2
 nasmeju	364		2
 nasmijavaju		J	3
 naspavaju	53		3
-naspremaju			2
-nasrtaju	43		2
-nastajanju	1266		2
+naspremaju			3
+nasrtaju	43		3
+nastajanju	1266		3
 nastaju	9636		3
-nastanjenju	10		2
+nastanjenju	10		3
 nastanjuju	589		2
-nastasiju			2
+nastasiju			3
 nastavljaju	7136		4
-nastavljanju	108		2
-nastojanju	2847		2
+nastavljanju	108		3
+nastojanju	2847		3
 nastradaju	137		3
 nastupaju	3879		3
-nastupanju	185		2
-nataliju			2
+nastupanju	185		3
+nataliju			3
 natapaju	57		3
 nateraju	1193		4
-nateruju			2
-natezanju	59		2
-naticanju			2
+nateruju			3
+natezanju	59		3
+naticanju			3
 natkriljuju	22		2
-natrapaju			2
-natrljaju	11		2
-natrpaju	29		2
-nauživaju	18		2
-navaljivanju	11		2
+natrapaju			3
+natrljaju	11		3
+natrpaju	29		3
+nauživaju	18		3
+navaljivanju	11		3
 navaljuju	107		2
-navešćuju			2
-navigaciju	1796		2
+navešćuju			3
+navigaciju	1796		3
 navijaju	1332		3
 navijanju	166		2
 navikavaju	315		3
-navikavanju	44		2
-navlačenju	20		2
-navodadžiju			2
-navođenju	156		2
+navikavanju	44		3
+navlačenju	20		3
+navodadžiju			3
+navođenju	156		3
 navraćaju	85		4
-navršavaju	65		2
-navršavanju			2
-nazadovanju	45		2
+navršavaju	65		3
+navršavanju			3
+nazadovanju	45		3
 nazdravljaju	75		4
 nazivaju	11836		3
-nazivanju	19		2
+nazivanju	19		3
 nazivlju	44		2
-naznačenju	34		2
-naznačuju	31		2
-načinju	12		2
-našminkaju	54		2
-nedelanju			2
+naznačenju	34		3
+naznačuju	31		3
+načinju	12		3
+našminkaju	54		3
+nedelanju			3
 nedelju	38210		3
 nedostaju	5068		3
-nedođiju	114		2
+nedođiju	114		3
 negaciju	346		3
-negdašnju	41		2
+negdašnju	41		3
 negiraju	1255		3
-negiranju	183		2
-negodovanju	71		2
+negiranju	183		3
+negodovanju	71		3
 negoduju	447		4
 neguju	2564		3
-neizvršenju	19		2
-nejedenju			2
-nekadanju			2
+neizvršenju	19		3
+nejedenju			3
+nekadanju			3
 nekadašnju	828		4
-nekretanju			2
-neljubavlju			2
+nekretanju			3
+neljubavlju			3
 nemaju	82646		3
 nemanju	22		3
-nemenjanju	13		2
-nemešanju	37		2
-nenapadanju	242		2
-nenasilju	72		2
-neosećaju			2
+nemenjanju	13		3
+nemešanju	37		3
+nenapadanju	242		3
+nenasilju	72		3
+neosećaju			3
 nepažnju	136		2
-neplaćanju	82		2
+neplaćanju	82		3
 nepogodniju			5
 nepostojanju	485		4
 nepoverenju	282		2
 nepoštenju	31		2
-nepoštovanju	269		2
+nepoštovanju	269		3
 neprijatelju	1474		5
-nepružanju			2
-nerazumevanju	268		2
-nerešavanju			2
+nepružanju			3
+nerazumevanju	268		3
+nerešavanju			3
 nerotkinju			4
 nerviraju	1190		3
-nerviranju	28		2
-nesaglasju	64		2
-nesaradnju	46		2
-neshvatanju	36		2
+nerviranju	28		3
+nesaglasju	64		3
+nesaradnju	46		3
+neshvatanju	36		3
 nesigurniju			5
-neslaganju	160		2
+neslaganju	160		3
 nesnosniju			4
-nespavanju	23		2
-nespokoju	14		2
-nestajanju	322		2
+nespavanju	23		3
+nespokoju	14		3
+nestajanju	322		3
 nestaju	3168		3
-nesticanju			2
+nesticanju			3
 nestrpljenju	43		3
-netoleranciju	300		2
-netrpljenju			2
-neurohirurgiju	172		2
+netoleranciju	300		3
+netrpljenju			3
+neurohirurgiju	172		3
 neurologiju	628		3
-neusvajanju	12		2
-neuzimanju			2
-neverovanju	23		2
-nevesinju			2
+neusvajanju	12		3
+neuzimanju			3
+neverovanju	23		3
+nevesinju			3
 nevolju	919		3
 neznanju	1162		2
 nećakinju			3
-nećkaju	47		2
+nećkaju	47		3
 nečiju	1567		3
-nečinjenju	45		2
-neđelju		J	2
-neširenju	78		2
-neželjenju			2
+nečinjenju	45		3
+neđelju		J	3
+neširenju	78		3
+neželjenju			3
 neženju	20		3
 nežniju	57		3
-nicanju	74		2
-nikoziju			2
-nivelaciju	128		2
-nizanju	40		2
-niziju	138		2
+nicanju	74		3
+nikoziju			3
+nivelaciju	128		3
+nizanju	40		3
+niziju	138		3
 ničiju	281		3
-nišliju			2
+nišliju			3
 ništariju			3
-njakanju			2
-njegovanju			2
+njakanju			3
+njegovanju			3
 njeguju			3
 nju	47731		1
-njuškaju	61		2
-njuškanju			2
+njuškaju	61		3
+njuškanju			3
 noju	30		2
 noktiju			3
-nominaciju	659		2
-nominuju	94		2
-normalizovanju	30		2
-normandiju			2
+nominaciju	659		3
+nominuju	94		3
+normalizovanju	30		3
+normandiju			3
 normiraju	38		3
-normiranju	39		2
+normiranju	39		3
 nosaju	32		3
 nostalgiju	535		3
-notifikuju			2
+notifikuju			3
 novajliju	75		3
-novačenju			2
+novačenju			3
 noviju	694		3
-novogodišnju	778		2
+novogodišnju	778		3
 novotariju	92		3
 noćašnju	15		3
 noćenju	79		2
-noćivaju			2
-nošenju	385		2
+noćivaju			3
+nošenju	385		3
 nošnju	512		2
-numeraciju	83		2
+numeraciju	83		3
 nunciju			2
-nutkaju	22		2
-nuđenju	44		2
+nutkaju	22		3
+nuđenju	44		3
 obaju	24		3
 obaraju	713		3
-obaranju	398		2
+obaranju	398		3
 obasipaju	169		4
-obasjanju			2
+obasjanju			3
 obasjavaju	132		3
-obavezuju	2112		2
+obavezuju	2112		3
 obaveštavaju	2226		3
-obaveštenju	599		2
+obaveštenju	599		3
 obavijaju	126		3
 obaviju	33		4
 obavljaju	13301		4
-obavljanju	2793		2
+obavljanju	2793		3
 obdukciju	316		3
-obedovanju	13		2
+obedovanju	13		3
 obeduju	77		4
 obeju	216		3
-obeležavaju	2034		2
+obeležavaju	2034		3
 obeležju	198		4
 obelježju			4
-obesmrćuju			2
-obezbeđenju	1453		2
-obezbeđivanju	1726		2
-obezbeđuju	7888		2
-obezličuju			2
+obesmrćuju			3
+obezbeđenju	1453		3
+obezbeđivanju	1726		3
+obezbeđuju	7888		3
+obezličuju			3
 obećaju	326		3
 obećanju	520		2
 obećavaju	2866		3
-obeštećenju	288		2
+obeštećenju	288		3
 obeštećuju	14		2
-obigraju			2
-obigravaju	26		2
+obigraju			3
+obigravaju	26		3
 obijaju	225		3
-obijanju	32		2
+obijanju	32		3
 obiju	186		3
 obiležju			4
 obilježju			4
 obilju	489		2
 obiluju	763		4
 obimniju	54		4
-obistinjuju	60		2
+obistinjuju	60		3
 obitavaju	432		3
-obitavanju	10		2
+obitavanju	10		3
 običaju	4163		4
 običavaju	27		3
 običniju			4
-objavljivanju	1476		2
+objavljivanju	1476		3
 objavljuju	5456		2
 objašnjavaju	5556		3
-objašnjavanju	277		2
+objašnjavanju	277		3
 objašnjenju	1047		2
-objedinjuju	398		2
-objektivizuju			2
-obladaju			2
-oblaganju	40		2
-oblačenju	337		2
+objedinjuju	398		3
+objektivizuju			3
+obladaju			3
+oblaganju	40		3
+oblačenju	337		3
 obligaciju	21		3
-oblikovanju	1266		2
+oblikovanju	1266		3
 oblikuju	1497		4
 oblizuju	33		2
 obličju	431		2
-obližnju	575		2
-obljubljuju			2
-oblučju			2
-obmanjivanju	93		2
+obližnju	575		3
+obljubljuju			3
+oblučju			3
+obmanjivanju	93		3
 obmanjuju	648		2
-obnaroduju	17		2
+obnaroduju	17		3
 obnavljaju	1347		3
-obnavljanju	935		2
-obnažuju			2
-obnovitelju			2
-obogaćenju	32		2
+obnavljanju	935		3
+obnažuju			3
+obnovitelju			3
+obogaćenju	32		3
 obogaćuju	530		2
-obolevaju	608		2
-obolevanju	92		2
-obolijevaju	25	J	2
-oboljenju			2
-oboljevaju			2
-oboljevanju			2
+obolevaju	608		3
+obolevanju	92		3
+obolijevaju	25	J	3
+oboljenju			3
+oboljevaju			3
+oboljevanju			3
 obožavaju	1985		3
-obožavanju	110		2
+obožavanju	110		3
 obožavatelju	10		4
 obraduju	597		4
-obrastaju			2
+obrastaju			3
 obrazovanju	14217		2
 obrazuju	2380		4
 obraćaju	3332		4
-obraćanju	3600		2
-obraćenju	31		2
+obraćanju	3600		3
+obraćenju	31		3
 obračunaju	535		3
 obračunavaju	977		3
-obrađivanju	78		2
+obrađivanju	78		3
 obrađuju	3211		2
-obremenjuju			2
-obrezivanju	32		2
+obremenjuju			3
+obrezivanju	32		3
 obrezuju	44		2
-obriju	49		2
+obriju	49		3
 obrtaju	15		4
-obrtanju	41		2
+obrtanju	41		3
 obrukaju	55		4
-obrušavaju	129		2
+obrušavaju	129		3
 obuhvataju	4986		4
-obuhvatanju			2
+obuhvatanju			3
 obuju	64		3
 obustavljaju	168		4
 obuvaju	44		3
 obuzdaju	311		3
 obuzdavaju	44		3
-obuzdavanju	99		2
+obuzdavanju	99		3
 obuzimaju	115		4
 obučavaju	906		3
-obučavanju	180		2
-obznanjuju	49		2
+obučavanju	180		3
+obznanjuju	49		3
 obzorju	92		2
-ocenjivanju	964		2
+ocenjivanju	964		3
 ocenjuju	3938		2
-ocrnjivanju	13		2
-ocrnjuju	45		2
+ocrnjivanju	13		3
+ocrnjuju	45		3
 ocrtaju	21		4
-ocrtavaju	227		2
-odabiraju			2
-odabiranju	88		2
-odagnaju	91		2
+ocrtavaju	227		3
+odabiraju			3
+odabiranju	88		3
+odagnaju	91		3
 odaju	1835		3
-odapinjanju			2
-odapinju	28		2
-odavanju	61		2
+odapinjanju			3
+odapinju	28		3
+odavanju	61		3
 odazivaju	358		3
-odašiljanju	13		2
-odašilju	92		2
-odbacivanju	387		2
+odašiljanju	13		3
+odašilju	92		3
+odbacivanju	387		3
 odbacuju	1576		2
 odbijaju	3517		3
 odbijanju	812		2
 odbiju	1534		3
-odbljeskuju			2
-odbrojavaju	78		2
+odbljeskuju			3
+odbrojavaju	78		3
 odbrojavanju	18		2
-odelenju	340		2
+odelenju	340		3
 odeljenju	8720		2
 odeljuju	11		2
 odevaju	86		3
-odevanju	296		2
-odgajaju	387		2
-odgajanju	234		2
-odgledaju	283		2
+odevanju	296		3
+odgajaju	387		3
+odgajanju	234		3
+odgledaju	283		3
 odgoju	347		3
-odgonetaju			2
-odgonetanju	87		2
+odgonetaju			3
+odgonetanju	87		3
 odgovaraju	12875		3
-odgovaranju	105		2
-odguruju	13		2
+odgovaranju	105		3
+odguruju	13		3
 odigraju	1364		4
-odigravaju	708		2
-odigravanju	56		2
+odigravaju	708		3
+odigravanju	56		3
 odiseju	266		2
 odjavljuju	54		2
 odjekuju	290		2
-odlaganju	712		2
-odlaženju	23		2
+odlaganju	712		3
+odlaženju	23		3
 odlikovanju	68		2
 odlikuju	2377		4
-odlivaju			2
+odlivaju			3
 odlutaju	121		3
-odlučivanju	2056		2
+odlučivanju	2056		3
 odlučniju	77		4
 odlučuju	8764		2
-odmahuju	111		2
+odmahuju	111		3
 odmaraju	821		3
-odmaranju	43		2
-odmenjuju			2
+odmaranju	43		3
+odmenjuju			3
 odmeravaju	236		3
-odmeravanju	317		2
-odmetanju			2
+odmeravanju	317		3
+odmetanju			3
 odmotavaju	37		3
-odmrzavaju	14		2
-odmrzavanju	89		2
-odnošaju			2
-odnošenju	101		2
+odmrzavaju	14		3
+odmrzavanju	89		3
+odnošaju			3
+odnošenju	101		3
 odobravaju	1939		3
-odobravanju	592		2
+odobravanju	592		3
 odobrenju	924		2
 odolevaju	307		3
-odomaćuju			2
-odrasliju			2
+odomaćuju			3
+odrasliju			3
 odrastaju	1028		3
-odrastanju	975		2
+odrastanju	975		3
 odrađuju	442		2
 odražavaju	1999		3
-odražavanju	19		2
-odreaguju	202		2
-odremaju	18		2
+odražavanju	19		3
+odreaguju	202		3
+odremaju	18		3
 određeniju	10		4
-određenju	399		2
+određenju	399		3
 određivanju	2107		2
 određuju	5775		2
-odrešenju			2
-odrešuju			2
-odricanju	322		2
-održanju	376		2
+odrešenju			3
+odrešuju			3
+odricanju	322		3
+održanju	376		3
 održavaju	12636		4
 održavanju	6779		4
 odsecaju	126		3
-odsecanju	17		2
-odsedaju	167		2
-odseljavaju			2
-odsjaju	71		2
-odskakuju			2
-odslikaju			2
-odsluženju	342		2
-odspavaju	52		2
-odstojanju	330		2
+odsecanju	17		3
+odsedaju	167		3
+odseljavaju			3
+odsjaju	71		3
+odskakuju			3
+odslikaju			3
+odsluženju	342		3
+odspavaju	52		3
+odstojanju	330		3
 odstranjuju	346		2
-odstreljuju			2
+odstreljuju			3
 odstupaju	606		3
-odstupanju	164		2
-odsustvuju	117		2
-odsviraju	90		2
+odstupanju	164		3
+odsustvuju	117		3
+odsviraju	90		3
 odudaraju	265		4
-odumiranju	117		2
-odupiranju	31		2
-odustajanju	292		2
+odumiranju	117		3
+odupiranju	31		3
+odustajanju	292		3
 odustaju	1742		3
-oduvaju	59		2
+oduvaju	59		3
 oduzimaju	1467		4
-oduzimanju	1141		2
-oduzimlju			2
-oduševljavaju	424		2
+oduzimanju	1141		3
+oduzimlju			3
+oduševljavaju	424		3
 oduševljenju	234		2
-odužuju	36		2
+odužuju	36		3
 odvajaju	1654		3
-odvajanju	475		2
-odvaljivanju			2
-odvaljuju			2
-odvažuju			2
-odvezuju			2
+odvajanju	475		3
+odvaljivanju			3
+odvaljuju			3
+odvažuju			3
+odvezuju			3
 odvijaju	4477		3
-odvijanju	152		2
-odvikavaju	56		2
-odvikavanju	183		2
-odvlačenju			2
-odvođenju	95		2
+odvijanju	152		3
+odvikavaju	56		3
+odvikavanju	183		3
+odvlačenju			3
+odvođenju	95		3
 odvratniju			4
 odvraćaju	246		3
-odvraćanju	35		2
-odzivaju			2
+odvraćanju	35		3
+odzivaju			3
 odzvanjaju	309		3
-odšetaju	15		2
-odškoluju			2
-odštampaju	260		2
-odžakliju			2
+odšetaju	15		3
+odškoluju			3
+odštampaju	260		3
+odžakliju			3
 ofarbaju	113		3
-ofeliju			2
-ofucaju			2
-oglašavaju	1046		2
-oglašavanju	1068		2
+ofeliju			3
+ofucaju			3
+oglašavaju	1046		3
+oglašavanju	1068		3
 ogledaju	1565		3
-ogledanju	16		2
-oglušuju	120		2
+ogledanju	16		3
+oglušuju	120		3
 ognju	611		2
-ogorčavaju			2
-ogorčenju	45		2
-ogorčuju			2
+ogorčavaju			3
+ogorčenju	45		3
+ogorčuju			3
 ogovaraju	340		3
-ogovaranju	55		2
+ogovaranju	55		3
 ograničavaju	1441		3
-ograničavanju	415		2
+ograničavanju	415		3
 ograničenju	620		2
 ograđuju	251		2
-ograšju			2
+ograšju			3
 ogreju	73		3
-ogrešenju			2
-ogrešuju			2
-ohrabrenju	30		2
+ogrešenju			3
+ogrešuju			3
+ohrabrenju	30		3
 ohrabruju	908		2
-oivičavaju			2
+oivičavaju			3
 ojačaju	1106		3
 ojačavaju	186		3
-ojačavanju	85		2
-okajavaju			2
-okaju	38		2
-okaljaju	20		2
+ojačavanju	85		3
+okajavaju			3
+okaju	38		3
+okaljaju	20		3
 okivaju	29		3
-okivanju			2
+okivanju			3
 oklagiju	64		3
 oklevaju	260		3
-oklevanju	29		2
-oklevetaju	31		2
-okomljuju			2
+oklevanju	29		3
+oklevetaju	31		3
+okomljuju			3
 okončaju	738		3
-okončanju	1807		2
+okončanju	1807		3
 okončavaju	92		3
-okopaju			2
-okopavaju	44		2
-okopavanju	16		2
-okretanju	276		2
-okrilju	546		2
+okopaju			3
+okopavaju	44		3
+okopavanju	16		3
+okretanju	276		3
+okrilju	546		3
 okrivljuju	443		2
-okružavaju			2
+okružavaju			3
 okruženju	23394		2
-okružju	86		2
+okružju	86		3
 okružuju	2261		2
 okršaju	716		4
 oksidaciju	211		3
-oksidiraju			2
-oktaviju			2
+oksidiraju			3
+oktaviju			3
 okuju	73		2
 okupaciju	1108		3
-okupaju	217		2
-okupiraju	596		2
+okupaju	217		3
+okupiraju	596		3
 okupljaju	3573		3
-okupljanju	1003		2
-okušaju	253		2
-okušanju			2
-okušavaju	21		2
-okvalifikuju	17		2
-olajavaju	34		2
-olajavanju			2
+okupljanju	1003		3
+okušaju	253		3
+okušanju			3
+okušavaju	21		3
+okvalifikuju	17		3
+olajavaju	34		3
+olajavanju			3
 olakšaju	1104		3
 olakšavaju	1762		3
-olakšavanju	170		2
+olakšavanju	170		3
 oličavaju	172		3
 oluju	1051		2
 omalovažavaju	358		3
 omamljuju	20		2
 omanju	113		3
-omasovljenju	107		2
-omađijaju			2
+omasovljenju	107		3
+omađijaju			3
 omekšaju	324		3
-omekšavanju	26		2
+omekšavanju	26		3
 ometaju	1683		3
-ometanju	67		2
-omeđuju	39		2
+ometanju	67		3
+omeđuju	39		3
 omogućavaju	13343		3
 omogućuju	3117		2
 omotaju			3
@@ -3113,265 +3113,265 @@ onemogućuju	181		2
 onkologiju	1105		3
 ontologiju	81		3
 opadaju	570		4
-opadanju	953		2
-opakliju			2
-opaljuju	22		2
-opanjkaju			2
-opanjkavaju			2
-opasniju			2
+opadanju	953		3
+opakliju			3
+opaljuju	22		3
+opanjkaju			3
+opanjkavaju			3
+opasniju			3
 opasuju	59		2
 opatiju	78		3
-opažaju	237		2
-opažanju	157		2
+opažaju	237		3
+opažanju	157		3
 opciju	11153		3
 operaciju	6069		3
-opevaju	117		2
-opevavaju			2
-opevavanju			2
+opevaju	117		3
+opevavaju			3
+opevavanju			3
 ophodnju			2
-ophođenju	464		2
+ophođenju	464		3
 opijaju	193		3
-opijanju	54		2
+opijanju	54		3
 opiju	51		3
 opipaju	60		4
 opipavaju	26		3
-opiranju	58		2
-opisivanju	268		2
+opiranju	58		3
+opisivanju	268		3
 opisuju	3611		2
-opjevanju		J	2
-opkoljavaju	89		2
-oplakivanju	10		2
+opjevanju		J	3
+opkoljavaju	89		3
+oplakivanju	10		3
 oplakuju	125		2
-oplemenjenju			2
+oplemenjenju			3
 oplemenjuju	259		2
 opljačkaju	451		4
 oplodnju	1003		2
 oplođuju	38		2
 opominju	537		3
 oponašaju	424		3
-oponašanju	75		2
+oponašanju	75		3
 oponiraju	22		3
 oporavljaju	472		4
-oporezivanju	481		2
+oporezivanju	481		3
 oporezuju	599		2
-oporicanju			2
+oporicanju			3
 opoziciju	3727		3
-opozivanju	14		2
+opozivanju	14		3
 opravdaju	1095		3
 opravdanju	86		2
-opravdavaju	1128		2
+opravdavaju	1128		3
 opraštaju	458		3
-opraštanju	84		2
-oprašuju	89		2
-opredeljenju	1049		2
+opraštanju	84		3
+oprašuju	89		3
+opredeljenju	1049		3
 opredeljuju	1620		2
 opremaju	236		3
-opremanju	850		2
-oprljuju			2
-oprobaju	814		2
+opremanju	850		3
+oprljuju			3
+oprobaju	814		3
 oproštaju	169		4
 opsedaju	335		3
 opservatoriju	125		3
 opsesiju	284		3
-opsežniju			2
-opslužuju	339		2
-opstajanju	49		2
-opstaju	1409		2
+opsežniju			3
+opslužuju	339		3
+opstajanju	49		3
+opstaju	1409		3
 opstrukciju	759		3
 opsuju	44		2
-opterećenju	662		2
+opterećenju	662		3
 opterećuju	1620		2
-opticaju	1939		2
-optrčavaju			2
-optuživanju	40		2
+opticaju	1939		3
+optrčavaju			3
+optuživanju	40		3
 optužuju	2910		2
-opustošenju			2
+opustošenju			3
 opuštaju	531		3
-opuštanju	280		2
-opčaraju			2
+opuštanju	280		3
+opčaraju			3
 opširniju	45		4
-opštenju	221		2
-opštiju			2
+opštenju	221		3
+opštiju			3
 oranju	78		2
-orašju			2
-orbitiraju	93		2
-ordiju			2
-ordinaciju	862		2
-ordiniraju	94		2
+orašju			3
+orbitiraju	93		3
+ordiju			3
+ordinaciju	862		3
+ordiniraju	94		3
 organizaciju	16319		3
-organizovanju	2995		2
+organizovanju	2995		3
 organizuju	14505		4
-orgijaju	43		2
+orgijaju	43		3
 orgiju	39		3
-orhideju	43		2
-orijentaciju		M	2
-orođavaju			2
-orođavanju			2
-ortakinju			2
-ortoepiju			2
+orhideju	43		3
+orijentaciju		M	3
+orođavaju			3
+orođavanju			3
+ortakinju			3
+ortoepiju			3
 ortopediju	187		3
 oružaju	10		3
 oružju	1440		2
-osamljenju			2
-osamljivanju			2
-osamljuju	21		2
-osamostaljivanju	154		2
-osciliraju	121		2
-osciliranju			2
-osedlaju			2
+osamljenju			3
+osamljivanju			3
+osamljuju	21		3
+osamostaljivanju	154		3
+osciliraju	121		3
+osciliranju			3
+osedlaju			3
 osetljiviju	26		4
 osetniju	131		4
 osećaju	13845		4
-osećanju	1008		2
+osećanju	1008		3
 osiguraju	1310		3
 osiguranju	4996		2
 osiguravaju	1189		3
-osipaju	96		2
-osipanju	39		2
-oskudevaju	136		2
-oskudevanju			2
-oslabljuju	51		2
+osipaju	96		3
+osipanju	39		3
+oskudevaju	136		3
+oskudevanju			3
+oslabljuju	51		3
 oslanjaju	2442		4
-oslanjanju	161		2
-oslepljuju			2
-oslikaju	78		2
-oslikavaju	805		2
+oslanjanju	161		3
+oslepljuju			3
+oslikaju	78		3
+oslikavaju	805		3
 oslobađaju	1739		3
-oslobađanju	1112		2
+oslobađanju	1112		3
 oslobođenju	994		2
-oslovljavaju	265		2
-oslovljavanju	24		2
-osluškivanju	38		2
-osluškuju	251		2
+oslovljavaju	265		3
+oslovljavanju	24		3
+osluškivanju	38		3
+osluškuju	251		3
 osmatraju	111		3
-osmatranju	86		2
-osmehuju	141		2
-osmeljuju			2
-osmeškuju			2
-osmogodišnju	195		2
-osnaženju	12		2
-osnažuju	145		2
+osmatranju	86		3
+osmehuju	141		3
+osmeljuju			3
+osmeškuju			3
+osmogodišnju	195		3
+osnaženju	12		3
+osnažuju	145		3
 osnivaju	1820		3
-osnivanju	5511		2
+osnivanju	5511		3
 osnuju	1105		2
 osoblju	1350		2
-osoju			2
-osoljavanju			2
+osoju			3
+osoljavanju			3
 osporavaju	1170		3
-osporavanju	171		2
+osporavanju	171		3
 osrednju	68		3
-ostajanju	59		2
+ostajanju	59		3
 ostaju	16627		3
 ostavljaju	6338		4
-ostavljanju	109		2
-ostoju			2
-ostvarenju	4002		2
-ostvarivanju	5391		2
+ostavljanju	109		3
+ostoju			3
+ostvarenju	4002		3
+ostvarivanju	5391		3
 ostvaruju	8227		2
-osujećivanju			2
-osujećuju			2
+osujećivanju			3
+osujećuju			3
 osunčaju			3
-osuđivanju	56		2
+osuđivanju	56		3
 osuđuju	1356		2
 osvajaju	2011		3
 osvajanju	1795		2
-osvedočavaju			2
-osvedočenju			2
-osvedočuju			2
-osvetljavaju	474		2
-osvetljavanju	134		2
-osvetljenju	647		2
-osvetljuju	29		2
+osvedočavaju			3
+osvedočenju			3
+osvedočuju			3
+osvetljavaju	474		3
+osvetljavanju	134		3
+osvetljenju	647		3
+osvetljuju	29		3
 osvećuju	97		2
-osvešćuju	33		2
+osvešćuju	33		3
 osvežavaju	295		3
-osvežavanju	75		2
-osvrtanju			2
+osvežavanju	75		3
+osvrtanju			3
 otapaju	54		3
-otcepljenju	376		2
+otcepljenju	376		3
 oteraju	593		4
-otežaju	215		2
-otežavaju	1438		2
+otežaju	215		3
+otežavaju	1438		3
 otimaju	2215		4
-otimanju	360		2
-otimlju	14		2
-otiskuju	45		2
-otkazivanju	189		2
+otimanju	360		3
+otimlju	14		3
+otiskuju	45		3
+otkazivanju	189		3
 otkazuju	329		2
 otkidaju	155		3
 otklanjaju	820		4
-otklanjanju	1175		2
-otključaju	105		2
-otključavaju	116		2
+otklanjanju	1175		3
+otključaju	105		3
+otključavaju	116		3
 otkopaju	48		3
 otkopavaju	48		3
-otkopavanju	127		2
-otkopčaju	11		2
-otkopčavaju	13		2
-otkotrljaju			2
+otkopavanju	127		3
+otkopčaju	11		3
+otkopčavaju	13		3
+otkotrljaju			3
 otkriju	4087		3
 otkrivaju	5363		3
-otkrivanju	2492		2
-otkrivenju	179		2
-otkrovenju	170		2
-otkucaju	102		2
-otkucavaju	60		2
-otkupljuju	646		2
-otopljavanju	76		2
+otkrivanju	2492		3
+otkrivenju	179		3
+otkrovenju	170		3
+otkucaju	102		3
+otkucavaju	60		3
+otkupljuju	646		3
+otopljavanju	76		3
 otpadaju	501		4
-otpadanju	13		2
-otpevaju	138		2
+otpadanju	13		3
+otpevaju	138		3
 otpiju			3
-otpisivanju	38		2
+otpisivanju	38		3
 otpisuju	193		2
-otplaćuju	831		2
+otplaćuju	831		3
 otplivaju	20		4
-otpočinju	145		2
-otpremaju	67		2
+otpočinju	145		3
+otpremaju	67		3
 otputuju	442		2
 otpuštaju	874		3
-otpuštanju	337		2
-otrcavaju			2
-otresaju	32		2
-otrežnjuju			2
+otpuštanju	337		3
+otrcavaju			3
+otresaju	32		3
+otrežnjuju			3
 otruju	111		2
-otupljuju	38		2
-otuđenju	282		2
-otuđivanju	40		2
+otupljuju	38		3
+otuđenju	282		3
+otuđivanju	40		3
 otuđuju	151		2
 otvaraju	8896		3
-otvaranju	10093		2
+otvaranju	10093		3
 otvoreniju	49		5
 otvorenju	68		2
-ovaploćenju	111		2
+ovaploćenju	111		3
 ovaploćuju	20		2
 ovdašnju	416		3
 ovenčaju			3
 ovenčavaju			3
 overavaju	323		3
-overavanju	62		2
+overavanju	62		3
 ovladaju	701		3
 ovladavaju	109		3
-ovladavanju	144		2
-ovlašćenju	364		2
+ovladavanju	144		3
+ovlašćenju	364		3
 ovlašćuju	65		2
-ovogodišnju	1334		2
-ovulaciju	234		2
-ovčiju	38		2
+ovogodišnju	1334		3
+ovulaciju	234		3
+ovčiju	38		3
 ovčju			2
-ozaruju			2
+ozaruju			3
 ozbiljniju	1143		4
-ozdravljenju	299		2
-ozelenjuju			2
+ozdravljenju	299		3
+ozelenjuju			3
 ozleđuju			2
 ozljeđuju		J	2
 označavaju	2224		3
-označavanju	166		2
-označuju	54		2
+označavanju	166		3
+označuju	54		3
 ozračju	93		2
-ozvaničenju	19		2
-ozvučavaju			2
-ozvučenju	58		2
+ozvaničenju	19		3
+ozvučavaju			3
+ozvučenju	58		3
 očajanju	380		2
 očajavaju	75		3
 očaju	383		3
@@ -3379,138 +3379,138 @@ očaraju	36		3
 očaravaju	68		3
 očekivanju	1640		2
 očekuju	24454		2
-očerupaju	36		2
+očerupaju	36		3
 očiju	13237		3
-očijukaju	15		2
-očitaju	107		2
-očitavaju	268		2
-očitavanju	79		2
+očijukaju	15		3
+očitaju	107		3
+očitavaju	268		3
+očitavanju	79		3
 očituju	121		4
 očuvaju	1104		3
-očuvanju	6305		2
+očuvanju	6305		3
 ošišaju	71		3
-oštećenju	269		2
-oštećivanju	10		2
+oštećenju	269		3
+oštećivanju	10		3
 oštećuju	938		2
 oštriju	238		3
-ožalošćuju			2
+ožalošćuju			3
 oživljavaju	500		3
-oživljavanju	539		2
-oživljenju			2
-pacifikaciju	50		2
+oživljavanju	539		3
+oživljenju			3
+pacifikaciju	50		3
 pacijentkinju	169		4
 padaju	7111		3
-padanju	96		2
-paelju			2
-paginaciju	20		2
+padanju	96		3
+paelju			3
+paginaciju	20		3
 pahulju	35		3
 paju			2
-pakovanju	3000		2
-paktiraju	23		2
+pakovanju	3000		3
+paktiraju	23		3
 pakuju	970		3
-palacaju			2
-paljenju	417		2
+palacaju			3
+paljenju	417		3
 pametniju	75		4
-pametuju	220		2
+pametuju	220		3
 pamćenju	1085		3
-pandemiju	229		2
-paniraju			2
-panjkaju			2
+pandemiju	229		3
+paniraju			3
+panjkaju			3
 panju	181		2
-panoniju			2
-panteliju			2
+panoniju			3
+panteliju			3
 papagaju	50		3
-papaju	41		2
-papirologiju	374		2
+papaju	41		3
+papirologiju	374		3
 paradiraju	321		3
-paraju	123		2
-paralizuju	14		2
+paraju	123		3
+paralizuju	14		3
 paranoju	264		2
-parenju	87		2
+parenju	87		3
 pariraju	517		3
-pariranju	10		2
+pariranju	10		3
 parkiraju	941		3
-parkiranju	365		2
+parkiranju	365		3
 parodiju	272		3
-parodiraju	24		2
-parohiju	524		2
-parsiranju			2
+parodiraju	24		3
+parohiju	524		3
+parsiranju			3
 participaciju	735		3
-partiju	6824		2
+partiju	6824		3
 pasju	13		2
-pasuju			2
+pasuju			3
 pasulju	153		2
-patišpanju			2
+patišpanju			3
 patnju	1786		2
 patologiju	579		3
-patriciju			2
-patroliraju	221		2
+patriciju			3
+patroliraju	221		3
 pačju			2
-paženju			2
+paženju			3
 pažnju	61385		2
 pecaju	357		3
-pecanju	368		2
-peckaju	54		2
+pecanju	368		3
+peckaju	54		3
 pedagogiju	518		3
-pedanteriju			2
-pedijatriju	204		2
+pedanteriju			3
+pedijatriju	204		3
 pedofiliju	304		3
 peglaju	225		3
 penetraciju	294		3
 penjanju	317		2
 penju	890		2
-pentraju	28		2
-pentranju			2
-penušaju			2
+pentraju	28		3
+pentranju			3
+penušaju			3
 penziju	12831		3
-penzionisanju	214		2
+penzionisanju	214		3
 peraju	31		2
 percepciju	1440		3
-perfekciju	61		2
-perforaciju	34		2
-periferiju	420		2
-perivoju			2
+perfekciju	61		3
+perforaciju	34		3
+periferiju	420		3
+perivoju			3
 perju	84		2
-persiju			2
-personalizaciju	193		2
+persiju			3
+personalizaciju	193		3
 personifikaciju	93		3
 perverziju	57		3
-perziju			2
+perziju			3
 pesnikinju	105		4
-pesničenju			2
-peticiju	2678		2
+pesničenju			3
+peticiju	2678		3
 petljaju	199		3
-petljanju			2
+petljanju			3
 petlju	1193		2
-petoboju	19		2
-petogodišnju	271		2
-petriju			2
-petroleju	18		2
+petoboju	19		3
+petogodišnju	271		3
+petriju			3
+petroleju	18		3
 pevaju	4031		3
-pevanju	748		2
+pevanju	748		3
 pečenju	186		2
-pečuju			2
+pečuju			3
 pešadiju	172		3
-pešačenju	57		2
-piceriju	119		2
+pešačenju	57		3
+piceriju	119		3
 pigmentaciju	99		3
-pijančenju			2
+pijančenju			3
 piju	6183		2
-pijuckaju	107		2
-pikiraju	38		2
-piniju			2
-pinokiju			2
-pipaju	106		2
-pipkaju	49		2
-pirateriju	344		2
-pireju			2
-pirovanju			2
-piruju	11		2
+pijuckaju	107		3
+pikiraju	38		3
+piniju			3
+pinokiju			3
+pipaju	106		3
+pipkaju	49		3
+pirateriju	344		3
+pireju			3
+pirovanju			3
+piruju	11		3
 pisaniju	98		4
-pisanju	7417		2
-piskaraju	34		2
-piskaranju	12		2
-pistolju			2
+pisanju	7417		3
+piskaraju	34		3
+piskaranju	12		3
+pistolju			3
 pitaju	10679		3
 pitanju	130353		2
 pišaju	60		3
@@ -3518,272 +3518,272 @@ pištolju	154		2
 pladnju	42		2
 plakanju	47		3
 plameniju			4
-plamsaju			2
-planinarenju	130		2
+plamsaju			3
+planinarenju	130		3
 planiraju	7887		3
-planiranju	4555		2
+planiranju	4555		3
 plasiraju	3517		3
-plasiranju	215		2
+plasiranju	215		3
 plavlju			2
 plaćaju	23686		3
-plaćanju	1918		2
-plašenju	21		2
-plediraju	34		2
-plejboju	36		2
+plaćanju	1918		3
+plašenju	21		3
+plediraju	34		3
+plejboju	36		3
 pleju			2
 plemkinju			3
-plesanju	16		2
-pletenju	60		2
+plesanju	16		3
+pletenju	60		3
 plivaju	1210		3
 plivanju	1126		3
 pljačkaju	1382		3
-pljačkanju	141		2
-pljeskaju			2
-pljuckaju	40		2
+pljačkanju	141		3
+pljeskaju			3
+pljuckaju	40		3
 pljuju	2080		2
-pljuskaju	10		2
-pljuvanju	167		2
+pljuskaju	10		3
+pljuvanju	167		3
 plodniju	16		3
-plovljenju			2
+plovljenju			3
 plutaju	338		3
-pneumoniju	63		2
+pneumoniju	63		3
 pobacaju	41		3
 pobačaju	46		4
-pobeđivanju	21		2
+pobeđivanju	21		3
 pobeđuju	1075		2
 pobijaju	173		3
-pobijanju	46		2
+pobijanju	46		3
 pobiju	753		3
-pobolevanju			2
+pobolevanju			3
 poboljšaju	2857		3
 poboljšanju	5766		2
 poboljšavaju	1874		3
-pobrkaju	50		2
-pobuđivanju			2
+pobrkaju	50		3
+pobuđivanju			3
 pobuđuju	275		2
-pocepaju	147		2
-pocrkaju	100		2
-pocupkuju	10		2
-podaju	65		2
+pocepaju	147		3
+pocrkaju	100		3
+pocupkuju	10		3
+podaju	65		3
 podbadaju	14		3
-podbadanju			2
-podbijaju			2
-podcenjuju	77		2
+podbadanju			3
+podbijaju			3
+podcenjuju	77		3
 podešavaju	445		3
-podešavanju	621		2
-podgorju	24		2
-podgrevaju	176		2
-podiju	12		2
-podilaženju	27		2
-podivljaju	52		2
-podizanju	3964		2
-podliju			2
-podmeniju			2
-podmetanju	100		2
-podmiguju			2
-podmirenju	17		2
-podmiruju	186		2
-podmićivanju	97		2
+podešavanju	621		3
+podgorju	24		3
+podgrevaju	176		3
+podiju	12		3
+podilaženju	27		3
+podivljaju	52		3
+podizanju	3964		3
+podliju			3
+podmeniju			3
+podmetanju	100		3
+podmiguju			3
+podmirenju	17		3
+podmiruju	186		3
+podmićivanju	97		3
 podmićuju	116		2
-podmlađuju	86		2
+podmlađuju	86		3
 podmorju	102		2
-podnaduju			2
+podnaduju			3
 podneblju	655		2
-podnošenju	539		2
-podnošnju			2
+podnošenju	539		3
+podnošnju			3
 podnožju	2650		2
-podolju			2
-podopciju			2
-podosoju			2
-podozrenju	17		2
+podolju			3
+podopciju			3
+podosoju			3
+podozrenju	17		3
 podrazumevaju	6119		3
-podrezuju			2
-podređuju	116		2
-podrhtavaju	90		2
-podrigivanju			2
-podriguju			2
-podriju	76		2
-podrinju			2
-podrivaju	361		2
-podrivanju	75		2
+podrezuju			3
+podređuju	116		3
+podrhtavaju	90		3
+podrigivanju			3
+podriguju			3
+podriju	76		3
+podrinju			3
+podrivaju	361		3
+podrivanju	75		3
 podrobniju	37		4
 području	32127		2
 podržavaju	11394		4
-podržavanju	229		2
-podsecaju			2
+podržavanju	229		3
+podsecaju			3
 podsećaju	6073		4
-podsećanju	163		2
-podsmevaju	303		2
-podsmevanju	16		2
-podsticaju	285		2
-podsticanju	1175		2
-podstrekavaju			2
+podsećanju	163		3
+podsmevaju	303		3
+podsmevanju	16		3
+podsticaju	285		3
+podsticanju	1175		3
+podstrekavaju			3
 podsuknju			3
 podudaraju	753		4
-podunavlju	621		2
+podunavlju	621		3
 poduzimaju	86		4
 podučavaju	362		3
-podučavanju	214		2
-podušju			2
-podvajanju	10		2
+podučavanju	214		3
+podušju			3
+podvajanju	10		3
 podvaljuju	60		2
-podvezuju			2
-podvikuju			2
-podvlačenju	13		2
-podvorenju			2
-podvrgavaju	471		2
+podvezuju			3
+podvikuju			3
+podvlačenju	13		3
+podvorenju			3
+podvrgavaju	471		3
 podzemlju	433		2
-podčinjenju			2
-podšišaju			2
-poentiraju	147		2
-poentiranju	13		2
-poetizaciju			2
+podčinjenju			3
+podšišaju			3
+poentiraju	147		3
+poentiranju	13		3
+poetizaciju			3
 poeziju	3759		3
-poganiju			2
+poganiju			3
 pogađaju	1527		3
-pogađanju	53		2
+pogađanju	53		3
 pogibaju			3
-pogibiju	432		2
-poginju			2
+pogibiju	432		3
+poginju			3
 poglavlju	2559		2
 pogledaju	5377		4
-pognaju			2
-pognjurenju			2
+pognaju			3
+pognjurenju			3
 pogodniju	30		4
-pogoduju	771		2
-pogoršaju	270		2
-pogoršanju	243		2
-pogoršavaju	607		2
-pogrebenju			2
-pogubljenju	109		2
-pogubljuju	15		2
-poguraju	147		2
-poharaju	26		2
-pohađaju	3572		2
-pohađanju	206		2
+pogoduju	771		3
+pogoršaju	270		3
+pogoršanju	243		3
+pogoršavaju	607		3
+pogrebenju			3
+pogubljenju	109		3
+pogubljuju	15		3
+poguraju	147		3
+poharaju	26		3
+pohađaju	3572		3
+pohađanju	206		3
 pohitaju	36		4
-pohranjuju	94		2
+pohranjuju	94		3
 pohvaljuju	47		2
-pohvataju	135		2
-poigraju	125		2
-poigravaju	227		2
-poigravanju	81		2
+pohvataju	135		3
+poigraju	125		3
+poigravaju	227		3
+poigravanju	81		3
 poimaju	85		4
-poimanju	855		2
-poispadaju	21		2
-poistovećuju	469		2
-pojanju	117		2
-pojavljivanju	388		2
+poimanju	855		3
+poispadaju	21		3
+poistovećuju	469		3
+pojanju	117		3
+pojavljivanju	388		3
 pojavljuju	11786		2
 pojačaju	926		3
-pojačanju	141		2
+pojačanju	141		3
 pojačavaju	1241		3
-pojačavanju	87		2
-pojenju			2
+pojačavanju	87		3
+pojenju			3
 poju	113		2
-pokajanju	443		2
-pokaju	240		2
-pokapaju	16		2
+pokajanju	443		3
+pokaju	240		3
+pokapaju	16		3
 pokazatelju	173		4
-pokazivanju	180		2
+pokazivanju	180		3
 pokazuju	33027		2
 pokidaju	76		4
 poklanjaju	1347		4
-poklapaju	1628		2
-poklapanju	29		2
-pokljucaju			2
-poklonjenju	64		2
-pokoju	289		2
-pokolebaju	100		2
-pokolenju	67		2
-pokoljenju			2
+poklapaju	1628		3
+poklapanju	29		3
+pokljucaju			3
+poklonjenju	64		3
+pokoju	289		3
+pokolebaju	100		3
+pokolenju	67		3
+pokoljenju			3
 pokolju	276		3
 pokopaju	57		3
 pokoravaju	277		3
-pokoravanju	64		2
-pokorenju			2
-pokradaju			2
-pokretanju	2293		2
+pokoravanju	64		3
+pokorenju			3
+pokradaju			3
+pokretanju	2293		3
 pokriju	1562		3
 pokrivaju	4031		3
-pokrivanju	240		2
-pokrštenju			2
-pokucaju	60		2
-pokuljaju			2
+pokrivanju	240		3
+pokrštenju			3
+pokucaju	60		3
+pokuljaju			3
 pokušaju	10978		4
 pokušavaju	15766		3
-polaganju	882		2
-polarizuju			2
+polaganju	882		3
+polarizuju			3
 polaskaju			4
-polemisanju			2
-poletanju	147		2
+polemisanju			3
+poletanju	147		3
 policiju	9628		3
-polifoniju	24		2
+polifoniju	24		3
 poligamiju	50		3
 poliju	39		3
-polimlju			2
-poliranju	39		2
-politizuju	73		2
-polivaju			2
-poljakinju			2
+polimlju			3
+poliranju	39		3
+politizuju	73		3
+polivaju			3
+poljakinju			3
 polju	23925		2
-poljuljaju	64		2
+poljuljaju	64		3
 položaju	14629		4
-položenju			2
-polupaju	41		2
-pomaganju	476		2
-pomaljaju	121		2
-pomamniju			2
-pomanjkanju	54		2
-pomazanju			2
-pomazuju			2
-pomeraju	1686		2
-pomeranju	405		2
-pometnju	975		2
+položenju			3
+polupaju	41		3
+pomaganju	476		3
+pomaljaju	121		3
+pomamniju			3
+pomanjkanju	54		3
+pomazanju			3
+pomazuju			3
+pomeraju	1686		3
+pomeranju	405		3
+pometnju	975		3
 pomešaju	312		3
-pomilovanju	113		2
+pomilovanju	113		3
 pomiluju	46		4
-pominjanju	146		2
-pominju	6330		2
-pomirenju	1613		2
+pominjanju	146		3
+pominju	6330		3
+pomirenju	1613		3
 pomišljaju	329		3
 pomišlju	73		3
 pomnju			2
-pomoravlju	653		2
-pompeju			2
-pomračenju	88		2
-pomračuju	28		2
-pomutnju	14		2
-pomućuju			2
+pomoravlju	653		3
+pompeju			3
+pomračenju	88		3
+pomračuju	28		3
+pomutnju	14		3
+pomućuju			3
 ponadaju	25		3
-ponajbolju			2
+ponajbolju			3
 ponavljaju	4096		3
-ponavljanju	458		2
+ponavljanju	458		3
 ponašaju	8331		3
 ponašanju	6741		2
 ponestaju	43		3
 poniju	11		3
-poniranju	29		2
-ponizivanju			2
-ponišavlju			2
-poništaju	22		2
+poniranju	29		3
+ponizivanju			3
+ponišavlju			3
+poništaju	22		3
 poništavaju	463		3
-poništenju	185		2
+poništenju	185		3
 ponižavaju	642		3
-ponižavanju	185		2
+ponižavanju	185		3
 poniženju	167		2
-popadaju	109		2
-popadiju	34		2
-popenju			2
-popevaju			2
+popadaju	109		3
+popadiju	34		3
+popenju			3
+popevaju			3
 popiju	1232		3
-popisivanju	40		2
+popisivanju	40		3
 popisuju	175		2
-popljačkaju			2
-popljuju	50		2
-popločaju			2
+popljačkaju			3
+popljuju	50		3
+popločaju			3
 popravljaju	1107		4
-popravljanju	441		2
+popravljanju	441		3
 poprimaju	404		3
 popričaju	217		3
 poprsju	24		2
@@ -3792,770 +3792,770 @@ popucaju	54		4
 populaciju	3126		3
 popularizaciju	672		3
 popunjavaju	1187		3
-popunjavanju	405		2
+popunjavanju	405		3
 popuštaju	401		3
-popuštanju	104		2
-poraduju	11		2
+popuštanju	104		3
+poraduju	11		3
 poravnaju	122		3
-poravnanju	389		2
+poravnanju	389		3
 poravnavaju	42		3
-poravnavanju	12		2
-porazgovaraju	311		2
+poravnavanju	12		3
+porazgovaraju	311		3
 porađaju	128		3
-porađanju			2
-poražavaju	13		2
-porciju	616		2
+porađanju			3
+poražavaju	13		3
+porciju	616		3
 poremećaju	433		5
-porečju	28		2
+porečju	28		3
 poređaju	138		3
-poređenju	12457		2
-porfiriju			2
-poricanju	141		2
+poređenju	12457		3
+porfiriju			3
+poricanju	141		3
 pornografiju	530		3
 porobljavaju	66		3
-porobljuju			2
-porodilju	118		2
-poroditelju			2
-porođaju	1165		2
+porobljuju			3
+porodilju	118		3
+poroditelju			3
+porođaju	1165		3
 portfelju	210		3
 poručuju	4160		2
-posavetuju	299		2
-posedaju	56		2
-posedanju			2
-posedovanju	340		2
+posavetuju	299		3
+posedaju	56		3
+posedanju			3
+posedovanju	340		3
 poseduju	11533		4
-poseju	127		2
-posezanju	23		2
-posećivanju	28		2
+poseju	127		3
+posezanju	23		3
+posećivanju	28		3
 posećuju	3472		2
-posečenju			2
-posipaju	203		2
-posipanju	29		2
+posečenju			3
+posipaju	203		3
+posipanju	29		3
 poskakuju	69		2
-poskapaju			2
-poskidaju	61		2
-poskitanju			2
-poskupljenju	451		2
-poskupljuju	322		2
-poslanju	52		2
+poskapaju			3
+poskidaju	61		3
+poskitanju			3
+poskupljenju	451		3
+poskupljuju	322		3
+poslanju	52		3
 poslednju	7506		3
 posljednju		J	3
 poslovanju	12085		2
 posluju	6352		2
 poslušaju	521		4
-poslušanju	158		2
-posluženju	60		2
+poslušanju	158		3
+posluženju	60		3
 poslužitelju	15		4
 poslužuju	222		2
 posmatraju	4203		3
-posmatranju	743		2
-posniju			2
-pospešuju	678		2
+posmatranju	743		3
+posniju			3
+pospešuju	678		3
 pospremaju	14		3
-posramljenju			2
+posramljenju			3
 posramljuju			2
-posredovanju	544		2
+posredovanju	544		3
 posreduju	322		4
-posrtanju	35		2
-postajanju	50		2
+posrtanju	35		3
+postajanju	50		3
 postaju	18562		3
-postanju	85		2
-postaraju	95		2
+postanju	85		3
+postaraju	95		3
 postavljaju	10772		4
-postavljanju	2601		2
+postavljanju	2601		3
 postavljenju	318		2
 postelju	943		3
-postizanju	1928		2
-postizavanju			2
-postiđuju			2
+postizanju	1928		3
+postizavanju			3
+postiđuju			3
 postojanju	4253		4
 postolju	857		2
-postpoziciju			2
-postradaju	28		2
-postradanju			2
-postrojavaju	42		2
-postrojavanju			2
-postrojenju	809		2
-postroju			2
-postuliraju	21		2
+postpoziciju			3
+postradaju	28		3
+postradanju			3
+postrojavaju	42		3
+postrojavanju			3
+postrojenju	809		3
+postroju			3
+postuliraju	21		3
 postupaju	1539		3
-postupanju	1317		2
-postvarenju			2
-posumnjaju	212		2
+postupanju	1317		3
+postvarenju			3
+posumnjaju	212		3
 posustaju	198		3
 posuđuju	42		2
-posvađaju	269		2
-posvećenju	65		2
+posvađaju	269		3
+posvećenju	65		3
 posvećuju	1196		2
-posvršavaju	10		2
+posvršavaju	10		3
 potapaju	123		3
-potapanju	67		2
-potcenjuju	376		2
-potenciju	277		2
-poteraju	100		2
-potezanju	21		2
-pothranjuju	116		2
-potiranju	14		2
-potisju			2
-potiskivanju	153		2
-potiskuju	608		2
-potkazuju			2
+potapanju	67		3
+potcenjuju	376		3
+potenciju	277		3
+poteraju	100		3
+potezanju	21		3
+pothranjuju	116		3
+potiranju	14		3
+potisju			3
+potiskivanju	153		3
+potiskuju	608		3
+potkazuju			3
 potkopaju	71		3
 potkopavaju	139		3
-potkozarju			2
+potkozarju			3
 potkošulju	40		4
-potkradaju	197		2
-potkradanju	13		2
+potkradaju	197		3
+potkradanju	13		3
 potkrepljuju	462		2
 potkrovlju	708		2
 potkupljuju	53		2
-potonju	143		2
-potopljenju			2
-potpadaju	386		2
-potpaljuju	49		2
-potpalublju	96		2
-potpiruju	79		2
-potpisivanju	1877		2
+potonju	143		3
+potopljenju			3
+potpadaju	386		3
+potpaljuju	49		3
+potpalublju	96		3
+potpiruju	79		3
+potpisivanju	1877		3
 potpisuju	2255		2
-potpitanju			2
-potpornju			2
+potpitanju			3
+potpornju			3
 potpuniju	207		4
 potraju	284		3
-potraživanju	156		2
-potražnju	1333		2
-potražuju	752		2
+potraživanju	156		3
+potražnju	1333		3
+potražuju	752		3
 potrebniju			4
 potrebuju	61		4
-potresaju	554		2
-potrošenju			2
+potresaju	554		3
+potrošenju			3
 potrošnju	10580		2
-potucaju	37		2
-potucanju			2
-poturaju	190		2
-potvrđivanju	677		2
+potucaju	37		3
+potucanju			3
+poturaju	190		3
+potvrđivanju	677		3
 potvrđuju	6945		3
-potčinjavaju	101		2
-potčinjavanju	84		2
-potčinjenju			2
-poubijaju	123		2
-poudaju			2
-pounju			2
-pouzdaju	60		2
+potčinjavaju	101		3
+potčinjavanju	84		3
+potčinjenju			3
+poubijaju	123		3
+poudaju			3
+pounju			3
+pouzdaju	60		3
 pouzdaniju	50		5
 pouzdanju	18		2
-poučavaju	117		2
-poučavanju	42		2
-povaljuju			2
+poučavaju	117		3
+poučavanju	42		3
+povaljuju			3
 povelju	1822		3
 poveravaju	361		3
-poveravanju	201		2
+poveravanju	201		3
 poverenju	2585		2
 poveruju	877		4
-povezivanju	1790		2
+povezivanju	1790		3
 povezuju	4463		2
 povećaju	4525		3
 povećanju	6647		2
 povećavaju	5834		3
-povećavanju	207		2
+povećavanju	207		3
 povijaju	131		3
-povijanju	25		2
+povijanju	25		3
 poviju	25		3
-povinovanju			2
-povinuju	303		2
-povisuju	20		2
-povišenju	24		2
-povlačenju	1645		2
-povlađuju	78		2
-povodnju			2
-povoju	836		2
+povinovanju			3
+povinuju	303		3
+povisuju	20		3
+povišenju	24		3
+povlačenju	1645		3
+povlađuju	78		3
+povodnju			3
+povoju	836		3
 povoljniju	458		4
-povraćaju	580		2
-povraćanju	51		2
-povređivanju	75		2
+povraćaju	580		3
+povraćanju	51		3
+povređivanju	75		3
 povređuju	406		2
-površju			2
-pozajmljuju	658		2
+površju			3
+pozajmljuju	658		3
 pozdravljaju	1072		4
 poziciju	24330		3
 poziraju	231		3
 pozivaju	8501		3
-pozivanju	199		2
-pozlaćuju			2
-pozleđuju			2
+pozivanju	199		3
+pozlaćuju			3
+pozleđuju			3
 poznaju	6982		3
-poznanju			2
+poznanju			3
 poznatiju	158		4
-poznavanju	1365		2
-pozniju			2
-pozorju			2
-pozvaniju			2
-počekaju			2
-počinjanju	13		2
+poznavanju	1365		3
+pozniju			3
+pozorju			3
+pozvaniju			3
+počekaju			3
+počinjanju	13		3
 počinju	14627		3
-počivaju	1697		2
-počupaju	39		2
+počivaju	1697		3
+počupaju	39		3
 pošalju	4900		3
-poštapaju			2
+poštapaju			3
 poštenju	733		2
 poštovanju	3265		2
 poštuju	12195		2
-pošćenju			2
+pošćenju			3
 požnju	11		2
-požrtvovanju	154		2
-požuruju	58		2
-praistoriju	100		2
-praktikuju	1142		2
+požrtvovanju	154		3
+požuruju	58		3
+praistoriju	100		3
+praktikuju	1142		3
 pralju			2
-prangiju			2
+prangiju			3
 pranju	724		2
-praskanju			2
-pratilju	77		2
+praskanju			3
+pratilju	77		3
 pratnju	2386		2
 pravdaju	1161		3
-pravdanju	52		2
-pravedniju	131		2
+pravdanju	52		3
+pravedniju	131		3
 pravičniju	26		4
-pravljenju	2113		2
+pravljenju	2113		3
 pravoslavlju	1313		4
-praznoumlju			2
-praznovanju	80		2
+praznoumlju			3
+praznovanju	80		3
 praznuju	311		3
-praćakaju	16		2
-praćenju	1762		2
-praštaju	291		2
-praštanju	159		2
-prašćaju			2
-pražnjenju	128		2
-prdenju			2
-prebacivanju	330		2
+praćakaju	16		3
+praćenju	1762		3
+praštaju	291		3
+praštanju	159		3
+prašćaju			3
+pražnjenju	128		3
+prdenju			3
+prebacivanju	330		3
 prebacuju	1759		2
 prebijaju	218		3
-prebijanju	120		2
+prebijanju	120		3
 prebiju	192		3
-prebiraju	53		2
-prebivaju	143		2
-prebivanju	12		2
-prebrojavaju	178		2
-precenjuju	151		2
+prebiraju	53		3
+prebivaju	143		3
+prebivanju	12		3
+prebrojavaju	178		3
+precenjuju	151		3
 precizniju	273		4
-precrtaju	28		2
+precrtaju	28		3
 predaju	7291		3
-predanju	2508		2
+predanju	2508		3
 predavanju	2633		2
-predenju	14		2
-predispoziciju	289		2
-predlaganju	276		2
-predloženju			2
+predenju	14		3
+predispoziciju	289		3
+predlaganju	276		3
+predloženju			3
 prednju	854		2
-predomišljaju	23		2
-predosećaju	47		2
-predoziraju			2
-predoziranju	13		2
-predočavanju	22		2
-predskazanju	31		2
-predskazuju	78		2
+predomišljaju	23		3
+predosećaju	47		3
+predoziraju			3
+predoziranju	13		3
+predočavanju	22		3
+predskazanju	31		3
+predskazuju	78		3
 predsoblju	249		2
 predstavljaju	43134		4
-predstavljanju	3087		2
-preduzimaju	2414		2
-preduzimanju	316		2
-preduzimlju			2
-predvečerju	31		2
-predvečernju			2
+predstavljanju	3087		3
+preduzimaju	2414		3
+preduzimanju	316		3
+preduzimlju			3
+predvečerju	31		3
+predvečernju			3
 predviđaju	3653		3
-predviđanju	297		2
+predviđanju	297		3
 predvorju	361		2
-predvođenju	12		2
+predvođenju	12		3
 predznanju	30		2
 preferiraju	921		3
-preganjaju			2
-pregledaju	1606		2
-pregledanju	62		2
-pregledavaju	41		2
+preganjaju			3
+pregledaju	1606		3
+pregledanju	62		3
+pregledavaju	41		3
 pregovaraju	1413		3
-pregovaranju	245		2
+pregovaranju	245		3
 pregrađuju	24		2
 pregreju	21		3
-preguraju	63		2
-prehranjuju	77		2
-preimenuju	119		2
-preinačuju	32		2
-preispitaju	918		2
-preispituju	485		2
-preizobilju			2
-prejedaju	38		2
-prejedanju	41		2
+preguraju	63		3
+prehranjuju	77		3
+preimenuju	119		3
+preinačuju	32		3
+preispitaju	918		3
+preispituju	485		3
+preizobilju			3
+prejedaju	38		3
+prejedanju	41		3
 prekidaju	908		3
-prekidanju	84		2
-preklapaju	659		2
-preklapanju	40		2
-preklinju	46		2
-prekoračuju	109		2
-prekrajanju	116		2
-prekraćuju	58		2
+prekidanju	84		3
+preklapaju	659		3
+preklapanju	40		3
+preklinju	46		3
+prekoračuju	109		3
+prekrajanju	116		3
+prekraćuju	58		3
 prekriju	222		3
 prekrivaju	492		3
-prekršaju	355		2
-prekuju			2
-prekvalifikaciju	375		2
-prelaganju			2
+prekršaju	355		3
+prekuju			3
+prekvalifikaciju	375		3
+prelaganju			3
 prelamaju	347		3
-prelamanju	43		2
-prelaženju	61		2
-preletanju	14		2
-preliju	162		2
+prelamanju	43		3
+prelaženju	61		3
+preletanju	14		3
+preliju	162		3
 prelistaju	93		3
-prelivaju			2
-prelivanju			2
-premazuju	88		2
-premašuju	680		2
-premeštaju	438		2
-premeštanju	203		2
-premiju	1161		2
-premiraju	22		2
-premiranju	19		2
-premišljaju	80		2
-premišljanju	17		2
+prelivaju			3
+prelivanju			3
+premazuju	88		3
+premašuju	680		3
+premeštaju	438		3
+premeštanju	203		3
+premiju	1161		3
+premiraju	22		3
+premiranju	19		3
+premišljaju	80		3
+premišljanju	17		3
 premlaćuju	39		2
-prenemaganju			2
-prenošenju	761		2
-preobilju	11		2
-preobraćaju	33		2
-preobražaju	222		2
-preobražavaju	143		2
-preobraženju	115		2
-preoravaju			2
+prenemaganju			3
+prenošenju	761		3
+preobilju	11		3
+preobraćaju	33		3
+preobražaju	222		3
+preobražavaju	143		3
+preobraženju	115		3
+preoravaju			3
 preostaju	212		3
 preotimaju	37		4
-preotimanju	15		2
-preotimlju			2
-preovlađuju	1066		2
-prepadaju			2
-prepiranju	13		2
-prepisivanju	139		2
+preotimanju	15		3
+preotimlju			3
+preovlađuju	1066		3
+prepadaju			3
+prepiranju	13		3
+prepisivanju	139		3
 prepisuju	848		2
-preplavljuju	157		2
-preplitanju	139		2
+preplavljuju	157		3
+preplitanju	139		3
 preplivaju	57		4
-prepokrivaju			2
+prepokrivaju			3
 preporučuju	5302		2
 prepoznaju	8119		3
-prepoznavanju	830		2
-prepravljaju	109		2
-preprečuju			2
+prepoznavanju	830		3
+prepravljaju	109		3
+preprečuju			3
 prepričaju	44		3
 prepričavaju	545		3
-preprodaju	514		2
+preprodaju	514		3
 prepuštaju	730		3
-prepuštanju	96		2
-prerastaju	282		2
-prerastanju	37		2
+prepuštanju	96		3
+prerastaju	282		3
+prerastanju	37		3
 prerađuju	359		2
 preriju	18		3
-prerušavanju	18		2
-presavijaju			2
+prerušavanju	18		3
+presavijaju			3
 presecaju	353		3
-presecanju	79		2
-preseljenju			2
-presipaju	64		2
-preskakanju	90		2
-preskakuju			2
+presecanju	79		3
+preseljenju			3
+presipaju	64		3
+preskakanju	90		3
+preskakuju			3
 preslikavaju	103		3
-preslikavanju	31		2
+preslikavanju	31		3
 prespavaju	216		3
-presretanju	47		2
-prestajanju			2
+presretanju	47		3
+prestajanju			3
 prestaju	2700		3
-prestupanju			2
-presuđenju			2
+prestupanju			3
+presuđenju			3
 presuđuju	245		2
-presušuju	104		2
-presvlačenju			2
+presušuju	104		3
+presvlačenju			3
 pretapaju	97		3
-pretapanju	26		2
-pretenduju	693		2
+pretapanju	26		3
+pretenduju	693		3
 pretenziju	168		3
 preteraju	215		4
-preterivanju	186		2
+preterivanju	186		3
 preteruju	577		2
-pretežniju			2
+pretežniju			3
 pretnju	4143		2
-pretposlednju	85		2
+pretposlednju	85		3
 pretpostavljaju	1212		4
-pretraživanju	334		2
+pretraživanju	334		3
 pretražuju	677		2
-pretresaju	191		2
-pretresanju	62		2
-pretrpavaju	17		2
-pretrčavaju	113		2
-pretucaju			2
-pretumbaju			2
-preturaju	95		2
+pretresaju	191		3
+pretresanju	62		3
+pretrpavaju	17		3
+pretrčavaju	113		3
+pretucaju			3
+pretumbaju			3
+preturaju	95		3
 pretvaraju	3081		3
-pretvaranju	499		2
-preudaju			2
-preuređenju	151		2
-preuređivanju	20		2
-preuređuju	49		2
-preusmeravaju	260		2
-preuveličavaju	157		2
+pretvaranju	499		3
+preudaju			3
+preuređenju	151		3
+preuređivanju	20		3
+preuređuju	49		3
+preusmeravaju	260		3
+preuveličavaju	157		3
 preuzimaju	3556		4
-preuzimanju	2191		2
+preuzimanju	2191		3
 prevaljuju	105		2
-prevazilaženju	1183		2
-prevenciju	4135		2
-previjaju	41		2
-previjanju	18		2
-previju	28		2
-previranju	97		2
-previđaju	265		2
-previđanju			2
+prevazilaženju	1183		3
+prevenciju	4135		3
+previjaju	41		3
+previjanju	18		3
+previju	28		3
+previranju	97		3
+previđaju	265		3
+previđanju			3
 prevladaju	209		3
 prevladavaju	191		3
-prevlačenju	14		2
-prevlađuju			2
+prevlačenju	14		3
+prevlađuju			3
 prevoju	211		3
-prevođenju	635		2
-prevrtanju	44		2
+prevođenju	635		3
+prevrtanju	44		3
 prezaju	341		3
-prezentaciju	7376		2
-prezentuju	1354		2
-prezimljuju	20		2
-preziranju	13		2
-prezivaju	124		2
-prezreniju			2
-prećutkuju	381		2
-pređašnju			2
-preštampavanju			2
-preživaju	21		2
+prezentaciju	7376		3
+prezentuju	1354		3
+prezimljuju	20		3
+preziranju	13		3
+prezivaju	124		3
+prezreniju			3
+prećutkuju	381		3
+pređašnju			3
+preštampavanju			3
+preživaju	21		3
 preživljavaju	1011		3
-preživljavanju	357		2
-prianjaju	71		2
+preživljavanju	357		3
+prianjaju	71		3
 pribavljaju	291		4
-pribavljanju	351		2
-pribegavaju	970		2
+pribavljanju	351		3
+pribegavaju	970		3
 pribijaju			3
-pribiraju	16		2
-pribiranju			2
+pribiraju	16		3
+pribiranju			3
 približavaju	1330		3
-približavanju	1006		2
-približenju			2
-približuju	70		2
-pribojavaju	331		2
-priboju			2
+približavanju	1006		3
+približenju			3
+približuju	70		3
+pribojavaju	331		3
+priboju			3
 pribrajaju			3
-pribrajanju			2
-pridaju	659		2
-pridavanju	22		2
+pribrajanju			3
+pridaju	659		3
+pridavanju	22		3
 pridobiju	490		3
 pridodaju	209		3
-pridruženju	48		2
-pridruživanju	3123		2
+pridruženju	48		3
+pridruživanju	3123		3
 pridružuju	908		2
 pridržavaju	2352		4
 prigovaraju	199		3
-prigovaranju			2
-prigrljuju			2
+prigovaranju			3
+prigrljuju			3
 prigušuju	32		2
-prihoduju	109		2
-prihvataju	5997		2
-prihvatanju	1937		2
+prihoduju	109		3
+prihvataju	5997		3
+prihvatanju	1937		3
 prihvaćaju	115		4
-prihvaćanju	52		2
+prihvaćanju	52		3
 prijaju	1048		3
 prijatelju	5625		4
-prijavljivanju	388		2
+prijavljivanju	388		3
 prijavljuju	2649		2
-prijepolju			2
+prijepolju			3
 priju	105		2
-prikazivanju	656		2
+prikazivanju	656		3
 prikazuju	6078		2
-prikivaju			2
+prikivaju			3
 prikladniju	26		4
 priklanjaju	130		4
-priključenju	445		2
-priključuju	631		2
+priključenju	445		3
+priključuju	631		3
 prikradaju	39		3
 prikriju	675		3
 prikrivaju	680		3
 prikrivanju	230		2
-prikuju	27		2
+prikuju	27		3
 prikupljaju	2188		3
-prikupljanju	1736		2
+prikupljanju	1736		3
 prilagođavaju	1626		3
-prilagođavanju	772		2
-prilaženju	28		2
-prilepljuju	10		2
-priljubljuju			2
+prilagođavanju	772		3
+prilaženju	28		3
+prilepljuju	10		3
+priljubljuju			3
 primaju	10865		3
 primamljuju	13		2
-primanju	433		2
+primanju	433		3
 primenjuju	11978		2
 primećuju	2017		2
-primirenju			2
+primirenju			3
 primirju	176		2
-primiruju			2
-primopredaju	269		2
+primiruju			3
+primopredaju	269		3
 primoraju	256		3
 primoravaju	556		3
-primorju	1831		2
-prinošenju	42		2
-prinuđuju	21		2
-priobalju	455		2
-priopštenju			2
+primorju	1831		3
+prinošenju	42		3
+prinuđuju	21		3
+priobalju	455		3
+priopštenju			3
 pripadaju	13887		4
-pripadanju	74		2
+pripadanju	74		3
 pripajaju	93		3
-pripajanju	188		2
-pripaljuju			2
-pripijaju			2
+pripajanju	188		3
+pripaljuju			3
+pripijaju			3
 pripisuju	1529		2
-pripitaju			2
+pripitaju			3
 pripovedaju	176		3
-pripovedanju	219		2
+pripovedanju	219		3
 pripravljaju	14		4
 pripremaju	6222		3
-pripremanju	1109		2
-pripucaju	24		2
-priraštaju	66		2
-priređuju	560		2
+pripremanju	1109		3
+pripucaju	24		3
+priraštaju	66		3
+priređuju	560		3
 prirodniju	34		4
 prisećaju	238		4
-prisećanju	41		2
+prisećanju	41		3
 prisiljavaju	272		3
 prislanjaju	17		4
-prisluškivanju	218		2
+prisluškivanju	218		3
 prisluškuju	413		2
-prislužuju			2
+prislužuju			3
 prisniju	29		3
-prisoju	11		2
-prispeju	11		2
-pristajanju	53		2
+prisoju	11		3
+prispeju	11		3
+pristajanju	53		3
 pristaju	1929		3
-pristizanju	86		2
+pristizanju	86		3
 pristupaju	1618		3
-pristupanju	2022		2
+pristupanju	2022		3
 prisustvuju	4284		4
 prisutniju	22		4
-prisvajaju	279		2
-prisvajanju	70		2
-pritešnjuju			2
+prisvajaju	279		3
+prisvajanju	70		3
+pritešnjuju			3
 pritiskaju	826		3
-pritiskanju	31		2
+pritiskanju	31		3
 pritiskuju	36		2
-pritrčavaju			2
+pritrčavaju			3
 pritvaraju	18		3
-priupitaju	51		2
-priučavaju			2
+priupitaju	51		3
+priučavaju			3
 privatizaciju	10862		3
 privezuju	11		2
-privijaju	14		2
+privijaju	14		3
 privikavaju	86		3
 privilegiju	2106		3
-priviđaju	115		2
+priviđaju	115		3
 priviđenju	24		2
-privlačenju	975		2
-privođenju	168		2
-privređuju	226		2
-prizemljenju			2
+privlačenju	975		3
+privođenju	168		3
+privređuju	226		3
+prizemljenju			3
 prizemlju	3403		2
-prizemljuju	15		2
+prizemljuju	15		3
 prizivaju	661		3
-prizivanju	73		2
+prizivanju	73		3
 priznaju	8475		3
 priznanju	2476		2
-priznavanju	1085		2
-prizvanju			2
+priznavanju	1085		3
+prizvanju			3
 pričaju	12820		3
-pričanju	464		2
-pričašćenju			2
+pričanju	464		3
+pričašćenju			3
 pričekaju	103		4
-pričešćuju	216		2
+pričešćuju	216		3
 pričinjavaju	195		3
 pričvršćuju	160		3
-prišiju	39		2
-prišivaju	35		2
-prišunjaju			2
-priželjkivanju			2
+prišiju	39		3
+prišivaju	35		3
+prišunjaju			3
+priželjkivanju			3
 priželjkuju	851		2
 prljaju	332		3
-prljanju	37		2
+prljanju	37		3
 prljaviju			4
 probadaju	36		3
 probaju	2529		3
 probijaju	716		3
-probijanju	147		2
+probijanju	147		3
 probiju	1062		3
-probiraju			2
-proboju	302		2
-procenjivanju	185		2
+probiraju			3
+proboju	302		3
+procenjivanju	185		3
 procenjuju	3795		2
 procesiju	36		3
-procesuiraju	585		2
-procvetaju	112		2
+procesuiraju	585		3
+procvetaju	112		3
 prodaju	44718		3
-prodavaju			2
-prodavanju	68		2
-prodiranju	75		2
-prodrmaju	49		2
-produbljuju	464		2
+prodavaju			3
+prodavanju	68		3
+prodiranju	75		3
+prodrmaju	49		3
+produbljuju	464		3
 produkciju	3215		3
-produkuju	242		2
-produžavaju			2
-produženju	618		2
-produžuju	192		2
+produkuju	242		3
+produžavaju			3
+produženju	618		3
+produžuju	192		3
 profesiju	2125		3
 profitiraju	930		3
-proganjaju	412		2
-proganjanju	72		2
+proganjaju	412		3
+proganjanju	72		3
 proglašavaju	1174		3
-proglašenju	1091		2
-progledaju	198		2
+proglašenju	1091		3
+progledaju	198		3
 prognaju	28		3
 prognoziraju	658		3
-progonjenju			2
+progonjenju			3
 progovaraju	121		3
-programiraju	300		2
-programiranju	855		2
-progresiju	189		2
-proguraju	307		2
+programiraju	300		3
+programiranju	855		3
+progresiju	189		3
+proguraju	307		3
 progutaju	513		3
 prohibiciju	35		3
-prohodaju	117		2
+prohodaju	117		3
 proizvodnju	43515		2
 projekciju	1561		3
-projektovanju	1858		2
-projektuju	947		2
-prokazuju	16		2
-proklamaciju	72		2
-proklamuju	109		2
+projektovanju	1858		3
+projektuju	947		3
+prokazuju	16		3
+proklamaciju	72		3
+proklamuju	109		3
 prokletinju			3
 proklinju	181		3
-proklizavaju	23		2
-proključaju	17		2
-prokockaju	40		2
-prokopiju			2
-prokradaju			2
-prokuvaju	42		2
+proklizavaju	23		3
+proključaju	17		3
+prokockaju	40		3
+prokopiju			3
+prokradaju			3
+prokuvaju	42		3
 prolamaju	24		3
-prolaženju	23		2
+prolaženju	23		3
 proliju	50		3
-prolivaju			2
+prolivaju			3
 promaju	236		3
 promatraju	97		3
 promatranju	68		2
 promašaju	58		4
 promašuju	107		2
-promenjuju			2
-prometeju			2
-promešaju	27		2
-promišljaju	200		2
-promišljanju	263		2
-promišlju			2
+promenjuju			3
+prometeju			3
+promešaju	27		3
+promišljaju	200		3
+promišljanju	263		3
+promišlju			3
 promociju	10769		3
-promovisanju	1451		2
-promrmljaju	14		2
-pronalaženju	2283		2
-pronicanju	17		2
+promovisanju	1451		3
+promrmljaju	14		3
+pronalaženju	2283		3
+pronicanju	17		3
 propadaju	1688		4
-propadanju	573		2
-propagiraju	970		2
-propevaju	20		2
-propinju	35		2
+propadanju	573		3
+propagiraju	970		3
+propevaju	20		3
+propinju	35		3
 propisuju	1657		2
-propitaju	15		2
+propitaju	15		3
 proporciju	145		3
 propovedaju	478		3
-propulziju	24		2
-proputovanju	362		2
+propulziju	24		3
+proputovanju	362		3
 propuštaju	1139		3
-proređuju	66		2
-proricanju	28		2
-prorokuju	35		2
-prosecanju	10		2
-proseju			2
-prosipaju	372		2
-prosiplju			2
-proskribuju			2
-proslavljaju	960		2
-proslavljanju	89		2
-prosleđuju	539		2
+proređuju	66		3
+proricanju	28		3
+prorokuju	35		3
+prosecanju	10		3
+proseju			3
+prosipaju	372		3
+prosiplju			3
+proskribuju			3
+proslavljaju	960		3
+proslavljanju	89		3
+prosleđuju	539		3
 prostiju	17		3
-prostiranju	52		2
+prostiranju	52		3
 prostituciju	572		3
 prostoriju	3250		3
 prostraniju	64		4
-prosuđivanju	79		2
-prosuđuju	79		2
-prosušuju			2
-prosvetljenju	81		2
-prosvećivanju	177		2
-prosvećuju	57		2
-protekciju	154		2
+prosuđivanju	79		3
+prosuđuju	79		3
+prosušuju			3
+prosvetljenju	81		3
+prosvećivanju	177		3
+prosvećuju	57		3
+protekciju	154		3
 proteraju	468		4
-proterivanju	234		2
+proterivanju	234		3
 proteruju	217		2
-protestuju	1640		2
-protestvuju	324		2
-protezanju			2
-proticanju	53		2
-protivljenju	622		2
-protrčavaju			2
-proturaju	104		2
-proturanju			2
+protestuju	1640		3
+protestvuju	324		3
+protezanju			3
+proticanju	53		3
+protivljenju	622		3
+protrčavaju			3
+proturaju	104		3
+proturanju			3
 prouzrokuju	1010		4
 proučavaju	1071		3
 proučavanju	1490		2
 provaliju	797		3
-provaljivanju	12		2
+provaljivanju	12		3
 provaljuju	120		2
 proveravaju	1823		3
-proveravanju	61		2
-provinciju	506		2
-proviruju	61		2
-proviziju	1713		2
-proviđaju			2
-proviđenju	30		2
-provlačenju	22		2
-provociraju	590		2
-provodadžiju			2
+proveravanju	61		3
+provinciju	506		3
+proviruju	61		3
+proviziju	1713		3
+proviđaju			3
+proviđenju	30		3
+provlačenju	22		3
+provociraju	590		3
+provodadžiju			3
 provokaciju	739		3
-provozaju	229		2
-provođenju	390		2
+provozaju	229		3
+provođenju	390		3
 prozivaju	961		3
 prozodiju			3
 proćaskaju	46		4
 proćerdaju	31		3
-pročačkaju			2
-pročelju	160		2
-pročešljaju	78		2
+pročačkaju			3
+pročelju	160		3
+pročešljaju	78		3
 pročitaju	3167		3
-pročitanju			2
-pročišćavaju	90		2
-pročišćenju	54		2
-pročuju	21		2
-prošaraju	12		2
-prošetaju			2
-proširenju	1816		2
-proširivanju	299		2
+pročitanju			3
+pročišćavaju	90		3
+pročišćenju	54		3
+pročuju	21		3
+prošaraju	12		3
+prošetaju			3
+proširenju	1816		3
+proširivanju	299		3
 proširuju	1015		2
 prošlogodišnju	518		3
 prošnju	62		2
-proždiranju	14		2
+proždiranju	14		3
 prožimaju	661		4
-prožimanju	177		2
-proživljavaju	259		2
-prsiju			2
+prožimanju	177		3
+proživljavaju	259		3
+prsiju			3
 prskaju	327		3
-prskanju	54		2
-prstenju	31		2
-prstenuju	11		2
+prskanju	54		3
+prstenju	31		3
+prstenuju	11		3
 prstiju	4269		3
 pružaju	14251		3
 pružanju	3207		2
 prvakinju	40		4
 prćiju	89		3
-prženju	28		2
+prženju	28		3
 psihijatriju	607		3
 psihologiju	2391		3
 psihoterapiju	437		3
@@ -4564,2176 +4564,2176 @@ ptičju	16		2
 publikaciju	842		3
 publikuju	216		4
 pucaju	2068		3
-pucanju	229		2
-puckaju	20		2
-pucketaju	38		2
-pucketanju	18		2
+pucanju	229		3
+puckaju	20		3
+pucketaju	38		3
+pucketanju	18		3
 pucnju	12		2
-pujdaju			2
+pujdaju			3
 pukovniju			3
 pulsiraju	85		3
-pumpaju	158		2
+pumpaju	158		3
 puniju	60		3
-punjenju	442		2
-punkciju	53		2
+punjenju	442		3
+punkciju	53		3
 pustinju	1548		3
-pustoliju			2
-pustopolju			2
+pustoliju			3
+pustopolju			3
 pustošenju	40		4
 putanju	1700		3
 putovanju	3055		2
 putuju	6606		2
 puzaju			3
-puzanju	28		2
-pućkaju			2
+puzanju	28		3
+pućkaju			3
 pušenju	371		3
-puškaraju			2
-puškaranju	13		2
+puškaraju			3
+puškaranju	13		3
 puštaju	2666		3
-puštanju	504		2
+puštanju	504		3
 pčinju			2
 raciju	215		3
 radijaciju	251		3
 radiju	3868		3
 radiologiju	544		3
-radivoju			2
+radivoju			3
 radnju	5604		2
-radoju			2
-radonju			2
+radoju			3
+radonju			3
 radosniju			4
 raduju	2737		3
 rafineriju	558		3
-rafiniraniju			2
+rafiniraniju			3
 ragbiju	169		3
 raju	2219		2
-raketiranju			2
+raketiranju			3
 rakiju	2864		3
 rangiraju	417		3
-rangiranju	392		2
+rangiranju	392		3
 raniju	704		3
 ranjavaju	44		3
-ranjavanju	85		2
+ranjavanju	85		3
 rapsodiju	36		3
-rasanjuju			2
-rasađuju			2
-rasecaju			2
-rasedanju			2
-rasejanju	824		2
-raseju			2
+rasanjuju			3
+rasađuju			3
+rasecaju			3
+rasedanju			3
+rasejanju	824		3
+raseju			3
 raseljavaju	49		3
-raseljavanju	67		2
-raseljenju			2
+raseljavanju	67		3
+raseljenju			3
 rashlađuju	111		2
 rasipaju	503		4
-rasipanju	92		2
+rasipanju	92		3
 raskidaju	234		3
-raskidanju	75		2
+raskidanju	75		3
 rasklapaju	62		3
-raskomadaju	47		2
-raskopaju	30		2
-raskopčaju			2
-raskošju	14		2
+raskomadaju	47		3
+raskopaju	30		3
+raskopčaju			3
+raskošju	14		3
 raskošniju	12		4
-raskriljuju			2
-raskrivaju			2
-raskrivanju	13		2
-raskuvaju			2
+raskriljuju			3
+raskrivaju			3
+raskrivanju	13		3
+raskuvaju			3
 raspadaju	658		4
-raspadanju	209		2
-raspakuju			2
-raspaljuju	77		2
-rasparčaju			2
-raspasuju			2
-raspinjanju			2
-raspinju	42		2
-raspirivanju	77		2
-raspiruju	149		2
+raspadanju	209		3
+raspakuju			3
+raspaljuju	77		3
+rasparčaju			3
+raspasuju			3
+raspinjanju			3
+raspinju	42		3
+raspirivanju	77		3
+raspiruju	149		3
 raspisuju	596		2
 raspitaju	354		3
-raspituju	475		2
-rasplinjavaju	10		2
-rasplitanju			2
+raspituju	475		3
+rasplinjavaju	10		3
+rasplitanju			3
 raspolaganju	21224		2
 raspoloženju	2357		2
-raspoređivanju	265		2
+raspoređivanju	265		3
 raspoređuju	613		2
 raspoznaju	253		3
-raspoznavaju			2
-raspravljaju			2
-raspravljanju	70		2
-raspredaju	90		2
-raspremaju			2
+raspoznavaju			3
+raspravljaju			3
+raspravljanju	70		3
+raspredaju	90		3
+raspremaju			3
 rasprodaju	1026		4
-rasprskavaju	37		2
+rasprskavaju	37		3
 raspršuju	95		3
 raspuštaju	55		3
-raspuštanju	203		2
+raspuštanju	203		3
 rastaju	177		3
-rastakanju	112		2
+rastakanju	112		3
 rastavljaju	76		4
-rastavljanju	25		2
+rastavljanju	25		3
 rasteraju	88		4
-rasterećenju	136		2
+rasterećenju	136		3
 rasteruju	96		2
-rastezaju			2
-rastiju			2
+rastezaju			3
+rastiju			3
 rastinju	70		2
-rastojanju	1211		2
-rastresaju			2
+rastojanju	1211		3
+rastresaju			3
 rastrgaju	10		4
-rasturaju	325		2
-rasturanju	204		2
+rasturaju	325		3
+rasturanju	204		3
 rastužuju	30		2
 rastvaraju	268		3
-rasuđivanju	177		2
-rasuđuju	98		2
-rasvetljuju			2
-ratifikuju	266		2
-ratovanju	313		2
+rasuđivanju	177		3
+rasuđuju	98		3
+rasvetljuju			3
+ratifikuju	266		3
+ratovanju	313		3
 ratuju	1083		3
 ravnaju	177		3
-ravnanju	30		2
-ravnodušju			2
+ravnanju	30		3
+ravnodušju			3
 razapinju	98		3
 razaraju	520		3
-razaranju	373		2
-razastiranju			2
+razaranju	373		3
+razastiranju			3
 razaznaju	154		3
 razašalju			3
 razbacaju	33		3
 razbacuju	232		2
 razbijaju	1024		3
-razbijanju	960		2
+razbijanju	960		3
 razbiju	895		3
-razblažuju			2
+razblažuju			3
 razboju	203		2
-razboljevaju			2
-razbucaju	40		2
-razbuktaju	20		2
+razboljevaju			3
+razbucaju	40		3
+razbuktaju	20		3
 razbuđuju	13		2
 razdaju	34		3
 razdeljuju	23		2
-razdiranju			2
+razdiranju			3
 razdoblju	3503		2
 razdražuju	31		2
-razdrmaju	28		2
+razdrmaju	28		3
 razdvajaju	892		3
-razdvajanju	307		2
+razdvajanju	307		3
 razgaljuju	17		2
 razglabaju	46		3
-razglašuju			2
-razgledaju	393		2
-razgledanju	206		2
-razgledavanju			2
-razgnaju			2
+razglašuju			3
+razgledaju	393		3
+razgledanju	206		3
+razgledavanju			3
+razgnaju			3
 razgovaraju	4917		3
-razgradnju	489		2
-razgranaju	17		2
-razgraničavaju	28		2
-razgrađivanju	41		2
-razgrađuju	427		2
-razilaženju	27		2
-razjašnjavaju	74		2
-razjašnjenju	131		2
-razlaganju	71		2
+razgradnju	489		3
+razgranaju	17		3
+razgraničavaju	28		3
+razgrađivanju	41		3
+razgrađuju	427		3
+razilaženju	27		3
+razjašnjavaju	74		3
+razjašnjenju	131		3
+razlaganju	71		3
 razliju	17		3
 razlikuju	11736		4
-razlistaju			2
-razlivaju			2
+razlistaju			3
+razlivaju			3
 razlučuju	26		2
-razmahuju			2
+razmahuju			3
 razmatraju	2671		3
-razmatranju	1203		2
+razmatranju	1203		3
 razmazuju	33		2
 razmenjuju	2469		2
-razmetanju	14		2
-razmeštaju	96		2
-razmeštanju	118		2
-razmicanju			2
+razmetanju	14		3
+razmeštaju	96		3
+razmeštanju	118		3
+razmicanju			3
 razmišljaju	8288		3
-razmišljanju	1354		2
+razmišljanju	1354		3
 razmnožavaju	739		3
-razmnožavanju	173		2
-razmrdaju			2
-razmrskavaju			2
-razmršavaju			2
+razmnožavanju	173		3
+razmrdaju			3
+razmrskavaju			3
+razmršavaju			3
 razoružaju	75		3
-razoružanju	122		2
+razoružanju	122		3
 razotkriju	211		3
 razotkrivaju	227		3
-razotkrivanju	274		2
+razotkrivanju	274		3
 razočaraju	223		3
 razočaranju	88		2
 razočaravaju	39		3
 razočarenju	88		2
-razrastanju			2
-razrađivanju	24		2
+razrastanju			3
+razrađivanju	24		3
 razrađuju	340		2
-razrezuju	23		2
-razređuju	47		2
-razrešenju	1038		2
-razrešuju			2
-razrivaju			2
+razrezuju	23		3
+razređuju	47		3
+razrešenju	1038		3
+razrešuju			3
+razrivaju			3
 razumeju	10593		3
 razumevaju	87		3
-razumevanju	5366		2
+razumevanju	5366		3
 razumiju	566		3
-razuđeniju			2
+razuđeniju			3
 razvaljuju	108		2
-razvađaju			2
-razveju	45		2
+razvađaju			3
+razveju	45		3
 razvijaju	10120		3
-razvijanju	2414		2
+razvijanju	2414		3
 razviju	4981		3
-razvlačenju	23		2
+razvlačenju	23		3
 razvoju	48583		3
 razvrstaju	60		3
 računaju	5329		3
-računanju	356		2
-račvaju	85		2
+računanju	356		3
+račvaju	85		3
 rađaju	3103		3
-rađanju	536		2
-rađenju			2
-raširuju			2
-rašćeretaju			2
-raščešljaju			2
-raščišćavaju	89		2
-raščlanjavanju			2
+rađanju	536		3
+rađenju			3
+raširuju			3
+rašćeretaju			3
+raščešljaju			3
+raščišćavaju	89		3
+raščlanjavanju			3
 raščlanjuju	22		2
-raščuju			2
+raščuju			3
 ražnju	437		2
-reagovanju	611		2
+reagovanju	611		3
 reaguju	6740		4
 reakciju	6657		3
 realizaciju	16526		3
-realizuju	5830		2
-reanimaciju	379		2
-recenziju	582		2
+realizuju	5830		3
+reanimaciju	379		3
+recenziju	582		3
 recepciju	574		3
 recesiju	1573		3
 recikliraju	470		3
 recikliranju	118		2
-recitaciju	70		2
-recitovanju	130		2
-recituju	134		2
+recitaciju	70		3
+recitovanju	130		3
+recituju	134		3
 redakciju	1778		3
 redatelju	20		4
-redigovanju			2
-rediguju			2
-reditelju	661		2
+redigovanju			3
+rediguju			3
+reditelju	661		3
 redovniju	23		4
-reduciraju			2
+reduciraju			3
 redukciju	617		3
-redukuju	398		2
-reemituju			2
-refakciju			2
-refleksiju	364		2
-reflektuju	723		2
+redukuju	398		3
+reemituju			3
+refakciju			3
+refleksiju	364		3
+reflektuju	723		3
 reformaciju	41		3
-regeneraciju	907		2
+regeneraciju	907		3
 regiju	1348		3
-regionalizaciju	520		2
+regionalizaciju	520		3
 registraciju	4697		3
-registruju	2613		2
+registruju	2613		3
 regresiju	93		3
 regrutaciju	192		3
-regrutovanju	83		2
-regrutuju	448		2
+regrutovanju	83		3
+regrutuju	448		3
 regulaciju	1487		3
 rehabilitaciju	3579		3
 reinkarnaciju	187		3
-rekciju	26		2
-reketiranju	33		2
-reklamiraju	1476		2
-reklamiranju	277		2
+rekciju	26		3
+reketiranju	33		3
+reklamiraju	1476		3
+reklamiranju	277		3
 rekonstrukciju	7703		3
 rekreaciju	2398		3
-rekreiraju	162		2
-rekviziciju	10		2
-relaciju	483		2
-relaksaciju	989		2
+rekreiraju	162		3
+rekviziciju	10		3
+relaciju	483		3
+relaksaciju	989		3
 religiju	2201		3
-reliju	1014		2
-relikviju	82		2
+reliju	1014		3
+relikviju	82		3
 relju			2
-relokaciju	17		2
-remećenju	39		2
+relokaciju	17		3
+remećenju	39		3
 remiju	197		3
-remisiju	51		2
+remisiju	51		3
 renoviraju	287		3
-renoviranju	348		2
-rentiranju	28		2
+renoviranju	348		3
+rentiranju	28		3
 reorganizaciju	877		3
 reparaciju	287		3
-repeticiju	19		2
-repetiraju	15		2
-repliciraju	82		2
+repeticiju	19		3
+repetiraju	15		3
+repliciraju	82		3
 represiju	432		3
 reprezentaciju	6722		3
-repriziraju	114		2
+repriziraju	114		3
 reprodukciju	2007		3
-reprodukuju	528		2
-reprogramiraju	172		2
+reprodukuju	528		3
+reprogramiraju	172		3
 reputaciju	3343		3
-resekciju	39		2
-resetuju	106		2
-reskiraju	42		2
-respektuju	111		2
+resekciju	39		3
+resetuju	106		3
+reskiraju	42		3
+respektuju	111		3
 restauraciju	774		3
-restauriraju	68		2
-retenciju	45		2
-retorziju	12		2
-revanširaju	147		2
-revidiraju	249		2
-revidiranju	50		2
-reviju	849		2
+restauriraju	68		3
+retenciju	45		3
+retorziju	12		3
+revanširaju	147		3
+revidiraju	249		3
+revidiranju	50		3
+reviju	849		3
 reviziju	4098		3
-revnovanju			2
+revnovanju			3
 revoluciju	3902		3
-rezanju	137		2
+rezanju	137		3
 rezbariju	28		3
 rezervaciju	873		3
 rezidenciju	560		3
-rezignaciju	106		2
-rezimiraju	46		2
+rezignaciju	106		3
+rezimiraju	46		3
 rezoluciju	6581		3
 rezonanciju	24		3
-rezoniraju			2
-rezoniranju			2
-rezonovanju	96		2
-rezonuju	151		2
-rezultiraju			2
-rezultuju	91		2
-rečiju			2
+rezoniraju			3
+rezoniranju			3
+rezonovanju	96		3
+rezonuju	151		3
+rezultiraju			3
+rezultuju	91		3
+rečiju			3
 rečju	6884		2
-ređaju	732		2
-ređanju	15		2
-ređenju	10		2
+ređaju	732		3
+ređanju	15		3
+ređenju	10		3
 rešavaju	7417		3
-rešavanju	12106		2
+rešavanju	12106		3
 rešenju	5459		2
 rešetaju	38		3
-režanju	10		2
+režanju	10		3
 režiju	2415		3
-režiraju	127		2
-režiranju	45		2
+režiraju	127		3
+režiranju	45		3
 režnju	71		2
-ribaju	32		2
-ribanju	18		2
-ribarenju	31		2
+ribaju	32		3
+ribanju	18		3
+ribarenju	31		3
 riblju	458		2
 ridaju	28		3
-ridanju	17		2
-rijalitiju	746		2
-rikanju			2
-riminiju			2
-rimuju	49		2
-riskiraju			2
-ritaju	12		2
-rizikuju	1225		2
-riškaju			2
-robijanju	10		2
-robiju	1285		2
+ridanju	17		3
+rijalitiju	746		3
+rikanju			3
+riminiju			3
+rimuju	49		3
+riskiraju			3
+ritaju	12		3
+rizikuju	1225		3
+riškaju			3
+robijanju	10		3
+robiju	1285		3
 robinju	104		3
 roblju	37		2
-robovanju	62		2
+robovanju	62		3
 robuju	213		2
 roditelju	739		4
 rodoljublju	114		4
 roglju			2
 rogonju			3
-rojenju	40		2
+rojenju	40		3
 roju	126		2
-rokaju			2
-roktanju			2
-ronjenju	275		2
-roptanju			2
-rospiju			2
+rokaju			3
+roktanju			3
+ronjenju	275		3
+roptanju			3
+rospiju			3
 rotaciju	522		3
-rotiraju	385		2
-rotiranju	17		2
-rovanju			2
-rovinju			2
-rozaliju			2
-rođakinju			2
+rotiraju	385		3
+rotiranju	17		3
+rovanju			3
+rovinju			3
+rozaliju			3
+rođakinju			3
 rođenju	3269		2
-roštiljaju	41		2
-roštiljanju	14		2
+roštiljaju	41		3
+roštiljanju	14		3
 roštilju	527		2
 rtnju			2
 rublju	112		2
 rugaju	388		3
-ruganju	35		2
-rukovanju	495		2
-rukovođenju	530		2
+ruganju	35		3
+rukovanju	495		3
+rukovođenju	530		3
 rukuju	485		3
 rulju	146		2
-rumeniju			2
-ruskinju			2
-rusvaju			2
+rumeniju			3
+ruskinju			3
+rusvaju			3
 ručaju	248		3
-ručavaju	14		2
-rušenju	1437		2
-rvaju			2
-rvanju	326		2
+ručavaju	14		3
+rušenju	1437		3
+rvaju			3
+rvanju	326		3
 sabijaju	64		3
 sabiju	59		3
 sabiraju	694		4
-sabiranju	146		2
+sabiranju	146		3
 sablju	703		2
-saborovanju	40		2
+saborovanju	40		3
 sabotiraju	259		3
 sadašnju	2050		3
 sadnju	1030		2
 sadržaju	4535		4
 sadržavaju	80		4
-safariju	95		2
+safariju	95		3
 saginju	64		3
-saglasju	422		2
+saglasju	422		3
 sagledaju	1761		4
-sagledavanju	861		2
+sagledavanju	861		3
 sagnjiju			3
 sagorevaju	332		3
-sagorevanju	262		2
-sagrešenju			2
-sagrešuju			2
+sagorevanju	262		3
+sagrešenju			3
+sagrešuju			3
 sahranjuju	446		2
-sajentologiju			2
-sakaćenju	45		2
+sajentologiju			3
+sakaćenju	45		3
 sakriju	1431		3
 sakristiju			3
 sakrivaju	372		3
-sakrivanju	69		2
+sakrivanju	69		3
 saksiju	286		3
-saksoniju			2
+saksoniju			3
 sakupljaju	1320		3
-sakupljanju	513		2
+sakupljanju	513		3
 salutiraju	27		3
-samardžiju			2
+samardžiju			3
 samelju	87		3
-samogradnju			2
-samoljublju	56		2
-samoočuvanju			2
+samogradnju			3
+samoljublju	56		3
+samoočuvanju			3
 samopouzdanju	365		2
 samopoštovanju	91		2
-samosažaljenju			2
-samotinju			2
+samosažaljenju			3
+samotinju			3
 samouništenju	97		2
 samoupravljanju	155		4
-samovanju	21		2
-samovaranju			2
+samovanju	21		3
+samovaranju			3
 samovolju	414		3
 samuju	27		2
 samuraju	18		2
 sanaciju	2684		3
-sanatoriju			2
-sangriju			2
-saniraju	615		2
-saniranju	525		2
+sanatoriju			3
+sangriju			3
+saniraju	615		3
+saniranju	525		3
 sanjaju	2227		3
-sanjanju	37		2
-sanjarenju	114		2
+sanjanju	37		3
+sanjarenju	114		3
 sankciju	334		3
 saobraćaju	12631		5
-saobraćanju	33		2
-saopštavaju	1249		2
+saobraćanju	33		3
+saopštavaju	1249		3
 saopštenju	26950		2
-saosećaju	169		2
-saosećanju	68		2
-sapinju			2
+saosećaju	169		3
+saosećanju	68		3
+sapinju			3
 saradnju	44070		2
-sarajliju			2
-saraju			2
+sarajliju			3
+saraju			3
 sarađuju	5501		2
-saslušaju	646		2
-saslušanju	826		2
-saslušavaju	92		2
-saslušavanju	20		2
+saslušaju	646		3
+saslušanju	826		3
+saslušavaju	92		3
+saslušavanju	20		3
 sastaju	2511		3
 sastavljaju	1110		4
-sastavljanju	641		2
-sasušuju			2
-satanizuju	131		2
-sateraju			2
-satiranju	29		2
-satisfakciju	950		2
-saučestvuju	67		2
-savatiju			2
+sastavljanju	641		3
+sasušuju			3
+satanizuju	131		3
+sateraju			3
+satiranju	29		3
+satisfakciju	950		3
+saučestvuju	67		3
+savatiju			3
 savetovanju	982		5
 savetuju	3316		4
 savijaju	312		3
-savijanju	83		2
+savijanju	83		3
 saviju	91		3
 savladaju	2280		3
-savladavanju	650		2
-savlađivanju	200		2
+savladavanju	650		3
+savlađivanju	200		3
 savlađuju	145		2
 savršeniju	35		4
-sazdaju	10		2
-sazdavanju			2
-sazidaju	47		2
+sazdaju	10		3
+sazdavanju			3
+sazidaju	47		3
 sazivaju	87		3
-sazivanju	152		2
+sazivanju	152		3
 saznaju	5691		3
-saznanju	1085		2
-saznavanju	87		2
+saznanju	1085		3
+saznavanju	87		3
 sazrevaju	565		3
-sazrevanju	387		2
-sazvučju	58		2
+sazrevanju	387		3
+sazvučju	58		3
 sačekaju	1529		4
 sačekuju	107		2
 sačinjavaju	2255		3
-sačinjavanju	99		2
+sačinjavanju	99		3
 sačuvaju	3566		3
-sađenju	61		2
-sašaptavaju			2
-sažaljenju	25		2
-sažaljevaju			2
+sađenju	61		3
+sašaptavaju			3
+sažaljenju	25		3
+sažaljevaju			3
 sažetiju			4
 sažimaju	104		4
-sažimanju	45		2
+sažimanju	45		3
 scenariju	3013		3
-scenografiju	916		2
+scenografiju	916		3
 secesiju	836		3
 seciraju	38		3
-seckaju	117		2
-seckanju	21		2
+seckaju	117		3
+seckanju	21		3
 sedaju	294		3
-sedenju	193		2
-sedlaju			2
-sedmogodišnju	111		2
-segmentaciju	78		2
-segoviju			2
+sedenju	193		3
+sedlaju			3
+sedmogodišnju	111		3
+segmentaciju	78		3
+segoviju			3
 segregaciju	101		3
-sejanju	40		2
+sejanju	40		3
 seju	808		2
 sekciju	1376		3
 sekiraju	164		3
-seksaju	63		2
-sekularizaciju	47		2
+seksaju	63		3
+sekularizaciju	47		3
 selekciju	4569		3
-seljakanju			2
-seljenju	34		2
-semberiju			2
+seljakanju			3
+seljenju	34		3
+semberiju			3
 senju			2
 senzaciju	616		3
-senčenju	10		2
+senčenju	10		3
 separaciju	334		3
-sergiju			2
+sergiju			3
 seriju	12920		3
-sertifikaciju	1144		2
-serviraju	1101		2
-serviranju	82		2
+sertifikaciju	1144		3
+serviraju	1101		3
+serviranju	82		3
 sesiju	431		3
 sevaju	256		3
-sevdisanju			2
-sevilju			2
+sevdisanju			3
+sevilju			3
 sećaju	2303		3
 sećanju	3940		3
-sečenju	187		2
+sečenju	187		3
 shvataju	5888		3
-shvatanju	2740		2
-shvaćaju			2
-siciliju			2
-sidneju			2
-signalizaciju	637		2
+shvatanju	2740		3
+shvaćaju			3
+siciliju			3
+sidneju			3
+signalizaciju	637		3
 sigurniju	355		4
 sijaju	530		3
-sijanju	15		2
-silaženju	12		2
+sijanju	15		3
+silaženju	12		3
 siledžiju	56		3
 silniju			3
 silovanju	252		4
 silovatelju	22		4
 siluju	437		3
-silviju			2
+silviju			3
 simbolizuju	598		4
 simetriju	199		3
 simfoniju	274		3
 simpatiju	294		3
-simpatiziraju			2
+simpatiziraju			3
 simpoziju	32		3
 simulaciju	1001		3
 simuliraju	385		3
-simuliranju	38		2
-sinaju			2
+simuliranju	38		3
+sinaju			3
 sinergiju	383		3
 sinhroniju			3
-sinhronizaciju	715		2
-sinhronizuju	171		2
+sinhronizaciju	715		3
+sinhronizuju	171		3
 sinju	12		2
-sinovlju			2
+sinovlju			3
 sinoćnju	22		3
 sipaju	524		3
-sipanju	29		2
+sipanju	29		3
 siplju			2
 sirotinju	1125		3
 sisaju	457		3
-sitnariju			2
+sitnariju			3
 sitniju	61		3
 situaciju	39646		3
-situiraju	29		2
-situiranju	13		2
+situiraju	29		3
+situiranju	13		3
 sjajniju	53		3
 sjaju	1656		2
 sjedinjavaju	17		3
-sjedinjavanju			2
-sjedinjenju	115		2
-sjedinjuju	238		2
-skakanju	78		2
-skakutanju			2
-skalameriju	124		2
+sjedinjavanju			3
+sjedinjenju	115		3
+sjedinjuju	238		3
+skakanju	78		3
+skakutanju			3
+skalameriju	124		3
 skalpiraju			3
 skandiraju	189		3
-skapavaju	47		2
-skeledžiju			2
+skapavaju	47		3
+skeledžiju			3
 skeniraju	358		3
-skeniranju	137		2
-skiciranju	21		2
+skeniranju	137		3
+skiciranju	21		3
 skidaju	2231		3
-skidanju	537		2
+skidanju	537		3
 skijaju	317		3
-skijanju	1300		2
+skijanju	1300		3
 skiju	128		2
 skitaju	37		3
 skitnju			2
 skladatelju			4
 skladniju			3
 sklanjaju	625		3
-sklanjanju	51		2
+sklanjanju	51		3
 sklapaju	1690		3
-sklapanju	761		2
-skljokaju			2
-sklupčaju	17		2
-skontaju	103		2
-skončaju	31		2
-skončanju			2
-skorašnju	124		2
-skoriju	85		2
-skraćenju	190		2
-skraćivanju	102		2
+sklapanju	761		3
+skljokaju			3
+sklupčaju	17		3
+skontaju	103		3
+skončaju	31		3
+skončanju			3
+skorašnju	124		3
+skoriju	85		3
+skraćenju	190		3
+skraćivanju	102		3
 skraćuju	468		2
-skretanju	330		2
-skrhaju			2
+skretanju	330		3
+skrhaju			3
 skriju	32		2
 skrivaju	1291		3
-skrivanju	307		2
-skrnavljenju	56		2
+skrivanju	307		3
+skrnavljenju	56		3
 skromniju	61		3
 skupljaju	2266		3
-skupljanju	220		2
+skupljanju	220		3
 skuvaju	200		3
 slabiju	731		3
-slabljenju	427		2
-slabotinju			2
+slabljenju	427		3
+slabotinju			3
 slaganju	260		2
 slamaju	52		3
-slamanju	109		2
+slamanju	109		3
 slanju	653		2
-slavljenju	138		2
+slavljenju	138		3
 slavlju	673		2
 slavniju	15		3
-slavoniju			2
+slavoniju			3
 slavuju	23		2
-sledovanju	10		2
-sleduju	358		2
-sletanju	478		2
-slijevaju	14	J	2
+sledovanju	10		3
+sleduju	358		3
+sletanju	478		3
+slijevaju	14	J	3
 slikaju	1938		3
 slikanju	463		3
-slivaju			2
-slivanju			2
+slivaju			3
+slivanju			3
 sljubljuju			2
 slobodniju	59		4
 sloju	2237		2
-slovakinju			2
-slovenkinju			2
-slovkanju			2
+slovakinju			3
+slovenkinju			3
+slovkanju			3
 složeniju	110		4
 slupaju	21		3
 slutnju	97		2
-slućenju			2
+slućenju			3
 slučaju	146920		3
-sluđuju			2
+sluđuju			3
 slušaju	6592		3
 slušanju	480		3
 slušatelju			4
 sluškinju	195		3
-službovanju	26		2
-služenju	632		2
+službovanju	26		3
+služenju	632		3
 služitelju	23		4
 smanjenju	6610		2
-smanjivanju	979		2
+smanjivanju	979		3
 smanjuju	7381		2
-smaraju	434		2
+smaraju	434		3
 smatraju	40285		3
 smejanju	32		2
 smeju	13097		2
-smekšaju	30		2
-smekšavaju			2
+smekšaju	30		3
+smekšavaju			3
 smeliju	17		3
-smenjivanju	186		2
+smenjivanju	186		3
 smenjuju	2423		2
-smeraju			2
+smeraju			3
 smetaju	3604		3
 smetnju	600		2
-smeškaju	248		2
+smeškaju	248		3
 smeštaju	2305		3
-smeštanju	65		2
+smeštanju	65		3
 smiju	1144	J	2
 smilju	21		2
 smiluju	103		3
-smiraju	57		2
-smirenju	300		2
-smirivanju	417		2
+smiraju	57		3
+smirenju	300		3
+smirivanju	417		3
 smiruju	515		2
 smišljaju	626		3
-smišljanju	69		2
-smotreniju			2
+smišljanju	69		3
+smotreniju			3
 smrskaju			3
 smrzavaju	220		4
-smrzavanju	31		2
-smršaju	226		2
-smucaju	28		2
+smrzavanju	31		3
+smršaju	226		3
+smucaju	28		3
 smutnju			2
-smuvaju	55		2
-smućkaju	14		2
-smućuju			2
+smuvaju	55		3
+smućkaju	14		3
+smućuju			3
 snabdevaju	1247		3
 snabdevanju	1487		2
 snaju			2
-snalaženju	223		2
-snaženju	82		2
+snalaženju	223		3
+snaženju	82		3
 snažniju	342		3
-snevaju			2
-snevanju			2
+snevaju			3
+snevanju			3
 snimaju	2676		3
-snimanju	2709		2
-snimatelju	78		2
+snimanju	2709		3
+snimatelju	78		3
 snivaju	11		3
 snižavaju	645		3
-snižavanju	389		2
+snižavanju	389		3
 sniženju	619		2
-snovanju			2
-snoviđenju	42		2
+snovanju			3
+snoviđenju	42		3
 snošaju	20		3
-snošenju	22		2
+snošenju	22		3
 snuju	29		2
-sobranju			2
+sobranju			3
 sociologiju	1172		3
 soju	931		2
-sokobanju			2
+sokobanju			3
 solju	1074		2
 solsticiju	12		3
-somaliju			2
-sondiraju	12		2
+somaliju			3
+sondiraju	12		3
 sonju			2
-sopranistkinju			2
-sortiraju	137		2
-sortiranju	56		2
+sopranistkinju			3
+sortiraju	137		3
+sortiranju	56		3
 sočniju			3
 spadaju	11532		3
 spahiju	14		3
 spajaju	2443		3
-spajanju	696		2
+spajanju	696		3
 spakuju	299		3
 spaljivanju	151		2
 spaljuju	411		2
-spanđaju			2
-sparivanju	14		2
-sparuju	23		2
-sparušuju			2
+spanđaju			3
+sparivanju	14		3
+sparuju	23		3
+sparušuju			3
 spasavaju	779		3
-spasavanju	662		2
+spasavanju	662		3
 spasenju	888		2
 spasitelju	255		4
 spavaju	4092		3
 spavanju	736		2
-spašavaju			2
-spašavanju	352		2
+spašavaju			3
+spašavanju	352		3
 specifikaciju	735		3
 specifikuju	27		4
 specijalizaciju	1478		3
-spelovanju			2
+spelovanju			3
 speluju			3
 spilju			2
-spiraju			2
-spiranju			2
+spiraju			3
+spiranju			3
 spisatelju	14		4
 spiskaju	35		3
-splašnjavaju	12		2
+splašnjavaju	12		3
 spoju	1048		2
 spokojniju	11		3
 spokoju	72		3
 spoljašnju	860		3
 spoljnju	95		2
-spominjanju	54		2
+spominjanju	54		3
 spominju	2932		3
 spopadaju	66		4
-sporenju	33		2
-sporečkaju			2
+sporenju	33		3
+sporečkaju			3
 sporiju	117		3
-spoticanju			2
+spoticanju			3
 spoznaju	884		3
-spoznavanju	31		2
-spravljaju	140		2
-spravljanju	191		2
+spoznavanju	31		3
+spravljaju	140		3
+spravljanju	191		3
 sprdaju	322		3
 sprdnju			2
 spreju	312		2
 spremaju	4500		3
-spremanju	538		2
+spremanju	538		3
 sprečavaju	3991		3
-sprečavanju	3462		2
-sprovođenju	6515		2
+sprečavanju	3462		3
+sprovođenju	6515		3
 sputaju	59		3
 sputavaju	537		3
-sputavanju	31		2
+sputavanju	31		3
 spuštaju	1549		3
-spuštanju	282		2
-sramoćenju			2
-srastaju	42		2
-sravnjuju	24		2
-srbadiju			2
-srbizaciju	17		2
-srbuju	57		2
+spuštanju	282		3
+sramoćenju			3
+srastaju	42		3
+sravnjuju	24		3
+srbadiju			3
+srbizaciju	17		3
+srbuju	57		3
 srdačniju			4
 srdnju			2
 središnju	223		3
 srednju	7222		2
-sredozemlju			2
-sretanju			2
+sredozemlju			3
+sretanju			3
 sretniju	22		3
-srezivanju			2
+srezivanju			3
 srećniju	129		3
-sređivanju	688		2
+sređivanju	688		3
 sređuju	436		2
-sricanju			2
+sricanju			3
 srljaju	187		3
-srljanju	21		2
-srozaju	53		2
-srozavaju	95		2
-srozavanju	67		2
-srpkinju			2
-sručuju			2
+srljanju	21		3
+srozaju	53		3
+srozavaju	95		3
+srozavanju	67		3
+srpkinju			3
+sručuju			3
 srčaniju			4
 sržju			2
 stabilizaciju	1742		3
-stabilizuju	502		2
+stabilizuju	502		3
 stabilniju	154		4
-stadiju	110		2
+stadiju	110		3
 stagnaciju	475		3
 stagniraju	277		3
-stajanju	144		2
+stajanju	144		3
 staju	1187		2
-staklariju			2
+staklariju			3
 standardizaciju	1311		3
-staniju			2
+staniju			3
 stanju	64584		2
-stanjuju	23		2
-stanoju			2
-stanovanju	564		2
+stanjuju	23		3
+stanoju			3
+stanovanju	564		3
 stanuju	1266		2
 stapaju	384		3
-stapanju	37		2
+stapanju	37		3
 staraju	912		3
-staranju	186		2
+staranju	186		3
 staratelju	56		4
 starenju	321		3
 stariju	1448		3
-startovanju	154		2
-startuju	609		2
-starudiju	33		2
-stasaju	178		2
-stasavaju	238		2
+startovanju	154		3
+startuju	609		3
+starudiju	33		3
+stasaju	178		3
+stasavaju	238		3
 stavljaju	7054		3
-stavljanju	542		2
-stažiranju	45		2
+stavljanju	542		3
+stažiranju	45		3
 stelju	31		2
-stenjanju	11		2
+stenjanju	11		3
 stenju	127		2
-stenografiju			2
-stepenuju			2
-stepuju			2
-steriju			2
-sterilizaciju	407		2
-stezanju	59		2
+stenografiju			3
+stepenuju			3
+stepuju			3
+steriju			3
+sterilizaciju	407		3
+stezanju	59		3
 stečaju	3502		3
-stešnjavaju			2
-sticaju	150		2
-sticanju	1628		2
-stihiju	126		2
-stilizaciju	96		2
-stilizuju	19		2
-stimulaciju	1149		2
+stešnjavaju			3
+sticaju	150		3
+sticanju	1628		3
+stihiju	126		3
+stilizaciju	96		3
+stilizuju	19		3
+stimulaciju	1149		3
 stipendiju	2571		3
 stiskaju	106		3
-stizanju	48		2
+stizanju	48		3
 stišaju	114		3
 stišavaju	85		3
-stišavanju	16		2
-stogodišnju	73		2
+stišavanju	16		3
+stogodišnju	73		3
 stoju	54		2
-stolariju	520		2
-stoluju	63		2
+stolariju	520		3
+stoluju	63		3
 stomatologiju	290		3
-stopiranju	36		2
-storiju			2
-storniraju	15		2
-stočarenju			2
+stopiranju	36		3
+storiju			3
+storniraju	15		3
+stočarenju			3
 stradaju	1716		3
-stradanju	1577		2
+stradanju	1577		3
 stradavaju	21		3
-strahinju			2
-strahovanju	34		2
+strahinju			3
+strahovanju	34		3
 strahuju	2219		2
 strankinju	38		3
 strategiju	11664		3
 strašniju	35		3
 stražnju	33		2
-streljaju	240		2
-streljanju	166		2
-stremljenju	117		2
+streljaju	240		3
+streljanju	166		3
+stremljenju	117		3
 strepnju	379		2
-stresaju			2
+stresaju			3
 striju	22		2
-striktniju			2
+striktniju			3
 stroju	336		2
-strovaljuju			2
-strpaju	239		2
+strovaljuju			3
+strpaju	239		3
 strpljenju	644		3
-struganju			2
-strujanju	87		2
+struganju			3
+strujanju	87		3
 struju	14945		2
-studentkinju	140		2
+studentkinju	140		3
 studiju	9328		3
 studiraju	3012		3
-studiranju	424		2
+studiranju	424		3
 stupaju	1685		3
-stupanju	632		2
+stupanju	632		3
 stupnju	634		2
-stupovlju			2
+stupovlju			3
 stvaraju	15416		3
 stvaranju	11985		2
 stvarniju	10		3
 stvorenju	195		2
 stvoritelju	163		4
-stvrdnjavaju	19		2
+stvrdnjavaju	19		3
 subotnju	78		3
-subvenciju	1150		2
-subverziju	39		2
-sudaraju	510		2
+subvenciju	1150		3
+subverziju	39		3
+sudaraju	510		3
 sudiju	1422		3
 sugestiju	1044		3
 sujeverju	91		4
-sukcesiju	103		2
-sukciju			2
-sukljaju			2
+sukcesiju	103		3
+sukciju			3
+sukljaju			3
 suknju	1060		2
 sukobljavaju	571		3
-sumiraju	307		2
-sumiranju	30		2
+sumiraju	307		3
+sumiranju	30		3
 sumnjaju	1976		3
-sumnjanju			2
-sumnjičenju	14		2
+sumnjanju			3
+sumnjičenju	14		3
 sumnju	5950		2
 sumorniju			4
-sumračju			2
+sumračju			3
 sunčaju	187		3
-sunčanju	123		2
+sunčanju	123		3
 suočavaju	5430		3
-suočavanju	705		2
-suočenju	60		2
-superheroju	47		2
+suočavanju	705		3
+suočenju	60		3
+superheroju	47		3
 suprotstavljaju	780		4
-suprotstavljanju	302		2
+suprotstavljanju	302		3
 surađuju	86		2
-surfanju	12		2
-surfovanju	111		2
-surfuju	274		2
+surfanju	12		3
+surfovanju	111		3
+surfuju	274		3
 suroviju	14		4
 survaju	11		3
 survavaju	23		3
-suspenduju	215		2
+suspenduju	215		3
 suspenziju	698		3
-sustaju			2
-sustizanju	10		2
+sustaju			3
+sustizanju	10		3
 sutkinju	11		3
 sutrašnju	300		3
 suzbijaju	300		3
-suzbijanju	2072		2
+suzbijanju	2072		3
 suzbiju	309		3
 suzdržavaju	73		4
-sučeljavaju	161		2
-sučeljavanju	149		2
-sučelju	27		2
+sučeljavaju	161		3
+sučeljavanju	149		3
+sučelju	27		3
 suđenju	3474		2
-sušenju	166		2
+sušenju	166		3
 sužavaju	364		3
-sužavanju	84		2
+sužavanju	84		3
 sužnju	25		2
 svagdašnju	19		3
-svahiliju	14		2
+svahiliju	14		3
 svakidašnju	33		4
 svakoju	18		3
-svaljuju	140		2
+svaljuju	140		3
 svačiju	259		3
 svađaju	1354		3
 svedokinju	22		3
-svedočenju	1056		2
+svedočenju	1056		3
 svetinju	1237		3
-svetitelju			2
-svetkovanju	19		2
+svetitelju			3
+svetkovanju	19		3
 svetkuju	89		2
 svetliju	453		3
 svetlucaju	153		3
-svetlucanju	18		2
-svezuju			2
-svežiju			2
+svetlucanju	18		3
+svezuju			3
+svežiju			3
 svežnju	13		2
-svijaju	34		2
+svijaju	34		3
 sviju	1609		2
-sviniju			2
+sviniju			3
 svinjariju	73		3
-svinjokolju	26		2
+svinjokolju	26		3
 svinju	456		2
 sviraju	2665		3
-sviranju	261		2
+sviranju	261		3
 svitanju	33		3
 sviđaju	1857		3
-sviđanju			2
+sviđanju			3
 svladaju			3
-svlačenju	12		2
-svojataju	292		2
+svlačenju	12		3
+svojataju	292		3
 svoju	205425		2
-svođenju	139		2
+svođenju	139		3
 svraćaju	229		3
-svrgavaju	14		2
-svrgavanju	127		2
+svrgavaju	14		3
+svrgavanju	127		3
 svrstaju	252		3
 svrstavaju	1740		4
-svrstavanju	71		2
+svrstavanju	71		3
 svršavaju	94		4
-svršavanju	16		2
-tabaju	56		2
+svršavanju	16		3
+tabaju	56		3
 tadanju			3
 tadašnju	926		3
-tadiju			2
-tahikardiju	59		2
-tahitiju			2
+tadiju			3
+tahikardiju	59		3
+tahitiju			3
 taju			2
-takmičenju	16493		2
+takmičenju	16493		3
 taksiju	304		3
 talasaju	170		3
-talasanju	16		2
+talasanju	16		3
 tamniju	297		3
-tamnovanju	17		2
+tamnovanju	17		3
 tamošnju	292		3
 tananiju			4
 tanju			2
-tanzaniju			2
-taokinju			2
-tapiju			2
+tanzaniju			3
+taokinju			3
+tapiju			3
 tapiseriju	78		3
-tapkaju	105		2
-tavorenju	14		2
+tapkaju	105		3
+tavorenju	14		3
 tačniju	63		3
-tbilisiju			2
+tbilisiju			3
 tehnologiju	12907		3
-tekiju	56		2
+tekiju	56		3
 telefoniju	934		3
 telefoniraju	177		3
-telemetriju	32		2
+telemetriju	32		3
 telepatiju	41		3
-teleportaciju	27		2
-teleportuju			2
+teleportaciju	27		3
+teleportuju			3
 televiziju	6497		3
 telohranitelju	14		4
-temeljniju	32		2
+temeljniju	32		3
 temelju	3684		3
-temenaju			2
+temenaju			3
 tendenciju	2905		3
-tenesiju			2
+tenesiju			3
 tenziju	930		3
-teodosiju			2
-teokratiju			2
+teodosiju			3
+teokratiju			3
 teologiju	467		3
 teoriju	6473		3
 tepaju	166		3
-tepsiju			2
+tepsiju			3
 teraju	2679		3
-teranju	129		2
+teranju	129		3
 terapiju	8741		3
-tereziju			2
+tereziju			3
 teritoriju	9863		3
 terminologiju	708		3
-terorisanju	13		2
+terorisanju	13		3
 terziju	10		3
-tesaliju			2
-tesanju			2
-testiju			2
+tesaliju			3
+tesanju			3
+testiju			3
 testiraju	1698		3
-testiranju	1401		2
+testiranju	1401		3
 tetoviraju	86		3
-teturaju	44		2
+teturaju	44		3
 tečaju	113		3
-tečenju	11		2
+tečenju	11		3
 tečniju	21		3
-tešenju			2
+tešenju			3
 tešnju	109		2
 težnju	1388		2
 tiganju	822		2
-tihovanju	167		2
+tihovanju	167		3
 tinjaju	109		3
-tinjanju			2
-tipizaciju	73		2
+tinjanju			3
+tipizaciju	73		3
 tipologiju	125		3
 tiraniju	260		3
-titluju	28		2
+titluju	28		3
 titraju	62		3
 tkaju	82		2
 tkanju	164		2
 tlapnju			2
-tlačenju	31		2
-tlačitelju			2
+tlačenju	31		3
+tlačitelju			3
 tobožnju	101		3
 toksikologiju	104		3
 toleranciju	2275		3
-tolstoju			2
-tomografiju	58		2
-tonjenju			2
+tolstoju			3
+tomografiju	58		3
+tonjenju			3
 topliju	125		3
-topljenju	105		2
-topografiju	116		2
+topljenju	105		3
+topografiju	116		3
 toponimiju			3
-torakotomiju			2
+torakotomiju			3
 tornju	368		2
-torpeduju			2
-tortilju	69		2
-točenju	19		2
+torpeduju			3
+tortilju	69		3
+točenju	19		3
 trabunjaju	69		3
-trabunjanju			2
+trabunjanju			3
 tradiciju	12643		3
 tragaju	1601		3
-traganju	1247		2
+traganju	1247		3
 tragediju	1806		3
-traheotomiju	19		2
-trajanju	8695		2
+traheotomiju	19		3
+trajanju	8695		3
 traju	10361		2
-trakiju			2
+trakiju			3
 tramvaju	303		3
 transakciju	864		3
 transformaciju	2046		3
 transfuziju	1487		3
 transkripciju	108		3
 transmisiju	254		3
-transmutaciju	16		2
+transmutaciju	16		3
 transplantaciju	1199		3
-transportuju	537		2
-transpoziciju	43		2
+transportuju	537		3
+transpoziciju	43		3
 tranziciju	1417		3
-trasiraju	114		2
+trasiraju	114		3
 traumatologiju	85		3
 travestiju	26		3
-traćenju	15		2
+traćenju	15		3
 tračaju	20		3
-traženju	1973		2
+traženju	1973		3
 tražnju	1450		2
 trebaju	13735		3
-trebinju			2
-trebovanju	19		2
-trebuju	36		2
+trebinju			3
+trebovanju	19		3
+trebuju	36		3
 treniraju	2238		3
-treniranju	137		2
+treniranju	137		3
 trenju	50		2
 treptaju	76		3
-treptanju	10		2
-treskaju			2
+treptanju	10		3
+treskaju			3
 tretiraju	3896		3
-tretiranju	490		2
+tretiranju	490		3
 trezniju			3
-treznoumlju			2
+treznoumlju			3
 trezveniju			4
 trešnju	181		2
 trgaju	31		3
-trgovanju	1144		2
+trgovanju	1144		3
 trguju	1201		3
 triangulaciju			3
 trigonometriju	34		3
 triju	902		2
-trijumfuju	204		2
+trijumfuju	204		3
 trilogiju	377		3
-trinaestogodišnju	40		2
-tričariju			2
-trkaju	126		2
-trkanju	20		2
+trinaestogodišnju	40		3
+tričariju			3
+trkaju	126		3
+trkanju	20		3
 trljaju	532		3
-trljenju			2
+trljenju			3
 trnju	284		2
 trofeju	331		2
-trogodišnju	362		2
+trogodišnju	362		3
 troheju			2
 troju			2
 tromesečju	2090		4
-trovanju	200		2
-trošenju	1169		2
-trpaju	510		2
+trovanju	200		3
+trošenju	1169		3
+trpaju	510		3
 trpezariju	585		4
-trpljenju	274		2
+trpljenju	274		3
 truju	980		2
-truljenju			2
-trupkaju			2
-trupkanju			2
-trvenju	18		2
+truljenju			3
+trupkaju			3
+trupkanju			3
+trvenju	18		3
 trzaju	119		3
-trzanju			2
+trzanju			3
 trčanju	1689		2
-trčkaju			2
+trčkaju			3
 trčkaraju	145		4
 tucaju	65		3
-tugovanju	21		2
+tugovanju	21		3
 tuguju	244		2
 tuju	28		2
 tumaraju	261		3
-tumaranju	47		2
-tumačenju	3017		2
+tumaranju	47		3
+tumačenju	3017		3
 turbulenciju	68		3
-turkinju			2
+turkinju			3
 turneju	2292		2
 turpiju	76		3
-turčenju			2
-turšiju			2
+turčenju			3
+turšiju			3
 tutnju			2
 tuširaju	87		3
-tuširanju	65		2
-tužakaju	66		2
+tuširanju	65		3
+tužakaju	66		3
 tužitelju	35		4
-tvituju	76		2
+tvituju	76		3
 tvoju	953		2
-tvorenju	18		2
+tvorenju	18		3
 tvrdnju	4261		2
-tvrđenju	250		2
-ubacivanju	123		2
+tvrđenju	250		3
+ubacivanju	123		3
 ubacuju	1269		2
 ubadaju	62		3
-ubeđenju	697		2
-ubeđivanju	128		2
-ubeđuju	966		2
+ubeđenju	697		3
+ubeđivanju	128		3
+ubeđuju	966		3
 ubijaju	4503		3
-ubijanju	634		2
+ubijanju	634		3
 ubiju	2783		3
 ubiraju	431		4
-ubiranju	52		2
+ubiranju	52		3
 ublažavaju	700		3
-ublažavanju	562		2
+ublažavanju	562		3
 ublažuju	60		2
-ubrajaju	1374		2
+ubrajaju	1374		3
 ubrizgaju	70		4
 ubrizgavaju	179		3
 ubrzaju	907		3
 ubrzanju	591		3
 ubrzavaju	1075		4
-ubrzavanju	195		2
-ubuđaju			2
-ucenjivanju	41		2
+ubrzavanju	195		3
+ubuđaju			3
+ucenjivanju	41		3
 ucenjuju	1063		2
-ucmekaju			2
-ucrtavaju	29		2
-ucrtavanju			2
-ucrvaju			2
+ucmekaju			3
+ucrtavaju	29		3
+ucrtavanju			3
+ucrvaju			3
 udaju	1139		3
 udaljavaju	544		3
-udaljavanju	142		2
-udaljenju	93		2
-udaljuju	140		2
+udaljavanju	142		3
+udaljenju	93		3
+udaljuju	140		3
 udaraju	1600		4
-udaranju	50		2
-udebljaju	29		2
-udešavaju			2
-udešavanju			2
-udovoljavaju	114		2
+udaranju	50		3
+udebljaju	29		3
+udešavaju			3
+udešavanju			3
+udovoljavaju	114		3
 udruženju	4970		2
-udruživanju	569		2
+udruživanju	569		3
 udružuju	946		2
-udubljenju	88		2
-udubljivanju			2
-udubljuju	56		2
-udvajaju	21		2
-udvajanju			2
-udvaraju	197		2
+udubljenju	88		3
+udubljivanju			3
+udubljuju	56		3
+udvajaju	21		3
+udvajanju			3
+udvaraju	197		3
 udvaranju	71		2
-ufuraju			2
+ufuraju			3
 ugađaju	111		3
-ugađanju	16		2
+ugađanju	16		3
 ugibaju	41		3
-uglačaju			2
+uglačaju			3
 ugledaju	1309		4
-ugljevlju			2
+ugljevlju			3
 uglju	253		2
-ugnaju			2
-ugnjetavaju	113		2
-ugnjetavanju	87		2
+ugnaju			3
+ugnjetavaju	113		3
+ugnjetavanju	87		3
 ugovaraju	423		3
-ugovaranju	144		2
-ugošćavaju	15		2
-ugošćavanju			2
-ugošćenju			2
-ugošćuju	23		2
-ugradnju	2857		2
-ugrađivanju	59		2
+ugovaranju	144		3
+ugošćavaju	15		3
+ugošćavanju			3
+ugošćenju			3
+ugošćuju	23		3
+ugradnju	2857		3
+ugrađivanju	59		3
 ugrađuju	1714		2
 ugreju	112		3
 ugrožavaju	3980		3
-ugrožavanju	269		2
-uguraju	199		2
-uguravaju			2
-ugušenju	15		2
-ugušivanju			2
-ugušuju			2
-uhljebljenju			2
-uhođenju			2
-uigraju	82		2
-uigravanju	60		2
+ugrožavanju	269		3
+uguraju	199		3
+uguravaju			3
+ugušenju	15		3
+ugušivanju			3
+ugušuju			3
+uhljebljenju			3
+uhođenju			3
+uigraju	82		3
+uigravanju	60		3
 ujedaju	299		3
-ujedanju			2
-ujedinjavanju	112		2
-ujedinjenju	926		2
-ujedinjuju	401		2
-ujednačuju	10		2
-ukaljaju	39		2
-ukapiraju	157		2
-ukazanju	28		2
-ukazivanju	173		2
+ujedanju			3
+ujedinjavanju	112		3
+ujedinjenju	926		3
+ujedinjuju	401		3
+ujednačuju	10		3
+ukaljaju	39		3
+ukapiraju	157		3
+ukazanju	28		3
+ukazivanju	173		3
 ukazuju	13909		2
 ukidaju	1222		3
-ukidanju	2400		2
+ukidanju	2400		3
 uklanjaju	1568		4
-uklanjanju	1438		2
-uklapaju	2295		2
-uklapanju	117		2
-uklesuju			2
-uključenju	327		2
-uključivanju	1161		2
+uklanjanju	1438		3
+uklapaju	2295		3
+uklapanju	117		3
+uklesuju			3
+uključenju	327		3
+uključivanju	1161		3
 uključuju	8832		2
-ukokaju			2
+ukokaju			3
 ukopaju	64		3
 ukopavaju	126		3
-ukopčavaju			2
+ukopčavaju			3
 ukorenjuju	17		2
 ukrašavaju	368		3
-ukrašavanju	143		2
-ukrašeniju			2
+ukrašavanju	143		3
+ukrašeniju			3
 ukrcaju	142		4
 ukrcavaju	59		4
 ukrcavanju	40		3
-ukrotitelju			2
-ukroćivanju			2
-ukroćuju			2
-ukrštaju	763		2
-ukrštanju	167		2
-ukrštavaju			2
-ukrštavanju			2
-ukucavaju	47		2
+ukrotitelju			3
+ukroćivanju			3
+ukroćuju			3
+ukrštaju	763		3
+ukrštanju	167		3
+ukrštavaju			3
+ukrštavanju			3
+ukucavaju	47		3
 ukusniju	10		4
-ukuvaju			2
-ulaganju	1144		2
+ukuvaju			3
+ulaganju	1144		3
 ulaguju	56		2
-ulančavaju			2
-ulančavanju			2
-ulaženju	31		2
-ulcinju			2
+ulančavaju			3
+ulančavanju			3
+ulaženju	31		3
+ulcinju			3
 ulepšaju	365		3
 ulepšavaju	311		3
-ulepšavanju	171		2
-uletanju			2
-ulivaju			2
+ulepšavanju	171		3
+uletanju			3
+ulivaju			3
 ulizuju	57		2
 ulju	2453		2
-uljuljkaju	25		2
-uljuljkuju	37		2
-umaljuju			2
-umanjenju	170		2
-umanjivanju	51		2
-umanjuju	1354		2
+uljuljkaju	25		3
+uljuljkuju	37		3
+umaljuju			3
+umanjenju	170		3
+umanjivanju	51		3
+umanjuju	1354		3
 umaraju	142		3
-umaranju			2
-umarširaju	18		2
+umaranju			3
+umarširaju	18		3
 umeju	6605		3
-umenju	14		2
-umeravaju			2
-umetanju	16		2
-umešaju	359		2
+umenju	14		3
+umeravaju			3
+umetanju	16		3
+umešaju	359		3
 umiju	226		3
-umiljavaju	30		2
-umiranju	215		2
-umirenju	11		2
-umirivanju	18		2
-umiruju	193		2
+umiljavaju	30		3
+umiranju	215		3
+umirenju	11		3
+umirivanju	18		3
+umiruju	193		3
 umivaju	129		3
-umivanju	22		2
-umišljaju	137		2
-umnožavaju	534		2
-umnožavanju	106		2
-umoljavaju			2
-umotaju	47		2
-umotavaju	38		2
-umovanju	31		2
-umrežavanju	284		2
-umrtvljuju	31		2
-umudruju			2
+umivanju	22		3
+umišljaju	137		3
+umnožavaju	534		3
+umnožavanju	106		3
+umoljavaju			3
+umotaju	47		3
+umotavaju	38		3
+umovanju	31		3
+umrežavanju	284		3
+umrtvljuju	31		3
+umudruju			3
 umuju	11		2
-unajmljivanju			2
+unajmljivanju			3
 unajmljuju	100		2
 unakazuju			2
-unapređenju	6718		2
-unapređuju	1469		2
-unijaćenju	40		2
+unapređenju	6718		3
+unapređuju	1469		3
+unijaćenju	40		3
 uniju	8855		3
 uništavaju	3606		3
-uništavanju	1084		2
+uništavanju	1084		3
 uništenju	750		2
-uništitelju			2
+uništitelju			3
 unižavaju	47		3
-unižavanju			2
-unošenju	282		2
+unižavanju			3
+unošenju	282		3
 unutarnju	186		4
 unutrašnju	4067		4
-uobličavaju	119		2
-uobličuju	24		2
-uobrazilju	45		2
-uokviruju	114		2
-uopštavanju	41		2
+uobličavaju	119		3
+uobličuju	24		3
+uobrazilju	45		3
+uokviruju	114		3
+uopštavanju	41		3
 uočavaju	1217		3
-uočavanju	111		2
+uočavanju	111		3
 upadaju	1026		4
-upadanju	19		2
-upakuju	145		2
-uparuju	48		2
+upadanju	19		3
+upakuju	145		3
+uparuju	48		3
 upecaju	97		4
-upetljaju	26		2
-upetljavaju			2
+upetljaju	26		3
+upetljavaju			3
 upijaju	599		3
 upiju	146		3
-upinju	186		2
-upisivanju	66		2
+upinju	186		3
+upisivanju	66		3
 upisuju	2758		2
 upitaju	243		3
-uplaćuju	2019		2
-uplitanju	70		2
-upoređenju	55		2
-upoređuju	833		2
-upotpunjavaju	107		2
+uplaćuju	2019		3
+uplitanju	70		3
+upoređenju	55		3
+upoređuju	833		3
+upotpunjavaju	107		3
 upotrebljavaju	3267		3
 upoznaju	12064		3
-upoznavanju	1074		2
+upoznavanju	1074		3
 upozoravaju	6422		3
 upozorenju	338		2
 upošljavaju	210		3
-upošljavanju	66		2
+upošljavanju	66		3
 upravitelju	104		4
 upravljaju	5989		4
 upravljanju	6476		4
-upražnjavaju	621		2
-upražnjeniju			2
-uprezanju			2
+upražnjavaju	621		3
+upražnjeniju			3
+uprezanju			3
 uprljaju	77		3
 upropaštavaju	79		3
-uprošćavanju	30		2
-uprskaju	30		2
-upucaju	33		2
-upucavaju	10		2
-upućivanju	263		2
+uprošćavanju	30		3
+uprskaju	30		3
+upucaju	33		3
+upucavaju	10		3
+upućivanju	263		3
 upućuju	4232		2
-upuštaju	681		2
+upuštaju	681		3
 uranjaju	60		3
 uravnoteženiju	14		4
-urazumljuju			2
+urazumljuju			3
 uračunaju	179		3
-urbanizuju			2
+urbanizuju			3
 urezuju	79		2
 uređaju	3035		4
-uređenju	4371		2
-uređivanju	590		2
+uređenju	4371		3
+uređivanju	590		3
 uređuju	3201		2
-uriniraju	99		2
+uriniraju	99		3
 urlaju	257		3
-urologiju	123		2
-urtikariju	18		2
-uručenju	236		2
-uručivanju	78		2
+urologiju	123		3
+urtikariju	18		3
+uručenju	236		3
+uručivanju	78		3
 uručuju	163		2
-urušavaju	372		2
-urušavanju	292		2
-usaglašavanju	461		2
-usamljivanju			2
+urušavaju	372		3
+urušavanju	292		3
+usaglašavanju	461		3
+usamljivanju			3
 usavršavaju	1193		4
-usavršavanju	2260		2
+usavršavanju	2260		3
 usađuju	83		2
-usecaju			2
+usecaju			3
 useljavaju	148		3
-useljenju	65		2
-ushićenju	89		2
-usijavaju			2
+useljenju	65		3
+ushićenju	89		3
+usijavaju			3
 usisaju	47		4
 usisavaju	109		3
-usitnjavanju	20		2
-uskakuju			2
-uskladištenju	40		2
-usklađuju	695		2
-uskomešaju	15		2
-uskraćuju	460		2
-uskrsavaju			2
-uskršnju	118		2
-uslikaju	94		2
-uslovljavaju	890		2
+usitnjavanju	20		3
+uskakuju			3
+uskladištenju	40		3
+usklađuju	695		3
+uskomešaju	15		3
+uskraćuju	460		3
+uskrsavaju			3
+uskršnju	118		3
+uslikaju	94		3
+uslovljavaju	890		3
 usložnjavaju	87		3
-uslužuju	57		2
+uslužuju	57		3
 usmeravaju	1722		3
-usmeravanju	306		2
-usmerenju	178		2
-usmrćuju	11		2
+usmeravanju	306		3
+usmerenju	178		3
+usmrćuju	11		3
 uspavaju	166		3
 uspavljuju	128		2
 uspeju	2558		3
-uspenju			2
-uspentraju			2
+uspenju			3
+uspentraju			3
 uspevaju	4464		3
 uspešniju	209		4
 uspiju	198		3
-uspinjanju	20		2
+uspinjanju	20		3
 uspinju	51		3
 usporavaju	1133		3
-usporavanju	265		2
+usporavanju	265		3
 uspostavljaju	1398		4
-uspostavljanju	4508		2
-uspravljaju	26		2
-usrdniju			2
-usredsređuju			2
-usrećuju	101		2
-ustajanju	124		2
+uspostavljanju	4508		3
+uspravljaju	26		3
+usrdniju			3
+usredsređuju			3
+usrećuju	101		3
+ustajanju	124		3
 ustaju	774		3
-ustalasaju			2
-ustaljuju	22		2
-ustanovljivanju			2
-ustezanju			2
+ustalasaju			3
+ustaljuju	22		3
+ustanovljivanju			3
+ustezanju			3
 ustiju	139		3
-ustoličenju	189		2
-ustoličuju			2
+ustoličenju	189		3
+ustoličuju			3
 ustraju	43		3
-ustreljuju			2
-ustremljuju			2
-ustručavaju	244		2
+ustreljuju			3
+ustremljuju			3
+ustručavaju	244		3
 ustupaju	403		3
-ustupanju	408		2
+ustupanju	408		3
 usuđuju	682		2
 usvajaju	1843		3
-usvajanju	2443		2
-usvojenju	52		2
-utaju	410		2
+usvajanju	2443		3
+usvojenju	52		3
+utaju	410		3
 utapaju	148		3
-utapanju	53		2
-utelovljuju	12		2
-utemeljenju	140		2
+utapanju	53		3
+utelovljuju	12		3
+utemeljenju	140		3
 utemeljuju	93		2
-uteraju	112		2
-uterivanju	26		2
-uteruju	146		2
+uteraju	112		3
+uterivanju	26		3
+uteruju	146		3
 uticaju	4716		4
-uticanju	23		2
-utiranju			2
-utiskuju	100		2
-utišaju	91		2
-utišavaju	19		2
-utkivaju			2
-utoljavaju			2
-utoljavanju			2
-utoljuju			2
+uticanju	23		3
+utiranju			3
+utiskuju	100		3
+utišaju	91		3
+utišavaju	19		3
+utkivaju			3
+utoljavaju			3
+utoljavanju			3
+utoljuju			3
 utopiju	319		3
-utovaraju			2
+utovaraju			3
 utovaruju	27		2
-utrkivanju	11		2
+utrkivanju	11		3
 utrkuju	955		3
-utrpavaju			2
-utrčavaju	29		2
-utuvljuju			2
-utvrđenju	311		2
-utvrđivanju	2848		2
+utrpavaju			3
+utrčavaju	29		3
+utuvljuju			3
+utvrđenju	311		3
+utvrđivanju	2848		3
 utvrđuju	2522		3
 uvaljuju	279		2
 uvažavaju	1096		3
-uvažavanju	335		2
+uvažavanju	335		3
 uveličaju	190		3
 uveličavaju	48		3
-uvenčaju			2
+uvenčaju			3
 uveravaju	981		3
-uveravanju	66		2
+uveravanju	66		3
 uverenju	2427		2
 uvećaju	634		3
-uvećanju	364		2
+uvećanju	364		3
 uvećavaju	1031		3
-uvećavanju	39		2
-uvečavaju			2
+uvećavanju	39		3
+uvečavaju			3
 uvežbaju	91		4
 uvežbavaju	231		3
-uvežbavanju	65		2
+uvežbavanju	65		3
 uvijaju	198		3
-uvijanju	20		2
-uviđaju	836		2
-uviđanju	31		2
-uvlačenju	36		2
-uvođenju	3652		2
-uvoženju			2
-uvršćuju	38		2
-uzbiju			2
+uvijanju	20		3
+uviđaju	836		3
+uviđanju	31		3
+uvlačenju	36		3
+uvođenju	3652		3
+uvoženju			3
+uvršćuju	38		3
+uzbiju			3
 uzbunjuju	14		2
 uzburkaju	53		4
 uzburkavaju	25		3
 uzbuđenju	191		2
 uzbuđuju	358		2
-uzdaju	486		2
-uzdanju	23		2
-uzdarju			2
-uzdisaju			2
-uzdisanju			2
-uzdizanju	237		2
-uzdrmaju	116		2
+uzdaju	486		3
+uzdanju	23		3
+uzdarju			3
+uzdisaju			3
+uzdisanju			3
+uzdizanju	237		3
+uzdrmaju	116		3
 uzdržavaju	261		4
 uzdržavanju	72		3
-uzengiju			2
+uzengiju			3
 uzgajaju	925		3
-uzgajanju	197		2
+uzgajanju	197		3
 uzglavlju	49		2
-uzgoju	548		2
-uzidaju	15		2
+uzgoju	548		3
+uzidaju	15		3
 uzimaju	11602		4
-uzimanju	733		2
+uzimanju	733		3
 uzimlju			3
-uzjahivanju			2
-uzjahuju			2
-uzlaženju	10		2
-uzmicanju	21		2
+uzjahivanju			3
+uzjahuju			3
+uzlaženju	10		3
+uzmicanju	21		3
 uznemiravaju	603		3
-uznemiravanju	129		2
-uznemirenju			2
-uznemiruju	87		2
-uznošenju			2
-uzrokovanju			2
+uznemiravanju	129		3
+uznemirenju			3
+uznemiruju	87		3
+uznošenju			3
+uzrokovanju			3
 uzrokuju	1953		4
 uzrujaju			3
 uzrujavaju	25		3
-uzurpaciju	153		2
-uzurpiraju	145		2
-uzurpiranju	13		2
-uzveraju			2
-uzvijaju			2
+uzurpaciju	153		3
+uzurpiraju	145		3
+uzurpiranju	13		3
+uzveraju			3
+uzvijaju			3
 uzvikuju	251		2
-uzvišenju	460		2
-uzvraćaju	358		2
-ućutkaju	147		2
-ućutkuju			2
+uzvišenju	460		3
+uzvraćaju	358		3
+ućutkaju	147		3
+ućutkuju			3
 učeniju			4
 učenju	4670		2
-učestaliju	33		2
-učestvovanju	344		2
+učestaliju	33		3
+učestvovanju	344		3
 učestvuju	25925		4
-učitaju	109		2
-učitavaju	294		2
+učitaju	109		3
+učitavaju	294		3
 učitelju	976		4
-učlanjenju	292		2
-učlanjivanju	31		2
+učlanjenju	292		3
+učlanjivanju	31		3
 učlanjuju	181		2
-učvršćenju	88		2
+učvršćenju	88		3
 učvršćuju	435		3
 ušetaju	43		3
 ušiju	2067		3
-ušivaju			2
-ušunjaju	35		2
-ušutkaju			2
-užasavaju	130		2
+ušivaju			3
+ušunjaju	35		3
+ušutkaju			3
+užasavaju	130		3
 užasniju			4
 uživaju	13664		3
-uživanju	988		2
-uživljavanju			2
+uživanju	988		3
+uživljavanju			3
 vagaju	98		3
-vaganju	31		2
-vajaju			2
-vajkaju	40		2
-vajkanju			2
-vakcinaciju	788		2
-valensiju			2
+vaganju	31		3
+vajaju			3
+vajkaju	40		3
+vajkanju			3
+vakcinaciju	788		3
+valensiju			3
 valjaju	1349		3
-valjanju	32		2
+valjanju	32		3
 valju			2
-valorizuju	84		2
-vaniliju	18		2
+valorizuju	84		3
+vaniliju	18		3
 vanju		M	2
-vapaju	63		2
-vapijanju			2
+vapaju	63		3
+vapijanju			3
 varaju	1640		3
-varanju	86		2
-varenju	310		2
+varanju	86		3
+varenju	310		3
 varijaciju	219		3
-variraju	1620		2
-variranju	37		2
-vasektomiju			2
-vasiliju			2
-vaskresenju			2
-vaskrsenju	666		2
-vaskršnju	112		2
-vaspitaju	171		2
-vaspitanju	2017		2
-vaspitavaju	683		2
-vaspitavanju	307		2
-vavedenju			2
-vazektomiju			2
-vaznesenju	202		2
-vađenju	291		2
-vašiju			2
-važenju	60		2
+variraju	1620		3
+variranju	37		3
+vasektomiju			3
+vasiliju			3
+vaskresenju			3
+vaskrsenju	666		3
+vaskršnju	112		3
+vaspitaju	171		3
+vaspitanju	2017		3
+vaspitavaju	683		3
+vaspitavanju	307		3
+vavedenju			3
+vazektomiju			3
+vaznesenju	202		3
+vađenju	291		3
+vašiju			3
+važenju	60		3
 važniju	297		3
 vedriju	49		3
 vegetaciju	338		3
 veju			2
-veleizdaju	333		2
-veličaju	702		2
-veličanju	121		2
+veleizdaju	333		3
+veličaju	702		3
+veličanju	121		3
 velju			2
-vembliju			2
+vembliju			3
 ventilaciju	1053		3
 venčaju	396		3
 venčanju	1165		2
 venčavaju	234		3
-veranju	14		2
-verdiju			2
+veranju	14		3
+verdiju			3
 veresiju	289		3
 verifikaciju	925		3
-verifikuju	212		2
-verniju			2
+verifikuju	212		3
+verniju			3
 verovanju	1562		4
-versaju			2
-verugaju			2
+versaju			3
+verugaju			3
 veruju	17575		3
 verziju	14318		3
 veseliju	24		4
-veseljenju			2
+veseljenju			3
 veselju	660		2
 veslaju	126		3
 veslanju	227		2
-vetrenju			2
-vezanju	10		2
-vezilju			2
-vezivanju	223		2
+vetrenju			3
+vezanju	10		3
+vezilju			3
+vezivanju	223		3
 vezuju	4023		2
 većaju	48		3
-većanju	65		2
+većanju	65		3
 večeraju	156		4
 večerašnju	139		3
 večernju	467		2
 vešaju	107		3
-vešanju	64		2
-vešeraju			2
-veštičarenju	14		2
-veštičiju			2
-veštičju			2
+vešanju	64		3
+vešeraju			3
+veštičarenju	14		3
+veštičiju			3
+veštičju			3
 vežbaju	2022		3
 vežbanju	589		3
-vibraciju	324		2
+vibraciju	324		3
 vibriraju	132		3
-vicekralju			2
-vidaju	42		2
-vidniju			2
-vidoju			2
-vidovnjakinju			2
-vijaju	94		2
+vicekralju			3
+vidaju	42		3
+vidniju			3
+vidoju			3
+vidovnjakinju			3
+vijaju	94		3
 viju	93		2
-vijugaju	55		2
-vikanju	19		2
-viktimologiju			2
-viktoriju			2
-vinariju	423		2
-vinogorju	102		2
-virdžiniju			2
-virtualizaciju	101		2
+vijugaju	55		3
+vikanju	19		3
+viktimologiju			3
+viktoriju			3
+vinariju	423		3
+vinogorju	102		3
+virdžiniju			3
+virtualizaciju	101		3
 viskiju	58		3
-visokoumlju			2
-vitlaju	122		2
-vizantiju			2
+visokoumlju			3
+vitlaju	122		3
+vizantiju			3
 viziju	6167		3
-vizualizaciju	241		2
-vizuelizaciju			2
-vićentiju			2
+vizualizaciju	241		3
+vizuelizaciju			3
+vićentiju			3
 viđaju	916		3
-viđanju	31		2
-viđenju	1759		2
-višeboju	212		2
+viđanju	31		3
+viđenju	1759		3
+višeboju	212		3
 višnju	165		2
 vladaju	7410		3
 vladanju	312		2
 vlaju			2
 vlasulju			3
-vodaju	74		2
-vodilju	211		2
+vodaju	74		3
+vodilju	211		3
 voditelju	209		4
-vodostaju	198		2
-vodostanju			2
-vodvilju	22		2
-vojevanju	71		2
+vodostaju	198		3
+vodostanju			3
+vodvilju	22		3
+vojevanju	71		3
 vojuju			2
 vojvotkinju	42		4
 vokaciju	41		3
 volju	13016		2
-volontiraju	312		2
-volontiranju	385		2
+volontiraju	312		3
+volontiranju	385		3
 vonju	11		2
-vozikaju	148		2
-vođenju	2772		2
+vozikaju	148		3
+vođenju	2772		3
 vožnju	8282		2
 vranju			2
 vratolomiju	34		3
 vraćaju	10226		3
-vraćanju	2242		2
+vraćanju	2242		3
 vračaju	64		3
-vračanju	18		2
-vražiju			2
+vračanju	18		3
+vražiju			3
 vražju	38		2
-vrcaju	59		2
+vrcaju	59		3
 vrebaju	959		3
-vrednovanju	545		2
+vrednovanju	545		3
 vrednuju	954		3
 vreliju			3
 vrenju	56		2
 vređaju	1753		3
-vređanju	150		2
-vrištanju	16		2
+vređanju	150		3
+vrištanju	16		3
 vrzmaju	181		3
-vršaju			2
-vršenju	1887		2
-vršljaju	263		2
-vršljanju			2
-vucaraju	35		2
-vulgarizaciju	23		2
-vučiju			2
+vršaju			3
+vršenju	1887		3
+vršljaju	263		3
+vršljanju			3
+vucaraju	35		3
+vulgarizaciju	23		3
+vučiju			3
 vučju	44		2
-zabacuju	31		2
+zabacuju	31		3
 zabadaju	125		3
 zabavljaju	1472		4
-zabavljanju	39		2
+zabavljanju	39		3
 zabijaju	111		3
 zabiju	118		3
 zablistaju	149		3
-zabluđuju			2
+zabluđuju			3
 zaboravljaju	2833		4
-zaboravljanju	64		2
+zaboravljanju	64		3
 zabranjuju	1255		2
-zabrežju	55		2
-zabrinjavaju	301		2
+zabrežju	55		3
+zabrinjavaju	301		3
 zabrljaju	56		3
-zaceljivanju	31		2
+zaceljivanju	31		3
 zaceljuju	58		2
-zacenjuju			2
+zacenjuju			3
 zadaju	692		3
-zadavanju	22		2
-zadevaju			2
+zadavanju	22		3
+zadevaju			3
 zadirkuju	115		2
-zadivljuju	96		2
+zadivljuju	96		3
 zadnju	1721		2
-zadobijaju	176		2
-zadobiju	202		2
-zadocnjenju			2
+zadobijaju	176		3
+zadobiju	202		3
+zadocnjenju			3
 zadovoljavaju	3545		3
-zadovoljavanju	395		2
-zadovoljenju	279		2
-zadrmavaju			2
+zadovoljavanju	395		3
+zadovoljenju	279		3
+zadrmavaju			3
 zadržavaju	2789		4
-zadržavanju	503		2
-zaduvaju			2
-zaduženju	382		2
-zaduživanju	781		2
+zadržavanju	503		3
+zaduvaju			3
+zaduženju	382		3
+zaduživanju	781		3
 zadužuju	1162		2
 zafrkanciju	15		4
-zafrkavaju	27		2
-zagasitiju			2
-zagađenju	495		2
-zagađivanju	63		2
+zafrkavaju	27		3
+zagasitiju			3
+zagađenju	495		3
+zagađivanju	63		3
 zagađuju	826		2
 zaglavlju	381		2
 zaglavljuju	39		2
-zagledaju	184		2
-zaglibljuju			2
-zaglupljuju	100		2
-zaglušuju	20		2
-zagolicaju	50		2
+zagledaju	184		3
+zaglibljuju			3
+zaglupljuju	100		3
+zaglušuju	20		3
+zagolicaju	50		3
 zagonetniju			5
 zagorju	90		2
-zagorkinju			2
+zagorkinju			3
 zagorčaju	79		3
 zagorčavaju	148		3
-zagovaraju	1343		2
+zagovaraju	1343		3
 zagrađuju	11		2
 zagreju	339		3
-zagrevaju	551		2
-zagrevanju	664		2
+zagrevaju	551		3
+zagrevanju	664		3
 zagriju	14		3
 zagrljaju	1205		4
-zagušuju	21		2
-zahariju			2
+zagušuju	21		3
+zahariju			3
 zahtevaju	13115		3
 zahvaljuju	503		2
 zahvataju	576		4
-zaigraju	511		2
-zainteresuju	510		2
-zakapaju			2
-zakavkazju			2
-zakazivanju	181		2
+zaigraju	511		3
+zainteresuju	510		3
+zakapaju			3
+zakavkazju			3
+zakazivanju	181		3
 zakazuju	731		2
 zakašnjenju	110		2
-zakeraju			2
+zakeraju			3
 zakidaju	125		3
-zakidanju	12		2
+zakidanju	12		3
 zaklanjaju	234		4
-zaklapaju	34		2
-zaklimaju			2
-zaklinjanju	39		2
+zaklapaju	34		3
+zaklimaju			3
+zaklinjanju	39		3
 zaklinju	449		3
-zaključaju	137		2
-zaključavaju	226		2
-zaključavanju	14		2
-zaključenju	487		2
-zaključivanju	478		2
+zaključaju	137		3
+zaključavaju	226		3
+zaključavanju	14		3
+zaključenju	487		3
+zaključivanju	478		3
 zaključuju	1628		2
-zakolju			2
-zakomplikuju	99		2
+zakolju			3
+zakomplikuju	99		3
 zakopaju	173		3
 zakopavaju	94		3
-zakopavanju	15		2
-zakopčavaju	27		2
-zakopčavanju			2
-zakoračaju			2
-zakriljuju			2
-zakucaju	175		2
-zakukaju			2
-zakupljuju	138		2
-zakuvavaju			2
-zalaganju	1008		2
-zalaju	12		2
-zalevaju			2
+zakopavanju	15		3
+zakopčavaju	27		3
+zakopčavanju			3
+zakoračaju			3
+zakriljuju			3
+zakucaju	175		3
+zakukaju			3
+zakupljuju	138		3
+zakuvavaju			3
+zalaganju	1008		3
+zalaju	12		3
+zalevaju			3
 zaliju	67		3
-zalivaju			2
-zaljubljivanju	86		2
+zalivaju			3
+zaljubljivanju	86		3
 zaljubljuju	291		2
 zalogaju	192		4
 zalutaju	135		3
-zaluđuju	93		2
-zamagljuju	191		2
+zaluđuju	93		3
+zamagljuju	191		3
 zamahuju	18		2
-zamajavaju	343		2
-zamaraju	319		2
-zambiju			2
-zamenjivanju	28		2
+zamajavaju	343		3
+zamaraju	319		3
+zambiju			3
+zamenjivanju	28		3
 zamenjuju	1626		2
 zameraju	1113		3
-zamiluju			2
-zamišljaju	752		2
-zamišljanju	35		2
-zamlaćuju			2
-zamotaju	17		2
-zamotavaju	10		2
-zamotavanju			2
-zamračenju	11		2
-zamračuju			2
+zamiluju			3
+zamišljaju	752		3
+zamišljanju	35		3
+zamlaćuju			3
+zamotaju	17		3
+zamotavaju	10		3
+zamotavanju			3
+zamračenju	11		3
+zamračuju			3
 zamrzavaju	166		4
-zamrzavanju	272		2
+zamrzavanju	272		3
 zanatliju	20		3
-zanemarivanju	114		2
+zanemarivanju	114		3
 zanemaruju	854		2
 zanimaju	4145		3
 zanimanju	1877		2
-zanovetaju	31		2
-zanošenju			2
-zaodevaju			2
+zanovetaju	31		3
+zanošenju			3
+zaodevaju			3
 zaokružuju	408		2
-zaokupljaju	173		2
-zaostajanju	73		2
+zaokupljaju	173		3
+zaostajanju	73		3
 zaostaju	1455		3
 zapadaju	137		4
-zapadanju			2
-zapaljenju		M	2
-zapanjuju	45		2
+zapadanju			3
+zapaljenju		M	3
+zapanjuju	45		3
 zapažaju	362		3
-zapažanju	142		2
-zapetljaju	20		2
-zapevaju	175		2
-zapečaćuju			2
-zapinju	64		2
-zapiraju			2
-zapisivanju	50		2
+zapažanju	142		3
+zapetljaju	20		3
+zapevaju	175		3
+zapečaćuju			3
+zapinju	64		3
+zapiraju			3
+zapisivanju	50		3
 zapisuju	217		2
 zapitaju	839		3
-zapitkuju	112		2
-zaplenjuju	21		2
-zapljeskaju			2
-zapljuskivanju			2
-zapljuskuju	212		2
-zapodevaju			2
-zaporožju			2
-zaposedaju	126		2
+zapitkuju	112		3
+zaplenjuju	21		3
+zapljeskaju			3
+zapljuskivanju			3
+zapljuskuju	212		3
+zapodevaju			3
+zaporožju			3
+zaposedaju	126		3
 zaposlenju	565		2
-zapostavljaju	244		2
+zapostavljaju	244		3
 zapovedaju	67		3
-zapovedanju			2
-započinjanju	236		2
-započinju	1444		2
+zapovedanju			3
+započinjanju	236		3
+započinju	1444		3
 zapošljavaju	3566		3
-zapošljavanju	3755		2
-zaprepašćenju	18		2
-zapucaju	40		2
-zaranjaju	30		2
-zarastaju	215		2
-zarastanju	70		2
-zarađivanju	38		2
+zapošljavanju	3755		3
+zaprepašćenju	18		3
+zapucaju	40		3
+zaranjaju	30		3
+zarastaju	215		3
+zarastanju	70		3
+zarađivanju	38		3
 zarađuju	4960		2
-zaražavaju	15		2
-zaražavanju			2
-zariju	39		2
-zarivaju	36		2
-zarobljavaju	74		2
-zarobljavanju	65		2
-zasađivanju			2
-zasecaju	19		2
-zasecanju			2
-zasedaju	141		2
+zaražavaju	15		3
+zaražavanju			3
+zariju	39		3
+zarivaju	36		3
+zarobljavaju	74		3
+zarobljavanju	65		3
+zasađivanju			3
+zasecaju	19		3
+zasecanju			3
+zasedaju	141		3
 zasedanju	3221		2
-zaseju	98		2
+zaseju	98		3
 zasenjuju	57		2
-zasijaju	100		2
-zasiju			2
-zasipaju	316		2
+zasijaju	100		3
+zasiju			3
+zasipaju	316		3
 zasićenju	24		2
 zasićuju	23		2
-zaslađuju	17		2
-zaslepljuju	44		2
+zaslađuju	17		3
+zaslepljuju	44		3
 zaslužuju	6219		2
-zasmejavaju	64		2
-zasmeju			2
+zasmejavaju	64		3
+zasmeju			3
 zasmetaju	72		3
-zasnivaju	2449		2
-zasnivanju	277		2
-zasnuju	321		2
-zastajkuju	17		2
+zasnivaju	2449		3
+zasnivanju	277		3
+zasnuju	321		3
+zastajkuju	17		3
 zastaju	114		3
-zastarevaju			2
+zastarevaju			3
 zastoju	407		3
-zastranjuju			2
-zastrašivanju	153		2
+zastranjuju			3
+zastrašivanju	153		3
 zastrašuju	206		2
 zastupaju	3021		3
-zastupanju	523		2
-zasviraju	59		2
-zatamnenju			2
-zatamnjenju			2
-zatamnjuju	33		2
+zastupanju	523		3
+zasviraju	59		3
+zatamnenju			3
+zatamnjenju			3
+zatamnjuju	33		3
 zataškaju	166		4
 zataškavaju	124		3
 zataškavanju	85		2
-zateturaju			2
-zatiranju	101		2
+zateturaju			3
+zatiranju	101		3
 zatišju	48		2
-zatrebaju	263		2
-zatrpaju	167		2
-zatrpavaju	266		2
+zatrebaju	263		3
+zatrpaju	167		3
+zatrpavaju	266		3
 zatruju	47		2
 zatvaraju	2774		3
-zatvaranju	1655		2
+zatvaranju	1655		3
 zaudaraju	50		4
-zaurlaju			2
+zaurlaju			3
 zaustavljaju	1064		4
-zaustavljanju	535		2
+zaustavljanju	535		3
 zauzdaju	55		3
-zauzdavaju			2
+zauzdavaju			3
 zauzimaju	4929		4
-zauzimanju	322		2
+zauzimanju	322		3
 zavaraju	208		4
 zavaravaju	246		3
-zavaravanju	24		2
-zavađaju	57		2
-zaveravaju			2
-zaveslaju			2
-zavetuju	43		2
-zaveštanju	163		2
+zavaravanju	24		3
+zavađaju	57		3
+zaveravaju			3
+zaveslaju			3
+zavetuju	43		3
+zaveštanju	163		3
 zavežljaju	25		4
 zavijaju	148		3
 zaviju	43		3
 zaviruju	83		2
-zavitlavaju			2
+zavitlavaju			3
 zavičaju	831		4
 zavladaju	233		3
 zavoju	78		3
-zavođenju	229		2
+zavođenju	229		3
 zavređuju	362		2
 završavaju	5134		4
-završavanju	92		2
-zazidaju	23		2
-zaziranju			2
-zazivaju	35		2
-začaravaju			2
-začelju	845		2
+završavanju	92		3
+zazidaju	23		3
+zaziranju			3
+zazivaju	35		3
+začaravaju			3
+začelju	845		3
 začinju	63		3
-začuju	61		2
-zašiju	24		2
+začuju	61		3
+zašiju	24		3
 zaštićuju	89		2
-zbacivanju	43		2
-zbacuju	21		2
+zbacivanju	43		3
+zbacuju	21		3
 zbijaju	142		3
 zbiju	69		2
 zbilju	170		2
-zbiraju			2
+zbiraju			3
 zbivaju	164		3
-zbivanju	61		2
+zbivanju	61		3
 zbližavaju	166		3
-zbližavanju	302		2
-zbliženju	25		2
+zbližavanju	302		3
+zbliženju	25		3
 zbrinjavaju	187		3
-zbrinjavanju	569		2
+zbrinjavanju	569		3
 zbunjuju	527		2
 zdanju	884		2
 zdraviju	336		3
 zdravlju	7033		2
-zdravoumlju			2
+zdravoumlju			3
 združuju	26		2
 zebnju			2
-zelenju			2
-zembilju			2
-zemljakinju	24		2
+zelenju			3
+zembilju			3
+zemljakinju	24		3
 zemljoradnju	128		2
 zemlju	62138		2
 zevaju	111		3
-zezaju	487		2
-zezanciju	43		2
-zezanju	47		2
-zečiju			2
+zezaju	487		3
+zezanciju	43		3
+zezanju	47		3
+zečiju			3
 zečju	23		2
-zgledaju	37		2
+zgledaju	37		3
 zgodniju	10		3
-zgrušavanju	31		2
+zgrušavanju	31		3
 zgušnjavaju	34		3
-zgušnjavanju	17		2
+zgušnjavanju	17		3
 zidaju	581		3
-zidanju	213		2
-zidariju			2
+zidanju	213		3
+zidariju			3
 zimovanju	182		2
 zimuju	170		2
-zirkaju			2
-zivkaju	46		2
-zlatiju			2
-zlomišlju			2
-zlopamćenju			2
-zlopaćenju			2
+zirkaju			3
+zivkaju	46		3
+zlatiju			3
+zlomišlju			3
+zlopamćenju			3
+zlopaćenju			3
 zlostavljaju	411		4
-zlostavljanju	645		2
-zloumlju			2
+zlostavljanju	645		3
+zloumlju			3
 zloupotrebljavaju	1641		3
 zlovolju	53		3
-zločinjenju			2
+zločinjenju			3
 zmaju	353		2
 zmiju	883		2
 znaju	72017		2
@@ -6744,331 +6744,331 @@ znatniju	43		3
 značaju	10041		3
 značenju	2876		2
 znoju	423		2
-zobaju			2
-zombiju	24		2
-zoniranju	28		2
+zobaju			3
+zombiju	24		3
+zoniranju	28		3
 zoologiju	45		3
 zračenju	730		2
 zreliju	38		3
 zubiju	16		3
 zublju			2
 zubobolju	70		3
-zuckaju			2
-zujanju	21		2
+zuckaju			3
+zujanju	21		3
 zuju	16		2
-zurenju			2
-zurlaju			2
+zurenju			3
+zurlaju			3
 zvanju	849		2
-zveckaju	106		2
-zveckanju			2
-zveraju			2
-zverinju	14		2
-zviždanju	20		2
+zveckaju	106		3
+zveckanju			3
+zveraju			3
+zverinju	14		3
+zviždanju	20		3
 zvocaju	34		3
-zvučanju	12		2
+zvučanju	12		3
 ćaskaju	188		3
-ćaskanju	161		2
-ćehaju			2
+ćaskanju	161		3
+ćehaju			3
 ćeliju	1837		3
-ćeraju			2
-ćeretaju			2
-ćeretanju			2
-ćupriju			2
-ćurčiju			2
-ćuskiju			2
-ćutanju	374		2
+ćeraju			3
+ćeretaju			3
+ćeretanju			3
+ćupriju			3
+ćurčiju			3
+ćuskiju			3
+ćutanju	374		3
 ćutnju	96		2
-ćuškaju			2
+ćuškaju			3
 čaju	553		2
-čakiju			2
-čamotinju			2
+čakiju			3
+čamotinju			3
 čaplju	18		2
-čardakliju			2
+čardakliju			3
 čaroliju	490		3
 čaršiju	323		3
 časniju	13		3
-čatrnju			2
-čavrljaju	38		2
-čavrljanju	16		2
-čačiju			2
+čatrnju			3
+čavrljaju	38		3
+čavrljanju	16		3
+čačiju			3
 čačkaju	139		3
-čehinju			2
+čehinju			3
 čekaju	17763		3
-čekanju	1070		2
-čekićaju			2
+čekanju	1070		3
+čekićaju			3
 čeprkaju	73		3
-čerečenju	17		2
-černobilju			2
-čerupaju	131		2
+čerečenju	17		3
+černobilju			3
+čerupaju	131		3
 čestitaju	569		3
 čestitanju	20		2
 četiriju	54		4
-četovanju	33		2
-četuju	72		2
-četvorogodišnju	250		2
-čečeniju			2
-češagiju			2
+četovanju	33		3
+četuju	72		3
+četvorogodišnju	250		3
+čečeniju			3
+češagiju			3
 češljaju	148		3
-češljanju	33		2
+češljanju	33		3
 češlju	19		2
 čežnju	402		2
 čiju	9219		2
-čikaju			2
-čiliju			2
-činiju			2
+čikaju			3
+čiliju			3
+činiju			3
 činitelju			4
-činjenju	203		2
-čistiju			2
+činjenju	203		3
+čistiju			3
 čitaju	8561		3
 čitanju	2321		2
-čitlučenju			2
+čitlučenju			3
 čitulju	74		3
 čiviju	11		3
-čišćenju	2176		2
+čišćenju	2176		3
 čkalju			2
 čoju			2
-čovečiju	43		2
+čovečiju	43		3
 čovečju	36		3
 čudniju	12		3
 čupaju	309		3
-čupkaju	16		2
+čupkaju	16		3
 čuvaju	10916		3
-čuvanju	1335		2
-čuveniju			2
-čuvenju			2
-čuvstvuju			2
+čuvanju	1335		3
+čuveniju			3
+čuvenju			3
+čuvstvuju			3
 čuđenju	118		3
-đakoniju			2
-đakuziju	80		2
+đakoniju			3
+đakuziju	80		3
 đavolju	87		3
-đorđiju			2
-đuskaju			2
-đuvegiju			2
-đuvegliju			2
+đorđiju			3
+đuskaju			3
+đuvegiju			3
+đuvegliju			3
 Španiju			3
 šaljivdžiju			3
 šalju	9120		2
 šamaraju	127		3
-šamiju			2
-šangaju			2
+šamiju			3
+šangaju			3
 šaraju	138		3
-šasiju	331		2
-šenlučenju			2
-šeprtljaju			2
-šerpenju			2
-šestogodišnju	135		2
+šasiju	331		3
+šenlučenju			3
+šeprtljaju			3
+šerpenju			3
+šestogodišnju	135		3
 šetaju	2500		3
-šetanju	27		2
-šetkaju	125		2
+šetanju	27		3
+šetkaju	125		3
 šetnju	4518		2
-šešelju			2
+šešelju			3
 šibaju	144		3
 šiblju	33		2
-šifriranju			2
-šifrovanju	13		2
+šifriranju			3
+šifrovanju	13		3
 šiju	403		2
 šikaniraju	155		3
-šikaniranju			2
-šikljaju	11		2
-šikljanju			2
+šikaniranju			3
+šikljaju	11		3
+šikljanju			3
 šipražju	84		2
 širenju	3168		2
-šivenju	53		2
+šivenju	53		3
 šizofreniju	103		3
 šišaju	329		3
-šišanju	71		2
-škakljaju			2
-škljocaju	53		2
-šklopociju			2
+šišanju	71		3
+škakljaju			3
+škljocaju	53		3
+šklopociju			3
 školju	12		2
 školovanju	1665		4
 školuju	2023		3
-škorpiju	109		2
-škrabaju	19		2
+škorpiju	109		3
+škrabaju	19		3
 škrinju	38		2
-škripanju			2
+škripanju			3
 šljakaju	63		3
-šlogiraju			2
-šminkaju	230		2
-šminkanju	201		2
-šmrcaju	10		2
+šlogiraju			3
+šminkaju	230		3
+šminkanju	201		3
+šmrcaju	10		3
 šokiraju	161		3
 šolju	1763		2
-špartaju	99		2
+špartaju	99		3
 špediciju	198		3
 špijuniraju	220		3
-špijuniranju	110		2
+špijuniranju	110		3
 špilju	22		2
-štafelaju			2
+štafelaju			3
 štaglju			2
-štambilju			2
+štambilju			3
 štampaju	1745		3
-štampanju	392		2
+štampanju	392		3
 štampariju	521		3
 štednju	3483		2
 štimaju	42		3
 štipaju	35		3
-štićenju			2
-štrajkaju			2
+štićenju			3
+štrajkaju			3
 štrajkuju	1784		3
-štrapaciraju			2
+štrapaciraju			3
 štrikaju	30		3
 štuju	60		2
 šuljaju			3
-šumadiju			2
+šumadiju			3
 šunjaju	56		3
 šuplju	116		2
-šurovanju			2
-šutiraju	363		2
-šutiranju	153		2
+šurovanju			3
+šutiraju	363		3
+šutiranju	153		3
 šutnju	62		2
 šuškaju	59		3
-šuškanju			2
-šuštanju	16		2
-švaleraciju			2
-švercuju	280		2
+šuškanju			3
+šuštanju	16		3
+švaleraciju			3
+švercuju	280		3
 švrljaju	59		3
 ščepaju	23		3
 žablju	14		2
 žalfiju	78		3
 žaljenju	26		3
 žaluju			3
-žandarmeriju			2
+žandarmeriju			3
 žanju	162		2
-žarenju			2
+žarenju			3
 žbunju	217		2
-žderanju	10		2
-ždrakaju			2
+žderanju	10		3
+ždrakaju			3
 želju	19325		2
-žeđanju			2
-žigosanju	24		2
+žeđanju			3
+žigosanju	24		3
 žiriju	950		2
 žitiju	471		3
 živciraju	34		3
-življenju	286		2
+življenju	286		3
 življu	210		2
-živopisanju			2
+živopisanju			3
 životinju	1531		3
-živovanju			2
-živuju			2
-žmirkaju	31		2
+živovanju			3
+živuju			3
+žmirkaju	31		3
 žnju	77		1
-žrtvovanju	161		2
+žrtvovanju	161		3
 žrtvuju	1060		3
 žrvnju	41		2
 žudnju	321		2
-žuljaju	118		2
+žuljaju	118		3
 županiju	82		3
-bdijenju			2
-bjegaju			2
+bdijenju			3
+bjegaju			3
 bjelkinju			3
-bježanju			2
+bježanju			3
 cijepaju	21		4
 cvjetaju			3
-dijeljenju	26		2
+dijeljenju	26		3
 djelovanju			4
 djeluju			3
-dječiju			2
+dječiju			3
 dječju			2
 htjenju			2
 iscjeljuju			2
 istjeruju			2
 izbjegavaju			3
-izbjegavanju			2
+izbjegavanju			3
 izvještaju			4
 izvještavaju			3
-korijenju			2
+korijenju			3
 licemjerju			4
-liječenju	259		2
+liječenju	259		3
 ljenju			2
 ljetovanju			4
 mijenjaju	584		4
-mijenjanju	36		2
+mijenjanju	36		3
 miješaju	214		4
-miješanju	21		2
-mjenjaju			2
-mjerenju			2
+miješanju	21		3
+mjenjaju			3
+mjerenju			3
 namjeravaju			3
 namještaju			4
 natjeraju			4
 nedjelju			3
 obavještavaju			3
-ocjenjivanju			2
+ocjenjivanju			3
 ocjenjuju			2
-odijevanju	16		2
+odijevanju	16		3
 odjeljenju			2
-odsjedaju			2
+odsjedaju			3
 opsjedaju			3
-osjecaju			2
+osjecaju			3
 osjećaju			4
-osjećanju			2
-osmjehuju			2
-osmjeljuju			2
-otcjepljuju			2
+osjećanju			3
+osmjehuju			3
+osmjeljuju			3
+otcjepljuju			3
 otjeraju			4
-otpijevaju			2
-pijenju	53		2
+otpijevaju			3
+pijenju	53		3
 pjevaju			3
-pjevanju			2
-pobjeđivanju			2
+pjevanju			3
+pobjeđivanju			3
 pobjeđuju			2
-podcjenjuju			2
+podcjenjuju			3
 podsjećaju			4
-podsjećanju			2
+podsjećanju			3
 pomiješaju	18		4
-pomjeraju			2
-posjedaju			2
-posjedovanju			2
+pomjeraju			3
+posjedaju			3
+posjedovanju			3
 posjeduju			4
 posjećuju			2
 povjerenju			2
 povjeruju			4
-precjenjuju			2
-premještaju			2
+precjenjuju			3
+premještaju			3
 pretjeruju			2
 prijetnju	277		3
 primjenjuju			2
 primjećuju			2
-prisjećanju			2
+prisjećanju			3
 procjenjuju			2
-procvjetaju			2
+procvjetaju			3
 propovijedaju	41		4
 provjeravaju			3
 razmjenjuju			2
-razrješuju			2
-razumijevanju	339		2
+razrješuju			3
+razumijevanju	339		3
 riječju	514		3
-rječju			2
+rječju			3
 rješavaju			4
-rješavanju			2
+rješavanju			3
 rješenju			3
-satjeraju			2
+satjeraju			3
 savjetovanju			5
 savjetuju			4
 sazrijevaju	15		4
 sijevaju	23		4
 sjećaju			3
 sjećanju			3
-slijetanju	28		2
+slijetanju	28		3
 smjenjuju	92		2
 smjeraju			3
 smještaju			3
 sprječavaju			4
-strijeljaju	17		2
-svjedočenju			2
+strijeljaju	17		3
+svjedočenju			3
 svjetliju	33		3
 svjetlucaju	16		3
 tjeraju			3
 tromjesečju	315		4
-ubjeđuju			2
+ubjeđuju			3
 ucjenjuju			2
-umiješaju	19		2
+umiješaju	19		3
 usmjeravaju			3
 uspijevaju	179		4
-utjeruju			2
+utjeruju			3
 uvjeravaju			3
 uvjerenju			2
-vjencanju			2
+vjencanju			3
 vjenčaju			3
 vjenčanju			2
 vjerovanju			4
@@ -7079,7 +7079,7 @@ vježbanju			3
 vrijeđaju	123		4
 zacjeljuju			2
 zahtijevaju	433		4
-zahtjevaju			2
+zahtjevaju			3
 zamjenjuju			2
 zamjeraju			3
 zapovijedaju			4

@@ -1,23 +1,23 @@
 224
 Parizu			2
-acidozu	18		2
-akcizu	248		2
-amiloidozu			2
-amniocentezu	70		2
+acidozu	18		3
+akcizu	248		3
+amiloidozu			3
+amniocentezu	70		3
 analizu	16048		2
 anamnezu	183		2
-anastomozu	15		2
+anastomozu	15		3
 antitezu	90		3
 aplauzu	55		4
 apoteozu	63		2
-askezu	35		2
+askezu	35		3
 avazu	97		2
 avitaminozu			2
 bakrorezu	25		4
 bazu	9553		2
 berzu	1648		2
-bezizlazu	49		2
-bilmezu			2
+bezizlazu	49		3
+bilmezu			3
 bircuzu	35		3
 blizu	34473		2
 bluzu	343		2
@@ -27,46 +27,46 @@ brezu	56		2
 bronzu	1719		2
 brzu	4195		2
 celulozu	101		2
-cirozu	89		2
-devizu	163		2
+cirozu	89		3
+devizu	163		3
 dijagnozu	2991		2
-dijalizu	555		2
-dijecezu	37		2
+dijalizu	555		3
+dijecezu	37		3
 dokazu	315		3
 dovezu	164		2
 dozu	4667		2
 drvorezu	25		4
-duborezu	153		2
+duborezu	153		3
 džezu	238		2
-ekspertizu	734		2
+ekspertizu	734		3
 ekstazu	153		2
 englezu	65		2
-falezu			2
+falezu			3
 fazu	9021		2
 fezu			2
-fibrozu	44		2
+fibrozu	44		3
 fotosintezu	121		2
 francuzu	107		2
-franšizu	542		2
+franšizu	542		3
 frazu	793		2
-fritezu	13		2
+fritezu	13		3
 frizu	43		2
 fruktozu	133		2
 gazu	437		2
-genezu	395		2
-glikozu	47		2
-glukozu	373		2
+genezu	395		3
+glikozu	47		3
+glukozu	373		3
 grizu	396		2
 grozu			2
 guzu	1482		2
 hamzu			2
-hipervezu	22		2
+hipervezu	22		3
 hipnozu	96		2
 hipofizu	34		2
-hipostazu			2
+hipostazu			3
 hipotezu	665		2
-idrizu			2
-iskazu	862		2
+idrizu			3
+iskazu	862		3
 izgrizu	16		3
 izlazu	2364		3
 izrazu	1736		3
@@ -75,47 +75,47 @@ izvozu	3960		3
 jazu	237		2
 jezu	323		2
 jozu			2
-kalauzu			2
-kamenorezu			2
-kamikazu			2
+kalauzu			3
+kamenorezu			3
+kamikazu			3
 katarzu	361		2
 kavezu	1064		3
-kavkazu			2
+kavkazu			3
 kinezu	74		2
 knezu	1892		2
 knjazu			2
 kolhozu	17		3
 kolovozu	1157		4
-kontroverzu	123		2
+kontroverzu	123		3
 korzu	40		2
 kozu	481		2
 krizu	12189		2
 kruzu			2
 kukuruzu	777		3
 kvizu	864		2
-laktozu	373		2
+laktozu	373		3
 lazu		M	2
 lepezu	711		2
 lozu	706		2
-luksuzu	383		2
-magazu			2
-majonezu	34		2
-mamlazu			2
+luksuzu	383		3
+magazu			3
+majonezu	34		3
+mamlazu			3
 markizu	22		2
-marseljezu			2
-matrozu			2
+marseljezu			3
+matrozu			3
 meduzu	43		2
-melezu			2
+melezu			3
 menopauzu	291		3
 menzu	166		2
 metamorfozu	150		2
 metastazu	50		2
-mimozu	19		2
+mimozu	19		3
 mirazu	20		3
 mlazu	181		2
-monogenezu			2
-mononukleozu	72		2
-moreuzu			2
+monogenezu			3
+mononukleozu	72		3
+moreuzu			3
 mrazu	323		2
 nakazu	124		3
 nalazu	834		3
@@ -131,30 +131,30 @@ obrazu	777		3
 odgrizu	19		3
 odrazu	156		3
 odvezu	222		2
-omrazu			2
+omrazu			3
 oprezu	700		3
-orozu			2
-osteoporozu	287		2
+orozu			3
+osteoporozu	287		3
 otkazu	543		3
 paradajzu	197		3
-paralizu	445		2
+paralizu	445		3
 pauzu	4217		3
-pegazu			2
+pegazu			3
 pekmezu	64		3
-peloponezu			2
+peloponezu			3
 plazu			2
-poblizu		M	2
-podbazu			2
+poblizu		M	3
+podbazu			3
 polzu			2
 porazu	1368		3
 porezu	2094		3
 potezu	3524		3
 povezu	387		3
 pozu	622		2
-preblizu		M	2
-prebrzu	40		2
+preblizu		M	3
+prebrzu	40		3
 prelazu	4149		3
-premazu	55		2
+premazu	55		3
 prevezu	379		2
 prevozu	3185		3
 prikazu	1421		3
@@ -171,54 +171,54 @@ psorijazu	162		2
 razlazu	110		3
 razrezu			3
 remizu			2
-reprizu	639		2
+reprizu	639		3
 rezu	156		2
 rizu			2
 rozu			2
 savezu	5960		3
-simbiozu	231		2
+simbiozu	231		3
 sintezu	1517		2
-sirakuzu			2
+sirakuzu			3
 sklerozu	120		2
-skoliozu	53		2
+skoliozu	53		3
 srazu	19		2
 srezu	604		2
 stazu	5226		2
 striptizu	19		2
-sublizu			2
+sublizu			3
 suzu	927		2
-telekinezu			2
+telekinezu			3
 tezu	4844		2
-topuzu			2
+topuzu			3
 torzu	15		2
 trapezu	118		2
-trombozu	14		2
+trombozu	14		3
 trpezu	1326		3
 tuberkulozu	403		2
-tuluzu			2
+tuluzu			3
 ugrizu	58		3
-ugursuzu			2
+ugursuzu			3
 ukazu	126		2
 ulazu	6661		3
-uljezu	19		2
+uljezu	19		3
 uvezu	377		2
 uvozu	1729		3
-vaduzu			2
+vaduzu			3
 vazu	207		2
 vezu	24467		2
-virtuozu			2
-viskozu	14		2
+virtuozu			3
+viskozu	14		3
 vitezu	183		3
 vizu	2170		2
 vozu	1258		2
 zagrizu	71		3
 zalazu	146		3
 zarazu	297		3
-zarezu	57		2
-zlatovezu	13		2
-ćumezu			2
+zarezu	57		3
+zlatovezu	13		3
+ćumezu			3
 ćuzu			2
-čerkezu			2
+čerkezu			3
 čezu			2
 čimpanzu			2
 šimpanzu			2

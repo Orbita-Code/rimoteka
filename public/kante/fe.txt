@@ -4,31 +4,31 @@ alfe	729		2
 bife	304		2
 biografe	15		3
 cafe	141		2
-demografe	14		2
-dibife			2
+demografe	14		3
+dibife			3
 efe			2
-filosofe			2
+filosofe			3
 filozofe	295		3
 fotografe	506		3
 grofe	26		2
-haife			2
+haife			3
 harfe	168		2
-hatišerife			2
+hatišerife			3
 hijeroglife	72		2
 jafe			2
-kadife			2
+kadife			3
 kafe	9955		2
 kalfe	92		2
-kalife			2
+kalife			3
 kartografe			3
 katastrofe	3921		2
 kofe			2
 koreografe	47		3
-kostimografe	15		2
+kostimografe	15		3
 lafe			2
 limfe	257		2
-luftvafe			2
-mustafe			2
+luftvafe			3
+mustafe			3
 nimfe	440		2
 paragrafe	81		3
 parfe			2
@@ -39,16 +39,16 @@ sapfe			2
 scenografe	24		3
 sefe			2
 sofe	291		2
-stenografe			2
+stenografe			3
 strofe	430		2
 tarife	1855		2
 tartufe	124		3
-tenerife			2
+tenerife			3
 tipografe			3
 trijumfe	140		3
-uefe			2
-zulufe			2
-čaršafe			2
+uefe			3
+zulufe			3
+čaršafe			3
 šefe	128		2
 šerife	21		3
 žirafe	365		2

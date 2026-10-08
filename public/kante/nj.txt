@@ -20,10 +20,10 @@ mogranj			2
 nakovanj	155		3
 oganj	2267		2
 panj	414		1
-patišpanj	77		2
+patišpanj	77		3
 pladanj	25		2
-potporanj	31		2
-povodanj	23		2
+potporanj	31		3
+povodanj	23		3
 prilenj		M	2
 pucanj	733		2
 ranj			1
@@ -51,7 +51,7 @@ vodotoranj	105		2
 vonj	107		1
 vranj		M	1
 vrganj	96		2
-zavrtanj	89		2
+zavrtanj	89		3
 češanj			2
 čokanj		M	2
 čunj	90		1

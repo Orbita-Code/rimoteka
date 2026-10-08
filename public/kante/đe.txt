@@ -2,7 +2,7 @@
 anđe			2
 beznađe	782		2
 bezvlađe			2
-blagorođe			2
+blagorođe			3
 bleđe			2
 dođe	70776		2
 feđe			2
@@ -15,31 +15,31 @@ grožđe	2613		2
 grđe	109		2
 gvožđe	2693		2
 gđe	481		1
-horovođe	42		2
+horovođe	42		3
 hrđe			2
 izađe	17968		2
 iziđe	1485		2
 iznađe	438		2
-karađorđe			2
+karađorđe			4
 knjigovođe	332		4
-kolovođe			2
+kolovođe			3
 komađe			2
 krađe	6517		2
-labuđe			2
+labuđe			3
 lađe	1195		2
 lođe	79		2
 luđe	181		2
-mašinovođe	176		2
+mašinovođe	176		3
 medveđe	512		2
-mesojeđe			2
+mesojeđe			3
 međe	474		2
 milosrđe	715		4
 mimoiđe	165		2
 mlađe	8717		2
 mrđe			2
 nadgrađe			2
-nadiđe	46		2
-nadođe	215		2
+nadiđe	46		3
+nadođe	215		3
 naiđe	2348		2
 najgrđe	28		3
 najluđe	250		3
@@ -51,48 +51,48 @@ najtvrđe	104		3
 nasleđe	7246		2
 nasljeđe		J	2
 nađe	25528		2
-nemilosrđe	18		2
+nemilosrđe	18		3
 neđe		J	2
 ninđe			2
 niđe			2
 obiđe	1771		2
-oglođe			2
+oglođe			3
 oruđe	1909		2
 otiđe	45		2
 otuđe	93		2
 ođe		J	2
 peđe			2
-pobrđe	56		2
+pobrđe	56		3
 podgrađe			2
 podiđe	48		3
 pograđe			2
-polugođe			2
+polugođe			3
 poređe			2
-porođe			2
+porođe			3
 poslovođe	295		4
-posuđe	1199		2
+posuđe	1199		3
 pođe	4508		2
 pravosuđe	6407		4
 predgrađe	520		2
 predziđe	25		2
-prevaziđe	2243		2
+prevaziđe	2243		3
 pređe	10065		2
 priđe	3324		2
-proizađe	124		2
-proiziđe	32		2
+proizađe	124		3
+proiziđe	32		3
 pronađe	9417		2
 prođe	21813		2
 punđe	187		2
 raziđe	151		2
 razmeđe	34		2
-razvođe	45		2
+razvođe	45		3
 računovođe	500		3
 rađe			2
 ređe	5311		2
 riđe	121		2
 rođe			2
 rđe	332		2
-sazvežđe	508		2
+sazvežđe	508		3
 sađe	17		2
 siđe	1541		2
 slađe	584		2
@@ -104,33 +104,33 @@ suđe	204		2
 svađe	3727		2
 svetogrđe	168		4
 takođe	285401		2
-tamnosmeđe	76		2
+tamnosmeđe	76		3
 tromeđe	97		3
 tuđe	8045		2
 tvrđe	436		2
-uniđe	12		2
-usrđe			2
+uniđe	12		3
+usrđe			3
 uzađe	15		2
 uziđe	132		2
 uđe	18191		2
 veđe			2
 viđe			2
 vojskovođe	564		4
-vozovođe	18		2
+vozovođe	18		3
 vođe	6559		2
-zabrđe	38		2
+zabrđe	38		3
 zaleđe	291		2
-zaobiđe	811		2
+zaobiđe	811		3
 zađe	579		2
-zlopogleđe			2
-četovođe	17		2
+zlopogleđe			3
+četovođe	17		3
 đe		M	1
 đerđe			2
 đorđe			2
 đurđe			2
-žitorađe			2
+žitorađe			3
 medvjeđe			2
 naslijeđe	194		4
 prijeđe	90		3
 rjeđe	164		3
-sazviježđe	11		2
+sazviježđe	11		3

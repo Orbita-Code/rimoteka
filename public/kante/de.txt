@@ -1,6 +1,6 @@
 709
 Beograde			3
-Davide			2
+Davide			3
 Islande			3
 Jude			2
 Kanade			3
@@ -9,8 +9,8 @@ Petrograde			4
 Tajlande			3
 abecede	171		2
 ade	1803		2
-agende	882		2
-ahmede			2
+agende	882		3
+ahmede			3
 ajde	12396		2
 akorde	98		3
 alkaloide	49		2
@@ -18,19 +18,19 @@ ambasade	8142		2
 amplitude	284		2
 anakonde	43		2
 ande			2
-androide	79		2
-andromede			2
+androide	79		3
+andromede			3
 anode	62		2
 antipode	20		2
-apatride			2
+apatride			3
 apside	230		3
-apsurde	59		2
-arkade	122		2
-armade	121		2
+apsurde	59		3
+arkade	122		3
+armade	121		3
 asteroide	174		2
-atlantide			2
+atlantide			3
 avangarde	813		4
-bakenbarde			2
+bakenbarde			3
 bakljade	64		2
 balade	755		2
 bande	1651		2
@@ -41,70 +41,70 @@ bazde	14		2
 bde	22		1
 bede	2493		2
 berde			2
-bermude	160		2
+bermude	160		3
 besede	1422		3
 bide	283		2
-bilborde	492		2
+bilborde	492		3
 biljojede	28		4
 blede	828		2
 blende	715		2
 blokade	4277		2
 blude	32		2
 bode	1233		2
-bogorade			2
+bogorade			3
 brade	1400		2
 brazde	572		2
 bride			2
-brigade	3581		2
+brigade	3581		3
 brode	24		2
 bude	385996		2
 bunde	168		2
-cerade	68		2
+cerade	68		3
 cevovode	94		4
-cirade			2
+cirade			3
 dade	4658		2
-dalekovide			2
+dalekovide			3
 dalekovode	100		3
 de	10794		1
-deblokade	128		2
+deblokade	128		3
 dede	2313		2
 dekade	831		2
 demode			1
 dide			2
 diode	836		2
-dividende	1317		2
-dodade			2
+dividende	1317		3
+dodade			3
 dogode	755		2
-dograde	45		2
-dohode	18		2
-dojade	12		2
+dograde	45		3
+dohode	18		3
+dojade	12		3
 donde		M	2
 dopade	155		3
-dorade	661		2
+dorade	661		3
 dosade	1503		3
 dovde	853		2
 dovede	13115		2
-dovode	9675		2
+dovode	9675		3
 drežde			2
-droide			2
+droide			3
 drugde	4393		2
-druide			2
+druide			3
 dude	148		2
 dužde			2
 dvoglede	64		3
 džide			2
 ede			2
-efemeride			2
+efemeride			3
 elektrode	577		2
-elijade			2
-enčilade			2
+elijade			3
+enčilade			3
 epizode	3274		2
-estrade	872		2
-etide	63		2
+estrade	872		3
+etide	63		3
 fajde			2
 fasade	4624		2
 fide			2
-floride			2
+floride			3
 fluide	65		3
 frende			2
 fride			2
@@ -113,254 +113,254 @@ gajde	221		2
 garde	1629		2
 gasovode	120		4
 gazde	2944		2
-gazivode			2
+gazivode			3
 gde	432707		1
 gdegde		M	2
 genocide	160		4
-gitarijade	171		2
+gitarijade	171		3
 glade	34		2
 glede	1354		2
 glode			2
-gluperde			2
+gluperde			3
 gnezde			2
 gnjide	163		2
 gode	138		2
-gonade	16		2
+gonade	16		3
 goražde			3
 gorde	113		2
 gospode	1148		2
 grade	9104		2
-granade			2
+granade			3
 grde	164		2
 grede	968		2
 gromade	352		2
 grude	211		2
 gude	48		2
-haciende			2
-hacijende	38		2
+haciende			3
+hacijende	38		3
 hajde	14658		2
-haribde			2
+haribde			3
 hazarde	11		3
 heljde	370		2
-hemoroide	185		2
-hepiende			2
-herbicide	182		2
-herolde			2
+hemoroide	185		3
+hepiende			3
+herbicide	182		3
+herolde			3
 hibride	323		2
 hilde			2
-hiljade			2
+hiljade			3
 hlade	551		2
-hloride	22		2
+hloride	22		3
 hode	217		2
 horde	783		2
 htede			2
-humanoide			2
+humanoide			3
 ide	98798		2
 igde	1041		2
-ilijade			2
+ilijade			3
 imade	264		3
 insekticide	79		2
-intifade	36		2
+intifade	36		3
 invalide	963		2
 iscede	105		2
 ishode	620		3
 iskrade	66		3
-ispade	2367		2
-ispovede	57		2
+ispade	2367		3
+ispovede	57		3
 isprede	16		3
-izblede	141		2
+izblede	141		3
 izbode	54		2
 izdade	200		3
-izglade	103		2
+izglade	103		3
 izglede	1635		3
 izgrade	2775		2
-izgrde	18		2
+izgrde	18		3
 izgrede	89		3
-izjede	46		2
-izlude	43		2
+izjede	46		3
+izlude	43		3
 iznenade	892		2
 iznude	430		3
 izostade			3
 izrade	15862		3
-izrode	132		2
+izrode	132		3
 izvade	773		3
 izvede	4653		2
 izvide	51		3
-izvode	7354		2
+izvode	7354		3
 jade	773		2
 jagode	2624		3
 jajovode	43		4
 jarde	53		2
 jede	12902		2
 jezde	103		2
-jolande			2
+jolande			3
 jude			2
 kade	1200		2
-kaide			2
-kamarade			2
-kanonade	47		2
-karijatide	61		2
-karotide	19		2
+kaide			3
+kamarade			3
+kanonade	47		3
+karijatide	61		3
+karotide	19		3
 kaskade	132		2
 katode	71		2
-kikinde			2
-kilibarde			2
+kikinde			3
+kilibarde			3
 klade	501		2
 kode			2
-kojegde		M	2
-kokarde	75		2
-kolonade	50		2
+kojegde		M	3
+kokarde	75		3
+kolonade	50		3
 komade	3127		2
 komande	5516		2
 komode	255		2
-kontrabande			2
-koride	92		2
+kontrabande			3
+koride	92		3
 krade	3409		2
-kratkovide			2
+kratkovide			3
 krede	360		2
 krivde	27		2
 kude	487		2
-kunigunde			2
+kunigunde			3
 kurde			2
 labude	16		3
-lavande	815		2
+lavande	815		3
 lebde	470		2
 lede	89		2
 legende	3875		2
 leoparde	27		4
-libade		M	2
+libade		M	3
 limunade	217		2
-lipide	73		2
+lipide	73		3
 livade	2017		3
 ljude	82089		2
-lobode	19		2
+lobode	19		3
 lorde	29		2
-lubarde			2
+lubarde			3
 lude	1435		2
-magnitude	926		2
-mansarde			2
-marinade	134		2
+magnitude	926		3
+mansarde			3
+marinade	134		3
 marmelade	234		2
-maskarade			2
-matilde			2
+maskarade			3
+matilde			3
 mede	163		2
 medvede	316		3
-metode	16762		2
-međuvode			2
-milijade			2
+metode	16762		3
+međuvode			3
+milijade			3
 milijarde	28875		2
-milisekunde	107		2
-milorde			2
-mirijade	15		2
+milisekunde	107		3
+milorde			3
+mirijade	15		3
 mlade	40054		2
 mode	5505		2
-mogade			2
-monade	42		2
-mopede	19		2
-morade			2
-mrgode			2
-mrgude	28		2
-muhamede			2
-mutivode			2
+mogade			3
+monade	42		3
+mopede	19		3
+morade			3
+mrgode			3
+mrgude	28		3
+muhamede			3
+mutivode			3
 nabode	64		2
-nadade			2
+nadade			3
 nade	11413		2
-nadežde			2
-nadljude	18		2
+nadežde			3
+nadljude	18		3
 nadoknade	4757		4
-nadvlade			2
+nadvlade			3
 nadvojvode	65		4
 naftovode	60		4
 nagode	119		2
 nagrade	37571		3
 nagrde	42		2
-nahode	77		2
-najade			2
+nahode	77		3
+najade			3
 najede	171		3
 najezde	756		3
-nakarade	29		2
+nakarade	29		3
 naknade	13119		3
-namrgode			2
+namrgode			3
 napade	6793		3
-narede	284		2
+narede	284		3
 narode	6483		3
-nasade	34		2
-naslade	120		2
+nasade	34		3
+naslade	120		3
 naslede	322		2
 nastade	800		3
 navede	3058		2
 navode	21856		3
-načude	74		2
-naškode	204		2
+načude	74		3
+naškode	204		3
 negde	51442		2
-neide			2
+neide			3
 nelagode	270		4
-neljude			2
-nemade			2
-nenade			2
+neljude			3
+nemade			3
+nenade			3
 nepogode	1552		4
 nepravde	3455		2
 nerede	894		3
-nerude			2
-neslobode	237		2
+nerude			3
+neslobode	237		3
 nestade	790		3
-nevade			2
+nevade			3
 nezgode	2326		3
 nigde	24020		2
 nomade	47		2
 nude	18730		2
 nužde	1106		2
-obede	16		2
-obezbede	10076		2
-obezvrede	105		2
-oblande	251		2
-obnevide			2
-obode	91		2
+obede	16		3
+obezbede	10076		3
+obezvrede	105		3
+oblande	251		3
+obnevide			3
+obode	91		3
 obrade	8970		3
 obrede	620		3
-ocede	99		2
+ocede	99		3
 odade	91		3
 odande	1432		3
 odavde	7180		3
 ode	27313		2
-odežde	291		2
+odežde	291		3
 odgode	132		3
 odlede	15		2
 odmazde	1093		3
-odnegde			2
+odnegde			3
 odrade	1645		2
 odrede	2788		3
 odrode	21		3
-odsede	29		2
+odsede	29		3
 odustade			3
-odvade			2
+odvade			3
 odvede	2335		2
-odvode	804		2
+odvode	804		3
 oglede	335		3
 ograde	4059		3
 ohlade	537		2
-okade	14		2
-oklade	14		2
+okade	14		3
+oklade	14		3
 okside	57		2
-olimpijade	1579		2
+olimpijade	1579		3
 onde	1662		2
 opade			3
-ophode	436		2
+ophode	436		3
 opklade	243		3
 oplode	111		2
-oprede			2
+oprede			3
 opsade	1040		3
 opsede	15		3
-orade	29		2
-oreade			2
-oslade	18		2
+orade	29		3
+oreade			3
+oslade	18		3
 oslobode	2698		2
-osmude			2
+osmude			3
 ostade	91		3
-ostende			2
+ostende			3
 osude	3101		3
-otide			2
-otkide			2
+otide			3
+otkide			3
 otpade	144		3
 ovde	225795		2
 ozlede	242		3
@@ -368,104 +368,104 @@ ozlijede		J	3
 ozljede		J	3
 pade	2022		2
 pagode	56		3
-palamide	20		2
-palisade	22		2
+palamide	20		3
+palisade	22		3
 pande	340		2
 parade	5534		2
 parobrode			4
 periode	1682		3
-perside			2
+perside			3
 pesticide	423		2
 petarde	483		2
-pijade			2
+pijade			3
 piramide	2355		2
-plejade	362		2
+plejade	362		3
 plode	24		2
 pobede	27381		3
 poblede	16		2
-pobode			2
+pobode			3
 pobude	535		3
-podade	13		2
+podade	13		3
 podbode	19		2
 pode	15		2
-podljude			2
-podmlade	62		2
-podrede	163		2
+podljude			3
+podmlade	62		3
+podrede	163		3
 podvede	300		3
 podvode	127		2
-pogdegde		M	2
+pogdegde		M	3
 poglede	3095		3
 pogode	807		2
-pogorde			2
-pogrde	101		2
+pogorde			3
+pogrde	101		3
 pohode	972		3
 pojede	3403		3
-poklade	136		2
+poklade	136		3
 pokrade	300		3
-pokude	76		2
+pokude	76		3
 poljoprivrede	28684		3
 polude	219		2
-poluljude			2
+poluljude			3
 pomade	59		2
-ponegde	2233		2
+ponegde	2233		3
 ponude	26943		3
-popade	11		2
+popade	11		3
 porade	304		2
-porede	1613		2
+porede	1613		3
 porode	180		3
 posade	4213		3
 posede	835		3
 postade	384		3
 postide	224		2
 posude	2552		3
-posvade			2
-potkrade	102		2
+posvade			3
+potkrade	102		3
 potrude	889		2
 potvrde	6554		3
-povade	81		2
+povade	81		3
 povede	3553		3
 povode	233		3
 povrede	21207		3
-pozavide	149		2
-pozlede			2
-poznade			2
+pozavide	149		3
+pozlede			3
+poznade			3
 poštede	283		3
 požude	374		3
-pradede	196		2
+pradede	196		3
 pravde	25865		2
-preblede	23		2
+preblede	23		3
 prebrode	517		2
 predade	1090		3
 prede	386		2
 predodrede			2
 predrasude	4005		3
-preduprede	262		2
+preduprede	262		3
 predvide	919		3
 predvode	1175		2
 preglede	4348		3
 pregrade	835		3
 prehlade	1922		3
-prehode			2
-prejede	33		2
-prekade			2
+prehode			3
+prejede	33		3
+prekade			3
 prekide	805		3
-prekomande			2
-premlade	18		2
+prekomande			3
+premlade	18		3
 preostade	21		3
 prepade	203		3
 preporode	43		4
-prepoznade			2
-prerade	4017		2
+prepoznade			3
+prerade	4017		3
 presade	52		2
-presede	35		2
+presede	35		3
 prestade	344		3
 presude	13279		3
 prethode	752		2
-preurede	109		2
+preurede	109		3
 prevede	1489		2
-previde	160		2
+previde	160		3
 prevode	1822		3
-pribode			2
+pribode			3
 pride	1476		2
 prigode	81		3
 prihode	8568		3
@@ -475,38 +475,38 @@ prinude	1115		3
 pripade	172		3
 pripovjede		J	3
 prirede	237		2
-prirode	33114		2
-prisede			2
+prirode	33114		3
+prisede			3
 pristade	373		3
-pritvrde			2
+pritvrde			3
 privede	1333		3
 privide	37		3
 privode	958		2
 privrede	32459		3
 priznade	126		3
-problede			2
-probode	157		2
+problede			3
+probode	157		3
 probude	1130		2
 prodade	103		3
-prohlade	49		2
-prohode	28		2
-proishode	41		2
+prohlade	49		3
+prohode	28		3
+proishode	41		3
 proizvede	4740		3
 proizvode	38982		3
-projezde			2
-prokrade			2
-promenade	177		2
-pronade			2
+projezde			3
+prokrade			3
+promenade	177		3
+pronade			3
 propade	279		3
-propagande			2
-prorade	307		2
-prorede	57		2
-prosede	92		2
-proslede	386		2
-prosude	96		2
+propagande			3
+prorade	307		3
+prorede	57		3
+prosede	92		3
+proslede	386		3
+prosude	96		3
 provede	4304		2
-provide	75		2
-provode	6042		2
+provide	75		3
+provode	6042		3
 rade	131222		2
 rasede	28		3
 rashlade	167		2
@@ -514,49 +514,49 @@ rashode	1742		3
 raskide	83		3
 raspade	80		3
 rasporede	535		4
-rasprede			2
+rasprede			3
 rasrde	12		2
 rastade			3
-rasude			2
+rasude			3
 razbude	41		2
 razdade	134		3
-razgrade	104		2
-razjede			2
+razgrade	104		3
+razjede			3
 razonode	520		4
 razrade	685		3
 razrede	707		3
-razumede			2
+razumede			3
 razvede	357		3
 razvode	438		3
 rede	171		2
 redoslede			4
 rekorde	1717		3
 rende	170		2
-ripide			2
+ripide			3
 rode	1837		2
-rokade	112		2
-roksande			2
-romboide	14		2
-ruande			2
+rokade	112		3
+roksande			3
+romboide	14		3
+ruande			3
 rude	2482		2
-rukosade			2
+rukosade			3
 rukovode	1766		2
 runde	2389		2
-ručerde			2
+ručerde			3
 sade	1008		2
 sagrade	479		2
-samoosude			2
+samoosude			3
 sastade	23		3
 saznade	212		3
 sede	10180		2
-sefarde			2
+sefarde			3
 sekunde	7686		3
-serenade	58		2
-simonide			2
-sinbade			2
+serenade	58		3
+simonide			3
+sinbade			3
 sinode	34		2
 skide			2
-skinhede			2
+skinhede			3
 slade	109		2
 sladolede	179		4
 slede	11680		2
@@ -568,7 +568,7 @@ smrde	481		2
 snabde	212		2
 sode	523		2
 sonde	1424		2
-spermatozoide	175		2
+spermatozoide	175		3
 spopade	191		3
 sprovede	7038		3
 sprovode	9800		3
@@ -577,14 +577,14 @@ srede	4643		2
 srode			2
 stade	4404		2
 standarde	13359		3
-steroide	117		2
+steroide	117		3
 stide	1476		2
 stjuarde	12		3
 sude	2264		2
 suicide	30		2
-sulfide	15		2
+sulfide	15		3
 sulude	477		3
-superzvezde	66		2
+superzvezde	66		3
 susede	839		3
 susjede			3
 svagde	126		2
@@ -593,116 +593,116 @@ svide	145		2
 svode	2060		2
 svude			2
 svugde	3097		2
-tabloide	243		2
-tirade	216		2
-torcide			2
+tabloide	243		3
+tirade	216		3
+torcide			3
 trade	282		2
-triade			2
-trijade	131		2
+triade			3
+trijade	131		3
 trude	5820		2
 tvrde	31141		2
-ubede	1624		2
+ubede	1624		3
 ubode	613		3
 ude	222		2
-ugande			2
+ugande			3
 uglede			3
-ugnezde	19		2
+ugnezde	19		3
 ugrade	1085		2
 uhode	179		3
-ujede	768		2
+ujede	768		3
 ukrade	1619		3
-unaprede	3034		2
+unaprede	3034		3
 upade	379		3
-uporede	1256		2
+uporede	1256		3
 urade	12995		2
 urede	1083		3
 urode	92		3
 usade	98		2
-usede			2
-ushtede			2
-usklade	1154		2
-uskogrude			2
-uslede	351		2
+usede			3
+ushtede			3
+usklade	1154		3
+uskogrude			3
+uslede	351		3
 usmrde	17		2
-usredsrede	272		2
+usredsrede	272		3
 ustade	1121		3
 ustvrde	23		2
 usude	407		3
 utvrde	3548		3
-uvede			2
+uvede			3
 uvide	1349		3
 uvode	3803		3
 uvrede	4138		3
-uzbude	157		2
+uzbude	157		3
 uzde	308		2
 uštede	7345		3
-vagabunde			2
+vagabunde			3
 velegrade			4
 verande	97		2
 vide	48577		2
 vikende	323		3
 vinograde	1020		4
-višegrade			2
+višegrade			3
 vlade	137457		2
 vode	122080		2
 vodopade	206		4
-vodoprivrede	2955		2
+vodoprivrede	2955		3
 vodovode	142		4
-vojevode			2
+vojevode			3
 vojvode	3251		3
 vožde			2
 vražde			2
 vrede	3330		2
 zablude	2704		3
 zabode	239		2
-zabrazde			2
+zabrazde			3
 zade			2
 zagade	111		3
 zagrade	283		3
 zahode			3
-zajede			2
-zakide			2
-zalebde			2
-zalude	27		2
+zajede			3
+zakide			3
+zalebde			3
+zalude	27		3
 zaostade			3
 zapade	78		3
 zapovede	13		3
-zaprede			2
+zaprede			3
 zarade	24070		3
 zarude			2
 zasade	854		3
 zasede	506		3
-zaslade	66		2
+zaslade	66		3
 zastade	504		3
-zastide	44		2
+zastide	44		3
 zavade	237		3
 zavede	1034		3
-zavide			2
+zavide			3
 zavode	601		3
 začude	89		3
-zelande			2
-zelenkade			2
+zelande			3
+zelenkade			3
 zgade	37		2
 zgode	271		2
 zgrade	36645		2
-zinaide			2
-zlehude			2
+zinaide			3
+zlehude			3
 zlurade	142		3
 znade	375		2
 zonde			2
 zvezde	27528		2
 zvižde	258		2
-ćeramide			2
+ćeramide			3
 ćorde			2
 čarde	189		2
 čede			2
 čeljade	274		2
-čiode			2
+čiode			3
 čokolade	4711		2
 čude	1446		2
-čukundede			2
+čukundede			3
 đede		J	2
-šarade	38		2
+šarade	38		3
 škode	945		2
 špade			2
 štede	2175		2
@@ -712,29 +712,29 @@ besjede			3
 bijede	146		3
 blijede	66		3
 djede	29		2
-gnijezde			2
+gnijezde			3
 htjede			2
-izblijede			2
+izblijede			3
 medvjede			3
 mjede			2
 naslijede	18		3
-obezbijede			2
-objede			2
+obezbijede			3
+objede			3
 pobijede	74		3
 pobjede			3
 poblijede			3
 posjede			3
 povrijede	27		3
-prosjede			2
+prosjede			3
 rasjede			3
 sijede	44		3
 sjede	790		2
 slijede	796		3
 srijede	153		3
-ubijede	43		2
-unaprijede	77		2
+ubijede	43		3
+unaprijede	77		3
 uvrijede	25		3
-vrijede	238		2
+vrijede	238		3
 zapovjede			3
 zasjede			3
 zvijezde	1457		3

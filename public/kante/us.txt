@@ -2,85 +2,85 @@
 Isus			2
 abakus	56		3
 abortus	1438		2
-amadeus			2
-angelus			2
-antivirus	856		2
+amadeus			3
+angelus			3
+antivirus	856		3
 anus	293		2
-asparagus		M	2
+asparagus		M	3
 autobus	7598		2
 bambus	387		2
-belorus			2
+belorus			3
 bolus			2
 bonus	2753		2
-brontosaurus			2
+brontosaurus			3
 brus	774		1
 brutus			2
 bus	2203		1
-celzijus	35		2
-celzius			2
+celzijus	35		3
+celzius			3
 cenzus	3155		2
 ciklus	8457		2
 cirkus	2553		2
 cirus			2
 citrus	45		2
-dekubitus			2
+dekubitus			3
 deus			2
-dibidus		M	2
+dibidus		M	3
 dinosaurus	216		3
-diplodokus			2
+diplodokus			3
 drajfus			2
 duktus			2
 džumbus		M	2
 egzodus	548		2
-ehinokokus			2
-eukaliptus	65		2
-ezofagus			2
+ehinokokus			3
+eukaliptus	65		3
+ezofagus			3
 falus	89		2
 fetus	422		2
 fikus	175		2
 fiskus			2
-fizikus			2
+fizikus			3
 fokus	7495		2
 fundus	130		2
 gaus		M	2
-generalisimus			2
+generalisimus			3
 globus	1103		2
 gnus			1
-gvarnerius			2
-habitus	121		2
+gvarnerius			3
+habitus	121		3
 haus			2
-hibiskus	110		2
-hidrobus			2
+hibiskus	110		3
+hidrobus			3
 hindus			2
-hipokampus	73		2
-hipotalamus	155		2
+hipokampus	73		3
+hipotalamus	155		3
 hummus			2
 humus	264		2
 hus			1
 iktus		M	2
 indus			2
-intimus	45		2
+intimus	45		3
 janus			2
 jus			1
-juventus			2
+juventus			3
 kaktus	228		2
 kampus	820		2
-kasijus			2
+kasijus			3
 klaus			2
-koitus	68		2
+koitus	68		3
 kokus	51		2
-kolambus			2
-kolumbus			2
-koncenzus	169		2
+kolambus			3
+kolumbus			3
+koncenzus	169		3
 konsenzus	4434		2
 konus			2
-kornelijus			2
+kornelijus			3
 korpus	2189		2
 kosinus	28		3
 krampus			2
 kraus			2
 krokus			2
-kumulonimbus			2
+kumulonimbus			3
 kupus	2946		2
 kuršlus		M	2
 kus		M	1
@@ -98,66 +98,66 @@ magnus			2
 markus			2
 mauricijus			3
 maus			2
-meniskus		M	2
+meniskus		M	3
 mingus			2
-minibus	230		2
+minibus	230		3
 minus	7072		2
 modus	744		2
 mošus	40		2
 mus	121		1
-nautilus		M	2
-neukus	149		2
-nikolaus			2
+nautilus		M	3
+neukus	149		3
+nikolaus			3
 nimbus			2
 nukleus	348		3
 nus			1
-oktopus			2
+oktopus			3
 okus	201		2
-omnibus	371		2
+omnibus	371		3
 opus	2017		2
 papirus	106		3
-paracelzus			2
-paratifus	11		2
+paracelzus			3
+paratifus	11		3
 pasus	1171		2
-pegasus			2
-penthaus	88		2
+pegasus			3
+penthaus	88		3
 pleksus	105		2
 pljus	13		1
 plus	27543		1
 pokus	52		2
-predokus	32		2
-predukus	53		2
-primarijus	320		2
+predokus	32		3
+predukus	53		3
+primarijus	320		3
 primus	49		2
 prus			1
-pterosaurus			2
+pterosaurus			3
 radijus	426		3
-radius			2
-rajferšlus			2
-rajfešlus			2
+radius			3
+rajferšlus			3
+rajfešlus			3
 rajsferšlus	91		3
-rajsfešlus			2
+rajsfešlus			3
 rebus	181		2
 remus			2
-retrovirus	21		2
+retrovirus	21		3
 rezus	48		2
-ricinus	38		2
+ricinus	38		3
 rus		M	1
 sajrus			2
 servus			2
 sinus	186		2
-spinosaurus			2
-spiritus			2
+spinosaurus			3
+spiritus			3
 status	33657		2
-stegosaurus			2
-sukubus			2
-talamus	36		2
-taurus			2
-tetanus	95		2
-tezaurus			2
+stegosaurus			3
+sukubus			3
+talamus	36		3
+taurus			3
+tetanus	95		3
+tezaurus			3
 tifus	232		2
-tinitus	116		2
-tiranosaurus			2
+tinitus	116		3
+tiranosaurus			3
 tonus	635		2
 torus			2
 trolejbus	137		2
@@ -166,7 +166,7 @@ tubus			2
 turnus	54		2
 ubrus	173		2
 ukus	12455		2
-uterus	94		2
+uterus	94		3
 uzus	16		2
 venus			2
 virus	7387		2
@@ -175,5 +175,5 @@ zimus	1077		2
 ćurgus			2
 đus		M	1
 šinobus	87		3
-špiritus		M	2
+špiritus		M	3
 štraus			2

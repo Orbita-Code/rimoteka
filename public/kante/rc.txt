@@ -1,11 +1,11 @@
 16
 cvrc		M	1
-gigaherc			2
+gigaherc			3
 herc			1
-kiloherc			2
+kiloherc			3
 komerc	625		2
 kvarc	172		1
-megaherc			2
+megaherc			3
 merc			1
 nerc			1
 prc		M	1

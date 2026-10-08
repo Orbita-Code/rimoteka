@@ -2,9 +2,9 @@
 ajaks			2
 aleks			2
 aneks	1606		2
-antiklimaks	22		2
+antiklimaks	22		3
 antraks	79		2
-apendiks	41		2
+apendiks	41		3
 boks	1823		1
 boraks	27		2
 botoks	332		2
@@ -26,7 +26,7 @@ fuks			1
 geneks			2
 heks			1
 heliks			2
-hemotoraks			2
+hemotoraks			3
 hoaks			2
 iks	657		1
 indeks	8982		2
@@ -51,15 +51,15 @@ maks			1
 marks			1
 matriks	219		2
 miks	1511		1
-minimaks			2
-multipleks	244		2
+minimaks			3
+multipleks	244		3
 narteks			2
-neokorteks			2
+neokorteks			3
 oniks	53		2
 oriks	31		2
-ortodoks			2
+ortodoks			3
 paradoks	2660		2
-pneumotoraks	74		2
+pneumotoraks	74		3
 poluks			2
 prefiks	633		2
 refleks	825		2
@@ -73,7 +73,7 @@ semteks			2
 spandeks			2
 stiks			1
 sufiks	212		2
-telefaks	64		2
+telefaks	64		3
 teleks	20		2
-uniseks			2
+uniseks			3
 vorteks			2

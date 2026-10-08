@@ -1,17 +1,17 @@
 155
 Tunis			2
 adonis			3
-agrobiznis	572		2
+agrobiznis	572		3
 ambis	733		2
 anis	181		2
-anubis			2
-apendicitis		M	2
+anubis			3
+apendicitis		M	3
 apis			2
-aramis			2
+aramis			3
 artritis	705		2
 atlantis			2
 bakropis	24		3
-beatris			2
+beatris			3
 bis	1224		1
 biznis		M	2
 boris			2
@@ -21,27 +21,27 @@ brzopis			3
 cis			1
 cistitis			2
 denis			2
-dermatitis	424		2
-digitalis		M	2
-dijabetis			2
-dionis			2
+dermatitis	424		3
+digitalis		M	3
+dijabetis			3
+dionis			3
 dis			1
 dopis	3340		2
 džingis			2
 elis			2
 elvis			2
-encefalitis	143		2
-endokarditis	34		2
+encefalitis	143		3
+endokarditis	34		3
 enis			2
-epiglotis			2
-faringitis			2
+epiglotis			3
+faringitis			3
 feris			2
 fis	819		1
 flis			1
 francis			2
 frensis			2
 gastritis	279		2
-gastroenteritis	56		2
+gastroenteritis	56		3
 gingivitis			2
 ginis			2
 gratis	1045		2
@@ -49,80 +49,80 @@ gravis			2
 grinpis			2
 gris			1
 haris			2
-hepatitis	1204		2
+hepatitis	1204		3
 hingis			2
 his	79		1
 ibis	67		2
-ikonopis	117		2
-ilinois			2
-illinois			2
+ikonopis	117		3
+ilinois			3
+illinois			3
 iris	242		2
 ispis	436		2
 jaspis		M	2
 kanabis	235		3
 kapris			2
-katehizis			2
-katihizis	105		2
+katehizis			3
+katihizis	105		3
 kertis			2
-kiparis		M	2
+kiparis		M	3
 klis			1
 klitoris	737		2
 kolitis	173		2
 kompromis	5096		2
-konjuktivitis	162		2
-konjunktivitis	132		2
+konjuktivitis	162		3
+konjunktivitis	132		3
 krasnopis		M	3
 kris		M	1
 lapis	55		2
-laringitis	105		2
+laringitis	105		3
 letopis	582		3
 lis			1
-louis			2
+louis			3
 luis			2
 mastitis			2
 matis			2
 medžlis			2
-megalopolis			2
+megalopolis			3
 memfis			2
-meningitis	389		2
+meningitis	389		3
 metropolis	113		3
-miokarditis			2
-miomiris	51		2
+miokarditis			3
+miomiris	51		3
 miris	11793		2
-mutandis			2
+mutandis			3
 mutatis			2
 napis	409		2
 narcis	280		2
 natpis	2874		2
 nefritis			2
-nemezis			2
+nemezis			3
 nevis			2
 obris	162		2
 ofis	228		2
 opis	15442		2
 otis			2
 otpis	1075		2
-oziris			2
-pankreatitis	96		2
-paraklis	100		2
+oziris			3
+pankreatitis	96		3
+paraklis	100		3
 patris			2
-pektoris			2
+pektoris			3
 penis	1586		2
-perikarditis			2
-peritonitis	59		2
+perikarditis			3
+peritonitis	59		3
 pis	31		1
-pleuritis	36		2
-pneumonitis			2
-poliomielitis			2
+pleuritis	36		3
+pneumonitis			3
+poliomielitis			3
 polis	195		2
 popis	6618		2
 potpis	5945		2
 pravopis	1483		3
 prentis			2
 prepis	762		2
-prirodopis	14		2
+prirodopis	14		3
 propis	2593		2
-prostatitis			2
+prostatitis			3
 putopis	569		3
 rahitis	91		2
 raspis	219		2
@@ -133,8 +133,8 @@ ris	576		1
 rukopis	2878		3
 servis	27695		2
 sifilis	380		3
-sinopsis	550		2
-solaris			2
+sinopsis	550		3
+solaris			3
 spis	1107		1
 tajnopis			3
 tenis	5770		2
@@ -144,13 +144,13 @@ ulis			2
 upis	12575		2
 usis	48		2
 uvis	1109		2
-vangelis			2
-vaskulitis			2
+vangelis			3
+vaskulitis			3
 vis	1517		1
 zapis	4500		2
 zemljopis	83		3
 časopis	9969		3
-šoubiznis	45		2
+šoubiznis	45		3
 švrakopis			3
 živopis	601		3
 životopis	273		2

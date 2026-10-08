@@ -1,5 +1,5 @@
 290
-angažuj	24		2
+angažuj	24		3
 bičuj			2
 bljuj			1
 boksuj			2
@@ -9,15 +9,15 @@ caruj			2
 daruj	95		1
 dejstvuj			2
 deluj	99		2
-dezinfikuj			2
+dezinfikuj			3
 dobacuj			1
 dodiruj	24		1
-doputuj			2
+doputuj			3
 doručkuj	14		3
 dosađuj	18		1
 dočekuj			1
-dramatizuj			2
-emituj			2
+dramatizuj			3
+emituj			3
 flertuj	16		2
 fuj	701		1
 gladuj	11		2
@@ -26,60 +26,60 @@ gostuj			2
 identifikuj	10		4
 imenuj	23		3
 improvizuj			3
-inicijalizuj			2
+inicijalizuj			3
 isceljuj			1
 iskaljuj			1
 isključuj	12		1
 iskorenjuj			1
-ispaljuj			2
+ispaljuj			3
 ispisuj			1
 ispituj	18		1
 isplaćuj			1
 ispljuj			2
-ispoštuj	23		2
+ispoštuj	23		3
 istražuj	34		1
 istrebljuj			1
 izbacuj	14		1
-izobličuj			2
+izobličuj			3
 izoluj	10		3
-izrecituj			2
+izrecituj			3
 izuj	26		2
-izvršuj			2
+izvršuj			3
 jadikuj			3
-kandiduj	19		2
+kandiduj	19		3
 kazuj	127		1
-kidnapuj			2
+kidnapuj			3
 kmetuj			2
-komanduj			2
-kombinuj	73		2
+komanduj			3
+kombinuj	73		3
 komplikuj			3
-konvertuj	35		2
-koriguj	13		2
+konvertuj	35		3
+koriguj	13		3
 kraguj		M	2
 kraljuj			1
-kritikuj	58		2
+kritikuj	58		3
 kuj	83		1
 kupuj	327		1
 likuj	21		2
 luduj	31		1
 luj			1
 miluj	12		2
-minimizuj			2
+minimizuj			3
 miruj	34		1
-modifikuj			2
+modifikuj			3
 mudruj	10		2
 nabacuj			1
 nadahnjuj			1
 nalikuj			3
 namjenjuj		J	1
 napreduj	17		3
-naređuj			2
+naređuj			3
 naručuj			1
-naslađuj			2
+naslađuj			3
 navaljuj			1
 negoduj			3
 neguj	37		2
-obavezuj			2
+obavezuj			3
 objavljuj	21		1
 oblikuj	25		3
 obmanjuj	13		1
@@ -91,12 +91,12 @@ obuj	32		2
 ocenjuj			1
 odbacuj	24		1
 odlučuj	13		1
-odrezuj			2
+odrezuj			3
 određuj			1
-odvezuj			2
+odvezuj			3
 ograđuj			1
 ohrabruj			1
-ojađuj			2
+ojađuj			3
 okrivljuj			1
 opasuj			1
 oplakuj	11		1
@@ -105,74 +105,74 @@ opsuj			1
 opterećuj	47		1
 optužuj			1
 organizuj	95		3
-osluškuj	17		2
-osmehuj			2
+osluškuj	17		3
+osmehuj			3
 osnuj	35		1
 osuđuj	33		1
 otkazuj			1
-otkupljuj			2
-otpakuj			2
+otkupljuj			3
+otpakuj			3
 otpisuj			1
 otputuj	12		1
 otruj			1
 očekuj	318		1
 pakuj	74		2
-pametuj	36		2
+pametuj	36		3
 pečuj			2
 pljuj	90		1
 pobeđuj	44		1
-podcenjuj	12		2
+podcenjuj	12		3
 podmićuj			1
-podvikuj			2
+podvikuj			3
 pojavljuj	11		1
 pokazuj	74		1
-pomazuj			2
+pomazuj			3
 pomiluj	619		3
 popuj			2
-posavetuj	50		2
+posavetuj	50		3
 posećuj	15		1
 posreduj			3
 posvećuj			1
-potcenjuj	34		2
-pothranjuj			2
-potiskuj			2
+potcenjuj	34		3
+pothranjuj			3
+potiskuj			3
 potkrepljuj			1
-potpaljuj			2
+potpaljuj			3
 potpisuj	23		1
 poveruj	39		3
-povinuj			2
-povlađuj			2
+povinuj			3
+povlađuj			3
 povređuj			1
-pozajmljuj			2
+pozajmljuj			3
 počuj	42		2
 poštuj	376		1
-požuruj			2
+požuruj			3
 prebacuj	23		1
-precenjuj			2
+precenjuj			3
 pregrađuj			1
-preimenuj	11		2
-preispituj			2
+preimenuj	11		3
+preispituj			3
 premlaćuj			1
-prenagljuj			2
+prenagljuj			3
 preteruj	100		1
-pretovaruj			2
+pretovaruj			3
 pretražuj	13		1
-približuj			2
-pridikuj			2
+približuj			3
+pridikuj			3
 pridružuj			1
 prikazuj	16		1
 prikuj			2
-prilepljuj			2
+prilepljuj			3
 primenjuj	19		1
-prinuđuj			2
+prinuđuj			3
 pripisuj			1
 prisluškuj			1
-pritešnjuj			2
-pričešćuj			2
-prorokuj	18		2
-prosleđuj			2
-prosvećuj			2
-protestuj			2
+pritešnjuj			3
+pričešćuj			3
+prorokuj	18		3
+prosleđuj			3
+prosvećuj			3
+protestuj			3
 provaljuj			1
 proširuj			1
 psuj	35		1
@@ -180,33 +180,33 @@ ptuj			1
 putuj	287		1
 raduj	839		2
 raskuj			2
-raspakuj			2
-raspaljuj			2
-raspituj			2
+raspakuj			3
+raspaljuj			3
+raspituj			3
 raspoređuj			1
 rastužuj			1
-rasuđuj			2
+rasuđuj			3
 ratuj	17		2
 razbacuj			1
 razdeljuj			1
 razdražuj			1
-razglašuj			2
+razglašuj			3
 razlikuj	15		3
 razvaljuj			1
 reaguj	84		3
-recituj			2
-rediguj			2
-registruj	153		2
-regrutuj			2
-reprodukuj			2
-resetuj	68		2
-restartuj	72		2
-rizikuj	19		2
+recituj			3
+rediguj			3
+registruj	153		3
+regrutuj			3
+reprodukuj			3
+resetuj	68		3
+restartuj	72		3
+rizikuj	19		3
 ruj	97		1
 rukuj	13		2
 sahranjuj			1
 sarađuj	10		1
-saučestvuj			2
+saučestvuj			3
 savetuj	25		3
 savlađuj			1
 siluj	12		2
@@ -217,48 +217,48 @@ smućuj			2
 spakuj	62		2
 speluj			2
 sređuj	10		1
-stabilizuj			2
+stabilizuj			3
 startuj	44		2
 stepuj			2
 stešnjuj			2
 stoluj			2
 strahuj	14		1
-suspenduj			2
+suspenduj			3
 svaljuj			2
 svetkuj			1
-teleportuj			2
+teleportuj			3
 trguj	20		2
 tripuj			2
 tuguj	142		1
 ubacuj	25		1
-ubeđuj	15		2
-udaljuj			2
+ubeđuj	15		3
+udaljuj			3
 udružuj			1
-udubljuj			2
-ujedinjuj			2
+udubljuj			3
+ujedinjuj			3
 ukazuj			1
 uključuj	10		1
-ukroćuj			2
+ukroćuj			3
 ulizuj			1
-umanjuj			2
-umiruj			2
-umrtvljuj			2
+umanjuj			3
+umiruj			3
+umrtvljuj			3
 umuj			1
-upakuj			2
-uperuj			2
-upoređuj	30		2
+upakuj			3
+uperuj			3
+upoređuj	30		3
 upućuj			1
-urazumljuj			2
-usklađuj			2
-uskraćuj			2
-usmrćuj			2
-ustremljuj			2
+urazumljuj			3
+usklađuj			3
+uskraćuj			3
+usmrćuj			3
+ustremljuj			3
 usuđuj	15		1
 utvrđuj			2
 uvaljuj			1
 uzbuđuj	26		1
 uzvikuj			1
-ućutkuj			2
+ućutkuj			3
 učestvuj	101		3
 veruj	3338		2
 vezuj	29		1
@@ -266,22 +266,22 @@ vojuj			1
 zabranjuj			1
 zadirkuj			1
 zadubljuj			1
-zaglađuj			2
+zaglađuj			3
 zahvaljuj	20		1
-zainteresuj			2
+zainteresuj			3
 zaključuj			1
-zakriljuj			2
+zakriljuj			3
 zaljubljuj			1
 zamahuj			1
-zamlaćuj			2
-zamračuj			2
+zamlaćuj			3
+zamračuj			3
 zanemaruj	10		1
-zapakuj	10		2
-zapečaćuj			2
+zapakuj	10		3
+zapečaćuj			3
 zapisuj	23		1
-zapitkuj			2
+zapitkuj			3
 zarađuj	15		1
-zastajkuj			2
+zastajkuj			3
 zbunjuj			1
 zuj	30		1
 čuj	1440		1
@@ -291,9 +291,9 @@ zuj	30		1
 žrtvuj	16		2
 djeluj			2
 pobjeđuj			1
-podcjenjuj			2
-potcjenjuj			2
+podcjenjuj			3
+potcjenjuj			3
 pretjeruj			1
 savjetuj			3
-ubjeđuj			2
+ubjeđuj			3
 vjeruj			2

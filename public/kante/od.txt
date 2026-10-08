@@ -3,15 +3,15 @@ antipod	254		2
 barkod	174		2
 bod	4008		1
 brod	12128		1
-caribrod			2
+caribrod			3
 cevovod	513		3
 dalekovod	314		2
 degod			2
 dogod			2
 dohod			2
-doklegod			2
+doklegod			3
 dovod	611		2
-elektrovod			2
+elektrovod			3
 gasovod	2059		3
 gdegod	191		2
 god	89658		1
@@ -26,41 +26,41 @@ izvod	2977		2
 jajovod	87		3
 jod	519		1
 kadgod	498		2
-kakogod		M	2
+kakogod		M	3
 klod			1
 kod	498155		1
 kogod		M	2
-kolikogod	145		2
-koproizvod			2
-kudagod		M	2
+kolikogod	145		3
+koproizvod			3
+kudagod		M	3
 kudgod			2
 metod	8627		2
-mimohod	51		2
+mimohod	51		3
 mod	3406		1
-mokraćovod			2
+mokraćovod			3
 naftovod	317		3
 nahod			2
 narod	110244		2
 navod	636		2
-novgorod			2
-nusproizvod	203		2
+novgorod			3
+nusproizvod	203		3
 obod	367		2
 od	3792672		1
 odrod	16		2
 odvod	648		2
 oktopod	79		2
 ophod	169		2
-parabrod			2
+parabrod			3
 parobrod	386		3
 period	51182		2
 plinovod	37		3
 plod	7714		1
 pod	291571		1
 pohod	2350		2
-poluproizvod	93		2
+poluproizvod	93		3
 porod	429		2
 povod	9681		2
-pranarod			2
+pranarod			3
 prehod			2
 preporod	1832		3
 prevod	7360		2
@@ -69,7 +69,7 @@ priplod	193		2
 prirod	21		2
 probod			2
 prohod	37		2
-proishod			2
+proishod			3
 proizvod	31912		2
 provod	4300		2
 rapsod			2
@@ -77,9 +77,9 @@ rashod	456		2
 rasplod	30		2
 razvod	3161		2
 rod	9694		1
-semenovod			2
+semenovod			3
 sinod	1579		2
-skorohod			2
+skorohod			3
 sprovod	125		2
 stagod			2
 stogod			2

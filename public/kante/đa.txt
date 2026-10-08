@@ -2,7 +2,7 @@
 anđa			2
 beznađa	852		2
 bezvlađa			2
-bezvođa			2
+bezvođa			3
 bleđa			2
 ceđa			2
 delovođa	29		4
@@ -19,13 +19,13 @@ gvožđa	4754		2
 gđa	1307		1
 horovođa	114		4
 hrđa			2
-izanđa			2
-izrađa			2
-izređa			2
+izanđa			3
+izrađa			3
+izređa			3
 izviđa	15		2
-izvređa	69		2
-karavađa			2
-karađorđa			2
+izvređa	69		3
+karavađa			3
+karađorđa			3
 knjigovođa	504		4
 kolovođa		M	4
 konđa			2
@@ -35,13 +35,13 @@ lađa	1067		2
 leđa	16857		2
 lođa	111		2
 luđa	66		2
-mašinovođa	447		2
+mašinovođa	447		3
 medveđa	447		3
-mesojeđa			2
+mesojeđa			3
 međa	370		2
 milosrđa	717		4
 mlađa	3814		2
-mrkogleđa			2
+mrkogleđa			3
 mrđa			2
 nagađa	780		2
 najluđa	140		3
@@ -49,67 +49,67 @@ najmlađa	1412		3
 najređa	55		3
 najslađa	141		3
 najtvrđa	50		3
-naređa			2
+naređa			3
 nasleđa	6460		2
 nasljeđa		J	2
 nađa			2
-nemilosrđa	16		2
+nemilosrđa	16		3
 ninđa			2
 oruđa	1586		2
 oslobađa	4538		2
-oštrokonđa			2
+oštrokonđa			3
 perovođa		M	4
 peđa			2
-pobrđa	88		2
-podgrađa			2
+pobrđa	88		3
+podgrađa			3
 pogađa	4663		2
-pohađa	2564		2
+pohađa	2564		3
 polugođa			4
-ponajmlađa			2
-ponuđa			2
+ponajmlađa			3
+ponuđa			3
 porađa	246		2
 poređa	112		2
 poslovođa	560		4
-posuđa	1110		2
-posvađa	203		2
+posuđa	1110		3
+posvađa	203		3
 pravosuđa	10141		4
 predgrađa	1072		2
 predviđa	17040		2
-preporađa	77		2
-previđa	540		2
+preporađa	77		3
+previđa	540		3
 pređa	48		2
-priviđa	230		2
-progunđa	71		2
-proviđa			2
+priviđa	230		3
+progunđa	71		3
+proviđa			3
 punđa	152		2
 putovođa		M	4
-razmeđa	34		2
-razvađa			2
-razvođa	40		2
+razmeđa	34		3
+razvađa			3
+razvođa	40		3
 računovođa	747		3
 rađa	5442		2
 ređa	656		2
 riđa	98		2
 rođa			2
 rđa	426		2
-sazvežđa	920		2
+sazvežđa	920		3
 slađa	313		2
 smeđa	576		2
 smuđa	325		2
 srđa			2
 svađa	3061		2
-svetlosmeđa			2
+svetlosmeđa			3
 svetogrđa	38		4
 sviđa	14810		2
-tamnosmeđa	43		2
+tamnosmeđa	43		3
 tromeđa			3
 tuđa	1825		2
 tvrđa	255		2
 ugađa	208		2
-urađa			2
+urađa			3
 urđa			2
 uviđa	956		2
-varmeđa		M	2
+varmeđa		M	3
 veđa		M	2
 viđa	1358		2
 vlakovođa			4
@@ -117,22 +117,22 @@ vojskovođa	1068		4
 vozovođa	29		4
 vođa	12559		2
 vređa	3201		2
-zabrđa	44		2
-zagunđa			2
+zabrđa	44		3
+zagunđa			3
 zaleđa	278		2
-zaređa			2
+zaređa			3
 zarđa			2
-zavađa	52		2
-zlopogleđa		M	2
+zavađa	52		3
+zlopogleđa		M	3
 čađa	16		2
 četovođa	28		4
 đerđa			2
 đorđa			2
-đurađa			2
+đurađa			3
 đurđa			2
 žeđa	12		2
-žitorađa			2
+žitorađa			3
 medvjeđa			3
 naslijeđa	177		3
-sazviježđa	23		2
+sazviježđa	23		3
 vrijeđa	268		3

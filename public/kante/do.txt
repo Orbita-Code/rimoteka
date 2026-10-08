@@ -2,42 +2,42 @@
 Judo			2
 Kanado			3
 abecedo			2
-aikido	1522		2
-alfredo			2
+aikido	1522		3
+alfredo			3
 avokado	484		2
 bando	89		2
 bedo	28		2
 besedo			3
 besjedo			3
-bezbrado			2
+bezbrado			3
 bledo	973		2
 bodo			2
 bordo	428		2
 brando			2
 brdo	5870		2
 budo			2
-bušido			2
-colorado			2
+bušido			3
+colorado			3
 dado	46		2
-dalekovido		M	2
+dalekovido		M	3
 dedo	28		2
 dido			2
 do	1365021		1
 dodo	197		2
 dondo			2
-dorado			2
+dorado			3
 dosado			3
 džudo	931		2
 edo			2
-eduardo			2
-eldorado	175		2
+eduardo			3
+eldorado	175		3
 fado	338		2
 ferdo			2
-fernando			2
+fernando			3
 fudo			2
 gardo			2
 gazdo	28		2
-gluperdo			2
+gluperdo			3
 gnezdo	1706		2
 gnjezdo		J	2
 gnjido	17		2
@@ -56,17 +56,17 @@ jagodo			3
 jedo			2
 judo			2
 kado	11		2
-kandido			2
+kandido			3
 kendo			2
 koledo	13		3
-kolorado			2
+kolorado			3
 komodo			2
 kratkovido		M	3
 krdo	362		2
 kredo	16		2
 krešendo	71		2
-kunigundo			2
-kvazimodo			2
+kunigundo			3
+kvazimodo			3
 lado		M	2
 lando			2
 legendo	80		2
@@ -76,34 +76,34 @@ lido			2
 livado			3
 ludo	2128		2
 medo	192		2
-mikado	10		2
+mikado	10		3
 mlado	1656		2
 mudo			2
 nado	33		2
-nakarado			2
-naporedo		M	2
+nakarado			3
+naporedo		M	3
 nerado	1641		3
 nizbrdo	1290		3
 odo	94		2
 odozdo	1402		2
-orlando			2
+orlando			3
 pikado	375		2
-plasido			2
+plasido			3
 pobedo			3
 posado			3
-postado			2
+postado			3
 potvrdo			3
 prado			2
 pravdo			2
-premlado			2
-pretvrdo			2
+premlado			3
+pretvrdo			3
 prirodo			3
-pseudo			2
+pseudo			3
 rado	16285		2
-renodo			2
-rikardo			2
-rivaldo			2
-ronaldo			2
+renodo			3
+rikardo			3
+rivaldo			3
+ronaldo			3
 rondo	67		2
 rudo	118		2
 rundo			2
@@ -113,33 +113,33 @@ slobodo	24		2
 stado	1900		2
 stampedo	242		2
 suludo	1464		3
-superzvezdo			2
-tekvondo	337		2
-toledo			2
+superzvezdo			3
+tekvondo	337		3
+toledo			3
 tornado	443		2
 torpedo	116		2
 tvrdo	2074		2
 udo		M	2
 uhodo			3
 uludo	456		3
-uporedo	5067		2
-usporedo			2
+uporedo	5067		3
+usporedo			3
 utvrdo			3
 uzbrdo	1033		3
 verando			2
 vido			2
 vlado	163		2
 vodo	80		2
-vojevodo			2
+vojevodo			3
 vojvodo	52		3
 začudo	695		3
-zlorado			2
+zlorado			3
 zlurado	246		3
 zvezdo	55		2
 čedo	2504		2
 čudo	18443		2
 đido			2
-širokogrudo			2
+širokogrudo			3
 blijedo	89		3
 gnijezdo	148		2
 zvijezdo			3

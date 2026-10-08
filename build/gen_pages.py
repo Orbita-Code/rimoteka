@@ -219,6 +219,7 @@ TARGETS = ' '.join(r for r in TARGETS.split('\n') if not r.strip().startswith('#
 # ---------------- Učitavanje rečnika ----------------
 AKCK = {}   # reč → ključ prave rime (akcenatska jedinica), iz public/akcenat.txt (build/akcenat.py), 05.10.2026
 AKCN = {}   # reč → od kog sloga od kraja počinje rima (mesto akcenta)
+JEKAVSKI = set()   # jekavski oblici u reci.txt koje alat bez kvačice preskače (AK-4)
 def akc_key(w, n):
     m = w.lower(); vp = vowel_positions(m)
     if not vp: return m
@@ -229,6 +230,13 @@ def load():
     ak = open(os.path.join(PUB, 'akcenat.txt'), encoding='utf-8').read().split()
     assert len(ak) == len(words), 'akcenat.txt nije poravnat sa reci.txt – pokreni python3 build/akcenat.py'
     for w, n in zip(words, ak): AKCK[w] = akc_key(w, int(n)); AKCN[w] = int(n)
+    # AK-4 (audit 07.10.2026): jekavski oblici zaostali u reci.txt (public/jekavski.json) – alat ih bez kvačice
+    # „ijekavica" preskače (`JEKAVSKI`), generator ih nije znao, pa je /rime-za/zamenik/ nudio „sljedbenik".
+    try:
+        with open(os.path.join(PUB, 'jekavski.json'), encoding='utf-8') as f:
+            JEKAVSKI.update(x.lower() for x in json.load(f))
+    except Exception:
+        pass
     try:
         with open(os.path.join(PUB, 'definicije.json'), encoding='utf-8') as f:
             defs = json.load(f)
@@ -328,7 +336,7 @@ HEAD_TMPL = """<!DOCTYPE html>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#5a3fd0">
 <script src="/dark-mode-init.js?v=4"></script>
-<link rel="stylesheet" href="/style.css?v=8e977ad6">
+<link rel="stylesheet" href="/style.css?v=d5445737">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -454,15 +462,17 @@ def chip(rword, syl, href):
     nema šta da prati. Dugme je i pristupačnije od linka bez adrese – dobija fokus
     tastaturom i čitač ekrana ga najavljuje kao dugme.
     """
+    # PR-4 (audit 07.10.2026): čitač ekrana je kapsulu čitao kao „gubav2" – kružić je skriven za čitač, a kapsula ima ime.
     telo = (f'<span class="word">{esc(rword)}</span>'
-            f'<span class="syl" title="{syl} {syl_word(syl)}">{syl}</span>')
+            f'<span class="syl" aria-hidden="true" title="{syl} {syl_word(syl)}">{syl}</span>')
+    ime = f'{esc(rword)}, {syl} {syl_word(syl)}'
     # PR-1 (audit 07.10.2026): kapsula na statičkoj strani SAMA nosi fokus (nema `.word[tabindex]`), pa ona nosi
     # i `aria-haspopup`/`aria-expanded` – app.js ih menja na istom elementu (`nosilacFokusa`).
     if href:
         # `data-rec` i na linku (nalaz S-08, 07.09.2026): po njemu app.js otvara traku
         # nad reči (značenje, omiljene, kopiraj, prijava) i na statičkim stranama.
-        return f'<a class="chip" href="{href}" data-rec="{esc(rword)}" aria-haspopup="true" aria-expanded="false">{telo}</a>'
-    return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" aria-haspopup="true" aria-expanded="false" '
+        return f'<a class="chip" href="{href}" data-rec="{esc(rword)}" aria-label="{ime}" aria-haspopup="true" aria-expanded="false">{telo}</a>'
+    return (f'<button type="button" class="chip chip-btn" data-rec="{esc(rword)}" aria-label="{ime}" aria-haspopup="true" aria-expanded="false" '
             f'title="Nađi rime za „{esc(rword)}“">{telo}</button>')
 
 def rhyme_link(rword, target_slugs):
@@ -507,7 +517,7 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=ccb0a1f3"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=5e23cdf6"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
@@ -829,12 +839,16 @@ def load_rank(words):
 
 def main():
     words, defs = load()
+    # AK-4 (audit 07.10.2026): jekavski oblici zaostali u reci.txt se ne nude ni u jednoj grupi na stranama – isto kao
+    # alat bez kvačice „ijekavica" (`JEKAVSKI`). Filtrira se ovde, jednom, pa važi za keygroup, finalgroup i sufgroup.
+    words = [w for w in words if w.lower() not in JEKAVSKI]
     rank = load_rank(words)
     keygroup = defaultdict(list)
     finalgroup = defaultdict(list)
     for i, w in enumerate(words):
         # Grupe se pune azbučno; REDOSLED se određuje tek sortiranjem po `rank`
         # (v. `load_rank`) – sam redosled punjenja ovde ne znači ništa.
+        if w.lower() in JEKAVSKI: continue   # AK-4: isti filter kao u alatu bez kvačice „ijekavica"
         keygroup[rhyme_key(w)].append(w)
         finalgroup[final_syl_key(w)].append(w)  # za fallback „isti završni slog“
 
@@ -1009,7 +1023,10 @@ def main():
         OTISCI = {}
     lastmod_stat = {'isto': 0, 'promenjeno': 0, 'novo': 0}
     def lastmod_za(url, html):
-        norm = _re.sub(r'\?v=[0-9a-z]+', '', html)
+        # SEO-2 (audit 07.10.2026): otisak se računa nad <main> (sadržajem), ne nad celom stranom – promena logotipa
+        # (png → webp) ili futera resetovala je lastmod na svih 2.012 strana (treći put za 15 dana).
+        m = _re.search(r'<main[\s>].*?</main>', html, _re.S)
+        norm = _re.sub(r'\?v=[0-9a-z]+', '', m.group(0) if m else html)
         otisak = hashlib.sha256(norm.encode('utf-8')).hexdigest()[:16]
         z = OTISCI.get(url)
         if z and z.get('otisak') == otisak:
@@ -1224,26 +1241,35 @@ def main():
         # dobija još jednu rečenicu, da ne bude ispod 110 znakova.
         _glava = f'Sa „{t}“ se rimuju: '
         _primeri = []
-        for _w in all_r[:8]:
+        for _w in all_r:   # SEO-3 (07.10.2026): bilo `all_r[:8]` – kratke reči nisu stizale do 150 znakova (1.135 strana)
             _kandidat = _primeri + [_w]
             if len(_glava) + len(', '.join(_kandidat)) + len(_rep) > 158:
                 break
             _primeri = _kandidat
         desc = (f'{_glava}{", ".join(_primeri)}{_rep}' if _primeri
                 else f'Rime za „{t}“{_rep}')
-        if len(desc) < 115:
-            desc += ' Ispod su i bliske rime.'
+        # SEO-3: opis se dopunjava kratkim rečenicama dok ne pređe 150 (a ne preko 160) – Google ceo opis prikazuje tek
+        # kad ima šta da prikaže; 1.135 strana je imalo opis ispod 150 znakova.
+        _dopune = [' Klikni na reč za njene rime.', ' Ispod su i bliske rime.', ' Ćirilica i latinica.', ' Sve besplatno.', ' Besplatno.']
+        while len(desc) < 150 and _dopune:
+            _st = next((d for d in _dopune if len(desc) + len(d) <= 160), None)   # najduža koja staje
+            if not _st: break
+            desc += _st; _dopune.remove(_st)
 
         ogdesc = f'Reči koje se rimuju sa „{t}“: {first_list}…'
         canonical = f'{BASE}/rime-za/{quote(sl)}/'
 
+        # SJ-1 (audit 07.10.2026): „Najbolje rime" u FAQ-u sme da nabraja SAMO vidljivu grupu „Najbolje" (na 348 strana
+        # je nabrajalo 10 iz best+good, a grupa imala 3). Kad je grupa manja od 3, kaže se „rime", ne „najbolje".
+        faq_najbolje = (f"Najbolje rime za reč {t} su: {', '.join(best[:10])}." if len(best) >= 3
+                        else f"Rime za reč {t} su: {', '.join(all_r[:10])}.")
         faq_main_entity = [
             {"@type": "Question", "name": f'Šta se rimuje sa „{t}“?',
              "acceptedAnswer": {"@type": "Answer",
                 "text": f"Sa rečju {t} rimuju se, između ostalog: {', '.join(all_r[:14])}."}},
             {"@type": "Question", "name": f'Koje se reči rimuju sa „{t}“?',
              "acceptedAnswer": {"@type": "Answer",
-                "text": f"Najbolje rime za reč {t} su: {', '.join(all_r[:10])}."}},
+                "text": faq_najbolje}},
             {"@type": "Question", "name": f'Koliko slogova ima reč „{t}“?',
              "acceptedAnswer": {"@type": "Answer",
                 "text": f"Reč {t} ima {tsyl} {syl_word(tsyl)}."}}
@@ -1304,7 +1330,7 @@ def main():
   <section class="landing-faq">
     <h2>Česta pitanja</h2>
     <details><summary>Šta se rimuje sa „{esc(t)}“?</summary><p>Sa rečju {esc(t)} rimuju se, između ostalog: {esc(', '.join(all_r[:14]))}.</p></details>
-    <details><summary>Koje se reči rimuju sa „{esc(t)}“?</summary><p>Rime sa najdužim istim završetkom za reč {esc(t)} su: {esc(', '.join(all_r[:10]))}.</p></details>
+    <details><summary>Koje se reči rimuju sa „{esc(t)}“?</summary><p>{esc(faq_najbolje)}</p></details>
     <details><summary>Koliko slogova ima reč „{esc(t)}“?</summary><p>Reč {esc(t)} ima {tsyl} {syl_word(tsyl)}.</p></details>
     {znacenje_faq_html}
     <details><summary>Kako da nađem još rima?</summary><p>U mini-alatu iznad upiši bilo koju reč – dobićeš proširenu listu rima, šire (asonantne) rime i filter po broju slogova.</p></details>
@@ -1326,8 +1352,8 @@ def main():
     if tanke:
         # Oblik MORA da prati `chip()` (atributi i redosled) – 07.10.2026 su dodati aria-haspopup/aria-expanded (PR-1),
         # regex ih nije znao, pa je link ka „već" ostao na stranama beč/meč/reč (test 50, S-19 mrtav link).
-        tanki_re = re.compile(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/" data-rec="([^"]+)" aria-haspopup="true" aria-expanded="false">(.*?)</a>')
-        odlozene = [(sl, t, canonical, tanki_re.sub(lambda m: f'<button type="button" class="chip chip-btn" data-rec="{m.group(2)}" aria-haspopup="true" aria-expanded="false" title="Nađi rime za „{m.group(2)}“">{m.group(3)}</button>', page))
+        tanki_re = re.compile(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/" data-rec="([^"]+)" aria-label="([^"]*)" aria-haspopup="true" aria-expanded="false">(.*?)</a>')
+        odlozene = [(sl, t, canonical, tanki_re.sub(lambda m: f'<button type="button" class="chip chip-btn" data-rec="{m.group(2)}" aria-label="{m.group(3)}" aria-haspopup="true" aria-expanded="false" title="Nađi rime za „{m.group(2)}“">{m.group(4)}</button>', page))
                     for sl, t, canonical, page in odlozene]
         assert not any(re.search(r'<a class="chip" href="/rime-za/(' + '|'.join(re.escape(x) for x in tanke) + r')/"', page) for _, _, _, page in odlozene), 'link ka ukinutoj strani preziveo zamenu – regex ne prati chip()'
 
@@ -1664,7 +1690,7 @@ def main():
     # primer reči kao čipovi za stranu /rime-za-decu/
     decije_reci = ['mama','tata','dete','igra','sreća','radost','prijatelj','škola','knjiga','lopta','mačka','pas','ptica','cvet','sunce','mesec','zvezda','kiša','sneg']
     deciji_chips = ''.join(
-        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/"><span class="word">{esc(w)}</span><span class="syl" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
+        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/" aria-label="{esc(w)}, {syllables(w)} {syl_word(syllables(w))}"><span class="word">{esc(w)}</span><span class="syl" aria-hidden="true" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
         for w in decije_reci
     )
 
@@ -1673,7 +1699,7 @@ def main():
                               'mesec','zvezda','kiša','cvet','oči','ruka','put','noć','dan',
                               'vetar','reka','pesma','život','san','svet']
     rimovanje_chips = ''.join(
-        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/"><span class="word">{esc(w)}</span><span class="syl" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
+        f'<a class="chip" href="/rime-za/{quote(slugify(w))}/" aria-label="{esc(w)}, {syllables(w)} {syl_word(syllables(w))}"><span class="word">{esc(w)}</span><span class="syl" aria-hidden="true" title="{syllables(w)} {syl_word(syllables(w))}">{syllables(w)}</span></a>'
         for w in rimovanje_reci_primeri
     )
 
@@ -2033,9 +2059,9 @@ def main():
   <div class="hub-alat">
     <label class="sr-only" for="hubPretraga">Nađi reč u spisku</label>
     <input type="search" id="hubPretraga" class="hub-pretraga" placeholder="nađi reč u spisku…" autocomplete="off" spellcheck="false">
-    <p class="hub-azbuka">{hub_azbuka}</p>
     <p class="hub-broj sr-only" aria-live="polite"></p>
   </div>
+  <p class="hub-azbuka" aria-label="Skok na slovo">{hub_azbuka}</p>
   {''.join(hub_sekcije)}
   <p class="hub-nema empty" hidden>Nema te reči na spisku – upiši je u alat na početnoj, rime radi za svaku reč.</p>
 </main>

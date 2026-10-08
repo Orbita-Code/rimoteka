@@ -1,6 +1,6 @@
 22
 Pariz			2
-antifriz	305		2
+antifriz	305		3
 deniz			2
 friz	191		1
 grimiz			2
@@ -19,5 +19,5 @@ serviz		M	2
 striptiz	429		2
 tirkiz	128		2
 ugriz	198		2
-čankoliz			2
-čikiriz			2
+čankoliz			3
+čikiriz			3

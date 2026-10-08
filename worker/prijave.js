@@ -125,7 +125,8 @@ async function posaljiMejl(env, zapis, poreklo) {
       'Strana: ' + citljivaAdresa(zapis.strana),
       'Uređaj: ' + zapis.uredjaj + ' · ' + zapis.kad,
       /* Link sa ključem: mejl ide samo vlasnici, a bez ključa je sanduče vraćalo „Nema pristupa" (08.09.2026). */
-      '', 'Pregled svih prijava (privatan link, ne prosleđuj): ' + (poreklo || 'https://rimoteka-prijave.jovana-daskovic.workers.dev') + '/prijave?kljuc=' + encodeURIComponent(env.KLJUC || '')
+      /* BZ-4 (audit 07.10.2026): ključ više ne putuje mejlom (prosleđen mejl = prosleđen ključ); strana bez ključa traži da se upiše. */
+      '', 'Pregled svih prijava (traži ključ): ' + (poreklo || 'https://rimoteka-prijave.jovana-daskovic.workers.dev') + '/prijave'
     ].filter(Boolean).join('\r\n');
     const poruka = [
       'From: Rimoteka <' + (env.MEJL_OD || 'eureka@rimoteka.com') + '>',
@@ -147,7 +148,11 @@ async function primi(request, env, ctx) {
   const h = cors(request);
   const origin = request.headers.get('Origin') || '';
   if (!dozvoljeno(origin)) return json({ ok: false, greska: 'poreklo' }, 403, h);
-  let t; try { t = await request.json(); } catch { return json({ ok: false, greska: 'json' }, 400, h); }
+  /* BZ-2 (audit 07.10.2026): telo prijave ima plafon (8 KB) – polja su ionako sečena na GRANICE, ali se celo telo
+     čitalo i parsiralo bez granice. Content-Length se gleda prvo (jeftino), pa i stvarna dužina teksta. */
+  const duzina = Number(request.headers.get('content-length') || 0);
+  if (duzina > 8192) return json({ ok: false, greska: 'preveliko' }, 413, h);
+  let t; try { const sirovo = await request.text(); if (sirovo.length > 8192) return json({ ok: false, greska: 'preveliko' }, 413, h); t = JSON.parse(sirovo); } catch { return json({ ok: false, greska: 'json' }, 400, h); }
   if (typeof t !== 'object' || t === null) return json({ ok: false, greska: 'json' }, 400, h);
   if (polje(t.mejl, 10)) return json({ ok: true }, 200, h);                         // zamka za robote: odgovor ISTI kao pravi (N-13: `proba:true` je odavao zamku)
   const p = { rec: polje(t.rec, GRANICE.rec), upit: polje(t.upit, GRANICE.upit), slogova: Number.isInteger(t.slogova) && t.slogova >= 0 && t.slogova < 30 ? t.slogova : null,
@@ -179,8 +184,12 @@ async function pregled(request, env) {
   const url = new URL(request.url);
   /* Ključ ide u ZAGLAVLJU `X-Kljuc` (N-13: u adresi ostaje u logovima); `?kljuc=` je zadržan samo za HTML
      pregled u pregledaču (tamo se zaglavlje ne može poslati). */
-  const kljuc = request.headers.get('X-Kljuc') || url.searchParams.get('kljuc');
+  /* BZ-1 (audit 07.10.2026): `?kljuc=` važi SAMO za HTML pregled u pregledaču; JSON (skripte) ide isključivo zaglavljem. */
+  const format = url.searchParams.get('format') || 'html';
+  const kljuc = request.headers.get('X-Kljuc') || (format === 'json' ? '' : url.searchParams.get('kljuc'));
   const ip = ipOd(request);
+  /* BZ-4: mejl više ne nosi ključ – bez ključa HTML pregled nudi polje za unos (ključ je u ~/.config/rimoteka). */
+  if (!kljuc && format !== 'json') return new Response(`<!doctype html><html lang="sr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Prijave grešaka – Rimoteka</title><style>body{font-family:system-ui,sans-serif;max-width:520px;margin:60px auto;padding:20px;color:#393257}input{font:inherit;padding:8px 10px;border:2px solid #cfc7ea;border-radius:10px;width:100%;box-sizing:border-box}button{font:inherit;margin-top:10px;padding:8px 16px;border:0;border-radius:10px;background:#5a3fd0;color:#fff;cursor:pointer}</style><h1>Prijave grešaka</h1><form method="get"><label for="k">Ključ za pregled</label><input id="k" name="kljuc" type="password" autocomplete="current-password" required><button type="submit">Otvori</button></form></html>`, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
   if (await kljucBlokiran(env, ip)) return previsePokusaja();                     // B-3: 10 pogrešnih ključeva u 10 min → 429
   if (!istiKljuc(kljuc, env.KLJUC)) { await zabeleziPogresanKljuc(env, ip); return nemaPristupa(); }   // BZ-2: stalno vreme
   const posle = url.searchParams.get('posle') || '';                           // ISO vreme: vrati samo novije (za dnevni izveštaj)
@@ -190,7 +199,7 @@ async function pregled(request, env) {
   sve.sort((a, b) => (a.kad < b.kad ? 1 : -1));
   /* „Ukupno“ je broj STVARNO sačuvanih prijava (brojač u KV je posle brisanja neprecizan). */
   const ukupno = String(posle ? lista.keys.filter(k => k.name.startsWith('prijava:')).length : sve.length);   // N-13: bez KV brojača
-  if (url.searchParams.get('format') === 'json') return json({ ukupno: Number(ukupno), prijave: sve });
+  if (format === 'json') return json({ ukupno: Number(ukupno), prijave: sve });
   const red = z => `<tr><td>${esc(z.kad.slice(0, 16).replace('T', ' '))}</td><td><b>${esc(z.rec)}</b>${z.slogova != null ? ` <small>(${z.slogova})</small>` : ''}</td><td>${esc(z.upit)}</td><td>${esc(NAZIV[z.razlog] || z.razlog)}</td><td>${esc(z.napomena)}</td><td><small>${esc(citljivaAdresa(z.strana))} · ${esc(z.uredjaj)}</small></td></tr>`;
   const html = `<!doctype html><html lang="sr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>Prijave grešaka – Rimoteka</title>
@@ -217,7 +226,7 @@ export default {
     if (request.method === 'GET' && url.pathname === '/zdravlje') return json({ ok: true });
     /* Brisanje jedne prijave (samo sa ključem) – za probne zapise koji su omaškom ušli (07.09.2026). */
     if (request.method === 'POST' && url.pathname === '/obrisi') {
-      if (!istiKljuc(request.headers.get('X-Kljuc') || url.searchParams.get('kljuc'), env.KLJUC)) return nemaPristupa();   // BZ-2
+      if (!istiKljuc(request.headers.get('X-Kljuc') || '', env.KLJUC)) return nemaPristupa();   // BZ-2; BZ-1 (07.10.): samo zaglavlje
       const id = url.searchParams.get('id') || '';
       if (!/^prijava:\d+:[a-z0-9]+$/.test(id)) return json({ ok: false, greska: 'id' }, 400);
       await env.PRIJAVE.delete(id);

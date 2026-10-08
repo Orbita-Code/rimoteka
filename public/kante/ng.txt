@@ -1,19 +1,19 @@
 111
 Peking			2
-aeromiting	126		2
-antidoping		M	2
+aeromiting	126		3
+antidoping		M	3
 armstrong			2
 bilding			2
-bodibilding			2
+bodibilding			3
 boing	860		2
-brauning			2
+brauning			3
 brifing	193		2
-bumerang	778		2
+bumerang	778		3
 cajtung	216		2
 damping	376		2
 dansing		M	2
-darjeeling			2
-debrifing			2
+darjeeling			3
+debrifing			3
 diftong	10		2
 doping	1193		2
 drang			1
@@ -23,22 +23,22 @@ džoging	262		2
 feng			1
 fening			2
 fleming			2
-franšizing			2
+franšizing			3
 gang			1
-garnirung		M	2
+garnirung		M	3
 ginseng	72		2
 gong	218		1
 harding			2
 hebrang	28		2
-hepening		M	2
+hepening		M	3
 hoking			2
 holding	1379		2
 hong			1
 hongkong			2
 hunting			2
 ing	44		1
-inženjering		M	2
-inžinjering	254		2
+inženjering		M	3
+inžinjering	254		3
 jang			1
 jing			1
 jung			1
@@ -46,13 +46,13 @@ kamping	287		2
 kaning			2
 karting	549		2
 kasting	378		2
-katering			2
-ketering	529		2
+katering			3
+ketering	529		3
 king			1
 kipling			2
 kliring	148		2
 kong			1
-konsalting	2010		2
+konsalting	2010		3
 kung			1
 kvisling	130		2
 lang			1
@@ -69,7 +69,7 @@ mesing		M	2
 ming			1
 miting	2710		2
 mustang	232		2
-paraglajding	300		2
+paraglajding	300		3
 parking		M	2
 piling	1199		2
 pirsing	286		2
@@ -80,17 +80,17 @@ puding	755		2
 pudong			2
 rafting	848		2
 rang	6319		1
-reading			2
+reading			3
 rejting	7663		2
 ring	839		1
 rizling	581		2
-rouling			2
+rouling			3
 sang			1
 sarong			2
 sing			1
 sleng	214		1
 smoking	194		2
-snoubording			2
+snoubording			3
 sparing	250		2
 spring			1
 stajling	893		2
@@ -98,9 +98,9 @@ sterling			2
 surfing		M	2
 sving	97		1
 tajming	766		2
-tapacirung			2
-telemarketing	36		2
-trafiking			2
+tapacirung			3
+telemarketing	36		3
+trafiking			3
 trening	16012		2
 triling			2
 viking	241		2

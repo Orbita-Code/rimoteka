@@ -3,11 +3,11 @@ akrep		M	2
 bezrep			2
 cep			1
 crep	587		1
-crnorep		M	2
-dugorep			2
+crnorep		M	3
+dugorep			3
 džep	4739		1
 ep	1501		1
-hendikep	1018		2
+hendikep	1018		3
 jakrep			2
 kep			1
 klep		M	1
@@ -16,7 +16,7 @@ lep	16300		1
 merčep			2
 nelep		M	2
 neslep			2
-poluslep		M	2
+poluslep		M	3
 počep			2
 prelep	1917		2
 prilep		M	2
@@ -32,12 +32,12 @@ svirep	246		2
 unep			2
 vadičep	38		3
 vertep			2
-vrtirep			2
+vrtirep			3
 čep	604		1
 šlep	240		1
 lijep	939		1
 ljep			1
-prelijep	76		2
+prelijep	76		3
 procijep			3
 procjep			2
 rascjep			2

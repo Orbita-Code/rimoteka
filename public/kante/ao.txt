@@ -2,48 +2,48 @@
 abdicirao	165		3
 adaptirao	328		3
 adresirao	21		3
-afirmisao	453		2
-agitovao			2
+afirmisao	453		3
+agitovao			3
 aktivirao	931		3
 alarmirao	116		3
 aludirao	186		3
-aminovao	130		2
+aminovao	130		3
 amnestirao	93		3
 amputirao	21		3
 analizirao	1361		3
 anektirao	47		3
-angažovao	2309		2
+angažovao	2309		3
 anketirao	114		3
 anticipirao	124		3
 anulirao	192		3
 apelovao	1847		5
 aplaudirao	157		3
-aplicirao			2
+aplicirao			3
 apsolvirao	122		3
-apsorbovao	67		2
+apsorbovao	67		3
 aranžirao	59		3
-arlaukao			2
+arlaukao			3
 asfaltirao	82		3
 asimilovao	33		6
 asistirao	629		3
 asocirao	97		3
-avanzovao	78		2
+avanzovao	78		3
 ašikovao			5
 ažurirao	118		3
 bacakao	29		3
 bacao	879		3
 bajao			3
 balansirao	65		3
-bandažirao			2
+bandažirao			3
 bankrotirao	401		3
-banovao	42		2
+banovao	42		3
 baratao	70		3
 batinao	12		3
-batrgao	30		2
+batrgao	30		3
 bauljao	20		3
 bazao	13		3
 bazirao	421		3
-begao			2
+begao			3
 besmisao	490		4
 bežao	839		3
 birao	1905		3
@@ -59,17 +59,17 @@ bljuvao	27		3
 blokirao	862		3
 bockao	27		3
 bojao	1079		3
-bojkotovao	107		2
+bojkotovao	107		3
 boksao			3
-boksovao	89		2
+boksovao	89		3
 bolovao	520		3
-bombardovao	735		2
+bombardovao	735		3
 brao	156		2
 brbljao	38		3
 brijao	104		3
-briljirao	598		2
+briljirao	598		3
 brisao	377		3
-brljao			2
+brljao			3
 brojao	694		3
 brujao	62		3
 brukao	45		3
@@ -79,27 +79,27 @@ bujao	70		3
 buktao			3
 buncao	28		3
 busao	42		3
-carevao	35		2
-carovao	588		2
+carevao	35		3
+carovao	588		3
 celivao	73		3
-cenjkao	10		2
-centrirao	765		2
+cenjkao	10		3
+centrirao	765		3
 cenzurisao	52		4
 cepao	153		3
 cerekao	27		3
-ciao			2
-cikao			2
+ciao			3
+cikao			3
 ciljao	239		3
 cimao	183		3
 cinkao			3
-citirao	1525		2
+citirao	1525		3
 cičao			3
 crkao	361		3
 crkavao	15		4
 crpao	26		3
 crtao	584		3
-cuclao			2
-cupkao	46		2
+cuclao			3
+cupkao	46		3
 cvetao	223		3
 dahtao	60		3
 dao	53549		2
@@ -107,144 +107,144 @@ darivao	537		3
 darovao	895		3
 davao	6349		3
 deaktivirao	29		3
-debitovao	1612		2
-defilovao			2
-definisao	2130		2
-deformisao	37		2
+debitovao	1612		3
+defilovao			3
+definisao	2130		3
+deformisao	37		3
 degradirao	66		3
-dehidrirao	41		2
+dehidrirao	41		3
 dejstvovao	130		4
-deklamovao			2
-deklarisao	250		2
-deklasirao	366		2
-dekodirao	20		2
-dekorisao	20		2
-delao			2
-delegirao	95		2
+deklamovao			3
+deklarisao	250		3
+deklasirao	366		3
+dekodirao	20		3
+dekorisao	20		3
+delao			3
+delegirao	95		3
 delovao	3105		4
-demantovao	2397		2
-demobilisao			2
-demolirao	105		2
-demonstrirao	1119		2
-demontirao	52		2
-denuncirao	30		2
-depilirao			2
-deponovao	74		2
-deportovao	18		2
+demantovao	2397		3
+demobilisao			3
+demolirao	105		3
+demonstrirao	1119		3
+demontirao	52		3
+denuncirao	30		3
+depilirao			3
+deponovao	74		3
+deportovao	18		3
 derao	61		3
-desetkovao	26		2
-detektovao	234		2
-detonirao	31		2
+desetkovao	26		3
+detektovao	234		3
+detonirao	31		3
 dezertirao	58		3
-dezinfikovao	13		2
-dezintegrisao			2
+dezinfikovao	13		3
+dezintegrisao			3
 dešavao	235		3
-dešifrovao	57		2
-dežurao	65		2
+dešifrovao	57		3
+dežurao	65		3
 digao	2419		3
-dijagnostikovao	80		2
+dijagnostikovao	80		3
 diktirao	343		3
-dilovao			2
+dilovao			3
 diplomirao	5629		3
 dirao	592		3
-dirigovao	422		2
+dirigovao	422		3
 disao	441		3
-diskreditovao	93		2
-diskutovao	231		2
-distancirao	201		2
+diskreditovao	93		3
+diskutovao	231		3
+distancirao	201		3
 divljao	96		3
-dizajnirao	1433		2
+dizajnirao	1433		3
 dizao	866		3
 dobacivao	120		3
-dobavljao	11		2
-dobegao			2
-dobežao			2
+dobavljao	11		3
+dobegao			3
+dobežao			3
 dobijao	3855		3
 dobivao	119		3
-dobovao	11		2
+dobovao	11		3
 dobrodošao	840		3
-dobromisao			2
+dobromisao			3
 dodao	58728		3
 dodavao	450		3
 dodeljivao	174		3
-dodijao	25		2
-dodijavao			2
+dodijao	25		3
+dodijavao			3
 dodirivao	184		3
 događao	83		3
-dogegao	18		2
-dognao			2
-dogorevao			2
+dogegao	18		3
+dognao			3
+dogorevao			3
 dogovarao	335		3
-dograđivao	28		2
-dogurao	547		2
-dohakao			2
+dograđivao	28		3
+dogurao	547		3
+dohakao			3
 dojahao	42		4
 dokazao	5141		3
 dokazivao	405		3
-dokopao	339		2
-dokotrljao	12		2
-dokoturao			2
+dokopao	339		3
+dokotrljao	12		3
+dokoturao			3
 doktorirao	1886		3
-dokumentovao	209		2
-doletao			2
-dolijao	59		2
+dokumentovao	209		3
+doletao			3
+dolijao	59		3
 dolikovao			5
-dolutao	11		2
+dolutao	11		3
 dominirao	1256		3
 domišljao	12		3
-domogao	296		2
-donirao	686		2
+domogao	296		3
+donirao	686		3
 dopadao	256		4
 dopao	2093		3
-doperjao			2
-dopingovao			2
+doperjao			3
+dopingovao			3
 dopirao	300		4
 dopisao	131		3
 dopisivao	192		3
-doplaćivao			2
+doplaćivao			3
 doplivao	82		4
 dopunjavao	129		3
-doputovao	1250		2
-dopuzao	19		2
+doputovao	1250		3
+dopuzao	19		3
 dopuštao	260		3
-dorastao	589		2
+dorastao	589		3
 dorađivao	31		3
-dorekao			2
-dorućkovao			2
+dorekao			3
+dorućkovao			3
 doručkovao	143		5
 dosao		J	3
 dosađivao	101		3
 dosegao	573		3
 doseljavao	19		3
 dosezao	72		3
-dosećao			2
-dosipao			2
-doskakao			2
+dosećao			3
+dosipao			3
+doskakao			3
 dospevao	27		3
 dostavljao	182		4
 dostigao	5261		4
 dostizao	238		4
-dotakao	1160		2
-doterao	223		2
-doticao	105		2
-dotrajao	137		2
-dotrajavao			2
+dotakao	1160		3
+doterao	223		3
+doticao	105		3
+dotrajao	137		3
+dotrajavao			3
 dotrčao	195		3
-dotukao	136		2
-doturao			2
-dovaljao			2
+dotukao	136		3
+doturao			3
+dovaljao			3
 dovezao	564		3
-dovijao	37		2
+dovijao	37		3
 dovikivao	40		3
-dovršavao	39		2
-dovukao	258		2
-dozidao	30		2
-dozidavao			2
-dozirao	17		2
+dovršavao	39		3
+dovukao	258		3
+dozidao	30		3
+dozidavao			3
+dozirao	17		3
 dozivao	135		3
 doznao	476		3
 doznavao			3
-dozrevao			2
+dozrevao			3
 dozvao	107		3
 dozvoljavao	882		3
 dočarao	384		3
@@ -252,324 +252,324 @@ dočaravao	23		3
 dočekao	4339		4
 dočekivao	239		3
 dočepao	208		3
-dočitao			2
+dočitao			3
 došao	55556		3
-došaptavao	10		2
-došetao	23		2
-došunjao			2
+došaptavao	10		3
+došetao	23		3
+došunjao			3
 doživljavao	729		3
 drao			2
-draškao			2
+draškao			3
 dremao	71		3
 dresirao	15		3
-drečao			2
-dreždao			2
+drečao			3
+dreždao			3
 drhtao			3
 driblao	39		3
 drmao	61		3
 drogirao	99		3
-drugovao	93		2
+drugovao	93		3
 držao	9362		3
 dugovao	333		3
-duplirao	409		2
+duplirao	409		3
 durao			3
 duvao	801		3
-džarao			2
-džogirao	20		2
+džarao			3
+džogirao	20		3
 egzistirao	60		3
 ejakulirao	31		3
-ekshumirao	15		2
-eksperimentisao	302		2
-eksploatisao	86		2
+ekshumirao	15		3
+eksperimentisao	302		3
+eksploatisao	86		3
 eksplodirao	850		3
-eksponirao	70		2
-eliminisao	905		2
-emigrirao	369		2
-emitovao	612		2
-eruptirao	14		2
-eskalirao	180		2
-eskivirao	48		2
-evakuisao	54		2
-evocirao	82		2
+eksponirao	70		3
+eliminisao	905		3
+emigrirao	369		3
+emitovao	612		3
+eruptirao	14		3
+eskalirao	180		3
+eskivirao	48		3
+evakuisao	54		3
+evocirao	82		3
 evoluirao	462		3
 faksirao			3
-falsifikovao	313		2
-fantazirao	13		2
+falsifikovao	313		3
+fantazirao	13		3
 farbao	134		3
 fascinirao	228		3
-faulirao	130		2
+faulirao	130		3
 fiksao			3
-fiksirao	123		2
+fiksirao	123		3
 finansirao	1908		3
 flertovao	33		4
 fokusirao	481		3
-folirao	41		2
+folirao	41		3
 formirao	3101		3
-formulisao	869		2
-forsirao	321		2
-fotkao	42		2
-fotografisao	727		2
-fotokopirao	28		2
-frizirao	13		2
-fulao			2
+formulisao	869		3
+forsirao	321		3
+fotkao	42		3
+fotografisao	727		3
+fotokopirao	28		3
+frizirao	13		3
+fulao			3
 funkcionisao	1708		4
-furao			2
+furao			3
 ganjao	73		3
-garantirao			2
+garantirao			3
 garantovao	684		5
 gatao			3
-gazdovao	54		2
+gazdovao	54		3
 gađao	790		3
 gegao	15		3
-gegucao			2
-generisao	231		2
-gladovao	120		2
+gegucao			3
+generisao	231		3
+gladovao	120		3
 glancao	16		3
 glasao	4483		3
 glasovao	24		4
-glavinjao			2
+glavinjao			3
 glačao			3
 gledao	16742		3
-glupirao	24		2
-gnjurao			2
-gnušao	56		2
+glupirao	24		3
+gnjurao			3
+gnušao	56		3
 golicao	37		3
 gomilao	83		3
-gostovao	1671		2
+gostovao	1671		3
 graktao	10		3
-granao	12		2
-grcao	36		2
+granao	12		3
+grcao	36		3
 grebao	56		3
-grejao	262		2
-grickao	147		2
-grijao	21	J	2
-griskao			2
+grejao	262		3
+grickao	147		3
+grijao	21	J	3
+griskao			3
 grizao	107		3
 grudvao			3
 grupisao	48		4
-guglao	92		2
-guglovao			2
-gugutao			2
+guglao	92		3
+guglovao			3
+gugutao			3
 gunđao	94		3
 gurao	913		3
-gurkao	20		2
-gustirao			2
+gurkao	20		3
+gustirao			3
 gutao	291		3
 gužvao	18		3
 hajao	21		3
-hajdukovao			2
-hakovao			2
+hajdukovao			3
+hakovao			3
 halucinirao	12		3
 harao	153		3
-hipnotisao	28		2
+hipnotisao	28		3
 hitao	103		3
 hodao	813		3
-hramao	34		2
+hramao	34		3
 hrkao	48		3
 hrvao			3
-hujao			2
+hujao			3
 huktao			3
 huškao	49		3
 hvalisao	85		4
 hvatao	560		3
-idealizovao	43		2
+idealizovao	43		3
 identifikovao	643		6
-ignorisao	550		2
+ignorisao	550		3
 igrao	19864		3
-ikonopisao			2
-ilustrovao	588		2
+ikonopisao			3
+ilustrovao	588		3
 imao	157070		3
 imenovao	1771		5
 imitirao	144		3
-imitovao			2
+imitovao			3
 implicirao	33		3
-imponirao			2
-imponovao	31		2
+imponirao			3
+imponovao	31		3
 impresionirao	271		3
 improvizovao	69		5
-indignirao			2
-inficirao	101		2
-infiltrirao	44		2
-informisao	1156		2
-inhibirao			2
-inicirao	1437		2
-inkasirao	193		2
-inscenirao	32		2
-insinuirao	18		2
-insistirao	2775		2
-inspirisao	726		2
+indignirao			3
+inficirao	101		3
+infiltrirao	44		3
+informisao	1156		3
+inhibirao			3
+inicirao	1437		3
+inkasirao	193		3
+inscenirao	32		3
+insinuirao	18		3
+insistirao	2775		3
+inspirisao	726		3
 instalirao	1969		3
-integrisao	249		2
-interesovao	936		2
-internirao	13		2
-intervenisao	870		2
-intervjuirao			2
-intervjuisao	234		2
+integrisao	249		3
+interesovao	936		3
+internirao	13		3
+intervenisao	870		3
+intervjuirao			3
+intervjuisao	234		3
 intrigirao	32		3
 investirao	832		3
 iritirao	104		3
-ironisao			2
+ironisao			3
 isceljivao	97		3
-iscenirao	33		2
-iscepao	57		2
+iscenirao	33		3
+iscepao	57		3
 iscrpao			3
 iscrpljivao	35		4
-iscrtao	82		2
-iseckao	26		2
+iscrtao	82		3
+iseckao	26		3
 isekao	399		4
 iseljavao	29		3
-isflekao			2
-isijavao	23		2
+isflekao			3
+isijavao	23		3
 isisao	58		4
-isisavao	31		2
+isisavao	31		3
 iskakao	41		3
 iskaljivao	17		3
-iskamčivao			2
+iskamčivao			3
 iskao	59		3
 iskazao	1510		3
 iskazivao	243		3
 iskašljao	13		3
 iskidao	57		4
-iskijao			2
+iskijao			3
 isklesao	47		4
-isklijao			2
+isklijao			3
 isključivao	175		3
-iskobeljao	34		2
-iskomplikovao	62		2
+iskobeljao	34		3
+iskomplikovao	62		3
 iskopao	490		3
 iskopavao	18		3
-iskopirao	134		2
-iskopčao			2
-iskorišćavao	69		2
-iskovao	67		2
+iskopirao	134		3
+iskopčao			3
+iskorišćavao	69		3
+iskovao	67		3
 iskradao			3
 iskrao	75		3
 iskrcao	196		3
-iskretao			2
-iskrivljivao			2
+iskretao			3
+iskrivljivao			3
 iskrsao			4
-iskrsavao			2
-iskulirao			2
+iskrsavao			3
+iskulirao			3
 iskušao	42		4
 iskušavao	43		3
 ismejao	179		3
 ismejavao	65		3
-ismevao	130		2
+ismevao	130		3
 ismijao	20	J	3
 ispadao	138		4
-ispaljivao	44		2
+ispaljivao	44		3
 ispao	3262		3
-isparavao	13		2
-ispaštao	44		2
+isparavao	13		3
+ispaštao	44		3
 ispeglao	42		3
 ispekao	191		4
-ispevao	223		2
+ispevao	223		3
 ispijao	133		3
-ispipao	21		2
+ispipao	21		3
 ispirao	47		4
 ispisao	740		3
 ispisivao	169		3
 ispitao	600		3
 ispitivao	650		3
-isplakao	39		2
-isplanirao	278		2
+isplakao	39		3
+isplanirao	278		3
 isplaćivao	239		3
 isplivao	403		4
-ispljuvao	61		2
-ispolirao	28		2
-ispoljavao	276		2
-ispomagao	12		2
+ispljuvao	61		3
+ispolirao	28		3
+ispoljavao	276		3
+ispomagao	12		3
 isporučivao	147		3
-isposlovao	97		2
-ispovedao	144		2
-ispovraćao	55		2
-ispoštovao	681		2
+isposlovao	97		3
+ispovedao	144		3
+ispovraćao	55		3
+ispoštovao	681		3
 isprao	89		3
 ispravljao	150		4
-ispraćao	74		2
-isprebijao	50		2
-isprepadao	39		2
-ispreturao	15		2
-isprintao			2
-ispripovedao	30		2
+ispraćao	74		3
+isprebijao	50		3
+isprepadao	39		3
+ispreturao	15		3
+isprintao			3
+ispripovedao	30		3
 ispričao	5343		3
 ispričavao			3
 isprljao	39		3
 isprobao	703		3
 isprobavao	178		3
-isprovocirao	236		2
-isprskao			2
-ispružao			2
-ispsovao	29		2
-ispucao	197		2
+isprovocirao	236		3
+isprskao			3
+ispružao			3
+ispsovao	29		3
+ispucao	197		3
 ispunjavao	646		3
-ispuzao	17		2
+ispuzao	17		3
 ispuštao	216		3
 istakao	65873		4
-istegao	83		2
-istekao	3217		2
+istegao	83		3
+istekao	3217		3
 isterao	494		4
 isterivao	45		3
-istetovirao	105		2
-istezao	24		2
+istetovirao	105		3
+istezao	24		3
 isticao	2146		4
-istkao	33		2
-istovarao			2
-istrajao	114		2
-istrajavao	69		2
+istkao	33		3
+istovarao			3
+istrajao	114		3
+istrajavao	69		3
 istraživao	1190		3
 istrenirao	18		3
 istresao	152		4
-istrgao	95		2
-istripovao			2
-istrljao	14		2
-istrtljao			2
+istrgao	95		3
+istripovao			3
+istrljao	14		3
+istrtljao			3
 istrčao	1324		3
-istrčavao	30		2
+istrčavao	30		3
 istukao	89		3
 istupao	111		3
-isturao			2
-istuširao	80		2
-isukao	32		2
+isturao			3
+istuširao	80		3
+isukao	32		3
 izabirao	10		4
 izabrao	6966		3
-izagnao			2
-izanđao			2
-izaslao			2
+izagnao			3
+izanđao			3
+izaslao			3
 izazivao	714		3
 izazvao	7943		3
 izašao	14727		3
 izbacivao	312		3
 izbatinao			3
-izbegao	3386		2
+izbegao	3386		3
 izbegavao	764		3
-izbezumljivao			2
+izbezumljivao			3
 izbijao	139		3
-izbivao	24		2
-izblamirao	66		2
+izbivao	24		3
+izblamirao	66		3
 izbljuvao	18		3
-izbrao	14		2
+izbrao	14		3
 izbrbljao	11		3
-izbrijao			2
+izbrijao			3
 izbrisao	529		4
-izbrojao	179		2
+izbrojao	179		3
 izdao	6463		3
 izdavao	667		3
-izdejstvovao	337		2
-izderao	17		2
-izdigao	203		2
+izdejstvovao	337		3
+izderao	17		3
+izdigao	203		3
 izdiktirao	129		3
-izdirao			2
+izdirao			3
 izdisao	23		4
-izdrao			2
-izdresirao			2
+izdrao			3
+izdresirao			3
 izdržao	1694		3
 izdržavao	419		4
-izduvao	74		2
+izduvao	74		3
 izdvajao	420		3
 izgarao	54		3
-izgladnjivao	22		2
-izglancao			2
+izgladnjivao	22		3
+izglancao			3
 izglasao	458		4
 izgledao	4924		3
 izgnao	15		3
@@ -577,45 +577,45 @@ izgovarao	391		3
 izgrađivao	91		3
 izgrebao	45		3
 izgrizao	15		4
-izguglao			2
-izgurao	227		2
-izigrao	152		2
-izigravao	124		2
+izguglao			3
+izgurao	227		3
+izigrao	152		3
+izigravao	124		3
 iziskivao	103		3
 izišao	773		3
-izjahao	16		2
+izjahao	16		3
 izjavljivao	537		3
 izjašnjavao	428		3
-izjedao			2
+izjedao			3
 izlagao	1197		3
-izlajao			2
-izlažirao			2
-izlegao	40		2
-izlemao			2
-izležavao	19		2
+izlajao			3
+izlažirao			3
+izlegao	40		3
+izlemao			3
+izležavao	19		3
 izlizao	43		3
-izlupao	31		2
-izluđivao	45		2
+izlupao	31		3
+izluđivao	45		3
 izmakao	368		4
-izmanipulirao			2
-izmanipulisao	44		2
-izmasakrirao	24		2
-izmasirao	13		2
-izmaštao	22		2
-izmenjao	78		2
-izmenjivao			2
-izmetao			2
-izmešao	74		2
+izmanipulirao			3
+izmanipulisao	44		3
+izmasakrirao	24		3
+izmasirao	13		3
+izmaštao	22		3
+izmenjao	78		3
+izmenjivao			3
+izmetao			3
+izmešao	74		3
 izmicao	78		4
 izmišljao	178		3
-izmoljavao			2
+izmoljavao			3
 izmuzao	17		3
 iznajmljivao	97		3
-iznašao	56		2
-iznemogao	78		2
+iznašao	56		3
+iznemogao	78		3
 iznervirao	599		3
-iznikao	253		2
-iznjihao			2
+iznikao	253		3
+iznjihao			3
 iznuđivao	37		3
 izolovao	190		5
 izorao	12		3
@@ -623,7 +623,7 @@ izostajao	69		4
 izostao	1110		3
 izostavljao	27		4
 izoštravao	10		3
-izranjao	13		2
+izranjao	13		3
 izrastao	1083		3
 izravnao	32		3
 izračunao	960		3
@@ -631,63 +631,63 @@ izrađivao	173		3
 izražavao	465		3
 izrekao	2643		4
 izrezao	47		4
-izređao			2
-izrešetao	43		2
-izrežirao	41		2
-izribao	16		2
+izređao			3
+izrešetao	43		3
+izrežirao	41		3
+izribao	16		3
 izricao	85		3
-izrugao			2
-izrugivao	22		2
-izubijao			2
-izudarao	64		2
+izrugao			3
+izrugivao	22		3
+izubijao			3
+izudarao	64		3
 izumirao			4
 izuvao	12		3
-izučavao	398		2
-izvajao			2
-izvaljivao			2
+izučavao	398		3
+izvajao			3
+izvaljivao			3
 izvezao	241		3
 izveštavao	484		3
-izvežbao	20		2
-izvidao			2
-izvijao	33		2
-izvikao	33		2
-izvikivao	20		2
-izvinjavao	297		2
-izvirivao	29		2
+izvežbao	20		3
+izvidao			3
+izvijao	33		3
+izvikao	33		3
+izvikivao	20		3
+izvinjavao	297		3
+izvirivao	29		3
 izviđao	10		3
-izvojevao	259		2
-izvozao	23		2
-izvrdao			2
-izvređao	216		2
-izvrgao	47		2
-izvrgavao	15		2
-izvrtao	23		2
+izvojevao	259		3
+izvozao	23		3
+izvrdao			3
+izvređao	216		3
+izvrgao	47		3
+izvrgavao	15		3
+izvrtao	23		3
 izvršavao	308		4
-izvršivao			2
+izvršivao			3
 izvukao	3642		3
-išamarao	64		2
+išamarao	64		3
 išao	14421		3
 išarao	22		3
-išetao	38		2
+išetao	38		3
 išibao	14		4
-iškolovao			2
-išunjao			2
-išutirao			2
-iščekivao	189		2
-iščeprkao	13		2
-iščezao			2
-iščezavao	20		2
-iščitao	106		2
-iščitavao	57		2
+iškolovao			3
+išunjao			3
+išutirao			3
+iščekivao	189		3
+iščeprkao	13		3
+iščezao			3
+iščezavao	20		3
+iščitao	106		3
+iščitavao	57		3
 iščupao	280		3
-iščuđavao	14		2
-iživljavao	80		2
+iščuđavao	14		3
+iživljavao	80		3
 jadao	58		3
 jadikovao	48		5
-jadovao			2
+jadovao			3
 jahao	322		3
 jao	1947		2
-jatakovao			2
+jatakovao			3
 jaukao	41		3
 javljao	1417		3
 jačao	257		3
@@ -698,87 +698,87 @@ jurcao	71		3
 jurišao	109		3
 kabao	36		3
 kajao	136		3
-kakao	1479		2
-kaljao	10		2
+kakao	1479		3
+kaljao	10		3
 kamenovao	13		5
-kampirao			2
-kampovao	37		2
-kandidovao	756		2
-kanonizovao	12		2
+kampirao			3
+kampovao	37		3
+kandidovao	756		3
+kanonizovao	12		3
 kao	2091751		2
 kapao	31		3
 kapirao	72		3
-kapricirao			2
+kapricirao			3
 kartao	20		3
 kaskao	43		3
-kastrirao	24		2
+kastrirao	24		3
 katapultirao	60		3
 kazao	53261		3
 kazivao	380		3
 kašljao	87		3
-kašljucao	20		2
+kašljucao	20		3
 kažnjavao	296		3
 kidao	146		3
 kidisao			4
-kidnapovao	98		2
-kijao			2
+kidnapovao	98		3
+kijao			3
 kikotao	21		3
 klanjao	181		3
 klao	164		2
 klekao			3
-klepao			2
+klepao			3
 klesao	22		3
-klevetao	37		2
+klevetao	37		3
 klečao	133		3
 klicao	54		3
 kliktao	62		3
-klimao	133		2
+klimao	133		3
 klizao	74		3
-kljucao			2
-kljukao	12		2
+kljucao			3
+kljukao	12		3
 kljuvao			3
 ključao	33		3
-klonirao	56		2
-kmetovao			2
+klonirao	56		3
+kmetovao			3
 knjavao			3
-kobeljao			2
+kobeljao			3
 kockao	140		3
-kodirao	18		2
-kokao			2
-koketirao	53		2
-kolabirao	106		2
-kolao	17		2
+kodirao	18		3
+kokao			3
+koketirao	53		3
+kolabirao	106		3
+kolao	17		3
 kolebao	158		3
-komandirao			2
-komandovao	1099		2
-kombinovao	248		2
-komentarisao	2191		2
+komandirao			3
+komandovao	1099		3
+kombinovao	248		3
+komentarisao	2191		3
 komešao			3
-kompenzovao	97		2
-kompletirao	304		2
-komponovao	987		2
+kompenzovao	97		3
+kompletirao	304		3
+komponovao	987		3
 kompromitovao	143		5
 komunicirao	318		3
-koncentrisao	257		2
-koncipirao	156		2
-konfiskovao	28		2
-konkurisao	793		2
-konsolidirao			2
-konstatovao	3692		2
+koncentrisao	257		3
+koncipirao	156		3
+konfiskovao	28		3
+konkurisao	793		3
+konsolidirao			3
+konstatovao	3692		3
 konstruisao	724		4
-konsultovao	634		2
+konsultovao	634		3
 kontaktirao	1483		3
-kontaminirao	25		2
+kontaminirao	25		3
 kontao	143		3
-kontrolisao	1242		2
-konzumirao	199		2
+kontrolisao	1242		3
+konzumirao	199		3
 kopao	372		3
-kopirao	423		2
-koprcao	38		2
-kopčao			2
+kopirao	423		3
+koprcao	38		3
+kopčao			3
 koračao	291		3
-korigovao	244		2
-korumpirao	43		2
+korigovao	244		3
+korumpirao	43		3
 kostao			3
 kotao	1299		3
 kotirao	59		3
@@ -788,152 +788,152 @@ kovitlao	21		3
 koštao	3787		3
 krao	840		2
 krckao	20		3
-kreditirao	20		2
+kreditirao	20		3
 kreirao	2002		3
 kremirao			3
 krepao	32		3
 kresao	27		3
 kretao	2547		3
 kreštao	12		3
-kritikovao	3524		2
+kritikovao	3524		3
 krivudao	22		3
 kričao			3
-krkao			2
+krkao			3
 krkljao	11		3
 krunisao	668		4
-krčao			2
-krštavao	62		2
+krčao			3
+krštavao	62		3
 kucao	335		3
-kuckao	53		2
-kuglao			2
+kuckao	53		3
+kuglao			3
 kukao	252		3
-kukurikao	12		2
-kuljao	74		2
-kulminirao	326		2
-kultivisao	19		2
-kumovao	349		2
-kunjao	12		2
+kukurikao	12		3
+kuljao	74		3
+kulminirao	326		3
+kultivisao	19		3
+kumovao	349		3
+kunjao	12		3
 kupao	334		3
 kupovao	2838		3
 kusao	12		3
 kuvao	291		3
 kušao	52		3
-kvalifikovao	392		2
+kvalifikovao	392		3
 lagao	1195		3
 lajao	120		3
-lakirao	10		2
+lakirao	10		3
 lansirao	1508		3
 laskao	25		3
 laćao	22		3
 lažirao	71		3
-lecao			2
-legao	1310		2
-legitimisao	140		2
-lelujao	25		2
+lecao			3
+legao	1310		3
+legitimisao	140		3
+lelujao	25		3
 lepršao	30		3
-letovao	210		2
-lezao			2
+letovao	210		3
+lezao			3
 ležao	2222		3
 licitirao	106		3
-lickao	14		2
-liferovao			2
-likovao	97		2
+lickao	14		3
+liferovao			3
+likovao	97		3
 likvidirao	274		3
-limitirao	36		2
+limitirao	36		3
 lipsao			3
 listao	133		3
 lizao	406		3
 lišavao	28		3
-ljubakao			2
+ljubakao			3
 ljuljao	116		3
-lobirao			2
-lobovao	167		2
+lobirao			3
+lobovao	167		3
 locirao	122		3
 lokao	10		3
-lomatao			2
-ludirao			2
+lomatao			3
+ludirao			3
 ludovao	48		3
-luftirao			2
-lumpovao	28		2
+luftirao			3
+lumpovao	28		3
 lunjao	15		3
 lupao	332		3
-lupetao	83		2
-lupkao	47		2
+lupetao	83		3
+lupkao	47		3
 lutao	456		3
-magistrirao	1708		2
+magistrirao	1708		3
 mahao	428		3
-makljao			2
+makljao			3
 malaksao	127		3
-malaksavao			2
+malaksavao			3
 maltretirao	457		3
-manifestovao	143		2
-manipulirao			2
-manipulisao	143		2
+manifestovao	143		3
+manipulirao			3
+manipulisao	143		3
 mao			2
-mapirao	46		2
-markirao	49		2
-marširao	32		2
-masakrirao	64		2
-masirao	103		2
-maskirao	90		2
-matirao	525		2
-maturirao	224		2
+mapirao	46		3
+markirao	49		3
+marširao	32		3
+masakrirao	64		3
+masirao	103		3
+maskirao	90		3
+matirao	525		3
+maturirao	224		3
 mazao	101		3
-mašao			2
+mašao			3
 maštao	538		3
-mažnjavao			2
-meblirao			2
-meditirao	41		2
+mažnjavao			3
+meblirao			3
+meditirao	41		3
 mekšao			3
-memorisao	21		2
+memorisao	21		3
 menjao	4817		3
-merkao	69		2
-metanisao			2
+merkao	69		3
+metanisao			3
 metao	30		3
-metastazirao	88		2
+metastazirao	88		3
 mešao	612		3
 micao	67		3
-migrirao	33		2
+migrirao	33		3
 milovao	289		4
 mimoišao	123		3
 minirao	84		3
 mirisao	337		3
-miropomazao			2
+miropomazao			3
 mirovao	146		3
 misao	11617		3
-mjaukao			2
-mlatarao	43		2
-mljackao	15		2
-mljaskao			2
-mnogougao		M	2
-mobilisao	120		2
+mjaukao			3
+mlatarao	43		3
+mljackao	15		3
+mljaskao			3
+mnogougao		M	3
+mobilisao	120		3
 modelirao	14		3
-modifikovao	174		2
+modifikovao	174		3
 mogao	135058		3
-moljakao	24		2
-molovao			2
-momkovao			2
-montirao	363		2
+moljakao	24		3
+molovao			3
+momkovao			3
+montirao	363		3
 morao	35454		3
 motao	112		3
 motivisao	276		4
-mozgao	25		2
-mrdao	76		2
+mozgao	25		3
+mrdao	76		3
 mrmljao	156		3
-mrzao			2
+mrzao			3
 mucao	78		3
-mudrovao	33		2
+mudrovao	33		3
 mukao			3
-muljao	65		2
-mumlao			2
+muljao	65		3
+mumlao			3
 mumljao			3
-mutirao	81		2
+mutirao	81		3
 muvao	184		3
 muzao	21		3
-muzicirao	24		2
-mučao			2
-muštrao			2
-nabacao	55		2
+muzicirao	24		3
+mučao			3
+muštrao			3
+nabacao	55		3
 nabacivao	37		3
 nabadao	24		3
 nabasao	208		3
@@ -941,142 +941,142 @@ nabavljao	309		4
 nabijao	363		3
 nabrajao	178		3
 nabrao	49		3
-nabrekao	38		2
+nabrekao	38		3
 nabrojao	931		3
 nabujao	30		3
-naciljao	88		2
+naciljao	88		3
 nacrtao	797		4
 nadahnjivao	57		3
 nadao	2493		3
-nadgledao			2
-nadigao	19		2
-nadigrao	392		2
+nadgledao			3
+nadigao	19		3
+nadigrao	392		3
 nadijevao		J	4
 nadimao	10		4
-nadirao	28		2
-nadizao			2
-nadišao	18		2
+nadirao	28		3
+nadizao			3
+nadišao	18		3
 nadjačao	108		3
 nadjačavao	16		3
 nadletao	45		3
 nadmašivao	34		3
-nadmetao	105		2
-nadodao	25		2
-nadodavao			2
+nadmetao	105		3
+nadodao	25		3
+nadodavao			3
 nadoknađivao	51		3
-nadomeštao			2
+nadomeštao			3
 nadovezao	619		3
-nadošao	36		2
-nadrapao			2
-nadrljao	84		2
-nadrogirao			2
-naduvao	95		2
+nadošao	36		3
+nadrapao			3
+nadrljao	84		3
+nadrogirao			3
+naduvao	95		3
 nadvisivao			3
-nadvišavao			2
+nadvišavao			3
 nadvladao	128		3
-nadzirao			2
+nadzirao			3
 nafiksao			4
 nagao	90		3
 nagađao	54		3
 naginjao	120		4
 naglašavao	449		3
-nagledao	350		2
-nagnao	112		2
-nagomilao	134		2
+nagledao	350		3
+nagnao	112		3
+nagomilao	134		3
 nagovarao	253		3
-nagrajisao			2
+nagrajisao			3
 nagrađivao	75		3
 nagrizao	37		4
 nagurao	50		3
-nagutao	30		2
+nagutao	30		3
 nahuškao	32		4
-nahvatao			2
-naigrao	130		2
-naimenovao	37		2
+nahvatao			3
+naigrao	130		3
+naimenovao	37		3
 naišao	4286		3
-najahao			2
+najahao			3
 najavljivao	957		3
-nakanjivao			2
-nakašljao	58		2
-nakljukao			2
-nakrao	74		2
+nakanjivao			3
+nakašljao	58		3
+nakljukao			3
+nakrao	74		3
 nakresao			4
-nakucao			2
+nakucao			3
 nakupljao			3
-nakupovao	49		2
+nakupovao	49		3
 nalagao	246		3
-nalegao	41		2
-naletao	37		2
-naležao			2
+nalegao	41		3
+naletao	37		3
+naležao			3
 nalikovao	64		5
-nalivao			2
-naljoskao			2
-nalokao			2
-nalupao	81		2
+nalivao			3
+naljoskao			3
+nalokao			3
+nalupao	81		3
 namakao	44		3
-namalao			2
+namalao			3
 namamljivao			3
 namazao	106		4
 namenjivao	12		3
 nameravao	1202		3
 nametao	305		3
-nameštao	191		2
+nameštao	191		3
 namicao	10		4
 namigivao	22		3
-namirisao	88		2
+namirisao	88		3
 namisao	12		4
-namišljao			2
-namorao			2
-namotao	19		2
-namotavao			2
-nanao			2
-nanizao	266		2
+namišljao			3
+namorao			3
+namotao	19		3
+namotavao			3
+nanao			3
+nanizao	266		3
 naoružao	94		3
 naoružavao	51		3
 napadao	1095		4
-napajao	104		2
+napajao	104		3
 napao	3672		3
 napasao	27		4
 napastovao			5
-napastvovao	81		2
+napastvovao	81		3
 napijao	16		3
-napipao	89		2
-napipavao			2
+napipao	89		3
+napipavao			3
 napisao	37102		3
-naplaćivao	434		2
+naplaćivao	434		3
 napominjao	55		4
 napredovao	1949		5
-napregao			2
-naprezao	63		2
+napregao			3
+naprezao	63		3
 napričao	41		3
-napsovao			2
-napucao	47		2
-napujdao			2
-napukao	55		2
+napsovao			3
+napucao	47		3
+napujdao			3
+napukao	55		3
 napumpao	36		3
 napuštao	503		3
-narastao	906		2
-narazgovarao			2
-narezao	134		2
-naređao			2
-naređivao	259		2
+narastao	906		3
+narazgovarao			3
+narezao	134		3
+naređao			3
+naređivao	259		3
 naricao	17		3
-naroljao			2
-narugao	78		2
+naroljao			3
+narugao	78		3
 naručivao	315		3
-narušavao	82		2
-nasankao			2
-nasekao	11		2
-nasekirao	25		2
+narušavao	82		3
+nasankao			3
+nasekao	11		3
+nasekirao	25		3
 naseljavao	97		3
-nasipao	15		2
-naslagao	15		2
+nasipao	15		3
+naslagao	15		3
 naslanjao	65		4
-naslađivao	34		2
+naslađivao	34		3
 nasleđivao	24		3
 naslikao	864		4
 naslućivao	182		3
-naslušao	224		2
+naslušao	224		3
 nasmejao	1720		3
 nasmijao	254	J	3
 nasmijavao		J	3
@@ -1087,99 +1087,99 @@ nastanjivao	38		3
 nastao		M	3
 nastavljao	468		4
 nastojao	1763		4
-nastradao	931		2
+nastradao	931		3
 nastupao	3193		3
 nasukao	219		3
-natakao	28		2
+natakao	28		3
 natekao	23		3
-natentao			2
+natentao			3
 naterao	2081		4
-naterivao			2
+naterivao			3
 natezao	49		3
-naticao			2
-natrabunjao			2
-natrljao	23		2
-natrpao	31		2
-natrčao	249		2
-natucao	13		2
-natukao	12		2
-naturao			2
-nauživao	27		2
-navaljao			2
+naticao			3
+natrabunjao			3
+natrljao	23		3
+natrpao	31		3
+natrčao	249		3
+natucao	13		3
+natukao	12		3
+naturao			3
+nauživao	27		3
+navaljao			3
 navaljivao	79		3
 navezao	16		3
-navežbao			2
+navežbao			3
 navijao	580		3
-navikao	2969		2
+navikao	2969		3
 navikavao	33		3
-navirao	14		2
+navirao	14		3
 navraćao	107		4
-navrzao			2
-navukao	844		2
+navrzao			3
+navukao	844		3
 nazadovao	78		5
-nazebao			2
-nazidao			2
-nazirao	278		2
+nazebao			3
+nazidao			3
+nazirao	278		3
 nazivao	1556		3
 nazvao	8958		3
-načinjao			2
+načinjao			3
 našao	26963		3
-naškrabao			2
-našminkao	19		2
-naštampao	17		2
-naštimao	10		2
-nažao	216		2
-nažuljao			2
-nažvrljao			2
-nedorastao		M	2
+naškrabao			3
+našminkao	19		3
+naštampao	17		3
+naštimao	10		3
+nažao	216		3
+nažuljao			3
+nažvrljao			3
+nedorastao		M	3
 nedostajao	1092		4
 negirao	1686		3
 negodovao	188		5
 negovao	392		4
 nemao	168		3
-nenavikao			2
-neodrastao			2
+nenavikao			3
+neodrastao			3
 nervirao	383		3
 nesmisao			4
 nestajao	234		4
 nestao	4915		3
 nesuvisao			5
-neutralisao	147		2
-neutralizovao	15		2
+neutralisao	147		3
+neutralizovao	15		3
 nevaljao	52		3
-nećkao	57		2
+nećkao	57		3
 nicao	21		3
-nikao	383		2
+nikao	383		3
 nizao	107		3
 njakao	18		3
 njegovao			4
 njihao	46		3
-njuškao	45		2
-nogirao			2
-nokautirao	175		2
-nominovao	89		2
-notirao	30		2
-noćivao			2
-nutkao			2
+njuškao	45		3
+nogirao			3
+nokautirao	175		3
+nominovao	89		3
+notirao	30		3
+noćivao			3
+nutkao			3
 obao			3
 obarao	197		3
 obasipao	67		4
 obasjao	113		3
 obasjavao	48		3
 obavezao	1555		3
-obavezivao	159		2
+obavezivao	159		3
 obaveštavao	323		3
 obavijao	31		3
 obavljao	3692		4
-obazirao	317		2
+obazirao	317		3
 obdarivao			3
 obedovao	25		5
-obeležavao	216		2
+obeležavao	216		3
 obeshrabrivao	13		3
-obezbeđivao	490		2
+obezbeđivao	490		3
 obećao	8881		3
 obećavao	1264		3
-obigrao			2
+obigrao			3
 obijao	65		3
 obilovao	233		5
 obitavao	94		3
@@ -1187,35 +1187,35 @@ običavao	43		3
 obišao	4764		3
 objavljivao	1318		3
 objašnjavao	1666		3
-obladao			2
-oblagao			2
-obletao	32		2
+obladao			3
+oblagao			3
+obletao	32		3
 oblikovao	474		5
 oblizao	30		3
 oblizivao	31		3
 obmanjivao	104		3
-obmotao	58		2
+obmotao	58		3
 obnavljao	182		3
 obogaćivao	30		3
-obojao			2
-obolevao			2
+obojao			3
+obolevao			3
 obožavao	570		3
 obradovao	1656		5
-obrao	70		2
-obrastao	209		2
+obrao	70		3
+obrastao	209		3
 obrazlagao	343		3
 obrazovao	386		5
 obraćao	1816		4
 obračunao	251		3
 obrađivao	403		3
-obrekao			2
+obrekao			3
 obrezao	17		4
 obrijao	139		4
 obrisao	818		4
 obrtao	42		4
 obrukao	316		4
-obrušavao	20		2
-obrvao			2
+obrušavao	20		3
+obrvao			3
 obuhvatao	789		4
 obukao	1205		3
 obuvao	20		3
@@ -1223,194 +1223,194 @@ obuzdao	84		3
 obuzdavao	23		3
 obuzimao	58		4
 obučavao	230		3
-obzidao			2
-obznanjivao			2
+obzidao			3
+obznanjivao			3
 ocenjivao	432		3
-ocinkao			2
+ocinkao			3
 ocrtao	96		4
-ocrtavao	58		2
-odabirao			2
+ocrtavao	58		3
+odabirao			3
 odabrao	3584		3
-odagnao	109		2
+odagnao	109		3
 odao	1126		3
-odaslao	46		2
+odaslao	46		3
 odavao	341		3
 odazivao	156		3
 odazvao	1140		3
 odbacivao	270		3
-odbegao	27		2
+odbegao	27		3
 odbijao	1163		3
-odblokirao	33		2
-odbrojao	14		2
-odbrojavao	37		2
-oderao	13		2
+odblokirao	33		3
+odbrojao	14		3
+odbrojavao	37		3
+oderao	13		3
 odevao	45		3
-odgajao	62		2
-odgegao	22		2
-odgledao	1140		2
+odgajao	62		3
+odgegao	22		3
+odgledao	1140		3
 odgovarao	5166		3
 odgrizao	96		4
-odgurao	23		2
-odgurivao			2
-odigao	28		2
+odgurao	23		3
+odgurivao			3
+odigao	28		3
 odigrao	10289		4
-odigravao	147		2
+odigravao	147		3
 odisao	119		4
-odizao			2
+odizao			3
 odjahao	41		4
 odjekivao	101		3
-odlagao	266		2
-odlepršao	24		2
-odležao	267		2
+odlagao	266		3
+odlepršao	24		3
+odležao	267		3
 odlikovao	1062		5
-odlunjao			2
+odlunjao			3
 odlutao	124		3
 odlučivao	1191		3
-odmahivao	84		2
-odmakao	539		2
+odmahivao	84		3
+odmakao	539		3
 odmarao	473		3
 odmeravao	60		3
 odmicao	297		4
 odmogao	80		4
 odmotao	23		3
 odmotavao	14		3
-odnegovao			2
+odnegovao			3
 odobravao	306		3
-odobrovoljavao			2
+odobrovoljavao			3
 odolevao	166		3
-odrao	124		2
+odrao	124		3
 odrasao			4
-odrastao	3867		2
+odrastao	3867		3
 odrađivao	131		3
 odražavao	124		3
-odreagovao	408		2
+odreagovao	408		3
 odrekao	2459		4
-odremao	11		2
+odremao	11		3
 odrezao	61		4
 određivao	450		3
 odricao	178		3
-odrobijao	35		2
-odrukao			2
+odrobijao	35		3
+odrukao			3
 održao	11174		3
 održavao	2185		4
 odsecao	21		3
-odsedao	74		2
-odsedlao			2
+odsedao	74		3
+odsedlao			3
 odsekao	465		4
-odskakao	56		2
-odskakutao			2
-odslikao			2
-odslikavao	33		2
-odslušao	129		2
-odspavao	47		2
-odstajao			2
+odskakao	56		3
+odskakutao			3
+odslikao			3
+odslikavao	33		3
+odslušao	129		3
+odspavao	47		3
+odstajao			3
 odstupao	107		3
-odsustvovao	115		2
-odsvirao	490		2
+odsustvovao	115		3
+odsvirao	490		3
 odudarao	56		4
-odupirao	107		2
+odupirao	107		3
 odustajao	297		4
 odustao	4666		3
-oduvao	316		2
+oduvao	316		3
 oduzimao	244		4
-oduševljavao	219		2
+oduševljavao	219		3
 odvajao	434		3
-odvaljivao			2
+odvaljivao			3
 odvezao	871		3
-odvezivao			2
+odvezivao			3
 odvijao	1752		3
-odvikao	77		2
-odvikavao			2
+odvikao	77		3
+odvikavao			3
 odvraćao	85		3
 odvukao	283		3
 odzvanjao	134		3
-odćutao			2
-odšetao	74		2
-odštampao	176		2
-odšvrljao			2
+odćutao			3
+odšetao	74		3
+odštampao	176		3
+odšvrljao			3
 ofarbao	165		3
-oformljavao			2
-ofucao			2
-oglašavao	302		2
+oformljavao			3
+ofucao			3
+oglašavao	302		3
 ogledao	458		3
-oglodao			2
-oglušivao	11		2
+oglodao			3
+oglušivao	11		3
 ogovarao	42		3
 ograničavao	177		3
 ograđivao	22		3
-ogrebao	76		2
+ogrebao	76		3
 ogrejao	29		4
-ogrezao	171		2
+ogrezao	171		3
 ogrijao		J	4
-ogrtao			2
-oguglao	124		2
+ogrtao			3
+oguglao	124		3
 ohrabrivao	159		3
-ojačao	1856		2
-okajao	25		2
-okajavao			2
-okaljao	20		2
-okarakterisao	971		2
+ojačao	1856		3
+okajao	25		3
+okajavao			3
+okaljao	20		3
+okarakterisao	971		3
 okivao			3
 oklevao	408		3
-oklevetao	96		2
+oklevetao	96		3
 okolišao			3
 okončao	1481		3
 okončavao			3
-okopao			2
-okopavao	22		2
+okopao			3
+okopavao	22		3
 okovao	113		3
 okresao			4
 okretao	570		3
 okrivljavao	13		3
 okrugao	203		3
-okrupnjao			2
-okružavao			2
+okrupnjao			3
+okružavao			3
 okruživao	96		3
-oksidirao			2
-oktroisao			2
-okupao	137		2
-okupirao	286		2
+oksidirao			3
+oktroisao			3
+okupao	137		3
+okupirao	286		3
 okupljao	462		3
-okušao	232		2
-okušavao	11		2
-olajavao			2
+okušao	232		3
+okušavao	11		3
+olajavao			3
 olakšao	1139		3
 olakšavao	58		3
-olizao			2
+olizao			3
 oličavao	67		3
 omalovažavao	79		3
-omađijao			2
+omađijao			3
 omekšao	112		3
 omekšavao			3
 ometao	327		3
-omirisao	66		2
+omirisao	66		3
 omogućavao	764		3
 omotao	31		3
-omršao			2
-onemoćao	51		2
-onesvešćivao			2
+omršao			3
+onemoćao	51		3
+onesvešćivao			3
 opadao	220		4
-opajao			2
-opanjkao			2
+opajao			3
+opanjkao			3
 opao	3020		3
 opasao	67		3
 opasivao	24		3
 opažao	29		3
 opekao	202		4
-operisao	785		2
-opevao	233		2
-opevavao			2
+operisao	785		3
+opevao	233		3
+opevavao			3
 opijao	87		3
 opipao	85		4
 opipavao	38		3
-opirao	297		2
+opirao	297		3
 opisao	6776		3
 opisivao	651		3
-opkoljavao			2
+opkoljavao			3
 oplakao	29		4
 oplakivao	48		3
 opljačkao	597		4
-opojao			2
+opojao			3
 opominjao	241		4
 oponašao	70		3
 oponirao	20		3
@@ -1420,43 +1420,43 @@ opozivao			3
 opozvao	98		3
 oprao	543		3
 opravdao	1822		3
-opravdavao	174		2
+opravdavao	174		3
 opraštao	84		3
 opremao	40		3
-oprobao	616		2
-oprobavao			2
+oprobao	616		3
+oprobavao			3
 opsedao	75		3
-opsluživao	80		2
+opsluživao	80		3
 opsovao	358		3
-opstajao	120		2
+opstajao	120		3
 opstao	943		3
 opstojao			4
-opstruirao			2
+opstruirao			3
 opterećivao	179		3
-optirao			2
-optrčavao			2
+optirao			3
+optrčavao			3
 optuživao	363		3
 opuštao	43		3
-opčarao			2
+opčarao			3
 opčinjavao	15		3
 orao	3145		3
-orezao			2
+orezao			3
 organizovao	10438		5
-oribao			2
-osedlao			2
+oribao			3
+osedlao			3
 osećao	6408		4
 osigurao	1464		3
 osiguravao	76		3
 oslanjao	605		4
-oslikao	493		2
-oslikavao	99		2
+oslikao	493		3
+oslikavao	99		3
 oslobađao	233		3
-oslovljavao	75		2
-osluškivao	216		2
+oslovljavao	75		3
+osluškivao	216		3
 osmatrao	81		3
-osmehivao	89		2
-osmišljavao	65		2
-osmougao		M	2
+osmehivao	89		3
+osmišljavao	65		3
+osmougao		M	3
 osnivao	161		3
 osnovao	7511		3
 osporavao	352		3
@@ -1467,281 +1467,281 @@ ostvarivao	514		3
 osunčao			3
 osuđivao	272		3
 osvajao	1317		3
-osvetlao	64		2
-osvetljavao	78		2
+osvetlao	64		3
+osvetljavao	78		3
 osvećivao	13		3
-osveštao	662		2
-osveštavao	11		2
+osveštao	662		3
+osveštavao	11		3
 osvežavao	22		3
-osvitao			2
-osvrtao	300		2
+osvitao			3
+osvrtao	300		3
 otapao	17		3
-otegao	115		2
+otegao	115		3
 otekao	58		3
 oterao	913		4
-otežao	254		2
-otežavao	107		2
+otežao	254		3
+otežavao	107		3
 oticao	22		4
 otimao	327		4
-otiskivao	12		2
+otiskivao	12		3
 otišao	25671		3
-otkantao			2
+otkantao			3
 otkazao	1137		3
 otkazivao	36		3
 otkidao	40		3
 otklanjao	37		4
-otklizao	12		2
-otključao	149		2
+otklizao	12		3
+otključao	149		3
 otkopao	70		3
-otkopčao	91		2
-otkopčavao	13		2
-otkotrljao	43		2
+otkopčao	91		3
+otkopčavao	13		3
+otkotrljao	43		3
 otkrivao	447		3
-otkucao	211		2
-otkucavao	38		2
-otkupljivao	91		2
+otkucao	211		3
+otkucavao	38		3
+otkupljivao	91		3
 otpao	509		3
 otpasao			4
-otperjao			2
-otpevao	835		2
+otperjao			3
+otpevao	835		3
 otpisao	267		3
 otpisivao	26		3
-otplaćivao	70		2
+otplaćivao	70		3
 otplesao	10		4
 otplivao	45		4
-otplutao			2
-otposlao	11		2
-otpozdravljao	21		2
-otpočinjao	27		2
-otpuhao			2
+otplutao			3
+otposlao	11		3
+otpozdravljao	21		3
+otpočinjao	27		3
+otpuhao			3
 otputovao	1408		3
-otpuzao	19		2
+otpuzao	19		3
 otpuštao	58		3
-otrcao			2
+otrcao			3
 otresao	102		4
-otrežnjavao			2
-otrgao	191		2
+otrežnjavao			3
+otrgao	191		3
 otrovao	252		3
-otrčao	373		2
-otupljivao			2
+otrčao	373		3
+otupljivao			3
 otuđivao	14		3
-otuširao			2
+otuširao			3
 otvarao	1216		3
-otšetao			2
+otšetao			3
 ovenčao	51		3
 overavao	28		3
 ovladao	384		3
 ovladavao			3
 ovlašćivao			3
-ozarivao			2
-ozdravljao			2
-ozebao		M	2
-ozidao	38		2
+ozarivao			3
+ozdravljao			3
+ozebao		M	3
+ozidao	38		3
 označavao	412		3
-oćutao			2
+oćutao			3
 očajavao	47		3
 očarao	163		3
 očaravao	27		3
 očekivao	8521		3
-očerupao	23		2
-očešao	71		2
-očešljao			2
-očijukao	11		2
-očitao	192		2
-očitavao	39		2
+očerupao	23		3
+očešao	71		3
+očešljao			3
+očijukao	11		3
+očitao	192		3
+očitavao	39		3
 očitovao	27		5
-očupao			2
+očupao			3
 očuvao	540		3
-očvršćavao			2
-ošacovao			2
+očvršćavao			3
+ošacovao			3
 ošišao	109		3
-ožegao			2
+ožegao			3
 oživljavao	48		3
 padao	1688		3
 pakao	3990		3
 pakovao	131		4
-paktirao	23		2
+paktirao	23		3
 pao	16671		2
 paradirao	23		3
-parafirao	146		2
-paralisao	115		2
-paralizovao	31		2
-parao	61		2
+parafirao	146		3
+paralisao	115		3
+paralizovao	31		3
+parao	61		3
 parirao	158		3
 parkirao	559		3
-parodirao	27		2
-partijao			2
+parodirao	27		3
+partijao			3
 pasao	80		2
-patentirao	559		2
-patosirao			2
-patrolirao	31		2
-pauzirao	230		2
+patentirao	559		3
+patosirao			3
+patrolirao	31		3
+pauzirao	230		3
 pavao			3
-pašovao			2
+pašovao			3
 pecao	170		3
-peckao	23		2
+peckao	23		3
 peglao	43		3
 pekao	308		3
 penjao	239		3
-pentrao	28		2
-penzionisao	243		2
+pentrao	28		3
+penzionisao	243		3
 petao	472		3
 petljao	168		3
-petougao			2
+petougao			3
 pevao	2492		3
-pijuckao	49		2
-pilotirao	67		2
-pipao	80		2
-pipkao	34		2
-pirkao	22		2
+pijuckao	49		3
+pilotirao	67		3
+pipao	80		3
+pipkao	34		3
+pirkao	22		3
 pisao	19784		3
 pitao	15955		3
 pišao	17		3
 pištao	36		3
-plagirao	31		2
+plagirao	31		3
 plakao	1294		3
 planirao	2819		3
 plasirao	2614		3
 plaćao	2840		3
-pledirao	28		2
+pledirao	28		3
 plesao	137		3
 plivao	392		3
 pljačkao	229		3
 pljeskao	27		3
-pljuckao	21		2
-pljuskao	12		2
+pljuckao	21		3
+pljuskao	12		3
 pljuvao	336		3
 plutao	69		3
 pobacao	56		3
-pobadao			2
+pobadao			3
 pobegao	4603		4
 pobeđivao	552		3
 pobijao	63		3
-pobljuvao			2
-pobojao	33		2
-pobolevao			2
+pobljuvao			3
+pobojao	33		3
+pobolevao			3
 poboljšao	1425		3
-pobrao	303		2
+pobrao	303		3
 pobrisao	48		4
-pobrkao	462		2
-pobrojao	223		2
+pobrkao	462		3
+pobrojao	223		3
 pobuđivao	33		3
-pocepao	349		2
+pocepao	349		3
 podao	64		3
-podavao			2
+podavao			3
 podbadao	17		3
-podcenjivao	11		2
-podebljao	23		2
-podebljavao			2
+podcenjivao	11		3
+podebljao	23		3
+podebljavao			3
 poderao	41		3
 podešavao	140		3
 podgrejao	109		4
-podgrevao	29		2
+podgrevao	29		3
 podigao	8608		4
-podivljao	76		2
+podivljao	76		3
 podizao	760		4
-podjarivao			2
-podlagao			2
-podlegao	810		2
+podjarivao			3
+podlagao			3
+podlegao	810		3
 podmazao	45		4
 podmetao	49		4
 podmićivao	59		3
 podmukao	163		3
-podozrevao			2
+podozrevao			3
 podrazumevao	1466		3
-podražavao	54		2
-podrezivao			2
-podređivao	20		2
-podrhtavao	63		2
-podrivao	37		2
+podražavao	54		3
+podrezivao			3
+podređivao	20		3
+podrhtavao	63		3
+podrivao	37		3
 podržao	6033		3
 podržavao	1699		4
 podsećao	695		4
-podsmehivao			2
-podsmevao	84		2
+podsmehivao			3
+podsmevao	84		3
 podstakao	1161		4
 podsticao	539		4
 podudarao	31		4
-podupirao	60		2
-poduvao			2
+podupirao	60		3
+poduvao			3
 podučavao	356		3
 podvaljivao			3
-podvezao	21		2
-podvezivao			2
-podvizavao	529		2
+podvezao	21		3
+podvezivao			3
+podvizavao	529		3
 podvrgao	210		4
-podvrgavao	32		2
-podvriskivao			2
-podvukao	3211		2
-podšišao			2
-poentirao	427		2
+podvrgavao	32		3
+podvriskivao			3
+podvukao	3211		3
+podšišao			3
+poentirao	427		3
 pogađao	411		3
 pogibao	233		4
 pogledao	5814		4
 pogledavao	25		3
-pogodovao	131		2
-pogoršao	290		2
-pogoršavao	47		2
-pogrebao			2
-pogurao	169		2
+pogodovao	131		3
+pogoršao	290		3
+pogoršavao	47		3
+pogrebao			3
+pogurao	169		3
 pohabao	11		4
-poharao	81		2
-pohađao	1305		2
+poharao	81		3
+pohađao	1305		3
 pohitao	200		4
-pohvatao	82		2
-poigrao	257		2
-poigravao	173		2
+pohvatao	82		3
+poigrao	257		3
+poigravao	173		3
 poimao	18		4
-pojahao			2
-pojao			2
+pojahao			3
+pojao			3
 pojavljivao	957		3
 pojačao	1358		3
 pojačavao	185		3
-pokajao	800		2
-pokarao	10		2
+pokajao	800		3
+pokarao	10		3
 pokazao	29449		3
 pokazivao	2606		3
 pokidao	290		4
 pokisao	50		4
 poklanjao	343		4
-poklao	40		2
-poklapao	80		2
-poklekao	263		2
-pokokao			2
-pokolebao	147		2
+poklao	40		3
+poklapao	80		3
+poklekao	263		3
+pokokao			3
+pokolebao	147		3
 pokopao	109		3
-pokopavao			2
+pokopavao			3
 pokoravao	31		3
 pokrao	601		3
 pokretao	493		4
 pokrivao	496		3
-pokucao	156		2
-pokupovao	143		2
+pokucao	156		3
+pokupovao	143		3
 pokušao	17866		4
 pokušavao	5488		3
 polagao	1032		3
 polaskao			4
-polegao	71		2
-polemisao	199		2
-polirao	48		2
-polivao			2
+polegao	71		3
+polemisao	199		3
+polirao	48		3
+polivao			3
 polizao	88		3
-poljuljao	77		2
-polupao	81		2
-polusmisao			2
-poluzaspao			2
+poljuljao	77		3
+polupao	81		3
+polusmisao			3
+poluzaspao			3
 pomagao	3016		3
-pomahnitao	45		2
+pomahnitao	45		3
 pomakao	78		4
-pomaljao	28		2
+pomaljao	28		3
 pomazao	45		4
-pomerao	348		2
-pometao			2
+pomerao	348		3
+pometao			3
 pomešao	482		3
 pomicao	33		4
 pomilovao	330		5
-pominjao	2297		2
-pomirisao	32		2
+pominjao	2297		3
+pomirisao	32		3
 pomisao	3573		4
 pomišljao	676		3
 pomogao	9753		3
@@ -1750,32 +1750,32 @@ ponadao	285		3
 ponavljao	1388		3
 ponašao	1638		3
 ponestajao			4
-ponikao	719		2
-ponirao	28		2
+ponikao	719		3
+ponirao	28		3
 ponižavao	119		3
 ponukao	48		4
-poobarao	10		2
-poodmakao	16		2
-poodrastao	15		2
-pootvarao	11		2
-popevao			2
+poobarao	10		3
+poodmakao	16		3
+poodrastao	15		3
+pootvarao	11		3
+popevao			3
 popisao	104		3
 popisivao	24		3
-popljuvao	43		2
+popljuvao	43		3
 popravljao	275		4
 poprimao	47		3
 popričao	131		3
 poprskao	59		3
 popunjavao	139		3
 popuštao	159		3
-poradovao	30		2
+poradovao	30		3
 porastao	7065		3
 poravnao	176		3
 poravnavao	11		3
-porazbijao	25		2
-porazgovarao	105		2
+porazbijao	25		3
+porazgovarao	105		3
 porađao	21		3
-poražavao			2
+poražavao			3
 poredao	14		3
 porekao	227		4
 porezao			4
@@ -1783,94 +1783,94 @@ poređao	87		3
 poricao	210		3
 porobljavao	13		3
 poručivao	309		3
-posakrivao			2
+posakrivao			3
 posao	146145		3
-posavetovao	408		2
+posavetovao	408		3
 posedovao	1446		5
-posegao	200		2
-posejao	275		2
+posegao	200		3
+posejao	275		3
 posekao	266		4
-posezao	46		2
+posezao	46		3
 posećivao	741		3
-posijao	41		2
-posipao	28		2
+posijao	41		3
+posipao	28		3
 posisao	20		4
 poskakivao	53		3
-poskidao	69		2
+poskidao	69		3
 poslao	15735		3
 poslovao	707		3
 poslušao	1073		4
 posluživao	48		3
 posmatrao	3113		3
 pospremao			3
-posrbljavao			2
+posrbljavao			3
 posredovao	299		5
 posrtao	38		4
 postajao	1248		3
 postao	51306		3
-postarao	267		2
+postarao	267		3
 postavljao	1516		4
 postigao	18744		4
 postizao	548		4
-postiđivao			2
+postiđivao			3
 postojao	10342		4
-postradao	620		2
-postrigao			2
+postradao	620		3
+postrigao			3
 postupao	619		3
-posumnjao	539		2
-posustao	193		2
-posuvraćao			2
+posumnjao	539		3
+posustao	193		3
+posuvraćao			3
 posuđivao			3
-posvađao	372		2
+posvađao	372		3
 posvećivao	274		3
-posvršavao	13		2
+posvršavao	13		3
 potakao	59		4
 potapao	22		3
-potapšao	108		2
-potcenjivao	75		2
-potcikivao			2
+potapšao	108		3
+potcenjivao	75		3
+potcikivao			3
 potegao	450		3
-potekao	935		2
-potencirao	220		2
-poterao	135		2
+potekao	935		3
+potencirao	220		3
+poterao	135		3
 potezao	105		3
 poticao	291		4
-potirao	13		2
-potiskivao	67		2
-potkazao			2
-potkazivao			2
+potirao	13		3
+potiskivao	67		3
+potkazao			3
+potkazivao			3
 potkivao			3
 potkopao	53		3
 potkopavao	20		3
 potkovao			3
-potkradao	32		2
-potkrao	27		2
-potpadao	35		2
-potpaljivao			2
-potpao	168		2
-potpirivao	24		2
+potkradao	32		3
+potkrao	27		3
+potpadao	35		3
+potpaljivao			3
+potpao	168		3
+potpirivao	24		3
 potpisao	12909		3
 potpisivao	724		3
 potplaćivao	19		3
-potpomagao	49		2
-potpomogao	95		2
+potpomagao	49		3
+potpomogao	95		3
 potrajao	404		4
 potrebovao	10		5
 potresao	467		4
-potrgao	10		2
-potrovao	12		2
-potrpao	29		2
+potrgao	10		3
+potrovao	12		3
+potrpao	29		3
 potrčao	421		3
-potucao	36		2
-potukao	508		2
-poturao	31		2
+potucao	36		3
+potukao	508		3
+poturao	31		3
 potvrđivao	194		4
-poubijao	115		2
-poudao			2
-pouzdao	42		2
-pouzdavao	15		2
-poučavao	180		2
-povaljivao			2
+poubijao	115		3
+poudao			3
+pouzdao	42		3
+pouzdavao	15		3
+poučavao	180		3
+povaljivao			3
 povao			3
 poveravao	84		3
 poverovao	1244		5
@@ -1878,136 +1878,136 @@ povezao	2035		4
 povezivao	519		3
 povećao	6382		3
 povećavao	791		3
-povešao			2
+povešao			3
 povijao	43		3
-povikao	327		2
-povinovao	79		2
-povlađivao	16		2
+povikao	327		3
+povinovao	79		3
+povlađivao	16		3
 povraćao	180		4
 povređivao	61		3
 povukao	5705		3
-pozaboravljao			2
-pozajmljivao	157		2
-pozatvarao	26		2
+pozaboravljao			3
+pozajmljivao	157		3
+pozatvarao	26		3
 pozdravljao	255		4
 pozirao	178		3
 pozivao	1707		3
 poznao	470		3
 poznavao	2857		3
 pozvao	19656		3
-poćutao			2
-počastvovao	60		2
-počešao	59		2
+poćutao			3
+počastvovao	60		3
+počešao	59		3
 počinjao	1043		4
-počivao	260		2
-počupao	66		2
-pošandrcao			2
+počivao	260		3
+počupao	66		3
+pošandrcao			3
 pošao	2961		3
-pošpricao			2
-poštapao			2
+pošpricao			3
+poštapao			3
 poštovao	1872		3
-požurivao	55		2
-prakticirao			2
-praktikovao	160		2
+požurivao	55		3
+prakticirao			3
+praktikovao	160		3
 prao	419		2
 praskao			3
 pravdao	522		3
-pravougao		M	2
-praćakao	10		2
+pravougao		M	3
+praćakao	10		3
 praštao	53		3
 prebacivao	357		3
-prebegao	283		2
+prebegao	283		3
 prebijao	29		3
-prebirao	63		2
-prebivao	57		2
-prebrao			2
-prebrojao	135		2
-prebrojavao	55		2
-precenjivao	18		2
-precizirao	4284		2
-precrtao	134		2
-precrtavao	18		2
+prebirao	63		3
+prebivao	57		3
+prebrao			3
+prebrojao	135		3
+prebrojavao	55		3
+precenjivao	18		3
+precizirao	4284		3
+precrtao	134		3
+precrtavao	18		3
 predao	6075		3
 predavao	2566		3
 predlagao	1494		3
 predomišljao	23		3
-predosećao	91		2
-predozirao	55		2
+predosećao	91		3
+predozirao	55		3
 predočavao	32		3
 predsedavao	1459		3
-predskazao	111		2
+predskazao	111		3
 predstavljao	6200		4
-predstojao	49		2
-preduzimao	285		2
+predstojao	49		3
+preduzimao	285		3
 predviđao	1174		3
-prefarbao	41		2
+prefarbao	41		3
 preferirao	86		3
-preforsirao	26		2
-preganjao			2
+preforsirao	26		3
+preganjao			3
 pregibao			3
-pregledao	1466		2
-pregledavao	31		2
+pregledao	1466		3
+pregledavao	31		3
 pregovarao	694		3
 pregrejao	35		4
 pregrijao		J	4
 pregrizao	23		4
-pregurao	69		2
-preimenovao	130		2
-preispitao	65		2
-preispitivao	64		2
+pregurao	69		3
+preimenovao	130		3
+preispitao	65		3
+preispitivao	64		3
 prekidao	340		3
-preklao			2
-preklinjao	137		2
+preklao			3
+preklinjao	137		3
 prekopao	36		3
 prekopavao	12		3
-prekopirao	86		2
-prekorevao	35		2
+prekopirao	86		3
+prekorevao	35		3
 prekrivao	96		3
-prekucao			2
+prekucao			3
 prelamao	30		3
 preletao	36		3
-preležao	120		2
-prelijevao			2
+preležao	120		3
+prelijevao			3
 prelistao	185		3
 prelistavao	99		3
-prelivao			2
-premazao	21		2
-premašivao	57		2
-premeravao	20		2
-premetao	12		2
-premeštao	73		2
-premišljao	128		2
+prelivao			3
+premazao	21		3
+premašivao	57		3
+premeravao	20		3
+premetao	12		3
+premeštao	73		3
+premišljao	128		3
 premotao	19		3
-prenagao			2
-prenemagao			2
-preobraćao			2
-preobražavao	22		2
-preobukao	37		2
-preokretao			2
+prenagao			3
+prenemagao			3
+preobraćao			3
+preobražavao	22		3
+preobukao	37		3
+preokretao			3
 preorao	32		3
-preoravao			2
-preostao	366		2
-preovladao	239		2
-prepadao			2
+preoravao			3
+preostao	366		3
+preovladao	239		3
+prepadao			3
 prepao	172		3
-preparirao	14		2
-prepevao	82		2
+preparirao	14		3
+prepevao	82		3
 prepirao	49		4
 prepisao	1016		3
 prepisivao	249		3
-preplitao	17		2
+preplitao	17		3
 preplivao	153		4
-preporađao			2
+preporađao			3
 preporučivao	369		3
 prepoznao	3630		3
 prepoznavao	243		3
-prepravljao	64		2
+prepravljao	64		3
 prepričao	209		3
 prepričavao	211		3
-preprodao	89		2
-preprodavao	76		2
+preprodao	89		3
+preprodavao	76		3
 prepuštao	106		3
-prerastao	1283		2
+prerastao	1283		3
 preračunao	160		3
 prerađivao	79		3
 prerezao	194		4
@@ -2015,150 +2015,150 @@ presađivao	15		3
 presecao	47		3
 presekao	818		4
 preseljavao	18		3
-presijavao	30		2
+presijavao	30		3
 preskakao	121		3
 preslikao	61		4
-preslišao			2
-preslišavao	23		2
-preslušao	106		2
-preslušavao	31		2
+preslišao			3
+preslišavao	23		3
+preslušao	106		3
+preslušavao	31		3
 prespavao	347		3
 presretao	22		4
 prestajao	442		4
 prestao	5943		3
-prestavljao			2
+prestavljao			3
 prestigao	414		4
-prestradao			2
+prestradao			3
 presuđivao	32		3
-presušivao			2
-presvetao			2
+presušivao			3
+presvetao			3
 presvukao	126		3
-pretakao	40		2
+pretakao	40		3
 pretapao	14		3
-pretegao			2
-pretekao	811		2
+pretegao			3
+pretekao	811		3
 preterao	910		4
 preterivao	118		3
-pretkazivao			2
+pretkazivao			3
 pretpostavljao	472		4
 pretraživao	148		3
 pretresao	91		4
-pretrgao	34		2
-pretrpao			2
-pretrpavao			2
-pretrčao	465		2
+pretrgao	34		3
+pretrpao			3
+pretrpavao			3
+pretrčao	465		3
 pretukao	600		3
-pretumbao	11		2
-preturao	66		2
+pretumbao	11		3
+preturao	66		3
 pretvarao	502		3
-preuređivao	12		2
-preuveličao	25		2
+preuređivao	12		3
+preuveličao	25		3
 preuzimao	366		4
 prevaljivao	19		3
-prevazišao	1215		2
-preveslao	74		2
+prevazišao	1215		3
+preveslao	74		3
 prevezao	369		3
-previjao	34		2
-previđao	18		2
+previjao	34		3
+previđao	18		3
 prevladao	173		3
 prevrtao	159		4
-prevukao	48		2
-prezao	83		2
-prezentovao	988		2
-prezidao			2
+prevukao	48		3
+prezao	83		3
+prezentovao	988		3
+prezidao			3
 prezirao	252		4
-prezivao	118		2
-preznojavao	32		2
-prećutao	336		2
-prečešljao			2
+prezivao	118		3
+preznojavao	32		3
+prećutao	336		3
+prečešljao			3
 prešao	11743		3
-prešišao	70		2
-preštampao			2
-preživao	11		2
+prešišao	70		3
+preštampao			3
+preživao	11		3
 preživljavao	170		3
-pribegao	209		2
-pribegavao	73		2
+pribegao	209		3
+pribegavao	73		3
 pribijao	11		3
-pribirao	15		2
+pribirao	15		3
 približavao	563		3
-pribojavao	159		2
-pribrao	148		2
-pribrojao			2
-pridao	49		2
-pridavao	301		2
-pridigao	147		2
-pridizao	17		2
+pribojavao	159		3
+pribrao	148		3
+pribrojao			3
+pridao	49		3
+pridavao	301		3
+pridigao	147		3
+pridizao	17		3
 pridobijao	24		3
 pridodao	214		3
 pridremao			3
 pridržao	33		3
 pridržavao	405		4
 prigovarao	72		3
-prihvatao	586		2
+prihvatao	586		3
 prihvaćao	11		4
 prijao	426		3
 prijavljivao	294		3
 prikazao	3140		3
 prikazivao	619		3
 priklanjao	18		4
-prikovao	77		2
+prikovao	77		3
 prikradao	16		3
 prikrao	49		3
 prikrivao	150		3
-prikucao	12		2
+prikucao	12		3
 prikupljao	425		3
-prilagao	19		2
+prilagao	19		3
 prilagođavao	151		3
-prilegao	49		2
+prilegao	49		3
 primakao	353		4
 primao	1721		3
 primenjivao	862		3
 primećivao	387		3
 primicao	83		4
-primirisao			2
+primirisao			3
 primisao	48		4
 primorao	541		3
 primoravao	137		3
-prinuđivao			2
+prinuđivao			3
 pripadao	2556		4
 pripao	2046		3
 pripasao	16		4
-pripijao			2
+pripijao			3
 pripisao	381		3
 pripisivao	167		3
-pripitao			2
-pripomogao	60		2
+pripitao			3
+pripomogao	60		3
 pripovedao	105		3
 pripremao	1643		3
-pripucao	24		2
-prirastao	124		2
-priređivao	150		2
+pripucao	24		3
+prirastao	124		3
+priređivao	150		3
 prisao			3
 prisećao	144		4
 prisiljavao	107		3
-priskakao			2
+priskakao			3
 prislanjao			4
 prisluškivao	129		3
 pristajao	377		4
 pristao	4503		3
-pristigao	474		2
+pristigao	474		3
 pristizao	79		4
 pristupao	165		3
 prisustvovao	8069		5
-prisvajao	58		2
-pritegao	30		2
-pritekao	181		2
-priterao			2
-pritezao			2
-priticao			2
+prisvajao	58		3
+pritegao	30		3
+pritekao	181		3
+priterao			3
+pritezao			3
+priticao			3
 pritisao			4
 pritiskao	272		3
 pritiskivao	18		3
-pritrčao	141		2
-priupitao	70		2
+pritrčao	141		3
+priupitao	70		3
 privezao	72		3
 privezivao			3
-privijao	10		2
+privijao	10		3
 privikao	121		4
 privukao	3390		3
 prizivao	183		3
@@ -2171,366 +2171,366 @@ pričinjavao	35		3
 pričuvao			3
 pričvršćivao			4
 prišao	3325		3
-prišuljao			2
-prišunjao			2
+prišuljao			3
+prišunjao			3
 priželjkivao	341		3
 prljao	24		3
 probadao	15		3
 probao	7801		3
 probijao	276		3
-probuncao			2
+probuncao			3
 procenjivao	202		3
 procvao			3
-procvetao	227		2
+procvetao	227		3
 prodao	7569		3
 prodavao	2698		3
-proderao	31		2
+proderao	31		3
 prodirao	162		4
-prodrmao	107		2
-produžavao			2
+prodrmao	107		3
+produžavao			3
 profitirao	460		3
-profućkao			2
-proganjao	167		2
-progledao	270		2
+profućkao			3
+proganjao	167		3
+progledao	270		3
 prognao	96		3
 progovarao	48		3
-programirao	103		2
+programirao	103		3
 progrizao			4
-progunđao	15		2
-progurao	183		2
+progunđao	15		3
+progurao	183		3
 progutao	823		3
-prohodao	218		2
-prohujao	57		2
-proigrao	459		2
-proistekao	575		2
-proisticao			2
-proizašao	379		2
-proizišao	128		2
+prohodao	218		3
+prohujao	57		3
+proigrao	459		3
+proistekao	575		3
+proisticao			3
+proizašao	379		3
+proizišao	128		3
 projahao	11		4
-projektovao	1418		2
-prokazao	24		2
-prokazivao			2
+projektovao	1418		3
+prokazao	24		3
+prokazivao			3
 prokisao			4
 proklijao	12		3
 proklinjao	101		4
-proklizao	52		2
-proključao	47		2
-prokockao	292		2
-prokomentarisao	2479		2
+proklizao	52		3
+proključao	47		3
+prokockao	292		3
+prokomentarisao	2479		3
 prokopao	32		3
-prokrao			2
-prokuvao	32		2
+prokrao			3
+prokuvao	32		3
 prolamao	24		3
-prolepšao			2
-prolivao			2
-prolupao	109		2
+prolepšao			3
+prolivao			3
+prolupao	109		3
 promakao	260		4
 promatrao	146		3
-prometao			2
-promešao	96		2
+prometao			3
+promešao	96		3
 promicao	30		4
 promisao			4
 promišljao	75		3
-promovisao	1662		2
-promrmljao	182		2
-promrzao	34		2
-promucao	34		2
-promukao	84		2
-promumlao			2
-promumljao			2
+promovisao	1662		3
+promrmljao	182		3
+promrzao	34		3
+promucao	34		3
+promukao	84		3
+promumlao			3
+promumljao			3
 pronašao	7497		3
 pronicao	10		4
 pronikao	82		4
-pronjuškao			2
+pronjuškao			3
 propadao	147		4
-propagirao	240		2
-propao	3623		2
-propevao	66		2
-propinjao	24		2
+propagirao	240		3
+propao	3623		3
+propevao	66		3
+propinjao	24		3
 propisao	1187		3
 propisivao	174		3
-propitivao	23		2
+propitivao	23		3
 proplakao	16		4
 propovedao	646		3
-propucao			2
-proputovao	432		2
+propucao			3
+proputovao	432		3
 propuštao	213		3
-prorastao			2
+prorastao			3
 proračunao	92		3
 prorekao	295		4
 proricao	65		3
-prorokovao	81		2
-prosecao			2
-prosijao	11		2
-prosiktao	19		2
-prosipao	82		2
-proslavljao	270		2
+prorokovao	81		3
+prosecao			3
+prosijao	11		3
+prosiktao	19		3
+prosipao	82		3
+proslavljao	270		3
 prospavao			3
 prostirao	235		4
-prostrujao	48		2
-prostudirao	57		2
-prosuđivao			2
-prosvirao	26		2
-protegao	90		2
-protekao	2265		2
-protepao			2
+prostrujao	48		3
+prostudirao	57		3
+prosuđivao			3
+prosvirao	26		3
+protegao	90		3
+protekao	2265		3
+protepao			3
 proterao	406		4
 proterivao	31		3
-protestovao	380		2
-protestvovao	143		2
-protezao	178		2
-protežirao	49		2
+protestovao	380		3
+protestvovao	143		3
+protezao	178		3
+protežirao	49		3
 proticao	88		4
 protresao	105		4
-protrljao	80		2
-protrčao	116		2
-proturao	19		2
-protutnjao	179		2
+protrljao	80		3
+protrčao	116		3
+proturao	19		3
+protutnjao	179		3
 prouzrokovao	850		5
 proučavao	1029		3
 provaljivao	55		3
-provejavao	43		2
+provejavao	43		3
 proveravao	627		3
 provezao	24		3
-proviđao			2
-provocirao	267		2
-provozao	266		2
-provukao	424		2
-prozebao		M	2
-prozirao	27		2
+proviđao			3
+provocirao	267		3
+provozao	266		3
+provukao	424		3
+prozebao		M	3
+prozirao	27		3
 prozivao	321		3
 prozvao	843		3
 proćaskao	14		4
 proćerdao	71		3
-pročešljao	42		2
+pročešljao	42		3
 pročitao	12036		3
-pročitavao			2
+pročitavao			3
 prošao	16010		3
-prošaptao	30		2
-prošaputao	96		2
+prošaptao	30		3
+prošaputao	96		3
 prošetao	595		3
-prošibao			2
+prošibao			3
 proširivao	108		3
-prošišao	11		2
-prošištao			2
-prošvercao			2
-prošvercovao	48		2
+prošišao	11		3
+prošištao			3
+prošvercao			3
+prošvercovao	48		3
 prožderao			3
-proždirao	41		2
-proždrao			2
+proždirao	41		3
+proždrao			3
 prožimao	48		4
-proživljavao	91		2
-prožvakao			2
+proživljavao	91		3
+prožvakao			3
 prskao	96		3
-prstenovao			2
-prtljao			2
+prstenovao			3
+prtljao			3
 pružao	1689		3
-prčkao	29		2
+prčkao	29		3
 psovao	502		3
 publikovao	315		5
 pucao	2411		3
-puhao			2
-pujdao			2
+puhao			3
+pujdao			3
 pukao	1337		3
-pumpao	39		2
+pumpao	39		3
 putovao	2968		3
 puzao	43		3
 puštao	839		3
-rabotao			2
+rabotao			3
 radovao	955		4
 radoznao	419		3
-raketirao	11		2
+raketirao	11		3
 ranjavao	11		3
-raportirao			2
-rasađivao			2
-rascvetao	29		2
-rascvetavao			2
-rasejao			2
+raportirao			3
+rasađivao			3
+rascvetao	29		3
+rascvetavao			3
+rasejao			3
 rasekao	48		4
-rasijao			2
+rasijao			3
 rasipao	83		4
 raskidao	37		3
-raskomadao	49		2
-raskopao	13		2
-raskopavao			2
-raskopčao	30		2
-raskovao			2
-raskrinkao	142		2
+raskomadao	49		3
+raskopao	13		3
+raskopavao			3
+raskopčao	30		3
+raskovao			3
+raskrinkao	142		3
 raspadao	95		4
-raspakovao			2
-raspaljivao	28		2
+raspakovao			3
+raspaljivao	28		3
 raspao	937		3
-rasparao			2
-rasparčao			2
+rasparao			3
+rasparčao			3
 raspasao			4
-raspinjao			2
-raspirivao	31		2
+raspinjao			3
+raspirivao	31		3
 raspisao	1645		3
 raspisivao	51		3
 raspitao	410		3
-raspitivao	618		2
+raspitivao	618		3
 rasplakao	234		4
 rasplamsao	112		3
-raspojasao			2
+raspojasao			3
 raspolagao	723		3
 raspoznao	16		3
 raspoznavao	30		3
-raspravljao			2
-raspremao			2
-raspričao	81		2
+raspravljao			3
+raspremao			3
+raspričao	81		3
 rasprodao	236		3
-rasprostirao	22		2
-rasprčkao			2
-raspukao		M	2
+rasprostirao	22		3
+rasprčkao			3
+raspukao		M	3
 rastajao	30		4
-rastakao			2
+rastakao			3
 rastao	2594		3
 rastapao			3
 rastavljao	33		4
-rastegao	29		2
+rastegao	29		3
 rasterao	122		4
-rastezao	25		2
+rastezao	25		3
 rastresao			4
 rastrgao	44		4
-rasturao	116		2
+rasturao	116		3
 rastvarao	12		3
-rasuđivao	25		2
-ratosiljao			2
+rasuđivao	25		3
+ratosiljao			3
 ratovao	877		4
 ravnao	43		3
 razabirao			4
 razabrao	75		3
-razagnao			2
+razagnao			3
 razapinjao	13		4
 razarao	65		3
 razaslao	49		3
-razastirao			2
+razastirao			3
 razaznao	19		3
 razaznavao	25		3
 razbacao	42		3
 razbacivao	48		3
-razbežao	16		2
+razbežao	16		3
 razbijao	234		3
-razbirao			2
-razbježavao		J	2
-razbucao	76		2
-razbuktao	99		2
+razbirao			3
+razbježavao		J	3
+razbucao	76		3
+razbuktao	99		3
 razdao	44		3
 razdavao	55		3
 razdeljivao			3
 razderao	11		3
 razdirao	20		4
-razdrao			2
+razdrao			3
 razdvajao	160		3
 razgaljivao			3
-razgarao			2
-razgledao	301		2
-razgledavao			2
-razgorevao			2
+razgarao			3
+razgledao	301		3
+razgledavao			3
+razgorevao			3
 razgovarao	9018		3
-razgranao	53		2
-razgrađivao	14		2
-razgrejao			2
-razigrao	299		2
-razigravao	63		2
+razgranao	53		3
+razgrađivao	14		3
+razgrejao			3
+razigrao	299		3
+razigravao	63		3
 razišao	231		3
-razjedao			2
+razjedao			3
 razlagao	19		3
-razlajao			2
-razlegao	55		2
-razlepršao			2
-razlijetao		J	2
+razlajao			3
+razlegao	55		3
+razlepršao			3
+razlijetao		J	3
 razlikovao	851		5
-razlivao			2
-razlupao			2
+razlivao			3
+razlupao			3
 razlučivao			3
-razmahao	69		2
-razmahivao			2
-razmakao			2
+razmahao	69		3
+razmahivao			3
+razmakao			3
 razmatrao	1149		3
-razmazao	36		2
+razmazao	36		3
 razmazivao	15		3
 razmenjivao	119		3
 razmetao	54		4
 razmišljao	5903		3
 razmotao	15		3
-razmotavao			2
+razmotavao			3
 razoružao	61		3
 razočarao	1427		3
-razrastao			2
+razrastao			3
 razrađivao	83		3
-razrezao	28		2
-razrezivao			2
-razrešavao	20		2
+razrezao	28		3
+razrezivao			3
+razrešavao	20		3
 razumevao	179		3
-razuzdao			2
+razuzdao			3
 razvaljivao	48		3
-razvedravao			2
-razvejao	86		2
+razvedravao			3
+razvejao	86		3
 razvezao	56		3
-razvezivao			2
+razvezivao			3
 razvijao	1981		3
-razvikao			2
-razvraćao			2
-razvrgao			2
+razvikao			3
+razvraćao			3
+razvrgao			3
 razvrstao	48		3
-razvukao	148		2
+razvukao	148		3
 računao	1247		3
 račvao	26		3
 rađao	138		3
-raširivao			2
+raširivao			3
 reagovao	5073		5
-realizovao	2466		2
-recenzirao	22		2
-recitirao			2
-recitovao	184		2
-redigirao			2
-redigovao			2
-reducirao			2
-redukovao	95		2
-referisao	99		2
-reformirao			2
-reformisao	180		2
-registrovao	1367		2
-regrutovao	124		2
+realizovao	2466		3
+recenzirao	22		3
+recitirao			3
+recitovao	184		3
+redigirao			3
+redigovao			3
+reducirao			3
+redukovao	95		3
+referisao	99		3
+reformirao			3
+reformisao	180		3
+registrovao	1367		3
+regrutovao	124		3
 reinkarnirao	22		3
 rekao	340120		3
-reklamirao	430		2
-rekonstruisao	193		2
-remizirao	243		2
+reklamirao	430		3
+rekonstruisao	193		3
+remizirao	243		3
 renovirao	188		3
-repetirao	52		2
-replicirao	202		2
-repovao			2
-reprogramirao	20		2
-resetovao	179		2
-restaurirao	46		2
-reterirao	29		2
-revanširao	227		2
-revoltirao	12		2
+repetirao	52		3
+replicirao	202		3
+repovao			3
+reprogramirao	20		3
+resetovao	179		3
+restaurirao	46		3
+reterirao	29		3
+revanširao	227		3
+revoltirao	12		3
 rezao	120		3
-rezervisao	324		2
-rezimirao	103		2
-rezonovao	63		2
-rezultirao			2
-rezultovao	89		2
-ređao	85		2
+rezervisao	324		3
+rezimirao	103		3
+rezonovao	63		3
+rezultirao			3
+rezultovao	89		3
+ređao	85		3
 rešavao	771		3
 rešetao	31		3
 režao	39		3
-režirao	2759		2
-ribao	25		2
+režirao	2759		3
+ribao	25		3
 ridao	19		3
-rikao	20		2
+rikao	20		3
 rintao	18		3
 risao			3
-riskirao			2
+riskirao			3
 ritao	13		3
-rizikovao	458		2
-robijao	152		2
+rizikovao	458		3
+robijao	152		3
 robovao	62		3
 roptao			3
-roštiljao			2
+roštiljao			3
 rugao	116		3
 rukovao	341		4
 ručao	207		3
@@ -2541,7 +2541,7 @@ sabotirao	89		3
 sabrao	591		3
 sadržao	904		3
 sadržavao	288		4
-sagao			2
+sagao			3
 saginjao	33		4
 sagledao	534		4
 sagledavao	85		3
@@ -2549,40 +2549,40 @@ sagorevao	24		3
 sahranjivao	45		3
 sakrivao	172		3
 sakupljao	505		3
-saletao	10		2
+saletao	10		3
 salutirao	35		3
-samonikao	11		2
+samonikao	11		3
 samovao	13		3
-sanirao	163		2
+sanirao	163		3
 sanjao	2230		3
-saobraćao	233		2
-saopštavao	156		2
-saosećao	27		2
+saobraćao	233		3
+saopštavao	156		3
+saosećao	27		3
 saplitao	37		4
 sapunao			3
 sarađivao	2849		3
 sasekao	70		4
-saslušao	718		2
-saslušavao	66		2
+saslušao	718		3
+saslušavao	66		3
 sastajao	493		4
 sastao	2749		3
 sastavljao	343		4
 sastojao	1507		4
-sastrugao			2
-saterao			2
-satirao			2
-satkao	13		2
+sastrugao			3
+saterao			3
+satirao			3
+satkao	13		3
 savetovao	2132		5
 savijao	74		3
 savladao	5975		3
 savladavao	56		3
 savlađivao	31		3
-sazdao	164		2
-sazdavao			2
-sazidao	350		2
+sazdao	164		3
+sazdavao			3
+sazidao	350		3
 sazivao	46		3
 saznao	6748		3
-saznavao	86		2
+saznavao	86		3
 sazrevao	109		3
 sazvao	742		3
 sačekao	1374		4
@@ -2590,119 +2590,119 @@ sačekivao	36		3
 sačinjavao	116		3
 sačuvao	3347		3
 sašao			3
-sažaljevao			2
-sažegao			2
+sažaljevao			3
+sažegao			3
 sažimao	15		4
-sažvakao	25		2
+sažvakao	25		3
 secirao	27		3
-seckao	66		2
+seckao	66		3
 sedao	91		3
-sedmougao			2
+sedmougao			3
 sejao	213		3
 sekao	412		3
 sekirao	51		3
-selektirao			2
-seljakao	17		2
-servirao	727		2
+selektirao			3
+seljakao	17		3
+servirao	727		3
 servisirao	69		3
 sevao	21		3
 sećao	661		3
 shvatao	919		3
-shvaćao			2
-signalizirao	165		2
+shvaćao			3
+signalizirao	165		3
 sijao	239		3
 siktao	46		3
 silovao	884		4
-simpatisao	53		2
+simpatisao	53		3
 simulirao	102		3
-sinhronizovao	38		2
+sinhronizovao	38		3
 sipao	596		3
 sisao	179		3
-situirao	21		2
+situirao	21		3
 sišao	1604		3
 sjahao	75		3
 sjao	39		2
 sjedinjavao	29		3
 skakao	437		3
-skakutao	70		2
+skakutao	70		3
 skalpirao			3
 skandirao	50		3
 skanjivao			3
-skapao	21		2
-skapavao			2
-skapirao	582		2
+skapao	21		3
+skapavao			3
+skapirao	582		3
 skenirao	213		3
 skicirao	88		3
 skidao	971		3
 skijao	166		3
 skitao	33		3
-skičao			2
+skičao			3
 sklanjao	169		3
 sklapao	348		3
 sklepao	83		3
-skljokao	16		2
-sklupčao	37		2
-skockao	37		2
-skoncentrisao	68		2
+skljokao	16		3
+sklupčao	37		3
+skockao	37		3
+skoncentrisao	68		3
 skontao	730		3
-skončao	377		2
-skopčao			2
-skotrljao	35		2
+skončao	377		3
+skopčao			3
+skotrljao	35		3
 skovao	264		3
 skraćivao	61		3
-skrckao			2
+skrckao			3
 skresao	102		3
 skretao	227		3
-skrhao	13		2
+skrhao	13		3
 skrivao	868		3
 skupljao	637		3
 skuvao	235		3
 slagao	1596		3
 slamao	17		3
 slao	2748		2
-sledovao	80		2
-slegao	148		2
+sledovao	80		3
+slegao	148		3
 sletao	64		3
-slijevao			2
+slijevao			3
 slikao	2036		3
 slizao	30		3
-sludovao			2
+sludovao			3
 slupao	153		3
 slušao	5069		3
-službovao	471		2
-smakao			2
+službovao	471		3
+smakao			3
 smalaksao			4
-smandrljao			2
+smandrljao			3
 smanjivao	572		3
-smarao	142		2
+smarao	142		3
 smatrao	8338		3
 smazao	55		3
 smejao	1154		3
-smekšao	24		2
-smekšavao			2
+smekšao	24		3
+smekšavao			3
 smenjivao	96		3
-smerao			2
+smerao			3
 smetao	978		3
-smeškao	201		2
+smeškao	201		3
 smeštao	75		3
 smežurao			3
 smijao	165	J	3
-smiješao		J	2
+smiješao		J	3
 smilovao	213		4
 smirivao	148		3
 smisao	18418		3
 smišljao	266		3
 smogao	405		3
 smotao	62		3
-smreškao			2
+smreškao			3
 smrskao	41		3
-smrzao			2
+smrzao			3
 smrzavao	43		4
-smršao	242		2
-smucao			2
+smršao	242		3
+smucao			3
 smuvao	132		3
-smućivao			2
-smućkao	15		2
+smućivao			3
+smućkao	15		3
 snabdevao	227		3
 snašao	1734		3
 snebivao	26		3
@@ -2711,122 +2711,122 @@ snimao	1780		3
 snivao	19		3
 snovao			3
 soptao			3
-sortirao	22		2
+sortirao	22		3
 spadao	329		3
 spajao	270		3
 spakovao	499		4
 spaljivao	91		3
-spanđao			2
+spanđao			3
 spao	596		2
-sparingovao			2
+sparingovao			3
 spasao	2880		3
 spasavao	320		3
 spavao	2369		3
-spašavao			2
+spašavao			3
 specijalizovao	346		5
 spekulisao	41		4
 spelovao			4
-spetljao	110		2
+spetljao	110		3
 spevao	105		3
-spirao			2
+spirao			3
 spiskao	67		3
-spljeskao			2
-spomagao			2
+spljeskao			3
+spomagao			3
 spominjao	1048		4
-spomogao			2
-sponzorisao	141		2
+spomogao			3
+sponzorisao	141		3
 spopadao	28		4
 spopao	77		3
-sporazumao			2
-sporečkao			2
-spotakao	63		2
-spoticao	19		2
+sporazumao			3
+sporečkao			3
+spotakao	63		3
+spoticao	19		3
 spoznao	500		3
 spoznavao	19		3
 sprao	35		2
-spravljao	29		2
+spravljao	29		3
 sprdao	58		3
 spremao	1601		3
 sprečavao	444		3
-spucao			2
+spucao			3
 sputao	51		3
 sputavao	71		3
 spuštao	573		3
 srastao	111		3
 sračunao	55		3
-srbizirao			2
+srbizirao			3
 sretao	709		3
-srezao	31		2
+srezao	31		3
 sređivao	165		3
-sricao	23		2
+sricao	23		3
 srkao	24		3
 srljao	47		3
-srozao	209		2
-srozavao	10		2
-stabilizovao	330		2
+srozao	209		3
+srozavao	10		3
+stabilizovao	330		3
 stagnirao	106		3
 stajao	6234		3
 stanovao	747		3
 stao	6228		2
 stapao	21		3
 starao	427		3
-startovao	1362		2
+startovao	1362		3
 stasao	259		3
-stasavao	78		2
+stasavao	78		3
 stavljao	1443		3
-stažirao	36		2
+stažirao	36		3
 stegao	289		3
 stekao	11716		3
-stenjao	133		2
-sterilisao	11		2
+stenjao	133		3
+sterilisao	11		3
 stezao	223		3
-sticao	706		2
+sticao	706		3
 stigao	26243		3
-stilizovao	27		2
-stimulisao	175		2
+stilizovao	27		3
+stimulisao	175		3
 stiskao	181		3
 stizao	730		3
 stišao	77		3
 stišavao	26		3
-stojao	188		2
-stolovao	155		2
-stopirao	170		2
-stradao	2891		2
+stojao	188		3
+stolovao	155		3
+stopirao	170		3
+stradao	2891		3
 strahovao	187		3
-stranstvovao			2
-streljao	187		2
+stranstvovao			3
+streljao	187		3
 stresao	145		3
-strgao	55		2
-stropoštao	60		2
-strpao	314		2
+strgao	55		3
+stropoštao	60		3
+strpao	314		3
 strugao	28		3
-strujao	37		2
-strčao	27		2
-strčavao			2
-stucao			2
+strujao	37		3
+strčao	27		3
+strčavao			3
+stucao			3
 studirao	3406		3
 stupao	110		3
 stvarao	2228		3
-sublimirao	45		2
-sublimisao			2
-sudarao	33		2
+sublimirao	45		3
+sublimisao			3
+sudarao	33		3
 sudelovao	120		5
 sudjelovao		J	5
-sugerisao	949		2
-sukao			2
+sugerisao	949		3
+sukao			3
 sukobljavao	83		3
-suljao			2
-sumirao	278		2
+suljao			3
+sumirao	278		3
 sumnjao	920		3
 sunčao	43		3
 suočavao	260		3
 suprotstavljao	237		4
-surfao	13		2
-surfovao	63		2
+surfao	13		3
+surfovao	63		3
 survao	115		3
 survavao			3
-suspendovao	281		2
-susprezao			2
+suspendovao	281		3
+susprezao			3
 susretao	451		4
 sustao	11		3
 sustigao	282		4
@@ -2836,410 +2836,410 @@ suzbijao	51		3
 suzdržao	74		3
 suzdržavao	68		4
 sužavao	56		3
-svaljao			2
+svaljao			3
 svađao	249		3
 svetao	720		3
 svetkovao			3
 svetlucao	38		3
-svetovao			2
+svetovao			3
 svezao	72		3
-svijao			2
-svikao	37		2
-svikavao			2
+svijao			3
+svikao	37		3
+svikavao			3
 svirao	3050		3
 sviđao	381		3
 svladao	37		3
 svraćao	196		3
-svrgao	57		2
-svrgavao			2
+svrgao	57		3
+svrgavao			3
 svrstao	872		3
 svrstavao	66		4
 svršavao	97		4
 svukao	188		3
-tabao			2
-tajao			2
+tabao			3
+tajao			3
 talasao	29		3
-tamnovao	23		2
-tapkao	38		2
-tapšao	39		2
+tamnovao	23		3
+tapkao	38		3
+tapšao	39		3
 tekao	1079		3
 telefonirao	237		3
-teleportovao			2
-tempirao	56		2
-teoretisao			2
+teleportovao			3
+tempirao	56		3
+teoretisao			3
 tepao	89		3
 terao	1247		3
-terorisao			2
+terorisao			3
 tesao	13		3
-testerisao			2
+testerisao			3
 testirao	1380		3
 tetovirao	33		3
-teturao	39		2
-tezaurisao			2
+teturao	39		3
+tezaurisao			3
 ticao	355		3
-tiktakao			2
+tiktakao			3
 tinjao	67		3
 tipkao	13		3
-tipovao	85		2
-tiranisao			2
+tipovao	85		3
+tiranisao			3
 tiskao	46		3
-titlovao			2
+titlovao			3
 titrao	41		3
-titulisao			2
+titulisao			3
 tištao			3
 tkao	75		2
-tolerisao	152		2
+tolerisao	152		3
 topao	2004		3
 trabunjao	15		3
 tragao	526		3
 trajao	7557		3
-transformisao	342		2
-transponovao	32		2
-transportovao	90		2
-trasirao	206		2
+transformisao	342		3
+transponovao	32		3
+transportovao	90		3
+trasirao	206		3
 trebao	19444		3
-trebovao	13		2
+trebovao	13		3
 trenirao	1949		3
 treptao	35		3
 tresao	422		3
-treskao			2
+treskao			3
 tretirao	476		3
 trgao	295		3
 trgovao	403		4
-trijumfovao	1548		2
-tripovao			2
-trkao	60		2
+trijumfovao	1548		3
+tripovao			3
+trkao	60		3
 trljao	177		3
-trougao	1533		2
+trougao	1533		3
 trovao	91		3
-trpao	131		2
-trtljao			2
-trućao			2
+trpao	131		3
+trtljao			3
+trućao			3
 trzao	69		3
 trčao	1878		3
 trčkarao	69		4
 tucao	156		3
-tuckao			2
+tuckao			3
 tugovao	152		3
 tukao	1711		3
 tumarao	82		3
-tutnjao	38		2
+tutnjao	38		3
 tuširao	72		3
-tužakao	13		2
-tvitovao	71		2
+tužakao	13		3
+tvitovao	71		3
 ubacivao	320		3
 ubadao	36		3
-ubeđivao	528		2
+ubeđivao	528		3
 ubijao	971		3
 ubirao	88		4
 ublažavao	37		3
-ubrajao	69		2
+ubrajao	69		3
 ubrao	151		3
 ubrizgao	96		4
 ubrizgavao	29		3
-ubrojao	105		2
+ubrojao	105		3
 ubrzao	1049		3
 ubrzavao	127		4
 ucenjivao	215		3
-ucmekao			2
-ucrtao	61		2
+ucmekao			3
+ucrtao	61		3
 udaljavao	172		3
-udaljivao			2
+udaljivao			3
 udao	124		3
 udarao	778		4
-udebljao	27		2
-udešavao			2
+udebljao	27		3
+udešavao			3
 udisao	97		4
-udovoljavao	23		2
+udovoljavao	23		3
 udruživao	10		3
-udubljivao	51		2
-uduvao			2
-udvarao	131		2
-ufurao			2
+udubljivao	51		3
+uduvao			3
+udvarao	131		3
+ufurao			3
 ugao	5715		3
 ugađao	36		3
 ugibao			3
-uglancao			2
+uglancao			3
 ugledao	2937		4
-ugnjetavao	28		2
+ugnjetavao	28		3
 ugovarao	104		3
-ugošćavao	14		2
-ugravirao	14		2
+ugošćavao	14		3
+ugravirao	14		3
 ugrađivao	242		3
 ugrejao	60		4
 ugrijao		J	4
 ugrizao	227		4
 ugrožavao	229		3
-ugruvao			2
-ugurao	296		2
-ugušivao			2
-uhodao	24		2
+ugruvao			3
+ugurao	296		3
+ugušivao			3
+uhodao	24		3
 ujahao	31		4
-ujdurisao			2
+ujdurisao			3
 ujedao	45		3
 ujedinjavao	28		3
-ukaljao	57		2
-ukapirao	607		2
+ukaljao	57		3
+ukapirao	607		3
 ukazao	14796		3
 ukazivao	1319		3
 ukidao	53		3
 uklanjao	101		4
-uklapao	213		2
+uklapao	213		3
 uklesao	44		4
-uklizao	87		2
+uklizao	87		3
 uključivao	712		3
-ukokao			2
+ukokao			3
 ukopao	90		3
-ukopčao	23		2
+ukopčao	23		3
 ukoravao			3
-ukoričavao			2
-ukovao			2
+ukoričavao			3
+ukovao			3
 ukrao	2590		3
 ukrašavao	56		3
 ukrcao	193		3
 ukrcavao			4
-ukroćivao			2
+ukroćivao			3
 ukrštao	45		3
-ukucao	187		2
+ukucao	187		3
 ulagao	745		3
 ulagivao	16		3
 ulepšao	305		3
 ulepšavao	41		3
-uletao	35		2
-ulivao			2
+uletao	35		3
+ulivao			3
 ulizivao	21		3
 uljepšao		J	3
-uljuljkao	15		2
-ulogovao	74		2
-umakao	238		2
-umanjivao	65		2
+uljuljkao	15		3
+ulogovao	74		3
+umakao	238		3
+umanjivao	65		3
 umarao	36		3
-umarširao	41		2
-umazao	12		2
+umarširao	41		3
+umazao	12		3
 umetao	18		4
-umešao	695		2
+umešao	695		3
 umirao	339		4
-umirivao	69		2
+umirivao	69		3
 umivao	54		3
 umišljao	22		3
-umnožavao	51		2
-umoljavao			2
-umotao	56		2
+umnožavao	51		3
+umoljavao			3
+umotao	56		3
 umovao	11		3
-umrljao			2
-umrtvljavao			2
-umrtvljivao			2
-umukao	14		2
+umrljao			3
+umrtvljavao			3
+umrtvljivao			3
+umukao	14		3
 unajmljivao			3
 unakazivao			3
-unapređivao	91		2
-unificirao			2
+unapređivao	91		3
+unificirao			3
 uništavao	316		3
 unižavao			3
-unovčavao			2
-uobičavao	15		2
-uobličavao	29		2
+unovčavao			3
+uobičavao	15		3
+uobličavao	29		3
 uobražavao	13		3
-uopštavao			2
+uopštavao			3
 uočavao	81		3
 upadao	231		4
-upakovao	103		2
+upakovao	103		3
 upao	2077		3
 upecao	290		4
-upetljao	85		2
+upetljao	85		3
 upijao	170		3
-upinjao	76		2
+upinjao	76		3
 upirao	56		4
 upisao	5470		3
 upisivao	247		3
 upitao	4447		3
-uplaćivao	336		2
-upletao			2
-uplitao	41		2
+uplaćivao	336		3
+upletao			3
+uplitao	41		3
 uplivao	26		4
-upoređivao	288		2
-upotpunjavao	22		2
+upoređivao	288		3
+upotpunjavao	22		3
 upotrebljavao	525		3
 upoznao	10445		3
 upoznavao	246		3
 upozoravao	1280		3
 upravljao	2582		4
-upražnjavao	92		2
-upredao			2
-uprezao			2
+upražnjavao	92		3
+upredao			3
+uprezao			3
 uprljao	60		3
-uprskao	78		2
-upucao	194		2
-upucavao			2
-upuzao			2
+uprskao	78		3
+upucao	194		3
+upucavao			3
+upuzao			3
 upućivao	538		3
-upuštao	299		2
+upuštao	299		3
 uranjao	21		3
-urastao	48		2
+urastao	48		3
 uračunao	82		3
 urekao	13		4
 urezao	177		4
 urezivao	22		3
 uređivao	657		3
-urgirao	102		2
-urinirao	35		2
+urgirao	102		3
+urinirao	35		3
 urlao	237		3
-urlikao	33		2
+urlikao	33		3
 urnisao			4
-usamljivao			2
+usamljivao			3
 usavršavao	566		4
 usađivao	12		3
-usekao	23		2
+usekao	23		3
 useljavao	11		3
-usijao	68		2
+usijao	68		3
 usisao	73		4
 usisavao	27		3
-usitnjavao			2
-uskakao	32		2
-usklađivao	33		2
-uskomešao	21		2
-uskovitlao	11		2
-uskraćivao	38		2
+usitnjavao			3
+uskakao	32		3
+usklađivao	33		3
+uskomešao	21		3
+uskovitlao	11		3
+uskraćivao	38		3
 uskrsao			4
-uslikao	301		2
-uslovljavao	100		2
+uslikao	301		3
+uslovljavao	100		3
 usložnjavao			3
 usmeravao	216		3
 uspavao	182		3
 uspavljivao	34		3
-uspentrao			2
+uspentrao			3
 uspevao	1847		3
 uspinjao	39		4
 usporavao	126		3
-uspravljao	17		2
-uspuzao			2
-usrećivao			2
-usrkao			2
-ustajao	377		2
-ustalasao			2
-ustaljivao			2
+uspravljao	17		3
+uspuzao			3
+usrećivao			3
+usrkao			3
+ustajao	377		3
+ustalasao			3
+ustaljivao			3
 ustao	2631		3
-ustavljao			2
-ustezao	90		2
+ustavljao			3
+ustezao	90		3
 ustrajao	14		4
-ustreptao		M	2
-ustručavao	132		2
-ustrčao			2
+ustreptao		M	3
+ustručavao	132		3
+ustrčao			3
 ustupao	50		3
-usukao	15		2
+usukao	15		3
 usuđivao	241		3
 usvajao	155		3
-utabao	74		2
+utabao	74		3
 utapao	26		3
 utekao	194		3
-uterao	98		2
-uterivao	26		2
+uterao	98		3
+uterivao	26		3
 uticao	3925		4
-utirao	25		2
-utiskivao	16		2
-utišao	160		2
-utišavao	10		2
-utkao	131		2
+utirao	25		3
+utiskivao	16		3
+utišao	160		3
+utišavao	10		3
+utkao	131		3
 utovarivao			3
-utripovao			2
+utripovao			3
 utrkivao	14		4
-utrčao	304		2
-utrčavao	22		2
+utrčao	304		3
+utrčavao	22		3
 utvrđivao	207		4
-uvaljao	29		2
+uvaljao	29		3
 uvaljivao	26		3
 uvažavao	185		3
 uveličao	278		3
 uveličavao	13		3
 uveravao	477		3
-uveseljavao	71		2
+uveseljavao	71		3
 uvezao	404		3
 uvećao	1022		3
 uvećavao	274		3
 uvežbao	68		4
 uvežbavao	59		3
 uvijao	49		3
-uvirao			2
+uvirao			3
 uviđao	120		3
-uvraćao			2
+uvraćao			3
 uvrebao			3
-uvrtao	24		2
+uvrtao	24		3
 uvukao	836		3
-uzabrao			2
-uzao			2
-uzašao	11		2
-uzbrao			2
+uzabrao			3
+uzao			3
+uzašao	11		3
+uzbrao			3
 uzbunjivao	13		3
 uzburkao	256		4
 uzburkavao			3
 uzbuđivao	92		3
-uzdao	139		2
-uzdavao			2
-uzdigao	648		2
+uzdao	139		3
+uzdavao			3
+uzdigao	648		3
 uzdisao	88		4
-uzdizao	200		2
-uzdrhtao	31		2
-uzdrmao	474		2
+uzdizao	200		3
+uzdrhtao	31		3
+uzdrmao	474		3
 uzdržao	159		3
 uzdržavao	93		4
 uzgajao	100		3
-uzidao	22		2
+uzidao	22		3
 uzimao	2749		4
 uzišao	28		3
 uzjahao	127		4
 uzmakao	16		4
 uzmicao	23		4
-uzmogao	12		2
-uzmuvao			2
-uznapredovao	132		2
+uzmogao	12		3
+uzmuvao			3
+uznapredovao	132		3
 uznemiravao	210		3
 uzorao	38		3
-uzrastao			2
+uzrastao			3
 uzrokovao	376		5
 uzrujao	35		3
 uzrujavao			3
-uzurpirao	230		2
+uzurpirao	230		3
 uzvikivao	135		3
-uzvraćao	110		2
-uzvrdao			2
-ućao			2
-ućutao	203		2
-ućutkao	71		2
-ućutkivao			2
-učestao	51		2
-učestovao	214		2
+uzvraćao	110		3
+uzvrdao			3
+ućao			3
+ućutao	203		3
+ućutkao	71		3
+ućutkivao			3
+učestao	51		3
+učestovao	214		3
 učestvovao	15746		5
-učitao	110		2
-učiteljevao	30		2
-učmao		M	2
+učitao	110		3
+učiteljevao	30		3
+učmao		M	3
 učvršćivao	49		4
 ušao	17444		3
-ušeprtljao			2
+ušeprtljao			3
 ušetao	215		3
-ušivao			2
-ušmrkao			2
-ušuljao			2
-ušunjao	103		2
-ušutkao			2
+ušivao			3
+ušmrkao			3
+ušuljao			3
+ušunjao	103		3
+ušutkao			3
 ušuškao	38		4
-užasavao	40		2
-užegao	16		2
+užasavao	40		3
+užegao	16		3
 uživao	3537		3
-užurbao			2
+užurbao			3
 vagao	51		3
-vajao			2
-vajkao	75		2
-vakcinisao	73		2
+vajao			3
+vajkao	75		3
+vakcinisao	73		3
 valjao	486		3
 varao	415		3
-varirao	218		2
+varirao	218		3
 vaskrsao	419		4
-vaskrsavao	68		2
-vaspitao	133		2
-vaspitavao	137		2
+vaskrsavao	68		3
+vaspitao	133		3
+vaspitavao	137		3
 vatao			3
-vejao			2
-veličao	200		2
+vejao			3
+veličao	200		3
 venčao	488		3
 venčavao	38		3
 verao	29		3
@@ -3252,37 +3252,37 @@ večerao	136		4
 vešao	29		3
 vežbao	454		3
 vibrirao	24		3
-vijao	47		2
+vijao	47		3
 vikao	1143		3
 vitao			3
-vitlao	74		2
+vitlao	74		3
 viđao	1418		3
-višeugao			2
+višeugao			3
 vladao	3609		3
-vodao	27		2
+vodao	27		3
 vojevao	103		3
-volontirao	112		2
+volontirao	112		3
 vonjao			3
-vozikao	41		2
+vozikao	41		3
 vraćao	2680		3
 vračao	16		3
-vrbovao	70		2
+vrbovao	70		3
 vrebao	119		3
 vrednovao	109		4
-vrečao			2
+vrečao			3
 vređao	948		3
 vriskao			3
 vristao			3
 vrištao	197		3
-vrljao			2
-vrzao			2
+vrljao			3
+vrzao			3
 vrzmao	43		3
-vršljao	25		2
-vucarao	24		2
+vršljao	25		3
+vucarao	24		3
 vukao	1154		3
-zabacivao	14		2
+zabacivao	14		3
 zabadao	40		3
-zabarikadirao	43		2
+zabarikadirao	43		3
 zabasao			4
 zabavljao	702		4
 zabijao	103		3
@@ -3290,350 +3290,350 @@ zablistao	318		3
 zablokirao	38		3
 zaboravljao	186		4
 zabranjivao	264		3
-zabrbljao			2
-zabrijao			2
-zabrinjavao	13		2
+zabrbljao			3
+zabrijao			3
+zabrinjavao	13		3
 zabrljao	182		3
-zabrojao			2
-zabrundao			2
+zabrojao			3
+zabrundao			3
 zabušavao	19		3
-zacopao			2
+zacopao			3
 zacrtao	331		4
 zadao	869		3
 zadavao	249		3
-zadebljao	27		2
-zadebljavao			2
-zadevao			2
-zadigao	51		2
-zadihao	17		2
+zadebljao	27		3
+zadebljavao			3
+zadevao			3
+zadigao	51		3
+zadihao	17		3
 zadirkivao	51		3
-zadivljavao			2
-zadizao			2
-zadobivao			2
+zadivljavao			3
+zadizao			3
+zadobivao			3
 zadovoljavao	293		3
 zadremao	98		3
-zadrhtao	104		2
-zadrigao		M	2
+zadrhtao	104		3
+zadrigao		M	3
 zadržao	5392		3
 zadržavao	458		4
-zaduvao			2
-zafrkavao	10		2
+zaduvao			3
+zafrkavao	10		3
 zagađivao	23		3
-zagledao	610		2
-zagnao			2
-zagolicao	73		2
+zagledao	610		3
+zagnao			3
+zagolicao	73		3
 zagorčao	53		3
 zagorčavao	27		3
-zagovarao	505		2
-zagrcavao			2
-zagrebao	71		2
+zagovarao	505		3
+zagrcavao			3
+zagrebao	71		3
 zagrejao	296		4
-zagrevao	98		2
+zagrevao	98		3
 zagrijao	24	J	4
 zagrizao	210		4
-zahrđao			2
+zahrđao			3
 zahtevao	2773		3
-zahuktao	71		2
+zahuktao	71		3
 zahvaljivao	136		3
 zahvatao	94		4
-zaigrao	1176		2
-zaimao			2
-zainteresovao	1061		2
-zaiskao	17		2
-zaišao			2
+zaigrao	1176		3
+zaimao			3
+zainteresovao	1061		3
+zaiskao	17		3
+zaišao			3
 zajahao	45		4
-zajecao	28		2
-zajedao			2
+zajecao	28		3
+zajedao			3
 zakazao	1572		3
 zakazivao	61		3
-zakašljao	36		2
+zakašljao	36		3
 zaklanjao	71		4
-zaklao	241		2
-zaklimao			2
+zaklao	241		3
+zaklimao			3
 zaklinjao	128		4
-zaključao	379		2
-zaključavao	62		2
+zaključao	379		3
+zaključavao	62		3
 zaključivao	119		3
-zakomplikovao	137		2
+zakomplikovao	137		3
 zakopao	257		3
 zakopavao	19		3
-zakopčao	44		2
-zakoračao			2
-zakovao	39		2
-zakovitlao			2
-zakretao			2
-zakrivao			2
-zakržljao	49		2
-zakucao	725		2
-zakucavao	39		2
-zakukao			2
-zakukurekao			2
-zakuvao	117		2
+zakopčao	44		3
+zakoračao			3
+zakovao	39		3
+zakovitlao			3
+zakretao			3
+zakrivao			3
+zakržljao	49		3
+zakucao	725		3
+zakucavao	39		3
+zakukao			3
+zakukurekao			3
+zakuvao	117		3
 zalagao	2053		3
-zalajao	33		2
-zalepršao	15		2
-zaletao	42		2
-zalivao			2
+zalajao	33		3
+zalepršao	15		3
+zaletao	42		3
+zalivao			3
 zaljubljivao	31		3
-zaljuljao	67		2
-zalupao	11		2
-zalutao	659		2
+zaljuljao	67		3
+zalupao	11		3
+zalutao	659		3
 zamahivao	18		3
-zamajavao	66		2
+zamajavao	66		3
 zamakao	46		3
-zamarao	117		2
-zamaskirao	25		2
-zamazao	27		2
+zamarao	117		3
+zamaskirao	25		3
+zamazao	27		3
 zamenjivao	120		3
 zamerao	195		3
-zametao	13		2
-zamešao	12		2
+zametao	13		3
+zamešao	12		3
 zamicao	16		4
-zamilovao			2
-zamirao	25		2
-zamirisao	48		2
+zamilovao			3
+zamirao	25		3
+zamirisao	48		3
 zamisao	3041		4
 zamišljao	873		3
-zamotao	35		2
-zamrljao			2
+zamotao	35		3
+zamrljao			3
 zamrzao			4
 zamrzavao	17		4
-zamuckivao	25		2
-zamukao			2
+zamuckivao	25		3
+zamukao			3
 zanemarivao	90		3
 zanimao	677		3
-zanjihao	31		2
+zanjihao	31		3
 zao	89		2
-zaobišao	556		2
-zaokupljao	30		2
+zaobišao	556		3
+zaokupljao	30		3
 zaorao	38		3
 zaostajao	236		4
-zaostao	590		2
-zaoštravao	10		2
+zaostao	590		3
+zaoštravao	10		3
 zapadao	48		4
-zapakovao	39		2
-zapanjivao			2
+zapakovao	39		3
+zapanjivao			3
 zapao	947		3
-zaparao	31		2
+zaparao	31		3
 zapažao	64		3
-zapetljao	61		2
-zapevao	311		2
-zapinjao	30		2
+zapetljao	61		3
+zapevao	311		3
+zapinjao	30		3
 zapisao	2107		3
 zapisivao	266		3
 zapitao	2564		3
-zapitkivao	54		2
-zapištao	14		2
-zaplakao	430		2
+zapitkivao	54		3
+zapištao	14		3
+zaplakao	430		3
 zaplesao	37		4
-zaplitao	10		2
+zaplitao	10		3
 zaplivao	73		4
-zapljuskivao	12		2
-zapodevao			2
-zapojao			2
-zapomagao	54		2
-zapostavljao	49		2
+zapljuskivao	12		3
+zapodevao			3
+zapojao			3
+zapomagao	54		3
+zapostavljao	49		3
 zapovedao	134		3
 zapovijedao	62	J	4
-započinjao	241		2
+započinjao	241		3
 zapošljavao	338		3
-zaprepašćavao			2
-zapretao			2
-zapričao	10		2
+zaprepašćavao			3
+zapretao			3
+zapričao	10		3
 zaprljao	26		3
-zapucao	162		2
+zapucao	162		3
 zapuštao			3
-zarastao	207		2
+zarastao	207		3
 zarađivao	774		3
 zarekao	163		4
-zarezao	13		2
-zarezivao	28		2
-zarežao			2
-zaribao	59		2
-zaricao			2
-zarikao			2
-zarivao	14		2
-zarđao	62		2
-zasedao	381		2
-zasejao	80		2
-zasekao	37		2
-zasijao	172		2
-zasipao	66		2
-zasjao	23		2
+zarezao	13		3
+zarezivao	28		3
+zarežao			3
+zaribao	59		3
+zaricao			3
+zarikao			3
+zarivao	14		3
+zarđao	62		3
+zasedao	381		3
+zasejao	80		3
+zasekao	37		3
+zasijao	172		3
+zasipao	66		3
+zasjao	23		3
 zasluživao	111		3
-zasmejao			2
-zasmejavao	58		2
+zasmejao			3
+zasmejavao	58		3
 zasmetao	240		3
-zasnivao	493		2
-zasnovao	669		2
+zasnivao	493		3
+zasnovao	669		3
 zaspao	1123		3
 zastajao	98		4
-zastajkivao	34		2
+zastajkivao	34		3
 zastao	1264		3
-zastenjao	54		2
-zastirao			2
+zastenjao	54		3
+zastirao			3
 zastrašivao	39		3
 zastupao	1551		3
-zasukao	102		2
-zasvirao	128		2
+zasukao	102		3
+zasvirao	128		3
 zatajivao			3
 zatalasao	39		3
 zataškao	67		4
 zataškavao	32		3
-zategao			2
+zategao			3
 zatekao	2746		4
-zateturao	37		2
+zateturao	37		3
 zatezao	54		3
-zaticao	44		2
-zatrebao	49		2
-zatreptao			2
+zaticao	44		3
+zatrebao	49		3
+zatreptao			3
 zatresao	721		4
-zatreskao			2
+zatreskao			3
 zatrovao	71		3
-zatrpao	165		2
-zatrpavao	36		2
-zatrčao	35		2
-zatukao	10		2
-zaturao			2
+zatrpao	165		3
+zatrpavao	36		3
+zatrčao	35		3
+zatukao	10		3
+zaturao			3
 zatvarao	335		3
 zaudarao	30		4
-zaurlao	83		2
+zaurlao	83		3
 zaustavljao	254		4
 zauzimao	769		4
 zavarao	96		4
 zavaravao	49		3
-zavađao			2
-zavejao	67		2
-zavetovao	125		2
+zavađao			3
+zavejao	67		3
+zavetovao	125		3
 zavezao	98		3
 zavezivao			3
-zaveštao	327		2
-zaveštavao			2
+zaveštao	327		3
+zaveštavao			3
 zavijao	80		3
-zavikao	26		2
+zavikao	26		3
 zavirivao	65		3
-zavitlao	20		2
-zavitlavao			2
+zavitlao	20		3
+zavitlavao			3
 zavladao	658		3
-zavrištao	13		2
+zavrištao	13		3
 završavao	871		4
 zavukao	417		3
-zazidao	26		2
-zazidavao			2
-zazirao	104		2
-zazivao	14		2
+zazidao	26		3
+zazidavao			3
+zazirao	104		3
+zazivao	14		3
 zazvao			3
-zazviždao	11		2
-zazvučao	41		2
+zazviždao	11		3
+zazvučao	41		3
 zaćutao	201		3
-začamao			2
+začamao			3
 začarao	58		3
 začinjao			4
 zašao	412		3
-zašaputao			2
+zašaputao			3
 zaštićivao			3
-zažegao			2
-zaživao			2
-zažmirkao			2
+zažegao			3
+zaživao			3
+zažmirkao			3
 zbijao	44		3
 zbivao	17		3
 zbrisao	261		3
-zbrkao			2
+zbrkao			3
 zbunjivao	85		3
-zderao			2
+zderao			3
 združivao			3
 zebao			3
 zevao	28		3
-zezao	360		2
-zgledao			2
-zgrejao			2
+zezao	360		3
+zgledao			3
+zgrejao			3
 zgužvao	51		3
 zidao	262		3
 zimovao	26		3
-zivkao	11		2
+zivkao	11		3
 zlomisao			4
 zlostavljao	486		4
 zloupotrebljavao	166		3
 znao	33865		2
-zujao	52		2
-zumirao	24		2
+zujao	52		3
+zumirao	24		3
 zvao	7776		2
-zveckao	21		2
-zverao			2
+zveckao	21		3
+zverao			3
 zviždao	82		3
-zviždukao	17		2
+zviždukao	17		3
 zvocao	10		3
 zvučao	488		3
 ćao	1164		2
-ćarlijao			2
+ćarlijao			3
 ćaskao	90		3
-ćerao			2
+ćerao			3
 ćutao	1360		3
 čavao	19		3
-čavrljao			2
+čavrljao			3
 čačkao	261		3
 čašćavao	35		3
 čekao	6329		3
-čekirao	55		2
+čekirao	55		3
 čeprkao	54		3
 čestitao	3558		3
-četkao			2
-četovao	15		2
-četvorougao		M	2
-čečao			2
+četkao			3
+četovao	15		3
+četvorougao		M	3
+čečao			3
 češao	32		3
-češkao	41		2
+češkao	41		3
 češljao	31		3
-čikao			2
+čikao			3
 čitao	8154		3
 čupao	179		3
 čutao			3
 čuvao	2282		3
-čuvstvovao			2
+čuvstvovao			3
 čučao	97		3
-đakovao			2
+đakovao			3
 đavao	21		3
 šamarao	67		3
 šaptao	53		3
 šaputao	158		3
 šarao	68		3
 šarmirao	40		3
-šegrtovao	14		2
+šegrtovao	14		3
 šepao	23		3
-šestougao			2
+šestougao			3
 šetao	1056		3
-šetkao	69		2
+šetkao	69		3
 šibao	103		3
-šifrovao			2
+šifrovao			3
 šikanirao	26		3
 šivao			3
 šišao	86		3
 šištao	20		3
 školovao	1141		4
 škrgutao	17		4
-škripao	53		2
+škripao	53		3
 šljakao	25		3
-šlogirao			2
-šminkao	20		2
-šmrcao			2
+šlogirao			3
+šminkao	20		3
+šmrcao			3
 šmrkao	12		3
 šokirao	663		3
 špijunirao	82		3
 štampao	990		3
-štetovao			2
+štetovao			3
 štimao			3
 štipao	46		3
 štovao			3
 štrajkovao	216		4
-štrecao			2
-štrčao	65		2
+štrecao			3
+štrčao	65		3
 šuljao			3
 šunjao	50		3
-šurovao	58		2
-šutirao	3053		2
+šurovao	58		3
+šutirao	3053		3
 šuškao	14		3
 švercao			3
-švercovao	147		2
+švercovao	147		3
 švrljao	29		3
 ščepao	82		3
 žalovao			4
@@ -3642,68 +3642,68 @@ zvučao	488		3
 ždrao			2
 žegao		M	3
 žeđao			3
-žicao			2
+žicao			3
 žigosao	54		4
 živcirao			3
-živopisao	96		2
-žmirkao	44		2
+živopisao	96		3
+žmirkao	44		3
 žonglirao	18		3
 žrtvovao	633		4
 žvakao	82		3
 žvatao			3
-žvrljao			2
+žvrljao			3
 bježao			3
 cijepao			4
 cjelivao			3
 djelovao			4
-dolijetao			2
-dotjerao			2
+dolijetao			3
+dotjerao			3
 drijemao	11		4
 iscjeljivao			3
 isjekao			4
 istjerao			4
-izbjegao			2
+izbjegao			3
 izbjegavao			3
 izvještavao			3
-izvrijeđao	11		2
-ljetovao			2
+izvrijeđao	11		3
+ljetovao			3
 mijenjao	254		4
 miješao	39		4
-mjenjao			2
+mjenjao			3
 namjeravao			3
-namještao			2
+namještao			3
 natjerao			4
 objedovao			5
 ocjenjivao			3
 odijevao	10		4
 odsjekao			4
 oklijevao	35		4
-osjecao			2
+osjecao			3
 osjećao			4
 otjerao			4
-otpjevao			2
+otpjevao			3
 pijetao	52		3
 pjevao			3
 pobjegao			4
 pobjeđivao			3
-pocijepao	14		2
-podlijegao			2
+pocijepao	14		3
+podlijegao			3
 podsjećao			4
 pomiješao	20		4
-pomjerao			2
+pomjerao			3
 posjedovao			5
 posjekao			4
 posjećivao			3
-potjerao			2
+potjerao			3
 povjerovao			5
-prebjegao			2
+prebjegao			3
 presjekao			4
 pretjerao			4
 pretjerivao			3
-pribjegao			2
+pribjegao			3
 primjećivao			3
-procvjetao			2
-propjevao			2
+procvjetao			3
+propjevao			3
 propovijedao	99		4
 protjerao			4
 provjeravao			3
@@ -3712,13 +3712,13 @@ rješavao			4
 savjetovao			5
 sjekao			3
 sjećao			3
-smješkao			2
-snijevao			2
+smješkao			3
+snijevao			3
 svijetao	14		3
 tjerao			3
-ubjeđivao			2
+ubjeđivao			3
 ucjenjivao			3
-umiješao	39		2
+umiješao	39		3
 uspijevao	84		4
 uvjeravao			3
 uvježbao			4
@@ -3729,10 +3729,10 @@ vježbao			3
 vrijeđao	53		4
 zadrijemao	15		4
 zahtijevao	123		4
-zahtjevao			2
+zahtjevao			3
 zamjenjivao			3
 zamjerao			3
-zapjevao			2
-zasjedao			2
-zasjekao			2
-zavjetovao	17		2
+zapjevao			3
+zasjedao			3
+zasjekao			3
+zavjetovao	17		3

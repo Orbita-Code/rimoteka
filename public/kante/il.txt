@@ -6,13 +6,13 @@ april	25072		2
 automobil	25322		2
 azil	4449		2
 bacil	105		2
-bademantil			2
+bademantil			3
 baril			2
 beril	16		2
 bibliofil	23		2
 bil			1
 bogumil			3
-brazavil			2
+brazavil			3
 cicmil			2
 civil	424		2
 daktil	18		2
@@ -20,25 +20,25 @@ danil			2
 debil	346		2
 decil			2
 dil		M	1
-dimetil	18		2
+dimetil	18		3
 domicil	32		2
 dril	103		1
-džemail			2
+džemail			3
 džemil			2
 egzil	124		2
-emanuil			2
+emanuil			3
 emil			2
 eshil			2
 etil	94		2
 fadil			2
-faksimil	186		2
-fentanil	11		2
+faksimil	186		3
+fentanil	11		3
 fil		M	1
 filmofil	78		2
 fosil	289		2
 gavril			2
 gerbil			2
-germanofil		M	2
+germanofil		M	3
 gil			1
 gril	359		1
 halil			2
@@ -47,7 +47,7 @@ hlorofil	136		2
 idil			2
 il			1
 imbecil	72		2
-ismail			2
+ismail			3
 kadril	68		2
 kamil			2
 karanfil	154		2
@@ -57,16 +57,16 @@ kiril			2
 kodicil			2
 koncil	63		2
 krokodil	295		2
-lakokril			2
+lakokril			3
 lil			1
-lokomobil			2
+lokomobil			3
 mail	5798		2
 mandril			2
 mantil		M	2
 meil			2
 meril			2
 metil	145		2
-mihail			2
+mihail			3
 mihovil			2
 mil			1
 mobil	107		2
@@ -77,15 +77,15 @@ nihil			2
 nil			1
 oil			2
 pedofil	299		2
-peristil			2
-polivinil	53		2
+peristil			3
+polivinil	53		3
 profil	9097		2
 projektil	609		2
 promil	397		2
-pterodaktil			2
+pterodaktil			3
 reptil	51		2
 ringišpil	417		3
-romobil			2
+romobil			3
 rusofil			2
 seksepil		M	3
 seksipil	154		3
@@ -94,7 +94,7 @@ sibil			2
 skril			1
 smail			2
 stil	15865		1
-superautomobil	154		2
+superautomobil	154		3
 tamil			2
 tekstil	775		2
 teofil		M	2
@@ -105,11 +105,11 @@ trendafil			2
 trotil			2
 turkofil		M	2
 ventil	1491		2
-vestibil	15		2
+vestibil	15		3
 vinil	274		2
-zlatokril			2
+zlatokril			3
 ćamil			2
-černobil			2
+černobil			3
 čerčil			2
 čil	23		1
 špil	147		1

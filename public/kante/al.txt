@@ -1,9 +1,9 @@
 175
-acetisal			2
+acetisal			3
 admiral	817		2
 alal		M	2
 arsenal	1288		2
-artikal			2
+artikal			3
 astal			2
 aval			2
 bajkal			2
@@ -12,7 +12,7 @@ bal	1268		1
 bengal			2
 bezmal			2
 bimetal			2
-biosignal			2
+biosignal			3
 bokal	255		2
 celoval			2
 central			2
@@ -21,15 +21,15 @@ cimbal			2
 cipal			2
 dal			1
 dental		M	2
-diferencijal	216		2
+diferencijal	216		3
 digital			2
 dual	1390		2
 džemal			2
 egal			2
-epidural	133		2
+epidural	133		3
 fajnal			2
-feldmaršal	160		2
-fenobarbital			2
+feldmaršal	160		3
+fenobarbital			3
 feral	71		2
 festival	23678		2
 fiškal			2
@@ -42,7 +42,7 @@ gral	269		1
 gutural	18		2
 hal		M	1
 halal	666		2
-hanibal			2
+hanibal			3
 ideal	2897		2
 imperijal		M	2
 inicijal	91		2
@@ -63,18 +63,18 @@ kaval			2
 kazal			2
 kemal			2
 kendal			2
-klerikal		M	2
+klerikal		M	3
 kolonijal		M	2
 kondicional	33		2
-kontinental			2
+kontinental			3
 koral	120		2
 kriminal	8888		2
 kristal	1080		2
-kristobal			2
+kristobal			3
 kvartal	2325		2
 kvintal			2
 labijal			2
-labiodental			2
+labiodental			3
 liberal	496		2
 lokal	3664		2
 madrigal			2
@@ -82,10 +82,10 @@ maestral	115		2
 mal			1
 mandal		M	2
 mangal		M	2
-manual			2
+manual			3
 maršal	630		2
-maskembal	123		2
-maskenbal		M	2
+maskembal	123		3
+maskenbal		M	3
 materijal	26795		2
 memorijal	531		2
 metal	3637		2
@@ -93,12 +93,12 @@ mihal			2
 mineral	608		2
 misal	30		2
 mistral			2
-mondijal			2
-montreal			2
+mondijal			3
+montreal			3
 moral	5312		2
-mundijal			2
+mundijal			3
 mural	272		2
-nacional	264		2
+nacional	264		3
 nadal			2
 narval			2
 natal			2
@@ -115,20 +115,20 @@ orval			2
 oval	80		2
 pal			1
 palatal			2
-parangal			2
+parangal			3
 paskal			2
 paskval			2
 paušal	180		2
 penal	2944		2
 personal			2
 pečal			2
-pijedestal	335		2
+pijedestal	335		3
 plural	34		2
 pokal	21		2
 portal	10518		2
 portugal			3
 potencijal	17737		2
-principal		M	2
+principal		M	3
 radikal	824		2
 rafal	284		2
 ral	170		1
@@ -141,31 +141,31 @@ rival		M	2
 rojal			2
 sandal			2
 senegal			3
-serijal	3027		2
+serijal	3027		3
 signal	10273		2
 skandal	3907		2
-specijal			2
+specijal			3
 stendal			2
 tantal			2
 telal		M	2
 terminal	1352		2
-tiopental			2
+tiopental			3
 topal			2
 total	754		2
 transval			2
 trental			2
 tribunal	4146		2
 tutorijal	535		2
-univerzal			2
+univerzal			3
 ural			2
 val			1
 vandal	56		2
 vazal		M	2
 veronal			2
 verzal			2
-viceadmiral	28		2
+viceadmiral	28		3
 vidal			2
-virtual			2
+virtual			3
 vokal	1184		2
 đeneral	386		2
 šagal			2

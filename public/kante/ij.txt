@@ -1,5 +1,5 @@
 98
-aleksij			2
+aleksij			3
 andrij			2
 antonij			2
 auditorij	40		2
@@ -10,7 +10,7 @@ dobij	38		2
 emporij			2
 genadij			2
 genij	106		2
-georgij			2
+georgij			3
 grigorij			2
 herbarij			2
 hospicij			2
@@ -23,7 +23,7 @@ jevgenij			2
 jurij			2
 kalcij	47		2
 kalij	29		2
-kolegij	70		2
+kolegij	70		3
 kolokvij	20		2
 konzervatorij	10		2
 konzorcij	63		2
@@ -35,7 +35,7 @@ lij	16		1
 litij			2
 magisterij	38		2
 magnezij	38		2
-mahagonij			2
+mahagonij			3
 medij	4523		2
 mij	48		1
 milenij	48		2
@@ -53,7 +53,7 @@ obrij	20		2
 odbij	63		2
 ogrij		J	2
 otkrij	156		2
-patrimonij			2
+patrimonij			3
 pij	290		1
 plutonij			2
 pobij	24		2

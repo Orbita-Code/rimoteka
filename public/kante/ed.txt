@@ -1,9 +1,9 @@
 113
 alfred			2
-arhimed			2
+arhimed			3
 biljojed	60		3
 bled	436		1
-bratučed		M	2
+bratučed		M	3
 bred			1
 bubojed			3
 ded		M	1
@@ -23,12 +23,12 @@ ispred	72015		2
 izgled	26013		2
 izgred	39		2
 jed		M	1
-jedared		M	2
-jednosed	97		2
-junajted			2
+jedared		M	3
+jednosed	97		3
+junajted			3
 lebed			2
 led	10162		1
-logoped			2
+logoped			3
 manfred			2
 med	8146		1
 medved	1274		2
@@ -36,15 +36,15 @@ mehmed			2
 mesojed	51		3
 mildred			2
 milogled			3
-mimogred			2
-mohamed			2
+mimogred			3
+mohamed			3
 moped	141		2
 mravojed	32		3
 muhamed			2
 nadogled			3
 naizgled	7192		3
-najedared		M	2
-naočigled		M	2
+najedared		M	3
+naočigled		M	3
 napred	23982		2
 nasred	1306		2
 nedogled	1979		3
@@ -53,14 +53,14 @@ nuzgred			2
 obed	180		2
 objed			2
 obred	1204		2
-odjedared			2
+odjedared			3
 odred	1837		2
 ogled	756		2
-ortoped	436		2
+ortoped	436		3
 očigled			3
-paralelopiped			2
+paralelopiped			3
 plodored	120		3
-podrazred			2
+podrazred			3
 podred	29		2
 pogled	37236		2
 pored	239785		2
@@ -75,7 +75,7 @@ prired			2
 propoved	723		3
 prored	77		2
 prosed	28		2
-prvobratučed			2
+prvobratučed			3
 rased	39		2
 raspored	9582		3
 razred	8062		2
@@ -95,21 +95,21 @@ trosed	295		2
 ugled	9006		2
 ujed	469		2
 unapred	33072		3
-unedogled		M	2
-united			2
+unedogled		M	3
+united			3
 upored			3
 ured	898		2
 usled	31153		2
 usljed		J	2
 usred	8605		2
 uzgred	7017		2
-veleposed			2
+veleposed			3
 velosiped		M	2
 veroispoved			3
 zapoved	50		3
 zapovijed	142	J	4
-zemljoposed			2
-četvorosed			2
+zemljoposed			3
+četvorosed			3
 đed		J	1
 šved			1
 blijed	50		1

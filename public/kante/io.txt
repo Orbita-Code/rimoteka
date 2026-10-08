@@ -1,12 +1,12 @@
 2279
 Tokio			3
 adio	31		2
-antonio			2
-audio	9124		2
-avio			2
+antonio			3
+audio	9124		3
+avio			3
 bacio	5082		3
-balavio			2
-batalio	290		2
+balavio			3
+batalio	290		3
 bavio	9962		3
 bazdio	14		3
 baštinio	37		4
@@ -14,29 +14,29 @@ bdio	67	J	2
 beležio	1082		4
 belio			3
 besedio	406		4
-besposličio			2
-bečio			2
+besposličio			3
+bečio			3
 bio	663873		2
 bistrio	10		3
 bjesnio		J	3
-blagodario	34		2
+blagodario	34		3
 blagoslovio	1201		3
 blatio	56		3
 bližio	360		3
-bludio			2
+bludio			3
 bludničio	21		4
 bogatio	127		4
-bogoradio			2
+bogoradio			3
 bojio	41		3
 bolio	26		3
 boravio	5190		4
 borio	4495		3
 branio	4796		3
-bratimio	16		2
-bratio			2
-brodio			2
+bratimio	16		3
+bratio			3
+brodio			3
 brojio	40		3
-brstio			2
+brstio			3
 brusio	37		3
 budio	594		3
 bulaznio	13		3
@@ -44,21 +44,21 @@ buljio	140		3
 bunio	844		3
 bušio	85		3
 caklio	13		3
-carinio			2
+carinio			3
 cedio	65		3
 cenio	1131		3
-cepidlačio			2
+cepidlačio			3
 cerio	29		3
-cinkario			2
-cmizdrio			2
+cinkario			3
+cmizdrio			3
 crnio			3
 crnčio	14		3
 crpio	48		3
-crvenio	14		2
+crvenio	14		3
 curio	100		3
-cvilio	30		2
+cvilio	30		3
 dangubio	34		4
-dario			2
+dario			3
 davio	219		3
 delio	2280		3
 desio	5131		3
@@ -67,34 +67,34 @@ dio	16619	J	2
 divio	648		3
 dičio	76		3
 dobacio	509		3
-dobavio	35		2
+dobavio	35		3
 dobio	87459		3
 dodelio	3362		3
-dodvorio	78		2
+dodvorio	78		3
 dogodio	6540		3
-dogonio			2
+dogonio			3
 dogovorio	2132		3
-dograbio	69		2
-dogradio	74		2
-dohitio			2
+dograbio	69		3
+dogradio	74		3
+dohitio			3
 dohvatio	517		4
-dojadio	62		2
+dojadio	62		3
 dojavio	161		3
-dojurio	67		2
-dokačio	28		2
+dojurio	67		3
+dokačio	28		3
 dokrajčio	90		3
-dokupio	59		2
+dokupio	59		3
 dokučio	61		3
 dolazio	5671		4
-doletio	26		2
-dolio	63		2
-domamio	13		2
-domašio			2
+doletio	26		3
+dolio	63		3
+domamio	13		3
+domašio			3
 domislio	28		4
 donio	1769	J	2
 donosio	2131		3
 doplovio	111		3
-dopratio	79		2
+dopratio	79		3
 dopremio	79		3
 doprinio	210		2
 doprinosio	210		3
@@ -103,36 +103,36 @@ dopustio	1203		3
 doradio	106		3
 dosadio	366		3
 doselio	737		3
-dosetio	702		2
-doskočio	97		2
+dosetio	702		3
+doskočio	97		3
 dospio	138	J	3
 dostavio	2702		4
-dosudio	485		2
-doturio			2
-dovlačio	58		2
+dosudio	485		3
+doturio			3
+dovlačio	58		3
 dovodio	1060		3
 dovozio	82		3
 dovršio	495		3
-dozlogrdio	18		2
+dozlogrdio	18		3
 dozvolio	5368		3
 doživio	712	J	3
 dražio	38		3
-drešio		M	2
-drhturio			2
+drešio		M	3
+drhturio			3
 drobio	28		3
-drpio	46		2
+drpio	46		3
 družio	1005		3
-durio	20		2
-duvanio			2
-dužio	94		2
+durio	20		3
+duvanio			3
+dužio	94		3
 dvorio	17		3
-dvoumio	478		2
+dvoumio	478		3
 džepario			3
-emilio			2
-fabio			2
+emilio			3
+fabio			3
 falio	388		3
 gadio	73		3
-gajio	588		2
+gajio	588		3
 galamio	67		3
 gasio	354		3
 gazio	257		3
@@ -140,219 +140,219 @@ gladio	91		3
 glasio	1408		3
 globio			3
 glumio	1426		3
-gluvario			2
-gluvio			2
-gnevio			2
-gnezdio			2
+gluvario			3
+gluvio			3
+gnevio			3
+gnezdio			3
 gnjavio	75		3
 gnječio	40		3
 gnjio		M	2
 godio	41		3
 gonio	239		3
-gordio			2
+gordio			3
 gorio	56		3
 gospodario	117		3
 gostio	60		3
-gotivio			2
-gotovio			2
+gotivio			3
+gotovio			3
 govorio	32950		3
 grabio	148		3
 gradio	2329		3
 graničio	35		4
-grbio			2
+grbio			3
 grdio	142		3
 grešio	614		3
 grlio	194		3
 grmio	12		3
 grozio	48		3
-grčio	29		2
+grčio	29		3
 gubio	1791		3
-gudio			2
+gudio			3
 gulio	59		3
-gurio			2
+gurio			3
 gušio	248		3
-hapsio			2
+hapsio			3
 hladio	153		3
 hodio	276		3
 hodočastio	14		3
 hrabrio	161		3
 hranio	781		3
-hrlio	46		2
+hrlio	46		3
 htio	2633	J	2
 hulio	120		3
 hvalio	1499		3
-impresario	36		2
+impresario	36		3
 inatio	29		3
 io			2
 iscedio	65		3
 iscelio	195		3
 iscrpio	48		3
-iscurio	62		2
+iscurio	62		3
 iselio	327		3
-ishlapio			2
-ishodio	25		2
-isitnio			2
+ishlapio			3
+ishodio	25		3
+isitnio			3
 iskalio	47		3
-iskapio	34		2
-iskasapio	59		2
-iskesio			2
-iskezio	34		2
+iskapio	34		3
+iskasapio	59		3
+iskesio			3
+iskezio	34		3
 iskitio			4
 isključio	1776		3
-iskoračio	106		2
+iskoračio	106		3
 iskorenio	68		3
 iskoristio	9480		4
-iskosio			2
+iskosio			3
 iskočio	535		3
-iskrivio	126		2
+iskrivio	126		3
 iskrvario	58		4
-iskrvavio			2
+iskrvavio			3
 iskrčio	30		3
 iskupio	320		3
 iskusio	728		3
 iskvario	57		3
-ispalio	1048		2
-ispario	135		2
+ispalio	1048		3
+ispario	135		3
 ispilio	37		3
 ispio	133		3
-ispizmio			2
+ispizmio			3
 isplatio	1917		3
-isplazio	22		2
+isplazio	22		3
 isplovio	218		3
-ispoljio	572		2
+ispoljio	572		3
 isporučio	804		3
 ispostavio	252		4
-ispostio			2
-ispovedio	201		2
+ispostio			3
+ispovedio	201		3
 ispratio	956		4
 ispravio	840		4
 ispraznio	272		3
-isprašio	45		2
-isprečio	175		2
-isprosio	51		2
-isprsio	54		2
-ispružio	186		2
-ispržio	14		2
+isprašio	45		3
+isprečio	175		3
+isprosio	51		3
+isprsio	54		3
+ispružio	186		3
+ispržio	14		3
 ispunio	4476		4
 ispustio	842		3
 ispušio	23		4
-istanjio	24		2
+istanjio	24		3
 istopio	209		3
 istovario	56		4
 istražio	383		3
 istrebio	69		3
 istrošio	193		3
-istrulio	41		2
+istrulio	41		3
 istupio	480		3
-isturio	62		2
+isturio	62		3
 isušio	37		3
 izbacio	3857		3
-izbalavio			2
+izbalavio			3
 izbavio	328		4
-izbezumio	19		2
+izbezumio	19		3
 izbečio	26		3
 izbio	3694		3
-izblijedio	11	J	2
+izblijedio	11	J	3
 izborio	2228		3
-izbrojio	17		2
-izbrusio	40		2
-izbuljio			2
+izbrojio	17		3
+izbrusio	40		3
+izbuljio			3
 izbušio	101		3
-izdubio	12		2
-izdužio	13		2
+izdubio	12		3
+izdužio	13		3
 izdvojio	3626		3
-izgazio	35		2
-izgladio	41		2
-izgladnio			2
+izgazio	35		3
+izgladio	41		3
+izgladnio			3
 izgonio	48		3
-izgorio	84		2
+izgorio	84		3
 izgovorio	2683		3
 izgradio	3137		3
-izgrdio	59		2
-izgrlio	19		2
+izgrdio	59		3
+izgrlio	19		3
 izgubio	19697		3
-izjalovio	46		2
+izjalovio	46		3
 izjasnio	1481		3
 izjavio	65552		3
 izjednačio	2223		3
 izjurio	59		3
 izlazio	2645		4
-izletio	54		2
+izletio	54		3
 izlečio	465		3
-izlio	292		2
+izlio	292		3
 izljubio	85		3
 izlomio	80		3
 izložio	1920		3
-izludio	11		2
+izludio	11		3
 izmamio	250		3
-izmenio	1214		2
+izmenio	1214		3
 izmerio	428		4
 izmigoljio	30		3
-izmirio	584		2
+izmirio	584		3
 izmislio	2646		4
 izmlatio	23		3
-izmolio	100		2
-izmorio	39		2
-izmoždio			2
-izmrvio			2
-izmučio	21		2
+izmolio	100		3
+izmorio	39		3
+izmoždio			3
+izmrvio			3
+izmučio	21		3
 iznajmio	375		3
-iznakazio			2
-iznalazio	32		2
-iznedrio	519		2
+iznakazio			3
+iznalazio	32		3
+iznedrio	519		3
 iznenadio	3592		3
-izneverio	500		2
+izneverio	500		3
 iznio	630	J	2
 iznosio	9067		3
 iznudio	264		4
-iznurio			2
-izobičajio			2
+iznurio			3
+izobičajio			3
 izobličio	60		3
-izobrazio	15		2
+izobrazio	15		3
 izopačio	29		3
 izostavio	535		4
 izoštrio	46		3
 izradio	2011		3
 izranio			4
-izranjavio			2
+izranjavio			3
 izrazio	14830		3
-izredio			2
+izredio			3
 izrezbario	25		3
 izrodio	300		3
-izronio	189		2
+izronio	189		3
 izručio	141		3
-izružio			2
-izubio		M	2
+izružio			3
+izubio		M	3
 izumio	67		3
-izustio	164		2
+izustio	164		3
 izučio	312		3
-izvabio			2
+izvabio			3
 izvadio	2403		4
-izvalio	204		2
+izvalio	204		3
 izvestio	1055		3
-izvetrio	17		2
-izveštio	57		2
+izvetrio	17		3
+izveštio	57		3
 izvinio	1474		3
-izvio	55		2
-izvirio	28		2
-izvisio	68		2
+izvio	55		3
+izvirio	28		3
+izvisio	68		3
 izvlačio	453		3
 izvodio	1159		3
-izvolio	14		2
+izvolio	14		3
 izvozio	216		3
 izvršio	6958		3
-ištetio			2
+ištetio			3
 iščašio	35		4
-iščilio			2
-ižednio			2
-iženio			2
-jagmio			2
+iščilio			3
+ižednio			3
+iženio			3
+jagmio			3
 jamčio	16		3
 javio	8531		3
 jašio	13		3
-jedio	40		2
+jedio	40		3
 jedrio	20		3
-jemčio	18		2
+jemčio	18		3
 jezdio	59		3
 ježio	40		3
 junačio	17		3
@@ -361,31 +361,31 @@ kadio	21		3
 kalemio	27		4
 kalio	113		3
 kanio	62		3
-kardio			2
-karpacio			2
-kasapio	18		2
+kardio			3
+karpacio			3
+kasapio	18		3
 kasnio	974		3
 kaznio	1086		3
-kačio	346		2
+kačio	346		3
 kesio			3
-kezio			2
-kinjio	51		2
+kezio			3
+kinjio	51		3
 kitio	74		3
 kladio	382		3
-klatario			2
-klatio	67		2
-klaudio			2
-klepio			2
+klatario			3
+klatio	67		3
+klaudio			3
+klepio			3
 klizio	166		3
 klonio	132		3
-konačio	17		2
-kopnio			2
-koračio			2
+konačio	17		3
+kopnio			3
+koračio			3
 korio	45		3
 koristio	13652		4
 kosio	109		3
 kočio	192		3
-kočoperio	20		2
+kočoperio	20		3
 krasio	301		3
 kreveljio	10		3
 krečio	71		3
@@ -393,40 +393,40 @@ krijumčario	29		3
 krio	2245		2
 krivio	183		3
 krivotvorio	22		3
-krmanio			2
-krnjio			2
+krmanio			3
+krnjio			3
 krojio	82		3
 krotio	28		3
 kročio	551		3
 krpio	64		3
 krstario	118		4
 krstio	884		3
-krunio	14		2
+krunio	14		3
 kružio	336		3
 krvario	108		4
-krvavio			2
+krvavio			3
 krčio	96		3
 kršio	408		3
-kuburio	71		2
+kuburio	71		3
 kudio	49		3
-kukumavčio			2
+kukumavčio			3
 kumio	32		3
 kupio	21519		3
-kućario			2
-kućio			2
+kućario			3
+kućio			3
 kvario	209		3
 kvasio	28		3
-lacio			2
+lacio			3
 latio	381		3
 lazio	64		3
 lebdio	29		3
 ledio	44		3
 lepio	240		3
-letio	107		2
+letio	107		3
 lečio	924		3
-leškario			2
-libio	253		2
-lisičio			2
+leškario			3
+libio	253		3
+lisičio			3
 ličio	1376		3
 lišio	368		3
 ljubio	972		3
@@ -440,170 +440,170 @@ lupio	523		3
 lučio	22		3
 mamio	146		3
 mario	1700		3
-mastio			2
+mastio			3
 mašio	94		3
 merio	723		3
-mesečario			2
+mesečario			3
 mesio	118		3
 mio	1109		2
 mirio	140		3
-misionario			2
+misionario			3
 mislio	21227		3
-mičio			2
+mičio			3
 mlatio	128		3
 množio	24		3
-mokrio	38		2
+mokrio	38		3
 molio	4820		3
-morio	24		2
+morio	24		3
 motrio	109		3
-mrcvario	14		2
-mrgodio			2
-mrmoljio			2
-mrmorio			2
+mrcvario	14		3
+mrgodio			3
+mrmoljio			3
+mrmorio			3
 mrsio	47		3
 mrzio	141		3
-mrštio	45		2
+mrštio	45		3
 mutio	44		3
 mučio	1320		3
 nabacio	281		3
 nabavio	1672		4
 nabio	444		3
 nabubrio			4
-nabudžio			2
-nacerio	15		2
-nadgovorio			2
-nadgradio	29		2
-nadilazio	17		2
+nabudžio			3
+nacerio	15		3
+nadgovorio			3
+nadgradio	29		3
+nadilazio	17		3
 nadmašio	959		4
-nadmudrio	191		2
-nadničio			2
-nadnosio			2
+nadmudrio	191		3
+nadničio			3
+nadnosio			3
 nadogradio	102		3
 nadoknadio	457		4
-nadolazio	16		2
-nadomestio	118		2
+nadolazio	16		3
+nadomestio	118		3
 nadopunio	10		4
-nadražio			2
+nadražio			3
 nadvio	159		3
 nadvisio	127		3
 nadživio	11		3
-nagazio	209		2
+nagazio	209		3
 naglasio	33447		3
-nagnjio		M	2
+nagnjio		M	3
 nagodio	97		3
-nagonio			2
+nagonio			3
 nagovestio	1621		3
 nagovorio	482		3
-nagrabusio	64		2
+nagrabusio	64		3
 nagradio	911		3
 nagrdio	40		3
-nahodio	30		2
+nahodio	30		3
 nahranio	219		3
 nahvalio	139		3
 nailazio	629		4
 najavio	26514		3
-najedio			2
+najedio			3
 naježio	169		3
-najmio	42		2
+najmio	42		3
 najurio	124		3
 nakanio	38		3
-nakazio			2
-nakačio			2
-nakinđurio			2
-nakitio	41		2
+nakazio			3
+nakačio			3
+nakinđurio			3
+nakitio	41		3
 naklonio	44		3
 naknadio	27		4
-nakrivio	99		2
+nakrivio	99		3
 nakupio	217		4
-nakvasio	19		2
-nalaktio			2
+nakvasio	19		3
+nalaktio			3
 nalazio	9763		4
-nalepio	57		2
-naletio	133		2
-nalio	38		2
-naličio	10		2
+nalepio	57		3
+naletio	133		3
+nalio	38		3
+naličio	10		3
 naljutio	727		3
 naložio	2426		3
-namagarčio	30		2
+namagarčio	30		3
 namamio	122		3
 namenio	625		3
-nameračio			2
-namerio	231		2
+nameračio			3
+namerio	231		3
 namestio	1141		4
 namirio	137		3
-namislio			2
-namlatio	37		2
+namislio			3
+namlatio	37		3
 namnožio	33		3
-namračio			2
-namrgodio	10		2
-namrčio			2
-namrštio	86		2
-namucio			2
-namučio	466		2
-nanio	166		2
+namračio			3
+namrgodio	10		3
+namrčio			3
+namrštio	86		3
+namucio			3
+namučio	466		3
+nanio	166		3
 nanišanio	88		3
-nanjušio	67		2
-nanosio	160		2
+nanjušio	67		3
+nanosio	160		3
 naoštrio	73		3
-napakostio	39		2
-napalio	157		2
+napakostio	39		3
+napalio	157		3
 napatio	49		4
-naperio			2
+naperio			3
 napio	408		3
-naplatio	881		2
-napojio	67		2
+naplatio	881		3
+napojio	67		3
 napravio	27712		4
-naprosio			2
+naprosio			3
 napunio	1712		4
 napustio	9196		3
 napučio			3
 napušio	11		4
-naradio	37		2
-naredio	5208		2
-narogušio			2
+naradio	37		3
+naredio	5208		3
+narogušio			3
 naručio	1892		3
-narušio	462		2
-naružio	32		2
-nasadio	43		2
+narušio	462		3
+naružio	32		3
+nasadio	43		3
 nasamario	40		3
 naselio	445		3
 nasitio	17		4
-naskočio	17		2
-nasladio			2
+naskočio	17		3
+nasladio			3
 nasledio	2479		3
 naslonio	340		3
 naslovio	207		3
 naslutio	242		3
 nasmešio	390		3
-nasrdio			2
+nasrdio			3
 nastanio	599		3
 nastavio	13110		4
 nastupio	3855		3
 natkrilio	12		3
 natopio	34		3
-natovario	124		2
-natočio	53		2
-natrunio			2
-naturio	29		2
-natuštio			2
+natovario	124		3
+natočio	53		3
+natrunio			3
+naturio	29		3
+natuštio			3
 naudio	88		4
 naumio	423		3
 naučio	7964		3
-navadio			2
+navadio			3
 navalio	273		3
-navestio			2
-navio	48		2
-navlačio	126		2
+navestio			3
+navio	48		3
+navlačio	126		3
 navodio	717		3
 navratio	126		3
 navršio	252		3
 nazdravio	67		4
-naznačio	665		2
+naznačio	665		3
 načinio	2400		3
-načuljio			2
-našalio	732		2
-naškodio	81		2
-naštetio	27		2
+načuljio			3
+našalio	732		3
+naškodio	81		3
+naštetio	27		3
 nemio	118		3
 nio		M	2
 nišanio	38		4
@@ -611,19 +611,19 @@ njušio	24		3
 nosio	7988		3
 noćio	55		3
 nudio	2154		3
-obalio			2
+obalio			3
 obavestio	5102		3
 obavio	3715		4
 obdario	240		3
-obeležio	3644		2
+obeležio	3644		3
 obelodanio	1002		3
 obeshrabrio	86		3
 obesio	350		4
-obesnažio			2
-obezbedio	8578		2
+obesnažio			3
+obezbedio	8578		3
 obezglavio	28		3
-obeznanio			2
-obezvredio	74		2
+obeznanio			3
+obezvredio	74		3
 obeštetio	20		4
 obeščastio	22		3
 obgrlio	67		4
@@ -634,58 +634,58 @@ objasnio	24179		3
 objavio	29534		3
 objedinio	459		3
 oblačio	336		3
-oblio	57		2
-obljubio	89		2
-obložio	29		2
-obnažio			2
+oblio	57		3
+obljubio	89		3
+obložio	29		3
+obnažio			3
 obnovio	1673		3
-obodrio	14		2
-obogaljio	26		2
+obodrio	14		3
+obogaljio	26		3
 obogatio	1442		4
 obojio	154		3
-obolio	69		2
+obolio	69		3
 oborio	2343		3
-obosio			2
+obosio			3
 obradio	917		3
 obratio	10032		3
 obrazložio	1945		3
-obremenio			2
-obrlatio	20		2
-obrstio			2
+obremenio			3
+obrlatio	20		3
+obrstio			3
 obrubio			3
-obrušio	332		2
+obrušio	332		3
 obuhvatio	1457		4
 obujmio	12		3
 obustavio	511		4
 obučio	202		3
-obznanio	379		2
-ocedio	11		2
+obznanio	379		3
+ocedio	11		3
 ocenio	24119		3
-ocinkario			2
-ocrnio	77		2
-odalamio	31		2
+ocinkario			3
+ocrnio	77		3
+odalamio	31		3
 odbacio	4521		3
 odbio	9400		3
 odbranio	3283		3
-odbrusio	221		2
+odbrusio	221		3
 odelio	34		3
-odgajio	126		2
-odglumio	130		2
+odgajio	126		3
+odglumio	130		3
 odgodio	61		3
-odgojio	47		2
+odgojio	47		3
 odgovorio	16575		3
-odgudio			2
-odgulio			2
-odio			2
+odgudio			3
+odgulio			3
+odio			3
 odjavio	173		3
 odjurio	197		3
 odlazio	2404		4
-odlepio	377		2
+odlepio	377		3
 odletio	45		3
 odlomio	62		3
-odložio	921		2
+odložio	921		3
 odlučio	25819		3
-odmaglio	29		2
+odmaglio	29		3
 odmerio	219		4
 odmorio	328		3
 odnarodio			4
@@ -693,331 +693,331 @@ odnio	312	J	2
 odnosio	2095		3
 odobrio	3144		3
 odolio	38		3
-odomaćio	239		2
+odomaćio	239		3
 odradio	3301		3
 odrazio	391		3
 odredio	4746		3
-odrešio	53		2
-odrubio	53		2
-odselio	397		2
-odskočio	148		2
-odslužio	434		2
+odrešio	53		3
+odrubio	53		3
+odselio	397		3
+odskočio	148		3
+odslužio	434		3
 odstranio	206		3
 odstrelio	67		3
 odstupio	412		3
 odugovlačio	109		3
-odučio	40		2
-oduševio	2273		2
+odučio	40		3
+oduševio	2273		3
 odužio	506		3
-odvalio	289		2
+odvalio	289		3
 odvažio	236		3
 odvio	40		3
 odvlačio	45		3
 odvodio	83		3
 odvojio	1293		3
-odvozio	99		2
+odvozio	99		3
 odvratio	314		3
 odzvonio	22		3
-odšrafio			2
-odžepario			2
-oformio	576		2
-ogadio	53		2
-ogladnio	11		2
-oglasio	3143		2
+odšrafio			3
+odžepario			3
+oformio	576		3
+ogadio	53		3
+ogladnio	11		3
+oglasio	3143		3
 oglobio			3
-oglušio	241		2
-ogolio	108		2
-ogorčio	27		2
+oglušio	241		3
+ogolio	108		3
+ogorčio	27		3
 ogradio	593		3
 ograničio	631		4
-ogrešio	323		2
-ogulio	31		2
-ohio			2
+ogrešio	323		3
+ogulio	31		3
+ohio			3
 ohladio	225		3
 ohrabrio	616		3
-ojadio	223		2
-okamenio	25		2
+ojadio	223		3
+okamenio	25		3
 okanio	19		3
-okasnio			2
-okačio	969		2
+okasnio			3
+okačio	969		3
 okitio	596		4
-okladio			2
-okomio	209		2
-okopnio	11		2
-okoristio	93		2
-okotio			2
-okrepio	38		2
+okladio			3
+okomio	209		3
+okopnio	11		3
+okoristio	93		3
+okotio			3
+okrepio	38		3
 okrečio	44		4
 okrivio	399		3
-okrnjio	23		2
-okrunio	27		2
+okrnjio	23		3
+okrunio	27		3
 okružio	202		3
 okrvavio	39		4
-okumio			2
+okumio			3
 okupio	4421		4
-okuražio	47		2
+okuražio	47		3
 okusio	243		4
-okućio	16		2
-okvasio			2
+okućio	16		3
+okvasio			3
 olabavio	36		5
-oladio			2
-olenjio			2
+oladio			3
+olenjio			3
 oličio			3
 oljuštio	18		3
-olučio			2
+olučio			3
 omamio	13		3
-omasovio	36		2
-omatorio			2
-omašio	187		2
+omasovio	36		3
+omatorio			3
+omašio	187		3
 omeđio	15		4
-omilio	21		2
+omilio	21		3
 omogućio	9074		3
-omrsio	24		2
-omršavio			2
+omrsio	24		3
+omršavio			3
 onemogućio	643		3
 onesposobio	71		3
-onesvestio	224		2
-onjušio	24		2
+onesvestio	224		3
+onjušio	24		3
 ontario			3
-opalio	498		2
-opametio	155		2
-opaučio			2
+opalio	498		3
+opametio	155		3
+opaučio			3
 opazio	376		4
-opelješio	24		2
+opelješio	24		3
 ophodio	84		3
 opio	65		3
-opismenio	44		2
-opkladio			2
+opismenio	44		3
+opkladio			3
 opkolio	97		3
-opkoračio	34		2
+opkoračio	34		3
 oplemenio	126		3
-oplenio	14		2
+oplenio	14		3
 oplodio	61		3
 oplovio	48		3
-opoganio			2
+opoganio			3
 oporavio	1249		4
-opravio	105		2
+opravio	105		3
 opredelio	2493		3
 opremio	515		3
-oprljio			2
+oprljio			3
 oprostio	1534		3
-opružio	44		2
-opržio			2
-opslužio	16		2
+opružio	44		3
+opržio			3
+opslužio	16		3
 opteretio	203		4
 optužio	4020		3
-opunomoćio	16		2
-opustio	378		2
-opustošio	187		2
+opunomoćio	16		3
+opustio	378		3
+opustošio	187		3
 opčinio	107		3
-opštio	57		2
-oraspoložio	66		2
-orio	59		2
+opštio	57		3
+oraspoložio	66		3
+orio	59		3
 orobio	22		3
-orodio			2
-orosio			2
+orodio			3
+orosio			3
 osakatio	87		4
-osamio	41		2
-osamostalio	101		2
+osamio	41		3
+osamostalio	101		3
 osetio	6969		4
-osilio	97		2
+osilio	97		3
 osiromašio	172		4
 oskrnavio	63		4
 oslabio	1586		4
-osladio	21		2
-oslepio	47		2
-oslijepio	21	J	2
+osladio	21		3
+oslepio	47		3
+oslijepio	21	J	3
 oslobodio	2870		3
 oslonio	294		3
-oslovio	117		2
-osmelio	164		2
-osmislio	2481		2
+oslovio	117		3
+osmelio	164		3
+osmislio	2481		3
 osmotrio	125		3
-osnažio	175		2
+osnažio	175		3
 osokolio	39		3
-osolio			2
+osolio			3
 osporio	817		3
-osposobio	183		2
+osposobio	183		3
 osramotio	141		3
-ostario	249		2
+ostario	249		3
 ostavio	16775		4
-ostrvio			2
+ostrvio			3
 ostvario	11266		3
 osudio	3513		3
-osujetio	201		2
+osujetio	201		3
 osumnjičio	39		4
 osušio	192		3
-osvedočio	61		2
-osvestio	199		2
+osvedočio	61		3
+osvestio	199		3
 osvetio	689		3
-osvetlio	277		2
+osvetlio	277		3
 osvežio	253		4
 osvojio	25388		3
 otarasio	122		3
-otcepio	90		2
-otelio			2
-otelovio			2
-otfikario			2
-othranio	35		2
-otkačio	204		2
+otcepio	90		3
+otelio			3
+otelovio			3
+otfikario			3
+othranio	35		3
+otkačio	204		3
 otklonio	691		3
-otkočio	13		2
+otkočio	13		3
 otkrio	12803		3
-otkupio	1118		2
+otkupio	1118		3
 otopio	164		3
-otpadio			2
-otpečatio	17		2
+otpadio			3
+otpečatio	17		3
 otpilio			3
 otpio	53		3
-otplatio	237		2
+otplatio	237		3
 otplovio	126		3
-otpratio	111		2
-otpremio	50		2
+otpratio	111		3
+otpremio	50		3
 otpustio	652		3
-otreznio	100		2
-otupio	35		2
+otreznio	100		3
+otupio	35		3
 otuđio	223		3
-otužio			2
+otužio			3
 otvorio	16179		3
-otčepio			2
-ovajdio			2
+otčepio			3
+ovajdio			3
 ovaplotio	158		3
-ovekovečio	289		2
+ovekovečio	289		3
 overio	495		4
 ovlastio	541		3
-ovlažio	16		2
-ozakonio	75		2
-ozario	41		2
-ozdravio	259		2
+ovlažio	16		3
+ozakonio	75		3
+ozario	41		3
+ozdravio	259		3
 ozledio	32		3
 ozlijedio	13	J	4
-ozlojedio	11		2
-ozlovoljio			2
+ozlojedio	11		3
+ozlovoljio			3
 označio	2316		3
-oznojio	57		2
-ozvaničio	254		2
-ozvučio	12		2
-oćelavio	15		2
+oznojio	57		3
+ozvaničio	254		3
+ozvučio	12		3
+oćelavio	15		3
 očeličio			4
 očistio	741		4
 ošamario	210		4
-ošamutio	21		2
+ošamutio	21		3
 oštetio	1404		4
 oštrio	49		3
-ošurio			2
-ožalio			2
-ožalostio	38		2
-oždrebio			2
-ožednio			2
+ošurio			3
+ožalio			3
+ožalostio	38		3
+oždrebio			3
+ožednio			3
 oženio	2813		3
 oživio	71		3
 palio	803		3
 pamtio	270		3
-paničario			2
-paničio	24		2
+paničario			3
+paničio	24		3
 pario	20		3
 patio	899		3
 pazario	638		3
 pazio	481		3
 penio	22		3
-pevušio	91		2
-pečalbario			2
-pečatio	12		2
+pevušio	91		3
+pečalbario			3
+pečatio	12		3
 pešačio	103		3
-pijančio			2
-piljio	54		2
-pinokio			2
+pijančio			3
+piljio	54		3
+pinokio			3
 pio	7464		2
-piškio	54		2
-plamtio			2
-planinario	23		2
+piškio	54		3
+plamtio			3
+planinario	23		3
 platio	9287		3
 plavio	28		3
 plazio			3
 plašio	1475		3
-plenio	172		2
+plenio	172		3
 plodio			3
 plovio	496		3
 pobacio			3
 pobedio	14749		3
-pobenavio			2
+pobenavio			3
 pobio	945		3
-pobjesnio		J	2
-poblesavio	22		2
-pobratimio	38		2
-pobratio			2
-pobrljavio			2
-pobudalio			2
+pobjesnio		J	3
+poblesavio	22		3
+pobratimio	38		3
+pobratio			3
+pobrljavio			3
+pobudalio			3
 pobudio	234		3
 pobunio	562		3
-pocrnio	21		2
-pocrvenio	21		2
-podario	1078		2
-podavio			2
+pocrnio	21		3
+pocrvenio	21		3
+podario	1078		3
+podavio			3
 podbacio	454		3
 podbio			3
-podbočio	25		2
-podbunio			2
-podcenio	33		2
+podbočio	25		3
+podbunio			3
+podcenio	33		3
 podelio	3505		3
 podesio	687		4
-podetinjio			2
-podgovorio			2
+podetinjio			3
+podgovorio			3
 podilazio	13		4
 podjarmio			3
-podložio	13		2
-podmirio	61		2
+podložio	13		3
+podmirio	61		3
 podmitio	78		3
-podmladio	89		2
-podnapio			2
+podmladio	89		3
+podnapio			3
 podnio	590		2
 podnosio	703		3
-podranio			2
+podranio			3
 podredio	170		3
-podrio	44		2
+podrio	44		3
 podsetio	15762		4
 podudario	52		4
-poduhvatio	103		2
+poduhvatio	103		3
 podučio	71		3
 podvalio	72		3
-podvio	32		2
+podvio	32		3
 podvlačio	86		3
 podvodio	29		3
-podvorio			2
+podvorio			3
 podčinio			3
-pofrancuzio			2
-poganio			2
+pofrancuzio			3
+poganio			3
 pogasio	66		3
-pogazio	287		2
-pogladio	24		2
+pogazio	287		3
+pogladio	24		3
 pogodio	7747		3
-pogospodio			2
-pograbio			2
+pogospodio			3
+pograbio			3
 pogrešio	3567		3
-pogružio			2
-pogubio	469		2
-pogurio			2
-pohapsio			2
-poharčio			2
+pogružio			3
+pogubio	469		3
+pogurio			3
+pohapsio			3
+poharčio			3
 pohodio	248		3
-pohranio	39		2
-pohrlio	62		2
-pohulio			2
+pohranio	39		3
+pohrlio	62		3
+pohulio			3
 pohvalio	3431		3
-poistovetio	145		2
+poistovetio	145		3
 pojasnio	2475		3
 pojavio	17001		3
 pojednostavio	155		3
-pojeftinio	279		2
-pojevtinio			2
-pojio	33		2
+pojeftinio	279		3
+pojevtinio			3
+pojio	33		3
 pojmio	31		3
 pojurio	207		3
-pokakio			2
+pokakio			3
 poklonio	4828		3
-poklopio	352		2
+poklopio	352		3
 pokorio	423		3
-pokosio	176		2
+pokosio	176		3
 pokrio	878		3
 pokrstio	62		3
 pokunjio			3
@@ -1029,37 +1029,37 @@ poletio	88		3
 polio	433		3
 poljubio	1057		3
 polomio	731		3
-polovio			2
+polovio			3
 položio	3559		3
-poludio	97		2
-polučio	29		2
-pomamio	17		2
-pomazio	83		2
-pomerio	1145		2
+poludio	97		3
+polučio	29		3
+pomamio	17		3
+pomazio	83		3
+pomerio	1145		3
 pomirio	553		3
 pomislio	6707		4
 pomnožio	25		3
-pomokrio	16		2
+pomokrio	16		3
 pomolio	212		3
-pomorio			2
-pomračio	51		2
-pomrsio	52		2
-pomutio	82		2
-pomučio	77		2
-ponapio			2
-ponio	227		2
+pomorio			3
+pomračio	51		3
+pomrsio	52		3
+pomutio	82		3
+pomučio	77		3
+ponapio			3
+ponio	227		3
 ponizio	343		3
 poništio	1127		4
 ponosio	252		3
 ponovio	6553		3
 ponudio	8719		4
-pooštrio	62		2
-popalio	71		2
+pooštrio	62		3
+popalio	71		3
 popio	1800		3
 poplavio	101		3
 poplašio	46		4
 popravio	1552		4
-popretio			2
+popretio			3
 poprimio	379		3
 popunio	555		4
 popustio	801		3
@@ -1067,395 +1067,395 @@ popušio	106		4
 poradio	82		3
 poranio	139		4
 porazio	569		3
-porazmislio	23		2
-poredio	498		2
+porazmislio	23		3
+poredio	498		3
 poremetio	526		4
 porobio	43		3
 porodio	123		3
-portfolio	2412		2
+portfolio	2412		3
 poručio	18656		3
 porušio	220		4
 posadio	339		3
-posenilio	14		2
+posenilio	14		3
 posetio	8715		4
-posilio			2
-posinio	14		2
+posilio			3
+posinio	14		3
 poskočio	110		3
-posložio	11		2
+posložio	11		3
 poslužio	2185		3
 posolio	15		3
-pospešio	132		2
+pospešio	132		3
 pospremio	28		3
 posramio	72		3
-postario			2
+postario			3
 postavio	19536		4
 postidio	25		3
 postio	204		3
-postrojio	79		2
+postrojio	79		3
 postupio	1541		3
 posudio	97		3
-posuvratio			2
-posvadio			2
-posvedočio	396		2
+posuvratio			3
+posvadio			3
+posvedočio	396		3
 posvetio	5079		3
 posvojio	10		3
-potamnio	16		2
-potcenio	164		2
-potkačio			2
-potkratio			2
+potamnio	16		3
+potcenio	164		3
+potkačio			3
+potkratio			3
 potkrepio	350		3
 potkupio	41		3
 potopio	178		3
-potpalio	56		2
+potpalio	56		3
 potplatio	56		3
-potratio			2
+potratio			3
 potražio	830		3
 potrefio	64		4
 potrošio	2689		3
 potrudio	2115		3
-poturio	108		2
-poturčio	83		2
-potužio	17		2
+poturio	108		3
+poturčio	83		3
+potužio	17		3
 potvrdio	16874		3
-potčinio	92		2
-poučio	307		2
-povadio	69		2
-povalio	36		2
-povampirio	70		2
+potčinio	92		3
+poučio	307		3
+povadio	69		3
+povalio	36		3
+povampirio	70		3
 poverio	1277		4
 povio	32		3
-povirio			2
+povirio			3
 povisio	562		3
 povlačio	476		3
 povodio	25		3
 povratio	1127		3
 povredio	3448		3
-pozabavio	533		2
+pozabavio	533		3
 pozajmio	1019		3
-pozavidio	20		2
+pozavidio	20		3
 pozdravio	5722		4
-pozelenio			2
+pozelenio			3
 pozlatio	46		3
-pozledio			2
-pozvonio	104		2
+pozledio			3
+pozvonio	104		3
 počastio	257		3
 počinio	2724		3
 počistio	277		4
-pošalio			2
-pošašavio			2
-pošizio			2
-poškropio			2
+pošalio			3
+pošašavio			3
+pošizio			3
+poškropio			3
 poštedio	35		3
 pošumio			4
-požalio	1160		2
+požalio	1160		3
 poželio	514		3
-poživio	26		2
+poživio	26		3
 požurio	644		3
 pratio	6491		3
 pravio	6657		3
 praznio	72		3
-prašio	32		2
+prašio	32		3
 prebacio	2333		3
 prebio	283		3
-prebolio	23		2
+prebolio	23		3
 prebrodio	182		3
-prebrojio	12		2
-precenio	105		2
-precepio			2
+prebrojio	12		3
+precenio	105		3
+precepio			3
 predio	107		3
 predložio	11017		3
-prednjačio	350		2
+prednjačio	350		3
 predomislio	481		4
-predosetio	66		2
+predosetio	66		3
 predočio	1528		3
 predstavio	15402		4
-preduhitrio	162		2
+preduhitrio	162		3
 predvidio	157		4
 predvodio	4975		3
-pregazio	537		2
-pregorio			2
+pregazio	537		3
+pregorio			3
 pregradio	19		3
 prehladio	76		3
-prehranio	130		2
-preinačio	289		2
-prekalio			2
-prekardašio			2
-prekoračio	453		2
-prekorio	56		2
-prekratio	84		2
+prehranio	130		3
+preinačio	289		3
+prekalio			3
+prekardašio			3
+prekoračio	453		3
+prekorio	56		3
+prekratio	84		3
 prekrio	435		3
-prekrstio	290		2
+prekrstio	290		3
 prekršio	1752		3
 prelazio	1177		4
 preletio	43		3
-prelio	210		2
+prelio	210		3
 prelomio	720		3
 premašio	1281		4
-premerio			2
-premestio	341		2
-premio	10		2
+premerio			3
+premestio	341		3
+premio	10		3
 premlatio	52		3
-premorio	10		2
+premorio	10		3
 premostio	114		3
-premrežio			2
-prenaglio	31		2
-prenerazio	41		2
+premrežio			3
+prenaglio	31		3
+prenerazio	41		3
 prenio	907		2
 prenosio	982		3
 prenoćio	121		3
-preobratio	120		2
-preobrazio	244		2
-preopteretio	37		2
-prepešačio	77		2
+preobratio	120		3
+preobrazio	244		3
+preopteretio	37		3
+prepešačio	77		3
 preplatio	55		3
-preplavio	244		2
+preplavio	244		3
 preplašio	56		4
 preplovio	32		3
 prepolovio	448		3
-preporodio	248		2
+preporodio	248		3
 preporučio	4117		3
-prepravio	137		2
-preprečio	86		2
-prepunio	28		2
+prepravio	137		3
+preprečio	86		3
+prepunio	28		3
 prepustio	1554		3
 preradio	175		3
 prerušio	56		4
 presadio	56		3
-presamitio			2
-presavio	105		2
+presamitio			3
+presavio	105		3
 preselio	2672		3
 preskočio	955		3
-presnimio	27		2
-prespojio	26		2
-prestario			2
-prestavio			2
+presnimio	27		3
+prespojio	26		3
+prestario			3
+prestavio			3
 prestravio	56		3
 prestrašio	27		4
 prestupio	44		3
 presudio	1586		3
-presušio	100		2
+presušio	100		3
 presvlačio	32		3
 prethodio	1132		3
 pretio	2546		3
 pretopio	43		3
-pretočio	348		2
+pretočio	348		3
 pretplatio	80		3
 pretpostavio	742		4
 pretražio	132		3
 pretrpio	165		3
-preturio	134		2
+preturio	134		3
 pretvorio	3811		3
-preuredio	104		2
-preusmerio	175		2
+preuredio	104		3
+preusmerio	175		3
 prevalio	342		3
 prevario	2614		4
-previdio	24		2
-previo	27		2
-prevlačio	16		2
+previdio	24		3
+previo	27		3
+prevlačio	16		3
 prevodio	818		3
 prevozio	621		3
-prevratio			2
-prevršio	76		2
-prezadužio			2
-prezasitio			2
-prezdravio			2
-prezimio	32		2
-preznojio	39		2
-prečistio			2
-prešutio	11		2
-prežalio	57		2
+prevratio			3
+prevršio	76		3
+prezadužio			3
+prezasitio			3
+prezdravio			3
+prezimio	32		3
+preznojio	39		3
+prečistio			3
+prešutio	11		3
+prežalio	57		3
 preživio	318	J	3
 pribavio	587		4
-pribeležio	62		2
+pribeležio	62		3
 pribio	35		3
 približio	2021		3
 pribrojio			3
 pridobio	358		3
 pridonio	49	J	2
 pridružio	3752		3
-prigotovio			2
+prigotovio			3
 prigovorio	211		3
-prigrabio	168		2
-prigrlio	220		2
+prigrabio	168		3
+prigrlio	220		3
 prigušio	25		3
 prihvatio	11414		4
 prijavio	4836		3
-prikačio	195		2
-priklještio			2
-priključio	1919		2
+prikačio	195		3
+priklještio			3
+priključio	1919		3
 priklonio	298		3
-priklopio			2
+priklopio			3
 prikrio	307		3
 prikupio	1223		4
-prikučio			2
+prikučio			3
 prilagodio	952		3
 prilazio	431		4
-prilepio	82		2
+prilepio	82		3
 priličio	21		4
 priljubio	50		3
-priložio	532		2
+priložio	532		3
 primamio	16		3
 primenio	1471		3
 primetio	12743		3
 primio	11769		3
-primirio	153		2
-prinio	55		2
-prinosio	117		2
-prinudio	138		2
-pripalio	50		2
+primirio	153		3
+prinio	55		3
+prinosio	117		3
+prinudio	138		3
+pripalio	50		3
 pripazio			4
-pripio	16		2
+pripio	16		3
 pripitomio	57		3
 pripojio	166		3
 pripravio	42		4
 pripremio	4380		3
-pripretio	341		2
-pripustio	13		2
+pripretio	341		3
+pripustio	13		3
 priredio	3014		3
 prisetio	570		4
 prisilio	244		4
-priskočio	155		2
-priskrbio	12		2
+priskočio	155		3
+priskrbio	12		3
 prislonio	219		3
-prispio	15	J	2
+prispio	15	J	3
 pristavio	22		4
 pristupio	1451		3
-prisvojio	495		2
-pritajio	71		2
-pritesnio			2
+prisvojio	495		3
+pritajio	71		3
+pritesnio			3
 pritvorio	24		3
-pritvrdio			2
-priučio			2
+pritvrdio			3
+priučio			3
 priuštio	142		3
-privio	32		2
+privio	32		3
 privlačio	568		3
 privodio	86		3
-prizemljio	110		2
-pričestio	303		2
+prizemljio	110		3
+pričestio	303		3
 pričinio	180		3
 pričvrstio	50		3
-prišio	26		2
+prišio	26		3
 prkosio	84		4
 probavio	20		4
 probdio			3
 probio	1552		3
 probudio	2907		3
-proburazio	13		2
+proburazio	13		3
 probušio	118		3
-procedio	87		2
+procedio	87		3
 procenio	2212		3
-procurio	113		2
-procvilio			2
-produbio	221		2
-produžio	1691		2
+procurio	113		3
+procvilio			3
+produbio	221		3
+produžio	1691		3
 proglasio	4860		3
 progonio	178		3
 progovorio	1196		3
-prohladio			2
-proizlazio	23		2
+prohladio			3
+proizlazio	23		3
 proizvodio	1192		3
 projurio	78		3
-prokljuvio	24		2
+prokljuvio	24		3
 prokrijumčario	29		3
 prokrstario	63		4
 prokrvario	13		4
-prokrčio	67		2
-prokužio			2
+prokrčio	67		3
+prokužio			3
 prolazio	2340		4
-proletio	21		2
+proletio	21		3
 prolio	186		3
 prolomio	150		3
 promašio	2280		4
 promenio	10159		3
-promerio			2
+promerio			3
 promeškoljio	16		3
 promislio	64		4
-promolio	60		2
+promolio	60		3
 pronalazio	363		4
 proneverio	111		4
-pronio	20		2
-pronosio	61		2
+pronio	20		3
+pronosio	61		3
 propatio	128		4
-propešačio			2
+propešačio			3
 propio	82		3
-proplovio			2
-propratio	276		2
+proplovio			3
+propratio	276		3
 propustio	4783		3
-proputio			2
+proputio			3
 propušio	17		4
 proradio	976		3
-proredio	43		2
+proredio	43		3
 prosio	104		3
-prosjedio			2
+prosjedio			3
 proslavio	3788		4
-prosledio	991		2
-proslovio			2
-prostio			2
-prostrelio	20		2
-prostrujio			2
-prosudio	10		2
-prosvetio	83		2
-prosvetlio	102		2
+prosledio	991		3
+proslovio			3
+prostio			3
+prostrelio	20		3
+prostrujio			3
+prosudio	10		3
+prosvetio	83		3
+prosvetlio	102		3
 protivio	783		3
-protivrečio	33		2
-protratio			2
-protraćio			2
-protumačio	603		2
-proturio	114		2
-protutnjio			2
-prouzročio	34		2
+protivrečio	33		3
+protratio			3
+protraćio			3
+protumačio	603		3
+proturio	114		3
+protutnjio			3
+prouzročio	34		3
 proučio	541		3
 provalio	1079		3
 proverio	1647		4
-proveselio			2
-provirio	111		2
+proveselio			3
+provirio	111		3
 provlačio	189		3
 provodio	1830		3
 prozborio	129		3
-prozlio			2
-pročistio	65		2
-prošio			2
+prozlio			3
+pročistio	65		3
+prošio			3
 proširio	3157		3
-proživio	87		2
-prsio			2
-prtio			2
-prućio			2
+proživio	87		3
+prsio			3
+prtio			3
+prućio			3
 pružio	5320		3
 pržio	58		3
 punio	628		3
 pustio	4354		3
-pustošio	34		2
-putio			2
+pustošio	34		3
+putio			3
 puzio	29		3
 pušio	596		3
-puštio			2
+puštio			3
 radio	84439		3
-rakolio			2
+rakolio			3
 ranio	823		3
-rasanio			2
+rasanio			3
 rascepio	15		3
 raselio	41		3
 rashladio	24		3
-raskalašio			2
+raskalašio			3
 rasklopio	39		3
-raskomotio	21		2
-raskravio			2
-raskrečio			2
-raskrilio	13		2
+raskomotio	21		3
+raskravio			3
+raskrečio			3
+raskrilio	13		3
 raskrstio	103		3
-raskrvario	23		2
-raskrvavio			2
+raskrvario	23		3
+raskrvavio			3
 raskućio			4
-raskvasio			2
-raspalio	231		2
-raspametio	27		2
+raskvasio			3
+raspalio	231		3
+raspametio	27		3
 raspodelio	54		3
 raspolovio			3
 raspoložio			3
-raspolutio			2
-raspomamio			2
+raspolutio			3
+raspomamio			3
 rasporedio	299		3
-rasporio	35		2
+rasporio	35		3
 raspravio	24		4
 raspršio	146		3
 raspustio	250		3
@@ -1463,46 +1463,46 @@ rasrdio	43		3
 rastavio	122		4
 rasteretio	173		4
 rastopio	32		3
-rastočio	26		2
-rastreznio			2
-rastrojio			2
-rastumačio	48		2
-rasturio	415		2
+rastočio	26		3
+rastreznio			3
+rastrojio			3
+rastumačio	48		3
+rasturio	415		3
 rastužio	164		3
 rastvorio	39		3
-rasvetlio	74		2
+rasvetlio	74		3
 razbaštinio			4
-razbesnio			2
+razbesnio			3
 razbio	1562		3
 razbistrio	28		3
-razbjesnio		J	2
+razbjesnio		J	3
 razbolio	74		3
 razbudio	105		3
 razdelio	143		3
 razdražio			3
-razdrešio			2
-razdrljio			2
-razdrobio			2
-razdužio	44		2
+razdrešio			3
+razdrljio			3
+razdrobio			3
+razdužio	44		3
 razdvojio	279		3
-razgalamio			2
+razgalamio			3
 razgalio	89		3
 razglasio	47		3
-razglavio			2
-razgnevio			2
-razgnjevio	21		2
+razglavio			3
+razgnevio			3
+razgnjevio	21		3
 razgolitio	42		3
-razgonio			2
-razgorio			2
-razgoropadio	60		2
-razgovorio			2
+razgonio			3
+razgorio			3
+razgoropadio	60		3
+razgovorio			3
 razgrabio	10		4
-razgradio	40		2
+razgradio	40		3
 razilazio	31		4
 razjario	30		3
-razjasnio	366		2
+razjasnio	366		3
 razjurio	36		3
-razlabavio			2
+razlabavio			3
 razlio	82		3
 razljutio	143		3
 razlomio			3
@@ -1510,89 +1510,89 @@ razložio	49		3
 razlučio	24		3
 razmazio	83		3
 razmenio	205		3
-razmestio	33		2
+razmestio	33		3
 razmislio	539		4
 razmnožio	22		3
 razmotrio	513		3
 raznežio	51		3
 raznio	19		2
 raznosio	85		3
-razonodio	13		2
+razonodio	13		3
 razorio	385		3
 razotkrio	375		3
 razradio	503		3
-razrešio	468		2
-razrogačio	18		2
+razrešio	468		3
+razrogačio	18		3
 razrušio	86		4
-razulario			2
+razulario			3
 razumio	439	J	3
 razuverio	73		4
 razvalio	225		3
-razvedrio	16		2
+razvedrio	16		3
 razveselio	68		3
 razvio	5584		3
-razvlačio	97		2
+razvlačio	97		3
 razvodio	38		3
 razvozio	23		3
-razvratio			2
-rašio			2
+razvratio			3
+rašio			3
 raširio	706		3
-raščinio	34		2
-raščistio	141		2
+raščinio	34		3
+raščistio	141		3
 raščlanio	21		4
-ražalio			2
+ražalio			3
 ražalostio	25		3
 remetio	114		4
 rezbario	19		3
 rešio	10250		3
 rio	2350		2
-robio			2
+robio			3
 rodio	5112		3
-rogušio			2
-romario			2
+rogušio			3
+romario			3
 ronio	100		3
-rosario			2
-rovašio			2
+rosario			3
+rovašio			3
 rukovodio	1997		3
 rušio	524		3
-ružio	52		2
+ružio	52		3
 sablaznio	51		3
 sadio	159		3
-saglasio	581		2
+saglasio	581		3
 sagradio	1722		3
 sagrešio	53		3
 sahranio	362		3
 sakatio	13		4
 sakrio	1350		3
 sakupio	1590		4
-salio	14		2
-salomio			2
+salio	14		3
+salomio			3
 sanjario	49		3
-saobrazio			2
-saopćio			2
-saopštio	15044		2
+saobrazio			3
+saopćio			3
+saopštio	15044		3
 sastavio	1972		4
-sasušio	16		2
+sasušio	16		3
 savio	221		3
 sazrio			3
 sačinio	1192		3
 sašio	52		3
 sažalio	116		4
-scenario	11386		2
+scenario	11386		3
 sedio	58		3
 selio	224		3
-senčio			2
+senčio			3
 setio	4651		3
 shvatio	15700		3
 silazio	378		4
 silio	21		3
-silvio			2
+silvio			3
 sirio	52		3
-sjajio	15		2
-sjatio	37		2
-sjedinio			2
+sjajio	15		3
+sjatio	37		3
+sjedinio			3
 sjedio	569	J	3
-sjurio	143		2
+sjurio	143		3
 skamenio	61		4
 sklonio	1100		3
 sklopio	1780		3
@@ -1600,102 +1600,102 @@ skočio	2928		3
 skrasio	147		3
 skratio	646		3
 skrio	76		2
-skrivio	381		2
-skrojio	88		2
+skrivio	381		3
+skrojio	88		3
 skrpio	48		3
 skršio	50		3
 skupio	1229		3
-skućio			2
+skućio			3
 skvrčio			3
 slabio	147		3
 sladio	27		3
 slavio	3920		3
-slazio			2
+slazio			3
 sledio	1132		3
-slepio			2
-sletio	136		2
+slepio			3
+sletio	136		3
 slijedio	111	J	4
 slinio	22		3
 slio	184		2
-slistio	12		2
+slistio	12		3
 sličio	12		3
 slomio	1128		3
-slovio	175		2
+slovio	175		3
 složio	3651		3
 slutio	868		3
 služio	8549		3
 smanjio	6324		3
-smejuljio			2
+smejuljio			3
 smenio	895		3
 smestio	1698		3
 smešio	155		3
 smio	445	J	2
 smirio	778		3
 smislio	2022		3
-smlatio			2
-smlavio			2
-smorio	460		2
-smotrio			2
+smlatio			3
+smlavio			3
+smorio	460		3
+smotrio			3
 smočio			3
-smračio			2
+smračio			3
 smrdio	15		3
-smrvio	26		2
-smršavio			2
-smutio	13		2
-smučio	157		2
+smrvio	26		3
+smršavio			3
+smutio	13		3
+smučio	157		3
 snalazio	287		4
-snažio	19		2
-sneveselio			2
+snažio	19		3
+sneveselio			3
 snimio	4946		3
 snio	114		2
 snizio	666		3
-snosio	293		2
-snuždio	16		2
+snosio	293		3
+snuždio	16		3
 sokolio	11		3
 spalio	554		3
 spasio	1822		3
 spazio	321		3
-spečalio			2
-splavario			2
+spečalio			3
+splavario			3
 spletkario			3
 spljoštio			3
 spojio	1193		3
-spomenio			2
-sporio	142		2
-spravio	12		2
+spomenio			3
+sporio	142		3
+spravio	12		3
 spremio	1604		3
 sprečio	3156		3
 sprijateljio	216		3
 sprovodio	1233		3
-spržio	135		2
+spržio	135		3
 spustio	3441		3
 sramio	16		3
 sramotio	29		3
 sravnio	102		3
 srdio	17		3
 sredio	998		3
-srodio	49		2
-sročio	239		2
-srubio			2
-sručio	199		2
+srodio	49		3
+sročio	239		3
+srubio			3
+sručio	199		3
 srušio	2943		3
 stario	40		3
 stavio	13034		3
-stesnio			2
+stesnio			3
 stidio	50		3
 stopio	97		3
-straćio			2
+straćio			3
 strašio	10		3
-stražario	31		2
+stražario	31		3
 strefio	65		3
-stremio	80		2
-strepio	23		2
-strmoglavio	43		2
-strovalio	31		2
+stremio	80		3
+strepio	23		3
+strmoglavio	43		3
+strovalio	31		3
 studio	8624		3
 stupio	4432		3
-stuštio	111		2
-stvario			2
+stuštio	111		3
+stvario			3
 stvorio	10593		3
 sudario	353		4
 sudio	907		3
@@ -1706,11 +1706,11 @@ suprotstavio	704		4
 suzbio	137		3
 suzio	216		3
 sušio	91		3
-svalio	123		2
+svalio	123		3
 svario	60		3
 svedočio	1077		3
-svetio	89		2
-svetlio	26		2
+svetio	89		3
+svetlio	26		3
 svio	41		2
 svlačio	45		3
 svodio	313		3
@@ -1718,28 +1718,28 @@ svratio	747		3
 svršio	844		3
 tajio	35		3
 takmičio	689		4
-taložio	39		2
-tamanio	28		2
-tanjio			2
-tavorio	62		2
+taložio	39		3
+tamanio	28		3
+tanjio			3
+tavorio	62		3
 teglio	32		3
-telio			2
+telio			3
 temeljio	131		3
-teretio	147		2
+teretio	147		3
 tešio	237		3
 težio	787		3
-timario	12		2
+timario	12		3
 topio	220		3
-tovario	46		2
+tovario	46		3
 tovio	13		3
 točio	68		3
 trampio	55		3
-trapio			2
+trapio			3
 tratio			3
 traćio	24		3
 tražio	19163		3
 treperio	56		3
-treptio			2
+treptio			3
 treznio	20		3
 trio	1630		2
 trošio	1375		3
@@ -1750,44 +1750,44 @@ trulio	15		3
 tulumario			3
 tumačio	785		3
 tupio	29		3
-turio	101		2
-tuđio			2
+turio	101		3
+tuđio			3
 tužio	1551		3
 tvorio	73		3
 tvrdio	6109		3
 ubacio	4792		3
-ubedio	1172		2
-ubeležio	251		2
+ubedio	1172		3
+ubeležio	251		3
 ubio	8982		3
 ublažio	619		3
-ubrojio	25		2
+ubrojio	25		3
 ucenio	101		3
-ucvelio			2
+ucvelio			3
 udaljio	851		3
 udario	6129		4
 udavio	381		3
-udelio	73		2
-udesio	145		2
+udelio	73		3
+udesio	145		3
 udio	753		3
-udivio			2
-udobrovoljio			2
-udomaćio	15		2
+udivio			3
+udobrovoljio			3
+udomaćio	15		3
 udomio	116		3
-udostojio	715		2
-udovoljio	162		2
-udrobio			2
+udostojio	715		3
+udovoljio	162		3
+udrobio			3
 udružio	423		3
-udubio	97		2
-udvojio			2
+udubio	97		3
+udvojio			3
 udvostručio	624		4
-ufitiljio			2
+ufitiljio			3
 ugasio	1569		3
-ugazio	57		2
-uglavio	74		2
-ugnezdio	59		2
-ugnjavio	10		2
+ugazio	57		3
+uglavio	74		3
+ugnezdio	59		3
+ugnjavio	10		3
 ugodio	107		3
-ugojio	214		2
+ugojio	214		3
 ugostio	1242		3
 ugovorio	489		3
 ugrabio	162		4
@@ -1795,398 +1795,398 @@ ugradio	1201		3
 ugrozio	1185		3
 ugušio	343		3
 uhapsio	513		4
-uhlebio	33		2
-uhljebio			2
+uhlebio	33		3
+uhljebio			3
 uhodio	39		3
-uhranio			2
+uhranio			3
 uhvatio	4273		4
 ujedinio	507		3
-ukipio	13		2
-ukiselio	15		2
+ukipio	13		3
+ukiselio	15		3
 uključio	3226		3
 uklonio	920		3
-uklopio	869		2
-uknjižio	200		2
-ukopistio			2
+uklopio	869		3
+uknjižio	200		3
+ukopistio			3
 ukorenio	70		3
 ukorio	109		3
-ukoričio	12		2
+ukoričio	12		3
 ukočio	192		3
 ukrasio	287		3
-ukrepio	50		2
+ukrepio	50		3
 ukrotio	179		3
 ukrstio	100		3
 ukrutio	61		3
 ulazio	2289		4
-ulepio	12		2
-uletio	61		2
-ulio	247		2
-ulogorio	36		2
+ulepio	12		3
+uletio	61		3
+ulio	247		3
+ulogorio	36		3
 ulovio	486		3
 uložio	4361		3
-ulubio	13		2
-ulučio			2
-umalio			2
-umanjio	638		2
-umerio			2
-umilio	10		2
-umilostivio	36		2
+ulubio	13		3
+ulučio			3
+umalio			3
+umanjio	638		3
+umerio			3
+umilio	10		3
+umilostivio	36		3
 umio	258		3
-umirio	357		2
+umirio	357		3
 umislio	388		4
-umlatio	22		2
-umnožio	131		2
-umokrio			2
-umolio	64		2
+umlatio	22		3
+umnožio	131		3
+umokrio			3
+umolio	64		3
 umorio	531		3
-umočio	47		2
-umrtvio	53		2
-umudrio			2
+umočio	47		3
+umrtvio	53		3
+umudrio			3
 unajmio	243		3
 unakazio	147		3
-unapredio	1126		2
-unazadio	169		2
-uneredio	40		2
-unervozio			2
-unesrećio	61		2
-unezverio			2
+unapredio	1126		3
+unazadio	169		3
+uneredio	40		3
+unervozio			3
+unesrećio	61		3
+unezverio			3
 unio	147		2
 unizio	42		3
 uništio	2953		4
 unosio	447		3
-unovačio			2
+unovačio			3
 unovčio	88		3
-uobičajio	25		2
-uobličio	249		2
+uobičajio	25		3
+uobličio	249		3
 uobrazio	76		3
 uokvirio	22		3
-uortačio	15		2
+uortačio	15		3
 uozbiljio	123		3
 uočio	2163		3
 upalio	873		3
 upamtio	276		3
-upario	72		2
-uperio	296		2
-upiljio			2
+upario	72		3
+uperio	296		3
+upiljio			3
 upio	100		3
-upiškio	18		2
-uplatio	1685		2
+upiškio	18		3
+uplatio	1685		3
 uplašio	1612		4
 uplovio	274		3
-upodobio	41		2
-upokojio	955		2
-uporedio	1177		2
+upodobio	41		3
+upokojio	955		3
+uporedio	1177		3
 uposlio	666		3
-upotpunio	498		2
+upotpunio	498		3
 upotrebio	2168		3
 upozorio	8627		3
-upravio	83		2
-upraznio			2
+upravio	83		3
+upraznio			3
 upriličio	375		4
 upropastio	1141		3
-uprostio	52		2
-uprtio	18		2
-upustio	801		2
+uprostio	52		3
+uprtio	18		3
+upustio	801		3
 uputio	11310		3
 uradio	23165		3
-uramio	16		2
+uramio	16		3
 uranio	26		4
-urazumio	50		2
+urazumio	50		3
 uredio	920		3
-urodio	336		2
+urodio	336		3
 uronio	72		3
 urotio	49		3
 uručio	4721		3
-urušio	327		2
+urušio	327		3
 usadio	185		3
-usaglasio	115		2
-usamio			2
+usaglasio	115		3
+usamio			3
 usavršio	499		3
 uselio	597		3
 usidrio	42		4
-usinio			2
-usitnio	28		2
-uskladio	222		2
-uskopistio			2
-uskočio	340		2
+usinio			3
+usitnio	28		3
+uskladio	222		3
+uskopistio			3
+uskočio	340		3
 uskratio	425		3
-usledio	6269		2
-uslišio	196		2
-uslovio	594		2
-uslužio	33		2
+usledio	6269		3
+uslišio	196		3
+uslovio	594		3
+uslužio	33		3
 usmerio	961		4
 usmrdio			3
-usmrtio	764		2
-usnio	123		2
-usosio			2
-uspanicio			2
-uspaničario			2
-uspaničio	51		2
+usmrtio	764		3
+usnio	123		3
+usosio			3
+uspanicio			3
+uspaničario			3
+uspaničio	51		3
 uspio	2349	J	3
-uspokojio			2
+uspokojio			3
 usporio	799		3
 uspostavio	2152		4
-uspravio	170		2
-usprotivio	631		2
-usredsredio	220		2
-usrećio	211		2
-ustalio	324		2
+uspravio	170		3
+usprotivio	631		3
+usredsredio	220		3
+usrećio	211		3
+ustalio	324		3
 ustanovio	2373		3
-ustavio	18		2
-ustoličio	245		2
-ustrašio	17		2
-ustrelio	71		2
-ustremio	115		2
+ustavio	18		3
+ustoličio	245		3
+ustrašio	17		3
+ustrelio	71		3
+ustremio	115		3
 ustrojio	110		3
 ustupio	1091		3
 ustvrdio	633		3
 usudio	2164		3
-usvinjio			2
+usvinjio			3
 usvojio	4197		3
 utajio	117		3
-utamničio	19		2
+utamničio	19		3
 utanačio	44		3
 utažio			3
-utelovio			2
+utelovio			3
 utemeljio	385		3
 utešio	141		4
 utolio	32		3
 utopio	377		3
 utovario	23		4
-utrapio	23		2
+utrapio	23		3
 utrostručio	172		4
 utrošio	298		3
-utulio			2
-uturio			2
-utuvio	25		2
+utulio			3
+uturio			3
+utuvio	25		3
 utvrdio	5990		3
 uvalio	410		3
-uvatio	88		2
+uvatio	88		3
 uvažio	510		3
 uverio	2624		4
-uveštio			2
+uveštio			3
 uvidio	135		4
 uvio	71		3
 uvlačio	185		3
 uvodio	307		3
 uvozio	168		3
 uvredio	1203		3
-uvrio			2
+uvrio			3
 uvrstio	1295		3
-uvrtio			2
-uzajmio	26		2
-uzbio			2
+uvrtio			3
+uzajmio	26		3
+uzbio			3
 uzbudio	280		3
 uzbunio	55		3
 uzgojio	18		3
 uzjašio	10		4
-uzjogunio	24		2
-uzlazio			2
+uzjogunio	24		3
+uzlazio			3
 uzletio	83		3
-uzmučio			2
+uzmučio			3
 uznemirio	450		3
-uznosio	59		2
-uzvio			2
+uznosio	59		3
+uzvio			3
 uzvisio	67		3
-uzvratio	2021		2
-uzvrpoljio	18		2
-učaurio			2
+uzvratio	2021		3
+uzvrpoljio	18		3
+učaurio			3
 učinio	16572		3
 učio	5085		3
 učlanio	390		3
 učvrstio	789		3
-ušančio			2
+ušančio			3
 ušiljio			3
-ušio	21		2
-uškopio			2
+ušio	21		3
+uškopio			3
 uštedio	43		3
-užlebio			2
+užlebio			3
 vabio			3
 vadio	799		3
 vapio	105		3
 vario	128		3
-vatio			2
+vatio			3
 važio	1816		3
-vedrio	53		2
+vedrio	53		3
 verio	125		3
 veselio	171		3
 vidio	4524	J	3
 vio			2
-virilio			2
-virio	171		2
-visio	784		2
-vitorio			2
-vlačio			2
+virilio			3
+virio	171		3
+visio	784		3
+vitorio			3
+vlačio			3
 vlažio	21		3
 vodio	17346		3
 volio	2088	J	3
 vozio	7276		3
 vratio	23363		3
-vrijedio	41	J	2
+vrijedio	41	J	3
 vrpoljio	25		4
 vrtio	105		3
-vrvio			2
+vrvio			3
 vršio	2646		3
-zabacio	79		2
-zabatalio			2
+zabacio	79		3
+zabatalio			3
 zabavio	223		4
-zabeležio	6224		2
-zabiberio			2
-zabilježio	332	J	2
+zabeležio	6224		3
+zabiberio			3
+zabilježio	332	J	3
 zabio	588		3
 zabolio			3
 zaboravio	8044		4
 zabranio	2369		3
-zabravio	14		2
-zabrazdio	52		2
+zabravio	14		3
+zabrazdio	52		3
 zabunio	46		3
 zacario	54		4
 zacelio	19		3
-zacenio			2
-zacrvenio	24		2
-zacvilio			2
+zacenio			3
+zacrvenio	24		3
+zacvilio			3
 zadavio	125		3
 zadesio	622		4
 zadimio	10		4
 zadivio	256		3
-zadobio	2384		2
-zadocnio			2
+zadobio	2384		3
+zadocnio			3
 zadovoljio	1546		3
 zadubio	30		3
 zadužio	1353		3
 zagadio	91		4
-zagazio	188		2
-zagladio	13		2
+zagazio	188		3
+zagladio	13		3
 zaglavio	625		3
 zaglibio	98		3
-zaglušio	17		2
-zagnjurio	42		2
-zagorio			2
-zagovorio			2
-zagrabio	36		2
+zaglušio	17		3
+zagnjurio	42		3
+zagorio			3
+zagovorio			3
+zagrabio	36		3
 zagradio	56		3
 zagrlio	651		4
-zagubio	160		2
-zagustio			2
-zagušio	31		2
+zagubio	160		3
+zagustio			3
+zagušio	31		3
 zahvalio	7598		3
 zahvatio	1938		4
-zainatio	67		2
-zaintačio			2
-zajemčio			2
-zakaluđerio			2
-zakanio			2
+zainatio	67		3
+zaintačio			3
+zajemčio			3
+zakaluđerio			3
+zakanio			3
 zakasnio	937		3
-zakačio	857		2
-zakitio	20		2
+zakačio	857		3
+zakitio	20		3
 zaključio	16359		3
 zaklonio	97		3
-zaklopio	34		2
-zakoračio	551		2
-zakorio			2
+zaklopio	34		3
+zakoračio	551		3
+zakorio			3
 zakočio	121		3
-zakrilio	10		2
-zakrpio	57		2
-zakrčio	19		2
-zakupio	355		2
-zakvačio			2
+zakrilio	10		3
+zakrpio	57		3
+zakrčio	19		3
+zakupio	355		3
+zakvačio			3
 zalazio	219		4
-zaledio	161		2
-zalepio	409		2
-zaletio	29		2
-zalečio	69		2
+zaledio	161		3
+zalepio	409		3
+zaletio	29		3
+zalečio	69		3
 zalio	155		3
 zaljubio	1136		3
 zalomio	65		3
 založio	1307		3
-zaludio			2
+zaludio			3
 zalupio	115		4
-zamaglio	50		2
-zamandalio			2
+zamaglio	50		3
+zamandalio			3
 zamenio	4474		3
 zamerio	1312		4
-zamesio	26		2
+zamesio	26		3
 zamijetio	12	J	4
 zamislio	1908		4
 zamolio	6005		3
-zamomčio			2
-zamonašio	533		2
-zamorio	56		2
-zamočio			2
-zamračio	17		2
-zamrsio	24		2
+zamomčio			3
+zamonašio	533		3
+zamorio	56		3
+zamočio			3
+zamračio	17		3
+zamrsio	24		3
 zamrzio	13		3
 zamutio	57		3
 zanemario	363		3
-zanio	31		2
-zanosio	120		2
-zanoćio	35		2
-zaobilazio	102		2
-zaokruglio			2
+zanio	31		3
+zanosio	120		3
+zanoćio	35		3
+zaobilazio	102		3
+zaokruglio			3
 zaokružio	555		3
-zaokupio	76		2
-zaoštrio	111		2
+zaokupio	76		3
+zaoštrio	111		3
 zapalio	1967		3
 zapamtio	1026		3
 zapanjio	183		3
 zapazio	1247		4
-zapenio	29		2
-zapečatio	250		2
-zapio	29		2
+zapenio	29		3
+zapečatio	250		3
+zapio	29		3
 zaplašio	59		4
-zaplenio	93		2
+zaplenio	93		3
 zaplovio	124		3
 zaposlio	2943		3
 zapostavio	244		4
 zapovedio	362		4
 zapovjedio		J	4
-zaprepastio	247		2
-zapretio	1345		2
+zaprepastio	247		3
+zapretio	1345		3
 zaprosio	386		3
-zapržio	16		2
+zapržio	16		3
 zapustio	74		3
-zaputio	402		2
+zaputio	402		3
 zapušio	128		4
 zaradio	5932		3
 zaratio	119		4
-zarazio	437		2
+zarazio	437		3
 zaredio	26		3
-zario	207		2
-zarobio	408		2
-zaronio	217		2
-zarumenio			2
-zaručio	10		2
+zario	207		3
+zarobio	408		3
+zaronio	217		3
+zarumenio			3
+zaručio	10		3
 zasadio	452		3
 zasenio	210		4
 zasitio	142		4
-zaskočio	49		2
-zasladio	21		2
-zaslepio	23		2
+zaskočio	49		3
+zasladio	21		3
+zaslepio	23		3
 zaslužio	4538		3
-zastario	41		2
-zastidio			2
-zastranio	82		2
+zastario	41		3
+zastidio			3
+zastranio	82		3
 zastrašio	39		4
-zastrepio			2
+zastrepio			3
 zastupio			3
-zasuzio			2
-zasvedočio	11		2
+zasuzio			3
+zasvedočio	11		3
 zatajio	120		3
-zatamnio	24		2
+zatamnio	24		3
 zatočio	43		3
 zatražio	8278		3
-zatreperio	11		2
-zatulio			2
-zaturio	90		2
+zatreperio	11		3
+zatulio			3
+zaturio	90		3
 zatvorio	2620		3
 zaustavio	4180		4
-zaustio	58		2
+zaustio	58		3
 zavadio	84		4
-zavalio	101		2
-zavapio	185		2
-zavario	27		2
-zaverio			2
-zavidio			2
+zavalio	101		3
+zavapio	185		3
+zavario	27		3
+zaverio			3
+zavidio			3
 zavio	205		3
 zavirio	189		3
 zavisio	598		4
@@ -2194,42 +2194,42 @@ zavlačio	103		3
 zavodio	81		3
 zavolio	82	J	3
 zavrijedio	10	J	4
-zavrtio	22		2
+zavrtio	22		3
 završio	29906		3
-zazvonio	509		2
-zaćorio			2
-začepio	60		2
+zazvonio	509		3
+zaćorio			3
+začepio	60		3
 začinio	149		3
 začudio	509		4
-zašio	28		2
+zašio	28		3
 zaštitio	1701		3
 zažalio	240		3
 zaželio	78		3
-zažmirio	24		2
-zažmurio	93		2
-zbacio	243		2
+zažmirio	24		3
+zažmurio	93		3
+zbacio	243		3
 zbio	482		2
 zbližio	147		3
-zbratimio			2
+zbratimio			3
 zbunio	681		3
-zdimio			2
-zdipio	19		2
-zdravio			2
-zdrobio	21		2
-zdrpio			2
+zdimio			3
+zdipio	19		3
+zdravio			3
+zdrobio	21		3
+zdrpio			3
 združio	29		3
 zgadio	95		3
-zgazio	333		2
-zgnječio	17		2
-zgodio			2
-zgotovio	15		2
+zgazio	333		3
+zgnječio	17		3
+zgodio			3
+zgotovio	15		3
 zgrabio	583		3
-zgrešio	197		2
+zgrešio	197		3
 zgromio	11		3
 zgrozio	113		3
-zgrčio	41		2
+zgrčio	41		3
 zgurio			3
-zimio			2
+zimio			3
 zjapio	14		3
 zlopatio	30		4
 zloupotrebio	846		3
@@ -2238,146 +2238,146 @@ znojio	94		3
 zračio	162		3
 zurio	218		3
 zvonio	272		3
-ćapio			2
-ćario			2
-ćušio			2
+ćapio			3
+ćario			3
+ćušio			3
 čamio	77		3
 častio	363		3
-čerečio	14		2
-čilio			2
+čerečio	14		3
+čilio			3
 činio	5119		3
 čio		M	2
 čistio	526		3
 čudio	617		3
-čulio			2
-đipio			2
-đubrio			2
+čulio			3
+đipio			3
+đubrio			3
 šalio	538		3
-šaporio			2
-šepurio	71		2
+šaporio			3
+šepurio	71		3
 šio			2
 širio	1805		3
-šizio			2
+šizio			3
 škodio	37		3
 štedio	54		3
 štetio	67		3
 štitio	893		3
-šutio	86		2
-šćućurio	29		2
+šutio	86		3
+šćućurio	29		3
 žalio	2797		3
 žalostio	14		3
-žario	119		2
-ždrebio			2
+žario	119		3
+ždrebio			3
 želio	2097	J	3
 ženio	436		3
 živio	1595	J	3
-životario	28		2
-žmirio	11		2
-žmurio	32		2
-žuborio	15		2
+životario	28		3
+žmirio	11		3
+žmurio	32		3
+žuborio	15		3
 žudio	38		3
 žurio	553		3
-žvalavio			2
+žvalavio			3
 besjedio			4
 bijelio			4
 cijenio	95		4
 dijelio	196		4
 dodijelio	170		4
-dosjetio			2
+dosjetio			3
 griješio	41		4
 iscijelio	13		4
-ispovjedio			2
-ispriječio	12		2
+ispovjedio			3
+ispriječio	12		3
 izliječio	44		4
-izmijenio			2
-izmjenio			2
+izmijenio			3
+izmjenio			3
 izmjerio			4
-iznevjerio			2
+iznevjerio			3
 izvijestio			4
-izvjestio			2
+izvjestio			3
 liječio	48		4
 mijesio	10		4
 mjerio			3
-mjesečario			2
+mjesečario			3
 nagovijestio	57		4
 namijenio	38		4
-namjerio			2
+namjerio			3
 namjestio			4
 naslijedio	150		4
 nasmiješio	27		4
 obavijestio	313		4
-obavjestio			2
+obavjestio			3
 objesio			4
 ocijenio			4
-odlijepio	12		2
-odriješio			2
-ogriješio	44		2
-onesvijestio			2
-onesvjestio			2
+odlijepio	12		3
+odriješio			3
+ogriješio	44		3
+onesvijestio			3
+onesvjestio			3
 osjetio			4
-osmjelio			2
-osvijestio	14		2
-osvijetlio	20		2
-otrijeznio			2
+osmjelio			3
+osvijestio	14		3
+osvijetlio	20		3
+otrijeznio			3
 pješačio			3
 pobijedio	423		4
-pobjedio			2
-podcijenio			2
+pobjedio			3
+podcijenio			3
 podijelio	262		4
 podsjetio			4
-pogrijesio			2
+pogrijesio			3
 pogriješio	190		4
-pomjerio	61		2
+pomjerio	61		3
 posjetio			4
-potcijenio			2
+potcijenio			3
 povjerio			4
 povrijedio	89		4
-precijenio			2
-premjestio			2
-preusmjerio			2
+precijenio			3
+premjestio			3
+preusmjerio			3
 prijetio	186		4
-prilijepio			2
+prilijepio			3
 primijenio	58		4
 primijetio	471		4
-primjetio			2
+primjetio			3
 prisjetio			4
 procijenio			4
-procjenio			2
+procjenio			3
 promijenio	496		4
-promjenio			2
+promjenio			3
 pronevjerio			4
-proslijedio	53		2
+proslijedio	53		3
 provjerio			4
 rascijepio			4
 razdijelio	24		4
-razmjestio			2
-razriješio	19		2
+razmjestio			3
+razriješio	19		3
 riješio	327		4
-rješio			2
+rješio			3
 sagriješio	14		4
 sjetio			3
 smijenio	50		4
 smiješio	12		4
 smjestio			3
 spriječio			4
-svijetlio			2
+svijetlio			3
 svjedočio			3
 tješio			3
-ubijedio	39		2
+ubijedio	39		3
 ucijenio			4
-unaprijedio	45		2
-uslijedio	341		2
+unaprijedio	45		3
+uslijedio	341		3
 usmjerio			4
-ustrijelio			2
+ustrijelio			3
 utješio			4
 uvjerio			4
 uvrijedio	82		4
-zalijepio	27		2
+zalijepio	27		3
 zamijenio	208		4
-zamjenio			2
+zamjenio			3
 zamjerio			4
-zaplijenio			2
-zapovijedio			2
-zaprijetio	137		2
-zaslijepio	10		2
-zgriješio	44		2
+zaplijenio			3
+zapovijedio			3
+zaprijetio	137		3
+zaslijepio	10		3
+zgriješio	44		3

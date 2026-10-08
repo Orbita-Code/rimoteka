@@ -16,7 +16,7 @@ Koreji			2
 Libiji			3
 Litvaniji			3
 Makedoniji			3
-Maleziji			2
+Maleziji			3
 Mariji			3
 Mongoliji			3
 Nigeriji			3
@@ -37,7 +37,7 @@ adolescenciji	322		3
 afektaciji			3
 afirmaciji	1692		3
 agenciji	14114		3
-agentkinji			2
+agentkinji			3
 agilniji	130		4
 agitaciji	57		3
 agoniji	423		3
@@ -51,24 +51,24 @@ aktuelniji	153		5
 akustičniji			4
 akutniji			4
 alegoriji	46		3
-aleji	380		2
-aleksandriji			2
+aleji	380		3
+aleksandriji			3
 alergiji			3
 alhemiji	78		3
 alibiji	13		3
-aliji			2
+aliji			3
 alimentaciji	16		3
-aljkaviji			2
-almeriji			2
-alokaciji	45		2
+aljkaviji			3
+almeriji			3
+alokaciji	45		3
 alternaciji	35		3
 amajliji			3
-amaliji			2
-amazoniji			2
+amaliji			3
+amazoniji			3
 ambiciji	214		3
 ambiciozniji	207		6
 ambroziji			3
-ameliji			2
+ameliji			3
 amfibiji			3
 amnestiji	883		3
 amneziji	37		3
@@ -76,30 +76,30 @@ amortizaciji			3
 amputaciji	30		3
 analogiji	474		3
 anarhiji	140		3
-anastasiji			2
-anastaziji			2
+anastasiji			3
+anastaziji			3
 anatomiji	201		3
-andaluziji			2
-andriji			2
+andaluziji			3
+andriji			3
 aneksiji	45		3
 anesteziji	820		3
 animaciji	293		3
 anji			2
-anksiozniji			2
+anksiozniji			3
 anomaliji	39		3
 anonimniji			5
-anoreksiji			2
-antaliji			2
-anteriji			2
+anoreksiji			3
+antaliji			3
+anteriji			3
 antiheroji	31		2
-antiohiji			2
+antiohiji			3
 antipatičniji			4
 antologiji	394		3
 antropologiji	187		3
-anđeliji			2
+anđeliji			3
 apatiji	145		3
 aplikaciji	1814		3
-aplikativniji			2
+aplikativniji			3
 apologiji	47		3
 apsolutniji			5
 apsorpciji	111		3
@@ -107,28 +107,28 @@ apstinenciji	88		3
 apstrakciji	74		3
 apstraktniji			4
 apsurdniji	13		4
-arabiji			2
+arabiji			3
 arheologiji	278		3
-arhijereji	561		2
+arhijereji	561		3
 aristokratiji	48		3
 armiji	1144		3
 aroganciji	139		3
 aromatičniji			4
 arteriji	146		3
 artiljeriji	59		3
-asanaciji			2
+asanaciji			3
 asimilaciji	261		3
-asistentkinji	26		2
+asistentkinji	26		3
 asocijaciji	1123		3
 astrologiji	374		3
-astrometriji			2
+astrometriji			3
 astronomiji	726		3
-asturiji			2
+asturiji			3
 atrakciji	70		3
 atraktivniji	583		5
-atribuciji			2
+atribuciji			3
 audiciji	267		3
-audijenciji	47		2
+audijenciji	47		3
 aukciji	2506		3
 autobiografiji	347		3
 autohtoniji			4
@@ -138,8 +138,8 @@ aveniji	327		3
 avijaciji	303		3
 aviokompaniji	148		3
 avliji	368		3
-aziji			2
-aždaji			2
+aziji			3
+aždaji			3
 ažurniji	69		4
 badnji	764		2
 bahatiji	53		4
@@ -147,17 +147,17 @@ baji	221		2
 baklji	382		2
 bakteriji	95		3
 banalniji			3
-baniji	125		2
+baniji	125		3
 banji			2
 baranji			3
 bateriji	381		3
-baščaršiji			2
-bedeviji			2
+baščaršiji			3
+bedeviji			3
 bedniji	101		3
-bekriji			2
+bekriji			3
 belji			2
 belkinji			3
-belorusiji			2
+belorusiji			3
 beskrupulozniji			6
 besmisleniji	40		5
 besniji	31		3
@@ -167,35 +167,35 @@ bezazleniji			4
 bezbedniji	857		4
 bezbolniji	91		3
 bezbrižniji	51		4
-beznadežniji			2
+beznadežniji			3
 bezobrazniji	76		4
 bezobzirniji	47		5
 bezočniji	11		4
 bezubiji			4
-bezuslovniji			2
+bezuslovniji			3
 bešnji			2
-beštiji			2
-bežaniji	127		2
+beštiji			3
+bežaniji	127		3
 bibliji	796		3
 bigamiji			3
 bikiniji	14		3
 biografiji	1464		3
-biohemiji	62		2
+biohemiji	62		3
 biologiji	491		3
-birokratiji	282		2
-birtiji			2
+birokratiji	282		3
+birtiji			3
 biskupiji	189		3
 bistriji	62		3
 bitniji	985		3
-bivolji			2
-bizarniji			2
+bivolji			3
+bizarniji			3
 bjelkinji			3
-blaženiji			2
+blaženiji			3
 bleji	210		2
-blentaviji			2
-blesaviji			2
+blentaviji			3
+blesaviji			3
 bleštaviji			4
-bliskiji			2
+bliskiji			3
 blistaviji	44		4
 bližnji	447		2
 bljutaviji			4
@@ -203,27 +203,27 @@ bodlji	115		2
 bogalji	57		3
 bogatiji	3578		4
 boginji	356		3
-bogomolji	62		2
-bogosloviji	400		2
+bogomolji	62		3
+bogosloviji	400		3
 boji	14857		2
-bolesniji			2
-bolećiviji			2
-boliviji			2
+bolesniji			3
+bolećiviji			3
+boliviji			3
 bolji	58310		2
 bolniji	139		3
-bolonji			2
+bolonji			3
 boraniji	55		3
 borbeniji	78		4
 božiji	2852		3
 božji	4922		2
-bradonji			2
+bradonji			3
 branitelji	430		4
-bratiji	508		2
+bratiji	508		3
 bravlji		M	2
-braziliji			2
+braziliji			3
 brblji			2
 bretanji			3
-britaniji			2
+britaniji			3
 brlji			2
 broji	6584		2
 brojniji	802		3
@@ -231,27 +231,27 @@ bruji	486		2
 brutalniji	94		4
 bubnji	24		2
 budniji	38		3
-bujniji	37		2
+bujniji	37		3
 bulji	227		2
-bundžiji			2
+bundžiji			3
 buntovniji			4
-buržoaziji	132		2
-buržuji	110		2
+buržoaziji	132		3
+buržuji	110		3
 butelji			2
 buvlji			2
 bučniji	216		3
-californiji			2
+californiji			3
 cedulji	29		3
 celji	19		2
-celogodišnji			2
-celovečernji			2
+celogodišnji			3
+celovečernji			3
 celovitiji	52		4
 cenjeniji	93		4
 ceremoniji	2206		3
 cirkulaciji	363		3
 civilizaciji	1350		3
-civilizovaniji			2
-crepaji			2
+civilizovaniji			3
+crepaji			3
 crepulji	17		3
 crnji	195		2
 crnkinji	12		3
@@ -262,94 +262,94 @@ dagnji	34		2
 daji		M	2
 dalji	13323		2
 daljnji	357		2
-dalmaciji			2
+dalmaciji			3
 današnji	15489		3
 danji	98		2
 darežljiviji	22		4
-darovatelji			2
+darovatelji			3
 darovitiji	18		4
-davitelji	10		2
+davitelji	10		3
 davnašnji	157		3
-davniji			2
+davniji			3
 deblji			2
 deceniji	4913		3
-decentralizaciji	1459		2
+decentralizaciji	1459		3
 definiciji	3455		3
-degustaciji	208		2
-dekadenciji	79		2
+degustaciji	208		3
+dekadenciji	79		3
 deklaraciji	2137		3
-dekoraciji	224		2
+dekoraciji	224		3
 delegaciji	1646		3
-delitelji	39		2
+delitelji	39		3
 demagogiji	229		3
 demantiji	30		4
-dembeliji			2
+dembeliji			3
 demokraciji	120		3
 demokratiji	3457		3
-demokratičniji	36		2
-demonstraciji	227		2
+demokratičniji	36		3
+demonstraciji	227		3
 deponiji	1092		3
-deportaciji	106		2
+deportaciji	106		3
 depresiji	904		3
-depresivniji	32		2
-deputaciji			2
+depresivniji	32		3
+deputaciji			3
 desetogodišnji	553		3
-deskripciji	38		2
-destileriji	25		2
+deskripciji	38		3
+destileriji	25		3
 destinaciji	767		3
 destrukciji	212		3
 detalji	8689		2
 detaljniji	872		4
 detinji	97		3
-detoksikaciji	90		2
-devetnaestogodišnji	146		2
-devetogodišnji	174		2
+detoksikaciji	90		3
+devetnaestogodišnji	146		3
+devetogodišnji	174		3
 dečiji			3
 dečji	3505		2
-dečurliji	18		2
+dečurliji	18		3
 difuziji	57		3
-diglosiji			2
+diglosiji			3
 dikciji	41		3
 dimenziji	990		3
-dinamičniji	387		2
+dinamičniji	387		3
 dinastiji	269		3
 diplomaciji	12		3
-diplomatiji	945		2
-direkciji	2805		2
+diplomatiji	945		3
+direkciji	2805		3
 direktniji	270		4
 dirljiviji			4
-disciplinovaniji			2
-disertaciji	258		2
-diskreciji	157		2
+disciplinovaniji			3
+disertaciji	258		3
+diskreciji	157		3
 diskretniji	70		4
 diskriminaciji	1124		3
 diskusiji	3014		3
-disperziji	31		2
-dispoziciji	73		2
+disperziji	31		3
+dispoziciji	73		3
 distorziji	21		3
 distribuciji	1481		3
-diviziji	673		2
+diviziji	673		3
 divlji	2425		2
-divljiji			2
+divljiji			3
 divniji	20		3
 dlakaviji	13		4
 dobročinitelji	72		4
-docniji			2
+docniji			3
 docnji	200		2
 događaji	9286		4
 dogradnji	203		3
 doji	769		2
 dojkinji			3
-dojučerašnji	655		2
+dojučerašnji	655		3
 dokumentaciji	2285		3
 dominaciji	799		3
 donaciji	1310		3
 donji	7439		2
 dosadašnji	7043		3
 dosadniji	72		4
-doskorašnji	1268		2
+doskorašnji	1268		3
 dostojniji	56		3
-dotadašnji	906		2
+dotadašnji	906		4
 doživljaji	527		4
 draginji			3
 dragoceniji	73		4
@@ -357,109 +357,109 @@ dragulji	203		2
 dramatičniji	109		4
 drevniji	11		3
 drhtaji	26		3
-drhtulji			2
-drogeriji	23		2
+drhtulji			3
+drogeriji	23		3
 dronji			2
-drskiji			2
+drskiji			3
 drugačiji	17728		3
 drukčiji	948		3
 društveniji	37		4
 drvodelji			4
 dublji	1983		2
-dugogodišnji	5714		2
-dugonji			2
+dugogodišnji	5714		3
+dugonji			3
 duhovitiji	72		4
 duhovniji	26		3
 dulji	49		2
 dunji	41		2
 duplji	404		2
-dvadesetogodišnji	275		2
-dvanaestogodišnji	157		2
+dvadesetogodišnji	275		3
+dvanaestogodišnji	157		3
 dvoboji	38		3
-dvogodišnji	1182		2
+dvogodišnji	1182		3
 dvoji	33		2
 džamiji	792		3
 džokeji	56		2
-ediciji	814		2
+ediciji	814		3
 edukaciji	2676		3
 efektivniji	122		5
 efektniji	122		4
-efendiji			2
+efendiji			3
 efikasniji	3565		5
 egzaktniji			4
 egzekuciji	76		3
 ekologiji	958		3
 ekonomiji	8235		3
 ekonomičniji	263		4
-ekselenciji	93		2
-ekskurziji	428		2
+ekselenciji	93		3
+ekskurziji	428		3
 ekspanziji	1123		3
 ekspediciji	409		3
-eksploataciji	1421		2
+eksploataciji	1421		3
 eksploziji	1463		3
-ekspresiji	116		2
+ekspresiji	116		3
 eksproprijaciji	433		3
 ekstremniji	114		3
-eleganciji	148		2
+eleganciji	148		3
 elegantniji	176		3
 elegiji	15		3
 elementarniji			6
 eliminaciji	353		3
 emancipaciji	237		3
 emigraciji	554		3
-emiliji			2
+emiliji			3
 emisiji	9658		3
 emociji	139		3
-empiriji	26		2
+empiriji	26		3
 enciklopediji	483		3
 energiji	2176		3
 energičniji	121		4
 eparhiji	1901		3
 epidemiji	277		3
-epifaniji			2
-episkopiji	93		2
-epopeji	81		2
+epifaniji			3
+episkopiji	93		3
+epopeji	81		3
 erekciji	235		3
-eritreji			2
-eroziji	124		2
+eritreji			3
+eroziji	124		3
 erudiciji	31		3
 erupciji	106		3
 eseji	657		2
 esenciji	61		3
-eskalaciji	87		2
+eskalaciji	87		3
 etnologiji	98		3
 euforiji	402		3
 eutanaziji	72		3
 evakuaciji	223		3
-evaluaciji	324		2
-evgeniji			2
-evidenciji	2969		2
-evokaciji	14		2
+evaluaciji	324		3
+evgeniji			3
+evidenciji	2969		3
+evokaciji	14		3
 evoluciji	1061		3
-evroaziji			2
-evroviziji	446		2
-fabrikaciji			2
-familiji			2
+evroaziji			3
+evroviziji	446		3
+fabrikaciji			3
+familiji			3
 fantaziji	227		3
 fantazmagoriji			3
-fariseji	308		2
-farizeji			2
-farmaciji	283		2
+fariseji	308		3
+farizeji			3
+farmaciji	283		3
 federaciji	3192		3
-fibrilaciji			2
-figuraciji	24		2
+fibrilaciji			3
+figuraciji	24		3
 fikciji	176		3
-fiksaciji	19		2
-filharmoniji	198		2
+fiksaciji	19		3
+filharmoniji	198		3
 filologiji	65		3
-filosofiji	338		2
+filosofiji	338		3
 filozofiji	2407		3
-filtraciji	26		2
+filtraciji	26		3
 finiji	165		3
 fiziologiji	128		3
 fleksibilniji	522		5
 fluktuaciji	29		3
-foliji	241		2
+foliji	241		3
 fondaciji	699		3
 fonologiji	12		3
 formaciji	520		3
@@ -467,24 +467,24 @@ formalniji	18		3
 formulaciji	385		3
 fotelji	1157		2
 fotografiji	3388		3
-fotokopiji	91		2
+fotokopiji	91		3
 frakciji	89		3
 franji			2
 frazeologiji	37		3
 frekvenciji	1158		3
-frenologiji			2
+frenologiji			3
 frustraciji	81		3
 funkciji	14400		3
-furiji	48		2
-fuziji	106		2
+furiji	48		3
+fuziji	106		3
 gadniji	20		3
 gaji	3707		2
 galaksiji	762		3
 galantniji	10		3
 galeriji	8587		3
-galiciji			2
+galiciji			3
 galiji	141		3
-gambiji			2
+gambiji			3
 garanciji	724		3
 gdekoji	45		3
 generaciji	4005		3
@@ -493,15 +493,15 @@ geografiji	351		3
 geologiji	97		3
 geometriji	210		3
 geraniji			3
-germaniji			2
+germaniji			3
 gimnaziji	3919		3
 ginekologiji	218		3
-gipkiji			2
+gipkiji			3
 gladniji	103		3
 glasniji	650		3
-glavniji			2
+glavniji			3
 glavobolji	89		3
-glavonji			2
+glavonji			3
 glomazniji	44		4
 gluplji	458		2
 gnoji	30		2
@@ -509,56 +509,56 @@ godišnji	15340		3
 goji	531		2
 goliji	152		3
 golotinji	59		3
-golubiji		M	2
-gonitelji			2
+golubiji		M	3
+gonitelji			3
 gordiji			3
 gornji	8544		2
 gospodnji		M	3
 gotoviji			4
-gradaciji	85		2
+gradaciji	85		3
 graditelji	993		4
 gradnji	2743		2
 gradskiji			2
-grafiji	21		2
+grafiji	21		3
 gramziviji			4
 gravitaciji	251		3
 grdnji			2
 grdosiji	13		4
 grešniji	25		3
-grgolji			2
+grgolji			3
 grinji			2
-grizliji	32		2
+grizliji	32		3
 grkinji			3
-grlatiji	13		2
-grmalji			2
-grnčariji	42		2
-grofoviji	42		2
+grlatiji	13		3
+grmalji			3
+grnčariji	42		3
+grofoviji	42		3
 grozniji	13		3
 grublji	218		2
-grupaciji	861		2
-gruziji			2
-grčevitiji			2
+grupaciji	861		3
+gruziji			3
+grčevitiji			3
 guščiji		M	3
 guščji			2
-gvineji			2
-hajdučiji	26		2
+gvineji			3
+hajdučiji	26		3
 halucinaciji	18		3
-handžiji			2
-harmoniji	982		2
+handžiji			3
+harmoniji	982		3
 hartiji	505		3
-havaji			2
+havaji			3
 havariji	47		3
-hebreji			2
+hebreji			3
 hegemoniji	216		3
 hemiji	488		3
-hemoterapiji	131		2
+hemoterapiji	131		3
 heroji	2341		2
 hibernaciji	76		3
 hijerarhiji	1098		3
-himalaji			2
+himalaji			3
 hipiji	15		3
-hirotoniji			2
-hirurgiji	757		2
+hirotoniji			3
+hirurgiji	757		3
 histeriji	209		3
 hitniji	56		3
 hitnji	29		2
@@ -566,7 +566,7 @@ hitriji	21		3
 hladniji	524		3
 hobiji	122		3
 homogeniji	18		5
-hostiji			2
+hostiji			3
 hrabriji	456		3
 hranitelji	241		4
 huji			2
@@ -579,11 +579,11 @@ ideologiji	1375		3
 idolatriji	22		3
 igumaniji	94		3
 ikoji	54		3
-iliji			2
-iliriji			2
+iliji			3
+iliriji			3
 iluziji	491		3
 imaginaciji	219		3
-imanenciji			2
+imanenciji			3
 imenitelji	23		4
 imigraciji	143		3
 imitaciji	99		3
@@ -591,7 +591,7 @@ imperiji	836		3
 impresivniji	89		5
 improvizaciji	214		3
 imućniji	267		4
-inadžiji			2
+inadžiji			3
 inauguraciji	238		3
 indikaciji	30		3
 industriji	16489		3
@@ -601,10 +601,10 @@ inferiorniji	94		6
 inflaciji	688		3
 informaciji	1488		3
 infuziji	154		3
-ingušetiji			2
-inicijaciji	50		2
-inicijalizaciji	12		2
-injekciji			2
+ingušetiji			3
+inicijaciji	50		3
+inicijalizaciji	12		3
+injekciji			3
 inkarnaciji	154		3
 inkviziciji	83		3
 inovaciji	206		3
@@ -612,15 +612,15 @@ inspekciji	2160		3
 inspiraciji	300		3
 instalaciji	985		3
 instituciji	3381		3
-institucionalizaciji	78		2
+institucionalizaciji	78		3
 integraciji	1925		3
 inteligenciji	761		3
 inteligentniji	319		3
-intenciji	65		2
+intenciji	65		3
 intenzivniji	757		5
 interakciji	1150		3
 interesantniji	579		3
-intereždžiji			2
+intereždžiji			3
 interpretaciji	1349		3
 interpunkciji	25		3
 intervenciji	1065		3
@@ -631,72 +631,72 @@ invaziji	251		3
 invenciji	28		3
 inverziji	43		3
 investiciji	833		3
-inđiji			2
-inženjeriji			2
+inđiji			3
+inženjeriji			3
 ironiji	136		3
 iscelitelji	97		4
 iscrpniji	20		4
-iskašlji			2
+iskašlji			3
 iskreniji	250		4
-iskupitelji			2
+iskupitelji			3
 iskusniji	1286		4
-ispenji			2
-ispolji	668		2
+ispenji			3
+ispolji	668		3
 ispravniji	107		4
 istanji	35		3
-istančaniji	29		2
+istančaniji	29		3
 istinitiji	46		5
 istoriji	38310		3
-istrajniji	51		2
+istrajniji	51		3
 istražitelji	892		4
 izazovniji	55		5
-izbavitelji			2
+izbavitelji			3
 izbroji	163		3
 izdaji	820		3
 izdašniji	78		4
 izdržljiviji	180		4
 izdvoji	3192		2
-izgledniji	37		2
+izgledniji	37		3
 izgradnji	18615		2
 izmigolji	72		2
 izolaciji	1235		3
 izrazitiji	97		5
-izraženiji	799		2
+izraženiji	799		3
 izumitelji	81		4
 izuzetniji			5
 izvesniji	229		4
 izveštaji	6239		4
-izvršitelji	636		2
+izvršitelji	636		3
 ičiji	36		3
 jadniji	135		3
 janji			2
-jarosniji			2
+jarosniji			3
 jarčji			2
 jasniji	1233		3
-javniji			2
+javniji			3
 jecaji	93		3
-jednogodišnji	881		2
+jednogodišnji	881		3
 jednostavniji	1807		5
-jefimiji			2
+jefimiji			3
 jeftiniji	7081		4
-jekteniji	12		2
-jelenji			2
-jenkiji			2
-jerarhiji			2
-jereji	104		2
-jeremiji			2
-jermeniji			2
-jesenašnji		M	2
+jekteniji	12		3
+jelenji			3
+jenkiji			3
+jerarhiji			3
+jereji	104		3
+jeremiji			3
+jermeniji			3
+jesenašnji		M	3
 jesenji	1491		2
-jevreji			2
-jevtiniji			2
+jevreji			3
+jevtiniji			3
 jeziviji	22		4
-jubileji			2
-judeji			2
-jugoslaviji			2
-jugoviziji			2
-jukstapoziciji	12		2
-juliji			2
+jubileji			3
+judeji			3
+jugoslaviji			3
+jugoviziji			3
+jukstapoziciji	12		3
+juliji			3
 junakinji	119		3
 junačniji			4
 jurisdikciji	101		3
@@ -704,61 +704,61 @@ jutarnji	2315		3
 jutrošnji	90		3
 jučeranji			3
 jučerašnji	1513		3
-kadiji			2
-kafeteriji	82		2
-kafiteriji			2
+kadiji			3
+kafeteriji	82		3
+kafiteriji			3
 kaji	42		2
 kakofoniji	59		3
-kaliforniji			2
-kamilji		M	2
+kaliforniji			3
+kamilji		M	3
 kampanji	9931		2
 kanalizaciji	474		3
 kancelariji	7092		3
-kapadokiji			2
-kapetaniji	100		2
+kapadokiji			3
+kapetaniji	100		3
 kapiji	1003		3
 kaplji	14		2
 kardiologiji	133		3
-kareji			2
+kareji			3
 karoseriji	289		3
-kasaciji			2
+kasaciji			3
 kasniji	1728		3
-kastilji			2
-kastraciji	48		2
-kataloniji			2
-kataniji			2
+kastilji			3
+kastraciji	48		3
+kataloniji			3
+kataniji			3
 kategoriji	17739		3
 kauboji	255		4
-kauciji	19		2
-kavaleriji			2
-kavedžiji			2
+kauciji	19		3
+kavaleriji			3
+kavedžiji			3
 kašlji			2
 kecelji	43		3
-keliji			2
-kesedžiji			2
-kinematografiji	877		2
+keliji			3
+kesedžiji			3
+kinematografiji	877		3
 kinji	147		2
 kinologiji	19		3
-kirajdžiji			2
-kirgiziji			2
-kiriji			2
+kirajdžiji			3
+kirgiziji			3
+kiriji			3
 kiseliji	24		4
 klasifikaciji	1134		3
 klasičniji	36		4
-klijentkinji	21		2
-kliktaji			2
-klišeji			2
+klijentkinji	21		3
+kliktaji			3
+klišeji			3
 klonji			2
 kneginji	86		3
 koaliciji	6952		3
 kobilji			3
 koheziji	116		3
 koji	2805274		2
-kokošiji			2
-kokošji			2
+kokošiji			3
+kokošji			3
 kolekciji	1587		3
-koliviji			2
-koliziji	521		2
+koliviji			3
+koliziji	521		3
 kolji	71		2
 koloniji	1129		3
 kolonizaciji	177		3
@@ -772,7 +772,7 @@ komotniji	69		4
 kompaniji	17950		3
 kompenzaciji	139		3
 kompleksniji	492		4
-komplikovaniji			2
+komplikovaniji			3
 kompoziciji	605		3
 komunikaciji	6501		3
 komšiji	787		3
@@ -781,9 +781,9 @@ koncepciji	1252		3
 koncesiji	489		3
 koncizniji	34		4
 kondiciji	918		3
-konekciji	201		2
+konekciji	201		3
 konfederaciji	177		3
-konfekciji	59		2
+konfekciji	59		3
 konferenciji	25576		3
 konfesiji	43		3
 konfiguraciji	922		3
@@ -794,7 +794,7 @@ konkretniji	705		4
 konkurenciji	16049		3
 konotaciji	105		3
 konspiraciji	31		3
-konstataciji	377		2
+konstataciji	377		3
 konstrukciji	1681		3
 kontaminaciji	49		3
 kontemplaciji	62		3
@@ -807,26 +807,26 @@ konzervativniji	100		6
 koordinaciji	1087		3
 kopanji			3
 kopiji	268		3
-koračaji	23		2
-koreditelji			2
-korekciji	340		2
+koračaji	23		3
+koreditelji			3
+korekciji	340		3
 korektniji	116		4
 korelaciji	782		3
-koreografiji	281		2
-korežiji			2
-korifeji	50		2
+koreografiji	281		3
+korežiji			3
+korifeji	50		3
 korisniji	452		4
 koroziji	91		3
 korporaciji	593		3
 korupciji	3425		3
-kosmologiji	108		2
+kosmologiji	108		3
 kozeriji			3
-koziji			2
+koziji			3
 kozji	261		2
 kočiji	93		3
 košulji	650		3
 koščatiji			4
-kraguji			2
+kraguji			3
 krajnji	8497		2
 krasniji			3
 kravlji	150		2
@@ -851,31 +851,31 @@ krpelji	432		3
 krupniji	567		3
 krvaviji	50		4
 kržljaviji			4
-kseniji			2
-kucaji			2
+kseniji			3
+kucaji			3
 kuhinji	4785		3
 kuji	43		2
 kulturniji	186		3
-kupelji	29		2
-kupoprodaji	1089		2
-kuražniji			2
-kuriji	106		2
+kupelji	29		3
+kupoprodaji	1089		3
+kuražniji			3
+kuriji	106		3
 kurji			2
-kuršumliji			2
+kuršumliji			3
 kutiji	2434		3
-kućepazitelji			2
+kućepazitelji			3
 kušnji	27		2
-kvalifikovaniji			2
+kvalifikovaniji			3
 kvalitetniji	4589		5
 labaviji	54		4
 laboratoriji	3760		3
-labrnji			2
+labrnji			3
 laganiji	118		4
 lagodniji	91		4
-lagumdžiji			2
-lakeji	53		2
+lagumdžiji			3
+lakeji	53		3
 lakrdiji	51		3
-laponiji			2
+laponiji			3
 lavlji	48		2
 legalizaciji	736		3
 legiji	266		3
@@ -885,26 +885,26 @@ lenji	1319		2
 lepinji	69		3
 letargiji	70		3
 letnji	4416		2
-letoniji			2
+letoniji			3
 letošnji	40		3
 levlji			2
 ležaji	38		3
 ležerniji	74		4
 liberalniji	189		5
-liberiji			2
+liberiji			3
 licitaciji	1060		3
-lidiji			2
+lidiji			3
 lignji	76		2
 likvidaciji	675		3
-limariji	36		2
+limariji	36		3
 liniji	13069		3
-liposukciji	38		2
+liposukciji	38		3
 lisičji	53		3
 litiji	315		3
 lišaji	10		3
 ljubazniji	125		4
 ljubitelji	6570		4
-ljuboviji			2
+ljuboviji			3
 ljudskiji	30		2
 ljutnji	174		2
 lobanji	189		3
@@ -915,70 +915,70 @@ lokaciji	9306		3
 lokvanji	33		2
 lošiji	2939		3
 lubanji			3
-luciji			2
+luciji			3
 ludoriji			3
 lukaviji	106		4
-lustraciji	423		2
+lustraciji	423		3
 lutriji	692		3
 mafiji	678		3
 magiji	407		3
-magneziji			2
-mahinaciji			2
+magneziji			3
+mahinaciji			3
 maji	309		2
-majstoriji	15		2
+majstoriji	15		3
 malobrojniji	94		5
-malopređašnji		M	2
+malopređašnji		M	3
 maloprodaji	1637		3
-manasiji			2
-mandžuriji			2
-maniji	41		2
+manasiji			3
+mandžuriji			3
+maniji	41		3
 manipulaciji	747		3
 manji	30573		2
-mantiji	140		2
+mantiji	140		3
 marljiviji	20		4
 masivniji	102		4
-masmediji			2
-masoneriji	68		2
+masmediji			3
+masoneriji	68		3
 masovniji	273		4
 masturbaciji	80		3
 materiji	1260		3
 materinji	39		4
 maternji		M	2
-matiji			2
+matiji			3
 mauzoleji	31		3
 mačiji			3
 mačji	209		2
-mađiji			2
+mađiji			3
 mašineriji	185		3
 maštovitiji	134		4
 medalji	290		3
-medeji			2
-medijaciji	217		2
+medeji			3
+medijaciji	217		3
 mediji	44131		3
 meditaciji	327		3
-mehandžiji			2
-melaneziji			2
-melanholiji	86		2
-melaniji			2
+mehandžiji			3
+melaneziji			3
+melanholiji	86		3
+melaniji			3
 melodiji	114		3
 memoriji	1419		3
-menažeriji	17		2
-meniji			2
+menažeriji	17		3
+meniji			3
 mesiji	77		3
 mesnatiji			4
-mesopotamiji			2
+mesopotamiji			3
 meteorologiji			3
-metohiji			2
+metohiji			3
 meškolji	72		2
 migolji	55		2
-migraciji	126		2
-mileniji			2
+migraciji	126		3
+mileniji			3
 miliciji	183		3
 miliji	212		3
 milji	54		2
 milostinji	48		3
 milostiviji	25		5
-mimikriji	38		2
+mimikriji	38		3
 mineralogiji			3
 mirisniji			4
 mirniji	787		3
@@ -986,38 +986,38 @@ misiji	3351		3
 misteriji	125		3
 misteriozniji	15		6
 mitologiji	975		3
-mizeriji	28		2
-mišiji			2
+mizeriji	28		3
+mišiji			3
 mišićaviji	21		5
 mišji	34		2
 mladoženji	76		3
-mnogogodišnji			2
+mnogogodišnji			3
 mobilizaciji	196		3
 mobilniji	35		4
 moderniji	769		4
 modernizaciji	1403		3
-modulaciji	36		2
+modulaciji	36		3
 moji	15202		2
-moldaviji			2
-momčadiji			2
-monahinji	74		2
+moldaviji			3
+momčadiji			3
+monahinji	74		3
 monarhiji	744		3
 monogamiji	16		3
 monotoniji	45		5
 moralniji	73		3
-morbidniji			2
+morbidniji			3
 morfologiji	94		3
 motivaciji	556		3
 moćniji	1031		3
 mravinji			3
 mravlji	33		2
 mračniji	133		3
-mrgodniji			2
+mrgodniji			3
 mrlji	82		2
-mrmolji			2
+mrmolji			3
 mrtviji	11		3
-mrzitelji	177		2
-mrzovolji	15		2
+mrzitelji	177		3
+mrzovolji	15		3
 mrzovoljniji	10		5
 mršaviji	185		4
 mržnji	1083		2
@@ -1026,29 +1026,29 @@ muftiji	244		3
 mumiji	33		3
 municiji	266		3
 munji	24		2
-muriji	26		2
+muriji	26		3
 mutaciji	48		3
 mutniji	24		3
 muvlji		M	2
 muzeji	1363		2
 mučitelji	259		4
 mučniji	19		3
-mušteriji			2
-muževlji			2
+mušteriji			3
+muževlji			3
 muževniji	38		4
 naboji	31		3
 nabroji	269		2
 naciji	2521		3
-nacionalizaciji	175		2
+nacionalizaciji	175		3
 nadgradnji	163		3
 nadmoćniji	162		4
-nadogradnji	374		2
-nadražaji	70		2
-nadziratelji			2
+nadogradnji	374		3
+nadražaji	70		3
+nadziratelji			3
 naginji	10		3
 nagoji			3
-nagoveštaji	457		2
-nahiji	383		2
+nagoveštaji	457		3
+nahiji	383		3
 naivniji	55		4
 najagresivniji	100		6
 najaktivniji	677		5
@@ -1060,45 +1060,45 @@ najaromatičniji			5
 najautohtoniji			5
 najbahatiji			5
 najbanalniji	77		4
-najbedniji			2
+najbedniji			3
 najbeskrupulozniji			7
 najbesniji			4
 najbesramniji			4
 najbezazleniji			5
 najbezbedniji	354		5
-najbeznadežniji			2
+najbeznadežniji			3
 najbeznačajniji	16		6
 najbistriji	21		4
 najbitniji	1949		4
-najblagorodniji			2
-najblentaviji			2
-najblesaviji	10		2
-najbliskiji			2
+najblagorodniji			3
+najblentaviji			3
+najblesaviji	10		3
+najbliskiji			3
 najblistaviji	56		5
 najbljutaviji			5
 najbogatiji	1853		5
-najbolesniji			2
+najbolesniji			3
 najbolji	79694		3
 najbolniji	125		4
-najbrilijantniji			2
-najbriljantniji	25		2
+najbrilijantniji			3
+najbriljantniji	25		3
 najbrojniji	1137		4
 najbrutalniji	214		5
 najbudniji	13		4
 najburniji	28		4
 najbučniji	70		4
-najcenjeniji			2
+najcenjeniji			3
 najcrnji	263		3
 najdalji	98		3
 najdeblji			3
 najdirektniji	200		5
-najdivljiji			2
+najdivljiji			3
 najdivniji	96		4
-najdonji			2
+najdonji			3
 najdosadniji	105		5
-najdragoceniji			2
+najdragoceniji			3
 najdramatičniji	102		5
-najdrskiji			2
+najdrskiji			3
 najdublji	521		3
 najduhovitiji	78		5
 najefikasniji	4154		6
@@ -1113,22 +1113,22 @@ najfiniji	165		4
 najgadniji	11		4
 najgenijalniji	42		6
 najglasniji	719		4
-najglavniji			2
-najgledaniji	512		2
+najglavniji			3
+najgledaniji	512		3
 najgluplji	261		3
 najgnusniji	43		4
 najgoliji			4
 najgostoljubiviji	17		5
 najgradskiji			3
 najgrešniji	11		4
-najgrlatiji	61		2
+najgrlatiji	61		3
 najgrozniji	24		4
 najgrublji	303		3
 najhitniji	47		4
 najhitriji	10		4
 najhladniji	175		4
 najhrabriji	477		4
-najhranljiviji			2
+najhranljiviji			3
 najhumaniji	88		5
 najidealniji	95		6
 najimpresivniji	91		6
@@ -1138,19 +1138,19 @@ najinteresantniji	772		4
 najintimniji	88		5
 najiskreniji	194		5
 najiskusniji	515		5
-najistaknutiji			2
-najistrajniji	34		2
+najistaknutiji			3
+najistrajniji	34		3
 najizrazitiji	190		6
 najjadniji	59		4
 najjasniji	294		4
-najjavniji			2
+najjavniji			3
 najjednostavniji	1415		6
 najjeftiniji	2202		5
 najjeziviji	20		5
-najjužniji	61		2
+najjužniji	61		3
 najkasniji	30		4
 najkobniji			4
-najkomplikovaniji			2
+najkomplikovaniji			3
 najkorisniji	528		5
 najkreativniji	193		6
 najkritičniji	236		5
@@ -1158,7 +1158,7 @@ najkrivlji	91		3
 najkrupniji	224		4
 najkrvaviji	128		5
 najkršniji			4
-najkvalifikovaniji			2
+najkvalifikovaniji			3
 najkvalitetniji	1466		6
 najlabilniji			5
 najlaganiji	12		5
@@ -1180,75 +1180,75 @@ najmučniji	22		4
 najnapredniji	376		5
 najnasilniji	23		5
 najneobičniji	117		6
-najnepodesniji			2
+najnepodesniji			3
 najneposredniji	111		6
 najnepostojaniji			6
 najnepovoljniji	89		6
 najneprijatniji	41		6
 najnesposobniji	51		6
-najnespretniji			2
-najnesrećniji	74		2
-najneverovatniji	53		2
-najnežniji			2
+najnespretniji			3
+najnesrećniji	74		3
+najneverovatniji	53		3
+najnežniji			3
 najnormalniji	91		5
 najnoviji	15132		4
 najnužniji	23		4
 najobičniji	988		5
-najobljubljeniji			2
-najobrazovaniji			2
-najodabraniji			2
+najobljubljeniji			3
+najobrazovaniji			3
+najodabraniji			3
 najodaniji	115		5
 najodgovorniji	1166		6
-najodlikovaniji			2
+najodlikovaniji			3
 najodvratniji	80		5
-najogorčeniji			2
-najokoreliji	66		2
-najokrutniji			2
+najogorčeniji			3
+najokoreliji	66		3
+najokrutniji			3
 najomiljeniji	515		6
-najomraženiji			2
+najomraženiji			3
 najopakiji	25		5
-najopasniji			2
-najopušteniji	41		2
-najopštiji			2
+najopasniji			3
+najopušteniji	41		3
+najopštiji			3
 najoriginalniji	200		7
-najosetljiviji		M	2
+najosetljiviji		M	3
 najosećajniji			6
 najosnovniji	192		5
-najosobeniji	12		2
+najosobeniji	12		3
 najotporniji	54		4
 najozbiljniji	1062		5
-najozloglašeniji	59		2
-najozlojeđeniji			2
+najozloglašeniji	59		3
+najozlojeđeniji			3
 najočigledniji	397		6
 najočitiji	94		5
 najoštriji	229		4
 najpametniji	1123		5
 najpažljiviji	21		5
-najplaćeniji			2
+najplaćeniji			3
 najplemenitiji	160		5
 najplodniji	141		4
-najpodliji			2
+najpodliji			3
 najpogodniji	621		5
 najpogubniji	60		5
-najpokvareniji			2
+najpokvareniji			3
 najponosniji	136		5
 najpopularniji	2893		6
-najposniji			2
-najposvećeniji	30		2
+najposniji			3
+najposvećeniji	30		3
 najpotpuniji	193		5
 najpotrebniji	542		5
 najpouzdaniji	619		6
-najpoverljiviji			2
+najpoverljiviji			3
 najpovoljniji	1142		5
 najpoznatiji	6084		5
 najpošteniji	210		5
-najpoštovaniji			2
+najpoštovaniji			3
 najpoželjniji	351		5
 najpraktičniji	111		5
-najpravdoljubiviji			2
+najpravdoljubiviji			3
 najpraviji			4
 najprecizniji	256		5
-najprevareniji			2
+najprevareniji			3
 najpribližniji	139		5
 najprihvatljiviji	201		5
 najprijatniji	98		5
@@ -1259,34 +1259,34 @@ najprisniji	43		4
 najpristojniji	14		4
 najprivlačniji	137		5
 najprljaviji	135		5
-najprodavaniji			2
+najprodavaniji			3
 najprofitabilniji	179		7
 najprostiji	260		4
 najpuniji	23		4
-najrabatniji			2
-najradiji			2
+najrabatniji			3
+najradiji			3
 najradosniji	352		5
 najraniji	376		4
 najranjiviji	128		5
 najraskošniji	29		5
-najrasprostranjeniji			2
+najrasprostranjeniji			3
 najravniji			4
 najrazumniji	41		5
 najromantičniji	109		5
-najrođeniji			2
+najrođeniji			3
 najružniji	201		4
-najsabraniji			2
+najsabraniji			3
 najsavremeniji	868		6
 najsavršeniji	246		5
 najsebičniji	11		5
-najseksipilniji	42		2
+najseksipilniji	42		3
 najsigurniji	905		5
 najsilniji	28		4
 najsiromašniji	708		5
 najsirotiji			5
 najsitniji	175		4
 najsjajniji	201		4
-najskoriji	57		2
+najskoriji	57		3
 najskuplji	2684		3
 najslabiji	893		4
 najslavniji	269		4
@@ -1296,74 +1296,74 @@ najsmeliji	70		4
 najsmešniji	13		4
 najsmrtonosniji	98		6
 najsnažniji	732		4
-najsofisticiraniji	64		2
+najsofisticiraniji	64		3
 najsočniji	17		4
 najspektakularniji	92		7
 najsporiji	192		4
 najsposobniji	383		5
-najspremniji			2
+najspremniji			3
 najsramotniji	12		5
 najsretniji	116		4
 najsrećniji	1127		4
 najstariji	6964		4
 najstrastveniji	33		5
 najstrašniji	384		4
-najsubjektivniji			2
+najsubjektivniji			3
 najsudbonosniji	10		5
 najsumnjiviji	42		5
 najsuvlji	40		3
 najsvetiji	133		4
 najsvetliji	169		4
-najsvežiji			2
+najsvežiji			3
 najtajniji			4
-najtalentovaniji			2
+najtalentovaniji			3
 najtamniji	56		4
 najtananiji	16		5
 najtanji			3
 najtačniji	161		4
 najtešnji			3
 najtopliji	323		4
-najtraženiji	909		2
+najtraženiji	909		3
 najtužniji	169		4
-najtvrdoglaviji	13		2
-najubedljiviji	212		2
+najtvrdoglaviji	13		3
+najubedljiviji	212		3
 najubogiji			5
 najudaljeniji	148		5
 najudobniji	122		5
 najugledniji	357		5
 najukusniji	130		5
 najumniji	99		4
-najupečatljiviji	509		2
+najupečatljiviji	509		3
 najuporniji	311		5
 najusamljeniji	28		5
 najuspešniji	3269		5
-najuticajniji			2
+najuticajniji			3
 najuviđavniji			6
-najuvrnutiji			2
+najuvrnutiji			3
 najuzbudljiviji	266		5
-najuzvišeniji			2
-najučestaliji	85		2
+najuzvišeniji			3
+najučestaliji	85		3
 najužasniji	45		5
 najvažniji	11748		4
 najvedriji	15		4
 najvelikodušniji			5
 najveličanstveniji	55		5
-najverniji			2
-najverovatniji			2
+najverniji			3
+najverovatniji			3
 najveseliji	124		5
 najveštiji	123		4
-najvidniji	10		2
-najviđeniji			2
-najvoljeniji	47		2
+najvidniji	10		3
+najviđeniji			3
+najvoljeniji	47		3
 najvredniji	944		4
 najzabavniji	127		5
-najzabitiji			2
+najzabitiji			3
 najzadovoljniji	290		6
-najzagriženiji	53		2
+najzagriženiji	53		3
 najzahvalniji	81		4
-najzamagljeniji			2
+najzamagljeniji			3
 najzanimljiviji	1294		5
-najzapadniji			2
+najzapadniji			3
 najzaposleniji	25		6
 najzaslužniji	1774		5
 najzdraviji	423		4
@@ -1373,19 +1373,19 @@ najznatniji	33		4
 najznačajniji	5252		5
 najzreliji	69		4
 najčasniji	62		4
-najčistiji			2
+najčistiji			3
 najčudesniji	28		5
 najčudniji	143		4
-najčuveniji			2
+najčuveniji			3
 najšarmantniji	46		4
 najšašaviji			5
 najžedniji			4
 najžilaviji	20		5
 najživlji	53		3
-nakašlji			2
+nakašlji			3
 naklonjeniji	168		5
-namibiji			2
-nanotehnologiji	66		2
+namibiji			3
+nanotehnologiji	66		3
 napadaji	32		4
 napetiji	62		4
 napoji	204		3
@@ -1395,26 +1395,26 @@ napredniji	902		4
 naraciji	115		3
 naraštaji	325		4
 nasilniji	36		4
-nasrtaji	65		2
+nasrtaji	65		3
 nastoji	6603		3
-nataliji			2
-navigaciji	240		2
-načulji			2
-nedavnašnji			2
+nataliji			3
+navigaciji	240		3
+načulji			3
+nedavnašnji			3
 nedelji	6753		3
-nedostojniji			2
-nedođiji	195		2
+nedostojniji			3
+nedođiji	195		3
 negaciji	150		3
 negdašnji	146		3
 nejasniji	20		4
-nejevreji			2
-nekadanji	26		2
+nejevreji			3
+nekadanji	26		3
 nekadašnji	10436		4
 nekoji	38		3
 nekompetentniji			3
 nemanji			3
 nemarniji	13		4
-nematernji			2
+nematernji			3
 nemilosrdniji	42		6
 nemirniji	30		4
 nemoćniji	50		4
@@ -1428,22 +1428,22 @@ neprijatelji	5177		5
 neprimetniji	13		5
 nerotkinji			4
 nervozniji	206		4
-nesaradnji	11		2
-neskloniji			2
+nesaradnji	11		3
+neskloniji			3
 nesnosniji	18		4
-nesporniji			2
-nesrećniji	81		2
+nesporniji			3
+nesrećniji	81		3
 nestabilniji	48		5
-nestašniji			2
+nestašniji			3
 nestrpljiviji	52		4
 nesvakidašnji	1281		3
 neugledniji			5
-neumoljiviji			2
-neurohirurgiji	55		2
+neumoljiviji			3
+neurohirurgiji	55		3
 neurologiji	132		3
 nevaljaliji			4
 nevažniji			4
-nevečernji			2
+nevečernji			3
 neveštiji			4
 neviniji	15		4
 nevolji	2339		3
@@ -1455,27 +1455,27 @@ nečiji	2976		3
 nečistiji			4
 neženji			3
 nežniji	299		3
-nikeji			2
-nikoziji			2
-nivelaciji	37		2
-niziji	227		2
+nikeji			3
+nikoziji			3
+nivelaciji	37		3
+niziji	227		3
 ničiji	732		3
-ništavniji			2
+ništavniji			3
 nježniji		J	3
-nominaciji	114		2
+nominaciji	114		3
 normalniji	208		4
-normandiji			2
-nositelji	81		2
+normandiji			3
+nositelji	81		3
 nostalgiji	137		3
 novajliji	39		3
 noviji	1838		3
-novogodišnji	1958		2
+novogodišnji	1958		3
 noćašnji	56		3
 nošnji	777		2
-numeraciji	42		2
-numerologiji	58		2
+numeraciji	42		3
+numerologiji	58		3
 nutarnji			3
-obazriviji	160		2
+obazriviji	160		3
 obdukciji	69		3
 obilatiji			4
 obilniji	62		4
@@ -1483,47 +1483,47 @@ obimniji	276		4
 običaji	2483		4
 običniji	35		4
 obligaciji			3
-obližnji	768		2
-obogalji	12		2
+obližnji	768		3
+obogalji	12		3
 oboji	326		2
-obrazovaniji			2
+obrazovaniji			3
 obrtaji	133		4
 obzirniji	17		4
-odabraniji			2
+odabraniji			3
 odaji	170		3
-odalji			2
+odalji			3
 odaniji	35		4
 odbroji	32		3
-odgaji	109		2
+odgaji	109		3
 odgoji	50		3
 odgovorniji	535		5
 odiseji	140		2
 odličniji			4
 odlučniji	296		4
 odmorniji	112		4
-odnošaji			2
+odnošaji			3
 odobrovolji	113		2
 odoji			3
-odrasliji	22		2
+odrasliji	22		3
 određeniji	136		4
-odsečniji			2
-odsjaji	57		2
+odsečniji			3
+odsjaji	57		3
 odstoji	1464		3
-odsudniji			2
+odsudniji			3
 odvažniji	52		4
 odvoji	2936		2
 odvratniji	38		4
 ogromniji			4
-okeaniji			2
+okeaniji			3
 oklagiji			3
 okretniji	52		4
-okrnji	60		2
-okrutniji			2
+okrnji	60		3
+okrutniji			3
 okršaji	227		4
 oksidaciji	64		3
 okupaciji	567		3
 oligarhiji	155		3
-olimpiji			2
+olimpiji			3
 oluji	899		2
 omanji	298		3
 omiljeniji	64		5
@@ -1532,9 +1532,9 @@ onkologiji	146		3
 onomadašnji			4
 ontologiji	59		3
 opakiji	27		4
-opasniji			2
+opasniji			3
 opatiji	229		3
-opažaji	16		2
+opažaji	16		3
 opciji	1680		3
 operaciji	2203		3
 ophodnji			2
@@ -1543,25 +1543,25 @@ opoji			3
 opominji	18		3
 opoziciji	4634		3
 oprezniji	506		4
-oprlji			2
+oprlji			3
 oproštaji			4
 opservatoriji	93		3
 opsesiji	108		3
 opstoji	65		3
-opušteniji	557		2
+opušteniji	557		3
 opširniji	229		4
-opštiji			2
-ordiji			2
-ordinaciji	1166		2
+opštiji			3
+ordiji			3
+ordinaciji	1166		3
 organizaciji	33021		3
 orgiji	37		3
-orhideji			2
+orhideji			3
 originalniji	159		6
-orijentaciji			2
-ortoepiji			2
+orijentaciji			3
+ortoepiji			3
 ortopediji	157		3
-osamdesetogodišnji	75		2
-oscilaciji	19		2
+osamdesetogodišnji	75		3
+oscilaciji	19		3
 osetljiviji	525		4
 osetniji	65		4
 osećaji	477		4
@@ -1569,23 +1569,23 @@ osećajniji	18		5
 osinji			3
 osjećaji		J	4
 oskudniji	49		4
-osmogodišnji	229		2
-osobeniji			2
+osmogodišnji	229		3
+osobeniji			3
 osorniji			4
 osrednji	508		3
 ostoji			3
 osvoji	6629		2
-otkucaji	272		2
+otkucaji	272		3
 otmeniji	37		4
 otpoji			3
 otporniji	410		3
 otvoreniji	600		5
 ovdašnji	2317		3
-ovogodišnji	7594		2
+ovogodišnji	7594		3
 ovčiji	130		3
 ovčji	33		2
 ozbiljniji	3386		4
-označitelji	11		2
+označitelji	11		3
 oznoji	106		3
 očajniji	29		4
 očigledniji	145		5
@@ -1594,82 +1594,82 @@ oštriji	762		3
 pacijentkinji	165		4
 pametniji	2781		4
 paničniji			4
-panoniji			2
+panoniji			3
 papagaji	446		3
-papirologiji	52		2
+papirologiji	52		3
 paranoji	135		2
-parcelaciji	12		2
-parfimeriji	120		2
+parcelaciji	12		3
+parfimeriji	120		3
 parodiji	92		3
-parohiji	656		2
+parohiji	656		3
 participaciji	154		3
-partiji	4597		2
+partiji	4597		3
 pasivniji	29		4
 pasji	96		2
-patagoniji			2
+patagoniji			3
 patnji	1351		2
 patologiji	183		3
-pazljiviji			2
+pazljiviji			3
 pačiji			3
 pačji	14		2
 pažljiviji	366		4
 pažnji	1482		2
 pedagogiji	249		3
-pedesetogodišnji			2
-pedijatriji	159		2
-penastiji			2
-peniji			2
+pedesetogodišnji			3
+pedijatriji	159		3
+penastiji			3
+peniji			3
 penji	25		2
-pensilvaniji			2
+pensilvaniji			3
 penziji	2974		3
 percepciji	817		3
-perfekciji	72		2
-perfidniji	85		2
-periferiji	2390		2
-persiji			2
+perfekciji	72		3
+perfidniji	85		3
+periferiji	2390		3
+persiji			3
 perverziji	21		3
-perziji			2
+perziji			3
 pesnikinji	111		4
-peticiji	336		2
+peticiji	336		3
 petlji	649		2
-petnaestogodišnji			2
-petogodišnji	994		2
+petnaestogodišnji			3
+petogodišnji	994		3
 pešadiji	92		3
-philadelphiji			2
-piceriji	172		2
-pigmeji	21		2
+philadelphiji			3
+piceriji	172		3
+pigmeji	21		3
 pijaniji	25		4
 pilji	60		2
-pirateriji	161		2
-pirineji			2
+pirateriji	161		3
+pirineji			3
 pismeniji	139		4
-pitiji			2
+pitiji			3
 pitomiji	72		4
 pištolji	407		2
 plavlji			2
 plemenitiji	89		4
 plodniji	46		3
 pobačaji	70		4
-pobeditelji			2
+pobeditelji			3
 pobožniji	16		4
 pobroji	59		3
-podeblji			2
+podeblji			3
 podesniji	33		4
-podetinji			2
-podliji			2
+podetinji			3
+podliji			3
 podložniji	272		4
 podmukliji	46		3
 podnošljiviji	80		4
 podoji	121		3
 podrobniji	47		4
-podsticaji	1228		2
+podsticaji	1228		3
 podsuknji			3
 podvoji			3
-poetizaciji			2
+poetizaciji			3
 poeziji	3066		3
-poganiji			2
+poganiji			3
 pogibelji	74		3
-pogibiji	359		2
+pogibiji	359		3
 pogodniji	372		4
 poji	120		2
 pokazatelji	2752		4
@@ -1678,44 +1678,44 @@ pokolji	139		3
 pokretljiviji	70		4
 pokretniji	16		4
 pokroji			3
-pokrovitelji	696		2
+pokrovitelji	696		3
 pokunji	13		2
 pokušaji	4295		4
 policiji	13690		3
-polifoniji	19		2
+polifoniji	19		3
 poligamiji	25		3
-polijeleji	13		2
-polineziji			2
+polijeleji	13		3
+polineziji			3
 položaji	550		4
-poludivlji	18		2
+poludivlji	18		3
 polugodišnji	181		3
 pomanji		M	3
-pometnji	136		2
+pometnji	136		3
 pominji	71		3
-pomiritelji			2
+pomiritelji			3
 pomirljiviji	29		4
-pompeji			2
-ponajbolji	126		2
+pompeji			3
+ponajbolji	126		3
 poniji	17		3
 ponosniji	88		4
-popadiji	32		2
-popenji			2
+popadiji	32		3
+popenji			3
 populaciji	3823		3
 popularniji	1478		5
 popustljiviji	83		4
-porazniji	46		2
-porciji	148		2
+porazniji	46		3
+porciji	148		3
 poremećaji	2708		5
 pornografiji	212		3
-porodilji	133		2
-porođaji	122		2
+porodilji	133		3
+porođaji	122		3
 posetitelji	17		4
 poslednji	45745		3
 posljednji		J	3
 poslušniji	65		4
 poslužitelji	28		4
-posnažniji			2
-posniji			2
+posnažniji			3
+posniji			3
 postaji	107		3
 postariji	59		4
 postelji	1011		3
@@ -1723,98 +1723,98 @@ postiđeniji			4
 postoji	256018		3
 postroji	81		3
 posvoji			2
-posvudašnji			2
-potaji	240		2
-potenciji	39		2
+posvudašnji			4
+potaji	240		3
+potenciji	39		3
 potkošulji	36		4
-potonji	1298		2
+potonji	1298		3
 potpuniji	372		4
-potražnji	507		2
+potražnji	507		3
 potrebniji	423		4
 potrošnji	3772		2
 pouzdaniji	657		5
-poučniji	13		2
+poučniji	13		3
 povelji	1326		3
 povezaniji	53		4
-poviji			2
+poviji			3
 povoji			3
-povolji			2
+povolji			3
 povoljniji	2099		4
 površniji	25		4
-pozemlji			2
+pozemlji			3
 poziciji	14112		3
 pozitivniji	285		5
 poznatiji	2720		4
-pozniji			2
-pozvaniji	74		2
-počinitelji	128		2
+pozniji			3
+pozvaniji	74		3
+počinitelji	128		3
 počinji	43		3
 pošalji	2006		3
 pošteniji	326		4
 poželjniji	139		4
-praistoriji	281		2
+praistoriji	281		3
 praktičniji	298		4
 praroditelji	53		4
-pratilji	18		2
+pratilji	18		3
 pratnji	4563		2
-pravedniji	370		2
+pravedniji	370		3
 pravilniji	114		4
 pravičniji	75		4
 prazniji	147		3
 prebroji	213		3
 precizniji	1577		4
 predaji	832		3
-predaniji	17		2
+predaniji	17		3
 prednji	4066		2
-predosećaji			2
+predosećaji			3
 predradnji	19		3
 predstoji	5569		3
-predvečernji	10		2
+predvečernji	10		3
 predzadnji			3
-prefinjeniji	70		2
+prefinjeniji	70		3
 pregoji			3
 prekjučerašnji	34		3
 preklinji			3
-prekršaji	613		2
-preksutrašnji			2
-prekvalifikaciji	54		2
-premeštaji	20		2
+prekršaji	613		3
+preksutrašnji			3
+prekvalifikaciji	54		3
+premeštaji	20		3
 prenosiviji	12		4
-preokupaciji	18		2
+preokupaciji	18		3
 prepredeniji	15		4
-preprodaji	119		2
+preprodaji	119		3
 preriji	33		3
 prespoji	17		3
-prestaji			2
+prestaji			3
 prestoji			3
 presudniji	41		4
 pretenziji	26		3
-pretežniji	64		2
+pretežniji	64		3
 pretnji	4544		2
-pretoriji			2
-pretposlednji	361		2
+pretoriji			3
+pretposlednji	361		3
 pretstoji			3
-preudaji			2
-prevenciji	3405		2
+preudaji			3
+prevenciji	3405		3
 previšnji			3
 prevoji	49		3
 prezalogaji	41		2
-prezentaciji	4364		2
+prezentaciji	4364		3
 preznoji	39		3
 pređašnji		M	3
 prgaviji			4
-pribraniji			2
+pribraniji			3
 pribroji	28		2
 prigodniji	13		4
-prigušeniji			2
+prigušeniji			3
 prihvatljiviji	404		4
 prijatelji	23311		4
 prijatniji	513		4
 prijazniji			4
 prikladniji	180		4
-prikolji			2
+prikolji			3
 priličniji			4
-prilježniji			2
+prilježniji			3
 primetniji	39		4
 primitivniji	86		5
 pripoji	395		2
@@ -1826,14 +1826,14 @@ pristojniji	138		3
 pristupačniji	384		5
 prisutniji	552		4
 prisvoji	296		3
-pritaji	54		2
+pritaji	54		3
 privatizaciji	4997		3
 privlačniji	423		4
 privrženiji	49		5
-prizemlji	113		2
-prizemniji	33		2
-priznatiji			2
-pričljiviji			2
+prizemlji	113		3
+prizemniji	33		3
+priznatiji			3
+pričljiviji			3
 prljaviji	108		4
 prlji			2
 proboji	51		3
@@ -1841,43 +1841,43 @@ procesiji	55		3
 prodaji	14965		3
 produkciji	3462		3
 produktivniji	425		5
-produlji			2
+produlji			3
 profesiji	2503		3
 profesionalniji	146		7
 profinjeniji			4
-progonitelji	78		2
+progonitelji	78		3
 prohibiciji	18		3
-prohuji	24		2
+prohuji	24		3
 proizvodnji	20559		2
 projekciji	895		3
 prokletinji			3
 proklinji			3
-proletnji			2
-proletošnji		M	2
+proletnji			3
+proletošnji		M	3
 promaji	242		3
 promašaji	355		4
 promeškolji	58		2
-promigolji			2
+promigolji			3
 promociji	6686		3
 proporciji	277		3
-prosečniji			2
+prosečniji			3
 prostiji	130		3
 prostituciji	286		3
-prostodušniji			2
+prostodušniji			3
 prostoriji	4547		3
-prostruji	98		2
+prostruji	98		3
 prosvetitelji	188		4
-prosvećeniji	30		2
-protekciji	29		2
-protutnji	82		2
+prosvećeniji	30		3
+protekciji	29		3
+protutnji	82		3
 provaliji	161		3
 providniji	12		4
-provinciji	2451		2
-proviziji	68		2
-provodadžiji			2
-prozaizaciji			2
+provinciji	2451		3
+proviziji	68		3
+provodadžiji			3
+prozaizaciji			3
 prozodiji			3
-prozuji			2
+prozuji			3
 prošlogodišnji	2794		3
 prošnji	14		2
 prvakinji	33		4
@@ -1910,16 +1910,16 @@ raniji	2747		3
 ranjiviji	96		4
 raskošniji	43		4
 raspinji			3
-raspoloženiji	137		2
+raspoloženiji	137		3
 rasprodaji	448		4
-rasprostranjeniji			2
+rasprostranjeniji			3
 rastroji			3
 ratifikaciji	439		3
 ravniji	62		3
 razapinji			3
 razboji	45		2
 razboritiji	18		5
-razdrlji			2
+razdrlji			3
 razdvoji	658		2
 razgovetniji			5
 razgradnji	240		3
@@ -1928,87 +1928,87 @@ razorniji	45		3
 razumljiviji	143		4
 razumniji	143		4
 razuzdaniji			5
-razuđeniji	22		2
-razvijeniji	369		2
+razuđeniji	22		3
+razvijeniji	369		3
 razvoji	50		3
 račji			2
-rašireniji			2
-readmisiji	476		2
+rašireniji			3
+readmisiji	476		3
 reakciji	1186		3
-realističniji	93		2
+realističniji	93		3
 realizaciji	12170		3
 realniji	528		4
-reanimaciji	83		2
-recenziji	284		2
+reanimaciji	83		3
+recenziji	284		3
 recepciji	928		3
 recesiji	1071		3
 redakciji	3225		3
 redatelji	22		4
-reditelji	1150		2
+reditelji	1150		3
 redovniji	71		4
 redukciji	261		3
-refleksiji	93		2
-regeneraciji	153		2
+refleksiji	93		3
+regeneraciji	153		3
 regiji	4161		3
-regionalizaciji	491		2
+regionalizaciji	491		3
 registraciji	1700		3
 regresiji	60		3
 regrutaciji	58		3
 regulaciji	646		3
 rehabilitaciji	1598		3
 reinkarnaciji	128		3
-rekciji			2
+rekciji			3
 rekonstrukciji	4023		3
 rekreaciji	278		3
-relaciji	5146		2
+relaciji	5146		3
 releji	108		2
 religiji	1986		3
-relikviji	11		2
-reljefniji			2
+relikviji	11		3
+reljefniji			3
 relji			2
-relokaciji			2
-remisiji	65		2
+relokaciji			3
+remisiji	65		3
 reorganizaciji	421		3
 reparaciji	43		3
-repeticiji	12		2
+repeticiji	12		3
 represiji	268		3
 reprezentaciji	3827		3
 reprodukciji	415		3
 reputaciji	380		3
 restauraciji	368		3
-restoraciji			2
-reviji	960		2
+restoraciji			3
+reviji	960		3
 reviziji	1811		3
 revnosniji	58		4
 revoluciji	1532		3
 rezbariji	10		3
 rezervaciji	134		3
-rezervisaniji			2
+rezervisaniji			3
 rezidenciji	890		3
 rezoluciji	5094		3
 rečitiji	64		4
 režiji	6380		3
 riblji	665		2
-robiji	341		2
+robiji	341		3
 robinji	32		3
 roditelji	38810		4
 rodniji			3
 rogonji			3
 roji	37		2
-romaniji			2
+romaniji			3
 romantičniji	57		4
 rotaciji	389		3
-rozaliji			2
-rođakinji			2
-rođeniji			2
+rozaliji			3
+rođakinji			3
+rođeniji			3
 roštilji	65		2
 rublji			2
 rujniji			3
 rulji	75		2
-rumeniji			2
-rumiji			2
+rumeniji			3
+rumiji			3
 ruskinji			3
-rusofobiji			2
+rusofobiji			3
 rustičniji			4
 ružniji	157		3
 sablji	244		2
@@ -2016,99 +2016,99 @@ sadanji			3
 sadašnji	10465		3
 sadržaji	5355		4
 saginji			3
-sajentologiji			2
+sajentologiji			3
 sakristiji	12		3
 saksiji	548		3
-saksoniji			2
-samardžiji			2
+saksoniji			3
+samardžiji			3
 samelji			3
 samopouzdaniji	38		5
-samospoznaji	81		2
+samospoznaji	81		3
 samovolji	282		3
 samovoljniji			5
-samoživiji			2
+samoživiji			3
 samuraji	150		2
 sanaciji	1412		3
 sanji			2
 sankciji	75		3
 saobraćaji			5
-saosećajniji			2
+saosećajniji			3
 saradnji	50454		2
-saraji			2
-sarajliji			2
-sardiniji			2
+saraji			3
+sarajliji			3
+sardiniji			3
 sastoji	25120		3
 savršeniji	223		4
 sažetiji	53		4
 scenariji	471		3
-scenografiji	234		2
+scenografiji	234		3
 secesiji	309		3
-sedamdesetogodišnji	46		2
-sedamnaestogodišnji	195		2
-sedmogodišnji	285		2
-segmentaciji	21		2
-segoviji			2
+sedamdesetogodišnji	46		3
+sedamnaestogodišnji	195		3
+sedmogodišnji	285		3
+segmentaciji	21		3
+segoviji			3
 sekciji	1704		3
-seksipilniji			2
+seksipilniji			3
 selekciji	2090		3
-semberiji			2
-sentandreji			2
+semberiji			3
+sentandreji			3
 senzaciji	73		3
 separaciji	107		3
 seriji	9582		3
 sesiji	566		3
-sevdiji			2
-severniji			2
-sevilji			2
-siciliji			2
+sevdiji			3
+severniji			3
+sevilji			3
+siciliji			3
 sigurniji	1531		4
 siledžiji	30		3
 silniji	50		3
 silovatelji	158		4
 silovitiji			4
-silviji			2
+silviji			3
 simetriji	80		3
 simfoniji	91		3
 simpatiji	86		3
 simpatičniji	90		4
 simulaciji	365		3
 sinergiji	370		3
-sinhronizaciji	162		2
+sinhronizaciji	162		3
 sinji	136		2
-sinovlji			2
+sinovlji			3
 sinoćnji	127		3
 siromašniji	1098		4
 sirotiji			4
 sirotinji	1122		3
-sirotniji			2
+sirotniji			3
 sitniji	467		3
 situaciji	31501		3
 sivlji			2
 sićušniji			4
 sjaji	228		2
 sjajniji	217		3
-skadarliji			2
+skadarliji			3
 skiji			2
 skitnji			2
 skladnji			2
 skloniji	898		3
 skorašnji	510		3
-skoriji	184		2
-skriveniji			2
+skoriji	184		3
+skriveniji			3
 skroji	84		2
 skromniji	536		3
 skuplji	6505		2
 slabiji	4944		3
 slaniji	14		3
-slaviji			2
+slaviji			3
 slavniji	71		3
-slavoniji			2
+slavoniji			3
 slavuji	108		2
-slikariji			2
-slikovitiji	31		2
+slikariji			3
+slikovitiji	31		3
 sličniji	331		3
 slobodniji	488		4
-slovakinji			2
+slovakinji			3
 složeniji	1150		4
 složniji	49		3
 slutnji	134		2
@@ -2123,22 +2123,22 @@ smetnji	2038		2
 smešniji	138		3
 smeštaji	44		3
 smilji			2
-smireniji			2
+smireniji			3
 smrtonosniji	28		5
 smutnji			2
 snaji			2
 snažniji	1686		3
-snimatelji	263		2
+snimatelji	263		3
 snošljiviji	13		4
 sociologiji	383		3
 sodomiji	21		3
-sofisticiraniji	197		2
+sofisticiraniji	197		3
 soji	272		2
-sokobanji			2
+sokobanji			3
 solidniji	37		4
 solji			2
-soluciji	55		2
-somaliji			2
+soluciji	55		3
+somaliji			3
 sonji			2
 sočniji	43		3
 spahiji	34		3
@@ -2175,46 +2175,46 @@ stalniji			3
 stanji	22		2
 staratelji	287		4
 stariji	16864		3
-sticaji			2
+sticaji			3
 stidljiviji	35		4
-stihiji	296		2
-stilizaciji	67		2
-stimulaciji	217		2
+stihiji	296		3
+stilizaciji	67		3
+stimulaciji	217		3
 stipendiji	95		3
-stogodišnji	160		2
+stogodišnji	160		3
 stoji	54389		2
-stolariji	66		2
+stolariji	66		3
 stomatologiji			3
 strahinji			3
-strasniji			2
+strasniji			3
 strategiji	4599		3
 strašniji	219		3
 stražnji	115		2
 strepnji	205		2
-strožiji			2
+strožiji			3
 strpljiviji	108		4
 struji	1309		2
 stručniji	295		3
-studentkinji	121		2
+studentkinji	121		3
 studiji	6090		3
 stupnji			2
 stvarniji	70		3
 stvoritelji			4
-sublimaciji	26		2
-subordinaciji	28		2
+sublimaciji	26		3
+subordinaciji	28		3
 subotnji	438		3
-subvenciji	77		2
-subverziji	30		2
+subvenciji	77		3
+subverziji	30		3
 sudiji	2248		3
 sudnji	486		2
 sugestiji	218		3
 sujetniji			4
-sukcesiji	363		2
+sukcesiji	363		3
 suknji	413		2
 sumnji	1873		2
 sumnjiviji	31		4
 sumorniji	20		4
-superheroji	114		2
+superheroji	114		3
 superiorniji	347		6
 suprotniji			4
 suptilniji	215		4
@@ -2223,25 +2223,25 @@ suspenziji	277		3
 sutkinji	12		3
 sutrašnji	1238		3
 suvlji	81		2
-suzdržaniji			2
+suzdržaniji			3
 sužnji	178		2
 svagdanji			3
 svagdašnji	50		3
 svakidašnji	146		4
 svačiji	1037		3
-svemoćniji			2
+svemoćniji			3
 svesniji	431		3
 svetiji	29		3
 svetinji	761		3
-svetitelji			2
+svetitelji			3
 svetliji	513		3
 svevišnji	278		3
 svečaniji	49		4
-svežiji			2
+svežiji			3
 svinji	78		2
-svinjokolji			2
+svinjokolji			3
 svirepiji	26		4
-svojevolji			2
+svojevolji			3
 svoji			2
 svračiji			3
 tadanji	68		3
@@ -2249,31 +2249,31 @@ tadašnji	7070		3
 taji	111		2
 tajniji			3
 taksiji	46		3
-talentovaniji			2
+talentovaniji			3
 tamniji	508		3
 tamošnji	1824		3
 tananiji	14		4
 tanji			2
 tankoćutniji			5
-tanzaniji			2
-tapiji			2
+tanzaniji			3
+tapiji			3
 tačniji	267		3
 taštiji			3
 tehnologiji	6031		3
-tekiji	108		2
+tekiji	108		3
 telefoniji	594		3
 televiziji	12780		3
 telohranitelji	252		4
 temelji	4918		3
-temeljniji	72		2
+temeljniji	72		3
 tendenciji	224		3
 tenziji	87		3
 teologiji	348		3
 teoriji	6028		3
-tepsiji			2
+tepsiji			3
 terapiji	3354		3
 teritoriji	38561		3
-tesaliji			2
+tesaliji			3
 tešnji	39		2
 težnji	2139		2
 tiganji	31		2
@@ -2282,40 +2282,40 @@ tipologiji	106		3
 tiraniji	216		3
 titraji	20		3
 tlapnji	24		2
-tlačitelji	32		2
+tlačitelji	32		3
 tobožnji	255		3
 toleranciji	1277		3
 tolerantniji	315		3
 topliji	583		3
-topologiji			2
+topologiji			3
 toponimiji	19		3
-tortilji	19		2
+tortilji	19		3
 tradiciji	7610		3
 tragediji	934		3
-tragetkinji			2
+tragetkinji			3
 tragičniji	52		4
 trajniji	243		3
-trakiji			2
+trakiji			3
 tramvaji	595		3
 transakciji	655		3
 transformaciji	1035		3
 transplantaciji	259		3
 tranziciji	3365		3
 travestiji			3
-traženiji	180		2
+traženiji	180		3
 tražnji	332		2
 treptaji	30		3
 trezveniji	53		4
 trešnji	104		2
-tridesetogodišnji	268		2
+tridesetogodišnji	268		3
 trigonometriji			3
 trilogiji	243		3
-trinaestogodišnji	137		2
-tričariji			2
+trinaestogodišnji	137		3
+tričariji			3
 trklji			2
 trnovitiji			5
 trofeji	456		2
-trogodišnji	1197		2
+trogodišnji	1197		3
 tromiji	54		3
 trpeljiviji			5
 trpezariji	665		4
@@ -2328,147 +2328,147 @@ tužitelji	105		4
 tužniji	94		3
 tvoji	592		2
 tvrdnji	3666		2
-tvrdoglaviji	44		2
-ubedljiviji	411		2
+tvrdoglaviji	44		3
+ubedljiviji	411		3
 ubogiji			4
 ubojitiji	60		5
 ubroji	57		3
-ubrzaniji			2
+ubrzaniji			3
 udaji	146		3
 udaljeniji	230		4
 udalji	1160		2
-udisaji	17		2
+udisaji	17		3
 udobniji	544		4
 udomitelji			4
-udostoji	760		2
-udovolji	623		2
+udostoji	760		3
+udovolji	623		3
 udvoji	19		3
 ugledniji	74		4
 ugodniji	185		4
 ugoji	174		3
-ugostitelji	770		2
+ugostitelji	770		3
 ugradnji	558		3
-ugroženiji			2
-ukrotitelji			2
+ugroženiji			3
+ukrotitelji			3
 ukusniji	184		4
 uljudniji	16		4
 umanji	1732		3
 umereniji	267		5
-umišljaji			2
+umišljaji			3
 umniji	41		3
 umorniji	145		4
 uniji	14871		3
-uništitelji			2
+uništitelji			3
 unosniji	82		4
 unutarnji	455		4
 unutrašnji	6969		4
-uobičaji			2
-uobrazilji	92		2
-uopšteniji			2
+uobičaji			3
+uobrazilji	92		3
+uopšteniji			3
 uozbilji	295		2
 uočljiviji	168		4
 upadljiviji	49		4
-upilji			2
-uplašeniji	12		2
-upokoji	378		2
+upilji			3
+uplašeniji	12		3
+upokoji	378		3
 uporniji	191		4
-uposleniji			2
+uposleniji			3
 upravitelji	100		4
-upristoji	99		2
-upućeniji	258		2
+upristoji	99		3
+upućeniji	258		3
 uredniji	71		4
 uređaji	8243		4
-uređeniji	146		2
+uređeniji	146		3
 usamljeniji	67		4
-ushićeniji			2
+ushićeniji			3
 uskršnji	568		3
-usniji			2
-uspeliji			2
+usniji			3
+uspeliji			3
 uspešniji	2409		4
-usplahireniji			2
-uspokoji			2
+usplahireniji			3
+uspokoji			3
 uspravniji			4
-usrdniji			2
-usrećitelji	51		2
-ustavobranitelji	110		2
+usrdniji			3
+usrećitelji	51		3
+ustavobranitelji	110		3
 ustoji			3
 ustroji	213		3
 usvoji	6201		2
-usvojitelji	121		2
-utaji	178		2
+usvojitelji	121		3
+utaji	178		3
 utanji	12		3
 utemelji	141		2
 uticaji	1951		4
-uticajniji	176		2
+uticajniji	176		3
 utjecaji	44		4
 utopiji	167		3
 uverljiviji	115		4
-uvrnutiji			2
+uvrnutiji			3
 uzbudljiviji	155		4
-uzbuđeniji			2
-uzdisaji	26		2
-uzemlji	13		2
-uzengiji			2
-uzgaji			2
+uzbuđeniji			3
+uzdisaji	26		3
+uzemlji	13		3
+uzengiji			3
+uzgaji			3
 uzgoji	28		3
-uznemireniji			2
-uzurpaciji	76		2
-uzvišeniji		M	2
-uzvrpolji	16		2
+uznemireniji			3
+uzurpaciji	76		3
+uzvišeniji		M	3
+uzvrpolji	16		3
 učeniji	50		4
-učestaliji	370		2
+učestaliji	370		3
 učitelji	2940		4
 učtiviji			4
 užasniji	16		4
-užurbaniji	14		2
-vakcinaciji	304		2
-valensiji			2
+užurbaniji	14		3
+vakcinaciji	304		3
+valensiji			3
 vanji			2
-vapaji	135		2
+vapaji	135		3
 varijaciji	62		3
-vasiliji			2
+vasiliji			3
 vaskršnji	340		3
-vaspitaniji			2
+vaspitaniji			3
 vatreniji	31		4
-vazektomiji			2
+vazektomiji			3
 važniji	3714		3
 vedriji	110		3
 vegetaciji	213		3
-veleizdaji	75		2
+veleizdaji	75		3
 velikodušniji	25		4
 velji			2
 ventilaciji	84		3
 veresiji			3
-verniji			2
-verovatniji	141		2
+verniji			3
+verovatniji	141		3
 versifikaciji	32		3
 verziji	9482		3
 veseliji	181		4
-vezilji			2
+vezilji			3
 večerašnji	531		3
 večernji	1747		2
 veštiji	284		3
-veštičiji			2
+veštičiji			3
 veštičji		M	3
-vibraciji	44		2
+vibraciji	44		3
 vidljiviji	387		4
-vidniji	24		2
-viktimologiji			2
-viktoriji			2
-vinariji	528		2
-virdžiniji			2
-virginiji			2
+vidniji	24		3
+viktimologiji			3
+viktoriji			3
+vinariji	528		3
+virdžiniji			3
+virginiji			3
 vitalniji	55		4
 vitkiji	66		3
-vizantiji			2
+vizantiji			3
 viziji	1229		3
 vičniji	49		3
-viđeniji			2
-višegodišnji	1588		2
+viđeniji			3
+višegodišnji	1588		3
 višnji	233		2
 vlaji	22		2
 vlažniji	54		3
-vodilji	30		2
+vodilji	30		3
 voditelji	1127		4
 vojvotkinji	48		4
 vokaciji	332		3
@@ -2477,66 +2477,66 @@ volji	7263		2
 vožnji	6241		2
 vranji			2
 vrapčiji		M	3
-vražiji			2
+vražiji			3
 vražji	40		2
 vredniji	794		3
 vreliji	28		3
 vrganji	55		2
 vrpolji	80		3
 vrulji			2
-vršaji			2
-vršnjakinji			2
-vulgarniji	20		2
+vršaji			3
+vršnjakinji			3
+vulgarniji	20		3
 vučiji			3
 vučji	145		2
 zabavniji	246		4
-zabitiji			2
+zabitiji			3
 zableji			2
 zabrinutiji	73		5
 zabruji	18		2
-zacmolji			2
+zacmolji			3
 zadnji	8590		2
 zadoji	25		3
 zadovolji	5279		2
 zadovoljniji	900		5
-zaglušniji			2
+zaglušniji			3
 zagnoji	21		3
 zagrljaji	189		4
-zahtevniji	523		2
+zahtevniji	523		3
 zahvalniji	67		3
-zainteresovaniji	122		2
+zainteresovaniji	122		3
 zaklinji			3
-zakolji			2
+zakolji			3
 zalogaji	137		4
-zambiji			2
-zamorniji			2
-zamršeniji			2
+zambiji			3
+zamorniji			3
+zamršeniji			3
 zanatliji	18		3
-zanimaciji	19		2
+zanimaciji	19		3
 zanimljiviji	1075		4
 zapanji	72		2
-započinji			2
+započinji			3
 zaslužniji	51		4
-zastenji			2
+zastenji			3
 zastoji	295		3
-zasužnji			2
-zataji	137		2
-zatucaniji			2
-zatutnji			2
+zasužnji			3
+zataji	137		3
+zatucaniji			3
+zatutnji			3
 zatvoreniji	77		5
-zauzetiji			2
+zauzetiji			3
 zavežljaji			4
 zavidniji			4
 zavisniji	42		4
 zavoji	159		3
-zavrtnji	54		2
-zaškilji			2
+zavrtnji	54		3
+zaškilji			3
 zbilji	229		2
-zbunjeniji			2
+zbunjeniji			3
 zdraviji	1482		3
 zebnji			2
 zeleniji	93		4
-zemljakinji	10		2
+zemljakinji	10		3
 zemlji	116038		2
 zemljoradnji	78		2
 zečiji			3
@@ -2554,78 +2554,78 @@ znatiželji	72		4
 znatniji	105		3
 značajniji	2621		4
 znoji	419		2
-zombiji	434		2
+zombiji	434		3
 zoologiji	13		3
 zreliji	440		3
 zubobolji	11		3
 zuji	497		2
 zvrji	281		2
 zvučniji			3
-ćehaji			2
+ćehaji			3
 ćeliji	1567		3
-ćupriji			2
+ćupriji			3
 ćurčiji		M	3
 ćutnji	58		2
-čakiji			2
-čamotinji			2
+čakiji			3
+čamotinji			3
 čaplji	88		2
 čarobniji			4
 čaroliji	143		3
 čaršiji	686		3
 časniji	70		3
-čelebiji			2
+čelebiji			3
 čestitiji	20		4
-četrdesetogodišnji	87		2
-četrnaestogodišnji	107		2
-četvorogodišnji	869		2
-čečeniji			2
+četrdesetogodišnji	87		3
+četrnaestogodišnji	107		3
+četvorogodišnji	869		3
+čečeniji			3
 čežnji	248		2
 čiji	81044		2
-činiji			2
-čistiji		M	2
+činiji			3
+čistiji		M	3
 čitkiji			3
 čitulji	95		3
 čkalji			2
 čokanji			3
-čovečiji	260		2
+čovečiji	260		3
 čovečji	188		3
 čudniji	123		3
-čuveniji			2
-đaurkinji			2
+čuveniji			3
+đaurkinji			3
 đavolji	258		3
 Španiji			3
 šalji	228		2
-šamiji			2
+šamiji			3
 šareniji	57		4
 šarmantniji	16		3
-šasiji	197		2
-šerpenji			2
-šesnaestogodišnji	139		2
-šestogodišnji	278		2
+šasiji	197		3
+šerpenji			3
+šesnaestogodišnji	139		3
+šestogodišnji	278		3
 šetnji	1925		2
 šiji			2
 šiljatiji			4
 šilji	25		2
-širitelji	10		2
+širitelji	10		3
 škilji	33		2
-škorpiji	134		2
+škorpiji	134		3
 škrinji	22		2
 šolji	481		2
 špediciji	84		3
 špekulaciji	27		3
 špilji	30		2
-štafelaji			2
+štafelaji			3
 štampariji	682		3
 štedljiviji	220		4
 štednji	1117		2
 štetniji	82		3
-šumadiji			2
+šumadiji			3
 šuplji	226		2
 šutnji	24	J	2
 žablji	40		2
-žakeriji			2
+žakeriji			3
 žalosniji	22		4
-žandarmeriji			2
+žandarmeriji			3
 žedniji	39		3
 želji	14188		2
 žilaviji	39		4
@@ -2648,14 +2648,14 @@ izvještaji			4
 ljetnji			2
 najsmješniji			4
 najuspješniji			5
-najvjerniji			2
+najvjerniji			3
 nedjelji			3
-osjecaji			2
+osjecaji			3
 osjetljiviji			4
-poslijednji			2
+poslijednji			3
 prijetnji	326		3
 smješniji			3
 tjelohranitelji			4
 uspješniji			4
 uvjerljiviji			4
-vrijedniji			2
+vrijedniji			3

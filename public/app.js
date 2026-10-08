@@ -172,7 +172,7 @@ const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
    upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
    `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
 const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,gn,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jc,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
-const KANTE_V = 'd31339e4';
+const KANTE_V = 'c5b403b7';
 function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
 const kanteKes = new Map();
 let kantaUToku = 0;
@@ -426,7 +426,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=92eb6d60';
+const DEFINICIJE_ADRESA = '/definicije.json?v=707bdf30';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -495,8 +495,8 @@ async function loadDict(){
   const [ek, jek, ak, akj] = await Promise.all([
     uzmiTekst('/reci.txt?v=813bab11', true),
     uzmiTekst('/reci_jekavica.txt?v=1b2b14e1', false),
-    uzmiTekst('/akcenat.txt?v=a1ff829d', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
-    uzmiTekst('/akcenat_jekavica.txt?v=268fa266', false)
+    uzmiTekst('/akcenat.txt?v=18588a75', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
+    uzmiTekst('/akcenat_jekavica.txt?v=ddf17387', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
     // Ispravan `reci.txt` ima preko 250.000 redova. Sve ispod hiljadu je kvar,
@@ -670,6 +670,23 @@ async function loadExtras(){
    vratile na azbučni redosled. Definicije se učitavaju kroz `loadLocalDefs()`,
    koja rangiranje ne dira. Ne vraćati je. */
 
+/* G-1 (audit 07.10.2026): kad rečnik NIKAD ne stigne, svaki upis reči je pregazio poštenu poruku lažnim „Učitavam
+   rečnik…" i trajno gasio „Nađi rime" – jedini izlaz bio je F5 koji strana ne nudi. Sada poruka sa dugmetom ostaje
+   (ponovo se iscrta pri svakom upisu), dugme radi, a rime iz kante (ako kante rade) i dalje stižu. */
+let recnikPao = false;
+function prikaziPadRecnika(){
+  const box = el('rimeResults');
+  if(!box) return;
+  box.innerHTML = '';
+  const p = document.createElement('p');
+  p.className = 'empty';
+  p.textContent = uiTxt('Rečnik nije uspeo da se učita. Najčešće pomogne da očistimo memoriju pregledača:');
+  const btn = document.createElement('button');
+  btn.className = 'primary';
+  btn.textContent = uiTxt('Očisti i probaj ponovo');
+  btn.onclick = ocistiKesIOsvezi;
+  box.appendChild(p); box.appendChild(btn);
+}
 /* ====================== Prikaz reči (čip) ====================== */
 function disp(word){ return script==='cyr' ? toCyr(word) : word; }
 // Natpisi koje JS crta posle applyScriptToUI – moraju sami da prate pismo
@@ -719,7 +736,7 @@ function makeChip(word){
        ali omiljene dolaze iz localStorage-a – `<img onerror>` je ulazio u DOM (CSP ga je
        zaustavio, ali to je mreža, ne brava). */
     `<span class="word" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" title="${uiTxt('klikni da kopiraš')}">${escapeHtml(disp(word))}</span>` +
-    `<span class="syl" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +
+    `<span class="syl" aria-hidden="true" title="${syl} ${uiTxt(slogRec(syl))}">${syl}</span>` +   /* PR-4: čitač ne sme da čita „gubav2" */
     `<button class="mini info" title="${uiTxt('objašnjenje reči')}" aria-label="${uiTxt('objašnjenje reči')} ${escapeHtml(disp(word))}">ⓘ</button>` +
     `<button class="mini fav ${isFav(word)?'on':''}" aria-pressed="${isFav(word)?'true':'false'}" title="${favNaslov(word)}" aria-label="${favNaslov(word)}: ${escapeHtml(disp(word))}"><span class="fav-srce" aria-hidden="true">♡</span>${FAV_NOTA_SVG}</button>` +
     `<button class="mini rh" title="${uiTxt('nađi rime za ovu reč')}" aria-label="${uiTxt('nađi rime za')} ${escapeHtml(disp(word))}">🔁</button>` +
@@ -1446,6 +1463,13 @@ function doRhymes(silent){
     /* Nalaz V5: strana je iscrtana za 1,5 s, a rime su na 4G proradile tek posle
        10,3 s. Do sada je korisnik dobijao „Učitavam rečnik…" i morao SAM da
        klikne ponovo. Sada se reč zapamti i pretraga se pokrene čim rečnik stigne. */
+    if(!silent && recnikPao){
+      /* G-1/G-2: rečnik je pao – poštena poruka ostaje, dugme ostaje živo; kanta (ako radi) ipak može da da rime. */
+      prikaziPadRecnika();
+      document.querySelectorAll('.seo-content').forEach(s => { s.hidden = true; });
+      rimeIzKante(q);
+      return;
+    }
     if(!silent){
       cekaRec = q;
       box.innerHTML = '<p class="empty">' + uiTxt('Učitavam rečnik… rime za tu reč stižu čim bude gotovo.') + '</p>';
@@ -1466,11 +1490,13 @@ function doRhymes(silent){
     /* I filter slogova ide u adresu (nalaz S-03, 07.09.2026): bez toga osvežavanje vraća „sve",
        a link koji čovek podeli ne nosi ono što je gledao. Kanonikal ostaje bez filtera. */
     try{
-      const u=new URL(window.location.href); const prethodna = u.searchParams.get('rec');
-      u.searchParams.set('rec', q); if(rimeSyl) u.searchParams.set('slog', String(rimeSyl)); else u.searchParams.delete('slog');
+      const u=new URL(window.location.href); const prethodna = u.searchParams.get('rec'); const prethodniSlog = u.searchParams.get('slog') || '';
+      const noviSlog = rimeSyl ? String(rimeSyl) : '';
+      u.searchParams.set('rec', q); if(rimeSyl) u.searchParams.set('slog', noviSlog); else u.searchParams.delete('slog');
       /* Nova REČ ide u istoriju (mobilni audit 08.09.2026, M-3: „Nazad" je na telefonu glavna navigacija, a napuštao je
-         stranu posle dve pretrage); promena filtera za istu reč samo zamenjuje adresu. `popstate` vraća reč iz adrese. */
-      if(prethodna && prethodna !== q) history.pushState({ rec: q }, '', u); else history.replaceState(null, '', u);
+         stranu posle dve pretrage). C-2 (07.10.2026): i promena FILTERA za istu reč ide u istoriju, pa „Nazad" vraća
+         prethodni filter (`popstate` čita i `slog`). Isti upit sa istim filterom samo zamenjuje adresu. */
+      if(prethodna && (prethodna !== q || prethodniSlog !== noviSlog)) history.pushState({ rec: q, slog: noviSlog }, '', u); else history.replaceState(null, '', u);
     }catch(e){}
   }
 
@@ -1594,6 +1620,13 @@ function doRhymes(silent){
     box.innerHTML = '<p class="empty">' + uiTxt('Nema čiste rime za ovu reč. Štikliraj „i šire (slabije) rime“ ispod polja – tada ulaze i bliske rime. Ako ni tada nema, probaj kraću reč ili neku drugu sa kraja stiha.') + '</p>';
   }
   if(best.length || good.length || finalExtra.length) renderLegend(box);
+  /* UI-4 (audit 07.10.2026): „Kopiraj sve rime" je postojalo samo na statičkim stranama – sad i u alatu, isto dugme,
+     ista radnja (delegirani klik niže). Ne prikazuje se u tihom pozivu (beležnica). */
+  if(!silent && (best.length || good.length || finalExtra.length)){
+    const kb = document.createElement('button'); kb.type = 'button'; kb.className = 'copy-all-btn copy-all-alat';
+    kb.dataset.words = [...best, ...good, ...finalExtra].map(disp).join(', '); kb.textContent = uiTxt('Kopiraj sve rime');
+    box.appendChild(kb);
+  }
   renderGroup(box, best.length?'Najbolje rime':'', best, true);
 
   // Sinonimi idu ODMAH ispod najboljih rima – vidljivo, a rime i dalje prve.
@@ -1715,6 +1748,7 @@ function vratiSeoNaPocetno(){
   const h1 = document.querySelector('h1');
   if(h1 && h1.dataset.pocetni !== undefined) h1.textContent = h1.dataset.pocetni;
   if(document.body.dataset.seoNaslov !== undefined) document.title = document.body.dataset.seoNaslov;
+  delete document.body.dataset.recNaslov;   // UI-2
   if(document.body.dataset.seoOpis !== undefined) postaviMeta('description', document.body.dataset.seoOpis);
   const kan = document.querySelector('link[rel="canonical"]');
   if(kan && document.body.dataset.seoKanonikal !== undefined) kan.href = document.body.dataset.seoKanonikal;
@@ -1744,10 +1778,11 @@ async function osveziSeoZaRec(q, broj, prvih){
   }
   const recOblik = (broj % 10 === 1 && broj % 100 !== 11) ? 'reč' : 'reči';
   document.title = broj > 0
-    ? `Rime za reč „${dq}": ${broj} ${recOblik} koje se rimuju | Rimoteka rečnik rima`
-    : `Rime za reč „${dq}" | Rimoteka rečnik rima`;
+    ? `Rime za reč „${dq}“: ${broj} ${recOblik} koje se rimuju | Rimoteka rečnik rima`
+    : `Rime za reč „${dq}“ | Rimoteka rečnik rima`;   /* G-3 (07.10.2026): srpski navodnici „…“, ne ASCII " */
+  document.body.dataset.recNaslov = document.title;   // UI-2: povratak na tab Rime vraća OVAJ naslov, ne opšti
   postaviMeta('description', broj > 0
-    ? `Sve rime za „${dq}": ${broj} reči. Uz svaku piše broj slogova i šta znači. Na vrhu su: ${prvih}.`
+    ? `Sve rime za „${dq}“: ${broj} reči. Uz svaku piše broj slogova i šta znači. Na vrhu su: ${prvih}.`
     : `Koje se reči rimuju sa „${dq}"? Rimoteka – rečnik rima, broj slogova i značenja svake reči.`);
   const kan = document.querySelector('link[rel="canonical"]');
   if(!kan) return;
@@ -1963,6 +1998,7 @@ function updateAutocomplete(){
   for(let i=0;i<limit && out.length<8;i++){
     const w = WORDS[i], m = MALE[i];   // poređenje malim slovima – v. `Beograd`
     if(BLOCKED.has(m)) continue;
+    if(kidsMode && isKidsBlocked(m)) continue;   // KL-1 (audit 07.10.2026): dečji režim važi i za predloge
     if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
     if(m.startsWith(q) && m !== q) out.push(w);
   }
@@ -2037,6 +2073,7 @@ function doSearch(){
   for(let i=0;i<limit && out.length<600;i++){
     const w=WORDS[i], m=MALE[i];      // poređenje malim slovima – v. `Beograd`
     if(BLOCKED.has(m)) continue;
+    if(kidsMode && isKidsBlocked(m)) continue;   // KL-1 (audit 07.10.2026): dečji režim važi i za tab Pretraga („lje" → bez groblje, nasilje)
     if(!includeJek && JEKAVSKI.has(m)) continue;   // v. komentar kod `JEKAVSKI`
     if(mode==='ends'   && m.endsWith(q))   out.push(w);
     else if(mode==='starts' && m.startsWith(q)) out.push(w);
@@ -2048,18 +2085,29 @@ function doSearch(){
   }
   if(!arr.length){ box.innerHTML='<p class="empty">' + uiTxt('Nema reči sa tim slovima. Probaj kraći niz – na primer „ost“ umesto „nost“ – ili promeni način pretrage gore.') + '</p>'; return; }
   renderGroup(box, `Pronađeno (${arr.length>200?'200+':arr.length})`, arr.slice(0,200), false);
-  el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}`;
+  el('searchStatus').textContent = `${arr.length} ${uiTxt(recRec(arr.length))} ${uiTxt('pronađeno')}` + (arr.length > 200 ? `, ${uiTxt('prikazano prvih 200')}` : '');   // UI-3 (07.10.2026): status ne sme da obeća 600 kad je prikazano 200
   /* UI-8 (22.09.2026): upit ide u adresu (`?kraj=…&nacin=…`) pa F5 i podeljen link vraćaju isto; robots.txt
      te adrese ne indeksira. Samo na strani pretrage – da se ne dira `?rec=` na početnoj. */
   try{
     if(location.pathname.startsWith('/rime-po-zavrsetku')){
-      const u = new URL(location.href); u.searchParams.set('kraj', q); u.searchParams.set('nacin', mode);
-      history.replaceState(null, '', u);
+      const u = new URL(location.href); const bilo = u.searchParams.get('kraj') + '|' + u.searchParams.get('nacin');
+      u.searchParams.set('kraj', q); u.searchParams.set('nacin', mode);
+      /* C-1 (07.10.2026): nov upit ide u istoriju, pa „Nazad" vraća prethodni; ponovljen isti samo osveži adresu. */
+      if(bilo !== q + '|' + mode && u.searchParams.toString() !== new URL(location.href).searchParams.toString()) history.pushState({ kraj: q, nacin: mode }, '', u); else history.replaceState(null, '', u);
     }
   }catch(e){}
 }
 el('searchBtn').onclick = doSearch;
 searchInput.addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
+/* C-1 (07.10.2026): „Nazad" na strani pretrage po završetku vraća i polje i rezultate iz adrese (`?kraj=&nacin=`). */
+window.addEventListener('popstate', ()=>{
+  try{
+    if(!location.pathname.startsWith('/rime-po-zavrsetku')) return;
+    const u = new URLSearchParams(location.search); const k = u.get('kraj') || ''; const m = u.get('nacin');
+    searchInput.value = k; if(m && el('searchMode')) el('searchMode').value = m;
+    if(k) doSearch(); else { el('searchResults').innerHTML = ''; el('searchStatus').textContent = ''; }
+  }catch(e){}
+});
 const searchMode = el('searchMode');
 function updateSearchPlaceholder(){
   const ph = { ends:'npr. ica, ama, ost', starts:'npr. cvet, svet, mesec', contains:'npr. cvet, zvezd, ljub' };
@@ -4038,7 +4086,8 @@ function postaviNaslovTaba(name){
      strani, pa se pri uključenoj ćirilici ne vrati latinicom. */
   if(h1) h1.textContent = script === 'cyr' ? toCyr(t.h1) : t.h1;
   if(p)  p.textContent  = script === 'cyr' ? toCyr(t.p)  : t.p;
-  document.title = t.naslov;
+  /* UI-2 (audit 07.10.2026): povratak na tab Rime dok je reč upisana vraća naslov te reči, ne opšti naslov taba. */
+  document.title = (name === 'rime' && document.body.dataset.recNaslov && rimeInput && rimeInput.value.trim()) ? document.body.dataset.recNaslov : t.naslov;
 }
 function switchTab(name){
   oznaciAktivanTab(name);
@@ -4130,9 +4179,13 @@ window.addEventListener('popstate', ()=>{
   if(!document.getElementById('panel-' + name)) return;
   switchTab(name);
   try{
-    const p = new URLSearchParams(location.search).get('rec');
+    const params = new URLSearchParams(location.search);
+    const p = (params.get('rec') || '').replace(/\uFFFD/g, '');   // G-4 (07.10.2026): pokvareno kodiranje u adresi ne sme da upiše „�"
     if(name === 'rime' && p && p.trim()){
       rimeInput.value = disp(p.trim().toLowerCase());
+      /* C-2: „Nazad" vraća i filter slogova iz adrese, ne samo reč. */
+      const sl = parseInt(params.get('slog') || '0', 10); rimeSyl = (sl >= 1 && sl <= 5) ? sl : 0;
+      document.querySelectorAll('#rimeSyl button').forEach(x => x.classList.toggle('active', +x.dataset.syl === rimeSyl));
       doRhymes();
     }
   }catch(e){}
@@ -4491,6 +4544,7 @@ let defTimer = null, defPinned = false, defWord = null;
 const defTip = document.createElement('div');
 defTip.className = 'deftip';
 defTip.setAttribute('role', 'tooltip');   // nalaz S-15 (07.09.2026)
+defTip.setAttribute('aria-live', 'polite');   // PR-3 (audit 07.10.2026): „značenje" tastaturom – fokus ostaje na reči, čitač mora da ČUJE objašnjenje
 defTip.id = 'deftip';
 defTip.style.display = 'none';
 document.body.appendChild(defTip);
@@ -4838,6 +4892,7 @@ function renderKlasici(){
          pesma se preda kroz sessionStorage i otvori se /slogovi/, koja je pročita pri učitavanju. */
       if(sylInput.__noop){ ssSet('rimoteka_slogovi_tekst', dispPoem(p.text)); location.href = '/slogovi/'; return; }
       sylInput.value = dispPoem(p.text); sylInput.dispatchEvent(new Event('input')); switchTab('slogovi'); window.scrollTo({top:0,behavior:'smooth'});
+      try{ const url = urlZaTab('slogovi'); if(location.pathname + location.search !== url) history.pushState({ tab:'slogovi' }, '', url); }catch(e){}   // UI-1 (07.10.2026): F5 je vraćao Klasike i pesma je nestajala
     };
     foot.appendChild(btn);
     card.appendChild(foot);
@@ -4901,15 +4956,16 @@ applyDarkIcon();
 /* Kopiranje cele liste rima na stranama /rime-za/[reč]/.
    Ranije je stajalo kao inline `onclick` u HTML-u, a CSP (`script-src 'self'`)
    inline kod blokira – dugme je bilo mrtvo na 1.988 strana (nalaz V2). */
-document.querySelectorAll('.copy-all-btn').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    const reci = btn.dataset.words || '';
-    const vrati = ()=>{ btn.textContent = 'Kopiraj sve rime'; btn.classList.remove('copied'); };
-    const uspeh = ()=>{ btn.textContent = 'Kopirano!'; btn.classList.add('copied'); setTimeout(vrati, 1600); };
-    const greska = ()=>{ btn.textContent = 'Greška'; setTimeout(vrati, 1600); };
-    if(!navigator.clipboard){ greska(); return; }
-    navigator.clipboard.writeText(reci).then(uspeh).catch(greska);
-  });
+/* Delegirano (UI-4, 07.10.2026): dugme u alatu nastaje posle svake pretrage, pa se sluša na dokumentu. */
+document.addEventListener('click', (e)=>{
+  const btn = e.target && e.target.closest ? e.target.closest('.copy-all-btn') : null;
+  if(!btn) return;
+  const reci = btn.dataset.words || '';
+  const vrati = ()=>{ btn.textContent = uiTxt('Kopiraj sve rime'); btn.classList.remove('copied'); };
+  const uspeh = ()=>{ btn.textContent = uiTxt('Kopirano!'); btn.classList.add('copied'); setTimeout(vrati, 1600); };
+  const greska = ()=>{ btn.textContent = uiTxt('Greška'); setTimeout(vrati, 1600); };
+  if(!navigator.clipboard){ greska(); return; }
+  navigator.clipboard.writeText(reci).then(uspeh).catch(greska);
 });
 
 /* ====================== START ====================== */
@@ -4942,7 +4998,7 @@ renderKlasici();
 function initFromURL(){
   try{
     const params = new URLSearchParams(window.location.search);
-    const p = params.get('rec');
+    const p = (params.get('rec') || '').replace(/\uFFFD/g, '');   // G-4 (07.10.2026): `?rec=%E4` ne sme da upiše „�" u polje
     if(p && p.trim()){
       rimeInput.value = disp(p.trim().toLowerCase());
       /* `?slog=2` vraća filter slogova (nalaz S-03). */
@@ -5841,21 +5897,11 @@ function bootstrap(){
        na izlasku. Zato se pri napuštanju strane ćuti; svaki drugi neuspeh se i
        dalje prijavljuje i pokazuje korisniku. */
     if(seIzlazi) return;
+    recnikPao = true;   // G-1 (audit 07.10.2026): doRhymes posle ovoga ne sme da piše „Učitavam rečnik…" ni da gasi dugme
     el('rimeBtn').classList.remove('ucitava');
     el('rimeBtn').disabled = false;
     console.error('Greška pri učitavanju rečnika:', e);
-    const box = el('rimeResults');
-    if(box){
-      box.innerHTML = '';
-      const p = document.createElement('p');
-      p.className = 'empty';
-      p.textContent = 'Rečnik nije uspeo da se učita. Najčešće pomogne da očistimo memoriju pregledača:';
-      const btn = document.createElement('button');
-      btn.className = 'primary';
-      btn.textContent = 'Očisti i probaj ponovo';
-      btn.onclick = ocistiKesIOsvezi;
-      box.appendChild(p);      box.appendChild(btn);
-    }
+    prikaziPadRecnika();
   });
   /* DEFINICIJE SE VIŠE NE SKIDAJU UNAPRED.
      Ranije je `definicije.json` (20 MB sirovo, 5,3 MB gzip) kretao na SVAKOM

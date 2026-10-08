@@ -1,11 +1,11 @@
 37
 Njujork			2
-ataturk			2
-belobrk			2
+ataturk			3
+belobrk			3
 bizmark			2
 brk	472		1
 crk			1
-crnobrk			2
+crnobrk			3
 cvrk			1
 denkerk			2
 dirk			1
@@ -16,20 +16,20 @@ klark			1
 klerk			1
 krk		M	1
 kvark	50		1
-lunapark	15		2
+lunapark	15		3
 mark			1
 merk			1
 mrk	102		1
 netvork			2
-palibrk			2
+palibrk			3
 park	15735		1
-polugrk			2
+polugrk			3
 tandrk		M	2
-telemark			2
+telemark			3
 trk	565		1
 turk			1
 zvrk	106		1
-ćulibrk			2
+ćulibrk			3
 čekrk		M	2
 čvrk		M	1
 šmrk	42		1

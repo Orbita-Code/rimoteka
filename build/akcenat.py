@@ -15,9 +15,12 @@ Pravilo (GRAMATIKA-I-PRAVOPIS-SRPSKOG-JEZIKA.md, pogl. 7 i 7a; AUDIT/akcenti/pok
     AK-1 (audit 07.10.2026): do tada je pomak važio za SVAKI uzlazni akcenat, pa je kaniti dobijalo goniti umesto raniti,
     a unuka bazuku – 12.894 od 20.980 osnova sa 3+ sloga gubilo je naglašeni samoglasnik iz ključa. Dužina sloga iza
     akcenta je u akcenti-osnove.json (`iza_dug`, iz Wiktionary-ja) i prenosi se kroz osnovu (lema) i prediktor po završetku.
+  · AK-3 (audit 07.10.2026): prediktor po završetku traži ≥2 primera i ≥60 % slaganja (bilo 3 / 75 %), a podrazumevano za
+    reč bez ikakvog podatka je TREĆI slog od kraja (bilo pretposlednji – tačan za 25,5 % reči sa 3+ sloga; treći je 58 %).
+    Izmereno ostavi-jednog-napolju nad Wiktionary osnovama: scripts/akcenti-prediktor-ocena.py (66 % → 79,5 %).
 Odakle akcenat, redom: (1) Wiktionary, sama reč; (2) Wiktionary, osnova reči preko srLex-a (mesto akcenta OD POČETKA se
-prenosi na oblik); (3) 1–2 sloga: prvi slog (poslednji nikad nije naglašen); (4) predviđanje po završetku (≥3 primera,
-≥75 % slaganja); (5) podrazumevano: pretposlednji slog (najčešći obrazac). Izvor po reči ide u AUDIT/akcenti/izvori.json.
+prenosi na oblik); (3) 1–2 sloga: prvi slog (poslednji nikad nije naglašen); (4) predviđanje po završetku (≥2 primera,
+≥60 % slaganja – AK-3); (5) podrazumevano: TREĆI slog od kraja (AK-3, 07.10.2026). Izvor po reči ide u AUDIT/akcenti/izvori.json.
 
 Izvori: build/akcenti-osnove.json (iz `scripts/akcenti-iz-wiktionary.py`, kaikki.org izvod en.wiktionary, CC BY-SA),
 ~/Literatura/srLex/srLex_v1.3.gz. Pokretanje: python3 build/akcenat.py (posle svake izmene reci.txt / reci_jekavica.txt, PRE kante.py).
@@ -34,6 +37,7 @@ def vowel_positions(w):   # 1:1 sa gen_pages.py i app.js (vowelPositions)
             if not prevV and not nextV: p.append(i)
     return p
 akc = json.load(open(os.path.join(K, 'build/akcenti-osnove.json'), encoding='utf-8'))
+RUCNO = {k: v for k, v in json.load(open(os.path.join(K, 'build/akcenti-rucno.json'), encoding='utf-8')).items() if not k.startswith('_')}   # potvrđeni primeri vlasnice, pre svih pravila
 ek = [l for l in open(os.path.join(PUB, 'reci.txt'), encoding='utf-8').read().split('\n') if l]
 jek = [l for l in open(os.path.join(PUB, 'reci_jekavica.txt'), encoding='utf-8').read().split('\n') if l]
 sve = set(ek) | set(jek); lema = {}
@@ -50,6 +54,7 @@ def mesto(w):
     """→ (slog od kraja od kog počinje rima, izvor)"""
     m = w.lower(); vp = vowel_positions(m); ns = len(vp)
     if ns == 0: return 1, 'bez-samoglasnika'
+    if m in RUCNO: return max(1, min(int(RUCNO[m]), ns)), 'rucno'
     op = tip = None; izvor = None; dug = False
     if m in akc: v = akc[m]; op, tip, dug, izvor = v['slogova'] - v['od_kraja'] + 1, v['tip'], bool(v.get('iza_dug')), 'wikt'
     else:
@@ -60,10 +65,13 @@ def mesto(w):
         else:
             for n in (6, 5, 4, 3):
                 c = suf.get((n, m[-n:], ns)) if len(m) >= n else None
-                if c and sum(c.values()) >= 3:
+                if c and sum(c.values()) >= 2:   # AK-3: bilo ≥3 primera i ≥75 % – izmereno (scripts/akcenti-prediktor-ocena.py) 2 i 60 % daje više
                     (o, t, d), k = c.most_common(1)[0]
-                    if k / sum(c.values()) >= 0.75: op, tip, dug, izvor = o, t, d, 'zavrsetak'; break
-    if op is None: op, tip, izvor = max(1, ns - 1), 'uzlazni', 'podrazumevano'
+                    if k / sum(c.values()) >= 0.6: op, tip, dug, izvor = o, t, d, 'zavrsetak'; break
+    # AK-3 (audit 07.10.2026): podrazumevano je bilo „pretposlednji slog" (rima od 2. sloga od kraja) – a nad 20.980 Wiktionary
+    # reči sa 3+ sloga to je tačno za 25,5 %; najčešći pravi početak rime je TREĆI slog od kraja (58 %: pȉsali, kȕćama,
+    # prírodan). Prediktor (2, 60 %) + ovo podrazumevano = 79,5 % tačno (bilo 66 %). Reči sa ≤2 sloga ne stižu ovde (`pravilo`).
+    if op is None: op, tip, izvor = max(1, ns - 2), 'silazni', 'podrazumevano'
     start = op + 1 if (tip == 'uzlazni' and dug and ns - op >= 2) else op   # AK-1: pomak samo uz DUG slog iza akcenta
     start = max(1, min(start, ns))
     return ns - start + 1, izvor

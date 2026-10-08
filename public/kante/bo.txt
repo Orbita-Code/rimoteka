@@ -7,21 +7,21 @@ berbo			2
 bezubo			3
 bobo	22		2
 bombo			2
-bonobo			2
+bonobo			3
 borbo			2
 bubašvabo			2
 bubo			2
-dvogubo			2
+dvogubo			3
 džambo			2
 garbo			2
-gazebo			2
+gazebo			3
 grbo			2
 grubo	4277		2
 gubo			2
 hobo			2
 izbo	230		2
 jerbo			2
-kolumbo			2
+kolumbo			3
 lavabo		M	2
 limbo			2
 ljubo			2
@@ -29,10 +29,10 @@ mambo	82		2
 mobo			2
 nebo	13029		2
 osobo	16		3
-placebo	848		2
+placebo	848		3
 potrebo			3
-pregrubo	18		2
-preslabo	43		2
+pregrubo	18		3
+preslabo	43		3
 probo	105		2
 rambo			2
 rembo			2
@@ -43,14 +43,14 @@ sabo			2
 slabo	12198		2
 slobo			2
 službo			2
-spodobo			2
+spodobo			3
 srbo			2
 sudbo			2
 trubo			2
 turbo			2
-tužibabo			2
+tužibabo			3
 ubo	565		1
-ugrubo	129		2
+ugrubo	129		3
 utrobo			3
 vrbo			2
 zabo			1

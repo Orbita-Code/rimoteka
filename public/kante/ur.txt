@@ -4,12 +4,12 @@ abažur		M	2
 artur			2
 azur		M	2
 ažur		M	2
-bajkonur			2
+bajkonur			3
 biljur		M	2
 božur	209		2
-centaur		M	2
+centaur		M	3
 darfur			2
-dinosaur	27		2
+dinosaur	27		3
 dondur			2
 dotur			2
 dur	136		1
@@ -18,8 +18,8 @@ femur	17		2
 futur	76		2
 glamur	706		2
 grgur			2
-guvernadur			2
-kalambur	69		2
+guvernadur			3
+kalambur	69		3
 kaur		M	2
 kengur	272		2
 kentaur	98		2
@@ -34,20 +34,20 @@ majur		M	2
 mehur	542		2
 mensur			2
 merkur	585		2
-minotaur	63		2
-monsieur	22		2
+minotaur	63		3
+monsieur	22		3
 mosur			2
 mugur			2
 muhur			2
 mur		M	1
 natur			2
 nur			1
-panađur			2
+panađur			3
 pandur		M	2
-parkour			2
+parkour			3
 pour			2
-providur	133		2
-pterosaur			2
+providur	133		3
+pterosaur			3
 purpur	49		2
 rastur	90		2
 rur			1

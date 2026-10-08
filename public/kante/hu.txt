@@ -1,24 +1,24 @@
 680
 akrostihu	18		4
 aktivirahu			3
-alahu			2
+alahu			3
 alarmirahu			3
-allahu			2
+allahu			3
 almanahu	92		3
-arlaukahu			2
+arlaukahu			3
 auspuhu	28		4
-aždahu			2
+aždahu			3
 bacahu			3
-bandažirahu			2
+bandažirahu			3
 bankrotirahu			3
 batinahu			3
-batrgahu			2
+batrgahu			3
 bauljahu			3
 bavljahu			3
-bdejahu			2
+bdejahu			3
 behu			2
-bejahu			2
-bešnjahu		J	2
+bejahu			3
+bešnjahu		J	3
 bežahu			3
 bijahu			3
 bivahu			3
@@ -28,26 +28,26 @@ blistahu			3
 bodrahu			3
 bojahu			3
 bolovahu			3
-borahu			2
+borahu			3
 boravljahu			4
 brahu			2
 branjahu			3
-braćahu			2
+braćahu			3
 brbljahu			3
 brisahu			3
 brujahu			3
-carovahu			2
+carovahu			3
 celivahu			3
-cirihu			2
+cirihu			3
 cičahu			3
 dahu	1679		2
 darivahu			3
 davahu			3
 davljahu			3
-delahu			2
+delahu			3
 delovahu			4
 dešavahu			3
-diptihu	36		2
+diptihu	36		3
 divljahu			3
 dizahu			3
 dobijahu			3
@@ -62,44 +62,44 @@ dopadahu			4
 dopirahu			4
 dopuštahu			3
 dosađivahu			3
-dosluhu	432		2
-dosuđivahu			2
-doticahu			2
-dovlačahu			2
+dosluhu	432		3
+dosuđivahu			3
+doticahu			3
+dovlačahu			3
 dovođahu			3
 dozivahu			3
-drhtahu			2
+drhtahu			3
 drobljahu			3
 držahu			3
 dugovahu			3
 duhu	11541		2
-dvoličahu			2
+dvoličahu			3
 dvorahu			3
 epohu	987		2
 fahu			2
 gibahu			3
-gladovahu			2
+gladovahu			3
 gledahu			3
-glodahu			2
+glodahu			3
 gluhu			2
-gnevljahu			2
-gnušahu			2
+gnevljahu			3
+gnušahu			3
 gomilahu			3
 gonjahu			3
 gorahu			3
-gotovljahu			2
+gotovljahu			3
 govorahu			3
 gošćahu			3
 grabljahu			3
 grahu			2
-grakahu			2
+grakahu			3
 građahu			3
 grebahu			3
 grehu	744		2
 grešahu			3
 grljahu			3
 grmljahu			3
-groktahu			2
+groktahu			3
 grđahu			3
 gunđahu			3
 gurahu			3
@@ -114,55 +114,55 @@ huljahu			3
 hvaljahu			3
 igrahu			3
 imahu			3
-imađahu			2
+imađahu			3
 isceljivahu			3
-ishođahu			2
+ishođahu			3
 iskahu			3
 iskazivahu			3
 iskušavahu			3
-ismevahu			2
-isparavahu			2
+ismevahu			3
+isparavahu			3
 ispirahu			4
 ispitivahu			3
-ispovedahu			2
-ispraćahu			2
-ispričahu			2
+ispovedahu			3
+ispraćahu			3
+ispričahu			3
 ispunjavahu			3
 isticahu			4
-istrčavahu			2
+istrčavahu			3
 izbacivahu			3
 izbavljahu			4
 izbegavahu			3
-izdizahu			2
+izdizahu			3
 izdržavahu			4
 izdvajahu			3
 izgarahu			3
 izgledahu			3
 izgonjahu			3
 izgovarahu			3
-izjedahu			2
+izjedahu			3
 izlagahu			3
 izlažahu			4
 iznošahu			3
 izostajahu			4
-izranjahu			2
+izranjahu			3
 izražavahu			3
 izvođahu			3
 iđahu			3
-iščekivahu			2
-iščezavahu			2
-iživljavahu			2
+iščekivahu			3
+iščezavahu			3
+iživljavahu			3
 jaukahu			3
 javljahu			3
 jačahu			3
 jecahu			3
-jeromonahu	70		2
-jeđahu			2
+jeromonahu	70		3
+jeđahu			3
 johu			2
 juhu	123		2
 kajahu			3
 kamenovahu			5
-kasahu			2
+kasahu			3
 kazivahu			3
 kađahu			3
 kažnjavahu			3
@@ -171,11 +171,11 @@ kipljahu			3
 klahu			2
 klanjahu			3
 klecahu			3
-klevetahu			2
+klevetahu			3
 klečahu			3
 klicahu			3
-klimahu			2
-kljucahu			2
+klimahu			3
+kljucahu			3
 kopahu			3
 korahu			3
 koračahu			3
@@ -189,7 +189,7 @@ kušahu			3
 lagahu			3
 laćahu			3
 lepršahu			3
-lećahu			2
+lećahu			3
 lečahu			3
 ležahu			3
 lijahu			3
@@ -204,49 +204,49 @@ maćehu	94		3
 mehu			2
 menjahu			3
 metahu			3
-metohu	69		2
+metohu	69		3
 micahu			3
 mirisahu			3
 mirovahu			3
 mišljahu			3
-mlatarahu			2
+mlatarahu			3
 množahu			3
 mogahu			3
 moljahu			3
-molohu			2
+molohu			3
 monahu	301		3
 monarhu	41		3
-mrdahu			2
+mrdahu			3
 mržahu			3
 muhu	135		2
 mučahu			3
-nabujahu			2
+nabujahu			3
 nadahu			3
 nadimahu			4
-nadmetahu			2
+nadmetahu			3
 naginjahu			4
-nagomilavahu			2
-nahođahu			2
+nagomilavahu			3
+nahođahu			3
 nailažahu			4
 nalagahu			3
 nalažahu			4
-naletahu			2
-nanošahu			2
+naletahu			3
+nanošahu			3
 napadahu			4
 napuštahu			3
-narastahu			2
+narastahu			3
 naricahu			3
 nastojahu			4
 natezahu			3
 navaljivahu			3
 navođahu			3
-nazirahu			2
+nazirahu			3
 nazivahu			3
 negodovahu			5
 negovahu			4
 nemahu			3
-neposluhu			2
-netanijahu			2
+neposluhu			3
+netanijahu			3
 neuspehu	360		4
 nošahu			3
 obarahu			3
@@ -260,13 +260,13 @@ običavahu			3
 obožavahu			3
 obraćahu			4
 obrezivahu			3
-obzirahu			2
-ocrtavahu			2
+obzirahu			3
+ocrtavahu			3
 odavahu			3
 odazivahu			3
 odbijahu			3
 odgovarahu			3
-odizahu			2
+odizahu			3
 odjekivahu			3
 odlažahu			4
 odmarahu			3
@@ -277,12 +277,12 @@ odstupahu			3
 odvajahu			3
 odvođahu			3
 odvraćahu			3
-oglašavahu			2
-ogorčavahu			2
-oktoihu			2
+oglašavahu			3
+ogorčavahu			3
+oktoihu			3
 okupljahu			3
-omahu			2
-opirahu			2
+omahu			3
+opirahu			3
 oplakivahu			3
 opsedahu			3
 optuživahu			3
@@ -299,7 +299,7 @@ označavahu			3
 očekivahu			3
 očuhu	25		3
 padahu			3
-parohu	97		2
+parohu	97		3
 pashu			2
 patrijarhu	1444		3
 pazuhu	124		3
@@ -307,14 +307,14 @@ peglahu			3
 penjahu			3
 pevahu			3
 pijahu			3
-pijuckahu			2
-pirovahu			2
+pijuckahu			3
+pirovahu			3
 pisahu			3
 pitahu			3
-pištahu			2
+pištahu			3
 plahu	12		2
 plakahu			3
-plamsahu			2
+plamsahu			3
 plaćahu			3
 plehu	220		2
 plivahu			3
@@ -327,11 +327,11 @@ pobeđivahu			3
 podizahu			4
 podnošahu			3
 podsmehu	208		3
-podsmevahu			2
+podsmevahu			3
 podsticahu			4
 pogađahu			3
 poimahu			4
-pojahu			2
+pojahu			3
 pojavljivahu			3
 pojačavahu			3
 pokazivahu			3
@@ -341,10 +341,10 @@ pokušavahu			3
 polagahu			3
 polažahu			4
 pomagahu			3
-pomaljahu			2
-pomazivahu			2
-pomerahu			2
-pominjahu			2
+pomaljahu			3
+pomazivahu			3
+pomerahu			3
+pominjahu			3
 pomišljahu			3
 ponavljahu			3
 ponašahu			3
@@ -354,50 +354,50 @@ posmatrahu			3
 postajahu			3
 postavljahu			4
 postojahu			4
-potkradahu			2
-potucahu			2
-poučavahu			2
+potkradahu			3
+potucahu			3
+poučavahu			3
 povijahu			3
 povraćahu			4
 pozivahu			3
 poznavahu			3
-počivahu			2
+počivahu			3
 poštovahu			3
 prahu	2680		2
 pravljahu			3
-praćahu			2
-praštahu			2
-prebivahu			2
+praćahu			3
+praštahu			3
+prebivahu			3
 predahu	131		3
 predavahu			3
 predlagahu			3
 predviđahu			3
 predvođahu			3
-pregrehu			2
-preklinjahu			2
+pregrehu			3
+preklinjahu			3
 prelažahu			4
-prelivahu			2
-premirahu			2
+prelivahu			3
+premirahu			3
 prepirahu			4
 prestajahu			4
-pretresahu			2
+pretresahu			3
 pretvarahu			3
 preuzimahu			4
 prevožahu			3
 prećahu			3
-prianjahu			2
+prianjahu			3
 pribijahu			3
 približavahu			3
 prilažahu			4
 primahu			3
 primicahu			4
-prinošahu			2
+prinošahu			3
 pripadahu			4
-pripijahu			2
+pripijahu			3
 pripravljahu			4
 pripremahu			3
 pristupahu			3
-priticahu			2
+priticahu			3
 pritiskivahu			3
 prizivahu			3
 pričahu			3
@@ -405,12 +405,12 @@ pričinjavahu			3
 probadahu			3
 prodavahu			3
 prodirahu			4
-proganjahu			2
+proganjahu			3
 proklinjahu			4
 prolažahu			4
-proletahu			2
-prosipahu			2
-protezahu			2
+proletahu			3
+prosipahu			3
+protezahu			3
 proticahu			4
 protivljahu			3
 provlačahu			3
@@ -429,31 +429,31 @@ ranjavahu			3
 rasipahu			4
 raspadahu			4
 rastavljahu			4
-rastezahu			2
+rastezahu			3
 rastijahu			4
-rastresahu			2
+rastresahu			3
 ratovahu			4
 razarahu			3
 razdirahu			4
 razdvajahu			3
 razgovarahu			3
-razmahu	23		2
+razmahu	23		3
 razmicahu			4
 razmišljahu			3
 razumevahu			3
 računahu			3
 rađahu			3
-ređahu			2
+ređahu			3
 ridahu			3
-robljahu			2
-roptahu			2
+robljahu			3
+roptahu			3
 rugahu			3
 ruhu	759		2
 sabirahu			4
 sagorevahu			3
 sakupljahu			3
-samoutehu			2
-saobraćahu			2
+samoutehu			3
+saobraćahu			3
 sastajahu			4
 sastojahu			4
 savetovahu			5
@@ -461,9 +461,9 @@ savijahu			3
 sačinjavahu			3
 sađahu			3
 sevahu			3
-sevdahu			2
+sevdahu			3
 sećahu			3
-seđahu			2
+seđahu			3
 sijahu			3
 silažahu			4
 sipahu			3
@@ -471,7 +471,7 @@ siromahu	132		2
 sisahu			3
 sjahu			2
 skakahu			3
-skapavahu			2
+skapavahu			3
 skitahu			3
 sklanjahu			3
 skretahu			3
@@ -480,8 +480,8 @@ skrnavljahu			4
 skupljahu			3
 slahu			2
 slavljahu			3
-slažahu			2
-sledovahu			2
+slažahu			3
+sledovahu			3
 sluhu	142		2
 slušahu			3
 služahu			3
@@ -493,13 +493,13 @@ smetahu			3
 smeštahu			3
 smijahu		J	3
 smišljahu			3
-smućivahu			2
+smućivahu			3
 snahu	170		2
 sokoljahu			3
 spaljivahu			3
 spasavahu			3
 spavahu			3
-spletahu			2
+spletahu			3
 spremahu			3
 sprečavahu			3
 spuštahu			3
@@ -510,33 +510,33 @@ stanovahu			3
 stapahu			3
 starahu			3
 stavljahu			3
-stešnjavahu			2
+stešnjavahu			3
 stihu	845		2
 stizahu			3
 stiđahu			3
-stojahu			2
+stojahu			3
 strahovahu			3
 strahu	5342		2
 strehu	43		2
-stremljahu			2
-strigahu			2
+stremljahu			3
+strigahu			3
 strugahu			3
 stupahu			3
 stvarahu			3
 sumnjahu			3
 susretahu			4
 svedočahu			3
-svetljahu			2
+svetljahu			3
 svetlucahu			3
-svijahu			2
+svijahu			3
 svirahu			3
 svođahu			3
 svrhu	12374		2
-tamnovahu			2
+tamnovahu			3
 tepihu	941		3
 terahu			3
-teturahu			2
-tečahu			2
+teturahu			3
+tečahu			3
 ticahu			3
 tihu	499		2
 trajahu			3
@@ -545,7 +545,7 @@ trbuhu	847		3
 treptahu			3
 trgovahu			4
 triptihu	19		3
-trpahu			2
+trpahu			3
 trpljahu			3
 trubljahu			3
 truđahu			3
@@ -555,22 +555,22 @@ tvorahu			3
 tvrđahu			3
 ubacivahu			3
 ubadahu			3
-ubeđivahu			2
+ubeđivahu			3
 ubijahu			3
-ubrajahu			2
+ubrajahu			3
 udarahu			4
 udavahu			3
 uhu	841		2
 ujedahu			3
 ukazivahu			3
 uklanjahu			4
-ukucavahu			2
+ukucavahu			3
 ulagivahu			3
 ulažahu			4
-umiljavahu			2
+umiljavahu			3
 umirahu			4
-umnožavahu			2
-umoljavahu			2
+umnožavahu			3
+umoljavahu			3
 uništavahu			3
 unošahu			3
 upadahu			4
@@ -579,22 +579,22 @@ uspehu	5142		3
 uspevahu			3
 usporavahu			3
 ustajahu			4
-ustezahu			2
+ustezahu			3
 usuđivahu			3
-utehu	2873		2
+utehu	2873		3
 utvrđivahu			4
 uvažavahu			3
 uzdahu	40		3
 uzdisahu			4
-uzdizahu			2
+uzdizahu			3
 uzdržavahu			4
 uzimahu			4
-uznošahu			2
-uzvraćahu			2
+uznošahu			3
+uzvraćahu			3
 učahu			3
 uživahu			3
 vagahu			3
-vajkahu			2
+vajkahu			3
 valjahu			3
 varahu			3
 vazduhu	7692		3
@@ -605,21 +605,21 @@ većahu			3
 večerahu			4
 vešahu			3
 vežbahu			3
-vidahu			2
+vidahu			3
 vikahu			3
-virahu			2
+virahu			3
 viđahu			3
-višahu			2
+višahu			3
 vladahu			3
 vlahu			2
 vojevahu			3
-voljahu			2
+voljahu			3
 vozahu			3
 vođahu			3
 vožahu			3
 vraćahu			3
 vrebahu			3
-vređahu			2
+vređahu			3
 vrhu	21855		2
 vucijahu			4
 zabavljahu			4
@@ -627,29 +627,29 @@ zadahu	35		3
 zadržavahu			4
 zahtevahu			3
 zaklinjahu			4
-zaletahu			2
+zaletahu			3
 zalihu	344		3
-zamahu	743		2
-zametahu			2
+zamahu	743		3
+zametahu			3
 zamišljahu			3
 zanimahu			3
 zapadahu			4
-zapirahu			2
-započinjahu			2
-zatrpavahu			2
+zapirahu			3
+započinjahu			3
+zatrpavahu			3
 zaustavljahu			4
 zaviđahu			3
-zavladahu			2
+zavladahu			3
 zbijahu			3
 zbivahu			3
 zborahu			3
-zgledahu			2
+zgledahu			3
 zidahu			3
 zimovahu			3
 zloduhu	10		3
-zovahu			2
+zovahu			3
 zvahu			2
-zverahu			2
+zverahu			3
 zviždahu			3
 ćutahu			3
 čehu			2
@@ -657,7 +657,7 @@ zviždahu			3
 činjahu			3
 čitahu			3
 čohu			2
-čujahu			2
+čujahu			3
 čupahu			3
 čuvahu			3
 čuđahu			3
@@ -665,13 +665,13 @@ zviždahu			3
 šamarahu			3
 šaptahu			3
 šaputahu			3
-šestarahu			2
+šestarahu			3
 šetahu			3
 šibahu			3
 širahu			3
 škrgutahu			4
 šteđahu			3
-šumljahu			2
+šumljahu			3
 šuštahu			3
 žaljahu			3
 željahu			3
@@ -690,4 +690,4 @@ smijehu	29		3
 smjehu			2
 smjenjivahu			3
 uspjehu			3
-utjehu			2
+utjehu			3

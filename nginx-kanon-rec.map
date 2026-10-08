@@ -310,7 +310,6 @@
 "dimenzija" "/rime-za/dimenzija/";
 "din" "/rime-za/din/";
 "dinar" "/rime-za/dinar/";
-"dio" "/rime-za/dio/";
 "direktor" "/rime-za/direktor/";
 "disciplina" "/rime-za/disciplina/";
 "djavo" "/rime-za/djavo/";
@@ -2010,6 +2009,8 @@
 "te%C4%8Dnosti" "/rime-za/tecnosti/";
 "tehnika" "/rime-za/tehnika/";
 "tehnologija" "/rime-za/tehnologija/";
+"tehnoloski" "/rime-za/tehnoloski/";
+"tehnolo%C5%A1ki" "/rime-za/tehnoloski/";
 "tek" "/rime-za/tek/";
 "tekst" "/rime-za/tekst/";
 "telefon" "/rime-za/telefon/";

@@ -1,7 +1,7 @@
 17
 Mesec	50889		2
 agnec			2
-celovec			2
+celovec			3
 gec			1
 kec			1
 kepec	81		2
@@ -11,7 +11,7 @@ nec		M	1
 nemec			2
 opec			2
 perec	21		2
-petrovec			2
+petrovec			3
 polumesec	177		4
 suec			2
 zec	1870		1

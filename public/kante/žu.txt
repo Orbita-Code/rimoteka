@@ -1,6 +1,6 @@
 225
 ambalažu	1818		2
-amidžu			2
+amidžu			3
 apanažu	152		2
 arbitražu	495		2
 badžu			2
@@ -14,55 +14,55 @@ božu			2
 bridžu	103		2
 bržu	966		2
 crtežu	714		3
-davežu			2
-demontažu	265		2
+davežu			3
+demontažu	265		3
 dižu	2491		2
 dokažu	2945		2
 dosežu	476		2
 dostižu	1598		3
 dražu	65		2
 dremežu	19		3
-drenažu	315		2
+drenažu	315		3
 dužu	1191		2
 džidžu			2
-gamižu			2
+gamižu			3
 gandžu			2
 garažu	1067		2
 gažu	11		2
-glavudžu			2
+glavudžu			3
 gmižu	69		2
-gnjavažu	36		2
-grabežu	26		2
+gnjavažu	36		3
+grabežu	26		3
 grižu	421		2
 gružu			2
 hodžu	37		2
-ilidžu			2
+ilidžu			3
 imidžu	695		3
 iskažu	1871		2
-ispomažu	50		2
-istežu	102		2
-izdižu	191		2
+ispomažu	50		3
+istežu	102		3
+izdižu	191		3
 izlažu	1863		2
-izležu			2
+izležu			3
 izližu	32		2
-izmažu			2
+izmažu			3
 izrežu	16		3
 ježu	153		2
 kaljužu			3
-kambodžu			2
+kambodžu			3
 kamuflažu	63		2
 kandžu	58		2
-kanjižu			2
+kanjižu			3
 kažu	92296		2
-kembridžu			2
-kilažu	528		2
-kilometražu	662		2
-kiretažu	39		2
+kembridžu			3
+kilažu	528		3
+kilometražu	662		3
+kiretažu	39		3
 kližu	38		2
 kolažu	64		2
 koledžu	1656		3
-kontratežu			2
-kortežu			2
+kontratežu			3
+kortežu			3
 kožu	14145		2
 lavežu	14		3
 lažu	3821		2
@@ -73,18 +73,18 @@ ložu	416		2
 lupežu			3
 maharadžu			4
 makljažu	11		2
-manježu			2
+manježu			3
 maržu	622		2
 masažu	2003		2
 mažu	460		2
 metežu	276		3
-milodražu			2
-minutažu	946		2
+milodražu			3
+minutažu	946		3
 mladežu	54		3
-montažu	3017		2
+montažu	3017		3
 moržu			2
 mrežu	22389		2
-muljažu			2
+muljažu			3
 mužu	2017		2
 najblažu	59		3
 najbližu	562		3
@@ -96,93 +96,93 @@ najstrožu	198		3
 najtežu	418		3
 najužu	46		3
 nalažu	1480		2
-naležu	134		2
+naležu	134		3
 namažu	91		3
-nanižu	27		2
-naprežu	74		2
-narandžu			2
-narežu	33		2
+nanižu	27		3
+naprežu	74		3
+narandžu			3
+narežu	33		3
 natežu	80		2
-neravnotežu	225		2
+neravnotežu	225		3
 nidžu			2
 nindžu	14		2
 nižu	3521		2
 nožu	122		2
 obavežu	484		2
-oblažu	180		2
+oblažu	180		3
 obrazlažu	366		2
 obrežu	23		3
-odlažu	1443		2
+odlažu	1443		3
 odmažu	173		2
 odrežu	41		3
 odvežu	36		2
-onižu			2
+onižu			3
 otkažu	406		2
 padežu	95		3
 paležu	18		3
 pažu			2
 pejzažu	280		2
-persiflažu	12		2
+persiflažu	12		3
 plantažu	131		2
 plažu	2859		2
 podižu	3768		3
-podležu	1915		2
+podležu	1915		3
 podmažu	56		3
-podmrežu			2
-podužu	68		2
+podmrežu			3
+podužu	68		3
 pokažu	9812		2
 polažu	3944		2
-poležu	21		2
+poležu	21		3
 poližu	14		2
 pomažu	14364		2
 pomorandžu	201		2
-posežu	507		2
+posežu	507		3
 postižu	4339		3
 potežu	327		2
-potpomažu	436		2
+potpomažu	436		3
 povežu	2248		2
 prdežu			3
 predlažu	3978		2
-predskažu			2
-predstražu	22		2
-prelažu			2
-premažu	38		2
-prenemažu	38		2
+predskažu			3
+predstražu	22		3
+prelažu			3
+premažu	38		3
+prenemažu	38		3
 prerežu	16		3
 prestižu	210		3
-pretežu	83		2
+pretežu	83		3
 prežu	28		2
-pridižu			2
+pridižu			3
 prikažu	2713		2
-prilažu	377		2
-pripomažu	21		2
+prilažu	377		3
+pripomažu	21		3
 pristižu	1492		3
-pritežu	32		2
+pritežu	32		3
 privežu	69		2
-protežu	775		2
-protivtežu			2
+protežu	775		3
+protivtežu			3
 protutežu	17		2
 pužu	78		2
 raspolažu	3921		2
-rastežu	98		2
-rastržu			2
+rastežu	98		3
+rastržu			3
 ravnotežu	5047		2
 razlažu	284		2
-razležu	47		2
-razrežu	29		2
-reciklažu	2517		2
+razležu	47		3
+razrežu	29		3
+reciklažu	2517		3
 reportažu	850		2
 režu	232		2
 rižu	149		2
-rukopolažu	11		2
+rukopolažu	11		3
 ružu	742		2
 ržu	18		2
 sabotažu	132		2
-sažižu			2
+sažižu			3
 sežu	677		2
 slažu	8114		2
 sležu	111		2
-sluzokožu	467		2
+sluzokožu	467		3
 spužu			2
 staležu	137		3
 stažu	482		2
@@ -196,35 +196,35 @@ sustižu	197		3
 svežu	1078		2
 tetovažu	466		2
 težu	753		2
-tiražu	882		2
+tiražu	882		3
 tonažu	18		2
-trijažu	108		2
-trikotažu	34		2
+trijažu	108		3
+trikotažu	34		3
 truležu	11		3
 ukažu	1769		2
 ulažu	6359		2
-uprežu			2
+uprežu			3
 urežu	55		3
-ustežu	96		2
+ustežu	96		3
 uvežu	51		2
-uzdižu	704		2
+uzdižu	704		3
 užu	507		2
 važu			2
-velmožu			2
+velmožu			3
 vežu	1658		2
-voltažu	331		2
+voltažu	331		3
 vrežu			2
-zadižu			2
+zadižu			3
 zakažu	541		2
 zalažu	3920		2
-zaliježu		J	2
-zamažu	171		2
-zapomažu	71		2
+zaliježu		J	3
+zamažu	171		3
+zapomažu	71		3
 zatežu	274		2
 zavežu	55		2
-špijunažu	484		2
+špijunažu	484		3
 žižu	607		2
-liježu	16		2
-naliježu			2
-podliježu	76		2
+liježu	16		3
+naliježu			3
+podliježu	76		3
 svježu			2

@@ -1825,3 +1825,14 @@ prikazane reči stvarno imaju 2 sloga.
 važi za svaki filter, pretragu i sortiranje: „promenilo se" nije dokaz da se promenilo KAKO TREBA (v. TP-9, 22.09.). Pri padu
 provere posle promene pravila prvo se pita da li je provera merila pravu stvar, pa tek onda da li je pravilo pokvarilo nešto.
 
+## 08.10.2026 — ZAKRPA PALA NA `assert`, A LANAC PODATAKA KRENUO SA STARIM KODOM (nije bilo `&&`)
+
+**Šta se desilo:** zakrpa za AK-3 (`python3 - <<EOF … EOF`) je pala na drugom paru (tekst docstringa se nije poklopio), pa
+ništa nije upisano – a u istoj komandi je, odvojen NOVIM REDOM umesto sa `&&`, krenuo lanac `akcenat.py → kante → verzije
+→ gen_pages` i odradio sve sa STARIM pravilom. Izlaz zakrpe je otišao u pozadinski fajl koji nisam odmah pogledala.
+Uhvatio `grep` posle lanca („promenjeno 0 od 281.726") – inače bi test i tabela za vlasnicu „potvrdili" promenu koje nema.
+Isti razred kao HANDOVER 4.11 (patch tiho nije primenjen).
+
+**Pravilo:** zakrpa i sve što od nje zavisi idu u JEDAN lanac sa `&&`; prvi korak posle zakrpe je `grep` za nov tekst,
+pa tek onda regeneracija. U pozadinskom zadatku se PRVO čita njegov izlaz, pa tek onda rezultat lanca.
+

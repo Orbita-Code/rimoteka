@@ -1,8 +1,8 @@
 20
 Josif			2
-apokrif	26		2
+apokrif	26		3
 grif		M	1
-hatišerif		M	2
+hatišerif		M	3
 hijeroglif	31		2
 kadaif			2
 kalif		M	2
@@ -11,7 +11,7 @@ klif	35		1
 latif			2
 mastif	49		2
 nazif			2
-petroglif			2
+petroglif			3
 raif			2
 redklif			2
 rozbif			2

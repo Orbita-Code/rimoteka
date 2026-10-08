@@ -3,94 +3,94 @@ Argentinu			2
 Atinu			2
 Berlinu			2
 Bostonu			3
-Filipinu			2
+Filipinu			3
 Iranu			2
 Japanu			2
 Jordanu			3
 Kazahstanu			2
 Kinu	345		2
 Kopenhagenu			3
-Libanu			2
-Lionu			2
-Lisabonu			2
+Libanu			3
+Lionu			3
+Lisabonu			3
 Ljubljanu			2
 Londonu			2
 Pakistanu			2
 Prištinu			3
 Sudanu			2
 Ukrajinu			4
-Vašingtonu			2
+Vašingtonu			3
 abdomenu	166		3
 abecednu			4
 abnormalnu	36		4
 abrazivnu			4
 acetonu	10		2
-adaptivnu	51		2
+adaptivnu	51		3
 adekvatnu	3551		4
 administrativnu	880		6
 adrenalinu	55		2
-adresiranu	19		2
+adresiranu	19		3
 aeroplanu			5
-afektivnu	26		2
-afganistanu			2
-aforističnu			2
-agamemnonu			2
-aginu			2
+afektivnu	26		3
+afganistanu			3
+aforističnu			3
+agamemnonu			3
+aginu			3
 agrarnu	442		2
 agregatnu	55		2
 agresivnu	572		4
-ajkunu			2
-ajnštajnu			2
-akcesionu			2
-akcionu	126		2
-akciznu	109		2
-akrilnu	20		2
-aktentašnu			2
+ajkunu			3
+ajnštajnu			3
+akcesionu			3
+akcionu	126		3
+akciznu	109		3
+akrilnu	20		3
+aktentašnu			3
 aktiviranu			3
 aktivnu	2536		3
 aktuelnu	2103		4
 akustičnu	130		3
 akutnu	178		3
-aladinu			2
+aladinu			3
 alarmiranu			3
 albinu			2
-alenu			2
-alinu			2
-alipašinu			2
+alenu			3
+alinu			3
+alipašinu			3
 alternativnu	646		5
 amandmanu	2169		2
-amazonu			2
+amazonu			3
 ambicioznu	147		5
-ambulantnu	25		2
+ambulantnu	25		3
 amebnu			2
 amorfnu	75		3
 analiziranu			3
 analnu	42		2
 analognu	200		4
-androginu			2
-angažmanu	842		2
-angažovanu	78		2
-angelinu			2
+androginu			3
+angažmanu	842		3
+angažovanu	78		3
+angelinu			3
 anginu	136		2
 animalnu	27		4
-animiranu	102		2
-aninu			2
-anksioznu			2
+animiranu	102		3
+aninu			3
+anksioznu			3
 anonimnu	141		4
 antenu	992		2
 antidržavnu	44		2
-antiratnu	123		2
+antiratnu	123		3
 antireligioznu			5
-antverpenu			2
-anđelinu			2
+antverpenu			3
+anđelinu			3
 apartmanu	805		2
-apatinu			2
-apelacionu			2
-aplikativnu			2
+apatinu			3
+apelacionu			3
+aplikativnu			3
 apokaliptičnu	42		3
-apokrifnu	13		2
-apolonu			2
-apotekaričinu			2
+apokrifnu	13		3
+apolonu			3
+apotekaričinu			3
 apriornu	24		4
 apsolutnu	2892		4
 apstraktnu	173		3
@@ -101,119 +101,119 @@ arbitražnu	44		4
 arenu	1247		2
 arhaičnu	38		3
 arhiđakonu	41		5
-arhižupanu			2
-arizonu			2
-arkanu			2
-armagedonu			2
+arhižupanu			3
+arizonu			3
+arkanu			3
+armagedonu			3
 aromatičnu			3
-arondismanu			2
+arondismanu			3
 arsenu	27		2
-aršinu			2
-aseksualnu			2
-asfaltnu	114		2
+aršinu			3
+aseksualnu			3
+asfaltnu	114		3
 asortimanu	1032		2
 astmatičnu			3
-astraganu			2
+astraganu			3
 astralnu	29		2
 atraktivnu	664		4
 autentičnu	539		3
-autističnu	52		2
-autobusnu			2
+autističnu	52		3
+autobusnu			3
 autohtonu	116		3
-autoimunu	33		2
+autoimunu	33		3
 autonomnu	482		5
-avangardnu	67		2
-avanu		M	2
-avganistanu			2
-avgustinu			2
-avinjonu			2
+avangardnu	67		3
+avanu		M	3
+avganistanu			3
+avgustinu			3
+avinjonu			3
 avionu	2863		2
 azotnu	21		3
-azurnu	65		2
+azurnu	65		3
 ažurnu	61		3
 babetinu			3
-babilonu			2
-babinu	10		2
-baburinu			2
-bagatelnu	35		2
+babilonu			3
+babinu	10		3
+baburinu			3
+bagatelnu	35		3
 bahnu			2
-bahreinu			2
-bajanu			2
+bahreinu			3
+bajanu			3
 bajoslovnu			4
-bajronu			2
-bakarnu	171		2
-bakinu			2
+bajronu			3
+bakarnu	171		3
+bakinu			3
 bakrenu			3
-bakroreznu			2
+bakroreznu			3
 balerinu	67		2
-baletnu			2
-balkanu			2
+baletnu			3
+balkanu			3
 balkonu	533		2
 balonu	319		2
 banalnu	110		2
 bananu	615		2
-banaćaninu			2
-bandažiranu			2
-bankovnu	36		2
-banovinu	168		2
+banaćaninu			3
+bandažiranu			3
+bankovnu	36		3
+banovinu	168		3
 banu	377		2
-baražnu	28		2
-barenu	19		2
-barmenu	20		2
-baroknu	160		2
-baroničinu			2
+baražnu	28		3
+barenu	19		3
+barmenu	20		3
+baroknu	160		3
+baroničinu			3
 baronu	90		2
-barselonu			2
-basenu	956		2
+barselonu			3
+basenu	956		3
 basnoslovnu			4
 basnu	95		2
-bataljonu	162		2
+bataljonu	162		3
 batinanu			3
 batinu	317		3
-batočinu			2
+batočinu			3
 bazenu	4417		2
 baziranu	421		3
-bazičnu	165		2
+bazičnu	165		3
 baznu	287		2
 bačenu	64		3
-baštinu	1617		2
-baštovanu			2
-bebinu	18		2
+baštinu	1617		3
+baštovanu			3
+bebinu	18		3
 bednu	390		2
-bedrenu			2
+bedrenu			3
 beknu			2
 beleženu			4
 benzinu	197		2
-beočinu			2
-berberinu	41		2
-berićetnu			2
-besadržajnu			2
-besanu			2
+beočinu			3
+berberinu	41		3
+berićetnu			3
+besadržajnu			3
+besanu			3
 beskonačnu	187		3
 beskorisnu	57		4
 beskrajnu	367		2
 beskrupuloznu			5
-beskrvnu	74		2
-beslovesnu	29		2
+beskrvnu	74		3
+beslovesnu	29		3
 besmislenu	271		4
 besmrtnu	144		3
 besnu	123		2
-besomučnu	89		2
-bespilotnu	85		2
+besomučnu	89		3
+bespilotnu	85		3
 besplatnu	3199		3
 besplodnu	12		3
 bespomoćnu	50		4
 besposlenu	11		4
-bespočetnu			2
+bespočetnu			3
 bespravnu	105		2
 besprekornu	316		2
-besputnu			2
+besputnu			3
 besramnu	28		2
 bestelesnu	11		4
 bestidnu	25		2
 betonu	867		2
 bezazlenu	82		3
-bezbednosnu	995		2
+bezbednosnu	995		3
 bezbednu	805		3
 bezbojnu	32		3
 bezbolnu	59		2
@@ -221,128 +221,128 @@ bezbožnu	28		3
 bezbrižnu	97		3
 bezbrojnu			2
 bezdanu	143		3
-bezdelatnu			2
+bezdelatnu			3
 bezdušnu	27		3
 bezglasnu			3
 bezgraničnu	163		4
 bezgrešnu	17		3
 bezimenu	21		4
-bezistenu			2
+bezistenu			3
 bezizlaznu	188		3
 bezličnu	88		3
-bezlobnu			2
-bezmernu	22		2
+bezlobnu			3
+bezmernu	22		3
 beznačajnu	130		4
-bezobalnu			2
-bezobličnu	37		2
+bezobalnu			3
+bezobličnu	37		3
 bezobraznu	87		3
 bezobzirnu	47		4
 bezopasnu	46		4
 bezočnu	46		3
 bezrezervnu	392		2
-bezukusnu			2
+bezukusnu			3
 bezumnu	55		2
-bezuslovnu	461		2
-bezutešnu			2
+bezuslovnu	461		3
+bezutešnu			3
 bezveznu	37		3
-bezvidnu			2
+bezvidnu			3
 bezvodnu			3
 bezvoljnu			2
 bezvrednu	46		3
-bezživotnu			2
+bezživotnu			3
 beživotnu	44		4
-bežičnu	711		2
+bežičnu	711		3
 bijesnu			3
-bikarbonu	177		2
-bilansnu	46		2
-biljanu			2
+bikarbonu	177		3
+bilansnu	46		3
+biljanu			3
 biljnu	423		2
 biltenu	364		2
-binarnu	49		2
+binarnu	49		3
 binu	1360		2
 biranu	18		3
-biseksualnu			2
-bisernu	54		2
+biseksualnu			3
+bisernu	54		3
 bistrinu	100		2
 bitnu	2399		2
 bizarnu	159		3
-biznismenu			2
+biznismenu			3
 bizonu			2
 bičevanu			4
 blagajnu	319		2
-blagodarnu			2
-blagodatnu	68		2
+blagodarnu			3
+blagodatnu	68		3
 blagonaklonu	19		3
-blagorodnu			2
-blagoslovenu	54		2
+blagorodnu			3
+blagoslovenu	54		3
 blagoslovljenu			3
-blagotvornu	46		2
+blagotvornu	46		3
 blatnu	22		2
 blatobranu	18		4
-blaziranu			2
-blaženu	196		2
+blaziranu			3
+blaženu	196		3
 blebetanu			3
 blenu	49		2
 blesnu	69		2
-blindiranu			2
+blindiranu			3
 blizinu	1030		2
 bljesnu	79		2
-bljuvotinu	43		2
+bljuvotinu	43		3
 bludnu	26		2
-bobanu			2
+bobanu			3
 bocnu	33		2
-bodovnu	157		2
-bogdanu			2
+bodovnu	157		3
+bogdanu			3
 bogohulnu	23		4
-bogoslovnu			2
-bogougodnu	24		2
-bogovetnu			2
-bojadisanu			2
+bogoslovnu			3
+bogougodnu	24		3
+bogovetnu			3
+bojadisanu			3
 bojanu	44		3
 bojenu	20		3
 bojnu	54		2
 bolesnu	695		3
-boleštinu	38		2
-boljetinu			2
+boleštinu	38		3
+boljetinu			3
 bolnu	506		2
 bombonu	113		2
-bonbonu	11		2
-bontonu	92		2
+bonbonu	11		3
+bontonu	92		3
 boravišnu	270		4
 borbenu	545		3
-borjanu			2
+borjanu			3
 borovinu	17		4
 bosnu			2
-bostanu	25		2
+bostanu	25		3
 bočnu	280		2
 božanstvenu	263		3
-božanu			2
+božanu			3
 božićnu	338		3
-brajtonu			2
-brakorazvodnu	69		2
+brajtonu			3
+brakorazvodnu	69		3
 branjenu			3
 branu	691		2
-braunu			2
-braćenu			2
+braunu			3
+braćenu			3
 bračnu	691		2
 brašnu	175		2
 brecnu			2
 bremenu	122		3
-brigadnu			2
-brilijantnu			2
-briljantinu			2
-briljantnu	189		2
+brigadnu			3
+brilijantnu			3
+briljantinu			3
+briljantnu	189		3
 brinu	8409		2
-brizbejnu			2
+brizbejnu			3
 briznu	56		2
 brižnu	52		2
 brknu			2
-brljotinu	77		2
+brljotinu	77		3
 brojanu			3
 brojnu	533		2
 brojčanu	209		3
-bronzanu	2073		2
-bruklinu			2
+bronzanu	2073		3
+bruklinu			3
 brutalnu	240		3
 brzinu	13567		3
 brđaninu			4
@@ -351,20 +351,20 @@ bubnu	79		2
 bubrežnu	67		3
 budalaštinu	162		3
 budnu	55		2
-bugarinu			2
-bugojnu			2
+bugarinu			3
+bugojnu			3
 bujnu	275		2
 buknu	90		2
 bukovinu	18		4
 buntovnu	38		3
 bupnu			2
-burbonu			2
+burbonu			3
 burnu	550		2
-busenu	19		2
+busenu	19		3
 butanu	18		2
-butinu	227		2
+butinu	227		3
 butnu	44		2
-buzdovanu			2
+buzdovanu			3
 bućnu	16		2
 bučnu	89		2
 bušotinu	126		4
@@ -373,169 +373,169 @@ carevinu	190		4
 carinu	1786		3
 caričinu			4
 celinu	5802		2
-celishodnu	11		2
-celobrojnu	13		2
-celodnevnu	218		2
+celishodnu	11		3
+celobrojnu	13		3
+celodnevnu	218		3
 celokupnu	3547		3
 cenjenu	137		3
-cenovnu	327		2
-centralnu	3535		2
+cenovnu	327		3
+centralnu	3535		3
 cenu	47955		2
 cepelinu			2
-cerebralnu	241		2
+cerebralnu	241		3
 ceremonijalnu	32		6
-cetinu			2
-ciceronu			2
+cetinu			3
+ciceronu			3
 ciganinu	22		4
 ciglanu	51		2
-cijuknu			2
+cijuknu			3
 ciknu	56		2
 ciljanu	50		3
 ciljnu	980		2
 cimnu	35		2
 ciničnu	80		3
-cirkularnu	21		2
+cirkularnu	21		3
 cisternu	256		2
-cističnu	29		2
-citiranu	52		2
-civilizovanu	41		2
-civilnu	830		2
+cističnu	29		3
+citiranu	52		3
+civilizovanu	41		3
+civilnu	830		3
 coknu			2
 crevnu	205		2
 crknu	239		2
-crkotinu	22		2
+crkotinu	22		3
 crkovnu			2
 crkvenu	1156		3
-crkvinu			2
-crninu	121		2
+crkvinu			3
+crninu	121		3
 crnu	5439		2
 crvenu	5816		3
 crvotočinu	20		4
-cvetanu			2
+cvetanu			3
 cvetnu	174		2
 cvrknu			2
-dablinu			2
+dablinu			3
 dadnu	54		2
-dafinu			2
-dagestanu			2
+dafinu			3
+dagestanu			3
 dahnu			2
 daljinu	4294		2
-damjanu			2
-daničinu			2
+damjanu			3
+daničinu			3
 danonoćnu	18		4
 danu	10455		2
 darovanu	32		3
-darvinu			2
-datiranu			2
+darvinu			3
+datiranu			3
 davninu	11		2
 davnu	206		2
-davorinu			2
+davorinu			3
 dažbinu	54		3
-debatnu	15		2
-debitnu	120		2
+debatnu	15		3
+debitnu	120		3
 debljinu	803		2
-debrecinu			2
-decimalnu	26		2
-dedovinu	272		2
-defanzivnu	140		2
+debrecinu			3
+decimalnu	26		3
+dedovinu	272		3
+defanzivnu	140		3
 defektnu			3
-definisanu	429		2
+definisanu	429		3
 definitivnu	341		5
-deformisanu	39		2
-dejanu			2
-dejtonu			2
+deformisanu	39		3
+dejanu			3
+dejtonu			3
 dekanu	238		2
 dekorativnu	256		5
-delatnu	78		2
+delatnu	78		3
 delfinu	38		2
 delikatnu	176		4
-delimičnu	458		2
+delimičnu	458		3
 deljenu	16		3
 delotvornu	240		4
-demarkacionu			2
+demarkacionu			3
 demonu	135		2
 denu			2
-departmanu	480		2
-deponovanu			2
-depresivnu	65		2
+departmanu	480		3
+deponovanu			3
+depresivnu	65		3
 deranu			3
-desenu			2
+desenu			3
 desetinu	614		3
 desnu	3182		2
-desperatnu			2
+desperatnu			3
 destruktivnu	163		4
 detaljnu	1409		3
-detašmanu			2
+detašmanu			3
 detelinu	186		4
 devetinu			3
-deviznu	671		2
-devojčinu	38		2
-dezenu			2
+deviznu	671		3
+devojčinu	38		3
+dezenu			3
 dežurnu	140		2
-diferencijalnu	70		2
+diferencijalnu	70		3
 difuznu	46		3
-digitalnu	2118		2
+digitalnu	2118		3
 dignu	1323		2
-dijamantnu			2
-dijanu			2
+dijamantnu			3
+dijanu			3
 dijapazonu	254		2
-dijetalnu	58		2
-dijetnu			2
-diktafonu			2
+dijetalnu	58		3
+dijetnu			3
+diktafonu			3
 diktiranu			3
 dimljenu	76		3
 dimnu	84		2
-dinamičnu	473		2
+dinamičnu	473		3
 dinstanu			3
 dinu	188		2
 direktnu	3144		3
-dirigovanu	24		2
+dirigovanu	24		3
 dirnu	81		2
-disciplinovanu	35		2
+disciplinovanu	35		3
 disciplinu	2524		2
-disketnu	14		2
+disketnu	14		3
 diskretnu	184		3
-diskusionu	19		2
+diskusionu	19		3
 divanu	85		3
 divljinu	292		2
 divnu	1654		2
-dizajniranu	188		2
+dizajniranu	188		3
 dizajnu	4986		3
 dičnu	19		2
-dižonu			2
+dižonu			3
 dlanu	1498		2
 dnevnu	2822		2
 dnu	8948		1
 doajenu	32		2
 dobijenu	632		4
-dobitnu	258		2
+dobitnu	258		3
 dobrodušnu	11		3
-dobrosinu			2
+dobrosinu			3
 dobrotvornu	134		4
-dobrovoljnu	196		2
+dobrovoljnu	196		3
 dobroćudnu	15		4
 dodatnu	7821		3
 dodeljenu	107		3
-dodirnu	596		2
-doglednu	18		2
+dodirnu	596		3
+doglednu	18		3
 dogovorenu	160		3
-dogovornu	30		2
-dojčinu			2
+dogovornu	30		3
+dojčinu			3
 dokazanu	125		3
-dokaznu	112		2
+dokaznu	112		3
 dokonu	17		3
 doktrinu	679		2
-dolaznu	28		2
+dolaznu	28		3
 dolinu	1556		2
-doličnu	14		2
+doličnu	14		3
 domaćinu	1772		3
-domenu	9135		2
-dometnu			2
+domenu	9135		3
+dometnu			3
 dominantnu	836		2
-dominu	22		2
-domognu	757		2
+dominu	22		3
+domognu	757		3
 domovinu	1893		4
-donesenu	49		2
+donesenu	49		3
 dopadnu	261		3
 dopremljenu			3
 dopunjenu	49		4
@@ -546,58 +546,58 @@ dosegnu	407		2
 doslednu	374		3
 dosljednu		J	3
 doslovnu	21		2
-dostatnu			2
+dostatnu			3
 dostavljenu	49		4
 dostignu	1649		3
 dostižnu	22		3
-dostojanstvenu	154		2
+dostojanstvenu	154		3
 dostojnu	430		2
 dostupnu	468		3
-dosuđenu			2
-dotaknu	336		2
-doteranu	99		2
-dotičnu	487		2
+dosuđenu			3
+dotaknu	336		3
+doteranu	99		3
+dotičnu	487		3
 dovedenu	23		3
 doviknu	114		2
 dovoljnu	2021		3
 dovršenu	34		3
-dozivotnu			2
+dozivotnu			3
 dozvoljenu	446		3
-doživljenu	27		2
+doživljenu	27		3
 doživotnu	875		4
 draganu	356		3
 dragocenu	673		3
-dragomanu			2
-dragovoljnu			2
-dragutinu			2
+dragomanu			3
+dragovoljnu			3
+dragutinu			3
 dramatičnu	350		3
 drastičnu	233		3
 dražesnu	14		3
-dražinu			2
+dražinu			3
 dreknu	98		2
-drenjinu			2
-drenovinu	68		2
+drenjinu			3
+drenovinu	68		3
 drenu	14		2
 drevnu	438		2
-drezdenu			2
+drezdenu			3
 drinu			2
 drmnu	28		2
 drobljenu			3
 drobnu			2
 drogiranu	16		3
 dronu			2
-drtinu			2
+drtinu			3
 društvenu	5494		3
-družbinu			2
+družbinu			3
 družinu	545		3
 drvenu	833		3
 drvnu	181		2
 drznu	137		2
 državnu	9415		2
-državotvornu	230		2
-dualnu	30		2
+državotvornu	230		3
+dualnu	30		3
 dubinu	4158		2
-dubodolinu			2
+dubodolinu			3
 dugoročnu	1502		4
 dugotrajnu	738		4
 dugovečnu	41		4
@@ -605,43 +605,43 @@ duhnu			2
 duhovnu	3018		2
 duljinu	35		2
 dunu	172		2
-durbanu			2
+durbanu			3
 durbinu			2
 duvanu	428		2
 dućanu	201		2
-dušanu			2
-duševnu	415		2
+dušanu			3
+duševnu	415		3
 dušmaninu	40		4
 dušmanu	10		3
 dužinu	4126		2
 dužnu	341		2
-dvobojnu	25		2
-dvocifrenu			2
-dvodnevnu	477		2
-dvofaznu			2
-dvojezičnu	75		2
+dvobojnu	25		3
+dvocifrenu			3
+dvodnevnu	477		3
+dvofaznu			3
+dvojezičnu	75		3
 dvojnu	142		2
-dvokatnu		J	2
-dvokrevetnu	95		2
+dvokatnu		J	3
+dvokrevetnu	95		3
 dvoličnu	40		3
-dvomesečnu	90		2
-dvonedeljnu	94		2
+dvomesečnu	90		3
+dvonedeljnu	94		3
 dvoranu	1287		2
-dvorišnu	48		2
-dvosatnu	15		2
-dvoslovnu			2
-dvosmernu	230		2
-dvospratnu	50		2
-dvostepenu			2
-dvotomnu			2
-dvočlanu	40		2
+dvorišnu	48		3
+dvosatnu	15		3
+dvoslovnu			3
+dvosmernu	230		3
+dvospratnu	50		3
+dvostepenu			3
+dvotomnu			3
+dvočlanu	40		3
 džentlmenu	14		3
 džepnu	38		2
 džinu			2
-džordžtaunu			2
-edenu			2
-edisonu			2
-edmontonu			2
+džordžtaunu			3
+edenu			3
+edisonu			3
+edmontonu			3
 edukativnu	441		5
 efektivnu	423		4
 efektnu	156		3
@@ -649,163 +649,163 @@ efikasnu	2367		4
 egzaktnu	53		3
 egzistencijalnu	247		6
 egzotičnu	205		3
-ekavštinu			2
-ekipnu	116		2
+ekavštinu			3
+ekipnu	116		3
 ekonomičnu	203		3
 ekranu	6878		2
 ekskluzivnu	538		4
-eksperimentalnu	397		2
+eksperimentalnu	397		3
 eksplozivnu	264		4
-ekspresnu	36		2
-eksproprisanu			2
-eksternu			2
+ekspresnu	36		3
+eksproprisanu			3
+eksternu			3
 ekstremnu	308		2
-ekumenu	14		2
+ekumenu	14		3
 elastičnu	115		3
 elegantnu	381		2
 elektranu	623		2
-električnu	4111		2
+električnu	4111		3
 elektromagnetnu	60		2
 elektronu	27		2
-elenu			2
-elitnu	263		2
+elenu			3
+elitnu	263		3
 embrionu	73		4
-eminu			2
-emisionu	81		2
-emitovanu	44		2
+eminu			3
+emisionu	81		3
+emitovanu	44		3
 emocionalnu	673		6
 emotivnu	1151		4
 energičnu	176		3
-enormnu	227		2
-epiduralnu	89		2
-epizodnu	232		2
+enormnu	227		3
+epiduralnu	89		3
+epizodnu	232		3
 epohalnu	83		4
-erektilnu	55		2
-erkondišnu			2
+erektilnu	55		3
+erkondišnu			3
 eruptivnu			4
-estradnu	96		2
+estradnu	96		3
 eventualnu	1749		5
 evidentnu	71		2
-evolucionu	67		2
-evrozonu	968		2
-ešalonu	55		2
+evolucionu	67		3
+evrozonu	968		3
+ešalonu	55		3
 faktičnu	20		3
-falsifikovanu	45		2
+falsifikovanu	45		3
 famoznu	346		3
 fanatičnu	62		3
 fantastičnu	1178		3
 faraonu	79		2
-farsičnu	16		2
+farsičnu	16		3
 fascinantnu	170		2
 fatalnu	216		3
-fatamorganu	59		2
-faunu	278		2
+fatamorganu	59		3
+faunu	278		3
 faznu	56		2
-fazonu	2334		2
-federalnu	306		2
+fazonu	2334		3
+federalnu	306		3
 feljtonu	105		2
-femoralnu	12		2
+femoralnu	12		3
 fenomenalnu	500		5
 fenomenu	1492		2
-fermanu			2
+fermanu			3
 feudalnu	67		4
-fiksiranu	20		2
+fiksiranu	20		3
 fiksnu	1036		2
-fiktivnu	156		2
-finalnu	989		2
+fiktivnu	156		3
+finalnu	989		3
 finu	986		2
-fiskalnu	1675		2
-fizikalnu	464		2
-flaširanu	287		2
-florinu			2
-folklornu	164		2
+fiskalnu	1675		3
+fizikalnu	464		3
+flaširanu	287		3
+florinu			3
+folklornu	164		3
 fontanu	541		2
-formalinu	30		2
+formalinu	30		3
 formalnu	642		2
-formiranu	259		2
-fragilnu			2
-frapantnu	36		2
+formiranu	259		3
+fragilnu			3
+frapantnu	36		3
 frekventnu	31		2
 frigidnu			2
 frknu	34		2
 frontalnu	43		2
 fundamentalnu	212		5
 funkcionalnu	1059		5
-furunu			2
+furunu			3
 gadnu	110		2
-gajenu	11		2
+gajenu	11		3
 gajtanu	14		3
 galonu	73		2
-galvaniziranu			2
-gangrenu	79		2
-garažnu			2
-garnizonu	112		2
+galvaniziranu			3
+gangrenu	79		3
+garažnu			3
+garnizonu	112		3
 gasnu	409		2
-gavanu			2
+gavanu			3
 gavranu	28		3
-gazdinu			2
+gazdinu			3
 gaziranu	53		3
 generalnu	787		4
 genijalnu	255		4
-genocidnu	152		2
+genocidnu	152		3
 genu	228		2
 giljotinu	218		4
 ginu	1180		2
-gipsanu	31		2
+gipsanu	31		3
 gladnu	177		2
-glamuroznu	100		2
+glamuroznu	100		3
 glasinu	84		3
 glasnu	274		2
-glasovnu	171		2
+glasovnu	171		3
 glavešinu			3
 glavninu	245		2
 glavnu	8746		2
-glaziranu			2
+glaziranu			3
 glednu			2
 glinenu	33		3
 glinu	488		2
-gljivičnu	71		2
+gljivičnu	71		3
 globalnu	2959		2
-glumičinu			2
+glumičinu			3
 glupanu	10		3
-gnjilanu			2
+gnjilanu			3
 gnojnu	45		2
 gnu	191		1
 gnusnu	42		2
-goblinu			2
+goblinu			3
 godinu	142286		3
 gojaznu	30		3
 gojnu			2
-golmanu			2
-golubanu			2
+golmanu			3
+golubanu			3
 goranu	93		3
-gordanu			2
-gorgonu			2
-goropadnu			2
+gordanu			3
+gorgonu			3
+goropadnu			3
 gorostasnu	17		4
 gorčinu	600		2
-gospinu			2
+gospinu			3
 gospodinu	5934		3
-gospođinu			2
+gospođinu			3
 gospoštinu	10		3
 gostionu	21		2
 gotovinu	865		2
 govedinu	169		4
-goveđinu			2
-govornu	264		2
+goveđinu			3
+govornu	264		3
 gracioznu	18		4
 gradinu	131		2
-grafikonu	599		2
+grafikonu	599		3
 graknu	41		2
 gramofonu	40		2
 grandioznu	94		4
-granitnu	42		2
+granitnu	42		3
 graničnu	330		3
 granu	2523		2
-gravitacionu	79		2
+gravitacionu	79		3
 građaninu	1613		4
 građevinu	1248		4
-grbinu			2
+grbinu			3
 grdnu	68		2
 grebenu	360		3
 grejnu	635		2
@@ -817,85 +817,85 @@ grmljavinu	183		4
 grmnu		M	2
 grobnu	58		2
 grotesknu	65		2
-grozdanu			2
+grozdanu			3
 groznu	143		2
 grubijanu			2
 grudnu	134		2
-grudobranu	15		2
-grujičinu			2
+grudobranu	15		3
+grujičinu			3
 grumenu			3
 grunu	65		2
 grupnu	857		2
-gruševinu			2
+gruševinu			3
 guknu			2
 gumenu	167		3
 gumnu	98		2
 guranu			3
 gurnu	583		2
-gustinu	602		2
+gustinu	602		3
 guvnu	45		2
 gvozdenu	292		3
-hajvanu			2
-haljinu	2965		2
+hajvanu			3
+haljinu	2965		3
 hanu			2
-haotičnu	134		2
+haotičnu	134		3
 harmoničnu	164		3
-hasanu			2
-havanu			2
+hasanu			3
+havanu			3
 haznu			2
-helenu			2
-helikonu			2
-hendikepiranu	48		2
-hercegovinu			2
+helenu			3
+helikonu			3
+hendikepiranu	48		3
+hercegovinu			3
 heroinu	188		2
-hesenu			2
+hesenu			3
 heterogenu	59		5
 hibridnu	191		2
-hidrantnu			2
+hidrantnu			3
 hidrauličnu	46		3
 higijenu	2771		2
 hijenu	12		2
 himnu	2230		2
 histeričnu	53		3
 hitnu	3291		2
-hitrinu			2
-hjustonu			2
+hitrinu			3
+hjustonu			3
 hladnu	1545		2
 hladovinu	372		3
 hlornu			2
-hlorovodoničnu			2
-holanđaninu			2
+hlorovodoničnu			3
+holanđaninu			3
 homogenu	191		4
 homoseksualnu	95		6
 hormonu	77		2
-houstonu			2
-hramovnu	277		2
+houstonu			3
+hramovnu	277		3
 hranu	27679		2
 hrastovinu	23		4
-hridinu			2
-hristinu			2
+hridinu			3
+hristinu			3
 hrišćaninu	176		4
 hroničnu	442		3
 htednu	16		2
-huanu			2
+huanu			3
 huknu			2
-huliganu			2
+huliganu			3
 humanitarnu	2114		5
 humanu	653		3
 humornu	23		2
-huseinu			2
+huseinu			3
 hučnu			2
 hvaljenu	24		3
 idealnu	1698		4
 idejnu	154		2
-identifikacionu	105		2
+identifikacionu	105		3
 identičnu	619		3
 idiličnu	135		3
-igmanu			2
-igranu	56		2
-iguanu	29		2
+igmanu			3
+igranu	56		3
+iguanu	29		3
 igumanu	485		4
-ijednu			2
+ijednu			3
 ikonu	2737		3
 ilegalnu	290		4
 iluzornu	21		4
@@ -904,119 +904,119 @@ imanentnu	60		2
 imendanu			4
 imenovanu	11		5
 imenu	9308		3
-imigracionu	42		2
+imigracionu	42		3
 imovinu	18538		3
 implicitnu	46		3
 impozantnu	147		2
 impresivnu	359		4
 improvizovanu	31		5
-impulsivnu	49		2
-impulsnu	14		2
-incestnu			2
-indeksnu	53		2
-indijanu			2
+impulsivnu	49		3
+impulsnu	14		3
+incestnu			3
+indeksnu	53		3
+indijanu			3
 indirektnu	239		4
 individualnu	874		6
 inertnu	13		2
 infantilnu	52		4
-inficiranu	13		2
-inflatornu	26		2
+inficiranu	13		3
+inflatornu	26		3
 informativnu	458		5
 infracrvenu	105		5
 ingenioznu	13		5
 inherentnu	35		2
 inicijalnu	379		5
-inokosnu			2
-inostranu	336		2
-inovacionu	262		2
+inokosnu			3
+inostranu	336		3
+inovacionu	262		3
 inovativnu	427		5
-inspirisanu	197		2
-instalacionu			2
-instaliranu	267		2
+inspirisanu	197		3
+instalacionu			3
+instaliranu	267		3
 integralnu	263		4
 intelektualnu	2190		6
 inteligentnu	230		2
 intenzivnu	1324		4
-interaktivnu	684		2
+interaktivnu	684		3
 interesantnu	989		2
-interesnu	261		2
-interfonu	25		2
+interesnu	261		3
+interfonu	25		3
 internacionalnu	654		7
 internu	1152		3
-interventnu	125		2
+interventnu	125		3
 intimnu	424		3
-intonacionu			2
-intoniranu	31		2
+intonacionu			3
+intoniranu	31		3
 intravenoznu	14		2
 intuitivnu	110		5
-invalidninu	128		2
+invalidninu	128		3
 inverznu	19		2
-investicionu	629		2
+investicionu	629		3
 iracionalnu	92		6
-irenu			2
-irinu			2
+irenu			3
+irinu			3
 ironičnu	80		3
 isceljenu			3
 isceđenu			3
 iscrpljenu	47		3
 iscrpnu	136		3
-iseckanu	129		2
+iseckanu	129		3
 isečenu	198		4
-ishitrenu	35		2
-ishodišnu			2
+ishitrenu	35		3
+ishodišnu			3
 ishranu	8615		3
-isidorinu			2
-isitnjenu			2
-isitnu			2
+isidorinu			3
+isitnjenu			3
+isitnu			3
 iskazanu	173		3
-iskeženu			2
+iskeženu			3
 iskidanu			4
 iskićenu			4
-iskliznu	27		2
+iskliznu	27		3
 isključenu	12		3
 iskopanu	41		3
-iskopinu	12		2
-iskošenu			2
+iskopinu	12		3
+iskošenu			3
 iskrenu	1127		3
-iskrivljenu	300		2
-iskrsnu	152		2
+iskrivljenu	300		3
+iskrsnu	152		3
 iskupljenu			3
 iskusnu	162		3
 iskustvenu	49		3
-iskvarenu	18		2
+iskvarenu	18		3
 ispadnu	724		3
-isparcelisanu			2
-ispaćenu			2
-ispevanu	13		2
+isparcelisanu			3
+ispaćenu			3
+ispevanu	13		3
 ispečenu	32		4
-ispisanu	143		2
+ispisanu	143		3
 ispitanu			3
-ispitnu	110		2
-isplaniranu	31		2
+ispitnu	110		3
+isplaniranu	31		3
 isplaćenu	55		3
 ispletenu	26		4
-ispljunu	54		2
+ispljunu	54		3
 ispnu			2
-ispoljenu	58		2
+ispoljenu	58		3
 isporučenu	93		3
-ispovednu	16		2
+ispovednu	16		3
 ispravnu	989		3
 ispraznu	57		3
 ispražnjenu	29		3
-isprekidanu	26		2
+isprekidanu	26		3
 ispričanu	81		3
 isprljanu			3
-isprošenu			2
-ispruženu	68		2
-isprženu			2
-ispucanu			2
+isprošenu			3
+ispruženu	68		3
+isprženu			3
+ispucanu			3
 ispunjenu	261		4
 istaknu	1115		2
-istanjenu	11		2
-istančanu	29		2
-isteknu	103		2
+istanjenu	11		3
+istančanu	29		3
+isteknu	103		3
 isteranu			4
-istetoviranu	11		2
+istetoviranu	11		3
 isticanu			4
 istinu	20415		3
 istisnu	128		3
@@ -1026,81 +1026,81 @@ istorodnu			4
 istovetnu	234		3
 istovrsnu			3
 istočnu	2024		3
-istrajnu	58		2
+istrajnu	58		3
 istraženu	14		3
-istražnu	66		2
-istrgnu	46		2
+istražnu	66		3
+istrgnu	46		3
 istrošenu	26		3
-istruganu			2
-istrunu	25		2
-isturenu	30		2
-isukanu			2
-italijanu			2
-ivanjdanu			2
+istruganu			3
+istrunu	25		3
+isturenu	30		3
+isukanu			3
+italijanu			3
+ivanjdanu			3
 ivanu	11		3
 izabranu	448		4
 izazovnu	133		4
 izazvanu	326		3
 izbačenu	16		3
-izbegnu	3083		2
+izbegnu	3083		3
 izbljuvanu			3
-izbodenu			2
+izbodenu			3
 izbornu	3166		2
 izbočinu	95		4
-izbrecnu			2
+izbrecnu			3
 izbrisanu			4
 izdahnu	177		2
 izdašnu	122		3
-izdignu	172		2
-izdrndanu			2
-izdrobljenu			2
-izdubljenu	10		2
-izduženu	40		2
+izdignu	172		3
+izdrndanu			3
+izdrobljenu			3
+izdubljenu	10		3
+izduženu	40		3
 izdvojenu	80		3
-izgaženu			2
+izgaženu			3
 izginu	146		3
-izglednu	109		2
+izglednu	109		3
 izgonu	61		3
 izgovaranu			3
-izgovorenu	321		2
-izgovornu			2
+izgovorenu	321		3
+izgovornu			3
 izgrađenu	254		3
 izgrebanu			3
 izgubljenu	1050		3
-izgužvanu	25		2
+izgužvanu	25		3
 izlaznu	363		3
-izlegnu	28		2
-izlepljenu			2
-izlivenu	13		2
-izlizanu	44		2
+izlegnu	28		3
+izlepljenu			3
+izlivenu	13		3
+izlizanu	44		3
 izlišnu	10		3
 izlomljenu	55		3
 izložbenu	168		4
-izloženu	165		2
-izmahnu			2
+izloženu	165		3
+izmahnu			3
 izmaknu	204		2
-izmenjenu	165		2
+izmenjenu	165		3
 izmenu	4734		3
-izmetnu			2
-izmešanu	20		2
-izmeštenu			2
+izmetnu			3
+izmešanu	20		3
+izmeštenu			3
 izmišljenu	166		4
 izmišljotinu	102		3
-izmorenu			2
-izmrvljenu	10		2
-izmučenu	30		2
+izmorenu			3
+izmrvljenu	10		3
+izmučenu	30		3
 iznajmljenu	29		3
-iznemognu			2
+iznemognu			3
 iznenadnu	258		4
 iznenađenu	15		3
 iznesenu	19		3
-iznijansiranu			2
-izniknu	38		2
+iznijansiranu			3
+izniknu	38		3
 iznošenu	16		3
-iznurenu	11		2
+iznurenu	11		3
 iznuđenu			4
 izobličenu			3
-izokrenu	19		2
+izokrenu	19		3
 izolovanu	64		5
 izopačenu	49		3
 izostanu			3
@@ -1113,185 +1113,185 @@ izraženu	771		3
 izreknu	158		3
 izrezanu	11		4
 izrečenu	264		4
-izrežiranu	14		2
-izukrštanu			2
+izrežiranu	14		3
+izukrštanu			3
 izuzetnu	3736		4
 izvanrednu	1206		3
 izvedenu	163		3
 izvesnu	2289		3
 izvezenu	57		3
-izvijenu			2
-izvinu	128		2
-izvojevanu	19		2
-izvornu	555		2
-izvoznu	409		2
-izvrgnu	43		2
-izvrnu	73		2
+izvijenu			3
+izvinu	128		3
+izvojevanu	19		3
+izvornu	555		3
+izvoznu	409		3
+izvrgnu	43		3
+izvrnu	73		3
 izvrsnu	345		3
-izvršenu	161		2
-izvršnu	1374		2
-išaranu	13		2
-ištvanu			2
+izvršenu	161		3
+izvršnu	1374		3
+išaranu	13		3
+ištvanu			3
 iščašenu	16		4
-iščeznu	132		2
+iščeznu	132		3
 jablanu			3
 jadnu	562		2
-jadovnu			2
-jadranu			2
-jaginu			2
+jadovnu			3
+jadranu			3
+jaginu			3
 jagnjetinu	294		4
-jagodinu	30		2
+jagodinu	30		3
 jagodičnu	28		4
-jahorinu			2
+jahorinu			3
 jajnu	198		2
 jaknu	1047		2
-jakšinu			2
-jalovinu	77		2
+jakšinu			3
+jalovinu	77		3
 jamčevinu	17		4
 janjetinu	26	J	4
 janu			2
-jaranu			2
+jaranu			3
 jasenu	19		3
 jasminu	50		2
 jasnu	6110		2
-jataganu			2
+jataganu			3
 jauknu	49		2
 javljenu			3
 javnu	8344		2
 jazbinu	159		3
 jačinu	1474		2
-jediničnu	60		2
+jediničnu	60		3
 jedinstvenu	6625		3
 jedinu	4751		2
 jednačinu	463		3
 jedninu	45		2
-jednobitnu			2
+jednobitnu			3
 jednobojnu	51		4
 jednodušnu	32		3
 jednoglasnu	281		3
-jednokratnu	1591		2
-jednokrevetnu	103		2
+jednokratnu	1591		3
+jednokrevetnu	103		3
 jednoličnu	80		3
-jednomesečnu	89		2
+jednomesečnu	89		3
 jednosmernu	197		4
 jednosobnu			3
-jednospratnu			2
+jednospratnu			3
 jednostavnu	2098		4
 jednostranu	392		3
-jednosušnu			2
-jednovernu			2
+jednosušnu			3
+jednovernu			3
 jednu	130405		2
-jedrinu	45		2
-jedvabnu			2
+jedrinu	45		3
+jedvabnu			3
 jeftinu	1310		3
 jeknu	44		2
-jeleninu			2
+jeleninu			3
 jelenu	368		3
-jeljcinu			2
-jemenu			2
-jerevanu			2
-jerihonu			2
-jerinu			2
-jetrenu	13		2
-jevrejinu			2
-jevtinu			2
-jezičinu	38		2
+jeljcinu			3
+jemenu			3
+jerevanu			3
+jerihonu			3
+jerinu			3
+jetrenu	13		3
+jevrejinu			3
+jevtinu			3
+jezičinu	38		3
 jezičnu	29		3
-ječmenu			2
-johanu			2
+ječmenu			3
+johanu			3
 jonu	30		2
-jovanu			2
-jubilarnu	387		2
+jovanu			3
+jubilarnu	387		3
 jugoistočnu	1032		3
-junakinjinu			2
-junačinu	13		2
-junetinu	128		2
+junakinjinu			3
+junačinu	13		3
+junetinu	128		3
 junu	11467		2
 jurnu	193		2
 južnu	3087		2
-kabinu	963		2
-kadunu			2
+kabinu	963		3
+kadunu			3
 kafanu	2137		2
-kafančinu			2
+kafančinu			3
 kaftanu			3
-kainu			2
+kainu			3
 kajganu	129		3
-kajsijinu			2
-kalemegdanu			2
+kajsijinu			3
+kalemegdanu			3
 kalemljenu			4
 kaljenu			3
-kaloričnu	96		2
-kalvinu			2
-kamatnu	1561		2
+kaloričnu	96		3
+kalvinu			3
+kamatnu	1561		3
 kamenu	2776		3
-kamenčinu	10		2
-kamermanu			2
-kamernu			2
-kamerunu			2
+kamenčinu	10		3
+kamermanu			3
+kamernu			3
+kamerunu			3
 kaminu	136		2
 kamionu	530		2
-kamuflažnu	10		2
-kanalizacionu	496		2
+kamuflažnu	10		3
+kanalizacionu	496		3
 kanjonu	573		2
-kankunu			2
-kanonizovanu			2
-kanonu	190		2
-kantinu	86		2
-kantonalnu	17		2
-kantonu	312		2
+kankunu			3
+kanonizovanu			3
+kanonu	190		3
+kantinu	86		3
+kantonalnu	17		3
+kantonu	312		3
 kanu	1627		2
 kapelanu	15		2
 kapetanu	440		2
-kapilarnu	35		2
+kapilarnu	35		3
 kapitalnu	551		4
-kapitenu	436		2
-kaputinu			2
-karabinu	23		2
+kapitenu	436		3
+kaputinu			3
+karabinu	23		3
 karakterističnu	556		3
 karakternu	101		2
 karantenu			2
-karantinu	327		2
+karantinu	327		3
 karavanu	416		2
-kardinalnu	83		2
-karenjinu			2
+kardinalnu	83		3
+karenjinu			3
 kariranu	55		3
-karminu	17		2
-karolinu			2
-karotidnu	84		2
-kartaginu			2
+karminu	17		3
+karolinu			3
+karotidnu	84		3
+kartaginu			3
 kartonu	364		2
 kasapinu	33		4
 kasarnu	822		2
-kasetofonu	46		2
-kasinu	41		2
+kasetofonu	46		3
+kasinu	41		3
 kasnu	259		2
-katanu	47		2
-katarinu			2
+katanu	47		3
+katarinu			3
 katastrofalnu	506		5
 katranu	16		3
-katrinu			2
-kaurinu			2
+katrinu			3
+kaurinu			3
 kauzalnu	30		4
 kavanu	32		2
 kazališnu	34		4
 kazanu	347		3
-kazinu	237		2
+kazinu	237		3
 kaznenu	414		3
 kaznu	13322		2
-kašljucnu			2
-kejptaunu			2
+kašljucnu			3
+kejptaunu			3
 kelnu			2
 kihnu	13		2
-kimonu	74		2
+kimonu	74		3
 kininu			2
-kirgistanu			2
+kirgistanu			3
 kiselinu	1485		2
 kisnu	33		2
 kićenu			3
-kičmenu		M	2
+kičmenu		M	3
 kišnu	207		2
 kišobranu	25		4
-klaničnu	26		2
+klaničnu	26		3
 klanu	291		2
 klasičnu	2280		3
 klasnu	226		2
@@ -1301,9 +1301,9 @@ klecnu			2
 kleknu	100		2
 klenu	11		2
 klepnu			2
-klerikalnu	22		2
+klerikalnu	22		3
 kliknu	395		2
-klimanu			2
+klimanu			3
 klimnu	327		2
 klinu	39		2
 klisnu			2
@@ -1313,109 +1313,109 @@ ključnu	3917		2
 klonu	190		2
 klovnu	28		2
 kmeknu			2
-kneginjinu			2
+kneginjinu			3
 kneževinu	147		4
-knežinu	15		2
+knežinu	15		3
 kninu			2
 knjiženu			3
-književnu	1275		2
+književnu	1275		3
 knjižurinu	29		3
-koalicionu	341		2
+koalicionu	341		3
 kobnu	142		2
-kodiranu	31		2
+kodiranu	31		3
 kodnu	48		2
 kofeinu	46		2
 kognitivnu	96		4
 koherentnu	159		2
-kohezionu	29		2
+kohezionu	29		3
 kokainu	75		2
 koknu			2
 kolajnu	29		2
-kolateralnu	145		2
-kolašinu			2
+kolateralnu	145		3
+kolašinu			3
 kolektivnu	1230		4
 kolenu	794		3
 količinu	15232		2
 koljenu			3
 kolonijalnu	139		5
-kolonu	1791		2
+kolonu	1791		3
 kolosalnu	105		4
 kolotečinu	197		3
-kolovoznu	137		2
+kolovoznu	137		3
 kolumnu	725		2
-komadinu	11		2
-komandnu	331		2
-kombinezonu	105		2
-kombinovanu	184		2
+komadinu	11		3
+komandnu	331		3
+kombinezonu	105		3
+kombinovanu	184		3
 komercijalnu	1138		5
 komfornu	134		3
-komisionu	88		2
+komisionu	88		3
 komičnu	164		3
 komotnu	169		3
 kompaktnu	306		3
 kompleksnu	489		3
 kompletnu	6665		3
 komplikovanu	219		5
-kompozicionu			2
-komunalnu	1340		2
-komunikacionu	211		2
-komunu	119		2
-komšijinu			2
+kompozicionu			3
+komunalnu	1340		3
+komunikacionu	211		3
+komunu	119		3
+komšijinu			3
 konačnu	4060		3
 koncernu	209		3
-koncertnu	355		2
+koncertnu	355		3
 konciznu	13		3
-konfliktnu	70		2
+konfliktnu	70		3
 kongresmenu	14		4
 kongresnu	107		3
 konjetinu	21		4
 konkavnu			3
 konkretnu	2181		3
 konkubinu			2
-konkursnu	383		2
-konstantinu			2
+konkursnu	383		3
+konstantinu			3
 konstantnu	681		2
 konstruktivnu	578		4
 kontemplativnu	10		5
 kontinentalnu	164		5
-kontraobaveštajnu	35		2
-kontrastnu	19		2
-kontrolisanu	156		2
-kontrolnu	849		2
+kontraobaveštajnu	35		3
+kontrastnu	19		3
+kontrolisanu	156		3
+kontrolnu	849		3
 kontroverznu	188		2
 konveksnu			2
 konvencionalnu	179		6
 konzervativnu	248		5
-konzerviranu	97		2
-konzistentnu	147		2
-konzularnu	47		2
-končinu	138		2
-kopilanu			2
-kopnenu	271		2
+konzerviranu	97		3
+konzistentnu	147		3
+konzularnu	47		3
+končinu	138		3
+kopilanu			3
+kopnenu	271		3
 kopnu	1183		2
 koprenu	94		3
-koraknu	30		2
-koralnu	19		2
-koranu			2
-kordonu	39		2
-kordunu			2
+koraknu	30		3
+koralnu	19		3
+koranu			3
+kordonu	39		3
+kordunu			3
 korektnu	465		3
 korenu	1757		3
 korisnu	983		3
 korišćenu	115		4
-koronarnu	129		2
-koronu	46		2
+koronarnu	129		3
+koronu	46		3
 korporativnu	482		5
-korumpiranu	190		2
-kosinu	76		2
+korumpiranu	190		3
+kosinu	76		3
 kosnu	34		2
-kostimiranu	13		2
-kostinu			2
-kotiljonu			2
+kostimiranu	13		3
+kostinu			3
+kotiljonu			3
 kotlinu	198		3
-kotoraninu			2
+kotoraninu			3
 kovinu	1164		3
-kočinu	11		2
+kočinu	11		3
 koštanu	275		3
 kožnu	449		2
 kradenu			3
@@ -1424,13 +1424,13 @@ kragnu	196		2
 krajinu	1127		3
 kraljevinu	671		4
 kraljevnu			2
-kraljičinu	30		2
+kraljičinu	30		3
 kranu	48		2
 krasnu	88		2
 kratkotrajnu	211		4
 krcnu			2
 kreativnu	1224		4
-kreditnu	1396		2
+kreditnu	1396		3
 kremenu			3
 krenu	9208		2
 kresnu	40		2
@@ -1441,75 +1441,75 @@ kriknu	54		2
 kriminalnu	593		4
 krinu			2
 kristalnu	315		2
-kristinu			2
+kristinu			3
 kritičnu	702		3
-krivinu	453		2
+krivinu	453		3
 krivičnu	3704		3
 kriznu	168		2
 krofnu	49		2
-krovinu			2
+krovinu			3
 krovnu	368		2
-krpenu	25		2
+krpenu	25		3
 krsnu	946		2
 krunu	2414		2
 krupnu	484		2
 kružnu	220		2
 krvarinu			4
 krvnu	919		2
-krznenu	14		2
+krznenu	14		3
 krznu	158		2
 krčevinu	16		4
 kršnu			2
 krštenu	14		3
 kucanu			3
 kucnu	106		2
-kuglanu	143		2
+kuglanu	143		3
 kujnu			2
 kukavnu	24		3
-kukuruznu	49		2
+kukuruznu	49		3
 kuljnu			2
 kultnu	183		2
 kulturnu	4674		2
 kunu	932		2
-kupinu	98		2
+kupinu	98		3
 kupljenu	426		3
 kupovinu	21046		3
-kupovnu	635		2
-kuranu			2
+kupovnu	635		3
+kuranu			3
 kurtizanu	21		2
 kurtoaznu	10		4
 kuvanu	139		3
-kuveždinu			2
+kuveždinu			3
 kućerinu	29		3
-kućetinu			2
-kućevnu			2
+kućetinu			3
+kućevnu			3
 kućnu	3118		2
 kužnu			2
 kvadratnu	62		2
 kvalitetnu	4478		4
 kvantnu	242		2
 kvartalnu	34		2
-kćerinu			2
-kćerkinu			2
+kćerinu			3
+kćerkinu			3
 labilnu	15		3
 laganu	914		3
 lagunu	279		2
-lakatnu			2
+lakatnu			3
 laknu	26		2
 lakovernu			4
-lanenu	50		2
-lansirnu	75		2
-lanternu	12		2
+lanenu	50		3
+lansirnu	75		3
+lanternu	12		3
 lanu	200		2
-lančanu	195		2
-larinu			2
+lančanu	195		3
+larinu			3
 lascivnu	13		2
 latentnu	112		2
 latiničnu	76		3
-lavinu	833		2
-lazinu			2
+lavinu	833		3
+lazinu			3
 lažnu	1896		2
-lebanu			2
+lebanu			3
 ledenu	414		3
 ledinu	166		3
 lednu			2
@@ -1518,49 +1518,49 @@ legendarnu	348		4
 legitimnu	331		4
 legnu	424		2
 leksikonu	173		4
-lenjinu			2
+lenjinu			3
 lenu		M	2
-lenštinu			2
+lenštinu			3
 lepljenu			3
-lepotičinu			2
-letimičnu			2
+lepotičinu			3
+letimičnu			3
 letinu	234		3
 leđnu	45		2
 lešinu	70		3
 liberalnu	401		4
 licemernu	56		4
-lijanu	39		2
-likovnu	1062		2
-limanu			2
+lijanu	39		3
+likovnu	1062		3
+limanu			3
 limenu	70		3
-limitiranu	88		2
+limitiranu	88		3
 limunu	65		3
 limuzinu	572		2
 linearnu	129		4
-linkolnu			2
+linkolnu			3
 linu		M	2
 lipljanu	69		3
-lisinu			2
+lisinu			3
 literarnu	248		4
 livenu			3
 livnu			2
 liznu	37		2
-ličinu		M	2
-ličnosnu			2
+ličinu		M	3
+ličnosnu			3
 ličnu	8628		2
-lišenu	99		2
+lišenu	99		3
 ljetnu		J	2
 ljiljanu	79		3
 ljosnu			2
 ljubavnu	1424		2
 ljubaznu	98		3
-ljubinu			2
-ljubičinu			2
+ljubinu			3
+ljubičinu			3
 ljubljenu	29		3
 ljubomornu	34		4
 ljudinu	15		3
 ljuljnu			2
-ljutinu	96		2
+ljutinu	96		3
 ljutnu	28		2
 logičnu	247		3
 lojalnu	64		2
@@ -1569,209 +1569,209 @@ lomnu	18		2
 losionu			2
 lovinu	104		3
 lovnu	117		2
-lovćenu			2
-lozanu			2
-lucernu	90		2
+lovćenu			3
+lozanu			3
+lucernu	90		3
 lucidnu	36		3
-lumbalnu	30		2
+lumbalnu	30		3
 lunarnu	80		2
 lunu	55		2
 lupnu	20		2
-lučinu			2
+lučinu			3
 lužinu			3
-madonu			2
-maestralnu	60		2
-magacinu	910		2
-magazinu	1617		2
-magdalenu			2
+madonu			3
+maestralnu	60		3
+magacinu	910		3
+magazinu	1617		3
+magdalenu			3
 magičnu	561		3
-maglinu			2
-magluštinu			2
+maglinu			3
+magluštinu			3
 magnetnu	552		3
 magnetofonu	14		2
 mahnu	187		2
 mahovinu	86		4
 mahunu	15		3
-majdanu			2
+majdanu			3
 majmunu	89		3
-majušnu			2
+majušnu			3
 majčinu	399		3
 maksimalnu	4623		4
-malecnu			2
+malecnu			3
 malenu	331		3
-malinu	683		2
-mališanu	285		2
+malinu	683		3
+mališanu	285		3
 malobrojnu	68		4
 malodušnu			3
 maloletnu	294		4
 maloumnu	14		4
-maminu			2
-mamonu			2
+maminu			3
+mamonu			3
 mandarinu	50		2
-mandolinu	15		2
-manhattanu			2
-manifestnu	28		2
-maničnu	17		2
+mandolinu	15		3
+manhattanu			3
+manifestnu	28		3
+maničnu	17		3
 manjinu	1239		2
 manu			2
-manžetnu			2
-marakanu			2
+manžetnu			3
+marakanu			3
 maratonu	1995		4
-maraštinu			2
-margarinu	78		2
+maraštinu			3
+margarinu	78		3
 marginalnu	108		4
-marginu	548		2
+marginu	548		3
 marihuanu	755		2
-marijanu			2
-marijinu			2
-mariniranu	10		2
+marijanu			3
+marijinu			3
+mariniranu	10		3
 marinu	587		2
-markantnu	24		2
-markiranu	65		2
-martinu			2
-marvenu			2
+markantnu	24		3
+markiranu	65		3
+martinu			3
+marvenu			3
 masivnu	145		3
-maskiranu	14		2
-maskirnu	43		2
+maskiranu	14		3
+maskirnu	43		3
 maslinu	75		3
 masnu	967		2
-masonu	14		2
+masonu	14		3
 masovnu	1460		3
 materijalnu	3264		5
 materinu	188		4
-matičnu	1803		2
-maturalnu			2
+matičnu	1803		3
+maturalnu			3
 maznu	105		2
-mačinu			2
+mačinu			3
 mašinu	5886		2
 mašnu	164		2
-mecenu	17		2
-medaljonu	44		2
-medelinu			2
+mecenu	17		3
+medaljonu	44		3
+medelinu			3
 medenu	21		3
 medicinu	4284		2
-mediteranu			2
+mediteranu			3
 medovinu	64		4
-megdanu			2
-mehanu			2
-mejdanu			2
+megdanu			3
+mehanu			3
+mejdanu			3
 mekanu	217		3
-melburnu			2
+melburnu			3
 membranu	398		2
-memorijalnu	70		2
-menhetnu			2
-mentalnu	904		2
+memorijalnu	70		3
+menhetnu			3
+mentalnu	904		3
 menu	1556		2
 meridijanu	71		2
-mermernu	64		2
+mermernu	64		3
 mernu	197		2
-merodavnu	35		2
+merodavnu	35		3
 mesečinu	79		4
-mesečnu	1956		2
+mesečnu	1956		3
 mesnu	713		2
-metadonu	23		2
+metadonu	23		3
 metaforičnu	22		3
 metalnu	684		2
 metanu	20		2
 metnu	449		2
-metropolitenu			2
+metropolitenu			3
 međunarodnu	8648		3
-međuratnu	14		2
+međuratnu	14		3
 međusobnu	1380		4
 međuvremenu	25432		3
 mešanu	17		3
 mešavinu	1992		4
 mešinu	48		3
-michiganu			2
+michiganu			3
 mignu			2
-migracionu	32		2
-migrenu	230		2
+migracionu	32		3
+migrenu	230		3
 mikrofonu	107		4
-mikrotalasnu	236		2
-miladinu			2
-milanu			2
-milijanu			2
+mikrotalasnu	236		3
+miladinu			3
+milanu			3
+milijanu			3
 milionu	70		2
 militantnu	34		2
-miličinu			2
-miljanu			2
+miličinu			3
+miljanu			3
 milosnu			3
 milosrdnu	20		4
 milovanu	10		4
-milunu			2
-milutinu			2
-mineralnu	302		2
-minhenu			2
-minijaturnu	111		2
+milunu			3
+milutinu			3
+mineralnu	302		3
+minhenu			3
+minijaturnu	111		3
 minimalnu	2530		4
 miniranu			3
-mintanu			2
+mintanu			3
 minu	519		2
 mirisnu	149		3
-mirjaninu			2
-mirjanu			2
+mirjaninu			3
+mirjanu			3
 mirnu	1158		2
-mirotvornu	20		2
+mirotvornu	20		3
 mirovnu	255		3
 misaonu	158		4
-mislenu			2
+mislenu			3
 misterioznu	186		5
-mistificiranu			2
+mistificiranu			3
 mističnu	184		3
-mizernu	166		2
-mičigenu			2
-mičinu			2
+mizernu	166		3
+mičigenu			3
+mičinu			3
 mišićnu	625		2
 mišljenu	261		3
 mještaninu			4
-mladenu			2
-mladoženjinu			2
+mladenu			3
+mladoženjinu			3
 mlaznu	19		2
-mlađanu	27		2
+mlađanu	27		3
 mlevenu	161		3
 mlečnu	373		2
 mlinu	253		2
-mnogobolnu			2
+mnogobolnu			3
 mnogobrojnu	205		4
-mnogocenu			2
-mnogočlanu	14		2
+mnogocenu			3
+mnogočlanu	14		3
 množinu	170		2
 mobilnu	1320		3
 modernu	3188		3
-modifikovanu	221		2
+modifikovanu	221		3
 modnu	944		2
 modrinu			2
-modularnu	75		2
+modularnu	75		3
 mognu	21		2
-mogućnu	20		2
-mokraćnu	121		2
-mokrinu	398		2
-molbenu			2
-molekularnu	441		2
-molitvenu	145		2
-momentalnu	124		2
-momčinu			2
-monetarnu	1375		2
+mogućnu	20		3
+mokraćnu	121		3
+mokrinu	398		3
+molbenu			3
+molekularnu	441		3
+molitvenu	145		3
+momentalnu	124		3
+momčinu			3
+monetarnu	1375		3
 monolitnu	37		3
 monotonu	36		4
 monstruoznu	88		4
-montanu			2
-montažnu	176		2
-montiranu	40		2
-monumentalnu	118		2
+montanu			3
+montažnu	176		3
+montiranu	40		3
+monumentalnu	118		3
 moralnu	2527		2
-morbidnu	59		2
-moronu			2
-mostobranu	12		2
-motivacionu	60		2
-motivisanu	74		2
-motornu	124		2
-mozaičnu	19		2
+morbidnu	59		3
+moronu			3
+mostobranu	12		3
+motivacionu	60		3
+motivisanu	74		3
+motornu	124		3
+mozaičnu	19		3
 moćnu	1039		2
 močvarnu	22		3
-mošinu			2
-moždanu	303		2
-moždinu	176		2
+mošinu			3
+moždanu	303		3
+moždinu	176		3
 mračnu	876		2
 mrcinu	45		3
 mrdnu	196		2
@@ -1781,125 +1781,125 @@ mrknu			2
 mrsnu	39		2
 mrznu	62		2
 mrzovoljnu	17		4
-mucninu			2
+mucninu			3
 mujezinu			2
 mukotrpnu	55		4
 muslimanu	124		2
-muslinu			2
-mutiranu	12		2
+muslinu			3
+mutiranu	12		3
 mutnu	200		2
 mućnu	10		2
 mučenu			3
-mučninu	891		2
+mučninu	891		3
 mučnu	146		2
-muškarčinu			2
+muškarčinu			3
 muževnu	14		3
 nabavljenu	27		4
-nabavnu	149		2
-nabijenu	56		2
-naboranu			2
+nabavnu	149		3
+nabijenu	56		3
+naboranu			3
 nabreknu	22		2
-nabrzinu	84		2
-nacionalizovanu	29		2
-nacionalnu	10386		2
+nabrzinu	84		3
+nacionalizovanu	29		3
+nacionalnu	10386		3
 nacrtanu	23		4
 nadahnu	35		2
 nadarenu	49		3
 nadenu	54		3
-nadgrobnu	45		2
-nadinu			2
+nadgrobnu	45		3
+nadinu			3
 nadležnu	280		3
-nadmenu	19		2
+nadmenu	19		3
 nadmoćnu	55		3
-nadrealnu	59		2
-naduvanu	14		2
-naduvenu			2
-nadvučenu			2
-nadzemnu	40		2
-nadzornu	154		2
+nadrealnu	59		3
+naduvanu	14		3
+naduvenu			3
+nadvučenu			3
+nadzemnu	40		3
+nadzornu	154		3
 naftnu	517		2
-nagaznu	17		2
+nagaznu	17		3
 naglašenu	279		3
 nagnu	126		2
-nagodinu	17		2
-nagomilanu	23		2
+nagodinu	17		3
+nagomilanu	23		3
 nagonu	236		3
-nagoričanu			2
+nagoričanu			3
 nagradnu	436		3
 nagrađenu	23		3
 nagrnu	113		2
-nahtkasnu			2
+nahtkasnu			3
 naivnu	185		3
 naivčinu			3
 naizmeničnu	154		3
 najamninu	42		2
 najamnu	23		3
 najavljenu	287		3
-naježenu			2
+naježenu			3
 najlonu	73		2
-nakaradnu	143		2
+nakaradnu	143		3
 nakaznu	55		3
-nakićenu			2
+nakićenu			3
 naklonjenu	29		4
-naknadnu	392		2
-nakrivljenu	11		2
+naknadnu	392		3
+nakrivljenu	11		3
 nakupljenu	29		4
-nalegnu	19		2
-nalivenu			2
+nalegnu	19		3
+nalivenu			3
 naloženu	21		3
 namaknu	132		2
 namazanu	35		4
 namenjenu	1205		3
-namenu	4735		2
+namenu	4735		3
 nameravanu			3
 namernu	125		3
 nametnu	1572		3
 nameštenu	47		4
-namignu	93		2
-namirisanu			2
-namrznu			2
-namučenu			2
-nanesenu	38		2
+namignu	93		3
+namirisanu			3
+namrznu			3
+namučenu			3
+nanesenu	38		3
 nanu			2
-naoružanu	93		2
+naoružanu	93		3
 naoštrenu			3
 napadnu	1595		3
-napaljenu	29		2
-napanu			2
+napaljenu	29		3
+napanu			3
 napaćenu	52		4
 napisanu	325		3
-naplatnu	94		2
-napoleonu			2
+naplatnu	94		3
+napoleonu			3
 napomenu	3473		4
 naponu	795		3
 napornu	116		2
-naprasnu	18		2
+naprasnu	18		3
 napravljenu	435		4
 naprednu	1308		3
-napregnu	29		2
-naprslinu	14		2
-napujdanu			2
+napregnu	29		3
+naprslinu	14		3
+napujdanu			3
 napunjenu	122		4
 napuštanu			3
 napuštenu	115		3
 narativnu	119		4
-naravnu	18		2
-narbonu			2
-narednu	7225		2
-narezanu	22		2
-naređanu			2
-naređenu			2
-naribanu			2
+naravnu	18		3
+narbonu			3
+narednu	7225		3
+narezanu	22		3
+naređanu			3
+naređenu			3
+naribanu			3
 narkomanu	67		2
-narodnosnu	33		2
+narodnosnu	33		3
 narodnu	6365		3
-narudžbinu	250		2
+narudžbinu	250		3
 naručenu	59		3
-narušenu	44		2
-nasednu	83		2
+narušenu	44		3
+nasednu	83		3
 naseljenu	69		3
-naseobinu	101		2
-nasečenu			2
+naseobinu	101		3
+nasečenu			3
 nasilnu	331		3
 naslednu	107		3
 nasleđenu	68		3
@@ -1908,114 +1908,114 @@ naslonjenu	37		3
 naslonu	123		3
 naslovljenu	59		3
 naslovnu	1145		2
-nasmehnu			2
-nasmejanu	127		2
+nasmehnu			3
+nasmejanu	127		3
 nasmešenu			3
 nasrnu	90		2
-nastanu	34		2
-nastavnu	254		2
+nastanu	34		3
+nastavnu	254		3
 nastranu	99		3
-nastrojenu	38		2
-nastruganu			2
-nasumičnu	22		2
-nasušnu	59		2
-nataknu	31		2
-nataloženu			2
-nateknu	13		2
-natisnu			2
-natkasnu			2
+nastrojenu	38		3
+nastruganu			3
+nasumičnu	22		3
+nasušnu	59		3
+nataknu	31		3
+nataloženu			3
+nateknu	13		3
+natisnu			3
+natkasnu			3
 natmurenu			3
 natopljenu	87		3
-natovarenu			2
-natprirodnu	88		2
-natrpanu			2
-natuknu			2
+natovarenu			3
+natprirodnu	88		3
+natrpanu			3
+natuknu			3
 naturalnu	132		4
-nauljenu	61		2
+nauljenu	61		3
 naučenu	60		3
 naučnu	2818		3
-navedenu	1527		2
-navigacionu	34		2
+navedenu	1527		3
+navigacionu	34		3
 naviknu	660		3
 navodnu	698		3
 navršenu	13		3
 nazadnu	30		3
 nazivanu	10		3
-naznačenu	161		2
-nazubljenu			2
+naznačenu	161		3
+nazubljenu			3
 nazvanu	700		3
-načelnu	322		2
+načelnu	322		3
 načinjenu	91		3
 načinu	16580		3
 načnu	40		2
 nađenu	21		3
 neaktivnu	17		4
-nebesnu	52		2
+nebesnu	52		3
 nebitnu	74		3
-neborbenu			2
-nebranjenu	86		2
+neborbenu			3
+nebranjenu	86		3
 nebrojenu			4
-necrkvenu			2
+necrkvenu			3
 nedavnu	489		3
 nedeljnu	375		2
-nedoglednu	11		2
-nedoličnu	20		2
+nedoglednu	11		3
+nedoličnu	20		3
 nedoslednu	37		3
 nedostižnu	271		4
-nedostojnu	61		2
-nedostupnu	31		2
+nedostojnu	61		3
+nedostupnu	31		3
 nedovoljnu	525		4
-nedovršenu	146		2
-nedozvoljenu	201		2
+nedovršenu	146		3
+nedozvoljenu	201		3
 nedužnu	73		3
 nedvojbenu			3
 nedvosmislenu	346		4
 neefikasnu	108		5
 neformalnu	276		4
 negativnu	2578		4
-negaziranu	52		2
-negotinu			2
+negaziranu	52		3
+negotinu			3
 negovanu	54		4
 nehotičnu	12		4
-neidentifikovanu			2
+neidentifikovanu			3
 neimaštinu	28		3
-neisceljenu			2
+neisceljenu			3
 neiscrpnu	119		4
-neiskazanu	86		2
-neispisanu			2
-neispravnu	194		2
-neispunjenu	20		2
+neiskazanu	86		3
+neispisanu			3
+neispravnu	194		3
+neispunjenu	20		3
 neistinu	849		4
-neistraženu	30		2
-neizazvanu			2
+neistraženu	30		3
+neizazvanu			3
 neizbežnu	243		4
-neizgrađenu	19		2
-neizmenjenu	22		2
-neizmernu	309		2
+neizgrađenu	19		3
+neizmenjenu	22		3
+neizmernu	309		3
 neizrečenu	22		3
 neizvesnu	548		4
-neiživljenu			2
+neiživljenu			3
 nejasnu	183		3
-neklasičnu			2
+neklasičnu			3
 nekolicinu	870		2
-nekontrolisanu	159		2
-nekorisnu	17		2
+nekontrolisanu	159		3
+nekorisnu	17		3
 nekretninu	1282		2
 nekritičnu			3
-nekrštenu	16		2
-nektarinu			2
-nekuvanu			2
+nekrštenu	16		3
+nektarinu			3
+nekuvanu			3
 nelagodnu	27		4
-nelažnu			2
+nelažnu			3
 nelegalnu	396		4
-nelenu			2
-nelečenu			2
-nelinearnu	28		2
+nelenu			3
+nelečenu			3
+nelinearnu	28		3
 nelojalnu	237		4
-nemanjinu			2
+nemanjinu			3
 nemarnu	10		3
-nemasnu	36		2
-nemaštinu	232		2
+nemasnu	36		3
+nemaštinu	232		3
 nemilosrdnu	127		5
 neminovnu	89		4
 nemirnu	87		3
@@ -2023,75 +2023,75 @@ nemoralnu	77		4
 nemoćnu	71		3
 nenadmašnu	70		4
 nenamernu	29		3
-nenaoružanu			2
-nenapisanu	16		2
-nenarodnu	20		2
-nenarušenu			2
+nenaoružanu			3
+nenapisanu	16		3
+nenarodnu	20		3
+nenarušenu			3
 nenaseljenu	11		4
-nenasilnu	107		2
+nenasilnu	107		3
 nenormalnu	117		4
 nenu			2
 neobaveznu	73		5
 neobičnu	1478		4
 neobrađenu	38		3
-neobrezanu			2
+neobrezanu			3
 neobrijanu	10		4
 neobuzdanu	79		5
-neodložnu	89		2
+neodložnu	89		3
 neodlučnu	18		4
-neodmerenu			2
-neodobrenu			2
+neodmerenu			3
+neodobrenu			3
 neodređenu	92		3
 neograničenu	549		4
-neokrnjenu			2
-neometanu	57		2
+neokrnjenu			3
+neometanu	57		3
 neophodnu	3480		4
-neopisanu			2
-neopranu			2
+neopisanu			3
+neopranu			3
 neopreznu	19		4
-neosetnu			2
+neosetnu			3
 neosnovanu	238		5
-neosnovnu			2
+neosnovnu			3
 neospornu	105		4
-neotkrivenu	22		2
-neotvorenu	25		2
-neovisnu			2
-neozbiljnu	77		2
+neotkrivenu	22		3
+neotvorenu	25		3
+neovisnu			3
+neozbiljnu	77		3
 neočekivanu	312		3
-nepatvorenu	32		2
-nepečenu	14		2
+nepatvorenu	32		3
+nepečenu	14		3
 nepisanu	10		3
 nepismenu	49		4
-neplaćenu	88		2
+neplaćenu	88		3
 neplodnu	23		3
-nepobeđenu			2
+nepobeđenu			3
 nepobitnu	85		4
-nepodeljenu	155		2
+nepodeljenu	155		3
 nepogodnu			4
-nepokornu	16		2
+nepokornu	16		3
 nepokretnu	382		4
 nepomičnu	26		4
-nepomućenu			2
-neporaženu	19		2
-neporočnu	26		2
+nepomućenu			3
+neporaženu	19		3
+neporočnu	26		3
 neposrednu	1375		4
-nepostižnu			2
+nepostižnu			3
 nepostojanu	10		4
 nepotpunu	175		4
 nepotrebnu	461		4
 nepouzdanu	21		5
 nepovoljnu	270		4
 nepovratnu	81		4
-nepovređenu	32		2
-nepoštednu			2
+nepovređenu	32		3
+nepoštednu			3
 nepoštenu	51		4
 nepoželjnu	74		4
 nepravednu	155		4
 nepravilnu	140		4
-nepreglednu	89		2
+nepreglednu	89		3
 neprekidnu	355		3
 neprestanu	251		4
-neprihvaćenu			2
+neprihvaćenu			3
 neprijatnu	726		4
 neprikladnu	40		3
 nepriličnu	13		3
@@ -2099,124 +2099,124 @@ neprirodnu	118		3
 nepristojnu	99		4
 neprobojnu	39		4
 neprofitnu	135		4
-neprohodnu	34		2
-neprolaznu	113		2
+neprohodnu	34		3
+neprolaznu	113		3
 nepromišljenu	40		4
-nepropisnu			2
+nepropisnu			3
 nepropusnu	23		4
-neprskanu			2
-neptunu			2
+neprskanu			3
+neptunu			3
 nepunu	228		3
-neradinu			2
-nerasejanu			2
-nerasudnu			2
-neravninu	49		2
-neravnu	38		2
-nerazmišljenu			2
+neradinu			3
+nerasejanu			3
+nerasudnu			3
+neravninu	49		3
+neravnu	38		3
+nerazmišljenu			3
 nerazumnu	90		4
 nerazvijenu	104		3
 nerealnu	156		4
-neredovnu	43		2
-neregistrovanu			2
+neredovnu	43		3
+neregistrovanu			3
 nerešenu	31		3
 nerodnu			3
-neronu			2
+neronu			3
 nerođenu	87		4
 nervnu	99		2
 nervoznu	70		3
 nesavršenu	28		4
-nesažvakanu			2
+nesažvakanu			3
 nesebičnu	639		4
-neskrivenu	99		2
+neskrivenu	99		3
 neslanu	36		3
 neslavnu	118		3
-nesloženu			2
-neslućenu	54		2
-nesmetanu	263		2
-nesmislenu			2
-nesmotrenu	17		2
-nesmućenu			2
+nesloženu			3
+neslućenu	54		3
+nesmetanu	263		3
+nesmislenu			3
+nesmotrenu	17		3
+nesmućenu			3
 nesnosnu	88		3
 nesnu			2
-nespornu	121		2
+nespornu	121		3
 nesposobnu	264		4
 nespremnu	65		3
 nesputanu	48		4
-nesrećnu	444		2
-nesređenu	34		2
+nesrećnu	444		3
+nesređenu	34		3
 nestabilnu	168		4
 nestalnu	27		3
 nestanu	1760		3
-nestašnu	56		2
+nestašnu	56		3
 nestvarnu	75		3
 nesuđenu	34		3
 nesvesnu	110		3
-nesvršenu			2
+nesvršenu			3
 netačnu	153		3
-netipičnu	27		2
-netolerantnu	18		2
-netruležnu	11		2
-netržišnu	14		2
+netipičnu	27		3
+netolerantnu	18		3
+netruležnu	11		3
+netržišnu	14		3
 neudobnu	29		4
 neuglednu	34		4
-neugodnu			2
-neukaljanu			2
-neukrašenu			2
+neugodnu			3
+neukaljanu			3
+neukrašenu			3
 neukusnu	39		4
 neumesnu	24		4
 neumitnu	26		4
 neumornu	31		4
 neuobičajenu	142		3
-neuprljanu			2
-neuputnu			2
-neupućenu	10		2
-neuralnu	17		2
+neuprljanu			3
+neuputnu			3
+neupućenu	10		3
+neuralnu	17		3
 neurednu	55		4
 neurotičnu	32		3
 neuspešnu	148		4
 neustavnu	69		4
 neutešnu	16		4
 neutralnu	357		4
-neutvrđenu	21		2
+neutvrđenu	21		3
 nevenu	48		3
-neverbalnu	109		2
+neverbalnu	109		3
 nevernu	22		3
-neverovatnu	2225		2
-nevezanu	21		2
+neverovatnu	2225		3
+nevezanu	21		3
 nevinu	257		3
-neviđenu	534		2
-nevladinu	286		2
-nevoljnu	26		2
+neviđenu	534		3
+nevladinu	286		3
+nevoljnu	26		3
 nevremenu	312		4
 nezaboravnu	346		5
 nezahvalnu	119		4
-nezapamćenu	131		2
+nezapamćenu	131		3
 nezasićenu	12		4
 nezavidnu	181		3
 nezavisnu	2468		3
-nezavršenu	53		2
+nezavršenu	53		3
 nezaštićenu	76		3
 nezgodnu	369		3
 nezgrapnu	23		3
 neznanu	17		3
 neznatnu	158		3
-neznačajnu			2
-nezvaničnu	185		2
+neznačajnu			3
+nezvaničnu	185		3
 nezvanu			3
 nečasnu	71		3
 nečovečnu			4
 nečujnu	21		3
-nečuvenu	68		2
-neštednu			2
+nečuvenu	68		3
+neštednu			3
 neželjenu	263		4
-neživotnu			2
+neživotnu			3
 nežnu	513		2
 nijednu	5022		2
-niklovanu			2
+niklovanu			3
 niknu	149		2
-nikolinu			2
+nikolinu			3
 nikotinu	53		2
-niksonu			2
+niksonu			3
 ninu		M	2
 nirvanu	143		2
 nizinu	23		2
@@ -2227,20 +2227,20 @@ njenu	16386		2
 nježnu		J	2
 njinu			2
 njutnu			2
-nokturnu			2
+nokturnu			3
 nominalnu	256		4
 normalnu	2739		3
-normativnu	168		2
-nosinu	11		2
+normativnu	168		3
+nosinu	11		3
 nosnu	67		2
 notnu	12		2
 notornu	152		2
-novinu	1512		2
+novinu	1512		3
 novorođenu	150		3
-novčanu	4108		2
+novčanu	4108		3
 noćnu	1012		2
 nošenu	16		3
-nožinu			2
+nožinu			3
 nožnu	33		2
 nuklearnu	1400		4
 nutrinu	34		2
@@ -2248,160 +2248,160 @@ nužnu	324		2
 obalnu	15		3
 obasjanu	40		3
 obaveznu	1532		4
-obaveštajnu	334		2
+obaveštajnu	334		3
 obavijenu	30		5
 obavljenu	57		4
-obeleženu	93		2
-obesmrćenu			2
-obesnu	10		2
-obetovanu			2
-obezbeđenu	83		2
+obeleženu	93		3
+obesmrćenu			3
+obesnu	10		3
+obetovanu			3
+obezbeđenu	83		3
 obećanu	315		3
 obešenu	18		4
 obeščašćenu			3
 obilnu	220		3
 obimnu	525		3
-obisnu			2
-običajnu	13		2
+obisnu			3
+običajnu	13		3
 običnu	1715		3
 objavljenu	615		3
 objašnjenu	22		3
 objedinjenu	100		3
 objektivnu	649		4
-oblasnu	16		2
+oblasnu	16		3
 oblačinu			3
-oblepljenu			2
-oblikovanu	105		2
+oblepljenu			3
+oblikovanu	105		3
 oblinu	31		2
-obliznu			2
-obloženu	98		2
+obliznu			3
+obloženu	98		3
 obmanu	542		3
-obmotanu	11		2
+obmotanu	11		3
 obnavljanu			3
-obnaženu	24		2
+obnaženu	24		3
 obnovljenu	194		3
 obogaćenu	81		4
 obojenu	218		4
 oborenu	11		3
 obostranu	671		3
 obožavanu			3
-obranu			2
-obrazinu	33		2
+obranu			3
+obrazinu	33		3
 obrazovanu	110		5
 obrazovnu	719		4
 obraćenu			3
 obračunu	1634		4
 obrađenu	126		3
 obrađivanu			3
-obrecnu	23		2
+obrecnu	23		3
 obrednu	55		3
-obreknu			2
-obremenjenu			2
-obrenu			2
-obrijanu	80		2
+obreknu			3
+obremenjenu			3
+obrenu			3
+obrijanu	80		3
 obrisanu			4
 obrnu	175		2
-obrtnu	22		2
+obrtnu	22		3
 obrubljenu	10		3
 obrukanu			4
 obučenu	180		3
-obznanu	12		2
+obznanu	12		3
 oceanu	35		2
 ocenu	11397		3
-oceđenu	16		2
+oceđenu	16		3
 odabranu	285		3
-odagnanu			2
-odahnu	410		2
+odagnanu			3
+odahnu	410		3
 odanu	64		3
 odbačenu	56		3
-odbegnu			2
+odbegnu			3
 odbijenu	160		4
-odbljesnu			2
+odbljesnu			3
 odbrambenu	538		4
 odbranu	15930		3
 odenu	46		3
-odeonu			2
-oderanu			2
-odevenu	42		2
-odevnu	248		2
-odgonetnu	160		2
+odeonu			3
+oderanu			3
+odevenu	42		3
+odevnu	248		3
+odgonetnu	160		3
 odgovornu	1226		4
-odgrnu			2
-odgurnu	104		2
+odgrnu			3
+odgurnu	104		3
 odigranu	63		4
 odjeknu	116		2
-odlanu			2
+odlanu			3
 odličnu	6742		3
-odloženu	68		2
+odloženu	68		3
 odlučnu	508		3
-odmahnu	226		2
+odmahnu	226		3
 odmaknu	136		2
-odmenu			2
+odmenu			3
 odmerenu	45		4
-odmetnu	46		2
+odmetnu	46		3
 odmognu	64		3
-odmrznu	90		2
-odnesenu			2
-odnosnu	184		2
-odobrenu	104		2
-odomaćenu	11		2
-odranu	10		2
+odmrznu	90		3
+odnesenu			3
+odnosnu	184		3
+odobrenu	104		3
+odomaćenu	11		3
+odranu	10		3
 odrađenu			3
-odredišnu	40		2
+odredišnu	40		3
 odreknu	2026		3
 odrezanu			4
 određenu	10660		3
-odrinu			2
-odrpanu			2
-odrubljenu			2
-održanu	166		2
-odsednu	64		2
+odrinu			3
+odrpanu			3
+odrubljenu			3
+održanu	166		3
+odsednu	64		3
 odsečenu	40		4
-odskočnu	167		2
-odsudnu			2
+odskočnu	167		3
+odsudnu			3
 odsutnu	24		3
 odurnu	15		3
 odustanu			3
-oduševljenu	48		2
-odvaljenu			2
+oduševljenu	48		3
+odvaljenu			3
 odvažnu	38		3
 odvedenu			3
-odviknu	73		2
-odvodnu	31		2
+odviknu	73		3
+odvodnu	31		3
 odvojenu	215		3
 odvratnu	149		3
 odškrinu	38		2
-odštampanu	69		2
-ofanzivnu	159		2
+odštampanu	69		3
+ofanzivnu	159		3
 oficijelnu	121		5
-oformljenu	21		2
-ofucanu	37		2
+oformljenu	21		3
+ofucanu	37		3
 ogavnu	19		3
-oglasnu	273		2
-oglednu	47		2
+oglasnu	273		3
+oglednu	47		3
 ognjenu	182		3
-ogoljenu	62		2
+ogoljenu	62		3
 ogorčenu	59		3
 ograničenu	438		4
-ogranu			2
+ogranu			3
 ograđenu	31		3
 ogrebotinu	105		3
-ogreznu	42		2
-ogrnu	49		2
+ogreznu	42		3
+ogrnu	49		3
 ogromnu	7842		3
-oguljenu	11		2
+oguljenu	11		3
 ohlađenu	53		3
-oivičenu	25		2
+oivičenu	25		3
 ojačanu	47		3
-ojađenu	31		2
-okaljanu			2
-okamenjenu	18		2
-okanu			2
-okačenu	35		2
+ojađenu	31		3
+okaljanu			3
+okamenjenu	18		3
+okanu			3
+okačenu	35		3
 okeanu	1381		2
-okinu	13		2
+okinu	13		3
 okićenu	33		4
-okliznu	47		2
+okliznu	47		3
 oklopnu	46		3
 oknu	287		2
 okolinu	7477		4
@@ -2410,104 +2410,104 @@ okončanu	17		3
 okovanu	45		3
 okrenu	2938		2
 okretnu	15		3
-okruglinu			2
-okrutnu			2
-okruženu	100		2
-okružnu	77		2
+okruglinu			3
+okrutnu			3
+okruženu	100		3
+okružnu	77		3
 okrvavljenu	12		4
-okupacionu	124		2
-okupanu	26		2
-okupiranu	70		2
+okupacionu	124		3
+okupanu	26		3
+okupiranu	70		3
 okupljenu	133		4
-okušanu			2
+okušanu			3
 okvirnu	235		3
 olakšanu	35		3
-olginu			2
-oliznu			2
+olginu			3
+oliznu			3
 oličenu	120		3
-oljuštenu	18		2
+oljuštenu	18		3
 olovnu	32		3
-olujnu	11		2
-olupanu			2
+olujnu	11		3
+olupanu			3
 olupinu	154		4
-omahnu			2
-omaknu	18		2
+omahnu			3
+omaknu	18		3
 omalenu			4
-omalterisanu			2
-omađijanu			2
+omalterisanu			3
+omađijanu			3
 ombudsmanu	342		3
 ometenu	504		3
 omeđenu	28		4
 omiljenu	1788		4
-omladinu			2
-omraženu	34		2
-omrknu			2
-omrznu	59		2
-onesvešćenu	16		2
-onjeginu			2
-onostranu	19		2
-onovremenu	16		2
+omladinu			3
+omraženu	34		3
+omrknu			3
+omrznu	59		3
+onesvešćenu	16		3
+onjeginu			3
+onostranu	19		3
+onovremenu	16		3
 onu	21082		2
 opadnu	58		3
-opasnu			2
+opasnu			3
 opačinu	10		3
-opažajnu			2
-opcionu	75		2
-opeklinu			2
+opažajnu			3
+opcionu	75		3
+opeklinu			3
 opekotinu	75		3
-operacionu	104		2
+operacionu	104		3
 operativnu	789		5
-opevanu	10		2
+opevanu	10		3
 opisanu	139		3
-opisnu	32		2
+opisnu	32		3
 opkoljenu	15		3
 oplemenjenu	13		3
-opletenu			2
+opletenu			3
 opljačkanu	26		4
 opnu	216		2
 opojnu	172		2
 opomenu	1899		4
-oporeknu			2
+oporeknu			3
 opovrgnu	156		3
-opozicionu	334		2
+opozicionu	334		3
 opozvanu			3
 opranu	107		3
 opravdanu	188		3
 opremljenu	718		3
 opreznu	80		3
-oprljenu			2
-oproštajnu	173		2
+oprljenu			3
+oproštajnu	173		3
 opscenu	11		3
 opsednu	14		3
 opsenu	44		3
 opsesivnu	78		4
-opsežnu			2
+opsežnu			3
 opstanu			3
 opterećenu	48		4
 optimalnu	1182		4
-optočenu	17		2
+optočenu	17		3
 optuženu	28		3
-opustošenu	51		2
+opustošenu	51		3
 opuštenu	312		3
 opširnu	120		3
-opšivenu			2
-opšteraširenu			2
+opšivenu			3
+opšteraširenu			3
 opštinu	6477		3
-oralnu	360		2
+oralnu	360		3
 orangutanu			2
-orbitalnu	55		2
-oregonu			2
-organizacionu	751		2
-organizovanu	1067		2
+orbitalnu	55		3
+oregonu			3
+organizacionu	751		3
+organizovanu	1067		3
 organu	3114		2
 originalnu	1546		5
 orijentalnu	102		5
 orlušinu			3
 ormanu	465		2
-oronu			2
+oronu			3
 oružanu	641		4
 osakaćenu	18		4
-osamljenu			2
+osamljenu			3
 osetnu	79		3
 osećajnu	50		4
 osiguranu	117		3
@@ -2515,236 +2515,236 @@ osiromašenu	46		4
 oskudnu	81		3
 oskvrnu			2
 oslabljenu	89		4
-oslepljenu			2
+oslepljenu			3
 oslobođenu	206		3
-oslonjenu	19		2
-oslušnu	90		2
-osmanu			2
-osmehnu	306		2
+oslonjenu	19		3
+oslušnu	90		3
+osmanu			3
+osmehnu	306		3
 osminu	771		2
-osmišljenu	208		2
-osmodnevnu	16		2
-osnaženu			2
+osmišljenu	208		3
+osmodnevnu	16		3
+osnaženu			3
 osnovanu	174		3
 osnovnu	10830		3
-osobenu	193		2
-osobinu	1722		2
-osojnu			2
+osobenu	193		3
+osobinu	1722		3
+osojnu			3
 osovinu	571		3
 osporenu	20		3
 osramoćenu			3
 ostanu	22		3
-ostavinu	11		2
+ostavinu	11		3
 ostavljenu	65		4
-ostavštinu	85		2
-ostojinu			2
+ostavštinu	85		3
+ostojinu			3
 ostvarenu	311		3
-osujećenu			2
-osumnjičenu	40		2
+osujećenu			3
+osumnjičenu	40		3
 osunčanu			3
 osuđenu	43		3
 osušenu	46		3
 osvanu	242		2
-osvedočenu	17		2
-osvetljenu	102		2
+osvedočenu	17		3
+osvetljenu	102		3
 osvećenu	24		3
 osveženu	44		4
 osvojenu	373		3
-osvrnu	279		2
+osvrnu	279		3
 otadžbinu	2175		4
-otađbinu			2
-oteklinu	30		2
+otađbinu			3
+oteklinu	30		3
 oteknu	54		2
 otečenu	22		3
-otežanu	35		2
-otimačinu	345		2
-otisnu	155		2
-otkačenu	14		2
+otežanu	35		3
+otimačinu	345		3
+otisnu	155		3
+otkačenu	14		3
 otkinu	150		3
-otključanu	12		2
+otključanu	12		3
 otklonu	64		3
-otkovanu			2
-otkočenu			2
+otkovanu			3
+otkočenu			3
 otkrivenu	119		4
-otkupljenu	22		2
+otkupljenu	22		3
 otkupninu	114		2
-otkupnu	482		2
+otkupnu	482		3
 otmenu	60		3
-otomanu	17		2
-otopinu	16		2
+otomanu	17		3
+otopinu	16		3
 otopljenu	103		3
-otpadnu	381		2
-otpljunu			2
+otpadnu	381		3
+otpljunu			3
 otpornu	134		2
 otpočinu	33		3
 otpočnu	515		2
-otpremninu	1030		2
-otpusnu	84		2
+otpremninu	1030		3
+otpusnu	84		3
 otrcanu	64		3
-otrgnu	295		2
+otrgnu	295		3
 otrovanu	17		3
 otrovnu	195		2
 otuđenu	20		3
-otužnu	37		2
+otužnu	37		3
 otvorenu	2328		4
-otvrdnu	29		2
-otškrinu			2
+otvrdnu	29		3
+otškrinu			3
 ovalnu	43		2
 ovaploćenu	11		3
-ovejanu			2
+ovejanu			3
 overenu	438		4
-ovlaženu			2
+ovlaženu			3
 ovnu	203		2
-ovonedeljnu	28		2
-ovsenu			2
-ovčetinu	32		2
-ovčinu			2
+ovonedeljnu	28		3
+ovsenu			3
+ovčetinu	32		3
+ovčinu			3
 ozbiljnu	6056		3
-ozdravljenu			2
-ozidanu			2
+ozdravljenu			3
+ozidanu			3
 ozleđenu			3
-ozloglašenu	40		2
+ozloglašenu	40		3
 označenu	106		3
-oznojenu	10		2
+oznojenu	10		3
 ozonu	23		2
-ozrenu			2
-ozvaničenu			2
+ozrenu			3
+ozvaničenu			3
 očajnu	183		3
 očekivanu	321		3
 očevidnu	20		4
-očevinu	117		2
+očevinu	117		3
 očiglednu	744		4
-očinu			2
+očinu			3
 očišćenu	144		4
 očnu	144		2
-očupanu			2
+očupanu			3
 očuvanu	100		3
-očvrsnu	53		2
-ošinu	69		2
+očvrsnu	53		3
+ošinu	69		3
 ošišanu	44		3
 oštećenu	268		4
 oštrinu	552		2
 oštroumnu			4
-ožalošćenu	37		2
+ožalošćenu	37		3
 oženjenu			3
-padežnu			2
+padežnu			3
 padinu	386		3
 padnu	2115		2
 padobranu	14		4
-paganinu			2
-pajkanu			2
+paganinu			3
+pajkanu			3
 paklenu	164		3
 pakosnu	21		3
-palestinu			2
-paljevinu	140		2
+palestinu			3
+paljevinu	140		3
 pametnu	697		3
 pamučnu	199		3
-pandanu	33		2
-pandorinu			2
+pandanu	33		3
+pandorinu			3
 paničnu	31		3
 pansionu	140		2
 panteonu	111		4
 panu			2
-papinu			2
+papinu			3
 papirnu	264		2
-paradnu	20		2
+paradnu	20		3
 paralelnu	387		2
-paralisanu			2
+paralisanu			3
 paranoičnu	18		3
 paravojnu	45		4
-paraćinu			2
-parašinu			2
-paritetnu			2
+paraćinu			3
+parašinu			3
+paritetnu			3
 parkiranu	22		3
-parkirnu	12		2
-parničnu	53		2
+parkirnu	12		3
+parničnu	53		3
 parnu	140		2
-partenonu			2
+partenonu			3
 partizanu	2435		2
-pasiranu	22		2
+pasiranu	22		3
 pasivnu	388		3
 pastoralnu	31		4
-patentnu	49		2
+patentnu	49		3
 patetičnu	64		3
 patinu	139		3
 patrijarhalnu	107		5
-patronažnu	48		2
+patronažnu	48		3
 patronu	58		2
-patvorenu			2
+patvorenu			3
 paučinu	220		4
-paušalnu	50		2
+paušalnu	50		3
 paviljonu	621		2
-pačetinu	34		2
-pašinu			2
+pačetinu	34		3
+pašinu			3
 peglanu			3
 pelenu	251		3
-pentagonu			2
+pentagonu			3
 penu	712		2
-perfektnu	154		2
-perfidnu	54		2
-perifernu	102		2
+perfektnu	154		3
+perfidnu	54		3
+perifernu	102		3
 perinu	20		3
-periodičnu	88		2
-perišinu			2
-peronu	198		2
+periodičnu	88		3
+perišinu			3
+peronu	198		3
 personalnu	174		4
-personu	152		2
+personu	152		3
 perspektivnu	133		4
-perušinu			2
+perušinu			3
 perverznu	53		3
-perčinu			2
-petinu	982		2
-petljavinu			2
-petodnevnu	103		2
-petominutnu	16		2
-petočlanu	70		2
+perčinu			3
+petinu	982		3
+petljavinu			3
+petodnevnu	103		3
+petominutnu	16		3
+petočlanu	70		3
 pevanu			3
 pećinu	1673		3
-pečalnu			2
+pečalnu			3
 pečenu	186		3
-peščanu	248		2
+peščanu	248		3
 pijanu	105		3
-pijačnu			2
-pikantnu	31		2
-pilanu	23		2
+pijačnu			3
+pikantnu	31		3
+pilanu	23		3
 piletinu	1025		4
-piljevinu	112		2
+piljevinu	112		3
 pingvinu	33		2
 pipnu	94		2
 piramidalnu	49		5
-piranu			2
-pirinčanu	35		2
-piromanu			2
+piranu			3
+pirinčanu	35		3
+piromanu			3
 pisanu	989		3
 pismenu	1024		3
 pisnu	92		2
 pitonu	13		2
-plafonu			2
+plafonu			3
 plamenu	1093		3
-planetarnu	296		2
+planetarnu	296		3
 planinu	2854		2
-planiranu	708		2
+planiranu	708		3
 planktonu			2
 planu	37663		2
 plasmanu	4351		2
 plastičnu	1386		3
-platežnu	124		2
-platinu	53		2
+platežnu	124		3
+platinu	53		3
 platnenu	115		3
 platnu	2934		2
-platonu			2
+platonu			3
 plavetnu			3
 plavnu	21		2
 plaćenu	187		3
 plačnu			2
-plehanu			2
+plehanu			3
 plemenu	844		3
-plenarnu	48		2
+plenarnu	48		3
 plenu	95		2
 plesnu	307		2
 pletenu	25		3
 plinu	95		2
-plišanu	92		2
+plišanu	92		3
 pljesnu	64		2
 pljucnu	10		2
 pljunu	325		2
@@ -2752,102 +2752,102 @@ pljusnu	27		2
 plodnu	496		2
 plodonosnu	65		3
 plovnu	32		2
-pluralnu			2
+pluralnu			3
 plućnu	128		2
-pobednu			2
+pobednu			3
 pobegnu	1807		3
 pobeđenu			3
 poboljšanu	218		3
-pobočnu	13		2
+pobočnu	13		3
 pobožnu	53		3
-pobrinu	288		2
-pobudnu			2
+pobrinu	288		3
+pobudnu			3
 pobunjenu			3
 pobunu	1790		3
-pocepanu	26		2
-podarenu			2
+pocepanu	26		3
+podarenu			3
 podeljenu	216		3
-poderanu	22		2
-poderotinu			2
+poderanu	22		3
+poderotinu			3
 podesnu	31		3
 podešenu	59		4
 podignu	3756		3
 podizanu			4
-podlegnu	166		2
+podlegnu	166		3
 podložnu	34		3
 podmazanu	61		4
 podmetnu	191		3
-podmlađenu			2
-podnebesnu			2
+podmlađenu			3
+podnebesnu			3
 podnevnu	20		2
 podobnu	40		3
-podravinu			2
+podravinu			3
 podrazumevanu	38		3
 podređenu	33		3
 podrignu	15		3
 podrobnu	39		3
-podrugnu			2
+podrugnu			3
 podržanu	64		3
 podržavanu			4
-podsmehnu			2
+podsmehnu			3
 podstaknu	1351		2
-podsticajnu	105		2
+podsticajnu	105		3
 podsvesnu	49		3
-podvezanu			2
-podviknu	80		2
-podvodnu	179		2
-podvoznu			2
+podvezanu			3
+podviknu	80		3
+podvodnu	179		3
+podvoznu			3
 podvrgnu	372		3
-podzemnu	534		2
-podšišanu	12		2
+podzemnu	534		3
+podšišanu	12		3
 poenu	159		2
-poetizovanu			2
-poetičnu	36		2
-poganinu			2
-poganu			2
-pogaženu			2
-pogibeljnu	14		2
+poetizovanu			3
+poetičnu	36		3
+poganinu			3
+poganu			3
+pogaženu			3
+pogibeljnu	14		3
 poginu	280		3
 pognu	60		2
 pogodnu	448		3
 pogonu	2342		3
-pogoršanu	15		2
+pogoršanu	15		3
 pogođenu	48		3
-pograničnu	119		2
+pograničnu	119		3
 pogrbljenu			4
-pogrdnu	27		2
+pogrdnu	27		3
 pogrebnu	121		3
 pogrešnu	2101		3
 pogubnu	248		3
-pogurenu			2
+pogurenu			3
 pohabanu	11		4
 pohotnu	31		3
 pohovanu	19		4
-pohranjenu	13		2
+pohranjenu	13		3
 pohranu	61		3
-pohvalnu	63		2
-poiskanu			2
-pojasnu			2
+pohvalnu	63		3
+poiskanu			3
+pojasnu			3
 pojačanu	275		3
 pojedenu			4
 pojedinačnu	904		3
 pojedinu	239		2
-pojmovnu	67		2
+pojmovnu	67		3
 pokazanu	74		3
-pokaznu	140		2
-pokladnu			2
-poklecnu			2
+pokaznu	140		3
+pokladnu			3
+poklecnu			3
 pokleknu	101		2
-pokliznu			2
+pokliznu			3
 poklonjenu	27		3
 poklonu	1095		3
-poklopljenu	18		2
-pokojnu	123		2
-pokolebanu			2
+poklopljenu	18		3
+pokojnu	123		3
+pokolebanu			3
 pokopanu			3
 pokorenu			3
 pokornu	24		3
-pokošenu	20		2
+pokošenu	20		3
 pokradenu	14		4
 pokrajinu	1848		4
 pokrenu	4116		2
@@ -2856,65 +2856,65 @@ pokrivenu	116		4
 pokrštenu			3
 pokvarenu	104		3
 pokvašenu			4
-polarnu	131		2
-polaznu	710		2
-polemičnu			2
+polarnu	131		3
+polaznu	710		3
+polemičnu			3
 polenu	79		3
-poletnu	39		2
-poleđinu	130		2
+poletnu	39		3
+poleđinu	130		3
 poligonu	902		2
 poljanu	191		3
-poljoprivrednu	2276		2
-poljuljanu	16		2
+poljoprivrednu	2276		3
+poljuljanu	16		3
 polnu	431		2
 polomljenu	38		3
 polovinu	8857		3
-polovičnu	24		2
-polovnu	430		2
+polovičnu	24		3
+polovnu	430		3
 položenu	67		3
-poltronu	10		2
-polugladnu			2
-polukružnu	38		2
-polupraznu	39		2
-polusezonu	295		2
-polusnu	137		2
-polutamnu			2
-polutečnu			2
-poluvremenu	8569		2
+poltronu	10		3
+polugladnu			3
+polukružnu	38		3
+polupraznu	39		3
+polusezonu	295		3
+polusnu	137		3
+polutamnu			3
+polutečnu			3
+poluvremenu	8569		3
 pomaknu	52		2
-pomamnu	11		2
-pomenu	1570		2
-pomerenu	18		2
-pomesnu	28		2
+pomamnu	11		3
+pomenu	1570		3
+pomerenu	18		3
+pomesnu	28		3
 pometenu			4
 pomešanu	93		3
-pominjanu	44		2
+pominjanu	44		3
 pomirenu			3
 pomnu	10		2
 pomodnu	17		3
 pomognu	14538		2
-pomoćnu	279		2
-pompeznu			2
-pomračenu			2
-pomračinu	11		2
+pomoćnu	279		3
+pompeznu			3
+pomračenu			3
+pomračinu	11		3
 pomrčinu	85		4
 ponavljanu	20		3
-poniknu	14		2
-poniznu	17		2
+poniknu	14		3
+poniznu	17		3
 poništenu			4
 poniženu	38		3
 ponosnu	141		3
 ponovljenu	82		3
 ponovnu	803		3
-ponoćnu	75		2
+ponoćnu	75		3
 ponuđenu	85		4
-poodmaknu			2
-popadnu			2
-popinu			2
+poodmaknu			3
+popadnu			3
+popinu			3
 poplašenu			4
-popločanu	12		2
+popločanu	12		3
 popnu	459		2
-popodnevnu	232		2
+popodnevnu	232		3
 popratnu	17		3
 popravljenu	15		4
 popravnu	12		2
@@ -2925,91 +2925,91 @@ popularnu	1074		4
 popunjenu	181		4
 popunu	610		3
 popušenu			4
-poratnu	18		2
-poraznu	57		2
+poratnu	18		3
+poraznu	57		3
 poraženu	34		3
-porcelanu	47		2
-porculanu			2
+porcelanu	47		3
+porculanu			3
 poreknu	66		3
 poremećenu	37		4
-porezotinu			2
+porezotinu			3
 porobljenu	13		3
-porodičnu	2469		2
+porodičnu	2469		3
 poroznu	35		3
-poročnu			2
+poročnu			3
 porudžbinu	505		4
-poruganu			2
+poruganu			3
 porušenu	32		4
-posadnu			2
-posavinu			2
+posadnu			3
+posavinu			3
 posađenu			3
 posebnu	17567		3
-posednu	35		2
-posegnu	221		2
+posednu	35		3
+posegnu	221		3
 posekotinu	122		3
-posledičnu	78		2
-poslednu			2
-posleratnu	168		2
-posljedičnu			2
-poslovičnu	96		2
+posledičnu	78		3
+poslednu			3
+posleratnu	168		3
+posljedičnu			3
+poslovičnu	96		3
 poslovnu	6267		3
 poslušnu	63		3
-posmrtnu	37		2
+posmrtnu	37		3
 posnu	115		2
 posoljenu	22		3
-posprdnu			2
+posprdnu			3
 posrednu	164		3
 posrnu	68		2
 postanu	13529		3
 postavljanu			4
 postavljenu	572		4
-posteljinu	670		2
-postepenu	174		2
-posthumnu	11		2
+posteljinu	670		3
+postepenu	174		3
+posthumnu	11		3
 postignu	4489		3
 postojanu	95		4
-postojbinu	312		2
+postojbinu	312		3
 postupnu	28		3
-posvetljenu			2
+posvetljenu			3
 posvećenu	1413		3
 potajnu	38		3
 potaknu	43		2
 potegnu	148		2
-poteknu	37		2
+poteknu	37		3
 potencijalnu	1196		5
-potisnu	382		2
+potisnu	382		3
 potištenu			3
-potkradenu			2
-potkresanu			2
-potlačenu	17		2
+potkradenu			3
+potkresanu			3
+potlačenu	17		3
 potonu	217		2
 potopljenu	22		3
-potpadnu	79		2
-potpisanu	239		2
-potpomognu	139		2
-potpornu	40		2
+potpadnu	79		3
+potpisanu	239		3
+potpomognu	139		3
+potpornu	40		3
 potpunu	7477		3
 potrebnu	5529		3
-potresenu			2
-potresnu	204		2
+potresenu			3
+potresnu	204		3
 potrošenu	99		3
-potrošnu	126		2
-potvrdnu	20		2
+potrošnu	126		3
+potvrdnu	20		3
 potvrđenu	69		3
-potčinjenu	27		2
-pouljenu			2
+potčinjenu	27		3
+pouljenu			3
 pouzdanu	861		4
-poučnu	120		2
-povaljanu			2
+poučnu	120		3
+povaljanu			3
 poverenu	77		4
-povesnu			2
+povesnu			3
 povezanu	298		3
-povećanu	1701		2
-poviknu			2
+povećanu	1701		3
+poviknu			3
 povišenu	699		3
-povlašćenu	190		2
+povlašćenu	190		3
 povoljnu	987		3
-povratnu	1265		2
+povratnu	1265		3
 povraćenu			3
 povremenu	263		4
 povređenu	60		3
@@ -3020,30 +3020,30 @@ pozadinu	3077		4
 pozajmljenu	40		3
 pozamašnu	272		4
 pozdravnu	177		3
-pozicionu			2
+pozicionu			3
 pozitivnu	4529		4
 pozlaćenu	23		3
 poznu			2
-pozorišnu	1717		2
-pozvanu	10		2
-počasnu	278		2
-početnu	1906		2
+pozorišnu	1717		3
+pozvanu	10		3
+počasnu	278		3
+početnu	1906		3
 počinjenu	42		3
 počinu	92		3
 počnu	11855		2
-poštarinu	305		2
+poštarinu	305		3
 poštenu	488		3
 poštovanu	26		3
 pošumljenu			4
-požarnu	31		2
+požarnu	31		3
 poželjnu	216		3
-požnjevenu			2
+požnjevenu			3
 požudnu			3
-požunu			2
+požunu			3
 praktičnu	2637		3
-prasetinu	112		2
+prasetinu	112		3
 prasnu	74		2
-pravednu	496		2
+pravednu	496		3
 pravilnu	1395		3
 pravičnu	319		3
 pravljenu	50		3
@@ -3052,157 +3052,157 @@ pravopisnu	73		4
 pravoslavnu	2888		4
 pravosudnu	241		4
 prazninu	1553		2
-prazničnu	354		2
+prazničnu	354		3
 praznu	1783		2
 praćenu	167		3
 prašinu	3641		3
 pražnjenu			3
-prebegnu	43		2
+prebegnu	43		3
 prebijenu	22		4
 preciznu	1261		3
-precrtanu			2
+precrtanu			3
 predahnu	177		2
-predanu	44		2
+predanu	44		3
 predivnu	633		3
-predizbornu	1393		2
+predizbornu	1393		3
 predlaganu			3
-predloženu	347		2
-predmetnu	287		2
-predohranu			2
-predratnu	94		2
-predračunu	147		2
-predsmrtnu	11		2
-predvečnu			2
+predloženu	347		3
+predmetnu	287		3
+predohranu			3
+predratnu	94		3
+predračunu	147		3
+predsmrtnu	11		3
+predvečnu			3
 predviđenu	314		4
 predvođenu	149		3
-prefinjenu	106		2
-pregaženu	10		2
+prefinjenu	106		3
+pregaženu	10		3
 preglednu	71		3
 pregnu			2
 pregrejanu	10		4
-prehranu	545		2
-preinačenu			2
+prehranu	545		3
+preinačenu			3
 prekinu	1922		3
-prekograničnu	443		2
-prekomernu	502		2
-prekornu			2
+prekograničnu	443		3
+prekomernu	502		3
+prekornu			3
 prekrasnu	235		3
 prekrivenu	96		4
-prekršajnu	474		2
-prekrštenu			2
-prelaznu			2
+prekršajnu	474		3
+prekrštenu			3
+prelaznu			3
 preliminarnu	267		5
-prelivenu	19		2
+prelivenu	19		3
 prelomljenu	14		3
-prelomnu			2
-premazanu	27		2
-premetačinu	83		2
-premetnu	17		2
-premijernu	79		2
+prelomnu			3
+premazanu	27		3
+premetačinu	83		3
+premetnu	17		3
+premijernu	79		3
 preminu	68		2
-prenatalnu	64		2
-prenesenu	32		2
-prenosnu	98		2
+prenatalnu	64		3
+prenesenu	32		3
+prenosnu	98		3
 prenu	199		2
-preobilnu			2
+preobilnu			3
 preokrenu	593		2
 preostanu	68		3
 prepadnu	34		3
-prepevanu			2
+prepevanu			3
 preplašenu	15		4
-prepodobnu	49		2
+prepodobnu	49		3
 preponu	49		3
 preporučenu	81		3
-prepranu			2
+prepranu			3
 prepredenu			3
-prepunjenu			2
+prepunjenu			3
 prepunu	345		3
-preranu	102		2
+preranu	102		3
 prerađenu	120		3
 prerezanu			4
 prerušenu	13		4
 presahnu	37		2
-presedanu	88		2
+presedanu	88		3
 presečenu	26		4
-presićenu			2
-preslavnu	10		2
-presloženu			2
+presićenu			3
+preslavnu	10		3
+presloženu			3
 presnu	56		2
 presretnu	81		3
 prestanu	3380		3
 prestignu	144		3
-prestižnu	1389		2
-prestonu	31		2
+prestižnu	1389		3
+prestonu	31		3
 presudnu	1044		3
-presvisnu			2
+presvisnu			3
 presvučenu	19		3
-pretegnu	21		2
-preteknu	138		2
+pretegnu	21		3
+preteknu	138		3
 preteranu	706		4
-pretežnu	103		2
+pretežnu	103		3
 prethodnu	5832		3
-pretilinu			2
-pretklonu	23		2
-pretočenu	19		2
-pretpristupnu	143		2
-pretrnu	37		2
-pretrpanu			2
+pretilinu			3
+pretklonu	23		3
+pretočenu	19		3
+pretpristupnu	143		3
+pretrnu	37		3
+pretrpanu			3
 pretrpljenu			3
 pretučenu			3
 pretvorenu	35		3
-pretvornu			2
-preuranjenu	22		2
-preuređenu	17		2
+pretvornu			3
+preuranjenu	22		3
+preuređenu	17		3
 prevagnu	66		2
-prevarnu			2
+prevarnu			3
 prevedenu	79		3
 preventivnu	717		4
-prevodnu	15		2
-prevoznu	15		2
-prevremenu	382		2
+prevodnu	15		3
+prevoznu	15		3
+prevremenu	382		3
 prevrnu	158		2
-prevučenu			2
+prevučenu			3
 prezimenu	673		4
-prezrenu	11		2
-prećutnu	309		2
-prečasnu			2
-prečudesnu			2
-prečudnu			2
+prezrenu	11		3
+prećutnu	309		3
+prečasnu			3
+prečudesnu			3
+prečudnu			3
 prhnu	21		2
 pribavljenu	73		4
-pribegnu	138		2
+pribegnu	138		3
 približnu	249		3
-pribodenu			2
-pribranu			2
-pridenu			2
-pridignu	23		2
-prignječenu			2
+pribodenu			3
+pribranu			3
+pridenu			3
+pridignu	23		3
+prignječenu			3
 prignu	11		2
 prigodnu	456		3
-prigrljenu			2
-prigrnu			2
+prigrljenu			3
+prigrnu			3
 prigušenu	17		3
-prihranu	324		2
-prihvatnu	67		2
+prihranu	324		3
+prihvatnu	67		3
 prihvaćenu	95		4
 prijatnu	974		3
 prijavljenu	73		3
-prijavnu	26		2
-prijemnu	76		2
-prikazanu	188		2
+prijavnu	26		3
+prijemnu	76		3
+prikazanu	188		3
 prikladnu	175		3
-prikovanu	13		2
+prikovanu	13		3
 prikrivanu			3
 prikrivenu	65		4
 prikupljenu	99		4
 prilagođenu	250		3
-prilaznu	35		2
-prilegnu	31		2
-prilepljenu			2
+prilaznu	35		3
+prilegnu	31		3
+prilepljenu			3
 priličnu	417		3
-prilježnu			2
-priloženu	161		2
-primadonu	15		2
+prilježnu			3
+priloženu	161		3
+primadonu	15		3
 primaknu	110		2
 primarnu	1412		3
 primenjenu	376		3
@@ -3212,105 +3212,105 @@ primernu	29		3
 primetnu	105		3
 primitivnu	174		4
 primljenu	161		3
-princezinu			2
+princezinu			3
 principijelnu	187		5
-prinesenu			2
-prinošenu			2
-prinstonu			2
-prinudnu	745		2
-priobalnu	17		2
-prionu	124		2
-prioritetnu	128		2
-pripadnu	282		2
-pripijenu	40		2
+prinesenu			3
+prinošenu			3
+prinstonu			3
+prinudnu	745		3
+priobalnu	17		3
+prionu	124		3
+prioritetnu	128		3
+pripadnu	282		3
+pripijenu	40		3
 pripisanu	10		3
 pripitomljenu			3
-priplodnu	42		2
-pripomenu			2
-pripomognu	100		2
-pripovednu	25		2
+priplodnu	42		3
+pripomenu			3
+pripomognu	100		3
+pripovednu	25		3
 pripravnu	10		3
 pripremanu	24		3
 pripremljenu	580		3
 pripremnu	490		3
 priređenu	30		3
 prirodnu	3307		3
-priručnu	72		2
+priručnu	72		3
 prisilnu	74		2
 prislonjenu	14		3
 prisnu	50		2
-pristanu	1113		2
+pristanu	1113		3
 pristignu	224		3
 pristojnu	973		2
-pristupnu	177		2
+pristupnu	177		3
 prisutnu	377		3
-pritajenu			2
-pritegnu	44		2
-priteknu	114		2
+pritajenu			3
+pritegnu	44		3
+priteknu	114		3
 pritisnu	422		3
-pritvornu			2
-privatnu	3651		2
+pritvornu			3
+privatnu	3651		3
 privedenu			4
-privezanu	19		2
-prividnu	209		2
+privezanu	19		3
+prividnu	209		3
 priviknu	162		3
-privinu			2
+privinu			3
 privlačnu	264		3
-privrednu	2155		2
+privrednu	2155		3
 privremenu	1475		4
-prizemnu	108		2
-prizivnu			2
-prizračnu			2
-prizrenu			2
+prizemnu	108		3
+prizivnu			3
+prizračnu			3
+prizrenu			3
 pričanu			3
-pričinjenu	127		2
-pričinu			2
+pričinjenu	127		3
+pričinu			3
 pričvršćenu	30		3
 prkosnu	30		3
 prljavštinu	605		4
 prnu			2
-proaktivnu	118		2
+proaktivnu	118		3
 problematičnu	384		3
 probnu	577		2
-probodenu			2
+probodenu			3
 probojnu	13		2
-probranu	44		2
+probranu	44		3
 probuđenu	14		3
 probušenu	17		3
 procenjenu	141		3
-procentnu	30		2
+procentnu	30		3
 procenu	8469		3
-procesnu	238		2
-proceđenu			2
+procesnu	238		3
+proceđenu			3
 prodajnu	787		3
 prodekanu	69		4
-prodenu			2
-produbljenu	23		2
+prodenu			3
+produbljenu	23		3
 produktivnu	148		4
-produženu	198		2
+produženu	198		3
 profesionalnu	3521		6
-profilnu	40		2
+profilnu	40		3
 profinjenu			3
-profitnu	94		2
+profitnu	94		3
 proglašenu	347		3
-prognanu			2
+prognanu			3
 progonu	657		3
 progresivnu	163		4
-prohladnu	19		2
-prohlađenu	14		2
-proigumanu			2
-proisteknu	130		2
+prohladnu	19		3
+prohlađenu	14		3
+proigumanu			3
+proisteknu	130		3
 proizvedenu	274		4
 proizvodnu	805		4
 proizvoljnu	86		4
-projavljenu			2
-projektnu	561		2
-prokazanu			2
-prokaznu			2
+projavljenu			3
+projektnu	561		3
+prokazanu			3
+prokaznu			3
 prokunu	13		2
-prokuvanu	70		2
+prokuvanu	70		3
 prolaznu	259		3
-prolećnu	757		2
+prolećnu	757		3
 prolivenu	48		4
 proljetnu	19	J	3
 promaknu	101		2
@@ -3318,67 +3318,67 @@ promašenu	43		4
 promenjenu	66		3
 promenu	17214		3
 prometnu	128		3
-prominu			2
+prominu			3
 promišljenu	83		4
-promotivnu	416		2
+promotivnu	416		3
 pronađenu	75		3
 proniknu	138		3
 propadnu	1035		3
 propagandnu	268		2
 propanu			2
 propisanu	349		3
-propisnu	45		2
-proprženu	13		2
-propuštenu			2
+propisnu	45		3
+proprženu	13		3
+propuštenu			3
 proračunu	465		4
 proreknu			3
 prosečnu	2705		3
-prosinu			2
+prosinu			3
 prostačinu			3
-prostornu	359		2
+prostornu	359		3
 prostranu	426		3
-prostrelnu	78		2
-prosušenu	14		2
-prosvetnu	189		2
-prosvećenu	35		2
-protegnu	75		2
+prostrelnu	78		3
+prosušenu	14		3
+prosvetnu	189		3
+prosvećenu	35		3
+protegnu	75		3
 proteknu	119		2
 proteranu			4
-protestnu	519		2
-protisnu			2
+protestnu	519		3
+protisnu			3
 protivnu	62		3
-protivpožarnu	255		2
-protkanu	50		2
+protivpožarnu	255		3
+protkanu	50		3
 protonu	11		2
 provedenu	50		3
-provenu			2
+provenu			3
 proverenu	135		4
-provetrenu			2
+provetrenu			3
 providnu	312		3
 provokativnu	137		5
-prozapadnu	99		2
+prozapadnu	99		3
 prozirnu	114		3
 proznu	72		2
-prozračnu	51		2
+prozračnu	51		3
 prozvanu	17		3
 pročitanu	14		3
-pročišćenu	21		2
-proševinu			2
+pročišćenu	21		3
+proševinu			3
 proširenu	197		3
-proživljenu			2
+proživljenu			3
 prsnu	80		2
 prstenu	417		3
-prtenu			2
-prtinu	29		2
+prtenu			3
+prtinu	29		3
 pruženu	210		3
-prvinu	22		2
-prvobitnu	835		2
+prvinu	22		3
+prvobitnu	835		3
 prvoklasnu	119		4
 prvorazrednu	117		4
-prvorođenu	20		2
-pršljenu	35		2
+prvorođenu	20		3
+pršljenu	35		3
 prženu	125		3
-psihogenu			2
+psihogenu			3
 psihotičnu	14		3
 psinu			2
 ptičurinu			3
@@ -3387,72 +3387,72 @@ puknu	378		2
 pukotinu	389		4
 puninu	50		2
 punjenu	48		3
-punopravnu	57		2
+punopravnu	57		3
 punu	11994		2
-pupcanu			2
-pupinu			2
-pupčanu	156		2
+pupcanu			3
+pupinu			3
+pupčanu	156		3
 puretinu			4
-purpurnu	64		2
+purpurnu	64		3
 pustolovinu	229		3
 pustolovnu			4
-putarinu	548		2
-putinu	40		2
+putarinu	548		3
+putinu	40		3
 putnu	885		2
-putopisnu	35		2
+putopisnu	35		3
 pučinu	279		3
-puškinu			2
-puštenu			2
-puščanu	28		2
+puškinu			3
+puštenu			3
+puščanu	28		3
 pšeničnu	25		3
 rabinu	36		2
 racionalnu	552		5
-radijanu			2
+radijanu			3
 radikalnu	864		4
 radioaktivnu	49		2
-radmilinu			2
+radmilinu			3
 radnu	7932		2
-radomanu			2
+radomanu			3
 radosnu	340		3
-radovanu			2
-rafalnu	51		2
-rafiniranu	33		2
-rafinisanu	13		2
-raketnu	106		2
+radovanu			3
+rafalnu	51		3
+rafiniranu	33		3
+rafinisanu	13		3
+raketnu	106		3
 rakunu			2
-ramadanu			2
+ramadanu			3
 ramenu	2078		3
 ranjenu	86		3
 ranu	3263		2
-rascepkanu			2
-rasejanu	13		2
-raselinu			2
-rashladnu	122		2
+rascepkanu			3
+rasejanu	13		3
+raselinu			3
+rashladnu	122		3
 rashlađenu	14		3
-rashodnu	84		2
+rashodnu	84		3
 rasipanu			4
 raskalašnu	13		4
 raskinu	371		3
 rasklopljenu			3
 raskošnu	308		3
-raskrečenu			2
+raskrečenu			3
 rasnu	544		2
-raspadnu	184		2
-raspaljenu	10		2
-rasparčanu			2
+raspadnu	184		3
+raspaljenu	10		3
+rasparčanu			3
 raspisanu			3
-rasplinu	20		2
+rasplinu	20		3
 raspnu	39		2
 rasponu	4214		3
 raspoređenu	40		3
-rasprsnu	35		2
+rasprsnu	35		3
 raspuštenu	14		3
 rastanu			3
-rastegnu	48		2
+rastegnu	48		3
 rastopljenu	49		3
-rastrgnu	140		2
-rastrzanu	15		2
-rasturenu	16		2
+rastrgnu	140		3
+rastrzanu	15		3
+rasturenu	16		3
 rastvorenu	12		3
 ratnu	1479		2
 ratobornu	39		4
@@ -3461,169 +3461,169 @@ ravnodušnu	16		3
 ravnomernu	179		4
 ravnu	968		2
 razapnu	92		2
-razbacanu	25		2
-razbegnu			2
+razbacanu	25		3
+razbegnu			3
 razbijenu	43		4
-razdadnu			2
-razdaljinu			2
+razdadnu			3
+razdaljinu			3
 razdeljenu	11		3
-razderotinu	37		2
-razdraganu	31		2
+razderotinu	37		3
+razdraganu	31		3
 razdvojenu	15		3
 razgolićenu	15		3
-razgrnu	48		2
-razigranu	53		2
+razgrnu	48		3
+razigranu	53		3
 razinu	694		3
 razjarenu	16		3
 razlivenu			4
-različnu			2
+različnu			3
 razloženu			3
 razložnu	31		3
 razlučenu			3
-razmahnu	78		2
+razmahnu	78		3
 razmaknu	35		2
 razmaženu	50		3
 razmenu	8023		3
-razminu			2
-razmrskanu			2
-razmućenu			2
+razminu			3
+razmrskanu			3
+razmućenu			3
 razneženu			3
 raznobojnu	24		4
-raznoraznu	16		2
+raznoraznu	16		3
 raznovrsnu	605		3
 raznu	224		2
 razorenu	59		3
 razornu	128		2
-razočaranu	10		2
+razočaranu	10		3
 razrađenu	60		3
-razrednu	77		2
-razređenu	26		2
-razrešenu			2
-razrovanu			2
+razrednu	77		3
+razređenu	26		3
+razrešenu			3
+razrovanu			3
 razumnu	731		3
-razurlanu			2
+razurlanu			3
 razuzdanu	34		4
-razuđenu	60		2
+razuđenu	60		3
 razvalinu	10		4
 razvaljenu	17		3
-razvijenu	1710		2
-razvodnu	51		2
-razvojnu	1632		2
+razvijenu	1710		3
+razvodnu	51		3
+razvojnu	1632		3
 razvratnu	13		3
-razvučenu	24		2
-račanu			2
+razvučenu	24		3
+račanu			3
 računu	6379		2
 rađenu	114		3
-rađevinu			2
+rađevinu			3
 raširenu	85		3
-rašivenu			2
+rašivenu			3
 raščlanjenu			4
-raščupanu	34		2
-reakcionu			2
-reaktivnu	74		2
+raščupanu	34		3
+reakcionu			3
+reaktivnu	74		3
 realnu	3175		3
-recipročnu	34		2
-redigovanu			2
+recipročnu	34		3
+redigovanu			3
 redovnu	3095		3
-redukovanu	99		2
-referalnu	16		2
-referentnu	731		2
-reflektovanu			2
-reformnu			2
+redukovanu	99		3
+referalnu	16		3
+referentnu	731		3
+reflektovanu			3
+reformnu			3
 refrenu	97		2
-reganu			2
-reginu			2
+reganu			3
+reginu			3
 regionalnu	3189		5
 regionu	36861		2
-registrovanu	322		2
-reglemanu			2
-regularnu	241		2
-rejonu	870		2
-reklamnu	405		2
+registrovanu	322		3
+reglemanu			3
+regularnu	241		3
+rejonu	870		3
+reklamnu	405		3
 reknu	86		2
-rekonstruktivnu	103		2
-rekordnu	849		2
-rekreativnu	239		2
+rekonstruktivnu	103		3
+rekordnu	849		3
+rekreativnu	239		3
 relativnu	515		4
-relejnu	12		2
+relejnu	12		3
 relevantnu	328		2
 religioznu	266		5
 remenu	16		3
 rendgenu	34		3
 renesansnu	52		2
-renomiranu	86		2
+renomiranu	86		3
 renoviranu	80		3
-rentabilnu	40		2
-rentgenu			2
+rentabilnu	40		3
+rentgenu			3
 renu		M	2
-repernu			2
+repernu			3
 represivnu	59		4
-repriznu			2
+repriznu			3
 rernu	1394		2
-respiratornu	92		2
+respiratornu	92		3
 restoranu	6817		2
 retardiranu	48		3
 reumatičnu			3
-revidiranu	43		2
-revijalnu	102		2
-revizionu	14		2
+revidiranu	43		3
+revijalnu	102		3
+revizionu	14		3
 revnosnu	62		3
 revolucionarnu	470		7
 rezanu			3
-rezervisanu	106		2
+rezervisanu	106		3
 rezervnu	755		2
 rezonantnu	38		2
-rezonu	85		2
+rezonu	85		3
 rečeničnu	10		3
 rečenu	43		3
 rečnu	154		2
-ređenu			2
+ređenu			3
 rešenu	66		3
-ribanu			2
+ribanu			3
 rigidnu	57		3
 rigoroznu	253		4
 riknu	73		2
-rimljaninu			2
+rimljaninu			3
 riskantnu	32		2
 ritmičnu	20		3
 ritnu			2
 ritualnu	76		4
 rizičnu	327		3
-robinu			2
+robinu			3
 robnu	764		2
 rodbinu	1214		3
 rodnu	1710		2
-rodoslovnu			2
-rogožinu			2
+rodoslovnu			3
+rogožinu			3
 roknu	35		2
-roletnu	82		2
+roletnu	82		3
 rolnu	176		2
-romanesknu	67		2
+romanesknu	67		3
 romantičnu	725		3
 romanu	6182		2
-rosanu			2
+rosanu			3
 rosnu	14		2
-rotacionu	49		2
+rotacionu	49		3
 rođendanu	444		4
 rođenu	493		3
 rubinu	29		2
-rudinu	15		2
+rudinu	15		3
 rujnu	263		2
 rukometnu	233		4
 rukopisnu	53		4
-rukovodnu			2
+rukovodnu			3
 rukovođenu			3
-rumenu			2
-rumunu			2
+rumenu			3
+rumunu			3
 runu	44		2
 rupetinu	24		3
 ruralnu	110		2
-rutinu	1044		2
+rutinu	1044		3
 ručnu	668		2
 ruševinu	83		4
-ružinu			2
+ružinu			3
 ružnu	890		2
-sabinu			2
+sabinu			3
 sablasnu	34		3
 sablaznu			3
 sabornu	372		3
@@ -3631,51 +3631,51 @@ sabranu	18		3
 sadržajnu	118		4
 sadržanu	117		4
 sadržinu	1564		4
-sagibanu			2
-saglasnu	14		2
+sagibanu			3
+saglasnu	14		3
 sagnu	121		2
 sagrađenu	87		3
-sahanu			2
+sahanu			3
 saharinu			2
 sahnu			2
 sahranu	1212		3
-sajgonu			2
+sajgonu			3
 sakralnu	67		2
 sakrivanu			3
 sakrivenu	107		4
 saksofonu	80		4
 sakupljenu	50		4
 salonu	6369		2
-samarićaninu			2
+samarićaninu			3
 samlevenu	22		4
-samobitnu			2
-samodisciplinu	80		2
-samohranu	72		2
-samoobmanu	45		2
-samoodbranu	334		2
+samobitnu			3
+samodisciplinu	80		3
+samohranu	72		3
+samoobmanu	45		3
+samoodbranu	334		3
 samostalnu	1821		4
 samostanu	218		4
-samosvesnu	30		2
-samosvojnu	36		2
+samosvesnu	30		3
+samosvojnu	36		3
 samovoljnu	15		4
-samrtnu	11		2
+samrtnu	11		3
 samurovinu			4
-sandučinu			2
-sanitarnu	355		2
+sandučinu			3
+sanitarnu	355		3
 sanu		M	2
-saobraznu			2
+saobraznu			3
 saobraćajnu	2064		5
 sapunu	31		2
 sardinu	48		2
 sarkastičnu	25		3
 sastanu	837		3
 sastavljenu	467		4
-sasušenu	22		2
-sataninu			2
+sasušenu	22		3
+sataninu			3
 satanu	15		2
 satiričnu	97		3
-satrvenu			2
-saturnu			2
+satrvenu			3
+saturnu			3
 saunu	590		3
 savanu	58		2
 savesnu	28		3
@@ -3684,21 +3684,21 @@ savijenu	78		4
 savinu	24		2
 savremenu	3154		4
 savršenu	1734		3
-sazdanu	37		2
-sazidanu	14		2
-saznajnu	66		2
+sazdanu	37		3
+sazidanu	14		3
+saznajnu	66		3
 sazvanu	11		3
 sačinjenu	154		3
 sačuvanu	82		3
 scenu	11882		2
 sebičnu	58		3
-seckanu	73		2
-sedanu	45		2
-sedinu	13		2
+seckanu	73		3
+sedanu	45		3
+sedinu	13		3
 sedminu	56		2
-sedmičnu	20		2
+sedmičnu	20		3
 sednu	1414		2
-segedinu			2
+segedinu			3
 sejanu			3
 seknu			2
 seksualnu	1745		4
@@ -3709,18 +3709,18 @@ selenu	37		3
 seljaninu			4
 seljačinu	15		3
 seljenu			3
-semenu	310		2
+semenu	310		3
 sentimentalnu	108		5
 senu	165		2
 senzacionalnu	97		6
 senzualnu	47		4
-serviranu	33		2
-servisnu	434		2
+serviranu	33		3
+servisnu	434		3
 sestrinu			2
-sestričinu			2
+sestričinu			3
 sestričnu			3
 setnu	42		2
-severinu			2
+severinu			3
 severnu	1098		3
 severozapadnu	54		3
 sevnu	71		2
@@ -3728,73 +3728,73 @@ sezonu	15320		2
 sečenu	38		3
 shodnu	38		2
 shvaćenu	61		3
-signalnu	43		2
+signalnu	43		3
 sigurnosnu	275		3
 sigurnu	2786		3
 siknu			2
-silaznu	54		2
-silinu	133		2
+silaznu	54		3
+silinu	133		3
 silnu	510		2
 silovanu	12		4
 simboličnu	611		3
-simeonu			2
+simeonu			3
 simetričnu	40		3
-simeunu			2
-siminu			2
-simonu			2
+simeunu			3
+siminu			3
+simonu			3
 simpatičnu	219		3
-simposionu			2
+simposionu			3
 simuliranu	11		3
-sinanu			2
-sindikalnu	344		2
-sinoćnu	53		2
+sinanu			3
+sindikalnu	344		3
+sinoćnu	53		3
 sinu	4615		2
 sirenu	253		2
-sirogojnu			2
+sirogojnu			3
 siromašnu	444		3
-sirotanu			2
+sirotanu			3
 sirovinu	674		4
-sirćetnu	33		2
-sitninu			2
+sirćetnu	33		3
+sitninu			3
 sitnu	880		2
-sizerenu			2
+sizerenu			3
 sićušnu	67		3
-sižejnu			2
+sižejnu			3
 sjajnu	3838		2
-sjedinjenu	29		2
+sjedinjenu	29		3
 skamenjenu			4
 skandaloznu	164		4
 skarednu	10		3
-skerletnu			2
+skerletnu			3
 skinu	2346		2
 skladnu	287		2
 skliznu	189		2
 sklonu	149		2
 sklopljenu	34		3
-sklupčanu	13		2
+sklupčanu	13		3
 skoknu	101		2
 skotnu			2
 skraćenu	101		3
 skrenu	1160		2
-skrhanu			2
+skrhanu			3
 skrivanu	29		3
-skrivenu	302		2
+skrivenu	302		3
 skromnu	748		2
-skrušenu			2
+skrušenu			3
 skupinu	485		3
 skupljenu	31		3
 skupocenu	146		3
 skupštinu	11158		3
 skuvanu	33		3
 slabašnu	73		3
-slabinu	23		2
-slaninu	621		2
+slabinu	23		3
+slaninu	621		3
 slanu	411		2
 slasnu	17		2
 slatinu	55		3
-slavinu	397		2
+slavinu	397		3
 slavnu	630		2
-slađanu			2
+slađanu			3
 slegnu	251		2
 sletnu	17		2
 slezenu	11		2
@@ -3803,12 +3803,12 @@ sleđenu			3
 slikanu	22		3
 slinu	39		2
 sličnu	5358		2
-slobodanu			2
+slobodanu			3
 slobodnu	2637		3
 sloganu	183		2
 slomljenu	52		3
 slonu	113		2
-slovenu			2
+slovenu			3
 složenu	1013		3
 složnu	57		2
 sluganu			2
@@ -3822,10 +3822,10 @@ smernu			2
 smetanu			3
 smešnu	292		2
 smeštenu	253		3
-smežuranu	14		2
-smiljanu			2
+smežuranu	14		3
+smiljanu			3
 smirenu	47		3
-smisaonu	62		2
+smisaonu	62		3
 smislenu	187		3
 smišljenu			3
 smradnu			2
@@ -3834,88 +3834,88 @@ smrskanu			3
 smrtnu	1339		2
 smrtonosnu	272		4
 smrznu	96		2
-smućenu			2
-snahinu			2
+smućenu			3
+snahinu			3
 snažnu	3217		2
 snenu	15		2
-snežanu			2
+snežanu			3
 snežnu	127		2
 snimljenu	182		3
 snježnu		J	2
 snu	5980		1
 sobnu	132		2
 socijalnu	9606		4
-sofijinu			2
-sofisticiranu	212		2
-sokolanu	11		2
+sofijinu			3
+sofisticiranu	212		3
+sokolanu	11		3
 solanu	123		2
-solarnu	844		2
+solarnu	844		3
 solidarnu	201		4
 solidnu	1804		3
-solomonu			2
-solunu			2
-somovinu			2
-soničnu			2
+solomonu			3
+solunu			3
+somovinu			3
+soničnu			3
 sopranu			2
-sopstvenu	10210		2
-sortiranu			2
+sopstvenu	10210		3
+sortiranu			3
 sotonu			2
 sočnu	99		2
 spadnu	84		2
 spakovanu	25		4
 spaljenu	23		3
-sparinu	19		2
-spasonosnu	223		2
-spavaonu	16		2
+sparinu	19		3
+spasonosnu	223		3
+spavaonu	16		3
 spašenu			3
 specifičnu	2089		3
-specijalizovanu	519		2
+specijalizovanu	519		3
 specijalnu	3301		4
 spektakularnu	206		5
 spektralnu	31		3
 spečenu			3
 spiralnu	63		2
-spiridonu			2
+spiridonu			3
 spiritualnu	53		5
 splasnu	58		2
-splačinu			2
+splačinu			3
 spojenu	33		3
 spoljnu	4127		2
 spomenu	621		3
 spominjanu	16		4
-spomognu			2
+spomognu			3
 spontanu	156		3
 sponu	372		2
 spopadnu	47		3
 sporadičnu	25		3
-sporazumnu	22		2
+sporazumnu	22		3
 sporednu	550		3
 spornu	510		2
 sposobnu	379		3
-spotaknu	22		2
-sprdačinu			2
+spotaknu	22		3
+sprdačinu			3
 spremanu			3
 spremljenu	135		3
 spremnu	481		2
-sprovedenu	110		2
+sprovedenu	110		3
 sprovođenu	15		3
-sprženu	14		2
+sprženu	14		3
 sputanu			3
 spuštenu	21		3
 sramnu	370		2
 sramotnu	88		3
-srazmernu	76		2
+srazmernu	76		3
 srbinu	120		3
-srbobranu			2
+srbobranu			3
 srdačnu	175		3
 srebrenu	42		3
-srebrninu	20		2
+srebrninu	20		3
 srebrnu	2309		3
-sredinu	14154		2
-središnu			2
-srednjevekovnu	126		2
-sredovečnu	23		2
-sretenu			2
+sredinu	14154		3
+središnu			3
+srednjevekovnu	126		3
+sredovečnu	23		3
+sretenu			3
 sretnu	1526		2
 srećnu	976		2
 sređenu	72		3
@@ -3923,68 +3923,68 @@ srknu	17		2
 srnetinu	15		4
 srnu	279		2
 srodnu	463		2
-sročenu	17		2
-srušenu	56		2
+sročenu	17		3
+srušenu	56		3
 srčanu	347		3
-srđanu			2
+srđanu			3
 stabilnu	1843		3
 stadionu	10180		4
 staklenu	655		3
-staljinu			2
+staljinu			3
 stalnu	3189		2
-staloženu	13		2
+staloženu	13		3
 stambenu	882		3
-stamenu	27		2
+stamenu	27		3
 stanarinu	335		3
-standardnu	1253		2
+standardnu	1253		3
 staničnu	38		3
 stanu	13538		2
 starešinu	480		3
 starinu	18		2
-starodrevnu	10		2
+starodrevnu	10		3
 staromodnu	52		4
-starosnu	849		2
+starosnu	849		3
 startnu	582		2
 statičnu	100		3
 statusnu	195		3
-statutarnu	45		2
+statutarnu	45		3
 stavljenu	51		3
-stefanu			2
+stefanu			3
 stegnu	221		2
 steknu	6502		2
 stenu	1075		2
 stepenu	5753		3
-sterilnu	146		2
-stevanu			2
+sterilnu	146		3
+stevanu			3
 stečajnu	178		3
 stečenu	520		3
 stečevinu			4
-sticanu			2
+sticanu			3
 stidnu	14		2
 stignu	6001		2
-stihovanu			2
-stilizovanu	89		2
+stihovanu			3
+stilizovanu	89		3
 stinu			2
 stisnu	240		2
-stojadinu	28		2
-stojanu			2
-stoletnu	17		2
-stomačinu			2
-stomačnu	34		2
+stojadinu	28		3
+stojanu			3
+stoletnu	17		3
+stomačinu			3
+stomačnu	34		3
 stonu	78		2
 stopljenu			3
-stopostotnu	192		2
+stopostotnu	192		3
 stotinu	6509		3
 stočnu	593		2
 stranu	35728		2
 strasnu	189		2
 strastvenu	147		3
-stravičnu	140		2
+stravičnu	140		3
 strašnu	1152		2
-streljanu	78		2
+streljanu	78		3
 stremenu			3
 stresnu	116		2
-strikanu			2
+strikanu			3
 striktnu	196		2
 strinu	88		2
 strminu	121		3
@@ -3996,80 +3996,80 @@ strukturnu	146		2
 strunu	150		2
 stručnu	5955		2
 strvinu	31		3
-studenu			2
-studioznu	16		2
+studenu			3
+studioznu	16		3
 stuknu			2
-stučenu			2
+stučenu			3
 stvaranu	28		3
 stvarnu	1768		2
-stvorenu	277		2
+stvorenu	277		3
 stvrdnu	43		2
-subregionu			2
+subregionu			3
 sudbinu	11985		2
 sudbonosnu	98		3
-sudijinu			2
+sudijinu			3
 sugestivnu	40		4
 suhoparnu			4
 sujetnu	25		3
 sujevernu			4
 suknu	50		2
-sulejmanu			2
+sulejmanu			3
 suljnu			2
-sultanu			2
-sumarnu	15		2
+sultanu			3
+sumarnu	15		3
 sumornu	299		3
-sumpornu	65		2
-sunovratnu			2
+sumpornu	65		3
+sunovratnu			3
 sunčanu	147		3
-supermenu	24		2
+supermenu	24		3
 suprotnu	1131		3
-surčinu			2
+surčinu			3
 susednu	629		3
 susretnu	580		3
 sustignu	181		3
-suterenu	349		2
+suterenu	349		3
 sutonu	65		3
-suverenu			2
+suverenu			3
 suvišnu	155		3
-suzanu			2
+suzanu			3
 suzdržanu			3
 suznu	14		2
 sušenu	39		3
 sušnu	36		2
 suštinu	7005		2
 suženu	36		3
-svadbarinu			2
-svadbenu	146		2
+svadbarinu			3
+svadbenu	146		3
 svakodnevnu	1939		4
-svakovrsnu	26		2
+svakovrsnu	26		3
 svanu	163		2
 svedenu	45		3
 svemoćnu	53		3
-svenarodnu	20		2
+svenarodnu	20		3
 sveobuhvatnu	1204		3
 svesnu	223		2
 svesrdnu	747		3
 svestranu	238		3
-svetačnu			2
+svetačnu			3
 svetinu	58		3
 svetkovinu	233		4
-svetlaninu			2
-svetlanu			2
-svetlosnu	389		2
+svetlaninu			3
+svetlanu			3
+svetlosnu	389		3
 svetogrdnu			4
-svetorodnu			2
-svetovnu	178		2
+svetorodnu			3
+svetovnu	178		3
 sveukupnu	312		3
 svezanu	12		3
 svečanu	1372		3
-sveštenu	61		2
+sveštenu	61		3
 svežinu	1295		2
 svilenu	194		3
 svinjetinu	259		4
 svisnu	11		2
 svodnu			2
 svojevoljnu			4
-svojevrsnu	1808		2
+svojevrsnu	1808		3
 svojinu	3019		2
 svojstvenu	195		3
 svrgnu	187		2
@@ -4079,109 +4079,109 @@ svučenu			3
 tabanu	87		3
 tajanstvenu	229		3
 tajnu	6946		2
-tajvanu			2
+tajvanu			3
 taknu	47		2
 takozvanu	1692		2
-taksenu			2
+taksenu			3
 taktilnu	37		2
 talasnu	156		3
-talentovanu	305		2
-talinu			2
-talonu	59		2
+talentovanu	305		3
+talinu			3
+talonu	59		3
 tamjanu			3
-tamninu			2
-tamnozelenu	30		2
+tamninu			3
+tamnozelenu	30		3
 tamnu	1115		2
-tanahnu			2
+tanahnu			3
 tananu	108		3
-tanušnu	21		2
-tarifnu	58		2
+tanušnu	21		3
+tarifnu	58		3
 tasnu			2
-tatarinu			2
-tatinu			2
-tatjanu			2
+tatarinu			3
+tatinu			3
+tatjanu			3
 tavanu	638		3
-tavernu	68		2
+tavernu	68		3
 tavnu			2
 tazbinu	33		3
 tačnu	1737		2
-tašmajdanu			2
+tašmajdanu			3
 tašnu			2
 taštinu	129		2
 teatralnu	10		4
 tegobnu	11		3
-teheranu			2
+teheranu			3
 teknu		M	2
 tekovinu	278		4
-tekstilnu	334		2
-tekstualnu			2
+tekstilnu	334		3
+tekstualnu			3
 tekućinu	112		3
-teleekranu			2
+teleekranu			3
 telefonu	4017		2
-telekranu			2
-telesinu	21		2
+telekranu			3
+telesinu	21		3
 telesnu	2163		3
 teletinu	143		4
-temeljnu	673		2
+temeljnu	673		3
 temenu	387		3
-temerinu			2
-tempiranu	41		2
+temerinu			3
+tempiranu	41		3
 tenu	169		2
 terenu	36909		2
 teretanu	1610		2
-teretnu	43		2
-teritorijalnu	916		2
-termalnu	225		2
-terminalnu	38		2
+teretnu	43		3
+teritorijalnu	916		3
+termalnu	225		3
+terminalnu	38		3
 terminu	4258		2
-termonuklearnu	14		2
+termonuklearnu	14		3
 tesnu	530		2
 testeninu	490		2
-tetkinu			2
+tetkinu			3
 tetoviranu			3
-tečevinu			2
-tečinu			2
+tečevinu			3
+tečinu			3
 tečnu	190		2
 težinu	8526		2
-tijanu			2
+tijanu			3
 timpanu			2
-tipiziranu			2
+tipiziranu			3
 tipičnu	383		3
 tiraninu	77		4
-tiranu			2
-tirkiznu	43		2
-titanu	143		2
+tiranu			3
+tirkiznu	43		3
+titanu	143		3
 tišinu	1759		2
 tkaninu	499		3
 tminu	117		2
-toaletnu	37		2
-toboganu	81		2
+toaletnu	37		3
+toboganu	81		3
 toksinu	10		2
-toksičnu	59		2
+toksičnu	59		3
 tolerantnu	84		2
-toljagetinu			2
+toljagetinu			3
 tonu	3230		2
 toplanu	355		2
 toplinu	1552		2
 topljenu			3
-toplotnu	1231		2
-toplovodnu	57		2
-topuzinu			2
+toplotnu	1231		3
+toplovodnu	57		3
+topuzinu			3
 totalnu	950		3
-tovarnu	11		2
+tovarnu	11		3
 tovnu	28		2
 tradicionalnu	2429		6
 tragičnu	602		3
-trajanu			2
+trajanu			3
 trajnu	1311		2
-trambolinu			2
-trambulinu			2
-trampolinu			2
+trambolinu			3
+trambulinu			3
+trampolinu			3
 transportnu	188		3
 tranzitnu	124		2
 tratinu			3
-travuljinu			2
-traženu	696		2
+travuljinu			3
+traženu	696		3
 trbušinu			4
 trbušnu	149		3
 trenu	1712		2
@@ -4194,107 +4194,107 @@ trezvenu	31		3
 trećinu	4824		2
 trgnu	230		2
 trgovinu	7449		4
-triatlonu	284		2
-tribinu	2158		2
-tritonu			2
+triatlonu	284		3
+tribinu	2158		3
+tritonu			3
 trivijalnu	50		4
 trnu	163		2
-trobojnu			2
+trobojnu			3
 trodelnu	32		3
 trodimenzionalnu	168		7
-trodnevnu	302		2
+trodnevnu	302		3
 trojnu	39		2
 trombonu			2
-tromesečnu	178		2
+tromesečnu	178		3
 tronu	793		2
-tročlanu	178		2
-trošarinu	18		2
-troškovnu	33		2
+tročlanu	178		3
+trošarinu	18		3
+troškovnu	33		3
 trošnu	63		2
-trtičnu	16		2
+trtičnu	16		3
 trudnu	161		2
-truležnu			2
+truležnu			3
 trunu	205		2
-trupinu			2
+trupinu			3
 trznu	18		2
-trščanu			2
+trščanu			3
 tržišnu	2561		3
 tucanu	12		3
-tuluminu			2
+tuluminu			3
 tumačenu			3
 tunjevinu	181		4
 turbinu	252		2
 turnu	13		2
 turobnu	46		3
-turčinu			2
-tutinu			2
+turčinu			3
+tutinu			3
 tutnu	52		2
 tuđinu	203		2
 tuženu	70		3
 tužnu	758		2
 tvarnu			2
 tvorevinu	891		4
-tvrdinu			2
+tvrdinu			3
 tvrdokornu	20		4
-ubijenu	89		2
-ubijeđenu		J	2
-ubistvenu			2
+ubijenu	89		3
+ubijeđenu		J	3
+ubistvenu			3
 ubitačnu	57		4
-ubodnu	62		2
-ubojnu			2
+ubodnu	62		3
+ubojnu			3
 ubrzanu	89		3
 ucenu	344		3
-ucrtanu	14		2
-ucveljenu			2
+ucrtanu	14		3
+ucveljenu			3
 udahnu	244		2
 udaljenu	444		3
 udarenu			4
-udarnu	318		2
-udenu			2
+udarnu	318		3
+udenu			3
 udobnu	501		3
 udolinu	22		4
-udovičinu			2
-udrobljenu			2
+udovičinu			3
+udrobljenu			3
 udruženu	50		3
-udubinu			2
-udubljenu			2
-udvojenu			2
-ufitiljenu			2
-ugasnu			2
+udubinu			3
+udubljenu			3
+udvojenu			3
+ufitiljenu			3
+ugasnu			3
 ugašenu	18		3
-ugaženu			2
+ugaženu			3
 uginu	222		3
-uglavljenu			2
-uglačanu			2
-uglađenu	31		2
+uglavljenu			3
+uglačanu			3
+uglađenu	31		3
 uglednu	211		3
 ugljenu	44		3
 ugnu			2
 ugodnu	278		3
 ugovorenu	246		3
-ugovornu	375		2
+ugovornu	375		3
 ugrabljenu			4
-ugraviranu			2
+ugraviranu			3
 ugrađenu	209		3
 ugroženu	184		3
 uhapšenu	14		4
-uhodanu	49		2
-uhranjenu			2
+uhodanu	49		3
+uhranjenu			3
 uhvaćenu	48		4
-uigranu	26		2
+uigranu	26		3
 uistinu	3085		4
 ujedinjenu	128		3
-ujednačenu	58		2
+ujednačenu	58		3
 ujnu	61		2
-ukaljanu	10		2
+ukaljanu	10		3
 ukazanu	67		3
 ukinu	2100		3
-uključenu	164		2
-uknjiženu			2
+uključenu	164		3
+uknjiženu			3
 ukopanu	16		3
 ukorenjenu	61		3
-ukoričenu	13		2
-ukovrdžanu			2
+ukoričenu	13		3
+ukovrdžanu			3
 ukočenu			3
 ukradenu	76		4
 ukrasnu	112		3
@@ -4302,78 +4302,78 @@ ukrašenu	184		3
 ukroćenu			3
 ukupnu	2946		3
 ukusnu	322		3
-ukućaninu	16		2
-ulaznu	292		2
-ulepljenu			2
+ukućaninu	16		3
+ulaznu	292		3
+ulepljenu			3
 ulepšanu	16		3
-ulivenu			2
+ulivenu			3
 uličnu	551		3
-uljanu	144		2
+uljanu	144		3
 uljepšanu		J	3
 uljudnu	18		3
 uloženu	69		3
-ultimativnu	96		2
-ulupanu	13		2
+ultimativnu	96		3
+ulupanu	13		3
 umaknu	65		2
-umanjenu	214		2
+umanjenu	214		3
 umerenu	395		4
-umetninu			2
+umetninu			3
 umetnu	36		3
-umešanu			2
-umešnu			2
-umilnu	10		2
+umešanu			3
+umešnu			3
+umilnu	10		3
 umišljenu	40		4
 umnu	132		2
-umobolnu	11		2
+umobolnu	11		3
 umornu	124		3
-umotanu	55		2
-umrljanu			2
-umrtvljenu	20		2
-umuknu	60		2
-umućenu	33		2
+umotanu	55		3
+umrljanu			3
+umrtvljenu	20		3
+umuknu	60		3
+umućenu	33		3
 unakaženu	13		3
-unakrsnu	109		2
-unapređenu	100		2
-unezverenu			2
-uniformnu	25		2
-unikatnu	152		2
-unitarnu	228		2
+unakrsnu	109		3
+unapređenu	100		3
+unezverenu			3
+uniformnu	25		3
+unikatnu	152		3
+unitarnu	228		3
 univerzalnu	737		5
-uništenu	276		2
+uništenu	276		3
 unosnu	80		3
 unu	172		2
 uobičajenu	875		3
-uobličenu	31		2
+uobličenu	31		3
 uobraženu	11		3
 uokvirenu	21		3
-uopštenu	50		2
-upadnu	629		2
+uopštenu	50		3
+upadnu	629		3
 upaljenu	80		3
-uparađenu			2
+uparađenu			3
 upecanu			4
-uperenu	43		2
+uperenu	43		3
 upijenu			4
 upisanu	81		3
-upisninu	38		2
-upisnu	106		2
-uplakanu	71		2
-uplašenu	49		2
+upisninu	38		3
+upisnu	106		3
+uplakanu	71		3
+uplašenu	49		3
 upnu			2
-upokojenu	14		2
-uporednu	283		2
-upoređenu			2
-uporišnu	17		2
+upokojenu	14		3
+uporednu	283		3
+upoređenu			3
+uporišnu	17		3
 upornu	174		3
 upotrebljenu	36		3
-upotrebnu	1208		2
-upravnu	449		2
-upražnjenu	46		2
-upregnu	92		2
+upotrebnu	1208		3
+upravnu	449		3
+upražnjenu	46		3
+upregnu	92		3
 uprljanu	12		3
-upropašćenu	26		2
+upropašćenu	26		3
 upućenu	283		3
 uraganu	36		4
-uramljenu	50		2
+uramljenu	50		3
 uranu	42		2
 uravnoteženu	257		3
 urađenu	121		3
@@ -4383,244 +4383,244 @@ ureknu	12		3
 urezanu	18		4
 uređenu	591		3
 urgentnu	218		2
-urinarnu	79		2
+urinarnu	79		3
 urinu	557		2
-urnebesnu	72		2
+urnebesnu	72		3
 urnu	83		2
 urođenu	304		4
-urvinu			2
-usaglašenu	40		2
-usahnu	35		2
+urvinu			3
+usaglašenu	40		3
+usahnu	35		3
 usamljenu	128		3
 usavršenu	17		3
 usađenu	23		3
 usađivanu			3
-useknu			2
+useknu			3
 ushićenu			3
-ushtednu			2
-usijanu	91		2
-usiljenu	14		2
-usitnjenu	36		2
-uskisnu			2
-usklađenu	71		2
-uskliknu	103		2
-uskogrudnu			2
-uskomešanu			2
+ushtednu			3
+usijanu	91		3
+usiljenu	14		3
+usitnjenu	36		3
+uskisnu			3
+usklađenu	71		3
+uskliknu	103		3
+uskogrudnu			3
+uskomešanu			3
 uskraćenu			3
-uslikanu			2
-uslovljenu	65		2
+uslikanu			3
+uslovljenu	65		3
 uslovnu	624		2
 uslužnu	126		3
 usmenu	479		3
 usmeravanu			3
 usmerenu	411		4
-usmrćenu			2
+usmrćenu			3
 usnu	567		2
-usoljenu	17		2
+usoljenu	17		3
 uspavanu	65		3
 uspešnu	5475		3
 uspnu	16		2
 uspomenu	2064		4
 usponu	2900		3
-usporenu	39		2
+usporenu	39		3
 uspravnu	76		3
 usputnu	72		3
-usrdnu	50		2
-ustaljenu	90		2
+usrdnu	50		3
+ustaljenu	90		3
 ustanu	625		3
 ustavnu	1340		3
-ustranu			2
-ustrašenu			2
-ustremljenu			2
+ustranu			3
+ustrašenu			3
+ustremljenu			3
 ustrojenu	17		3
-ustuknu	131		2
+ustuknu	131		3
 ustupljenu			3
-usvojenu	233		2
-utabanu	10		2
-utamničenu			2
-utančanu			2
-utegnu			2
+usvojenu	233		3
+utabanu	10		3
+utamničenu			3
+utančanu			3
+utegnu			3
 uteknu	48		2
-utemeljenu	193		2
+utemeljenu	193		3
 utešnu	151		3
-uticajnu	116		2
-utihnu	251		2
-utilitarnu	17		2
-utisnu	56		2
+uticajnu	116		3
+utihnu	251		3
+utilitarnu	17		3
+utisnu	56		3
 utonu	173		2
 utovljenu	16		3
-utrgnu			2
-utrinu			2
+utrgnu			3
+utrinu			3
 utrnu	61		2
 utrošenu	215		3
 utučenu			3
 utvrđenu	229		3
 uvažavanu			3
 uvaženu	50		3
-uvedenu	56		2
+uvedenu	56		3
 uveličanu			3
 uvenu	71		2
 uverenu			4
 uvezanu	16		3
 uvezenu	159		3
 uvećanu	208		3
-uvežbanu	30		2
-uvodnu	642		2
+uvežbanu	30		3
+uvodnu	642		3
 uvoznu	312		3
 uvređenu			3
-uvreženu	32		2
+uvreženu	32		3
 uvrštenu			3
 uvučenu	11		3
 uzajamnu	332		4
 uzaludnu	51		4
-uzanu	58		2
-uzastopnu	766		2
-uzbekistanu			2
+uzanu	58		3
+uzastopnu	766		3
+uzbekistanu			3
 uzbunu	1239		3
 uzburkanu	16		4
 uzbuđenu			3
 uzdahnu	383		2
-uzdanu			2
-uzdignu	273		2
-uzdrhtanu			2
-uzdrmanu	23		2
-uzdržanu	18		2
-uzdužnu	36		2
+uzdanu			3
+uzdignu	273		3
+uzdrhtanu			3
+uzdrmanu	23		3
+uzdržanu	18		3
+uzdužnu	36		3
 uzgrednu	21		3
-uzlaznu	124		2
-uzmognu	21		2
+uzlaznu	124		3
+uzmognu	21		3
 uznemirenu	24		3
 uzoranu			3
 uzornu	66		2
-uzrasnu	41		2
+uzrasnu	41		3
 uzrokovanu	92		5
 uzročnu	45		3
-uzurpiranu	20		2
+uzurpiranu	20		3
 uzviknu	560		2
-uzvisinu	10		2
+uzvisinu	10		3
 uzvišenu	92		3
-uzvratnu	134		2
+uzvratnu	134		3
 učenu	32		3
 učinjenu	140		3
 učvršćenu	13		3
-ušećerenu			2
-ušivenu			2
-uškopljenu			2
+ušećerenu			3
+ušivenu			3
+uškopljenu			3
 ušnu	90		2
 ušteđevinu	707		3
 uštinu	35		2
-uštirkanu	10		2
-uštogljenu	14		2
-užarenu	121		2
+uštirkanu	10		3
+uštogljenu	14		3
+užarenu	121		3
 užasnu	464		3
-užeženu			2
+užeženu			3
 užinu	1178		3
-užurbanu	32		2
+užurbanu	32		3
 vaganu			3
-vaginalnu	142		2
+vaginalnu	142		3
 vaginu	647		2
 vagonu	315		2
-vaistinu	1049		2
+vaistinu	1049		3
 vakcinu	2055		2
-valentinu			2
-validnu	244		2
-valjanu	319		2
-valutnu	124		2
-vanbračnu	151		2
-vanrednu	1071		2
-vanvremenu			2
-varaždinu			2
-varijantnu			2
-varošaninu			2
-varvarinu	65		2
-vaseljenu			2
+valentinu			3
+validnu	244		3
+valjanu	319		3
+valutnu	124		3
+vanbračnu	151		3
+vanrednu	1071		3
+vanvremenu			3
+varaždinu			3
+varijantnu			3
+varošaninu			3
+varvarinu	65		3
+vaseljenu			3
 vasionu	330		2
-vaskrsnu	87		2
-vaskularnu	134		2
-vaspitanu	29		2
-vaspitnu	265		2
-vatanu			2
-vatikanu			2
+vaskrsnu	87		3
+vaskularnu	134		3
+vaspitanu	29		3
+vaspitnu	265		3
+vatanu			3
+vatikanu			3
 vatrenu	382		3
-vatrogasnu	206		2
-vavilonu			2
-vazduhoplovnu	218		2
-vazdušnu	477		2
+vatrogasnu	206		3
+vavilonu			3
+vazduhoplovnu	218		3
+vazdušnu	477		3
 važnu	7836		2
 vedrinu	281		2
 veknu	255		2
-vekovnu	271		2
-velelepnu	121		2
+vekovnu	271		3
+velelepnu	121		3
 velikanu	298		2
 velikodušnu	99		3
 veličanstvenu	358		3
 veličinu	7098		2
 veneričnu			3
-ventrikularnu			2
+ventrikularnu			3
 venu	492		2
 venčanu	11		3
 verbalnu	308		2
 verenu			3
-verolomnu			2
-verovatnu	109		2
+verolomnu			3
+verovatnu	109		3
 vertikalnu	421		4
 vesnu			2
 vesternu	65		3
 veteranu	115		2
 veterinu	875		2
 vetrobranu	56		4
-vezanu	1543		2
+vezanu	1543		3
 vezenu	38		3
-vezivnu	11		2
+vezivnu	11		3
 većinu	24640		2
-večinu			2
+večinu			3
 večnu	1155		2
-vešticinu			2
+vešticinu			3
 veštinu	2809		2
-veštičinu			2
-vidanu			2
+veštičinu			3
+vidanu			3
 vidnu	119		2
-vihornu			2
+vihornu			3
 viknu	972		2
-vimbldonu			2
-vindjaknu			2
+vimbldonu			3
+vindjaknu			3
 vinu	2543		2
-violinu	991		2
+violinu	991		3
 virnu	31		2
-virtuelnu	774		2
-virusnu	207		2
+virtuelnu	774		3
+virusnu	207		3
 visinu	7562		2
 vitalnu	266		3
-vitaminu	144		2
+vitaminu	144		3
 vitrinu	138		2
-vizuelnu	945		2
+vizuelnu	945		3
 vičnu			2
 viđenu	156		3
-višebojnu			2
-višednevnu	112		2
-višerečenu			2
-višeslojnu	80		2
-višesmernu			2
-viševekovnu	118		2
+višebojnu			3
+višednevnu	112		3
+višerečenu			3
+višeslojnu	80		3
+višesmernu			3
+viševekovnu	118		3
 višeznačnu	34		3
 višnu			2
-vladanu			2
+vladanu			3
 vladavinu	2311		4
 vladinu	96		3
-vladičinu			2
+vladičinu			3
 vlaknu	50		2
 vlastelinu		M	2
 vlažnu	574		2
-vodarinu			2
+vodarinu			3
 vodenu	506		3
-vodootpornu	78		2
+vodootpornu	78		3
 vodoravnu	26		4
-vodovodnu	585		2
-vojinu			2
-vojkanu			2
+vodovodnu	585		3
+vojinu			3
+vojkanu			3
 vojnu	6719		2
-vojvodinu	3051		2
-vokalnu	107		2
+vojvodinu	3051		3
+vokalnu	107		3
 volanu	457		2
 voljenu	650		3
 voljnu	63		2
@@ -4630,15 +4630,15 @@ voćnu	208		2
 vođenu	127		3
 voštanu	82		3
 vradžbinu	13		3
-vraninu			2
+vraninu			3
 vranu	92		2
-vratinu			2
+vratinu			3
 vratnu	58		2
 vratolomnu	17		4
 vraćenu	24		3
-vrbenu			2
+vrbenu			3
 vrdnu			2
-vrednosnu	153		2
+vrednosnu	153		3
 vrednu	2155		2
 vrelinu	237		2
 vremenu	37973		3
@@ -4651,237 +4651,237 @@ vrnu	48		2
 vrsnu	23		2
 vrtnu	21		2
 vrućinu	342		2
-vrzinu	10		2
-vršinu		M	2
-vucibatinu			2
-vuhanu			2
-vukanu			2
-vukašinu			2
-vulgarnu	54		2
+vrzinu	10		3
+vršinu		M	3
+vucibatinu			3
+vuhanu			3
+vukanu			3
+vukašinu			3
+vulgarnu	54		3
 vulkanu	93		2
 vunenu	82		3
 vunu	515		2
-vučitrnu			2
+vučitrnu			3
 vučnu	70		2
 zabavnu	475		3
-zabačenu	49		2
-zabeleženu	79		2
-zabezeknu	15		2
-zabilježenu		J	2
-zablenu			2
-zabljesnu			2
+zabačenu	49		3
+zabeleženu	79		3
+zabezeknu	15		3
+zabilježenu		J	3
+zablenu			3
+zabljesnu			3
 zabodenu			3
 zaboravljenu	206		4
 zaboravnu			4
 zabranjenu	231		3
-zabranu	5411		2
-zabrađenu			2
+zabranu	5411		3
+zabrađenu			3
 zabrinu	266		3
 zabunu	891		3
-zacenu			2
+zacenu			3
 zacrtanu	39		4
-zadahnu			2
+zadahnu			3
 zadanu	17		3
 zadavljenu			3
-zadenu	25		2
-zadobijenu	15		2
+zadenu	25		3
+zadobijenu	15		3
 zadovoljenu			3
 zadovoljnu	77		4
-zadovoljštinu	30		2
-zadružnu	94		2
+zadovoljštinu	30		3
+zadružnu	94		3
 zadržanu	12		3
 zadužbinu	686		4
-zaduženu	159		2
-zagarantovanu	87		2
+zaduženu	159		3
+zagarantovanu	87		3
 zagađenu	33		4
 zaglavljenu	14		3
-zaglušnu			2
+zaglušnu			3
 zagonetnu	80		4
-zagraničnu			2
+zagraničnu			3
 zagrađenu			3
-zagrcnu	42		2
-zagrejanu	351		2
+zagrcnu	42		3
+zagrejanu	351		3
 zagrljenu			4
-zagrnu	16		2
-zagrobnu			2
+zagrnu	16		3
+zagrobnu			3
 zahtevanu	31		3
-zahtevnu	274		2
+zahtevnu	274		3
 zahvalnu	65		2
 zahvaćenu	34		4
-zajapurenu			2
-zajemčenu			2
-zakazanu	317		2
-zakačenu	25		2
-zakiseljenu			2
-zaklanu	16		2
-zaključanu	49		2
+zajapurenu			3
+zajemčenu			3
+zakazanu	317		3
+zakačenu	25		3
+zakiseljenu			3
+zaklanu	16		3
+zaključanu	49		3
 zaključenu	24		3
 zaključnu	53		3
 zaklonjenu			3
 zaklonu	111		3
-zaklopljenu			2
+zaklopljenu			3
 zakonu	41350		3
 zakopanu	24		3
-zakopčanu	18		2
-zakrivljenu	39		2
-zakrpljenu			2
-zakrvljenu			2
+zakopčanu	18		3
+zakrivljenu	39		3
+zakrpljenu			3
+zakrvljenu			3
 zakunu	105		2
-zakupljenu	23		2
-zakupninu	410		2
-zalegnu	25		2
-zalepljenu	28		2
-zaleđenu	18		2
-zaleđinu	165		2
+zakupljenu	23		3
+zakupninu	410		3
+zalegnu	25		3
+zalepljenu	28		3
+zaleđenu	18		3
+zaleđinu	165		3
 zalivenu	13		4
 zalizanu			3
-zaljubljenu	47		2
+zaljubljenu	47		3
 založenu	13		3
-založnu	55		2
-zamagljenu	27		2
+založnu	55		3
+zamagljenu	27		3
 zamahnu	124		2
 zamaknu			2
 zamamnu			3
-zamanu			2
+zamanu			3
 zamašnu	35		3
 zamenu	8899		3
-zametnu	71		2
-zamišljenu	246		2
-zamornu	13		2
-zamotanu	14		2
-zamračenu	12		2
-zamrljanu			2
+zametnu	71		3
+zamišljenu	246		3
+zamornu	13		3
+zamotanu	14		3
+zamračenu	12		3
+zamrljanu			3
 zamrznu	340		3
-zamršenu	50		2
-zamuknu	26		2
+zamršenu	50		3
+zamuknu	26		3
 zamućenu	18		3
-zanosnu	99		2
-zaobljenu	42		2
-zaodenu			2
-zaokrenu	14		2
+zanosnu	99		3
+zaobljenu	42		3
+zaodenu			3
+zaokrenu	14		3
 zaokruženu	168		3
-zaokupljenu			2
+zaokupljenu			3
 zaoranu			3
-zaostavštinu	495		2
+zaostavštinu	495		3
 zapadnu	2411		3
-zapahnu	31		2
+zapahnu	31		3
 zapaljenu	72		3
 zapamćenu	13		3
 zapaženu	292		4
-zapečaćenu	29		2
+zapečaćenu	29		3
 zapečenu	10		4
 zapisanu	53		3
 zaplašenu			4
-zaplenjenu	22		2
-zaplenu	200		2
-zapljenu			2
-zapljusnu	60		2
-zapodenu	14		2
-zaposednu	131		2
+zaplenjenu	22		3
+zaplenu	200		3
+zapljenu			3
+zapljusnu	60		3
+zapodenu	14		3
+zaposednu	131		3
 zaposlenu	111		4
 zapostavljenu	39		4
 započnu	2230		2
-zapreminu	824		2
-zapretanu			2
+zapreminu	824		3
+zapretanu			3
 zaprljanu	10		3
 zapuštenu	67		3
-zaraznu	112		2
-zaraćenu	11		2
+zaraznu	112		3
+zaraćenu	11		3
 zarađenu	55		3
-zaraženu	83		2
-zarobljenu	62		2
-zarozanu			2
-zaručenu			2
+zaraženu	83		3
+zarobljenu	62		3
+zarozanu			3
+zaručenu			3
 zasađenu			3
 zasebnu	571		3
-zasednu	123		2
-zasejanu	13		2
-zasenu			2
+zasednu	123		3
+zasejanu	13		3
+zasenu			3
 zasićenu	18		4
 zaslonu	84		3
-zasluženu	749		2
+zasluženu	749		3
 zaslužnu	26		3
-zasnovanu	1055		2
-zastakljenu			2
+zasnovanu	1055		3
+zastakljenu			3
 zastanu	272		3
 zastupanu			3
 zastupljenu	50		3
-zategnu			2
+zategnu			3
 zateknu	375		3
-zateznu	294		2
+zateznu	294		3
 zatečenu	26		4
-zatisnu			2
+zatisnu			3
 zatočenu	18		3
 zatraženu			3
 zatrovanu	23		3
-zatrpanu	17		2
-zaturenu	15		2
+zatrpanu	17		3
+zaturenu	15		3
 zatvorenu	554		4
 zavađenu	11		4
-zavejanu	20		2
-zavetnu	49		2
+zavejanu	20		3
+zavetnu	49		3
 zavetrinu	57		4
 zavezanu	14		3
 zavidnu	736		3
 zavijenu	18		4
 zavisnu	89		3
-zavičajnu	127		2
-zavrnu	216		2
-zavrzenu			2
+zavičajnu	127		3
+zavrnu	216		3
+zavrzenu			3
 završenu	758		4
-završnu	1821		2
+završnu	1821		3
 začaranu	24		3
-začepljenu			2
+začepljenu			3
 začinjenu	159		3
 začinu	17		3
 začnu	80		2
 začuđenu			4
-zašećerenu	21		2
-zašivenu			2
+zašećerenu	21		3
+zašivenu			3
 zaštitnu	1296		3
 zaštićenu	161		3
-zažarenu	14		2
-zažeženu			2
+zažarenu	14		3
+zažeženu			3
 zbirnu	127		2
 zbornu			2
 zbrinu	178		2
 zbunjenu	41		3
-zdravstvenu	6301		2
-zdrobljenu			2
+zdravstvenu	6301		3
+zdrobljenu			3
 združenu	27		3
 zdušnu	84		2
 zejnu			2
 zejtinu	18		2
 zelenu	3303		3
-zemljanu	100		2
-zemljinu			2
-zemljišnu	121		2
+zemljanu	100		3
+zemljinu			3
+zemljišnu	121		3
 zemnu	14		2
-zemunu			2
+zemunu			3
 zevnu	21		2
 zeznu	134		2
-zečetinu			2
+zečetinu			3
 zgasnu	21		2
 zgodnu	444		2
 zgrabljenu			3
 zgradurinu	12		3
 zgranu	17		2
-zgrbljenu			2
+zgrbljenu			3
 zgrnu	63		2
-zgrudvanu			2
-zgrčenu	14		2
+zgrudvanu			3
+zgrčenu	14		3
 zgusnu	25		2
-zgužvanu	36		2
+zgužvanu	36		3
 zidnu	140		2
 zlatnu	5976		2
-zlatotkanu			2
-zlaćanu	12		2
-zlikovčinu			2
+zlatotkanu			3
+zlaćanu	12		3
+zlikovčinu			3
 zlobnu	24		2
 zloglasnu	62		3
 zlokobnu	67		3
 zlonamernu	65		2
-zloslavnu			2
+zloslavnu			3
 zloslutnu	21		3
 zlovoljnu			2
 zloćudnu	31		3
@@ -4893,60 +4893,60 @@ značajnu	8256		3
 znojnu			2
 zobenu	11		3
 zonu	6852		2
-zoranu			2
+zoranu			3
 zovnu	132		2
 zračnu	151		2
-zrenjaninu			2
+zrenjaninu			3
 zrnu	749		2
 zubnu	237		2
-zubunu			2
+zubunu			3
 zvaničnu	3389		3
 zvanu	1015		2
 zveknu	45		2
 zvezdanu	170		3
-zvezdinu	142		2
-zvečanu			2
+zvezdinu	142		3
+zvečanu			3
 zviznu	38		2
 zvonu	114		2
 zvučnu	1167		2
-ćerkinu			2
+ćerkinu			3
 ćiriličnu	105		3
-ćuranu			2
+ćuranu			3
 ćuretinu	123		4
 ćušnu			2
 čajnu	227		2
 čakavštinu			3
-čalabrcnu			2
-čapljinu			2
-čarlstonu	18		2
+čalabrcnu			3
+čapljinu			3
+čarlstonu	18		3
 čarnu			2
 čarobnu	442		3
 časnu	460		2
-časovnu	118		2
+časovnu	118		3
 čednu	28		2
-čekovnu	29		2
-čeličanu	75		2
-čeličnu	315		2
+čekovnu	29		3
+čeličanu	75		3
+čeličnu	315		3
 čelnu	271		2
-čemernu	19		2
-čeonu	43		2
+čemernu	19		3
+čeonu	43		3
 česnu			2
-četvorinu			2
-četvoronožnu			2
+četvorinu			3
+četvoronožnu			3
 četvrtinu	2788		3
 čeznu	294		2
 činjeničnu	68		4
 činjenu			3
 činu	2756		2
-čipkanu	20		2
-čistinu	359		2
-čistionu			2
-čičinu			2
-članarinu	1376		2
+čipkanu	20		3
+čistinu	359		3
+čistionu			3
+čičinu			3
+članarinu	1376		3
 članu	17873		2
-čobaninu	33		2
+čobaninu	33		3
 čobanu	50		3
-čohanu			2
+čohanu			3
 čokoladnu	148		4
 čudesnu	451		3
 čudnu	1000		2
@@ -4962,51 +4962,51 @@ zvučnu	1167		2
 čvrknu			2
 čvrstinu	1060		3
 đakonu	114		3
-đurđevdanu			2
-đurđinu			2
-šabanu			2
-šablonu	390		2
+đurđevdanu			3
+đurđinu			3
+šabanu			3
+šablonu	390		3
 šamanu			2
 šamarčinu	208		3
 šampionu	832		2
-šapketinu			2
+šapketinu			3
 šapnu	179		2
 šaranu	35		3
 šarenu	431		3
-šarganu			2
+šarganu			3
 šarlatanu	14		2
 šarmantnu	94		2
-šatiranu			2
-šengenu	74		2
+šatiranu			3
+šengenu	74		3
 šestinu	113		3
-šestomesečnu	207		2
-šestočlanu	58		2
+šestomesečnu	207		3
+šestočlanu	58		3
 šećeranu	130		2
 šećernu	642		2
-šeširčinu			2
+šeširčinu			3
 šibanu			3
-šifriranu			2
-šifrovanu	24		2
+šifriranu			3
+šifrovanu	24		3
 šiknu	16		2
 šinu	172		2
 širinu	2389		2
-šizofrenu	63		2
+šizofrenu	63		3
 škljocnu			2
 školarinu	1174		3
 škorpionu	28		2
-škrgutnu			2
+škrgutnu			3
 škripnu			2
 šmokljanu			3
 šmugnu	34		2
-šoferšajbnu	143		2
-šogunu			2
+šoferšajbnu	143		3
+šogunu			3
 šokantnu	141		2
 špijunu	84		2
 štabnu			2
-štafetnu	53		2
+štafetnu	53		3
 štampanu	165		3
-štapetinu			2
-štapinu	10		2
+štapetinu			3
+štapinu	10		3
 štednu	86		2
 štetnu	280		2
 štetočinu	83		3
@@ -5017,98 +5017,98 @@ zvučnu	1167		2
 šupljinu	284		2
 šutnu	149		2
 šušnu			2
-švercovanu	11		2
-šveđaninu			2
+švercovanu	11		3
+šveđaninu			3
 šćenu		J	2
-šćepanu			2
+šćepanu			3
 žacnu			2
 žalosnu	187		3
-žalostivnu			2
-žaluzinu			2
+žalostivnu			3
+žaluzinu			3
 žanu			2
 žargonu	789		2
 žbunu	84		2
 žednu	67		2
-želatinu	24		2
+želatinu	24		3
 železnu	22		3
 željenu	1092		3
 željeznu		J	3
 željnu	105		2
-želučanu	11		2
-ženetinu			2
-ženidbenu			2
+želučanu	11		3
+ženetinu			3
+ženidbenu			3
 ženinu			3
-ženturinu			2
+ženturinu			3
 ženu	15838		2
 žestinu	173		2
 žeženu			3
 žignu			2
-živadinu			2
+živadinu			3
 živahnu	62		3
-živanu			2
-živinu	378		2
-živkinu			2
+živanu			3
+živinu	378		3
+živkinu			3
 živnu	54		2
-živojinu			2
+živojinu			3
 živopisnu	179		4
 životnu	9974		3
-životvornu	61		2
-žičanu	117		2
+životvornu	61		3
+žičanu	117		3
 žmirnu			2
-žrtvenu	29		2
-žrtvinu			2
+žrtvenu	29		3
+žrtvinu			3
 županu	86		3
-žustrinu	12		2
+žustrinu	12		3
 žučnu	154		2
 bezvrijednu			4
 bijednu	22		3
-bijeljinu			2
+bijeljinu			3
 bjelinu			2
 cijenu	2382		3
 cjelinu			2
 cjelokupnu			3
 cjenu			2
 djetelinu			4
-dotjeranu			2
+dotjeranu			3
 dragocjenu			3
-izbjegnu			2
+izbjegnu			3
 izmjenu			3
 izvjesnu			3
 jednosmjernu			4
 korijenu	105		4
-lijenu			2
+lijenu			3
 ljepotanu			2
 ljetinu			3
 miješanu			4
 mjesečinu			4
-mjesečnu			2
+mjesečnu			3
 mjesnu			2
 mješavinu			4
-mliječnu	13		2
-namjenu			2
-nedjeljnu			2
+mliječnu	13		3
+namjenu			3
+nedjeljnu			3
 neizbježnu			4
-neizmjernu			2
+neizmjernu			3
 neumjesnu			4
 neutješnu			4
-nevjerovatnu			2
-obavještajnu			2
+nevjerovatnu			3
+obavještajnu			3
 ocjenu			3
-odbjegnu			2
+odbjegnu			3
 opsjednu			3
-osmjehnu			2
+osmjehnu			3
 otmjenu			3
 pjenu			2
 plijenu	16		3
 pobijeđenu			4
 pobjegnu			3
-pomjesnu			2
+pomjesnu			3
 posjekotinu			3
 povrijeđenu			4
-prekomjernu			2
+prekomjernu			3
 pretjeranu			4
-pribjegnu			2
-prijevremenu	37		2
+pribjegnu			3
+prijevremenu	37		3
 primjenu			3
 procjenu			3
 promjenu			3
@@ -5123,7 +5123,7 @@ smjenu			2
 smještenu	13		3
 starješinu			3
 stijenu	121		3
-stjepanu			2
+stjepanu			3
 susjednu			3
 svježinu			2
 tjednu	137		2
@@ -5139,5 +5139,5 @@ vječnu			2
 vještinu			2
 vrijednu	134		3
 zamjenu			3
-zasjednu			2
+zasjednu			3
 zvjezdanu			3

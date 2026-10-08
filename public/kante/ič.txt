@@ -3,11 +3,11 @@ bič	807		1
 branič	51		2
 devič			2
 dobrič			2
-gombrovič			2
+gombrovič			3
 gonič	125		2
 granič			2
-isakovič			2
-ivanovič			2
+isakovič			3
+ivanovič			3
 kidrič			2
 kič	1099		1
 maglič			2
@@ -17,12 +17,12 @@ protič			2
 radič	114		2
 rajič			2
 ribič	29		2
-sakovič			2
+sakovič			3
 sendvič	1491		2
-teferič		M	2
+teferič		M	3
 teklič			2
-vasiljevič			2
+vasiljevič			3
 vodič	6264		2
-vojnovič			2
+vojnovič			3
 ćerpič	15		2
 žepič			2

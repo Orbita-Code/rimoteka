@@ -1,61 +1,61 @@
 2430
-Detinjci			2
-Firenci			2
-Leskovci			2
+Detinjci			3
+Firenci			3
+Leskovci			3
 Meseci	86721		3
 Podgorici			4
 Subotici			4
 aci			2
 advokatici			3
 aerodinamici	96		3
-africi			2
-afrikanci			2
+africi			3
+afrikanci			3
 afroamerikanci	22		2
 agnostici	74		3
-agrarci			2
+agrarci			3
 akademci	585		2
 akademici	955		3
 aktovci			3
 akustici	77		3
-albanci			2
-aljasci			2
-alžirci			2
-americi			2
-amerikanci			2
-analgetici	238		2
-anegdotici			2
+albanci			3
+aljasci			3
+alžirci			3
+americi			3
+amerikanci			3
+analgetici	238		3
+anegdotici			3
 anestetici	80		3
 anglikanci	25		2
 anglistici	11		3
-anici			2
-antarktici			2
+anici			3
+antarktici			3
 antibiotici	1269		3
 antici	283		3
-antikvarnici	49		2
-antipsihotici	26		2
+antikvarnici	49		3
+antipsihotici	26		3
 aparatčici	85		3
-apatinci			2
+apatinci			3
 apoteci	2098		2
 argentinci	157		2
 arijevci	98		4
 aritmetici	42		3
-artiljerci			2
+artiljerci			3
 artičoci			2
-asirci			2
-asketici			2
-asteci			2
+asirci			3
+asketici			3
+asteci			3
 astrofizici	76		3
-ataci			2
+ataci			3
 atletici	831		3
-australci			2
-australijanci			2
+australci			3
+australijanci			3
 austrijanci	567		2
-autopijaci			2
+autopijaci			3
 autopraonici			3
-avganistanci			2
+avganistanci			3
 azbuci	132		3
-azijci			2
-aščinici			2
+azijci			3
+aščinici			3
 babici	25		3
 baci	5375		2
 badnjaci	104		3
@@ -64,138 +64,138 @@ balavci	57		3
 balistici			3
 balkanci	189		2
 banci	15291		2
-banjaluci			2
-banjici			2
-banovci	292		2
+banjaluci			3
+banjici			3
+banovci	292		3
 baraci	175		2
 barci	88		2
 barjaci	136		2
-baronici	13		2
-basamaci			2
-baskijci			2
+baronici	13		3
+basamaci			3
+baskijci			3
 bataci	84		3
-batajnici			2
-batinici			2
-batrovci			2
-bauci			2
-bavarci			2
-bazilici	167		2
+batajnici			3
+batinici			3
+batrovci			3
+bauci			3
+bavarci			3
+bazilici	167		3
 baštinici	124		4
-bebici	44		2
+bebici	44		3
 bedaci			2
-bednici	248		2
+bednici	248		3
 begunci	267		2
 belci	384		2
 beletristici	68		3
 belešci	286		3
-beležnici	220		2
-belgijanci			2
-beljanici			2
-beluci	14		2
-benzinci	422		2
-berbernici	25		2
-berlinci			2
-besanici			2
-beskičmenjaci	109		2
+beležnici	220		3
+belgijanci			3
+beljanici			3
+beluci	14		3
+benzinci	422		3
+berbernici	25		3
+berlinci			3
+besanici			3
+beskičmenjaci	109		3
 beskućnici	482		4
 besmislici	38		4
 besmrtnici	44		3
 besparici	253		4
 besposlici	14		4
 besramnici			3
-bezbednjaci	88		2
+bezbednjaci	88		3
 bezbožnici	185		4
-bezdomci			2
-bezdušnici	33		2
+bezdomci			3
+bezdušnici	33		3
 bezobraznici	27		4
 bezverci			3
-bezveznjaci	19		2
-bećarci	10		2
-bečejci			2
-bešici			2
+bezveznjaci	19		3
+bećarci	10		3
+bečejci			3
+bešici			3
 biblioteci	8449		2
 bici	970		2
 bifteci	20		3
-biletarnici	179		2
+biletarnici	179		3
 biljci	888		2
-biofizici			2
-biseksualci	51		2
-bistrici			2
+biofizici			3
+biseksualci	51		3
+bistrici			3
 bitci	59		2
-bitnici	15		2
+bitnici	15		3
 bizantinci			2
-bjelasici			2
-bjelašnici			2
-blagajnici	64		2
-blagovaonici			2
+bjelasici			3
+bjelašnici			3
+blagajnici	64		3
+blagovaonici			3
 blesci			2
 blijesci			3
 blizanci	1978		2
-bliznaci			2
+bliznaci			3
 bljesci			2
 bljuzgavici			4
 bludnici	68		3
-bobici			2
+bobici			3
 boci	904		2
-bogomoljci	77		2
-bogomrsci			2
-bogonosci			2
-bogorodici	957		2
+bogomoljci	77		3
+bogomrsci			3
+bogonosci			3
+bogorodici	957		3
 bojovnici	109		3
 bolesnici	3078		3
 boljci	29		2
-boljševici	459		2
+boljševici	459		3
 bolnici	13353		3
 boravci	186		3
 borci	3708		2
 bosanci	296		2
-bosančici	17		2
+bosančici	17		3
 botanici	51		3
 bočici	169		3
 bošnjaci			2
-boščaluci			2
-boščici			2
-božjaci			2
+boščaluci			3
+boščici			3
+božjaci			3
 braci	105		2
 bradavici	89		4
-bradici			2
-branici	332		2
+bradici			3
+branici	332		3
 branioci	1169		4
-bratanci	22		2
-bratanici	18		2
-brazilci	277		2
-bračnici			2
-brbljivci	27		2
+bratanci	22		3
+bratanici	18		3
+brazilci	277		3
+bračnici			3
+brbljivci	27		3
 brci	39		2
-bregalnici			2
-brezovici			2
+bregalnici			3
+brezovici			3
 brežuljci	123		2
-brijačnici			2
+brijačnici			3
 britanci	800		2
-britanici			2
+britanici			3
 brnjici	34		3
 brodolomci			2
-brodolomnici	38		2
-brojanici	13		2
+brodolomnici	38		3
+brojanici	13		3
 brojci	198		2
-brošurici			2
+brošurici			3
 bruci	27		2
 brusnici	40		3
-brzaci	68		2
+brzaci	68		3
 buci	477		2
 budaci	16		3
 budilnici	17		3
-budžaci			2
+budžaci			3
 bugarštici	29		3
 bujici	109		3
 bukavci			3
 bukvici	11		3
-buljuci			2
-bunjevci			2
+buljuci			3
+bunjevci			3
 buntovnici	258		3
 bureci			3
-burlaci			2
-burlesci			2
+burlaci			3
+burlesci			3
 butici	328		3
 buvljaci	42		2
 bušilici	17		4
@@ -203,204 +203,204 @@ carici	361		3
 carinarnici	205		3
 carinici	1141		4
 ceci			2
-cediljci	10		2
-ceduljici	28		2
-cenovnici	377		2
+cediljci	10		3
+ceduljici	28		3
+cenovnici	377		3
 cevanici	30		3
 cici			2
-cigarluci			2
+cigarluci			3
 cinici	234		3
-cjediljci			2
-crkavici			2
+cjediljci			3
+crkavici			3
 crkvenjaci	23		3
-crkvici	110		2
-crmnici			2
+crkvici	110		3
+crmnici			3
 crnci	782		2
-crnobarci			2
-crnogorci			2
-crnorizci			2
-crnorukci			2
-crnotravci			2
+crnobarci			3
+crnogorci			3
+crnorizci			3
+crnorukci			3
+crnotravci			3
 crtici	36		3
-crvenokošci	12		2
+crvenokošci	12		3
 curici	16		3
 cvrčci	103		2
 daci			2
 dalmatinci	98		2
 današnjici	152		4
 danci	241		2
-danici			2
+danici			3
 darodavci	183		2
-darovnici	21		2
+darovnici	21		3
 dasci	544		2
 datoteci	299		2
 davaoci	854		4
-davljenici			2
+davljenici			3
 daščici	26		3
 daždevnjaci	44		2
 deci	25593		2
-dedici			2
+dedici			3
 degenerici	40		3
 delatnici	178		3
-delioci	62		2
+delioci	62		3
 deonici	3489		3
 deseci	72		2
-deseterci	16		2
-desetici	11		2
+deseterci	16		3
+desetici	11		3
 desetogodišnjaci	25		4
 desetorici	67		3
 desnici	580		3
-despotici	17		2
-detinjci			2
+despotici	17		3
+detinjci			3
 devetorici	58		3
 devici	305		3
 devojci	2672		2
 devojčici	1068		3
-devojčurci	14		2
+devojčurci	14		3
 dečaci	3941		2
-dečanci			2
-dečici	129		2
+dečanci			3
+dečici	129		3
 dešnjaci	37		2
-dijaci			2
+dijaci			3
 dijagnostici	1099		3
-dijalektici	112		2
+dijalektici	112		3
 dimnjaci	214		3
 dinamici	1670		3
-dinarci	74		2
-diplomci	2137		2
-direci			2
-direktorici			2
-diskoteci	932		2
-distanci	678		2
-diuretici	172		2
+dinarci	74		3
+diplomci	2137		3
+direci			3
+direktorici			3
+diskoteci	932		3
+distanci	678		3
+diuretici	172		3
 divljaci	419		2
 dizalici	37		4
 dlaci	149		2
 dnevnici	593		3
 dobaci	437		2
-dobanovci			2
+dobanovci			3
 dobici	339		2
 dobitnici	2476		4
-dobrici	120		2
-dobrodolci			2
+dobrici	120		3
+dobrodolci			3
 dobrodošlici	214		3
 dobrovoljci	1144		2
 doci			2
 dodaci	2061		2
-doglavnici			2
-dogmatici	41		2
+doglavnici			3
+dogmatici	41		3
 dohoci	134		3
 dojci	566		2
 dokolici	229		4
-dokonjaci			2
-doktorici			2
-dokumentarci	152		2
+dokonjaci			3
+doktorici			3
+dokumentarci	152		3
 dolasci	235		3
-dolaznici			2
+dolaznici			3
 domaćici	182		3
 domoroci	244		2
 domorodci	44		2
-donosioci			2
+donosioci			3
 dopisnici	571		4
 doručci			3
-dosadnici			2
+dosadnici			3
 doseljenici	922		3
-dosovci			2
-dostavnici	34		2
-dostojanstvenici	75		2
-dostojnici			2
-dotoci	21		2
+dosovci			3
+dostavnici	34		3
+dostojanstvenici	75		3
+dostojnici			3
+dotoci	21		3
 doušnici	173		4
-dovuci			2
+dovuci			3
 dočeci	61		3
 došljaci	381		2
-dragici			2
-dragovoljci	21		2
-draguljarnici			2
-drekavci	48		2
-drenici			2
-drhtavici			2
+dragici			3
+dragovoljci	21		3
+draguljarnici			3
+drekavci	48		3
+drenici			3
+drhtavici			3
 dripci	89		2
-drobnjaci			2
+drobnjaci			3
 dronjci	28		2
 drugarici	709		4
-družinici			2
+družinici			3
 drznici			3
 dršci	141		2
-držaoci			2
+držaoci			3
 državici	83		4
-državnici	918		2
-dubašnici			2
+državnici	918		3
+dubašnici			3
 duhovnici	269		2
-dukserici	25		2
-duplerici	18		2
-duvnjaci			2
-dušebrižnici	408		2
+dukserici	25		3
+duplerici	18		3
+duvnjaci			3
+dušebrižnici	408		3
 dušeci	368		3
-dužici	27		2
-dužnici	1322		2
+dužici	27		3
+dužnici	1322		3
 dužnosnici	238		4
-dvadesetpetogodišnjici			2
+dvadesetpetogodišnjici			3
 dvanaestorici	53		3
 dvojici	1562		3
 dvojnici	102		3
 dvorci	280		2
-dvoumici			2
+dvoumici			3
 džigerici	42		4
 džukci	34		2
 egzotici	25		3
-ekavci	16		2
+ekavci	16		3
 ekavici	60		4
-ekonomici	57		2
-elektrici	38		2
+ekonomici	57		3
+elektrici	38		3
 elektronici	428		3
 energetici	1983		3
-epici	172		2
+epici	172		3
 epikurejci	13		2
-erotici	77		2
-esejistici	36		2
-esesovci			2
+erotici	77		3
+esejistici	36		3
+esesovci			3
 estetici	636		3
-estonci			2
+estonci			3
 etici	796		3
-etnici			2
-etrurci			2
-evropejci			2
+etnici			3
+etrurci			3
+evropejci			3
 fabrici	9502		3
 fanatici	468		3
-fantastici	439		2
-federalci			2
-feudalci			2
-fijoci			2
-filipinci	28		2
+fantastici	439		3
+federalci			3
+feudalci			3
+fijoci			3
+filipinci	28		3
 finci			2
 fioci	624		2
-firentinci			2
+firentinci			3
 fizici	1163		3
-flamanci			2
-flašici			2
+flamanci			3
+flašici			3
 fonetici	29		3
-fonoteci	13		2
-forenzici	39		2
-franjevci	206		2
+fonoteci	13		3
+forenzici	39		3
+franjevci	206		3
 frci	223		2
 frendici			3
 fresci			2
-galilejci			2
+galilejci			3
 gazdarici	55		4
 gačci			2
 genetici	297		3
-genijalci	412		2
+genijalci	412		3
 gerilci	150		2
-gestapovci			2
+gestapovci			3
 gimnastici	271		3
-gimnazijalci	614		2
+gimnazijalci	614		3
 glagoljici	43		3
-glasnici	231		2
+glasnici	231		3
 glavici	208		3
 glavnici	82		3
 glavonošci			3
-gledaoci			2
+gledaoci			3
 glodavci			3
 glumci	7634		2
 glumici	529		3
@@ -408,100 +408,100 @@ glupaci	154		2
 glušci			2
 gmizavci	273		3
 gnjurci	40		2
-gnostici	26		2
+gnostici	26		3
 goci			2
-godišnjaci	153		2
+godišnjaci	153		3
 godišnjici	516		4
 golubici	27		3
-golubinci			2
-gomilici	19		2
-gonioci			2
-goranci			2
-gorici	231		2
+golubinci			3
+gomilici	19		3
+gonioci			3
+goranci			3
+gorici	231		3
 gorštaci	107		2
 gospodarici	37		3
 gospođici	178		4
-gospođinci			2
+gospođinci			3
 gostionici	185		3
 gotici	12		3
-govornici	1227		2
-grabežljivci			2
-grabljivci	74		2
+govornici	1227		3
+grabežljivci			3
+grabljivci	74		3
 gradonačelnici	960		4
-grafici	465		2
+grafici	465		3
 gramatici	314		3
 granici	9364		3
-graničnici	43		2
+graničnici	43		3
 grančici	35		3
-gračanici			2
-građevinci			2
+gračanici			3
+građevinci			3
 grbavci			3
-grbavici			2
+grbavici			3
 grci			2
-grdelici			2
-grejalici			2
+grdelici			3
+grejalici			3
 grešci	699		2
 grešnici	398		3
-grijalici			2
+grijalici			3
 grlici	32		3
 grobnici	723		3
 grofici	55		3
-gromovnici			2
-grotesci			2
+gromovnici			3
+grotesci			3
 groznici	294		3
 grudnjaci	114		3
-grujici			2
-grupici	99		2
-gruzijci			2
-gubavci	43		2
+grujici			3
+grupici	99		3
+gruzijci			3
+gubavci	43		3
 gubici	3532		3
 gubitnici	1303		4
-gumenjaci	11		2
+gumenjaci	11		3
 gusenici			4
-gušici			2
-gušterici	26		2
-gvatemalci			2
+gušici			3
+gušterici	26		3
+gvatemalci			3
 gđici	15		2
-hadžiluci			2
-hadžinici			2
-hajduci			2
-haljinici	172		2
-hapšenici			2
+hadžiluci			3
+hadžinici			3
+hajduci			3
+haljinici	172		3
+hapšenici			3
 harmonici	370		3
-havajci			2
+havajci			3
 heraldici	73		3
 hercegovci	235		4
 heretici	13		3
-heteroseksualci	181		2
-hidraulici	14		2
-hilandarci			2
+heteroseksualci	181		3
+hidraulici	14		3
+hilandarci			3
 hipici	112		3
-hipokoristici			2
+hipokoristici			3
 hipoteci	199		2
-hispanci			2
+hispanci			3
 hladnjaci	105		3
 hodnici	480		3
-hodočasnici	332		2
-hoklici			2
+hodočasnici	332		3
+hoklici			3
 homoseksualci	1544		2
-hranjenici			2
+hranjenici			3
 hronici	424		3
 hrčci	99		2
 huci			2
-humanitarci	133		2
+humanitarci	133		3
 humci	56		2
-hvalioci			2
-hvalisavci			2
-ibrici			2
+hvalioci			3
+hvalisavci			3
+ibrici			3
 iglici			3
-igranci	68		2
-igraonici	477		2
+igranci	68		3
+igraonici	477		3
 igračici	83		3
-igrici	562		2
+igrici	562		3
 ikavici	37		4
-ikonici	46		2
-ikonoborci			2
-ikonopisci	85		2
+ikonici	46		3
+ikonoborci			3
+ikonopisci	85		3
 ilegalci	142		2
 ilirci	34		2
 imaoci	193		4
@@ -509,234 +509,234 @@ imenici	77		4
 imenjaci	36		4
 indijanci	485		2
 indijci	404		2
-individualci	153		2
-industrijalci	198		2
+individualci	153		3
+industrijalci	198		3
 informatici			3
-instanci	1077		2
+instanci	1077		3
 intelektualci	3429		2
-internirci			2
-iranci			2
+internirci			3
+iranci			3
 irci	563		2
 iseci	84		3
 iseljenici	281		2
-isevci			2
-isečci	176		2
+isevci			3
+isečci	176		3
 iskaznici			4
 iskoraci	101		4
-iskušenici			2
-islednici	82		2
+iskušenici			3
+islednici	82		3
 ispeci	165		3
-ispisnici	18		2
-ispitanici	2157		2
+ispisnici	18		3
+ispitanici	2157		3
 isporuci	1492		4
-isposnici	172		2
-ispovedaonici	99		2
+isposnici	172		3
+ispovedaonici	99		3
 ispravci	181		3
 istomišljenici	684		5
-istorici			2
-istočnici	22		2
+istorici			3
+istočnici	22		3
 istočnjaci	49		4
-istražioci	126		2
+istražioci	126		3
 istuci	18		2
-ivanjici			2
-iverci			2
+ivanjici			3
+iverci			3
 ivici	6207		3
-ivičnjaci			2
-izabranici	3022		2
-izaslanici	486		2
+ivičnjaci			3
+izabranici	3022		3
+izaslanici	486		3
 izbaci	4788		2
-izbavioci			2
+izbavioci			3
 izbeglici	34		4
-izbornici	11		2
+izbornici	11		3
 izdaci	1450		2
 izdajici			4
 izdajnici	1727		3
-izdanci	407		2
-izgnanici			2
-izgrednici	168		2
+izdanci	407		3
+izgnanici			3
+izgrednici	168		3
 izlasci	583		3
-izlaznici			2
-izletnici	132		2
-izmaglici	197		2
-izostanci	108		2
+izlaznici			3
+izletnici	132		3
+izmaglici	197		3
+izostanci	108		3
 izraelci	620		2
 izreci	652		3
 izuzeci	1136		2
 izvanzemaljci	14		2
-izvestioci	111		2
-izvidnici	27		2
-izvornici	16		2
-izvoznici	1318		2
-izvršioci	1168		2
+izvestioci	111		3
+izvidnici	27		3
+izvornici	16		3
+izvoznici	1318		3
+izvršioci	1168		3
 izvuci	290		2
-jablanici			2
+jablanici			3
 jabuci	1192		3
 jadnici	634		3
 jaganjci	233		3
 jajnici	279		3
-jakobinci	65		2
+jakobinci	65		3
 jalovici			4
 jamici			3
-janici			2
+janici			3
 janjci	16		2
 japanci	1094		2
 jarci	102		2
-jasenici			2
+jasenici			3
 jastuci	850		3
-jastučnici			2
+jastučnici			3
 jataci	124		3
 jauci	129		3
 jazavci	83		3
 jeci	40		2
-jedeci			2
+jedeci			3
 jedinci	104		2
 jedinici	4537		3
-jednomišljenici			2
+jednomišljenici			3
 jedrenjaci	34		2
-jedrilici	111		2
+jedrilici	111		3
 jelci	36		2
-jeleci			2
-jelici	134		2
+jeleci			3
+jelici	134		3
 jelovnici	77		2
 jemci	45		2
-jeretici	397		2
+jeretici	397		3
 jezici	3108		3
 joci			2
-jordanci			2
-jovici			2
+jordanci			3
+jovici			3
 junaci	4527		2
 junici			3
-jurišnici	148		2
-juvelirnici			2
+jurišnici	148		3
+juvelirnici			3
 južnjaci	120		3
-južnoafrikanci	18		2
+južnoafrikanci	18		3
 kabanici	28		3
 kadionici	11		5
-kafanici	100		2
+kafanici	100		3
 kajkavci	37		3
-kalpaci			2
-kaluđerici	142		2
+kalpaci			3
+kaluđerici	142		3
 kamenci	65		2
 kamenici	1591		4
-kamičci			2
+kamičci			3
 kanarinci	108		2
-kanonici			2
+kanonici			3
 kapci	409		2
 kapelici	47		3
-kapetanici			2
-kapitalci	46		2
+kapetanici			3
+kapitalci	46		3
 kapljici	54		3
 kaprici	12		3
 karici	45		3
 karlici	246		3
-karlovci			2
+karlovci			3
 kartici	2360		3
-kartoteci	60		2
-kasapnici			2
-katafalci			2
+kartoteci	60		3
+kasapnici			3
+katafalci			3
 katanci	117		3
-katarci	14		2
-katici			2
+katarci	14		3
+katici			3
 katolici	2048		4
-kaubojci			2
-kavadarci			2
+kaubojci			3
+kavadarci			3
 kazaljci			2
-kaznionici	18		2
-kašici	60		2
+kaznionici	18		3
+kašici	60		3
 kašičici	57		4
 kažnjenici	37		4
 kepeci	25		3
 keramici	215		3
-kesici	209		2
+kesici	209		3
 kibernetici			3
-kibuci	19		2
-kijavci			2
-kijavici	16		2
-kinetici			2
-kinoteci	218		2
-kiosci	281		2
+kibuci	19		3
+kijavci			3
+kijavici	16		3
+kinetici			3
+kinoteci	218		3
+kiosci	281		3
 kitolovci			2
-kičmenjaci			2
+kičmenjaci			3
 kišnici	36		3
-klackalici	197		2
-kladenci			2
-kladionici	478		2
+klackalici	197		3
+kladenci			3
+kladionici	478		3
 klanci	24		2
-klanici	214		2
+klanici	214		3
 klaonici	12		3
 klasici	474		3
 klepci			2
-klerikalci	43		2
-klevetnici	58		2
+klerikalci	43		3
+klevetnici	58		3
 klici	81		2
-klijentici			2
+klijentici			3
 klinci			2
-klinici	3782		2
-klizavici	16		2
-ključaonici			2
+klinici	3782		3
+klizavici	16		3
+ključaonici			3
 klobuci	22		2
 klopci	121		2
-klupici	118		2
-kneginjici			2
+klupici	118		3
+kneginjici			3
 književnici	1256		3
 knjižici	662		3
 kobasici	35		3
 kobilici	11		4
 koci	114		2
 kockarnici	71		3
-kokošinjci	23		2
+kokošinjci	23		3
 kolci	10		2
-kolebljivci	13		2
-koleginici	582		2
+kolebljivci	13		3
+koleginici	582		3
 kolevci	539		2
-kolibici	26		2
+kolibici	26		3
 koloseci	70		4
-kolumbijci			2
-komadici			2
+kolumbijci			3
+komadici			3
 komarci	826		2
-komarici			2
-komici	19		2
-komunalci	407		2
+komarici			3
+komici	19		3
+komunalci	407		3
 komšinici	174		4
 konaci	503		3
 konci	323		2
-konfederalci			2
+konfederalci			3
 konjaci			3
 konjanici	347		4
 konjici	140		3
-konjušnici	35		2
+konjušnici	35		3
 konobarici	44		3
 konopci	89		3
-konzervativci	677		2
-kopirnici			2
-kopljanici			2
-koprivnici			2
+konzervativci	677		3
+kopirnici			3
+kopljanici			3
+koprivnici			3
 koraci	4616		3
-koraćici			2
-koreanci			2
-korejanci			2
-korejci			2
-korenici			2
-korici	106		2
-korisnici	29408		2
-korpici	27		2
-korzici			2
-korzikanci			2
-kosanici			2
+koraćici			3
+koreanci			3
+korejanci			3
+korejci			3
+korenici			3
+korici	106		3
+korisnici	29408		3
+korpici	27		3
+korzici			3
+korzikanci			3
+kosanici			3
 kosci	43		2
-kosici			2
-kosilici			2
-kosovci			2
-kostajnici			2
+kosici			3
+kosilici			3
+kosovci			3
+kostajnici			3
 kosturnici	80		3
-kotarici	31		2
+kotarici	31		3
 kotlarnici	134		3
 kotlovnici			3
 kovanici	54		3
-kovačici			2
+kovačici			3
 kovačnici	59		3
 kovitlaci			3
-kovnici			2
+kovnici			3
 kozaci	279		2
 kozici			3
 kozmetici	495		3
@@ -749,444 +749,444 @@ koščici			3
 kožici	58		3
 kraci	208		2
 kradljivci	435		3
-krajišnici			2
+krajišnici			3
 krajnici	210		3
 krajolici	54		4
-kraljevici			2
+kraljevici			3
 kralježnjaci			4
 kraljici	669		3
-krasnici			2
+krasnici			3
 krastavci	383		3
-kravici	199		2
+kravici	199		3
 krelci			2
-krečnjaci	115		2
+krečnjaci	115		3
 krici	336		2
 krilatici	58		3
 kriminalci	3989		2
-kritici	2145		2
+kritici	2145		3
 krivci	2716		2
 krivici	1137		2
-krivolovci	40		2
-krojačnici	11		2
+krivolovci	40		3
+krojačnici	11		3
 krstarici	61		4
 krstionici	31		4
 krtici	20		3
 krtičnjaci			4
 krunici	17		3
-kruščici			2
+kruščici			3
 kružnici	49		3
 kružoci	56		3
 krvnici	153		3
 krštenici	68		4
-kubanci			2
-kudioci			2
-kuglici	11		2
-kukavci			2
+kubanci			3
+kudioci			3
+kuglici	11		3
+kukavci			3
 kukavici	33		4
 kukci	16		2
-kukuljici			2
-kulaci			2
-kuluci			2
+kukuljici			3
+kulaci			3
+kuluci			3
 kumici			3
 kupci	10047		2
-kupinjaci			2
+kupinjaci			3
 kurjaci	83		3
-kusturici			2
+kusturici			3
 kutijici	121		4
-kutnjaci	63		2
-kuvarici	34		2
+kutnjaci	63		3
+kuvarici	34		3
 kućanici			4
-kućerci	21		2
+kućerci	21		3
 kućevlasnici	19		3
 kućici	566		3
 kćerci	71		2
 ladici	67		3
 laici	472		3
 lanci	1878		2
-laponci			2
-laskavci	24		2
+laponci			3
+laskavci	24		3
 lastavici	14		4
 latici	11		3
-latinci			2
+latinci			3
 latinici	1326		3
-latinoamerikanci	20		2
-lazarici			2
-lađevci			2
-lađici	15		2
+latinoamerikanci	20		3
+lazarici			3
+lađevci			3
+lađici	15		3
 lažljivci	74		3
-lažnjaci	46		2
+lažnjaci	46		3
 leci	525		2
 ledenici			3
 ledenjaci	22		2
-lednici	53		2
+lednici	53		3
 ledolomci	95		2
-leksici	36		2
-lenjivci	121		2
+leksici	36		3
+lenjivci	121		3
 lepotici	224		3
 lestvici	1167		3
 letci	45		2
 letelici	311		4
-letilici			2
-letonci			2
+letilici			3
+letonci			3
 letopisci	50		2
 levaci	57		2
 levci			2
 levici	598		3
 lešnici	272		3
 ležaljci	101		2
-libijci			2
+libijci			3
 licenci	2595		2
 limenci	126		2
-lingvistici	219		2
-lirici	200		2
+lingvistici	219		3
+lirici	200		3
 lisici	110		3
 lisnici			3
 litici	278		3
-litvanci			2
-livadici			2
-livnici			2
+litvanci			3
+livadici			3
+livnici			3
 lješnjaci		J	3
-ljigavci	60		2
-ljotićevci			2
+ljigavci	60		3
+ljotićevci			3
 ljubavnici	921		3
 ljubici	121		3
 ljubimci	1397		2
-ljubimici	48		2
+ljubimici	48		3
 ljuljašci	113		2
 ljusci	263		2
-ljutici			2
+ljutici			3
 loci			2
-logici	3451		2
-logistici	291		2
-logornici			2
-lokalci	249		2
+logici	3451		3
+logistici	291		3
+logornici			3
+lokalci	249		3
 lonci	250		2
 lopatici	18		4
 loptici	46		3
 lovci	2353		2
 lozinci	12		2
-lođici			2
+lođici			3
 ložnici	38		3
 lubenici	45		3
 luci	2894		2
-ludaci			2
+ludaci			3
 ludnici	238		3
-lukavici	87		2
+lukavici	87		3
 lutalici	23		4
 lutkici			3
 luđaci	25		2
 maci	165		2
 madraci	45		3
 magarci	382		3
-maglenci			2
+maglenci			3
 maglici	14		3
 majci	6232		2
-majevici			2
+majevici			3
 majici	1071		3
-majčici	104		2
+majčici	104		3
 makedonci	324		2
 malci			2
 maloletnici	674		5
 maloumnici	60		5
 mamci	180		2
-mameluci			2
+mameluci			3
 mamici	20		3
-manihejci	16		2
+manihejci	16		3
 manijaci	272		4
 manjci			2
 maramici	67		4
-maratonci	395		2
-marginalci	155		2
-marici			2
-marinci	272		2
-markici	39		2
-marokanci			2
-marsovci			2
-martinci			2
-mastionici			2
-matematici	1216		2
+maratonci	395		3
+marginalci	155		3
+marici			3
+marinci	272		3
+markici	39		3
+marokanci			3
+marsovci			3
+martinci			3
+mastionici			3
+matematici	1216		3
 materici	587		4
 maternici	16		4
 matici	1508		3
-matorci	289		2
+matorci	289		3
 matrici	638		2
 mačevaoci	34		4
 mačkici	32		3
 meci	342		2
-medenici			2
+medenici			3
 medenjaci	74		2
 mehanici	306		3
-meksikanci			2
+meksikanci			3
 mekušci	79		2
-melodici	13		2
+melodici	13		3
 menici	187		3
 menjačnici	141		3
-mesarnici			2
+mesarnici			3
 meseci	86721		3
 metafizici	163		3
-metaforici			2
+metaforici			3
 metalci	196		2
-metapodaci			2
+metapodaci			3
 metci	25		2
 metrici	31		3
-mezimci	52		2
+mezimci	52		3
 međici	26		3
 mešalici	40		4
 mešanci	93		2
 mici		M	2
-milici			2
-milićevci			2
+milici			3
+milićevci			3
 miljenici	422		4
-milosnici			2
-mionici			2
-mironosci			2
+milosnici			3
+mionici			3
+mironosci			3
 mirotvorci	163		2
 mirovnjaci	123		2
 mislioci	730		4
-mistici	153		2
+mistici	153		3
 mišici	64		3
 mišolovci	50		4
 mladenci	938		3
-mladici	42		2
-mladoturci			2
-mladunci	436		2
-mlaznjaci	28		2
+mladici	42		3
+mladoturci			3
+mladunci	436		3
+mlaznjaci	28		3
 mlaćenici			3
 mleci			2
 modrici			3
-moldavci			2
-molioci			2
-molitvenici	62		2
+moldavci			3
+molioci			3
+molitvenici	62		3
 moljci	143		2
 momci	10464		2
-moravci			2
-moravici			2
+moravci			3
+moravici			3
 moreplovci	198		2
-morlaci			2
+morlaci			3
 mornarici	285		3
-mostarci			2
+mostarci			3
 motici	24		3
 mozaici	293		3
 moćnici	1050		3
-močvarici			2
+močvarici			3
 mravci			2
-mravinjaci	11		2
-mračnjaci	42		2
+mravinjaci	11		3
+mračnjaci	42		3
 mrtvaci	185		3
 mrtvačnici	144		3
 mrvici	20		3
 muci	1225		2
 mudraci	628		3
-murjaci			2
+murjaci			3
 muzici	6551		3
 mučenici	1357		4
 muškarci	23274		2
-muštuluci			2
-mužici			2
+muštuluci			3
+mužici			3
 mužjaci	1195		3
 nabaci	284		2
 nabavci	2434		2
-nadbaci			2
+nadbaci			3
 nadglednici			4
-nadhodnici			2
+nadhodnici			3
 nadimci	194		3
 nadlaktici	70		4
-nadlanici	31		2
+nadlanici	31		3
 nadnici	34		3
-nadražljivci			2
-nadvratnici			2
-nadzornici	177		2
-nadžaci			2
+nadražljivci			3
+nadvratnici			3
+nadzornici	177		3
+nadžaci			3
 naglasci	34		3
-nailasci			2
+nailasci			3
 naivci	102		2
 najamnici	213		4
-najmodavci			2
-nakupci			2
-nalepnici	187		2
-namernici	108		2
-namesnici	172		2
-nameštaljci	29		2
-naočnjaci			2
-napasnici	37		2
+najmodavci			3
+nakupci			3
+nalepnici	187		3
+namernici	108		3
+namesnici	172		3
+nameštaljci	29		3
+naočnjaci			3
+napasnici	37		3
 napici	743		3
 napojnici			3
-napolitanci			2
+napolitanci			3
 napreci	28		3
 naprednjaci	4399		2
-naprsnici			2
-naramci			2
+naprsnici			3
+naramci			3
 narednici	15		4
-naresci	28		2
+naresci	28		3
 narkotici	232		3
-narodnjaci	620		2
+narodnjaci	620		3
 narukvici	48		4
-naručioci	447		2
-naseljenici			2
-nasilnici	720		2
+naručioci	447		3
+naseljenici			3
+nasilnici	720		3
 naslednici	2702		4
 nasljednici		J	4
-naslovnici	312		2
+naslovnici	312		3
 nastavci	477		3
-nastavici			2
+nastavici			3
 nastavnici	7924		3
-natprozornici			2
+natprozornici			3
 natuknici			4
-nauci	6760		2
-naučenjaci			2
-naučnici	21745		2
-naučnjaci			2
+nauci	6760		3
+naučenjaci			3
+naučnici	21745		3
+naučnjaci			3
 navici	811		3
 navijačici			3
 navodnici	147		4
-navuci	54		2
-nazadnjaci	88		2
-načelnici	785		2
-našijenci			2
-nealbanci	85		2
-neandertalci	123		2
-nedeljnici	78		2
+navuci	54		3
+nazadnjaci	88		3
+načelnici	785		3
+našijenci			3
+nealbanci	85		3
+neandertalci	123		3
+nedeljnici	78		3
 nedostaci	2182		2
 nedoumici	1104		4
 negativci	267		2
-neistomišljenici	225		2
-nemaci			2
+neistomišljenici	225		3
+nemaci			3
 nemci	4157		2
-nemici			2
-nepalci			2
+nemici			3
+nepalci			3
 neprilici	233		3
-neradnici	612		2
+neradnici	612		3
 nesanici	71		4
-nesrećnici	281		2
+nesrećnici	281		3
 nestanci	93		3
 nestašici	186		4
-nestašluci			2
+nestašluci			3
 nesvestici	11		4
 neurotici			2
-nevaljalci	41		2
+nevaljalci	41		3
 neverici	643		4
 nevernici	244		3
-nevoljnici	61		2
+nevoljnici	61		3
 nezahvalnici	27		5
 neznabošci	614		2
 neznalici	11		4
 neznanci	38		2
 nećaci	17		3
-nigerijci			2
-nimfici			2
+nigerijci			3
+nimfici			3
 nisci			2
-nizbrdici	251		2
+nizbrdici	251		3
 njušci	102		2
 nobelovci	143		4
 noci			2
 nogavici	21		4
-normalci			2
+normalci			3
 nosiljci	68		2
-nosioci			2
-nosnici			2
+nosioci			3
+nosnici			3
 novaci	39		3
 novci	1511		2
-novici			2
+novici			3
 novčanici	365		3
 nožici	35		3
 nužnici	26		3
-obadvojici			2
+obadvojici			3
 obaveštajci	308		2
 obelisci	27		3
-obešenjaci			2
-obilasci	307		2
-obilaznici	394		2
+obešenjaci			3
+obilasci	307		3
+obilaznici	394		3
 oblaci	2499		3
-oblačci			2
-oblici	6838		2
+oblačci			3
+oblici	6838		3
 obljetnici	31	J	4
-obluci	30		2
-oboci			2
-obojci			2
+obluci	30		3
+oboci			3
+obojci			3
 obojici	634		3
 obožavaoci	783		4
 obrasci	1508		3
-obraćenici	12		2
+obraćenici	12		3
 obroci	1314		3
 obronci	130		3
 obveznici	2644		4
 odbaci	1992		2
 odbici	34		2
-odblesci	34		2
-odbljesci			2
+odblesci	34		3
+odbljesci			3
 odbojci	1435		2
 odbojnici	54		3
-odbornici	6828		2
+odbornici	6828		3
 odeljci	191		3
 odlasci	592		3
 odlici	29		3
 odlomci	444		3
 odluci	8908		3
-odmetnici	151		2
+odmetnici	151		3
 odreci	163		3
 odrednici	144		4
 odresci	62		3
-odrpanci			2
+odrpanci			3
 odseci	227		3
-odstupnici			2
+odstupnici			3
 odvuci	21		2
-odzvuci			2
-odžaci			2
+odzvuci			3
+odžaci			3
 ogranci	419		3
 ogrlici	76		4
-oklopnici			2
-oklopnjaci			2
-okolici	245		2
-okovratnici			2
-okrajci	24		2
-okretnici	160		2
-okružnici			2
+oklopnici			3
+oklopnjaci			3
+okolici	245		3
+okovratnici			3
+okrajci	24		3
+okretnici	160		3
+okružnici			3
 okuci	44		3
-okućnici	66		2
+okućnici	66		3
 olakšici			4
-olimpijci	315		2
+olimpijci	315		3
 olovci	136		2
 oluci	220		3
 omašci	32		3
-omladinci			2
+omladinci			3
 opanci	429		3
 opasci	54		3
-opasnici			2
+opasnici			3
 opeci	49		3
-operativci	524		2
-opiljci	74		2
+operativci	524		3
+opiljci	74		3
 oporuci	37		4
 opreci	90		3
-opseci			2
+opseci			3
 optici	206		3
-optuženici	246		2
+optuženici	246		3
 optužnici	2044		4
 opušci	51		3
 oranici	44		3
 ortaci	470		2
-oružarnici			2
-osamici			2
+oružarnici			3
+osamici			3
 oseci	12		3
-osiguranici	620		2
+osiguranici	620		3
 oskudici	306		4
 oslobodioci	407		4
 oslonci	161		3
-osmaci			2
-osmatračnici	33		2
+osmaci			3
+osmatračnici	33		3
 osmerci	15		2
 osmici	104		3
 osmorici	75		3
-osnovci	1377		2
-osnovici	188		2
-osobenjaci	26		2
+osnovci	1377		3
+osnovici	188		3
+osobenjaci	26		3
 ostaci	7663		2
 ostatci	164		2
 ostavci	793		2
-ostavioci			2
-ostružnici			2
-osumnjičenici			2
-osuđenici	469		2
-osvetnici	185		2
+ostavioci			3
+ostružnici			3
+osumnjičenici			3
+osuđenici	469		3
+osvetnici	185		3
 otisci	650		3
 otmici	216		3
 otoci	372		3
@@ -1194,124 +1194,124 @@ otpaci	297		3
 otpadnici	153		4
 otpornici	106		3
 otpravnici	40		3
-otpremnici	39		2
+otpremnici	39		3
 ovci	211		2
 oznaci	326		3
-očajnici	74		2
+očajnici	74		3
 očevici	908		2
 očevidci	72		2
-očnjaci	102		2
+očnjaci	102		3
 oštrici	94		3
 ožiljci	799		3
-padalici			2
+padalici			3
 padavici			4
 padobranci	195		2
-pajaci			2
-pakistanci			2
-paklici	194		2
-pakosnici	26		2
+pajaci			3
+pakistanci			3
+paklici	194		3
+pakosnici	26		3
 palanci	2554		2
-palačinci			2
-palačinkarnici			2
+palačinci			3
+palačinkarnici			3
 palci	27		2
-palestinci			2
+palestinci			3
 palici	40		3
 panici	1264		3
-panonci			2
-pančevci			2
-paparaci	363		2
+panonci			3
+pančevci			3
+paparaci	363		3
 papci	122		2
-paprenjaci			2
+paprenjaci			3
 paprici	125		3
-papučici	40		2
-paragvajci			2
-paravojsci			2
-parlamentarci	771		2
-parnici	700		2
-parnjaci	30		2
-partijci	46		2
-partnerici			2
-pastorci			2
+papučici	40		3
+paragvajci			3
+paravojsci			3
+parlamentarci	771		3
+parnici	700		3
+parnjaci	30		3
+partijci	46		3
+partnerici			3
+pastorci			3
 patetici	50		3
-patici			2
-patrljci	27		2
+patici			3
+patrljci	27		3
 patuljci	674		2
 pauci	233		3
-pavlici			2
-pavlovci			2
-paćenici	30		2
-pašaluci			2
-pašinici			2
-pašićevci			2
-pašnjaci	537		2
+pavlici			3
+pavlovci			3
+paćenici	30		3
+pašaluci			3
+pašinici			3
+pašićevci			3
+pašnjaci	537		3
 peci	212		2
-pedagogici			2
-peharnici			2
+pedagogici			3
+peharnici			3
 pekarnici			3
 pendreci	43		3
 pereci			2
 perici	64		3
-periodici	367		2
-perionici	83		2
+periodici	367		3
+perionici	83		3
 perjanici	46		4
-persijanci			2
+persijanci			3
 perunici			3
-perverznjaci	59		2
-perzijanci			2
-pesmarici	19		2
-pesmici	41		2
+perverznjaci	59		3
+perzijanci			3
+pesmarici	19		3
+pesmici	41		3
 pesnici	2475		3
-petaci			2
+petaci			3
 petici	114		3
-petogodišnjaci	16		2
-petorci	197		2
+petogodišnjaci	16		3
+petorci	197		3
 petorici	218		3
-petrolejci			2
-petrovci			2
+petrolejci			3
+petrovci			3
 pevačici	694		3
 pevci	82		2
-pećinci			2
-pećnici	361		2
-pečenici			2
+pećinci			3
+pećnici	361		3
+pečenici			3
 pečurci	12		2
 pešaci	1119		2
-pešadinci	31		2
+pešadinci	31		3
 peščanici	12		2
-pijaci			2
+pijaci			3
 pijanci	105		2
 pijanici	14		4
 pijavici			4
-pijuci	20		2
-piljarnici			2
-pinakoteci			2
+pijuci	20		3
+piljarnici			3
+pinakoteci			3
 pipci	146		2
-piroćanci			2
-pisarnici	578		2
+piroćanci			3
+pisarnici	578		3
 pisci	5806		2
-pismenici			2
+pismenici			3
 pitomci	257		2
 pivnici	166		3
-plamenici			2
+plamenici			3
 plamičci	22		2
-planinci			2
+planinci			3
 plastenici	190		2
 plastici	365		3
 plavci	268		2
 plaćenici	973		4
-plačljivci			2
-plašljivci	22		2
+plačljivci			3
+plašljivci	22		3
 plebejci	21		2
-plemenici			2
+plemenici			3
 plesačici	16		3
-plikavci			2
+plikavci			3
 pljačci	11		2
 plovci	46		2
 pločici	295		3
 pločnici	64		3
-pneumatici	565		2
+pneumatici	565		3
 pobaci	27		2
-pobedioci	28		2
-pobednici	4715		2
+pobedioci	28		3
+pobednici	4715		3
 pobornici	701		3
 pobunjenici	2132		2
 poci			2
@@ -1319,323 +1319,323 @@ podaci	45216		2
 podanici	729		4
 podatci	338		2
 podbaci	100		2
-podbelešci			2
+podbelešci			3
 podlaci	45		3
-podlaktici	117		2
-podložnici	12		2
+podlaktici	117		3
+podložnici	12		3
 podmornici	154		3
-podnesci	198		2
-podnevci			2
+podnesci	198		3
+podnevci			3
 podnosioci	1922		4
-podočnjaci	249		2
+podočnjaci	249		3
 podružnici	116		4
 podršci	7131		3
-podseci			2
+podseci			3
 podsetnici	77		4
-podstanici	113		2
+podstanici	113		3
 podstreci			3
-podvižnici	187		2
-podvodačici			2
-podvuci	28		2
+podvižnici	187		3
+podvodačici			3
+podvuci	28		3
 poetici	385		3
 poglavici	29		4
-poglavnici			2
-pogrebnici	19		2
+poglavnici			3
+pogrebnici	19		3
 pogrešci	17		3
-pohotljivci			2
+pohotljivci			3
 pojci			2
 pojedinci	11326		2
-pokajnici	64		2
-poklici	29		2
-poklonici	725		2
+pokajnici	64		3
+poklici	29		3
+poklonici	725		3
 poklopci	329		3
-pokojnici	246		2
-pokrovci			2
+pokojnici	246		3
+pokrovci			3
 pokvarenjaci	71		2
 polasci	621		3
-polaznici	6700		2
-poledici	74		2
-polemici	568		2
+polaznici	6700		3
+poledici	74		3
+polemici	568		3
 policajci	6699		2
 polici	851		3
-politehnici	42		2
+politehnici	42		3
 politici	26628		3
-poljaci			2
-poljanici			2
-poljodelci			2
-poljoprivrednici	6282		2
-poljubci			2
+poljaci			3
+poljanici			3
+poljodelci			3
+poljoprivrednici	6282		3
+poljubci			3
 poljupci	535		3
-polovci			2
+polovci			3
 polovici	225		3
-polovnjaci	110		2
+polovnjaci	110		3
 polumeseci			5
-polusenci			2
+polusenci			3
 pomaci	809		3
-pomazanici			2
-pomenici			2
+pomazanici			3
+pomenici			3
 pomorci	173		3
 pomoćnici	1315		3
-ponornici			2
+ponornici			3
 popci			2
-popinci			2
+popinci			3
 popravci	478		3
 poreci	50		3
 poreznici	497		4
 poroci	234		3
 porodici	24504		4
 porotnici	136		4
-portirnici	112		2
-portorikanci			2
+portirnici	112		3
+portorikanci			3
 portugalci	317		2
 poruci	2452		3
 poručnici	32		4
 poseci	29		3
-posednici	132		2
+posednici	132		3
 posetioci	13297		4
 posetnici			4
-poskoci	29		2
-poslanci			2
+poskoci	29		3
+poslanci			3
 poslanici	30288		4
-poslastičarnici	194		2
+poslastičarnici	194		3
 posledici	197		4
-poslenici	670		2
+poslenici	670		3
 posljedici		J	4
 poslodavci	6651		2
-poslovici	175		2
-poslovnici	255		2
-poslušnici	551		2
+poslovici	175		3
+poslovnici	255		3
+poslušnici	551		3
 poslužavnici	29		3
-poslužioci			2
+poslužioci			3
 posrednici	1050		4
 postavci	1321		2
-postdiplomci	128		2
-postnici			2
+postdiplomci	128		3
+postnici			3
 postupci	5412		3
-potajnici			2
-poteci	31		2
+potajnici			3
+poteci	31		3
 poternici	447		3
-potisnici			2
+potisnici			3
 potkovici	25		4
 potoci	575		3
 potomci	3782		3
 potpetici			4
 potpisnici	1206		4
 potpredsednici	1007		4
-potuci	10		2
+potuci	10		3
 pouci	106		3
-poverenici	407		2
-poverioci	1632		2
+poverenici	407		3
+poverioci	1632		3
 povetarci			2
-povici	304		2
-povišici	43		2
-povodnici			2
+povici	304		3
+povišici	43		3
+povodnici			3
 povorci	498		2
 povratnici	818		4
-povrtnjaci	20		2
+povrtnjaci	20		3
 povuci	329		2
-pozajmici	782		2
-pozitivci	41		2
+pozajmici	782		3
+pozitivci	41		3
 pozivnici	96		3
 poznanici	981		4
-poznavaoci			2
+poznavaoci			3
 pozornici	2291		3
-počeci	1061		2
+počeci	1061		3
 početnici	1025		4
-počinioci	1986		2
-pošalici			2
-pošiljaoci	61		2
-pošiljci	195		2
-poštovaoci			2
-požarnici			2
+počinioci	1986		3
+pošalici			3
+pošiljaoci	61		3
+pošiljci	195		3
+poštovaoci			3
+požarnici			3
 praoci	70		2
 praonici			3
-praporci	52		2
+praporci	52		3
 prasci	30		2
 pratioci	663		4
 praunuci	165		4
 pravci	1904		2
-pravednici	393		2
-pravici			2
+pravednici	393		3
+pravici			3
 pravilnici	689		3
 pravnici	2540		3
 pravoslavci	1133		2
 praznici	2332		3
 praznoglavci	26		3
 prebaci	3467		2
-prebilovci			2
+prebilovci			3
 preci	4473		2
-predaci			2
-predajnici	172		2
+predaci			3
+predajnici	172		3
 predbaci			2
-predionici			2
-predlošci	90		2
+predionici			3
+predlošci	90		3
 predsednici	6122		4
-predstavci	218		2
+predstavci	218		3
 predstavnici	56519		3
-preduzetnici	4011		2
+preduzetnici	4011		3
 predvodnici	404		4
 predznaci	74		3
-predškolci	433		2
-pregaoci			2
+predškolci	433		3
+pregaoci			3
 prekretnici	474		4
-prekršioci	121		2
-prekupci	34		2
+prekršioci	121		3
+prekupci	34		3
 prelasci	102		3
-preljubnici	141		2
-prenosioci			2
+preljubnici	141		3
+prenosioci			3
 prenosnici	132		4
-preobraćenici			2
-preobuci			2
+preobraćenici			3
+preobuci			3
 prepirci	61		2
-prepisci	474		2
+prepisci	474		3
 preporuci	2234		4
-prepravci	22		2
+prepravci	22		3
 prepreci	103		3
 preseci	164		3
-presici			2
-preskoci	31		2
+presici			3
+preskoci	31		3
 preslici	20		3
 prestonici	5130		3
 prestupnici	164		4
 presvuci	20		2
 pretci	189		2
-preteci	25		2
+preteci	25		3
 prethodnici	1423		4
 pretorijanci	81		2
 pretplatnici	340		4
 pretpostavci	861		4
 pretuci			2
-prevlaci	316		2
-prevodioci			2
-prevoznici	790		2
-prevuci	21		2
-prežici			2
+prevlaci	316		3
+prevodioci			3
+prevoznici	790		3
+prevuci	21		3
+prežici			3
 prici			2
 pridošlici			4
-prigrevici			2
-prigušnici			2
+prigrevici			3
+prigušnici			3
 prijateljici	526		3
-prijavnici	86		2
+prijavnici	86		3
 prijemnici	246		3
-priključci	530		2
-prikolici	299		2
+priključci	530		3
+prikolici	299		3
 prilici	14685		3
-priložnici	68		2
-primaoci			2
+priložnici	68		3
+primaoci			3
 primerci	1990		3
-primitivci	314		2
-primorci	84		2
+primitivci	314		3
+primorci	84		3
 pripadnici	17470		4
-pripeci	22		2
-pripoveci			2
-pripravnici	329		2
-prirodnjaci			2
+pripeci	22		3
+pripoveci			3
+pripravnici	329		3
+prirodnjaci			3
 priručnici	493		4
-prisutnici			2
-priteci	12		2
+prisutnici			3
+priteci	12		3
 pritisci	2330		3
-pritoci	65		2
-pritvorenici	196		2
-privatnici	1342		2
+pritoci	65		3
+pritvorenici	196		3
+privatnici	1342		3
 privesci	227		3
 privuci	84		2
-priznaci			2
-priznanici	46		2
-prizraci			2
-pričaonici	26		2
-pričasnici	65		2
-pričesnici			2
+priznaci			3
+priznanici	46		3
+prizraci			3
+pričaonici	26		3
+pričasnici	65		3
+pričesnici			3
 pričici	29		3
 prljavci			3
-proalbanci			2
-probljesci			2
-probojci			2
+proalbanci			3
+probljesci			3
+probojci			3
 prodavačici	72		3
-prodavci	4041		2
+prodavci	4041		3
 prodavnici	4812		3
-produžeci	139		2
+produžeci	139		3
 profesionalci	3881		2
-profesorici			2
+profesorici			3
 prognanici	100		4
-prohodnici			2
-prokletnici	91		2
+prohodnici			3
+prokletnici	91		3
 prolaznici	1260		4
 pronalasci	298		3
-propalici			2
+propalici			3
 proplanci	81		3
 propovednici	201		2
-propusnici	10		2
+propusnici	10		3
 proreci	13		3
 proroci	918		3
-proročici	13		2
+proročici	13		3
 prosci	76		2
-proseci	71		2
-prosioci	25		2
+proseci	71		3
+prosioci	25		3
 prosjaci	335		3
 prostaci	118		2
-prostirci	81		2
-protetici	42		2
+prostirci	81		3
+protetici	42		3
 protivnici	5802		3
-proučavaoci			2
+proučavaoci			3
 provalnici	179		3
-provincijalci	72		2
-provodnici	250		2
-provuci	23		2
-prozivci	891		2
-prsluci	151		2
-pružaoci	267		2
+provincijalci	72		3
+provodnici	250		3
+provuci	23		3
+prozivci	891		3
+prsluci	151		3
+pružaoci	267		3
 prvaci	2833		2
 prvenci	35		3
-prvoborci	143		2
-prvosveštenici	150		2
-prvotimci	522		2
-pržionici			2
+prvoborci	143		3
+prvosveštenici	150		3
+prvotimci	522		3
+pržionici			3
 ptici	374		2
 ptičici	18		3
 publici	12351		3
 pudlici	12		3
-pukovnici	125		2
+pukovnici	125		3
 punci			2
 punici			3
-punioci			2
+punioci			3
 punoglavci	96		3
-pupavci			2
+pupavci			3
 pupoljci	346		3
-purenjaci			2
-purici			2
-puritanci	70		2
+purenjaci			3
+purici			3
+puritanci	70		3
 pustinjaci	116		4
 putnici	5751		3
 putopisci	137		2
-puzavci			2
+puzavci			3
 pušci	177		2
 pčelici	41		3
 pčelinjaci	66		4
 pšenici	424		3
-rabotnici			2
-radenici			2
-radikalci			2
+rabotnici			3
+radenici			3
+radikalci			3
 radionici	3864		3
 radnici	34940		3
-radnjici	25		2
-radojici			2
-radoznalci	52		2
+radnjici	25		3
+radojici			3
+radoznalci	52		3
 ranjenici	397		4
-ranoranioci			2
-rasadnici	132		2
-rasipnici	77		2
-raskolnici	68		2
-raskoraci			2
+ranoranioci			3
+rasadnici	132		3
+rasipnici	77		3
+raskolnici	68		3
+raskoraci			3
 raskrsnici	2504		4
-raspravici			2
-raspusnici			2
+raspravici			3
+raspusnici			3
 rastanci	96		3
-rastavici			2
+rastavici			3
 ratnici	1355		3
-ravanici			2
+ravanici			3
 ravnici	946		2
-ravnogorci	147		2
+ravnogorci	147		3
 razbojnici	846		4
 razglednici	150		4
 razlici	1362		3
@@ -1643,21 +1643,21 @@ razlomci	37		3
 razmaci	137		3
 razmirici			4
 razvratnici	26		4
-razvuci	20		2
-računici	1055		2
-rađaonici			2
-realci			2
+razvuci	20		3
+računici	1055		3
+rađaonici			3
+realci			3
 reci	19382		2
-redenici			2
+redenici			3
 redovnici	57		3
-referenci	1011		2
-rekavici			2
+referenci	1011		3
+rekavici			3
 replici	199		3
 republici	22168		3
 republikanci	900		2
 retorici	600		3
 rezanci	145		2
-rezonanci	213		2
+rezonanci	213		3
 rečenici	2792		3
 rečici	139		3
 rečnici	379		3
@@ -1667,16 +1667,16 @@ ribnjaci	143		3
 ribolovci	821		2
 rici	36		2
 rimokatolici	382		4
-ritmici	21		2
+ritmici	21		3
 rizici	2748		3
 riznici	502		3
 robotici	143		3
 robovlasnici	159		3
-rodici			2
-rodoljupci			2
-rogatici			2
-romanici			2
-romantici	149		2
+rodici			3
+rodoljupci			3
+rogatici			3
+romanici			3
+romantici	149		3
 ronioci	694		4
 ropci			2
 rovci	25		2
@@ -1691,318 +1691,318 @@ rukovodioci	3496		4
 rupici	44		3
 ručici	105		3
 ručnici			2
-rušioci			2
+rušioci			3
 ružici	106		3
-saborci	548		2
+saborci	548		3
 sabornici	25		4
 sadašnjici	88		4
-saizvršioci			2
-saksonci			2
-salvadorci			2
+saizvršioci			3
+saksonci			3
+salvadorci			3
 samci	261		2
 samici	160		3
 samoglasnici	59		5
-samostalci	53		2
-samotnjaci	34		2
-samoubici	12		2
-samozvanci	23		2
-samrtnici			2
+samostalci	53		3
+samotnjaci	34		3
+samoubici	12		3
+samozvanci	23		3
+samrtnici			3
 sanci			2
 sanduci	204		3
-sandžaci			2
-sanovnici	16		2
-saobraćajci	281		2
-saobraćajnici	240		2
-sapatnici	60		2
-saplemenici	78		2
+sandžaci			3
+sanovnici	16		3
+saobraćajci	281		3
+saobraćajnici	240		3
+sapatnici	60		3
+saplemenici	78		3
 sapunici	104		3
-saputnici	363		2
-saradnici	8788		2
+saputnici	363		3
+saradnici	8788		3
 saseci	23		3
 sastanci	2817		3
 sastavci	15		3
 sastojci	3575		3
-saudijci			2
-saučesnici	662		2
-savetnici	2260		2
+saudijci			3
+saučesnici	662		3
+savetnici	2260		3
 saveznici	3602		4
-savici			2
-savremenici	973		2
+savici			3
+savremenici	973		3
 sažeci	45		2
 sebičnjaci	29		4
 seci	276		2
-sedamdesetogodišnjaci			2
-sedeljci	26		2
+sedamdesetogodišnjaci			3
+sedeljci	26		3
 sedmerci	21		2
 sedmici	1069		3
-sedmorci			2
+sedmorci			3
 sedmorici	97		3
 sednici	23340		3
-sekretarici			2
+sekretarici			3
 sekvenci	552		2
 seljaci	5184		2
 semantici	69		3
 semenci			2
 senci	3657		2
-sendvici			2
-senjaci			2
+sendvici			3
+senjaci			3
 sestrici	40		3
 severnjaci	76		2
-sicilijanci			2
+sicilijanci			3
 sijalici	80		4
-sijamci			2
-silnici	90		2
-simbolici	318		2
-simultanci	13		2
+sijamci			3
+silnici	90		3
+simbolici	318		3
+simultanci	13		3
 sinci	25		2
-sindikalci	1289		2
+sindikalci	1289		3
 sinovci	50		2
-sintetici	40		2
+sintetici	40		3
 sirci			2
-sirijci			2
-siromašci			2
-sirotici	16		2
+sirijci			3
+siromašci			3
+sirotici	16		3
 sisavci			3
 sitnici	156		2
-sjenici	904		2
-skakavaci			2
+sjenici	904		3
+skakavaci			3
 skakavci	380		3
-skandinavci			2
-skeptici	448		2
+skandinavci			3
+skeptici	448		3
 skici	180		2
 skitnici			3
-skojevci			2
-skolastici			2
+skojevci			3
+skolastici			3
 skraćenici	87		4
-skretnici	24		2
+skretnici	24		3
 sladokusci	110		2
-slagalici	113		2
+slagalici	113		3
 slamarici	112		4
 slanci			2
 slastičarnici			5
-slavici			2
-slavistici	102		2
-slavljenici	115		2
+slavici			3
+slavistici	102		3
+slavljenici	115		3
 slavoluci			4
 slavonci	16		2
 slačici			3
-sledbenici	1676		2
+sledbenici	1676		3
 slepci	416		2
 slepoočnici	64		3
 slici	14075		2
-slivnici	134		2
-sljedbenici		J	2
-slobodnjaci	83		2
-slovaci			2
+slivnici	134		3
+sljedbenici		J	3
+slobodnjaci	83		3
+slovaci			3
 slovenci	124		2
-sluznici	142		2
+sluznici	142		3
 slušalici	86		4
-slušaoci			2
-slušaonici	72		2
-služavci			2
+slušaoci			3
+slušaonici	72		3
+služavci			3
 službenici	5140		4
-smederevci	318		2
+smederevci	318		3
 smešci			2
 smočnici			3
 smrdljivci			3
 smrtnici	603		3
 smrtovnici	13		4
-smutljivci	55		2
+smutljivci	55		3
 snimci	2878		2
 sobarici	27		4
 sobici	198		3
-sobičci			2
-sokaci			2
-sokovnici	33		2
-solunci			2
-somborci			2
-spahiluci			2
-spartanci			2
-spasioci			2
+sobičci			3
+sokaci			3
+sokovnici	33		3
+solunci			3
+somborci			3
+spahiluci			3
+spartanci			3
+spasioci			3
 spavaonici	98		3
 spavaćici	109		3
-specijalci	619		2
-spomenici	3134		2
-spremačici	18		2
-spremnici	23		2
-srbijanci			2
-srebrenici			2
+specijalci	619		3
+spomenici	3134		3
+spremačici	18		3
+spremnici	23		3
+srbijanci			3
+srebrenici			3
 srebrnjaci	29		2
-središnjici	50		2
+središnjici	50		3
 srednjoškolci	2413		2
 sremci			2
-sremčici			2
-srećnici	314		2
+sremčici			3
+srećnici	314		3
 srodnici	695		3
 stabljici	113		3
 staklenici	90		2
 stalci	70		2
-stamnici			2
+stamnici			3
 stanci	66		2
 stanici	8404		3
-stanodavci	143		2
+stanodavci	143		3
 stanovnici	10063		3
 staraoci	58		4
 starci	1101		2
 starici	163		3
-starinci			2
-starosedeoci	696		2
+starinci			3
+starosedeoci	696		3
 statistici	1661		3
 stavci	263		2
 stepenici	143		3
-steznici	51		2
+steznici	51		3
 stećci	195		2
 stihotvorci	14		2
 stilistici	21		3
 stisci	92		2
 stoci	281		2
 stogodišnjici	97		4
-stoici	37		2
+stoici	37		3
 stolici	2164		3
-stoličici	29		2
+stoličici	29		3
 stolnjaci	122		3
 stomaci	147		3
 stranci	18101		2
 stranici	11748		3
 stranputici	103		4
-strasnici			2
-strašljivci	11		2
-stražarnici			2
+strasnici			3
+strašljivci	11		3
+stražarnici			3
 stražnjici	72		3
 strelci	2053		2
 strnjici	10		3
-strofici			2
+strofici			3
 struci	4876		2
 stručnjaci	34717		3
-stubici			2
+stubici			3
 studenci			2
-studenici			2
+studenici			3
 stupci	68		2
-stupici	35		2
-stvaraoci			2
-stvarčici	11		2
-suborci	23		2
-substanci			2
-subvenci			2
-sudanci			2
-sudeonici			2
+stupici	35		3
+stvaraoci			3
+stvarčici	11		3
+suborci	23		3
+substanci			3
+subvenci			3
+sudanci			3
+sudeonici			3
 sudnici	1472		3
 suglasnici	62		4
-suharci			2
-suknjici	81		2
-sukrvici			2
+suharci			3
+suknjici	81		3
+sukrvici			3
 sumnjivci	15		3
-sunarodnici	798		2
-sunarodnjaci	28		2
+sunarodnici	798		3
+sunarodnjaci	28		3
 sunčanici			4
-sunčici			2
-suparnici	281		2
-superjunaci			2
-supovci			2
-supružnici	1170		2
+sunčici			3
+suparnici	281		3
+superjunaci			3
+supovci			3
+supružnici	1170		3
 supstanci	4058		2
-surdulici			2
+surdulici			3
 sutrašnjici	50		4
-suučesnici			2
-suvenirnici	86		2
+suučesnici			3
+suvenirnici	86		3
 suvlasnici	445		3
 suzavci	13		3
 sušici	60		3
-sušilici			2
-sušionici			2
+sušilici			3
+sušionici			3
 svadljivci			3
 svakodnevici	672		5
-svakodnevnici			2
+svakodnevnici			3
 svastici	17		3
 sveci	711		2
 svedoci	9850		3
 svemirci	43		2
 svesci	677		2
 svetionici	96		2
-svetlaci			2
-svetovnjaci	42		2
+svetlaci			3
+svetovnjaci	42		3
 svećenici	195		4
 svećnjaci	82		3
-sveštenici	4169		2
+sveštenici	4169		3
 svici	152		2
 svinjci	32		2
 svirci	323		2
 svitci	13		2
 svlačionici	984		3
-svodnici	12		2
+svodnici	12		3
 svuci	27		2
 tablici	269		3
-tabornici			2
+tabornici			3
 tajnici	13		3
 takmaci	124		3
 taktici	551		3
-talijanci			2
+talijanci			3
 tamnici	1158		3
 tanci			2
-tanuševci			2
+tanuševci			3
 taoci	1005		3
-taroci			2
+taroci			3
 tatici			3
-tavanici	203		2
-tavici		M	2
-tašnici			2
+tavanici	203		3
+tavici		M	3
+tašnici			3
 tehnici	3657		3
-tekstilci	129		2
+tekstilci	129		3
 tektonici			3
-telematici			2
-tematici	644		2
+telematici			3
+tematici	644		3
 temeljci	22		2
-terenci			2
-teretnjaci	53		2
+terenci			3
+teretnjaci	53		3
 tesnaci			3
 težaci	100		3
-tibetanci			2
+tibetanci			3
 tici		M	2
-tipici	16		2
-topionici	199		2
-toplici			2
-topolici			2
-toponici			2
-torbici	242		2
+tipici	16		3
+topionici	199		3
+toplici			3
+topolici			3
+toponici			3
+torbici	242		3
 trafici	418		3
-tragici	32		2
-transatlantici			2
-transseksualci	35		2
+tragici	32		3
+transatlantici			3
+transseksualci	35		3
 travici	27		3
 travnjaci	178		3
-trbušnici			2
-trbušnjaci	232		2
+trbušnici			3
+trbušnjaci	232		3
 trci	11577		2
-trenerci	275		2
+trenerci	275		3
 trenirci			2
 trenuci	2017		2
 trepavici	17		4
-trešnjici	13		2
+trešnjici	13		3
 trgovci	6355		3
 trici			2
-tridesetogodišnjaci	25		2
+tridesetogodišnjaci	25		3
 trnci	125		2
-trojanci			2
+trojanci			3
 trojci	377		2
 trojici	1301		3
-troručici			2
+troručici			3
 trsci	56		2
-trstici	11		2
-trudbenici			2
+trstici	11		3
+trudbenici			3
 trudnici	200		3
 trunci	11		2
 trupci	37		2
-trzavici			2
+trzavici			3
 tržnici	166		3
 tuci	115		2
 tukci			2
 tunici	30		3
-tupavci			2
-tuzlaci			2
+tupavci			3
+tuzlaci			3
 tuđinci	96		2
 tužbalici	12		4
 tužioci	2793		4
-tužiteljici			2
+tužiteljici			3
 tvorci	1817		2
 tvrdici	12		3
 ubaci	3016		2
@@ -2011,382 +2011,382 @@ ubojici	12		4
 ubožnici			4
 udarci	922		3
 udarnici	26		3
-udici	141		2
+udici	141		3
 udovci	42		2
 udovici	264		3
 udžbenici	1857		4
-ugarci	17		2
-uglednici	89		2
-ugljovodonici	124		2
-ugodnici	35		2
-ugrinovci			2
-ugrušci	53		2
-uhapšenici	26		2
+ugarci	17		3
+uglednici	89		3
+ugljovodonici	124		3
+ugodnici	35		3
+ugrinovci			3
+ugrušci	53		3
+uhapšenici	26		3
 ujaci	117		3
-ukopnici			2
-ukrajinci			2
-ukrštenici	19		2
+ukopnici			3
+ukrajinci			3
+ukrštenici	19		3
 ulasci	74		3
 ulaznici	37		4
 ulici	41611		3
-ulizici			2
+ulizici			3
 uličici	107		4
 ulomci	37		3
-ulošci	371		2
+ulošci	371		3
 umaci	61		3
 umci			2
-umeci	108		2
-umerenjaci			2
+umeci	108		3
+umerenjaci			3
 umetnici	7487		4
 umivaonici	39		3
-umnošci			2
-umobolnici	20		2
+umnošci			3
+umobolnici	20		3
 umrlici	25		4
 unci	322		2
 unuci	1427		3
 upitnici	296		4
-uplatnici	162		2
-uporednici			2
-uposlenici	80		2
-upravnici	520		2
-uranci			2
+uplatnici	162		3
+uporednici			3
+uposlenici	80		3
+upravnici	520		3
+uranci			3
 urednici	2731		4
 urlici	71		3
 uroci	23		3
 urođenici	107		2
-usamljenici	67		2
-useci	37		2
-usedelici			2
+usamljenici	67		3
+useci	37		3
+usedelici			3
 useljenici	58		4
 usklici	54		3
-uskoci	197		2
-usnici			2
-uspomenici			2
+uskoci	197		3
+usnici			3
+uspomenici			3
 ustanci	191		3
-ustanici	828		2
+ustanici	828		3
 ustupci	462		3
-usvojenici	36		2
-usvojioci	28		2
+usvojenici	36		3
+usvojioci	28		3
 utakmici	17698		4
 uteci	11		2
 utisci	2676		3
 utopljenici	19		3
 utorci			3
 utrci	147		3
-utrošci	27		2
+utrošci	27		3
 utuci			2
-uvalici			2
-uvodioci			2
-uvodnici	47		2
+uvalici			3
+uvodioci			3
+uvodnici	47		3
 uvojci	40		3
-uvoznici	1675		2
+uvoznici	1675		3
 uvuci	37		2
 uzbrdici	262		4
 uzici	120		3
-uznici			2
+uznici			3
 uzorci	1791		3
 uzroci	4650		3
-uzročnici	914		2
-uzvanici	29		2
+uzročnici	914		3
+uzvanici	29		3
 uzvici	228		3
-uzvičnici			2
-uzvišici	122		2
+uzvičnici			3
+uzvišici	122		3
 učenici	29966		4
 učenjaci	238		2
 učesnici	26770		4
-učevnjaci			2
+učevnjaci			3
 učinci	409		3
-učinioci	140		2
+učinioci	140		3
 učionici	2049		3
 učiteljici	227		3
 uštipci	97		3
 užici	35		2
-uživaoci			2
-valjaonici	81		2
+uživaoci			3
+valjaonici	81		3
 valjci	156		2
-valjevci			2
-valjušci			2
-vanglici			2
+valjevci			3
+valjušci			3
+vanglici			3
 vanzemaljci	1076		2
 varalici	26		4
 varenici			3
-varnici			2
-varošici			2
-vatrici	14		2
+varnici			3
+varošici			3
+vatrici	14		3
 vatrogasci	2505		2
-veganci			2
+veganci			3
 vegetarijanci	298		2
-vejavici	51		2
-veleposednici	104		2
-velikodostojnici	409		2
+vejavici	51		3
+veleposednici	104		3
+velikodostojnici	409		3
 venci	641		2
 venčanici	223		3
-verenici	157		2
-verici			2
+verenici	157		3
+verici			3
 vernici	3433		3
-veronauci	62		2
+veronauci	62		3
 veselici			3
 veseljaci	70		2
-veselnici			2
-vesnici	193		2
-vetrenjaci			2
+veselnici			3
+vesnici	193		3
+vetrenjaci			3
 veverici	24		4
-vezici			2
+vezici			3
 veznici	35		3
-većnici	944		2
+većnici	944		3
 vešalici	20		4
 vešci	17		2
-vešernici			2
+vešernici			3
 veštaci	687		2
 veštici	69		3
-vežbaonici	36		2
-videoteci	20		2
+vežbaonici	36		3
+videoteci	20		3
 vidici	351		2
-vidikovci	66		2
-vidioci			2
-vidovnjaci	104		2
+vidikovci	66		3
+vidioci			3
+vidovnjaci	104		3
 vijci	82		2
-vijetnamci			2
+vijetnamci			3
 vikendici	356		4
-vilenjaci	328		2
+vilenjaci	328		3
 vilici	362		3
 viljušci			3
 vinjaci			3
 vinkovci			3
-vinovnici	346		2
-vizantinci			2
-višnjici			2
-vladaoci			2
-vladici	847		2
-vladimirci			2
-vladičici			2
+vinovnici	346		3
+vizantinci			3
+višnjici			3
+vladaoci			3
+vladici	847		3
+vladimirci			3
+vladičici			3
 vlasnici	19814		3
 vodenici	223		3
-voditeljici			2
-vodnici	36		2
-vodoskoci	38		2
-vodozemci	148		2
+voditeljici			3
+vodnici	36		3
+vodoskoci	38		3
+vodozemci	148		3
 vojci		M	2
-vojnici	9673		2
+vojnici	9673		3
 vojsci	8451		2
 voćnjaci	435		3
-vođici	13		2
-vranjanci			2
+vođici	13		3
+vranjanci			3
 vrapci	838		2
 vratnici			3
-vrbaci			2
+vrbaci			3
 vrećici	84		3
 vrhunci	56		3
 vrisci	25		2
-vrljici			2
+vrljici			3
 vrnjci			2
 vrpci	87		2
-vrsnici			2
-vrtešci	45		2
+vrsnici			3
+vrtešci	45		3
 vrujci			2
-vrućici	17		2
-vršalici			2
-vršioci			2
-vršnjaci	1396		2
+vrućici	17		3
+vršalici			3
+vršioci			3
+vršnjaci	1396		3
 vuci	501		2
 vukodlaci	104		3
-vučjaci	18		2
-zabaci	122		2
+vučjaci	18		3
+zabaci	122		3
 zabelešci	41		4
 zadaci	5089		2
-zadaćnici			2
+zadaćnici			3
 zadnjici	455		3
-zadušnici			2
+zadušnici			3
 zadužnici			4
-zagonetci			2
-zagorci	28		2
-zagovornici	1756		2
-zahvalnici	47		2
+zagonetci			3
+zagorci	28		3
+zagovornici	1756		3
+zahvalnici	47		3
 zajednici	18414		4
-zaječarci			2
-zajmodavci	117		2
+zaječarci			3
+zajmodavci	117		3
 zaključci	3463		3
 zakonici	47		4
 zakonodavci	479		2
-zakupci	741		2
-zakupnici	14		2
+zakupci	741		3
+zakupnici	14		3
 zalagaonici			3
 zalasci	68		3
-zalisci	123		2
-zaljubljenici	818		2
+zalisci	123		3
+zaljubljenici	818		3
 zalogajnici			3
-zaluđenici	89		2
-zamajci	21		2
+zaluđenici	89		3
+zamajci	21		3
 zamci	173		2
-zameci	37		2
+zameci	37		3
 zamenici	735		4
-zamolnici	28		2
-zamorci	56		2
+zamolnici	28		3
+zamorci	56		3
 zanesenjaci	68		2
-zaobilaznici	55		2
-zaostaci	43		2
+zaobilaznici	55		3
+zaostaci	43		3
 zapadnjaci	647		4
 zapisnici	598		4
-zaposlenici	140		2
-zapovednici	186		2
-zapršci			2
-zaranci			2
+zaposlenici	140		3
+zapovednici	186		3
+zapršci			3
+zaranci			3
 zarobljenici	773		3
-zaseci			2
+zaseci			3
 zaseoci	101		4
 zastavnici	27		4
 zastupnici	1680		4
 zateci	15		3
 zatočenici	358		3
-zatočnici			2
+zatočnici			3
 zatvorenici	1189		3
-zaušnjaci		M	2
-zaverenici	275		2
+zaušnjaci		M	3
+zaverenici	275		3
 zavidljivci	49		3
 zavidnici	13		4
-zavisnici	764		2
-zavičajci			2
+zavisnici	764		3
+zavičajci			3
 zavodnici	108		4
-zavojici			2
+zavojici			3
 završeci	184		3
-završnici	3290		2
+završnici	3290		3
 zavuci	20		2
 začeci	211		2
-začetnici	129		2
+začetnici	129		3
 zaštitnici	928		4
 zbaci	379		2
 zbirci	2289		2
-zbornici	391		2
+zbornici	391		3
 zbrci	195		2
-zdravici	60		2
-zelenci			2
-zemljaci	611		2
-zemljici	72		2
+zdravici	60		3
+zelenci			3
+zemljaci	611		3
+zemljici	72		3
 zemljoposednici	96		4
 zemljoradnici	799		3
 zemunici	37		3
-zevzeci			2
+zevzeci			3
 zglavci	10		2
-zgodici			2
+zgodici			3
 zimnici	35		3
 zlatarnici			3
-zlatiborci			2
+zlatiborci			3
 zlatici	81		3
 zlatnici	105		3
 zlikovci	535		3
 zlobnici	332		3
-zlovesnici			2
+zlovesnici			3
 zločinci	2032		3
-zločinioci			2
+zločinioci			3
 znaci	12371		2
 znalci	516		2
 znanci	175		2
-zobnici			2
-zorici			2
+zobnici			3
+zorici			3
 zrikavci	66		3
 zupci	83		2
 zupčanici	99		2
-zvanici			2
+zvanici			3
 zvaničnici	9232		4
-zvižduci	258		2
-zvoncici			2
+zvižduci	258		3
+zvoncici			3
 zvonici	47		2
 zvuci	2506		2
 zvučnici	1807		3
 ćelavci	28		3
-ćepenci			2
+ćepenci			3
 ćerci	145		2
 ćirilici	2374		3
 ćorci			2
 ćorsokaci	13		2
-čaglavici			2
-čajanci	33		2
-čajdžinici			2
+čaglavici			3
+čajanci	33		3
+čajdžinici			3
 čajnici			3
 čakavci	48		3
 čamci	580		2
 čanci			2
-čardaci			2
+čardaci			3
 čarobnici	26		4
 čarobnjaci	337		2
 časnici	55		3
 časovnici	223		3
 čačkalici			4
-čašici	81		2
+čašici	81		3
 čekaonici	452		3
-čekrci			2
-čelenci	19		2
+čekrci			3
+čelenci	19		3
 čelici	177		3
-čelnici	5594		2
-česnici			2
+čelnici	5594		3
+česnici			3
 čestici	101		3
 četkici	59		3
 četnici	2778		3
-četrdesetnici			2
-četverci			2
+četrdesetnici			3
+četverci			3
 četvorci	100		2
 četvorici	267		3
-četvrtaci			2
-čileanci			2
-činijici	54		2
+četvrtaci			3
+čileanci			3
+činijici	54		3
 činioci	1577		4
 činjenici	8912		4
 činovnici	1746		3
-čiraci			2
+čiraci			3
 čistačici	14		3
-čistionici			2
-čistunci	127		2
+čistionici			3
+čistunci	127		3
 čitaoci	5585		4
 čitaonici	783		3
-čivluci			2
+čivluci			3
 čičci			2
 članci	2404		2
 članici	792		3
-čorbuljaci			2
-čortanovci			2
-čoveci			2
+čorbuljaci			3
+čortanovci			3
+čoveci			3
 čudaci	99		2
 čudotvorci	73		2
-čukarici			2
-čupavci	31		2
+čukarici			3
+čupavci	31		3
 čuperci	25		2
-čuturici			2
+čuturici			3
 čvarci	212		2
 čvorci	32		2
 đaci	7792		2
-đakovici			2
-đevreci			2
-đurici			2
+đakovici			3
+đevreci			3
+đurici			3
 đurđici			3
 šaci	725		2
-šamlici			2
+šamlici			3
 šampanjci	37		2
 šarenici	59		3
-šatrovci		M	2
+šatrovci		M	3
 šačici	94		3
-šefici	99		2
-šeici	195		2
-šerpici	83		2
-šesnaestogodišnjaci	15		2
-šestaci			2
+šefici	99		3
+šeici	195		3
+šerpici	83		3
+šesnaestogodišnjaci	15		3
+šestaci			3
 šestici	44		3
-šestogodišnjaci	29		2
+šestogodišnjaci	29		3
 šestorici	150		3
 šibici			3
-šibljaci	10		2
+šibljaci	10		3
 šiljci	95		2
-šimanovci			2
+šimanovci			3
 šipci	97		2
-šizmatici			2
+šizmatici			3
 šklopci			2
-školarci	420		2
+školarci	420		3
 školjci	74		2
 škriljci	194		2
 šljaci			2
 šljivovici	73		4
 šljunci			2
 šminci			2
-šoljici	156		2
+šoljici	156		3
 španci			2
 špici	173		2
 šprici			2
@@ -2394,33 +2394,33 @@ zvučnici	1807		3
 štedionici	299		3
 štednjaci	19		3
 štenci	256		2
-štitnici	118		2
+štitnici	118		3
 štićenici	575		4
 štokavci	71		3
-štrajkolomci			2
+štrajkolomci			3
 štrpci			2
-šumadinci			2
+šumadinci			3
 šumarci	33		2
 šumici	108		3
 šupci	17		2
 šupljoglavci	12		3
-šuraci	17		2
-švajcarci			2
-žagubici			2
+šuraci	17		3
+švajcarci			3
+žagubici			3
 žalci			2
 žalioci	49		4
-žarnjaci			2
+žarnjaci			3
 železnici	1500		4
 željeznici		J	4
 želuci	11		3
-žeravici	43		2
-žeteoci	85		2
+žeravici	43		3
+žeteoci	85		3
 žganci			2
 žici	617		2
 žitnici	43		3
 živci	362		2
 živici	54		3
-živopisci			2
+živopisci			3
 žmarci	224		2
 žreci	184		2
 žrtvenici	60		4
@@ -2429,67 +2429,67 @@ zvučnici	1807		3
 žurci	987		2
 žutokljunci	11		2
 žvaci			2
-bijednici			2
+bijednici			3
 bijelci	26		3
 bjegunci			2
 bjelci			2
-bjelici	36		2
-djecaci			2
+bjelici	36		3
+djecaci			3
 djeci	1467		2
 djevici			3
 djevojci			2
 djevojčici			3
 dječaci			2
-dječici			2
-griješnici			2
+dječici			3
+griješnici			3
 ijekavci	16		3
 ijekavici	48		4
 isjeci			3
-isječci			2
-izbjeci			2
+isječci			3
+izbjeci			3
 kolijevci	60		3
 letjelici			4
-lijeci			2
+lijeci			3
 ljepotici			3
 ljestvici			3
 mjeseci			3
-namjernici			2
+namjernici			3
 nevjernici			3
 nijemci	102		3
 obavještajci			2
-obješenjaci			2
+obješenjaci			3
 odjeci	337		3
 odjeljci			3
 odsijeci			4
 odsjeci			3
 pijevci	10		3
 pjesnici			3
-pobjeci			2
-pobjednici			2
-posjednici			2
+pobjeci			3
+pobjednici			3
+posjednici			3
 posjetioci			4
 predsjednici			4
-presijeci			2
+presijeci			3
 presjeci			3
-prijeci			2
+prijeci			3
 prijestupnici			5
 primjerci			3
-rijeci	872		2
+rijeci	872		3
 rječici			4
 rječnici			4
-savjetnici			2
-sijeci			2
+savjetnici			3
+sijeci			3
 sjeci			2
 sjednici			3
 sjenci			2
 sjevernjaci			2
-slijedeci			2
+slijedeci			3
 slijepci	35		3
 strijelci	39		3
 svjedoci			3
 umjetnici			4
 vijenci	76		3
-vijećnici	160		2
+vijećnici	160		3
 vjenčanici			3
 vjernici			3
 vještici			3

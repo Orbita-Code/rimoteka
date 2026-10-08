@@ -7,8 +7,8 @@ adaptirali	207		3
 admirali	73		2
 adresirali	11		3
 aerosoli	78		5
-afirmisali	253		2
-agitovali			2
+afirmisali	253		3
+agitovali			3
 ajkuli	23		3
 aktivirali	620		3
 akvareli	108		3
@@ -20,7 +20,7 @@ amputirali	57		3
 anali	148		2
 analizirali	1684		3
 anektirali	15		3
-angažovali	1738		2
+angažovali	1738		3
 animirali	165		3
 anketirali	196		3
 ansambli			2
@@ -33,16 +33,16 @@ apostoli	1355		4
 aprili	12		2
 aranžirali	26		3
 arhanđeli	74		3
-arlaukali			2
+arlaukali			3
 arsenali	36		2
-artikli			2
-asimilirali			2
+artikli			3
+asimilirali			3
 asistirali	65		3
 asocirali	25		3
 astali			2
-atili			2
-atrofirali	28		2
-auli	91		2
+atili			3
+atrofirali	28		3
+auli	91		3
 automobili	8150		2
 avali			2
 azili	77		2
@@ -52,15 +52,15 @@ bacili	2592		2
 bakali			2
 baktali	17		3
 bali	280		2
-bandažirali			2
+bandažirali			3
 bankrotirali	231		3
 banuli	64		3
 baratali			3
 bareli			3
 batali	529		2
-batalili	58		2
+batalili	58		3
 batinali	33		3
-batrgali			2
+batrgali			3
 bauljali			3
 bavili	5918		3
 bazali			3
@@ -76,16 +76,16 @@ berkli			2
 besedili	28		4
 besneli	75		3
 betonirali	27		3
-beverli			2
+beverli			3
 bežali	1176		3
 bicikli			2
 bili	291429		2
 bilježili		J	4
-biosignali			2
+biosignali			3
 birali	2827		3
-bivakovali			2
+bivakovali			3
 bivali	618		3
-bivoli	50		2
+bivoli	50		3
 bičevali	16		4
 blagoslovili	62		3
 blebetali			3
@@ -104,35 +104,35 @@ bockali	16		3
 bodrili	491		3
 bogatili	255		4
 bogohuli			2
-bogomili			2
-bogumili			2
+bogomili			3
+bogumili			3
 bojali	705		3
 bojili	90		3
 bokali			2
 boleli	72		3
 boli	13325		2
 bolovali	168		3
-bombardovali	1716		2
+bombardovali	1716		3
 boravili	2623		4
 bordeli			3
 borili	5959		3
-botičeli			2
+botičeli			3
 brali	182		2
 branili	3245		3
-bratili			2
-bratimili	24		2
+bratili			3
+bratimili	24		3
 brbljali	19		3
 bredli			2
-briljirali	194		2
+briljirali	194		3
 brinuli	969		3
 brisali	221		3
-briznuli			2
+briznuli			3
 brkali	12		3
 brojali	303		3
 brojili			3
-brokoli	765		2
+brokoli	765		3
 brokuli	20		3
-brstili			2
+brstili			3
 brujali	74		3
 brčkali			3
 bubali			3
@@ -147,8 +147,8 @@ bućkali			3
 bušili	78		3
 cakli	60		2
 caklili			3
-carevali	19		2
-carovali	44		2
+carevali	19		3
+carovali	44		3
 celi	3313		2
 celivali	92		3
 cenili	701		3
@@ -159,21 +159,21 @@ cigli	256		2
 cijeli	2769	J	3
 ciljali	91		3
 cipeli	168		3
-cirkulisali	17		2
-citadeli	45		2
-citirali	475		2
+cirkulisali	17		3
+citadeli	45		3
+citirali	475		3
 civili	1477		2
 cičali			3
 crkavali	28		4
 crkli	119		2
-crnili			2
+crnili			3
 crpeli			3
 crpili	45		3
 crpli	48		2
 crtali	446		3
-crveneli	29		2
+crveneli	29		3
 cupkali	31		2
-curiknuli			2
+curiknuli			3
 cvekli			2
 cvetali	75		3
 cvili	320		2
@@ -183,143 +183,143 @@ dahnuli			3
 daktili			2
 dali	40219		2
 dangubili	17		4
-danijeli			2
-danuli			2
+danijeli			3
+danuli			3
 darivali	290		3
 darovali	258		3
-datirali			2
+datirali			3
 davali	5802		3
 davili	111		3
 deaktivirali	20		3
 debeli	1852		3
 debili	282		2
-debitovali	129		2
+debitovali	129		3
 debljali			3
-defilovali	62		2
-definisali	1927		2
+defilovali	62		3
+definisali	1927		3
 degradirali	84		3
-dehidrirali	61		2
+dehidrirali	61		3
 dejstvovali	112		4
-dekodirali	16		2
-dekorisali	17		2
+dekodirali	16		3
+dekorisali	17		3
 deli	13818		2
 delili	3131		3
 deljali			2
 delovali	1930		4
 dembeli			3
-demolirali	235		2
-demonstrirali	1027		2
-demontirali	99		2
-demoralisali	18		2
-deponovali	60		2
-deportovali	71		2
+demolirali	235		3
+demonstrirali	1027		3
+demontirali	99		3
+demoralisali	18		3
+deponovali	60		3
+deportovali	71		3
 derali	42		3
 desili	932		3
-detektovali	183		2
-detonirali			2
+detektovali	183		3
+detonirali			3
 dezertirali	64		3
 dešavali	590		3
-dešifrovali	42		2
-dežurali	145		2
+dešifrovali	42		3
+dežurali	145		3
 digli	2069		2
 dignuli	10		3
-dijagnostikovali	83		2
+dijagnostikovali	83		3
 dijagonali	250		2
-dilovali			2
+dilovali			3
 dinstali			3
 dipli			2
 diplomirali	595		3
 dirali	277		3
-dirigovali	43		2
-dirižabli	13		2
+dirigovali	43		3
+dirižabli	13		3
 dirnuli	82		3
 disali	187		3
-diskreditovali	90		2
-diskutovali	770		2
-diskvalifikovali	74		2
+diskreditovali	90		3
+diskutovali	770		3
+diskvalifikovali	74		3
 divili	681		3
 divljali	132		3
-dizajnirali	512		2
+dizajnirali	512		3
 dizali	817		3
 dičili	78		3
 dobacivali	185		3
-dobavili			2
-dobavljali	15		2
+dobavili			3
+dobavljali	15		3
 dobijali	5529		3
 dobili	67172		3
 dobivali	132		3
 dobrodošli	4380		2
-docirali			2
+docirali			3
 dodali	2824		3
 dodavali	391		3
 dodeli	6149		3
 dodelili	919		3
 dodeljivali	138		3
-dodijali	17		2
+dodijali	17		3
 dodirivali	93		3
 dodirnuli	146		3
-dodvorili	114		2
+dodvorili	114		3
 događali	214		3
 dognali			2
 dogodili	895		3
-dogonili			2
-dogoreli			2
+dogonili			3
+dogoreli			3
 dogovarali	761		3
 dogovorili	8056		3
-dograbili	29		2
-dogradili	46		2
-dograđivali	35		2
-dogurali	381		2
-dohakali			2
-dohvatali			2
+dograbili	29		3
+dogradili	46		3
+dograđivali	35		3
+dogurali	381		3
+dohakali			3
+dohvatali			3
 dohvatili	214		4
-dojadili	84		2
+dojadili	84		3
 dojahali	17		4
 dojavili	57		3
 dojili	22		3
-dojurili	21		2
+dojurili	21		3
 dokazali	4180		3
 dokazivali	300		3
-dokonali			2
-dokopali	299		2
+dokonali			3
+dokopali	299		3
 dokrajčili	78		3
 doktorirali	177		3
-dokumentovali	124		2
-dokusurili	36		2
+dokumentovali	124		3
+dokusurili	36		3
 dokučili	56		3
 dolazili	7231		4
-doletali			2
-doleteli	96		2
-dolijali	16		2
-dolivali			2
+doletali			3
+doleteli	96		3
+dolijali	16		3
+dolivali			3
 domali	132		2
-domamili			2
-dometali			2
-domili			2
+domamili			3
+dometali			3
+domili			3
 dominirali	1076		3
 domisli	30		3
 domišljali			3
-domogli	312		2
+domogli	312		3
 doneli	12153		2
-donirali	504		2
+donirali	504		3
 donosili	2426		3
 dopadali	98		4
 dopali	391		3
-dopešačili			2
+dopešačili			3
 dopirali	245		4
 dopisivali	209		3
 doplivali	19		4
 doplovili	53		3
-dopratili	29		2
+dopratili	29		3
 dopremali	54		3
 dopremili	100		3
 doprineli	5497		2
 doprli	171		2
 dopunili	256		4
 dopustili	923		3
-doputovali	711		2
+doputovali	711		3
 dopuštali	150		3
-dorasli	648		2
+dorasli	648		3
 doručkovali	141		5
 dosadili	274		3
 dosađivali	63		3
@@ -328,31 +328,31 @@ dosegnuli	40		3
 doseli	128		2
 doselili	1021		3
 doseljavali	125		3
-dosetili	611		2
+dosetili	611		3
 dosezali	35		3
-doskočili	51		2
+doskočili	51		3
 dospeli	1230		3
 dospevali	68		3
 dostavili	1833		4
 dostavljali	209		4
 dostigli	1975		3
 dostizali	149		4
-dosudili	39		2
-dotakli	983		2
-dotaknuli	13		2
-doterali	255		2
-doterivali	22		2
-dotrajali	331		2
+dosudili	39		3
+dotakli	983		3
+dotaknuli	13		3
+doterali	255		3
+doterivali	22		3
+dotrajali	331		3
 dotrčali	80		3
-dotužili			2
+dotužili			3
 doveli	11259		2
 dovezli	337		2
-dovlačili	71		2
+dovlačili	71		3
 dovodili	1052		3
 dovozili	146		3
-dovršavali	28		2
+dovršavali	28		3
 dovršili	248		3
-dovukli	234		2
+dovukli	234		3
 dozivali	87		3
 doznali	286		3
 doznavali			3
@@ -367,105 +367,105 @@ dočekali	4970		4
 dočekivali	332		3
 dočepali	273		3
 došli	43827		2
-doživali			2
+doživali			3
 doživeli	5302		3
 doživljavali	715		3
-dragojli			2
-drakuli			2
+dragojli			3
+drakuli			3
 drali		M	2
 draškali			2
 dražili			3
 dremali	29		3
 dresirali	19		3
 drhtali			2
-drhturili			2
-drmusali			2
+drhturili			3
+drmusali			3
 drogirali	64		3
-drpili	20		2
-drugovali	30		2
+drpili	20		3
+drugovali	30		3
 družili	1744		3
 drznuli	219		3
 držali	5933		3
 dueli	605		3
 dugovali	184		3
 duhali			3
-duhnuli			2
+duhnuli			3
 dunuli	14		3
 dupli	1680		2
-duplirali	186		2
+duplirali	186		3
 duvali	191		3
-dužili	31		2
+dužili	31		3
 dvorili	10		3
-dvosekli	72		2
-dvosjekli		J	2
-dvoumili	100		2
+dvosekli	72		3
+dvosjekli		J	3
+dvoumili	100		3
 džonjali			2
 džuli	62		2
 džungli	564		2
-eboli			2
-eglenisali			2
-ekshumirali	26		2
-eksperimentisali	162		2
-eksploatisali	124		2
+eboli			3
+eglenisali			3
+ekshumirali	26		3
+eksperimentisali	162		3
+eksploatisali	124		3
 eksplodirali	113		3
-ekstremofili			2
-eliminisali	624		2
-emigrirali	193		2
-emitovali	347		2
+ekstremofili			3
+eliminisali	624		3
+emigrirali	193		3
+emitovali	347		3
 ergeli	156		3
-erodirali			2
-eskadrili	30		2
-eskalirali	95		2
-evakuirali			2
-evakuisali	149		2
+erodirali			3
+eskadrili	30		3
+eskalirali	95		3
+evakuirali			3
+evakuisali	149		3
 evoluirali	292		3
-fabuli	57		2
-faksimili	35		2
+fabuli	57		3
+faksimili	35		3
 fali	8151		2
 falili	109		3
-falsifikovali	217		2
+falsifikovali	217		3
 farbali	113		3
 fascikli	132		2
 faveli	35		3
 fazli			2
 festivali	1101		2
 fili			2
-filijali	968		2
-filmofili	75		2
+filijali	968		3
+filmofili	75		3
 finansirali	1519		3
 fiškali			2
 flertovali	19		4
 fokusirali	478		3
 formirali	3177		3
 formuli	1383		3
-forsirali	209		2
+forsirali	209		3
 fosili	382		2
-fotografisali	489		2
+fotografisali	489		3
 frajli			2
 fruli	153		2
 funkcionisali	619		4
-futroli			2
-fuzili			2
-gabrijeli			2
+futroli			3
+fuzili			3
+gabrijeli			3
 gacali	20		2
-gajili	538		2
+gajili	538		3
 galamili	93		3
 gali		M	2
-galopirali			2
+galopirali			3
 ganjali	62		3
 garantovali	292		5
-garnišli			2
+garnišli			3
 gasili	345		3
-gazdovali	35		2
+gazdovali	35		3
 gazili	325		3
 gađali	1022		3
 generali	1956		2
-generisali	124		2
+generisali	124		3
 gerili	30		2
 gibali			3
 ginuli	778		3
 gladili			3
-gladovali	112		2
+gladovali	112		3
 glagoli	258		3
 glagoljali			3
 glasali	7951		3
@@ -474,14 +474,14 @@ glasovali	35		4
 glačali			3
 gledali			3
 globili	14		3
-globljavali			2
+globljavali			3
 glodali			2
-gložili	29		2
+gložili	29		3
 glumili	407		3
-glupirali	15		2
-gluvarili			2
+glupirali	15		3
+gluvarili			3
 gmizali	11		3
-gnevili			2
+gnevili			3
 gnjavili	42		3
 gnječili	12		3
 gnjili			2
@@ -491,22 +491,22 @@ goli	2925		2
 golicali	11		3
 gomilali	162		3
 gomili	1509		3
-gondoli	98		2
-gonetali			2
+gondoli	98		3
+gonetali			3
 gonili	262		3
-gordili			2
+gordili			3
 goreli	170		3
-gorili	14		2
+gorili	14		3
 gostili	66		3
-gostovali	1057		2
-gotovili			2
+gostovali	1057		3
+gotovili			3
 govorili	19289		3
 grabili	133		3
 gradili	3109		3
 grajali			2
-graknuli	36		2
-granatirali	62		2
-granuli			2
+graknuli	36		3
+granatirali	62		3
+granuli			3
 grcali	39		2
 grdili	74		3
 grebali	38		3
@@ -521,41 +521,41 @@ grli	759		2
 grlili	156		3
 grmeli	39		3
 grudvali			2
-grupisali	92		2
+grupisali	92		3
 gruvali	17		2
-grčili	23		2
+grčili	23		3
 gubili	1805		3
 gugli			2
 guli	171		2
 gulili	37		3
-gunguli			2
+gunguli			3
 gunđali	64		3
 gurali	764		3
 gurnuli	606		3
 gusarili			3
 gutali	142		3
 gušili	137		3
-gvatemali			2
+gvatemali			3
 hajali			3
-hakovali			2
+hakovali			3
 haksli			2
 halali			2
 halucinirali			3
-hapsili			2
-haračili			2
-hipnotisali	18		2
+hapsili			3
+haračili			3
+hipnotisali	18		3
 hitali	102		3
 hladili	59		3
 hodali	460		3
 hodili	139		3
 holi			2
-horizontali	316		2
+horizontali	316		3
 hoteli	3262		3
 hrabrili	85		3
 hranili	843		3
 hrli	335		2
-hrlili	147		2
-hrupili			2
+hrlili	147		3
+hrupili			3
 hrvali	11		3
 hteli	19372		2
 huli	151		2
@@ -568,113 +568,113 @@ ideali	694		2
 identifikovali	989		6
 idili	175		2
 idoli	902		2
-ignorisali	607		2
+ignorisali	607		3
 igrali	13656		3
-ilegali	238		2
+ilegali	238		3
 ili	1459019		2
 imali	139164		3
 imbecili	69		2
 imeli			3
 imenovali	468		5
 imitirali	99		3
-imponovali	11		2
+imponovali	11		3
 impresionirali	134		3
 improvizovali	66		5
-indicirali			2
-indignirali			2
-inficirali	53		2
-infiltrirali	88		2
-informisali	861		2
+indicirali			3
+indignirali			3
+inficirali	53		3
+infiltrirali	88		3
+informisali	861		3
 inicijali	326		2
-inicirali	771		2
-inkasirali	69		2
-inscenirali	18		2
-insistirali	1575		2
-inspirisali	350		2
+inicirali	771		3
+inkasirali	69		3
+inscenirali	18		3
+insistirali	1575		3
+inspirisali	350		3
 instalirali	936		3
-integrali	44		2
-interesovali	682		2
-interpretirali	159		2
+integrali	44		3
+interesovali	682		3
+interpretirali	159		3
 intervali	287		2
-intervenisali	610		2
-intervjuisali	150		2
-intubirali			2
+intervenisali	610		3
+intervjuisali	150		3
+intubirali			3
 investirali	827		3
 iritirali	49		3
-ironisali			2
+ironisali			3
 iscedili	77		3
 isceli	719		2
 iscelili	28		3
 isceljivali	31		3
-iscenirali	28		2
-iscepali	37		2
-iscrpeli			2
+iscenirali	28		3
+iscepali	37		3
+iscrpeli			3
 iscrpili	39		3
 iscrpli	112		2
-iscrtali	92		2
+iscrtali	92		3
 iscurili	11		3
-iseckali	21		2
+iseckali	21		3
 isekli	408		3
 iseli	613		2
 iselili	415		3
 iseljavali	127		3
-isflekali			2
-ishodili			2
-isisali	63		2
+isflekali			3
+ishodili			3
+isisali	63		3
 iskakali	57		3
 iskali	127		2
 iskalili	47		3
 iskaljivali	15		3
-iskapili			2
-iskasapili	56		2
+iskapili			3
+iskasapili	56		3
 iskazali	1615		3
 iskazivali	310		3
 iskašljavali			3
-iskesili			2
+iskesili			3
 iskidali	32		4
-isklesali	23		2
-iskliznuli	14		2
+isklesali	23		3
+iskliznuli	14		3
 isključili	1038		3
 isključivali	111		3
-iskomplikovali	67		2
+iskomplikovali	67		3
 iskopali	512		3
 iskopavali	46		3
-iskopirali	73		2
+iskopirali	73		3
 iskorenili	104		3
 iskoristili	7618		4
-iskorišćavali	93		2
-iskovali	28		2
+iskorišćavali	93		3
+iskovali	28		3
 iskočili	128		3
 iskradali			3
 iskrali	15		3
 iskrcali	175		3
 iskrcavali	22		4
-iskrivili	74		2
-iskrsavali	20		2
-iskrsli			2
+iskrivili	74		3
+iskrsavali	20		3
+iskrsli			3
 iskrvarili	20		4
-iskrvavili			2
+iskrvavili			3
 iskrčili	29		3
 iskupili	105		3
-iskupljali			2
+iskupljali			3
 iskusili	936		3
 iskušali	11		4
 iskušavali	13		3
 iskvarili	75		3
 ismejali	125		3
 ismejavali	78		3
-ismevali	182		2
+ismevali	182		3
 ismijali	10	J	3
 ismijavali	31	J	3
 ispadali	154		4
 ispali	2022		2
-ispalili	351		2
-ispaljivali	80		2
-isparili	55		2
-ispaštali	54		2
+ispalili	351		3
+ispaljivali	80		3
+isparili	55		3
+ispaštali	54		3
 ispekli	155		3
 ispeli			3
-ispevali	35		2
+ispevali	35		3
 ispijali	112		3
 ispili	82		2
 ispilili	27		3
@@ -683,90 +683,90 @@ ispisali	437		3
 ispisivali	163		3
 ispitali	672		3
 ispitivali	816		3
-isplakali	16		2
-isplanirali	338		2
+isplakali	16		3
+isplanirali	338		3
 isplatili	865		3
 ispleli	32		3
 isplivali	225		4
-ispljunuli			2
+ispljunuli			3
 isplovili	72		3
-ispoljavali	171		2
-ispoljili	418		2
-ispomagali	16		2
+ispoljavali	171		3
+ispoljili	418		3
+ispomagali	16		3
 isporučili	532		3
 isporučivali	112		3
 ispostavili	131		4
-ispovedali	103		2
-ispovedili	34		2
-ispoštovali	874		2
+ispovedali	103		3
+ispovedili	34		3
+ispoštovali	874		3
 isprali	134		3
 ispratili	1198		4
 ispravili	530		4
 ispravljali	111		4
 ispraznili	242		3
-ispraćali	77		2
-isprašili	34		2
-isprebijali	47		2
-ispredali	25		2
-isprepadali	27		2
-ispreturali	26		2
-isprezali			2
-isprečili	67		2
-isprečivali			2
+ispraćali	77		3
+isprašili	34		3
+isprebijali	47		3
+ispredali	25		3
+isprepadali	27		3
+ispreturali	26		3
+isprezali			3
+isprečili	67		3
+isprečivali			3
 ispričali	884		3
 isprljali	37		3
 isprobali	763		3
 isprobavali	142		3
-isprodavali			2
-isprosili	18		2
-isprsili	38		2
-isprskali			2
-ispružili	15		2
-ispržili			2
-ispucali	212		2
-ispumpali	27		2
+isprodavali			3
+isprosili	18		3
+isprsili	38		3
+isprskali			3
+ispružili	15		3
+ispržili			3
+ispucali	212		3
+ispumpali	27		3
 ispunili	4068		4
 ispunjavali	596		3
 ispustili	446		3
-ispuzali	13		2
+ispuzali	13		3
 ispušili	29		4
 ispuštali	175		3
 istakli	6564		3
-istanjili	23		2
-istančali			2
-istekli	284		2
+istanjili	23		3
+istančali			3
+istekli	284		3
 isterali	525		4
-isteravali			2
+isteravali			3
 isterivali	48		3
-istezali	25		2
+istezali	25		3
 isticali	1456		4
 istisnuli	87		4
 istopili	113		3
 istovarili	70		4
-istočili	14		2
-istrajali	160		2
+istočili	14		3
+istrajali	160		3
 istražili	457		3
 istraživali	868		3
 istrebili	134		3
 istrenirali	20		3
 istresli	46		2
-istrgli	24		2
-istrgnuli			2
+istrgli	24		3
+istrgnuli			3
 istrošili	166		3
-istruleli			2
-istruli	100		2
-istrunuli			2
+istruleli			3
+istruli	100		3
+istrunuli			3
 istrčali	419		3
-istrčavali	35		2
+istrčavali	35		3
 istukli	50		2
 istupali	87		3
 istupili	232		3
-isturili	49		2
-isukali			2
+isturili	49		3
+isukali			3
 isušili	26		3
 izabrali	7265		3
-izagnali			2
-izanđali			2
+izagnali			3
+izanđali			3
 izazivali	580		3
 izazvali	3324		3
 izašli	8762		2
@@ -774,225 +774,225 @@ izbacili	2467		3
 izbacivali	282		3
 izbavili	98		4
 izbegavali	679		3
-izbegli	4898		2
-izbezumili			2
+izbegli	4898		3
+izbezumili			3
 izbijali	152		3
 izbili	1119		3
-izbirali			2
-izbivali			2
-izbledeli	96		2
-izblijedjeli		J	2
+izbirali			3
+izbivali			3
+izbledeli	96		3
+izblijedjeli		J	3
 izboli	77		2
 izborili	2337		3
 izbrisali	475		4
-izbrojali	135		2
+izbrojali	135		3
 izbušili	92		3
 izdahnuli	28		3
 izdali	2523		3
 izdavali	471		3
-izdelili	37		2
-izdeljali			2
-izdešavali			2
-izdigli	117		2
-izdirali			2
-izdizali	20		2
-izdrobili			2
+izdelili	37		3
+izdeljali			3
+izdešavali			3
+izdigli	117		3
+izdirali			3
+izdizali	20		3
+izdrobili			3
 izdržali	966		3
 izdržavali	201		4
-izduvali	33		2
-izdužili	17		2
+izduvali	33		3
+izdužili	17		3
 izdvajali	431		3
 izdvojili	2490		3
 izgarali	67		3
-izgazili	34		2
-izginuli	528		2
-izgladili	76		2
-izgladneli	139		2
-izgladnjeli			2
-izgladnjivali	21		2
-izglasali	864		2
-izglasavali	32		2
+izgazili	34		3
+izginuli	528		3
+izgladili	76		3
+izgladneli	139		3
+izgladnjeli			3
+izgladnjivali	21		3
+izglasali	864		3
+izglasavali	32		3
 izgledali	1895		3
 izgnali	21		3
 izgonili	35		3
-izgoreli	347		2
+izgoreli	347		3
 izgovarali	277		3
 izgovorili	514		3
 izgradili	3356		3
-izgrdili	15		2
-izgrebali			2
+izgrdili	15		3
+izgrebali			3
 izgrebli			2
 izgrizli	28		3
 izgubili	16025		3
-izguli			2
-izgurali	195		2
-izgutali			2
-izgužvali			2
-izigrali	161		2
-izigravali	101		2
+izguli			3
+izgurali	195		3
+izgutali			3
+izgužvali			3
+izigrali	161		3
+izigravali	101		3
 iziskivali	45		3
 izišli	291		2
 izjadali	10		4
 izjasnili	1440		3
 izjavili	3157		3
-izjedali			2
+izjedali			3
 izjednačili	849		3
 izjeli	38		3
 izjurili	24		3
 izlagali	577		3
-izlanuli			2
-izlapeli			2
+izlanuli			3
+izlapeli			3
 izlazili	1874		4
-izlegli	65		2
-izletali	39		2
-izleteli	112		2
+izlegli	65		3
+izletali	39		3
+izleteli	112		3
 izlečili	274		3
-izležavali	25		2
-izlili	60		2
-izlinjali			2
+izležavali	25		3
+izlili	60		3
+izlinjali			3
 izljubili	87		3
 izlomili	34		3
 izložili	963		3
-izludeli			2
+izludeli			3
 izlučili			3
-izluđivali	25		2
+izluđivali	25		3
 izmakli	116		3
 izmamili	144		3
-izmanipulisali	48		2
-izmasakrirali	27		2
-izmaštali	18		2
-izmenili	772		2
-izmenjali	64		2
-izmenjivali	21		2
+izmanipulisali	48		3
+izmasakrirali	27		3
+izmaštali	18		3
+izmenili	772		3
+izmenjali	64		3
+izmenjivali	21		3
 izmerili	413		4
-izmestili	110		2
-izmešali	139		2
+izmestili	110		3
+izmešali	139		3
 izmicali	46		4
-izmileli			2
-izmirili	640		2
-izmirivali	156		2
+izmileli			3
+izmirili	640		3
+izmirivali	156		3
 izmisli	691		3
 izmislili	2037		4
 izmišljali	200		3
 izmlatili	11		3
-izmoli	277		2
-izmolili	43		2
-izmorili	31		2
-izmotavali			2
-izmoždili			2
-izmršaveli			2
-izmučili	12		2
+izmoli	277		3
+izmolili	43		3
+izmorili	31		3
+izmotavali			3
+izmoždili			3
+izmršaveli			3
+izmučili	12		3
 iznajmili	333		3
 iznajmljivali	129		3
-iznalazili	14		2
-iznašli	54		2
-iznedrili	158		2
+iznalazili	14		3
+iznašli	54		3
+iznedrili	158		3
 izneli	4884		2
-iznemogli	120		2
+iznemogli	120		3
 iznenadili	1400		3
 iznervirali	140		3
-izneverili	316		2
-iznikli	139		2
+izneverili	316		3
+iznikli	139		3
 iznosili	2494		3
 iznudili	94		4
-iznurili			2
+iznurili			3
 iznuđivali	42		3
 izobličili	24		3
-izobrazili			2
-izobražavali			2
-izokrenuli	37		2
+izobrazili			3
+izobražavali			3
+izokrenuli	37		3
 izolovali	197		5
 izopačili	23		3
 izostajali	66		4
 izostali	734		3
 izostavili	310		4
 izoštrili	31		3
-izrabljivali	23		2
+izrabljivali	23		3
 izradili	1048		3
 izranili			4
-izranjali	22		2
-izranjavili			2
+izranjali	22		3
+izranjavili			3
 izrasli	319		2
 izravnali	35		3
 izrazili	4263		3
 izračunali	1182		3
 izrađivali	307		3
 izražavali	461		3
-izredali	10		2
-izredili			2
+izredali	10		3
+izredili			3
 izrekli	560		3
 izrezali	17		4
-izređali			2
-izrešetali	40		2
-izribali			2
+izređali			3
+izrešetali	40		3
+izribali			3
 izricali	72		3
 izrodili	154		3
-izronili	64		2
-izrugali			2
-izrugivali	31		2
+izronili	64		3
+izrugali			3
+izrugivali	31		3
 izručili	191		3
 izručivali	18		3
-izružili			2
-izubijali			2
-izudarali	24		2
-izujedali			2
-izumeli			2
+izružili			3
+izubijali			3
+izudarali	24		3
+izujedali			3
+izumeli			3
 izumili	31		3
 izumirali	10		4
 izumrli	375		2
 izuzeli	107		2
 izuzimali			4
-izučavali	228		2
+izučavali	228		3
 izučili	102		3
 izvadili	730		4
 izvali	159		2
-izvalili	41		2
-izvaljali			2
-izvaljivali			2
+izvalili	41		3
+izvaljali			3
+izvaljivali			3
 izveli	4409		2
-izvesili			2
+izvesili			3
 izvestili	631		3
 izvezli	415		2
 izveštavali	696		3
-izveštili	65		2
-izvežbali	17		2
-izvijali	14		2
-izvikali	24		2
-izvikivali	55		2
+izveštili	65		3
+izvežbali	17		3
+izvijali	14		3
+izvikali	24		3
+izvikivali	55		3
 izvinili	240		3
-izvinjavali	97		2
-izvinuli	44		2
-izvirali	13		2
-izvirivali	27		2
-izvisili	63		2
+izvinjavali	97		3
+izvinuli	44		3
+izvirali	13		3
+izvirivali	27		3
+izvisili	63		3
 izviđali			3
-izviždali	97		2
+izviždali	97		3
 izvlačili	440		3
 izvodili	1286		3
-izvojevali	342		2
-izvoleli	47		2
-izvoli	1354		2
+izvojevali	342		3
+izvoleli	47		3
+izvoli	1354		3
 izvozili	458		3
-izvređali	51		2
-izvrgli	34		2
-izvrgnuli			2
-izvrnuli	49		2
-izvrtali	30		2
+izvređali	51		3
+izvrgli	34		3
+izvrgnuli			3
+izvrnuli	49		3
+izvrtali	30		3
 izvršavali	290		4
 izvršili	4898		3
 izvukli	2745		2
 išli	10125		2
-ištetili			2
-iščekivali	350		2
-iščezavali	18		2
-iščezli	93		2
-iščeznuli			2
-iščili			2
-iščitavali	26		2
+ištetili			3
+iščekivali	350		3
+iščezavali	18		3
+iščezli	93		3
+iščeznuli			3
+iščili			3
+iščitavali	26		3
 iščupali	137		3
-iščuđavali	20		2
-iživeli	13		2
-iživljavali	127		2
+iščuđavali	20		3
+iživeli	13		3
+iživljavali	127		3
 jadali			3
 jadikovali	15		5
 jahali	216		3
@@ -1013,31 +1013,31 @@ jurili	760		3
 jurišali	174		3
 jurnuli	83		3
 kabeli			3
-kabili			2
+kabili			3
 kadili	12		3
 kadli			2
-kadrili			2
+kadrili			3
 kajali	87		3
 kalemili	17		4
 kali	178		2
 kalili	22		3
-kamarili	43		2
+kamarili	43		3
 kamenovali	168		5
 kamili	74		3
 kamoli			3
-kampirali			2
-kampovali	62		2
+kampirali			3
+kampovali	62		3
 kanali	2584		2
-kanalisali	33		2
-kandidovali	369		2
+kanalisali	33		3
+kandidovali	369		3
 kanibali	70		4
 kapeli	764		2
 kapitali	46		2
 kapsuli	241		3
-kaptirali			2
+kaptirali			3
 karali	27		3
 karanfili	49		3
-karauli	102		2
+karauli	102		3
 kardinali	276		2
 karli			2
 karnevali	85		2
@@ -1051,31 +1051,31 @@ katedrali	644		2
 kazali	2517		3
 kazivali	216		3
 kaznili	661		3
-kačili	199		2
+kačili	199		3
 kašljali	19		3
 kažnjavali	290		3
-kezili			2
+kezili			3
 kibli			2
 kidali	98		3
-kidisali			2
-kidnapovali	213		2
+kidisali			3
+kidnapovali	213		3
 kifli	75		2
 kikotali	38		3
-kinjili	57		2
+kinjili	57		3
 kiseli	769		3
 kitili	117		3
 kladili	163		3
 klali	428		2
 klanjali	256		3
-klatarili			2
-klatili	21		2
-klauzuli	98		2
+klatarili			3
+klatili	21		3
+klauzuli	98		3
 kleknuli	15		3
 kleli	330		2
-klevetali	56		2
+klevetali	56		3
 klečali	57		3
 klicali	137		3
-klijenteli	135		2
+klijenteli	135		3
 kliknuli	215		3
 kliktali	19		3
 klimali	84		2
@@ -1083,56 +1083,56 @@ klizali	51		3
 klizili	55		3
 ključali	16		3
 klonili	53		3
-klonirali	38		2
-klonuli	105		2
+klonirali	38		3
+klonuli	105		3
 klopali			2
 knedli	55		2
 kobili	230		3
 kockali	106		3
-kodirali	18		2
-koknuli			2
+kodirali	18		3
+koknuli			3
 kokteli	525		3
 kolebali	41		3
-kolonizovali	65		2
+kolonizovali	65		3
 komadali	30		3
-komandovali	127		2
-kombinovali	245		2
-komentarisali	1132		2
+komandovali	127		3
+kombinovali	245		3
+komentarisali	1132		3
 komešali	13		3
-kompletirali	258		2
-komponovali	118		2
-kompostirali			2
+kompletirali	258		3
+komponovali	118		3
+kompostirali			3
 kompromitovali	182		5
-konačili	21		2
-koncentrisali	182		2
-konfiskovali	76		2
-konkurisali	1047		2
-konoli			2
-konstatovali	1886		2
+konačili	21		3
+koncentrisali	182		3
+konfiskovali	76		3
+konkurisali	1047		3
+konoli			3
+konstatovali	1886		3
 konstruisali	308		4
-konsuli			2
-konsultovali	487		2
+konsuli			3
+konsultovali	487		3
 kontaktirali	1143		3
-kontaminirali	22		2
+kontaminirali	22		3
 kontroli	7605		2
-kontrolisali	1574		2
-konzervisali			2
-konzoli	777		2
+kontrolisali	1574		3
+konzervisali			3
+konzoli	777		3
 konzuli	166		3
-konzumirali	434		2
+konzumirali	434		3
 kopali	451		3
-kopirali	280		2
+kopirali	280		3
 kopkali			2
-koprcali	20		2
+koprcali	20		3
 korali	128		2
 koračali	147		3
-korigovali	184		2
+korigovali	184		3
 korili			3
 koristili	13140		4
 kosili	111		3
-kosnuli			2
-kosougli			2
-kostrešili			2
+kosnuli			3
+kosougli			3
+kostrešili			3
 kotrljali	28		3
 kovali	168		3
 kovitlali	10		3
@@ -1158,29 +1158,29 @@ krijumčarili	48		3
 kriknuli			3
 krili	1242		2
 kristali	733		2
-kritikovali	1932		2
+kritikovali	1932		3
 krivili	163		3
 krivotvorili	28		3
 krkljali			3
-krmenadli			2
+krmenadli			3
 krojili	167		3
 krokodili	288		3
 krotili	14		3
-krouli			2
+krouli			3
 kročili	309		3
 krpili	92		3
 krstarili	134		4
 krstili	445		3
-krtoli			2
+krtoli			3
 krunisali	238		4
 kružili	173		3
 krvarili	114		4
-krvavili			2
+krvavili			3
 krvili	10		3
 krčali			2
 krčili	97		3
 kršili	553		3
-krštavali	55		2
+krštavali	55		3
 kucali	140		3
 kucnuli	12		3
 kudili	43		3
@@ -1189,19 +1189,19 @@ kugli	1441		2
 kukali	390		3
 kuli			2
 kuljali	14		2
-kultivirali			2
+kultivirali			3
 kumili	31		3
-kumovali	246		2
-kundačili			2
+kumovali	246		3
+kundačili			3
 kupali	401		3
 kupili	8792		3
 kupoli	203		3
 kupovali	3258		3
-kurtalisali			2
+kurtalisali			3
 kusali	20		2
 kuvali	251		3
 kušali	39		3
-kvalifikovali	474		2
+kvalifikovali	474		3
 kvarili	135		3
 lagali	1034		3
 lajali	78		3
@@ -1209,30 +1209,30 @@ lali	26		2
 lansirali	561		3
 larmali			2
 laskali	14		3
-lavirali			2
+lavirali			3
 lazili			3
 laćali	16		3
 lažirali	73		3
 lebdeli	65		3
 legali	30		2
-legalizovali	250		2
-legitimisali	141		2
+legalizovali	250		3
+legitimisali	141		3
 legli	400		2
 lejli			2
 leli		M	2
-lelujali			2
+lelujali			3
 lemali	12		3
 lepili	329		3
 lesli			2
 leteli			3
-letovali	182		2
+letovali	182		3
 lečili	747		3
-leškarili			2
+leškarili			3
 ležali	673		3
 li	602779		1
 liberali	1307		2
-libili	124		2
-likovali	105		2
+libili	124		3
+likovali	105		3
 likvidirali	324		3
 lili	855		2
 linčovali	66		4
@@ -1241,13 +1241,13 @@ liznuli	10		3
 ličili	523		3
 lišavali	40		3
 lišili	358		3
-ljosnuli			2
-ljubakali			2
+ljosnuli			3
+ljubakali			3
 ljubili	624		3
 ljuljali	52		3
 ljutili	156		3
 ljuštili			3
-lobirali			2
+lobirali			3
 locirali	196		3
 logorovali	12		5
 lokali	965		2
@@ -1255,55 +1255,55 @@ lomili	437		3
 lovili	492		3
 ložili	137		3
 ludeli	21		3
-ludirali			2
+ludirali			3
 ludovali	53		3
-lumpovali	27		2
+lumpovali	27		3
 lunjali			3
 lupali	337		3
 lupili	91		3
 lupkali			2
 lutali	257		3
-magistrali	915		2
+magistrali	915		3
 magli	1290		2
 mahali	574		3
 mahnuli	40		3
-makijaveli			2
+makijaveli			3
 makljali			2
 maknuli	42		3
 malaksali	59		3
-malaksavali			2
+malaksavali			3
 mali	71134		2
 maltretirali	535		3
 mamili	90		3
 mandali	12		2
 mangali			2
-manili			2
-manipulisali	155		2
-mantili			2
-mapirali	56		2
-markirali	41		2
+manili			3
+manipulisali	155		3
+mantili			3
+mapirali	56		3
+markirali	41		3
 maršali	26		2
-marširali	143		2
-masakrirali	152		2
-masirali	30		2
-maskirali	103		2
+marširali	143		3
+masakrirali	152		3
+masirali	30		3
+maskirali	103		3
 materijali	7145		2
-materijalizovali	115		2
-maturirali	40		2
+materijalizovali	115		3
+maturirali	40		3
 mazali	147		3
 mazili	176		3
 maznuli	121		3
 maštali	367		3
-mažnjavali			2
-meditirali	33		2
-mekinli			2
+mažnjavali			3
+meditirali	33		3
+mekinli			3
 meli	31		2
 memli			2
 menjali	3087		3
 merili	699		3
 mesili	54		3
 metali	860		2
-metanisali			2
+metanisali			3
 metili			2
 metli	216		2
 metnuli	62		3
@@ -1312,73 +1312,73 @@ mešali	481		3
 meškoljili			3
 micali	20		3
 migoljili			3
-migrirali	62		2
-mihaili			2
+migrirali	62		3
+mihaili			3
 mileli			3
 mili	2017		2
-milili	15		2
+milili	15		3
 milovali	63		4
 mimoišli	128		2
 minerali	961		2
 minirali	135		3
-minuli	503		2
+minuli	503		3
 mirili	143		3
 mirisali	144		3
 mirovali	85		3
 misali			2
 misli	62313		2
 mislili	10421		3
-mitili			2
+mitili			3
 mjuzikli			3
-mladovali			2
+mladovali			3
 mlatili	120		3
 mleli			2
 množili	54		3
-mobilisali	144		2
+mobilisali	144		3
 mobiteli	56		4
 modeli	12533		3
-modifikovali	148		2
-moduli	2205		2
-mogili			2
+modifikovali	148		3
+moduli	2205		3
+mogili			3
 mogli	108276		2
-moguli	51		2
-mokrili	24		2
+moguli	51		3
+mokrili	24		3
 molekuli	853		3
 moli	5759		2
 molili	1445		3
-moljakali	10		2
-mongoli			2
+moljakali	10		3
+mongoli			3
 monopoli	610		4
-montirali	259		2
+montirali	259		3
 morali	25947		2
-morili	15		2
+morili	15		3
 motali	66		3
 moteli	98		2
 motivisali	358		4
 motocikli			2
 motrili	66		3
 mračili			3
-mrdnuli	230		2
+mrdnuli	230		3
 mrkli	132		2
 mrmljali	25		3
-mrmorili			2
+mrmorili			3
 mrsili	16		3
 mrvili			3
 mrzeli			3
 mrzili	59		3
 mrzli	20		2
-mrčili			2
-mudrovali	17		2
+mrčili			3
+mudrovali	17		3
 mukli	38		2
 muljali	54		2
 murali	103		2
 musli	335		2
-mutirali	21		2
+mutirali	21		3
 muvali	119		2
 mućkali	22		3
 mučili	1316		3
-muštikli			2
-nabacali	35		2
+muštikli			3
+nabacali	35		3
 nabacili	101		3
 nabacivali	29		3
 nabasali	69		3
@@ -1389,199 +1389,199 @@ nabili	223		3
 nabirali			4
 nabrajali	84		3
 nabrali	16		3
-nabrekli	127		2
+nabrekli	127		3
 nabrojali	450		3
 nabubali			3
-nabubreli			2
-nabujali	89		2
-nacedili			2
-naciljali	18		2
+nabubreli			3
+nabujali	89		3
+nacedili			3
+naciljali	18		3
 nacrtali	260		4
 nadahnuli	35		3
 nadali	2109		3
 nadenuli	144		4
 nadevali	13		3
-nadglasali	25		2
-nadglasavali			2
-nadgledali			2
-nadgradili	14		2
-nadigli	13		2
-nadigrali	358		2
+nadglasali	25		3
+nadglasavali			3
+nadgledali			3
+nadgradili	14		3
+nadigli	13		3
+nadigrali	358		3
 nadimali			4
-nadirali	70		2
+nadirali	70		3
 nadjačali	82		3
 nadletali	102		3
 nadmašili	335		4
-nadmetali	495		2
-nadmudrili	57		2
-nadmudrivali			2
+nadmetali	495		3
+nadmudrili	57		3
+nadmudrivali			3
 nadneli	12		3
-nadnosili			2
+nadnosili			3
 nadogradili	73		3
 nadoknadili	483		4
 nadoknađivali	56		3
-nadolazili	16		2
+nadolazili	16		3
 nadovezali	107		3
-nadošli	44		2
-nadrapali			2
-nadrljali	132		2
-nadrogirali			2
+nadošli	44		3
+nadrapali			3
+nadrljali	132		3
+nadrogirali			3
 naduli	16		3
-naduvali	102		2
+naduvali	102		3
 nadvijali	16		3
 nadvili	105		3
 nadvisili	54		3
 nadvladali	54		3
-nadzirali			2
-nadžidžali			2
+nadzirali			3
+nadžidžali			3
 nadživeli	46		3
-nagarili			2
-nagazili	50		2
+nagarili			3
+nagazili	50		3
 nagađali	137		3
 naginjali	48		4
 naglasili	1803		3
 naglašavali	265		3
-nagledali	216		2
+nagledali	216		3
 nagli	1834		2
 nagnali	95		2
 nagnuli	21		3
 nagodili	82		3
-nagojili			2
-nagomilali	229		2
-nagonili			2
-nagoreli	34		2
+nagojili			3
+nagomilali	229		3
+nagonili			3
+nagoreli	34		3
 nagovarali	147		3
 nagovestili	442		3
 nagovorili	212		3
-nagrabili			2
-nagrabusili	69		2
+nagrabili			3
+nagrabusili	69		3
 nagradili	426		3
 nagrdili	23		3
 nagrizali			3
 nagrizli			3
 nagrnuli	113		3
 nagurali	81		3
-nahodili	10		2
+nahodili	10		3
 nahranili	203		3
 nahrupili	16		3
 nahuškali	32		4
 nahvali	50		2
-naigrali	24		2
+naigrali	24		3
 nailazili	668		4
 naišli	2403		2
 najavili	7428		3
 najavljivali	1082		3
 najeli	150		3
 naježili	21		3
-najmili	13		2
+najmili	13		3
 najurili	165		3
 nakanili	12		3
-nakarađivali			2
-nakačili			2
-nakinđurili			2
-nakiseli			2
-nakitili	11		2
-naklapali			2
-nakljukali			2
+nakarađivali			3
+nakačili			3
+nakinđurili			3
+nakiseli			3
+nakitili	11		3
+naklapali			3
+nakljukali			3
 naknadili			4
 nakupili	153		4
-nakvasili			2
+nakvasili			3
 nalagali	112		3
 nalazili	4465		4
-nalegli	10		2
-naletali	20		2
-naleteli	336		2
-naletili			2
+nalegli	10		3
+naletali	20		3
+naleteli	336		3
+naletili			3
 nali			2
 nalikovali	28		5
 naljutili	209		3
 naložili	391		3
 namakli	60		3
 namamili	102		3
-namastili			2
+namastili			3
 namazali	60		4
 namenili	412		3
 nameravali	605		3
-nameračili			2
-namerili	213		2
+nameračili			3
+namerili	213		3
 namestili	471		4
 nametali	286		3
 nametnuli	1233		4
-nameštali	166		2
+nameštali	166		3
 namigivali	13		3
 namirili	206		3
-namirisali	72		2
-namisli	204		2
-namislili			2
+namirisali	72		3
+namisli	204		3
+namislili			3
 namnožili	141		3
-namotali			2
+namotali			3
 namočili			3
-namrzli			2
-namučili	266		2
+namrzli			3
+namučili	266		3
 naneli	1678		3
-nanizali	79		2
+nanizali	79		3
 nanišanili	11		3
-nanjušili	58		2
-nanosili	196		2
+nanjušili	58		3
+nanosili	196		3
 naoružali	125		3
 naoštrili	51		3
 napadali	1744		4
-napajali	70		2
+napajali	70		3
 napali	3527		2
-napalili	59		2
-napasali	33		2
-napastvovali	11		2
+napalili	59		3
+napasali	33		3
+napastvovali	11		3
 napatili	30		4
 napeli			2
 napijali	25		3
 napili	183		3
 napisali	7229		3
-naplatili	1033		2
-naplaćivali	434		2
+naplatili	1033		3
+naplaćivali	434		3
 napleli			3
-napljačkali	23		2
-napojili	46		2
+napljačkali	23		3
+napojili	46		3
 napomenuli	745		3
 napominjali	43		4
 napravili	24328		4
 napredovali	1578		5
-naprezali	14		2
+naprezali	14		3
 napričali	18		3
-naprsli			2
-napucavali			2
-napukli	70		2
+naprsli			3
+napucavali			3
+napukli	70		3
 napumpali	39		3
 napunili	961		4
 napustili	5094		3
 napušili			4
 napuštali	649		3
-naradili	27		2
-narasli	280		2
-narastali			2
-narazgovarali			2
-naredili	723		2
-narezali	27		2
-naređali			2
-naređivali	93		2
+naradili	27		3
+narasli	280		3
+narastali			3
+narazgovarali			3
+naredili	723		3
+narezali	27		3
+naređali			3
+naređivali	93		3
 naricali	12		3
-narugali	37		2
+narugali	37		3
 naručili	713		3
 naručivali	173		3
-narušavali	112		2
-narušili	322		2
-naružili	32		2
+narušavali	112		3
+narušili	322		3
+naružili	32		3
 narvali			2
-nasadili			2
+nasadili			3
 nasamarili	30		3
-nasađivali			2
-nasedali	27		2
-nasekli			2
+nasađivali			3
+nasedali	27		3
+nasekli			3
 naseli	593		2
 naselili	1186		3
 naseljavali	584		3
-nasipali	25		2
+nasipali	25		3
 nasitili	21		4
-nasladili			2
+nasladili			3
 naslanjali	32		4
 nasledili	1287		3
 naslikali	92		4
@@ -1589,7 +1589,7 @@ naslonili	25		3
 naslovili	45		3
 naslutili	110		3
 naslućivali	91		3
-naslušali	226		2
+naslušali	226		3
 nasmejali	448		3
 nasmešili	28		3
 nasmijali	42	J	3
@@ -1603,120 +1603,120 @@ nastanjivali	176		3
 nastavili	8160		4
 nastavljali	308		4
 nastojali	1478		4
-nastradali	619		2
-nastrahovali			2
+nastradali	619		3
+nastrahovali			3
 nastupali	1888		3
 nastupili	3121		3
 nasukali	45		3
-nasuli	55		2
-natakarili			2
-natakli	23		2
+nasuli	55		3
+natakarili			3
+natakli	23		3
 natali			2
 natapali	22		3
 natekli	10		2
 naterali	1557		4
-naterivali			2
+naterivali			3
 natezali	55		3
-naticali			2
+naticali			3
 natkrili	11		2
 natopili	45		3
-natovarili	179		2
-natočili	19		2
-natrapali			2
-natrpali	48		2
-natruli	13		2
-natrulili			2
-natrunili			2
-natrčali	16		2
-natukli			2
-naturili	29		2
+natovarili	179		3
+natočili	19		3
+natrapali			3
+natrpali	48		3
+natruli	13		3
+natrulili			3
+natrunili			3
+natrčali	16		3
+natukli			3
+naturili	29		3
 naudili	89		4
 naumili	368		3
 naučili	7413		3
 navali	612		2
 navalili	407		3
 navaljivali	60		3
-navatali			2
+navatali			3
 naveli	8737		2
-navestili			2
+navestili			3
 navijali	578		3
 navikavali	52		3
-navikli	7420		2
+navikli	7420		3
 naviknuli	12		4
-navirali	19		2
-navlačili	59		2
+navirali	19		3
+navlačili	59		3
 navlažili	16		4
 navodili	755		3
 navratili	28		3
 navraćali	53		4
-navrli	11		2
+navrli	11		3
 navršili	92		3
-navukli	545		2
+navukli	545		3
 nazdravili	68		4
 nazdravljali	41		4
-nazirali	80		2
+nazirali	80		3
 nazivali	2681		3
-naznačili	186		2
+naznačili	186		3
 nazvali	4291		3
-načekali	15		2
+načekali	15		3
 načeli	164		2
-načetili			2
+načetili			3
 načinili	1190		3
-načičkali	15		2
+načičkali	15		3
 načuli	126		3
-načuljili			2
+načuljili			3
 našali	289		2
-našalili	71		2
-naškodili	75		2
+našalili	71		3
+naškodili	75		3
 našli	18032		2
-naštetili	18		2
-nebuli			2
-nedorasli			2
+naštetili	18		3
+nebuli			3
+nedorasli			3
 nedostajali	482		4
-nedozreli	36		2
+nedozreli	36		3
 negirali	601		3
 negli			2
 negodovali	285		5
-negoli		M	2
+negoli		M	3
 negovali	418		4
-nekmoli		M	2
+nekmoli		M	3
 nekropoli	109		3
 neli			2
 nemali	585		2
-nemetali	78		2
+nemetali	78		3
 nemili	302		3
 nervirali	202		3
 nestajali	354		4
 nestali	3233		2
 nesuvisli	37		4
-neumrli	34		2
+neumrli	34		3
 neuspeli	409		4
-neutralisali	129		2
+neutralisali	129		3
 nevaljali	152		3
-neveseli	45		2
+neveseli	45		3
 nezreli	314		3
 nicali	121		3
 nikli	211		2
-nikoli			2
+nikoli			3
 nizali	309		3
 nišanili	18		4
 njakali			3
 njegovali			4
 njihali	43		3
 njuškali	17		2
-nokautirali	27		2
-nominovali	80		2
+nokautirali	27		3
+nominovali	80		3
 nosili	5040		3
 noveli	243		3
-novopridošli	125		2
+novopridošli	125		3
 noćili	97		3
-noćivali			2
+noćivali			3
 nudili	1891		3
 nuli	1607		2
 nutkali			2
-obalavili			2
+obalavili			3
 obali	13164		3
-obamrli	20		2
+obamrli	20		3
 obarali	183		3
 obasipali	74		4
 obasjali	36		3
@@ -1724,38 +1724,38 @@ obasjavali	17		3
 obasuli	46		2
 obavestili	2351		3
 obavezali	1017		3
-obavezivali	62		2
+obavezivali	62		3
 obaveštavali	295		3
 obavili	3215		4
 obavljali	1768		4
-obazirali	165		2
+obazirali	165		3
 obdarili	20		3
-obedili			2
+obedili			3
 obedovali	30		5
-obeležavali	233		2
-obeležili	3788		2
-obelili			2
+obeležavali	233		3
+obeležili	3788		3
+obelili			3
 obelodanili	232		3
-obeseli			2
+obeseli			3
 obeshrabrili	71		3
 obesili	199		4
-obesmisli			2
-obesmrtili			2
-obezbedili	8008		2
-obezbeđivali	474		2
+obesmisli			3
+obesmrtili			3
+obezbedili	8008		3
+obezbeđivali	474		3
 obezglavili	21		3
-obezubili			2
+obezubili			3
 obećali	3764		3
 obećavali	1316		3
-obeđivali			2
+obeđivali			3
 obeštetili	24		4
 obeščastili	23		3
 obgrli	81		3
-obigrali			2
+obigrali			3
 obijali	93		3
 obilazili	797		4
 obili	240		3
-obilježili	203	J	2
+obilježili	203	J	3
 obilovali	54		5
 obistinili	35		5
 obitavali	90		3
@@ -1766,56 +1766,56 @@ objavili	8705		3
 objavljivali	740		3
 objašnjavali	662		3
 objedinili	204		3
-oblagali	21		2
+oblagali	21		3
 oblačili	256		3
-obletali	28		2
+obletali	28		3
 obli	10		2
 oblikovali	431		5
-oblili			2
-obljutavili			2
-obložili	56		2
+oblili			3
+obljutavili			3
+obložili	56		3
 obmanjivali	180		3
 obmanuli	238		3
 obnavljali	174		3
-obnažili			2
-obnevideli			2
+obnažili			3
+obnevideli			3
 obnovili	1105		3
-obodrili			2
-obogaljili	20		2
+obodrili			3
+obogaljili	20		3
 obogatili	1638		4
-obogaćavali			2
+obogaćavali			3
 obojili	136		3
-oboleli	2041		2
-obolevali	29		2
-oboli	1033		2
-oboljeli	56		2
+oboleli	2041		3
+obolevali	29		3
+oboli	1033		3
+oboljeli	56		3
 oborili	929		3
-obosili			2
+obosili			3
 obožavali	424		3
 obradili	592		3
 obradovali	1082		5
 obrali	112		2
-obrasli	115		2
+obrasli	115		3
 obratili	4034		3
 obrazlagali	149		3
 obrazovali	409		5
 obraćali	1331		4
 obračunali	257		3
 obrađivali	531		3
-obredili			2
-obrekli			2
+obredili			3
+obrekli			3
 obreli	311		3
 obrezivali			3
 obrijali	43		4
 obrisali	284		4
-obrivali			2
-obrlatili			2
+obrivali			3
+obrlatili			3
 obrnuli	103		3
-obrstili			2
+obrstili			3
 obrtali	26		4
 obrukali	323		4
-obrušavali	20		2
-obrušili	143		2
+obrušavali	20		3
+obrušili	143		3
 obuhvatali	167		4
 obuhvatili	451		4
 obukli	576		2
@@ -1827,230 +1827,230 @@ obuzeli	33		2
 obuzimali	15		4
 obučavali	343		3
 obučili	253		3
-obznanili	95		2
-ocedili	20		2
+obznanili	95		3
+ocedili	20		3
 ocenili	3926		3
 ocenjivali	449		3
-ocinkarili			2
-ocrnili	73		2
+ocinkarili			3
+ocrnili	73		3
 ocrtali	25		4
-odabirali			2
+odabirali			3
 odabrali	3260		3
-odagnali	69		2
-odahnuli	238		2
-odalamili			2
+odagnali	69		3
+odahnuli	238		3
+odalamili			3
 odali	735		3
 odavali	224		3
 odazivali	122		3
 odazvali	1500		3
-odašiljali	12		2
+odašiljali	12		3
 odbacili	1555		3
 odbacivali	231		3
-odbegli	436		2
+odbegli	436		3
 odbijali	879		3
 odbili	3990		3
 odbranili	979		3
-odbrojali			2
-odbrojavali	16		2
-odcepili			2
+odbrojali			3
+odbrojavali	16		3
+odcepili			3
 odeli	53		3
 odelili	14		3
 odenuli	24		4
-oderali	29		2
+oderali	29		3
 odevali	35		3
-odgajali	110		2
-odgajili	120		2
-odgegali			2
-odgledali	374		2
-odglumili	53		2
+odgajali	110		3
+odgajili	120		3
+odgegali			3
+odgledali	374		3
+odglumili	53		3
 odgodili	49		3
-odgojili	44		2
-odgonetali			2
+odgojili	44		3
+odgonetali			3
 odgovarali	2233		3
 odgovorili	4230		3
 odgrizli			3
-odgrtali			2
-odgurali	27		2
-odgurnuli	47		2
-odigli			2
+odgrtali			3
+odgurali	27		3
+odgurnuli	47		3
+odigli			3
 odigrali	7030		4
-odigravali	118		2
-odisali	49		2
+odigravali	118		3
+odisali	49		3
 odjahali			4
 odjavili	69		3
 odjekivali	122		3
 odjeknuli	62		3
 odjurili	56		3
-odlagali	239		2
+odlagali	239		3
 odlazili	2385		4
-odlepili	233		2
-odletali			2
+odlepili	233		3
+odletali			3
 odleteli	168		3
-odležali	32		2
+odležali	32		3
 odlikovali	160		5
-odložili	573		2
+odložili	573		3
 odlutali	49		3
 odlučili	18160		3
 odlučivali	1128		3
 odmagali	27		3
-odmagli	12		2
-odmahivali	65		2
-odmakli	680		2
+odmagli	12		3
+odmahivali	65		3
+odmakli	680		3
 odmarali	391		3
 odmeravali	88		3
 odmerili	338		4
-odmetali			2
-odmetnuli	76		2
+odmetali			3
+odmetnuli	76		3
 odmicali	107		4
-odmili			2
+odmili			3
 odmorili	359		3
 odmotavali			3
 odnarodili			4
-odnegovali			2
+odnegovali			3
 odneli	2380		2
 odnosili	1184		3
 odobravali	268		3
 odobrili	1024		3
-odocnili			2
+odocnili			3
 odoleli	309		3
 odolevali	115		3
 odoli	938		2
-odomaćili	97		2
+odomaćili	97		3
 odradili	2505		3
 odrali	158		2
-odrasli	5963		2
+odrasli	5963		3
 odrastali	500		3
 odrazili	191		3
 odrađivali	125		3
 odražavali	71		3
-odreagovali	295		2
+odreagovali	295		3
 odredili	2355		3
 odrekli	1970		3
 odrezali	40		4
 određivali	410		3
-odrešili	39		2
+odrešili	39		3
 odricali	276		3
-odrodili			2
-odrubili	23		2
-odrvenjeli			2
+odrodili			3
+odrubili	23		3
+odrvenjeli			3
 održali	5858		3
 održavali	1708		4
 odsecali	58		3
-odsedali	81		2
+odsedali	81		3
 odsekli	323		3
 odseli	400		3
-odselili	277		2
-odseljavali			2
-odskočili	49		2
-odslužili	125		2
-odspavali	33		2
+odselili	277		3
+odseljavali			3
+odskočili	49		3
+odslužili	125		3
+odspavali	33		3
 odstranili	204		3
 odstupali	100		3
 odstupili	240		3
-odsvirali	284		2
+odsvirali	284		3
 odudarali	32		4
 odugovlačili	80		3
-oduhovili			2
-odumrli	18		2
-odupirali	88		2
+oduhovili			3
+odumrli	18		3
+odupirali	88		3
 oduprli	106		2
 odustajali	298		4
 odustali	2966		3
-oduvali	99		2
+oduvali	99		3
 oduzeli	1547		2
 oduzimali	264		4
-odučili	27		2
-oduševili	827		2
-oduševljavali	121		2
+odučili	27		3
+oduševili	827		3
+oduševljavali	121		3
 odužili	274		3
-oduživali			2
+oduživali			3
 odvajali	420		3
 odvali	251		2
-odvalili	66		2
-odvaljali			2
+odvalili	66		3
+odvaljali			3
 odvažili	156		3
 odveli	1968		2
 odvezali	23		3
 odvezli	611		2
 odvijali	631		3
-odvikli	97		2
+odvikli	97		3
 odvlačili	57		3
 odvodili	224		3
 odvojili	1187		3
-odvozili	118		2
+odvozili	118		3
 odvratili	127		3
 odvraćali	79		3
 odvrnuli	35		3
 odvukli	198		2
 odzvanjali	78		3
-odšetali	22		2
+odšetali	22		3
 odškrinuli	29		3
-odštampali	165		2
-odšvrljali			2
+odštampali	165		3
+odšvrljali			3
 ofarbali	155		3
-oformili	472		2
-ogadili	71		2
-ogladneli	42		2
-oglasili	894		2
-oglašavali	232		2
+oformili	472		3
+ogadili	71		3
+ogladneli	42		3
+oglasili	894		3
+oglašavali	232		3
 ogledali	121		3
-oglodali			2
-ogluveli			2
-oglušili	228		2
-ogoleli	24		2
-ogoli	119		2
-ogolili	49		2
-ogoljeli	10	J	2
-ogoreli			2
-ogorčavali			2
-ogorčili	10		2
+oglodali			3
+ogluveli			3
+oglušili	228		3
+ogoleli	24		3
+ogoli	119		3
+ogolili	49		3
+ogoljeli	10	J	3
+ogoreli			3
+ogorčavali			3
+ogorčili	10		3
 ogovarali	88		3
 ogradili	347		3
 ograničavali	122		3
 ograničili	466		4
 ograđivali	39		3
-ogrebali	56		2
+ogrebali	56		3
 ogrejali	48		4
-ogrezli	253		2
-ogrešili	332		2
-ogrnuli	20		2
-ogrtali			2
-ogrubeli	13		2
-oguglali	200		2
-oguli	75		2
-ogulili	27		2
+ogrezli	253		3
+ogrešili	332		3
+ogrnuli	20		3
+ogrtali			3
+ogrubeli	13		3
+oguglali	200		3
+oguli	75		3
+ogulili	27		3
 ohladili	108		3
-ohladneli			2
+ohladneli			3
 oholi	231		3
 ohrabrili	359		3
 ohrabrivali	134		3
-ojadili	304		2
-ojarili			2
-ojačali	782		2
+ojadili	304		3
+ojarili			3
+ojačali	782		3
 ojačavali	21		3
-okajali	24		2
-okaljali	33		2
-okamenili			2
-okarakterisali	444		2
-okasneli			2
-okasnili			2
-okačili	302		2
+okajali	24		3
+okaljali	33		3
+okamenili			3
+okarakterisali	444		3
+okasneli			3
+okasnili			3
+okačili	302		3
 okitili	383		4
 okivali	15		3
 oklevali	121		3
-oklevetali	52		2
-okliznuli	39		2
+oklevetali	52		3
+okliznuli	39		3
 okolišali			3
-okomili	233		2
-okomljivali			2
+okomili	233		3
+okomljivali			3
 okončali	679		3
-okopavali	13		2
-okoreli	372		2
-okoristili	129		2
+okopavali	13		3
+okoreli	372		3
+okoristili	129		3
 okovali	62		3
-okoštali	49		2
+okoštali	49		3
 okrenuli	2099		3
-okresali			2
+okresali			3
 okretali	442		3
 okrečili	89		4
 okrivili	193		3
@@ -2058,68 +2058,68 @@ okrugli	3692		2
 okružili	208		3
 okruživali	155		3
 okrvavili	47		4
-okrznuli	18		2
-okumili			2
+okrznuli	18		3
+okumili			3
 okupili	4840		4
-okupirali	850		2
+okupirali	850		3
 okupljali	936		3
 okusili	198		4
-okušali	109		2
+okušali	109		3
 olabavili	26		5
-olajavali	14		2
+olajavali	14		3
 olakšali	1130		3
 olakšavali	39		3
-olinjali	47		2
+olinjali	47		3
 oličavali	26		3
 oljuštili	28		3
 omalovažavali	86		3
 omamili	15		3
-omanuli	142		2
-omašili	63		2
-omeknuli			2
+omanuli	142		3
+omašili	63		3
+omeknuli			3
 omekšali	122		3
 omekšavali			3
 omeli	222		2
 ometali	357		3
 omeđili	16		4
-omileli			2
-omili	29		2
-omiljeli			2
-omirisali	40		2
-omlitaveli			2
+omileli			3
+omili	29		3
+omiljeli			3
+omirisali	40		3
+omlitaveli			3
 omogućili	6754		3
-omrsili	14		2
-omrznuli	15		2
+omrsili	14		3
+omrznuli	15		3
 onemogućili	644		3
-onemoćali	34		2
+onemoćali	34		3
 onesposobili	84		3
-onesvestili	16		2
+onesvestili	16		3
 opali	774		2
-opalili	61		2
-opametili	168		2
+opalili	61		3
+opametili	168		3
 opasali	28		3
 opasivali	16		3
 opazili	171		4
 opažali	35		3
 opekli	210		3
-opelješili	33		2
-operisali	308		2
-opevali	73		2
+opelješili	33		3
+operisali	308		3
+opevali	73		3
 ophodili	96		3
 opijali	49		3
 opili	22		3
 opipali	34		4
-opirali	173		2
+opirali	173		3
 opisali	2173		3
 opisivali	435		3
-opkladili			2
+opkladili			3
 opkoli	145		2
 opkolili	363		3
-opkoljavali	19		2
+opkoljavali	19		3
 oplakali	20		4
 oplakivali	35		3
 oplemenili	137		3
-oplenili			2
+oplenili			3
 opljačkali	1374		4
 oplodili	24		3
 opomenuli	166		3
@@ -2131,186 +2131,186 @@ opovrgli	113		3
 opozvali	30		3
 oprali	420		3
 opravdali	1352		3
-opravili	40		2
+opravili	40		3
 opraštali	101		3
 opredeli	1423		2
 opredelili	2559		3
 opremali	54		3
 opremili	463		3
-oprobali	341		2
-oprobavali	11		2
+oprobali	341		3
+oprobavali	11		3
 oprostili	994		3
 opsedali	138		3
 opseli	57		3
-opstajali	116		2
+opstajali	116		3
 opstali	999		3
 opteretili	201		4
 optužili	1321		3
 optuživali	782		3
-opusteli	117		2
+opusteli	117		3
 opustili	544		3
-opustošili	234		2
+opustošili	234		3
 opuštali	74		3
 opčinili	22		3
-opšivali			2
-opštili	16		2
+opšivali			3
+opštili	16		3
 orali	79		3
-oraspoložili	39		2
-oreoli			2
+oraspoložili	39		3
+oreoli			3
 organizovali	9962		5
 originali	339		2
-orili	24		2
+orili	24		3
 orobili	27		3
-orodili			2
+orodili			3
 oronuli	158		3
-orosili			2
-oročili	63		2
-orošavali			2
+orosili			3
+oročili	63		3
+orošavali			3
 osakatili	82		4
-osamostali	248		2
-osamostalili	65		2
-osamostaljivali			2
-osedeli			2
-osedlali			2
-osekli			2
+osamostali	248		3
+osamostalili	65		3
+osamostaljivali			3
+osedeli			3
+osedlali			3
+osekli			3
 osetili	3754		4
 osećali	3124		4
 osigurali	1442		3
-osili	45		2
-osilili	210		2
-osiroteli			2
+osili	45		3
+osilili	210		3
+osiroteli			3
 oskrnavili	144		4
-oskudevali	53		2
+oskudevali	53		3
 oskvrnuli			3
 oslabeli			4
 oslabili	324		4
-osladili	12		2
+osladili	12		3
 oslanjali	392		4
-oslepeli			2
-oslepili	14		2
-oslikali	184		2
-oslikavali	109		2
+oslepeli			3
+oslepili	14		3
+oslikali	184		3
+oslikavali	109		3
 oslobađali	242		3
 oslobodili	2169		3
 oslonili	189		3
-oslovili	20		2
-oslovljavali	111		2
-osluškivali	96		2
+oslovili	20		3
+oslovljavali	111		3
+osluškivali	96		3
 osmatrali	59		3
-osmehivali	29		2
-osmehnuli	19		2
+osmehivali	29		3
+osmehnuli	19		3
 osmeli	84		3
-osmelili	75		2
-osmisli	1090		2
-osmislili	1968		2
+osmelili	75		3
+osmisli	1090		3
+osmislili	1968		3
 osmotrili	29		3
-osnažili	142		2
+osnažili	142		3
 osnivali	279		3
 osnovali	3832		3
 osokoli	32		2
-osoli			2
-osolili	11		2
+osoli			3
+osolili	11		3
 osporavali	375		3
 osporili	305		3
-osposobili	308		2
+osposobili	308		3
 osramotili	148		3
 ostajali	1206		4
 ostali	45448		2
-ostarali			2
-ostareli	356		2
-ostarili	109		2
+ostarali			3
+ostareli	356		3
+ostarili	109		3
 ostavili	9232		4
 ostavljali	1227		4
-ostrvili			2
+ostrvili			3
 ostvarili	11030		3
 osudili	1537		3
-osujetili	153		2
-osuli	130		2
+osujetili	153		3
+osuli	130		3
 osumnjičili	21		4
 osunčali			3
 osuđivali	296		3
 osušili	90		3
 osvajali	1152		3
 osvanuli	326		3
-osvedočili	36		2
-osvestili	156		2
+osvedočili	36		3
+osvestili	156		3
 osvetili	227		3
-osvetlali	70		2
-osvetli	760		2
-osvetlili	158		2
-osvetljavali	60		2
+osvetlali	70		3
+osvetli	760		3
+osvetlili	158		3
+osvetljavali	60		3
 osvećivali	15		3
-osveštali	110		2
+osveštali	110		3
 osvežili	269		4
 osvojili	12814		3
-osvrnuli	415		2
-osvrtali	111		2
-otaljavali			2
+osvrnuli	415		3
+osvrtali	111		3
+otaljavali			3
 otarasili	120		3
-otcepili	98		2
+otcepili	98		3
 otekli	41		2
 oteli	1983		3
 oterali	1066		4
-oteščali			2
-otežali	222		2
-otežavali	95		2
-othranili	18		2
+oteščali			3
+otežali	222		3
+otežavali	95		3
+othranili	18		3
 oticali	16		4
 otimali	770		4
-otirali			2
-otisli			2
-otisnuli	148		2
+otirali			3
+otisli			3
+otisnuli	148		3
 otišli	13705		2
 otkali			2
 otkazali	583		3
 otkazivali	42		3
-otkačili	121		2
+otkačili	121		3
 otkinuli	112		4
 otklanjali	55		4
-otključali	82		2
+otključali	82		3
 otklonili	674		3
 otkopali	99		3
 otkopavali	23		3
-otkotrljali			2
+otkotrljali			3
 otkrili	9753		3
 otkrivali	362		3
-otkucali	45		2
-otkupili	623		2
+otkucali	45		3
+otkupili	623		3
 otopili	38		3
-otopli	219		2
-otoplili	11		2
+otopli	219		3
+otoplili	11		3
 otpadali	70		4
 otpali	360		3
-otperjali			2
-otpevali	419		2
-otpečatili			2
+otperjali			3
+otpevali	419		3
+otpečatili			3
 otpili	10		2
 otpisali	339		3
-otplatili	181		2
+otplatili	181		3
 otplivali	18		4
 otplovili	65		3
-otposlali			2
+otposlali			3
 otpočeli	1128		2
-otpočinjali	17		2
-otpratili	61		2
-otpremili	53		2
+otpočinjali	17		3
+otpratili	61		3
+otpremili	53		3
 otpustili	524		3
 otputovali	849		3
 otpuštali	112		3
-otrebili			2
-otresali			2
-otresli	49		2
-otreznili	62		2
-otrgli	129		2
-otrgnuli	13		2
+otrebili			3
+otresali			3
+otresli	49		3
+otreznili	62		3
+otrgli	129		3
+otrgnuli	13		3
 otrovali	167		3
-otrčali	69		2
-otupeli	125		2
-otupljivali			2
+otrčali	69		3
+otupeli	125		3
+otupljivali			3
 otuđili	241		3
 otvarali	841		3
 otvorili	6867		3
-otvrdnuli			2
+otvrdnuli			3
 ovali	27		2
 ovaplotili			3
 ovenčali	19		3
@@ -2318,75 +2318,75 @@ overili	297		4
 ovladali	448		3
 ovladavali			3
 ovlastili	146		3
-ozakonili	55		2
-ozarili			2
-ozdravili	85		2
-ozidali	19		2
+ozakonili	55		3
+ozarili			3
+ozdravili	85		3
+ozidali	19		3
 ozlijedili		J	4
-ozlojedili			2
+ozlojedili			3
 označavali	180		3
 označili	829		3
-označivali			2
-oznojili	44		2
-ozvaničili	162		2
-ozvučili	15		2
-oćutali			2
+označivali			3
+oznojili	44		3
+ozvaničili	162		3
+ozvučili	15		3
+oćutali			3
 očajavali	35		3
 očarali	77		3
 očekivali	8166		3
 očistili	1023		4
-očitali	88		2
+očitali	88		3
 očitovali	14		5
 očuvali	680		3
 ošamarili	14		4
-ošinuli			2
+ošinuli			3
 ošišali	54		3
 oštetili	1227		4
 oštećivali			3
 oštrili	23		3
 ožali			2
-ožalili			2
-ožalostili	15		2
-ožedneli	19		2
+ožalili			3
+ožalostili	15		3
+ožedneli	19		3
 oženili	188		3
 oživeli	403		3
 oživili			3
 oživljavali	40		3
 padali	1016		3
 pakli	21		2
-pakostili			2
+pakostili			3
 pakovali	182		4
 palatali			2
 pali	8127		2
 palili	1104		3
-paliluli			2
-pametovali	19		2
+paliluli			3
+pametovali	19		3
 pamtili	182		3
 paneli	1535		3
-paničili	20		2
+paničili	20		3
 paraboli	43		3
 paradirali	72		3
-parafirali	109		2
-paraleli	164		2
-paralisali	60		2
+parafirali	109		3
+paraleli	164		3
+paralisali	60		3
 parceli	1823		3
 parili	53		3
 parirali	180		3
 parkirali	308		3
-parničili			2
+parničili			3
 paroli	124		2
-partijali			2
+partijali			3
 paskali			2
 pasteli			3
-patentirali	150		2
+patentirali	150		3
 patili	548		3
 patroli	135		2
-patrolirali	58		2
-pauzirali	42		2
+patrolirali	58		3
+pauzirali	42		3
 pazarili	205		3
 pazili	361		3
-pačuli	22		2
-paštili			2
+pačuli	22		3
+paštili			3
 pecali	107		3
 pedali			2
 pedofili	396		2
@@ -2396,51 +2396,51 @@ pekli	287		2
 peli		M	2
 penali	458		2
 penjali	254		3
-penzionisali	89		2
+penzionisali	89		3
 pepeli			3
-peristili			2
+peristili			3
 perli	247		2
 pertli	148		2
 petli	27		2
 petljali	66		3
 pevali	2202		3
-pevušili	45		2
+pevušili	45		3
 pečali			2
-pečatili			2
+pečatili			3
 pešačili	101		3
-pijuckali	56		2
-pijukali			2
-pikirali	24		2
+pijuckali	56		3
+pijukali			3
+pikirali	24		3
 pikseli	172		3
 pili	2013		2
-piljili	19		2
-piluli	73		2
+piljili	19		3
+piluli	73		3
 pipali	15		2
-pipnuli	45		2
-pirovali			2
+pipnuli	45		3
+pirovali			3
 pisali	8852		3
-pisnuli			2
+pisnuli			3
 pitali	8389		3
 pišali	18		3
 pištali	14		2
 plakali	640		3
-planinarili	15		2
+planinarili	15		3
 planirali	3416		3
 planuli			3
 plasirali	2261		3
-plastili			2
+plastili			3
 plavili	11		3
 plazili			3
 plaćali	3994		3
 plašili	1180		3
 pleli	69		2
-plenili	105		2
+plenili	105		3
 plesali	291		3
-plinuli			2
+plinuli			3
 plivali	274		3
 pljačkali	739		3
 pljeskali	61		3
-pljesnuli			2
+pljesnuli			3
 pljunuli	152		3
 pljuskali			2
 pljuvali	646		3
@@ -2450,128 +2450,128 @@ pobacali	117		3
 pobacili			3
 pobedili	8619		3
 pobegli	2699		3
-pobeleli			2
+pobeleli			3
 pobeli	61		2
-pobesneli	191		2
+pobesneli	191		3
 pobeđivali	434		3
 pobijali	31		3
 pobili	1533		3
 pobledeli	10		3
-pobojali	18		2
-poboli	30		2
+pobojali	18		3
+poboli	30		3
 poboljšali	1572		3
 pobrali	137		2
-pobratili			2
-pobrinuli	831		2
-pobrkali	337		2
-pobrojali	103		2
+pobratili			3
+pobrinuli	831		3
+pobrkali	337		3
+pobrojali	103		3
 pobudili	100		3
 pobunili	726		3
 pobuđivali	20		3
-pocepali	137		2
-pocrkali	106		2
-pocrneli	60		2
-pocrveneli	37		2
-podarili	324		2
-podavali	13		2
-podavili			2
+pocepali	137		3
+pocrkali	106		3
+pocrneli	60		3
+pocrveneli	37		3
+podarili	324		3
+podavali	13		3
+podavili			3
 podbacili	430		3
 podbadali			3
-podbuli			2
-podcenili	34		2
-podebeli			2
+podbuli			3
+podcenili	34		3
+podebeli			3
 podeli	10649		3
 podelili	3940		3
 poderali	14		3
 podesili	406		4
 podešavali	41		3
 podgrejali	52		4
-podgrejavali			2
-podgrevali	38		2
+podgrejavali			3
+podgrevali	38		3
 podigli	4970		3
 podignuli	19		4
 podilazili	40		4
-podivljali	130		2
+podivljali	130		3
 podizali	806		4
 podjarmili	10		3
-podlegali	25		2
-podlegli	442		2
+podlegali	25		3
+podlegli	442		3
 podli			2
-podložili			2
+podložili			3
 podmazali	43		4
 podmetali	95		4
 podmetnuli	284		4
-podmirili	81		2
+podmirili	81		3
 podmitili	64		3
-podmladili	91		2
+podmladili	91		3
 podmukli	230		2
 podneli	6721		2
 podnosili	728		3
 podredili	136		3
-podremali			2
-podrivali	52		2
+podremali			3
+podrivali	52		3
 podržali	6141		3
 podržavali	2081		4
 podsetili	1472		4
 podsećali	312		4
-podsmevali	169		2
+podsmevali	169		3
 podstakli	1006		3
 podsticali	404		4
 podudarali	44		4
 podudarili	22		4
-podupirali	63		2
-poduprli	52		2
+podupirali	63		3
+poduprli	52		3
 podučavali	120		3
 podučili	53		3
 podvali	150		3
 podvalili	37		3
 podveli	34		3
-podvili	40		2
+podvili	40		3
 podvlačili	45		3
 podvrgli	163		3
 podvrgnuli	19		4
-podvukli	206		2
-poentirali	124		2
+podvukli	206		3
+poentirali	124		3
 pogasili	62		3
-pogazili	255		2
+pogazili	255		3
 pogađali	394		3
 pogibli	144		3
-poginuli	2167		2
+poginuli	2167		3
 pogledali	1877		4
-pognuli	41		2
+pognuli	41		3
 pogodili	1692		3
-pogodovali	101		2
-pogoreli			2
-pogoršali	278		2
-pogostili			2
-pograbili			2
-pogrebali			2
+pogodovali	101		3
+pogoreli			3
+pogoršali	278		3
+pogostili			3
+pograbili			3
+pogrebali			3
 pogrešili	1997		3
-pogubili	366		2
-pogurali	94		2
-pogušili			2
-pohapsili			2
-poharali	83		2
-pohađali	963		2
+pogubili	366		3
+pogurali	94		3
+pogušili			3
+pohapsili			3
+poharali	83		3
+pohađali	963		3
 pohitali	186		4
 pohodili	207		3
-pohranili	43		2
-pohrli	47		2
-pohrlili	327		2
-pohrvatili	14		2
-pohuli			2
-pohulili			2
+pohranili	43		3
+pohrli	47		3
+pohrlili	327		3
+pohrvatili	14		3
+pohuli			3
+pohulili			3
 pohvali	2476		3
 pohvalili	656		3
-pohvatali	110		2
-poigrali	141		2
-poigravali	89		2
+pohvatali	110		3
+poigrali	141		3
+poigravali	89		3
 poimali	15		4
-poiskali			2
-poispadali	27		2
-poistovećivali	75		2
-pojagmili			2
-pojahali			2
+poiskali			3
+poispadali	27		3
+poistovećivali	75		3
+pojagmili			3
+pojahali			3
 pojali			2
 pojasnili	326		3
 pojavili	6742		3
@@ -2579,30 +2579,30 @@ pojavljivali	820		3
 pojačali	1077		3
 pojačavali	121		3
 pojeli	1483		3
-pojili	32		2
+pojili	32		3
 pojmili	25		3
 pojurili	128		3
-pokadili			2
-pokajali	301		2
-pokapali			2
+pokadili			3
+pokajali	301		3
+pokapali			3
 pokazali	26393		3
 pokazivali	1558		3
-pokačili			2
+pokačili			3
 pokidali	100		4
-pokisli	104		2
+pokisli	104		3
 pokisnuli			4
 poklali	178		2
 poklanjali	400		4
-poklapali	106		2
-poklekli	254		2
-pokliznuli			2
+poklapali	106		3
+poklekli	254		3
+pokliznuli			3
 poklonili	2232		3
-poklopili	190		2
-pokolebali	112		2
+poklopili	190		3
+pokolebali	112		3
 pokopali	74		3
 pokoravali	64		3
 pokorili	293		3
-pokosili	74		2
+pokosili	74		3
 pokrali	1157		3
 pokrenuli	5956		3
 pokretali	374		4
@@ -2610,9 +2610,9 @@ pokrili	884		3
 pokrivali	372		3
 pokrstili	44		3
 pokrštavali	19		4
-pokucali	65		2
+pokucali	65		3
 pokupili	1135		3
-pokupovali	432		2
+pokupovali	432		3
 pokušali	11770		4
 pokušavali	4659		3
 pokvarili	482		3
@@ -2620,161 +2620,161 @@ pokvasili	19		4
 polagali	1128		3
 polaskali			4
 polazili	207		4
-polegali	60		2
-polegli	33		2
-polemisali	140		2
+polegali	60		3
+polegli	33		3
+polemisali	140		3
 poletali	62		3
 poleteli	318		3
 poli	256		2
-polifenoli	128		2
+polifenoli	128		3
 polili	105		3
-polivali			2
+polivali			3
 poljubili	270		3
-poljuljali	43		2
+poljuljali	43		3
 polomili	372		3
 položili	3013		3
-polubeli	37		2
-poludeli	463		2
-poludili			2
-polugoli	58		2
-polupali	119		2
+polubeli	37		3
+poludeli	463		3
+poludili			3
+polugoli	58		3
+polupali	119		3
 pomagali	2827		3
-pomahnitali	171		2
+pomahnitali	171		3
 pomakli	86		3
 pomaknuli	13		3
-pomaljali			2
+pomaljali			3
 pomazali	13		4
 pomeli	25		3
-pomenuli	2712		2
-pomerali	253		2
-pomerili	670		2
-pometali			2
+pomenuli	2712		3
+pomerali	253		3
+pomerili	670		3
+pometali			3
 pomešali	356		3
 pomicali	15		4
 pomilovali	26		5
-pominjali	1273		2
+pominjali	1273		3
 pomirili	678		3
-pomirisali	12		2
+pomirisali	12		3
 pomisli	6817		3
 pomislili	2942		4
 pomišljali	259		3
-pomodreli	13		2
+pomodreli	13		3
 pomogli	9659		2
-pomoli	1220		2
+pomoli	1220		3
 pomolili	158		3
-pomorili			2
-pomračili	15		2
-pomrli	255		2
-pomrsili	28		2
-pomutili	37		2
-pomučili	46		2
+pomorili			3
+pomračili	15		3
+pomrli	255		3
+pomrsili	28		3
+pomutili	37		3
+pomučili	46		3
 ponadali	294		3
-ponapili			2
+ponapili			3
 ponavljali	770		3
 ponašali	1772		3
 poneli	1735		3
-ponikli	318		2
+ponikli	318		3
 ponizili	250		3
 poništili	286		4
 ponižavali	150		3
 ponosili	234		3
 ponovili	1257		3
 ponudili	4340		4
-poodmakli	52		2
-poodrasli	19		2
+poodmakli	52		3
+poodrasli	19		3
 poorali			3
-pooštrili	67		2
-popadali	166		2
+pooštrili	67		3
+popadali	166		3
 popali	105		2
-popalili	129		2
-poparili			2
-popasli			2
+popalili	129		3
+poparili			3
+popasli			3
 popeli	965		2
-popijevali		J	2
+popijevali		J	3
 popili	1138		3
 popisali	131		3
 popisivali	41		3
 poplavili	32		3
 poplašili	34		4
-poplivali			2
-popljuvali	58		2
+poplivali			3
+popljuvali	58		3
 popravili	1187		4
 popravljali	218		4
 poprimali	34		3
 poprimili	150		3
 popričali	215		3
 poprskali	31		3
-popucali	170		2
+popucali	170		3
 popunili	753		4
 popunjavali	304		3
 popustili	435		3
 popušili	76		4
 popuštali	76		3
 poradili	127		3
-poradovali	30		2
+poradovali	30		3
 poranili	94		4
 porasli	1648		2
 poravnali	87		3
-porazbijali	72		2
-porazgovarali	199		2
+porazbijali	72		3
+porazgovarali	199		3
 porazili	378		3
-porazmisli	145		2
-poražavali			2
+porazmisli	145		3
+poražavali			3
 poredali	17		3
-poredili	359		2
+poredili	359		3
 porekli	73		3
 poremetili	289		4
 porezali			4
 poređali	145		3
 poricali	125		3
-porječkali		J	2
+porječkali		J	3
 porobili	101		3
 porodili	83		3
 portali	838		2
 portparoli	178		3
-porumeneli			2
+porumeneli			3
 poručili	2656		3
 poručivali	216		3
 porušili	414		4
 posadili	348		3
-posakrivali	38		2
-posavetovali	144		2
-posađivali			2
-posedali	113		2
-posedeli			2
+posakrivali	38		3
+posavetovali	144		3
+posađivali			3
+posedali	113		3
+posedeli			3
 posedovali	655		5
-posegli	114		2
-posegnuli	87		2
-posejali	278		2
+posegli	114		3
+posegnuli	87		3
+posejali	278		3
 posekli	249		3
 poseli	57		3
 posetili	7668		4
-posezali	70		2
+posezali	70		3
 posećivali	718		3
-posijali	44		2
-posipali	66		2
-posiveli	11		2
+posijali	44		3
+posipali	66		3
+posiveli	11		3
 poskakali	55		3
-poskapali			2
-poskidali	111		2
-poskupeli	564		2
+poskapali			3
+poskidali	111		3
+poskupeli	564		3
 poslali	7186		3
 poslovali	523		3
 poslušali	736		4
 poslužili	951		3
 posluživali	37		3
 posmatrali	2189		3
-posmicali			2
+posmicali			3
 posoli	100		2
 posolili	23		3
-pospešili	140		2
+pospešili	140		3
 pospremili	19		3
 posramili	31		3
-posrnuli	295		2
+posrnuli	295		3
 posrtali	18		4
 postajali	1199		3
 postali	22533		3
-postarali	182		2
+postarali	182		3
 postavili	9476		4
 postavljali	1871		4
 postideli	135		3
@@ -2782,89 +2782,89 @@ postigli	12324		3
 postili	155		3
 postizali	473		4
 postojali	5035		4
-postoli			2
-postradali	439		2
-postreljali	20		2
-postrigli			2
-postrojili	73		2
+postoli			3
+postradali	439		3
+postreljali	20		3
+postrigli			3
+postrojili	73		3
 postupali	558		3
 postupili	778		3
 posudili	46		3
-posuli	85		2
-posumnjali	313		2
-posustali	209		2
+posuli	85		3
+posumnjali	313		3
+posustali	209		3
 posuđivali	11		3
-posvadili			2
-posvađali	687		2
-posvedočili	169		2
+posvadili			3
+posvađali	687		3
+posvedočili	169		3
 posvetili	2164		3
 posvojili			3
 potakli	32		3
 potaknuli	57		3
-potamanili	40		2
-potamneli	53		2
-potamnili			2
+potamanili	40		3
+potamneli	53		3
+potamnili			3
 potapali	43		3
-potcenili	228		2
+potcenili	228		3
 potegli	152		2
-potekli	713		2
+potekli	713		3
 potencijali	2529		2
-poterali	75		2
+poterali	75		3
 potezali	63		3
 poticali	226		4
-potirali	10		2
-potisnuli	324		2
+potirali	10		3
+potisnuli	324		3
 potjecali		J	4
-potkazali			2
+potkazali			3
 potkopali	55		3
-potkradali	58		2
+potkradali	58		3
 potkrali			2
 potkrepili	175		3
 potkupili	54		3
-potlačili			2
+potlačili			3
 potmuli	62		3
-potonuli	289		2
+potonuli	289		3
 potopili	169		3
-potovarili			2
-potpadali	35		2
+potovarili			3
+potpadali	35		3
 potpali	185		2
-potpalili	38		2
-potpasali			2
-potpili			2
+potpalili	38		3
+potpasali			3
+potpili			3
 potpisali	10303		3
 potpisivali	606		3
 potplatili	40		3
-potpomagali	40		2
-potpomogli	104		2
+potpomagali	40		3
+potpomogli	104		3
 potrajali	76		4
-potratili			2
+potratili			3
 potražili	744		3
-potresali	152		2
-potresli	166		2
-potrgnuli			2
+potresali	152		3
+potresli	166		3
+potrgnuli			3
 potrošili	2709		3
-potrpali	68		2
+potrpali	68		3
 potrudili	2527		3
 potrčali	258		3
-potucali	11		2
-potukli	491		2
-potuli			2
-poturali	35		2
-poturčili	84		2
-potužili			2
+potucali	11		3
+potukli	491		3
+potuli			3
+poturali	35		3
+poturčili	84		3
+potužili			3
 potvrdili	6625		3
-potčinili	54		2
-potčinjavali	12		2
-poubijali	266		2
-poumirali	54		2
-poustajali	14		2
-pouzdali	17		2
-poučavali	45		2
-poučili	41		2
-povadili	81		2
+potčinili	54		3
+potčinjavali	12		3
+poubijali	266		3
+poumirali	54		3
+poustajali	14		3
+pouzdali	17		3
+poučavali	45		3
+poučili	41		3
+povadili	81		3
 povali	28		2
-povalili			2
-povatali			2
+povalili			3
+povatali			3
 poveli	2918		3
 poveravali	51		3
 poverili	476		4
@@ -2875,10 +2875,10 @@ povezli	23		3
 povećali	3230		3
 povećavali	373		3
 povijali	21		3
-povikali	85		2
+povikali	85		3
 povili	16		3
-povinovali	50		2
-povirivali			2
+povinovali	50		3
+povirivali			3
 povisili	85		3
 povlačili	501		3
 povodili	33		3
@@ -2886,331 +2886,331 @@ povratili	664		3
 povraćali	42		4
 povredili	1009		3
 povređivali	57		3
-povrveli			2
+povrveli			3
 povukli	2799		2
-pozabavili	275		2
+pozabavili	275		3
 pozajmili	568		3
-pozajmljivali	139		2
-pozatvarali	61		2
-pozavideli	188		2
+pozajmljivali	139		3
+pozatvarali	61		3
+pozavideli	188		3
 pozdravili	2336		4
 pozdravljali	400		4
-pozelenjeli			2
+pozelenjeli			3
 pozirali	105		3
 pozivali	1481		3
 pozli	175		2
 poznali	286		3
 poznavali	1750		3
 pozvali	6363		3
-pozvonili	26		2
+pozvonili	26		3
 počastili	157		3
-počastvovali	28		2
-počađaveli			2
+počastvovali	28		3
+počađaveli			3
 počeli	33824		2
-počešali			2
+počešali			3
 počinili	3135		3
 počinjali	624		4
 počinuli	11		4
 počistili	159		4
-počivali	74		2
-počupali	43		2
+počivali	74		3
+počupali	43		3
 pošali			2
-pošandrcali			2
+pošandrcali			3
 pošeli			3
-poškropili			2
+poškropili			3
 pošli	2039		2
 poštedeli	171		3
 poštovali	2009		3
 požali	437		2
-požalili	276		2
+požalili	276		3
 poželeli	1843		3
 poželi	2575		2
 poželjeli	96		3
-poženili	32		2
-poživeli	30		2
+poženili	32		3
+poživeli	30		3
 požnjeli	48		3
 požurili	546		3
-požurivali	30		2
-požuteli	102		2
-praktikovali	265		2
+požurivali	30		3
+požuteli	102		3
+praktikovali	265		3
 prali	297		2
 praskali			3
 pratili	5795		3
 pravdali	323		3
 pravili	7257		3
-pravougli		M	2
+pravougli		M	3
 praznili	75		3
 praznovali	65		4
-prašili	31		2
+prašili	31		3
 praštali	38		2
 prdnuli	12		3
 preambuli	374		4
 prebacili	1389		3
 prebacivali	365		3
-prebegli	192		2
+prebegli	192		3
 prebijali	69		3
 prebili	226		3
-prebirali	26		2
-prebivali	42		2
-prebledeli			2
-preboleli	127		2
-preboli	215		2
-preboljeli			2
+prebirali	26		3
+prebivali	42		3
+prebledeli			3
+preboleli	127		3
+preboli	215		3
+preboljeli			3
 prebrodili	287		3
-prebrojali	132		2
-prebrojavali	61		2
-precenili	119		2
-precrtali	54		2
+prebrojali	132		3
+prebrojavali	61		3
+precenili	119		3
+precrtali	54		3
 predahnuli	36		3
 predali	3471		3
 predavali	865		3
-predebeli	29		2
+predebeli	29		3
 predeli	840		3
 predlagali	1279		3
 predložili	5697		3
-prednjačili	356		2
+prednjačili	356		3
 predomisli	292		3
 predomislili	166		4
-predozirali	12		2
+predozirali	12		3
 predočili	546		3
 predstavili	7887		4
 predstavljali	3953		4
-preduhitrili	92		2
-preduzeli	1618		2
-preduzimali	303		2
+preduhitrili	92		3
+preduzeli	1618		3
+preduzimali	303		3
 predvideli	2691		4
 predviđali	623		3
 predvodili	1093		3
-prefarbali	48		2
-pregazili	246		2
-pregledali	1031		2
-pregledavali	18		2
-pregnuli			2
-pregoreli	37		2
+prefarbali	48		3
+pregazili	246		3
+pregledali	1031		3
+pregledavali	18		3
+pregnuli			3
+pregoreli	37		3
 pregovarali	685		3
 pregradili	30		3
 pregrizli			3
-pregrmeli	57		2
-pregurali	103		2
+pregrmeli	57		3
+pregurali	103		3
 prehladili	19		3
-prehranili	154		2
-prehranjivali	23		2
-preimenovali	152		2
-preinačili	42		2
-preispitali	80		2
+prehranili	154		3
+prehranjivali	23		3
+preimenovali	152		3
+preinačili	42		3
+preispitali	80		3
 prejeli	32		3
 prekali			2
-prekalili			2
-prekardašili			2
+prekalili			3
+prekardašili			3
 prekidali	276		3
 prekinuli	1821		4
-preklinjali	48		2
+preklinjali	48		3
 prekopali	50		3
-prekoračili	231		2
-prekratili	47		2
+prekoračili	231		3
+prekratili	47		3
 prekrili	269		3
 prekrivali	83		3
-prekrstili	111		2
+prekrstili	111		3
 prekršili	1123		3
-prekuvali			2
+prekuvali			3
 prelamali	34		3
 prelazili	901		4
 preletali	50		3
 preleteli	92		3
-preležali	111		2
+preležali	111		3
 preli			2
-prelili	91		2
+prelili	91		3
 prelistavali	32		3
-prelivali			2
+prelivali			3
 prelomili	299		3
 premali	486		2
-premazali	39		2
+premazali	39		3
 premašili	446		4
-premestili	222		2
-premeštali	59		2
-preminuli	671		2
-premisli			2
-premišljali	33		2
+premestili	222		3
+premeštali	59		3
+preminuli	671		3
+premisli			3
+premišljali	33		3
 premlatili	31		3
 premostili	102		3
-premrežili	31		2
-premrli			2
-prenagli	14		2
-prenaglili	14		2
-prenebregnuli			2
+premrežili	31		3
+premrli			3
+prenagli	14		3
+prenaglili	14		3
+prenebregnuli			3
 preneli	5325		2
-prenerazili			2
+prenerazili			3
 prenosili	996		3
 prenoćili	123		3
 prenuli	55		3
-preobratili	66		2
-preobrazili	83		2
-preobukli	32		2
+preobratili	66		3
+preobrazili	83		3
+preobukli	32		3
 preokrenuli	469		3
-preopteretili	29		2
+preopteretili	29		3
 preorali	39		3
-preostali	3781		2
+preostali	3781		3
 preoteli	129		2
 preotimali			4
-preovlađivali	51		2
-prepadali			2
+preovlađivali	51		3
+prepadali			3
 prepali	96		3
 prepekli			3
-prepešačili	57		2
+prepešačili	57		3
 prepirali	99		4
 prepisali	420		3
 prepisivali	271		3
-preplanuli	241		2
-preplavili	446		2
+preplanuli	241		3
+preplavili	446		3
 preplašili	37		4
-preplitali	69		2
+preplitali	69		3
 preplivali	37		4
 prepolovili	163		3
 preporučili	1279		3
 preporučivali	231		3
 prepoznali	4236		3
 prepoznavali	308		3
-prepravili	50		2
-preprečili	82		2
+prepravili	50		3
+preprečili	82		3
 prepričali	32		3
 prepričavali	184		3
-prepunili	24		2
+prepunili	24		3
 prepustili	1007		3
 prepuštali	101		3
 preradili	80		3
 prerasli	481		2
 preračunali	162		3
 prerezali	33		4
-prerili			2
+prerili			3
 prerušili	19		4
-presabrali			2
+presabrali			3
 presadili	55		3
-presahli	40		2
+presahli	40		3
 presahnuli			3
 presađivali	12		3
 presecali	39		3
-presedali			2
-presedeli			2
+presedali			3
+presedeli			3
 presekli	295		3
 preseli	1912		2
 preselili	1303		3
 preseljavali	22		3
 preskakali	158		3
 preskočili	497		3
-preslišavali			2
-preslušali	36		2
+preslišavali			3
+preslušali	36		3
 prespavali	303		3
 presreli	179		3
 presretali	77		4
 prestajali	210		4
 prestali	3023		3
-prestareli			2
-prestavili			2
+prestareli			3
+prestavili			3
 prestigli	155		3
 prestizali	14		4
-prestoli	50		2
+prestoli	50		3
 prestravili	12		3
 prestrašili	20		4
 prestupili	11		3
 presudili	327		3
-presuli			2
+presuli			3
 presuđivali	42		3
-presušili	121		2
-presvetli	114		2
+presušili	121		3
+presvetli	114		3
 presvukli	126		2
 pretapali	19		3
-pretegli			2
-pretegnuli			2
-pretekli	311		2
+pretegli			3
+pretegnuli			3
+pretekli	311		3
 preterali	838		4
 preterivali	82		3
 prethodili	680		3
 pretili	1374		3
 pretopili	89		3
-pretočili	197		2
+pretočili	197		3
 pretplatili	99		3
 pretpostavili	446		4
 pretpostavljali	362		4
-pretprošli	34		2
+pretprošli	34		3
 pretražili	135		3
 pretraživali	149		3
-pretresali	113		2
-pretresli	225		2
-pretrgli	66		2
-pretrpali	16		2
+pretresali	113		3
+pretresli	225		3
+pretrgli	66		3
+pretrpali	16		3
 pretrpeli	1693		3
-pretrpili			2
-pretrčali	115		2
-pretrčavali	25		2
+pretrpili			3
+pretrčali	115		3
+pretrčavali	25		3
 pretukli	654		2
-preturali	25		2
-preturili	63		2
+preturali	25		3
+preturili	63		3
 pretvarali	347		3
 pretvorili	2156		3
-preuredili	108		2
-preusmerili	129		2
-preuveličali	31		2
+preuredili	108		3
+preusmerili	129		3
+preuveličali	31		3
 preuzeli	5469		2
 preuzimali	363		4
-preuzneli			2
+preuzneli			3
 prevagnuli	78		3
 prevali	331		2
 prevalili	242		3
 prevarili	1647		4
-prevazišli	1173		2
+prevazišli	1173		3
 preveli	625		2
-preveslali	64		2
+preveslali	64		3
 prevezli	314		2
-prevideli	316		2
-previjali	29		2
-previli	32		2
-previđali	22		2
+prevideli	316		3
+previjali	29		3
+previli	32		3
+previđali	22		3
 prevladali	112		3
 prevodili	299		3
 prevozili	359		3
 prevrnuli	106		3
 prevrtali	92		4
-prevršili	65		2
-prevukli	30		2
-prezadužili	42		2
+prevršili	65		3
+prevukli	30		3
+prezadužili	42		3
 prezali	71		3
-prezidali			2
-prezimili	32		2
+prezidali			3
+prezimili	32		3
 prezirali	167		4
-prezivali	51		2
+prezivali	51		3
 prezreli	99		3
-prećutali	203		2
-prečešljali			2
-prečuli	16		2
+prećutali	203		3
+prečešljali			3
+prečuli	16		3
 prešli	6034		2
 prežali	97		2
-prežalili	46		2
-preživeli	3900		2
+prežalili	46		3
+preživeli	3900		3
 preživljavali	204		3
 pribavili	458		4
 pribavljali	42		4
-pribegli	242		2
+pribegli	242		3
 pribijali			3
 pribili	20		3
-pribirali			2
+pribirali			3
 približavali	319		3
 približili	1507		3
 pribrali	40		2
 pridali	44		2
-pridavali	172		2
-pridigli	13		2
+pridavali	172		3
+pridigli	13		3
 pridobili	253		3
 pridodali	111		3
-pridošli	83		2
+pridošli	83		3
 pridružili	2601		3
 pridržali	10		3
 pridržavali	474		4
 prigovarali	89		3
-prigrabili	198		2
-prigrli	173		2
-prigrlili	184		2
+prigrabili	198		3
+prigrli	173		3
+prigrlili	184		3
 prigušili	19		3
-prihvatali	755		2
+prihvatali	755		3
 prihvatili	10217		4
 prihvaćali	26		4
 prijali	95		3
@@ -3218,31 +3218,31 @@ prijavili	3642		3
 prijavljivali	503		3
 prikazali	2698		3
 prikazivali	678		3
-prikačili	102		2
-prikivali			2
+prikačili	102		3
+prikivali			3
 priklali			2
 priklanjali	30		4
-priključili	1351		2
+priključili	1351		3
 priklonili	184		3
-priklopili			2
-prikopčali			2
-prikovali	18		2
+priklopili			3
+prikopčali			3
+prikovali	18		3
 prikrali			3
 prikrili	344		3
 prikrivali	151		3
-prikucali			2
+prikucali			3
 prikupili	1571		4
 prikupljali	447		3
-prikučili			2
-prilagali	30		2
+prikučili			3
+prilagali	30		3
 prilagodili	1104		3
 prilagođavali	190		3
 prilazili	513		4
-prilegli	16		2
-prilepili	43		2
+prilegli	16		3
+prilepili	43		3
 priličili	10		4
 priljubili	12		3
-priložili	264		2
+priložili	264		3
 primakli	157		3
 primaknuli			3
 primali	1983		3
@@ -3252,40 +3252,40 @@ primetili	6796		3
 primećivali	243		3
 primicali	44		4
 primili	7484		3
-primirili	94		2
+primirili	94		3
 primorali	432		3
 prineli	127		3
-prinosili	185		2
-prinudili	90		2
-prionuli	202		2
+prinosili	185		3
+prinudili	90		3
+prionuli	202		3
 pripadali	1684		4
 pripali	439		2
-pripalili	10		2
-pripasali			2
+pripalili	10		3
+pripasali			3
 pripazili			4
-pripijali			2
-pripili			2
+pripijali			3
+pripili			3
 pripisali	236		3
 pripitomili	41		3
 pripojili	75		3
-pripomogli	53		2
+pripomogli	53		3
 pripravili			4
 pripremali	1797		3
 pripremili	6013		3
-pripretili	212		2
-pripucali	28		2
-pripustili			2
-prirasli	64		2
+pripretili	212		3
+pripucali	28		3
+pripustili			3
+prirasli	64		3
 priredili	2074		3
-priređivali	132		2
+priređivali	132		3
 prisegnuli			3
 prisetili	195		4
 prisećali	94		4
 prisili	313		3
 prisilili	205		4
 prisiljavali	100		3
-priskakali	33		2
-priskočili	148		2
+priskakali	33		3
+priskočili	148		3
 prislanjali	12		4
 prisli			2
 prislonili	29		3
@@ -3293,57 +3293,57 @@ prisluškivali	102		3
 prispeli	265		3
 pristajali	344		4
 pristali	2706		2
-pristigli	1010		2
+pristigli	1010		3
 pristizali	379		4
 pristupali	207		3
 pristupili	1572		3
 prisustvovali	12417		5
-prisvajali	83		2
-prisvojili	443		2
-pritajili	35		2
-pritegli	16		2
-pritegnuli			2
-pritekli	191		2
-pritesnili			2
-pritezali			2
-priticali			2
+prisvajali	83		3
+prisvojili	443		3
+pritajili	35		3
+pritegli	16		3
+pritegnuli			3
+pritekli	191		3
+pritesnili			3
+pritezali			3
+priticali			3
 pritiskali	188		3
-pritisli			2
+pritisli			3
 pritisnuli	118		4
-pritjerali		J	2
-pritrčali	79		2
+pritjerali		J	3
+pritrčali	79		3
 pritvarali			3
 pritvorili	34		3
-priupitali	26		2
-priučili			2
+priupitali	26		3
+priučili			3
 priuštili	193		3
 privali			2
 priveli	906		3
 privezali	44		3
 privikli	153		3
-privili			2
+privili			3
 privlačili	353		3
 privodili	113		3
 privoleli	114		3
 privoli	460		3
 privoljeli			3
 privukli	1856		2
-prizemljili	36		2
+prizemljili	36		3
 prizivali	174		3
 priznali	3299		3
 priznavali	456		3
 prizvali	101		3
 pričali	7707		3
 pričekali	14		4
-pričestili	206		2
-pričešćivali	60		2
+pričestili	206		3
+pričešćivali	60		3
 pričinili	111		3
 pričuvali			3
 pričvrstili	50		3
-prišili	36		2
-prišivali	12		2
+prišili	36		3
+prišivali	12		3
 prišli	1061		2
-prišunjali			2
+prišunjali			3
 priželjkivali	485		3
 prkosili	59		4
 prljali	31		3
@@ -3352,146 +3352,146 @@ probavili			4
 probdeli	18		3
 probijali	302		3
 probili	743		3
-probirali			2
+probirali			3
 proboli	31		2
 probudili	1028		3
 probušili	48		3
 procenili	1844		3
 procenjivali	271		3
-procureli	122		2
+procureli	122		3
 procurili	91		3
 procvali			2
-procvetali	119		2
-procvili			2
+procvetali	119		3
+procvili			3
 prodali	5624		3
 prodavali	2993		3
-prodenuli			2
+prodenuli			3
 prodirali	97		4
-prodiskutovali	34		2
+prodiskutovali	34		3
 prodrli	320		2
-prodrmali	37		2
-produbili	133		2
-produžavali			2
-produžili	914		2
+prodrmali	37		3
+produbili	133		3
+produžavali			3
+produžili	914		3
 profili	1747		2
-profilirali			2
-profilisali	53		2
+profilirali			3
+profilisali	53		3
 profitirali	557		3
-proganjali	187		2
+proganjali	187		3
 proglasili	2621		3
-progledali	174		2
+progledali	174		3
 prognali	104		3
 prognozirali	441		3
 progonili	217		3
 progovorili	357		3
-programirali	87		2
+programirali	87		3
 progrizli			3
-progrušali			2
-progurali	108		2
+progrušali			3
+progurali	108		3
 progutali	306		3
-prohladili			2
-prohodali	64		2
+prohladili			3
+prohodali	64		3
 prohteli			3
-prohujali	65		2
-proistekli	320		2
-proisticali			2
-proizašli	226		2
-proizišli	50		2
+prohujali	65		3
+proistekli	320		3
+proisticali			3
+proizašli	226		3
+proizišli	50		3
 proizveli	1359		3
 proizvodili	1081		3
 projektili	310		2
-projektovali	613		2
+projektovali	613		3
 projeli			3
 projurili	24		3
-prokapali			2
-prokisli			2
+prokapali			3
+prokisli			3
 prokleli	33		2
 proklinjali	64		4
-prokljuvili	14		2
-prokockali	286		2
+prokljuvili	14		3
+prokockali	286		3
 prokopali	65		3
 prokrijumčarili	20		3
-prokrčili	45		2
-prokužili			2
+prokrčili	45		3
+prokužili			3
 prolamali	15		3
 prolazili	2648		4
-proletali			2
-proleteli	55		2
+proletali			3
+proleteli	55		3
 proli			2
 prolili	128		3
-prolivali			2
+prolivali			3
 prolomili	18		3
-prolupali	38		2
+prolupali	38		3
 promakli	89		3
 promaknuli			3
 promašili	935		4
 promenili	5605		3
-prometnuli	11		2
-promešali	22		2
+prometnuli	11		3
+promešali	22		3
 promicali	54		4
 promisli	373		3
 promislili	54		4
 promišljali	37		3
-promoli	73		2
-promolili	13		2
-promovisali	1284		2
-promrzli	122		2
-promukli	64		2
+promoli	73		3
+promolili	13		3
+promovisali	1284		3
+promrzli	122		3
+promukli	64		3
 pronalazili	459		4
 pronašli	8361		2
 proneli	130		3
 pronicali			4
 pronikli	33		3
-pronosili	87		2
+pronosili	87		3
 propadali	197		4
 propali	2675		2
 propatili	165		4
-propinjali	18		2
+propinjali	18		3
 propisali	364		3
-propištali			2
+propištali			3
 propovedali	196		3
-propratili	377		2
+propratili	377		3
 propustili	3020		3
-proputovali	100		2
+proputovali	100		3
 propušili			4
 propuštali	158		3
 proradili	146		3
 proračunali	97		3
-proredili	79		2
+proredili	79		3
 prorekli	53		3
 proricali	65		3
-prorokovali	31		2
-prosijali	15		2
+prorokovali	31		3
+prosijali	15		3
 prosili	63		3
-prosipali	106		2
+prosipali	106		3
 proslavili	2270		4
-proslavljali	338		2
-prosledili	472		2
+proslavljali	338		3
+prosledili	472		3
 prostirali	63		4
 prostreli	24		3
 prostrli	34		2
-prosudili	16		2
-prosuli	210		2
-prosvetili	14		2
-prosvetli	328		2
-protegli	29		2
-protegnuli			2
-protekli	932		2
+prosudili	16		3
+prosuli	210		3
+prosvetili	14		3
+prosvetli	328		3
+protegli	29		3
+protegnuli			3
+protekli	932		3
 proterali	782		4
-protestovali	1442		2
-protestvovali	335		2
-protezali	51		2
+protestovali	1442		3
+protestvovali	335		3
+protezali	51		3
 proticali	41		4
 protivili	506		3
 protokoli	729		4
-protraćili			2
-protresli	27		2
-protrnuli			2
-protrčali	29		2
-protumačili	506		2
-proturali	24		2
-proturili	35		2
-protutnjali	58		2
+protraćili			3
+protresli	27		3
+protrnuli			3
+protrčali	29		3
+protumačili	506		3
+proturali	24		3
+proturili	35		3
+protutnjali	58		3
 prouzrokovali	520		5
 proučavali	749		3
 proučili	431		3
@@ -3501,42 +3501,42 @@ provaljivali	63		3
 proveli	5716		2
 proveravali	460		3
 proverili	1451		4
-proveseli	35		2
-provetrili			2
+proveseli	35		3
+provetrili			3
 provezli	14		2
-provideli			2
-provirili	18		2
-provirivali	15		2
+provideli			3
+provirili	18		3
+provirivali	15		3
 provlačili	103		3
-provocirali	223		2
+provocirali	223		3
 provodili	1309		3
-provozali	130		2
-provrvjeli		J	2
-provukli	238		2
+provozali	130		3
+provrvjeli		J	3
+provukli	238		3
 prozborili	37		3
-prozebli			2
-prozirali			2
+prozebli			3
+prozirali			3
 prozivali	320		3
-proziveli			2
+proziveli			3
 prozreli	134		3
-prozukli			2
+prozukli			3
 prozvali	922		3
 proćaskali	36		4
 proćerdali	124		3
-pročešljali	47		2
-pročistili	56		2
+pročešljali	47		3
+pročistili	56		3
 pročitali	4065		3
-pročuli	50		2
+pročuli	50		3
 prošetali	722		3
 proširili	1495		3
 prošli	14881		2
-prošvercovali	42		2
+prošvercovali	42		3
 prožderali			3
-proždirali	12		2
+proždirali	12		3
 proželi	15		2
 prožimali	44		4
-proživeli	372		2
-proživljavali	63		2
+proživeli	372		3
+proživljavali	63		3
 prskali	99		3
 prsli			2
 pružali	1232		3
@@ -3544,7 +3544,7 @@ pružili	4050		3
 prčkali			2
 pržili	52		3
 psovali	275		3
-pterodaktili			2
+pterodaktili			3
 pucali	1328		3
 pujdali			2
 pukli	641		2
@@ -3552,26 +3552,26 @@ puli			2
 pulsirali	10		3
 punili	532		3
 pustili	3281		3
-pustošili	78		2
+pustošili	78		3
 putovali	2120		3
 puzali	26		3
 pušili	330		3
 puštali	824		3
-puštili			2
+puštili			3
 pčeli	95		2
 radikali	7438		2
 radili	33004		3
-radmili			2
+radmili			3
 radovali	1044		4
 radoznali	781		3
 rafali	100		2
-raketirali	21		2
-rakoli			2
+raketirali	21		3
+rakoli			3
 rali	33		2
 ranili	275		3
 ranjavali	18		3
-rascvetali	47		2
-rasejali			2
+rascvetali	47		3
+rasejali			3
 rasekli	13		3
 raseli	53		2
 raselili	113		3
@@ -3580,170 +3580,170 @@ rashladili	69		3
 rasipali	93		4
 raskidali	55		3
 raskinuli	670		4
-rasklimali			2
+rasklimali			3
 raskoli	111		3
-raskomadali	61		2
-raskomotili	15		2
-raskopali	53		2
-raskopčali			2
-raskovali			2
-raskravili			2
-raskrili	19		2
-raskrinkali	63		2
+raskomadali	61		3
+raskomotili	15		3
+raskopali	53		3
+raskopčali			3
+raskovali			3
+raskravili			3
+raskrili	19		3
+raskrinkali	63		3
 raskrstili	100		3
-raskrvavili			2
-raskrčili	23		2
-raslabili			2
+raskrvavili			3
+raskrčili	23		3
+raslabili			3
 rasli	957		2
 raslojili			3
 raspadali	42		4
-raspakovali			2
+raspakovali			3
 raspali	640		2
-raspalili	50		2
-rasparčali			2
+raspalili	50		3
+rasparčali			3
 raspeli	80		3
-raspevali	10		2
-raspinjali	24		2
-raspirivali	29		2
+raspevali	10		3
+raspinjali	24		3
+raspirivali	29		3
 raspisali	707		3
 raspitali	190		3
-raspitivali	310		2
+raspitivali	310		3
 rasplakali	37		4
 raspleli			3
-rasplinuli	21		2
+rasplinuli	21		3
 raspodeli	2074		4
 raspolagali	516		3
-raspolutili			2
+raspolutili			3
 rasporedili	309		3
-rasporili	16		2
+rasporili	16		3
 raspravili	94		4
-raspravljali			2
-raspredali	19		2
-raspremili	15		2
+raspravljali			3
+raspredali	19		3
+raspremili	15		3
 rasprodali	432		3
 raspršili	97		3
-raspuknuli			2
+raspuknuli			3
 raspustili	80		3
 rasrdili			3
 rastajali	78		4
-rastakali	16		2
+rastakali	16		3
 rastali	126		2
 rastavili	63		4
 rastavljali	29		4
 rasterali	158		4
-rastezali	13		2
+rastezali	13		3
 rastopili	23		3
-rastočili			2
+rastočili			3
 rastrgali	11		4
-rastrgli	106		2
-rastrgnuli			2
-rastrojili			2
-rastrzali	14		2
-rastrčali	103		2
-rasturali	98		2
-rasturili	370		2
+rastrgli	106		3
+rastrgnuli			3
+rastrojili			3
+rastrzali	14		3
+rastrčali	103		3
+rasturali	98		3
+rasturili	370		3
 rastužili	39		3
 rastvarali			3
 rastvorili	26		3
-rasuđivali	21		2
-rasušili			2
-rasvetli	490		2
-rasvetlili	98		2
+rasuđivali	21		3
+rasušili			3
+rasvetli	490		3
+rasvetlili	98		3
 ratovali	1419		4
-ravioli	21		2
+ravioli	21		3
 razabrali	17		3
-razagnali			2
+razagnali			3
 razapeli	196		2
 razapinjali	44		4
 razarali	135		3
 razaslali			3
-razastirali			2
+razastirali			3
 razastrli			2
 razaznali	18		3
 razaznavali			3
 razbacali	47		3
-razbegli			2
-razbesneli	55		2
-razbežali	271		2
+razbegli			3
+razbesneli	55		3
+razbežali	271		3
 razbijali	335		3
 razbili	1159		3
 razblažili			3
 razboleli	144		3
 razboli	717		2
 razboljeli			3
-razbucali	68		2
+razbucali	68		3
 razbudili	56		3
-razbuktali	39		2
+razbuktali	39		3
 razdali			3
 razdavali			3
 razdeli	256		3
 razdelili	71		3
 razdirali	28		4
 razdražili			3
-razdrmali	24		2
+razdrmali	24		3
 razdvajali	140		3
 razdvojili	403		3
-razgalamili			2
+razgalamili			3
 razgali	82		2
 razgalili	51		3
 razglasili	35		3
-razgledali	292		2
-razgnevili			2
-razgonili			2
-razgoreli			2
+razgledali	292		3
+razgnevili			3
+razgonili			3
+razgoreli			3
 razgovarali	10483		3
 razgrabili	69		4
-razgradili	27		2
-razgranali	29		2
-razguli			2
-razigrali	175		2
+razgradili	27		3
+razgranali	29		3
+razguli			3
+razigrali	175		3
 razilazili	106		4
 razišli	1013		2
 razjarili			3
-razjasnili	311		2
+razjasnili	311		3
 razjurili	39		3
 razlagali			3
-razlegali	11		2
-razleteli	81		2
+razlegali	11		3
+razleteli	81		3
 razlikovali	791		5
 razlili	20		3
 razljutili	31		3
 razlomili			3
-razlupali			2
+razlupali			3
 razlučili	18		3
-razmahnuli			2
-razmakli			2
+razmahnuli			3
+razmakli			3
 razmatrali	1342		3
 razmazili	107		3
-razmekšali	10		2
+razmekšali	10		3
 razmenili	1284		3
 razmenjivali	688		3
-razmestili	29		2
+razmestili	29		3
 razmetali	24		4
-razmeštali	14		2
+razmeštali	14		3
 razmicali			4
-razmileli	82		2
+razmileli	82		3
 razmisli	4111		3
 razmislili	292		4
 razmišljali	2749		3
 razmnožavali	46		3
 razmnožili	40		3
 razmotrili	801		3
-razmrskali			2
-razmutili	24		2
+razmrskali			3
+razmutili	24		3
 razneli	91		2
 raznežili	15		3
 raznosili	73		3
-razobručili			2
+razobručili			3
 razorili	485		3
 razoružali	87		3
 razotkrili	167		3
 razočarali	751		3
 razradili	353		3
-razrakoli			2
-razrasli			2
-razrezali	18		2
-razrešili	301		2
+razrakoli			3
+razrasli			3
+razrezali	18		3
+razrešili	301		3
 razrušili	88		4
 razumeli	4987		3
 razumevali	145		3
@@ -3751,60 +3751,60 @@ razuverili	46		4
 razvali	182		2
 razvalili	199		3
 razvaljivali	31		3
-razvejali	33		2
+razvejali	33		3
 razveli	445		3
 razveseli	188		2
 razveselili	47		3
 razvezali	18		3
-razvezli			2
+razvezli			3
 razvijali	1403		3
 razvili	4226		3
 razvodili	32		3
 razvodnili	25		3
 razvrstali	37		3
-razvukli	159		2
+razvukli	159		3
 računali	1157		3
 račvali			2
 rađali	214		3
-rašili			2
+rašili			3
 raširili	306		3
-raštrkali	33		2
-raščinili	14		2
-raščistili	211		2
+raštrkali	33		3
+raščinili	14		3
+raščistili	211		3
 raščlanili			4
 raščlanjivali			3
 ražali	37		2
 reagovali	3812		5
-reaktivirali	20		2
-realizovali	2308		2
-recitovali	199		2
-redigovali			2
+reaktivirali	20		3
+realizovali	2308		3
+recitovali	199		3
+redigovali			3
 regali	62		2
-registrovali	1196		2
-regrutovali	132		2
-regulisali	527		2
-reklamirali	280		2
+registrovali	1196		3
+regrutovali	132		3
+regulisali	527		3
+reklamirali	280		3
 rekli	41187		2
-rekonstruisali	266		2
+rekonstruisali	266		3
 reli	1665		2
 remetili	105		4
-remizirali	313		2
+remizirali	313		3
 renovirali	236		3
-reprogramirali	44		2
+reprogramirali	44		3
 reptili	102		2
-reskirali	19		2
-retuširali			2
-revnovali			2
+reskirali	19		3
+retuširali			3
+revnovali			3
 rezali	72		3
-rezervisali	387		2
-rezimirali	31		2
-rezonovali	40		2
-rezultirali			2
+rezervisali	387		3
+rezimirali	31		3
+rezonovali	40		3
+rezultirali			3
 ređali	370		2
 rešavali	1223		3
 rešili	8241		3
 režali	25		3
-režirali	257		2
+režirali	257		3
 ribali	23		2
 ribizli	58		3
 ridali	13		3
@@ -3812,17 +3812,17 @@ ridli			2
 rikali			2
 rili			2
 ringišpili	38		4
-riskirali			2
+riskirali			3
 rituali	615		2
 rivali			2
-rizikovali	339		2
-robijali	42		2
-robili	12		2
+rizikovali	339		3
+robijali	42		3
+robili	12		3
 robovali	73		3
 rodili	1094		3
-rogušili			2
-roknuli	25		2
-romobili			2
+rogušili			3
+roknuli	25		3
+romobili			3
 ronili	115		3
 roptali			2
 rovarili	28		3
@@ -3832,23 +3832,23 @@ rukovali	220		4
 rukovodili	820		3
 rusofili	238		2
 ručali	262		3
-ručavali	16		2
+ručavali	16		3
 rušili	964		3
-ružili	27		2
+ružili	27		3
 rvali			2
 rđali			2
 sabili	52		3
 sabirali	141		4
 sablaznili	31		3
-saborovali			2
+saborovali			3
 sabotirali	81		3
 sabrali	508		3
 sadili	216		3
 sadržali	246		3
 sadržavali	121		4
 sagibali			3
-saglasili	1165		2
-saglašavali			2
+saglasili	1165		3
+saglašavali			3
 sagledali	605		4
 sagledavali	82		3
 sagnjili			3
@@ -3863,46 +3863,46 @@ sakrili	884		3
 sakrivali	136		3
 sakupili	1393		4
 sakupljali	450		3
-saletali	42		2
-saleteli			2
+saletali	42		3
+saleteli			3
 sali			2
-salivali			2
+salivali			3
 samleli			3
 samokontroli	71		2
-samonikli	98		2
+samonikli	98		3
 sanjali	1094		3
 sanjarili	27		3
-saobraćali	109		2
-saopštili	5253		2
-saosećali	26		2
-sapinjali			2
+saobraćali	109		3
+saopštili	5253		3
+saosećali	26		3
+sapinjali			3
 sapleli	51		3
 saplitali	57		4
 sarađivali	1996		3
-sasecali			2
+sasecali			3
 sasekli	65		3
-saslušali	414		2
-saslušavali	64		2
+saslušali	414		3
+saslušavali	64		3
 sastajali	595		4
 sastali	2281		3
 sastavili	870		4
 sastavljali	245		4
 sastojali	122		4
-sasuli	23		2
-saterali			2
-satirali			2
-satrli	75		2
-satrunuli			2
+sasuli	23		3
+saterali			3
+satirali			3
+satrli	75		3
+satrunuli			3
 savetovali	1077		5
 savijali	36		3
 savili	65		3
 savladali	4957		3
 sazdali	25		2
-sazdavali			2
-sazidali	146		2
+sazdavali			3
+sazidali	146		3
 sazivali	20		3
 saznali	7455		3
-saznavali	101		2
+saznavali	101		3
 sazreli	397		3
 sazrevali	65		3
 sazvali	146		3
@@ -3914,11 +3914,11 @@ sačuvali	3311		3
 sašili	37		3
 sažali	320		3
 sažalili	40		4
-sažaljevali			2
-sažegli			2
+sažaljevali			3
+sažegli			3
 saželi	61		2
-saživeli	39		2
-sažvakali	17		2
+saživeli	39		3
+sažvakali	17		3
 seckali	35		2
 sedali	62		3
 sedeli	3286		3
@@ -3926,11 +3926,11 @@ sedili	31		3
 sejali	312		3
 sekirali	40		3
 sekli	491		2
-sekuli			2
+sekuli			3
 seli	3967		2
 selili	337		3
-seljakali	17		2
-serijali	142		2
+seljakali	17		3
+serijali	142		3
 setili	2036		3
 sevali	67		3
 sezali	11		3
@@ -3944,19 +3944,19 @@ silili	26		3
 silovali	520		4
 simboli	2440		2
 simulirali	140		3
-simvoli			2
+simvoli			3
 sipali	316		3
-siromašili	25		2
+siromašili	25		3
 sisali	137		3
 sišli	607		2
-sjajili			2
+sjajili			3
 sjali			2
-sjatili	151		2
+sjatili	151		3
 sjedili		J	3
-sjedinili			2
-sjurili	32		2
+sjedinili			3
+sjurili	32		3
 skakali	401		3
-skakutali	45		2
+skakutali	45		3
 skali	1923		2
 skalpeli	15		3
 skalpirali			3
@@ -3964,7 +3964,7 @@ skamenili	15		4
 skandali	482		2
 skandirali	346		3
 skapali	16		2
-skapavali	15		2
+skapavali	15		3
 skenirali	141		3
 skicirali	45		3
 skidali	543		3
@@ -3975,16 +3975,16 @@ sklanjali	270		3
 sklapali	318		3
 sklepali	68		3
 sklizali			2
-skliznuli	81		2
+skliznuli	81		3
 sklonili			3
 sklopili	1306		3
-skoknuli	55		2
+skoknuli	55		3
 skontali	240		2
 skončali	89		2
-skončavali			2
+skončavali			3
 skovali	112		2
 skočili	508		3
-skrahirali			2
+skrahirali			3
 skrasili	54		3
 skratili	376		3
 skraćivali	54		3
@@ -3994,38 +3994,38 @@ skretali	202		3
 skrhali			2
 skrili	30		2
 skrivali	522		3
-skrivili	172		2
+skrivili	172		3
 skrnavili	56		4
 skrpili	58		3
 skršili	12		3
 skupili	1328		3
 skupljali	735		3
 skuvali	153		3
-skužili	37		2
+skužili	37		3
 slabili	59		3
 sladili	48		3
 slagali	1232		3
 slali	2366		2
 slavili	3687		3
 sledili	1127		3
-sledovali	34		2
+sledovali	34		3
 slegali	34		2
 slegli	128		2
-slegnuli			2
-slepili			2
+slegnuli			3
+slepili			3
 sletali	76		2
 sleteli	404		3
-sletili			2
+sletili			3
 sli			1
 slikali	1221		3
 slivali			2
 slomili	424		3
-slovili	61		2
+slovili	61		3
 složili	4286		3
 slupali	58		3
 slutili	339		3
 slušali	3945		3
-službovali	64		2
+službovali	64		3
 služili	3053		3
 smajli	312		2
 smaknuli	18		3
@@ -4042,7 +4042,7 @@ smenjivali	983		3
 smerali			2
 smestili	1302		3
 smetali	523		3
-smetnuli	63		2
+smetnuli	63		3
 smešali			2
 smešili	32		3
 smeškali	97		2
@@ -4058,39 +4058,39 @@ smislili	1515		3
 smišljali	198		3
 smogli	286		2
 smoli	44		2
-smorili	192		2
+smorili	192		3
 smotali	13		3
 smrdeli	19		3
-smrsili			2
+smrsili			3
 smrskali			3
-smrvili			2
+smrvili			3
 smrzavali	105		4
 smrzli			2
 smrznuli			3
 smršali	124		2
-smršavili			2
-smutili			2
+smršavili			3
+smutili			3
 smuvali	147		2
-smućivali			2
-smučili	143		2
+smućivali			3
+smučili	143		3
 snabdeli	116		3
 snabdevali	217		3
 snalazili	374		4
 snašli	1246		2
-snažili	19		2
+snažili	19		3
 snebivali	13		3
 sneli	10		2
-sneveseli			2
-snežnobeli			2
+sneveseli			3
+snežnobeli			3
 snili			2
 snimali	1361		3
 snimili	2641		3
 snivali			3
 snizili	343		3
 snižavali	29		3
-snosili	212		2
+snosili	212		3
 snovali			2
-socijali			2
+socijali			3
 sokoli	218		3
 sokolili			3
 soli	8149		2
@@ -4101,13 +4101,13 @@ spali	875		2
 spalili	763		3
 spaljivali	279		3
 spanđali			2
-sparušili			2
+sparušili			3
 spasavali	244		3
 spasili	1377		3
 spasli	851		2
 spavali	1489		3
 spazili	82		3
-spašavali			2
+spašavali			3
 specijalizovali	182		5
 spektakli	135		2
 spetljali	39		2
@@ -4115,22 +4115,22 @@ spirali	132		2
 spiskali	91		3
 spleli	15		2
 spojili	835		3
-spomagali			2
+spomagali			3
 spomenuli	1299		3
 spominjali	574		4
-sponzorisali	63		2
+sponzorisali	63		3
 spopali	23		3
 sporazumeli	214		3
-sporečkali			2
-sporili	140		2
-spotakli	27		2
-spoticali	36		2
+sporečkali			3
+sporili	140		3
+spotakli	27		3
+spoticali	36		3
 spoznali	391		3
 sprali	36		2
-spravili			2
+spravili			3
 spravljali	28		2
 sprdali	110		3
-spregnuli			2
+spregnuli			3
 spremali	1255		3
 spremili	1600		3
 sprečavali	370		3
@@ -4138,7 +4138,7 @@ sprečili	3942		3
 sprijateljili	166		3
 sproveli	3119		3
 sprovodili	1285		3
-spržili	35		2
+spržili	35		3
 spustili	1298		3
 sputali	30		3
 sputavali	67		3
@@ -4146,7 +4146,7 @@ spuštali	384		3
 sramotili	30		3
 srasli	139		2
 sravnili	110		3
-sravnjivali	12		2
+sravnjivali	12		3
 sračunali	49		3
 srdili			3
 sredili	751		3
@@ -4156,13 +4156,13 @@ srezali	24		2
 sređivali	128		3
 sricali	13		2
 srkali	14		3
-srnuli			2
-srodili	51		2
+srnuli			3
+srodili	51		3
 srozali	177		2
-sročili	51		2
-sručili	42		2
+sročili	51		3
+sručili	42		3
 srušili	1451		3
-stabilizovali	200		2
+stabilizovali	200		3
 stajali	2888		3
 stakli			2
 stali	3524		2
@@ -4170,9 +4170,9 @@ stanovali	485		3
 stapali	43		3
 starali	172		3
 starmali		M	2
-startovali	649		2
+startovali	649		3
 stasali	281		2
-stasavali	100		2
+stasavali	100		3
 stavili	7340		3
 stavljali	1390		3
 stegli	105		2
@@ -4183,7 +4183,7 @@ stenjali	37		2
 stezali	65		3
 sticali	797		2
 stideli	205		3
-stidili	11		2
+stidili	11		3
 stigli	15967		2
 stili		M	2
 stisli			2
@@ -4192,19 +4192,19 @@ stizali	1281		3
 stišali	42		3
 stišavali			3
 stojali	77		2
-stolovali	60		2
+stolovali	60		3
 stopili	143		3
-stopirali	100		2
-stovarili			2
+stopirali	100		3
+stovarili			3
 stradali	2907		2
 stradavali	37		3
 strahovali	246		3
-straćili			2
+straćili			3
 strašili	10		3
-stražarili	33		2
+stražarili	33		3
 streli	46		2
 streljali	669		2
-stremili	65		2
+stremili	65		3
 strepeli	163		3
 strepili	24		3
 strgali			2
@@ -4223,26 +4223,26 @@ stvarali	2796		3
 stvorili	8243		3
 sudarili	262		4
 sudili	696		3
-sugerisali	390		2
+sugerisali	390		3
 sukobili	643		3
 sukobljavali	146		3
-sumirali	119		2
+sumirali	119		3
 sumnjali	701		3
 sumnjičili	58		4
 sunčali	64		3
 suočavali	375		3
 suočili	982		3
-supermodeli	38		2
-supersili	34		2
+supermodeli	38		3
+supersili	34		3
 suprotstavili	562		4
 suprotstavljali	221		4
 surađivali	64		3
-surfovali	28		2
+surfovali	28		3
 survali	33		3
-suspendovali	103		2
+suspendovali	103		3
 susreli	1117		3
 susretali	557		4
-sustajali			2
+sustajali			3
 sustali			3
 sustigli	144		3
 sustizali	27		4
@@ -4254,19 +4254,19 @@ suzili	101		3
 sučeli	31		3
 sušili	75		3
 sužavali	23		3
-svahili	41		2
+svahili	41		3
 svali	277		2
-svalili	54		2
-svaljivali	20		2
+svalili	54		3
+svaljivali	20		3
 svađali	549		3
 svedočili	544		3
 sveli	885		2
-svetili	94		2
+svetili	94		3
 svetkovali	17		3
 svetleli			3
 svetli	2515		2
 svetlucali	18		3
-svetovali			2
+svetovali			3
 svezali	58		3
 svideli	239		3
 svikli	77		2
@@ -4275,12 +4275,12 @@ svirali	2436		3
 sviđali	93		3
 svlačili	26		3
 svodili	172		3
-svojatali	60		2
+svojatali	60		3
 svratili	384		3
 svraćali	179		3
 svrbeli			3
 svrdli			2
-svrgavali			2
+svrgavali			3
 svrgli	48		2
 svrgnuli	43		3
 svrstali	531		3
@@ -4296,64 +4296,64 @@ takli	32		2
 takmičili	1264		4
 taknuli			3
 talasali	30		3
-taložili	60		2
-tamanili	56		2
-tamnovali	17		2
+taložili	60		3
+tamanili	56		3
+tamnovali	17		3
 tapkali	41		2
 tapšali	114		2
-tavorili	32		2
+tavorili	32		3
 tegli	486		2
 teglili	23		3
-tekili			2
+tekili			3
 tekli	382		2
 telali			2
 telefonirali	45		3
-teleportovali			2
+teleportovali			3
 tepali	46		3
 terali	799		3
-teretili	69		2
-terminali	297		2
-terorisali			2
+teretili	69		3
+terminali	297		3
+terorisali			3
 tesli	658		2
 testirali	1454		3
 tetovirali	33		3
-teturali	19		2
+teturali	19		3
 tešili	109		3
 težili	589		3
 ticali	238		3
 tili			2
-tipizirali			2
-tipovali	55		2
+tipizirali			3
+tipovali	55		3
 tituli	948		3
 tištali			2
-tlačili	45		2
-tolerisali	170		2
+tlačili	45		3
+tolerisali	170		3
 tomboli	43		3
 tonuli	70		3
 topili	89		3
 topli	3156		2
 topoli	1656		2
-torokali			2
-tovarili	55		2
+torokali			3
+tovarili	55		3
 tovili	10		3
 tragali	490		3
 trajali	1675		3
 trampili	38		3
-transformisali	164		2
-transportovali	110		2
-trasirali	100		2
+transformisali	164		3
+transportovali	110		3
+trasirali	100		3
 traćili	28		3
 tračali			3
 tražili	15933		3
 trebali	14116		3
 trebili	13		3
 trebli			2
-trebovali	21		2
+trebovali	21		3
 trenirali	889		3
 treperili	18		3
 trepnuli	49		3
 tresli	161		2
-tresnuli	32		2
+tresnuli	32		3
 tretirali	581		3
 treznili			3
 trgali	15		3
@@ -4362,13 +4362,13 @@ trgnuli	26		3
 trgovali	403		4
 tribunali	60		2
 tricikli			2
-tripoli		M	2
+tripoli		M	3
 trkali	53		2
-trknuli			2
+trknuli			3
 trli			2
 trljali	114		3
-trnuli	13		2
-trodupli			2
+trnuli	13		3
+trodupli			3
 troli	44		2
 trovali	169		3
 trošili	1223		3
@@ -4380,7 +4380,7 @@ truckali	12		2
 trudili	3385		3
 truli	855		2
 trulili	11		3
-trunili			2
+trunili			3
 trzali	31		3
 trčali	1195		3
 trčkarali	45		4
@@ -4391,23 +4391,23 @@ tulumarili			3
 tumarali	66		3
 tumačili	643		3
 tuneli	459		2
-tupougli			2
-turili	33		2
-turčili			2
+tupougli			3
+turili	33		3
+turčili			3
 tuzli			2
-tuđili			2
+tuđili			3
 tuširali	33		3
-tužakali			2
+tužakali			3
 tužili	884		3
 tvorili	46		3
 tvrdili	3766		3
 ubacili	1750		3
 ubacivali	351		3
 ubadali	13		3
-ubedili	1020		2
-ubeležili	68		2
-ubelili			2
-ubeđivali	609		2
+ubedili	1020		3
+ubeležili	68		3
+ubelili			3
+ubeđivali	609		3
 ubijali	2422		3
 ubili	5142		3
 ubirali	97		4
@@ -4415,18 +4415,18 @@ ublažavali	19		3
 ublažili	560		3
 ubli			2
 uboli	109		2
-ubrajali	57		2
+ubrajali	57		3
 ubrali	115		3
 ubrizgali	83		4
 ubrizgavali	41		3
-ubrojali	36		2
+ubrojali	36		3
 ubrzali	684		3
 ubrzavali	48		4
 ucenili	112		3
 ucenjivali	198		3
-ucrtali	31		2
+ucrtali	31		3
 ucveli			3
-ucvelili			2
+ucvelili			3
 udahnuli	135		3
 udali	141		3
 udaljavali	124		3
@@ -4435,38 +4435,38 @@ udarali	627		4
 udarili	1061		4
 udavali	46		3
 udavili	131		3
-udebljali	19		2
+udebljali	19		3
 udeli	499		3
-udelili	43		2
-udesili	52		2
-udešavali			2
+udelili	43		3
+udesili	52		3
+udešavali			3
 udisali	81		4
 udomili	139		3
-udostojili	339		2
-udovoljili	141		2
+udostojili	339		3
+udovoljili	141		3
 udružili	971		3
 udruživali	65		3
-udubili	36		2
-udubljivali	19		2
-udvarali	62		2
+udubili	36		3
+udubljivali	19		3
+udvarali	62		3
 udvostručili	147		4
-ufurali			2
-uganuli			2
+ufurali			3
+uganuli			3
 ugasili	856		3
-ugazili	37		2
+ugazili	37		3
 ugađali	23		3
-uginuli	125		2
-uglavili	55		2
+uginuli	125		3
+uglavili	55		3
 ugledali	1078		4
-ugnezdili	31		2
-ugnjetavali	48		2
+ugnezdili	31		3
+ugnjetavali	48		3
 ugodili	112		3
-ugojili	107		2
-ugonili			2
+ugojili	107		3
+ugonili			3
 ugostili	781		3
 ugovarali	106		3
 ugovorili	485		3
-ugošćavali			2
+ugošćavali			3
 ugrabili	97		4
 ugradili	1028		3
 ugrađivali	206		3
@@ -4474,38 +4474,38 @@ ugrejali	94		4
 ugrizli	20		3
 ugrozili	844		3
 ugrožavali	282		3
-ugruvali			2
-ugurali	147		2
+ugruvali			3
+ugurali	147		3
 ugušili	203		3
-ugušivali			2
+ugušivali			3
 uhapsili	1538		4
-uhodali	34		2
-uhodavali			2
+uhodali	34		3
+uhodavali			3
 uhodili	26		3
-uhranili			2
+uhranili			3
 uhvatili	2452		4
-uigrali	49		2
+uigrali	49		3
 ujedali	47		3
 ujedinili	509		3
-ujednačili	46		2
+ujednačili	46		3
 ujeli	70		3
-ukaljali	66		2
-ukapirali	284		2
+ukaljali	66		3
+ukapirali	284		3
 ukazali	3565		3
 ukazivali	1808		3
-ukebali	20		2
+ukebali	20		3
 ukinuli	1408		4
-ukipili			2
-ukiseli	43		2
+ukipili			3
+ukiseli	43		3
 uklanjali	186		4
-uklapali	146		2
-uklesali	21		2
+uklapali	146		3
+uklesali	21		3
 uključili	2595		3
 uključivali	420		3
 uklonili	1274		3
-uklopili	551		2
-uknjižili	120		2
-ukokali			2
+uklopili	551		3
+uknjižili	120		3
+ukokali			3
 ukopali	76		3
 ukorenili	22		3
 ukorili	11		3
@@ -4519,159 +4519,159 @@ ukrotili	34		3
 ukrstili	245		3
 ukrutili			3
 ukrštali	139		3
-ukucali	74		2
-ukvasili			2
+ukucali	74		3
+ukvasili			3
 ulagali	1100		3
 ulazili	1562		4
-ulegli			2
+ulegli			3
 ulepšali	442		3
-uletali	22		2
-uleteli	329		2
-ulevali			2
-ulili	100		2
-ulivali			2
+uletali	22		3
+uleteli	329		3
+ulevali			3
+ulili	100		3
+ulivali			3
 ulizivali	20		3
 uljepšali		J	3
-uljuljkivali	26		2
-ulogorili	39		2
+uljuljkivali	26		3
+ulogorili	39		3
 ulovili	241		3
 uložili	4306		3
-ulučili			2
-umakali	14		2
+ulučili			3
+umakali	14		3
 umakli	54		3
 umali			2
-umanjili	582		2
-umanjivali	63		2
+umanjili	582		3
+umanjivali	63		3
 umarali	20		3
-umarširali	21		2
+umarširali	21		3
 umeli	1587		3
-umerili			2
-umesili	19		2
+umerili			3
+umesili	19		3
 umetnuli	24		4
-umešali	357		2
-umili	73		2
-umilili			2
-umiljavali			2
+umešali	357		3
+umili	73		3
+umilili			3
+umiljavali			3
 umirali	648		4
-umirili	179		2
-umirivali	28		2
+umirili	179		3
+umirivali	28		3
 umisli	62		3
 umislili	268		4
 umivali	42		3
 umišljali	14		3
-umnožavali	60		2
-umnožili	84		2
-umoli	213		2
-umolili	28		2
-umoljavali			2
+umnožavali	60		3
+umnožili	84		3
+umoli	213		3
+umolili	28		3
+umoljavali			3
 umorili	411		3
-umotali	41		2
-umočili	26		2
+umotali	41		3
+umočili	26		3
 umrli	1843		2
-umrtvili	36		2
-umudrili			2
-umukli	33		2
-umutili	23		2
+umrtvili	36		3
+umudrili			3
+umukli	33		3
+umutili	23		3
 unajmili	112		3
 unajmljivali	20		3
 unakazili	112		3
-unapredili	1217		2
-unazadili	159		2
+unapredili	1217		3
+unazadili	159		3
 uneli	1906		2
-uneredili	12		2
-unervozili			2
-unesrećili	53		2
+uneredili	12		3
+unervozili			3
+unesrećili	53		3
 unizili	38		3
 uništavali	687		3
 uništili	3608		4
 unižavali			3
 unosili	441		3
-unovačili			2
-unovčavali			2
+unovačili			3
+unovčavali			3
 unovčili	69		3
-uobičajili	24		2
-uobličili	121		2
+uobičajili	24		3
+uobličili	121		3
 uokvirili	28		3
-uopštili			2
+uopštili			3
 uozbiljili	72		3
 uočavali	77		3
 uočili	2021		3
 upadali	334		4
-upakovali	95		2
+upakovali	95		3
 upali	4258		3
 upalili	287		3
 upamtili	148		3
-uparili	40		2
+uparili	40		3
 upecali	176		4
 upeli			3
-uperili	91		2
-upetljali	52		2
+uperili	91		3
+upetljali	52		3
 upijali	90		3
 upili			3
-upinjali	95		2
+upinjali	95		3
 upirali	88		4
 upisali	2552		3
 upisivali	386		3
 upitali	783		3
-uplatili	1159		2
-uplaćivali	485		2
+uplatili	1159		3
+uplaćivali	485		3
 uplašili	990		4
 upleli	139		3
-uplitali	41		2
+uplitali	41		3
 uplovili	127		3
-upodobili	44		2
-upokojili	63		2
-uporedili	628		2
-upoređivali	241		2
+upodobili	44		3
+upokojili	63		3
+uporedili	628		3
+upoređivali	241		3
 uposli	590		2
 uposlili	174		3
-upotpunili	476		2
+upotpunili	476		3
 upotrebili	1168		3
 upotrebljavali	551		3
 upoznali	7905		3
 upoznavali	389		3
 upozoravali	1421		3
 upozorili	2079		3
-upratili			2
-upravili	11		2
+upratili			3
+upravili	11		3
 upravljali	930		4
-upražnjavali	144		2
-upregli	84		2
-upregnuli			2
-uprezali			2
+upražnjavali	144		3
+upregli	84		3
+upregnuli			3
+uprezali			3
 upriličili	292		4
 uprljali	85		3
 upropastili	1278		3
-uprostili	28		2
-uprskali	50		2
-upucali	49		2
-upucavali			2
-upustili	496		2
+uprostili	28		3
+uprskali	50		3
+upucali	49		3
+upucavali			3
+upustili	496		3
 uputili	5500		3
 upućivali	629		3
-upuštali	133		2
+upuštali	133		3
 uradili	20309		3
 uranili	10		4
-urasli	52		2
-urastali			2
-urazumili	31		2
+urasli	52		3
+urastali			3
+urazumili	31		3
 uračunali	107		3
 uredili	861		3
 urezali	64		4
 urezivali	33		3
 uređivali	260		3
-urgirali	42		2
+urgirali	42		3
 urlali	101		3
-urlikali	18		2
-urodili	414		2
+urlikali	18		3
+urodili	414		3
 uronili	30		3
 urotili	53		3
 uručili	1442		3
-urušili	169		2
+urušili	169		3
 usadili	142		3
-usaglasili	722		2
-usamili			2
-usamljivali			2
+usaglasili	722		3
+usamili			3
+usamljivali			3
 usavršili	380		3
 usađivali	16		3
 useli	585		2
@@ -4679,61 +4679,61 @@ uselili	535		3
 useljavali	50		3
 ushteli			3
 usidrili	40		4
-usijali	55		2
-usili			2
+usijali	55		3
+usili			3
 usisali	26		4
-uskakali	33		2
-uskladili	376		2
-usklađivali	51		2
-uskomešali	28		2
-uskočili	181		2
+uskakali	33		3
+uskladili	376		3
+usklađivali	51		3
+uskomešali	28		3
+uskočili	181		3
 uskratili	355		3
-uskrsnuli			2
-usledili	1724		2
-uslikali	170		2
-uslišili	32		2
-uslovili	556		2
-uslužili	20		2
+uskrsnuli			3
+usledili	1724		3
+uslikali	170		3
+uslišili	32		3
+uslovili	556		3
+uslužili	20		3
 usmeravali	229		3
 usmerili	791		4
 usmrdeli			3
-usmrtili	134		2
-usnuli	117		2
-uspaničili	49		2
+usmrtili	134		3
+usnuli	117		3
+uspaničili	49		3
 uspavali	147		3
 uspavljivali	27		3
 uspeli	34084		3
-uspentrali			2
+uspentrali			3
 uspevali	1619		3
 uspinjali	29		4
-uspokojili			2
+uspokojili			3
 usporavali	80		3
 usporili	325		3
 uspostavili	1963		4
-uspravili	32		2
-usprotivili	322		2
-usredsredili	171		2
-usrećavali			2
-usrećili	202		2
-ustajali	316		2
-ustalasali			2
+uspravili	32		3
+usprotivili	322		3
+usredsredili	171		3
+usrećavali			3
+usrećili	202		3
+ustajali	316		3
+ustalasali			3
 ustali	1152		2
-ustalili	71		2
-ustaljivali			2
+ustalili	71		3
+ustaljivali			3
 ustanovili	2505		3
-ustanovljavali			2
-ustezali	45		2
-ustoličili	89		2
+ustanovljavali			3
+ustezali	45		3
+ustoličili	89		3
 ustrajali	20		4
-ustrašili			2
+ustrašili			3
 ustreli	45		3
-ustrelili	18		2
-ustremili	73		2
-ustreptali			2
-ustrijelili		J	2
+ustrelili	18		3
+ustremili	73		3
+ustreptali			3
+ustrijelili		J	3
 ustrojili	34		3
-ustručavali	79		2
-ustuknuli	107		2
+ustručavali	79		3
+ustuknuli	107		3
 ustupali	58		3
 ustupili	416		3
 ustvrdili	88		3
@@ -4742,52 +4742,52 @@ usuli			2
 usuđivali	124		3
 usvajali	479		3
 usvojili	4551		3
-utabali	70		2
+utabali	70		3
 utaborili	11		3
 utajili	71		3
-utamničili	19		2
+utamničili	19		3
 utanačili	68		3
 utapali	26		3
-utegli			2
-utegnuli			2
+utegli			3
+utegnuli			3
 utekli	87		2
 utemeljili	159		3
-uterali	62		2
-uterivali	24		2
+uterali	62		3
+uterivali	24		3
 utešili	62		4
 uticali	3290		4
-utihnuli	122		2
-utirali	21		2
-utisnuli	55		2
-utišali	71		2
-utišavali			2
+utihnuli	122		3
+utirali	21		3
+utisnuli	55		3
+utišali	71		3
+utišavali			3
 utjecali		J	4
 utoli	162		2
 utolili	36		3
 utonuli	127		3
 utopili	189		3
-utopli	35		2
+utopli	35		3
 utovarili	58		4
 utrkivali	338		4
-utrli	89		2
-utrljavali			2
+utrli	89		3
+utrljavali			3
 utrnuli	32		3
 utrostručili	40		4
 utrošili	357		3
-utrpali	21		2
-utrčali	95		2
-utrčavali			2
+utrpali	21		3
+utrčali	95		3
+utrčavali			3
 utukli	10		2
-utuli			2
-utuvili	45		2
-utuvljivali			2
+utuli			3
+utuvili	45		3
+utuvljivali			3
 utvrdili	5422		3
 utvrđivali	170		4
 uvali	702		3
 uvalili	439		3
-uvaljali	22		2
+uvaljali	22		3
 uvaljivali	45		3
-uvatili	71		2
+uvatili	71		3
 uvažavali	208		3
 uvažili	289		3
 uveli			3
@@ -4808,119 +4808,119 @@ uviđali	59		3
 uvlačili	71		3
 uvodili	365		3
 uvozili	422		3
-uvratili			2
+uvratili			3
 uvredili	350		3
 uvrežili			3
 uvrstili	589		3
-uvrtali			2
+uvrtali			3
 uvukli	470		2
-uzavreli	51		2
+uzavreli	51		3
 uzbudili	116		3
 uzbunili	40		3
 uzbunjivali			3
 uzburkali	73		4
 uzbuđivali	30		3
 uzdali	119		2
-uzdigli	258		2
+uzdigli	258		3
 uzdisali	63		4
-uzdizali	145		2
-uzdrhtali	11		2
-uzdrmali	189		2
+uzdizali	145		3
+uzdrhtali	11		3
+uzdrmali	189		3
 uzdržali	87		3
 uzdržavali	57		4
 uzeli	10441		2
 uzgajali	152		3
-uzgajili			2
+uzgajili			3
 uzgojili	26		3
-uzidali	26		2
+uzidali	26		3
 uzimali	2780		4
 uzjahali	63		4
-uzjahivali			2
-uzjogunili	15		2
-uzlazili			2
+uzjahivali			3
+uzjogunili	15		3
+uzlazili			3
 uzleteli	49		3
 uzmakli			3
 uzmaknuli			3
 uzmicali	15		4
-uzmogli			2
-uzmuvali			2
-uznapredovali	163		2
+uzmogli			3
+uzmuvali			3
+uznapredovali	163		3
 uzneli	48		3
 uznemiravali	141		3
 uznemirili	193		3
-uznosili	16		2
+uznosili	16		3
 uzorali	22		3
-uzrasli			2
-uzrastali			2
+uzrasli			3
+uzrastali			3
 uzrokovali	257		5
 uzrujali	19		3
 uzrujavali	15		3
-uzurpirali	284		2
+uzurpirali	284		3
 uzvikivali	561		3
 uzviknuli	50		3
 uzvisili	19		3
-uzvratili	659		2
-uzvraćali	92		2
-ućarili			2
-ućutali	188		2
-ućutkali	76		2
-učestali	549		2
+uzvratili	659		3
+uzvraćali	92		3
+ućarili			3
+ućutali	188		3
+ućutkali	76		3
+učestali	549		3
 učestvovali	20603		5
 učili	4454		3
 učinili	12553		3
-učitali	57		2
+učitali	57		3
 učlanili	194		3
 učlanjivali	17		3
 učmali	33		2
 učvrstili	463		3
-ušančili			2
+ušančili			3
 ušetali	61		3
-ušili	36		2
-ušivali			2
-ušićarili	11		2
-uškopili	10		2
+ušili	36		3
+ušivali			3
+ušićarili	11		3
+uškopili	10		3
 ušli	12679		2
 uštedeli	900		3
-uštedili			2
-ušuljali			2
-ušunjali	31		2
-ušutkali			2
-užasavali	17		2
-užasnuli	20		2
-uželeli	151		2
-uželjeli			2
+uštedili			3
+ušuljali			3
+ušunjali	31		3
+ušutkali			3
+užasavali	17		3
+užasnuli	20		3
+uželeli	151		3
+uželjeli			3
 uživali	4976		3
-uživeli	59		2
-užurbali			2
+uživeli	59		3
+užurbali			3
 vabili			3
 vadili	691		3
 vafli	27		2
 vagali	37		3
 vajali			2
-vakcinisali	90		2
+vakcinisali	90		3
 vali			2
 valjali	272		3
 vandali	443		2
 vangli			2
-vanili	25		2
+vanili	25		3
 vapili	71		3
 varali	259		3
-varijabli	497		2
+varijabli	497		3
 varili	23		3
-varirali	79		2
+varirali	79		3
 vasceli			3
-vaskrsli	290		2
-vaskrsnuli	14		2
-vaspitali	228		2
-vaspitavali	214		2
+vaskrsli	290		3
+vaskrsnuli	14		3
+vaspitali	228		3
+vaspitavali	214		3
 vazali			2
 važili	642		3
-vedrili	37		2
-velehvali			2
-velesili	27		2
+vedrili	37		3
+velehvali			3
+velesili	27		3
 veli	7963		2
-veličali	190		2
-venecueli			2
+veličali	190		3
+venecueli			3
 ventili	504		2
 venuli			3
 venčali	1044		3
@@ -4941,11 +4941,11 @@ vežbali	799		3
 vidali	32		2
 videli	32618		3
 vijali	66		2
-vijorili	19		2
+vijorili	19		3
 vikali	726		3
 viknuli	26		3
 vili	2200		2
-virili	81		2
+virili	81		3
 viršli	164		2
 visili	270		3
 viđali	1004		3
@@ -4959,48 +4959,48 @@ vokali	263		2
 voleli	6879		3
 voli	35157		2
 voljeli	502	J	3
-volontirali	69		2
-vozikali	23		2
+volontirali	69		3
+vozikali	23		3
 vozili	2638		3
 vratili	11254		3
 vraćali	2254		3
-vrbovali	82		2
+vrbovali	82		3
 vrcali	17		2
 vrebali	119		3
 vredeli			3
 vrednovali	131		4
 vreli	648		2
 vređali	645		3
-vrgnuli			2
-vrijedili		J	2
+vrgnuli			3
+vrijedili		J	3
 vrištali	177		3
 vrli	867		2
 vrteli	268		3
 vrveli	18		3
-vrvili			2
+vrvili			3
 vrzli			2
 vrzmali	35		3
 vršili	2474		3
 vršljali	45		2
 vukli	887		2
-vulgarizovali			2
+vulgarizovali			3
 vuli			2
-zabacili	18		2
-zabacivali			2
+zabacili	18		3
+zabacivali			3
 zabadali	34		3
-zabarikadirali	67		2
-zabasali			2
+zabarikadirali	67		3
+zabasali			3
 zabavili	442		4
 zabavljali	955		4
-zabašurili	16		2
-zabeleli			2
-zabeležili	3188		2
+zabašurili	16		3
+zabeleli			3
+zabeležili	3188		3
 zabeli	51		3
 zabijali	50		3
 zabili	147		3
-zabilježili	139	J	2
+zabilježili	139	J	3
 zablistali	133		3
-zabludeli	103		2
+zabludeli	103		3
 zaboleli	18		3
 zaboli	1189		2
 zaboravili	8041		4
@@ -5016,139 +5016,139 @@ zacakli			2
 zacarili	11		4
 zaceli	101		2
 zacelili			3
-zacenili			2
+zacenili			3
 zacrtali	477		4
-zacvili	44		2
+zacvili	44		3
 zadali	464		3
 zadavali	152		3
 zadavili	32		3
-zadebljali	46		2
+zadebljali	46		3
 zadesili	293		4
-zadigli			2
-zadirali	24		2
+zadigli			3
+zadirali	24		3
 zadirkivali	83		3
 zadivili	125		3
-zadobili	699		2
-zadocneli		M	2
-zadocnili			2
-zadojili			2
+zadobili	699		3
+zadocneli		M	3
+zadocnili			3
+zadojili			3
 zadovoljavali	224		3
 zadovoljili	1584		3
 zadremali	19		3
-zadrhtali	16		2
-zadrigli			2
+zadrhtali	16		3
+zadrigli			3
 zadržali	3450		3
 zadržavali	372		4
-zaduvali			2
+zaduvali			3
 zadužili	1388		3
 zaduživali	346		3
 zafali	347		2
-zafrkavali	18		2
+zafrkavali	18		3
 zagadili	105		4
-zagazili	216		2
-zagladili			2
+zagazili	216		3
+zagladili			3
 zaglavili	247		3
-zagledali	132		2
+zagledali	132		3
 zaglibili	111		3
-zagnjurili			2
-zagolicali	29		2
-zagoreli	24		2
+zagnjurili			3
+zagolicali	29		3
+zagoreli	24		3
 zagorčali	38		3
-zagovarali	326		2
+zagovarali	326		3
 zagradili	23		3
-zagrajali			2
-zagrcnuli	16		2
-zagrebali	73		2
+zagrajali			3
+zagrcnuli	16		3
+zagrebali	73		3
 zagrejali	269		4
-zagrevali	96		2
+zagrevali	96		3
 zagrizli	100		3
 zagrli	948		3
 zagrlili	137		4
-zagrmeli			2
-zagrozili			2
-zagrtali			2
-zagubili	74		2
-zagušili	24		2
-zahladneli	73		2
-zahrđali			2
+zagrmeli			3
+zagrozili			3
+zagrtali			3
+zagubili	74		3
+zagušili	24		3
+zahladneli	73		3
+zahrđali			3
 zahtevali	1878		3
-zahuktali	112		2
+zahuktali	112		3
 zahvali	1551		3
 zahvalili	804		3
 zahvaljivali	72		3
 zahvatali	46		4
 zahvatili	294		4
-zaigrali	933		2
-zainteresovali	481		2
-zaišli			2
-zajamčili			2
-zakasneli			2
+zaigrali	933		3
+zainteresovali	481		3
+zaišli			3
+zajamčili			3
+zakasneli			3
 zakasnili	589		3
 zakazali	945		3
 zakazivali	63		3
-zakačili	218		2
-zakašnjeli	13		2
+zakačili	218		3
+zakašnjeli	13		3
 zakinuli	60		4
-zakiselili			2
-zakitili			2
+zakiselili			3
+zakitili			3
 zaklali	240		2
 zaklanjali	56		4
 zakleli	317		2
 zaklinjali	215		4
-zaključali	227		2
-zaključavali	37		2
+zaključali	227		3
+zaključavali	37		3
 zaključili	4520		3
 zaključivali	114		3
 zaklonili	45		3
-zakomplikovali	114		2
+zakomplikovali	114		3
 zakopali	212		3
 zakopavali	56		3
-zakopčavali			2
-zakoračili	408		2
-zakovali	27		2
-zakrili	35		2
-zakrpili	50		2
-zakrvili	21		2
-zakrćili			2
-zakrčili	40		2
-zakržljali	78		2
-zakucali	169		2
-zakucavali	14		2
-zakukali			2
-zakupili	304		2
-zakupljivali	22		2
-zakuvali	170		2
+zakopčavali			3
+zakoračili	408		3
+zakovali	27		3
+zakrili	35		3
+zakrpili	50		3
+zakrvili	21		3
+zakrćili			3
+zakrčili	40		3
+zakržljali	78		3
+zakucali	169		3
+zakucavali	14		3
+zakukali			3
+zakupili	304		3
+zakupljivali	22		3
+zakuvali	170		3
 zalagali	1163		3
 zalazili	124		4
 zaledili	46		3
-zalegli	36		2
-zalepili	207		2
-zaletali	41		2
-zalevali			2
-zalečili	31		2
+zalegli	36		3
+zalepili	207		3
+zaletali	41		3
+zalevali			3
+zalečili	31		3
 zalili	144		3
-zalivali			2
-zalizivali			2
+zalivali			3
+zalizivali			3
 zaljubili	339		3
 zaljubljivali	37		3
 založili	398		3
-zaludeli			2
+zaludeli			3
 zalupili	22		4
-zalutali	613		2
-zaluđivali	30		2
-zamagli	207		2
-zamaglili	24		2
+zalutali	613		3
+zaluđivali	30		3
+zamagli	207		3
+zamaglili	24		3
 zamahivali			3
-zamajavali	88		2
+zamajavali	88		3
 zamakli	18		2
-zamazali	50		2
-zamaštali			2
+zamazali	50		3
+zamaštali			3
 zamenili	2245		3
 zamenjivali	83		3
 zamerali	335		3
 zamerili	665		4
-zamesili	35		2
-zametali	11		2
+zamesili	35		3
+zametali	11		3
 zametnuli	27		4
 zamicali			4
 zamisli	8496		3
@@ -5156,230 +5156,230 @@ zamislili	1406		4
 zamišljali	505		3
 zamoli	1738		2
 zamolili	1276		3
-zamorili	34		2
-zamotali	17		2
-zamrli	88		2
-zamrsili	25		2
+zamorili	34		3
+zamotali	17		3
+zamrli	88		3
+zamrsili	25		3
 zamrzavali	18		4
-zamrzeli			2
+zamrzeli			3
 zamrzli			3
 zamrznuli	31		4
-zamukli	13		2
+zamukli	13		3
 zamutili	44		3
 zaneli	135		3
 zanemarili	394		3
 zanemarivali	94		3
-zanemeli	104		2
-zanemogli			2
+zanemeli	104		3
+zanemogli			3
 zanimali	400		3
-zanosili	49		2
-zanoćili	42		2
-zaobilazili	159		2
-zaobišli	376		2
-zaokoli			2
-zaokrenuli			2
+zanosili	49		3
+zanoćili	42		3
+zaobilazili	159		3
+zaobišli	376		3
+zaokoli			3
+zaokrenuli			3
 zaokružili	442		3
-zaokupili	38		2
-zaokupljali	29		2
+zaokupili	38		3
+zaokupljali	29		3
 zaostajali	225		4
-zaostali	1068		2
-zaoštrili	77		2
+zaostali	1068		3
+zaoštrili	77		3
 zapadali	39		4
-zapadnuli			2
+zapadnuli			3
 zapali	2045		2
 zapalili	1550		3
 zapamtili	453		3
 zapanjili	51		3
-zapatili	61		2
+zapatili	61		3
 zapazili	649		4
 zapažali	32		3
 zapeli	404		3
-zapetljali	47		2
-zapevali	185		2
-zapečatili	111		2
-zapinjali	23		2
-zapirali			2
+zapetljali	47		3
+zapevali	185		3
+zapečatili	111		3
+zapinjali	23		3
+zapirali			3
 zapisali	348		3
 zapisivali	142		3
 zapitali	1412		3
-zapitkivali	64		2
-zaplakali	83		2
-zaplamteli			2
+zapitkivali	64		3
+zaplakali	83		3
+zaplamteli			3
 zaplašili	71		4
 zapleli	41		3
-zaplenili	328		2
-zaplesali	62		2
-zaplitali	10		2
+zaplenili	328		3
+zaplesali	62		3
+zaplitali	10		3
 zaplivali	34		4
-zapljusnuli	28		2
+zapljusnuli	28		3
 zaplovili	57		3
-zapodenuli	13		2
-zapomagali	20		2
-zaposedali	26		2
-zaposeli	413		2
+zapodenuli	13		3
+zapomagali	20		3
+zaposedali	26		3
+zaposeli	413		3
 zaposli	4020		2
 zaposlili	1781		3
 zapostavili	237		4
-zapostili			2
+zapostili			3
 zapovedali	33		3
 zapovedili	22		4
 započeli	6244		2
-započinjali	200		2
+započinjali	200		3
 zapošljavali	476		3
-zaprašili			2
-zaprepastili	70		2
-zapretali			2
-zapretili	651		2
-zaprezali			2
-zaprečili			2
-zapričali	24		2
+zaprašili			3
+zaprepastili	70		3
+zapretali			3
+zapretili	651		3
+zaprezali			3
+zaprečili			3
+zapričali	24		3
 zaprljali	21		3
 zaprosili	15		3
-zaptili			2
-zapucali	110		2
+zaptili			3
+zapucali	110		3
 zapustili	98		3
-zaputili	306		2
+zaputili	306		3
 zapušili	65		4
 zaradili	3415		3
-zarasli	107		2
+zarasli	107		3
 zaratili	147		4
-zarazili	240		2
+zarazili	240		3
 zarađivali	670		3
 zaredali	11		3
 zarekli	42		3
-zaređali			2
-zaribali	17		2
-zaricali			2
-zaridali			2
-zarili	38		2
-zarobili	658		2
-zarobljavali	20		2
-zaronili	93		2
-zaručili			2
+zaređali			3
+zaribali	17		3
+zaricali			3
+zaridali			3
+zarili	38		3
+zarobili	658		3
+zarobljavali	20		3
+zaronili	93		3
+zaručili			3
 zarđali	145		2
 zasadili	416		3
-zasedali	94		2
-zasedavali			2
-zasejali	144		2
+zasedali	94		3
+zasedavali			3
+zasejali	144		3
 zaseli	172		3
 zasenili	87		4
-zasijali	58		2
-zasipali	141		2
+zasijali	58		3
+zasipali	141		3
 zasitili	149		4
 zasićivali			3
-zaskočili	26		2
+zaskočili	26		3
 zaslužili	4045		3
 zasmetali	61		3
-zasmeteli			2
-zasnivali	194		2
-zasnovali	362		2
-zasoli			2
+zasmeteli			3
+zasnivali	194		3
+zasnovali	362		3
+zasoli			3
 zaspali	377		3
 zastajali	74		4
-zastajkivali	23		2
+zastajkivali	23		3
 zastali	461		3
-zastareli	832		2
-zastideli			2
-zastranili	89		2
+zastareli	832		3
+zastideli			3
+zastranili	89		3
 zastrašili	47		4
 zastrašivali	69		3
 zastupali	750		3
-zasukali	85		2
-zasuli	187		2
-zasvetli	153		2
-zasvetlili			2
+zasukali	85		3
+zasuli	187		3
+zasvetli	153		3
+zasvetlili			3
 zatajili	122		3
 zataškali	49		4
-zategli			2
+zategli			3
 zatekli	3020		3
 zatezali	41		3
-zaticali	62		2
-zatirali	33		2
-zatopljavali			2
+zaticali	62		3
+zatirali	33		3
+zatopljavali			3
 zatočili	34		3
 zatražili	3511		3
-zatrebali	24		2
-zatresli	105		2
-zatrli	66		2
+zatrebali	24		3
+zatresli	105		3
+zatrli	66		3
 zatrovali	86		3
-zatrpali	193		2
-zatrpavali	65		2
-zatrudneli	27		2
-zatupeli			2
-zaturali			2
-zaturili	70		2
+zatrpali	193		3
+zatrpavali	65		3
+zatrudneli	27		3
+zatupeli			3
+zaturali			3
+zaturili	70		3
 zatvarali	424		3
 zatvorili	1863		3
 zaudarali	11		4
-zaurlali			2
+zaurlali			3
 zaustavili	2144		4
 zaustavljali	319		4
 zauzdali	24		3
-zauzdavali			2
+zauzdavali			3
 zauzeli	3967		2
 zauzimali	558		4
 zavadili	88		4
 zavali	209		3
-zavalili	31		2
-zavapili	39		2
+zavalili	31		3
+zavapili	39		3
 zavarali	68		4
 zavaravali	57		3
-zavarili	24		2
-zavađali	10		2
+zavarili	24		3
+zavađali	10		3
 zaveli	229		3
-zaverili			2
-zavetovali	94		2
+zaverili			3
+zavetovali	94		3
 zavezali	47		3
-zaveštali	79		2
-zavideli			2
+zaveštali	79		3
+zavideli			3
 zavijali	40		3
-zavikali			2
+zavikali			3
 zavili	145		3
 zavirili	151		3
 zavirivali	35		3
 zavisili	276		4
-zavitlavali			2
+zavitlavali			3
 zavladali	267		3
 zavlačili	64		3
 zavodili	62		3
 zavoleli	545		3
 zavoli	546		2
 zavoljeli	34		3
-zavrnuli	113		2
-zavrteli	35		2
+zavrnuli	113		3
+zavrteli	35		3
 završavali	906		4
 završili	12786		3
 zavukli	115		2
-zazidali	28		2
-zazirali	121		2
-zazivali	11		2
+zazidali	28		3
+zazirali	121		3
+zazivali	11		3
 zazvali			2
-zazvučali	14		2
+zazvučali	14		3
 zaćutali	123		3
 začarali	11		3
 začeli	77		2
-začepili	35		2
+začepili	35		3
 začinili	138		3
 začinjali			4
 začudili	133		4
-začuli	197		2
-zašili	25		2
+začuli	197		3
+zašili	25		3
 zašiljili			3
 zašli	268		2
-zaštedeli			2
+zaštedeli			3
 zaštitili	2825		3
 zažali	96		2
 zažalili	95		3
-zažegali			2
-zažegli			2
+zažegali			3
+zažegli			3
 zaželeli	65		3
 zaželi	201		2
 zaželjeli	17		3
-zaživeli	142		2
-zažizali			2
-zažmurili	33		2
-zbacili	109		2
-zbacivali	15		2
+zaživeli	142		3
+zažizali			3
+zažmurili	33		3
+zbacili	109		3
+zbacivali	15		3
 zbijali	60		3
 zbili	189		2
 zbirali			2
@@ -5396,26 +5396,26 @@ zbunili	276		3
 zbunjivali	73		3
 zdeli	29		2
 zderali			2
-zdipili			2
+zdipili			3
 zdjeli			2
-zdravili			2
-zdrpili			2
+zdravili			3
+zdrpili			3
 združili	34		3
 zevali	26		3
 zezali	314		2
-zeznuli	305		2
+zeznuli	305		3
 zgasli			2
-zgazili	131		2
+zgazili	131		3
 zgledali	38		2
-zgomilali			2
+zgomilali			3
 zgrabili	110		3
-zgranuli	18		2
+zgranuli	18		3
 zgražali	20		3
-zgrešili	152		2
+zgrešili	152		3
 zgrnuli	50		3
 zgrozili	40		3
 zgrtali	17		3
-zgrčili	12		2
+zgrčili	12		3
 zidali	340		3
 zijali			3
 zimovali	37		3
@@ -5423,8 +5423,8 @@ zinuli	59		3
 zivkali	12		2
 zjapili	13		3
 zli	3050		1
-zlobili			2
-zlomisli			2
+zlobili			3
+zlomisli			3
 zlopatili	12		4
 zlostavljali	295		4
 zloupotrebili	600		3
@@ -5444,7 +5444,7 @@ zviždali	247		3
 zvonili	94		3
 zvrcali			2
 zvučali	180		3
-ćapili			2
+ćapili			3
 ćaskali	164		3
 ćuli		M	2
 ćutali	1432		3
@@ -5453,12 +5453,12 @@ zvučali	180		3
 čarkali			2
 častili	211		3
 čavli	11		2
-čavrljali	29		2
+čavrljali	29		3
 čačkali	42		3
 čekali	6603		3
 čeličili			4
 čestitali	837		3
-četovali	24		2
+četovali	24		3
 čeznuli	89		3
 češali	25		3
 čileli			3
@@ -5473,23 +5473,23 @@ zvučali	180		3
 čupali	159		3
 čuvali	1906		3
 čučali	57		3
-čvarili			2
-đavoli	958		2
+čvarili			3
+đavoli	958		3
 đenerali	144		2
-đubrili			2
+đubrili			3
 šakali	135		3
 šali	2788		2
 šalili	344		3
 šamarali	44		3
 šaptali	14		3
 šaputali	94		3
-šarenili			2
+šarenili			3
 šeli			2
-šepurili	62		2
-šestokrili			2
+šepurili	62		3
+šestokrili			3
 šetali	1124		3
 šibali	49		3
-šifrirali			2
+šifrirali			3
 šikanirali	51		3
 šili	100		2
 šinjeli			3
@@ -5497,20 +5497,20 @@ zvučali	180		3
 širli			2
 šišali	80		3
 škakljali			2
-škartirali			2
+škartirali			3
 škljocali	21		2
 škodili	15		3
 školi	42901		2
 školovali	837		4
 škrgutali			4
 škripali	13		2
-škropili			2
-šljivili			2
-šlogirali			2
+škropili			3
+šljivili			3
+šlogirali			3
 šminkali	26		2
 šmrcali			2
 šmrkali			3
-šmugnuli	11		2
+šmugnuli	11		3
 šnicli	101		2
 šokirali	182		3
 špartali	36		2
@@ -5523,7 +5523,7 @@ zvučali	180		3
 štektali			2
 štikli			2
 štimali			3
-štimovali			2
+štimovali			3
 štipali			3
 štitili	766		3
 štrajkovali	539		4
@@ -5531,17 +5531,17 @@ zvučali	180		3
 štrudli	74		2
 štrčali	42		2
 šunjali	26		3
-šutirali	440		2
+šutirali	440		3
 šutjeli	55	J	3
-šutnuli	134		2
+šutnuli	134		3
 šuštali			3
-švercovali	121		2
+švercovali	121		3
 ščepali	17		3
 žali	5755		2
 žalili	2197		3
 žalostili			3
-žamorili			2
-žarili	77		2
+žamorili			3
+žarili	77		3
 ždrali			2
 žegli			2
 želeli	19876		3
@@ -5549,18 +5549,18 @@ zvučali	180		3
 željeli	1065	J	3
 ženili	158		3
 žeđali			3
-žigosali	49		2
-živahnuli			2
+žigosali	49		3
+živahnuli			3
 živeli	13213		3
-živili		J	2
-živnuli	59		2
-životarili	32		2
-žlebili			2
+živili		J	3
+živnuli	59		3
+životarili	32		3
+žlebili			3
 žmirkali			2
-žmurili	31		2
+žmurili	31		3
 žnjeli	16		2
 žrtvovali	548		4
-žuborili			2
+žuborili			3
 žudeli	88		3
 žurili	357		3
 žurnali	39		2
@@ -5574,12 +5574,12 @@ cjelivali			3
 dijeli	879		3
 dijelili	232		4
 djeli			2
-djelili			2
+djelili			3
 djelovali			4
 dodijeli	96		3
 dodijelili	27		4
 dodjeli			3
-doletjeli			2
+doletjeli			3
 donijeli	712		3
 dospjeli	90		3
 doživjeli	415		3
@@ -5590,32 +5590,32 @@ htjeli	1524		2
 iscijeli	27		3
 iscijelili			4
 isjekli			3
-ispjevali			2
+ispjevali			3
 istjerali			4
 izbjegavali			3
-izbjegli			2
-izgorjeli	24		2
+izbjegli			3
+izgorjeli	24		3
 izliječili	16		4
-izmijenili			2
+izmijenili			3
 izmjerili			4
-iznevjerili			2
+iznevjerili			3
 iznijeli	220		3
-izumjeli			2
+izumjeli			3
 izvijestili			4
 letjeli			3
-lijegali			2
+lijegali			3
 liječili	40		4
-ljetovali			2
+ljetovali			3
 mijenjali	163		4
 miješali	51		4
 mjerili			3
 nadijevali			4
-naletjeli	24		2
+naletjeli	24		3
 namijenili	16		4
 namjeravali			3
-namjerili			2
+namjerili			3
 namjestili			4
-nanijeli	125		2
+nanijeli	125		3
 nasjeli			3
 naslijedili	61		4
 natjerali			4
@@ -5623,97 +5623,97 @@ obavijestili	126		4
 objesili			4
 ocijenili			4
 ocjenjivali			3
-odbjegli			2
+odbjegli			3
 odijelili			4
 odletjeli			3
 odnijeli	158		3
-odriješili			2
+odriješili			3
 odsjekli			3
 odsjeli			3
-ogrubjeli			2
+ogrubjeli			3
 oklijevali	11		4
-okorjeli	32		2
-onesvijestili			2
+okorjeli	32		3
+onesvijestili			3
 opredijeli	34		3
 opsjedali			3
-osijecali			2
-osjecali			2
+osijecali			3
+osjecali			3
 osjetili			4
 osjećali			4
-oslijepili			2
-osmjelili			2
-ostarjeli	28		2
-osvijetli	49		2
+oslijepili			3
+osmjelili			3
+ostarjeli	28		3
+osvijetli	49		3
 otjerali			4
-otpijevali			2
+otpijevali			3
 oživjeli	20		3
 pjevali			3
 pobijedili	213		4
-pobjedili			2
+pobjedili			3
 pobjegli			3
 pobjeđivali			3
-podcijenili			2
+podcijenili			3
 podijeli	336		3
 podijelili	194		4
 podjeli			3
-podjelili			2
+podjelili			3
 podnijeli	297		3
 podsjetili			4
 pogriješili	100		4
 poletjeli	24		3
-polijegali			2
-poludjeli	11		2
+polijegali			3
+poludjeli	11		3
 pomiješali	19		4
-pomjerili	25		2
-ponijeli	129		2
-posjedali			2
+pomjerili	25		3
+ponijeli	129		3
+posjedali			3
 posjedovali			5
 posjekli			3
 posjetili			4
 posjećivali			3
-posvijetli			2
-potjerali			2
+posvijetli			3
+potjerali			3
 povjerili			4
 povjerovali			5
 povrijedili	38		4
 poštedjeli			3
 predvidjeli	93		4
 preletjeli			3
-premjestili			2
+premjestili			3
 prenijeli	344		3
 presjekli			3
 pretjerali			4
 pretrpjeli	99		3
-preusmjerili			2
-previdjeli	13		2
-preživjeli	424		2
-pribjegli			2
-prijestoli			2
+preusmjerili			3
+previdjeli	13		3
+preživjeli	424		3
+pribjegli			3
+prijestoli			3
 prijetili	108		4
 primijenili	39		4
 primijetili	219		4
-primjetili			2
-prinijeli	27		2
+primjetili			3
+prinijeli	27		3
 procijenili			4
 promijenili	229		4
-promjenili			2
-pronijeli			2
-proslijedili	21		2
-prosvijetli	51		2
+promjenili			3
+pronijeli			3
+proslijedili	21		3
+prosvijetli	51		3
 protjerali			4
 provjeravali			3
 provjerili			4
-proživjeli	40		2
-razbježali			2
+proživjeli	40		3
+razbježali			3
 razdijeli	51		3
 razmijenili	89		4
 razmjenjivali			3
 raznijeli	10		3
-razumijeli			2
+razumijeli			3
 razumjeli	289		3
 riješili	283		4
 rješavali			4
-rješili			2
+rješili			3
 savjetovali			5
 sijevali			4
 sjeli			2
@@ -5728,7 +5728,7 @@ snijeli			3
 sporazumjeli	18		3
 spriječili			4
 strijeli			3
-strijeljali	42		2
+strijeljali	42		3
 svidjeli	15		3
 svijetli	281		3
 svjedočili			3
@@ -5736,20 +5736,20 @@ svrbjeli			3
 tjerali			3
 tješili			3
 trpjeli	51		3
-ubijedili	29		2
-ubjeđivali			2
+ubijedili	29		3
+ubjeđivali			3
 ucjenjivali			3
-udijeli	30		2
-uletjeli			2
-umiješali	20		2
+udijeli	30		3
+uletjeli			3
+umiješali	20		3
 umjeli	51		3
-unaprijedili	39		2
+unaprijedili	39		3
 unijeli	98		3
 usmjerili			4
-uspijeli			2
+uspijeli			3
 uspijevali	56		4
 uspjeli	1798		3
-ustrijeli	11		2
+ustrijeli	11		3
 utješili			4
 uvidjeli	122		4
 uvjeravali			3
@@ -5766,23 +5766,23 @@ vjerovali			4
 vježbali			3
 vrijeđali	46		4
 vrtjeli	14		3
-zabijeli			2
+zabijeli			3
 zacijeli			3
-zagrmjeli			2
+zagrmjeli			3
 zahtijevali	104		4
-zahtjevali			2
-zalijepili	12		2
+zahtjevali			3
+zalijepili	12		3
 zamijenili	105		4
-zamjenili			2
+zamjenili			3
 zamjerili			4
-zanijeli			2
-zaplijenili			2
-zaprijetili	52		2
+zanijeli			3
+zaplijenili			3
+zaprijetili	52		3
 zasjeli			3
-zastarjeli	36		2
-zasvijetli	17		2
-zavjetovali	17		2
-zgriješili	10		2
+zastarjeli	36		3
+zasvijetli	17		3
+zavjetovali	17		3
+zgriješili	10		3
 zivjeli			3
 štedjeli	18		3
 živjeli	1407		3

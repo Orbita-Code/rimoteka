@@ -18,9 +18,9 @@ brža	2037		2
 budža		M	2
 crteža	3721		3
 daidža			3
-daveža	13		2
+daveža	13		3
 demontaža	341		2
-derikoža		M	2
+derikoža		M	3
 deža			2
 doža			2
 draža	860		2
@@ -31,7 +31,7 @@ džidža		M	2
 ermitaža			2
 eskivaža			2
 etaža	397		2
-feredža	28		2
+feredža	28		3
 fotomontaža	127		2
 gadža			2
 galogaža			2
@@ -39,14 +39,14 @@ gandža			2
 garaža	1728		2
 gaža	10		2
 gedža		M	2
-glavudža			2
+glavudža			3
 gnjavaža	103		2
-grabeža	49		2
+grabeža	49		3
 griža	184		2
 gruža			2
 gulikoža	12		4
 hadža	106		2
-hatidža			2
+hatidža			3
 hodža	382		2
 ilidža			2
 imidža	2120		3
@@ -59,21 +59,21 @@ kaleža			3
 kambodža			2
 kamuflaža	123		2
 kandža	106		2
-kanjiža			2
+kanjiža			3
 kaptaža			2
 kartonaža	10		2
-kembridža			2
+kembridža			3
 kilaža	232		2
-kilometraža	584		2
+kilometraža	584		3
 kiretaža			2
 kolaža	388		2
 koledža	1736		3
 kolportaža			2
-konsijerža			2
+konsijerža			3
 kovrdža	70		3
 koža	10588		2
 križa	300		2
-krleža			2
+krleža			3
 kubikaža			2
 kupaža			2
 ladoleža			2
@@ -88,7 +88,7 @@ madeža			3
 maharadža	49		4
 makljaža	45		2
 mandža			2
-manježa			2
+manježa			3
 marža	896		2
 masaža	3017		2
 menaža			2
@@ -112,18 +112,18 @@ najteža	1820		3
 najuža	79		3
 naoruža	184		2
 narandža		M	2
-nerandža			2
-neravnoteža	412		2
+nerandža			3
+neravnoteža	412		3
 nindža	352		2
 niža	6372		2
 noža	1396		2
-odleža			2
+odleža			3
 održa	22		2
 omaža			2
-oniža			2
+oniža			3
 opaža	478		2
 oruža	17		2
-oteža	406		2
+oteža	406		3
 oštrokondža			2
 padeža	274		3
 paleža	33		3
@@ -138,14 +138,14 @@ persiflaža	16		2
 pilotaža		M	2
 plantaža	539		2
 plaža	6005		2
-podmreža			2
+podmreža			3
 podrža			2
-poduža	106		2
-položa			2
+poduža	106		3
+položa			3
 pomorandža	400		2
 ponajteža			2
 potaža	16		2
-poteža			2
+poteža			3
 predstraža	49		2
 prestiža	970		3
 pridrža			2
@@ -169,8 +169,8 @@ sabotaža	210		2
 sadrža			2
 serklaža	42		2
 silaža			2
-skrapeža			2
-sluzokoža	308		2
+skrapeža			3
+sluzokoža	308		3
 sondaža			2
 spuža			2
 stalaža			2
@@ -192,7 +192,7 @@ trčilaža		M	2
 uholaža			2
 uzdrža			2
 uža	936		2
-veleža			2
+veleža			3
 velmoža		M	3
 veža			2
 vitraža	159		2
@@ -201,7 +201,7 @@ voltaža	264		2
 vreža	17		2
 zadrža	45		2
 zapaža	1268		2
-zareža			2
+zareža			3
 zgraža	27		2
 šarža			2
 špijunaža	243		2

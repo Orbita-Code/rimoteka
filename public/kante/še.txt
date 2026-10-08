@@ -1,40 +1,40 @@
 2967
-afirmiše			2
+afirmiše			3
 ajše			2
 aktiviraše			3
 alarmiraše			3
-aljoše			2
-arambaše			2
-arlaukaše			2
+aljoše			3
+arambaše			3
+arlaukaše			3
 artikuliše	606		3
 ataše	437		3
 autonomaše	97		2
 bacaše			3
 baciše	403		3
-bagateliše			2
-bakaruše			2
-bakšiše			2
-bandažiraše			2
+bagateliše			3
+bakaruše			3
+bakšiše			3
+bandažiraše			3
 bankrotiraše			3
 banuše			3
-batališe			2
+batališe			3
 batinaše			3
 bauljaše			3
-baviše			2
+baviše			3
 bavljaše			3
 begaše			3
-begeniše			2
+begeniše			3
 bejaše			3
 beknuše			3
-beriše			2
+beriše			3
 beseđaše			4
 beše			2
 bežaše			3
 bijaše	679		3
-binjiše			2
+binjiše			3
 biraše			3
 bistraše			3
-bitiše	79		2
+bitiše	79		3
 bivaše			3
 bivše	21106		2
 bičevaše			4
@@ -45,18 +45,18 @@ bleštaše			3
 blistaše			3
 bljuvaše			3
 blokiraše			3
-bludničiše			2
+bludničiše			3
 bogataše	449		2
-bogaćaše			2
-bogohuliše			2
+bogaćaše			3
+bogohuliše			3
 bojaše			3
 bolovaše			3
 bombaše			3
-boraviše			2
+boraviše			3
 boravljaše			4
 boraše			3
-boriše			2
-braniše			2
+boriše			3
+braniše			3
 branjaše			3
 branše			2
 braćaše			3
@@ -69,15 +69,15 @@ brojaše			3
 brucoše	253		3
 brujaše			3
 buknuše			3
-buniše			2
+buniše			3
 buđaše			3
-carovaše			2
+carovaše			3
 celivaše			3
 cenzuriše	195		3
 cepaše			3
 ciknuše			3
-cinkaroše	10		2
-cirkuliše			2
+cinkaroše	10		3
+cirkuliše			3
 crkoše			3
 cvetaše			3
 cviljaše			3
@@ -86,115 +86,115 @@ dadoše	407		3
 darivaše			3
 darovaše	13		3
 davaše			3
-daviše			2
+daviše			3
 davljaše			3
 daše	11		2
-definiše	10862		2
-deformiše	286		2
-deklariše	570		2
-dekoncentriše	76		2
-dekoriše	46		2
+definiše	10862		3
+deformiše	286		3
+deklariše	570		3
+dekoncentriše	76		3
+dekoriše	46		3
 delaše			3
-delibaše			2
+delibaše			3
 deljaše			3
 delovaše			4
-demarše			2
-demorališe	85		2
-demotiviše	93		2
-denunciraše			2
+demarše			3
+demorališe	85		3
+demotiviše	93		3
+denunciraše			3
 depeše	474		3
 deraše			3
-derviše			2
+derviše			3
 desiše	25		3
-destruiše			2
+destruiše			3
 deveruše	78		3
-dezavuiše	200		2
-dezintegriše			2
-dezorijentiše	34		2
+dezavuiše	200		3
+dezintegriše			3
+dezorijentiše	34		3
 dešavaše			3
 digoše	77		3
 diktiraše			3
 diraše			3
 dirnuše			3
 disaše			3
-diskriminiše			2
-diviše			2
+diskriminiše			3
+diviše			3
 divljaše			3
 dizaše			3
-dizelaše	132		2
+dizelaše	132		3
 diše	3262		2
 dobijaše			3
 dobivaše			3
 dobiše	304		3
-doboše			2
-dodadoše			2
+doboše			3
+dodadoše			3
 dodavaše			3
 dodaše			3
-dodijavaše			2
-dodijaše			2
+dodijavaše			3
+dodijaše			3
 dodirivaše			3
 dodirnuše	11		3
-dodoše			2
+dodoše			3
 doduše	21900		2
 događaše			3
 dognaše			3
 dogodiše	37		3
-dogoniše			2
+dogoniše			3
 dogovoriše	123		3
-dograbiše			2
-doguraše			2
-dohitiše			2
+dograbiše			3
+doguraše			3
+dohitiše			3
 dohvatiše	88		4
 dojaviše			3
 dojaše			3
-dojezdiše			2
+dojezdiše			3
 dokazivaše			3
-dokopaše			2
-dokotrljaše			2
-dokoturaše			2
+dokopaše			3
+dokotrljaše			3
+dokoturaše			3
 dokrajčiše			3
-dolaziše			2
+dolaziše			3
 dolažaše			4
-doletaše			2
+doletaše			3
 doleteše			3
-dolibaše			2
+dolibaše			3
 dolikovaše			5
-domamiše			2
+domamiše			3
 domisliše			4
 domišljaše			3
 donesoše	78		4
 doneše	50		2
-donosiše			2
+donosiše			3
 donošaše			3
 dopadaše			4
 dopadoše	18		4
 dopaše			3
-dopeljaše			2
+dopeljaše			3
 dopiraše			4
 dopisivaše			3
 dopiše	88		2
 doplivaše			4
 dopreše	17		2
 doprineše			2
-doputovaše	10		2
+doputovaše	10		3
 dopuštaše			3
 dosadiše	24		3
 dosađivaše			3
 doseliše	17		3
 dosezaše			3
-dosjetiše			2
+dosjetiše			3
 dospeše			3
 dostaviše	10		4
 dostigoše	10		4
-dotaknuše			2
-dotakoše			2
-doteraše			2
-doticaše			2
+dotaknuše			3
+dotakoše			3
+doteraše			3
+doticaše			3
 dotrčaše	24		3
-doturiše			2
+doturiše			3
 dovedoše	257		3
-dovezoše			2
-dovijaše			2
+dovezoše			3
+dovijaše			3
 dovikivaše			3
 dovođaše			3
 dovrše	280		2
@@ -210,7 +210,7 @@ dočekivaše			3
 dočepaše			3
 dođoše	899		3
 doživeše	13		3
-dragiše			2
+dragiše			3
 dražaše			3
 drhtaše			3
 drznuše			3
@@ -218,33 +218,33 @@ držaše			3
 dugovaše			3
 duvaše			3
 duše	17996		2
-džeparoše			2
-eksperimentiše	618		2
-eksploatiše	829		2
-eliminiše	2696		2
-evakuiše			2
-fališe			2
+džeparoše			3
+eksperimentiše	618		3
+eksploatiše	829		3
+eliminiše	2696		3
+evakuiše			3
+fališe			3
 fetiše	60		3
-figuriše			2
+figuriše			3
 finiše			3
 flaše			2
-formuliše			2
-fotografiše	821		2
-frknuše			2
-funkcioniše			2
-fuzioniše			2
+formuliše			3
+fotografiše	821		3
+frknuše			3
+funkcioniše			3
+fuzioniše			3
 gajdaše			3
-garavuše			2
-gasiše			2
-gasnuše			2
-gaziše			2
+garavuše			3
+gasiše			3
+gasnuše			3
+gaziše			3
 gaćeše			3
 gašaše			3
 gaše			2
 gažaše			3
 gejše	143		2
-generiše	2259		2
-ginuše			2
+generiše	2259		3
+ginuše			3
 gizdaše			3
 glasaše			3
 glasonoše	23		3
@@ -254,154 +254,154 @@ gmizaše			3
 gnevljaše			3
 gnušaše			3
 gomilaše			3
-goniše			2
+goniše			3
 gonjaše			3
 goraše			3
 goreše			3
 gorđaše			3
 govoraše			3
-govoriše			2
+govoriše			3
 goše			2
-gradiše			2
-graknuše	10		2
+gradiše			3
+graknuše	10		3
 građaše			3
 grcaše			3
 grejaše			3
 greše	1526		2
-grešiše			2
+grešiše			3
 grljaše			3
 grmeše			3
-grmiše			2
+grmiše			3
 grmljaše			3
-grmnuše			2
+grmnuše			3
 groše			2
-grunuše	13		2
-grupiše	173		2
+grunuše	13		3
+grupiše	173		3
 grđaše			3
 gubljaše			3
-gugutaše			2
+gugutaše			3
 guraše			3
 gurnuše	20		3
 gutaše			3
 guše	1440		2
 hajaše			3
-halaknuše			2
-harambaše	85		2
-hipnotiše	96		2
-histeriše			2
+halaknuše			3
+harambaše	85		3
+hipnotiše	96		3
+histeriše			3
 hitaše			3
 hodaše			3
-hodiše			2
+hodiše			3
 hoćaše			3
 hođaše			3
 hrabraše			3
-hraniše			2
+hraniše			3
 hranjaše			3
 hrkaše			3
 htedoše			3
 hteše			2
-huknuše			2
+huknuše			3
 hučaše			3
 huškaše			3
 hvalisaše			4
 hvališe	78		3
 hvaljaše			3
 hvataše			3
-hvatiše			2
-idoše			2
-ignoriše	2107		2
+hvatiše			3
+idoše			3
+ignoriše	2107		3
 igraše			3
-ikonopiše			2
-imadijaše			2
+ikonopiše			3
+imadijaše			3
 imadoše			4
-imađaše			2
+imađaše			3
 imaše			3
 imenovaše			5
-imponovaše			2
-inauguriše	56		2
-informiše	2190		2
-inkriminiše			2
-inspiriše			2
-integriše			2
-interveniše			2
-intervjuiše	179		2
-ironiše			2
+imponovaše			3
+inauguriše	56		3
+informiše	2190		3
+inkriminiše			3
+inspiriše			3
+integriše			3
+interveniše			3
+intervjuiše	179		3
+ironiše			3
 isceliše	40		3
 isceljivaše			3
-iscepaše			2
+iscepaše			3
 iscrpiše			3
-isekoše	14		2
+isekoše	14		3
 iseliše			3
-ishođaše			2
+ishođaše			3
 iskališe			3
-iskapiše			2
+iskapiše			3
 iskazivaše			3
 iskaše			3
 iskašljaše			3
 iskidaše	12		4
 iskitiše			4
-iskolačiše			2
-iskomadaše			2
-iskontroliše	175		2
+iskolačiše			3
+iskomadaše			3
+iskontroliše	175		3
 iskopaše	40		3
-iskosiše			2
+iskosiše			3
 iskočiše	26		3
 iskrcaše			3
 iskreše			3
-iskriviše			2
-iskrsnuše			2
+iskriviše			3
+iskrsnuše			3
 iskupiše	15		3
 iskusiše			3
 iskušavaše			3
 iskvariše			3
 ismejaše			3
-ismevaše			2
+ismevaše			3
 ispadoše	68		4
 ispaše	143		3
-ispaštaše			2
+ispaštaše			3
 ispekoše			4
-ispevaše			2
+ispevaše			3
 ispeše			3
 ispisaše			3
 ispitivaše			3
 ispiše	573		2
-isplakaše			2
+isplakaše			3
 isplatiše			3
 isplivaše			4
-ispoljavaše			2
-ispovedaše			2
-ispovediše	61		2
+ispoljavaše			3
+ispovedaše			3
+ispovediše	61		3
 ispratiše	32		4
 ispraviše	13		4
 ispravljaše			4
 ispraše	10		3
-ispreturaše			2
+ispreturaše			3
 ispričaše	78		3
 isprljaše			3
 isprobaše			3
-isprosiše			2
+isprosiše			3
 ispuniše	139		4
 ispunjavaše			3
-ispuše	11		2
+ispuše	11		3
 istakoše			4
 isteraše	27		4
 isticaše			4
 istopiše	11		3
 istovariše			4
-istočiše			2
+istočiše			3
 istražiše			3
 istrebiše			3
 istroše	158		2
 istrošiše			3
-istruliše			2
+istruliše			3
 istrčaše	15		3
 istukoše			3
-isturiše			2
-isuviše	5168		2
+isturiše			3
+isuviše	5168		3
 isuše	71		2
 isušiše			3
 izabraše	74		3
-izagnaše			2
+izagnaše			3
 izazivaše			3
 izazvaše	27		3
 izađoše	99		3
@@ -410,33 +410,33 @@ izbaviše			4
 izbavljaše			4
 izbegavaše			3
 izbegoše			4
-izbezumiše			2
+izbezumiše			3
 izbečiše			3
 izbijaše			3
-izbiraše			2
-izbistriše			2
-izbivaše			2
+izbiraše			3
+izbistriše			3
+izbivaše			3
 izbiše	107		3
 izbodoše			3
 izbriše	1116		3
-izbrojaše			2
-izbudiše			2
+izbrojaše			3
+izbudiše			3
 izbuše	55		2
 izbušiše			3
 izdadoše	19		4
 izdahnuše			3
 izdavaše			3
 izdaše			3
-izdigoše			2
+izdigoše			3
 izdisaše			4
-izdizaše			2
+izdizaše			3
 izdiše	102		3
 izdržavaše			4
 izdržaše			3
 izdvajaše			3
 izdvojiše	11		3
-izganjaše			2
-izgiboše			2
+izganjaše			3
+izgiboše			3
 izginuše	32		4
 izgladneše			3
 izgledaše			3
@@ -446,236 +446,236 @@ izgoreše			3
 izgovaraše			3
 izgovoriše	23		3
 izgradiše	20		3
-izgrdiše			2
-izgrevaše			2
-izgrizoše			2
+izgrdiše			3
+izgrevaše			3
+izgrizoše			3
 izgubiše	136		3
-izguraše			2
-izigraše			2
+izguraše			3
+izigraše			3
 iziđoše	114		3
 izjaviše	43		3
-izjedoše			2
+izjedoše			3
 izjuriše			3
 izlažaše			4
 izleteše			3
-izlivaše			2
-izliše			2
+izlivaše			3
+izliše			3
 izljubiše	20		3
 izlomiše	14		3
 izložiše	11		3
 izmakoše			4
-izmanipuliše	73		2
-izmeniše	15		2
-izmenjaše			2
+izmanipuliše	73		3
+izmeniše	15		3
+izmenjaše			3
 izmeriše	11		4
-izmestiše			2
-izmešaše			2
-izmiriše	11		2
+izmestiše			3
+izmešaše			3
+izmiriše	11		3
 izmisliše	34		4
 izmlatiše			3
-izmoliše	14		2
-iznemogoše			2
+izmoliše	14		3
+iznemogoše			3
 iznenadiše	20		3
 iznesoše	21		3
-izneveriše			2
+izneveriše			3
 izneše	17		2
-iznikoše			2
-iznjihaše			2
+iznikoše			3
+iznjihaše			3
 iznošaše			3
-iznurivaše			2
+iznurivaše			3
 izobličiše	11		3
-izobražavaše			2
+izobražavaše			3
 izopačiše			3
-izopijaše			2
+izopijaše			3
 izostajaše			4
 izoštriše			3
 izradiše	11		3
 izraniše			4
-izranjaviše			2
+izranjaviše			3
 izrastoše			3
 izražavaše			3
-izredaše			2
+izredaše			3
 izrekoše			4
-izređaše			2
-izudaraše			2
-izujedaše			2
-izučavaše			2
+izređaše			3
+izudaraše			3
+izujedaše			3
+izučavaše			3
 izvadiše	56		4
 izvedoše	161		3
-izvezoše			2
-izvijaše			2
-izvinuše			2
-izviraše			2
-izvirivaše			2
-izviše	15		2
+izvezoše			3
+izvijaše			3
+izvinuše			3
+izviraše			3
+izvirivaše			3
+izviše	15		3
 izvoleše			3
-izvrgavaše			2
-izvrnuše			2
+izvrgavaše			3
+izvrnuše			3
 izvršavaše			4
 izvrše	4089		2
 izvršiše	48		3
 izvukoše	64		3
 iđaše			3
 iščašiše			4
-iščekivaše			2
-iščezavaše			2
-iščeznuše			2
-iščezoše			2
+iščekivaše			3
+iščezavaše			3
+iščeznuše			3
+iščezoše			3
 iščileše			3
 iščupaše	11		3
 jahaše			3
 jakše			2
-janoše			2
+janoše			3
 jaukaše			3
 javiše	242		3
 javljaše			3
 jačaše			3
 jaše	775		2
 jecaše			3
-jedoše			2
+jedoše			3
 jeknuše			3
 ječaše			3
 jeđaše			3
-junoše	87		2
+junoše	87		3
 juriše	48		3
 jurnuše	51		3
-kaiše		M	2
+kaiše		M	3
 kajaše			3
-kališe			2
-kalkuliše			2
-kanališe	320		2
-kapariše			2
+kališe			3
+kalkuliše			3
+kanališe	320		3
+kapariše			3
 kapaše			3
-kaputaše			2
-karakteriše	7109		2
+kaputaše			3
+karakteriše	7109		3
 karaše			3
-karleuše			2
+karleuše			3
 kazaše	69		3
 kazivaše			3
-kaćuše			2
+kaćuše			3
 kađaše			3
 kaše	340		2
 kažnjavaše			3
 kicoše	11		3
-kidisaše			2
-kidiše	94		2
+kidisaše			3
+kidiše	94		3
 kinjaše			3
-kinjiše			2
+kinjiše			3
 kipljaše			3
 kićaše			3
 kiše	7569		2
-kladuše			2
+kladuše			3
 klanjaše			3
 klaše			2
-klekoše			2
+klekoše			3
 klepetuše	26		3
-klevetaše			2
+klevetaše			3
 klečaše			3
 kleše	37		2
 klicaše			3
 kliknuše			3
 klimaše			3
-klimnuše	10		2
+klimnuše	10		3
 kliznuše			3
 kliše	680		2
-klonuše	13		2
-komentariše	5263		2
+klonuše	13		3
+komentariše	5263		3
 komešaše			3
-koncentriše	1032		2
-konkuriše	2064		2
+koncentriše	1032		3
+konkuriše	2064		3
 konobariše			3
-konstituiše			2
+konstituiše			3
 konstruiše	525		3
 kontraše	10		3
-kontroliše	13189		2
-koordiniše			2
+kontroliše	13189		3
+koordiniše			3
 kopaše			3
-koprcaše			2
-koraknuše			2
+koprcaše			3
+koraknuše			3
 koračaše			3
-koristiše			2
-kosnuše			2
+koristiše			3
+kosnuše			3
 kostreše			3
 kočijaše	24		2
 košarkaše	777		2
 krenuše	415		3
 krepaše			3
 kretaše			3
-kretoše			2
+kretoše			3
 kreše	128		2
 krijaše			3
-kristališe	180		2
+kristališe	180		3
 kriše			2
 kroše			2
 krstaše	110		2
 krstiše	106		3
-krstonoše			2
+krstonoše			3
 kruniše	374		3
-krvaviše			2
+krvaviše			3
 krše	3453		2
-krštavaše			2
+krštavaše			3
 kucaše			3
 kucnuše			3
 kuglaše	58		3
-kultiviše	114		2
+kultiviše	114		3
 kunjaše			3
 kupaše			3
 kupiše	62		3
 kupovaše			3
-kurtališe			2
+kurtališe			3
 kuvaše			3
 kušaše			3
-kvariše			2
-kvasiše			2
-lakomljaše			2
+kvariše			3
+kvasiše			3
+lakomljaše			3
 lakše	45113		2
 laskaše			3
 latiše	11		3
 legaše			3
-legitimiše	449		2
+legitimiše	449		3
 legoše	18		3
-lelujaše			2
+lelujaše			3
 lepljaše			3
 lepršaše			3
 lepše	8340		2
 leteše			3
 lećaše			3
 lečaše			3
-lečiše			2
+lečiše			3
 ležaše			3
 liptaše			3
 lipše	38		2
 lizaše			3
-ličiše		M	2
+ličiše		M	3
 lišiše	17		3
-ljubiše			2
+ljubiše			3
 ljubljaše			3
 ljuljaše			3
 logoraše	110		2
 lokaše			3
-lomiše			2
+lomiše			3
 loše	56972		2
-ložiše			2
+ložiše			3
 lupaše			3
 lupiše			3
 lupkaše			3
-lupnuše			2
+lupnuše			3
 lutaše			3
 lučonoše	53		3
 mafijaše	143		2
 mahaše			3
 mahnuše			3
-majmuniše			2
-majstoriše			2
-malaksavaše			2
+majmuniše			3
+majstoriše			3
+malaksavaše			3
 malaksaše	10		3
 malakše	19		2
-mališe			2
-malteriše			2
-manevriše	107		2
-manipuliše	1656		2
-maniše			2
-manjeviše			2
+mališe			3
+malteriše			3
+manevriše	107		3
+manipuliše	1656		3
+maniše			3
+manjeviše			3
 maraše			3
 marjaše			3
 marše			2
@@ -684,80 +684,80 @@ maše	1016		2
 mašiše			3
 mekše	535		2
 meljaše			3
-memoriše	145		2
+memoriše	145		3
 menjaše			3
 meraše			3
-metaboliše			2
-metaniše			2
+metaboliše			3
+metaniše			3
 metaše			3
 metnuše	121		3
 meše			2
 micaše			3
 milovaše			4
-miloše			2
+miloše			3
 mimoiđoše			3
 minuše	18		3
-minđuše			2
+minđuše			3
 mirisaše			3
 miriše	2744		2
 miše			2
 mišljaše			3
-mlataraše			2
-množiše			2
-mobilisaše			2
-mobiliše	523		2
+mlataraše			3
+množiše			3
+mobilisaše			3
+mobiliše	523		3
 mogaše			3
 mogoše	26		3
 moliše	161		3
 moljaše			3
 monaše			3
-moradoše			2
+moradoše			3
 moraše			3
-motiviše			2
+motiviše			3
 moše			2
-mrdnuše			2
+mrdnuše			3
 mrmljaše			3
-mrtvonoše			2
+mrtvonoše			3
 mrše			2
 mucaše			3
-mudrijaše	10		2
-mudrovaše			2
+mudrijaše	10		3
+mudrovaše			3
 mućaše			3
 mučaše			3
 mučiše	66		3
-nabacaše			2
+nabacaše			3
 nabaviše			4
 nabiše			3
 nabraše			3
 nabreknuše			3
 nabubreše			3
 nabujaše			3
-nadadoše			2
+nadadoše			3
 nadaše			3
 nadenuše	23		4
-nadgledaše			2
+nadgledaše			3
 nadimaše			4
-nadiše	29		2
+nadiše	29		3
 nadjačaše			3
 nadmaše	220		3
-nadražiše			2
+nadražiše			3
 naduše			3
 nadvladaše			3
 naftaše	27		3
-nagariše			2
+nagariše			3
 naginjaše			4
 naglasiše			3
 nagnaše			3
 nagnuše			3
-nagomilaše			2
-nagonjaše			2
+nagomilaše			3
+nagonjaše			3
 nagovaraše			3
 nagovoriše	45		3
-nagoše			2
-nagrabiše			2
+nagoše			3
+nagrabiše			3
 nagrnuše	32		3
 naguraše			3
-nahođaše			2
+nahođaše			3
 nahraniše			3
 nahrupiše			3
 nahvališe	20		3
@@ -767,80 +767,80 @@ najlakše	6311		3
 najlepše	8650		3
 najljepše	535	J	3
 najmekše	44		3
-najmiše	10		2
+najmiše	10		3
 najtiše	70		3
 najuriše			3
 najviše	115836		3
-nakitiše			2
+nakitiše			3
 nakreše			3
 nakupiše			4
 nalagaše			3
-nalaktiše			2
-nalazaše			2
-nalaziše			2
+nalaktiše			3
+nalazaše			3
+nalaziše			3
 nalažaše			4
-nalegoše			2
+nalegoše			3
 nalikovaše			5
-naličaše			2
-nališe	12		2
+naličaše			3
+nališe	12		3
 naljutiše	12		3
-nalokaše			2
+nalokaše			3
 naložiše	47		3
 namazaše			4
 nameniše			3
 nameravaše			3
-nameriše			2
+nameriše			3
 namestiše	20		4
-nameštaše			2
-namiguše	15		2
-namirisaše			2
-namiriše	77		2
-namisliše			2
-namoliše			2
-nanesoše			2
+nameštaše			3
+namiguše	15		3
+namirisaše			3
+namiriše	77		3
+namisliše			3
+namoliše			3
+nanesoše			3
 naneše			3
-nanjuše	75		2
-nanjušiše			2
+nanjuše	75		3
+nanjušiše			3
 naoružaše			3
 naoštriše			3
 napadaše			4
 napadoše	103		4
-napasaše			2
+napasaše			3
 napatiše			4
-naperiše			2
+naperiše			3
 napeše			2
-napipaše			2
+napipaše			3
 napisaše	71		3
 napiše	7337		2
-napojiše	16		2
+napojiše	16		3
 napraviše	252		4
 napredovaše	54		5
-napregoše			2
-napuderiše			2
+napregoše			3
+napuderiše			3
 napuniše	89		4
 napustiše	73		3
 napuše	10		2
-narediše	116		2
-naređivaše			2
+narediše	116		3
+naređivaše			3
 naricaše			3
 nariše			3
-naroguše	10		2
-narugaše	14		2
+naroguše	10		3
+narugaše	14		3
 naručiše			3
-narušavaše			2
-naruše	369		2
-narušiše			2
-naružiše	10		2
-nasadiše			2
+narušavaše			3
+naruše	369		3
+narušiše			3
+naružiše	10		3
+nasadiše			3
 naseliše	45		3
 nasitiše	21		4
-nasladiše			2
+nasladiše			3
 naslanjaše			4
 naslediše			3
 naslikaše			4
 nasloniše			3
 naslućivaše			3
-nasmehnuše			2
+nasmehnuše			3
 nasmejaše	37		3
 nasmeše	34		2
 nasrtaše			4
@@ -852,60 +852,60 @@ nastaše	17		3
 nastojaše			4
 nastradaše			3
 nastupiše	13		3
-nasuše			2
-natakoše			2
+nasuše			3
+natakoše			3
 nataše			3
 nateraše	19		4
-natovariše	18		2
-natpiše			2
-natrpaše			2
-naturaše			2
-naturiše			2
-natuštiše			2
-naučavaše			2
+natovariše	18		3
+natpiše			3
+natrpaše			3
+naturaše			3
+naturiše			3
+natuštiše			3
+naučavaše			3
 naučiše	62		3
 navališe	160		3
 navaljivaše			3
 navedoše			3
-navezoše			2
+navezoše			3
 navikoše			4
-naviše	959		2
+naviše	959		3
 navođaše			3
 navratiše			3
 navraćaše			4
 navreše			3
 navrše	97		2
 navršiše	20		3
-navukoše	20		2
-naziraše			2
+navukoše	20		3
+naziraše			3
 nazivaše			3
 nazvaše	84		3
 načiniše	110		3
-načinjaše			2
-načudiše			2
+načinjaše			3
+načudiše			3
 nađoše	323		3
 naše	170921		2
-naškodiše			2
-nebojše			2
+naškodiše			3
+nebojše			3
 negiraše			3
 negodovaše			5
 negovaše			4
-nemadoše			2
+nemadoše			3
 nemaše			3
-nemogaše			2
+nemogaše			3
 nestadoše	89		4
 nestajaše			4
 nestaše	12		3
-neutrališe	771		2
+neutrališe	771		3
 nećkaše			3
 neše			2
-nikoše			2
+nikoše			3
 nikše			2
 niše	392		2
 njiše	226		2
 njuše	31		2
 nosaše			3
-nosiše			2
+nosiše			3
 nošaše			3
 noše			2
 nutkaše			3
@@ -916,15 +916,15 @@ obavestiše	79		3
 obavijaše			3
 obaviše	20		4
 obavljaše			4
-obaziraše			2
+obaziraše			3
 obdariše	11		3
 obedovaše			5
-obeležiše			2
+obeležiše			3
 obesiše	120		4
-obezbediše			2
+obezbediše			3
 obećavaše			3
 obećaše	45		3
-obigraše			2
+obigraše			3
 obilažaše			4
 obistiniše			5
 obitavaše			3
@@ -932,13 +932,13 @@ običavaše			3
 obiđoše	10		3
 objasniše	48		3
 objaviše	72		3
-obladaše			2
-oblagaše			2
+obladaše			3
+oblagaše			3
 oblačaše			3
-obliše	19		2
-obložiše			2
+obliše	19		3
+obložiše			3
 obmanuše			3
-obnažiše	14		2
+obnažiše	14		3
 obnoviše	18		3
 obogatiše	37		4
 obojiše			3
@@ -950,68 +950,68 @@ obratiše	98		3
 obraćaše			4
 obrađivaše			3
 obraše			3
-obrediše			2
+obrediše			3
 obrezivaše			3
 obreše			3
 obrisaše			4
 obriše	865		3
 obrnuše	12		3
-obrstiše			2
-obruše	76		2
+obrstiše			3
+obruše	76		3
 obuhvataše			4
 obukoše	35		3
 obumreše			3
 obustaviše			4
 obuzeše			2
 obuzimaše			4
-obzidaše			2
-obziraše			2
-obznaniše			2
+obzidaše			3
+obziraše			3
+obznaniše			3
 odabraše			3
 odadoše	10		4
-odagnaše			2
-odahnuše			2
+odagnaše			3
+odahnuše			3
 odavaše			3
 odazvaše	10		3
 odbaciše	73		3
 odbijaše			3
 odbiše	57		3
-odbljesnuše			2
+odbljesnuše			3
 odbojkaše	230		2
 odenuše			4
-oderaše			2
+oderaše			3
 odgovaraše			3
 odgovoriše	527		3
-odguraše			2
-odgurnuše			2
-odigoše			2
-odiše	1759		2
+odguraše			3
+odgurnuše			3
+odigoše			3
+odiše	1759		3
 odjahaše			4
 odjaviše			3
 odjaše	16		3
 odjekivaše			3
 odjeknuše	21		3
 odjuriše	24		3
-odlaziše			2
+odlaziše			3
 odlažaše			4
 odleteše			3
-odlikaše	29		2
+odlikaše	29		3
 odlikovaše	21		5
 odlomiše			3
-odložiše			2
+odložiše			3
 odlutaše			3
 odlučiše	136		3
 odmagaše			3
-odmahivaše			2
-odmahnuše			2
+odmahivaše			3
+odmahnuše			3
 odmakoše			4
 odmaraše			3
 odmeravaše			3
 odmeriše			4
-odmetnuše			2
+odmetnuše			3
 odmicaše			4
 odmoriše	14		3
-odnesoše	60		2
+odnesoše	60		3
 odneše	41		2
 odoleše			3
 odoše	650		2
@@ -1022,14 +1022,14 @@ odrekoše	25		4
 odrezaše	13		4
 određivaše			3
 odreše	101		3
-odrešiše	10		2
+odrešiše	10		3
 odricaše			3
-odrubiše			2
+odrubiše			3
 održavaše			4
 održaše	24		3
-odsedoše			2
+odsedoše			3
 odsekoše	73		4
-odskočiše			2
+odskočiše			3
 odstupaše			3
 odstupiše	28		3
 odudaraše			4
@@ -1038,88 +1038,88 @@ odustadoše			4
 odustajaše			4
 oduzeše	25		2
 oduzimaše			4
-oduševiše			2
+oduševiše			3
 odužiše			3
 odvajaše			3
 odvažiše			3
 odvedoše	240		3
 odvezaše	13		3
-odvezoše	18		2
+odvezoše	18		3
 odvijaše			3
 odviše	456		3
-odvodiše			2
+odvodiše			3
 odvojiše	42		3
 odvratiše	15		3
 odvraćaše			3
 odvukoše	31		3
-odšetaše			2
-ogazdiše			2
+odšetaše			3
+ogazdiše			3
 ogladneše			3
-oglasiše	25		2
+oglasiše	25		3
 ogledaše			3
-oglodaše			2
-ogluše	147		2
-ogoliše			2
-ogorčiše			2
+oglodaše			3
+ogluše	147		3
+ogoliše			3
+ogorčiše			3
 ogradiše	12		3
 ograđivaše			3
 ogrejaše			4
 ogreše	60		3
-ogrešiše			2
+ogrešiše			3
 ogrijaše		J	4
-ogrnuše			2
-ogrtaše			2
+ogrnuše			3
+ogrtaše			3
 ohrabriše	21		3
-ojadiše	19		2
+ojadiše	19		3
 ojačaše			3
-ojađivaše			2
-okaljaše			2
-okanuše			2
+ojađivaše			3
+okaljaše			3
+okanuše			3
 okitiše	10		4
 oklevaše			3
-oklevetaše	23		2
-okomiše			2
+oklevetaše	23		3
+okomiše			3
 okončaše	11		3
-okopavaše			2
+okopavaše			3
 okoreše			3
 okovaše	29		3
 okrenuše	122		3
 okretaše			3
-okretoše			2
+okretoše			3
 okruživaše			3
 okružiše	29		3
-okupaše			2
-okupiraše			2
+okupaše			3
+okupiraše			3
 okupiše	69		4
 okusiše			4
 olakšavaše			3
 ološe	12		3
-omahivaše			2
-omakoše			2
-omiriše	50		2
+omahivaše			3
+omakoše			3
+omiriše	50		3
 omogućiše			3
-omrznuše	11		2
-onemoćaše			2
+omrznuše	11		3
+onemoćaše			3
 opadaše			4
 opadoše			4
-opališe	24		2
+opališe	24		3
 opasaše			3
 opaziše	37		4
 opaše	48		2
 opažaše			3
 opelješe	39		3
-operiše	1196		2
+operiše	1196		3
 ophođaše			3
 opipaše			4
-opiraše			2
+opiraše			3
 opisaše			3
 opiše	1766		2
-opkladiše			2
+opkladiše			3
 opkoliše	95		3
 oplakaše			4
 oplakivaše			3
-opleniše			2
-opletoše			2
+opleniše			3
+opletoše			3
 opljačkaše	45		4
 opomenuše			3
 opominjaše			4
@@ -1129,40 +1129,40 @@ opredeliše	13		3
 opremaše			3
 opremiše	10		3
 oprostiše	38		3
-opružiše			2
+opružiše			3
 opsedaše			3
-opsednuše			2
+opsednuše			3
 opsedoše			4
-opstruiše	155		2
-optekoše			2
+opstruiše	155		3
+optekoše			3
 opteretiše			4
 optuživaše			3
 optužiše	53		3
 opusteše			3
 opustiše			3
-opustoše	46		2
-opustošiše	14		2
-opučiše			2
+opustoše	46		3
+opustošiše	14		3
+opučiše			3
 opčinjavaše			3
-orijentiše			2
+orijentiše			3
 orobiše			3
 osakatiše			4
-osedlaše			2
+osedlaše			3
 osetiše	39		4
 osećaše			4
-osiliše	14		2
+osiliše	14		3
 osiromaše	46		3
 oskrnaviše			4
 oskvrnuše			3
 oslabiše	11		4
-oslepiše	11		2
+oslepiše	11		3
 oslobađaše			3
 oslobodiše	59		3
-osluškivaše			2
-oslušnuše			2
-osmehivaše			2
-osmehnuše			2
-osnažiše			2
+osluškivaše			3
+oslušnuše			3
+osmehivaše			3
+osmehnuše			3
+osnažiše			3
 osnivaše			3
 osnovaše	33		3
 osokoliše			3
@@ -1172,65 +1172,65 @@ ostajaše			4
 ostaviše	333		4
 ostavljaše			4
 ostaše	183		3
-ostraguše			2
+ostraguše			3
 ostvariše	10		3
 osudiše	68		3
 osumnjičiše			4
 osunčaše			3
 osuđivaše			3
-osuše	408		2
+osuše	408		3
 osušiše	14		3
 osvanuše			3
 osvetiše	21		3
-osvetlaše			2
-osvetliše			2
-osvetljavaše			2
+osvetlaše			3
+osvetliše			3
+osvetljavaše			3
 osvojiše	60		3
-osvrtaše			2
+osvrtaše			3
 oteraše	41		4
-otesaše			2
+otesaše			3
 oteše	37		2
-otežaše			2
-otidoše			2
+otežaše			3
+otidoše			3
 otimaše			4
-otiraše			2
-otisnuše	14		2
+otiraše			3
+otisnuše	14		3
 otiđoše			3
 otkazaše			3
 otkinuše			4
 otkopaše	13		3
-otkotrljaše			2
+otkotrljaše			3
 otkrivaše			3
 otkriše	51		3
-otkupiše	18		2
+otkupiše	18		3
 otpadaše			4
 otpadoše	21		4
 otpaše			3
-otpevaše			2
+otpevaše			3
 otpiše	415		2
-otporaše	32		2
+otporaše	32		3
 otpočeše	13		2
 otpočinuše			4
-otpratiše	11		2
+otpratiše	11		3
 otpraviše	11		4
 otpustiše	41		3
 otputovaše	32		3
 otpuštaše			3
-otrgnuše			2
+otrgnuše			3
 otrovaše			3
-otrzaše			2
-otrčaše	30		2
-otukoše			2
+otrzaše			3
+otrčaše	30		3
+otukoše			3
 otuđivaše			3
 otuđiše			3
 otvaraše			3
 otvoriše	545		3
 ovladaše			3
-ovlažiše			2
-ovrše	11		2
-ozdraviše	19		2
-ozeleneše			2
-ozidaše			2
+ovlažiše			3
+ovrše	11		3
+ozdraviše	19		3
+ozeleneše			3
+ozidaše			3
 ozlediše			3
 označavaše			3
 označiše			3
@@ -1238,38 +1238,38 @@ očajavaše			3
 očekivaše	34		3
 očeše	62		3
 očistiše			4
-očitaše			2
+očitaše			3
 očuvaše	11		3
 oštetiše			4
 oštraše			3
-ožališe			2
-ožalostiše	26		2
-ožegoše			2
+ožališe			3
+ožalostiše	26		3
+ožegoše			3
 oženiše	25		3
-ožigoše			2
+ožigoše			3
 oživeše			3
 oživiše			3
 padaše			3
 padoše	171		3
 pajtaše			3
-pakostiše			2
-pališe			2
+pakostiše			3
+pališe			3
 paljaše			3
-parališe	265		2
-parceliše			2
+parališe	265		3
+parceliše			3
 pasaše			2
 pasoše	1431		3
 pastuše			3
 patrijarše			3
 paše	1829		1
-pecaroše			2
+pecaroše			3
 pecijaše			4
 peglaše			3
-penzioniše			2
-periše			2
-peskuše			2
+penzioniše			3
+periše			3
+peskuše			3
 pevaše			3
-pevuše	84		2
+pevuše	84		3
 pečaše			3
 pijaše			3
 pipaše			3
@@ -1285,12 +1285,12 @@ platiše	493		3
 plavuše	868		3
 plaćaše			3
 plaše	5792		2
-pleniše			2
+pleniše			3
 pleše	837		2
 plivaše			3
 pljačkaše	150		3
 pljunuše			3
-pljusnuše			2
+pljusnuše			3
 pljuvaše			3
 pljuštaše			3
 plovljaše			3
@@ -1301,15 +1301,15 @@ pobegoše	98		4
 pobeđivaše			3
 pobijaše			3
 pobiše	183		3
-pobojaše	11		2
-pobratiše			2
+pobojaše	11		3
+pobratiše			3
 pobuđivaše			3
-pocepaše			2
-pocrkaše			2
-pocrveneše			2
-pocuriše			2
-podariše	18		2
-podavaše			2
+pocepaše			3
+pocrkaše			3
+pocrveneše			3
+pocuriše			3
+podariše	18		3
+podavaše			3
 podeliše	69		3
 poderaše			3
 podgrejaše			4
@@ -1317,229 +1317,229 @@ podigoše	156		4
 podizaše			4
 podiđoše			4
 podjarmiše			3
-podlegoše			2
-podliše			2
-podložiše			2
+podlegoše			3
+podliše			3
+podložiše			3
 podmetnuše			4
-podnapiše			2
+podnapiše			3
 podnesoše			3
 podneše			2
 podnošaše			3
 podržavaše			4
 podsetiše	28		4
 podsećaše			4
-podsmevaše			2
+podsmevaše			3
 podsticaše			4
-podviknuše			2
+podviknuše			3
 podčiniše			3
 pogasiše	10		3
-pogaziše	15		2
+pogaziše	15		3
 pogađaše			3
-pogiboše			2
-poginjaše			2
+pogiboše			3
+poginjaše			3
 poginuše	24		4
 pogledaše	149		4
 pognaše			3
 pogodiše	26		3
 pogoreše			3
-pogoršaše			2
-pogrdiše			2
+pogoršaše			3
+pogrdiše			3
 pogreše	340		2
 pogrešiše			3
-pogubiše	53		2
-poguriše			2
-poguše			2
-poharaše	13		2
-pohađaše			2
+pogubiše	53		3
+poguriše			3
+poguše			3
+poharaše	13		3
+pohađaše			3
 pohitaše	56		4
-pohrliše	12		2
+pohrliše	12		3
 pohvališe	28		3
-pohvataše	16		2
-poigravaše			2
-pojahaše			2
+pohvataše	16		3
+poigravaše			3
+pojahaše			3
 pojaviše	175		3
 pojaše			3
 pojedoše	36		4
 pojuriše	52		3
-pokajaše	12		2
+pokajaše	12		3
 pokazaše	106		3
 pokazivaše			3
 pokidaše			4
-pokiše			2
+pokiše			3
 poklanjaše			4
 poklaše			3
-poklepaše			2
+poklepaše			3
 pokloniše	190		3
-pokolebaše			2
+pokolebaše			3
 pokopaše			3
 pokoriše	31		3
 pokradoše	36		4
 pokrenuše	16		3
 pokrivaše			3
 pokriše	36		3
-pokrojiše			2
+pokrojiše			3
 pokrstiše			3
-pokucaše			2
+pokucaše			3
 pokupiše	51		3
 pokušavaše			3
 pokušaše	29		4
 pokvariše	16		3
 polagaše			3
-polakše			2
+polakše			3
 polažaše			4
-polegaše			2
-polegoše			2
-polemiše	587		2
+polegaše			3
+polegoše			3
+polemiše	587		3
 poleteše	28		3
 poliše			3
 poljubiše	23		3
 polomiše	55		3
 položiše	261		3
 poludeše			3
-polupaše			2
+polupaše			3
 pomagaše			3
 pomakoše			4
-pomaljaše			2
-pomamiše			2
+pomaljaše			3
+pomamiše			3
 pomazaše	12		4
-pomazivaše			2
-pomenuše	34		2
-pomeriše	16		2
+pomazivaše			3
+pomenuše	34		3
+pomeriše	16		3
 pomešaše	10		3
 pomicaše			4
-pominjaše			2
-pomiriše	73		2
+pominjaše			3
+pomiriše	73		3
 pomisliše	60		4
 pomišljaše			3
 pomogoše	22		3
 pomoliše	77		3
-pomoriše			2
-pomračiše			2
+pomoriše			3
+pomračiše			3
 pomreše	29		3
-pomutiše			2
+pomutiše			3
 ponadaše			3
-ponajlakše			2
-ponajlepše			2
+ponajlakše			3
+ponajlepše			3
 ponajviše	3589		3
-ponapiše			2
+ponapiše			3
 ponavljaše			3
 ponašaše			3
-ponesoše	20		2
+ponesoše	20		3
 poneše	14		3
-ponikoše	41		2
+ponikoše	41		3
 poniziše	10		3
 poništiše			4
 ponižavaše			3
 ponoviše	18		3
 ponudiše	39		4
-popadaše	63		2
-popadoše			2
-popališe	29		2
+popadaše	63		3
+popadoše			3
+popališe	29		3
 popeše	13		2
-popijevaše		J	2
+popijevaše		J	3
 popiše	253		2
 poplaše	40		3
 poplašiše	16		4
 popraviše			4
 popravljaše			4
 popucaše			4
-populariše	269		2
+populariše	269		3
 popustiše	10		3
 popuše	94		3
 poraniše			4
 porastoše			3
-porazbijaše			2
+porazbijaše			3
 poraziše			3
-poražavaše			2
-poređaše			2
+poražavaše			3
+poređaše			3
 poricaše			3
 porobiše	32		3
 porodiše			3
-portretiše			2
+portretiše			3
 poručivaše			3
 poručiše	20		3
 poruše	204		3
 porušiše	36		4
 posadiše	46		3
-posahnuše			2
-posakrivaše			2
-posedaše	25		2
+posahnuše			3
+posakrivaše			3
+posedaše	25		3
 posedeše			3
 posedovaše			5
-posedoše			2
-posejaše			2
-posekoše	38		2
+posedoše			3
+posejaše			3
+posekoše	38		3
 posećivaše			3
-posijaše			2
-posipaše			2
+posijaše			3
+posipaše			3
 poskakaše	15		3
-poskidaše	10		2
+poskidaše	10		3
 poskočiše			3
 poskupiše			3
 poslaše	241		3
 poslušaše	43		4
 poslužiše	32		3
 posmatraše			3
-posmotriše			2
+posmotriše			3
 pospaše			3
 pospeše	150		3
 postadoše			4
 postajaše			3
-postaraše			2
+postaraše			3
 postaviše	157		4
 postavljaše			4
 postaše	23		3
 postideše	16		3
 postigoše			4
-postiše			2
+postiše			3
 postojaše			4
-postradaše	153		2
-postreljaše			2
-postrigoše			2
-postrojiše	10		2
+postradaše	153		3
+postreljaše			3
+postrigoše			3
+postrojiše	10		3
 postupaše			3
 postupiše	34		3
-posumnjaše			2
-posuše	18		2
-posvadiše			2
+posumnjaše			3
+posuše	18		3
+posvadiše			3
 posvetiše	30		3
 potamneše			3
 potapaše			3
-potapše			2
+potapše			3
 potegoše			3
-potekoše	21		2
-poteraše	10		2
-potiraše			2
-potiše		M	2
+potekoše	21		3
+poteraše	10		3
+potiraše			3
+potiše		M	3
 potkreše	11		3
 potonuše			3
 potopiše	20		3
-potovariše			2
-potpadoše			2
-potpališe	11		2
+potovariše			3
+potpadoše			3
+potpališe	11		3
 potpisaše	19		3
 potpiše	5455		2
 potplatiše			3
-potprašiše			2
+potprašiše			3
 potražiše	31		3
-potresoše			2
-potrgaše			2
+potresoše			3
+potrgaše			3
 potroše	2365		2
-potrpaše			2
+potrpaše			3
 potrudiše	10		3
 potrčaše	41		3
-potucaše			2
-potukoše	21		2
-poturiše			2
+potucaše			3
+potukoše	21		3
+poturiše			3
 potvrdiše	43		3
-potčiniše			2
-potčinjavaše			2
-poubijaše			2
-poustajaše			2
-poučavaše			2
-poučiše			2
-povadiše			2
-povališe	17		2
+potčiniše			3
+potčinjavaše			3
+poubijaše			3
+poustajaše			3
+poučavaše			3
+poučiše			3
+povadiše			3
+povališe	17		3
 povedoše	114		4
 poveravaše			3
 poveriše	10		4
@@ -1547,41 +1547,41 @@ poverovaše	112		5
 povezaše			3
 povećavaše			3
 povijaše			3
-povikaše	159		2
+povikaše	159		3
 poviše	229		3
 povratiše	62		3
 povraćaše			4
-površe			2
+površe			3
 povukoše	60		3
-pozavideše			2
+pozavideše			3
 pozdraviše	45		4
 pozdravljaše			4
 pozivaše			3
-pozlaćivaše			2
-poznadoše			2
+pozlaćivaše			3
+poznadoše			3
 poznavaše			3
 poznaše	53		3
 pozvaše	83		3
-poćutaše			2
+poćutaše			3
 počastiše			3
 počeše	1852		2
 počiniše	31		3
 počinjaše			4
 počinuše			4
-počivaše			2
-počupaše			2
+počivaše			3
+počupaše			3
 pođoše	190		3
-pošetaše			2
-pošiljaše			2
+pošetaše			3
+pošiljaše			3
 poštedeše			3
-poštediše			2
+poštediše			3
 poštovaše			3
-požališe			2
+požališe			3
 poželeše			3
-poženiše			2
+poženiše			3
 poživeše			3
 požnješe			3
-požurivaše			2
+požurivaše			3
 požuriše	30		3
 prasnuše	12		3
 pratiše			3
@@ -1590,46 +1590,46 @@ pravljaše			3
 praše	24		2
 praštaše			3
 prebaciše	15		3
-prebegoše			2
+prebegoše			3
 prebijaše			3
-prebivaše			2
+prebivaše			3
 prebiše	24		3
 prebrodiše			3
 predadoše	117		4
 predavaše			3
 predaše			3
 predložiše	27		3
-prednjačaše			2
-predobiše			2
+prednjačaše			3
+predobiše			3
 predočiše			3
 predstavljaše			4
 preduzeše			3
 predviđaše			3
 predvođaše			3
-pregaziše	16		2
-pregledaše			2
-pregoše			2
+pregaziše	16		3
+pregledaše			3
+pregoše			3
 pregradiše			3
-pregrupiše			2
+pregrupiše			3
 prejaše			3
-prekidoše			2
+prekidoše			3
 prekinuše	15		4
-preklanjaše			2
-preklinjaše			2
-prekovaše			2
-prekrstiše	26		2
+preklanjaše			3
+preklinjaše			3
+prekovaše			3
+prekrstiše	26		3
 prekrše	373		2
-prekupiše			2
-prelastiše			2
+prekupiše			3
+prelastiše			3
 prelažaše			4
 preleteše			3
-prelivaše			2
-preliše			2
+prelivaše			3
+preliše			3
 prelomiše			3
-preloše			2
+preloše			3
 premaše	117		3
-premestiše			2
-premeštaše			2
+premestiše			3
+premeštaše			3
 preminuše			3
 prenesoše	32		3
 preneše	24		2
@@ -1641,44 +1641,44 @@ prepiše	671		2
 preplaše	32		3
 preplivaše			4
 prepoznaše	15		3
-prepraviše			2
-prepuniše			2
+prepraviše			3
+prepuniše			3
 prepustiše			3
-prerodiše			2
+prerodiše			3
 preruše	20		3
 presecaše			3
-presekoše			2
+presekoše			3
 preseliše	48		3
-presipaše			2
+presipaše			3
 preskakaše			3
 preskočiše	10		3
 prestadoše	37		4
 prestajaše	10		4
-prestaviše			2
+prestaviše			3
 prestaše			3
 prestigoše			4
 prestraviše			3
 prestraše	17		3
 prestupiše			3
 presudiše			3
-presuše	96		2
-presušiše			2
+presuše	96		3
+presušiše			3
 presvukoše			3
-pretekoše			2
+pretekoše			3
 pretiše			3
 pretopiše			3
 pretpostavljaše			4
 pretrpeše			3
-pretrčaše			2
-preturaše			2
-preturiše			2
+pretrčaše			3
+preturaše			3
+preturiše			3
 pretvaraše			3
 pretvoriše	89		3
 preuzeše	13		2
 prevališe			3
 prevariše	50		4
 prevedoše			3
-previjaše			2
+previjaše			3
 previše	45635		3
 prevrnuše			3
 prevrtaše			4
@@ -1686,88 +1686,88 @@ prezaše			3
 preziraše			4
 prezreše	10		3
 prećaše			3
-prećutaše			2
+prećutaše			3
 pređoše	77		3
 preživeše			3
-prhnuše	10		2
-prianjaše			2
-pribegoše	14		2
+prhnuše	10		3
+prianjaše			3
+pribegoše	14		3
 pribiše			3
 približavaše			3
-približivaše			2
+približivaše			3
 približiše	83		3
 pribraše			3
-pridavaše			2
+pridavaše			3
 pridobiše	10		3
 pridodaše			3
 pridružiše	73		3
 pridržaše			3
-prigonjaše			2
-prigrabiše			2
+prigonjaše			3
+prigrabiše			3
 priguše	46		2
-prihvataše			2
+prihvataše			3
 prihvatiše	105		4
 prijaviše			3
-priključiše	12		2
-priklopiše			2
+priključiše	12		3
+priklopiše			3
 prikradoše			4
 prikupiše			4
 prikupljaše			3
-prikučiše			2
+prikučiše			3
 prilažaše			4
-prilegoše			2
-prilepiše			2
+prilegoše			3
+prilepiše			3
 priljubiše			3
-priložiše	12		2
+priložiše	12		3
 primakoše			4
 primamljivaše			3
 primaše			3
 primeniše			3
 primetiše	62		3
 primicaše			4
-primiriše	36		2
+primiriše	36		3
 primiše	339		3
 primoraše			3
-prinesoše	20		2
+prinesoše	20		3
 prineše			3
-prinošaše			2
-prinudiše			2
+prinošaše			3
+prinudiše			3
 pripadaše			4
 pripadoše	44		4
-pripasaše			2
+pripasaše			3
 pripaše	12		3
 pripiše	387		2
 pripraviše			4
 pripremaše			3
 pripremiše	17		3
-pripretiše			2
-pripucaše			2
+pripretiše			3
+pripucaše			3
 prirediše	30		3
 prisetiše			4
 prisiliše			4
 prisiljavaše			3
-priskočiše	16		2
+priskočiše	16		3
 prisloniše			3
 prispeše			3
 pristadoše	43		4
 pristajaše			4
-pristaniše			2
+pristaniše			3
 pristaše	113		3
 pristigoše			4
 pristupaše			3
 pristupiše	124		3
-prisvojiše			2
-pritajiše			2
-pritekoše			2
-pritezaše			2
-priticaše			2
+prisvojiše			3
+pritajiše			3
+pritekoše			3
+pritezaše			3
+priticaše			3
 pritiskaše			3
 pritisnuše			4
-pritrčaše			2
+pritrčaše			3
 privedoše	60		4
 privezaše	31		3
 privikoše			4
-priviđaše			2
+priviđaše			3
 privlačaše			3
 privoleše			3
 privođaše			3
@@ -1778,10 +1778,10 @@ priznaše	19		3
 prizvaše			3
 pričaše			3
 pričekaše			4
-pričestiše	23		2
+pričestiše	23		3
 pričinjavaše			3
 priđoše	52		3
-prljuše			2
+prljuše			3
 probijaše			3
 probiše	20		3
 probodoše			3
@@ -1793,28 +1793,28 @@ prodavaše			3
 prodaše	17		3
 prodiraše			4
 prodreše	11		2
-produžiše	47		2
-profiliše	290		2
-profunkcioniše	220		2
-proganjaše			2
+produžiše	47		3
+profiliše	290		3
+profunkcioniše	220		3
+proganjaše			3
 proglasiše	90		3
-progledaše	15		2
+progledaše	15		3
 prognaše			3
-progoniše			2
+progoniše			3
 progovoriše	28		3
-proguraše			2
+proguraše			3
 progutaše			3
-prohujaše			2
-proizađoše			2
+prohujaše			3
+proizađoše			3
 projaše			3
 projuriše	13		3
-prokazaše			2
-prokašljaše			2
+prokazaše			3
+prokašljaše			3
 prokleše	10		2
 proklinjaše			4
-prokljuviše			2
-proključaše			2
-prokomentariše	971		2
+prokljuviše			3
+proključaše			3
+prokomentariše	971		3
 prolamaše			3
 prolažaše			4
 prolebdeše			3
@@ -1822,64 +1822,64 @@ proleteše			3
 proliše	20		3
 prolomiše			3
 promakoše			4
-promaljaše			2
+promaljaše			3
 promaše	153		3
 promeniše	38		3
 promileše			3
 promišljaše			3
-promoviše	8468		2
-promukoše			2
+promoviše	8468		3
+promukoše			3
 pronađoše	32		3
 proneše			3
-pronosiše			2
-pronošaše			2
+pronosiše			3
+pronošaše			3
 propadaše			4
 propadoše	43		4
 propaše			3
 propisaše			3
 propiše	969		2
-propištaše			2
+propištaše			3
 proplakaše			4
 propustiše	12		3
 propuštaše			3
-prorediše			2
+prorediše			3
 prorekoše			4
 proricaše			3
 prosaše			3
 prosedeše			3
-prosinuše			2
-prosipaše			2
-prosiše			2
+prosinuše			3
+prosipaše			3
+prosiše			3
 proslaviše	153		4
-prostituiše			2
+prostituiše			3
 prostreše			2
-prosuše	75		2
+prosuše	75		3
 proteraše	21		4
 proterivaše			3
 proticaše			4
-protiviše			2
+protiviše			3
 protivljaše			3
-protrčaše			2
-protumačiše			2
+protrčaše			3
+protumačiše			3
 proučiše			3
 provališe	14		3
 provedoše	50		3
 provideše			3
-provirivaše			2
-proviđaše			2
+provirivaše			3
+proviđaše			3
 provođaše			3
 provrteše			3
-provukoše			2
+provukoše			3
 prozboriše			3
-proziraše			2
+proziraše			3
 prozvaše	64		3
 proćerdaše			3
 pročitaše	18		3
 prođoše	143		3
-prošaptaše			2
-prošavše			2
+prošaptaše			3
+prošavše			3
 prošaše			3
-prošibaše			2
+prošibaše			3
 proširiše	11		3
 proždreše			2
 prožimaše			4
@@ -1888,46 +1888,46 @@ prskaše			3
 prsnuše	14		3
 pružaše			3
 pružiše	23		3
-prvoligaše	52		2
+prvoligaše	52		3
 prštaše			3
 pržaše			3
 pucaše			3
-puderiše			2
+puderiše			3
 pukoše	11		3
-puniše			2
-puriše			2
+puniše			3
+puriše			3
 pustiše	161		3
-pustoše	118		2
+pustoše	118		3
 putovaše			3
 pušaše			3
 puše	1772		2
 puštaše			3
-rabotaše			2
-raboše			2
-radiše			2
+rabotaše			3
+raboše			3
+radiše			3
 radovaše			4
-raduše			2
-rafiniše			2
+raduše			3
+rafiniše			3
 raniše	21		3
 ranjavaše			3
-rascepaše			2
-rasejaše			2
+rascepaše			3
+rasejaše			3
 rasipaše			4
-raskalaše			2
-raskiseliše			2
+raskalaše			3
+raskiseliše			3
 rasklopiše			3
-raskopaše			2
+raskopaše			3
 raspadoše			4
-raspališe	16		2
-raspevaše			2
+raspališe	16		3
+raspevaše			3
 raspeše	29		3
 raspitaše			3
-raspitivaše			2
+raspitivaše			3
 raspiše	1688		2
 rasplakaše	10		4
 rasprše	83		2
 raspršiše			3
-rasprštaše			2
+rasprštaše			3
 raspustiše			3
 raspuštaše			3
 rasrdiše			3
@@ -1938,60 +1938,60 @@ rastavljaše			4
 rastaše			3
 rastijaše			4
 rastopiše			3
-rastrgoše			2
-rastrčaše			2
-rasturiše	42		2
+rastrgoše			3
+rastrčaše			3
+rasturiše	42		3
 rastužiše			3
 rastvoriše			3
 rasuše	23		2
 ratovaše			4
 razabiraše			4
-razagnaše			2
+razagnaše			3
 razapeše	26		2
 razasuše			2
 razaznavaše			3
-razbegoše			2
-razbežaše			2
+razbegoše			3
+razbežaše			3
 razbijaše			3
 razbiše	111		3
 razboleše			3
-razbucaše			2
+razbucaše			3
 razdadoše	10		4
 razdavaše			3
 razdeliše	22		3
 razdražiše			3
 razdreše			2
-razdrobiše			2
+razdrobiše			3
 razdvajaše			3
 razdvojiše	31		3
-razgledaše			2
-razgneviše			2
-razgnjeviše	11		2
-razgonjaše			2
+razgledaše			3
+razgneviše			3
+razgnjeviše	11		3
+razgonjaše			3
 razgoreše			3
 razgovaraše			3
-razgovoriše			2
+razgovoriše			3
 razgrabiše	11		4
-razgranaše			2
-razigraše			2
+razgranaše			3
+razigraše			3
 raziđoše	45		3
 razjariše	35		3
 razjuriše			3
-razlegaše			2
+razlegaše			3
 razleteše			3
-razlevaše			2
+razlevaše			3
 razliše			3
 razljutiše			3
-razmakoše			2
+razmakoše			3
 razmaše	68		3
-razmestiše			2
+razmestiše			3
 razmišljaše			3
 razmnožiše			3
 razmotriše			3
 razneše			2
 razoriše	27		3
 razoružaše			3
-razrediše			2
+razrediše			3
 razreše	622		3
 razruše	42		3
 razrušiše	13		4
@@ -1999,28 +1999,28 @@ razumevaše			3
 razumeše	26		3
 razvališe	29		3
 razvedoše			4
-razvejaše			2
+razvejaše			3
 razveseliše			3
 razvijaše			3
 razviše	23		3
-razvukoše			2
+razvukoše			3
 rađaše			3
 raše		M	2
-raširivaše			2
+raširivaše			3
 raširiše	38		3
-reafirmiše	128		2
-recitovaše			2
-redefiniše	385		2
-reduše			2
-referiše	286		2
-reformiše	794		2
-regeneriše			2
-reguliše	7936		2
-rekonstruiše	1188		2
+reafirmiše	128		3
+recitovaše			3
+redefiniše	385		3
+reduše			3
+referiše	286		3
+reformiše	794		3
+regeneriše			3
+reguliše	7936		3
+rekonstruiše	1188		3
 rekoše	2062		3
-retuše			2
-revolveraše			2
-rezerviše			2
+retuše			3
+revolveraše			3
+rezerviše			3
 ređaše			3
 reše	8085		2
 rešiše	120		3
@@ -2028,27 +2028,27 @@ ridaše			3
 rikaše			3
 rikše	46		2
 riše			2
-robijaše	31		2
+robijaše	31		3
 rodiše	81		3
 roptaše			3
 rugaše			3
-ruknuše			2
+ruknuše			3
 rukometaše	405		2
 rukovaše			4
 rukovođaše			3
-rumenjaše			2
-rupiše			2
+rumenjaše			3
+rupiše			3
 ručaše			3
 ruše	2613		2
-ružiše			2
+ružiše			3
 rvaše			3
 sabiraše			4
 sabiše			3
 sablazniše			3
-saborovaše			2
+saborovaše			3
 sabraše	76		3
 sadržavaše			4
-saglasiše			2
+saglasiše			3
 sagledaše			4
 sagorevaše			3
 sagoreše			3
@@ -2061,10 +2061,10 @@ sakupiše	24		4
 sakupljaše			3
 salaše			3
 saleteše			3
-salomiše			2
+salomiše			3
 sanjaše			3
-saobraćaše			2
-saopštiše	38		2
+saobraćaše			3
+saopštiše	38		3
 sapletoše			4
 sasekoše			4
 sastadoše	20		4
@@ -2072,9 +2072,9 @@ sastajaše			4
 sastaviše	30		4
 sastavljaše			4
 sastaše			3
-sasuše	27		2
-sasušiše			2
-satiraše			2
+sasuše	27		3
+sasušiše			3
+satiraše			3
 satriješe			3
 savetovaše	99		5
 savijaše			3
@@ -2091,23 +2091,23 @@ sačiniše			3
 sačinjavaše			3
 sačuvaše	23		3
 sažališe	17		4
-sažaljevaše			2
-sažegoše			2
+sažaljevaše			3
+sažegoše			3
 sedoše	108		3
 sejaše			3
-sekoše			2
+sekoše			3
 sektaše	20		2
 setiše	40		3
-sevnuše			2
+sevnuše			3
 sećaše			3
 seđaše			3
 shvatiše	43		3
 sijaše			3
 siktaše			3
 silažaše			4
-simboliše	635		2
-simpatiše	106		2
-siniše			2
+simboliše	635		3
+simpatiše	106		3
+siniše			3
 sinuše	19		3
 sipaše			3
 siromaše	34		2
@@ -2116,35 +2116,35 @@ siđoše	40		3
 siše	57		2
 sjahaše			3
 sjaše	98		2
-sjediniše			2
-sjuriše	14		2
+sjediniše			3
+sjuriše	14		3
 skakaše			3
 skapaše			3
 skidaše			3
-skidoše			2
+skidoše			3
 skijaše	800		3
 skinuše	71		3
 sklanjaše			3
-skliznuše	11		2
+skliznuše	11		3
 skloniše	31		3
 sklopiše	32		3
-skoliše			2
-skoncentriše	150		2
+skoliše			3
+skoncentriše	150		3
 skončaše	62		3
-skotrljaše			2
+skotrljaše			3
 skovaše			3
 skočiše	103		3
 skrenuše	31		3
-skretoše			2
+skretoše			3
 skreše	128		2
 skrivaše			3
-skriviše			2
+skriviše			3
 skriše	17		2
 skrše	28		2
 skršiše			3
 skupiše	130		3
 skupljaše			3
-skutonoše	16		2
+skutonoše	16		3
 skuvaše			3
 skuše	108		2
 slabljaše			3
@@ -2153,8 +2153,8 @@ slatkiše	1630		2
 slaviše			3
 slavljaše			3
 slaše			2
-sledovaše	26		2
-slegoše	19		2
+sledovaše	26		3
+slegoše	19		3
 slikaše			3
 slivaše			3
 slomiše	27		3
@@ -2162,14 +2162,14 @@ složiše	61		3
 slućaše			3
 slušaše			3
 služaše			3
-službovaše			2
-služiše			2
-smakoše			2
-smalakše			2
-smandrljaše			2
+službovaše			3
+služiše			3
+smakoše			3
+smalakše			3
+smandrljaše			3
 smatraše			3
 smazaše			3
-smedoše			2
+smedoše			3
 smejaše			3
 smeniše	23		3
 smestiše	37		3
@@ -2183,15 +2183,15 @@ smirivaše			3
 smiriše	29		3
 smisliše	20		3
 smišljaše			3
-smrzoše			2
-smutiše	13		2
-smućivaše			2
+smrzoše			3
+smutiše	13		3
+smućivaše			3
 snabdevaše			3
 snađoše	10		3
 snaše			2
-snuždiše			2
+snuždiše			3
 sokoljaše			3
-solidariše	100		2
+solidariše	100		3
 spadaše			3
 spadoše	23		3
 spališe	69		3
@@ -2202,12 +2202,12 @@ spasoše	13		3
 spavaše			3
 spaziše	21		3
 spekuliše	1527		3
-spletoše			2
-spodbiše			2
+spletoše			3
+spodbiše			3
 spojiše	18		3
 spomenuše	24		3
 spominjaše			4
-sponzoriše	433		2
+sponzoriše	433		3
 sponzoruše	424		3
 spopadoše			4
 spopaše			3
@@ -2229,7 +2229,7 @@ sruše	1116		2
 srušiše	45		3
 stadoše	448		3
 stajaše			3
-staniše		M	2
+staniše		M	3
 stanovaše			3
 staraše			3
 staviše	181		3
@@ -2237,41 +2237,41 @@ stavljaše			3
 staše			2
 stegoše			3
 stekoše	29		3
-steriliše	108		2
+steriliše	108		3
 stezaše			3
 sticaše			3
 stigoše	315		3
-stimuliše			2
+stimuliše			3
 stisnuše			3
 stizaše			3
 stiđaše			3
 stišavaše			3
 stojaše			3
-stovariše			2
+stovariše			3
 stradaše	44		3
 strahovaše			3
 straše	51		2
-stražariše			2
+stražariše			3
 streljaše			3
 stresaše			3
-stresoše			2
-strgoše			2
+stresoše			3
+strgoše			3
 strpaše	15		3
 strugaše			3
 strčaše			3
 strše	39		2
-stuknuše			2
+stuknuše			3
 stupaše			3
 stupiše	52		3
 stvaraše			3
 stvoriše	102		3
 subaše	38		3
-sublimiše			2
-subvencioniše	1100		2
+sublimiše			3
+subvencioniše	1100		3
 sudariše	16		4
-sudiše			2
-sugeriše			2
-suknuše			2
+sudiše			3
+sugeriše			3
+suknuše			3
 sukobiše			3
 suočiše			3
 survaše			3
@@ -2283,8 +2283,8 @@ suzbiše			3
 suziše			3
 suđaše			3
 suše	4172		2
-svališe			2
-svanjivaše			2
+svališe			3
+svanjivaše			3
 svađaše			3
 svedočaše			3
 svedoše			3
@@ -2296,7 +2296,7 @@ svezaše	21		3
 sviraše			3
 svitaše			3
 sviše	24		2
-svrgoše			2
+svrgoše			3
 svrstaše			3
 svršavaše			4
 svrše	90		2
@@ -2305,45 +2305,45 @@ svukoše	26		3
 tajaše			3
 taknuše			3
 takoše	14		3
-taksiraše			2
-tamburaše	249		2
-tamnovaše			2
+taksiraše			3
+tamburaše	249		3
+tamnovaše			3
 tapše	173		2
 tecijaše			4
-teoretiše			2
+teoretiše			3
 teraše			3
-teroriše			2
-testeriše			2
-tetoše	25		2
+teroriše			3
+testeriše			3
+tetoše	25		3
 tešaše			3
 teše	287		2
 tinjaše			3
-tituliše			2
+tituliše			3
 tiše	777		2
-toleriše	1645		2
+toleriše	1645		3
 toše			2
 trajaše			3
-transformiše	1748		2
+transformiše	1748		3
 tranše	608		2
 tražaše			3
-tražiše			2
+tražiše			3
 trebaše			3
-trebovaše			2
+trebovaše			3
 treperaše			3
 treptaše			3
-tresnuše			2
+tresnuše			3
 tresoše			3
 trgaše			3
 trgoše	16		3
 triše			2
 trkaše			3
-tronoše			2
+tronoše			3
 trovaše			3
 trošaše			3
 troše	8481		2
 trpaše			3
 trpljaše			3
-trudiše			2
+trudiše			3
 truđaše			3
 trzaše			3
 trznuše			3
@@ -2351,22 +2351,22 @@ trčaše			3
 tugovaše			3
 tukoše	61		3
 tumaraše			3
-tumačiše			2
-turiše	13		2
+tumačiše			3
+turiše	13		3
 tutnjaše			3
 tužiše			3
 tvoraše			3
 tvrđaše			3
 ubacivaše			3
 ubaciše	19		3
-ubediše	31		2
-ubeđivaše			2
+ubediše	31		3
+ubeđivaše			3
 ubijaše			3
 ubiše	645		3
 ublažavaše			3
 ubodoše			3
-ubrajaše			2
-ubriše			2
+ubrajaše			3
+ubriše			3
 ubrzaše			3
 uceniše			3
 udahnuše			3
@@ -2376,33 +2376,33 @@ udaraše			4
 udariše	268		4
 udaviše	20		3
 udbaše			3
-udesiše			2
-udiviše	57		2
+udesiše			3
+udiviše	57		3
 udiše	333		3
-udostojiše	49		2
-udrobiše			2
+udostojiše	49		3
+udrobiše			3
 udružiše	15		3
-udubiše			2
-udvojiše			2
-ufuraše			2
+udubiše			3
+udvojiše			3
+ufuraše			3
 ugasiše	30		3
 ugađaše			3
 ugibaše			3
 ugledaše	225		4
 uglješe			3
-ugnezdiše			2
+ugnezdiše			3
 ugodiše	24		3
 ugostiše			3
 ugrabiše	31		4
-ugrizaše			2
+ugrizaše			3
 ugroziše			3
 ugrožavaše			3
-uguraše			2
+uguraše			3
 uguše	337		2
 ugušiše			3
 uhapsiše	29		4
 uhvatiše	306		4
-ujduriše			2
+ujduriše			3
 ujedaše			3
 ujediniše	16		3
 ujedoše			4
@@ -2417,143 +2417,143 @@ ukoriše			3
 ukočiše	13		3
 ukradoše	24		4
 ukrasiše	22		3
-ukresaše			2
+ukresaše			3
 ukreše			3
 ukrstiše			3
 ulagaše			3
 ulažaše			4
-ulegoše			2
-uletaše			2
-uliše			2
+ulegoše			3
+uletaše			3
+uliše			3
 uloviše	15		3
 umakoše			4
-umanjivaše			2
-umanjiše			2
+umanjivaše			3
+umanjiše			3
 umaraše			3
-umeriše			2
-umešaše			2
-umiliše			2
-umiljavaše			2
+umeriše			3
+umešaše			3
+umiliše			3
+umiljavaše			3
 umiraše			4
-umirivaše			2
-umiriše	26		2
+umirivaše			3
+umiriše	26		3
 umivaše			3
 umiše			3
 umišljaše			3
-umnožavaše			2
-umnožiše	34		2
-umoliše	26		2
-umoljavaše			2
+umnožavaše			3
+umnožiše	34		3
+umoliše	26		3
+umoljavaše			3
 umoriše	29		3
-umotaše			2
+umotaše			3
 umovaše			3
 umreše	45		2
-umrtviše			2
-umrtvljavaše			2
-umukoše	16		2
-umutiše			2
+umrtviše			3
+umrtvljavaše			3
+umukoše	16		3
+umutiše			3
 unajmiše			3
-unesoše	23		2
+unesoše	23		3
 uneše	18		2
-uniformiše			2
-uniđoše			2
+uniformiše			3
+uniđoše			3
 uništavaše			3
 uništiše	116		4
 uočiše			3
 upadaše			4
 upadoše	37		4
 upališe	34		3
-upetljaše			2
-upinjaše			2
+upetljaše			3
+upinjaše			3
 upisaše			3
 upitaše	194		3
 upiše	3678		2
 uplaše	448		3
 uplašiše	157		4
-upletoše			2
-upokojiše	18		2
+upletoše			3
+upokojiše	18		3
 upotrebiše	13		3
 upoznaše	12		3
-upraviše			2
+upraviše			3
 upravljaše			4
 upraše			3
 upreše			3
 upropastiše	77		3
-uprtiše			2
-upustiše			2
+uprtiše			3
+upustiše			3
 uputiše	135		3
 upućivaše			3
 uradiše	133		3
 uraniše			4
-urazumiše			2
+urazumiše			3
 urediše	16		3
 urezaše			4
-urniše			2
-urodiše			2
+urniše			3
+urodiše			3
 uroniše			3
-uroše			2
-uruše	136		2
-usahnuše			2
+uroše			3
+uruše	136		3
+usahnuše			3
 usavrše	568		2
-usedoše			2
-usekoše			2
+usedoše			3
+usekoše			3
 useliše			3
 uskipeše			3
-uskomešaše			2
-uskočiše			2
-usliše	38		2
+uskomešaše			3
+uskočiše			3
+usliše	38		3
 usmeravaše			3
 usmrdeše			3
-usmrtiše			2
-usnuše			2
+usmrtiše			3
+usnuše			3
 uspavaše			3
 uspavljivaše			3
-uspentraše			2
+uspentraše			3
 uspevaše			3
 uspeše	25		3
 uspinjaše			4
 usplamteše			3
-uspravljaše			2
-usrećiše			2
+uspravljaše			3
+usrećiše			3
 ustadoše	89		4
 ustajaše			4
 ustanoviše	20		3
-ustaviše	14		2
-ustavljaše			2
+ustaviše	14		3
+ustavljaše			3
 ustaše	2545		3
 ustraše			3
-ustrašiše			2
-ustreliše			2
-ustremiše	18		2
-ustreptaše			2
+ustrašiše			3
+ustreliše			3
+ustremiše	18		3
+ustreptaše			3
 ustrojiše	12		3
-ustuknuše	15		2
-ustumaraše			2
+ustuknuše	15		3
+ustumaraše			3
 usudiše	13		3
-usukaše			2
+usukaše			3
 usuđivaše			3
 usvojiše	12		3
 utaboriše			3
 utekoše	36		3
-uteraše			2
+uteraše			3
 uteše	125		3
 utešiše	19		4
 uticaše			4
-utišaše			2
+utišaše			3
 utopiše	14		3
 utrnuše			3
 utroše	328		2
 utrošiše			3
-utrčaše			2
+utrčaše			3
 utvrdiše	65		3
 utvrđivaše			4
-uvatiše			2
+uvatiše			3
 uvažavaše			3
-uvedoše			2
+uvedoše			3
 uveličaše			3
 uveravaše			3
 uveriše	22		4
-uveseljavaše			2
+uveseljavaše			3
 uvećavaše			3
 uvideše			4
 uvijaše			3
@@ -2563,71 +2563,71 @@ uvođaše			3
 uvrebaše			3
 uvrstiše			3
 uvukoše	15		3
-uzađoše			2
+uzađoše			3
 uzbuniše	13		3
-uzburkivaše			2
+uzburkivaše			3
 uzdahnuše			3
 uzdaše			3
-uzdignuše			2
-uzdigoše			2
+uzdignuše			3
+uzdigoše			3
 uzdisaše			4
-uzdizaše			2
-uzdiše	336		2
-uzdrhtaše			2
+uzdizaše			3
+uzdiše	336		3
+uzdrhtaše			3
 uzdržavaše			4
 uzdržaše			3
 uzeše	352		2
-uzidaše			2
+uzidaše			3
 uzimaše			4
 uziđoše	22		3
 uzjaše	209		3
-uzlažaše			2
+uzlažaše			3
 uzmakoše			4
-uzmogoše			2
+uzmogoše			3
 uznemiriše	35		3
-uznesoše	25		2
+uznesoše	25		3
 uzneše	10		3
-uznošaše			2
-uzrastoše			2
+uznošaše			3
+uzrastoše			3
 uzveraše			3
-uzveriše			2
+uzveriše			3
 uzviknuše	21		3
 uzvisiše			3
-uzvratiše			2
-uzvraćaše			2
-ućutaše	21		2
-ućutkaše			2
+uzvratiše			3
+uzvraćaše			3
+ućutaše	21		3
+ućutkaše			3
 učaše			3
-učestaše			2
+učestaše			3
 učiniše	390		3
-učiše			2
+učiše			3
 učvrstiše	11		3
 uđoše	196		3
-užasavaše			2
-užasnuše	12		2
+užasavaše			3
+užasnuše	12		3
 uživaše			3
-užurbaše			2
+užurbaše			3
 vagaše			3
 vajkaše			3
-vakciniše	240		2
-vapiše			2
+vakciniše	240		3
+vapiše			3
 varaše			3
-variraše			2
-vaskrsnuše			2
-vaskrsoše			2
-vaspitaše			2
+variraše			3
+vaskrsnuše			3
+vaskrsoše			3
+vaspitaše			3
 vataše			3
 vaše	49370		2
 vejaše			3
 velikaše	123		2
-veličaše			2
-veliše			2
+veličaše			3
+veliše			3
 veljaše			3
 venjaše			3
 venčaše	13		3
 veraše			3
 verovaše			4
-veseliše			2
+veseliše			3
 veseljaše			3
 vezaše	84		3
 vezivaše			3
@@ -2638,14 +2638,14 @@ videše	353		3
 vijaše			3
 vikaše			3
 viknuše	42		3
-vinuše			2
-visiše			2
+vinuše			3
+visiše			3
 viđaše		M	3
 višaše			3
 više	865892		2
 vladaše			3
 vlaše			2
-vodiše			2
+vodiše			3
 vodonoše	36		3
 vojevaše			3
 voleše			3
@@ -2658,11 +2658,11 @@ vređaše			3
 vrisnuše			3
 vrištaše			3
 vrljaše			3
-vrnuše			2
+vrnuše			3
 vrše	11407		2
-vukoše			2
+vukoše			3
 vučaše			3
-zabaciše			2
+zabaciše			3
 zabavljaše			4
 zabeleše			3
 zabiše	16		3
@@ -2672,207 +2672,207 @@ zabodoše			3
 zaboleše			3
 zaboraviše	80		4
 zabraniše	11		3
-zabrazdiše			2
+zabrazdiše			3
 zabrinuše			4
 zabrujaše			3
-zabunjivaše			2
-zacviliše			2
-zacvokotaše			2
+zabunjivaše			3
+zacviliše			3
+zacvokotaše			3
 zadavaše			3
 zadaviše			3
-zadenuše			2
+zadenuše			3
 zadesiše	12		4
-zadiraše			2
+zadiraše			3
 zadiviše	14		3
-zadiše	14		2
-zadobiše	28		2
-zadojiše			2
+zadiše	14		3
+zadobiše	28		3
+zadojiše			3
 zadovoljavaše			3
 zadovoljiše			3
 zadremaše			3
-zadrhtaše	11		2
-zadrmaše			2
+zadrhtaše	11		3
+zadrmaše			3
 zadržavaše			4
 zadržaše	29		3
 zadužiše			3
-zagledaše	17		2
-zagluše	11		2
-zaglušiše			2
-zagnojiše			2
-zagrabiše			2
+zagledaše	17		3
+zagluše	11		3
+zaglušiše			3
+zagnojiše			3
+zagrabiše			3
 zagradiše			3
-zagrajaše			2
-zagraktaše			2
+zagrajaše			3
+zagraktaše			3
 zagreboše			3
-zagrizaše			2
+zagrizaše			3
 zagrliše	30		4
 zagrmeše			3
-zagroktaše			2
-zagroziše			2
-zagustiše			2
+zagroktaše			3
+zagroziše			3
+zagustiše			3
 zahtevaše			3
 zahvališe	29		3
 zahvatiše			4
-zaigraše			2
-zajaziše			2
+zaigraše			3
+zajaziše			3
 zajaše	49		3
-zaječaše			2
-zakačiše			2
+zaječaše			3
+zakačiše			3
 zaklanjaše			4
-zaklatiše			2
+zaklatiše			3
 zaklaše	17		3
 zaklinjaše			4
-zaključaše	12		2
+zaključaše	12		3
 zaključiše	33		3
 zakloniše			3
-zaklopiše			2
-zakokotaše			2
+zaklopiše			3
+zakokotaše			3
 zakopaše			3
-zakoračiše			2
-zakovaše			2
-zakrpiše			2
-zakrviše			2
-zakucaše			2
-zakukaše			2
-zalajaše			2
-zalepiše	10		2
-zalepršaše			2
+zakoračiše			3
+zakovaše			3
+zakrpiše			3
+zakrviše			3
+zakucaše			3
+zakukaše			3
+zalajaše			3
+zalepiše	10		3
+zalepršaše			3
 zališe			3
 založiše	11		3
-zalupaše			2
+zalupaše			3
 zalupiše			4
-zamagliše			2
+zamagliše			3
 zamakoše			4
 zameniše	16		3
 zamenjivaše			3
 zametnuše			4
-zamiraše			2
-zamirisaše			2
-zamiriše	174		2
+zamiraše			3
+zamirisaše			3
+zamiriše	174		3
 zamisliše			4
 zamišljaše			3
 zamoliše	68		3
-zamračiše			2
+zamračiše			3
 zamutiše			3
 zanemeše			3
 zaneše			3
-zanjihaše			2
-zanjiše	28		2
-zanoćiše	14		2
-zanošaše			2
-zaobiđoše			2
+zanjihaše			3
+zanjiše	28		3
+zanoćiše	14		3
+zanošaše			3
+zaobiđoše			3
 zapadoše			4
-zapahnuše			2
+zapahnuše			3
 zapališe	93		3
 zapanjiše			3
-zapevaše	20		2
-zapečatiše	12		2
-zapinjaše			2
+zapevaše	20		3
+zapečatiše	12		3
+zapinjaše			3
 zapisaše	10		3
 zapitaše	35		3
 zapiše	343		2
-zaplakaše	22		2
+zaplakaše	22		3
 zaplamteše			3
 zaplaše	162		3
-zapleniše			2
+zapleniše			3
 zapleše	27		3
 zapovedaše			3
 zapovediše	16		4
 započeše	15		2
-započinjaše			2
-zapraštaše			2
-zapretiše	12		2
-zaprečiše			2
-zapucaše	10		2
-zaputiše	11		2
-zapuše	154		2
-zaradovaše			2
-zarastoše			2
+započinjaše			3
+zapraštaše			3
+zapretiše	12		3
+zaprečiše			3
+zapucaše	10		3
+zaputiše	11		3
+zapuše	154		3
+zaradovaše			3
+zarastoše			3
 zaratiše			4
-zaricaše			2
-zaridaše			2
-zarobiše	45		2
+zaricaše			3
+zaridaše			3
+zarobiše	45		3
 zasadiše			3
-zasedaše			2
-zasedoše			2
-zasejaše			2
-zasekoše			2
+zasedaše			3
+zasedoše			3
+zasejaše			3
+zasekoše			3
 zaseniše			4
-zasijaše	19		2
+zasijaše	19		3
 zasjaše			3
-zaskakaše			2
-zaslepiše			2
+zaskakaše			3
+zaslepiše			3
 zaslužiše			3
-zasnovaše			2
+zasnovaše			3
 zaspaše	19		3
 zastadoše	22		4
 zastajaše			4
-zastenjaše			2
+zastenjaše			3
 zastideše			3
-zastiraše			2
-zastraniše			2
+zastiraše			3
+zastraniše			3
 zastraše	130		3
 zastrašiše			4
-zastrugaše			2
+zastrugaše			3
 zastupaše			3
-zasuziše	12		2
-zasuše	19		2
-zasužnjiše			2
+zasuziše	12		3
+zasuše	19		3
+zasužnjiše			3
 zasvetleše			3
-zasviraše			2
+zasviraše			3
 zasvrbeše			3
-zategnuše			2
-zategoše			2
+zategnuše			3
+zategoše			3
 zatekoše	37		4
 zatezaše			3
-zatiraše			2
+zatiraše			3
 zatočiše			3
 zatražiše	51		3
-zatresoše			2
+zatresoše			3
 zatreše			3
-zatrpaše			2
-zatrubiše	10		2
-zaturiše			2
+zatrpaše			3
+zatrubiše	10		3
+zaturiše			3
 zatvaraše			3
 zatvoriše	195		3
 zaudaraše			4
-zaurlaše			2
+zaurlaše			3
 zaustaviše	67		4
 zaustavljaše			4
 zauzeše	52		2
 zauzimaše			4
 zavadiše	13		4
-zavapiše	32		2
+zavapiše	32		3
 zavaraše			4
-zaveslaše			2
-zavetovaše			2
+zaveslaše			3
+zavetovaše			3
 zavezaše			3
 zavideše			3
 zavijaše			3
-zavikaše			2
+zavikaše			3
 zaviriše			3
 zaviše			3
 zavladaše	13		3
 zavoleše	19		3
 zavolješe		J	3
-zavrištaše			2
-zavrnuše			2
+zavrištaše			3
+zavrnuše			3
 završavaše			4
 završe	8516		2
 završiše	83		3
 zavukoše			3
-zazidaše			2
-zazvoniše	12		2
+zazidaše			3
+zazvoniše	12		3
 zaćutaše	16		3
-začepiše			2
+začepiše			3
 začeše			2
 začudiše	77		4
-začuše	60		2
+začuše	60		3
 zađoše	11		3
-zaškripaše	19		2
-zaštektaše			2
-zažariše			2
-zažegoše			2
+zaškripaše	19		3
+zaštektaše			3
+zažariše			3
+zažegoše			3
 zaželeše			3
 zbijaše			3
 zbiše	40		2
@@ -2882,17 +2882,17 @@ zbriše	211		2
 zbuniše	22		3
 zbunjivaše			3
 zderaše			3
-zdrobiše			2
+zdrobiše			3
 združiše			3
-zelenaše			2
+zelenaše			3
 zgadiše			3
-zgaziše			2
+zgaziše			3
 zgledaše			3
 zgrabiše	40		3
 zgreše	13		2
-zgrešiše			2
+zgrešiše			3
 zgrnuše			3
-zgrčiše			2
+zgrčiše			3
 zguriše			3
 zidaše			3
 zijaše			3
@@ -2900,33 +2900,33 @@ zinuše			3
 znadijaše			4
 znadoše	10		3
 znaše		M	2
-zovnuše			2
+zovnuše			3
 zvaše			2
 zveknuše			3
 zvezdaše			3
-ćelepoše			2
+ćelepoše			3
 ćeraše			3
 ćeše			2
 ćoše		M	2
 ćutaše			3
 čardaše			3
-čauše			2
+čauše			3
 čaše	3773		2
 čekaše			3
-četovaše			2
+četovaše			3
 češaše			3
 češe	391		2
 činiše	39		3
 činjaše			3
 čitaše			3
-čudiše			2
+čudiše			3
 čujaše			3
 čuvaše			3
 čuđaše			3
-đilkoše			2
-đipiše			2
+đilkoše			3
+đipiše			3
 šaljaše			3
-šanuše			2
+šanuše			3
 šaptaše			3
 šaputaše			3
 šaraše			3
@@ -2935,13 +2935,13 @@ zvezdaše			3
 šibaše			3
 šiljaše			3
 širaše			3
-širiše			2
+širiše			3
 šišmiše	14		3
 šištaše			3
-škljocnuše			2
-škripnuše			2
-šmugnuše			2
-špekuliše	222		2
+škljocnuše			3
+škripnuše			3
+šmugnuše			3
+špekuliše	222		3
 štaviše		M	3
 štediše	641		3
 šteđaše			3
@@ -2949,22 +2949,22 @@ zvezdaše			3
 štićaše			3
 štoviše	337		3
 štrcaše			3
-štrecnuše			2
+štrecnuše			3
 šuškaše			3
-švaleriše			2
-žališe			2
+švaleriše			3
+žališe			3
 žaljaše			3
 žalovaše			4
-žegoše			2
+žegoše			3
 želeše			3
 željaše			3
 želješe		J	3
-žigoše	182		2
+žigoše	182		3
 živeše			3
 življaše			3
-živnuše			2
+živnuše			3
 žrtvovaše			4
-žuboraše			2
+žuboraše			3
 žuđaše			3
 biješe			3
 bješe	12		2
@@ -2974,10 +2974,10 @@ djeveruše			3
 griješe	78		3
 htješe			2
 izgorješe			3
-lijepše			2
+lijepše			3
 ljepše	571		2
 odniješe			3
-odriješiše			2
+odriješiše			3
 opustješe			3
 pobjegoše			4
 podijeliše	22		4
@@ -2985,12 +2985,12 @@ podsjetiše			4
 pogriješe	15		3
 pomriješe			3
 poniješe			3
-primjetiše			2
-razdjeliše			2
+primjetiše			3
+razdjeliše			3
 riješe	422		3
 smiješe	14		3
 smjestiše			3
 tjeraše			3
 tješe			2
 utješiše			4
-zapjevaše			2
+zapjevaše			3

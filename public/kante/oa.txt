@@ -2,51 +2,51 @@
 biroa	3106		2
 bistroa	38		2
 boa	144		2
-bordoa	307		2
-delakroa			2
+bordoa	307		3
+delakroa			3
 depoa	526		2
-didroa			2
-džudoa			2
-fransoa			2
-fukoa			2
-gestapoa			2
-getoa			2
-godoa			2
-gunoa			2
-hidrozoa			2
-igoa			2
-informbiroa			2
-jojoa			2
-kakaoa			2
-kinoa			2
-korzoa			2
-lavaboa			2
-logoa	571		2
-lotoa			2
-makronivoa			2
-maoa			2
+didroa			3
+džudoa			3
+fransoa			3
+fukoa			3
+gestapoa			3
+getoa			3
+godoa			3
+gunoa			3
+hidrozoa			3
+igoa			3
+informbiroa			3
+jojoa			3
+kakaoa			3
+kinoa			3
+korzoa			3
+lavaboa			3
+logoa	571		3
+lotoa			3
+makronivoa			3
+maoa			3
 metroa	1815		2
-mikronivoa			2
-moroa			2
+mikronivoa			3
+moroa			3
 nivoa	32178		2
 noa			2
 oboa	55		2
-panoa	610		2
-peroa			2
-pesoa			2
-pežoa			2
+panoa	610		3
+peroa			3
+pesoa			3
+pežoa			3
 platoa	1154		2
-politbiroa	204		2
-protozoa			2
-remboa			2
-renoa			2
-rešoa			2
-rokokoa	105		2
-rusoa			2
+politbiroa	204		3
+protozoa			3
+remboa			3
+renoa			3
+rešoa			3
+rokokoa	105		3
+rusoa			3
 sakoa	330		2
-samoa			2
-sinaloa			2
-sumoa			2
-torzoa			2
-vaterloa			2
-šenoa			2
+samoa			3
+sinaloa			3
+sumoa			3
+torzoa			3
+vaterloa			3
+šenoa			3

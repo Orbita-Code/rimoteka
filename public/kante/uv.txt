@@ -7,14 +7,14 @@ mahnuv			2
 metnuv			2
 naduv			2
 nagluv	28		2
-odgurnuv			2
-odmaknuv			2
-ogrnuv			2
-okrenuv			2
-ošinuv			2
+odgurnuv			3
+odmaknuv			3
+ogrnuv			3
+okrenuv			3
+ošinuv			3
 pastuv	112		2
 pognuv			2
-pridignuv			2
+pridignuv			3
 stisnuv			2
 suv	3226		1
 trgnuv			2

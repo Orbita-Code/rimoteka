@@ -1,63 +1,63 @@
 159
 Kubu	104		2
 Zagrebu	62		3
-aeroklubu	18		2
+aeroklubu	18		3
 babu	1332		2
 barabu			2
 bebu	8237		2
 berbu	790		2
 bezubu			3
 bobu	189		2
-bogoljubu			2
+bogoljubu			3
 bombu	2149		2
 borbu	30967		2
 bu		M	1
 bubašvabu	52		2
 bubu			2
-dangubu	35		2
+dangubu	35		3
 deobu	555		2
 diobu	23		2
 dobu	5603		2
 dragoljubu	12		4
 družbu	39		2
-dvogubu			2
+dvogubu			3
 farbu	406		2
 gajbu			2
 galebu	25		3
 garderobu	2883		2
-generalštabu	124		2
+generalštabu	124		3
 glibu	78		2
 globu	202		2
-gnusobu	15		2
+gnusobu	15		3
 golubu	58		3
 gozbu	385		2
 grabu	12		2
 grbu	681		2
-grdobu	14		2
+grdobu	14		3
 grebu	186		2
 grobu	2640		2
 grubu	545		2
 gubu	57		2
-haubu			2
+haubu			3
 hlebu	813		2
 izložbu	10180		3
 izvedbu	294		3
 jambu	13		2
 jastrebu			3
-jutjubu	402		2
-karibu			2
-kasabu			2
+jutjubu	402		3
+karibu			3
+kasabu			3
 klubu	19066		2
 kolibu	454		3
 konobu	49		3
-korabu	11		2
+korabu	11		3
 krabu	15		2
 krezubu			3
 ljubu		M	2
 lubu			2
-malibu			2
-marabu	25		2
-miroljubu			2
+malibu			3
+marabu	25		3
+miroljubu			3
 mobu	127		2
 molbu	4300		2
 nagibu	154		3
@@ -65,26 +65,26 @@ nagodbu	446		3
 naredbu	2052		3
 narudžbu	116		3
 nebu	9453		2
-obljubu	106		2
+obljubu	106		3
 odredbu	2476		3
-ogrebu	111		2
-opskrbu	102		2
+ogrebu	111		3
+opskrbu	102		3
 optužbu	732		3
 osobu	12619		3
-oštrozubu			2
+oštrozubu			3
 pabu	220		2
 paljbu	632		2
 palubu	209		3
-pečalbu			2
-plenidbu	59		2
+pečalbu			3
+plenidbu	59		3
 plombu	89		2
 plovidbu	1002		3
-pogodbu	188		2
+pogodbu	188		3
 pogrebu	194		3
-porubu	11		2
+porubu	11		3
 potrebu	24824		3
 prababu	30		3
-praizvedbu	48		2
+praizvedbu	48		3
 predodžbu	36		3
 pregibu	57		3
 preljubu	322		3
@@ -92,9 +92,9 @@ primedbu	2688		3
 priredbu	646		3
 pritužbu	597		3
 probu	2008		2
-prosidbu	83		2
+prosidbu	83		3
 pubu			2
-razdeobu			2
+razdeobu			3
 ribu	4679		2
 robu	14640		2
 rodoljubu	35		4
@@ -105,12 +105,12 @@ sambu	90		2
 selidbu	520		3
 seobu	294		2
 slabu	1777		2
-slavoljubu			2
+slavoljubu			3
 slobu			2
 službu	9876		2
 sobu	11552		2
-spodobu	55		2
-srboljubu			2
+spodobu	55		3
+srboljubu			3
 srbu			2
 srdžbu	135		2
 stubu	956		2
@@ -128,24 +128,24 @@ trubu	483		2
 tubu	225		2
 tužbu	6371		2
 tvorbu	30		2
-uknjižbu	197		2
-uporedbu	17		2
+uknjižbu	197		3
+uporedbu	17		3
 upotrebu	25885		4
-uredbu	2052		2
+uredbu	2052		3
 utrobu	549		3
 vebu	347		2
 veridbu	236		3
 vežbu	2070		2
 vrbu	99		2
-vršidbu	37		2
+vršidbu	37		3
 zebu	34		2
 zglobu	559		2
 zlobu	278		2
-zlodobu			2
+zlodobu			3
 zloupotrebu	2817		5
 zubu	521		2
 ćabu			2
-ćitabu			2
+ćitabu			3
 ćubu	28		2
 čorbu	1224		2
 šajbu	12		2

@@ -1,18 +1,18 @@
 60
 avaz	665		2
-bezizlaz	77		2
+bezizlaz	77		3
 bogaz	11		2
 buraz	168		2
 burmaz			2
 dikobraz			3
 dokaz	27990		2
 elmaz			2
-fransoaz			2
+fransoaz			3
 gavaz			2
 gaz	259		1
 gmaz	41		1
 igrokaz	186		3
-ilijaz			2
+ilijaz			3
 iljaz			2
 iskaz	2827		2
 izlaz	9386		2
@@ -23,7 +23,7 @@ kavkaz			2
 knjaz		M	1
 mamlaz		M	2
 maz			1
-miljokaz			2
+miljokaz			3
 miraz	670		2
 mlaz	833		1
 mraz	1708		1
@@ -41,11 +41,11 @@ poraz	15273		2
 povraz			2
 prelaz	5021		2
 premaz	869		2
-preobraz			2
+preobraz			3
 prikaz	11708		2
 prilaz	2314		2
 prolaz	5118		2
-protivdokaz			2
+protivdokaz			3
 putokaz	1788		3
 raz			1
 razlaz	627		2
@@ -56,7 +56,7 @@ transgaz			2
 ukaz	597		2
 ulaz	11749		2
 uzlaz	17		2
-vetrokaz		M	2
-vodokaz			2
+vetrokaz		M	3
+vodokaz			3
 zalaz			2
 prijelaz	119		2

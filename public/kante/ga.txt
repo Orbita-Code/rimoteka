@@ -1,11 +1,11 @@
 1478
-Hamburga			2
+Hamburga			3
 Pekinga			3
 Praga	1425		2
 abrazivnoga			5
 adamskoga			2
 advokatskoga			3
-aforističnoga			2
+aforističnoga			3
 afričkoga			4
 aga	669		2
 aktiviranoga			4
@@ -14,21 +14,21 @@ akustičnoga			4
 akutnoga			4
 alarmiranoga			4
 alga	131		2
-alogičkoga			2
+alogičkoga			3
 ambicioznoga			6
 amerikanskoga			3
 američkoga	18		4
 androloga			2
-anesteziologa	365		2
+anesteziologa	365		3
 animalnoga			5
-anksioznoga			2
+anksioznoga			3
 anonimnoga			5
 antičkoga	11		4
-antropofaga			2
+antropofaga			3
 antropologa	227		3
 anđeoskoga			2
-apelacionoga			2
-aplikativnoga			2
+apelacionoga			3
+aplikativnoga			3
 apsolutnoga	15		5
 apstraktnoga			4
 arapskoga	10		4
@@ -37,43 +37,43 @@ arheološkoga			4
 arhipelaga	534		2
 arhitektonskoga			3
 armstronga			2
-arnautskoga			2
+arnautskoga			3
 aromatičnoga			4
-aseksualnoga			2
+aseksualnoga			3
 asirskoga			3
 astmatičnoga			4
 astrologa	353		3
 atlantskoga			4
-autobuskoga			2
+autobuskoga			3
 autohtonoga			4
-autorovoga			2
+autorovoga			3
 autorskoga			5
 azijskoga			4
 babaroga	137		2
 baga	70		2
 bahatoga			4
-bajaga			2
+bajaga			3
 balega	65		3
 baljezga	26		2
 balkanskoga	28		3
 banalnoga			3
-bandažiranoga			2
+bandažiranoga			3
 barskoga			3
 basnoslovnoga			5
 batinanoga			4
-batrga	79		2
+batrga	79		3
 bazga			2
 bačenoga			4
 bebastoga			2
 bednoga	16		3
 bega	672		2
-beglerbega	22		2
+beglerbega	22		3
 beknutoga			4
 belega	115		3
 beloboga			2
 beloga			3
 belonoga			2
-beluga			2
+beluga			3
 berega			3
 beskonačnoga			4
 beskrajnoga			3
@@ -88,15 +88,15 @@ bezdanoga			2
 bezdušnoga			4
 bezuboga			4
 bezumnoga			3
-bezuslovnoga			2
+bezuslovnoga			3
 bećarskoga			2
 bečkoga	18		3
 bijeloga			2
 bijesnoga			4
-biljnoga			2
+biljnoga			3
 biologa	390		3
-bisaga	25		2
-biseksualnoga			2
+bisaga	25		3
+biseksualnoga			3
 bisernoga			2
 bistroga			3
 bitanga	204		2
@@ -105,16 +105,16 @@ bičevanoga			5
 blaga	5425		2
 blagoga	36		3
 blaženoga	280		2
-blažijega			2
+blažijega			3
 blebetanoga			4
 bledoga			3
 blentavoga			2
 blesastoga			2
 blesavoga			2
 bleštavoga			4
-blickriga			2
+blickriga			3
 blijedoga			4
-blindiranoga			2
+blindiranoga			3
 bliskoga	15		3
 blistavoga			4
 bližega			3
@@ -125,7 +125,7 @@ bljuzga			2
 bloga	5240		2
 bludnoga	19		3
 bodljikavoga			5
-bodroga			2
+bodroga			3
 boga	13254		2
 bogatoga	34		4
 bogovskoga			2
@@ -141,7 +141,7 @@ božjega	81		3
 branoga			3
 bratinskoga			2
 bratskoga	14		2
-brauninga			2
+brauninga			3
 braćenoga			2
 bračnoga	25		3
 brašnjavoga			2
@@ -161,15 +161,15 @@ budnoga			3
 budućega	64		3
 bugarskoga	35		4
 bukvalnoga			4
-buldoga	96		2
-bumeranga	110		2
-bundestaga			2
+buldoga	96		3
+bumeranga	110		3
+bundestaga			3
 burnoga			3
-buržoaskoga			2
+buržoaskoga			3
 cajtunga	48		2
 carevoga			4
 carskoga	166		3
-celoga	1091		2
+celoga	1091		3
 centrifuga	205		2
 cetinjskoga	12		2
 ciga	190		2
@@ -192,21 +192,21 @@ današnjega	304		4
 danoga	16		3
 dansinga			2
 datoga			3
-davnoga	12		2
+davnoga	12		3
 debeloga	35		4
 dega			2
 delfinskoga			2
 delokruga	1296		4
 demagoga	192		3
-demijurga			2
-demonologa			2
-dermatologa	467		2
+demijurga			3
+demonologa			3
+dermatologa	467		3
 desetoga	35		3
 desnoga	31		3
 detinjega			4
 devetnaestoga	54		5
 devetoga	57		3
-devojačkoga			2
+devojačkoga			3
 dečanskoga			2
 diega			3
 diftonga	15		3
@@ -217,11 +217,11 @@ divljega	13		2
 divnoga	54		3
 divotnoga			2
 dnevnoga	28		3
-dobatrga			2
-doboga			2
+dobatrga			3
+doboga			3
 dobroga	414		3
 doga	339		2
-dolazećega			2
+dolazećega			3
 domaćega	54		3
 donjega	39		3
 dopinga	602		2
@@ -231,14 +231,14 @@ dovraga	80		3
 dozlaboga	109		2
 draga	6686		2
 dragoga	68		3
-dramaturga	298		2
+dramaturga	298		3
 dramskoga			3
 drevnoga	25		3
 droga	5921		2
 drskoga			3
 druga	94687		2
 drugoga	4811		3
-drumskoga			2
+drumskoga			3
 drvenoga			4
 držanoga			4
 državnoga	83		3
@@ -252,24 +252,24 @@ duševnoga	21		2
 duždevoga			2
 dužega			3
 dužnoga			3
-dvonoga			2
-dvoroga			2
+dvonoga			3
+dvoroga			3
 dvosekloga			2
-edinburga			2
+edinburga			3
 ega	1050		2
 ekavskoga			4
-ekloga	28		2
+ekloga	28		3
 ekologa	396		2
-embarga	513		2
+embarga	513		3
 engleskoga	22		3
 epiloga	344		3
-epskoga			2
-escajga			2
+epskoga			3
+escajga			3
 estetskoga			3
 etničkoga	18		2
 etnologa	234		2
 etologa			2
-evroliga			2
+evroliga			3
 evropskoga	35		4
 falanga	76		2
 falinga			2
@@ -281,19 +281,19 @@ filologa	257		3
 fiziologa	49		3
 fizičkoga	16		4
 flaminga	24		2
-fotografskoga			2
+fotografskoga			3
 fuga	211		2
-futoga			2
-futurologa	19		2
+futoga			3
+futurologa	19		3
 ga	577422		1
 gadnoga			3
 gaga			2
 ganga			2
 gega	68		2
 geologa	202		2
-geteborga			2
+geteborga			3
 giga			2
-gimnazijskoga			2
+gimnazijskoga			3
 ginekologa	1578		3
 gladnoga	20		3
 glasovitoga			4
@@ -307,40 +307,40 @@ gordoga	22		3
 gorkoga			3
 gornjega	73		3
 gorskoga	29		2
-gospodnjega			2
+gospodnjega			3
 gospodskoga	19		4
 gotskoga			3
-govornikovoga			2
+govornikovoga			3
 govornoga			2
 gradskoga			2
 graničnoga			4
 grdnijega			4
-grešećega			2
+grešećega			3
 grešnoga	95		3
 grga			2
-grobnoga			2
+grobnoga			3
 groga	10		2
 grohotnoga			2
 groznoga			3
-grčevitoga			2
+grčevitoga			3
 grčkoga	160		3
 gubavoga	16		4
-gulaga	89		2
+gulaga	89		3
 gustoga	10		3
-gutenberga			2
-habzburga			2
+gutenberga			3
+habzburga			3
 haga			2
 hajdučkoga			2
 haranga	127		2
 haringa	139		2
 haškoga	13		3
-hedviga			2
+hedviga			3
 helenskoga			2
 helga			2
-hepeninga			2
+hepeninga			3
 hercega			3
-hercoga			2
-hirurga	1999		2
+hercoga			3
+hirurga	1999		3
 hitrijega			4
 hitroga			3
 hladnoga	39		3
@@ -361,20 +361,20 @@ ijednoga			2
 ikakvoga	61		4
 ikoga	1041		3
 ilirskoga	16		3
-imunologa	56		2
+imunologa	56		3
 imućnoga			4
 individualnoga			7
 inferiornoga			6
-interpoliranoga			2
+interpoliranoga			3
 intriga	466		2
-inženjeringa			2
-inžinjeringa	184		2
-iriga			2
+inženjeringa			3
+inžinjeringa	184		3
+iriga			3
 ironičnoga			4
 iskopanoga			4
 iskrenoga			4
 islamskoga	17		3
-isprekidanoga			2
+isprekidanoga			3
 isprljanoga			4
 ispunjenoga			5
 istaknutoga			4
@@ -390,17 +390,17 @@ izbušenoga			4
 izgubljenoga	10		4
 izlišnoga			4
 izloga	870		3
-izloženoga			2
+izloženoga			3
 izmišljenoga			5
 iznenadnoga			5
 izruga			3
-izvaga			2
+izvaga			3
 izvesnoga			4
 izvodnoga			2
 izvornoga			2
 ičega	954		3
 jadnoga	26		3
-jadviga			2
+jadviga			3
 jaga		M	2
 jakoga	33		3
 jarkoga			3
@@ -408,7 +408,7 @@ jaruga	116		3
 jasnoga	14		3
 jastoga	179		3
 javljenoga			4
-javnoga	101		2
+javnoga	101		3
 jačega	31		3
 jedinoga	190		3
 jednakoga			4
@@ -422,15 +422,15 @@ juga	6448		2
 junačkoga	47		3
 junga			2
 jutrošnjega			4
-južnoga	18		2
+južnoga	18		3
 kaciga	606		3
-kakoga			2
+kakoga			3
 kakvoga	128		2
 kaljuga	106		3
 kamenoga	79		4
 kardiologa	595		3
-karlobaga			2
-kartaga			2
+karlobaga			3
+kartaga			3
 kartinga	150		2
 kasnoga			3
 kastinga	119		2
@@ -442,31 +442,31 @@ kaštiga			2
 kažnjenoga			4
 kesega		M	3
 kečiga	48		3
-kiborga	84		2
+kiborga	84		3
 kineskoga			3
 kinga			2
 kiparskoga			2
 kiplinga			2
-kirurga			2
+kirurga			3
 kitnjastoga			2
-kitnoga			2
-klasnoga			2
+kitnoga			3
+klasnoga			3
 klimanoga			2
 kliringa	111		2
 knjiga	81545		2
 književnoga	74		2
 kobnoga			3
-koburga			2
+koburga			3
 koga	106848		2
 kojega	2899		2
 koječega			3
-kojoga			2
+kojoga			3
 kolega	25452		2
-kolskoga			2
+kolskoga			3
 konačnoga	15		4
 konga			2
 konkretnoga	10		4
-konsaltinga	584		2
+konsaltinga	584		3
 koptskoga			3
 korisnoga	18		4
 kosmologa			2
@@ -482,7 +482,7 @@ krasnoga	11		3
 kratkoga	88		3
 kraćega			3
 krepkoga			3
-krfskoga			2
+krfskoga			3
 krga			2
 krilatoga	10		2
 kristalnoga			3
@@ -495,7 +495,7 @@ krstaškoga			2
 kruga	11468		2
 krupnijega			4
 krvavoga	26		4
-krčaga			2
+krčaga			3
 krštenoga			4
 kudravoga			2
 kuga	1320		2
@@ -504,7 +504,7 @@ kulturnoga	40		3
 kvislinga	292		3
 kvrga	55		2
 laga			2
-lajpciga			2
+lajpciga			3
 lakoga			3
 lakonoga			2
 lakšega			3
@@ -516,39 +516,39 @@ lažljivoga			4
 lažnoga	32		3
 lega	104		2
 leminga	36		2
-lenjoga			2
-lenoga			2
+lenjoga			3
+lenoga			3
 lenčuga	57		3
 lepoga	80		3
 lepšega			3
 levoga	15		3
-ležećega			2
+ležećega			3
 liftinga			2
 liga	8870		2
 lijepoga	20		4
 listinga	429		2
 literarnoga			5
 lizinga	2877		2
-ličkoga			2
+ličkoga			3
 ličnoga	33		3
 ljaga	203		2
 ljiga	334		2
 ljubljenoga			4
-ljubodraga			2
+ljubodraga			3
 ljudskoga	358		2
 ljutoga	25		3
 logičkoga			4
 lomnoga			3
 lošega	35		3
 ludoga	18		3
-ludviga			2
+ludviga			3
 luga	204		2
 lukavijega			5
 lukavoga	48		4
 maga	296		2
 magičnoga			4
 majčinoga			4
-malaga		M	2
+malaga		M	3
 malenoga	20		4
 maloga	263		3
 manga	637		2
@@ -561,17 +561,17 @@ mazga	129		2
 mačvanskoga			2
 mega			2
 mesinga			2
-metafizičkoga			2
-metalurga	53		2
+metafizičkoga			3
+metalurga	53		3
 meteorologa	328		3
 međunarodnoga	41		4
 miga	122		2
-mijodraga			2
-mikrobiologa	61		2
-mikrotalasnoga			2
+mijodraga			3
+mikrobiologa	61		3
+mikrotalasnoga			3
 miloga	172		3
 milosnoga			4
-miodraga			2
+miodraga			3
 mirnoga	16		3
 mislenoga			2
 mitinga	1830		3
@@ -580,11 +580,11 @@ mitološkoga			4
 mitskoga			3
 mjesnoga			2
 mladoga	266		3
-mladoženjinoga			2
+mladoženjinoga			3
 mlađega	31		3
 mnoga	10730		2
 mnogoga	45		3
-mnogočega			2
+mnogočega			3
 modernoga	48		4
 moga	5036		2
 mogućega			4
@@ -594,7 +594,7 @@ monaškoga	13		2
 monologa	341		3
 moralnoga	22		3
 morskoga	29		2
-moruzga			2
+moruzga			3
 mozga	538		2
 moćnijega			4
 moćnoga	30		3
@@ -602,22 +602,22 @@ močuga		M	3
 mramornoga			2
 mračnoga	20		3
 mrga			2
-mrkloga			2
+mrkloga			3
 mrskoga			3
-mrsnoga			2
+mrsnoga			3
 mrtvoga	105		3
-mrzloga			2
+mrzloga			3
 mudrijega			4
 mudroga	36		3
 murga			2
 mustanga	54		2
-mutljaga	21		2
-muzikologa	90		2
+mutljaga	21		3
+muzikologa	90		3
 mučenoga			4
 mučnoga			3
 muškoga	77		3
-naboranoga			2
-nadboga			2
+naboranoga			3
+nadboga			3
 nadgrobnoga			2
 nadležnoga			4
 nadmenoga			2
@@ -639,19 +639,19 @@ najmlađega			4
 najmudrijega			5
 najnižega			4
 najpametnijega			6
-najprečega			2
+najprečega			3
 najslađega			4
 najstarijega			5
 najtananijega			6
 najučenijega			6
-najvernijega			2
+najvernijega			3
 najvećega	23		4
 najvišega	11		4
-nakiseloga			2
+nakiseloga			3
 naloga	8599		3
 naloženoga			4
 nametanoga			4
-namolovanoga			2
+namolovanoga			3
 napisanoga			4
 naprednoga			4
 narednoga			2
@@ -660,24 +660,24 @@ naročitoga			5
 naruga	103		3
 nasilnoga			4
 naslaga	1917		3
-naslaganoga			2
+naslaganoga			3
 naslikanoga			5
-nasmejanoga			2
+nasmejanoga			3
 nasušnoga			2
 natega	11		3
 natruloga			2
-navedenoga	56		2
+navedenoga	56		3
 nazvanoga			4
 našega	2328		3
 nebeskoga	174		4
 nebesnoga	76		2
-neboga			2
+neboga			3
 nebriga	488		3
 nedraga	80		3
-neduga			2
+neduga			3
 nega	3339		2
 nejasnoga			4
-nekadanjega			2
+nekadanjega			3
 nekakvoga	38		4
 nekoga	21967		3
 nekojega			4
@@ -707,8 +707,8 @@ nesnosnoga			4
 nesretnoga			4
 nestaloga			2
 nesvesnoga			4
-neupravnoga			2
-neurohirurga	144		2
+neupravnoga			3
+neurohirurga	144		3
 neurologa	482		3
 nevaljaloga			4
 nevelikoga			5
@@ -723,7 +723,7 @@ nečistoga	19		4
 nežnoga			3
 nijednoga	156		3
 nikoga	14212		3
-nirnberga			2
+nirnberga			3
 niskoga	23		3
 ničega	4031		3
 njega	158420		2
@@ -733,7 +733,7 @@ njihovoga	94		4
 noga	2537		2
 normalnoga	15		4
 nosoroga	266		4
-notnoga			2
+notnoga			3
 novijega	18		4
 novoga	1160		3
 noćnoga	16		2
@@ -746,16 +746,16 @@ obećanoga			4
 obešenoga			5
 obilatoga			4
 običnoga	26		4
-obližnjega			2
-obloga	1528		2
+obližnjega			3
+obloga	1528		3
 oborenoga			4
 obranoga			2
 obraćenoga			4
 odabranoga			4
 odgega	13		3
-odlaga			2
-odlutaloga			2
-odostraga	26		2
+odlaga			3
+odlutaloga			3
+odostraga	26		3
 odrasloga	14		2
 odrađenoga			4
 određenoga	42		4
@@ -763,12 +763,12 @@ odstraga			3
 odsutnoga			4
 odvratnoga			4
 oftalmologa	309		3
-oftamologa			2
-oglašenoga			2
+oftamologa			3
+oglašenoga			3
 ognjenoga	20		4
 ogromnoga	14		4
 ohologa			4
-okoreloga			2
+okoreloga			3
 okruga	13833		3
 okružnoga			2
 olega			3
@@ -781,28 +781,28 @@ onoga	42969		2
 onolikoga			4
 opakoga			4
 opaloga			2
-opažajnoga			2
+opažajnoga			3
 opipljivoga			4
 opisanoga			4
 opruga	489		3
 opsega	1978		3
-optuženoga	42		2
+optuženoga	42		3
 opuštenoga			4
 opštega	57		3
 ornitologa	77		2
 ortega			3
-osamnaestoga	13		2
+osamnaestoga	13		3
 osmoga	56		3
-osnaženoga			2
+osnaženoga			3
 osporenoga			4
 ostaloga	512		3
 ostraga			3
-ostriga	95		2
+ostriga	95		3
 ostruga	15		3
-osumnjičenoga			2
+osumnjičenoga			3
 osunčanoga			4
 osuđenoga	15		4
-osvetljenoga			2
+osvetljenoga			3
 osvećenoga			4
 otačkoga			2
 otmenoga			4
@@ -813,7 +813,7 @@ ovdašnjega	10		4
 ovenčanoga			4
 ovoga	50363		3
 ovsenoga			2
-ozarenoga			2
+ozarenoga			3
 ozbiljnoga	10		4
 očajnoga			4
 očevidnoga			5
@@ -825,13 +825,13 @@ oštećenoga			5
 oštroga			3
 paganskoga			2
 paklenoga	13		4
-paleologa			2
+paleologa			3
 paleontologa	41		3
 pametnijega			5
 papiga	63		3
 paralelnoga			3
 parkinga			2
-pasioniranoga			2
+pasioniranoga			3
 pasjega			3
 patologa	194		3
 pašenoga	59		3
@@ -841,17 +841,17 @@ peglanoga			4
 pepeljuga	424		3
 persijskoga	21		2
 pesničkoga			2
-peterburga			2
+peterburga			3
 petoga	78		3
 pevačkoga			2
-pećkoga			2
+pećkoga			3
 pečenoga			4
 pešačkoga			2
-pfeniga			2
+pfeniga			3
 piroga	13		3
 pirsinga	104		2
 pitomoga			4
-pitsburga			2
+pitsburga			3
 piščevoga			4
 pjongjanga			2
 plamenoga			4
@@ -862,10 +862,10 @@ pljuga			2
 pluga	106		2
 pobožnoga			4
 pobunjenoga			4
-podloga	4357		2
+podloga	4357		3
 podnevnoga			3
 podobnoga			4
-podopsega			2
+podopsega			3
 podviga	1333		3
 podzemnoga			2
 pogdekoga			2
@@ -883,15 +883,15 @@ pologa	45		3
 poluboga	27		4
 poluga	1354		3
 polukruga	53		4
-polunaga			2
-pomaga			2
+polunaga			3
+pomaga			3
 pomamnoga			2
-pomenutoga			2
+pomenutoga			3
 pomešanoga			4
 pomorskoga			2
 ponekoga	29		4
 ponoćnoga			2
-porodičnoga			2
+porodičnoga			3
 poruga	66		3
 porušenoga			5
 posavskoga			2
@@ -904,19 +904,19 @@ posljednjega			4
 poslovnoga			4
 posluga	288		3
 poslušnoga			4
-posnoga			2
-postriga			2
+posnoga			3
+postriga			3
 potega			3
-potonjega			2
-potpisanoga			2
+potonjega			3
+potpisanoga			3
 potpunoga			4
 potraga	2855		3
 potrebnoga			4
 potresnoga			2
 pouzdanoga			5
 poznatoga	44		4
-poznijega			2
-poznoga			2
+poznijega			3
+poznoga			3
 početoga			3
 počinjenoga			4
 poštenijega			5
@@ -931,35 +931,35 @@ praznoga	15		3
 praćenoga			4
 prebega	129		3
 prebeloga			2
-preblaga	70		2
+preblaga	70		3
 preblagoga			2
-predistraga			2
+predistraga			3
 predivnoga			4
-predlaga			2
+predlaga			3
 predloga	22334		3
 prednjega			3
 predraga	273		3
 predragoga			4
-preduga	138		2
-preloga			2
-premnoga	19		2
+preduga	138		3
+preloga			3
+premnoga	19		3
 premudroga	11		2
 prenetoga			3
 prestonoga			2
-prestroga	70		2
+prestroga	70		3
 presudnijega			5
 presvetoga	43		2
-pretaga			2
+pretaga			3
 pretega			3
 prethodnoga	34		4
 pretraga	3558		3
 prevaga	141		3
 prevečnoga			2
 prezrenoga			2
-prečaga	23		2
+prečaga	23		3
 prečasnoga	15		2
 prečistoga	24		2
-pređašnjega			2
+pređašnjega			3
 preživljenoga			4
 prijateljskoga			2
 prijatnijega			5
@@ -986,8 +986,8 @@ prosečnoga			4
 prostijega			4
 prostoga	85		3
 protekloga	22		2
-protestantskoga			2
-protivusluga	38		2
+protestantskoga			3
+protivusluga	38		3
 proznoga			3
 prošloga	970		3
 prtljaga	1315		3
@@ -1002,17 +1002,17 @@ pustoga	10		3
 pučkoga			3
 puščanoga			2
 racionalnoga			6
-radiologa	265		2
+radiologa	265		3
 radnoga	55		3
 raga			2
-rajhstaga			2
+rajhstaga			3
 rajskoga			3
 ranga	2863		2
 ranijega	10		4
 ranjavoga			2
 ranjenoga			4
 ranoga	39		3
-raskopanoga			2
+raskopanoga			3
 rasnoga			3
 raspetoga			2
 rastrga			3
@@ -1023,17 +1023,17 @@ razbibriga	139		4
 razbijenoga			5
 razdraga			3
 razjarenoga			4
-razlaga			2
+razlaga			3
 razloga	92916		3
 raznoga	44		3
 razumnoga	11		4
-raškoga	10		2
+raškoga	10		3
 realnoga	12		4
 rega			2
 rejtinga	2720		2
 retkoga			3
 rezanoga			4
-rezigniranoga			2
+rezigniranoga			3
 rečenoga	32		4
 rečnoga			3
 riga	213		2
@@ -1057,11 +1057,11 @@ sabornoga			4
 sadašnjega	50		4
 sadruga			3
 saga	1017		2
-salcburga			2
+salcburga			3
 samoga	2567		3
 samoposluga	184		3
-samousluga	49		2
-santjaga			2
+samousluga	49		3
+santjaga			3
 saraga			3
 sarkofaga	166		2
 sastavljenoga			5
@@ -1075,7 +1075,7 @@ sedmoga	104		3
 sedoga			3
 seljačkoga			3
 sentimentalnoga			6
-senzibilnoga			2
+senzibilnoga			3
 seoskoga	21		4
 severnoga			4
 sfinga	122		2
@@ -1091,16 +1091,16 @@ sivoga	12		3
 sjajnoga	17		3
 sjevernoga			4
 skadarskoga	34		2
-skopskoga			2
-skoroga			2
+skopskoga			3
+skoroga			3
 skrivenoga			2
 slabijega			4
 slaboga	33		3
-slamnoga			2
+slamnoga			3
 slatkoga	29		3
 slavljenoga			4
 slavnoga	142		3
-slavskoga			2
+slavskoga			3
 slađega			3
 sledećega	24		3
 slenga	118		2
@@ -1126,19 +1126,19 @@ snežnoga			3
 sociologa	966		3
 solunskoga			2
 sopstvenoga	35		2
-sovuljaga	14		2
+sovuljaga	14		3
 sočnoga			3
 speleologa	185		3
-spilberga			2
+spilberga			3
 spoljašnjega	14		4
-spoljnoga			2
+spoljnoga			3
 spontanoga			4
 sporoga			3
 sprega	1042		2
 sramotnoga			4
 srebrnoga			4
 srednjega	183		3
-sreskoga			2
+sreskoga			3
 srodnoga			3
 srpskoga	1637		3
 stalnoga	15		3
@@ -1151,11 +1151,11 @@ stidnoga			3
 stihovnoga			2
 stoga	36881		2
 stoletnoga			2
-stomatologa	1273		2
+stomatologa	1273		3
 stonoga	61		3
 straga	94		2
 stranoga	26		3
-strasnoga			2
+strasnoga			3
 stratega	541		3
 stravičnoga			2
 strašnoga	155		3
@@ -1167,11 +1167,11 @@ stručnoga			3
 studenoga	213		4
 stvarnoga	33		3
 stvorenoga	48		2
-subjektivnoga			2
+subjektivnoga			3
 sudnjega	112		3
 sumanutoga			4
 sumnjivoga			4
-superliga	378		2
+superliga	378		3
 supruga	14725		3
 surfinga			2
 surovoga			4
@@ -1180,19 +1180,19 @@ sutrašnjega			4
 suvišnoga			4
 suvoga	38		3
 suznoga			3
-suštoga			2
+suštoga			3
 svakakvoga			4
 svakoga	12380		3
 svačega	1902		3
 svega	107876		2
 svemogućega	21		5
 svemoćnoga	18		4
-sveopštega			2
+sveopštega			3
 svesnoga			3
 svetloga	17		3
 svetoga	5838		3
 svetskoga	84		2
-svevišnjega	36		2
+svevišnjega	36		3
 svezanoga			4
 sveznajućega			5
 sveštenoga	20		2
@@ -1201,7 +1201,7 @@ svilenoga			4
 svinga	59		2
 svoga	23790		2
 svojega	1326	J	3
-svrljiga			2
+svrljiga			3
 svršenoga			4
 tadašnjega	14		4
 tajga	26		2
@@ -1212,17 +1212,17 @@ taloga	616		3
 tamnoga	32		3
 tanga	509		2
 tanjega			3
-tanjuga			2
-tankoga			2
+tanjuga			3
+tankoga			3
 tačnoga			3
 taštoga			3
-teatrologa	84		2
+teatrologa	84		3
 tega	174		2
 tehničkoga			4
 tehnologa	365		3
 tekstovnoga			2
 telesnoga	17		4
-teljiga			2
+teljiga			3
 teologa	656		3
 tesnoga			3
 tezga	258		2
@@ -1230,13 +1230,13 @@ teškoga	41		3
 težega			3
 tihoga	13		3
 toga	432872		2
-tojaga		M	2
-toksikologa	28		2
+tojaga		M	3
+toksikologa	28		3
 tolikoga	11		4
 toljaga	43		3
 topljenoga			4
 toploga	14		3
-trafikinga	198		2
+trafikinga	198		3
 traga	7322		2
 trajnoga	10		3
 traženoga			2
@@ -1244,9 +1244,9 @@ treninga	15201		3
 trećega	343		3
 trga	3930		2
 trgovačkoga			5
-tropskoga			2
-trudoljubivijega			2
-trudoljubivoga			2
+tropskoga			3
+trudoljubivijega			3
+trudoljubivoga			3
 truležnoga			2
 truloga			3
 tuga	4537		2
@@ -1255,20 +1255,20 @@ tuđega	67		3
 tuđinskoga			2
 tuženoga			4
 tužnoga	10		3
-tvarnoga			2
+tvarnoga			3
 tvoga	182		2
 tvojega	11		3
 tvrdoga	34		3
 ubavoga			4
-ubijenoga	65		2
+ubijenoga	65		3
 ubitačnoga			5
 uboga	117		3
 ubogoga	20		4
 ubrizga	198		3
-udlaga	29		2
+udlaga	29		3
 uglednoga			4
 uhapšenoga			5
-ujednačenoga			2
+ujednačenoga			3
 ukrašenoga			4
 ukupnoga	14		4
 uloga	25391		3
@@ -1276,17 +1276,17 @@ umnoga	14		3
 umornoga			4
 umrloga	98		2
 unetoga			3
-uništenoga			2
+uništenoga			3
 unutarnjega			5
 upravnoga			2
 uprtoga			2
 uređenoga			4
 urologa	303		2
-usiljenoga			2
+usiljenoga			3
 usluga	56132		3
 uspavanoga			4
 usrdnoga			2
-usvojenoga			2
+usvojenoga			3
 utega	40		3
 utvrđenoga			4
 uvaženoga			4
@@ -1300,14 +1300,14 @@ uzvišenoga			4
 učeničkoga			5
 učenoga	16		4
 učinjenoga			4
-užasnutoga			2
+užasnutoga			3
 užega			3
 vaga	2477		2
 vaganoga			4
 valjanoga			2
 valjevskoga			2
-valjuga			2
-varburga			2
+valjuga			3
+varburga			3
 varljivoga			4
 varoškoga			2
 vaskrsloga	67		2
@@ -1321,29 +1321,29 @@ vekovnoga			2
 velikoga	776		4
 veriga	72		3
 vernoga	36		3
-verujućega			2
+verujućega			3
 vezanoga			2
 većega	51		3
 večernjega			3
 večitoga			4
 večnoga	257		3
 vidljivoga	37		4
-vidokruga	413		2
+vidokruga	413		3
 vijuga	263		3
 vikinga	96		2
 vilinskoga			2
-vinjaga			2
+vinjaga			3
 visokoga	64		4
 viteškoga	17		2
 vitkoga			3
 vitoga			3
 viđenoga			4
 višega	41		3
-višegodišnjega			2
+višegodišnjega			3
 višnjega	74		3
 vlaga	1443		2
 vlastitoga			2
-vlaškoga	11		2
+vlaškoga	11		3
 vodenoga	16		4
 vojnoga	13		3
 volfganga			2
@@ -1363,24 +1363,24 @@ vrtloga	232		3
 vršačkoga			2
 vuga	16		2
 vukovoga			2
-zabatrga			2
+zabatrga			3
 zaboga	1650		3
 zadnjega	31		3
 zadruga	4475		3
 zaga			2
 zajedničkoga	59		5
 zakonitoga			5
-zakopčanoga			2
+zakopčanoga			3
 zaloga	562		3
 zamrzloga			2
 zapadnoga	37		4
-zapaprenoga			2
+zapaprenoga			3
 zapisanoga			4
 zaprega	277		3
 zasebnoga			4
 zasluga	3165		3
 zatega	26		3
-zaturenoga			2
+zaturenoga			3
 zauzetoga			3
 završenoga			5
 začetoga			3
@@ -1389,14 +1389,14 @@ zdravoga	43		3
 zelenoga	30		4
 zemaljskoga	98		2
 zemljanoga			2
-zemnoga	39		2
+zemnoga	39		3
 zgodnijega			4
 zgodnoga			3
 zgorega	69		3
 zimskoga	11		3
 zlatnoga	32		3
 zlaćanoga			2
-zlikovačkoga			2
+zlikovačkoga			3
 zlobnoga			3
 zloga	118		2
 zlokobnoga			4
@@ -1406,8 +1406,8 @@ značajnoga			4
 zoologa	14		3
 zreloga			3
 zvaničnoga			4
-zvanoga	33		2
-zverskoga			2
+zvanoga	33		3
+zverskoga			3
 zvezdanoga			4
 čakavskoga			4
 čaruga			3
@@ -1416,26 +1416,26 @@ zvezdanoga			4
 čerga	35		2
 čestitoga	73		4
 čestoga			3
-četrnaestoga	13		2
+četrnaestoga	13		3
 četvrtoga	96		3
-češljuga			2
-čikaga			2
+češljuga			3
+čikaga			3
 čistoga	185		3
 čitavoga	73		4
-čovekovoga			2
-čovečanskoga			2
-čovečijega			2
+čovekovoga			3
+čovečanskoga			3
+čovečijega			3
 čovečjega	12		4
 čudesnoga	13		4
 čudnoga	16		3
 čudnovatoga			4
-čulnoga	15		2
+čulnoga	15		3
 čuruga			3
 čuvenoga	21		4
 čvoruga	47		3
 čvrga	14		2
 čvrstoga	10		3
-đamuga			2
+đamuga			3
 đavoljega			4
 đavolskoga			2
 đoga	48		2
@@ -1459,11 +1459,11 @@ zvezdanoga			4
 štimunga			2
 štranga			2
 štranjga			2
-šturoga			2
+šturoga			3
 šuga	113		2
 šugavoga			4
 žalosnoga	11		4
-žarkoga			2
+žarkoga			3
 žednoga	14		3
 žega	239		2
 železničkoga			5

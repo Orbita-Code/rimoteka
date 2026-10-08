@@ -1,5 +1,5 @@
 36
-aeroklub	110		2
+aeroklub	110		3
 bezub	14		2
 bogoljub			3
 bratoljub			3
@@ -10,7 +10,7 @@ dvogub			2
 golub	1018		2
 goroljub			3
 grub	1025		1
-kesizub			2
+kesizub			3
 klub	50596		1
 krezub	21		2
 kub	236		1

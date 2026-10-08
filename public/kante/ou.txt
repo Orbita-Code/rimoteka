@@ -1,35 +1,35 @@
 34
 birou	2132		2
 bistrou	28		2
-bordou	57		2
+bordou	57		3
 depou	256		2
-džudou			2
-gestapou			2
-hitrou			2
-igou			2
-jojou			2
-kalou			2
-korzou			2
+džudou			3
+gestapou			3
+hitrou			3
+igou			3
+jojou			3
+kalou			3
+korzou			3
 krou			2
-lavabou			2
-lotou			2
+lavabou			3
+lotou			3
 lou			2
 metrou	624		2
-moskou			2
+moskou			3
 nivou	86103		2
 obou	50		2
 ou			2
-panou	156		2
-pežou			2
+panou	156		3
+pežou			3
 platou	2761		2
-podnivou			2
+podnivou			3
 pou			2
-renou			2
-rešou			2
-rokokou			2
-rusou			2
+renou			3
+rešou			3
+rokokou			3
+rusou			3
 sakou	162		2
-samou			2
-sumou			2
-trikou	36		2
+samou			3
+sumou			3
+trikou	36		3
 šou	4031		2

@@ -10,12 +10,12 @@ abortirala	54		3
 adaptirala	121		3
 admirala	558		2
 aerosola	198		5
-aerotunela			2
+aerotunela			3
 afektirala			3
 afirmisala	196		2
 agitovala			2
 ajkula	816		3
-akapela			2
+akapela			3
 akropola	21		3
 aktivirala	418		3
 akvarela	376		3
@@ -24,16 +24,16 @@ alarmirala	55		3
 alkohola	10563		4
 aludirala	37		3
 alveola	80		2
-amarela			2
+amarela			3
 amigdala	61		2
 ampula	192		3
-anabela			2
+anabela			3
 anala	28		2
 analizirala	532		3
-andžela			2
+andžela			3
 anektirala	95		3
 angažovala	1549		2
-angela			2
+angela			3
 animirala	77		3
 anketirala	68		3
 ansambala			3
@@ -46,23 +46,23 @@ aplaudirala	107		3
 apostola	4032		4
 aprila	47382		2
 apsorbovala	74		2
-aranđela			2
-arhangela	578		2
+aranđela			3
+arhangela	578		3
 arhanđela	323		3
-aristotela			2
+aristotela			3
 arlaukala			2
 armadila			2
-armadilla			2
+armadilla			3
 arsenala	1024		2
 artikala			2
-artikla			2
-arčila	14		2
+artikla			3
+arčila	14		3
 asistirala	64		3
 asocirala	82		3
-astala			2
+astala			3
 atakovala	11		2
-atila		M	2
-atola	53		2
+atila		M	3
+atola	53		3
 aula	11		3
 aureola			3
 automobila	50031		2
@@ -73,14 +73,14 @@ babula			3
 bacakala	15		3
 bacala	441		3
 bacila	2384		2
-bagatela		M	2
+bagatela		M	3
 bagdala			2
 bajala	11		3
-bakala			2
+bakala			3
 bala	671		2
 balavila			2
 bandažirala			2
-banderola			2
+banderola			3
 bankrotirala	661		3
 banula	46		3
 baratala	17		3
@@ -93,21 +93,21 @@ bavila	4427		3
 bazala	11		3
 bazirala	308		3
 bdela	18		2
-begala			2
+begala			3
 begenisala			2
 bejzbola	94		2
 beknula			3
 bela		M	2
-belela			2
+belela			3
 beležila	425		4
 belila	56		3
-belogrla			2
+belogrla			3
 besedila	19		4
 besmisla	703		3
 besnela	134		3
 besnila	1055		3
 betonirala			3
-bezbola			2
+bezbola			3
 bežala	334		3
 bicikala			3
 bicikla			2
@@ -115,17 +115,17 @@ bigla			2
 bijenala	566		2
 bila	428987		2
 bilaterala			2
-biodizela	465		2
+biodizela	465		3
 biosignala			2
 birala	859		3
-biskala			2
+biskala			3
 bistrila	17		3
-bitola			2
+bitola			3
 bivala	509		3
-bivola	92		2
+bivola	92		3
 bičevala			4
 blagoslovila	67		3
-blažila			2
+blažila			3
 blebetala			2
 bledela			3
 bledila	42		3
@@ -144,7 +144,7 @@ bodrila	226		3
 bogatila	55		4
 bogumila			2
 bojala	539		3
-bojila	90		2
+bojila	90		3
 bokala	96		2
 bola	8307		2
 bolela	479		3
@@ -155,44 +155,44 @@ boravila	2144		4
 bordela			3
 borila	2056		3
 bornirala			2
-braila			2
+braila			3
 brala	103		2
 branila	1469		3
-bratila			2
+bratila			3
 bratimila			2
 brbljala	24		3
-brdila			2
-bretela	84		2
+brdila			3
+bretela	84		3
 brijala	24		3
 briljirala	147		2
 brinula	928		3
-brisala	212		2
+brisala	212		3
 briznula	60		3
-brodila			2
+brodila			3
 brojala	714		3
-brojgela			2
+brojgela			3
 brojila	1424		3
-brokola			2
+brokola			3
 brokula	62		3
-bronhiola			2
-brstila			2
+bronhiola			3
+brstila			3
 brujala	95		3
-brčkala	21		2
+brčkala	21		3
 bubala	143		3
 budala	3879		2
 budila	406		3
 buhtla			2
 bujala	62		3
 buknula	205		3
-buktala			2
+buktala			3
 buljila	69		3
 buncala	19		3
 bunila	371		3
 busola	13		3
 bućkala			3
 bućnula	13		3
-bučala			2
-bušela			2
+bučala			3
+bušela			3
 bušila	19		3
 carevala	26		2
 carovala	50		2
@@ -200,13 +200,13 @@ cedila	91		3
 cela	23506		2
 celivala	25		3
 cenila	308		3
-centrala	2881		2
+centrala	2881		3
 cepala	79		3
 cerekala	10		2
 ceremonijala	105		2
 cigala	339		3
 cigla	613		2
-cikala			2
+cikala			3
 cikla			2
 ciknula	32		3
 ciljala	53		3
@@ -215,20 +215,20 @@ cinkala			3
 cinkarila			2
 cipela	3242		3
 cirkulisala	36		2
-citadela	137		2
+citadela	137		3
 citirala	330		2
 civila	5947		2
 cičala	23		3
-cmizdrila	11		2
+cmizdrila	11		3
 cokula		M	3
 cola			2
 crkla	477		2
 crnela	11		3
-crnila	96		2
-crpela			2
+crnila	96		3
+crpela			3
 crpla	32		2
-crtala	238		2
-crvenela	42		2
+crtala	238		3
+crvenela	42		3
 crvenila	699		2
 cucla	141		2
 curela			2
@@ -236,20 +236,20 @@ curila	163		3
 cvekla		M	2
 cvetala	357		3
 cvikla			2
-cvilela	36		2
+cvilela	36		3
 cvoknula			3
-cvrčala			2
+cvrčala			3
 dahtala	89		3
 dala	22389		2
-dalila			2
+dalila			3
 dangubila			4
-daniela			2
+daniela			3
 danijela			4
-danila			2
-danojla			2
+danila			3
+danojla			3
 darivala	204		3
 darovala	314		3
-datotela			2
+datotela			3
 datovala			2
 datula	11		3
 davala	3718		3
@@ -261,8 +261,8 @@ debela	1643		3
 debila	189		2
 debitovala	329		2
 debla	318		2
-decibela	432		2
-decila			2
+decibela	432		3
+decila			3
 decimala	151		2
 defilovala	19		2
 definisala	1000		2
@@ -272,8 +272,8 @@ dekorisala	14		2
 dela	126736		2
 delila	1295		3
 delovala	2352		4
-dembela			2
-demirela			2
+dembela			3
+demirela			3
 demolirala	68		2
 demonstrirala	504		2
 depilirala	21		2
@@ -281,14 +281,14 @@ deponovala	42		2
 derala	53		3
 desetkovala	91		2
 desila	3897		3
-destabilizovala	51		2
+destabilizovala	51		3
 detektovala	62		2
 detonirala	13		2
 devovala			2
 dezertirala	11		3
 dešavala	513		3
 dešifrovala			2
-diferencijala	272		2
+diferencijala	272		3
 digla	2143		2
 dignula	18		3
 dijagonala	599		2
@@ -299,38 +299,38 @@ dimila	42		3
 diplomirala	2935		3
 dirala	120		3
 dirigovala	99		2
-dirižabla	49		2
+dirižabla	49		3
 dirnula	241		3
 disala	295		3
 divila	312		3
 divljala	46		3
 dizajnirala	484		2
 dizala	566		3
-dizela	1727		2
+dizela	1727		3
 dičila	38		3
 dobacila	135		3
 dobavila			2
 dobavljala			2
-dobegla			2
+dobegla			3
 dobijala	2226		3
 dobila	49291		3
 dobivala	66		3
-dobrila			2
+dobrila			3
 dobrodošla	1831		2
 dodala	12808		3
 dodavala	154		3
-dodavola			2
+dodavola			3
 dodela	2719		3
 dodelila	1718		3
 dodeljivala	173		3
 dodijala	24		2
 dodirivala	141		3
 dodirnula	220		3
-dodola			2
+dodola			3
 događala	241		3
-dognala			2
+dognala			3
 dogodila	5797		3
-dogorela	40		2
+dogorela	40		3
 dogorevala			2
 dogovarala	80		3
 dogovorila	848		3
@@ -354,14 +354,14 @@ doktorirala	528		3
 dokučila	21		3
 dola	309		2
 dolazila	2894		4
-doletela	157		2
+doletela	157		3
 dolijala	17		2
 dolikovala			5
 dolutala	12		2
-domiljela			2
+domiljela			3
 dominirala	933		3
 domišljala			3
-domogla	124		2
+domogla	124		3
 domunđavala			2
 donela	16712		2
 donirala	1090		2
@@ -373,7 +373,7 @@ dopisivala	84		3
 doplatila	12		3
 doplivala	28		4
 doplovila	36		3
-dopola	196		2
+dopola	196		3
 dopratila	31		2
 doprela			2
 dopremala	27		3
@@ -388,9 +388,9 @@ doputovala	600		2
 dopuzala	14		2
 dopuštala	181		3
 doradila	17		3
-dorasla	319		2
+dorasla	319		3
 doručkovala	56		5
-dorćola			2
+dorćola			3
 dosadila	335		3
 dosađivala	53		3
 dosegla	486		2
@@ -399,14 +399,14 @@ doselila	362		3
 doseljavala			3
 dosetila	175		2
 dosezala	82		3
-dospela	1742		2
+dospela	1742		3
 dospevala	35		3
 dostavila	1884		4
 dostavljala	98		4
 dostigla	4391		3
 dostizala	280		4
 dosudila	19		2
-dotakla	719		2
+dotakla	719		3
 dotaknula	11		3
 doterala	121		2
 doterivala	28		2
@@ -414,7 +414,7 @@ doticala	80		2
 dotrajala	290		2
 dotrajavala			2
 dotrčala	116		3
-dotukla	74		2
+dotukla	74		3
 dotužila			2
 dovela	10054		2
 dovezla	104		2
@@ -424,7 +424,7 @@ dovlačila	13		2
 dovodila	547		3
 dovršavala	14		2
 dovršila	147		3
-dovukla	87		2
+dovukla	87		3
 dozivala	106		3
 doznala	157		3
 dozrela	11		2
@@ -438,33 +438,33 @@ dočekala	2561		4
 dočekivala	138		3
 dočepala	74		3
 dočula	13		3
-dođavola	252		2
+dođavola	252		3
 došetala	15		2
 došla	25586		2
 došuljala			2
 doživela	6277		3
 doživljavala	471		3
-dragala			2
-dragojla			2
+dragala			3
+dragojla			3
 drakula			3
 dražila	16		3
 dreknula	31		3
 dremala	39		3
 dremnula			3
 dresirala			3
-drečala			2
-drhtala			2
+drečala			3
+drhtala			3
 dribla	111		2
 drndala	11		2
 drogirala	50		3
-drpila	10		2
+drpila	10		3
 družila	487		3
-drzala			2
+drzala			3
 drznula	83		3
-držala	4001		2
+držala	4001		3
 dubila			3
 dubla	245		2
-duela	4547		2
+duela	4547		3
 dugovala	254		3
 duhnula			3
 dunula	16		3
@@ -479,36 +479,36 @@ džogirala	13		2
 džukela	138		3
 džula	50		2
 džungla	260		2
-ebola	36		2
+ebola	36		3
 egzila	140		2
-eksperimentisala	63		2
+eksperimentisala	63		3
 eksplodirala	968		3
 ela			2
-eliminisala	468		2
-emajla	70		2
+eliminisala	468		3
+emajla	70		3
 emanuela			2
 emigrirala	91		2
 emila			3
 emitovala	863		2
 epistola	18		3
-epitela	339		2
-ergela	263		2
-eshila			2
+epitela	339		3
+ergela	263		3
+eshila			3
 eskadrila	169		2
 eskalirala	178		2
 espadrila	11		2
 etanola	406		2
-evakuisala	93		2
+evakuisala	93		3
 evocirala	20		2
 evoluirala	312		3
 fabula	243		3
-fadila			2
+fadila			3
 fajla	3006		2
 faksimila	80		2
 faksirala			3
 fala			2
 falila	364		3
-falsifikovala	105		2
+falsifikovala	105		3
 fantazirala			2
 farbala	107		3
 fascikla	133		2
@@ -518,23 +518,23 @@ favela	74		3
 fejzula			3
 fela			2
 feldmaršala	118		2
-fenola	95		2
+fenola	95		3
 fentanila			2
 festivala	25266		2
 fibula	70		3
 fidela			3
-fijala			2
+fijala			3
 fila	479		2
 filijala	2630		2
 finala	9812		2
 finansirala	2212		3
-fiola			2
+fiola			3
 fistula	165		3
-fiškala			2
-flanela			2
+fiškala			3
+flanela			3
 flertovala	37		4
 floskula	847		3
-flotila	95		2
+flotila	95		3
 fokusirala	327		3
 fola			2
 folikula	441		3
@@ -544,29 +544,29 @@ formirala	2666		3
 formula	4838		3
 forsirala	120		2
 fosila	424		2
-fotografisala	311		2
+fotografisala	311		3
 frajla		M	2
 frapirala	21		3
-frktala			2
+frktala			3
 frula	297		2
 fudbala	9925		3
 fula			2
 funkcionisala	1466		4
 futrola			2
-gabriela			2
-gabrijela			2
+gabriela			3
+gabrijela			3
 gadila	46		3
-gajila	357		2
+gajila	357		3
 gala		M	2
 galamila	20		3
 ganjala	19		3
 ganula	51		3
 garantovala	568		5
-garila			2
-garnišla			2
-gasila	210		2
-gatala	22		2
-gavrila			2
+garila			3
+garnišla			3
+gasila	210		3
+gatala	22		3
+gavrila			3
 gazela	772		2
 gazila	156		3
 gađala	452		3
@@ -582,7 +582,7 @@ gladiola	19		2
 gladovala	54		2
 glagola	1000		3
 glasala	2023		3
-glasila	3611		2
+glasila	3611		3
 glasovala	10		4
 glačala	24		3
 gledala	6135		3
@@ -591,24 +591,24 @@ glodala			2
 glumila	783		3
 glupirala			2
 gmizala			3
-gnevila			2
+gnevila			3
 gnjavila	35		3
 gnječila	28		3
 gnjila	13		2
-gobela			2
+gobela			3
 godila	60		3
-godzilla			2
+godzilla			3
 gola	18023		2
 golicala	28		3
 gomila	6319		3
 gomilala	69		3
-gondola	518		2
+gondola	518		3
 gonila	127		3
 gorela	805		3
-gorgonzola	68		2
-gorila	261		2
-goropadila			2
-gospela	35		2
+gorgonzola	68		3
+gorila	261		3
+goropadila			3
+gospela	35		3
 gospodila			2
 gostila	14		3
 gostovala	966		2
@@ -618,17 +618,17 @@ govorila	8499		3
 grabila	80		3
 gradila	1270		3
 grala	84		2
-granala	14		2
+granala	14		3
 graničila	127		4
-granola			2
+granola			3
 granula	262		3
-grcala	51		2
+grcala	51		3
 grdila	84		3
 grebala	61		3
 grebenala			2
-grejala	158		2
+grejala	158		3
 grešila	220		3
-grickala	83		2
+grickala	83		3
 gricnula	17		3
 grila	75		2
 grizla	161		2
@@ -637,36 +637,36 @@ grlila	104		3
 grmela	30		3
 grotla	78		2
 grozila	15		3
-grtala			2
-grubela			2
+grtala			3
+grubela			3
 grunula	32		3
 grupisala	35		2
-grčila	55		2
+grčila	55		3
 gubila	1049		3
 gudala	47		3
 gugla	79		2
-guglala			2
+guglala			3
 gula			2
 gungula		M	2
 gunđala	78		3
 gurala	442		3
 gurnula	568		3
-gusala		M	2
+gusala		M	3
 gusla	73		2
 gutala	302		3
 gušila	201		3
 gvatemala			2
 hakovala			2
 hala	3474		2
-halila			2
+halila			3
 halucinirala			3
 hanibala			2
-hapsila			2
+hapsila			3
 harala	210		3
-havela			2
-hegela			2
+havela			3
+hegela			3
 hekla	47		2
-heknadla			2
+heknadla			3
 herkula			3
 hidrocentrala	502		2
 hiperbola	96		3
@@ -679,27 +679,27 @@ hodala	380		3
 hodila	41		3
 hokla		M	2
 hola	385		2
-holesterola	3594		2
+holesterola	3594		3
 horizontala			2
-hostela	450		2
+hostela	450		3
 hotela	21367		3
-hrabala			2
+hrabala			3
 hrabrila	75		3
-hramala	13		2
+hramala	13		3
 hranila	509		3
-hrkala	12		2
+hrkala	12		3
 htela	12432		2
 huknula			3
 hula		M	2
 hulila			3
-huserla			2
-hučala			2
+huserla			3
+hučala			3
 huškala	19		3
 hvala	71180		2
 hvalila	348		3
 hvalisala	12		4
-hvatala	321		2
-hvatila			2
+hvatala	321		3
+hvatila			3
 ideala	2098		2
 identifikovala	535		6
 idila	542		2
@@ -712,11 +712,11 @@ ila			2
 ilegala	41		2
 imala	87681		3
 imbecila	55		2
-imejla	186		2
+imejla	186		3
 imela	103		3
 imenovala	1016		5
 imitirala	61		3
-impala			2
+impala			3
 implicirala	11		3
 imponovala	48		2
 impresionirala	193		3
@@ -732,13 +732,13 @@ insistirala	1233		2
 inspirisala	687		2
 instalirala	244		3
 integrala	127		2
-intela			2
-interesovala	637		2
-internacionala	305		2
+intela			3
+interesovala	637		3
+internacionala	305		3
 interpola			3
 intervala	753		2
-intervenisala	1026		2
-intervjuisala	143		2
+intervenisala	1026		3
+intervjuisala	143		3
 intonirala	19		2
 investirala	755		3
 iritirala	91		3
@@ -748,11 +748,11 @@ iscelila	43		3
 iscenirala	13		2
 iscepala	29		2
 iscepkala			2
-iscrpela			2
+iscrpela			3
 iscrpila	28		3
 iscrpla	80		2
 iscrtala	36		2
-iscurela	87		2
+iscurela	87		3
 iscurila	65		3
 iseckala	14		2
 isekla	161		3
@@ -765,7 +765,7 @@ isisala	39		2
 iskakala	28		3
 iskala	25		3
 iskalila	18		3
-iskasapila	21		2
+iskasapila	21		3
 iskazala	789		3
 iskazivala	131		3
 iskašljala			3
@@ -778,16 +778,16 @@ iskliznula	64		3
 isključila	683		3
 isključivala	95		3
 iskobeljala	15		2
-iskomplikovala	113		2
+iskomplikovala	113		3
 iskopala	149		3
 iskopavala			3
 iskopirala	47		2
 iskoprcala			2
 iskopčavala			2
-iskoračila	78		2
+iskoračila	78		3
 iskorenila	74		3
 iskoristila	3490		4
-iskorišćavala	31		2
+iskorišćavala	31		3
 iskosila			2
 iskočila	241		3
 iskradala			3
@@ -797,10 +797,10 @@ iskrenula	18		3
 iskrila			3
 iskrivila	64		2
 iskrsavala	13		2
-iskrsla			2
+iskrsla			3
 iskrsnula			3
 iskrvarila	40		4
-iskrvavila			2
+iskrvavila			3
 iskupila	54		3
 iskusila	416		3
 iskušala			4
@@ -821,7 +821,7 @@ ispaštala	35		2
 ispegla	182		2
 ispeglala	37		3
 ispekla	97		3
-ispela			2
+ispela			3
 ispevala	20		2
 ispijala	78		3
 ispila	67		3
@@ -839,14 +839,14 @@ isplivala	258		4
 ispljunula	22		3
 ispljuvala	34		2
 isplovila	49		3
-ispodmukla		M	2
+ispodmukla		M	3
 ispoljavala	195		2
 ispoljila	403		2
 ispomagala			2
 isporučila	493		3
 ispostavila	232		4
 ispovedala	44		2
-ispovedila	34		2
+ispovedila	34		3
 ispovraćala	27		2
 ispoštovala	421		2
 isprala	69		3
@@ -862,13 +862,13 @@ isprela			3
 isprepadala	26		2
 isprečila	147		2
 isprintala			2
-ispripovedala	10		2
+ispripovedala	10		3
 ispričala	2623		3
 isprljala	22		3
 isprobala	350		3
 isprobavala	72		3
 isprosila	12		2
-isprovocirala	139		2
+isprovocirala	139		3
 isprskala			2
 ispružala			2
 ispružila	83		2
@@ -883,12 +883,12 @@ ispuštala	166		3
 istakla	15869		3
 istaknula	176		3
 istančala			2
-istegla	21		2
+istegla	21		3
 istegnula			3
-istekla	762		2
+istekla	762		3
 isterala	181		4
 isterivala	14		3
-istetovirala	87		2
+istetovirala	87		3
 isticala	700		4
 istisnula	78		4
 istopila	222		3
@@ -899,12 +899,12 @@ istraživala	599		3
 istrebila	38		3
 istrenirala	12		3
 istresla	46		2
-istrgla	41		2
+istrgla	41		3
 istrgnula			3
 istrljala			2
 istrošila	114		3
-istrpela	43		2
-istrulela			2
+istrpela	43		3
+istrulela			3
 istrulila	32		2
 istrunula	13		3
 istrčala	405		3
@@ -916,7 +916,7 @@ isturila	48		2
 isturčila			2
 istuširala	74		2
 isušila	40		3
-izabela		M	2
+izabela		M	3
 izabirala			4
 izabrala	3511		3
 izagnala			2
@@ -928,15 +928,15 @@ izbacila	1729		3
 izbacivala	143		3
 izbavila	68		4
 izbegavala	404		3
-izbegla	3017		2
-izbezumila	22		2
+izbegla	3017		3
+izbezumila	22		3
 izbečila	11		3
 izbijala	186		3
 izbila	1745		3
 izbirala			2
 izbistrila	10		2
 izblamirala	62		2
-izbledela	235		2
+izbledela	235		3
 izbljuvala			3
 izbola	63		2
 izborila	1341		3
@@ -947,14 +947,14 @@ izbušila	20		3
 izdahnula	91		3
 izdala	3421		3
 izdavala	333		3
-izdeklamovala			2
+izdeklamovala			3
 izderala			2
-izdigla	104		2
+izdigla	104		3
 izdignula			3
 izdimila			2
 izdisala	20		4
 izdizala	41		2
-izdrala			2
+izdrala			3
 izdržala	853		3
 izdržavala	210		4
 izdubila	12		2
@@ -965,14 +965,14 @@ izdvojila	2931		3
 izgarala	15		3
 izginula	102		3
 izgladila	19		2
-izgladnela	50		2
+izgladnela	50		3
 izglasala	539		2
 izglačala			3
 izgledala	4353		3
 izglodala			2
 izgnala			3
 izgonila			3
-izgorela	997		2
+izgorela	997		3
 izgorila	14		2
 izgovarala	178		3
 izgovorila	601		3
@@ -989,35 +989,35 @@ izigrala	87		2
 izigravala	52		2
 iziskivala	119		3
 izišla	363		2
-izjalovila	56		2
+izjalovila	56		3
 izjasnila	757		3
 izjavila	14158		3
 izjedala	27		2
 izjednačila	777		3
-izjela	20		2
+izjela	20		3
 izjurila	45		3
 izlagala	548		3
 izlajala			2
 izlanula			3
-izlapela			2
+izlapela			3
 izlazila	1296		4
-izlegla	69		2
+izlegla	69		3
 izletala			2
-izletela	248		2
+izletela	248		3
 izlečila	231		3
 izležavala	17		2
-izlila	419		2
+izlila	419		3
 izlinjala			2
 izlivala			2
 izlizala	57		3
 izlokala			2
 izložila	566		3
-izludela			2
+izludela			3
 izludila			2
 izluđivala	32		2
 izmakla	529		3
 izmamila	155		3
-izmanipulisala	19		2
+izmanipulisala	19		3
 izmasirala	10		2
 izmenila	958		2
 izmerila	134		4
@@ -1025,13 +1025,13 @@ izmestila	71		2
 izmetnula			3
 izmešala	42		2
 izmicala	98		4
-izmilela			2
+izmilela			3
 izmirila	269		2
 izmirivala	50		2
 izmislila	680		4
 izmišljala	57		3
 izmlatila			3
-izmlela			2
+izmlela			3
 izmolila	25		2
 izmorila	18		2
 izmoždila			2
@@ -1039,16 +1039,16 @@ izmuljala			2
 izmučila	11		2
 iznajmila	193		3
 iznajmljivala	42		3
-iznalazila	11		2
-iznašla	47		2
+iznalazila	11		3
+iznašla	47		3
 iznedrila	657		2
 iznela	3143		2
-iznemogla	121		2
+iznemogla	121		3
 iznenadila	2264		3
 iznenađivala	16		3
 iznervirala	299		3
-izneverila	251		2
-iznikla	226		2
+izneverila	251		3
+iznikla	226		3
 iznjedrila			2
 iznosila	9172		3
 iznudila	73		4
@@ -1056,8 +1056,8 @@ iznuravala			2
 iznurila			2
 izobila		M	2
 izobličila	27		3
-izokola		M	2
-izokrenula	24		2
+izokola		M	3
+izokrenula	24		3
 izolovala	105		5
 izopačila	12		3
 izostajala	69		4
@@ -1072,7 +1072,7 @@ izrazila	3574		3
 izračunala	251		3
 izrađivala	102		3
 izražavala	270		3
-izrecitovala			2
+izrecitovala			3
 izrekla	610		3
 izrezala			4
 izrezbarila			3
@@ -1088,7 +1088,7 @@ izručivala			3
 izružila			2
 izudarala	21		2
 izula	57		3
-izumela			2
+izumela			3
 izumila	13		3
 izumirala			4
 izumrla	256		2
@@ -1105,7 +1105,7 @@ izveštavala	239		3
 izvijala	56		2
 izvikala	21		2
 izvikivala			2
-izvila	58		2
+izvila	58		3
 izvinila	370		3
 izvinjavala	72		2
 izvinula	32		3
@@ -1115,12 +1115,12 @@ izvisila	18		2
 izvlačila	219		3
 izvodila	741		3
 izvojevala	154		2
-izvolela	32		2
-izvoljela		J	2
+izvolela	32		3
+izvoljela		J	3
 izvozila	409		3
 izvređala	70		2
 izvrgavala			2
-izvrgla	31		2
+izvrgla	31		3
 izvrnula	37		3
 izvrtala	15		2
 izvršavala	138		4
@@ -1135,8 +1135,8 @@ iščašila	13		4
 iščekivala	136		2
 iščeprkala			2
 iščezavala	17		2
-iščezla	50		2
-iščilela			2
+iščezla	50		3
+iščilela			3
 iščistila			2
 iščitavala	34		2
 iščupala	98		3
@@ -1144,11 +1144,11 @@ iščuđavala	10		2
 iživljavala	27		2
 jadikovala	17		5
 jadovala			2
-jagnjila			2
+jagnjila			3
 jahala	145		3
 jala	42		2
 jarbola	194		3
-jarila			2
+jarila			3
 jarmila			3
 jaukala	47		3
 javila	5136		3
@@ -1158,7 +1158,7 @@ jecala	155		3
 jedrila	27		3
 jeknula	10		3
 jela	13265		2
-jemčila	14		2
+jemčila	14		3
 jenjavala	94		3
 ječala	71		3
 ježila	53		3
@@ -1168,12 +1168,12 @@ jurcala	33		3
 jurila	433		3
 jurišala	25		3
 jurnula	70		3
-kabala	69		2
+kabala	69		3
 kabela	111		3
 kabila			2
 kabla	3461		2
 kabula			3
-kadrila	17		2
+kadrila	17		3
 kajala	70		3
 kala	135		2
 kaligula			3
@@ -1183,30 +1183,30 @@ kamenila			2
 kamenovala	39		5
 kamila	583		3
 kamomila			2
-kampala			2
+kampala			3
 kampovala	17		2
 kanala	13848		2
 kanalisala	22		2
 kandidovala	325		2
 kandila	376		3
 kanibala	49		4
-kanila	48		2
+kanila	48		3
 kanula	55		3
 kapala	84		3
 kaparisala			2
 kapela	1361		2
-kapisla		M	2
+kapisla		M	3
 kapitala	23603		2
-kapitola			2
+kapitola			3
 kapitulirala	301		3
 kapsula	1238		3
 kaptola	37		3
 kapula			3
-karambola	34		2
-karamela	162		2
+karambola	34		3
+karamela	162		3
 karanfila	203		3
 karaula	153		3
-karavela	21		2
+karavela	21		3
 kardinala	686		2
 karela			2
 karfiola	222		2
@@ -1214,20 +1214,20 @@ karla			2
 karnevala	897		2
 karola			2
 kartela	789		3
-kasala			2
+kasala			3
 kasnila	622		3
 kastrirala	19		2
 katedrala	1184		2
 kazala	11552		3
 kazivala	147		3
 kaznila	676		3
-kačila	78		2
+kačila	78		3
 kašljala	47		3
-kaštela			2
+kaštela			3
 kažnjavala	141		3
 kegla	56		2
-kemala			2
-kezila			2
+kemala			3
+kezila			3
 kibla			2
 kidala	85		3
 kidnapovala	54		2
@@ -1236,46 +1236,46 @@ kifla	140		2
 kihnula			3
 kikotala	42		3
 kila	1804		2
-kinjila	17		2
+kinjila	17		3
 kinula			3
 kipela			3
-kirila			2
+kirila			3
 kisela	663		3
 kiselila	12		2
 kitila	39		3
 kladila	42		3
 klala	42		2
 klanjala	34		3
-klasala			2
-klatila	60		2
+klasala			3
+klatila	60		3
 klauzula	992		3
-klecala	55		2
+klecala	55		3
 klekla			2
 kleknula	73		3
 klela	98		2
-klepala	26		2
+klepala	26		3
 klepetala	12		2
 klečala	75		3
 klicala	54		3
-klijentela	217		2
+klijentela	217		3
 kliknula	70		3
 kliktala	16		3
-klimala	64		2
+klimala	64		3
 klimnula	200		3
 klizala	32		3
 klizila	141		3
 kliznula	59		3
-kljucala	16		2
-kljukala	14		2
+kljucala	16		3
+kljukala	14		3
 ključala	58		3
 klokotala			2
 klonila	23		3
 klonirala			2
 klonula	132		3
-klopala			2
+klopala			3
 knedla	202		2
 knjavala			3
-koala	58		2
+koala	58		3
 kobila	662		3
 kockala	15		3
 koketirala	36		2
@@ -1283,11 +1283,11 @@ koknula			3
 koktela	1266		3
 kola	38130		2
 kolabirala	54		2
-kolala	29		2
+kolala	29		3
 kolebala	57		3
-kolesterola			2
+kolesterola			3
 komadala			3
-komentarisala	569		2
+komentarisala	569		3
 komercijala	181		2
 kompletirala	100		2
 komplikovala	50		5
@@ -1295,40 +1295,40 @@ kompromitovala	82		5
 komunicirala	111		3
 konačila	11		2
 koncentrisala	169		2
-koncila	144		2
+koncila	144		3
 konfiskovala	59		2
 konkurisala	680		2
 konobarila			3
-konobarisala			2
+konobarisala			3
 konstatovala	1340		2
 konsula			3
 konsultovala	189		2
 kontaktirala	476		3
-kontaminirala	14		2
+kontaminirala	14		3
 kontrirala	13		2
 kontrola	18141		2
 kontrolisala	963		2
 konzervirala	13		2
-konzola	2181		2
+konzola	2181		3
 konzula	919		3
 konzumirala	178		2
 kopala	117		3
-kopila			2
+kopila			3
 kopirala	115		2
-kopola			2
+kopola			3
 koprcala	23		2
 kopula			3
 koraknula	19		3
-korala	282		2
+korala	282		3
 koračala	154		3
 korigovala	184		2
 korila	29		3
 koristila	5957		4
 kormila	147		3
-kortizola	486		2
+kortizola	486		3
 kosila	60		3
 kosnula	21		3
-kosougla			2
+kosougla			3
 kotirala	39		3
 kotla	1103		2
 kotrljala	38		3
@@ -1339,11 +1339,11 @@ kočila	115		3
 koštala	3348		3
 krala	219		2
 krasila	539		3
-kravila			2
+kravila			3
 krckala	10		3
 kreirala	1067		3
 kremirala			3
-krenila	11		2
+krenila	11		3
 krenula	11233		3
 krepala	14		3
 krepavala			3
@@ -1352,7 +1352,7 @@ kresnula	20		3
 kretala	2097		3
 kreveljila			3
 kreštala	10		3
-krhala			2
+krhala			3
 krigla		M	2
 krijumčarila	46		3
 kriknula	44		3
@@ -1365,36 +1365,36 @@ krivotvorila	11		3
 krivudala	15		3
 kričala			3
 krkljala	11		3
-krmenadla		M	2
+krmenadla		M	3
 krmila			3
 krojila	52		3
 krokodila	574		3
-kromvela			2
+kromvela			3
 kročila	315		3
 krpila	31		3
 krstarila	37		4
 krstila	178		3
 krtola		M	3
-krunila	18		2
+krunila	18		3
 krunisala	101		4
-krutila			2
-krušedola			2
+krutila			3
+krušedola			3
 kružila	285		3
 krvarila	102		4
 krčila	38		3
 kršila	280		3
 krštavala			2
-kuala			2
+kuala			3
 kucala	144		3
 kudila			3
 kugla	1067		2
-kuglala			2
+kuglala			3
 kukala	327		3
 kula	4322		2
-kuljala	47		2
+kuljala	47		3
 kumila	14		3
 kumovala	238		2
-kunjala			2
+kunjala			3
 kupala	331		3
 kupatila	4316		3
 kupila	6732		3
@@ -1404,7 +1404,7 @@ kurbla	19		2
 kutikula			3
 kuvala	402		3
 kušala	12		3
-kvalifikovala	261		2
+kvalifikovala	261		3
 kvarila	115		3
 kvartala	2797		2
 kvasila	39		3
@@ -1414,42 +1414,42 @@ lagala	413		3
 lajala	33		3
 lakirala	15		2
 lala	1247		2
-lamela	551		2
+lamela	551		3
 lansirala	1020		3
 laskala			3
 lasla			2
 latila	105		3
 lažirala	29		3
 lebdela	162		3
-legala	89		2
+legala	89		3
 legla	3290		2
-leila			2
+leila			3
 lejla			2
 lela		M	2
 lelujala	26		2
 lepila	266		3
 lepršala	52		3
-letela			2
+letela			3
 letovala	104		2
 lečila	389		3
 ležala	1516		3
-libela	31		2
+libela	31		3
 liberala	1202		2
 licitirala	16		3
 likovala	36		2
 lila	773		2
-limasola			2
+limasola			3
 linula			3
 linčovala	15		4
-lionela			2
+lionela			3
 lipsavala			2
 liptala	23		3
 listala	59		3
 liverpula			3
 lizala	273		3
 liznula	49		3
-lizola	11		2
-ličila	1022		2
+lizola	11		3
+ličila	1022		3
 lišila	333		3
 ljepila		J	3
 ljubakala			2
@@ -1460,9 +1460,9 @@ ljutila	172		3
 ljuštila	31		3
 lobirala			2
 locirala	87		3
-lojola			2
+lojola			3
 lokala	4719		2
-lokomobila			2
+lokomobila			3
 lola			2
 lomila	326		3
 lovila	142		3
@@ -1473,20 +1473,20 @@ ludirala			2
 ludmila			3
 ludovala	31		3
 lula	319		2
-lunjala			2
+lunjala			3
 lupala	115		3
 lupila	122		3
-lupkala	22		2
+lupkala	22		3
 lutala	171		3
 lučila	14		3
-lužila			2
+lužila			3
 macola		M	2
 madrigala	15		2
 maestrala	11		2
 magistrala	838		2
 magistrirala	859		2
 magla	2146		2
-maglila			2
+maglila			3
 mahala	553		3
 mahnitala			2
 mahnula	93		3
@@ -1501,18 +1501,18 @@ mamula			3
 mandala	64		2
 mandela			3
 mandula			3
-mangala			2
+mangala			3
 manila		M	3
-manipulisala	69		2
-manojla			2
-mantila			2
-manuela			2
+manipulisala	69		3
+manojla			3
+mantila			3
+manuela			3
 manula			3
 marela			2
 marinela			2
-mariola			2
+mariola			3
 markirala	19		2
-marsela			2
+marsela			3
 maršala	677		2
 marširala	49		2
 masakrirala	25		2
@@ -1520,29 +1520,29 @@ masirala	79		2
 maskenbala			2
 maskirala	58		2
 masla	125		2
-mastila	1006		2
+mastila	1006		3
 masturbirala	17		3
-matarela			2
+matarela			3
 materijala	44442		2
 matrikula			3
 maturirala	108		2
-mazala	187		2
+mazala	187		3
 mazila	277		3
 maznula	52		3
-mašala			2
+mašala			3
 mašila	12		3
 maštala	393		3
 mažnjavala			2
 meditirala	12		2
-megapiksela	2282		2
+megapiksela	2282		3
 mejla	945		2
 memla		M	2
 memorijala	237		2
 mendela			3
 menjala	2675		3
-mentola	113		2
+mentola	113		3
 merila	2644		3
-mesečarila			2
+mesečarila			3
 mesila	74		3
 metala	7903		2
 metanisala			2
@@ -1550,15 +1550,15 @@ metanola	125		2
 metla	328		2
 metnula	39		3
 metropola	1389		3
-mećala			2
+mećala			3
 mešala	403		3
 migoljila	14		3
-mihaela			2
+mihaela			3
 mihaila			2
 mihovila			2
-mikola			2
+mikola			3
 mila	3815		2
-milela			2
+milela			3
 milovala	182		4
 mimoišla	173		2
 minerala	3760		2
@@ -1571,82 +1571,82 @@ mirila	38		3
 mirisala	325		3
 mirovala	146		3
 misala	13		2
-mislela			2
+mislela			3
 mislila	7537		3
 mjuzikala			4
 mjuzikla	33		3
 mlatarala	15		2
 mlatila	39		3
 mlatnula			3
-mlečnobela			2
+mlečnobela			3
 množila	24		3
-mobila			2
+mobila			3
 mobilisala	119		2
 mobitela	338		4
-mocarela			2
+mocarela			3
 modela	45027		3
 modelirala			3
-modifikovala	54		2
+modifikovala	54		3
 modla			2
 modula	7442		3
 mogila			3
 mogla	79567		2
 mogula	110		3
-mokrila	14		2
+mokrila	14		3
 mola	353		2
 molekula	1929		3
 molila	1875		3
-momčila			2
+momčila			3
 mondijala			2
-mongola			2
+mongola			3
 monopola	2945		4
 montirala	64		2
 montreala			2
 morala	25132		2
-morila	68		2
-mortadela	12		2
+morila	68		3
+mortadela	12		3
 motala	73		3
 motela	577		2
 motivisala	266		4
 motocikala			3
 motocikla	14		2
-motorcikla			2
-motorola			2
+motorcikla			3
+motorola			3
 motrila	27		3
 močila	17		3
 mračila			3
 mrdala	41		2
 mrdnula	101		3
-mreškala			2
+mreškala			3
 mrkla	37		2
-mrmljala	33		2
+mrmljala	33		3
 mrsila	28		3
-mrtvila	153		2
+mrtvila	153		3
 mrvila	17		3
-mrzela			2
+mrzela			3
 mrzila	50		3
 mrznula			3
 mucala	20		3
-mucila			2
+mucila			3
 mudrovala			2
 mukla	49		2
 mula	197		2
-muljala	20		2
-multipla	258		2
+muljala	20		3
+multipla	258		3
 mumla			2
 mundijala			2
-murala	297		2
-musala			2
+murala	297		3
+musala			3
 muskula			3
 mutila	35		3
 mutirala	46		2
 muvala	62		3
-muzila			2
+muzila			3
 muzla	30		2
-mučila	831		2
+mučila	831		3
 muškatla		M	2
 mušmula	39		3
-muštikla		M	2
+muštikla		M	3
 nabacila	152		3
 nabacivala	32		3
 nabadala	17		3
@@ -1659,15 +1659,15 @@ nabila	165		3
 nabola	16		2
 nabrajala	49		3
 nabrala	24		3
-nabrekla	52		2
+nabrekla	52		3
 nabrojala	202		3
 nabubala			3
-nabubrela			2
+nabubrela			3
 nabubrila	10		4
 nabujala	165		2
 naciljala	11		2
 nacionala	96		2
-nacionalizovala	98		2
+nacionalizovala	98		3
 nacrtala	217		4
 nadahnjivala	38		3
 nadahnula	87		3
@@ -1677,24 +1677,24 @@ nadenula	33		4
 nadglasala	15		2
 nadgledala			2
 nadigrala	214		2
-nadilazila	18		2
+nadilazila	18		3
 nadirala	58		2
-nadišla			2
+nadišla			3
 nadjačala	79		3
 nadletala	13		3
 nadmašila	487		4
 nadmašivala	34		3
 nadmetala	72		2
 nadmudrila	44		2
-nadnela	37		2
+nadnela	37		3
 nadogradila	38		3
 nadoknadila	299		4
 nadoknađivala	38		3
-nadolazila	34		2
+nadolazila	34		3
 nadovezala	281		3
-nadošla	83		2
+nadošla	83		3
 nadrapala			2
-nadrasla	29		2
+nadrasla	29		3
 nadrastala			2
 nadrljala	23		2
 nadrogirala			2
@@ -1713,19 +1713,19 @@ nagla	541		2
 naglasila	6755		3
 naglašavala	129		3
 nagledala	111		2
-nagnala	170		2
+nagnala	170		3
 nagnula	136		3
 nagodila	49		3
 nagojila			2
 nagomila	133		2
 nagomilala	89		2
 nagonila			2
-nagorela	27		2
+nagorela	27		3
 nagovarala	61		3
 nagovestila	454		3
 nagoveštavala	126		3
 nagovorila	180		3
-nagrabusila	19		2
+nagrabusila	19		3
 nagradila	672		3
 nagrizala	25		3
 nagrizla	36		3
@@ -1745,34 +1745,34 @@ najela	59		3
 naježila	135		3
 najurila	35		3
 nakačila			2
-nakisela			2
+nakisela			3
 nakitila	15		2
 naknadila			4
-nakostrešila			2
+nakostrešila			3
 nakotila	13		2
 nakupila	139		4
 nakupljala	15		3
 nakvasila	16		2
 nalagala	208		3
 nalazila	6800		4
-nalegla	20		2
+nalegla	20		3
 nalepila	19		2
 naletala	21		2
-naletela	379		2
+naletela	379		3
 naletila			2
 nalevala			2
 nalikovala	52		5
-nalila	17		2
+nalila	17		3
 nalivala			2
 naljutila	332		3
 naložila	873		3
-namagarčila			2
+namagarčila			3
 namamila	47		3
 namazala	123		4
 namenila	409		3
 namenjivala			3
 nameravala	353		3
-nameračila			2
+nameračila			3
 namerila	75		2
 namesila			2
 namestila	313		4
@@ -1788,7 +1788,7 @@ namislila			2
 namnožila	35		3
 namrštila	47		2
 namučila	216		2
-nanela	1142		2
+nanela	1142		3
 nanizala	75		2
 nanjušila	14		2
 nanosila	95		2
@@ -1798,7 +1798,7 @@ naočala	69		4
 naoštrila	21		3
 napadala	427		4
 napajala	53		2
-napakostila			2
+napakostila			3
 napala	1869		3
 napalila	95		2
 napasala	11		2
@@ -1815,13 +1815,13 @@ napomenula	1730		3
 napominjala	14		4
 napravila	12059		4
 napredovala	2086		5
-napregla			2
+napregla			3
 naprezala	20		2
 napričala	12		3
 naprosila			2
-naprsla			2
+naprsla			3
 napucala	14		2
-napukla	109		2
+napukla	109		3
 napumpala	18		3
 napunila	1090		4
 napupila			2
@@ -1830,13 +1830,13 @@ naputila			2
 napušila			4
 napuštala	286		3
 naradila	15		2
-narasla	686		2
+narasla	686		3
 narastala	55		2
-narazgovarala			2
+narazgovarala			3
 naredila	807		2
 narezala	10		2
 naređivala	39		2
-nargila			2
+nargila			3
 naricala	21		3
 naručila	673		3
 naručivala	50		3
@@ -1846,7 +1846,7 @@ naružila	12		2
 narvala			3
 nasadila	25		2
 nasamarila	15		3
-nasela	103		2
+nasela	103		3
 naselila	199		3
 naseljavala	94		3
 nasitila			4
@@ -1866,7 +1866,7 @@ naspavala	37		3
 nasrnula	160		3
 nasrtala	13		4
 nastajala	603		4
-nastala	678		2
+nastala	678		3
 nastanila	178		3
 nastavila	7092		4
 nastavljala	303		4
@@ -1876,17 +1876,17 @@ nastupala	1532		3
 nastupila	3396		3
 nasukala	56		3
 nasula	46		3
-natakla	15		2
-nataložila	36		2
+natakla	15		3
+nataložila	36		3
 natapala	36		3
 natekla	21		2
 naterala	1767		4
 naterivala			2
 natiskala			2
-natkrila			2
+natkrila			3
 natkrilila	20		3
 natopila	70		3
-natovarila	70		2
+natovarila	70		3
 natočila	20		2
 natrula	12		3
 natrčala	11		2
@@ -1903,26 +1903,26 @@ navela	13071		2
 navestila			2
 navijala	272		3
 navikavala	22		3
-navikla	1761		2
+navikla	1761		3
 naviknula			4
-navila	15		2
+navila	15		3
 navirala	45		2
 navlačila	51		2
 navlažila	20		4
 navodila	230		3
 navratila	21		3
 navraćala	23		4
-navrla	12		2
+navrla	12		3
 navršila	186		3
-navukla	417		2
+navukla	417		3
 nazadovala	105		5
 nazdravila	15		4
-nazebla			2
+nazebla			3
 nazirala	181		2
 nazivala	560		3
 naznačila	151		2
 nazvala	1872		3
-načala			2
+načala			3
 načela	8420		2
 načinila	975		3
 načitala			2
@@ -1936,7 +1936,7 @@ naštetila	34		2
 nažuljala			2
 nebula			3
 nedela	1127		3
-nedorasla			2
+nedorasla			3
 nedostajala	1098		4
 negirala	485		3
 negodovala	110		5
@@ -1947,22 +1947,22 @@ nemala	64		2
 nemetala	333		2
 nemila	198		3
 nemorala	412		4
-nepala			2
+nepala			3
 nervirala	262		3
 nestajala	323		4
-nestala	4666		2
+nestala	4666		3
 nesuvisla	68		4
-neumrla			2
+neumrla			3
 neuspela	318		4
 nevaljala	126		3
-nevesela	101		2
+nevesela	101		3
 nezrela	252		3
 nešpula			3
 nicala	63		3
 nikla	1598		2
 nikola			3
 nila		M	2
-ninela			2
+ninela			3
 nizala	124		3
 nišanila			4
 ništavila	405		3
@@ -1970,21 +1970,21 @@ njakala			3
 njegovala			4
 njihala	80		3
 njuškala	66		3
-nobela			2
+nobela			3
 nogirala			2
-nokautirala	27		2
+nokautirala	27		3
 nominala			2
 nominovala	73		2
-normala	124		2
+normala	124		3
 normirala			3
 nosila	5030		3
-novela	624		2
+novela	624		3
 noćevala			2
 noćila	21		3
 nudila	920		3
 nula	4175		2
 obala	4010		3
-obamrla	24		2
+obamrla	24		3
 obarala	74		3
 obasipala	36		4
 obasjala	179		3
@@ -1999,17 +1999,17 @@ obavljala	1403		4
 obazirala	114		2
 obdarila	115		3
 obedila			2
-obeležavala	132		2
-obeležila	3299		2
+obeležavala	132		3
+obeležila	3299		3
 obelodanila	367		3
-obeselila			2
+obeselila			3
 obeshrabrila	72		3
 obesila	100		4
-obesmrtila			2
-obezbedila	7755		2
-obezbeđivala	526		2
-obeznanila			2
-obezoružala			2
+obesmrtila			3
+obezbedila	7755		3
+obezbeđivala	526		3
+obeznanila			3
+obezoružala			3
 obećala	2622		3
 obećavala	505		3
 obeštetila	27		4
@@ -2019,7 +2019,7 @@ obigravala	12		2
 obiknula			3
 obila	91		3
 obilazila	296		4
-obilježila	165	J	2
+obilježila	165	J	3
 obilovala	219		5
 obirala			2
 obistinila	206		5
@@ -2033,9 +2033,9 @@ objašnjavala	430		3
 objedinila	209		3
 obla			2
 oblačila	247		3
-obletela	18		2
+obletela	18		3
 oblikovala	371		5
-oblila	28		2
+oblila	28		3
 obliznila			2
 obljubila			2
 obložila	27		2
@@ -2043,42 +2043,42 @@ obmanjivala	63		3
 obmanula	121		3
 obmotala	35		2
 obnavljala	129		3
-obnevidela			2
+obnevidela			3
 obnovila	816		3
 obodrila			2
-obogaljila			2
+obogaljila			3
 obogatila	496		4
 obojala			2
 obojila	121		3
-obola			2
-obolela	1108		2
-oboljela	24	J	2
+obola			3
+obolela	1108		3
+oboljela	24	J	3
 oborila	1061		3
 obožavala	385		3
 obradila	342		3
 obradovala	1455		5
-obrala			2
-obrasla	280		2
+obrala			3
+obrasla	280		3
 obratila	2812		3
 obrazovala	310		5
 obraćala	717		4
 obračunala	141		3
 obrađivala	194		3
 obrecnula			3
-obrekla			2
+obrekla			3
 obrela	243		2
-obremenila			2
+obremenila			3
 obricala			2
 obrijala	61		4
 obrisala	329		4
-obrlatila			2
+obrlatila			3
 obrnula	83		3
 obrstila			2
 obrtala	12		4
 obrukala	140		4
 obrušavala	11		2
 obrušila	223		2
-obudovela			2
+obudovela			3
 obuhvatala	1032		4
 obuhvatila	1412		4
 obujmila	15		3
@@ -2098,8 +2098,8 @@ obznanila	116		2
 ocedila	10		2
 ocenila	5021		3
 ocenjivala	168		3
-ocila	239		2
-ocinkarila			2
+ocila	239		3
+ocinkarila			3
 ocrnila	23		2
 ocrtala	39		4
 ocrtavala	69		2
@@ -2108,17 +2108,17 @@ odabrala	1734		3
 odagnala	49		2
 odahnula	149		3
 odala	330		3
-odalamila			2
+odalamila			3
 odaljila			2
-odapela	15		2
-odasla	44		2
+odapela	15		3
+odasla	44		3
 odavala	152		3
 odazivala	46		3
 odazvala	436		3
 odašiljala			2
 odbacila	1648		3
 odbacivala	117		3
-odbegla	74		2
+odbegla	74		3
 odbijala	700		3
 odbila	4409		3
 odbranila	1025		3
@@ -2163,7 +2163,7 @@ odlučivala	593		3
 odmaglila			2
 odmahivala	32		2
 odmahnula	125		3
-odmakla	510		2
+odmakla	510		3
 odmamila			2
 odmarala	184		3
 odmeravala	39		3
@@ -2182,15 +2182,15 @@ odobrila	3007		3
 odobrovoljila	25		3
 odolela	272		3
 odolevala	132		3
-odomaćila	172		2
+odomaćila	172		3
 odradila	1148		3
-odrala	37		2
-odrasla	3355		2
+odrala	37		3
+odrasla	3355		3
 odrastala	395		3
 odrazila	492		3
 odrađivala	50		3
 odražavala	129		3
-odreagovala	276		2
+odreagovala	276		3
 odredila	2378		3
 odrekla	1263		3
 odrezala	27		4
@@ -2199,12 +2199,12 @@ odrešila	42		2
 odricala	86		3
 odronila	23		2
 odrubila	11		2
-odrvenela			2
+odrvenela			3
 održala	5775		3
 održavala	1444		4
 odsedala	19		2
 odsekla	143		3
-odsela	133		2
+odsela	133		3
 odselila	208		2
 odsijevala		J	2
 odskakala	37		2
@@ -2221,7 +2221,7 @@ odsustvovala	51		2
 odsvirala	70		2
 odudarala	60		4
 odugovlačila	68		3
-odumrla	36		2
+odumrla	36		3
 odupirala	59		2
 oduprla	61		2
 odustajala	151		4
@@ -2230,8 +2230,8 @@ oduvala	134		2
 oduzela	1381		2
 oduzimala	158		4
 odučila	21		2
-oduševila	1458		2
-oduševljavala	95		2
+oduševila	1458		3
+oduševljavala	95		3
 odužila	249		3
 oduživala			2
 odvajala	284		3
@@ -2242,7 +2242,7 @@ odvezala	35		3
 odvezivala			2
 odvezla	251		2
 odvijala	1804		3
-odvikla	44		2
+odvikla	44		3
 odvila	26		3
 odvlačila	29		3
 odvodila	51		3
@@ -2257,24 +2257,24 @@ odzvonila	13		3
 odšetala	32		2
 odškrinula	59		3
 odštampala	73		2
-odživela			2
+odživela			3
 ofarbala	135		3
 oformila	343		2
 ofucala			2
 ogadila	50		2
-ogladnela	27		2
-ogladnjela			2
+ogladnela	27		3
+ogladnjela			3
 oglasila	1367		2
 oglašavala	168		2
 ogledala	4226		3
 ogluhnula		J	3
-ogluvela			2
+ogluvela			3
 oglušila	131		2
 ognjila	42		3
-ogolela	31		2
+ogolela	31		3
 ogolila	73		2
-ogoljela			2
-ogorela			2
+ogoljela			3
+ogorela			3
 ogorčavala			2
 ogorčila	17		2
 ogovarala	43		2
@@ -2283,19 +2283,19 @@ ograničila	471		4
 ogranula			3
 ograđivala	16		3
 ogrebala	49		2
-ogrebla			2
+ogrebla			3
 ogrejala	25		4
-ogrezla	202		2
+ogrezla	202		3
 ogreznula			3
 ogrešila	97		2
 ogrnula	46		3
-ogrubela	18		2
+ogrubela	18		3
 ogubala			2
 oguglala	69		2
 ogulila	25		2
 ohladila	184		3
-ohladnela			2
-ohladnjela		J	2
+ohladnela			3
+ohladnjela		J	3
 ohola	116		3
 ohrabrila	348		3
 ohrabrivala	90		3
@@ -2303,7 +2303,7 @@ oivičila			5
 ojadila	85		2
 ojagnjila			2
 ojačala	1200		2
-okamenila	15		2
+okamenila	15		3
 okanila			3
 okačila	303		2
 okinula	12		3
@@ -2315,8 +2315,8 @@ okomila	83		2
 okončala	896		3
 okončavala			3
 okopavala	11		2
-okopnela			2
-okorela	37		2
+okopnela			3
+okorela	37		3
 okotila	55		2
 okovala	53		3
 okoštala	48		2
@@ -2324,7 +2324,7 @@ okrenula	2661		3
 okrepila	11		2
 okretala	363		3
 okrečila	19		4
-okrilatila			2
+okrilatila			3
 okrivila	118		3
 okrugla	1032		2
 okrunila	14		2
@@ -2347,7 +2347,7 @@ olakšala	739		3
 olakšavala	48		3
 oličavala	34		3
 oljuštila	29		3
-omakla			2
+omakla			3
 omalovažavala	28		3
 omalovažila	21		3
 omamila	13		3
@@ -2359,35 +2359,35 @@ omekšala	87		3
 omela	322		3
 ometala	224		3
 omeđila	11		4
-omilela			2
+omilela			3
 omilila			2
-omiljela			2
+omiljela			3
 omirisala	17		2
 omogućavala	582		3
 omogućila	6900		3
 omotala	14		3
 omrazila			2
 omrknula			3
-omršavela			2
+omršavela			3
 onemogućavala	120		3
 onemogućila	553		3
 onemoćala	29		2
-oneobičila			2
+oneobičila			3
 onesposobila	39		3
-onesvestila	203		2
+onesvestila	203		3
 opadala	197		4
-opala	2516		2
+opala	2516		3
 opalila	136		2
 opaljivala			2
-opametila	63		2
+opametila	63		3
 oparila			2
 opasala	29		3
 opasivala	10		3
 opazila	85		4
 opažala	12		3
 opekla	109		3
-opela	1228		2
-opelješila	10		2
+opela	1228		3
+opelješila	10		3
 operisala	355		2
 opevala	26		2
 ophodila	52		3
@@ -2403,7 +2403,7 @@ opkolila	164		3
 opkoljavala			2
 oplakala	20		4
 oplakivala	17		3
-oplela	59		2
+oplela	59		3
 oplemenila	72		3
 opljačkala	296		4
 oplodila	24		3
@@ -2420,7 +2420,7 @@ opravdala	1005		3
 opravdavala	100		2
 opravila	20		2
 opraštala	65		3
-opredela			2
+opredela			3
 opredelila	1616		3
 opremala	35		3
 opremila	264		3
@@ -2440,32 +2440,32 @@ optirala			2
 optrčavala			2
 optužila	1208		3
 optuživala	167		3
-opustela	178		2
+opustela	178		3
 opustila	392		3
-opustošila	110		2
+opustošila	110		3
 opuštala	42		3
 opčinila	129		3
 opčinjavala	29		3
-opštila	24		2
-oraspoložila	64		2
-oreola			2
+opštila	24		3
+oraspoložila	64		3
+oreola			3
 organizovala	7651		5
 oribala			2
 originala	1605		2
-orila	111		2
+orila	111		3
 orla	1054		2
 orodila			2
 oronula	228		3
 orosila	16		2
 orošavala			2
 oružala			3
-orvela			2
+orvela			3
 osakatila	39		4
 osamila	20		2
-osamostalila	92		2
+osamostalila	92		3
 oscilirala	64		2
-osedela			2
-osedla			2
+osedela			3
+osedla			3
 osedlala			2
 osenčila			2
 osetila	4230		2
@@ -2473,7 +2473,7 @@ osećala	4064		4
 osigurala	1208		3
 osilila	50		2
 osipala	32		2
-osirotela			2
+osirotela			3
 oskrnavila	30		4
 oskudevala	46		2
 oskvrnila			2
@@ -2481,8 +2481,8 @@ oslabela			4
 oslabila	882		4
 osladila	36		2
 oslanjala	408		4
-oslepela			2
-oslijepila		J	2
+oslepela			3
+oslijepila		J	3
 oslikala	123		2
 oslikavala	81		2
 oslobađala	109		3
@@ -2502,19 +2502,19 @@ osnovala	2729		3
 osokolila	24		3
 osporavala	147		3
 osporila	333		3
-osposobila	108		2
+osposobila	108		3
 osramotila	76		3
 ostajala	745		4
 ostala	9554		2
-ostarela	129		2
+ostarela	129		3
 ostarila	129		2
 ostavila	7346		4
 ostavljala	603		4
-ostrigla			2
+ostrigla			3
 ostvarila	8720		3
 ostvarivala	430		3
 osudila	1159		3
-osujetila	158		2
+osujetila	158		3
 osula	133		3
 osumnjičila	45		4
 osunčala			3
@@ -2522,7 +2522,7 @@ osuđivala	119		3
 osušila	218		3
 osvajala	648		3
 osvanula	571		3
-osvedočila	11		2
+osvedočila	11		3
 osvestila	106		2
 osvetila	139		3
 osvetlila	148		2
@@ -2540,11 +2540,11 @@ otančala			2
 otapala			2
 otarasila	65		3
 otcepila	119		2
-otegla	99		2
+otegla	99		3
 otekla	101		2
 otela	718		2
 otelila	77		2
-otelovila			2
+otelovila			3
 oterala	420		4
 oteturala			2
 otezala	26		2
@@ -2581,13 +2581,13 @@ otpadala	32		4
 otpala	354		3
 otperjala			2
 otpevala	808		2
-otpečatila			2
+otpečatila			3
 otpilila			3
 otpisala	187		3
 otplatila	159		2
 otplivala	21		4
 otplovila	38		3
-otposla			2
+otposla			3
 otpočela	1925		2
 otpočinjala	21		2
 otpočinula			4
@@ -2597,14 +2597,14 @@ otpustila	265		3
 otputovala	908		3
 otpuzala	10		2
 otrcala			2
-otresla	42		2
+otresla	42		3
 otreznila	43		2
-otrgla	173		2
+otrgla	173		3
 otrgnula	18		3
 otrovala	133		3
 otrčala	225		2
 otupala			2
-otupela	77		2
+otupela	77		3
 oturila			2
 otuđila	114		3
 otuđivala			3
@@ -2616,25 +2616,25 @@ ovala	48		3
 ovaplotila	31		3
 ovenčala	16		3
 overila	149		4
-ovila			2
+ovila			3
 ovladala	203		3
 ovladavala			3
 ovlastila	251		3
 ovlažila	69		2
-ozakonila	46		2
+ozakonila	46		3
 ozarila	46		2
 ozarivala			2
-ozdola			2
+ozdola			3
 ozdravila	154		2
-ozebla			2
-ozelenela	16		2
+ozebla			3
+ozelenela	16		3
 ozidala			2
 ozlijedila		J	4
-ozlojedila	11		2
+ozlojedila	11		3
 označavala	319		3
 označila	926		3
 oznojila	16		2
-ozvaničila	120		2
+ozvaničila	120		3
 ozvučila			2
 oćutala			2
 očajavala	22		3
@@ -2649,16 +2649,16 @@ očitala	62		2
 očitavala	22		2
 očitovala	48		5
 očuvala	615		3
-očvrsla			2
+očvrsla			3
 očvrsnula	15		3
 ošamarila	82		4
-ošamutila	18		2
+ošamutila	18		3
 ošinula	35		3
 ošišala	107		3
 oštetila	619		4
 oštećivala			3
-ožalostila	15		2
-ožednela	13		2
+ožalostila	15		3
+ožednela	13		3
 oženila	26		3
 oživela	602		3
 oživila			3
@@ -2670,39 +2670,39 @@ pakovala	93		4
 pala	13642		2
 palila	414		3
 palilula			3
-pamela			2
+pamela			3
 pamtila	134		3
-panela	4511		2
-paničarila			2
+panela	4511		3
+paničarila			3
 paničila	19		2
-paola			2
+paola			3
 parabola	302		3
-paracetamola	164		2
+paracetamola	164		3
 paradirala	26		3
 parafirala	65		2
-paralela	1166		2
+paralela	1166		3
 paralisala	71		2
-paralizovala	17		2
-parcela	3423		2
+paralizovala	17		3
+parcela	3423		3
 parila	51		3
 parirala	81		3
 parkirala	86		3
 parola	1977		2
 partijala			2
 partikula	38		3
-pasarela	110		2
-paskala			2
-paskvila	20		2
+pasarela	110		3
+paskala			3
+paskvila	20		3
 pasla	51		2
-pastela	128		2
-pastila			2
+pastela	128		3
+pastila			3
 pastorala	43		2
 patentirala	122		2
 patila	630		3
 patrola	1432		2
-pauela			2
+pauela			3
 paula			3
-pavela			2
+pavela			3
 pavla			2
 pazila	228		3
 pecala	57		3
@@ -2711,14 +2711,14 @@ pedofila	557		2
 pegla	747		2
 peglala	60		3
 pekla	219		2
-penala	3770		2
+penala	3770		3
 penjala	112		3
-penkala			2
-pentrala	12		2
-penzionisala	61		2
+penkala			3
+pentrala	12		3
+penzionisala	61		3
 pepela	2556		3
-pergola			2
-perikla			2
+pergola			3
+perikla			3
 peristila	23		2
 perla	167		2
 persiflirala			2
@@ -2726,11 +2726,11 @@ personala		M	2
 pertla	46		2
 petla	383		2
 petljala	40		3
-petougla			2
+petougla			3
 petrola	61		2
 pevala	2107		3
 pevušila	54		2
-pečila			2
+pečila			3
 pešačila	48		3
 picajzla			2
 picula			3
@@ -2743,35 +2743,35 @@ piksla		M	2
 pikula	22		3
 pila	1498		2
 pilila			3
-piljila	28		2
+piljila	28		3
 pilula	1369		3
-pinjola	42		2
-pipala	19		2
+pinjola	42		3
+pipala	19		3
 pipnula	38		3
-pirandela			2
-pisala	5258		2
+pirandela			3
+pisala	5258		3
 piskarala	120		2
 pisnula			3
-pistola			2
+pistola			3
 pitala	6057		3
 pitbula	45		3
 pišala			3
-piškila	55		2
-pištala	30		2
+piškila	55		3
+pištala	30		3
 plakala	1959		3
-plamsala			2
-plamtela	34		2
+plamsala			3
+plamtela	34		3
 plandovala			4
 planirala	1401		3
 planula	162		3
 plasirala	2067		3
 platila	2868		3
 plavetnila	147		3
-plavila	78		2
+plavila	78		3
 plaćala	1376		3
 plašila	1009		3
 plela	93		2
-plenila	155		2
+plenila	155		3
 plesala	233		3
 plinula		M	3
 plivala	235		3
@@ -2790,18 +2790,18 @@ pobacala	26		3
 pobacila	46		3
 pobedila	7882		3
 pobegla	1578		3
-pobelela			2
-pobesnela	135		2
+pobelela			3
+pobesnela	135		3
 pobeđivala	241		3
 pobijala	19		3
 pobila	258		3
 pobledela			3
-poblesavila			2
+poblesavila			3
 pobojala			2
 poboljšala	1221		3
-pobrala	191		2
+pobrala	191		3
 pobratila			2
-pobratimila	11		2
+pobratimila	11		3
 pobrinula	593		3
 pobrkala	82		2
 pobudila	241		3
@@ -2809,12 +2809,12 @@ pobunila	263		3
 pobuđivala	20		3
 pocepala	175		2
 pocrkala	13		2
-pocrnela	66		2
-pocrnjela			2
-pocrvenela	137		2
+pocrnela	66		3
+pocrnjela			3
+pocrvenela	137		3
 podala	18		2
 podarila	580		2
-podastrla	10		2
+podastrla	10		3
 podavala	17		2
 podbacila	255		3
 podbadala			3
@@ -2836,7 +2836,7 @@ podizala	443		4
 podjarmila			3
 podla			2
 podlegala	24		2
-podlegla	316		2
+podlegla	316		3
 podmazala	17		4
 podmetala	27		4
 podmetnula	100		4
@@ -2855,29 +2855,29 @@ podrignula	14		4
 podrivala	23		2
 podržala	4272		3
 podržavala	1153		4
-podržavila			2
-podsekla			2
+podržavila			3
+podsekla			3
 podsetila	4024		4
 podsećala	510		4
 podskakivala			2
 podsmevala	32		2
-podstakla	1293		2
+podstakla	1293		3
 podsticala	390		4
 podudarala	47		4
 podudarila	44		4
 podupirala	51		2
-poduprla	60		2
+poduprla	60		3
 poduzela	51		2
 podučavala	60		3
 podučila	30		3
 podvala	741		3
 podvalila	13		3
 podvela	17		3
-podvila	18		2
+podvila	18		3
 podvlačila	22		3
 podvrgla	211		3
 podvrgnula	21		4
-podvukla	486		2
+podvukla	486		3
 pogasila	32		3
 pogazila	132		2
 pogađala	161		3
@@ -2892,7 +2892,7 @@ pogrebala			2
 pogrešila	1021		3
 pogubila	120		2
 pogurala	105		2
-pohajdučila			2
+pohajdučila			3
 pohapsila			2
 poharala	38		2
 pohađala	882		2
@@ -2906,14 +2906,14 @@ pohvatala	33		2
 poigrala	177		2
 poigravala	68		2
 poimala			4
-pojala			2
+pojala			3
 pojasnila	623		3
 pojavila	12167		3
 pojavljivala	666		3
 pojačala	1796		3
 pojačavala	103		3
 pojela	1207		3
-pojila	83		2
+pojila	83		3
 pojmila			3
 pojurila	93		3
 pokajala	332		2
@@ -2921,10 +2921,10 @@ pokapala			2
 pokazala	28314		3
 pokazivala	1244		3
 pokidala	85		4
-pokisla	68		2
+pokisla	68		3
 poklanjala	213		4
 poklapala	97		2
-poklekla	229		2
+poklekla	229		3
 pokleknula	22		3
 poklonila	2027		3
 poklopila	248		2
@@ -2950,7 +2950,7 @@ pokvasila	22		4
 pola	6997		2
 polagala	453		3
 polazila	129		4
-polegla	82		2
+polegla	82		3
 poletala	11		3
 poletela	354		3
 polila	101		3
@@ -2960,13 +2960,13 @@ poljubila	613		3
 poljuljala	90		2
 polomila	276		3
 položila	1258		3
-poludela	436		2
+poludela	436		3
 poludila			2
 polufinala	2807		2
-polugola	127		2
-polukugla			2
+polugola	127		3
+polukugla			3
 polupala	36		2
-poluzrela			2
+poluzrela			3
 pomagala	4120		2
 pomahnitala	69		2
 pomakla	80		3
@@ -2987,49 +2987,49 @@ pomirila	368		3
 pomirisala	11		2
 pomislila	2625		4
 pomišljala	222		3
-pomodrela	18		2
+pomodrela	18		3
 pomogla	7125		2
 pomokrila			2
 pomolila	73		3
 pomorila	24		2
 pomračila	26		2
-pomrla	50		2
+pomrla	50		3
 pomrsila	29		2
 pomutila	104		2
 pomučila	17		2
 ponadala	103		3
-ponarasla			2
+ponarasla			3
 ponavljala	650		3
 ponašala	798		3
-ponela	1679		2
+ponela	1679		3
 ponestala	11		3
-ponikla	269		2
+ponikla	269		3
 poniknula			3
 ponirala			2
 ponizila	156		3
 poništila	474		4
 ponižavala	56		3
-ponjela		J	2
+ponjela		J	3
 ponosila	135		3
 ponovila	1785		3
 ponudila	3924		4
-poodmakla	65		2
-poodrasla	29		2
+poodmakla	65		3
+poodrasla	29		3
 pooštrila	101		2
 popadala	21		2
-popala	10		2
+popala	10		3
 popalila	33		2
 popapala			2
-popasla			2
+popasla			3
 popela	990		2
 popila	879		3
 popisala	96		3
 popiškila			2
-poplavela			2
+poplavela			3
 poplavila	261		3
 popljuvala	22		2
 popločala			2
-popola	25		2
+popola	25		3
 popravila	1118		4
 popravljala	104		4
 poprimala	44		3
@@ -3046,7 +3046,7 @@ poradila	37		3
 poranila	77		4
 porasla	6033		2
 poravnala	49		3
-porazgovarala	31		2
+porazgovarala	31		3
 porazila	326		3
 porađala	101		3
 poražavala			2
@@ -3062,21 +3062,21 @@ porodila	1211		3
 portala	7209		2
 portparola	1079		3
 portugala			2
-porumenela			2
+porumenela			3
 poručila	3192		3
 poručivala	48		3
 porušila	91		4
-poružnela			2
+poružnela			3
 posadila	118		3
-posavetovala	138		2
+posavetovala	138		3
 posedala			2
-posedela			2
+posedela			3
 posedovala	525		5
-posegla	102		2
+posegla	102		3
 posegnula	101		3
 posejala	73		2
 posekla	70		3
-posela	181		2
+posela	181		3
 posestrila			2
 posetila	3483		4
 posezala	32		2
@@ -3085,11 +3085,11 @@ posijala	10		2
 posilila			2
 posinila			2
 posipala	32		2
-posivela	19		2
+posivela	19		3
 poskapala			2
 poskliznula			3
 poskočila	58		3
-poskupela	954		2
+poskupela	954		3
 posla	72696		2
 poslala	5262		3
 poslovala	967		3
@@ -3098,7 +3098,7 @@ poslužila	1636		3
 posluživala	30		3
 posmatrala	1205		3
 posolila			3
-pospala			2
+pospala			3
 pospešila	160		2
 pospremila	17		3
 posramila	29		3
@@ -3124,57 +3124,57 @@ posula	37		3
 posumnjala	211		2
 posustala	159		2
 posvađala	249		2
-posvedočila	110		2
+posvedočila	110		3
 posvetila	1815		3
 potakla	76		3
 potaknula	63		3
-potamnela	63		2
+potamnela	63		3
 potapala	18		3
 potapšala	21		2
 potcenila	43		2
 potegla	92		2
 potegnula			3
-potekla	2042		2
+potekla	2042		3
 potencijala	9088		2
 poterala	43		2
 potezala	37		3
 poticala	242		4
 potirala			2
 potiskivala	82		2
-potisla			2
+potisla			3
 potisnula	351		3
 potjerala			2
 potkazala			2
 potkopala	55		3
 potkradala			2
-potkrala	267		2
+potkrala	267		3
 potkrepila	92		3
 potkupila	15		3
 potmula	51		3
 potonula	452		3
 potopila	201		3
 potpadala	28		2
-potpala	167		2
+potpala	167		3
 potpalila	30		2
-potparola	49		2
+potparola	49		3
 potpasala			2
 potpisala	5077		3
 potpisivala	188		3
 potplatila			3
-potpomogla	95		2
+potpomogla	95		3
 potprašila			2
 potrajala	523		4
 potratila			2
 potražila	448		3
 potrefila	30		4
 potresala	88		2
-potresla	577		2
+potresla	577		3
 potrgala			2
 potrošila	1486		3
 potrudila	760		3
 potrčala	269		3
 potucala	12		2
-potukla	257		2
+potukla	257		3
 poturala			2
 poturila	33		2
 potužila			2
@@ -3187,7 +3187,7 @@ poučavala	22		2
 poučila	38		2
 povadila	23		2
 povalila			2
-povampirila	25		2
+povampirila	25		3
 povela	2633		3
 poveravala	29		3
 poverila	613		4
@@ -3208,13 +3208,13 @@ povraćala	194		4
 povredila	994		3
 povređivala	34		3
 povukla	3177		2
-pozabavila	233		2
+pozabavila	233		3
 pozajmila	486		3
 pozajmljivala	85		2
 pozdravila	2152		4
 pozdravljala	144		4
-pozelela			2
-pozelenela	23		2
+pozelela			3
+pozelenela	23		3
 pozirala	488		3
 pozivala	531		3
 pozlatila	69		3
@@ -3225,20 +3225,20 @@ pozvonila	42		2
 poćutala			2
 počastila	147		3
 počastvovala	15		2
-počađavela			2
+počađavela			3
 počela	48499		2
 počešala			2
 počinila	1018		3
 počinjala	774		4
-počinjela		J	2
+počinjela		J	3
 počinula	20		4
 počistila	102		4
 počivala	402		2
 počupala	49		2
 pošandrcala			2
-pošašavila			2
+pošašavila			3
 pošetala			2
-pošizela			2
+pošizela			3
 pošizila			2
 pošla	1450		2
 pošpricala			2
@@ -3248,12 +3248,12 @@ poštovala	845		3
 požalila	548		2
 poželela	1929		3
 poželjela	131		3
-poživela	52		2
+poživela	52		3
 požurila	234		3
 požurivala	29		2
-požutela	67		2
+požutela	67		3
 prala	339		2
-prasila			2
+prasila			3
 praskala			3
 prasnula	33		3
 pratila	3981		3
@@ -3261,22 +3261,22 @@ pravdala	200		3
 pravila	46121		3
 praznila	63		3
 praznovala	13		4
-praštala	45		2
+praštala	45		3
 prdnula	16		3
 preambula	294		4
 prebacila	854		3
 prebacivala	172		3
-prebegla	60		2
-prebela			2
+prebegla	60		3
+prebela			3
 prebijala	18		3
 prebila	93		3
 prebirala	23		2
 prebivala	24		2
-prebledela			2
-prebola			2
-prebolela	191		2
+prebledela			3
+prebola			3
+prebolela	191		3
 prebolila			2
-preboljela	16		2
+preboljela	16		3
 prebrinula			3
 prebrodila	167		3
 prebrojala	41		2
@@ -3286,23 +3286,23 @@ precrtala	31		2
 predahnula	11		3
 predala	2271		3
 predavala	739		3
-predebela	57		2
+predebela	57		3
 predela	2198		3
-predjela	561		2
+predjela	561		3
 predlagala	514		3
 predložila	5217		3
 prednjačila	198		2
 predomislila	210		4
 predomišljala	10		3
-predosetila	28		2
+predosetila	28		3
 predosećala	37		2
 predozirala	29		2
 predočila	436		3
 predskazivala	10		2
 predstavila	8885		4
 predstavljala	4756		4
-preduhitrila	89		2
-preduzela	1462		2
+preduhitrila	89		3
+preduzela	1462		3
 preduzimala	206		2
 predvidala			2
 predvidela	1008		4
@@ -3314,7 +3314,7 @@ preganjala			2
 pregazila	192		2
 pregledala	502		2
 pregledavala			2
-pregorela	98		2
+pregorela	98		3
 pregovarala	246		3
 pregradila			3
 pregrejala	15		4
@@ -3322,20 +3322,20 @@ pregrizla	21		3
 pregurala	73		2
 prehladila	61		3
 prehranila	62		2
-preinačila	44		2
+preinačila	44		3
 preispitala	57		2
-preispitivala	41		2
+preispitivala	41		3
 prejedala			2
-prejela	27		2
-prekala			2
+prejela	27		3
+prekala			3
 prekalila			2
 prekidala	268		3
 prekinula	2062		4
-preklala			2
+preklala			3
 preklinjala	83		2
 prekopala	10		3
-prekoračila	212		2
-prekorela			2
+prekoračila	212		3
+prekorela			3
 prekorevala			2
 prekorila	21		2
 prekratila	30		2
@@ -3352,12 +3352,12 @@ prelamala	35		3
 prelazila	812		4
 preletela	205		3
 preležala	106		2
-prelila	593		2
+prelila	593		3
 prelistala	35		3
 prelistavala	27		3
 prelivala			2
 prelomila	247		3
-premala	491		2
+premala	491		3
 premašala			2
 premašila	835		4
 premestila	136		2
@@ -3371,18 +3371,18 @@ premlatila	12		3
 premorila			2
 premostila	43		3
 premrežila			2
-premrla			2
+premrla			3
 prenaglila			2
-prenala			2
+prenala			3
 prenela	5297		2
 prenosila	853		3
 prenoćila	50		3
 prenula	68		3
-preobratila	66		2
-preobrazila	122		2
-preobukla	10		2
+preobratila	66		3
+preobrazila	122		3
+preobukla	10		3
 preokrenula	384		3
-preopteretila			2
+preopteretila			3
 preorala			3
 preostajala			4
 preostala	3180		2
@@ -3403,14 +3403,14 @@ preplitala	29		2
 preplivala	45		4
 preplovila			3
 prepolovila	232		3
-preporodila	95		2
+preporodila	95		3
 preporučila	1791		3
 prepoznala	2503		3
 prepoznavala	126		3
 prepravila	23		2
 preprečila	65		2
 preprodala	22		2
-prepukla	12		2
+prepukla	12		3
 prepunila	34		2
 prepustila	806		3
 prepuštala	61		3
@@ -3421,13 +3421,13 @@ prerastala	43		2
 preračunala	44		3
 prerezala	22		4
 prerušila	20		4
-presahla	48		2
+presahla	48		3
 presavila	32		2
 presecala	39		3
 presedala			2
-presedela			2
+presedela			3
 presekla	293		3
-presela			2
+presela			3
 preselila	1519		3
 preskakala	76		3
 preskočila	358		3
@@ -3438,38 +3438,38 @@ prespavala	173		3
 presrela	165		3
 prestajala	404		4
 prestala	5121		3
-prestarela			2
+prestarela			3
 prestavila			2
 prestigla	201		3
-prestola	2020		2
+prestola	2020		3
 prestravila	41		3
 prestrašila	18		4
 prestupila	31		3
 presudila	473		3
 presušila	115		2
 presvetla	48		2
-presvisla			2
+presvisla			3
 presvlačila	67		3
 presvukla	108		2
 pretakala	14		2
 pretegnula			3
-pretekla	381		2
+pretekla	381		3
 preterala	320		4
 preterivala	30		3
 prethodila	1405		3
 preticala			2
 pretila	1335		3
 pretopila	18		3
-pretopla	45		2
+pretopla	45		3
 pretočila	165		2
 pretplatila	21		3
 pretpostavila	182		4
 pretpostavljala	178		4
-pretprošla	18		2
+pretprošla	18		3
 pretražila	65		3
 pretraživala	57		3
 pretresala	51		2
-pretresla	193		2
+pretresla	193		3
 pretrnula	18		3
 pretrpala			2
 pretrpela	1861		3
@@ -3482,22 +3482,22 @@ pretvarala	359		2
 pretvorila	2787		3
 preudala	109		2
 preudavala			2
-preuredila	43		2
-preusmerila	98		2
-preuveličala	10		2
+preuredila	43		3
+preusmerila	98		3
+preuveličala	10		3
 preuzela	5682		2
 preuzimala	197		4
 prevagnula	180		3
 prevalila	145		3
 prevarila	912		4
-prevazišla	866		2
+prevazišla	866		3
 prevela	711		2
-prevesla	43		2
+prevesla	43		3
 preveslala	18		2
 prevezla	210		2
-previdela	102		2
+previdela	102		3
 previjala	33		2
-previla	22		2
+previla	22		3
 prevladala	183		3
 prevladavala	34		3
 prevodila	230		3
@@ -3513,29 +3513,29 @@ prezla	16		2
 preznojila	19		2
 prezrela	76		2
 prećutala	127		2
-prečila			2
-prešala			2
+prečila			3
+prešala			3
 prešla	4935		2
 prežalila	31		2
-preživela	2365		2
+preživela	2365		3
 preživljavala	141		3
 pribavila	246		4
-pribegla	130		2
+pribegla	130		3
 pribila	30		3
 pribirala			2
 približavala	372		3
 približila	1166		3
 pribojavala	63		2
 pribrajala			3
-pribrala	67		2
+pribrala	67		3
 pridala	23		2
 pridavala	157		2
 pridenula			3
-pridigla	67		2
+pridigla	67		3
 pridizala			2
 pridobila	144		3
 pridodala	80		3
-pridošla	24		2
+pridošla	24		3
 pridružila	1986		3
 pridržala	23		3
 pridržavala	220		4
@@ -3566,7 +3566,7 @@ prikupljala	239		3
 prikučila			2
 prilagodila	509		3
 prilazila	153		4
-prilegla	19		2
+prilegla	19		3
 prilepila	60		2
 priličila	14		4
 priljubila	37		3
@@ -3583,7 +3583,7 @@ primirila	106		2
 primorala	431		3
 primoravala	77		3
 principala			2
-prinela	96		2
+prinela	96		3
 prinosila	58		2
 prinudila	75		2
 prionula	78		3
@@ -3592,21 +3592,21 @@ pripala	4660		3
 pripazila			4
 pripekla			3
 pripijala	21		2
-pripila	25		2
+pripila	25		3
 pripisala	114		3
 pripisivala	111		3
 pripitivala			2
 pripojila	132		3
-pripomogla	47		2
+pripomogla	47		3
 pripovedala	27		3
 pripravila			4
 pripremala	1068		3
 pripremila	3427		3
 pripretila	72		2
-prirasla	133		2
+prirasla	133		3
 priredila	1510		3
 priređivala	66		2
-prisela			2
+prisela			3
 prisetila	171		4
 prisećala	68		4
 prisila	177		3
@@ -3617,11 +3617,11 @@ priskočila	117		2
 prislanjala	10		4
 prislonila	67		3
 prisluškivala	120		3
-prispela	161		2
+prispela	161		3
 pristajala	242		4
-pristala	2392		2
+pristala	2392		3
 pristavila			4
-pristigla	683		2
+pristigla	683		3
 pristizala	123		4
 pristojala			2
 pristupala	56		3
@@ -3630,11 +3630,11 @@ prisustvovala	2337		5
 prisvojila	187		2
 pritajila	26		2
 pritegnula			3
-pritekla	135		2
+pritekla	135		3
 priterala			2
 pritiskala	153		3
 pritiskivala	23		3
-pritisla			2
+pritisla			3
 pritisnula	139		4
 pritrčala	38		2
 pritužila			2
@@ -3645,7 +3645,7 @@ privela	1280		3
 privezala	21		3
 privijala	21		2
 privikla	79		3
-privila	55		2
+privila	55		3
 priviđala			2
 privlačila	636		3
 privodila	88		3
@@ -3657,12 +3657,12 @@ prizivala	71		3
 priznala	4797		3
 priznavala	260		3
 prizvala	80		3
-pričala	3209		2
+pričala	3209		3
 pričekala	14		4
 pričestila	105		2
 pričinila	114		3
 pričuvala			3
-prišila	16		2
+prišila	16		3
 prišla	1355		2
 prišunjala			2
 priželjkivala	140		3
@@ -3678,7 +3678,7 @@ probola	11		2
 probudila	2060		3
 probušila	49		3
 procenila	981		3
-procurela	312		2
+procurela	312		3
 procurila	222		3
 procvala	17		3
 procvetala	305		2
@@ -3698,7 +3698,7 @@ proglašavala	70		3
 progledala	148		2
 prognala	57		3
 progonila	87		3
-progorela			2
+progorela			3
 progovarala	33		3
 progovorila	544		3
 programirala	36		2
@@ -3710,9 +3710,9 @@ prohladila			2
 prohodala	152		2
 prohujala	145		2
 proigrala			2
-proistekla	909		2
-proizašla	503		2
-proizišla	114		2
+proistekla	909		3
+proizašla	503		3
+proizišla	114		3
 proizvela	1874		3
 proizvodila	1236		3
 projektila	1373		2
@@ -3721,7 +3721,7 @@ projurila	45		3
 prokapala			2
 prokasala			2
 prokazala			2
-prokisla			2
+prokisla			3
 prokišnjavala	30		2
 proklela	45		2
 proklijala	20		3
@@ -3731,7 +3731,7 @@ proključala	74		2
 prokockala	109		2
 prokonzula			3
 prokopala			3
-prokrala			2
+prokrala			3
 prokrijumčarila	26		3
 prokrvarila	22		4
 prokrčila	55		2
@@ -3740,7 +3740,7 @@ prokužila			2
 prolazila	1476		4
 prolepšala			2
 proletala			2
-proletela	224		2
+proletela	224		3
 prolevala			2
 prolila	106		3
 prolivala			2
@@ -3755,46 +3755,46 @@ prometnula	12		3
 promešala	19		2
 promicala	33		4
 promila	919		3
-promisla			2
+promisla			3
 promislila	18		4
 promišljala	14		3
 promolila	29		2
 promovisala	1163		2
 promrmljala	82		2
-promrzla	56		2
+promrzla	56		3
 promucala	21		2
-promukla	37		2
-promumla			2
+promukla	37		3
+promumla			3
 pronalazila	197		4
 pronašla	5258		2
-pronela	221		2
+pronela	221		3
 pronicala			4
 pronikla	21		3
 pronosila	26		2
 propadala	212		4
-propala	3478		2
+propala	3478		3
 propatila	86		4
-propela	15		2
+propela	15		3
 propevala	31		2
 propila			3
 propisala	703		3
 propištala			2
 proplakala	42		4
-propofola			2
+propofola			3
 propratila	244		2
 propustila	1538		3
 proputovala	135		2
 propušila	14		4
 propuštala	108		3
 proradila	621		3
-prorasla			2
+prorasla			3
 proračunala	24		3
 proredila	63		2
 prorekla	51		3
 proređivala			2
 proricala	24		3
-prosedela			2
-prosekla			2
+prosedela			3
+prosekla			3
 prosijala			2
 prosila	37		3
 prosinula			3
@@ -3802,15 +3802,15 @@ prosipala	61		2
 proslavila	2183		4
 prosledila	411		2
 prostirala	493		4
-prostituisala			2
+prostituisala			3
 prostrla	51		2
 prosula	217		3
 prosušila	10		2
 prosvetila			2
 prosvetlila	24		2
-protegla	74		2
+protegla	74		3
 protegnula			3
-protekla	3218		2
+protekla	3218		3
 proterala	256		4
 protestovala	290		2
 protestvovala	57		2
@@ -3821,10 +3821,10 @@ protjecala		J	4
 protokola	4980		4
 protraćila			2
 protresala			2
-protresla	80		2
+protresla	80		3
 protrljala	28		2
 protrčala	44		2
-protumačila	161		2
+protumačila	161		3
 proturila	20		2
 protutnjala	102		2
 prouzrokovala	697		5
@@ -3843,13 +3843,13 @@ provlačila	161		3
 provodila	815		3
 provozala	61		2
 provrela	16		2
-provrvjela		J	2
-provukla	214		2
+provrvjela		J	3
+provukla	214		3
 prozborila	51		3
 prozivala	88		3
 prozrela	50		2
 prozvala	264		3
-prozvela			2
+prozvela			3
 pročešljala	24		2
 pročistila	41		2
 pročitala	4883		3
@@ -3858,7 +3858,7 @@ prošaptala	35		2
 prošaputala	86		2
 prošarala			2
 prošetala	492		3
-prošila			2
+prošila			3
 proširila	2482		3
 prošla	12124		2
 prošvercovala	16		2
@@ -3867,30 +3867,30 @@ proždirala	38		2
 proždrla			2
 prožela	42		2
 prožimala	83		4
-proživela	251		2
+proživela	251		3
 proživljavala	67		2
 prskala	76		3
 prsla			2
 prsnula	21		3
-prunela			2
+prunela			3
 pružala	1205		3
 pružila	3746		3
-prčkala			2
-prštala	26		2
+prčkala			3
+prštala	26		3
 pržila	36		3
 psovala	131		3
-pterodaktila			2
+pterodaktila			3
 pucala	564		3
 puckarala			2
 pudla	56		2
-puebla			2
+puebla			3
 pukla	1668		2
 puknula			3
 pula		M	2
-pulčinela			2
-pumpala	21		2
-punila	483		2
-pupila			2
+pulčinela			3
+pumpala	21		3
+punila	483		3
+pupila			3
 pustila	1924		3
 pustošila	26		2
 putovala	1086		3
@@ -3901,25 +3901,25 @@ pčela	4992		2
 radikala	5443		2
 radila	20334		3
 radmila			3
-radojla			2
+radojla			3
 radovala	496		4
 radoznala	496		3
 radula		M	3
-rafaela			2
+rafaela			3
 rafaila			2
-rafala	111		2
-rahela			2
+rafala	111		3
+rahela			3
 rahla			2
 raketirala			2
 rala	113		2
 rangirala	66		3
 ranila	197		3
-ranđela			2
+ranđela			3
 rascepila	24		3
 rascvetala	66		2
 rasejala			2
 rasekla	18		3
-rasela			2
+rasela			3
 rasipala	68		4
 raskidala	30		3
 raskinula	827		4
@@ -3927,25 +3927,25 @@ rasklapala			3
 rasklopila	12		3
 raskola	952		3
 raskomadala	18		2
-raskomotila	13		2
+raskomotila	13		3
 raskopala			2
 raskopčala	30		2
-raskrila			2
+raskrila			3
 raskrilila			2
 raskrinkala	39		2
 raskrivala			2
 raskrstila	62		3
 raskrupnjala			2
 rasla	2639		2
-rasola	51		2
+rasola	51		3
 raspadala	212		4
 raspakovala			2
 raspala	1705		3
 raspalila	51		2
 raspaljivala	16		2
-raspametila	24		2
+raspametila	24		3
 raspasala			2
-raspela	16		2
+raspela	16		3
 raspevala			2
 raspisala	1529		3
 raspitala	163		3
@@ -3966,28 +3966,28 @@ raspremala			2
 raspričala	36		2
 rasprodala	161		3
 rasprostirala	21		2
-rasprostrla	34		2
+rasprostrla	34		3
 rasprskavala			2
-rasprsla			2
+rasprsla			3
 rasprtila			2
 raspršila	102		3
 rasprštala			2
-raspukla			2
+raspukla			3
 raspustila	109		3
 rasrdila			3
 rastakala	10		2
 rastala	128		3
 rastavila	53		4
 rastavljala	13		4
-rastegla	31		2
+rastegla	31		3
 rasterala	233		4
 rasteretila	112		4
 rasterivala	24		3
 rastopila	28		3
 rastočila	21		2
-rastresla			2
+rastresla			3
 rastrgala			4
-rastrgla	24		2
+rastrgla	24		3
 rastrgnula			3
 rastrojila			2
 rasturala	38		2
@@ -3998,11 +3998,11 @@ rastvorila	35		3
 rasula	402		3
 rasušila			2
 rasvetlila	108		2
-ratifikovala	748		2
+ratifikovala	748		3
 ratovala	422		4
 raula			3
-ravela			2
-ravijojla			2
+ravela			3
+ravijojla			3
 razabrala	16		3
 razagnala			2
 razapela	26		2
@@ -4010,9 +4010,9 @@ razarala	56		3
 razaznala	10		3
 razbacala	23		3
 razbacivala	15		3
-razbarušila			2
-razbaškarila			2
-razbesnela	120		2
+razbarušila			3
+razbaškarila			3
+razbesnela	120		3
 razbežala	49		2
 razbijala	105		3
 razbila	871		3
@@ -4029,7 +4029,7 @@ razdela	169		3
 razdelila	37		3
 razderala			3
 razdirala	25		4
-razdrala			2
+razdrala			3
 razdražila			3
 razdvajala	115		3
 razdvojila	210		3
@@ -4039,8 +4039,8 @@ razglasila	14		3
 razgledala	100		2
 razgnevila			2
 razgonila			2
-razgorela	27		2
-razgoropadila	14		2
+razgorela	27		3
+razgoropadila	14		3
 razgovarala	2237		3
 razgranala	55		2
 razgrtala			2
@@ -4051,13 +4051,13 @@ razišla	182		2
 razjapila	12		2
 razjarila	20		3
 razjasnila	151		2
-razjela			2
+razjela			3
 razjurila	14		3
 razlagala			3
 razlamala			2
 razlegala	21		2
-razlegla	19		2
-razletela	20		2
+razlegla	19		3
+razletela	20		3
 razlikovala	591		5
 razlila	84		3
 razlivala			2
@@ -4067,7 +4067,7 @@ razložila	12		3
 razlučila			3
 razlučivala			3
 razmahnula			3
-razmakla		M	2
+razmakla		M	3
 razmatrala	782		3
 razmazala	34		2
 razmazila	61		3
@@ -4075,7 +4075,7 @@ razmenila	150		3
 razmestila	25		2
 razmetala	19		4
 razmeštala			2
-razmilela	11		2
+razmilela	11		3
 razmislila	189		4
 razmišljala	2257		3
 razmnožila	24		3
@@ -4084,13 +4084,13 @@ razmrskala			2
 raznela	99		2
 raznežila	52		3
 raznosila	23		3
-razonodila			2
+razonodila			3
 razorila	230		3
 razoružala	53		3
 razotkrila	194		3
 razočarala	654		3
 razradila	167		3
-razrasla	13		2
+razrasla	13		3
 razredila	18		2
 razrezala	17		2
 razrešila	305		2
@@ -4110,7 +4110,7 @@ razvila	4214		3
 razvlačila	56		2
 razvodila	30		3
 razvodnila	28		3
-razvukla	80		2
+razvukla	80		3
 računala	1061		3
 račvala	10		3
 rađala	478		3
@@ -4120,20 +4120,20 @@ raščistila	83		2
 raščupala			2
 ražalostila	15		3
 reagovala	3354		5
-reala	627		2
+reala	627		3
 recitala	71		2
 recitovala	157		2
 redigovala			2
 reducirala			2
 redukovala	77		2
-regala	108		2
+regala	108		3
 registrovala	670		2
 regrutovala	67		2
 regula	58		3
-rekala			2
+rekala			3
 rekla	73862		2
 reklamirala	148		2
-rekonstruisala	115		2
+rekonstruisala	115		3
 remetila	73		4
 remizirala	109		2
 renovirala	98		3
@@ -4145,22 +4145,22 @@ revnovala			2
 rezala	28		3
 rezervisala	188		2
 rezultirala			2
-ređala	87		2
+ređala	87		3
 rešavala	450		3
 rešila	5101		3
 režala	17		3
 režirala	450		2
-ribala	36		2
+ribala	36		3
 ribizla	208		3
 ridala	27		3
-rijala	29		2
-rikala	12		2
+rijala	29		3
+rikala	12		3
 riknula	133		3
 rila	109		2
 ringišpila	124		4
 ringla	66		2
 riskirala			2
-ritala	13		2
+ritala	13		3
 ritnula			3
 rituala	1277		2
 rivala			3
@@ -4169,33 +4169,33 @@ robijala	12		2
 robovala	30		3
 rodila	6113		3
 rogušila			2
-rokenrola	807		2
+rokenrola	807		3
 roknula	14		3
 rola	381		2
 rominjala	26		2
 romobila			2
 romula			3
 rondela			3
-ronila	51		2
-roptala			2
-rosila			2
-rotvela			2
+ronila	51		3
+roptala			3
+rosila			3
+rotvela			3
 rovarila	14		3
-rubela	38		2
+rubela	38		3
 rubeola			2
 rugala	60		3
 rugla	122		2
-rukola	83		2
+rukola	83		3
 rukovala	58		4
 rukovodila	562		3
 rumenila	371		3
 rusofila	129		2
 ručala	63		3
 rušila	255		3
-ružila	12		2
+ružila	12		3
 rvala			3
-rzala			2
-rđala			2
+rzala			3
+rđala			3
 sabila	25		3
 sabirala	48		4
 sablaznila	11		3
@@ -4221,25 +4221,25 @@ sakupila	621		4
 sakupljala	189		3
 sala	7902		2
 saletala			2
-salmonela	172		2
+salmonela	172		3
 salomila			2
-samjuela			2
-samlela			2
+samjuela			3
+samlela			3
 samohvala	14		2
 samokontrola	236		2
-samonikla	133		2
-samostrela	40		2
+samonikla	133		3
+samostrela	40		3
 samovila		M	2
-samuela			2
+samuela			3
 samuila			2
 sandala	184		2
-sanela			2
+sanela			3
 sanirala	140		2
 sanjala	1683		3
 sanjarila	31		3
-saobrazila			2
+saobrazila			3
 saobraćala	57		2
-saobražavala			2
+saobražavala			3
 saopštila	13953		2
 saosećala	27		2
 saplela	112		3
@@ -4257,7 +4257,7 @@ sasula	53		3
 sasušila	19		2
 saterala			2
 satirala			2
-satrla	38		2
+satrla	38		3
 satrunula			3
 savetovala	684		5
 savijala	50		3
@@ -4281,17 +4281,17 @@ sašaptavala			2
 sašila	95		3
 sažalila	43		4
 sažaljevala			2
-sažegla			2
+sažegla			3
 sažela	60		2
 sažvakala	16		2
 secirala			3
-seckala	36		2
+seckala	36		3
 sedala	80		3
 sedela	2253		3
 sedila	17		3
 sedla	328		2
 sejala	87		3
-sejšela			2
+sejšela			3
 sekirala	30		3
 sekla	154		2
 seksepila			2
@@ -4300,11 +4300,11 @@ sela	48724		2
 selila	137		3
 seljakala			2
 senegala			2
-senila	26		2
-senčila			2
+senila	26		3
+senčila			3
 serijala	4396		2
 servirala	308		2
-sesila			2
+sesila			3
 setila	1440		3
 seula			3
 sevala	54		3
@@ -4313,7 +4313,7 @@ sezala	31		3
 sećala	263		3
 shvatala	367		3
 shvatila	7641		3
-sibila	99		2
+sibila	99		3
 sietla			2
 sigla			2
 signala	7320		2
@@ -4326,7 +4326,7 @@ silovala	111		4
 simbola	5020		2
 simetrala	11		2
 simulirala	44		3
-simvola		M	2
+simvola		M	3
 singla	942		2
 sinula	227		3
 sipala	209		3
@@ -4335,13 +4335,13 @@ sisala	172		3
 sivila	273		3
 sišla	482		2
 sjahala			3
-sjajila	22		2
+sjajila	22		3
 sjala	40		2
 sjedala		J	3
 sjedila		J	3
 sjedinila			2
-sjenila		J	2
-sjurila	37		2
+sjenila		J	3
+sjurila	37		3
 skakala	255		3
 skakutala	76		2
 skala	1043		2
@@ -4360,12 +4360,12 @@ sklapala	158		3
 skliznula	296		3
 sklonila	403		3
 sklopila	1046		3
-sklupčala	43		2
-skockala	27		2
+sklupčala	43		3
+skockala	27		3
 skoknula	38		3
-skolila			2
-skontala	236		2
-skončala	71		2
+skolila			3
+skontala	236		3
+skončala	71		3
 skorela			2
 skotrljala	32		2
 skovala	52		3
@@ -4375,10 +4375,10 @@ skratila	302		3
 skrenula	1516		3
 skresala	62		3
 skretala	109		3
-skrhala	22		2
+skrhala	22		3
 skrila	70		2
 skrivala	433		3
-skrivila	80		2
+skrivila	80		3
 skrnavila	10		4
 skrstila			3
 skrupula	297		3
@@ -4386,33 +4386,33 @@ skršila	26		3
 skupila	723		3
 skupljala	369		3
 skuvala	255		3
-skužila	12		2
-skvasila			2
+skužila	12		3
+skvasila			3
 skvrčila			3
 slabila	137		3
-sladila	19		2
+sladila	19		3
 slagala	572		3
 slala	1021		2
 slamala	12		3
 slavila	1925		3
-slazila			2
+slazila			3
 sledila	1099		3
 sledovala	63		2
-slegala	15		2
+slegala	15		3
 slegla	248		2
 slegnula	42		3
 slepila	509		3
-sletala	20		2
-sletela	406		2
+sletala	20		3
+sletela	406		3
 slijevala	29	J	2
 slikala	858		3
 slila	147		2
 slinila			3
 slivala			3
 sličila	11		3
-sljuštila			2
+sljuštila			3
 slomila	573		3
-slovila	95		2
+slovila	95		3
 složila	1252		3
 sludovala			2
 slupala	32		3
@@ -4420,15 +4420,15 @@ slutila	388		3
 slušala	2004		3
 službovala	18		2
 služila	2468		3
-smaila			2
+smaila			3
 smakla			2
 smanjila	4861		3
 smanjivala	389		3
-smarala	49		2
+smarala	49		3
 smatrala	2875		3
 smazala	20		3
 smejala	866		3
-smekšala	23		2
+smekšala	23		3
 smela	3014		2
 smenila	440		3
 smenjivala	153		3
@@ -4436,8 +4436,8 @@ smestila	652		3
 smetala	977		3
 smetnula	33		3
 smešila	194		3
-smeškala	134		2
-smicala			2
+smeškala	134		3
+smicala			3
 smilovala	42		4
 smirila	677		3
 smirivala	100		3
@@ -4446,30 +4446,30 @@ smislila	504		3
 smišljala	94		3
 smogla	262		2
 smola	512		2
-smorila	165		2
+smorila	165		3
 smotala	27		3
 smočila			3
-smoždila			2
+smoždila			3
 smrdela	48		3
 smrdila			3
 smrskala	11		3
-smrvila	15		2
+smrvila	15		3
 smrzavala	41		4
 smrzla		M	2
 smrznula	11		3
-smršala	392		2
+smršala	392		3
 smršavila			2
-smucala			2
-smutila	10		2
+smucala			3
+smutila	10		3
 smuvala	78		3
 smućivala			2
-smućkala	12		2
-smučila	129		2
+smućkala	12		3
+smučila	129		3
 snabdela	66		3
 snabdevala	200		3
 snalazila	125		4
 snašla	912		2
-snažila	25		2
+snažila	25		3
 snebivala	21		3
 snevala			3
 snila	42		2
@@ -4477,11 +4477,11 @@ snimala	884		3
 snimila	2628		3
 snivala	13		3
 snizila	756		3
-snosila	143		2
-snuždila			2
+snosila	143		3
+snuždila			3
 socijala		M	2
-sofokla			2
-softbola	12		2
+sofokla			3
+softbola	12		3
 sokola	627		3
 sokoćala			2
 sola	188		2
@@ -4492,7 +4492,7 @@ spakovala	326		4
 spala	714		2
 spalila	220		3
 spaljivala	38		3
-spanđala			2
+spanđala			3
 spasavala	101		3
 spasila	1170		3
 spasla	765		2
@@ -4502,7 +4502,7 @@ spašavala			2
 specijalizovala	246		5
 spektakla	1183		2
 spelovala			4
-spetljala	18		2
+spetljala	18		3
 spirala	556		2
 spiskala	34		3
 splasnula	126		3
@@ -4515,14 +4515,14 @@ spominjala	300		4
 sponzorisala	126		2
 spopadala	20		4
 spopala	105		3
-sporila	34		2
-spotakla	62		2
+sporila	34		3
+spotakla	62		3
 spotaknula			3
 spoticala	14		2
 spoznala	248		3
 sprala	64		2
-spravila			2
-spravljala	23		2
+spravila			3
+spravljala	23		3
 sprdala	22		2
 spremala	1114		3
 spremila	911		3
@@ -4531,11 +4531,11 @@ sprečila	3121		3
 sprijateljila	71		3
 sprovela	3258		3
 sprovodila	1016		3
-spržila	51		2
+spržila	51		3
 spustila	1910		3
 sputala	61		3
 sputavala	74		3
-sputila			2
+sputila			3
 spuštala	434		3
 sramila	18		3
 sramotila	15		3
@@ -4546,17 +4546,17 @@ srdila		M	3
 sredila	376		3
 srela	1460		2
 sretala	227		3
-srezala	30		2
+srezala	30		3
 sređivala	91		3
 srljala	35		3
-srodila	21		2
-srozala	143		2
-sročila	49		2
-srubila			2
-sručila	188		2
+srodila	21		3
+srozala	143		3
+sročila	49		3
+srubila			3
+sručila	188		3
 srušila	1242		3
 stabala	2250		2
-stabilizovala	412		2
+stabilizovala	412		3
 stabla	4220		2
 stagnirala	146		3
 stajala	4156		3
@@ -4564,30 +4564,30 @@ stakala	804		3
 stakla	8037		2
 stala	3734		2
 staložila			2
-stambola			2
-staniola	11		2
-stanjila	19		2
-stanojla			2
+stambola			3
+staniola	11		3
+stanjila	19		3
+stanojla			3
 stanovala	273		3
 stapala	30		3
 starala	141		3
 starila	25		3
-starmala			2
+starmala			3
 startovala	857		2
-stasala	290		2
+stasala	290		3
 stavila	4981		3
 stavljala	684		3
 stažirala	24		2
 stegla	225		2
 stegnula	22		3
-stekala			2
+stekala			3
 stekla	5380		2
 stela	335		2
 stendala			2
-stenjala	380		2
+stenjala	380		3
 sterilisala	32		2
 stezala	151		3
-sticala	342		2
+sticala	342		3
 stidela	153		3
 stigla	16647		2
 stila	8081		2
@@ -4597,7 +4597,7 @@ stisnula	111		3
 stizala	800		3
 stišala	150		3
 stišavala	21		3
-stojala	119		2
+stojala	119		3
 stola	7850		2
 stolovala	16		2
 stopala	7565		3
@@ -4609,14 +4609,14 @@ strašila	199		3
 stražarila	11		2
 strefila	33		3
 strela	985		2
-streljala	71		2
+streljala	71		3
 stremila	23		3
-strepela	78		2
+strepela	78		3
 strepila	13		3
-stresala			2
+stresala			3
 stresla	106		2
-strpala	134		2
-strujala	39		2
+strpala	134		3
+strujala	39		3
 studirala	1046		3
 stukla			2
 stupala	59		3
@@ -4628,16 +4628,16 @@ sudarala	29		2
 sudarila	182		4
 sudila	163		3
 sugerisala	262		2
-sukljala			2
+sukljala			3
 sukobila	202		3
-suljala			2
+suljala			3
 sumnjala	310		3
 sunula			3
 sunčala	75		3
 suočavala	249		3
 suočila	940		3
-superautomobila	155		2
-supermodela	93		2
+superautomobila	155		3
+supermodela	93		3
 supersila	406		2
 suprotstavila	299		4
 suprotstavljala	126		4
@@ -4658,9 +4658,9 @@ suzdržala	23		3
 suzdržavala	41		4
 suzila	91		3
 sučeljavala			2
-sušila	101		2
+sušila	101		3
 sužavala	38		3
-svalila	52		2
+svalila	52		3
 svaljivala	16		2
 svanula	42		3
 svađala	135		3
@@ -4668,14 +4668,14 @@ svedočila	270		3
 svela	1135		2
 svenula			3
 svetala	925		3
-svetila	124		2
+svetila	124		3
 svetkovala			3
 svetla	12606		2
-svetlela			2
-svetlila	32		2
+svetlela			3
+svetlila	32		3
 svetlucala	40		3
 svidela	1144		3
-svijala			2
+svijala			3
 svila	599		2
 svirala	796		3
 sviđala	276		3
@@ -4694,11 +4694,11 @@ svrstavala	34		4
 svršavala	160		4
 svršila	407		3
 svukla	131		2
-tabala			2
+tabala			3
 tabela	4176		2
 tabla	2733		2
 tabula			3
-tajala			2
+tajala			3
 tajila	21		3
 takla			2
 takmičila	492		4
@@ -4711,15 +4711,15 @@ tamnela			3
 tarantula	172		3
 tatula			3
 tegla	207		2
-tekila	130		2
+tekila	130		3
 tekla	1247		2
 tekstila	1723		2
 tela	58901		2
-telala			2
+telala			3
 telefonirala	74		3
-telenovela	105		2
-teleportovala			2
-telila			2
+telenovela	105		3
+teleportovala			3
+telila			3
 temeljila	155		3
 templa			2
 teofila			2
@@ -4736,21 +4736,21 @@ tetovirala	17		3
 teturala	22		2
 tešila	147		3
 težila	506		3
-ticala	464		2
+ticala	464		3
 tinjala	124		3
 tipizirala			2
 tirola			2
-titela			2
+titela			3
 titla		M	2
 titula	5902		3
-tištala			2
+tištala			3
 tkala	51		2
 tla	4399		1
-tocila			2
+tocila			3
 tolerisala	164		2
 tombola	98		3
 tonula	164		3
-tonzila			2
+tonzila			3
 topila	161		3
 topla	4064		2
 topola	1916		2
@@ -4767,7 +4767,7 @@ tražila	8075		3
 trebala	12637		3
 trebla			2
 trebovala			2
-tremola			2
+tremola			3
 trenirala	552		3
 trenula			3
 treperila	76		3
@@ -4776,7 +4776,7 @@ treptala	53		3
 tresla	768		2
 tresnula	91		3
 tretirala	281		3
-treštala	47		2
+treštala	47		3
 trgla	215		2
 trgnula	47		3
 trgovala	100		4
@@ -4784,19 +4784,19 @@ tribunala	5471		2
 tricikla	34		2
 trijenala	78		2
 trijumfovala	804		2
-triola			2
-trkala	14		2
+triola			3
+trkala	14		3
 trljala	142		3
 trnula	13		3
 trola	160		2
 tronula			3
-trotila	29		2
-trougla	1047		2
+trotila	29		3
+trougla	1047		3
 trovala	65		3
-trošila	721		2
-trpala	50		2
+trošila	721		3
+trpala	50		3
 trpela	721		3
-trpila			2
+trpila			3
 trubila	13		3
 trudila	1612		3
 trula	426		2
@@ -4809,18 +4809,18 @@ trznula	18		3
 trčala	826		3
 trčkarala	43		2
 tuberkula			3
-tucala	42		2
+tucala	42		3
 tugovala	103		3
 tukla	499		2
 tulumarila			3
 tumarala	36		2
 tumačila	348		3
 tunela	3256		2
-turila	24		2
-tutkala	18		2
-tutnjala	30		2
+turila	24		3
+tutkala	18		3
+tutnjala	30		3
 tutnula	22		3
-tuvila			2
+tuvila			3
 tuzla			2
 tuširala	79		3
 tužila	763		3
@@ -4831,11 +4831,11 @@ ubacila	648		3
 ubacivala	92		3
 ubadala			3
 ubedila	459		2
-ubeležila	118		2
+ubeležila	118		3
 ubeđivala	157		2
 ubijala	353		3
 ubila	2380		3
-ubilježila		J	2
+ubilježila		J	3
 ubirala	88		4
 ublažavala	27		3
 ublažila	407		3
@@ -4848,7 +4848,7 @@ ubrzala	636		3
 ubrzavala	49		4
 ucenila	33		3
 ucenjivala	71		3
-ucijepila		J	2
+ucijepila		J	3
 ucrtala	32		2
 udahnula	206		3
 udala	2692		3
@@ -4860,23 +4860,23 @@ udavala	269		3
 udavila	202		3
 udebljala	30		2
 udela	5862		3
-udesetostručila			2
+udesetostručila			3
 udesila	67		2
 udešavala			2
 udisala	42		4
 udivljavala			2
 udomila	108		3
-udostojila	159		2
-udovoljila	92		2
+udostojila	159		3
+udovoljila	92		3
 udružila	253		3
 udubila	37		2
 udvajala			2
 udvarala	23		2
-udvostručavala			2
+udvostručavala			3
 udvostručila	351		4
 uganula	17		3
 ugasila	965		3
-ugasla	22		2
+ugasla	22		3
 ugazila			2
 ugađala			3
 ugibala			3
@@ -4907,7 +4907,7 @@ uhodila	11		3
 uhvatila	2485		4
 ujedala	28		3
 ujedinila	407		3
-ujednačila	32		2
+ujednačila	32		3
 ujela	262		3
 ukaljala	26		2
 ukapirala	304		2
@@ -4944,10 +4944,10 @@ ulagala	497		3
 ulazila	820		4
 ulepšala	225		3
 ulepšavala	24		3
-uletela	395		2
+uletela	395		3
 uletila			2
 ulevala			2
-ulila	189		2
+ulila	189		3
 ulivala			2
 uljepšala		J	3
 ulovila	86		3
@@ -4965,7 +4965,7 @@ umešala	633		2
 umila	46		3
 umilila	12		2
 umiljavala	11		2
-umilostivila	15		2
+umilostivila	15		3
 umirala	224		4
 umirila	211		2
 umirivala	22		2
@@ -4982,23 +4982,23 @@ umočila	21		2
 umrela			2
 umrla	4855		2
 umrtvila	31		2
-umukla	24		2
+umukla	24		3
 umuknula			3
 unajmila	111		3
 unakazila	57		3
-unapredila	749		2
-unazadila	123		2
+unapredila	749		3
+unazadila	123		3
 unela	1005		2
-uneredila	12		2
-unervozila			2
-unesrećila	42		2
+uneredila	12		3
+unervozila			3
+unesrećila	42		3
 uništavala	192		3
 uništila	1968		4
 unižavala			3
 unosila	207		3
 unovčila	32		3
-uobičajila	15		2
-uobličila	108		2
+uobičajila	15		3
+uobličila	108		3
 uobrazila	26		3
 uokvirila	26		3
 uočavala	47		3
@@ -5008,10 +5008,10 @@ upakovala	48		2
 upala	4003		3
 upalila	448		3
 upamtila	124		3
-uparložila			2
+uparložila			3
 upecala	77		4
-upekla	37		2
-upela			2
+upekla	37		3
+upela			3
 uperila	32		2
 upetljala	38		2
 upijala	143		3
@@ -5025,16 +5025,16 @@ upiškila	26		2
 uplatila	910		2
 uplaćivala	156		2
 uplašila	920		4
-uplela	168		2
+uplela	168		3
 uplitala	29		2
 uplivala	17		4
 uplovila	154		3
-upodobila	19		2
-upokojila	184		2
-upola	2809		2
-uporedila	219		2
-upoređivala	80		2
-upotpunila	329		2
+upodobila	19		3
+upokojila	184		3
+upola	2809		3
+uporedila	219		3
+upoređivala	80		3
+upotpunila	329		3
 upotrebila	727		3
 upotrebljavala	241		3
 upoznala	4854		3
@@ -5050,7 +5050,7 @@ upropastila	449		3
 uprostila	20		2
 uprskala	22		2
 uprtila			2
-upsala			2
+upsala			3
 upucala	55		2
 upucavala			2
 upustila	347		2
@@ -5058,11 +5058,11 @@ uputila	4532		3
 upućivala	267		3
 upuštala	76		2
 uradila	9892		3
-urala			2
+urala			3
 uramila	14		2
 uranila	16		4
-urasla	57		2
-urazumila	13		2
+urasla	57		3
+urazumila	13		3
 uračunala	28		3
 uredila	508		3
 urekla			3
@@ -5077,27 +5077,27 @@ ursula			3
 uručila	1263		3
 urušila	250		2
 usadila	107		3
-usaglasila	208		2
-usahla	46		2
+usaglasila	208		3
+usahla	46		3
 usahnula	17		3
 usamila			2
 usavršavala	326		4
 usavršila	175		3
 usađivala			3
 uselila	386		3
-ushtela			2
+ushtela			3
 usidrila	25		4
 usijala	51		2
 usisala	82		4
 usisavala	37		3
-usjekla		J	2
+usjekla		J	3
 uskladila	195		2
 uskliknula	34		3
 uskomešala	35		2
-uskovitla	18		2
+uskovitla	18		3
 uskočila	194		2
 uskratila	302		3
-uskrsla			2
+uskrsla			3
 uskrsnula			3
 usledila	6597		2
 uslikala	83		2
@@ -5110,24 +5110,24 @@ usmerila	605		4
 usmrdela	16		3
 usmrdila			2
 usmrtila	267		2
-usnila	44		2
+usnila	44		3
 usnula	88		3
-uspanicila			2
-uspaničarila			2
-uspaničila	49		2
+uspanicila			3
+uspaničarila			3
+uspaničila	49		3
 uspavala	158		3
 uspavljivala	52		3
-uspela	20359		2
+uspela	20359		3
 uspevala	1030		3
 uspinjala	22		4
-uspokojila			2
+uspokojila			3
 usporavala	75		3
 usporila	512		3
 uspostavila	1677		4
 uspravila	98		2
 uspravljala	12		2
-usprotivila	310		2
-usredsredila	119		2
+usprotivila	310		3
+usredsredila	119		3
 usrećila	142		2
 usrkala			2
 ustajala	241		2
@@ -5139,7 +5139,7 @@ ustanovila	1311		3
 ustavila			2
 ustavljala			2
 ustezala	31		2
-ustoličila	85		2
+ustoličila	85		3
 ustrajala			4
 ustrašila			2
 ustrebala			2
@@ -5161,8 +5161,8 @@ usuđivala	78		3
 usvajala	143		3
 usvojila	7387		3
 utajila	21		3
-utaložila			2
-utamničila			2
+utaložila			3
+utamničila			3
 utanačila			3
 utapala	19		3
 utekla	49		2
@@ -5176,7 +5176,7 @@ utiskivala	10		2
 utisnula	49		3
 utišala	87		2
 utišavala			2
-utkala	74		2
+utkala	74		3
 utkivala			2
 utonula	192		3
 utopila	219		3
@@ -5198,10 +5198,10 @@ uvala	362		3
 uvalila	137		3
 uvaljivala			3
 uvatila	45		2
-uvašljivila			2
+uvašljivila			3
 uvažavala	89		3
 uvažila	193		3
-uvela			2
+uvela			3
 uvenula	41		3
 uveravala	100		3
 uverila	1011		4
@@ -5222,18 +5222,18 @@ uvredila	371		3
 uvrežila	19		3
 uvrnula	11		3
 uvrstila	640		3
-uvrtela			2
+uvrtela			3
 uvrtila			2
 uvukla	673		2
 uzajmila			2
-uzavrela	172		2
+uzavrela	172		3
 uzbudila	178		3
 uzbunila	47		3
 uzbunjivala			3
 uzburkala	290		4
 uzbuđivala	69		3
 uzdahnula	250		3
-uzdigla	278		2
+uzdigla	278		3
 uzdisala	145		4
 uzdizala	133		2
 uzdrhtala	56		2
@@ -5247,19 +5247,19 @@ uzidala			2
 uzimala	1365		4
 uzišla			2
 uzjahala	52		4
-uzjogunila			2
+uzjogunila			3
 uzletala	10		3
 uzletela	55		3
 uzmicala	30		4
 uzmutila			2
 uzmuvala			2
 uzmučila			2
-uznapredovala	286		2
-uznela	20		2
+uznapredovala	286		3
+uznela	20		3
 uznemiravala	76		3
 uznemirila	379		3
 uznosila	13		2
-uzrasla			2
+uzrasla			3
 uzrastala			2
 uzrokovala	411		5
 uzrujala	37		3
@@ -5270,19 +5270,19 @@ uzviknula	217		3
 uzvisila	13		3
 uzvratila	744		2
 uzvraćala	72		2
-uzvrpoljila			2
+uzvrpoljila			3
 ućutala	85		2
 ućutkala	24		2
 učestala	409		2
 učestvovala	9733		5
-učila	2236		2
+učila	2236		3
 učinila	8743		3
 učitala	17		2
 učlanila	154		3
-učmala	37		2
+učmala	37		3
 učvrstila	524		3
 ušetala	170		3
-ušila	17		2
+ušila	17		3
 ušivala			2
 ušla	10853		2
 uštedela	364		3
@@ -5294,41 +5294,41 @@ ušutkala			2
 ušuškala	46		4
 užasavala	45		2
 užasnula	49		3
-užegla	16		2
-uželela	100		2
+užegla	16		3
+uželela	100		3
 uživala	2690		3
-uživela	47		2
+uživela	47		3
 uživila			2
 uživljavala			2
 užurbala			2
-užutela			2
+užutela			3
 vabila			3
 vadila	268		3
 vafla	40		2
 vagala	30		3
-vajala			2
-vajkala			2
+vajala			3
+vajkala			3
 vakuola			2
 vala	1906		2
 valjala	289		3
 valjuškala			2
 vandala	308		2
 vangla			2
-vanila	337		2
+vanila	337		3
 vapila	45		3
 varala	208		3
-varijabla	214		2
+varijabla	214		3
 varila	18		3
 variola	91		2
 varirala	226		2
-varičela			2
-vascela			2
-vaskrsla	138		2
+varičela			3
+vascela			3
+vaskrsla	138		3
 vaskrsnula	23		3
 vaspitala	108		2
 vaspitavala	118		2
 vaterpola	537		4
-vazala			2
+vazala			3
 važila	1153		3
 vela	278		2
 velesila	545		2
@@ -5346,7 +5346,7 @@ veselila	46		3
 vesla	601		2
 veslala	36		3
 vestibila	16		2
-vetrila			2
+vetrila			3
 vezala	704		3
 vezivala	305		3
 većala	14		3
@@ -5355,40 +5355,40 @@ vešala	312		3
 vežbala	349		3
 vidala	48		2
 videla	14360		3
-vijala	31		2
+vijala	31		3
 vijorila	98		2
 vijugala	32		2
 vikala	568		3
 viknula	175		3
 vila	6986		2
-vinila	174		2
+vinila	174		3
 vinula	173		3
-viola	237		2
+viola	237		3
 violončela	169		3
-virila	135		2
+virila	135		3
 virnula	10		3
 viršla	84		2
 visila	448		3
 visla			2
-vitala			2
+vitala			3
 vitla	308		2
-vitlala	21		2
+vitlala	21		3
 viđala	374		3
-viđela			2
+viđela			3
 vižla	13		2
 vladala	2449		3
 vlastela	750		2
 vlažila	46		3
 vodila	9758		3
 vojevala	18		3
-vojtila			2
+vojtila			3
 vokala	594		2
 vola	734		2
 volela	10012		3
-volila	63		2
+volila	63		3
 voljela	601		3
 volontirala	129		2
-vorhola			2
+vorhola			3
 vozikala			2
 vozila	66897		3
 vratila	10104		3
@@ -5409,27 +5409,27 @@ vrla	105		2
 vrtela	341		3
 vrzmala	49		3
 vršila	1647		3
-vršljala	10		2
+vršljala	10		3
 vucarala			2
 vukla	672		2
 zabacila	71		2
 zabacivala	14		2
 zabadala	14		3
-zabarikadirala	10		2
+zabarikadirala	10		3
 zabavila	155		4
 zabavljala	518		4
-zabela			2
-zabelela			2
-zabeležila	3749		2
+zabela			3
+zabelela			3
+zabeležila	3749		3
 zabelila			2
-zabezeknula	21		2
-zabiberila			2
-zabijeljela		J	2
+zabezeknula	21		3
+zabiberila			3
+zabijeljela		J	3
 zabila	157		3
-zablesavila			2
+zablesavila			3
 zablistala	278		3
 zablokirala			3
-zabludela	39		2
+zabludela	39		3
 zabola	46		2
 zabolela	203		3
 zaboljela	19		3
@@ -5451,7 +5451,7 @@ zacelila	28		3
 zaceljivala			3
 zacenila			2
 zacopala			2
-zacrnjela			2
+zacrnjela			3
 zacrtala	220		4
 zadala	374		3
 zadavala	131		3
@@ -5459,20 +5459,20 @@ zadavila	41		3
 zadebljala	47		2
 zadela			3
 zadesila	1643		4
-zadevojčila			2
-zadigla	80		2
+zadevojčila			3
+zadigla	80		3
 zadihala	16		2
 zadirkivala	41		3
 zadivila	163		3
 zadobila	1040		2
-zadocnela			2
+zadocnela			3
 zadocnila			2
 zadojila	32		2
 zadovoljavala	231		3
 zadovoljila	970		3
 zadremala	37		3
 zadrhtala	178		2
-zadrigla			2
+zadrigla			3
 zadržala	3174		3
 zadržavala	236		4
 zadubila			3
@@ -5488,7 +5488,7 @@ zaglušivala			2
 zagnjurila	18		2
 zagnojila	10		2
 zagolicala	65		2
-zagorela	44		2
+zagorela	44		3
 zagorčala	35		3
 zagorčavala	17		3
 zagovarala	141		2
@@ -5501,7 +5501,7 @@ zagrejala	152		4
 zagrevala	73		2
 zagrizla	84		3
 zagrlila	418		4
-zagrmela	12		2
+zagrmela	12		3
 zagubila	90		2
 zagušila	17		2
 zahitila			2
@@ -5514,15 +5514,15 @@ zahvaljivala	71		3
 zahvatala	140		4
 zahvatila	1781		4
 zaigrala	551		2
-zaintačila			2
-zainteresovala	609		2
+zaintačila			3
+zainteresovala	609		3
 zaiskala			2
 zaiskrila	24		2
 zajahala	66		4
 zajamčila	10		2
 zajecala	38		2
 zajmila			3
-zakasnela			2
+zakasnela			3
 zakasnila	364		3
 zakazala	852		3
 zakazivala	34		3
@@ -5532,7 +5532,7 @@ zakikotala			2
 zakinula	41		4
 zakivala			2
 zakla			2
-zaklala	44		2
+zaklala	44		3
 zaklanjala	40		4
 zaklela	221		2
 zaklinjala	46		4
@@ -5541,10 +5541,10 @@ zaključavala	44		2
 zaključila	3977		3
 zaklonila	53		3
 zaklopila	26		2
-zakomplikovala	136		2
+zakomplikovala	136		3
 zakopala	84		3
 zakopčala	15		2
-zakoračila	422		2
+zakoračila	422		3
 zakotrljala	41		2
 zakovala	14		2
 zakočila	39		3
@@ -5552,8 +5552,8 @@ zakrilila			2
 zakrivila			2
 zakrkljala			2
 zakrpila	32		2
-zakrvarila			2
-zakrvavila			2
+zakrvarila			3
+zakrvavila			3
 zakrčila			2
 zakrčivala			2
 zakržljala	60		2
@@ -5565,10 +5565,10 @@ zalagala	675		3
 zalajala			2
 zalazila	69		4
 zaledila	108		3
-zalegla	53		2
+zalegla	53		3
 zalepila	181		2
 zalepršala	11		2
-zaletela	59		2
+zaletela	59		3
 zalečila	28		2
 zalila	76		3
 zalivala			2
@@ -5577,7 +5577,7 @@ zaljubljivala	39		3
 zaljuljala	64		2
 zalomila	14		3
 založila	275		3
-zaludela			2
+zaludela			3
 zalupila	97		4
 zalutala	313		2
 zamaglila	40		2
@@ -5598,35 +5598,35 @@ zamirisala	29		2
 zamislila	630		4
 zamišljala	532		3
 zamolila	1885		3
-zamonašila	109		2
+zamonašila	109		3
 zamorila	40		2
 zamotala	16		2
 zamračila	20		2
 zamračivala			2
-zamrla	338		2
+zamrla	338		3
 zamrsila	25		2
-zamrzela			2
+zamrzela			3
 zamrzila			3
 zamrzla			3
 zamrznula	35		4
 zamucala			2
-zamukla	15		2
-zamumla			2
+zamukla	15		3
+zamumla			3
 zamutila	60		3
-zanela	139		2
+zanela	139		3
 zanemarila	205		3
 zanemarivala	60		3
-zanemela	135		2
+zanemela	135		3
 zanimala	698		3
 zanjihala	25		2
 zanosila	54		2
 zanoćila	21		2
-zaobilazila	63		2
-zaobišla	434		2
-zaogrnula	13		2
+zaobilazila	63		3
+zaobišla	434		3
+zaogrnula	13		3
 zaogrtala			2
 zaokružila	311		3
-zaokupila	67		2
+zaokupila	67		3
 zaokupljala	55		2
 zaorala			3
 zaostajala	166		4
@@ -5644,31 +5644,31 @@ zaparala	34		2
 zapazila	320		4
 zapažala	26		3
 zapekla	26		3
-zapela	229		2
+zapela	229		3
 zapenila	11		2
 zapetljala	31		2
 zapevala	245		2
-zapečatila	91		2
+zapečatila	91		3
 zapinjala	19		2
 zapisala	323		3
 zapisivala	107		3
 zapitala	593		3
 zapitkivala	38		2
 zaplakala	382		2
-zaplamtela			2
+zaplamtela			3
 zaplavila			2
 zaplašila	23		4
-zaplela	26		2
+zaplela	26		3
 zaplenila	555		2
 zaplesala	27		2
 zapletala			2
 zaplitala			2
 zaplivala	43		4
 zapljusnula	94		3
-zapodenula	10		2
+zapodenula	10		3
 zapomagala	38		2
 zaposedala	13		2
-zaposela	161		2
+zaposela	161		3
 zaposlila	1284		3
 zapostavila	175		4
 zapovedala			3
@@ -5676,7 +5676,7 @@ zapovedila	21		4
 započela	7422		2
 započinjala	113		2
 zapošljavala	405		3
-zaprepastila	168		2
+zaprepastila	168		3
 zapretila	680		2
 zaprljala	13		3
 zaprosila	29		3
@@ -5686,7 +5686,7 @@ zaputila	187		2
 zapušila	55		4
 zaradila	1511		3
 zaranjala			2
-zarasla	273		2
+zarasla	273		3
 zarastala	18		2
 zaratila	66		4
 zarazila	177		2
@@ -5699,28 +5699,28 @@ zaređala			2
 zaribala	14		2
 zaricala			2
 zaridala			2
-zarila	110		2
+zarila	110		3
 zarivala	12		2
 zarobila	244		2
 zaronila	81		2
 zarudela			3
-zarumenela	19		2
+zarumenela	19		3
 zaručila			2
-zarđala	92		2
+zarđala	92		3
 zasadila	97		3
 zasecala			2
 zasedala	230		2
 zasedavala			2
-zasekla	15		2
-zasela	75		2
+zasekla	15		3
+zasela	75		3
 zasenila	185		4
 zasenjivala			3
 zasijala	282		2
 zasipala	37		2
 zasitila	70		4
-zasjala	67		2
+zasjala	67		3
 zaskočila	36		2
-zaslepela			2
+zaslepela			3
 zaslepila	35		2
 zaslužila	1921		3
 zasluživala	86		3
@@ -5733,23 +5733,23 @@ zaspala	711		3
 zastajala	30		4
 zastajkivala	12		2
 zastala	598		3
-zastarela	1045		2
-zastidela	18		2
+zastarela	1045		3
+zastidela	18		3
 zastidila			2
 zastranila	34		2
 zastrašila	14		4
-zastrepela			2
+zastrepela			3
 zastupala	474		3
 zastupila			3
 zasukala	30		2
 zasula	80		3
 zasuzila			2
-zasvetlela			2
+zasvetlela			3
 zasvirala	45		2
-zasvrbela			2
+zasvrbela			3
 zatajila	142		3
 zataškala	45		4
-zategla			2
+zategla			3
 zatekla	1561		3
 zatezala	40		3
 zatitrala			2
@@ -5758,24 +5758,24 @@ zatočila	10		3
 zatravila			2
 zatražila	3757		3
 zatrebala	65		2
-zatreperila	11		2
+zatreperila	11		3
 zatreskala			2
-zatresla	248		2
-zatrla	27		2
+zatresla	248		3
+zatrla	27		3
 zatrovala	49		3
 zatrpala	141		2
 zatrpavala	11		2
 zatrubila			2
-zatrudnela	346		2
+zatrudnela	346		3
 zatrudnila			2
-zatrudnjela			2
-zatupela			2
+zatrudnjela			3
+zatupela			3
 zaturila	53		2
 zatutnjala			2
 zatvarala	261		3
 zatvorila	1694		3
 zaudarala	29		4
-zaurla	93		2
+zaurla	93		3
 zaurlala	28		2
 zaustavila	2365		4
 zaustavljala	162		4
@@ -5793,9 +5793,9 @@ zaveslala			2
 zavetovala	39		2
 zavezala	41		3
 zaveštala	76		2
-zavidela			2
+zavidela			3
 zavijala	46		3
-zavijorila	47		2
+zavijorila	47		3
 zavikala			2
 zavila	98		3
 zavirila	75		3
@@ -5810,14 +5810,14 @@ zavodila	57		3
 zavolela	705		3
 zavoljela	39		3
 zavredela	34		3
-zavrijedila		J	2
+zavrijedila		J	3
 zavrištala	41		2
 zavrnula	60		3
-zavrtela	96		2
+zavrtela	96		3
 završavala	593		4
 završila	15166		3
 zavukla	172		2
-zazelenila			2
+zazelenila			3
 zazirala	49		2
 zazorila			2
 zazujala			2
@@ -5825,7 +5825,7 @@ zazvonila	55		2
 zazvučala	46		2
 zaćorila			2
 zaćutala	98		3
-začala			2
+začala			3
 začarala	39		3
 začela	236		2
 začepila	20		2
@@ -5833,21 +5833,21 @@ začinila	82		3
 začudila	240		4
 začula	347		3
 začuđivala			3
-zašila	12		2
+zašila	12		3
 zašiljila			3
 zašla	189		2
 zaštitila	1412		3
 zašuštala			2
 zažalila	90		3
-zažegla			2
+zažegla			3
 zaželela	72		3
 zaželjela			3
-zaživela	812		2
+zaživela	812		3
 zažmurila	49		2
-zažutela			2
-zbacila	143		2
+zažutela			3
+zbacila	143		3
 zbila	187		2
-zbirala			2
+zbirala			3
 zbivala	34		3
 zbližavala	14		3
 zbližila	135		3
@@ -5855,42 +5855,42 @@ zborila	17		3
 zbrinjavala	29		3
 zbrinula	91		3
 zbrisala	135		3
-zbrkala			2
+zbrkala			3
 zbunila	401		3
 zbunjivala	80		3
 zdela	79		2
-zdipila			2
+zdipila			3
 zdjela		J	2
 zdola			2
-zdravila			2
-zdrobila	10		2
+zdravila			3
+zdrobila	10		3
 združila	18		3
 združivala			3
 zebla			2
 zelenila	3154		3
 zevnula	12		3
-zezala	93		2
+zezala	93		3
 zeznula	137		3
 zgadila	70		3
 zgasnula	13		3
-zgazila	99		2
-zgnječila	19		2
+zgazila	99		3
+zgnječila	19		3
 zgomilala			2
 zgrabila	251		3
 zgranula	44		3
-zgrešila	71		2
+zgrešila	71		3
 zgromila			3
 zgrozila	91		3
 zgrtala			3
 zgrudvala			3
 zgrušala			3
-zgrčila	34		2
+zgrčila	34		3
 zgurila			3
 zgusnula	30		3
 zgušnjavala			3
 zidala	79		3
-zijala			2
-zimela			2
+zijala			3
+zimela			3
 zinula	97		3
 zjala			2
 zjapila	41		3
@@ -5904,20 +5904,20 @@ znala	13521		2
 značila	2321		3
 znojila	42		3
 zola			2
-zorila			2
+zorila			3
 zračila	171		3
 zrela	1258		2
 zubala	35		3
 zucnula			3
-zujala	24		2
+zujala	24		3
 zumbula	64		3
 zurila	138		3
 zurla		M	2
 zvala	4371		2
-zveckala	17		2
+zveckala	17		3
 zveknula	43		3
-zverala			2
-zvečala			2
+zverala			3
+zvečala			3
 zviznula	26		3
 zviždala	66		3
 zvocala	23		3
@@ -5926,7 +5926,7 @@ zvučala	427		3
 ćamila			3
 ćaskala	42		3
 ćela	76		2
-ćirila			2
+ćirila			3
 ćutala	792		3
 ćušnula			3
 čala			2
@@ -5939,36 +5939,36 @@ zvučala	427		3
 čela	1661		2
 čeprkala	19		2
 černobila			2
-čerčila			2
+čerčila			3
 čestitala	619		3
-četvorougla			2
+četvorougla			3
 čeznula	102		3
 češala	13		3
-češkala	21		2
+češkala	21		3
 češljala	54		3
 čila	89		2
-čilila			2
+čilila			3
 činila	3313		3
-činčila	151		2
-čistila	295		2
-čitala	3038		2
-čkiljila			2
+činčila	151		3
+čistila	295		3
+čitala	3038		3
+čkiljila			3
 čola			2
 čudila	206		3
 čula	13281		2
 čupala	79		3
-čupkala	12		2
+čupkala	12		3
 čuvala	1324		3
 čučala	67		3
 čučnula	60		3
 čvrknula			3
 đamila			3
 đavla	20		2
-đavola	3365		2
+đavola	3365		3
 đemila			3
 đenerala	397		2
-đipila			2
-đubrila			2
+đipila			3
+đubrila			3
 đula			2
 šakala	132		3
 šala	3352		2
@@ -5984,18 +5984,18 @@ zvučala	427		3
 šarmirala	21		3
 šatla	592		2
 šejla			2
-šekela	31		2
+šekela	31		3
 šenula			3
 šepurila	48		2
 šetala	649		3
 šibala	33		3
-šikljala	33		2
+šikljala	33		3
 šiknula	34		3
-šiktala			2
+šiktala			3
 šila	246		2
-šinjela			2
+šinjela			3
 širila	1251		3
-šizila			2
+šizila			3
 šiznula			3
 šišala	167		3
 šištala	10		3
@@ -6004,18 +6004,18 @@ zvučala	427		3
 školovala	512		4
 škrabala	14		3
 škrgutala			4
-škripala	40		2
+škripala	40		3
 škripnula			3
 škrofula			3
-škropila			2
-škrpjela			2
-šljapkala			2
+škropila			3
+škrpjela			3
+šljapkala			3
 šljapnula			3
 šlogirala			2
-šminkala	55		2
+šminkala	55		3
 šmirgla		M	2
 šmizla		M	2
-šmrcala			2
+šmrcala			3
 šmrkala			3
 šmrknula			3
 šmugnula	20		3
@@ -6024,7 +6024,7 @@ zvučala	427		3
 šokirala	608		3
 španijela	48		4
 špargla			2
-špartala	11		2
+špartala	11		3
 špigla			2
 špijunirala	63		3
 špila	83		2
@@ -6039,13 +6039,13 @@ zvučala	427		3
 štitila	613		3
 štrcnula			3
 štrudla	137		2
-štrčala	54		2
+štrčala	54		3
 štula		M	2
-šumela	19		2
+šumela	19		3
 šumila			3
-šunjala	18		2
+šunjala	18		3
 šutirala	118		2
-šutjela	24	J	2
+šutjela	24	J	3
 šutnula	97		3
 šuškala	12		3
 šuštala	16		3
@@ -6056,10 +6056,10 @@ zvučala	427		3
 žala	110		2
 žalila	1017		3
 žalostila			3
-žarila	75		2
+žarila	75		3
 ždrala	55		2
 ždrela	542		2
-žednela			2
+žednela			3
 želela	11114		3
 željela	645		3
 žezla	38		2
@@ -6069,18 +6069,18 @@ zvučala	427		3
 žila	1220		2
 živahnula			3
 živela	6921		3
-živila			2
+živila			3
 živnula	86		3
-životarila	13		2
-žmirila			2
-žmurila	29		2
+životarila	13		3
+žmirila			3
+žmurila	29		3
 žnjela	14		2
 žrtvovala	231		4
 žudela	90		3
-žudila			2
+žudila			3
 žurila	210		3
-žurnala	489		2
-žutela			2
+žurnala	489		3
+žutela			3
 žvakala	45		3
 žvala	39		2
 antitijela	28		5
@@ -6088,7 +6088,7 @@ besjedila			4
 bijela			2
 bjesnila			3
 bježala			3
-cijela	1295		2
+cijela	1295		3
 cijenila	30		4
 cijepala			4
 cjela			2
@@ -6097,73 +6097,73 @@ dijelila	88		4
 djela	1312		2
 djelovala			4
 dodijelila	72		4
-dodjela			2
-doletjela	22		2
+dodjela			3
+doletjela	22		3
 donijela	1037		3
 dosjetila			2
-dospjela	111		2
+dospjela	111		3
 dotjerala			2
 doživjela	398		3
 gorjela	76		3
 griješila			4
-htijela			2
+htijela			3
 htjela	1134		2
 iscijelila			4
 isjekla			3
-ispovjedila			2
+ispovjedila			3
 istjerala			4
 izbjegavala			3
-izbjegla			2
-izgorjela	80		2
-izletjela	14		2
+izbjegla			3
+izgorjela	80		3
+izletjela	14		3
 izliječila	12		4
-izludjela			2
-izmijenila			2
-iznevjerila			2
+izludjela			3
+izmijenila			3
+iznevjerila			3
 iznijela	147		3
 izvijestila			4
-letjela			2
+letjela			3
 liječila	19		4
 mijenjala	164		4
 miješala	43		4
 mjerila			3
-naletjela	15		2
+naletjela	15		3
 namijenila	14		4
 namjenila			2
 namjeravala			3
 namjerila			2
 namjestila			4
-nanijela	122		2
-nasjela			2
+nanijela	122		3
+nasjela			3
 naslijedila	60		4
 nasmiješila	39		4
 natjerala			4
-nedjela			2
+nedjela			3
 neuspjela	14		4
 obavijestila	118		4
 objesila			4
 ocijenila			4
-odbjegla			2
-odcijepila			2
+odbjegla			3
+odcijepila			3
 odijela	184		3
 odjela			3
 odletjela	18		3
-odlijepila			2
+odlijepila			3
 odnijela	161		3
 odsjekla			3
-odsjela			2
+odsjela			3
 oklijevala	11		4
-onesvijestila			2
-onesvjestila			2
+onesvijestila			3
+onesvjestila			3
 opsjela			3
 osjecala			2
 osjetila			2
 osjećala			4
 oslabjela			4
 osmjehnula			3
-ostarjela	11		2
-osvijestila			2
-otcijepila			2
+ostarjela	11		3
+osvijestila			3
+otcijepila			3
 otjerala			4
 otpijevala			2
 otpjevala			2
@@ -6173,7 +6173,7 @@ pjevala			3
 pobijedila	227		4
 pobjedila			2
 pobjegla			3
-podcijenila			2
+podcijenila			3
 podijelila	87		4
 podjela			3
 podnijela	288		3
@@ -6181,12 +6181,12 @@ podsjetila			4
 podsjećala			4
 pogriješila	50		4
 poletjela	30		3
-poludjela			2
+poludjela			3
 pomiješala			4
 pomjerila	27		2
-ponijela	91		2
+ponijela	91		3
 porijekla	1151		3
-posijela			2
+posijela			3
 posjedovala			5
 posjekla			3
 posjetila			4
@@ -6196,35 +6196,35 @@ povjerovala			5
 povrijedila	33		4
 poštedjela			3
 predvidjela	38		4
-pregorjela			2
+pregorjela			3
 preletjela	11		3
 premjestila			2
 prenijela	279		3
 presjekla			3
 pretjerala			4
 pretrpjela	105		3
-preživjela	174		2
-prijestola	58		2
+preživjela	174		3
+prijestola	58		3
 prijetila	89		4
 primijetila	132		4
 primjetila			2
-prinijela	21		2
+prinijela	21		3
 prisjetila			4
 procijenila			4
 procvjetala			2
-proletjela	12		2
+proletjela	12		3
 promijenila	320		4
 promjenila			2
-pronijela	11		2
-proslijedila	29		2
+pronijela	11		3
+proslijedila	29		3
 protjerala			4
 provjeravala			3
 provjerila			4
-proživjela	34		2
+proživjela	34		3
 raspodjela			4
-razgorjela			2
+razgorjela			3
 raznijela	20		3
-razumijela			2
+razumijela			3
 razumjela	112		3
 riješila	197		4
 rješavala			4
@@ -6233,7 +6233,7 @@ sijela	61		2
 sjela			2
 sjetila			3
 sjećala			3
-sletjela	36		2
+sletjela	36		3
 slijedila	88		4
 smijenila	15		4
 smiješila	12		4
@@ -6252,52 +6252,52 @@ tjela			2
 tjerala			3
 tješila			3
 trpjela	28		3
-ubijedila			2
+ubijedila			3
 ucjenjivala			3
-udjela			2
-uletjela	14		2
+udjela			3
+uletjela	14		3
 ulijevala			2
 umiješala	27		2
 umjela	21		3
 unijela	63		3
-uslijedila	352		2
+uslijedila	352		3
 usmjerila			4
-uspijela			2
+uspijela			3
 uspijevala	30		4
-uspjela	1042		2
-ustrijelila			2
+uspjela	1042		3
+ustrijelila			3
 uvidjela	26		4
 uvjerila			4
 uvrijedila	24		4
 uštedjela	19		3
-vidjela	1222		2
+vidjela	1222		3
 vjenčala			3
 vjerovala			4
 vješala	67		3
 vježbala			3
 vrijeđala	28		4
 vrtjela	14		3
-zabijelila			2
+zabijelila			3
 zacijelila			4
 zadrijemala			4
 zahtijevala	83		4
-zakašnjela	12		2
-zaletjela			2
-zalijepila	13		2
+zakašnjela	12		3
+zaletjela			3
+zalijepila	13		3
 zamijenila	89		4
 zamjenila			2
 zamjerila			4
-zanijela	17		2
-zaplijenila			2
-zaposjela	15		2
-zaprijetila	56		2
+zanijela	17		3
+zaplijenila			3
+zaposjela	15		3
+zaprijetila	56		3
 zasjenila			4
-zaslijepila			2
-zastarjela	49		2
+zaslijepila			3
+zastarjela	49		3
 zavjetovala			2
 zgriješila	10		2
 zijevnula			4
-zivjela			2
+zivjela			3
 zlodjela			3
 štedjela			3
 ždrijela	19		3

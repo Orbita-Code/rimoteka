@@ -11,12 +11,12 @@ obnoć			2
 odmoć		M	2
 pomoć	131952		2
 ponoć	2958		2
-prekonoć		M	2
+prekonoć		M	3
 preksinoć	1215		3
 premoć	239		2
 pripomoć	103		3
 punomoć	245		3
-samopomoć	232		2
+samopomoć	232		3
 sinoć	16288		2
 supermoć	13		3
 svemoć	197		2

@@ -10,10 +10,10 @@ katapult	64		2
 kilt	24		1
 kobalt	135		2
 kolt			1
-komonvelt			2
-kontraalt			2
+komonvelt			3
+kontraalt			3
 kult	2971		1
-megavolt			2
+megavolt			3
 pult	533		1
 revolt	988		2
 ruzvelt			2

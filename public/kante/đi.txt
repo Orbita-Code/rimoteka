@@ -8,16 +8,16 @@ goveđi	142		3
 građi	980		2
 grđi	31		2
 gđi	101		1
-horovođi			2
+horovođi			3
 izađi	648		2
 iziđi	104		2
 knjigovođi	33		4
 krađi	1373		2
 labuđi			3
 lađi	380		2
-luiđi			2
+luiđi			3
 luđi	210		2
-mašinovođi	15		2
+mašinovođi	15		3
 medveđi	267		3
 međi	272		2
 mlađi	10362		2
@@ -35,7 +35,7 @@ otuđi	257		2
 peđi			2
 poslovođi	23		4
 pođi	356		2
-prevaziđi	21		2
+prevaziđi	21		3
 pređi	336		2
 priđi	192		2
 pronađi	462		2
@@ -46,7 +46,7 @@ računovođi	18		3
 ređi	715		2
 riđi	65		2
 rđi	26		2
-silađi			2
+silađi			3
 siđi	163		2
 slađi	258		2
 smeđi	381		2
@@ -60,11 +60,11 @@ uziđi	10		2
 uđi	514		2
 vojskovođi	120		4
 vođi	813		2
-zaobiđi	148		2
+zaobiđi	148		3
 zađi			2
 čađi	543		2
 žeđi	643		2
-žitorađi			2
+žitorađi			3
 medvjeđi			3
 prijeđi			3
 rjeđi	27		3

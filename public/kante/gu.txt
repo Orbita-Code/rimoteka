@@ -1,5 +1,5 @@
 268
-Hamburgu			2
+Hamburgu			3
 Pekingu			3
 Pragu	3464		2
 agu	27		2
@@ -10,8 +10,8 @@ babarogu	29		2
 balegu	72		3
 begu	362		2
 belegu	47		3
-beznogu			2
-bezrogu			2
+beznogu			3
+bezrogu			3
 bijegu	94	J	3
 bingu	32		2
 biologu	26		3
@@ -21,53 +21,53 @@ bljuzgu			2
 blogu	7868		2
 bogu	5633		2
 bregu	705		2
-brifingu	212		2
+brifingu	212		3
 brigu	10826		2
 brlogu	88		3
 bubregu	502		3
-bundestagu			2
-cajtungu	46		2
+bundestagu			3
+cajtungu	46		3
 centrifugu	54		2
-chicagu			2
-crnobogu			2
+chicagu			3
+crnobogu			3
 cugu			2
 delokrugu	408		4
-demijurgu			2
+demijurgu			3
 dijalogu	4664		3
 dogu	33		2
 dosegu	18		3
 dragu	904		2
-dramaturgu	30		2
+dramaturgu	30		3
 drogu	2649		2
 drugu	51500		2
 dugu	7047		2
-edinburgu			2
-eklogu			2
-embargu	83		2
+edinburgu			3
+eklogu			3
+embargu	83		3
 epilogu	140		3
-etnologu	14		2
-evroligu			2
-flamingu			2
+etnologu	14		3
+evroligu			3
+flamingu			3
 flegu			2
-frajburgu			2
-futogu			2
-geteborgu			2
+frajburgu			3
+futogu			3
+geteborgu			3
 ginekologu	349		3
 gu		M	1
-gulagu	43		2
+gulagu	43		3
 hagu			2
 haringu	41		2
-hepeningu			2
-hercegu			2
-hirurgu	247		2
-holdingu	234		2
-hongkongu			2
+hepeningu			3
+hercegu			3
+hirurgu	247		3
+holdingu	234		3
+hongkongu			3
 ideologu	20		3
 intrigu	61		2
-inženjeringu			2
-irigu			2
+inženjeringu			3
+irigu			3
 istragu	6669		3
-izlegu	201		2
+izlegu	201		3
 izlogu	705		3
 jarugu	109		3
 jastogu			3
@@ -77,12 +77,12 @@ jugu	12375		2
 jungu			2
 kacigu	522		3
 kaljugu	146		3
-kastingu	115		2
+kastingu	115		3
 katalogu	1481		3
 kavgu	199		2
-keteringu	45		2
+keteringu	45		3
 kečigu	10		3
-kliringu	46		2
+kliringu	46		3
 knjigu	33910		2
 kolegu	1923		2
 kongu			2
@@ -90,115 +90,115 @@ kovčegu	395		3
 krgu			2
 krivonogu			3
 krugu	14092		2
-krčagu			2
+krčagu			3
 kugu	374		2
 kvragu	15		2
 kvrgu	33		2
-lajpcigu			2
+lajpcigu			3
 legu			2
 ligu	12083		2
-lizingu	674		2
+lizingu	674		3
 ljagu	447		2
 ljigu	356		2
-ljubodragu			2
+ljubodragu			3
 lugu	205		2
 magu	50		2
-malagu			2
+malagu			3
 marketingu	2150		4
 mazgu	65		2
-mesingu			2
+mesingu			3
 migu	48		2
-miodragu			2
+miodragu			3
 mitingu	2196		3
 mnogu	427		2
 mogu	507544		2
 monologu	120		3
 mozgu		M	2
-močugu			2
-mustangu	13		2
-mutljagu	32		2
+močugu			3
+mustangu	13		3
+mutljagu	32		3
 nagu	103		2
-nalegu			2
+nalegu			3
 nalogu	8213		3
 naslagu	17		3
-neagu			2
+neagu			3
 nebrigu	203		3
 negu	6652		2
 nekrologu	37		3
-nemogu			2
+nemogu			3
 neslogu	166		3
 neurologu	62		3
-nirnbergu			2
+nirnbergu			3
 njegu			2
 nogu	9364		2
 nosorogu	13		4
-oblogu	313		2
+oblogu	313		3
 okrugu	5500		3
-olegu			2
+olegu			3
 olgu			2
-omegu	70		2
+omegu	70		3
 oprugu	111		3
 opsegu	2086		3
-ostrigu			2
-ostrogu			2
+ostrigu			3
+ostrogu			3
 ostrugu			3
 otorinolaringologu	14		3
 pagu			2
 papigu	17		3
-parkingu			2
-parlogu	79		2
+parkingu			3
+parlogu	79		3
 patologu	16		3
 pedagogu	140		3
 pegu	55		2
 pepeljugu	106		3
-peterburgu			2
-petersburgu			2
+peterburgu			3
+petersburgu			3
 pirogu			3
-pitsburgu			2
-pjongjangu			2
+pitsburgu			3
+pjongjangu			3
 pljugu			2
 plugu	20		2
-pobogu	1412		2
-podlogu	4011		2
+pobogu	1412		3
+podlogu	4011		3
 podvigu	651		3
 pologu	18		3
 polugu	382		3
 polukrugu	74		4
 porugu	100		3
 poslugu	309		3
-postrigu			2
+postrigu			3
 potragu	3165		3
-požegu			2
+požegu			3
 pragu	3464		2
-preblagu			2
+preblagu			3
 predlogu	10240		3
 predragu	25		3
-premnogu	11		2
+premnogu	11		3
 pretragu	2678		3
 prevagu	997		3
-prečagu	24		2
-pribogu			2
+prečagu	24		3
+pribogu			3
 prilogu	3418		3
 prisegu	30		3
 prologu	114		3
-protivuslugu	128		2
+protivuslugu	128		3
 prtljagu	272		2
 prugu	1478		2
 psihologu	368		3
 pudingu	41		3
 ragu	89		2
 rangu	4276		2
-ranilugu			2
+ranilugu			3
 razbibrigu	113		4
 razlogu	307		3
-rejtingu	669		2
+rejtingu	669		3
 ringu	564		2
 rogu	229		2
 rupčagu	30		3
 sagu	244		2
-salcburgu			2
+salcburgu			3
 samoposlugu	114		3
-santjagu			2
+santjagu			3
 sarkofagu	61		2
 sfingu	34		2
 sinagogu	248		2
@@ -213,37 +213,37 @@ spregu	409		2
 stegu	94		2
 stogu	14		2
 stonogu	15		3
-strategu	86		2
+strategu	86		3
 strogu	728		2
 strugu	63		2
-superligu	655		2
-suproligu			2
+superligu	655		3
+suproligu			3
 suprugu	4102		3
-svrljigu			2
+svrljigu			3
 tajgu	16		2
-tajmingu	108		2
+tajmingu	108		3
 talogu	109		3
 tangu	103		2
 tegu	11		2
-teljigu			2
+teljigu			3
 teologu	35		3
 tezgu	470		2
 togu	60		2
-tojagu			2
+tojagu			3
 toljagu	63		3
 tragu	1830		2
 treningu	4537		3
 trgu	13408		2
 tugu	2808		2
 ubogu	73		3
-udlagu	14		2
+udlagu	14		3
 ulogu	54701		3
 uslugu	12679		3
 vagu	661		2
-vajomingu			2
-vidokrugu	222		2
+vajomingu			3
+vidokrugu	222		3
 vijugu	19		3
-vinjagu			2
+vinjagu			3
 vlagu	1590		2
 vragu	138		2
 vrtlogu	525		3
@@ -254,11 +254,11 @@ zapregu	109		3
 zaslugu	585		3
 zbegu	79		2
 čergu	34		2
-čikagu			2
+čikagu			3
 čvorugu	40		3
 čvrgu	32		2
 đogu	17		2
-šipragu			2
+šipragu			3
 šlagu	43		2
 šljagu			2
 šopingu	232		3

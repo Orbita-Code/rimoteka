@@ -1,13 +1,13 @@
 52
 almanahe	22		3
 auspuhe	51		4
-aždahe			2
+aždahe			3
 brahe			2
 buhe	81		2
-diptihe	40		2
+diptihe	40		3
 ehe			2
 epohe	3226		2
-evnuhe	14		2
+evnuhe	14		3
 gluhe	26		2
 grehe	2092		2
 he		M	1
@@ -17,7 +17,7 @@ juhe	25		2
 kožuhe	13		3
 mahe	25		2
 maćehe	156		3
-metohe	28		2
+metohe	28		3
 monahe	799		3
 monarhe	17		3
 muhe	254		2
@@ -31,7 +31,7 @@ pazuhe	53		3
 plahe	28		2
 plohe	44		2
 podsmehe	48		3
-posluhe			2
+posluhe			3
 predahe	18		3
 psihe	779		2
 siromahe	183		2
@@ -43,16 +43,16 @@ tepihe	394		3
 tihe	836		2
 trbuhe	27		3
 uspehe	5146		3
-utehe	954		2
+utehe	954		3
 uzdahe	593		3
 vlahe			2
 zalihe	4709		3
-zamahe	37		2
-zapahe			2
+zamahe	37		3
+zapahe			3
 čehe	123		2
 čohe		M	2
 grijehe	389		3
 neuspjehe			4
 osmijehe	12		4
 uspjehe			3
-utjehe			2
+utjehe			3

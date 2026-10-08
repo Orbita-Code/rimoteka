@@ -1,34 +1,34 @@
 383
 Boston			2
 Lion		M	2
-Lisabon			2
+Lisabon			3
 London			2
 Pluton			2
-Solomon			2
-Vavilon			2
-Vašington			2
+Solomon			3
+Vavilon			3
+Vašington			3
 aceton	138		2
-agamemnon			2
-amazon			2
-amiodaron			2
+agamemnon			3
+amazon			3
+amiodaron			3
 anahron	97		2
-analogon			2
+analogon			3
 anason			2
 anjon			2
-anticiklon			2
+anticiklon			3
 antifon			3
 antimon	56		3
-antiproton	17		2
+antiproton	17		3
 apolon			2
 argon		M	2
 arhiđakon	176		4
-arlington			2
-armagedon			2
+arlington			3
+armagedon			3
 autohton	102		2
 avinjon			2
 avion	10468		2
 babilon			3
-badminton	625		2
+badminton	625		3
 bajron			2
 balkon	1608		2
 balon	2335		2
@@ -36,12 +36,12 @@ bariton	204		3
 baron	715		2
 bastion	473		2
 bataljon	997		2
-bekgemon			2
+bekgemon			3
 bekon			2
-beneton			2
+beneton			3
 benton			2
 beton	2840		2
-bezakon			2
+bezakon			3
 bilion	354		2
 bizon	88		2
 blagonaklon	251		2
@@ -50,7 +50,7 @@ bombon	35		2
 bon	487		1
 bonbon	16		2
 bonton	311		2
-bourbon			2
+bourbon			3
 bozon	357		2
 braon			2
 breton			2
@@ -71,34 +71,34 @@ demon	845		2
 digitron	269		3
 dijapazon	986		2
 diktafon	168		3
-divizion			2
+divizion			3
 dogon			2
 dokon	219		2
 dragon	422		2
 dron			1
 džekson			2
-edmonton			2
+edmonton			3
 egon			2
 elektron	558		2
-elington			2
+elington			3
 elton			2
 embrion	519		3
-emotikon			2
+emotikon			3
 enron			2
 eon			2
 epigon	31		2
 epsilon	70		3
 eskadron	82		2
 estragon		M	2
-etalon		M	2
-ešalon	149		2
-ešelon		M	2
+etalon		M	3
+ešalon	149		3
+ešelon		M	3
 faraon	294		2
 fazon	1574		2
 feferon	11		2
 feljton	339		2
-feromon	39		2
-fitoplankton	23		2
+feromon	39		3
+fitoplankton	23		3
 fon	3240		1
 foton	226		2
 framason			2
@@ -107,67 +107,67 @@ furgon	67		2
 futon			2
 gabon			2
 galon	109		2
-garnizon	256		2
+garnizon	256		3
 gekon			2
 gibon			2
 gledston			2
 gon		M	1
 gordon			2
 gospon	478		2
-grafikon	1222		2
+grafikon	1222		3
 gramofon	343		2
-graviton			2
+graviton			3
 grifon	86		2
 hadron	10		2
-hameleon			2
-hamilton			2
-hantington			2
-hariton			2
-hegemon		M	2
-helikon	14		2
-hidroavion	23		2
-hidrokodon			2
+hameleon			3
+hamilton			3
+hantington			3
+hariton			3
+hegemon		M	3
+helikon	14		3
+hidroavion	23		3
+hidrokodon			3
 hilton			2
 hjuston			2
 hormon	1903		2
-houston			2
-ilarion			2
-interferon	118		2
+houston			3
+ilarion			3
+interferon	118		3
 interfon	306		3
-ipsilon	243		2
+ipsilon	243		3
 iskon	194		2
 izgon	155		2
 jeon			2
-jerihon			2
-jerođakon			2
+jerihon			3
+jerođakon			3
 jon	287		1
 kameleon	188		2
 kameron			2
 kamion	3386		2
 kanjon	1218		2
 kanon	690		2
-kantarion	297		2
+kantarion	297		3
 kanton	208		2
 kapon			2
 karbon	434		2
-karington			2
+karington			3
 karton	4630		2
-kasetofon	259		2
+kasetofon	259		3
 katjon			2
-kazetofon			2
+kazetofon			3
 keson			2
 kinston			2
 klejton			2
 klinton			2
 klon	405		1
 kolon	93		2
-kombinezon	240		2
-komision			2
+kombinezon	240		3
+komision			3
 kompanjon	86		2
 kompton			2
 kon		M	1
 kordon	507		2
-kortizon	33		2
+kortizon	33		3
 kotiljon			2
 koton			2
 krampon			2
@@ -178,16 +178,16 @@ kron			1
 ksenon			2
 ksilofon	15		3
 kulon		M	2
-kupidon			2
+kupidon			3
 kupon	1226		2
-kvadrilion			2
+kvadrilion			3
 lampion	28		2
 legion			2
 lejton			2
 leksikon	501		3
 lenon			2
 leon			2
-leprikon			2
+leprikon			3
 lisbon			2
 lon		M	1
 lornjon			2
@@ -198,13 +198,13 @@ maraton	5083		3
 maron			2
 marton			2
 mason			2
-mastodon			2
+mastodon			3
 mađaron	12		2
 medaljon	173		2
 megafon	148		3
-megalodon			2
+megalodon			3
 melon			2
-metadon	247		2
+metadon	247		3
 mezon			2
 mikrofon	2421		3
 mikron	68		2
@@ -223,9 +223,9 @@ nagon	1775		2
 najlon	950		2
 naklon	365		2
 nakon	320060		2
-nandrolon			2
+nandrolon			3
 napokon	8373		3
-napoleon			2
+napoleon			3
 napon	3852		2
 naslon	745		2
 natron	73		2
@@ -237,15 +237,15 @@ neutron	97		2
 nikon			2
 njuton			2
 oberon			2
-odeon			2
+odeon			3
 odron	125		2
-oksikodon			2
-oksimoron	174		2
+oksikodon			3
+oksimoron	174		3
 omikron	12		2
 on	584324		1
-onomastikon		M	2
+onomastikon		M	3
 oregon			2
-organon			2
+organon			3
 orion			2
 orlon			2
 osion	72		2
@@ -254,11 +254,11 @@ otklon	761		2
 oton			2
 ozon	467		2
 pansion	782		2
-pantalon			2
-pantelejmon			2
+pantalon			3
+pantelejmon			3
 panteon	188		3
 pardon	1834		2
-partenon			2
+partenon			3
 patron	148		2
 paviljon	988		2
 pejton			2
@@ -273,50 +273,50 @@ plafon		M	2
 plankton	47		2
 platon			2
 pogon	9917		2
-pokemon	20		2
+pokemon	20		3
 poklon	16478		2
 polifon			3
 poligon	1680		2
 poltron	160		2
-poludemon			2
-poluton			2
+poludemon			3
+poluton			3
 ponton	75		2
-posejdon			2
-prednizon			2
+posejdon			3
+prednizon			3
 preston			2
 pretklon	10		2
-princeton			2
+princeton			3
 prinston			2
 prion			2
-progesteron	306		2
+progesteron	306		3
 progon	1975		2
 proton	232		2
-protođakon	229		2
-prvođakon			2
+protođakon	229		3
+prvođakon			3
 radon		M	2
 ralston			2
 ramon			2
 raspon	2898		2
-rašomon			2
+rašomon			3
 region	16670		2
 rejon	351		2
-remington			2
+remington			3
 remon			2
 rezon	507		2
-robinzon			2
+robinzon			3
 ron			1
 rubikon			3
 sajgon			2
 sajmon			2
 saksofon	370		3
-salomon			2
+salomon			3
 salon	5478		2
 sifon	107		2
-silikon	391		2
-simeon			2
-simposion			2
+silikon	391		3
+simeon			3
+simposion			3
 sinhron		M	2
-sintelon			2
+sintelon			3
 sion			2
 sklon	3067		1
 skorpion	21		2
@@ -324,9 +324,9 @@ slon	731		1
 smartfon	700		2
 smeon		M	2
 smion	20		2
-smisaon			2
+smisaon			3
 solon			2
-spiridon			2
+spiridon			3
 stadion	6976		3
 ston			1
 suton	432		2
@@ -335,15 +335,15 @@ tampon	564		2
 teatron			2
 teflon	92		2
 telefon	30178		2
-teleton			2
+teleton			3
 testosteron	503		2
 tifon			2
 ton	5316		1
-triatlon	681		2
+triatlon	681		3
 trigon	67		2
-trijatlon			2
+trijatlon			3
 trilion	154		2
-triptihon			2
+triptihon			3
 triton		M	2
 tromblon			2
 trombon	102		2
@@ -353,7 +353,7 @@ union	159		2
 uspon	4102		2
 uzgon	42		2
 vagon	800		2
-velington			2
+velington			3
 vernon			2
 veron			2
 vibrafon	22		3
@@ -373,7 +373,7 @@ zvon	76		1
 šampinjon	17		2
 šampion	8825		2
 šampon	1130		2
-šeraton			2
+šeraton			3
 šezlon			2
 šifon	12		2
 šimon			2

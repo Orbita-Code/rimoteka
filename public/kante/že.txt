@@ -6,8 +6,8 @@ apanaže	118		2
 arbitraže	602		2
 arheolože			3
 badže			2
-bakandže			2
-bandaže	49		2
+bakandže			3
+bandaže	49		3
 barže	219		2
 beleže	3249		3
 beže	3479		2
@@ -19,62 +19,62 @@ bodeže	23		3
 bože	5419		2
 brže	27844		2
 crteže	1427		3
-demontaže	281		2
+demontaže	281		3
 diže	5452		2
 dokaže	6582		2
 doseže	934		3
 dostiže	4153		3
 draže	1503		2
-drenaže	221		2
+drenaže	221		3
 druže	5494		2
 drže	17269		2
 duže	37058		2
 džidže			2
-ekipaže			2
-etaže	539		2
-feredže	69		2
-gamiže			2
+ekipaže			3
+etaže	539		3
+feredže	69		3
+gamiže			3
 gandže			2
 garaže	2163		2
 gaže	13		2
 glože	93		2
 gmiže	69		2
-gnjavaže	50		2
+gnjavaže	50		3
 griže	669		2
 gruže			2
 gulikože			4
-hatidže			2
-herceže			2
+hatidže			3
+herceže			3
 hodže	169		2
-ilidže			2
+ilidže			3
 iskaže	1758		2
-ispreže			2
-ispruže	48		2
-isprže	33		2
-isteže	196		2
+ispreže			3
+ispruže	48		3
+isprže	33		3
+isteže	196		3
 istraže	1233		2
-istrže	22		2
+istrže	22		3
 izbeže	19		3
 izbliže		M	3
-izdiže	513		2
+izdiže	513		3
 izdrže	1828		2
 izlaže	2865		2
-izleže	107		2
+izleže	107		3
 izliže	44		2
 izlože	713		3
-iznemože			2
+iznemože			3
 izreže	48		3
-izvrže			2
+izvrže			3
 jaže			2
 ježe	62		2
 jože			2
-kambodže			2
+kambodže			3
 kamuflaže	94		2
 kandže	661		2
-kanjiže			2
+kanjiže			3
 kaže	337816		2
-kilaže	291		2
-kilometraže	495		2
+kilaže	291		3
+kilometraže	495		3
 kliže	42		2
 kneže	141		2
 knjaže			2
@@ -83,33 +83,33 @@ kolaže	137		2
 koledže	80		3
 kovrdže	312		3
 kože	25963		2
-krleže			2
+krleže			3
 kruže	1735		2
-kubikaže	167		2
-kuraže			2
+kubikaže	167		3
+kuraže			3
 kuže	27		2
 laže	4733		2
 leže	4472		2
 liže	584		2
-ljubodraže			2
+ljubodraže			3
 lopuže	211		3
 lože	1844		2
 lupeže			3
 maharadže	28		4
-markiže			2
+markiže			3
 marže	2174		2
 masaže	2059		2
 maže	560		2
 meteže	12		3
-miodraže			2
+miodraže			3
 mladeže	153		3
 množe	519		2
-montaže	2254		2
+montaže	2254		3
 može	794036		2
 mreže	44863		2
-muljaže	14		2
+muljaže	14		3
 muže	199		2
-nadlaže			2
+nadlaže			3
 nadoveže	143		2
 najblaže	1304		3
 najbliže	3236		3
@@ -120,186 +120,186 @@ naježe	40		2
 najniže	2113		3
 najstrože	733		3
 najteže	7637		3
-najuže	364		2
+najuže	364		3
 nalaže	4557		2
-naleže	280		2
+naleže	280		3
 nalože	201		3
 namaže	195		3
 namnože	59		2
-naniže	1173		2
-napreže	168		2
-narandže			2
-nareže	83		2
-naruže	36		2
-naslaže	15		2
-nastruže			2
-natalože	25		2
+naniže	1173		3
+napreže	168		3
+narandže			3
+nareže	83		3
+naruže	36		3
+naslaže	15		3
+nastruže			3
+natalože	25		3
 nateže	115		2
-negliže	19		2
-neravnoteže	465		2
+negliže	19		3
+neravnoteže	465		3
 nindže	126		2
 niže	13619		2
 nože	45		2
 obaveže	774		2
-obeleže	707		2
-obesnaže			2
-oblaže	229		2
-oblože	40		2
-obnaže	33		2
+obeleže	707		3
+obesnaže			3
+oblaže	229		3
+oblože	40		3
+obnaže	33		3
 obrazlaže	1073		2
 obrazlože	321		2
 obreže	18		3
-odbeže	10		2
-odiže	38		2
-odlaže	3113		2
-odleže	95		2
-odlože	904		2
+odbeže	10		3
+odiže	38		3
+odlaže	3113		3
+odleže	95		3
+odlože	904		3
 odmaže	248		2
 odreže	57		3
 održe	4100		2
-odsluže	83		2
+odsluže	83		3
 oduže	185		2
-odvaže	114		2
+odvaže	114		3
 odveže	54		2
 okruže	95		3
-oliže			2
+oliže			3
 omalovaže	138		2
 opovrže			3
-oprže			2
-opsluže	48		2
+oprže			3
+opsluže	48		3
 optuže	562		2
-oraspolože	66		2
-oreže	21		2
-oruže			2
-osnaže	312		2
+oraspolože	66		3
+oreže	21		3
+oruže			3
+osnaže	312		3
 osveže	394		3
-oteže	177		2
+oteže	177		3
 otkaže	1316		2
-otrže	17		2
-otuže			2
-ovlaže	17		2
-ožeže			2
+otrže	17		3
+otuže			3
+ovlaže	17		3
+ožeže			3
 padeže	146		3
 pandže	14		2
-paralaže	48		2
-pasaže	95		2
-pejsaže	69		2
+paralaže	48		3
+pasaže	95		3
+pejsaže	69		3
 pejzaže	519		2
 pendže		M	2
-persiflaže	20		2
-pilotaže			2
+persiflaže	20		3
+pilotaže			3
 plantaže	854		2
 plaže	7876		2
 pluže			2
 pobeže	210		3
 pobliže	374		3
 podiže	8870		3
-podleže	2294		2
-podlože	17		2
+podleže	2294		3
+podlože	17		3
 podmaže	90		3
-podmreže			2
+podmreže			3
 podrže	4630		2
-poduže	356		2
-pogruže			2
+poduže	356		3
+pogruže			3
 pokaže	17698		2
 polaže	4075		2
-poleže	23		2
+poleže	23		3
 poliže	73		2
 polože	1563		3
-pomarandže			2
+pomarandže			3
 pomaže	30675		2
 pomnože	58		2
 pomorandže	1462		2
 pomože	115		2
-ponajbliže			2
-ponajbrže			2
-ponajduže			2
-ponajteže			2
-poseže	571		2
+ponajbliže			3
+ponajbrže			3
+ponajduže			3
+ponajteže			3
+poseže	571		3
 posluže	1614		2
 postiže	11774		3
-postriže			2
+postriže			3
 poteže	508		3
-potkaže			2
-potpomaže	780		2
-potpomože			2
+potkaže			3
+potpomaže	780		3
+potpomože			3
 potraže	1670		2
-potrže			2
+potrže			3
 poveže	3075		2
-prebeže			2
+prebeže			3
 predlaže	12378		2
 predlože	1534		3
-predskaže	24		2
-predstraže	38		2
-premaže	102		2
-premreže			2
-prenebreže			2
-prenemaže	52		2
+predskaže	24		3
+predstraže	38		3
+premaže	102		3
+premreže			3
+prenebreže			3
+prenemaže	52		3
 prereže	48		3
 prestiže	124		3
-preteže	179		2
+preteže	179		3
 pretraže	88		2
-pretrže			2
+pretrže			3
 preže	39		2
-pribeže	39		2
+pribeže	39		3
 približe	2001		2
-pridiže	124		2
+pridiže	124		3
 pridruže	2888		2
 prikaže	4879		2
-prilaže	761		2
-prileže			2
-prilože	442		2
-pripomaže	53		2
-pripomože			2
+prilaže	761		3
+prileže			3
+prilože	442		3
+pripomaže	53		3
+pripomože			3
 priseže			2
-prisluže			2
+prisluže			3
 pristiže	622		3
-priteže	74		2
+priteže	74		3
 priveže	87		2
-prižeže			2
-produže	939		2
-prokaže	34		2
-proteže	2524		2
-protivteže			2
+prižeže			3
+produže	939		3
+prokaže	34		3
+proteže	2524		3
+protivteže			3
 protuteže			2
 prože			2
 pruže	4575		2
 prže	179		2
 puže	54		2
 raspolaže	12418		2
-raspreže			2
-rasteže	203		2
-rastrže			2
+raspreže			3
+rasteže	203		3
+rastrže			3
 rastuže	42		2
 ravnoteže	3664		2
-razbeže	77		2
+razbeže	77		3
 razdraže			2
 razdruže			2
-razduže	28		2
+razduže	28		3
 razlaže	496		2
-razleže	132		2
-razmaže	78		2
+razleže	132		3
+razmaže	78		3
 razmnože	72		2
 razneže	27		2
-razreže	50		2
+razreže	50		3
 razveže	48		2
 raže	40		2
-reciklaže	1957		2
+reciklaže	1957		3
 reportaže	970		2
 reže	521		2
 riže	181		2
 rože			2
-rukopolaže	63		2
-rukopolože			2
+rukopolaže	63		3
+rukopolože			3
 ruže	3243		2
 rže	37		2
 sabotaže	280		2
 sadrže	16280		2
-sastruže	18		2
+sastruže	18		3
 saže	13		2
-sažeže			2
-sažiže			2
-serklaže	10		2
+sažeže			3
+sažiže			3
+serklaže	10		3
 seže	974		2
 silaže	325		2
 siže			2
@@ -307,12 +307,12 @@ skuže			2
 slaže	7318		2
 sleže	414		2
 slože	1374		2
-sluzokože	994		2
+sluzokože	994		3
 služe	15688		2
 smaže	36		2
 snaže	54		2
 sneže	11		2
-sondaže	45		2
+sondaže	45		3
 sprže	42		2
 sreže	37		2
 staleže	55		3
@@ -325,88 +325,88 @@ struže	104		2
 strže			2
 stuže			2
 supruže			3
-suspreže			2
+suspreže			3
 sustiže	329		3
 suzdrže	142		2
 sveže	8300		2
 talože	319		3
 tetovaže	843		2
 teže	22892		2
-tiraže	283		2
+tiraže	283		3
 tobože	3070		3
 tonaže	26		2
 traže	38752		2
-trikotaže	158		2
+trikotaže	158		3
 tuže	1316		2
-ubeleže	22		2
+ubeleže	22		3
 ublaže	1066		2
 udruže	1111		2
 ukaže	6350		2
 ulaže	7816		2
 ulože	2559		3
-umnože	155		2
-umreže	102		2
-upreže			2
-uravnoteže	85		2
+umnože	155		3
+umreže	102		3
+upreže			3
+uravnoteže	85		3
 ureže	84		3
-usluže	73		2
-uspuže			2
-usteže	107		2
+usluže	73		3
+uspuže			3
+usteže	107		3
 uteže			3
 uvaže	420		2
 uveže	88		2
-uzdiže	1818		2
+uzdiže	1818		3
 uzdrže	543		2
-uzmože			2
+uzmože			3
 uže	3278		2
-užeže	43		2
-užiže			2
+užeže	43		3
+užiže			3
 važe	7898		2
-velmože			2
+velmože			3
 veže	2485		2
-vikinže			2
+vikinže			3
 viteže	24		3
 vitraže	52		2
 vlaže	99		2
-vodojaže	46		2
-voltaže	304		2
+vodojaže	46		3
+voltaže	304		3
 vraže	459		2
 vreže	33		2
 vrže	28		2
-zabeleže	705		2
-zadiže			2
+zabeleže	705		3
+zadiže			3
 zadrže	3959		2
 zakaže	1319		2
 zalaže	7334		2
-zaleže			2
+zaleže			3
 založe	240		3
-zamaže	80		2
-zanemože			2
+zamaže	80		3
+zanemože			3
 zaokruže	344		2
-zapomaže	129		2
-zareže	31		2
+zapomaže	129		3
+zareže	31		3
 zarže			2
 zasluže	238		2
 zateže	627		2
 zatraže	1847		2
 zaveže	104		2
-zavrže			2
-zažeže			2
-zažiže			2
+zavrže			3
+zažeže			3
+zažiže			3
 zbliže	150		2
 združe	39		2
 čekmedže			2
 šarže	58		2
-šilježe		M	2
-špijunaže	511		2
-žalibože		M	2
+šilježe		M	3
+špijunaže	511		3
+žalibože		M	3
 žeže			2
 žiže	80		2
 bježe			2
-liježe	20		2
-naliježe	13		2
+liježe	20		3
+naliježe	13		3
 pobježe			3
-podliježe	86		2
-razliježe	18		2
-sviježe			2
+podliježe	86		3
+razliježe	18		3
+sviježe			3
 svježe			2

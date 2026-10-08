@@ -1,8 +1,8 @@
 7
 adverb			2
-golotrb			2
+golotrb			3
 grb	3210		1
-nauštrb		M	2
+nauštrb		M	3
 skrb	131		1
 srb			1
 uštrb	1492		2

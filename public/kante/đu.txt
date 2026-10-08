@@ -12,29 +12,29 @@ građu	2281		2
 grožđu	422		2
 gvožđu	124		2
 gđu	111		1
-horovođu			2
+horovođu			3
 izađu	8283		2
 iziđu	196		2
 između	273861		3
-iznađu	279		2
-karavađu			2
-karađorđu			2
+iznađu	279		3
+karavađu			3
+karađorđu			3
 knjigovođu	105		4
-koleđu			2
-kolovođu			2
+koleđu			3
+kolovođu			3
 konđu			2
 krađu	3045		2
 lađu	758		2
 lođu	125		2
 luđu	16		2
-mašinovođu	28		2
+mašinovođu	28		3
 medveđu	246		3
 među	178046		2
 milosrđu	220		4
 mimoiđu	96		2
 mlađu	1112		2
-nadgrađu			2
-nadođu	31		2
+nadgrađu			3
+nadođu	31		3
 naiđu	754		2
 najluđu	150		3
 najmlađu	255		3
@@ -43,37 +43,37 @@ najtvrđu	21		3
 nasleđu	1501		2
 nasljeđu		J	2
 nađu	14050		2
-nemilosrđu			2
+nemilosrđu			3
 obiđu	1297		2
 oruđu	51		2
 otiđu	12		2
-oštrokonđu			2
+oštrokonđu			3
 peđu			2
-podgrađu			2
+podgrađu			3
 podiđu	25		3
-polugođu			2
+polugođu			3
 poslovođu	50		4
-posuđu	119		2
+posuđu	119		3
 pođu	893		2
 pravosuđu	4016		4
 predgrađu	1608		2
 predziđu			2
-prevaziđu	1685		2
+prevaziđu	1685		3
 pređu	4215		2
 priđu	1027		2
-proiziđu	12		2
+proiziđu	12		3
 pronađu	7161		2
 prođu	6664		2
 punđu	281		2
 raziđu	366		2
-razmeđu	155		2
-razvođu	12		2
+razmeđu	155		3
+razvođu	12		3
 računovođu	70		3
 ređu	58		2
 riđu	66		2
 rđu	137		2
-sazvežđu	771		2
-sazviježđu			2
+sazvežđu	771		3
+sazviježđu			3
 sađu			2
 siđu	342		2
 slađu	29		2
@@ -87,19 +87,19 @@ tvrđu	105		2
 uziđu			2
 uđu	8464		2
 vojskovođu	116		4
-vozovođu			2
+vozovođu			3
 vođu	1351		2
-zaiđu			2
+zaiđu			3
 zaleđu	574		2
-zaobiđu	584		2
+zaobiđu	584		3
 zapovijeđu		J	5
 zađu	149		2
 čađu	21		2
-četovođu			2
+četovođu			3
 đorđu			2
 đurđu			2
 žeđu	364		2
-žitorađu			2
+žitorađu			3
 medvjeđu			3
 naslijeđu	40		3
 prijeđu	11		3

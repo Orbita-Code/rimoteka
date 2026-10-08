@@ -1,37 +1,37 @@
 1505
 Moskvo			2
-Pančevo			2
+Pančevo			3
 Sarajevo			4
 Smederevo			4
 Valjevo			3
 Varšavo			3
-adamovo			2
+adamovo			3
 akušerstvo	379		2
 alavo		M	3
-aleksandrovo	43		2
+aleksandrovo	43		3
 aljkavo		M	3
 alternativo			2
-andrićevo			2
+andrićevo			3
 anglikanstvo			2
-apostolovo			2
+apostolovo			3
 apostolstvo			2
 apotekarstvo			2
-aranđelovo			2
-aračinovo			2
+aranđelovo			3
+aračinovo			3
 arhiepiskopstvo			2
-arsenovo			2
+arsenovo			3
 autolimarstvo			2
 autonomaštvo			2
-autorovo	99		2
+autorovo	99		3
 autorstvo	347		2
-bademovo	84		2
-bagremovo			2
+bademovo	84		3
+bagremovo			3
 balavo	12		3
 bankarstvo	2001		2
 bankrotstvo	282		2
 banovo	230		3
 banstvo			2
-barajevo			2
+barajevo			3
 barbarstvo			2
 bačvarstvo			2
 bačvo			2
@@ -51,79 +51,79 @@ bibliotekarstvo	287		2
 bigovo			3
 bikovo	12		3
 biogorivo			3
-biserovo			2
-biskupovo			2
-biskupstvo			2
+biserovo			3
+biskupovo			3
+biskupstvo			3
 bivo		M	2
 bivstvo	108		2
 biševo			3
-blagoglagoljivo			2
+blagoglagoljivo			3
 blagorodstvo	48		2
 blatnjavo	48		3
-blaženstvo	719		2
-blebetavo			2
-bledunjavo	39		2
+blaženstvo	719		3
+blebetavo			3
+bledunjavo	39		3
 blentavo	38		3
 blesavo	377		3
 bleštavo	44		3
 blistavo	459		3
 blještavo			3
 bljutavo	168		3
-bludništvo			2
+bludništvo			3
 bobovo			3
 bockavo			3
 bodljikavo	77		4
-boemstvo	13		2
-bogastvo	427		2
+boemstvo	13		3
+bogastvo	427		3
 bogataševo			3
 bogatstvo	11942		2
-bogdanovo			2
+bogdanovo			3
 bogohulstvo			2
 bogomoljstvo			2
 bogumilstvo			2
 bojažljivo	492		3
-bojevo			2
-bolesnikovo			2
+bojevo			3
+bolesnikovo			3
 bolećivo	33		3
 bolešljivo	30		3
-boljarevo			2
+boljarevo			3
 borovo	25		3
 bosanstvo			2
 bovo			2
 božanstvo	1577		2
 brakolomstvo	16		2
-branićevo			2
-braničevo	39		2
+branićevo			3
+braničevo	39		3
 brankovo			3
-bratimstvo	12		2
-bratinstvo		M	2
+bratimstvo	12		3
+bratinstvo		M	3
 bratoubistvo	23		2
-bratovljevo			2
+bratovljevo			3
 bratovo			3
 bratstvo	3366		2
 bravarstvo			2
 bravo	1922		2
-brašančevo			2
+brašančevo			3
 brbljivo	12		3
 bregovo			3
 brestovo			3
 brižljivo	2043		3
-brkićevo			2
+brkićevo			3
 brljavo			3
-brodarevo			2
+brodarevo			3
 brodarstvo	145		2
-bubuljičavo			2
+bubuljičavo			3
 bukovo	145		3
-bumbarevo			2
+bumbarevo			3
 bundevo			3
 buntovništvo	65		2
 burovo			3
 buđavo	29		3
 carevo	374		3
-carinikovo			2
+carinikovo			3
 carstvo	9102		2
 cepivo	27		3
-cerovićevo			2
+cerovićevo			3
 cerovo	26		3
 cicijaštvo		M	2
 ciglarstvo			2
@@ -131,33 +131,33 @@ cinkovo			3
 cjepivo		J	3
 crevo	1721		2
 crkvo			2
-crnoljevo			2
+crnoljevo			3
 crvljivo			3
-cukićevo			2
+cukićevo			3
 cvećarstvo			2
-cvijićevo			2
-cvrkutavo			2
+cvijićevo			3
+cvrkutavo			3
 dahtavo		M	3
 darežljivo	51		3
 davalaštvo			4
-davidovo			2
-davinićevo			2
+davidovo			3
+davinićevo			3
 debelokoštvo			2
 dejstvo	9956		2
 deljivo	40		3
-despotovo	17		2
+despotovo	17		3
 despotstvo			3
-detetovo	111		2
+detetovo	111		3
 deteubistvo		M	2
 detinjstvo	4530		2
 devičanstvo	131		2
 devo	15		2
 devojaštvo	24		2
 dezerterstvo	60		2
-dečakovo	36		2
+dečakovo	36		3
 dečaštvo	34		2
 dežurstvo	652		2
-dinkićevo			2
+dinkićevo			3
 direktorstvo			2
 dirljivo	622		3
 disidentstvo			2
@@ -165,26 +165,26 @@ divljaštvo	212		2
 divo			2
 djevičanstvo		J	2
 dlakavo	59		3
-dobrićevo			2
+dobrićevo			3
 dobrostivo			3
 dobrosusedstvo			2
 dobročinstvo	380		2
 dodirljivo			3
 dokazivo	162		3
-doktorovo			2
+doktorovo			3
 doktrinarstvo			2
-domaćinovo	11		2
+domaćinovo	11		3
 domaćinstvo	3654		2
 domobranstvo	20		2
 donžuanstvo			2
 dopadljivo	191		3
 dopustivo	198		3
 dosetljivo	17		3
-dositejevo			2
+dositejevo			3
 dostojanstvo	6009		2
 doušništvo			2
 dovitljivo	33		3
-draganovo			2
+draganovo			3
 draguljarstvo			2
 draškavo		M	3
 dremljivo		M	3
@@ -201,53 +201,53 @@ drvorezbarstvo			2
 državljanstvo	5382		3
 državništvo			2
 državo	89		3
-držićevo			2
+držićevo			3
 duhovništvo			2
-dućićevo			2
-dučićevo			2
-dušanovo			2
+dućićevo			3
+dučićevo			3
+dušanovo			3
 dvoglavo	22		3
 dvojstvo	147		2
 dvoženstvo			2
-džangrizavo			2
+džangrizavo			3
 epigonstvo			2
 evo	78081		2
-faraonovo			2
+faraonovo			3
 farmerstvo	21		2
-filipovo			2
+filipovo			3
 filistarstvo			2
 frakcionaštvo			2
 gadljivo	50		3
 ganutljivo			3
 garavo	15		3
 gatarstvo		M	2
-gazdinstvo	1362		2
-generalovo			2
+gazdinstvo	1362		3
+generalovo			3
 glagoljaštvo			2
 glavarstvo		M	2
 glavo	169		2
 gledateljstvo			2
-glišićevo			2
+glišićevo			3
 gljivarstvo			2
 glogovo			3
-glumčevo	30		2
+glumčevo	30		3
 glupavo	292		3
 gluvo	511		2
 gmizavo			3
 gnevljivo			3
 gnjecavo			3
 gnojivo	90		3
-golicavo	16		2
-gologlavo			2
+golicavo	16		3
+gologlavo			3
 golubarstvo	16		2
-golušavo			2
-goluždravo			2
+golušavo			3
+goluždravo			3
 gorivo	12003		3
 gorljivo	85		3
-gospodarevo			2
+gospodarevo			3
 gospodarstvo	565		2
-gospodinovo			2
-gospodovo			2
+gospodinovo			3
+gospodovo			3
 gospodstvo	252		2
 gostoljubivo	90		3
 gostoprimljivo			3
@@ -261,16 +261,16 @@ grabljivo			3
 grabovo			3
 graditeljstvo	511		2
 gradivo	2506		3
-gradonačelnikovo	12		2
+gradonačelnikovo	12		3
 grahovo			3
 gramzivo	18		3
 gramžljivo			3
 građanstvo	1241		3
 građevinarstvo	1932		2
 grbavo	31		3
-grešnikovo			2
+grešnikovo			3
 grnčarstvo	43		2
-grozničavo	443		2
+grozničavo	443		4
 grubijanstvo			2
 gubavo			3
 gunđavo			3
@@ -278,19 +278,19 @@ gurmanstvo			2
 gusarstvo	13		2
 gustavo			3
 guvernadurstvo			2
-guvernerovo			2
-gučevo			2
-hadžićevo			2
+guvernerovo			3
+gučevo			3
+hadžićevo			3
 halapljivo	307		3
-halilovo			2
-herojevo			2
+halilovo			3
+herojevo			3
 herojstvo	274		2
-hladnjikavo		M	2
+hladnjikavo		M	3
 hmeljarstvo			2
 hopovo			3
 hotelijerstvo	373		2
 hraniteljstvo	325		2
-hranivo			2
+hranivo			3
 hranjivo	39		3
 hranljivo	147		3
 hrapavo	48		3
@@ -315,7 +315,7 @@ inoverstvo			2
 inozemstvo	76		2
 inženjerstvo	1864		2
 inžinjerstvo	63		2
-isakovo			2
+isakovo			3
 iseljeništvo	32		2
 isključivo	49415		3
 iskričavo	26		4
@@ -325,9 +325,9 @@ isplativo	1333		3
 isposništvo	16		2
 ispravo			3
 ispunjivo			3
-isusovo			2
-ivanovo	72		2
-ivićevo			2
+isusovo			3
+ivanovo	72		3
+ivićevo			3
 ivo	16		2
 izaslanstvo	160		2
 izbeglištvo	198		2
@@ -341,15 +341,15 @@ izmenljivo			3
 izvedivo	23		3
 izvodivo	61		3
 izvodljivo			3
-jabukovo			2
+jabukovo			3
 jakovo			3
 jalovo	345		3
 jamstvo	138		2
-janičarevo			2
+janičarevo			3
 jankovo			3
-jasenovo	15		2
+jasenovo	15		3
 jastvo	70		2
-javorovo	29		2
+javorovo	29		3
 jedinstvo	11161		2
 jednoboštvo			3
 jednoženstvo			2
@@ -360,38 +360,38 @@ jestivo	355		3
 jetrvo			3
 jevrejstvo	65		2
 jezivo	1007		3
-jogunstvo		M	2
-jonićevo			2
-jovanićevo			2
+jogunstvo		M	3
+jonićevo			3
+jovanićevo			3
 jovo			2
-jugovićevo			2
+jugovićevo			3
 jugovo			3
-junakovo	13		2
+junakovo	13		3
 junaštvo	738		2
 kajakaštvo			2
 kakovo			3
 kakvo	15501		2
 kaljavo			3
-kaluđerevo			2
+kaluđerevo			3
 kaluđerstvo			2
-kamforovo			2
+kamforovo			3
 kanibalstvo			2
 kantovo			3
-kapetanovo	10		2
+kapetanovo	10		3
 kapetanstvo			2
-karadžićevo			2
-karanovo			2
-karađorđevo			2
-karićevo			2
+karadžićevo			3
+karanovo			3
+karađorđevo			3
+karićevo			3
 katoličanstvo	417		2
 kavaljerstvo	16		2
 kažnjivo	839		3
 kevo			2
 kilavo			3
 kiparstvo	10		2
-kirilovo			2
+kirilovo			3
 kitovo			3
-kičevo			2
+kičevo			3
 kladivo	38		3
 kladovo			3
 klecavo			3
@@ -405,37 +405,37 @@ kmetovo			3
 kmetstvo			2
 kmezavo			3
 kneževo	84		3
-kneževstvo	20		2
+kneževstvo	20		3
 knjigovodstvo	1354		2
 knjižarstvo			2
 knjižničarstvo			2
 koautorstvo	28		2
 kobasičarstvo			2
-koceljevo			2
-kojekakvo	10		2
-kojićevo			2
-kokosovo	337		2
+koceljevo			3
+kojekakvo	10		3
+kojićevo			3
+kokosovo	337		3
 kolebljivo	58		3
 kolekcionarstvo	48		2
 koljivo	190		3
-komandantovo			2
+komandantovo			3
 komesarstvo			2
 konjaništvo			4
 konjarstvo	40		2
-konzervo			2
-konzulovo			2
-koprcavo			2
-korisnikovo	20		2
-koristoljubivo	12		2
+konzervo			3
+konzulovo			3
+koprcavo			3
+korisnikovo	20		3
+koristoljubivo	12		3
 korparstvo		M	2
 kosovo	15		3
-kostićevo			2
+kostićevo			3
 kovo			2
 kozarstvo	30		2
-kočićevo			2
+kočićevo			3
 košaraštvo			2
 koševo			3
-koštičavo	35		2
+koštičavo	35		4
 kožarstvo			2
 kraljevo	1458		3
 kraljevstvo	1716		3
@@ -444,7 +444,7 @@ kravo	21		2
 krckavo			3
 kreatorstvo		M	2
 kresivo	39		3
-krestićevo			2
+krestićevo			3
 kreševo			3
 kreštavo			3
 krivo	3925		2
@@ -465,25 +465,25 @@ kulinarstvo	183		2
 kumanovo			4
 kumstvo	285		2
 kunićarstvo			2
-kupinovo			2
+kupinovo			3
 kućanstvo	20		2
-kučevo			2
+kučevo			3
 kuždravo			3
 kvrgavo			3
 labavo	280		3
-labudovo	173		2
+labudovo	173		3
 lajavo			3
-lakomstvo			2
+lakomstvo			3
 laktaštvo		M	2
-lalićevo			2
+lalićevo			3
 lapovo	18		3
 laskavo	223		3
 lavovo			3
-lazarevo			2
+lazarevo			3
 lažljivo	50		3
 lekarstvo	153		2
 lepljivo	93		3
-lepršavo	160		2
+lepršavo	160		3
 lesnovo			3
 levičarstvo			2
 levo	7978		2
@@ -493,10 +493,10 @@ lihvarstvo	13		2
 limunovo	13		4
 lipovo			3
 livadarstvo			2
-ljajićevo			2
+ljajićevo			3
 ljeskovo			3
 ljigavo	107		3
-ljotićevo			2
+ljotićevo			3
 ljubiteljstvo			2
 ljubomorstvo			2
 ljubopitljivo	60		3
@@ -512,41 +512,41 @@ lovstvo	220		2
 lozovo			3
 lukavo	798		3
 lukavstvo	466		3
-lukićevo			2
-lukovićevo			2
+lukićevo			3
+lukovićevo			3
 lukovo			3
 lupeštvo		M	3
 luteranstvo			2
 lutkarstvo			2
-majstorovo			2
+majstorovo			3
 majstorstvo	425		2
-majčinstvo	317		2
+majčinstvo	317		3
 makovo			3
-malićevo			2
-mališevo			2
+malićevo			3
+mališevo			3
 maljavo	13		3
 maloletstvo		M	2
 mamljivo		M	3
-mamutovo			2
-mandićevo			2
+mamutovo			3
+mandićevo			3
 manekenstvo	77		2
 manjkavo	58		3
-maretićevo			2
+maretićevo			3
 markovo			3
 marljivo	855		3
-marovićevo			2
+marovićevo			3
 marvo			2
-maršalstvo			2
+maršalstvo			3
 maslinarstvo			2
-maslinovo	1708		2
+maslinovo	1708		3
 masonstvo	37		2
-matejevo			2
+matejevo			3
 materinstvo	431		2
-mazivo	116		2
-mašinstvo	695		2
+mazivo	116		3
+mašinstvo	695		3
 mecenatstvo			2
-meketavo			2
-mekuštvo			2
+meketavo			3
+mekuštvo			3
 meljivo		M	3
 memljivo			3
 menadžerstvo			2
@@ -554,43 +554,43 @@ mentorstvo	338		2
 merljivo	146		3
 mesarstvo			2
 mesečarstvo			2
-mesečevo	88		2
+mesečevo	88		3
 mećavo			3
-miletićevo			2
-mileševo			2
-milićevo			2
+miletićevo			3
+mileševo			3
+milićevo			3
 milostivo	237		3
-miloševo			2
+miloševo			3
 ministarstvo	59759		2
-ministrovo	21		2
-mirijevo			2
-mirisavo	14		2
-mirišljavo	53		2
+ministrovo	21		3
+mirijevo			3
+mirisavo	14		3
+mirišljavo	53		3
 miroljubivo	210		3
 misionarstvo			2
 mitrovo			3
 mišićavo	87		4
-mišićevo	24		2
-mladićevo	87		2
-mladićstvo		M	2
+mišićevo	24		3
+mladićevo	87		3
+mladićstvo		M	3
 mlekarstvo	90		2
 mlinarstvo			2
 mlitavo	128		3
 mlivo			2
 mlohavo	13		3
-mnogoboštvo	61		2
-mnogoglavo			2
+mnogoboštvo	61		3
+mnogoglavo			3
 mnogoženstvo	23		2
 mnoštvo	10439		2
 modelarstvo			2
-mogućstvo		M	2
+mogućstvo		M	3
 molećivo	76		3
 molitvo			3
 momaštvo			2
-momčilovo			2
-monahovo			2
+momčilovo			3
+monahovo			3
 monaštvo	901		2
-mondenstvo		M	2
+mondenstvo		M	3
 moralizatorstvo		M	2
 moravo			3
 moreplovstvo	11		2
@@ -603,22 +603,22 @@ mucavo			3
 muhamedanstvo			2
 musavo	47		3
 muslimanstvo	26		2
-mustangovo			2
+mustangovo			3
 mutavo			3
 muvo			2
 mučaljivo			3
-mučenikovo	103		2
+mučenikovo	103		3
 mučeništvo	339		4
-muževljevo	83		2
-muževo	11		2
-nadleštvo	38		2
+muževljevo	83		3
+muževo	11		3
+nadleštvo	38		3
 nadrilekarstvo		M	2
 nadzorništvo	11		2
 nakrivo		M	3
 nalevo	160		3
 namesništvo	215		2
 nametljivo	143		3
-namrtvo		M	2
+namrtvo		M	3
 nanovo	1701		3
 napravo			3
 naprednjaštvo			2
@@ -628,22 +628,22 @@ nasilništvo	100		2
 nasledstvo	963		3
 nasljedstvo	78	J	3
 nasrtljivo	31		3
-nasuvo		M	2
-naučnikovo			2
+nasuvo		M	3
+naučnikovo			3
 nazadnjaštvo	13		2
-načelstvo	139		2
-naživo			2
-nebeskoplavo			2
+načelstvo	139		3
+naživo			3
+nebeskoplavo			3
 nebrižljivo			3
 nedejstvo			2
 nedeljivo	105		3
-nedićevo			2
+nedićevo			3
 nedodirljivo	86		3
 nedohvatljivo			3
 nedokazivo	81		3
 nedokučivo	139		3
 nedopustivo	4284		3
-nedovićevo			2
+nedovićevo			3
 negostoljubivo	35		3
 neimarstvo		M	2
 neiskazivo		M	3
@@ -670,21 +670,21 @@ nemarljivo		M	3
 nemerljivo	416		3
 nemilostivo	39		3
 nenadmašivo			3
-nenadovo			2
+nenadovo			3
 nenametljivo	515		3
 nenarušivo			3
 neobjašnjivo	735		3
 neoborivo	77		3
 neobradivo	32		3
 neodeljivo			3
-neodgonetljivo			2
+neodgonetljivo			3
 neodoljivo	2011		3
 neodredivo			3
 neodrživo	814		3
 neodvojivo	240		3
 neopipljivo	56		3
 neopisivo	852		3
-neoporecivo			2
+neoporecivo			3
 neopozivo	372		3
 neoprostivo	393		3
 neosetljivo	42		3
@@ -738,9 +738,9 @@ neukrotivo	41		3
 neumoljivo	509		3
 neuništivo	86		3
 neupadljivo	123		3
-neuporedivo		M	2
-neupotrebljivo	218		2
-neuračunljivo			2
+neuporedivo		M	3
+neupotrebljivo	218		3
+neuračunljivo			3
 neustrašivo	395		3
 neutoljivo		M	3
 neuverljivo	251		3
@@ -755,56 +755,56 @@ nezamenjivo	82		3
 nezamenljivo	188		3
 nezamislivo	2456		3
 nezanimljivo	191		3
-nezaustavljivo	533		2
+nezaustavljivo	533		3
 nezdravo	464		3
 nezlobivo	35		3
 neznaboštvo			3
 nečastivo	10		3
 nečitljivo	20		3
 nečoveštvo	20		2
-nečuvstvo			2
+nečuvstvo			3
 neškodljivo	116		3
-neživo	62		2
-nikakovo			2
+neživo	62		3
+nikakovo			3
 nikakvo	2712		3
-nikolićevo			2
+nikolićevo			3
 nivo	60825		2
 ništavo			3
 njegovo	56650		3
-njegoševo			2
+njegoševo			3
 njihovo	42971		3
 njivo		M	2
 nojevo	33		3
 novatorstvo	24		2
 novinarstvo	4002		2
-novinstvo			2
+novinstvo			3
 novo	50395		2
 novčarstvo			2
-nušićevo			2
+nušićevo			3
 obazrivo	431		3
-obilićevo			2
+obilićevo			3
 objašnjivo	147		3
 obradivo	329		3
 oceubistvo		M	2
 odmetništvo	21		2
 održivo	1756		3
 odsustvo	7451		3
-ognjičavo			2
+ognjičavo			4
 olovo	1202		3
 omamljivo			3
 onakvo	465		2
 opipljivo	388		3
 opisivo			3
 opovo			3
-opozicionarstvo		M	2
+opozicionarstvo		M	3
 oprostivo	27		3
-orahovo			2
+orahovo			3
 oratorstvo			2
 orlovo	59		3
 ortaštvo			2
 osetljivo	1033		3
 osorljivo			3
-ostojićevo			2
+ostojićevo			3
 ostrvo	10029		3
 ostvarivo	471		3
 ostvarljivo	232		3
@@ -817,42 +817,42 @@ otpravništvo			2
 otuđivo			3
 ovakvo	10641		2
 ovo	450263		2
-ovčarevo			2
+ovčarevo			3
 ovčarstvo	104		2
 očevo	298		3
 očinstvo	371		3
-pacijentovo	17		2
+pacijentovo	17		3
 padobranstvo	79		2
 paganstvo	69		2
 pamtljivo	27		3
-pantićevo			2
-papinstvo	14		2
+pantićevo			3
+papinstvo	14		3
 papstvo	71		2
 parobrodarstvo		M	2
 partizanstvo	24		2
 partnerstvo	6843		3
-patuljkovo			2
+patuljkovo			3
 paukovo			4
-pavelićevo			2
+pavelićevo			3
 pavo		M	2
-pašićevo			2
+pašićevo			3
 pažljivo	17848		3
 pecivo	1471		3
 peckavo			3
 pegavo	17		3
-pekićevo			2
-pelagićevo			2
-pelinovo			2
+pekićevo			3
+pelagićevo			3
+pelinovo			3
 penušavo	161		3
 peradarstvo			2
-pesnikovo	26		2
-pesništvo	455		2
+pesnikovo	26		3
+pesništvo	455		3
 petlovo	67		3
 pijanstvo	369		2
 pipavo	51		3
 piratstvo	56		2
 piskavo	26		3
-piskutavo			2
+piskutavo			3
 pivarstvo	11		2
 pivo	9785		2
 piščevo	118		3
@@ -872,13 +872,13 @@ pobratimstvo	90		2
 podaništvo	134		2
 podanstvo	43		2
 podlaštvo		M	2
-podnivo			2
+podnivo			3
 podnošljivo	267		3
 podozrivo	95		3
 podrugljivo	350		3
 podrumarstvo			2
 podsmešljivo	148		3
-podujevo			2
+podujevo			3
 poduzetništvo			5
 podvižništvo			2
 podvodništvo			2
@@ -888,7 +888,7 @@ pohotljivo	17		3
 pojavo			3
 pojmljivo	61		3
 poklonstvo	10		2
-pokojnikovo			2
+pokojnikovo			3
 pokretljivo	46		3
 pokroviteljstvo	444		2
 pokućanstvo			2
@@ -897,7 +897,7 @@ pokvarenjaštvo		M	2
 politikanstvo	306		2
 politikantstvo			2
 polumrtvo	17		2
-poluostrvo	1268		2
+poluostrvo	1268		3
 polušaljivo		M	3
 poluživo			3
 pomirljivo	203		3
@@ -905,7 +905,7 @@ pomnjivo			3
 pomodarstvo	221		2
 pomorstvo	134		2
 ponovo	128289		3
-popovićevo			2
+popovićevo			3
 popovo	41		3
 popravljivo	10		3
 popustljivo	51		3
@@ -923,7 +923,7 @@ povodljivo	16		3
 povrtarstvo	1072		2
 pozerstvo			2
 poznanstvo	709		2
-pradedovo			2
+pradedovo			3
 prahovo			3
 praskavo			3
 pravo	162651		2
@@ -931,8 +931,8 @@ pravobranilaštvo	337		2
 prašljivo			3
 prašnjavo	60		3
 predivo	129		3
-predićevo			2
-predsednikovo	46		2
+predićevo			3
+predsednikovo	46		3
 predsedništvo	3854		2
 predstavništvo	1772		2
 predstavo			3
@@ -943,7 +943,7 @@ predvidljivo	211		3
 predvodništvo		M	2
 pregalaštvo	87		4
 preimućstvo	286		2
-prejemstvo			2
+prejemstvo			3
 prekletstvo			2
 prenosivo	78		3
 preosetljivo			3
@@ -954,26 +954,26 @@ preustrojstvo	19		2
 prevashodstvo	49		2
 prevratništvo			2
 prevrtljivo	23		3
-prezrivo	303		2
+prezrivo	303		3
 preševo			3
 prgavo	12		3
 prihvatljivo	3754		3
-prijateljevo			2
+prijateljevo			3
 prijateljstvo	5756		2
-prijemstvo			2
+prijemstvo			3
 prijemčivo	88		3
 prilagodljivo			3
 primamljivo	760		3
 primenjivo	301		3
 primenljivo	318		3
 primetljivo			3
-prinčevo			2
+prinčevo			3
 pripadništvo			2
 pripravništvo			2
-prirodnjakovo			2
+prirodnjakovo			3
 prisustvo	20457		2
 prljavo	1119		3
-profesorovo	18		2
+profesorovo	18		3
 profiterstvo			2
 prognanstvo			2
 progonstvo	317		2
@@ -982,21 +982,21 @@ promenljivo	683		3
 pronalazaštvo			2
 pronicljivo	159		3
 proročanstvo	898		2
-proroštvo	215		2
-prosjakovo			2
+proroštvo	215		3
+prosjakovo			3
 prostaštvo	26		2
 prostranstvo	558		2
 prosvetiteljstvo			2
 protivdejstvo			2
-protićevo			2
-protuvo			2
+protićevo			3
+protuvo			3
 proverljivo	147		3
 proždrljivo	26		3
 prvenaštvo			2
 prvenstvo	16866		3
 prvo	133783		2
-prčevo			2
-pukovnikovo			2
+prčevo			3
+pukovnikovo			3
 punoletstvo	327		2
 punomoćstvo		M	2
 puritanstvo			2
@@ -1004,11 +1004,11 @@ pustinjaštvo			2
 puzavo			3
 pučanstvo	124		2
 pčelarstvo	640		2
-racionalizatorstvo			2
-radićevo			2
+racionalizatorstvo			3
+radićevo			3
 radništvo	184		3
-rajićevo			2
-rakićevo			2
+rajićevo			3
+rakićevo			3
 ranjavo			3
 ranjivo	147		3
 rasipništvo	218		2
@@ -1018,7 +1018,7 @@ raspusništvo		M	2
 rastegljivo	52		3
 rastrojstvo	70		2
 ratarstvo	1268		2
-ratnikovo			2
+ratnikovo			3
 ravnateljstvo	10		2
 razbojništvo	444		3
 razbojstvo			2
@@ -1027,32 +1027,32 @@ razmenljivo			3
 razmetljivo	51		3
 razredništvo			2
 razumljivo	5275		3
-račićevo			2
+račićevo			3
 računarstvo			2
 računovodstvo	2064		2
 reakcionarstvo			2
 redarstvo	15		2
-rediteljevo			2
+rediteljevo			3
 redovništvo			2
 regentstvo			2
 rektorstvo			2
-remetićevo			2
+remetićevo			3
 renegatstvo			2
 retorstvo			2
-revolucionarstvo			2
+revolucionarstvo			3
 rezbarstvo			2
 rešivo	133		3
-režiserovo			2
+režiserovo			3
 ribarstvo	538		2
 ribogojstvo			2
-ricinusovo	67		2
-rivalstvo	619		2
+ricinusovo	67		3
+rivalstvo	619		3
 rivo		M	2
 robovlasništvo	166		2
 roditeljstvo	1051		2
 rodoljubivo	95		3
 ropstvo	2238		2
-roždestvo	112		2
+roždestvo	112		3
 rudarstvo	1165		2
 rukovodstvo	12633		2
 rutavo			3
@@ -1067,7 +1067,7 @@ samoubojstvo	81		2
 samozadovoljstvo	100		2
 samoživo	52		3
 sanjivo	84		3
-sarićevo			2
+sarićevo			3
 saučesništvo	361		2
 savezništvo	591		4
 savitljivo	29		3
@@ -1075,10 +1075,10 @@ savo		M	2
 savršenstvo	1426		3
 sažaljivo	108		3
 sebičnjaštvo			2
-sedlarevo			2
+sedlarevo			3
 sedlarstvo			2
 sektaštvo	41		2
-seljakovo			2
+seljakovo			3
 seljaštvo	167		2
 semenarstvo			2
 senatorstvo			2
@@ -1086,11 +1086,11 @@ sestrinstvo	350		2
 sečivo	458		3
 shvatljivo	298		3
 siledžijstvo	72		2
-silvestrovo			2
-simeonovo			2
-simićevo			2
-simovićevo			2
-sinovljevo			2
+silvestrovo			3
+simeonovo			3
+simićevo			3
+simovićevo			3
+sinovljevo			3
 sinovo			3
 sipkavo			3
 sipljivo	12		3
@@ -1099,21 +1099,21 @@ siromaštvo	4055		2
 sirovo	730		3
 sitničavo	36		4
 sivo	1030		2
-sićevo			2
-slabunjavo			2
-sladunjavo	59		2
+sićevo			3
+slabunjavo			3
+sladunjavo	59		3
 slavo	43		2
-slavujevo			2
+slavujevo			3
 sledbeništvo			2
 sledstvo			2
-slikarevo			2
+slikarevo			3
 slikarstvo	2980		2
 slinavo	13		3
 sljedbeništvo			2
 slobodarstvo	43		2
-slobodoljubivo			2
+slobodoljubivo			3
 slonovo	14		3
-slovenstvo	145		2
+slovenstvo	145		3
 slovo	7377		2
 sluganstvo			2
 sluzavo	31		3
@@ -1124,11 +1124,11 @@ snalažljivo	40		3
 snebivljivo		M	3
 snishodljivo		M	3
 snošljivo	13		3
-sokolovo	54		2
+sokolovo	54		3
 sopstvo	218		2
 sovo	19		2
 sočivo	1038		3
-spasiteljevo	27		2
+spasiteljevo	27		3
 splavarstvo			2
 spojivo	71		3
 spokojstvo	455		2
@@ -1136,10 +1136,10 @@ sponzorstvo	556		2
 sramežljivo	134		3
 srbofilstvo			2
 sredstvo	17434		2
-sremčevo			2
+sremčevo			3
 srodstvo	424		2
 srpstvo	2159		2
-stajićevo			2
+stajićevo			3
 staklarstvo			2
 stanovništvo	14442		2
 starateljstvo	727		4
@@ -1148,11 +1148,11 @@ starčevo	134		3
 stevo			2
 stidljivo	1505		3
 stihotvorstvo			2
-stojanovo			2
+stojanovo			3
 stolarstvo			2
 stočarstvo	1560		2
 strašljivo	16		3
-stražilovo			2
+stražilovo			3
 streličarstvo	119		2
 streljaštvo	514		2
 streljivo	13		3
@@ -1160,16 +1160,16 @@ stričevo			3
 strmoglavo	146		4
 strpljivo	3175		3
 stvaralaštvo	4168		4
-subotićevo			2
+subotićevo			3
 sudstvo	2918		2
 suložništvo			2
-sultanovo			2
+sultanovo			3
 sumnjivo	2417		2
 sumnjičavo	313		4
-sunčevo	352		2
+sunčevo	352		3
 suparništvo	169		2
 surovo	2381		3
-susedovo			2
+susedovo			3
 susedstvo	192		3
 susjedstvo		J	3
 susretljivo			3
@@ -1177,10 +1177,10 @@ sustanarstvo			2
 suučesništvo			2
 suvlasništvo	94		2
 suvo	3486		2
-suvozačevo	89		2
+suvozačevo	89		3
 suzdržljivo			3
-sušičavo			2
-suštastvo	50		2
+sušičavo			4
+suštastvo	50		3
 sužanjstvo	46		3
 svadljivo			3
 svakakvo	18		3
@@ -1188,48 +1188,48 @@ svedočanstvo	2818		2
 svekrvo			3
 svetlucavo	77		3
 sveznalaštvo			4
-svećenstvo	16		2
+svećenstvo	16		3
 svečarstvo		M	2
-svečevo			2
-sveštenikovo			2
-sveštenstvo	2220		2
+svečevo			3
+sveštenikovo			3
+sveštenstvo	2220		3
 svilarstvo	13		2
 svinjarstvo	88		2
-svodništvo			2
+svodništvo			3
 svojeglavo	39		3
 svojstvo	3013		2
-tadićevo			2
+tadićevo			3
 tajanstvo	49		2
-tajništvo	44		2
+tajništvo	44		3
 takvo	22068		2
-talasavo		M	2
+talasavo		M	3
 talaštvo			2
 tamnoplavo	15		4
 tapetarstvo			2
-tasićevo			2
+tasićevo			3
 tavo			2
-terpentinovo			2
+terpentinovo			3
 tesarstvo			2
 tetivo			3
 tetovo			3
-teturavo	11		2
+teturavo	11		3
 tigrovo	28		3
 tikvo			2
 tiranstvo			2
 titovo			3
 tkivo	4327		2
-todovićevo			2
+todovićevo			3
 tokarstvo			2
 topioničarstvo			2
 topništvo	12		3
-topolovo			2
+topolovo			3
 traljavo	548		3
 trapavo	231		3
 travarstvo			2
 travo	10		2
 treperavo	43		3
 treptavo			3
-trešnjićevo			2
+trešnjićevo			3
 tričavo			3
 trnovo	20		3
 troglavo			3
@@ -1245,25 +1245,25 @@ tutnjavo			3
 tutorstvo	128		3
 tužilaštvo	12127		4
 tužiteljstvo	198		4
-tvorčevo			2
-tvrdoglavo	802		2
+tvorčevo			3
+tvrdoglavo	802		3
 tvrđavo			3
 ubavo	71		3
 ubedljivo	9690		3
 ubistvo	11505		2
-uboštvo	18		2
+uboštvo	18		3
 udovištvo	20		2
 udvorištvo			2
 ugostiteljstvo	908		2
 uhvatljivo	11		3
-ujakovo			2
+ujakovo			3
 uključivo			3
-ukrivo	69		2
-ulevo	564		2
+ukrivo	69		3
+ulevo	564		3
 ulizištvo		M	2
 uljarstvo			2
 umerenjaštvo		M	2
-umetnikovo	28		2
+umetnikovo	28		3
 umorstvo	36		2
 unjkavo			3
 uočljivo	1128		3
@@ -1276,7 +1276,7 @@ upravo	148707		3
 uputstvo	7018		2
 uredništvo	1094		2
 urokljivo	17		3
-uroševo			2
+uroševo			3
 usamljeništvo			2
 uspavljivo			3
 ustaštvo	140		2
@@ -1288,16 +1288,16 @@ uvo		M	2
 uvredljivo	1237		3
 uzbudljivo	1990		3
 uzdržljivo			3
-učenikovo			2
+učenikovo			3
 učiteljstvo	35		2
 učtivo	384		3
 ušljivo			3
 užarstvo			2
 uživo	8771		3
 vajarstvo	264		2
-valentinovo			2
-vandalstvo			2
-varivo	126		2
+valentinovo			3
+vandalstvo			3
+varivo	126		3
 varljivo	255		3
 varvarstvo	256		2
 vatrogastvo			2
@@ -1311,16 +1311,16 @@ veličanstvo	821		2
 verolomstvo	20		2
 veterinarstvo			2
 vezirstvo			2
-vezivo	124		2
+vezivo	124		3
 vidljivo	4374		3
 vidovnjaštvo	10		2
-vijugavo	33		2
+vijugavo	33		3
 vinarstvo	302		2
 vinogradarstvo	654		2
-visokopreosveštenstvo			2
+visokopreosveštenstvo			3
 visočanstvo	339		2
-vitezovo	13		2
-viteštvo	210		2
+vitezovo	13		3
+viteštvo	210		3
 vizionarstvo			2
 vladičanstvo		M	2
 vlasništvo	10093		3
@@ -1328,18 +1328,18 @@ vlastelinstvo			2
 vlasteostvo			2
 vlastoljubivo			3
 vo		M	1
-vodnjikavo			2
+vodnjikavo			3
 vodstvo	400		2
 vojništvo		M	2
 vojvodstvo	373		3
 volonterstvo			2
 volvo			2
-vozačevo	130		2
+vozačevo	130		3
 voćarstvo	813		2
 vođstvo	8497		2
 voždovo	10		3
 vragolanstvo		M	2
-vračevo			2
+vračevo			3
 vrbovo			3
 vrcavo		M	3
 vrckavo			3
@@ -1350,11 +1350,11 @@ vrskavo			3
 vrtarstvo		M	2
 vrtlarstvo	19		3
 vrtoglavo	672		4
-vujićevo			2
-vukašinovo			2
+vujićevo			3
+vukašinovo			3
 vukovo	156		3
 vunarstvo			2
-vučićevo	76		2
+vučićevo	76		3
 zabavo			3
 zadovoljstvo	26718		2
 zadrugarstvo	282		2
@@ -1378,7 +1378,7 @@ zapovjedništvo		J	2
 zapravo	73648		3
 zarobljeništvo	201		2
 zastupništvo	201		2
-zastupstvo			2
+zastupstvo			3
 zatočeništvo	103		2
 zavarljivo			3
 zavidljivo		M	3
@@ -1387,7 +1387,7 @@ zavodništvo			2
 zdravo	11875		2
 zdravstvo	7958		2
 zelenaštvo	47		2
-zelićevo			2
+zelićevo			3
 zemljodelstvo			2
 zidarstvo	76		2
 zimogrožljivo		M	3
@@ -1401,69 +1401,69 @@ zubarstvo			2
 zveckavo			3
 zverstvo	39		2
 ćelavo	76		3
-ćesarevo			2
+ćesarevo			3
 ćilimarstvo	31		2
 ćoravo			3
-ćorovićevo			2
+ćorovićevo			3
 ćosavo			3
-ćosićevo			2
+ćosićevo			3
 ćudljivo	53		3
 ćutljivo	48		3
 čarobnjaštvo	42		2
-časništvo			2
+časništvo			3
 časovničarstvo			2
 častoljubivo			3
 čađavo	11		3
 čedomorstvo	85		2
-čelarevo			2
-čelništvo			2
+čelarevo			3
+čelništvo			3
 četkarstvo			2
-četništvo	90		2
+četništvo	90		3
 čeznutljivo	15		3
 čežnjivo	143		3
 činovništvo	94		2
 čipkarstvo			2
-čistunstvo	39		2
-čitaočevo			2
+čistunstvo	39		3
+čitaočevo			3
 čitavo	4101		3
 čitljivo	118		3
 članstvo	14593		2
 čojstvo			2
 čovekoljubivo	37		3
-čovekovo	902		2
+čovekovo	902		3
 čovečanstvo	4320		2
-čoveštvo	24		2
+čoveštvo	24		3
 čudaštvo			2
 čudotvorstvo			2
-čumićevo			2
+čumićevo			3
 čupavo	155		3
-čupićevo			2
+čupićevo			3
 čuvstvo	84		2
 đakonstvo			2
 đakovo			3
 đavo		M	2
-đavolovo	17		2
-đilasovo			2
-đinđićevo			2
-đorđevo			2
-đubrivo	2003		2
-đumbirovo			2
-đurićevo			2
-đurišićevo			2
-đurđevo			2
+đavolovo	17		3
+đilasovo			3
+đinđićevo			3
+đorđevo			3
+đubrivo	2003		3
+đumbirovo			3
+đurićevo			3
+đurišićevo			3
+đurđevo			3
 šaljivo	420		3
-šantićevo			2
+šantićevo			3
 šarlatanstvo	77		2
-šarovićevo			2
+šarovićevo			3
 šašavo	159		3
 šefovo			3
-šekspirovo			2
+šekspirovo			3
 šepavo			3
 šeprtljanstvo		M	2
-šeprtljavo			2
-ševićevo			2
+šeprtljavo			3
+ševićevo			3
 ševo			2
-šešeljevo			2
+šešeljevo			3
 šištavo			3
 škakljivo	96		3
 škiljavo			3
@@ -1477,7 +1477,7 @@ zverstvo	39		2
 šljivovo			3
 šmrcavo			3
 šmrkavo			3
-španićevo			2
+španićevo			3
 štedljivo	218		3
 štetočinstvo		M	2
 štivo	2142		2
@@ -1489,7 +1489,7 @@ zverstvo	39		2
 šutljivo		J	3
 šuškavo			3
 šuštavo			3
-šćepanovo			2
+šćepanovo			3
 žalostivo	35		3
 žarkovo			3
 ždralovo			3
@@ -1502,31 +1502,31 @@ zverstvo	39		2
 žmirkavo			3
 žonglerstvo			2
 žrtvo			2
-žutnjikavo			2
+žutnjikavo			3
 žučljivo			3
 bjekstvo			2
 crijevo	71		2
 djetinjstvo			2
 djevo			2
-dječakovo			2
+dječakovo			3
 kijevo			3
 lijevo	551		2
 ljepljivo			3
 ljevo			2
-mjesečevo	25		2
+mjesečevo	25		3
 nalijevo	34		4
 neprocjenjivo			3
 neuvjerljivo			3
 osjetljivo			3
 pjenušavo			3
 povjerljivo			3
-predsjednikovo			2
+predsjednikovo			3
 predsjedništvo		M	4
 sječivo			3
 svjedočanstvo			2
 svjetlucavo			3
 ubjedljivo			3
-ulijevo	49		2
+ulijevo	49		3
 uvjerljivo			3
-čovjekovo			2
+čovjekovo			3
 čovječanstvo			2

@@ -1,6 +1,6 @@
 89
-antidot			2
-autopilot	33		2
+antidot			3
+autopilot	33		3
 azot	826		2
 bankrot	3485		2
 baškot			2
@@ -15,17 +15,17 @@ drot			1
 džekpot		M	2
 eliot			2
 fagot	86		2
-feribot	74		2
+feribot	74		3
 fokstrot	32		2
 fot			1
 fotorobot	45		2
 grohot	43		2
 helot			2
-herodot			2
+herodot			3
 idiot	1093		2
 jackpot	40		2
 kabot			2
-kamelot			2
+kamelot			3
 kihot			2
 kikot	99		2
 klokot	84		2
@@ -35,10 +35,10 @@ kojot	211		2
 kokot	33		2
 komplot	20		2
 kompot	225		2
-kontrafagot			2
-kopilot	145		2
+kontrafagot			3
+kopilot	145		3
 kot			1
-lanselot			2
+lanselot			3
 lapot			2
 lokot	20		2
 lot			1
@@ -47,26 +47,26 @@ merlot	214		2
 mot			1
 mrmot	136		2
 nakot	110		2
-nanobot			2
+nanobot			3
 nasuprot	8815		3
 nepot			2
 not			1
 okot	75		2
 omot	626		2
 ot			1
-panajot			2
+panajot			3
 patriot	534		2
 pilot	5108		2
 pirot			2
 pivot	395		2
 plot	281		1
-poliglot			2
+poliglot			3
 pot	952		1
 predživot			3
-redengot			2
+redengot			3
 robot	2324		2
-sankilot			2
-saživot			2
+sankilot			3
+saživot			3
 sirot			2
 skot			1
 slot	1635		1
@@ -79,7 +79,7 @@ tarot	341		2
 topot	126		2
 trenčkot	10		2
 troskot			2
-turandot			2
+turandot			3
 zelot			2
 zigot			2
 ćivot	184		2

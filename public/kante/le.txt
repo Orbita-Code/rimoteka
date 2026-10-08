@@ -5,33 +5,33 @@ Brisele			3
 Istanbule			4
 Izraele			4
 admirale	66		2
-afirmisale	52		2
-agitovale			2
+afirmisale	52		3
+agitovale			3
 ajkule	706		3
 aktivirale	122		3
 akvarele	67		3
 alarmirale			3
 ale	387		2
 alveole	89		2
-ampule	285		2
+ampule	285		3
 anale	387		2
 anektirale			3
-angažovale	200		2
-angele			2
+angažovale	200		3
+angele			3
 animirale	17		3
 ansamble			2
-antrfile	560		2
+antrfile	560		3
 anđele	749		3
 apele	346		3
 apelovale	80		5
 apostole	728		4
-aranđele			2
-arlaukale			2
+aranđele			3
+arlaukale			3
 arsenale	39		2
-artikle			2
+artikle			3
 astale			2
-atile			2
-aule	23		2
+atile			3
+aule	23		3
 automobile	9947		2
 avale			2
 azile	76		2
@@ -39,28 +39,28 @@ bacale	205		3
 bacile	355		2
 bagdale			2
 bakale			2
-bakcile			2
+bakcile			3
 bale	360		2
-bandažirale			2
+bandažirale			3
 bankrotirale			3
-barkarole			2
+barkarole			3
 batinale			3
 bauljale			3
 bavile	986		3
-bazdile			2
+bazdile			3
 beknule			3
 bele	1200		2
-belele			2
+belele			3
 beležile	210		4
 belile			3
-berlinale			2
+berlinale			3
 bežale	128		3
 bicikle			2
-bijenale	339		2
+bijenale	339		3
 bile	95266		2
-biosignale			2
+biosignale			3
 birale	241		3
-bitisale			2
+bitisale			3
 bivale	226		3
 bivole	16		3
 bičevale			4
@@ -69,14 +69,14 @@ blejale			3
 bleskale			3
 blesnule	10		3
 bleštale	13		3
-bliještile		J	2
+bliještile		J	3
 blistale	112		3
 bližile	14		3
 blokirale	280		3
 bockale			3
 bogatile	27		4
 bogohule			2
-bogumile			2
+bogumile			3
 bojale	46		3
 bojile	31		3
 bokale	32		2
@@ -84,23 +84,23 @@ bole	2117		2
 bolele	157		3
 bolovale	50		3
 boravile	271		4
-bordele			2
+bordele			3
 borile	776		3
 brale	420		2
 branile	242		3
-bratile			2
-bratimile			2
+bratile			3
+bratimile			3
 brbljale			3
-brborile			2
-bretele	190		2
+brborile			3
+bretele	190		3
 brinule	151		3
 brisale	39		3
 brojale	99		3
 brojile	11		3
 brokole			3
 brokule	34		3
-bronhiole	26		2
-brstile			2
+bronhiole	26		3
+brstile			3
 brujale	29		3
 budale	2910		2
 budile	71		3
@@ -111,8 +111,8 @@ bunile	70		3
 busole	17		3
 bučale			2
 bušile	18		3
-carevale			2
-carovale	14		2
+carevale			3
+carovale	14		3
 cedile	10		3
 cele	29110		2
 celivale			3
@@ -125,9 +125,9 @@ cile		M	2
 ciljale	18		3
 cipele	7158		3
 cirkle			2
-citadele	82		2
+citadele	82		3
 civile	1460		2
-cokule			2
+cokule			3
 crkle	50		2
 crnele			3
 crple	13		2
@@ -138,69 +138,69 @@ cvile	126		2
 cvrkutale	24		4
 dakle	134206		2
 dangubile			4
-danijele			2
+danijele			3
 darivale	25		3
-datirale			2
-datule	18		2
+datirale			3
+datule	18		3
 davale	1135		3
 davile	10		3
 debakle			2
 debele	1969		3
 debile	133		2
-decimale	182		2
+decimale	182		3
 defile		M	2
 dele	12634		2
 delile	520		3
 delovale	792		4
-demolirale	13		2
+demolirale	13		3
 desile	1376		3
 dešavale	1121		3
-dežurale	36		2
+dežurale	36		3
 digle	152		2
 dijagonale	1843		2
-dinamizovale			2
+dinamizovale			3
 dinstale			3
 diple	74		2
 dirale	22		3
-dirigovale			2
+dirigovale			3
 dirnule	38		3
 divile	38		3
 divljale	38		3
 dizale	173		3
-dizele	121		2
+dizele	121		3
 dobacivale	14		3
 dobijale	879		3
 dobile	7707		3
 dobivale	21		3
-dobrile			2
+dobrile			3
 dobrodošle	658		2
 dodale	149		3
 dodavale	43		3
-dodele	4190		2
+dodele	4190		3
 dodelile	132		3
 dodeljivale	44		3
-dodijale	12		2
+dodijale	12		3
 dodirivale	76		3
 dodirnule	36		3
 dodole			3
 događale	349		3
 dogodile	1172		3
-dogorevale			2
+dogorevale			3
 dogovorile	833		3
-dograbile			2
-dogurale	30		2
+dograbile			3
+dogurale	30		3
 dohvatile	20		4
-dojadile	27		2
+dojadile	27		3
 dojile	77		3
 dokazale	536		3
 dokazivale	33		3
 dokle	17526		2
-dokončale			2
+dokončale			3
 dolazile	1527		4
 dole	16424		2
-doletale			2
-doletele	36		2
-domilele			2
+doletale			3
+doletele	36		3
+domilele			3
 dominirale	480		3
 donekle	10816		3
 donele	2587		2
@@ -214,31 +214,31 @@ doplovile			3
 doprinele	1550		2
 doprle	97		2
 dopustile	115		3
-doputovale	74		2
+doputovale	74		3
 dopuštale	64		3
-dorasle	103		2
+dorasle	103		3
 dosadile	153		3
 dosađivale			3
 dosegle	96		2
 dosele	94		2
 doselile	82		3
-dosetile	54		2
+dosetile	54		3
 dosezale	39		3
-dospele	1038		2
+dospele	1038		3
 dostavile	426		4
 dostigle	983		3
-dotakle	117		2
-doticale	27		2
+dotakle	117		3
+doticale	27		3
 dotle	7776		2
-dotrajale	495		2
+dotrajale	495		3
 dotrčale	14		3
-dotukle	19		2
-dovabile			2
+dotukle	19		3
+dovabile			3
 dovele	3009		2
 dovodile	215		3
-dovukle	16		2
+dovukle	16		3
 doznale	11		3
-dozrele	24		2
+dozrele	24		3
 dozvole	17389		3
 dozvolile	680		3
 dočekale	517		4
@@ -247,14 +247,14 @@ dočepale	30		3
 došle	4888		2
 doživele	992		3
 doživljavale	112		3
-drakule			2
-drešile			2
+drakule			3
+drešile			3
 drhtale			2
 drljale			2
 družile	132		3
 držale	850		3
 duble			2
-duele	614		2
+duele	614		3
 dule			2
 dunule			3
 duple	781		2
@@ -263,38 +263,38 @@ džukele	79		3
 džungle	656		2
 ebole	59		3
 eksplodirale	194		3
-emanuele			2
-emitovale	170		2
+emanuele			3
+emitovale	170		3
 epistole	15		3
-epitele			2
-ergele	329		2
-eskadrile	231		2
-eskalirale	40		2
-espadrile	45		2
-evakuisale	52		2
+epitele			3
+ergele	329		3
+eskadrile	231		3
+eskalirale	40		3
+espadrile	45		3
+evakuisale	52		3
 evoluirale	126		3
-fabule	237		2
+fabule	237		3
 fale	1198		2
 falile	74		3
 farfale			2
 fascikle	356		2
 fascinirale	41		3
 favele	77		3
-feldmaršale			2
+feldmaršale			3
 festivale	833		2
 fibule	120		3
 fijale			2
-fijukale			2
+fijukale			3
 file	962		2
-filijale	3205		2
+filijale	3205		3
 finale	13207		2
-fistule	148		2
+fistule	148		3
 fiškale			2
 flertovale			4
 floskule	651		3
-flotile	194		2
+flotile	194		3
 fokusirale	49		3
-folikule	91		2
+folikule	91		3
 formirale	901		3
 formule	4410		3
 fosile	154		2
@@ -303,9 +303,9 @@ frule	248		2
 funkcionisale	408		4
 furale			2
 futrole			3
-gabrijele			2
+gabrijele			3
 gadile	10		3
-garnišle			2
+garnišle			3
 gasile	103		3
 gazele	548		2
 gazile	47		3
@@ -315,14 +315,14 @@ generale	958		2
 gerile	222		2
 gile			2
 gladiole	39		2
-gladovale	18		2
+gladovale	18		3
 glagole	184		3
 glasale	401		3
 glasile	66		3
 gle		M	1
 gledale	761		3
 glumile	46		3
-gnezdile			2
+gnezdile			3
 gnjavile			3
 gnječile			3
 gnjile	19		2
@@ -333,8 +333,8 @@ gomile	3815		3
 gondole	634		3
 gonile	43		3
 gorele	229		3
-gorgonzole	49		2
-gorile	184		2
+gorgonzole	49		3
+gorile	184		3
 gospodarile	29		3
 govorile	1416		3
 grable			2
@@ -343,7 +343,7 @@ graktale			2
 granale			2
 graničile	33		4
 granole			3
-granule	460		2
+granule	460		3
 grebale	13		3
 grejale	51		2
 grešile	78		3
@@ -353,24 +353,24 @@ grile			2
 grizle	13		2
 grle	405		2
 grlile	37		3
-grmile			2
-grunule	14		2
-grupisale	26		2
-guacamole			2
+grmile			3
+grunule	14		3
+grupisale	26		3
+guacamole			3
 gubile	323		3
-gungule			2
+gungule			3
 gurale	102		3
 gurnule	73		3
 gusle	1011		2
 gutale	33		3
 gušile	36		3
-gvakamole			2
-gvatemale			2
+gvakamole			3
+gvatemale			3
 hale	5150		2
-halile			2
-hapsile			2
+halile			3
+hapsile			3
 harale	91		3
-herkule			2
+herkule			3
 hiperbole	58		3
 hitale	14		3
 hodale	78		3
@@ -380,7 +380,7 @@ hrabrile	14		3
 hramale			2
 hranile	173		3
 hrle	471		2
-hrlile	16		2
+hrlile	16		3
 htele	1139		2
 hule	167		2
 hvale	5650		2
@@ -391,217 +391,217 @@ identifikovale	117		6
 idile	244		2
 idole	760		2
 igle	1508		2
-ignorisale	108		2
+ignorisale	108		3
 igrale	1909		3
 imale	17786		3
 imbecile	29		2
 imele	93		3
 imenovale	73		5
 impresionirale	34		3
-inficirale			2
+inficirale			3
 inicijale	237		2
-inicirale	145		2
+inicirale	145		3
 inkunabule	25		3
-inspirisale	182		2
-integrale	72		2
-interesovale	214		2
+inspirisale	182		3
+integrale	72		3
+interesovale	214		3
 intervale	285		2
 iole		M	3
 iritirale	35		3
 iscedile			3
 iscele	48		2
 iscelile	11		3
-iscrpele			2
+iscrpele			3
 iscrple	23		2
 iscurile	18		3
 isele	595		2
 iselile	57		3
-isflekale			2
-ishodile			2
+isflekale			3
+ishodile			3
 iskakale	42		3
 iskapale			3
 iskazale	267		3
 isključile	151		3
-iskomplikovale	38		2
+iskomplikovale	38		3
 iskopale	30		3
 iskoristile	944		4
-iskorišćavale	14		2
+iskorišćavale	14		3
 iskočile	72		3
 iskrcale	43		3
 iskrile	13		3
-iskrsle			2
+iskrsle			3
 iskupile			3
 iskusile	100		3
-ismevale			2
+ismevale			3
 ismijavale			3
 ispadale	83		4
 ispale	655		2
-ispalile	62		2
-isparile	54		2
-ispaštale			2
+ispalile	62		3
+isparile	54		3
+ispaštale			3
 ispekle	23		3
-ispevale			2
+ispevale			3
 ispisivale	20		3
 ispitale	66		3
 ispitivale	64		3
-isplanirale	28		2
+isplanirale	28		3
 isplatile	217		3
 isplele	14		3
 isplivale	144		4
 isplovile			3
-ispoljavale	55		2
+ispoljavale	55		3
 isporučile	64		3
 isprale	24		3
 ispratile	116		4
 ispraznile	64		3
-ispraćale	16		2
-ispreplele	14		2
-isprečile	44		2
+ispraćale	16		3
+ispreplele	14		3
+isprečile	44		3
 ispričale	116		3
 isprobavale	10		3
-isprsile			2
-ispržile			2
-ispucale	355		2
+isprsile			3
+ispržile			3
+ispucale	355		3
 ispunile	755		4
 ispunjavale	183		3
 ispuštale	48		3
 istakle	527		3
-istanjile	15		2
-istekle	106		2
+istanjile	15		3
+istekle	106		3
 isterale	39		4
 isticale	222		4
 istopile	78		3
-istrajale	16		2
+istrajale	16		3
 istraživale	74		3
 istrebile			3
-istresale			2
+istresale			3
 istrošile	60		3
-istrule	32		2
-istrulele			2
-istrulile	15		2
-istrunule			2
+istrule	32		3
+istrulele			3
+istrulile	15		3
+istrunule			3
 istupale			3
 istupile	59		3
 isušile	11		3
-izabele			2
+izabele			3
 izabrale	436		3
-izanđale			2
-izaslale			2
+izanđale			3
+izaslale			3
 izazivale	273		3
 izazvale	1657		3
 izašle	1670		2
 izbacile	212		3
 izbavile			4
 izbegavale	102		3
-izbegle	1436		2
+izbegle	1436		3
 izbijale	105		3
 izbile	333		3
-izbledele	166		2
+izbledele	166		3
 izbole			2
 izborile	475		3
 izbrisale	61		4
-izbrusile			2
+izbrusile			3
 izdale	393		3
 izdavale	154		3
-izdele	25		2
-izdešavale	59		2
-izdigle	25		2
+izdele	25		3
+izdešavale	59		3
+izdigle	25		3
 izdržale	192		3
 izdržavale	30		4
 izdvajale	96		3
 izdvojile	440		3
-izgazile			2
-izginule	63		2
-izgladile	18		2
-izgladnele	89		2
-izglasale	53		2
+izgazile			3
+izginule	63		3
+izgladile	18		3
+izgladnele	89		3
+izglasale	53		3
 izgledale	1319		3
-izgorele	286		2
+izgorele	286		3
 izgovarale	45		3
 izgradile	396		3
-izgrle			2
+izgrle			3
 izgubile	2386		3
-izigrale	15		2
-izigravale			2
+izigrale	15		3
+izigravale			3
 iziskivale	42		3
 izišle	54		2
-izjalovile	48		2
+izjalovile	48		3
 izjasnile	181		3
 izjavile	271		3
-izjele			2
-izlapele			2
+izjele			3
+izlapele			3
 izlazile	597		4
-izlegale			2
-izlegle	58		2
-izletele	48		2
+izlegale			3
+izlegle	58		3
+izletele	48		3
 izlečile	33		3
-izlile	102		2
+izlile	102		3
 izlizale	29		3
 izložile	137		3
-izludele			2
+izludele			3
 izmakle	127		3
-izmaštale			2
-izmenile	291		2
-izmenjivale			2
-izmešale	43		2
+izmaštale			3
+izmenile	291		3
+izmenjivale			3
+izmešale	43		3
 izmicale	26		4
-izmile	27		2
-izmirile	76		2
+izmile	27		3
+izmirile	76		3
 izmisle	456		3
 izmislile	98		4
 izmišljale	21		3
 izmole	35		3
-izmolile			2
+izmolile			3
 iznajmile	26		3
-iznedrile	86		2
+iznedrile	86		3
 iznele	438		2
-iznemogle	113		2
+iznemogle	113		3
 iznenadile	234		3
-izneverile	29		2
-iznikle	132		2
+izneverile	29		3
+iznikle	132		3
 iznosile	972		3
-iznurile			2
+iznurile			3
 izolovale	17		5
 izostale	460		3
 izradile	165		3
-izranjale	11		2
+izranjale	11		3
 izrasle	209		2
 izrastale	15		3
 izrazile	595		3
-izrađale			2
+izrađale			3
 izrađivale	80		3
 izražavale	85		3
 izrekle	45		3
 izrodile	69		3
-izrugale			2
+izrugale			3
 izručile	46		3
-izujedale			2
+izujedale			3
 izumrle	295		2
 izvadile	34		4
 izvale	46		2
 izvele	542		2
 izvestile	112		3
 izvezle	51		2
-izvile			2
+izvile			3
 izvinile	16		3
-izvirale	22		2
-izvirile			2
+izvirale	22		3
+izvirile			3
 izvlačile	74		3
 izvodile	273		3
-izvojevale	58		2
+izvojevale	58		3
 izvole	133		3
 izvozile	72		3
-izvrnule			2
+izvrnule			3
 izvršavale	57		4
 izvršile	868		3
-izvršivale			2
+izvršivale			3
 izvukle	278		2
-išetale			2
+išetale			3
 išle	2111		2
-ištetile			2
-iščezavale	10		2
-iščezle	97		2
-iščile			2
+ištetile			3
+iščezavale	10		3
+iščezle	97		3
+iščile			3
 iščupale	12		3
 jadikovale			5
 jahale	10		3
@@ -620,65 +620,65 @@ jurišale	12		3
 jurnule	15		3
 kabale	79		2
 kabele			3
-kabile			2
+kabile			3
 kale	492		2
-kaligule			2
-kamarile	145		2
+kaligule			3
+kamarile	145		3
 kamile	441		3
-kampovale			2
+kampovale			3
 kanale	3444		2
-kanalisale			2
+kanalisale			3
 kanibale	15		4
 kapale	27		3
 kapele	1196		2
-kapisle			2
+kapisle			3
 kapitale	57		2
 kapljale			2
 kapsule	1448		3
-karambole			2
-karamele	163		2
+karambole			3
+karamele	163		3
 karanfile	56		3
-karaule	213		2
+karaule	213		3
 kardinale	59		2
 karle			2
 karnevale	28		2
 kartele	85		3
-kaserole			2
+kaserole			3
 kaskale			3
 kasnile	174		3
-kastele			2
-kastijele			2
+kastele			3
+kastijele			3
 katedrale	1041		2
 kavale	90		2
 kazale	113		3
 kazivale	33		3
 kaznile	85		3
-kačile	34		2
+kačile	34		3
 kašljale			3
-kašljucale			2
-kaštele			2
+kašljucale			3
+kaštele			3
 kažnjavale	46		3
 kefale			2
 kegle	65		2
-kezele			2
+kezele			3
 kible			2
 kidale	25		3
 kifle	439		2
 kikotale	25		3
 kile	671		2
-kirile			2
-kisele	1049		2
+kirile			3
+kisele	1049		3
 kitile	23		3
 kladile			3
 klale	52		2
 klasale			2
-klatile	26		2
-klauzule	771		2
+klatile	26		3
+klauzule	771		3
 klecale	30		3
 kleknule			3
-klepetale			2
+klepetale			3
 klečale	14		3
-klijentele	166		2
+klijentele	166		3
 klimale	11		2
 klizale	14		3
 klizile	79		3
@@ -686,27 +686,27 @@ kljucale	11		2
 kljukale			2
 ključale	224		3
 klonile			3
-klonule	37		2
+klonule	37		3
 knedle	391		2
 koale	54		2
 kobile	355		3
-kokile			2
+kokile			3
 koktele	706		3
 kole	844		2
-kolutale	12		2
+kolutale	12		3
 komešale	10		3
 kontrole	27799		2
-kontrolisale	253		2
+kontrolisale	253		3
 konzole	2724		3
 konzule	52		3
 kopale	29		3
 kopile	240		3
-kopirale	36		2
+kopirale	36		3
 kopole			3
 korale	57		2
 korile			3
 koristile	2115		4
-kostrešile			2
+kostrešile			3
 kotirale	25		3
 kozle			2
 kočile	46		3
@@ -716,7 +716,7 @@ krasile	242		3
 krckale			3
 kreirale	169		3
 kreketale			3
-kremenadle	16		2
+kremenadle	16		3
 krenule	2549		3
 kretale	642		3
 kreštale			3
@@ -726,15 +726,15 @@ krile	167		2
 kristale	373		2
 krivile	18		3
 kričale			3
-krmenadle			2
+krmenadle			3
 krojile	35		3
 krokodile	112		3
 kročile	17		3
-krpele			2
+krpele			3
 krstarile	37		4
 krstile	18		3
 krtole			3
-krunile			2
+krunile			3
 kružile	310		3
 krvarile	30		4
 krčile	18		3
@@ -745,7 +745,7 @@ kugle	2399		2
 kukale	31		3
 kule	4447		2
 kuljale	13		2
-kumovale	86		2
+kumovale	86		3
 kupale	48		3
 kupile	556		3
 kupole	865		3
@@ -757,7 +757,7 @@ kvasile	28		3
 kvintale			2
 lagale	56		3
 lale	954		2
-lamele	502		2
+lamele	502		3
 lansirale	95		3
 laskale			3
 lebdele	38		3
@@ -766,7 +766,7 @@ lejle			2
 lele			2
 lepile	68		3
 lepršale	42		3
-letele			2
+letele			3
 lečile	91		3
 ležale	264		3
 liberale	263		2
@@ -777,7 +777,7 @@ lizale	22		3
 ličile	222		3
 lišile	42		3
 ljubile	72		3
-ljudmile			2
+ljudmile			3
 ljuljale	32		3
 locirale	23		3
 logorovale			5
@@ -785,34 +785,34 @@ lokale	816		2
 lole			2
 lomile	87		3
 lovile	46		3
-ludmile			2
+ludmile			3
 ludovale	12		3
 lule	366		2
 lunjale			3
 lupale	28		3
 lutale	62		3
 madrigale			2
-magistrale	1396		2
+magistrale	1396		3
 magle	2440		2
 mahale	332		3
-mahnitale			2
+mahnitale			3
 malaksale	23		3
 male	42109		2
 maltretirale	32		3
 mamile	89		3
 mandule			3
-manevrirale			2
+manevrirale			3
 mangale			2
-manile			2
-mantile			2
+manile			3
+mantile			3
 markale			2
 maršale	34		2
-marširale	42		2
+marširale	42		3
 materijale	5752		2
-matrikule			2
+matrikule			3
 mazale	17		3
 maznule			3
-maškule			2
+maškule			3
 mekšale			3
 memle			2
 mengele			3
@@ -824,27 +824,27 @@ metle	361		2
 metropole	954		3
 mešale	133		3
 micale	30		3
-mihaile			2
-mihovile			2
+mihaile			3
+mihovile			3
 mile	3949		2
 milovale	27		4
 mimoišle	59		2
 minerale	1019		2
 minirale	17		3
-minule	1252		2
-minuskule			2
+minule	1252		3
+minuskule			3
 mirisale	123		3
 misle	29444		2
 mislile	360		3
 mjuzikle			3
 množile	44		3
-mobile	871		2
-mobilisale	24		2
-mocarele			2
+mobile	871		3
+mobilisale	24		3
+mocarele			3
 modele	10373		3
-modrile			2
-module	1455		2
-mogile			2
+modrile			3
+module	1455		3
+mogile			3
 mogle	20591		2
 mole	3333		2
 molekule	719		3
@@ -852,60 +852,60 @@ molile	133		3
 mongole			3
 monopole	443		4
 morale	3904		2
-morbile			2
-morile	25		2
+morbile			3
+morile	25		3
 motale	34		3
 motele	46		2
 motocikle			2
-motorole			2
+motorole			3
 mrkle			2
 mrmljale			3
 mrsile			3
-mrzele			2
+mrzele			3
 mrzle			2
-mrčile			2
-mršavile			2
+mrčile			3
+mršavile			3
 mukle	23		2
 mule	113		2
 murale	75		2
 mučile	212		3
-muškatle			2
+muškatle			3
 mušmule	43		3
-muštikle			2
+muštikle			3
 nabavile	72		4
 nabrajale			3
-nabrekle	129		2
+nabrekle	129		3
 nabubrile	11		4
-nabujale	222		2
-nacionale	243		2
+nabujale	222		3
+nacionale	243		3
 nadahnule	18		3
-nadgledale			2
-nadigrale	42		2
-nadilazile			2
+nadgledale			3
+nadigrale	42		3
+nadilazile			3
 nadimale	22		4
-nadirale	40		2
+nadirale	40		3
 nadjačale	24		3
 nadmašile	78		4
-nadmetale	109		2
-nadolazile	17		2
+nadmetale	109		3
+nadolazile	17		3
 nadole		M	3
 nadovezale	37		3
-nadošle	30		2
+nadošle	30		3
 nadule	11		3
 nadvile	39		3
 nadvisile	15		3
 nadvladale	25		3
-nadvlačile			2
-nadzirale			2
+nadvlačile			3
+nadzirale			3
 nadživele	22		3
-nagazile			2
+nagazile			3
 naginjale	14		4
 naglasile	115		3
 nagle	1010		2
 nagnale	31		2
-nagomilale	68		2
-nagonile			2
-nagorele	42		2
+nagomilale	68		3
+nagonile			3
+nagorele	42		3
 nagovarale	11		3
 nagovorile	20		3
 nagradile	31		3
@@ -913,59 +913,59 @@ nagrdile			3
 nagrnule	28		3
 nahranile	18		3
 nahrupile			3
-nahvatale			2
+nahvatale			3
 nailazile	113		4
 naišle	363		2
 najavile	989		3
-najposle		M	2
-nakisele			2
-nakitile			2
+najposle		M	3
+nakisele			3
+nakitile			3
 nakupile	54		4
 nalagale	50		3
 nalazile	1805		4
-nalegle	20		2
-naletale			2
-naletele	21		2
+nalegle	20		3
+naletale			3
+naletele	21		3
 nalikovale	16		5
-nalile			2
+nalile			3
 naljutile	36		3
 naložile	84		3
 nameravale	59		3
 namestile	31		4
 nametale	108		3
 nametnule	328		4
-namisle			2
+namisle			3
 namnožile	60		3
-nanele	344		2
-nanosile	43		2
-nanule			2
+nanele	344		3
+nanosile	43		3
+nanule			3
 naoružale	13		3
 naočale	225		4
 napadale	192		4
-napajale	18		2
+napajale	18		3
 napale	578		2
-napasle			2
+napasle			3
 napele			2
 napile	27		3
 napisale	234		3
-naplatile	104		2
+naplatile	104		3
 napominjale			4
 napravile	2055		4
 napredovale	341		5
-napukle	54		2
+napukle	54		3
 napunile	180		4
 napustile	549		3
 napuštale	89		3
-narasle	322		2
-naredile	138		2
-naređivale			2
-nargile			2
+narasle	322		3
+naredile	138		3
+naređivale			3
+nargile			3
 naricale	11		3
 naručile	70		3
 naručivale	29		3
-narušavale	32		2
-narušile	114		2
-nasedale			2
+narušavale	32		3
+narušile	114		3
+nasedale			3
 nasele	390		2
 naselile	100		3
 naseljavale	74		3
@@ -979,16 +979,16 @@ nastanile	62		3
 nastavile	1294		4
 nastavljale	80		4
 nastojale	249		4
-nastojele			2
-nastradale	381		2
+nastojele			3
+nastradale	381		3
 nastupale	324		3
 nastupile	827		3
 natapale	10		3
 natekle	32		2
 naterale	333		4
-naterivale			2
+naterivale			3
 natopile			3
-natrule	21		2
+natrule	21		3
 naudile	18		4
 naumile	21		3
 naučile	507		3
@@ -998,64 +998,64 @@ navaljivale			3
 navele	612		2
 navijale	34		3
 navikavale			3
-navikle	381		2
-navirale	67		2
+navikle	381		3
+navirale	67		3
 navodile	100		3
 navraćale			4
-navrle	28		2
-nazirale	81		2
+navrle	28		3
+nazirale	81		3
 nazivale	146		3
 nazvale	173		3
 načale			2
 načele	18		2
 načinile	208		3
-načičkale			2
+načičkale			3
 našale	79		2
-našarale			2
+našarale			3
 našle	3438		2
-nažuljale			2
-nebule			2
-nedorasle			2
+nažuljale			3
+nebule			3
+nedorasle			3
 nedostajale	253		4
-nedozrele	35		2
+nedozrele	35		3
 negirale	53		3
 negovale	92		4
 nekropole	368		3
 nemale	79		2
-nemetale	40		2
+nemetale	40		3
 nemile	262		3
-nepresahle			2
+nepresahle			3
 nervirale	60		3
 nestajale	227		4
 nestale	2441		2
 nestle			2
 nesuvisle	125		4
-nesvijetle		J	2
-neumrle			2
+nesvijetle		J	3
+neumrle			3
 neuspele	646		4
 nevaljale	208		3
-nevesele	86		2
+nevesele	86		3
 nezrele	231		3
-nešpule			2
+nešpule			3
 nicale	159		3
 nikle	254		2
 nikole			3
-niodakle			2
+niodakle			3
 nizale	266		3
 njakale			3
 njegovale			4
 njihale	41		3
 njuškale			2
-nominale	78		2
-nominovale	16		2
+nominale	78		3
+nominovale	16		3
 nosile	1590		3
-novele	626		2
-novopridošle	83		2
+novele	626		3
+novopridošle	83		3
 nudile	352		3
 nudle			2
 nule	4052		2
 obale	10550		3
-obamrle	16		2
+obamrle	16		3
 obasipale	10		4
 obasjale	18		3
 obasule			2
@@ -1064,11 +1064,11 @@ obavezale	417		3
 obavijale	15		3
 obavile	411		4
 obavljale	377		4
-obazirale	23		2
-obeležile	1386		2
+obazirale	23		3
+obeležile	1386		3
 obesile			4
-obesmisle			2
-obezbedile	1275		2
+obesmisle			3
+obezbedile	1275		3
 obećale	304		3
 obećavale	167		3
 obgrle	16		3
@@ -1081,33 +1081,33 @@ objavile	1645		3
 objedinile	47		3
 oblačile	75		3
 oble			2
-obletale	11		2
-obletele			2
+obletale	11		3
+obletele			3
 oblikovale	152		5
-oblile	10		2
+oblile	10		3
 obnavljale	35		3
-obnevidele			2
+obnevidele			3
 obnovile	139		3
 obogatile	161		4
 obole	683		3
-obolele	2312		2
-oboljele	48		2
+obolele	2312		3
+oboljele	48		3
 oborile	131		3
 obožavale	62		3
 obradovale	165		5
 obrale			2
-obrasle	229		2
+obrasle	229		3
 obratile	234		3
 obrazovale	106		5
 obraćale	121		4
 obrađivale	86		3
-obrele	26		2
-obretale			2
+obrele	26		3
+obretale			3
 obrezale			4
 obrisale	15		4
-obrstile			2
-obrušile	53		2
-obudovele			2
+obrstile			3
+obrušile	53		3
+obudovele			3
 obuhvatale	204		4
 obuhvatile	192		4
 obukle	123		2
@@ -1117,67 +1117,67 @@ obuzele	28		2
 obuzimale	14		4
 obučavale	42		3
 obučile	16		3
-obznanile	23		2
-ocedile			2
+obznanile	23		3
+ocedile			3
 ocenile	276		3
-ocrtavale	70		2
+ocrtavale	70		3
 ocvale	22		2
 odabrale	225		3
-odagnale	29		2
-odahnule	17		2
+odagnale	29		3
+odahnule	17		3
 odakle	30157		3
-odanle			2
-odatle	9652		2
+odanle			3
+odatle	9652		3
 odavale	71		3
-odavle			2
+odavle			3
 odazivale	11		3
 odazvale	217		3
 odbacile	262		3
 odbacivale	29		3
-odbegle	114		2
+odbegle	114		3
 odbijale	169		3
 odbile	615		3
 odbranile	106		3
-odebljale			2
+odebljale			3
 odele	20		3
-odgajale	33		2
-odgajile	30		2
-odglumile			2
-odgojile	10		2
+odgajale	33		3
+odgajile	30		3
+odglumile			3
+odgojile	10		3
 odgovarale	462		3
 odgovorile	421		3
 odigrale	1142		4
-odigravale	79		2
-odisale	40		2
+odigravale	79		3
+odisale	40		3
 odjekivale	62		3
 odjeknule	112		3
 odjele			3
 odlazile	309		4
-odlepile	38		2
+odlepile	38		3
 odletele	59		3
 odlikovale	92		5
-odložile	109		2
+odložile	109		3
 odlutale	39		3
 odlučile	1933		3
 odlučivale	281		3
-odmagle			2
-odmakle	188		2
-odmenile			2
+odmagle			3
+odmakle	188		3
+odmenile			3
 odmeravale	25		3
 odmicale	39		4
-odmrzavale			2
+odmrzavale			3
 odnekle		M	3
 odnele	407		2
 odnosile	977		3
 odobrile	416		3
-odocnele			2
+odocnele			3
 odole	456		2
 odolele	77		3
 odolevale	30		3
-odomaćile	77		2
-odozdole			2
+odomaćile	77		3
+odozdole			3
 odradile	239		3
-odrasle	7723		2
+odrasle	7723		3
 odrastale	174		3
 odrazile	158		3
 odražavale	75		3
@@ -1185,29 +1185,29 @@ odredile	415		3
 odrekle	180		3
 određivale	133		3
 odricale	19		3
-odronjavale			2
+odronjavale			3
 održale	807		3
 održavale	685		4
 odsecale	13		3
 odsekle	62		3
-odsele	144		2
-odselile	33		2
-odstajale			2
+odsele	144		3
+odselile	33		3
+odstajale			3
 odstranile	35		3
 odstrele	29		3
 odstupale	28		3
 odstupile	32		3
 odudarale	31		4
-odumrle	71		2
+odumrle	71		3
 odustajale	42		4
 odustale	353		3
 oduzele	207		2
 oduzimale	44		4
-oduševile	198		2
-oduševljavale	31		2
+oduševile	198		3
+oduševljavale	31		3
 odvajale	82		3
 odvele	236		2
-odvezivale			2
+odvezivale			3
 odvezle	22		2
 odvijale	641		3
 odvlačile	19		3
@@ -1216,96 +1216,96 @@ odvojile	183		3
 odvratile	46		3
 odvukle	41		2
 odzvanjale	93		3
-oformile	73		2
-ogladnele			2
-oglasile	267		2
-oglašavale	57		2
+oformile	73		3
+ogladnele			3
+oglasile	267		3
+oglašavale	57		3
 ogledale	95		3
-oglodale			2
-oglušile	33		2
+oglodale			3
+oglušile	33		3
 ogole	70		3
-ogolele	30		2
-ogorčavale			2
-ogorčile			2
+ogolele	30		3
+ogorčavale			3
+ogorčile			3
 ogovarale	24		3
 ogradile	22		3
 ograničile	127		4
-ogrezle	89		2
-ogrtale			2
-ogrubele	22		2
+ogrezle	89		3
+ogrtale			3
+ogrubele	22		3
 ohladile	71		3
-ohladnele			2
+ohladnele			3
 ohole	88		3
 ohrabrile	111		3
 ohrabrivale	26		3
-ojadile	24		2
-ojačale	400		2
-okamenile			2
-okasnile			2
+ojadile	24		3
+ojačale	400		3
+okamenile			3
+okasnile			3
 okitile	64		4
 okle			2
 oklevale	19		3
-oklevetale			2
-okliznule			2
-okomile	29		2
+oklevetale			3
+okliznule			3
+okomile	29		3
 okončale	192		3
-okorele	107		2
+okorele	107		3
 okovale	16		3
-okoštale	60		2
-okoštavale			2
-okraćale			2
+okoštale	60		3
+okoštavale			3
+okraćale			3
 okrenule	275		3
-okrepile			2
+okrepile			3
 okretale	87		3
 okrivile	17		3
 okrugle	1101		2
 okružile	47		3
 okruživale	82		3
 okupile	571		4
-okupirale	240		2
+okupirale	240		3
 okupljale	173		3
 okusile	14		4
 olabavile	15		5
-olajavale			2
+olajavale			3
 olakšale	219		3
 olakšavale	24		3
 ole			2
-olenile			2
-olinjale	16		2
-omahnule			2
-omakle			2
+olenile			3
+olinjale	16		3
+omahnule			3
+omakle			3
 omale			2
 omekšale	43		3
 omekšavale			3
 omele	93		2
 ometale	113		3
-omile	14		2
-omisle			2
-omlitavile			2
+omile	14		3
+omisle			3
+omlitavile			3
 omogućile	1631		3
-omrazile			2
-omrsile			2
-onemele			2
+omrazile			3
+omrsile			3
+onemele			3
 onemogućile	187		3
 opadale	30		4
 opale	689		2
-opalile			2
-opametile			2
+opalile			3
+opametile			3
 opasale			3
 opasivale	11		3
 opažale			3
-operisale	58		2
-opevale	14		2
+operisale	58		3
+opevale	14		3
 ophodile	10		3
 opipale			4
-opirale	35		2
+opirale	35		3
 opisale	140		3
 opisivale	48		3
 opkole	123		2
 opkolile	99		3
 oplemenile	25		3
 opljačkale	95		4
-opojile			2
+opojile			3
 opole			3
 opomenule			3
 opominjale	20		4
@@ -1316,116 +1316,116 @@ opraštale			3
 opredele	1446		2
 opredelile	271		3
 opremile	37		3
-oprobale	25		2
-oprobavale			2
+oprobale	25		3
+oprobavale			3
 oprostile	90		3
 opsedale	45		3
-opstajale	40		2
+opstajale	40		3
 opstale	207		3
 optužile	254		3
 optuživale	72		3
-opustele	79		2
+opustele	79		3
 opustile	78		3
-opustošile	43		2
-opštile			2
-oracle			2
+opustošile	43		3
+opštile			3
+oracle			3
 orale			3
-oreole			2
+oreole			3
 organizovale	1192		5
 originale	307		2
-orile	27		2
+orile	27		3
 orle			2
 oronule	297		3
-osamostale	243		2
-osedlale			2
+osamostale	243		3
+osedlale			3
 osetile	414		4
 osećale	313		4
 osigurale	233		3
-osilile	19		2
-osirotele			2
+osilile	19		3
+osirotele			3
 oskrnavile	24		4
 oslabele			4
 oslabile	257		4
 oslanjale	102		4
-oslikavale	25		2
+oslikavale	25		3
 oslobađale	47		3
 oslobodile	399		3
-osmele	47		2
-osmisle	911		2
-osnažile	51		2
+osmele	47		3
+osmisle	911		3
+osnažile	51		3
 osnivale	66		3
 osnovale	523		3
 osporavale	40		3
 osporile	38		3
 ostajale	386		4
 ostale	55852		2
-ostarele	132		2
-ostarile	27		2
+ostarele	132		3
+ostarile	27		3
 ostavile	1369		4
 ostavljale	224		4
-ostrvile			2
+ostrvile			3
 ostvarile	2172		3
-osujetile	38		2
-osule	12		2
+osujetile	38		3
+osule	12		3
 osunčale			3
 osuđivale	26		3
 osušile	72		3
 osvajale	202		3
 osvanule	217		3
-osvedočile			2
-osvestile	20		2
+osvedočile			3
+osvestile	20		3
 osvetile	22		3
-osvetle	264		2
-osvetlile	29		2
-osvetljavale	33		2
+osvetle	264		3
+osvetlile	29		3
+osvetljavale	33		3
 osvećivale			3
-osvitale			2
+osvitale			3
 osvojile	2346		3
-osvrtale			2
+osvrtale			3
 otale			2
-otcepile	35		2
+otcepile	35		3
 otegle	11		3
 otekle	84		2
-otele	167		2
+otele	167		3
 oterale	85		4
-otežale	131		2
-otežavale	60		2
+otežale	131		3
+otežavale	60		3
 otimale	82		4
-otisle			2
-otisnule	14		2
+otisle			3
+otisnule	14		3
 otišle	2205		2
 otkazale	170		3
-otkačile	22		2
+otkačile	22		3
 otkidale	14		3
 otkle			2
 otklonile	289		3
 otkrile	732		3
 otkrivale	103		3
-otkucale			2
-otkupile	146		2
+otkucale			3
+otkupile	146		3
 otle			2
 otopile	15		3
 otpadale	17		4
 otpale	162		3
-otpevale	76		2
+otpevale	76		3
 otpisale	27		3
 otplovile			3
 otpočele	289		2
 otpustile	31		3
-otrebile			2
-otresale			2
-otrgle	52		2
+otrebile			3
+otresale			3
+otrgle	52		3
 otrovale	28		3
-otupele	29		2
+otupele	29		3
 otvarale	265		3
 otvorile	1199		3
 ovenčale			3
-ovesele			2
-oveštale			2
+ovesele			3
+oveštale			3
 ovladale	68		3
 ovladavale			3
-ovlažile	13		2
-ozeble			2
+ovlažile	13		3
+ozeble			3
 ozledile			3
 označavale	83		3
 označile	156		3
@@ -1435,7 +1435,7 @@ očistile	109		4
 očuvale	166		3
 oštetile	221		4
 ožale			2
-oždrebile			2
+oždrebile			3
 oživele	148		3
 oživljavale	13		3
 padale	1137		3
@@ -1443,24 +1443,24 @@ pakle			2
 pakovale	22		4
 pale	6950		2
 palile	176		3
-palilule			2
-pamele			2
+palilule			3
+pamele			3
 pamtile	23		3
-panele	828		2
+panele	828		3
 parabole	189		3
-parafirale	21		2
-paralele	1304		2
-paralisale	27		2
-parcele	4174		2
+parafirale	21		3
+paralele	1304		3
+paralisale	27		3
+parcele	4174		3
 parole	2093		2
 partikule	45		3
-paskvile	28		2
+paskvile	28		3
 pasle	63		2
-pastorale	23		2
+pastorale	23		3
 patile	125		3
-patrokle			2
+patrokle			3
 patrole	1146		2
-paule			2
+paule			3
 paušale	21		2
 pavle			2
 pazile	43		3
@@ -1473,36 +1473,36 @@ pele		M	2
 penale	1010		2
 penkale			2
 pepele			3
-perikle			2
+perikle			3
 perle	282		2
 pertle	392		2
 pevale	468		3
-pevušile			2
-picajzle			2
-picule			2
+pevušile			3
+picajzle			3
+picule			3
 piksle			2
 pikule			3
 pile	1421		2
-pilule	1587		2
+pilule	1587		3
 pinjole	43		3
 pipkale			2
-pirovale			2
+pirovale			3
 pisale	859		3
 pitale	255		3
-pitbule			2
+pitbule			3
 pištale	15		2
 plakale	136		3
 plandovale			4
 planirale	206		3
 planule	102		3
 plasirale	691		3
-plastile			2
+plastile			3
 platile	356		3
 plavile	19		3
 plaćale	353		3
 plašile	115		3
 plele	81		2
-plenile	35		2
+plenile	35		3
 plesale	76		3
 plivale	84		3
 pljačkale	63		3
@@ -1514,103 +1514,103 @@ pobacale			3
 pobedile	1001		3
 pobegle	261		3
 pobele	50		2
-pobelele			2
-pobesnele	33		2
+pobelele			3
+pobesnele	33		3
 pobeđivale	69		3
 pobile	200		3
-pobojale			2
+pobojale			3
 poboljšale	346		3
-pobrinule	109		2
+pobrinule	109		3
 pobudile	43		3
 pobunile	80		3
-pocepale	31		2
-pocrkale	25		2
-pocrnele	32		2
-pocrnjele			2
-pocrvenele	10		2
-pocrvenjele			2
+pocepale	31		3
+pocrkale	25		3
+pocrnele	32		3
+pocrnjele			3
+pocrvenele	10		3
+pocrvenjele			3
 podale			2
-podbile			2
-podbule			2
-podebele			2
-podebljale			2
+podbile			3
+podbule			3
+podebele			3
+podebljale			3
 podele	11753		3
 podelile	532		3
 poderale			3
 podešavale			3
 podigle	698		3
 podilazile			4
-podivljale	120		2
+podivljale	120		3
 podizale	162		4
 podle			2
-podlegale			2
-podlegle	72		2
+podlegale			3
+podlegle	72		3
 podmetale			4
 podmetnule	11		4
-podmirile	35		2
-podmladile	14		2
+podmirile	35		3
+podmladile	14		3
 podmukle	165		2
-podnadule			2
+podnadule			3
 podnele	762		2
 podnosile	104		3
-podrhtavale	26		2
+podrhtavale	26		3
 podržale	1284		3
 podržavale	406		4
-podsekle			2
+podsekle			3
 podsetile	165		4
 podsećale	159		4
 podstakle	374		3
 podsticale	135		4
 podudarale	19		4
-podupirale	27		2
-poduprle	16		2
+podupirale	27		3
+poduprle	16		3
 podučavale	14		3
 podvale	429		3
 podvlačile			3
 podvrgle	51		3
-podvukle	12		2
-poele			2
+podvukle	12		3
+poele			3
 pogasile	18		3
 pogađale	123		3
-poginule	1177		2
+poginule	1177		3
 pogledale	128		4
 pogodile	602		3
-pogodovale	119		2
-pogoršale	128		2
+pogodovale	119		3
+pogoršale	128		3
 pogrešile	64		3
-pogubile	55		2
+pogubile	55		3
 pohitale	26		4
-pohrle	134		2
-pohrlile	56		2
+pohrle	134		3
+pohrlile	56		3
 pohvale	7966		3
 pohvalile	56		3
-pohvatale	11		2
-poigravale	27		2
-poispadale	21		2
+pohvatale	11		3
+poigravale	27		3
+poispadale	21		3
 pojale			2
 pojavile	4741		3
 pojavljivale	519		3
 pojačale	284		3
 pojačavale	35		3
 pojele	247		3
-pokajale	21		2
-pokapale			2
+pokajale	21		3
+pokapale			3
 pokazale	6389		3
 pokazivale	395		3
 pokidale	18		4
 poklale	24		2
 poklanjale	50		4
-poklapale	64		2
-poklekle	44		2
+poklapale	64		3
+poklekle	44		3
 poklonile	161		3
-poklopile	211		2
-pokolebale	20		2
+poklopile	211		3
+pokolebale	20		3
 pokopale	10		3
 pokrenule	1174		3
 pokretale	102		4
 pokrile	135		3
 pokrivale	176		3
-pokuljale	16		2
+pokuljale	16		3
 pokupile	94		3
 pokušale	972		4
 pokušavale	531		3
@@ -1618,31 +1618,31 @@ pokvarile	100		3
 polagale	103		3
 polazile	41		4
 pole	302		2
-polegale			2
-polegle	43		2
+polegale			3
+polegle	43		3
 poletale	11		3
 poletele	115		3
-polivale			2
+polivale			3
 poljubile	27		3
-poljuljale	20		2
+poljuljale	20		3
 polomile	47		3
 položile	294		3
-poludele	89		2
-polufinale	4523		2
-polugole	111		2
-polukugle	12		2
-polutrule			2
+poludele	89		3
+polufinale	4523		3
+polugole	111		3
+polukugle	12		3
+polutrule			3
 pomagale	543		3
-pomahnitale	66		2
+pomahnitale	66		3
 pomakle	13		3
-pomaljale			2
+pomaljale			3
 pomele			3
-pomenule	51		2
-pomerale	69		2
-pomerile	148		2
+pomenule	51		3
+pomerale	69		3
+pomerile	148		3
 pomešale	65		3
 pomicale	17		4
-pominjale	119		2
+pominjale	119		3
 pomirile	77		3
 pomisle	1412		3
 pomislile	96		4
@@ -1651,31 +1651,31 @@ pomnožile			3
 pomogle	1876		2
 pomole	276		3
 pomolile			3
-pomračile			2
-pomrle	28		2
-pomutile	17		2
+pomračile			3
+pomrle	28		3
+pomutile	17		3
 ponavljale	205		3
 ponašale	233		3
-ponele	209		2
-ponikle	87		2
+ponele	209		3
+ponikle	87		3
 poništile	69		4
 ponosile	24		3
 ponovile	218		3
 ponudile	565		4
-poodmakle	71		2
-pooštrile	55		2
-popadale	64		2
+poodmakle	71		3
+pooštrile	55		3
+popadale	64		3
 popale	85		2
-popalile	16		2
+popalile	16		3
 popele	131		2
 popile	146		3
 poplavile	68		3
-popločale			2
+popločale			3
 popravile	224		4
 poprimale	17		3
 poprimile	108		3
 popričale	10		3
-popucale	107		2
+popucale	107		3
 popunile	144		4
 popustile	160		3
 popuštale	23		3
@@ -1683,7 +1683,7 @@ poranile			4
 porasle	2606		2
 poravnale	12		3
 porazile	93		3
-poredile	25		2
+poredile	25		3
 porekle	10		3
 poremetile	101		4
 poricale	16		3
@@ -1693,17 +1693,17 @@ portale	396		2
 poručile	143		3
 poručivale	23		3
 porušile	46		4
-posedale	11		2
-posedele			2
+posedale	11		3
+posedele			3
 posedovale	133		5
-posegle	30		2
-posele	33		2
+posegle	30		3
+posele	33		3
 posetile	378		4
-posezale	14		2
+posezale	14		3
 posećivale	96		3
-posipale	15		2
+posipale	15		3
 poskočile	20		3
-poskupele	488		2
+poskupele	488		3
 poslale	602		3
 posle	421508		2
 poslovale	331		3
@@ -1711,7 +1711,7 @@ poslušale	54		4
 poslužile	482		3
 posmatrale	202		3
 posole	28		2
-posrnule	387		2
+posrnule	387		3
 postajale	489		3
 postale	7185		3
 postavile	789		4
@@ -1721,45 +1721,45 @@ postile	13		3
 postizale	77		4
 postojale	4227		4
 postole			3
-postradale	271		2
+postradale	271		3
 postupale	82		3
 postupile	91		3
-posustale	139		2
-posvađale	103		2
+posustale	139		3
+posvađale	103		3
 posvetile	163		3
-potamnele	46		2
-potekle	417		2
+potamnele	46		3
+potekle	417		3
 potencijale	5251		2
 poticale	78		4
-potirale			2
-potisnule	90		2
+potirale			3
+potisnule	90		3
 potkopale	25		3
 potkrale	52		2
 potkrepile	26		3
 potmule	24		3
-potonule	218		2
+potonule	218		3
 potopile	56		3
-potpadale	22		2
+potpadale	22		3
 potpale	95		2
 potpisale	1753		3
 potplatile			3
-potpodele			2
+potpodele			3
 potrajale	56		4
 potražile	78		3
-potresale	96		2
-potresle	98		2
+potresale	96		3
+potresle	98		3
 potrošile	354		3
 potrudile	208		3
 potrčale	33		3
-potukle	92		2
-poturčile			2
+potukle	92		3
+poturčile			3
 potvrdile	1146		3
-potčinile			2
-poubijale	18		2
-poudavale			2
-poumirale			2
-poučavale			2
-poučile			2
+potčinile			3
+poubijale	18		3
+poudavale			3
+poumirale			3
+poučavale			3
+poučile			3
 povale	25		2
 povele	439		3
 poverile	53		4
@@ -1769,38 +1769,38 @@ povezivale	89		3
 povećale	1105		3
 povećavale	200		3
 povijale	19		3
-povikale			2
+povikale			3
 povile			3
 povlačile	121		3
 povratile	120		3
 povredile	138		3
 povukle	648		2
-pozabavile	25		2
+pozabavile	25		3
 pozajmile	66		3
-pozavidele	80		2
+pozavidele	80		3
 pozdravile	240		4
-pozelenele			2
+pozelenele			3
 pozirale	76		3
 pozivale	185		3
 poznale			3
 poznavale	116		3
 pozvale	581		3
-počađavele			2
+počađavele			3
 počele	9443		2
 počinile	468		3
 počinjale	186		4
-počivale	156		2
+počivale	156		3
 pošale			2
 pošle	250		2
 poštedele	16		3
 poštovale	260		3
 požale	160		2
-požalile	45		2
+požalile	45		3
 požele	1439		2
 poželele	140		3
-poživele			2
+poživele			3
 požurile	55		3
-požutele	110		2
+požutele	110		3
 prale	106		2
 pratile	1646		3
 pravdale	29		3
@@ -1811,83 +1811,83 @@ praštale	16		2
 preambule	254		4
 prebacile	110		3
 prebacivale	50		3
-prebivale			2
+prebivale			3
 prebole	110		3
 prebrodile	62		3
-prebrojale			2
-precvetavale			2
+prebrojale			3
+precvetavale			3
 predale	301		3
 predavale	110		3
-predele	1749		2
+predele	1749		3
 predlagale	118		3
 predložile	460		3
-prednjačile	103		2
+prednjačile	103		3
 predomisle	157		3
 predomislile			4
-predskazivale			2
+predskazivale			3
 predstavljale	1368		4
-preduzele	497		2
+preduzele	497		3
 predvidele	174		4
 predviđale	82		3
 predvodile	185		3
-pregazile	39		2
-preglasale			2
-pregledale	60		2
-pregorele	74		2
+pregazile	39		3
+preglasale			3
+pregledale	60		3
+pregorele	74		3
 pregrizle			3
 prehladile			3
-preinačile			2
+preinačile			3
 prekale			2
-prekaljivale			2
+prekaljivale			3
 prekidale	75		3
 prekinule	265		4
-preklapale	31		2
-prekoračivale			2
-prekratile	10		2
+preklapale	31		3
+prekoračivale			3
+prekratile	10		3
 prekrile	102		3
-prekrilile			2
+prekrilile			3
 prekršile	200		3
 prelamale	19		3
 prelazile	250		4
 prele	43		2
 preletale	19		3
 preletele	16		3
-prelijevale		J	2
-prelile	48		2
-prelivale			2
+prelijevale		J	3
+prelile	48		3
+prelivale			3
 prelomile	48		3
 premale	162		2
 premašile	186		4
-premestile	37		2
-premeštale			2
-preminule	606		2
+premestile	37		3
+premeštale			3
+preminule	606		3
 premostile	28		3
-prenagle	11		2
+prenagle	11		3
 prenele	1193		2
-prenemagale			2
+prenemagale			3
 prenosile	310		3
 prenoćile	11		3
-preobražavale			2
+preobražavale			3
 preokrenule	106		3
-preostale	3985		2
+preostale	3985		3
 preotimale			4
-preovlađivale	27		2
+preovlađivale	27		3
 prepale			3
 prepirale	11		4
-preplanule	82		2
-preplavile	277		2
+preplanule	82		3
+preplavile	277		3
 preplašile			4
-preplitale	57		2
+preplitale	57		3
 prepoznale	581		3
-preprečile			2
+preprečile			3
 prepustile	139		3
 preradile	12		3
 prerasle	250		2
 preraspodele	570		4
-prerastale	21		2
-prerodile			2
-presahle	38		2
-presedele			2
+prerastale	21		3
+prerodile			3
+presahle	38		3
+presedele			3
 presekle	42		3
 presele	888		2
 preselile	167		3
@@ -1895,72 +1895,72 @@ preslikavale			3
 presrele	36		3
 prestajale	82		4
 prestale	1039		3
-prestarele			2
+prestarele			3
 prestigle	34		3
 prestizale			4
 prestole	45		3
 presudile	116		3
-presušile	76		2
-presvetle	35		2
+presušile	76		3
+presvetle	35		3
 pretapale			3
-pretekle	77		2
+pretekle	77		3
 preterale	43		4
 prethodile	555		3
 pretile	235		3
 pretopile			3
-pretprošle	62		2
+pretprošle	62		3
 pretražile	14		3
-pretresale	21		2
-pretresle	12		2
-pretrnule			2
+pretresale	21		3
+pretresle	12		3
+pretrnule			3
 pretrpele	595		3
-preturale			2
+preturale			3
 pretvarale	133		3
 pretvorile	504		3
-preudešavale			2
-preuredile	11		2
+preudešavale			3
+preuredile	11		3
 preuzele	1044		2
 preuzimale	98		4
 prevagnule	44		3
 prevale	199		2
 prevalile	27		3
 prevarile	75		4
-prevazišle	232		2
+prevazišle	232		3
 prevele	39		2
-prevesele			2
+prevesele			3
 prevezle	51		2
-previdele	19		2
+previdele	19		3
 prevladale	37		3
 prevozile	48		3
-prevrele	10		2
-prevukle			2
+prevrele	10		3
+prevukle			3
 prezirale			4
 prezle	288		2
-prezrele	64		2
-prećutale	19		2
+prezrele	64		3
+prećutale	19		3
 prešle	1043		2
 prežale	34		2
-preživale			2
-preživele	998		2
-prhnule			2
-pribegle	69		2
+preživale			3
+preživele	998		3
+prhnule			3
+pribegle	69		3
 približavale	80		3
 približile	290		3
 pribrale			2
-pridavale	24		2
+pridavale	24		3
 pridonele	14		2
-pridošle	61		2
+pridošle	61		3
 pridružile	596		3
-prigrle	85		2
+prigrle	85		3
 prigušile			3
-prihvatale	125		2
+prihvatale	125		3
 prihvatile	1352		4
 prijale	84		3
 prijavile	580		3
 prikazale	379		3
 prikazivale	156		3
-priključile	325		2
-prikovale			2
+priključile	325		3
+prikovale			3
 prikrale			3
 prikrile	66		3
 prikrivale	26		3
@@ -1968,9 +1968,9 @@ prikupile	213		4
 prikupljale	87		3
 prilagodile	233		3
 prilazile	64		4
-prilepile			2
+prilepile			3
 priljubile			3
-priložile	21		2
+priložile	21		3
 primakle	19		3
 primale	260		3
 primamile			3
@@ -1978,44 +1978,44 @@ primenile	253		3
 primetile	267		3
 primicale			4
 primile	572		3
-primirile	27		2
+primirile	27		3
 primorale	118		3
-prinosile	41		2
-prinudile	28		2
-prionule	28		2
+prinosile	41		3
+prinudile	28		3
+prionule	28		3
 pripadale	613		4
 pripale	611		2
-pripile			2
+pripile			3
 pripisale	16		3
 pripojile	12		3
-pripomogle	14		2
+pripomogle	14		3
 pripovedale			3
 pripremale	268		3
 pripremile	630		3
-prirasle	25		2
+prirasle	25		3
 priredile	191		3
-priređivale	43		2
+priređivale	43		3
 prisile	650		3
 prisilile	53		4
 prislonile			3
-prispele	385		2
+prispele	385		3
 pristajale	79		4
 pristale	406		2
-pristigle	1055		2
+pristigle	1055		3
 pristizale	169		4
 pristupale	44		3
 pristupile	353		3
 prisustvovale	807		5
-prisvajale			2
-prisvojile	45		2
-pritajile	12		2
-pritekle	54		2
+prisvajale			3
+prisvojile	45		3
+pritajile	12		3
+pritekle	54		3
 pritiskale	57		3
-pritisle			2
-pritrčale	15		2
+pritisle			3
+pritrčale	15		3
 privele	105		3
 privikle	38		3
-priviđale	12		2
+priviđale	12		3
 privlačile	256		3
 privole	305		3
 privukle	755		2
@@ -2033,102 +2033,102 @@ probijale	64		3
 probile	159		3
 probudile	194		3
 procenile	159		3
-procurele	255		2
+procurele	255		3
 procurile	121		3
-procvetale	114		2
-procvile			2
+procvetale	114		3
+procvile			3
 prodale	298		3
 prodavale	607		3
 prodirale	43		4
 prodrle	96		2
-produbile	56		2
-produžile	109		2
+produbile	56		3
+produžile	109		3
 profile	2136		2
-profiterole			2
-proganjale	40		2
+profiterole			3
+proganjale	40		3
 proglasile	609		3
-progledale	32		2
+progledale	32		3
 prognale	18		3
 progonile	39		3
 progovorile	68		3
-progurale	22		2
+progurale	22		3
 progutale	78		3
-prohladile			2
-prohujale	76		2
-proistekle	631		2
-proizašle	300		2
-proizišle	57		2
+prohladile			3
+prohujale	76		3
+proistekle	631		3
+proizašle	300		3
+proizišle	57		3
 proizvele	375		3
 proizvodile	357		3
 projektile	316		2
-prokapale			2
+prokapale			3
 prokle			2
 proklinjale			4
-proključale	75		2
-prokule			2
+proključale	75		3
+prokule			3
 prolazile	891		4
-proletele	42		2
+proletele	42		3
 prolile	21		3
-prolivale			2
+prolivale			3
 promakle	97		3
 promenile	2013		3
 promicale	60		4
-promile	17		2
+promile	17		3
 promisle	136		3
-promrzle	122		2
+promrzle	122		3
 pronašle	655		2
-pronele	46		2
+pronele	46		3
 pronicale			4
 pronikle			3
 proniknule			4
-pronosile	22		2
+pronosile	22		3
 propadale	144		4
 propale	2021		2
-propevale			2
-propinjale			2
-propupale			2
+propevale			3
+propinjale			3
+propupale			3
 propustile	258		3
 proradile	100		3
-proredile	37		2
+proredile	37		3
 proricale			3
 proslavile	277		4
-prosledile	40		2
+prosledile	40		3
 prostirale	57		4
 prostrle			2
-prosule	31		2
-prosvetle	58		2
-protegle	11		2
-protekle	9947		2
+prosule	31		3
+prosvetle	58		3
+protegle	11		3
+protekle	9947		3
 proterale	117		4
-protezale	27		2
+protezale	27		3
 proticale	27		4
 protivile	115		3
 protkale			2
 protokole	645		4
-proturale			2
+proturale			3
 prouzrokovale	259		5
 proučavale	52		3
 provale	1149		3
 provalile	41		3
 provele	453		2
 proverile	77		4
-provesele	57		2
-provirile	11		2
-provirivale			2
+provesele	57		3
+provirile	11		3
+provirivale			3
 provlačile	50		3
 provodile	179		3
-provukle	39		2
-pročistile	10		2
+provukle	39		3
+pročistile	10		3
 pročitale	97		3
-pročule	13		2
-prošarale			2
+pročule	13		3
+prošarale			3
 prošetale	151		3
 proširile	385		3
 prošle	94886		2
 prožele	13		2
 prožimale	29		4
-proživele	32		2
-prsile			2
+proživele	32		3
+prsile			3
 prskale	19		3
 prsnule			3
 pružale	417		3
@@ -2137,13 +2137,13 @@ prštale	23		2
 pržile	20		3
 psovale	15		3
 pucale	243		3
-pucketale			2
+pucketale			3
 pudle	91		2
 pukle	164		2
 pule			2
 punile	172		3
 pustile	225		3
-pustošile	18		2
+pustošile	18		3
 putovale	161		3
 puzale	10		3
 puzle	52		2
@@ -2152,83 +2152,83 @@ puštale	86		3
 pčele	6361		2
 radikale	1729		2
 radile	4197		3
-radmile			2
-radojle			2
+radmile			3
+radojle			3
 radovale	70		4
 radoznale	395		3
-radule			2
+radule			3
 rafale	65		2
-rahele			2
+rahele			3
 rale			2
 rangirale	18		3
 ranile	48		3
 rascvale			2
-rascvetale	62		2
-rasejale			2
+rascvetale	62		3
+rasejale			3
 rashladile			3
 rasipale	13		4
 raskinule	21		4
 rasklapale			3
 rasklopile			3
 raskole	92		3
-raskrivale			2
+raskrivale			3
 rasle	964		2
 raspadale	52		4
 raspale	309		2
-raspalile	12		2
-raspaljivale			2
-rasparčale			2
-raspele			2
-raspinjale			2
-raspirile			2
+raspalile	12		3
+raspaljivale			3
+rasparčale			3
+raspele			3
+raspinjale			3
+raspirile			3
 raspisale	97		3
 raspitale			3
 rasplakale	16		4
 rasplele	10		3
-rasplitale			2
+rasplitale			3
 raspodele	2553		4
 raspolagale	120		3
 raspravile			4
-raspravljale			2
-raspredale	11		2
-raspričale			2
-rasprostirale	10		2
-rasprostrle			2
-rasprskavale			2
+raspravljale			3
+raspredale	11		3
+raspričale			3
+rasprostirale	10		3
+rasprostrle			3
+rasprskavale			3
 raspršile	63		3
-raspukle			2
+raspukle			3
 raspustile	10		3
 rastale	22		2
 rastapale			3
 rastavljale			4
 rasterale	32		4
-rastočile			2
-rastrgle	18		2
-rastrojile			2
-rastrubile			2
-rastrzale			2
-rasturale	15		2
-rasturile	40		2
+rastočile			3
+rastrgle	18		3
+rastrojile			3
+rastrubile			3
+rastrzale			3
+rasturale	15		3
+rasturile	40		3
 rastvarale			3
 rasule	50		2
-rasušile			2
-rasvetle	272		2
+rasušile			3
+rasvetle	272		3
 ratovale	193		4
-ravijojle			2
-raviole	46		2
+ravijojle			3
+raviole	46		3
 ravnale			3
 razabrale			3
 razarale	27		3
-razasjale			2
+razasjale			3
 razasule			2
-razbesnele	23		2
-razbežale	27		2
+razbesnele	23		3
+razbežale	27		3
 razbijale	50		3
 razbile	160		3
 razbole	601		2
 razbolele	19		3
-razbuktale	64		2
-razdele	115		2
+razbuktale	64		3
+razdele	115		3
 razdelile	11		3
 razdirale	17		4
 razdražile			3
@@ -2236,25 +2236,25 @@ razdvajale	62		3
 razdvojile	78		3
 razgale	32		2
 razgalile			3
-razgorevale			2
+razgorevale			3
 razgovarale	352		3
-razgranale	18		2
-razgranjavale			2
+razgranale	18		3
+razgranjavale			3
 razišle	65		2
-razjapile			2
-razjasnile	55		2
+razjapile			3
+razjasnile	55		3
 razjurile			3
-razlegale			2
-razlepršale			2
+razlegale			3
+razlepršale			3
 razlikovale	306		5
-razlivale			2
+razlivale			3
 razložile			3
 razmatrale	116		3
-razmekšale			2
+razmekšale			3
 razmenile	131		3
 razmenjivale	103		3
-razmile	30		2
-razmilele	16		2
+razmile	30		3
+razmilele	16		3
 razmisle	1930		3
 razmišljale	128		3
 razmotale			3
@@ -2266,8 +2266,8 @@ razoružale	12		3
 razotkrile	33		3
 razočarale	75		3
 razradile	31		3
-razrasle			2
-razrešile	45		2
+razrasle			3
+razrešile	45		3
 razrušile	20		4
 razumele	237		3
 razumevale	12		3
@@ -2281,17 +2281,17 @@ razvrstale			3
 računale	106		3
 rađale	347		3
 raširile	135		3
-raščistile	20		2
+raščistile	20		3
 reagovale	675		5
-rebele			2
+rebele			3
 redale			2
 regale	32		2
 rekle	1400		2
 remetile	35		4
-remizirale	25		2
+remizirale	25		3
 reptile	53		2
 rezale	15		3
-rezervisale	31		2
+rezervisale	31		3
 ređale	299		2
 rešavale	159		3
 rešile	794		3
@@ -2299,13 +2299,13 @@ ribizle	378		3
 rikale			2
 rituale	727		2
 rivale			2
-rizikovale	29		2
+rizikovale	29		3
 rizle			2
-robijale			2
-robile			2
+robijale			3
+robile			3
 rodile	579		3
 role	502		2
-romobile			2
+romobile			3
 rubeole	112		2
 rugale	14		3
 rukole	86		3
@@ -2314,15 +2314,15 @@ rukovodile	59		3
 rusofile	95		2
 ručale			3
 rušile	119		3
-ružile			2
-sabajle		M	2
+ružile			3
+sabajle		M	3
 sabotirale	15		3
 sabrale	35		3
 sadile	19		3
 sadržale	161		3
 sadržavale	108		4
 saginjale			4
-saglasile	241		2
+saglasile	241		3
 sagle			2
 sagledale	74		4
 sagorele	49		3
@@ -2335,37 +2335,37 @@ sakrivale	16		3
 sakupile	160		4
 sakupljale	77		3
 sale			2
-saletele			2
-salmonele	166		2
-samohvale	32		2
+saletele			3
+salmonele	166		3
+samohvale	32		3
 samokontrole	407		2
-samonikle	114		2
-samostrele			2
-samovile			2
+samonikle	114		3
+samostrele			3
+samovile			3
 sandale	752		2
 sanjale	92		3
-saobraćale			2
-saopštile	1294		2
+saobraćale			3
+saopštile	1294		3
 saplele			3
 sarađivale	282		3
 sardele	62		3
 sasekle	14		3
-saslušale	20		2
+saslušale	20		3
 sastajale	117		4
 sastale	356		3
 sastavile	95		4
 sastavljale	34		4
 sastojale	147		4
-sasušile			2
+sasušile			3
 satrale			2
 savetovale	81		5
 savile	18		3
 savladale	768		3
 savle			2
 sazdale			2
-sazdavale			2
+sazdavale			3
 saznale	228		3
-sazrele	125		2
+sazrele	125		3
 sazrevale	19		3
 sazvale	23		3
 sačekale	92		4
@@ -2374,22 +2374,22 @@ sačinile	72		3
 sačinjavale	162		3
 sačuvale	545		3
 scile			2
-seattle			2
+seattle			3
 sedele	378		3
 sedile			3
 sejale	22		3
-sejšele			2
+sejšele			3
 sekle	67		2
-sekule			2
+sekule			3
 sele	1707		2
 selile	29		3
 setile	63		3
 sevale	137		3
-sevnule	63		2
+sevnule	63		3
 sećale	26		3
 shvatale	43		3
 shvatile	809		3
-sibile	22		2
+sibile	22		3
 signale	2756		2
 sijale	142		3
 silazile	33		4
@@ -2398,12 +2398,12 @@ silovale	29		4
 simbole	1711		2
 simulirale	16		3
 sišle	65		2
-sjajile	26		2
+sjajile	26		3
 sjale	42		2
-sjatile	28		2
+sjatile	28		3
 sjedile			3
-sjedinile			2
-sjurile			2
+sjedinile			3
+sjurile			3
 skakale	91		3
 skale	1463		2
 skalpele	16		3
@@ -2414,12 +2414,12 @@ skidale	61		3
 skinule	174		3
 sklanjale	25		3
 sklapale	67		3
-skliznule	61		2
+skliznule	61		3
 sklonile	72		3
 sklopile	346		3
 skončale	14		2
-skorile			2
-skotrljale	13		2
+skorile			3
+skotrljale	13		3
 skočile	726		3
 skratile	84		3
 skrenule	138		3
@@ -2430,17 +2430,17 @@ skršile			3
 skupile	191		3
 skupljale	141		3
 skuvale	19		3
-skvasile			2
+skvasile			3
 skvičale			2
 slabile	36		3
 slagale	136		3
 slale	286		2
 slavile	400		3
 sledile	528		3
-sledovale	10		2
-slepile			2
+sledovale	10		3
+slepile			3
 sletale	24		2
-sletele	58		2
+sletele	58		3
 slikale	138		3
 slivale			2
 sličile			3
@@ -2471,21 +2471,21 @@ smrdele	18		3
 smrskale			3
 smrzle			2
 smršale	36		2
-smučile	49		2
+smučile	49		3
 snabdele	15		3
 snabdevale	48		3
 snalazile	53		4
 snašle	273		2
-snažile			2
+snažile			3
 snele	11		2
 snile			2
 snimale	168		3
 snimile	338		3
 snizile	202		3
-snosile	34		2
+snosile	34		3
 snovale			2
-socijale			2
-sofokle			2
+socijale			3
+sofokle			3
 sokole	187		3
 sole	353		2
 spadale	111		3
@@ -2501,15 +2501,15 @@ spavale	215		3
 spektakle	133		2
 spevale			3
 spirale	514		2
-splasnule	43		2
+splasnule	43		3
 splele			2
-spljosnule			2
+spljosnule			3
 spojile	252		3
 spomenule	21		3
 spominjale	42		4
 spopale	29		3
-sporile	26		2
-spoticale			2
+sporile	26		3
+spoticale			3
 spoznale	28		3
 sprale	16		2
 spremale	186		3
@@ -2519,17 +2519,17 @@ sprečile	1164		3
 sprijateljile	22		3
 sprovele	573		3
 sprovodile	399		3
-spržile	13		2
+spržile	13		3
 spustile	250		3
 sputavale	36		3
 spuštale	123		3
 srasle	72		2
 sravnile	11		3
-srdele	34		2
+srdele	34		3
 sredile	61		3
 srele	277		2
 sretale	49		3
-sručile	45		2
+sručile	45		3
 srušile	240		3
 stagnirale	47		3
 stajale	1053		3
@@ -2539,7 +2539,7 @@ stanovale	57		3
 stapale	24		3
 starale	35		3
 starmale			2
-startovale	144		2
+startovale	144		3
 stasale	174		2
 stavile	647		3
 stavljale	172		3
@@ -2552,8 +2552,8 @@ stezale	30		3
 sticale	134		2
 stigle	4139		2
 stile		M	2
-stimulisale	71		2
-stinule			2
+stimulisale	71		3
+stinule			3
 stiskale	16		3
 stizale	1181		3
 stišale	80		3
@@ -2563,27 +2563,27 @@ stradale	1061		2
 strašile			3
 strele	903		2
 streljale	52		2
-stremile	12		2
-strmoglavljivale			2
-strojile			2
+stremile	12		3
+strmoglavljivale			3
+strojile			3
 strovale			2
-stršile			2
+stršile			3
 studirale	47		3
 stupale	32		3
 stupile	366		3
 stvarale	683		3
 stvorile	1319		3
-sudarale	39		2
+sudarale	39		3
 sudarile	63		4
 sudile	105		3
 sufle			2
-sugerisale	52		2
+sugerisale	52		3
 sukobile	196		3
 sukobljavale	54		3
-sunule			2
+sunule			3
 suočavale	79		3
 suočile	224		3
-supersile	399		2
+supersile	399		3
 surle	39		2
 susrele	142		3
 sustale			3
@@ -2592,10 +2592,10 @@ sustizale	15		4
 suzbijale	14		3
 suzbile	44		3
 suzile	55		3
-sučeljavale			2
+sučeljavale			3
 sušile	45		3
 sužavale			3
-svaljivale			2
+svaljivale			3
 svađale	54		3
 svedočile	95		3
 svele	219		2
@@ -2608,7 +2608,7 @@ svirale	254		3
 svitale			3
 sviđale	96		3
 svodile	86		3
-svojatale			2
+svojatale			3
 svratile	19		3
 svrstale	91		3
 svrstavale	16		4
@@ -2619,29 +2619,29 @@ table	4559		2
 takmičile	328		4
 taknule			3
 talasale			3
-taljatele			2
-tarantule	131		2
-tatule			2
-tavorile	18		2
+taljatele			3
+tarantule	131		3
+tatule			3
+tavorile	18		3
 tegle	890		2
-tekile	108		2
+tekile	108		3
 tekle	386		2
 telale			2
 tele	1199		2
-telenovele	109		2
+telenovele	109		3
 temeljile	22		3
 terale	83		3
-teretile	18		2
-terminale	208		2
+teretile	18		3
+terminale	208		3
 tesale			3
 tesle	657		2
 testirale	70		3
-tetošile			2
-teturale			2
+tetošile			3
+teturale			3
 tešile	17		3
 težile	128		3
 ticale	223		3
-timarile			2
+timarile			3
 tinjale	18		3
 title			2
 titrale			3
@@ -2658,7 +2658,7 @@ totale	10		2
 točile	17		3
 tragale	44		3
 trajale	1062		3
-transponovale			2
+transponovale			3
 tražile	1325		3
 trebale	2866		3
 trenirale	91		3
@@ -2668,10 +2668,10 @@ tresle	161		2
 trgovale	55		4
 tribunale	23		2
 tricikle			2
-trijenale	57		2
+trijenale	57		3
 trle		M	2
 trljale	18		3
-trnule	15		2
+trnule	15		3
 trole	212		2
 trovale	16		3
 trošile	254		3
@@ -2687,27 +2687,27 @@ tule	11		2
 tumarale	11		3
 tumačile	74		3
 tunele	511		2
-turčile			2
+turčile			3
 tuzle			2
 tužile	80		3
 tvorile	18		3
 tvrdile	292		3
 ubacile	84		3
 ubacivale	27		3
-ubedile	93		2
+ubedile	93		3
 ubijale	211		3
 ubile	744		3
 ubirale	28		4
-ubjeđivale		J	2
+ubjeđivale		J	3
 ublažavale			3
 ublažile	257		3
-ubledele			2
+ubledele			3
 ubole	11		2
 ubrzale	166		3
 ubrzavale	13		4
-ubuđale			2
+ubuđale			3
 ucenjivale	25		3
-ucrvljale			2
+ucrvljale			3
 udale	209		3
 udaljavale	31		3
 udaljile	102		3
@@ -2715,20 +2715,20 @@ udarale	114		4
 udarile	118		4
 udavale	85		3
 udavile	32		3
-udele	516		2
-udešavale			2
+udele	516		3
+udešavale			3
 udomile	20		3
-udostojile	20		2
+udostojile	20		3
 udružile	242		3
 udruživale	14		3
 ugasile	212		3
-ugasle	20		2
+ugasle	20		3
 ugađale			3
 ugibale			3
-uginule	477		2
+uginule	477		3
 ugledale	170		4
-ugnezdile	13		2
-ugnjetavale			2
+ugnezdile	13		3
+ugnjetavale			3
 ugodile	11		3
 ugostile	55		3
 ugovorile	97		3
@@ -2746,157 +2746,157 @@ ukazale	447		3
 ukazivale	347		3
 ukidale	18		3
 ukinule	280		4
-ukisele			2
+ukisele			3
 uklanjale	37		4
-uklapale	61		2
+uklapale	61		3
 uklele			2
 uključile	564		3
 uključivale	226		3
 uklonile	229		3
-uklopile	160		2
+uklopile	160		3
 ukorenile	27		3
 ukočile	35		3
 ukrale	92		3
 ukrstile	54		3
 ukrštale	47		3
-ukulele			2
+ukulele			3
 ulagale	191		3
 ulazile	358		4
 ulepšavale	24		3
-ulivale			2
+ulivale			3
 ulovile	16		3
 uložile	562		3
 umakle	11		3
-umanjile	229		2
-umanjivale	14		2
+umanjile	229		3
+umanjivale	14		3
 umarale			3
-umarširale	19		2
+umarširale	19		3
 umele	157		3
 umetnule			4
-umešale	97		2
-umile	25		2
+umešale	97		3
+umile	25		3
 umirale	91		4
-umirile	36		2
-umnogostručile			2
-umnožavale	32		2
-umnožile	32		2
+umirile	36		3
+umnogostručile			3
+umnožavale	32		3
+umnožile	32		3
 umole	43		3
-umolile			2
+umolile			3
 umorile	55		3
 umrle	613		2
-umuknule			2
+umuknule			3
 unajmile			3
-unapredile	233		2
-unazadile	27		2
+unapredile	233		3
+unazadile	27		3
 unele	215		2
 uništavale	115		3
 uništile	576		4
-uobličile	27		2
+uobličile	27		3
 uobrazile			3
 uokvirile			3
-uopštile			2
+uopštile			3
 uočavale	23		3
 uočile	170		3
 upadale	72		4
 upale	4255		3
 upalile	61		3
-upaljivale			2
+upaljivale			3
 upamtile	14		3
 upijale	33		3
 upisale	208		3
 upisivale	37		3
 upitale	31		3
-uplatile	96		2
+uplatile	96		3
 uplašile	118		4
-uplele	41		2
+uplele	41		3
 uposle	321		2
-upotpunile	90		2
+upotpunile	90		3
 upotrebile	108		3
 upotrebljavale	116		3
 upoznale	471		3
 upoznavale	35		3
 upozorile	324		3
 upravljale	160		4
-uprezale			2
+uprezale			3
 uprljale	11		3
 upropastile	92		3
-upustile	72		2
+upustile	72		3
 uputile	576		3
 upućivale	121		3
-upuštale	17		2
+upuštale	17		3
 uradile	1382		3
-urasle	87		2
-urazumile			2
+urasle	87		3
+urazumile			3
 uredile	82		3
 urezale	50		4
-urodile	149		2
+urodile	149		3
 urotile	24		3
 uručile	80		3
-urušile	54		2
-usaglasile	161		2
-usahle	41		2
-usahnule			2
+urušile	54		3
+usaglasile	161		3
+usahle	41		3
+usahnule			3
 usele	282		2
 uselile	75		3
-usijale	25		2
-uskladile	99		2
-usklađivale	30		2
-uskomešale	13		2
-uskočile	19		2
+usijale	25		3
+uskladile	99		3
+usklađivale	30		3
+uskomešale	13		3
+uskočile	19		3
 uskratile	43		3
-usledile	1767		2
-uslovile	279		2
+usledile	1767		3
+uslovile	279		3
 usmeravale	51		3
 usmerile	134		4
 usmrdele			3
-usmrtile	43		2
-usnule	119		2
+usmrtile	43		3
+usnule	119		3
 uspavale	21		3
-uspele	3836		2
+uspele	3836		3
 uspevale	269		3
-usplamtele			2
+usplamtele			3
 usporavale	37		3
 usporile	119		3
 uspostavile	428		4
-ustajale	99		2
-ustalasale			2
+ustajale	99		3
+ustalasale			3
 ustale	141		2
 ustanovile	196		3
-ustoličile	20		2
-ustrebale			2
-ustrele	14		2
-ustremile	14		2
-ustreptale	21		2
-ustuknule	18		2
+ustoličile	20		3
+ustrebale			3
+ustrele	14		3
+ustremile	14		3
+ustreptale	21		3
+ustuknule	18		3
 ustupale	11		3
 ustupile	83		3
 ustvrdile			3
 usudile	61		3
 usvajale	39		3
 usvojile	622		3
-utabale	11		2
-utamničile			2
+utabale	11		3
+utamničile			3
 utekle	19		2
 utešile	12		4
 uticale	1744		4
-utihnule	75		2
-utiskivale			2
-utišale	12		2
+utihnule	75		3
+utiskivale			3
+utišale	12		3
 utole	57		2
 utonule	37		3
 utrkivale	77		4
 utrnule	47		3
-utule			2
+utule			3
 utvrdile	560		3
 utvrđivale	45		4
 uvale	874		3
 uvalile	25		3
-uvele			2
+uvele			3
 uveličale	43		3
 uvenule	21		3
 uveravale	31		3
 uverile	139		4
-uvesele	14		2
+uvesele	14		3
 uvećale	150		3
 uvećavale	48		3
 uvežbale	14		4
@@ -2908,33 +2908,33 @@ uvredile	30		3
 uvrežile			3
 uvrstile	94		3
 uvukle	91		2
-uzavrele	177		2
+uzavrele	177		3
 uzbudile	39		3
 uzburkale	66		4
-uzdigle	42		2
-uzdizale	42		2
-uzdrhtale			2
-uzdrmale	92		2
+uzdigle	42		3
+uzdizale	42		3
+uzdrhtale			3
+uzdrmale	92		3
 uzdržale	21		3
 uzdržavale	15		4
 uzele	934		2
 uzgajale	28		3
 uzimale	458		4
-uzmučile			2
+uzmučile			3
 uznemiravale	38		3
 uznemirile	80		3
-uznosile			2
-uzrasle			2
+uznosile			3
+uzrasle			3
 uzrokovale	186		5
-uzurpirale	40		2
-uzvijale			2
+uzurpirale	40		3
+uzvijale			3
 uzvikivale	38		3
 uzviknule			3
 uzvisile			3
-uzvratile	71		2
-uzvraćale			2
-ućutale	15		2
-učestale	860		2
+uzvratile	71		3
+uzvraćale			3
+ućutale	15		3
+učestale	860		3
 učestvovale	3744		5
 učile	274		3
 učinile	2240		3
@@ -2942,12 +2942,12 @@ učlanile	24		3
 učmale	64		2
 učvrstile	101		3
 ušle	3003		2
-užasnule			2
-užegle	13		2
+užasnule			3
+užegle	13		3
 uživale	423		3
-uživele			2
-užurbale			2
-užutele			2
+uživele			3
+užurbale			3
+užutele			3
 vabile			3
 vadile	56		3
 vafle	22		2
@@ -2955,20 +2955,20 @@ vagale			3
 valjale	82		3
 vandale	99		2
 vangle			2
-vanile	929		2
+vanile	929		3
 vapile	21		3
 varale	37		3
-varijable	617		2
+varijable	617		3
 varile			3
 variole	145		2
-varičele	156		2
-varničile			2
-vaskrsle	42		2
+varičele	156		3
+varničile			3
+vaskrsle	42		3
 važile	265		3
 vele	2423		2
-velesile	288		2
-veličale	22		2
-venecuele			2
+velesile	288		3
+veličale	22		3
+venecuele			3
 ventile	386		2
 venule	17		3
 venčale	23		3
@@ -2978,7 +2978,7 @@ verovale	226		4
 vertikale	507		2
 vesele	1892		2
 veselile	13		3
-vestibile			2
+vestibile			3
 vezale	119		3
 vezivale	147		3
 večerale	17		4
@@ -2986,7 +2986,7 @@ vešale			3
 vežbale	124		3
 videle	1437		3
 vijale	11		2
-vijorile	108		2
+vijorile	108		3
 vikale	56		3
 vile	5246		2
 viole	133		3
@@ -3010,7 +3010,7 @@ vratile	1382		3
 vraćale	325		3
 vračale			3
 vrebale	35		3
-vredele			2
+vredele			3
 vrednovale	26		4
 vrele	1387		2
 vređale	68		3
@@ -3018,18 +3018,18 @@ vriskale			3
 vrištale	58		3
 vrle	95		2
 vrtele	114		3
-vrvele	21		2
+vrvele	21		3
 vršile	515		3
 vukle	178		2
 vule			2
 zabadale			3
 zabavile	39		4
 zabavljale	147		4
-zabele	77		2
-zabeležile	1318		2
-zabilježile	168	J	2
+zabele	77		3
+zabeležile	1318		3
+zabilježile	168	J	3
 zablistale	70		3
-zabludele	106		2
+zabludele	106		3
 zabole	1236		2
 zabolele	49		3
 zaboljele			3
@@ -3041,183 +3041,183 @@ zabrujale			3
 zacakle	20		2
 zacaklile	21		3
 zaceljivale			3
-zacrvenele	11		2
-zacvile	23		2
-zadahtale			2
+zacrvenele	11		3
+zacvile	23		3
+zadahtale			3
 zadale	68		3
 zadavale	40		3
-zadebljale	42		2
+zadebljale	42		3
 zadesile	448		4
-zadešavale			2
-zadirale	27		2
+zadešavale			3
+zadirale	27		3
 zadivile	30		3
-zadobile	167		2
-zadocnile			2
+zadobile	167		3
+zadocnile			3
 zadovoljavale	80		3
 zadovoljile	518		3
 zadremale			3
-zadrhtale	19		2
-zadrigle			2
+zadrhtale	19		3
+zadrigle			3
 zadržale	762		3
 zadržavale	78		4
 zadužile	100		3
-zagatile			2
-zagazile	28		2
+zagatile			3
+zagazile	28		3
 zaglavile	30		3
-zagledale	22		2
+zagledale	22		3
 zaglibile	11		3
-zaglušile			2
-zagorele	26		2
-zagovarale	57		2
+zaglušile			3
+zagorele	26		3
+zagovarale	57		3
 zagreble			2
 zagrejale	40		4
 zagrle	117		3
 zagrlile	50		4
-zagrozile			2
+zagrozile			3
 zahtevale	487		3
-zahuktale	88		2
+zahuktale	88		3
 zahvale	666		3
 zahvalile	46		3
 zahvatale	40		4
 zahvatile	281		4
-zaigrale	170		2
-zaiskrile	11		2
-zajazile			2
-zakasnele			2
+zaigrale	170		3
+zaiskrile	11		3
+zajazile			3
+zakasnele			3
 zakasnile	36		3
 zakazale	140		3
-zakačile	24		2
+zakačile	24		3
 zaklale	16		2
 zakle	11		2
 zaklele			2
-zaključale	13		2
+zaključale	13		3
 zaključile	395		3
 zaklonile	18		3
-zakomplicirale			2
-zakomplikovale	46		2
+zakomplicirale			3
+zakomplikovale	46		3
 zakopale	14		3
 zakočile			3
-zakrile			2
-zakrvavile			2
-zakrčile	13		2
-zakržljale	61		2
-zakucale	13		2
-zakupile	28		2
-zakuvale	22		2
-zakužile			2
+zakrile			3
+zakrvavile			3
+zakrčile	13		3
+zakržljale	61		3
+zakucale	13		3
+zakupile	28		3
+zakuvale	22		3
+zakužile			3
 zalagale	153		3
 zalazile	15		4
 zaledile	29		3
-zalepile	39		2
-zaletale			2
+zalepile	39		3
+zaletale			3
 zaljubile	30		3
-zaljuljale	14		2
-zalutale	173		2
-zamagle	105		2
-zamaglile	28		2
-zamarale			2
+zaljuljale	14		3
+zalutale	173		3
+zamagle	105		3
+zamaglile	28		3
+zamarale			3
 zamenile	473		3
 zamenjivale	31		3
 zamerale	15		3
 zamerile	48		4
-zamesile			2
+zamesile			3
 zamisle	1089		3
 zamislile	64		4
 zamišljale	28		3
 zamole	313		2
 zamolile	61		3
-zamorile	11		2
-zamrle	84		2
-zamrsile			2
+zamorile	11		3
+zamrle	84		3
+zamrsile			3
 zamrzle			3
 zamutile	14		3
 zanemarile	34		3
-zanemele	17		2
+zanemele	17		3
 zanimale	295		3
-zanoćile			2
-zanoćivale			2
-zaobišle	133		2
-zaodevale			2
-zaokrugle			2
-zaokruglile			2
-zaokupile	24		2
-zaokupljale	27		2
+zanoćile			3
+zanoćivale			3
+zaobišle	133		3
+zaodevale			3
+zaokrugle			3
+zaokruglile			3
+zaokupile	24		3
+zaokupljale	27		3
 zaorale			3
-zaorile	10		2
+zaorile	10		3
 zaostajale	79		4
-zaostale	1889		2
-zaoštrile	37		2
+zaostale	1889		3
+zaoštrile	37		3
 zapadale	14		4
 zapale	905		2
 zapalile	168		3
 zapamtile	41		3
 zapanjile	18		3
-zapanjivale			2
+zapanjivale			3
 zapažale			3
 zapekle	16		3
-zapele	36		2
-zapevale	22		2
-zapečatile	17		2
-zapinjale			2
+zapele	36		3
+zapevale	22		3
+zapečatile	17		3
+zapinjale			3
 zapisale	20		3
-zaplakale	13		2
-zaplele			2
-zaplenile	115		2
-zaplesale			2
-zaplitale			2
-zapljusnule	23		2
+zaplakale	13		3
+zaplele			3
+zaplenile	115		3
+zaplesale			3
+zaplitale			3
+zapljusnule	23		3
 zaplovile			3
-zaposedale			2
-zaposele	100		2
+zaposedale			3
+zaposele	100		3
 zaposle	3398		2
 započele	1021		2
-započinjale	42		2
-zapraštale			2
-zapretile	89		2
-zaputile	13		2
+započinjale	42		3
+zapraštale			3
+zapretile	89		3
+zaputile	13		3
 zaradile	308		3
-zarasle	197		2
-zarastale	13		2
+zarasle	197		3
+zarastale	13		3
 zaratile	31		4
-zarazile	36		2
+zarazile	36		3
 zarađivale	101		3
 zaredale			3
-zaricale			2
-zarile	10		2
-zarobile	85		2
-zarumenele			2
+zaricale			3
+zarile	10		3
+zarobile	85		3
+zarumenele			3
 zarđale	147		2
 zasadile	21		3
 zasađivale			3
 zasenile	34		4
-zasijale	68		2
-zasipale	21		2
+zasijale	68		3
+zasipale	21		3
 zasjale	22		2
 zaslužile	344		3
 zasmetale	51		3
-zasnivale	89		2
-zasnovale	43		2
+zasnivale	89		3
+zasnovale	43		3
 zaspale	70		3
 zastale	78		3
-zastarele	887		2
+zastarele	887		3
 zastrašile	11		4
 zastupale	99		3
-zasuzile	58		2
-zasvetle	58		2
-zasvetlile			2
+zasuzile	58		3
+zasvetle	58		3
+zasvetlile			3
 zatajile	31		3
 zatalasale			3
 zataškale	16		4
 zatekle	144		3
 zatezale	13		3
 zatražile	545		3
-zatreskale			2
-zatresle	33		2
+zatreskale			3
+zatresle	33		3
 zatrovale	18		3
-zatrpale	39		2
-zatrpavale	15		2
-zatrudnele	39		2
-zaturile			2
+zatrpale	39		3
+zatrpavale	15		3
+zatrudnele	39		3
+zaturile			3
 zatvarale	104		3
 zatvorile	348		3
 zaudarale			4
@@ -3227,32 +3227,32 @@ zauzimale	205		4
 zavadile	23		4
 zavale	78		3
 zavele	52		3
-zaveštale			2
-zavidele			2
+zaveštale			3
+zavidele			3
 zavijale	23		3
 zavisile	111		4
 zavladale	66		3
 zavodile	20		3
 zavole	616		2
 zavredele	13		3
-zavrtale			2
-zavrtele	23		2
+zavrtale			3
+zavrtele	23		3
 završavale	327		4
 završile	1714		3
-zazirale			2
+zazirale			3
 zaćutale	11		3
 začele	33		2
-začepile			2
+začepile			3
 začinile	26		3
 začudile	15		4
-začule	34		2
-zaškripale	13		2
+začule	34		3
+zaškripale	13		3
 zašle	41		2
 zaštitile	430		3
 zažale	29		2
 zažele	298		2
-zaživele	123		2
-zbacile	14		2
+zaživele	123		3
+zbacile	14		3
 zbile	58		2
 zbivale	11		3
 zbližile	36		3
@@ -3264,17 +3264,17 @@ zbunjivale	31		3
 zdele	144		2
 zdjele		J	2
 združile			3
-zelenjele			2
+zelenjele			3
 zezale	22		2
-zeznule	17		2
+zeznule	17		3
 zgrabile	20		3
 zgrtale			3
-zgrčile			2
+zgrčile			3
 zgurile			3
-zihernadle			2
+zihernadle			3
 zirkale			2
 zjapile	24		3
-zlatokrile			2
+zlatokrile			3
 zle	2445		1
 znale	1414		2
 značile	416		3
@@ -3294,26 +3294,26 @@ zvučale	174		3
 ćaskale	24		3
 ćele	237		2
 ćutale	112		3
-ćušile			2
+ćušile			3
 Čile	257		2
 čarkale			2
 častile	10		3
 čavle			2
-čašule			2
+čašule			3
 čekale	650		3
-čengele		M	2
+čengele		M	3
 čepale			2
 čeprkale			3
-čerečile			2
-čerupale			2
+čerečile			3
+čerupale			3
 čestitale	63		3
 četvrtfinale	2317		3
 češljale	15		3
 čikale			2
 čile	257		2
-činele	60		2
+činele	60		3
 činile	2206		3
-činčile	156		2
+činčile	156		3
 čistile	81		3
 čitale	192		3
 čudile	21		3
@@ -3329,23 +3329,23 @@ zvučale	174		3
 šale	3856		2
 šalile	26		3
 šaputale	41		3
-šarenile			2
-šepurile	19		2
+šarenile			3
+šepurile	19		3
 šetale	158		3
 šibale	12		3
 šikanirale			3
 šile	69		2
 širile	353		3
-škljocnule			2
+škljocnule			3
 škodile	14		3
 škole	100948		2
 škripale	20		2
-škrofule			2
+škrofule			3
 šnale			2
 šnicle	735		2
 šokirale	56		3
 špargle			2
-špenadle			2
+špenadle			3
 šrapnele			3
 štale	972		2
 štampale	100		3
@@ -3360,15 +3360,15 @@ zvučale	174		3
 štrukle			2
 štrčale	48		2
 štule			2
-šutirale	29		2
+šutirale	29		3
 šuštale			3
 švargle			2
-šćućurile			2
+šćućurile			3
 ščepale			3
-žagorile			2
+žagorile			3
 žale	6011		2
 žalile	202		3
-žarile	21		2
+žarile	21		3
 ždrale			2
 žele	71071		2
 želele	1327		3
@@ -3376,41 +3376,41 @@ zvučale	174		3
 žigale			2
 žile	790		2
 živele	1191		3
-živovale			2
+živovale			3
 žrtvovale	56		4
 žurile	29		3
 žurnale	34		2
-žutele			2
+žutele			3
 žvale	75		2
 bijele	75		3
 bježale			3
-cijele	1485		2
+cijele	1485		3
 dijele	769		3
 dijelile	38		4
 djelovale			4
 dodijele	21		3
-dodjele			2
+dodjele			3
 donijele	152		3
-dospjele	69		2
+dospjele	69		3
 htjele	100		2
 iscijele			3
-izbjegle			2
-izgorjele	32		2
-izmijenile			2
-letjele			2
+izbjegle			3
+izgorjele	32		3
+izmijenile			3
+letjele			3
 mijenjale	70		4
 mjerile			3
 natjerale			4
 objesile			4
-odbjegle			2
+odbjegle			3
 odnijele	28		3
 opredijele	45		3
-opustjele			2
+opustjele			3
 osjetile			4
 osjećale			4
 oslabjele			4
-osmjele			2
-ostarjele			2
+osmjele			3
+ostarjele			3
 pjevale			3
 pobijedile	13		4
 pobjegle			3
@@ -3418,15 +3418,15 @@ podijele	151		3
 podjele			3
 podsjećale			4
 pogriješile			4
-poludjele			2
+poludjele			3
 pomiješale			4
 posjetile			4
-predjele	98		2
+predjele	98		3
 prenijele	51		3
-preživjele	110		2
-prijestole			2
+preživjele	110		3
+prijestole			3
 promijenile	91		4
-promjenile			2
+promjenile			3
 razdijele			3
 raznijele			3
 riješile	35		4
@@ -3442,18 +3442,18 @@ svidjele	19		3
 svijetle	219		3
 svjetle			2
 tjerale			3
-ubijedile			2
-uspjele	195		2
+ubijedile			3
+uspjele	195		3
 utješile			4
 vidjele	138		3
 vjerovale			4
 vježbale			3
-zabijele			2
+zabijele			3
 zacijele			3
-zagorjele			2
-zakašnjele	15		2
-zalijepile			2
+zagorjele			3
+zakašnjele	15		3
+zalijepile			3
 zamijenile	24		4
-zastarjele	45		2
-zavještale			2
+zastarjele	45		3
+zavještale			3
 živjele	112		3

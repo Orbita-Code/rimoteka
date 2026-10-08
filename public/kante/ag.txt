@@ -1,31 +1,31 @@
 44
 Prag	2981		1
-antropofag		M	2
+antropofag		M	3
 arhipelag	633		2
 bag	374		1
 bestrag			2
 blag	1484		1
-bundestag			2
+bundestag			3
 burag	22		2
 dag			1
 drag	1439		1
 gulag	154		2
 hag			1
 krčag		M	2
-ljubodrag			2
+ljubodrag			3
 mag	934		1
-mijodrag			2
+mijodrag			3
 miodrag			3
 mutljag	28		2
 nag	362		1
 natrag	3760		2
 nedrag			2
-odostrag			2
+odostrag			3
 ostrag			2
 otrag		M	2
 pag			1
-poludrag			2
-polunag			2
+poludrag			3
+polunag			3
 prag	2981		1
 preblag	32		2
 predrag	709		2
@@ -41,5 +41,5 @@ zigzag			2
 zontag			2
 šiprag		M	2
 šlag	1629		1
-želidrag			2
-živodrag			2
+želidrag			3
+živodrag			3

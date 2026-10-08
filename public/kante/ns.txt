@@ -1,21 +1,21 @@
 53
 agens	313		2
 alfons			2
-antioksidans			2
+antioksidans			3
 avans	685		2
 balans	3508		2
 bilans		M	2
 dans			1
-debalans	180		2
+debalans	180		3
 dens	377		1
-depandans			2
-dezodorans	296		2
+depandans			3
+dezodorans	296		3
 difens			2
 dikens			2
-diližans			2
-disbalans	462		2
+diližans			3
+disbalans	462		3
 džins	422		1
-ekselans			2
+ekselans			3
 evans			2
 florens			2
 frans			1
@@ -24,30 +24,30 @@ hopkins			2
 jens			1
 klemens			2
 kolins			2
-konzervans	231		2
+konzervans	231		3
 kvins			1
 lorens			2
 movens			2
 nonsens		M	2
 nuns			1
-ordonans		M	2
-orleans			2
+ordonans		M	3
+orleans			3
 parsons			2
-pasijans	102		2
-performans	2486		2
+pasijans	102		3
+performans	2486		3
 perkins			2
-podbilans			2
+podbilans			3
 preferans	97		3
-reagens	38		2
+reagens	38		3
 rebalans	3667		3
-renesans			2
+renesans			3
 rolins			2
 rubens			2
-sapiens	107		2
-siemens			2
+sapiens	107		3
+siemens			3
 simens			2
 spens			1
-stimulans	905		2
+stimulans	905		3
 stivens			2
 tangens			2
 trans	674		1

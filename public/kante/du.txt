@@ -1,6 +1,6 @@
 521
 Beogradu			3
-Davidu			2
+Davidu			3
 Islandu			3
 Judu			2
 Kanadu			3
@@ -8,25 +8,25 @@ Madridu			2
 Petrogradu			4
 Tajlandu			3
 abecedu	112		2
-agendu	953		2
-ahmedu			2
+agendu	953		3
+ahmedu			3
 akordu	28		3
-aldehidu			2
-alfredu			2
+aldehidu			3
+alfredu			3
 ambasadu	1586		2
 anakondu			2
-andromedu			2
+andromedu			3
 apsidu	59		3
-apsurdu	110		2
-arendu			2
-arhimedu			2
-arkadu	32		2
-armadu	65		2
-arnoldu			2
+apsurdu	110		3
+arendu			3
+arhimedu			3
+arkadu	32		3
+armadu	65		3
+arnoldu			3
 asteroidu	145		2
-autostradu			2
+autostradu			3
 avangardu	172		4
-bagdadu			2
+bagdadu			3
 baladu	242		2
 bandu	541		2
 barakudu			2
@@ -35,50 +35,50 @@ barikadu	351		2
 bedu	1712		2
 bendu	1468		2
 besedu	1014		3
-bilbordu	190		2
-biogradu			2
+bilbordu	190		3
+biogradu			3
 bledu	174		2
 blendu	122		2
 blijedu			3
 blokadu	2231		2
 bludu	70		2
 bodu	492		2
-bolidu	245		2
-bradfordu			2
+bolidu	245		3
+bradfordu			3
 bradu	1963		2
-bratučedu			2
+bratučedu			3
 brazdu	218		2
 brdu	3981		2
 brendu	1046		2
-brigadu	336		2
+brigadu	336		3
 brodu	3824		2
 budu	141210		2
-buhenvaldu			2
+buhenvaldu			3
 bundu	161		2
-carigradu			2
+carigradu			3
 celuloidu			2
-ceradu	41		2
+ceradu	41		3
 cevovodu	147		4
-ciradu			2
-coloradu			2
+ciradu			3
+coloradu			3
 dadu	683		2
 dalekovodu	120		3
 daždu			2
-deblokadu	197		2
+deblokadu	197		3
 dedu	358		2
 dekadu	266		2
-deligradu			2
-dividendu	473		2
-diznilendu			2
-dodadu			2
-dogledu	25		2
-doradu	703		2
-dortmundu			2
+deligradu			3
+dividendu	473		3
+diznilendu			3
+dodadu			3
+dogledu	25		3
+doradu	703		3
+dortmundu			3
 dosadu	509		3
 dovedu	5842		2
-dovodu	53		2
-dravogradu			2
-druidu			2
+dovodu	53		3
+dravogradu			3
+druidu			3
 drvoredu	35		4
 du	4013		1
 dudu	199		2
@@ -87,20 +87,20 @@ dvosedu	183		3
 džidu			2
 džihadu	90		2
 džudu	13		2
-edvardu			2
-eldoradu	29		2
+edvardu			3
+eldoradu	29		3
 epizodu	1536		2
-estradu	221		2
-etidu	22		2
+estradu	221		3
+etidu	22		3
 fasadu	1138		2
 fjordu	27		2
-floridu			2
+floridu			3
 fondu	5913		2
 fordu	46		2
-formaldehidu	11		2
+formaldehidu	11		3
 frendu			2
 gadu	26		2
-gamzigradu			2
+gamzigradu			3
 gardu	411		2
 gasovodu	294		4
 gazdu	447		2
@@ -110,46 +110,46 @@ glavurdu	12		2
 gnezdu	457		2
 gnjidu	16		2
 godu	19		2
-goraždu			2
+goraždu			3
 gordu	32		2
 gospodu	2955		2
 govedu	12		3
 gradu	83326		2
-granadu			2
+granadu			3
 gredu	261		2
-grenlandu			2
+grenlandu			3
 gromadu	90		2
 grozdu	41		2
 grudu	148		2
-hacijendu	19		2
+hacijendu	19		3
 hajdu			2
-harvardu			2
+harvardu			3
 hazardu	22		3
-helebardu			2
+helebardu			3
 heljdu	70		2
 hibridu	77		2
 hiljadu		M	3
 hindu	142		2
 hladu	926		2
 hodu	2142		2
-holivudu			2
+holivudu			3
 hordu	67		2
 idu	39477		2
-ilijadu			2
-imadu			2
+ilijadu			3
+imadu			3
 invalidu	93		2
 ishodu	1305		3
 iskradu	16		3
-islamabadu			2
-ispadu	50		2
+islamabadu			3
+ispadu	50		3
 ispredu			3
 izbodu	33		2
 izgledu	5292		3
-izjedu	17		2
+izjedu	17		3
 iznudu	114		3
 izradu	19394		3
 izvedu	2019		2
-izvodu	330		2
+izvodu	330		3
 jadu	338		2
 jagodu	166		3
 jardu	10		2
@@ -158,195 +158,195 @@ jodu			2
 judu			2
 jugozapadu	954		3
 kadu	1154		2
-kakadu	33		2
-kanonadu	38		2
-karotidu			2
+kakadu	33		3
+kanonadu	38		3
+karotidu			3
 kaskadu	48		2
-katmandu			2
-kikindu			2
+katmandu			3
+kikindu			3
 kladu	45		2
-klivlandu			2
-klivlendu			2
+klivlandu			3
+klivlendu			3
 klodu			2
 kodu	1108		2
-kokardu	50		2
-koladu			2
+kokardu	50		3
+koladu			3
 koledu	31		3
-koloradu			2
+koloradu			3
 komadu	2593		2
 komandu	2856		2
 komodu	123		2
-konradu			2
-koridu	52		2
+konradu			3
+koridu	52		3
 kradu	3804		2
 krdu	90		2
 kredu	179		2
 krešendu	15		2
 krivdu	17		2
-kvazimodu			2
+kvazimodu			3
 labudu	47		3
-lambadu			2
-lavandu	149		2
+lambadu			3
+lavandu	149		3
 ledu	2141		2
 legendu	1488		2
 leopardu	12		4
 libidu	29		3
 limunadu	277		2
 livadu	678		3
-lobodu			2
+lobodu			3
 lordu	86		2
-lubardu			2
+lubardu			3
 ludu	596		2
-mansardu			2
-marendu			2
-marinadu	135		2
+mansardu			3
+marendu			3
+marinadu	135		3
 marmeladu	107		2
-maskaradu			2
-matildu			2
+maskaradu			3
+matildu			3
 medu	2146		2
 medvedu	122		3
-mehmedu			2
-merilendu			2
-metodu	3100		2
+mehmedu			3
+merilendu			3
+metodu	3100		3
 milijardu	11274		2
-milisekundu	31		2
-miloradu			2
-mimohodu	77		2
+milisekundu	31		3
+miloradu			3
+mimohodu	77		3
 mladu	3237		2
 modu	4417		2
-monadu	11		2
-mongoloidu			2
-mopedu	40		2
-muhamedu			2
-nadadu			2
-nadeždu			2
+monadu	11		3
+mongoloidu			3
+mopedu	40		3
+muhamedu			3
+nadadu			3
+nadeždu			3
 nadoknadu	4077		4
 nadu	13479		2
-nadvladu			2
+nadvladu			3
 nadvojvodu	30		4
 naftovodu	47		4
 nagradu	33557		3
 najedu	107		3
 najezdu	210		3
-nakaradu	21		2
+nakaradu	21		3
 naknadu	9676		3
 napadu	10161		3
 narodu	36666		3
-nasladu	79		2
+nasladu	79		3
 navadu			3
 navedu	1195		2
 navodu	114		3
-nedogledu			2
+nedogledu			3
 nedu			2
 nelagodu	412		4
-nemadu			2
-nenadu			2
+nemadu			3
+nenadu			3
 nepogodu	192		4
 nepravdu	2425		2
-neradu	197		2
+neradu	197		3
 neredu	365		3
 neskladu	487		3
-neslobodu	65		2
-neugodu	16		2
-nevadu			2
+neslobodu	65		3
+neugodu	16		3
+nevadu			3
 nezgodu	430		3
-nizvodu			2
-novgorodu			2
+nizvodu			3
+novgorodu			3
 nuždu	860		2
-obedu	43		2
-oblandu	227		2
-obodu	1644		2
+obedu	43		3
+oblandu	227		3
+obodu	1644		3
 obradu	8593		3
 obredu	430		3
-odadu			2
-odeždu	105		2
+odadu			3
+odeždu	105		3
 odgodu	45		3
 odmazdu	488		3
 odredu	310		3
 odu	10963		2
 odvedu	1202		2
-odvodu	34		2
-ofsajdu			2
+odvodu	34		3
+ofsajdu			3
 ogledu	330		3
 ogradu	2704		3
-ohridu			2
-okladu			2
-oklandu			2
-oksfordu			2
+ohridu			3
+okladu			3
+oklandu			3
+oksfordu			3
 oktopodu			2
-olimpijadu	1069		2
-ophodu	30		2
+olimpijadu	1069		3
+ophodu	30		3
 opkladu	350		3
-opredu			2
+opredu			3
 opsadu	370		3
-oradu	22		2
-oranžadu			2
+oradu	22		3
+oranžadu			3
 osudu	2330		3
 otpadu	888		3
 ozledu	24		3
 ozljedu		J	3
 padu	5069		2
 pagodu	19		3
-palisadu	34		2
+palisadu	34		3
 pandu	142		2
 paradu	2135		2
 parobrodu	53		4
 periodu	97276		3
-persidu			2
+persidu			3
 petardu	105		2
 pikadu	202		2
 piramidu	475		2
-planetoidu			2
-plejadu	192		2
+planetoidu			3
+plejadu	192		3
 plodu	333		2
 pobedu	23813		3
-pobodu			2
+pobodu			3
 pobudu	90		3
-podadu			2
-podnadu			2
-podperiodu			2
+podadu			3
+podnadu			3
+podperiodu			3
 podu	3828		2
 podvedu	110		3
-podvojvodu			2
+podvojvodu			3
 pogledu	40718		3
-pogrdu	12		2
+pogrdu	12		3
 pohodu	1204		3
 pojedu	1620		3
-pokladu			2
+pokladu			3
 pokradu	330		3
-pokudu	23		2
+pokudu	23		3
 poljoprivredu	12195		3
 pomadu	22		2
-pompidu			2
+pompidu			3
 ponudu	20856		3
-poredu			2
+poredu			3
 porodu	92		3
-portlandu			2
+portlandu			3
 posadu	906		3
 posedu	2713		3
 posudu	2781		3
-potkradu	19		2
+potkradu	19		3
 potvrdu	9705		3
 povedu	1542		3
 povodu	769		3
 povredu	5370		3
-poznadu			2
+poznadu			3
 poštedu	88		3
 požudu	230		3
-pradedu	62		2
+pradedu	62		3
 pravdu	7198		2
-predadu			2
+predadu			3
 predrasudu	202		3
 predu	150		2
 pregledu	3244		3
 pregradu	279		3
 prehladu	530		3
-prejedu	26		2
+prejedu	26		3
 prekidu	1529		3
-prekomandu			2
+prekomandu			3
 prepadu	29		3
 preporodu	250		4
-preradu	4651		2
+preradu	4651		3
 presudu	8580		3
 prevedu	590		2
 prevodu	6786		3
@@ -354,72 +354,72 @@ prigodu	195		3
 prihodu	602		3
 prikradu	12		3
 prinudu	218		3
-prirodu	10624		2
+prirodu	10624		3
 privedu	744		3
 prividu	120		3
 privredu	15887		3
-priznadu			2
-probodu	29		2
-prodadu			2
-prohodu	24		2
+priznadu			3
+probodu	29		3
+prodadu			3
+prohodu	24		3
 proizvedu	1718		3
 proizvodu	3457		3
-prokradu			2
-promenadu	72		2
-propadu			2
-propagandu			2
-prosedu	16		2
+prokradu			3
+promenadu	72		3
+propadu			3
+propagandu			3
+prosedu	16		3
 provedu	3636		2
-provodu	514		2
+provodu	514		3
 radu	78261		2
 rashodu	33		3
 raskidu	629		3
 raspadu	1228		3
 rasporedu	3583		4
-razdadu			2
-razjedu			2
+razdadu			3
+razjedu			3
 razonodu	654		4
 razradu	623		3
 razredu	3807		3
 razvedu	200		3
 razvodu	589		3
-rašidu			2
+rašidu			3
 redosledu	1820		4
 redu	53348		2
 rekordu	178		3
 rendu			2
 rodu	2859		2
-rokadu	88		2
-roksandu			2
-roladu	14		2
-roštiljadu			2
-ruandu			2
+rokadu	88		3
+roksandu			3
+roladu	14		3
+roštiljadu			3
+ruandu			3
 rudu	805		2
-rukosadu			2
+rukosadu			3
 rundu	1632		2
 sadu		M	2
 saldu	97		2
-samoosudu			2
+samoosudu			3
 samovladu			2
-sarabandu			2
-saznadu			2
-seadu			2
+sarabandu			3
+saznadu			3
+seadu			3
 sedu	198		2
 sekundu	1321		3
-serdžadu			2
-serenadu	57		2
+serdžadu			3
+serenadu	57		3
 severozapadu	926		3
-simonidu			2
+simonidu			3
 sinodu	418		2
-skejtbordu			2
+skejtbordu			3
 skladu	79488		2
-slabovidu	36		2
+slabovidu	36		3
 sladoledu	157		4
 sladu	94		2
 sledu	234		2
 slobodu	24156		2
 smradu			2
-snoubordu	50		2
+snoubordu	50		3
 sodu	261		2
 sondu	387		2
 sprovedu	3254		3
@@ -427,63 +427,63 @@ sprovodu	82		3
 sprudu	53		2
 sredu	15401		2
 stadu	356		2
-staljingradu			2
+staljingradu			3
 stampedu	107		2
 standardu	3379		3
 stidu	108		2
 sudu	26243		2
-suhozidu			2
+suhozidu			3
 suludu	183		3
 susedu	230		3
 susjedu			3
-svazilendu			2
-svetovidu			2
+svazilendu			3
+svetovidu			3
 svodu	246		2
-tabloidu	188		2
-tiradu	99		2
-titogradu			2
-toledu			2
-toplovodu	79		2
+tabloidu	188		3
+tiradu	99		3
+titogradu			3
+toledu			3
+toplovodu	79		3
 tornadu	40		2
 torpedu			2
 trendu	2600		2
-trijadu	52		2
-trosedu	98		2
-trosjedu		J	2
+trijadu	52		3
+trosedu	98		3
+trosjedu		J	3
 trudu	1665		2
 tvidu			2
 tvrdu	780		2
 ubodu	162		3
-ugandu			2
+ugandu			3
 ugledu	4390		3
 ugodu	17		3
 uhodu	11		3
-ujedu	108		2
+ujedu	108		3
 ukradu	948		3
 upadu	155		3
 urdu			2
 uredu	1782		3
 usudu	71		3
 utvrdu	53		3
-uvedu			2
+uvedu			3
 uvidu	530		3
 uvodu	1105		3
 uvredu	1164		3
 uzdu	100		2
 uštedu	3189		3
 velegradu	100		4
-veleposedu			2
+veleposedu			3
 verandu	65		2
 vidu	56170		2
 vikendu	394		3
 vinogradu	670		4
-višegradu			2
+višegradu			3
 vladu	29291		2
 vodopadu	86		4
-vodoprivredu	848		2
+vodoprivredu	848		3
 vodovodu	860		4
 vodu	39777		2
-vojevodu			2
+vojevodu			3
 vojvodu	373		3
 voždu	85		2
 vraždu			2
@@ -499,36 +499,36 @@ zasedu	230		3
 zavadu	27		3
 zavedu	332		3
 zavodu	5186		3
-zelandu			2
+zelandu			3
 zgodu	80		2
 zgradu	11500		2
 zidu	5517		2
-zlohudu			2
+zlohudu			3
 znadu	256		2
 zvezdu	9544		2
-ćeramidu			2
+ćeramidu			3
 čedu	314		2
-čiodu			2
+čiodu			3
 čokoladu	2755		2
 čudu	1979		2
 đidu			2
-šaradu	27		2
+šaradu	27		3
 šidu			2
 škodu	532		2
 špadu			2
 štandu	3901		2
 štrandu	535		2
-živoradu			2
+živoradu			3
 žlezdu	261		2
 besjedu			3
 bijedu	128		3
 djedu	82		2
 gnijezdu	39		3
 medvjedu			3
-pobijedu			2
+pobijedu			3
 pobjedu			3
 posjedu			3
-prijedu			2
+prijedu			3
 prijevodu	128		4
 redoslijedu	62		5
 sijedu			3

@@ -1,7 +1,7 @@
 3341
 Firenca			2
-Leskovaca			2
-Leskovca			2
+Leskovaca			3
+Leskovca			3
 Loznica			3
 Meseca	85634		3
 Podgorica			4
@@ -10,80 +10,80 @@ Sjenica	1208		3
 Subotica			4
 aca			2
 advokatica	231		3
-afrikanaca			2
-afrikanca			2
+afrikanaca			3
+afrikanca			3
 afroamerikanaca	30		3
-agentica	13		2
-aginica		M	2
+agentica	13		4
+aginica		M	3
 akademaca	684		3
 akademca	54		2
-aktivaca			2
-aktivca			2
+aktivaca			3
+aktivca			3
 alatnica	24		4
-albanaca			2
+albanaca			3
 albanca			2
-aleksinca			2
-aljkavica			2
+aleksinca			3
+aljkavica			4
 alkica		M	3
-alžiraca			2
-alžirca			2
-amerikanaca			2
-amerikanca			2
-amforica			2
+alžiraca			3
+alžirca			3
+amerikanaca			3
+amerikanca			3
+amforica			3
 andrijevica			5
-anegdotica			2
+anegdotica			4
 ankica			3
-antikvarnica	80		2
+antikvarnica	80		3
 antičestica			3
-apotekarica			2
-aralica			2
-aranđelovca			2
+apotekarica			4
+aralica			4
+aranđelovca			3
 arijevaca	60		5
-artiljeraca			2
-artiljerca			2
+artiljeraca			3
+artiljerca			3
 asonanca			2
-australijanaca			2
+australijanaca			3
 austrijanaca	52		3
 autorica			5
-aušvica			2
-avanturica			2
-avganistanaca			2
-azijaca			2
-azijca			2
-aščinica			2
+aušvica			3
+avanturica			3
+avganistanaca			3
+azijaca			3
+azijca			3
+aščinica			3
 babaca			3
 babica	655		3
 babušnica			4
 baca	5214		2
 bacačica	34		3
-bajalica	92		2
+bajalica	92		4
 bajca	37		2
 bakalnica	40		3
 bakica	314		3
 balavaca	33		4
 balavca	35		3
 balavica	32		4
-baljevca			2
+baljevca			3
 balkanaca	53		3
 balkanca			2
 bananica	153		4
 banica	42		3
 banjica			3
-banovaca	185		2
-banovca			2
+banovaca	185		3
+banovca			3
 barica	77		3
-baronica	99		2
+baronica	99		3
 barunica	25		3
 barčica			3
-basnopisca			2
+basnopisca			3
 batajnica			3
-batinica			2
-bačvica	18		2
+batinica			3
+bačvica	18		3
 baštica		M	3
 bebica	244		3
-bednica	18		2
+bednica	18		3
 bedrenica			3
-begovica			2
+begovica			4
 begunaca	484		3
 begunca	323		2
 begunica		M	3
@@ -92,120 +92,120 @@ belanaca			3
 belanca	689		2
 belca	106		2
 beležnica		M	4
-belgijanaca			2
-belgijanca			2
+belgijanaca			3
+belgijanca			3
 belica			3
-belojica			2
-benkovca			2
-benzinca	645		2
+belojica			4
+benkovca			3
+benzinca	645		3
 beračica	17		3
 berbernica	31		3
-besanica			2
+besanica			3
 beskućnica	26		4
 besmislica	1307		4
 besmrtnica		M	4
 besparica	504		4
 besposlica	52		4
-besputica		M	2
-besramnica		M	2
+besputica		M	4
+besramnica		M	3
 bestidnica	12		4
 besvestica			4
 bezbožnica			4
-bezbradica			2
+bezbradica			4
 bezdušnica		M	4
 bezobraznica	22		4
-bezočnica		M	2
-bečejaca			2
+bezočnica		M	3
+bečejaca			3
 bibernica			3
-biletarnica			2
-biljanica			2
+biletarnica			3
+biljanica			4
 bilježnica	18	J	4
-biljčica	64		2
+biljčica	64		3
 biračica			3
 bisernica	20		3
-bistrica		M	2
+bistrica		M	3
 bivolica	22		4
-bičevaoca			2
+bičevaoca			3
 bjelanaca			3
 bjelanca			2
 bjelasica			3
 bjelašnica			4
 blaca			2
 blagajnica	102		3
-blagica			2
+blagica			3
 blagovaonica			3
-blanjalica			2
-blaženica			2
+blanjalica			4
+blaženica			3
 blica	1964		2
 blizanaca	995		3
 blizanca	468		2
 bljuzgavica	29		4
 bludnica	194		3
-bluzica	21		2
+bluzica	21		3
 bobica	494		3
 boca	2416		2
 bogatašica	82		3
-bogavca			2
+bogavca			3
 bogca			2
-bogomoljaca	41		2
-bogomoljca	14		2
-bogonosaca			2
-bogonosca			2
-bogorodica	1509		2
-bojica	82		2
+bogomoljaca	41		3
+bogomoljca	14		3
+bogonosaca			3
+bogonosca			3
+bogorodica	1509		3
+bojica	82		3
 bojišnica			4
 bokserica	50		4
 bokvica	120		3
 bolesnica	223		3
-bolica			2
-boljetica			2
-boljevca			2
+bolica			3
+boljetica			4
+boljevca			3
 bolnica	7775		3
 bombica	56		3
-bombonica			2
+bombonica			3
 bonaca	49		3
 boraca	5275		3
 borca	3834		2
-borica	39		2
-borovca			2
-borovica	245		2
+borica	39		3
+borovca			3
+borovica	245		4
 borovnica	758		3
 bosanaca	59		3
 bosanca	98		2
-bosančica	63		2
+bosančica	63		3
 bočica	501		3
 božica	134		3
-božićnica			2
+božićnica			3
 braca	547		2
 bradavica	931		4
-bradica	38		2
+bradica	38		3
 bradonjica			4
-brakolomnica		M	2
+brakolomnica		M	3
 branilaca	727		4
 branioca	1697		4
 branjenica			4
 brankica			3
-bratanaca	10		2
+bratanaca	10		3
 bratanca	106		2
-bratanica	74		2
-bratoubica		M	2
-bratunca			2
+bratanica	74		3
+bratoubica		M	3
+bratunca			3
 bravca			2
 bravica	79		3
-brazdica			2
-brazilaca	59		2
-brazilca	205		2
-brbljivaca	13		2
-brbljivca			2
-brbljivica	21		2
-brdašca	103		2
+brazdica			3
+brazilaca	59		3
+brazilca	205		3
+brbljivaca	13		3
+brbljivca			3
+brbljivica	21		4
+brdašca	103		3
 breca			2
-bregalnica			2
+bregalnica			3
 bregunica			3
 breskvica	15		3
-brestovca			2
+brestovca			3
 breznica			3
-brezovca			2
+brezovca			3
 brezovica		M	4
 brica		M	2
 brijačica		M	3
@@ -213,20 +213,20 @@ brijačnica			3
 britanaca	105		3
 britanca	161		2
 britvica	10		3
-brizgalica	13		2
+brizgalica	13		4
 brnjica	84		3
-brodarica			2
+brodarica			3
 brodica	53		3
-brojanica	154		2
-brucošica			2
+brojanica	154		4
+brucošica			3
 brusilica	80		4
 brusnica	395		3
 brzaca			3
-brzica	10		2
-brzopisca			2
-bubalica		M	2
+brzica	10		3
+brzopisca			3
+bubalica		M	4
 bubica	376		3
-bubnjalica			2
+bubnjalica			4
 bubuljica	585		3
 bubuljičica			3
 buca		M	2
@@ -234,18 +234,18 @@ budalica	16		3
 budilica	17		4
 budnica	10		3
 bugarštica	81		3
-bujanovca			2
+bujanovca			3
 bujica	780		3
-bukovca			2
+bukovca			3
 bukovica			4
 bukvica	46		3
 bunca	72		2
-bundevica		M	2
-bundica			2
-bunjevaca			2
+bundevica		M	3
+bundica			3
+bunjevaca			3
 buntovnica	38		3
-buregdžinica	23		2
-burmutica			2
+buregdžinica	23		3
+burmutica			4
 burnica			3
 bućkalica		M	4
 bušilica	196		4
@@ -255,41 +255,41 @@ carinarnica	469		3
 ceca			2
 ceduljica	61		3
 cepanica	79		4
-cerovca			2
+cerovca			3
 cestica			3
 cevanica	28		3
 cevčica	237		3
 cica	255		2
-ciglica			2
-cipelica	158		2
+ciglica			3
+cipelica	158		4
 coca			2
 crevca	254		2
-crkavica	75		2
+crkavica	75		4
 crkvenca			2
 crkvica	357		3
 crnaca	636		3
 crnca	366		2
 crnica	115		3
-crnogoraca			2
-crnogorca			2
+crnogoraca			3
+crnogorca			3
 crnogorica			4
 crnorizaca	18		4
-crnorukaca			2
+crnorukaca			3
 crtačica			3
 crtica	439		3
-crvenica	15		2
+crvenica	15		3
 crvenkapica	49		5
-crvenokošca			2
-crvenokožaca	17		2
+crvenokošca			3
+crvenokožaca	17		3
 cuca			2
 curica	197		3
-cvetnica	65		2
-cvećarica			2
+cvetnica	65		3
+cvećarica			3
 cvećarnica		M	3
 daca			2
 dalmatinca	54		2
-damica		M	2
-damjanica			2
+damica		M	3
+damjanica			4
 danaca			3
 današnjica	99		4
 danca			2
@@ -300,50 +300,50 @@ darovnica	35		3
 davalaca	1679		4
 davaoca	1355		4
 daščica	103		3
-debeljuca	84		2
+debeljuca	84		3
 debitantica			4
 deca	75241		2
-dedica	195		2
+dedica	195		3
 dekica	129		3
-delilaca	51		2
-delioca	68		2
+delilaca	51		3
+delioca	68		3
 deljaonica			3
 deonica	4692		3
-deseteraca	24		2
-deseterca	97		2
-desetica	32		2
+deseteraca	24		3
+deseterca	97		3
+desetica	32		4
 desetnica			4
 desetogodišnjica	150		4
 desetorica	175		3
 desnica	1626		3
-despotica	128		2
-despotovca			2
+despotica	128		3
+despotovca			3
 devetica		M	3
 devetnaestica			4
-devetnaestorica		M	2
+devetnaestorica		M	3
 devetnica			4
 devetorica	135		3
 devica	2191		3
-devičica		M	2
+devičica		M	3
 devojčica	10914		3
 dečica	404		3
-dilerica			2
-dimnica		M	2
-diplomaca	1272		2
-diplomca	109		2
+dilerica			4
+dimnica		M	3
+diplomaca	1272		3
+diplomca	109		3
 direktorica		M	3
-disalica			2
-disonanca	16		2
+disalica			4
+disonanca	16		3
 distanca	940		2
 divaca			3
 dizalica	509		4
-djedica		J	2
+djedica		J	3
 dlačica	747		3
 dnevnica	1246		3
-dobanovaca			2
+dobanovaca			3
 dobitnica	1481		4
-dobrica	1579		2
-dobričica		M	2
+dobrica	1579		3
+dobričica		M	3
 dobrodošlica	329		3
 dobrovoljaca	1769		3
 dobrovoljca	179		2
@@ -352,176 +352,176 @@ dodirnica			3
 dokolenica	11		3
 dokolica	151		4
 doktorica			4
-dokumentaraca	303		2
-dokumentarca	484		2
+dokumentaraca	303		3
+dokumentarca	484		3
 dolaca			3
-dolaktica		M	2
-dolinica			2
+dolaktica		M	4
+dolinica			3
 domaćica	3139		3
 domoroca	13		2
 domorodaca	252		3
 domovnica			3
-donosilaca			2
-donosioca			2
+donosilaca			3
+donosioca			3
 dopisnica	504		4
-dopusnica			2
+dopusnica			3
 dosadnica		M	4
 doseljenica			3
-doskočica	104		2
+doskočica	104		3
 dostavljačica		M	3
 dostavnica	55		3
 doušnica			4
-dovitljivca			2
+dovitljivca			3
 dragica			3
-draguljarnica	17		2
-drainca			2
-drekavaca	39		2
-drekavca	46		2
-dremalica		M	2
-drenica			2
-drhtavica	167		2
+draguljarnica	17		3
+drainca			3
+drekavaca	39		3
+drekavca	46		3
+dremalica		M	4
+drenica			3
+drhtavica	167		4
 dripaca	37		3
 dripca	28		2
 drobilica	59		4
 droca			2
 droljica			3
-dronjavca			2
+dronjavca			3
 drugarica	4236		4
-družbenica	41		2
-družica			2
-družinica		M	2
+družbenica	41		3
+družica			3
+družinica		M	3
 drvaca			3
-drvarica		M	2
+drvarica		M	3
 drvarnica			3
 drvca	72		2
 drznica		M	3
-drščica		M	2
-držalaca			2
-držaljica		M	2
-držaoca			2
+drščica		M	3
+držalaca			3
+držaljica		M	3
+držaoca			3
 državica	418		4
 državnica			3
 dubica			3
-dubnica			2
-dubočica			2
-dugodnevnica			2
+dubnica			3
+dubočica			3
+dugodnevnica			3
 duhovnica			3
-dukserica	37		2
-duplerica	31		2
-duvalica		M	2
-duvandžinica		M	2
+dukserica	37		4
+duplerica	31		4
+duvalica		M	4
+duvandžinica		M	3
 dućanca			2
-dušanovca			2
+dušanovca			3
 dušica	1049		3
-dužica	43		2
-dužijanca			2
+dužica	43		3
+dužijanca			3
 dužnica	12		3
-dvadesetica		M	2
-dvadesetogodišnjica			2
-dvadesetorica	32		2
-dvadesetpetogodišnjica			2
-dvanaesteraca			2
-dvanaestica	46		2
+dvadesetica		M	4
+dvadesetogodišnjica			3
+dvadesetorica	32		4
+dvadesetpetogodišnjica			3
+dvanaesteraca			3
+dvanaestica	46		4
 dvanaestorica	94		3
 dvestagodišnjica			3
-dvogodaca			2
+dvogodaca			3
 dvojca	708		2
 dvojica	13866		3
 dvojnica	73		3
 dvokatnica			4
 dvokolica	52		4
-dvokrilaca	30		2
-dvokrilca	10		2
+dvokrilaca	30		3
+dvokrilca	10		3
 dvoraca	285		3
 dvorca	1365		2
-dvosmislica			2
+dvosmislica			4
 dvospratnica	46		4
-dvosupnica			2
+dvosupnica			3
 dvoumica		M	4
-džeparca	218		2
+džeparca	218		3
 džigerica	253		4
 džukaca	14		3
 džukca	19		2
 ekavica	67		4
-emica			2
-esesovaca			2
-esesovca			2
+emica			3
+esesovaca			3
+esesovca			3
 evica			3
-evropejaca			2
-evropejca			2
-fabričica		M	2
+evropejaca			3
+evropejca			3
+fabričica		M	3
 faca	1187		2
-farmerica	149		2
+farmerica	149		4
 faćkalica		M	4
-federalaca			2
-federalca			2
+federalaca			3
+federalca			3
 ferenca			2
-feudalaca			2
-feudalca			2
+feudalaca			3
+feudalca			3
 figurica	239		3
 filca			2
-filipinaca			2
-filipinca			2
+filipinaca			3
+filipinca			3
 finaca			3
-flamanaca			2
+flamanaca			3
 flašica		M	3
 flekica			3
 forca	120		2
 fortica			3
-foteljica			2
-fotokopirnica			2
+foteljica			3
+fotokopirnica			3
 franca			2
-franjevaca	154		2
-franjevca	32		2
+franjevaca	154		3
+franjevca	32		3
 frekvenca	150		2
 frendica	53		3
-frulica			2
-fufica		M	2
-gabrovca			2
+frulica			3
+fufica		M	3
+gabrovca			3
 gadnica			3
-gagrica			2
+gagrica			3
 gajbica			3
 galebica			4
 galica	26		3
-gasilaca			2
-gatalica	174		2
+gasilaca			3
+gatalica	174		4
 gazdarica	548		4
 gaćica	431		3
 geca			2
-geguca			2
+geguca			3
 generalica		M	3
-genijalaca	137		2
-genijalca	97		2
+genijalaca	137		3
+genijalca	97		3
 gerilaca	157		3
 gerilca	60		2
 gerilica			4
-gestapovca			2
+gestapovca			3
 gibanica	170		4
 gica		M	2
-gigaherca	75		2
-girica	17		2
+gigaherca	75		3
+girica	17		3
 gladilica		M	4
 gladnica		M	3
 glagoljica	153		3
 glanca	103		2
 glasačica			3
 glasnica	56		3
-glavarica			2
-glavatica			2
+glavarica			3
+glavatica			4
 glavica	816		3
-glavičica		M	2
+glavičica		M	3
 glavnica	475		3
 glavonožaca	16		4
-glačalica		M	2
+glačalica		M	4
 glačaonica			3
-gledalaca			2
-gledaoca			2
-glinica			2
-gljivica	1202		2
-glodalica	72		2
+gledalaca			3
+gledaoca			3
+glinica			3
+gljivica	1202		3
+glodalica	72		4
 glodavaca	10		4
 glodavca			3
-glogovca			2
+glogovca			3
 glumaca	5145		3
 glumca	4354		2
 glumica	9475		3
@@ -530,85 +530,85 @@ glupačica			3
 glušca			2
 gmizavaca	427		4
 gmizavca	55		3
-gnezdašca			2
-gnjavatorica			2
+gnezdašca			3
+gnjavatorica			3
 gnječilica		M	4
 gnjuračica			3
 gnjurca	22		2
-gnojavica		M	2
+gnojavica		M	4
 goca			2
-godinica			2
+godinica			3
 godišnjica	2492		4
-golenica			2
+golenica			3
 golica	244		2
-golomrazica	12		2
+golomrazica	12		3
 golubica	275		3
-golubovca			2
-golupca			2
+golubovca			3
+golupca			3
 gomilica	87		4
-gonilaca			2
-goranaca			2
+gonilaca			3
+goranaca			3
 goranca			2
-goraždevca			2
-gorica	893		2
-goropadnica			2
+goraždevca			3
+gorica	893		3
+goropadnica			4
 gorušica	238		3
 gospodarica	207		3
-gospojica			2
+gospojica			4
 gospođica	1368		4
 gostionica	162		3
 gotica	18		3
 govedarica	188		3
 govornica	358		3
 gozbica		M	3
-grabežljivaca			2
-grabežljivca			2
+grabežljivaca			3
+grabežljivca			3
 grabilica			4
-grabljivaca	79		2
-grabljivca	60		2
-grabljivica	591		2
-grabovca			2
-grabovica			2
+grabljivaca	79		3
+grabljivca	60		3
+grabljivica	591		4
+grabovca			3
+grabovica			4
 graca	272		2
 gradaca			3
-gradinica			2
+gradinica			3
 gradonačelnica	1635		4
-grahorica	44		2
+grahorica	44		3
 granica	26030		3
 grančica	645		3
-graorca			2
+graorca			3
 gračaca			3
-gračanica			2
-građevinaca			2
-građevinca			2
+gračanica			3
+građevinaca			3
+građevinca			3
 grbavca	19		3
 grbavica		M	4
 grbica	94		3
-grdelica			2
-grebalica			2
-gredica	115		2
-grejalica	131		2
+grdelica			4
+grebalica			4
+gredica	115		3
+grejalica	131		4
 greškica	31		3
 grešnica	139		3
-greščica			2
+greščica			3
 grickalica	559		4
-grijalica		J	2
-grizlica		M	2
+grijalica		J	4
+grizlica		M	3
 grkinjica			4
 grlica	316		3
-grnčarica		M	2
+grnčarica		M	3
 grobnica	2233		3
 grofica	255		3
 groznica	1593		3
 grožđica	36		3
-grudica			2
-grudvica	186		2
-grujica			2
+grudica			3
+grudvica	186		3
+grujica			3
 gruntovnica	12		3
-grupica	603		2
-gubavaca	29		2
-gubavca	40		2
-gubavica		M	2
+grupica	603		3
+gubavaca	29		3
+gubavca	40		3
+gubavica		M	3
 gubica	31		3
 gubitnica	24		4
 gumica	254		3
@@ -617,142 +617,142 @@ gusenica	347		4
 guskica			3
 gušica			3
 gušterica	31		4
-guščarica			2
-gužvica			2
+guščarica			3
+gužvica			3
 gđica	93		2
-hadžinica		M	2
-hajdučica	127		2
-haljinica	182		2
-hamburgernica		M	2
+hadžinica		M	3
+hajdučica	127		3
+haljinica	182		3
+hamburgernica		M	3
 hanumica			4
-hapšenica		M	2
-hartijica		M	2
+hapšenica		M	3
+hartijica		M	4
 haubica	108		4
-heftalica			2
+heftalica			4
 herca			2
 hercegovca	171		4
-heteroseksualca	16		2
+heteroseksualca	16		3
 hica	398		2
-hispanaca			2
+hispanaca			3
 hitaca	525		3
 hladilica		M	4
 hlačica		J	3
 hlebarnica		M	3
 hobotnica	302		4
-hodalica			2
-hodočasnica			2
-hoklica		M	2
+hodalica			4
+hodočasnica			3
+hoklica		M	3
 homoseksualaca	1539		3
 homoseksualca	268		2
-honoraraca	73		2
+honoraraca	73		3
 hranilica	186		4
 hranioca	39		4
 hranjenica		M	4
 hropca			2
-hrpica	22		2
-hrskavica	282		2
+hrpica	22		3
+hrskavica	282		4
 hrtica		M	3
 hrvatica	355		4
-humanitarca	28		2
+humanitarca	28		3
 humca			2
 hunjavica			4
 hvalica			3
-hvalisavca			2
-hvalisavica		M	2
-hvatalica			2
+hvalisavca			3
+hvalisavica		M	4
+hvatalica			4
 ica			2
-iglenica			2
+iglenica			3
 iglica	297		3
 igraonica	951		3
 igračica	2485		3
-igračkica	87		2
+igračkica	87		3
 igračnica			3
-igrica	3767		2
+igrica	3767		3
 ijekavaca	10	J	4
 ikavica			4
-ikonica	830		2
-ikonoborca			2
-ikonopisca	114		2
+ikonica	830		3
+ikonoborca			3
+ikonopisca	114		3
 ilegalaca	176		3
 ilegalca	25		2
 iliraca	22		3
 imalaca	104		4
 imaoca	293		4
 imenica	1344		4
-imenilaca			2
+imenilaca			3
 inačica	93		3
 indijaca	137		3
 indijanaca	237		3
 indijanca	81		2
 indijca	37		2
-individualaca	146		2
-individualca	50		2
-industrijalaca	305		2
-industrijalca	127		2
-influenca		M	2
-inostranca			2
-inspektorica			2
+individualaca	146		3
+individualca	50		3
+industrijalaca	305		3
+industrijalca	127		3
+influenca		M	3
+inostranca			3
+inspektorica			3
 instanca	639		2
-instruktorica			2
+instruktorica			3
 intelektualaca	3749		3
 intelektualca	1135		2
-intermeca	45		2
-intuitivca			2
-inženjeraca			2
+intermeca	45		3
+intuitivca			3
+inženjeraca			3
 iraca	173		3
-iranaca			2
+iranaca			3
 irca	86		2
-iseca			2
+iseca			3
 iseljenica			3
 iskaznica	22		4
 iskrca	78		2
 iskrica	166		3
 iskušenica		M	3
-ispisnica	29		2
-ispitanica	476		2
-isplatioca			2
-isposnica	176		2
+ispisnica	29		4
+ispitanica	476		3
+isplatioca			3
+isposnica	176		4
 ispovedaonica	44		3
-ispovednica		M	2
-ispovjednica		J	2
+ispovednica		M	4
+ispovjednica		J	4
 isprošenica			3
-ispuca	119		2
-istočnica			2
+ispuca	119		3
+istočnica			3
 istražiteljica			3
-istraživačica			2
+istraživačica			3
 ivanjica			4
 ivančica			3
-iverica	144		2
+iverica	144		4
 ivica	2547		3
-izabranica	260		2
+izabranica	260		3
 izbeglica	5520		4
 izbiračica		M	3
 izdajica	374		4
 izdajnica	22		3
-izdavalaca			2
-izdavaoca			2
+izdavalaca			3
+izdavaoca			3
 izelica	15		4
 izglanca			2
 izjelica		M	4
 izlaznica		M	4
 izmaglica	223		4
-iznutrica	161		2
+iznutrica	161		3
 izraelaca	82		3
 izraelca	75		2
 izumiteljica			3
 izvanzemaljaca			3
 izvanzemaljca			2
 izvedenica	85		3
-izvesnica			2
-izvestioca	413		2
+izvesnica			3
+izvestioca	413		3
 izvidnica	60		4
 izviđačica			3
 izvoznica	165		4
 izvođačica	42		3
-izvršilaca	1070		2
-izvršioca	725		2
-ižica			2
-jablanica			2
+izvršilaca	1070		3
+izvršioca	725		3
+ižica			3
+jablanica			3
 jabučica	160		4
 jadnica	193		3
 jaganjaca	173		4
@@ -762,8 +762,8 @@ jahačica	20		3
 jajašaca			3
 jajašca	352		2
 jajca	249		2
-jaknica	35		2
-jakobinaca	39		2
+jaknica	35		3
+jakobinaca	39		3
 jalovica	12		4
 jamca			2
 jamica	33		3
@@ -771,19 +771,19 @@ janjaca			3
 japanaca	181		3
 japanca	201		2
 jaraca	36		3
-jaranica			2
+jaranica			3
 jarca	729		2
 jarebica	184		3
 jarica		M	3
-jasenica			2
-jasenovca			2
-jaslica	130		2
-jastrepca			2
-jastučnica	55		2
+jasenica			3
+jasenovca			3
+jaslica	130		3
+jastrepca			3
+jastučnica	55		4
 jazavaca	38		4
 jazavca	137		3
 jeca	373		2
-jedanaesteraca	179		2
+jedanaesteraca	179		3
 jedanaestica			4
 jedanaestorica	40		3
 jedinaca	42		3
@@ -796,15 +796,15 @@ jeguljica			3
 jelica			3
 jemca	165		2
 jetrica		M	3
-jetrvica		M	2
+jetrvica		M	3
 jezerca	144		2
 ječmenica		M	4
 joca			2
 jogunica			3
-jonica			2
+jonica			3
 jovica			3
-jošanica			2
-jubilarca			2
+jošanica			3
+jubilarca			3
 juca			2
 jufkica			3
 junaca	22		3
@@ -812,18 +812,18 @@ junca	40		2
 junica	729		3
 jurca	175		2
 jurica			3
-juvelirnica			2
-jučerašnjica			3
+juvelirnica			3
+jučerašnjica			4
 kabanica	108		3
-kablica			2
+kablica			3
 kaca		M	2
 kadenca	32		2
-kadica	83		2
+kadica	83		3
 kadionica	50		5
-kafanica	187		2
-kafica		M	2
-kajica			2
-kajzerica			2
+kafanica	187		3
+kafica		M	3
+kajica			3
+kajzerica			4
 kakaovca	35		4
 kaluđerica	254		4
 kamenaca	171		3
@@ -833,24 +833,24 @@ kamilica	354		3
 kanarinaca	128		3
 kanarinca	97		2
 kanica			3
-kantica	55		2
+kantica	55		3
 kapelica	85		3
-kapetanica	24		2
+kapetanica	24		3
 kapica	191		3
-kapitalaca	42		2
+kapitalaca	42		3
 kapljica	676		3
-kapnica		M	2
+kapnica		M	3
 kaprica	53		3
-karičica			2
+karičica			3
 karlica	181		3
-karlovaca			2
-karlovca			2
+karlovaca			3
+karlovca			3
 kartašnica		M	4
 kartica	15229		3
-karuca			2
-kasalica			2
-kasapnica		M	2
-kasica	76		2
+karuca			3
+kasalica			4
+kasapnica		M	3
+kasica	76		3
 kasirica			4
 katanaca	68		4
 katanca	119		3
@@ -859,136 +859,136 @@ kaznionica	17		3
 kačica	10		3
 kašica	239		3
 kašičica	917		4
-kašljuca	96		2
+kašljuca	96		3
 kažnjenica		M	4
 keca		M	2
-keceljica			2
-kelnerica		M	2
+keceljica			3
+kelnerica		M	4
 kepeca	37		3
-kesica	680		2
-kiborca			2
-kibuca	44		2
-kiflica	58		2
-kijavica	336		2
+kesica	680		3
+kiborca			3
+kibuca	44		3
+kiflica	58		3
+kijavica	336		4
 kikica		M	3
-kiloherca	43		2
-kininovca			2
-kiselica			2
+kiloherca	43		3
+kininovca			3
+kiselica			4
 kitica			3
 kitolovaca			3
 kitolovca			2
-kičerica			2
+kičerica			4
 kičica	45		3
 kičmenica		M	4
 kišica	168		3
 kišnica	185		3
 klackalica	383		4
-kladenaca	15		2
+kladenaca	15		3
 kladenca	48		2
 kladionica	908		3
-klamerica			2
+klamerica			4
 klanaca	35		3
 klanca	130		2
 klanica	664		3
 klaonica	18		3
 kleca	39		2
-klenovca			2
-klerikalca			2
+klenovca			3
+klerikalca			3
 klevetnica		M	4
 klica	749		2
 klinaca			3
 klinca			2
-klisurica		M	2
-klizavica	18		2
+klisurica		M	3
+klizavica	18		3
 klizačica	44		3
 kljuca	113		2
-ključanica			2
+ključanica			3
 ključaonica	40		3
-klupica	100		2
-knedlica			2
+klupica	100		3
+knedlica			3
 kneginjica		M	4
-kneževca			2
-knjaževca			2
-knjigoveznica		M	2
+kneževca			3
+knjaževca			3
+knjigoveznica		M	3
 knjižarnica		M	3
 književnica	963		3
 knjižica	2178		3
 kobaca			3
 kobasica	896		3
-kobasičarnica		M	2
+kobasičarnica		M	3
 kobilica	42		4
 koca	189		2
 kockarnica	340		3
 kockica	1100		3
 kokica	365		3
-kokošinjca	61		2
+kokošinjca	61		3
 kolaca	138		3
-kolarca			2
+kolarca			3
 kolarnica			3
-kolašinca			2
+kolašinca			3
 kolca	65		2
-koleginica	3787		2
-kolenaca			2
+koleginica	3787		3
+kolenaca			3
 kolenca	29		2
-kolenica		M	2
-kolibica	23		2
+kolenica		M	3
+kolibica	23		3
 kolica	3491		2
-koljenaca			2
-kolumbijaca			2
-kolumbijca			2
-komadica			2
+koljenaca			3
+kolumbijaca			3
+kolumbijca			3
+komadica			4
 komaraca	2170		3
 komarca	446		2
-komarica			2
+komarica			4
 komarnica			3
-komerca	109		2
-komorica	10		2
-komovica	33		2
-komunalaca	189		2
+komerca	109		3
+komorica	10		3
+komovica	33		4
+komunalaca	189		3
 komšinica	1244		4
 konaca	105		3
 konca	912		2
-kongresnica			2
-konica			2
+kongresnica			3
+konica			3
 konjica	827		3
-konjokradica	15		2
+konjokradica	15		3
 konjušnica	52		4
 konobarica	445		3
 konopaca	117		4
 konopca	748		3
 konstanca			2
-konzervativaca	516		2
-konzervativca	90		2
-konzulica	73		2
+konzervativaca	516		3
+konzervativca	90		3
+konzulica	73		4
 kopačica	10		3
 kopirnica			3
-koprca	161		2
-koprivica		M	2
+koprca	161		3
+koprivica		M	4
 koprivnica			3
 koraca	28		2
 koračnica	29		3
-koreanaca			2
-koreanca			2
-korejaca			2
-korejanaca			2
-korejca			2
-korenica			2
-korica	1107		2
-korisnica	343		2
-korpica	89		2
-kosanica			2
+koreanaca			3
+koreanca			3
+korejaca			3
+korejanaca			3
+korejca			3
+korenica			3
+korica	1107		3
+korisnica	343		4
+korpica	89		3
+kosanica			3
 kosačica	91		3
 kosca	26		2
-kosica		M	2
+kosica		M	3
 kosilica	132		4
-kosopasica			2
-kosovaca			2
-kosovca			2
+kosopasica			3
+kosovaca			3
+kosovca			3
 kostajnica			3
-kostolca			2
-kostolomca	10		2
+kostolca			3
+kostolomca	10		3
 kosturnica	176		3
-kotarica	59		2
+kotarica	59		3
 kotlarnica	497		3
 kovanica	641		3
 kovaonica			3
@@ -996,14 +996,14 @@ kovačica		M	3
 kovačnica	129		3
 kovitlaca	45		3
 kovnica			3
-kozarica		M	2
+kozarica		M	3
 kozica	123		3
 kočnica	1715		3
 košarica	16		4
 košarkašica	406		3
 košica			3
 košnica	2599		3
-košpica			2
+košpica			3
 koštica	335		3
 koštunica		M	3
 košuljica	271		4
@@ -1012,16 +1012,16 @@ kožica	350		3
 kožurica		M	4
 kradljivaca	287		4
 kradljivca	122		3
-kradljivica	98		2
-kragujevca			2
+kradljivica	98		4
+kragujevca			3
 krajišnica			4
-kraljeubica			2
+kraljeubica			3
 kraljevica			4
 kralješnica			4
 kraljica	5178		3
 kranjca			2
 krasnica			3
-krasotica			2
+krasotica			3
 krastavaca	510		4
 krastavca	495		3
 krastačica			3
@@ -1031,63 +1031,63 @@ krca	17		2
 krckalica			4
 kredenca	50		2
 krelaca			3
-kremica	48		2
-kreposnica			2
+kremica	48		3
+kreposnica			4
 kresnica		M	3
 kreveca	175		2
-kreštalica		M	2
+kreštalica		M	4
 krijesnica	11	J	3
 krilaca			3
 krilatica	396		3
 krilca	332		2
 kriminalaca	2734		3
 kriminalca	739		2
-krioca			2
+krioca			3
 krivaca	728		3
 krivca	1674		2
 krivica	4017		2
-krivolovaca	35		2
-kriščica			2
-krofnica		M	2
+krivolovaca	35		3
+kriščica			3
+krofnica		M	3
 krojačica	103		3
 krojačnica			3
 krompirica			4
 krpica	293		3
 krsnica		M	3
 krstarica	289		4
-krstašica	22		2
+krstašica	22		3
 krstionica	93		4
 krtica	294		3
 krtolica		M	4
 krunica	255		3
-krupica	16		2
-kruševca			2
-kruščica		M	2
+krupica	16		3
+kruševca			3
+kruščica		M	3
 kružnica	99		3
 krvavica	23		4
 krvnica			3
-krvoprolica			2
-krčmarica	49		2
+krvoprolica			4
+krčmarica	49		4
 krštenica	109		4
-kubanaca			2
+kubanaca			3
 kubanca			2
 kuca	3077		2
 kucavica	206		4
-kudilaca			2
-kudrica			2
-kuglašica			2
-kuglica	622		2
+kudilaca			3
+kudrica			3
+kuglašica			3
+kuglica	622		3
 kuhinjica			4
-kujica	26		2
-kujundžinica			2
-kukavca			2
+kujica	26		3
+kujundžinica			3
+kukavca			3
 kukavica	1107		4
 kukica	60		3
 kukuljica			3
-kukuruznica		M	2
-kumanica			2
+kukuruznica		M	3
+kumanica			3
 kumica	54		3
-kumrovca			2
+kumrovca			3
 kunica		M	3
 kupaca	12560		3
 kupaonica			3
@@ -1095,100 +1095,100 @@ kupačica	45		3
 kupca	8302		2
 kupolica			4
 kurvica			3
-kusturica		M	2
+kusturica		M	3
 kutijica	224		4
-kuvarica	653		2
+kuvarica	653		3
 kućanica	24		4
-kućegazdarica			2
-kućepaziteljica			2
-kućevlasnica		M	2
+kućegazdarica			4
+kućepaziteljica			3
+kućevlasnica		M	3
 kućica	1495		3
-kučica			2
+kučica			3
 kušaonica			3
 kvarca	170		2
 kvasca	847		2
-kvazipisca			2
+kvazipisca			3
 kvačica	62		3
 kvoca			2
 kvrca			2
-kvržica	116		2
+kvržica	116		3
 kćerca		M	2
 kćerkica	80		3
-kćerčica			2
+kćerčica			3
 labudica	23		3
 ladica	49		3
-lafica		M	2
-laganica	174		2
+lafica		M	3
+laganica	174		3
 lajavca			3
-lajavica			2
-lajbnica			2
-lajkovca			2
-lakoumnica			2
+lajavica			4
+lajbnica			3
+lajkovca			3
+lakoumnica			3
 laktaca			3
-lampica	973		2
+lampica	973		3
 lanaca	2798		3
 lanca	4644		2
-lapavica	14		2
+lapavica	14		3
 lapca			2
-laponca			2
-larvica			2
+laponca			3
+larvica			3
 lasica	203		3
-laskavaca	11		2
-laskavica		M	2
+laskavaca	11		3
+laskavica		M	4
 lastavica	169		4
 lastica			3
 latica	385		3
 latinica	2132		3
-latinoamerikanaca	12		2
+latinoamerikanaca	12		3
 lavica	385		3
-lazarevca			2
-lazarica		M	2
-lazinica			2
+lazarevca			3
+lazarica		M	3
+lazinica			3
 lađica	45		3
-lažičica		M	2
+lažičica		M	3
 lažljivaca	26		4
 lažljivca	30		3
-lažljivica	31		2
+lažljivica	31		4
 leca			2
 ledenica	325		3
-lekarica			2
-lenivca			2
-lenjivaca	45		2
-lenjivca	38		2
-lenjivica		M	2
-lepenica			2
+lekarica			4
+lenivca			3
+lenjivaca	45		3
+lenjivca	38		3
+lenjivica		M	4
+lepenica			3
 lepotica	2195		3
 leptirica	102		4
 lestvica	356		3
 letačica			3
 letelica	3071		4
 letilica		M	4
-letnjikovaca	46		2
-letnjikovca	131		2
-letonaca			2
+letnjikovaca	46		3
+letnjikovca	131		3
+letonaca			3
 letvica	290		3
 levica	1838		3
 lešnica			3
 libanca			2
-libanonca			2
+libanonca			3
 lica	89752		2
 licenca	1853		2
-lipica			2
-lipovca			2
+lipica			3
+lipovca			3
 lisaca	12		3
 lisica	1487		3
 lisnica	12		3
 listica		M	3
 litica	344		3
-litrica			2
-litvanaca			2
-livadica		M	2
+litrica			3
+litvanaca			3
+livadica		M	4
 livnica		M	2
 lizalica	64		4
-ljigavaca	21		2
-ljigavca	17		2
-ljotićevaca			2
-ljotićevca			2
+ljigavaca	21		3
+ljigavca	17		3
+ljotićevaca			3
+ljotićevca			3
 ljubavnica	918		3
 ljubica	1419		3
 ljubimaca	1917		3
@@ -1197,53 +1197,53 @@ ljubimica	270		4
 ljubiteljica	17		3
 ljubičica	252		2
 ljuskica	18		3
-ljuspica	100		2
-ljutenica			2
-ljutica	64		2
-ljušturica			2
-ljuščica		M	2
+ljuspica	100		3
+ljutenica			3
+ljutica	64		3
+ljušturica			3
+ljuščica		M	3
 loca			2
 logorašica	18		3
-lojanica	122		2
-lokalaca	133		2
-lokalca	15		2
+lojanica	122		4
+lokalaca	133		3
+lokalca	15		3
 lokvica	13		3
 lomilica			4
 lonaca	191		3
 lonca	325		2
-lončanica			2
+lončanica			3
 lončarnica		M	3
 lopatica	360		4
 lopatnica			4
-lopovica			2
+lopovica			4
 loptica	998		3
 lovaca	1920		3
 lovca	1127		2
-lovica			2
+lovica			3
 lovnica			3
 lovokradica	64		3
-lozica		M	2
+lozica		M	3
 ložionica	22		3
 ložnica	15		3
 lubenica	810		3
-lubnica			2
+lubnica			3
 ludaca			3
-ludica			2
+ludica			3
 ludnica	578		3
 lugarnica			3
 lukavca	18		3
-lukavica	44		2
-lukovca			2
+lukavica	44		4
+lukovca			3
 lukovica	218		4
-lulica			2
-lunjalica			2
-lunjevica			2
+lulica			3
+lunjalica			4
+lunjevica			3
 lutalica	1710		4
 lutkica	125		3
-luzerica			2
-lučica			2
+luzerica			4
+lučica			3
 luštica			3
-lužica			2
+lužica			3
 lužnica	71		3
 maca	1578		2
 madraca	82		3
@@ -1252,13 +1252,13 @@ magarca	1118		3
 magarica	55		4
 maglica	71		3
 mahunica		M	3
-majevica			2
+majevica			3
 majica	1986		3
-majičica			2
+majičica			3
 majmunica	23		3
-majorica	13		2
-majstorica	194		2
-majčica	118		2
+majorica	13		3
+majstorica	194		3
+majčica	118		3
 makedonaca	80		3
 makedonca	63		2
 maljenica		M	4
@@ -1269,143 +1269,143 @@ mamaca	220		3
 mamca	154		2
 mamica	182		3
 maramica	385		4
-maratonaca	320		2
+maratonaca	320		3
 marca		M	2
 marelica	28		3
-marinaca	408		2
-marinca	80		2
+marinaca	408		3
+marinca	80		3
 markica	729		3
-markovca			2
-marokanaca			2
-marokanca			2
-marsovaca			2
-marsovca			2
+markovca			3
+marokanaca			3
+marokanca			3
+marsovaca			3
+marsovca			3
 maslaca	575		3
-maslenica			2
+maslenica			3
 masnica	39		3
 mastionica	17		3
 materica	503		4
 maternica	22		4
-materoubica		M	2
+materoubica		M	3
 matica	3201		3
-matoraca	107		2
-matorca	54		2
-matovilca			2
+matoraca	107		3
+matorca	54		3
+matovilca			3
 matrica	1460		2
-mazalica	96		2
+mazalica	96		4
 maznica		M	3
-maćuhica	11		2
+maćuhica	11		3
 mačevalaca	31		4
 mačevaoca	32		4
-mačkatica			2
+mačkatica			4
 mačkica	88		3
-mađarica	225		2
-mašinarnica		M	2
-mašinica	117		2
+mađarica	225		3
+mašinarnica		M	3
+mašinica	117		3
 mašnica	65		3
-medaljica			2
+medaljica			3
 medenica			3
 medonjica			4
 medvedica	68		4
-megaherca	144		2
-meksikanaca			2
-meksikanca			2
+megaherca	144		3
+meksikanaca			3
+meksikanca			3
 mekušaca	110		3
 mekušca	17		2
 menica	821		3
-menjalica			2
+menjalica			4
 menjačnica	480		3
-merica	80		2
+merica	80		3
 mesarnica		M	3
 meseca	85634		3
 mesnica			3
 mestašca	110		2
 metalaca	626		3
 metalca	791		2
-metlica	72		2
+metlica	72		3
 metvica	37		3
-mezimca	165		2
+mezimca	165		3
 mezimica	157		4
 međica			3
-međusobica		M	2
-međustanica			2
-mešajica			2
+međusobica		M	3
+međustanica			3
+mešajica			4
 mešalica	105		4
 mešanaca	67		3
 mešanca	132		2
 mica		M	2
-mikavica			2
-milanovca			2
+mikavica			4
+milanovca			3
 milica			3
 miljenica	222		4
 milkica			3
-milojica			2
-milosnica	34		2
-mimica			2
-minimalca	444		2
-mionica			2
-mironosica	78		2
+milojica			4
+milosnica	34		4
+mimica			3
+minimalca	444		3
+mionica			3
+mironosica	78		3
 mirotvoraca	90		3
 mirotvorca	111		2
 mislilaca	846		4
 mislioca	573		4
-mitraljesca			2
+mitraljesca			3
 mišica	283		3
 mjesečnica		J	4
 mlaca			2
 mladenaca	514		4
 mladenca	103		3
-mladenovca			2
-mladica	662		2
-mladunaca	356		2
-mladunca	97		2
+mladenovca			3
+mladica	662		3
+mladunaca	356		3
+mladunca	97		3
 mlaznica	211		3
 mlaćenica			3
-mlekarica	11		2
+mlekarica	11		4
 mlekarnica		M	3
-mlinarica			2
-modelarnica			2
+mlinarica			3
+modelarnica			3
 modrica	345		3
 mojca			2
-mojkovca			2
-mokranjca			2
-mokrica			2
-molbenica			2
+mojkovca			3
+mokranjca			3
+mokrica			3
+molbenica			3
 molbica			3
-moldavaca			2
-molilaca			2
-molioca			2
+moldavaca			3
+molilaca			3
+molioca			3
 moliteljica			3
-molitvica			2
+molitvica			3
 moljaca	130		3
 moljca	134		2
-moravaca			2
+moravaca			3
 moravica			4
 moreplovaca	134		3
 moreplovca	56		2
 mornarica	819		3
-mostarca			2
-mozgalica	121		2
-močvarica	69		2
+mostarca			3
+mozgalica	121		4
+močvarica	69		3
 mošnica	32		3
-moždanica		M	2
-mrazovca			2
-mrazovica			2
-mrežica	281		2
+moždanica		M	3
+mrazovca			3
+mrazovica			4
+mrežica	281		3
 mrežnica			3
-mrežokrilaca			2
+mrežokrilaca			3
 mrkvica			3
 mrljica	39		3
 mrtvaca	698		3
 mrtvačnica	49		3
 mrvica	653		3
-mršavica	70		2
+mršavica	70		3
 muca	176		2
 mudraca	807		3
-mudrica	47		2
+mudrica	47		3
 mulca			2
 mutavca			3
-mutavica		M	2
+mutavica		M	4
 muzilica			4
 muzlica		M	3
 mućkalica		M	4
@@ -1418,67 +1418,67 @@ muškarca	10591		2
 nabaca	46		3
 nabavljačica		M	3
 naca		M	2
-nadgrobnica			2
-nadica			2
+nadgrobnica			3
+nadica			3
 nadlaktica	112		4
-nadlanica			2
+nadlanica			3
 nadnica	335		3
 nadstojnica			3
 nadstrešnica	264		4
 nadzornica	19		3
 naivaca	66		3
 naivca	34		2
-nalepnica	1176		2
-naljepnica		J	2
+nalepnica	1176		3
+naljepnica		J	3
 naložnica	29		4
 namernica	121		3
-namesnica		M	2
-nametljivica		M	2
+namesnica		M	3
+nametljivica		M	4
 nameštenica			3
 namirnica	9914		4
-nanogvica			2
-napasnica			2
+nanogvica			3
+napasnica			3
 napojnica	76		3
 napolica			4
-napuca	21		2
+napuca	21		3
 naramenica	58		3
-naredbodavca	33		2
+naredbodavca	33		3
 narednica			4
 narudžbenica	102		3
 narukvica	733		4
-naručilaca	323		2
-naručioca	1637		2
+naručilaca	323		3
+naručioca	1637		3
 naseljenica			3
-nasilnica	10		2
+nasilnica	10		3
 naslednica	550		4
 nasljednica		J	4
 naslovnica	209		3
-nasrtljivica		M	2
+nasrtljivica		M	4
 nastavnica	1356		3
 nastojnica		M	3
 nastrešnica			4
 natkolenica			3
-natuca	26		2
+natuca	26		3
 natuknica	55		4
-nausnica		M	2
-naučnica	358		2
+nausnica		M	3
+naučnica	358		4
 naušnica	120		4
-navalica			2
+navalica			4
 navijačica	127		3
-nazdravica			2
+nazdravica			3
 nazimica	101		4
-nazuvica		M	2
-načelnica	2138		2
-našijenaca			2
-nealbanaca	376		2
-neandertalaca	100		2
-neandertalca	103		2
-neboraca			2
-nedeljica			2
+nazuvica		M	3
+načelnica	2138		3
+našijenaca			3
+nealbanaca	376		3
+neandertalaca	100		3
+neandertalca	103		3
+neboraca			3
+nedeljica			3
 nedoumica	2077		4
 negativaca	185		3
 negativca	288		2
-negica			2
+negica			3
 negovateljica	129		3
 nekretnica			4
 nelica			3
@@ -1490,96 +1490,96 @@ nepoznanica	1942		5
 neprijateljica	15		3
 neradnica			4
 nerca	26		2
-nerodica		M	2
+nerodica		M	4
 nesanica	875		4
 nesretnica	20		4
-nesrećnica	79		2
+nesrećnica	79		3
 nestašica	1631		4
 nesuglasica	1039		4
 nesuđenica			3
 nesvestica	195		4
-nevaljalaca	24		2
-nevaljalca	22		2
-nevaljalica		M	2
+nevaljalaca	24		3
+nevaljalca	22		3
+nevaljalica		M	4
 neverica	391		4
 nevernica	20		3
 nevestica		M	4
-nevinašca	68		2
+nevinašca	68		3
 nevoljnica			3
 nezahvalnica			5
 neznalica	555		4
 neznanaca	53		3
 neznanca	125		2
 nezvanica			3
-nečlanica	36		2
+nečlanica	36		3
 nica		M	2
-nigerijca			2
+nigerijca			3
 nikica			3
-nizbrdica	148		2
+nizbrdica	148		4
 ništica	18		3
 njegovateljica			3
-njihalica	10		2
-njivica	27		2
+njihalica	10		4
+njivica	27		3
 njuškica	21		3
 nobelovaca	164		5
 nobelovca	651		4
 nogavica	174		4
 nogica		M	3
 norca			2
-nosilaca			2
+nosilaca			3
 nosilica	17		4
-nosioca			2
+nosioca			3
 nositeljica			3
 nosnica	34		3
-notica	14		2
+notica	14		3
 novaca	2922		3
 novca	69928		2
 novica			3
-novopridošlica			2
+novopridošlica			3
 novčanica	1777		3
 noćca			2
-noćnica			2
+noćnica			3
 nožica	212		3
 nožnica			3
 obadvojica		M	3
 obaveštajaca	218		3
 obaveštajca	120		2
-obdanica		M	2
-obećanica			2
-obilaznica	808		2
-oblica	77		2
+obdanica		M	3
+obećanica			3
+obilaznica	808		3
+oblica	77		3
 obljetnica	120	J	4
 obojica	6676		3
 obožavalaca	795		4
 obožavaoca	222		4
 obožavateljica			3
-obradovica			2
+obradovica			4
 obramica		M	4
 obramnica			4
 obrasca	1833		3
 obrazaca	2058		4
-obrenovca			2
+obrenovca			3
 obrtnica			4
-obućarnica			2
+obućarnica			3
 obveznica	4995		4
 oca		M	2
-oceubica			2
-odabranica			2
-odaslanica			2
+oceubica			3
+odabranica			3
+odaslanica			3
 odbeglica		M	4
 odbijenica	11		3
 odbojkašica	511		3
 odbornica	572		3
-odelca			2
+odelca			3
 odlikašica			3
 odredbenica			3
 odrednica	2197		4
 odrešnica			4
-odrpanca			2
+odrpanca			3
 odseca	152		2
-odskočnica			2
-odstupnica	51		2
-ogledalca	76		2
+odskočnica			3
+odstupnica	51		3
+ogledalca	76		3
 ognjenica			4
 ognjica			3
 ogrlica	712		4
@@ -1587,142 +1587,142 @@ ojađenica			3
 okaca			3
 okanca			2
 okica	35		3
-oklopnica		M	2
+oklopnica		M	3
 okolica	35		4
 okomica			4
-okosnica	1470		2
+okosnica	1470		4
 okretnica	153		4
 okruglica	21		4
 okrutnica			4
 okružnica	17		4
-okućnica	151		2
+okućnica	151		3
 olakšica	1365		4
-olgica			2
-olimpijaca	286		2
-olimpijca	115		2
-olovčica		M	2
+olgica			3
+olimpijaca	286		3
+olimpijca	115		3
+olovčica		M	3
 omaglica			4
-omladinaca		M	2
-omladinca			2
+omladinaca		M	3
+omladinca			3
 omotnica	18		4
-opasnica		M	2
+opasnica		M	3
 opatica	49		3
-operativaca	294		2
-operativca	175		2
+operativaca	294		3
+operativca	175		3
 oplenca			2
-opnica			2
-opnokrilaca	11		2
-oprosnica			2
-opsenica			2
+opnica			3
+opnokrilaca	11		3
+oprosnica			4
+opsenica			3
 optuženica			3
 optužnica	3514		4
-orahovca	350		2
-orahovica			2
+orahovca	350		3
+orahovica			4
 oranica	1075		3
-oraovica			2
-orašca			2
+oraovica			4
+orašca			3
 orca			2
-ormarica			2
-orukvica			2
-oružarnica			2
+ormarica			4
+orukvica			3
+oružarnica			3
 oružnica		M	4
 osica	47		3
-osiguranica			2
-oskarovca	87		2
+osiguranica			3
+oskarovca	87		3
 oskudica	323		4
 oslobodioca	163		4
 oslonaca	265		4
 oslonca	1052		3
-osmatračnica	189		2
+osmatračnica	189		3
 osmerca	63		2
 osmica	529		3
 osmorica	227		3
 osmrtnica	10		4
 osnivačica	190		3
-osnovaca	1361		2
-osnovca	140		2
-osnovica	1718		2
+osnovaca	1361		3
+osnovca	140		3
+osnovica	1718		4
 ospica	16		3
-ostavioca	398		2
-ostrica			2
+ostavioca	398		3
+ostrica			3
 ostružnica			4
-ostrvca	194		2
+ostrvca	194		3
 osuđenica	58		3
 osvajačica	124		3
 osvetnica	12		4
 otaca	2102		3
-otkuca	311		2
+otkuca	311		3
 otmica	559		3
 otpadnica			4
 otpravnica			3
-otpremnica	160		2
-otpusnica			2
-otrca			2
+otpremnica	160		3
+otpusnica			3
+otrca			3
 otrovnica	134		3
 ovaca	3325		3
 ovca	1297		2
 ovojnica	116		3
-ovsenica			2
+ovsenica			3
 ovčarnica			3
-ovčica	136		2
+ovčica	136		3
 ozimica			4
 očajnica	27		3
 očevica	108		2
 očevidaca	1033		3
 očevidca	16		2
-očica	10		2
+očica	10		3
 oštrica	535		3
 oštrilica			4
-ožica			2
-padalica	129		2
+ožica			3
+padalica	129		4
 padavica	19		4
 padobranaca	214		3
 padobranca	72		2
 pahuljica	496		3
 pajaca			3
-pajalica		M	2
-pakistanaca			2
-pakistanca			2
-paklica	214		2
-pakosnica			2
+pajalica		M	4
+pakistanaca			3
+pakistanca			3
+paklica	214		3
+pakosnica			4
 pakraca			3
-palačinkarnica			2
-palestinaca			2
+palačinkarnica			3
+palestinaca			3
 palica	467		3
-palidrvaca			2
-palidrvca			2
+palidrvaca			3
+palidrvca			3
 paljenica	42		4
-palčica			2
+palčica			3
 pametnica	109		4
-pametnjakovica			2
-pančevaca			2
-pančevca			2
-paparaca	183		2
+pametnjakovica			3
+pančevaca			3
+pančevca			3
+paparaca	183		3
 papica			3
 papirnica			3
-papričica	179		2
-papučica	177		2
+papričica	179		3
+papučica	177		3
 parica	307		3
 parnica	665		3
-partijaca	32		2
-partnerica			2
+partijaca	32		3
+partnerica			4
 pastirica	32		4
 patkica	31		3
 patnica			3
 paunica	51		3
 paziteljica			3
 paćenica	27		4
-pašinica		M	2
-pašićevaca			2
+pašinica		M	3
+pašićevaca			3
 peca	915		2
-pedesetica		M	2
-pedesetorica			2
-pegavca	188		2
-pegavica			2
-pegica			2
-peglica			2
+pedesetica		M	4
+pedesetorica			4
+pegavca	188		3
+pegavica			3
+pegica			3
+peglica			3
 pekarnica			3
-penjalica	57		2
+penjalica	57		4
 penjačica	89		3
 peračica			3
 perca	48		2
@@ -1730,36 +1730,36 @@ pereca	69		2
 perica			3
 perionica	223		3
 perjanica	605		4
-perlica	218		2
+perlica	218		3
 pernica	30		3
-persijanaca			2
-perućca			2
-perućica			2
-pesmarica	61		2
-pesmica	484		2
+persijanaca			3
+perućca			3
+perućica			3
+pesmarica	61		4
+pesmica	484		3
 pesnica	620		3
 petica	747		3
-petljanica			2
-petnaestica		M	2
-petnica			2
+petljanica			4
+petnaestica		M	4
+petnica			3
 petogodišnjica			3
 petokatnica			5
 petorica	1169		3
 petospratnica			5
-petrovca			2
+petrovca			3
 pevačica	11066		3
 pevca	100		2
-pevnica	71		2
-pećica			2
-pećinaca			2
-pećnica	114		2
-pečatoreznica		M	2
-pečenica	165		2
-pečenjevaca			2
+pevnica	71		3
+pećica			3
+pećinaca			3
+pećnica	114		3
+pečatoreznica		M	3
+pečenica	165		4
+pečenjevaca			3
 pečica			3
-pečurkica			2
-pešadinaca	42		2
-pešadinca	15		2
+pečurkica			3
+pešadinaca	42		3
+pešadinca	15		3
 pešterica			4
 pica	929		2
 pijaca			3
@@ -1768,76 +1768,76 @@ pijanca	133		2
 pijanica	229		4
 pijanistica			4
 pijavica	337		4
-pikavaca			2
+pikavaca			3
 piknjica			3
-pilica	57		2
-piljarica	21		2
+pilica	57		3
+piljarica	21		3
 piljarnica		M	3
-pirinca			2
-piroćanaca			2
-piroćanca			2
+pirinca			3
+piroćanaca			3
+piroćanca			3
 pisaca	8354		3
-pisamca	28		2
-pisanica			2
-pisarica			2
+pisamca	28		3
+pisanica			3
+pisarica			3
 pisarnica	266		3
 pisca	8689		2
-pitalica	141		2
-pitanjca			2
-pitica			2
+pitalica	141		4
+pitanjca			3
+pitica			3
 pitomaca	259		3
 pitomca	62		2
 pitomica			3
 pivnica	416		3
-pištalica		M	2
-pižurica			2
+pištalica		M	4
+pižurica			3
 pjenušca		J	2
 plamenca	78		2
-planetica			2
-planinaca			2
-platica		M	2
+planetica			4
+planinaca			3
+platica		M	3
 plavaca	272		3
-plavušica			2
-plačljivica			2
-plašljivaca			2
-plašljivica			2
-plaštanica	108		2
+plavušica			3
+plačljivica			4
+plašljivaca			3
+plašljivica			4
+plaštanica	108		3
 plebejaca	39		3
-plemica			2
+plemica			3
 plesačica	343		3
 pletenica	279		3
 plitica			3
 plitvica			3
 plivačica	268		3
-pljačkašica			2
-pljeskavica	346		2
+pljačkašica			3
+pljeskavica	346		4
 pljuca			2
-pljuskavica			2
+pljuskavica			4
 pljuvaonica			3
 plodnica			3
 pločica	2375		3
 pobaca	37		2
-pobedilaca			2
-pobedioca	34		2
+pobedilaca			3
+pobedioca	34		3
 pobednica	1382		4
 pobornica	25		3
-pobočnica			2
-pocerca			2
+pobočnica			3
+pocerca			3
 podanica			4
 podlaca	33		3
-podlaktica	122		2
-podlanica			2
+podlaktica	122		4
+podlanica			3
 podmornica	1017		3
-podmuklica			2
+podmuklica			4
 podnica			3
 podnosilaca	1099		4
 podnosioca	4273		4
-podobrasca			2
-podrepnica			2
+podobrasca			3
+podrepnica			3
 podružnica	883		4
 podsetnica		M	4
-podstanica	307		2
-podvezica	29		2
+podstanica	307		3
+podvezica	29		3
 podvodačica			3
 podvodnica		M	4
 podvornica			3
@@ -1845,45 +1845,45 @@ poganca	17		2
 pogačica	45		3
 poglavica	420		4
 pohotnica			4
-pohvalnica	48		2
+pohvalnica	48		3
 pojaca			3
 pojca			2
 pojedinaca	13232		3
 pojedinca	10513		2
-pojedinica			2
+pojedinica			3
 pokajnica	75		3
-poklonica			2
+poklonica			3
 poklopaca	358		4
 poklopca	962		3
 pokojnica	36		3
-pokorica	54		2
-pokosnica	15		2
+pokorica	54		3
+pokosnica	15		4
 pokožica	84		4
-pokrajca			2
-pokrovaca			2
+pokrajca			3
+pokrovaca			3
 pokroviteljica			3
 pokrštenica			3
-pokuca	173		2
+pokuca	173		3
 pokvarenica		M	3
 polaznica	295		4
 poledica	330		4
-poletarca	54		2
+poletarca	54		3
 polica	1291		3
 policajaca	6292		3
 policajca	3947		2
-poličica		M	2
-poljanica			2
-poljodelca			2
+poličica		M	3
+poljanica			4
+poljodelca			3
 poljubaca	485		4
-poljubca			2
-poljubica			2
+poljubca			3
+poljubica			3
 poljupca	698		3
-polovaca			2
+polovaca			3
 polovica	171		3
 položnica			4
 poludnica			4
-polugica			2
-polukružnica			2
+polugica			3
+polukružnica			3
 polumeseca	339		5
 polužica		M	4
 pomagačica			3
@@ -1892,101 +1892,101 @@ pomorca	62		3
 pomoćnica	1873		3
 ponornica	126		3
 popaca			3
-popovca			2
+popovca			3
 popuca	46		3
-porebrica			2
+porebrica			3
 porodica	41476		4
 porotnica		M	4
 portirnica	41		3
-portorikanaca			2
-portorikanca			2
+portorikanaca			3
+portorikanca			3
 portugalaca	43		3
 portugalca	119		2
 porudžbenica			3
-porukica			2
-poručioca			2
+porukica			3
+poručioca			3
 poručnica			4
 posetilaca	11715		4
 posetioca	1622		4
 posetiteljica			3
 posetnica	10		4
-poskočica	37		2
+poskočica	37		3
 poslanica	2563		4
 poslastica	1968		4
-poslastičarnica	488		2
+poslastičarnica	488		3
 posledica	43797		4
-poslenica			2
+poslenica			3
 posljedica		J	4
 poslodavaca	8357		3
 poslodavca	6510		2
-poslovica	1737		2
+poslovica	1737		4
 poslovnica	607		3
 poslušnica			4
-posmatračnica		M	2
+posmatračnica		M	3
 posmrtnica		M	4
 posrednica	51		4
 posteljica	210		4
-posudica	62		2
+posudica	62		4
 posuđenica			3
 posvojenica			3
 potajnica		M	3
 poternica	970		3
 potežica			4
-potkivačnica		M	2
+potkivačnica		M	3
 potkolenica	149		3
 potkovica	185		4
-potkućnica		M	2
-potočnica			2
+potkućnica		M	3
+potočnica			3
 potpetica	246		4
 potpisnica	975		4
 potpredsednica	3271		4
-potpukovnica		M	2
-potrebica			2
+potpukovnica		M	3
+potrebica			3
 potrkušica			3
-potuca	46		2
-poturica	231		2
+potuca	46		3
+poturica	231		3
 poverenica	969		3
-poverilaca	2219		2
-poverioca	1215		2
-povesnica	39		2
+poverilaca	2219		3
+poverioca	1215		3
+povesnica	39		3
 povetarca	99		2
 poveznica	83		4
-povisilica			2
-povišica	271		2
+povisilica			4
+povišica	271		3
 povlastica	740		4
-povodca	64		2
+povodca	64		3
 povratnica	84		4
-pozadinaca			2
-pozadinca			2
+pozadinaca			3
+pozadinca			3
 pozajmica	1476		4
 pozajmljenica	61		3
-pozitivca	19		2
-pozivaoca			2
+pozitivca	19		3
+pozivaoca			3
 pozivnica	628		3
 poznanica	253		4
-poznavaoca			2
+poznavaoca			3
 pozornica	972		3
-počasnica			2
-počašica			2
+počasnica			3
+počašica			3
 početnica	121		4
-počinilaca	927		2
-počinioca	861		2
+počinilaca	927		3
+počinioca	861		3
 počiniteljica			3
 pošalica	133		4
-pošiljalaca	50		2
-pošiljaoca	617		2
-poštapalica	175		2
-poštarica			2
-poštovaoca			2
+pošiljalaca	50		3
+pošiljaoca	617		3
+poštapalica	175		4
+poštarica			3
+poštovaoca			3
 pramca	98		2
 praoca	110		2
 praonica	35		3
 praotaca	131		3
-praporaca	30		2
-praporca			2
+praporaca	30		3
+praporca			3
 prasaca			3
 prasca	27		2
-prasica	72		2
+prasica	72		3
 praskvica			3
 pratilaca	763		4
 pratioca	1031		4
@@ -1996,8 +1996,8 @@ pravca	8244		2
 pravednica			4
 pravica			3
 pravnica	420		3
-pravobranioca	376		2
-pravokrilaca			2
+pravobranioca	376		3
+pravokrilaca			3
 praznoglavaca	12		4
 praznoverica	52		4
 prašnica			3
@@ -2013,144 +2013,144 @@ predsednica	11742		4
 predstavnica	3161		3
 preduzetnica	640		5
 predvodnica	93		4
-predškolca	27		2
-pregalaca			2
-pregaoca			2
+predškolca	27		3
+pregalaca			3
+pregaoca			3
 prekornica			3
 prekretnica	1265		4
-prekršioca	154		2
-prekuca			2
-preljubnica	38		2
+prekršioca	154		3
+prekuca			3
+preljubnica	38		3
 premca	1591		2
-premosnica			2
-prenosioca			2
+premosnica			4
+prenosioca			3
 prepelica	246		4
 prepečenica	57		3
-preprodavca	60		2
+preprodavca	60		3
 presadnica			4
 preseca	565		2
 presica			3
 preslica	73		3
-presličica		M	2
+presličica		M	3
 prestonica	4089		3
 prethodnica	612		4
 pretinca	21		3
 pretplatnica			4
-pretvorica		M	2
+pretvorica		M	3
 prevarantica			4
-preverica			2
-prevodilaca			2
-prevodioca			2
+preverica			4
+prevodilaca			3
+prevodioca			3
 prevoditeljica	19		3
 prevodnica			4
-prevozioca	100		2
+prevozioca	100		3
 prečica	888		3
 pređica		M	3
 pridošlica	275		4
-pridvorica		M	2
-prigrevica		M	2
+pridvorica		M	3
+prigrevica		M	3
 prijateljica	2899		3
 prijavnica	18		3
-prijemnica		M	2
-priključnica			2
+prijemnica		M	3
+priključnica			4
 prikolica	726		4
-prikuca			2
+prikuca			3
 priležnica			4
-primalaca			2
-primaoca			2
-primitivca	56		2
-primoraca	28		2
-primorca	34		2
+primalaca			3
+primaoca			3
+primitivca	56		3
+primoraca	28		3
+primorca	34		3
 princa	2580		2
-princezica			2
+princezica			3
 pripadnica	699		4
-pripovedačica			2
+pripovedačica			3
 pripravnica	43		3
-pripuca	36		2
-priraslica			2
+pripuca	36		3
+priraslica			4
 pristalica	5262		4
-pristupnica	175		2
-pritužioca			2
+pristupnica	175		3
+pritužioca			3
 pritvorenica			3
-pritvorica		M	2
+pritvorica		M	3
 privatnica			4
 priznanica	166		4
 prizrenca			2
-pričalica	259		2
+pričalica	259		4
 pričaonica	91		3
-pričesnica		M	2
+pričesnica		M	3
 pričica	378		3
 prljavica			4
-prodavaca	2508		2
+prodavaca	2508		3
 prodavačica	882		3
-prodavca	3169		2
+prodavca	3169		3
 prodavnica	7734		3
 profesionalaca	4010		3
 profesionalca	729		2
 prognanica			4
 prokletnica	10		4
-prokulica			2
+prokulica			4
 prolaznica	78		4
-promuca	89		2
-propalica	93		2
+promuca	89		3
+propalica	93		4
 propovedaonica	18		3
-propusnica	185		2
-proročica	159		2
+propusnica	185		3
+proročica	159		3
 prosaca	48		3
 prosca	44		2
-proseca			2
-prosenica	15		2
-prosilaca	12		2
-prosioca	14		2
-protinica			2
+proseca			3
+prosenica	15		3
+prosilaca	12		3
+prosioca	14		3
+protinica			3
 protivnica	490		3
-proučavalaca			2
-provincijalaca	45		2
-provodadžinica		M	2
-pročelnica			2
+proučavalaca			3
+provincijalaca	45		3
+provodadžinica		M	3
+pročelnica			3
 proždrljivca	15		3
-proždrljivica		M	2
+proždrljivica		M	4
 prskalica	223		4
 prtljažnica			4
-prugica	32		2
-pružalaca	301		2
-pružaoca	380		2
+prugica	32		3
+pružalaca	301		3
+pružaoca	380		3
 prvenca	486		3
-prvoboraca	114		2
-prvoborca	50		2
+prvoboraca	114		3
+prvoborca	50		3
 prvoligašica			3
-prvotimaca	601		2
-prvotimca	283		2
+prvotimaca	601		3
+prvotimca	283		3
 prznica	40		3
 prčvarnica		M	3
 prženica	17		4
 pržionica			3
 ptica	9296		2
 ptičica	319		3
-pudarica			2
+pudarica			3
 pudlica	118		3
-pufnica			2
+pufnica			3
 pukovnica			3
-pumparica			2
-pumpica	228		2
+pumparica			3
+pumpica	228		3
 punca		M	2
 punica	42		3
-punilaca			2
+punilaca			3
 punionica	110		3
 punoglavaca	22		4
 punoglavca	14		3
 punoletnica		M	5
-pupavca	15		2
-pupovca			2
-purgerica			2
-purica	12		2
-puritanaca	21		2
-puslica	33		2
-putica			2
+pupavca	15		3
+pupovca			3
+purgerica			4
+purica	12		3
+puritanaca	21		3
+puslica	33		3
+putica			3
 putnica	172		3
 putopisaca	81		3
 putopisca	99		2
-puzavica	142		2
+puzavica	142		3
 pušačica	13		3
 pušionica			3
 puškarnica	33		3
@@ -2160,114 +2160,114 @@ pčelarica	16		3
 pčelica	610		3
 pšenica	3216		3
 radica			3
-radikalaca			2
+radikalaca			3
 radilica	192		4
-radinaca			2
-radinica			2
+radinaca			3
+radinica			3
 radionica	15096		3
 radnica	1404		3
 radnjica	91		3
-radoica			2
-radojica			2
-radosnica	99		2
-rakidžinica		M	2
-rakijica	39		2
-rakovca			2
+radoica			3
+radojica			4
+radosnica	99		4
+rakidžinica		M	3
+rakijica	39		4
+rakovca			3
 rakovica	1455		4
 ralica	16		3
 ramenica			4
 ranca	257		2
 ranica	231		3
 ranjenica			4
-ranoranilaca			2
-ranoranioca			2
-raseca			2
-rasipnica			2
+ranoranilaca			3
+ranoranioca			3
+raseca			3
+rasipnica			3
 raskrsnica	1309		4
-raspusnica		M	2
-rasputica		M	2
+raspusnica		M	3
+rasputica		M	4
 raspuštenica	53		3
 ratnica	69		3
 ravanica			3
 ravnica	857		2
-ravnodnevica			2
-ravnodnevnica	30		2
+ravnodnevica			4
+ravnodnevnica	30		3
 razaračica		M	3
 razbaca	43		2
 razbijačica			3
 razbludnica		M	4
 razbojnica			4
-razbuca	71		2
-razdelnica	36		2
+razbuca	71		3
+razdelnica	36		3
 razglednica	937		4
 razmirica	363		4
 raznosačica			3
 razrednica			4
-razrešioca			2
+razrešioca			3
 razrešnica		M	4
 razvedenica			3
 razvodnica	10		4
 razvratnica			4
 računica	2644		3
-rebaraca			2
-rebarca	207		2
-rebrenica			2
-rebrica			2
+rebaraca			3
+rebarca	207		3
+rebrenica			3
+rebrica			3
 redovnica	33		3
-referenca	866		2
-rekavica			2
-rekovca			2
+referenca	866		3
+rekavica			4
+rekovca			3
 remenica			4
-repatica	33		2
+repatica	33		4
 repica	279		3
 republikanaca	746		3
 republikanca	108		2
-resavica			2
-resica	89		2
+resavica			3
+resica	89		3
 rezanaca	117		3
 rezanca	52		2
 reznica	85		3
-rezonanca	479		2
+rezonanca	479		3
 rečca	62		2
 rečenica	8952		3
 rečica	448		3
-ribarca			2
-ribarica	18		2
+ribarca			3
+ribarica	18		3
 ribarnica	59		3
 ribica	923		3
-ribnica			2
-ribokradica	39		2
+ribnica			3
+ribokradica	39		3
 ribolovaca	1139		3
 ribolovca	156		2
-rikverca			2
-rilica		M	2
-ringlica			2
+rikverca			3
+rilica		M	3
+ringlica			3
 riznica	1456		3
 riđica			3
 robica			3
-robijašnica			2
+robijašnica			3
 robinjica	11		4
-rodica	56		2
+rodica	56		3
 rodilica			4
 roditeljica			3
 rodnica			3
-rogatica			2
+rogatica			4
 rolnica			3
 romanca			2
 romanopisca	107		2
 ronilaca	422		4
 ronioca	203		4
 ropca	31		2
-rosica		M	2
+rosica		M	3
 rotkvica	96		3
 rovaca	25		3
 rovca	79		2
-rovčica	77		2
-rskavica			2
-rudica			2
+rovčica	77		3
+rskavica			4
+rudica			3
 rudnica			3
 rugalica	48		4
-rujnica		M	2
+rujnica		M	3
 rukavaca	125		3
 rukavca	211		2
 rukavica	829		3
@@ -2276,51 +2276,51 @@ rukometašica	421		3
 rukovaoca	273		4
 rukovodilaca	2277		4
 rukovodioca	2586		4
-rukovoditeljica			2
+rukovoditeljica			3
 rupica	365		3
 rutvica	10		3
-ruvarca			2
+ruvarca			3
 ručaonica			3
 ručica	620		3
-rušilaca			2
-rušioca			2
+rušilaca			3
+rušioca			3
 ružica	934		3
 rvačica		M	3
 sabljica		M	3
 sabljičica		M	4
-saboraca	509		2
-saborca	218		2
+saboraca	509		3
+saborca	218		3
 sabornica			4
 sadašnjica	31		4
 sadilica	16		4
 sadnica	2776		3
-sadržalaca			2
-sadržaoca			2
+sadržalaca			3
+sadržaoca			3
 saigračica			3
-saksonaca			2
-salvadoraca			2
+saksonaca			3
+salvadoraca			3
 samaca	194		3
 samca	68		2
 samica	71		3
-samodršca			2
-samoubica	566		2
+samodršca			3
+samoubica	566		3
 samoubojica			4
-samovezačica		M	2
-samozvanca	21		2
+samovezačica		M	3
+samozvanca	21		3
 samrtnica		M	4
-sanjalica	98		2
-saobraćajaca	103		2
-saobraćajca	100		2
-saobraćajnica	3067		2
+sanjalica	98		4
+saobraćajaca	103		3
+saobraćajca	100		3
+saobraćajnica	3067		3
 saonica	38		3
 sapunica	389		3
 saputnica	175		4
 saradnica	875		4
-sarmica	81		2
-saseca			2
+sarmica	81		3
+saseca			3
 sastavnica	99		4
 satnica	532		3
-saučesnica		M	2
+saučesnica		M	3
 savetnica	936		4
 savetodavca	103		2
 saveznica	155		4
@@ -2329,14 +2329,14 @@ savremenica		M	3
 sačmarica	131		4
 sebičnica			4
 seckalica	15		4
-sedamnaestorica			2
+sedamnaestorica			3
 sedmeraca	149		3
 sedmerca	195		2
-sedmerica			2
+sedmerica			4
 sedmica	2668		3
 sedmorica	446		3
 sednica	12066		3
-sejalica	98		2
+sejalica	98		4
 sejačica		M	3
 sekica		M	3
 sekirica	16		4
@@ -2344,76 +2344,76 @@ sekretarica		M	3
 sekvenca	284		2
 selca	14		2
 selica	158		3
-seljančica	43		2
+seljančica	43		3
 semenica			4
-senatorica			2
-sendvica			2
+senatorica			3
+sendvica			3
 senica		M	3
 sentenca			2
-senčica			2
+senčica			3
 seoca	65		2
-sesteraca			2
+sesteraca			3
 sestrica	138		3
 severaca			3
 severca	17		2
-sezonaca	84		2
-sibnica			2
-sicilijanca			2
-sigurica			2
+sezonaca	84		3
+sibnica			3
+sicilijanca			3
+sigurica			3
 sijalica	2708		4
-sijavica			2
+sijavica			4
 sikirica			4
 silnica	26		3
-sindikalca	48		2
-singerica	28		2
+sindikalca	48		3
+singerica	28		4
 sinovaca	26		3
 sinovca	218		2
-sinovica	47		2
+sinovica	47		4
 sirca			2
 sirnica			3
 siromašica			3
-sirotica	106		2
+sirotica	106		3
 sisavaca	13		4
 sisavca			3
-sisica			2
+sisica			3
 sitnica	3206		2
 skakaonica	167		3
 skakavaca	215		4
 skakavca	88		3
-skakavica		M	2
+skakavica		M	4
 skakačica	25		3
 skica	1039		2
 skijašica	410		3
-skitalica			2
+skitalica			4
 skitnica	184		3
 skladišnica			4
-skojevaca			2
-skojevca			2
+skojevaca			3
+skojevca			3
 skorašnjica		M	4
-skramica		M	2
+skramica		M	3
 skraćenica	1822		4
-skrbnica			2
-skretnica	153		2
-skrivalica	65		2
+skrbnica			3
+skretnica	153		3
+skrivalica	65		4
 skupljačica			3
 sladokusca	16		2
-slagalica	519		2
+slagalica	519		4
 slagačnica		M	3
 slamarica	98		4
 slamčica	54		3
 slanica			3
-slaninica		M	2
+slaninica		M	3
 slastica	32		3
 slastičarnica			5
 slatkica	33		3
 slavica			3
 slavljenica	61		4
 slačica	66		3
-slađanica			2
-sledbenica	70		2
+slađanica			3
+sledbenica	70		3
 slepaca	91		3
 slepca	158		2
-slepica		M	2
+slepica		M	3
 slepoočnica	58		3
 slikarnica			3
 slikovnica	427		3
@@ -2423,17 +2423,17 @@ slonica	74		3
 slovca	115		2
 slovenaca	76		3
 slovenca	60		2
-slovolivnica		M	2
-slovoslagačnica			2
+slovolivnica		M	3
+slovoslagačnica			3
 složenica	106		3
 sluznica			3
-slušalaca			2
+slušalaca			3
 slušalica	1058		4
-slušaoca			2
+slušaoca			3
 slušaonica	79		3
 službenica	863		4
 službica		M	3
-smederevca	72		2
+smederevca	72		3
 smernica	1553		3
 smicalica	174		4
 smokvica			3
@@ -2441,47 +2441,47 @@ smrdljivica		M	4
 smrtnica	14		3
 smrtovnica	38		4
 smuca	41		2
-smutljivaca	26		2
-smutljivica		M	2
+smutljivaca	26		3
+smutljivica		M	4
 sobarica	297		4
 sobica	87		3
 sojenica	63		4
 sokolašica			3
-sokolca			2
+sokolca			3
 sokolica	107		4
 soljica			3
-solunaca			2
-solunca			2
-sovica	181		2
-sočica			2
+solunaca			3
+solunca			3
+sovica	181		3
+sočica			3
 sošica			3
 spajalica	88		4
 spalionica	56		3
-spartanaca			2
-spasilaca			2
-spasioca			2
+spartanaca			3
+spasilaca			3
+spasioca			3
 spasiteljica	13		3
 spavalica	68		4
 spavaonica	114		3
 spavaćica	60		3
 spavačica			3
-specijalaca	555		2
-specijalca	63		2
+specijalaca	555		3
+specijalca	63		3
 spisateljica	1101		3
-spletkašica		M	2
+spletkašica		M	3
 spojnica	346		3
 spomenica	286		4
 spravica	351		3
 spremačica	300		3
 sprinterica			4
 sramotnica		M	4
-sraslica		M	2
+sraslica		M	3
 srbica			3
-srbijanaca			2
-srbijanca			2
-srbijica			2
+srbijanaca			3
+srbijanca			3
+srbijica			4
 srca	30926		2
-srculenca			2
+srculenca			3
 srdaca	15		3
 srdašca			3
 srebrenica			4
@@ -2491,56 +2491,56 @@ srednjoškolaca	2960		3
 srednjoškolca	285		2
 sremaca			3
 sremca			2
-sremica			2
-sremčica			2
-sretnica			2
-srećica		M	2
-srećnica	95		2
+sremica			3
+sremčica			3
+sretnica			3
+srećica		M	3
+srećnica	95		3
 srnica			3
 srodnica	22		3
 srpkinjica			4
-srčanica		M	2
-stabalca			2
-stakalca	13		2
+srčanica		M	3
+stabalca			3
+stakalca	13		3
 staklarnica		M	3
-stamnica			2
-stanarica		M	2
+stamnica			3
+stanarica		M	3
 stanica	17182		3
-stanodavca	77		2
+stanodavca	77		3
 stanovnica	157		3
 staraca	1052		3
 staralaca	22		4
 staraoca	163		4
 starca	2721		2
-staretinarnica			2
+staretinarnica			3
 starica	1404		3
-starinaca			2
-starinarnica			2
-starosedelaca	535		2
-starosedeoca	126		2
-stazica	70		2
-stefanica			2
+starinaca			3
+starinarnica			3
+starosedelaca	535		3
+starosedeoca	126		3
+stazica	70		3
+stefanica			3
 stenica	118		3
 stepenica	1396		3
-stepinca			2
+stepinca			3
 stevica			3
 stica		M	2
-sticaoca	144		2
-stidljivica			2
-stidnica	24		2
+sticaoca	144		3
+stidljivica			4
+stidnica	24		3
 stihotvorca	10		2
 stogodišnjica	289		4
 stolica	4565		3
-stoličica	19		2
-stradalnica			2
-stramputica	13		2
+stoličica	19		3
+stradalnica			3
+stramputica	13		4
 stranaca	4898		3
 stranca	1458		2
 stranica	14536		3
 stranputica	176		4
-strančica	53		2
-strašivca			2
-strašljivica			2
+strančica	53		3
+strašivca			3
+strašljivica			4
 stražarnica	23		3
 stražnjica	68		3
 strelaca	1713		3
@@ -2548,10 +2548,10 @@ strelca	1461		2
 strelica	565		3
 strica	1380		2
 strmca			2
-strnadica			2
+strnadica			4
 strojarnica			3
-strugalica			2
-strumica			2
+strugalica			4
+strumica			3
 stubaca	95		3
 stubica		M	3
 stuca			2
@@ -2559,48 +2559,48 @@ studenaca	11		3
 studenca	59		2
 studenica		M	3
 stupca	115		2
-stupica	217		2
-stvaralaca			2
-stvaraoca			2
+stupica	217		3
+stvaralaca			3
+stvaraoca			3
 stvarca			2
-stvarčica	520		2
-stvorenjca			2
-subaštinica			2
+stvarčica	520		3
+stvorenjca			3
+subaštinica			3
 substanca			2
 sudeonica			3
-sudinica			2
+sudinica			3
 sudnica	248		3
-sueca			2
+sueca			3
 suflernica		M	3
 suknjica	112		3
-sukrvica	32		2
+sukrvica	32		3
 suložnica			4
-sultanica			2
+sultanica			3
 sumaglica	40		4
 sumnjivaca	33		4
 sumnjivca			3
-sumnjivica		M	2
+sumnjivica		M	4
 sunaca	25		3
-sunaslednica		M	2
+sunaslednica		M	4
 sunašca			3
 sunca	19831		2
 sunčanica	179		4
-sunčica			2
+sunčica			3
 suparnica	82		3
-supica	91		2
-supovca			2
+supica	91		3
+supovca			3
 supstanca	1694		2
-surdulica			2
+surdulica			4
 susnežica	117		4
 sutrašnjica	74		4
-suučesnica			2
-suvenirnica			2
+suučesnica			3
+suvenirnica			3
 suvlasnica	133		3
-suvomrazica		M	2
+suvomrazica		M	3
 suzavca	340		3
 suzica	32		3
 suznica			3
-suđenica	20		2
+suđenica	20		3
 sušca			2
 sušica	162		3
 sušilica	20		4
@@ -2609,26 +2609,26 @@ sušnica			3
 svagdašnjica			4
 svakidašnjica	35		5
 svakodnevica	1025		5
-svakodnevnica			2
-svađalica	55		2
-svaštarica			2
+svakodnevnica			3
+svađalica	55		4
+svaštarica			3
 sveca	1350		2
 svemiraca	21		3
 svemirca	11		2
 svetaca	1053		3
 svetica	175		3
 svetlaca			3
-svetlica			2
+svetlica			3
 svetluca	187		2
-svezica			2
-sveznalica	107		2
+svezica			3
+sveznalica	107		4
 svećenica			4
 svećica	422		3
-sveštenica	121		2
+sveštenica	121		3
 svica	31		2
-svilajnca			2
+svilajnca			3
 svinjca	73		2
-sviralica			2
+sviralica			4
 sviračica	13		3
 svirca	11		2
 svisca			2
@@ -2636,119 +2636,119 @@ svitaca	64		3
 svizaca			3
 svlačionica	376		3
 svodnica			3
-svotica			2
+svotica			3
 svračica			3
-tabletica	68		2
+tabletica	68		4
 tablica	1926		3
 tadašnjica			4
 tajnica	69		3
 takmaca	326		3
 talaca	486		3
-tamburica	307		2
+tamburica	307		3
 tamnica	420		3
 tanca			2
-tangica	18		2
+tangica	18		3
 taoca	410		3
 tatica	161		3
 tavanica	345		3
 tavica			3
 tačkica	482		3
 tašnica			3
-teglenica			2
-teglica	92		2
+teglenica			3
+teglica	92		3
 tegljenica			4
-tekstilaca	148		2
+tekstilaca	148		3
 tekstopisca	117		2
 tekunica	37		3
-tekućica			2
+tekućica			3
 telaca			3
-telašca	45		2
+telašca	45		3
 telca			2
 temeljaca	59		3
 temeljca	381		2
-tenisica	14		2
-tepavca			2
-tepavica		M	2
-terasica			2
+tenisica	14		3
+tepavca			3
+tepavica		M	3
+terasica			3
 terca	17		2
-terenaca			2
+terenaca			3
 terenca			2
 teretnica	11		4
 tesnaca	89		3
 testerica	20		4
 tetica			3
 tetkica	144		3
-tetrebica			2
-tezgica			2
+tetrebica			3
+tezgica			3
 tešiteljica			3
 tigrica	166		3
 tikvica	312		3
 tintarnica			3
-tiskanica			2
+tiskanica			3
 tkanica	59		3
-tkaonica			2
+tkaonica			3
 tkačnica		M	3
 tmica			2
 tobolaca			4
 topionica	391		3
 toplica	144		3
 topolica			4
-topolivnica		M	2
+topolivnica		M	3
 torbica	747		3
 tortica	26		3
 točionica			3
 točkica	24		3
-trafostanica	331		2
-tragalaca			2
-trakavica			2
+trafostanica	331		3
+tragalaca			3
+trakavica			4
 trakica			3
 tratinčica	19		3
-travarica	22		2
+travarica	22		3
 travica	104		3
-travčica	19		2
+travčica	19		3
 tračica		M	3
 tračnica	31		3
-tražioca			2
+tražioca			3
 trbuhozborca	11		3
-trenica			2
+trenica			3
 trepavica	761		4
-tresavica			2
-treskavica	15		2
+tresavica			3
+treskavica	15		4
 trešnjica		M	3
-treščica			2
+treščica			3
 trgovaca	3788		4
 trgovca	1999		3
-trgovinica			2
+trgovinica			3
 trica	99		2
-tridesetorica			2
-trinaestica	18		2
-trinaestorica	24		2
+tridesetorica			4
+trinaestica	18		4
+trinaestorica	24		4
 trkačica	218		4
-trlica	15		2
+trlica	15		3
 trnica			3
 trobojnica	18		3
-trodnevnica			2
-trogodišnjica			3
-trojanaca			2
+trodnevnica			3
+trogodišnjica			4
+trojanaca			3
 trojanca			2
 trojca	95		2
 trojica	5886		3
 trokolica			4
 tronošca	36		3
-troručica			2
+troručica			3
 trospratnica		M	4
 trovačica			3
-trozupca	17		2
+trozupca	17		3
 trtica	44		3
 trubica			3
-trudbenica		M	2
+trudbenica		M	3
 trudnica	3302		3
-trunčica	50		2
+trunčica	50		3
 trupaca	155		3
 trupca	24		2
-trupica			2
-trzalica	29		2
-trzavica	426		2
+trupica			3
+trzalica	29		4
+trzavica	426		3
 tržnica	538		3
 tuđica	148		3
 tuđinaca	78		3
@@ -2760,102 +2760,102 @@ tužiteljica			3
 tvoraca	779		3
 tvorca	1668		2
 tvrdica	97		3
-tvrdokrilaca	22		2
-tvrđavica			2
+tvrdokrilaca	22		3
+tvrđavica			3
 ubica	4941		3
 ubojica	146		4
 ubožnica			4
 udaraca	2682		4
 udarca	3467		3
 udarnica			3
-udica	448		2
+udica	448		3
 udolica			4
 udomiteljica			3
 udovca	48		2
 udovica	1696		3
 udvorica		M	4
-udžerica		M	2
+udžerica		M	4
 ugodnica			4
-ugotica			2
-ugovornica	592		2
-ugrica			2
+ugotica			3
+ugovornica	592		3
+ugrica			3
 uhapšenica		M	3
 ukosnica	42		4
-ukrajinaca			2
-ukrajinca			2
+ukrajinaca			3
+ukrajinca			3
 ukrca	222		2
 ukrštenica	104		3
-ukuca	368		2
+ukuca	368		3
 ulaznica	4913		4
 ulica	22166		3
-ulizica	135		2
+ulizica	135		3
 uličica	266		4
-uljarica	361		2
+uljarica	361		3
 uložnica			4
 umanjenica			3
 umetnica	2237		4
 umivaonica			3
-umobolnica		M	2
+umobolnica		M	3
 umrlica	85		4
 unca	166		2
-unučica	26		2
-upadica	69		2
+unučica	26		3
+upadica	69		4
 upeca	183		3
 upijačica			3
-upisnica			2
-uplatioca			2
+upisnica			4
+uplatioca			3
 uplatnica	472		4
 upraviteljica	14		3
 upravnica	490		3
-upuca	111		2
+upuca	111		3
 uputnica	88		4
 urednica	2120		4
-urica			2
-urodica		M	2
-uroševca			2
+urica			3
+urodica		M	4
+uroševca			3
 usamljenica		M	3
-useca			2
-usedelica	97		2
+useca			3
+usedelica	97		4
 usidjelica			4
-usnatica		M	2
+usnatica		M	4
 usnica	37		3
 uspaljenica		M	3
-usporednica			2
-ustanica			2
-ustašca		M	2
+usporednica			4
+ustanica			3
+ustašca		M	3
 usvojenica	10		3
-usvojilaca	25		2
-usvojioca	47		2
+usvojilaca	25		3
+usvojioca	47		3
 utakmica	27903		4
-utica			2
+utica			3
 utičnica	403		4
 utopljenica	16		3
-utuca			2
-uvalica			2
+utuca			3
+uvalica			4
 uvojnica		M	3
 uvoznica			4
 uzbrdica	170		4
-uzdanica	720		2
-uzelca			2
+uzdanica	720		3
+uzelca			3
 uzica	115		3
-uzmica			2
+uzmica			3
 uzrečica	258		4
-uzvišica	29		2
+uzvišica	29		3
 učenica	3453		4
 učesnica	2372		4
-učinilaca	206		2
-učinioca	405		2
+učinilaca	206		3
+učinioca	405		3
 učionica	2027		3
 učiteljica	2995		3
 ušica	18		3
 užarnica		M	3
-užica	211		2
-uživalaca			2
-uživaoca			2
-valjalica		M	2
+užica	211		3
+uživalaca			3
+uživaoca			3
+valjalica		M	4
 valjaonica	234		3
-valjevaca			2
-valonaca			2
+valjevaca			3
+valonaca			3
 vampirica	56		4
 vanilica	34		4
 vanzemaljaca	697		3
@@ -2863,23 +2863,23 @@ vanzemaljca	208		2
 varalica	423		4
 varnica	529		3
 varošica		M	4
-vaspitanica		M	2
+vaspitanica		M	3
 vaspitačica	764		3
-vatrica	48		2
+vatrica	48		3
 vatrogasaca	1803		3
 vatrogasca	258		2
-vavilonaca			2
-vavilonca			2
-vedrica	15		2
+vavilonaca			3
+vavilonca			3
+vedrica	15		3
 vegetarijanca	22		2
-vejalica		M	2
-vejavica	103		2
+vejalica		M	4
+vejavica	103		4
 velikomučenica			3
 venaca	861		3
 venca	1541		2
 venčaca			3
 venčanica	825		3
-verenica	365		2
+verenica	365		3
 verica			3
 verižica			4
 vernica	51		3
@@ -2889,9 +2889,9 @@ veslačica	45		3
 vesnica			3
 veverica	463		4
 vezačica		M	3
-vezica	167		2
-većnica	246		2
-večerica	12		2
+vezica	167		3
+većnica	246		3
+večerica	12		4
 večernica			3
 vešalica	94		4
 vešca	14		2
@@ -2901,75 +2901,75 @@ veštica	1737		3
 vežbaonica	61		3
 vežbačica			3
 vica	562		2
-vidarica			2
-videlica			2
-vidikovca	466		2
-vidioca			2
-vidrica			2
-vijetnamaca			2
-vijetnamca			2
-vikarica			2
+vidarica			3
+videlica			4
+vidikovca	466		3
+vidioca			3
+vidrica			3
+vijetnamaca			3
+vijetnamca			3
+vikarica			4
 vikačica		M	3
 vikendica	940		4
-vilenica			2
+vilenica			3
 vilica	784		3
 vinarnica		M	3
-viršlica			2
-vitica	23		2
-vizantinca			2
+viršlica			3
+vitica	23		3
+vizantinca			3
 vićenca			2
 višekatnica			5
 višespratnica	242		5
-višnjevca	16		2
+višnjevca	16		3
 višnjica		M	3
-vladalaca			2
-vladaoca			2
-vladarica			2
-vladica		M	2
-vladičica			2
+vladalaca			3
+vladaoca			3
+vladarica			3
+vladica		M	3
+vladičica			3
 vlakanaca			3
 vlakanca			2
 vlasca	34		2
 vlasnica	2296		3
-vlasotinca			2
-vlastelica	18		2
-vlastodršca	75		2
+vlasotinca			3
+vlastelica	18		4
+vlastodršca	75		3
 vlašca			2
-vodarica			2
+vodarica			3
 vodenica	617		3
-vodica	484		2
+vodica	484		3
 voditeljica		M	3
-vododelnica	129		2
-vodostanica			2
-vodozemaca	284		2
-vodozemca	18		2
+vododelnica	129		3
+vodostanica			3
+vodozemaca	284		3
+vodozemca	18		3
 voluharica	50		3
-vozarica		M	2
+vozarica		M	3
 vozačica	38		3
 voćarnica			3
 vođica	120		3
 voštanica	50		3
 voštarnica			3
-voždovca			2
+voždovca			3
 vožnjica			3
 vrabaca	154		3
 vranaca	31		3
 vranca	206		2
 vranica		M	3
-vranjanaca			2
+vranjanaca			3
 vrapca	285		2
 vratanca	382		2
-vratašca	73		2
+vratašca	73		3
 vratnica	59		3
-vračarica		M	2
-vražica			2
-vražogrnca			2
+vračarica		M	3
+vražica			3
+vražogrnca			3
 vrbica		M	3
-vrbovica			2
+vrbovica			4
 vrca	105		2
-vrcalica		M	2
-vrednica		M	2
-vrednosnica			2
+vrcalica		M	4
+vrednica		M	3
+vrednosnica			4
 vrećica	231		3
 vrhovnica			3
 vrhunaca	122		4
@@ -2978,59 +2978,59 @@ vrpca	227		2
 vrsnica			3
 vrtica		M	3
 vrtoglavica	828		5
-vrućica	43		2
+vrućica	43		3
 vršalica		M	4
 vršca			2
-vršilaca			2
-vršioca			2
+vršilaca			3
+vršioca			3
 vukica			3
-vunica	39		2
+vunica	39		3
 vučica	197		3
 zabavljačica	25		3
-zadevica			2
+zadevica			3
 zadnjica	483		3
 zadušnica	119		4
 zadužnica	11		4
 zagolica			4
-zagoraca			2
-zagorca	19		2
-zagovornica			2
-zahvalnica	662		2
-zajeca	55		2
-zajedljivica		M	2
+zagoraca			3
+zagorca	19		3
+zagovornica			3
+zahvalnica	662		3
+zajeca	55		3
+zajedljivica		M	4
 zajednica	35588		4
-zaječaraca			2
-zajmodavaca	81		2
-zajmodavca	125		2
+zaječaraca			3
+zajmodavaca	81		3
+zajmodavca	125		3
 zakladnica			4
-zaključnica	25		2
+zaključnica	25		4
 zakonodavaca	202		3
 zakonodavca	636		2
 zakovica	21		4
-zakrilca			2
-zakuca	736		2
-zakupaca	455		2
-zakupca	465		2
+zakrilca			3
+zakuca	736		3
+zakupaca	455		3
+zakupca	465		3
 zalagaonica	19		3
 zalogajnica			3
 založnica	12		4
-zamajca	112		2
+zamajca	112		3
 zamenica	1967		4
-zamolnica			2
-zamoraca	36		2
-zamorca	51		2
-zamuca	23		2
+zamolnica			3
+zamoraca	36		3
+zamorca	51		3
+zamuca	23		3
 zanoktica	118		4
-zaobilaznica	101		2
+zaobilaznica	101		3
 zaposlenica	10		3
-zapovednica			2
-zapovjednica		J	2
-zapuca	137		2
+zapovednica			4
+zapovjednica		J	4
+zapuca	137		3
 zarobljenica	28		3
-zarubica			2
+zarubica			3
 zaručnica	32		4
-zaseca	43		2
-zastavica	278		2
+zaseca	43		3
+zastavica	278		4
 zastavnica			3
 zastupnica	236		4
 zatočenica	27		3
@@ -3038,14 +3038,14 @@ zatvorenica	52		3
 zaušnica		M	4
 zaverenica			3
 zavidljivca			3
-zavisnica		M	2
+zavisnica		M	4
 zavodnica	189		4
-zavojica		M	2
+zavojica		M	4
 zavojnica	114		3
 završnica	1220		4
 začetnica			4
-začkoljica	307		2
-zađevica			2
+začkoljica	307		3
+zađevica			3
 zaštitnica	416		4
 zbornica	78		3
 zdelica			3
@@ -3053,31 +3053,31 @@ zdjelica		J	3
 zdravca			2
 zdravica	217		3
 zeca	1278		2
-zelenčica			2
-zeljanica			2
+zelenčica			3
+zeljanica			4
 zemljica			3
-zemljoradnica		M	2
+zemljoradnica		M	4
 zemunica	90		3
 zenica		M	3
 zerica			3
 zevalica		M	4
-zezalica	66		2
+zezalica	66		4
 zečica	227		3
-zgodica			2
-zidanica			2
-zidarica			2
-ziherica			2
+zgodica			3
+zidanica			3
+zidarica			3
+ziherica			4
 zimnica	223		3
 zjenica	28		3
 zlatarnica			3
 zlatica	264		3
 zlikovaca	359		4
 zlikovca	259		3
-zlobnica		M	2
+zlobnica		M	3
 zloslutnica		M	4
 zločinaca	1506		4
 zločinca	976		3
-zluradica			2
+zluradica			4
 zmijica	21		3
 zmijuljica			3
 znalaca	270		3
@@ -3086,8 +3086,8 @@ znanaca	39		3
 znanca	60		2
 značkica			3
 znojnica			3
-zobenica		M	2
-zobnica	13		2
+zobenica		M	3
+zobnica	13		3
 zorica			3
 zrikavaca	56		4
 zrnaca	342		3
@@ -3095,96 +3095,96 @@ zrnca	837		2
 zubaca	172		3
 zubarica	76		3
 zuca			2
-zujalica	59		2
+zujalica	59		4
 zupca	57		2
-zupčanica			2
+zupčanica			3
 zvanica		M	3
-zverokradica			2
-zverčica			2
+zverokradica			3
+zverčica			3
 zvezdarnica			3
 zvezdica	2600		3
 zviždačica			3
 zvoca	107		2
 zvonca	289		2
-zvončica			2
+zvončica			3
 ćelavca	17		3
 ćerkica	395		3
-ćesarica			2
-ćevabdžinica	44		2
+ćesarica			3
+ćevabdžinica	44		3
 ćirilica	3666		3
 ćubica		M	3
-ćutalica		M	2
-čabrica			2
-čahurica			2
-čajdžinica		M	2
+ćutalica		M	4
+čabrica			3
+čahurica			3
+čajdžinica		M	3
 čakavaca	13		4
 čamaca	1172		3
 čamca	1131		2
-čančica			2
-čaraparnica			2
-čarapica	29		2
+čančica			3
+čaraparnica			3
+čarapica	29		3
 čarobnica	164		4
 časnica			3
 čačkalica	112		4
 čađavica			4
 čašica	431		3
-čedoubica		M	2
+čedoubica		M	3
 čekaonica	313		3
 čelica			3
 čelnica	84		3
-česmica		M	2
+česmica		M	3
 česnica	134		3
 čestica	5025		3
-čestoslavica			2
+čestoslavica			4
 četica		M	3
 četkica	830		3
 četrdesetica			4
-četrdesetnica			2
-četrnaestorica	10		2
-četveraca	18		2
-četverca	195		2
+četrdesetnica			3
+četrnaestorica	10		3
+četveraca	18		3
+četverca	195		3
 četvorica	2162		3
-četvorokatnica		M	2
-četvorospratnica		M	2
+četvorokatnica		M	3
+četvorospratnica		M	3
 čikica			3
-činijica	44		2
+činijica	44		4
 činilaca	2257		4
 činioca	618		4
 činjenica	61913		4
 činovnica	28		3
-čipkarica			2
+čipkarica			4
 čipkica			3
 čistačica	455		3
 čistilica	28		4
 čistionica			3
-čistunaca	56		2
-čistunca	19		2
+čistunaca	56		3
+čistunca	19		3
 čistunica	19		3
 čitalaca	6932		4
 čitaoca	3926		4
 čitaonica	1285		3
 čitačica			3
-čizmica	53		2
+čizmica	53		3
 čičica	60		3
 članica	28471		3
 čobanca	11		2
-čobanica	64		2
-čobančica			2
+čobanica	64		3
+čobančica			3
 čoca			2
-čokoladica	248		2
+čokoladica	248		3
 čorbica		M	3
 čudotvoraca	66		3
 čudotvorca	297		2
-čukarica			2
-čunjašica			2
-čupavica			2
-čuturica	27		2
-čuvarica	15		2
+čukarica			4
+čunjašica			3
+čupavica			3
+čuturica	27		3
+čuvarica	15		3
 đakovica			4
 đavolica		M	4
-đeravica			2
+đeravica			3
 đokica			3
-đorđevca			2
+đorđevca			3
 đukica			3
 đurica			3
 đurđica	109		3
@@ -3192,50 +3192,50 @@ zvončica			2
 šalica			3
 šaljivca			3
 šamca			2
-šamlica		M	2
+šamlica		M	3
 šampanjaca	47		3
 šampanjca	805		2
 šanca	264		2
-šankerica		M	2
+šankerica		M	4
 šapca			2
-šapica	38		2
+šapica	38		3
 šaptačica			3
 šarca	113		2
 šarenica	185		3
 šačica	615		3
-šašavica		M	2
-šefica	1746		2
-šefovica		M	2
-šekularca			2
+šašavica		M	3
+šefica	1746		3
+šefovica		M	4
+šekularca			3
 šepavca			3
-šepavica		M	2
-šerpica	15		2
-šesnaesterca	835		2
-šesnaestorica			2
+šepavica		M	3
+šerpica	15		3
+šesnaesterca	835		3
+šesnaestorica			4
 šesterca			2
 šestica	289		3
-šestoperca			2
+šestoperca			3
 šestorica	610		3
-šetalica	40		2
+šetalica	40		4
 šetačica			3
-šetnica			2
+šetnica			3
 šetnjica	14		3
 ševica			3
-šezdesetogodišnjica			2
-šezdesetorica			2
-šećerca	126		2
+šezdesetogodišnjica			3
+šezdesetorica			4
+šećerca	126		3
 šećernica		M	3
 šibica	468		3
 šiparica		M	3
 šipkovica			4
-šipčica			2
-širioca			2
+šipčica			3
+širioca			3
 šivačica			3
-šišarica	23		2
+šišarica	23		3
 škljoca	53		2
-školaraca	381		2
-školarca	86		2
-školica	294		2
+školaraca	381		3
+školarca	86		3
+školica	294		3
 školjkica	22		3
 škopaca			3
 škrca			2
@@ -3258,44 +3258,44 @@ zvončica			2
 špica	988		2
 šprica	179		2
 štalica			3
-štanglica	34		2
+štanglica	34		3
 štedionica	880		3
 štenaca	232		3
 štenca	40		2
-štiklica			2
+štiklica			3
 štićenica	114		4
 štoperica	116		4
 štrapaca			3
 štrca	25		2
-štreberica			2
+štreberica			4
 štruca			2
 štuca	164		2
-štucavica			2
-šugavca			2
-šuica			2
-šujica			2
-šumadinaca			2
-šumarca			2
-šumarica	72		2
+štucavica			3
+šugavca			3
+šuica			3
+šujica			3
+šumadinaca			3
+šumarca			3
+šumarica	72		4
 šumica	200		3
-šunjalica			2
-šunkarica		M	2
+šunjalica			4
+šunkarica		M	4
 šunkica			3
-šupica			2
+šupica			3
 švabica			3
-švajcaraca			2
-švajcarca			2
+švajcaraca			3
+švajcarca			3
 švarca			2
 šverca	1104		2
 žabaca			3
 žabca			2
 žabica	93		3
 žaca	13		2
-žagubica			2
+žagubica			3
 žalca	11		2
 žalica			3
 žaliteljica			3
-žalosnica		M	2
+žalosnica		M	4
 žapca	53		2
 žbica	35		2
 žderačica	12		3
@@ -3309,47 +3309,47 @@ zvončica			2
 ženica	237		3
 ženkica			3
 ženskica	16		3
-žeravica	221		2
+žeravica	221		3
 žestica			3
-žetelaca	153		2
-žetelica			2
-žeteoca	16		2
+žetelaca	153		3
+žetelica			4
+žeteoca	16		3
 žgaravica	39		4
 žica	2701		2
-žigica	12		2
+žigica	12		3
 žikica			3
-žilica	83		2
+žilica	83		3
 žitarica	4226		3
 žitnica	155		3
 živaca	1644		3
 živca	422		2
 živica	235		3
-živinica			2
+živinica			3
 živkica			3
-živopisca			2
+živopisca			3
 životinjica	172		4
 žičica	34		3
-žižica		M	2
+žižica		M	3
 žlica	45		2
 žličica			3
-žmigavca	44		2
+žmigavca	44		3
 žreca	113		2
 žumanaca			3
 žumanca	841		2
-žutenica			2
+žutenica			3
 žutica	312		3
 žutokljunca			2
-žućanica		M	2
+žućanica		M	3
 bijelaca	17		4
 bijelca	14		3
 bjegunaca			3
 bjegunca			2
 bjelica	946		3
 cjevčica			3
-dijeca			2
+dijeca			3
 djeca	4522		2
 djevica			3
-djevojcica			2
+djevojcica			3
 djevojčica			3
 dječica			3
 gusjenica			4
@@ -3366,13 +3366,13 @@ mješanca			2
 nesvjestica			4
 nijemaca	69		4
 nijemca	30		3
-odjeca			2
-osjeca			2
+odjeca			3
+osjeca			3
 pijevca	13		3
-pjesmica			2
+pjesmica			3
 pjevačica			3
 pobjednica			4
-podsjeca			2
+podsjeca			3
 podsjetnica			4
 polumjeseca			5
 posjetilaca			4
@@ -3383,14 +3383,14 @@ potpredsjednica			4
 povjetarca			2
 predsjednica			4
 presijeca	20		3
-rasijeca			2
+rasijeca			3
 rječica			4
 savjetnica			4
 sjeca			2
 sjednica		M	3
 sjekirica			4
 sjenica	1208		3
-slijedeca			2
+slijedeca			3
 slijepca	45		3
 sljepoočnica			3
 smjernica			3
@@ -3400,16 +3400,16 @@ strijelca	35		3
 svjetluca	10		2
 svjećica			3
 umjetnica			4
-vijeca			2
+vijeca			3
 vijenaca	94		4
 vijenca	337		3
 vijećnica	47		3
 vjenčanica			3
-vjerenica			2
+vjerenica			3
 vjernica			3
 vjeverica			4
 vješalica			4
 vještica			3
 zamjenica			4
-zvijezdica			2
+zvijezdica			4
 zvjezdica			3

@@ -1,0 +1,6 @@
+{
+  "_": "Ručno potvrđeni akcenti (slog OD KRAJA od kog počinje prava rima). Idu PRE svih pravila u build/akcenat.py. Unos samo za reči koje nema ni Wiktionary ni srLex, a vlasnica ih je potvrdila na sajtu (televizor → retrovizor, revizor, prizor; 03.–05.10.2026).",
+  "retrovizor": 2,
+  "revizor": 2,
+  "prizor": 2
+}

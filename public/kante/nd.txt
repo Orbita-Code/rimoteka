@@ -2,9 +2,9 @@
 Island			2
 Tajland			2
 ajlend			2
-andergraund		M	2
+andergraund		M	3
 bekend			2
-bekgraund			2
+bekgraund			3
 bekhend	344		2
 bend	10991		1
 blond	25		1
@@ -12,13 +12,13 @@ bond			1
 brand	881		1
 brend	12392		1
 dezmond			2
-diznilend			2
+diznilend			3
 doktorand			2
 dortmund			2
 edmond			2
 edmund			2
 end			1
-ferdinand			2
+ferdinand			3
 fond	27290		1
 forhend	355		2
 frend	134		1
@@ -29,32 +29,32 @@ grenland			2
 grund			1
 hand			1
 hend			1
-hepiend	101		2
+hepiend	101		3
 klivland			2
 klivlend			2
 korund	28		2
-kulturbund			2
+kulturbund			3
 land			1
 lind			1
 lund			1
-megatrend			2
-merilend			2
+megatrend			3
+merilend			3
 paund			2
 portland			2
 rejmond			2
 ričmond			2
 roland			2
-samarkand			2
+samarkand			3
 sand			1
 sekund	1566		2
 sigmund			2
 skotland			2
-svazilend			2
-tamarind			2
+svazilend			3
+tamarind			3
 trend	14882		1
-vagabund	21		2
+vagabund	21		3
 vikend	10226		2
-vunderkind			2
+vunderkind			3
 zeland			2
 štand	2850		1
 štrand	602		1

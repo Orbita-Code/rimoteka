@@ -37,14 +37,14 @@ ciča		M	2
 crtača	483		3
 cvjetača		J	3
 dača		M	2
-denisoviča			2
+denisoviča			3
 derača			3
-deviča			2
+deviča			3
 dizača	110		3
 dobavljača	3499		2
-dodavača	22		3
-dokonča			2
-domanoviča			2
+dodavača	22		4
+dokonča			3
+domanoviča			3
 dostavljača	111		3
 dotrča	34		2
 drača	344		2
@@ -58,23 +58,23 @@ duvača			3
 džigernjača			3
 fokača			3
 foča			2
-glamoča			2
+glamoča			3
 glasača	3266		2
 glavnjača		M	3
-glavoseča			2
+glavoseča			3
 glača	37		2
 gležnjača			3
 glupača	191		3
 golubnjača		M	3
-gombroviča			2
+gombroviča			3
 goniča	136		2
-goroseča			2
+goroseča			3
 goča			2
 grbača	24		3
 grejača	477		3
 grgeča	49		2
 grmača			3
-grmeča			2
+grmeča			3
 grubača			3
 grudnjača		M	3
 grča	301		2
@@ -95,21 +95,21 @@ ilovača	61		4
 inča	6103		2
 ispirača	20		3
 ispitivača	344		2
-ispovedača			2
+ispovedača			3
 ispriča	2813		2
-isterivača	24		2
+isterivača	24		3
 istraživača	7443		2
 istrebljivača	16		2
 istrča	23		2
-ivanoviča			2
+ivanoviča			3
 izazivača	431		2
-izbacivača	42		2
-izbeljivača	53		2
+izbacivača	42		3
+izbeljivača	53		3
 izbirača			3
 izdavača	5109		2
 izlagača	3411		3
-izmenjivača	275		2
-iznuđivača			2
+izmenjivača	275		3
+iznuđivača			3
 izveštača	790		3
 izviđača	1347		3
 izvođača	6294		3
@@ -119,12 +119,12 @@ jamača			3
 jača	11302		2
 jedrenjača		M	3
 ječa			2
-jovanča			2
+jovanča			3
 kadinjača			3
 kapuljača	77		3
 kasača	30		3
 kauča	340		3
-kazivača	107		3
+kazivača	107		4
 kijača			3
 kiča	790		2
 klekovača			4
@@ -132,10 +132,10 @@ klipnjača	18		3
 klizača	231		2
 ključa	1790		2
 ključnjača		M	3
-klobuča			2
+klobuča			3
 kolača	4861		2
 koljača	156		2
-komanča			2
+komanča			3
 komorača	98		2
 kopača	110		2
 koprivnjača	114		3
@@ -182,11 +182,11 @@ merača	433		2
 meča	23546		2
 mijača			3
 milča			2
-minobacača	161		2
-miroča			2
+minobacača	161		3
+miroča			3
 mirča			2
 miča			2
-modriča			2
+modriča			3
 mohača			3
 morača			3
 mrežnjača	70		3
@@ -197,14 +197,14 @@ nabijača	24		2
 nadjača	234		2
 najgorča	10		3
 najjača	2660		3
-najpreča			2
-največa			2
+najpreča			3
+največa			3
 nalazača	81		3
 napadača	4826		2
 napriča	100		2
 naprtnjača			4
 narikača	63		3
-naruča			2
+naruča			3
 naslonjača	21		2
 nastavljača	228		2
 nategača			3
@@ -215,41 +215,41 @@ nepušača	360		2
 nosača	2134		2
 obarača		M	3
 obijača	22		2
-obrađivača	128		2
+obrađivača	128		3
 obruča	433		3
-ocenjivača	332		2
-odašiljača	83		2
-odgajivača	629		2
+ocenjivača	332		3
+odašiljača	83		3
+odgajivača	629		3
 odvijača	14		2
-oglašivača	854		2
-ogovarača			2
+oglašivača	854		3
+ogovarača			3
 ogrtača	118		2
 ojača	2875		2
 okidača	375		2
 oklopnjača	25		3
 okonča	2306		2
-omamljivača			2
+omamljivača			3
 omekšivača	115		2
 omotača	999		2
 omča	287		2
 opadača			3
 opasača	52		2
 opregača			3
-opriča			2
-optrča			2
-orahovača		M	2
+opriča			3
+optrča			3
+orahovača		M	3
 orača	58		2
 osigurača	292		2
 osmatrača	76		3
 osnivača	8785		2
 osunča			2
 osvajača	1495		2
-osveživača	56		2
+osveživača	56		3
 otimača	101		3
 otirača	84		2
-otključa	255		2
-otkopča	62		2
-otrča	47		2
+otključa	255		3
+otkopča	62		3
+otrča	47		3
 otvarača	57		2
 ovenča	34		2
 ovča			2
@@ -263,7 +263,7 @@ penjača	201		2
 perača	68		3
 petrovača			4
 pevača	3667		2
-pirinča			2
+pirinča			3
 pisača	60		2
 pitača	16		3
 plamenjača	77		3
@@ -275,77 +275,77 @@ ploča	11650		2
 plutača			3
 podizača	112		3
 podmetača	102		3
-podrivača	17		3
-podseča			2
-podupirača	73		2
+podrivača	17		4
+podseča			3
+podupirača	73		3
 podvodača	20		2
 pogača	579		3
 pogađača	17		2
 pojača	2046		2
-pojačavača	327		2
-pojačivača	122		2
-pokazivača	242		2
-pokliča	80		2
+pojačavača	327		3
+pojačivača	122		3
+pokazivača	242		3
+pokliča	80		3
 pokretača	992		3
 pokrivača	1369		2
-polivača			3
+polivača			4
 pomagača	706		2
-pomrča			2
+pomrča			3
 ponavljača	101		3
 ponuđača	2608		3
-ponuđivača			2
-popisivača	556		2
+ponuđivača			3
+popisivača	556		3
 popriča	255		2
-poreča			2
-porobljivača	54		2
+poreča			3
+porobljivača	54		3
 posmatrača	3846		3
 postavljača	28		3
-potkazivača	25		2
+potkazivača	25		3
 potrošača	18886		2
 potrča	42		2
 povezača			3
-pozajmljivača			2
+pozajmljivača			3
 požegača		M	3
 prakljača			3
 pratljača			3
-prebacivača			2
+prebacivača			3
 predavača	3715		2
 predlagača	2997		3
-preduzimača	199		2
+preduzimača	199		3
 pregača	33		3
 pregledača	328		3
 pregovarača	868		2
 prekidača	787		2
-prekrivača	213		3
+prekrivača	213		4
 prelamača		M	3
 preletača	155		3
 premetača			3
-preprodavača			2
-prerađivača	591		2
+preprodavača			3
+prerađivača	591		3
 presretača	139		3
 preteča	1265		3
-pretraživača	3166		2
-pretrča			2
+pretraživača	3166		3
+pretrča			3
 prevrtača	62		3
 preča	562		2
 pribadača			3
 prigušivača	58		2
 pripovedača	780		2
-priređivača	568		2
+priređivača	568		3
 prisluškivača	48		2
 pritiskača			3
-pritrča	17		2
+pritrča	17		3
 priča	109781		2
 prljača			3
 probača			3
 prodavača	108		2
 profuknjača			3
 proizvođača	32173		2
-proključa	449		2
+proključa	449		3
 promatrača	107		2
-pronalazača			2
+pronalazača			3
 prostirača			3
-protrča			2
+protrča			3
 prtenjača			3
 psovača	13		2
 pucača	12		2
@@ -355,12 +355,12 @@ punča	10		2
 puča	673		2
 pušača	1761		2
 radiča	37		2
-rajiča			2
+rajiča			3
 ramenjača			3
 ranča	69		2
-raskopča	35		2
-rasparča			2
-raspriča	27		2
+raskopča	35		3
+rasparča			3
+raspriča	27		3
 rasturača	33		3
 rastvarača	251		3
 razarača	179		2
@@ -370,7 +370,7 @@ razređivača	83		2
 rebrača		M	3
 remenjača			3
 rezača	147		2
-rešavača	15		3
+rešavača	15		4
 rogača	94		2
 rožnjača	157		3
 rudača			3
@@ -384,7 +384,7 @@ sapunjača		M	3
 sarača			3
 sastavljača	129		2
 savijača	25		3
-sazivača	16		3
+sazivača	16		4
 sekača	60		3
 sendviča	506		3
 severnjača	58		3
@@ -394,7 +394,7 @@ skeča	56		2
 skitača			3
 sklupča	50		2
 skonča	451		2
-skoroteča			2
+skoroteča			3
 skrivača	31		3
 skupljača	182		2
 slagača			3
@@ -404,14 +404,14 @@ slonovača	56		4
 slušača	10		2
 smarača			3
 smrča		M	2
-snabdevača	650		3
+snabdevača	650		4
 snimača	74		3
 soča			2
 spavača	173		2
 srirača			3
 srča		M	2
 starča			2
-stojanča			2
+stojanča			3
 stojča			2
 strugača	17		2
 strunjača	115		3
@@ -420,13 +420,13 @@ sudovnjača		M	3
 suigrača	24		2
 sumporača			3
 sunča	144		2
-suosnivača	180		2
+suosnivača	180		3
 suvača		M	3
 suvozača	794		4
 svirača	367		2
 tanjirača		M	3
 tegljača	101		2
-tekliča			2
+tekliča			3
 temenjača	30		3
 teča	349		2
 topovnjača	27		3
@@ -440,36 +440,36 @@ trubača	1026		2
 tumača	1054		2
 tuča	1702		2
 ubradača		M	3
-ucenjivača	48		2
+ucenjivača	48		3
 udarača	81		3
 udavača	157		3
 udvarača	198		3
 uglača	10		3
-ugnjetavača	18		2
+ugnjetavača	18		3
 ugnjetača	74		3
-ugovarača			2
+ugovarača			3
 ulagača	1284		3
 unča			2
 upaljača	240		2
 upravljača	1685		2
 uprtnjača			3
-uređivača	49		2
-usisavača	16		2
+uređivača	49		3
+usisavača	16		3
 usisivača	377		2
-usmerivača	30		2
+usmerivača	30		3
 uspinjača	60		3
-utajivača	50		2
-uterivača	77		2
+utajivača	50		3
+uterivača	77		3
 utikača	85		2
-utrča			2
+utrča			3
 uveliča	134		2
-uzgajivača	469		2
+uzgajivača	469		3
 uča		M	2
 varjača		M	3
 varnjača			3
 vaspitača	2249		3
 vejača			3
-veliča	788		2
+veliča	788		3
 venča	311		2
 veslača	264		2
 vetrenjača	861		3
@@ -478,8 +478,8 @@ večernjača	24		3
 vežbača	366		3
 vikača			3
 vinča			2
-višnjevača	24		3
-vladajuča			2
+višnjevača	24		4
+vladajuča			3
 vodiča	3326		2
 vozača	13205		2
 voča			2
@@ -488,38 +488,38 @@ vrtača	79		3
 vrča	34		2
 vuča	259		2
 zabavljača	200		2
-zaciča			2
-zagađivača	1075		2
+zaciča			3
+zagađivača	1075		3
 zagorča	132		2
-zagovarača	33		2
-zaječa			2
-zaključa	375		2
-zakopča	43		2
+zagovarača	33		3
+zaječa			3
+zaključa	375		3
+zakopča	43		3
 zakorača			3
 zamrzivača	315		3
 zapinjača	10		3
-zapisivača	34		2
-zaptivača	76		3
+zapisivača	34		3
+zaptivača	76		4
 zapušača	29		3
-zaslađivača	241		2
-zatrča			2
+zaslađivača	241		3
+zatrča			3
 zatvarača	970		3
-zavarivača	220		2
-zavojevača			2
+zavarivača	220		3
+zavojevača			3
 zlostavljača	134		3
 zubača			3
 zupča			2
 zviždača	47		2
-ćerpiča	52		2
-čajniča			2
+ćerpiča	52		3
+čajniča			3
 čeonjača			3
 češljača			3
 čistača	328		2
 čitača	1171		3
 čiča		M	2
 čuča			2
-đurđevača			3
-đuveča			2
+đurđevača			4
+đuveča			3
 šajkača	167		3
 šaptača	24		2
 šetača	301		2
@@ -532,10 +532,10 @@ zviždača	47		2
 žarača			3
 žderača	25		2
 ženturača	23		3
-živkoviča			2
+živkoviča			3
 žvakača			2
 drvosječa			4
-izbjeljivača			2
+izbjeljivača			3
 mjenjača			2
 pjevača			2
 sječa			2

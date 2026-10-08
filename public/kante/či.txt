@@ -1,21 +1,21 @@
 622
 Beči			2
-analitiči			2
-apači			2
-arlauči			2
+analitiči			3
+apači			3
+arlauči			3
 arči	185		2
 bacači	131		2
-bajači			2
+bajači			3
 bakrači	366		2
 banči	23		2
-beonjači			2
+beonjači			3
 berači	258		2
-besposliči			2
+besposliči			3
 beči			2
 birači	2618		2
 biči			2
 bludniči	14		3
-boksači			2
+boksači			3
 borči			2
 boči			2
 bošči			2
@@ -23,32 +23,32 @@ braniči			2
 brijači	51		2
 brisači	137		2
 brojači	85		2
-bukači			2
-busovači			2
+bukači			3
+busovači			3
 bušači	18		2
-cepidlači			2
+cepidlači			3
 ciči	136		2
 crnči	25		2
-crtači	227		2
+crtači	227		3
 cvrči	83		2
 divljači	3072		3
-dizači	64		2
+dizači	64		3
 diči	477		2
 dobavljači	1191		2
 dokrajči	164		2
-dokroči			2
+dokroči			3
 dokuči	214		2
 doliči	79		3
-doskoči	115		2
-dostavljači	71		2
+doskoči	115		3
+dostavljači	71		3
 dotrči	105		2
-dovlači	152		2
-doznači	25		2
+dovlači	152		3
+doznači	25		3
 drači	24		2
 dreči	38		2
-drugojači			2
-držači	293		2
-duvači			2
+drugojači			3
+držači	293		3
+duvači			3
 foči			2
 glasači	1872		2
 glupači			3
@@ -57,105 +57,105 @@ goniči	78		2
 gorči	38		2
 graniči	1701		3
 grbači	878		3
-grejači	311		2
-grijači		J	2
+grejači	311		3
+grijači		J	3
 grči	234		2
-gudači	190		2
+gudači	190		3
 gutači	38		2
 guči	211		2
-hajkači			2
+hajkači			3
 harči			2
 hladnjači	306		3
 hodači	31		2
-hrvači			2
+hrvači			3
 huči	53		2
 huškači	71		2
 hvatači	67		2
 igrači	22136		2
 ilovači	27		4
 inči	97		2
-iskamči	58		2
+iskamči	58		3
 iskači			2
 isključi	2517		2
-iskolači	12		2
-iskorači	169		2
+iskolači	12		3
+iskorači	169		3
 iskoči	874		2
 ispitivači	150		2
-isplači	26		2
+isplači	26		3
 isporuči	1584		2
-ispreči	140		2
-isterivači	19		2
+ispreči	140		3
+isterivači	19		3
 ističi	14		3
-istoči	50		2
+istoči	50		3
 istraživači	10997		2
 istrebljivači	12		2
 istrči	501		2
-istumači			2
-isturči			2
-iviči			2
+istumači			3
+isturči			3
+iviči			3
 izazivači	316		2
-izbacivači	31		2
+izbacivači	31		3
 izbeči	60		2
-izbirači			2
-izbječi		J	2
+izbirači			3
+izbječi		J	3
 izdavači	1984		2
-izgnječi			2
+izgnječi			3
 izjednači	1468		2
-izlagači	1173		2
+izlagači	1173		3
 izleči	1124		2
 izluči	127		2
-izmenjivači	77		2
-izmuči	31		2
-iznači			2
-iznuđivači			2
+izmenjivači	77		3
+izmuči	31		3
+iznači			3
+iznuđivači			3
 izobliči	207		2
 izopači	36		2
 izriči			2
 izruči	509		2
 izuči	283		2
-izveštači	357		2
-izviđači	481		2
+izveštači	357		3
+izviđači	481		3
 izvlači	2574		2
-izvođači	2753		2
-izvuči			2
+izvođači	2753		3
+izvuči			3
 jahači	230		2
 jamči	265		2
 jauči			2
 jači	11907		2
-jednači			2
+jednači			3
 jemči	274		2
 ječi	166		2
 junači	28		2
-kadinjači			2
+kadinjači			3
 kapuljači	12		3
-karači			2
-kasači	17		2
+karači			3
+kasači	17		3
 kauči	17		3
-kazivači	34		2
+kazivači	34		3
 kači	1130		2
 kimči			2
 kleči	380		2
 klizači	115		2
 kliči			2
-ključnjači			2
+ključnjači			3
 kokodači			2
 kolači	1194		2
 koljači	168		2
-komanči			2
-konači	15		2
+komanči			3
+konači	15		3
 kopači	145		2
-kopljači			2
+kopljači			3
 kopči	134		2
-korači			2
+korači			3
 kornjači	95		3
-kosači	38		2
+kosači	38		3
 kovači	330		2
-koviljači			2
+koviljači			3
 koči	2148		2
 kreči	152		2
 kriči	22		2
 krmači			3
-krnjači			2
+krnjači			3
 krojači	201		2
 kroči	412		2
 krči	385		2
@@ -163,61 +163,61 @@ kupači	275		2
 kutlači			3
 letači	118		2
 leči	7234		2
-lisiči			2
+lisiči			3
 liči	14008		2
-ljutiči			2
+ljutiči			3
 lomači	410		3
-lozovači			2
+lozovači			3
 loči	12		2
-ludači			2
+ludači			3
 luči	1032		2
-manjači			2
-mariači			2
-marijači			2
+manjači			3
+mariači			3
+marijači			3
 mači			2
 menjači	351		2
 merači	261		2
-minobacači	39		2
+minobacači	39		3
 mirči			2
 miči	46		2
 mleči	26		2
-morači			2
+morači			3
 mrači	40		2
-mrežnjači	112		2
+mrežnjači	112		3
 mrči	19		2
-muljači			2
+muljači			3
 muči	5798		2
-nadjunači			2
-nadniči			2
-nadskoči			2
-nadvlači			2
-najači			2
+nadjunači			3
+nadniči			3
+nadskoči			3
+nadvlači			3
+najači			3
 najgorči			3
 najjači	4799		3
-najpreči			2
-nakači			2
-naliči	68		2
-namagarči	35		2
+najpreči			3
+nakači			3
+naliči	68		3
+namagarči	35		3
 namoči			2
-namuči	143		2
+namuči	143		3
 naoblači	42		2
-naoči			2
+naoči			3
 napadači	2062		2
 napuči			2
 naruči	940		2
-naskači			2
-naskoči	12		2
+naskači			3
+naskoči	12		3
 naslonjači	18		2
 nastavljači	215		2
-natoči	118		2
-natrči	27		2
+natoči	118		3
+natrči	27		3
 nauči	7939		2
 navijači	10546		2
-navlači	408		2
-navuči			2
-naznači	334		2
+navlači	408		3
+navuči			3
+naznači	334		3
 nejači	139		3
-nemači			2
+nemači			3
 nepušači	310		2
 nišči			2
 njači		M	2
@@ -225,218 +225,218 @@ nosači	934		2
 oblači	1478		2
 obruči	66		3
 obuči	630		2
-ocenjivači	178		2
-odašiljači	32		2
-odgajivači	323		2
+ocenjivači	178		3
+odašiljači	32		3
+odgajivači	323		3
 odluči	10734		2
 odmiči			3
-odreči			2
+odreči			3
 odriči	17		2
-odruči			2
-odskoči	159		2
+odruči			3
+odskoči	159		3
 odugovlači	545		2
-oduči	32		2
+oduči	32		3
 odvlači	526		2
-odvuči			2
-oglašivači	549		2
-ogorči	41		2
-ogovarači			2
+odvuči			3
+oglašivači	549		3
+ogorči	41		3
+ogovarači			3
 ograniči	1884		3
 ogrtači	45		2
-okači	804		2
+okači	804		3
 okidači	213		2
 okreči	125		3
-omamljivači			2
+omamljivači			3
 omotači	35		2
 omči	58		2
-opadači			2
-opauči			2
-opkorači	29		2
+opadači			3
+opauči			3
+opkorači	29		3
 oplači			3
-optoči			2
-optrči	17		2
-opuči			2
+optoči			3
+optrči	17		3
+opuči			3
 orači	27		2
-oroči	84		2
-osenči			2
+oroči	84		3
+osenči			3
 osigurači	164		2
-osmatrači	80		2
+osmatrači	80		3
 osnivači	2963		2
 osvajači	1080		2
-osvedoči	24		2
-otimači	128		2
+osvedoči	24		3
+otimači	128		3
 otirači	50		2
-otkači	312		2
-otkoči	35		2
-otrči	152		2
+otkači	312		3
+otkoči	35		3
+otrči	152		3
 otvarači			2
-ovekoveči	208		2
+ovekoveči	208		3
 označi	1099		2
 ozrači	23		2
-ozvaniči	279		2
-ozvuči	12		2
+ozvaniči	279		3
+ozvuči	12		3
 očeliči			3
 oči	40302		2
 palači	35		3
-paniči	107		2
+paniči	107		3
 papuči	11		3
-parniči	11		2
-pecači			2
-pekači			2
-pendreči			2
+parniči	11		3
+pecači			3
+pekači			3
+pendreči			3
 penjači	137		2
-perači	93		2
+perači	93		3
 pevači	1674		2
 peči			2
 pešači	176		2
-pijanči			2
+pijanči			3
 piči			2
 plači	311		2
 plesači	399		2
 plivači	850		2
 ploči	3169		2
-podboči			2
-podizači	160		2
-podmetači	114		2
-podskoči			2
+podboči			3
+podizači	160		3
+podmetači	114		3
+podskoči			3
 podstiči	12		3
-podupirači	48		2
+podupirači	48		3
 poduči	177		2
 podvlači	1350		2
 podvodači	12		2
 pogači	29		3
-pojači		M	2
-pokatoliči			2
-pokazivači	141		2
-pokliči	81		2
+pojači		M	3
+pokatoliči			3
+pokazivači	141		3
+pokliči	81		3
 pokretači	839		3
 pokrivači	138		2
-polagači	10		2
-polivači			2
-poluči	18		2
+polagači	10		3
+polivači			3
+poluči	18		3
 pomagači	430		2
 pomiči			3
-pomrači	110		2
-pomuči	152		2
-ponavljači	110		2
-ponoči			2
-ponuđači	782		2
-popevači			2
-popisivači	343		2
+pomrači	110		3
+pomuči	152		3
+ponavljači	110		3
+ponoči			3
+ponuđači	782		3
+popevači			3
+popisivači	343		3
 poriči			2
 poruči	909		2
 poskoči	177		2
-posmatrači	1964		2
-postiči			2
-posumrači			2
-posvedoči	299		2
-potkači			2
-potkivači	21		2
-potlači	11		2
+posmatrači	1964		3
+postiči			3
+posumrači			3
+posvedoči	299		3
+potkači			3
+potkivači	21		3
+potlači	11		3
 potrošači	7229		2
 potrči	262		2
-poturči	163		2
-pouči	400		2
-poviči			2
+poturči	163		3
+pouči	400		3
+poviči			3
 povlači	6055		2
-povuči			2
-pozajmljivači			2
+povuči			3
+pozajmljivači			3
 predavači	3934		2
-predlagači	1000		2
-prednjači	1437		2
+predlagači	1000		3
+prednjači	1437		3
 predoči	661		2
-preduzimači	165		2
-predviđači			2
-pregledači	55		2
+preduzimači	165		3
+predviđači			3
+pregledači	55		3
 pregovarači	853		2
-preinači	350		2
+preinači	350		3
 prekidači	353		2
-prekorači	391		2
-prekoči			2
-prekrivači	121		2
-preletači	127		2
-preoblači	17		2
-preobliči			2
+prekorači	391		3
+prekoči			3
+prekrivači	121		3
+preletači	127		3
+preoblači	17		3
+preobliči			3
 preporuči	4056		2
-prepreči	64		2
+prepreči	64		3
 preskači	22		2
 preskoči	1065		2
-presretači	119		2
+presretači	119		3
 presvlači	148		2
-presvuči			2
+presvuči			3
 preteči	85		3
-pretiči			2
-pretoči	533		2
-pretrči	182		2
+pretiči			3
+pretoči	533		3
+pretrči	182		3
 pretvarači	117		2
-prevlači	69		2
-prevrtači	45		2
+prevlači	69		3
+prevrtači	45		3
 preči	306		2
 prigušivači	41		2
-prikači	229		2
-priključi	2004		2
-prikoči	80		2
-prikuči	22		2
+prikači	229		3
+priključi	2004		3
+prikoči	80		3
+prikuči	22		3
 priliči	1893		3
 primiči			3
 pripovedači	139		2
-priskoči	197		2
+priskoči	197		3
 prisluškivači	42		2
-pritiči			2
-pritrči	60		2
-priuči			2
+pritiči			3
+pritrči	60		3
+priuči			3
 privlači	7235		2
-privuči			2
+privuči			3
 priči	11579		2
-probirači			2
+probirači			3
 prodavači	84		2
 proizvođači	16537		2
-prokrči	69		2
-pronalazači			2
+prokrči	69		3
+pronalazači			3
 prosjači	26		2
-protivreči	386		2
-protivureči	143		2
-protrči	86		2
-protumači	847		2
+protivreči	386		3
+protivureči	143		3
+protrči	86		3
+protumači	847		3
 prouči	732		2
 provlači	1651		2
-prozrači			2
+prozrači			3
 psovači			2
 punjači	201		2
 puči			2
 pušači	1332		2
-raskorači			2
-raskreči	10		2
-raskrči	22		2
+raskorači			3
+raskreči	10		3
+raskrči	22		3
 rasplači			3
-rastoči	42		2
-rastrči	16		2
-rastumači	135		2
-rasturači	26		2
-rastvarači	73		2
+rastoči	42		3
+rastrči	16		3
+rastumači	135		3
+rasturači	26		3
+rastvarači	73		3
 razarači	64		2
 razbijači	74		2
-razdeviči			2
-razgraniči	101		2
+razdeviči			3
+razgraniči	101		3
 razluči	191		2
 raznosači	17		2
-razobliči			2
-razrogači	30		2
-razvlači	504		2
+razobliči			3
+razrogači	30		3
+razvlači	504		3
 rači			2
-raščereči	10		2
+raščereči	10		3
 rezači	67		2
 reči	99083		2
 riči	124		2
 rogači	15		2
 rvači	159		2
-saigrači	1109		2
+saigrači	1109		3
 sakupljači	308		2
-sarači			2
+sarači			3
 sastavljači	140		2
-sazivači	16		2
-sejači			2
-sekači	22		2
+sazivači	16		3
+sejači			3
+sekači	22		3
 sendviči	359		3
 senči			2
 seči	239		2
@@ -444,35 +444,35 @@ sijači			2
 skakači	138		2
 skači	58		2
 skeči			2
-skitači			2
+skitači			3
 skiči			2
 skoči	2688		2
 skupljači	203		2
 skuči			2
 skviči			2
 skvrči			2
-slagači			2
+slagači			3
 sliči	158		2
 slonovači	21		4
-slovoslagači			2
+slovoslagači			3
 sluči	65		2
-smarači			2
+smarači			3
 smlači			2
 smoči			2
 smrači	68		2
 smrči			2
 smuči	296		2
-snabdevači	178		2
+snabdevači	178		3
 spavači	108		2
 spreči	9306		2
 sroči	112		2
 sruči	211		2
 stiči	18		2
-strunjači	142		2
+strunjači	142		3
 strči	45		2
 suigrači	12		2
 sumnjiči	932		3
-suosnivači	83		2
+suosnivači	83		3
 suoči	2499		2
 suči			2
 svedoči	10308		2
@@ -480,7 +480,7 @@ svirači	272		2
 svlači	195		2
 takmiči	2314		3
 tegljači	46		2
-tekuči			2
+tekuči			3
 teči	31		2
 tkači			2
 tlači	136		2
@@ -496,54 +496,54 @@ trči	4106		2
 tumači	6041		2
 turči			2
 tuči	952		2
-ubrizgavači			2
-ucenjivači	47		2
-udarači	21		2
-udvarači	42		2
+ubrizgavači			3
+ucenjivači	47		3
+udarači	21		3
+udvarači	42		3
 udvostruči	621		3
-ugnjetači	18		2
-ugnječi			2
-ugovarači			2
-ujednači	197		2
+ugnjetači	18		3
+ugnječi			3
+ugovarači			3
+ujednači	197		3
 uključi	6280		2
-ukonači			2
+ukonači			3
 ukoči	235		2
-ukroči			2
-ulagači	1140		2
-uluči			2
-umači			2
-umoči	93		2
+ukroči			3
+ulagači	1140		3
+uluči			3
+umači			3
+umoči	93		3
 unovči	237		2
-uobliči	301		2
+uobliči	301		3
 uoči	15775		3
 upaljači	94		2
 upravljači	319		2
 upriliči	109		3
-uređivači	26		2
+uređivači	26		3
 uruči	639		2
 usisivači	150		2
-uskači			2
-uskoči	363		2
-usmerivači	34		2
-uspaniči	36		2
+uskači			3
+uskoči	363		3
+usmerivači	34		3
+uspaniči	36		3
 uspinjači			3
-ustoboči			2
-ustoliči	95		2
-utamniči	16		2
+ustoboči			3
+ustoliči	95		3
+utamniči	16		3
 utanači	42		2
-uterivači	112		2
+uterivači	112		3
 utikači	26		2
-utovarivači	62		2
-utoči			2
+utovarivači	62		3
+utoči			3
 utrostruči	113		3
-utrči	97		2
+utrči	97		3
 uvlači	1387		2
-uzgajivači	433		2
+uzgajivači	433		3
 uzmiči			3
 uči	14593		2
-varjači			2
-varniči			2
-vaspitači	1211		2
+varjači			3
+varniči			3
+vaspitači	1211		3
 veslači	331		2
 vetrenjači	16		3
 veči			2
@@ -555,81 +555,81 @@ vodiči	1042		2
 vozači	7106		2
 vrači			2
 vreči			2
-vrtači	17		2
+vrtači	17		3
 vuči	65		2
 zabavljači	181		2
-zadevojči			2
-zagađivači	536		2
-zagovarači	61		2
-zagrči			2
-zahuči			2
-zaintači			2
-zajemči			2
-zaječi			2
-zakači	738		2
+zadevojči			3
+zagađivači	536		3
+zagovarači	61		3
+zagrči			3
+zahuči			3
+zaintači			3
+zajemči			3
+zaječi			3
+zakači	738		3
 zaključi	3048		2
-zakmeči			2
-zakorači	372		2
-zakovrči			2
+zakmeči			3
+zakorači	372		3
+zakovrči			3
 zakoči	189		2
-zakvači			2
-zaleči	179		2
-zamomči			2
-zamoči	22		2
-zamrači	64		2
+zakvači			3
+zaleči	179		3
+zamomči			3
+zamoči	22		3
+zamrači	64		3
 zamrzivači	68		3
-zapisivači	14		2
-zaplači	10		2
-zaprašivači			2
-zapreči	16		2
-zaruči	11		2
-zaskoči	88		2
-zaslađivači	168		2
-zasuči	11		2
-zasvedoči			2
+zapisivači	14		3
+zaplači	10		3
+zaprašivači			3
+zapreči	16		3
+zaruči	11		3
+zaskoči	88		3
+zaslađivači	168		3
+zasuči	11		3
+zasvedoči			3
 zatoči	14		2
-zatrči	36		2
-zaviči			2
+zatrči	36		3
+zaviči			3
 zavlači	349		2
-zavojevači			2
-zazvuči	96		2
+zavojevači			3
+zazvuči	96		3
 zgnječi	26		2
 zgrči	67		2
-zlostavljači	91		2
+zlostavljači	91		3
 znači	202760		2
 zrači	1594		2
 zveči	141		2
 zvrči			2
 zvuči	13525		2
 čeliči	29		3
-čereči	33		2
+čereči	33		3
 čistači	303		2
-čitači	433		2
+čitači	433		3
 čiči			2
 čuči	605		2
-đuveči			2
+đuveči			3
 šajkači	29		3
 šaptači	22		2
-šegači	43		2
+šegači	43		3
 šetači	220		2
-štampači	815		2
+štampači	815		3
 štrajkači	518		2
-štrojači			2
+štrojači			3
 štrči	401		2
 žderači	23		2
 žiči			2
 žuči	928		2
 žvakači			2
 žvači			2
-ispriječi	16		2
-istjerivači			2
+ispriječi	16		3
+istjerivači			3
 izliječi	61		3
 liječi	299		3
 pjevači			2
-prepriječi			2
-priječi	21		2
+prepriječi			3
+priječi	21		3
 riječi	8515		3
-rječi			2
+rječi			3
 spriječi			3
 svjedoči			2
-zaliječi			2
+zaliječi			3

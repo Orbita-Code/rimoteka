@@ -1,42 +1,42 @@
 41
-antrfileu			2
-atašeu	25		2
+antrfileu			3
+atašeu	25		3
 ateljeu	1105		3
 bifeu	181		2
-danteu			2
-defileu			2
-dekolteu	124		2
-dosijeu	314		2
+danteu			3
+defileu			3
+dekolteu	124		3
+dosijeu	314		3
 dosjeu	11		2
-ekspozeu			2
+ekspozeu			3
 eu			2
-foajeu			2
-galileu			2
-geteu			2
-ideu			2
+foajeu			3
+galileu			3
+geteu			3
+ideu			3
 kabareu	71		2
-kafeu			2
+kafeu			3
 karateu	407		3
 klišeu	74		2
-kominikeu	67		2
-kupeu	278		2
+kominikeu	67		3
+kupeu	278		3
 leu			2
-matineu			2
-monpeljeu			2
-montevideu			2
-mugabeu			2
-negližeu	21		2
-ostendeu			2
-papandreu			2
-rambujeu			2
-renomeu			2
+matineu			3
+monpeljeu			3
+montevideu			3
+mugabeu			3
+negližeu	21		3
+ostendeu			3
+papandreu			3
+rambujeu			3
+renomeu			3
 rezimeu	96		2
-rodeu			2
-separeu	102		2
-sižeu			2
-solitreu			2
+rodeu			3
+separeu	102		3
+sižeu			3
+solitreu			3
 teu			2
-varijeteu	11		2
+varijeteu	11		3
 videu	1020		3
-zimbabveu			2
+zimbabveu			3
 želeu			2

@@ -1,6 +1,6 @@
 107
 ago	13		2
-amigo			2
+amigo			3
 bingo	311		2
 bitango	12		2
 blago	17930		2
@@ -8,31 +8,31 @@ bljuzgo			2
 bongo			2
 bosonogo	80		3
 brigo	33		2
-chicago			2
+chicago			3
 cigo			2
-dijego			2
+dijego			3
 dingo	33		2
 dogo			2
 drago	18972		2
 drugo	107401		2
 dugo	69373		2
-dvonogo			2
-dvorogo			2
+dvonogo			3
+dvorogo			3
 ego	2182		2
-embargo	780		2
+embargo	780		3
 ergo	672		2
-fandango			2
+fandango			3
 figo			2
-flamengo			2
-flamingo	54		2
+flamengo			3
+flamingo	54		3
 frigo			2
 go		M	1
 grgo			2
 gringo			2
 hugo			2
 igo			2
-impetigo			2
-indigo	321		2
+impetigo			3
+indigo	321		3
 jago			2
 jorgo			2
 jugo	1072		2
@@ -46,7 +46,7 @@ largo		M	2
 lego			2
 lemgo			2
 logo	3974		2
-lumbago	49		2
+lumbago	49		3
 mago			2
 mango	10		2
 margo			2
@@ -54,38 +54,38 @@ mazgo			2
 mlogo			2
 mnogo	349287		2
 mogo			2
-nadugo		M	2
+nadugo		M	3
 nago	275		2
 nebrigo			3
-nedrago			2
-nedugo	2781		2
+nedrago			3
+nedugo	2781		3
 nego	468708		2
-nemnogo		M	2
+nemnogo		M	3
 njego			2
 nogo			2
 odozgo	3365		2
 ozgo			2
 pego			2
 pepeljugo			3
-pobego			2
-podugo		M	2
-poludrago	82		2
+pobego			3
+podugo		M	3
+poludrago	82		3
 polugo			3
-pomnogo			2
+pomnogo			3
 potego			3
-pozadugo		M	2
-prebego			2
-preblago			2
+pozadugo		M	3
+prebego			3
+preblago			3
 predrago			3
-predugo	162		2
-premnogo			2
-prestrogo			2
-religo			2
-rodrigo			2
+predugo	162		3
+premnogo			3
+prestrogo			3
+religo			3
+rodrigo			3
 sago			2
-santijago			2
-santjago			2
-saramago			2
+santijago			3
+santjago			3
+saramago			3
 sfingo			2
 slugo	25		2
 snago	11		2
@@ -93,17 +93,17 @@ stego			2
 strogo	9875		2
 suprugo			3
 tango	1563		2
-tankonogo			2
-tobago			2
+tankonogo			3
+tobago			3
 togo			2
 tugo	43		2
 ubogo	53		3
 vago			2
-vertigo			2
+vertigo			3
 zadugo	796		3
 zago			2
 zaprego			3
-Čikago			2
+Čikago			3
 čergo			2
 đogo			2
-pobjego			2
+pobjego			3

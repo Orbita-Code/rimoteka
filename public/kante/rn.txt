@@ -11,9 +11,9 @@ kern			1
 koncern	899		2
 modern			2
 precrn			2
-sitnozrn			2
+sitnozrn			3
 srebrn	61		2
 strn			1
 trn	1235		1
 vestern	372		2
-vučitrn			2
+vučitrn			3

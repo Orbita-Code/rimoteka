@@ -155,10 +155,12 @@ echo ""
 echo "3b) Kanonikal ?rec=, minifikovan app.js, duple adrese"
 kan() { curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/?rec=$1" | grep -o 'rel="canonical" href="[^"]*"' | head -1; }
 K1=$(kan ljubav); K2=$(kan xyzqw); K3=$(kan %C4%8Deka)
-if [ "$K1" = 'rel="canonical" href="https://rimoteka.com/rime-za/ljubav/"' ] && [ "$K2" = 'rel="canonical" href="https://rimoteka.com/"' ] && [ "$K3" = 'rel="canonical" href="https://rimoteka.com/rime-za/ceka/"' ]; then
-  echo "  ✓ ?rec=ljubav → kanonikal /rime-za/ljubav/; ?rec=čeka → /rime-za/ceka/; nepoznata reč → /"
+# SEO-1 (07.10.2026): nepoznata reč → `/?rec=<reč>` (isto što JS upiše), a nesiguran unos (navodnik, razmak…) → `/`.
+K4=$(kan 'xyz%22w'); K5=$(curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/" | grep -o 'rel="canonical" href="[^"]*"' | head -1)
+if [ "$K1" = 'rel="canonical" href="https://rimoteka.com/rime-za/ljubav/"' ] && [ "$K2" = 'rel="canonical" href="https://rimoteka.com/?rec=xyzqw"' ] && [ "$K3" = 'rel="canonical" href="https://rimoteka.com/rime-za/ceka/"' ] && [ "$K4" = 'rel="canonical" href="https://rimoteka.com/"' ] && [ "$K5" = 'rel="canonical" href="https://rimoteka.com/"' ]; then
+  echo "  ✓ ?rec=ljubav → kanonikal /rime-za/ljubav/; ?rec=čeka → /rime-za/ceka/; nepoznata reč → /?rec=reč (SEO-1); sumnjiv unos i početna → /"
 else
-  echo "  ✗ kanonikal ?rec=: [$K1] [$K2] [$K3]"; PALO=$((PALO+1))
+  echo "  ✗ kanonikal ?rec=: [$K1] [$K2] [$K3] [$K4] [$K5]"; PALO=$((PALO+1))
 fi
 if [ -f "$RAD/html/app.min.js" ]; then
   A=$(curl -s -H "Host: rimoteka.com" "http://127.0.0.1:$PORT/app.js?v=x" | head -c 40)

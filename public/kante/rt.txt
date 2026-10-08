@@ -1,5 +1,5 @@
 82
-aerotransport			2
+aerotransport			3
 albert			2
 aport	70		2
 art			1
@@ -28,7 +28,7 @@ import	371		2
 insert			2
 jogurt	3273		2
 jrt			1
-klagenfurt			2
+klagenfurt			3
 koncert	11897		2
 krt	82		1
 kurt			1
@@ -45,13 +45,13 @@ ort			1
 osvrt	2750		2
 pert			1
 pervert			2
-poduprt	78		2
+poduprt	78		3
 popart			2
 port	3430		1
-prednacrt	170		2
+prednacrt	170		3
 prostrt	36		2
 raport	446		2
-reeksport	34		2
+reeksport	34		3
 restart	586		2
 robert			2
 rt	1108		1
@@ -65,7 +65,7 @@ sport	29770		1
 start	6999		1
 stjuart			2
 tart			1
-teleport			2
+teleport			3
 tlocrt	65		2
 transport	8675		2
 uprt			2

@@ -1,27 +1,27 @@
 2461
 Božiće			3
-acoviće			2
-afirmisaće			2
+acoviće			3
+afirmisaće			3
 aktiviraće	86		3
 alarmiraće			3
 aliće			2
 anektiraće			3
-angažovaće	133		2
-arlaukaće			2
-autiće	70		2
-aviončiće	22		2
+angažovaće	133		3
+arlaukaće			3
+autiće	70		3
+aviončiće	22		3
 bacaće	15		3
 baciće	83		3
 bakće	183		2
-balončiće	50		2
+balončiće	50		3
 balšiće			2
-bandažiraće			2
+bandažiraće			3
 bankrotiraće			3
 batinaće			3
 bauljaće			3
 baviće	418		3
 bdijuće			2
-beatriće			2
+beatriće			3
 bebašće			2
 bedastoće	47		2
 beknuće			3
@@ -33,35 +33,35 @@ bezvlašće	145		2
 beščašće	77		2
 bežaće	28		3
 bijeliće			4
-bileće			2
+bileće			3
 biraće	278		3
 bitiće			2
 bivaće	11		3
 biće	167187		2
 bičevaće			4
 bjesnoće		J	2
-blagočešće			2
-blamirajuće			2
+blagočešće			4
+blamirajuće			3
 blebetaće			3
 blebeće	34		2
 blenuće			3
 blistajuće			2
 blokiraće	47		3
 blokće			2
-bludeće			2
-bogišiće			2
+bludeće			3
+bogišiće			3
 bojaće	10		3
 boleće	106		3
 boliće			2
 bolovaće	43		3
-bombardovaće			2
+bombardovaće			3
 boraviće	520		4
 boriće	709		3
 boće	17		2
-boškoviće			2
-božaniće			2
+boškoviće			3
+božaniće			3
 braniće	294		3
-brankoviće			2
+brankoviće			3
 bratiće			2
 braće	7115		2
 brbljaće			3
@@ -75,18 +75,18 @@ buduće	18358		2
 buknuće			3
 bukviće			2
 buriće	44		2
-bušaće	12		2
-careviće			2
-carovaće			2
-celivajuće			2
+bušaće	12		3
+careviće			3
+carovaće			3
+celivajuće			3
 ceniće	93		3
-cicvariće			2
+cicvariće			3
 cokće	30		2
 crknuće			3
 crneće			3
 crniće	347		2
 crnčiće			3
-crpeće			2
+crpeće			3
 crtaće	268		3
 crtiće			2
 crviće	78		2
@@ -103,54 +103,54 @@ dajuće			2
 darovaće	27		3
 davaće	267		3
 daće	3369		2
-debitovaće	87		2
-definisaće	126		2
-degradirajuće	48		2
-delegiraće			2
-delibašiće			2
+debitovaće	87		3
+definisaće	126		3
+degradirajuće	48		3
+delegiraće			3
+delibašiće			3
 deliće	614		3
 delovaće	295		4
 delujuće			2
-demončiće			2
-deportovaće			2
-deprimirajuće	119		2
+demončiće			3
+deportovaće			3
+deprimirajuće	119		3
 desetleće	14		4
 desetljeće		J	4
 desiće	713		3
-despotiće			2
+despotiće			3
 detiće			2
-detoniraće			2
+detoniraće			3
 dečkiće			2
 dešavaće	180		3
-dežuraće	113		2
+dežuraće	113		3
 dignuće			3
-dirigovaće	23		2
+dirigovaće	23		3
 diviće	13		3
-divljačiće			2
+divljačiće			3
 dizaće	17		3
 diće			2
 dobijaće	439		3
 dobiće	6452		2
-dobrobiće			2
-dobrostojeće	134		2
+dobrobiće			3
+dobrostojeće	134		3
 dodaće	115		3
 dodeliće	255		3
 dodeljivaće	63		3
 dodirnuće			3
-dognaće			2
+dognaće			3
 dogodiće	233		3
 dogovaraće			3
 dogovoriće	55		3
 dokazaće	84		3
 dokazivaće			3
 dokinuće			2
-dolazeće	344		2
+dolazeće	344		4
 dolaziće	260		4
-doletaće			2
-doleteće	11		2
-doleće			2
-domanoviće			2
-domaće	28800		2
+doletaće			3
+doleteće	11		4
+doleće			3
+domanoviće			3
+domaće	28800		3
 dominiraće	61		3
 doneće	1802		2
 donosiće	145		3
@@ -159,18 +159,18 @@ dopremiće			3
 dopreće			2
 doprineće	1100		2
 dopuniće	46		4
-dopunjujuće			2
+dopunjujuće			3
 dopustiće	34		3
-doputovaće	87		2
+doputovaće	87		3
 dosadiće	15		3
-doskočiće			2
+doskočiće			3
 dospevaće			3
 dospeće	127		3
 dostaviće	204		4
 dostignuće	1589		4
 dotrčaće			3
 dovešće	985		2
-dovlačiće			2
+dovlačiće			3
 dovodiće	17		3
 dovršiće	26		3
 doznaće			3
@@ -181,9 +181,9 @@ dočaraće	62		3
 dočekaće	570		4
 doživeće	257		3
 dragiće			2
-dragoviće			2
+dragoviće			3
 drhće			2
-drljaće			2
+drljaće			3
 drveće	3280		2
 dršće	50		2
 držaće	301		3
@@ -191,20 +191,20 @@ dugmiće	353		2
 duvaće	197		3
 dvoriće			3
 dvovlašće	83		2
-ekrančiće			2
-eksplodirajuće			2
+ekrančiće			3
+eksplodirajuće			3
 eksplodiraće	26		3
-emitovaće	170		2
+emitovaće	170		3
 faliće	35		3
-fascinirajuće			2
+fascinirajuće			3
 feliće			2
 finoće	259		2
 fiće	263		2
 fokusiraće	68		3
 formiraće	376		3
-forsiraće	12		2
+forsiraće	12		3
 frkće	32		2
-frustrirajuće	419		2
+frustrirajuće	419		3
 funkcionisaće	118		4
 ganiće			2
 ganuće	15		3
@@ -212,7 +212,7 @@ gariće			2
 gaziće	12		3
 gaće	2205		2
 gađaće	90		3
-generisaće	37		2
+generisaće	37		3
 ginuće			3
 glasaće	440		3
 glasiće	34		3
@@ -222,39 +222,39 @@ gluvoće	82		2
 gnjaviće			3
 gnječiće			3
 godiće	10		3
-golaće	20		2
-golupčiće	12		2
+golaće	20		3
+golupčiće	12		3
 goniće	26		3
 goreće	49		3
 goruće	455		2
-gospodičiće			2
-gostovaće	489		2
+gospodičiće			3
+gostovaće	489		3
 gostujuće	697		2
-govečiće			2
+govečiće			3
 govoriće	1454		3
 gošće	974		2
 grabiće			3
 gradiće	531		3
 grakće	18		2
 grbiće			2
-grboviće			2
+grboviće			3
 grdiće			3
-grgoće			2
-grgureviće			2
+grgoće			3
+grgureviće			3
 grliće			3
 grobiće			2
-grohoće			2
+grohoće			3
 grokće			2
-gruvaće			2
-gudaće			2
-guduriće			2
+gruvaće			3
+gudaće			3
+guduriće			3
 guguće			2
-gurešiće			2
+gurešiće			3
 gurnuće	20		3
 gustoće	114		2
 gušće	434		2
 hadžiće			2
-halaliće			2
+halaliće			3
 hladnoće	2062		2
 hlepčiće	17		3
 hodajuće	60		2
@@ -263,7 +263,7 @@ hodiće			3
 hodočašće	480		4
 homiće			3
 horiće			2
-hoteće			2
+hoteće			3
 hoće	57748		2
 hramajuće			2
 hraniće	37		3
@@ -277,21 +277,21 @@ igraće	3496		3
 imajuće			2
 imaće	14567		3
 imenovaće	52		5
-imponujuće			2
-inficiraće			2
-iniciraće	38		2
-inkriminišuće			2
-inspirišuće			2
-iritirajuće	281		2
+imponujuće			3
+inficiraće			3
+iniciraće	38		3
+inkriminišuće			3
+inspirišuće			3
+iritirajuće	281		3
 iscediće			3
 isceliće			3
-isceljujuće	83		2
-iscrpljujuće	415		2
-iseckaće			2
+isceljujuće	83		3
+iscrpljujuće	415		3
+iseckaće			3
 iseliće	11		3
-ishodiće			2
-isisaće			2
-isitniće			2
+ishodiće			3
+isisaće			3
+isitniće			3
 iskazaće	26		3
 iskaće			3
 iskačuće			2
@@ -301,7 +301,7 @@ iskopaće	18		3
 iskoreniće			3
 iskoristiće	317		4
 iskočiće	38		3
-iskreće			2
+iskreće			3
 iskrsnuće			2
 iskrvariće			4
 iskupiće			3
@@ -309,33 +309,33 @@ iskusiće	17		3
 iskušavaće			3
 iskvariće			3
 ismejaće			3
-ispariće			2
-ispaštaće	23		2
+ispariće			3
+ispaštaće	23		3
 ispašće	263		3
 ispeglaće			3
-ispevaće			2
+ispevaće			3
 ispiliće			3
 ispitaće	99		3
 ispitivaće	45		3
 isplatiće	234		3
-ispoljiće	44		2
+ispoljiće	44		3
 isporučiće	45		3
 ispostaviće	515		4
-ispovedaće			2
-ispovediće			2
+ispovedaće			3
+ispovediće			3
 ispratiće	36		4
 ispraviće	63		4
 isprazniće	11		3
-isprašiće			2
-isprepliće	20		2
+isprašiće			3
+isprepliće	20		3
 ispričaće	81		3
 isprobaće	14		3
 ispuniće	224		4
-ispunjavajuće			2
+ispunjavajuće			3
 ispunjavaće	32		3
 istegnuće	60		2
 isteraće	11		4
-istiniće			2
+istiniće			3
 istisnuće			4
 istiće			2
 istopiće	20		3
@@ -343,11 +343,11 @@ istražiće	28		3
 istrebiće	12		3
 istrgnuće			2
 istrunuće			2
-ivanoviće			2
+ivanoviće			3
 izabraće	308		3
 izazivaće	27		3
 izazvaće	335		3
-izaćiće			2
+izaćiće			3
 izbaciće	112		3
 izbaviće	24		4
 izbiće	44		3
@@ -356,7 +356,7 @@ izbrisaće	27		4
 izdahnuće			3
 izdavaće	84		3
 izdaće	184		3
-izderaće			2
+izderaće			3
 izdišuće			2
 izdržavaće	10		4
 izdržaće	105		3
@@ -369,43 +369,43 @@ izgoreće	16		3
 izgovaraće			3
 izgovoriće	19		3
 izgradiće	257		3
-izgrće			2
+izgrće			3
 izgubiće	531		3
 iziskivaće	18		3
 iziće			2
-izićiće			2
+izićiće			3
 izjasniće	87		3
 izjaviće	17		3
 izješće	10		2
 izjuriće			3
 izlagaće	65		3
-izlazeće	31		2
+izlazeće	31		4
 izlaziće	90		4
-izleteće	11		2
-izleće	186		2
+izleteće	11		4
+izleće	186		3
 izlečiće	14		3
 izliće	13		2
 izložiće	152		3
-izludeće			2
-izluđujuće	16		2
-izmeniće	48		2
+izludeće			4
+izluđujuće	16		3
+izmeniće	48		3
 izmeriće	10		4
-izmiriće	15		2
+izmiriće	15		3
 izmisliće	34		4
 iznenadiće	123		3
-iznenađujuće	2752		2
+iznenađujuće	2752		3
 izneće	118		2
 izniknuće			2
 iznosiće	1236		3
-iznurujuće			2
+iznurujuće			3
 izobličiće			3
-izokreće	35		2
+izokreće	35		4
 izostaće	92		3
 izradiće	100		3
 izraziće	17		3
 izrašće	43		2
 izriće			2
-izumiruće	11		2
+izumiruće	11		3
 izumreće	19		2
 izuzeće	946		2
 izučiće			3
@@ -414,53 +414,53 @@ izvešće	572		2
 izviniće			3
 izviruće			2
 izvodiće	214		3
-izvojevaće			2
+izvojevaće			3
 izvrnuće			2
-izvrće	257		2
+izvrće	257		3
 izvršavaće	20		4
-izvršivaće			2
+izvršivaće			3
 izvršiće	610		3
 izvuće			2
-izvućiće			2
+izvućiće			3
 ićiće			2
 išmrknuće			2
 iščašiće			4
 iščeznuće	63		2
 iščupaće			3
-jagnjeće	307		2
+jagnjeće	307		3
 jahaće	62		3
 jakšiće			2
-janjeće		J	2
+janjeće		J	3
 janjiće			2
-janjuševiće			2
+janjuševiće			3
 jančiće			2
-jareće	55		2
+jareće	55		3
 jariće			2
-jasnoće	365		2
-jastučiće	197		2
+jasnoće	365		3
+jastučiće	197		3
 javiće	363		3
 javljaće	41		3
 jačaće	42		3
 jeftinoće	45		2
 jekće			2
-jelečiće			2
-jevtoviće			2
+jelečiće			3
+jevtoviće			3
 ješće	62		2
-jovanoviće			2
-jugoviće			2
-juneće	198		2
+jovanoviće			3
+jugoviće			3
+juneće	198		3
 juriće	15		3
 jurnuće			3
 kabliće	33		2
 kafiće	801		2
-kaišiće			2
+kaišiće			3
 kajaće	54		3
 kajuće			2
 kakvoće	68		2
-kalabiće			2
-kamenčiće	270		2
-kaputiće	18		2
-kartončiće	18		2
+kalabiće			3
+kamenčiće	270		3
+kaputiće	18		3
+kartončiće	18		3
 kasniće	43		3
 katiće			2
 kazaće	190		3
@@ -474,33 +474,33 @@ kevće			2
 kikoće	57		2
 kipuće	76		2
 klanjaće	14		3
-klepeće	13		2
-kleveće	161		2
+klepeće	13		3
+kleveće	161		3
 kliktaće			3
 klikće	160		2
-klimaće			2
+klimaće			3
 klinčiće			2
-kloneće			2
+kloneće			3
 klonuće			2
-kneževiće			2
-kolačiće	619		2
-kolebajuće			2
-kolenoviće			2
-koljenoviće			2
-kolutiće	179		2
+kneževiće			3
+kolačiće	619		3
+kolebajuće			3
+kolenoviće			3
+koljenoviće			3
+kolutiće	179		3
 komadiće	851		3
 kompiće			2
-kompromitujuće	154		2
+kompromitujuće	154		3
 konjiće	21		2
 kontaktiraće	40		3
-kontrolisaće	160		2
+kontrolisaće	160		3
 končiće	29		2
 kopaće	10		3
-kopkaće			2
-koporiće			2
-koraće			2
-korenčiće	15		2
-korigovaće			2
+kopkaće			3
+koporiće			3
+koraće			3
+korenčiće	15		3
+korigovaće			3
 koristiće	1413		4
 koriće			3
 kosnuće			2
@@ -509,11 +509,11 @@ kotliće	47		2
 kovčežiće			4
 koštaće	1521		3
 kraljeviće	29		4
-krastavčiće	77		2
+krastavčiće	77		3
 kratkoće	119		2
 kraće	6863		2
 kreiraće	86		3
-krejoviće			2
+krejoviće			3
 krekeće	16		2
 krenuće	960		3
 kretaće	349		3
@@ -522,24 +522,24 @@ krimiće	33		3
 kriviće			3
 krivokuće			2
 kriće			2
-krmeće			2
-krompiriće			2
+krmeće			3
+krompiriće			3
 kroviće			3
-krstareće	147		2
+krstareće	147		4
 krstiće	65		3
-krumpiriće			2
+krumpiriće			3
 krunisaće	11		4
-krupnoće	75		2
+krupnoće	75		3
 kruće	43		2
-kružeće			2
+kružeće			3
 kružiće	63		3
-krvareće			2
+krvareće			4
 krvoproliće	596		3
 krčiće			3
 kucajuće			2
 kucaće	17		3
 kukaće	12		3
-kumovaće			2
+kumovaće			3
 kuniće	99		2
 kupaće	332		3
 kupiće	338		3
@@ -548,33 +548,33 @@ kutiće			2
 kuzmiće			2
 kuće	86721		2
 kučiće			2
-kvadratiće	66		2
+kvadratiće	66		3
 lagaće	24		3
 laknuće			2
 lakoće	572		2
 lansiraće	38		3
 lančiće	83		2
 laskaće			3
-lazareviće			2
+lazareviće			3
 lebdeće	77		3
 lepiće			3
 leptiriće	160		3
-leteće	659		2
+leteće	659		3
 leće	182		2
 lečiće	35		3
 lešće			2
 ležaće	25		3
-likovaće			2
-lisičiće			2
+likovaće			3
+lisičiće			3
 listiće	1133		3
-livaće			2
+livaće			3
 ličiće	41		3
 lišiće			3
 lišće	2820		2
-lješeviće			2
-ljubeće			2
+lješeviće			3
+ljubeće			3
 ljubiće	32		3
-ljubojeviće			2
+ljubojeviće			3
 ljutiće	33		3
 ljuće	58		2
 lomiće	13		3
@@ -583,16 +583,16 @@ loviće	16		3
 lupiće	11		3
 lutajuće	76		2
 lutaće	10		3
-magareće	200		2
-margetiće			2
-markoviće			2
-maskiraće			2
+magareće	200		4
+margetiće			3
+markoviće			3
+maskiraće			3
 masnoće	2631		2
 maće		M	2
 mačiće	233		2
 medvediće	45		4
 mehuriće	163		3
-mekeće	13		2
+mekeće	13		3
 mekoće	164		2
 menjaće	179		3
 meriće	94		3
@@ -600,17 +600,17 @@ mesiće			3
 metaće			3
 metnuće	10		3
 meće	221		2
-milatoviće			2
-miletiće			2
+milatoviće			3
+miletiće			3
 miliće	13		2
 milujuće			2
 miniraće			3
 mirisaće	15		3
 miriće			3
-mirkoviće			2
+mirkoviće			3
 mirnoće	88		2
 mirujuće		M	2
-misleće	143		2
+misleće	143		3
 misliće	159		3
 miće	271		2
 mićiće			2
@@ -620,55 +620,55 @@ množiće			3
 moguće	125301		3
 mokraće	981		3
 moliće	47		3
-moljkoviće			2
+moljkoviće			3
 momčiće			2
-monarhiće			2
-montiraće	24		2
+monarhiće			3
+montiraće	24		3
 moraće	6975		3
 mostiće	28		2
 motivisaće	28		4
-motivišuće			2
+motivišuće			3
 motriće			3
 moćiće			2
-mrveće			2
-mrzeće			2
+mrveće			3
+mrzeće			3
 mrziće			3
 mučiće	47		3
-muškarčiće			2
+muškarčiće			3
 nabaviće	45		4
 nabiće			3
-nadahnjujuće	36		2
+nadahnjujuće	36		3
 nadahnuće	729		3
-nadariće			2
+nadariće			3
 nadaće			3
 nadenuće	16		4
-nadgledaće			2
+nadgledaće			3
 nadjačaće			3
 nadleće	56		2
-nadmetaće	223		2
-nadmeće	289		2
+nadmetaće	223		3
+nadmeće	289		3
 nadoknadiće	70		4
-nadolazeće	452		2
+nadolazeće	452		3
 nadopuniće			4
 nadovezaće			3
 nadrašće			2
 naduće			3
 nadvladaće			3
-nadziraće			2
+nadziraće			3
 nadživeće	22		3
-nagaziće			2
+nagaziće			3
 naginjaće			4
 nagnuće	11		3
 nagodiće			3
 nagovaraće			3
 nagrdiće			3
 nagrnuće			3
-nagrće			2
-nahodeće			2
+nagrće			3
+nahodeće			4
 nahraniće	14		3
-nailazeće	17		2
-naićiće			2
-najbebašće			2
+nailazeće	17		3
+naićiće			3
+najbebašće			4
 naješće	18		3
 najgušće	214		3
 najkraće	1126		3
@@ -677,24 +677,24 @@ najveće	28600		3
 najčešće	56435		3
 najčvršće	109		3
 najžešće	404		3
-nakotiće			2
+nakotiće			3
 nalaziće	624		4
-naleteće	10		2
-naleće	116		2
+naleteće	10		4
+naleće	116		3
 naljutiće	27		3
 naložiće	42		3
 namestiće	16		4
 nametnuće	32		4
 nameće	9989		2
-namirisaće			2
+namirisaće			3
 naoštriće			3
-napadajuće			2
+napadajuće			3
 napadaće	11		4
 napatiće			4
 napašće	67		3
 napisaće	153		3
 napiće			3
-naplatiće	69		2
+naplatiće	69		3
 napomenuće			3
 napraviće	659		4
 napregnuće			2
@@ -702,10 +702,10 @@ naprsnuće		M	2
 napuniće	61		4
 napustiće	155		3
 narašće	24		2
-narediće	35		2
-naredniće			2
+narediće	35		3
+naredniće			3
 narkiće			2
-narugaće			2
+narugaće			3
 naseliće	14		3
 nasitiće			4
 naslediće	89		3
@@ -717,7 +717,7 @@ nastaviće	2914		4
 nastaće	322		3
 nastojaće	293		4
 nastradaće	25		3
-nastupajuće	402		2
+nastupajuće	402		3
 nastupaće	241		3
 nastupiće	3271		3
 nategnuće			3
@@ -728,46 +728,46 @@ naučiće	445		3
 navaliće	12		3
 navešće	94		2
 navodiće			3
-navreće			2
+navreće			3
 navršiće	89		3
 nazepšće			2
 nazivaće	12		3
 nazvaće	57		3
 naćiće			2
 načiniće	44		3
-naškodiće			2
-naštampaće			2
+naškodiće			3
+naštampaće			3
 nebiće		M	2
-nebraće			2
-nedaće	1034		2
+nebraće			3
+nedaće	1034		3
 nedostajaće	176		4
-nedostajuće	299		2
+nedostajuće	299		3
 negovaće	20		4
 nejasnoće	748		2
-nemanjiće			2
-nemisleće			2
+nemanjiće			3
+nemisleće			4
 nemoguće	28328		4
-nenadoviće			2
-neodgovarajuće	513		2
-neodređujuće			2
-nepostojeće	975		2
+nenadoviće			3
+neodgovarajuće	513		3
+neodređujuće			3
+nepostojeće	975		3
 nerviraće	28		3
 nesreće	7434		3
 nestaće	550		3
-neumeće			2
-nevažeće	166		2
-nezadovoljavajuće	236		2
+neumeće			4
+nevažeće	166		4
+nezadovoljavajuće	236		3
 neznajuće			2
 neće	276		2
 nečistoće	868		2
-nikoliće			2
+nikoliće			3
 nikšiće			2
 nizaće	13		3
 niće			2
-nominovaće			2
-noseće	337		2
+nominovaće			3
+noseće	337		3
 nosiće	637		3
-novakoviće			2
+novakoviće			3
 novčiće	256		3
 noće	46		2
 noćiće			3
@@ -775,25 +775,25 @@ nožiće	23		3
 nudiće	154		3
 obasjaće	18		3
 obavestiće	187		3
-obavezujuće	1110		2
+obavezujuće	1110		3
 obaviće	1028		4
 obavljaće	657		4
-obeležiće	897		2
-obeshrabrujuće	188		2
+obeležiće	897		3
+obeshrabrujuće	188		3
 obesiće			4
-obezbediće	1495		2
-obećavajuće	399		2
+obezbediće	1495		3
+obećavajuće	399		3
 obećavaće	10		3
-obiliće			2
-obilježiće	19		2
+obiliće			3
+obilježiće	19		3
 obiće	77		3
 objasniće	143		3
 objaviće	439		3
 oblačiće	28		3
-obleće	61		2
+obleće	61		3
 oblikovaće	26		5
-obljubiće			2
-obmanjujuće	86		2
+obljubiće			3
+obmanjujuće	86		3
 obmanuće			3
 obnavljaće	11		3
 obnoviće	81		3
@@ -802,15 +802,15 @@ oboriće	52		3
 obožavaće	21		3
 obradiće	40		3
 obradovaće	320		5
-obradoviće			2
+obradoviće			3
 obratiće	235		3
 obrazovaće	37		5
 obraćaće			4
-obraće			2
+obraće			3
 obrašće			2
-obraščiće	13		2
-obrenoviće			2
-obreće			2
+obraščiće	13		3
+obrenoviće			3
+obreće			3
 obrešće			2
 obrisaće	29		4
 obrće	516		3
@@ -825,7 +825,7 @@ obučiće	11		3
 oceniće	65		3
 ocenjivaće	100		3
 odabraće	146		3
-odagnaće	10		2
+odagnaće	10		3
 odahnuće			2
 odazvaće	16		3
 odaće	39		3
@@ -835,26 +835,26 @@ odbiće	66		3
 odbraniće	20		3
 odeliće			3
 odeće	6403		3
-odgovarajuće	14415		2
+odgovarajuće	14415		3
 odgovaraće	282		3
 odgovoriće	230		3
-odgrće			2
-odigravaće	25		2
+odgrće			3
+odigravaće	25		3
 odigraće	1264		4
 odjeknuće	11		3
-odlazeće	239		2
+odlazeće	239		4
 odlaziće	56		4
-odlepiće			2
+odlepiće			3
 odleteće	31		3
-odleće			2
-odležaće	12		2
+odleće			3
+odležaće	12		3
 odlikovaće	54		5
-odložiće	56		2
+odložiće	56		3
 odlučivaće	465		3
 odlučiće	687		3
-odlučujuće	1347		2
+odlučujuće	1347		3
 odmeriće	181		4
-odmeće			2
+odmeće			3
 odmoriće	12		3
 odneće	110		2
 odnosiće	249		3
@@ -862,27 +862,27 @@ odobravaće	68		3
 odobriće	59		3
 odradiće	98		3
 odraziće	159		3
-odraće	34		2
+odraće	34		3
 odrašće			2
 odražavaće	13		3
 odrediće	544		3
 određivaće	93		3
-određujuće			2
+određujuće			3
 odricaće			3
-odrubiće			2
+odrubiće			3
 održavaće	472		4
 održaće	8996		3
-odseliće			2
+odseliće			3
 odsešće			2
 odskakuće			2
-odslužiće			2
+odslužiće			3
 odstupiće			3
 odupreće			2
 odustaće	62		3
-oduvaće	21		2
+oduvaće	21		3
 oduzeće	119		2
-oduševiće	190		2
-oduševljavajuće			2
+oduševiće	190		3
+oduševljavajuće			3
 odužiće			3
 odvešće	219		2
 odvijaće	621		3
@@ -890,32 +890,32 @@ odvlačiće			3
 odvojiće	37		3
 odvratiće	14		3
 odvrće	29		3
-odštampaće	11		2
-odžakoviće			2
-oformiće	33		2
-ogladneće			2
-oglasiće	61		2
+odštampaće	11		3
+odžakoviće			3
+oformiće	33		3
+ogladneće			4
+oglasiće	61		3
 ogledaće	71		3
-ogorčujuće			2
+ogorčujuće			3
 ogovaraće			3
 ogradiće			3
-ograničavajuće	153		2
+ograničavajuće	153		3
 ograničiće	25		4
-ogrće	25		2
+ogrće	25		3
 ohladiće	20		3
-ohladneće			2
+ohladneće			4
 ohrabriće	37		3
-ohrabrujuće	960		2
+ohrabrujuće	960		3
 ojačaće	122		3
-oklevetaće			2
-okomiće			2
+oklevetaće			3
+okomiće			3
 okončaće	95		3
 okovaće			3
 okrenuće	117		3
-okrepiće	11		2
-okrepljujuće	98		2
+okrepiće	11		3
+okrepljujuće	98		3
 okreće	5616		2
-okrilatiće			2
+okrilatiće			3
 okriviće	13		3
 okruživaće			3
 okružiće	13		3
@@ -923,24 +923,24 @@ okupiće	845		4
 okupljaće	22		3
 okusiće			4
 okuće			2
-olakšavajuće	336		2
+olakšavajuće	336		3
 olakšaće	274		3
-omamljujuće			2
+omamljujuće			3
 omekšaće	10		3
-ometajuće			2
+ometajuće			3
 ometaće	18		3
 omoguće	3778		2
 omogućiće	2999		3
 onemoguće	615		2
-onesvestiće			2
-opadajuće	101		2
-opaliće			2
-opaljujuće			2
-opametiće	13		2
-opančiće			2
+onesvestiće			3
+opadajuće	101		3
+opaliće			3
+opaljujuće			3
+opametiće	13		3
+opančiće			3
 opašće	55		3
-operisaće	13		2
-opijajuće			2
+operisaće	13		3
+opijajuće			3
 opijaće			3
 opisaće	34		3
 opiće			3
@@ -948,7 +948,7 @@ opkoliće			3
 opljačkaće			4
 opomenuće			3
 opominjaće			4
-opominjuće			2
+opominjuće			3
 oporaviće	27		4
 opovrgnuće			4
 opravdaće	23		3
@@ -958,36 +958,36 @@ oprostiće	147		3
 opstaće	44		3
 optuživaće			3
 optužiće	41		3
-optužujuće	59		2
-opusteće			2
+optužujuće	59		3
+opusteće			4
 opustiće	35		3
-opuštajuće	403		2
+opuštajuće	403		3
 opće			2
 opčiniće	10		3
-opčinjavajuće			2
-opštežiće	87		2
-oraspoložiće			2
+opčinjavajuće			3
+opštežiće	87		3
+oraspoložiće			3
 oraće			3
-oraščiće	16		2
+oraščiće	16		3
 organizovaće	1648		5
-ormariće	124		2
+ormariće	124		3
 osetiće	362		4
 osećaće	142		4
-osiguravajuće	1840		2
+osiguravajuće	1840		3
 osiguraće	164		3
-osiroteće			2
+osiroteće			3
 oskrnaviće			4
 oskvrnuće			3
 oslabiće	18		4
-oslepeće			2
-oslobađajuće	763		2
+oslepeće			4
+oslobađajuće	763		3
 oslobađaće			3
 oslobodiće	119		3
-osnažiće	23		2
-osnažujuće			2
+osnažiće	23		3
+osnažujuće			3
 osnovaće	86		3
 osporiće			3
-osposobiće	26		2
+osposobiće	26		3
 ostajaće	28		4
 ostanuće			2
 ostaviće	455		4
@@ -997,53 +997,53 @@ osudiće	41		3
 osunčaće			3
 osuće			2
 osuđivaće			3
-osuđujuće	164		2
+osuđujuće	164		3
 osušiće	15		3
 osvetiće	23		3
-osvetliće	18		2
-osvećujuće			2
-osvežavajuće	605		2
+osvetliće	18		3
+osvećujuće			3
+osvežavajuće	605		3
 osviće			2
 osvojiće	341		3
-osvrće	889		2
-otapajuće			2
+osvrće	889		3
+otapajuće			3
 otegnuće			2
 oteraće	64		4
 oteće	19		2
-otežavajuće	233		2
-otežaće	30		2
+otežavajuće	233		3
+otežaće	30		3
 otimaće			4
 otiće			2
-otićiće			2
+otićiće			3
 otkazaće	12		3
-otkačiće			2
+otkačiće			3
 otkinuće			4
 otklanjaće			4
 otkriće	5764		2
 otopiće	18		3
 otočiće			4
 otpašće	36		3
-otpevaće	36		2
+otpevaće	36		3
 otpočeće	129		2
-otpratiće			2
+otpratiće			3
 otpustiće	46		3
 otputovaće	132		3
 otvaraće	46		3
 otvoriće	2092		3
 otvrdnuće	20		2
-oveće	54		2
+oveće	54		3
 ovladaće	14		3
-ozariće			2
-ozdraviće	33		2
+ozariće			3
+ozdraviće	33		3
 označavaće			3
 označiće	134		3
-ozriniće			2
-očaravajuće	332		2
+ozriniće			3
+očaravajuće	332		3
 očekivaće	55		3
 očistiće	53		4
 očuvaće	20		3
 oštetiće	17		4
-ožedneće			2
+ožedneće			4
 oženiće	29		3
 oživeće	109		3
 padajuće	209		2
@@ -1053,32 +1053,32 @@ palikuće	38		2
 paliće	12		3
 pametnjakoviće	60		4
 pamtiće	365		3
-papiriće	226		2
-paričiće			2
+papiriće	226		3
+paričiće			3
 parčiće	315		2
 patiće	33		3
-pauziraće	43		2
+pauziraće	43		3
 paziće	24		3
 pačiće	35		3
-paštroviće			2
+paštroviće			3
 pašće	605		2
 peglaće			3
-pelengaće			2
-peneziće			2
-petokapiće			2
-petroviće			2
+pelengaće			3
+peneziće			3
+petokapiće			3
+petroviće			3
 pevaće	154		3
 peće			2
-pijančiće			2
-pijaće	1109		2
-pileće	874		2
+pijančiće			3
+pijaće	1109		3
+pileće	874		3
 piliće	368		3
 pisaće	436		3
-pistaće			2
+pistaće			3
 pitaće	315		3
 piće	13055		2
 plakaće	59		3
-plamteće	37		2
+plamteće	37		3
 planuće			3
 plasiraće	213		3
 platiće	825		3
@@ -1096,72 +1096,72 @@ pljačkaće			3
 plješće	16		2
 pljusnuće			2
 pljuvaće	10		3
-ploveće	96		2
+ploveće	96		3
 plutajuće	194		2
 pluće	19		2
 pobediće	270		3
-pobesneće			2
-pobećiće			2
+pobesneće			4
+pobećiće			3
 pobeđivaće			3
 pobiće	48		3
-pobojaće			2
+pobojaće			3
 poboljšaće	208		3
-pobraće			2
+pobraće			3
 pobrinuće	266		2
 pobudiće			3
 pobuniće	12		3
-pocepaće	10		2
-pocrneće			2
-podariće	16		2
-podaviće			2
-podaće			2
+pocepaće	10		3
+pocrneće			4
+podariće	16		3
+podaviće			3
+podaće			3
 podeliće	307		3
 podesiće			4
 podignuće	35		4
-podićiće			2
+podićiće			3
 podmetnuće			4
 podmeće	534		3
 podneće	284		2
 podnosiće	53		3
-podojiće			2
+podojiće			3
 podržavaće	124		4
 podržaće	442		3
 podsetiće	149		4
 podsećaće	41		4
-podsmevaće			2
+podsmevaće			3
 podsticaće	49		4
 poduzeće			2
 podviknuće			2
 pogasiće			3
-pogaziće			2
+pogaziće			3
 poginuće	48		4
 pogledaće	71		4
 pogodiće	84		3
-pogoršaće	23		2
+pogoršaće	23		3
 pogrešiće	29		3
-pogubiće	10		2
-pohađaće	111		2
+pogubiće	10		3
+pohađaće	111		3
 pohitaće			4
 pohodiće	11		3
-pohuliće			2
+pohuliće			3
 pohvaliće	19		3
-pohvataće			2
+pohvataće			3
 pojaviće	2178		3
 pojavljivaće	69		3
-pojaće			2
+pojaće			3
 pojačaće	192		3
 poješće	152		3
 pojiće			2
 pojmiće			3
 pojuriće			3
-pokajaće	20		2
-pokaraće			2
+pokajaće	20		3
+pokaraće			3
 pokazaće	2258		3
 pokidaće			4
 pokliznuće			2
 pokloniće	139		3
-poklončiće	92		2
-pokolebaće			2
+poklončiće	92		3
+pokolebaće			3
 pokoriće			3
 pokrašće			3
 pokrenuće	378		3
@@ -1170,7 +1170,7 @@ pokreće	10861		3
 pokrećuće			2
 pokrivaće	77		3
 pokriće	2564		3
-pokuljaće			2
+pokuljaće			3
 pokupiće	40		3
 pokušaće	1566		4
 pokvariće	44		3
@@ -1178,101 +1178,101 @@ polagaće	192		3
 poleteće	42		3
 poleće	224		2
 poljubiće	11		3
-poljuljaće			2
+poljuljaće			3
 polomiće	22		3
 položiće	134		3
-polubraće	18		2
+polubraće	18		3
 poludeće	15		3
 pomagaće	167		3
 pomenuće	27		2
-pomeriće	40		2
+pomeriće	40		3
 pomilovaće			5
-pominjaće	15		2
+pominjaće	15		3
 pomisliće	161		4
 pomičuće			2
 pomnožiće			3
-pomodreće			2
+pomodreće			4
 pomoliće			3
-pomoriće			2
-pomoćiće			2
-pomračiće			2
-ponajveće			2
-ponajčešće			2
-ponavljajuće	74		2
+pomoriće			3
+pomoćiće			3
+pomračiće			3
+ponajveće			4
+ponajčešće			4
+ponavljajuće	74		3
 ponavljaće	40		3
 ponašaće	78		3
 ponestaće			3
-poneće	121		2
+poneće	121		3
 poniziće	20		3
 poništiće	35		4
-ponižavajuće	988		2
+ponižavajuće	988		3
 ponižavaće			3
 ponosiće			3
 ponoviće	118		3
 ponudiće	586		4
-pooštriće			2
-popaliće			2
+pooštriće			3
+popaliće			3
 popeće	32		2
 popiće	28		3
 poplaviće			3
 poplašiće			4
-popoviće			2
+popoviće			3
 popraviće	105		4
 poprimiće	18		3
 popuniće	60		4
 popustiće	20		3
 poraziće			3
 porašće	228		2
-poražavajuće	1165		2
+poražavajuće	1165		3
 poremetiće	24		4
-poreće			2
+poreće			3
 poricaće			3
 porinuće	36		2
 porniće	246		2
 porodiće	14		3
-poručniće			2
-porvaće			2
+poručniće			3
+porvaće			3
 posadiće			3
 posedovaće	117		5
 posetiće	904		4
-poskupeće	234		2
+poskupeće	234		4
 poslaće	262		3
 posliće	49		2
 poslovaće	51		3
 poslušaće	23		4
 poslužiće	651		3
 posmatraće	46		3
-pospešiće	26		2
+pospešiće	26		3
 posramiće			3
-posramljujuće			2
+posramljujuće			3
 posrnuće	164		3
 posrće	238		3
 posrćuće			2
 postajaće	38		3
-postaraće	47		2
+postaraće	47		3
 postaviće	437		4
 postavljaće	45		4
 postaće	2472		3
 postideće			3
 postignuće	557		4
 postiće	21		3
-postićiće			2
+postićiće			3
 postojaće	899		4
-postojeće	13458		2
-postradaće			2
+postojeće	13458		4
+postradaće			3
 postupaće	48		3
 postupiće	75		3
-posumnjaće	10		2
+posumnjaće	10		3
 posuće			2
-posušiće			2
-posvedočiće	25		2
+posušiće			3
+posvedočiće	25		3
 posvetiće	139		3
 poteškoće	2381		2
 poticaće	11		4
 potonuće	180		3
 potopiće	12		3
 potočiće	25		4
-potpaliće			2
+potpaliće			3
 potpašće			2
 potpisaće	514		3
 potplatiće			3
@@ -1282,26 +1282,26 @@ potrešće			2
 potrošiće	148		3
 potrudiće	166		3
 potvrdiće	177		3
-poubijaće			2
-pouzeće	10		2
-poučavaće			2
-povadiće			2
+poubijaće			3
+pouzeće	10		4
+poučavaće			3
+povadiće			3
 poverovaće	30		5
 povezaće	78		3
 povezivaće	47		3
-povezujuće			2
+povezujuće			3
 povećavaće	88		3
 povećaće	620		3
-poveće	203		2
+poveće	203		3
 povešće	109		3
-povikaće			2
+povikaće			3
 poviće			3
 povratiće	34		3
 povrediće	10		3
-povreće			2
+povreće			3
 povrće	9884		3
 povuće			2
-pozabaviće	27		2
+pozabaviće	27		3
 pozajmiće	24		3
 pozdraviće	71		4
 pozliće	17		2
@@ -1311,65 +1311,65 @@ počastiće			3
 počeće	4673		2
 počešće		M	2
 počinuće			4
-počivaće	21		2
+počivaće	21		3
 poštedeće	15		3
 poštovaće	113		3
 poželeće	119		3
-poživeće			2
-požnjeće			2
-praseće			2
+poživeće			4
+požnjeće			3
+praseće			3
 prasiće			2
-prateće	3001		2
+prateće	3001		3
 pratiće	767		3
 pravdaće			3
 praviće	316		3
 prebaciće	52		3
-prebivaće			2
+prebivaće			3
 prebiće	11		3
-preboleće			2
+preboleće			4
 prebrodiće			3
-prebrojaće			2
+prebrojaće			3
 predavaće	53		3
 predaće	152		3
-predhodiće			2
+predhodiće			3
 predlagaće	10		3
 predložiće	286		3
-prednjačiće			2
+prednjačiće			3
 predomisliće			4
 predočiće	22		3
 predstaviće	2896		4
 predstavljaće	1321		4
-predstojeće	3620		2
-predusreće			2
-preduzeće	35053		2
+predstojeće	3620		4
+predusreće			4
+preduzeće	35053		4
 predviđaće			3
 predvodiće	269		3
-pregaziće	22		2
-pregledaće	73		2
+pregaziće	22		3
+pregledaće	73		3
 pregnuće	109		2
 pregradiće			3
-prehraniće			2
+prehraniće			3
 prekinuće	72		4
-preklinjaće			2
-prekratiće			2
-prekreće			2
+preklinjaće			3
+prekratiće			3
+prekreće			3
 prekriće	30		3
 prekršiće	14		3
 prelaziće	35		4
 preleće	150		2
-preležaće			2
+preležaće			3
 preliće	18		2
-premestiće	14		2
-premeće	47		2
+premestiće	14		3
+premeće	47		3
 preneće	185		2
 prenosiće	138		3
 prenoće	175		2
 prenoćiće			3
-preokreće	194		2
+preokreće	194		4
 preostaće	23		3
 prepisaće	11		3
 prepiće			2
-preplaviće	33		2
+preplaviće	33		3
 prepliće	486		2
 prepoznaće	173		3
 prepustiće	36		3
@@ -1378,60 +1378,60 @@ prerašće	30		2
 presahnuće			3
 preseliće	103		3
 preskočiće	19		3
-preslušaće			2
+preslušaće			3
 prespavaće			3
 presreće	137		3
 prestajuće			2
 prestaće	383		3
-presušiće			2
-preteće	684		2
-prethodeće			2
+presušiće			3
+preteće	684		3
+prethodeće			4
 prethodiće	79		3
 pretpostaviće			4
 pretražiće			3
-pretresaće			2
+pretresaće			3
 pretrpeće	68		3
 pretvoriće	251		3
-preudaće			2
-preuspeće			2
+preudaće			3
+preuspeće			4
 preuzeće	445		2
-preuzneće			2
+preuzneće			4
 prevaliće	17		3
 prevariće	44		4
 prevešće	25		2
-prevideće			2
+prevideće			4
 prevladaće	12		3
 prevrnuće	18		3
 prevruće	72		2
 prevrće	579		3
 preziraće			4
-prezivaće			2
+prezivaće			3
 prezreće			3
 preće			2
 preživeće	152		3
 približiće	101		3
 pridodaće	17		3
 pridružiće	432		3
-prigrliće			2
+prigrliće			3
 prihvatiće	183		4
 prijaviće	31		3
 prijaće	466		3
 prikazaće	615		3
-priključiće	157		2
+priključiće	157		3
 prikriće			3
 prikupiće	27		4
 prikupljaće	94		3
-prilepiće			2
-priložiće	16		2
-primamljujuće			2
+prilepiće			3
+priložiće	16		3
+primamljujuće			3
 primaće	237		3
 primeniće	209		3
 primetiće	136		3
 primiće	479		3
 primoraće	39		3
-prineće			2
-prinosiće			2
-prinudiće			2
+prineće			3
+prinosiće			3
+prinudiće			3
 prionuće			2
 pripadaće	39		4
 pripašće	265		3
@@ -1439,8 +1439,8 @@ pripisaće	13		3
 pripremaće	72		3
 pripremiće	157		3
 prirediće	201		3
-priskočiće			2
-prispeće	60		2
+priskočiće			3
+prispeće	60		3
 pristaće	67		3
 pristupiće	191		3
 prisustvovaće	730		5
@@ -1460,27 +1460,27 @@ prkosiće			4
 probaće	91		3
 probijaće			3
 probiće	23		3
-problemčiće	27		2
+problemčiće	27		3
 probudiće	165		3
 proceniće	73		3
-procvetaće	30		2
+procvetaće	30		3
 prodavaće	512		3
 prodaće	254		3
 prodreće			2
-produbiće	20		2
-produžiće	110		2
+produbiće	20		3
+produžiće	110		3
 profiće			2
-proganjaće	11		2
+proganjaće	11		3
 proglasiće	137		3
 prognaće			3
 progoniće			3
 progovoriće	34		3
 progutaće	61		3
-proigraće			2
+proigraće			3
 proizvešće	91		3
-prokleće			2
+prokleće			3
 proklinjaće			4
-prolazeće	14		2
+prolazeće	14		4
 prolaziće	70		4
 proleće	15261		3
 proljeće		J	3
@@ -1488,28 +1488,28 @@ prolomiće			3
 promaknuće			3
 promašiće	11		4
 promeniće	460		3
-promeće	17		2
-pronaćiće			2
+promeće	17		3
+pronaćiće			3
 pronicaće			4
-pronijeće		J	2
+pronijeće		J	4
 propadaće	11		4
 propašće	196		3
-propevaće			2
+propevaće			3
 propisaće	44		3
 proplakaće			4
 propustiće	149		3
 proradiće	83		3
 proricaće			3
-prosecaće			2
+prosecaće			3
 prosiće			3
 proslaviće	235		4
-proslediće	49		2
+proslediće	49		3
 prostiraće	116		4
 prosuće	10		2
-prosvetiće			2
-prosvetljujuće			2
+prosvetiće			3
+prosvetljujuće			3
 proteraće			4
-protezaće	19		2
+protezaće	19		3
 proticaće			4
 protiviće			3
 proučavaće	27		3
@@ -1519,18 +1519,18 @@ proveravaće	87		3
 proveriće	76		4
 provešće	266		2
 prozboriće			3
-prozorčiće	31		2
+prozorčiće	31		3
 prozvaće			3
 proćerdaće			3
 proćiće			2
 pročitaće	83		3
 pročuće			2
-prošapće	11		2
+prošapće	11		3
 proširiće	149		3
 prožderaće			3
-proždraće			2
+proždraće			3
 proždreće			2
-prslučiće			2
+prslučiće			3
 prsnuće	25		3
 prstiće	184		2
 prutiće	32		2
@@ -1544,12 +1544,12 @@ ptiće	54		2
 ptičiće			2
 pucaće	23		3
 puknuće	21		3
-pulsirajuće	70		2
-punoće	382		2
+pulsirajuće	70		3
+punoće	382		3
 pustiće	176		3
 putovaće	123		3
 putujuće	298		2
-puzeće			2
+puzeće			3
 puće			2
 pužiće	17		3
 radiće	3186		3
@@ -1557,48 +1557,48 @@ radovaće	59		4
 rakiće			2
 rangiraće			3
 raniće			3
-rasejaće			2
+rasejaće			3
 rasipaće			4
 raskinuće			4
-raskomadaće			2
-raskopaće			2
+raskomadaće			3
+raskopaće			3
 raskriće			2
 raskršće	530		2
 raspašće	53		3
-raspeće	449		2
+raspeće	449		3
 raspikuće			2
 raspisaće	120		3
 raspliće	91		2
-rasporiće			2
+rasporiće			3
 raspraviće			4
-rasprskavajuće	20		2
+rasprskavajuće	20		3
 rasprsnuće			2
-rasprštaće			2
+rasprštaće			3
 raspuknuće			2
 raspuće		M	2
 rastaće			3
 rastegnuće			2
 rastopiće			3
 rastrgnuće			2
-rasturiće	20		2
+rasturiće	20		3
 rastuće	1551		2
 ratovaće	18		4
 ratujuće	27		2
 razapeće			2
 razapinjaće			4
-razarajuće	194		2
-razbežaće			2
+razarajuće	194		3
+razbežaće			3
 razbiće	62		3
 razboleće	11		3
 razdeliće			3
 razdiruće			2
-razdrešiće			2
+razdrešiće			3
 razdvojiće			3
 razglasiće			3
 razgovaraće	711		3
-razgrće	55		2
-razjasniće	25		2
-razleteće			2
+razgrće	55		3
+razjasniće	25		3
+razleteće			4
 razlučiće			3
 razmatraće	357		3
 razmeniće	39		3
@@ -1609,15 +1609,15 @@ razmotriće	224		3
 razneće			2
 razoriće	14		3
 razotkriće	11		3
-razočaravajuće	410		2
+razočaravajuće	410		3
 razočaraće	18		3
 razradiće	11		3
-razrešiće	47		2
+razrešiće	47		3
 razrušiće			4
 razumeće	277		3
 razuveriće			4
 razvaliće	10		3
-razvejaće			2
+razvejaće			3
 razvešće			3
 razvijaće	137		3
 razviće	371		3
@@ -1628,34 +1628,34 @@ računaće	92		3
 rađaće	20		3
 raširiće	17		3
 rašće	112		2
-raščistiće			2
+raščistiće			3
 ražnjiće	129		2
 reagovaće	78		5
-reflektovaće	17		2
-regulisaće	79		2
-relaksirajuće	123		2
+reflektovaće	17		3
+regulisaće	79		3
+relaksirajuće	123		3
 repiće	15		2
-rezultiraće			2
+rezultiraće			3
 reće			2
 rećiće			2
 rešavaće	188		3
 rešiće	342		3
 rodiće	185		3
-rodoskrvnuće			2
-rodoskvrnuće			2
+rodoskrvnuće			3
+rodoskvrnuće			3
 rogčiće			2
 rokće			2
-roptaće			2
+roptaće			3
 ropće			2
-rotirajuće	147		2
+rotirajuće	147		3
 roščiće			2
 rugaće			3
-rukovodeće	690		2
+rukovodeće	690		3
 rukovodiće	62		3
 rupčiće			3
 rušiće	30		3
 ružnoće	117		2
-ršumoviće			2
+ršumoviće			3
 sabraće	187		3
 sadržavaće	15		4
 sadržaće	307		3
@@ -1663,36 +1663,36 @@ sagledaće	41		4
 sagnuće			3
 sagradiće	27		3
 sahraniće	23		3
-sakoviće			2
+sakoviće			3
 sakriće	16		3
 sakupiće	18		4
-saleće	27		2
+saleće	27		3
 samljeće			3
-samovlašće	68		2
-samozačeće			2
+samovlašće	68		4
+samozačeće			3
 samoće	1105		2
 sandiće			2
-sandučiće	234		2
+sandučiće	234		3
 sanjaće	11		3
-saobraćaće	205		2
-saopće			2
-saopštiće	115		2
+saobraćaće	205		3
+saopće			3
+saopštiće	115		3
 sapinjuće			2
 sapliće	139		3
 sarađivaće	116		3
-saslušaće	41		2
+saslušaće	41		3
 sastajaće	10		4
 sastaviće	31		4
 sastavljaće			4
 sastaće	1163		3
 sastojaće	182		4
-satreće			2
-saućešće			2
+satreće			3
+saućešće			4
 saučešće	1281		4
 saviće			3
-savkoviće			2
+savkoviće			3
 savladaće	24		3
-sazdaće			2
+sazdaće			3
 saznaće	325		3
 sazreće			3
 sazvaće	14		3
@@ -1701,7 +1701,7 @@ sačekaće	288		4
 sačiniće	70		3
 sačuvaće	130		3
 sažaliće			4
-sažvaće			2
+sažvaće			3
 sedeće	247		3
 sejaće	11		3
 sestriće	22		3
@@ -1714,9 +1714,9 @@ sijajuće			2
 sijaće	39		3
 sikće			2
 silovaće			4
-simoviće			2
+simoviće			3
 sinuće			3
-siročiće	53		2
+siročiće	53		3
 sirće	1144		2
 sisiće			2
 siće			2
@@ -1726,8 +1726,8 @@ sklanjaće			3
 skliznuće	20		2
 skloniće	21		3
 sklopiće	29		3
-skončaće			2
-skotrljaće			2
+skončaće			3
+skotrljaće			3
 skočiće	80		3
 skratiće	51		3
 skrenuće	36		3
@@ -1738,23 +1738,23 @@ skupiće	42		3
 skupoće	98		2
 skuvaće			3
 slabiće	72		3
-sladostrašće	48		2
+sladostrašće	48		4
 slagaće	15		3
 slatkoće	56		2
 slaviće	86		3
-sledeće	54976		2
+sledeće	54976		3
 slediće	83		3
 slegnuće			2
 slepoće	31		2
-sleteće	27		2
+sleteće	27		3
 sleće	318		2
-slijevaće		J	2
+slijevaće		J	3
 slikaće	30		3
-sljedeće		J	2
+sljedeće		J	3
 slomiće	24		3
 složiće	147		3
 slušaće	120		3
-služeće			2
+služeće			3
 služiće	606		3
 smaknuće	83		2
 smanjivaće	39		3
@@ -1775,10 +1775,10 @@ smrdeće			3
 smrknuće			2
 smrskaće			3
 smrviće			2
-smrzavajuće			2
+smrzavajuće			3
 smrznuće			3
 smutiće			2
-smućivaće			2
+smućivaće			3
 smučiće	11		2
 snabdevaće	43		3
 snabdeće			3
@@ -1789,7 +1789,7 @@ sniziće	24		3
 snosiće	279		2
 sokiće	113		2
 sokoliće			3
-sondiraće			2
+sondiraće			3
 spadaće			3
 spajaće	11		3
 spaliće	18		3
@@ -1812,20 +1812,20 @@ sprovodiće	305		3
 spržiće	11		2
 spustiće	71		3
 sravniće			3
-srbijiće			2
-srcedrapajuće			2
-srceparajuće	101		2
+srbijiće			3
+srcedrapajuće			3
+srceparajuće	101		3
 srediće	82		3
 sreće	23504		2
 srešće	91		2
 srušiće	89		3
 stajaće	458		3
 stakliće	19		2
-stankoviće			2
+stankoviće			3
 stanovaće	13		3
 staraće	58		3
-startovaće	298		2
-starčeviće			2
+startovaće	298		3
+starčeviće			3
 staviće	258		3
 staće	154		2
 stizaće	88		3
@@ -1833,19 +1833,19 @@ stiće			2
 stićiće			2
 stišaće			3
 stišće	34		2
-stojeće	181		2
+stojeće	181		3
 stoleće	393		3
 stopiće	11		3
 stočiće			2
 stradajuće			2
 stradaće	83		3
 strefiće			3
-streljaće			2
-stremeće			2
+streljaće			3
+stremeće			3
 strgnuće			2
-strogoće	86		2
-strpaće			2
-strujaće			2
+strogoće	86		3
+strpaće			3
+strujaće			3
 stubiće			2
 stupiće	248		3
 stvarajuće			2
@@ -1859,21 +1859,21 @@ suočiće	221		3
 susreće	1915		3
 susrešće	86		3
 suviće			2
-suvoće	177		2
-suzoviće			2
-sužavajuće			2
+suvoće	177		3
+suzoviće			3
+sužavajuće			3
 svanuće	140		2
 svedočiće	52		3
 svemoguće	129		4
-sveopće	34		2
+sveopće	34		3
 svetiće			2
-svetleće	458		2
+svetleće	458		3
 svetliće			2
-svevideće	120		2
+svevideće	120		4
 svezaće			3
 sveznajuće	31		4
 sveće	3106		2
-svešteniće			2
+svešteniće			3
 svideće	87		3
 sviraće	273		3
 svisnuće			2
@@ -1884,13 +1884,13 @@ svrgnuće	35		3
 svrstaće	38		3
 svršiće			3
 takmičiće	572		4
-tanjiriće			2
+tanjiriće			3
 tatiće			2
-tegleće	26		2
+tegleće	26		3
 tekuće	6138		2
-teleće	200		2
+teleće	200		3
 teraće	52		3
-tesnoće			2
+tesnoće			3
 testiraće	51		3
 teće	47		2
 teškoće	5681		2
@@ -1899,29 +1899,29 @@ tinjajuće	41		2
 tiće			2
 tješiće			3
 tonuće			3
-topaloviće			2
+topaloviće			3
 topčiće			2
 točkiće	130		2
-tošoviće			2
+tošoviće			3
 tragaće	25		3
 trajaće	4069		3
-trajkoviće			2
+trajkoviće			3
 trajuće			2
 traće	76		2
 tražiće	919		3
 trebaće	1978		3
 treniraće	93		3
 trenuće			3
-trepereće			2
-trepeće			2
+trepereće			4
+trepeće			3
 trepće	227		2
 trepćuće			2
 tretiraće	64		3
 treće	32561		2
 trešće	14		2
-trkaće	14		2
+trkaće	14		3
 tronuće		M	2
-trougliće			2
+trougliće			3
 trovlašće			2
 trošiće	95		3
 trpeće	72		3
@@ -1935,12 +1935,12 @@ tvoriće			3
 tvrdiće	40		3
 tvrdoće	481		3
 ubaciće	34		3
-ubediće	31		2
+ubediće	31		3
 ubijaće	18		3
 ubiraće			4
 ubiće	255		3
 ublažiće	44		3
-ublažujuće			2
+ublažujuće			3
 ubošće			2
 ubrzavaće			4
 ubrzaće	125		3
@@ -1950,8 +1950,8 @@ udaljiće	15		3
 udariće	82		4
 udaviće	24		3
 udaće	36		3
-udesiće			2
-udostojiće			2
+udesiće			3
+udostojiće			3
 udružiće	47		3
 uganuće	43		2
 ugasiće	82		3
@@ -1969,76 +1969,76 @@ ugušiće	22		3
 uhapsiće	23		4
 uhvatiće	65		4
 uješće			3
-ukapiraće	13		2
+ukapiraće	13		3
 ukazaće	172		3
 ukazivaće	14		3
-ukazujuće			2
+ukazujuće			3
 ukinuće	153		4
 uključivaće	79		3
 uključiće	283		3
-uključujuće			2
+uključujuće			3
 ukloniće	63		3
-uklopiće	33		2
+uklopiće	33		3
 ukrasiće	19		3
 ukrašće	20		3
 ukrcavaće			4
 ukrcaće			3
 ulaziće	57		4
 ulegnuće	60		2
-uleteće	11		2
-uleće	278		2
+uleteće	11		4
+uleće	278		3
 uliće	16		2
 uloviće			3
 uložiće	364		3
-umanjiće	78		2
+umanjiće	78		3
 umeće	3877		3
-umijesiće		J	2
+umijesiće		J	3
 umiraće	20		4
-umiriće	22		2
-umirujuće	704		2
+umiriće	22		3
+umirujuće	704		3
 umiruće	133		2
 umivaće			3
-umlatiće			2
-umnožavaće			2
-umnožiće	14		2
-umoliće			2
+umlatiće			3
+umnožavaće			3
+umnožiće	14		3
+umoliće			3
 umoriće	11		3
 umreće	171		2
-umrtviće			2
-umudrujuće			2
+umrtviće			3
+umudrujuće			3
 umuknuće			2
-unaprediće	133		2
-unesreće	11		2
+unaprediće	133		3
+unesreće	11		4
 uneće	141		2
 uniziće			3
-uništavajuće	52		2
+uništavajuće	52		3
 uništavaće	12		3
 uništiće	160		4
-unučiće	180		2
-uobličiće			2
+unučiće	180		3
+uobličiće			3
 uočiće	42		3
 upaliće	38		3
 upašće	18		3
-upijajuće	37		2
+upijajuće	37		3
 upisaće	185		3
 upitaće	51		3
 upiće	13		3
 uplašiće	25		4
-upleće	14		2
+upleće	14		3
 uplešće			2
 upliće	388		2
-upodobiće			2
+upodobiće			3
 uposliće	74		3
-upotpuniće	169		2
+upotpuniće	169		3
 upotrebiće	82		3
 upoznaće	314		3
-upozoravajuće	166		2
+upozoravajuće	166		3
 upozoriće	59		3
-upraviće			2
+upraviće			3
 upravljaće	66		4
 uprljaće			3
 upropastiće	48		3
-upucaće			2
+upucaće			3
 uputiće	309		3
 uradiće	465		3
 uračunaće	22		3
@@ -2048,92 +2048,92 @@ urezivaće			3
 uroniće			3
 uručiće	166		3
 usadiće			3
-usaglasiće	12		2
+usaglasiće	12		3
 usahnuće	12		2
 useliće	51		3
-usijaće			2
-uskladiće	30		2
-uskočiće	12		2
+usijaće			3
+uskladiće	30		3
+uskočiće	12		3
 uskrsnuće	181		3
-uslediće	1061		2
-uslišiće	10		2
-usloviće	73		2
+uslediće	1061		3
+uslišiće	10		3
+usloviće	73		3
 usmeravaće	21		3
 usmeriće	83		4
 usmrdeće			3
-usmrćujuće			2
+usmrćujuće			3
 usnuće	13		2
 uspavaće			3
-uspavljujuće		M	2
+uspavljujuće		M	3
 uspeće	215		3
 usporiće	45		3
-usreće	153		2
-usrećiće	13		2
+usreće	153		3
+usrećiće	13		3
 ustajaće			4
 ustajuće			2
 ustanoviće	43		3
 ustaće	66		3
 ustrajaće			4
-ustrašiće			2
-ustrebaće			2
+ustrašiće			3
+ustrebaće			3
 ustrojiće			3
 ustupiće	44		3
 usvojiće	102		3
-uteraće			2
+uteraće			3
 utešiće			4
 uticaće	613		4
 utiće			2
-utišaće			2
+utišaće			3
 utoliće			3
 utonuće			3
-utočiće			2
+utočiće			3
 utrnuće	35		3
 utrošiće	86		3
 utvrdiće	453		3
 utvrđivaće	57		4
 uvaliće	13		3
-uvatiće			2
+uvatiće			3
 uvažavaće	17		3
-uveličavajuće			2
+uveličavajuće			3
 uveličaće	43		3
 uvenuće	36		3
 uveriće	86		4
 uvećaće	58		3
-uveće			2
+uveće			3
 uvešće	276		2
 uvideće	57		4
 uvodiće			3
 uvoziće	19		3
 uvrediće			3
-uvrće	87		2
+uvrće	87		3
 uzbudiće	10		3
 uzbuniće			3
-uzbuđujuće			2
+uzbuđujuće			3
 uzdahnuće			3
 uzdajuće			2
-uzdaće			2
+uzdaće			3
 uzdignuće	40		2
-uzdizaće			2
+uzdizaće			3
 uzdižuće			2
-uzdrmaće			2
+uzdrmaće			3
 uzdržavaće			4
 uzdržaće			3
 uzeće	595		2
 uzimaće	83		4
 uzleteće			3
 uzleće	80		2
-uznemiravajuće	214		2
+uznemiravajuće	214		3
 uznemiriće			3
-uznemirujuće	476		2
-uzneće			2
+uznemirujuće	476		3
+uzneće			3
 uzrašće			2
 uzviknuće			3
 uzvisiće	17		3
 uzviće			2
-uzvratiće	51		2
+uzvratiće	51		3
 ućiće			2
 učestvovaće	2369		5
-učeće			2
+učeće			3
 učešće	41371		2
 učiniće	1842		3
 učiće	151		3
@@ -2141,51 +2141,51 @@ učvrstiće	31		3
 ušinuće		M	2
 uštedeće	142		3
 ušće	2751		2
-užasavajuće	135		2
+užasavajuće	135		3
 uživaće	426		3
 užiće			2
 vagaće			3
-vagončiće			2
+vagončiće			3
 valjaće	58		3
 varajuće		M	2
-varirajuće			2
-variraće	19		2
-vasiljeviće			2
+varirajuće			3
+variraće	19		3
+vasiljeviće			3
 vaskrsnuće	150		2
-vasojeviće			2
-važeće	1242		2
+vasojeviće			3
+važeće	1242		3
 važiće	581		3
-velegošće			2
+velegošće			4
 venuće			3
 venčaće	39		3
 venčiće	72		3
-verovatnoće	1106		2
+verovatnoće	1106		3
 verovaće	47		4
-versaće			2
+versaće			3
 verujuće	169		2
 veseliće	12		3
 vezaće	18		3
 vezujuće			2
 veće	64738		2
 večeraće			4
-večnobiće			2
+večnobiće			3
 vežiće			2
-vibrirajuće	34		2
-vidaće			2
+vibrirajuće	34		3
+vidaće			3
 videće	1961		3
 vidiće			2
 vikaće	12		3
 viknuće			3
 vinuće			2
-viseće	329		2
+viseće	329		3
 visiće	10		2
 viće	69		2
 vladajuće	13680		2
 vladaće	109		3
-vlasonjiće			2
-vodeće	5181		2
+vlasonjiće			3
+vodeće	5181		3
 vodiće	1190		3
-vojinoviće			2
+vojinoviće			3
 voleće	25		3
 voziće	469		3
 voće	12096		2
@@ -2194,11 +2194,11 @@ vratiće	1241		3
 vraćaće	64		3
 vraće			2
 vrebajuće			2
-vredeće	97		2
+vredeće	97		3
 vrednoće	52		2
 vreće	1265		2
 vrištaće			3
-vrišteće	35		2
+vrišteće	35		3
 vrteće	30		3
 vrtiće	811		3
 vruće	2732		2
@@ -2207,13 +2207,13 @@ vršiće	816		3
 vujiće			2
 zabaviće	33		4
 zabavljaće	92		4
-zabeležiće	87		2
+zabeležiće	87		3
 zabiće			3
 zablistaće	26		3
 zaboleće	35		3
 zaboraviće	105		4
 zabraniće	54		3
-zabrinjavajuće	1933		2
+zabrinjavajuće	1933		3
 zabrinuće			4
 zacariće			4
 zaceliće			3
@@ -2222,137 +2222,137 @@ zadaviće			3
 zadaće	137		3
 zadimiće			4
 zadiviće	20		3
-zadivljujuće	797		2
-zadobiće	19		2
-zadovoljavajuće	1854		2
+zadivljujuće	797		3
+zadobiće	19		3
+zadovoljavajuće	1854		3
 zadovoljiće	267		3
-zadrhtaće			2
+zadrhtaće			3
 zadržavaće			4
 zadržaće	363		3
 zadužiće	41		3
 zagadiće			4
-zagađujuće	135		2
+zagađujuće	135		3
 zagluhnuće			2
-zaglušujuće	75		2
-zagoreće			2
+zaglušujuće	75		3
+zagoreće			4
 zagrejaće	27		4
-zagrće	15		2
+zagrće	15		3
 zahtevaće	302		3
 zahvaliće	10		3
 zahvatiće	52		4
-zaigraće	97		2
-zaječaće			2
+zaigraće	97		3
+zaječaće			3
 zakasniće			3
 zakazaće	32		3
-zakačiće	11		2
-zakašljaće			2
-zakitiće			2
-zaklaće			2
-zaklepeće			2
-zaključaće			2
+zakačiće	11		3
+zakašljaće			3
+zakitiće			3
+zaklaće			3
+zaklepeće			4
+zaključaće			3
 zaključiće	113		3
 zakloniće			3
 zakopaće			3
-zakoće			2
-zakrekeće			2
-zakreće	15		2
-zakriliće			2
-zakucaće			2
-zakukaće			2
-zakupiće			2
+zakoće			3
+zakrekeće			4
+zakreće	15		3
+zakriliće			3
+zakucaće			3
+zakukaće			3
+zakupiće			3
 zalagaće	112		3
 zalediće			3
-zalepiće			2
-zaleće	124		2
+zalepiće			3
+zaleće	124		3
 zaljubiće	14		3
-zaljuljaće			2
-zaludeće			2
-zamagliće			2
-zamarajuće			2
+zaljuljaće			3
+zaludeće			4
+zamagliće			3
+zamarajuće			3
 zameniće	472		3
 zamenjivaće	19		3
 zameriće	20		4
 zametnuće			4
-zameće	61		2
-zamirisaće			2
+zameće	61		3
+zamirisaće			3
 zamiće			2
 zamoliće	27		3
-zamorčiće	18		2
+zamorčiće	18		3
 zamrznuće	11		4
 zanemariće			3
 zanimaće	29		3
-zanoće	22		2
-zaogrće	21		2
-zaokreće	30		2
+zanoće	22		3
+zaogrće	21		3
+zaokreće	30		4
 zaokružiće	42		3
 zapaliće	25		3
 zapamtiće	52		3
-zapanjujuće	1102		2
-zapevaće	17		2
+zapanjujuće	1102		3
+zapevaće	17		3
 zapešće			2
 zapisaće	37		3
 zapitaće	70		3
-zapištaće			2
-zaplakaće	15		2
-zapleće			2
+zapištaće			3
+zaplakaće	15		3
+zapleće			3
 zapliće	89		2
 zaplješće			2
-zapojaće			2
-zaposešće			2
+zapojaće			3
+zaposešće			4
 zaposliće	269		3
 zapovediće			4
 započeće	577		2
-zaprepašćujuće	220		2
-zapretiće			2
+zaprepašćujuće	220		3
+zapretiće			3
 zaprosiće			3
-zaputiće			2
+zaputiće			3
 zaradiće	105		3
-zaraziće			2
+zaraziće			3
 zarašće			2
-zarobiće	11		2
+zarobiće	11		3
 zasadiće	27		3
-zasedaće	45		2
-zasijaće	48		2
-zasjaće			2
-zaslepljujuće	67		2
-zasljepljujuće		J	2
+zasedaće	45		3
+zasijaće	48		3
+zasjaće			3
+zaslepljujuće	67		3
+zasljepljujuće		J	3
 zaslužiće	21		3
-zasmejaće			2
-zasnivaće	90		2
+zasmejaće			3
+zasnivaće	90		3
 zaspaće			3
-zastenjaće			2
-zastrašujuće	2010		2
+zastenjaće			3
+zastrašujuće	2010		3
 zastupaće	52		3
 zasuće			2
-zasvedočiće			2
-zatraviće			2
+zasvedočiće			3
+zatraviće			3
 zatražiće	246		3
-zatrebaće	34		2
+zatrebaće	34		3
 zatrešće			2
-zatrpaće	11		2
-zatrubiće			2
+zatrpaće	11		3
+zatrubiće			3
 zatvaraće	14		3
 zatvoriće	180		3
 zaustaviće	110		4
 zauzeće	603		2
-zavapiće			2
-zavijajuće			2
-zavikaće			2
+zavapiće			3
+zavijajuće			3
+zavikaće			3
 zaviriće			3
 zavisiće	2061		4
 zavladaće	43		3
 zavoleće	33		3
-zavrteće	20		2
-zavrće	198		2
+zavrteće	20		4
+zavrće	198		3
 završavaće	21		4
 završiće	916		3
-zaziraće			2
-zazvaće			2
-zazvoniće			2
+zaziraće			3
+zazvaće			3
+zazvoniće			3
 začeće	489		2
 začudiće	14		4
 začuće			2
-začuđujuće	734		2
+začuđujuće	734		3
 zašapuće			2
 zaštitiće	63		3
 zažaliće	10		3
@@ -2362,7 +2362,7 @@ zbrisaće	12		3
 zbuniće	11		3
 zbunjujuće	562		2
 zdrobiće			2
-zelembaće	10		2
+zelembaće	10		3
 zečiće	11		3
 zgaziće	16		2
 zgrabiće			3
@@ -2372,29 +2372,29 @@ zgrće	74		2
 zgusnuće			3
 zidaće	16		3
 zidiće			2
-zjapeće			2
+zjapeće			3
 zlokuće			2
 zloće	132		2
 znaće	1724		2
-značeće			2
+značeće			3
 značiće	405		3
 zubiće	139		3
 zvaće	324		2
-zvekeće	22		2
+zvekeće	22		3
 zvižduće			2
 zvoniće	12		3
 zvončiće	59		2
 zvučaće	76		3
 ćaće	25		2
 će	1911816		1
-ćeretaće			2
-ćevapčiće	78		2
-ćureće	156		2
+ćeretaće			3
+ćevapčiće	78		3
+ćureće	156		3
 ćutaće	33		3
 čarajuće			2
 čekaće	318		3
 čekiće	45		3
-čelebiće			2
+čelebiće			3
 čepiće	91		2
 čeznuće			3
 češće	22761		2
@@ -2402,23 +2402,23 @@ zvučaće	76		3
 čistoće	2336		2
 čitaće	109		3
 čišće	28		2
-čoveće			2
-čovjeće		J	2
+čoveće			3
+čovjeće		J	3
 čudiće	17		3
 čupaće			3
 čuvajuće			2
 čuvaće	129		3
-čuvstvovaće			2
+čuvstvovaće			3
 čuće	317		2
 čvoriće	49		2
 čvrstoće	538		3
 čvršće	1488		2
-đenadiće			2
+đenadiće			3
 đeniće			2
-đorđeviće			2
+đorđeviće			3
 đuliće			2
-đuroviće			2
-šampončiće			2
+đuroviće			3
+šampončiće			3
 šapuće	640		2
 šapće	92		2
 šariće			2
@@ -2426,7 +2426,7 @@ zvučaće	76		3
 šeširiće	24		3
 šibaće			3
 šikće			2
-šireće			2
+šireće			3
 širiće	46		3
 šivaće	64		3
 šiće			2
@@ -2434,8 +2434,8 @@ zvučaće	76		3
 školovaće	45		4
 škrbiće			2
 škrguće	37		3
-šljašteće	81		2
-šokirajuće	20		2
+šljašteće	81		3
+šokirajuće	20		3
 šokiraće	11		3
 štampaće	59		3
 štapiće	479		3
@@ -2447,7 +2447,7 @@ zvučaće	76		3
 želeće	146		3
 željeće			3
 žešće	1222		2
-žigosaće			2
+žigosaće			3
 živeće	456		3
 živiće			2
 živuće	26		2
@@ -2455,43 +2455,43 @@ zvučaće	76		3
 žnjeće			2
 žrtvovaće	17		4
 žudeće			3
-žuljaće			2
-žutaće			2
+žuljaće			3
+žutaće			3
 žuće	42		2
 žvakaće	171		3
 žvaće		M	2
 cvijeće	538		2
 cvjeće			2
 djeliće			3
-dolijeće			2
+dolijeće			4
 donijeće	45		3
 izgorjeće			3
-izlijeće			2
-letjeće			2
+izlijeće			4
+letjeće			3
 liješće			2
 medvjediće			4
 mjehuriće			3
 odjeće			3
 odlijeće			2
-osvježavajuće			2
+osvježavajuće			3
 otjeraće			4
 pobijediće			4
 podsjetiće			4
 polijeće	14		3
-prijeteće	43		2
-prinijeće			2
+prijeteće	43		4
+prinijeće			4
 razumjeće			3
-slijedeće			2
-slijeće	18		2
+slijedeće			4
+slijeće	18		3
 svidjeće			3
 svijeće	336		3
-svjetleće			2
-ulijeće	14		2
-umijeće	178		2
+svjetleće			3
+ulijeće	14		4
+umijeće	178		4
 umjeće			3
 umrijeće	12		3
 uspjeće			3
-utjeraće			2
+utjeraće			3
 uzlijeće			3
 vidjeće			3
 vijeće	2364		2

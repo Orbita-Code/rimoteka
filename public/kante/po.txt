@@ -1,12 +1,12 @@
 46
 antilopo			3
-apropo		M	2
-crvenkapo			2
+apropo		M	3
+crvenkapo			3
 depo	554		2
 ekipo	17		2
 ekspo			2
-evropo			2
-gestapo			2
+evropo			3
+gestapo			3
 glupo	5493		2
 gospo	79		2
 grupo			2
@@ -24,12 +24,12 @@ pepo			2
 pipo			2
 po	1218580		1
 popo			2
-poskupo		M	2
-preglupo			2
-prelepo	1019		2
-preljepo		J	2
-preskupo	483		2
-priglupo	21		2
+poskupo		M	3
+preglupo			3
+prelepo	1019		3
+preljepo		J	3
+preskupo	483		3
+priglupo	21		3
 prpo			2
 pumpo			2
 pupo			2
@@ -48,5 +48,5 @@ tupo	269		2
 lijepo	3921		2
 ljepo			2
 naslijepo	12		4
-prelijepo	46		2
+prelijepo	46		3
 slijepo	181		3

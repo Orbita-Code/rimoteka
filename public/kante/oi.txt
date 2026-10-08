@@ -5,8 +5,8 @@ koi			2
 metroi			2
 nivoi	1816		2
 oboi	12		2
-panoi	300		2
-pomoi			2
-rešoi			2
+panoi	300		3
+pomoi			3
+rešoi			3
 sakoi	111		2
-trikoi			2
+trikoi			3

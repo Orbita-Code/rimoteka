@@ -39,6 +39,36 @@ neprestano skenirala ovaj repo zbog 2.223 izmenjena fajla; svaki pali radnik sam
 daje nlo/slo/lo (sporne reči u rečniku), „naroda" prešlo iz „Najbolje" za sloboda u „Dobre" (národa → -aroda), „kornjačin" ostaje uz
 domaćin (č≡ć). Pa push (jedno „da"), pa `BASE=https://rimoteka.com bash test/lanac.sh`.
 
+## 2b. STANJE 08.10.2026 – SREDNJI I NISKI NALAZI AUDITA 07.10. (naredba vlasnice: „radi dok ne bude 10/10")
+
+Objavljeno 08.10. ujutru: `main` = `1e4c8e6931` (4 visoka), lanac protiv produkcije 1.002/1.002. Posle toga commit `6d5abef843` na grani
+(NEOBJAVLJEN – čeka „da"; pun lanac lokalno **1.022/1.022**, 3 radnika, 9 min 42 s, `AUDIT/lanac/20261008-163717` – sa 6 radnika pri
+Xcode skeniranju padali su isteci vremena, svaki pali deo sam prolazio): 15 srednjih + 22 niska nalaza popravljena, nova test-sekcija 60 (27 provera), tabela nasumičnih reči
+`AUDIT/akcenti/2026-10-08-nasumicno-20.md`. Pun spisak sa proverama: `AUDIT/NALAZI-OTVORENI.md`, odeljak „POPRAVLJENO 08.10.2026".
+
+**Najvažnije u tom krugu – AK-3:** podrazumevani akcenat („pretposlednji slog") izmeren ostavi-jednog-napolju
+(`scripts/akcenti-prediktor-ocena.py`): tačan za **25,5 %** reči sa 3+ sloga; najčešći pravi početak rime je **treći slog od
+kraja** (58 %). Novo: prediktor ≥2 primera / ≥60 % + podrazumevano treći od kraja → **79,5 %** (bilo 66 %). `akcenat.txt`
+promenjen za 99.449 reči. Primeri vlasnice (televizor → retrovizor, revizor, prizor) nemaju podatak ni u jednom izvoru, pa su
+u `build/akcenti-rucno.json` (ide pre svih pravila).
+
+**Tri stvari se objavljuju ZASEBNO i traže njeno „da":**
+1. push grane u `main` (sve iz commita `6d5abef843` osim nginx-a – nginx.conf je u istom commitu, ali Coolify ga primenjuje tek pri
+   redeployu; v. tačku 3),
+2. `cd worker && npx wrangler deploy` (BZ-1/BZ-2/BZ-4 – ključ samo zaglavljem za JSON, 8 KB plafon, mejl bez ključa + polje za
+   ključ na `/prijave`); posle objave `curl` probe + test 46,
+3. nginx (SEO-1/SEO-4/PF-3) – `nginx-provera.sh` zelena (5 slučajeva kanonikala); po pravilu 9a-1 ide kao zaseban deploy i odmah
+   posle se proverava glavna adresa. Pošto je u istom commitu, prvi push ga već nosi – zato prvo push, pa produkcijski lanac, pa
+   ako padne 59 E (kanonikal), gledati nginx.
+
+**Ostaje iz audita (van dometa koda ili odluke):** KL-2, AK-6, AK-7, PF-1 (frekvencija u txt – zaseban zahvat, 6 potrošača), PF-2
+(brotli – `nginx:alpine` nema modul), SEO-5 (FAQPage – uklanjanje je odluka), BZ-3 (`backend/` – brisanje traži njenu reč), MB-2
+(nije reprodukovano), PR-6, PF-4, TP-5/TP-7–10 (bez recepta u izveštaju), SJ-2/SJ-3 (odluke).
+
+**Greške ovog kruga (PROPUSTI 07.–08.10.):** regex za ukinute strane nije pratio šablon kapsule (dva puta – drugi put uhvatio
+`assert`); provera 12b bila lažno zelena (brojala umesto gledala sadržaj); zakrpa pala na `assert` a lanac podataka krenuo sa
+starim kodom (nije bilo `&&`).
+
 ## 3. ŠTA JE OSTALO – redom (tačke 1–4 REŠENE 07.10. popodne, v. 2a; ostaje 5–7)
 
 | # | Nalaz | Gde tačno | Popravka (gotov recept) |

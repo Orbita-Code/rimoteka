@@ -39,7 +39,11 @@ neprestano skenirala ovaj repo zbog 2.223 izmenjena fajla; svaki pali radnik sam
 daje nlo/slo/lo (sporne reči u rečniku), „naroda" prešlo iz „Najbolje" za sloboda u „Dobre" (národa → -aroda), „kornjačin" ostaje uz
 domaćin (č≡ć). Pa push (jedno „da"), pa `BASE=https://rimoteka.com bash test/lanac.sh`.
 
-## 2b. STANJE 08.10.2026 – SREDNJI I NISKI NALAZI AUDITA 07.10. (naredba vlasnice: „radi dok ne bude 10/10")
+## 2b. STANJE 08.–09.10.2026 – SREDNJI I NISKI NALAZI AUDITA 07.10. (naredba vlasnice: „radi dok ne bude 10/10")
+
+**OBJAVLJENO 09.10. ~11:40** („push" vlasnice): `main` = `10b4d32569`, `app.js?v=5e23cdf6`. Posle objave: glavna adresa 200 +
+`charset=utf-8`, kanonikal `/?rec=xyzqw` / sumnjiv unos `/`, kante keš 365 d – sve potvrđeno `curl`-om; **lanac protiv produkcije
+1.024/1.024 + motori 69 + skeneri 0/0, 11 min 17 s** (`AUDIT/lanac/20261009-114354`). Sanduče (worker) JOŠ NIJE objavljeno – čeka „da".
 
 Objavljeno 08.10. ujutru: `main` = `1e4c8e6931` (4 visoka), lanac protiv produkcije 1.002/1.002. Posle toga commit `6d5abef843` na grani
 (NEOBJAVLJEN – čeka „da"; pun lanac lokalno **1.022/1.022**, 3 radnika, 9 min 42 s, `AUDIT/lanac/20261008-163717` – sa 6 radnika pri

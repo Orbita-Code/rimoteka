@@ -1,4 +1,4 @@
-730
+728
 Jupiter			3
 Kmer			1
 Kvarner			2
@@ -195,7 +195,6 @@ ginter			2
 glajder			2
 glečer	271		2
 gliser	166		2
-Gloster			2
 glupander			3
 golfer	282		2
 golgeter	507		3
@@ -344,7 +343,6 @@ laser	1604		2
 laufer			3
 lenger			2
 ler		M	1
-Lester			2
 ležer			2
 licemer	306		3
 licider			3

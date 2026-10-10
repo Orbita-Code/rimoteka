@@ -1,4 +1,4 @@
-37
+36
 Njujork			2
 ataturk			3
 belobrk			3
@@ -7,7 +7,6 @@ brk	472		1
 crk			1
 crnobrk			3
 cvrk			1
-Denkerk			2
 Dirk			1
 grk			1
 jork			1

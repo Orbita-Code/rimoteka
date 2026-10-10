@@ -1,4 +1,4 @@
-82
+81
 aerotransport			3
 Albert			2
 aport	70		2
@@ -43,7 +43,6 @@ norbert			2
 obrt	1974		2
 ort			1
 osvrt	2750		2
-Pert			1
 pervert			2
 poduprt	78		3
 popart			2

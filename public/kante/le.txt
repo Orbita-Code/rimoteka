@@ -1,4 +1,4 @@
-3383
+3382
 Angole			2
 Brazile			2
 Brisele			3
@@ -1306,7 +1306,6 @@ opkolile	99		3
 oplemenile	25		3
 opljačkale	95		4
 opojile			3
-Opole			3
 opomenule			3
 opominjale	20		4
 oporavile	142		4

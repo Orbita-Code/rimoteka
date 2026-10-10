@@ -1,4 +1,4 @@
-383
+378
 Boston			2
 Lion		M	2
 Lisabon			3
@@ -22,7 +22,6 @@ antiproton	17		3
 apolon			2
 argon		M	2
 arhiđakon	176		4
-Arlington			3
 armagedon			3
 autohton	102		2
 Avinjon			2
@@ -45,7 +44,6 @@ bezakon			3
 bilion	354		2
 bizon	88		2
 blagonaklon	251		2
-Bolton			2
 bombon	35		2
 bon	487		1
 bonbon	16		2
@@ -77,7 +75,6 @@ dokon	219		2
 dragon	422		2
 dron			1
 džekson			2
-Edmonton			3
 Egon			2
 elektron	558		2
 elington			3
@@ -164,7 +161,6 @@ kolon	93		2
 kombinezon	240		3
 komision			3
 kompanjon	86		2
-Kompton			2
 kon		M	1
 kordon	507		2
 kortizon	33		3
@@ -283,7 +279,6 @@ poluton			3
 ponton	75		2
 posejdon			3
 prednizon			3
-Preston			2
 pretklon	10		2
 princeton			3
 prinston			2

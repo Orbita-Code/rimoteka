@@ -1,4 +1,4 @@
-7047
+7044
 Albanija			3
 Australija			3
 Austrija			3
@@ -116,7 +116,6 @@ alimentacija	121		3
 alimpija			3
 alineja	226		2
 aliteracija			3
-Almerija			3
 alociranja	19		4
 aloja	174		3
 alojzija			3
@@ -1974,7 +1973,6 @@ kastilja			3
 kastracija	249		3
 kastriranja	11		3
 Katalonija			3
-Katanija			3
 katatonija			3
 kategorija	15137		3
 kategorizacija	501		3
@@ -1985,7 +1983,6 @@ katolkinja	54		3
 kauboja	253		4
 kaucija	186		3
 kaurkinja		M	3
-Kavaja			3
 kavalerija			3
 kavaljerija		M	3
 kavedžija		M	3

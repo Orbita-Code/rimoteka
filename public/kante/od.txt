@@ -1,4 +1,4 @@
-100
+99
 antipod	254		2
 barkod	174		2
 bod	4008		1
@@ -94,7 +94,6 @@ urod	72		2
 uvod	8593		2
 vod	1222		1
 vodovod	4749		3
-zahod	27		2
 zavod	12149		2
 štagod		M	2
 štogod		M	2

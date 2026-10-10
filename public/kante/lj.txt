@@ -1,4 +1,4 @@
-218
+217
 Marselj			2
 Napulj			2
 akropolj			2
@@ -138,7 +138,6 @@ progonitelj	104		3
 prokelj	188		2
 prosuditelj			3
 prosvetitelj	395		3
-ravnatelj	202		3
 redatelj	264		3
 reditelj	9357		3
 revnitelj	125		3

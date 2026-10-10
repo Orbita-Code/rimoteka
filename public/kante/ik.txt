@@ -1,4 +1,4 @@
-923
+919
 Mozambik			2
 aerobik	679		2
 agnostik	160		2
@@ -539,7 +539,6 @@ predradnik	31		3
 predsedik			3
 predsednik	169425		3
 predstavnik	21908		2
-predstojnik	95		2
 preduzetnik	3099		4
 predvodnik	1124		3
 preljubnik	47		3
@@ -726,7 +725,6 @@ svećenik	298		3
 sveštenik	7157		3
 svodnik	19		2
 tabornik			2
-tajnik	243		2
 taložnik			3
 tarik			2
 teoretik			2
@@ -762,7 +760,6 @@ ugodnik		M	3
 uhapšenik	21		2
 umanjenik			2
 umetnik	7979		3
-umirovljenik	17	J	2
 umivaonik	128		2
 umnik		M	2
 umobolnik	30		4
@@ -883,7 +880,6 @@ zvučnik	1105		2
 ćuvik		M	2
 čajnik	136		2
 čarobnik	18		3
-časnik	53		2
 časovnik	747		2
 čelik	2007		2
 čelnik	1163		2

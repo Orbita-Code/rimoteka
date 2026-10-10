@@ -25301,7 +25301,6 @@ dešavati
 dešavaće
 dešavaše
 dešifrant
-dešifriran
 dešifrirati
 dešifrovala
 dešifrovali
@@ -29087,7 +29086,6 @@ domovinski
 domovinskoj
 domovinsku
 domovinu
-domovnica
 domovnicu
 domoći
 domu
@@ -33881,7 +33879,6 @@ dvojstvo
 dvojstvu
 dvojčice
 dvokatnica
-dvokatnu
 dvoklika
 dvokliku
 dvokolica
@@ -35677,7 +35674,6 @@ elektrikom
 elektriku
 elektrisan
 elektrisati
-elektrizira
 elektrizirati
 elektrizovanje
 električan
@@ -43081,7 +43077,6 @@ gledaćeš
 gledaću
 gledaš
 gledaše
-glede
 gledeći
 gledića
 gledićkim
@@ -49937,7 +49932,6 @@ hlapiti
 hlapljiv
 hlaptati
 hlače
-hlačica
 hlačice
 hlađenja
 hlađenje
@@ -67331,8 +67325,6 @@ jezičkoga
 jezičkoj
 jezičkom
 jezičku
-jezična
-jezične
 jezični
 jezičnih
 jezičnim
@@ -67915,9 +67907,7 @@ jugozapadnom
 jugozapadu
 jugošećer
 jugu
-juha
 juhe
-juhom
 juhor
 juhora
 juhu
@@ -71486,7 +71476,6 @@ kazal
 kazala
 kazale
 kazali
-kazališni
 kazališnih
 kazališnim
 kazališno
@@ -71494,7 +71483,6 @@ kazališnog
 kazališnoj
 kazališnom
 kazališnu
-kazalište
 kazalištem
 kazaljci
 kazaljka
@@ -75664,7 +75652,6 @@ kolnika
 kolo
 kolobar
 kolobarom
-kolodvorski
 kolofonijum
 koloidni
 kolokacija
@@ -82733,7 +82720,6 @@ krugove
 krugovi
 krugovima
 krugu
-kruh
 kruhoborac
 kruhova
 krulanović
@@ -84653,11 +84639,8 @@ kuća
 kućama
 kućani
 kućanica
-kućanice
 kućanici
 kućanik
-kućanski
-kućanstvo
 kućarina
 kućario
 kućariti
@@ -88515,7 +88498,6 @@ lionela
 lionelom
 lipa
 lipama
-lipanj
 lipar
 lipati
 lipaza
@@ -100454,7 +100436,6 @@ momkovati
 momkovom
 momku
 momo
-momčad
 momčadi
 momčadija
 momčadiji
@@ -111792,7 +111773,6 @@ natisnuti
 natiče
 natičete
 natičući
-natjecanje
 natjecati
 natjerat
 natkasne
@@ -135588,10 +135568,8 @@ opuštenost
 opuštenosti
 opuštenu
 opća
-opće
 općeg
 općenita
-općenito
 opčaraju
 opčaran
 opčarano
@@ -141547,7 +141525,6 @@ ozračile
 ozračiti
 ozračivanja
 ozračivanje
-ozračje
 ozračju
 ozren
 ozrena
@@ -153210,7 +153187,6 @@ poduzeo
 poduzetan
 poduzeti
 poduzetništvo
-poduzeće
 poduzima
 poduzimaju
 poduzimanje
@@ -162143,7 +162119,6 @@ postoperativan
 postoperativne
 postoperativni
 postoperativno
-postotak
 postotaka
 postotkom
 postotku
@@ -162457,7 +162432,6 @@ posvedočite
 posvedočiti
 posvedočiće
 posvedočiš
-posvema
 posveta
 posvetama
 posvete
@@ -166221,7 +166195,6 @@ pošteđeno
 pošteđivati
 pošti
 poštiva
-poštivati
 poštića
 pošto
 poštom
@@ -168600,7 +168573,6 @@ predstojeću
 predstoji
 predstojim
 predstojiš
-predstojnik
 predstojnikom
 predstraža
 predstražama
@@ -177329,9 +177301,7 @@ prionuste
 prionuti
 prionuvši
 prionuće
-priopštenja
 priopštenje
-priopštenju
 priopšti
 priopštim
 prior
@@ -183319,7 +183289,6 @@ prosilaca
 prosili
 prosim
 prosimo
-prosinac
 prosine
 prosinečki
 prosinu
@@ -191310,7 +191279,6 @@ ravnanje
 ravnanju
 ravnao
 ravnate
-ravnatelj
 ravnatelja
 ravnateljstvo
 ravnati
@@ -194444,7 +194412,6 @@ računale
 računali
 računaljka
 računaljke
-računalo
 računalu
 računam
 računamo
@@ -199789,7 +199756,6 @@ ruiz
 ruiza
 ruj
 ruja
-rujan
 rujana
 rujanske
 rujanski
@@ -217413,7 +217379,6 @@ srođen
 srođeni
 srp
 srpa
-srpanj
 srpast
 srpaste
 srpastih
@@ -221962,7 +221927,6 @@ sufliranja
 suflirati
 sufražetkinja
 sufražetkinje
-sugerira
 sugerirano
 sugerisala
 sugerisale
@@ -222035,7 +221999,6 @@ suhomesnate
 suhonjav
 suhoparna
 suhoparnu
-suhozemni
 suhozidne
 suhozidu
 suhoća
@@ -222117,7 +222080,6 @@ sukcesori
 sukcesorom
 sukcija
 sukciju
-sukladno
 sukladnost
 suklja
 sukljaju
@@ -222892,7 +222854,6 @@ suradnika
 suradnički
 surađivali
 surađivanje
-surađivati
 surađuju
 surdulica
 surdulice
@@ -223181,7 +223142,6 @@ sustanarstvo
 sustane
 sustao
 sustati
-sustav
 sustavan
 sustavnost
 sustaćete
@@ -224593,13 +224553,11 @@ sveukupne
 sveukupni
 sveukupnih
 sveukupnim
-sveukupno
 sveukupnog
 sveukupnoj
 sveukupnom
 sveukupnost
 sveukupnu
-sveučilište
 svevideća
 svevideće
 svevidećeg
@@ -224819,8 +224777,6 @@ svežom
 svežu
 svi
 sviba
-svibanj
-svibnja
 svibovina
 svica
 svicem
@@ -225129,9 +225085,7 @@ svjedočiti
 svjetiljku
 svladaj
 svladaju
-svladao
 svladati
-svladava
 svlak
 svlače
 svlačenja
@@ -225816,10 +225770,6 @@ tajna
 tajnama
 tajne
 tajni
-tajnica
-tajnice
-tajnici
-tajnicu
 tajnih
 tajnija
 tajnije
@@ -225827,8 +225777,6 @@ tajnijeg
 tajnijem
 tajniji
 tajnijim
-tajnik
-tajnika
 tajnim
 tajnima
 tajniče
@@ -225956,7 +225904,6 @@ takozvanoj
 takozvanom
 takozvanu
 takođe
-također
 takoše
 taksa
 taksama
@@ -226123,7 +226070,6 @@ talenta
 talente
 talenti
 talentima
-talentiran
 talentirana
 talentom
 talentovan
@@ -229146,16 +229092,10 @@ tipičnom
 tipičnost
 tipičnosti
 tipičnu
-tipka
 tipkama
 tipkanja
 tipkanje
-tipkao
-tipkati
 tipkač
-tipke
-tipki
-tipku
 tipograf
 tipografa
 tipografe
@@ -229275,7 +229215,6 @@ tirolski
 tirolskim
 tis
 tisa
-tisak
 tise
 tisi
 tiska
@@ -229284,7 +229223,6 @@ tiskanja
 tiskanje
 tiskao
 tiskati
-tiskom
 tisne
 tisni
 tisnuti
@@ -229707,7 +229645,6 @@ tolerantniji
 tolerantno
 tolerantnost
 tolerantnu
-tolerirana
 tolerisala
 tolerisali
 tolerisalo
@@ -230366,7 +230303,6 @@ tovnu
 toća
 točak
 točaka
-točan
 toče
 točena
 točenja
@@ -230387,7 +230323,6 @@ točionica
 točir
 točiti
 točiš
-točka
 točke
 točki
 točkica
@@ -230405,7 +230340,6 @@ točkovima
 točku
 točna
 točnije
-točno
 točnoj
 toša
 toše
@@ -230955,7 +230889,6 @@ trapavu
 traper
 trapera
 traperi
-traperice
 trapez
 trapeza
 trapezast
@@ -231035,7 +230968,6 @@ traumom
 traumu
 trava
 travama
-travanj
 travar
 travara
 travare
@@ -231089,7 +231021,6 @@ travniku
 travnim
 travnička
 travnički
-travnja
 travnjaci
 travnjacima
 travnjak
@@ -239177,8 +239108,6 @@ umiriće
 umirićeš
 umiriš
 umiriše
-umirovljen
-umirovljenik
 umirovljenje
 umiru
 umiruj
@@ -242230,7 +242159,6 @@ urbar
 urda
 urdu
 urea
-ured
 uredaba
 uredan
 uredba
@@ -242301,7 +242229,6 @@ urednost
 urednosti
 urednošću
 urednu
-uredom
 uredovanje
 uredovati
 uredski
@@ -243994,9 +243921,7 @@ usporavati
 usporavaš
 uspore
 usporedba
-usporediti
 usporednica
-usporedno
 usporednost
 usporedo
 usporen
@@ -245262,7 +245187,6 @@ utjecaja
 utjecajem
 utjecaji
 utjecajima
-utjecali
 utjecati
 utjelovljuje
 utječe
@@ -246271,7 +246195,6 @@ uvjeravati
 uvjerit
 uvjeriti
 uvjerljiv
-uvjet
 uvjetom
 uvježbati
 uvježbavati
@@ -251357,7 +251280,6 @@ veroispovedni
 veroispovest
 veroispovesti
 veroispovešću
-verojatnije
 veroljub
 veroljuba
 veroloman
@@ -254047,8 +253969,6 @@ vlaju
 vlajćić
 vlajčić
 vlajčića
-vlak
-vlaka
 vlakana
 vlakanaca
 vlakanca
@@ -254065,8 +253985,6 @@ vlakno
 vlaknom
 vlaknu
 vlako
-vlakom
-vlakovima
 vlakovođa
 vlaović
 vlas
@@ -255873,9 +255791,6 @@ vrgnuto
 vrgoh
 vrh
 vrha
-vrhnja
-vrhnje
-vrhnjem
 vrhom
 vrhova
 vrhovac
@@ -258967,9 +258882,6 @@ zahlađenje
 zahlađenjem
 zahlađivati
 zahlađuje
-zahod
-zahoda
-zahode
 zahoditi
 zahović
 zahovićem
@@ -267278,7 +267190,6 @@ zborovima
 zboru
 zbrajajući
 zbrajanja
-zbrajanje
 zbrajanjem
 zbrajati
 zbrajaš
@@ -267928,7 +267839,6 @@ zemljotresno
 zemljotresom
 zemljotresu
 zemljouz
-zemljovid
 zemljovlasnik
 zemlju
 zemna
@@ -269405,8 +269315,6 @@ znanog
 znanoj
 znanom
 znanome
-znanost
-znanosti
 znanstven
 znanstvena
 znanstvene
@@ -271728,7 +271636,6 @@ zđelarević
 časne
 časni
 časnica
-časnici
 časnicima
 časnih
 časnija
@@ -271739,11 +271646,8 @@ zđelarević
 časnijim
 časnijom
 časniju
-časnik
 časnika
-časnike
 časnim
-časniče
 časnički
 časničkog
 časništva
@@ -278665,7 +278569,6 @@ zđelarević
 štovana
 štovao
 štovatelj
-štovatelje
 štovati
 štoviše
 štošta

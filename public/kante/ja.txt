@@ -1,4 +1,4 @@
-7051
+7047
 Albanija			3
 Australija			3
 Austrija			3
@@ -4592,7 +4592,6 @@ primorja	859		3
 primorkinja		M	3
 prinošenja	152		3
 priobalja	640		3
-priopštenja			3
 pripadanja	377		3
 pripaja	202		2
 pripajanja	373		3
@@ -5745,7 +5744,6 @@ svetovanja			3
 svečanija	18		4
 svežija			3
 svežnja	26		2
-svibnja	584		2
 svija	69		2
 sviloprelja		M	3
 svinja	4748		2
@@ -5920,7 +5918,6 @@ transpozicija	75		3
 tranzicija	2152		3
 traumatologija			3
 travestija	64		3
-travnja	578		2
 traćenja	29		3
 tračanja	18		3
 tračarenja	46		3
@@ -6496,7 +6493,6 @@ vrelija	53		3
 vrenja	394		2
 vređanja	1073		3
 vrganja	107		2
-vrhnja	25		2
 vrištanja	85		3
 vrludanja	16		3
 vrpoljenja			3

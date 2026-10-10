@@ -1,4 +1,4 @@
-3653
+3651
 abdicirao	165		3
 adaptirao	328		3
 adresirao	21		3
@@ -2848,7 +2848,6 @@ svikao	37		3
 svikavao			3
 svirao	3050		3
 sviđao	381		3
-svladao	37		3
 svraćao	196		3
 svrgao	57		3
 svrgavao			3
@@ -2879,7 +2878,6 @@ tezaurisao			3
 ticao	355		3
 tiktakao			3
 tinjao	67		3
-tipkao	13		3
 tipovao	85		3
 tiranisao			3
 tiskao	46		3

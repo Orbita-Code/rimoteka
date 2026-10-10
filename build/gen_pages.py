@@ -517,13 +517,13 @@ TOOL_HTML = """  <div class="landing-tool">
     <div id="rimeResults" class="results"></div>
   </div>
 """
-TOOL_SCRIPT = '<script defer src="/app.js?v=5e23cdf6"></script>\n'
+TOOL_SCRIPT = '<script defer src="/app.js?v=85f5244d"></script>\n'
 
 # Rečnik kreće zajedno sa HTML-om, ne tek kad app.js stigne i pokrene se (nalaz A5,
 # 07.09.2026). Adresa MORA biti slovo u slovo ista kao u `app.js` (`uzmiTekst('/reci.txt?v=…')`)
 # – inače pregledač skine rečnik DVA puta. Test to poredi. Ubacuje se samo na strane
 # koje rečnik stvarno skidaju (v. `trebaRecnik` u app.js).
-RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=813bab11" crossorigin>'
+RECI_PRELOAD = '<link rel="preload" as="fetch" href="/reci.txt?v=12138c78" crossorigin>'
 def sa_preloadom_recnika(html):
     treba = any(m in html for m in ('id="rimeInput"', 'id="searchInput"', 'id="noteEditor"', 'id="gameSetup"'))
     if not treba or RECI_PRELOAD in html:
@@ -726,11 +726,8 @@ def content_page(footer, slug, title, desc, h1, lead_html, sections, faqs, cta_h
         "@context": "https://schema.org", "@graph": [
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
-                {"@type": "ListItem", "position": 2, "name": h1, "item": canon}]},
-            {"@type": "FAQPage", "mainEntity": [
-                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
-                for q, a in faqs]}]
-    }, ensure_ascii=False, indent=1)
+                {"@type": "ListItem", "position": 2, "name": h1, "item": canon}]}]
+    }, ensure_ascii=False, indent=1)   # SEO-5 (odluka vlasnice 10.10.2026): bez FAQPage šeme – Google je od 2023. prikazuje samo državnim i zdravstvenim sajtovima; vidljiva pitanja ostaju
     head = HEAD_TMPL.format(title=esc(title), desc=esc(desc), ogdesc=esc(desc),
                             canonical=canon, base=BASE, schema=schema,
                             tabs_nav=tabs_nav(aktivan_tab))
@@ -1288,13 +1285,9 @@ def main():
                         {"@type": "ListItem", "position": 2, "name": "Rime za reč", "item": BASE + "/rime-za/"},
                         {"@type": "ListItem", "position": 3, "name": f"Rime za reč „{t}“", "item": canonical}
                     ]
-                },
-                {
-                    "@type": "FAQPage",
-                    "mainEntity": faq_main_entity
                 }
             ]
-        }, ensure_ascii=False, indent=1)
+        }, ensure_ascii=False, indent=1)   # SEO-5 (10.10.2026): bez FAQPage – pitanja ostaju vidljiva u <details>
 
         head = HEAD_TMPL.format(tabs_nav=tabs_nav('rime'), title=esc(title), desc=esc(desc), ogdesc=esc(ogdesc),
                                 canonical=canonical, base=BASE, schema=schema)
@@ -1409,19 +1402,8 @@ def main():
         "@graph": [
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Rimoteka", "item": BASE + "/"},
-                {"@type": "ListItem", "position": 2, "name": "Brojač slogova", "item": slog_canon}]},
-            {"@type": "FAQPage", "mainEntity": [
-                {"@type": "Question", "name": "Kako se broje slogovi u reči?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Reč ima onoliko slogova koliko ima samoglasnika (a, e, i, o, u). Izuzetak je slogotvorno „r“ koje je i samo nosilac sloga (npr. vrt = 1 slog, srce = 2 sloga)."}},
-                {"@type": "Question", "name": "Zašto je bitno brojati slogove u pesmi?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Kada stihovi imaju sličan broj slogova, pesma ima ujednačen ritam, lakše se peva i pamti. Zato tekstopisci, pesnici i reperi broje slogove dok pišu."}},
-                {"@type": "Question", "name": "Broji li alat i karaktere?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Da. Uz broj slogova, za svaki red pokazuje se i broj znakova, a u zbiru broj karaktera sa razmacima i bez razmaka, kao i broj reči."}},
-                {"@type": "Question", "name": "Kako se reč deli na slogove?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Reč ima onoliko slogova koliko ima samoglasnika, a granica sloga ide ispred suglasnika koji pripada sledećem slogu: ja-bu-ka, de-voj-či-ca. Kod slogotvornog „r“ slog nosi samo „r“: sr-ce, pr-vi."}},
-                {"@type": "Question", "name": "Koliko slogova ima jedna reč?",
-                 "acceptedAnswer": {"@type": "Answer", "text": "Prebroj samoglasnike u njoj – toliko ima slogova. Vrt i prst imaju jedan slog (slogotvorno „r“), srce i pesma dva, jabuka tri, devojčica četiri."}}]}]
-    }, ensure_ascii=False, indent=1)
+                {"@type": "ListItem", "position": 2, "name": "Brojač slogova", "item": slog_canon}]}]
+    }, ensure_ascii=False, indent=1)   # SEO-5 (10.10.2026): bez FAQPage
     slog_head = HEAD_TMPL.format(tabs_nav=tabs_nav('slogovi'), title=esc(slog_title), desc=esc(slog_desc), ogdesc=esc(slog_desc),
                                  canonical=slog_canon, base=BASE, schema=slog_schema)
     slog_examples = [('vrt', 1), ('prst', 1), ('srce', 2), ('ljubav', 2), ('pesma', 2),

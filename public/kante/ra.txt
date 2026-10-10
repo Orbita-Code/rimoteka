@@ -1,4 +1,4 @@
-2686
+2684
 Jupitera			4
 Kaira			3
 Venera			3
@@ -442,7 +442,6 @@ ekvatora	457		3
 elaborira	119		3
 elektora			3
 elektra	234		3
-elektrizira			3
 električara	281		4
 elektromotora	598		3
 eleonora			3
@@ -2206,7 +2205,6 @@ sudara	2945		3
 sudopera	216		4
 suflera			3
 suflira	25		3
-sugerira			3
 sukcesora			3
 sumatra			3
 sumira	433		3

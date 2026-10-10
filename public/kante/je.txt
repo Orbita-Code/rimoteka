@@ -1,4 +1,4 @@
-8828
+8822
 Albanije			3
 Australije			3
 Austrije			3
@@ -3509,7 +3509,6 @@ natapanje	53		3
 nateruje			3
 natezanje	237		3
 naticanje	14		4
-natjecanje	210		4
 natkrije			3
 natkriljuje	97		2
 natkrovlje		M	2
@@ -4476,7 +4475,6 @@ označuje	132		3
 oznoje	74		3
 ozračenje			2
 ozračivanje			2
-ozračje	60		2
 ozvaničenje	84		2
 ozvučavanje			2
 ozvučenje	851		2
@@ -7935,7 +7933,6 @@ veresije	23		3
 vergilije			3
 verifikuje	534		3
 vernije		M	3
-verojatnije		J	3
 verovanje	3090		4
 verovatnije	1277		3
 veruje	26846		3
@@ -8052,7 +8049,6 @@ vremešnije			4
 vrenje	344		2
 vređanje	1353		3
 vrganje	52		2
-vrhnje	63		2
 vrije	58		2
 vriskanje	12		3
 vristanje			2
@@ -8439,7 +8435,6 @@ zbivanje	228		3
 zbližavanje	521		2
 zbliženje	29		3
 zborovanje			4
-zbrajanje	38	J	2
 zbrinjavanje	2104		2
 zbunjenije			3
 zbunjivanje	78		2
@@ -8735,7 +8730,6 @@ zvučnije	56		3
 štipanje	55		3
 štipkanje	23		3
 štopovanje			4
-štovatelje		J	2
 štrajkuje	833		3
 štrcanje			3
 štrecanje			3

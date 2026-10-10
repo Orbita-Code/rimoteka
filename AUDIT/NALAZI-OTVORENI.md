@@ -79,6 +79,14 @@
 | **SEO-1 / SEO-4 / PF-3** (nginx, ZASEBAN deploy) | `?rec=` bez strane: sirovi kanonikal `/` a JS `/?rec=reč` → mapa daje `/?rec=<reč>` za bezopasan unos (slova, cifre, %-kodirana UTF-8 slova), inače `/`; nema `charset` → `charset utf-8`; kante/akcenat `expires epoch` uprkos `?v=` → 365 d | `nginx-provera.sh` 3b (5 slučajeva), 59 E (produkcija) |
 | **BZ-1 / BZ-2 / BZ-4** (worker, OBJAVLJENO 10.10. „da" vlasnice, verzija `f573cdf7`; uživo: bez ključa 200+polje, JSON bez ključa 403, ključ u adresi za JSON 403, 9 KB → 413, proba ok; test 46 protiv produkcije 36/36) | `?kljuc=` radio i za JSON; telo prijave bez plafona; ključ u mejlu → ključ u upitu samo za HTML, JSON i `/obrisi` samo zaglavljem; 8 KB plafon (413); mejl bez ključa, strana bez ključa nudi polje | 46 + ručno `curl` posle objave |
 
+**ODLUKE VLASNICE 10.10.2026 (izvršeno istog dana):** SEO-5 – „da, ukloni": FAQPage šema uklonjena iz JSON-LD na stranama reči, tematskim i
+brojaču (vidljiva pitanja ostaju) · BZ-3 – „da, u Kantu": `backend/` (Pro/Stripe kod koji sajt ne koristi) premešten u Kantu Finderom i
+uklonjen iz repoa (ostaje u git istoriji do commita `afbcb1f882`) · KL-2 – „ne, ostavi": igra i dalje sudi po starom pravilu (isti
+završetak / završni slog) – namerno blaža od alata · SJ-3 – „izbriši sve hrvatske reči": `scripts/sj3-hrvatske.py` (objašnjenje koje
+reč zove hrvatskom + spisak hrvatskih leksema; ijekavski oblik sa ekavskim parnjakom OSTAJE; imena i pojmovi o hrvatskom ostaju) –
+spisak `AUDIT/SJ-3-hrvatske-reci-2026-10-10.md`, obrisano 109 reči (tjedan, vlak, kruh, juha, sustav, sveučilište, uvjet, opće, točno,
+točka, također, kazalište, računalo, tipka, mesecI…), nijedna nije imala stranu.
+
 **Ostaje iz audita 07.10. (odluke vlasnice ili van dometa koda):** KL-2 (igra sudi po staroj rimi bez akcenta – pravilo 9g starije od 05.10., odluka), AK-6 (prenos akcenta na priloge/množinu 7,5 % – traži podatke kojih nema), AK-7 (Vukov akcenat vs. savremeni – odluka), PF-1 (frekvencija 957 → 325 KB – zaseban zahvat, dira 6 potrošača), PF-2 (brotli – `nginx:alpine` nema modul, traži drugu sliku), SEO-5 (FAQPage šema koju Google ne prikazuje – uklanjanje je odluka), BZ-3 (`backend/` mrtav kod – brisanje foldera traži njenu reč), MB-2 (položen telefon posle Entera – nije reprodukovano u ovom krugu), TP-5/TP-7–10 (rupe testa bez recepta u izveštaju), SJ-2/SJ-3 (601 definicija slična Matici; hrvatske reči – odluke).
 
 ## STANJE NA DAN 07.10.2026 — pun audit (`AUDIT/2026-10-07-audit.md`, ocena 7,8/10, 13/13 dimenzija, 28/28 adversarijalnih)
@@ -91,7 +99,7 @@
 
 **SREDNJE (2 ostaju, 15 popravljeno 08.10. – v. tabelu iznad):** PF-1 (frekvencija 957 → 325 KB – zaseban zahvat) · PF-2 (brotli – traži drugu nginx sliku, odluka)
 
-**NISKO (ostaje 11, popravljeno 08.10.: G-2, G-3, G-4, UI-2, UI-3, UI-4, C-1, C-2, SEO-3, SEO-4, PR-2, PR-5, PF-3, MB-3, MB-4, BZ-1, BZ-2, BZ-4, SJ-4, SJ-5, SJ-6, TP-4):** KL-2 (odluka) · SEO-5 (odluka) · PR-6 (dva polja bez oznake – v. napomenu) · PF-4 (1,0 → 1,98 MB posle prve pretrage) · MB-2 · BZ-3 (brisanje foldera – njena reč) · TP-5, TP-7–10 · AK-6 · AK-7 (odluka).
+**NISKO (ostaje 7; popravljeno 08.10.: G-2, G-3, G-4, UI-2, UI-3, UI-4, C-1, C-2, SEO-3, SEO-4, PR-2, PR-5, PF-3, MB-3, MB-4, BZ-1, BZ-2, BZ-4, SJ-4, SJ-5, SJ-6, TP-4; odlučeno 10.10.: SEO-5 uklonjeno, BZ-3 u Kanti, KL-2 ostaje namerno):** PR-6 (dva polja bez oznake – v. napomenu) · PF-4 (1,0 → 1,98 MB posle prve pretrage) · MB-2 · TP-5, TP-7–10 · AK-6 · AK-7 (odluka).
 
 **SPORNO / ODLUKA VLASNICE:** SJ-3 hrvatske reči u rečniku (također, točno, vlak, kruh… na 42 strane) · SJ-2 601 definicija > 80 % slična Matici · AK-7 Vukov akcenat vs. savremeni · grupa C ostatak · „ćelave" i kratke reči (odluka od 22.09.).
 

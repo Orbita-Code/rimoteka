@@ -73,6 +73,19 @@ u `build/akcenti-rucno.json` (ide pre svih pravila).
 `assert`); provera 12b bila lažno zelena (brojala umesto gledala sadržaj); zakrpa pala na `assert` a lanac podataka krenuo sa
 starim kodom (nije bilo `&&`).
 
+## 2c. STANJE 10.10.2026 – ODLUKE VLASNICE IZVRŠENE (commit na grani, ČEKA „da" za push)
+
+| Odluka | Izvršeno | Provera |
+|---|---|---|
+| sanduče – „da" | `wrangler deploy` 10.10., verzija `f573cdf7` (ključ u zaglavlju za JSON, 8 KB plafon, mejl bez ključa + polje za ključ) | curl ×6 uživo, test 46 protiv produkcije 36/36 |
+| SEO-5 – „da, ukloni" | FAQPage uklonjen iz JSON-LD (strane reči, tematske, brojač); vidljiva pitanja ostaju | 50 (JSON-LD validan), 60 E |
+| BZ-3 – „da, u Kantu" | `backend/` (Rimoteka Pro/Stripe kod, nije korišćen) u Kanti Finderom + `git rm`; ostaje u istoriji do `afbcb1f882` | – |
+| KL-2 – „ne, ostavi" | igra ostaje po starom pravilu (namerno blaža) | – |
+| SJ-3 – „izbriši sve hrvatske reči" | `scripts/sj3-hrvatske.py --apply`: 109 reči (97 iz reci.txt, 12 iz ijekavice), spisak `AUDIT/SJ-3-hrvatske-reci-2026-10-10.md` (otvoren joj); ijekavski oblici sa ekavskim parnjakom, imena i pojmovi o hrvatskom OSTAJU; nijedna obrisana nije imala stranu | lanac podataka + 3 radnika 955/955, motori 69/69 (sami; u lancu Firefox pao na isteku pri opterećenju 29), skeneri 0/0 |
+
+Novo pravilo vlasnice (10.10.): **fajl koji treba da pogleda se odmah otvara** (`open putanja`) – u globalnom CLAUDE.md (tačka 8) i memoriji.
+Rečnik posle brisanja: 281.629 reči, 5.346 ijekavica, 289.478 objašnjenja.
+
 ## 3. ŠTA JE OSTALO – redom (tačke 1–4 REŠENE 07.10. popodne, v. 2a; ostaje 5–7)
 
 | # | Nalaz | Gde tačno | Popravka (gotov recept) |

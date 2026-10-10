@@ -1,4 +1,4 @@
-4717
+4713
 Aranđelovdan			3
 Avganistan			2
 Ilindan			3
@@ -495,7 +495,6 @@ devijantan	22		2
 dezorijentiran			2
 dezorijentisan	85		3
 dezorjentisan			3
-dešifriran			2
 dešifrovan	26		4
 dežuran	120		2
 didaktičan			3
@@ -3648,7 +3647,6 @@ rođendan	8469		3
 rudimentaran			5
 rugoban		M	3
 ruiniran	144		2
-rujan	151		2
 rukobran			3
 ruralan			2
 ruslan			2
@@ -4043,7 +4041,6 @@ tajpan			2
 tajvan			2
 taksiran			3
 taktičan	67		3
-talentiran	19		2
 talentovan	1029		4
 taliban	68		2
 talisman	141		2
@@ -4105,7 +4102,6 @@ toplotan			3
 torpedovan			4
 totalan	124		3
 totalitaran			5
-točan	164		2
 tradicionalan	1293		6
 tragikomičan			3
 tragičan	960		3
@@ -4761,7 +4757,6 @@ stjepan			2
 svijestan			3
 svjestan			2
 tijesan	32		2
-tjedan	543		2
 trijezan	22		2
 umiješan	71		4
 umjestan			3

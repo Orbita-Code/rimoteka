@@ -1,4 +1,4 @@
-12928
+12924
 Albanijom			3
 Amsterdamom			4
 Angolom			2
@@ -3582,7 +3582,6 @@ jugom	298		2
 jugoslovenskom	1855		2
 jugovom			3
 jugozapadnom	474		3
-juhom			2
 julijanom			3
 julijom			3
 julom	149		2
@@ -10712,7 +10711,6 @@ tiranskom	21		3
 tiražom	177		3
 tirkiznom	40		2
 tiroidnom	36		3
-tiskom			2
 tisom	76		2
 titanom	17		2
 titanskom	15		3
@@ -11225,7 +11223,6 @@ urednicom	71		4
 urednikom	410		4
 uredničkom	84		4
 urednom	247		3
-uredom	47		3
 urezanom			4
 urečenom			4
 uređenom	720		3
@@ -11720,7 +11717,6 @@ vladom	5461		2
 vlagom	375		2
 vlajom			2
 vlaknom	151		2
-vlakom	77		2
 vlasnicom	103		3
 vlasnikom	1663		3
 vlasnićkom			3

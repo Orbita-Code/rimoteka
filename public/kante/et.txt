@@ -1,4 +1,4 @@
-396
+395
 Fikret			2
 Magbet			2
 Mljet			1
@@ -355,7 +355,6 @@ uspet			2
 uspjet		J	2
 ususret	80		3
 uvidjet		J	3
-uvjet		J	2
 uzet	1821		2
 uzlet	394		2
 uznet			2

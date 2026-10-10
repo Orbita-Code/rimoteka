@@ -1,4 +1,4 @@
-7522
+7520
 Argentini			2
 Atini			2
 Berlini			2
@@ -1830,7 +1830,6 @@ katuni	52		3
 kauzalni	29		4
 kavani	75		2
 kaverni	12		3
-kazališni	35		4
 kazani	107		3
 kazneni	966		3
 kazni	7153		2
@@ -6025,7 +6024,6 @@ sudni		M	2
 sugerisani	17		3
 sugestivni	68		4
 sugrađani	3389		4
-suhozemni		J	4
 suicidalni	17		5
 sujetni	389		3
 sujeverni	149		4
@@ -7654,7 +7652,6 @@ svijesni			3
 svjesni			2
 svjetlosni			3
 tijesni	16		3
-tjedni	102		2
 tjelesni			3
 trijezni	20		3
 ubijeđeni	76		3

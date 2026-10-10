@@ -358,6 +358,15 @@ negativno ide pred sve pozitivno**. Posledica, izmereno:
    `node scripts/osvezi-verzije-podataka.mjs`, pa `python3 build/gen_pages.py`, pa pun test — sekcija 54
    je ta koja kaže da li nove reči rade kao stare.
 
+### 6.2d Hrvatske reči – brišu se (naredba vlasnice 10.10.2026, „rekla sam milion puta")
+
+Alat: `python3 scripts/sj3-hrvatske.py` (spisak) / `--apply` (briše iz `reci.txt`, `reci_jekavica.txt`, `definicije.json`, `matica.json`).
+Kandidat je reč koju NAŠE objašnjenje zove hrvatskom („hrvatska reč", „(srpski: …)", „ijekavski/hrvatski"…) ili hrvatska leksema sa
+spiska u skripti (tjedan, vlak, kruh, juha, sustav…), plus oblici tih reči. **Ijekavica NIJE hrvatski:** reč sa oznakom
+„ijekavski/hrvatski" čiji ekavski parnjak postoji u rečniku (dosljednog → doslednog) ostaje. Imena (Krešimir), pojmovi o hrvatskom
+(kroatizam, ilirizam, „koji se tiče Hrvata") i reči sa srpskim značenjem (listopad, stroj) ostaju. Posle `--apply` ide ceo lanac
+podataka (podeli_definicije → akcenat → kante → verzije → gen_pages) i pun test; obrisana reč sa stranom ide u `nginx-stare-strane.map`.
+
 ### 6.3 Kvalitet rima
 - Rime moraju biti validne srpske reči.
 - Ako rečnik sadrži sumnjiv/grešan oblik — prijaviti korisnici, ne preuzimati automatske odluke.

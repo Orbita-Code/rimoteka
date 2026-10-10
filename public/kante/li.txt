@@ -1,4 +1,4 @@
-5566
+5565
 Angoli			2
 Briseli			3
 Istanbuli			4
@@ -4761,7 +4761,6 @@ utirali	21		3
 utisnuli	55		3
 utišali	71		3
 utišavali			3
-utjecali		J	4
 utoli	162		2
 utolili	36		3
 utonuli	127		3

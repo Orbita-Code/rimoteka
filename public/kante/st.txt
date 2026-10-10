@@ -1,4 +1,4 @@
-3014
+3013
 abnormalnost	66		2
 adekvatnost			2
 aerodinamičnost			2
@@ -2883,7 +2883,6 @@ zločest	27		2
 zluradost	159		3
 znakovnost			3
 znamenitost	224		3
-znanost	366		2
 znanstvenost			3
 znatiželjnost			2
 znatnost			2
@@ -3036,7 +3035,6 @@ riješenost	17		3
 samouvjerenost			4
 savijest			3
 savjest			2
-sjest			1
 smjelost			2
 smjernost			2
 svijest	1248		1

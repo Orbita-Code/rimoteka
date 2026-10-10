@@ -1,4 +1,4 @@
-2430
+2428
 Detinjci			3
 Firenci			3
 Leskovci			3
@@ -1933,7 +1933,6 @@ svodnici	12		3
 svuci	27		2
 tablici	269		3
 tabornici			3
-tajnici	13		3
 takmaci	124		3
 taktici	551		3
 talijanci			3
@@ -2309,7 +2308,6 @@ zvučnici	1807		3
 čardaci			3
 čarobnici	26		4
 čarobnjaci	337		2
-časnici	55		3
 časovnici	223		3
 čačkalici			4
 čašici	81		3
@@ -2446,7 +2444,6 @@ ijekavci	16		3
 ijekavici	48		4
 isjeci			3
 isječci			3
-izbjeci			3
 kolijevci	60		3
 letjelici			4
 lijeci			3
@@ -2464,7 +2461,6 @@ odsijeci			4
 odsjeci			3
 pijevci	10		3
 pjesnici			3
-pobjeci			3
 pobjednici			3
 posjednici			3
 posjetioci			4

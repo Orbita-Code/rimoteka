@@ -1,4 +1,4 @@
-706
+705
 Budimpešto			4
 Cveto			2
 Toronto			3
@@ -311,7 +311,6 @@ okrenuto	474		3
 omrznuto			3
 opovrgnuto	37		4
 opsednuto	44		4
-općenito	20		3
 opštepoznato	252		3
 orbito			3
 osamnaesto	31		3
@@ -715,7 +714,6 @@ ljeto			2
 mijesto			3
 mjesto			2
 mješovito			3
-namjesto			3
 opsjednuto			4
 prijesto			2
 rječito			4

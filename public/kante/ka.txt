@@ -1,4 +1,4 @@
-5504
+5500
 Bugarska	1035		3
 Danska	436		2
 Finska	933		2
@@ -4405,7 +4405,6 @@ svršetka	273		3
 tabaka	254		3
 tajlandska	151		3
 tajlanđanka			2
-tajnika	125		3
 tajvanska	136		3
 takmičarka	629		4
 takmičarska	658		4
@@ -4496,7 +4495,6 @@ timska	244		2
 tinejdžerka	606		2
 tinejdžerska	148		3
 tipika	155		3
-tipka	127		2
 tipografska	26		3
 tipološka	49		3
 tipska	110		2
@@ -4533,7 +4531,6 @@ torpiljarka			3
 tovarnika			3
 tovljenika	506		3
 točaka	154		3
-točka	3672		2
 trafika	330		3
 tragalačka			3
 tragika	152		3
@@ -4893,7 +4890,6 @@ vladarka	127		2
 vladarska	103		2
 vladika	15298		3
 vladičanska	16		3
-vlaka			2
 vlasnika	21755		3
 vlasnička	740		3
 vlastelinka		M	2

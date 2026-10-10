@@ -1,4 +1,4 @@
-5061
+5060
 Argentinu			2
 Atinu			2
 Berlinu			2
@@ -621,7 +621,6 @@ dvodnevnu	477		3
 dvofaznu			3
 dvojezičnu	75		3
 dvojnu	142		2
-dvokatnu		J	3
 dvokrevetnu	95		3
 dvoličnu	40		3
 dvomesečnu	90		3
@@ -5126,7 +5125,6 @@ stijenu	121		3
 stjepanu			3
 susjednu			3
 svježinu			2
-tjednu	137		2
 tjelesnu			3
 tjemenu	22		3
 tjesteninu			2

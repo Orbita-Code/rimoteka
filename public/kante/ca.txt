@@ -1,4 +1,4 @@
-3341
+3338
 Firenca			2
 Leskovaca			3
 Leskovca			3
@@ -360,7 +360,6 @@ dolinica			3
 domaćica	3139		3
 domoroca	13		2
 domorodaca	252		3
-domovnica			3
 donosilaca			3
 donosioca			3
 dopisnica	504		4
@@ -636,7 +635,6 @@ hica	398		2
 hispanaca			3
 hitaca	525		3
 hladilica		M	4
-hlačica		J	3
 hlebarnica		M	3
 hobotnica	302		4
 hodalica			4
@@ -2641,7 +2639,6 @@ svračica			3
 tabletica	68		4
 tablica	1926		3
 tadašnjica			4
-tajnica	69		3
 takmaca	326		3
 talaca	486		3
 tamburica	307		3

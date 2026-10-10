@@ -1,4 +1,4 @@
-1211
+1210
 Carevac			3
 Južnoafrikanac			2
 Katarac			2
@@ -789,7 +789,6 @@ prokupac	262		3
 proneverilac			3
 prosac	39		2
 prosilac	11		3
-prosinac	62		3
 proučavalac		M	3
 provincijalac	95		3
 proštac		M	2

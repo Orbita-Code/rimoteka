@@ -1,4 +1,4 @@
-60
+56
 badanj	28		2
 bubanj	1556		2
 bucanj			2
@@ -13,7 +13,6 @@ krnj			1
 krupanj			2
 leganj		M	2
 lenj	833		1
-lipanj	72		2
 lokvanj	91		2
 manj			1
 mogranj			2
@@ -35,15 +34,12 @@ rtanj		M	2
 senj			1
 sečanj			2
 sinj			1
-srpanj	57		2
 stupanj	837		2
 sušanj			2
 sužanj	153		2
 svežanj	212		2
-svibanj	91		2
 tiganj	851		2
 toranj	2416		2
-travanj	95		2
 tutanj	142		2
 ulcinj			2
 viganj			2

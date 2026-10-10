@@ -1,4 +1,4 @@
-3734
+3732
 Bugarske	2419		3
 Danske	572		2
 Francuske	7428		2
@@ -3110,7 +3110,6 @@ timske	165		2
 tinejdžerke	485		3
 tinejdžerske	250		3
 tipike	17		3
-tipke	284		2
 tipografske	23		3
 tipološke	45		3
 tipske	251		2
@@ -3544,7 +3543,6 @@ zvučnike	1903		3
 čarobnjake	93		2
 čarobnjačke	11		3
 čaršijske			3
-časnike	19		3
 časovnike	148		3
 čavke	84		2
 čačanske	748		3

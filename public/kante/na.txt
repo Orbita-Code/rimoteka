@@ -1,4 +1,4 @@
-8282
+8280
 Argentina			2
 Atina			2
 Barselona			2
@@ -2028,7 +2028,6 @@ jetrena	37		2
 jevrejina			4
 jevtina			3
 jezičina	12		3
-jezična	48	J	3
 ječmena	26		3
 jirgena			3
 jna			1
@@ -6865,7 +6864,6 @@ tobogana	413		2
 toksina	1500		2
 toksična	253		3
 tolerantna	387		2
-tolerirana		J	3
 tolerisana	79		3
 tona	30379		2
 toplana	2728		2
@@ -8415,7 +8413,6 @@ svjesna			2
 svjetina			3
 svjetlosna			3
 tijesna	71		3
-tjedna	1077		2
 tjelesna			3
 tjemena	21		3
 tjestenina			2

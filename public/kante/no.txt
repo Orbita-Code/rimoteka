@@ -1,4 +1,4 @@
-5464
+5460
 Argentino			2
 Kino	602		2
 Ljubljano			2
@@ -4403,7 +4403,6 @@ suicidalno	22		5
 sujetno	78		3
 sujeverno	38		4
 sukcesivno	851		4
-sukladno	312		3
 sukneno			3
 sukno	88		2
 sultano			3
@@ -4448,7 +4447,6 @@ svetlosno	228		3
 svetogrdno	10		4
 svetorodno			4
 svetovno	284		3
-sveukupno	1185		3
 svevremeno			4
 svezano	37		3
 svećano			3
@@ -4529,7 +4527,6 @@ torno		M	2
 totalno	10993		3
 tovno	11		2
 točeno	74		3
-točno	1105		2
 tradicionalno	14137		6
 tragikomično			3
 tragično	3190		3
@@ -4827,7 +4824,6 @@ uspešno	44459		3
 usplahireno	70		4
 uspokojeno			4
 uspomeno			4
-usporedno	27		4
 usporeno	817		4
 uspostavljeno	489		4
 uspravljeno			4
@@ -5577,7 +5573,6 @@ utješno			3
 uvjereno			4
 uvrijeđeno			4
 uvriježeno	11		3
-vjecno			2
 vjenčano			3
 vjerno		M	2
 vjerodostojno			2

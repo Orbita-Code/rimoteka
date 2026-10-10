@@ -1,4 +1,4 @@
-12575
+12570
 Budimpešti			4
 Bukurešti			4
 Cveti			2
@@ -6733,7 +6733,6 @@ poštedeti	269		3
 poštediti	10		3
 pošteđivati			3
 pošti	1682		2
-poštivati	137		3
 poštovati	6485		3
 pošumiti	23		4
 pošumljavati	12		3
@@ -9617,7 +9616,6 @@ suprotstaviti	1325		4
 suprotstavljati	200		4
 supstrati	73		2
 suptilnosti	132		3
-surađivati	130		3
 surevnjivosti	137		3
 surfati	20		3
 surfovati	110		3
@@ -9811,7 +9809,6 @@ timariti	11		3
 tinjati	21		3
 tipizirati			3
 tipičnosti	25		4
-tipkati	18		3
 tipovati	14		3
 tiranisati		M	4
 tiskati	27		3
@@ -10611,7 +10608,6 @@ usplamteti		M	3
 usplamti			3
 uspokojiti		M	3
 usporavati	103		3
-usporediti		M	3
 usporiti	1277		3
 uspostaviti	3621		4
 uspostavljati	188		4
@@ -12143,7 +12139,6 @@ zluradosti	153		4
 znakoviti			3
 znameniti	826		3
 znamenitosti	2408		4
-znanosti	961		3
 znati	23180		2
 znatnosti			2
 značiti	5294		3
@@ -12812,7 +12807,6 @@ smjesti			2
 smjestiti			3
 smjeti			2
 smrdjeti			3
-sprijeciti			3
 spriječiti			3
 sprječavati			4
 stidjeti			3

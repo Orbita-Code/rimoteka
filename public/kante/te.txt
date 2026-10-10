@@ -1,4 +1,4 @@
-6766
+6764
 Budimpešte			4
 Bukurešte			4
 Cvete			2
@@ -1395,7 +1395,6 @@ katapulte	11		3
 katarakte	657		3
 kate	363		2
 katete	23		2
-kazalište	393		4
 kazamate	59		3
 kazaste			3
 kazaćete	12		4
@@ -5287,7 +5286,6 @@ svetite	59		3
 svetište	117		3
 svetlite	10		3
 svetložute			3
-sveučilište			4
 svežete	10		3
 svežite	26		3
 svidite	29		3

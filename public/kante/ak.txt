@@ -1,4 +1,4 @@
-998
+995
 Irak			2
 Kozjak			2
 aerosnimak			3
@@ -542,7 +542,6 @@ poredak	7772		3
 posinak	46		3
 poslovnjak			2
 postanak	378		3
-postotak	912		3
 postupak	42827		3
 posvojak		M	3
 potanak		M	3
@@ -761,7 +760,6 @@ tetak	91		2
 tetrapak	146		3
 tešak			2
 težak	18148		2
-tisak	138		2
 topoljak		M	3
 torbak		M	2
 torlak			2
@@ -849,7 +847,6 @@ visuljak		M	2
 vitak	250		2
 vivak			2
 višak	10989		2
-vlak	206		1
 vodenjak	146		2
 vosak	1303		2
 voćnjak	784		2

@@ -807,7 +807,6 @@ istjeruje
 istjeruju
 istovjetnost
 istrpjeti
-izbjeci
 izbjegao
 izbjegava
 izbjegavaj
@@ -1514,7 +1513,6 @@ namjestimo
 namjestio
 namjestite
 namjestiš
-namjesto
 namješta
 namještaj
 namještaja
@@ -2350,7 +2348,6 @@ pobijeđena
 pobijeđene
 pobijeđeno
 pobijeđenu
-pobjeci
 pobjeda
 pobjedama
 pobjede
@@ -3280,7 +3277,6 @@ propovjednik
 propovjednika
 propovjedniče
 prosjede
-prosjek
 prosjeka
 prosjekom
 prosjeku
@@ -3755,7 +3751,6 @@ sjenki
 sjenku
 sjenu
 sjeo
-sjest
 sjete
 sjeti
 sjetila
@@ -4016,7 +4011,6 @@ snijeva
 snijevam
 snijevao
 sporazumjeli
-sprijeciti
 sprijeda
 spriječava
 spriječe
@@ -4272,7 +4266,6 @@ svježom
 svježu
 svrbjeli
 svugdje
-takodjer
 tijek
 tijeku
 tijela
@@ -4295,10 +4288,6 @@ tijesta
 tijesto
 tijestu
 tje
-tjedan
-tjedna
-tjedni
-tjednu
 tjela
 tjelesine
 tjelesna
@@ -4778,7 +4767,6 @@ vijeću
 viješ
 viješću
 visinomjer
-vjecno
 vjedogonja
 vjek
 vjeka

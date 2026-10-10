@@ -89,6 +89,22 @@ točka, također, kazalište, računalo, tipka, mesecI…), nijedna nije imala s
 
 **Ostaje iz audita 07.10. (odluke vlasnice ili van dometa koda):** KL-2 (igra sudi po staroj rimi bez akcenta – pravilo 9g starije od 05.10., odluka), AK-6 (prenos akcenta na priloge/množinu 7,5 % – traži podatke kojih nema), AK-7 (Vukov akcenat vs. savremeni – odluka), PF-1 (frekvencija 957 → 325 KB – zaseban zahvat, dira 6 potrošača), PF-2 (brotli – `nginx:alpine` nema modul, traži drugu sliku), SEO-5 (FAQPage šema koju Google ne prikazuje – uklanjanje je odluka), BZ-3 (`backend/` mrtav kod – brisanje foldera traži njenu reč), MB-2 (položen telefon posle Entera – nije reprodukovano u ovom krugu), TP-5/TP-7–10 (rupe testa bez recepta u izveštaju), SJ-2/SJ-3 (601 definicija slična Matici; hrvatske reči – odluke).
 
+## STANJE NA DAN 10.10.2026 — pun audit (`AUDIT/2026-10-10-audit.md`, ocena 7,8/10, 13/13 dimenzija, 16/16 adversarijalnih)
+
+> Jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u „POPRAVLJENO <datum>".
+
+**KRITIČNO:** (nema)
+
+**VISOKO (5 otvoreno; SJ-7 i SJ-8 rešeni 10.10.):** MOB-A (prva rima van prvog ekrana na strani reči, 908 px pri kadru 844) · INT-1 (Ctrl+Z u beležnici ne radi čim se oboji rima) · V-1 („sačuvaj rime u Omiljene" upisuje u `rimoteka_lists` koji niko ne čita) · KL-3 (grupe „Isti završni slog" i „Šire rime" ignorišu kvačicu ijekavica – 20/70 za „cvet") · TP-12 (sek. 55 dečji×telefon prolazi vakuumom 26/26) · AK-8 (iznenada → promenada uprkos dokumentaciji; prediktor -nada)
+
+**SREDNJE (19):** UI-5 (pesma u beležnici menja naslov/h1/kanonikal početne) · KL-6 (igra priznaje vulgarnu reč u dečjem režimu) · KL-4 (common_suffix bez lower – ljudi/Judi) · SJ-8t („ukupno 180" na 1.217 strana) · SJ-9 (11.677 objašnjenja samo „Oblik … X") · AK-9 (strane imenice -al/-ed/-ol/-on ≈530) · RB-1 (pad rečnika: pretraga/igra/kockica bez poruke) · BZ-5 (tuđa adresa u mejlu sanduča) · PR-7 (aria-pressed laže) · PR-8 (gameStart/toast tamna 2,98:1) · PR-6 (gamePlayersCustom bez oznake) · INT-2 (Enter na predlog) · INT-3 (predlozi bez ljubav) · INT-4 (filter pretrage van adrese) · MOB-B (pretraga: tastatura ostaje, rezultati 961 px) · MOB-C (rima gubi veliko slovo) · MOB-D (igra 320 poruka ispod tastature) · PF-7 (doRhymes 581 ms na telefonu) · PF-8 (CSS 79 % nepotreban) · TP-13..TP-18 (seme, čuvar, CLS medijana, trojka stanja, povratnik, položeno)
+
+**NISKO (31):** SEO-6..SEO-9, FAQPage početna, SJ-10..SJ-15, KL-5, BZ-6..BZ-8, RB-2, RB-3, INT-5, INT-6, N-1..N-3, PR-9..PR-11, KS-1, AK-10..AK-12, MOB-E..MOB-I, PF-9..PF-13, TP-19..TP-22 – opisi u izveštaju.
+
+**Ostaje od ranije:** PF-1 (frekvencija 957 KB), PF-2 (brotli), PF-4, MB-2 (nije reprodukovan ni 10.10.), AK-6/AK-7 (odluke), SJ-2 (odluka).
+
+> Stanje od 07.10. (ispod) zadržano je samo za istoriju.
+
 ## STANJE NA DAN 07.10.2026 — pun audit (`AUDIT/2026-10-07-audit.md`, ocena 7,8/10, 13/13 dimenzija, 28/28 adversarijalnih)
 
 > Jedini izvor istine za otvoreno. Kad se nalaz popravi: briše se odavde, dopisuje u „POPRAVLJENO <datum>".

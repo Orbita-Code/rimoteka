@@ -172,7 +172,7 @@ const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
    upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
    `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
 const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,gn,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jc,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
-const KANTE_V = '97142720';
+const KANTE_V = 'a41510bf';
 function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
 const kanteKes = new Map();
 let kantaUToku = 0;
@@ -191,7 +191,7 @@ async function rimeIzKante(q){
     }catch(e){ return; }
   }
   if(moj !== kantaUToku || WORDS.length > 0) return;   // stigla druga reč ili ceo rečnik
-  const q2 = toLatin((rimeInput.value || '').trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
+  const q2 = upitIzUnosa(rimeInput.value).q;
   if(q2 !== q) return;
   const granicaLinija = parseInt(redovi[0], 10) || 0;   // prvi red kante: koliko je ekavskih redova (pre ijekavskih)
   let jekStartK = 0;
@@ -214,6 +214,13 @@ async function rimeIzKante(q){
   finally{ [WORDS, MALE, KEYS, RANK, SET, jekStart, AKC, AKCMAP, AKCN] = stari; }
   cekaRec = q;   // ceo rečnik će ponoviti pretragu (potpun redosled, jekavski filter)
   el('rimeBtn').classList.add('ucitava'); el('rimeBtn').disabled = true;
+}
+/* UPIT IZ UNOSA (prijava vlasnice 10.10.2026, sa telefona: „haj hajde haj" → naslov „Rime za reč „hajhajdehaj““).
+   Čišćenje je brisalo SVE što nije slovo, pa i razmake, i lepilo više reči u jednu besmislicu. Rima se traži za POSLEDNJU
+   reč (ona nosi rimu u stihu): „haj hajde haj" → „haj", „crno-beli" → „beli". Sva mesta koja čitaju polje za reč idu ovuda. */
+function upitIzUnosa(txt){
+  const delovi = toLatin(String(txt || '').trim().toLowerCase()).split(/[^a-zčćžšđ]+/).filter(Boolean);
+  return { q: (delovi[delovi.length - 1] || '').slice(0, 60), vise: delovi.length > 1 };
 }
 let KEYS = [];           // jak ključ rime za svaku reč
 /* AKCENAT (05.10.2026, odluka vlasnice „da, ugradi akcente"): za svaku reč `AKC[i]` je ključ PRAVE rime – deo reči od
@@ -426,7 +433,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=6c97d502';
+const DEFINICIJE_ADRESA = '/definicije.json?v=34943f6e';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -493,9 +500,9 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek, ak, akj] = await Promise.all([
-    uzmiTekst('/reci.txt?v=d644c956', true),
+    uzmiTekst('/reci.txt?v=4efb58b4', true),
     uzmiTekst('/reci_jekavica.txt?v=01809e44', false),
-    uzmiTekst('/akcenat.txt?v=abf574c7', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
+    uzmiTekst('/akcenat.txt?v=ad27bd7a', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
     uzmiTekst('/akcenat_jekavica.txt?v=36f63789', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -1432,7 +1439,7 @@ function doRhymes(silent){
   const raw = rimeInput.value.trim().toLowerCase();
   /* Najviše 60 slova (nalaz N-05, 07.09.2026): upit od 200 znakova je ceo odlazio u
      `<title>` (261 znak), `h1`, kanonikal i `?rec=`. Srpska reč duža od 60 slova ne postoji. */
-  const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
+  const { q, vise: viseReci } = upitIzUnosa(raw);
   const box = el('rimeResults');
   box.innerHTML='';
   /* Poruke o stanju pišemo SAMO kad je korisnik sam tražio rime. U tihom
@@ -1647,9 +1654,10 @@ function doRhymes(silent){
      svih 195 reči) – najavljuje se samo broj, u zasebnom nevidljivom polju. */
   if(!silent){
     const ukupno = best.length + good.length + finalExtra.length;
-    el('rimeStatus').textContent = ukupno
+    el('rimeStatus').textContent = (ukupno
       ? `${ukupno} ${uiTxt(rimaRec(ukupno))} ${uiTxt('za')} „${disp(((rimeInput.value || '').trim().toLowerCase() === q ? (rimeInput.value || '').trim() : q))}“`   // L-5: „Beograd", ne „beograd"
-      : uiTxt('Nema rime za tu reč.');
+      : uiTxt('Nema rime za tu reč.'))
+      + (viseReci ? ' – ' + uiTxt('uneto je više reči, pa je uzeta poslednja – ona nosi rimu u stihu') : '');   // 10.10.2026, prijava vlasnice
   }
 
   // GA4: zabeleži jedinstvenu pretragu rime (samo ako nije silent)
@@ -1694,8 +1702,10 @@ function doRhymes(silent){
     });
     renderGroup(box, 'Šire rime (asonanca)', filterSyl(wide).slice(0,70), false);
   }
-  osveziSeoZaRec(q, best.length + good.length + finalExtra.length,
-                 best.slice(0, 6).join(', '));
+  /* UI-5 (audit 10.10.2026; prijava vlasnice istog dana: „zašto je h1 promenjen u Rime za reč „drugari““): TIHI poziv
+     (beležnica računa rime za reč pod kursorom, panel je pozajmljen) NE SME da menja naslov kartice, h1, opis ni
+     kanonikal početne – polje je prazno, a strana je tvrdila da je tražena reč iz pesme. */
+  if(!silent) osveziSeoZaRec(q, best.length + good.length + finalExtra.length, best.slice(0, 6).join(', '));
 }
 
 /* ── SEO PO UPITU `?rec=` – dinamička adresa po reči ──────────────────────
@@ -1747,6 +1757,7 @@ function vratiSeoNaPocetno(){
   if(location.pathname !== '/' && location.pathname !== '/index.html') return;
   const h1 = document.querySelector('h1');
   if(h1 && h1.dataset.pocetni !== undefined) h1.textContent = h1.dataset.pocetni;
+  { const hp = document.querySelector('.hero p'); if(hp) hp.hidden = false; }
   if(document.body.dataset.seoNaslov !== undefined) document.title = document.body.dataset.seoNaslov;
   delete document.body.dataset.recNaslov;   // UI-2
   if(document.body.dataset.seoOpis !== undefined) postaviMeta('description', document.body.dataset.seoOpis);
@@ -1801,6 +1812,9 @@ async function osveziSeoZaRec(q, broj, prvih){
   if(h1){
     if(h1.dataset.pocetni === undefined) h1.dataset.pocetni = h1.textContent;
     h1.textContent = broj > 0 ? uiTxt('Rime za reč') + ' \u201e' + dq + '\u201c' : h1.dataset.pocetni;
+    /* Uvodni pasus ispod naslova („Upiši reč i odmah dobiješ sve rime…") je za početno stanje; ispod naslova reči je
+       besmislen (prijava vlasnice 10.10.2026: „za šta uopšte služi taj pasus") – sklanja se dok je reč prikazana. */
+    { const hp = document.querySelector('.hero p'); if(hp) hp.hidden = broj > 0; }
   }
 
   /* Deljenje na društvenim mrežama – v. `postaviOG`. `og:url` ide na KANONIKAL,
@@ -1956,7 +1970,7 @@ function randomCommonWord(extraFilter){
 try{
   const _rec = new URLSearchParams(location.search).get('rec');
   if(_rec && _rec.trim() && WORDS.length === 0 && rimeInput && !rimeInput.__noop){
-    const _q = toLatin(_rec.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'').slice(0, 60);
+    const _q = upitIzUnosa(_rec).q;
     if(_q.length >= 2){
       const _sl = parseInt(new URLSearchParams(location.search).get('slog') || '0', 10);   // i filter iz adrese (S-03)
       if(_sl >= 1 && _sl <= 5){ rimeSyl = _sl; document.querySelectorAll('#rimeSyl button').forEach(x => x.classList.toggle('active', +x.dataset.syl === _sl)); }
@@ -1989,7 +2003,7 @@ let acIndex = -1, acItems = [];
 
 function updateAutocomplete(){
   const raw = rimeInput.value.trim().toLowerCase();
-  const q = toLatin(raw).replace(/[^a-zčćžšđ]/g,'');
+  const q = upitIzUnosa(raw).q;
   acWrap.innerHTML = '';
   acIndex = -1; acItems = [];
   if(q.length < 2 || WORDS.length === 0){ acWrap.style.display='none'; return; }
@@ -4153,7 +4167,7 @@ function tabIzURLa(){
 function urlZaTab(name){
   let url = tabHref(name);
   if(name === 'rime'){
-    const q = toLatin(rimeInput.value.trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,'');
+    const q = upitIzUnosa(rimeInput.value).q;
     if(q.length >= 2){
       url += (url.includes('?') ? '&' : '?') + 'rec=' + encodeURIComponent(q);
       if(rimeSyl) url += '&slog=' + encodeURIComponent(String(rimeSyl));   // UI-5: filter ne ispada iz adrese pri povratku na tab
@@ -6022,7 +6036,7 @@ const PRIJAVA_RAZLOZI = [
 ];
 let prijavaBox = null, prijavaZavesa = null;
 function prijavaUpit(){
-  try { return toLatin((rimeInput && rimeInput.value || '').trim().toLowerCase()).replace(/[^a-zčćžšđ]/g,''); } catch(e){ return ''; }
+  try { return upitIzUnosa(rimeInput && rimeInput.value).q; } catch(e){ return ''; }
 }
 function prijavaDanas(){
   const dan = new Date().toISOString().slice(0,10);

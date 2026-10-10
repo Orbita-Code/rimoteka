@@ -7221,6 +7221,13 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         ok('PR-4 · kružić sa brojem slogova je aria-hidden na svakoj kapsuli u alatu (čitač ne čita „gubav2")', pr.syl > 5 && pr.skr === pr.syl, JSON.stringify(pr));
         const ui4 = await p.evaluate(() => { const b = document.querySelector('#rimeResults .copy-all-btn'); return b ? { ima: true, reci: b.dataset.words.split(', ').length, grbav: b.dataset.words.includes('grbav'), h: Math.round(b.getBoundingClientRect().height) } : { ima: false }; });
         ok('UI-4 · „Kopiraj sve rime" postoji i u alatu, nosi sve prikazane rime, meta ≥ 44 px', ui4.ima && ui4.reci > 100 && ui4.grbav && ui4.h >= 44, JSON.stringify(ui4));
+        // Prijava vlasnice 10.10.2026 (telefon): „haj hajde haj" → naslov „Rime za reč „hajhajdehaj““ i besmislen pasus ispod
+        await p.fill('#rimeInput', 'haj hajde haj'); await p.click('#rimeBtn'); await cekajMirneRime(p, 600);
+        const vr = await p.evaluate(() => ({ h1: document.querySelector('h1').textContent, status: document.getElementById('rimeStatus').textContent, pasus: document.querySelector('.hero p').hidden, rec: new URLSearchParams(location.search).get('rec'), n: document.querySelectorAll('#rimeResults .chip').length }));
+        ok('više reči u polju („haj hajde haj"): rime za POSLEDNJU reč, naslov „haj“, status to kaže, adresa ?rec=haj, pasus ispod naslova sklonjen', /„haj“/.test(vr.h1) && !/hajhajdehaj/.test(vr.h1) && /poslednja/.test(vr.status) && vr.pasus === true && vr.rec === 'haj' && vr.n > 3, JSON.stringify(vr));
+        await p.fill('#rimeInput', ''); await p.evaluate(() => doRhymes()); await pauza(300);
+        ok('prazno polje vraća uvodni pasus ispod naslova', await p.evaluate(() => document.querySelector('.hero p').hidden === false));
+        await p.fill('#rimeInput', 'ljubav'); await p.click('#rimeBtn'); await cekajMirneRime(p, 600);
         // UI-2: tab Pretraga pa nazad na Rime → naslov reči ostaje
         await p.click('#tabs a[data-tab="pretraga"]'); await pauza(300);
         const t1 = await p.evaluate(() => document.title);
@@ -7261,6 +7268,17 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         // PR-5: kbd-note u tamnoj ćirilici ≥ 4,5:1
         const pr5 = await p.evaluate(() => { document.body.classList.add('dark-mode'); const el = document.querySelector('.kbd-note'); const r = el ? { fg: getComputedStyle(el).color, bg: getComputedStyle(document.body).backgroundColor } : null; document.body.classList.remove('dark-mode'); return r; });
         ok('PR-5 · napomena o tastaturi (.kbd-note) u tamnoj temi ima kontrast ≥ 4,5:1', !!pr5 && kontrast(pr5.fg, pr5.bg) >= 4.5, pr5 ? kontrast(pr5.fg, pr5.bg).toFixed(2) : 'nema .kbd-note');
+        await c.close();
+      }
+      // A2) UI-5: povratnik sa pesmom u beležnici otvara početnu – naslov, h1 i kanonikal ostaju POČETNI (polje je prazno)
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); localStorage.setItem('rimoteka_notes', 'Moji drugari\nsu mi dragi'); } catch (e) {} });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 }); await cekajMirneRime(p, 1500);
+        const u5 = await p.evaluate(() => ({ t: document.title, h1: document.querySelector('h1').textContent, k: document.querySelector('link[rel=canonical]').href, polje: document.getElementById('rimeInput').value }));
+        ok('UI-5 · pesma u beležnici (reč „drugari") NE menja naslov, h1 ni kanonikal početne dok je polje prazno', !/drugari|dragi/.test(u5.t) && !/drugari|dragi/.test(u5.h1) && /rimoteka\.com\/?$/.test(u5.k) && u5.polje === '', JSON.stringify(u5));
         await c.close();
       }
       // B) G-1: rečnik i kante NIKAD ne stignu → posle Entera poruka sa dugmetom ostaje, dugme živo

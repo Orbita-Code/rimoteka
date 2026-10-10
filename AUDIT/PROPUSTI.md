@@ -1836,3 +1836,23 @@ Isti razred kao HANDOVER 4.11 (patch tiho nije primenjen).
 **Pravilo:** zakrpa i sve što od nje zavisi idu u JEDAN lanac sa `&&`; prvi korak posle zakrpe je `grep` za nov tekst,
 pa tek onda regeneracija. U pozadinskom zadatku se PRVO čita njegov izlaz, pa tek onda rezultat lanca.
 
+## 10.10.2026 — PRAVILO VLASNICE OD 02.08. (IMENA VELIKIM SLOVOM) NIJE IMALO PROVERU, PA GA 1.236 REČI KRŠILO KROZ ŠEST AUDITA
+
+**Šta se desilo:** odluka od 02.08. („imena, gradovi, države velikim slovom") primenjena je tada na reči koje su u tom trenutku
+dodate; 1.236 imena i mesta koje su već bile u rečniku malim slovom niko nije prošao. Nijedan od šest audita (06.09.–07.10.) to
+nije video jer revizori „sadržaja" gledaju tekst sajta, ne rečnik naspram odluka vlasnice – a u TESTING.md nije postojala stavka
+za to pravilo. Vlasnica: „kako sad 1.200 reči malim slovima ako to nijedan agent nije video a radimo audit na 3 dana?"
+
+**Pravilo:** svaka odluka vlasnice o OBLIKU reči u rečniku (veliko slovo, ijekavica, hrvatske reči, imena) dobija ISTOG dana:
+(1) proveru u testu nad CELIM rečnikom (sekcija 54 – prolazi sve reči), (2) stavku u TESTING.md, (3) skriptu koja nađe sve
+postojeće prekršaje. Audit „sadržaja" uvek uključuje rečnik naspram spiska odluka vlasnice (ODLUKE.md + CLAUDE.md 6.x), ne samo
+tekst strana.
+
+## 10.10.2026 — PUTANJA DO FAJLA BEZ `open`, ISTOG DANA KAD JE PRAVILO UPISANO
+
+**Šta se desilo:** vlasnica je pitala „koja 54 mesta si izbacio"; odgovorila sam spiskom i putanjom do fajla, bez `open` – iako je
+pravilo „fajl se odmah otvara" upisano tog jutra na njen zahtev. Vlasnica: „zabranjeno je da mi daješ na pola adresu do fajla".
+
+**Pravilo:** putanja se u odgovoru NE piše dok `open <putanja>` nije izvršen u istom koraku – ni kad je fajl već otvaran, ni kad je
+spisak i prepisan u razgovor. (Globalni CLAUDE.md, tačka 8; memorija `fajl-se-odmah-otvori`.)
+

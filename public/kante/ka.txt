@@ -1,4 +1,4 @@
-5498
+5504
 Bugarska	1035		3
 Danska	436		2
 Finska	933		2
@@ -5497,6 +5497,12 @@ zvučnika	3002		3
 žutobrdska			3
 žutoperka		M	2
 žvaka		M	2
+krka			2
+malka			2
+marinka			2
+milinka			2
+miljenka			2
+savka			2
 bijednika	14		4
 bilježnika	34	J	3
 bjelanjaka	13	J	3

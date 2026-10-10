@@ -1,4 +1,4 @@
-16
+17
 astrolab			3
 baobab	54		3
 generalštab	373		3
@@ -15,3 +15,4 @@ svrab	1696		1
 zurab			2
 ćitab			2
 štab	4636		1
+lab			1

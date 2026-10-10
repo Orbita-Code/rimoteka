@@ -1,4 +1,4 @@
-155
+156
 Tunis			2
 adonis			3
 agrobiznis	572		3
@@ -154,6 +154,7 @@ zemljopis	83		3
 švrakopis			3
 živopis	601		3
 životopis	273		2
+kris		M	1
 ljetopis			3
 prijepis	22		2
 sjedis			2

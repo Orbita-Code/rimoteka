@@ -1,4 +1,4 @@
-728
+730
 Jupiter			3
 Kmer			1
 Kvarner			2
@@ -727,6 +727,8 @@ zver	1690		1
 žilber			2
 živoder			3
 žongler	45		2
+kamer			2
+sefer			2
 dedijer			3
 licemjer			3
 molijer			3

@@ -1,5 +1,5 @@
 {
- "base": "https://rimoteka.com",
+ "base": "http://localhost:8765",
  "strana": 2014,
  "nalaza": 0,
  "lista": []

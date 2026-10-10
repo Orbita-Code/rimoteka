@@ -1,4 +1,4 @@
-359
+360
 Pariza			2
 acidoza	57		2
 ajvaza			3
@@ -358,5 +358,6 @@ zeza	1122		2
 špajza			2
 železa	115		3
 željeza		J	3
+mirza			2
 prijelaza	92		4
 prijevoza	96		4

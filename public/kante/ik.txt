@@ -1,4 +1,4 @@
-919
+920
 Mozambik			2
 aerobik	679		2
 agnostik	160		2
@@ -918,6 +918,7 @@ zvučnik	1105		2
 živinarnik	19		2
 žrtvenik	329		3
 župnik	757		2
+nik		M	1
 bijednik			2
 bilježnik			3
 grješnik			3

@@ -1,4 +1,4 @@
-36
+37
 Njujork			2
 ataturk			3
 belobrk			3
@@ -35,3 +35,4 @@ zvrk	106		1
 štirk			1
 štrk			1
 žvrk		M	1
+mark			1

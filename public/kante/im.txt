@@ -1,4 +1,4 @@
-7635
+7636
 Jerusalim			2
 Rim		M	1
 abecednim	92		4
@@ -7634,6 +7634,7 @@ zvučnim	798		2
 žučnim	55		2
 žuđenim			2
 žvakaćim	21		3
+maksim		M	2
 bezvrijednim			4
 bijednim	16		3
 bijelim	14		3

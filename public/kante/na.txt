@@ -1,4 +1,4 @@
-8279
+8284
 Argentina			2
 Atina			2
 Barselona			2
@@ -8278,6 +8278,11 @@ zvučna	1549		2
 žučna	259		2
 žuđena	12		3
 žvrljotina	43		4
+jena		M	2
+dafina		M	3
+dina	923		2
+miljena			3
+velina			2
 besprijekorna	13		3
 bezbjedna			3
 bezosjećajna			5

@@ -1,4 +1,4 @@
-59
+60
 akord	304		2
 apsurd	1854		2
 bajford			2
@@ -58,3 +58,4 @@ stenford			2
 stjuard	33		2
 svalbard			2
 tvrd	1756		1
+grd	21		1

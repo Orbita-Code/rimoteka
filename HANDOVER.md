@@ -86,6 +86,18 @@ starim kodom (nije bilo `&&`).
 Novo pravilo vlasnice (10.10.): **fajl koji treba da pogleda se odmah otvara** (`open putanja`) – u globalnom CLAUDE.md (tačka 8) i memoriji.
 Rečnik posle brisanja: 281.629 reči, 5.346 ijekavica, 289.478 objašnjenja.
 
+## 2d. STANJE 10.10.2026 POPODNE – PUN AUDIT 7,8/10 + ODLUKE O REČNIKU (commit na grani, ČEKA „da" za push)
+
+- **Audit** `AUDIT/2026-10-10-audit.md`: 13/13 revizora, 16/16 adversarijalnih; 7 visokih (2 rešena u toku audita: SJ-7 1.236 imena
+  velikim slovom, SJ-8 54 strana mesta izbačena), 19 srednjih, 31 nizak. Sirove beleške: `AUDIT/analiza/2026-10-10-revizori.md`.
+  Ocena ista kao 07.10. jer su revizori kopali dublje (rečnik, Ctrl+Z, prvi ekran telefona, tri grupe rima).
+- **Odluke vlasnice 10.10.:** sanduče objavljeno; FAQPage uklonjen; backend/ u Kanti; igra ostaje; 109 hrvatskih reči obrisano;
+  1.236 imena velikim; 54 nepoznata strana mesta izbačena (spiskovi `AUDIT/SJ-3-…`, `SJ-7-…`, `SJ-8-…`, svi joj otvoreni).
+- **Novo pravilo (njen zahtev, dva puta istog dana):** fajl koji treba da pogleda se OTVARA (`open`) u istom koraku, putanja se ne
+  piše sama – globalni CLAUDE.md tačka 8, memorija `fajl-se-odmah-otvori`, PROPUSTI 10.10.
+- **Sledeće po važnosti** (ona: „radi dok ne bude 10/10"): MOB-A, KL-3, INT-1, V-1, TP-12, AK-8, pa srednji (redosled u izveštaju).
+- Rečnik: 281.575 reči, 5.346 ijekavica.
+
 ## 3. ŠTA JE OSTALO – redom (tačke 1–4 REŠENE 07.10. popodne, v. 2a; ostaje 5–7)
 
 | # | Nalaz | Gde tačno | Popravka (gotov recept) |

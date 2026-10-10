@@ -1,4 +1,4 @@
-7187
+7188
 Argentine			2
 Atine			2
 Berline			2
@@ -7186,6 +7186,7 @@ zvučne	1744		2
 žučne	747		2
 žuđene	10		3
 žvrljotine	61		4
+pane			2
 bezvrijedne	16		4
 bijedne	37		3
 bijene			3

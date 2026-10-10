@@ -1,4 +1,4 @@
-628
+630
 Isusa			3
 Marsa			2
 Tunisa			3
@@ -627,6 +627,8 @@ zlatokosa	149		3
 žigosa			3
 živopisa	445		3
 životopisa	142		3
+pisa		M	2
+melisa	195		2
 bijesa	177		3
 lijesa			3
 ljetopisa			4

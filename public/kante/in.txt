@@ -1,4 +1,4 @@
-839
+841
 Berlin			2
 Dablin			2
 Zrenjanin			3
@@ -838,6 +838,8 @@ zvorničanin			3
 živojin			3
 žrtvin	16		2
 župljanin	36		3
+min			1
+malin			2
 cvijetin			3
 djevojčin			3
 mještanin			3

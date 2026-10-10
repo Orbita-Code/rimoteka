@@ -1,4 +1,4 @@
-555
+557
 Egipat			3
 acetat	95		2
 adresat	35		2
@@ -554,3 +554,5 @@ zubat			2
 špinat	38		2
 šumnat			2
 živcat		M	2
+morat			2
+sedat			2

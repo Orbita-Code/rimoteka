@@ -1,4 +1,4 @@
-378
+380
 Boston			2
 Lion		M	2
 Lisabon			3
@@ -377,3 +377,5 @@ zvon	76		1
 žargon	333		2
 žeton	110		2
 žigon			2
+ston			1
+jon	287		1

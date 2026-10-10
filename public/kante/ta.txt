@@ -1,4 +1,4 @@
-2672
+2673
 Budimpešta			4
 Bukurešta			4
 Cveta	4675		2
@@ -2671,6 +2671,7 @@ zvonceta			3
 žurnalista			3
 žuta	3735		2
 žućkasta	149		3
+panta			2
 brijesta	12		3
 cvijeta	387		2
 cvjeta			2

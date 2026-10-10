@@ -5691,8 +5691,17 @@ async function main() {
       ok('sanduče · odbija zahtev sa tuđeg sajta (403)', tudje.status === 403, `${tudje.status}`);
       const nepotpuno = await fetch(SANDUCE, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Origin': 'https://rimoteka.com' }, body: JSON.stringify({ rec: 'x', razlog: 'izmišljeno', proba: true }) });
       ok('sanduče · odbija nepoznat razlog (400)', nepotpuno.status === 400, `${nepotpuno.status}`);
-      const pregled = await fetch(SANDUCE.replace('/prijava', '/prijave'));
-      ok('sanduče · pregled prijava bez ključa ne otvara (403)', pregled.status === 403, `${pregled.status}`);
+      /* BZ-4 (10.10.2026): bez ključa HTML pregled daje POLJE za ključ (bez ijedne prijave), JSON bez ključa 403, pogrešan ključ 403,
+         ključ u ADRESI za JSON 403 (BZ-1), telo preko 8 KB 413 (BZ-2). */
+      const pregledUrl = SANDUCE.replace('/prijava', '/prijave');
+      const pregled = await fetch(pregledUrl); const pregledHtml = await pregled.text();
+      ok('sanduče · pregled bez ključa daje samo polje za ključ (200, bez prijava)', pregled.status === 200 && /Ključ za pregled/.test(pregledHtml) && !/<table/.test(pregledHtml), `${pregled.status}`);
+      const pregledJson = await fetch(pregledUrl + '?format=json');
+      const pregledLos = await fetch(pregledUrl + '?kljuc=pogresan-kljuc-123');
+      const pregledJsonAdresa = await fetch(pregledUrl + '?format=json&kljuc=pogresan-kljuc-123');
+      ok('sanduče · JSON bez ključa 403, pogrešan ključ 403, ključ u adresi za JSON 403 (BZ-1)', pregledJson.status === 403 && pregledLos.status === 403 && pregledJsonAdresa.status === 403, `${pregledJson.status}/${pregledLos.status}/${pregledJsonAdresa.status}`);
+      const preveliko = await fetch(SANDUCE, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Origin': 'https://rimoteka.com' }, body: JSON.stringify({ rec: 'a'.repeat(9000), razlog: 'drugo', proba: true }) });
+      ok('sanduče · telo prijave preko 8 KB se odbija (413, BZ-2)', preveliko.status === 413, `${preveliko.status}`);
     }
 
     }

@@ -12,6 +12,11 @@
 | sanduče (worker) | objavljeno 10.10. `f573cdf7` (ključ samo zaglavljem za JSON, 8 KB plafon, mejl bez ključa) |
 | **ZADNJA OBJAVA 10.10. ~15:15** | ispravka moje greške iz SJ-7: rečnik vraćen u red „veliki blok na vrhu, pa mali po abecedi" (preimenovane reči bile ostale na mestu malog slova, „pisa" dopisan na kraj → K3 na produkciji pao); prag dvojnika u testu 130 → 180 (47 dvosmislenih namerno ima oba zapisa). Proba 18+45: 32/32. Lanac protiv produkcije posle objave: v. `AUDIT/lanac/` najnoviji. |
 
+> **PRVI KORAK SLEDEĆE SESIJE:** `BASE=https://rimoteka.com bash test/lanac.sh` pa `RADNIKA=3 bash test/lanac.sh` – vlasnica je 10.10. ~15:40
+> izašla iz sesije dok su lanci tekli (žurila je), pa poslednja objava (`1fb35ef518`, samo ispravka testa 54) nema zabeležen pun prolaz.
+> Prethodni prolaz protiv produkcije (`AUDIT/lanac/20261010-151453`) imao je 1.029 provera sa JEDNIM padom – greškom u samom testu 54
+> koja je u `1fb35ef518` ispravljena (proba sekcije 54: 8/8). Kod sajta od tada nije menjan.
+
 ## 2. Šta je urađeno 07.–10.10. (sve objavljeno)
 1. **4 visoka iz audita 07.10.** (AK-1 dug slog, AK-2 rezerva završetak, PR-1 kartica tastaturom na statičkim, TP-1 produkcijski test 100 strana + logo).
 2. **15 srednjih + 22 niska iz audita 07.10.** – spisak sa proverama u NALAZI „POPRAVLJENO 08.10."; test sekcija 60; AK-3 (podrazumevani akcenat = treći slog od kraja, izmereno 25,5 % → 79,5 %; `build/akcenti-rucno.json` za televizor/revizor/prizor); nginx (SEO-1/SEO-4/PF-3) uživo.

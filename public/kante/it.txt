@@ -17,7 +17,7 @@ branit			2
 brdovit	72		3
 bregovit			2
 bremenit	55		2
-bridžit			2
+Bridžit			2
 brit			1
 celovit	877		2
 celulit	1345		2
@@ -41,7 +41,7 @@ durnovit		M	2
 dvorit			2
 džavit			2
 džilit	25		2
-edit			2
+Edit			2
 egzit			2
 ekstraprofit			3
 elektrolit			2
@@ -119,7 +119,7 @@ izvijestit		J	3
 jezgrovit	105		2
 jezovit	20		2
 jezuit	30		2
-judit			2
+Judit			2
 kalcit	22		2
 kamenit	41		2
 kaznit			2
@@ -144,7 +144,7 @@ limfocit			3
 limit	2525		2
 limonit			2
 ljubit			2
-ljudevit			2
+Ljudevit			2
 ljutit	162		2
 ljutovit			2
 maglovit	103		2
@@ -249,9 +249,9 @@ peksimit		M	3
 pervertit			2
 peskovit			2
 petit	91		2
-petrit			2
+Petrit			2
 pirit	33		2
-pit	65		1
+Pit	65		1
 plahovit	48		2
 plamenit			2
 plebiscit	112		3
@@ -375,9 +375,9 @@ rečit	274		2
 rit	601		1
 rovit	103		2
 sabit			2
-sahit			2
+Sahit			2
 sahranit			2
-sait			2
+Sait			2
 sakrit			2
 salonit			2
 samit	2483		2
@@ -401,7 +401,7 @@ složit			2
 smit			1
 snegovit			2
 spalit			2
-split			1
+Split			1
 spojit			2
 spremit			2
 spriječit		J	3

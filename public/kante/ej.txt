@@ -1,10 +1,10 @@
 90
 Sidnej			2
 aleksej			2
-andrej			2
+Andrej			2
 arhijerej	506		3
-bartolomej			3
-begej			2
+Bartolomej			3
+Begej			2
 bečej			2
 brodvej			2
 brunej			2
@@ -43,7 +43,7 @@ lej	41		1
 licej		M	2
 marej			2
 marsej			2
-matej			2
+Matej			2
 mauzolej	575		2
 mej			1
 mojsej			2
@@ -78,7 +78,7 @@ smej	220		1
 sprej	1398		1
 tajpej			2
 tezej			2
-timotej			3
+Timotej			3
 trofej	5437		2
 trohej	16		2
 ugrej	11		2

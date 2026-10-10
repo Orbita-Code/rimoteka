@@ -399,7 +399,7 @@ brisane	80		3
 brizne	52		2
 brižne	180		2
 brljotine	295		4
-brne			2
+Brne			2
 brodolomne			3
 brojane	10		3
 brojevne			3
@@ -947,7 +947,7 @@ fosilizovane			3
 fosilne	97		3
 fotone	131		2
 fragilne			3
-frane			2
+Frane			2
 frapantne	56		3
 frekventne	154		2
 frenetične	32		3
@@ -1021,7 +1021,7 @@ glomazne	303		3
 glupane	51		3
 glupsone			3
 gnevne	70		2
-gnjilane			3
+Gnjilane			3
 gnojne	147		2
 gnusne	215		2
 goblene	53		3
@@ -2059,7 +2059,7 @@ lazine			3
 lazurne			3
 lažirane	23		3
 lažne	5161		2
-lebane			3
+Lebane			3
 lecne			2
 ledene	1206		3
 ledine	167		3
@@ -3674,7 +3674,7 @@ pamćene			3
 pancirne	11		3
 pandane	53		3
 pandorine			4
-pane			2
+Pane			2
 panične	81		3
 pansione	45		2
 pantalone	3310		2

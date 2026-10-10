@@ -10,11 +10,11 @@ barbados			2
 belokos		M	2
 bos	801		1
 buenos			3
-burgos			2
+Burgos			2
 butros			2
 crnokos	17		3
 crvenokos			3
-davos			2
+Davos			2
 demos	104		2
 depos			2
 diskos			2
@@ -50,7 +50,7 @@ kros	1097		1
 kustos	1483		2
 lagos			2
 lakros			2
-laos			2
+Laos			2
 letos	2694		2
 lezbos			2
 logos	453		2
@@ -91,7 +91,7 @@ rodos			2
 ros			1
 samodoprinos	510		3
 samos			2
-santos			2
+Santos			2
 sedokos			2
 senokos			2
 silos	356		2

@@ -255,7 +255,7 @@ družile	132		3
 držale	850		3
 duble			2
 duele	614		3
-dule			2
+Dule			2
 dunule			3
 duple	781		2
 dvorile			3
@@ -313,7 +313,7 @@ gađale	84		3
 gele			2
 generale	958		2
 gerile	222		2
-gile			2
+Gile			2
 gladiole	39		2
 gladovale	18		3
 glagole	184		3
@@ -613,7 +613,7 @@ javljale	356		3
 jačale	83		3
 jele	923		2
 jenjavale	16		3
-jole	113		2
+Jole	113		2
 jule	13		2
 jurile	116		3
 jurišale	12		3
@@ -692,7 +692,7 @@ koale	54		2
 kobile	355		3
 kokile			3
 koktele	706		3
-kole	844		2
+Kole	844		2
 kolutale	12		3
 komešale	10		3
 kontrole	27799		2
@@ -1306,7 +1306,7 @@ opkolile	99		3
 oplemenile	25		3
 opljačkale	95		4
 opojile			3
-opole			3
+Opole			3
 opomenule			3
 opominjale	20		4
 oporavile	142		4

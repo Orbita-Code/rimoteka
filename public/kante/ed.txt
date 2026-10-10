@@ -1,10 +1,10 @@
 112
-alfred			2
+Alfred			2
 arhimed			3
 biljojed	60		3
 bled	436		1
 bratučed		M	3
-bred			1
+Bred			1
 bubojed			3
 ded		M	1
 dogled	50		2
@@ -14,9 +14,9 @@ dvared		M	2
 dvogled	577		2
 dvored			2
 dvosed	684		2
-ed			1
+Ed			1
 fed			1
-fred			1
+Fred			1
 ispoved	28		3
 ispovijed	49	J	4
 ispred	72015		2
@@ -29,15 +29,15 @@ junajted			3
 lebed			2
 led	10162		1
 logoped			3
-manfred			2
+Manfred			2
 med	8146		1
 medved	1274		2
-mehmed			2
+Mehmed			2
 mesojed	51		3
 mildred			2
 milogled			3
 mimogred			3
-mohamed			3
+Mohamed			3
 moped	141		2
 mravojed	32		3
 muhamed			2

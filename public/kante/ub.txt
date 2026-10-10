@@ -8,7 +8,7 @@ dragoljub	921		3
 dub			1
 dvogub			2
 golub	1018		2
-goroljub			3
+Goroljub			3
 grub	1025		1
 kesizub			3
 klub	50596		1
@@ -32,6 +32,6 @@ srboljub			3
 stogub			2
 stub	5127		1
 trogub			2
-veroljub			3
+Veroljub			3
 zarub		M	2
 zub	2998		1

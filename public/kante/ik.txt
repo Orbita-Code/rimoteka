@@ -100,7 +100,7 @@ delovodnik			3
 deonik		M	3
 desetnik			3
 despik			2
-dik			1
+Dik			1
 dionik			3
 diplomatik			2
 diuretik	326		2
@@ -124,7 +124,7 @@ družbenik		M	3
 drvljanik		M	3
 drznik	18		2
 državnik	1503		2
-dubrovnik			2
+Dubrovnik			2
 duhovnik	765		2
 dušebrižnik	66		3
 dušik			2
@@ -145,14 +145,14 @@ elektrik			2
 elektronik			2
 elektročelik			3
 epik	23		2
-erik			2
+Erik			2
 etnik	16		2
 ezoterik			2
-faik			2
+Faik			2
 fanatik	532		2
 fik		M	1
 fiskulturnik		M	2
-frederik			2
+Frederik			2
 frik			1
 galičnik			3
 glasnik	4995		2
@@ -179,7 +179,7 @@ gubitnik	1273		3
 guščarnik			2
 hapšenik		M	3
 hemostatik			2
-henrik			2
+Henrik			2
 heretik	11		2
 hermetik			2
 hipik	47		2
@@ -237,7 +237,7 @@ kapelnik	43		2
 kapidžik			3
 karišik		M	3
 katolik	730		3
-kačanik			3
+Kačanik			3
 kažnjenik	16		3
 kestenik			3
 kik		M	1
@@ -304,7 +304,7 @@ ljubavnik	1134		2
 ljubaznik			3
 logornik			2
 lopušnik			3
-ludvik			2
+Ludvik			2
 lunatik		M	2
 maloletnik	514		4
 maloljetnik		J	4
@@ -319,7 +319,7 @@ mesečnik	215		3
 metalik	875		2
 mezozoik			3
 međuspremnik			3
-mik		M	1
+Mik		M	1
 miljenik	928		3
 milosnik		M	3
 misnik			2
@@ -389,7 +389,7 @@ nevlasnik			3
 nevoljnik	31		2
 nezadovoljnik	18		3
 nezahvalnik			4
-nik		M	1
+Nik		M	1
 novčanik	1977		2
 numizmatik			2
 nužnik	116		2
@@ -438,7 +438,7 @@ panegirik	41		2
 paralitik			2
 paranoik	107		2
 patnik	18		2
-patrik			2
+Patrik			2
 paćenik		M	3
 peharnik	25		2
 penaltik			2
@@ -612,13 +612,13 @@ razvodnik	107		3
 razvratnik	41		3
 redenik	27		3
 redovnik	38		2
-refik			2
+Refik			2
 resnik			2
 revnosnik		M	3
 reznik			2
 rečnik	5458		2
 ribolik			2
-rik			1
+Rik			1
 rimokatolik	81		3
 rizik	23903		2
 robovlasnik	70		2
@@ -633,7 +633,7 @@ rupnik			2
 ručnik	35		2
 sabesednik	49		3
 sabornik	21		3
-sadik			2
+Sadik			2
 sagovornik	8405		2
 samoglasnik	63		4
 samotnik	182		3
@@ -726,7 +726,7 @@ sveštenik	7157		3
 svodnik	19		2
 tabornik			2
 taložnik			3
-tarik			2
+Tarik			2
 teoretik			2
 tik	2910		1
 tipik	333		2
@@ -745,7 +745,7 @@ trik	3132		1
 tromesečnik			4
 trougaonik			3
 troškovnik	135		2
-trstenik			3
+Trstenik			3
 trudbenik		M	3
 tucanik	93		3
 tuženik	44		3
@@ -874,7 +874,7 @@ zupčanik	137		2
 zvaničnik	2924		3
 zvezdolik			2
 zvonik	862		2
-zvornik			2
+Zvornik			2
 zvučnik	1105		2
 ćurlik			2
 ćuvik		M	2
@@ -895,7 +895,7 @@ zvučnik	1105		2
 šavnik			2
 šefik			2
 šeik	838		2
-šibenik			3
+Šibenik			3
 šibljik			2
 šifrarnik	29		2
 šik	631		1

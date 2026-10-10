@@ -4,14 +4,14 @@ apsurd	1854		2
 bajford			2
 bard	190		1
 bastard			2
-bernard			2
+Bernard			2
 bernhard			2
 bilbord	632		2
 biohazard			3
 bodigard			3
 bord	594		1
-eduard			3
-edvard			2
+Eduard			3
+Edvard			2
 endokard			3
 erhard			2
 fjord	43		1
@@ -21,7 +21,7 @@ gepard	90		2
 gerd			1
 gerhard			2
 gord	195		1
-grd	21		1
+Grd	21		1
 hard	6584		1
 harvard			2
 hauard			3
@@ -32,8 +32,8 @@ konkord			2
 kraford			2
 kroford			2
 kurd			1
-lenard			2
-leonard			3
+Lenard			2
+Leonard			3
 leopard	314		3
 lombard			2
 lord	958		1

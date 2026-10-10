@@ -93,7 +93,7 @@ amoralna	33		4
 amorfna	105		3
 amortizovana	43		3
 amputirana	92		3
-ana			2
+Ana			2
 analitična	38		3
 analizirana	515		3
 analizovana			3
@@ -104,7 +104,7 @@ andersena			3
 andrijana			2
 andrijina			4
 androgina			3
-andželina			4
+Andželina			4
 aneksiona			3
 anektirana	21		3
 anemična	90		3
@@ -263,7 +263,7 @@ bataljuna	16		2
 batina	1785		3
 batinana			3
 batinetina			3
-batočina			3
+Batočina			3
 bazena	8142		2
 bazirana	2519		3
 bazična	403		3
@@ -457,7 +457,7 @@ bojena	115		3
 bojna	201		2
 bolesna	2591		3
 boleština	149		3
-boljetina			4
+Boljetina			4
 bolna	2131		2
 bombardovana	517		3
 bombona	579		2
@@ -640,9 +640,9 @@ cvetana			2
 cvetina			3
 cvetna	411		2
 dablina			2
-dafina		M	3
+Dafina		M	3
 dagestana			2
-dajana			3
+Dajana			3
 dalekometna	26		3
 daljina	856		2
 daljna	32		2
@@ -751,7 +751,7 @@ dezinfekciona	66		3
 dezorijentisana	101		3
 dečana			3
 dežurna	537		2
-diana			3
+Diana			3
 didaktična	13		3
 diferencijalna	205		3
 difuzna	132		3
@@ -770,7 +770,7 @@ diktirana	81		3
 dilana			2
 dimljena	171		3
 dimna	225		2
-dina	923		2
+Dina	923		2
 dinamična	1133		3
 dinstana	31		3
 diobna			3
@@ -978,7 +978,7 @@ durbina	45		2
 durijana			2
 duvana	5740		2
 dućana	411		2
-dučina			3
+Dučina			3
 dušana			3
 duševna	416		3
 dušina			3
@@ -1024,7 +1024,7 @@ džordana			3
 ebena			3
 edena			3
 edina			3
-edna			2
+Edna			2
 edukativna	705		5
 edukovana	107		3
 edvina			3
@@ -1042,8 +1042,8 @@ egzaktna	235		3
 egzekutivna			3
 egzistencijalna	372		6
 egzotična	521		3
-ekatarina			3
-ekaterina			3
+Ekatarina			3
+Ekaterina			3
 ekipna	104		3
 ekonomična	340		3
 ekrana	10800		2
@@ -1074,7 +1074,7 @@ električna	2938		3
 elektromagnetna	183		2
 elektrona	1379		2
 elementarna	1256		5
-elena			3
+Elena			3
 elijana			2
 eliminaciona	34		3
 eliminisana	429		3
@@ -1084,13 +1084,13 @@ elokventna	65		2
 emancipovana	109		3
 embriona	852		4
 emilijana			3
-emina			3
+Emina			3
 eminentna	100		2
 emisiona	317		3
 emitovana	1155		3
 emocionalna	938		6
 emotivna	1342		4
-ena		M	2
+Ena		M	2
 endemična	41		3
 endorfina	340		3
 energana	158		2
@@ -1105,7 +1105,7 @@ epizodna	57		3
 epohalna	161		4
 erektilna	71		3
 eriksona			3
-erna			2
+Erna			2
 erogena	109		3
 erotična	51		3
 eruptivna	18		4
@@ -1181,7 +1181,7 @@ filtrirana	72		3
 fina	2034		2
 finalna	1303		3
 finansirana	889		3
-fiona			2
+Fiona			2
 fiorentina			3
 fiskalna	1979		3
 fiskulturna			4
@@ -1230,10 +1230,10 @@ gagarina			3
 gajena	188		3
 gajtana	80		3
 galantna	17		2
-galina			3
+Galina			3
 galona	143		2
 galvanizirana			3
-gana			2
+Gana			2
 gangrena	127		2
 garantovana	953		5
 garažna	266		3
@@ -1260,13 +1260,13 @@ generisana	183		3
 genijalna	570		4
 genitalna	63		3
 genocidna	464		3
-georgina	59		3
+Georgina	59		3
 geotermalna	253		3
 germana			3
 geršvina			3
-gijana			3
+Gijana			3
 giljotina	257		4
-gina	92		2
+Gina	92		2
 gladna	1630		2
 glamurozna	218		3
 glasina	1122		3
@@ -1399,7 +1399,7 @@ gustina	1715		3
 guvna	33		2
 guzina			3
 guščetina			3
-gvajana			3
+Gvajana			3
 gvarana			3
 gvozdena	783		3
 hajdna			2
@@ -1424,7 +1424,7 @@ hasna			2
 hazardna	10		3
 hazna			2
 hegemona			3
-helena			3
+Helena			3
 heljdina			3
 hemoglobina	644		3
 hendikepirana	143		3
@@ -1632,9 +1632,9 @@ iračana			2
 iračanina			3
 irealna	17		4
 irelevantna	219		2
-irena			2
+Irena			2
 irfana			3
-irina			3
+Irina			3
 iritantna	112		3
 iritirana	52		3
 ironična	215		3
@@ -1773,7 +1773,7 @@ isušena	104		3
 italijana			3
 ivana	143		3
 ivanjdana			2
-ivona			2
+Ivona			2
 izabrana	5590		4
 izagna			3
 izagnana			2
@@ -1957,10 +1957,10 @@ jadna	2849		2
 jadovna			3
 jadrana			3
 jagnjetina	342		4
-jagodina	324		4
+Jagodina	324		4
 jagodična	19		4
 jagorčevina	70		4
-jahorina			3
+Jahorina			3
 jajna	269		2
 jakna	557		2
 jakšina			3
@@ -2018,9 +2018,9 @@ jelina			2
 jeljcina			3
 jelovina			4
 jemena			3
-jena		M	2
+Jena		M	2
 jerihona			3
-jerina			3
+Jerina			3
 jermena			3
 jerođakona			3
 jesenjina			4
@@ -2031,7 +2031,7 @@ jezičina	12		3
 ječmena	26		3
 jirgena			3
 jna			1
-joana			3
+Joana			3
 jodna	44		2
 jogina			2
 johana			3
@@ -2043,7 +2043,7 @@ jovana			2
 jovanina			2
 jovankina			3
 jovina			3
-jozefina			2
+Jozefina			2
 juana	757		3
 jubilarna	575		4
 judina			3
@@ -2134,7 +2134,7 @@ karirana	31		3
 karitativna			3
 karlična	24		3
 karmina	399		3
-karolina			2
+Karolina			2
 karotidna	125		3
 karotina	99		4
 kartagina			3
@@ -2147,17 +2147,17 @@ kasetofona	113		3
 kasina	150		2
 kasna	284		2
 kastelana			2
-katalina			4
+Katalina			4
 katana	75		2
 katarina			3
 katarinina			3
 katastrofalna	1349		5
 katatonična			3
 katedralna	44		3
-katerina			2
+Katerina			2
 katrana	193		3
 katrena	33		2
-katrina			2
+Katrina			2
 katuna	169		3
 kaurina			3
 kauzalna	40		4
@@ -2373,7 +2373,7 @@ korektivna	115		3
 korektna	1144		3
 korena	5563		3
 korigovana	245		3
-korina			3
+Korina			3
 korisna	5152		3
 korištena			3
 korišćena	3782		4
@@ -2403,7 +2403,7 @@ kotrljana			4
 kovalentna			3
 kovana	51		3
 kovina	835		3
-kozana			3
+Kozana			3
 kozarčana			2
 kozetina			4
 kozina		M	3
@@ -2635,7 +2635,7 @@ likvidaciona	16		3
 likvidirana	225		3
 likvidna	179		3
 lilijana			2
-liljana			3
+Liljana			3
 limena	105		3
 limfna	183		2
 limitirana	431		3
@@ -2687,7 +2687,7 @@ lončina			3
 lopovčina	25		3
 loptina			3
 lopušina			3
-lorena			2
+Lorena			2
 lornjona			2
 losiona	252		2
 lovana			2
@@ -2695,7 +2695,7 @@ lovina	161		3
 lovljena	27		3
 lovna	213		2
 lovćena			3
-lozana			3
+Lozana			3
 lozna	15		2
 lozovina			4
 lubina			3
@@ -2726,7 +2726,7 @@ magacina	1462		3
 magarčina			3
 magazina	6909		3
 magdalena			3
-magdalina			4
+Magdalina			4
 magelana			2
 magična	729		3
 maglina	10		3
@@ -2740,7 +2740,7 @@ majdana			3
 majkina			3
 majmuna	1706		3
 majmunčina			3
-majna			2
+Majna			2
 majorana	49		2
 majušna			3
 majčina	548		3
@@ -2790,7 +2790,7 @@ marcipana	104		2
 margarina	625		3
 margina	563		2
 marginalna	344		4
-mariana			2
+Mariana			2
 marihuana	738		2
 marijana			2
 marijina			4
@@ -2800,9 +2800,9 @@ maričina			3
 marjana			3
 markantna	83		3
 markirana	131		2
-marlena			3
+Marlena			3
 marlina			2
-marna			2
+Marna			2
 martina			3
 marvena			3
 masakrirana	24		3
@@ -2850,7 +2850,7 @@ melanholična	104		3
 melanina	205		2
 melatonina	231		3
 melburna			2
-melina			2
+Melina			2
 meljavina			4
 melodična	42		3
 melodramatična			3
@@ -2917,7 +2917,7 @@ milina	1505		2
 miliona	219064		2
 militantna	101		2
 miljana			3
-miljena			3
+Miljena			3
 milkina			3
 milokrvna			3
 milosrdna	109		4
@@ -2940,7 +2940,7 @@ minorna	265		2
 mintana			2
 minuciozna	25		3
 minutna	60		3
-miona			2
+Miona			2
 mirijana			2
 mirina			3
 mirisna	303		3
@@ -2990,7 +2990,7 @@ mobilisana	63		3
 mobilizaciona			3
 mobilna	1764		3
 modalna	23		3
-modena			3
+Modena			3
 moderna	6410		3
 modifikovana	855		3
 modna	1808		2
@@ -3004,7 +3004,7 @@ molitvena	163		3
 molovana			2
 momentalna	89		3
 momčina	41		3
-mona			2
+Mona			2
 monblana			2
 mondena			3
 mondrijana			2
@@ -3769,7 +3769,7 @@ nijansirana			3
 nijedna	13254		2
 nikina			3
 nikoletina			3
-nikolina			2
+Nikolina			2
 nikolsona			3
 nikotina	582		2
 niksona			2
@@ -4481,7 +4481,7 @@ patrolna	55		3
 patrona	350		2
 patronažna	293		3
 patvorina			3
-paulina			3
+Paulina			3
 pauna	81		3
 paučina	210		4
 paušalna	132		3
@@ -4766,7 +4766,7 @@ poletna	105		3
 polezna			3
 poleđina	104		3
 poligona	669		2
-polina			2
+Polina			2
 polisena			3
 politikina			3
 politirana			3
@@ -5499,7 +5499,7 @@ promena	45574		3
 promenadna			3
 promenjena	2071		3
 prometna	195		3
-promina			3
+Promina			3
 promiskuitetna	48		3
 promišljena	252		4
 promotivna	586		3
@@ -5684,7 +5684,7 @@ rasečena	29		4
 rasformirana	106		3
 rashladna	160		3
 rasijana		J	2
-rasina			2
+Rasina			2
 rasipna	15		3
 raskalašna	32		4
 rasklimana			2
@@ -5733,7 +5733,7 @@ rasvetljena	179		3
 rasvetna	73		3
 ratna	2140		2
 ratoborna	92		4
-ravena			3
+Ravena			3
 ravna	2985		2
 ravnina	33		2
 ravnodušna	370		3
@@ -5871,7 +5871,7 @@ refleksna	91		3
 reformna			3
 refrena	162		2
 regana			3
-regina			2
+Regina			2
 regiona	30627		2
 regionalna	5602		5
 registrovana	3791		3
@@ -6208,7 +6208,7 @@ silikona	632		3
 silina	137		2
 silna	1184		2
 silovana	538		4
-silvana			2
+Silvana			2
 simbolična	860		3
 simeona			3
 simetrična	206		3
@@ -6841,7 +6841,7 @@ tikvina		M	3
 timijana	85		2
 timočana			2
 timpana	16		2
-tina		M	2
+Tina		M	2
 tipizirana	22		3
 tipična	1903		3
 tirana	133		2
@@ -6877,7 +6877,7 @@ torbetina			3
 torina			3
 torna			2
 torpedna			2
-toskana			2
+Toskana			2
 totalitarna	287		5
 totalna	1800		3
 tovarna	28		2
@@ -7493,7 +7493,7 @@ veletrgovina			3
 velečasna			3
 velikana	2467		2
 velikodušna	157		3
-velina			2
+Velina			2
 veličana			2
 veličanstvena	695		3
 veličina	11626		2
@@ -7546,7 +7546,7 @@ vidna	304		2
 vidovdana			2
 vikana			3
 viktorina			3
-vilhelmina			3
+Vilhelmina			3
 vilina	73		3
 viličetina			3
 vilična			3
@@ -7593,7 +7593,7 @@ vladina	485		3
 vladičina			3
 vlakana	1859		3
 vlakna	2858		2
-vlasina	17		2
+Vlasina	17		2
 vlastelina			2
 vlažna	1170		2
 vodena	1184		3
@@ -8029,7 +8029,7 @@ zrenjanina			2
 zrna	5351		2
 zubna	258		2
 zupčana			3
-zuzana			3
+Zuzana			3
 zvana	1314		2
 zvanična	6149		3
 zvezdana	563		3

@@ -1,6 +1,6 @@
 82
 aerotransport			3
-albert			2
+Albert			2
 aport	70		2
 art			1
 bogart			2
@@ -17,23 +17,23 @@ eskort	92		2
 flert			1
 fort			1
 frankfurt			2
-gilbert			2
+Gilbert			2
 hart			1
-herbert			2
+Herbert			2
 hert			1
 hilbert			2
 hrt	692		1
-hubert			2
+Hubert			2
 import	371		2
 insert			2
 jogurt	3273		2
 jrt			1
-klagenfurt			3
+Klagenfurt			3
 koncert	11897		2
 krt	82		1
-kurt			1
+Kurt			1
 kvart			1
-lenart			2
+Lenart			2
 mart	30461		1
 mocart			2
 mozart			2
@@ -43,7 +43,7 @@ norbert			2
 obrt	1974		2
 ort			1
 osvrt	2750		2
-pert			1
+Pert			1
 pervert			2
 poduprt	78		3
 popart			2
@@ -53,9 +53,9 @@ prostrt	36		2
 raport	446		2
 reeksport	34		3
 restart	586		2
-robert			2
+Robert			2
 rt	1108		1
-rupert			2
+Rupert			2
 samrt	15		2
 sanskrt			2
 satrt			2
@@ -79,5 +79,5 @@ zatrt	12		2
 škrt	152		1
 šlagvort		M	2
 šort			1
-štutgart			2
+Štutgart			2
 šubert			2

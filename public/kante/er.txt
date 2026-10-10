@@ -135,9 +135,9 @@ emiter	344		3
 empajer			3
 enter	718		2
 enterijer	4513		2
-enver			2
+Enver			2
 er		M	1
-ester		M	2
+Ester		M	2
 etažer			3
 eter	106		2
 fajfer			2
@@ -195,7 +195,7 @@ ginter			2
 glajder			2
 glečer	271		2
 gliser	166		2
-gloster			2
+Gloster			2
 glupander			3
 golfer	282		2
 golgeter	507		3
@@ -214,7 +214,7 @@ haker	687		2
 halter			2
 hamburger	523		3
 hamer	226		2
-hanover			2
+Hanover			2
 hanter			2
 hardver	2916		2
 havijer			3
@@ -233,7 +233,7 @@ homer			2
 hotelijer	58		2
 huber			2
 iber			2
-imer			2
+Imer			2
 insajder	1255		3
 instalater	47		3
 inter			2
@@ -242,7 +242,7 @@ inženjer	6060		2
 inžinjer		M	3
 ister			2
 iver	290		2
-jaser			2
+Jaser			2
 jeger	176		2
 jer	894095		1
 jugošećer			3
@@ -251,8 +251,8 @@ kajzer			2
 kaloper	31		3
 kalorifer			3
 kaluđer	592		3
-kamber			2
-kamer			2
+Kamber			2
+Kamer			2
 kamkorder			2
 kamper	36		2
 kancer	1210		2
@@ -267,7 +267,7 @@ karter	164		2
 karver			2
 kasirer			3
 kaskader	157		3
-kasper			2
+Kasper			2
 kateter	199		3
 katmer			2
 kavaljer	129		3
@@ -311,7 +311,7 @@ kontejner	1698		2
 kontrasmer			3
 kontroler	1299		3
 konverter	178		2
-koper			2
+Koper			2
 korežiser			3
 korijander	125		3
 korner	1451		2
@@ -328,7 +328,7 @@ krejter			2
 kreker	38		2
 kremer			2
 kriger			2
-kristofer			3
+Kristofer			3
 kruzer	248		2
 kufer			2
 kuler			2
@@ -344,7 +344,7 @@ laser	1604		2
 laufer			3
 lenger			2
 ler		M	1
-lester			2
+Lester			2
 ležer			2
 licemer	306		3
 licider			3
@@ -394,14 +394,14 @@ miločer			3
 miner			2
 mister	615		2
 miteser			2
-moamer			3
+Moamer			3
 moher			2
 moler	292		2
 monsenjer			3
 montažer	304		3
 monter	70		2
 mozer			2
-muamer			3
+Muamer			3
 multimilioner			3
 muster			2
 muter		M	2
@@ -421,14 +421,14 @@ ober			2
 oblakoder	161		3
 observer			2
 obzerver			2
-oder			2
+Oder			2
 ofinger			3
 ojler			2
 oker	258		2
 oldtajmer	147		3
 oleander			3
-oliver			2
-omer	492		2
+Oliver			2
+Omer	492		2
 omjer		M	2
 openhajmer			3
 operater	2135		3
@@ -457,12 +457,12 @@ pendžer		M	2
 penzioner			2
 per		M	1
 perper	78		2
-peter			2
+Peter			2
 pešter	135		2
 pinter		M	2
 pinčer			2
 piper			2
-piter			2
+Piter			2
 pjer			1
 planer	282		2
 plantažer			3
@@ -499,7 +499,7 @@ promer	196		2
 promjer	81	J	2
 promoter	1302		2
 propeler	187		3
-prosper			2
+Prosper			2
 protoprezviter	79		3
 provajder	1495		3
 puder	1466		2
@@ -534,7 +534,7 @@ režiser	3315		2
 ridiger			2
 rihter			2
 riter		M	2
-river			2
+River			2
 rober			2
 robespjer			3
 roger			2
@@ -553,7 +553,7 @@ saher			2
 sajber	1923		2
 salamander	42		3
 sanader			3
-sefer			2
+Sefer			2
 seiner			2
 sekvencer			3
 seljober			3
@@ -566,12 +566,12 @@ sever	7262		2
 sfinkter	91		2
 sikter		M	2
 silver			2
-silvester			3
+Silvester			3
 simpatizer	580		2
 singer			2
 sintisajzer	89		2
 skafander	133		3
-skender			2
+Skender			2
 skener	2153		2
 skijaker			3
 skiper	82		2
@@ -647,7 +647,7 @@ vajlder			2
 valcer	581		2
 valter			2
 valzer			2
-vankuver			2
+Vankuver			2
 vaučer	1198		3
 veber			2
 velter			2

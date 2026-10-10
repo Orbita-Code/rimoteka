@@ -11,45 +11,45 @@ blond	25		1
 bond			1
 brand	881		1
 brend	12392		1
-dezmond			2
+Dezmond			2
 diznilend			3
 doktorand			2
-dortmund			2
-edmond			2
-edmund			2
+Dortmund			2
+Edmond			2
+Edmund			2
 end			1
-ferdinand			3
+Ferdinand			3
 fond	27290		1
 forhend	355		2
 frend	134		1
 garland			2
-gazmend			2
+Gazmend			2
 grand	1440		1
 grenland			2
 grund			1
 hand			1
 hend			1
 hepiend	101		3
-klivland			2
+Klivland			2
 klivlend			2
 korund	28		2
 kulturbund			3
 land			1
 lind			1
-lund			1
+Lund			1
 megatrend			3
 merilend			3
 paund			2
 portland			2
 rejmond			2
 ričmond			2
-roland			2
+Roland			2
 samarkand			3
 sand			1
 sekund	1566		2
-sigmund			2
+Sigmund			2
 skotland			2
-svazilend			3
+Svazilend			3
 tamarind			3
 trend	14882		1
 vagabund	21		3
@@ -59,4 +59,4 @@ zeland			2
 štand	2850		1
 štrand	602		1
 šund	506		1
-žigmund			2
+Žigmund			2

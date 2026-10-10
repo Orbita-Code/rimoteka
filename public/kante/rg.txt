@@ -1,6 +1,6 @@
 42
 Hamburg		M	2
-burg	26		1
+Burg	26		1
 demijurg		M	3
 dramaturg	863		3
 edinburg			3
@@ -23,17 +23,17 @@ kronenberg			3
 likurg			2
 lindberg			2
 luksemburg			3
-magdeburg			3
-meklenburg			3
+Magdeburg			3
+Meklenburg			3
 metalurg	77		3
 morg			1
 neurohirurg	190		4
 neurokirurg			4
-nirnberg			2
+Nirnberg			2
 peterburg			3
 pitsburg			2
 rozenberg			3
-salcburg			2
+Salcburg			2
 spilberg			2
 strazberg			2
 strindberg			2

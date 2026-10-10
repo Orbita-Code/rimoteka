@@ -33,7 +33,7 @@ dvojba	17		2
 dvorba			2
 džaba		M	2
 džomba		M	2
-elba			2
+Elba			2
 farba	777		2
 fiba			2
 gajba		M	2
@@ -87,7 +87,7 @@ kolumba			3
 komidba		M	3
 konoba	93		3
 koraba	10		3
-kordoba			3
+Kordoba			3
 kosidba	173		3
 kraba	130		2
 krezuba	51		3
@@ -100,7 +100,7 @@ luba			2
 lumumba			3
 magreba			2
 mamba	122		2
-manitoba			4
+Manitoba			4
 marimba			2
 mekteba	61		3
 mikroba			3

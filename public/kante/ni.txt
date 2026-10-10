@@ -428,7 +428,7 @@ briljantni	267		3
 brini	1940		2
 brioni			3
 brisani	203		3
-britni			2
+Britni			2
 brižni	377		2
 brodogradilišni			3
 brojevni	12		2
@@ -593,7 +593,7 @@ demodirani	11		3
 demolirani	26		3
 demoni	1197		2
 demontažni			3
-deni	297		2
+Deni	297		2
 dentalni	100		2
 deobni		M	3
 deoni			3
@@ -939,9 +939,9 @@ endemični			3
 endokrini	163		3
 endorfini	73		3
 energični	405		3
-eni			2
+Eni			2
 enormni	235		3
-entoni			3
+Entoni			3
 entuzijastični	64		3
 eoni			3
 epiduralni	50		5
@@ -983,7 +983,7 @@ familijarni	87		5
 famozni	1253		3
 fanatizovani			3
 fanatični	199		3
-fani		M	2
+Fani		M	2
 fantastični	1265		3
 faraoni	140		2
 farsični	21		3
@@ -2268,7 +2268,7 @@ lumeni	20		3
 lunarni	346		2
 lupni			2
 luterani	25		2
-lučani			3
+Lučani			3
 lučni	128		2
 luženi			3
 lužini			3
@@ -2377,7 +2377,7 @@ mehani			3
 mehanizovani	33		3
 mejdani			3
 mekani	500		3
-melani			3
+Melani			3
 melioracioni		M	3
 membrani	120		2
 memorijalni	1069		5
@@ -4518,7 +4518,7 @@ praktični	3020		3
 prameni			3
 pramčani	20		3
 prani	18		2
-pranjani			3
+Pranjani			3
 pravedni	988		3
 pravilni	190		3
 pravični	134		3
@@ -5438,7 +5438,7 @@ rigidni	190		3
 rigorozni	300		4
 riječani	12		3
 rikni			2
-rimini	21		2
+Rimini	21		2
 rimljani			3
 riskantni	19		2
 ritualni	184		4

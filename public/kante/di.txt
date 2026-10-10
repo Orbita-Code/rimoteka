@@ -50,7 +50,7 @@ budi	13296		2
 bujadi	12		3
 bundi	136		2
 buradi	411		3
-burundi			2
+Burundi			2
 cedi	447		2
 cevovodi	135		4
 cijanidi			3
@@ -89,19 +89,19 @@ dugobradi			3
 dvogledi	73		3
 dvosedi	46		3
 džidi			2
-edi			2
+Edi			2
 efendi		M	3
 elektrodi	23		2
-endi			2
+Endi			2
 epizodi	1365		2
 estradi	595		3
 etidi			3
-fadi			2
+Fadi			2
 fasadi	1215		2
 feudi	72		3
 floridi			3
 fluidi	97		3
-fredi			2
+Fredi			2
 gadi	757		2
 gajdi	68		2
 gamadi	175		3
@@ -130,9 +130,9 @@ gudi	75		2
 haciendi			3
 hacijendi	17		3
 hajdi			2
-hamdi			2
+Hamdi			2
 hardi			2
-hedi			2
+Hedi			2
 hemoroidi	358		3
 herbicidi	180		3
 hibridi	705		2
@@ -473,7 +473,7 @@ rodi	5858		2
 romboidi	13		3
 rotondi			3
 ruandi			3
-rudi	284		2
+Rudi	284		2
 rukovodi	4441		2
 rundi	2176		2
 sadi	1020		2

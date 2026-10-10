@@ -639,7 +639,7 @@ katarci	14		3
 katici			3
 katolici	2048		4
 kaubojci			3
-kavadarci			3
+Kavadarci			3
 kazaljci			2
 kaznionici	18		3
 kašici	60		3
@@ -2151,7 +2151,7 @@ vilenjaci	328		3
 vilici	362		3
 viljušci			3
 vinjaci			3
-vinkovci			3
+Vinkovci			3
 vinovnici	346		3
 vizantinci			3
 višnjici			3

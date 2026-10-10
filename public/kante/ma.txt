@@ -1438,7 +1438,7 @@ elektrošokovima	75		3
 elementima	7115		4
 elipsama	36		3
 elitama	446		3
-ema			2
+Ema			2
 embrionima	61		5
 emfizema	57		2
 emigrantima	256		4
@@ -1476,7 +1476,7 @@ esejima	310		3
 eskapizma			3
 eskima			3
 eskimima			3
-esma			2
+Esma			2
 esnafima			3
 estetikama			4
 estradama			3
@@ -1535,7 +1535,7 @@ farsama	19		3
 fasadama	776		3
 fasciklama			3
 fatalizma	73		2
-fatima			3
+Fatima			3
 fatuma			3
 faunima			3
 favelama	62		4
@@ -2002,7 +2002,7 @@ hipodroma	347		4
 hipotekama	200		3
 hipotezama	113		3
 hirovima	123		4
-hirošima			2
+Hirošima			2
 hirurzima	178		3
 hispancima			3
 histograma			3
@@ -2167,7 +2167,7 @@ irancima			3
 iračanima			3
 ircima	206		3
 iridijuma			3
-irma			2
+Irma			2
 irvasima	40		4
 isceljenjima	63		3
 iscrpnima			4
@@ -2922,7 +2922,7 @@ kovčezima	68		4
 kozacima	87		3
 kozama	143		3
 kozima			3
-kozma			2
+Kozma			2
 kočijama	264		4
 kočijašima	12		3
 kočnicama	277		4
@@ -3568,7 +3568,7 @@ merdevinama			3
 merdžanima			3
 merenjima	673		3
 merilima	1518		4
-merima			3
+Merima			3
 mesarama	169		3
 mesarima	25		4
 mesecima	11746		3
@@ -3718,7 +3718,7 @@ moliteljima			3
 molitvama	2655		4
 molitvenicima	21		3
 moljcima	18		3
-moma			2
+Moma			2
 momcima	2391		3
 momentima	2547		4
 monahinjama	159		3
@@ -4681,7 +4681,7 @@ parketima	57		4
 parkinzima			3
 parkiralištima	267		5
 parkovima	1991		4
-parma			2
+Parma			2
 parnicama	229		3
 parohijama	249		3
 parohijanima	231		3
@@ -6022,7 +6022,7 @@ rukovetima	22		5
 rukovodiocima	1058		5
 ruksacima	16		4
 ruljama			3
-ruma	2313		2
+Ruma	2313		2
 rumovima			4
 rumunima			3
 runama	31		3
@@ -6077,7 +6077,7 @@ saksoncima			3
 salama	815		2
 salatama	417		3
 salašima			3
-salma			2
+Salma			2
 salonima	1298		3
 salvadorcima			3
 salvama			3
@@ -7624,7 +7624,7 @@ vilicama	112		4
 vilijama			3
 vilima			3
 viljuškama	63		4
-vilma			2
+Vilma			2
 vinićima			4
 vinjetama	56		3
 vinogradima	1361		5

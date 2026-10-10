@@ -216,7 +216,7 @@ iščuđavaj			3
 javljaj	123		2
 jačaj	31		2
 jecaj	186		2
-juraj			2
+Juraj			2
 kaj	460		1
 kalaj	214		2
 kapiraj	16		2
@@ -243,7 +243,7 @@ kopkaj			2
 koprcaj			3
 koračaj	33		3
 korodiraj			3
-kosmaj			2
+Kosmaj			2
 kotrljaj			2
 kraj	74044		1
 krckaj			2
@@ -275,7 +275,7 @@ lumperaj		M	3
 lupaj	296		2
 lupetaj	234		3
 lutaj	13		2
-maglaj			2
+Maglaj			2
 mahaj			2
 maj	33955		1
 malaksavaj			3

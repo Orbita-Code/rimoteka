@@ -10,7 +10,7 @@ bademantil			3
 baril			2
 beril	16		2
 bibliofil	23		2
-bil			1
+Bil			1
 bogumil			3
 brazavil			3
 cicmil			2
@@ -26,30 +26,30 @@ dril	103		1
 džemail			3
 džemil			2
 egzil	124		2
-emanuil			3
-emil			2
+Emanuil			3
+Emil			2
 eshil			2
 etil	94		2
-fadil			2
+Fadil			2
 faksimil	186		3
 fentanil	11		3
 fil		M	1
 filmofil	78		2
 fosil	289		2
-gavril			2
+Gavril			2
 gerbil			2
 germanofil		M	3
 gil			1
 gril	359		1
-halil			2
+Halil			2
 hil			1
 hlorofil	136		2
 idil			2
 il			1
 imbecil	72		2
-ismail			3
+Ismail			3
 kadril	68		2
-kamil			2
+Kamil			2
 karanfil	154		2
 kargil			2
 kil			1
@@ -58,7 +58,7 @@ kodicil			2
 koncil	63		2
 krokodil	295		2
 lakokril			3
-lil			1
+Lil			1
 lokomobil			3
 mail	5798		2
 mandril			2
@@ -66,15 +66,15 @@ mantil		M	2
 meil			2
 meril			2
 metil	145		2
-mihail			3
-mihovil			2
+Mihail			3
+Mihovil			2
 mil			1
 mobil	107		2
 muzil			2
-nabil			2
+Nabil			2
 nekrofil			2
 nihil			2
-nil			1
+Nil			1
 oil			2
 pedofil	299		2
 peristil			3
@@ -92,7 +92,7 @@ seksipil	154		3
 sesil			2
 sibil			2
 skril			1
-smail			2
+Smail			2
 stil	15865		1
 superautomobil	154		3
 tamil			2

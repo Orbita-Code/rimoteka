@@ -153,7 +153,7 @@ guvernerov	10		3
 gušterov			3
 gvozdenov			3
 hadžimanov			3
-harkov			2
+Harkov			2
 hegelov			3
 herkulov			3
 hitlerov			3
@@ -269,7 +269,7 @@ leskov		M	2
 lešnikov			3
 limunov	253		3
 lipov			2
-ljvov			1
+Ljvov			1
 lomonosov			3
 lopov	2526		2
 lotosov	44		3
@@ -467,7 +467,7 @@ rov	553		1
 rubinov			3
 sadamov			3
 saharov			3
-samokov			3
+Samokov			3
 samsonov			3
 sandalov			3
 saturnov			3

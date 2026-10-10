@@ -52,7 +52,7 @@ bakar	1723		2
 balegar		M	3
 balističar	34		3
 balotar			3
-baltazar			3
+Baltazar			3
 bandar			2
 bankar	928		2
 bar	38234		1
@@ -96,7 +96,7 @@ brusar			2
 brzinometar		M	3
 bubnjar	1000		2
 budoar			2
-bujar			2
+Bujar			2
 bukvar	660		2
 bulevar		M	2
 bumbar	173		2
@@ -132,14 +132,14 @@ daljinar		M	3
 damar	47		2
 dar	7600		1
 darmar		M	2
-debar			2
+Debar			2
 decembar	16605		2
 decilitar	63		3
 decimetar	15		4
 dekalitar		M	3
 dekametar		M	4
 dekar			2
-demetar			2
+Demetar			2
 denar	108		2
 deoničar	96		3
 depozitar	32		3
@@ -153,7 +153,7 @@ dijagnostičar	45		3
 dijalektičar	49		3
 dijametar	109		4
 dijetetičar			3
-dimitar			3
+Dimitar			3
 dimničar		M	3
 dinamometar			3
 dinar	14660		2
@@ -161,7 +161,7 @@ dinjar			2
 distrofičar			3
 dizaličar			3
 dizdar	79		2
-dmitar			2
+Dmitar			2
 dnevničar			3
 dobar	89973		2
 dobošar		M	3
@@ -183,7 +183,7 @@ dupljar			2
 duvar	77		2
 džeferdar		M	2
 džepar			2
-edgar			2
+Edgar			2
 eduar			3
 egzemplar	76		2
 eklektičar			3
@@ -246,7 +246,7 @@ goniometar			3
 gospar	66		2
 gospodar	4530		2
 gostioničar	57		3
-gostivar			2
+Gostivar			2
 govedar	29		2
 grabar			2
 gradinar		M	3
@@ -268,7 +268,7 @@ guseničar	28		3
 guslar	271		2
 guščar			2
 gvožđar			2
-hajdar			2
+Hajdar			2
 hajvar		M	2
 handžar		M	2
 hangar	266		2
@@ -302,8 +302,8 @@ hrabar	2628		2
 hroničar	723		3
 hronometar	373		4
 husar	45		2
-hvar			1
-ibar			2
+Hvar			1
+Ibar			2
 ijekar		J	3
 ikar			2
 informatičar	263		3
@@ -317,7 +317,7 @@ itar			2
 itinerar			3
 izmećar			3
 jabučar		M	3
-jadar			2
+Jadar			2
 jaguar	452		3
 janičar	86		3
 janjičar	40		3
@@ -340,7 +340,7 @@ kalmar			2
 kamenar		M	2
 kamenjar	135		2
 kancelar	943		2
-kandahar			3
+Kandahar			3
 kandelabar			3
 kanistar	20		3
 kantar	172		2
@@ -443,7 +443,7 @@ kvartar			2
 kvazar	52		2
 lakoatletičar			3
 laktometar		M	4
-lamar			2
+Lamar			2
 lampar			2
 lastar	30		2
 lautar			3
@@ -451,7 +451,7 @@ lazar		M	2
 lađar	21		2
 legionar	107		2
 lekar	14354		2
-leotar			3
+Leotar			3
 levar			2
 levičar	511		3
 lešinar	88		3
@@ -527,7 +527,7 @@ ministar	86999		3
 miročuvar			3
 misionar	227		2
 mističar	21		3
-mitar			2
+Mitar			2
 mišar	45		2
 mladar			2
 mlekar	51		2
@@ -538,7 +538,7 @@ modelar	64		2
 mokar	649		2
 molnar			2
 mornar	547		2
-mostar			2
+Mostar			2
 močar			2
 močvar			2
 mrežar			2
@@ -579,7 +579,7 @@ oktaedar			3
 oktobar	19473		2
 okular	344		2
 oltar	1346		2
-omar			2
+Omar			2
 opančar		M	3
 opozicionar	309		3
 opsenar	41		2
@@ -624,7 +624,7 @@ petar			2
 pećinar			3
 pečalbar		M	3
 peščar			2
-pilar	50		2
+Pilar	50		2
 pilićar	14		3
 piljar	45		2
 pindar			2
@@ -760,7 +760,7 @@ sisar	131		2
 sistematičar			3
 sitar		M	2
 sitničar	42		3
-skadar			2
+Skadar			2
 skelar			2
 skeptičar			3
 skiptar		M	2
@@ -871,7 +871,7 @@ užar	19		2
 vajar	833		2
 valjar		M	2
 var			1
-vardar			2
+Vardar			2
 varvar			2
 vašar		M	2
 vedar	659		2
@@ -910,7 +910,7 @@ vračar	1871		2
 vretenar			2
 vrtar			2
 vrtlar	67		2
-vukovar			2
+Vukovar			2
 zadar			2
 zadrugar	157		3
 zadužbinar	83		2

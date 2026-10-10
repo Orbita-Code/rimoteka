@@ -488,13 +488,13 @@ džem	675		1
 džeparcem	46		3
 džidićem			3
 edem	275		2
-edhem			2
+Edhem			2
 edukovanjem	25		3
 edukujem	102		3
 ekcem	642		2
 ekmečićem			3
 ekosistem		M	2
-ekrem			2
+Ekrem			2
 eksperimentišem	191		3
 ekstazijem			3
 ekstrem	207		2
@@ -506,7 +506,7 @@ emitovanjem	811		3
 emitujem	30		3
 erićem			3
 esejem	32		2
-etem			2
+Etem			2
 eurokrem	156		3
 evakuišem			3
 evanđeljem	55		2
@@ -3277,7 +3277,7 @@ rukovanjem	247		3
 rukovodiocem	203		4
 rukujem	88		3
 rupcem	12		2
-rustem			2
+Rustem			2
 rušenjem	719		3
 ružem	72		2
 ruženjem			3

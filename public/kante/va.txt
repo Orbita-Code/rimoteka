@@ -223,7 +223,7 @@ brusova			3
 brzojava			4
 bubnjeva	416		3
 bubuljičava			3
-budva			2
+Budva			2
 bukava	36		3
 bukova	180		3
 bukva	378		2
@@ -372,7 +372,7 @@ draganova			3
 dragačeva			3
 dragoslava			4
 drapava			3
-drava			2
+Drava			2
 dračeva			3
 drenova	60		3
 dresova	488		3
@@ -433,7 +433,7 @@ episkopova			3
 epova	111		3
 erićeva			3
 euprava			3
-eva			2
+Eva			2
 fajlova	5146		3
 faksova	135		3
 fanova	3117		3
@@ -870,7 +870,7 @@ kneževa	334		3
 knjava			2
 knjaževa			3
 knjigovodstva	777		2
-koceljeva			3
+Koceljeva			3
 kodova	863		3
 kojekakva	122		3
 kokosova	68		3
@@ -1019,7 +1019,7 @@ lenjinova			3
 leopardova			5
 lepkova	318		3
 lepljiva	300		3
-lepoglava			3
+Lepoglava			3
 leposava			3
 lepršava	165		3
 leptirova	12		3
@@ -1392,7 +1392,7 @@ neranjiva	12		2
 neraskidiva	242		2
 nerava			3
 nerazumljiva	283		3
-neretva			2
+Neretva			2
 nerešiva	251		3
 nerva	580		2
 nesagoriva			3
@@ -1423,7 +1423,7 @@ neutaživa	37		3
 neutoljiva			2
 neuverljiva	71		3
 neučtiva			2
-neva			2
+Neva			2
 nevaljalstva	49		3
 neverstva	215		3
 nevidljiva	1558		3
@@ -1446,7 +1446,7 @@ neškodljiva	126		3
 neživa	49		2
 nikakova			3
 nikakva	11153		3
-nikaragva			2
+Nikaragva			2
 nikiforova			3
 nikolićeva			3
 nikolova			3
@@ -2593,7 +2593,7 @@ tajanstva	65		2
 taktova	226		3
 takva	45684		2
 talasava			3
-tamnava			3
+Tamnava			3
 tamnoplava	42		4
 tamnosiva	30		2
 tankova			3
@@ -2655,7 +2655,7 @@ trgova	1023		3
 triglava			3
 trikova	1345		3
 tričava	13		3
-trnava			3
+Trnava			3
 trnova	164		3
 troglava	43		3
 trojstva	418		2
@@ -3185,7 +3185,7 @@ zvukova	1251		3
 đapićeva			3
 đavolova	36		3
 đavolstva			3
-đenova			3
+Đenova			3
 đilasova			3
 đinđićeva			3
 đinđuva		M	3
@@ -3266,7 +3266,7 @@ zvukova	1251		3
 žbunova	115		3
 ždralova	112		3
 žekićeva			3
-ženeva			2
+Ženeva			2
 žerajićeva			3
 žetva	1699		2
 žgoljava	14		3

@@ -1,6 +1,6 @@
 78
 ajaks			2
-aleks			2
+Aleks			2
 aneks	1606		2
 antiklimaks	22		3
 antraks	79		2
@@ -15,7 +15,7 @@ dupleks			2
 džuboks	100		2
 eks	1242		1
 faks	1902		1
-feliks			2
+Feliks			2
 feniks	519		2
 fiks	166		1
 floks			1
@@ -44,10 +44,10 @@ korteks	173		2
 kseroks			2
 lasteks			2
 lateks	156		2
-leks			1
+Leks			1
 linuks			2
 luks	151		1
-maks			1
+Maks			1
 marks			1
 matriks	219		2
 miks	1511		1
@@ -71,7 +71,7 @@ saks			1
 seks	16163		1
 semteks			2
 spandeks			2
-stiks			1
+Stiks			1
 sufiks	212		2
 telefaks	64		3
 teleks	20		2

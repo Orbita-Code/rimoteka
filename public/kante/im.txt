@@ -35,7 +35,7 @@ alarmiranim			3
 alarmnim	84		3
 albanskim	1704		2
 alfanumeričkim	15		3
-alim			2
+Alim			2
 alkoholnim	257		4
 alpskim	196		2
 alternativnim	1221		5
@@ -100,7 +100,7 @@ artikulisanim	28		3
 artističkim	25		3
 aseksualnim			3
 asfaltnim	353		2
-asim			2
+Asim			2
 asimetričnim	100		3
 asketskim	45		3
 astmatičnim			3
@@ -395,7 +395,7 @@ božijim	912		3
 božićnim	247		3
 božjim	1315		2
 bradatim	31		3
-brahim			2
+Brahim			2
 branim	2628		2
 brankovim			3
 bratim			2
@@ -451,7 +451,7 @@ buljavim	27		3
 buljim	106		2
 bunim	332		2
 buntovnim	43		3
-burim	18		2
+Burim	18		2
 burnim	759		2
 buržoaskim	77		3
 buržujskim			3
@@ -740,7 +740,7 @@ drevnim	864		2
 drečavim	51		3
 drhtavim	220		3
 drhtim	215		2
-drim		M	1
+Drim		M	1
 drinskim	20		2
 drskim	144		2
 drugarskim	44		3
@@ -894,7 +894,7 @@ fašističkim	413		3
 federacijskim			3
 federalnim	425		3
 federativnim	21		5
-fehim			2
+Fehim			2
 fenomenalnim	421		5
 feudalnim	106		4
 fiksiranim	39		3
@@ -1117,7 +1117,7 @@ habsburškim	10		3
 haim			2
 hajdučkim	52		3
 halapljivim	19		3
-halim			2
+Halim			2
 halogenim			3
 haotičnim	94		3
 hapsim			2
@@ -1192,7 +1192,7 @@ husarskim	16		3
 hvalim	1039		2
 hvaljenim	20		3
 ibarskim			3
-ibrahim			3
+Ibrahim			3
 ibrišim			2
 idealnim	1702		4
 idejnim	422		2
@@ -1626,7 +1626,7 @@ jelovim	10		3
 jemčim	20		2
 jeretičkim	68		3
 jermenskim	81		2
-jeronim			2
+Jeronim			2
 jesenjim	396		2
 jestivim	147		3
 jetkim	21		2
@@ -1637,9 +1637,9 @@ jezivim	180		3
 jezičkim	791		3
 jezičnim	37		3
 ježim	169		2
-joahim			3
+Joahim			3
 joakim			3
-joksim			2
+Joksim			2
 jonskim	154		2
 jordanskim	41		3
 josifovim			3
@@ -1700,7 +1700,7 @@ karakterističnim	1094		3
 karakternim	126		2
 karatnim	44		2
 karbonskim	57		3
-karim			2
+Karim			2
 karipskim	70		3
 kariranim	104		3
 kartaškim	15		3
@@ -1730,7 +1730,7 @@ kelnerskim			3
 keltskim	68		2
 keramičkim	316		3
 kerećim			3
-kerim			2
+Kerim			2
 kicoškim			3
 kijevskim	51		3
 kikindskim	141		3
@@ -1984,7 +1984,7 @@ kuburim	18		3
 kudim	91		2
 kudravim			3
 kuhinjskim	384		3
-kujtim			2
+Kujtim			2
 kukastim	117		3
 kukavičkim	35		4
 kukavnim	16		3
@@ -2190,7 +2190,7 @@ majskim	357		2
 majušnim			2
 majčinim	374		3
 majčinskim	38		3
-maksim		M	2
+Maksim		M	2
 maksimalnim	1554		4
 malaksalim			3
 malecnim			2
@@ -2310,7 +2310,7 @@ micićevim			3
 mihićevim			3
 mikroskopskim	71		4
 mikrotalasnim			3
-milaim			3
+Milaim			3
 milanskim	123		3
 milenijskim			3
 milim	413		2
@@ -2542,7 +2542,7 @@ nahranim	154		2
 nahvalim	21		2
 nailazećim			3
 nailazim	392		3
-naim			2
+Naim			2
 naivnim	360		3
 naizmeničnim	195		3
 najaktivnijim			5
@@ -2817,7 +2817,7 @@ navučenim	10		3
 nazadnijim			4
 nazadnim	76		3
 nazdravim	38		3
-nazim			2
+Nazim			2
 naznačenim	266		3
 naznačim	44		3
 nazubljenim			3
@@ -2847,7 +2847,7 @@ nedelatnim			3
 nedeljanim			3
 nedeljivim	16		3
 nedeljnim	413		2
-nedim			2
+Nedim			2
 nedirnutim	26		3
 nedićevim			3
 nedobrim			3
@@ -3195,7 +3195,7 @@ nikakvim	344		3
 nikodim			3
 nikolovim			3
 nikšićkim	49		3
-nim		M	1
+Nim		M	1
 niskim	5277		2
 ničijim	15		3
 ničim	3145		2
@@ -5051,9 +5051,9 @@ radnim	11692		2
 radničkim	1166		3
 radosnim	256		3
 radoznalim	169		3
-rahim			2
+Rahim			2
 rahitičnim			3
-raim			2
+Raim			2
 rajićevim			3
 rajnskim	10		2
 rajskim	192		2
@@ -5076,7 +5076,7 @@ raseljenim	768		3
 rasečenim			4
 rashladim	25		2
 rashladnim	325		2
-rasim			2
+Rasim			2
 rasipničkim	18		3
 rasističkim	169		3
 raskalašnim	36		4
@@ -6861,7 +6861,7 @@ vijenim		M	3
 vijetnamskim	44		4
 vijugavim	101		3
 vikinškim	11		3
-vilim			2
+Vilim			2
 vilinim			3
 vilinskim	32		3
 vinskim	442		2
@@ -7040,7 +7040,7 @@ zahvalim	3742		2
 zahvalnim	53		2
 zahvatim	26		3
 zahvaćenim	112		4
-zaim			2
+Zaim			2
 zainatim	22		3
 zainteresovanim	3896		3
 zajapurenim			3

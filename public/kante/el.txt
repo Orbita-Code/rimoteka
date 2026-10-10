@@ -12,14 +12,14 @@ arijel			3
 aristotel			2
 askurđel			3
 barel	930		2
-bazel			2
+Bazel			2
 bešamel	184		2
 biodizel	453		3
 bordel		M	2
 bušel			2
 cel			1
-daniel			3
-danijel			3
+Daniel			3
+Danijel			3
 decibel	31		3
 del		M	1
 dembel		M	2
@@ -27,7 +27,7 @@ demirel			3
 dizel	7778		2
 duel	7722		2
 el		M	1
-emanuel			3
+Emanuel			3
 enformel			3
 epitel	217		3
 falafel	23		3
@@ -35,19 +35,19 @@ fidel			2
 flanel	20		2
 fogel			2
 fotomodel	60		3
-gabriel			3
-gabrijel			3
+Gabriel			3
+Gabrijel			3
 gel	1939		1
 gospel	128		2
 havel			2
 hegel			2
 hostel	652		2
 hotel	22837		2
-imanuel			3
+Imanuel			3
 incel			2
 intel			2
 israel			3
-izabel			3
+Izabel			3
 jel			1
 kabel	578		2
 kajtel			2
@@ -57,37 +57,37 @@ karamel	226		3
 karel			2
 kartel	496		2
 karusel	89		3
-kasel			2
+Kasel			2
 kastel			2
 kaštel		M	2
 kembel			2
 kempbel			2
 koktel	2857		2
-kornel			2
+Kornel			2
 kornvel			2
 kromvel			2
-lionel			3
+Lionel			3
 lorel			2
 madmazel			3
-manuel			3
+Manuel			3
 marsel			2
 mefistofel			3
 megapiksel			3
-mel		M	1
+Mel		M	1
 merkel			2
-michael			3
+Michael			3
 michel			2
 migel			2
 miguel			3
-mihael			3
+Mihael			3
 mikael			3
 mobitel	279		3
 mobtel			2
 model	54814		2
 motel	724		2
-nel			1
+Nel			1
 nobel			2
-noel			2
+Noel			2
 nonparel		M	3
 odstrel	620		2
 opel	2444		2
@@ -96,7 +96,7 @@ orvel			2
 panel	4383		2
 pastel		M	2
 pauel			3
-pavel			2
+Pavel			2
 piksel	319		2
 prostrel			2
 rafael			3
@@ -105,8 +105,8 @@ rasel			2
 rebel			2
 samjuel			3
 samostrel	63		3
-samuel			3
-sanel			2
+Samuel			3
+Sanel			2
 sel			1
 semjuel			3
 sinđel		M	2
@@ -114,7 +114,7 @@ skalpel	158		2
 sorel			2
 supermodel	179		3
 tel	1740		1
-titel			2
+Titel			2
 tunel	2664		2
 vesel			2
 vizel			2

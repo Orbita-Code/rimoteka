@@ -3,15 +3,15 @@ adidas			3
 alas	295		2
 alias	385		3
 ananas	567		3
-anastas			3
+Anastas			3
 arbanas			2
 arkanzas			3
 as	3261		1
-atanas			2
+Atanas			2
 atlas	1444		2
 bajpas	150		2
 bas	13497		1
-burgas			2
+Burgas			2
 daglas			2
 dalas			2
 dallas			2
@@ -19,7 +19,7 @@ danas	416704		2
 das			1
 domaločas		M	3
 džambas		M	2
-elijas			3
+Elijas			3
 erbas			2
 fiberglas	73		3
 fileas			3
@@ -55,10 +55,10 @@ kvantas			2
 kvas			1
 las		M	1
 levinas			2
-lukas			2
+Lukas			2
 maločas	1080		3
 mas			1
-matijas			3
+Matijas			3
 međuglas			3
 mikrotalas		M	3
 naftagas			3
@@ -76,7 +76,7 @@ očas		M	2
 palas			2
 pampas			2
 pankreas	366		3
-parnas			2
+Parnas			2
 pas	12670		1
 pleksiglas	135		3
 pojas	4092		2
@@ -109,7 +109,7 @@ vegas			2
 veritas			3
 večeras	18007		2
 vlas	561		1
-vrbas			2
+Vrbas			2
 začas	676		2
 čas	21044		1
 čukvas			2

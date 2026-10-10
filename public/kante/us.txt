@@ -69,12 +69,12 @@ kasijus			3
 klaus			2
 koitus	68		3
 kokus	51		2
-kolambus			3
+Kolambus			3
 kolumbus			3
 koncenzus	169		3
 konsenzus	4434		2
 konus			2
-kornelijus			3
+Kornelijus			3
 korpus	2189		2
 kosinus	28		3
 krampus			2
@@ -94,8 +94,8 @@ lotus	272		2
 ludus			2
 luksus			2
 lupus	264		2
-magnus			2
-markus			2
+Magnus			2
+Markus			2
 mauricijus			3
 maus			2
 meniskus		M	3

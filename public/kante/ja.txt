@@ -102,21 +102,21 @@ akvitanija			3
 akvizicija	677		3
 alegorija	294		3
 aleja	218		2
-aleksandrija			3
+Aleksandrija			3
 alekseja			2
 aleksija			3
 aleluja	51		3
 alergija	2800		3
 alhemija	276		3
 alibija	181		3
-alija			3
+Alija			3
 alijenacija	29		3
 aliluja		M	3
 alimentacija	121		3
 alimpija			3
 alineja	226		2
 aliteracija			3
-almerija			3
+Almerija			3
 alociranja	19		4
 aloja	174		3
 alojzija			3
@@ -148,7 +148,7 @@ anarhistkinja			4
 anastasija			3
 anastazija			3
 anatomija	546		3
-andaluzija			3
+Andaluzija			3
 andreja			2
 andrija			3
 aneksija	144		3
@@ -164,7 +164,7 @@ anomalija	1269		3
 anomija			3
 anonimnija			5
 anoreksija	358		3
-antalija			3
+Antalija			3
 anterija			3
 anticipacija	121		3
 antifašistkinja			4
@@ -210,7 +210,7 @@ arilja			3
 aristokratija	247		3
 aristokratkinja	29		4
 aritmija	280		3
-arkadija			3
+Arkadija			3
 armija	4511		3
 arnautkinja			4
 arogancija	471		3
@@ -301,9 +301,9 @@ balzamiranja			4
 balzamovanja			4
 bamija	18		3
 banalnija			3
-banija	86		3
+Banija	86		3
 banja		M	2
-baranja			3
+Baranja			3
 baratanja	134		3
 bastilja			3
 baterija	6760		3
@@ -443,7 +443,7 @@ boksovanja			3
 bolesnija			3
 bolja	20294		2
 bolnija	91		3
-bolonja			3
+Bolonja			3
 bolovanja	1433		4
 bombaja			3
 bombardovanja	7789		4
@@ -509,7 +509,7 @@ buja	570		2
 buklija		M	3
 buktanja			3
 buktinja	108		3
-bukulja			3
+Bukulja			3
 bulažnjenja			3
 bulimija	143		3
 bulja	112		2
@@ -850,7 +850,7 @@ dopisivanja	240		4
 dopunjavanja	159		4
 dopuštanja	49		3
 dopuštenja	166		2
-doroteja			2
+Doroteja			2
 dosadašnja	3272		3
 dosadnija	38		4
 dosađivanja	31		4
@@ -1006,7 +1006,7 @@ elektrodistribucija	848		3
 elektrohemija		M	3
 elektroterapija	63		3
 elevacija	42		3
-elija			3
+Elija			3
 eliminacija	778		3
 elitnija			3
 elizija			3
@@ -1048,9 +1048,9 @@ epistemologija	47		3
 epopeja	245		2
 erdelja			3
 erekcija	229		3
-eremija			3
+Eremija			3
 ergonomija			3
-eritreja			2
+Eritreja			2
 erotomanija			3
 erozija	495		3
 erudicija	70		3
@@ -1076,7 +1076,7 @@ evaluacija	1218		3
 evaluiranja			4
 evanđelja	590		2
 evazija	40		3
-evdokija			3
+Evdokija			3
 evgenija			3
 evidencija	3036		3
 evokacija	55		3
@@ -1103,11 +1103,11 @@ farmakologija	128		3
 farmakopeja	48		3
 fascinacija	431		3
 favoritkinja			4
-fazlija			3
+Fazlija			3
 federacija	3853		3
 fekalija	250		3
 feldžandarmerija			3
-felicija			3
+Felicija			3
 felinija			3
 femija			3
 feministkinja	406		3
@@ -1123,7 +1123,7 @@ figuracija	46		3
 fikcija	1017		3
 fiksacija	206		3
 fiksiranja	151		3
-filadelfija			3
+Filadelfija			3
 filantropija	116		3
 filatelija	35		3
 filharmonija	647		3
@@ -1263,7 +1263,7 @@ glicinija			3
 globalizacija	2114		3
 gloginja			3
 glorifikacija	105		3
-glorija			3
+Glorija			3
 gloženja			3
 glumatanja	40		3
 glumljenja	34		3
@@ -1280,7 +1280,7 @@ gogolja			3
 goja			2
 gojenja	132		3
 golicanja	55		3
-golija	480		3
+Golija	480		3
 golja			2
 golotinja	210		3
 golubija			3
@@ -1351,7 +1351,7 @@ groblja	4741		2
 grofovija	35		3
 grublja	102		2
 grudobolja		M	3
-gruja			2
+Gruja			2
 grumenja	26		3
 grupacija	3836		3
 grupisanja	299		3
@@ -1387,7 +1387,7 @@ hagiografija	24		3
 haitija			3
 hajdukovanja			4
 hajdučija	100		3
-hajrija			3
+Hajrija			3
 hakovanja	204		3
 hakslija			3
 haleluja			3
@@ -1395,7 +1395,7 @@ halja			2
 halucinacija	230		3
 hamajlija			3
 hamburgerija		M	3
-hamdija			3
+Hamdija			3
 handžija			3
 hapsandžija			3
 hapsenja			3
@@ -1433,7 +1433,7 @@ hidroizolacija	329		3
 hidroterapija	64		3
 hidžrija			3
 hijerarhija	766		3
-hilmija			3
+Hilmija			3
 himalaja			2
 hipertenzija	818		3
 hipertrofija	136		3
@@ -1614,7 +1614,7 @@ inventarisanja			4
 inverzija	231		3
 investicija	25366		3
 investiranja	2240		4
-inđija			3
+Inđija			3
 inženjerija	16		3
 irineja			2
 iritacija	382		3
@@ -1867,14 +1867,14 @@ jenkija			3
 jerarhija		M	3
 jereja	480		2
 jeremija			3
-jermenija			3
+Jermenija			3
 jesenja	634		2
 jetija	33		3
 jevanđelja	2007		2
-jevdokija			3
+Jevdokija			3
 jevgenija			3
 jevreja			2
-jevrosija			3
+Jevrosija			3
 jevtimija			3
 jevtinija			3
 ječanja			3
@@ -1889,7 +1889,7 @@ jugohemija			3
 jugoslavija			3
 jugovizija			3
 jukstapozicija			3
-julija			3
+Julija			3
 junakinja	1304		3
 junačenja	38		3
 jurcanja	65		3
@@ -1905,18 +1905,18 @@ južnjakinja			3
 kabadahija	109		3
 kadetkinja	428		4
 kadija		M	3
-kadrija	27		3
+Kadrija	27		3
 kadriranja	130		3
 kadrovanja			3
 kadulja	48		3
 kafedžija	237		3
 kafeterija	266		3
 kafilerija	48		3
-kaja			2
+Kaja			2
 kajanja	644		3
 kajsija	848		3
 kakofonija	93		3
-kalabrija			3
+Kalabrija			3
 kalaja	198		3
 kalcija	62		3
 kaledonija			3
@@ -1973,19 +1973,19 @@ kaspija			3
 kastilja			3
 kastracija	249		3
 kastriranja	11		3
-katalonija			3
-katanija			3
+Katalonija			3
+Katanija			3
 katatonija			3
 kategorija	15137		3
 kategorizacija	501		3
-katja			2
+Katja			2
 katolikinja	16		4
 katoličenja			4
 katolkinja	54		3
 kauboja	253		4
 kaucija	186		3
 kaurkinja		M	3
-kavaja			3
+Kavaja			3
 kavalerija			3
 kavaljerija		M	3
 kavedžija		M	3
@@ -2037,7 +2037,7 @@ klanja	1377		2
 klanjanja	111		3
 klasifikacija	1454		3
 klasja	72		2
-klaudija			3
+Klaudija			3
 klaustrofobija	45		3
 klaćenja	18		3
 klađenja	396		3
@@ -2296,7 +2296,7 @@ kristalizovanja			4
 kriterija	355		3
 kritikovanja	164		4
 kritičnija	41		4
-krivaja		M	3
+Krivaja		M	3
 krivlja			2
 krivljenja	144		3
 krivnja	92		2
@@ -2394,11 +2394,11 @@ lamja			2
 lamperija	48		3
 lansiranja	2706		3
 laparanja			3
-laponija			3
+Laponija			3
 larmadžija		M	4
 laskanja	136		3
-latvija			3
-lavinija			3
+Latvija			3
+Lavinija			3
 laviranja	15		3
 lavlja	93		2
 lavrentija			3
@@ -2421,7 +2421,7 @@ leksikologija	22		3
 leluja	144		3
 lenja	451		2
 lenčarenja	41		3
-leokadija			3
+Leokadija			3
 lepinja	115		3
 lepljenja	544		3
 letargija	149		3
@@ -2437,20 +2437,20 @@ lešija			3
 ležaja	1955		3
 ležanja	328		3
 liberalnija	44		5
-liberija			3
+Liberija			3
 liceja			2
 licemerja	801		4
 licitacija	869		3
 licitiranja	135		4
 lickanja	17		3
-lidija			3
+Lidija			3
 liferacija		M	3
 lignja	71		2
 lija	434		2
 likantropija			3
 likovanja	76		3
 likvidacija	855		3
-lilija		M	3
+Lilija		M	3
 limarija	220		3
 limitiranja	58		4
 limunacija			3
@@ -2458,7 +2458,7 @@ linija	19045		3
 linčovanja			3
 liposukcija	247		3
 lipsavanja			3
-lirija			3
+Lirija			3
 lisičja			3
 listanja	175		3
 litanija	24		3
@@ -2471,12 +2471,12 @@ ličnija	18		3
 lišaja	55		3
 lišavanja	329		3
 lišenja	382		3
-ljilja			2
+Ljilja			2
 ljubakanja	16		3
 ljubaznija	25		4
 ljubitelja	4897		4
 ljubljenja	354		3
-ljubovija			3
+Ljubovija			3
 ljulja	719		2
 ljuljanja	138		3
 ljuljuškanja	10		3
@@ -2585,11 +2585,11 @@ mateja			2
 materija	10500		3
 materijalizacija	143		3
 maternja			3
-matija			3
+Matija			3
 matineja			2
 maturantkinja	138		4
 maturiranja	21		4
-mauritanija			3
+Mauritanija			3
 mauzoleja	366		3
 mazanja	178		3
 mačevanja	188		4
@@ -2642,7 +2642,7 @@ meteorologija	141		3
 metilja	20		2
 metodija			3
 metodologija	2683		3
-metohija			3
+Metohija			3
 metonimija	22		3
 mečja			2
 međugorja			3
@@ -2657,14 +2657,14 @@ mešetarenja	137		4
 miamija			3
 micanja	16		3
 migracija	1751		3
-mija		M	2
+Mija		M	2
 mikija			3
 mikrobiologija	131		3
 mikronezija			3
 milenija	163		3
 milentija			3
 milicija	912		3
-milija	420		3
+Milija	420		3
 milivoja			2
 milja	2544		2
 miloja			3
@@ -2685,7 +2685,7 @@ misterija	2473		3
 mistifikacija	259		3
 mistrija	41		3
 misurija			3
-mitja			2
+Mitja			2
 mitohondrija	151		3
 mitologija	744		3
 mitomanija			3
@@ -2720,7 +2720,7 @@ mogranja			3
 moja	66459		2
 mojsija			3
 mokrenja	646		3
-moldavija			3
+Moldavija			3
 molilja		M	3
 molitelja	11		3
 moljakanja	72		3
@@ -2775,7 +2775,7 @@ mudrija	117		3
 mudrolija	36		3
 mudrovanja	201		3
 muftija	2357		3
-muja			2
+Muja			2
 muktadžija			4
 mulatkinja	12		4
 mulja	1501		2
@@ -2827,7 +2827,7 @@ nadgledanja	571		3
 nadgradnja	519		2
 nadgrdnja			2
 nadigravanja	72		4
-nadija			3
+Nadija			3
 nadilaženja	30		4
 nadimanja	236		3
 nadiranja	115		3
@@ -3193,7 +3193,7 @@ nedelovanja	27		4
 nedolaženja	10		4
 nedonošenja	57		4
 nedođija	76		3
-nedžmija			3
+Nedžmija			3
 negacija	696		3
 negdašnja	45		3
 negiranja	456		3
@@ -3348,7 +3348,7 @@ nudilja		M	3
 numeracija	113		3
 numerologija	67		3
 nuncija	30		2
-nurija			3
+Nurija			3
 nutarnja			3
 nutkanja			3
 nuđenja	128		3
@@ -3576,9 +3576,9 @@ olakšanja	629		2
 olakšavanja	237		4
 oligarhija	728		3
 olimpija			3
-olivija			3
+Olivija			3
 oličenja	77		2
-olja			2
+Olja			2
 oluja	4213		2
 omakinja			3
 omalovažavanja	448		3
@@ -3743,7 +3743,7 @@ otapanja	352		3
 otcepljenja	681		3
 otezanja	68		3
 oticanja	303		3
-otilija			3
+Otilija			3
 otimanja	932		3
 otkazivanja	1010		4
 otkidanja	39		3
@@ -3829,7 +3829,7 @@ paginacija	14		3
 pahomija			3
 pahulja	299		3
 paideja			2
-paja			2
+Paja			2
 pajsija			3
 paklenija			4
 pakovanja	4039		3
@@ -3847,7 +3847,7 @@ panahija		M	3
 pandemija	385		3
 panja	170		2
 panonija			3
-pantelija			3
+Pantelija			3
 papagaja	669		3
 papaja	132		3
 papazjanija		M	3
@@ -3879,7 +3879,7 @@ patišpanja	19		3
 patnja	1507		2
 patologija	543		3
 patologinja			3
-patricija			3
+Patricija			3
 patrija			3
 patrijaršija	1126		3
 patroliranja	60		4
@@ -3903,7 +3903,7 @@ pedlja	79		2
 pedofilija	302		3
 peglanja	274		3
 peja			2
-pelagija			3
+Pelagija			3
 pelagonija			3
 pendrečenja			3
 penetracija	301		3
@@ -3937,8 +3937,8 @@ petljanja	73		3
 petnaestogodišnjakinja	39		3
 petogodišnja	263		4
 petoknjižja			3
-petrija			3
-petrinja			3
+Petrija			3
+Petrinja			3
 petroleja	162		2
 petronija			3
 petunija	31		3
@@ -4004,7 +4004,7 @@ plivanja	1984		3
 pljačkanja	319		3
 pljeskanja	20		3
 pljevalja			3
-pljevlja			2
+Pljevlja			2
 pljuskanja	13		3
 pljuvanja	549		3
 plodnija	46		3
@@ -4124,7 +4124,7 @@ pokušaja	12132		4
 pokušavanja	105		4
 polaganja	3660		3
 polarizacija	320		3
-poleksija			3
+Poleksija			3
 polemisanja			4
 poletanja	769		3
 polibija			3
@@ -4132,7 +4132,7 @@ policija	46233		3
 polifonija	75		3
 poligamija	79		3
 polimlja			3
-polinezija			3
+Polinezija			3
 poliranja	203		3
 polisemija	10		3
 polivanja			3
@@ -4816,7 +4816,7 @@ pušenja	4061		3
 puškaranja	46		3
 puštanja	1859		3
 pčelinja	413		3
-pčinja			2
+Pčinja			2
 rabadžija		M	4
 rabija			3
 racija	470		3
@@ -5090,7 +5090,7 @@ rogonja	61		3
 rogulja			3
 roja	388		2
 roktanja			3
-romanija			3
+Romanija			3
 romantičnija	17		4
 rominja	69		3
 romkinja			3
@@ -5105,7 +5105,7 @@ rotiranja	166		3
 rotkinja		M	3
 rovarenja	22		3
 rovinja			3
-rozalija			3
+Rozalija			3
 rođakinja	13		3
 rođenja	12555		2
 roštilja	1170		2
@@ -5125,7 +5125,7 @@ rukovođenja	1266		4
 rulja	503		2
 rumelija			3
 rumenija			3
-rumija			3
+Rumija			3
 runja			2
 rupija	160		3
 ruskinja			3
@@ -5143,7 +5143,7 @@ sabiranja	370		3
 sablja	1134		2
 saborovanja	111		4
 sabotiranja	50		4
-sabrija			3
+Sabrija			3
 sadašnja	6247		3
 sadnja	801		2
 sadržaja	27794		4
@@ -5163,7 +5163,7 @@ sakaćenja	154		3
 sakristija	16		3
 sakrivanja	186		3
 saksija	359		3
-saksonija			3
+Saksonija			3
 sakuplja	1567		2
 sakupljanja	1325		3
 saldiranja	49		3
@@ -5198,7 +5198,7 @@ samuraja	327		2
 sanacija	1941		3
 sandžaklija			3
 sangrija			2
-sanija			3
+Sanija			3
 saniranja	437		3
 sanitacija			3
 sanitarija	199		3
@@ -5269,7 +5269,7 @@ segregacija	185		3
 seizmologija	16		3
 seja		M	2
 sejanja	117		3
-sejdija			3
+Sejdija			3
 sekcija	5471		3
 sekiracija		M	3
 sekrecija	262		3
@@ -5279,7 +5279,7 @@ sekvestracija			3
 sekvoja	75		3
 selekcija	6759		3
 selfija			3
-selija			3
+Selija			3
 selja	46		2
 seljakanja	44		3
 seljakinja			3
@@ -5300,13 +5300,13 @@ serviranja	398		3
 sesija	1357		3
 sevanja	26		3
 severnija			3
-sevilja			3
+Sevilja			3
 sećanja	10648		3
 sečenja	759		3
 shvatanja	5769		3
 sicilija			3
 sidneja			2
-sidonija			3
+Sidonija			3
 signalizacija	742		3
 sigurnija	583		4
 sija	2236		2
@@ -5317,7 +5317,7 @@ siledžija	545		3
 silnija	22		3
 silovanja	2463		4
 silovatelja	295		4
-silvija			3
+Silvija			3
 simetrija	373		3
 simfonija	539		3
 simonija	15		3
@@ -5335,7 +5335,7 @@ sinkronizacija			3
 sinonimija	14		3
 sinovlja			3
 sinoćnja	40		3
-sintija			3
+Sintija			3
 sipanja	143		3
 sipnja		M	2
 siromašenja	109		4
@@ -5428,7 +5428,7 @@ sluškinja	481		3
 službovanja	316		3
 služenja	1571		3
 služitelja	150		4
-smaja			2
+Smaja			2
 smajlija	204		3
 smanjenja	12830		2
 smanjivanja	1819		3
@@ -5489,7 +5489,7 @@ solistkinja	145		4
 soljenja	29		3
 solsticija	108		3
 solucija	806		3
-somalija			3
+Somalija			3
 sondiranja	54		3
 sopranistkinja			4
 sortiranja	273		3
@@ -5767,7 +5767,7 @@ tabinja			3
 tabuiranja			4
 tadanja	16		3
 tadašnja	2226		3
-tadija			3
+Tadija			3
 tahikardija	181		3
 taja		M	2
 tajenja			3
@@ -5785,7 +5785,7 @@ tananija			4
 tanasija			3
 tandrkanja			3
 tanja			2
-tanzanija			3
+Tanzanija			3
 taokinja			3
 tapija		M	3
 tapiserija	253		3
@@ -5827,7 +5827,7 @@ teranja	226		3
 terapeutkinja	91		4
 terapija	10857		3
 terazija			3
-terezija			3
+Terezija			3
 teritorija	7951		3
 terminologija	658		3
 terorisanja	48		4
@@ -5907,7 +5907,7 @@ tramvaja	1104		3
 transakcija	3969		3
 transformacija	2574		3
 transfuzija	213		3
-transilvanija			3
+Transilvanija			3
 transkripcija	156		3
 transliteracija	17		3
 transmisija	415		3
@@ -6334,8 +6334,8 @@ uživljavanja	99		4
 vaganja	127		3
 vakcinacija	1508		3
 valencija			3
-valensija			3
-valerija			3
+Valensija			3
+Valerija			3
 valija	65		3
 valja	20955		2
 valjanja	124		3
@@ -6757,7 +6757,7 @@ značajnija	1385		4
 značenja	5746		2
 znoja	1651		2
 znojenja	686		3
-zoja			2
+Zoja			2
 zolja			2
 zombija	569		3
 zoologija	44		3
@@ -6832,7 +6832,7 @@ zvučanja	36		3
 četrdesetogodišnja	43		3
 četrdesetogodišnjakinja			3
 četrnaestogodišnja	88		3
-čečenija			3
+Čečenija			3
 češagija		M	3
 češanja	116		3
 češlja	659		2
@@ -6875,7 +6875,7 @@ zvučanja	36		3
 đakuzija	71		3
 đavolija			3
 đavolja	341		3
-đevđelija			3
+Đevđelija			3
 đorđija			3
 đovanija			3
 đubrenja	225		3

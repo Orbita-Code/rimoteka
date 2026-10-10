@@ -30,7 +30,7 @@ ampula	192		3
 anabela			3
 anala	28		2
 analizirala	532		3
-andžela			3
+Andžela			3
 anektirala	95		3
 angažovala	1549		2
 angela			3
@@ -66,7 +66,7 @@ atola	53		3
 aula	11		3
 aureola			3
 automobila	50031		2
-avala			3
+Avala			3
 azila	1904		2
 ažurirala	41		3
 babula			3
@@ -120,7 +120,7 @@ biosignala			2
 birala	859		3
 biskala			3
 bistrila	17		3
-bitola			3
+Bitola			3
 bivala	509		3
 bivola	92		3
 bičevala			4
@@ -483,7 +483,7 @@ ebola	36		3
 egzila	140		2
 eksperimentisala	63		3
 eksplodirala	968		3
-ela			2
+Ela			2
 eliminisala	468		3
 emajla	70		3
 emanuela			2
@@ -515,7 +515,7 @@ fascikla	133		2
 fascinirala	231		3
 faula	524		3
 favela	74		3
-fejzula			3
+Fejzula			3
 fela			2
 feldmaršala	118		2
 fenola	95		3
@@ -655,7 +655,7 @@ gusala		M	3
 gusla	73		2
 gutala	302		3
 gušila	201		3
-gvatemala			2
+Gvatemala			2
 hakovala			2
 hala	3474		2
 halila			3
@@ -916,7 +916,7 @@ isturila	48		2
 isturčila			2
 istuširala	74		2
 isušila	40		3
-izabela		M	3
+Izabela		M	3
 izabirala			4
 izabrala	3511		3
 izagnala			2
@@ -1423,8 +1423,8 @@ lažirala	29		3
 lebdela	162		3
 legala	89		3
 legla	3290		2
-leila			3
-lejla			2
+Leila			3
+Lejla			2
 lela		M	2
 lelujala	26		2
 lepila	266		3
@@ -1463,14 +1463,14 @@ locirala	87		3
 lojola			3
 lokala	4719		2
 lokomobila			3
-lola			2
+Lola			2
 lomila	326		3
 lovila	142		3
 ložila	73		3
 ludela	28		3
 ludila	2355		3
 ludirala			2
-ludmila			3
+Ludmila			3
 ludovala	31		3
 lula	319		2
 lunjala			3
@@ -1509,8 +1509,8 @@ mantila			3
 manuela			3
 manula			3
 marela			2
-marinela			2
-mariola			3
+Marinela			2
+Mariola			3
 markirala	19		2
 marsela			3
 maršala	677		2
@@ -1942,7 +1942,7 @@ negirala	485		3
 negodovala	110		5
 negovala	383		4
 nekropola	459		3
-nela			2
+Nela			2
 nemala	64		2
 nemetala	333		2
 nemila	198		3
@@ -2670,12 +2670,12 @@ pakovala	93		4
 pala	13642		2
 palila	414		3
 palilula			3
-pamela			3
+Pamela			3
 pamtila	134		3
 panela	4511		3
 paničarila			3
 paničila	19		2
-paola			3
+Paola			3
 parabola	302		3
 paracetamola	164		3
 paradirala	26		3
@@ -2701,7 +2701,7 @@ patentirala	122		2
 patila	630		3
 patrola	1432		2
 pauela			3
-paula			3
+Paula			3
 pavela			3
 pavla			2
 pazila	228		3
@@ -3883,7 +3883,7 @@ pterodaktila			3
 pucala	564		3
 puckarala			2
 pudla	56		2
-puebla			3
+Puebla			3
 pukla	1668		2
 puknula			3
 pula		M	2
@@ -3908,7 +3908,7 @@ radula		M	3
 rafaela			3
 rafaila			2
 rafala	111		3
-rahela			3
+Rahela			3
 rahla			2
 raketirala			2
 rala	113		2
@@ -4233,7 +4233,7 @@ samovila		M	2
 samuela			3
 samuila			2
 sandala	184		2
-sanela			3
+Sanela			3
 sanirala	140		2
 sanjala	1683		3
 sanjarila	31		3
@@ -4821,7 +4821,7 @@ tutkala	18		3
 tutnjala	30		3
 tutnula	22		3
 tuvila			3
-tuzla			2
+Tuzla			2
 tuširala	79		3
 tužila	763		3
 tvitovala	36		2
@@ -5050,7 +5050,7 @@ upropastila	449		3
 uprostila	20		2
 uprskala	22		2
 uprtila			2
-upsala			3
+Upsala			3
 upucala	55		2
 upucavala			2
 upustila	347		2
@@ -5073,7 +5073,7 @@ urlala	115		3
 urodila	445		2
 uronila	50		3
 urotila	18		3
-ursula			3
+Ursula			3
 uručila	1263		3
 urušila	250		2
 usadila	107		3

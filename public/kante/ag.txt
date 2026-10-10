@@ -10,11 +10,11 @@ burag	22		2
 dag			1
 drag	1439		1
 gulag	154		2
-hag			1
+Hag			1
 krčag		M	2
 ljubodrag			3
 mag	934		1
-mijodrag			3
+Mijodrag			3
 miodrag			3
 mutljag	28		2
 nag	362		1
@@ -23,7 +23,7 @@ nedrag			2
 odostrag			3
 ostrag			2
 otrag		M	2
-pag			1
+Pag			1
 poludrag			3
 polunag			3
 prag	2981		1

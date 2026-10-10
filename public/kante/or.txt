@@ -36,8 +36,8 @@ copor			2
 crnobor			3
 cukor			2
 dalekozor	123		4
-dalibor			3
-davor		M	2
+Dalibor			3
+Davor		M	2
 defibrilator	117		2
 deflektor			3
 degustator	61		2
@@ -63,7 +63,7 @@ dogovor	23892		3
 doktor	13742		2
 donator	1182		2
 donor	267		2
-dragor			2
+Dragor			2
 dragstor	128		2
 drmator		M	2
 durmitor			3
@@ -89,8 +89,8 @@ evaporator			2
 evokator			2
 faktor	16832		2
 falsifikator	213		2
-fedor			2
-feodor			3
+Fedor			2
+Feodor			3
 fiksator			2
 fjodor			2
 flor	125		1
@@ -103,14 +103,14 @@ frajkor		M	2
 gabor	313		2
 generator	2090		2
 gladijator	164		2
-gligor			2
+Gligor			2
 gnjavator	37		2
 govor	13979		2
 grebator			2
-gregor			2
+Gregor			2
 grubor			2
 gubernator	184		2
-harbor			2
+Harbor			2
 hator			2
 haustor			3
 hektor			2
@@ -148,14 +148,14 @@ instruktor	1822		3
 interpretator	157		2
 investitor	6656		2
 irigator	53		2
-isidor			3
+Isidor			3
 izbor	62749		2
 izgovor	5374		3
 izolator	395		2
 izvor	48210		2
 javor	1185		2
 jegor			2
-juhor			2
+Juhor			2
 junior	2850		3
 kalkulator	872		2
 kamfor	65		2
@@ -202,7 +202,7 @@ koordinator	6995		2
 kor		M	1
 korektor	663		3
 koridor	3473		2
-kotor			2
+Kotor			2
 kreator		M	2
 kreditor	275		2
 kristifor			3
@@ -248,7 +248,7 @@ monitor	5590		3
 monsinjor	147		3
 mor		M	1
 moralizator			2
-mosor		M	2
+Mosor		M	2
 motivator	243		2
 motor	20848		2
 mramor	99		2
@@ -326,7 +326,7 @@ prespor	72		2
 pretor	35		2
 pribor	3163		2
 prigovor	3679		3
-prijedor			2
+Prijedor			2
 primor			2
 prior	104		2
 pritvor	4297		2
@@ -422,7 +422,7 @@ sumor			2
 sumpor	641		2
 supervizor	498		4
 suspenzor			2
-suvobor			3
+Suvobor			3
 svetonazor	73		3
 tabor	1049		2
 tabulator			2
@@ -435,10 +435,10 @@ termofor	51		3
 teror	2047		2
 testator	15		2
 thor			1
-tibor			2
-timor	131		2
+Tibor			2
+Timor	131		2
 tiodor			3
-todor			2
+Todor			2
 topor			2
 tor	973		1
 toreador	84		2
@@ -470,13 +470,13 @@ uzor	4710		2
 uzurpator	100		2
 vektor	450		2
 velemajstor	464		2
-velibor			3
+Velibor			3
 velociraptor			2
 ventilator	2610		2
 versifikator			2
 vibrator	475		2
 vihor	415		2
-viktor			2
+Viktor			2
 vizitator			2
 zamor	1120		2
 zapor		M	2
@@ -484,7 +484,7 @@ zastor	177		2
 zatvor	8583		2
 zazor	226		2
 zbor	1535		1
-zlatibor			3
+Zlatibor			3
 zlotvor	136		2
 čador		M	2
 čopor	647		2

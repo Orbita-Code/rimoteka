@@ -15,7 +15,7 @@ bodo			2
 bordo	428		2
 brando			2
 brdo	5870		2
-budo			2
+Budo			2
 bušido			3
 colorado			3
 dado	46		2
@@ -28,11 +28,11 @@ dondo			2
 dorado			3
 dosado			3
 džudo	931		2
-edo			2
+Edo			2
 eduardo			3
 eldorado	175		3
 fado	338		2
-ferdo			2
+Ferdo			2
 fernando			3
 fudo			2
 gardo			2
@@ -48,7 +48,7 @@ govedo	177		3
 grdo	10		2
 gromado			2
 grudo			2
-gvido			2
+Gvido			2
 hudo		M	2
 indo			2
 jado		M	2
@@ -67,7 +67,7 @@ kredo	16		2
 krešendo	71		2
 kunigundo			3
 kvazimodo			3
-lado		M	2
+Lado		M	2
 lando			2
 legendo	80		2
 leonardo			2
@@ -108,7 +108,7 @@ rondo	67		2
 rudo	118		2
 rundo			2
 saldo	928		2
-sando			2
+Sando			2
 slobodo	24		2
 stado	1900		2
 stampedo	242		2

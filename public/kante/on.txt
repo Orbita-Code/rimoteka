@@ -22,10 +22,10 @@ antiproton	17		3
 apolon			2
 argon		M	2
 arhiđakon	176		4
-arlington			3
+Arlington			3
 armagedon			3
 autohton	102		2
-avinjon			2
+Avinjon			2
 avion	10468		2
 babilon			3
 badminton	625		3
@@ -45,7 +45,7 @@ bezakon			3
 bilion	354		2
 bizon	88		2
 blagonaklon	251		2
-bolton			2
+Bolton			2
 bombon	35		2
 bon	487		1
 bonbon	16		2
@@ -65,7 +65,7 @@ ciklon	223		2
 cirkon	62		2
 dalton			2
 danon			2
-dejton			2
+Dejton			2
 demižon			2
 demon	845		2
 digitron	269		3
@@ -77,8 +77,8 @@ dokon	219		2
 dragon	422		2
 dron			1
 džekson			2
-edmonton			3
-egon			2
+Edmonton			3
+Egon			2
 elektron	558		2
 elington			3
 elton			2
@@ -105,14 +105,14 @@ framason			2
 freon	179		2
 furgon	67		2
 futon			2
-gabon			2
+Gabon			2
 galon	109		2
 garnizon	256		3
 gekon			2
 gibon			2
 gledston			2
 gon		M	1
-gordon			2
+Gordon			2
 gospon	478		2
 grafikon	1222		3
 gramofon	343		2
@@ -120,7 +120,7 @@ graviton			3
 grifon	86		2
 hadron	10		2
 hameleon			3
-hamilton			3
+Hamilton			3
 hantington			3
 hariton			3
 hegemon		M	3
@@ -140,7 +140,7 @@ izgon	155		2
 jeon			2
 jerihon			3
 jerođakon			3
-jon	287		1
+Jon	287		1
 kameleon	188		2
 kameron			2
 kamion	3386		2
@@ -164,7 +164,7 @@ kolon	93		2
 kombinezon	240		3
 komision			3
 kompanjon	86		2
-kompton			2
+Kompton			2
 kon		M	1
 kordon	507		2
 kortizon	33		3
@@ -186,7 +186,7 @@ legion			2
 lejton			2
 leksikon	501		3
 lenon			2
-leon			2
+Leon			2
 leprikon			3
 lisbon			2
 lon		M	1
@@ -251,7 +251,7 @@ orlon			2
 osion	72		2
 oslon	20		2
 otklon	761		2
-oton			2
+Oton			2
 ozon	467		2
 pansion	782		2
 pantalon			3
@@ -283,7 +283,7 @@ poluton			3
 ponton	75		2
 posejdon			3
 prednizon			3
-preston			2
+Preston			2
 pretklon	10		2
 princeton			3
 prinston			2
@@ -304,12 +304,12 @@ remington			3
 remon			2
 rezon	507		2
 robinzon			3
-ron			1
-rubikon			3
+Ron			1
+Rubikon			3
 sajgon			2
 sajmon			2
 saksofon	370		3
-salomon			3
+Salomon			3
 salon	5478		2
 sifon	107		2
 silikon	391		3
@@ -328,7 +328,7 @@ smisaon			3
 solon			2
 spiridon			3
 stadion	6976		3
-ston			1
+Ston			1
 suton	432		2
 talon	65		2
 tampon	564		2

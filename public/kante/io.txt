@@ -58,7 +58,7 @@ crvenio	14		3
 curio	100		3
 cvilio	30		3
 dangubio	34		4
-dario			3
+Dario			3
 davio	219		3
 delio	2280		3
 desio	5131		3
@@ -416,7 +416,7 @@ kućario			3
 kućio			3
 kvario	209		3
 kvasio	28		3
-lacio			3
+Lacio			3
 latio	381		3
 lazio	64		3
 lebdio	29		3
@@ -778,7 +778,7 @@ onemogućio	643		3
 onesposobio	71		3
 onesvestio	224		3
 onjušio	24		3
-ontario			3
+Ontario			3
 opalio	498		3
 opametio	155		3
 opaučio			3
@@ -1551,7 +1551,7 @@ rodio	5112		3
 rogušio			3
 romario			3
 ronio	100		3
-rosario			3
+Rosario			3
 rovašio			3
 rukovodio	1997		3
 rušio	524		3

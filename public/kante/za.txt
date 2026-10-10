@@ -65,7 +65,7 @@ ekspertiza	490		2
 ekstaza	158		2
 elektroliza	99		2
 eleza			2
-elza			2
+Elza			2
 engleza	1000		2
 epifiza	102		2
 etnogeneza			3
@@ -89,7 +89,7 @@ gmaza	16		2
 gologuza			3
 groza	14		2
 guza	766		2
-hamza			2
+Hamza			2
 hemoliza			2
 hereza	29		3
 hidroliza	27		2
@@ -146,11 +146,11 @@ laza		M	2
 lepeza	543		2
 leukoza			2
 lipaza			3
-liza		M	2
+Liza		M	2
 loza	1263		2
 lufthanza			2
-luiza			2
-lujza			2
+Luiza			2
+Lujza			2
 luksuza	1110		3
 magaza		M	3
 majoneza	333		2
@@ -178,7 +178,7 @@ mikoza	21		2
 mikroanaliza			3
 mimoza	158		2
 miraza	145		3
-mirza			2
+Mirza			2
 mitoza	33		2
 mitraljeza			3
 mlaza	274		2
@@ -231,7 +231,7 @@ pegaza			3
 pekmeza	189		3
 perifraza			2
 pervaza			3
-piza	82		2
+Piza	82		2
 podgriza			2
 podmaza			3
 podreza			3
@@ -304,7 +304,7 @@ superbrza	11		3
 suza	4991		2
 sveza	213		2
 telekineza	22		3
-tereza			2
+Tereza			2
 teza	7133		2
 tirkiza	49		2
 topaza	15		3

@@ -223,7 +223,7 @@ brehta			2
 bremenita	139		3
 breskvasta			3
 bresta	257		2
-brigita			3
+Brigita			3
 briketa	295		2
 brilijanta			3
 brineta	257		2
@@ -431,7 +431,7 @@ džointa	66		3
 džudista			3
 ebonita			3
 edikta	1676		3
-edita			3
+Edita			3
 efekata	6868		4
 efekta	5325		3
 efta			2
@@ -465,7 +465,7 @@ elementa	4172		3
 eliota			2
 elita	9578		2
 elitista	39		3
-elizabeta			3
+Elizabeta			3
 emigranata	902		4
 emigranta	189		3
 emirata	1264		2
@@ -580,7 +580,7 @@ giganta	1948		3
 gigavata	155		2
 gihta	222		2
 gimnazista			3
-gita			2
+Gita			2
 gitarista	1867		3
 glasovita	42		3
 glavata	68		3
@@ -613,7 +613,7 @@ granulata	147		2
 grehota			2
 grejpfruta	309		3
 greota			2
-greta			2
+Greta			2
 grobišta	42		2
 grohota	11		3
 gromovita	11		3
@@ -639,7 +639,7 @@ hedonista	200		3
 hefta			2
 helenista	15		3
 helmuta			3
-henrijeta			2
+Henrijeta			2
 heraklita			3
 herberta			2
 hermafrodita	12		3
@@ -781,11 +781,11 @@ jata	3047		2
 jašta			2
 jedanaesta	210		3
 jedincata			3
-jefta			2
+Jefta			2
 jelisaveta			3
 jeta			2
 jevanđelista	226		3
-jevta			2
+Jevta			2
 jezerceta	90		3
 jezgrovita	55		3
 jezovita	21		3
@@ -794,8 +794,8 @@ jogunasta	18		4
 jogurta	1571		3
 jorgovanasta			3
 jota	38		2
-judita			3
-julijeta			2
+Judita			3
+Julijeta			2
 junta			2
 jurista			3
 juta	377		2
@@ -1127,10 +1127,10 @@ mandata	18103		2
 manifesta	446		3
 manita			3
 manta	40		2
-margareta	16		2
-margarita	235		3
+Margareta	16		2
+Margarita	235		3
 margita			3
-marijeta			2
+Marijeta			2
 marioneta	634		2
 marketa	2039		2
 marksista			3
@@ -1164,7 +1164,7 @@ megavata	2001		2
 mehmeta			3
 mehta			2
 mekota	17		2
-melita			3
+Melita			3
 memoarista	12		3
 menadžmenta	11186		3
 menta	184		2
@@ -1324,8 +1324,8 @@ nečista	384		3
 nečistota	62		2
 nešta	401		2
 nihilista	39		3
-nikita			3
-nikoleta			2
+Nikita			3
+Nikoleta			2
 nitrata	331		3
 nizašta		M	2
 ništa	219539		2
@@ -1466,7 +1466,7 @@ pamfleta	382		2
 pamfletista	12		3
 panajota			2
 paneta			2
-panta			2
+Panta			2
 panteista	11		3
 paperjasta	17		3
 papirnata	46		3
@@ -1909,7 +1909,7 @@ remeta		M	3
 remitenta	19		3
 remonata	116		4
 remonta	1108		3
-renata			3
+Renata			3
 rendeta			3
 renegata	24		2
 renta	550		2
@@ -1978,7 +1978,7 @@ salata	2542		2
 saleta			3
 salta	76		2
 salveta	194		2
-samanta			2
+Samanta			2
 samcata	12		3
 samita	2985		3
 samizdata	54		2
@@ -2438,7 +2438,7 @@ vikarijata	14		3
 vikonta			3
 vilajeta	338		2
 vinjeta	303		3
-violeta			2
+Violeta			2
 violinista	579		3
 violista	42		3
 virovita			3
@@ -2463,7 +2463,7 @@ vremenita			3
 vresišta			2
 vrsta	58085		2
 vrta	2533		2
-vukota			3
+Vukota			3
 vuleta			3
 vulgata			3
 vunta			2

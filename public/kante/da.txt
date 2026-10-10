@@ -129,7 +129,7 @@ džada		M	2
 dževada			3
 džida		M	2
 džihada	323		2
-eda			2
+Eda			2
 eduarda			3
 edvarda			2
 egida			3
@@ -159,7 +159,7 @@ fonda	31204		2
 forda	191		2
 formaldehida	105		3
 frenda	52		2
-frida			2
+Frida			2
 frojda			2
 fuada			3
 gada	107		2
@@ -169,11 +169,11 @@ garda	1004		2
 gasovoda	3524		4
 gauda		M	3
 gazda	6442		2
-gazivoda			3
+Gazivoda			3
 genocida	5057		4
 geparda	71		3
 gerharda			2
-gertruda			3
+Gertruda			3
 gilda	39		2
 girlanda			2
 gitarijada	134		3
@@ -213,7 +213,7 @@ harolda			3
 harvarda			2
 hasida			3
 hazarda	87		3
-heda			2
+Heda			2
 helada			3
 helebarda			3
 heljda	243		2
@@ -222,7 +222,7 @@ hepienda	44		3
 herbicida	636		2
 hibrida	1398		2
 hidroksida	55		4
-hilda			2
+Hilda			2
 hiljada		M	3
 hlada	204		2
 hlorida	200		3
@@ -278,7 +278,7 @@ jednoseda	105		3
 jeremijada		M	3
 jezda	173		2
 joda	740		2
-jolanda			2
+Jolanda			2
 juda			2
 jugozapada	141		3
 kada	914643		2
@@ -292,7 +292,7 @@ katkada	532		3
 katoda	68		2
 kačavenda			3
 kida	765		2
-kikinda			2
+Kikinda			2
 kilibarda			3
 klada	95		2
 kliforda			2
@@ -304,7 +304,7 @@ koda	4979		2
 kojekuda			2
 kokarda	58		2
 koleda	35		3
-kolinda			2
+Kolinda			2
 kolonada	48		4
 kolorada			2
 komada	12322		2
@@ -321,7 +321,7 @@ kreda	221		2
 krivda	47		2
 krivuda	112		2
 kuda	8856		2
-kunigunda			3
+Kunigunda			3
 kurda			2
 kustoda			2
 kućegazda			3
@@ -342,7 +342,7 @@ leopolda			3
 libida	335		3
 likvida		M	3
 limunada	256		2
-linda			2
+Linda			2
 lipida	402		3
 livada	1374		3
 loboda	28		2
@@ -355,24 +355,24 @@ lubarda		M	2
 lucprda			2
 luda	2752		2
 mada	79151		2
-magda			2
+Magda			2
 magnituda	349		2
 mahmuda			3
-majda			2
+Majda			2
 manfreda			3
 mansarda		M	2
 marinada	76		4
 marmelada	181		2
 maskarada		M	2
 masuda			3
-matilda			3
+Matilda			3
 maškarada	19		2
 meda	8476		2
 medveda	1595		3
 megazvezda	47		3
 mehmeda			3
-melinda			2
-merida			3
+Melinda			2
+Merida			3
 mesuda			3
 metoda	17044		2
 međeda			3
@@ -387,7 +387,7 @@ milorada			2
 milorda			2
 mimohoda	20		3
 miokarda	971		3
-miranda			2
+Miranda			2
 mirijada	11		2
 mirsada			3
 mlada	13218		2
@@ -435,7 +435,7 @@ nastrada	392		2
 navada	16		3
 navoda	2127		3
 nazida			3
-neda			2
+Neda			2
 nedogleda	21		3
 nedžada			3
 negda		M	2
@@ -690,7 +690,7 @@ romboida	16		2
 ronalda			3
 rotonda		M	2
 roštiljada			2
-ruanda			2
+Ruanda			2
 ruda	1163		2
 rukosada			2
 runda	1149		2
@@ -795,7 +795,7 @@ tvrda	1692		2
 ubada	123		2
 uboda	1215		3
 uda	1534		2
-uganda			2
+Uganda			2
 ugleda	6145		3
 ugljendioksida	530		3
 ugoda	12		3
@@ -869,12 +869,12 @@ zgoda	148		2
 zgrada	27549		2
 zida	10043		2
 ziglinda			2
-zinaida			2
+Zinaida			2
 zlehuda			3
 zlorada			3
 zlurada	42		3
 zonda			2
-zoraida			2
+Zoraida			2
 zvezda	43970		2
 zvezdopada			2
 zvizda			2

@@ -39,7 +39,7 @@ arheologijo			3
 asistentkinjo			3
 astronomijo			3
 aždajo			3
-bajo	29		2
+Bajo	29		2
 bakljo			2
 banjo			2
 bekrijo			3
@@ -83,7 +83,7 @@ fakultetlijo			3
 familijo			3
 farmacijo			3
 filozofijo			3
-franjo			2
+Franjo			2
 gajo			2
 galaksijo			3
 galamdžijo			3
@@ -130,7 +130,7 @@ litijo			3
 liturgijo			3
 lobanjo			3
 lovkinjo			3
-lujo			2
+Lujo			2
 luđakinjo			3
 magijo			3
 majo			2
@@ -138,7 +138,7 @@ maljo			2
 manjo			2
 medonjo			3
 meteorologijo			3
-mijo			2
+Mijo			2
 milicijo	18		3
 miljo			2
 misijo			3
@@ -146,7 +146,7 @@ mladoženjo			3
 mlakonjo			3
 monahinjo			3
 mrljo			2
-mujo			2
+Mujo			2
 mušterijo			3
 nacijo			3
 nedeljo			3
@@ -160,7 +160,7 @@ ohajo			3
 oklagijo			3
 olujo			2
 ortakinjo			3
-pajo			2
+Pajo			2
 partijo			3
 pedagogijo			3
 pesnikinjo			4
@@ -184,14 +184,14 @@ rođakinjo			3
 ruljo			2
 sabljo			2
 sanjo			2
-sejo			2
+Sejo			2
 seljo	15		2
 siledžijo			3
 sirotinjo	26		3
 sivonjo			3
 skijo			2
 sluškinjo	17		3
-smajo			2
+Smajo			2
 snajo			2
 sociologijo			3
 sojo			2
@@ -201,7 +201,7 @@ starkeljo			3
 stomatologijo			3
 strankinjo			3
 sudijo	71		3
-suljo			2
+Suljo			2
 sutkinjo			3
 svinjo	38		2
 svojo			2

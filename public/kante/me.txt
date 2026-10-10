@@ -359,7 +359,7 @@ maksime	229		3
 maksimume	96		4
 malarme			3
 malenome			4
-malme			2
+Malme			2
 malome	151		3
 maloumnome			5
 mame	5417		2
@@ -686,7 +686,7 @@ ruskome	33		3
 rđavome			4
 sajme			2
 salame	317		2
-salome			3
+Salome			3
 samome	1003		3
 samrtnome			3
 sarme	374		2

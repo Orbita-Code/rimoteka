@@ -31,7 +31,7 @@ bankarstvo	2001		2
 bankrotstvo	282		2
 banovo	230		3
 banstvo			2
-barajevo			3
+Barajevo			3
 barbarstvo			2
 bačvarstvo			2
 bačvo			2
@@ -328,7 +328,7 @@ ispunjivo			3
 isusovo			3
 ivanovo	72		3
 ivićevo			3
-ivo	16		2
+Ivo	16		2
 izaslanstvo	160		2
 izbeglištvo	198		2
 izdajstvo	244		2
@@ -391,9 +391,9 @@ kilavo			3
 kiparstvo	10		2
 kirilovo			3
 kitovo			3
-kičevo			3
+Kičevo			3
 kladivo	38		3
-kladovo			3
+Kladovo			3
 klecavo			3
 klesarstvo			2
 kletvo			2
@@ -411,7 +411,7 @@ knjižarstvo			2
 knjižničarstvo			2
 koautorstvo	28		2
 kobasičarstvo			2
-koceljevo			3
+Koceljevo			3
 kojekakvo	10		3
 kojićevo			3
 kokosovo	337		3
@@ -428,7 +428,7 @@ koprcavo			3
 korisnikovo	20		3
 koristoljubivo	12		3
 korparstvo		M	2
-kosovo	15		3
+Kosovo	15		3
 kostićevo			3
 kovo			2
 kozarstvo	30		2
@@ -445,7 +445,7 @@ krckavo			3
 kreatorstvo		M	2
 kresivo	39		3
 krestićevo			3
-kreševo			3
+Kreševo			3
 kreštavo			3
 krivo	3925		2
 krivokletstvo	48		2
@@ -462,11 +462,11 @@ kržljavo	17		3
 kudravo		M	3
 kukovo			3
 kulinarstvo	183		2
-kumanovo			4
+Kumanovo			4
 kumstvo	285		2
 kunićarstvo			2
 kupinovo			3
-kučevo			3
+Kučevo			3
 kuždravo			3
 kvrgavo			3
 labavo	280		3
@@ -475,7 +475,7 @@ lajavo			3
 lakomstvo			3
 laktaštvo		M	2
 lalićevo			3
-lapovo	18		3
+Lapovo	18		3
 laskavo	223		3
 lavovo			3
 lazarevo			3
@@ -877,7 +877,7 @@ podozrivo	95		3
 podrugljivo	350		3
 podrumarstvo			2
 podsmešljivo	148		3
-podujevo			3
+Podujevo			3
 poduzetništvo			5
 podvižništvo			2
 podvodništvo			2
@@ -1210,7 +1210,7 @@ tavo			2
 terpentinovo			3
 tesarstvo			2
 tetivo			3
-tetovo			3
+Tetovo			3
 teturavo	11		3
 tigrovo	28		3
 tikvo			2
@@ -1439,7 +1439,7 @@ zverstvo	39		2
 čupićevo			3
 čuvstvo	84		2
 đakonstvo			2
-đakovo			3
+Đakovo			3
 đavo		M	2
 đavolovo	17		3
 đilasovo			3

@@ -28,7 +28,7 @@ boginjav		M	3
 bogislav			3
 bogosav			3
 bogoslav			3
-borisav			3
+Borisav			3
 borislav			3
 bradavičav			3
 branislav			3
@@ -90,7 +90,7 @@ gubav	46		2
 gunđav			2
 gurav		M	2
 guseničav			3
-gustav			2
+Gustav			2
 gušav		M	2
 hranislav			3
 hrapav	90		2
@@ -271,7 +271,7 @@ rukav	797		2
 rundav			2
 runjav			2
 rutav	11		2
-rzav	394		2
+Rzav	394		2
 rđav	427		2
 samozaborav			3
 sapunjav		M	3
@@ -290,7 +290,7 @@ slinav	25		2
 sluzav	76		2
 splav	879		1
 srbislav			3
-srboslav			3
+Srboslav			3
 stanislav			3
 stav	67230		1
 steničav			3
@@ -334,18 +334,18 @@ uprav		M	2
 ustav	20972		2
 vaclav			2
 varav			2
-vatroslav			3
-vekoslav			3
-velisav			3
+Vatroslav			3
+Vekoslav			3
+Velisav			3
 velislav			3
-vidosav			3
+Vidosav			3
 vijugav	37		3
 višeslav			3
 vjačeslav			3
 vladisav			3
 vladislav			3
 vodnjikav	14		3
-voislav			3
+Voislav			3
 vojislav			3
 vrcav			2
 vriskav			2

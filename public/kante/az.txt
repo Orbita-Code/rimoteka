@@ -12,8 +12,8 @@ gavaz			2
 gaz	259		1
 gmaz	41		1
 igrokaz	186		3
-ilijaz			3
-iljaz			2
+Ilijaz			3
+Iljaz			2
 iskaz	2827		2
 izlaz	9386		2
 izraz	17639		2
@@ -29,7 +29,7 @@ mlaz	833		1
 mraz	1708		1
 nalaz	4308		2
 namaz	773		2
-nijaz			2
+Nijaz			2
 obraz	4699		2
 odraz	5575		2
 otkaz	6720		2

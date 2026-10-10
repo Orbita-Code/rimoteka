@@ -61,7 +61,7 @@ kardinal	947		2
 karneval	1230		2
 kaval			2
 kazal			2
-kemal			2
+Kemal			2
 kendal			2
 klerikal		M	3
 kolonijal		M	2
@@ -89,7 +89,7 @@ maskenbal		M	3
 materijal	26795		2
 memorijal	531		2
 metal	3637		2
-mihal			2
+Mihal			2
 mineral	608		2
 misal	30		2
 mistral			2
@@ -101,7 +101,7 @@ mural	272		2
 nacional	264		3
 nadal			2
 narval			2
-natal			2
+Natal			2
 naval			2
 nazal			2
 nemetal			2
@@ -111,7 +111,7 @@ nerval			2
 nikal	55		2
 opal	83		2
 original	3401		2
-orval			2
+Orval			2
 oval	80		2
 pal			1
 palatal			2
@@ -140,7 +140,7 @@ ritual	1797		2
 rival		M	2
 rojal			2
 sandal			2
-senegal			3
+Senegal			3
 serijal	3027		3
 signal	10273		2
 skandal	3907		2

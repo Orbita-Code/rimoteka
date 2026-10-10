@@ -7,8 +7,8 @@ brk	472		1
 crk			1
 crnobrk			3
 cvrk			1
-denkerk			2
-dirk			1
+Denkerk			2
+Dirk			1
 grk			1
 jork			1
 kirk			1
@@ -17,7 +17,7 @@ klerk			1
 krk		M	1
 kvark	50		1
 lunapark	15		3
-mark			1
+Mark			1
 merk			1
 mrk	102		1
 netvork			2

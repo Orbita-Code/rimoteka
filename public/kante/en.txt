@@ -4,14 +4,14 @@ Minhen			2
 abdomen	204		2
 acetaminofen			3
 acetilen	35		2
-alen			2
+Alen			2
 alergen	319		3
 amen	49		2
 andersen			3
 antigen	198		3
 antverpen			3
 apoen	46		2
-arsen	337		2
+Arsen	337		2
 bacen			2
 bakren		M	2
 baren	56		2
@@ -22,7 +22,7 @@ bačen	1314		2
 baždaren	36		2
 beležen	72		3
 benzen	185		2
-bergen			2
+Bergen			2
 bescen		M	2
 besmislen	1116		3
 besposlen	140		3
@@ -49,7 +49,7 @@ branjen	94		2
 braten			2
 braćen			2
 brašnen		M	2
-bremen			2
+Bremen			2
 bren			1
 brufen	269		2
 brušen	29		2
@@ -63,7 +63,7 @@ ceđen	18		2
 ciglen			2
 crkven	28		2
 crven	921		2
-damijen			3
+Damijen			3
 davljen			2
 deljen	358		2
 den	537		1
@@ -123,13 +123,13 @@ dvostepen			3
 džentlemen			3
 džentlmen	482		2
 eden		M	2
-elen			2
+Elen			2
 en		M	1
 erogen			3
 estrogen	499		3
 etilen	95		3
 etjen			2
-eugen			3
+Eugen			3
 fen		M	1
 fenomen	8183		2
 fibrinogen			4
@@ -161,16 +161,16 @@ grumen	263		2
 gulden	23		2
 gumen	11		2
 guren			2
-gven			1
+Gven			1
 gvozden	214		2
 gvožđen			2
-hagen			2
+Hagen			2
 hajden			2
 hajneken			3
 halucinogen	11		5
 hansen			2
 hapšen			2
-helen			2
+Helen			2
 hercen			2
 hesen			2
 heterogen	69		4
@@ -363,11 +363,11 @@ kamen	13670		2
 kancerogen	179		4
 kapiten	7152		3
 karcinogen			4
-karen			2
-karmen			2
+Karen			2
+Karmen			2
 katren	22		2
 kažnjen	3641		2
-ken			1
+Ken			1
 kesten	503		2
 kinjen			2
 kićen	11		2
@@ -420,7 +420,7 @@ limen	19		2
 liven	38		2
 ličen	10		2
 lišen	1768		2
-ljuben			2
+Ljuben			2
 ljubljen	43		2
 lomljen	31		2
 loren			2
@@ -432,9 +432,9 @@ madlen			2
 maglen		M	2
 magnoven			2
 malen	457		2
-maljen			2
+Maljen			2
 maneken	788		3
-marlen			2
+Marlen			2
 marten			2
 mažen	35		2
 meden	51		2
@@ -443,7 +443,7 @@ meren	358		2
 meten			2
 metropoliten			3
 mešen	10		2
-milen			2
+Milen			2
 mimoiđen			2
 mislen			2
 mizanscen	147		2
@@ -1084,7 +1084,7 @@ ozlojeđen	93		4
 označen	2135		2
 oznojen	66		3
 ozračen	46		2
-ozren			2
+Ozren			2
 ozvaničen	289		3
 ozvučen	36		3
 očeličen			3
@@ -1110,7 +1110,7 @@ paćen			2
 pažen	44		2
 pen		M	1
 pečen	361		2
-pilsen			2
+Pilsen			2
 piralen			3
 pismen	768		2
 pivotmen	142		3
@@ -1121,7 +1121,7 @@ plaćen	3870		2
 plen	3350		1
 plenjen			2
 pleten			2
-pleven			2
+Pleven			2
 pljen		M	1
 plovidben			3
 pobeđen	503		2
@@ -1265,7 +1265,7 @@ povijen	124		3
 povišen	1867		2
 povlačen	18		2
 povlašćen	426		3
-povlen			2
+Povlen			2
 povraćen	47		2
 povremen	70		3
 povređen	4207		2
@@ -1446,7 +1446,7 @@ privremen	343		3
 privržen	452		3
 privučen	205		2
 prizemljen	61		2
-prizren			2
+Prizren			2
 pričašćen			3
 pričešćen	12		3
 pričinjen			3
@@ -1515,7 +1515,7 @@ punjen	153		2
 puten	26		2
 pušten		M	2
 rabljen	22		2
-raden			2
+Raden			2
 ramen			2
 ranjen	2230		2
 raseljen	61		2
@@ -1622,7 +1622,7 @@ rovašen		M	3
 rozen			2
 roćen			2
 rođen	25179		2
-ruben			2
+Ruben			2
 rukopoložen	625		3
 rukovođen	216		2
 rumen	141		2
@@ -1777,7 +1777,7 @@ suštastven			2
 sužen	551		2
 svaljen	15		2
 sveden	1488		2
-sven			1
+Sven			1
 svetlocrven			2
 svetlozelen			3
 svevremen		M	3

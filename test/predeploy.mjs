@@ -6409,7 +6409,7 @@ print(len(ws), len(bad), ' '.join(bad[:6]))"`, { cwd: ROOT, encoding: 'utf8' }).
         const parovi = [];
         for (let i = 0; i < jekStart && parovi.length < 25; i++) { const w = WORDS[i]; if (!/^[A-ZČĆŠŽĐ]/.test(w)) continue;
           const grp = byKey.get(KEYS[i]); if (!grp || grp.length < 2 || grp.length > 40) continue;
-          const partner = grp.map(j => WORDS[j]).find(x => x !== w && x === x.toLowerCase() && !BLOCKED.has(x) && !isKidsBlocked(x));
+          const partner = grp.map(j => WORDS[j]).find(x => x !== w && x !== w.toLowerCase() && x === x.toLowerCase() && !BLOCKED.has(x) && !isKidsBlocked(x));   // 10.10.2026: ne mali dvojnik (ago/Ago) – reč nije rima samoj sebi
           if (!partner || BLOCKED.has(w.toLowerCase())) continue; parovi.push([w, partner]); }
         const pali = [];
         for (const [w, partner] of parovi) { rimeInput.value = partner; doRhymes();

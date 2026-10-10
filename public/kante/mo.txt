@@ -1,4 +1,6 @@
 5413
+Hilmo			2
+Momo			2
 adaptiramo	98		3
 afirmišemo			3
 ajdemo			3
@@ -497,7 +499,6 @@ hakujemo			3
 hanumo			3
 hapsimo			3
 harčimo			3
-Hilmo			2
 hitajmo			3
 hitamo	56		3
 hitimo			3
@@ -1209,7 +1210,6 @@ molimo	9935		3
 molismo			3
 molićemo	35		4
 moljakamo	18		3
-Momo			2
 montiramo	104		3
 moramo	55267		3
 moraćemo	1935		4

@@ -16,6 +16,9 @@ Norvešku	126		3
 Poljsku	567		2
 Slovačku	120		2
 Tursku	1944		2
+Češku	166		2
+Švajcarsku	224		3
+Švedsku	179		2
 advokatsku	427		2
 aerobiku	42		3
 aerodinamiku	159		3
@@ -2776,7 +2779,6 @@ zvučniku	89		3
 ćurku	93		2
 ćuviku			3
 ćušku	74		2
-Češku	166		2
 čajanku	52		3
 čajniku	18		3
 čanku			2
@@ -2840,8 +2842,6 @@ zvučniku	89		3
 đoku			2
 đuku			2
 đurđevku			3
-Švajcarsku	224		3
-Švedsku	179		2
 šabačku	87		3
 šahovsku	251		3
 šajkašku			3

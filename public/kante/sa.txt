@@ -1,8 +1,18 @@
 630
+Alisa			2
+Bursa			2
 Isusa			3
+Larisa			2
 Marsa			2
+Melisa	195		2
+Musa	298		2
+Pisa		M	2
+Provansa			2
+Saragosa			3
 Tunisa			3
 Uskrsa			3
+Vanesa			3
+Zlakusa			3
 abakusa	28		4
 abonosa			3
 abortusa	1256		3
@@ -15,7 +25,6 @@ albatrosa	24		4
 aleksa			3
 alfonsa			2
 alijansa	1838		3
-Alisa			2
 alosaurusa			3
 ambisa	340		3
 amosa			3
@@ -73,7 +82,6 @@ bronhitisa	591		3
 brusa	268		2
 brzopisa			4
 buritosa			3
-Bursa			2
 busa	417		2
 celzijusa	717		3
 cenzusa	1255		3
@@ -287,7 +295,6 @@ kvasa			2
 lagosa			3
 laosa			3
 lapsusa	87		3
-Larisa			2
 lasa			2
 lateksa	178		3
 lesa	116		2
@@ -316,7 +323,7 @@ masa	12970		2
 matisa			2
 medresa	321		3
 melasa	48		2
-Melisa	195		2
+melisa	195		2
 melosa	131		3
 memfisa			2
 meningitisa	434		3
@@ -337,7 +344,6 @@ morisa			2
 mosa			2
 mošusa	69		3
 mungosa	25		3
-Musa	298		2
 nabasa	67		2
 nadglasa	36		2
 naftagasa			3
@@ -407,7 +413,7 @@ pesosa	22		3
 pezosa			3
 pikasa			2
 pilatesa	184		3
-Pisa		M	2
+pisa		M	2
 plavokosa	208		3
 plebsa			2
 pleksiglasa	181		3
@@ -456,7 +462,6 @@ progresa	1460		3
 prokasa			2
 propisa	15036		3
 prosa	159		2
-Provansa			2
 prsa	1628		2
 psa	10303		1
 pterosaurusa			3
@@ -501,7 +506,6 @@ salsa	514		2
 samodoprinosa	1116		3
 samokresa			4
 santosa			3
-Saragosa			3
 sasa		M	2
 seansa	184		2
 secikesa	87		3
@@ -582,7 +586,6 @@ usisa	239		2
 ustalasa			3
 uzusa	45		3
 užasa	1466		3
-Vanesa			3
 vargasa			2
 varijansa			3
 vasa			2
@@ -605,7 +608,6 @@ zbrisa			2
 zemljopisa	35		4
 zemljotresa	3969		4
 zevsa			2
-Zlakusa			3
 zlatokosa	149		3
 ćasa		M	2
 ćosa			2
@@ -627,8 +629,6 @@ zlatokosa	149		3
 žigosa			3
 živopisa	445		3
 životopisa	142		3
-pisa		M	2
-melisa	195		2
 bijesa	177		3
 lijesa			3
 ljetopisa			4

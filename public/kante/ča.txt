@@ -1,6 +1,7 @@
 535
 Beča			2
 Guča			2
+Manjača			3
 Rača			2
 alapača	51		3
 apača			3
@@ -175,7 +176,6 @@ ludača		M	3
 lukača			3
 luča		M	2
 mahača			3
-Manjača			3
 mača	1260		2
 menjača	2044		2
 merača	433		2

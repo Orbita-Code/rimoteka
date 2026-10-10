@@ -111,6 +111,10 @@ Venecijom			3
 Venerom			3
 Vranjom			2
 Zagrebom			3
+Češkom	725		2
+Španijom			3
+Švajcarskom	897		3
+Švedskom	789		2
 abažurom			3
 abecednom	182		4
 abecedom	43		2
@@ -12338,7 +12342,6 @@ zvučnom	440		2
 ćuskijom			3
 ćutljivom	26		3
 ćutnjom	61		2
-Češkom	725		2
 čadorom			3
 čahurom			3
 čajkovskom			3
@@ -12556,9 +12559,6 @@ zvučnom	440		2
 đuricom			3
 đurom			2
 đurđevom			3
-Španijom			3
-Švajcarskom	897		3
-Švedskom	789		2
 šabanom			2
 šabačkom	320		3
 šablonom	65		2

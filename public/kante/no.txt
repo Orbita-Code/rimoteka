@@ -1,9 +1,15 @@
 5459
 Argentino			2
+Brno		M	2
+Bruno			2
+Dino	24		2
+Frano			2
 Kino	602		2
+Livno			2
 Ljubljano			2
 Milano			2
 Prištino			3
+Salerno			3
 Ukrajino			4
 abecedno	28		4
 abnormalno	236		4
@@ -310,12 +316,10 @@ brilijantno			2
 briljantno	597		2
 brisano	110		3
 brižno	574		2
-Brno		M	2
 brojno	901		2
 brojčano	1024		3
 bronzano	436		3
 broširano	19		3
-Bruno			2
 brutalno	2710		3
 brvno	120		2
 brzometno	62		4
@@ -436,7 +440,6 @@ diktirano	49		3
 dimljeno	78		3
 dinamizovano			3
 dinamično	874		4
-Dino	24		2
 dinstano	25		3
 dirano	37		3
 direktno	49470		3
@@ -730,7 +733,6 @@ fragmentarno	209		4
 frajerčino			3
 fraktalno	11		2
 frankirano			3
-Frano			2
 frapantno	193		2
 frekventno	103		2
 frenetično	99		3
@@ -1500,7 +1502,6 @@ lino			2
 linčovano			4
 lisno	25		2
 literarno	491		4
-Livno			2
 lično	46659		2
 lišavano			3
 lišeno	552		3
@@ -4010,7 +4011,6 @@ sakralno	97		2
 sakrivano	14		3
 sakriveno	486		4
 sakupljeno	684		4
-Salerno			3
 saliveno	34		3
 samardžijino			3
 samilosno	27		3

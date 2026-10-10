@@ -1,7 +1,11 @@
 5565
 Angoli			2
+Berkli			2
 Briseli			3
+Fazli			2
 Istanbuli			4
+Lili	855		2
+Neli			2
 abdicirali			3
 adaptirali	207		3
 admirali	73		2
@@ -72,7 +76,6 @@ beleli			3
 beležili	430		4
 beli	1338		2
 belili			3
-Berkli			2
 besedili	28		4
 besneli	75		3
 betonirali	27		3
@@ -427,7 +430,6 @@ falsifikovali	217		3
 farbali	113		3
 fascikli	132		2
 faveli	35		3
-Fazli			2
 festivali	1101		2
 fili			2
 filijali	968		3
@@ -1234,7 +1236,6 @@ liberali	1307		2
 libili	124		3
 likovali	105		3
 likvidirali	324		3
-Lili	855		2
 linčovali	66		4
 lizali	71		3
 liznuli	10		3
@@ -1681,7 +1682,6 @@ negoli		M	3
 negovali	418		4
 nekmoli		M	3
 nekropoli	109		3
-Neli			2
 nemali	585		2
 nemetali	78		3
 nemili	302		3

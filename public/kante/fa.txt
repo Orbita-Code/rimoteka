@@ -1,5 +1,7 @@
 94
+Haifa			2
 Josifa			3
+Mustafa			3
 adolfa			3
 alefa			3
 alfa	4481		2
@@ -28,7 +30,6 @@ golfa	2332		2
 grafa	373		2
 grifa			2
 grofa	886		2
-Haifa			2
 harfa	161		2
 hatišerifa			3
 hijeroglifa	104		2
@@ -54,7 +55,6 @@ lafa			2
 limfa	67		2
 litografa	17		3
 mastifa	50		2
-Mustafa			3
 nimfa	190		2
 paragrafa	317		3
 poligrafa	48		3

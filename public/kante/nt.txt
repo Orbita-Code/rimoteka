@@ -1,4 +1,8 @@
 254
+Klint			1
+Mont			1
+Nant			1
+Pijemont			2
 abiturijent			2
 abonent		M	2
 absint			2
@@ -115,7 +119,6 @@ kent			1
 klement			2
 klijent	6759		2
 kliment			2
-Klint			1
 koeficijent			2
 kolaborant		M	3
 komandant	6590		2
@@ -166,11 +169,9 @@ militant			2
 ministrant	20		2
 mint	269		1
 moment	1926		2
-Mont			1
 monument	102		2
 mutant	180		2
 muzikant	48		2
-Nant			1
 nekromant		M	2
 nerezident	78		2
 oktant			2
@@ -185,7 +186,6 @@ pedant	23		2
 pepermint	76		2
 pergament	128		2
 pigment	436		2
-Pijemont			2
 point			2
 politikant	105		3
 postament			2

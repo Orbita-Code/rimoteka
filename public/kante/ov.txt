@@ -1,4 +1,6 @@
 618
+Harkov			2
+Ljvov			1
 adamov			3
 admiralov			3
 ahilov			3
@@ -153,7 +155,6 @@ guvernerov	10		3
 gušterov			3
 gvozdenov			3
 hadžimanov			3
-Harkov			2
 hegelov			3
 herkulov			3
 hitlerov			3
@@ -269,7 +270,6 @@ leskov		M	2
 lešnikov			3
 limunov	253		3
 lipov			2
-Ljvov			1
 lomonosov			3
 lopov	2526		2
 lotosov	44		3

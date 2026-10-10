@@ -1,4 +1,6 @@
 650
+Greg			1
+Karabeg			3
 aktivnijeg	123		4
 alajbeg			3
 ambicioznijeg			6
@@ -98,7 +100,6 @@ gorućeg	142		2
 gospodnjeg			3
 gostujućeg	555		3
 goveđeg	374		3
-Greg			1
 grešnijeg			3
 grgeteg			3
 grmećeg			3
@@ -152,7 +153,6 @@ jutrošnjeg	97		3
 jučerašnjeg	2656		3
 južnijeg	13		3
 kajućeg			3
-Karabeg			3
 kasnijeg	902		3
 klečećeg	31		3
 kojeg	45512		2

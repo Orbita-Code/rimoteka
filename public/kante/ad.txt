@@ -1,6 +1,21 @@
 185
 Beograd			2
+Esad			2
+Ferhad			2
+Fuad			2
+Konrad			2
+Korad			2
+Mirsad			2
+Mohamad			3
+Nihad			2
+Obrad			2
 Petrograd			3
+Resad			2
+Sead			2
+Senad			2
+Suad			2
+Volgograd			3
+Zijad			2
 asad			2
 bagdad			2
 balad			2
@@ -25,11 +40,8 @@ dugmad	362		2
 dugobrad			2
 dževad			2
 džihad	567		2
-Esad			2
 fad			1
 farad			2
-Ferhad			2
-Fuad			2
 gad	294		1
 gamad	370		2
 gamzigrad			3
@@ -59,20 +71,16 @@ katkad	2040		2
 kljusad			2
 klupčad			2
 komad	9431		2
-Konrad			2
 kontranapad	452		2
 kopilad	43		3
-Korad			2
 kosopad			3
 lad			1
 lanad	13		2
 lenjingrad			3
 listopad	88		3
 milorad			3
-Mirsad			2
 mlad	8339		1
 mladunčad	60		2
-Mohamad			3
 mosad			2
 nad	94710		1
 nahočad			3
@@ -88,12 +96,10 @@ nekad	31082		2
 nenad			2
 nerad	1376		2
 nesklad	570		2
-Nihad			2
 nikad	72667		2
 nomad	123		2
 novorođenčad	266		2
 obad	10		2
-Obrad			2
 odojčad	510		3
 odsad	430		2
 onomad	2608		2
@@ -123,7 +129,7 @@ protivnapad	147		2
 rad	187630		1
 rasad	441		2
 raspad	4019		2
-Resad			2
+resad			2
 rešad			2
 rijad			2
 riđobrad		M	2
@@ -131,9 +137,7 @@ ropčad			2
 rukosad			3
 sad	198035		1
 samograd			3
-Sead			2
 sedobrad			2
-Senad			2
 severozapad	170		2
 sinbad			2
 sirocad			3
@@ -145,7 +149,6 @@ smrad		M	1
 srnčad			2
 srpčad			2
 staljingrad			3
-Suad			2
 suvad			2
 svakad	99		2
 tad	15120		1
@@ -160,12 +163,10 @@ velegrad	193		3
 vinograd	1399		3
 višegrad			3
 vodopad	824		3
-Volgograd			3
 vučad			2
 zapad	15033		2
 zarad	12327		2
 zasad	6155		2
-Zijad			2
 zlurad	96		2
 zvezdopad			3
 zvjerad		J	2
@@ -183,5 +184,4 @@ zvjerad		J	2
 živad			2
 živorad			3
 žutobrad			2
-resad			2
 sjeverozapad			2

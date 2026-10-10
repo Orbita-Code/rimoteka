@@ -1,7 +1,10 @@
 71
-Singapur			3
-abažur		M	2
 Artur			2
+Grgur			2
+Mensur			2
+Singapur			3
+Strazbur			2
+abažur		M	2
 azur		M	2
 ažur		M	2
 bajkonur			3
@@ -17,7 +20,6 @@ eur			2
 femur	17		2
 futur	76		2
 glamur	706		2
-Grgur			2
 guvernadur			3
 kalambur	69		3
 kaur		M	2
@@ -32,7 +34,6 @@ kusur		M	2
 lemur	22		2
 majur		M	2
 mehur	542		2
-Mensur			2
 merkur	585		2
 minotaur	63		3
 monsieur	22		3
@@ -52,7 +53,6 @@ purpur	49		2
 rastur	90		2
 rur			1
 samur	14		2
-Strazbur			2
 sur	145		1
 tambur	37		2
 timur			2

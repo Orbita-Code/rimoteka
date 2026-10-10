@@ -5481,8 +5481,10 @@ async function main() {
         const dup = WORDS.filter(w => /^[A-ZČĆŠĐŽ]/.test(w) && male.has(w.toLowerCase()));
         return { n: dup.length, primeri: dup.slice(0, 8) };
       });
-      ok('ime velikim slovom nema dvojnika malim slovom (osim pravih reči, najviše 130)',
-         blizanci.n <= 130, `${blizanci.n}: ${blizanci.primeri.join(', ')}`);
+      /* 10.10.2026 (SJ-7): 47 dvosmislenih reči (Pisa/pisa, Neda/neda, Iko/iko…) NAMERNO ima oba zapisa – ime velikim, obična reč malim
+         (scripts/sj7-dvosmislene.py) – pa prag 130 → 180. Masovni dvojnici (488 iz 2026-09) bi i dalje probili prag. */
+      ok('ime velikim slovom nema dvojnika malim slovom (osim pravih reči i 47 dvosmislenih, najviše 180)',
+         blizanci.n <= 180, `${blizanci.n}: ${blizanci.primeri.join(', ')}`);
       /* Učestalost se učitava u pozadini (`loadExtras`), na produkciji i po nekoliko sekundi –
          čeka se da stigne, ne fiksno vreme (na produkciji je 06.09. pala baš zbog toga). */
       await p45.waitForFunction(() => typeof RANK !== 'undefined' && RANK.get('Srbija') < 0, null, { timeout: 20000 }).catch(() => {});

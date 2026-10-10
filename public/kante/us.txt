@@ -1,5 +1,8 @@
 177
 Isus			2
+Kornelijus			3
+Magnus			2
+Markus			2
 abakus	56		3
 abortus	1438		2
 amadeus			3
@@ -73,7 +76,6 @@ kolumbus			3
 koncenzus	169		3
 konsenzus	4434		2
 konus			2
-Kornelijus			3
 korpus	2189		2
 kosinus	28		3
 krampus			2
@@ -93,8 +95,6 @@ lotus	272		2
 ludus			2
 luksus			2
 lupus	264		2
-Magnus			2
-Markus			2
 mauricijus			3
 maus			2
 meniskus		M	3

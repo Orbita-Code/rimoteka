@@ -1,4 +1,12 @@
 156
+Beatris			3
+Denis			2
+Elis			2
+Elvis			2
+Enis			2
+Francis			2
+Haris			2
+Kris		M	1
 Tunis			2
 adonis			3
 agrobiznis	572		3
@@ -11,7 +19,6 @@ aramis			3
 artritis	705		2
 atlantis			2
 bakropis	24		3
-Beatris			3
 bis	1224		1
 biznis		M	2
 boris			2
@@ -20,7 +27,6 @@ bronhitis	698		2
 brzopis			3
 cis			1
 cistitis			2
-Denis			2
 dermatitis	424		3
 digitalis		M	3
 dijabetis			3
@@ -28,17 +34,13 @@ dionis			3
 dis			1
 dopis	3340		2
 džingis			2
-Elis			2
-Elvis			2
 encefalitis	143		3
 endokarditis	34		3
-Enis			2
 epiglotis			3
 faringitis			3
 feris			2
 fis	819		1
 flis			1
-Francis			2
 frensis			2
 gastritis	279		2
 gastroenteritis	56		3
@@ -48,7 +50,6 @@ gratis	1045		2
 gravis			2
 grinpis			2
 gris			1
-Haris			2
 hepatitis	1204		3
 hingis			2
 his	79		1
@@ -72,7 +73,7 @@ kompromis	5096		2
 konjuktivitis	162		3
 konjunktivitis	132		3
 krasnopis		M	3
-Kris		M	1
+kris		M	1
 lapis	55		2
 laringitis	105		3
 letopis	582		3
@@ -154,7 +155,6 @@ zemljopis	83		3
 švrakopis			3
 živopis	601		3
 životopis	273		2
-kris		M	1
 ljetopis			3
 prijepis	22		2
 sjedis			2

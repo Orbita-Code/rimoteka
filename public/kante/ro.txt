@@ -1,5 +1,10 @@
 224
+Gavro			2
+Ibro			2
 Kairo			3
+Kiro			2
+Petro			2
+Saporo			3
 alegro			3
 aleksandro			3
 astro	469		2
@@ -41,7 +46,6 @@ gabro			2
 gaduro			3
 garo			2
 gastro	305		2
-Gavro			2
 gitaro			2
 goro	36		2
 gro	1102		1
@@ -51,7 +55,6 @@ hidro	95		2
 hitro	849		2
 horo			2
 hrabro	5235		2
-Ibro			2
 ilustro			3
 izumro	102		2
 jaro	76		2
@@ -65,7 +68,6 @@ joširo			3
 jutro	8998		2
 karo	144		2
 kastro			2
-Kiro			2
 klaro			2
 komoro			3
 komunjaro			3
@@ -122,7 +124,6 @@ pero	2650		2
 petero	101		3
 petnaestoro	191		3
 petoro	3782		3
-Petro			2
 pijanduro	11		3
 pjetro			2
 poaro			3
@@ -159,7 +160,6 @@ ro		M	1
 romero			3
 ruđero			3
 sandro			2
-Saporo			3
 saro	36		2
 satro	142		2
 sedamdesetoro	49		3

@@ -1,7 +1,24 @@
 2683
+Azra			2
+Bera			2
+Debora			3
+Eleonora			3
+Elvira			3
 Jupitera			4
 Kaira			3
+Kolubara			3
+Laura			3
+Leonora			3
+Lora			2
+Nera			2
+Nura			2
+Roksandra			2
+Tamara			3
+Tara	821		2
 Venera			3
+Zehra			2
+Zelengora		M	3
+Zuhra			2
 abažura			2
 abdicira	97		2
 abera			3
@@ -120,7 +137,6 @@ avantura	3389		2
 avatara	391		2
 avijatičara	112		4
 azotara	601		3
-Azra			2
 azura			2
 ašura			3
 ažurira	1122		2
@@ -160,7 +176,6 @@ bebisitera			2
 bedara	69		3
 bedra	418		2
 behara	35		2
-Bera			2
 berbera	43		3
 berserkera			2
 besposličara	61		5
@@ -291,7 +306,6 @@ davora			3
 daščara	18		3
 deaktivira	161		2
 deblokira	97		2
-Debora			3
 decembara	43		3
 decembra	41369		2
 decilitara	37		3
@@ -444,9 +458,7 @@ elektora			3
 elektra	234		3
 električara	281		4
 elektromotora	598		3
-Eleonora			3
 eliksira	149		2
-Elvira			3
 emanira	57		3
 ementalera	25		2
 emigrira	189		3
@@ -979,7 +991,6 @@ kolonizatora	173		3
 kolora			3
 koloratura			2
 kolotura			4
-Kolubara			3
 komandira	494		2
 komandora			3
 komentara	18322		2
@@ -1124,7 +1135,6 @@ lansera	189		3
 lansira	1054		2
 lara			2
 lasera	1037		3
-Laura			3
 lavira	36		3
 lavora			3
 lavra	204		2
@@ -1142,7 +1152,6 @@ lektira	587		3
 lektora	318		3
 lektura	62		2
 lemura	56		2
-Leonora			3
 leotara			3
 lepomira			3
 lepra		M	2
@@ -1192,7 +1201,6 @@ lokatora	31		3
 lončara	35		2
 lopara			3
 lopatara	49		4
-Lora			2
 lotara			3
 lovora	154		3
 lovočuvara	69		2
@@ -1434,7 +1442,6 @@ nekultura			2
 nemara	744		3
 nemira	2028		3
 nepokora			3
-Nera			2
 nervatura			2
 nervira	3700		2
 nesesera			2
@@ -1465,7 +1472,6 @@ novembra	37248		2
 novinara	24101		4
 novogovora	129		3
 numera	1812		3
-Nura			2
 obara	1488		2
 obigra			3
 oblakodera	195		2
@@ -2007,7 +2013,6 @@ rivijera	379		2
 rizničara	29		3
 robera			3
 rokera	292		3
-Roksandra			2
 rolera	322		3
 romantičara	435		4
 rotira	634		3
@@ -2241,7 +2246,6 @@ taksimetra	34		4
 taktizira	72		3
 taktičara	23		4
 talira			3
-Tamara			3
 tambura	198		3
 tamničara	67		4
 tandara			3
@@ -2251,7 +2255,6 @@ tanjura	24		2
 tankera	220		3
 tantra	107		2
 tapira	15		3
-Tara	821		2
 tastatura	3024		2
 tastera	3254		3
 teatara	171		3
@@ -2504,8 +2507,6 @@ zbora	838		2
 zdera			2
 zebra	271		2
 zefira			3
-Zehra			2
-Zelengora		M	3
 zera			2
 zečara			3
 zglavkara	44		3
@@ -2519,7 +2520,6 @@ zlatopera			2
 zlotvora	225		3
 zora	1813		2
 zubara	935		2
-Zuhra			2
 zujara		M	3
 zulumćara	46		3
 zumira	157		3

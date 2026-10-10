@@ -1,5 +1,7 @@
 106
 Bangkok			2
+Ilok			2
+Timok			2
 amok			2
 bajbok		M	2
 bajmok			2
@@ -24,7 +26,6 @@ fićok			2
 flok			1
 hičkok			2
 hok			1
-Ilok			2
 inok	267		2
 istok	7346		2
 jednook			2
@@ -83,7 +84,6 @@ srok	10		1
 stafilokok			3
 streptokok			3
 svedok	7855		2
-Timok			2
 tok	16262		1
 troskok	56		2
 urok	65		2

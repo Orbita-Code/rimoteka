@@ -10,6 +10,7 @@
 | test | `bash test/lanac.sh` (6 radnika) ~10 min; `RADNIKA=3` ~10 min i stabilnije pri opterećenju; `SAMO=60 node test/predeploy.mjs` pušta jednu sekciju (nova opcija 08.10.) |
 | audit | **`AUDIT/2026-10-10-audit.md`, ocena 7,8/10, 13/13 revizora, 16/16 adversarijalnih**; sirove beleške `AUDIT/analiza/2026-10-10-revizori.md`; stanje otvorenog `AUDIT/NALAZI-OTVORENI.md` (odeljak 10.10.) |
 | sanduče (worker) | objavljeno 10.10. `f573cdf7` (ključ samo zaglavljem za JSON, 8 KB plafon, mejl bez ključa) |
+| **ZADNJA OBJAVA 10.10. ~15:15** | ispravka moje greške iz SJ-7: rečnik vraćen u red „veliki blok na vrhu, pa mali po abecedi" (preimenovane reči bile ostale na mestu malog slova, „pisa" dopisan na kraj → K3 na produkciji pao); prag dvojnika u testu 130 → 180 (47 dvosmislenih namerno ima oba zapisa). Proba 18+45: 32/32. Lanac protiv produkcije posle objave: v. `AUDIT/lanac/` najnoviji. |
 
 ## 2. Šta je urađeno 07.–10.10. (sve objavljeno)
 1. **4 visoka iz audita 07.10.** (AK-1 dug slog, AK-2 rezerva završetak, PR-1 kartica tastaturom na statičkim, TP-1 produkcijski test 100 strana + logo).

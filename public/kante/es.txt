@@ -1,5 +1,9 @@
 75
 Agnes			2
+Enes			2
+Ines			2
+Kupres			2
+Veles			2
 anđeles			3
 apsces	146		2
 bes	4789		1
@@ -16,7 +20,6 @@ dres	4229		1
 efes			2
 eksces	175		2
 ekspres	949		2
-Enes			2
 es		M	1
 fes		M	1
 fitnes		M	2
@@ -25,7 +28,6 @@ herkules			3
 hermes			2
 herpes	511		2
 hes			1
-Ines			2
 interes	26191		3
 jeres	1216		2
 johanes			3
@@ -34,7 +36,6 @@ karijes		M	3
 kertes			2
 kongres	4339		2
 kres	86		1
-Kupres			2
 les	308		1
 limes	115		2
 lopes			2
@@ -70,7 +71,6 @@ udes	1167		2
 ures	56		2
 urnebes			3
 velaskes			3
-Veles			2
 vres			1
 zemljotres	2922		3
 čempres	76		2

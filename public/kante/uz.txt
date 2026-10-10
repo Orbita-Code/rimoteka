@@ -1,4 +1,7 @@
 30
+Jonuz			2
+Junuz			2
+Tuluz			2
 aplauz	2094		3
 baksuz		M	2
 bircuz	45		2
@@ -8,8 +11,6 @@ francuz	1181		2
 gologuz	26		2
 guz			1
 hjuz			1
-Jonuz			2
-Junuz			2
 kalauz		M	3
 klouz			2
 kruz			1
@@ -22,7 +23,6 @@ rouz			2
 sluz	645		1
 sojuz			2
 topuz		M	2
-Tuluz			2
 ugursuz		M	3
 uz	385737		1
 vaduz			2

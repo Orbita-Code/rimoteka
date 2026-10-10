@@ -1,6 +1,15 @@
 107
+Brun			1
+Harun			2
 Kejptaun			3
+Mamun			2
 Neptun			2
+Radun			2
+Sadun			2
+Solun			2
+Trifun			2
+Tripun			2
+Trivun			2
 arbun			2
 autoimun			3
 babun		M	2
@@ -12,7 +21,6 @@ bilijun			2
 bogatun	16		3
 bokun	12		2
 braun			2
-Brun			1
 crvenokljun			3
 drecun			2
 dugokljun			2
@@ -23,7 +31,6 @@ gavun			2
 gun	130		1
 hamsun			2
 harpun	30		2
-Harun			2
 hun			1
 iglun			2
 imun	617		2
@@ -46,7 +53,6 @@ kuskun		M	2
 limun	1779		2
 liskun		M	2
 majmun	852		2
-Mamun			2
 medun			2
 mejnkun			2
 milijun	441		2
@@ -74,26 +80,20 @@ preračun			3
 proračun	1461		3
 pržun			2
 pun	18761		1
-Radun			2
 rakun	43		2
 rangun			2
 račun	39606		2
 rumun			2
-Sadun			2
 salun			2
 sapun	1267		2
 simeun			3
 solomun			3
-Solun			2
 somun	56		2
 stoun			2
 svilorun		M	3
 tajfun	286		2
 tajkun	1089		2
 tribun	204		2
-Trifun			2
-Tripun			2
-Trivun			2
 trun	225		1
 tutun			2
 zasun	16		2

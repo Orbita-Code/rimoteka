@@ -1,6 +1,16 @@
 59
+Dezmond			2
+Dortmund			2
+Edmond			2
+Edmund			2
+Ferdinand			3
+Gazmend			2
 Island			2
+Roland			2
+Sigmund			2
+Svazilend			3
 Tajland			2
+Žigmund			2
 ajlend			2
 andergraund		M	3
 bekend			2
@@ -11,19 +21,13 @@ blond	25		1
 bond			1
 brand	881		1
 brend	12392		1
-Dezmond			2
 diznilend			3
 doktorand			2
-Dortmund			2
-Edmond			2
-Edmund			2
 end			1
-Ferdinand			3
 fond	27290		1
 forhend	355		2
 frend	134		1
 garland			2
-Gazmend			2
 grand	1440		1
 grenland			2
 grund			1
@@ -41,13 +45,10 @@ paund			2
 portland			2
 rejmond			2
 ričmond			2
-Roland			2
 samarkand			3
 sand			1
 sekund	1566		2
-Sigmund			2
 skotland			2
-Svazilend			3
 tamarind			3
 trend	14882		1
 vagabund	21		3
@@ -57,4 +58,3 @@ zeland			2
 štand	2850		1
 štrand	602		1
 šund	506		1
-Žigmund			2

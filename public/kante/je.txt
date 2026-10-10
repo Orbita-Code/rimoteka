@@ -1,16 +1,23 @@
 8821
 Albanije			3
+Alojzije			3
 Australije			3
 Austrije			3
 Belgije			3
 Bogojavljanje			3
+Bonifacije			3
+Celje	61		2
+Dmitrije			3
 Estonije			3
 Etiopije			3
 Filipinije			3
+Georgije			3
 Holandije			3
+Hrvoje			3
 Indije			3
 Indonezije			3
 Italije			3
+Julije			3
 Kenije			3
 Kolumbije			3
 Koreje			2
@@ -19,22 +26,38 @@ Litvanije			3
 Makedonije			3
 Malezije			3
 Marije			3
+Miladije			3
+Milentije			3
 Mojsije			3
 Mongolije			3
+Monpelje			2
+Nevesinje			3
 Nigerije			3
 Noje			2
 Paragvaje			4
+Podrinje			3
+Polimlje			2
 Portugalije			3
+Prekomurje			4
+Prijepolje			3
 Prokuplje			3
+Radobolje			3
 Rumunije			3
 Rusije			3
 Sirije			3
 Skoplje			2
+Sladoje			3
 Slovenije			3
 Sofije			3
 Srbije	3611		3
+Stanoje			3
+Timotije			3
+Trebinje			3
 Venecije			3
+Vilotije			3
+Vitalije			3
 Vranje			2
+Španije			3
 abadžije			3
 abdikacije	108		3
 aboniranje			2
@@ -102,7 +125,6 @@ alineje	56		3
 aliteracije	17		3
 alkoholisanje			2
 aloje	152		3
-Alojzije			3
 alokacije	171		3
 alteracije	38		3
 alterniranje			2
@@ -458,7 +480,6 @@ bolovanje	1618		4
 boluje	2715		2
 bombardovanje	4686		5
 bombarduje	799		3
-Bonifacije			3
 boranije	244		3
 boravljenje	35		2
 borbenije	75		4
@@ -554,7 +575,6 @@ caruje	791		3
 cecilije			3
 cedulje	87		3
 celivanje	94		2
-Celje	61		2
 celovitije	94		4
 celuje			3
 cementiranje	50		2
@@ -833,7 +853,6 @@ dizanje	1556		3
 dizenterije	107		3
 dičnije			3
 dlakavije			4
-Dmitrije			3
 dobacivanje	219		2
 dobacuje	581		2
 dobavljanje	38		3
@@ -1294,7 +1313,6 @@ geodezije	167		3
 geografije	1989		3
 geologije	536		3
 geometrije	886		3
-Georgije			3
 germanije			3
 gestikulacije	91		3
 gibanje	89		2
@@ -1534,7 +1552,6 @@ hristivoje			3
 hrkanje	334		3
 hromiranje			2
 hrvanje			3
-Hrvoje			3
 htenje	213		2
 hujanje	28		2
 hukanje			3
@@ -2071,7 +2088,6 @@ jubileje			3
 judeje			3
 jugoslavije			3
 jukstapozicije			3
-Julije			3
 junakinje	841		3
 junačenje	48		2
 junačnije			4
@@ -2857,10 +2873,8 @@ migolje	20		2
 migoljenje			2
 migracije	2320		3
 miksuje			3
-Miladije			3
 milenije	14		3
 milenje			3
-Milentije			3
 milicije	893		3
 milije	431		3
 militarizovanje			2
@@ -2943,7 +2957,6 @@ monašenje	61		2
 monogamije	34		3
 monopolisanje			2
 monotonije	206		5
-Monpelje			2
 monteskje			3
 montiranje	721		2
 moralisanje			3
@@ -3689,7 +3702,6 @@ nevažnije			4
 nevernije			4
 neverovanje	139		5
 neverovatnije	148		3
-Nevesinje			3
 nevetrenje			2
 nevezanje			3
 nevečernje			3
@@ -4772,7 +4784,6 @@ podrhtavanje	260		2
 podrigivanje	157		2
 podriguje			3
 podrije	105		3
-Podrinje			3
 podrivanje	326		2
 podrobnije	859		4
 podrugivanje	23		2
@@ -4898,7 +4909,6 @@ policije	40015		3
 polifonije	64		3
 poligamije	52		3
 polije	102		3
-Polimlje			2
 polinezije			3
 poliranje	674		2
 polisemije			3
@@ -5314,7 +5324,6 @@ preklapanje	350		3
 preklinjanje	34		3
 preklinje	124		3
 prekomandovanje			2
-Prekomurje			4
 prekopavanje	58		2
 prekoračenje	1006		2
 prekoračuje	143		3
@@ -5535,7 +5544,6 @@ prijatnije	911		4
 prijavljivanje	4504		2
 prijavljuje	2010		2
 prijašnje	103		3
-Prijepolje			3
 prijestolje	68	J	2
 prikazanje	55		3
 prikazivanje	3678		2
@@ -5931,7 +5939,6 @@ radikalnije	509		5
 radiologije	236		3
 radivoje			3
 radnje	16364		2
-Radobolje			3
 radoje			3
 radonje			3
 radosnije	70		4
@@ -6683,7 +6690,6 @@ skvičanje			3
 slabije	6431		3
 slabljenje	2449		3
 slaboumlje			4
-Sladoje			3
 slaganje	1174		2
 slamanje	182		3
 slanje	5935		2
@@ -6913,7 +6919,6 @@ stanije			3
 stanje	71512		2
 stanjivanje	35		2
 stanjuje	65		3
-Stanoje			3
 stanovanje	2965		4
 stanuje	1883		2
 stapanje	215		3
@@ -7211,7 +7216,6 @@ tiganje	39		2
 tihovanje	202		4
 tiktakanje			3
 timarenje			2
-Timotije			3
 tipiziranje	11		2
 tipičnije	11		4
 tipkanje	50		3
@@ -7286,7 +7290,6 @@ traženije	92		3
 traženje	4085		3
 tražnje	4234		2
 trbobolje			3
-Trebinje			3
 trebljenje			3
 trebovanje	102		4
 trebuje	80		3
@@ -7971,7 +7974,6 @@ vijuganje	21		3
 vikanje	199		3
 vikentije			3
 viktorije			3
-Vilotije			3
 vilovanje			4
 vinarije	2266		3
 vinogorje	180		4
@@ -7984,7 +7986,6 @@ viskije	16		3
 visokogradnje	346		3
 visokoumlje			3
 visočije			3
-Vitalije			3
 vitalnije	44		4
 vitlanje	31		3
 vizantije			3
@@ -8629,7 +8630,6 @@ zvučnije	56		3
 đubrenje	556		3
 đurđije			3
 đuskanje	106		3
-Španije			3
 šahiranje			2
 šakanje			3
 šaldžije			3

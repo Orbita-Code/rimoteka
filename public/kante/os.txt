@@ -1,5 +1,7 @@
 114
+Davos			2
 Hristos			2
+Laos			2
 abonos		M	3
 adios			3
 albatros	51		3
@@ -13,7 +15,6 @@ buenos			3
 butros			2
 crnokos	17		3
 crvenokos			3
-Davos			2
 demos	104		2
 depos			2
 diskos			2
@@ -49,7 +50,6 @@ kros	1097		1
 kustos	1483		2
 lagos			2
 lakros			2
-Laos			2
 letos	2694		2
 lezbos			2
 logos	453		2

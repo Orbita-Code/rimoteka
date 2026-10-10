@@ -1,5 +1,6 @@
 17
 Beč			1
+Peč			1
 dvomeč	329		2
 grgeč	74		2
 grmeč			2
@@ -9,7 +10,6 @@ kreč	379		1
 meč	34078		1
 međureč			3
 mleč	369		1
-Peč			1
 reč	133078		1
 skeč	172		1
 smeč			1

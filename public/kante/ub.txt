@@ -1,4 +1,6 @@
 36
+Goroljub			3
+Veroljub			3
 aeroklub	110		3
 bezub	14		2
 bogoljub			3
@@ -8,7 +10,6 @@ dragoljub	921		3
 dub			1
 dvogub			2
 golub	1018		2
-Goroljub			3
 grub	1025		1
 kesizub			3
 klub	50596		1
@@ -32,6 +33,5 @@ srboljub			3
 stogub			2
 stub	5127		1
 trogub			2
-Veroljub			3
 zarub		M	2
 zub	2998		1

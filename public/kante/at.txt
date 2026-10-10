@@ -1,5 +1,18 @@
 557
+Ararat			3
+Cavtat			2
 Egipat			3
+Esat			2
+Ferat			2
+Ferhat			2
+Ignjat			2
+Midhat			2
+Mijat			2
+Morat			2
+Murat			2
+Nevzat			2
+Rifat			2
+Sedat			2
 acetat	95		2
 adresat	35		2
 advokat	3743		2
@@ -16,7 +29,6 @@ aparat	10587		2
 aperkat	25		3
 apostolat			3
 arafat			3
-Ararat			3
 argat			2
 argumenat	175		3
 arhiđakonat			3
@@ -50,7 +62,6 @@ brkat	28		2
 brokat	27		2
 brsnat		M	2
 bulat			2
-Cavtat			2
 celcat			2
 celibat	109		2
 certifikat	430		2
@@ -96,7 +107,6 @@ elaborat	1048		2
 elemenat	1816		3
 emirat	109		2
 episkopat	57		3
-Esat			2
 etomidat			3
 eufrat			3
 fabrikat			2
@@ -104,8 +114,6 @@ fakat	1151		2
 falsifikat	869		2
 fat			1
 feldspat			2
-Ferat			2
-Ferhat			2
 fiat	1379		2
 fijat	3562		2
 filtrat			2
@@ -138,7 +146,6 @@ horvat			2
 hrbat	35		2
 hrvat			2
 hvat	228		1
-Ignjat			2
 imperfekat		M	4
 implantat	146		2
 inat	2193		2
@@ -221,13 +228,10 @@ megavat	167		3
 mesnat	56		2
 međukat		M	3
 međusprat	30		3
-Midhat			2
-Mijat			2
 mlat	14		1
 momenat	8185		3
-Morat			2
+morat			2
 mulat	12		2
-Murat			2
 muskat		M	2
 muškat	17		2
 nadgledat			2
@@ -256,7 +260,6 @@ neprodat			2
 netalenat			3
 neudat			3
 neupoznat			3
-Nevzat			2
 nitrat	78		2
 nogat		M	2
 nokat	596		2
@@ -419,7 +422,6 @@ repat			2
 rezervat	1274		3
 rezultat	72147		2
 rešat			2
-Rifat			2
 rogat	22		2
 rolat	521		2
 rožnat			2
@@ -437,7 +439,7 @@ sat	33314		1
 savjetovat		J	3
 sačekat			3
 sačuvat			3
-Sedat			2
+sedat			2
 sekretarijat	5724		2
 senat	1441		2
 separat	57		3
@@ -554,5 +556,3 @@ zubat			2
 špinat	38		2
 šumnat			2
 živcat		M	2
-morat			2
-sedat			2

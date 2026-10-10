@@ -1,4 +1,6 @@
 89
+Pirot			2
+Sopot			2
 antidot			3
 autopilot	33		3
 azot	826		2
@@ -57,7 +59,6 @@ ot			1
 panajot			3
 patriot	534		2
 pilot	5108		2
-Pirot			2
 pivot	395		2
 plot	281		1
 poliglot			3
@@ -71,7 +72,6 @@ sirot			2
 skot			1
 slot	1635		1
 somot			2
-Sopot			2
 spot	6106		1
 suprot			2
 suživot	806		3

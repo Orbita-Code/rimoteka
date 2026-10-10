@@ -1,4 +1,7 @@
 3014
+August			3
+Ernest			2
+Jost			1
 abnormalnost	66		2
 adekvatnost			2
 aerodinamičnost			2
@@ -57,7 +60,7 @@ asimetričnost			3
 ateist	131		2
 atest	974		2
 atraktivnost	719		2
-August			3
+august			3
 autentičnost	1625		3
 autohtonost			3
 autokefalnost			2
@@ -419,7 +422,6 @@ endemičnost			3
 energičnost	188		3
 entuzijast	24		2
 epizodičnost			3
-Ernest			2
 ernst			1
 erotičnost	52		3
 eruptivnost			2
@@ -717,7 +719,6 @@ jezičavost			4
 ješnost		M	2
 jogunast	14		3
 jorgovanast			2
-Jost			1
 jurist			2
 kabalist			2
 kabast		M	2
@@ -3012,7 +3013,6 @@ zvučnost	57		2
 žućkast	75		2
 žučljivost			3
 žučnost		M	2
-august			3
 bezbjednost			3
 bijednost			3
 bjelokost			3

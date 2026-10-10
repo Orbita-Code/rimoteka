@@ -7,6 +7,7 @@ Estoniju			3
 Etiopiju			3
 Filipiniju			3
 Helsinkiju			4
+Hju			1
 Holandiju			3
 Indiju	381		3
 Indoneziju			3
@@ -19,6 +20,7 @@ Litvaniju			3
 Makedoniju			3
 Maleziju			3
 Mariju			3
+Metju			2
 Mongoliju			3
 Napulju			3
 Nigeriju			3
@@ -36,6 +38,8 @@ Tokiju			3
 Urugvaju			4
 Veneciju			3
 Vranju			2
+Zaporožju			3
+Španiju			3
 abdikaciju	54		3
 aboliciju	95		3
 adaptaciju	2104		3
@@ -1139,7 +1143,6 @@ histerektomiju	16		3
 histeriju	459		3
 hitaju	153		3
 hitanju			3
-Hju			1
 hladniju	79		3
 hlamidiju	23		3
 hlađenju	350		3
@@ -2245,7 +2248,6 @@ menstruaciju	727		3
 merenju	820		3
 mesiju	342		3
 meteorologiju	146		3
-Metju			2
 metodiju			3
 metodologiju	1521		3
 metohiju			3
@@ -6574,7 +6576,6 @@ zapljeskaju			3
 zapljuskivanju			3
 zapljuskuju	212		3
 zapodevaju			3
-Zaporožju			3
 zaposedaju	126		3
 zaposlenju	565		2
 zapostavljaju	244		3
@@ -6844,7 +6845,6 @@ zvučanju	12		3
 đuskaju			3
 đuvegiju			3
 đuvegliju			3
-Španiju			3
 šaljivdžiju			3
 šalju	9120		2
 šamaraju	127		3

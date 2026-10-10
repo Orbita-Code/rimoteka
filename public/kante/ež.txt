@@ -1,4 +1,5 @@
 39
+Velež			2
 bež		M	1
 bodež	168		2
 crtež	2917		2
@@ -36,7 +37,6 @@ svež	3221		1
 svrabež		M	2
 svrbež	39		2
 trulež	452		2
-Velež			2
 čadež			2
 bjež			1
 drijemež			2

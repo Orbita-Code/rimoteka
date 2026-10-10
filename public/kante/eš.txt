@@ -1,4 +1,6 @@
 1932
+Marakeš			3
+Vareš			2
 aktiviraćeš			3
 alarmiraćeš			3
 angažuješ	70		3
@@ -407,7 +409,6 @@ maleš			2
 maneš	36		2
 manipulišeš	33		3
 manišeš			3
-Marakeš			3
 mareš			2
 masiraćeš			3
 maučeš			3
@@ -1700,7 +1701,6 @@ užasneš			3
 uživaćeš	21		3
 vagaćeš			3
 vapiješ			3
-Vareš			2
 vaskrsneš	12		3
 važeš			2
 veneš			2

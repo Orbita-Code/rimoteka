@@ -1,10 +1,13 @@
 2002
 Firence			2
+Jajce	157		2
 Leskovce			3
 Mesece	1000		3
 Podgorice			4
 Subotice			4
 Užice			3
+Vlasotince			3
+Živinice			3
 ace			2
 admiralice			3
 advokatice	45		3
@@ -451,7 +454,6 @@ jagnjence		M	2
 jagnješce		M	3
 jagodice	349		4
 jajašce	116		2
-Jajce	157		2
 jajence			2
 jakobince	14		3
 jamce			2
@@ -1783,7 +1785,6 @@ vladičice			3
 vlakance			2
 vlasenice			3
 vlasnice	659		3
-Vlasotince			3
 vodenice	601		3
 vodice	550		3
 voditeljice			3
@@ -1992,7 +1993,6 @@ zvrčkice			3
 žitnice	164		3
 živce	2016		2
 živice	148		3
-Živinice			3
 živopisce			3
 životinjice	198		4
 žižice			3

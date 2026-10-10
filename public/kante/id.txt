@@ -1,21 +1,28 @@
 108
+Aristid			3
+Astrid			2
 David			2
+Dejvid			2
+Ferid			2
+Halid			2
+Hamid			2
+Leonid			3
+Lid			1
 Madrid			2
+Ohrid			2
+Said			2
 aldehid			3
 alkaloid	138		2
 android	7521		3
 antacid			2
 apatrid			2
-Aristid			3
 asteroid	1531		2
-Astrid			2
 bolid	854		2
 brid	25		1
 bromid	20		2
 celuloid	13		2
 cijanid	137		3
 dalekovid		M	3
-Dejvid			2
 deltoid		M	3
 dioksid	524		3
 droid	106		2
@@ -25,14 +32,11 @@ elipsoid			2
 euklid			3
 euripid			3
 evropeid			3
-Ferid			2
 fluid	482		2
 fluorid	59		2
 formaldehid	144		3
 fungicid	75		2
 genocid	8236		3
-Halid			2
-Hamid			2
 hasid			2
 hemoroid	37		2
 herbicid	178		2
@@ -52,15 +56,12 @@ karbid	16		2
 kid		M	1
 klorid			2
 kratkovid		M	2
-Leonid			3
-Lid			1
 lipid			2
 ljutovid			3
 mid			1
 mongoloid	17		2
 monoksid	129		3
 monosaharid			3
-Ohrid			2
 oksid	239		2
 očevid	28		3
 oštrovid			3
@@ -79,7 +80,6 @@ raskid	2983		2
 rašid			2
 rid			1
 romboid	10		3
-Said			2
 sid		M	1
 slabovid			3
 solenoid			2

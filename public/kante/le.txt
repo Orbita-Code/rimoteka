@@ -2,8 +2,13 @@
 Angole			2
 Brazile			2
 Brisele			3
+Dule			2
+Gile			2
 Istanbule			4
 Izraele			4
+Jole	113		2
+Kole	844		2
+Čile	257		2
 admirale	66		2
 afirmisale	52		3
 agitovale			3
@@ -255,7 +260,6 @@ družile	132		3
 držale	850		3
 duble			2
 duele	614		3
-Dule			2
 dunule			3
 duple	781		2
 dvorile			3
@@ -313,7 +317,6 @@ gađale	84		3
 gele			2
 generale	958		2
 gerile	222		2
-Gile			2
 gladiole	39		2
 gladovale	18		3
 glagole	184		3
@@ -613,7 +616,6 @@ javljale	356		3
 jačale	83		3
 jele	923		2
 jenjavale	16		3
-Jole	113		2
 jule	13		2
 jurile	116		3
 jurišale	12		3
@@ -692,7 +694,6 @@ koale	54		2
 kobile	355		3
 kokile			3
 koktele	706		3
-Kole	844		2
 kolutale	12		3
 komešale	10		3
 kontrole	27799		2
@@ -3294,7 +3295,6 @@ zvučale	174		3
 ćele	237		2
 ćutale	112		3
 ćušile			3
-Čile	257		2
 čarkale			2
 častile	10		3
 čavle			2

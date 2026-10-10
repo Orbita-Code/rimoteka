@@ -1,6 +1,14 @@
 3385
 Angolo			2
+Isailo			3
+Karlo			2
+Lolo			2
+Mihajlo			2
+Mijailo			3
 Oslo			2
+Pavlo			2
+Rafajlo			3
+Vukajlo			3
 adaptiralo	27		3
 afirmisalo	60		3
 agitovalo			3
@@ -369,7 +377,6 @@ inspirisalo	353		3
 interesiralo			3
 interesovalo	1609		3
 iritiralo	140		3
-Isailo			3
 isceljivalo			3
 iscepalo			3
 iscijelilo		J	4
@@ -602,7 +609,6 @@ kapalo	31		3
 kapelo			2
 karamelo			4
 karačolo			4
-Karlo			2
 kasnilo	364		3
 kastelo			3
 kazalo	224		3
@@ -731,7 +737,6 @@ ljubilo	14		3
 ljutilo	72		3
 lo		M	1
 lobiralo			3
-Lolo			2
 lomilo	100		3
 lovilo	61		3
 ložilo	25		3
@@ -767,8 +772,6 @@ mešalo	53		3
 meškoljilo			3
 migoljilo			3
 mihailo			3
-Mihajlo			2
-Mijailo			3
 mikelanđelo			3
 milo	3178		2
 milovalo	22		4
@@ -1389,7 +1392,6 @@ pasalo	20		2
 paslo	29		2
 patilo	99		3
 paulo			3
-Pavlo			2
 pazilo	98		3
 peckalo	16		3
 peglalo			3
@@ -2115,7 +2117,6 @@ radovalo	188		4
 radoznalo	494		3
 rafaelo			4
 rafailo			3
-Rafajlo			3
 ralo	104		2
 ranilo	19		3
 ranjavalo			3
@@ -2969,7 +2970,6 @@ vrtilo	20		3
 vrvelo	74		3
 vrvilo			3
 vršilo	523		3
-Vukajlo			3
 vuklo	262		2
 zabadalo			3
 zabasalo			3

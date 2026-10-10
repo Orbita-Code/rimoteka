@@ -1,7 +1,12 @@
 705
 Budimpešto			4
 Cveto			2
+Hristo			2
+Jefto			2
+Jevto			2
+Sreto			2
 Toronto			3
+Veneto			3
 akonto		M	2
 amareto			3
 anegdoto			2
@@ -106,7 +111,6 @@ hašimoto			3
 hirovito	65		3
 hladetinasto			3
 hladovito			3
-Hristo			2
 inkognito		M	3
 istaknuto	3496		3
 istinito	3087		4
@@ -129,9 +133,7 @@ jagodasto	28		4
 jahto			2
 jato	1293		2
 jedanaesto	116		3
-Jefto			2
 jeto			2
-Jevto			2
 jezgrovito	222		3
 jezovito	45		3
 jogunasto	19		4
@@ -512,7 +514,6 @@ srcasto			3
 srdito	104		3
 srebrnasto	47		4
 srebrnkasto			4
-Sreto			2
 staklasto	54		3
 stanovito	19		3
 stasito			3
@@ -596,7 +597,6 @@ valovito	28		3
 varijanto			3
 vaskrsnuto			3
 vazdušasto	26		4
-Veneto			3
 veto	1258		2
 vetrovito	285		3
 večito	3065		3

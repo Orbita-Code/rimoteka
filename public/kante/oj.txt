@@ -1,4 +1,5 @@
 4045
+Borivoj			3
 Bugarskoj	577		3
 Danskoj	131		2
 Francuskoj	1559		2
@@ -12,6 +13,9 @@ Norveškoj	168		3
 Poljskoj	543		2
 Slovačkoj	181		2
 Turskoj	1228		2
+Češkoj	315		2
+Švajcarskoj	314		3
+Švedskoj	240		2
 abrazivnoj			4
 adekvatnoj	270		4
 adresnoj	29		3
@@ -280,7 +284,6 @@ boračkoj	61		3
 borbenoj	317		3
 borinoj			3
 borisovoj			3
-Borivoj			3
 borovoj	96		3
 borskoj	447		2
 bosanskoj	731		3
@@ -3898,7 +3901,6 @@ zvučnoj	225		2
 ćirilskoj			3
 ćirićevoj			3
 ćutljivoj	11		3
-Češkoj	315		2
 čajničkoj			3
 čajnoj	25		2
 čamovoj			3
@@ -3963,8 +3965,6 @@ zvučnoj	225		2
 đinđićevoj			3
 đorđevoj			3
 đurđevoj			3
-Švajcarskoj	314		3
-Švedskoj	240		2
 šabačkoj	296		3
 šahovskoj	368		3
 šajkaškoj			3

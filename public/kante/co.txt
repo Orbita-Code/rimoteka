@@ -1,5 +1,6 @@
 55
 Firenco			3
+Muco			2
 Podgorico			4
 Subotico			4
 antikvarnico			3
@@ -26,7 +27,6 @@ lorenco			3
 maco	91		2
 meco	14		2
 mico			2
-Muco			2
 neznalico			4
 ovco	11		2
 paparaco	233		3

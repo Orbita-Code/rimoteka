@@ -1,4 +1,7 @@
 2278
+Dario			3
+Lacio			3
+Ontario			3
 Tokio			3
 adio	31		2
 antonio			3
@@ -58,7 +61,6 @@ crvenio	14		3
 curio	100		3
 cvilio	30		3
 dangubio	34		4
-Dario			3
 davio	219		3
 delio	2280		3
 desio	5131		3
@@ -416,7 +418,6 @@ kućario			3
 kućio			3
 kvario	209		3
 kvasio	28		3
-Lacio			3
 latio	381		3
 lazio	64		3
 lebdio	29		3
@@ -778,7 +779,6 @@ onemogućio	643		3
 onesposobio	71		3
 onesvestio	224		3
 onjušio	24		3
-Ontario			3
 opalio	498		3
 opametio	155		3
 opaučio			3

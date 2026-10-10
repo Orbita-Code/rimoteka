@@ -1,7 +1,11 @@
 98
+Anatol			3
+Bristol			2
+Erol			2
+Limasol			3
+Nikol			2
 aerosol	104		4
 alkohol	7473		3
-Anatol			3
 apostol	2649		3
 atol	12		2
 aureol			3
@@ -12,12 +16,10 @@ bezbol	92		2
 bisfenol	100		2
 bivol	15		2
 bol	18887		1
-Bristol			2
 col			1
 dodžbol			2
 dorćol			2
 eol			2
-Erol			2
 etanol	341		2
 evropol			3
 fajervol			3
@@ -47,7 +49,6 @@ kortizol	217		3
 kostol			2
 kreol			2
 krušedol			3
-Limasol			3
 lizol	12		2
 luminol			2
 mentol	241		2
@@ -57,7 +58,6 @@ mol	971		1
 mongol			2
 monopol	5438		3
 napol			2
-Nikol			2
 nol			1
 obol	82		2
 ohol	91		2

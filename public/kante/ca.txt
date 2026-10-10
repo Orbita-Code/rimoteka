@@ -1,13 +1,39 @@
 3339
+Bjelasica			3
+Bjelašnica			4
+Drenica			3
+Evica			3
 Firenca			2
+Ivanjica			4
+Jablanica			3
+Jasenica			3
+Konstanca			2
+Koprivnica			3
+Kosanica			3
+Kostajnica			3
+Lepenica			3
 Leskovaca			3
 Leskovca			3
+Lešnica			3
+Lovnica			3
 Loznica			3
+Lužica			3
+Lužnica	71		3
+Majevica			3
 Meseca	85634		3
+Mionica			3
+Moravica			4
+Nica		M	2
+Olgica			3
 Podgorica			4
 Požarevca			4
+Radoica			3
 Sjenica	1208		3
+Srebrenica			4
+Strumica			3
 Subotica			4
+Surdulica			4
+Đakovica			4
 aca			2
 advokatica	231		3
 afrikanaca			3
@@ -128,8 +154,6 @@ bivolica	22		4
 bičevaoca			3
 bjelanaca			3
 bjelanca			2
-Bjelasica			3
-Bjelašnica			4
 blaca			2
 blagajnica	102		3
 blagica			3
@@ -377,7 +401,6 @@ drainca			3
 drekavaca	39		3
 drekavca	46		3
 dremalica		M	4
-Drenica			3
 drhtavica	167		4
 dripaca	37		3
 dripca	28		2
@@ -445,7 +468,6 @@ ekavica	67		4
 emica			3
 esesovaca			3
 esesovca			3
-Evica			3
 evropejaca			3
 evropejca			3
 fabričica		M	3
@@ -718,7 +740,6 @@ ispuca	119		3
 istočnica			3
 istražiteljica			3
 istraživačica			3
-Ivanjica			4
 ivančica			3
 iverica	144		4
 ivica	2547		3
@@ -750,7 +771,6 @@ izvođačica	42		3
 izvršilaca	1070		3
 izvršioca	725		3
 ižica			3
-Jablanica			3
 jabučica	160		4
 jadnica	193		3
 jaganjaca	173		4
@@ -773,7 +793,6 @@ jaranica			3
 jarca	729		2
 jarebica	184		3
 jarica		M	3
-Jasenica			3
 jasenovca			3
 jaslica	130		3
 jastrepca			3
@@ -954,7 +973,6 @@ konjušnica	52		4
 konobarica	445		3
 konopaca	117		4
 konopca	748		3
-Konstanca			2
 konzervativaca	516		3
 konzervativca	90		3
 konzulica	73		4
@@ -962,7 +980,6 @@ kopačica	10		3
 kopirnica			3
 koprca	161		3
 koprivica		M	4
-Koprivnica			3
 koraca	28		2
 koračnica	29		3
 koreanaca			3
@@ -974,7 +991,6 @@ korenica			3
 korica	1107		3
 korisnica	343		4
 korpica	89		3
-Kosanica			3
 kosačica	91		3
 kosca	26		2
 kosica		M	3
@@ -982,7 +998,6 @@ kosilica	132		4
 kosopasica			3
 kosovaca			3
 kosovca			3
-Kostajnica			3
 kostolca			3
 kostolomca	10		3
 kosturnica	176		3
@@ -1154,7 +1169,7 @@ lenivca			3
 lenjivaca	45		3
 lenjivca	38		3
 lenjivica		M	4
-Lepenica			3
+lepenica			3
 lepotica	2195		3
 leptirica	102		4
 lestvica	356		3
@@ -1166,7 +1181,6 @@ letnjikovca	131		3
 letonaca			3
 letvica	290		3
 levica	1838		3
-Lešnica			3
 libanca			2
 libanonca			3
 lica	89752		2
@@ -1218,7 +1232,6 @@ loptica	998		3
 lovaca	1920		3
 lovca	1127		2
 lovica			3
-Lovnica			3
 lovokradica	64		3
 lozica		M	3
 ložionica	22		3
@@ -1241,8 +1254,6 @@ lutkica	125		3
 luzerica			4
 lučica			3
 luštica			3
-Lužica			3
-Lužnica	71		3
 maca	1578		2
 madraca	82		3
 magaraca	261		4
@@ -1250,7 +1261,6 @@ magarca	1118		3
 magarica	55		4
 maglica	71		3
 mahunica		M	3
-Majevica			3
 majica	1986		3
 majičica			3
 majmunica	23		3
@@ -1341,7 +1351,6 @@ milojica			4
 milosnica	34		4
 mimica			3
 minimalca	444		3
-Mionica			3
 mironosica	78		3
 mirotvoraca	90		3
 mirotvorca	111		2
@@ -1378,7 +1387,6 @@ molitvica			3
 moljaca	130		3
 moljca	134		2
 moravaca			3
-Moravica			4
 moreplovaca	134		3
 moreplovca	56		2
 mornarica	819		3
@@ -1510,7 +1518,6 @@ neznanaca	53		3
 neznanca	125		2
 nezvanica			3
 nečlanica	36		3
-Nica		M	2
 nigerijca			3
 nikica			3
 nizbrdica	148		4
@@ -1595,7 +1602,6 @@ okrutnica			4
 okružnica	17		4
 okućnica	151		3
 olakšica	1365		4
-Olgica			3
 olimpijaca	286		3
 olimpijca	115		3
 olovčica		M	3
@@ -2165,7 +2171,6 @@ radinica			3
 radionica	15096		3
 radnica	1404		3
 radnjica	91		3
-Radoica			3
 radojica			4
 radosnica	99		4
 rakidžinica		M	3
@@ -2482,7 +2487,6 @@ srca	30926		2
 srculenca			3
 srdaca	15		3
 srdašca			3
-Srebrenica			4
 srebrnica			3
 središnjica	27		4
 srednjoškolaca	2960		3
@@ -2549,7 +2553,6 @@ strmca			2
 strnadica			4
 strojarnica			3
 strugalica			4
-Strumica			3
 stubaca	95		3
 stubica		M	3
 stuca			2
@@ -2588,7 +2591,6 @@ suparnica	82		3
 supica	91		3
 supovca			3
 supstanca	1694		2
-Surdulica			4
 susnežica	117		4
 sutrašnjica	74		4
 suučesnica			3
@@ -3177,7 +3179,6 @@ zvončica			3
 čupavica			3
 čuturica	27		3
 čuvarica	15		3
-Đakovica			4
 đavolica		M	4
 đeravica			3
 đokica			3
@@ -3337,7 +3338,6 @@ zvončica			3
 žutica	312		3
 žutokljunca			2
 žućanica		M	3
-lepenica			3
 bijelaca	17		4
 bijelca	14		3
 bjegunaca			3

@@ -1,8 +1,16 @@
 395
+Elizabet			3
 Fikret			2
+Ismet			2
+Izet			2
 Magbet			2
+Margaret			2
+Mehmet			2
 Mljet			1
+Muhamet			3
 Nazaret			2
+Nusret			2
+Safet			2
 adet			2
 admiralitet	19		2
 afinitet	351		2
@@ -68,7 +76,6 @@ ekstremitet	107		2
 elasticitet	42		2
 elektricitet	472		2
 elektromagnet	42		2
-Elizabet			3
 entitet	1860		2
 epitet	2462		2
 eržebet			3
@@ -101,8 +108,6 @@ intenzitet	3244		2
 internet	58857		3
 intranet	293		3
 invaliditet	443		2
-Ismet			2
-Izet			2
 izgorjet		J	3
 izlet	3556		2
 izmet	708		2
@@ -161,11 +166,9 @@ letjet		J	2
 lokalitet	1698		2
 lornjet			2
 magnet	1273		2
-Margaret			2
 market	1895		2
 marmozet			3
 mediokritet	151		2
-Mehmet			2
 meket			2
 mentalitet	3490		2
 menuet	44		3
@@ -179,7 +182,6 @@ morbiditet	154		2
 mortalitet	477		2
 motet			2
 mrzisvet			3
-Muhamet			3
 mukajet			3
 nacionalitet		M	3
 nalet	799		2
@@ -195,7 +197,6 @@ nepamet			3
 net	6203		1
 nezauzet			3
 novitet	1208		2
-Nusret			2
 obuzet	68		2
 odmet	1495		2
 odnet	123		2
@@ -290,7 +291,6 @@ rivalitet	431		2
 rukomet	2440		3
 rukovet	94		3
 rulet	473		2
-Safet			2
 salinitet	79		2
 salvet			2
 samet			2

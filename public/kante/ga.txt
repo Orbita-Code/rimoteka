@@ -1,5 +1,10 @@
 1478
+Grga			2
 Hamburga			3
+Hedviga			3
+Helga			2
+Malaga		M	3
+Olga			2
 Pekinga			3
 Praga	1425		2
 abrazivnoga			5
@@ -317,7 +322,6 @@ graničnoga			4
 grdnijega			4
 grešećega			3
 grešnoga	95		3
-Grga			2
 grobnoga			3
 groga	10		2
 grohotnoga			2
@@ -334,9 +338,7 @@ hajdučkoga			2
 haranga	127		2
 haringa	139		2
 haškoga	13		3
-Hedviga			3
 helenskoga			2
-Helga			2
 hepeninga			3
 hercega			3
 hercoga			3
@@ -548,7 +550,6 @@ lukavoga	48		4
 maga	296		2
 magičnoga			4
 majčinoga			4
-Malaga		M	3
 malenoga	20		4
 maloga	263		3
 manga	637		2
@@ -772,7 +773,6 @@ okoreloga			3
 okruga	13833		3
 okružnoga			2
 olega			3
-Olga			2
 omega	2026		3
 omiljenoga			5
 onakvoga	10		2

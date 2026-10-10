@@ -1,5 +1,13 @@
 107
 Ago	13		2
+Grgo			2
+Kongo			2
+Lago			2
+Margo			2
+Tobago			3
+Togo			2
+Čikago			3
+ago	13		2
 amigo			3
 bingo	311		2
 bitango	12		2
@@ -27,7 +35,6 @@ flamengo			3
 flamingo	54		3
 frigo			2
 go		M	1
-Grgo			2
 gringo			2
 hugo			2
 igo			2
@@ -39,16 +46,13 @@ jugo	1072		2
 kargo	587		2
 kečigo			3
 knjigo			2
-Kongo			2
 kugo			2
-Lago			2
 largo		M	2
 lego			2
 logo	3974		2
 lumbago	49		3
 mago			2
 mango	10		2
-Margo			2
 mazgo			2
 mlogo			2
 mnogo	349287		2
@@ -93,8 +97,6 @@ strogo	9875		2
 suprugo			3
 tango	1563		2
 tankonogo			3
-Tobago			3
-Togo			2
 tugo	43		2
 ubogo	53		3
 vago			2
@@ -102,8 +104,6 @@ vertigo			3
 zadugo	796		3
 zago			2
 zaprego			3
-Čikago			3
 čergo			2
 đogo			2
-ago	13		2
 pobjego			3

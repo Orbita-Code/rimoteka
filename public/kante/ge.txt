@@ -1,4 +1,5 @@
 226
+George			3
 Hamburge			3
 Prage			2
 age	380		2
@@ -49,7 +50,6 @@ gage			2
 ge		M	1
 gege			2
 geologe	44		3
-George			3
 grge			2
 harange	93		2
 haringe	96		2

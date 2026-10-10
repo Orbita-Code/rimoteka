@@ -1,4 +1,6 @@
 360
+Kleo	631		2
+Leo		M	2
 anđeo	3156		3
 aranđeo			3
 arhanđeo		M	3
@@ -60,9 +62,8 @@ izvoleo	116		3
 iščileo			3
 kipeo			3
 kiseo	275		3
-Kleo	631		2
 lebdeo	217		3
-Leo		M	2
+leo		M	2
 leteo			3
 ležeo			3
 ludeo	28		3
@@ -358,7 +359,6 @@ zreo	1361		2
 žnjeo	10		2
 žudeo	135		3
 žuteo			3
-leo		M	2
 donijeo			3
 htjeo			2
 nasjeo			3

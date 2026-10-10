@@ -2,6 +2,7 @@
 Budimpešti			4
 Bukurešti			4
 Cveti			2
+Tahiti			2
 abdicirati	25		3
 ablendovati			5
 abnormalnosti	334		2
@@ -9712,7 +9713,6 @@ svršiti	352		3
 tabati			3
 tableti	822		3
 taborovati		M	5
-Tahiti			2
 tajanstvenosti	138		4
 tajati		M	3
 tajiti	38		3

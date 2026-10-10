@@ -1,4 +1,5 @@
 99
+Novgorod			3
 antipod	254		2
 barkod	174		2
 bod	4008		1
@@ -42,7 +43,6 @@ naftovod	317		3
 nahod			2
 narod	110244		2
 navod	636		2
-Novgorod			3
 nusproizvod	203		3
 obod	367		2
 od	3792672		1

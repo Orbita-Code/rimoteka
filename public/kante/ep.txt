@@ -1,4 +1,5 @@
 36
+Prilep		M	2
 akrep		M	2
 bezrep			2
 cep			1
@@ -19,7 +20,6 @@ neslep			2
 poluslep		M	3
 počep			2
 prelep	1917		2
-Prilep		M	2
 procep	284		2
 rascep	632		2
 redžep			2

@@ -1,4 +1,6 @@
 344
+Dev		M	1
+Husrev			2
 Kijev			2
 alenićev			3
 andrejev			3
@@ -32,7 +34,6 @@ danićićev			3
 daničićev			3
 davinićev			3
 delčev			2
-Dev		M	1
 dešićev			3
 dimčev			2
 dizdarev			3
@@ -65,7 +66,6 @@ grnčarev			3
 grujev			2
 grujićev			3
 grujičićev			3
-Husrev			2
 hvalospev	153		3
 ilijev			3
 ilićev			3

@@ -14,6 +14,9 @@ Norveške	771		3
 Poljske	2246		2
 Slovačke	1095		2
 Turske	7548		2
+Češke	1745		2
+Švajcarske	1442		3
+Švedske	1348		2
 adolescentske	53		3
 advokatske	1692		2
 aerodinamike	209		3
@@ -3531,7 +3534,6 @@ zvučnike	1903		3
 ćutećke			3
 ćutke		M	2
 ćuške	58		2
-Češke	1745		2
 čajanke	117		3
 čajetinske	59		3
 čajnike			3
@@ -3610,8 +3612,6 @@ zvučnike	1903		3
 đoke			2
 đuke			2
 đurđevske			3
-Švajcarske	1442		3
-Švedske	1348		2
 šabačke	565		3
 šafranske			3
 šahovske	662		3

@@ -1,25 +1,57 @@
 5504
+Andželika			3
+Banjaluka			2
+Bjanka			2
 Bugarska	1035		3
 Danska	436		2
 Finska	933		2
+Franciška			3
 Francuska	4743		2
+Gernika			3
+Gradiška			3
+Grocka			2
 Grčka	3053		2
 Hrvatska	6882		2
 Iraka			2
 Irska	346		2
 Jamajka			2
+Korzika			3
+Kostarika			3
+Krka			2
+Larnaka			3
 Makarska			3
+Malka			2
+Marika			3
+Marinka			2
 Maroka			2
 Mađarka			2
 Mađarska	1896		3
 Meksika			3
+Milinka			2
+Miljenka			2
+Minka			2
+Monika			3
 Mozambika			3
 Nemačka	7384		3
+Nevenka			2
+Nika		M	2
 Njemačka		J	3
 Norveška	538		3
 Poljska	1123		2
+Raška	1503		2
+Salamanka			2
+Savka			2
+Slavenka			2
 Slovačka	547		2
+Sofka			2
+Sutjeska			3
+Trajanka			2
 Turska	3636		2
+Veronika			3
+Veselinka			2
+Češka	1154		2
+Švajcarska	1006		3
+Švedska	993		2
 adamska			3
 administratorska	61		3
 admiralska			3
@@ -103,7 +135,6 @@ analitička	535		3
 anatomska	114		3
 andaluzijska			4
 andronika			3
-Andželika			3
 anegdotska			3
 anestetika	275		3
 angelika		M	3
@@ -283,7 +314,6 @@ banaćanka			2
 banditska	45		2
 bangkoka			3
 banijska	44		3
-Banjaluka			2
 banjalučka	156		3
 banjička			3
 banjska			2
@@ -425,7 +455,6 @@ bivaka	49		3
 bizantinka			2
 bizmarka			2
 bičarka			2
-Bjanka			2
 blagajnika	284		3
 blagajnička			3
 blanka			2
@@ -1074,7 +1103,6 @@ fraka	16		2
 franaka	1589		3
 franačka	59		3
 franciska			3
-Franciška			3
 francuska	4743		2
 franjevačka	50		3
 franka	801		2
@@ -1135,7 +1163,6 @@ gerilska	46		3
 germanistika	10		3
 germanka			2
 germanska	171		2
-Gernika			3
 gigantska	185		3
 gimnastika	619		3
 gimnastičarka	71		4
@@ -1195,7 +1222,6 @@ govedarska	26		3
 govorka	63		2
 govornika	2136		3
 govornička	30		3
-Gradiška			3
 gradiščanka			2
 gradonačelnika	15514		4
 gradska	13878		2
@@ -1227,7 +1253,6 @@ grka			2
 grmečka			3
 grnčarska	36		3
 grobljanska	77		3
-Grocka			2
 gromovnika	55		3
 gromovska			3
 grosistička			3
@@ -1864,7 +1889,6 @@ korisnika	56569		4
 korisnička	541		3
 kornerska			3
 korporacijska	38		3
-Korzika			3
 koska	127		2
 kosmetska	83		3
 kosmička	818		3
@@ -1874,7 +1898,6 @@ kosooka	12		3
 kosovka			2
 kosovska	3655		3
 kostadinka			2
-Kostarika			3
 kostarikanka			2
 kostolačka	35		3
 kostrika			3
@@ -1943,7 +1966,7 @@ kritska	18		2
 krivolaka			3
 krivosečka			3
 kriška	163		2
-Krka			2
+krka			2
 krletka	10		3
 krmaka			3
 krmka	37		2
@@ -2024,7 +2047,6 @@ lanjska	64		2
 lanka			2
 laošanka			2
 laponka			2
-Larnaka			3
 laserska	413		3
 laska	272		2
 latinička	36		3
@@ -2190,7 +2212,7 @@ makedonska	1209		2
 makrobiotika	114		3
 malajska			3
 malecka			3
-Malka			2
+malka			2
 malograđanka		M	4
 malograđanska	86		4
 maloletnika	1825		5
@@ -2219,8 +2241,7 @@ maraska			3
 maratonka	46		2
 maratonska	140		3
 mariborska	46		3
-Marika			3
-Marinka			2
+marinka			2
 marinska			3
 mariška			3
 marka	3491		2
@@ -2336,12 +2357,12 @@ milenka			2
 mileševska			3
 milicijska	15		3
 milijarderka	26		3
-Milinka			2
+milinka			2
 milionerka			3
 milionska	193		3
 militaristička	26		3
 miljenika	393		4
-Miljenka			2
+miljenka			2
 miljojka			2
 milka			2
 milkšejka			2
@@ -2357,7 +2378,6 @@ mimika	126		3
 minhenska	43		3
 ministarka	9958		3
 ministarska	570		3
-Minka			2
 minska	229		2
 mirijevska			3
 mirjanka			2
@@ -2424,7 +2444,6 @@ mondenka		M	2
 mondenska	36		3
 mongolka			2
 mongolska	76		2
-Monika			3
 monogamska			3
 monopolska	105		3
 monsunska	13		3
@@ -2641,7 +2660,6 @@ neuronska	57		3
 neutronska	99		3
 nevaljalka			2
 nevelika	211		4
-Nevenka			2
 nevernika	318		3
 nevernička			3
 nevlasnika			3
@@ -2659,7 +2677,6 @@ neđeljka		J	2
 neška			2
 nigerijka			2
 nigerijska	66		3
-Nika		M	2
 nikaka			3
 nikaragvanka			2
 nikotinska	43		2
@@ -3766,7 +3783,6 @@ račka			2
 računaljka	35		2
 računarska	963		3
 računska	75		3
-Raška	1503		2
 rašljika		M	3
 realka		M	2
 rebeka			3
@@ -3899,7 +3915,6 @@ sadržinska	50		3
 sagovornika	3980		3
 sajamska	297		3
 saksonska	18		2
-Salamanka			2
 salašarka		M	3
 salonska	57		2
 salvadorka			3
@@ -3950,7 +3965,7 @@ savetnika	5575		4
 savetnička	25		3
 saveznika	4685		4
 saveznička	236		4
-Savka			2
+savka			2
 savremenika	1244		3
 savska	224		2
 sačeka	2863		3
@@ -4090,7 +4105,6 @@ slamka	364		2
 slanika	21		2
 slatinska	36		3
 slatka	2638		2
-Slavenka			2
 slavenoserbska			3
 slavenosrpska			3
 slavenska	103		2
@@ -4161,7 +4175,6 @@ sociološka	556		3
 sofijska	30		3
 sofistika			3
 sofistička	15		3
-Sofka			2
 softverska	1074		3
 sojka			2
 soka	3023		2
@@ -4352,7 +4365,6 @@ susedka			3
 susedska	15		3
 susetka		M	3
 sustanarka			4
-Sutjeska			3
 sutoka			3
 suučesnika			3
 suvaraka	16		3
@@ -4533,7 +4545,6 @@ trafika	330		3
 tragalačka			3
 tragika	152		3
 tragička			3
-Trajanka			2
 traka	5118		2
 traktorska	49		3
 tramvajska	147		3
@@ -4819,10 +4830,8 @@ verenika	287		4
 verenička			4
 vernika	4741		3
 veronauka	539		3
-Veronika			3
 verovnika			2
 verska	2192		2
-Veselinka			2
 veseljaka	84		2
 veslačka	104		2
 vesnika	179		3
@@ -5179,7 +5188,6 @@ zvučnika	3002		3
 ćurka	201		2
 ćuvika			3
 ćuška	92		2
-Češka	1154		2
 čajanka	193		2
 čajka			2
 čajnika	57		3
@@ -5299,8 +5307,6 @@ zvučnika	3002		3
 đurđevka	71		2
 đurđevska			3
 đuska			2
-Švajcarska	1006		3
-Švedska	993		2
 šabačka	343		3
 šahovska	410		3
 šajka	79		2
@@ -5497,12 +5503,6 @@ zvučnika	3002		3
 žutobrdska			3
 žutoperka		M	2
 žvaka		M	2
-krka			2
-malka			2
-marinka			2
-milinka			2
-miljenka			2
-savka			2
 bijednika	14		4
 bilježnika	34	J	3
 bjelanjaka	13	J	3

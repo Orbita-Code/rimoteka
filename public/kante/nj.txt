@@ -1,16 +1,20 @@
 56
+Kladanj			2
+Kranj			1
+Krupanj			2
+Rovinj			2
+Rtanj		M	2
+Senj			1
+Sinj			1
 badanj	28		2
 bubanj	1556		2
 bucanj			2
 gibanj		M	2
 gležanj	45		2
 gunj		M	1
-Kladanj			2
 konj	3777		1
 kočanj		M	2
-Kranj			1
 krnj			1
-Krupanj			2
 leganj		M	2
 lenj	833		1
 lokvanj	91		2
@@ -29,11 +33,7 @@ ranj			1
 ražanj	408		2
 režanj	164		2
 ripanj			2
-Rovinj			2
-Rtanj		M	2
-Senj			1
 sečanj			2
-Sinj			1
 stupanj	837		2
 sušanj			2
 sužanj	153		2

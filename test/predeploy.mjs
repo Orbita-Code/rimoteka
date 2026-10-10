@@ -7270,6 +7270,19 @@ print(json.dumps([[w, ns['count_syl'](w), ns['rhyme_key'](w.lower())] for w in u
         ok('PR-5 · napomena o tastaturi (.kbd-note) u tamnoj temi ima kontrast ≥ 4,5:1', !!pr5 && kontrast(pr5.fg, pr5.bg) >= 4.5, pr5 ? kontrast(pr5.fg, pr5.bg).toFixed(2) : 'nema .kbd-note');
         await c.close();
       }
+      // A1) V-1: „sačuvaj rime u Omiljene" iz beležnice stvarno puni Omiljene (ključ koji se ČITA), ne skladište koje niko ne čita
+      {
+        const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+        await c.addInitScript(() => { try { localStorage.setItem('rimoteka_interno', '1'); } catch (e) {} });
+        const p = ojacajStranu(await c.newPage());
+        await p.goto(BASE + '/pisanje-pesama/', { waitUntil: 'domcontentloaded' });
+        await p.waitForFunction(() => typeof WORDS !== 'undefined' && WORDS.length > 250000, null, { timeout: 180000 });
+        await p.click('#noteEditor'); await p.keyboard.type('nas'); await p.waitForFunction(() => document.querySelectorAll('#noteRhymes .chip').length > 3, null, { timeout: 15000 }).catch(() => {}); await pauza(400);
+        await p.click('#saveRhymeList'); await pauza(500);
+        const v1 = await p.evaluate(() => { const f = JSON.parse(localStorage.getItem('rimoteka_favorites') || '[]'); const prva = document.querySelector('#noteRhymes .chip .word')?.textContent.trim(); const fc = document.getElementById('favCount'); return { n: f.length, prva, imaPrvu: !!prva && f.includes(prva), tab: fc ? fc.textContent : String(f.length), lists: localStorage.getItem('rimoteka_lists') }; });   // /pisanje-pesama/ nema tab-brojač
+        ok('V-1 · „sačuvaj rime u Omiljene" iz beležnice upisuje rime u Omiljene (rimoteka_favorites), tab pokazuje broj, mrtvi ključ se ne piše', v1.n > 3 && v1.imaPrvu && Number(v1.tab) === v1.n && v1.lists === null, JSON.stringify(v1));
+        await c.close();
+      }
       // A2) UI-5: povratnik sa pesmom u beležnici otvara početnu – naslov, h1 i kanonikal ostaju POČETNI (polje je prazno)
       {
         const c = await browser.newContext({ viewport: { width: 1280, height: 800 } });

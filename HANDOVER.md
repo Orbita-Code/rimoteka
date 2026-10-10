@@ -1,3 +1,81 @@
+# HANDOFF 10.10.2026 – ČITATI PRVO (sesija 07.–10.10.2026; sledeća sesija ISPRAVLJA SVE IZ AUDITA 10.10.)
+
+## 1. Gde smo
+
+| Šta | Stanje |
+|---|---|
+| grana | `fix/audit-0709-drugi-krug` (sve se radi na njoj; `main` se ff-uje posle „da" vlasnice – jedno „da" = jedan push) |
+| `main` / produkcija | poslednji push 10.10. ~14:35 (`6a7936385f`: više reči → poslednja reč; UI-5 naslov; SJ-7 dvosmislene; audit) + posle toga commit za „žvak" i V-1 (v. git log) |
+| rečnik | 281.6xx reči (`wc -l public/reci.txt`), 5.346 ijekavica; 10.10. obrisano 109 hrvatskih + 54 strana mesta + „žvak"; 1.236 imena velikim slovom; 47 dvosmislenih (pisa, neda, iko…) imaju OBA zapisa |
+| test | `bash test/lanac.sh` (6 radnika) ~10 min; `RADNIKA=3` ~10 min i stabilnije pri opterećenju; `SAMO=60 node test/predeploy.mjs` pušta jednu sekciju (nova opcija 08.10.) |
+| audit | **`AUDIT/2026-10-10-audit.md`, ocena 7,8/10, 13/13 revizora, 16/16 adversarijalnih**; sirove beleške `AUDIT/analiza/2026-10-10-revizori.md`; stanje otvorenog `AUDIT/NALAZI-OTVORENI.md` (odeljak 10.10.) |
+| sanduče (worker) | objavljeno 10.10. `f573cdf7` (ključ samo zaglavljem za JSON, 8 KB plafon, mejl bez ključa) |
+
+## 2. Šta je urađeno 07.–10.10. (sve objavljeno)
+1. **4 visoka iz audita 07.10.** (AK-1 dug slog, AK-2 rezerva završetak, PR-1 kartica tastaturom na statičkim, TP-1 produkcijski test 100 strana + logo).
+2. **15 srednjih + 22 niska iz audita 07.10.** – spisak sa proverama u NALAZI „POPRAVLJENO 08.10."; test sekcija 60; AK-3 (podrazumevani akcenat = treći slog od kraja, izmereno 25,5 % → 79,5 %; `build/akcenti-rucno.json` za televizor/revizor/prizor); nginx (SEO-1/SEO-4/PF-3) uživo.
+3. **Odluke vlasnice 10.10.**: FAQPage uklonjen; `backend/` u Kanti; igra ostaje po starom pravilu (KL-2); 109 hrvatskih reči obrisano (`scripts/sj3-hrvatske.py`, ijekavica ostaje); 1.236 imena/mesta velikim slovom (`scripts/sj7-imena-velikim.py`); 54 nepoznata strana mesta izbačena (`scripts/sj8-strana-mesta.py`); „žvak" obrisana.
+4. **Prijave vlasnice 10.10. (sa telefona i laptopa)**: „haj hajde haj" → slepljena reč → sad rima za POSLEDNJU reč (`upitIzUnosa`); uvodni pasus ispod naslova reči sklonjen; „Rime za reč „drugari“" na praznoj početnoj (tihi poziv iz beležnice menjao h1/naslov/kanonikal – UI-5) popravljeno; „sačuvaj rime u Omiljene" iz beležnice sad stvarno puni Omiljene (V-1).
+5. **Pun audit 10.10.** (13 revizora).
+
+## 3. ŠTA SLEDEĆA SESIJA RADI – SVE IZ AUDITA 10.10., redom (vlasnica: „sledeća sesija će morati sve da ispravi")
+
+> Pun opis, merenje i recept za svaki: `AUDIT/2026-10-10-audit.md`. Ovde samo redosled i mesto. Posle svake popravke: provera u test
+> (prvo `SAMO=NN` sama, pa pun lanac), NALAZI „POPRAVLJENO", pa „da" za push.
+
+| # | Nalaz | Gde | Recept (kratko) |
+|---|---|---|---|
+| 1 | **MOB-A** prva rima van prvog ekrana na strani reči (908 px / 844) | `gen_pages.py` ~1299/1196/1305, `style.css` ~1944 | na ≤600 px uvod + definicija + CTA ISPOD grupa rima (CSS `order` ili redosled u generatoru); test: 390×844 prva `.chip` top ≤ 844 |
+| 2 | **KL-3** grupe „Isti završni slog" i „Šire rime" bez jekavskog filtera | `app.js` petlja posle `const fk = finalSylKey(q)` (~1600) i petlja `wide` (~1660) | dodati `if(!includeJek && JEKAVSKI.has(m)) continue;` kao u 1522; test: „cvet"+šire bez kvačice → 0 iz JEKAVSKI, „delhi" bez „suhi" |
+| 3 | **INT-1** Ctrl/Cmd+Z u beležnici ne radi posle bojenja rime | `app.js` bojenje `innerHTML` (~2627) i `zapisiBelesku` (~3878) | CSS Custom Highlight API (bojenje bez diranja DOM-a) ili sopstveni stek pre svakog `innerHTML =`; test: `more⏎gore`, 700 ms, Cmd+Z → `more⏎` |
+| 4 | **TP-12** sek. 55 dečji×telefon prolazi vakuumom (26/26) | `test/predeploy.mjs` ~6474 | birati reč sa blokiranom rimom; `ok(blokirana !== null && …)` |
+| 5 | **AK-8** iznenada → promenada | `build/akcenat.py` prediktor (-nada, 2 primera) | strane imenice na -ada → pretposlednji slog (pravilo pre prediktora); ponovo `scripts/akcenti-prediktor-ocena.py`; simulacija `iznenada` → promenada u Dobrim |
+| 6 | KL-6 igra priznaje vulgarnu reč u dečjem režimu | `app.js` `checkGameAnswer` (~5531) | odbiti BLOCKED uvek, isKidsBlocked u dečjem; provera funkcije bez partije |
+| 7 | KL-4 `common_suffix` bez `.lower()` → strana ≠ alat (ljudi, belorusija) | `gen_pages.py:69` | `.lower()`; „ljudi" u fiksni uzorak 39 |
+| 8 | SJ-8 „ukupno 180 reči" na 1.217 strana | `gen_pages.py` ~1234, ~1298 | tekst bez „ukupno/Sve" kad je spisak sečen na 180 |
+| 9 | SJ-9 11.677 objašnjenja samo „Oblik glagola „X“" | `app.js` oblačić/kartica | dopisati objašnjenje osnovne reči (2 linije, bez prepisivanja rečnika) |
+| 10 | AK-9 strane imenice (-al/-ed/-ol/-on/-ura ≈530) pogrešno podrazumevano | `build/akcenat.py` | spisak završetaka → pretposlednji; meriti |
+| 11 | RB-1 pad rečnika: pretraga/igra/kockica bez poruke | `app.js` catch `loadDict` (~5900) | signal pada za sva tri ulaza; test 60 B proširiti |
+| 12 | BZ-5 tuđa adresa u mejlu sanduča | `worker/prijave.js:36,159` | `rec` samo slova, `strana` samo `/…`; `wrangler deploy` uz „da" + test 46 |
+| 13 | PR-7 aria-pressed laže; PR-8 gameStart/toast tamna 2,98:1; PR-6 gamePlayersCustom bez oznake | `app.js`, `style.css`, `index.html` | v. izveštaj |
+| 14 | INT-2 Enter na predlog; INT-3 predlozi bez „ljubav"; INT-4 filter pretrage van adrese | `app.js:1848, 1999, 2093–2126` | v. izveštaj |
+| 15 | MOB-B pretraga na telefonu (tastatura ostaje); MOB-C rima gubi veliko slovo; MOB-D igra 320 | `app.js:2048, 3850`, `style.css:2399` | v. izveštaj |
+| 16 | PF-7 doRhymes 581 ms na telefonu; PF-8 CSS 79 % nepotreban | `app.js:1427`, `style.css` | indeks Map(ključ → reči); CSS tabova u zasebne fajlove |
+| 17 | TP-13..18 (seme dnevno, čuvar po radniku, CLS medijana, trojka stanja, povratnik, položeno) | `predeploy.mjs`, `lanac.sh` | v. izveštaj |
+| 18 | 31 nizak | izveštaj, odeljak NISKO | redom |
+
+**Odluke koje čekaju vlasnicu** (ne raditi bez nje): AK-10 (rezerva i isti naglašeni samoglasnik), Beograd bez „Najboljih" (-grad izuzetak?),
+SJ-15 („ceo srpski jezik"), SEO-9 (`&decji=` linkovi), N-3 (zabranjen upit u dečjem), SJ-10 (žlica, škare, glasovir, kokus), AK-6/AK-7, SJ-2, PF-2 (brotli).
+
+## 4. PRAVILA VLASNICE NAUČENA 10.10. (sva u CLAUDE.md / memoriji / PROPUSTI)
+- **Fajl koji treba da pogleda se OTVARA (`open putanja`) u istom koraku; putanja se ne piše sama** – rekla dva puta istog dana. Globalni CLAUDE.md tačka 8, memorija `fajl-se-odmah-otvori`.
+- **Reč koju naredi da se obriše – briše se ODMAH** („žvak"); hrvatske reči – obrisane, ijekavica ostaje; imena i mesta – velikim slovom; nepoznata strana mesta – napolje.
+- Objašnjava joj se ko je šta uradio i zašto („jel nas neko napao?" → kvar u našem kodu, ne napad; koji agent/koja sesija).
+- „Sve do 10/10" – prvo se popravlja, pa se gradi; svaki audit ide u razgovor kao rezime + otvoren fajl.
+
+## 5. GREŠKE OVE SESIJE (PROPUSTI 07.–10.10.) – da se ne ponove
+1. Regex koji čita HTML generatora nije pratio promenu šablona (2×) – sad `assert` u generatoru.
+2. Provera 12b lažno zelena (brojala umesto gledala sadržaj).
+3. Zakrpa pala na `assert`, a lanac podataka krenuo sa starim kodom – zakrpa i lanac u JEDAN `&&` niz, `grep` posle zakrpe.
+4. Pravilo o velikom slovu bez provere 6 audita – svaka odluka o obliku reči istog dana dobija proveru nad celim rečnikom (sek. 54) + stavku u TESTING.
+5. Putanja bez `open` – dva puta.
+6. Menjanje rečnika dok lanac radi → prolaz nevažeći; zaustaviti lanac pa menjati.
+7. Dva lanca / lanac + agenti sa pregledačem istovremeno → isteci vremena (Xcode je skenirao repo, opterećenje 30–50): `RADNIKA=3` i čekanje `load < 8`.
+
+## 6. Komande
+```bash
+bash scripts/podsetnik-audit.sh                       # zaostatak
+SAMO=60 node test/predeploy.mjs                       # jedna sekcija sama (nova provera prvo ovako)
+RADNIKA=3 bash test/lanac.sh                          # pun lanac, stabilniji pri opterećenju
+BASE=https://rimoteka.com bash test/lanac.sh          # posle objave
+python3 build/podeli_definicije.py && python3 build/akcenat.py && python3 build/kante.py && node scripts/osvezi-verzije-podataka.mjs && python3 build/gen_pages.py   # posle SVAKE izmene rečnika/objašnjenja
+python3 scripts/akcenti-simulacija.py <reč> | --nasumicno 20 --seme N
+python3 scripts/akcenti-prediktor-ocena.py            # (AK-11: ažurirati podrazumevano na treći od kraja)
+python3 scripts/sj3-hrvatske.py [--apply] · scripts/sj8-strana-mesta.py [--apply] · scripts/sj7-imena-velikim.py · scripts/sj7-dvosmislene.py
+```
+
+---
+
 # HANDOFF 07.10.2026 – ČITATI PRVO (sesija 22.09.–07.10.2026, vlasnica tražila nov početak)
 
 ## 1. Gde smo: stanje repoa i produkcije

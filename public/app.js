@@ -172,7 +172,7 @@ const RECNIK_P = new Promise(r => { recnikStigaoResolve = r; });
    upisane u kantu, redni broj čuva redosled iz fajla). Kad ceo rečnik stigne, pretraga se ponovi (isti
    `cekaRec` red čekanja) i spisak se, ako je isti, ne dira. */
 const KANTE_IMENA = 'aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,ar,as,at,au,av,az,ać,ač,ađ,aš,až,ba,bc,be,bi,bl,bn,bo,bs,bu,ca,cd,ce,ci,co,cr,cu,da,de,df,dh,di,dl,do,dp,dr,ds,du,dz,dž,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,er,es,et,eu,ev,ez,eć,eč,eđ,eš,ež,fa,fe,fi,fl,fo,fr,ft,fu,ga,gb,gd,ge,gi,gl,gn,go,gu,ha,he,hh,hi,hm,ho,hr,hs,ht,hu,ia,ib,ic,id,if,ig,ih,ij,ik,il,im,in,io,ip,ir,is,it,iu,iv,iz,ić,ič,iđ,iš,iž,ja,jc,jd,je,jf,jg,jh,ji,jk,jl,jm,jn,jo,jp,js,jt,ju,jv,jz,ka,kb,kc,ke,kg,ki,kj,kl,ko,kp,kr,ks,kt,ku,kv,la,lc,ld,le,lf,li,lj,lk,lm,ln,lo,lp,ls,lt,lu,lš,ma,mb,me,mf,mi,ml,mo,mp,ms,mt,mu,na,nc,nd,ne,nf,ng,ni,nj,nk,no,nr,ns,nt,nu,nč,nš,nž,oa,ob,oc,od,oe,of,og,oh,oi,oj,ok,ol,om,on,oo,op,or,os,ot,ou,ov,oz,oć,oč,ođ,oš,ož,pa,pc,pe,pg,ph,pi,pj,pl,pn,po,pr,ps,pt,pu,ra,rb,rc,rd,re,rf,rg,rh,ri,rj,rk,rl,rm,rn,ro,rp,rs,rt,ru,rv,rz,rć,rč,rđ,rš,rž,sa,sb,sd,se,sf,si,sk,sl,sm,so,sr,st,su,ta,td,te,th,ti,tl,tn,to,tr,ts,tu,tv,ua,ub,uc,ud,ue,uf,ug,uh,ui,uj,uk,ul,um,un,uo,up,ur,us,ut,uu,uv,uz,uć,uč,uđ,uš,už,va,vc,vd,ve,vi,vk,vn,vo,vr,vs,vu,za,zd,ze,zi,zn,zo,zu,zv,ća,će,ći,ćo,ću,ča,če,či,čo,ču,đa,đe,đi,đo,đu,ša,še,ši,šo,št,šu,šč,šš,ža,žd,že,ži,žo,žu';   // imena svih kanti (piše osvezi-verzije-podataka.mjs) – da se ne traži kanta koje nema
-const KANTE_V = 'a41510bf';
+const KANTE_V = '98b7b60b';
 function imeKante(q){ const m = String(q).toLowerCase(); return m.length >= 2 ? m.slice(-2) : m; }
 const kanteKes = new Map();
 let kantaUToku = 0;
@@ -433,7 +433,7 @@ function syllables(w){ return countSyl(w) || 1; }
    skida 30–360 KB. Ime fajla se računa ISTIM pravilom kao u toj skripti.
    Adresa celog rečnika ostaje zapisana zbog `?v=`: `osvezi-verzije-podataka.mjs` je
    prepisuje kad se rečnik promeni, a deljeni fajlovi nose ISTI otisak – izvedeni su iz njega. */
-const DEFINICIJE_ADRESA = '/definicije.json?v=34943f6e';
+const DEFINICIJE_ADRESA = '/definicije.json?v=aeb3b874';
 const DEF_V = DEFINICIJE_ADRESA.split('?v=')[1] || '0';
 const DEF_SLOVA = 'abcčćdđefghijklmnoprsštuvzž';
 const DEF_IME = { 'č': 'cx', 'ć': 'cy', 'š': 'sx', 'ž': 'zx', 'đ': 'dx' };
@@ -500,9 +500,9 @@ async function uzmiTekst(url, obavezno){
 async function loadDict(){
   // Prvo učitaj samo rečnik (mali, brz) – rime rade odmah
   const [ek, jek, ak, akj] = await Promise.all([
-    uzmiTekst('/reci.txt?v=4efb58b4', true),
+    uzmiTekst('/reci.txt?v=9d3ccefd', true),
     uzmiTekst('/reci_jekavica.txt?v=01809e44', false),
-    uzmiTekst('/akcenat.txt?v=ad27bd7a', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
+    uzmiTekst('/akcenat.txt?v=3f23dced', false),            // akcenat po reči (red po red uz reci.txt); bez njega sve ide kao pretposlednji slog
     uzmiTekst('/akcenat_jekavica.txt?v=36f63789', false)
   ]);
   if(ek.split('\n').filter(Boolean).length < 1000){
@@ -3927,10 +3927,17 @@ function getRhymeListForLastWord(){
 el('saveRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
   if(!word || !rhymes.length){ toast('Prvo klikni na reč u pesmi – rime za nju se pojave sa strane, pa ih onda sačuvaš'); return; }
-  const lists = lsJSON('rimoteka_lists', []);
-  lists.unshift({ word, rhymes, date: new Date().toISOString() });
-  lsSet('rimoteka_lists', JSON.stringify(lists.slice(0, 50)));
-  toast(`Sačuvano ${rhymes.length} rima za „${word}"`);
+  /* V-1 (audit 10.10.2026, naredba vlasnice „odmah sredi"): dugme je obećavalo Omiljene, a upisivalo u `rimoteka_lists`
+     koji nijedan deo sajta ne čita – Omiljene su ostajale prazne. Sada rime idu u SAME Omiljene (bez duplikata, isti
+     filter „samo slova" kao pri učitavanju), tab dobija broj, a srca na kapsulama se odmah popune. */
+  const dozvoljena = w => typeof w === 'string' && /^[\p{L}\-]{1,60}$/u.test(w);
+  const nove = rhymes.filter(w => dozvoljena(w) && !favorites.includes(w));
+  nove.forEach(w => favorites.push(w));
+  sacuvajOmiljene(); updateFavCount(); renderFavorites();
+  nove.forEach(w => document.querySelectorAll(`.chip[data-w="${cssEsc(w)}"] .fav`).forEach(b => { b.classList.add('on'); b.setAttribute('aria-pressed', 'true'); b.title = favNaslov(w); }));
+  toast(nove.length
+    ? `${uiTxt('U Omiljene sačuvano')} ${nove.length} ${uiTxt(rimaRec(nove.length))} ${uiTxt('za')} „${disp(word)}“` + (nove.length < rhymes.length ? ` (${rhymes.length - nove.length} ${uiTxt('već bilo')})` : '')
+    : `${uiTxt('Sve rime za')} „${disp(word)}“ ${uiTxt('su već u Omiljenima')}`);
 };
 el('exportRhymeList').onclick = () => {
   const { word, rhymes } = getRhymeListForLastWord();
